@@ -1,0 +1,30 @@
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	// account_id はこのファイルに直書きせず、環境変数 CLOUDFLARE_ACCOUNT_ID で渡す。
+	// TODO: Cloudflare ログイン後（`wrangler login`）に `wrangler whoami` で確認し、
+	// ローカルとCI/CDの環境変数に設定する。
+	"name": "itadaki-atlas",
+	"main": ".open-next/worker.js",
+	"compatibility_date": "2026-08-16",
+	"compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+	"assets": {
+		"directory": ".open-next/assets",
+		"binding": "ASSETS"
+	},
+	"services": [
+		{
+			// Self-reference service binding, the service name must match the worker name.
+			// アダプタの内部fetch処理に必要（データストレージではない）。
+			// see https://opennext.js.org/cloudflare/caching
+			"binding": "WORKER_SELF_REFERENCE",
+			"service": "itadaki-atlas"
+		}
+	]
+	// 意図的に省略: r2_buckets / kv_namespaces / d1_databases / durable_objects
+	// ポータビリティ規約（`.doc/10_system/02_infrastructure.md` §5）に従い、
+	// Workers固有ストレージをアプリの動作要件にしない。
+	//
+	// 地図タイル用のR2バケットもここにバインドしない。ブラウザが HTTP Range で
+	// 直接読む静的ファイル置き場であり、Worker を経由しないため。
+	// 詳細: `.doc/10_system/02_infrastructure.md` §2
+}

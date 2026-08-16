@@ -49,3 +49,7 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# OpenNext (Cloudflare) build output
+.open-next/
+.wrangler/
