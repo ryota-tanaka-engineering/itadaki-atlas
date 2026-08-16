@@ -17,7 +17,7 @@ Itadaki Atlas のインフラ構成・コスト試算・スケールトリガー
 | ドメイン | `itadakiatlas.com`（**Cloudflare Registrar**） | Platform §4（gTLD は Cloudflare Registrar、原価販売） |
 | メール | Cloudflare Email Routing（受信転送） | Platform §4。事業者問い合わせフォームの通知先 |
 
-Vercel は Platform §1 で不採用が決定済み（Hobby は非商用利用限定・Pro は月$20の固定費）。
+Vercel は Platform §1 で不採用が決定済み。
 
 ## 2. 地図タイル配信: Protomaps（PMTiles）を R2 から配信
 
@@ -112,7 +112,7 @@ Platform §3 のポータビリティ実装ルールの適用状況。
 | **MapLibre GL JS / Protomaps** | **なし** | いずれも OSS。Mapbox のような商用ライセンス制約を持たない |
 | **OpenNext** | 低 | ビルド時アダプタ。AWS アダプタ（Lambda + CloudFront）へ差し替え可能（Platform §2） |
 | **Supabase（DB）** | 低 | 標準 Postgres。`pg_dump` で RDS / Aurora へ移行 |
-| **Supabase Auth** | **中（将来）** | フェーズ3の認証解禁時に発生する。Platform §3 ルール4 のとおりロックイン項目として記録する。現時点では**未使用のため依存なし**（`.doc/10_system/01_architecture.md` §4） |
+| **Supabase Auth** | **中（将来）** | フェーズ3の認証解禁時に発生する。Platform §3 ルール4 のとおりロックイン項目として記録する。現時点では**未使用のため依存なし**（`.doc/10_system/01_architecture.md` §3） |
 
 Workers 固有ストレージ（KV / D1 / Durable Objects）は**使用しない**（Platform §3 ルール1）。`output: 'standalone'` でビルド可能な状態を維持する（同ルール3）。
 

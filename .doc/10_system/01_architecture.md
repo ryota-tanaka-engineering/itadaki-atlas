@@ -50,39 +50,13 @@ Itadaki Atlas の技術構成のうち、**Platform の固定スタックから�
 
 代わりに「**共通コア + タイプ別詳細テーブル**」構成を取る。詳細は `.doc/20_data/01_models.md`。
 
-### 2.3 ORM は採用しない（決定）
+### 2.3 複雑クエリは View + RPC
 
-計画書は Prisma or Drizzle による「スキーマ→型の一気通貫」を想定していたが、**ORM は導入しない**。期待されていた役割が ORM 無しで満たせるうえ、導入コストが実益を上回るため。
+ORM は使わない（Platform `../.doc/20_data/02_migrations.md` §2 の既定どおりで差分なし）。
 
-#### 期待されていた役割と、その代替
+本プロダクトで View / RPC が必要になるのは `food_item_relations` / `food_item_regions` の多対多の辿り（例: 江戸前寿司↔コハダ、讃岐うどん＝発祥:香川＋主要提供圏:全国）。設計は `.doc/20_data/01_models.md`。
 
-| 期待していた役割 | 代替手段 |
-| :--- | :--- |
-| スキーマ→型の一気通貫 | **`supabase gen types typescript`**（Supabase標準機能）。DBスキーマから型定義を生成する。運用ルールは Platform `../.doc/20_data/02_migrations.md` |
-| 入力・境界のバリデーション | `zod`（Platform 固定スタック。変更なし） |
-| 多対多の辿り・複雑クエリ | **Postgres の View + RPC（Postgres関数）** |
-
-#### 導入しない理由
-
-- **マイグレーションの正が2つになるのを避ける。** Platform は SQL マイグレーション（`supabase/migrations` + `supabase-migration` Skill）を運用の正と定めている。ORM は自前のマイグレーション体系を持つため、スキーマの真実の所在が二重化する
-- **実装規約との衝突を避ける。** `ia-nextjs-standards` は「Supabaseへのアクセスは `src/lib/supabase/` 経由のみ」と定めている
-- **移行耐性はむしろ ORM 無しの方が高い。** 生成型 + 素のSQL は、ホスティングやBaaSを移しても資産がそのまま残る（ポータビリティ規約）
-
-#### 複雑クエリの解き方
-
-ORM が欲しくなる唯一の場面は `food_item_relations` / `food_item_regions` の多対多の辿りである（例: 江戸前寿司↔コハダ、讃岐うどん＝発祥:香川＋主要提供圏:全国）。PostgREST ベースの Supabase クライアントは深いジョインが書きにくいため、ここは **View + RPC** で解く。
-
-SQL に寄せることで `supabase-migration` Skill の運用にそのまま乗り、標準Postgres互換も保てる。具体的な View / RPC の設計は `.doc/20_data/01_models.md`。
-
-## 3. 国際化（i18n）
-
-**差分なし。** ライブラリ（`next-intl`）・サブパス方式・手動切り替え・翻訳の二層方式は、いずれも Platform の共通方針（`../.doc/10_system/10_growth_infra.md` §3）に従う。
-
-本プロダクトが多言語を要する第一号だったため、方針の策定は本プロダクトを起点に行い、**共通化して Platform に還元済み**である。
-
-対象言語と翻訳テーブルの具体的な実装は `.doc/10_system/10_growth_infra.md`。
-
-## 4. 認証の封印
+## 3. 認証の封印
 
 **フェーズ1〜2は認証を実装しない。** 理由と解禁条件を差分として記録する（`../.doc/documentation_rules.md` §4B）。
 
@@ -95,33 +69,11 @@ SQL に寄せることで `supabase-migration` Skill の運用にそのまま乗
 
 公開データのみを扱う間も、**テーブルには RLS を必ず設定する**（Platform `06_security.md`。匿名読み取り許可 + 書き込み拒否）。RLS ポリシーの詳細は `.doc/10_system/06_security.md`。
 
-## 5. ホスティング
+## 4. ホスティングと地図タイル配信
 
-**差分なし。Platform 既定に従う。**
+選定結果と根拠は `.doc/10_system/02_infrastructure.md`。ホスティング自体は Platform 既定（`../.doc/10_system/02_infrastructure.md`）に従うため差分なし。
 
-- **Cloudflare Workers（OpenNext 経由）** — `../.doc/10_system/02_infrastructure.md` §1「最初から動的（SSR / API / DB）」の経路。Supabase からのデータ取得と事業者問い合わせフォーム、および `next-intl` の middleware（初回訪問時の言語誘導）があるため、静的 export（Pages）では成立しない
-- 出口戦略は Platform §2 のとおり **AWS**（ECS Fargate + ALB / Supabase → RDS）
-- ポータビリティ実装ルール（Platform §3）をそのまま適用する
-
-計画書は Vercel を想定していたが、**Platform が Vercel を不採用と決定済み**のため採らない（理由: Hobbyプランは非商用利用限定・Proは月$20の固定費）。計画書 §13「ホスティング（Vercel想定だが未確定）」は本決定で解消とする。
-
-### 本プロダクト固有の変数: 地図タイル配信
-
-Platform が想定していない固有のコスト要因であり、**ここだけが実質的な選定対象**となる。
-
-地図は1回の表示で数十枚のタイルを取得するため、コストは転送量に支配される。SEO でトラフィックを伸ばすことが事業戦略であるため、**表示回数に比例して課金される方式は成功するほど不利になる**。
-
-| 方式 | コスト構造 | 判断 |
-| :--- | :--- | :--- |
-| **Protomaps（PMTiles）を R2 から配信** | 保管料のみ。**R2 は egress 無料**のため、トラフィックが増えても金額がほぼ動かない | **本命。** 単一ファイルへの HTTP Range リクエストで読むため、タイルサーバのプロセスが不要 |
-| 商用タイルサービス（Mapbox / MapTiler 等） | 表示回数ベースの従量課金 | 導入は速いが、事業戦略と逆行するコスト構造 |
-| OSM 公式タイル | 無料 | **不可。** 利用規約が商用・高負荷利用を禁止している |
-
-R2 を使う場合も Platform §3 ルール2 に従い、**S3 互換 API で実装**して移行時にエンドポイント差し替えで済む状態を保つ。
-
-コスト試算（MVP / 1年後 / 10倍）・スケールトリガー・ドメイン・ベンダ固有依存の記録は `.doc/10_system/02_infrastructure.md`（Platform §5 の要求事項）。
-
-## 6. アーキテクチャ概要
+## 5. アーキテクチャ概要
 
 Platform の構成（`../.doc/10_system/01_architecture.md` §3）に、地図タイル配信を加えたもの。
 
@@ -136,11 +88,11 @@ graph TD
 
 Platform の原則（データ取得はサーバー側 / 外部境界に zod / ベンダ固有APIを直書きしない）はそのまま適用する。
 
-## 7. TODO 一覧
+## 6. TODO 一覧
 
-- [x] ~~ORM を導入するか決定する~~ → **不採用**に決定（§2.3）。`supabase gen types` + zod + View/RPC で構成する
 - [x] ~~i18n ライブラリを選定する~~ → `next-intl` に決定し、Platform `10_growth_infra.md` §3 へ還元済み
 - [x] ~~PostGIS を初期から入れるか~~ → **フェーズ1では封印**（§2.1）。解禁条件は「半径検索・距離ソートの要件化」
-- [x] ~~ホスティングを選定する~~ → Platform 既定どおり **Cloudflare Workers（OpenNext）**（§5）
-- [x] ~~地図タイルの配信構成を確定する~~ → **Protomaps（PMTiles）を R2 から配信**に決定（§5）。コスト試算3点は `.doc/10_system/02_infrastructure.md` §3。**ユーザー承認待ち**
+- [x] ~~ホスティングを選定する~~ → Platform 既定どおり **Cloudflare Workers（OpenNext）**（§4）
+- [x] ~~地図タイルの配信構成を確定する~~ → **Protomaps（PMTiles）を R2 から配信**に決定（§4）
+- `TODO: [地図タイル構成とコスト試算3点（.doc/10_system/02_infrastructure.md §3）のユーザー承認を、M2 着手前に取得する]`
 - [ ] ディフォルメ地図の実装方式を決定する（自前SVG or ライブラリ。M4 着手前。`.doc/30_features/02_ui_ux.md`）

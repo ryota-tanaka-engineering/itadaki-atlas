@@ -17,9 +17,7 @@ food_items（共通コア）── dish_details（dish型の詳細）
 
 ### 1.2 座標は素の数値列で持つ
 
-`lat` / `lng` は `double precision` の素の列とし、**PostGIS の `geography` 型を使わない**。フェーズ1に半径検索・距離ソートの要件が無く、PostGIS を封印しているため（`.doc/10_system/01_architecture.md` §2.1）。
-
-解禁時は既存の `lat`/`lng` から生成列とインデックスを足すだけで移行できる。**この移行しやすさを保つことが、素の数値列で持つ理由**である。
+`lat` / `lng` は `double precision` の素の列とする（PostGIS封印の理由と解禁条件は `.doc/10_system/01_architecture.md` §2.1）。
 
 ### 1.3 言語の扱い
 
@@ -77,9 +75,9 @@ erDiagram
 | `summary` | text | | 一言説明 |
 | `history` | text | | 歴史（フェーズ2） |
 
-複合ユニーク `(food_item_id, locale)`。未翻訳時のフォールバック（`en` → `ja`）は**アプリ層で処理**し、DB に重複行を作らない。
+複合ユニーク `(food_item_id, locale)`。
 
-系統・タグ等のマスタラベルと県名は**DBに入れず**アプリの i18n 辞書ファイルで翻訳する（二層方式）。
+マスタラベルの扱いは `.doc/10_system/10_growth_infra.md` §2.2。
 
 ### 3.3 `food_item_sources` — 出典
 
