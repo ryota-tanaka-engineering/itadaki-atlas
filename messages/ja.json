@@ -26,7 +26,10 @@
     "sources": "出典",
     "accessedAt": "参照日",
     "unknown": "—",
-    "viewOnMap": "地図で見る"
+    "viewOnMap": "地図で見る",
+    "connections": "つながり",
+    "samePref": "同じ{pref}",
+    "regionPage": "{pref}の食をすべて見る"
   },
   "language": {
     "label": "言語",
@@ -88,5 +91,36 @@
     "塩": "塩",
     "豚骨": "豚骨",
     "その他": "その他"
+  },
+  "genre": {
+    "title": "ご当地{name}一覧",
+    "count": "{count}種",
+    "viewOnMap": "地図で見る",
+    "otherStyles": "その他",
+    "encyclopedia": "図鑑",
+    "byRegion": "地域から探す"
+  },
+  "region": {
+    "title": "{pref}の食",
+    "count": "{count}件",
+    "viewOnMap": "地図で見る"
+  },
+  "relation": {
+    "派生": {
+      "otherIsFrom": "源流",
+      "otherIsTo": "派生"
+    },
+    "対比": {
+      "otherIsFrom": "対比",
+      "otherIsTo": "対比"
+    },
+    "代表ネタ": {
+      "otherIsFrom": "スタイル",
+      "otherIsTo": "代表ネタ"
+    },
+    "使用食材": {
+      "otherIsFrom": "使う料理",
+      "otherIsTo": "使用食材"
+    }
   }
 }

@@ -162,3 +162,201 @@ export async function fetchPublishedPaths(): Promise<
     genreSlug: toOne(row.genres)?.slug ?? "",
   }));
 }
+
+// -----------------------------------------------------------------------------
+// データ駆動ページ用のクエリ群。
+// 行を足すだけでページ・リンクが増える機械（.doc/30_features/01_requirements.md）の
+// 読み取り側。書き込みは scripts/ のインポートのみ。
+// -----------------------------------------------------------------------------
+
+type ItemRow = {
+  slug: string;
+  name_romaji: string;
+  genres?: { slug: string }[] | { slug: string } | null;
+  origin_pref: string | null;
+  origin_city: string | null;
+  lat: number | null;
+  lng: number | null;
+  food_item_translations: { locale: string; name: string; summary: string | null }[] | null;
+  dish_details: { primary_style: string | null }[] | { primary_style: string | null } | null;
+};
+
+function rowToItem(
+  row: ItemRow,
+  locale: Locale,
+): MapItem & { lat: number | null; lng: number | null; genreSlug: string | null } {
+  const translations = row.food_item_translations ?? [];
+  const t = pickTranslation(translations, locale);
+  const ja = translations.find((x) => x.locale === "ja");
+  const en = translations.find((x) => x.locale === "en");
+  return {
+    slug: row.slug,
+    nameJa: ja?.name ?? row.name_romaji,
+    nameEn: en?.name ?? null,
+    nameRomaji: row.name_romaji,
+    summary: t?.summary ?? null,
+    originPref: row.origin_pref,
+    originCity: row.origin_city,
+    lat: row.lat as number,
+    lng: row.lng as number,
+    primaryStyle: (toOne(row.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
+    genreSlug: toOne(row.genres ?? null)?.slug ?? null,
+  };
+}
+
+const ITEM_SELECT = `slug, name_romaji, origin_pref, origin_city, lat, lng,
+  genres ( slug ),
+  food_item_translations ( locale, name, summary ),
+  dish_details ( primary_style )`;
+
+// ジャンル絞り込み用。ITEM_SELECT と同一だが genres を inner join にする
+// （実行時の文字列置換だと Supabase の型推論が壊れるため、別定数で持つ）
+const ITEM_SELECT_GENRE_INNER = `slug, name_romaji, origin_pref, origin_city, lat, lng,
+  genres!inner ( slug ),
+  food_item_translations ( locale, name, summary ),
+  dish_details ( primary_style )`;
+
+export type Genre = { slug: string; nameJa: string; nameEn: string };
+
+/** トップのチップとジャンルページが読む。genres に行を足すだけで増える。 */
+export async function fetchGenres(): Promise<Genre[]> {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("genres")
+    .select("slug, name_ja, name_en")
+    .order("sort_order");
+  if (error) throw new Error(`fetchGenres failed: ${error.message}`);
+  return (data ?? []).map((g) => ({ slug: g.slug, nameJa: g.name_ja, nameEn: g.name_en }));
+}
+
+export async function fetchGenre(genreSlug: string): Promise<Genre | null> {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("genres")
+    .select("slug, name_ja, name_en")
+    .eq("slug", genreSlug)
+    .maybeSingle();
+  if (error) throw new Error(`fetchGenre failed: ${error.message}`);
+  return data ? { slug: data.slug, nameJa: data.name_ja, nameEn: data.name_en } : null;
+}
+
+/**
+ * ジャンルの全アイテム。**座標なし（部位等の地域性なしアイテム）も含む**。
+ * 地図には lat 有りだけが乗り、無いものはジャンルページの図鑑セクションに出る。
+ */
+export async function fetchGenreItems(genreSlug: string, locale: Locale) {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("food_items")
+    .select(ITEM_SELECT_GENRE_INNER)
+    .eq("genres.slug", genreSlug)
+    .order("slug");
+  if (error) throw new Error(`fetchGenreItems failed: ${error.message}`);
+  return (data ?? []).map((r) => rowToItem(r, locale));
+}
+
+/** 地域ページ。origin_pref にデータが入った県だけページが生える。 */
+export async function fetchItemsByPref(pref: string, locale: Locale) {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("food_items")
+    .select(ITEM_SELECT)
+    .eq("origin_pref", pref)
+    .order("slug");
+  if (error) throw new Error(`fetchItemsByPref failed: ${error.message}`);
+  return (data ?? []).map((r) => rowToItem(r, locale));
+}
+
+/** データが存在する県の一覧（sitemap と「地域から探す」が読む）。 */
+export async function fetchPrefsWithItems(): Promise<string[]> {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("food_items")
+    .select("origin_pref")
+    .not("origin_pref", "is", null);
+  if (error) throw new Error(`fetchPrefsWithItems failed: ${error.message}`);
+  return [...new Set((data ?? []).map((r) => r.origin_pref as string))];
+}
+
+export type RelatedItem = {
+  slug: string;
+  nameJa: string;
+  nameRomaji: string;
+  summary: string | null;
+  relationType: string;
+  /** 相手が from 側（=相手が源流側）なら true。ラベルの向きに使う */
+  otherIsFrom: boolean;
+};
+
+/**
+ * 名前つきのつながり。food_item_relations に1行足すと
+ * **両端の詳細ページに双方向で**このリンクが生える。
+ */
+export async function fetchRelated(slug: string, locale: Locale): Promise<RelatedItem[]> {
+  const db = await createClient();
+  const { data: me, error: meErr } = await db
+    .from("food_items")
+    .select("id")
+    .eq("slug", slug)
+    .maybeSingle();
+  if (meErr) throw new Error(`fetchRelated failed: ${meErr.message}`);
+  if (!me) return [];
+
+  const [asFrom, asTo] = await Promise.all([
+    db
+      .from("food_item_relations")
+      .select(
+        `relation_type,
+         other:food_items!food_item_relations_to_id_fkey ( slug, name_romaji, food_item_translations ( locale, name, summary ) )`,
+      )
+      .eq("from_id", me.id),
+    db
+      .from("food_item_relations")
+      .select(
+        `relation_type,
+         other:food_items!food_item_relations_from_id_fkey ( slug, name_romaji, food_item_translations ( locale, name, summary ) )`,
+      )
+      .eq("to_id", me.id),
+  ]);
+  if (asFrom.error) throw new Error(`fetchRelated failed: ${asFrom.error.message}`);
+  if (asTo.error) throw new Error(`fetchRelated failed: ${asTo.error.message}`);
+
+  const mapRow = (row: { relation_type: string; other: unknown }, otherIsFrom: boolean) => {
+    const other = toOne(
+      row.other as
+        | { slug: string; name_romaji: string; food_item_translations: { locale: string; name: string; summary: string | null }[] | null }
+        | null,
+    );
+    if (!other) return null;
+    const translations = other.food_item_translations ?? [];
+    const t = pickTranslation(translations, locale);
+    const ja = translations.find((x) => x.locale === "ja");
+    return {
+      slug: other.slug,
+      nameJa: ja?.name ?? other.name_romaji,
+      nameRomaji: other.name_romaji,
+      summary: t?.summary ?? null,
+      relationType: row.relation_type,
+      otherIsFrom,
+    };
+  };
+
+  return [
+    ...(asFrom.data ?? []).map((r) => mapRow(r, false)),
+    ...(asTo.data ?? []).map((r) => mapRow(r, true)),
+  ].filter((x): x is RelatedItem => x !== null);
+}
+
+/** 同じ県の他アイテム。データを足すだけで双方向に増える、コストゼロの回遊。 */
+export async function fetchSamePref(slug: string, pref: string, locale: Locale, limit = 6) {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("food_items")
+    .select(ITEM_SELECT)
+    .eq("origin_pref", pref)
+    .neq("slug", slug)
+    .order("slug")
+    .limit(limit);
+  if (error) throw new Error(`fetchSamePref failed: ${error.message}`);
+  return (data ?? []).map((r) => rowToItem(r, locale));
+}

@@ -1,0 +1,5 @@
+from_slug,to_slug,relation_type
+kurume,hakata,派生
+kurume,kumamoto,派生
+hakata,hakodate,対比
+sapporo,hakodate,対比

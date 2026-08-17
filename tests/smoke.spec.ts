@@ -155,3 +155,38 @@ test.describe("F-05 言語切り替え / F-08 SEO", () => {
     expect(xml).toContain("/en/ramen/hakata");
   });
 });
+
+test.describe("データ駆動ページ（行を足すと増える機械）", () => {
+  test("ジャンルページ: 系統別の一覧と三点セット", async ({ page }) => {
+    await page.goto("/ja/ramen");
+    await expect(page.getByRole("heading", { name: "ご当地ラーメン一覧" })).toBeVisible();
+    // 系統見出しと、三点セット付きのアイテムリンク
+    await expect(page.getByRole("heading", { name: /豚骨/ })).toBeVisible();
+    await expect(page.getByRole("link", { name: /札幌ラーメン/ }).first()).toBeVisible();
+  });
+
+  test("地域ページ: データがある県だけ生える", async ({ page }) => {
+    await page.goto("/ja/region/fukuoka");
+    await expect(page.getByRole("heading", { name: "福岡県の食" })).toBeVisible();
+    await expect(page.getByRole("link", { name: /博多ラーメン/ })).toBeVisible();
+    await expect(page.getByRole("link", { name: /久留米ラーメン/ })).toBeVisible();
+
+    // データが無い県は404（薄いページを量産しない）
+    const res = await page.goto("/ja/region/okinawa");
+    expect(res?.status()).toBe(404);
+  });
+
+  test("つながり: 関係1行が双方向のリンクになる", async ({ page }) => {
+    // 博多側: 久留米が「源流」として出る
+    await page.goto("/ja/ramen/hakata");
+    const hakataConn = page.locator("section", { hasText: "つながり" });
+    await expect(hakataConn.getByText("源流", { exact: true })).toBeVisible();
+    await expect(hakataConn.getByRole("link", { name: /久留米ラーメン/ })).toBeVisible();
+
+    // 久留米側: 博多が「派生」として出る（同じ1行から双方向）
+    await page.goto("/ja/ramen/kurume");
+    const kurumeConn = page.locator("section", { hasText: "つながり" });
+    await expect(kurumeConn.getByText("派生", { exact: true }).first()).toBeVisible();
+    await expect(kurumeConn.getByRole("link", { name: /博多ラーメン/ })).toBeVisible();
+  });
+});

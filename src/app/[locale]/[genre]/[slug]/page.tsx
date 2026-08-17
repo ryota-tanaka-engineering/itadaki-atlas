@@ -2,9 +2,15 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
-import { fetchItemBySlug, type Locale } from "@/features/map/queries";
+import {
+  fetchItemBySlug,
+  fetchRelated,
+  fetchSamePref,
+  type Locale,
+} from "@/features/map/queries";
 import { PIN_STROKE, styleColor } from "@/features/map/styles";
 import { localeAlternates } from "@/lib/seo";
+import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
 type Params = { locale: string; genre: string; slug: string };
 
@@ -42,6 +48,19 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
   const t = await getTranslations("item");
   const tp = await getTranslations("prefecture");
   const ts = await getTranslations("style");
+  const tr = await getTranslations("relation");
+
+  // 行き止まり禁止（回遊が価値の中核）。relations に行を足すと双方向で増え、
+  // 同県リンクはデータを足すだけで自動で増える
+  const [related, samePrefAll] = await Promise.all([
+    fetchRelated(slug, locale as Locale),
+    item.originPref
+      ? fetchSamePref(slug, item.originPref, locale as Locale)
+      : Promise.resolve([]),
+  ]);
+  // 名前つき関係で既に出ているアイテムは同県リストから外す（重複表示を避ける）
+  const relatedSlugs = new Set(related.map((r) => r.slug));
+  const samePref = samePrefAll.filter((r) => !relatedSlugs.has(r.slug));
 
   // 英訳は「名前」ではなく説明訳なので、英語表示でも見出しはローマ字にする
   // （.doc/00_concept/05_brand.md §5）。説明訳は副題として添える。
@@ -92,6 +111,58 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
         </dl>
 
         {item.summary && <p className="mb-8 leading-relaxed">{item.summary}</p>}
+
+        {/* つながり: 名前のついた関係リンク。押す前に一つ学べる形にする */}
+        {(related.length > 0 || samePref.length > 0) && (
+          <section className="mb-8 border-t pt-4">
+            <h2 className="mb-3 text-sm font-semibold">{t("connections")}</h2>
+            <ul className="space-y-2">
+              {related.map((r) => (
+                <li key={`${r.relationType}-${r.slug}`}>
+                  <Link
+                    href={`/${genre}/${r.slug}`}
+                    className="hover:bg-muted/50 block rounded-lg border p-3"
+                  >
+                    <span className="text-muted-foreground block text-xs">
+                      {tr(`${r.relationType}.${r.otherIsFrom ? "otherIsFrom" : "otherIsTo"}`)}
+                    </span>
+                    <span className="block font-medium">
+                      {locale === "ja" ? r.nameJa : r.nameRomaji}
+                    </span>
+                    {r.summary && (
+                      <span className="text-muted-foreground block text-xs">{r.summary}</span>
+                    )}
+                  </Link>
+                </li>
+              ))}
+              {samePref.map((r) => (
+                <li key={`same-${r.slug}`}>
+                  <Link
+                    href={`/${r.genreSlug ?? genre}/${r.slug}`}
+                    className="hover:bg-muted/50 block rounded-lg border p-3"
+                  >
+                    <span className="text-muted-foreground block text-xs">
+                      {t("samePref", { pref: tp(item.originPref as string) })}
+                    </span>
+                    <span className="block font-medium">
+                      {locale === "ja" ? r.nameJa : r.nameRomaji}
+                    </span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+            {item.originPref && (
+              <p className="mt-3">
+                <Link
+                  href={`/region/${PREF_SLUGS[item.originPref as Prefecture]}`}
+                  className="text-sm underline"
+                >
+                  {t("regionPage", { pref: tp(item.originPref) })}
+                </Link>
+              </p>
+            )}
+          </section>
+        )}
 
         {/* 出典は記事末尾に自動表示する（.doc/40_operation/01_strategy.md §1.1） */}
         <section className="border-t pt-4">

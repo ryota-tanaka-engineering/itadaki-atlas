@@ -189,7 +189,7 @@ export function MapView({
       <div ref={containerRef} className="h-full w-full" />
 
       {/* 凡例。色だけに依存させないため系統名を必ず併記する */}
-      <div className="bg-background/90 pointer-events-none absolute top-4 left-4 z-10 rounded-lg p-3 text-xs shadow-sm backdrop-blur">
+      <div className="bg-background/90 pointer-events-none absolute top-16 left-4 z-10 rounded-lg p-3 text-xs shadow-sm backdrop-blur">
         <p className="mb-2 font-semibold">{t("legend")}</p>
         <ul className="space-y-1">
           {PRIMARY_STYLES.map((s) => (

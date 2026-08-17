@@ -26,7 +26,10 @@
     "sources": "Sources",
     "accessedAt": "Accessed",
     "unknown": "—",
-    "viewOnMap": "View on map"
+    "viewOnMap": "View on map",
+    "connections": "Connections",
+    "samePref": "Also from {pref}",
+    "regionPage": "Everything from {pref}"
   },
   "language": {
     "label": "Language",
@@ -88,5 +91,36 @@
     "塩": "Shio — salt",
     "豚骨": "Tonkotsu — pork bone",
     "その他": "Other"
+  },
+  "genre": {
+    "title": "Types of {name}",
+    "count": "{count} varieties",
+    "viewOnMap": "View on map",
+    "otherStyles": "Other",
+    "encyclopedia": "Encyclopedia",
+    "byRegion": "Browse by region"
+  },
+  "region": {
+    "title": "What to eat in {pref}",
+    "count": "{count} items",
+    "viewOnMap": "View on map"
+  },
+  "relation": {
+    "派生": {
+      "otherIsFrom": "Root style",
+      "otherIsTo": "Derived style"
+    },
+    "対比": {
+      "otherIsFrom": "Contrast",
+      "otherIsTo": "Contrast"
+    },
+    "代表ネタ": {
+      "otherIsFrom": "Style",
+      "otherIsTo": "Signature topping"
+    },
+    "使用食材": {
+      "otherIsFrom": "Used in",
+      "otherIsTo": "Key ingredient"
+    }
   }
 }
