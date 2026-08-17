@@ -107,7 +107,7 @@ test.describe("F-01 ディフォルメ地図", () => {
   test("掲載のない県は選べない", async ({ page }) => {
     await page.goto("/");
     const deformed = page.getByRole("group", { name: /ディフォルメ地図/ });
-    await expect(deformed.getByRole("button", { name: /鳥取県 掲載なし/ })).toHaveAttribute(
+    await expect(deformed.getByRole("button", { name: /沖縄県 掲載なし/ })).toHaveAttribute(
       "aria-disabled",
       "true",
     );
