@@ -53,3 +53,6 @@ node_modules/
 # OpenNext (Cloudflare) build output
 .open-next/
 .wrangler/
+
+# 地図タイル（大容量バイナリ。本番は R2 から配信）
+public/tiles/*.pmtiles
