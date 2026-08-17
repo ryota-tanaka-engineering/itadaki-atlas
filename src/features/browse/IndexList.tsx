@@ -1,9 +1,12 @@
 "use client";
 
+import { useTranslations } from "next-intl";
+
 import type { MapItem } from "@/features/map/queries";
 import { PIN_STROKE, styleColor } from "@/features/map/styles";
+import { useMasterLabels } from "@/features/map/labels";
 
-import { AXES, AXIS_LABELS, groupBy, type Axis } from "./axes";
+import { AXES, groupBy, type Axis } from "./axes";
 
 /**
  * 索引（.doc/30_features/01_requirements.md F-03）。
@@ -21,13 +24,15 @@ type Props = {
 };
 
 export function IndexList({ items, axis, onAxisChange, selectedSlug, onSelect }: Props) {
+  const t = useTranslations("browse");
+  const label = useMasterLabels();
   const groups = groupBy(items, axis);
 
   return (
     <div>
       {/* 軸の切り替え。使われない軸は削る判断材料にするため計測対象
           （.doc/20_data/03_log_design.md の index_axis_change） */}
-      <div role="tablist" aria-label="索引の並び順" className="mb-3 flex gap-1">
+      <div role="tablist" aria-label={t("axisLabel")} className="mb-3 flex gap-1">
         {AXES.map((a) => (
           <button
             key={a}
@@ -41,7 +46,7 @@ export function IndexList({ items, axis, onAxisChange, selectedSlug, onSelect }:
                 : "bg-muted text-muted-foreground hover:bg-muted/70"
             }`}
           >
-            {AXIS_LABELS[a]}
+            {t(`axis.${a}`)}
           </button>
         ))}
       </div>
@@ -75,9 +80,9 @@ export function IndexList({ items, axis, onAxisChange, selectedSlug, onSelect }:
                     <span className="block truncate text-sm">{item.nameJa}</span>
                     <span className="text-muted-foreground block truncate text-xs">
                       {item.nameRomaji}
-                      {item.originPref ? ` ／ ${item.originPref}` : ""}
+                      {item.originPref ? ` ／ ${label.prefecture(item.originPref)}` : ""}
                       {/* 色だけに依存させないため系統名をテキストでも出す */}
-                      {item.primaryStyle ? ` ／ ${item.primaryStyle}` : ""}
+                      {item.primaryStyle ? ` ／ ${label.style(item.primaryStyle)}` : ""}
                     </span>
                   </span>
                 </button>

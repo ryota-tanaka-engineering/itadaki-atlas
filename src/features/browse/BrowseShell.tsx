@@ -1,13 +1,17 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useState } from "react";
+import { useTranslations } from "next-intl";
+
+import { Link } from "@/i18n/navigation";
 
 import { MapView } from "@/features/map/MapView";
-import type { MapItem } from "@/features/map/queries";
+import type { MapItem, Locale } from "@/features/map/queries";
 
 import { BottomSheet, snapOffset, type Snap } from "./BottomSheet";
 import { DeformedMap } from "./DeformedMap";
 import { IndexList } from "./IndexList";
+import { LanguageSwitcher } from "./LanguageSwitcher";
 import type { Axis } from "./axes";
 
 /**
@@ -16,7 +20,9 @@ import type { Axis } from "./axes";
  * 選択状態をここが持つことで、ピンタップと索引からの選択が同じ状態を共有し、
  * **ページ遷移なしで地図と詳細を往復できる**（.doc/30_features/02_ui_ux.md §2.2）。
  */
-export function BrowseShell({ items }: { items: MapItem[] }) {
+export function BrowseShell({ items, locale }: { items: MapItem[]; locale: Locale }) {
+  const t = useTranslations("browse");
+  const ti = useTranslations("item");
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
   const [snap, setSnap] = useState<Snap>("peak");
   const [axis, setAxis] = useState<Axis>("kana");
@@ -68,6 +74,10 @@ export function BrowseShell({ items }: { items: MapItem[] }) {
 
   return (
     <div className="relative h-dvh w-full overflow-hidden">
+      <div className="absolute top-4 left-1/2 z-30 -translate-x-1/2">
+        <LanguageSwitcher locale={locale} />
+      </div>
+
       <MapView
         items={items}
         selectedSlug={selectedSlug}
@@ -94,9 +104,9 @@ export function BrowseShell({ items }: { items: MapItem[] }) {
         <button
           type="button"
           onClick={() => setView("deformed")}
-          className="bg-background/90 absolute top-4 right-16 z-10 rounded-lg px-3 py-2 text-xs shadow-sm backdrop-blur"
+          className="bg-background/90 absolute top-20 right-4 z-10 rounded-lg px-3 py-2 text-xs shadow-sm backdrop-blur"
         >
-          全国に戻る
+          {t("backToNational")}
         </button>
       )}
 
@@ -118,9 +128,9 @@ export function BrowseShell({ items }: { items: MapItem[] }) {
             </div>
           ) : (
             <h2 id="sheet-heading" className="text-base font-semibold">
-              索引
+              {t("index")}
               <span className="text-muted-foreground ml-2 text-sm font-normal">
-                {items.length}件
+                {t("count", { count: items.length })}
               </span>
             </h2>
           )
@@ -130,25 +140,31 @@ export function BrowseShell({ items }: { items: MapItem[] }) {
           <div className="space-y-3">
             <dl className="text-sm">
               <div className="flex gap-2">
-                <dt className="text-muted-foreground w-16 shrink-0">発祥</dt>
+                <dt className="text-muted-foreground w-16 shrink-0">{ti("origin")}</dt>
                 <dd>
                   {selected.originPref ?? "—"}
                   {selected.originCity ?? ""}
                 </dd>
               </div>
               <div className="flex gap-2">
-                <dt className="text-muted-foreground w-16 shrink-0">系統</dt>
+                <dt className="text-muted-foreground w-16 shrink-0">{ti("style")}</dt>
                 <dd>{selected.primaryStyle ?? "—"}</dd>
               </div>
             </dl>
             {selected.summary && <p className="text-sm leading-relaxed">{selected.summary}</p>}
-            <button
-              type="button"
-              onClick={() => setSelectedSlug(null)}
-              className="text-muted-foreground text-sm underline"
-            >
-              索引に戻る
-            </button>
+            <div className="flex items-center gap-4">
+              {/* 詳細ページ（SEOの受け皿）へ。シート内の表示は要約に留める */}
+              <Link href={`/ramen/${selected.slug}`} className="text-sm underline">
+                {ti("sources")} / {ti("viewOnMap")}
+              </Link>
+              <button
+                type="button"
+                onClick={() => setSelectedSlug(null)}
+                className="text-muted-foreground text-sm underline"
+              >
+                {t("backToIndex")}
+              </button>
+            </div>
           </div>
         ) : (
           <IndexList

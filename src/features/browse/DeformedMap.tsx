@@ -1,6 +1,7 @@
 "use client";
 
 import { useMemo } from "react";
+import { useTranslations } from "next-intl";
 
 import type { MapItem } from "@/features/map/queries";
 import { PIN_STROKE, styleColor } from "@/features/map/styles";
@@ -26,6 +27,7 @@ type Props = {
 };
 
 export function DeformedMap({ items, onSelectPrefecture, bottomInset }: Props) {
+  const t = useTranslations("browse");
   const byPref = useMemo(() => {
     const m = new Map<string, MapItem[]>();
     for (const item of items) {
@@ -49,7 +51,7 @@ export function DeformedMap({ items, onSelectPrefecture, bottomInset }: Props) {
         viewBox={`0 0 ${width} ${height}`}
         className="h-full max-h-full w-full max-w-full"
         role="group"
-        aria-label="都道府県別の掲載数（ディフォルメ地図）"
+        aria-label={t("deformedLabel")}
       >
         {GRID.map((cell) => {
           const list = byPref.get(cell.pref) ?? [];

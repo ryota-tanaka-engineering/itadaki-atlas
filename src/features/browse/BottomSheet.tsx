@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { animate, motion, useMotionValue } from "motion/react";
+import { useTranslations } from "next-intl";
 
 /**
  * 3段階スナップのボトムシート（.doc/30_features/02_ui_ux.md §2.1）。
@@ -39,6 +40,7 @@ type Props = {
 };
 
 export function BottomSheet({ snap, onSnapChange, peak, children, labelledBy }: Props) {
+  const t = useTranslations("browse");
   const y = useMotionValue(0);
   const [vh, setVh] = useState(0);
   const scrollRef = useRef<HTMLDivElement>(null);
@@ -110,7 +112,7 @@ export function BottomSheet({ snap, onSnapChange, peak, children, labelledBy }: 
       <button
         type="button"
         onClick={cycle}
-        aria-label={`シートを次の段階へ（現在: ${snap}）`}
+        aria-label={t("sheetToggle", { snap })}
         className="flex w-full shrink-0 cursor-grab justify-center py-3 active:cursor-grabbing"
       >
         <span aria-hidden className="bg-muted-foreground/40 h-1.5 w-10 rounded-full" />

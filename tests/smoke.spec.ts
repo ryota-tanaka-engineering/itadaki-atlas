@@ -113,3 +113,45 @@ test.describe("F-01 ディフォルメ地図", () => {
     );
   });
 });
+
+test.describe("F-05 言語切り替え / F-08 SEO", () => {
+  test("/ は既定ロケールへ送られ、自動言語判定によるリダイレクトはしない", async ({ page }) => {
+    // Accept-Language が英語でも /ja に送られる（Platform 10_growth_infra.md §3.2）
+    await page.setExtraHTTPHeaders({ "Accept-Language": "en-US,en;q=0.9" });
+    await page.goto("/");
+    expect(new URL(page.url()).pathname).toBe("/ja");
+  });
+
+  test("詳細ページが英日で切り替わり、三点セットが出る", async ({ page }) => {
+    await page.goto("/ja/ramen/hakata");
+    await expect(page.getByRole("heading", { name: "博多ラーメン", level: 1 })).toBeVisible();
+
+    await page.goto("/en/ramen/hakata");
+    // 英訳は説明訳なので、英語表示でも見出しはローマ字
+    await expect(page.getByRole("heading", { name: "Hakata Ramen", level: 1 })).toBeVisible();
+    // マスタラベルは辞書で翻訳される（二層方式）。
+    // 定義リスト内に限定する（辞書全体がRSCペイロードにも載るため）
+    const dl = page.locator("dl");
+    await expect(dl.getByText("Fukuoka / 福岡市")).toBeVisible();
+    await expect(dl.getByText("Tonkotsu — pork bone")).toBeVisible();
+    // 出典が記事末尾に出る
+    await expect(page.getByRole("heading", { name: "Sources" })).toBeVisible();
+  });
+
+  test("hreflang が言語版を相互に紐付ける", async ({ page }) => {
+    await page.goto("/ja/ramen/hakata");
+    for (const lang of ["ja", "en", "x-default"]) {
+      await expect(
+        page.locator(`link[rel="alternate"][hreflang="${lang}"]`),
+      ).toHaveCount(1);
+    }
+  });
+
+  test("sitemap に全ロケールのURLが出る", async ({ request }) => {
+    const res = await request.get("/sitemap.xml");
+    expect(res.status()).toBe(200);
+    const xml = await res.text();
+    expect(xml).toContain("/ja/ramen/hakata");
+    expect(xml).toContain("/en/ramen/hakata");
+  });
+});

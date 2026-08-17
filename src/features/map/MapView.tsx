@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { useTranslations } from "next-intl";
 import * as maplibregl from "maplibre-gl";
 import { Protocol } from "pmtiles";
 import { layers, namedFlavor } from "@protomaps/basemaps";
@@ -8,6 +9,7 @@ import "maplibre-gl/dist/maplibre-gl.css";
 
 import type { MapItem } from "./queries";
 import { PIN_STROKE, PRIMARY_STYLES, STYLE_COLORS, styleColor } from "./styles";
+import { useMasterLabels } from "./labels";
 
 /**
  * フルスクリーン地図（.doc/30_features/02_ui_ux.md §2）。
@@ -53,6 +55,8 @@ export function MapView({
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
+  const label = useMasterLabels();
+  const t = useTranslations("browse");
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -186,7 +190,7 @@ export function MapView({
 
       {/* 凡例。色だけに依存させないため系統名を必ず併記する */}
       <div className="bg-background/90 pointer-events-none absolute top-4 left-4 z-10 rounded-lg p-3 text-xs shadow-sm backdrop-blur">
-        <p className="mb-2 font-semibold">系統</p>
+        <p className="mb-2 font-semibold">{t("legend")}</p>
         <ul className="space-y-1">
           {PRIMARY_STYLES.map((s) => (
             <li key={s} className="flex items-center gap-2">
@@ -195,7 +199,7 @@ export function MapView({
                 className="inline-block size-3 rounded-full border"
                 style={{ backgroundColor: STYLE_COLORS[s], borderColor: PIN_STROKE }}
               />
-              {s}
+              {label.style(s)}
             </li>
           ))}
         </ul>

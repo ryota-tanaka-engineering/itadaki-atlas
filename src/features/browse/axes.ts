@@ -11,11 +11,7 @@ import { prefectureOrder } from "@/lib/prefectures";
 export const AXES = ["kana", "region", "style"] as const;
 export type Axis = (typeof AXES)[number];
 
-export const AXIS_LABELS: Record<Axis, string> = {
-  kana: "五十音",
-  region: "地域",
-  style: "系統",
-};
+// 軸のラベルは messages/*.json（browse.axis）が持つ。ここには置かない。
 
 export type Group = {
   key: string;

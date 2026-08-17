@@ -21,7 +21,7 @@ export type MapItem = {
   primaryStyle: PrimaryStyle | null;
 };
 
-type Locale = "ja" | "en";
+export type Locale = "ja" | "en";
 
 /** PostgREST の埋め込みリレーションは配列/単体の両方があり得るので揃える。 */
 function toOne<T>(v: T | T[] | null | undefined): T | null {
@@ -83,4 +83,82 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<MapItem[]> {
       primaryStyle: (toOne(row.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
     };
   });
+}
+
+/** 詳細ページが読む1件分。出典を含む。 */
+export type ItemDetail = MapItem & {
+  genreSlug: string;
+  sources: {
+    title: string;
+    url: string | null;
+    publisher: string | null;
+    accessedAt: string | null;
+  }[];
+};
+
+export async function fetchItemBySlug(
+  genreSlug: string,
+  slug: string,
+  locale: Locale,
+): Promise<ItemDetail | null> {
+  const db = await createClient();
+
+  const { data, error } = await db
+    .from("food_items")
+    .select(
+      `slug, name_romaji, origin_pref, origin_city, lat, lng,
+       genres!inner ( slug ),
+       food_item_translations ( locale, name, summary ),
+       food_item_sources ( title, url, publisher, accessed_at ),
+       dish_details ( primary_style )`,
+    )
+    .eq("slug", slug)
+    .eq("genres.slug", genreSlug)
+    .maybeSingle();
+
+  if (error) throw new Error(`fetchItemBySlug failed: ${error.message}`);
+  if (!data) return null;
+
+  const translations = data.food_item_translations ?? [];
+  const t = pickTranslation(translations, locale);
+  const ja = translations.find((x) => x.locale === "ja");
+  const en = translations.find((x) => x.locale === "en");
+
+  return {
+    slug: data.slug,
+    nameJa: ja?.name ?? data.name_romaji,
+    nameEn: en?.name ?? null,
+    nameRomaji: data.name_romaji,
+    summary: t?.summary ?? null,
+    originPref: data.origin_pref,
+    originCity: data.origin_city,
+    lat: data.lat as number,
+    lng: data.lng as number,
+    primaryStyle: (toOne(data.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
+    genreSlug: toOne(data.genres)?.slug ?? genreSlug,
+    sources: (data.food_item_sources ?? []).map((s) => ({
+      title: s.title,
+      url: s.url,
+      publisher: s.publisher,
+      accessedAt: s.accessed_at,
+    })),
+  };
+}
+
+/** sitemap と静的生成が使う、公開済みアイテムのパス一覧。 */
+export async function fetchPublishedPaths(): Promise<
+  { genreSlug: string; slug: string }[]
+> {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("food_items")
+    .select("slug, genres!inner ( slug )")
+    .order("slug");
+
+  if (error) throw new Error(`fetchPublishedPaths failed: ${error.message}`);
+
+  return (data ?? []).map((row) => ({
+    slug: row.slug,
+    genreSlug: toOne(row.genres)?.slug ?? "",
+  }));
 }

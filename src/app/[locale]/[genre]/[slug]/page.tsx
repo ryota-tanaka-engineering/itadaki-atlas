@@ -1,0 +1,124 @@
+import { notFound } from "next/navigation";
+import { getTranslations, setRequestLocale } from "next-intl/server";
+
+import { Link } from "@/i18n/navigation";
+import { fetchItemBySlug, type Locale } from "@/features/map/queries";
+import { PIN_STROKE, styleColor } from "@/features/map/styles";
+import { localeAlternates } from "@/lib/seo";
+
+type Params = { locale: string; genre: string; slug: string };
+
+export async function generateMetadata({ params }: { params: Promise<Params> }) {
+  const { locale, genre, slug } = await params;
+  const item = await fetchItemBySlug(genre, slug, locale as Locale);
+  if (!item) return {};
+
+  // 三点セットをタイトルにも出す（.doc/00_concept/05_brand.md §5）
+  const title =
+    locale === "ja"
+      ? `${item.nameJa}（${item.nameRomaji}）`
+      : `${item.nameRomaji}${item.nameEn ? ` — ${item.nameEn}` : ""}`;
+
+  return {
+    title,
+    description: item.summary ?? undefined,
+    alternates: localeAlternates(`/${genre}/${slug}`),
+    openGraph: {
+      type: "article",
+      title,
+      description: item.summary ?? undefined,
+      locale,
+    },
+  };
+}
+
+export default async function ItemPage({ params }: { params: Promise<Params> }) {
+  const { locale, genre, slug } = await params;
+  setRequestLocale(locale);
+
+  const item = await fetchItemBySlug(genre, slug, locale as Locale);
+  if (!item) notFound();
+
+  const t = await getTranslations("item");
+  const tp = await getTranslations("prefecture");
+  const ts = await getTranslations("style");
+
+  // 英訳は「名前」ではなく説明訳なので、英語表示でも見出しはローマ字にする
+  // （.doc/00_concept/05_brand.md §5）。説明訳は副題として添える。
+  const displayName = locale === "ja" ? item.nameJa : item.nameRomaji;
+  const subtitle = locale === "ja" ? item.nameRomaji : item.nameEn;
+
+  return (
+    <main className="mx-auto w-full max-w-2xl flex-1 px-4 py-8">
+      <article>
+        <header className="mb-6">
+          <div className="mb-2 flex items-center gap-2">
+            <span
+              aria-hidden
+              className="inline-block size-4 rounded-full border"
+              style={{
+                backgroundColor: styleColor(item.primaryStyle),
+                borderColor: PIN_STROKE,
+              }}
+            />
+            <span className="text-muted-foreground text-sm">
+              {item.primaryStyle ? ts(item.primaryStyle) : t("unknown")}
+            </span>
+          </div>
+
+          {/* 三点セット: 日本語名 — ローマ字 — 英訳 */}
+          <h1 className="text-2xl font-semibold">{displayName}</h1>
+          {subtitle && <p className="mt-1 text-base">{subtitle}</p>}
+          {/* 三点セット: 日本語名 — ローマ字 — 英訳（説明訳） */}
+          <p className="text-muted-foreground mt-2 text-xs">
+            {item.nameJa} — {item.nameRomaji}
+            {item.nameEn ? ` — ${item.nameEn}` : ""}
+          </p>
+        </header>
+
+        <dl className="mb-6 text-sm">
+          <div className="flex gap-3 py-1">
+            <dt className="text-muted-foreground w-20 shrink-0">{t("origin")}</dt>
+            <dd>
+              {item.originPref
+                ? `${tp(item.originPref)}${item.originCity ? ` / ${item.originCity}` : ""}`
+                : t("unknown")}
+            </dd>
+          </div>
+          <div className="flex gap-3 py-1">
+            <dt className="text-muted-foreground w-20 shrink-0">{t("style")}</dt>
+            <dd>{item.primaryStyle ? ts(item.primaryStyle) : t("unknown")}</dd>
+          </div>
+        </dl>
+
+        {item.summary && <p className="mb-8 leading-relaxed">{item.summary}</p>}
+
+        {/* 出典は記事末尾に自動表示する（.doc/40_operation/01_strategy.md §1.1） */}
+        <section className="border-t pt-4">
+          <h2 className="mb-2 text-sm font-semibold">{t("sources")}</h2>
+          <ul className="text-muted-foreground space-y-1 text-xs">
+            {item.sources.map((s, i) => (
+              <li key={i}>
+                {s.url ? (
+                  <a href={s.url} className="underline" rel="noreferrer" target="_blank">
+                    {s.title}
+                  </a>
+                ) : (
+                  s.title
+                )}
+                {s.publisher ? ` / ${s.publisher}` : ""}
+                {s.accessedAt ? ` / ${t("accessedAt")}: ${s.accessedAt}` : ""}
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <p className="mt-8">
+          <Link href="/" className="text-sm underline">
+            {t("viewOnMap")}
+          </Link>
+        </p>
+      </article>
+    </main>
+  );
+}

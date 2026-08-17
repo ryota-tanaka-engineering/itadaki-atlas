@@ -1,4 +1,7 @@
 import type { NextConfig } from "next";
+import createNextIntlPlugin from "next-intl/plugin";
+
+const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 // デフォルト: Cloudflare Workers（OpenNext経由）へのデプロイ用。
 // NEXT_OUTPUT=standalone 指定時: ポータビリティ規約（standaloneでビルド可能な状態を
@@ -12,4 +15,4 @@ const nextConfig: NextConfig = {
     : {}),
 };
 
-export default nextConfig;
+export default withNextIntl(nextConfig);
