@@ -190,3 +190,31 @@ test.describe("データ駆動ページ（行を足すと増える機械）", ()
     await expect(kurumeConn.getByRole("link", { name: /博多ラーメン/ })).toBeVisible();
   });
 });
+
+test.describe("マルチジャンル（2ジャンル目はデータ投入のみで生える）", () => {
+  test("ジャンルページが自動生成され、図鑑（非地理アイテム）が出る", async ({ page }) => {
+    await page.goto("/ja/yakitori");
+    await expect(page.getByRole("heading", { name: "ご当地焼き鳥一覧" })).toBeVisible();
+    // 地域性のない部位は「図鑑」セクションに自動で現れる
+    await expect(page.getByRole("heading", { name: "図鑑" })).toBeVisible();
+    await expect(page.getByRole("link", { name: /せせり/ })).toBeVisible();
+  });
+
+  test("非地理アイテムの詳細（三点セット・説明訳）", async ({ page }) => {
+    await page.goto("/en/yakitori/seseri");
+    await expect(page.getByRole("heading", { name: "Seseri", level: 1 })).toBeVisible();
+    await expect(page.getByText("chicken neck meat").first()).toBeVisible();
+  });
+
+  test("地域ページにジャンル横断で並ぶ（広くする方向）", async ({ page }) => {
+    await page.goto("/ja/region/hokkaido");
+    await expect(page.getByRole("link", { name: /札幌ラーメン/ })).toBeVisible();
+    await expect(page.getByRole("link", { name: /室蘭やきとり/ })).toBeVisible();
+  });
+
+  test("トップのジャンルチップに自動で増える", async ({ page }) => {
+    await page.goto("/ja");
+    await expect(page.getByRole("link", { name: "ラーメン" })).toBeVisible();
+    await expect(page.getByRole("link", { name: "焼き鳥" })).toBeVisible();
+  });
+});

@@ -57,7 +57,20 @@ const rowSchema = z
     origin_city: optionalText,
     lat: coordinate,
     lng: coordinate,
-    primary_style: z.enum(PRIMARY_STYLES),
+    // ラーメン系ジャンル以外は系統を持たない（ジャンルごとの色体系は今後）
+    primary_style: z
+      .string()
+      .transform((v) => v.trim())
+      .transform((v) => (v === "" ? undefined : v))
+      .pipe(z.enum(PRIMARY_STYLES).optional())
+      .optional(),
+    // dish(ご当地料理) | ingredient(部位・食材)。省略時は dish
+    type: z
+      .string()
+      .transform((v) => v.trim())
+      .transform((v) => (v === "" ? undefined : v))
+      .pipe(z.enum(["dish", "ingredient"]).optional())
+      .optional(),
     summary_ja: z.string().trim().min(1, "必須"),
     summary_en: z.string().trim().min(1, "必須"),
 
@@ -204,7 +217,7 @@ async function main() {
     for (const r of rows) {
       const loc = r.origin_pref ? `${r.origin_pref}${r.origin_city ?? ""}` : "（地域性なし）";
       const coord = r.lat !== undefined ? `${r.lat},${r.lng}` : "座標なし";
-      console.log(`\n  ${r.slug}  [${r.primary_style}] ${loc} (${coord})`);
+      console.log(`\n  ${r.slug}  [${r.primary_style ?? r.type ?? "dish"}] ${loc} (${coord})`);
       console.log(`    ja: ${r.name_ja}`);
       console.log(`    ro: ${r.name_romaji}`);
       console.log(`    en: ${r.name_en}`);
@@ -241,7 +254,7 @@ async function main() {
       .upsert(
         {
           slug: r.slug,
-          type: "dish",
+          type: r.type ?? "dish",
           genre_id: genre.id,
           name_romaji: r.name_romaji,
           origin_pref: r.origin_pref ?? null,
@@ -285,12 +298,17 @@ async function main() {
       continue;
     }
 
-    const { error: ddErr } = await db
-      .from("dish_details")
-      .upsert({ food_item_id: item.id, primary_style: r.primary_style }, { onConflict: "food_item_id" });
-    if (ddErr) {
-      console.error(`  ✗ ${r.slug} (詳細): ${ddErr.message}`);
-      continue;
+    if (r.primary_style) {
+      const { error: ddErr } = await db
+        .from("dish_details")
+        .upsert(
+          { food_item_id: item.id, primary_style: r.primary_style },
+          { onConflict: "food_item_id" },
+        );
+      if (ddErr) {
+        console.error(`  ✗ ${r.slug} (詳細): ${ddErr.message}`);
+        continue;
+      }
     }
 
     ok++;

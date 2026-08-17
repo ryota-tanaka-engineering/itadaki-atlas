@@ -98,7 +98,8 @@
     "viewOnMap": "View on map",
     "otherStyles": "Other",
     "encyclopedia": "Encyclopedia",
-    "byRegion": "Browse by region"
+    "byRegion": "Browse by region",
+    "regional": "Regional varieties"
   },
   "region": {
     "title": "What to eat in {pref}",

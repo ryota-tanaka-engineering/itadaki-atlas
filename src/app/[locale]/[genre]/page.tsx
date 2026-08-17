@@ -87,7 +87,8 @@ export default async function GenrePage({ params }: { params: Promise<Params> })
                   style={{ backgroundColor: styleColor(grp.style), borderColor: PIN_STROKE }}
                 />
               )}
-              {grp.style ? ts(grp.style) : t("otherStyles")}
+              {/* 系統を持つジャンルでは「その他」、持たないジャンルでは「ご当地」と読ませる */}
+              {grp.style ? ts(grp.style) : byStyle.length > 0 ? t("otherStyles") : t("regional")}
               <span className="text-muted-foreground text-sm font-normal">
                 {grp.items.length}
               </span>
