@@ -4,7 +4,7 @@ import { useMemo } from "react";
 import { useTranslations } from "next-intl";
 
 import type { MapItem } from "@/features/map/queries";
-import { PIN_STROKE, styleColor } from "@/features/map/styles";
+import { PIN_STROKE, PRIMARY_STYLES, styleColor } from "@/features/map/styles";
 
 import { GRID, GRID_COLS, GRID_ROWS } from "./gridLayout";
 
@@ -15,6 +15,11 @@ import { GRID, GRID_COLS, GRID_ROWS } from "./gridLayout";
  * 通常のフロント実装として扱う。
  *
  * 目的は「どの県に何個あるか」の一覧性であって、地理的な正確さではない。
+ *
+ * **優劣を示す地図にしない。** セルを単一の系統色で塗ると「この県は◯◯系」という
+ * 事実でない断定になる（北海道は味噌・醤油・塩が併存する）。
+ * セルが持つ情報は件数であり、系統は「存在するもの」を並置するに留める
+ * （.doc/00_concept/05_brand.md §4.1）。
  */
 const CELL = 46;
 const GAP = 4;
@@ -57,8 +62,12 @@ export function DeformedMap({ items, onSelectPrefecture, bottomInset }: Props) {
           const list = byPref.get(cell.pref) ?? [];
           const count = list.length;
           const has = count > 0;
-          // 掲載がある県は代表系統の色で塗る。無い県は淡いグレー。
-          const fill = has ? styleColor(list[0]?.primaryStyle) : "#eeeeee";
+          // 塗りは中立。件数の多寡も色の強弱で表さない（多い＝良いではないため）
+          const fill = has ? "#faf8f5" : "#f2f2f2";
+          // その県に存在する系統を重複なく並べる。順序は PRIMARY_STYLES 固定
+          const styles = PRIMARY_STYLES.filter((st) =>
+            list.some((i) => i.primaryStyle === st),
+          );
           const x = cell.col * (CELL + GAP);
           const y = cell.row * (CELL + GAP);
 
@@ -69,7 +78,7 @@ export function DeformedMap({ items, onSelectPrefecture, bottomInset }: Props) {
               tabIndex={has ? 0 : -1}
               aria-label={
                 has
-                  ? `${cell.pref} ${count}件。選ぶと地図を拡大します`
+                  ? `${cell.pref} ${count}件（${styles.join("・")}）。選ぶと地図を拡大します`
                   : `${cell.pref} 掲載なし`
               }
               aria-disabled={has ? undefined : true}
@@ -106,19 +115,32 @@ export function DeformedMap({ items, onSelectPrefecture, bottomInset }: Props) {
               >
                 {cell.short}
               </text>
-              {/* 件数は色に依存させないための併記でもある */}
               {has && (
-                <text
-                  x={x + CELL / 2}
-                  y={y + CELL / 2 + 12}
-                  textAnchor="middle"
-                  className="pointer-events-none select-none"
-                  fontSize={12}
-                  fontWeight={700}
-                  fill="#2b2118"
-                >
-                  {count}
-                </text>
+                <>
+                  <text
+                    x={x + CELL / 2}
+                    y={y + CELL / 2 + 10}
+                    textAnchor="middle"
+                    className="pointer-events-none select-none"
+                    fontSize={13}
+                    fontWeight={600}
+                    fill="#2b2118"
+                  >
+                    {count}
+                  </text>
+                  {/* その県に存在する系統。優劣ではなく並置 */}
+                  {styles.map((st, i) => (
+                    <circle
+                      key={st}
+                      cx={x + CELL / 2 - ((styles.length - 1) * 7) / 2 + i * 7}
+                      cy={y + CELL - 8}
+                      r={2.5}
+                      fill={styleColor(st)}
+                      stroke={PIN_STROKE}
+                      strokeWidth={0.5}
+                    />
+                  ))}
+                </>
               )}
             </g>
           );
