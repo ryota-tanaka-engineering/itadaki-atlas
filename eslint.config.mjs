@@ -15,6 +15,9 @@ const eslintConfig = defineConfig([
     // OpenNext (Cloudflare) build output — generated artifacts, not source.
     ".open-next/**",
     ".wrangler/**",
+    // Supabase CLI の生成物（ローカルスタックの一時ファイル）
+    "supabase/.temp/**",
+    "supabase/.branches/**",
   ]),
 ]);
 
