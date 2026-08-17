@@ -10,6 +10,7 @@
 --
 -- UUIDは固定値。全dev環境で同じIDになるようにし、E2Eから決め打ちで参照できる。
 -- slug は zz-fixture- 接頭辞。本番マスタデータ（CSVインポート）と衝突させないため。
+-- 表示名も【fixture】を付ける。実データと同じ名前だと索引で本物と見分けがつかない。
 -- =============================================================================
 
 insert into public.genres (id, slug, name_ja, name_en, type, sort_order) values
@@ -22,13 +23,13 @@ on conflict (id) do nothing;
 insert into public.food_items
   (id, slug, type, genre_id, name_romaji, origin_pref, origin_city, lat, lng, status) values
   ('22222222-2222-4222-8222-222222222201', 'zz-fixture-published-a', 'dish',
-   '11111111-1111-4111-8111-111111111111', 'Sapporo Miso Ramen',
+   '11111111-1111-4111-8111-111111111111', 'Fixture Published A',
    '北海道', '札幌市', 43.0618, 141.3545, 'published'),
   ('22222222-2222-4222-8222-222222222202', 'zz-fixture-published-b', 'dish',
-   '11111111-1111-4111-8111-111111111111', 'Hakata Tonkotsu Ramen',
+   '11111111-1111-4111-8111-111111111111', 'Fixture Published B',
    '福岡県', '福岡市', 33.5904, 130.4017, 'published'),
   ('22222222-2222-4222-8222-222222222203', 'zz-fixture-no-en', 'dish',
-   '11111111-1111-4111-8111-111111111111', 'Kitakata Ramen',
+   '11111111-1111-4111-8111-111111111111', 'Fixture No En',
    '福島県', '喜多方市', 37.6512, 139.8737, 'published')
 on conflict (id) do nothing;
 
@@ -47,18 +48,18 @@ on conflict (id) do nothing;
 -- kitakata は **en を意図的に入れない** → フォールバック（en → ja）の検証用
 -- -----------------------------------------------------------------------------
 insert into public.food_item_translations (food_item_id, locale, name, summary) values
-  ('22222222-2222-4222-8222-222222222201', 'ja', '札幌味噌ラーメン',
+  ('22222222-2222-4222-8222-222222222201', 'ja', '【fixture】公開アイテムA',
    '味噌ダレを炒め野菜と合わせ、ラードで蓋をした熱いスープ。'),
-  ('22222222-2222-4222-8222-222222222201', 'en', 'Sapporo Miso Ramen',
+  ('22222222-2222-4222-8222-222222222201', 'en', '[fixture] Published item A',
    'Miso-based broth sealed with lard, served with stir-fried vegetables.'),
-  ('22222222-2222-4222-8222-222222222202', 'ja', '博多豚骨ラーメン',
+  ('22222222-2222-4222-8222-222222222202', 'ja', '【fixture】公開アイテムB',
    '豚骨を強火で炊いた白濁スープと極細ストレート麺。'),
-  ('22222222-2222-4222-8222-222222222202', 'en', 'Hakata Tonkotsu Ramen',
+  ('22222222-2222-4222-8222-222222222202', 'en', '[fixture] Published item B',
    'Cloudy pork bone broth with very thin, straight noodles.'),
   -- en を入れない（フォールバック検証）
-  ('22222222-2222-4222-8222-222222222203', 'ja', '喜多方ラーメン',
+  ('22222222-2222-4222-8222-222222222203', 'ja', '【fixture】翻訳欠け（en なし）',
    '平打ち縮れ麺と、あっさりした醤油ベースのスープ。'),
-  ('22222222-2222-4222-8222-2222222222d1', 'ja', '未公開アイテム',
+  ('22222222-2222-4222-8222-2222222222d1', 'ja', '【fixture】draft（見えてはいけない）',
    'RLS検証用。anon から見えてはいけない。')
 on conflict (food_item_id, locale) do nothing;
 

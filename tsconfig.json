@@ -6,6 +6,9 @@
     "skipLibCheck": true,
     "strict": true,
     "noEmit": true,
+    // scripts/ は node が直接実行する（Node 24 の型ストリップ）。
+    // 相対importに .ts 拡張子が必要なため許可する。noEmit 前提。
+    "allowImportingTsExtensions": true,
     "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "bundler",
