@@ -83,3 +83,33 @@ test.describe("F-07 アクセシビリティ", () => {
     await expect(page.getByText("【fixture】draft")).toHaveCount(0);
   });
 });
+
+test.describe("F-01 ディフォルメ地図", () => {
+  test("初期表示は県別の一覧。県を選ぶと実座標地図に切り替わる", async ({ page }) => {
+    await page.goto("/");
+
+    const deformed = page.getByRole("group", { name: /ディフォルメ地図/ });
+    await expect(deformed).toBeVisible();
+
+    // 掲載がある県は件数付きで選べる
+    const fukushima = deformed.getByRole("button", { name: /^福島県 \d+件/ });
+    await expect(fukushima).toBeVisible();
+    await fukushima.click();
+
+    // 実座標地図へ切り替わり、戻る導線が出る
+    await expect(deformed).toBeHidden();
+    await expect(page.getByRole("button", { name: "全国に戻る" })).toBeVisible();
+
+    await page.getByRole("button", { name: "全国に戻る" }).click();
+    await expect(deformed).toBeVisible();
+  });
+
+  test("掲載のない県は選べない", async ({ page }) => {
+    await page.goto("/");
+    const deformed = page.getByRole("group", { name: /ディフォルメ地図/ });
+    await expect(deformed.getByRole("button", { name: /鳥取県 掲載なし/ })).toHaveAttribute(
+      "aria-disabled",
+      "true",
+    );
+  });
+});

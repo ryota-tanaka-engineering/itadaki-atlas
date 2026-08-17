@@ -6,6 +6,7 @@ import { MapView } from "@/features/map/MapView";
 import type { MapItem } from "@/features/map/queries";
 
 import { BottomSheet, snapOffset, type Snap } from "./BottomSheet";
+import { DeformedMap } from "./DeformedMap";
 import { IndexList } from "./IndexList";
 import type { Axis } from "./axes";
 
@@ -20,6 +21,15 @@ export function BrowseShell({ items }: { items: MapItem[] }) {
   const [snap, setSnap] = useState<Snap>("peak");
   const [axis, setAxis] = useState<Axis>("kana");
   const [vh, setVh] = useState(0);
+  // 全国俯瞰ではディフォルメ地図、県を選ぶと実座標地図に切り替える
+  // （.doc/30_features/02_ui_ux.md §3）。
+  // 地図のズーム値を観測して自動判定する設計は、初期カメラ設定でイベントが
+  // 発火しない・アニメーション中の値が読めない等で不安定だったため、
+  // **ユーザーの明示的な操作で切り替える**方式にした。
+  const [view, setView] = useState<"deformed" | "geographic">("deformed");
+  // 同じ県を続けて選んでも寄せ直せるよう、連番を添えて識別する
+  // （値が同じだと state が変わらず effect が再実行されないため）
+  const [focus, setFocus] = useState<{ pref: string; seq: number } | null>(null);
 
   useEffect(() => {
     const update = () => setVh(window.innerHeight);
@@ -46,8 +56,15 @@ export function BrowseShell({ items }: { items: MapItem[] }) {
     setSnap("half");
   }, []);
 
+  const handleSelectPrefecture = useCallback((pref: string) => {
+    setFocus((prev) => ({ pref, seq: (prev?.seq ?? 0) + 1 }));
+    setView("geographic");
+  }, []);
+
   // 地図を寄せる際の下端余白。シートに隠れない位置に選択地点を置く。
   const bottomInset = vh === 0 ? 0 : Math.max(0, vh - snapOffset(snap, vh));
+
+  const showDeformed = view === "deformed";
 
   return (
     <div className="relative h-dvh w-full overflow-hidden">
@@ -56,7 +73,32 @@ export function BrowseShell({ items }: { items: MapItem[] }) {
         selectedSlug={selectedSlug}
         onSelect={handleSelectFromMap}
         bottomInset={bottomInset}
+        focus={focus}
       />
+
+      {/* 実座標地図は生かしたまま上に被せる。切り替えで地図を作り直さない。 */}
+      {showDeformed && (
+        <div className="bg-background/95 absolute inset-0 z-10 backdrop-blur-[1px]">
+          <DeformedMap
+            items={items}
+            onSelectPrefecture={handleSelectPrefecture}
+            bottomInset={bottomInset}
+          />
+          <p className="text-muted-foreground pointer-events-none absolute inset-x-0 bottom-2 text-center text-xs">
+            県を選ぶと、その範囲の実際の地図に切り替わります
+          </p>
+        </div>
+      )}
+
+      {!showDeformed && (
+        <button
+          type="button"
+          onClick={() => setView("deformed")}
+          className="bg-background/90 absolute top-4 right-16 z-10 rounded-lg px-3 py-2 text-xs shadow-sm backdrop-blur"
+        >
+          全国に戻る
+        </button>
+      )}
 
       <BottomSheet
         snap={snap}

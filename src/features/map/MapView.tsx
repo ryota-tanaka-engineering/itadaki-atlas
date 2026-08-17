@@ -40,9 +40,17 @@ type Props = {
   onSelect: (slug: string | null) => void;
   /** ボトムシートに隠れない位置に選択地点を寄せるための下端余白 */
   bottomInset: number;
+  /** ディフォルメ地図で県を選んだとき、その県の範囲へ寄せる（seq は再選択の識別用） */
+  focus: { pref: string; seq: number } | null;
 };
 
-export function MapView({ items, selectedSlug, onSelect, bottomInset }: Props) {
+export function MapView({
+  items,
+  selectedSlug,
+  onSelect,
+  bottomInset,
+  focus,
+}: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
 
@@ -132,6 +140,28 @@ export function MapView({ items, selectedSlug, onSelect, bottomInset }: Props) {
       for (const m of markers) m.remove();
     };
   }, [items, selectedSlug, onSelect]);
+
+  // ディフォルメ地図で選ばれた県の範囲へ寄せる
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map || !focus) return;
+    const targets = items.filter((i) => i.originPref === focus.pref);
+    if (targets.length === 0) return;
+
+    // LngLatBounds のコンストラクタは名前空間インポート経由だと解決できず落ちるため、
+    // クラスを使わず配列形式（LngLatBoundsLike）で渡す。
+    const lngs = targets.map((t) => t.lng);
+    const lats = targets.map((t) => t.lat);
+    const sw: [number, number] = [Math.min(...lngs), Math.min(...lats)];
+    const ne: [number, number] = [Math.max(...lngs), Math.max(...lats)];
+
+    map.fitBounds([sw, ne], {
+      padding: { top: 80, right: 80, bottom: Math.max(80, bottomInset), left: 80 },
+      // ディフォルメ地図の閾値を必ず超えるよう、1点しかない県でも寄る
+      maxZoom: 9,
+      duration: 600,
+    });
+  }, [focus, items, bottomInset]);
 
   // 選択地点への寄せ
   useEffect(() => {
