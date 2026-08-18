@@ -29,7 +29,8 @@
     "viewOnMap": "地図で見る",
     "connections": "つながり",
     "samePref": "同じ{pref}",
-    "regionPage": "{pref}の食をすべて見る"
+    "regionPage": "{pref}の食をすべて見る",
+    "regions": "名産地"
   },
   "language": {
     "label": "言語",
@@ -123,5 +124,10 @@
       "otherIsFrom": "使う料理",
       "otherIsTo": "使用食材"
     }
+  },
+  "regionRelation": {
+    "発祥": "発祥",
+    "名産地": "名産地",
+    "主要提供圏": "主要提供圏"
   }
 }

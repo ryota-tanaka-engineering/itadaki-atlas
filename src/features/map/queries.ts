@@ -86,6 +86,12 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<MapItem[]> {
 }
 
 /** 詳細ページが読む1件分。出典を含む。 */
+export type ItemRegion = {
+  pref: string;
+  city: string | null;
+  relationType: string;
+};
+
 export type ItemDetail = MapItem & {
   genreSlug: string;
   sources: {
@@ -94,6 +100,8 @@ export type ItemDetail = MapItem & {
     publisher: string | null;
     accessedAt: string | null;
   }[];
+  /** 名産地・主要提供圏など。発祥を1つに決められないアイテムが複数の土地と結びつく */
+  regions: ItemRegion[];
 };
 
 export async function fetchItemBySlug(
@@ -110,6 +118,7 @@ export async function fetchItemBySlug(
        genres!inner ( slug ),
        food_item_translations ( locale, name, summary ),
        food_item_sources ( title, url, publisher, accessed_at ),
+       food_item_regions ( pref, city, relation_type ),
        dish_details ( primary_style )`,
     )
     .eq("slug", slug)
@@ -141,6 +150,11 @@ export async function fetchItemBySlug(
       url: s.url,
       publisher: s.publisher,
       accessedAt: s.accessed_at,
+    })),
+    regions: (data.food_item_regions ?? []).map((r) => ({
+      pref: r.pref,
+      city: r.city,
+      relationType: r.relation_type,
     })),
   };
 }
@@ -255,27 +269,54 @@ export async function fetchGenreItems(genreSlug: string, locale: Locale) {
   return (data ?? []).map((r) => rowToItem(r, locale));
 }
 
-/** 地域ページ。origin_pref にデータが入った県だけページが生える。 */
+/**
+ * 地域ページ。origin_pref（発祥）のアイテムに加え、
+ * food_item_regions（名産地等）で紐づくアイテムも**合流**する。
+ * ネタ・食材が「その土地のページ」に現れるのはこの経路。
+ */
 export async function fetchItemsByPref(pref: string, locale: Locale) {
   const db = await createClient();
-  const { data, error } = await db
-    .from("food_items")
-    .select(ITEM_SELECT)
-    .eq("origin_pref", pref)
-    .order("slug");
-  if (error) throw new Error(`fetchItemsByPref failed: ${error.message}`);
-  return (data ?? []).map((r) => rowToItem(r, locale));
+  const [own, via] = await Promise.all([
+    db.from("food_items").select(ITEM_SELECT).eq("origin_pref", pref).order("slug"),
+    db
+      .from("food_item_regions")
+      .select(`relation_type, food_items!inner ( ${ITEM_SELECT} )`)
+      .eq("pref", pref),
+  ]);
+  if (own.error) throw new Error(`fetchItemsByPref failed: ${own.error.message}`);
+  if (via.error) throw new Error(`fetchItemsByPref failed: ${via.error.message}`);
+
+  const items = (own.data ?? []).map((r) => ({
+    ...rowToItem(r, locale),
+    regionRelation: null as string | null,
+  }));
+  const seen = new Set(items.map((i) => i.slug));
+  for (const row of via.data ?? []) {
+    const item = toOne(row.food_items as unknown as ItemRow | ItemRow[] | null);
+    if (!item) continue;
+    const mapped = rowToItem(item, locale);
+    if (seen.has(mapped.slug)) continue; // 発祥として既に載っている場合はそちらを優先
+    seen.add(mapped.slug);
+    items.push({ ...mapped, regionRelation: row.relation_type });
+  }
+  return items;
 }
 
-/** データが存在する県の一覧（sitemap と「地域から探す」が読む）。 */
+/** データが存在する県の一覧（sitemap と「地域から探す」が読む）。regions 経由も含む。 */
 export async function fetchPrefsWithItems(): Promise<string[]> {
   const db = await createClient();
-  const { data, error } = await db
-    .from("food_items")
-    .select("origin_pref")
-    .not("origin_pref", "is", null);
-  if (error) throw new Error(`fetchPrefsWithItems failed: ${error.message}`);
-  return [...new Set((data ?? []).map((r) => r.origin_pref as string))];
+  const [own, via] = await Promise.all([
+    db.from("food_items").select("origin_pref").not("origin_pref", "is", null),
+    db.from("food_item_regions").select("pref"),
+  ]);
+  if (own.error) throw new Error(`fetchPrefsWithItems failed: ${own.error.message}`);
+  if (via.error) throw new Error(`fetchPrefsWithItems failed: ${via.error.message}`);
+  return [
+    ...new Set([
+      ...(own.data ?? []).map((r) => r.origin_pref as string),
+      ...(via.data ?? []).map((r) => r.pref as string),
+    ]),
+  ];
 }
 
 export type RelatedItem = {

@@ -218,3 +218,32 @@ test.describe("マルチジャンル（2ジャンル目はデータ投入のみ�
     await expect(page.getByRole("link", { name: "焼き鳥" })).toBeVisible();
   });
 });
+
+test.describe("二層構造（寿司×ネタ）", () => {
+  test("スタイル詳細から代表ネタへ辿れる", async ({ page }) => {
+    await page.goto("/ja/sushi/edomae-zushi");
+    const conn = page.locator("section", { hasText: "つながり" });
+    await expect(conn.getByText("代表ネタ").first()).toBeVisible();
+    await expect(conn.getByRole("link", { name: /コハダ/ })).toBeVisible();
+  });
+
+  test("ネタ詳細に複数の名産地が出て、逆方向にスタイルへ辿れる", async ({ page }) => {
+    await page.goto("/ja/sushi/maguro");
+    // 名産地（発祥を1つに決められないアイテムの土地との結びつき）
+    const regions = page.locator("section", { hasText: "名産地" }).first();
+    await expect(regions.getByRole("link", { name: /大間町/ })).toBeVisible();
+    await expect(regions.getByRole("link", { name: /焼津市/ })).toBeVisible();
+    // 代表ネタ関係の逆方向（ネタ側からはスタイルとして出る）
+    const conn = page.locator("section", { hasText: "つながり" });
+    await expect(conn.getByRole("link", { name: /江戸前寿司/ })).toBeVisible();
+  });
+
+  test("名産地のアイテムが地域ページにジャンル・層を跨いで合流する", async ({ page }) => {
+    await page.goto("/ja/region/aomori");
+    // 発祥アイテム（ラーメン）と名産地アイテム（寿司ネタ）が同じページに並ぶ
+    await expect(page.getByRole("link", { name: /津軽ラーメン/ })).toBeVisible();
+    const maguro = page.getByRole("link", { name: /マグロ/ });
+    await expect(maguro).toBeVisible();
+    await expect(maguro.getByText("名産地")).toBeVisible();
+  });
+});

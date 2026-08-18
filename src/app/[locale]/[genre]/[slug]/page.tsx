@@ -49,6 +49,7 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
   const tp = await getTranslations("prefecture");
   const ts = await getTranslations("style");
   const tr = await getTranslations("relation");
+  const trr = await getTranslations("regionRelation");
 
   // 行き止まり禁止（回遊が価値の中核）。relations に行を足すと双方向で増え、
   // 同県リンクはデータを足すだけで自動で増える
@@ -111,6 +112,27 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
         </dl>
 
         {item.summary && <p className="mb-8 leading-relaxed">{item.summary}</p>}
+
+        {/* 名産地など。発祥を1つに決められないアイテム（ネタ・食材）が土地と結びつく */}
+        {item.regions.length > 0 && (
+          <section className="mb-8">
+            <h2 className="mb-2 text-sm font-semibold">{t("regions")}</h2>
+            <ul className="flex flex-wrap gap-2">
+              {item.regions.map((r) => (
+                <li key={`${r.pref}-${r.relationType}`}>
+                  <Link
+                    href={`/region/${PREF_SLUGS[r.pref as Prefecture]}`}
+                    className="bg-muted hover:bg-muted/70 inline-block rounded-full px-3 py-1 text-xs"
+                  >
+                    {tp(r.pref)}
+                    {r.city ? ` ${r.city}` : ""}
+                    <span className="text-muted-foreground ml-1">{trr(r.relationType)}</span>
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {/* つながり: 名前のついた関係リンク。押す前に一つ学べる形にする */}
         {(related.length > 0 || samePref.length > 0) && (

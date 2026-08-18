@@ -29,7 +29,8 @@
     "viewOnMap": "View on map",
     "connections": "Connections",
     "samePref": "Also from {pref}",
-    "regionPage": "Everything from {pref}"
+    "regionPage": "Everything from {pref}",
+    "regions": "Renowned regions"
   },
   "language": {
     "label": "Language",
@@ -123,5 +124,10 @@
       "otherIsFrom": "Used in",
       "otherIsTo": "Key ingredient"
     }
+  },
+  "regionRelation": {
+    "発祥": "Origin",
+    "名産地": "Renowned source",
+    "主要提供圏": "Widely served"
   }
 }

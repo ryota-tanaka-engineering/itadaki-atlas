@@ -47,6 +47,7 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
   const t = await getTranslations("region");
   const tp = await getTranslations("prefecture");
   const ts = await getTranslations("style");
+  const trr = await getTranslations("regionRelation");
   const name = tp(pref);
 
   return (
@@ -82,6 +83,12 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
                 {item.primaryStyle && (
                   <span className="text-muted-foreground text-xs">
                     {ts(item.primaryStyle)}
+                  </span>
+                )}
+                {/* 発祥ではなく名産地等で結びつくアイテムの区別 */}
+                {item.regionRelation && (
+                  <span className="bg-muted text-muted-foreground rounded-full px-2 py-0.5 text-xs">
+                    {trr(item.regionRelation)}
                   </span>
                 )}
               </span>
