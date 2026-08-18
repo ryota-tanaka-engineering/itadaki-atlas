@@ -100,7 +100,8 @@
     "otherStyles": "その他",
     "encyclopedia": "図鑑",
     "byRegion": "地域から探す",
-    "regional": "ご当地"
+    "regional": "ご当地",
+    "titleIngredient": "{name}の銘柄と産地"
   },
   "region": {
     "title": "{pref}の食",

@@ -247,3 +247,32 @@ test.describe("二層構造（寿司×ネタ）", () => {
     await expect(maguro.getByText("名産地")).toBeVisible();
   });
 });
+
+test.describe("食材展開型（和牛・牡蠣）", () => {
+  test("ingredient 型ジャンルは「銘柄と産地」の見出しになる", async ({ page }) => {
+    await page.goto("/ja/wagyu");
+    await expect(page.getByRole("heading", { name: "和牛の銘柄と産地" })).toBeVisible();
+    await expect(page.getByRole("link", { name: /松阪牛/ })).toBeVisible();
+  });
+
+  test("銘柄間の関係（但馬牛→神戸ビーフ）が双方向で辿れる", async ({ page }) => {
+    await page.goto("/ja/wagyu/kobe-beef");
+    const conn = page.locator("section", { hasText: "つながり" });
+    await expect(conn.getByText("源流", { exact: true })).toBeVisible();
+    await expect(conn.getByRole("link", { name: /但馬牛/ })).toBeVisible();
+  });
+
+  test("銘柄がデータ投入だけで空白県を埋める（滋賀=近江牛）", async ({ page }) => {
+    await page.goto("/ja/region/shiga");
+    await expect(page.getByRole("heading", { name: "滋賀県の食" })).toBeVisible();
+    await expect(page.getByRole("link", { name: /近江牛/ })).toBeVisible();
+  });
+
+  test("基底アイテムの名産地が地域ページに合流する（広島=真牡蠣）", async ({ page }) => {
+    await page.goto("/ja/region/hiroshima");
+    await expect(page.getByRole("link", { name: /広島ラーメン/ })).toBeVisible();
+    const magaki = page.getByRole("link", { name: /真牡蠣/ });
+    await expect(magaki).toBeVisible();
+    await expect(magaki.getByText("名産地")).toBeVisible();
+  });
+});

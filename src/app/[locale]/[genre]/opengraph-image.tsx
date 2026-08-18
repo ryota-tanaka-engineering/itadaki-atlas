@@ -15,7 +15,7 @@ export default async function Image({ params }: { params: Promise<Params> }) {
   const db = createStaticClient();
 
   const [{ data: g }, { count }] = await Promise.all([
-    db.from("genres").select("slug, name_ja, name_en").eq("slug", genre).maybeSingle(),
+    db.from("genres").select("slug, name_ja, name_en, type").eq("slug", genre).maybeSingle(),
     db
       .from("food_items")
       .select("id, genres!inner(slug)", { count: "exact", head: true })
@@ -24,8 +24,15 @@ export default async function Image({ params }: { params: Promise<Params> }) {
 
   const isJa = locale === "ja";
   const name = isJa ? (g?.name_ja ?? genre) : (g?.name_en ?? genre);
-  const title = isJa ? `ご当地${name}一覧` : `Types of ${name}`;
-  const subtitle = isJa ? `${count ?? 0}種` : `${count ?? 0} regional varieties`;
+  const ing = g?.type === "ingredient";
+  const title = isJa
+    ? ing
+      ? `${name}の銘柄と産地`
+      : `ご当地${name}一覧`
+    : ing
+      ? `${name} — brands and regions`
+      : `Types of ${name}`;
+  const subtitle = isJa ? `${count ?? 0}${ing ? "件" : "種"}` : `${count ?? 0} entries`;
 
   const allText = `ITADAKI ATLAS 日本の食の地理データベース${title}${subtitle}`;
 

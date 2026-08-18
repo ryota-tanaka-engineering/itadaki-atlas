@@ -230,28 +230,40 @@ const ITEM_SELECT_GENRE_INNER = `slug, name_romaji, origin_pref, origin_city, la
   food_item_translations ( locale, name, summary ),
   dish_details ( primary_style )`;
 
-export type Genre = { slug: string; nameJa: string; nameEn: string };
+export type Genre = { slug: string; nameJa: string; nameEn: string; type: "dish" | "ingredient" };
 
 /** トップのチップとジャンルページが読む。genres に行を足すだけで増える。 */
 export async function fetchGenres(): Promise<Genre[]> {
   const db = await createClient();
   const { data, error } = await db
     .from("genres")
-    .select("slug, name_ja, name_en")
+    .select("slug, name_ja, name_en, type")
     .order("sort_order");
   if (error) throw new Error(`fetchGenres failed: ${error.message}`);
-  return (data ?? []).map((g) => ({ slug: g.slug, nameJa: g.name_ja, nameEn: g.name_en }));
+  return (data ?? []).map((g) => ({
+    slug: g.slug,
+    nameJa: g.name_ja,
+    nameEn: g.name_en,
+    type: g.type as "dish" | "ingredient",
+  }));
 }
 
 export async function fetchGenre(genreSlug: string): Promise<Genre | null> {
   const db = await createClient();
   const { data, error } = await db
     .from("genres")
-    .select("slug, name_ja, name_en")
+    .select("slug, name_ja, name_en, type")
     .eq("slug", genreSlug)
     .maybeSingle();
   if (error) throw new Error(`fetchGenre failed: ${error.message}`);
-  return data ? { slug: data.slug, nameJa: data.name_ja, nameEn: data.name_en } : null;
+  return data
+    ? {
+        slug: data.slug,
+        nameJa: data.name_ja,
+        nameEn: data.name_en,
+        type: data.type as "dish" | "ingredient",
+      }
+    : null;
 }
 
 /**

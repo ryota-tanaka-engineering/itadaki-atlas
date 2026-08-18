@@ -27,15 +27,25 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   const items = await fetchGenreItems(genre, locale as Locale);
   const name = locale === "ja" ? g.nameJa : g.nameEn;
 
+  // 料理（dish）は「ご当地◯◯一覧」、食材（ingredient）は「◯◯の銘柄と産地」
+  const ing = g.type === "ingredient";
   return {
     title:
       locale === "ja"
-        ? `ご当地${name}一覧（${items.length}種）`
-        : `Types of ${name} — ${items.length} regional varieties`,
+        ? ing
+          ? `${name}の銘柄と産地（${items.length}件）`
+          : `ご当地${name}一覧（${items.length}種）`
+        : ing
+          ? `${name} — brands and regions`
+          : `Types of ${name} — ${items.length} regional varieties`,
     description:
       locale === "ja"
-        ? `日本各地の${name}${items.length}種を、発祥地と系統で整理した一覧。`
-        : `${items.length} regional varieties of ${name} in Japan, organized by origin and style.`,
+        ? ing
+          ? `日本各地の${name}の銘柄と産地を整理した一覧。`
+          : `日本各地の${name}${items.length}種を、発祥地と系統で整理した一覧。`
+        : ing
+          ? `${name} brands and their source regions across Japan.`
+          : `${items.length} regional varieties of ${name} in Japan, organized by origin and style.`,
     alternates: localeAlternates(`/${genre}`),
   };
 }
@@ -65,7 +75,9 @@ export default async function GenrePage({ params }: { params: Promise<Params> })
   return (
     <main className="mx-auto w-full max-w-2xl flex-1 px-4 py-8">
       <header className="mb-8">
-        <h1 className="text-2xl font-semibold">{t("title", { name })}</h1>
+        <h1 className="text-2xl font-semibold">
+          {g.type === "ingredient" ? t("titleIngredient", { name }) : t("title", { name })}
+        </h1>
         <p className="text-muted-foreground mt-1 text-sm">
           {t("count", { count: items.length })}
         </p>

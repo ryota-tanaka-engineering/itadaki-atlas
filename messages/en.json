@@ -100,7 +100,8 @@
     "otherStyles": "Other",
     "encyclopedia": "Encyclopedia",
     "byRegion": "Browse by region",
-    "regional": "Regional varieties"
+    "regional": "Regional varieties",
+    "titleIngredient": "{name} — brands and regions"
   },
   "region": {
     "title": "What to eat in {pref}",
