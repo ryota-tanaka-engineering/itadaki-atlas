@@ -72,19 +72,19 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
     <main className="mx-auto w-full max-w-2xl flex-1 px-4 py-8">
       <article>
         <header className="mb-6">
-          <div className="mb-2 flex items-center gap-2">
-            <span
-              aria-hidden
-              className="inline-block size-4 rounded-full border"
-              style={{
-                backgroundColor: styleColor(item.primaryStyle),
-                borderColor: PIN_STROKE,
-              }}
-            />
-            <span className="text-muted-foreground text-sm">
-              {item.primaryStyle ? ts(item.primaryStyle) : t("unknown")}
-            </span>
-          </div>
+          {item.primaryStyle && (
+            <div className="mb-2 flex items-center gap-2">
+              <span
+                aria-hidden
+                className="inline-block size-4 rounded-full border"
+                style={{
+                  backgroundColor: styleColor(item.primaryStyle),
+                  borderColor: PIN_STROKE,
+                }}
+              />
+              <span className="text-muted-foreground text-sm">{ts(item.primaryStyle)}</span>
+            </div>
+          )}
 
           {/* 三点セット: 日本語名 — ローマ字 — 英訳 */}
           <h1 className="text-2xl font-semibold">{displayName}</h1>
@@ -96,20 +96,25 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
           </p>
         </header>
 
-        <dl className="mb-6 text-sm">
-          <div className="flex gap-3 py-1">
-            <dt className="text-muted-foreground w-20 shrink-0">{t("origin")}</dt>
-            <dd>
-              {item.originPref
-                ? `${tp(item.originPref)}${item.originCity ? ` / ${item.originCity}` : ""}`
-                : t("unknown")}
-            </dd>
-          </div>
-          <div className="flex gap-3 py-1">
-            <dt className="text-muted-foreground w-20 shrink-0">{t("style")}</dt>
-            <dd>{item.primaryStyle ? ts(item.primaryStyle) : t("unknown")}</dd>
-          </div>
-        </dl>
+        {(item.originPref || item.primaryStyle) && (
+          <dl className="mb-6 text-sm">
+            {item.originPref && (
+              <div className="flex gap-3 py-1">
+                <dt className="text-muted-foreground w-20 shrink-0">{t("origin")}</dt>
+                <dd>
+                  {tp(item.originPref)}
+                  {item.originCity ? ` / ${item.originCity}` : ""}
+                </dd>
+              </div>
+            )}
+            {item.primaryStyle && (
+              <div className="flex gap-3 py-1">
+                <dt className="text-muted-foreground w-20 shrink-0">{t("style")}</dt>
+                <dd>{ts(item.primaryStyle)}</dd>
+              </div>
+            )}
+          </dl>
+        )}
 
         {item.summary && <p className="mb-8 leading-relaxed">{item.summary}</p>}
 
