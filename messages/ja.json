@@ -130,5 +130,13 @@
     "発祥": "発祥",
     "名産地": "名産地",
     "主要提供圏": "主要提供圏"
+  },
+  "about": {
+    "title": "このサイトについて",
+    "pillarsTitle": "3つの柱",
+    "policyTitle": "編集方針",
+    "adsTitle": "広告について",
+    "operatorTitle": "運営",
+    "backToMap": "地図へ戻る"
   }
 }

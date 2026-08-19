@@ -39,6 +39,12 @@ export default async function Home({
             {locale === "ja" ? g.nameJa : g.nameEn}
           </Link>
         ))}
+        <Link
+          href="/about"
+          className="bg-background/90 text-muted-foreground rounded-full border px-3 py-1 text-xs whitespace-nowrap shadow-sm backdrop-blur"
+        >
+          {locale === "ja" ? "このサイトについて" : "About"}
+        </Link>
       </nav>
       <BrowseShell items={items} locale={locale as Locale} />
     </main>

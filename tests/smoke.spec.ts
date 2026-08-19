@@ -276,3 +276,22 @@ test.describe("食材展開型（和牛・牡蠣）", () => {
     await expect(magaki.getByText("名産地")).toBeVisible();
   });
 });
+
+test.describe("このサイトについて（About）", () => {
+  test("英日両方で表示され、編集方針が公開されている", async ({ page }) => {
+    await page.goto("/ja/about");
+    await expect(page.getByRole("heading", { name: "このサイトについて" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "編集方針" })).toBeVisible();
+    await expect(page.getByText("ランキングや優劣はつけません。")).toBeVisible();
+
+    await page.goto("/en/about");
+    await expect(page.getByRole("heading", { name: "About Itadaki Atlas" })).toBeVisible();
+    await expect(page.getByText("We do not rank.")).toBeVisible();
+  });
+
+  test("トップからリンクで到達できる", async ({ page }) => {
+    await page.goto("/ja");
+    await page.getByRole("link", { name: "このサイトについて" }).click();
+    await expect(page.getByRole("heading", { name: "このサイトについて" })).toBeVisible();
+  });
+});

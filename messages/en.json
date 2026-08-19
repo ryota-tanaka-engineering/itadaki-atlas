@@ -130,5 +130,13 @@
     "発祥": "Origin",
     "名産地": "Renowned source",
     "主要提供圏": "Widely served"
+  },
+  "about": {
+    "title": "About Itadaki Atlas",
+    "pillarsTitle": "Three pillars",
+    "policyTitle": "Editorial policy",
+    "adsTitle": "Advertising",
+    "operatorTitle": "Operator",
+    "backToMap": "Back to the map"
   }
 }
