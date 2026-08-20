@@ -295,3 +295,44 @@ test.describe("このサイトについて（About）", () => {
     await expect(page.getByRole("heading", { name: "このサイトについて" })).toBeVisible();
   });
 });
+
+test.describe("利用規約 / プライバシーポリシー / お問い合わせ / 共通フッター", () => {
+  test("利用規約が英日両方で表示される", async ({ page }) => {
+    await page.goto("/ja/terms");
+    await expect(page.getByRole("heading", { name: "利用規約", exact: true })).toBeVisible();
+
+    await page.goto("/en/terms");
+    await expect(page.getByRole("heading", { name: "Terms of Use", exact: true })).toBeVisible();
+  });
+
+  test("プライバシーポリシーにCookieの節がある", async ({ page }) => {
+    await page.goto("/ja/privacy");
+    await expect(
+      page.getByRole("heading", { name: "プライバシーポリシー", exact: true }),
+    ).toBeVisible();
+    await expect(page.getByRole("heading", { name: /Cookie/ })).toBeVisible();
+  });
+
+  test("問い合わせフォームから送信できる", async ({ page }) => {
+    await page.goto("/ja/contact");
+
+    await page.getByRole("radio", { name: "その他", exact: true }).check();
+    await page.getByLabel("お名前", { exact: true }).fill("テスト太郎");
+    await page.getByLabel("メールアドレス", { exact: true }).fill("test@example.com");
+    await page
+      .getByLabel("内容", { exact: true })
+      .fill("E2Eテストからの問い合わせです。内容の確認をお願いします。");
+
+    await page.getByRole("button", { name: "送信する" }).click();
+
+    await expect(page.getByRole("status")).toContainText(
+      "送信しました。内容を確認のうえ、必要に応じてご連絡します。",
+    );
+  });
+
+  test("ジャンルページに共通フッターの利用規約リンクが表示される", async ({ page }) => {
+    await page.goto("/ja/ramen");
+    const footer = page.locator("footer");
+    await expect(footer.getByRole("link", { name: "利用規約" })).toBeVisible();
+  });
+});

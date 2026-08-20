@@ -29,6 +29,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   return [
     ...entry("/"),
     ...entry("/about"),
+    ...entry("/terms"),
+    ...entry("/privacy"),
+    ...entry("/contact"),
     // ジャンル・地域・詳細。データを足すと sitemap も自動で伸びる
     ...genres.flatMap((g) => entry(`/${g.slug}`)),
     ...prefs.flatMap((pref) => entry(`/region/${PREF_SLUGS[pref as Prefecture]}`)),

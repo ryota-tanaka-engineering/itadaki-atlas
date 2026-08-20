@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
+import { SiteFooter } from "@/components/SiteFooter";
 import { fetchItemsByPref, type Locale } from "@/features/map/queries";
 import { PIN_STROKE, styleColor } from "@/features/map/styles";
 import { localeAlternates } from "@/lib/seo";
@@ -109,6 +110,8 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
           {t("viewOnMap")}
         </Link>
       </p>
+
+      <SiteFooter locale={locale} />
     </main>
   );
 }

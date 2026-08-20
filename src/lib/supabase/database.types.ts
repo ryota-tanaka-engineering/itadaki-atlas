@@ -326,6 +326,36 @@ export type Database = {
         }
         Relationships: []
       }
+      inquiries: {
+        Row: {
+          category: string
+          created_at: string
+          email: string
+          id: string
+          locale: string
+          message: string
+          name: string
+        }
+        Insert: {
+          category: string
+          created_at?: string
+          email: string
+          id?: string
+          locale: string
+          message: string
+          name: string
+        }
+        Update: {
+          category?: string
+          created_at?: string
+          email?: string
+          id?: string
+          locale?: string
+          message?: string
+          name?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never

@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
+import { SiteFooter } from "@/components/SiteFooter";
 import {
   fetchItemBySlug,
   fetchRelated,
@@ -217,6 +218,8 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
           </Link>
         </p>
       </article>
+
+      <SiteFooter locale={locale} />
     </main>
   );
 }

@@ -2,6 +2,7 @@ import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
+import { SiteFooter } from "@/components/SiteFooter";
 import {
   fetchGenre,
   fetchGenreItems,
@@ -175,6 +176,8 @@ export default async function GenrePage({ params }: { params: Promise<Params> })
           ))}
         </ul>
       </section>
+
+      <SiteFooter locale={locale} />
     </main>
   );
 }
