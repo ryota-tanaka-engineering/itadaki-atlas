@@ -19,6 +19,7 @@
 - **実装規約: `ia-nextjs-standards` Skill**（コードを書く前に必ず参照）
 - **ドキュメント: `ia-doc-sync` Skill**（`.doc` の差分主義・SSOT）
 - マイグレーション: `supabase-migration` Skill
+- **コンテンツ制作・投入: `ia-atlas-content` Skill**（編集規律・Tier制・slug規則・importの使い方。量産はグローバル `research-fleet` の部隊体制で）
 - 共通方針（インフラ・i18n・型生成・セキュリティ）は Platform `../.doc/` が正。**Product側に再掲しない**
 
 ## コマンド
