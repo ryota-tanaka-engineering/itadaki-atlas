@@ -39,6 +39,8 @@
   --color-popover: var(--popover);
   --color-card-foreground: var(--card-foreground);
   --color-card: var(--card);
+  --color-brand-accent-light: var(--brand-accent-light);
+  --color-brand-accent-dark: var(--brand-accent-dark);
   --radius-sm: calc(var(--radius) * 0.6);
   --radius-md: calc(var(--radius) * 0.8);
   --radius-lg: var(--radius);
@@ -49,38 +51,64 @@
 }
 
 :root {
-  --background: oklch(1 0 0);
-  --foreground: oklch(0.145 0 0);
-  --card: oklch(1 0 0);
-  --card-foreground: oklch(0.145 0 0);
-  --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: oklch(0.205 0 0);
-  --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
-  --muted: oklch(0.97 0 0);
-  --muted-foreground: oklch(0.556 0 0);
-  --accent: oklch(0.97 0 0);
-  --accent-foreground: oklch(0.205 0 0);
-  --destructive: oklch(0.577 0.245 27.325);
-  --border: oklch(0.922 0 0);
-  --input: oklch(0.922 0 0);
-  --ring: oklch(0.708 0 0);
-  --chart-1: oklch(0.87 0 0);
-  --chart-2: oklch(0.556 0 0);
-  --chart-3: oklch(0.439 0 0);
-  --chart-4: oklch(0.371 0 0);
-  --chart-5: oklch(0.269 0 0);
+  /*
+   * itadaki-atlas ブランドトークン（2026-08 デザイン確定。CLAUDE.md「デザイン」節が正典）。
+   * ダーク配色は今回未対応（ライト1本）。prefers-color-scheme の影響を受けないよう、
+   * .dark クラスを付与する仕組み（ThemeProvider等）は存在しない前提で :root のみ定義する。
+   */
+  --background: #fffdf7; /* 紙 */
+  --foreground: #5b4a37; /* 文字（真っ黒禁止） */
+  --card: #fffdf7;
+  --card-foreground: #5b4a37;
+  --popover: #fffdf7;
+  --popover-foreground: #5b4a37;
+  --primary: #ff8f00; /* ブランド橙 */
+  --primary-foreground: #ffffff;
+  /* 色付き淡塗りのボタン禁止（CLAUDE.md）。secondary/muted は紙に近い中立トーンに留める */
+  --secondary: #f6efe0;
+  --secondary-foreground: #5b4a37;
+  --muted: #f6efe0;
+  --muted-foreground: #7a6a58;
+  --accent: #ffc985; /* accent淡 */
+  --accent-foreground: #5b4a37;
+  --destructive: #c0392b;
+  --border: #e3d9c8;
+  --input: #e3d9c8;
+  --ring: #ff8f00;
+  --chart-1: #ff8f00;
+  --chart-2: #e56000;
+  --chart-3: #b06a1f;
+  --chart-4: #7fa8c9;
+  --chart-5: #7a6a58;
   --radius: 0.625rem;
-  --sidebar: oklch(0.985 0 0);
-  --sidebar-foreground: oklch(0.145 0 0);
-  --sidebar-primary: oklch(0.205 0 0);
-  --sidebar-primary-foreground: oklch(0.985 0 0);
-  --sidebar-accent: oklch(0.97 0 0);
-  --sidebar-accent-foreground: oklch(0.205 0 0);
-  --sidebar-border: oklch(0.922 0 0);
-  --sidebar-ring: oklch(0.708 0 0);
+  --sidebar: #fffdf7;
+  --sidebar-foreground: #5b4a37;
+  --sidebar-primary: #ff8f00;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f6efe0;
+  --sidebar-accent-foreground: #5b4a37;
+  --sidebar-border: #e3d9c8;
+  --sidebar-ring: #ff8f00;
+
+  /* ブランド専用トークン（shadcn標準変数にない accent淡/濃）。ワードマーク・紋・カード装飾で使用 */
+  --brand-accent-light: #ffc985;
+  --brand-accent-dark: #e56000;
+
+  /* 共通ヘッダーの高さ（SP 48px）。MapLibre 純正コントロールがヘッダーの下に来るよう offset にも使う */
+  --header-height: 3rem;
+}
+
+@media (min-width: 768px) {
+  :root {
+    /* 共通ヘッダーの高さ（PC 62px） */
+    --header-height: 3.875rem;
+  }
+}
+
+/* 地図右上の MapLibre 純正コントロール（NavigationControl）が
+   固定ヘッダーの下に隠れないよう、その分だけ下げる。 */
+.maplibregl-ctrl-top-right {
+  top: calc(var(--header-height) + 0.5rem);
 }
 
 .dark {

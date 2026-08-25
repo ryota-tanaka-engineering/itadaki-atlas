@@ -4,6 +4,12 @@
     "tagline": "A geographic database of Japanese food",
     "description": "Japanese dishes in fine detail, mapped to where they came from."
   },
+  "header": {
+    "navLabel": "Site navigation",
+    "navPlace": "Place",
+    "navType": "Type",
+    "navInterest": "Interest"
+  },
   "browse": {
     "index": "Index",
     "count": "{count} items",
@@ -18,7 +24,14 @@
       "kana": "A–Z",
       "region": "Region",
       "style": "Style"
-    }
+    },
+    "heroTitle": "Japan's food, from the map",
+    "searchPlaceholder": "Search by dish, ingredient, or place",
+    "searchLabel": "Search (coming soon)",
+    "entryPlaceTitle": "Browse by place",
+    "entryPlaceHint": "Tap the map, or select a pin, to explore",
+    "entryTypeTitle": "Browse by type",
+    "aboutLink": "About this site"
   },
   "item": {
     "origin": "Origin",
@@ -109,21 +122,21 @@
     "viewOnMap": "View on map"
   },
   "relation": {
-    "派生": {
+    "lineage": {
       "otherIsFrom": "Root style",
       "otherIsTo": "Derived style"
     },
-    "対比": {
+    "sibling": {
+      "otherIsFrom": "Related lineage",
+      "otherIsTo": "Related lineage"
+    },
+    "contrast": {
       "otherIsFrom": "Contrast",
       "otherIsTo": "Contrast"
     },
-    "代表ネタ": {
-      "otherIsFrom": "Style",
-      "otherIsTo": "Signature topping"
-    },
-    "使用食材": {
-      "otherIsFrom": "Used in",
-      "otherIsTo": "Key ingredient"
+    "uses": {
+      "otherIsFrom": "Uses",
+      "otherIsTo": "Used in"
     }
   },
   "regionRelation": {

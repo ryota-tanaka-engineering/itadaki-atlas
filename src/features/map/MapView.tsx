@@ -4,12 +4,76 @@ import { useEffect, useRef } from "react";
 import { useTranslations } from "next-intl";
 import * as maplibregl from "maplibre-gl";
 import { Protocol } from "pmtiles";
-import { layers, namedFlavor } from "@protomaps/basemaps";
+import { layers, namedFlavor, type Flavor } from "@protomaps/basemaps";
 import "maplibre-gl/dist/maplibre-gl.css";
 
 import type { MapItem } from "./queries";
 import { PIN_STROKE, PRIMARY_STYLES, STYLE_COLORS, styleColor } from "./styles";
 import { useMasterLabels } from "./labels";
+
+/**
+ * 地図トーン（CLAUDE.md「デザイン」節が正典。海 #efe8da・陸 #fffdf7・海岸線/境界 #c3b8a6）。
+ *
+ * @protomaps/basemaps の Flavor は色だけを差し替える薄い抽象で、レイヤー構成自体は
+ * 標準の "light" を踏襲する（ベンダ固有APIの直書きにはあたらない。色トークンのみの差分）。
+ */
+const ATLAS_FLAVOR: Flavor = {
+  ...namedFlavor("light"),
+  background: "#efe8da",
+  water: "#efe8da",
+  earth: "#fffdf7",
+  boundaries: "#c3b8a6",
+  // landcover（森林・農地・草地等）や公園・樹林・低木地は既定だと緑系に色分けされ、
+  // 「陸は #fffdf7 の単色紙」という確定デザインと矛盾するため陸と同色に揃える。
+  park_a: "#fffdf7",
+  park_b: "#fffdf7",
+  wood_a: "#fffdf7",
+  wood_b: "#fffdf7",
+  scrub_a: "#fffdf7",
+  scrub_b: "#fffdf7",
+  landcover: {
+    barren: "#fffdf7",
+    farmland: "#fffdf7",
+    forest: "#fffdf7",
+    glacier: "#fffdf7",
+    grassland: "#fffdf7",
+    scrub: "#fffdf7",
+    urban_area: "#fffdf7",
+  },
+  city_label: "#9c9184",
+  city_label_halo: "#fffdf7",
+  state_label: "#9c9184",
+  state_label_halo: "#fffdf7",
+  country_label: "#9c9184",
+  subplace_label: "#9c9184",
+  subplace_label_halo: "#fffdf7",
+  roads_label_major: "#9c9184",
+  roads_label_major_halo: "#fffdf7",
+  roads_label_minor: "#9c9184",
+  roads_label_minor_halo: "#fffdf7",
+  ocean_label: "#9c9184",
+  address_label: "#9c9184",
+  address_label_halo: "#fffdf7",
+};
+
+/** 国土ズーム（z<=9目安）では道路・鉄道を出さない（CLAUDE.md「地図」節）。 */
+const ROAD_LINE_MIN_ZOOM = 10;
+
+function buildAtlasLayers() {
+  return layers("protomaps", ATLAS_FLAVOR, { lang: "ja" }).map((layer) => {
+    // 道路・鉄道・橋・トンネル・経路番号シールドなど roads_* 系レイヤーを
+    // 国土ズームで一律隠す（roads_labels_* 等は元々もっと高いズームでしか
+    // 出ないため Math.max により実質変化しない）。
+    if (layer.id.startsWith("roads_")) {
+      return { ...layer, minzoom: Math.max(layer.minzoom ?? 0, ROAD_LINE_MIN_ZOOM) };
+    }
+    // 地名ラベルは最小限に留める（国・都道府県・市までとし、字・POIは隠す）
+    if (layer.id === "places_subplace" || layer.id === "pois") {
+      return { ...layer, minzoom: Math.max(layer.minzoom ?? 0, 12) };
+    }
+    return layer;
+  });
+}
 
 /**
  * フルスクリーン地図（.doc/30_features/02_ui_ux.md §2）。
@@ -77,7 +141,7 @@ export function MapView({
               '<a href="https://protomaps.com">Protomaps</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>',
           },
         },
-        layers: layers("protomaps", namedFlavor("light"), { lang: "ja" }),
+        layers: buildAtlasLayers(),
       },
       bounds: JAPAN_BOUNDS,
       fitBoundsOptions: { padding: 24 },
@@ -120,8 +184,10 @@ export function MapView({
           "aria-label",
           `${item.nameJa}（${item.originPref ?? ""}${item.originCity ?? ""}・${item.primaryStyle ?? "系統不明"}）`,
         );
-        el.className =
-          "size-4 cursor-pointer rounded-full border-2 transition-transform hover:scale-125 focus-visible:outline-2 focus-visible:outline-offset-2";
+        // 記号（CLAUDE.md「記号」節）: dish=●（丸）/ ingredient=■（角）。
+        // 系統色はラーメン内部のみの識別軸で、それ以外は無地のブランド橙（PIN_BASE）。
+        const shape = item.itemType === "ingredient" ? "rounded-[3px]" : "rounded-full";
+        el.className = `size-4 cursor-pointer border-2 transition-transform hover:scale-125 focus-visible:outline-2 focus-visible:outline-offset-2 ${shape}`;
         el.style.backgroundColor = styleColor(item.primaryStyle);
         el.style.borderColor = PIN_STROKE;
         if (item.slug === selectedSlug) {

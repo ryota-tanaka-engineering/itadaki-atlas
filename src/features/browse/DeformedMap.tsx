@@ -63,7 +63,7 @@ export function DeformedMap({ items, onSelectPrefecture, bottomInset }: Props) {
           const count = list.length;
           const has = count > 0;
           // 塗りは中立。件数の多寡も色の強弱で表さない（多い＝良いではないため）
-          const fill = has ? "#faf8f5" : "#f2f2f2";
+          const fill = has ? "#fffdf7" : "#f6efe0";
           // その県に存在する系統を重複なく並べる。順序は PRIMARY_STYLES 固定
           const styles = PRIMARY_STYLES.filter((st) =>
             list.some((i) => i.primaryStyle === st),
@@ -102,7 +102,7 @@ export function DeformedMap({ items, onSelectPrefecture, bottomInset }: Props) {
                 height={CELL}
                 rx={6}
                 fill={fill}
-                stroke={has ? PIN_STROKE : "#dddddd"}
+                stroke={has ? PIN_STROKE : "#e3d9c8"}
                 strokeWidth={has ? 1.5 : 1}
               />
               <text
@@ -111,7 +111,7 @@ export function DeformedMap({ items, onSelectPrefecture, bottomInset }: Props) {
                 textAnchor="middle"
                 className="pointer-events-none select-none"
                 fontSize={cell.short.length > 3 ? 8 : 10}
-                fill={has ? "#2b2118" : "#999999"}
+                fill={has ? "#5b4a37" : "#7a6a58"}
               >
                 {cell.short}
               </text>
@@ -124,7 +124,7 @@ export function DeformedMap({ items, onSelectPrefecture, bottomInset }: Props) {
                     className="pointer-events-none select-none"
                     fontSize={13}
                     fontWeight={600}
-                    fill="#2b2118"
+                    fill="#5b4a37"
                   >
                     {count}
                   </text>

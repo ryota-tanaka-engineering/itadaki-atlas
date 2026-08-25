@@ -2,16 +2,18 @@
 
 import { useCallback, useEffect, useMemo, useState } from "react";
 import { useTranslations } from "next-intl";
+import { Search } from "lucide-react";
 
 import { Link } from "@/i18n/navigation";
+import { Input } from "@/components/ui/input";
+import { buttonVariants } from "@/components/ui/button";
 
 import { MapView } from "@/features/map/MapView";
-import type { MapItem, Locale } from "@/features/map/queries";
+import type { MapItem, Genre, Locale } from "@/features/map/queries";
 
 import { BottomSheet, snapOffset, type Snap } from "./BottomSheet";
 import { DeformedMap } from "./DeformedMap";
 import { IndexList } from "./IndexList";
-import { LanguageSwitcher } from "./LanguageSwitcher";
 import type { Axis } from "./axes";
 
 /**
@@ -19,8 +21,21 @@ import type { Axis } from "./axes";
  *
  * 選択状態をここが持つことで、ピンタップと索引からの選択が同じ状態を共有し、
  * **ページ遷移なしで地図と詳細を往復できる**（.doc/30_features/02_ui_ux.md §2.2）。
+ *
+ * ルート要素は `fixed inset-0`（2026-08 デザイン確定）。共通ヘッダー
+ * （src/components/SiteHeader.tsx）が layout.tsx 側で通常フローに載るため、
+ * このコンポーネントを fixed で切り離すことで「地図がヘッダーの上に来る」
+ * （＝ヘッダーが地図に重なる）レイアウトを、他ページのpaddingを増やさずに実現する。
  */
-export function BrowseShell({ items, locale }: { items: MapItem[]; locale: Locale }) {
+export function BrowseShell({
+  items,
+  genres,
+  locale,
+}: {
+  items: MapItem[];
+  genres: Genre[];
+  locale: Locale;
+}) {
   const t = useTranslations("browse");
   const ti = useTranslations("item");
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
@@ -73,11 +88,7 @@ export function BrowseShell({ items, locale }: { items: MapItem[]; locale: Local
   const showDeformed = view === "deformed";
 
   return (
-    <div className="relative h-dvh w-full overflow-hidden">
-      <div className="absolute top-4 left-1/2 z-30 -translate-x-1/2">
-        <LanguageSwitcher locale={locale} />
-      </div>
-
+    <div className="fixed inset-0 overflow-hidden">
       <MapView
         items={items}
         selectedSlug={selectedSlug}
@@ -128,7 +139,7 @@ export function BrowseShell({ items, locale }: { items: MapItem[]; locale: Local
             </div>
           ) : (
             <h2 id="sheet-heading" className="text-base font-semibold">
-              {t("index")}
+              {t("heroTitle")}
               <span className="text-muted-foreground ml-2 text-sm font-normal">
                 {t("count", { count: items.length })}
               </span>
@@ -167,13 +178,72 @@ export function BrowseShell({ items, locale }: { items: MapItem[]; locale: Local
             </div>
           </div>
         ) : (
-          <IndexList
-            items={items}
-            axis={axis}
-            onAxisChange={setAxis}
-            selectedSlug={selectedSlug}
-            onSelect={handleSelectFromIndex}
-          />
+          <div className="space-y-4">
+            {/* 検索ボックス風の入口。実装はまだ無いので無効化した見た目に留める */}
+            <div className="relative">
+              <Search
+                aria-hidden
+                className="text-muted-foreground pointer-events-none absolute top-1/2 left-2.5 size-4 -translate-y-1/2"
+              />
+              <Input disabled placeholder={t("searchPlaceholder")} aria-label={t("searchLabel")} className="pl-8" />
+            </div>
+
+            {/* 3軸索引の入口（現状は土地・種類の2つ。興味は遷移先ができてから追加する） */}
+            <div className="grid grid-cols-2 gap-2">
+              <button
+                type="button"
+                onClick={() => setSnap("peak")}
+                className="border-border bg-background hover:bg-muted/60 flex flex-col items-start gap-1 rounded-2xl border p-2.5 text-left transition-colors"
+              >
+                <span
+                  aria-hidden
+                  className="bg-primary text-primary-foreground flex size-5 items-center justify-center rounded-full text-[10px] leading-none"
+                >
+                  ●
+                </span>
+                <span className="text-sm font-semibold">{t("entryPlaceTitle")}</span>
+                <span className="text-muted-foreground text-xs">{t("entryPlaceHint")}</span>
+              </button>
+
+              <div className="border-border bg-background rounded-2xl border p-2.5">
+                <div className="mb-1.5 flex items-center gap-1.5">
+                  <span
+                    aria-hidden
+                    className="bg-primary text-primary-foreground flex size-5 items-center justify-center rounded-[4px] text-[10px] leading-none"
+                  >
+                    ■
+                  </span>
+                  <span className="text-sm font-semibold">{t("entryTypeTitle")}</span>
+                </div>
+                <ul className="flex flex-wrap gap-1">
+                  {genres.map((g) => (
+                    <li key={g.slug}>
+                      <Link
+                        href={`/${g.slug}`}
+                        className={buttonVariants({ variant: "outline", size: "xs" })}
+                      >
+                        {locale === "ja" ? g.nameJa : g.nameEn}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
+
+            <p className="text-center">
+              <Link href="/about" className="text-muted-foreground text-xs underline">
+                {t("aboutLink")}
+              </Link>
+            </p>
+
+            <IndexList
+              items={items}
+              axis={axis}
+              onAxisChange={setAxis}
+              selectedSlug={selectedSlug}
+              onSelect={handleSelectFromIndex}
+            />
+          </div>
         )}
       </BottomSheet>
     </div>

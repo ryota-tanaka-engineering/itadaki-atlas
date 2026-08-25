@@ -6,6 +6,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { routing } from "@/i18n/routing";
 import { SITE_URL, localeAlternates } from "@/lib/seo";
+import { SiteHeader } from "@/components/SiteHeader";
 
 import "../globals.css";
 
@@ -59,7 +60,10 @@ export default async function LocaleLayout({
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
-        <NextIntlClientProvider>{children}</NextIntlClientProvider>
+        <NextIntlClientProvider>
+          <SiteHeader locale={locale} />
+          {children}
+        </NextIntlClientProvider>
       </body>
     </html>
   );

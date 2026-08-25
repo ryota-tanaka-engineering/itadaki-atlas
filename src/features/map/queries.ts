@@ -19,6 +19,8 @@ export type MapItem = {
   lat: number;
   lng: number;
   primaryStyle: PrimaryStyle | null;
+  /** 記号（CLAUDE.md「記号」節）: dish=●料理 / ingredient=■食材。地図ピンの形に使う。 */
+  itemType: "dish" | "ingredient";
 };
 
 export type Locale = "ja" | "en";
@@ -50,7 +52,7 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<MapItem[]> {
   const { data, error } = await db
     .from("food_items")
     .select(
-      `slug, name_romaji, origin_pref, origin_city, lat, lng,
+      `slug, name_romaji, origin_pref, origin_city, lat, lng, type,
        food_item_translations ( locale, name, summary ),
        dish_details ( primary_style )`,
     )
@@ -81,6 +83,7 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<MapItem[]> {
       lng: row.lng as number,
       // PostgREST は 1:1 でも配列で返すため先頭を取る
       primaryStyle: (toOne(row.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
+      itemType: row.type as "dish" | "ingredient",
     };
   });
 }
@@ -114,7 +117,7 @@ export async function fetchItemBySlug(
   const { data, error } = await db
     .from("food_items")
     .select(
-      `slug, name_romaji, origin_pref, origin_city, lat, lng,
+      `slug, name_romaji, origin_pref, origin_city, lat, lng, type,
        genres!inner ( slug ),
        food_item_translations ( locale, name, summary ),
        food_item_sources ( title, url, publisher, accessed_at ),
@@ -144,6 +147,7 @@ export async function fetchItemBySlug(
     lat: data.lat as number,
     lng: data.lng as number,
     primaryStyle: (toOne(data.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
+    itemType: data.type as "dish" | "ingredient",
     genreSlug: toOne(data.genres)?.slug ?? genreSlug,
     sources: (data.food_item_sources ?? []).map((s) => ({
       title: s.title,
@@ -186,6 +190,7 @@ export async function fetchPublishedPaths(): Promise<
 type ItemRow = {
   slug: string;
   name_romaji: string;
+  type: string;
   genres?: { slug: string }[] | { slug: string } | null;
   origin_pref: string | null;
   origin_city: string | null;
@@ -214,18 +219,19 @@ function rowToItem(
     lat: row.lat as number,
     lng: row.lng as number,
     primaryStyle: (toOne(row.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
+    itemType: row.type as "dish" | "ingredient",
     genreSlug: toOne(row.genres ?? null)?.slug ?? null,
   };
 }
 
-const ITEM_SELECT = `slug, name_romaji, origin_pref, origin_city, lat, lng,
+const ITEM_SELECT = `slug, name_romaji, origin_pref, origin_city, lat, lng, type,
   genres ( slug ),
   food_item_translations ( locale, name, summary ),
   dish_details ( primary_style )`;
 
 // ジャンル絞り込み用。ITEM_SELECT と同一だが genres を inner join にする
 // （実行時の文字列置換だと Supabase の型推論が壊れるため、別定数で持つ）
-const ITEM_SELECT_GENRE_INNER = `slug, name_romaji, origin_pref, origin_city, lat, lng,
+const ITEM_SELECT_GENRE_INNER = `slug, name_romaji, origin_pref, origin_city, lat, lng, type,
   genres!inner ( slug ),
   food_item_translations ( locale, name, summary ),
   dish_details ( primary_style )`;

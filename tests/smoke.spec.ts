@@ -215,10 +215,16 @@ test.describe("マルチジャンル（2ジャンル目はデータ投入のみ�
     await expect(page.getByRole("link", { name: /室蘭やきとり/ })).toBeVisible();
   });
 
-  test("トップのジャンルチップに自動で増える", async ({ page }) => {
+  test("トップの「種類からさがす」に自動で増える", async ({ page }) => {
+    // 2026-08 デザイン確定でジャンルチップは共通ヘッダー配下ではなく、
+    // ボトムシート内「種類からさがす」カードに移設された。シートを開いて確認する。
     await page.goto("/ja");
-    await expect(page.getByRole("link", { name: "ラーメン" })).toBeVisible();
-    await expect(page.getByRole("link", { name: "焼き鳥" })).toBeVisible();
+    const toggle = page.getByRole("button", { name: /シートを次の段階へ/ });
+    await toggle.click();
+    await toggle.click();
+    const sheet = page.getByRole("dialog");
+    await expect(sheet.getByRole("link", { name: "ラーメン" })).toBeVisible();
+    await expect(sheet.getByRole("link", { name: "焼き鳥" })).toBeVisible();
   });
 });
 
@@ -226,7 +232,10 @@ test.describe("二層構造（寿司×ネタ）", () => {
   test("スタイル詳細から代表ネタへ辿れる", async ({ page }) => {
     await page.goto("/ja/sushi/edomae-zushi");
     const conn = page.locator("section", { hasText: "つながり" });
-    await expect(conn.getByText("代表ネタ").first()).toBeVisible();
+    // food_item_relations.type は4語彙（lineage/sibling/contrast/uses）に正規化済み。
+    // edomae-zushi→kohada は uses（from=edomae-zushi）なので、edomae-zushi側では
+    // 「使われる」（otherIsTo）と表示される（messages.relation.uses）。
+    await expect(conn.getByText("使われる").first()).toBeVisible();
     await expect(conn.getByRole("link", { name: /コハダ/ })).toBeVisible();
   });
 
@@ -293,8 +302,13 @@ test.describe("このサイトについて（About）", () => {
   });
 
   test("トップからリンクで到達できる", async ({ page }) => {
+    // 2026-08 デザイン確定で About 導線はボトムシート内（種類カードの下）に移設された。
     await page.goto("/ja");
-    await page.getByRole("link", { name: "このサイトについて" }).click();
+    const toggle = page.getByRole("button", { name: /シートを次の段階へ/ });
+    await toggle.click();
+    await toggle.click();
+    const sheet = page.getByRole("dialog");
+    await sheet.getByRole("link", { name: "このサイトについて" }).click();
     await expect(page.getByRole("heading", { name: "このサイトについて" })).toBeVisible();
   });
 });
@@ -337,5 +351,32 @@ test.describe("利用規約 / プライバシーポリシー / お問い合わ�
     await page.goto("/ja/ramen");
     const footer = page.locator("footer");
     await expect(footer.getByRole("link", { name: "利用規約" })).toBeVisible();
+  });
+});
+
+test.describe("共通ヘッダー / 言語切替（2026-08 デザイン確定）", () => {
+  test("全ページ共通のヘッダーから言語切替できる", async ({ page }) => {
+    // トップ（地図画面）
+    await page.goto("/ja");
+    const header = page.getByRole("banner");
+    await expect(header.getByRole("link", { name: "English" })).toBeVisible();
+    await header.getByRole("link", { name: "English" }).click();
+    // next-intl の Link はクライアント側遷移のため、URL 反映を明示的に待つ
+    await page.waitForURL(/\/en(\/|$)/);
+    expect(new URL(page.url()).pathname).toBe("/en");
+
+    // 通常のコンテンツページでも同じ導線が使える
+    await page.goto("/ja/about");
+    await page.getByRole("banner").getByRole("link", { name: "English" }).click();
+    await page.waitForURL(/\/en\/about(\/|$)/);
+    expect(new URL(page.url()).pathname).toBe("/en/about");
+  });
+
+  test("SP幅（48pxヘッダー）でも言語切替が省略されない", async ({ page }) => {
+    await page.setViewportSize({ width: 375, height: 720 });
+    await page.goto("/ja");
+    const header = page.getByRole("banner");
+    await expect(header.getByRole("link", { name: "English" })).toBeVisible();
+    await expect(header.getByRole("link", { name: "日本語" })).toBeVisible();
   });
 });

@@ -4,6 +4,12 @@
     "tagline": "日本の食の地理データベース",
     "description": "日本食を超細分類し、歴史と発祥地を地図にマッピングする。"
   },
+  "header": {
+    "navLabel": "サイトナビゲーション",
+    "navPlace": "土地",
+    "navType": "種類",
+    "navInterest": "興味"
+  },
   "browse": {
     "index": "索引",
     "count": "{count}件",
@@ -18,7 +24,14 @@
       "kana": "五十音",
       "region": "地域",
       "style": "系統"
-    }
+    },
+    "heroTitle": "日本の食を、地図から",
+    "searchPlaceholder": "料理・食材・土地でさがす",
+    "searchLabel": "検索（近日対応）",
+    "entryPlaceTitle": "土地からさがす",
+    "entryPlaceHint": "地図をタップ、またはピンを選んで探せます",
+    "entryTypeTitle": "種類からさがす",
+    "aboutLink": "このサイトについて"
   },
   "item": {
     "origin": "発祥",
@@ -109,21 +122,21 @@
     "viewOnMap": "地図で見る"
   },
   "relation": {
-    "派生": {
+    "lineage": {
       "otherIsFrom": "源流",
       "otherIsTo": "派生"
     },
-    "対比": {
+    "sibling": {
+      "otherIsFrom": "兄弟",
+      "otherIsTo": "兄弟"
+    },
+    "contrast": {
       "otherIsFrom": "対比",
       "otherIsTo": "対比"
     },
-    "代表ネタ": {
-      "otherIsFrom": "スタイル",
-      "otherIsTo": "代表ネタ"
-    },
-    "使用食材": {
-      "otherIsFrom": "使う料理",
-      "otherIsTo": "使用食材"
+    "uses": {
+      "otherIsFrom": "使う",
+      "otherIsTo": "使われる"
     }
   },
   "regionRelation": {
