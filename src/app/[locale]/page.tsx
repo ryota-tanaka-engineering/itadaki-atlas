@@ -28,7 +28,7 @@ export default async function Home({
       {/* ジャンルチップ。genres に行を足すだけでここに増える */}
       <nav
         aria-label={t("title")}
-        className="absolute top-4 left-4 z-30 flex max-w-[50vw] gap-1 overflow-x-auto"
+        className="absolute top-4 left-4 z-30 flex max-w-[calc(50vw-5rem)] gap-1 overflow-x-auto"
       >
         {genres.map((g) => (
           <Link

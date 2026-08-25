@@ -107,7 +107,8 @@ test.describe("F-01 ディフォルメ地図", () => {
   test("掲載のない県は選べない", async ({ page }) => {
     await page.goto("/");
     const deformed = page.getByRole("group", { name: /ディフォルメ地図/ });
-    await expect(deformed.getByRole("button", { name: /沖縄県 掲載なし/ })).toHaveAttribute(
+    // 2026-08: 掲載なし県は石川のみ（region 404 テストと同じ前提。埋まったら要更新）
+    await expect(deformed.getByRole("button", { name: /石川県 掲載なし/ })).toHaveAttribute(
       "aria-disabled",
       "true",
     );
@@ -171,8 +172,10 @@ test.describe("データ駆動ページ（行を足すと増える機械）", ()
     await expect(page.getByRole("link", { name: /博多ラーメン/ })).toBeVisible();
     await expect(page.getByRole("link", { name: /久留米ラーメン/ })).toBeVisible();
 
-    // データが無い県は404（薄いページを量産しない）
-    const res = await page.goto("/ja/region/okinawa");
+    // データが無い県は404（薄いページを量産しない）。
+    // 2026-08: 掲載なし県は石川のみ（沖縄そば投入で沖縄が埋まった）。
+    // 石川にデータが入ったらこのテストは fixture ベースの検証に置き換える。
+    const res = await page.goto("/ja/region/ishikawa");
     expect(res?.status()).toBe(404);
   });
 
