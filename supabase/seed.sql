@@ -13,23 +13,23 @@
 -- 表示名も【fixture】を付ける。実データと同じ名前だと索引で本物と見分けがつかない。
 -- =============================================================================
 
-insert into public.genres (id, slug, name_ja, name_en, type, sort_order) values
-  ('11111111-1111-4111-8111-111111111111', 'ramen', 'ラーメン', 'Ramen', 'dish', 1)
+insert into public.genres (id, slug, name_ja, name_en, type, sort_order, shelf_slug) values
+  ('11111111-1111-4111-8111-111111111111', 'ramen', 'ラーメン', 'Ramen', 'dish', 1, 'noodles')
 on conflict (id) do nothing;
 
 -- -----------------------------------------------------------------------------
 -- published × 3（地図・索引・詳細の表示検証）
 -- -----------------------------------------------------------------------------
 insert into public.food_items
-  (id, slug, type, genre_id, name_romaji, origin_pref, origin_city, lat, lng, status) values
+  (id, slug, type, genre_id, shelf_slug, name_romaji, origin_pref, origin_city, lat, lng, status) values
   ('22222222-2222-4222-8222-222222222201', 'zz-fixture-published-a', 'dish',
-   '11111111-1111-4111-8111-111111111111', 'Fixture Published A',
+   '11111111-1111-4111-8111-111111111111', 'noodles', 'Fixture Published A',
    '北海道', '札幌市', 43.0618, 141.3545, 'published'),
   ('22222222-2222-4222-8222-222222222202', 'zz-fixture-published-b', 'dish',
-   '11111111-1111-4111-8111-111111111111', 'Fixture Published B',
+   '11111111-1111-4111-8111-111111111111', 'noodles', 'Fixture Published B',
    '福岡県', '福岡市', 33.5904, 130.4017, 'published'),
   ('22222222-2222-4222-8222-222222222203', 'zz-fixture-no-en', 'dish',
-   '11111111-1111-4111-8111-111111111111', 'Fixture No En',
+   '11111111-1111-4111-8111-111111111111', 'noodles', 'Fixture No En',
    '福島県', '喜多方市', 37.6512, 139.8737, 'published')
 on conflict (id) do nothing;
 
@@ -37,9 +37,9 @@ on conflict (id) do nothing;
 -- draft × 1 —— RLS検証用。anon で取得できてはいけない
 -- -----------------------------------------------------------------------------
 insert into public.food_items
-  (id, slug, type, genre_id, name_romaji, origin_pref, origin_city, lat, lng, status) values
+  (id, slug, type, genre_id, shelf_slug, name_romaji, origin_pref, origin_city, lat, lng, status) values
   ('22222222-2222-4222-8222-2222222222d1', 'zz-fixture-draft', 'dish',
-   '11111111-1111-4111-8111-111111111111', 'Draft Item',
+   '11111111-1111-4111-8111-111111111111', 'noodles', 'Draft Item',
    '東京都', '千代田区', 35.6938, 139.7534, 'draft')
 on conflict (id) do nothing;
 

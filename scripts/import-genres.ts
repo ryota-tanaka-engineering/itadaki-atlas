@@ -12,6 +12,8 @@ const rowSchema = z.object({
   name_en: z.string().trim().min(1),
   type: z.enum(["dish", "ingredient"]),
   sort_order: z.coerce.number().int(),
+  // 棚slug（排他・必須）。genres.shelf_slug に対応
+  shelf: z.string().trim().min(1).regex(/^[a-z0-9-]+$/),
 });
 
 async function main() {
@@ -41,7 +43,10 @@ async function main() {
   }
   const db = createClient(url, key, { auth: { persistSession: false } });
   for (const r of rows) {
-    const { error } = await db.from("genres").upsert(r, { onConflict: "slug" });
+    const { shelf, ...rest } = r;
+    const { error } = await db
+      .from("genres")
+      .upsert({ ...rest, shelf_slug: shelf }, { onConflict: "slug" });
     if (error) console.error(`  ✗ ${r.slug}: ${error.message}`);
     else console.log(`  ✓ ${r.slug}`);
   }

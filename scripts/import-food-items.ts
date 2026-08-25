@@ -10,6 +10,10 @@
  *
  * 使い方:
  *   node scripts/import-food-items.ts --file data/ramen.csv --genre ramen [--dry-run] [--publish]
+ *   node scripts/import-food-items.ts --file data/xxx.csv --shelf noodles [--dry-run] [--publish]
+ *
+ * --genre と --shelf は排他ではないが、--genre 指定時は棚をジャンルから自動継承するため
+ * --shelf は無視する（棚内「その他」= genre_id なしで投入したいときだけ --shelf を単独で使う）。
  *
  * 接続先は .env.local の NEXT_PUBLIC_SUPABASE_URL / SUPABASE_SERVICE_ROLE_KEY。
  * service_role key は RLS をバイパスするため、サーバー側でのみ使う（.doc/10_system/06_security.md）。
@@ -168,12 +172,14 @@ const hasFlag = (name: string) => process.argv.includes(`--${name}`);
 async function main() {
   const file = arg("file");
   const genreSlug = arg("genre");
+  const shelfSlugArg = arg("shelf");
   const dryRun = hasFlag("dry-run");
   const publish = hasFlag("publish");
 
-  if (!file || !genreSlug) {
+  if (!file || (!genreSlug && !shelfSlugArg)) {
     console.error(
-      "使い方: node scripts/import-food-items.ts --file <csv> --genre <genre-slug> [--dry-run] [--publish]",
+      "使い方: node scripts/import-food-items.ts --file <csv> --genre <genre-slug> [--dry-run] [--publish]\n" +
+        "      node scripts/import-food-items.ts --file <csv> --shelf <shelf-slug> [--dry-run] [--publish]",
     );
     process.exit(1);
   }
@@ -235,14 +241,34 @@ async function main() {
   }
   const db = createClient(url, serviceKey, { auth: { persistSession: false } });
 
-  const { data: genre, error: genreErr } = await db
-    .from("genres")
-    .select("id")
-    .eq("slug", genreSlug)
-    .single();
-  if (genreErr || !genre) {
-    console.error(`ジャンル '${genreSlug}' が見つかりません。先に genres に登録してください。`);
-    process.exit(1);
+  // --- ジャンル or 棚の解決 ---
+  // --genre 指定時は棚をジャンルから自動継承する（--shelf は無視）。
+  // --genre 無しなら --shelf を単独で使い、棚内「その他」（genre_id なし）で投入する。
+  let genreId: string | null = null;
+  let shelfSlug: string;
+  if (genreSlug) {
+    const { data: genre, error: genreErr } = await db
+      .from("genres")
+      .select("id, shelf_slug")
+      .eq("slug", genreSlug)
+      .single();
+    if (genreErr || !genre) {
+      console.error(`ジャンル '${genreSlug}' が見つかりません。先に genres に登録してください。`);
+      process.exit(1);
+    }
+    genreId = genre.id;
+    shelfSlug = genre.shelf_slug;
+  } else {
+    const { data: shelf, error: shelfErr } = await db
+      .from("shelves")
+      .select("slug")
+      .eq("slug", shelfSlugArg)
+      .single();
+    if (shelfErr || !shelf) {
+      console.error(`棚 '${shelfSlugArg}' が見つかりません。shelves マスタを確認してください。`);
+      process.exit(1);
+    }
+    shelfSlug = shelf.slug;
   }
 
   const status = publish ? "published" : "draft";
@@ -255,7 +281,8 @@ async function main() {
         {
           slug: r.slug,
           type: r.type ?? "dish",
-          genre_id: genre.id,
+          genre_id: genreId,
+          shelf_slug: shelfSlug,
           name_romaji: r.name_romaji,
           origin_pref: r.origin_pref ?? null,
           origin_city: r.origin_city ?? null,

@@ -196,8 +196,39 @@ export type Database = {
           },
         ]
       }
+      food_item_tags: {
+        Row: {
+          food_item_id: string
+          tag_slug: string
+        }
+        Insert: {
+          food_item_id: string
+          tag_slug: string
+        }
+        Update: {
+          food_item_id?: string
+          tag_slug?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "food_item_tags_food_item_id_fkey"
+            columns: ["food_item_id"]
+            isOneToOne: false
+            referencedRelation: "food_items"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "food_item_tags_tag_slug_fkey"
+            columns: ["tag_slug"]
+            isOneToOne: false
+            referencedRelation: "tags"
+            referencedColumns: ["slug"]
+          },
+        ]
+      }
       food_item_translations: {
         Row: {
+          body_md: string | null
           created_at: string
           food_item_id: string
           history: string | null
@@ -208,6 +239,7 @@ export type Database = {
           updated_at: string
         }
         Insert: {
+          body_md?: string | null
           created_at?: string
           food_item_id: string
           history?: string | null
@@ -218,6 +250,7 @@ export type Database = {
           updated_at?: string
         }
         Update: {
+          body_md?: string | null
           created_at?: string
           food_item_id?: string
           history?: string | null
@@ -240,13 +273,14 @@ export type Database = {
       food_items: {
         Row: {
           created_at: string
-          genre_id: string
+          genre_id: string | null
           id: string
           lat: number | null
           lng: number | null
           name_romaji: string
           origin_city: string | null
           origin_pref: string | null
+          shelf_slug: string
           slug: string
           status: string
           type: string
@@ -254,13 +288,14 @@ export type Database = {
         }
         Insert: {
           created_at?: string
-          genre_id: string
+          genre_id?: string | null
           id?: string
           lat?: number | null
           lng?: number | null
           name_romaji: string
           origin_city?: string | null
           origin_pref?: string | null
+          shelf_slug: string
           slug: string
           status?: string
           type: string
@@ -268,13 +303,14 @@ export type Database = {
         }
         Update: {
           created_at?: string
-          genre_id?: string
+          genre_id?: string | null
           id?: string
           lat?: number | null
           lng?: number | null
           name_romaji?: string
           origin_city?: string | null
           origin_pref?: string | null
+          shelf_slug?: string
           slug?: string
           status?: string
           type?: string
@@ -288,6 +324,13 @@ export type Database = {
             referencedRelation: "genres"
             referencedColumns: ["id"]
           },
+          {
+            foreignKeyName: "food_items_shelf_slug_fkey"
+            columns: ["shelf_slug"]
+            isOneToOne: false
+            referencedRelation: "shelves"
+            referencedColumns: ["slug"]
+          },
         ]
       }
       genres: {
@@ -297,6 +340,7 @@ export type Database = {
           id: string
           name_en: string
           name_ja: string
+          shelf_slug: string
           slug: string
           sort_order: number
           type: string
@@ -308,6 +352,7 @@ export type Database = {
           id?: string
           name_en: string
           name_ja: string
+          shelf_slug: string
           slug: string
           sort_order?: number
           type: string
@@ -319,12 +364,21 @@ export type Database = {
           id?: string
           name_en?: string
           name_ja?: string
+          shelf_slug?: string
           slug?: string
           sort_order?: number
           type?: string
           updated_at?: string
         }
-        Relationships: []
+        Relationships: [
+          {
+            foreignKeyName: "genres_shelf_slug_fkey"
+            columns: ["shelf_slug"]
+            isOneToOne: false
+            referencedRelation: "shelves"
+            referencedColumns: ["slug"]
+          },
+        ]
       }
       inquiries: {
         Row: {
@@ -353,6 +407,57 @@ export type Database = {
           locale?: string
           message?: string
           name?: string
+        }
+        Relationships: []
+      }
+      shelves: {
+        Row: {
+          grp: string
+          name_en: string
+          name_ja: string
+          slug: string
+          sort_order: number
+        }
+        Insert: {
+          grp: string
+          name_en: string
+          name_ja: string
+          slug: string
+          sort_order?: number
+        }
+        Update: {
+          grp?: string
+          name_en?: string
+          name_ja?: string
+          slug?: string
+          sort_order?: number
+        }
+        Relationships: []
+      }
+      tags: {
+        Row: {
+          definition: string
+          kind: string
+          name_en: string
+          name_ja: string
+          slug: string
+          synonyms: string[]
+        }
+        Insert: {
+          definition: string
+          kind: string
+          name_en: string
+          name_ja: string
+          slug: string
+          synonyms?: string[]
+        }
+        Update: {
+          definition?: string
+          kind?: string
+          name_en?: string
+          name_ja?: string
+          slug?: string
+          synonyms?: string[]
         }
         Relationships: []
       }

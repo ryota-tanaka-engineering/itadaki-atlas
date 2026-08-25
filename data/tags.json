@@ -1,0 +1,246 @@
+[
+  {
+    "slug": "fermented",
+    "kind": "味・特性",
+    "name_ja": "発酵",
+    "name_en": "Fermented",
+    "definition": "微生物による発酵・醸造の工程を経て作られる、または発酵によって主要な風味が形成されている",
+    "synonyms": [
+      "醸造",
+      "なれずし系",
+      "漬け込み発酵"
+    ]
+  },
+  {
+    "slug": "spicy",
+    "kind": "味・特性",
+    "name_ja": "辛い",
+    "name_en": "Spicy",
+    "definition": "唐辛子・辛子等の香辛料由来の明確な辛味・刺激を持つ",
+    "synonyms": [
+      "ピリ辛",
+      "激辛"
+    ]
+  },
+  {
+    "slug": "miso",
+    "kind": "素材",
+    "name_ja": "味噌",
+    "name_en": "Miso-based",
+    "definition": "味噌を主要な味付け・素材として用いている（味噌そのものは調味料棚の別項目）",
+    "synonyms": []
+  },
+  {
+    "slug": "soy_sauce",
+    "kind": "素材",
+    "name_ja": "醤油",
+    "name_en": "Soy sauce-based",
+    "definition": "醤油（たまり醤油含む）が他の調味料と明確に対比される形で味の決め手になっている（例: 味噌ラーメンとの対比での醤油ラーメン）",
+    "synonyms": [
+      "たまり醤油仕立て"
+    ]
+  },
+  {
+    "slug": "pork",
+    "kind": "素材",
+    "name_ja": "豚肉",
+    "name_en": "Pork",
+    "definition": "豚肉を主要な具材・素材として用いる料理（食材棚の豚ブランド肉そのものは対象外）",
+    "synonyms": []
+  },
+  {
+    "slug": "beef",
+    "kind": "素材",
+    "name_ja": "牛肉",
+    "name_en": "Beef",
+    "definition": "牛肉を主要な具材・素材として用いる料理（食材棚の牛ブランド肉そのものは対象外）",
+    "synonyms": []
+  },
+  {
+    "slug": "chicken",
+    "kind": "素材",
+    "name_ja": "鶏肉",
+    "name_en": "Chicken",
+    "definition": "鶏肉を主要な具材・素材として用いる料理（食材棚の地鶏ブランドそのものは対象外）",
+    "synonyms": []
+  },
+  {
+    "slug": "egg",
+    "kind": "素材",
+    "name_ja": "卵",
+    "name_en": "Egg-based",
+    "definition": "卵を主要な構成要素・素材として用いる（食材棚の卵ブランドそのものは対象外）",
+    "synonyms": []
+  },
+  {
+    "slug": "kelp",
+    "kind": "素材",
+    "name_ja": "昆布",
+    "name_en": "Kelp-based",
+    "definition": "昆布を主原料・主要素材として用いる（海藻棚の昆布そのものは対象外。他の料理での使用を横断的に示す）",
+    "synonyms": []
+  },
+  {
+    "slug": "offal",
+    "kind": "素材",
+    "name_ja": "内臓・ホルモン",
+    "name_en": "Offal",
+    "definition": "畜肉・魚介の内臓部位（もつ・ホルモン・足等）を主要な具材として用いる",
+    "synonyms": [
+      "もつ",
+      "ホルモン"
+    ]
+  },
+  {
+    "slug": "insect",
+    "kind": "素材",
+    "name_ja": "昆虫食",
+    "name_en": "Insect-based",
+    "definition": "昆虫を食用の主素材として用いる",
+    "synonyms": []
+  },
+  {
+    "slug": "smoked",
+    "kind": "調理",
+    "name_ja": "燻製",
+    "name_en": "Smoked",
+    "definition": "燻煙による加工工程を経ている",
+    "synonyms": [
+      "くん製"
+    ]
+  },
+  {
+    "slug": "kelp_cured",
+    "kind": "調理",
+    "name_ja": "昆布締め",
+    "name_en": "Kelp-cured",
+    "definition": "生の魚介を昆布で挟んで水分と旨味を移す北陸独自の熟成技法を用いる",
+    "synonyms": []
+  },
+  {
+    "slug": "freeze_dried",
+    "kind": "調理",
+    "name_ja": "凍み技法",
+    "name_en": "Freeze-dried (\"Shimi\")",
+    "definition": "厳寒期の屋外で自然凍結と乾燥を繰り返す伝統的な凍結乾燥技法（凍み豆腐・凍み餅・凍み大根等）を用いる",
+    "synonyms": [
+      "凍り豆腐",
+      "高野豆腐製法"
+    ]
+  },
+  {
+    "slug": "no_broth",
+    "kind": "形状・食べ方",
+    "name_ja": "汁なし",
+    "name_en": "No-broth",
+    "definition": "麺料理でスープ・つゆを伴わず、タレやソースで和えて食べる",
+    "synonyms": [
+      "ぶっかけ系ではなく和え系"
+    ]
+  },
+  {
+    "slug": "cold_served",
+    "kind": "形状・食べ方",
+    "name_ja": "冷たい",
+    "name_en": "Cold-served",
+    "definition": "通常は温かい系統の料理が、冷やして提供される（麺類の冷麺・冷やし中華等の独立ジャンルは対象外。同系統の中で冷製が特徴的なもの）",
+    "synonyms": []
+  },
+  {
+    "slug": "skewered",
+    "kind": "形状・食べ方",
+    "name_ja": "串",
+    "name_en": "Skewered",
+    "definition": "串に刺した状態で提供・食べられる（焼きもの棚の焼き鳥等に加え、甘味棚・惣菜棚の串物も横断して示す）",
+    "synonyms": []
+  },
+  {
+    "slug": "handheld",
+    "kind": "形状・食べ方",
+    "name_ja": "片手で食べる",
+    "name_en": "Hand-held",
+    "definition": "皿・箸を使わず片手で持って歩きながら食べられる形状",
+    "synonyms": []
+  },
+  {
+    "slug": "street_food",
+    "kind": "場面",
+    "name_ja": "屋台・食べ歩き",
+    "name_en": "Street food",
+    "definition": "屋台・露店・食べ歩きが主要な提供形態として定着している",
+    "synonyms": [
+      "露店グルメ"
+    ]
+  },
+  {
+    "slug": "ceremonial",
+    "kind": "場面",
+    "name_ja": "行事食",
+    "name_en": "Ceremonial / festival food",
+    "definition": "正月・祝い膳・婚礼・祭礼など特定の年中行事・儀礼と結びついて食べられる",
+    "synonyms": [
+      "祝い膳",
+      "儀礼食"
+    ]
+  },
+  {
+    "slug": "meal_ender",
+    "kind": "場面",
+    "name_ja": "〆",
+    "name_en": "Meal-ending dish",
+    "definition": "鍋物・宴席の最後にスープや出汁を使って締めくくる一品として食べられる",
+    "synonyms": [
+      "締め"
+    ]
+  },
+  {
+    "slug": "souvenir_non_confection",
+    "kind": "場面",
+    "name_ja": "土産（菓子以外）",
+    "name_en": "Travel souvenir (non-confectionery)",
+    "definition": "菓子ではないが、旅行土産・贈答品として定番的に流通する加工品・調理済み食品（土産菓子棚のアイテムとは別軸で、他棚に属する品目の土産性を示す）",
+    "synonyms": [
+      "贈答品"
+    ]
+  },
+  {
+    "slug": "yoshoku",
+    "kind": "系譜",
+    "name_ja": "洋食由来",
+    "name_en": "Western-derived (Yōshoku)",
+    "definition": "明治以降に西洋料理を日本流に翻案して生まれた「洋食」の系譜に属する",
+    "synonyms": [
+      "洋食"
+    ]
+  },
+  {
+    "slug": "chinese_derived",
+    "kind": "系譜",
+    "name_ja": "中華由来",
+    "name_en": "Chinese-derived",
+    "definition": "中国料理・中華点心を起源とし、日本で独自にアレンジされて定着した",
+    "synonyms": [
+      "中華点心系"
+    ]
+  },
+  {
+    "slug": "postwar_us_military",
+    "kind": "系譜",
+    "name_ja": "戦後・米軍由来",
+    "name_en": "Postwar US-military derived",
+    "definition": "戦後の米軍基地・統治文化との接触を起源として生まれた食文化",
+    "synonyms": [
+      "進駐軍由来"
+    ]
+  },
+  {
+    "slug": "ryukyu",
+    "kind": "系譜",
+    "name_ja": "琉球由来",
+    "name_en": "Ryukyuan lineage",
+    "definition": "琉球王朝・沖縄独自の食文化体系（本土の和食の系譜とは別）に属する。奄美群島の琉球文化圏の食も含む",
+    "synonyms": [
+      "琉球料理"
+    ]
+  }
+]

@@ -1,15 +1,7 @@
-slug,name_ja,name_en,type,sort_order
-ramen,ラーメン,Ramen,dish,1
-yakitori,焼き鳥,Yakitori,dish,2
-sushi,寿司,Sushi,dish,3
-wagyu,和牛,Wagyu,ingredient,4
-oyster,牡蠣,Oysters,ingredient,5
-udon,うどん,Udon,dish,6
-soba,そば,Soba,dish,7
-yakisoba,焼きそば,Yakisoba,dish,8
-champon,ちゃんぽん,Champon,dish,9
-okinawa-soba,沖縄そば,Okinawa Soba,dish,10
-somen,そうめん,Somen,dish,11
-reimen,冷麺,Reimen,dish,12
-pasta,ご当地パスタ,Yoshoku Pasta,dish,13
-kyodo-men,郷土麺,Regional Noodles,dish,14
+slug,name_ja,name_en,type,sort_order,shelf
+ramen,ラーメン,Ramen,dish,1,noodles
+yakitori,焼き鳥,Yakitori,dish,2,grilled
+sushi,寿司,Sushi,dish,3,rice
+wagyu,和牛,Wagyu,ingredient,4,meat
+udon,うどん,Udon,dish,5,noodles
+soba,そば,Soba,dish,6,noodles
