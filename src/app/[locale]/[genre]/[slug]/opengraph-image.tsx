@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 import { OG_SIZE, OgFrame, ogFonts } from "@/lib/og";
-import { STYLE_COLORS, type PrimaryStyle } from "@/features/map/styles";
+import { PIN_STROKE, STYLE_COLORS, type PrimaryStyle } from "@/features/map/styles";
 import { createStaticClient } from "@/lib/supabase/static";
 
 export const size = OG_SIZE;
@@ -42,7 +42,7 @@ export default async function Image({ params }: { params: Promise<Params> }) {
       <OgFrame style={style}>
         <div style={{ display: "flex", flexDirection: "column", gap: 10 }}>
           <div style={{ fontSize: 84, fontWeight: 700, lineHeight: 1.15 }}>{title}</div>
-          <div style={{ fontSize: 38, color: "#5d534a" }}>{subtitle}</div>
+          <div style={{ fontSize: 38, color: "#7a6a58" }}>{subtitle}</div>
           <div
             style={{
               display: "flex",
@@ -50,7 +50,7 @@ export default async function Image({ params }: { params: Promise<Params> }) {
               gap: 16,
               marginTop: 28,
               fontSize: 28,
-              color: "#5d534a",
+              color: "#7a6a58",
             }}
           >
             {style && (
@@ -67,7 +67,7 @@ export default async function Image({ params }: { params: Promise<Params> }) {
                     height: 22,
                     borderRadius: 11,
                     backgroundColor: STYLE_COLORS[style],
-                    border: "2px solid #3a2f27",
+                    border: `2px solid ${PIN_STROKE}`,
                   }}
                 />
                 {style}

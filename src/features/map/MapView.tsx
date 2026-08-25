@@ -59,7 +59,11 @@ const ATLAS_FLAVOR: Flavor = {
 /** 国土ズーム（z<=9目安）では道路・鉄道を出さない（CLAUDE.md「地図」節）。 */
 const ROAD_LINE_MIN_ZOOM = 10;
 
-function buildAtlasLayers() {
+/**
+ * トーン・レイヤー構成・タイル配信元は詳細ページの位置帯（PositionBand）でも
+ * 同じものを使う（見え方の一貫性・ベンダ固有APIの直書き回避）。
+ */
+export function buildAtlasLayers() {
   return layers("protomaps", ATLAS_FLAVOR, { lang: "ja" }).map((layer) => {
     // 道路・鉄道・橋・トンネル・経路番号シールドなど roads_* 系レイヤーを
     // 国土ズームで一律隠す（roads_labels_* 等は元々もっと高いズームでしか
@@ -83,7 +87,7 @@ function buildAtlasLayers() {
  * タイル配信元は差し替え可能に保つ（ポータビリティ規約）。
  * 本番は R2 の pmtiles、ローカルは public/tiles/japan.pmtiles。
  */
-const PMTILES_URL = process.env.NEXT_PUBLIC_PMTILES_URL ?? "/tiles/japan.pmtiles";
+export const PMTILES_URL = process.env.NEXT_PUBLIC_PMTILES_URL ?? "/tiles/japan.pmtiles";
 
 const JAPAN_BOUNDS: [number, number, number, number] = [122.9, 20.4, 154.0, 45.6];
 
@@ -91,7 +95,7 @@ const JAPAN_BOUNDS: [number, number, number, number] = [122.9, 20.4, 154.0, 45.6
 // マウント/アンマウントで付け外ししない。StrictMode の二重マウントで
 // 生きている地図からハンドラが外れるため。モジュールロード時に1回だけ登録する。
 let protocolRegistered = false;
-function ensurePmtilesProtocol() {
+export function ensurePmtilesProtocol() {
   if (protocolRegistered) return;
   const protocol = new Protocol();
   // protocol.tile は v3(callback)/v4(Promise) の union で判別できないため

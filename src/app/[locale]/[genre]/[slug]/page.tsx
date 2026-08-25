@@ -7,9 +7,15 @@ import {
   fetchItemBySlug,
   fetchRelated,
   fetchSamePref,
+  fetchShelfSiblings,
+  fetchStyleSiblings,
   type Locale,
 } from "@/features/map/queries";
-import { PIN_STROKE, styleColor } from "@/features/map/styles";
+import { styleColor } from "@/features/map/styles";
+import { parseBodyMarkdown } from "@/features/map/markdown";
+import { PositionBand } from "@/features/map/PositionBand";
+import { TableOfContents, BodyChapters } from "@/features/map/ItemBody";
+import { ItemConnections, type ConnectionCard, type RegionPill } from "@/features/map/ItemConnections";
 import { localeAlternates } from "@/lib/seo";
 import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
@@ -51,14 +57,18 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
   const ts = await getTranslations("style");
   const tr = await getTranslations("relation");
   const trr = await getTranslations("regionRelation");
+  const isJa = locale === "ja";
 
   // 行き止まり禁止（回遊が価値の中核）。relations に行を足すと双方向で増え、
   // 同県リンクはデータを足すだけで自動で増える
-  const [related, samePrefAll] = await Promise.all([
+  const [related, samePrefAll, styleSiblings] = await Promise.all([
     fetchRelated(slug, locale as Locale),
     item.originPref
       ? fetchSamePref(slug, item.originPref, locale as Locale)
       : Promise.resolve([]),
+    item.genreSlug
+      ? fetchStyleSiblings(item.genreSlug, slug, item.primaryStyle, locale as Locale)
+      : fetchShelfSiblings(item.shelfSlug, slug, locale as Locale),
   ]);
   // 名前つき関係で既に出ているアイテムは同県リストから外す（重複表示を避ける）
   const relatedSlugs = new Set(related.map((r) => r.slug));
@@ -66,160 +76,176 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
 
   // 英訳は「名前」ではなく説明訳なので、英語表示でも見出しはローマ字にする
   // （.doc/00_concept/05_brand.md §5）。説明訳は副題として添える。
-  const displayName = locale === "ja" ? item.nameJa : item.nameRomaji;
-  const subtitle = locale === "ja" ? item.nameRomaji : item.nameEn;
+  const displayName = isJa ? item.nameJa : item.nameRomaji;
+  const subtitle = isJa ? item.nameRomaji : item.nameEn;
+
+  // 1. カバー: 「棚名 ── ジャンル名」（その他アイテムは棚名のみ）
+  const shelfName = isJa ? item.shelfNameJa : item.shelfNameEn;
+  const genreName = isJa ? item.genreNameJa : item.genreNameEn;
+  const breadcrumb = genreName ? `${shelfName} ── ${genreName}` : shelfName;
+
+  // 2. 位置帯: 発祥地名+座標。座標が無いアイテム（部位・定番種）は帯ごと出さない
+  const hasGeo = item.lat !== null && item.lng !== null;
+  const placeLabel = item.originPref
+    ? `${tp(item.originPref)}${item.originCity ? (isJa ? item.originCity : ` ${item.originCity}`) : ""}`
+    : item.nameRomaji;
+
+  // 3. 本文: body_md が無ければ目次ごと非表示（Tier1でもページが欠けて見えない設計）
+  const chapters = item.bodyMd ? parseBodyMarkdown(item.bodyMd) : [];
+  const tocHeading = t("toc");
+
+  // 4. つながり（2軸）
+  const styleTitle = t("connectionsStyleTitle");
+  const landTitle = t("connectionsLandTitle");
+
+  const styleSiblingCards: ConnectionCard[] = styleSiblings
+    .filter((s) => s.genreSlug)
+    .map((s) => ({
+      key: s.slug,
+      href: `/${s.genreSlug}/${s.slug}`,
+      name: isJa ? s.nameJa : s.nameRomaji,
+      meta: s.summary ?? undefined,
+    }));
+  const viewAllHref = item.genreSlug ? `/${item.genreSlug}` : null;
+  const viewAllLabel =
+    item.genreSlug && genreName ? t("connectionsViewAll", { name: genreName }) : null;
+
+  const regionPills: RegionPill[] = item.regions.map((r) => ({
+    key: `${r.pref}-${r.relationType}`,
+    href: `/region/${PREF_SLUGS[r.pref as Prefecture]}`,
+    label: `${tp(r.pref)}${r.city ? ` ${r.city}` : ""} ${trr(r.relationType)}`,
+  }));
+
+  const relatedCards: ConnectionCard[] = related.map((r) => ({
+    key: `${r.relationType}-${r.slug}`,
+    href: `/${genre}/${r.slug}`,
+    name: isJa ? r.nameJa : r.nameRomaji,
+    badge: tr(`${r.relationType}.${r.otherIsFrom ? "otherIsFrom" : "otherIsTo"}`),
+    meta: r.summary ?? undefined,
+  }));
+  const samePrefCards: ConnectionCard[] = samePref.map((r) => ({
+    key: `same-${r.slug}`,
+    href: `/${r.genreSlug ?? genre}/${r.slug}`,
+    name: isJa ? r.nameJa : r.nameRomaji,
+    badge: item.originPref ? t("samePref", { pref: tp(item.originPref) }) : undefined,
+  }));
+  const landCards = [...relatedCards, ...samePrefCards];
+  const regionPageHref = item.originPref ? `/region/${PREF_SLUGS[item.originPref as Prefecture]}` : null;
+  const regionPageLabel = item.originPref ? t("regionPage", { pref: tp(item.originPref) }) : null;
 
   return (
-    <main className="mx-auto w-full max-w-2xl flex-1 px-4 py-8">
+    <main className="mx-auto w-full max-w-2xl flex-1 py-8 md:max-w-5xl">
       <article>
-        <header className="mb-6">
-          {item.primaryStyle && (
-            <div className="mb-2 flex items-center gap-2">
-              <span
-                aria-hidden
-                className="inline-block size-4 rounded-full border"
-                style={{
-                  backgroundColor: styleColor(item.primaryStyle),
-                  borderColor: PIN_STROKE,
-                }}
-              />
-              <span className="text-muted-foreground text-sm">{ts(item.primaryStyle)}</span>
-            </div>
-          )}
+        {/* 1〜2. カバー + 位置帯。PCではカバー左テキスト・右に位置帯パネル */}
+        <div className="bg-primary md:grid md:grid-cols-[1fr_320px] md:items-stretch md:gap-8 md:rounded-2xl md:p-10">
+          <header className="text-primary-foreground px-4 py-8 md:px-0 md:py-0">
+            {/* クリーム系（CLAUDE.md「詳細ページの確定構造」1節。淡トークン#ffc985とは別の、
+                橙カバー上での可読性用の一色） */}
+            <p className="text-xs" style={{ color: "#ffe9cf" }}>
+              {breadcrumb}
+            </p>
 
-          {/* 三点セット: 日本語名 — ローマ字 — 英訳 */}
-          <h1 className="text-2xl font-semibold">{displayName}</h1>
-          {subtitle && <p className="mt-1 text-base">{subtitle}</p>}
-          {/* 三点セット: 日本語名 — ローマ字 — 英訳（説明訳） */}
-          <p className="text-muted-foreground mt-2 text-xs">
-            {item.nameJa} — {item.nameRomaji}
-            {item.nameEn ? ` — ${item.nameEn}` : ""}
-          </p>
-        </header>
-
-        {(item.originPref || item.primaryStyle) && (
-          <dl className="mb-6 text-sm">
-            {item.originPref && (
-              <div className="flex gap-3 py-1">
-                <dt className="text-muted-foreground w-20 shrink-0">{t("origin")}</dt>
-                <dd>
-                  {tp(item.originPref)}
-                  {item.originCity ? ` / ${item.originCity}` : ""}
-                </dd>
-              </div>
-            )}
             {item.primaryStyle && (
-              <div className="flex gap-3 py-1">
-                <dt className="text-muted-foreground w-20 shrink-0">{t("style")}</dt>
-                <dd>{ts(item.primaryStyle)}</dd>
+              <div className="mt-2 flex items-center gap-2">
+                <span
+                  aria-hidden
+                  className="inline-block size-3.5 rounded-full border"
+                  style={{ backgroundColor: styleColor(item.primaryStyle), borderColor: "#fffdf7" }}
+                />
+                <span className="text-sm">{ts(item.primaryStyle)}</span>
               </div>
             )}
-          </dl>
-        )}
 
-        {item.summary && <p className="mb-8 leading-relaxed">{item.summary}</p>}
-
-        {/* 名産地など。発祥を1つに決められないアイテム（ネタ・食材）が土地と結びつく */}
-        {item.regions.length > 0 && (
-          <section className="mb-8">
-            <h2 className="mb-2 text-sm font-semibold">{t("regions")}</h2>
-            <ul className="flex flex-wrap gap-2">
-              {item.regions.map((r) => (
-                <li key={`${r.pref}-${r.relationType}`}>
-                  <Link
-                    href={`/region/${PREF_SLUGS[r.pref as Prefecture]}`}
-                    className="bg-muted hover:bg-muted/70 inline-block rounded-full px-3 py-1 text-xs"
-                  >
-                    {tp(r.pref)}
-                    {r.city ? ` ${r.city}` : ""}
-                    <span className="text-muted-foreground ml-1">{trr(r.relationType)}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          </section>
-        )}
-
-        {/* つながり: 名前のついた関係リンク。押す前に一つ学べる形にする */}
-        {(related.length > 0 || samePref.length > 0) && (
-          <section className="mb-8 border-t pt-4">
-            <h2 className="mb-3 text-sm font-semibold">{t("connections")}</h2>
-            <ul className="space-y-2">
-              {related.map((r) => (
-                <li key={`${r.relationType}-${r.slug}`}>
-                  <Link
-                    href={`/${genre}/${r.slug}`}
-                    className="hover:bg-muted/50 block rounded-lg border p-3"
-                  >
-                    <span className="text-muted-foreground block text-xs">
-                      {tr(`${r.relationType}.${r.otherIsFrom ? "otherIsFrom" : "otherIsTo"}`)}
-                    </span>
-                    <span className="block font-medium">
-                      {locale === "ja" ? r.nameJa : r.nameRomaji}
-                    </span>
-                    {r.summary && (
-                      <span className="text-muted-foreground block text-xs">{r.summary}</span>
-                    )}
-                  </Link>
-                </li>
-              ))}
-              {samePref.map((r) => (
-                <li key={`same-${r.slug}`}>
-                  <Link
-                    href={`/${r.genreSlug ?? genre}/${r.slug}`}
-                    className="hover:bg-muted/50 block rounded-lg border p-3"
-                  >
-                    <span className="text-muted-foreground block text-xs">
-                      {t("samePref", { pref: tp(item.originPref as string) })}
-                    </span>
-                    <span className="block font-medium">
-                      {locale === "ja" ? r.nameJa : r.nameRomaji}
-                    </span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
-            {item.originPref && (
-              <p className="mt-3">
-                <Link
-                  href={`/region/${PREF_SLUGS[item.originPref as Prefecture]}`}
-                  className="text-sm underline"
-                >
-                  {t("regionPage", { pref: tp(item.originPref) })}
-                </Link>
+            {/* 三点セット: 日本語名を大きく（明朝・白） */}
+            <h1 className="font-serif mt-3 text-3xl md:text-4xl">{displayName}</h1>
+            {subtitle && (
+              <p className="mt-1 text-base" style={{ color: "#ffe9cf" }}>
+                {subtitle}
               </p>
             )}
-          </section>
-        )}
+          </header>
 
-        {/* 出典は記事末尾に自動表示する（.doc/40_operation/01_strategy.md §1.1） */}
-        <section className="border-t pt-4">
-          <h2 className="mb-2 text-sm font-semibold">{t("sources")}</h2>
-          <ul className="text-muted-foreground space-y-1 text-xs">
-            {item.sources.map((s, i) => (
-              <li key={i}>
-                {s.url ? (
-                  <a href={s.url} className="underline" rel="noreferrer" target="_blank">
-                    {s.title}
-                  </a>
-                ) : (
-                  s.title
+          {hasGeo && (
+            <div className="px-4 pb-4 md:px-0 md:py-2">
+              <PositionBand lat={item.lat as number} lng={item.lng as number} label={placeLabel} />
+            </div>
+          )}
+        </div>
+
+        {/* 3. 本文（紙） */}
+        <div className="px-4 pt-8 md:grid md:grid-cols-[minmax(0,700px)_260px] md:items-start md:gap-10 md:px-0">
+          <div className="min-w-0">
+            {item.summary && <p className="mb-8 leading-relaxed">{item.summary}</p>}
+
+            <TableOfContents chapters={chapters} heading={tocHeading} className="mb-8 md:hidden" />
+
+            <BodyChapters chapters={chapters} />
+
+            {(item.originPref || item.primaryStyle) && (
+              <dl className="mb-8 text-sm">
+                {item.originPref && (
+                  <div className="flex gap-3 py-1">
+                    <dt className="text-muted-foreground w-20 shrink-0">{t("origin")}</dt>
+                    <dd>
+                      {tp(item.originPref)}
+                      {item.originCity ? ` / ${item.originCity}` : ""}
+                    </dd>
+                  </div>
                 )}
-                {s.publisher ? ` / ${s.publisher}` : ""}
-                {s.accessedAt ? ` / ${t("accessedAt")}: ${s.accessedAt}` : ""}
-              </li>
-            ))}
-          </ul>
-        </section>
+                {item.primaryStyle && (
+                  <div className="flex gap-3 py-1">
+                    <dt className="text-muted-foreground w-20 shrink-0">{t("style")}</dt>
+                    <dd>{ts(item.primaryStyle)}</dd>
+                  </div>
+                )}
+              </dl>
+            )}
 
-        <p className="mt-8">
-          <Link href="/" className="text-sm underline">
-            {t("viewOnMap")}
+            {/* 4. つながり（SP: 本文の下） */}
+            <ItemConnections
+              className="md:hidden"
+              styleTitle={styleTitle}
+              styleSiblings={styleSiblingCards}
+              viewAllHref={viewAllHref}
+              viewAllLabel={viewAllLabel}
+              landTitle={landTitle}
+              regionsTitle={item.regions.length > 0 ? t("regions") : null}
+              regions={regionPills}
+              landItems={landCards}
+              regionPageHref={regionPageHref}
+              regionPageLabel={regionPageLabel}
+            />
+          </div>
+
+          {/* PC: 右サイド sticky（目次+つながり） */}
+          <aside className="hidden md:sticky md:top-[calc(var(--header-height)+1.5rem)] md:block md:space-y-8">
+            <TableOfContents chapters={chapters} heading={tocHeading} />
+            <ItemConnections
+              styleTitle={styleTitle}
+              styleSiblings={styleSiblingCards}
+              viewAllHref={viewAllHref}
+              viewAllLabel={viewAllLabel}
+              landTitle={landTitle}
+              regionsTitle={item.regions.length > 0 ? t("regions") : null}
+              regions={regionPills}
+              landItems={landCards}
+              regionPageHref={regionPageHref}
+              regionPageLabel={regionPageLabel}
+            />
+          </aside>
+        </div>
+
+        {/* 5. 出典はDB内部の検証データ。UIには出さず、訂正導線だけを残す */}
+        <p className="mt-10 px-4 text-center md:px-0">
+          <Link href="/contact" className="text-brand-accent-dark text-xs underline">
+            {t("correction")}
           </Link>
         </p>
       </article>
 
-      <SiteFooter locale={locale} />
+      <div className="px-4 md:px-0">
+        <SiteFooter locale={locale} />
+      </div>
     </main>
   );
 }

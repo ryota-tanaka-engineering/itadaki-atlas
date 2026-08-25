@@ -43,7 +43,12 @@
     "connections": "つながり",
     "samePref": "同じ{pref}",
     "regionPage": "{pref}の食をすべて見る",
-    "regions": "名産地"
+    "regions": "名産地",
+    "toc": "目次",
+    "connectionsStyleTitle": "同じ系統を、もっと",
+    "connectionsLandTitle": "この土地と、この素材",
+    "connectionsViewAll": "{name}の一覧へ",
+    "correction": "内容の訂正を送る"
   },
   "language": {
     "label": "言語",

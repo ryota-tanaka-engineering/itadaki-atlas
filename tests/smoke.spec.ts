@@ -126,6 +126,9 @@ test.describe("F-05 言語切り替え / F-08 SEO", () => {
   test("詳細ページが英日で切り替わり、三点セットが出る", async ({ page }) => {
     await page.goto("/ja/ramen/hakata");
     await expect(page.getByRole("heading", { name: "博多ラーメン", level: 1 })).toBeVisible();
+    // 出典はUIに出さない。訂正導線だけが末尾中央に出る（2026-08 デザイン確定）
+    await expect(page.getByRole("heading", { name: "出典" })).toHaveCount(0);
+    await expect(page.getByRole("link", { name: "内容の訂正を送る" })).toBeVisible();
 
     await page.goto("/en/ramen/hakata");
     // 英訳は説明訳なので、英語表示でも見出しはローマ字
@@ -135,8 +138,10 @@ test.describe("F-05 言語切り替え / F-08 SEO", () => {
     const dl = page.locator("dl");
     await expect(dl.getByText("Fukuoka / 福岡市")).toBeVisible();
     await expect(dl.getByText("Tonkotsu — pork bone")).toBeVisible();
-    // 出典が記事末尾に出る
-    await expect(page.getByRole("heading", { name: "Sources" })).toBeVisible();
+    // 出典はDB内部の検証データでUIには出さない（2026-08 デザイン確定）。
+    // 代わりに訂正導線だけが出る
+    await expect(page.getByRole("heading", { name: "Sources" })).toHaveCount(0);
+    await expect(page.getByRole("link", { name: "Report a correction" })).toBeVisible();
   });
 
   test("hreflang が言語版を相互に紐付ける", async ({ page }) => {
@@ -180,17 +185,53 @@ test.describe("データ駆動ページ（行を足すと増える機械）", ()
   });
 
   test("つながり: 関係1行が双方向のリンクになる", async ({ page }) => {
+    // 2026-08 デザイン確定で「つながり」は2軸に分かれ、4語彙の関係ラベルは
+    // 「この土地と、この素材」側に出る。SP/PC両方でDOMに存在するため
+    // :visible で実際に見えているほうに絞る。
     // 博多側: 久留米が「源流」として出る
     await page.goto("/ja/ramen/hakata");
-    const hakataConn = page.locator("section", { hasText: "つながり" });
+    const hakataConn = page.locator("section:visible", { hasText: "この土地と、この素材" });
     await expect(hakataConn.getByText("源流", { exact: true })).toBeVisible();
     await expect(hakataConn.getByRole("link", { name: /久留米ラーメン/ })).toBeVisible();
 
     // 久留米側: 博多が「派生」として出る（同じ1行から双方向）
     await page.goto("/ja/ramen/kurume");
-    const kurumeConn = page.locator("section", { hasText: "つながり" });
+    const kurumeConn = page.locator("section:visible", { hasText: "この土地と、この素材" });
     await expect(kurumeConn.getByText("派生", { exact: true }).first()).toBeVisible();
     await expect(kurumeConn.getByRole("link", { name: /博多ラーメン/ })).toBeVisible();
+  });
+});
+
+test.describe("詳細ページの本文（目次・章。2026-08 デザイン確定）", () => {
+  test("body_md があるアイテムは目次と章が出て、章へページ内リンクできる", async ({ page }) => {
+    await page.goto("/ja/ramen/sapporo");
+
+    const toc = page.locator("nav:visible", { hasText: "目次" });
+    await expect(toc).toBeVisible();
+    const chapterLink = toc.getByRole("link", { name: /何でできているか/ });
+    await expect(chapterLink).toBeVisible();
+    await expect(chapterLink).toHaveAttribute("href", "#ch-1");
+
+    // 目次のリンク先の章見出しが本文に実在する
+    await expect(
+      page.getByRole("heading", { name: "何でできているか", level: 2 }),
+    ).toBeVisible();
+    await expect(
+      page.getByRole("heading", { name: "どう作るのか", level: 2 }),
+    ).toBeVisible();
+  });
+
+  test("英語版でも目次と章が出る", async ({ page }) => {
+    await page.goto("/en/ramen/sapporo");
+    const toc = page.locator("nav:visible", { hasText: "Contents" });
+    await expect(toc).toBeVisible();
+    await expect(page.getByRole("heading", { name: "What it's made of", level: 2 })).toBeVisible();
+  });
+
+  test("body_md が無いアイテムは目次ごと出ない", async ({ page }) => {
+    // hakata には本文Markdownを投入していない（Tier1のまま）
+    await page.goto("/ja/ramen/hakata");
+    await expect(page.locator("nav:visible", { hasText: "目次" })).toHaveCount(0);
   });
 });
 
@@ -231,7 +272,8 @@ test.describe("マルチジャンル（2ジャンル目はデータ投入のみ�
 test.describe("二層構造（寿司×ネタ）", () => {
   test("スタイル詳細から代表ネタへ辿れる", async ({ page }) => {
     await page.goto("/ja/sushi/edomae-zushi");
-    const conn = page.locator("section", { hasText: "つながり" });
+    // 4語彙の関係ラベルは「この土地と、この素材」側に出る（2026-08 デザイン確定）
+    const conn = page.locator("section:visible", { hasText: "この土地と、この素材" });
     // food_item_relations.type は4語彙（lineage/sibling/contrast/uses）に正規化済み。
     // edomae-zushi→kohada は uses（from=edomae-zushi）なので、edomae-zushi側では
     // 「使われる」（otherIsTo）と表示される（messages.relation.uses）。
@@ -241,12 +283,12 @@ test.describe("二層構造（寿司×ネタ）", () => {
 
   test("ネタ詳細に複数の名産地が出て、逆方向にスタイルへ辿れる", async ({ page }) => {
     await page.goto("/ja/sushi/maguro");
-    // 名産地（発祥を1つに決められないアイテムの土地との結びつき）
-    const regions = page.locator("section", { hasText: "名産地" }).first();
-    await expect(regions.getByRole("link", { name: /大間町/ })).toBeVisible();
-    await expect(regions.getByRole("link", { name: /焼津市/ })).toBeVisible();
+    // 名産地（発祥を1つに決められないアイテムの土地との結びつき）は
+    // 「この土地と、この素材」セクションの中に出る
+    const conn = page.locator("section:visible", { hasText: "この土地と、この素材" });
+    await expect(conn.getByRole("link", { name: /大間町/ })).toBeVisible();
+    await expect(conn.getByRole("link", { name: /焼津市/ })).toBeVisible();
     // 代表ネタ関係の逆方向（ネタ側からはスタイルとして出る）
-    const conn = page.locator("section", { hasText: "つながり" });
     await expect(conn.getByRole("link", { name: /江戸前寿司/ })).toBeVisible();
   });
 
@@ -269,7 +311,7 @@ test.describe("食材展開型（和牛・牡蠣）", () => {
 
   test("銘柄間の関係（但馬牛→神戸ビーフ）が双方向で辿れる", async ({ page }) => {
     await page.goto("/ja/wagyu/kobe-beef");
-    const conn = page.locator("section", { hasText: "つながり" });
+    const conn = page.locator("section:visible", { hasText: "この土地と、この素材" });
     await expect(conn.getByText("源流", { exact: true })).toBeVisible();
     await expect(conn.getByRole("link", { name: /但馬牛/ })).toBeVisible();
   });

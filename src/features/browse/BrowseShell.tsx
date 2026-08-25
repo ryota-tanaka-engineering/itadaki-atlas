@@ -164,10 +164,18 @@ export function BrowseShell({
             </dl>
             {selected.summary && <p className="text-sm leading-relaxed">{selected.summary}</p>}
             <div className="flex items-center gap-4">
-              {/* 詳細ページ（SEOの受け皿）へ。シート内の表示は要約に留める */}
-              <Link href={`/ramen/${selected.slug}`} className="text-sm underline">
-                {ti("sources")} / {ti("viewOnMap")}
-              </Link>
+              {/* 詳細ページ（SEOの受け皿）へ。シート内の表示は要約に留める。
+                  アイテムのジャンルに応じたリンクにする（バグ修正: 以前は
+                  /ramen/${slug} 固定だったため他ジャンルのアイテムが誤ったURLへ
+                  飛んでいた）。棚内「その他」（genre_id null）は棚一覧が未実装
+                  のためリンクにしない。 */}
+              {selected.genreSlug ? (
+                <Link href={`/${selected.genreSlug}/${selected.slug}`} className="text-sm underline">
+                  {ti("sources")} / {ti("viewOnMap")}
+                </Link>
+              ) : (
+                <span className="text-muted-foreground text-sm">{ti("sources")} / {ti("viewOnMap")}</span>
+              )}
               <button
                 type="button"
                 onClick={() => setSelectedSlug(null)}

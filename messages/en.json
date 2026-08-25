@@ -43,7 +43,12 @@
     "connections": "Connections",
     "samePref": "Also from {pref}",
     "regionPage": "Everything from {pref}",
-    "regions": "Renowned regions"
+    "regions": "Renowned regions",
+    "toc": "Contents",
+    "connectionsStyleTitle": "More like this",
+    "connectionsLandTitle": "This land, this ingredient",
+    "connectionsViewAll": "All {name}",
+    "correction": "Report a correction"
   },
   "language": {
     "label": "Language",

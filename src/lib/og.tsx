@@ -36,7 +36,11 @@ export function ogFonts(text: string) {
   ]);
 }
 
-/** カードの共通レイアウト。 */
+/**
+ * カードの共通レイアウト（2026-08 デザイン確定。CLAUDE.md「デザイン」節が正典）。
+ *
+ * 橙カバー（ワードマーク帯）+ 白文字 + 紙（本文域）。系統色は最下段のアクセント罫に残す。
+ */
 export function OgFrame({
   style,
   children,
@@ -52,11 +56,9 @@ export function OgFrame({
         height: "100%",
         display: "flex",
         flexDirection: "column",
-        backgroundColor: "#faf8f5",
-        color: "#2b2118",
-        padding: "56px 64px",
+        backgroundColor: "#fffdf7", // 紙
+        color: "#5b4a37", // 文字（真っ黒禁止）
         fontFamily: "Noto Sans JP",
-        borderBottom: `16px solid ${accent}`,
       }}
     >
       <div
@@ -64,12 +66,15 @@ export function OgFrame({
           display: "flex",
           alignItems: "center",
           gap: 12,
+          padding: "40px 64px",
+          backgroundColor: "#ff8f00", // ブランド橙
+          color: "#ffffff",
           fontSize: 26,
           letterSpacing: 4,
         }}
       >
         ITADAKI ATLAS
-        <span style={{ fontSize: 22, color: "#8a7f74", letterSpacing: 0 }}>
+        <span style={{ fontSize: 22, color: "#ffe9cf", letterSpacing: 0 }}>
           日本の食の地理データベース
         </span>
       </div>
@@ -79,6 +84,8 @@ export function OgFrame({
           display: "flex",
           flexDirection: "column",
           justifyContent: "center",
+          padding: "48px 64px",
+          borderBottom: `16px solid ${accent}`,
         }}
       >
         {children}

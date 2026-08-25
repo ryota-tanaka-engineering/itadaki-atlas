@@ -107,7 +107,7 @@ export default async function AboutPage({ params }: { params: Promise<Params> })
           <ul className="list-disc space-y-2 pl-5 leading-relaxed">
             {ja ? (
               <>
-                <li>すべての項目に出典を付し、記事末尾に表示します</li>
+                <li>掲載内容は一次情報にもとづいて検証しています（出典は編集部で管理）</li>
                 <li>文章はすべて書き下ろします。他サイトからの転載は行いません</li>
                 <li>
                   <strong>ランキングや優劣はつけません。</strong>
@@ -117,7 +117,7 @@ export default async function AboutPage({ params }: { params: Promise<Params> })
               </>
             ) : (
               <>
-                <li>Every entry cites its sources, shown at the end of the article</li>
+                <li>Every entry is verified against primary sources, which we keep on file internally</li>
                 <li>All text is written by us. We never copy from other sites</li>
                 <li>
                   <strong>We do not rank.</strong> Every regional food has its own reason for

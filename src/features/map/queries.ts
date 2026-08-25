@@ -21,6 +21,8 @@ export type MapItem = {
   primaryStyle: PrimaryStyle | null;
   /** 記号（CLAUDE.md「記号」節）: dish=●料理 / ingredient=■食材。地図ピンの形に使う。 */
   itemType: "dish" | "ingredient";
+  /** 詳細ページへのリンク組み立て用（棚内「その他」= genre_id null のアイテムは null） */
+  genreSlug: string | null;
 };
 
 export type Locale = "ja" | "en";
@@ -35,10 +37,7 @@ function toOne<T>(v: T | T[] | null | undefined): T | null {
  * 指定ロケールの表示名を返す。未翻訳は en → ja でフォールバックする
  * （Platform 10_growth_infra.md §3.3。DBに重複行を作らずアプリ層で処理する）。
  */
-function pickTranslation(
-  translations: { locale: string; name: string; summary: string | null }[],
-  locale: Locale,
-) {
+function pickTranslation<T extends { locale: string }>(translations: T[], locale: Locale): T | null {
   return (
     translations.find((t) => t.locale === locale) ??
     translations.find((t) => t.locale === "ja") ??
@@ -53,6 +52,7 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<MapItem[]> {
     .from("food_items")
     .select(
       `slug, name_romaji, origin_pref, origin_city, lat, lng, type,
+       genres ( slug ),
        food_item_translations ( locale, name, summary ),
        dish_details ( primary_style )`,
     )
@@ -84,6 +84,7 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<MapItem[]> {
       // PostgREST は 1:1 でも配列で返すため先頭を取る
       primaryStyle: (toOne(row.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
       itemType: row.type as "dish" | "ingredient",
+      genreSlug: toOne(row.genres)?.slug ?? null,
     };
   });
 }
@@ -97,6 +98,16 @@ export type ItemRegion = {
 
 export type ItemDetail = MapItem & {
   genreSlug: string;
+  /** カバーのパンくず的表記（棚名 ── ジャンル名）用。ジャンルは常にある
+   * （このページのルートが genres!inner を要求するため）が、将来 棚のみ
+   * ルーティングが増えた場合に備え null も許容する。 */
+  genreNameJa: string | null;
+  genreNameEn: string | null;
+  shelfSlug: string;
+  shelfNameJa: string;
+  shelfNameEn: string;
+  /** 本文Markdown（Tier2以上のみ。無ければ目次ごと非表示） */
+  bodyMd: string | null;
   sources: {
     title: string;
     url: string | null;
@@ -117,9 +128,10 @@ export async function fetchItemBySlug(
   const { data, error } = await db
     .from("food_items")
     .select(
-      `slug, name_romaji, origin_pref, origin_city, lat, lng, type,
-       genres!inner ( slug ),
-       food_item_translations ( locale, name, summary ),
+      `slug, name_romaji, origin_pref, origin_city, lat, lng, type, shelf_slug,
+       genres!inner ( slug, name_ja, name_en ),
+       shelves ( slug, name_ja, name_en ),
+       food_item_translations ( locale, name, summary, body_md ),
        food_item_sources ( title, url, publisher, accessed_at ),
        food_item_regions ( pref, city, relation_type ),
        dish_details ( primary_style )`,
@@ -135,6 +147,8 @@ export async function fetchItemBySlug(
   const t = pickTranslation(translations, locale);
   const ja = translations.find((x) => x.locale === "ja");
   const en = translations.find((x) => x.locale === "en");
+  const genre = toOne(data.genres);
+  const shelf = toOne(data.shelves);
 
   return {
     slug: data.slug,
@@ -148,7 +162,13 @@ export async function fetchItemBySlug(
     lng: data.lng as number,
     primaryStyle: (toOne(data.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
     itemType: data.type as "dish" | "ingredient",
-    genreSlug: toOne(data.genres)?.slug ?? genreSlug,
+    genreSlug: genre?.slug ?? genreSlug,
+    genreNameJa: genre?.name_ja ?? null,
+    genreNameEn: genre?.name_en ?? null,
+    shelfSlug: shelf?.slug ?? data.shelf_slug,
+    shelfNameJa: shelf?.name_ja ?? data.shelf_slug,
+    shelfNameEn: shelf?.name_en ?? data.shelf_slug,
+    bodyMd: (t?.body_md ?? null) as string | null,
     sources: (data.food_item_sources ?? []).map((s) => ({
       title: s.title,
       url: s.url,
@@ -417,5 +437,44 @@ export async function fetchSamePref(slug: string, pref: string, locale: Locale, 
     .order("slug")
     .limit(limit);
   if (error) throw new Error(`fetchSamePref failed: ${error.message}`);
+  return (data ?? []).map((r) => rowToItem(r, locale));
+}
+
+/**
+ * 詳細ページ「●同じ系統を、もっと」用（CLAUDE.md「詳細ページの確定構造」4節）。
+ * 同ジャンル内で、系統（primaryStyle）が一致するものを優先して並べる
+ * （系統を持たないジャンルでは単純に同ジャンルの他アイテムになる）。
+ */
+export async function fetchStyleSiblings(
+  genreSlug: string,
+  slug: string,
+  primaryStyle: PrimaryStyle | null,
+  locale: Locale,
+  limit = 2,
+) {
+  const items = await fetchGenreItems(genreSlug, locale);
+  const others = items.filter((i) => i.slug !== slug);
+  const sameStyle = primaryStyle ? others.filter((i) => i.primaryStyle === primaryStyle) : [];
+  const sameStyleSlugs = new Set(sameStyle.map((i) => i.slug));
+  const rest = others.filter((i) => !sameStyleSlugs.has(i.slug));
+  return [...sameStyle, ...rest].slice(0, limit);
+}
+
+/**
+ * 詳細ページ「●同じ系統を、もっと」用（ジャンルなしアイテムの分岐）。
+ * 棚内「その他」（genre_id null）に属するアイテムは同じ棚の他アイテムを見せる。
+ * 現行ルーティングでは genre_id null のアイテムに到達する経路が無いため
+ * （棚一覧ページは次部隊）、今は将来のための防御的な実装に留まる。
+ */
+export async function fetchShelfSiblings(shelfSlug: string, slug: string, locale: Locale, limit = 2) {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("food_items")
+    .select(ITEM_SELECT)
+    .eq("shelf_slug", shelfSlug)
+    .neq("slug", slug)
+    .order("slug")
+    .limit(limit);
+  if (error) throw new Error(`fetchShelfSiblings failed: ${error.message}`);
   return (data ?? []).map((r) => rowToItem(r, locale));
 }
