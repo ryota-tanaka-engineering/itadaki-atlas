@@ -5,6 +5,7 @@ import { Link } from "@/i18n/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import {
   fetchItemBySlug,
+  fetchItemByShelfSlug,
   fetchRelated,
   fetchSamePref,
   fetchShelfSiblings,
@@ -21,9 +22,17 @@ import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
 type Params = { locale: string; genre: string; slug: string };
 
+/**
+ * genre セグメントは genres.slug でまず解決し、無ければ shelves.slug として
+ * 解決する（棚内「その他」= genre_id null のアイテムのURL。CLAUDE.md参照）。
+ */
+async function resolveItem(genre: string, slug: string, locale: Locale) {
+  return (await fetchItemBySlug(genre, slug, locale)) ?? (await fetchItemByShelfSlug(genre, slug, locale));
+}
+
 export async function generateMetadata({ params }: { params: Promise<Params> }) {
   const { locale, genre, slug } = await params;
-  const item = await fetchItemBySlug(genre, slug, locale as Locale);
+  const item = await resolveItem(genre, slug, locale as Locale);
   if (!item) return {};
 
   // 三点セットをタイトルにも出す（.doc/00_concept/05_brand.md §5）
@@ -49,7 +58,7 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
   const { locale, genre, slug } = await params;
   setRequestLocale(locale);
 
-  const item = await fetchItemBySlug(genre, slug, locale as Locale);
+  const item = await resolveItem(genre, slug, locale as Locale);
   if (!item) notFound();
 
   const t = await getTranslations("item");
@@ -98,14 +107,15 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
   const styleTitle = t("connectionsStyleTitle");
   const landTitle = t("connectionsLandTitle");
 
-  const styleSiblingCards: ConnectionCard[] = styleSiblings
-    .filter((s) => s.genreSlug)
-    .map((s) => ({
-      key: s.slug,
-      href: `/${s.genreSlug}/${s.slug}`,
-      name: isJa ? s.nameJa : s.nameRomaji,
-      meta: s.summary ?? undefined,
-    }));
+  // ジャンルを持つ相手は /[genreSlug]/[slug]、持たない相手（棚内「その他」）は
+  // /[shelfSlug]/[slug] へ。どちらも到達可能（CLAUDE.md「棚ページ + その他アイテムの
+  // 到達経路」）なので、ここでは相手を取りこぼさない。
+  const styleSiblingCards: ConnectionCard[] = styleSiblings.map((s) => ({
+    key: s.slug,
+    href: `/${s.genreSlug ?? s.shelfSlug}/${s.slug}`,
+    name: isJa ? s.nameJa : s.nameRomaji,
+    meta: s.summary ?? undefined,
+  }));
   const viewAllHref = item.genreSlug ? `/${item.genreSlug}` : null;
   const viewAllLabel =
     item.genreSlug && genreName ? t("connectionsViewAll", { name: genreName }) : null;
@@ -125,7 +135,8 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
   }));
   const samePrefCards: ConnectionCard[] = samePref.map((r) => ({
     key: `same-${r.slug}`,
-    href: `/${r.genreSlug ?? genre}/${r.slug}`,
+    // 相手自身のジャンル/棚を使う（現在ページの genre/shelf は相手と一致するとは限らない）
+    href: `/${r.genreSlug ?? r.shelfSlug}/${r.slug}`,
     name: isJa ? r.nameJa : r.nameRomaji,
     badge: item.originPref ? t("samePref", { pref: tp(item.originPref) }) : undefined,
   }));
