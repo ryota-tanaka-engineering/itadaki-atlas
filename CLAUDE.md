@@ -66,7 +66,7 @@
 | :--- | :--- | :--- |
 | **PostGIS** | 半径検索・距離ソートが要件化したとき | `.doc/10_system/01_architecture.md` §2.1 |
 | **ORM（Prisma/Drizzle）** | 採用しない。`supabase gen types` + zod + View/RPC で構成する | 同 §2.3 |
-| **認証（Supabase Auth）** | 制覇マップを実装するとき（フェーズ3） | 同 §4 |
+| **認証（Supabase Auth）** | 制覇マップを実装するとき（フェーズ3） | 同 §3 |
 | **写真・イラスト** | フェーズ2。スタイル確定プロセスを経てから | `.doc/40_operation/01_strategy.md` §2 |
 | **コメント欄** | 設けない。交流はSNS側で起こす | 同 §4.1 |
 

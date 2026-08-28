@@ -57,7 +57,7 @@ Itadaki Atlas の機能要件を定義する。フェーズ1（MVP）の実装�
 | 項目 | 内容 |
 | :--- | :--- |
 | 概要 | 英日を切り替える。方式は Platform `../.doc/10_system/10_growth_infra.md` §3 に従う（差分なし） |
-| 対象言語 | `ja` / `en`。詳細は `.doc/10_system/10_growth_infra.md` §2.1 |
+| 対象言語 | `ja` / `en`。詳細は `.doc/10_system/01_architecture.md` §6.2.1 |
 | 完了条件 | 全ページで英日が切り替わり、`hreflang` が正しく出力される |
 
 ### F-06 事業者問い合わせフォーム
