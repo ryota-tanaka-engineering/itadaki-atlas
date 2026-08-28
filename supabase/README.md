@@ -17,7 +17,7 @@ npx supabase gen types typescript --linked > src/lib/supabase/database.types.ts
 
 **マイグレーションはまだ無い。** データモデルは `.doc/20_data/01_models.md` で確定しているが、Supabase プロジェクトの作成が未了のため SQL は書いていない。
 
-作成順序は `.doc/20_data/02_migrations.md` §2 を参照（`genres` → `food_items` → 翻訳/出典/詳細 → 地域/リレーション → インデックス）。
+作成順序は Platform `../../.doc/20_data/02_migrations.md` §2 を参照（`genres` → `food_items` → 翻訳/出典/詳細 → 地域/リレーション → インデックス）。
 
 ## PostgreSQL 拡張
 
@@ -25,4 +25,4 @@ npx supabase gen types typescript --linked > src/lib/supabase/database.types.ts
 
 ## Seed
 
-開発/CI用 Seed は `supabase/seed.sql` に置く。**`draft` レコードと翻訳欠けレコードを意図的に含める**こと（RLS とフォールバックの検証に必要）。詳細は `.doc/20_data/02_migrations.md` §4。
+開発/CI用 Seed は `supabase/seed.sql` に置く。**`draft` レコードと翻訳欠けレコードを意図的に含める**こと（RLS とフォールバックの検証に必要）。詳細は Platform `../../.doc/20_data/02_migrations.md` §4。

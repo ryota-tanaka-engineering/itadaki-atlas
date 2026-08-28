@@ -79,7 +79,7 @@ test.describe("F-07 アクセシビリティ", () => {
     await page.goto("/");
     await page.getByRole("button", { name: /シートを次の段階へ/ }).click();
 
-    // RLS で published のみが返る（.doc/10_system/06_security.md §2）
+    // RLS で published のみが返る（Platform ../.doc/10_system/06_security.md §2）
     await expect(page.getByText("【fixture】draft")).toHaveCount(0);
   });
 });
