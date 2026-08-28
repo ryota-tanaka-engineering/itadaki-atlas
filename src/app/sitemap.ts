@@ -1,7 +1,13 @@
 import type { MetadataRoute } from "next";
 
 import { routing } from "@/i18n/routing";
-import { fetchGenres, fetchPrefsWithItems, fetchPublishedPaths } from "@/features/map/queries";
+import {
+  fetchGenres,
+  fetchPrefsWithItems,
+  fetchPublishedPaths,
+  fetchShelves,
+  fetchTagsWithCounts,
+} from "@/features/map/queries";
 import { SITE_URL } from "@/lib/seo";
 import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
@@ -10,10 +16,12 @@ import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
  * ロケールごとにURLを並べ、alternates で言語版を相互に示す。
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [paths, genres, prefs] = await Promise.all([
+  const [paths, genres, prefs, shelves, tags] = await Promise.all([
     fetchPublishedPaths(),
     fetchGenres(),
     fetchPrefsWithItems(),
+    fetchShelves(),
+    fetchTagsWithCounts(),
   ]);
 
   const entry = (path: string): MetadataRoute.Sitemap[number][] =>
@@ -26,15 +34,27 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
       },
     }));
 
+  // 棚に1件でもアイテムがあるかどうか。genre経由・棚直下（その他アイテム）どちらの
+  // パスも publishedPaths の genreSlug 欄（実体は genreSlug か shelfSlug のどちらか）
+  // に現れるため、genre→shelf の変換だけすれば漏れなく判定できる。
+  const genreShelf = new Map(genres.map((g) => [g.slug, g.shelfSlug]));
+  const shelfSlugsWithItems = new Set<string>();
+  for (const p of paths) {
+    shelfSlugsWithItems.add(genreShelf.get(p.genreSlug) ?? p.genreSlug);
+  }
+
   return [
     ...entry("/"),
     ...entry("/about"),
     ...entry("/terms"),
     ...entry("/privacy"),
     ...entry("/contact"),
-    // ジャンル・地域・詳細。データを足すと sitemap も自動で伸びる
+    ...entry("/tags"),
+    // ジャンル・棚・地域・詳細・タグ。データを足すと sitemap も自動で伸びる
     ...genres.flatMap((g) => entry(`/${g.slug}`)),
+    ...shelves.filter((s) => shelfSlugsWithItems.has(s.slug)).flatMap((s) => entry(`/${s.slug}`)),
     ...prefs.flatMap((pref) => entry(`/region/${PREF_SLUGS[pref as Prefecture]}`)),
     ...paths.flatMap((p) => entry(`/${p.genreSlug}/${p.slug}`)),
+    ...tags.filter((tg) => tg.itemCount > 0).flatMap((tg) => entry(`/tag/${tg.slug}`)),
   ];
 }

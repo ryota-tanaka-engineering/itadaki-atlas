@@ -165,7 +165,8 @@ test.describe("F-05 言語切り替え / F-08 SEO", () => {
 test.describe("データ駆動ページ（行を足すと増える機械）", () => {
   test("ジャンルページ: 系統別の一覧と三点セット", async ({ page }) => {
     await page.goto("/ja/ramen");
-    await expect(page.getByRole("heading", { name: "ご当地ラーメン一覧" })).toBeVisible();
+    // 2026-08 デザイン確定: ジャンルページのカバー見出しはジャンル名のみ（旧「ご当地◯◯一覧」文はmeta/titleへ移動）
+    await expect(page.getByRole("heading", { name: "ラーメン", level: 1 })).toBeVisible();
     // 系統見出しと、三点セット付きのアイテムリンク
     await expect(page.getByRole("heading", { name: /豚骨/ })).toBeVisible();
     await expect(page.getByRole("link", { name: /札幌ラーメン/ }).first()).toBeVisible();
@@ -173,7 +174,8 @@ test.describe("データ駆動ページ（行を足すと増える機械）", ()
 
   test("地域ページ: データがある県だけ生える", async ({ page }) => {
     await page.goto("/ja/region/fukuoka");
-    await expect(page.getByRole("heading", { name: "福岡県の食" })).toBeVisible();
+    // 2026-08 デザイン確定: 地域ページのカバー見出しは県名のみ（旧「◯◯県の食」文はmeta/titleへ移動）
+    await expect(page.getByRole("heading", { name: "福岡県", level: 1 })).toBeVisible();
     await expect(page.getByRole("link", { name: /博多ラーメン/ })).toBeVisible();
     await expect(page.getByRole("link", { name: /久留米ラーメン/ })).toBeVisible();
 
@@ -238,7 +240,7 @@ test.describe("詳細ページの本文（目次・章。2026-08 デザイン確
 test.describe("マルチジャンル（2ジャンル目はデータ投入のみで生える）", () => {
   test("ジャンルページが自動生成され、図鑑（非地理アイテム）が出る", async ({ page }) => {
     await page.goto("/ja/yakitori");
-    await expect(page.getByRole("heading", { name: "ご当地焼き鳥一覧" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "焼き鳥", level: 1 })).toBeVisible();
     // 地域性のない部位は「図鑑」セクションに自動で現れる
     await expect(page.getByRole("heading", { name: "図鑑" })).toBeVisible();
     await expect(page.getByRole("link", { name: /せせり/ })).toBeVisible();
@@ -303,9 +305,9 @@ test.describe("二層構造（寿司×ネタ）", () => {
 });
 
 test.describe("食材展開型（和牛・牡蠣）", () => {
-  test("ingredient 型ジャンルは「銘柄と産地」の見出しになる", async ({ page }) => {
+  test("ingredient 型ジャンルもジャンル名+件数のカバーになる", async ({ page }) => {
     await page.goto("/ja/wagyu");
-    await expect(page.getByRole("heading", { name: "和牛の銘柄と産地" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "和牛", level: 1 })).toBeVisible();
     await expect(page.getByRole("link", { name: /松阪牛/ })).toBeVisible();
   });
 
@@ -318,7 +320,7 @@ test.describe("食材展開型（和牛・牡蠣）", () => {
 
   test("銘柄がデータ投入だけで空白県を埋める（滋賀=近江牛）", async ({ page }) => {
     await page.goto("/ja/region/shiga");
-    await expect(page.getByRole("heading", { name: "滋賀県の食" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "滋賀県", level: 1 })).toBeVisible();
     await expect(page.getByRole("link", { name: /近江牛/ })).toBeVisible();
   });
 
@@ -420,5 +422,128 @@ test.describe("共通ヘッダー / 言語切替（2026-08 デザイン確定）
     const header = page.getByRole("banner");
     await expect(header.getByRole("link", { name: "English" })).toBeVisible();
     await expect(header.getByRole("link", { name: "日本語" })).toBeVisible();
+  });
+});
+
+test.describe("棚ページ + その他アイテムの到達経路（2026-08 デザイン確定）", () => {
+  test("棚ページが橙カバー・主要ジャンル・その他アイテムで構成される", async ({ page }) => {
+    await page.goto("/ja/noodles");
+    await expect(page.getByRole("heading", { name: "麺", level: 1 })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "主なジャンル" })).toBeVisible();
+    await expect(page.getByRole("link", { name: /ラーメン/ }).first()).toBeVisible();
+    await expect(page.getByRole("heading", { name: "まだ数の少ない仲間たち" })).toBeVisible();
+    await expect(page.getByRole("link", { name: /富士宮やきそば/ })).toBeVisible();
+  });
+
+  test("その他アイテムは棚slug経由で詳細ページに到達でき、つながりに同じ棚の仲間が出る", async ({ page }) => {
+    await page.goto("/ja/noodles");
+    await page.getByRole("link", { name: /富士宮やきそば/ }).click();
+    await expect(page).toHaveURL(/\/ja\/noodles\/fujinomiya-yakisoba$/);
+    await expect(page.getByRole("heading", { name: "富士宮やきそば", level: 1 })).toBeVisible();
+
+    // つながり（同じ棚の仲間）が出る。行き止まり禁止（現在34件が行き止まりだった問題の解消）
+    const conn = page.locator("section:visible", { hasText: "同じ系統を、もっと" });
+    await expect(conn).toBeVisible();
+    await expect(conn.getByRole("link").first()).toBeVisible();
+  });
+
+  test("同じ棚内の異なるアイテムも棚slugのURLで直接開ける（広島=真牡蠣、魚介棚）", async ({ page }) => {
+    const res = await page.goto("/ja/seafood/magaki");
+    expect(res?.status()).toBe(200);
+    await expect(page.getByRole("heading", { name: "真牡蠣", level: 1 })).toBeVisible();
+  });
+
+  test("存在しない棚slugは404", async ({ page }) => {
+    const res = await page.goto("/ja/not-a-real-shelf-or-genre");
+    expect(res?.status()).toBe(404);
+  });
+
+  test("sitemapに棚ページとその他アイテムのURLが出る", async ({ request }) => {
+    const res = await request.get("/sitemap.xml");
+    const xml = await res.text();
+    expect(xml).toContain("/ja/noodles</loc>");
+    expect(xml).toContain("/ja/noodles/fujinomiya-yakisoba</loc>");
+  });
+});
+
+test.describe("地域ページの3群化（2026-08 デザイン確定）", () => {
+  test("●■◆の3群見出しで表示され、名産地アイテムが正しい棚のURLへリンクする", async ({ page }) => {
+    await page.goto("/ja/region/hiroshima");
+    await expect(page.getByRole("heading", { name: "広島県", level: 1 })).toBeVisible();
+    await expect(page.getByRole("heading", { name: /この土地で生まれた/ })).toBeVisible();
+    await expect(page.getByRole("heading", { name: /この土地が育てる/ })).toBeVisible();
+
+    // 真牡蠣は genre を持たないため、棚(seafood)URLへ正しくリンクする必要がある
+    const magaki = page.getByRole("link", { name: /真牡蠣/ });
+    await expect(magaki).toBeVisible();
+    await expect(magaki).toHaveAttribute("href", "/ja/seafood/magaki");
+  });
+
+  test("隣の土地へのチップに、掲載のある隣接県が並ぶ", async ({ page }) => {
+    await page.goto("/ja/region/hiroshima");
+    const neighbors = page.locator("section", { hasText: "隣の土地へ" });
+    await expect(neighbors).toBeVisible();
+    // 広島の陸隣接県（岡山・島根・山口）はいずれも掲載データがある
+    await expect(neighbors.getByRole("link", { name: "岡山県" })).toBeVisible();
+  });
+});
+
+test.describe("ジャンルページの新レイアウト（2026-08 デザイン確定）", () => {
+  test("系統チップ・CTA・同じ棚の仲間チップが出る（ラーメン=系統あり）", async ({ page }) => {
+    await page.goto("/ja/ramen");
+    await expect(page.getByRole("heading", { name: "ラーメン", level: 1 })).toBeVisible();
+
+    // 系統チップ（系統色付き。ラーメンのみ）
+    const styleNav = page.getByRole("navigation", { name: "系統で選ぶ" });
+    await expect(styleNav).toBeVisible();
+    await expect(styleNav.getByRole("link", { name: /豚骨/ })).toBeVisible();
+
+    // CTA: 「◯◯の一覧を地図で見る」（橙塗りボタン）
+    await expect(page.getByRole("link", { name: "ラーメンの一覧を地図で見る" })).toBeVisible();
+
+    // 末尾: 同じ棚の仲間チップ（棚ページへ）
+    const shelfChip = page.getByRole("link", { name: "この棚の仲間" });
+    await expect(shelfChip).toBeVisible();
+    await expect(shelfChip).toHaveAttribute("href", "/ja/noodles");
+  });
+
+  test("系統を持たないジャンルでは系統チップが出ない（焼き鳥）", async ({ page }) => {
+    await page.goto("/ja/yakitori");
+    await expect(page.getByRole("navigation", { name: "系統で選ぶ" })).toHaveCount(0);
+    await expect(page.getByRole("link", { name: "焼き鳥の一覧を地図で見る" })).toBeVisible();
+  });
+});
+
+test.describe("タグページ（興味からさがす。2026-08 デザイン確定）", () => {
+  test("/tags は件数>0のタグだけをkind別に表示する", async ({ page }) => {
+    await page.goto("/ja/tags");
+    await expect(page.getByRole("heading", { name: "興味からさがす", level: 1 })).toBeVisible();
+    await expect(page.getByRole("link", { name: /中華由来/ })).toBeVisible();
+    // 牛肉タグは今回の付与対象外（件数0）なので出ない
+    await expect(page.getByRole("link", { name: "牛肉" })).toHaveCount(0);
+  });
+
+  test("タグ詳細ページに該当アイテムと近いタグが出る", async ({ page }) => {
+    await page.goto("/ja/tag/chinese_derived");
+    await expect(page.getByRole("heading", { name: /中華由来/, level: 1 })).toBeVisible();
+    await expect(page.getByRole("link", { name: /博多ラーメン/ })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "近いタグ" })).toBeVisible();
+  });
+
+  test("トップの「興味からさがす」カードから/tagsへ到達できる", async ({ page }) => {
+    await page.goto("/ja");
+    const toggle = page.getByRole("button", { name: /シートを次の段階へ/ });
+    await toggle.click();
+    await toggle.click();
+    const sheet = page.getByRole("dialog");
+    await sheet.getByRole("link", { name: "興味からさがす" }).click();
+    await expect(page.getByRole("heading", { name: "興味からさがす", level: 1 })).toBeVisible();
+  });
+
+  test("sitemapにタグページのURLが出る（件数>0のみ）", async ({ request }) => {
+    const res = await request.get("/sitemap.xml");
+    const xml = await res.text();
+    expect(xml).toContain("/ja/tag/chinese_derived</loc>");
+    expect(xml).not.toContain("/ja/tag/beef</loc>");
   });
 });

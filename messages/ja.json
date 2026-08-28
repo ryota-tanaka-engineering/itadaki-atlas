@@ -31,6 +31,8 @@
     "entryPlaceTitle": "土地からさがす",
     "entryPlaceHint": "地図をタップ、またはピンを選んで探せます",
     "entryTypeTitle": "種類からさがす",
+    "entryInterestTitle": "興味からさがす",
+    "entryInterestHint": "タグで探せます",
     "aboutLink": "このサイトについて"
   },
   "item": {
@@ -115,16 +117,54 @@
     "title": "ご当地{name}一覧",
     "count": "{count}種",
     "viewOnMap": "地図で見る",
+    "mapCta": "{name}の一覧を地図で見る",
     "otherStyles": "その他",
     "encyclopedia": "図鑑",
     "byRegion": "地域から探す",
     "regional": "ご当地",
-    "titleIngredient": "{name}の銘柄と産地"
+    "titleIngredient": "{name}の銘柄と産地",
+    "styleNavLabel": "系統で選ぶ",
+    "shelfSiblingsTitle": "この棚の仲間"
   },
   "region": {
     "title": "{pref}の食",
     "count": "{count}件",
-    "viewOnMap": "地図で見る"
+    "viewOnMap": "地図で見る",
+    "groupTitle": {
+      "dish": "この土地で生まれた",
+      "ingredient": "この土地が育てる",
+      "preparation": "この土地が仕込む"
+    },
+    "neighborsTitle": "隣の土地へ"
+  },
+  "shelf": {
+    "count": "{count}件",
+    "grpMeta": {
+      "dish": "土地で生まれたもの",
+      "ingredient": "土地が育てるもの",
+      "preparation": "土地が仕込むもの"
+    },
+    "genresTitle": "主なジャンル",
+    "othersTitle": "まだ数の少ない仲間たち",
+    "othersHint": "育てば独立します",
+    "relatedShelvesTitle": "関連する他の棚"
+  },
+  "tags": {
+    "title": "興味からさがす",
+    "description": "味・素材・調理・形状・場面・系譜のタグから探す。",
+    "kind": {
+      "味・特性": "味・特性",
+      "素材": "素材",
+      "調理": "調理",
+      "形状・食べ方": "形状・食べ方",
+      "場面": "場面",
+      "系譜": "系譜"
+    }
+  },
+  "tag": {
+    "count": "{count}件",
+    "relatedTitle": "近いタグ",
+    "allTagsLink": "タグ一覧へ"
   },
   "relation": {
     "lineage": {

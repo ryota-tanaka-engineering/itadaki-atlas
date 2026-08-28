@@ -31,6 +31,8 @@
     "entryPlaceTitle": "Browse by place",
     "entryPlaceHint": "Tap the map, or select a pin, to explore",
     "entryTypeTitle": "Browse by type",
+    "entryInterestTitle": "Browse by interest",
+    "entryInterestHint": "Explore by tag",
     "aboutLink": "About this site"
   },
   "item": {
@@ -115,16 +117,54 @@
     "title": "Types of {name}",
     "count": "{count} varieties",
     "viewOnMap": "View on map",
+    "mapCta": "View all {name} on the map",
     "otherStyles": "Other",
     "encyclopedia": "Encyclopedia",
     "byRegion": "Browse by region",
     "regional": "Regional varieties",
-    "titleIngredient": "{name} — brands and regions"
+    "titleIngredient": "{name} — brands and regions",
+    "styleNavLabel": "Jump to style",
+    "shelfSiblingsTitle": "More from this shelf"
   },
   "region": {
     "title": "What to eat in {pref}",
     "count": "{count} items",
-    "viewOnMap": "View on map"
+    "viewOnMap": "View on map",
+    "groupTitle": {
+      "dish": "Born here",
+      "ingredient": "Raised here",
+      "preparation": "Prepared here"
+    },
+    "neighborsTitle": "Neighboring regions"
+  },
+  "shelf": {
+    "count": "{count} items",
+    "grpMeta": {
+      "dish": "Born from the land",
+      "ingredient": "Raised by the land",
+      "preparation": "Prepared by the land"
+    },
+    "genresTitle": "Main genres",
+    "othersTitle": "The smaller family",
+    "othersHint": "They graduate to their own genre once they grow",
+    "relatedShelvesTitle": "Related shelves"
+  },
+  "tags": {
+    "title": "Browse by interest",
+    "description": "Find dishes by flavor, ingredient, preparation, shape, occasion, or lineage.",
+    "kind": {
+      "味・特性": "Flavor & texture",
+      "素材": "Ingredient",
+      "調理": "Preparation",
+      "形状・食べ方": "Shape & how it's eaten",
+      "場面": "Occasion",
+      "系譜": "Lineage"
+    }
+  },
+  "tag": {
+    "count": "{count} items",
+    "relatedTitle": "Related tags",
+    "allTagsLink": "All tags"
   },
   "relation": {
     "lineage": {
