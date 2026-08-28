@@ -196,7 +196,7 @@ export function BrowseShell({
               <Input disabled placeholder={t("searchPlaceholder")} aria-label={t("searchLabel")} className="pl-8" />
             </div>
 
-            {/* 3軸索引の入口（現状は土地・種類の2つ。興味は遷移先ができてから追加する） */}
+            {/* 3軸索引の入口（土地・種類・興味）。興味は /tags 実装で遷移先ができたため追加 */}
             <div className="grid grid-cols-2 gap-2">
               <button
                 type="button"
@@ -236,6 +236,20 @@ export function BrowseShell({
                   ))}
                 </ul>
               </div>
+
+              <Link
+                href="/tags"
+                className="border-border bg-background hover:bg-muted/60 col-span-2 flex flex-col items-start gap-1 rounded-2xl border p-2.5 text-left transition-colors"
+              >
+                <span
+                  aria-hidden
+                  className="bg-primary text-primary-foreground flex size-5 items-center justify-center rounded-[3px] text-[10px] leading-none"
+                >
+                  ◆
+                </span>
+                <span className="text-sm font-semibold">{t("entryInterestTitle")}</span>
+                <span className="text-muted-foreground text-xs">{t("entryInterestHint")}</span>
+              </Link>
             </div>
 
             <p className="text-center">
