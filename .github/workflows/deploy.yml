@@ -1,0 +1,36 @@
+name: Deploy (Cloudflare Workers)
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    name: Build & Deploy to Cloudflare Workers
+    runs-on: ubuntu-latest
+    # Cloudflare/Supabase の認証・Secrets設定が完了するまでは無効化しておく。
+    # 後続の作業パッケージで vars.CF_DEPLOY_ENABLED を 'true' に設定して有効化する。
+    if: vars.CF_DEPLOY_ENABLED == 'true'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: OpenNext Cloudflare build
+        run: npx opennextjs-cloudflare build
+
+      - name: Deploy to Cloudflare Workers
+        uses: cloudflare/wrangler-action@v3
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          command: deploy
