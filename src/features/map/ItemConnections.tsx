@@ -17,7 +17,13 @@ export type ConnectionCard = {
   meta?: string;
 };
 
-export type RegionPill = { key: string; href: string; label: string };
+export type RegionPill = {
+  key: string;
+  href: string;
+  label: string;
+  /** 本場（relationType='本場'）の「構造的理由の一文」。あれば pill の下に添える。 */
+  note?: string | null;
+};
 
 type Props = {
   styleTitle: string;
@@ -117,6 +123,18 @@ export function ItemConnections({
                   </li>
                 ))}
               </ul>
+              {/* 本場（「どこでも食べられるが、ここのは特別」）の構造的理由。データが入れば自動で現れる */}
+              {regions.some((r) => r.note) && (
+                <ul className="mt-1.5 space-y-1">
+                  {regions
+                    .filter((r) => r.note)
+                    .map((r) => (
+                      <li key={`note-${r.key}`} className="text-muted-foreground text-xs">
+                        {r.note}
+                      </li>
+                    ))}
+                </ul>
+              )}
             </div>
           )}
 

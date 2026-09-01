@@ -97,6 +97,9 @@ export type ItemRegion = {
   pref: string;
   city: string | null;
   relationType: string;
+  /** 本場（relationType='本場'）の「構造的理由の一文」。名産地でも使ってよい。 */
+  noteJa: string | null;
+  noteEn: string | null;
 };
 
 export type ItemDetail = MapItem & {
@@ -133,7 +136,7 @@ export async function fetchItemBySlug(
        shelves ( slug, name_ja, name_en ),
        food_item_translations ( locale, name, summary, body_md ),
        food_item_sources ( title, url, publisher, accessed_at ),
-       food_item_regions ( pref, city, relation_type ),
+       food_item_regions ( pref, city, relation_type, note_ja, note_en ),
        dish_details ( primary_style )`,
     )
     .eq("slug", slug)
@@ -179,6 +182,8 @@ export async function fetchItemBySlug(
       pref: r.pref,
       city: r.city,
       relationType: r.relation_type,
+      noteJa: r.note_ja,
+      noteEn: r.note_en,
     })),
   };
 }
@@ -203,7 +208,7 @@ export async function fetchItemByShelfSlug(
        shelves!inner ( slug, name_ja, name_en ),
        food_item_translations ( locale, name, summary, body_md ),
        food_item_sources ( title, url, publisher, accessed_at ),
-       food_item_regions ( pref, city, relation_type ),
+       food_item_regions ( pref, city, relation_type, note_ja, note_en ),
        dish_details ( primary_style )`,
     )
     .eq("slug", slug)
@@ -249,6 +254,8 @@ export async function fetchItemByShelfSlug(
       pref: r.pref,
       city: r.city,
       relationType: r.relation_type,
+      noteJa: r.note_ja,
+      noteEn: r.note_en,
     })),
   };
 }
@@ -337,6 +344,9 @@ export type Genre = {
   type: "dish" | "ingredient";
   /** 所属する棚のslug（ジャンルページ末尾「この棚の仲間」チップ用）。 */
   shelfSlug: string;
+  /** 国民食型ジャンルの総論（未投入なら null。ヒーロー直下に段落として出す）。 */
+  introJa: string | null;
+  introEn: string | null;
 };
 
 /** トップのチップとジャンルページが読む。genres に行を足すだけで増える。 */
@@ -344,7 +354,7 @@ export async function fetchGenres(): Promise<Genre[]> {
   const db = await createClient();
   const { data, error } = await db
     .from("genres")
-    .select("slug, name_ja, name_en, type, shelf_slug")
+    .select("slug, name_ja, name_en, type, shelf_slug, intro_ja, intro_en")
     .order("sort_order");
   if (error) throw new Error(`fetchGenres failed: ${error.message}`);
   return (data ?? []).map((g) => ({
@@ -353,6 +363,8 @@ export async function fetchGenres(): Promise<Genre[]> {
     nameEn: g.name_en,
     type: g.type as "dish" | "ingredient",
     shelfSlug: g.shelf_slug,
+    introJa: g.intro_ja,
+    introEn: g.intro_en,
   }));
 }
 
@@ -360,7 +372,7 @@ export async function fetchGenre(genreSlug: string): Promise<Genre | null> {
   const db = await createClient();
   const { data, error } = await db
     .from("genres")
-    .select("slug, name_ja, name_en, type, shelf_slug")
+    .select("slug, name_ja, name_en, type, shelf_slug, intro_ja, intro_en")
     .eq("slug", genreSlug)
     .maybeSingle();
   if (error) throw new Error(`fetchGenre failed: ${error.message}`);
@@ -371,6 +383,8 @@ export async function fetchGenre(genreSlug: string): Promise<Genre | null> {
         nameEn: data.name_en,
         type: data.type as "dish" | "ingredient",
         shelfSlug: data.shelf_slug,
+        introJa: data.intro_ja,
+        introEn: data.intro_en,
       }
     : null;
 }
@@ -401,7 +415,7 @@ export async function fetchItemsByPref(pref: string, locale: Locale) {
     db.from("food_items").select(ITEM_SELECT).eq("origin_pref", pref).order("slug"),
     db
       .from("food_item_regions")
-      .select(`relation_type, food_items!inner ( ${ITEM_SELECT} )`)
+      .select(`relation_type, note_ja, note_en, food_items!inner ( ${ITEM_SELECT} )`)
       .eq("pref", pref),
   ]);
   if (own.error) throw new Error(`fetchItemsByPref failed: ${own.error.message}`);
@@ -410,15 +424,36 @@ export async function fetchItemsByPref(pref: string, locale: Locale) {
   const items = (own.data ?? []).map((r) => ({
     ...rowToItem(r, locale),
     regionRelation: null as string | null,
+    // 本場（relation_type='本場'）の理由の一文。発祥（own側）には付かない
+    regionNoteJa: null as string | null,
+    regionNoteEn: null as string | null,
   }));
-  const seen = new Set(items.map((i) => i.slug));
+  const bySlug = new Map(items.map((i) => [i.slug, i]));
   for (const row of via.data ?? []) {
     const item = toOne(row.food_items as unknown as ItemRow | ItemRow[] | null);
     if (!item) continue;
     const mapped = rowToItem(item, locale);
-    if (seen.has(mapped.slug)) continue; // 発祥として既に載っている場合はそちらを優先
-    seen.add(mapped.slug);
-    items.push({ ...mapped, regionRelation: row.relation_type });
+    const existing = bySlug.get(mapped.slug);
+    if (existing) {
+      // 発祥として既に載っている場合はそちらを優先。
+      // 同一県・同一種別で複数都市（例: 北海道の本場=釧路・小樽・函館）の場合は
+      // 理由の一文を1エントリにまとめる（行ごとに同じアイテムを並べない）
+      if (existing.regionRelation === row.relation_type) {
+        existing.regionNoteJa =
+          [existing.regionNoteJa, row.note_ja].filter(Boolean).join("\n") || null;
+        existing.regionNoteEn =
+          [existing.regionNoteEn, row.note_en].filter(Boolean).join("\n") || null;
+      }
+      continue;
+    }
+    const entry = {
+      ...mapped,
+      regionRelation: row.relation_type,
+      regionNoteJa: row.note_ja,
+      regionNoteEn: row.note_en,
+    };
+    bySlug.set(mapped.slug, entry);
+    items.push(entry);
   }
   return items;
 }
@@ -615,7 +650,7 @@ export async function fetchShelfGenres(shelfSlug: string): Promise<ShelfGenre[]>
   const [{ data: genres, error: gErr }, { data: items, error: iErr }] = await Promise.all([
     db
       .from("genres")
-      .select("id, slug, name_ja, name_en, type")
+      .select("id, slug, name_ja, name_en, type, intro_ja, intro_en")
       .eq("shelf_slug", shelfSlug)
       .order("sort_order"),
     db.from("food_items").select("genre_id").eq("shelf_slug", shelfSlug).not("genre_id", "is", null),
@@ -635,6 +670,8 @@ export async function fetchShelfGenres(shelfSlug: string): Promise<ShelfGenre[]>
     nameEn: g.name_en,
     type: g.type as "dish" | "ingredient",
     shelfSlug,
+    introJa: g.intro_ja,
+    introEn: g.intro_en,
     itemCount: counts.get(g.id) ?? 0,
   }));
 }
@@ -754,4 +791,96 @@ export async function fetchTagItems(tagSlug: string, locale: Locale): Promise<Ta
 export async function fetchRelatedTags(tagSlug: string, kind: string): Promise<TagWithCount[]> {
   const all = await fetchTagsWithCounts();
   return all.filter((t) => t.kind === kind && t.slug !== tagSlug && t.itemCount > 0);
+}
+
+// -----------------------------------------------------------------------------
+// チェーン橋渡し用のクエリ群（「チェーンから、ご当地へ」セクション）。
+// 誰もが知るチェーンを入口に、系統・ご当地へ渡す（North Star「広く」軸）。
+// -----------------------------------------------------------------------------
+
+export type ChainRecommendation = {
+  key: string;
+  slug: string;
+  /** 詳細ページへのリンク組み立て用。genreSlug が無いアイテムは shelfSlug 経由（既存フォールバックと同じ規約）。 */
+  genreSlug: string | null;
+  shelfSlug: string;
+  nameJa: string;
+  nameEn: string | null;
+  nameRomaji: string;
+};
+
+export type Chain = {
+  slug: string;
+  nameJa: string;
+  nameEn: string;
+  bridgeJa: string;
+  bridgeEn: string;
+  recommendations: ChainRecommendation[];
+};
+
+type ChainRecFoodItem = {
+  slug: string;
+  name_romaji: string;
+  shelf_slug: string;
+  genres?: { slug: string }[] | { slug: string } | null;
+  food_item_translations: { locale: string; name: string }[] | null;
+};
+type ChainRecRow = { sort_order: number; food_items: ChainRecFoodItem[] | ChainRecFoodItem | null };
+
+/**
+ * ジャンルページ「チェーンから、ご当地へ」用。chains.genre_slug が一致するチェーンが
+ * 無ければ空配列を返す（呼び出し側はデータ駆動でセクションごと非表示にする。
+ * 特定ジャンルのハードコードはしない）。
+ * ja/en両方の表示名を返すため（呼び出し側が locale で出し分ける）、locale 引数は取らない。
+ */
+export async function fetchChainsForGenre(genreSlug: string): Promise<Chain[]> {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("chains")
+    .select(
+      `slug, name_ja, name_en, bridge_ja, bridge_en, sort_order,
+       chain_recommendations (
+         sort_order,
+         food_items (
+           slug, name_romaji, shelf_slug,
+           genres ( slug ),
+           food_item_translations ( locale, name )
+         )
+       )`,
+    )
+    .eq("genre_slug", genreSlug)
+    .order("sort_order");
+  if (error) throw new Error(`fetchChainsForGenre failed: ${error.message}`);
+
+  return (data ?? []).map((c) => {
+    const recs = ((c.chain_recommendations ?? []) as ChainRecRow[])
+      .slice()
+      .sort((a, b) => a.sort_order - b.sort_order)
+      .map((rec): ChainRecommendation | null => {
+        const item = toOne(rec.food_items);
+        if (!item) return null;
+        const translations = item.food_item_translations ?? [];
+        const ja = translations.find((x) => x.locale === "ja");
+        const en = translations.find((x) => x.locale === "en");
+        return {
+          key: item.slug,
+          slug: item.slug,
+          genreSlug: toOne(item.genres ?? null)?.slug ?? null,
+          shelfSlug: item.shelf_slug,
+          nameJa: ja?.name ?? item.name_romaji,
+          nameEn: en?.name ?? null,
+          nameRomaji: item.name_romaji,
+        };
+      })
+      .filter((r): r is ChainRecommendation => r !== null);
+
+    return {
+      slug: c.slug,
+      nameJa: c.name_ja,
+      nameEn: c.name_en,
+      bridgeJa: c.bridge_ja,
+      bridgeEn: c.bridge_en,
+      recommendations: recs,
+    };
+  });
 }

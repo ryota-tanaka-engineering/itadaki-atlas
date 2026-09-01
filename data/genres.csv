@@ -1,7 +1,7 @@
-slug,name_ja,name_en,type,sort_order,shelf
-ramen,ラーメン,Ramen,dish,1,noodles
-yakitori,焼き鳥,Yakitori,dish,2,grilled
-sushi,寿司,Sushi,dish,3,rice
-wagyu,和牛,Wagyu,ingredient,4,meat
-udon,うどん,Udon,dish,5,noodles
-soba,そば,Soba,dish,6,noodles
+slug,name_ja,name_en,type,sort_order,shelf,intro_ja,intro_en
+ramen,ラーメン,Ramen,dish,1,noodles,,
+yakitori,焼き鳥,Yakitori,dish,2,grilled,,
+sushi,寿司,Sushi,dish,3,rice,寿司は今日ではどの土地でも食べられる国民食だが、その中には土地と結びついた形もある。木箱で押し固める大阪の箱寿司、笹に包んで富山で親しまれるますのすし、鯖街道の終点である京都で育った鯖寿司のように、材料や技法そのものが土地の条件から生まれた郷土寿司がある一方、マグロの水揚げ地のように、ネタの産地や「本場」が土地と結びつくものもある。ここではその両方の結びつきをたどる。,"Sushi today is eaten everywhere in Japan as an everyday dish, yet some forms stay tied to a particular place. Osaka's box-pressed hako-zushi, Toyama's bamboo-wrapped masu-zushi, and Kyoto's saba-zushi, which grew up at the end of the old mackerel road, are regional types whose ingredients or techniques came from local conditions. Other ties run through a single ingredient — the ports where tuna is landed, for instance — or through a 'honba', a place said to be especially good for a given topping even though the dish itself travels everywhere. This section follows both kinds of connection."
+wagyu,和牛,Wagyu,ingredient,4,meat,,
+udon,うどん,Udon,dish,5,noodles,,
+soba,そば,Soba,dish,6,noodles,,

@@ -39,11 +39,14 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   };
 }
 
-const GRP_ORDER = ["dish", "ingredient", "preparation"] as const;
-const GRP_SYMBOL: Record<(typeof GRP_ORDER)[number], string> = {
+// 本場（どこでも食べられるが、ここのは特別）は生まれた/育てる/仕込むのどれでもないため、
+// 棚カテゴリではなく第4の群に分ける。記号は3群の●■◆に混ぜない（形の識別を守る）。
+const GRP_ORDER = ["dish", "ingredient", "preparation", "honba"] as const;
+const GRP_SYMBOL: Record<(typeof GRP_ORDER)[number], string | null> = {
   dish: "●",
   ingredient: "■",
   preparation: "◆",
+  honba: null,
 };
 
 export default async function RegionPage({ params }: { params: Promise<Params> }) {
@@ -66,9 +69,11 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
   const isJa = locale === "ja";
 
   const grpOf = new Map(shelves.map((s) => [s.slug, s.grp]));
+  const grpOfItem = (i: (typeof items)[number]) =>
+    i.regionRelation === "本場" ? "honba" : grpOf.get(i.shelfSlug);
   const groups = GRP_ORDER.map((grp) => ({
     grp,
-    items: items.filter((i) => grpOf.get(i.shelfSlug) === grp),
+    items: items.filter((i) => grpOfItem(i) === grp),
   })).filter((g) => g.items.length > 0);
 
   const withItems = new Set(prefsWithItems);
@@ -84,9 +89,11 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
         {groups.map((group) => (
           <section key={group.grp} className="mb-10">
             <h2 className="font-serif border-border mb-3 flex items-center gap-2 border-b pb-2 text-lg">
-              <span aria-hidden className="text-primary">
-                {GRP_SYMBOL[group.grp]}
-              </span>
+              {GRP_SYMBOL[group.grp] && (
+                <span aria-hidden className="text-primary">
+                  {GRP_SYMBOL[group.grp]}
+                </span>
+              )}
               {t(`groupTitle.${group.grp}`)}
               <span className="text-muted-foreground text-sm font-normal">{group.items.length}</span>
             </h2>
@@ -112,8 +119,8 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
                       {item.primaryStyle && (
                         <span className="text-muted-foreground text-xs">{ts(item.primaryStyle)}</span>
                       )}
-                      {/* 発祥ではなく名産地等で結びつくアイテムの区別 */}
-                      {item.regionRelation && (
+                      {/* 発祥ではなく名産地等で結びつくアイテムの区別（本場は群見出しで分かるので重ねない） */}
+                      {item.regionRelation && item.regionRelation !== "本場" && (
                         <span className="bg-muted text-muted-foreground rounded-full px-2 py-0.5 text-xs">
                           {trr(item.regionRelation)}
                         </span>
@@ -124,6 +131,12 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
                       {item.nameEn ? ` — ${item.nameEn}` : ""}
                     </span>
                     {item.summary && <span className="mt-1 block text-sm">{item.summary}</span>}
+                    {/* 本場の構造的理由の一文。複数都市分は改行区切りで届く */}
+                    {(isJa ? item.regionNoteJa : item.regionNoteEn) && (
+                      <span className="text-muted-foreground mt-1 block text-xs whitespace-pre-line">
+                        {isJa ? item.regionNoteJa : item.regionNoteEn}
+                      </span>
+                    )}
                   </Link>
                 </li>
               ))}

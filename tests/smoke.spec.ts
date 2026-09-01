@@ -104,11 +104,14 @@ test.describe("F-01 ディフォルメ地図", () => {
     await expect(deformed).toBeVisible();
   });
 
-  test("掲載のない県は選べない", async ({ page }) => {
+  test("発祥ピンの無い県はディフォルメ地図から選べない", async ({ page }) => {
     await page.goto("/");
     const deformed = page.getByRole("group", { name: /ディフォルメ地図/ });
-    // 2026-08: 掲載なし県は石川のみ（region 404 テストと同じ前提。埋まったら要更新）
-    await expect(deformed.getByRole("button", { name: /石川県 掲載なし/ })).toHaveAttribute(
+    // 2026-09: 石川は海鮮丼の本場（金沢）で地域ページはできたが、発祥ピンは0件。
+    // ディフォルメ地図は「選ぶと地図を拡大」する装置なのでピン0件の県は選べないまま
+    // （地域ページへは「地域から探す」から到達できる）。
+    // 本場を地図ピンに出すかは未決。出すことになったらこのテストを更新する。
+    await expect(deformed.getByRole("button", { name: /石川県/ })).toHaveAttribute(
       "aria-disabled",
       "true",
     );
@@ -179,11 +182,33 @@ test.describe("データ駆動ページ（行を足すと増える機械）", ()
     await expect(page.getByRole("link", { name: /博多ラーメン/ })).toBeVisible();
     await expect(page.getByRole("link", { name: /久留米ラーメン/ })).toBeVisible();
 
-    // データが無い県は404（薄いページを量産しない）。
-    // 2026-08: 掲載なし県は石川のみ（沖縄そば投入で沖縄が埋まった）。
-    // 石川にデータが入ったらこのテストは fixture ベースの検証に置き換える。
-    const res = await page.goto("/ja/region/ishikawa");
+    // 実在しない県slugは404（薄いページを量産しない）。
+    // 2026-09: 石川が埋まり空白県ゼロになったため、実在しないslugで検証する。
+    const res = await page.goto("/ja/region/atlantis");
     expect(res?.status()).toBe(404);
+  });
+
+  test("本場: 海鮮丼が石川の地域ページに理由付きで出る", async ({ page }) => {
+    await page.goto("/ja/region/ishikawa");
+    await expect(page.getByRole("heading", { name: "石川県", level: 1 })).toBeVisible();
+    // 本場は生まれた/育てる/仕込むと別の第4群（●■◆の記号は付けない）
+    await expect(page.getByRole("heading", { name: /この土地が本場/ })).toBeVisible();
+    const link = page.getByRole("link", { name: /海鮮丼/ });
+    await expect(link).toBeVisible();
+    // 構造的理由の一文が添えられる
+    await expect(link).toContainText("近江町市場");
+  });
+
+  test("ジャンル総論: 寿司ページに国民食の導入が出る", async ({ page }) => {
+    await page.goto("/ja/sushi");
+    await expect(page.getByText(/どの土地でも食べられる国民食/)).toBeVisible();
+    await page.goto("/en/sushi");
+    await expect(page.getByText(/eaten everywhere in Japan/)).toBeVisible();
+  });
+
+  test("国民食型: 発祥ピンなしの海鮮丼詳細が開ける", async ({ page }) => {
+    await page.goto("/ja/rice/kaisendon");
+    await expect(page.getByRole("heading", { name: "海鮮丼", level: 1 })).toBeVisible();
   });
 
   test("つながり: 関係1行が双方向のリンクになる", async ({ page }) => {
@@ -545,5 +570,37 @@ test.describe("タグページ（興味からさがす。2026-08 デザイン確
     const xml = await res.text();
     expect(xml).toContain("/ja/tag/chinese_derived</loc>");
     expect(xml).not.toContain("/ja/tag/beef</loc>");
+  });
+});
+
+test.describe("チェーンから、ご当地へ（チェーン橋渡し装置）", () => {
+  test("ラーメンページにチェーンセクションが出て、一蘭の推薦リンクから博多ラーメン詳細に遷移できる", async ({
+    page,
+  }) => {
+    await page.goto("/ja/ramen");
+    const chainSection = page.locator("section", { hasText: "その味、ご当地にもあります" });
+    await expect(chainSection).toBeVisible();
+    await expect(chainSection.getByText("一蘭", { exact: true })).toBeVisible();
+
+    const hakataLink = chainSection.getByRole("link", { name: /博多ラーメン/ }).first();
+    await expect(hakataLink).toBeVisible();
+    await hakataLink.click();
+    await expect(page.getByRole("heading", { name: "博多ラーメン", level: 1 })).toBeVisible();
+  });
+
+  test("英語版でも文言が英語で出る", async ({ page }) => {
+    await page.goto("/en/ramen");
+    const chainSection = page.locator("section", {
+      hasText: "Know these chains? Meet the regional originals",
+    });
+    await expect(chainSection).toBeVisible();
+    await expect(
+      chainSection.getByText("Ichiran — tonkotsu ramen chain from Fukuoka", { exact: true }),
+    ).toBeVisible();
+  });
+
+  test("チェーンの無いジャンルにはセクションが出ない（寿司）", async ({ page }) => {
+    await page.goto("/ja/sushi");
+    await expect(page.getByText("その味、ご当地にもあります")).toHaveCount(0);
   });
 });

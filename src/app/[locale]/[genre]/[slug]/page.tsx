@@ -121,10 +121,16 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
     item.genreSlug && genreName ? t("connectionsViewAll", { name: genreName }) : null;
 
   const regionPills: RegionPill[] = item.regions.map((r) => ({
-    key: `${r.pref}-${r.relationType}`,
+    // 同一県・同一種別に複数都市が並ぶ（例: 海鮮丼の本場=釧路・小樽・函館）ため city も key に含める
+    key: `${r.pref}-${r.city ?? ""}-${r.relationType}`,
     href: `/region/${PREF_SLUGS[r.pref as Prefecture]}`,
     label: `${tp(r.pref)}${r.city ? ` ${r.city}` : ""} ${trr(r.relationType)}`,
+    note: isJa ? r.noteJa : r.noteEn,
   }));
+  // 小見出しは実際に並ぶ種別から作る（本場だけなのに「名産地」と出さない）
+  const regionKinds = [...new Set(item.regions.map((r) => r.relationType))];
+  const regionsTitle =
+    item.regions.length > 0 ? regionKinds.map((k) => trr(k)).join(isJa ? "・" : " / ") : null;
 
   const relatedCards: ConnectionCard[] = related.map((r) => ({
     key: `${r.relationType}-${r.slug}`,
@@ -220,7 +226,7 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
               viewAllHref={viewAllHref}
               viewAllLabel={viewAllLabel}
               landTitle={landTitle}
-              regionsTitle={item.regions.length > 0 ? t("regions") : null}
+              regionsTitle={regionsTitle}
               regions={regionPills}
               landItems={landCards}
               regionPageHref={regionPageHref}
@@ -237,7 +243,7 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
               viewAllHref={viewAllHref}
               viewAllLabel={viewAllLabel}
               landTitle={landTitle}
-              regionsTitle={item.regions.length > 0 ? t("regions") : null}
+              regionsTitle={regionsTitle}
               regions={regionPills}
               landItems={landCards}
               regionPageHref={regionPageHref}
