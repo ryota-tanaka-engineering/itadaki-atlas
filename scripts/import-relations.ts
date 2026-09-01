@@ -13,7 +13,19 @@ import { readFileSync } from "node:fs";
 import { createClient } from "@supabase/supabase-js";
 import { z } from "zod";
 
-const RELATION_TYPES = ["派生", "対比", "代表ネタ", "使用食材"] as const;
+const RELATION_TYPES = ["源流", "派生", "対比", "兄弟", "代表ネタ", "使用食材"] as const;
+
+// CSVは編集用の日本語語彙、DBは4語彙（migration 20260826000000 の CHECK と同じ対応）。
+// 以前は日本語のまま挿入→migrationが変換、という経路だったが、新規DBでは
+// CHECK制約に弾かれるため、挿入時にここで変換する。
+const TYPE_TO_DB: Record<(typeof RELATION_TYPES)[number], string> = {
+  源流: "lineage",
+  派生: "lineage",
+  兄弟: "sibling",
+  対比: "contrast",
+  代表ネタ: "uses",
+  使用食材: "uses",
+};
 
 const rowSchema = z.object({
   from_slug: z.string().trim().min(1),
@@ -88,7 +100,7 @@ async function main() {
       {
         from_id: idOf.get(r.from_slug)!,
         to_id: idOf.get(r.to_slug)!,
-        relation_type: r.relation_type,
+        relation_type: TYPE_TO_DB[r.relation_type],
       },
       { onConflict: "from_id,to_id,relation_type" },
     );
