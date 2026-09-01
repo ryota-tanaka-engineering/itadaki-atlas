@@ -27,6 +27,24 @@ export type MapItem = {
   shelfSlug: string;
 };
 
+/**
+ * 地図ピン用データ（2026-09 本場ピン対応）。MapItem に kind を足しただけの型で、
+ * 発祥ピン（kind='origin'。MapItem を素通しできる形）と本場ピン
+ * （kind='honba'。food_item_regions の1行=1ピンで、同じアイテムが複数都市に
+ * ピンを持ちうる）を同じ配列に合流させて MapView / DeformedMap に渡す。
+ *
+ * originPref/originCity/lat/lng は honba ピンでは「アイテムの発祥地」ではなく
+ * 「そのピンの所在地（本場の都市）」を表す（MapView・DeformedMap が既存の
+ * originPref ベースの集計・寄せロジックをそのまま使い回せるようにするため）。
+ */
+export type MapPin = MapItem & { kind: "origin" | "honba" };
+
+// ピン選択の一意キー（mapPinKey）は ./pinKey.ts に置く。
+// ここ（queries.ts）は @/lib/supabase/server（next/headers 依存）を import しているため、
+// クライアントコンポーネント（MapView / BrowseShell）が値としてここから何かを import すると
+// サーバー専用コードがクライアントバンドルに巻き込まれてビルドが壊れる
+// （型のみの import は erasure されるため問題ない。関数だけ分離する）。
+
 export type Locale = "ja" | "en";
 
 /** PostgREST の埋め込みリレーションは配列/単体の両方があり得るので揃える。 */
@@ -456,6 +474,43 @@ export async function fetchItemsByPref(pref: string, locale: Locale) {
     items.push(entry);
   }
   return items;
+}
+
+/**
+ * 本場（food_item_regions.relation_type='本場'）の座標付き行を地図ピンに変換する
+ * （2026-09 本場ピン対応。CLAUDE.md「デザイン」節・作業パッケージ「本場ピン」）。
+ *
+ * 名産地・主要提供圏はスコープ外（今回は地図に出さない）。
+ * 1行=1ピン。同じアイテムが複数都市の本場を持つ場合はその数だけピンが増える
+ * （例: 海鮮丼＝釧路・小樽・函館・金沢の4ピン）。
+ */
+export async function fetchHonbaPins(locale: Locale = "ja"): Promise<MapPin[]> {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("food_item_regions")
+    .select(`pref, city, lat, lng, food_items!inner ( ${ITEM_SELECT} )`)
+    .eq("relation_type", "本場")
+    .not("lat", "is", null)
+    .order("pref");
+
+  if (error) throw new Error(`fetchHonbaPins failed: ${error.message}`);
+
+  return (data ?? [])
+    .map((row): MapPin | null => {
+      const item = toOne(row.food_items as unknown as ItemRow | ItemRow[] | null);
+      if (!item || row.lat == null || row.lng == null) return null;
+      return {
+        ...rowToItem(item, locale),
+        // 本場ピンはアイテム自身の発祥ではなく、その本場の所在地を使う
+        // （MapPin の doc コメント参照）。
+        originPref: row.pref,
+        originCity: row.city,
+        lat: row.lat,
+        lng: row.lng,
+        kind: "honba",
+      };
+    })
+    .filter((p): p is MapPin => p !== null);
 }
 
 /** データが存在する県の一覧（sitemap と「地域から探す」が読む）。regions 経由も含む。 */

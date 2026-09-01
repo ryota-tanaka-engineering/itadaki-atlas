@@ -9,7 +9,8 @@ import { Input } from "@/components/ui/input";
 import { buttonVariants } from "@/components/ui/button";
 
 import { MapView } from "@/features/map/MapView";
-import type { MapItem, Genre, Locale } from "@/features/map/queries";
+import { mapPinKey } from "@/features/map/pinKey";
+import type { MapItem, MapPin, Genre, Locale } from "@/features/map/queries";
 
 import { BottomSheet, snapOffset, type Snap } from "./BottomSheet";
 import { DeformedMap } from "./DeformedMap";
@@ -29,15 +30,21 @@ import type { Axis } from "./axes";
  */
 export function BrowseShell({
   items,
+  honbaPins,
   genres,
   locale,
 }: {
   items: MapItem[];
+  /** 本場ピン（2026-09）。索引には出さず、地図・ディフォルメ地図でのみ items と合流する。 */
+  honbaPins: MapPin[];
   genres: Genre[];
   locale: Locale;
 }) {
   const t = useTranslations("browse");
   const ti = useTranslations("item");
+  const tRegion = useTranslations("regionRelation");
+  // selectedSlug は origin ピン/索引選択では item.slug そのもの、
+  // honba ピン選択では mapPinKey() が返す複合キー（同じ slug が複数都市を持つため）。
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
   const [snap, setSnap] = useState<Snap>("peak");
   const [axis, setAxis] = useState<Axis>("kana");
@@ -59,9 +66,16 @@ export function BrowseShell({
     return () => window.removeEventListener("resize", update);
   }, []);
 
+  // 地図・ディフォルメ地図に渡す合流データ（発祥+本場）。索引・件数表記は items のまま
+  // （本場を索引に重複表示しないため。作業パッケージ「本場ピン」§1）。
+  const mapPins = useMemo<MapPin[]>(
+    () => [...items.map((i): MapPin => ({ ...i, kind: "origin" })), ...honbaPins],
+    [items, honbaPins],
+  );
+
   const selected = useMemo(
-    () => items.find((i) => i.slug === selectedSlug) ?? null,
-    [items, selectedSlug],
+    () => mapPins.find((i) => mapPinKey(i) === selectedSlug) ?? null,
+    [mapPins, selectedSlug],
   );
 
   // ピンをタップしたら、地図を隠さないピーク位置でカードを見せる
@@ -90,7 +104,7 @@ export function BrowseShell({
   return (
     <div className="fixed inset-0 overflow-hidden">
       <MapView
-        items={items}
+        items={mapPins}
         selectedSlug={selectedSlug}
         onSelect={handleSelectFromMap}
         bottomInset={bottomInset}
@@ -101,7 +115,7 @@ export function BrowseShell({
       {showDeformed && (
         <div className="bg-background/95 absolute inset-0 z-10 backdrop-blur-[1px]">
           <DeformedMap
-            items={items}
+            items={mapPins}
             onSelectPrefecture={handleSelectPrefecture}
             bottomInset={bottomInset}
           />
@@ -149,19 +163,33 @@ export function BrowseShell({
       >
         {selected ? (
           <div className="space-y-3">
-            <dl className="text-sm">
-              <div className="flex gap-2">
-                <dt className="text-muted-foreground w-16 shrink-0">{ti("origin")}</dt>
-                <dd>
-                  {selected.originPref ?? "—"}
-                  {selected.originCity ?? ""}
-                </dd>
-              </div>
-              <div className="flex gap-2">
-                <dt className="text-muted-foreground w-16 shrink-0">{ti("style")}</dt>
-                <dd>{selected.primaryStyle ?? "—"}</dd>
-              </div>
-            </dl>
+            {selected.kind === "honba" ? (
+              // 本場ピン: 発祥/系統ではなく「本場」ラベル＋市名を出す
+              // （構造的理由の長文=note はここに入れない。詳細ページで読める）。
+              <dl className="text-sm">
+                <div className="flex gap-2">
+                  <dt className="text-muted-foreground w-16 shrink-0">{tRegion("本場")}</dt>
+                  <dd>
+                    {selected.originPref ?? "—"}
+                    {selected.originCity ?? ""}
+                  </dd>
+                </div>
+              </dl>
+            ) : (
+              <dl className="text-sm">
+                <div className="flex gap-2">
+                  <dt className="text-muted-foreground w-16 shrink-0">{ti("origin")}</dt>
+                  <dd>
+                    {selected.originPref ?? "—"}
+                    {selected.originCity ?? ""}
+                  </dd>
+                </div>
+                <div className="flex gap-2">
+                  <dt className="text-muted-foreground w-16 shrink-0">{ti("style")}</dt>
+                  <dd>{selected.primaryStyle ?? "—"}</dd>
+                </div>
+              </dl>
+            )}
             {selected.summary && <p className="text-sm leading-relaxed">{selected.summary}</p>}
             <div className="flex items-center gap-4">
               {/* 詳細ページ（SEOの受け皿）へ。シート内の表示は要約に留める。

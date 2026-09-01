@@ -1,7 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { BrowseShell } from "@/features/browse/BrowseShell";
-import { fetchGenres, fetchMapItems, type Locale } from "@/features/map/queries";
+import { fetchGenres, fetchHonbaPins, fetchMapItems, type Locale } from "@/features/map/queries";
 
 // データ取得はサーバー側（Platform 01_architecture.md §3）。
 // src/app は薄く保ち、ロジックは features に置く（ia-nextjs-standards）。
@@ -18,9 +18,12 @@ export default async function Home({
   setRequestLocale(locale);
 
   const t = await getTranslations("site");
-  const [items, genres] = await Promise.all([
+  const [items, genres, honbaPins] = await Promise.all([
     fetchMapItems(locale as Locale),
     fetchGenres(),
+    // 本場ピン（2026-09）。発祥ピンとは別経路で取得し、地図側でだけ合流させる
+    // （索引・件数表記は従来どおり発祥のみ。BrowseShell 参照）。
+    fetchHonbaPins(locale as Locale),
   ]);
 
   return (
@@ -28,7 +31,7 @@ export default async function Home({
       <h1 className="sr-only">
         {t("title")} — {t("tagline")}
       </h1>
-      <BrowseShell items={items} genres={genres} locale={locale as Locale} />
+      <BrowseShell items={items} honbaPins={honbaPins} genres={genres} locale={locale as Locale} />
     </main>
   );
 }

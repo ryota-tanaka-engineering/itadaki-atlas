@@ -3,7 +3,7 @@
 import { useMemo } from "react";
 import { useTranslations } from "next-intl";
 
-import type { MapItem } from "@/features/map/queries";
+import type { MapPin } from "@/features/map/queries";
 import { PIN_STROKE, PRIMARY_STYLES, styleColor } from "@/features/map/styles";
 
 import { GRID, GRID_COLS, GRID_ROWS } from "./gridLayout";
@@ -25,7 +25,9 @@ const CELL = 46;
 const GAP = 4;
 
 type Props = {
-  items: MapItem[];
+  /** 発祥ピン（kind='origin'）と本場ピン（kind='honba'）の合流データ。件数・系統の並置は
+   * ピン単位で数える（本場も1ピン=1件として数える。作業パッケージ「本場ピン」§3）。 */
+  items: MapPin[];
   onSelectPrefecture: (pref: string) => void;
   /** ボトムシートに隠れないための下端余白（px） */
   bottomInset: number;
@@ -34,7 +36,7 @@ type Props = {
 export function DeformedMap({ items, onSelectPrefecture, bottomInset }: Props) {
   const t = useTranslations("browse");
   const byPref = useMemo(() => {
-    const m = new Map<string, MapItem[]>();
+    const m = new Map<string, MapPin[]>();
     for (const item of items) {
       if (!item.originPref) continue;
       const list = m.get(item.originPref) ?? [];
@@ -78,7 +80,11 @@ export function DeformedMap({ items, onSelectPrefecture, bottomInset }: Props) {
               tabIndex={has ? 0 : -1}
               aria-label={
                 has
-                  ? `${cell.pref} ${count}件（${styles.join("・")}）。選ぶと地図を拡大します`
+                  ? // 本場ピンは primaryStyle を持たないアイテムが混ざりうるため、
+                    // 系統が1つも無い場合（例: 石川＝本場のみ）は括弧書きを省く。
+                    styles.length > 0
+                    ? `${cell.pref} ${count}件（${styles.join("・")}）。選ぶと地図を拡大します`
+                    : `${cell.pref} ${count}件。選ぶと地図を拡大します`
                   : `${cell.pref} 掲載なし`
               }
               aria-disabled={has ? undefined : true}

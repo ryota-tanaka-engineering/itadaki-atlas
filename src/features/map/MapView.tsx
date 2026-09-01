@@ -7,8 +7,9 @@ import { Protocol } from "pmtiles";
 import { layers, namedFlavor, type Flavor } from "@protomaps/basemaps";
 import "maplibre-gl/dist/maplibre-gl.css";
 
-import type { MapItem } from "./queries";
-import { PIN_STROKE, PRIMARY_STYLES, STYLE_COLORS, styleColor } from "./styles";
+import type { MapPin } from "./queries";
+import { mapPinKey } from "./pinKey";
+import { PIN_BASE, PIN_STROKE, PRIMARY_STYLES, STYLE_COLORS, styleColor } from "./styles";
 import { useMasterLabels } from "./labels";
 
 /**
@@ -105,7 +106,8 @@ export function ensurePmtilesProtocol() {
 }
 
 type Props = {
-  items: MapItem[];
+  /** 発祥ピン（kind='origin'）と本場ピン（kind='honba'）の合流データ。 */
+  items: MapPin[];
   selectedSlug: string | null;
   onSelect: (slug: string | null) => void;
   /** ボトムシートに隠れない位置に選択地点を寄せるための下端余白 */
@@ -125,6 +127,7 @@ export function MapView({
   const mapRef = useRef<maplibregl.Map | null>(null);
   const label = useMasterLabels();
   const t = useTranslations("browse");
+  const tRegion = useTranslations("regionRelation");
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -182,24 +185,42 @@ export function MapView({
       for (const item of items) {
         const el = document.createElement("button");
         el.type = "button";
+        const key = mapPinKey(item);
         // 地図ピンは button 要素にしてキーボードでフォーカスできるようにする
         // （.doc/30_features/01_requirements.md F-07 / WCAG 2.2 AA）
         el.setAttribute(
           "aria-label",
-          `${item.nameJa}（${item.originPref ?? ""}${item.originCity ?? ""}・${item.primaryStyle ?? "系統不明"}）`,
+          item.kind === "honba"
+            ? `${item.nameJa}（${tRegion("本場")}・${item.originPref ?? ""}${item.originCity ?? ""}）`
+            : `${item.nameJa}（${item.originPref ?? ""}${item.originCity ?? ""}・${item.primaryStyle ?? "系統不明"}）`,
         );
-        // 記号（CLAUDE.md「記号」節）: dish=●（丸）/ ingredient=■（角）。
-        // 系統色はラーメン内部のみの識別軸で、それ以外は無地のブランド橙（PIN_BASE）。
-        const shape = item.itemType === "ingredient" ? "rounded-[3px]" : "rounded-full";
-        el.className = `size-4 cursor-pointer border-2 transition-transform hover:scale-125 focus-visible:outline-2 focus-visible:outline-offset-2 ${shape}`;
-        el.style.backgroundColor = styleColor(item.primaryStyle);
-        el.style.borderColor = PIN_STROKE;
-        if (item.slug === selectedSlug) {
+
+        let ringShadow: string | undefined;
+        if (item.kind === "honba") {
+          // 本場ピン: 中抜きの○（発祥/食材/仕込みのどれとも違う第4の記号）。
+          // 塗り=紙・リング=ブランド橙（太め）・外周輪郭=既存ピンと同じ細さ
+          // （CLAUDE.md「デザイン」節・作業パッケージ「本場ピン」デザイン決定）。
+          el.className =
+            "size-4 cursor-pointer rounded-full transition-transform hover:scale-125 focus-visible:outline-2 focus-visible:outline-offset-2";
+          el.style.backgroundColor = "#fffdf7";
+          el.style.border = `2px solid ${PIN_STROKE}`;
+          ringShadow = `inset 0 0 0 3px ${PIN_BASE}`;
+          el.style.boxShadow = ringShadow;
+        } else {
+          // 記号（CLAUDE.md「記号」節）: dish=●（丸）/ ingredient=■（角）。
+          // 系統色はラーメン内部のみの識別軸で、それ以外は無地のブランド橙（PIN_BASE）。
+          const shape = item.itemType === "ingredient" ? "rounded-[3px]" : "rounded-full";
+          el.className = `size-4 cursor-pointer border-2 transition-transform hover:scale-125 focus-visible:outline-2 focus-visible:outline-offset-2 ${shape}`;
+          el.style.backgroundColor = styleColor(item.primaryStyle);
+          el.style.borderColor = PIN_STROKE;
+        }
+        if (key === selectedSlug) {
           el.style.transform = "scale(1.6)";
           el.style.zIndex = "1";
-          el.style.boxShadow = "0 0 0 3px rgba(0,0,0,0.25)";
+          const selectionShadow = "0 0 0 3px rgba(0,0,0,0.25)";
+          el.style.boxShadow = ringShadow ? `${ringShadow}, ${selectionShadow}` : selectionShadow;
         }
-        el.addEventListener("click", () => onSelect(item.slug));
+        el.addEventListener("click", () => onSelect(key));
 
         markers.push(
           new maplibregl.Marker({ element: el }).setLngLat([item.lng, item.lat]).addTo(map),
@@ -213,7 +234,7 @@ export function MapView({
     return () => {
       for (const m of markers) m.remove();
     };
-  }, [items, selectedSlug, onSelect]);
+  }, [items, selectedSlug, onSelect, tRegion]);
 
   // ディフォルメ地図で選ばれた県の範囲へ寄せる
   useEffect(() => {

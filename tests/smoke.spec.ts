@@ -104,17 +104,29 @@ test.describe("F-01 ディフォルメ地図", () => {
     await expect(deformed).toBeVisible();
   });
 
-  test("発祥ピンの無い県はディフォルメ地図から選べない", async ({ page }) => {
+  test("本場ピン対応で、発祥ピンの無い石川県もディフォルメ地図から選べる", async ({ page }) => {
     await page.goto("/");
     const deformed = page.getByRole("group", { name: /ディフォルメ地図/ });
-    // 2026-09: 石川は海鮮丼の本場（金沢）で地域ページはできたが、発祥ピンは0件。
-    // ディフォルメ地図は「選ぶと地図を拡大」する装置なのでピン0件の県は選べないまま
-    // （地域ページへは「地域から探す」から到達できる）。
-    // 本場を地図ピンに出すかは未決。出すことになったらこのテストを更新する。
-    await expect(deformed.getByRole("button", { name: /石川県/ })).toHaveAttribute(
-      "aria-disabled",
-      "true",
-    );
+    // 2026-09: 本場ピン（海鮮丼＝金沢）を地図に出す対応で、発祥ピンが0件の県も
+    // 本場ピンがあれば選べるようになった（全県選択可能＝空白県ゼロ）。
+    // 旧テスト「発祥ピンの無い県は選べない」はこの対応で前提が崩れたため置き換え。
+    const ishikawa = deformed.getByRole("button", { name: /^石川県 1件/ });
+    await expect(ishikawa).toBeVisible();
+    await expect(ishikawa).not.toHaveAttribute("aria-disabled", "true");
+  });
+
+  test("本場: 石川県を選ぶと地図が拡大し海鮮丼の本場ピンが出る", async ({ page }) => {
+    await page.goto("/");
+    const deformed = page.getByRole("group", { name: /ディフォルメ地図/ });
+    await deformed.getByRole("button", { name: /^石川県 1件/ }).click();
+
+    // 実座標地図へ切り替わる（既存の県選択と同じ挙動）
+    await expect(deformed).toBeHidden();
+
+    // 本場ピンは中抜きの○（第4の記号）。aria-label に「本場」表記が乗ることをもって検証する
+    // （MapLibre canvas内部の描画そのものはDOM/ariaから検証できないため）。
+    const pin = page.getByRole("button", { name: /海鮮丼（本場・石川県金沢市）/ });
+    await expect(pin).toBeVisible({ timeout: 30_000 });
   });
 });
 
