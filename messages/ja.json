@@ -124,7 +124,9 @@
     "regional": "ご当地",
     "titleIngredient": "{name}の銘柄と産地",
     "styleNavLabel": "系統で選ぶ",
-    "shelfSiblingsTitle": "この棚の仲間"
+    "shelfSiblingsTitle": "この棚の仲間",
+    "chainsHeading": "その味、ご当地にもあります",
+    "chainsIntro": "全国チェーンの味には、それぞれ源流とされる土地の系統があります。"
   },
   "region": {
     "title": "{pref}の食",
@@ -133,7 +135,8 @@
     "groupTitle": {
       "dish": "この土地で生まれた",
       "ingredient": "この土地が育てる",
-      "preparation": "この土地が仕込む"
+      "preparation": "この土地が仕込む",
+      "honba": "この土地が本場"
     },
     "neighborsTitle": "隣の土地へ"
   },
@@ -187,7 +190,8 @@
   "regionRelation": {
     "発祥": "発祥",
     "名産地": "名産地",
-    "主要提供圏": "主要提供圏"
+    "主要提供圏": "主要提供圏",
+    "本場": "本場"
   },
   "about": {
     "title": "このサイトについて",

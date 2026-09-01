@@ -1,0 +1,247 @@
+{
+  "chains": [
+    {
+      "slug": "ichiran",
+      "name_ja": "一蘭",
+      "name_en": "Ichiran — tonkotsu ramen chain from Fukuoka",
+      "founded": "1960年・福岡市（屋台として創業したとされる。1966年に福岡県小郡市へ移転して屋号を「一蘭」に改称し、1993年から店舗展開を本格化）",
+      "style": "豚骨（天然とんこつ）",
+      "bridge_ja": "一蘭の細麺・濃厚豚骨は、博多・久留米の屋台文化から広まった豚骨ラーメンの流れを汲むとされる。",
+      "bridge_en": "Ichiran's thin noodles and rich tonkotsu broth are said to trace back to the street-stall tonkotsu culture of Hakata and Kurume.",
+      "recommend": [
+        {
+          "kind": "style",
+          "value": "豚骨"
+        },
+        {
+          "kind": "item",
+          "slug": "hakata"
+        },
+        {
+          "kind": "item",
+          "slug": "kurume"
+        }
+      ],
+      "source_url": "https://en.ichiran.com/company/history.html",
+      "source_note": "一蘭公式サイト（英語版）沿革ページ"
+    },
+    {
+      "slug": "ippudo",
+      "name_ja": "一風堂",
+      "name_en": "Ippudo — tonkotsu ramen chain from Fukuoka",
+      "founded": "1985年10月16日・福岡市中央区大名（創業者・河原成美）",
+      "style": "豚骨",
+      "bridge_ja": "一風堂の白濁した豚骨スープも、博多・久留米で育まれた豚骨ラーメンの系譜に連なるとされる。",
+      "bridge_en": "Ippudo's cloudy tonkotsu broth is also said to descend from the pork-bone ramen tradition nurtured in Hakata and Kurume.",
+      "recommend": [
+        {
+          "kind": "style",
+          "value": "豚骨"
+        },
+        {
+          "kind": "item",
+          "slug": "hakata"
+        },
+        {
+          "kind": "item",
+          "slug": "kurume"
+        }
+      ],
+      "source_url": "https://www.ippudo.com/history/",
+      "source_note": "一風堂公式サイト沿革ページ（創業年・創業地は博多一風堂のWikipedia等でも確認）"
+    },
+    {
+      "slug": "tenkaippin",
+      "name_ja": "天下一品",
+      "name_en": "Tenkaippin — Kyoto's thick chicken-based \"kotteri\" ramen chain",
+      "founded": "1971年・京都市（銀閣寺周辺の屋台として創業したとされる。1975年に店舗を構え、1981年に法人化。現在の本社は滋賀県大津市）",
+      "style": "鶏がらベースの濃厚（こってり）スープ。醤油・味噌・豚骨のいずれにも分類されない独自系統",
+      "bridge_ja": "天下一品の濃厚な「こってり」スープは、京都のラーメン店に見られる、鶏ガラを強く炊き上げて濃いめに仕上げる作り方と同じ土壌から生まれたとされる。",
+      "bridge_en": "Tenkaippin's thick \"kotteri\" broth is said to share roots with Kyoto ramen's tendency toward richly boiled, chicken-bone-forward broths.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "kyoto"
+        }
+      ],
+      "source_url": "https://www.tenkaippin.co.jp/company/",
+      "source_note": "天下一品公式サイト 会社概要ページ"
+    },
+    {
+      "slug": "sugakiya",
+      "name_ja": "スガキヤ",
+      "name_en": "Sugakiya — Nagoya's inexpensive counter-style ramen chain",
+      "founded": "1946年・名古屋市（甘味処として創業。1948年からラーメンの提供を開始したとされる）",
+      "style": "豚骨白湯＋魚介だしの和風とんこつ（あっさり）",
+      "bridge_ja": "スガキヤのあっさりした和風とんこつは、名古屋・愛知で育った独自の豚骨系ラーメンとされ、同じ名古屋発の台湾ラーメンとは対照的な、優しい味づくりの系統にあたる。",
+      "bridge_en": "Sugakiya's light Japanese-style tonkotsu is a home-grown pork-bone style from Nagoya — a gentler counterpart to Nagoya's own fiery Taiwan Ramen.",
+      "recommend": [
+        {
+          "kind": "style",
+          "value": "豚骨"
+        },
+        {
+          "kind": "item",
+          "slug": "taiwan-ramen"
+        },
+        {
+          "kind": "item",
+          "slug": "hakata"
+        }
+      ],
+      "source_url": "https://www.sugakiya.co.jp/company_info/history.html",
+      "source_note": "寿がきや食品公式サイト 沿革ページ（スープの系統はスガキコシステムズ公式サイトのこだわりページでも確認）"
+    },
+    {
+      "slug": "kourakuen",
+      "name_ja": "幸楽苑",
+      "name_en": "Kourakuen — inexpensive shoyu ramen chain from Fukushima",
+      "founded": "1954年9月22日・福島県会津若松市（「味よし食堂」として創業、創業者・新井田司。1967年に「幸楽苑」へ改称。現在の本社は同県郡山市）",
+      "style": "醤油（中華そば）",
+      "bridge_ja": "幸楽苑の醤油ラーメンは、創業地・会津の塩ラーメンや、同じ福島県の喜多方・郡山で育ったご当地ラーメンと地続きの土地の味とされる。",
+      "bridge_en": "Kourakuen's soy ramen shares its home ground with the salt ramen of Aizu, where the chain began, and with Fukushima's own Kitakata and Koriyama styles.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "aizu-yamajio"
+        },
+        {
+          "kind": "item",
+          "slug": "kitakata"
+        },
+        {
+          "kind": "item",
+          "slug": "koriyama-black"
+        }
+      ],
+      "source_url": "https://hd.kourakuen.co.jp/company/history",
+      "source_note": "幸楽苑ホールディングス公式サイト 沿革ページ"
+    },
+    {
+      "slug": "hidakaya",
+      "name_ja": "日高屋",
+      "name_en": "Hidakaya — low-price shoyu ramen and Chinese diner chain from Saitama",
+      "founded": "1973年・埼玉県大宮市（「来来軒」として創業。1997年10月に中華食堂「日高屋」1号店を浦和常盤に開店）",
+      "style": "醤油（中華そば）",
+      "bridge_ja": "日高屋の醤油中華そばは、鶏ガラと煮干しを軸にした、東京の中華そばと同じ系統の味とされる。",
+      "bridge_en": "Hidakaya's soy chuka soba follows the same chicken-and-dried-fish lineage as Tokyo's classic chuka soba.",
+      "recommend": [
+        {
+          "kind": "style",
+          "value": "醤油"
+        },
+        {
+          "kind": "item",
+          "slug": "tokyo"
+        },
+        {
+          "kind": "item",
+          "slug": "hachioji"
+        }
+      ],
+      "source_url": "https://hidakaya.hiday.co.jp/co/history.html",
+      "source_note": "ハイデイ日高（日高屋）公式サイト 沿革ページ"
+    },
+    {
+      "slug": "yamaokaya",
+      "name_ja": "山岡家（ラーメン山岡家）",
+      "name_en": "Yamaokaya — tonkotsu ramen chain born in Ibaraki, now headquartered in Sapporo",
+      "founded": "1988年9月・茨城県牛久市（運営は丸千代山岡家。1992年に北海道へ進出し、現在の本社は札幌市）",
+      "style": "豚骨",
+      "bridge_ja": "山岡家のじっくり煮込んだ豚骨スープは、九州の豚骨ラーメンと同じ系統の濃厚な味づくりとされる。",
+      "bridge_en": "Yamaokaya's long-simmered pork-bone broth follows the same rich tonkotsu tradition found in Kyushu ramen.",
+      "recommend": [
+        {
+          "kind": "style",
+          "value": "豚骨"
+        },
+        {
+          "kind": "item",
+          "slug": "hakata"
+        },
+        {
+          "kind": "item",
+          "slug": "kumamoto"
+        }
+      ],
+      "source_url": "https://maruchiyo.yamaokaya.com/company/history/",
+      "source_note": "丸千代山岡家公式サイト 沿革ページ"
+    },
+    {
+      "slug": "rairaitei",
+      "name_ja": "来来亭",
+      "name_en": "Rairaitei — Kyoto-style shoyu ramen chain from Shiga",
+      "founded": "1997年3月・滋賀県野洲市（創業者・豆田敏典。京都の老舗「第一旭」で修業したとされる）",
+      "style": "京都風醤油＋背脂",
+      "bridge_ja": "来来亭の背脂を効かせた醤油スープは、修業先である京都のラーメンの濃いめの味づくりを受け継いだとされる。",
+      "bridge_en": "Rairaitei's back-fat-laced soy broth is said to carry on the rich style the founder learned in Kyoto.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "kyoto"
+        }
+      ],
+      "source_url": "https://www.rairaitei.co.jp/company/",
+      "source_note": "来来亭公式サイト 会社概要ページ"
+    },
+    {
+      "slug": "kurumaya-ramen",
+      "name_ja": "くるまやラーメン",
+      "name_en": "Kurumaya Ramen — miso ramen chain born from a converted tour bus in Tokyo",
+      "founded": "1970年・東京都足立区（国道4号沿いに観光バスを改造した店舗として開業。前身のうどん・そば店は1968年に開業）",
+      "style": "味噌",
+      "bridge_ja": "くるまやラーメンの看板である味噌ラーメンは、味噌をベースにしたご当地ラーメンの系統に連なるとされる。",
+      "bridge_en": "Kurumaya's signature miso ramen sits in the same broad family as Japan's regional miso-based ramen styles.",
+      "recommend": [
+        {
+          "kind": "style",
+          "value": "味噌"
+        },
+        {
+          "kind": "item",
+          "slug": "sapporo"
+        },
+        {
+          "kind": "item",
+          "slug": "akayu-karamiso"
+        }
+      ],
+      "source_url": "https://www.kurumayaramen.co.jp/profile.htm",
+      "source_note": "くるまやラーメン公式サイト 会社案内ページ"
+    },
+    {
+      "slug": "gyoza-no-ohsho",
+      "name_ja": "餃子の王将",
+      "name_en": "Gyoza no Ohsho — Kyoto-founded Chinese diner chain, known primarily for gyoza",
+      "founded": "1967年12月24日・京都市中京区四条大宮（創業者・加藤朝雄）",
+      "style": "醤油（中華そば。ラーメン専業ではなく餃子・中華料理が主力メニュー）",
+      "bridge_ja": "王将の中華そばは京都で生まれた醤油ラーメンの流れをくむ一杯とされるが、王将自体はラーメン専業チェーンではなく餃子・中華料理を主力とする点に留意したい。",
+      "bridge_en": "Ohsho's chuka soba draws on Kyoto's soy-ramen lineage, though the chain itself is built around gyoza and Chinese diner food rather than ramen specifically.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "kyoto"
+        }
+      ],
+      "source_url": "https://recruit.ohsho.co.jp/company/history.html",
+      "source_note": "王将フードサービス採用サイト 沿革ページ（中華そばメニューはohsho.co.jp公式メニューページでも確認）"
+    },
+    {
+      "slug": "ringer-hut",
+      "name_ja": "リンガーハット",
+      "name_en": "Ringer Hut — Nagasaki champon chain (not a ramen chain)",
+      "founded": "1962年・長崎市（とんかつ店「浜勝」として創業）。1974年に長崎市宿町で「長崎ちゃんめん」を開店し、1977年に「リンガーハット」へ改称",
+      "style": "ちゃんぽん（ラーメンとは別ジャンルの中華麺料理）",
+      "bridge_ja": "リンガーハットの主力はちゃんぽんで、豚骨・醤油といったラーメンの系統とは別の麺料理にあたる。そのちゃんぽんは、長崎で生まれて全国に広まったものとされる。",
+      "bridge_en": "Ringer Hut's core dish is champon — a noodle dish distinct from ramen — said to have been born in Nagasaki before spreading nationwide.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "nagasaki-champon"
+        }
+      ],
+      "source_url": "https://www.ringerhut.co.jp/corporate/history/",
+      "source_note": "リンガーハット公式サイト 沿革ページ"
+    }
+  ]
+}

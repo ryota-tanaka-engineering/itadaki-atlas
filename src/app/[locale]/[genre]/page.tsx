@@ -6,6 +6,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { CoverHeader } from "@/components/CoverHeader";
 import { buttonVariants } from "@/components/ui/button";
 import {
+  fetchChainsForGenre,
   fetchGenre,
   fetchGenreItems,
   fetchShelf,
@@ -16,6 +17,7 @@ import {
   type Locale,
   type Shelf,
 } from "@/features/map/queries";
+import { ChainBridgeSection } from "@/features/map/ChainBridgeSection";
 import { PIN_STROKE, PRIMARY_STYLES, styleColor } from "@/features/map/styles";
 import { localeAlternates } from "@/lib/seo";
 import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
@@ -88,11 +90,15 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
   const t = await getTranslations("genre");
   const ts = await getTranslations("style");
   const tp = await getTranslations("prefecture");
-  const items = await fetchGenreItems(genreSlug, locale as Locale);
+  const [items, chains] = await Promise.all([
+    fetchGenreItems(genreSlug, locale as Locale),
+    fetchChainsForGenre(genreSlug),
+  ]);
   const geo = items.filter((i) => i.lat !== null);
   const nonGeo = items.filter((i) => i.lat === null);
   const isJa = locale === "ja";
   const name = isJa ? g.nameJa : g.nameEn;
+  const intro = isJa ? g.introJa : g.introEn;
 
   // 系統ごとにグルーピング（存在する系統だけが出る）
   const byStyle = PRIMARY_STYLES.map((style) => ({
@@ -112,6 +118,9 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
       </div>
 
       <div className="px-4 pt-8 md:px-0">
+        {/* 国民食型ジャンルの総論（未投入なら null。データが入れば自動で現れる） */}
+        {intro && <p className="text-muted-foreground mb-8 leading-relaxed">{intro}</p>}
+
         {/* 系統チップ（ラーメンのみ・系統色。他ジャンルは系統を持たないため出ない） */}
         {byStyle.length > 0 && (
           <nav aria-label={t("styleNavLabel")} className="mb-8 flex flex-wrap gap-2">
@@ -206,6 +215,14 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
             {t("mapCta", { name })}
           </Link>
         </p>
+
+        {/* チェーンから、ご当地へ（chains.genre_slug が一致するチェーンがあるジャンルのみ） */}
+        <ChainBridgeSection
+          heading={t("chainsHeading")}
+          intro={t("chainsIntro")}
+          chains={chains}
+          locale={locale}
+        />
 
         {/* 地域から探す（この genre のデータがある県だけが自然に並ぶ） */}
         {geo.length > 0 && (

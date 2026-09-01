@@ -124,7 +124,9 @@
     "regional": "Regional varieties",
     "titleIngredient": "{name} — brands and regions",
     "styleNavLabel": "Jump to style",
-    "shelfSiblingsTitle": "More from this shelf"
+    "shelfSiblingsTitle": "More from this shelf",
+    "chainsHeading": "Know these chains? Meet the regional originals",
+    "chainsIntro": "The flavors of major chains often trace back to a regional style of their own."
   },
   "region": {
     "title": "What to eat in {pref}",
@@ -133,7 +135,8 @@
     "groupTitle": {
       "dish": "Born here",
       "ingredient": "Raised here",
-      "preparation": "Prepared here"
+      "preparation": "Prepared here",
+      "honba": "Renowned here"
     },
     "neighborsTitle": "Neighboring regions"
   },
@@ -187,7 +190,8 @@
   "regionRelation": {
     "発祥": "Origin",
     "名産地": "Renowned source",
-    "主要提供圏": "Widely served"
+    "主要提供圏": "Widely served",
+    "本場": "Renowned for"
   },
   "about": {
     "title": "About Itadaki Atlas",
