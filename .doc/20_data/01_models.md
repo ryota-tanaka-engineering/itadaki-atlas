@@ -103,6 +103,7 @@ erDiagram
 | `type` | text | `dish` \| `ingredient` |
 | `sort_order` | int | |
 | `default_source` | text | ジャンル共通の出典 |
+| `intro_ja` / `intro_en` | text | **NULL可**。国民食型ジャンル（寿司など）の総論。あるジャンルだけヒーロー下に描画される（`ia-atlas-content` Skill §2.4） |
 
 ### 3.5 `dish_details` — dish型の詳細（フェーズ2で本格使用）
 
@@ -127,13 +128,17 @@ erDiagram
 | `food_item_id` | uuid | FK |
 | `pref` / `city` | text | |
 | `lat` / `lng` | double precision | |
-| `relation_type` | text | `発祥` \| `名産地` \| `主要提供圏` |
+| `relation_type` | text | `発祥` \| `名産地` \| `主要提供圏` \| `本場` |
+| `note_ja` / `note_en` | text | **NULL可**。`本場` では必須＝「構造的理由の一文」（`ia-atlas-content` Skill §2.4）。詳細・地域ページに表示される |
 | `is_representative` | boolean | **代表名物フラグ（フェーズ2）** |
 
 1アイテムが複数の地域と異なる関係を持つ場合を表現する。
 
 - 讃岐うどん = 発祥:香川 + 主要提供圏:全国
 - マグロ = 複数の名産地（大間 / 那智勝浦 / 三崎）
+- 海鮮丼（国民食型・発祥ピンなし）= 複数の本場（釧路 / 小樽 / 函館 / 金沢）
+
+`本場`の意味・編集要件・表示方針は `ia-atlas-content` Skill §2.4 が正。`source_url` 付きで投入すると `food_item_sources` にも記録される（`scripts/import-regions.ts`）。
 
 **代表名物フラグ**は「秋田＝きりたんぽ」のような看板アイテムを地域ページ冒頭・県タップ時に最優先表示するためのもの。県レベルとエリアレベルで代表が変わる（石川県 / 金沢 / 能登）ため、`food_items` ではなく本テーブル側に持たせる。
 
@@ -158,6 +163,22 @@ erDiagram
 | `sponsored_until` | date | 広告枠の掲載期限 |
 
 `sponsored` は**ページ最上部の1枠限定 + 「PR」表記を必須表示**する。編集掲載（元祖店）とは別枠として扱い、中立性を保つ（`.doc/00_concept/01_north_star.md` §2）。
+
+### 3.9 `chains` / `chain_recommendations` — チェーン橋渡し
+
+企業単一ブランドは図鑑アイテム（`food_items`）にしない原則のまま、有名チェーンを「このチェーンの味が好きなら、この系統・ご当地へ」という入口装置として別枠で持つ（`ia-atlas-content` Skill §3）。
+
+| カラム（chains） | 型 | 内容 |
+| :--- | :--- | :--- |
+| `slug` | text | UNIQUE |
+| `name_ja` / `name_en` | text | |
+| `style_ja` / `style_en` | text | 味の系統（説明的でよい） |
+| `bridge_ja` / `bridge_en` | text | 橋渡しの一文（事実ベース・断定しない・優劣なし） |
+| `genre_slug` | text | セクションを出すジャンル（データ駆動。ジャンル固有のハードコードをしない） |
+| `pref_limited` | text | **NULL可**。地域限定チェーン（静岡のさわやか等）の都道府県。該当地域ページにも出す（将来） |
+| `source_url` / `source_note` | text | 内部検証用。**UI非表示** |
+
+`chain_recommendations` は `chain_id` → `food_item_id` の推薦リンク（表示はアイテムリンクのみ。系統レベルの推薦は bridge 文が担う）。投入は `data/chains.json` → `scripts/import-chains.ts`。チェーンのロゴ・画像は使わない（商標。テキストのみ）。
 
 ## 4. 粒度の方針
 
