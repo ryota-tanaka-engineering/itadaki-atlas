@@ -130,6 +130,71 @@ test.describe("F-01 ディフォルメ地図", () => {
   });
 });
 
+test.describe("トップ操作体系の作り直し（2026-09。本番体験レビュー対応）", () => {
+  test("ジャンルをタップすると地図と索引がそのジャンルに絞り込まれ、チップの✕で解除できる", async ({
+    page,
+  }) => {
+    // 「ラーメンを押したら地図に反映されないで一覧にしか出ない」への対処。
+    // ジャンルチップはジャンルページへ遷移するリンクではなく、地図の絞り込みボタンになった。
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+
+    await sheet.getByRole("button", { name: "ラーメン", exact: true }).click();
+
+    // 絞り込みチップが件数付きで地図上に出る
+    const chip = page.getByRole("button", { name: "ラーメンの絞り込みを解除" });
+    await expect(chip).toBeVisible();
+    await expect(chip).toContainText(/ラーメン\d+件/);
+
+    // 単一ジャンル絞り込み中は実座標地図で系統凡例が出る（ラーメン内部の識別軸。
+    // ディフォルメ地図オーバーレイの下では隠れる既存仕様のため、県を選んで切り替える）
+    const deformed = page.getByRole("group", { name: /ディフォルメ地図/ });
+    await deformed.getByRole("button", { name: /^福島県 \d+件/ }).click();
+    await expect(deformed).toBeHidden();
+    await expect(page.getByText("醤油", { exact: true })).toBeVisible();
+
+    // シートを開くと索引もジャンルに絞られている（焼き鳥は出ない）
+    await page.getByRole("button", { name: /シートを次の段階へ/ }).click();
+    await expect(sheet.getByRole("button", { name: /札幌ラーメン/ })).toBeVisible();
+    await expect(sheet.getByText("室蘭やきとり")).toHaveCount(0);
+
+    // ジャンルの一覧ページへの導線もシート内に残る（遷移を消さず主従を逆にする）
+    await expect(sheet.getByRole("link", { name: "ラーメンの一覧へ" })).toBeVisible();
+
+    // ✕で解除すると絞り込みが消え、地図が全件に戻る
+    await chip.click();
+    await expect(chip).toHaveCount(0);
+  });
+
+  test("シートのヘッダー行をタップすると次の段階へ展開する（ドラッグ不要）", async ({ page }) => {
+    // 「メニューが押しながら引っ張らないと出てこない」への対処。
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+
+    // ハンドルの当たり判定は高さ44px以上に拡大されている
+    const handle = page.getByRole("button", { name: /シートを次の段階へ/ });
+    const box = await handle.boundingBox();
+    expect(box?.height ?? 0).toBeGreaterThanOrEqual(44);
+
+    // ヘッダー行（つまみ直下の要約表示）をタップするだけでも次の段階へ展開できる
+    await sheet.getByRole("heading", { name: /日本の食を、地図から/ }).click();
+    await expect(sheet.getByRole("tablist", { name: "索引の並び順" })).toBeVisible();
+  });
+
+  test("初期ピーク状態で検索バーと3カードの見出しがドラッグ無しで見える（SP 390x844）", async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+
+    await expect(page.getByPlaceholder("料理・食材・土地でさがす")).toBeVisible();
+    await expect(sheet.getByText("土地からさがす")).toBeVisible();
+    await expect(sheet.getByText("種類からさがす")).toBeVisible();
+    await expect(sheet.getByText("興味からさがす")).toBeVisible();
+  });
+});
+
 test.describe("F-05 言語切り替え / F-08 SEO", () => {
   test("/ は既定ロケールへ送られ、自動言語判定によるリダイレクトはしない", async ({ page }) => {
     // Accept-Language が英語でも /ja に送られる（Platform 10_growth_infra.md §3.2）
@@ -297,14 +362,14 @@ test.describe("マルチジャンル（2ジャンル目はデータ投入のみ�
 
   test("トップの「種類からさがす」に自動で増える", async ({ page }) => {
     // 2026-08 デザイン確定でジャンルチップは共通ヘッダー配下ではなく、
-    // ボトムシート内「種類からさがす」カードに移設された。シートを開いて確認する。
+    // ボトムシート内「種類からさがす」カードに移設された。
+    // 2026-09: 初期ピーク状態のまま3カードが見える高さに変わったため、
+    // シートを開く操作は不要（「押しながら引っ張らないと出てこない」への対処）。
+    // ジャンルチップはジャンルページへ遷移するリンクではなく、地図の絞り込みボタンになった。
     await page.goto("/ja");
-    const toggle = page.getByRole("button", { name: /シートを次の段階へ/ });
-    await toggle.click();
-    await toggle.click();
     const sheet = page.getByRole("dialog");
-    await expect(sheet.getByRole("link", { name: "ラーメン" })).toBeVisible();
-    await expect(sheet.getByRole("link", { name: "焼き鳥" })).toBeVisible();
+    await expect(sheet.getByRole("button", { name: "ラーメン", exact: true })).toBeVisible();
+    await expect(sheet.getByRole("button", { name: "焼き鳥", exact: true })).toBeVisible();
   });
 });
 

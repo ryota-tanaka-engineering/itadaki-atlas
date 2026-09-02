@@ -6,7 +6,6 @@ import { Search } from "lucide-react";
 
 import { Link } from "@/i18n/navigation";
 import { Input } from "@/components/ui/input";
-import { buttonVariants } from "@/components/ui/button";
 
 import { MapView } from "@/features/map/MapView";
 import { mapPinKey } from "@/features/map/pinKey";
@@ -49,6 +48,10 @@ export function BrowseShell({
   const [snap, setSnap] = useState<Snap>("peak");
   const [axis, setAxis] = useState<Axis>("kana");
   const [vh, setVh] = useState(0);
+  // ジャンル絞り込み（2026-09 トップ操作体系の作り直し）。
+  // トップは地図が主役という確定設計に沿い、種類選択はジャンルページへの遷移ではなく
+  // まず地図の絞り込みに反映する（作業パッケージ「トップ操作体系の作り直し」§1）。
+  const [genreFilter, setGenreFilter] = useState<string | null>(null);
   // 全国俯瞰ではディフォルメ地図、県を選ぶと実座標地図に切り替える
   // （.doc/30_features/02_ui_ux.md §3）。
   // 地図のズーム値を観測して自動判定する設計は、初期カメラ設定でイベントが
@@ -78,6 +81,23 @@ export function BrowseShell({
     [mapPins, selectedSlug],
   );
 
+  // ジャンル絞り込み中の表示データ（地図・索引・ディフォルメ地図で共有）。
+  // 本場ピンも item.genreSlug で判定するため、絞り込み時は発祥/本場を問わず揃って絞られる。
+  const filteredGenre = useMemo(
+    () => (genreFilter ? (genres.find((g) => g.slug === genreFilter) ?? null) : null),
+    [genres, genreFilter],
+  );
+  const visibleItems = useMemo(
+    () => (genreFilter ? items.filter((i) => i.genreSlug === genreFilter) : items),
+    [items, genreFilter],
+  );
+  const visiblePins = useMemo(
+    () => (genreFilter ? mapPins.filter((i) => i.genreSlug === genreFilter) : mapPins),
+    [mapPins, genreFilter],
+  );
+  // 系統凡例は「ラーメン内部・単一ジャンル絞り込み時のみ」（CLAUDE.md「デザイン」節）。
+  const showStyleLegend = Boolean(genreFilter) && visiblePins.some((i) => i.primaryStyle !== null);
+
   // ピンをタップしたら、地図を隠さないピーク位置でカードを見せる
   const handleSelectFromMap = useCallback((slug: string | null) => {
     setSelectedSlug(slug);
@@ -96,6 +116,19 @@ export function BrowseShell({
     setView("geographic");
   }, []);
 
+  // ジャンルをタップしたら地図をそのジャンルに絞り込み、ピーク位置に戻して
+  // 「触ったら反映される」を地図で即座に見せる（本番体験レビューで指摘された、
+  // ジャンル選択が地図に反映されない問題への対処）。
+  const handleSelectGenre = useCallback((slug: string) => {
+    setGenreFilter(slug);
+    setSelectedSlug(null);
+    setSnap("peak");
+  }, []);
+
+  const handleClearGenreFilter = useCallback(() => {
+    setGenreFilter(null);
+  }, []);
+
   // 地図を寄せる際の下端余白。シートに隠れない位置に選択地点を置く。
   const bottomInset = vh === 0 ? 0 : Math.max(0, vh - snapOffset(snap, vh));
 
@@ -104,18 +137,19 @@ export function BrowseShell({
   return (
     <div className="fixed inset-0 overflow-hidden">
       <MapView
-        items={mapPins}
+        items={visiblePins}
         selectedSlug={selectedSlug}
         onSelect={handleSelectFromMap}
         bottomInset={bottomInset}
         focus={focus}
+        showLegend={showStyleLegend}
       />
 
       {/* 実座標地図は生かしたまま上に被せる。切り替えで地図を作り直さない。 */}
       {showDeformed && (
         <div className="bg-background/95 absolute inset-0 z-10 backdrop-blur-[1px]">
           <DeformedMap
-            items={mapPins}
+            items={visiblePins}
             onSelectPrefecture={handleSelectPrefecture}
             bottomInset={bottomInset}
           />
@@ -133,6 +167,32 @@ export function BrowseShell({
         >
           {t("backToNational")}
         </button>
+      )}
+
+      {/* ジャンル絞り込み中チップ（本番体験レビュー: 「押したら地図に反映されない」への対処）。
+          デフォルメ地図オーバーレイより後ろに置かず、常に見える位置（地図上・z-10で
+          デフォルメ地図と同層だがDOM順で後勝ちにする）に出す。 */}
+      {filteredGenre && (
+        <div className="pointer-events-none absolute inset-x-0 top-16 z-10 flex justify-center px-4">
+          <button
+            type="button"
+            onClick={handleClearGenreFilter}
+            aria-label={t("genreFilterClear", {
+              name: locale === "ja" ? filteredGenre.nameJa : filteredGenre.nameEn,
+            })}
+            className="border-border bg-background/95 text-foreground pointer-events-auto flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm shadow-sm backdrop-blur"
+          >
+            <span aria-hidden>
+              {locale === "ja" ? filteredGenre.nameJa : filteredGenre.nameEn}
+              <span className="text-muted-foreground ml-1">
+                {t("count", { count: visibleItems.length })}
+              </span>
+            </span>
+            <span aria-hidden className="text-muted-foreground">
+              ✕
+            </span>
+          </button>
+        </div>
       )}
 
       <BottomSheet
@@ -251,18 +311,39 @@ export function BrowseShell({
                   </span>
                   <span className="text-sm font-semibold">{t("entryTypeTitle")}</span>
                 </div>
+                {/* タップで地図の絞り込みに反映する（ジャンルページへは遷移しない。
+                    遷移導線は下の「◯◯の一覧へ」リンクに主従を逆転して残す）。 */}
                 <ul className="flex flex-wrap gap-1">
-                  {genres.map((g) => (
-                    <li key={g.slug}>
-                      <Link
-                        href={`/${g.slug}`}
-                        className={buttonVariants({ variant: "outline", size: "xs" })}
-                      >
-                        {locale === "ja" ? g.nameJa : g.nameEn}
-                      </Link>
-                    </li>
-                  ))}
+                  {genres.map((g) => {
+                    const active = g.slug === genreFilter;
+                    return (
+                      <li key={g.slug}>
+                        <button
+                          type="button"
+                          onClick={() => handleSelectGenre(g.slug)}
+                          aria-pressed={active}
+                          className={`rounded-full px-2.5 py-1 text-xs transition-colors ${
+                            active
+                              ? "bg-primary text-primary-foreground"
+                              : "border-border bg-background hover:bg-muted/60 border"
+                          }`}
+                        >
+                          {locale === "ja" ? g.nameJa : g.nameEn}
+                        </button>
+                      </li>
+                    );
+                  })}
                 </ul>
+                {filteredGenre && (
+                  <Link
+                    href={`/${filteredGenre.slug}`}
+                    className="text-primary mt-1.5 inline-block text-xs underline underline-offset-2"
+                  >
+                    {t("genreViewAllLink", {
+                      name: locale === "ja" ? filteredGenre.nameJa : filteredGenre.nameEn,
+                    })}
+                  </Link>
+                )}
               </div>
 
               <Link
@@ -287,7 +368,7 @@ export function BrowseShell({
             </p>
 
             <IndexList
-              items={items}
+              items={visibleItems}
               axis={axis}
               onAxisChange={setAxis}
               selectedSlug={selectedSlug}

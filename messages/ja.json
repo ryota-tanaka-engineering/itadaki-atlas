@@ -33,7 +33,9 @@
     "entryTypeTitle": "種類からさがす",
     "entryInterestTitle": "興味からさがす",
     "entryInterestHint": "タグで探せます",
-    "aboutLink": "このサイトについて"
+    "aboutLink": "このサイトについて",
+    "genreFilterClear": "{name}の絞り込みを解除",
+    "genreViewAllLink": "{name}の一覧へ"
   },
   "item": {
     "origin": "発祥",

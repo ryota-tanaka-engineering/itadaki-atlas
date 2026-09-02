@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import * as maplibregl from "maplibre-gl";
 import { Protocol } from "pmtiles";
@@ -114,6 +114,8 @@ type Props = {
   bottomInset: number;
   /** ディフォルメ地図で県を選んだとき、その県の範囲へ寄せる（seq は再選択の識別用） */
   focus: { pref: string; seq: number } | null;
+  /** 系統凡例の表示可否（ラーメン内部・単一ジャンル絞り込み時のみ。CLAUDE.md「デザイン」節）。 */
+  showLegend: boolean;
 };
 
 export function MapView({
@@ -122,12 +124,17 @@ export function MapView({
   onSelect,
   bottomInset,
   focus,
+  showLegend,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const label = useMasterLabels();
   const t = useTranslations("browse");
   const tRegion = useTranslations("regionRelation");
+  // WebGL コンテキスト喪失（実機での「触ってたら地図が消えた」報告への防御。
+  // iOS Safari はメモリ圧迫時に WebGL コンテキストを強制破棄することがある）に遭遇したら
+  // このキーを進めて地図コンポーネントを丸ごと作り直す（コンテナDOM+Mapインスタンス）。
+  const [mapGeneration, setMapGeneration] = useState(0);
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return;
@@ -166,11 +173,40 @@ export function MapView({
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
     mapRef.current = map;
 
+    // WebGL コンテキスト喪失への対処。ブラウザの既定動作（コンテキストを破棄したまま
+    // 二度と使わない）を止めて復元を試みつつ、一定時間内に復元イベントが来なければ
+    // 地図ごと作り直すフォールバックに落とす（確実な再現が無くても入れる防御コード）。
+    const canvas = map.getCanvas();
+    let restoreTimeout: ReturnType<typeof setTimeout> | null = null;
+    const handleContextLost = (e: Event) => {
+      e.preventDefault();
+      console.error("maplibre: WebGL context lost");
+      if (restoreTimeout) clearTimeout(restoreTimeout);
+      restoreTimeout = setTimeout(() => {
+        console.error("maplibre: context not restored in time, remounting map");
+        setMapGeneration((g) => g + 1);
+      }, 3000);
+    };
+    const handleContextRestored = () => {
+      console.info("maplibre: WebGL context restored");
+      if (restoreTimeout) {
+        clearTimeout(restoreTimeout);
+        restoreTimeout = null;
+      }
+    };
+    canvas.addEventListener("webglcontextlost", handleContextLost, false);
+    canvas.addEventListener("webglcontextrestored", handleContextRestored, false);
+
     return () => {
+      canvas.removeEventListener("webglcontextlost", handleContextLost);
+      canvas.removeEventListener("webglcontextrestored", handleContextRestored);
+      if (restoreTimeout) clearTimeout(restoreTimeout);
       map.remove();
       mapRef.current = null;
     };
-  }, []);
+    // mapGeneration の変化でこの effect を再実行し、コンテナDOM（key指定）+ Mapインスタンスの
+    // 両方を作り直す。
+  }, [mapGeneration]);
 
   // ピンの描画。選択状態も生成時に反映する。
   // ref に要素を溜めて後から書き換える設計は、レンダーと DOM の状態が二重管理になり
@@ -234,7 +270,8 @@ export function MapView({
     return () => {
       for (const m of markers) m.remove();
     };
-  }, [items, selectedSlug, onSelect, tRegion]);
+    // mapGeneration も依存に含め、WebGLコンテキスト喪失で地図を作り直した後もピンを再描画する。
+  }, [items, selectedSlug, onSelect, tRegion, mapGeneration]);
 
   // ディフォルメ地図で選ばれた県の範囲へ寄せる
   useEffect(() => {
@@ -256,7 +293,7 @@ export function MapView({
       maxZoom: 9,
       duration: 600,
     });
-  }, [focus, items, bottomInset]);
+  }, [focus, items, bottomInset, mapGeneration]);
 
   // 選択地点への寄せ
   useEffect(() => {
@@ -271,30 +308,35 @@ export function MapView({
       padding: { top: 0, right: 0, bottom: bottomInset, left: 0 },
       duration: 500,
     });
-  }, [selectedSlug, items, bottomInset]);
+  }, [selectedSlug, items, bottomInset, mapGeneration]);
 
   return (
     <div className="absolute inset-0">
       {/* MapLibre の CSS が .maplibregl-map に position:relative を当てるため、
-          absolute inset-0 で高さを取ろうとすると 0 になる。明示的にサイズを与える。 */}
-      <div ref={containerRef} className="h-full w-full" />
+          absolute inset-0 で高さを取ろうとすると 0 になる。明示的にサイズを与える。
+          key={mapGeneration} で WebGL コンテキスト喪失時にコンテナDOMごと作り直す。 */}
+      <div key={mapGeneration} ref={containerRef} className="h-full w-full" />
 
-      {/* 凡例。色だけに依存させないため系統名を必ず併記する */}
-      <div className="bg-background/90 pointer-events-none absolute top-16 left-4 z-10 rounded-lg p-3 text-xs shadow-sm backdrop-blur">
-        <p className="mb-2 font-semibold">{t("legend")}</p>
-        <ul className="space-y-1">
-          {PRIMARY_STYLES.map((s) => (
-            <li key={s} className="flex items-center gap-2">
-              <span
-                aria-hidden
-                className="inline-block size-3 rounded-full border"
-                style={{ backgroundColor: STYLE_COLORS[s], borderColor: PIN_STROKE }}
-              />
-              {label.style(s)}
-            </li>
-          ))}
-        </ul>
-      </div>
+      {/* 凡例。単一ジャンル絞り込み中（=系統がラーメン内部の識別軸として意味を持つとき）のみ出す
+          （CLAUDE.md「デザイン」節。系統色はラーメン内部・単一ジャンル時のみの識別軸）。
+          色だけに依存させないため系統名を必ず併記する */}
+      {showLegend && (
+        <div className="bg-background/90 pointer-events-none absolute top-16 left-4 z-10 rounded-lg p-3 text-xs shadow-sm backdrop-blur">
+          <p className="mb-2 font-semibold">{t("legend")}</p>
+          <ul className="space-y-1">
+            {PRIMARY_STYLES.map((s) => (
+              <li key={s} className="flex items-center gap-2">
+                <span
+                  aria-hidden
+                  className="inline-block size-3 rounded-full border"
+                  style={{ backgroundColor: STYLE_COLORS[s], borderColor: PIN_STROKE }}
+                />
+                {label.style(s)}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
     </div>
   );
 }

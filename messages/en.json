@@ -33,7 +33,9 @@
     "entryTypeTitle": "Browse by type",
     "entryInterestTitle": "Browse by interest",
     "entryInterestHint": "Explore by tag",
-    "aboutLink": "About this site"
+    "aboutLink": "About this site",
+    "genreFilterClear": "Clear the {name} filter",
+    "genreViewAllLink": "View all {name}"
   },
   "item": {
     "origin": "Origin",

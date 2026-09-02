@@ -19,9 +19,15 @@ export type Snap = "peak" | "half" | "full";
 
 export const SNAPS: Snap[] = ["peak", "half", "full"];
 
-/** 各スナップでの「シート上端の位置」を viewport 高さに対する比率で持つ。 */
+/**
+ * 各スナップでの「シート上端の位置」を viewport 高さに対する比率で持つ。
+ *
+ * peak は「押しながら引っ張らないと出てこない」（本番体験レビュー）への対処として
+ * 0.88→0.62に引き上げた。初期表示（SP 390x844基準）で検索バーと3カード（土地/種類/興味）
+ * の見出しがドラッグ無しで見える高さを確保する（作業パッケージ「トップ操作体系の作り直し」§2）。
+ */
 const SNAP_RATIO: Record<Snap, number> = {
-  peak: 0.88,
+  peak: 0.62,
   half: 0.5,
   full: 0.06,
 };
@@ -108,17 +114,24 @@ export function BottomSheet({ snap, onSnapChange, peak, children, labelledBy }: 
       dragElastic={0.02}
       onDragEnd={handleDragEnd}
     >
-      {/* つまみ。キーボードでも段階を送れるようにボタンにする（F-07） */}
+      {/* つまみ。キーボードでも段階を送れるようにボタンにする（F-07）。
+          「押しながら引っ張らないと出てこない」（本番体験レビュー）への対処として、
+          当たり判定をハンドル行全体・高さ44px以上に拡大（min-h-11=44px）。 */}
       <button
         type="button"
         onClick={cycle}
         aria-label={t("sheetToggle", { snap })}
-        className="flex w-full shrink-0 cursor-grab justify-center py-3 active:cursor-grabbing"
+        className="flex min-h-11 w-full shrink-0 cursor-grab items-center justify-center active:cursor-grabbing"
       >
         <span aria-hidden className="bg-muted-foreground/40 h-1.5 w-10 rounded-full" />
       </button>
 
-      <div className="shrink-0 px-4 pb-2">{peak}</div>
+      {/* ヘッダー行（つまみ直下の要約表示）もタップで次の段階へ展開できるようにする。
+          内部は見出しテキストのみでインタラクティブ要素を持たないため、クリックの
+          利便性向上として div に直接ハンドラを付ける（アクセシブルな操作手段は上のボタン）。 */}
+      <div onClick={cycle} className="shrink-0 cursor-pointer px-4 pb-2">
+        {peak}
+      </div>
 
       <div
         ref={scrollRef}
