@@ -345,8 +345,9 @@ test.describe("詳細ページの本文（目次・章。2026-08 デザイン確
   });
 
   test("body_md が無いアイテムは目次ごと出ない", async ({ page }) => {
-    // hakata には本文Markdownを投入していない（Tier1のまま）
-    await page.goto("/ja/ramen/hakata");
+    // 2026-09 ラーメン58件は全て本文投入済みになったため、未投入のうどんで検証する。
+    // うどんにも本文が入ったら別の未投入アイテムに差し替えること
+    await page.goto("/ja/udon/sanuki");
     await expect(page.locator("nav:visible", { hasText: "目次" })).toHaveCount(0);
   });
 });

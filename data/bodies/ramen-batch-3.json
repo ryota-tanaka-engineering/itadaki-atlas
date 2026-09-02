@@ -1,0 +1,382 @@
+{
+ "items": [
+  {
+   "slug": "nagaoka-shoga",
+   "body_ja": "## 何でできているか\n箸を取る前から、湯気に混じって生姜の香りが漂う。飴色に澄んだ醤油スープを一口すすると、コクの奥から生姜の辛みがじんわりと追いかけてきて、喉の奥から体温が上がっていくのが分かる。もちもちとした中太の自家製麺は生姜の風味をよく含み、噛むたびにピリッとした余韻が残る。具はチャーシュー、ネギ、ほうれん草、海苔とシンプルにまとめ、生姜の存在感を邪魔しない。\n\n## どう作るのか\n醤油の中華そばのスープに、生姜をたっぷりと溶き込むのがこの一杯の骨格とされる。もとは豚骨の臭み消しに加えていた分量を、寒い時期に体を温めてほしいという思いから増やしていったと伝わる。すりおろしと搾り汁を合わせて使う店が多く、加える量やタイミングは店ごとに違う。麺は中太のちぢれ麺を自家製する店が多く、もちもちとした食感がしっかりした醤油スープを持ち上げる。\n\n## なぜこの形になったのか\n新潟県長岡市は日本有数の豪雪地帯で、冬は雪に閉ざされる日が続く。一説によると、昭和30年代の中華そば屋が、冷えた体をもっと温めてもらいたいと生姜の量を増やしていったのがこの一杯のはじまりという。生姜が持つ発汗を促す性質は、雪国で暮らす体にとって理にかなった選択だった。飴色の濃い醤油と生姜の辛みは、雪に耐える街が積み重ねてきた工夫の跡として読める。",
+   "body_en": "## What it's made of\nSteam carries the scent of ginger before the bowl even reaches the table. The amber soy broth opens with savory depth, then ginger's heat trails right behind it, warming the throat on the way down. The house-made noodles are thick, chewy, and wavy, holding a bite of ginger in every mouthful. Char siu, scallions, spinach, and nori keep the toppings simple so nothing competes with the ginger.\n\n## How it's made\nThe backbone of this bowl is soy broth worked through with a generous dose of ginger. What began as a way to mask the smell of pork bone is said to have grown heavier-handed over time, driven by a wish to warm diners through in the cold. Shops typically blend grated ginger with its pressed juice, and how much goes in — and when — varies from kitchen to kitchen. The thick, wavy noodles are usually house-made, their chew built to carry a broth this assertive.\n\n## Why it took this shape\nNagaoka sits in one of Japan's heaviest snowfall belts, where winter closes in for months at a time. As the story is told, a soy-broth noodle shop in the 1950s or 60s kept adding more ginger, wanting to send customers back out into the cold properly warmed. Ginger's own heat-inducing property made it a fitting choice for bodies built for snow country. The deep amber broth and its ginger bite read as a town's accumulated answer to winters that don't let up.",
+   "sources": [
+    {
+     "url": "https://ja.wikipedia.org/wiki/長岡生姜醤油ラーメン",
+     "title": "長岡生姜醤油ラーメン",
+     "publisher": "Wikipedia",
+     "status_checked": 200
+    },
+    {
+     "url": "https://howtoniigata.jp/article/jimoto/38024/",
+     "title": "長岡生姜醤油ラーメン 新潟ラーメン伝道師が選んだ、体を芯から温める一杯",
+     "publisher": "新潟のつかいかた",
+     "status_checked": 200
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nagaoka-shoga",
+     "to_slug": "sakata",
+     "relation_type": "対比",
+     "basis": "同じ雪国の醤油ラーメンだが、長岡は生姜の効かせ方に、酒田は自家製麺と魚介出汁に個性を置く"
+    }
+   ]
+  },
+  {
+   "slug": "ofunato-sanma",
+   "body_ja": "## 何でできているか\n丼を覗くと、脂の乗ったさんまの香ばしさがまず鼻に届く。醤油ベースのスープに脂ごと溶け込んだ出汁は、魚の甘みとコクが前面に出て、後味に少し青魚らしい深みが残る。麺は中太のちぢれ麺を合わせる店が多く、濃いめのスープをよく持ち上げる。丼にさんまを一尾まるごと焼いて乗せる店もあれば、つみれや削り節のようにほぐして加える店もあり、同じ「さんまらーめん」でも一杯ごとに表情が違う。\n\n## どう作るのか\n店ごとに作り方が大きく違うのが、このラーメンの特徴とされる。焼いたさんまや燻したさんまを丸ごとスープに乗せる店、身をほぐしてつみれにする店、さんま節を削って出汁を取る店とやり方は様々で、統一されたレシピは存在しない。共通しているのは、大船渡の港に水揚げされたさんまを主役に据えるという一点だけで、麺の太さやスープの味付けは各店の裁量に委ねられている。\n\n## なぜこの形になったのか\n大船渡はさんまの水揚げ量が全国有数の港町で、地元の呼びかけをきっかけに2010年、市内の複数の店が一斉にさんまを使ったラーメンを出し始めたとされる。翌年の東日本大震災のあとは、港のまちが歩んできた道のりを重ねて味わう一杯として位置づけられてきた。統一レシピを持たず店ごとに調理法が違うのも、水揚げされた魚をそれぞれの店が工夫して活かしてきた港町らしいあり方の表れと読める。",
+   "body_en": "## What it's made of\nThe smell of pan-seared saury reaches you before the chopsticks do. The soy-based broth carries the fish's own rendered fat, so its sweetness and depth lead, with a faint oceanic edge lingering after. Most shops pair it with medium-thick, wavy noodles built to carry a broth this assertive. Some bowls crown the noodles with a whole grilled saury; others work the fish into a fluffy fish ball, or shave it thin like bonito flakes — no two bowls of \"sanma ramen\" look quite the same.\n\n## How it's made\nWhat defines this ramen is how much the recipe changes from shop to shop. One kitchen grills a whole saury and lays it over the noodles; another turns the flesh into fish balls; a third shaves dried saury flakes to build the stock. There's no single method. The one constant is that saury landed at Ofunato's port takes the lead role — noodle thickness and broth seasoning are left entirely to each shop's own judgment.\n\n## Why it took this shape\nOfunato is one of Japan's leading saury-landing ports, and the dish is said to have begun in 2010, when several shops in town began serving saury ramen together at a local call to action. After the following year's Great East Japan Earthquake, the bowl came to carry the story of a port town's road back — something eaten with that history in mind. The absence of a fixed recipe, with each shop free to work the fish its own way, reads as an extension of how a port town has always made use of whatever comes off the boats.",
+   "sources": [
+    {
+     "url": "https://www.city.ofunato.iwate.jp/ofunatrip/o-gourmet/page-33783",
+     "title": "大船渡さんまら～めん",
+     "publisher": "大船渡市",
+     "status_checked": 200
+    },
+    {
+     "url": "https://ja.wikipedia.org/wiki/大船渡さんまらーめん",
+     "title": "大船渡さんまらーめん",
+     "publisher": "Wikipedia",
+     "status_checked": 200
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ofunato-sanma",
+     "to_slug": "miyako",
+     "relation_type": "対比",
+     "basis": "同じ三陸の港町のラーメンだが、宮古は日常食として自然に根付き、大船渡は震災復興のなかで町の名物として意図的に育てられた"
+    }
+   ]
+  },
+  {
+   "slug": "onomichi",
+   "body_ja": "## 何でできているか\n澄んだ醤油スープの表面に、白い背脂の粒がびっしりと浮いている。見た目ほど脂っこくはなく、鶏ガラと瀬戸内の小魚でとった出汁の風味が先に立ち、背脂は後からコクと甘みを添えるように溶けていく。麺は平打ちの中細ちぢれ麺で、コシがありながらスープをよく吸う。具は薄切りのチャーシュー、メンマ、青ねぎとシンプルにまとめ、レンゲですくうたびにスープと麺の対比が際立つ。\n\n## どう作るのか\n鶏ガラと瀬戸内でとれる小魚を合わせてとった澄んだ出汁に、醤油だれを合わせるのが基本とされる。仕上げに背脂のミンチを表面いっぱいに散らし、あっさりとした出汁にコクを足す。関東の背脂ラーメンのようにあらかじめ溶け込ませず、粒のまま浮かせておき、食べ進めるうちに自然に溶けていくのがこの土地の流儀という。麺は平打ちの中細ちぢれ麺を合わせ、絡みすぎない太さでスープをよく持ち上げる。\n\n## なぜこの形になったのか\n尾道は坂と港に挟まれた狭い町で、造船と海運で働く人々の腹を満たす食堂文化が育った。一説によると、昭和のはじめに中国から渡ってきた屋台の中華そばが土台になったとされ、瀬戸内で水揚げされる小魚が手近な出汁材料として使われていったという。忙しい港町では冷めにくさも大事な条件で、澄んだスープの表面を覆う背脂が、最後の一口まで熱を保つ役目を果たしてきたと考えられる。",
+   "body_en": "## What it's made of\nA layer of white pork-fat flecks floats thick across a clear soy broth. It reads richer than it eats: the broth itself, built from chicken bones and small Seto Inland Sea fish, leads with a light, clean flavor, and the fat melts in behind it to add sweetness and body. The noodles are flat, medium-thin, and wavy, with enough bite to hold their own while soaking up the broth. Toppings stay simple — thin char siu, menma, and scallion — so the contrast between broth and noodle stays clear with every spoonful.\n\n## How it's made\nThe base is said to start with a clear stock built from chicken bones and small fish caught in the Seto Inland Sea, brought together with a soy tare. Minced pork fat is scattered thick across the surface at the end, adding richness to what would otherwise be a light broth. Unlike the fat stirred into Kanto-style ramen, it's left floating in flecks here, meant to melt in gradually as you eat — a local habit, as the story goes. The flat, medium-thin, wavy noodles are sized to carry the broth without overwhelming it.\n\n## Why it took this shape\nOnomichi is a narrow town wedged between hillside and harbor, and its diner culture grew up feeding shipbuilders and dockworkers. One account traces the dish to a Chinese noodle stall that arrived in the early Showa era, with small fish from the Seto Inland Sea taking the role of the nearest available stock. In a working port town, staying hot mattered too — the layer of pork fat across the clear broth is thought to have kept the last spoonful as hot as the first.",
+   "sources": [
+    {
+     "url": "https://ja.wikipedia.org/wiki/尾道ラーメン",
+     "title": "尾道ラーメン",
+     "publisher": "Wikipedia",
+     "status_checked": 200
+    },
+    {
+     "url": "https://www.ononavi.jp/brand/?category%5b%5d=12",
+     "title": "ラーメン・中華｜食べる｜尾道市の観光情報",
+     "publisher": "尾道市観光協会（おのなび）",
+     "status_checked": 200
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "onomichi",
+     "to_slug": "hiroshima",
+     "relation_type": "対比",
+     "basis": "同じ広島県だが、尾道は醤油+背脂+小魚だしの伝統的中華そば、広島(市)は豚骨に醤油・野菜を合わせた丸い味で系統が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "saga",
+   "body_ja": "## 何でできているか\nスープをすすると、久留米系の豚骨より角の取れたまろやかさが先に来る。塩分と脂を控えめにした豚骨は、こってりというよりすっと喉を通る飲み口で、丼の真ん中には生卵の黄身がぽつんと浮かぶ。麺はやや太めのストレート麺を柔らかめに茹で、豚骨と絡めるというより噛みしめて味わう食感。崩した黄身がスープに溶け込むと、コクがもう一段深くなる。\n\n## どう作るのか\n継ぎ足しで炊き続ける豚骨スープを、久留米ラーメンより塩分と脂を落として仕上げるのが佐賀の流儀とされる。麺はやや太めのストレート麺を柔らかめに茹で、こってりしすぎないスープに合わせる。仕上げにゆで卵ではなく生卵の黄身だけをそっと乗せ、白身は使わない店が多い。食べる側が黄身を好きなタイミングで崩し、スープに溶かし込んで濃度を変えていく。\n\n## なぜこの形になったのか\n佐賀ラーメンは久留米ラーメンから枝分かれしたと伝わる。久留米で修業した大串進が佐賀市で店を構え、地元の口に合わせてスープの塩分と脂を落としていったのがはじまりの一つとされる。生卵の黄身をのせる食べ方も佐賀で広まったといい、白身が苦手な客に応じるうち定着したという。濃厚さで攻める久留米に対し、飲みやすさへ寄せていった佐賀の選択は、日常づかいのラーメンとして根づかせるための工夫として読める。",
+   "body_en": "## What it's made of\nThe broth arrives gentler than its Kurume cousins — a rounder, softer pork-bone flavor up front instead of a wall of richness. Lower in salt and fat, it goes down easy rather than sitting heavy, and right in the center of the bowl floats a single egg yolk, raw and untouched. The noodles are a touch thick, straight, and boiled soft, meant to be chewed through rather than slurped tangled with the broth. Break the yolk in, and the broth gains another layer of body.\n\n## How it's made\nThe pork-bone broth is kept going by continual topping-up, as in Kurume, but Saga's version is said to pull back on both salt and fat for a milder finish. The noodles run a touch thick and straight, boiled soft to match a broth that never gets too heavy. Rather than a boiled egg, most shops finish the bowl with just the raw yolk, leaving the white out entirely. Diners break the yolk in whenever they choose, changing the broth's richness bite by bite.\n\n## Why it took this shape\nSaga ramen is said to have branched off from Kurume ramen. Ōkushi Susumu, who trained in Kurume, opened a shop in Saga city and is said to have dialed back the broth's salt and fat to suit local tastes — one telling of how the style began. The custom of topping the bowl with just the yolk is also said to have spread from Saga, taking hold as shops responded to customers who wanted to skip the white. Where Kurume leans into richness, Saga's shift toward something easier to drink every day reads as a choice built for a bowl meant to be eaten often.",
+   "sources": [
+    {
+     "url": "https://ja.wikipedia.org/wiki/佐賀ラーメン",
+     "title": "佐賀ラーメン",
+     "publisher": "Wikipedia",
+     "status_checked": 200
+    },
+    {
+     "url": "https://saga-ramen.jp/",
+     "title": "SAGAラーメン",
+     "publisher": "SAGAラーメンプロジェクト（佐賀県）",
+     "status_checked": 200
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "saga",
+     "to_slug": "kurume",
+     "relation_type": "源流",
+     "basis": "佐賀ラーメンは久留米ラーメン発祥店出身の大串進が佐賀市で開いた「一休軒」から作り上げられたと伝わる（Wikipedia）"
+    }
+   ]
+  },
+  {
+   "slug": "sakata",
+   "body_ja": "## 何でできているか\nまず鼻先に来るのは、煮干しやトビウオ、昆布からとった魚介出汁の香り。そこに動物系のだしを重ねているぶん、見た目は澄んでいるのに口に含むと実は奥行きがある。中細のちぢれ麺は自家製で加水率が高く、つるりとした喉ごしとプルプルとした弾力を両立させる。一杯あたり二百グラムを超える麺を盛る店も珍しくなく、丼の中で麺がスープに負けない存在感を放つ。\n\n## どう作るのか\n港町の麺屋は自前の製麺室を持つのが当たり前で、市内の店のおよそ八割が自家製麺を打つという、全国でも珍しい比率だという。小麦を数種類ブレンドしたり、鉄の棒で生地を延ばしたりと、配合も道具も店ごとに違う。だからスープとの絡み方も一杯ごとに微妙に違って、同じ「酒田ラーメン」でも店を変えれば、まったく別の一杯に出会える。食べ比べを目的に何軒もはしごする客が絶えないのも、この違いがあるからだろう。\n\n## なぜこの形になったのか\n起こりは大正の終わり頃、港に開いた中国人の食堂だったと伝わる。冷蔵の利かない時代、酒田の沖では煮干しやトビウオが安く大量に手に入り、それが出汁の主役になったという。原料の小麦粉も北前船の寄港地として港経由で入りやすかったといい、各店が自前で麺を打つ土壌がここで整った。魚の恵みと港の物流、その両方への応えとして、今の一杯があると読める。冷えた海風の中で、温かい一杯を作り続けてきた港町らしい知恵とも読める。",
+   "body_en": "## What it's made of\nThe first thing you notice is the aroma of niboshi, flying fish, and kelp stock, layered with an animal-based broth that keeps it looking clear while carrying real depth. The medium, wavy noodles are house-made with high hydration, giving a silky slide and a springy bite at once. Many shops pile on well over 200 grams per bowl, so the noodles hold their own against the broth.\n\n## How it's made\nIt's ordinary here for a noodle shop to run its own noodle room — roughly eight in ten shops in town make their noodles in-house, an unusually high share nationwide. Recipes and tools differ from shop to shop: some blend several wheat flours, others stretch the dough with a steel rod. That means the way the noodles catch the broth shifts slightly from bowl to bowl, so the same 'Sakata Ramen' tastes different at every counter. It's no surprise that regulars hop from shop to shop just to compare.\n\n## Why it took this shape\nThe story is said to trace back to a Chinese-run diner that opened near the port in the late Taisho era. In a time before refrigeration, niboshi and flying fish caught offshore were cheap and abundant here, so they became the backbone of the stock. Wheat flour also reportedly moved easily through the port, thanks to trade with the old Kitamaebune ships, which let shops build the habit of making their own noodles. The fish the sea gave and the flour the port carried in — this bowl reads as an answer to both, a port town's answer to the cold sea wind, too.",
+   "sources": [
+    {
+     "url": "https://www.sakatano-ramen.com/whats-sakata-ramen.html",
+     "title": "酒田ラーメンとは",
+     "publisher": "酒田のラーメンを考える会",
+     "status_checked": 200
+    },
+    {
+     "url": "https://yamagatakanko.com/features/detail_379.html",
+     "title": "山形ラーメン・そば完全ガイド",
+     "publisher": "山形県（やまがたへの旅）",
+     "status_checked": 200
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sakata",
+     "to_slug": "yonezawa",
+     "relation_type": "対比",
+     "basis": "山形県公式観光サイトが庄内(酒田)・置賜(米沢)の代表格として並記。酒田は魚介+動物系出汁と自家製麺率の高さ、米沢は鶏ガラ+煮干しのあっさりスープと手もみ細ちぢれ麺で対照的"
+    }
+   ]
+  },
+  {
+   "slug": "sanjo-curry",
+   "body_ja": "## 何でできているか\nスープの色はまずカレー粉の黄土色。溶き込むほどにとろみがつき、スプーンですくうと糸を引くほどの濃度になる店が多い。ラーメンのだしにカレーを溶かし込むため、和のうまみとスパイスの香りが同居する一杯になる。麺は中太のちぢれ麺で、とろみの強いスープをよく拾い上げる。仕上げに炒め野菜や豚肉、生卵を落とす店もあり、立ちのぼる湯気にもスパイスの香りが混じって、口をつける前から食欲を刺激してくる。\n\n## どう作るのか\n作り方は店によって大きく分かれる。スープ全体をカレー仕立てにする店もあれば、醤油ラーメンにカレーあんをのせるだけの店もある。つけ麺仕立てにしたり、夏場は冷やして出したりする店もあり、「三条カレーラーメン」という一皿は一つの決まった型を指す言葉ではなく、カレーを使うという一点だけを共有した、緩やかな括りになっている。そのため店を三軒回れば、三通りの一杯に出会うことも珍しくない。\n\n## なぜこの形になったのか\n三条は金属加工の職人町として栄え、鍛冶場で働く人たちは、短い休憩の中で早く食べられ、なおかつ体力の持つ食事を求めたと伝わる。カレーの油分と香辛料は冷めにくく食欲を刺激し、出前で運ばれる間も味が落ちにくい。重労働の合間に急いでかき込む一杯として、スパイスの効いたとろみスープが、この街に根づいたと考えられる。汗をかく現場仕事にはことさら合う一杯として、今も職人の街に居場所を持っている。",
+   "body_en": "## What it's made of\nThe broth starts out the color of curry powder, and the more it's stirred in, the thicker it gets — in many shops it clings to a spoon. Curry is dissolved right into the ramen stock, so Japanese-style umami and spice aroma sit side by side. The noodles are medium-thick and wavy, built to carry that thickened broth, and some shops finish with stir-fried vegetables, pork, or a raw egg. Even the rising steam carries a whiff of spice, working on your appetite before the first bite.\n\n## How it's made\nHow it's built varies widely by shop. Some make the whole broth curry-based; others simply ladle a curry-thickened sauce over a soy ramen. There are dipping-noodle and chilled versions too — 'Sanjo Curry Ramen' isn't one fixed recipe, it's a loose category held together by the single fact that curry is involved. Visit three shops and you can easily end up with three different bowls.\n\n## Why it took this shape\nSanjo grew up as a town of metalworking craftsmen, and workers at the forges are said to have wanted food they could eat fast on a short break yet still hold up their strength through the shift. Curry's oil and spice keep it from going cold and cutting appetite, and it travels well for delivery without losing flavor. As a bowl to gulp down between stretches of heavy labor, a spiced, thickened broth took root in the town — a fit especially suited to work that breaks a sweat, and it still holds its place in this craftsmen's town today.",
+   "sources": [
+    {
+     "url": "https://www.city.sanjo.niigata.jp/sanjonavi/eat/2319.html",
+     "title": "三条カレーラーメン",
+     "publisher": "三条市",
+     "status_checked": 200
+    },
+    {
+     "url": "https://niigata-kankou.or.jp/feature/5big_ramen/top",
+     "title": "新潟のラーメン特集！新潟5大ラーメン",
+     "publisher": "新潟県観光協会",
+     "status_checked": 200
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sanjo-curry",
+     "to_slug": "nagaoka-shoga",
+     "relation_type": "兄弟",
+     "basis": "新潟県観光協会公式「新潟5大ラーメン」特集で、長岡生姜醤油・三条カレーなど県内5種が一つの括りとして並んで紹介される"
+    }
+   ]
+  },
+  {
+   "slug": "sanmamen",
+   "body_ja": "## 何でできているか\n丼の主役は、麺の上に乗る熱々のあん。もやしを中心に白菜や豚肉を炒め、片栗粉でとろみをつけたものを、醤油や塩のスープの麺にそのままかける。あんが麺とスープの熱を封じ込めるので、食べ終わるまで湯気が立ち続ける。味つけは店ごとにばらつきがあり、これといった統一レシピは存在しない、店の数だけ違う顔を持つ一杯でもある。\n\n## どう作るのか\n横浜中華街の食堂で、肉そば(ルースー麺)のまかないとして作られたのが始まりとされる。当時は高価だった肉そばの代わりに、安いもやしなどの野菜をたっぷり炒めてあんにし、量を出したという。麺の上に「新鮮でシャキシャキした具をのせる」という発想がそのまま調理法として定着し、今も麺は最後まで熱いまま、お椀の中で野菜あんに包まれている。\n\n## なぜこの形になったのか\n一説によると、名は「生馬麺」で、新鮮な具材を上に乗せるという意味だといい、港の埠頭を指す「碼」の字をあてる店もある。戦後、横浜港で働く人々が、冷めにくく食べ応えのある一杯を求めたことが背景にあるという。とろみのあるあんは冷たい潮風の中でも湯気を保ち、野菜を炒めることでかさも増して満足感が出る。港町の労働と天候、その両方への応えとして今の形があると読める。冷めにくさそのものが価値になる街だったからこそ、この一杯が育ったといえる。",
+   "body_en": "## What it's made of\nThe star of the bowl is the piping-hot ankake draped over the noodles — bean sprouts, napa cabbage, and pork stir-fried and thickened with potato starch, ladled straight onto noodles in a soy or salt broth. The thickened sauce seals in the heat of both noodles and broth, so steam keeps rising until the last bite. Seasoning varies by shop; there's no single fixed recipe.\n\n## How it's made\nIt's said to have started as a staff-meal dish in Chinatown diners, built from the leftovers used to make the pricier pork-and-noodle dish, ru-su-men. In place of that costly meat, cooks stir-fried cheap vegetables like bean sprouts into a hearty ankake for bulk. The idea of piling fresh, crunchy ingredients on top of the noodles became the method itself, and the noodles still sit wrapped in hot vegetable sauce today.\n\n## Why it took this shape\nOne account holds the name is written with characters meaning 'fresh ingredients piled on top,' while some shops use a character for a harbor pier instead. It's said postwar dockworkers in Yokohama wanted a bowl that stayed hot and filling. The thickened ankake holds its steam even against a chilly harbor wind, and stir-frying the vegetables adds bulk and satisfaction. The dish reads as an answer to both harbor labor and harbor weather — it's a bowl that grew out of a town where staying hot was itself the point.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_16_kanagawa.html",
+     "title": "サンマーメン 神奈川県",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "status_checked": 200
+    },
+    {
+     "url": "https://ja.wikipedia.org/wiki/サンマーメン",
+     "title": "サンマーメン",
+     "publisher": "Wikipedia",
+     "status_checked": 200
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sanmamen",
+     "to_slug": "kawasaki-new-tantan",
+     "relation_type": "対比",
+     "basis": "ともに神奈川の中華食堂文化から生まれたご当地麺料理という共通点を持つが、サンマーメンは野菜あんの醤油・塩味、新タンタン麺は辛味の効いた担々系で対照的な仕上がり"
+    }
+   ]
+  },
+  {
+   "slug": "sano",
+   "body_ja": "## 何でできているか\n澄んだ醤油スープはくどさがなく、口に含むとすっと喉を通っていく。主役は平打ちの縮れ麺で、高い加水率のためもちもちとやわらかく、それでいて伸びにくい。厚さは二ミリほどに仕上げられ、気泡を多く含むので見た目より軽い口当たりになる。スープと麺、どちらも突出させずに釣り合わせるのが、この一杯の骨格になっている。すすった瞬間の軽さと、噛んだときの弾力の落差が、この麺の面白さでもある。\n\n## どう作るのか\n生地を竹の棒でたたいては折り、たたいては折りを繰り返す「青竹打ち」という製法で延ばす。体重を乗せて竹をしならせるため、生地に気泡が入り、機械の圧延では出せないやわらかさと弾力が生まれる。仕上げに職人が手でもみ込んでちぢれを付け、スープとの絡みを良くする。今も三十軒を超える店が、この手間のかかる工程を続けている。竹を扱う感覚は職人によって微妙に違い、それが店ごとの麺の個性にもつながっている。\n\n## なぜこの形になったのか\n青竹打ちはかつて全国各地で使われた技法だが、佐野には家族経営の小さな店が多く、高価な製麺機を導入しにくかったことが、生き残った理由の一つとされる。良質な小麦と佐野の水に恵まれた土地柄も、澄んだスープと手打ち麺の両立を後押ししたと伝わる。設備よりも手間を選んだ結果として、今のもちもちとした一杯が残ったといえる。機械化の波を受けなかった土地の事情が、そのまま麺の個性として今も生きている。",
+   "body_en": "## What it's made of\nThe clear soy broth is light, with no heaviness, and slides easily down the throat. The star is a flat, wavy noodle: high hydration makes it soft and chewy yet resistant to going limp. Rolled to about two millimeters, it traps air bubbles that keep the bite lighter than it looks. Neither broth nor noodle is built to dominate — the whole bowl rests on that balance. The gap between the noodle's lightness on the slurp and its spring on the bite is half the fun.\n\n## How it's made\nThe dough is stretched using aotake-uchi, or 'green bamboo pounding': fold and pound, fold and pound, with a craftsperson putting their full body weight onto a bamboo pole to flex it against the dough. That working-in of air gives a softness and spring that a machine roller can't reproduce. Finishing by hand, the noodle maker works in a wave by feel, so the noodle catches the broth better. More than thirty shops still keep up this labor today, and the feel each craftsperson has for the bamboo carries over into each shop's own character of noodle.\n\n## Why it took this shape\nBamboo pounding was once practiced across Japan, and one reason it survived here is said to be that Sano's noodle shops were mostly small, family-run operations that couldn't easily afford a mechanical noodle press. Good local wheat and Sano's water are also said to have supported pairing a clear broth with hand-stretched noodles. Choosing labor over equipment left behind the soft, chewy bowl served here now — a local circumstance that skipped mechanization and lives on today as the noodle's own character.",
+   "sources": [
+    {
+     "url": "https://www.city.sano.lg.jp/soshikiichiran/sougou/toshibrandsuishin/gyomuannai/koho/meibutsu/5152.html",
+     "title": "佐野らーめん",
+     "publisher": "佐野市",
+     "status_checked": 200
+    },
+    {
+     "url": "https://www.hotpepper.jp/mesitsu/entry/shounenB/2019-00101",
+     "title": "佐野ラーメンに使われる伝統の製麺技法「青竹打ち」を体験してきたぞ～！",
+     "publisher": "メシ通（リクルート）",
+     "status_checked": 200
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sano",
+     "to_slug": "kitakata",
+     "relation_type": "対比",
+     "basis": "業務用ラーメン情報サイトで佐野・喜多方・白河の手打ち系ご当地ラーメンが比較されている。佐野は鶏ガラ主体の淡麗スープと軽い口当たり、喜多方は豚骨・煮干しを効かせた濃いめの旨味で対照的"
+    }
+   ]
+  },
+  {
+   "slug": "sendai-karamiso",
+   "body_ja": "## 何でできているか\n丼の脇に添えられた小皿の辛味噌が、この一杯の主役。ベースは仙台味噌を効かせたコクのある味噌スープで、そのままでも塩気と旨みのバランスが取れている。そこに豆板醤とにんにく、唐辛子を練り込んだ辛味噌を自分の匙加減で溶かしていくと、コクの奥からピリッとした熱が立ち上がる。辛さも香りの強さも一口ごとに変えられるのが、他の味噌ラーメンとの違い。\n\n## どう作るのか\nスープと辛味噌は別々に仕込まれる。だしの効いた濃厚な味噌スープを丼で仕上げたあと、豆板醤・唐辛子・にんにくをすり合わせた辛味噌を小皿で添える。厨房で溶かし込んでしまわず客の手元に委ねるのは、辛さの好みが一人ひとり違うことへの割り切り。麺を数口すすってスープの味を確かめてから溶かし始める食べ方が定着している。\n\n## なぜこの形になったのか\nベースにある仙台みそは、伊達政宗が軍用に仕込ませたと伝わる濃厚な赤みそ。塩分を強くし低温でじっくり発酵させることで、寒さの厳しい東北でも傷みにくい保存食として磨かれてきたとされる。そのコクと保存性の高さがあったからこそ、辛味噌を後から自由に加えるという食べ方が成立した。すでに完成された濃い味の土台があるからこそ、辛さの調整を客に委ねる余白が生まれたと読める。",
+   "body_en": "## What it's made of\nThe real character of this bowl sits in a small side dish of chili miso. The base soup is already rounded and savory — a rich miso broth built on Sendai's own dark, salty miso. Stir in the accompanying paste of doubanjiang, garlic, and chili at your own pace, and a sharp heat rises up through the depth of the broth. How much heat, and how fast, is left entirely to you — that's what sets it apart from other miso ramen.\n\n## How it's made\nThe broth and the chili miso are prepared separately. A rich, stock-backed miso soup is finished in the bowl, then a small plate of chili miso — doubanjiang, garlic, and chili ground together — is set alongside it. Rather than blending the heat into the soup back in the kitchen, the shop leaves that choice to the diner, since everyone's tolerance is different. Most people taste the broth and noodles first, then start stirring the chili miso in.\n\n## Why it took this shape\nThe base is Sendai miso, a dark, salty paste said to trace back to rations Date Masamune had brewed for his troops. Its strong salt content and slow, low-temperature fermentation were shaped to survive Tohoku's harsh cold without spoiling. That already-rich, keep-well base is what made it possible to hand the seasoning over to the customer — because the foundation was strong enough on its own, there was room left to let the heat be adjusted at the table.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/sendaimiso.html",
+     "title": "仙台味噌（せんだいみそ）｜にっぽん伝統食図鑑",
+     "publisher": "農林水産省",
+     "status_checked": 200
+    },
+    {
+     "url": "https://www.miyagi-kankou.or.jp/theme/detail.php?id=19017",
+     "title": "ラーメン｜特選スポット",
+     "publisher": "宮城県観光連盟（宮城まるごと探訪）",
+     "status_checked": 200
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sendai-karamiso",
+     "to_slug": "sapporo",
+     "relation_type": "対比",
+     "basis": "ともに味噌ラーメンの代表格だが、札幌は一杯ごとに厨房で辛さとコクを仕込み切るのに対し、仙台は辛味噌を客が食べながら加える点で味の決定権の置き場所が対照的。"
+    }
+   ]
+  },
+  {
+   "slug": "shimodate",
+   "body_ja": "## 何でできているか\n澄んだ醤油スープからまず立つのは鶏ガラの香り。豚のチャーシューを想像して丼を覗くと、代わりに乗っているのは飴色に甘辛く煮た鶏肉——脂が少ない分、スープの輪郭がぼやけず最後まですっきり飲み干せる。麺は中細の縮れ麺で、加水を抑えて締まった噛み心地。伸びにくく、熱いスープの中でも最後の一口までコシが残ったまま食べきれる。\n\n## どう作るのか\n鶏ガラと地場の野菜でじっくりだしを引き、濃口醤油で締めるのがこの店の基本の型。具材の鶏チャーシューは、もも肉などを甘辛いタレで炊いてから薄く切り分ける。麺は加水を抑えた細めの縮れ麺を使い、茹でてから時間が経ってもスープを吸いすぎず伸びにくいのが特徴。器に盛ってから配達先に届くまでの時間差を織り込んだ仕込みが、今も店ごとに引き継がれている。\n\n## なぜこの形になったのか\n戦後まもない時期、豚肉は手が届きにくい高価な食材だった。手頃な鶏肉をチャーシューに使うようになったのは、その代替としての工夫だったと伝わる。かつて「商都下館」と呼ばれるほど商業が集積していたこの町では、忙しい商店や事務所への出前が日常的だった。届くまでの時間でスープを吸って伸びてしまっては困る——だからこそ、加水を抑えて時間に強い縮れ麺が選ばれたと読める。",
+   "body_en": "## What it's made of\nWhat rises first from the clear soy broth is the smell of chicken bone. Look for the pork char siu you'd expect, and instead you'll find amber, sweet-savory simmered chicken sitting on top — leaner, so it never blurs the broth's clean edge and the bowl drinks clear to the last sip. The noodles are thin, wavy, and made with less water than usual, giving them a firm, springy bite that holds up in the hot broth all the way to the last mouthful.\n\n## How it's made\nThe stock is drawn slowly from chicken bones and local vegetables, then finished with a dark soy sauce. The chicken topping — often thigh meat — is simmered in a sweet-savory sauce and sliced thin. The noodles use less water than most, so they resist going soft even after time passes, staying firm instead of soaking up the broth. Shops still build the bowl with the gap between kitchen and delivery counter in mind.\n\n## Why it took this shape\nPork was an expensive, hard-to-reach cut in the lean years right after the war, and chicken stood in as the affordable substitute for char siu — that's the story passed down here. This town was once dense enough with shops and offices to be called a \"trading hub,\" and delivery to those busy storefronts was routine. Noodles that went soft and soggy on the way over were no good, so a low-hydration, wavy noodle built to withstand time became the answer.",
+   "sources": [
+    {
+     "url": "https://ja.wikipedia.org/wiki/下館ラーメン",
+     "title": "下館ラーメン - Wikipedia",
+     "publisher": "Wikipedia",
+     "status_checked": 200
+    },
+    {
+     "url": "https://www.ibarakiguide.jp/site/matome/shimodate-ramen.html",
+     "title": "下館ラーメン 〜茨城県のご当地ラーメン4選〜",
+     "publisher": "観光いばらき",
+     "status_checked": 200
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shimodate",
+     "to_slug": "shinjo-torimotsu",
+     "relation_type": "対比",
+     "basis": "同じ鶏を主役にした醤油ラーメンでも、下館は鶏肉をチャーシューに替えて淡さを保ち、新庄は鶏もつを乗せてあえてコクを足す対照。"
+    }
+   ]
+  },
+  {
+   "slug": "shinjo-torimotsu",
+   "body_ja": "## 何でできているか\nあっさりとした醤油スープの表面に、こっくりと煮込まれた鶏もつが山盛りに乗る。レバーや砂肝、ハツなどを甘辛いタレでとろけるまで煮込んだ一品で、澄んだスープの淡さとは対照的に、もつの側だけ濃く仕立てられている。麺をすすったあとにもつを口に運ぶと、脂の旨みが残った舌に軽いスープが心地よく染みていく食べ進め方が定番。\n\n## どう作るのか\n鶏もつは店によって煮方が大きく違う。醤油と砂糖、生姜などでじっくり時間をかけて煮込み、臭みを抜きながら柔らかく仕上げるのが共通した手順とされる。もとは居酒屋で別々に出していたモツ煮込みとラーメンを、常連客が「一緒に食べたい」と頼んだことから一杯に合わさったと伝わる。麺やスープの配合にも統一の基準はなく、店ごとの煮込みの塩梅がそのまま一杯の個性の違いになって表れる。\n\n## なぜこの形になったのか\n新庄を含む最上地方は、山あいの内陸に位置し、かつては新鮮な魚を手に入れにくい土地だった。その分、鶏を飼う農家が多く、祝い事の際には一羽をつぶしてモツまで無駄なく煮込んで食べる習慣が根付いていたと伝わる。貴重なタンパク源として大切にされてきた鶏もつが、いまも日常のラーメンに乗るのは、この土地の食の条件がそのまま形を変えて残った結果と読める。",
+   "body_en": "## What it's made of\nA light soy broth carries a heaping mound of chicken giblets, simmered down until they're soft and rich. Liver, gizzard, heart — braised in a sweet-savory sauce until deeply flavored, standing in sharp contrast to the clean, thin broth underneath. Slurp the noodles first, then reach for the giblets: their savory richness lands gently on a palate the light soup has already opened up, and that order of eating has become the standard.\n\n## How it's made\nEvery shop simmers its giblets quite differently. The common thread is a long, slow braise in soy sauce, sugar, and ginger, cooked until the offal turns tender and any sharp edge fades. The dish is said to have come together when regulars at a local spot started asking for the giblet stew — until then served on its own — alongside their bowl of ramen. There's no fixed recipe for the noodles or broth either; the character of each bowl comes down entirely to how each shop handles the simmering.\n\n## Why it took this shape\nShinjo sits inland, deep in the mountains of the Mogami region, where fresh fish was historically hard to come by. Chicken farming filled that gap, and it's said families kept the habit of using every part of the bird — down to the giblets, simmered whole for a celebration meal. Chicken offal, once prized as a rare source of protein, made its way onto an everyday bowl of ramen — a shape the land's own food constraints seem to have carried forward.",
+   "sources": [
+    {
+     "url": "https://www.city.shinjo.yamagata.jp/k001/020/030/010/20150225112902.html",
+     "title": "愛を「とりもつラーメン」",
+     "publisher": "新庄市",
+     "status_checked": 200
+    },
+    {
+     "url": "https://ja.wikipedia.org/wiki/とりもつラーメン",
+     "title": "とりもつラーメン - Wikipedia",
+     "publisher": "Wikipedia",
+     "status_checked": 200
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shinjo-torimotsu",
+     "to_slug": "sakata",
+     "relation_type": "対比",
+     "basis": "同じ山形県内でも、港町の酒田は魚介の出汁を効かせ、内陸の新庄は鶏を大切にしてきた食文化が一杯に表れる対照。"
+    }
+   ]
+  },
+  {
+   "slug": "shirakawa",
+   "body_ja": "## 何でできているか\n澄んだ醤油スープに、幅広で多加水の縮れ麺が絡む。手で打たれた麺はコシと柔らかさを両方持ち、噛むとむにっとした弾力のあとに小麦の甘みがじわりと残る。具材はチャーシュー、メンマ、ネギ、ほうれん草、ふちを紅く染めたナルトと、昔ながらの顔ぶれがひと通り揃う。すっきりとしたスープと存在感のある太めの麺の組み合わせが特徴。\n\n## どう作るのか\n麺は蕎麦打ちの技法を応用し、生地を手で延ばして幅広に切り出していく。加水を多めにした生地は柔らかくべたつきやすく、機械のローラーで伸ばすよりも手作業のほうが力加減を調整しやすいとされる。多くの店が毎日その日の分だけ丁寧に麺を打ち、茹でたてをすぐに澄んだ醤油スープに合わせて出す。まとめてゆで置きをしない分、麺そのものの香りと歯ざわりが生きたまま丼まで届く。\n\n## なぜこの形になったのか\n白河は古くからそば処として知られ、冷涼な気候に強い蕎麦の栽培が藩主の奨励で広まった土地とされる。そばを打つ技術を持つ職人がもともと多くいたことが、支那そばが入ってきた際に手打ちの縮れ麺という形を選ばせた理由の一つと伝わる。そば打ちという、この土地の冷涼な気候に合わせて育ってきた手仕事が、そのままラーメンの麺づくりに移し替えられた形と読める。",
+   "body_en": "## What it's made of\nWide, wavy, hand-pulled noodles swim in a clear soy broth. Worked by hand, they carry both bite and softness — a springy chew that slowly gives way to the sweetness of the wheat underneath. The toppings read like a checklist from an older era: char siu, menma, scallion, spinach, and a slice of naruto with its edge dyed red, the full cast present and accounted for. What stands out is the pairing of a clean broth with noodles substantial enough to hold their own against it.\n\n## How it's made\nThe noodles are made using techniques borrowed from soba-making, the dough worked and rolled out by hand into wide strips. A higher-hydration dough turns soft and sticky — harder to run through a machine roller, easier to control by hand. Many shops still hand-pull just enough noodles for the day and drop them straight into the clear soy broth. Skipping any hold time keeps the noodles' own aroma and bite intact all the way to the bowl.\n\n## Why it took this shape\nShirakawa has long been known as soba country, where a cold-hardy strain of buckwheat reportedly spread under a feudal lord's encouragement, suited to the region's cool climate. When Chinese-style noodle soup arrived, the story goes, it was the area's soba craftsmen — already skilled at working dough by hand — who shaped it into hand-pulled, wavy noodles. A hand-craft built for the local climate seems to have simply been carried over into a bowl of ramen.",
+   "sources": [
+    {
+     "url": "https://www.city.shirakawa.fukushima.jp/page/page001508.html",
+     "title": "グルメ",
+     "publisher": "白河市",
+     "status_checked": 200
+    },
+    {
+     "url": "https://ja.wikipedia.org/wiki/白河ラーメン",
+     "title": "白河ラーメン - Wikipedia",
+     "publisher": "Wikipedia",
+     "status_checked": 200
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shirakawa",
+     "to_slug": "kitakata",
+     "relation_type": "対比",
+     "basis": "福島県内の手打ち系醤油ラーメン同士。喜多方は多加水の平打ち麺とあっさりスープ、白河は蕎麦打ち技法由来の縮れ麺と澄んだスープで、麺の生まれ方の違いが対照的（白河ラーメンWikipediaで両者の類似に言及）。"
+    }
+   ]
+  },
+  {
+   "slug": "taiwan-ramen",
+   "body_ja": "## 何でできているか\n丼の底に敷いたもやしの上に麺を置き、にんにくの香りが強く立つ真っ赤なひき肉あんをのせ、そこへ熱い鶏ガラ醤油スープを注ぐ。ひき肉は唐辛子で辛口に炒めてあり、一口目から喉の奥がひりつくほどの辛さが来る。ニラの青い香りと長ネギの甘み、もやしのシャキッとした歯ごたえが、辛さの後ろから順に追いかけてくる。麺は中太のストレートで、辛味あんとよく絡む。\n\n## どう作るのか\nにんにくをじっくり熱した油でひき肉を香ばしく炒め、唐辛子を効かせて辛口のあんに仕上げるのが要とされる。もやしは辛さと熱をまとうよう先に丼へ敷き、その上に茹でた中華麺、辛味あんの順に重ねる。仕上げに熱々の鶏ガラ醤油スープを注ぎ入れ、あんを溶かし込まずに食べ進めることで、一杯の中で辛さが徐々に広がっていく食べ方が好まれている。\n\n## なぜこの形になったのか\n一説によると、台湾出身の店主が故郷の担仔麺を思い出しつつ、名古屋で唐辛子を強く効かせて仕立て直したのが始まりという。担仔麺自体は辛くない料理で、地元の客に喜ばれるようにと辛さを足したと伝わる。つまり台湾の味そのものではなく、名古屋という土地の客に合わせて生まれ変わった一杯であり、台湾ラーメンという名でありながら台湾には存在しないという逆説がここに宿る。",
+   "body_en": "## What it's made of\nNoodles rest on a bed of bean sprouts at the bottom of the bowl, topped with a fiery red mound of garlicky minced pork, then drowned in a hot chicken-based soy broth. The pork is stir-fried hard with chili, so the heat hits the back of the throat from the very first bite. Garlic chives add a green sharpness and scallion a touch of sweetness, both trailing in right behind the burn. The noodles themselves are medium-thick and straight, built to carry the spicy topping.\n\n## How it's made\nThe key is said to be frying minced pork hard in oil steeped with garlic, then building a chili-laced sauce around it. Bean sprouts go into the bowl first to soak up heat and spice, followed by boiled noodles and then the chili mince on top. Scalding chicken-soy broth is poured in last, and the dish is eaten without stirring the topping in right away, letting the heat spread gradually through the bowl.\n\n## Why it took this shape\nOne account holds that a shop owner from Taiwan, recalling the danzai noodles of his hometown, reworked the dish in Nagoya with a much heavier hand on the chili. Danzai noodles themselves are not spicy, and the heat is said to have been added to please local customers. In other words, this bowl isn't Taiwanese food transplanted whole — it was remade for a Nagoya audience, which is exactly the paradox behind a dish called \"Taiwan ramen\" that doesn't exist in Taiwan.",
+   "sources": [
+    {
+     "url": "https://www.nippon.com/ja/japan-topics/c09803/",
+     "title": "名古屋・味仙創業者が明かす「台湾にない台湾ラーメン」の誕生秘話",
+     "publisher": "nippon.com",
+     "status_checked": 200
+    },
+    {
+     "url": "https://www.misen.ne.jp/ramen",
+     "title": "元祖台湾ラーメン｜味仙本店",
+     "publisher": "味仙本店（公式）",
+     "status_checked": 200
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "taiwan-ramen",
+     "to_slug": "katsuura-tantan",
+     "relation_type": "対比",
+     "basis": "どちらも唐辛子で強い辛さを立てたご当地麺だが、台湾ラーメンは炒めたひき肉あんをのせる構造、勝浦タンタンメンはラー油主体のスープで辛さを作る構造で、辛さの作り方が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "takaida",
+   "body_ja": "## 何でできているか\n箸を入れるとうどんかと見紛うほどの極太ストレート麺が沈んでいる。スープは鶏ガラを効かせただしに濃口醤油を合わせた濃い色合いで、塩気がはっきりと立つ。表面には脂が点々と浮き、湯気とともに醤油の香りが立ちのぼる。麺はもちもちとして噛みごたえが強く、一本ごとに存在感がある。具はチャーシューやメンマなど最小限で、太い麺と濃いスープの取り合わせだけで、飲み込むまでに満腹感がじわりと広がる一杯になっている。\n\n## どう作るのか\nうどん用に近い太さまで生地を延ばし、コシを保ったまま長めに茹で上げるのがこの系統の要となる。太い分だけ茹で時間も長くとり、芯まで火を通しつつ弾力を残すのが難しいところとされる。鶏ガラでとっただしに濃口醤油だれを合わせ、脂も控えめに仕上げるのが基本とされる。具はチャーシューやメンマなど最小限にとどめ、太麺と濃いスープの対比を主役に置く。開店時間を早く設定する店が多いのも、この系統に共通する特徴とされる。\n\n## なぜこの形になったのか\nこの一帯は中小の町工場が密集し、夜勤明けの労働者が早朝から丼をすすった土地とされる。汗をかき塩分を欲する体には濃口の醤油味が合い、腹持ちのよい極太麺と手頃な値段は、肉体労働の合間に効率よく満たしてくれる一杯として根づいたと伝わる。ラーメンという言葉がまだ定着していなかった時代から、早朝や深夜に働く人の胃袋を黙って支える食事として、この土地に形づくられてきたという。",
+   "body_en": "## What it's made of\nDip your chopsticks in and you'll find noodles so thick they could pass for udon. The broth is a dark, chicken-based soy stock with a clear, assertive saltiness, its surface dotted with beads of rendered fat and the smell of soy rising with the steam. The noodles themselves are dense and chewy, each strand substantial enough to notice on its own. Toppings stay minimal — a few slices of char siu, some bamboo shoots — leaving the pairing of thick noodle and heavy broth to carry the bowl, and it leaves you full well before the last strand is gone.\n\n## How it's made\nThe dough is rolled out to a thickness closer to udon than ramen, then boiled longer than usual while keeping its firm bite intact — that's said to be the core of this style, and getting the center cooked through without losing the chew is the hard part. A chicken-bone stock is combined with a dark soy tare, kept relatively light on oil. Toppings are kept to a minimum, so the contrast between the thick noodle and the heavy broth stays the center of attention. Many shops in this style also open unusually early in the day.\n\n## Why it took this shape\nThis stretch of Osaka was once dense with small factories, and the style is said to have taken root among workers coming off night shifts for an early-morning bowl. A body that's sweated through a shift craves salt, and the thick, heavy soy broth answered that. The filling, chewy noodles and the low price made sense for laborers on a break, and the dish is said to have been quietly shaped, well before the word \"ramen\" itself had settled into common use, into a meal built to feed the stomachs of people working the early and late shifts of this district.",
+   "sources": [
+    {
+     "url": "https://www.nippon.com/ja/japan-topics/c13818/",
+     "title": "【大阪：布施】極太麺が強烈な“高井田系”の発祥『中華そば 光洋軒』",
+     "publisher": "nippon.com",
+     "status_checked": 200
+    },
+    {
+     "url": "https://news.mynavi.jp/article/20130805-a066/",
+     "title": "実は大阪府にもご当地ラーメンがある! うわさの濃厚「高井田系」とは?",
+     "publisher": "マイナビニュース",
+     "status_checked": 200
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "takaida",
+     "to_slug": "takayama",
+     "relation_type": "対比",
+     "basis": "高井田はうどん並みの極太麺、高山は細い縮れ麺が特徴として知られ、麺の太さで対極に位置するご当地ラーメン同士の並置"
+    }
+   ]
+  }
+ ]
+}

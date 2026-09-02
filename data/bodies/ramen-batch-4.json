@@ -1,0 +1,326 @@
+{
+ "items": [
+  {
+   "slug": "takayama",
+   "body_ja": "## 何でできているか\n鶏ガラでとった澄んだ醤油スープに、極細の縮れ麺。すすった瞬間、とがった塩気ではなく丸くなった醤油の旨みが舌に広がる。脂は控えめで、麺を噛むと軽い弾力が返ってくる。丼からのぼる湯気も強すぎず、最後の一口まで熱を保ちながらすっと軽い。飛騨牛や朴葉味噌のような濃い郷土料理の隣にありながら、この一杯だけは驚くほど澄んで軽やかに仕上がっている。\n\n## どう作るのか\n出汁とタレ（かえし）を別に仕込み、丼の中で合わせるのが一般的なラーメンの作り方とされる。高山ラーメンはその手順を踏まないことで知られる。返しと出汁をはじめから一つの鍋に入れ、時間をかけて一緒に煮込むのがこの土地の流儀とされる。醤油を後から足さないぶん角が取れ、とがった塩気ではなく、やわらかな旨みとしてじんわり舌に届く。仕込みに手間をかけるぶん、提供の速さよりも味の丸さを優先しているとも読める。\n\n## なぜこの形になったのか\n高山は分水嶺にかかる山あいの町で、水のよさが古くから酒や味噌、醤油の蔵を育ててきたと伝わる。その水を活かすように、スープは濃くするよりも返しと一緒にじっくり煮て角を丸める道を選んだのだろう。冷え込む朝の市に立つ人や、峠を越えてきた旅人の体を、きつい塩気ではなく軽く整える一杯として、今の形に落ち着いたと考えられる。良い水に恵まれた土地だからこそ、出汁を澄ませる方向に振り切れたのかもしれない。",
+   "body_en": "## What it's made of\nA clear soy broth built on chicken bones, carrying very thin, wavy noodles. The first sip lands soft rather than sharp — the soy has rounded out into something closer to pure savoriness. Fat is kept light, and the noodles snap back with a gentle bite. Little steam rises from the bowl, yet it stays warm through the last mouthful without ever feeling heavy. Next to Hida beef and hoba miso, the town's heavier local dishes, this bowl reads as surprisingly clear and delicate.\n\n## How it's made\nMost ramen keeps the stock and the tare, the seasoning base, separate, combining them only in the bowl. Takayama ramen is said to skip that step. The tare and stock go into a single pot from the start and simmer together over time, a method locals treat as the town's own. Because no soy sauce is added late, the sharp edges cook away, leaving a soft savoriness rather than raw saltiness. The extra time spent on preparation seems to favor roundness of flavor over speed of service.\n\n## Why it took this shape\nTakayama sits in a mountain basin near a watershed, and the quality of its water is said to have long supported local sake, miso, and soy sauce breweries. Rather than building an intensely seasoned broth, the town seems to have chosen to simmer tare and stock together, letting the water round off the edges. It reads as a bowl meant to ease a cold morning at the market, or a traveler coming down from a mountain pass, gently rather than with a jolt of salt. Perhaps it's precisely because the water here is so good that the broth could afford to stay this clear.",
+   "sources": [
+    {
+     "title": "ラーメン激戦区・高山で出会う、忘れられない一杯「高山ラーメン」",
+     "url": "https://www.hidatakayama.or.jp/special/detail_467.html",
+     "publisher": "一般社団法人 飛騨高山観光コンベンション協会",
+     "accessed_at": "2026-09-02"
+    },
+    {
+     "title": "全国ご当地ラーメン - 高山ラーメン - ラーペディア",
+     "url": "https://www.raumen.co.jp/rapedia/study_japan/study_raumen_takayama.html",
+     "publisher": "新横浜ラーメン博物館",
+     "accessed_at": "2026-09-02"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "kitakata",
+     "relation_type": "対比",
+     "basis": "どちらも名水と醸造文化を背景に持つ醤油ラーメンだが、高山は返しとスープを一つの鍋で煮る一鍋仕立て、喜多方は極太の平打ち麺と伏流水の清澄スープという対照。",
+     "from_slug": "takayama"
+    }
+   ]
+  },
+  {
+   "slug": "takeoka",
+   "body_ja": "## 何でできているか\nどんぶりを覗いても、白く濁ったスープは見当たらない。透き通った醤油色の汁に、大ぶりのチャーシューが沈んでいるだけ。すすると煮豚の脂と醤油の甘辛さがまっすぐ伝わり、出汁の輪郭を探すような複雑さはない。麺は乾麺を使う店もあり、コシよりも汁を吸う軽さが立つ。飾りけのない見た目のまま、味の濃さだけで最後まで押し切る一杯とされる。\n\n## どう作るのか\n鍋でじっくり出汁をとる工程がそもそも無いとされる。チャーシューを煮た醤油ダレをそのまま丼に張り、麺を茹でた湯や沸かした湯で割るだけ。チャーシューの煮汁自体が出汁を兼ねる、という発想が竹岡式の核心らしい。手間のかかる仕込みを持たずに、注文が入ってから短時間で出せる作り方になっている。仕込みの大半は前もって煮ておいたチャーシューに集約されている。\n\n## なぜこの形になったのか\n一説によると、始まりは1954年ごろ、甘味処だった店に漁師から「ラーメンが食べたい」と頼まれたことだったという。漁の合間の短い時間で腹を満たす必要があった漁師町では、出汁からじっくり仕込む余裕はなかったのだろう。チャーシューの煮汁を湯で割るだけという簡略さは、時間に追われる働き手の食卓への答えとして読める。漁に出る前後の慌ただしさが、そのまま調理の速さに映し込まれているようにも見える。",
+   "body_en": "## What it's made of\nLook into the bowl and there's no cloudy broth to find, just a clear, soy-colored liquid with a thick slice of chashu resting in it. The first taste is straightforwardly the fat and sweet-salty soy of simmered pork, none of the layered complexity of a slow-built stock. Some shops use dried noodles, valued less for chew than for how lightly they soak up the broth. Unadorned as it looks, the bowl carries itself entirely on that direct intensity.\n\n## How it's made\nThere's said to be no long stock-making step at all. The soy tare used to simmer the chashu is ladled straight into the bowl, then cut with hot water, either the noodle-boiling water or water simply brought to a boil. The chashu's simmering liquid doubles as the broth, which seems to be the whole idea behind Takeoka-style ramen. With no elaborate prep, a bowl can go out fast once it's ordered — nearly all the effort is concentrated into the chashu simmered ahead of time.\n\n## Why it took this shape\nOne account holds that it began around 1954, when a shop that had sold sweets was asked by local fishermen for something more like ramen. In a fishing town where meals had to fit into short breaks between hauls, there may not have been time for a slow-built stock. Cutting chashu simmering liquid with hot water reads as an answer to a table where every minute mattered. The rush of a fisherman's schedule, before and after each trip out, seems to be baked directly into how fast this bowl can be made.",
+   "sources": [
+    {
+     "title": "梅乃家",
+     "url": "https://maruchiba.jp/gourmet/spot/detail_11108.html",
+     "publisher": "千葉県公式観光サイト ちば観光ナビ（千葉県）",
+     "accessed_at": "2026-09-02"
+    },
+    {
+     "title": "千葉・竹岡式ラーメン発祥「梅乃家」！チャーシューの煮汁とお湯だけのスープとは!?",
+     "url": "https://www.travel.co.jp/guide/article/14452/",
+     "publisher": "トラベルjp 旅行ガイド",
+     "accessed_at": "2026-09-02"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "tsuruga",
+     "relation_type": "対比",
+     "basis": "どちらも働き手の時間的制約から仕込みを簡略化した点は共通するが、竹岡は煮汁を湯で割るだけ、敦賀は鶏豚のスープを深夜まで屋台で炊き続けるという方向の違い。",
+     "from_slug": "takeoka"
+    }
+   ]
+  },
+  {
+   "slug": "tenri",
+   "body_ja": "## 何でできているか\n丼の表面を覆うのは、強火で炒めた白菜の山。にんにくと唐辛子の香りが先に鼻を突き、そのあとから醤油だれのコクと肉の脂が追いかけてくる。白菜はしんなりしながらも歯ごたえを残し、汁を吸って甘みを増す。ラーメンの具としては珍しい野菜の量が、この一杯の見た目からして他と違う。麺をすする前に、まず野菜だけで箸が止まるほどのボリュームがある。\n\n## どう作るのか\n白菜と豚肉を中華鍋でまとめて強火で炒め、にんにくと唐辛子を効かせるのがこの一杯の要とされる。炒めた具をそのまま醤油だれのスープに乗せることで、野菜の甘みと辛みが層になって残る。あらかじめ煮込んで具材を柔らかくしすぎないのも特徴で、白菜のシャキッとした食感を最後まで保つ工夫と伝わる。強火で一気に仕上げることで、水っぽくならずに野菜の甘みだけが凝縮される。\n\n## なぜこの形になったのか\n天理は寺社の門前町として、参拝や行事で訪れる人が絶えない土地だったと伝わる。一説によると、夜遅くまで人が行き交うこの町で、体を温めて腹持ちのする一杯として今の形が育ったという。にんにくと唐辛子で辛みを効かせ、野菜をたっぷり炒め込むスタイルは、夜を歩く人へのスタミナ食としての答えと読める。門前町という人の出入りの多さが、量と辛さの両方を後押ししたとも考えられる。",
+   "body_en": "## What it's made of\nA mound of hard-fried hakusai cabbage covers the surface of the bowl. Garlic and chili hit the nose first, followed by the richness of the soy tare and the fat from the meat. The cabbage stays crisp even after softening in the heat, sweetening as it soaks up the broth. The sheer volume of vegetables on top sets this bowl apart from most ramen at a glance — chopsticks can stall on the vegetables alone before the noodles are even reached.\n\n## How it's made\nCabbage and pork are stir-fried together over high heat with garlic and chili, said to be the heart of this bowl. Piling the stir-fry straight onto the soy broth keeps the vegetables' sweetness and heat in distinct layers rather than blending them in. The cabbage is deliberately not simmered soft beforehand, kept crisp through to the last bite. Finishing it fast over high heat is said to concentrate the vegetables' sweetness rather than letting it water down.\n\n## Why it took this shape\nTenri grew as a town people passed through for temple visits and events, with foot traffic that reportedly ran late into the night. One account holds that this bowl took shape as something warming and filling for people still moving through town after dark. The garlic, the chili, the heap of stir-fried vegetables, all of it reads as an answer built for stamina on a late walk. The steady flow of visitors through a temple town may well be what pushed both the portion size and the heat this far.",
+   "sources": [
+    {
+     "title": "彩華ラーメンとは",
+     "url": "https://www.saikaramen.com/about/",
+     "publisher": "彩華ラーメン公式サイト",
+     "accessed_at": "2026-09-02"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "taiwan-ramen",
+     "relation_type": "対比",
+     "basis": "にんにくと辛味を効かせた炒め系トッピングでスタミナを狙う点は共通するが、天理は白菜中心の野菜量、台湾ラーメンは唐辛子入り挽肉が主役という違い。",
+     "from_slug": "tenri"
+    }
+   ]
+  },
+  {
+   "slug": "tokushima",
+   "body_ja": "## 何でできているか\n色濃い豚骨醤油のスープに、甘辛く煮た豚バラ肉がのる。割り入れた生卵がスープの熱でとろりと半熟になり、白身がスープに溶けて全体を丸くする。豚骨の脂と濃口醤油の甘辛さが先に来て、生卵を崩すごとに味がまろやかに変わっていく。ご飯を合わせて食べる前提の、濃いめの一杯とされる。すき焼きに近い甘辛さが、麺料理でありながらどこか惣菜のように感じさせる。\n\n## どう作るのか\n豚骨でじっくり炊いたスープに濃口醤油を合わせ、色の濃い豚骨醤油に仕立てる。別鍋で豚バラ肉を甘辛いタレでとろとろになるまで煮込み、麺の上にのせるのが定番の作り方。仕上げに生卵を割り入れる型が広く知られ、豚バラの甘辛さと生卵のまろやかさを一杯の中で行き来させる食べ方が根付いていると伝わる。麺は控えめな細さにとどめ、具の濃さを邪魔しないよう調整されている。\n\n## なぜこの形になったのか\n一説によると、徳島には食肉加工の工場があり、豚骨が比較的手に入りやすい土地だったという。安く仕入れられる豚骨を大鍋でじっくり炊く豚骨スープが根付き、そこに濃口醤油を合わせて色の濃い一杯が育ったと考えられる。豚バラと生卵を合わせる食べ方は、ラーメンでありながらご飯のおかずとしても成立するよう調整された結果、との見方もある。原料が手近にあったことが、そのまま濃さの方向を決めたのだろう。",
+   "body_en": "## What it's made of\nA dark tonkotsu-soy broth carries sweet-savory simmered pork belly on top. A raw egg cracked into the hot broth turns softly custardy, its white dissolving in to round out the whole bowl. The fat of the pork bones and the sweet punch of dark soy sauce arrive first, and the flavor turns milder each time the egg is broken further into the soup. It's built rich enough to eat alongside a bowl of rice — the sweet-savory edge feels closer to sukiyaki than to a typical noodle soup.\n\n## How it's made\nPork bones are simmered slowly into a stock, then combined with dark soy sauce for a deep-colored tonkotsu-soy broth. Separately, pork belly is simmered in a sweet-savory tare until it falls apart, then laid over the noodles, the standard method here. Cracking a raw egg in at the end is a widely recognized finish, letting the sweet pork belly and the mellowing egg play off each other bite by bite. The noodles themselves are kept modestly thin, so as not to compete with the richness on top.\n\n## Why it took this shape\nOne account holds that Tokushima was home to a meat-processing plant, which made pork bones relatively easy to come by. A rich tonkotsu broth, simmered for hours from cheaply sourced bones, is thought to have taken root here, later paired with dark soy for its deep color. Some see the pairing of sweet pork belly and raw egg as a way of making the bowl double as a side dish for rice, not just a noodle soup on its own. Having the raw material close at hand may simply have decided how rich the bowl would become.",
+   "sources": [
+    {
+     "title": "徳島ラーメンの魅力を徹底解剖！歴史から美味しい食べ方までご紹介！",
+     "url": "https://shikoku-tourism.com/feature/tokushimaramen/1",
+     "publisher": "四国ツーリズム創造機構",
+     "accessed_at": "2026-09-02"
+    },
+    {
+     "title": "豚バラ肉スタイルの徳島ラーメン元祖「銀座一福」が今年で創業70年目",
+     "url": "https://www.topics.or.jp/articles/-/360977",
+     "publisher": "徳島新聞社",
+     "accessed_at": "2026-09-02"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "saga",
+     "relation_type": "対比",
+     "basis": "どちらも生卵を割り入れて食べる豚骨系だが、徳島は濃い豚骨醤油に甘辛い豚バラをのせ、佐賀はやわらかく炊いた豚骨に生卵だけを合わせるという違い。",
+     "from_slug": "tokushima"
+    }
+   ]
+  },
+  {
+   "slug": "tokyo",
+   "body_ja": "## 何でできているか\n鶏ガラと煮干しでとった、澄んだ醤油スープ。細めの縮れ麺にチャーシュー、なると、刻みねぎといった、あとから見れば誰もが知る組み合わせが並ぶ。強い個性を主張する一杯ではなく、むしろ「これがラーメンの基本形」と言われて誰もが思い浮かべる姿に近い。長らく中華そばと呼ばれてきた、飾らない一杯とされる。奇をてらったところがひとつもないのに、これが基準になっている点がむしろ特異である。\n\n## どう作るのか\n鶏ガラを主軸に、煮干しやかつお節、昆布といった和のだしを重ねてスープを仕立てる作り方が土台になっていると伝わる。中国由来の麺料理をそのまま持ち込むのではなく、蕎麦のつゆに近い澄んだ出汁の考え方に寄せて再設計されたのがこの一杯だという。醤油だれは強すぎず、だしの香りを消さない加減に調える。具材も過剰に飾らず、麺とスープの輪郭をそのまま見せる作り方が貫かれている。\n\n## なぜこの形になったのか\n一説によると、始まりは明治末、浅草に開いた中華料理店が出した「支那そば」だったという。江戸の頃から蕎麦つゆで澄んだ出汁の味に親しんできた土地の舌に合わせ、中国の麺料理は次第に和風だしへと寄っていったと考えられる。もとからあった蕎麦文化の延長として受け入れやすい形に落ち着いた結果が、この澄んだ醤油スープなのだろう。よそから来た料理が、この土地の水と舌に合わせて姿を変えていった一例といえる。",
+   "body_en": "## What it's made of\nA clear soy broth built on chicken bones and dried sardines. Thin wavy noodles, char siu, a slice of narutomaki, chopped scallion, a combination that, in hindsight, is simply what everyone pictures when they hear the word ramen. It doesn't push a strong personality; it reads instead as the shape people default to when asked to describe the basic bowl. Long called chuka soba, it stays unadorned — and it's precisely that lack of any twist that makes it the standard everyone else is measured against.\n\n## How it's made\nThe base is said to be chicken bones layered with distinctly Japanese stocks, dried sardines, katsuobushi, kombu. Rather than importing Chinese noodle soup wholesale, this bowl is thought to have been reworked toward the clear, dashi-forward logic of soba broth. The soy tare is kept light enough not to bury the stock's aroma. The toppings, too, avoid excess, letting the plain outlines of noodle and broth stand on their own.\n\n## Why it took this shape\nOne account traces it to the late Meiji era, when a Chinese restaurant that opened in Asakusa served a dish called shina soba. Local palates, long accustomed to the clear dashi of soba broth, are thought to have gradually pulled the Chinese noodle dish toward a more Japanese-style stock. What settled out was a bowl easy to accept as an extension of an existing soba culture, this clear soy broth. It reads as a case of an imported dish reshaping itself to fit the water and palate already established here.",
+   "sources": [
+    {
+     "title": "東京「淺草 來々軒」 - 店舗情報",
+     "url": "https://www.raumen.co.jp/shop/rairaiken.html",
+     "publisher": "新横浜ラーメン博物館",
+     "accessed_at": "2026-09-02"
+    },
+    {
+     "title": "戦前の東京ラーメン",
+     "url": "https://www.rice.press/eat/24102",
+     "publisher": "RiCE.press",
+     "accessed_at": "2026-09-02"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "hachioji",
+     "relation_type": "対比",
+     "basis": "同じ東京都内でありながら、中心部の中華そばは鶏ガラと煮干しの基本形にとどまり、郊外の八王子は刻み玉ねぎという独自トッピングで枝分かれしたという対照。",
+     "from_slug": "tokyo"
+    }
+   ]
+  },
+  {
+   "slug": "tottori-gyukotsu",
+   "body_ja": "## 何でできているか\n澄んだ黄金色のスープからは、豚骨とも鶏ガラとも違う香ばしさが立つ。牛骨特有の軽い甘みとコクがあり、豚骨スープほど脂っこくはない。醤油だれと合わせても後味はすっきりしていて、県中部では昼夜を問わず日常的に食べられている、飾らない一杯とされる。焼肉店で出されることも多く、食後の締めのようにさらりと入っていく軽さがある。\n\n## どう作るのか\n牛骨を長時間じっくり炊いてだしをとるのが基本とされる。一説によると、当初は牛骨と豚骨を合わせて炊く店もあったが、やがて牛骨だけの製法に落ち着いていったという。10時間を超えて煮込んでも臭みが出にくく、むしろ旨みが増していくのが牛骨の特徴とされ、その扱いやすさがこの土地の製法を決めたと考えられる。長時間煮込む工程そのものが、日常食として繰り返し作られる中で磨かれてきたのだろう。\n\n## なぜこの形になったのか\n鳥取県中部は、大山のふもとを中心に古くから牛の飼育が盛んな土地だったと伝わる。かつて鶏ガラは高価だった一方、牛骨は比較的安く手に入ったとされ、地元で調達できる材料でだしをとる自然な選択として牛骨スープが根付いたのだろう。豚骨でも鶏ガラでもない一杯は、畜産の町だからこそ育った形と読める。手に入るものでだしをとるという、土地の事情がそのままスープの骨格になっている。",
+   "body_en": "## What it's made of\nA clear, golden broth carries a toasty note different from pork bone or chicken. Beef bone gives it a light sweetness and body, without the heaviness of tonkotsu. Paired with soy tare, the finish stays clean, an unpretentious bowl eaten day and night across central Tottori. It's often served at yakiniku restaurants too, light enough to slide down like a closing course after grilled meat.\n\n## How it's made\nBeef bones are simmered slowly for a long stretch to build the stock. One account holds that some shops originally simmered beef and pork bones together before settling on beef alone. Beef bone reportedly holds up well even past ten hours of simmering, growing more savory rather than gamey, and that forgiving quality is thought to have shaped the local method. The long-simmer process itself seems to have been refined simply through being cooked over and over as everyday food.\n\n## Why it took this shape\nCentral Tottori, around the foot of Mount Daisen, has long been cattle country. Chicken bones were once relatively costly, while beef bones were comparatively cheap and close at hand, and using what was locally available seems the natural root of this broth. Neither pork bone nor chicken, this bowl reads as a shape that only a cattle-raising town would land on. Making stock from whatever was on hand locally became, in effect, the backbone of the broth itself.",
+   "sources": [
+    {
+     "title": "【倉吉】ザ・ラーメン特集",
+     "url": "https://www.kurayoshi-kankou.jp/feature/ramen/",
+     "publisher": "倉吉市観光協会",
+     "accessed_at": "2026-09-02"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "kagoshima",
+     "relation_type": "対比",
+     "basis": "どちらも標準的な豚骨や鶏ガラから一歩ずれた土地の事情がスープを決めた点は共通するが、鳥取は牛骨に置き換え、鹿児島は豚骨を鶏や野菜でやわらげるという違い。",
+     "from_slug": "tottori-gyukotsu"
+    }
+   ]
+  },
+  {
+   "slug": "toyama-black",
+   "body_ja": "## 何でできているか\n丼を覗くと、スープはほとんど黒に近い濃口醤油の色をしている。粗く挽いた黒胡椒がぴりっとアクセントを添え、極太のストレート麺がその濃さを受け止める。ひと口すすると塩気がまっすぐ来て、白飯を隣に置きたくなる濃さ。脇に添えられた白飯は、添え物というより一杯の一部として扱われている。麺よりも先に汁を数口飲ませるほどの塩気の強さが、この一杯の芯にある。\n\n## どう作るのか\n濃口醤油をそのまま色に映すように、控えめに薄めてスープを仕立てるのがこの一杯の作り方とされる。出汁を丸くぼかすより、醤油の色と塩気を前面に出す配合が選ばれてきたと伝わる。仕上げに粗挽きの黒胡椒をたっぷりとふり、極太麺で受け止めることで、薄まらずに最後まで濃い味わいが続く。麺を太くすることで、濃いスープに負けない存在感を確保しているとも言える。\n\n## なぜこの形になったのか\n一説によると、始まりは1955年ごろ、戦災からの復興工事に従事する肉体労働者のための一杯だったという。汗を大量にかく仕事のあと、塩分を手早く補える濃い味が求められたと考えられる。屋台で出されていたこの一杯が、白飯と合わせて食べる前提の塩気の強さを保ったまま、今の形に育ったと読める。ラーメンでありながらおかずとして機能する濃さは、働く体への実用的な答えだったのだろう。",
+   "body_en": "## What it's made of\nLook into the bowl and the broth is almost black with dark soy sauce. Coarsely cracked black pepper adds a sharp accent, and extra-thick straight noodles hold up against the intensity. The first sip lands salty and direct, the kind of bowl that makes you want a side of rice. That rice isn't really a side dish here; it's part of the meal. The saltiness is strong enough that a few sips of broth alone can feel like a course before the noodles even arrive.\n\n## How it's made\nThe broth is built to let dark soy sauce show its full color, diluted only lightly rather than rounded out with a softer stock. Soy's color and salt are pushed to the front rather than blended away, by all accounts a deliberate choice. A heavy dusting of coarse black pepper finishes it, and the extra-thick noodles carry the intensity through to the last bite without it fading. Thickening the noodles seems to be exactly what lets them hold their own against a broth this strong.\n\n## Why it took this shape\nOne account traces it to around 1955, as a bowl made for laborers working on post-war reconstruction. After a day of heavy sweat, a strongly salted meal that could quickly replace lost salt is thought to have been what was needed. Served from a food stall, this bowl is said to have kept its saltiness deliberately strong, built from the start to be eaten alongside a bowl of rice. A ramen that doubles as a side dish for rice reads as a practical answer for bodies worn down by physical labor.",
+   "sources": [
+    {
+     "title": "見た目が印象的な「富山ブラックラーメン」",
+     "url": "https://www.gov-online.go.jp/hlj/ja/november_2024/november_2024-02.html",
+     "publisher": "政府広報オンライン（内閣府）",
+     "accessed_at": "2026-09-02"
+    },
+    {
+     "title": "私のおすすめ富山ブラック6選！と富山ブラックの歴史",
+     "url": "https://www.info-toyama.com/articles/kamojima-toyamablack",
+     "publisher": "富山市観光協会",
+     "accessed_at": "2026-09-02"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "tsubame-seabura",
+   "body_ja": "## 何でできているか\n丼の表面を覆うのは、雪のように積もった背脂の層。湯気はほとんど立たず、見た目より熱を内側に閉じ込めている。煮干しの効いた醤油スープはコクが強く、極太の麺は噛みごたえがあってすぐには伸びない。金属加工の町で育った、腹にたまる一杯とされる。ひと口目から最後の一口まで、スープの温度がほとんど落ちないのが体感でわかる。\n\n## どう作るのか\n煮干しなどの魚介からとった濃いめの醤油スープに、細かく刻んだ豚の背脂をたっぷりとのせるのがこの一杯の作り方。背脂がスープの表面を覆うことで冷めにくくなり、出前で届くまでの時間が長くても熱いまま食べられると伝わる。麺は伸びにくい極太のものを合わせ、腹持ちを優先した組み合わせになっている。背脂の量そのものが、出前先までの距離と時間を見込んだ調整とも言われる。\n\n## なぜこの形になったのか\n燕は金属洋食器の製造で栄えた町で、深夜まで働く職人たちの出前需要が多かったと伝わる。工場まで届く間に冷めない一杯が求められ、背脂で表面を覆う工夫がそれに応えた形と考えられる。極太麺と濃い煮干し醤油の組み合わせも、汗を流して働く人の腹を満たす食事としての答えと読める。出前という届け方そのものが、丼の中身の設計を逆算して決めていったのだろう。",
+   "body_en": "## What it's made of\nThe surface of the bowl is buried under a snowfall of pork back fat. Little steam escapes, the heat is locked in rather than shown off. The niboshi-soy broth underneath runs rich, and the extra-thick noodles have enough chew that they hold up rather than going soft right away. A filling bowl, raised in a metalworking town. From the first spoonful to the last, the broth's temperature barely seems to drop.\n\n## How it's made\nA deep soy broth stocked with dried sardines gets a heavy layer of finely diced pork back fat piled on top. That layer of fat is said to keep the bowl from cooling, letting it stay hot even after a long delivery run. The noodles are cut extra-thick specifically so they won't go soft, prioritizing staying power over anything delicate. Even the amount of back fat is said to have been calibrated against how far, and how long, a delivery run might take.\n\n## Why it took this shape\nTsubame grew as a town built on metal tableware manufacturing, and demand for late-night delivery to workshops full of craftsmen working past midnight is said to have been heavy. A bowl that wouldn't go cold on the way to the factory floor was needed, and covering the surface with back fat is thought to have been the answer. The extra-thick noodles and rich niboshi-soy broth read the same way, built to fill the stomachs of people sweating through a shift. The logistics of delivery itself seems to have worked backward into the design of the bowl.",
+   "sources": [
+    {
+     "title": "燕の背脂ラーメンが「100年フード」に認定されました。",
+     "url": "https://www.city.tsubame.niigata.jp/soshiki/sangyo_shinko/1/70/12242.html",
+     "publisher": "燕市",
+     "accessed_at": "2026-09-02"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "onomichi",
+     "relation_type": "対比",
+     "basis": "どちらも背脂を醤油スープの表面に浮かせる技法が共通するが、燕は極太麺で出前の冷めにくさを狙い、尾道は瀬戸内の小魚出汁に背脂でコクを足すという狙いの違い。",
+     "from_slug": "tsubame-seabura"
+    }
+   ]
+  },
+  {
+   "slug": "tsugaru",
+   "body_ja": "## 何でできているか\n醤油スープからまず立つのは、煮干しの香り。あっさりした店もあれば、煮干しを煮詰めるように効かせた濃厚な店もあり、幅は広い。細めの縮れ麺がそのスープをまとい、すすると魚の出汁がまっすぐ舌に残る。津軽の家庭でよく知られた味を、そのままどんぶりに移したような一杯とされる。同じ地方の中でも店ごとに濃さが大きく振れるのも、この土地ならではの幅とされる。\n\n## どう作るのか\n煮干しを軸に据え、あっさり系ではだしを短時間で引き、濃厚系では煮干しを長く煮出してとろみが出るほど煮詰めるとされる。味噌汁やそばつゆにも煮干しだしを使う家庭の習慣が、そのままラーメンの出汁の取り方に持ち込まれたと伝わる。醤油だれは煮干しの香りを消さない程度に控えめに合わせる。魚の生臭みを抑えつつ旨みだけを引き出す下処理に、店ごとの工夫が集まっているという。\n\n## なぜこの形になったのか\n津軽地方は陸奥湾に面し、古くからいわしなどの小魚が豊富に獲れる土地だったと伝わる。獲れた魚を乾物にして保存する暮らしの中で、煮干しは味噌汁からそばつゆまで日常のだしとして根付いていたという。その延長として中華そばにも煮干しが使われ、家庭の味がそのままご当地の型として残ったと考えられる。海に近い土地の保存の知恵が、姿を変えずにどんぶりの中に残っているとも言える。",
+   "body_en": "## What it's made of\nThe first thing that rises from the soy broth is the smell of dried sardines. Some shops keep it light; others reduce the niboshi down into something intensely concentrated, and the range between them is wide. Thin wavy noodles carry the broth, and the fish stock lingers straight on the tongue with every slurp. It reads as a familiar Tsugaru home flavor, simply moved into a ramen bowl — and the wide swing in intensity from shop to shop within the same region is itself part of the local character.\n\n## How it's made\nDried sardines anchor the stock throughout, lightly drawn for a delicate broth, or simmered down for a long stretch until it thickens for the richer style. The habit of using niboshi stock at home, in miso soup and soba broth alike, is said to have carried straight over into how the ramen stock is made. The soy tare is kept restrained enough not to bury the niboshi's aroma. Much of each shop's individual craft is said to go into the prep work that pulls out the fish's savoriness while keeping any fishy edge in check.\n\n## Why it took this shape\nThe Tsugaru region faces Mutsu Bay, long known for a plentiful catch of small fish like sardines. In a life built around drying the catch for preservation, niboshi is said to have settled into everyday cooking, from miso soup to soba broth. That habit is thought to have carried over into chuka soba as well, leaving a home flavor preserved almost unchanged as the local style. The preservation wisdom of a coastal life seems to have landed in the bowl largely unaltered.",
+   "sources": [
+    {
+     "title": "青森に来たら食べたい煮干しラーメンの魅力",
+     "url": "https://aomori-tourism.com/feature/detail_223.html",
+     "publisher": "青森県観光情報サイト Amazing AOMORI（青森県）",
+     "accessed_at": "2026-09-02"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "hachinohe",
+     "relation_type": "兄弟",
+     "basis": "どちらも青森県内で煮干しを軸にした醤油ラーメン。津軽（弘前）はあっさりから濃厚まで幅があり、八戸は地鶏を加えたあっさり系に寄るという、同じ煮干し文化から分かれた土地違いの型。",
+     "from_slug": "tsugaru"
+    }
+   ]
+  },
+  {
+   "slug": "tsuruga",
+   "body_ja": "## 何でできているか\n鶏ガラと豚骨を合わせた醤油スープに、中太の麺。あっさりしすぎず、かといって重すぎない、屋台の一杯として食べ切りやすい濃さに整えられている。夜の屋台の灯りの下ですする一杯は、寒さの残る港町の空気とセットで記憶されることが多いと伝わる。チャルメラの音とともに立ち上る湯気も、この一杯の記憶の一部になっているという。\n\n## どう作るのか\n鶏ガラと豚骨を合わせて炊いたスープに、醤油だれを合わせるのが基本とされる。屋台という限られた設備の中で仕込みと提供を回すため、あっさりしすぎない濃さと、手早く出せる調理の簡潔さの両立が求められてきたと伝わる。深夜まで営業を続ける屋台の性質上、長時間持たせやすいスープの作り方が根付いたとも考えられる。限られた鍋と火力の中で完結させる工夫が、味の型を決めてきたのだろう。\n\n## なぜこの形になったのか\n一説によると、始まりは1953年ごろ、敦賀駅前に出た屋台だったという。鉄道の乗客や職員、のちにはトラック運転手たちが、夜遅くに小腹を満たす場として屋台に集まったと伝わる。港町・鉄道の町として夜通し人が動く土地柄が、深夜まで灯りをともす屋台のラーメンという今の形を育てたと読める。人の動きが途切れない土地だからこそ、屋台という形態そのものが定着したとも言える。",
+   "body_en": "## What it's made of\nA soy broth built on both chicken bones and pork bones, carrying medium-thick noodles. It's tuned to be neither too light nor too heavy, a bowl sized to finish comfortably at a street stall. Slurped under the glow of a night stall's lantern, it's often remembered together with the chill air of a harbor town. The sound of a charumera horn drifting through the steam is said to be part of the memory too.\n\n## How it's made\nChicken bones and pork bones are simmered together, then combined with a soy tare, the basic method here. Working within the limits of a street stall meant balancing a broth substantial enough to satisfy with a method quick enough to serve fast. Running late into the night is also said to have shaped a stock built to hold up over a long stretch of service. Working within a single pot and a modest burner seems to have set the template for the flavor itself.\n\n## Why it took this shape\nOne account traces it to around 1953, when a food stall first appeared in front of Tsuruga Station. Train passengers, railway staff, and later truck drivers are said to have gathered at the stalls late at night for something to fill them up. A harbor and railway town where people kept moving through the night is thought to have shaped this bowl into the ramen served from lantern-lit stalls it remains today. It may be precisely because people never stopped moving through this town that the street-stall format itself took hold.",
+   "sources": [
+    {
+     "title": "敦賀ラーメン",
+     "url": "https://tsuruga-kanko.jp/gourmet_souvenir/tsuruga-ramen/",
+     "publisher": "旅する港町つるが 敦賀観光公式サイト（敦賀市観光協会）",
+     "accessed_at": "2026-09-02"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "sakata",
+     "relation_type": "対比",
+     "basis": "どちらも港町ゆえに育った醤油ラーメンだが、敦賀は深夜まで灯る屋台文化、酒田は自家製麺と魚介出汁へのこだわりという、港町の答え方の違い。",
+     "from_slug": "tsuruga"
+    }
+   ]
+  },
+  {
+   "slug": "wakayama",
+   "body_ja": "## 何でできているか\n地元では「中華そば」と呼ばれる、豚骨と醤油を合わせた濃いめのスープ。テーブルには早寿司（さばの押し寿司）とゆで卵が置かれていて、ラーメンを待つ間や食べながらつまむのが和歌山流。麺だけでなく、卓上の寿司まで含めて一杯の体験になっている。丼が来る前から食事が始まっている、という感覚がこの土地ならではのものとされる。\n\n## どう作るのか\n豚骨を炊いた濃いめのスープに醤油だれを合わせるのが基本とされる。店によってあっさりとした昔ながらの味と、煮詰めてまろやかにした濃厚な味とに分かれると伝わる。特徴的なのは提供の仕方で、早寿司とゆで卵を卓上に常備し、客が食べた分を自己申告して会計するという、他所ではあまり見ない習慣が根付いている。スープの濃さより先に、この会計の仕組みが店の個性を語ることも多い。\n\n## なぜこの形になったのか\n一説によると、始まりは戦後まもなく、路面電車の車庫前で営業していた屋台だったという。鉄道関係者や地元客が入れ替わり立ち替わり訪れる場では、寿司や卵を卓上に置いておき、客が自分のペースでつまむ形が自然だったのだろう。信頼に基づく自己申告の会計も、常連が行き交う土地の空気から育った習慣と読める。回転の速い車庫前という立地が、この開けた食べ方の土台になったと考えられる。",
+   "body_en": "## What it's made of\nLocally called chuka soba, a rich broth combining pork bones and soy sauce. On the table sits hayazushi, pressed mackerel sushi, and boiled eggs, meant to be picked at while waiting for the ramen or alongside it. The experience here includes what's on the table, not just what's in the bowl — the meal seems to begin before the ramen itself even arrives.\n\n## How it's made\nA rich pork-bone stock combined with soy tare is the basic method. Shops split between a lighter, old-fashioned style and a richer one, reduced down until it turns mellow. What stands out is the service: hayazushi and boiled eggs are kept on the table at all times, and diners self-report what they ate when the bill comes, a custom rarely seen elsewhere. That billing system often defines a shop's character even more than the broth's intensity does.\n\n## Why it took this shape\nOne account traces it to just after the war, to a stall that operated in front of a streetcar depot. In a spot where railway workers and regulars came and went constantly, keeping sushi and eggs on the table for customers to pick at their own pace seems a natural fit. The trust-based, self-reported billing reads as a habit that grew out of a place where familiar faces kept passing through. A high-turnover spot like a depot entrance may well be what gave this open, help-yourself style its foundation.",
+   "sources": [
+    {
+     "title": "和歌山ラーメンの歴史・特徴を徹底解説＆地元で愛されるお店13選",
+     "url": "https://www.wakayama-kanko.or.jp/features/detail_616.html",
+     "publisher": "和歌山県公式観光サイト（和歌山県）",
+     "accessed_at": "2026-09-02"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "miyazaki",
+     "relation_type": "対比",
+     "basis": "どちらも卓上に置かれた副菜を客が自分のペースで足していく文化を持つが、和歌山は早寿司と自己申告制の会計まで巻き込み、宮崎は漬物を添えるだけという踏み込みの違い。",
+     "from_slug": "wakayama"
+    }
+   ]
+  },
+  {
+   "slug": "yamagata-hiyashi",
+   "body_ja": "## 何でできているか\nどんぶりの中で氷が浮いている、というのがまず目を引く。スープごと冷たく仕立てた醤油ラーメンで、かつおと昆布でとった出汁は冷えても風味が沈まない。麺も冷水でしめてあり、すすると清涼感がまっすぐ喉を通る。真夏に汗だくで食べる一杯として知られている。氷が溶けて薄まるまでの間に食べ切ることが、この一杯を味わい尽くすコツとされる。\n\n## どう作るのか\nかつおと昆布で出汁をとり、醤油だれを合わせたスープをしっかり冷やすのが基本とされる。麺も茹でたあと冷水でしめ、コシを保ったまま提供する。仕上げに氷を丼へ直接浮かべることで、食べ終わるまでスープの温度がぬるまないようにする工夫が、この一杯の核とされる。温かいラーメンと同じだしを使いながら、冷やす工程だけを丸ごと足した格好になっている。\n\n## なぜこの形になったのか\n一説によると、そば屋だった店が「夏でも冷たい蕎麦のようにラーメンを食べたい」という常連客の声を受け、試行錯誤の末に考案したのが始まりだという。山形盆地は夏の暑さが厳しいことで知られる土地で、熱いラーメンを避けたい季節の需要に、スープごと凍らせるほど冷やすという答えが返された結果と読める。盆地特有の蒸し暑さが、だしの温度まで疑う発想を後押ししたのだろう。",
+   "body_en": "## What it's made of\nThe first thing you notice is ice, floating right in the bowl. This is a soy ramen chilled through, broth and all, built on a katsuobushi-and-kombu stock that keeps its flavor even cold. The noodles are also rinsed in cold water, and each slurp carries a straight shot of coolness down the throat. It's known as a bowl for sweating through the height of summer, and part of the trick is finishing it before the ice fully melts and dilutes the broth.\n\n## How it's made\nA stock of katsuobushi and kombu, combined with soy tare, is thoroughly chilled, the basic method here. The noodles are boiled, then rinsed in cold water to keep their bite while cooling them down. Floating ice directly in the bowl at the end, so the broth stays cold through the last bite, is said to be the heart of this dish. It uses essentially the same stock as a hot bowl, with an entire chilling step simply added on top.\n\n## Why it took this shape\nOne account holds that a shop which had sold soba, hearing a regular customer wish they could eat ramen the way they ate cold soba in summer, worked out this version through trial and error. The Yamagata Basin is known for brutally hot summers, and this bowl reads as the answer to a season when a steaming hot ramen was the last thing anyone wanted, chilled down, broth included, almost to the point of ice. The basin's particular mugginess seems to be what pushed the idea as far as questioning the temperature of the stock itself.",
+   "sources": [
+    {
+     "title": "【＃123】山形名物！冷やしラーメンめぐり～山形市",
+     "url": "https://yamagatakanko.com/yamagatabi-123",
+     "publisher": "やまがたへの旅 山形県の公式観光・旅行情報サイト（山形県）",
+     "accessed_at": "2026-09-02"
+    },
+    {
+     "title": "元祖冷やしラーメン 山形 栄屋本店",
+     "url": "https://yamagata-sakaeyahonten.com/",
+     "publisher": "栄屋本店",
+     "accessed_at": "2026-09-02"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "yokohama",
+   "body_ja": "## 何でできているか\n豚骨と鶏ガラを合わせた濃い醤油スープに、太い麺。表面に脂の膜が張り、湯気の下でも熱が長く保たれる。トッピングのほうれん草と海苔は彩りだけでなく、脂の重さの合間に箸休めとして機能している。丼一杯でご飯もいける満足感を狙った、力強い一杯とされる。麺を一本すすっただけで、体を動かして働いた後の一杯だとわかるような重さがある。\n\n## どう作るのか\n豚骨を強火で炊いた濃厚なスープに、鶏ガラの醤油だれを合わせるのが基本とされる。太めの麺は硬めに茹で、濃いスープにも負けない存在感を残す。ほうれん草と海苔を毎回同じ位置に乗せる型が広く定着し、店ごとの違いよりもこの基本形を踏襲することが重んじられていると伝わる。麺の硬さや脂の量を客が細かく指定できる店が多いのも、この型ならではの特徴とされる。\n\n## なぜこの形になったのか\n一説によると、始まりは1974年、長距離トラックの運転手をしていた創業者が、九州の豚骨と関東の鶏ガラ醤油をひとつにまとめた一杯を出したことだったという。開いた店の周りは工場が並ぶ一帯で、体力を使う工場労働者やトラック運転手が主な客だったと伝わる。ご飯が欲しくなる濃さと量は、そうした働き手の腹を満たす一杯としての答えと読める。九州と関東の味を足し合わせる発想自体、運転手として各地を巡った経験から生まれたのだろう。",
+   "body_en": "## What it's made of\nA rich broth combining pork bones and chicken bones with soy, carrying thick noodles. A film of fat sits on the surface, keeping the heat in well past the first bite. The spinach and nori on top aren't just for color, they act as a breather between mouthfuls of the heavy broth. It's a hearty bowl, built with enough weight to work alongside a bowl of rice — heavy enough that a single slurp tells you this was built for someone who'd just put in a day of physical work.\n\n## How it's made\nA rich stock boiled hard from pork bones is combined with a chicken-bone soy tare, the basic method here. The thick noodles are boiled firm, holding their own against the intensity of the broth. Placing spinach and nori in the same spot on top has become a widely fixed convention, and following that basic template is said to matter more here than any one shop's individual twist. Many shops let customers dial in noodle firmness and fat level precisely, a level of customization distinctive to this style.\n\n## Why it took this shape\nOne account traces it to 1974, when a founder who had worked as a long-haul truck driver combined Kyushu-style tonkotsu with Kanto-style chicken-and-soy into a single bowl. The shop opened in an area lined with factories, and its main customers are said to have been factory workers and truck drivers doing physically demanding work. The richness and the volume that make you want rice on the side read as an answer built for people who needed a meal to carry them through a shift. The very idea of merging Kyushu and Kanto flavors seems to trace back to a driver's years spent crossing both regions on the road.",
+   "sources": [
+    {
+     "title": "全国ご当地ラーメン - 横浜ラーメン - ラーペディア",
+     "url": "https://www.raumen.co.jp/rapedia/study_japan/study_raumen_yokohama.html",
+     "publisher": "新横浜ラーメン博物館",
+     "accessed_at": "2026-09-02"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "hakata",
+     "relation_type": "対比",
+     "basis": "どちらも豚骨ベースの労働者食から育った点は共通するが、博多は極細麺と替え玉で回転を重視し、横浜（家系）は極太麺とほうれん草・海苔でご飯に合わせる重量級という違い。",
+     "from_slug": "yokohama"
+    }
+   ]
+  },
+  {
+   "slug": "yonezawa",
+   "body_ja": "## 何でできているか\nあっさりとした醤油スープに、細く縮れた麺。噛むと軽い弾力が返ってきて、するすると喉を通る。豚骨や鶏ガラでこってり攻める土地とは対照的に、スープはあくまで麺の縮れと絡み方を主役にするための脇役という位置づけに近い。米沢牛の濃厚さとは対照的な、軽さを狙った一杯とされる。米沢牛を食べる前の一杯として選ばれることが多いのも、この軽さゆえだという。\n\n## どう作るのか\n生地を直線に切り出したあと、一玉ずつ手でもみ込んで縮れを作り、数日寝かせて熟成させるのがこの麺の作り方とされる。手もみによる縮れは機械の均一な波とは違い、一本一本に表情が出ると伝わる。数日寝かせることで多加水の生地に独特の食感が生まれ、あっさりしたスープを持ち上げても負けない仕上がりになる。この手間のかかる工程こそが、米沢ラーメンの評価の核になっているとされる。\n\n## なぜこの形になったのか\n一説によると、東京の店で修業した料理人が米沢に戻り、この手もみの縮れ麺を考案したのが始まりだという。もとは中国人が営む屋台の中華そばがこの地にあったが、そこに手もみという技が加わり、米沢独自の麺として広まったと伝わる。あっさりしたスープを選んだのも、麺のかみごたえと香りを消さないための調整と考えられる。よそから来た技術と、もとからあった中華そばの土台が重なって生まれた一杯といえる。",
+   "body_en": "## What it's made of\nA light soy broth carries thin, wavy noodles. Each bite snaps back gently, and it slides easily down the throat. Where other regions push toward rich pork bone or chicken, the broth here plays more of a supporting role, built to let the noodles' curl and texture take the lead. Set against the richness of Yonezawa's famous beef, this is a bowl aimed at lightness — often chosen precisely because it's light enough to eat before a meal built around that beef.\n\n## How it's made\nThe dough is cut into straight strands, then hand-kneaded strand by strand to build the crimp, and rested for several days to age, that's said to be how these noodles are made. Hand-kneading gives each strand its own irregular character, unlike the even waves a machine produces. The days of resting develop a distinctive bite in the high-hydration dough, one substantial enough to carry a light broth without disappearing into it. That labor-intensive process is said to be the very thing the noodles are judged on.\n\n## Why it took this shape\nOne account holds that a cook who trained at a shop in Tokyo returned to Yonezawa and devised this hand-kneaded, crimped noodle. A Chinese-run food stall had reportedly already been serving chuka soba in the area, and hand-kneading is said to have been added on top of that, spreading as Yonezawa's own style of noodle. Choosing a light broth is thought to have been a deliberate choice too, one that wouldn't drown out the noodle's bite and aroma. It reads as a bowl born where an outside technique layered onto a foundation that was already locally in place.",
+   "sources": [
+    {
+     "title": "米沢の麺の歴史",
+     "url": "https://0141men.com/histry/",
+     "publisher": "米沢麺業組合",
+     "accessed_at": "2026-09-02"
+    },
+    {
+     "title": "米沢らーめんとは",
+     "url": "https://yonezawa-ramen.org/yonezawa-ramen/",
+     "publisher": "協同組合 米沢伍麺会",
+     "accessed_at": "2026-09-02"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "jumonji",
+     "relation_type": "対比",
+     "basis": "どちらも麺の作り方そのものが主役の東北の醤油ラーメンだが、十文字はかんすい不使用の細縮れ麺、米沢は手もみで数日熟成させる縮れ麺という製法の違い。",
+     "from_slug": "yonezawa"
+    }
+   ]
+  }
+ ]
+}
