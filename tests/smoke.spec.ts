@@ -224,6 +224,18 @@ test.describe("F-05 言語切り替え / F-08 SEO", () => {
     await expect(page.getByRole("link", { name: "Report a correction" })).toBeVisible();
   });
 
+  test("位置帯: 全国ミニ地図の下に東京駅からの距離・方位の一行が出る（本番体験レビュー対応）", async ({
+    page,
+  }) => {
+    // 「詳細に出てる地図見てもどこだか全然わからない」への対処（2026-09）。
+    // 都市レベル拡大図だけでなく、日本全体のどこかが伝わる一行を添える。
+    await page.goto("/ja/ramen/sapporo");
+    await expect(page.getByText(/東京から北へ約830km/)).toBeVisible();
+
+    await page.goto("/en/ramen/sapporo");
+    await expect(page.getByText(/About 830 km north of Tokyo/)).toBeVisible();
+  });
+
   test("hreflang が言語版を相互に紐付ける", async ({ page }) => {
     await page.goto("/ja/ramen/hakata");
     for (const lang of ["ja", "en", "x-default"]) {

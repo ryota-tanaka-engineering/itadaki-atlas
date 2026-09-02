@@ -52,7 +52,18 @@
     "connectionsStyleTitle": "More like this",
     "connectionsLandTitle": "This land, this ingredient",
     "connectionsViewAll": "All {name}",
-    "correction": "Report a correction"
+    "correction": "Report a correction",
+    "distanceFromTokyo": "About {km} km {direction} of Tokyo",
+    "direction": {
+      "N": "north",
+      "NE": "northeast",
+      "E": "east",
+      "SE": "southeast",
+      "S": "south",
+      "SW": "southwest",
+      "W": "west",
+      "NW": "northwest"
+    }
   },
   "language": {
     "label": "Language",

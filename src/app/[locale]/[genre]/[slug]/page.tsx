@@ -14,6 +14,7 @@ import {
 } from "@/features/map/queries";
 import { styleColor } from "@/features/map/styles";
 import { parseBodyMarkdown } from "@/features/map/markdown";
+import { distanceFromTokyo } from "@/features/map/geo";
 import { PositionBand } from "@/features/map/PositionBand";
 import { TableOfContents, BodyChapters } from "@/features/map/ItemBody";
 import { ItemConnections, type ConnectionCard, type RegionPill } from "@/features/map/ItemConnections";
@@ -98,6 +99,11 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
   const placeLabel = item.originPref
     ? `${tp(item.originPref)}${item.originCity ? (isJa ? item.originCity : ` ${item.originCity}`) : ""}`
     : item.nameRomaji;
+  // 位置帯の添え: 東京駅からの距離・方位（30km未満=都内相当は行ごと出さない）
+  const distance = hasGeo ? distanceFromTokyo(item.lat as number, item.lng as number) : null;
+  const distanceLabel = distance
+    ? t("distanceFromTokyo", { direction: t(`direction.${distance.direction}`), km: distance.km })
+    : null;
 
   // 3. 本文: body_md が無ければ目次ごと非表示（Tier1でもページが欠けて見えない設計）
   const chapters = item.bodyMd ? parseBodyMarkdown(item.bodyMd) : [];
@@ -184,7 +190,12 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
 
           {hasGeo && (
             <div className="px-4 pb-4 md:px-0 md:py-2">
-              <PositionBand lat={item.lat as number} lng={item.lng as number} label={placeLabel} />
+              <PositionBand
+                lat={item.lat as number}
+                lng={item.lng as number}
+                label={placeLabel}
+                distanceLabel={distanceLabel}
+              />
             </div>
           )}
         </div>

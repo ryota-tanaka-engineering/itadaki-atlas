@@ -52,7 +52,18 @@
     "connectionsStyleTitle": "同じ系統を、もっと",
     "connectionsLandTitle": "この土地と、この素材",
     "connectionsViewAll": "{name}の一覧へ",
-    "correction": "内容の訂正を送る"
+    "correction": "内容の訂正を送る",
+    "distanceFromTokyo": "東京から{direction}へ約{km}km",
+    "direction": {
+      "N": "北",
+      "NE": "北東",
+      "E": "東",
+      "SE": "南東",
+      "S": "南",
+      "SW": "南西",
+      "W": "西",
+      "NW": "北西"
+    }
   },
   "language": {
     "label": "言語",

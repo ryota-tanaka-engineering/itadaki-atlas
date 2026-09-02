@@ -90,7 +90,11 @@ export function buildAtlasLayers() {
  */
 export const PMTILES_URL = process.env.NEXT_PUBLIC_PMTILES_URL ?? "/tiles/japan.pmtiles";
 
-const JAPAN_BOUNDS: [number, number, number, number] = [122.9, 20.4, 154.0, 45.6];
+/**
+ * 日本全体が収まるバウンディングボックス。詳細ページの位置帯（PositionBand）の
+ * 全国ミニ地図でも同じ範囲を使う（見え方の一貫性）。
+ */
+export const JAPAN_BOUNDS: [number, number, number, number] = [122.9, 20.4, 154.0, 45.6];
 
 // pmtiles:// プロトコルの登録は **グローバル状態** なので、コンポーネントの
 // マウント/アンマウントで付け外ししない。StrictMode の二重マウントで
