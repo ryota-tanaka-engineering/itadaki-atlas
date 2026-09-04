@@ -1,0 +1,112 @@
+{
+ "items": [
+  {
+   "slug": "kishimen",
+   "body_ja": "## 何でできているか\n小麦粉だけで作った真っ平らな麺で、幅は8〜10mm、厚みは1mmほどしかない。日本農林規格でもうどんとは別の形として定義されているほど、丸いうどんとは別物とされる。薄く広いぶんタレをよく含み、たまり醤油を効かせただしと合わさると、口に入れた瞬間につゆの香りがふわりと立つ。青ねぎ、味付け油揚げ、かつお節をのせるのが定番で、つるりとした喉ごしの奥に、噛むとやわらかな腰が残る。\n\n## どう作るのか\n作り方はうどんとほぼ同じだが、途中で生地を薄く延ばす工程の回数が違う。塩水でこねた生地を足で踏んで鍛え、一晩寝かせたのち、うどんなら6〜8回で済む麺棒の巻き戻しを、きしめんでは細い麺棒を使って8〜10回繰り返し、より薄く延ばす。屏風だたみにして駒板を当て、幅8〜10mmに切り出す――この「薄く広く」仕立てる一手間が、うどんとの分かれ道になる。\n\n## なぜこの形になったのか\n名前の由来には諸説あり、江戸時代の史料は「江戸のひもかわを尾張ではきしめんという」と記す一方、雉肉を使った「きじめん」説、紀州出身の者が名付けたという説、中国伝来の「棊子麺」がなまったという説も伝わるが、いずれも確証はない。ただ、たまり醤油の産地である尾張では濃く仕立てただしを麺にまとわせる食べ方が好まれてきたとされ、薄く広い麺はその味の濃さを受け止めるための形とも読める。",
+   "body_en": "## What it's made of\nA dead-flat noodle made from wheat flour alone, about 8 to 10 millimeters wide and barely a millimeter thick. It's even classified as a distinct shape from round udon under Japan's agricultural noodle standards. Being thin and broad, it soaks up a tamari-based broth quickly, so the first bite carries a wave of dark, savory aroma. Scallions, sweetened fried tofu, and bonito flakes are the standard toppings, and beneath the silky slide there's a light but present chew.\n\n## How it's made\nThe process tracks udon almost step for step until the final rolling, where the number of passes differs. Dough kneaded with salted water is worked underfoot to build gluten and rested overnight; where ordinary udon gets six to eight passes with the rolling pin, kishimen dough is unrolled and re-rolled eight to ten times with a slimmer pin to press it thinner still. Folded screen-style and cut against a guide board into strips 8 to 10 millimeters wide, that extra pass toward \"thin and wide\" is what separates it from ordinary udon.\n\n## Why it took this shape\nThe name carries several unconfirmed stories: an Edo-period record calls it Owari's name for what Edo called himokawa, while other tellings trace it to a noodle made with pheasant meat, to a maker from Kishu, or to a Chinese noodle called kishimen that got its pronunciation worn down over time. None is settled. What is documented is that Owari was a center of tamari soy sauce brewing, and diners there favored noodles that could carry a strongly seasoned broth — a thin, wide noodle reads as an answer to that taste for depth.",
+   "sources": [
+    {
+     "title": "きしめん（愛知県）｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kishimen_aichi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "きしめんをうってみよう！",
+     "url": "http://www.aichi-udonsoba.com/makekishimen",
+     "publisher": "愛知県麺類食堂生活衛生同業組合",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kishimen",
+     "to_slug": "ankake-supa",
+     "relation_type": "対比",
+     "basis": "どちらも名古屋発祥で濃厚なタレ・ソースを麺にまとわせて食べる名古屋めしだが、和麺のきしめんと洋風パスタのあんかけスパで系統が異なる"
+    }
+   ]
+  },
+  {
+   "slug": "miso-nikomi",
+   "body_ja": "## 何でできているか\n黒みを帯びた豆味噌の汁で、コシの強いうどんをぐつぐつと煮込む一杯。麺は塩を使わずに小麦粉と水だけでこねてあるため、長く煮ても伸びずに芯の強さが残り、初めて食べる人はその硬さに驚くこともあるという。だしにはムロアジ節が使われることが多く、卵や油揚げ、鶏肉、ねぎなどが具に入り、土鍋のまま食卓に運ばれて最後まで熱いまま楽しめる。\n\n## どう作るのか\n塩を入れないぶん麺はしっかりとしたコシを保つので、豆味噌仕立ての汁でじっくり煮込む調理法に向く。ベースは岡崎地方で造られる豆味噌（八丁味噌など）で、色は褐色に近く独特の香りがあり、店によって白味噌やみりんを合わせて味を調える。麺と具を土鍋に入れたまま火にかけ、汁にとろみが出るまでじっくり煮詰め、ふたを開けた瞬間に湯気が立ちのぼる、ぐつぐつと沸き立った状態のまま供する。\n\n## なぜこの形になったのか\n一説には、武田軍の陣中食だった「ほうとう」の作り方が伝わり、三河で古くから醸造されていた豆味噌と結びついて生まれたともいわれる。長期熟成させる豆味噌は塩分濃度が高く保存が利くため、温暖で湿度の高いこの地方の醸造文化に合っていた。煮ても伸びない塩無しの麺は、その濃い味噌をじっくり吸わせて食べる一杯のための工夫と読める。",
+   "body_en": "## What it's made of\nFirm noodles simmer and bubble in a broth of dark soybean miso. The dough is kneaded from just flour and water, no salt, so it stays taut and toothsome even after a long simmer instead of going soft, and first-timers are sometimes startled by how firm it is. The broth is often built on flakes of dried mackerel scad, and egg, fried tofu, chicken, and scallion round out the bowl, which arrives at the table still boiling in its clay pot.\n\n## How it's made\nLeaving salt out of the dough keeps the noodles firm enough to withstand a long simmer in miso broth without turning mushy. The base is soybean miso brewed around Okazaki — reddish-brown with a distinctive aroma — adjusted at some shops with white miso or mirin. Noodles and toppings go into the clay pot together and cook until the broth thickens slightly, then the whole pot is brought to the table still at a rolling boil.\n\n## Why it took this shape\nOne account traces it to hoto, the campaign food of the Takeda clan, whose method is said to have merged with the soybean miso already brewed in Mikawa. That long-aged miso carries a high salt content that suits a warm, humid region's brewing tradition, since it keeps well. Salt-free noodles that hold their bite read as a deliberate match for a broth this concentrated, built to be soaked up slowly rather than gulped down.",
+   "sources": [
+    {
+     "title": "味噌煮込みうどん（愛知県）｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/misonikomiudon_aichi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "めんについて",
+     "url": "http://www.aichi-udonsoba.com/about.php",
+     "publisher": "愛知県麺類食堂生活衛生同業組合",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "miso-nikomi",
+     "to_slug": "miso-curry-milk",
+     "relation_type": "対比",
+     "basis": "どちらも味噌を主役にした一杯だが、愛知は長期熟成の豆味噌、札幌は米味噌にカレー粉と牛乳を合わせる点で対照的"
+    }
+   ]
+  },
+  {
+   "slug": "mimi",
+   "body_ja": "## 何でできているか\n小麦粉と水だけでこね、塩を使わない生地を薄く延ばして小さく折りたたんだ、耳の形をした一口大のうどん。かつお節でとっただしに大根、にんじん、里芋、ごぼうなどの根菜を刻んで入れ、しょうゆとみりんで味を調えた汁の中で軽く煮る。もちもちとやわらかく、汁を吸ってほろりと崩れる食感で、根菜の甘みがだしに溶け出しているのも感じられる。汁の醤油の香りがふわりと立ちのぼり、根菜の甘みとやさしく調和する。\n\n## どう作るのか\n普通のうどんは塩を入れてこねてコシを出すが、耳うどんはあえて塩を抜き、生地をやわらかいまま仕上げる。2〜3時間ほど寝かせた生地をマッチ箱ほどの大きさの長方形に薄く切り分け、二つ折りにして両端をつまんで閉じ、耳のような形に仕上げてから熱湯で下茹でする。根菜を煮た醤油だしに茹で上がった生地を入れ、香りが立つ程度にひと煮立ちさせて仕上げる。\n\n## なぜこの形になったのか\n正月に食べる行事食で、鬼の耳に見立てた形には「一年間悪いことを聞かずに済むように」との願いが込められていると伝わる。食べる前に耳に当てて「いい耳聞け」ととなえる風習も残るという。塩を抜いた生地はやわらかく、薄く延ばして小さく折りたためるため、子どもでも扱いやすく、この縁起の形を作りやすいという理にもかなっている。",
+   "body_en": "## What it's made of\nDough kneaded from just flour and water, no salt, rolled thin and folded into small, ear-shaped, bite-sized pieces. It simmers briefly in a soy-and-mirin broth built on bonito stock, along with sliced daikon, carrot, taro, and burdock root. The texture is soft and a little chewy, falling apart gently as it soaks up the broth, with the sweetness of the root vegetables melting into the dashi. The broth's soy aroma drifts up gently, meeting the sweetness of the root vegetables halfway.\n\n## How it's made\nWhere ordinary udon dough is kneaded with salt to build chew, mimi udon deliberately leaves salt out, keeping the dough soft. Rested two to three hours, it's rolled thin and cut into rectangles about the size of a matchbox. Each piece is folded in half and pinched at both ends into an ear shape before a quick pre-boil. The boiled pieces then go into a soy-based broth simmered with root vegetables for a final, brief cook.\n\n## Why it took this shape\nThis is a New Year's dish, and the ear shape is said to represent a demon's ear, carrying a wish that no bad news will reach the ear in the year ahead. Tradition holds that people press a piece to their ear before eating and recite a wish for good hearing. Leaving salt out of the dough also makes it soft enough for even a child to roll thin and fold into small shapes, which happens to suit the auspicious form the dish is built around.",
+   "sources": [
+    {
+     "title": "耳うどん",
+     "url": "https://www.tochigiji.or.jp/spot/s9618",
+     "publisher": "栃木県観光物産協会（とちぎ旅ネット）",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "＜お正月＞耳うどん",
+     "url": "https://www.zengakuei.or.jp/gyoji/tochigi_1.html",
+     "publisher": "公益社団法人 全国学校栄養士協議会",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mimi",
+     "to_slug": "sano",
+     "relation_type": "対比",
+     "basis": "同じ栃木県佐野市の名物同士だが、耳うどんは正月の行事食、佐野は青竹踏みで生地を延ばすご当地ラーメンという違いがある"
+    }
+   ]
+  },
+  {
+   "slug": "musashino",
+   "body_ja": "## 何でできているか\n地粉ならではのやや黒みがかった色をした、太くしっかりとした噛みごたえのある麺。茹でて冷水で締めた麺を、豚バラ肉と長ねぎがたっぷり入った熱い「肉汁」にひたして食べる。だしは本枯れ節やさば節、そうだ節など複数の乾物からとり、長く寝かせた醤油だれと合わせるためほんのり甘みがあり、濃いめの汁が太麺によく絡む。肉汁の底に沈んだ豚バラの脂が、すすった後も口の中でじんわり広がる。\n\n## どう作るのか\n地元でとれた小麦を挽いた地粉を塩水でこね、足で踏んで生地を鍛えたあと寝かせ、麺棒で延ばして4mmほどの太さに切り分けて茹でる。汁は豚バラ肉と長ねぎを煮出しただしに、醤油・みりん・砂糖を合わせて長く寝かせた「かえし」を加えて仕立てる。ゆでた季節の野菜「糧」を添え、麺だけでなく野菜も一緒に肉汁にひたして食べる「糧うどん」という食べ方も伝わっている。\n\n## なぜこの形になったのか\n水はけのよい武蔵野台地は水田に向かず、米の代わりに小麦や雑穀が畑で作られてきた。とれた小麦を地粉にして手打ちするうどんは、正月や彼岸、盆など人が集まる場でふるまわれる特別な食事として根付いたと伝わる。冠婚葬祭の来客をもてなす一杯でもあったといい、米に頼れない土地で小麦を主食に近い形で活かした結果が、この一杯だといえる。",
+   "body_en": "## What it's made of\nThe noodles run thick, firm, and faintly gray from the unrefined local flour they're milled from. Boiled and rinsed cold, they're dipped into a hot \"nikujiru\" broth loaded with pork belly and scallion. The dashi draws on several dried fish flakes — bonito, mackerel, and frigate tuna among them — and is blended with a long-aged soy tare, giving the thick, dark broth a hint of sweetness that clings well to the noodles. The pork fat that settles at the bottom of the bowl lingers pleasantly on the tongue after each slurp.\n\n## How it's made\nLocally milled wheat flour is kneaded with salted water, worked underfoot to build strength, rested, then rolled out and cut into noodles about four millimeters thick before boiling. The dipping broth simmers pork belly and scallion into a dashi, then blends in a \"kaeshi\" of soy sauce, mirin, and sugar aged over time. Some versions add boiled seasonal vegetables, called \"kate,\" to be dipped into the same broth alongside the noodles.\n\n## Why it took this shape\nThe well-drained Musashino plateau was poorly suited to rice paddies, so wheat and other grains were grown in its fields instead. Udon hand-made from that homegrown flour became the dish served when people gathered — New Year, the equinox, Obon, weddings, funerals — rather than an everyday meal. Built on wheat in a place that couldn't rely on rice, this bowl reads as what the land offered instead.",
+   "sources": [
+    {
+     "title": "武蔵野うどんの歴史",
+     "url": "https://www.musashinoudon.com/?page_id=133",
+     "publisher": "武蔵野手打ちうどん保存普及会",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "小平糧うどん",
+     "url": "https://www.city.kodaira.tokyo.jp/kurashi/012/012203.html",
+     "publisher": "東京都小平市",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "musashino",
+     "to_slug": "jindaiji",
+     "relation_type": "対比",
+     "basis": "武蔵野台地の水田に向かない畑地でとれた小麦を活かした武蔵野うどんと、そば粉の年貢から始まった深大寺そばは、いずれも米に頼れない土地の作物を麺にした点で並置できるが、成り立ちの経緯は異なる"
+    }
+   ]
+  }
+ ]
+}

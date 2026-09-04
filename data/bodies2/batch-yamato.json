@@ -1,0 +1,25 @@
+{
+ "items": [
+  {
+   "slug": "yamato",
+   "body_ja": "## 何でできているか\n\nやや白っぽく透き通った麺が、しこしこと弾む歯ごたえを返してくる。白いのは訳があり、山都では製粉歩留まりを7割以内に定めているため、そばの実の内層だけを挽いた白っぽい粉になる。内層の粉は粘りが少なく、本来ならつなぎが要るところを、ここでは小麦粉も山芋も一切使わない。粉と水だけの十割が、この土地の当たり前とされている。\n\n## どう作るのか\n\n粘りの少ない白い粉をつなぎなしでまとめるのは職人でも難しいとされるが、山都では湯ごねと水ごねを併用するこね方で、ごく普通に打たれている。挽きたて・打ちたて・茹でたてで出すのが基本。実の保存にも土地の工夫があり、雪を利用した雪室で約5度・湿度7割に保って貯蔵すれば、夏を越えても収穫期に近い風味が残るとされる。\n\n## なぜこの形になったのか\n\n飯豊連峰のふもと、標高400メートルほどの山あいは寒暖の差が激しく、良質なそばが育つ条件がそろっていた。米より麦よりそばが応えてくれる土地で、粉の質そのもので食べさせる十割が磨かれてきたと読める。大寒の頃に渓流へ実を浸し、寒風に20日晒してから挽く「寒晒しそば」は、江戸時代に将軍家へ献上されたと伝わる、この土地の寒さを味に変える技のひとつ。",
+   "body_en": "## What it's made of\n\nThe noodles are pale, almost translucent, with a springy, firm bite. The whiteness has a reason: Yamato limits its milling yield to 70 percent, grinding only the inner part of the buckwheat grain into a pale flour. That inner flour has little natural stickiness — elsewhere it would need wheat flour or yam as a binder, but here nothing is added. Buckwheat and water alone are the local standard.\n\n## How it's made\n\nBinding this low-gluten white flour without any helper is considered difficult even for soba artisans, yet in Yamato it is done as a matter of course, kneading with a combination of hot and cold water. Freshly milled, freshly cut, freshly boiled is the rule. The grain itself is stored in snow-cooled cellars at about 5°C and 70 percent humidity, said to keep the harvest-season aroma through the humid summer.\n\n## Why it took this shape\n\nAt the foot of the Iide mountains, some 400 meters up, sharp swings between hot days and cold nights make conditions buckwheat loves. In land that answered to buckwheat better than to rice or wheat, a noodle that stakes everything on the quality of the flour itself was refined. In the coldest weeks of winter, grain is soaked in a mountain stream and then dried in the freezing wind for twenty days — kanzarashi soba, said to have been presented to the shogun's house in the Edo period, one of this village's ways of turning cold into flavor.",
+   "sources": [
+    {
+     "title": "山都そば",
+     "url": "https://www.city.kitakata.fukushima.jp/soshiki/sangyo-y/31433.html",
+     "publisher": "喜多方市",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yamato",
+     "to_slug": "kitakata",
+     "relation_type": "対比",
+     "basis": "同じ喜多方市の名物麺同士。多加水の平打ち中華麺と、つなぎなしの十割そばで対照的"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,424 @@
+{
+ "items": [
+  {
+   "slug": "bibai-yakitori",
+   "body_ja": "## 何でできているか\n\n主役は鶏一羽から出るあらゆる部位。レバーやハツ、砂肝、キンカン（未成熟卵）といったモツに、皮とモモ肉までが一本の串に同居する。噛み進めるごとに脂の濃さ、コリッとした歯ごたえ、レバーの鉄っぽい深みと表情が次々に変わり、味付けは塩こしょうだけなのに最後まで飽きが来ない。合間に挟まる玉ねぎの甘みが、濃い部位の後味をふっと軽くしてくれる。\n\n## どう作るのか\n\n串元には皮を刺し、モツを玉ねぎで挟みながら並べ、最後にモモ肉で締める——これが美唄流の定番の順番だ。長ねぎではなく玉ねぎを使うのは道内の他のやきとりと共通するが、一本に一羽分の部位を集約する発想は美唄ならでは。塩こしょうだけで焼き上げ、タレに頼らず素材の脂と旨みで食べさせる。地元では一人で十本、二十本と重ねて食べるのが珍しくない。\n\n## なぜこの形になったのか\n\n美唄はかつて石炭で栄えた炭鉱の町で、一説によると昭和30年代に屋台「三船」が体力仕事の炭鉱夫向けに考案したのがはじまりという。安く手に入るモツを無駄なく一串にまとめ、精肉のモモ肉まで加えて食べ応えを持たせたのは、坑内労働者のスタミナ源としての役割を果たすためだったと伝わる。海沿いの室蘭が豚肉に頼ったのに対し、内陸の炭鉱町だった美唄では身近な鶏を無駄なく使い切る知恵が根付いたと考えられている。炭鉱の閉山後もこの食べ方だけが町に残った。",
+   "body_en": "## What it's made of\n\nOne skewer carries nearly a whole bird: liver, gizzard, heart, and kinkan (an immature egg) alongside skin and thigh meat. Each bite shifts — rich fat, a springy bite, the iron edge of liver — yet the only seasoning is salt and pepper, so it never tires the palate through to the last piece. Sweet grilled onion threads through as a break between pieces, lightening the richer cuts.\n\n## How it's made\n\nThe Bibai order runs skin first, then offal alternated with onion, finishing on thigh meat — a sequence locals treat as standard. Like elsewhere in Hokkaido, onion stands in for the usual scallion, but packing an entire bird's worth of parts onto a single skewer is distinctly Bibai's own idea. It's grilled with nothing but salt and pepper, letting the meat's own fat carry the flavor, and locals think nothing of working through ten or twenty skewers in one sitting.\n\n## Why it took this shape\n\nBibai once thrived as a coal-mining town, and one account holds that a food stall called Mifune devised the dish in the 1950s for miners doing heavy physical work underground. Gathering cheap offal onto one skewer, and rounding it out with proper thigh meat, is said to have been a way of keeping those laborers fed and fueled. Where coastal Muroran leaned on pork, the inland mining town of Bibai is thought to have taken root in the habit of using the chicken close at hand without letting any part go to waste. Long after the mines closed, the way of eating stayed behind.",
+   "sources": [
+    {
+     "title": "美唄やきとり 北海道 | うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/bibaiyakitori_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "美唄焼き鳥",
+     "url": "https://bibaikanko.jp/machimise3/?introduce=%E7%BE%8E%E5%94%84%E7%84%BC%E3%81%8D%E9%B3%A5",
+     "publisher": "美唄観光物産協会",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "bibai-yakitori",
+     "to_slug": "muroran-yakitori",
+     "relation_type": "兄弟",
+     "basis": "農林水産省の郷土料理紹介ページ等で「北海道の2大やきとり」として並び称される。豚肉中心 vs 鶏一羽まるごとという串構成が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "higashimatsuyama-yakitori",
+   "body_ja": "## 何でできているか\n\n「やきとり」と言いながら串に刺さっているのは豚のカシラ肉、こめかみから頬にかけての部位だ。脂は少なく、噛むほどにコリコリとした歯ごたえと肉の旨みが立つ。焼きたてはやわらかいが、時間が経つとすぐ硬くなるので、出来立てを頬張るのが東松山流。合わせダレは白みそベースにニンニクや唐辛子を効かせた辛味噌で、香りと辛みが肉の淡白さを補う。\n\n## どう作るのか\n\n炭火でじっくり焼いて余分な脂を落としたあと、串全体にみそだれをたっぷり塗って供する。だれの配合は店ごとに異なり、白みそに加えるニンニクや唐辛子の量で辛さも風味も変わるので、店を変えると同じ「やきとり」でも別物に感じる。串打ちも各店が自前で行い、コメカミ寄りかホホ寄りかで一本ごとの歯ごたえが微妙に違ってくる。焼きたてに味噌だれを直接塗って、熱いうちにかぶりつくのが流儀だ。\n\n## なぜこの形になったのか\n\n一説によると、昭和30年代に朝鮮半島出身の屋台主が最初は豚の白モツを甘辛いしょうゆだれで出していたが、噛み切りにくいことから、当時はハムやソーセージの原料程度にしか使われていなかったカシラ肉に切り替えたのがはじまりという。周辺の食肉センターで安く新鮮に仕入れられたことが、この部位が定着する土台になったと伝わる。",
+   "body_en": "## What it's made of\n\nIt's called yakitori, but what's on the skewer is pork cheek — the meat around the temple and jowl. Low in fat, it delivers a firm, chewy bite with real savor. Fresh off the grill it's tender, but it stiffens fast, so eating it hot is the whole point. A miso-based sauce spiked with garlic and chili adds fragrance and heat that the meat's plainness needs.\n\n## How it's made\n\nThe cheek is grilled slowly over charcoal until excess fat renders away, then coated generously in the miso sauce right before serving. Every shop mixes its own blend, so the ratio of garlic to chili varies enough that the same dish tastes different from one counter to the next. Skewering is done in-house too, and depending on whether a cut leans toward temple or jowl, the texture shifts slightly skewer to skewer. Eating it hot, straight off the grill, is the whole point.\n\n## Why it took this shape\n\nOne account says a stallholder from the Korean peninsula first served plain white pork offal in a sweet soy sauce in the 1950s, but it was too tough to bite through cleanly, so he switched to cheek meat — a cut then mostly relegated to ham and sausage production. What made it stick was that a nearby meat-processing center could supply it cheap and fresh.",
+   "sources": [
+    {
+     "title": "名物やきとりのルーツ",
+     "url": "https://www.city.higashimatsuyama.lg.jp/soshiki/18/1564.html",
+     "publisher": "東松山市",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "やきとり",
+     "url": "https://higashimatsuyama-kanko.com/food/yakitori/",
+     "publisher": "東松山市観光協会",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "higashimatsuyama-yakitori",
+     "to_slug": "nagato-yakitori",
+     "relation_type": "対比",
+     "basis": "ともにご当地焼き鳥として卓上の薬味文化が名物化している点は共通だが、辛味噌だれ（東松山）とガーリックパウダー（長門）で薬味の性格が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "imabari-yakitori",
+   "body_ja": "## 何でできているか\n\n主役は鶏皮一枚。表面はかりっと香ばしく焼き締まっているのに、脂がしっかり抜けているぶん後味は意外なほどあっさりしている。串を使わないので、噛み切るというより皮そのものをちぎって食べる感覚に近く、一枚ごとに厚みや脂ののりが違って表情が変わる。仕上げには骨付き肉の唐揚げ「せんざんき」で締めるのが今治流の一皿の流れで、皮の軽さと揚げ物の満足感が対になっている。\n\n## どう作るのか\n\n串に刺さず、斜めに傾けた鉄板の上で鶏皮を焼き、小さな鉄の重しを乗せて上から押さえつける。プレスされた皮は自分の脂で揚げ焼きにされながら同時に蒸され、短時間でかりっと火が通る。斜めの鉄板は余分な脂を流し落とす役目も兼ねている。注文からの提供が速いのが最大の売りで、皮のあとにせんざんきが出てくるのが一皿の型になっている。\n\n## なぜこの形になったのか\n\n一説によると、昭和36年頃に開業した店が、待つのを嫌う今治の商人気質に合わせて鉄板で一気に焼き上げるやり方を考案し、それが今治焼き鳥の元祖になったという。造船や海運、繊維業で栄えた港町らしい「せっかち」の気質への答えとして語られることが多いが、産業構造そのものとの直接の因果はまだはっきりしない。無理に結び付けず、あくまで語り継がれた気質論として留めておくのが誠実だろう。",
+   "body_en": "## What it's made of\n\nThe star is a single piece of chicken skin. The surface grills up crisp and browned, but with the fat well rendered out, the aftertaste lands surprisingly light. There's no skewer to bite around, so eating it feels less like biting into meat and more like tearing off a crackling sheet, and each piece varies slightly in thickness and fattiness. The meal traditionally closes with senzanki, a bone-in fried chicken, after the skin — a light-then-hearty pairing.\n\n## How it's made\n\nInstead of a skewer, the skin is laid on a tilted iron griddle and pinned down under a small flat iron weight. Pressed flat, it fries in its own rendered fat while steaming at the same time, so it cooks through fast, and the tilt lets excess fat drain away as it cooks. Speed from order to plate is the whole point, and skin followed by senzanki is the shape the meal has settled into.\n\n## Why it took this shape\n\nOne account credits a shop that opened around 1961, which devised the press-grill method to match Imabari's brisk, no-patience-for-waiting temperament, and that shop is remembered as the style's originator. It's often framed as an answer to the \"impatient\" character of a port town built on shipbuilding, shipping, and textiles, though a direct causal link to that industrial base isn't clearly established — better to leave it as the local character story it's told as, rather than force the connection.",
+   "sources": [
+    {
+     "title": "今治焼き鳥 愛媛県 | うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/imabari_yakitori_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "五味鳥",
+     "url": "https://www.oideya.gr.jp/gourmet-c/gomidori/",
+     "publisher": "公益社団法人 今治地方観光協会",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "imabari-yakitori",
+     "to_slug": "kawa",
+     "relation_type": "代表ネタ",
+     "basis": "串に刺さず鉄板で押さえ焼く今治焼き鳥の身上が「皮のかりっとした食感」であることは出典に明記されている"
+    }
+   ]
+  },
+  {
+   "slug": "kurume-yakitori",
+   "body_ja": "## 何でできているか\n\n「焼きとり」を名乗りながら鶏はむしろ一部で、豚・牛・馬の内臓や精肉までが串に並ぶ。中でもホルモン系はダルム（腸）、ヘルツ（心臓）といったドイツ語由来の呼び名で注文され、初めての客は何を頼んでいるのか分からず面食らう。噛むとコリコリ、ぷりぷりと部位ごとに違う弾力が返ってきて、皿の上に肉の種類だけ食感の見本市ができる。鶏・豚・牛・馬が同じ卓に並ぶ光景そのものが、久留米らしい景色だ。\n\n## どう作るのか\n\n肉の間に玉ねぎを挟んで串打ちし、炭火でじっくり焼く。仕上がった串には酢だれをまとわせたざく切りキャベツが添えられ、脂の強い部位を箸休めしながら何本も食べ進められる。ダルムやヘルツという呼び名は、久留米医学専門学校の学生たちが使い始めたことばがそのまま定着したと伝わる。注文もこの独特の名前で通すのが久留米流だ。\n\n## なぜこの形になったのか\n\n一説によると、久留米は古くから畜産が盛んで食肉の卸売業者が多く、精肉として売りにくい内臓や馬肉などを安く仕入れられる環境にあったという。昭和30年代の屋台からはじまり、高度経済成長期には工場労働者の腹を満たす存在として広がったと伝わる。鶏に限らず何でも串にする発想は、卸売の町ならではの食材の豊富さへの答えとして読める。",
+   "body_en": "## What it's made of\n\nIt's called yakitori, but chicken is only part of the lineup — pork, beef, and horse, offal included, all go on the stick. Order the offal and you'll hear German-derived names like darm (intestine) and herz (heart), which can throw first-timers. Bite into different pieces and the texture swings from crunchy to springy, so a full plate reads like a small survey of every texture a carcass can offer.\n\n## How it's made\n\nOnion is threaded between the meat pieces, then everything grills slowly over charcoal. Finished skewers arrive with roughly chopped cabbage dressed in a vinegar sauce, giving diners a palate reset between the richer cuts. The darm and herz naming is said to trace back to students at a Kurume medical school who coined the terms and never let them go, and ordering by those names is still the local way to do it.\n\n## Why it took this shape\n\nOne account holds that Kurume has long been a livestock town with many meat wholesalers, which made offal and horse meat — cuts harder to sell as straight meat — cheap and easy to source. The dish is said to have started at food stalls in the 1950s and spread among factory workers during the postwar boom. Putting almost anything on a stick reads as an answer to a wholesale town's sheer variety of available cuts.",
+   "sources": [
+    {
+     "title": "久留米焼きとり",
+     "url": "https://www.crossroadfukuoka.jp/feature/kurumeyakitori",
+     "publisher": "福岡県観光連盟（クロスロードふくおか）",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "久留米焼きとり【うしなりとぶたよの場合】",
+     "url": "https://www.kurumepr.com/main/946.html",
+     "publisher": "久留米シティプロモーション",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kurume-yakitori",
+     "to_slug": "kurume",
+     "relation_type": "対比",
+     "basis": "同じ久留米という土地の食文化。鶏に限らずあらゆる部位・肉種を串にする久留米焼きとりと、継ぎ足しで炊き続けるスープを軸にする久留米ラーメンとで、旨みの作り方が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "muroran-yakitori",
+   "body_ja": "## 何でできているか\n\n豚肩ロースと玉ねぎを交互に刺した串焼きで、齧るとまず肩ロースの脂の甘みが広がり、そこへ洋がらしのツンとした刺激が追いかけてくる。甘辛いタレを何度もくぐらせて焼くので表面はてらてらと照りがあり香ばしく、玉ねぎは炭火でしんなり甘みを増す。それでいて「やきとり」を名乗りながら鶏は一切使わない。名前と中身のねじれこそが、この料理いちばんの個性になっている。\n\n## どう作るのか\n\n一口大の肩ロースとくし切りの玉ねぎを、肉・玉ねぎ・肉・玉ねぎ・肉の順に串打ちする（両端は玉ねぎでなく肉で締める）。炭火で低温からじっくり焼き、仕上げに強火で炙って脂を落とす。醤油ベースの甘辛だれにくぐらせてもう一度炙り、皿には洋がらしを添えて出す。辛みを効かせるかどうかは、たれをつける箸加減次第だ。\n\n## なぜこの形になったのか\n\n一説によると、日中戦争下の昭和10年代、軍靴の革をとるために養豚が奨励され、室蘭では豚の肉と皮以外は地元で消費してよいとされたのが始まりという。製鉄所が並ぶ輪西・母恋界隈では、屋台がその豚肉を串に刺して労働者に振る舞い、やがて鶏の串焼きと並ぶ「やきとり」として根づいたと伝わる。名前が変わらなかったのは、屋台にとって肉の種類より「やきとり」という業態の呼び方の方が先にあったからなのかもしれない。",
+   "body_en": "## What it's made of\n\nSkewers alternate pork shoulder and onion, glazed sweet-savory and grilled until the surface gleams, served with a dab of hot Western mustard on the side. The first bite is the shoulder's fat sweetness, then the mustard's sting catches up right behind it, while the onion turns soft and faintly sweet from the charcoal. It's called yakitori — literally \"grilled bird\" — yet no chicken is involved; the twist between name and content is the dish's whole personality.\n\n## How it's made\n\nBite-sized pork shoulder and wedge-cut onion go on the skewer in alternating order — meat, onion, meat, onion, meat, with meat anchoring both ends. It's grilled slowly over charcoal at low heat first, then finished hot to render the fat, dipped into a soy-based sweet sauce, and grilled again. A dab of hot mustard sits on the side, left to each diner's own hand.\n\n## Why it took this shape\n\nOne account traces it to the 1930s, when Japan's wartime government promoted pig farming for leather to make military boots, and Muroran allowed anything but the meat and hide itself to be consumed locally. Around the steel mills of Wanishi and Bokoi, food stalls are said to have skewered that pork for the workers, and it settled in alongside chicken skewers under the same name, \"yakitori.\" The name may simply have stuck because \"yakitori\" described the stall's trade, not the animal.",
+   "sources": [
+    {
+     "title": "室蘭やきとり 北海道 | うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/muroranyakitori_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "室蘭やきとりについて",
+     "url": "https://muroran-yakitori.net/",
+     "publisher": "室蘭やきとりの会",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "muroran-yakitori",
+     "to_slug": "muroran-curry",
+     "relation_type": "対比",
+     "basis": "同じ室蘭発祥のご当地グルメ。豚肉なのに「やきとり」、カレーなのに麺という、名前と中身のねじれ方が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "nagato-yakitori",
+   "body_ja": "## 何でできているか\n\n主役は長州どりなど地元産の鶏肉で、味付けは塩が基本。卓上には必ずガーリックパウダーと一味・七味が置かれていて、自分の好みで振りかけて味を足していく。長ねぎではなく玉ねぎを串に挟むのも長門らしいところで、噛むと肉の脂とにんにくの香りが鼻に抜け、店ごとに常備される薬味の匙加減で同じ塩焼きでも印象が変わる。焼き台から立つ香ばしい煙とにんにくの匂いが、通りにまで漂ってくるのもこの町らしい光景だ。\n\n## どう作るのか\n\n肉と玉ねぎを交互に串打ちし、炭火でシンプルに塩焼きにする。皿には刻みキャベツが添えられ、口直しをしながら本数を重ねられる。味の決め手はたれではなく、焼き上がった串にガーリックパウダーをどれだけ振るかという、食べる側の手加減に委ねられている。一軒ごとにハシゴをして店ごとの塩加減を食べ比べるのも長門らしい楽しみ方だ。\n\n## なぜこの形になったのか\n\n一説によると、長門はかまぼこ生産が盛んな土地で、その加工の際に出る魚のアラが鶏の飼料として安く手に入ったことから養鶏が農家の副業として広がり、専門の養鶏農協まで生まれたという。新鮮な鶏肉を地元でまかなえる環境が、人口あたりの店舗数が全国有数という「やきとりの町」を支えていると伝わる。魚の町が鶏の町を育てたという巡り合わせが、この街の焼き鳥密度の裏にある。",
+   "body_en": "## What it's made of\n\nThe base is local chicken, often Choshu-dori, seasoned simply with salt. Every table carries garlic powder and shichimi chili pepper, and diners dust on as much of either as they like. Onion rather than scallion goes between the meat on the skewer, so each bite carries fat and a hit of garlic aroma through the nose, and the exact seasoning habit shifts from one counter to the next. The smoky char and garlic scent drifting from the grill out onto the street is a familiar sight in this town.\n\n## How it's made\n\nMeat and onion alternate on the skewer and go over charcoal, salted and nothing more. Shredded cabbage sits on the side as a palate cleanser between rounds. The real seasoning decision isn't made in the kitchen at all — it's how much garlic powder a diner shakes onto the finished skewer, and hopping between shops to compare each one's salt hand is part of the local sport.\n\n## Why it took this shape\n\nOne account traces it to Nagato's long-standing kamaboko (fish cake) industry: the fish scraps left over from processing were cheap, abundant chicken feed, which is said to have turned poultry-raising into a common farm sideline and eventually supported a dedicated poultry cooperative. A steady local supply of fresh chicken is credited with sustaining what's now one of Japan's highest densities of yakitori shops per capita — a fishing town's byproduct quietly building a chicken town.",
+   "sources": [
+    {
+     "title": "やきとりのまちながと",
+     "url": "https://nanavi.jp/news/2102/",
+     "publisher": "長門市観光サイト ななび",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "やきとり",
+     "url": "https://nanavi.jp/gourmet/genre/yakitori/",
+     "publisher": "長門市観光サイト ななび",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nagato-yakitori",
+     "to_slug": "imabari-yakitori",
+     "relation_type": "対比",
+     "basis": "ともに西日本のご当地焼き鳥だが、串焼き＋薬味任せ（長門）と鉄板焼き＋皮の食感勝負（今治）で調理の設計思想が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "bonjiri",
+   "body_ja": "## 何でできているか\n\n尾の付け根、尾羽の生える三角の部分についた肉。ここは鶏がよく動かす場所で、筋肉と脂がぎゅっと重なり合っている。噛むとまずプリッとした弾力があり、そのあとにじゅわっと脂の甘みがあふれてくる。「鶏のトロ」と称されることがあるほど脂が多く、口の中でとろけるような感覚が残る一切れ。オスは筋肉質でしまった歯ごたえ、メスは脂がのってよりやわらかいと、雌雄で印象が変わることも知られている。\n\n## どう作るのか\n\n脂が多いぶん、皮目をしっかり炙って余分な脂を落としてから、中は固くならないぎりぎりで火を止めるのが基本の焼き方。三角に突き出た部分は筋肉が発達していて歯ごたえが強く出るため、脂の多い場所と筋っぽい場所を一本の串にバランスよく配分する下ごしらえがいる。ぼんじりは1羽から1個しか取れない部位で、串を何本も揃えるには相応の羽数がいる。\n\n## なぜこの形になったのか\n\n焼き鳥は赤身だけでなく、脂・皮・内臓まで一羽を余さず使い切る料理として組み立てられてきた。ぼんじりはその中で脂の役を一手に引き受ける部位で、あっさりした赤身の部位が続くコースの合間に挟むと、味の起伏がはっきり生まれる。1羽から1個しか取れない希少性も、串を頼むときのちょっとした楽しみを支える一因になっている。",
+   "body_en": "## What it's made of\n\nThe tail-end cut, taken from the triangular knob where the tail feathers grow. Chickens work this spot constantly, so muscle and fat are packed tightly together here. The first bite snaps back with a springy chew, then fatty sweetness floods in right after. It's sometimes called the \"toro of chicken,\" and the fat is generous enough to leave a melting sensation in the mouth. Males tend to chew firmer and leaner, females softer and fattier — the same cut can read differently bird to bird.\n\n## How it's made\n\nBecause it carries so much fat, the standard approach is to sear the skin side hard first to render off the excess, then pull it just before the inside turns firm. The triangular tip is dense with worked muscle and chews firmer, so a skewer is built to balance the fatty part against the leaner, chewier part. Only one bonjiri comes off a single bird, so lining up enough skewers for a night takes a fair number of birds.\n\n## Why it took this shape\n\nYakitori as a whole is built to use a bird beyond just its lean meat — fat, skin, and organs included. Bonjiri is the cut that carries the fat role in that lineup; slotting it between leaner, plainer skewers in a course creates a clear rise and fall in richness. That only one comes from each bird is part of what makes ordering it feel like a small occasion.",
+   "sources": [
+    {
+     "title": "焼き鳥の種類",
+     "url": "https://alex-co.jp/free/syurui",
+     "publisher": "一般社団法人 日本焼き鳥協会",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "ぼんじりの焼き鳥はどこの部位？気になるカロリーや特徴の紹介 アレンジレシピや下処理方法とは",
+     "url": "https://www.suigo.co.jp/blog/bonjiri-yakitori",
+     "publisher": "水郷のとりやさん",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "ぼんじりはどこの部位？～ぼんじりの特徴について解説～",
+     "url": "https://www.3030.co.jp/trivia/no5/",
+     "publisher": "鶏三和（名古屋コーチン専門店）",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "bonjiri",
+     "to_slug": "sunagimo",
+     "relation_type": "対比",
+     "basis": "一羽のうち最も脂が乗る部位（ぼんじり）と、ほぼ脂の無い部位（砂肝）という、脂肪量の両極に位置する"
+    }
+   ]
+  },
+  {
+   "slug": "kawa",
+   "body_ja": "## 何でできているか\n\n使われるのは主に首まわりの皮。噛むと最初にパリッとした膜が弾け、そのすぐ下から溶けた脂がじんわりにじみ出てくる。皮そのものに強い味はなく、脂の甘みと香ばしさだけで押し切ってくる部位で、ビールとの相性の良さで語られることが多い。カリカリに焼き切る店とプヨッとやわらかく仕上げる店に好みが分かれ、注文するときに焼き加減を伝える人も少なくない。\n\n## どう作るのか\n\n一枚のままでは薄すぎて火が通りすぎるため、山折りにして重ねながら串に刺していく。短い皮は一回、長い皮は二〜三回折りたたむことで、串全体の厚みをそろえて焼きムラを防ぐ。個体ごとに大きさがまちまちなので、使う分量をあらかじめ量ってから折り方を決める。この重なりが串を横から見たときの波打つ輪郭を生み、脂を落としながらもかりっと均一に焼き上げる工夫になっている。\n\n## なぜこの形になったのか\n\n皮は本来、肉を切り分けたあとに残る部位で、そのままでは扱いにくい。それを折りたたんで串に刺すという工夫によって、脂の多さを弱点ではなく持ち味に変えたのが「かわ」という一品といえる。切り落としを無駄にしない焼き鳥の組み立て方の中でも、加工そのものの工夫が焼き上がりの食感に直結する、皮ならではの例になっている。",
+   "body_en": "## What it's made of\n\nMostly the skin from around the neck. The first bite snaps through a crisp membrane, then melted fat seeps out right underneath. The skin itself carries little flavor of its own — it's the fat's sweetness and browned aroma doing all the work, which is why it's so often paired with beer. Shops split between grilling it bone-dry crisp and leaving it soft and yielding, and regulars often say which way they want it grilled.\n\n## How it's made\n\nA single flat piece of skin is too thin and would overcook, so it's folded accordion-style and layered onto the skewer. A short piece gets one fold, a long one two or three, evening out the thickness along the whole skewer so it cooks evenly. Because piece size varies bird to bird, the amount is weighed out first and the folding adjusted accordingly. That folding is what gives the skewer its wavy profile when viewed from the side, letting fat render out while the surface still crisps evenly.\n\n## Why it took this shape\n\nSkin is, by nature, a leftover cut from butchering the bird, awkward to handle on its own. Folding it onto a skewer turns its abundance of fat from a liability into the whole point of the dish. It's a case, within a cuisine built around wasting none of the bird, where a bit of prep ingenuity — folding rather than laying it flat — maps directly onto how the finished skin ends up chewing.",
+   "sources": [
+    {
+     "title": "焼き鳥の種類",
+     "url": "https://alex-co.jp/free/syurui",
+     "publisher": "一般社団法人 日本焼き鳥協会",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "かわ 鶏皮の焼き鳥 パリ ジュワーが通販で人気 部位の特徴やアレンジレシピも紹介",
+     "url": "https://www.suigo.co.jp/blog/kawa-yakitori",
+     "publisher": "水郷のとりやさん",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "串打ちの基本（皮串）",
+     "url": "https://www.precofoods.co.jp/yakitori/index.php/subject/uchi-kawa/",
+     "publisher": "プレコ焼鳥学（プレコフーズ）",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kawa",
+     "to_slug": "yagen-nankotsu",
+     "relation_type": "対比",
+     "basis": "皮を焼き切って得るパリッとした食感と、軟骨そのものが持つコリコリとした食感。同じ「歯ごたえ」でも由来が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "negima",
+   "body_ja": "## 何でできているか\n\n使うのは足の付け根寄りの脂ののったもも肉。長ねぎと交互に刺すことで、肉から出る脂をねぎが受け止め、焼いて甘みを増したねぎの香りが肉の旨みに重なる。もも肉のジューシーさとねぎのしゃきっとした歯切れが一本の中を行き来する、単品の味というより組み合わせそのものを楽しむ串になっている。もも肉だけの串よりも軽く感じられるのは、ねぎが脂を受け止めて口の中を都度リセットしてくれるからでもある。\n\n## どう作るのか\n\nもも肉をひと口大に切り、長ねぎのぶつ切りと交互に刺していく。ねぎは焼くと水分が抜けて甘みが凝縮する一方、火が強すぎると焦げて苦みが出て、火が足りないと辛みが残ったままになる。もも肉とねぎの厚みをそろえて刺すことで、脂が多く火の通りにくい肉と水分の多いねぎが、ほぼ同じタイミングで焼き上がるように調整されている。\n\n## なぜこの形になったのか\n\n一説によると、江戸時代に安価だったまぐろとねぎを煮た「ねぎま鍋」が原型で、のちにまぐろが高値になったため鶏肉で代用したのが今のねぎまと伝わる。名前だけが鍋料理の記憶を残したまま、串焼きという別の料理に形を変えた例で、焼き鳥の中では「性格の異なる二つの食材を交互に刺す」という組み立て方の代表格になっている。魚の鍋料理から生まれた名前が鶏の串に居座り続けている点も、この一本のちょっとした面白さだ。",
+   "body_en": "## What it's made of\n\nFatty thigh meat cut near where the leg meets the body, skewered alternately with pieces of long green onion. The onion catches the fat rendering off the meat, and its own sweetness, concentrated by the grill, layers back onto the meat's savoriness. Juicy thigh and crisp-textured onion trade off bite after bite — this skewer is really about the pairing itself, more than either ingredient alone. It reads lighter than a plain thigh skewer precisely because the onion keeps soaking up the fat and resetting the palate.\n\n## How it's made\n\nThigh meat is cut into bite-sized pieces and skewered alternately with chunks of long onion. Grilling drives moisture out of the onion and concentrates its sweetness, but too much heat scorches it bitter, and too little leaves a raw sharpness behind. Cutting the meat and onion to matching thickness keeps the fattier, slower-cooking thigh and the moisture-heavy onion finishing at roughly the same pace.\n\n## Why it took this shape\n\nOne account traces it back to negima-nabe, an Edo-period hotpot of cheap tuna simmered with long onion; when tuna later grew expensive, chicken is said to have taken its place, and the name stuck. Only the name carries the memory of that dish forward, reshaped into a completely different form — a grilled skewer. Within yakitori, it stands as the archetype of building a skewer from two ingredients of very different character, threaded together. The name of a fish hotpot has outlived the fish itself, quietly attached to a chicken skewer ever since.",
+   "sources": [
+    {
+     "title": "焼き鳥の種類",
+     "url": "https://alex-co.jp/free/syurui",
+     "publisher": "一般社団法人 日本焼き鳥協会",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "ねぎまの焼き鳥について",
+     "url": "https://www.suigo.co.jp/blog/negima-yakitori",
+     "publisher": "水郷のとりやさん",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "「ねぎま」の由来とは？もともと焼き鳥じゃなかった？",
+     "url": "https://torimero.com/topics/4115/",
+     "publisher": "三代目鳥メロ",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "negima",
+     "to_slug": "tsukune",
+     "relation_type": "対比",
+     "basis": "切り身をそのまま刺すねぎまと、挽いて練り直すつくねという、焼き鳥の二大アプローチ（そのまま vs 加工）の対比"
+    }
+   ]
+  },
+  {
+   "slug": "reba",
+   "body_ja": "## 何でできているか\n\n鶏の肝臓。口に入れると最初にねっとりとした舌触りがあり、そのあとから鉄分特有の濃い風味とほのかな甘みが追いかけてくる。レバーの好き嫌いは食感で分かれることが多く、火を通しすぎるとぼそぼそに、ちょうどよい火加減だとクリームのようになめらかになる。同じ塊でも串の外側と内側で火の入り方が違うため、一本の中でも口当たりが微妙に変わっていく。\n\n## どう作るのか\n\n1羽から取れるレバーはハツ（心臓）がついた状態でおよそ60〜80グラムほどで、串数本分にしかならない量しかとれない。生の状態は柔らかく崩れやすく、切り分けと血抜きの下処理には手早さが求められる。中まで火を通しつつも入れすぎないよう、串の中心にわずかに赤みが残る手前で引き上げる焼き方が基本で、この見極めの一瞬で仕上がりが大きく変わる。\n\n## なぜこの形になったのか\n\n焼き鳥は内臓を無駄なく食べる料理として発達してきた面があり、レバーはその中心にある部位といえる。塩でもタレでも合い、卵黄にくぐらせて食べる出し方が広まっているのも、濃厚な味と鉄分の風味をまろやかに受け止める組み合わせとして定着してきたためとされる。火加減という職人の手仕事が一番はっきり味に出る部位でもあり、同じ串でも焼く人によって仕上がりの印象が変わりやすい。",
+   "body_en": "## What it's made of\n\nChicken liver. The first thing that hits is a smooth, almost creamy texture, then the deep, iron-rich flavor and a faint sweetness follow right behind. Whether someone likes liver or not usually comes down to texture: overcooked, it turns dry and crumbly; cooked just right, it stays silky, almost like custard. Even within one skewer, the outer edge and the center can land at slightly different points on that spectrum.\n\n## How it's made\n\nA single bird yields only about 60 to 80 grams of liver with the heart still attached — barely enough for a few skewers. Raw liver is soft and falls apart easily, so trimming and draining the blood demand a quick hand. The standard is to pull it off the fire just before the center loses its last trace of pink, cooking it through without letting it dry out — and that one moment of judgment is what decides how the whole skewer turns out.\n\n## Why it took this shape\n\nYakitori grew, in part, as a way to eat the whole bird's organs without waste, and liver sits near the center of that practice. It works with either salt or sauce, and dipping it in raw egg yolk has become a common way to serve it — likely because the yolk's richness rounds out the liver's intensity and iron-forward edge. Few cuts show a grill cook's timing as plainly as this one does, and the same skewer can taste noticeably different depending on whose hands cooked it.",
+   "sources": [
+    {
+     "title": "焼き鳥の種類",
+     "url": "https://alex-co.jp/free/syurui",
+     "publisher": "一般社団法人 日本焼き鳥協会",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "串打ち『レバー』",
+     "url": "https://www.precofoods.co.jp/yakitori/index.php/subject/uchi-liver/",
+     "publisher": "プレコ焼鳥学（プレコフーズ）",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "焼き鳥のレバーの栄養は？鉄分約9mg・約111kcalを焼き鳥店が解説",
+     "url": "https://js-dining.jp/column/reba-yakitori/",
+     "publisher": "js-dining",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "reba",
+     "to_slug": "sunagimo",
+     "relation_type": "対比",
+     "basis": "火加減ひとつで食感が大きく変わる内臓（レバー）と、常に一定のコリコリした歯ごたえを保つ内臓（砂肝）という内臓系同士の対照"
+    }
+   ]
+  },
+  {
+   "slug": "seseri",
+   "body_ja": "## 何でできているか\n\n首の部分の肉。鶏は目を動かせないぶん、周囲を見るために首を絶えず動かしているため、この部位の筋肉はよく鍛えられている。噛むとまずコリッとした歯ごたえがあり、そのあとにじんわりと濃い旨みが広がる。もも肉やむね肉とは明らかに違う、引き締まった食感が持ち味で、脂の少なさもあって噛むほどに旨みが出る印象が強い。一串の中でも部位によって厚みが違い、噛むたびに歯ごたえの強さが微妙に変わるのもおもしろい。\n\n## どう作るのか\n\n首は細く骨や筋が入り組んでいるため、きれいに肉だけを外すのに手間がかかる。1羽からとれる量はベテランの職人でもおよそ40グラムほどとされ、串を何本も作るには複数羽の首肉をまとめる必要がある。繊維に対して垂直に刃を入れ、薄い部分を折り返して束ねながら串の中央に厚みを寄せていくのが串打ちの基本で、厚みが均一でないと火の通りにムラが出る。\n\n## なぜこの形になったのか\n\n歩留まりが低く手間もかかることから、かつては業者の取り分や賄いとして扱われることも多かったと伝わる部位。今では希少部位として看板に掲げる店も増え、脂の少ない赤身の中でも歯ごたえの強さと濃い旨みで満足感を出す、いわば異色の役どころを担っている。脂で満足させるのではなく、噛む力そのものを楽しませる一本として、コースの中に置かれることが多い。",
+   "body_en": "## What it's made of\n\nMeat from the neck. Chickens can't move their eyes, so they constantly swivel their necks to watch their surroundings, and the muscle here gets worked hard as a result. The first bite is a firm, springy chew, and a deep savoriness spreads in right after. It's a noticeably tighter texture than thigh or breast, and with so little fat to fall back on, the flavor reads as something you chew your way into rather than something served up front. Thickness varies within a single skewer too, so the resistance shifts slightly from bite to bite.\n\n## How it's made\n\nThe neck is thin and tangled with bone and sinew, so cleanly separating out just the meat takes real effort. Even a seasoned hand gets only about 40 grams from a single bird, so putting together more than a couple of skewers means pooling meat from several birds. The standard technique cuts across the grain, folding the thinner pieces back on themselves and bunching them toward the center of the skewer to build up thickness — uneven thickness there means uneven cooking.\n\n## Why it took this shape\n\nBecause the yield is low and the labor high, this cut is said to have often gone to vendors themselves or into staff meals rather than the menu in earlier days. It's since become a cut shops proudly advertise as rare, and among the leaner cuts on the menu, it's the one carrying an unusual role: delivering satisfaction purely through how firmly and richly it chews, rather than through fat. It's built to satisfy the jaw, not just the palate.",
+   "sources": [
+    {
+     "title": "焼き鳥の種類",
+     "url": "https://alex-co.jp/free/syurui",
+     "publisher": "一般社団法人 日本焼き鳥協会",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "せせり（焼き鳥）：水郷のとりやさんのベテラン職人でも1羽から40gしか取れない",
+     "url": "https://www.suigo.co.jp/blog/seseri-yakitori",
+     "publisher": "水郷のとりやさん",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "鶏肉の部位",
+     "url": "https://www.precofoods.co.jp/yakitori/index.php/subject/chicken008/",
+     "publisher": "プレコ焼鳥学（プレコフーズ）",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "seseri",
+     "to_slug": "negima",
+     "relation_type": "対比",
+     "basis": "部位そのものの旨みと歯ごたえで勝負するせせりと、ねぎの甘みと組み合わせて食べさせるねぎまという、串の設計思想の違い"
+    }
+   ]
+  },
+  {
+   "slug": "sunagimo",
+   "body_ja": "## 何でできているか\n\n鶏の砂嚢、いわゆる胃の一部。歯を持たない鶏が食べたものをすり潰すための筋肉の塊で、脂がほとんどない。噛むとコリコリ、シャキシャキと小気味よい歯ごたえがあり、硬そうな見た目のわりに嚙み切りは意外なほど軽い。味そのものは淡白で、脂に頼らないぶん噛むほどにじむ旨みで食べさせる部位。もも肉やレバーのあとに挟むと、口の中の脂っぽさがすっと引いていくのがわかる。\n\n## どう作るのか\n\n表面には白くて硬い銀皮という筋膜がついており、これを取り除いてから小さく切り込みを入れて串に刺す。銀皮を残すと硬くて噛み切りにくくなるため、下処理の丁寧さがそのまま食感の良し悪しに直結する。1羽から取れる砂肝はおよそ1個だけで、他の希少部位に比べると重さも量もほぼ一定で、仕入れの見通しが立てやすい部位でもある。切り込みの深さや向きによっても口当たりが変わり、店ごとの包丁の入れ方に個性が出やすい。\n\n## なぜこの形になったのか\n\n脂の多い部位が続くコースの中で、砂肝は箸休め的な役割を果たす。淡白で歯ごたえのある内臓を一品に組み込むことで、内臓を無駄にしない食文化と、脂と赤身の起伏をつくる献立設計の両方を満たしている部位といえる。串の並びの中では、味を足すより口の中をいったんリセットする役割に近く、次の一本をよりおいしく感じさせるための橋渡し役ともいえる。",
+   "body_en": "## What it's made of\n\nThe gizzard — part of the chicken's digestive stomach. Since chickens have no teeth, this is pure muscle built to grind up whatever they've eaten, and it carries almost no fat. It chews with a crisp, springy snap that bites through more easily than its tough look suggests, and the flavor itself is mild — this is a cut that earns its keep through texture, not richness, giving up more savoriness the longer you chew. Order it after something fatty, like thigh or liver, and the greasiness on the tongue noticeably clears.\n\n## How it's made\n\nA tough white membrane, called the \"silver skin,\" clings to the surface and has to be peeled away before the meat is scored and skewered. Leave it on and the piece turns rubbery and hard to bite through, so how carefully that prep is done translates directly into how the finished texture feels. A single bird yields roughly one gizzard of fairly consistent size, which makes sourcing it more predictable than most other rare cuts. How deep and at what angle the scoring cuts go also shapes the bite, so the same gizzard can chew differently from one cook's knife to another's.\n\n## Why it took this shape\n\nIn a course full of fattier cuts, the gizzard works as a kind of palate reset. Folding a lean, chewy organ into the lineup satisfies two things at once: a food culture built around wasting no part of the bird, and a menu designed with a deliberate rise and fall between fat and lean. It sits in the order less to add flavor than to clear the palate before the next one, setting up whatever richer skewer comes right after it.",
+   "sources": [
+    {
+     "title": "焼き鳥の種類",
+     "url": "https://alex-co.jp/free/syurui",
+     "publisher": "一般社団法人 日本焼き鳥協会",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "砂肝・砂ずりの焼き鳥 コリコリの食感が通販で人気！部位の特徴やレシピも紹介",
+     "url": "https://www.suigo.co.jp/blog/gizzard-kushi",
+     "publisher": "水郷のとりやさん",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "砂肝はどこの部位？～砂肝の特徴について解説～",
+     "url": "https://www.3030.co.jp/trivia/no9/",
+     "publisher": "鶏三和（名古屋コーチン専門店）",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sunagimo",
+     "to_slug": "yagen-nankotsu",
+     "relation_type": "兄弟",
+     "basis": "ともに脂の量に頼らず、コリコリとした歯ごたえの心地よさだけで勝負する部位同士"
+    }
+   ]
+  },
+  {
+   "slug": "tsukune",
+   "body_ja": "## 何でできているか\n\n鶏の挽き肉を練って丸めた串。表面はタレの照りでつやめき、噛むとふわっとやわらかく、肉汁がにじみ出てくる。軟骨を刻んで混ぜ込む店も多く、そのときはやわらかな肉だねの中に不意にコリッとした歯ざわりが挟まり、単調になりがちなひき肉料理に変化をつける。串もの全体の中では、切り身とは違う「練った肉」の食感を担う一本で、他の串とは口当たりの系統がまるで違う。\n\n## どう作るのか\n\n鶏の挽き肉に玉ねぎや豆腐、卵、生姜などを加えてよく練り、粘りが出たところで小判形や団子状に丸めて串に刺す。もも肉主体の挽き肉は脂が多くジューシーに、むね肉主体だとあっさりと仕上がり、店ごとの配合で味の輪郭が変わる。タレをからめながら数回に分けて焼き、卵黄にくぐらせて食べる出し方をする店も少なくなく、焼き加減と味付けの両方に職人の判断が入り込む一品でもある。\n\n## なぜこの形になったのか\n\nつくねは、切り身のままでは串に刺しにくい部位や端材をひき肉にして活かす工夫から生まれてきたとされる料理。切り身では出せないやわらかさとまとまりを挽き肉が担うことで、焼き鳥の献立に「練りもの」という別の系統を加える役割を果たしている。串打ちだけでは埋まらない食感の幅を、成形という別の工程で補っている一品ともいえる。",
+   "body_en": "## What it's made of\n\nGround chicken, worked and shaped into a skewer. The surface glistens with a glaze of sauce, and the bite gives way soft and fluffy, releasing juice as you chew. Many shops mince in cartilage, so a sudden crunch interrupts the softness here and there — a way to break up what could otherwise be a one-note ground-meat dish. Within the whole lineup of skewers, this is the one built by hand rather than cut from the bird, and its texture belongs to a different family from everything else on the menu.\n\n## How it's made\n\nGround chicken is mixed with onion, tofu, egg, ginger, and the like, kneaded until it turns sticky, then shaped into ovals or balls and skewered. Meat ground mostly from thigh comes out fattier and juicier; mostly breast, leaner and milder — the blend shifts the whole character of the skewer shop to shop. It's grilled in stages while being brushed with sauce, and dipping the finished skewer in raw egg yolk is a common way to eat it — both the grilling and the seasoning leave plenty of room for a cook's own judgment.\n\n## Why it took this shape\n\nTsukune is thought to have grown out of a way to make use of trimmings and cuts too awkward to skewer whole, by grinding them instead. Ground meat delivers a softness no sliced cut can, and in doing so adds a whole separate category — the \"kneaded\" skewer — to the yakitori lineup, filling in a texture that cutting alone could never produce.",
+   "sources": [
+    {
+     "title": "焼き鳥の種類",
+     "url": "https://alex-co.jp/free/syurui",
+     "publisher": "一般社団法人 日本焼き鳥協会",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "つくね（焼き鳥）について",
+     "url": "https://www.suigo.co.jp/blog/tsukune-yakitori",
+     "publisher": "水郷のとりやさん",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tsukune",
+     "to_slug": "yagen-nankotsu",
+     "relation_type": "対比",
+     "basis": "挽いた肉を練り直して作る人工的な食感（つくね）と、軟骨そのものが持つ天然のコリコリ食感（やげん軟骨）という対比"
+    }
+   ]
+  },
+  {
+   "slug": "yagen-nankotsu",
+   "body_ja": "## 何でできているか\n\n胸骨の先端についた小さな軟骨で、V字型の見た目から漢方薬をすり潰す道具「薬研」になぞらえて名づけられたと伝わる。脂も臭みもほとんどなく、噛むとコリッ、シャリッという乾いた歯ざわりだけが続く、味より食感を楽しむための部位。かたわらに笹身状の薄い肉がついていることもあり、そこだけほんのり旨みが感じられる。\n\n## どう作るのか\n\n胸骨から軟骨部分だけを削ぎ取るように外す下処理には手間がかかり、1羽からとれるのはこの軟骨1個、量にしておよそ30グラムほどにすぎない。そのまま串に刺して塩で焼くほか、刻んでつくねに混ぜ込み、コリコリとした食感だけを添えるために使われることもある。1本の串を仕上げるのに複数羽分をまとめる必要があり、仕込みの手間が仕上がりの少なさに直結する部位でもある。だからこそ本数限定で出す店が多く、早い時間に売り切れることも珍しくない。\n\n## なぜこの形になったのか\n\nやげん軟骨は肉としての量をほとんど持たず、もっぱら食感だけで存在感を出す部位。脂と赤身が主役になりがちな焼き鳥の献立の中で、噛みごたえという別の軸の満足感を加える役どころを担っており、少量ゆえに品切れになりやすい希少部位として扱われることが多い。串の最後にあえて置いて、食事の締めくくりに硬質な余韻を残す使い方をする店もある。",
+   "body_en": "## What it's made of\n\nA small piece of cartilage at the tip of the breastbone, said to be named for its V shape, which resembles a yagen — the mortar-like tool once used to grind herbal medicine. It carries almost no fat or odor, just a dry, crisp snap and crunch with every bite — a cut you order for texture, not flavor. A sliver of tenderloin-like meat sometimes clings alongside it, offering the only real hint of savoriness on the piece.\n\n## How it's made\n\nPrying just the cartilage away from the breastbone takes a careful hand, and a single bird gives up only this one piece — roughly 30 grams. It's often skewered whole and grilled with salt, though it also gets minced and folded into tsukune purely to plant a crunchy surprise inside the softer meat. Building even one full skewer of it takes cartilage pooled from several birds, prep time and finished yield running in inverse proportion — which is exactly why many shops cap how many they'll serve in a night, and why it often sells out early.\n\n## Why it took this shape\n\nYagen-nankotsu carries almost no meat and earns its place through texture alone. In a yakitori lineup where fat and lean meat tend to take the lead, it adds a satisfaction built on a completely different axis — how something chews — and because so little of it comes off each bird, it's a cut that regularly sells out. Some shops save it for near the end of a course, leaving that dry, hard crunch as the last impression of the meal.",
+   "sources": [
+    {
+     "title": "焼き鳥の種類",
+     "url": "https://alex-co.jp/free/syurui",
+     "publisher": "一般社団法人 日本焼き鳥協会",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "やげん軟骨とは？どんな種類の部位で焼き鳥はどんな味？ヤゲンの焼き方レシピも紹介です！",
+     "url": "https://www.suigo.co.jp/blog/yagen-nankotsu",
+     "publisher": "水郷のとりやさん",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "やげん軟骨とは？ひざ軟骨との違いと美味しい食べ方",
+     "url": "https://js-dining.jp/column/yagen-nankotsu/",
+     "publisher": "js-dining",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yagen-nankotsu",
+     "to_slug": "seseri",
+     "relation_type": "対比",
+     "basis": "軟骨のコリコリとした歯ざわりと、よく動く筋肉ゆえの弾力あるせせりの歯ごたえ。同じ「歯ごたえ」でも質が対照的"
+    }
+   ]
+  }
+ ]
+}

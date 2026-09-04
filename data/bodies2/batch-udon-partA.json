@@ -1,0 +1,139 @@
+{
+ "items": [
+  {
+   "slug": "sanuki",
+   "body_ja": "## 何でできているか\n小麦粉と水と塩だけで打つ生地は、太さのわりに角が立ち、噛むとまず弾き返してくる強いコシに出会う。表面はつるりと滑らかで、噛み進めるうちに小麦そのものの甘みがじんわり広がる。そのあとにいりこ（煮干し）でとった澄んだ出汁の塩気とうまみが追いかけ、薬味のねぎとしょうがが後味を締める。かけうどんの一杯は、麺そのものの食感を楽しむための器のように軽い。\n\n## どう作るのか\n小麦粉に塩水を加えてこね、足で踏んでは畳むを何度も繰り返して生地を締める。踏むたびに生地はしなやかさを増し、しばらく寝かせて落ち着かせたのち、包丁で均一な太さに切り分け、たっぷりの湯で茹でる。釜から上げたては「釜あげ」、水で締めれば「ざる」、出汁をかければ「かけ」など、同じ麺を状態のまま食べ方だけ変えるのが讃岐流。\n\n## なぜこの形になったのか\n一説によると、製法は空海が唐から持ち帰ったと伝わる。真偽はさておき、香川は年間降水量が全国平均の6割ほどしかない乾いた土地で、稲作より小麦や塩の生産に向いていた。晴天が続く瀬戸内の気候が塩田を育て、近海ではいりこの原料となる片口いわしが獲れる。強いコシの麦の麺、澄んだいりこ出汁、効いた塩気——讃岐うどんの骨格は、雨の少ない土地が用意した材料をそのまま映している。",
+   "body_en": "## What it's made of\nThe dough is nothing more than wheat flour, water, and salt, but that simplicity is the point: the first thing you notice is a firm, springy bite that pushes back against the teeth. The surface runs smooth, and the wheat's own sweetness builds slowly as you keep chewing. A clear broth made from iriko (dried sardines) follows with its salt and umami, and a scattering of scallion and ginger closes out the bowl. In a plain kake udon, the noodle itself is the main event.\n\n## How it's made\nSalted water is worked into the flour, then the dough is trodden underfoot and folded over and over, growing more supple with every round, to tighten its structure. After resting, it's cut into even strands and boiled in plenty of water. Freshly lifted from the pot it's kamaage; rinsed in cold water it's zaru; ladled with broth it's kake — Sanuki style keeps the same noodle and simply changes how it's served.\n\n## Why it took this shape\nOne story credits the monk Kukai with bringing the technique home from Tang China, though that's impossible to confirm. What's certain is that Kagawa gets only about 60% of Japan's average rainfall, dry land better suited to wheat and salt than to rice paddies. The same sunny, low-rain climate that favored salt fields also supports anchovy fisheries just offshore, the source of iriko. Firm wheat noodles, clear iriko broth, a confident hit of salt — the whole dish reads as an answer to a thirsty stretch of coastline.",
+   "sources": [
+    {
+     "title": "うどん｜香川県観光協会公式サイト うどん県旅ネット",
+     "url": "https://www.my-kagawa.jp/udon",
+     "publisher": "香川県観光協会",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "讃岐うどん",
+     "url": "https://www.pref.kagawa.lg.jp/documents/14842/udon2.pdf",
+     "publisher": "香川県",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sanuki",
+     "to_slug": "banshu-somen",
+     "relation_type": "対比",
+     "basis": "香川と播磨はともに瀬戸内海式の雨の少ない気候と製塩業を背景に小麦の乾麺文化を育てたが、太いコシのうどんと極細の乾麺そうめんという対照的な形に分かれた。"
+    }
+   ]
+  },
+  {
+   "slug": "hakata-udon",
+   "body_ja": "## 何でできているか\n箸を入れるとふわりと沈み込むほど柔らかい麺が、あごや昆布でとった甘めの出汁を吸ってふくらむ。噛みしめる強さより、口の中でほどける感触を楽しむ一杯で、出汁は醤油の色こそ薄いがコクは深く、すすると鼻に抜ける甘い香りがある。ごぼう天のさくっとした衣や、魚のすり身を揚げた丸天のふんわりした弾力が、麺の柔らかさとは対照的な食感を添える。すすり終えた後も鼻に抜ける出汁の甘い香りが、次の一口をそっと誘う。\n\n## どう作るのか\n麺は柔らかめに仕上がるよう配合・加水し、注文が入るたびに一からゆでるのではなく、あらかじめゆでておいた麺を熱い出汁にくぐらせてさっと仕上げる店が多い。この「ゆで置き」のひと手間が、注文から一杯が出るまでの時間を大きく縮める。ごぼう天は薄く削ったごぼうを衣ごとかりっと揚げ、仕上げに丼へのせて出汁にひたす。\n\n## なぜこの形になったのか\n一説によると、中国から製粉技術を持ち帰った聖一国師ゆかりの承天寺周辺で製法が広まったとされる。柔らかさの理由については、商都として時間に厳しい博多商人が、並ばず待たずすぐ食べられる一杯を求めたためという説がある。ゆで置きした麺を出汁にくぐらせるだけで出せる仕組みは、行商や商談の合間に手早く腹を満たしたい土地の気質への応えとして読める。",
+   "body_en": "## What it's made of\nThe noodles are so soft they seem to sink the moment chopsticks touch them, soaking up a slightly sweet broth built on flying-fish and kelp dashi. This is a bowl built for texture that dissolves in the mouth rather than resists it — the broth runs pale in color but deep in flavor, with a sweet aroma that rises as you slurp. The crisp batter of gobo-ten (burdock tempura) or the springy give of maru-ten (fried fish cake) offer contrast against all that softness. The broth's sweet aroma lingers on the breath long after the last slurp, coaxing you back for another.\n\n## How it's made\nThe dough is mixed and hydrated to come out soft, and rather than boiling each order fresh, many shops par-boil the noodles ahead of time and simply pass them through hot broth to finish quickly. That single shortcut is what lets a bowl reach the counter so fast. Thin-sliced burdock root is battered and fried crisp, then laid on top and dipped into the broth just before serving.\n\n## Why it took this shape\nOne account traces the noodle-making technique to the area around Shofuku-ji temple, linked to the monk Enni, said to have brought milling methods back from China. As for the softness, one theory holds that Hakata's merchants — busy, time-pressed traders — wanted a bowl they could eat without waiting in line. Par-boiling the noodles so a bowl can be finished in a quick dip through hot broth reads as an answer to a city built on brisk trade and briefer lunches.",
+   "sources": [
+    {
+     "title": "まるごと福岡博多｜うどんも、そばも、まんじゅうも博多発祥",
+     "url": "https://showcase.city.fukuoka.lg.jp/column/clm0025.html",
+     "publisher": "福岡市",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "とんこつラーメンだけじゃない！「博多うどん」をぜひ食べてみて",
+     "url": "https://yokanavi.com/features/29314",
+     "publisher": "福岡市観光情報公式サイト よかなび",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hakata-udon",
+     "to_slug": "hakata",
+     "relation_type": "対比",
+     "basis": "同じ博多の街で育った麺料理でありながら、うどんは柔らかい麺とやさしい出汁、ラーメンは硬めの極細麺と濃厚な豚骨スープという対照的な食感哲学を持つ。"
+    }
+   ]
+  },
+  {
+   "slug": "ise",
+   "body_ja": "## 何でできているか\n箸で持ち上げるとちぎれてしまいそうなほど柔らかい極太麺に、たまり醤油をベースにした黒くとろりとしたたれがまとわりつく。見た目ほど塩辛くはなく、かつお節や昆布のうまみと甘みが先に立ち、後味はまろやかに消えていく。刻みねぎと七味を振れば香りが立ち、生卵を割り落として絡めるとさらに口当たりが柔らかくなる。箸を進めるたびに増していくたれの照りも、この一杯ならではの眺めだ。\n\n## どう作るのか\n太く打った麺は、コシを出す讃岐系のうどんとは対照的に、腰が抜けるまで長時間じっくり茹で上げる。ゆで上がった麺の水気をよく切り、器に盛ったところへ、かつお節や煮干し、たまり醤油、砂糖などを合わせて煮詰めたたれを直接からめる。汁につけるのではなく、たれを麺にまとわせて混ぜながら食べるのが伊勢うどんの流儀。\n\n## なぜこの形になったのか\n一説によると、江戸時代に伊勢神宮への「おかげ参り」で全国から集まった旅人をもてなす茶店で、長旅の疲れた胃にやさしい柔らかな麺と、手早く出せる濃いたれの一杯が好まれて定着したという。一方で、農民が自家製の味噌からできるたまりの上澄みを、収穫した小麦の麺にかけて食べていたのが始まりという説もある。参拝の街と麦作の村、どちらの説をとっても、行き交う人にすぐ出せる一杯という点は共通している。",
+   "body_en": "## What it's made of\nThe noodles are so soft and thick they seem ready to fall apart the moment chopsticks lift them, coated in a dark, glossy sauce built on tamari soy sauce. It looks salty but isn't — bonito and kelp umami and a touch of sweetness come through first, fading into a mellow finish. A scatter of scallion and shichimi pepper brings out the aroma, and cracking a raw egg into the mix makes it softer still. The sauce's glossy sheen deepens with every dip of the chopsticks, part of the pleasure of the bowl.\n\n## How it's made\nThe noodles are cut thick, then — unlike the firm-bite udon of Sanuki — boiled long and slow until all resistance is gone. Once drained well and piled into the bowl, they're coated directly with a sauce simmered down from bonito flakes, dried sardines, tamari soy sauce, and sugar. There's no broth to dip into; the sauce clings to the noodle itself as you mix it in, which is the whole point of Ise udon.\n\n## Why it took this shape\nOne account holds that teahouses along the pilgrim route to Ise Shrine, serving travelers worn out from the Edo-period okage-mairi pilgrimage boom, settled on soft noodles gentle on a tired stomach and a rich sauce that could be served fast. Another traces it to farmers who ladled the settled liquid from their own home-brewed miso — tamari — over noodles made from their own wheat harvest. Pilgrim town or farming village, both versions point to the same thing: a bowl built to be served quickly to people passing through.",
+   "sources": [
+    {
+     "title": "伊勢うどん",
+     "url": "https://www.city.ise.mie.jp/cul_spo_edu/culture/bunkazai_shiseki/iseudon.html",
+     "publisher": "伊勢市",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "歴史 伊勢うどん考",
+     "url": "https://www.ise-udon.net/iseudon-history/",
+     "publisher": "山口製麺",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ise",
+     "to_slug": "izumo",
+     "relation_type": "対比",
+     "basis": "伊勢神宮と出雲大社という日本を代表する二大神社の参拝客をもてなす麺として発展した点は共通するが、一方はうどん、一方はそばという別のジャンルに分かれた。"
+    }
+   ]
+  },
+  {
+   "slug": "yoshida",
+   "body_ja": "## 何でできているか\n箸で持ち上げてもびくともしない太くて硬い麺は、噛むというより歯を押し返してくる強さがある。みそとしょうゆを合わせただしはこっくりと濃く、甘辛く煮た馬肉やゆでキャベツが麺のあいだに沈む。麺の硬さと具の甘辛さが噛むたびに交互に立ち上がり、仕上げにごまや山椒、唐辛子を合わせた「すりだね」をひとふりすると香りが一段と立つ。食べ終える頃には額に汗がにじむほど、体の芯まで温まる一杯だ。\n\n## どう作るのか\n生地は水を控えめにして硬めにこね、力を込めて何度も踏み込むことでコシを最大限まで引き出す。太めに切った麺は歯ごたえがしっかり残る硬さでゆっくり茹で上げ、みそとしょうゆを合わせただしを張った丼へ、キャベツと甘辛く煮た馬肉をのせて仕上げる。薬味のすりだねは食べる直前に自分の好みで加減しながらふりかける。\n\n## なぜこの形になったのか\n一説によると、この土地はかつて機織りが主な仕事で、女性は機の前を離れられなかった。代わりに男を昼食づくりに立たせ、腹持ちがよく短時間で作れる一杯として、力任せにこねた硬い麺のうどんが定着したという。手荒れを避けたい織り手の事情も重なったとされる。富士山麓の冷え込む土地で仕事の合間にすぐ体を温められる一杯という点も、この麺の硬さと濃いだしを後押ししたと読める。",
+   "body_en": "## What it's made of\nThe noodles are so thick and firm they barely give when you pick them up — biting into them feels less like chewing and more like the noodle pushing back. The broth, a blend of miso and soy sauce, runs dark and rich, with sweet-savory simmered horse meat and boiled cabbage settling between the strands. The noodle's firmness and the sweet-salty topping trade off with every bite, and a shake of suridane — a ground mix of sesame, sansho pepper, and chili — at the end brings the aroma up another notch. By the time the bowl is empty, a light sweat has broken out — proof the noodle has done its warming work.\n\n## How it's made\nThe dough is kneaded stiff, with less water than usual, and worked underfoot with real force to push the chewiness as far as it will go. Cut into thick strands, the noodles are boiled slowly to keep their bite firm, then set into a bowl of miso-soy broth topped with cabbage and sweet-savory horse meat. The suridane condiment gets sprinkled on right before eating, to taste, by the diner's own hand.\n\n## Why it took this shape\nOne account traces it to a time when weaving was the town's main trade and women couldn't leave their looms. Men took over the midday cooking instead, and a filling noodle that could be kneaded fast with sheer arm strength — thick, stubbornly firm — became the standard, partly so the weavers' hands would stay smooth for the silk. At the foot of a cold mountain, a bowl that warms you fast between shifts at the loom also suited the firm noodle and the rich broth that came with it.",
+   "sources": [
+    {
+     "title": "地元高校生激推し！富士吉田市のソウルフード「吉田のうどん」",
+     "url": "https://www.yamanashi-kankou.jp/special/yoshidanoudon_osusume.html",
+     "publisher": "山梨県（富士の国やまなし観光ネット）",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "日本一硬い！？富士吉田名物・吉田のうどん特集",
+     "url": "https://fujiyoshida.net/feature/index.php?p=udon",
+     "publisher": "富士吉田市（公式観光ガイド）",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yoshida",
+     "to_slug": "fujinomiya-yakisoba",
+     "relation_type": "対比",
+     "basis": "富士山麓という同じ地理条件から生まれた麺料理だが、山梨側は茹でて締める硬い極太うどん、静岡側は蒸し麺を鉄板で焼くやきそばという別の調理法に分かれた。"
+    }
+   ]
+  },
+  {
+   "slug": "kazo",
+   "body_ja": "## 何でできているか\n太さは季節でも変わり、夏は細めに、冬は「ひもかわ」と呼ばれる幅広麺になる。共通するのは、噛むとしっかり押し返してくる強いコシと、つるりとしたのどごしのよさ。もり仕立てで食べることが多く、あっさりとしたつゆに麺をくぐらせるたびに、小麦そのものの香りと弾力が際立ち、噛むほどに甘みがじんわりにじみ出てくる。\n\n## どう作るのか\n生地を足で踏んでは畳むという作業を、ほかの土地のうどんより多く繰り返すのがこの土地の流儀。踏み込む回数を増やし、寝かせる時間も長くとることで、コシとのどごしを強めに引き出す。塩加減や水加減、麺の太さは季節によって細かく微調整し、冷水でしっかりしめて水気をよく切ってから、あっさり味のつゆにつけて食べる。茹で上がった麺は一本一本が張りを持ち、箸で持ち上げてもぴんと形を保つ。\n\n## なぜこの形になったのか\n一説によると、利根川の渡し場や總願寺の門前で、行き交う旅人や参拝客をもてなしたのがこの地のうどんの始まりとされる。関東平野の一角にあるこの地域は昔から小麦づくりが盛んで、麦の収穫期には「朝まんじゅう、昼うどん」と言われるほど日常的にうどんが食べられてきた。通常より多く踏み込みしっかり寝かせる作業の積み重ねは、身近な小麦を使い倒す土地の暮らしぶりがそのまま形になったものと読める。",
+   "body_en": "## What it's made of\nThe width shifts with the season — thinner in summer, and a broad ribbon called himokawa in winter — but the constant is a firm, springy bite that pushes back against the teeth and a smooth, slick finish going down. It's usually served mori-style, and each dip into the light broth brings out the wheat's own aroma and chew, with a sweetness that builds the more you eat.\n\n## How it's made\nWhat sets this town's noodles apart is simple: the dough gets trodden underfoot and folded over more times than udon made elsewhere. More treading, plus a longer rest, pulls the chew and slipperiness further than usual. Salt, water ratio, and noodle width all get fine-tuned by season, and the finished noodles are chilled and well-drained in cold water before being dipped into a light broth. Each strand keeps its own spring, holding its shape even when lifted on chopsticks.\n\n## Why it took this shape\nOne account traces the local udon to a river crossing on the Tone and the gates of Sogan-ji temple, where it was served to travelers and pilgrims passing through. Sitting in a wheat-growing corner of the Kanto Plain, this area has long grown its own flour, and at harvest time udon was eaten so routinely that a local saying went \"buns in the morning, udon at noon.\" Treading the dough harder and resting it longer than the norm reads as what happens when a place simply keeps working the wheat it has close at hand.",
+   "sources": [
+    {
+     "title": "加須うどん",
+     "url": "https://www.city.kazo.lg.jp/soshiki/shougyou_kankou/udon/5645.html",
+     "publisher": "加須市",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "TOP│加須うどん会",
+     "url": "https://kazo-udon.jpn.org/",
+     "publisher": "加須うどん会",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kazo",
+     "to_slug": "okkirikomi",
+     "relation_type": "対比",
+     "basis": "ともに北関東の小麦どころで育った家庭的な麺料理だが、加須はうどんとして茹でて締めて食べるのに対し、おっきりこみは打った幅広麺を汁で直接煮込む調理法をとる。"
+    }
+   ]
+  }
+ ]
+}

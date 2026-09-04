@@ -1,0 +1,379 @@
+{
+ "items": [
+  {
+   "slug": "ankake-supa",
+   "body_ja": "## 何でできているか\n\n2.2mmの極太スパゲッティと、具を漉して胡椒を効かせた粘度の高いミートソースでできている一皿。すすっても持ち上がるほどとろみが強く、麺とソースが最後まで分離しないのが持ち味で、パスタというよりも和食の丼に近い一体感がある。皿の底までソースが行き渡っており、フォークにもよく絡む、見た目以上に重たい一皿で、一口目から胡椒の刺激が来る。\n\n## どう作るのか\n\n具材を炒めたソースを漉して滑らかにし、片栗粉などでとろみをつけながら胡椒を効かせる。茹でた極太麺によく絡め、鉄板やステンレス皿にのせて熱いまま提供する店が多く、粉チーズやタバスコを添えることもある。とろみのおかげで湯気が長く保たれ、最後の一口まで熱いまま食べられる、冷めにくい一皿になっている。フォークとスプーンの両方で食べる店もある。\n\n## なぜこの形になったのか\n\n1961年、名古屋市東区に開業した「そーれ」が発祥とされる。当時スパゲッティもミートソースもまだ馴染みの薄かった名古屋の舌に合わせ、麺に絡む粘度と食べ応えのある極太麺を追求した結果、この形になったと伝わる。喫茶店文化が根付き洋食を早くから受け入れてきた土地柄も、独自の洋食が育つ土台になったと考えられ、名古屋めしと呼ばれる系譜の一つに数えられている。",
+   "body_en": "## What it's made of\n\nExtra-thick, 2.2mm spaghetti under a strained, pepper-forward meat sauce thickened enough to hold its shape on a fork or a slurp. The noodle and sauce never separate to the last bite — less like pasta than like a Japanese rice bowl in how the two stay bound together, sauce reaching all the way to the bottom of the plate and clinging to every strand from the first bite of pepper on.\n\n## How it's made\n\nThe solids in a stir-fried sauce are strained out, thickened with starch, and seasoned with a peppery kick. It is tossed with boiled extra-thick noodles and often served hot on a steel or iron plate, sometimes with grated cheese or Tabasco on the side. The thickness keeps the steam in, so the dish stays hot to the last bite — some shops even serve it with both a fork and a spoon.\n\n## Why it took this shape\n\nThe dish is traced to So-le, which opened in Nagoya's Higashi ward in 1961, at a time when spaghetti and meat sauce were still unfamiliar to Nagoya diners. Building a sauce that clings and noodles thick enough to feel substantial was a deliberate fit for local taste. A city with an early, deep-rooted coffee-shop culture that took to Western food quickly also gave this kind of homegrown yoshoku room to grow, and it is now counted among the dishes known collectively as 'Nagoya meshi.'",
+   "sources": [
+    {
+     "title": "そ～れのあんかけスパについて",
+     "url": "https://so-le.co.jp/supa/",
+     "publisher": "あんかけスパゲティ総本店 そーれ",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ankake-supa",
+     "to_slug": "napolitan",
+     "relation_type": "対比",
+     "basis": "両者とも日本生まれのご当地パスタ（洋食）だが、発祥地・時代が異なる（名古屋・そーれは1961年発祥、ナポリタンは横浜発祥説が一般的）"
+    }
+   ]
+  },
+  {
+   "slug": "banshu-somen",
+   "body_ja": "## 何でできているか\n\n白く細い手延べ麺。播州平野で採れる小麦、揖保川の清らかな水、赤穂の塩という三つの土地の産物からできており、コシの強さと喉ごしのよさが持ち味になっている。乾燥を経た麺は白く艶やかに仕上がり、茹で上げてもだれにくいのが特徴で、細いながらしっかりとした歯ごたえが残る。噛むほどに小麦の香りがふわりと広がり、麺の細さの割に満足感がある。\n\n## どう作るのか\n\n小麦粉を塩水で練った生地に油を薄く引きながら、二本の管に掛けて糸状に細く引き延ばし、天日と寒風にさらして乾燥させる手延べ製法で仕上げる。江戸時代の安永年間には龍野藩の許可制の産業として奨励され、乾燥から選別までの工程を管理する仕組みも育っていった。太さや品質による等級分けも古くから行われており、贈答品としても扱われてきた。\n\n## なぜこの形になったのか\n\n太子町の斑鳩寺に伝わる文書には応永25年（1418年）の条に「サウメン」の記述があり、県内最古のそうめんの記録とされる。伊勢参りの旅人が三輪から製法を伝えたとする言い伝えもあるが、いずれにせよ播州平野の小麦、揖保川の水、赤穂の塩という三条件が同じ地域にそろっていたことが、この地を屈指の産地として根付かせた理由として読める。三条件がすべて揃う地域は全国でも多くない。",
+   "body_en": "## What it's made of\n\nThin white hand-pulled noodles drawing on three local resources at once — wheat from the Banshu plain, clear water from the Ibo River, and salt from Ako. Once dried, the strands come out glossy white and hold their shape even after boiling, keeping a firm bite despite their fineness. The wheat's aroma comes through with every bite, giving a noodle this thin more substance than its size suggests.\n\n## How it's made\n\nWheat flour and salted water are worked into dough, coated lightly in oil, stretched between two tubes into thin strands, and dried in sun and wind. The Edo-period Ryuno domain formally licensed and encouraged the trade, and systems for managing everything from drying to sorting grew up alongside it. Noodles have long been graded by thickness and quality, and the finer grades have also served as gifts.\n\n## Why it took this shape\n\nA document held at Ikaruga-ji temple in Taishi records the word 'saumen' in an entry dated 1418, the oldest known reference to somen in Hyogo. Tradition also holds that Ise-bound pilgrims carried the technique here from Miwa; either way, having Banshu wheat, Ibo River water, and Ako salt together in one region is what let this area take root as one of the country's leading producers — a combination not many regions can claim.",
+   "sources": [
+    {
+     "title": "揖保乃糸の歴史",
+     "url": "https://www.ibonoito.or.jp/history/index.html",
+     "publisher": "兵庫県手延素麺協同組合",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "banshu-somen",
+     "to_slug": "miwa-somen",
+     "relation_type": "源流",
+     "basis": "三輪素麺公式サイトに「伊勢参りの旅人によって播州・小豆島・島原へと製法が広まったと伝わる」との記述がある"
+    }
+   ]
+  },
+  {
+   "slug": "beppu-reimen",
+   "body_ja": "## 何でできているか\n\nそば粉・小麦粉・でんぷんを合わせた麺と、和風の魚介だしを使ったスープでできている一皿。朝鮮半島の冷麺の技法を、日本の出汁文化で仕立て直したところに独自性があり、麺は牛骨ベースの冷麺よりも軽い口当たりになる。だしの香りが最初にふわりと立ち、後味はすっきりとしていて、暑い時期でもするすると食べ進められる。\n\n## どう作るのか\n\n数種の粉を配合した生地でコシを出した麺を茹で、和風の魚介だしで仕立てたスープに入れて冷やして供する。牛骨だしを使う他地域の冷麺とは異なり、魚介だしを選んだことがこの地の型を分けている。薬味には錦糸卵やきゅうりなどが添えられ、さっぱりと食べ進められる、後味の軽い一杯に仕上がる。店によってはキムチを添えて辛みを利かせることもある。\n\n## なぜこの形になったのか\n\n昭和25年（1950年）頃、旧満州から引き揚げてきた料理人が別府で冷麺を作り始めたのが広まりのきっかけとされ、同年創業の「元祖アリラン」がその代表格とされる。温泉と豊かな海の幸に恵まれたこの地では、故郷の牛骨だしの代わりに、身近で手に入りやすい魚介だしに置き換えることが自然な選択だったと考えられる。観光と温泉で栄えた土地柄が、よそから来た技法を柔軟に受け止める土壌にもなった。",
+   "body_en": "## What it's made of\n\nNoodles made from buckwheat, wheat, and starch, served in a Japanese-style seafood broth — the naengmyeon idea refit with local dashi, which is where its identity lies. Lighter on the tongue than the beef-bone broth typical of other regional cold noodles, the dashi's aroma rises first and the finish is clean, letting it be eaten easily even in the heat.\n\n## How it's made\n\nA dough blending several flours gives the noodles their chew; they are boiled, then served chilled in a seafood stock rather than the beef broth typical elsewhere — the choice that sets this region's version apart. Garnishes such as shredded egg and cucumber keep it light, some shops adding kimchi for extra heat.\n\n## Why it took this shape\n\nThe dish's spread is traced to around 1950, when a cook repatriated from what had been Manchuria began making cold noodles in Beppu; Genso Arirang, founded that same year, is often named as the pioneering shop. In a town rich in hot springs and seafood, reaching for a familiar seafood stock instead of the beef broth of home reads as a natural local substitution — a tourist and hot-spring town's openness to reworking an imported technique.",
+   "sources": [
+    {
+     "title": "別府冷麺",
+     "url": "https://edit.pref.oita.jp/series/local-gourmet/2429/",
+     "publisher": "大分県",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "beppu-reimen",
+     "to_slug": "morioka-reimen",
+     "relation_type": "対比",
+     "basis": "いずれも戦後、朝鮮半島由来の冷麺技法を日本人の担い手が地元向けに再構成した点は共通するが、別府は満州からの引揚者、盛岡は咸興出身者と担い手の系譜が異なる"
+    }
+   ]
+  },
+  {
+   "slug": "fujinomiya-yakisoba",
+   "body_ja": "## 何でできているか\n\nコシの強い蒸し麺、豚の背脂を搾った後に残る「肉かす」、いわしを削って作る「だし粉」の三つが骨格になっている一皿。ソースは甘辛く、麺は歯切れよく弾力が残るのが持ち味で、噛むほどにラードの香ばしさとだし粉の風味が広がり、キャベツの甘みが後を追う。屋台の鉄板の匂いそのものが記憶に残る、素朴な味になっている。\n\n## どう作るのか\n\n蒸したコシの強い麺を鉄板の上でソース、キャベツ、肉かすとともに炒め合わせる。仕上げにいわしの削り粉であるだし粉と青のりをたっぷり振りかけ、香ばしさとうま味を重ねて仕上げる。屋台や駄菓子屋の小さな鉄板でも手早く焼けることが、日常のおやつとして広まった条件の一つになっている。焼き加減のかりっとした縁が食感の決め手になり、だし粉を後がけにする店もある。\n\n## なぜこの形になったのか\n\n戦後、富士宮市内の駄菓子屋やお好み焼き店が子ども向けのおやつとして広めたのが始まりとされる。安く手早く作れる庶民のおやつとして定着したことが、当時安価に手に入った豚の背脂の副産物である肉かすや、駿河湾に近く手に入りやすかったいわしのだし粉という素材の組み合わせを、この地の型として固定させた。富士山麓の湧水で仕込む製麺所が多いことも、麺の質を支える背景として語られる。",
+   "body_en": "## What it's made of\n\nChewy steamed noodles, pork-lard cracklings called nikukasu, and a sardine-powder topping called dashiko — the three staples that give the bowl its identity. The sauce is sweet-savory and the noodles keep a springy bite; each chew brings out the lard's savor and the dashiko's flavor, with cabbage's sweetness trailing behind. The smell of a street-stall griddle is itself part of what people remember.\n\n## How it's made\n\nSteamed noodles with a firm bite are fried on a griddle together with sauce, cabbage, and nikukasu. The bowl is finished with a generous shake of dashiko and green nori for aroma and depth. Being quick to cook on even a small stall griddle was part of what let it spread as an everyday treat, and the crisp edge from frying is what defines the texture; some shops add the dashiko only at the very end.\n\n## Why it took this shape\n\nIt grew up as a postwar treat at Fujinomiya's candy shops and okonomiyaki stalls, sold to children. Settling in as cheap, quick, everyday food fixed this particular combination of ingredients as the local standard: nikukasu, a byproduct of pork lard that was cheap at the time, and dashiko made from sardines that were easy to come by near Suruga Bay.",
+   "sources": [
+    {
+     "title": "富士宮やきそばの歴史",
+     "url": "https://umya-yakisoba.com/fujinomiyayakisoba/men-rekishi/",
+     "publisher": "富士宮やきそば学会",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "fujinomiya-yakisoba",
+     "to_slug": "namie-yakisoba",
+     "relation_type": "対比",
+     "basis": "ともに戦後生まれの地域焼きそばだが、富士宮は肉かす・だし粉が骨格、浪江は通常の3倍太い麺が骨格という対照的な特徴を持つ"
+    }
+   ]
+  },
+  {
+   "slug": "handa-somen",
+   "body_ja": "## 何でできているか\n\n一般的な素麺より太く、コシの強い手延べ麺。細さを競う三輪や播州のそうめんとは対照的に、しっかりとした噛みごたえともちもちとした食感が持ち味になっている。茹で上がりも白くふっくらとしており、汁を吸っても伸びにくい丈夫さがある。温かいにゅうめんにしても存在感が消えない、力強い麺で、噛むたびに小麦の甘みが返ってくる。\n\n## どう作るのか\n\n川船の船頭たちが自分たちで手早く仕上げられるよう、工程を簡略化して作ったことが、標準より太い麺になった理由と伝わる。剣山系から吹き下ろす乾いた風と吉野川の澄んだ水にさらしながら生地を延ばし、天日で乾燥させて仕上げる。細く延ばす手間を省いた分、太さと弾力が前面に出た麺になっている。手延べでありながら太さは饂飩に近く、茹で時間も他の素麺より長くとる。\n\n## なぜこの形になったのか\n\n藩政時代、川船の船頭たちが三輪（奈良県）から淡路・鳴門を経て半田にそうめんの技法を伝えたとされる。剣山系から吹き下ろす乾いた風と吉野川の澄んだ水という土地の条件が、素麺作りに適した環境をこの地に作り、船を操る合間の限られた手間で作れる、太く力強い麺という独自の型を育てたと読める。細さより丈夫さを取った麺は、船上の暮らしの実利を映しているとも言える。",
+   "body_en": "## What it's made of\n\nA hand-pulled noodle noticeably thicker and chewier than standard somen, built for bite rather than fineness — the opposite instinct from Miwa or Banshu, which compete on thinness. Boiled, the strands come out white and plump, sturdy enough not to go soft even after soaking up broth. Even served hot in a soup, the noodle keeps its presence and returns a wheaty sweetness with every bite.\n\n## How it's made\n\nRiver-boat pilots are said to have simplified the method to make the noodles quickly for themselves, which is why they came out thicker. The dough is stretched in the dry wind off the Tsurugi mountains and the clear water of the Yoshino River, then dried in the sun. Skipping the extra work of drawing it out fine let thickness and chew come to the front — a hand-pulled noodle with the girth of udon.\n\n## Why it took this shape\n\nEdo-period river pilots are said to have carried the technique from Miwa in Nara through Awaji and Naruto into Handa. Dry mountain wind and clear river water gave the area conditions suited to somen-making, and a thick, sturdy noodle that could be made in the limited time between piloting runs became this area's own distinct type — its strength reads as a mark of the practical lives that shaped it.",
+   "sources": [
+    {
+     "title": "半田そうめんの歴史",
+     "url": "https://www.town.tokushima-tsurugi.lg.jp/docs/3478.html",
+     "publisher": "つるぎ町",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "handa-somen",
+     "to_slug": "miwa-somen",
+     "relation_type": "源流",
+     "basis": "つるぎ町公式サイトに「川船の船頭たちが三輪（奈良県）から淡路・鳴門を経て半田にそうめんの技法を伝えたとされる」と明記されている"
+    }
+   ]
+  },
+  {
+   "slug": "hita-yakisoba",
+   "body_ja": "## 何でできているか\n\n茹で麺、もやし、ねぎ、豚肉というシンプルな具にソースを絡めた一皿。具の少なさの分、麺そのものの焼き加減が主役になり、表面はかりっと香ばしく、内側はもちもちとした食感が残る対比が持ち味になっている。皿に残るソースの焦げ目も香りの一部になり、湯気とともに立つ匂いが食欲をそそる、飾り気のない一皿で、目の前で焼き上がる音まで食欲を誘う。\n\n## どう作るのか\n\n油をひいた鉄板の上で、茹で麺を表面がしっかりカリッとするまで焼き上げる。水分を飛ばしながら焼き固めることで、蒸し麺を軽く炒める他地域の焼きそばよりも香ばしさとパリッとした食感が際立つ一皿に仕上がり、ソースが麺の焦げ目にしっかりからむ。焼き加減の見極めが店ごとの腕の見せどころになり、同じ材料でも店ごとに焼き色が違う仕上がりになる。\n\n## なぜこの形になったのか\n\n市内のラーメン店を中心にこの一皿が定着したと伝わる、大分県内でも独自のソウルフード。汁もののラーメンと並んで出せる、汁のない焼き込み型の一皿として好まれたことが、鉄板でしっかり焼き固める調理を土地に根付かせたと考えられる。ラーメン店の厨房設備でそのまま作れる手軽さも、汁もの中心の店の一角に定着した理由の一つと考えられ、締めの一皿として選ばれてきた。",
+   "body_en": "## What it's made of\n\nA simple bowl of boiled noodles, bean sprouts, scallion, and pork under a savory sauce. With so few toppings, how the noodles are cooked carries the dish — crisp and fragrant on the surface, chewy underneath, a contrast that is the whole point. Scorch marks left by the sauce on the plate are part of the aroma too, and the smell rising with the steam is what pulls people in.\n\n## How it's made\n\nBoiled noodles are fried hard on an oiled griddle until the surface crisps firmly. Driving off moisture as they fry gives a noodle more fragrant and crackling than the lightly-fried steamed noodles used in most other regional yakisoba, and the sauce clings tightly to the scorched surface. Judging exactly how far to fry is where a shop's skill shows, and the same ingredients come out with a different char at every counter.\n\n## Why it took this shape\n\nThe dish is said to have taken hold mainly through the city's ramen shops, a distinctly local soul food within Oita prefecture. Being a broth-free dish that could be served alongside the shop's ramen bowls, cooked hard on a griddle, appears to be how it settled into the local rotation — an easy fit for kitchens built around ramen, and a fitting closer to a meal.",
+   "sources": [
+    {
+     "title": "日田やきそばの名店",
+     "url": "https://www.visit-oita.jp/spots/detail/9207",
+     "publisher": "日本一の「おんせん県」大分県",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hita-yakisoba",
+     "to_slug": "kuroishi-tsuyu-yakisoba",
+     "relation_type": "対比",
+     "basis": "日田はソースのみで水分を飛ばしかりっと焼き上げる乾いた焼きそば、黒石はソース焼きそばに和風だしのつゆをかける汁もの仕立てという対照的な調理法を持つ"
+    }
+   ]
+  },
+  {
+   "slug": "hoto",
+   "body_ja": "## 何でできているか\n\n幅の広い平たい生麺と、かぼちゃを中心にした季節の根菜、白菜や油揚げ、味噌仕立ての汁で成り立つ一皿。麺は下茹でをせずにそのまま汁に入れるため、溶け出した打ち粉が汁にとろみを加え、味噌の甘みとひとつに溶け合っていく。かぼちゃはやわらかく煮くずれて汁全体に甘みを移し、山あいの冬の食卓らしい、とろりとこっくりした一杯になる。すすると具材と汁が分かれず、まとまって喉を通っていく。\n\n## どう作るのか\n\n生麺と根菜、味噌を、下茹でせず煮立った鍋にそのまま入れて一気に仕上げる、一つの鍋で完結する調理法が特徴。かぼちゃは時間をかけてやわらかく煮くずれ、皮ごと種ごと汁に溶け込んでいく。麺から出た打ち粉が汁全体にとろみを与え、具と汁が分かれずひとつのとろみになったところで火を止める。土鍋のまま食卓に運ばれ、取り分けている間も冷めにくいまま食べ進められる。\n\n## なぜこの形になったのか\n\n中国の麺料理「餺飩（はくたく）」が奈良・平安期に伝わったとする説が有力とされ、戦国期には武田信玄が陣中食として重用し「武田汁」と呼ばれたとも伝わるが、発生地や時期を断定できる定説はない。米より小麦や雑穀が育ちやすい寒冷な盆地で、野菜も麺も一つの鍋で煮込み、冷める間もなく食べきる料理として今の形が定まったと読める。土鍋のまま出す提供の仕方も、この寒さへの答えの一つといえる。",
+   "body_en": "## What it's made of\n\nA one-pot dish of wide, flat raw noodles, kabocha squash and other seasonal vegetables, napa cabbage and fried tofu, all in a miso broth. Because the noodles go in unboiled, their starch dissolves straight into the broth, thickening it and folding into the miso's sweetness. The kabocha breaks down as it simmers, sending a rich sweetness through the whole pot, so each spoonful arrives thick and unified rather than broth and solids apart.\n\n## How it's made\n\nRaw noodles, vegetables, and miso all go into one simmering pot with no pre-boiling, so the whole dish comes together and finishes at once. The kabocha slowly collapses into the broth, skin, seeds and all, while starch washed off the noodles thickens the liquid until noodles and broth stop separating. It is brought to the table still in its clay pot, staying hot even as it is ladled out.\n\n## Why it took this shape\n\nThe leading theory traces hoto to 'hakutaku,' a Chinese noodle dish said to have reached Japan around the Nara or Heian period; legend also credits the warlord Takeda Shingen with favoring it as army-camp food, nicknamed 'Takeda soup,' though neither account is settled. In a cold, land-locked basin where wheat and other grains grew more readily than rice, a stew that cooks vegetables and noodles in one pot and stays hot as it is served reads as a direct answer to the cold.",
+   "sources": [
+    {
+     "title": "ほうとうの歴史",
+     "url": "https://www.hiraiya.jp/houtou_his.html",
+     "publisher": "麺造り百余年 伝承の味 平井屋",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hoto",
+     "to_slug": "okkirikomi",
+     "relation_type": "兄弟",
+     "basis": "いずれも生麺を下茹でせずそのまま汁に入れて煮込む調理法を共有する（ほうとうCSV「生麺と季節の野菜を味噌仕立てで煮込む」、おっきりこみCSV「幅広の生麺を茹でずにそのまま汁に入れて」）"
+    }
+   ]
+  },
+  {
+   "slug": "ishinomaki-yakisoba",
+   "body_ja": "## 何でできているか\n\n二度蒸しによって茶色く色づいた麺と、魚介だしが骨格になっている一皿。ソースは後がけが本場の流儀で、最初のひと口はだしの風味から始まり、途中でソースをかけることで味わいが変化していく。麺自体がだしを含んでいるため、ソースをかけても味がぼやけない。港町らしい磯の香りがまず鼻に抜け、一皿の中で二つの表情を楽しめる、飽きのこない構成になっている。\n\n## どう作るのか\n\n中力粉の麺を二度蒸しすることで表面を茶色く色づけ、だしを吸い込みやすい状態にする。その麺を魚介だしで蒸し焼きにしてから供し、食べる側が途中でソースを後からかけて味の変化を自分で作り出す。蒸し焼きにする工程が、麺の内側までだしを行き渡らせている。二度手間の分だけ風味が深くなり、他地域の焼きそばとは違う色と香りになる。\n\n## なぜこの形になったのか\n\n1931年頃、市内の中国人経営の食堂が出していた「焼麺」が原点とされる。戦後、地元製麺所が編み出した二度蒸しの製法が今の形の土台になった。全国有数の水揚げを誇る漁港を抱える石巻で、魚介だしを軸に据え、だしとソースを別々に味わえる二段構えにしたことは、豊かな水揚げという土地条件を映していると読める。だしを先に、ソースを後にという順番も、素材の質を活かす発想として読み取れる。",
+   "body_en": "## What it's made of\n\nNoodles browned by double-steaming and a seafood stock form the backbone of the dish. Sauce is ladled on after serving, the traditional way, so the first bite is stock, not sauce, and adding sauce partway through changes the flavor as you go. Because the noodle itself already carries the stock, the sauce never overwhelms it — the sea air of a fishing port reaches the nose first, and the bowl offers two distinct characters in one sitting.\n\n## How it's made\n\nMedium-strength flour noodles are steamed twice, which browns the dough and helps it absorb liquid more readily. Those noodles are then pan-steamed in seafood stock before serving, and diners add sauce themselves partway through, changing the dish's character mid-bowl by their own hand. The extra step of steaming twice is what carries stock all the way into the noodle's core, and the double effort shows in a deeper flavor and a color no other regional yakisoba has.\n\n## Why it took this shape\n\nThe dish traces to a fried-noodle dish, 'yakimen,' served at a Chinese-run diner in the city around 1931. After the war, a local noodle maker's twice-steamed method became the foundation of today's form. Built around a seafood stock in a city with one of the country's leading fishing catches, and letting stock and sauce be tasted separately, the dish reflects a port town's access to fresh seafood — stock first, sauce after, a sequence that reads as built to let good ingredients speak.",
+   "sources": [
+    {
+     "title": "石巻焼きそば",
+     "url": "https://www.city.ishinomaki.lg.jp/cont/10452000b/-kanko/1006/20130225203730.html",
+     "publisher": "石巻市",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ishinomaki-yakisoba",
+     "to_slug": "otaru-ankake-yakisoba",
+     "relation_type": "兄弟",
+     "basis": "いずれも寒冷な港町で生まれ、ソースで炒めるだけでなくだしやあんで仕上げを重ねる「汁気を伴う焼きそば」という共通の型を持つ"
+    }
+   ]
+  },
+  {
+   "slug": "jajamen",
+   "body_ja": "## 何でできているか\n\n太い平打ちのゆで麺に、甜麺醤ベースの肉味噌、きゅうりの千切り、おろし生姜、刻んだ長ねぎをのせた汁なし麺。丼の底には少量のたれが沈み、具と麺を自分でよく混ぜてから味わうのが基本の形になっている。混ぜるほどに肉味噌のコクと生姜の香りが麺全体に回り、麺自体の弾力とあいまって独特の噛みごたえを生む。表面はつるりとしていても、中はもっちりとした密度がある。\n\n## どう作るのか\n\nゆでたての太い麺を丼に盛り、肉味噌と薬味を彩りよくのせて客自身が箸でよくかき混ぜて食べる。麺全体にたれが行き渡るまで混ぜるのがこつとされ、食べ終わりに丼に残った肉味噌とたれの中に卵を割り入れ、店が用意した温かい出汁を注いでもらう「ちーたんたん」で締めくくるのが、この土地に根づいた食べ方として定着している。一杯で二つの料理を味わえる構成になっている。\n\n## なぜこの形になったのか\n\n中国東北部の炸醤麺を参考に、屋台から始めた「白龍」の高階貫勝が盛岡の舌に合わせて作り上げたのが始まりとされる。汁物のそばや冷麺が中心だった盛岡の食卓に、混ぜて食べる汁なし麺という新しい選択肢を持ち込んだことが、その独自性の核になっている。皿の底から味噌と麺を混ぜ上げ、最後は卓上の生卵と茹で汁で締めのスープにする——一皿で二度の食べ方を持つ構成も、この麺ならではとされる。",
+   "body_en": "## What it's made of\n\nThick, flat boiled noodles topped with stir-fried meat miso built on a sweet bean-paste base, shredded cucumber, grated ginger, and chopped scallion — a dish meant to be tossed together rather than sipped from broth. A little sauce pools at the bottom of the bowl, and the mixing itself is part of the ritual. The more it is stirred, the more the meat miso's richness and the ginger's bite work into every strand, against a chew that stays dense even though the surface feels smooth.\n\n## How it's made\n\nHot noodles are plated, topped with the meat miso and garnishes, and mixed by hand until the sauce coats every strand — considered the trick to a good bowl. Once the noodles are nearly finished, diners crack a raw egg into what is left of the meat miso and sauce and have the shop pour in hot broth, turning the last bites into a soup called 'chi-tan-tan' — two dishes in one bowl.\n\n## Why it took this shape\n\nThe dish is credited to Takashina Kanshō, who drew on the fried-sauce noodles he encountered in Manchuria to build what became Hakuryu's signature bowl from a street stall. It brought something new to a city built around broth-forward dishes: a noodle meant to be mixed rather than sipped. Mixing the miso up from the bottom of the plate, then finishing with a raw egg and hot noodle water as a closing soup — one plate holding two ways to eat is said to be this noodle's own signature.",
+   "sources": [
+    {
+     "title": "盛岡じゃじゃ麺",
+     "url": "http://moriokasandaimen.com/",
+     "publisher": "モリオカ三大麺推進協議会",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "jajamen",
+     "to_slug": "morioka-reimen",
+     "relation_type": "兄弟",
+     "basis": "モリオカ三大麺推進協議会公式サイトが、じゃじゃ麺・冷麺・わんこそばを「盛岡三大麺」として同列に紹介している"
+    }
+   ]
+  },
+  {
+   "slug": "joshu-ota-yakisoba",
+   "body_ja": "## 何でできているか\n\n極太の蒸し麺と濃厚な黒いソースが基本形になっている一皿。野菜は控えめで、麺の太さとソースの濃さそのもので食べさせる店が多く、店ごとに麺の太さやソースの色合いに幅があるのも特徴の一つ。噛むとソースの香ばしさに続いて麺の弾力が返ってくる、飾り気のない一皿で、量の多さも身上になっている。皿の上でソースと麺の黒さが際立つ、見た目にも力強い一杯。\n\n## どう作るのか\n\nラードをひいた鉄板で極太の麺とキャベツを炒め、濃いソースをよく絡めて焼き上げる。汁のない一皿のため時間が経ってものびにくく、屋台の小さな鉄板でも手早く供せることが好まれた理由になっている。統一された配合があるわけではなく、店ごとの個性が色濃く残る焼き方をする。目玉焼きや紅生姜をのせる店もあり、同じ太田焼きそばでも一皿ごとに表情が変わる。\n\n## なぜこの形になったのか\n\n戦後、中島飛行機（現SUBARU）の工場に東北から出稼ぎに来た人々が、東北の焼きそば文化を太田に持ち込んだのが始まりとされる。安くて量があり、汁がないためのびない一皿は、大光院の参道に並んだ屋台で、限られた休憩時間に食事をとる工場労働者の食事として理にかなっていた。工業都市の食卓としての性格が、今も店ごとに違うレシピという形で色濃く残っている。",
+   "body_en": "## What it's made of\n\nExtra-thick steamed noodles under a rich, dark sauce form the basic shape; vegetables are kept minimal, and at many shops the noodles and sauce alone carry the dish. Noodle thickness and sauce color vary from shop to shop. The chew of the noodle follows right after the sauce's savor with every bite — an unadorned dish where the sheer size of the portion is also part of the appeal.\n\n## How it's made\n\nExtra-thick noodles and cabbage are fried in lard on a griddle and coated well in a heavy sauce. Being broth-free means it does not go soggy with time, and being quick to make even on a small stall griddle is part of why it caught on. There is no single fixed recipe — the frying style keeps a strong shop-by-shop character, with some adding a fried egg or pickled red ginger on top.\n\n## Why it took this shape\n\nMigrant workers from Tohoku, drawn to the town's aircraft-then-Subaru factories after the war, are said to have brought their home region's yakisoba culture with them. Stalls lined the approach to Daikoin temple, and a cheap, filling, broth-free dish that would not go soggy made sense for factory workers eating on a short break — the character of a factory town's food still shows in how differently each shop makes it.",
+   "sources": [
+    {
+     "title": "焼そばのまち",
+     "url": "https://www.city.ota.gunma.jp/page/1570.html",
+     "publisher": "太田市（観光プロモーション課）",
+     "accessed_at": "2026-09-05"
+    },
+    {
+     "title": "太田焼きそば",
+     "url": "https://ja.wikipedia.org/wiki/太田焼きそば",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "joshu-ota-yakisoba",
+     "to_slug": "okkirikomi",
+     "relation_type": "兄弟",
+     "basis": "いずれも小麦の里として知られる群馬県の粉食文化を代表する料理（太田市公式サイト、群馬県製麺工業協同組合公式サイト）"
+    }
+   ]
+  },
+  {
+   "slug": "kawara-soba",
+   "body_ja": "## 何でできているか\n\n抹茶を練り込んだ緑色の茶そばに、薄切りの牛肉と甘辛いたれ、錦糸卵を彩りよくのせ、もみじおろしと小口ねぎの薬味を添えた一皿。麺は瓦の熱で下側の縁がぱりっと焼け、上に盛られた麺はやわらかいまま残り、香ばしさと茶葉の香りが立ち上る。つけだれに一口ずつくぐらせて食べると、緑・赤・黄の彩りが目にも楽しい、川棚温泉らしいもてなしの一皿になる。皿越しに伝わる温かさも味わいの一部。\n\n## どう作るのか\n\n熱した瓦の上に茶そばを敷き詰め、味付けした牛肉と錦糸卵を彩りよく盛り付けて供する。瓦の余熱が下から麺をじわじわと焼き続けるため、底に触れた麺は焼きそばのようにぱりっと、上側の麺はやわらかいままという食感の対比が生まれる。熱いつけだれに麺をくぐらせ、もみじおろしと小口ねぎを加えて味を変えながら食べ進める。瓦は熱を蓄える性質が強く、食べ終わる頃までじんわりと熱を保ち続ける。\n\n## なぜこの形になったのか\n\n明治10年（1877年）の西南戦争で薩軍の兵士が瓦の上で野草や肉を焼いて食べたという言い伝えを、川棚温泉の旅館経営者が昭和37年（1962年）頃にヒントとして料理化したと伝わる。長く熱を保つ瓦を器に選んだ発想は、湯治客に出す一皿を食べ終わるまで冷めさせない工夫として読める。湯につかった後の体を冷やさないという、温泉地らしい心配りが器の選び方にまで及んだ形といえる。",
+   "body_en": "## What it's made of\n\nGreen tea noodles topped with thin-sliced beef in a sweet-savory sauce and shredded egg for color, served with grated red-pepper daikon and scallion as condiments. The tile's heat crisps the bottom edge of the noodles while the noodles piled on top stay soft, and aroma from the beef and toasted tea leaf rises together. Dipping each bite into the sauce brings out green, red, and yellow in one glance — a hospitality dish built for a hot-spring town.\n\n## How it's made\n\nTea noodles are spread across a heated roof tile, then topped with seasoned beef and shredded egg for color. Because the tile keeps radiating heat from below, the noodles touching it crisp like fried noodles while the noodles on top stay soft — a deliberate contrast in texture. Diners dip bites into a hot sauce, adding the grated daikon and scallion as they go to vary the flavor. The tile itself holds its warmth well past the first bite.\n\n## Why it took this shape\n\nA local tale holds that Satsuma soldiers grilled wild greens and meat on roof tiles during the 1877 rebellion, and that an innkeeper at Kawatana hot spring turned the idea into a dish around 1962. Choosing a tile that holds heat for the serving vessel reads as a way to keep the dish hot for guests fresh from the baths — the same instinct for warmth that defines a hot-spring town extended even to the tableware.",
+   "sources": [
+    {
+     "title": "瓦そば発祥の地 川棚温泉",
+     "url": "https://yamaguchi-tourism.jp/course/detail_51.html",
+     "publisher": "山口県観光連盟",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kawara-soba",
+     "to_slug": "hoto",
+     "relation_type": "対比",
+     "basis": "瓦そばは西南戦争の兵士の言い伝え、ほうとうは武田信玄の陣中食の言い伝えと、いずれも軍事にまつわる逸話を形の由来に持つ点が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "kure-reimen",
+   "body_ja": "## 何でできているか\n\nコシのある特注の平打ち麺と、甘みと辛みを効かせ酸味を抑えたスープでできている一皿。名前は冷麺だが朝鮮半島の冷麺ではなく、中華そばを冷やして仕立て直した一杯という点が独特で、麺の平たさがスープをよくまとわせる。酸味が控えめな分、具材と麺の甘みが前に出る、まろやかな後味の一杯になっており、辛さは後からじわりと効いてくる。\n\n## どう作るのか\n\n中華そば用の麺をそのまま使うと冷やし中華になってしまうため、太めで縮れの少ない専用の平打ち麺を製麺し、甘みと辛みを効かせながら酸味を抑えたスープと和えて仕上げる。具にはチャーシューや錦糸卵、きゅうりなどが添えられることが多く、彩りも計算されている。麺とスープが絡み合うよう平打ちにしたことがこつになっており、丸麺よりもたれの絡みがよい。\n\n## なぜこの形になったのか\n\n戦後、呉市中通の屋台から始まった「珍来軒」が、看板だったワンタン麺に代わる一杯として1955年に考案したとされる。海軍工廠を抱え造船で栄えた港町の屋台文化と、地元で親しまれていた中華そばの技術が組み合わさって、朝鮮半島の冷麺とは異なる系譜の独自の冷たい麺を生んだと読める。屋台という限られた設備の中で工夫を重ねた結果でもあり、名前だけが先に広まった珍しい例といえる。",
+   "body_en": "## What it's made of\n\nA custom chewy flat noodle in a broth built for sweetness and a little heat, with sourness dialed back. Despite the name, this is not a Korean naengmyeon but Chinese-noodle-shop ramen refit cold, and the noodle's flatness is what lets it hold the broth so well. With sourness kept low, the sweetness of the ingredients and the noodle itself comes forward — a mellow finish, with the heat arriving slowly afterward.\n\n## How it's made\n\nUsing ordinary Chinese-noodle-shop noodles would have made it hiyashi chuka, so the shop had a thicker, custom flat noodle made and tossed it with a broth built for sweetness and a little heat, sourness dialed back. Toppings such as roast pork, shredded egg, and cucumber are common and arranged with an eye for color. Making the noodle flat rather than round is the trick that lets it hold the broth — flat noodles take on sauce better than round ones.\n\n## Why it took this shape\n\nChinrai-ken, a postwar street stall on Kure's Nakadori, is said to have created the dish in 1955 as a successor to its signature wonton noodles. A stall culture built around a naval-shipyard port and the Chinese-noodle-shop technique already familiar there combined to produce a cold noodle rooted in a different lineage from Korean naengmyeon — a result of working within the limits of what a street stall could do, and a name that spread ahead of what it actually describes.",
+   "sources": [
+    {
+     "title": "呉冷麺の想い",
+     "url": "https://www.kure-reimen.com/kure-reimenomoi",
+     "publisher": "珍来軒",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kure-reimen",
+     "to_slug": "beppu-reimen",
+     "relation_type": "対比",
+     "basis": "呉冷麺は中華そばを冷やして再構成した独自系統、別府冷麺は朝鮮半島の冷麺技法を継いだ系統と、同じ「冷麺」の名を持ちながら系譜が異なる"
+    }
+   ]
+  },
+  {
+   "slug": "kuroishi-tsuyu-yakisoba",
+   "body_ja": "## 何でできているか\n\n太くコシの強い「太平麺」を使った黒石やきそばに、和風だしのつゆをたっぷりかけた一皿。焼きそばでありながら、麺はつゆをまとってつるりとした喉ごしになり、ソースの香ばしさとだしの旨みが層になって重なる。れんげですくって食べるのもこの一皿ならではの食べ方で、体の芯から温まる。湯気の量も普通の焼きそばより多く、器を持つ手にまで熱が伝わる。\n\n## どう作るのか\n\nまず太平麺をソースで炒めていつもの黒石やきそばに仕上げ、そこへ熱い和風だしのつゆをたっぷりと注ぐ。つゆが染みても麺の内側にはソースの香ばしさが残り、焼き麺と汁麺の性質を一つの丼に重ねた二重構造になっている。つゆの温度で麺が伸びる前に食べきることも味わい方の一つとされ、麺とつゆの割合は店によって違い、つゆの量を選べる店もある。\n\n## なぜこの形になったのか\n\n昭和30年代後半、黒石市内の店が黒石やきそばに和風だしのつゆをかけたのが始まりとされる。戦後、市内の製麺所が中華麺の製造を始めたことがそもそもの太平麺の土台になった。豪雪地帯として知られる津軽地方の冬に、体を芯から温める需要が、いつもの焼きそばにつゆをかけるという一手間を後押ししたと考えられ、寒い季節ほど支持される、この土地らしい一皿になっている。",
+   "body_en": "## What it's made of\n\nKuroishi's own thick, chewy 'taihei' noodles fried into ordinary yakisoba, then drowned in a generous ladle of savory Japanese-style broth. Even as fried noodles, they end up slick and easy to slurp once wrapped in the broth, with the sauce's savor and the broth's umami layered on top of each other. Eating it with a spoon is part of the ritual, and it warms the whole body — more steam rises off this bowl than off an ordinary yakisoba.\n\n## How it's made\n\nTaihei noodles are first fried with sauce into ordinary Kuroishi yakisoba, then flooded with hot Japanese-style broth. Even as the broth soaks in, the sauce's savor stays inside the noodle, layering the character of fried noodles and soup noodles in one bowl. Eating it before the broth's heat softens the noodles too far is part of the technique, and the ratio of noodle to broth varies by shop — some let diners choose how much broth they want.\n\n## Why it took this shape\n\nIn the late 1950s or early 1960s, a Kuroishi restaurant is said to have started ladling broth over the town's own yakisoba. Those noodles were themselves a postwar development of local noodle makers who had begun producing Chinese-style noodles. In the deep snow of the Tsugaru region's winters, the need to warm up from the inside likely pushed the extra step of pouring broth over an already-finished dish — a bowl this region especially favors in the cold.",
+   "sources": [
+    {
+     "title": "黒石つゆやきそば伝紹会",
+     "url": "https://www.city.kuroishi.aomori.jp/kankou/spot/bussan/tsuyuyakisoba.html",
+     "publisher": "黒石市",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kuroishi-tsuyu-yakisoba",
+     "to_slug": "yokote-yakisoba",
+     "relation_type": "兄弟",
+     "basis": "いずれも戦後、地元の製麺所と飲食店の協働から生まれた東北の焼きそばで、既製の蒸し麺ではなく独自の麺を使う点が共通する"
+    }
+   ]
+  },
+  {
+   "slug": "miwa-somen",
+   "body_ja": "## 何でできているか\n\n極細に手延べされた白い麺。三輪素麺は他産地に比べても特に細く仕上げることを誇りとし、しっかりしたコシと、つるりとした滑らかな喉ごしが持ち味になっている。茹でるとわずかに透き通り、噛むと歯切れよく切れる細さがあり、めんつゆの風味を邪魔しない軽さも特徴の一つ。冷やして食べると細さゆえの涼やかさが際立つ。\n\n## どう作るのか\n\n小麦粉と塩水を練った生地に食用油を薄くまとわせながら、二本の棒にかけて糸のように細く引き延ばし、天日と風にさらして乾燥させる手延べ製法で作る。冬場の乾いた寒風にさらして数か月熟成させたものは「古物（ひね）」と呼ばれ、新麺よりいっそう強いコシと深い味わいが出るとされ、夏の食卓で好んで選ばれる。延ばす回数の多さが、細さとコシを両立させる鍵になっている。\n\n## なぜこの形になったのか\n\n大神神社の社伝によれば、宮司の子が三輪の地と三輪山の清流が小麦栽培に適することを見出し、小麦粉から素麺を作らせたのが始まりと伝わる。奈良盆地特有の乾いた冬の風は、麺を屋外で長く延ばして乾かす手延べ製法に向いた気候条件として働いたと読める。江戸期には伊勢参りの旅人を介し、播州や小豆島、島原へと製法が伝わったとも伝わり、各地の素麺の起点として語られることが多い。",
+   "body_en": "## What it's made of\n\nHand-pulled white noodles drawn out unusually thin — Miwa's noodle makers take particular pride in fineness over other regions, prized for a firm bite and a smooth, slick swallow. Boiled, the strands turn faintly translucent and snap cleanly between the teeth, and their lightness lets the flavor of a dipping sauce come through undimmed. Served chilled, the thinness itself reads as coolness.\n\n## How it's made\n\nDough of wheat flour and salted water is coated in oil and stretched between two rods into thread-thin strands, then dried in sun and wind. Noodles aged for months through the dry cold winter wind — called 'hine,' or aged stock — are said to develop even more chew and a deeper flavor than the season's fresh noodles, and are the ones favored for summer tables. The number of times the dough is stretched is what lets the noodles be both this thin and this chewy.\n\n## Why it took this shape\n\nTemple tradition at Omiwa Shrine holds that a priest's son recognized the land and clear streams around Mount Miwa suited wheat cultivation, and had the flour worked into somen — the dish's beginning. The dry winter wind of the Nara basin suits the open-air stretching and drying the hand-pulled method depends on. Tradition also holds that Ise-bound pilgrims later carried the technique on to Banshu, Shodoshima, and Shimabara, making Miwa the starting point named in several other regions' own origin stories.",
+   "sources": [
+    {
+     "title": "三輪そうめんの歴史",
+     "url": "https://www.miwasoumen-kumiai.com/history/",
+     "publisher": "奈良県三輪素麺工業協同組合",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "miwa-somen",
+     "to_slug": "shimabara-somen",
+     "relation_type": "派生",
+     "basis": "三輪素麺公式サイトと島原観光サイトの双方が、伊勢参りの旅人を介した三輪から島原への製法伝播説を記している（一説）"
+    }
+   ]
+  },
+  {
+   "slug": "miyako-soba",
+   "body_ja": "## 何でできているか\n\n手もみの工程を省いた細めでまっすぐな平麺と、豚骨や鰹だしのスープでできている一皿。麺は沖縄そばと同じく小麦粉だけで作られ、そば粉は使わない点が名前と実態のずれとして知られている。スープは澄んでいて、麺の細さがすっと喉を通る軽さがあり、沖縄本島のそばよりも上品な口当たりになる。かつおの香りが鼻先をかすめてから、豚骨の甘みが追いかけてくる。\n\n## どう作るのか\n\n沖縄本島のそばより手間を省いた製法で、細くまっすぐな麺に仕上げる。かつては具を麺の下に隠して盛り付けるのが特徴で、丼の表面はスープと麺だけの、見た目には質素な一杯に仕立てられていた。今では三枚肉やかまぼこを表に盛る店も多く、麺をすくって初めて具に出会う昔ながらの盛り付けを残す店もある。石垣島など他の離島にも似た製法が伝わっている。\n\n## なぜこの形になったのか\n\nかつて重い人頭税が課されていた宮古・八重山では、高い年貢の下で「具も入れられないほど困窮している」と見せるため、具を麺の下に隠したとする説がある。本島から離れた離島という条件のもとで、手もみを省いた簡略な製法が定着したことも、宮古島ならではの細くまっすぐな麺という型を作ったと読める。見た目の質素さの裏に、島の暮らしの厳しさが透けて見える。",
+   "body_en": "## What it's made of\n\nThin, straight flat noodles made without the extra hand-kneading step, in a pork-and-bonito broth. The noodles are made from wheat flour alone, despite the name 'soba' — no buckwheat at all, a gap between name and substance that is well known. The broth runs clear, and the noodle's thinness slips down with a lightness more refined than standard Okinawa soba; bonito's aroma brushes the nose first, then the sweetness of pork bone follows.\n\n## How it's made\n\nThe dough skips the extra kneading used on the main island, coming out thinner and straighter. Toppings were traditionally tucked underneath the noodles rather than piled on top, leaving the bowl's surface looking plain — just broth and noodle. Many shops now pile pork belly and kamaboko on top instead, though some keep the old style where the toppings only appear once you dig into the noodles; similar methods are said to be found on other outer islands such as Ishigaki.\n\n## Why it took this shape\n\nOne account holds that, under the region's historically heavy poll tax, hiding the toppings under the noodles was a way to look too poor to afford visible garnish. A simplified method that skipped hand-kneading also took hold under the conditions of a remote island far from the main island, and together these shaped Miyako's own thin, straight noodle — a plainness that hints at how hard island life once was.",
+   "sources": [
+    {
+     "title": "宮古そば",
+     "url": "https://ja.wikipedia.org/wiki/宮古そば",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "miyako-soba",
+     "to_slug": "yaeyama-soba",
+     "relation_type": "兄弟",
+     "basis": "宮古そばの出典（Wikipedia）が「宮古島や石垣島など離島で作られる麺は、手もみの工程を省くため...」と両者を同列に説明している"
+    }
+   ]
+  },
+  {
+   "slug": "morioka-reimen",
+   "body_ja": "## 何でできているか\n\nじゃがいもでんぷんと小麦粉を練った透き通るような麺、牛骨だしの濃厚なスープ、白菜ではなく大根のキムチ、季節の果物（すいかやりんごなど）でできている一皿。麺は他の冷麺と比べても際立って強いコシを持ち、噛み切るのに力がいるほどの弾力がある。すすらず噛んで味わう麺と言われ、箸で持ち上げてもぷつりとは切れない。冷たいスープと辛いキムチ、甘い果物が一つの丼で同居する。\n\n## どう作るのか\n\nでんぷんの配合を高めた生地を練り上げ、極めて強いコシを出した麺を茹でる。牛骨を長時間煮出したスープを冷やして供し、大根キムチの辛みと季節の果物の甘みを一皿の中で対比させながら味わうのが定番の食べ方になっている。辛さは店ごとに調整できることも多く、食べ進めるうちに辛みと甘みの印象が入れ替わっていく、飽きの来ない構成になっている。\n\n## なぜこの形になったのか\n\n昭和29年（1954年）、咸興出身の青木輝人が盛岡で「食道園」を開き、あっさりした平壌冷麺に故郷咸興の辛みのある味を合わせて作ったのが始まり。当初の評判は芳しくなかったが、内陸の盆地で夏冬の寒暖差が大きい盛岡の客の声を集めて改良を重ねた経緯が、でんぷんと小麦粉を配合した独自の麺という、この地だけの形を作り上げた。二つの故郷の味を一つに束ねた冷麺といえる。",
+   "body_en": "## What it's made of\n\nNoodles worked from potato starch and wheat flour into something almost translucent, a rich beef-bone broth, radish kimchi rather than the usual napa cabbage version, and a garnish of seasonal fruit such as watermelon or apple. The noodle carries a notably stronger bite than most cold noodles, chewy enough to take some effort to bite through — a noodle meant to be chewed, not slurped, and one that won't snap even lifted on chopsticks. A cold broth, spicy kimchi, and sweet fruit all share the same bowl.\n\n## How it's made\n\nA dough with a higher proportion of starch is worked to give the noodles their unusually strong chew. Beef bones are simmered a long time for the broth, then chilled and served with the heat of the radish kimchi set against the sweetness of seasonal fruit — the standard way to eat it. Spice level is often adjustable by shop, and the balance between heat and sweetness shifts as the bowl is eaten down.\n\n## Why it took this shape\n\nIn 1954, Aoki Teruhito, born in Hamhung in what is now North Korea, opened the restaurant Shokudoen in Morioka and combined the mild flavor of Pyongyang-style cold noodles with his hometown's spicier version. Early reception was rough, but reworking the recipe over years of feedback from customers in an inland basin with wide seasonal swings gave rise to this potato-starch-and-wheat noodle found nowhere else — a bowl that binds two hometowns' flavors into one.",
+   "sources": [
+    {
+     "title": "盛岡冷麺",
+     "url": "https://iwatetabi.jp/spots/16606/",
+     "publisher": "岩手県観光協会",
+     "accessed_at": "2026-09-05"
+    },
+    {
+     "title": "盛岡冷麺",
+     "url": "https://ja.wikipedia.org/wiki/盛岡冷麺",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "morioka-reimen",
+     "to_slug": "wanko",
+     "relation_type": "兄弟",
+     "basis": "モリオカ三大麺推進協議会公式サイトが、じゃじゃ麺・冷麺・わんこそばを「盛岡三大麺」として同列に紹介している"
+    }
+   ]
+  },
+  {
+   "slug": "nagasaki-champon",
+   "body_ja": "## 何でできているか\n\n豚肉・魚介・かまぼこなど十数種の具材をラードで炒め、鶏がらや豚骨のスープと合わせた一皿。とろみのある濃厚なスープが、太く縮れた麺によく絡み、具材の種類が多いぶん一椀で満足感が高く、野菜と魚介の甘みがスープに幾重にも重なる。湯気からいくつもの香りが同時に立ち上り、レンゲですくうたびに具材の顔ぶれが変わる、賑やかな一椀になっている。\n\n## どう作るのか\n\n具材を炒めた鍋にちゃんぽん専用の麺を入れ、スープと一緒に煮立てるのが最大の特徴。麺を別に茹でずスープの中でそのまま仕上げることで、麺がだしを十分に吸い込み、スープと麺が分かちがたく一体になる。他の中華麺料理には見られない調理の順序といえ、時間が経ってもスープが薄まりにくく、最後の一口まで濃さが変わらない。\n\n## なぜこの形になったのか\n\n1899年（明治32年）、福建省出身の陳平順が四海樓を創業する中で、留学生や華僑向けに安く栄養価の高い麺料理として考案したとされる。商標登録をせずに広めたことが、開港地・長崎の飲食店に同種の麺料理が広がる土台になった。豚肉・海産物・野菜が一度に手に入る貿易港ならではの食材事情が、具だくさんという形を後押ししたと読める。異なる文化が行き交う街で育った、混ざり合いそのものを名前にした料理でもある。",
+   "body_en": "## What it's made of\n\nA dozen-plus ingredients — pork, seafood, kamaboko fish cake — stir-fried in lard and joined to a chicken-and-pork-bone broth thickened enough to cling to the noodles. The thick broth coats the thick, curly noodles well, and with so many ingredients a single bowl feels substantial, the sweetness of vegetables and seafood layering through the broth. Several aromas rise together in the steam, and every spoonful turns up a different mix of ingredients — a lively bowl.\n\n## How it's made\n\nThe noodles go into the same pot as the stir-fried ingredients and broth to finish cooking together, rather than being boiled separately — the trait that sets champon apart from other Chinese-style noodle dishes in Japan. Finishing the noodles in the broth itself, rather than boiling them apart, lets them soak up plenty of stock and become inseparable from the soup. That order of cooking is unlike anything else in the genre, and the broth barely thins even as the bowl sits.\n\n## Why it took this shape\n\nIn 1899, Chen Ping-shun, a Fujian-born restaurateur who founded Shikairo, devised the dish as cheap, nutritious food for the Chinese students and residents of Meiji-era Nagasaki. Never trademarking the name let it spread through the port city's restaurants. A trading port where pork, seafood, and vegetables were all readily on hand likely encouraged the load-everything-in approach — a dish that grew up in a city where different cultures constantly mixed, with 'mixing' even built into its name.",
+   "sources": [
+    {
+     "title": "四海樓の沿革",
+     "url": "https://shikairou.com/history/history00/",
+     "publisher": "中華料理 四海樓",
+     "accessed_at": "2026-09-05"
+    },
+    {
+     "title": "ちゃんぽん",
+     "url": "https://ja.wikipedia.org/wiki/ちゃんぽん",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-05"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nagasaki-champon",
+     "to_slug": "obama-champon",
+     "relation_type": "派生",
+     "basis": "雲仙温泉観光協会公式サイトに「長崎市の茂木港と雲仙市小浜港は航路で結ばれ...ちゃんぽんの食文化が自然に小浜へ根付いた」と明記されており、長崎ちゃんぽんが商標登録せず広めたことも派生を後押しした"
+    }
+   ]
+  }
+ ]
+}

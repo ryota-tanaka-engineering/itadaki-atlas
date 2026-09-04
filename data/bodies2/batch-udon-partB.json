@@ -1,0 +1,112 @@
+{
+ "items": [
+  {
+   "slug": "inaniwa",
+   "body_ja": "## 何でできているか\n光にかざすと透き通るような白さを見せる、平打ちの乾麺。原料は小麦粉と食塩、打ち粉に使う澱粉だけとシンプルだが、小麦粉に対して食塩水を55％以上加えて練り上げる加水の多さが特徴で、これがなめらかな舌ざわりとしっかりとしたコシを生む。ゆでるとつるつるとした喉ごしとしこしことした歯ごたえが同時に立ち上がり、見た目の繊細さとは裏腹に食べ応えのある一本になる。\n\n## どう作るのか\n練った生地を一晩休ませたあと、細く切って紐状にし桶の中で渦を巻くように巻き込む「小巻き」を経て、二本の棒に八の字にかけながら少しずつ引き延ばす「手綯い」を行う。合間に何度も熟成の時間を挟み、麺線をつぶし棒で平らにしてから干し台でさらに延ばして乾燥させる。その日の気温や湿度で塩加減を微調整しながら、仕込みから完成まで3〜4日をかける、手間を惜しまない工程だ。\n\n## なぜこの形になったのか\n稲庭は奥羽山脈に囲まれた豪雪地帯で、雪に閉ざされる生活が半年にも及ぶ。一説によると、その冬を越すための保存食として小麦の栽培が始まり、日持ちする乾麺へと工夫が重ねられていったのが稲庭うどんの起こりとされる。何日もかけて熟成と乾燥を繰り返す製法は、長い冬を見越して手間と時間を惜しまなかった土地の知恵の表れと読める。江戸期には藩主への贈答品にもなった。",
+   "body_en": "## What it's made of\nHeld up to the light, this flat dried noodle glows almost translucent white. The ingredient list is short — wheat flour, salt, and a dusting of starch to keep strands apart — but the dough takes an unusually large amount of salted water, over 55% of the flour's weight, worked in as it's kneaded. That generous hydration is what gives the noodle its silky feel and firm bite: boiled, it delivers a slick, smooth pull followed by a springy chew that lingers.\n\n## How it's made\nThe kneaded dough rests overnight, then gets cut into thin ropes and coiled into a tub in a step called komaki. From there it's looped figure-eight style over two rods and gradually drawn out by hand — teneri — with long pauses for resting built into every stage. Between stretches the strands are flattened with a wooden roller before a final pull and dry on a rack. Salt levels are adjusted daily for temperature and humidity, and the whole process, start to finish, takes three to four unhurried days.\n\n## Why it took this shape\nInaniwa sits ringed by the Ou Mountains, in snow country where winter can keep the ground buried for half the year. One account holds that wheat farming took root here as a way to build a food that would keep through those long, snowbound months, and that the push to make it last is what shaped the noodle into its dried form. The repeated resting and slow drying read as an answer to that same problem — a method built by people with the time, and the need, to be patient. By the Edo period it had also become a gift fit for the local lord.",
+   "sources": [
+    {
+     "title": "稲庭うどんとは",
+     "url": "http://inaniwa-udon.jp/about/",
+     "publisher": "秋田県稲庭うどん協同組合",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "手づくりの魅力",
+     "url": "http://inaniwa-udon.jp/charm/",
+     "publisher": "秋田県稲庭うどん協同組合",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "inaniwa",
+     "to_slug": "himi",
+     "relation_type": "兄弟",
+     "basis": "ともに手延べの乾麺で、藩主への献上品とされた点が共通する（稲庭=秋田藩佐竹家、氷見=加賀藩）"
+    }
+   ]
+  },
+  {
+   "slug": "mizusawa",
+   "body_ja": "## 何でできているか\n使う材料は小麦粉と水沢の湧き水、それに塩だけ。飾り気のない配合だからこそ、水そのものの清らかさが仕上がりの善し悪しを左右する。ゆで上げた麺は透明感のある艶をまとい、細めに切られているぶん歯切れがよく、つるつるとした喉ごしがまっすぐ伝わってくる。しょうゆだれかごまだれにさっと浸けて、麺そのものの味と香りを確かめるように食べるのが定番だ。冷たいままでも麺の甘みがよくわかる、飾らないひと皿だ。\n\n## どう作るのか\n小麦粉に塩と水を加え、手でしっかりこねて鍛え上げる手打ちの工程が基本になる。つなぎや油は一切使わず、生地そのものの力だけで腰を出すため、練りと寝かせを何度も繰り返しながら生地を締めていく。仕上げは細く切り分けて茹で上げるだけとシンプルだが、そのぶん粉と水と塩の配合、こねの加減がそのまま麺の透明感と歯ざわりの差になって表れてくる。\n\n## なぜこの形になったのか\n一説によると、飛鳥時代に水澤寺を開いた高麗からの渡来僧がうどんの製法を伝えたと伝わり、天正4年（1576年）頃には地元の小麦と水沢の湧き水で打ったうどんが、湯治客や参拝者にふるまわれるようになったという。伊香保の温泉と観音霊場を結ぶ門前の一杯として、旅の疲れを癒してきた歴史が、飾らない配合と清らかな喉ごしへのこだわりに表れている。",
+   "body_en": "## What it's made of\nThe ingredient list stops at wheat flour, spring water from Mizusawa, and salt — nothing else. With a recipe this bare, the clarity of the water itself becomes the thing that decides how the noodle turns out. Boiled, the strands come out with a glassy sheen; cut thin, they snap cleanly and carry a smooth, slippery pull straight down. They're eaten dipped in a soy-based or sesame-based sauce, a method that lets the noodle's own flavor and aroma come through. Even served cold, the noodle's natural sweetness comes through clearly.\n\n## How it's made\nThis is a hand-kneaded noodle at its core — flour, salt, and water worked by hand until the dough finds its strength, with no binder and no oil involved. Kneading and resting are repeated again and again to tighten the dough rather than stretch it. The finish is simple: sliced thin and boiled. But because there's nothing to hide behind, the exact balance of flour, water, and salt — and the feel of the kneading — shows directly in how translucent and how crisp the finished noodle turns out.\n\n## Why it took this shape\nOne account traces the technique to a monk from the Korean peninsula who helped found Mizusawa-dera temple in the Asuka period and is said to have passed on a method for making noodles. By around 1576, noodles made from local wheat and Mizusawa's spring water were reportedly being served to visitors taking the waters and to pilgrims at the temple gate. That history — a bowl offered to travelers resting between the hot springs of Ikaho and a mountain temple — shows in the noodle's plain recipe and its insistence on a clean, clear finish.",
+   "sources": [
+    {
+     "title": "水沢うどん",
+     "url": "https://www.ikaho-kankou.com/eat/udon/",
+     "publisher": "渋川伊香保温泉観光協会",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mizusawa",
+     "to_slug": "inaniwa",
+     "relation_type": "対比",
+     "basis": "ともに乾麺・生麺文化を持つが、水沢は手打ち、稲庭は手延べという製法が対照的"
+    },
+    {
+     "from_slug": "mizusawa",
+     "to_slug": "okkirikomi",
+     "relation_type": "対比",
+     "basis": "同じ群馬県の粉もの文化圏だが、水沢は細い麺をつゆにつけ、おっきりこみは幅広麺を汁でそのまま煮込むという食べ方が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "goto",
+   "body_ja": "## 何でできているか\n厳選した小麦粉を、五島列島のミネラル豊かな水と五島灘の海塩でじっくり練り上げ、仕上げの工程では島特産の食用椿油を薄く塗り重ねていく。オレイン酸を多く含む椿油が麺の酸化を防ぐとされ、白磁を思わせるつやとプルンとした滑らかな口当たり、なかなか切れない強いコシは、この椿油あってこその持ち味だ。細めに揃った麺は、するりとした喉ごしも心地よい。噛み切るたびに椿油のほのかな香りが鼻に抜ける。\n\n## どう作るのか\n練った生地は木の台の上で何百回も踏み込まれ、コシの土台をつくる。渦巻き状に切って一本の紐にし、層の間に椿油を塗りながら少しずつ細く引き延ばしていく「大巻」「こなし」「小引」という工程を経て、最後は「ハタ」と呼ばれる干し台にかけ、晩秋から春にかけての乾いた季節風にさらして数日がかりでじっくり自然乾燥させる、根気のいる仕事だ。\n\n## なぜこの形になったのか\n一説によると、遣唐使が唐から持ち帰った製法が、寄港地だった上五島に伝わったのが始まりという。漁や農作業に追われる島の暮らしの中で、身近な材料で作れる保存食として根づき、島に自生する椿からとれる油を延ばしの工程に使うようになった。海に囲まれた島だからこその海塩と椿油、そして冬場の乾いた季節風による自然乾燥が、この麺の艶とコシを支えている。",
+   "body_en": "## What it's made of\nSelect wheat flour is worked with mineral-rich island water and sea salt from the Goto Sea, and in the finishing stage, camellia oil pressed from the island's own trees is brushed on in thin layers. The oleic acid in that oil is said to slow oxidation, and it's a large part of why the noodle has the porcelain-like sheen, the springy, almost bouncy bite, and the resistance to breaking that define it. The strands come out evenly thin, with a light, easy slide going down. A faint scent of camellia oil rises with every bite.\n\n## How it's made\nThe kneaded dough is trodden underfoot hundreds of times on a wooden platform to build its base strength. It's then cut in a spiral and gathered into a single long rope, which is drawn out thinner and thinner in stages — ōmaki, konashi, kobiki — with camellia oil brushed between the layers at each pull. The final strands are hung on drying racks called hata and left to dry slowly over several days in the dry seasonal winds that blow from late autumn into spring — patient, unhurried work.\n\n## Why it took this shape\nOne theory holds that the technique arrived with a mission returning from Tang-dynasty China, reaching Kamigoto — a port of call along the route — and taking root there. In a life shaped by fishing and farm work, it became a preserved food made from what was close at hand, and oil pressed from the island's own camellia trees found its way into the stretching process. The sea salt and camellia oil belong to an island surrounded by water, and the dry winter winds that dry the noodles are just as local — together, they're what give this noodle its shine and its bite.",
+   "sources": [
+    {
+     "title": "「五島手延うどん」の歴史",
+     "url": "https://www.goto-udon.jp/about/history/",
+     "publisher": "五島手延うどん協同組合",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "五島うどんの特長",
+     "url": "https://www.goto-udon.jp/about/udon/",
+     "publisher": "五島手延うどん協同組合",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "五島手延うどんの製造工程",
+     "url": "https://www.goto-udon.jp/about/procedure/",
+     "publisher": "五島手延うどん協同組合",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "goto",
+     "to_slug": "himi",
+     "relation_type": "対比",
+     "basis": "同じ手延べ系譜だが伝来ルートが対照的。五島は遣唐使経由の中国伝来説、氷見は江戸期の輪島・白髪素麺の技法導入とされる"
+    }
+   ]
+  },
+  {
+   "slug": "himi",
+   "body_ja": "## 何でできているか\n材料は小麦粉と水、塩のみで、延ばす工程で油を一切使わないのが素麺との大きな違いだ。手でしっかりこね、さらに足で踏んで力を込めて練り上げた生地は、もちもちとした食感と強いコシ、粘りを併せ持つ。元祖と言われる「糸うどん」の名は、人の手で撚りをかけながら一本の糸を紡ぐように仕上げていく様子に由来するという。乾麺と半生麺があり、太さも好みに応じて選べる。\n\n## どう作るのか\n生地を平たい円形に整え、外側から中心へ渦を巻くように切って一本の長いロープにしたら、油を使わずに手で撚りをかけながら延ばしていく。二本の棒に八の字にかけて熟成させてはまた延ばす、という工程を繰り返し、細くなったところで竿にかけて干し上げる。しっかり練って足で踏む手打ちの力と、撚りをかけて延ばす手延べの技を併せ持つのが氷見うどんらしさだ。\n\n## なぜこの形になったのか\n一説によると、江戸時代中期に能登・総持寺のうどんや、かつて加賀藩御用達だった輪島の白髪素麺の技術が氷見に伝わり、地元で独自の製法へと磨き上げられたという。素麺の系譜を引き継ぎながらも油を使わない道を選んだことで、もちもちとした独特の食感が生まれ、やがて加賀藩への献上品にもなったと伝わる。港町で日常的に食べ継がれてきた一杯である。",
+   "body_en": "## What it's made of\nThe recipe holds to just wheat flour, water, and salt — no oil at all in the stretching, which is the clearest thing separating it from somen. Kneaded firmly by hand and then trodden underfoot with real force, the dough comes out chewy and dense, with a strong, sticky bite. The noodle's forerunner is said to have been called ito udon, or 'thread udon,' a name that comes from the way it was twisted and drawn out by hand as if spinning a single long thread. It's sold both fully dried and half-dried, in a range of thicknesses.\n\n## How it's made\nThe dough is shaped into a flat disc, then cut in a spiral from the outside in to form one long rope. From there it's twisted and stretched entirely by hand, with no oil used at any point. It's looped figure-eight style over two rods to rest, then stretched again — the cycle repeats — until the strands are thin enough to hang on poles and dry. What makes Himi udon distinctive is that it carries both a hand-kneaded noodle's foot-trodden strength and a hand-stretched noodle's twisting technique in a single dish.\n\n## Why it took this shape\nOne account says that in the mid-Edo period, techniques from Noto's Soji-ji temple and from Wajima's shiraga somen — once supplied to the Kaga domain — made their way to Himi and were refined into a distinct local method. Keeping the somen lineage's technique but dropping its oil is credited with giving the noodle its particular chewy density, and it eventually became a tribute item to the Kaga domain in its own right. It has stayed a noodle eaten daily in this fishing town ever since.",
+   "sources": [
+    {
+     "title": "氷見のうどん（ひみのうどん）｜にっぽん伝統食図鑑",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/himi_no_udon.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "himi",
+     "to_slug": "mizusawa",
+     "relation_type": "対比",
+     "basis": "氷見は油を使わない手延べ、水沢は塩と水だけで鍛える手打ちと、対照的な製法思想を持つ"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,386 @@
+{
+ "items": [
+  {
+   "slug": "naha-soba",
+   "body_ja": "## 何でできているか\n\n透き通った豚骨とかつお節のだしに、小麦粉だけで作る中華麺を合わせる。そば粉は使わない。色は真っ白ではなく卵色がかった中太麺で、噛むとほのかな弾力が返ってくる。三枚肉やソーキ、細切りのかまぼこ、紅生姜をのせ、具を麺の上に盛るのが那覇の型で、比嘉某の店が卵焼きを添えた工夫が今日の彩りにつながったと伝わる。スープは意外なほど澄んでいて、豚の脂っこさよりもかつおの香りが先に立つ。\n\n## どう作るのか\n\nかつては「がじゅまる」などを燃やした木灰から取った灰汁を麺のつなぎに使っていたが、木灰の入手が難しくなり1961年頃からかん水に切り替わったとされる。豚骨とかつお節でじっくりだしをとり、塩を少し加えて味を調えるだけのシンプルな作り方で、澄んだスープに仕上げるのが那覇そばの基本の型になっている。麺は蒸し工程を経てから茹で上げ、油を絡めてくっつきを防ぐのが一般的な製麺の流れ。\n\n## なぜこの形になったのか\n\nそば粉の原料となる蕎麦は冷涼な気候を好み、亜熱帯の沖縄では育ちにくい。明治期に那覇へ渡った唐人が中華麺の製法を持ち込み、豚肉を余さず使う琉球の食文化と結びついたことで小麦麺の料理として定着したとされる。「沖縄そば」という名称も、そば粉不使用への行政指摘を経て1972年頃に定着したと伝わる。麺もだしも、島の気候と交易の歴史がそのまま形になった一杯といえる。",
+   "body_en": "## What it's made of\n\nClear pork-bone and bonito broth carries wheat noodles made without a grain of buckwheat. The medium-thick strands run a pale egg-yellow rather than stark white, and give back a gentle spring when chewed. Sliced pork belly or soki rib, thin-cut kamaboko fish cake, and red pickled ginger sit on top, a presentation said to trace back to a rival shop's egg-topped version. The broth is surprisingly clear, the aroma of bonito arriving before any hint of pork fat.\n\n## How it's made\n\nNoodles were once bound with lye drawn from burnt gajumaru-wood ash; as that grew hard to source, shops are said to have switched to standard kansui alkaline water around 1961. The broth is built by slowly drawing out pork bone and bonito, seasoned with just a touch of salt into a clear, clean stock — a simple method that defines the Naha style. The noodles are typically steamed once before boiling, then tossed with a little oil to keep the strands from sticking.\n\n## Why it took this shape\n\nBuckwheat itself needs a cool climate and struggles in subtropical Okinawa, so wheat took its place. Chinese immigrants who settled in Meiji-era Naha are credited with bringing the noodle-making technique, which fused with a Ryukyu food culture built on using every part of the pig. The name 'Okinawa soba' itself is said to have settled into common use only around 1972, after regional guidance over the absence of buckwheat. Both the noodle and the broth read like a direct imprint of the island's climate and trade history.",
+   "sources": [
+    {
+     "title": "沖縄そばの歴史",
+     "url": "https://oki-soba.jp/history/rekishi/",
+     "publisher": "沖縄生麺協同組合",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "naha-soba",
+     "to_slug": "soki-soba",
+     "relation_type": "派生",
+     "basis": "沖縄生麺協同組合の記録で1975年に名護でソーキそばが登場し、沖縄そばの概念を大きく広げたと明記されている(oki-soba.jp)。"
+    }
+   ]
+  },
+  {
+   "slug": "soki-soba",
+   "body_ja": "## 何でできているか\n\n骨付きの豚あばら肉を甘辛く柔らかく煮込んだ「ソーキ」が、澄んだ豚骨とかつお節のスープに沈む。箸で簡単にほぐれるやわらかさで、脂の甘みがじんわりとスープに溶け出しているのがひと口飲むだけでわかる。麺は那覇そばと同じ小麦の中太麺が使われ、脂を吸ってもべたつかない。スープを一口すすると、まず肉の甘みが追いかけてくる。\n\n## どう作るのか\n\nソーキは骨付き肉を長時間じっくり煮込み、醤油と砂糖で甘辛く味を含ませて作る。これを那覇そばと同じ小麦麺・同じ豚骨かつおだしに合わせるのが基本の作り方で、麺とスープの型はそのまま受け継ぎながら、トッピングだけを大きく発展させた一杯といえる。骨から出るコラーゲンがスープにとろみを添えることもあり、飲み干した後の満足感も大きい。\n\n## なぜこの形になったのか\n\n沖縄生麺協同組合の記録によれば、1975年に名護でソーキそばが登場したとされる。骨付き肉を柔らかく甘辛く煮込んだソーキを沖縄そばにのせるという組み合わせは、それまで具を控えめに盛っていたそばの概念を大きく広げるものだったと伝わる。豚を余さず食べる沖縄の食文化が、骨付き肉というトッピングの選択にも表れている。",
+   "body_en": "## What it's made of\n\nA rack of pork rib, simmered until the meat falls from the bone in a sweet-savory glaze, sinks into the same clear pork-and-bonito broth as standard Okinawa soba. The fat renders into the stock, and the meat pulls apart with a single chopstick. The noodle is the same medium-thick wheat strand used for Naha-style soba, and stays loose rather than clumping even after soaking up the fat. The first sip of broth brings the meat's sweetness chasing right behind.\n\n## How it's made\n\nSoki is made by simmering bone-in pork slowly in soy sauce and sugar until tender, then laying it over the same wheat noodles and broth used for Naha-style Okinawa soba. The base recipe carries over unchanged; only the topping was pushed further. Collagen rendered from the bone sometimes lends the broth a touch of body, and finishing it leaves a real sense of having eaten well.\n\n## Why it took this shape\n\nAccording to the history kept by Okinawa's noodle-makers cooperative, soki soba is said to have appeared in Nago in 1975. Topping the noodle soup with soki broadened what an Okinawa soba bowl could be, adding a slow-simmered rib to a dish that had until then kept its toppings simpler. The choice to top the bowl with bone-in meat reflects an Okinawan food culture built on using every part of the pig.",
+   "sources": [
+    {
+     "title": "沖縄そばの歴史",
+     "url": "https://oki-soba.jp/history/rekishi/",
+     "publisher": "沖縄生麺協同組合",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "soki-soba",
+     "to_slug": "yaeyama-soba",
+     "relation_type": "対比",
+     "basis": "ソーキそばはトッピングの拡張で沖縄そばを広げ、八重山そばは1972年登場の丸麺という麺の形状で差別化した。両データに製法上の違いが明記されている。"
+    }
+   ]
+  },
+  {
+   "slug": "yaeyama-soba",
+   "body_ja": "## 何でできているか\n\n断面が丸い麺が、豚骨とかつお節のほんのり甘みのあるスープに沈む。醤油で煮た豚の赤身肉と細切りのかまぼこが定番の盛り付けで、那覇そばの平打ち麺よりもつるりとした喉ごしと、すっきりとした後味が残るのが特徴。脂身より赤身を使う分、後を引くしつこさがなく、汗をかいた体にもすっと入っていく。彩りの赤身肉が食欲をそそる盛り付けになっている。\n\n## どう作るのか\n\n麺は断面が丸くなるように仕上げられ、1972年に登場したこの丸麺が今では八重山そばの目印として広く知られている。豚の赤身肉を醤油でじっくり煮て、細切りにしたかまぼこと合わせて盛り付けるまでが定番の作り方で、スープにコクを足すため豚骨を長時間煮出す店も多く、麺を茹でる時間も本島よりわずかに短いとされる。\n\n## なぜこの形になったのか\n\n石垣島など離島では、本島のような手もみの工程を省くため、麺が細く縮れの少ない形になったとされる。同じ沖縄そばの系統でも、島ごとに製麺の手間や道具の事情が違うことが、麺の断面や太さという見た目の差になって表れている。離島特有の湿度も麺を乾かしすぎない工夫につながっていると考えられ、気候の違いがそのまま製法の違いに直結している。",
+   "body_en": "## What it's made of\n\nRound-cut noodles sink into a pork-and-bonito broth carrying a faint sweetness. Soy-simmered lean pork and shredded kamaboko fish cake are the standard toppings, and the finish slips down cleaner than the flat-cut Naha-style bowl. It goes down easily even on a sweat-soaked afternoon, without lingering heaviness, and the lean pink meat makes the bowl look as good as it tastes.\n\n## How it's made\n\nThe noodles are made with a round cross-section — round noodles appeared in 1972 and have served as Yaeyama soba's calling card ever since. Lean pork is simmered slowly in soy sauce and served alongside shredded fish cake, many shops simmer the pork bone for hours to add extra body to the broth, and the noodles themselves are often boiled a touch shorter than on the main island.\n\n## Why it took this shape\n\nOn remote islands like Ishigaki, shops are said to skip the hand-kneading step used on the main island, leaving the noodles thinner and less curled. The same Okinawa soba family takes a different shape from island to island depending on how much labor and equipment local noodle-making has on hand. The island's own humidity is also thought to shape how the noodles are kept from drying out too far, climate translating directly into method.",
+   "sources": [
+    {
+     "title": "八重山そば",
+     "url": "https://ja.wikipedia.org/wiki/八重山そば",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "namie-yakisoba",
+   "body_ja": "## 何でできているか\n\n極太の麺がまず目に入る。一般的な焼きそばのおよそ3倍という太さで、噛むと小麦の甘みともちっとした強い弾力が残る。具は豚肉ともやしだけとそぎ落とされ、そこに濃厚なソースを絡めて一味唐辛子をふるのが浪江の食べ方。皿に盛られた麺の量も、一般的な焼きそばよりやや多めに感じられる。ソースは黒っぽく濃厚で、太い麺によく絡む。\n\n## どう作るのか\n\n1955年頃、常磐線浪江駅近くの居酒屋が太い麺を使った焼きそばを出したのが始まりと伝わる。鉄板でしっかり炒めた麺に、豚肉ともやしだけのシンプルな具を合わせることで、麺そのものの食感を主役にする調理法が定着していった。太い麺は炒めるのに時間がかかる分、外はカリッと中はもちっとした食感に仕上がり、香ばしい匂いが鉄板から立ちのぼる。\n\n## なぜこの形になったのか\n\n浜通りは沿岸の労働者や漁師が多く、力仕事の合間に手早く食べられて腹持ちのする一皿が求められたため、この太さになったと考えられる。具を豚肉ともやしに絞ったのも、麺の存在感を邪魔しないための選択と読める。力仕事を支える一皿という位置づけが、具材の少なさと麺の太さの両方にそのまま表れており、質より量を優先した割り切りが見える。",
+   "body_en": "## What it's made of\n\nThe noodle is the first thing you notice — roughly three times the usual thickness, with a wheaty sweetness and a strong springy bite that holds up under a rich sauce. The toppings are stripped down to just pork and bean sprouts, letting the noodle carry the dish. Even the portion on the plate tends to look a touch larger than standard yakisoba, and the dark, rich sauce clings well to such a thick strand.\n\n## How it's made\n\nAround 1955, an izakaya near Namie Station on the Joban Line is said to have started the thick-noodle style. The noodles are fried hard on the griddle, and pairing them with nothing more than pork and bean sprouts lets the noodle's own texture become the point of the dish. Because the thick strands take longer to fry through, the outside crisps while the inside stays chewy, and a toasty smell rises off the griddle as it cooks.\n\n## Why it took this shape\n\nThe Hamadori coast drew dockworkers and fishermen who needed a filling plate they could eat quickly between shifts, which may explain the noodle's heft. Keeping the toppings to just pork and bean sprouts reads as a choice to keep the noodle itself from being crowded out. That the dish was built to fuel hard labor shows directly in how sparse its toppings are.",
+   "sources": [
+    {
+     "title": "なみえ焼そば",
+     "url": "http://namieyakisoba.com/namieyakisoba.html",
+     "publisher": "浪江焼麺太国（浪江町商工会青年部）",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "namie-yakisoba",
+     "to_slug": "joshu-ota-yakisoba",
+     "relation_type": "対比",
+     "basis": "ともに東北にゆかりのある戦後発祥の焼きそばだが、なみえは麺の太さを軸に独自化し、上州太田は東北からの移住労働者による文化伝播そのものが由来という異なる成立過程を持つ(両データに記載)。"
+    }
+   ]
+  },
+  {
+   "slug": "yokote-yakisoba",
+   "body_ja": "## 何でできているか\n\nモチっとした茹で麺の上に、半熟の目玉焼きと紅生姜が乗る。黄身を崩して麺に絡めるとソースの甘辛さがまろやかになり、紅生姜の酸味が全体の味を引き締める。麺はやや太めで、噛むとしっかりとした弾力が返ってくる。皿全体がケチャップ色のソースと黄身の色で明るく彩られるのも横手らしさで、紅生姜の赤がさらに差し色になる。\n\n## どう作るのか\n\n一般的な焼きそばで使われる蒸し麺ではなく、いったん茹でた麺を鉄板で焼くのが横手の型。終戦直後、屋台の店主が地元の製麺業者に相談し、蒸し麺ではなく茹で麺を使う焼き方を考案したのが始まりとされ、昭和28年頃に今の形が完成した。麺の茹で加減は店ごとに微妙に異なり、好みに応じて硬さを選べる店もあれば、手早く茹で置きしておく店もある。\n\n## なぜこの形になったのか\n\n茹で麺は蒸し麺よりもソースが染み込みやすく、冷めても硬くなりにくい。屋台から食堂、居酒屋へと提供の場を変えても扱いやすいこの性質が、横手の街に焼きそばが根づいた理由のひとつと考えられる。冬場でも扱いやすく保存しやすい麺という条件が、寒さの厳しいこの土地の暮らしに合っていたとも考えられ、無理のない組み合わせといえる。",
+   "body_en": "## What it's made of\n\nA half-set fried egg and red pickled ginger sit on top of springy boiled noodles. Breaking the runny yolk into the noodles mellows the sauce's sweet-savory edge, while the ginger's tartness cuts back through it; the noodle itself runs a touch thick, with a firm bite. The whole plate brightens with the sauce's reddish hue against the egg's yolk, with the pickled ginger adding one more spot of color.\n\n## How it's made\n\nRather than the steamed noodles used in most yakisoba, Yokote fries noodles that have first been boiled. Just after the war, a stall owner is said to have worked with a local noodle maker to develop the boiled-noodle method, and the dish settled into its present form around 1953. How firmly the noodles are boiled varies slightly shop to shop, and some let diners choose, while others keep a batch pre-boiled and ready to fry.\n\n## Why it took this shape\n\nBoiled noodles take on sauce more readily than steamed ones and stay softer once they cool, a practical trait that likely helped the dish travel from street stalls into diners and izakaya without losing its character. A noodle that stays easy to handle and keep through a hard winter may simply have suited how people here lived.",
+   "sources": [
+    {
+     "title": "横手やきそば暖簾会 - ルーツ",
+     "url": "https://www.yokotekamakura.com/yokoteyakisoba/03_roots/index.html",
+     "publisher": "一般社団法人横手市観光協会",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yokote-yakisoba",
+     "to_slug": "ishinomaki-yakisoba",
+     "relation_type": "対比",
+     "basis": "ともに宮城・秋田の焼きそばだが、横手は茹で麺、石巻は二度蒸しの麺というそれぞれ異なる製麺技術で「蒸し麺の定石」から外れている点が両データに記載されている。"
+    }
+   ]
+  },
+  {
+   "slug": "otaru-ankake-yakisoba",
+   "body_ja": "## 何でできているか\n\nパリッと焼き上げた麺の上に、白菜や豚肉、きくらげなどを炒め合わせたとろみの強いあんがたっぷりとかかる。あんが麺をすっぽりと包み込むことで、器を持つ手にも伝わるほど湯気が最後まで閉じ込められている。レンゲですくうとあんの重みが伝わり、白いご飯にもよく合う一皿で、湯気とともに香味野菜の匂いが立ちのぼる。\n\n## どう作るのか\n\n麺を鉄板でしっかり焼いて香ばしい焼き目をつけたあと、片栗粉でとろみをつけたあんを別鍋で作ってかける。麺とあんを分けて仕上げることで、あんの熱が冷めにくい二段構えの一皿に組み立てられている。とろみの強さは店によって差があり、濃い目を看板にする店もあれば、仕上げに酢や辣油を添えて味に変化をつける店もある。\n\n## なぜこの形になったのか\n\n小樽は港町で、海風の冷たい季節が長く続く。とろみの強いあんは、あつあつの麺料理を最後まで冷めさせずに食べさせる工夫として広まったと考えられる。昭和32年頃に移転開業した中華料理店が広めたとされるが、それ以前の提供例も語られ発祥には諸説ある。冷める前提の料理を、あんで覆って冷めない一皿に変えた発想が土地の気候と重なる。",
+   "body_en": "## What it's made of\n\nFried noodles crisped on the griddle disappear under a thick, glossy sauce of napa cabbage, pork, and wood-ear mushroom. The sauce seals in the noodles' heat so completely that steam still rises when the bowl reaches the table. Scoop it with a spoon and the sauce's weight is obvious — it pairs well with a bowl of rice too, and the aroma of stir-fried aromatics rises with the steam.\n\n## How it's made\n\nThe noodles are fried hard on the griddle for color and crunch, then a separate cornstarch-thickened sauce is made and poured over. Cooking the two elements apart gives the dish a two-stage build that holds its heat far longer than a plain fried noodle. How thick the sauce runs varies by shop, with some making an extra-heavy version their signature and others finishing with a dash of vinegar or chili oil.\n\n## Why it took this shape\n\nOtaru is a harbor town with a long cold season, and the sauce's heavy thickening is thought to have caught on as a way to keep a noodle dish hot to the last bite. The dish is widely credited to a Chinese restaurant that relocated near Otaru Station around 1957, though earlier accounts exist and no single origin is settled. The idea of covering a dish destined to cool with a sauce that keeps it hot mirrors the climate it was born into.",
+   "sources": [
+    {
+     "title": "小樽あんかけ焼そばの歴史",
+     "url": "https://kankou.chuo-bus.co.jp/other/ankake/",
+     "publisher": "北海道中央バス（観光情報サイト Notte.）",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "otaru-ankake-yakisoba",
+     "to_slug": "kuroishi-tsuyu-yakisoba",
+     "relation_type": "対比",
+     "basis": "小樽はとろみの強いあん、黒石は和風だしのつゆという、ともに焼きそばに汁気を足して温かさを保つ発想を共有しつつ手法が異なる(両データに記載)。"
+    }
+   ]
+  },
+  {
+   "slug": "obama-champon",
+   "body_ja": "## 何でできているか\n\n鶏ガラや豚骨でとっただしに、野菜と魚介、練り物をたっぷり炒め合わせて煮込む。長崎ちゃんぽんに連なる具だくさんの一杯だが、温泉街らしくゆっくり味わえる優しい塩梅に仕立てられているのが小浜らしさ。野菜の甘みが強く出て、豚骨の重さをあまり感じさせない優しい一杯に仕上がり、湯気とともに魚介の香りがふわりと立つ。\n\n## どう作るのか\n\n野菜や魚介をまず強火で炒めてから白湯だしと合わせて煮込み、太めの中華麺と一緒にひと鍋で仕上げる。長崎から伝わった調理の型を踏襲しつつ、小浜の宿や食堂それぞれが具の組み合わせを工夫して提供している。具材は近隣の海でとれる魚介を中心に季節ごとに入れ替えられ、仕上げに黒胡椒を効かせて味を引き締める店もある。\n\n## なぜこの形になったのか\n\nかつて長崎市の茂木港と雲仙市小浜港は航路で結ばれ、長崎から温泉目当てに訪れる人々の行き来が続いた。その日常的な交流を通じてちゃんぽんの食文化が自然に根づいたのが小浜のルーツとされる。宿泊客の入れ替わりとともに、旅館ごとの味も少しずつ形を変えながら受け継がれてきたと考えられ、港町の暮らしそのものが味の器になっている。",
+   "body_en": "## What it's made of\n\nVegetables, seafood, and fish cake are stir-fried hard, then simmered into a chicken-and-pork-bone broth alongside thick wheat noodles. It stands in the Nagasaki champon family but is built gentler, suited to a slow evening at a hot-spring inn. The vegetables' sweetness comes through strongly, keeping the broth from feeling too heavy with pork, and the steam carries a light seafood aroma.\n\n## How it's made\n\nVegetables and seafood are stir-fried over high heat before joining a pork-and-chicken stock, then simmered in one pot with thick noodles. The technique follows Nagasaki's original, while each inn and diner in Obama varies its own mix of toppings. The seafood used tends to come from nearby waters and changes with the season, and some shops finish with a dash of black pepper to sharpen the flavor.\n\n## Why it took this shape\n\nA ferry route once linked Nagasaki's Mogi port with Obama's harbor in Unzen, carrying a steady stream of visitors drawn to the hot springs. Champon is said to have taken root here through that everyday traffic between the two towns. As one wave of guests replaced another, the flavor is thought to have carried forward with them.",
+   "sources": [
+    {
+     "title": "地域の歴史が込められた「小浜ちゃんぽん」を堪能",
+     "url": "https://www.unzen.org/article/obamachanpon",
+     "publisher": "一般社団法人雲仙温泉観光協会",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "tobata-champon",
+   "body_ja": "## 何でできているか\n\nコシの強い蒸し麺が主役で、長崎ちゃんぽんの生麺とは食感がはっきり違う。鶏ガラと豚骨を合わせただしに魚介と野菜を煮込み、もちっとした蒸し麺が最後まで伸びにくく、噛みごたえが残るのが戸畑の持ち味。野菜のシャキッとした食感が最後まで残るのも特徴のひとつで、スープにも魚介の旨みがしっかりと溶け込み飲み干せる濃さに仕上がる。\n\n## どう作るのか\n\n遠洋漁業の基地だった戸畑では、船上でも日持ちする「蒸し麺」を地元の製麺所が作るようになった。この麺を鶏ガラ・豚骨だしと野菜、魚介と一緒に煮込んで仕上げるのが戸畑ちゃんぽんの基本の作り方。だしの濃さは店によって幅があり、あっさり系から濃厚系まで様々で、季節の野菜を彩りに加える店も多く見られ、魚介の分量にも各店の個性が出る。\n\n## なぜこの形になったのか\n\n戸畑はかつて日本有数の遠洋漁業基地で、長い航海に耐える保存性の高い麺が求められた。生麺ではなく蒸し麺を選んだことが、長崎ちゃんぽんとは違う戸畑独自の食感を生んだと考えられる。限られた船上という条件の中で工夫を重ねた結果が、麺そのものの作り方にまで及び、今の一杯にそのまま表れている。保存という実用上の必要が、味の個性そのものを作り出した例といえる。",
+   "body_en": "## What it's made of\n\nChewy steamed noodles, not the raw noodles of Nagasaki champon, carry the dish. A chicken-and-pork-bone broth is simmered with seafood and vegetables, and the springy steamed noodle holds its bite to the last spoonful. The vegetables also keep a good amount of crunch right to the last bite, and the seafood works its way fully into a broth strong enough to drink to the bottom.\n\n## How it's made\n\nWhen Tobata was one of Japan's major deep-sea fishing bases, local noodle makers developed steamed noodles that would keep on long voyages. Those noodles are simmered together with a chicken-and-pork-bone stock, vegetables, and seafood to make Tobata's version. How strong the broth runs varies by shop, from light to rich, and many shops add seasonal vegetables for color.\n\n## Why it took this shape\n\nTobata was once one of Japan's major deep-sea fishing bases, and noodles that could survive a long voyage were a practical need. Choosing steamed noodles over raw ones is thought to be what set the dish apart from the Nagasaki original. Working within the tight constraints of a fishing boat is what produced the bowl as it stands today.",
+   "sources": [
+    {
+     "title": "戸畑チャンポンMAP",
+     "url": "https://www.city.kitakyushu.lg.jp/tobata/file_0082_00005.html",
+     "publisher": "北九州市",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tobata-champon",
+     "to_slug": "nagasaki-champon",
+     "relation_type": "対比",
+     "basis": "戸畑のデータに「この麺を使ってちゃんぽんを出す店が現れたことで、長崎ちゃんぽんとは異なる戸畑独自の味が育った」と明記されている。"
+    }
+   ]
+  },
+  {
+   "slug": "yawatahama-champon",
+   "body_ja": "## 何でできているか\n\n豚骨ではなく鶏ガラと魚介でとっただしが特徴で、すっきりとした後味が残る。具には愛媛らしくじゃこ天が加わり、練り物の甘みが野菜炒めの香ばしさと重なって、豚骨系のちゃんぽんとは違う軽さを生んでいる。見た目もあっさりとした色合いで、豚骨系の白濁したスープとは対照的。魚介の旨みが素直に感じられる仕上がりになっている。\n\n## どう作るのか\n\n鶏ガラと魚介の出汁をとり、野菜や練り物と一緒に中華麺を煮込む。仕上げにじゃこ天をのせるのが八幡浜らしさで、豚骨主体の九州のちゃんぽんとは出汁の作り方そのものから異なっている。野菜は地元産のものを中心に使い彩りよく仕上げるのが定番で、煮込み時間は短めにして素材そのものの食感をしっかり残すのが特徴とされる。\n\n## なぜこの形になったのか\n\n四国西端の玄関口である八幡浜港は、対岸の大分・別府や臼杵と古くから海路で結ばれていた。具だくさんの麺料理という九州の考え方がこの航路を通じて伝わり、地元で手に入る鶏や魚、じゃこ天と結びついて独自に育ったとされる。海を挟んだ土地同士の行き来が、この土地ならではの食材と結びついて味の違いをそのまま生んだ形といえる。",
+   "body_en": "## What it's made of\n\nA chicken-and-seafood broth rather than pork bone gives the dish a cleaner finish. Jakoten fish cake, a distinctly Ehime touch, adds a sweetness that plays against the stir-fried vegetables, lighter than a pork-bone champon. The color itself looks lighter too, a clear contrast to the cloudy white of a pork-bone broth, and the fish flavor comes through honestly.\n\n## How it's made\n\nChicken and seafood are simmered into a stock, then wheat noodles are cooked in it together with vegetables and fish cake. Finishing with jakoten sets Yawatahama apart, right down to how the broth itself is built, from the pork-bone champon of Kyushu. Locally grown vegetables are the norm, arranged for a colorful bowl, and the simmering time is kept short so the ingredients keep their own texture.\n\n## Why it took this shape\n\nYawatahama's port, the western gateway of Shikoku, has long been linked by sea to Beppu and Usuki on the Kyushu coast. The idea of a loaded noodle dish is thought to have crossed on that route and taken its own shape with the chicken, fish, and jakoten available locally. The back-and-forth between two coastal towns across a strait, paired with what the local waters provide, produced the flavor difference directly.",
+   "sources": [
+    {
+     "title": "八幡浜ちゃんぽんとは",
+     "url": "https://www.city.yawatahama.ehime.jp/doc/2017013000017/",
+     "publisher": "八幡浜市",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yawatahama-champon",
+     "to_slug": "nagasaki-champon",
+     "relation_type": "源流",
+     "basis": "八幡浜のデータに「具だくさんの麺料理という九州のちゃんぽんの考え方がこの航路を通じて伝わった」と明記されている。"
+    }
+   ]
+  },
+  {
+   "slug": "napolitan",
+   "body_ja": "## 何でできているか\n\nケチャップの甘酸っぱさとバターのコクが先に立ち、そこへ玉ねぎとにんにくを炒めた香ばしさが重なる。粉チーズと粗挽きこしょうをふって食べるのが定番で、具はハムやピーマン、マッシュルームなど彩りよく仕立てられることが多い。太めのスパゲッティを使い、もっちりとした食感に茹で上げるのも特徴で、皿の縁までソースが行き渡る見た目も食欲をそそる。\n\n## どう作るのか\n\n終戦後、進駐軍が接収したホテルニューグランドでは、兵士たちが茹でたスパゲッティにケチャップを和えただけの一皿を食べていたという。接収解除後、二代目総料理長がキャラメリゼした玉ねぎとにんにくにトマトを加えたソースを考案し、ホテル仕様の一皿に仕立て直した。素材を炒める順番と火加減が、ソースの奥行きを決める工程になっている。\n\n## なぜこの形になったのか\n\n駐留していた米兵の簡素な食事が出発点になったことは、ケチャップを主体にした味付けそのものに表れている。当時の日本では入手しづらかったトマト缶やチーズを、洋食として整える形に落とし込んだ点に、戦後という時代条件が読み取れる。簡素な始まりから丁寧な一皿へと磨き上げた工程そのものが、この料理の物語になっている。",
+   "body_en": "## What it's made of\n\nKetchup's sweet tang and butter's richness come first, followed by the sweetness of stir-fried onion and garlic. A dusting of grated cheese and coarse pepper is standard, with ham, green pepper, and mushroom the usual colorful toppings. Thick spaghetti is used and boiled until properly chewy, and the sauce runs right to the edge of the plate, its color alone enough to raise an appetite.\n\n## How it's made\n\nJust after the war, GHQ troops stationed at the requisitioned Hotel New Grand ate boiled spaghetti simply tossed with ketchup. After the requisition ended, the hotel's second head chef built a proper sauce from caramelized onion and garlic and tomato, turning the soldiers' snack into a hotel dish. The order and heat at which the ingredients are fried is what gives the sauce its depth.\n\n## Why it took this shape\n\nThat the dish grew from occupying soldiers' simple rations still shows in a sauce built around ketchup. Working canned tomato and cheese, both hard to get in postwar Japan, into a proper Western-style plate reflects the constraints of the era it was born in. The process of polishing a simple wartime snack into a proper dish is itself the story the plate tells.",
+   "sources": [
+    {
+     "title": "ホテルニューグランド発祥",
+     "url": "https://www.hotel-newgrand.co.jp/origin/",
+     "publisher": "ホテルニューグランド",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "napolitan",
+     "to_slug": "tsuke-napolitan",
+     "relation_type": "派生",
+     "basis": "つけナポリタンのデータに「トマトベースのスープに...つけ麺のようにひたして食べる」とあり、2008年にナポリタンのトマトソース文化を土台に創作されたことが明記されている。"
+    }
+   ]
+  },
+  {
+   "slug": "tsuke-napolitan",
+   "body_ja": "## 何でできているか\n\nトマトの酸味に鶏ガラだしの旨みが重なる、二層仕立てのつけ汁が主役。太めの麺はコシが強く、つゆをたっぷり吸っても伸びにくい。ナポリタンよりも軽やかな後味で、つけ麺のように最後まで熱いつゆに浸して食べる。つゆの色は鮮やかな朱色で、食欲をそそる見た目に仕上がっており、器から立ちのぼる湯気にもトマトの香りが混じる。\n\n## どう作るのか\n\nトマトベースのスープに鶏ガラなどの和風だしを合わせた「ダブルスープ」を作り、太めの麺を別皿に盛ってつけ麺のようにひたして食べる。2008年、テレビ番組のまちおこし企画と地元の吉原商店街の共同開発で生まれた。麺とつゆを別々の器で出すことで最後まで熱々を保てる仕立てになっており、提供直前にひと煮立ちさせる店が多い。\n\n## なぜこの形になったのか\n\nナポリタンという洋食の定番をご当地グルメとして再構成する際、つけ麺という和の食べ方の型を借りたことで、スープと麺を分けて最後まで熱々のまま食べられる独自の一皿になったと考えられる。つゆと麺を分ける発想そのものが、洋食を土地の言葉に置き換え直す工夫だったと読め、和と洋の技法を重ねた結果として今の一杯があるといえる。",
+   "body_en": "## What it's made of\n\nA tomato-based broth carries the savor of chicken stock, built as a double soup for dipping. The noodles, thicker than usual, hold their bite even after soaking and taste lighter than standard Napolitan. The broth runs a vivid vermilion, its color alone enough to draw the appetite.\n\n## How it's made\n\nA tomato base is combined with a Japanese-style chicken stock into a double soup, and thick noodles are served on a separate plate for dipping tsukemen-style. It was created in September 2008 through a collaboration between a TV segment and the Yoshiwara shopping street. Serving the noodles and broth in separate vessels is what lets the dish stay hot to the very end, and many shops bring the broth to a final boil right before serving.\n\n## Why it took this shape\n\nRecasting a Western spaghetti standard as a local specialty, the dish borrowed the dipping-noodle format of tsukemen, which let the broth and noodles stay separately hot to the last bite. Splitting the broth from the noodle reads as its own attempt to translate a Western dish into a local idiom.",
+   "sources": [
+    {
+     "title": "富士市のご当地グルメ つけナポリタン",
+     "url": "https://www.tnc.ne.jp/special/gotouchi/pasta/",
+     "publisher": "テレビ静岡",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tsuke-napolitan",
+     "to_slug": "ankake-supa",
+     "relation_type": "対比",
+     "basis": "ともに戦後・高度成長期に地域独自進化した「ご当地スパゲッティ」だが、あんかけスパは肉あんをこしてこしょうを効かせた極太麺、つけナポリタンはだしを利かせたつけ麺式という別方向の進化(両データに記載の製法差)。"
+    }
+   ]
+  },
+  {
+   "slug": "spa-katsu",
+   "body_ja": "## 何でできているか\n\nケチャップ味のナポリタン風スパゲッティに、揚げたての豚カツをどんと乗せる。鉄皿にのせて供されるため、食べている間じゅうジュージューと音を立てながら熱を保ち続けるのが釧路の型で、麺と衣のサクサク感が同時に楽しめる。香ばしいバターの風味がケチャップの酸味を包み込み、まろやかな後味になる。食べ進めるほどに味の余韻が変わっていく一皿。\n\n## どう作るのか\n\n1959年創業の洋食店「泉屋」が、当時なじみの薄かったスパゲッティを鉄皿にのせて提供する工夫からスパカツを生み出したとされる。麺と豚カツを同じ皿の上で組み合わせ、熱い鉄板の余熱で最後まで食べさせる仕立てにした。皿の熱で麺の縁が少し焦げて香ばしさが加わることもあり、カツの衣はサクサクとした食感を保つよう工夫される。\n\n## なぜこの形になったのか\n\n釧路は夏でも冷涼な海霧の街で、料理はすぐに冷めてしまう。鉄皿に盛るという工夫は、当時まだ洋食に馴染みのなかった土地の客に、熱々のまま最後まで食べてもらうための答えだったと読める。冷めやすい気候ゆえの発想が、皿ごと熱源にするという今の形にそのまま残っており、他の土地にはない釧路らしい答えになっている。",
+   "body_en": "## What it's made of\n\nA ketchup-based, Napolitan-style spaghetti gets a freshly fried pork cutlet set right on top. Served on a hot iron plate, it keeps sizzling and steaming through the whole meal, the crisp cutlet and soft noodle enjoyed side by side. A buttery aroma wraps around the ketchup's acidity, leaving a mellow finish that shifts a little more with every bite.\n\n## How it's made\n\nIzumiya, a diner founded in 1959, is credited with serving unfamiliar spaghetti on a hot iron plate — the idea that became spakatsu. Pairing the noodles and cutlet on the same plate lets the plate's own residual heat keep the dish hot to the last bite. The plate's heat sometimes lightly scorches the noodle's edge, adding a touch of char, and the cutlet's breading is worked to stay crisp under the heat.\n\n## Why it took this shape\n\nKushiro stays cool even in summer under its sea fog, and food cools fast there. Serving it on a hot iron plate reads as an answer for diners not yet used to Western food, a way to keep it hot to the very end. That cold, foggy climate is what still shapes the idea of turning the plate itself into a heat source.",
+   "sources": [
+    {
+     "title": "泉屋のあゆみ",
+     "url": "https://izumiya946.jp/",
+     "publisher": "レストラン泉屋総本店",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "spa-katsu",
+     "to_slug": "napolitan",
+     "relation_type": "対比",
+     "basis": "同じ戦後の洋食としてのスパゲッティ文化から分かれたが、ナポリタンはホテル発祥のソース中心の一皿、スパカツは食堂発祥の鉄皿+豚カツという別の発展を遂げた(両データに記載)。"
+    }
+   ]
+  },
+  {
+   "slug": "okkirikomi",
+   "body_ja": "## 何でできているか\n\n幅広の生麺と、かぼちゃや里芋、白菜などの季節野菜がひとつの汁の中でとろりと煮込まれる。麺から溶け出した打ち粉が汁にとろみをつけ、味噌や醤油仕立ての汁全体を包み込むように厚くしているのが特徴。汁の色は味噌なら赤みを帯び、醤油なら透き通った琥珀色になる。野菜の存在感が強く、麺とほぼ同格の主役として扱われる。\n\n## どう作るのか\n\n幅広に切った生麺を、茹でずにそのまま汁に入れて野菜と一緒に煮込む。麺のコシよりも、煮込むほどに汁と一体になっていく食感が主眼で、鍋ごと食卓に出して取り分けながら食べることが多い。煮込み時間が長いほど麺と汁の一体感が増していき、取り分けながら食べる形式は家族で囲む食卓にも向いているとされ、大人数でも取り分けやすい。\n\n## なぜこの形になったのか\n\n養蚕と小麦の里として知られる群馬では、うどん用の小麦粉が身近にあった一方、燃料や時間を節約できる一鍋仕立ての料理が農作業の合間の食事として重宝された。茹でる工程を省いたのは、その合理性の表れと読める。手早く作れる一鍋料理という条件が、冬の寒さをしのぐ食事としても無理なく選ばれ、今日まで作り続けられていると考えられる。",
+   "body_en": "## What it's made of\n\nWide, flat raw noodles simmer together with pumpkin, taro, and napa cabbage in one pot until the broth turns thick and clingy. Starch that washes off the noodles as they cook thickens the whole miso- or soy-based bowl. The broth runs reddish with miso or a clear amber with soy sauce, depending on the version. The vegetables hold their own presence, standing almost level with the noodle as the dish's real point.\n\n## How it's made\n\nWide-cut raw noodles go straight into the pot without pre-boiling, simmered alongside vegetables. The point isn't the noodle's own bite so much as how it merges with the broth the longer it cooks, and the whole pot is often served straight from the stove and shared at the table. The longer it simmers the more the noodle and broth merge into one, and serving it family-style straight from the pot suits a table people gather around.\n\n## Why it took this shape\n\nGunma's tradition of silk farming and wheat cultivation kept flour close at hand, while a one-pot dish that saved fuel and time suited meals eaten between farm chores. Skipping the pre-boil reads as part of that same practicality. A dish quick enough to make in one pot naturally doubled as a way to get through a cold winter.",
+   "sources": [
+    {
+     "title": "おっきりこみ",
+     "url": "http://jyosyu-udon.jp/okirikomi/index.htm",
+     "publisher": "群馬県製麺工業協同組合",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "okkirikomi",
+     "to_slug": "miso-nikomi",
+     "relation_type": "兄弟",
+     "basis": "ともに生麺を茹でずにそのまま汁で煮込み、溶け出した粉気で汁にとろみをつける調理法を共有する(両データの製法記述が一致)。"
+    }
+   ]
+  },
+  {
+   "slug": "shimabara-somen",
+   "body_ja": "## 何でできているか\n\n細く伸ばされた麺は滑らかな喉ごしとしっかりしたコシを併せ持つ。小麦粉と塩水、食用油だけで作られたシンプルな麺で、噛むとほのかな塩気のあとに小麦本来の風味が広がっていく。乾麺でありながら茹で伸びしにくいのも持ち味のひとつで、湯を吸っても少しふくらむ程度でコシの芯までは崩れない。細さの割に強いコシを保つのも特徴のひとつ。\n\n## どう作るのか\n\n生地を何度もらせん状に縒り合わせて熟成させる「縒りかけ熟成法」を用い、丸2日かけてじっくりと延ばしていく。手間と時間のかかるこの工程が、コシと歯切れのよさ、なめらかな口当たりを生むとされる。気温や湿度に合わせて力加減を調整するのも職人の勘に頼る部分が大きく、力の入れ具合ひとつで麺の太さが変わってしまう。\n\n## なぜこの形になったのか\n\n1637年の島原の乱で人口が激減した後、幕府の移民政策で移り住んだ人々がそうめん作りを伝えたとされる。出身地は小豆島説・三輪説など諸説あり定めがたいが、移住者の暮らしを支える産業としてこの地に根づいた点は共通している。土地を離れて移り住んだという出発点が、そうめん作りという生業の背景にあり、その事情ゆえに起源をひとつに絞れないのも自然な成り行きといえる。",
+   "body_en": "## What it's made of\n\nThe thin-stretched noodle has a smooth slip and a firm bite. Made from just wheat flour, salt water, and cooking oil, it carries a faint saltiness followed by wheat's own flavor, and stays firm rather than turning mushy after boiling despite being a dried noodle. It swells only slightly as it absorbs the boiling water, never losing its core bite, and holds a firm chew despite its thinness.\n\n## How it's made\n\nThe dough is twisted and re-twisted into a spiral over and over in a method called yorikake, then aged and stretched over a full two days. That painstaking, time-consuming process is credited with the noodle's bite, clean snap, and smooth finish. Adjusting the touch for the day's temperature and humidity still relies heavily on a maker's own feel, since too much pressure at the wrong moment changes the strand's thickness.\n\n## Why it took this shape\n\nAfter the Shimabara Rebellion of 1637 sharply reduced the local population, settlers brought in under the shogunate's resettlement policy are credited with introducing somen-making. Accounts of where the technique came from vary — Shodoshima and Miwa are both named, with no document settling the question — but somen became an industry that supported those resettled communities either way. Having arrived here as resettled outsiders is itself part of the background behind the trade they took up.",
+   "sources": [
+    {
+     "title": "島原そうめんの歴史",
+     "url": "https://www.shimabara-soumen.com/category/1572537.html",
+     "publisher": "島原 そうめんの山道",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "手延べそうめんの作り方",
+     "url": "https://www.shimabara-soumen.com/category/1572541.html",
+     "publisher": "島原 そうめんの山道",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shimabara-somen",
+     "to_slug": "shodoshima-somen",
+     "relation_type": "対比",
+     "basis": "島原そうめんのデータに「出身地は小豆島説・三輪説など諸説あり断定できる史料はまだ見つかっていない」と明記されており、確定できないため対比として並置。"
+    }
+   ]
+  },
+  {
+   "slug": "shodoshima-somen",
+   "body_ja": "## 何でできているか\n\nごま油をまとわせて延ばした麺は、他の産地よりもやや太めでコクがある。茹でるとつるりとした喉ごしになり、噛むとごまの香ばしさがほのかに残るのが小豆島そうめんの持ち味。麺の白さも際立ち、盛り付けた際の見た目の清潔感にもつながっており、細さと太さの中間を狙った独特の食感を持つ。噛むほどに小麦とごまの香りが層になって広がり、余韻も長く続く。\n\n## どう作るのか\n\n冬の農閑期に、小麦粉を練って延ばし乾燥させる工程を家族の手だけで仕上げる。海運で運ばれてくる讃岐の小麦と瀬戸内の塩、島で採れるごま油を使うのが特徴で、大掛かりな設備を要さない手仕事が今も続いている。延ばす作業は複数の工程に分かれ日をまたいで進められることもあり、乾燥の具合を見極めるのも職人の経験によるところが大きい。\n\n## なぜこの形になったのか\n\n約400年前、池田村の人が三輪（奈良県）に立ち寄ってそうめんの製法を学び持ち帰ったのが始まりと伝わる。海運の要衝だった島には讃岐の小麦や瀬戸内の塩が集まり、ごま油の産地でもあったことが、そうめん作りに適した土地の条件になったとされる。冬の農閑期という時間の余裕も、家族総出の手延べ作業を後押ししたと考えられる。",
+   "body_en": "## What it's made of\n\nStretched with a coating of sesame oil, the noodle runs a touch thicker than most somen and carries real depth of flavor. Boiled, it slips down smooth with a faint nutty aroma lingering after each bite. The noodle's whiteness stands out too, giving the finished bowl a clean, crisp look, and the layered aroma of wheat and sesame lingers with every bite.\n\n## How it's made\n\nIn the slow winter farming season, flour is kneaded, stretched, and dried by family hands alone, without heavy equipment. The wheat comes from Sanuki by sea, the salt from the Seto Inland Sea, and the oil from sesame grown right on the island. The stretching itself is broken into several stages and can span more than one day, and judging when the drying is done still comes down to a maker's experience.\n\n## Why it took this shape\n\nThe story holds that, some 400 years ago, a resident of Ikeda village learned somen-making while passing through Miwa in Nara and brought it home. As a shipping hub, the island had ready access to Sanuki wheat and Setouchi salt, and its own sesame-oil trade rounded out the conditions that made somen possible here. The slack time of the winter farming season is also thought to have made the family labor of hand-stretching possible.",
+   "sources": [
+    {
+     "title": "手延べそうめん｜小豆島",
+     "url": "https://www.my-kagawa.jp/shodoshima/feature/shodoshima/beauty4",
+     "publisher": "公益社団法人香川県観光協会",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shodoshima-somen",
+     "to_slug": "miwa-somen",
+     "relation_type": "源流",
+     "basis": "小豆島そうめんのデータに「池田村の人が三輪に立ち寄った際にそうめんの製法を学び持ち帰った」と明記されている。"
+    }
+   ]
+  },
+  {
+   "slug": "kaisendon",
+   "body_ja": "## 何でできているか\n\n白飯か酢飯の上に、その日仕入れた魚介の刺身が彩りよく盛られる。どの魚をどう組み合わせるかは店や地域で自由で、寿司のように一つの完成形を持たないのが海鮮丼という料理の特徴といえる。盛り付けの彩りそのものが、その日の仕入れを映す鏡になっている。季節や漁の状況によって中身は日々変わり、二つと同じ丼はないともいえる。\n\n## どう作るのか\n\n店ごとに仕入れた旬の魚介を切り分け、丼飯の上に盛り付けるだけのシンプルな調理。冷蔵・輸送技術が発達した戦後に各地へ広まったとされ、酢飯を使うか白飯を使うかも地域や店によって分かれている。仕入れ先が近ければ近いほど鮮度の差がそのまま味の差として表れ、盛り付けの順序や量にも店ごとの個性がそのまま表れる。\n\n## なぜこの形になったのか\n\nなぜ全国区の丼になったのかは一様ではなく、冷蔵・輸送網が整った戦後に広まったとする説と、江戸前ちらし寿司から派生したとする見方がある。市場の街で名物とされるのは水揚げしたばかりの魚介をその場で仕入れられる立地のためで、釧路の「勝手丼」や小樽・函館の市場も、仕入れと提供が同じ場所で完結する構造を土台にしていると考えられる。",
+   "body_en": "## What it's made of\n\nSashimi-grade seafood bought that day is arranged over plain or vinegared rice, colorful and varied. Which fish go together, and how, is left to the shop or the region — unlike sushi, the dish has no single fixed form. The color and arrangement of the bowl itself mirrors whatever came in that day, and no two bowls quite look the same as the season or the catch shifts.\n\n## How it's made\n\nThe preparation is simple: cut the day's seafood and lay it over a bowl of rice. It is thought to have spread nationwide after the war as refrigeration and transport improved, and whether the rice is vinegared or plain still splits by shop and region. The closer the source, the more that freshness shows directly in the flavor, and even the order and amount of toppings carries a shop's own signature.\n\n## Why it took this shape\n\nWhy it became a nationwide favorite isn't settled — one account credits postwar cold-chain logistics, another traces it to Edo-style chirashizushi. Where it becomes a true local specialty is in market towns, where fish landed that morning can be bought and bowled on the spot: Kushiro's kattedon lets diners build their own bowl straight from the stalls, and the markets of Otaru and Hakodate are thought to work on the same footing, buying and eating in one place.",
+   "sources": [
+    {
+     "title": "海鮮丼",
+     "url": "https://ja.wikipedia.org/wiki/%E6%B5%B7%E9%AE%AE%E4%B8%BC",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "かって丼",
+     "url": "https://www.washoichiba.com/html/kattedon.html",
+     "publisher": "釧路和商市場",
+     "accessed_at": "2026-09-04"
+    },
+    {
+     "title": "きくよ食堂",
+     "url": "https://hakodate-kikuyo.com/",
+     "publisher": "きくよ食堂",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kaisendon",
+     "to_slug": "edomae-zushi",
+     "relation_type": "対比",
+     "basis": "海鮮丼のデータに「江戸前ちらし寿司から派生したとする見方もある」と明記されている(諸説の一つとして対比で並置)。"
+    }
+   ]
+  },
+  {
+   "slug": "magaki",
+   "body_ja": "## 何でできているか\n\nミルクのような濃厚な甘みとほのかな磯の香りが広がる。真牡蠣は冬に脂がのり、身がふっくらと大きく育つ。生でも加熱してもとろりとしたクリーミーな食感が持ち味で、レモンを絞ると甘みが一段と際立つ。口に含むとまず海水のような塩気が広がり、その後に甘みが追いかけてくる。旬のピークには身の大きさが際立って感じられる。\n\n## どう作るのか\n\nロープに帆立貝の殻を等間隔で固定し、そこに付着した稚貝を海に浮かべた筏から吊るして育てる「筏式垂下法」が主な養殖方法。1年ほどで出荷サイズまで育ち、産卵期にあたる初夏から夏は身が痩せるため食用に向かない。殻を開けると、ぷっくりとした身が殻いっぱいに詰まっているのがわかり、収穫は殻ごと引き上げて選別する作業から始まる。\n\n## なぜこの形になったのか\n\n広島湾は多くの川が流れ込み、栄養分の豊富な水と穏やかな波が同居する。この環境がプランクトンを育て、筏を安定して浮かべられる静かな海面を用意したことが、養殖に適した土地の条件になったと考えられる。川と海が出会うこの独特な地形こそが、広島を全国有数の養殖の一大産地に押し上げてきた土台になっていると考えられる。",
+   "body_en": "## What it's made of\n\nA milky, dense sweetness opens first, followed by a faint mineral note of the sea. Magaki fattens up over winter, growing plump and full, and stays creamy whether eaten raw or cooked; a squeeze of lemon only sharpens the sweetness. The first taste in the mouth is a briny hit of seawater, with sweetness following close behind, and the size stands out most right at the peak of the season.\n\n## How it's made\n\nScallop shells are strung along ropes at even intervals to catch spat, then the rope is hung from a raft moored in open water — the raft-hanging method that dominates farming. Oysters reach market size in about a year, but spawn in early summer, when the meat thins and turns unfit to eat. Crack the shell open and the meat fills it edge to edge, plump and full; harvest starts by hauling the whole rope up and sorting the shells by hand.\n\n## Why it took this shape\n\nHiroshima Bay takes in many rivers, giving it both nutrient-rich water and calm surf at once — conditions that feed plankton and keep the surface still enough to float a raft steadily. That combination is what makes the bay suited to oyster farming. That same shoreline geography is what has supported oyster farming here for so long.",
+   "sources": [
+    {
+     "title": "カキ (貝)",
+     "url": "https://ja.wikipedia.org/wiki/カキ_(貝)",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "magaki",
+     "to_slug": "iwagaki",
+     "relation_type": "兄弟",
+     "basis": "Wikipediaの記述で、同じ食用カキの中で旬が対照的な冬(マガキ)・夏(イワガキ)の対をなすと確認できる。"
+    }
+   ]
+  },
+  {
+   "slug": "iwagaki",
+   "body_ja": "## 何でできているか\n\n真牡蠣よりも大ぶりで殻が深く、口に含むとみずみずしい水分と濃い旨みが一気に広がる。夏が旬で「夏ガキ」とも呼ばれ、暑い盛りでもさっぱりと食べられるのが持ち味で、ひと粒の食べごたえも大きい。殻を開けた瞬間に立つ磯の香りも、真牡蠣よりずっと強い。噛むと弾力のある身から、じわりと旨みがあふれ出してくる感覚がある。\n\n## どう作るのか\n\n潮線より下、水深20メートルほどまでの岩場に一つひとつ単独で育つため、真牡蠣のように大きな礁を作らない。天然物は素潜りなどで一つずつ丁寧に採られ、殻ごと吊るして育てる養殖の産地もある。岩に張り付くようにして育つため殻の形も一つひとつ不揃いになり、採取に手間がかかる分だけ流通量も真牡蠣より少なく、値段も高めになりやすい。\n\n## なぜこの形になったのか\n\n真牡蠣が産卵期を迎える初夏から夏にかけても、岩牡蠣は別の時期に産卵するため身が痩せず食べ頃を保つ。荒い岩場に散らばって育つという生態そのものが、真牡蠣とは違う旬と味を生み出していると考えられる。真夏でも身が痩せないという一点だけで、岩牡蠣は真牡蠣と棲み分けるように旬をずらしてきたとも読め、二つの牡蠣が一年を通して食卓を支えている。",
+   "body_en": "## What it's made of\n\nLarger and deeper-cupped than magaki, it releases a rush of juice and concentrated flavor on the first bite. In season through summer, it earns the nickname 'natsugaki,' the summer oyster, prized for tasting clean even in the heat and for its substantial size. The moment the shell opens, the smell of the sea is far stronger than magaki's, and the meat's own springy bite lets its savor seep out slowly.\n\n## How it's made\n\nIt grows solitary on rocky ground from just below the tideline down to about 20 meters, never forming the large reefs magaki does. Wild ones are taken one by one, often by free divers, while some regions raise them on hanging lines instead. Because it clings to bare rock as it grows, no two shells come out quite the same shape, and the labor of gathering them one at a time keeps supply well below magaki's.\n\n## Why it took this shape\n\nBecause it spawns at a different time than magaki, which thins out over early summer, iwagaki holds its condition through the season when magaki cannot be eaten. Its scattered, rock-bound way of growing is itself what gives it a different season and a different flavor from its winter counterpart. That same difference in biology is what carries straight through into how the two oysters taste.",
+   "sources": [
+    {
+     "title": "カキ (貝)",
+     "url": "https://ja.wikipedia.org/wiki/カキ_(貝)",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "iwagaki",
+     "to_slug": "himi",
+     "relation_type": "対比",
+     "basis": "氷見うどんのデータに「日本海に面した漁師町」の食文化と明記されており、岩牡蠣が育つ日本海沿岸の岩礁環境と地理条件が共通する点で対比が成立する。"
+    }
+   ]
+  }
+ ]
+}

@@ -19,8 +19,11 @@ import { expect, test, type Locator } from "@playwright/test";
 async function tapPrefCluster(locator: Locator) {
   await expect(async () => {
     await locator.click();
-    await expect(locator).toBeHidden({ timeout: 1000 });
-  }).toPass({ timeout: 15_000 });
+    // 並列実行でCPUが逼迫すると fitBounds(600ms)+zoomend+マーカー再描画が
+    // 1秒を超え、早すぎる再クリックがアニメーションを仕切り直してしまう。
+    // クリック1回あたりの待ちを長めに取り、再クリックの乱発を防ぐ。
+    await expect(locator).toBeHidden({ timeout: 4000 });
+  }).toPass({ timeout: 30_000 });
 }
 test.describe("smoke", () => {
   test("トップページが表示される", async ({ page }) => {
@@ -383,9 +386,10 @@ test.describe("詳細ページの本文（目次・章。2026-08 デザイン確
   });
 
   test("body_md が無いアイテムは目次ごと出ない", async ({ page }) => {
-    // 2026-09 ラーメン58件は全て本文投入済みになったため、未投入のうどんで検証する。
-    // うどんにも本文が入ったら別の未投入アイテムに差し替えること
-    await page.goto("/ja/udon/sanuki");
+    // 2026-09 実データは全150件に本文が入ったため、本文を持たないE2E fixtureで検証する
+    // （seedのfixtureはbody_mdを持たない。実データに依存しない恒久的な形）
+    await page.goto("/ja/ramen/zz-fixture-published-a");
+    await expect(page.getByRole("heading", { level: 1 })).toBeVisible();
     await expect(page.locator("nav:visible", { hasText: "目次" })).toHaveCount(0);
   });
 });
