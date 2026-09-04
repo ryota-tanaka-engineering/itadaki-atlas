@@ -48,6 +48,7 @@
 | `/[genre]/[slug]`（詳細: 橙カバー・位置帯・目次+章Markdown・つながり2軸。棚slug経由でその他も到達可） | ✅ |
 | `/region/[pref]`（●生まれた/■育てる/◆仕込むの3群 + 隣接県） | ✅ |
 | `/tags`・`/tag/[slug]`（タグ横断） | ✅ |
+| `/chain/[slug]`（チェーン独立ページ。SEO流入起点→ご当地へ橋渡し） | ✅ |
 | About/利用規約/プライバシー/問い合わせ（Supabase保存）・共通ヘッダー/フッター | ✅ |
 | OGP共有カード・i18n（/ja /en・hreflang・sitemap） | ✅ |
 
