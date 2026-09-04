@@ -17,8 +17,6 @@
     "backToNational": "Back to all Japan",
     "backToIndex": "Back to index",
     "sheetToggle": "Move sheet to next position (currently: {snap})",
-    "deformedHint": "Pick a prefecture to switch to the geographic map",
-    "deformedLabel": "Items per prefecture (schematic map)",
     "axisLabel": "Index order",
     "axis": {
       "kana": "A–Z",

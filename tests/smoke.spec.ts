@@ -1,4 +1,4 @@
-import { expect, test } from "@playwright/test";
+import { expect, test, type Locator } from "@playwright/test";
 
 /**
  * 受け入れ条件の写経（.doc/30_features/01_requirements.md）。
@@ -6,6 +6,22 @@ import { expect, test } from "@playwright/test";
  * 前提: ローカル Supabase が起動していること（`npx supabase start`）。
  * DBが無いとトップページはサーバー側の取得で失敗する。
  */
+
+/**
+ * 県クラスタ（集約マーカー）をタップする（2026-09 全国表示の作り直し）。
+ *
+ * MapLibreのマーカー要素は追加直後に別コンポジットレイヤーへ昇格するため、
+ * ヘッドレスChromiumではCDP経由の最初のクリックがヒットテストで一瞬ずれて
+ * 空振りすることがある（同じ要素への2回目のクリックは正しく命中する。
+ * 実ブラウザでの実利用では発生しないヘッドレス特有の既知の癖）。
+ * クラスタが消える＝個別ピンへの分解成功まで再試行する。
+ */
+async function tapPrefCluster(locator: Locator) {
+  await expect(async () => {
+    await locator.click();
+    await expect(locator).toBeHidden({ timeout: 1000 });
+  }).toPass({ timeout: 15_000 });
+}
 test.describe("smoke", () => {
   test("トップページが表示される", async ({ page }) => {
     const response = await page.goto("/");
@@ -68,8 +84,14 @@ test.describe("F-07 アクセシビリティ", () => {
   test("地図ピンが button でキーボードから到達できる", async ({ page }) => {
     await page.goto("/");
 
-    // ピンは aria-label 付きの button（地図の読み込み完了を待つ）
-    const pin = page.getByRole("button", { name: /札幌ラーメン（北海道札幌市・味噌）/ });
+    // 低ズームは県クラスタ表示。福島県クラスタをタップして個別ピンに分解する
+    // （地図の読み込み完了を待つ）。
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ });
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+    await tapPrefCluster(fukushima);
+
+    // ピンは aria-label 付きの button
+    const pin = page.getByRole("button", { name: /喜多方ラーメン（福島県喜多方市・醤油）/ });
     await expect(pin).toBeVisible({ timeout: 30_000 });
     await pin.focus();
     await expect(pin).toBeFocused();
@@ -84,49 +106,66 @@ test.describe("F-07 アクセシビリティ", () => {
   });
 });
 
-test.describe("F-01 ディフォルメ地図", () => {
-  test("初期表示は県別の一覧。県を選ぶと実座標地図に切り替わる", async ({ page }) => {
+test.describe("F-01 全国表示（県クラスタ）", () => {
+  test("初期表示は実データ地形の全国地図。県クラスタをタップすると個別ピンに分解し、全国に戻れる", async ({
+    page,
+  }) => {
     await page.goto("/");
 
-    const deformed = page.getByRole("group", { name: /ディフォルメ地図/ });
-    await expect(deformed).toBeVisible();
+    // 掲載がある県は件数付きの集約マーカーで選べる（実データ地形の地図の上に乗る）
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ });
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+    await tapPrefCluster(fukushima);
 
-    // 掲載がある県は件数付きで選べる
-    const fukushima = deformed.getByRole("button", { name: /^福島県 \d+件/ });
-    await expect(fukushima).toBeVisible();
-    await fukushima.click();
-
-    // 実座標地図へ切り替わり、戻る導線が出る
-    await expect(deformed).toBeHidden();
+    // 個別ピン表示へ切り替わり（集約マーカーは消える）、戻る導線が出る
     await expect(page.getByRole("button", { name: "全国に戻る" })).toBeVisible();
 
     await page.getByRole("button", { name: "全国に戻る" }).click();
-    await expect(deformed).toBeVisible();
+    await expect(fukushima).toBeVisible();
   });
 
-  test("本場ピン対応で、発祥ピンの無い石川県もディフォルメ地図から選べる", async ({ page }) => {
+  test("本場ピン対応で、発祥ピンの無い石川県もクラスタとして選べる", async ({ page }) => {
     await page.goto("/");
-    const deformed = page.getByRole("group", { name: /ディフォルメ地図/ });
     // 2026-09: 本場ピン（海鮮丼＝金沢）を地図に出す対応で、発祥ピンが0件の県も
     // 本場ピンがあれば選べるようになった（全県選択可能＝空白県ゼロ）。
-    // 旧テスト「発祥ピンの無い県は選べない」はこの対応で前提が崩れたため置き換え。
-    const ishikawa = deformed.getByRole("button", { name: /^石川県 1件/ });
-    await expect(ishikawa).toBeVisible();
-    await expect(ishikawa).not.toHaveAttribute("aria-disabled", "true");
+    const ishikawa = page.getByRole("button", { name: /^石川県 1件。選ぶと拡大します/ });
+    await expect(ishikawa).toBeVisible({ timeout: 30_000 });
   });
 
-  test("本場: 石川県を選ぶと地図が拡大し海鮮丼の本場ピンが出る", async ({ page }) => {
+  test("本場: 石川県クラスタを選ぶと地図が拡大し海鮮丼の本場ピンが出る", async ({ page }) => {
     await page.goto("/");
-    const deformed = page.getByRole("group", { name: /ディフォルメ地図/ });
-    await deformed.getByRole("button", { name: /^石川県 1件/ }).click();
-
-    // 実座標地図へ切り替わる（既存の県選択と同じ挙動）
-    await expect(deformed).toBeHidden();
+    const ishikawa = page.getByRole("button", { name: /^石川県 1件。選ぶと拡大します/ });
+    await expect(ishikawa).toBeVisible({ timeout: 30_000 });
+    await tapPrefCluster(ishikawa);
 
     // 本場ピンは中抜きの○（第4の記号）。aria-label に「本場」表記が乗ることをもって検証する
     // （MapLibre canvas内部の描画そのものはDOM/ariaから検証できないため）。
     const pin = page.getByRole("button", { name: /海鮮丼（本場・石川県金沢市）/ });
     await expect(pin).toBeVisible({ timeout: 30_000 });
+  });
+
+  test("絞り込み中は集約件数も絞り込み後の数で再計算され、0件になった県は集約マーカーごと消える", async ({
+    page,
+  }) => {
+    await page.goto("/ja");
+
+    // 絞り込み前: 福島県は8件（ラーメン5+そば2+その他1）、三重県はラーメン以外の2件のみ掲載
+    await expect(
+      page.getByRole("button", { name: /^福島県 8件。選ぶと拡大します/ }),
+    ).toBeVisible({ timeout: 30_000 });
+    await expect(
+      page.getByRole("button", { name: /^三重県 \d+件。選ぶと拡大します/ }),
+    ).toBeVisible();
+
+    const sheet = page.getByRole("dialog");
+    await sheet.getByRole("button", { name: "ラーメン", exact: true }).click();
+
+    // 絞り込み後: 福島県はラーメンだけの5件に再計算される
+    await expect(
+      page.getByRole("button", { name: /^福島県 5件。選ぶと拡大します/ }),
+    ).toBeVisible();
+    // ラーメンを1件も持たない三重県は集約マーカーごと消える
+    await expect(page.getByRole("button", { name: /^三重県/ })).toHaveCount(0);
   });
 });
 
@@ -147,10 +186,9 @@ test.describe("トップ操作体系の作り直し（2026-09。本番体験レ�
     await expect(chip).toContainText(/ラーメン\d+件/);
 
     // 単一ジャンル絞り込み中は実座標地図で系統凡例が出る（ラーメン内部の識別軸。
-    // ディフォルメ地図オーバーレイの下では隠れる既存仕様のため、県を選んで切り替える）
-    const deformed = page.getByRole("group", { name: /ディフォルメ地図/ });
-    await deformed.getByRole("button", { name: /^福島県 \d+件/ }).click();
-    await expect(deformed).toBeHidden();
+    // 個別ピン表示に切り替わってはじめて出る既存仕様のため、県クラスタをタップして切り替える）
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ });
+    await tapPrefCluster(fukushima);
     await expect(page.getByText("醤油", { exact: true })).toBeVisible();
 
     // シートを開くと索引もジャンルに絞られている（焼き鳥は出ない）

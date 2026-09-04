@@ -12,7 +12,6 @@ import { mapPinKey } from "@/features/map/pinKey";
 import type { MapItem, MapPin, Genre, Locale } from "@/features/map/queries";
 
 import { BottomSheet, snapOffset, type Snap } from "./BottomSheet";
-import { DeformedMap } from "./DeformedMap";
 import { IndexList } from "./IndexList";
 import type { Axis } from "./axes";
 
@@ -34,7 +33,7 @@ export function BrowseShell({
   locale,
 }: {
   items: MapItem[];
-  /** 本場ピン（2026-09）。索引には出さず、地図・ディフォルメ地図でのみ items と合流する。 */
+  /** 本場ピン（2026-09）。索引には出さず、地図でのみ items と合流する。 */
   honbaPins: MapPin[];
   genres: Genre[];
   locale: Locale;
@@ -52,15 +51,6 @@ export function BrowseShell({
   // トップは地図が主役という確定設計に沿い、種類選択はジャンルページへの遷移ではなく
   // まず地図の絞り込みに反映する（作業パッケージ「トップ操作体系の作り直し」§1）。
   const [genreFilter, setGenreFilter] = useState<string | null>(null);
-  // 全国俯瞰ではディフォルメ地図、県を選ぶと実座標地図に切り替える
-  // （.doc/30_features/02_ui_ux.md §3）。
-  // 地図のズーム値を観測して自動判定する設計は、初期カメラ設定でイベントが
-  // 発火しない・アニメーション中の値が読めない等で不安定だったため、
-  // **ユーザーの明示的な操作で切り替える**方式にした。
-  const [view, setView] = useState<"deformed" | "geographic">("deformed");
-  // 同じ県を続けて選んでも寄せ直せるよう、連番を添えて識別する
-  // （値が同じだと state が変わらず effect が再実行されないため）
-  const [focus, setFocus] = useState<{ pref: string; seq: number } | null>(null);
 
   useEffect(() => {
     const update = () => setVh(window.innerHeight);
@@ -69,7 +59,7 @@ export function BrowseShell({
     return () => window.removeEventListener("resize", update);
   }, []);
 
-  // 地図・ディフォルメ地図に渡す合流データ（発祥+本場）。索引・件数表記は items のまま
+  // 地図に渡す合流データ（発祥+本場）。索引・件数表記は items のまま
   // （本場を索引に重複表示しないため。作業パッケージ「本場ピン」§1）。
   const mapPins = useMemo<MapPin[]>(
     () => [...items.map((i): MapPin => ({ ...i, kind: "origin" })), ...honbaPins],
@@ -81,7 +71,7 @@ export function BrowseShell({
     [mapPins, selectedSlug],
   );
 
-  // ジャンル絞り込み中の表示データ（地図・索引・ディフォルメ地図で共有）。
+  // ジャンル絞り込み中の表示データ（地図・索引で共有）。
   // 本場ピンも item.genreSlug で判定するため、絞り込み時は発祥/本場を問わず揃って絞られる。
   const filteredGenre = useMemo(
     () => (genreFilter ? (genres.find((g) => g.slug === genreFilter) ?? null) : null),
@@ -111,11 +101,6 @@ export function BrowseShell({
     setSnap("half");
   }, []);
 
-  const handleSelectPrefecture = useCallback((pref: string) => {
-    setFocus((prev) => ({ pref, seq: (prev?.seq ?? 0) + 1 }));
-    setView("geographic");
-  }, []);
-
   // ジャンルをタップしたら地図をそのジャンルに絞り込み、ピーク位置に戻して
   // 「触ったら反映される」を地図で即座に見せる（本番体験レビューで指摘された、
   // ジャンル選択が地図に反映されない問題への対処）。
@@ -132,46 +117,21 @@ export function BrowseShell({
   // 地図を寄せる際の下端余白。シートに隠れない位置に選択地点を置く。
   const bottomInset = vh === 0 ? 0 : Math.max(0, vh - snapOffset(snap, vh));
 
-  const showDeformed = view === "deformed";
-
   return (
     <div className="fixed inset-0 overflow-hidden">
+      {/* 全国表示も実データ地形の地図（2026-09 全国表示の作り直し）。低ズームでは
+          MapView 内部が県ごとの集約マーカーに切り替える。「全国に戻る」導線も
+          MapView 側が isClusterView の実測値を見て自前で出す。 */}
       <MapView
         items={visiblePins}
         selectedSlug={selectedSlug}
         onSelect={handleSelectFromMap}
         bottomInset={bottomInset}
-        focus={focus}
         showLegend={showStyleLegend}
       />
 
-      {/* 実座標地図は生かしたまま上に被せる。切り替えで地図を作り直さない。 */}
-      {showDeformed && (
-        <div className="bg-background/95 absolute inset-0 z-10 backdrop-blur-[1px]">
-          <DeformedMap
-            items={visiblePins}
-            onSelectPrefecture={handleSelectPrefecture}
-            bottomInset={bottomInset}
-          />
-          <p className="text-muted-foreground pointer-events-none absolute inset-x-0 bottom-2 text-center text-xs">
-            県を選ぶと、その範囲の実際の地図に切り替わります
-          </p>
-        </div>
-      )}
-
-      {!showDeformed && (
-        <button
-          type="button"
-          onClick={() => setView("deformed")}
-          className="bg-background/90 absolute top-20 right-4 z-10 rounded-lg px-3 py-2 text-xs shadow-sm backdrop-blur"
-        >
-          {t("backToNational")}
-        </button>
-      )}
-
       {/* ジャンル絞り込み中チップ（本番体験レビュー: 「押したら地図に反映されない」への対処）。
-          デフォルメ地図オーバーレイより後ろに置かず、常に見える位置（地図上・z-10で
-          デフォルメ地図と同層だがDOM順で後勝ちにする）に出す。 */}
+          常に見える位置（地図上・z-10）に出す。 */}
       {filteredGenre && (
         <div className="pointer-events-none absolute inset-x-0 top-16 z-10 flex justify-center px-4">
           <button

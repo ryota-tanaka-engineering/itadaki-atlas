@@ -31,10 +31,10 @@ export type MapItem = {
  * 地図ピン用データ（2026-09 本場ピン対応）。MapItem に kind を足しただけの型で、
  * 発祥ピン（kind='origin'。MapItem を素通しできる形）と本場ピン
  * （kind='honba'。food_item_regions の1行=1ピンで、同じアイテムが複数都市に
- * ピンを持ちうる）を同じ配列に合流させて MapView / DeformedMap に渡す。
+ * ピンを持ちうる）を同じ配列に合流させて MapView に渡す。
  *
  * originPref/originCity/lat/lng は honba ピンでは「アイテムの発祥地」ではなく
- * 「そのピンの所在地（本場の都市）」を表す（MapView・DeformedMap が既存の
+ * 「そのピンの所在地（本場の都市）」を表す（MapView が既存の
  * originPref ベースの集計・寄せロジックをそのまま使い回せるようにするため）。
  */
 export type MapPin = MapItem & { kind: "origin" | "honba" };
@@ -882,6 +882,39 @@ type ChainRecFoodItem = {
 };
 type ChainRecRow = { sort_order: number; food_items: ChainRecFoodItem[] | ChainRecFoodItem | null };
 
+const CHAIN_RECOMMENDATION_SELECT = `
+  sort_order,
+  food_items (
+    slug, name_romaji, shelf_slug,
+    genres ( slug ),
+    food_item_translations ( locale, name )
+  )
+` as const;
+
+/** chain_recommendations の埋め込み行 → 表示用 ChainRecommendation[]（fetchChainsForGenre / fetchChainBySlug 共通）。 */
+function mapChainRecommendations(rows: ChainRecRow[]): ChainRecommendation[] {
+  return rows
+    .slice()
+    .sort((a, b) => a.sort_order - b.sort_order)
+    .map((rec): ChainRecommendation | null => {
+      const item = toOne(rec.food_items);
+      if (!item) return null;
+      const translations = item.food_item_translations ?? [];
+      const ja = translations.find((x) => x.locale === "ja");
+      const en = translations.find((x) => x.locale === "en");
+      return {
+        key: item.slug,
+        slug: item.slug,
+        genreSlug: toOne(item.genres ?? null)?.slug ?? null,
+        shelfSlug: item.shelf_slug,
+        nameJa: ja?.name ?? item.name_romaji,
+        nameEn: en?.name ?? null,
+        nameRomaji: item.name_romaji,
+      };
+    })
+    .filter((r): r is ChainRecommendation => r !== null);
+}
+
 /**
  * ジャンルページ「チェーンから、ご当地へ」用。chains.genre_slug が一致するチェーンが
  * 無ければ空配列を返す（呼び出し側はデータ駆動でセクションごと非表示にする。
@@ -894,48 +927,87 @@ export async function fetchChainsForGenre(genreSlug: string): Promise<Chain[]> {
     .from("chains")
     .select(
       `slug, name_ja, name_en, bridge_ja, bridge_en, sort_order,
-       chain_recommendations (
-         sort_order,
-         food_items (
-           slug, name_romaji, shelf_slug,
-           genres ( slug ),
-           food_item_translations ( locale, name )
-         )
-       )`,
+       chain_recommendations ( ${CHAIN_RECOMMENDATION_SELECT} )`,
     )
     .eq("genre_slug", genreSlug)
     .order("sort_order");
   if (error) throw new Error(`fetchChainsForGenre failed: ${error.message}`);
 
-  return (data ?? []).map((c) => {
-    const recs = ((c.chain_recommendations ?? []) as ChainRecRow[])
-      .slice()
-      .sort((a, b) => a.sort_order - b.sort_order)
-      .map((rec): ChainRecommendation | null => {
-        const item = toOne(rec.food_items);
-        if (!item) return null;
-        const translations = item.food_item_translations ?? [];
-        const ja = translations.find((x) => x.locale === "ja");
-        const en = translations.find((x) => x.locale === "en");
-        return {
-          key: item.slug,
-          slug: item.slug,
-          genreSlug: toOne(item.genres ?? null)?.slug ?? null,
-          shelfSlug: item.shelf_slug,
-          nameJa: ja?.name ?? item.name_romaji,
-          nameEn: en?.name ?? null,
-          nameRomaji: item.name_romaji,
-        };
-      })
-      .filter((r): r is ChainRecommendation => r !== null);
+  return (data ?? []).map((c) => ({
+    slug: c.slug,
+    nameJa: c.name_ja,
+    nameEn: c.name_en,
+    bridgeJa: c.bridge_ja,
+    bridgeEn: c.bridge_en,
+    recommendations: mapChainRecommendations((c.chain_recommendations ?? []) as ChainRecRow[]),
+  }));
+}
 
-    return {
-      slug: c.slug,
-      nameJa: c.name_ja,
-      nameEn: c.name_en,
-      bridgeJa: c.bridge_ja,
-      bridgeEn: c.bridge_en,
-      recommendations: recs,
-    };
-  });
+export type ChainDetail = Chain & {
+  styleJa: string | null;
+  styleEn: string | null;
+  /** 創業の事実（年・場所等）。日本語のみのカラム（英訳列なし）。 */
+  foundedNote: string | null;
+  genreSlug: string;
+};
+
+/**
+ * チェーン独立ページ（/chain/[slug]）用。1チェーン=1URLの流入起点（検索ボリュームの
+ * 大きいチェーン名を入口にする。North Star「広く」軸）。slug 未一致は null を返し、
+ * 呼び出し側で notFound() する（詳細ページの resolveItem と同じ方針）。
+ */
+export async function fetchChainBySlug(slug: string): Promise<ChainDetail | null> {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("chains")
+    .select(
+      `slug, name_ja, name_en, style_ja, style_en, founded_note, bridge_ja, bridge_en, genre_slug,
+       chain_recommendations ( ${CHAIN_RECOMMENDATION_SELECT} )`,
+    )
+    .eq("slug", slug)
+    .maybeSingle();
+  if (error) throw new Error(`fetchChainBySlug failed: ${error.message}`);
+  if (!data) return null;
+
+  return {
+    slug: data.slug,
+    nameJa: data.name_ja,
+    nameEn: data.name_en,
+    styleJa: data.style_ja,
+    styleEn: data.style_en,
+    foundedNote: data.founded_note,
+    bridgeJa: data.bridge_ja,
+    bridgeEn: data.bridge_en,
+    genreSlug: data.genre_slug,
+    recommendations: mapChainRecommendations((data.chain_recommendations ?? []) as ChainRecRow[]),
+  };
+}
+
+export type ChainSummary = { slug: string; nameJa: string; nameEn: string };
+
+/**
+ * チェーン独立ページ「他のチェーンも見る」用。同じ genre_slug の他チェーン
+ * （行き止まり禁止。genre_slug 一致だけで並ぶデータ駆動のため特定チェーンのハードコードをしない）。
+ */
+export async function fetchOtherChainsInGenre(
+  genreSlug: string,
+  excludeSlug: string,
+): Promise<ChainSummary[]> {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("chains")
+    .select("slug, name_ja, name_en")
+    .eq("genre_slug", genreSlug)
+    .neq("slug", excludeSlug)
+    .order("sort_order");
+  if (error) throw new Error(`fetchOtherChainsInGenre failed: ${error.message}`);
+  return (data ?? []).map((c) => ({ slug: c.slug, nameJa: c.name_ja, nameEn: c.name_en }));
+}
+
+/** sitemap用。全チェーンのslug。 */
+export async function fetchAllChainSlugs(): Promise<string[]> {
+  const db = await createClient();
+  const { data, error } = await db.from("chains").select("slug").order("sort_order");
+  if (error) throw new Error(`fetchAllChainSlugs failed: ${error.message}`);
+  return (data ?? []).map((c) => c.slug);
 }

@@ -17,8 +17,6 @@
     "backToNational": "全国に戻る",
     "backToIndex": "索引に戻る",
     "sheetToggle": "シートを次の段階へ（現在: {snap}）",
-    "deformedHint": "県を選ぶと、その範囲の実際の地図に切り替わります",
-    "deformedLabel": "都道府県別の掲載数（ディフォルメ地図）",
     "axisLabel": "索引の並び順",
     "axis": {
       "kana": "五十音",
