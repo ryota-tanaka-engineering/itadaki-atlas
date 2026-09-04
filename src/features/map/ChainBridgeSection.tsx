@@ -14,6 +14,10 @@ import type { Chain } from "./queries";
  * チェーンのロゴ・画像は使わない（商標）。並びはデータの sort_order のまま
  * （ランキング表現禁止）。source_url / source_note は内部検証用のためここでは扱わない
  * （queries.ts の Chain 型に含めていない）。
+ *
+ * チェーン名は独立ページ（/chain/[slug]。検索流入起点。CLAUDE.md「意図的な制約」節とは
+ * 別件、チェーン橋渡し・本場機構の追補）へのリンク。ここでは要約（bridge文+推薦リンク）
+ * のまま残し、詳しい系統・創業の事実は遷移先で見せる。
  */
 type Props = {
   heading: string;
@@ -36,7 +40,11 @@ export function ChainBridgeSection({ heading, intro, chains, locale }: Props) {
       <ul className="space-y-4">
         {chains.map((c) => (
           <li key={c.slug} className="border-border rounded-lg border p-4">
-            <p className="font-medium">{isJa ? c.nameJa : c.nameEn}</p>
+            <p className="font-medium">
+              <Link href={`/chain/${c.slug}`} className="hover:underline">
+                {isJa ? c.nameJa : c.nameEn}
+              </Link>
+            </p>
             <p className="text-muted-foreground mt-1 text-sm leading-relaxed">
               {isJa ? c.bridgeJa : c.bridgeEn}
             </p>

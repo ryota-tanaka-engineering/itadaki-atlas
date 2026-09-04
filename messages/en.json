@@ -180,6 +180,15 @@
     "relatedTitle": "Related tags",
     "allTagsLink": "All tags"
   },
+  "chain": {
+    "label": "Chain",
+    "style": "Style",
+    "founded": "Founded",
+    "recommendHeading": "If you like this flavor",
+    "otherChainsHeading": "More chains",
+    "genreLink": "All {name}",
+    "correction": "Report a correction"
+  },
   "relation": {
     "lineage": {
       "otherIsFrom": "Root style",

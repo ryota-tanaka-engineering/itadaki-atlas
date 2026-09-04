@@ -2,6 +2,7 @@ import type { MetadataRoute } from "next";
 
 import { routing } from "@/i18n/routing";
 import {
+  fetchAllChainSlugs,
   fetchGenres,
   fetchPrefsWithItems,
   fetchPublishedPaths,
@@ -16,12 +17,13 @@ import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
  * ロケールごとにURLを並べ、alternates で言語版を相互に示す。
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [paths, genres, prefs, shelves, tags] = await Promise.all([
+  const [paths, genres, prefs, shelves, tags, chainSlugs] = await Promise.all([
     fetchPublishedPaths(),
     fetchGenres(),
     fetchPrefsWithItems(),
     fetchShelves(),
     fetchTagsWithCounts(),
+    fetchAllChainSlugs(),
   ]);
 
   const entry = (path: string): MetadataRoute.Sitemap[number][] =>
@@ -56,5 +58,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...prefs.flatMap((pref) => entry(`/region/${PREF_SLUGS[pref as Prefecture]}`)),
     ...paths.flatMap((p) => entry(`/${p.genreSlug}/${p.slug}`)),
     ...tags.filter((tg) => tg.itemCount > 0).flatMap((tg) => entry(`/tag/${tg.slug}`)),
+    ...chainSlugs.flatMap((slug) => entry(`/chain/${slug}`)),
   ];
 }

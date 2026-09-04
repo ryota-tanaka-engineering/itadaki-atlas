@@ -180,6 +180,15 @@
     "relatedTitle": "近いタグ",
     "allTagsLink": "タグ一覧へ"
   },
+  "chain": {
+    "label": "チェーン",
+    "style": "系統",
+    "founded": "創業",
+    "recommendHeading": "この味が好きなら",
+    "otherChainsHeading": "他のチェーンも見る",
+    "genreLink": "{name}の一覧へ",
+    "correction": "内容の訂正を送る"
+  },
   "relation": {
     "lineage": {
       "otherIsFrom": "源流",

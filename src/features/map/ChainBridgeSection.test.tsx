@@ -37,7 +37,7 @@ describe("ChainBridgeSection", () => {
     render(
       <ChainBridgeSection heading="その味、ご当地にもあります" intro="導入文" chains={[sampleChain]} locale="ja" />,
     );
-    expect(screen.getByText("一蘭")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "一蘭" })).toHaveAttribute("href", "/chain/ichiran");
     expect(screen.getByText(sampleChain.bridgeJa)).toBeInTheDocument();
     const hakataLink = screen.getByRole("link", { name: "博多ラーメン" });
     expect(hakataLink).toHaveAttribute("href", "/ramen/hakata");

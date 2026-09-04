@@ -732,3 +732,67 @@ test.describe("チェーンから、ご当地へ（チェーン橋渡し装置�
     await expect(page.getByText("その味、ご当地にもあります")).toHaveCount(0);
   });
 });
+
+test.describe("チェーン独立ページ（1チェーン=1URL。検索流入の入口）", () => {
+  test("/ja/chain/ichiran が表示され、推薦リンクから博多ラーメン詳細へ遷移できる", async ({ page }) => {
+    await page.goto("/ja/chain/ichiran");
+    await expect(page.getByRole("heading", { name: "一蘭", level: 1 })).toBeVisible();
+    // カバーに「チェーン」であることが分かる小ラベルが出る
+    await expect(page.getByText("チェーン", { exact: true })).toBeVisible();
+    // bridge文が主役として出る
+    await expect(
+      page.getByText(
+        "一蘭の細麺・濃厚豚骨は、博多・久留米の屋台文化から広まった豚骨ラーメンの流れを汲むとされる。",
+      ),
+    ).toBeVisible();
+    // 出典はUI非表示。訂正導線だけが残る
+    await expect(page.getByText("https://en.ichiran.com", { exact: false })).toHaveCount(0);
+    await expect(page.getByRole("link", { name: "内容の訂正を送る" })).toBeVisible();
+
+    const hakataLink = page.getByRole("link", { name: /博多ラーメン/ }).first();
+    await expect(hakataLink).toBeVisible();
+    await hakataLink.click();
+    await expect(page.getByRole("heading", { name: "博多ラーメン", level: 1 })).toBeVisible();
+  });
+
+  test("/en/chain/ichiran は英語で表示される", async ({ page }) => {
+    await page.goto("/en/chain/ichiran");
+    await expect(
+      page.getByRole("heading", { name: "Ichiran — tonkotsu ramen chain from Fukuoka", level: 1 }),
+    ).toBeVisible();
+    await expect(page.getByText("Chain", { exact: true })).toBeVisible();
+    await expect(
+      page.getByText(
+        "Ichiran's thin noodles and rich tonkotsu broth are said to trace back to the street-stall tonkotsu culture of Hakata and Kurume.",
+      ),
+    ).toBeVisible();
+    await expect(page.getByRole("link", { name: "Report a correction" })).toBeVisible();
+  });
+
+  test("他のチェーンへの回遊リンクが出る（行き止まり禁止）", async ({ page }) => {
+    await page.goto("/ja/chain/ichiran");
+    const ippudoLink = page.getByRole("link", { name: "一風堂" });
+    await expect(ippudoLink).toBeVisible();
+    await ippudoLink.click();
+    await expect(page.getByRole("heading", { name: "一風堂", level: 1 })).toBeVisible();
+  });
+
+  test("ジャンルページのチェーン行から独立ページへ遷移できる", async ({ page }) => {
+    await page.goto("/ja/ramen");
+    const chainSection = page.locator("section", { hasText: "その味、ご当地にもあります" });
+    await chainSection.getByRole("link", { name: "一蘭" }).click();
+    await expect(page.getByRole("heading", { name: "一蘭", level: 1 })).toBeVisible();
+  });
+
+  test("存在しないチェーンslugは404", async ({ page }) => {
+    const response = await page.goto("/ja/chain/does-not-exist");
+    expect(response?.status()).toBe(404);
+  });
+
+  test("sitemapにチェーンページのURLが出る", async ({ request }) => {
+    const res = await request.get("/sitemap.xml");
+    const xml = await res.text();
+    expect(xml).toContain("/ja/chain/ichiran");
+    expect(xml).toContain("/en/chain/ichiran");
+  });
+});
