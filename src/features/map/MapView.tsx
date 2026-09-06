@@ -192,6 +192,11 @@ export function MapView({
   const label = useMasterLabels();
   const t = useTranslations("browse");
   const tRegion = useTranslations("regionRelation");
+  // 描画effectの依存は関数ではなく文字列にする。next-intl の t 関数は毎レンダーで
+  // 別の同一性になるため、関数を依存に入れると無関係な再レンダー（シート操作・選択等）の
+  // たびに全マーカーが破棄・再生成され、その最中のクリックが失われ、フォーカス中の
+  // 要素が消えてフォーカスが飛ぶ（本番レビュー「押せもしない」の真因）。
+  const honbaLabel = tRegion("本場");
   // WebGL コンテキスト喪失（実機での「触ってたら地図が消えた」報告への防御。
   // iOS Safari はメモリ圧迫時に WebGL コンテキストを強制破棄することがある）に遭遇したら
   // このキーを進めて地図コンポーネントを丸ごと作り直す（コンテナDOM+Mapインスタンス）。
@@ -440,11 +445,19 @@ export function MapView({
         // ラベル文言は従来のディフォルメ地図のラベルに準拠し、この地図の個別ピン
         // aria-label と同様に日本語決め打ちにする（マスタラベル辞書は使わない）。
         el.setAttribute("aria-label", `${cluster.pref} ${cluster.count}件。選ぶと拡大します`);
-        el.className =
-          "flex size-7 cursor-pointer items-center justify-center rounded-full border-2 text-xs font-semibold text-white transition-transform hover:scale-110 focus-visible:outline-2 focus-visible:outline-offset-2";
-        el.style.backgroundColor = PIN_BASE;
-        el.style.borderColor = PIN_STROKE;
-        el.textContent = String(cluster.count);
+        // 拡大などの transform 系の装飾は root（マーカー本体）に当てない。
+        // Tailwind v4 の scale-* は独立プロパティ `scale` としてインライン transform の
+        // 外側に乗算されるため、MapLibre の translate ごと拡大されてマーカーが
+        // 原点からの距離×10%だけ飛ぶ（本番レビュー「ホバー/フォーカスで別の位置に
+        // 出現して押せない」の真因）。視覚は内側 span に持たせる。
+        el.className = "group size-7 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2";
+        const inner = document.createElement("span");
+        inner.className =
+          "flex size-full items-center justify-center rounded-full border-2 text-xs font-semibold text-white transition-transform group-hover:scale-110";
+        inner.style.backgroundColor = PIN_BASE;
+        inner.style.borderColor = PIN_STROKE;
+        inner.textContent = String(cluster.count);
+        el.appendChild(inner);
         el.addEventListener("click", () => flyToPrefecture(cluster.pref));
 
         const { x, y } = points[i];
@@ -464,35 +477,40 @@ export function MapView({
         el.setAttribute(
           "aria-label",
           item.kind === "honba"
-            ? `${item.nameJa}（${tRegion("本場")}・${item.originPref ?? ""}${item.originCity ?? ""}）`
+            ? `${item.nameJa}（${honbaLabel}・${item.originPref ?? ""}${item.originCity ?? ""}）`
             : `${item.nameJa}（${item.originPref ?? ""}${item.originCity ?? ""}・${item.primaryStyle ?? "系統不明"}）`,
         );
 
+        // 拡大は root に当てず内側 span に持たせる（クラスタ側のコメント参照。
+        // el.style.transform も MapLibre の translate を上書きするため禁止）。
+        el.className = "group size-4 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2";
+        const inner = document.createElement("span");
         let ringShadow: string | undefined;
         if (item.kind === "honba") {
           // 本場ピン: 中抜きの○（発祥/食材/仕込みのどれとも違う第4の記号）。
           // 塗り=紙・リング=ブランド橙（太め）・外周輪郭=既存ピンと同じ細さ
           // （CLAUDE.md「デザイン」節・作業パッケージ「本場ピン」デザイン決定）。
-          el.className =
-            "size-4 cursor-pointer rounded-full transition-transform hover:scale-125 focus-visible:outline-2 focus-visible:outline-offset-2";
-          el.style.backgroundColor = "#fffdf7";
-          el.style.border = `2px solid ${PIN_STROKE}`;
+          inner.className =
+            "block size-full rounded-full transition-transform group-hover:scale-125";
+          inner.style.backgroundColor = "#fffdf7";
+          inner.style.border = `2px solid ${PIN_STROKE}`;
           ringShadow = `inset 0 0 0 3px ${PIN_BASE}`;
-          el.style.boxShadow = ringShadow;
+          inner.style.boxShadow = ringShadow;
         } else {
           // 記号（CLAUDE.md「記号」節）: dish=●（丸）/ ingredient=■（角）。
           // 系統色はラーメン内部のみの識別軸で、それ以外は無地のブランド橙（PIN_BASE）。
           const shape = item.itemType === "ingredient" ? "rounded-[3px]" : "rounded-full";
-          el.className = `size-4 cursor-pointer border-2 transition-transform hover:scale-125 focus-visible:outline-2 focus-visible:outline-offset-2 ${shape}`;
-          el.style.backgroundColor = styleColor(item.primaryStyle);
-          el.style.borderColor = PIN_STROKE;
+          inner.className = `block size-full border-2 transition-transform group-hover:scale-125 ${shape}`;
+          inner.style.backgroundColor = styleColor(item.primaryStyle);
+          inner.style.borderColor = PIN_STROKE;
         }
         if (key === selectedSlug) {
-          el.style.transform = "scale(1.6)";
+          inner.style.transform = "scale(1.6)";
           el.style.zIndex = "1";
           const selectionShadow = "0 0 0 3px rgba(0,0,0,0.25)";
-          el.style.boxShadow = ringShadow ? `${ringShadow}, ${selectionShadow}` : selectionShadow;
+          inner.style.boxShadow = ringShadow ? `${ringShadow}, ${selectionShadow}` : selectionShadow;
         }
+        el.appendChild(inner);
         el.addEventListener("click", () => onSelect(key));
 
         markers.push(
@@ -519,7 +537,7 @@ export function MapView({
       for (const m of markers) m.remove();
     };
     // mapGeneration も依存に含め、WebGLコンテキスト喪失で地図を作り直した後もピンを再描画する。
-  }, [items, selectedSlug, onSelect, tRegion, mapGeneration, isClusterView, prefClusters, flyToPrefecture]);
+  }, [items, selectedSlug, onSelect, honbaLabel, mapGeneration, isClusterView, prefClusters, flyToPrefecture]);
 
   // 選択地点への寄せ
   useEffect(() => {
