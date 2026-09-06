@@ -265,6 +265,22 @@ export function MapView({
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
     mapRef.current = map;
 
+    // 画面外のマーカー（ピン・県クラスタはbutton要素）にキーボードフォーカスが移ると、
+    // ブラウザが overflow:hidden の地図コンテナを内部スクロールさせて要素を見せようとする。
+    // MapLibre はこのスクロールを認知しないため、描画とヒットテストが数百pxズレて
+    // 「フォーカスした瞬間に別の位置に出現し、クリックも効かない」状態になる
+    // （本番レビューで報告されたPCのフォーカス不具合。実測で scrollTop=832 を確認）。
+    // scroll をキャプチャ段階で捕まえ、即座に打ち消す。
+    const container = map.getContainer();
+    const cancelFocusScroll = (e: Event) => {
+      const t = e.target as HTMLElement | null;
+      if (t && (t.scrollTop !== 0 || t.scrollLeft !== 0)) {
+        t.scrollTop = 0;
+        t.scrollLeft = 0;
+      }
+    };
+    container.addEventListener("scroll", cancelFocusScroll, true);
+
     // WebGL コンテキスト喪失への対処。ブラウザの既定動作（コンテキストを破棄したまま
     // 二度と使わない）を止めて復元を試みつつ、一定時間内に復元イベントが来なければ
     // 地図ごと作り直すフォールバックに落とす（確実な再現が無くても入れる防御コード）。
@@ -290,6 +306,7 @@ export function MapView({
     canvas.addEventListener("webglcontextrestored", handleContextRestored, false);
 
     return () => {
+      container.removeEventListener("scroll", cancelFocusScroll, true);
       canvas.removeEventListener("webglcontextlost", handleContextLost);
       canvas.removeEventListener("webglcontextrestored", handleContextRestored);
       if (restoreTimeout) clearTimeout(restoreTimeout);
