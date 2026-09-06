@@ -1,0 +1,634 @@
+{
+ "items": [
+  {
+   "slug": "sirloin",
+   "body_ja": "## 何でできているか\n腰の上部、背中でいちばん長い筋肉の後半部にあたる部位で、繊維がきめ細かくサシが入りやすい。噛むとまず脂の甘さが広がり、そのあとに赤身らしい弾力のある旨みが追いかけてくる。ロース系のなかでもっとも柔らかい部類とされ、断面は霜降りの網目模様で覆われることが多い。切り分けると外側に薄い脂の層が残ることが多く、この脂を落としすぎずに焼くと風味が増すとされる。\n## どう作るのか\n1頭から取れる量は限られ、ステーキ用には3〜4センチの厚切りにして塊のまま焼くのが定番とされる。表面を強火でしっかり焼き固めてから中心をレアからミディアムに仕上げると、脂の甘みと赤身の旨みのバランスが崩れにくい。すき焼きでは薄切りにされることもある。焼いたあとに数分休ませて肉汁を落ち着かせると、切ったときに旨みが逃げにくいともされる。\n## なぜこの形になったのか\n西洋料理のステーキ文化が明治の肉食解禁を経て日本に根づくなかで、厚みのある一枚肉として焼くのにもっとも向く部位として扱われてきたとされる。焼肉店ではロース系の一角として、ステーキ専門店では単独の主役として出されることが多く、「牛肉のステーキ」と聞いて多くの人が思い浮かべる部位のひとつとされる。すき焼きの具材としても古くから使われ、焼く・煮るの両方に対応できる懐の広さも支持されてきた理由とされる。",
+   "body_en": "## What it's made of\nFrom the rear portion of the longest muscle running down the back, this cut is fine-grained and takes marbling easily. Fat sweetness comes first on the bite, followed by the springy, savory pull of lean meat; it's counted among the most tender of the loin cuts, its cross-section often webbed with fine marbling. A thin outer layer of fat often remains after trimming, and grilling it without over-rendering that fat is said to add extra flavor.\n## How it's made\nYielded in limited amount per animal, it's typically cut into thick, 3-4cm steaks and grilled whole. Searing the surface hard before finishing the center rare to medium keeps the balance between fat sweetness and lean flavor from tipping too far either way; it's also sliced thin for sukiyaki. Letting it rest a few minutes after grilling is also said to help the juices settle so less escapes once it's cut.\n## Why it took this shape\nAs Western-style steak culture took root in Japan after the Meiji-era lifting of the meat-eating ban, this cut is said to have been treated as best suited to grilling whole, in thick slices. At yakiniku restaurants it sits among the loin cuts; at steakhouses it often stands alone as the main dish — one of the cuts many people picture first when they hear \"beef steak.\" It has long been used in sukiyaki too, and its versatility across both grilling and simmering is said to be part of why it's stayed a favorite.",
+   "sources": [
+    {
+     "title": "牛肉の部位",
+     "url": "https://www.piif.jmtc.or.jp/ushibui/",
+     "publisher": "公益財団法人日本食肉流通センター",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sirloin",
+     "to_slug": "rib-roast",
+     "relation_type": "兄弟",
+     "basis": "肩ロースとサーロインの間に位置するリブロースとは背中の隣接部位どうし。"
+    }
+   ]
+  },
+  {
+   "slug": "beef-tenderloin",
+   "body_ja": "## 何でできているか\n背骨の内側、腰椎に沿って伸びるほとんど動かない筋肉で、牛肉のなかでいちばん脂肪が少なく柔らかい。赤身の味わいは淡く上品で、脂の主張が少ないぶん、肉そのものの繊細な旨みが前に出る。ナイフを入れるとほとんど抵抗なく切れるほどのきめ細かさを持つ。牛1頭からごく細く2本しか取れない筋肉で、外側を覆う薄い筋膜と脂を丁寧にはがしてから使うのが下ごしらえの基本とされる。\n## どう作るのか\n運動しない筋肉ゆえに加熱しすぎるとすぐ硬くなり、火入れの見極めが味を大きく左右するとされる。1頭から取れる量はごくわずかで、中でも中央のもっとも均一な部分だけを切り出したものは「シャトーブリアン」と呼ばれ、さらに希少とされる。厚みのある中心部を輪切りにしたステーキは断面が丸く均一になり、両面を短時間で焼き上げる調理法が定番とされる。\n## なぜこの形になったのか\n脂が少なく淡白な味わいゆえに、フランス料理の影響を受けたステーキやカルパッチョなど、素材そのものの質を問う調理法との相性で語られることが多い部位とされる。焼肉店でも他の部位と一線を画す高級品として扱われることが多い。赤身だけの純粋な味を求める食べ方の象徴として、他の部位以上に焼き加減そのものが評価の対象になりやすい部位ともされる。",
+   "body_en": "## What it's made of\nA rarely-worked muscle running along the inside of the lumbar spine, the leanest and most tender cut of beef. Its lean flavor is light and refined; with little fat asserting itself, the meat's own delicate savoriness comes forward, and it's fine-grained enough to cut with almost no resistance. Only two long, narrow strips of this muscle come from each animal, and trimming away the thin membrane and fat coating it is said to be the basic first step in prep.\n## How it's made\nBecause the muscle barely moves, it toughens quickly if overcooked, and how it's fired is said to make or break the result. Only a small amount comes from each animal, and the single most even center portion, cut out on its own, is served as chateaubriand — considered rarer still. Cut into round steaks from the thick center portion, it's typically seared quickly on both sides.\n## Why it took this shape\nWith little fat and a light flavor, it's often discussed alongside French-influenced preparations like steak or carpaccio that put the quality of the meat itself to the test. At yakiniku restaurants, too, it's commonly treated as a premium item set apart from the rest. As a symbol of eating lean beef at its purest, how it's fired is said to draw more scrutiny here than with almost any other cut.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "beef-tenderloin",
+     "to_slug": "beef-short-rib",
+     "relation_type": "対比",
+     "basis": "牛肉のなかで最も脂肪が少ないヒレと、赤身と脂が層になるバラ（カルビ）は、赤身と脂の対照を示す代表的な組み合わせ。"
+    }
+   ]
+  },
+  {
+   "slug": "rib-roast",
+   "body_ja": "## 何でできているか\n肩ロースとサーロインのあいだに位置する部位で、きめ細かな霜降りが層になって入るのが特徴。脂の香りが強く、噛むほどに肉の旨みと脂の甘みが溶け合う。骨に近い側ほど風味が濃く、骨から離れるほどきめが細かくなるとされる。断面には霜降りが均等な網目状に広がることが多く、見た目の華やかさもこの部位の持ち味とされる。焼くと脂が香ばしく溶け出し、部屋中にすき焼きさながらの香りが広がるとされる。\n## どう作るのか\n骨付きのまま厚切りにして焼く「リブアイロール」としても扱われ、脂が多いぶん強火で焼くと香りが立ちやすい。すき焼きでは薄切りにして割り下でさっと煮て食べる。ステーキ・しゃぶしゃぶ・すき焼きと調理の幅が広い部位とされる。厚切りで焼く場合は表面をしっかり焼き固めたのち余熱でじっくり火を通す方法が向くとされる。\n## なぜこの形になったのか\nすき焼きが牛鍋として広まった明治期以降、脂の香りと霜降りの見栄えを両立できる部位として重宝されてきたとされる。ステーキとしても扱われる汎用性の高さから、焼肉店・すき焼き店・ステーキ専門店のいずれでも中心的な位置を占めることが多い部位とされる。同じロース系のサーロインと並んで扱われることが多く、脂の量やきめの違いを食べ比べる楽しみ方もあるとされる。",
+   "body_en": "## What it's made of\nSitting between the chuck roll and the sirloin, this cut is known for fine marbling running through it in even layers. The aroma of fat is pronounced, and lean flavor melds with fat sweetness the more it's chewed; the side nearer the bone is said to carry the strongest flavor, the far side the finest grain. The cross-section often shows an even, web-like spread of marbling, and that visual appeal is said to be part of the cut's draw. When grilled, its fat is said to render with a fragrant aroma that can fill a room, not unlike a pot of sukiyaki on the stove.\n## How it's made\nIt's also cut thick, bone-in, and grilled as a rib-eye roll; with its higher fat content, high heat brings out the aroma quickly. For sukiyaki it's sliced thin and briefly simmered in the seasoned broth — a cut said to suit steak, shabu-shabu and sukiyaki alike. For a thick cut, searing the surface hard and then finishing gently with residual heat is said to suit it well.\n## Why it took this shape\nSince sukiyaki spread as \"gyunabe\" from the Meiji era onward, this cut is said to have been valued for combining a fragrant, fatty bite with marbling that looks as good as it tastes. Versatile enough to work as a steak too, it's said to hold a central place at yakiniku restaurants, sukiyaki restaurants and steakhouses alike. It's often served alongside sirloin from the same loin group, letting diners compare the two cuts' differing fat and grain.",
+   "sources": [
+    {
+     "title": "牛肉の部位",
+     "url": "https://www.piif.jmtc.or.jp/ushibui/",
+     "publisher": "公益財団法人日本食肉流通センター",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "rib-roast",
+     "to_slug": "chuck-roll",
+     "relation_type": "兄弟",
+     "basis": "リブロースは肩ロースとサーロインの間に位置すると自ら説明しており、肩ロースと解剖学的に隣接する。"
+    }
+   ]
+  },
+  {
+   "slug": "chuck-roll",
+   "body_ja": "## 何でできているか\n肩からリブロースにかけて伸びる部位で、赤身と脂がほどよい層になっている。よく動く筋肉のためきめはやや粗いが、そのぶんコクの強い味わいを持つ。噛むごとに肉の旨みが濃く出るのが持ち味とされる。薄切りにするとサシと赤身の縞模様がはっきり見え、火を通すと縮みにくく食べやすいとされる。煮込み料理では脂がほどよく溶け出し、だしにコクを加える役割も果たすとされる。\n## どう作るのか\nすき焼き・焼肉・煮込みまで幅広く使われる汎用部位で、薄切りにも塊焼きにも向くとされる。特に霜降りが強く入る部分は「ザブトン」として別に切り出され、残りが肩ロースとして扱われることが多い。厚めに切り分けて焼く場合は、余分な筋を取り除いてから調理すると食感が均一になりやすい。すき焼きでは他の具材と一緒に割り下でさっと煮ることで、脂の甘みが全体になじむとされる。\n## なぜこの形になったのか\nよく動く筋肉ゆえに旨みが濃く、家庭のすき焼きや焼肉で日常的に使われる部位として位置づけられてきたとされる。高級部位のような希少性はないぶん、日々の食卓で牛肉の味を支えてきた部位のひとつとされる。特別な日のごちそうというより、普段の食卓を支える汎用性の高さで評価されてきた部位ともいえる。肩ロースという一つの部位から、ザブトンのような高級部位が切り出される点も、この部位の懐の深さを物語っている。",
+   "body_en": "## What it's made of\nRunning from the shoulder toward the rib roast, with lean and fat in balanced layers. Being a well-worked muscle it's somewhat coarser-grained, but carries a correspondingly strong depth of flavor — richer with every bite, by its nature. Sliced thin, the striped pattern of marbling against lean is easy to see, and it's said to hold its shape well without shrinking too much when cooked. In simmered dishes its fat renders gradually into the broth, said to add a layer of richness to the dashi.\n## How it's made\nA versatile cut used across sukiyaki, yakiniku and simmered dishes, suited to both thin slices and grilling whole. The portion with the heaviest marbling is often cut out separately as chuck flap, leaving the rest to be sold as chuck roll. When cut thicker for grilling, trimming away excess sinew first is said to give a more even texture. For sukiyaki, simmering it briefly alongside the other ingredients in the seasoned broth is said to let its fat sweetness spread through the whole pot.\n## Why it took this shape\nBecause it comes from a hard-working muscle with a deep flavor, it's said to have long held a place as an everyday cut for home sukiyaki and yakiniku. Without the rarity of the premium cuts, it's one of the cuts said to have carried the everyday taste of beef at the family table. Valued less as an occasion-only treat than as a workhorse that carries everyday cooking, its broad versatility is often cited as the reason for its staying power. That a single cut like chuck roll can also yield a premium portion like chuck flap is said to speak to just how much range this part of the animal holds.",
+   "sources": [
+    {
+     "title": "牛肉の部位",
+     "url": "https://www.piif.jmtc.or.jp/ushibui/",
+     "publisher": "公益財団法人日本食肉流通センター",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "chuck-roll",
+     "to_slug": "chuck-flap",
+     "relation_type": "兄弟",
+     "basis": "ザブトンは肩ロースの中でも特に霜降りが入る部分として切り出される、同一部位内の隣接関係。"
+    }
+   ]
+  },
+  {
+   "slug": "rump",
+   "body_ja": "## 何でできているか\n尻に近いもも肉の一部で、赤身が多くきめ細かい肉質を持つ。脂は控えめだが、そのぶん肉そのものの旨みがすっきりと感じられる。もも肉のなかでは比較的柔らかく、上品な後味が残るとされる。薄いピンク色の断面が特徴で、脂肪の少なさゆえに冷めても硬くなりにくいとされる。もも肉のなかでも特にきめが細かく、赤身の質のよさが前面に出る部位とされる。\n## どう作るのか\n適度な脂があっさりとした旨みを支え、ステーキやローストに向くとされる。隣接するイチボと合わせて一体で切り出し「らんいち」として取引されることもあり、その場合は精肉店で改めて部位ごとに分けられる。厚切りのステーキだけでなく、薄切りにしてたたきやローストビーフにする食べ方も向くとされる。低温でじっくり火を入れると、赤身特有のしっとりとした食感を保ちやすいとされる。\n## なぜこの形になったのか\n赤身の質のよさが評価されるようになった近年、脂の多い部位に偏りがちだった牛肉の楽しみ方のなかで、赤身ならではの味わいを主役にする選択肢として扱われることが増えてきた部位とされる。脂の量よりも肉そのものの質で選ばれる部位として、赤身肉を好む層に支持されてきたとされる。健康志向の高まりとともに、脂肪の少なさそのものが選ばれる理由になってきた部位ともいえる。",
+   "body_en": "## What it's made of\nPart of the round near the hip, mostly lean with a fine texture. Fat is kept to a minimum, which lets the flavor of the meat itself come through clean; among the round cuts it's relatively tender, with a refined finish. Its cross-section is a pale pink, and with so little fat it's said to resist toughening even once it cools. Among the round cuts it's said to be especially fine-grained, letting the quality of the lean meat itself take center stage.\n## How it's made\nIts modest fat supports a light, clean flavor, suiting steaks and roasting. It's sometimes cut out together with the adjoining top sirloin cap and traded as a single unit before being separated back into individual cuts at the butcher. Beyond thick steaks, it's also said to suit thin slices for tataki or roast beef. Cooking it gently at low temperature is said to help it hold onto the moist, tender texture particular to lean meat.\n## Why it took this shape\nAs the quality of lean meat has drawn more attention in recent years, this cut is said to have increasingly been chosen as a way to make lean flavor itself the main event, within a beef culture that had leaned toward fattier cuts. Chosen more for the quality of the meat itself than for fat content, it's said to have found favor among diners who prefer lean beef. As health-consciousness has grown, its low fat content itself is said to have become a reason diners choose it.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "rump",
+     "to_slug": "top-sirloin-cap",
+     "relation_type": "兄弟",
+     "basis": "イチボはランプに続く臀部の部位と自ら説明されており、ランプと解剖学的に隣接する。"
+    }
+   ]
+  },
+  {
+   "slug": "top-sirloin-cap",
+   "body_ja": "## 何でできているか\nランプに続く臀部の部位で、もも肉に分類されながらもサーロインに近い味わいを持つ。適度な霜降りがあり、赤身の弾力と脂の甘みを両方感じられる。もも肉のなかでは異色の存在とされる。断面の中心部ほど霜降りが均一に入り、外側に近づくにつれ赤身の割合が増えるとされる。もも肉に分類されながらロース系の霜降りを併せ持つ、部位のなかでも珍しい組み合わせとされる。\n## どう作るのか\n1頭から取れる量が少なく、希少部位に数えられる。ステーキとして厚切りで提供されることが多く、脂の入り方が均一な中央部分ほど評価が高いとされる。ランプと一体で切り出され「らんいち」として扱われることもある。焼く際は厚みを活かして中心をレアに仕上げると、赤身の弾力と脂の甘みの両方を楽しめるとされる。厚切りのステーキだけでなく、薄切りにして塩やレモンで食べる提供の仕方もあるとされる。\n## なぜこの形になったのか\nもも肉でありながらロース系に近い味わいを持つ性格から、焼肉店やステーキ店で「もも肉なのに贅沢」という位置づけで扱われることが多い部位とされる。希少性から特別なメニューとして名前つきで出されることも多いとされる。ロース系の部位を試したあとに案内される「次の一皿」として扱われることも多い部位とされる。常連客のあいだでは、あえて指名して注文される部位ともいわれる。",
+   "body_en": "## What it's made of\nContinuing from the rump at the hip, this leg cut carries a flavor closer to sirloin despite being classed with the round. Moderately marbled, it offers both the spring of lean meat and the sweetness of fat — an outlier among leg cuts. The center of the cross-section tends to carry the most even marbling, with the proportion of lean meat increasing toward the edges. Classed with the round yet carrying loin-like marbling, it's said to be an unusual combination rarely found elsewhere on the animal.\n## How it's made\nYielded in only a small amount per animal, it's counted among the rarer cuts. Often served thick-cut as steak, the more evenly marbled center portion is said to be prized most; it's sometimes cut out together with the rump and traded as a single unit. Grilling it thick and finishing the center rare is said to let both the spring of the lean and the sweetness of the fat come through. Beyond thick steaks, it's also sometimes served sliced thin with salt or a squeeze of lemon.\n## Why it took this shape\nBecause it carries a loin-like flavor despite being a leg cut, it's often positioned at yakiniku and steak restaurants as a leg cut that still feels like a splurge. Its scarcity means it's often listed by name as a special menu item. It's often suggested as the next dish after guests have tried the loin cuts. Among regulars, it's said to be the kind of cut ordered by name.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "top-sirloin-cap",
+     "to_slug": "tri-tip",
+     "relation_type": "兄弟",
+     "basis": "トモサンカクはランプとイチボの間に位置すると説明されており、イチボと隣接する。"
+    }
+   ]
+  },
+  {
+   "slug": "chuck-flap",
+   "body_ja": "## 何でできているか\n肩ロースの中でも特に霜降りが入る部位で、座布団のような形からこの名がついたとされる。柔らかく、脂の甘みと赤身の旨みが濃厚に絡み合う。肩ロースの中でもっとも霜降りが密な部分とされる。断面は細かい霜降りが均一に広がり、見た目だけでも他の肩ロース部位と区別がつくとされる。口に入れると脂がすっと溶け、赤身の旨みと一体になって広がる感覚が持ち味とされる。\n## どう作るのか\n1頭から取れる量はごくわずかとされ、肩ロースから切り分ける際に特に丁寧な作業が必要とされる。焼肉店では「特上ロース」などの名で別格として出されることが多く、厚切りで焼いて脂の香りを立たせる食べ方が好まれる。焼く際は脂が溶けて煙が出やすいため、火加減をこまめに調整しながら焼く必要があるとされる。厚みは1.5〜2センチ程度に切り分けられることが多く、外は香ばしく中は柔らかく仕上げるのが基本とされる。\n## なぜこの形になったのか\n肩ロースの一部でありながら別格の霜降りを持つことから、焼肉店では通常の肩ロースと切り分けて希少部位として扱われるようになった部位とされる。「一頭からわずかしか取れない」という希少性そのものが、メニュー上の位置づけを決めているとされる。肩ロースという名前だけでは想像しにくい高い評価を持つことから、あえて別名で呼ばれてきた部位ともいえる。",
+   "body_en": "## What it's made of\nA richly marbled portion of the chuck roll, said to be named for its cushion-like (zabuton) shape. Tender, with fat sweetness and lean savoriness intertwined thickly — the densest marbling found anywhere in the chuck roll. Its cross-section shows fine marbling spread evenly enough to set it apart visually from the rest of the chuck roll. On the bite, the fat is said to melt away almost instantly, merging with the lean meat's savoriness in a single sensation.\n## How it's made\nOnly a very small amount comes from each animal, and cutting it out from the chuck roll is said to call for particularly careful work. At yakiniku restaurants it's often served apart, under names like \"premium roll,\" grilled thick to bring out the aroma of its fat. Because its fat renders and smokes easily when grilled, constant adjustment of the heat is said to be needed. It's usually cut into pieces around 1.5-2cm thick, grilled to a browned surface while the center stays tender.\n## Why it took this shape\nDespite being part of the chuck roll, its marbling sets it apart, and yakiniku restaurants are said to have come to cut it out and treat it as a rare item in its own right. The scarcity of yielding so little per animal is said to be what defines its place on the menu. Carrying a reputation the plain name \"chuck roll\" wouldn't suggest, it's said to have earned a separate name of its own as a result.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "chuck-flap",
+     "to_slug": "top-blade",
+     "relation_type": "兄弟",
+     "basis": "ザブトン（肩ロース内）とミスジ（肩甲骨内側）はいずれも肩まわりの希少な霜降り部位で近接する。"
+    }
+   ]
+  },
+  {
+   "slug": "top-blade",
+   "body_ja": "## 何でできているか\n肩甲骨の内側から取れる部位で、1頭から3キログラムほどしか取れない希少部位とされる。霜降りが入りやすく柔らかい肉質を持ち、中心を通る太い筋を境に食感が変わることも知られている。赤身部分はきめが細かく、霜降りの入り方は個体差が大きいとされる。断面には細い脂の筋が糸のように入り込み、他の部位にはない繊細な霜降り模様を描くとされる。\n## どう作るのか\n筋を避けて丁寧にスライスする必要があり、精肉として扱うには手間がかかるとされる。柔らかさと霜降りの両方を活かせるステーキで好まれ、厚切りで焼いて筋の食感の違いも一緒に楽しむ食べ方がある。筋を境に二つの塊に分けてから調理する方法も一般的で、それぞれ異なる食感を楽しめるとされる。1頭からわずかしか取れないため、精肉店では入荷情報を掲示して案内することもあるとされる。\n## なぜこの形になったのか\n取れる量の少なさと、霜降りの入りやすさという二つの条件がそろって初めて商品として成立する部位で、精肉店に日常的に並ぶことは少ないとされる。希少部位を専門に扱う焼肉店で名前つきのメニューとして出されることが多い。取り分ける手間の多さが精肉店での取り扱いを限定的にし、結果として希少部位としての立ち位置を強めてきたとされる。",
+   "body_en": "## What it's made of\nTaken from inside the shoulder blade, said to yield only around 3kg per animal. It marbles readily and stays tender, with texture changing across the thick sinew that runs through its center — a detail well known among those who cut it. The lean portion is fine-grained, and how much it marbles is said to vary considerably between animals. Thread-thin lines of fat run through the cross-section, said to trace a delicate marbling pattern found in no other cut.\n## How it's made\nCareful slicing around the sinew is needed, making it labor-intensive to prepare as a retail cut. Favored for steak, where both its tenderness and marbling come through, it's often grilled thick so the sinew's differing texture can be enjoyed alongside the meat. It's also common to split it into two pieces along the sinew before cooking, each offering a different texture. Because so little comes from each animal, butchers are said to sometimes post a notice when a fresh batch comes in.\n## Why it took this shape\nOnly when its low yield and readiness to marble both hold true does this cut become viable as a product, and it's said to rarely appear at ordinary butcher counters. It's more often listed by name at yakiniku restaurants that specialize in rare cuts. The extra labor of cutting it out is said to have limited how often butchers stock it, reinforcing its standing as a rare cut.",
+   "sources": [
+    {
+     "title": "牛、豚、鶏の部位を徹底解説！お肉丸わかり図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/spe1_02.html",
+     "publisher": "農林水産省 webマガジンaff",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "top-blade",
+     "to_slug": "gyu-kata",
+     "relation_type": "兄弟",
+     "basis": "ミスジは肩甲骨内側、かたは前脚の付け根と、いずれも肩の筋肉群に属する隣接部位。"
+    }
+   ]
+  },
+  {
+   "slug": "tri-tip",
+   "body_ja": "## 何でできているか\nランプとイチボの間に位置する部位で、もも肉の中ではヒレに次ぐ柔らかさとされる。赤身と脂身のバランスがよく、三角形に近い形をしていることが名前の由来とされる。断面は赤身のなかに細かい脂が点在する程度で、もも肉のなかでは比較的華やかな見た目を持つとされる。赤身の弾力と脂の甘みのバランスがよく、もも肉のなかでも特にジューシーな部位とされる。\n## どう作るのか\n焼肉やステーキに使われ、厚切りにしても硬くなりにくいとされる。もも肉の中でも取れる位置が限られるため流通量は多くなく、専門的に扱う精肉店・焼肉店で見られることが多いとされる。厚めのステーキとして焼くほか、薄切りにして焼肉のタレで食べる楽しみ方もあるとされる。中心をレアからミディアムレアに仕上げると、繊維のやわらかさが際立つとされる。\n## なぜこの形になったのか\nもも肉のなかで柔らかさが際立つことから、赤身の旨みを求める客に「もも肉でも硬くない」選択肢として提案されることが多い部位とされる。ランプ・イチボと並んでもも肉の希少部位群を構成しているとされる。ヒレほどの希少性はないものの、もも肉のなかで柔らかさを求める食べ方の入り口として扱われることが多い部位とされる。赤身肉の魅力を手頃な価格で伝えられることから、焼肉店の看板メニューに据えられることもあるとされる。",
+   "body_en": "## What it's made of\nLocated between the rump and the top sirloin cap, said to be the leg's most tender cut after the tenderloin. Well balanced between lean and fat, its name is said to come from its roughly triangular shape. Its cross-section shows only scattered flecks of fat within the lean, giving it a relatively striking look among leg cuts. The balance between the spring of its lean meat and the sweetness of its fat is said to make it an especially juicy cut among leg cuts.\n## How it's made\nUsed in yakiniku and steak, it's said to resist toughening even when cut thick. Because it comes from a limited position within the leg, it doesn't circulate widely and is mostly found at butchers and yakiniku restaurants that handle it specifically. Beyond thick steaks, it's also enjoyed sliced thin and dipped in yakiniku sauce. Finishing the center rare to medium-rare is said to bring out the softness of its fibers most clearly.\n## Why it took this shape\nStanding out for its tenderness among leg cuts, it's often proposed to diners who want lean flavor as \"a leg cut that still isn't tough.\" Alongside the rump and top sirloin cap, it's said to form part of the leg's small group of rare cuts. Without quite the rarity of tenderloin, it's often treated as an entry point for diners looking for tenderness within the leg. Able to deliver the appeal of lean meat at a relatively accessible price, it's sometimes made a signature item on a yakiniku restaurant's menu.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tri-tip",
+     "to_slug": "knuckle",
+     "relation_type": "兄弟",
+     "basis": "トモサンカクとしんたま（knuckle）はいずれももも肉に属し、もも肉のなかで隣接する部位群。"
+    }
+   ]
+  },
+  {
+   "slug": "bottom-flap",
+   "body_ja": "## 何でできているか\nばら肉のなかでもヒレに近い位置にある部位で、赤身の歯応えを持ちながら柔らかい。さっぱりとした上品な甘みがあり、ばら肉特有の脂っぽさは控えめとされる。断面は赤身が主体で脂は控えめに入り、見た目にもばら肉の他の部位とは違う印象を与えるとされる。厚みのある赤身層に細い脂がすじ状に入り、噛むと繊維のあいだから上品な甘みがにじむとされる。\n## どう作るのか\n1頭から取れる量が少なく、精肉店でもあまり見かけないとされる。焼肉では厚切りで焼き、赤身の食感を活かす食べ方が好まれる。ばら肉の一部として扱われながらも、脂身より赤身の性格が強い部位とされる。焼く際は火を通しすぎると硬くなりやすいため、短時間でレアからミディアムに仕上げるのが向くとされる。1頭から数百グラム程度しか取れないとされ、まとめて仕入れることが難しい部位ともいわれる。\n## なぜこの形になったのか\nばら肉に分類されながら脂が少なく上品な味わいを持つという意外性から、焼肉店では「隠れた人気部位」として名前つきで出されることが多い部位とされる。カルビのような脂の濃さを求めない客にも提案しやすい位置づけとされる。知名度の低さゆえに精肉店では他の部位と一緒にまとめて販売されることも多いとされる。名前を知らずに食べて、その柔らかさに驚く客も少なくないとされる。",
+   "body_en": "## What it's made of\nSitting within the flank close to the tenderloin, it has the chew of lean meat yet stays tender. A light, refined sweetness comes through, with less of the fattiness typical of flank cuts. Its cross-section is mostly lean with only modest fat, giving it a different look from the rest of the flank. Thin streaks of fat run through its thick lean layer, said to release a refined sweetness from between the fibers as it's chewed.\n## How it's made\nYielded in only a small amount per animal, it's said to be rarely seen even at butchers. At yakiniku it's grilled thick to make the most of its lean texture — part of the flank in classification, but leaner in character than fatty. Because it toughens quickly if overcooked, a short sear to rare or medium is said to suit it best. Only a few hundred grams are said to come from each animal, making it hard for shops to stock in bulk.\n## Why it took this shape\nBecause it's classed with the flank yet carries a refined, low-fat flavor, it's often listed by name at yakiniku restaurants as a \"hidden favorite.\" It's said to be an easy recommendation for diners who don't want the heavy fattiness of short rib. Given how little-known it is, butchers often sell it bundled together with other cuts rather than on its own. Diners who eat it without knowing its name are said to often be surprised by how tender it is.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "bottom-flap",
+     "to_slug": "beef-shank",
+     "relation_type": "対比",
+     "basis": "カイノミは脂の少ない柔らかい赤身、スネは筋の多い硬い赤身と、同じ赤身でも対照的な食感を持つ組み合わせ。"
+    }
+   ]
+  },
+  {
+   "slug": "beef-short-rib",
+   "body_ja": "## 何でできているか\n肋骨の間から取れるばら肉で、赤身と脂が層になって重なる。焼肉の「カルビ」は本来この部位を指す語とされ、噛むほどに脂のコクと赤身の旨みが濃く広がる。肋骨1本ごとに厚みや脂の入り方が異なり、部位のなかでも個体差が出やすいとされる。骨に近い側ほど脂が厚く、骨から離れるにつれて赤身の割合が増えていくとされる。\n## どう作るのか\n骨付きのまま扱われる部分は「タテバラ」とも呼ばれ、骨からそいだ部分は薄切りにして焼肉用に流通することが多い。脂が多いぶん強火で表面をしっかり焼くと香ばしさが際立つとされる。焼肉店では厚みを均一にそろえて提供されることが多く、家庭では自分で好みの厚さに切り分けることもできる。脂が多い分、焼く際に煙と炎が上がりやすく、目を離さずに焼き加減を見極める必要があるとされる。\n## なぜこの形になったのか\n焼肉の代名詞である「カルビ」は本来この部位を指す語とされ、日本の焼肉文化の成立そのものと深く結びついてきた部位とされる。ばら肉の中でも脂の濃さが際立つことから、赤身中心のヒレやサーロインとは対照的な味わいの代表として語られることが多い。焼肉店のメニューで「カルビ」と表記される部位は店によって解釈に幅があり、必ずしもこの部位だけを指すとは限らないともされる。",
+   "body_en": "## What it's made of\nMeat from between the ribs. \"Karubi,\" the familiar yakiniku term, is said to have originally referred to this cut — lean and fat in layers, richer with every bite as fat's depth and lean savoriness build together. Thickness and marbling vary rib by rib, making this one of the more individually variable cuts. The fat runs thicker near the bone and gives way to more lean meat further from it.\n## How it's made\nThe portion left bone-in is also called \"tatebara,\" while meat pared from the bone is usually sliced thin for yakiniku. With its higher fat content, searing the surface hard over high heat is said to bring out the aroma most. Yakiniku restaurants usually cut it to an even thickness, while at home cooks can slice it as thick as they like. With so much fat, smoke and flame flare up easily on the grill, and watching it closely to judge doneness is said to be essential.\n## Why it took this shape\n\"Karubi,\" the word synonymous with yakiniku, is said to have originally referred to this cut, tying it closely to the formation of Japan's yakiniku culture itself. Standing out among flank cuts for its rich fat, it's often cited as the opposite extreme from lean cuts like tenderloin or sirloin. Restaurants vary in what they mean by \"karubi\" on the menu, and it's said not to always refer strictly to this cut alone.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "beef-short-rib",
+     "to_slug": "bottom-flap",
+     "relation_type": "兄弟",
+     "basis": "カイノミはばら肉のなかでもヒレに近い位置にあるとされ、バラ（カルビ）と同じばら肉のグループに属する隣接部位。"
+    }
+   ]
+  },
+  {
+   "slug": "beef-shank",
+   "body_ja": "## 何でできているか\n前脚・後脚の運動量が多い部位で、筋やスジが多く硬めの肉質を持つ。噛み応えのある繊維質な赤身で、脂はほとんど入らないとされる。断面には白い筋が網目状に走り、赤身の色も他の部位よりやや濃いとされる。骨に近い中心部には骨髄が詰まり、煮込むととろけるような食感を加えるとされる。英語では「シン」と呼ばれることもあり、煮込み料理全般で使われる部位とされる。\n## どう作るのか\n長時間煮込むとスジのコラーゲンが溶け出し、とろりとしたゼラチン質に変わる。シチューやスープに向くとされ、前脚側は特に柔らかく焼肉としても提供される。角切りや塊のまま煮込むことが多い部位とされる。圧力鍋を使うと短時間でも柔らかく仕上げられるとされ、家庭料理でも扱いやすい部位とされる。厚めの輪切りにした「マルスネ」は骨の断面が見える形で流通し、煮込むと骨からも旨みが溶け出すとされる。\n## なぜこの形になったのか\n硬さゆえに焼く料理には向かないが、煮込むほどに旨みが増す性質から、洋食のビーフシチューや中華の紅焼牛肉など、時間をかけて煮る料理の定番として位置づけられてきたとされる部位。煮込むほど旨みが増す性質から、時間をかけられる家庭料理の定番として根づいてきた部位ともいえる。手間のかかる硬い部位を長時間かけておいしく食べる工夫は、洋の東西を問わず共通する知恵ともいえる。",
+   "body_en": "## What it's made of\nFrom the hard-working fore and hind legs, dense with sinew and firmer in texture — a fibrous, chewy lean cut carrying almost no fat. Its cross-section is crossed with a web of white sinew, and the lean meat runs a slightly deeper red than most other cuts. Its center, near the bone, is packed with marrow said to add a melting richness once simmered. In English it's sometimes just called \"shin,\" a cut used across simmered dishes generally.\n## How it's made\nLong simmering melts the sinew's collagen into a rich, silky gelatin, suiting stews and soups; the foreleg portion is tender enough to grill. It's most often cubed or simmered whole. A pressure cooker can tenderize it in far less time, making it manageable for home cooking too. Cut into thick rounds that show the bone's cross-section, it's sold as \"maru-sune,\" and simmering it is said to draw flavor out of the bone itself.\n## Why it took this shape\nToo firm for quick grilling, but its flavor deepens the longer it simmers, and it's said to have become a staple of long-braised dishes — Western-style beef stew, Chinese red-braised beef — wherever slow cooking is called for. Its flavor deepening the longer it simmers is said to have made it a staple of home cooking, where time can be spared. The wisdom of taking a tough, labor-intensive cut and slow-cooking it into something delicious is said to be one shared across cuisines East and West.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "beef-shank",
+     "to_slug": "oxtail",
+     "relation_type": "兄弟",
+     "basis": "スネとテールはともに筋の多い硬い部位で、長時間煮込んでゼラチン質を活かす調理法を共有する定番の組み合わせ。"
+    }
+   ]
+  },
+  {
+   "slug": "beef-neck",
+   "body_ja": "## 何でできているか\n首筋にあたる部位で、頭を支えるためによく動く筋肉のため肉質は硬めだが、コクと旨みが強い。赤身の風味が濃く、脂は少ないとされる。断面は繊維がはっきりと見えるほど筋張っており、赤身の色も濃いとされる。他の部位に比べて水分が少なく引き締まった質感を持ち、加熱すると身が締まりやすいとされる。見た目にも赤身の割合が高く、脂肪の少なさが一目でわかる部位とされる。\n## どう作るのか\n硬さゆえに薄切りやひき肉、加工用として使われることが多く、精肉としてそのまま店頭に並ぶことは少ないとされる。コンビーフなどの加工品の原料として使われる例もある。圧力鍋や長時間の煮込みで筋を柔らかくしてから使う調理法が一般的とされる。細かく刻んでハンバーグや煮込みハンバーグのタネに混ぜ込むと、コクを底上げする隠し味としても使われるとされる。\n## なぜこの形になったのか\n硬いが旨みが強いという性質から、形をそのまま活かす料理より、ひき肉や煮込み・加工品にして旨みだけを取り出す料理と結びつきやすい部位とされる。精肉としての知名度は低いが、加工品を通じて日常的に口にされてきた部位ともいえる。目立たない部位でありながら、加工品を通じて日常的な牛肉の消費を下支えしてきたともいえる。精肉店の店頭で名前を目にする機会は少なくても、ひき肉やスープの旨みの陰にこの部位があることは少なくないとされる。",
+   "body_en": "## What it's made of\nFrom the neck, a muscle in constant motion to support the head — firmer in texture but rich in flavor, with a deep lean savoriness and little fat. Its cross-section shows fibers visibly enough to look sinewy, with a deep-colored lean meat to match. It holds less moisture than most cuts and firms up tight, a texture said to become more pronounced with heat. Visually, too, its high proportion of lean meat makes its low fat content obvious at a glance.\n## How it's made\nIts toughness means it's mostly used sliced thin, ground, or processed, and rarely appears as a retail cut on its own; it's also used as a raw material in products like corned beef. A pressure cooker or long simmer to soften the sinew before use is said to be the common approach. Finely chopped and mixed into hamburg steak or meatloaf, it's said to work as a hidden flavor booster underneath the dish.\n## Why it took this shape\nBeing tough yet richly flavored, this cut is said to suit dishes that extract its savoriness — ground, simmered, or processed — more than ones that showcase its shape. Little known as a retail cut, it may still be one people encounter often through processed products. Unglamorous as a cut, it may still have quietly supported everyday beef consumption through processed products. Rarely seen by name at the butcher counter, it's said to often be quietly at work behind the richness of ground meat or a good broth.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "beef-neck",
+     "to_slug": "hoho-niku",
+     "relation_type": "対比",
+     "basis": "ネックとホホニクはいずれもよく動く硬めの筋肉でコクが強いが、精肉として扱われるネックと、もっぱら煮込みに使われるホホニクという編集上の並置。"
+    }
+   ]
+  },
+  {
+   "slug": "gyutan",
+   "body_ja": "## 何でできているか\n牛の舌にあたる部位で、1頭から取れる量は2キログラムほどとごくわずかとされる。根元は脂がのって柔らかく、先端に向かうほどやや硬くなる、部位のなかでも珍しい構造を持つ。断面は根元と先端で色合いも異なり、ひとつの部位のなかで最も食感の幅が広いとされる。1頭の牛から取れるタンはひとつだけで、そのなかでも食用にできる範囲はさらに限られるとされる。\n## どう作るのか\n薄切りにして塩で焼く「牛タン塩焼き」が定番の食べ方として知られる。表面の硬い皮を取り除く下処理に手間がかかり、厚みのある根元側は厚切りにして焼くことでコリッとした食感を楽しむ。先端に近い薄い部分は柔らかく仕上がりやすいため、根元と分けて調理されることも多いとされる。麦飯とテールスープを添えた牛タン定食の組み合わせは、多くの専門店で共通する定番の形とされる。\n## なぜこの形になったのか\n薄切りにして塩でじっくり焼くという食べ方は、仙台の牛タン専門店文化を通じて広まったと伝わり、今では牛タンといえば仙台、というほど地域の食を代表する存在になっている部位とされる。1頭からわずかしか取れない希少性も、専門店で特別に扱われる部位という位置づけを後押ししてきたとされる。焼き台の煙とともに提供される牛タン定食は、旅先で食べる特別な一皿として知られるようになったともされる。",
+   "body_en": "## What it's made of\nThe tongue, said to be yielded in only around 2kg per animal — an unusually structured cut where the base is fattier and soft, and the meat firms up gradually toward the tip. Base and tip differ even in color, making this cut said to span the widest range of texture found in any single part. Only one tongue comes from each animal, and the portion usable for food is said to be smaller still.\n## How it's made\nThin-sliced and salt-grilled as \"gyutan-jio\" is the best-known style. Removing the tough outer skin takes careful prep, and the thicker base portion is cut thick and grilled for a firm, springy bite. The thinner portion near the tip cooks up tender easily, and is often prepared separately from the base. A gyutan set meal served with barley rice and oxtail soup is said to be the standard combination shared across many specialty restaurants.\n## Why it took this shape\nThe style of thin-slicing and slow salt-grilling gyutan is said to have spread through Sendai's specialty restaurants, and today the tongue is closely tied to the city — enough that many think of the two together. Yielding so little per animal is also said to have reinforced its status as a special cut, handled at dedicated shops. Served with the smoke still rising from the grill, a gyutan set meal is said to have become something of a special dish sought out while traveling.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gyutan",
+     "to_slug": "buta-tan",
+     "relation_type": "対比",
+     "basis": "同じ「タン」という名を持つ牛と豚の舌を並置し、牛タンは仙台の専門店文化と結びつく点が対照される。"
+    }
+   ]
+  },
+  {
+   "slug": "harami",
+   "body_ja": "## 何でできているか\n横隔膜のうち肋骨側の部位。見た目や食感は赤身肉に近いが、内臓に分類される。肉厚でジューシーな脂を持ち、噛むと肉汁がしっかりあふれるとされる。断面は赤身に近い色合いで脂が細かく入り、見た目だけでは正肉と見分けがつきにくいとされる。1頭の牛から取れる量は数キログラム程度とされ、正肉に比べると流通量は限られるとされる。\n## どう作るのか\n焼肉では厚切りにして焼くことが多く、脂を落としすぎない中火でじっくり焼くとジューシーさが保たれるとされる。サガリと隣り合う部位だが、流通量はハラミのほうが多いとされる。筋に沿って切り分けると口当たりが良くなるとされ、切り方ひとつで食感が変わる部位ともいわれる。強火で短時間焼き上げると表面が香ばしくなり、内側のジューシーさが保たれるとされる。\n## なぜこの形になったのか\n見た目は赤身肉に近いのに内臓として扱われることから、正肉より手頃な価格で提供されることが多く、焼肉店で幅広い客層に親しまれる定番部位として位置づけられてきたとされる。ホルモンのなかでも特に流通量が多く、知名度の高い部位とされる。内臓でありながら赤身肉のように扱われる特殊な立ち位置が、幅広い客層に受け入れられてきた理由のひとつとされる。焼肉店では正肉と並ぶ定番の一枚として、赤身のように噛める柔らかさが好まれるとされる。",
+   "body_en": "## What it's made of\nThe rib-side portion of the diaphragm. It looks and chews like lean meat but is classed as offal — thick-cut and juicy, with juices that spill out readily on the bite. Its cross-section is close in color to lean meat, with fine flecks of fat that make it hard to distinguish from a proper cut by sight alone. Only a few kilograms are said to come from each animal, a smaller supply than proper cuts.\n## How it's made\nAt yakiniku it's usually cut thick and grilled; cooking it slowly over medium heat without rendering out too much fat is said to keep it juicy. It sits next to sagari on the diaphragm, though it's said to reach the market in greater volume. Slicing it along the grain is said to improve the bite, texture shifting noticeably with how it's cut. A quick sear over high heat is said to brown the surface while keeping the inside juicy.\n## Why it took this shape\nBecause it looks like lean meat yet is classed as offal, it's often priced more affordably than proper cuts, and is said to have become a familiar staple with broad appeal at yakiniku restaurants. Among offal cuts it's said to be especially well distributed and widely known. Its odd position — offal treated like lean meat — is said to be part of why it has found such broad appeal. At yakiniku restaurants it sits alongside the regular cuts as a standard order, prized for a tenderness that eats almost like lean meat.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "harami",
+     "to_slug": "sagari",
+     "relation_type": "兄弟",
+     "basis": "ハラミとサガリはいずれも横隔膜に属する隣接部位で、ハラミは肋骨側、サガリはその隣に位置する。"
+    }
+   ]
+  },
+  {
+   "slug": "sagari",
+   "body_ja": "## 何でできているか\n横隔膜のうちハラミと隣り合う部位。見た目はよく似るが脂は控えめで、赤身らしいさっぱりとした味わいを持つ。ハラミより淡白でクセの少ない食感とされる。断面はハラミよりもやや赤みが強く、脂の網目も控えめとされる。横隔膜のなかでも背中側に近い位置にあり、ハラミよりも筋肉らしい引き締まった質感を持つとされる。流通量の少なさから、精肉店でも入荷が不定期になりやすい部位とされる。\n## どう作るのか\n流通量はハラミより少なく、精肉店や焼肉店でも見かける機会が限られるとされる。厚切りで焼く食べ方はハラミと共通するが、脂が少ないぶん焼きすぎには注意が必要とされる。短時間でさっと焼き上げると、赤身らしい弾力のある食感を楽しめるとされる。厚みは1センチ前後に切り分けられることが多く、火を通しすぎないよう見極めが必要とされる。\n## なぜこの形になったのか\nハラミと隣り合いながら流通量の少なさゆえに「知る人ぞ知る」部位として扱われることが多く、焼肉店では両方を食べ比べるメニューが組まれることもあるとされる。同じ横隔膜でも脂の量で味わいが分かれる好例とされる。同じ横隔膜でありながら脂の量で評価が分かれる点が、部位選びの奥深さを示す例として語られることもある。ハラミの陰に隠れがちだが、脂を控えたい客からは積極的に選ばれる部位ともいわれる。",
+   "body_en": "## What it's made of\nAdjacent to harami on the diaphragm and similar in look, but with less fat and a leaner, lighter flavor — a plainer, milder bite than its neighbor. Its cross-section runs slightly redder than harami's, with a sparser web of fat. It sits closer to the back within the diaphragm than harami does, giving it a firmer, more muscle-like texture. Its scarcer supply is also said to make it arrive irregularly even at the butcher.\n## How it's made\nIt's said to reach the market in smaller quantities than harami and is harder to find at butchers and yakiniku restaurants alike. It's grilled thick the same way as harami, but with less fat, care is needed not to overcook it. A quick sear over high heat is said to bring out the springy, lean-like bite it's known for. It's usually cut about a centimeter thick, and judging the moment before it overcooks is said to take some care.\n## Why it took this shape\nSitting right next to harami yet scarcer in supply, it's often treated as an insider's cut, and some yakiniku restaurants offer the two side by side for comparison. It's cited as a clear example of how fat content alone can split the flavor of the same muscle. That two neighboring parts of the same muscle can be judged so differently by fat content alone is often cited as a lesson in how nuanced cut selection can be. Overshadowed by harami, it's said to be actively sought out by diners who prefer to keep the fat content down.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sagari",
+     "to_slug": "mino",
+     "relation_type": "対比",
+     "basis": "赤身に近く淡白なサガリと、厚みがありコリコリとした食感のミノは、同じ内臓肉でも食感が対照的な組み合わせ。"
+    }
+   ]
+  },
+  {
+   "slug": "mino",
+   "body_ja": "## 何でできているか\n4つある牛の胃のうち最も大きい第一胃。切り開いた形が蓑に似ることが名前の由来とされる。厚みがありコリコリとした歯応えで、味は淡白とされる。厚みは部位によって差があり、脂を挟んだ部分ほど食べ応えが増すとされる。4つの胃のなかでもっとも容量が大きく、牛が最初に食べたものを一時的にためる役割を持つとされる。\n## どう作るのか\n下処理として内側の黒い膜を取り除いてから調理される。焼肉では厚切りにして焼き、脂を挟んだ厚い部分は「ミノサンド」として区別して扱われる。淡白な味を活かして味噌だれで食べることも多いとされる。下茹でしてから焼く二段階の調理を経ることで、臭みを抑えつつ食感を活かせるとされる。厚みのある部分は「ミノサンド」、薄い部分は「上ミノ」として分けて呼ばれることもあるとされる。\n## なぜこの形になったのか\nレバーのような濃厚な内臓とは対照的に、ミノは脂も少なく淡白で、内臓肉のなかでも食感を楽しむ部位として位置づけられてきたとされる。ホルモン焼きの定番として、コリコリとした歯応えを求める客に選ばれることが多い部位とされる。内臓肉のなかでもクセが少なく食べやすいことから、ホルモン初心者にすすめられることが多い部位ともされる。厚切りで焼くと満足感が高く、焼肉のコース料理でも定番の一皿として組み込まれることが多いとされる。",
+   "body_en": "## What it's made of\nThe largest of the beef's four stomachs. Its name is said to come from its shape when opened out, resembling a straw raincoat (mino) — thick and firm-textured, with a mild, understated flavor. Thickness varies by section, and the fat-layered portions are said to feel more substantial to eat. The largest of the four stomachs, it's said to serve as a temporary holding chamber for what the animal first swallows.\n## How it's made\nThe dark inner membrane is removed as prep before cooking. At yakiniku it's cut thick and grilled, and the fat-layered thick portion is sold separately as \"mino-sand\"; its mild flavor is often paired with miso-based dipping sauce. A two-step process — pre-boiling, then grilling — is said to tame its odor while keeping its texture intact. The thick, fat-layered portion is called \"mino-sand\" and the thinner portion \"jo-mino,\" sold and named separately.\n## Why it took this shape\nIn contrast to a richly flavored organ like liver, mino is low in fat and mild, said to have found its place among offal cuts as one prized for texture over taste. A staple of grilled offal, it's often chosen by diners after a firm, crunchy bite. With less funk than most offal, it's often the cut recommended first to those new to eating horumon. Grilled thick, it's said to feel satisfying enough to anchor a full-course yakiniku meal on its own.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mino",
+     "to_slug": "gyu-reba",
+     "relation_type": "対比",
+     "basis": "コリコリとした食感で淡白なミノと、なめらかで濃厚な味わいのレバーは、内臓肉のなかでも対照的な食感・味の組み合わせ。"
+    }
+   ]
+  },
+  {
+   "slug": "hachinosu",
+   "body_ja": "## 何でできているか\n牛の第二胃で、内側が蜂の巣状の網目模様になっていることが名前の由来。コラーゲンを多く含み、弾力のある食感とコクのある味わいを持つ。ミノよりやや脂を感じるとされる。網目模様の凹凸が食感に直接影響し、噛むたびに独特の弾力を感じられるとされる。第一胃のミノに続く第二胃で、牛が一度飲み込んだ食べ物を口に戻して噛み直す反芻に関わる胃のひとつとされる。\n## どう作るのか\n下処理に手間がかかるため下茹で済みで売られることが多い。イタリア料理のトリッパのように長時間煮込む食べ方のほか、焼肉では下茹でしたものを軽く炙って食べることもある。下茹でした状態でカットして販売されることが多く、家庭でも扱いやすい内臓肉のひとつとされる。煮込む場合は1時間以上かけることでコラーゲンがとろけ、スープにも深いコクを加えるとされる。\n## なぜこの形になったのか\n4つの胃のなかでミノに続いて知られる部位で、コラーゲン質の食感を楽しむ内臓肉として、もつ煮やもつ鍋の具材としても使われることが多いとされる。ミノからハチノス、センマイ、ギアラへと、胃を順にたどるのが牛のホルモンを知る手がかりとされる。洋の東西を問わず胃袋を煮込む料理があることから、国境を越えて親しまれてきた部位ともいえる。",
+   "body_en": "## What it's made of\nThe beef's second stomach, named for the honeycomb pattern lining its inside. Rich in collagen, with a springy texture and deep flavor — slightly fattier than mino, by comparison. The bumps of its honeycomb pattern shape its texture directly, giving a distinctive springiness with every bite. The second stomach after mino, it's one of the stomachs involved in rumination, where swallowed food is brought back up to be chewed again.\n## How it's made\nBecause prep is laborious, it's usually sold pre-boiled. It's simmered long, much like Italian trippa, and at yakiniku the pre-boiled meat is sometimes lightly seared before eating. It's usually sold pre-boiled and pre-cut, making it one of the more manageable offal cuts for home cooking. Simmering it for over an hour is said to melt its collagen and add real depth to the broth as well.\n## Why it took this shape\nThe second-best-known of the four stomachs after mino, this collagen-rich offal is often used in offal stews and hot pots. Working through the stomachs in order — mino, hachinosu, senmai, giara — is said to offer a way into understanding beef offal as a whole. That stomach-based dishes exist across cuisines East and West is said to speak to how this cut has found favor across cultures.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hachinosu",
+     "to_slug": "mino",
+     "relation_type": "兄弟",
+     "basis": "ハチノス（第二胃）とミノ（第一胃）は牛の4つの胃のうち隣り合う順番の胃で、食べ歩きの導線としても隣接する。"
+    }
+   ]
+  },
+  {
+   "slug": "senmai",
+   "body_ja": "## 何でできているか\n牛の第三胃で、幾重にも重なったヒダの形が名前の由来とされる。脂肪が少なくシコシコとした歯応えがあり、内臓肉のなかでも特にさっぱりとした味わいとされる。ヒダの一枚一枚が薄く、噛むと層が重なった独特の歯応えを感じられるとされる。第三胃にあたり、ヒダの表面積を広げることで消化を助ける役割を持つとされる。牛の胃のなかでも特に複雑な構造を持つとされる。\n## どう作るのか\n黒い表皮を取り除いた白いものが主に流通する。生食や酢の物で食べられることもあり、下処理の丁寧さが食感に直結するとされる。焼肉では軽く炙る程度にとどめることが多い。包丁で細く切り分けて提供されることが多く、見た目の白さと歯切れのよさが評価されるとされる。生で提供する場合は鮮度の管理が特に重要とされ、信頼できる仕入れ先の確保が欠かせないとされる。\n## なぜこの形になったのか\n脂の少なさから内臓肉のなかでは特異な立ち位置にあり、こってりした味を求める焼肉のなかで箸休め的な役割を担うことが多いとされる。刺身や酢の物として食べられる数少ない内臓部位のひとつとされる。脂を求める焼肉のなかであえて脂の少なさを売りにする、逆張り的な位置づけの部位ともいえる。ポン酢やごま油であっさりと味付けする食べ方が多く、素材そのものの歯応えを楽しむ部位とされる。",
+   "body_en": "## What it's made of\nThe beef's third stomach, its name said to come from the many stacked folds inside. Low in fat with a crisp, springy chew — among the plainest-tasting of the offal cuts. Each fold is thin, and the layered ridges are said to give a distinctive, stacked kind of chew. As the third stomach, its folds are said to widen the surface area available for digestion. Among the stomachs, it's said to have an especially intricate structure.\n## How it's made\nThe white version, with its black outer skin removed, is the one mainly sold. It's sometimes eaten raw or dressed with vinegar, and how carefully it's trimmed is said to directly shape its texture; at yakiniku it's often barely seared. It's often served finely sliced with a knife, its whiteness and crisp bite the qualities most prized. When served raw, freshness management is said to matter especially, making a trusted supplier essential.\n## Why it took this shape\nIts low fat sets it apart among offal cuts, and it's often said to serve as a palate cleanser amid the richer flavors of a yakiniku meal. It's one of the few offal cuts eaten raw or dressed with vinegar, more like sashimi than grilled meat. In a genre built around richness, this cut is said to carve out its place by leaning the other way, into leanness. It's often dressed lightly with ponzu or sesame oil, a way of eating said to let the texture of the meat itself come through.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "senmai",
+     "to_slug": "hachinosu",
+     "relation_type": "兄弟",
+     "basis": "センマイ（第三胃）とハチノス（第二胃）は牛の4つの胃のうち隣り合う順番の胃。"
+    }
+   ]
+  },
+  {
+   "slug": "giara",
+   "body_ja": "## 何でできているか\n牛の第四胃で、赤みを帯びた色から「赤センマイ」とも呼ばれる。他の胃に比べて脂を多く含み、噛むほどに甘みのある濃厚な味わいが広がる。断面には脂の層が波打つように広がり、他の胃と見分けやすい特徴とされる。第四胃にあたり、消化液を分泌して食べたものを本格的に分解する役割を持つとされる。人の胃に最も近い働きをする部位ともいわれる。\n## どう作るのか\n下処理でぬめりと臭みを丁寧に取り除く必要があるとされる。焼肉では厚めに切って焼き、脂の甘みを引き出す食べ方が好まれる。他のホルモンに比べ流通量が少なく、扱う店が限られるとされる。下処理を怠ると独特のにおいが残りやすいとされ、専門店ほど下ごしらえに時間をかけるとされる。厚みは1センチ程度に切り分けられることが多く、脂が多いぶん焼くと縮みやすいため火加減の見極めが求められるとされる。\n## なぜこの形になったのか\n4つの胃のなかでもっとも脂を含み、他の3つが淡白・弾力志向であるのに対して濃厚さで異彩を放つ部位とされる。珍重される理由は流通量の少なさと、他の胃では味わえない脂の甘みの両方にあるとされる。同じ牛の胃でも部位によって脂の量が大きく異なることを、身をもって示す部位ともいえる。4つの胃を食べ比べるコースでは、脂の濃さから最後に出される〆の一皿として扱われることもあるとされる。",
+   "body_en": "## What it's made of\nThe beef's fourth stomach, also called \"red senmai\" for its reddish color. Fattier than the other stomachs, with a rich sweetness that builds the more it's chewed. Its cross-section shows fat spreading in wave-like layers, a feature said to distinguish it easily from the other stomachs. As the fourth stomach, it's said to secrete digestive fluids and do the real work of breaking food down. It's sometimes described as the stomach that works most like a human one.\n## How it's made\nCareful prep is needed to remove its sliminess and odor. At yakiniku it's cut thick and grilled to bring out the sweetness of its fat, and it's said to reach the market less often than the other stomachs, handled by fewer shops. Skipping careful prep is said to leave a distinctive odor behind, which is why specialist shops tend to spend more time on it. It's usually cut about a centimeter thick, and with its higher fat content it's said to shrink noticeably on the grill, calling for careful heat control.\n## Why it took this shape\nThe fattiest of the four stomachs, standing out for its richness where the other three lean plain and firm-textured. It's said to be prized for two reasons together: its scarcity, and a fatty sweetness the other stomachs simply don't offer. It stands as living proof of just how much fat content can differ between one stomach and the next, even within the same animal. On a course that samples all four stomachs, its richness is said to make it the natural choice to close things out.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "giara",
+     "to_slug": "senmai",
+     "relation_type": "兄弟",
+     "basis": "ギアラ（第四胃）とセンマイ（第三胃）は牛の4つの胃のうち隣り合う順番の胃。"
+    }
+   ]
+  },
+  {
+   "slug": "gyu-reba",
+   "body_ja": "## 何でできているか\n牛の肝臓で、鉄分やビタミンを豊富に含む。新鮮なものは臭みが少なく、なめらかな舌触りとほろ苦さが混じる独特の味わいを持つとされる。断面はなめらかで、包丁を入れるとねっとりとした質感が伝わるとされる。新鮮なものは表面につやがあり、弾力を指で確かめて鮮度を見極めることもあるとされる。重さは1頭あたり数キログラムに及ぶ大きな臓器とされる。\n## どう作るのか\n焼き加減や下処理によって食感が大きく変わるとされ、表面を強火でさっと焼いて中をレアに近い状態で仕上げる食べ方が好まれる。かつては生食もされたが、現在は加熱調理が前提とされている。水にさらして血抜きをする下処理が味を大きく左右するとされ、丁寧さが臭みの少なさに直結する。牛乳に浸けて臭みを和らげる下処理法も家庭では知られており、焼く直前によく拭き取ることが勧められるとされる。\n## なぜこの形になったのか\n濃厚な味わいと独特の食感を持つ内臓として、コリコリとしたミノなど他のホルモンとは対照的な存在として語られることが多い部位とされる。加熱前提となった現在も、鉄分を補う食材として焼肉のメニューに欠かせない位置づけを保っている。生食が一般的だった時代の記憶を残しつつ、現在は加熱調理の技術によって味わいを引き出す部位となっている。厚切りにして表面だけ強火で炙る「レバ刺し風」の焼き方も、その名残として親しまれているとされる。",
+   "body_en": "## What it's made of\nThe beef's liver, rich in iron and vitamins. When fresh it carries little odor, with a smooth texture and a distinctive flavor that mixes gentle bitterness with richness. Its cross-section is smooth, and cutting into it reveals a dense, almost sticky texture. Fresh liver is said to have a glossy surface, and its firmness underfoot the finger is one way to judge freshness. It's a substantial organ, said to weigh several kilograms in a single animal.\n## How it's made\nIts texture is said to change greatly with how it's trimmed and cooked; searing the surface hard over high heat while leaving the center close to rare is a favored approach. It was once eaten raw but is now cooked before serving. Soaking it in water to draw out blood is said to shape the flavor considerably, with careful prep translating directly into less odor. Soaking it in milk to soften its odor is also a well-known home technique, with a thorough pat-dry before grilling recommended.\n## Why it took this shape\nAs an organ with a rich flavor and distinctive texture, it's often discussed as the opposite of firmer-textured offal like mino. Even now that it's cooked before serving, it holds an essential place on the yakiniku menu as a source of iron. It carries an echo of the era when it was commonly eaten raw, while today's cooking techniques are what draw its flavor out instead. Cutting it thick and searing just the surface over high heat, in a style reminiscent of raw liver, is said to remain a favored way to eat it.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gyu-reba",
+     "to_slug": "buta-reba",
+     "relation_type": "対比",
+     "basis": "同じ「レバー」という名を持つ牛と豚の肝臓を並置。牛レバーは加熱調理が前提となった経緯を持つ。"
+    }
+   ]
+  },
+  {
+   "slug": "gyu-hatsu",
+   "body_ja": "## 何でできているか\n牛の心臓で、脂肪が少なく高タンパクな部位。臭みが少なく、コリコリとした歯切れのよい食感が特徴とされる。厚みのある部分と薄い部分で食感が異なることも知られる。断面は繊維がしっかりしており、噛み切るときにコリッとした音が響くほどの弾力を持つとされる。内部は複数の部屋に分かれた構造をしており、部位によって厚みや食感に差が出るとされる。\n## どう作るのか\n焼肉や串焼きで食べられ、厚切りにして塩やタレで焼く食べ方が一般的とされる。下処理として血の塊を取り除く工程が必要で、丁寧に処理されたものほど臭みが少ないとされる。薄切りにして串に刺し、強火で短時間焼き上げる食べ方が定番のひとつとされる。厚みのある部分は「ハツもと」として区別され、コリコリとした食感がより強く感じられるとされる。\n## なぜこの形になったのか\n脂肪が少なく淡白な内臓として、脂の多いホルモンとバランスを取る位置づけで焼肉のメニューに組み込まれることが多い部位とされる。同じ内臓でも臓器によって脂の量や食感がまったく異なることを示す代表例のひとつとされる。内臓肉のなかでもクセの少なさから、ホルモンが苦手な人にもすすめられることが多い部位とされる。高タンパクで脂肪が少ないことから、健康志向の客に選ばれることも増えているとされる。",
+   "body_en": "## What it's made of\nThe beef's heart, low in fat and high in protein. It has little odor and a crisp, clean bite, and texture is said to vary between its thicker and thinner sections. Its cross-section is firm-fibered enough that biting through it is said to produce an audible, crisp snap. Inside, it's divided into several chambers, and texture and thickness are said to vary by section.\n## How it's made\nEaten grilled or skewered, it's typically cut thick and grilled with salt or sauce. Prep requires removing clots of blood, and the more carefully this is done, the less odor is said to remain. Sliced thin, skewered, and grilled quickly over high heat is one of its standard preparations. The thicker portion, distinguished as \"hatsu-moto,\" is said to deliver an even firmer, crunchier bite.\n## Why it took this shape\nAs a low-fat, plain-tasting organ, it's often positioned on the yakiniku menu to balance out fattier offal cuts. It's cited as a clear example of how much fat content and texture can vary between different organs, even within the same animal. With less funk than most offal, it's often recommended even to those who find other horumon cuts too intense. High in protein and low in fat, it's said to be increasingly chosen by health-conscious diners as well.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gyu-hatsu",
+     "to_slug": "buta-hatsu",
+     "relation_type": "対比",
+     "basis": "同じ「ハツ」という名を持つ牛と豚の心臓を並置。"
+    }
+   ]
+  },
+  {
+   "slug": "marucho",
+   "body_ja": "## 何でできているか\n牛の小腸で、裏返して焼く食べ方から「マルチョウ」の通称で呼ばれる。外側はコリコリとし、噛むと中から脂があふれる食感が持ち味とされる。裏返す作業には手間がかかり、下処理の丁寧さがそのまま焼き上がりの香りに表れるとされる。腸のなかでも脂肪分が多く、焼肉のホルモンのなかでは特にジューシーな部位とされる。厚みも他の腸系ホルモンより太いとされる。\n## どう作るのか\n下処理の丁寧さが味を大きく左右するとされ、余分な脂やぬめりを取り除いてから裏返して焼く。焼肉のほか、もつ鍋や煮込みの具材としても使われる。焼きすぎると脂が抜けてパサつくため、外側が色づく程度で引き上げる焼き方が向くとされる。下処理では塩でもみ洗いしてぬめりを落とす工程が丁寧さの目安になるとされる。小麦粉をまぶしてもみ込む方法も、ぬめり取りの一環として知られている。\n## なぜこの形になったのか\n屠場周辺で古くから内臓肉が食べられてきたなかで、小腸は脂の多さから焼くとジューシーに仕上がる部位として好まれ、ホルモン焼きの定番のひとつになってきたとされる。大腸（シマチョウ）と並び、腸系のホルモンを代表する部位とされる。脂の量ゆえに好みが分かれる部位でもあり、焼肉店では一皿の量を控えめに提供することもあるとされる。下処理の丁寧さが味に直結するため、扱いの良し悪しが店の評価につながる部位ともいわれる。",
+   "body_en": "## What it's made of\nThe beef's small intestine, commonly called \"marucho\" from the way it's turned inside-out before grilling. Firm outside, with fat that bursts through on the bite. Turning it inside-out takes real effort, and how carefully that prep is done is said to show directly in the aroma once it's grilled. Fattier than the other intestinal cuts, it's said to be one of the juiciest items among grilled offal.\n## How it's made\nHow carefully it's trimmed is said to make or break its flavor — excess fat and sliminess removed before it's turned inside-out and grilled. Beyond yakiniku, it's also used in offal hot pots and braises. Overcooking renders out the fat and leaves it dry, so pulling it off the grill as soon as the outside colors is said to suit it best. Prep is said to be judged by whether it's been rubbed with salt and rinsed thoroughly to remove sliminess. Dusting it with flour before rubbing is also a known technique for working the sliminess loose.\n## Why it took this shape\nAmid a long tradition of eating offal around slaughterhouses, the small intestine is said to have been favored for its high fat content, which grills up juicy — a staple of grilled offal ever since. Alongside the large intestine, it's said to represent the intestinal offal cuts. Its fat content divides opinion, and some yakiniku restaurants are said to serve it in smaller portions as a result. It's also said to run thicker than the other intestinal offal cuts.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "marucho",
+     "to_slug": "shimacho",
+     "relation_type": "兄弟",
+     "basis": "マルチョウ（小腸）とシマチョウ（大腸）はいずれも牛の腸に属する隣接部位。"
+    }
+   ]
+  },
+  {
+   "slug": "shimacho",
+   "body_ja": "## 何でできているか\n牛の大腸で、縞模様の見た目から「シマチョウ」と呼ばれる。小腸より脂は少なめだが厚みがあり、噛みごたえのある食感を楽しめるとされる。断面には縞模様がはっきりと現れ、部位名の由来をひと目で確認できるとされる。小腸に比べて腸壁が厚く、加熱しても縮みにくいのが特徴とされる。もつ焼き店ではシマチョウ単体でメニューに並ぶことも多いとされる。\n## どう作るのか\n小腸同様、下処理で脂とぬめりを丁寧に取り除いてから調理される。焼肉のほか、もつ鍋や煮込みに使われることも多く、長時間煮込むと柔らかくなるとされる。串焼きにする場合は火の通りが均一になるよう、切り込みを入れてから焼くこともあるとされる。もつ鍋では他の具材と一緒に長時間煮込むことで、脂と旨みがスープに溶け出すとされる。\n## なぜこの形になったのか\n小腸（マルチョウ）が脂の多さで人気を集める一方、大腸は厚みのある噛みごたえで別の魅力を持つ部位として、もつ煮やもつ鍋文化のなかで位置づけられてきたとされる。腸系ホルモンの中でも煮込みとの相性がよいとされる部位。小腸に比べて注目されにくいものの、煮込み料理では主役級の存在感を発揮する部位とされる。噛みごたえのある食感は、汁物のなかでも満足感を高める役割を果たしているとされる。",
+   "body_en": "## What it's made of\nThe beef's large intestine, called \"shimacho\" for its striped appearance. Less fatty than the small intestine but thicker, with a satisfying chew. Its cross-section shows the striped pattern clearly enough to confirm the cut's name at a glance. Its intestinal wall is thicker than the small intestine's, and said to resist shrinking much when cooked. It's common enough to appear on its own as a named item at offal-focused yakiniku shops.\n## How it's made\nAs with the small intestine, fat and sliminess are carefully removed in prep before cooking. Beyond yakiniku it's often used in offal hot pots and braises, becoming tender with long simmering. When skewered, scoring it first is said to help it cook through evenly. In offal hot pots, simmering it long alongside the other ingredients is said to let its fat and savoriness dissolve into the broth.\n## Why it took this shape\nWhile the small intestine draws its popularity from richness, the large intestine is said to have found its own appeal for its thick, chewy bite, carving out a place within the offal-stew and hot pot tradition. Among the intestinal cuts, it's said to suit simmered dishes especially well. Less in the spotlight than the small intestine, it's said to take a leading role instead in simmered dishes. Its satisfying chew is said to add heft to a bowl of soup that a thinner cut couldn't provide.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shimacho",
+     "to_slug": "buta-daicho",
+     "relation_type": "対比",
+     "basis": "牛の大腸（シマチョウ）と豚の大腸を並置。"
+    }
+   ]
+  },
+  {
+   "slug": "oxtail",
+   "body_ja": "## 何でできているか\n牛の尾の部位で、骨の周りに筋の多い肉がついている。1頭から取れる長さは50〜60センチほどとされ、部位というより骨付きの塊として扱われる。関節ごとに輪切りにされて流通することが多く、切り口の骨の大きさで部位の位置が推測できるとされる。尾の付け根に近いほど肉付きがよく、先端に近いほど骨と筋の割合が増えるとされる。\n## どう作るのか\n長時間煮込むとゼラチン質が溶けてとろりとした食感になり、スープや煮込みに使われる。骨から肉をこそげ取りながら食べるのが基本の食べ方で、煮込むほど骨からも旨みが出るとされる。アクをこまめに取り除きながら煮込むと、澄んだ味わいのスープに仕上がるとされる。下茹でして余分な脂を落としてから本煮込みに入ると、くどさのない仕上がりになるとされる。\n## なぜこの形になったのか\n硬く筋の多い部位でありながら、じっくり煮込むことで濃厚な出汁と柔らかな肉の両方が得られることから、テールスープやテールシチューなど煮込み料理の主役として定着してきたとされる部位。他の煮込み向き部位と並び、「時間をかけるほど旨くなる」牛肉の代表とされる。洋の東西を問わずテールを使ったスープが存在することも、この部位の実用性の高さを物語っているとされる。骨の断面からのぞく骨髄も、旨みの一部として一緒に味わわれることが多いとされる。",
+   "body_en": "## What it's made of\nThe tail, with meat threaded thick through sinew around the bone. Said to run some 50-60cm per animal, it's handled more as a bone-in whole piece than a conventional cut. It's usually sold cut into rounds at each joint, and the size of the bone in cross-section is said to hint at which part of the tail it came from. Meatier near the base of the tail, it's said to carry more bone and sinew relative to meat toward the tip.\n## How it's made\nLong simmering melts the gelatin into a rich, silky texture, used in soups and stews. Eating it means working the meat off the bone as you go, and the bone itself is said to release more flavor the longer it simmers. Skimming off the scum regularly while it simmers is said to yield a clearer, cleaner-tasting broth. Par-boiling it to remove excess fat before the main simmer is said to result in a cleaner, less heavy finish.\n## Why it took this shape\nThough tough and sinewy, slow simmering draws out both a rich broth and tender meat, and this cut is said to have settled into place as the centerpiece of dishes like oxtail soup and stew. Alongside other slow-cook cuts, it stands as an example of beef that's said to reward patience. That oxtail soup exists in cuisines across East and West is said to speak to just how practical this cut has proven to be. The marrow visible in the bone's cross-section is often eaten right along with the meat as part of the flavor.",
+   "sources": [
+    {
+     "title": "牛の「テール」",
+     "url": "https://www.shijou.metro.tokyo.lg.jp/about/shoku/syokuniku/b-tail",
+     "publisher": "東京都中央卸売市場",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "oxtail",
+     "to_slug": "gyu-kobukuro",
+     "relation_type": "対比",
+     "basis": "テールとコブクロはいずれも1頭あたりの流通量がごくわずかな希少部位という共通点を持つが、骨付き肉の塊と子宮という対照的な部位の組み合わせ。"
+    }
+   ]
+  },
+  {
+   "slug": "gyu-kobukuro",
+   "body_ja": "## 何でできているか\n牛の子宮にあたる部位。牛は一度に1頭しか出産しないため流通量はごくわずかとされる。脂やくせが少なく、コリコリとした弾力のある食感が特徴とされる。断面は白っぽく、脂肪の少なさから見た目にも他の内臓肉と区別がつきやすいとされる。厚みのある壁状の組織で、部位によって弾力の強さにわずかな差があるとされる。表面には細い血管の跡が残ることもあるとされる。\n## どう作るのか\n下処理として余分な脂や膜を丁寧に取り除く必要があり、その丁寧さが味に直結するとされる。焼肉では薄切りにして軽く炙る食べ方が多く、加熱しすぎると硬くなりやすいとされる。薄くそぎ切りにして焼くことで、コリコリとした食感をより強く感じられるとされる。塩や柚子胡椒などさっぱりとした薬味と合わせる食べ方が好まれるとされる。\n## なぜこの形になったのか\n1頭から取れる量が極めて少ないことから、ホルモンのなかでも特に希少な部位として扱われ、専門店でのみ扱われることが多いとされる。似た食感のマメ（腎臓）と並び、「知る人ぞ知る」内臓肉の代表格とされる。妊娠した個体からしか取れないという性質そのものが、希少性を裏付ける根拠として語られることが多い。同じ理由でマメ以上に入荷が不定期になりやすく、常時メニューにある店は限られるとされる。",
+   "body_en": "## What it's made of\nThe uterus. Since cattle typically bear only one calf at a time, the amount reaching market is said to be very small — low in fat and odor, with a firm, springy bite. Its cross-section is whitish, and its low fat content is said to make it easy to tell apart from other offal by sight alone. A thick, wall-like tissue, it's said to vary slightly in firmness from one section to the next. Traces of fine blood vessels can sometimes be seen on its surface as well.\n## How it's made\nCareful trimming of excess fat and membrane is needed in prep, and how thoroughly it's done is said to shape the flavor directly. At yakiniku it's usually sliced thin and lightly seared, since overcooking toughens it quickly. Sliced thin and grilled, it's said to bring out its firm, springy texture even more. It's often paired with light, refreshing condiments like salt or yuzu-kosho.\n## Why it took this shape\nBecause so little comes from each animal, it's treated as one of the rarest offal cuts, said to be handled mainly by specialist shops. Alongside kidney, similar in texture, it's cited as a byword for the offal cuts only insiders tend to know. The fact that it can only come from an animal that was pregnant is itself often cited as the basis for its scarcity. For the same reason, its supply is said to be even less predictable than kidney's, and few shops keep it on the menu at all times.",
+   "sources": [
+    {
+     "title": "コブクロとは｜部位・子宮の希少ホルモン・下処理と焼き方を焼肉屋が解説",
+     "url": "https://meatbook.jp/kobukuro/",
+     "publisher": "MEAT BOOK（焼肉専門メディア）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gyu-kobukuro",
+     "to_slug": "buta-kobukuro",
+     "relation_type": "対比",
+     "basis": "同じ「コブクロ」という名を持つ牛と豚の子宮を並置。"
+    }
+   ]
+  },
+  {
+   "slug": "hoho-niku",
+   "body_ja": "## 何でできているか\n牛の頬にあたる部位で、よく動かす筋肉のため肉質は硬め。ゼラチン質を多く含み、脂は少ないが噛むほどに濃い旨みが出るとされる。断面には筋が細かく入り組み、赤身のなかにゼラチン質の層が見えることもあるとされる。常に噛む・すり合わせるといった動きを繰り返す筋肉で、他の部位より繊維が密に詰まっているとされる。\n## どう作るのか\nじっくり煮込むことで硬さが和らぎ、ゼラチン質が溶けて濃厚な旨みが引き出される。1頭から取れる量が少なく、あまり店頭には並ばないとされる。角切りやブロックのまま煮込む料理に使われることが多い。煮込み時間が長いほど繊維がほどけるように柔らかくなり、フォークだけでほぐせる状態になるとされる。赤ワインやデミグラスソースで煮込む洋風の調理と相性がよく、専門店では看板料理になることもあるとされる。\n## なぜこの形になったのか\n硬くて煮込みにしか向かない性質から、洋食のビーフシチューや煮込み料理の食材として扱われることが多い部位とされる。同じく煮込み向きのスネ・テールと並び、「よく動く部位ほど煮込むと旨い」という牛肉の一面を示す部位とされる。手間のかかる部位ではあるが、その手間が味の深さに直結することから根強い支持を持つ部位ともされる。",
+   "body_en": "## What it's made of\nThe cheek muscle, firm from constant use. Rich in gelatin and low in fat, with a savoriness that deepens the more it's chewed. Its cross-section is finely threaded with sinew, and layers of gelatin can sometimes be seen running through the lean. A muscle in constant use for chewing and grinding, its fibers are said to pack more densely than in most other cuts.\n## How it's made\nSlow simmering softens its toughness and melts the gelatin into a rich depth of flavor. Yielded in small amounts per animal, it's said to rarely appear at retail, mostly used cubed or in whole blocks for simmered dishes. The longer it simmers, the more its fibers are said to loosen until it can be pulled apart with just a fork. It pairs well with Western-style braising in red wine or demi-glace, and is said to sometimes become a signature dish at specialty restaurants.\n## Why it took this shape\nToo tough for anything but simmering, it's often used in Western-style beef stew and other braised dishes. Alongside shank and oxtail, other cuts suited to slow cooking, it illustrates a truth about beef: the hardest-working muscles often reward the longest simmer. Labor-intensive as it is, that same effort is said to be exactly what deepens its flavor, earning it a loyal following.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hoho-niku",
+     "to_slug": "oxtail",
+     "relation_type": "対比",
+     "basis": "ホホニクとテールはいずれも硬くゼラチン質に富み長時間煮込む点で共通するが、頬と尾という対照的な部位の組み合わせ。"
+    }
+   ]
+  },
+  {
+   "slug": "gyu-mame",
+   "body_ja": "## 何でできているか\n牛の腎臓で、そら豆に似た形から「マメ」と呼ばれる。脂肪が少なく淡白な味わいで、香りにわずかな独特のクセが残るとされる。断面は表面が滑らかで、そら豆に似た形が切り分ける前からわかるとされる。左右一対で1頭から2つ取れる部位で、表面には薄い膜と細かい脂肪が付着しているとされる。腎臓としての機能上、他の部位に比べて水分を多く含むとされる。\n## どう作るのか\n下処理として表面の皮と白い尿管を取り除いてから調理される。丁寧に下処理をすることで臭みが抑えられるとされ、焼肉では薄切りにして軽く炙る食べ方が多い。薄切りにしたのち塩や香味野菜で下味をつけてから焼く方法も好まれるとされる。半分に割って白い部分を包丁でそぎ落とす下処理が、臭みを抑える一番の決め手とされる。強火で短時間焼き上げると、余計な水分が抜けて味が締まるとされる。\n## なぜこの形になったのか\n淡白な味わいと独特の香りを併せ持つことから、内臓肉のなかでも好みが分かれやすい部位とされる。流通量が少なく、コブクロなど他の希少ホルモンと並んで扱う店が限られるとされる部位。内臓肉のなかでも特に個性が強く、好んで注文する常連客に支えられている部位ともいえる。レバーと並んで栄養価の高さで知られ、あえて意識して注文する客も一定数いるとされる。",
+   "body_en": "## What it's made of\nThe kidney, called \"mame\" (bean) for its shape. Low in fat with a mild flavor, though a faint, distinctive aroma is said to remain. Its surface is smooth, and its bean-like shape is said to be recognizable even before it's cut. Two come from each animal, one on each side, their surface said to carry a thin membrane and fine fat. As a kidney, it's said to hold more moisture than most other cuts.\n## How it's made\nPrep involves removing the surface membrane and white duct before cooking; careful trimming is said to keep odor in check, and at yakiniku it's usually sliced thin and lightly seared. Slicing it thin and seasoning it with salt or aromatics before grilling is also a favored approach. Prep is said to hinge on halving it and trimming away the white portion with a knife, the single biggest step in taming its odor. A quick sear over high heat is also said to drive off excess moisture and tighten the flavor.\n## Why it took this shape\nCombining a mild flavor with a distinctive aroma, it's said to be an offal cut that divides preference more than most. Reaching the market in small quantities, it's said to be handled by a limited number of shops, alongside other rare offal like kobukuro. Distinctive even among offal, it's said to be kept on the menu mainly by regulars who specifically seek it out. Known alongside liver for its nutritional density, it's said to draw a certain number of diners who order it deliberately.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster02.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gyu-mame",
+     "to_slug": "buta-mame",
+     "relation_type": "対比",
+     "basis": "同じ「マメ」という名を持つ牛と豚の腎臓を並置。"
+    }
+   ]
+  },
+  {
+   "slug": "gyu-kata",
+   "body_ja": "## 何でできているか\n前脚の付け根にあたる部位で、よく運動する筋肉のためきめが粗く硬めの肉質を持つ。赤身の旨みは強いが、単体で焼くには不向きとされる。断面は筋が縦横に走り、脂肪はほとんど見られない赤身主体の見た目とされる。前脚の上腕にあたり、体重を支えて絶えず動かす筋肉のため、繊維がひときわ強く発達しているとされる。脂肪の少なさから、ひき肉にすると赤身の風味がまっすぐ出るとされる。\n## どう作るのか\n薄切りや角切りにして、煮込み料理によく使われる。ひき肉や加工品の原料として使われることも多く、精肉としてそのまま店頭に並ぶ機会は他部位より少ないとされる。薄切りにして炒め物に使う場合は、火を通しすぎないよう手早く調理するのが向くとされる。角切りにしてカレーやシチューに使う場合は、30分以上煮込むことで硬さが和らぐとされる。\n## なぜこの形になったのか\n硬さゆえに焼く料理より煮込みや加工に向く性質から、家庭のカレーやシチュー、ひき肉料理を通じて日常的に食べられてきた部位とされる。ネックと並び、目立たないが日々の食卓を支えてきた部位とされる。家庭料理での使用頻度は高いが、精肉として名前を意識されにくい部位のひとつともされる。スーパーでは「切り落とし」や「煮込み用」といった調理法の名前で並ぶことが多く、部位名が前面に出ない典型例とされる。",
+   "body_en": "## What it's made of\nFrom the base of the foreleg, a well-worked muscle with a coarser, firmer texture. Its lean flavor is strong, though it doesn't suit grilling on its own. Its cross-section is crossed with sinew running every which way, giving it a lean look with almost no visible fat. From the upper foreleg, a muscle constantly at work bearing the animal's weight, its fibers are said to be especially well developed. With so little fat, ground into mince it's said to deliver a straightforward lean flavor.\n## How it's made\nSliced thin or cubed, it suits simmered dishes. It's also commonly ground or used in processed products, and said to appear less often as a standalone retail cut than other cuts. When sliced thin for stir-frying, cooking it quickly without overdoing the heat is said to suit it best. Cubed for curry or stew, simmering it for 30 minutes or more is said to soften its toughness.\n## Why it took this shape\nBetter suited to simmering or processing than grilling because of its toughness, this cut is said to have been eaten regularly through home curries, stews and ground-meat dishes. Alongside neck, it's said to be an unglamorous cut that has long supported the everyday table. Common as it is in home cooking, it's said to be a cut whose name rarely gets noticed as a retail item. At the supermarket it's often labeled by preparation — \"trimmings\" or \"for simmering\" — rather than by cut name, a typical example of a part that stays out of the spotlight.",
+   "sources": [
+    {
+     "title": "牛肉の部位",
+     "url": "https://www.piif.jmtc.or.jp/ushibui/",
+     "publisher": "公益財団法人日本食肉流通センター",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gyu-kata",
+     "to_slug": "beef-neck",
+     "relation_type": "兄弟",
+     "basis": "かた（前脚の付け根）とネック（首筋）は前躯でつながる隣接部位。"
+    }
+   ]
+  },
+  {
+   "slug": "knuckle",
+   "body_ja": "## 何でできているか\nもも肉の一部で、脂肪が少なく赤身が中心の部位。きめはやや粗いが、「シンシン」と呼ばれる中心の特にきめ細かい部分もあるとされる。断面は淡いピンク色で、脂肪の少なさから他のもも肉部位よりもさっぱりとした印象を与えるとされる。もも肉の中央に位置し、複数の筋肉が集まってできているため、部位によって筋の向きが異なるとされる。\n## どう作るのか\n薄切りや煮込み、ローストビーフなど幅広い料理に使われる。脂が少ないぶん火を通しすぎると硬くなりやすく、ローストでは低温でじっくり火を入れる方法が向くとされる。薄切りにしてしゃぶしゃぶに使う食べ方もあり、脂が少ないぶんあっさりとした味わいを楽しめるとされる。角切りにしてカレーやシチューに使う場合も、他の部位より短い時間で柔らかくなるとされる。\n## なぜこの形になったのか\n脂肪の少なさから経済的な部位として扱われることが多く、家庭料理での使用頻度が高い部位とされる。同じ赤身でも希少部位として扱われるサーロインなどとは対照的に、日常使いの赤身肉を代表する部位とされる。特別な日のごちそうというより、日々の献立を支える実用的な赤身肉として親しまれてきた部位とされる。切り落としや薄切りパックとして売り場に並ぶことが多く、価格の手頃さも支持される理由とされる。",
+   "body_en": "## What it's made of\nPart of the round, mostly lean with little fat. Somewhat coarse-grained overall, though a finer-grained inner portion is sometimes distinguished as \"shinshin.\" Its cross-section is a pale pink, and its low fat gives it a lighter impression than the other leg cuts. Sitting at the center of the round, it's made up of several muscles meeting together, so the grain is said to run in different directions from section to section.\n## How it's made\nUsed widely — sliced thin, simmered, or roasted for roast beef. With so little fat, it toughens quickly if overcooked, and slow, low-temperature roasting is said to suit it best. It's also sliced thin for shabu-shabu, where its low fat is said to make for a cleaner-tasting bite. Cubed for curry or stew, it's said to soften in less time than most other cuts.\n## Why it took this shape\nValued as an economical cut for its low fat content, it's said to see frequent use in home cooking. Where a cut like sirloin represents lean meat treated as rare and prized, this cut is said to stand for the everyday, workaday side of lean beef. Valued less as a special-occasion treat than as a practical, everyday lean cut, it's said to have long supported the family table. Commonly sold as trimmings or in thin-sliced packs, its affordability is said to be part of why it's stayed a favorite.",
+   "sources": [
+    {
+     "title": "牛肉の部位",
+     "url": "https://www.piif.jmtc.or.jp/ushibui/",
+     "publisher": "公益財団法人日本食肉流通センター",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "knuckle",
+     "to_slug": "sirloin",
+     "relation_type": "対比",
+     "basis": "脂肪が少なく経済的な赤身の代表であるしんたまと、霜降りが入りやすい高級部位サーロインは、日常使いと贅沢を対照させる組み合わせ。"
+    }
+   ]
+  }
+ ]
+}
