@@ -1,0 +1,823 @@
+{
+ "items": [
+  {
+   "slug": "koshihikari",
+   "body_ja": "## 何でできているか\n箸で持ち上げるとひと粒ひと粒がつながるほどの強い粘りがあり、噛みしめるほど甘みがにじみ出るとされる。炊きたての香りが強く艶やかな白さも際立つといい、粒はしっかりして噛みごたえも残るとされる。冷めても粘りと甘みが落ちにくいといい、おにぎりや弁当、寿司飯にも扱いやすい、日本の米の食味の基準とされてきた品種という。\n## どう作るのか\n1956年、福井県農事改良実験所と新潟県農業試験所が「農林22号」を母、「農林1号」を父として交配し育成したとされる。晩生で稈が長く倒れやすいうえ穂発芽もしやすいという栽培の難しさを抱えながら、食味の良さゆえに全国で作り続けられ、あきたこまちやひとめぼれなど後発品種を生む交配親としても広く使われてきたという。高温下でも外観品質を保ちやすい性質も評価されているとされる。\n## なぜこの形になったのか\n名産地とされる新潟県魚沼地方は盆地で、夏の日中はしっかり暑くなる一方、夜は熱帯夜になりにくい寒暖差を持つとされる。昼に葉で作った糖を夜の呼吸で使い切らせにくいこの気候が、粒に甘みを残す一因と考えられている。雪解け水を引いた清らかな水と粘土質の土壌も、粒を太らせる要因とされ、東信地方など内陸の高地栽培でも食味が上がるといわれている。",
+   "body_en": "## What it's made of\nLift a spoonful and the grains cling together with a stickiness said to be hard to match, releasing sweetness with every chew. Freshly cooked, it's said to carry a strong aroma and glossy white sheen while the grains keep a firm bite. Said to hold its stickiness and sweetness even after cooling, it suits onigiri, bento, and sushi rice alike — long treated as the benchmark for Japanese rice flavor.\n## How it's made\nSaid to have been bred in 1956 by a Fukui agricultural improvement institute together with the Niigata Agricultural Experiment Station, crossing 'Norin 22' as the mother with 'Norin 1' as the father. Despite being late-maturing, tall-stemmed, and prone to lodging and pre-harvest sprouting, its superior taste kept it in cultivation nationwide, and it's said to have served as a parent line for later varieties like Akitakomachi and Hitomebore. It's also said to keep its outward quality well even in heat.\n## Why it took this shape\nNiigata's Uonuma basin, said to be its most celebrated growing area, runs hot in the summer daytime yet rarely turns tropical at night — a swing said to keep the plant from burning off the sugar it built during the day. That climate, together with clear snowmelt water and clay-rich soil, is said to be part of what fattens the grain with sweetness, and inland highland plots such as those in Toshin are also said to sharpen the taste.",
+   "sources": [
+    {
+     "title": "コシヒカリ",
+     "url": "https://ja.wikipedia.org/wiki/コシヒカリ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "koshihikari",
+     "to_slug": "akitakomachi",
+     "relation_type": "派生",
+     "basis": "あきたこまちはコシヒカリと奥羽292号を交配して育成された品種で、直接の子にあたる。"
+    },
+    {
+     "from_slug": "koshihikari",
+     "to_slug": "milky-queen",
+     "relation_type": "派生",
+     "basis": "ミルキークイーンはコシヒカリの種子に突然変異原処理を施して選抜した半糯突然変異体で、コシヒカリ由来の品種。"
+    }
+   ]
+  },
+  {
+   "slug": "akitakomachi",
+   "body_ja": "## 何でできているか\nコシヒカリほどねっとりとはせず、あっさりとした甘みのあとに程よい粘りが追いかけてくるとされる。粒はしっかりとして輪郭がはっきりしており、コシヒカリより柔らかすぎない粒感を持つといい、冷めても味が落ちにくいとされる。日々の食卓に上げやすいバランスの良さが持ち味とされ、和食のおかずとも喧嘩しない米という。\n## どう作るのか\n1975年に福井県農業試験場でコシヒカリと「奥羽292号」を交配し、秋田県農業試験場が早熟でコシヒカリの食味特性を受け継ぐ品種を目指して育成したとされる。1984年に秋田県の奨励品種に採用された。晩生のコシヒカリより早く収穫できる熟期に仕立てたことで、後述の冷害リスクを避ける狙いがあったといい、以後全国有数の作付面積を持つ品種となったという。\n## なぜこの形になったのか\n秋田県は北に位置し、コシヒカリの晩生では登熟期が冷え込みに当たりやすいとされる。早熟なあきたこまちはその危険期を避けて実らせられるといい、気候に合わせて熟期を調整した育成が産地を支えたとされる。名は秋田美人の伝説「小野小町」にちなむとされ、県の顔となる米として広く親しまれてきたという。全国のスーパーや外食でも定番として扱われ、コシヒカリに次ぐ知名度を持つ食卓米の代表格とされる。",
+   "body_en": "## What it's made of\nLess densely sticky than Koshihikari, it's said to lead with a lighter sweetness before a moderate stickiness follows. The grains are said to keep a clear, firm shape less soft than Koshihikari's, and to stay tasty when cooled. Its balance is said to make it easy to bring to the everyday table, pairing without overpowering other dishes.\n## How it's made\nSaid to have been crossed in 1975 at a Fukui experiment station from Koshihikari and the line 'Ou 292', then developed by the Akita Agricultural Experiment Station aiming for an early-maturing variety that kept Koshihikari's taste. Adopted as Akita's recommended variety in 1984, its earlier maturity than the late Koshihikari is said to have been meant to dodge the cold-damage risk described below, and it went on to become one of the most widely planted varieties nationwide.\n## Why it took this shape\nAkita sits far enough north that Koshihikari's late ripening is said to run into cold snaps. Akitakomachi's earlier maturity is said to let it ripen before that risk window, with the breeding timed to the region's climate said to have underpinned the local rice industry. Its name is said to nod to the legendary Akita beauty Ono no Komachi, and it's said to have long stood as the face of Akita's rice. It is known for consistently well-regarded eating quality. ",
+   "sources": [
+    {
+     "title": "あきたこまち",
+     "url": "https://ja.wikipedia.org/wiki/あきたこまち",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "akitakomachi",
+     "to_slug": "haenuki",
+     "relation_type": "派生",
+     "basis": "はえぬきの交配親はあきたこまち（秋田31号）と庄内29号で、あきたこまちが直接の親にあたる。"
+    }
+   ]
+  },
+  {
+   "slug": "hitomebore",
+   "body_ja": "## 何でできているか\nコシヒカリ譲りのしっかりした粘りとうまみを持ちながら、あっさりとした後口があるとされる。柔らかめの炊き上がりで、冷めてもおいしさが保たれるといい、食味の評価は「粘りが強く極良」とされる。粒の厚みは1.9ミリ以上をそろえる品質基準を持つという。炊きたての香りも豊かだといい、粒の一つひとつがふっくらとした印象を与えるとされる。\n## どう作るのか\n1982年に宮城県古川農業試験場でコシヒカリと「初星」を交配し、耐冷性を受け継ぐ品種として育成されたとされる。1987年には「東北143号」の地方系統名を得て、1988年の記録的な冷夏でその耐冷性を確かめたのち、1991年に品種登録されたという。宮城県だけでなく東北各県でも奨励品種に採用され、東日本を代表する品種の一つに数えられているという。\n## なぜこの形になったのか\n1993年の記録的な大冷害で東北の稲作は大きな被害を受けたが、ひとめぼれは耐冷性を発揮して被害を抑え、その経済効果は約250億円相当に及んだとも伝わる。あっさりした食味で人気だったササニシキが冷害に弱く作付けを大きく減らしたのに対し、宮城県は耐冷性を優先したこの品種へ転換を進めたとされ、以後東北・関東の広い地域で作られるようになったという。",
+   "body_en": "## What it's made of\nSaid to carry Koshihikari's firm stickiness and umami with a lighter finish behind it. Cooked soft, it's said to stay tasty when cooled, with a taste said to be rated 'strongly sticky and excellent'. Its grain thickness is kept to a standard of 1.9 millimeters or more. Freshly cooked, it's also said to carry a rich aroma, with each grain giving a notably plump impression.\n## How it's made\nSaid to have been crossed in 1982 at Miyagi's Furukawa Agricultural Experiment Station from Koshihikari and 'Hatsuboshi', bred to inherit cold tolerance. Given the local line name 'Tohoku 143' in 1987, its cold hardiness was tested in the record-cool summer of 1988, and the variety was registered in 1991. Adopted as a recommended variety not just in Miyagi but across other Tohoku prefectures as well, it's said to be counted among eastern Japan's leading rice varieties.\n## Why it took this shape\nThe record cold-damage harvest of 1993 hit Tohoku rice farming hard, but Hitomebore is said to have held up thanks to that cold tolerance, an effect once valued at roughly 25 billion yen. Sasanishiki, prized for its light taste, proved vulnerable to cold and saw acreage fall sharply; Miyagi is said to have shifted toward this hardier variety instead, and it later spread across Tohoku and into the Kanto region.",
+   "sources": [
+    {
+     "title": "ひとめぼれ",
+     "url": "https://ja.wikipedia.org/wiki/ひとめぼれ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hitomebore",
+     "to_slug": "koshiibuki",
+     "relation_type": "派生",
+     "basis": "こしいぶきの交配親はひとめぼれとどまんなかで、ひとめぼれが直接の親にあたる。"
+    },
+    {
+     "from_slug": "hitomebore",
+     "to_slug": "yumeshizuku",
+     "relation_type": "派生",
+     "basis": "夢しずくの交配親はキヌヒカリとひとめぼれ（東北143号）で、ひとめぼれが直接の親にあたる。"
+    }
+   ]
+  },
+  {
+   "slug": "hinohikari",
+   "body_ja": "## 何でできているか\nコシヒカリよりひと回り小粒で、粘りと甘みのバランスが取れた食味とされる。粒がしっかりしているぶん歯ごたえも残るといい、暑さの中でも白く濁った未熟粒が出にくく、冷めても味が落ちにくいとされる丼物にも寿司にも使いやすい米という。食味は「極良」で上の中に区分されると評されるとされる。炊飯すると立つ香りも穏やかだといい、九州地方の家庭や飲食店で長く定番として親しまれてきたとされる。\n## どう作るのか\n1989年に宮崎県総合農業試験場でコシヒカリ（越南17号）と「黄金晴（愛知40号）」を交配して育成したとされる。翌1990年に種苗法による品種登録がなされた。西日本の暑さに強い早生〜中生の品種として、九州を中心に中国・四国・近畿の広い地域で奨励品種に採用されてきたという。1990年代以降、東海地方から近畿・中国・四国にかけても栽培が広がり、西日本各地の奨励品種となったという。\n## なぜこの形になったのか\n西日本は夏の登熟期に高温が続きやすく、コシヒカリでは粒が白く濁る高温障害が出やすいとされる。ヒノヒカリはその暑さに耐える性質を受け継いで育成されたといい、九州で最も作付けの多い品種として定着したという。食味の評価が安定していることで知られるという。",
+   "body_en": "## What it's made of\nSomewhat smaller-grained than Koshihikari, it's said to strike a balance between stickiness and sweetness, with a firmer bite from its dense grain. Said to resist the chalky, unripe grains that heat can cause and to keep its flavor when cooled, it suits both donburi and sushi rice, its taste said to be rated 'excellent'. Said to have a mild aroma when cooked, it has long been a household and restaurant staple across Kyushu.\n## How it's made\nSaid to have been bred in 1989 at Miyazaki's general agricultural experiment station by crossing Koshihikari (registered locally as 'Etsunan 17') with 'Koganebare (Aichi 40)', and formally registered as a variety under the Plant Variety Protection Act the following year. An early-to-mid-maturing variety said to tolerate western Japan's heat, it has been adopted as a recommended variety across Kyushu, Chugoku, Shikoku, and the Kinki region. From the 1990s its cultivation is said to have spread from the Tokai region through Kinki, Chugoku, and Shikoku, becoming a recommended variety across much of western Japan.\n## Why it took this shape\nWestern Japan's summers are said to stay hot through the ripening period, a heat that leaves Koshihikari grains chalky. Hinohikari is said to have been bred to inherit heat tolerance instead, and it's said to have become Kyushu's most widely planted variety. It is known for consistently well-regarded eating quality. ",
+   "sources": [
+    {
+     "title": "ヒノヒカリ",
+     "url": "https://ja.wikipedia.org/wiki/ヒノヒカリ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hinohikari",
+     "to_slug": "mori-no-kumasan",
+     "relation_type": "対比",
+     "basis": "ヒノヒカリは宮崎で育成された九州の主力品種、森のくまさんは熊本が独自に育成した挑戦者的なブランド米で、ともに九州の代表品種として対比できる。"
+    }
+   ]
+  },
+  {
+   "slug": "nanatsuboshi",
+   "body_ja": "## 何でできているか\nあっさりとした食味で、和食にも洋食にも合わせやすいとされる。冷めてもおいしさが保たれるといい、粒はほどよい甘みでべたつきすぎないため、弁当や寿司飯にも向くという。分げつ期の耐冷性が強く、収量性も比較的高い性質を持つとされる。炊きたての香りも穏やかだといい、粒の大きさも扱いやすいとされる、北海道米の中でも安心して選べる定番という。\n## どう作るのか\n2001年、北海道立中央農業試験場が「ひとめぼれ／空系90242A」と「空育150号」「秋穂」を掛け合わせて育成したとされる。耐冷性が強く収量性も高いといい、道内の広い地域で奨励品種に採用され、道内で最も多く作られる主力品種の座を占めてきたという。耐冷性の強さから作付けの安定性も高く、北海道内のほぼ全域で栽培されている品種とされる。\n## なぜこの形になったのか\nかつて「鳥またぎ」と揶揄されたほど評価の低かった北海道米だが、きらら397が評価を変えたのちに続いた品種の一つとされる。食味の評価が安定していることで知られるという。2018年時点で作付面積は道内の水稲の半分近くを占めていたとも伝わる。北海道の広い作付面積を背景に、家庭で日常的に選ばれる品種になったとされる。",
+   "body_en": "## What it's made of\nSaid to have a light taste that pairs with both Japanese and Western dishes. Said to hold its flavor when cooled, its grains carry a moderate sweetness without turning overly sticky, suiting bento and sushi rice, and it's said to keep strong cold tolerance at the tillering stage along with a comparatively high yield. Said to have a mild aroma when freshly cooked and grains of a manageable size, it's treated as a safe, reliable choice among Hokkaido rice.\n## How it's made\nSaid to have been bred in 2001 by Hokkaido's Central Agricultural Experiment Station, crossing 'Hitomebore / Kūkei 90242A' with 'Kūikugo 150' and 'Akiho'. Said to be strongly cold-tolerant and high-yielding, it was adopted as a recommended variety across much of Hokkaido and went on to become the prefecture's most widely grown rice. Its strong cold tolerance is also said to make its cultivation stable, with the variety grown across nearly all of Hokkaido.\n## Why it took this shape\nHokkaido rice was once so poorly regarded it was mocked as rice 'birds won't touch', and Nanatsuboshi is said to be among the varieties that followed Kirara 397 in turning that reputation around. It is known for consistently well-regarded eating quality. As of 2018, its planted acreage is said to have accounted for nearly half of Hokkaido's rice paddies. Backed by Hokkaido's vast paddy acreage, it is said to have become an everyday household rice.",
+   "sources": [
+    {
+     "title": "ななつぼし",
+     "url": "https://ja.wikipedia.org/wiki/ななつぼし",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nanatsuboshi",
+     "to_slug": "yumepirika",
+     "relation_type": "兄弟",
+     "basis": "ともに北海道が開発したブランド米で、道の育種体系の中で並行して育成・展開されてきた同郷の品種。"
+    }
+   ]
+  },
+  {
+   "slug": "yumepirika",
+   "body_ja": "## 何でできているか\n低アミロース米に分類され、コシヒカリを上回るとも言われる強い粘りと甘みを持つとされる。冷めても粘りが残るといい、艶やかな炊き上がりも特徴という。割れ籾が少なく、粒の充実度も高い性質を持つとされる。炊きたての香りも豊かだといい、粒同士がしっかりとまとまる、冷めても粒感を保つ食味とされる。精米後の白さも際立つとされる。\n## どう作るのか\n北海道立上川農業試験場が「札系96118（きらら397の培養変異）」と「上育427号（ほしたろう）」を掛け合わせて育成し、2008年に北海道の優良品種として採用されたとされる。従来の道産米より収量も確保しやすい性質を持つという。北海道米の中でも特に高い品質基準が設けられ、生産者が限定される栽培管理の厳しい品種ともされる。\n## なぜこの形になったのか\nきらら397が切り開いた道産米の評価を、より粘りの強い方向へさらに引き上げるねらいで育成されたとされる。食味の評価が安定していることで知られるという。食味の評価が安定していることで知られるという。贈答用としても人気が高いとされる。北海道米の食味を高める育成の流れの中で生まれた品種と位置づけられるという。",
+   "body_en": "## What it's made of\nClassified as a low-amylose rice, said to carry stickiness and sweetness that can even surpass Koshihikari's. Said to stay sticky when cooled, with a glossy finish once cooked, and to shed fewer cracked hulls while filling out its grains well. Said to carry a rich aroma when freshly cooked, with grains that cling firmly together and hold their shape even after cooling. Said to stand out for its whiteness once milled, too.\n## How it's made\nSaid to have been bred by Hokkaido's Kamikawa Agricultural Experiment Station by crossing 'Satsukei 96118', a tissue-culture mutant of Kirara 397, with 'Jōiku 427 (Hoshitaro)', and adopted as one of Hokkaido's premium varieties in 2008. Said to hold its yield better than earlier Hokkaido varieties. Said to be held to especially strict quality standards among Hokkaido rice, with cultivation limited to a select group of registered growers.\n## Why it took this shape\nSaid to have been bred to push the reputation Kirara 397 built for Hokkaido rice even further toward stronger stickiness. It is known for consistently well-regarded eating quality. It is known for consistently well-regarded eating quality. Also said to be a popular choice as a gift. It is positioned as a product of the effort to raise the eating quality of Hokkaido rice.",
+   "sources": [
+    {
+     "title": "ゆめぴりか",
+     "url": "https://ja.wikipedia.org/wiki/ゆめぴりか",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yumepirika",
+     "to_slug": "milky-queen",
+     "relation_type": "対比",
+     "basis": "ゆめぴりかは低アミロース米に分類され、コシヒカリの突然変異育種で生まれた低アミロースのミルキークイーンと、粘りの強さの由来（品種改良 対 突然変異）を対比できる。"
+    }
+   ]
+  },
+  {
+   "slug": "tsuyahime",
+   "body_ja": "## 何でできているか\n炊き上がると光沢のある艶が際立ち、粒の白さと形の美しさが目を引くとされる。甘みは穏やかで粘りとのバランスが取れており、コシヒカリ以上とも評される極良食味を狙って育成されたという。グルタミン酸やアスパラギン酸などのうまみ成分がコシヒカリより多いとも言われる。炊き上がりの香りも穏やかで上品だといい、粒の大きさも際立つ、見た目と味の両方で評価される品種とされる。\n## どう作るのか\n1998年に山形県立農業試験場庄内支場が「東北164号」を父、「山形70号」を母として交配し、2005年に「山形97号」の地方番号を得たのち、2009年に「つや姫」と命名したとされる。玄米粗タンパク質含有率を6.4%以下に抑える出荷基準を設けるなど、収量より品質を優先する栽培基準を敷いているという。\n## なぜこの形になったのか\n山形県が県を挙げてブランド化に取り組み、2010年に本格デビューさせたとされる。デビューの年は記録的な猛暑だったが、全国最高水準の一等米比率となって品質の高さを示したと伝わる。庄内地方の内陸性の気候と昼夜の寒暖差が、艶とうまみの土台になったとされる。庄内地方は最上川がもたらす豊かな水と、盆地特有の寒暖差にも恵まれているといい、その気候が艶と甘みを引き立てているとされる。",
+   "body_en": "## What it's made of\nSaid to turn glossy on cooking, with a whiteness and shapeliness to the grain that catches the eye. Its sweetness is said to be gentle, balanced against its stickiness, bred for a top-tier taste said to rival or exceed Koshihikari, reportedly carrying more of the umami compounds glutamic and aspartic acid as well. Its aroma on cooking is said to be gentle and refined, with notably large grains, prized for both appearance and taste.\n## How it's made\nSaid to have been crossed in 1998 at a Yamagata experiment station's Shonai branch, with 'Tohoku 164' as father and 'Yamagata 70' as mother, given the local line name 'Yamagata 97' in 2005 and named Tsuyahime in 2009. Shipping standards said to cap crude protein content at 6.4%, prioritizing quality over yield.\n## Why it took this shape\nYamagata is said to have thrown its weight behind branding the variety, giving it a full debut in 2010. That debut year brought record heat, yet the rice is said to have hit the nation's highest grade-one ratio, proving its quality under pressure. The Shonai region's inland climate and wide day-night temperature swing are said to underpin its sheen and flavor. The Shonai region is also said to be blessed with abundant water from the Mogami River and the sharp temperature swings of its basin terrain, a climate said to bring out the rice's sheen and sweetness.",
+   "sources": [
+    {
+     "title": "つや姫",
+     "url": "https://ja.wikipedia.org/wiki/つや姫",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tsuyahime",
+     "to_slug": "yukiwakamaru",
+     "relation_type": "兄弟",
+     "basis": "山形県がつや姫に続くブランド米として雪若丸を「弟」と位置づけて売り出した、公式の姉弟マーケティングによる兄弟関係。"
+    }
+   ]
+  },
+  {
+   "slug": "sagabiyori",
+   "body_ja": "## 何でできているか\n粒が大きく、艶と甘み、香りの良さが評価されているとされる。しっかりした粒感とコクのある食味が持ち味といい、高温の年でも品質を保ちやすいという特性を持つとされる。夏の高温でも粒の白濁が出にくい性質が求められ、その気候に応える品種として育成されたとされる。炊きたての香りも豊かだといい、粒の存在感がしっかり感じられる、食べ応えのある食味とされる。\n## どう作るのか\n佐賀県農業試験研究センターが「天使の詩」と「あいちのかおりSBL」を交配し、2009年から本格栽培を始め2011年に品種登録したとされる。西日本の温暖化に対応する狙いで育成されたといい、佐賀県産米の最上位ブランドとして売り出されているという。佐賀県の水田面積のおよそ4割を占めるまでに広がったとされ、県を代表する看板品種として定着したという。\n## なぜこの形になったのか\n佐賀平野は夏の高温と、有明海に近い干拓地の粘土質で保水力の高い土壌が特徴とされる。夏の高温でも粒の白濁が出にくい性質が求められ、その気候に応える品種として育成されたとされる。干拓によって生まれた平坦な地形も大区画の水田経営に向いているとされ、大粒で品質の安定した米づくりを後押ししてきたという。",
+   "body_en": "## What it's made of\nSaid to have large grains prized for their luster, sweetness, and aroma. It is known for consistently well-regarded eating quality. Said to carry a rich aroma when freshly cooked, with a hearty, satisfying grain presence.\n## How it's made\nSaid to have been bred at Saga's agricultural research center by crossing 'Tenshi no Uta' with 'Aichi no Kaori SBL', entering full cultivation from 2009 and registered as a variety in 2011, bred with western Japan's warming climate in mind and sold as Saga's top-tier brand rice. Said to have spread to cover roughly 40 percent of Saga's paddy area, firmly establishing itself as the prefecture's flagship variety.\n## Why it took this shape\nThe Saga plain is said to be marked by summer heat and the water-retentive, clay-rich soil of reclaimed land near the Ariake Sea. Bred to resist grain chalkiness in summer heat, it is said to have been developed as an answer to that climate. The flat terrain created by land reclamation is also said to suit large-block paddy farming, helping produce a rice with large, consistently high-quality grains.",
+   "sources": [
+    {
+     "title": "さがびより",
+     "url": "https://ja.wikipedia.org/wiki/さがびより",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sagabiyori",
+     "to_slug": "yumeshizuku",
+     "relation_type": "対比",
+     "basis": "さがびよりは佐賀県の最上位ブランドとして特Aを重ねてきたのに対し、夢しずくは県内作付け2位を占める日常づかいの米で、佐賀米の中での位置づけが対照的。"
+    }
+   ]
+  },
+  {
+   "slug": "haenuki",
+   "body_ja": "## 何でできているか\n粘りと硬さのバランスが良く、冷めてもおいしさを保つとされる。派手さより日常づかいのしやすさを狙って育成された品種といい、おにぎりや弁当にも向くとされる。食味の評価が安定していることで知られるという。炊きたての香りも穏やかだといい、粒の大きさは中庸で扱いやすい、飽きの来ない普段づかいの味とされる。\n## どう作るのか\n1990年、山形県立農業試験場庄内支場があきたこまち（秋田31号）と「庄内29号」を交配して「山形45号」として育成したとされる。1991年に公募で「はえぬき」と命名され、1993年に品種登録されたという。冷害への耐性を重視した選抜が繰り返されたといい、山形県内のどの地域でも安定して収量が得られる性質を狙ったとされる。\n## なぜこの形になったのか\nつや姫のような突出した個性よりも、山形県内の広い地域で安定して作りやすいことを重視して育成されたとされる。庄内地方の気候に合った育種が奏功し、長く県内作付面積の首位を占め、コンビニや外食向けにも幅広く使われてきたという。名は「生え抜き」にちなむとされる。近年はつや姫や雪若丸といった上位ブランドの陰に隠れがちだが、県産米の生産量では今も高い割合を占めているとされる。",
+   "body_en": "## What it's made of\nSaid to balance stickiness and firmness while staying tasty when cooled. It is known for consistently well-regarded eating quality. Said to have a mild aroma when freshly cooked and grains of a middling, easy-to-handle size — an everyday taste that doesn't tire the palate.\n## How it's made\nSaid to have been bred in 1990 at a Yamagata experiment station's Shonai branch as 'Yamagata 45', crossing Akitakomachi ('Akita 31') with 'Shonai 29'. Named Haenuki through a public naming contest in 1991 and registered as a variety in 1993. Said to have gone through repeated selection for cold-damage resistance, aiming for a variety that could yield reliably across every part of Yamagata.\n## Why it took this shape\nSaid to have been bred to grow reliably across a wide swath of Yamagata rather than chase a standout personality like Tsuyahime's. Breeding suited to the Shonai region's climate is said to have paid off, and it long led the prefecture's planted acreage, widely supplied to convenience stores and food service. Its name is said to evoke 'born and bred here'. In recent years it's said to be somewhat overshadowed by higher-end brands like Tsuyahime and Yukiwakamaru, yet it's said to still account for a large share of the prefecture's rice production.",
+   "sources": [
+    {
+     "title": "はえぬき",
+     "url": "https://ja.wikipedia.org/wiki/はえぬき",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "haenuki",
+     "to_slug": "tsuyahime",
+     "relation_type": "兄弟",
+     "basis": "ともに山形県立農業試験場（庄内支場）が育成した山形県の看板品種で、はえぬきが日常づかいの主力、つや姫が最上位ブランドという同県の系譜にある。"
+    }
+   ]
+  },
+  {
+   "slug": "kinumusume",
+   "body_ja": "## 何でできているか\n名の通り絹のような艶を持ち、粒はやわらかめで上品な甘みがあるとされる。炊き上がりの粘りは強めで、コシヒカリに並ぶ食味とも評されるという。品質のばらつきが少なく、外食・中食向けにも扱いやすいとされる。炊きたての香りも豊かだといい、粒の粒張りが良く見た目にも艶やかな仕上がりになるとされる。炊飯器のふたを開けた瞬間の見た目の美しさも評価されているという。\n## どう作るのか\n2006年に農研機構が「愛知92号（のちの祭り晴）」と「きぬひかり」を交配して育成したとされる。コシヒカリよりおよそ1週間遅く成熟するため、早生品種と組み合わせた作期の分散にも使われているという。農研機構が中国・四国地方向けに温暖地向けの良食味品種を育成する取り組みの一環として生まれたとされる。当初は業務用としての利用を主眼に置いていたとも伝わる。\n## なぜこの形になったのか\nコシヒカリより暑さに強い性質を持つとされ、温暖化が進む中国地方などで作付けが広がったという。高温の年でも品質が落ちにくい性質が、産地の拡大を支えてきたとされる。岡山県や広島県など瀬戸内海沿岸の産地でも作付けが進んできたとされる。",
+   "body_en": "## What it's made of\nTrue to its name, said to carry a silk-like sheen, with soft grains and a refined sweetness. Its cooked stickiness is said to run strong, its taste sometimes rated on par with Koshihikari's, and quality is said to stay consistent, suiting restaurant and takeout supply chains. Said to carry a rich aroma when freshly cooked, its plump grains also said to cook up with a glossy finish. Its appearance the moment the rice cooker lid opens is also said to be prized.\n## How it's made\nSaid to have been bred in 2006 by Japan's national agriculture research organization, crossing 'Aichi 92 (later Matsurihare)' with 'Kinuhikari'. Maturing roughly a week later than Koshihikari, it's said to be paired with earlier varieties to spread out the harvest. Said to have emerged as part of an effort by Japan's national agriculture research organization to breed a good-tasting variety suited to the warmer Chugoku and Shikoku regions. It's also said to have initially been aimed mainly at commercial food-service use.\n## Why it took this shape\nSaid to tolerate heat better than Koshihikari, its cultivation is said to have spread across the warming Chugoku region. Its resilience to quality loss in hot years is said to have underpinned that spread. Cultivation is also said to have spread to Seto Inland Sea-facing regions such as Okayama and Hiroshima.",
+   "sources": [
+    {
+     "title": "きぬむすめ",
+     "url": "https://ja.wikipedia.org/wiki/きぬむすめ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kinumusume",
+     "to_slug": "nikomaru",
+     "relation_type": "派生",
+     "basis": "にこまるの交配親はきぬむすめと北陸174号で、きぬむすめが直接の親にあたる。"
+    }
+   ]
+  },
+  {
+   "slug": "sasanishiki",
+   "body_ja": "## 何でできているか\nアミロース含有量が多めで、あっさりとした軽い食味とされる。粘りが少ないぶん副菜の味を引き立てるといい、酢を合わせてもべたつかないため寿司職人に好まれてきたとされる。もちもちした食感を好む今の主流とは違う方向の米という。炊きたての香りは控えめだといい、噛むほどに米そのものの甘みが感じられる、素材の味を生かす米とされる。見た目はやや透明感のある白さとされる。\n## どう作るのか\n1963年、宮城県立農業試験場古川分場が「奥羽224号（のちのハツニシキ）」を母、「ササシグレ」を父として交配し育成したとされる。あっさりした食味で一時は東北の主力品種として広く作られ、1993年米騒動前までは全国屈指の生産量を誇ったという。登録当初は多収と良食味を両立した画期的な品種と評価され、東北一円で急速に作付けが広がったとされる。\n## なぜこの形になったのか\n1993年の記録的な大冷害で大きな被害を受け、作付けが急速に減ったと伝わる。耐冷性に優れたひとめぼれへの転換が進んだためとされる。近年は栽培技術の見直しにより、寿司や和食向けに再評価する動きも見られるという。現在の作付面積はかつての最盛期に比べ大きく減ったとされるが、根強いファンを持つ品種として生産が続けられているという。",
+   "body_en": "## What it's made of\nSaid to run higher in amylose, giving it a light, understated taste. With less stickiness, it's said to let side dishes shine, and it's said to be favored by sushi chefs because it doesn't turn gummy once vinegared — a different direction from today's more mochi-like mainstream taste. Said to have a subdued aroma when cooked, letting the rice's own sweetness come through with each chew — a rice said to let the ingredient itself speak. Its look is also said to carry a somewhat translucent whiteness.\n## How it's made\nSaid to have been bred in 1963 at a Miyagi experiment station's Furukawa branch, crossing 'Ou 224 (later Hatsunishiki)' as mother with 'Sasashigure' as father. Its light taste once made it a leading Tohoku variety grown widely, said to have ranked among the nation's largest producers before the 1993 rice-shortage crisis. At registration it was said to be hailed as a breakthrough combining high yield with good taste, and its cultivation is said to have spread rapidly across Tohoku.\n## Why it took this shape\nSaid to have been hit hard by the record cold-damage harvest of 1993, its acreage falling sharply afterward as Miyagi is said to have shifted toward the more cold-hardy Hitomebore. Recent shifts in cultivation technique are said to be bringing renewed interest in it for sushi and washoku. Its planted acreage today is said to be far below its former peak, yet it's said to still be grown for a loyal following of devoted fans.",
+   "sources": [
+    {
+     "title": "ササニシキ",
+     "url": "https://ja.wikipedia.org/wiki/ササニシキ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sasanishiki",
+     "to_slug": "date-masayume",
+     "relation_type": "源流",
+     "basis": "だて正夢は宮城県がササニシキ以来のブランド米として育成した品種とされ、同県の稲育種の系譜上の後継にあたる。"
+    }
+   ]
+  },
+  {
+   "slug": "milky-queen",
+   "body_ja": "## 何でできているか\nアミロース含有量が9.5〜11.1%ほどと極めて低く、コシヒカリよりさらに強い粘りが出るとされる。光沢がよく柔らかい炊き上がりで、冷めても硬くなりにくいといい、おにぎりや弁当に向くとされる。単独で炊くと柔らかすぎるため加水量を1〜2割減らすとよいという。光沢のある炊き上がりに加え、噛むと通常の米よりもねっとりとした独特の食感が広がるとされる。\n## どう作るのか\n1985年、農研機構の前身にあたる研究機関がコシヒカリの種子に突然変異を起こす薬剤メチルニトロソウレアを処理し、粘りの強い半糯（はんもち）状の突然変異体をM2世代で選び出し、M10世代まで系統栽培を重ねて育成したとされる。1998年に「水稲農林332号」として品種登録された。この育成手法は突然変異育種と呼ばれ、放射線ではなく化学物質を使う点が特徴とされる。\n## なぜこの形になったのか\n通常の米よりアミロースが少ない性質は突然変異によって偶然生まれたものとされ、単独で炊くより粘り不足のブレンド米を補うために数割混ぜて炊くことが多いという。粥や寿司には粘りが強すぎて不向きとされる一方、チルド米や米菓の原料としての適性も評価されているという。近年は病院食や介護食など、やわらかく飲み込みやすい米が求められる場面でも使われているとされる。",
+   "body_en": "## What it's made of\nSaid to run extremely low in amylose, around 9.5 to 11.1 percent, giving it stickiness even beyond Koshihikari's. Glossy and soft when cooked, it's said to resist hardening as it cools, suiting onigiri and bento — though cooked alone it can turn too soft, so cutting the water by 10 to 20 percent is recommended. Beyond its glossy finish, biting into it is said to reveal a distinctively denser, more clinging texture than ordinary rice.\n## How it's made\nSaid to have been bred in 1985 when a predecessor of Japan's national agriculture research organization treated Koshihikari seed with the mutagen methylnitrosourea, selected a semi-glutinous mutant with heightened stickiness from the second generation, and carried it through cultivation to the tenth generation. Registered as a variety in 1998. This breeding method is known as mutation breeding, notable for using a chemical agent rather than radiation.\n## Why it took this shape\nIts unusually low amylose is said to have arisen by chance through that mutation, and it's more often blended in small proportions into other rice to boost stickiness than cooked on its own. Said to be too sticky for porridge or sushi, it's also valued as a raw material for chilled rice products and rice crackers. In recent years it's also said to be used in hospital and elder-care meals, where a soft, easy-to-swallow rice is called for.",
+   "sources": [
+    {
+     "title": "ミルキークイーン",
+     "url": "https://ja.wikipedia.org/wiki/ミルキークイーン",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "milky-queen",
+     "to_slug": "sasanishiki",
+     "relation_type": "対比",
+     "basis": "ミルキークイーンは通常より強い粘りを持つ低アミロース米、ササニシキはアミロースが多くあっさりした低粘りの米で、粘りの方向性が対照的な代表例。"
+    }
+   ]
+  },
+  {
+   "slug": "nikomaru",
+   "body_ja": "## 何でできているか\n大粒で粒張りが良く、ヒノヒカリ並みかそれ以上とされる強い粘りと艶を持つ。コクと甘み、うまみのバランスが良いといい、高温の年でも粒が白く濁りにくいとされる。粒感がしっかりしているため丼物や炊き込みご飯、寿司飯にも向くという。炊きたての香りも豊かだといい、噛むほどにコクが広がる、食べ応えのある米とされる。見た目にも艶があり、盛り付けたときの印象がよいとされる。\n## どう作るのか\n1996年に農研機構がきぬむすめと「北陸174号」を交配して育成を始めたとされる。ヒノヒカリが登熟期の高温で品質を落としやすいという課題に応える品種として開発されたという。母品種のきぬむすめの良食味と、高温耐性に優れる北陸174号の性質を両方受け継ぐことを狙って選抜が重ねられたとされる。1999年に品種登録されたという。\n## なぜこの形になったのか\n九州・西日本の夏の高温化に対応する狙いで育成されたとされ、暑さの中でも品質が安定する性質が評価されているという。名は「煮ても焼いても」笑みがこぼれるほどおいしいことと、丸々とした粒張りの良さの両方にかけたとされ、九州沖縄地域を中心に作付けが広がってきたという。熊本県では2000年代後半から奨励品種となり、県産米の高温対策品種として定着してきたという。",
+   "body_en": "## What it's made of\nSaid to be large-grained with strong stickiness and sheen said to match or exceed Hinohikari's. Its body, sweetness, and umami are said to be well balanced, and its grains are said to resist the chalkiness heat can cause, its firm grain feel suiting donburi, takikomi rice, and sushi rice alike. Said to carry a rich aroma when freshly cooked, its body deepening with each chew for a satisfying bite. Its glossy look is also said to make for an appealing presentation once plated.\n## How it's made\nSaid to have begun as a 1996 cross between Kinumusume and 'Hokuriku 174' bred by Japan's national agriculture research organization, developed to answer Hinohikari's tendency to lose quality in high-temperature ripening. Said to have been selected repeatedly to inherit both Kinumusume's good taste and the heat tolerance of 'Hokuriku 174', and registered as a variety in 1999.\n## Why it took this shape\nSaid to have been bred to cope with rising summer heat across Kyushu and western Japan, its quality said to be prized for staying stable even in hot years. Its name is said to play on both 'delicious whether boiled or grilled' and the plump roundness of its grains, and its cultivation is said to have spread mainly across Kyushu and Okinawa. In Kumamoto it's said to have become a recommended variety from the late 2000s, settling in as the prefecture's answer to heat-related rice quality problems.",
+   "sources": [
+    {
+     "title": "にこまる",
+     "url": "https://ja.wikipedia.org/wiki/にこまる",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nikomaru",
+     "to_slug": "genkitsukushi",
+     "relation_type": "対比",
+     "basis": "にこまる（熊本・農研機構）と元気つくし（福岡）は、いずれも九州で登熟期の高温による品質低下に対応する目的で近年育成された品種同士。"
+    }
+   ]
+  },
+  {
+   "slug": "mori-no-kumasan",
+   "body_ja": "## 何でできているか\n粒が大きく、粘りと甘みの強い食味とされる。しっかりとした粒感がありながら口当たりは柔らかいといい、冷めてもおいしさが保たれるとされる。熊本県産米の代表格として親しまれ、県内の食味コンクールでも高く評価されてきたという。炊きたての香りも豊かだといい、粒の一つひとつに存在感があり満足感のある食べ応えとされる。見た目の白さも高く評価されているという。\n## どう作るのか\n熊本県農業研究センターが「日本一おいしい米」を目指して育成したとされる品種で、1997年に品種登録された。コシヒカリ・ヒノヒカリ系統の血を引くとされ、大粒で倒伏に強い性質を持つよう選抜が重ねられたという。育成にあたっては大粒で倒れにくい稲姿と、猛暑でも品質が落ちにくい性質の両方が重視されたとされる。\n## なぜこの形になったのか\n熊本県は阿蘇の伏流水や広い平野に恵まれ、稲作に適した土地とされる。その土台の上で品質を突き詰めた育成が行われたといい、名は熊本県ゆかりの童謡「森のくまさん」にちなむとされる、県を代表するブランド米という。熊本県はくまモンのイメージも手伝い、県産ブランド米としての知名度づくりに力を入れてきたとされる。熊本県内の直売所でも定番の米として並ぶことが多いという。",
+   "body_en": "## What it's made of\nSaid to have large grains with strong stickiness and sweetness. Said to keep a firm grain feel while staying soft on the palate, and to hold its flavor when cooled, it's said to have long been treated as a flagship of Kumamoto-grown rice, scoring well in the prefecture's own taste contests. Said to carry a rich aroma when freshly cooked, with each grain carrying enough presence for a satisfying bite. Its bright whiteness is also said to be well regarded.\n## How it's made\nSaid to have been bred by Kumamoto's agricultural research center aiming for 'the tastiest rice in Japan', registered as a variety in 1997. Said to carry Koshihikari and Hinohikari lineage, it's said to have been selected repeatedly for large grains and resistance to lodging. Breeding is said to have prioritized both a large, lodging-resistant plant form and quality that holds up even in fierce heat.\n## Why it took this shape\nKumamoto is said to be well suited to rice farming, blessed with Mount Aso's spring-fed water and broad plains. Breeding is said to have pushed for quality on that foundation, and its name is said to nod to the well-loved Japanese children's song 'Mori no Kumasan' (the bear in the forest) — a flagship brand for the prefecture. Kumamoto is also said to have leaned on its bear mascot imagery to build recognition for the variety as a prefectural brand rice. Also said to be a frequent top seller at farm-stand shops across Kumamoto.",
+   "sources": [
+    {
+     "title": "森のくまさん",
+     "url": "https://ja.wikipedia.org/wiki/森のくまさん",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mori-no-kumasan",
+     "to_slug": "himenomochi",
+     "relation_type": "兄弟",
+     "basis": "森のくまさんは熊本県が育成した代表的うるち米、ヒメノモチは熊本を主産地とする代表的もち米で、ともに熊本県産米を代表する品種同士。"
+    }
+   ]
+  },
+  {
+   "slug": "shinnosuke",
+   "body_ja": "## 何でできているか\nコシヒカリより大粒で、表層はやや硬めながらしっかりした粒感と粘りを両立させているとされる。長期保存しても脂肪酸度が上がりにくく、古米になっても味が落ちにくいといい、丼物やカレーとの相性も良いという。食味官能評価は新潟県産コシヒカリと同等水準とされる。炊きたての香りも豊かだといい、粒の大きさが際立つぶん噛みごたえのある満足感につながるとされる。\n## どう作るのか\n2008年に新潟県農業総合研究所が「北陸190号」と「新潟75号」を交配して育成を始めたとされる。コシヒカリより収穫が1週間ほど遅い晩生品種で、茎は太く丈も10センチほど短く倒れにくいといい、暑さにも強い性質を持つとされる。耐倒伏性の高さから大規模経営でも扱いやすいといい、コシヒカリと収穫作業の時期を分散できる利点もあるとされる。\n## なぜこの形になったのか\n新潟県がコシヒカリに次ぐ二枚看板として開発したブランド米とされ、2017年に本格販売を開始したという。デビュー時から広告展開に力を入れ、新潟コシヒカリと肩を並べる食味評価を得てきたとされる、県の期待を背負う品種という。パッケージや売り場でもコシヒカリと並べて展開されることが多いといい、新潟米の新しい顔として認知が進んでいるとされる。",
+   "body_en": "## What it's made of\nSaid to be larger-grained than Koshihikari, with a somewhat firm outer layer while combining a solid grain feel with stickiness. Said to resist the rise in fatty-acid degradation that comes with long storage, keeping its flavor even as aged rice, and said to pair well with donburi and curry, its sensory taste score said to sit on par with Niigata-grown Koshihikari. Said to carry a rich aroma when freshly cooked, its outsized grains said to add to a satisfying, chewy bite.\n## How it's made\nSaid to have begun as a 2008 cross of 'Hokuriku 190' and 'Niigata 75' bred by the Niigata Agricultural Research Institute. A late-maturing variety that harvests about a week after Koshihikari, it's said to have a thicker stem about 10cm shorter and resistant to lodging, and to tolerate heat well. Said to be easy to manage on large farms thanks to its lodging resistance, and to let growers spread out harvest timing alongside Koshihikari.\n## Why it took this shape\nSaid to have been developed by Niigata as its second flagship alongside Koshihikari, going on full sale in 2017. Promoted heavily from its debut, it's said to have earned taste ratings on par with Niigata-grown Koshihikari — a rising star carrying the prefecture's expectations. Said to be shelved alongside Koshihikari in packaging and retail displays as well, gaining recognition as a new face of Niigata rice.",
+   "sources": [
+    {
+     "title": "新之助 (米)",
+     "url": "https://ja.wikipedia.org/wiki/新之助_(米)",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shinnosuke",
+     "to_slug": "koshihikari",
+     "relation_type": "対比",
+     "basis": "新之助は新潟県がコシヒカリに次ぐ二枚看板として開発した大粒米で、粒の大きさや晩生の熟期などコシヒカリと対照的な特徴を狙って育成された。"
+    }
+   ]
+  },
+  {
+   "slug": "seiten-no-hekireki",
+   "body_ja": "## 何でできているか\n粒が大きく、粘りと甘みのバランスが良いとされる。しっかりとした粒感を保ちながらつやのある炊き上がりになるといい、冷めてもおいしさを保つとされる。食味の評価が安定していることで知られるという。炊きたての香りも豊かだといい、粒の大きさと粘りの強さが両立した、食べ応えのある米とされる。見た目のつやも高く評価されているという。\n## どう作るのか\n青森県産業技術センター農林総合研究所が高温耐性の遺伝子を持つ系統をもとに選抜を重ねて育成したとされ、2015年から本格販売された。青森県が自県産として初めて世に問う最高級ブランド米として位置づけられているという。品種名を公表する前から地元で大きな期待を集め、青森県産米のイメージを一新する狙いがあったとされる。生産量は限定的で、県外への流通量もあえて抑えられているとされる。\n## なぜこの形になったのか\n青森県はりんごの産地として知られる一方、津軽平野は良質米の産地でもあるとされる。近年の夏の高温にも対応できる耐性を狙って育成されたといい、名は「思いがけない出来事」を意味する言葉に由来し、青森から突如現れた高評価米という驚きを込めたとされる。青森県はコシヒカリの北限に近い産地ともされ、寒さに強い性質を持たせる育種も同時に重視されたという。",
+   "body_en": "## What it's made of\nSaid to have large grains with a good balance of stickiness and sweetness. It is known for consistently well-regarded eating quality. Said to carry a rich aroma when freshly cooked, combining large grains with strong stickiness for a satisfying bite. Its glossy appearance is also said to be well regarded.\n## How it's made\nSaid to have been bred through repeated selection from heat-tolerant lines at an Aomori prefectural research institute, going on full sale from 2015. Positioned as Aomori's first home-grown top-tier brand rice. Said to have drawn heavy local anticipation even before its name was announced, aimed at resetting the image of Aomori-grown rice. Said to be produced in limited volume, with shipments outside the prefecture also deliberately kept modest.\n## Why it took this shape\nAomori is known for apples, but its Tsugaru plain is also said to be a quality rice-growing area. Bred, it's said, with resistance to recent summer heat in mind, its name evokes a phrase for 'an unexpected event' — meant, it's said, to capture the surprise of such a well-rated rice suddenly emerging from Aomori. Aomori is also said to sit near Koshihikari's northern cultivation limit, so breeding also emphasized cold hardiness alongside heat tolerance.",
+   "sources": [
+    {
+     "title": "青天の霹靂",
+     "url": "https://ja.wikipedia.org/wiki/青天の霹靂",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "seiten-no-hekireki",
+     "to_slug": "ginga-no-shizuku",
+     "relation_type": "対比",
+     "basis": "青天の霹靂（青森）と銀河のしずく（岩手）は、隣接する東北の県がそれぞれ2015〜16年ごろに初めて世に出した最上位ブランド米という共通点を持つ同期の品種。"
+    }
+   ]
+  },
+  {
+   "slug": "yukiwakamaru",
+   "body_ja": "## 何でできているか\n粒が大きく、しっかりとした歯ごたえのある食味とされる。つや姫よりも粒感を強く感じさせる炊き上がりだといい、丼物や炒飯など汁気やほぐれを求める料理にも合うとされる。稲の丈が短くいもち病にも強い性質を持つという。炊きたての香りも豊かだといい、噛むほどに甘みが広がる、食べ応えのある米とされる。粒がほぐれやすいため、チャーハンなど汁気の少ない料理にも向くという。見た目にも粒立ちの良さが表れるとされる。\n## どう作るのか\n山形県農業総合研究センター水田農業試験場が「山形80号」と「山形90号」を交配し、15年ほどをかけて育成したとされる。2017年に「山形112号」として命名登録され、2018年に本格的なデビューを果たしたという。山形県は「つや姫」で確立した品質基準をそのまま雪若丸にも適用し、収量より品質を優先する栽培を求めたとされる。\n## なぜこの形になったのか\nつや姫に続く山形県のブランド米として、姉妹品種の「弟」という位置づけで売り出されたとされる。食味の評価が安定していることで知られるという。デビュー当初から出荷量を抑えて品質を守る限定出荷の方針がとられたとも伝わる。",
+   "body_en": "## What it's made of\nSaid to have large grains and a firm, chewy taste. Said to give a stronger sense of grain than Tsuyahime once cooked, it's said to suit dishes like donburi and fried rice that call for a loose, distinct bite, while its shorter stem is said to carry strong resistance to blast disease. Said to carry a rich aroma when freshly cooked, its sweetness said to build with every chew for a satisfying bite. Its grains are also said to separate easily, suiting drier dishes like fried rice. Its well-defined grain is also said to show in its appearance.\n## How it's made\nSaid to have been bred over roughly 15 years by a Yamagata rice research station, crossing 'Yamagata 80' with 'Yamagata 90'. Registered under the name 'Yamagata 112' in 2017 and given its full debut in 2018. Yamagata is said to have applied the same quality standards it set for Tsuyahime to Yukiwakamaru as well, again prioritizing quality over yield.\n## Why it took this shape\nSaid to have been marketed as Yamagata's brand rice following Tsuyahime, positioned as the 'younger brother' in a sibling pairing. It is known for consistently well-regarded eating quality. From its debut, shipments are said to have been deliberately limited to protect quality.",
+   "sources": [
+    {
+     "title": "雪若丸",
+     "url": "https://ja.wikipedia.org/wiki/雪若丸",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yukiwakamaru",
+     "to_slug": "haenuki",
+     "relation_type": "兄弟",
+     "basis": "ともに山形県立農業試験場系統が育成した山形県産米で、雪若丸は近年のブランド米、はえぬきは長年県内作付け首位を占めてきた主力品種という同県の系譜にある。"
+    }
+   ]
+  },
+  {
+   "slug": "ichihomare",
+   "body_ja": "## 何でできているか\n絹のような白さと艶があり、口に広がるやさしい甘さが特徴とされる。粒感と粘りの調和が良いといい、粒が大きくふっくらとした炊き上がりになるとされる。食味の評価が安定していることで知られるという。炊きたての香りも上品だといい、粒の一つひとつがふっくらと膨らむ、満足感のある炊き上がりとされる。炊飯後にしばらく置いても粒感が損なわれにくいともいわれる。贈答用としても人気が高いとされる。\n## どう作るのか\n福井県農業試験場が「富山67号（てんこもり）」を母、「イクヒカリ」を父として2007年に人工交配し、DNAマーカー選抜を活用して育成したとされる。高温でも品質が落ちにくい遺伝子を持つといい、2017年4月に品種登録が出願されたという。選抜には数万にのぼる系統を試験し、その中から高温耐性と食味を兼ね備えた系統を絞り込んだとされる。\n## なぜこの形になったのか\nコシヒカリ発祥の地とされる福井県が、その名に恥じない一番の誉れを目指して育成した「ポストコシヒカリ」品種とされる。名は「日本一の誉れ」を意味し、公募で選ばれたといい、県を挙げて開発した期待の品種という。県内の生産者には厳しい栽培基準が課され、一定の品質を満たした米だけが「いちほまれ」を名乗れるとされる。",
+   "body_en": "## What it's made of\nSaid to have a silk-like whiteness and sheen, with a gentle sweetness that spreads across the palate. It is known for consistently well-regarded eating quality. Said to carry a refined aroma when freshly cooked, each grain said to plump up fully for a satisfying result. Said to keep its grain texture even after sitting a while post-cooking. Also said to be a popular choice as a gift.\n## How it's made\nSaid to have been hand-crossed in 2007 at Fukui's agricultural experiment station, with 'Toyama 67 (Tenkomori)' as mother and 'Ikuhikari' as father, bred using DNA marker selection. Said to carry genes for heat tolerance, its variety registration was filed in April 2017. Selection is said to have tested tens of thousands of lines, narrowing them down to those combining heat tolerance with good taste.\n## Why it took this shape\nSaid to have been bred as a 'post-Koshihikari' variety by Fukui — where Koshihikari is said to have originated — aiming to live up to that legacy. Its name, said to mean 'the greatest honor in Japan', was chosen through a public naming contest, developed with the full weight of the prefecture behind it. Growers within the prefecture are said to face strict cultivation standards, with only rice meeting them allowed to carry the Ichihomare name.",
+   "sources": [
+    {
+     "title": "いちほまれ",
+     "url": "https://ja.wikipedia.org/wiki/いちほまれ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ichihomare",
+     "to_slug": "koshihikari",
+     "relation_type": "対比",
+     "basis": "いちほまれはコシヒカリ発祥の地とされる福井県が「ポストコシヒカリ」として開発した品種で、同県産コシヒカリの後継・対抗として位置づけられている。"
+    }
+   ]
+  },
+  {
+   "slug": "ginga-no-shizuku",
+   "body_ja": "## 何でできているか\n粒が大きく粒ぞろいが良いといい、透明感のある白さを持つとされる。あっさりとした甘みと粘りのバランスが良く、冷めてもおいしいとされ、さっぱりした後味からおにぎりや寿司飯にも向くという。炊きたての香りも穏やかだといい、噛むほどに優しい甘みが広がる、後味のすっきりした米とされる。見た目の白さも高く評価されているという。贈答用としても人気が高いとされる。\n## どう作るのか\n岩手県農業研究センターが2006年に「北陸208号」と「奥羽400号」を交配し、2015年に奨励品種に採用、2016年から販売を始めたとされる。生産量よりも品質を優先して育成されたブランド米という。岩手県は生産量よりも品質を優先する方針を掲げ、栽培農家を限定して管理を徹底したとされる。生産者を絞ることで栽培技術のばらつきも抑えているとされる。\n## なぜこの形になったのか\n名は宮沢賢治の作品「銀河鉄道の夜」にちなむとされ、粒の輝きを銀河に、白さと粘りを「しずく」にたとえたという。冷涼な岩手の気候に合わせた耐冷性のある系統を親に選び、品質重視の栽培基準を敷いて育成されたとされる。冷涼な岩手の気候でも安定して育つ耐冷性を重視したといい、収穫時期の安定にもつながったとされる。贈答用パッケージも複数用意されているという。",
+   "body_en": "## What it's made of\nSaid to have large, evenly sized grains with a translucent white color. Said to balance a light sweetness with stickiness and to stay tasty when cooled, its clean finish said to suit onigiri and sushi rice. Said to have a gentle aroma when freshly cooked, its mild sweetness said to build with each chew for a clean finish. Its bright whiteness is also said to be highly rated. Also said to be a popular choice as a gift.\n## How it's made\nSaid to have been crossed in 2006 by the Iwate Agricultural Research Center from 'Hokuriku 208' and 'Ou 400', adopted as a recommended variety in 2015 and put on sale from 2016 — a brand rice said to have been bred prioritizing quality over yield. Iwate is said to have prioritized quality over volume, limiting the growers involved to keep cultivation tightly managed. Limiting the number of growers is also said to keep variation in cultivation technique in check.\n## Why it took this shape\nIts name is said to nod to Miyazawa Kenji's story 'Night on the Galactic Railroad', likening the grain's shine to the galaxy and its whiteness and stickiness to a droplet ('shizuku'). Said to have been bred from cold-tolerant parent lines suited to Iwate's cool climate, under quality-first cultivation standards. Cold tolerance suited to Iwate's cool climate is said to have been emphasized, also helping stabilize the harvest timing. Several gift-box packaging options are also said to be offered.",
+   "sources": [
+    {
+     "title": "銀河のしずく",
+     "url": "https://ja.wikipedia.org/wiki/銀河のしずく",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ginga-no-shizuku",
+     "to_slug": "date-masayume",
+     "relation_type": "対比",
+     "basis": "銀河のしずく（岩手）とだて正夢（宮城）は、隣接する東北の県がそれぞれ2016〜17年ごろに満を持して売り出した新世代のブランド米という共通点を持つ。"
+    }
+   ]
+  },
+  {
+   "slug": "date-masayume",
+   "body_ja": "## 何でできているか\n低アミロース米で、粘りが強く甘みもしっかりしているとされる。もちもちとした食感で、冷めても柔らかく甘みが残るといい、粒が大きくうまみも濃いという評価があるとされる。食味の評価が安定していることで知られるという。炊きたての香りも豊かだといい、噛むほどにコクとうまみが広がる、満足感のある米とされる。見た目の艶も高く評価されているという。\n## どう作るのか\n2001年、宮城県古川農業試験場で「げんきまる」と「東１１２６」を交配して育成が始まったとされる。ひとめぼれと同じ試験場での育成という共通点を持つ。2016年に奨励品種となり、2017年11月に販売が始まったという。低アミロース系統を親に選ぶことで、コシヒカリとは異なる方向の強い粘りを狙って育成されたとされる。\n## なぜこの形になったのか\n宮城県がササニシキ以来のブランド米として育成したとされる品種で、仙台藩祖・伊達政宗の言葉とされる「正夢」にちなんで名付けられたという。「宮城米の夢をかなえる」というキャッチコピーを掲げ、県の期待を背負う品種として売り出されているとされる。宮城県内では最上位のブランド米と位置づけられ、贈答用としても展開されているという。仙台の百貨店などでも取り扱われているという。",
+   "body_en": "## What it's made of\nA low-amylose rice said to carry strong stickiness and pronounced sweetness. It is known for consistently well-regarded eating quality. Said to carry a rich aroma when freshly cooked, its body and umami said to build with each chew for a satisfying bite. Its glossy sheen is also said to be well regarded.\n## How it's made\nSaid to have begun breeding in 2001 at Miyagi's Furukawa Agricultural Experiment Station, crossing 'Genkimaru' with 'Higashi 1126' — the same station that bred Hitomebore. Adopted as a recommended variety in 2016 and put on sale from November 2017. Said to have been bred by choosing a low-amylose parent line, aiming for a strong stickiness distinct from Koshihikari's.\n## Why it took this shape\nSaid to have been bred by Miyagi as its brand rice following on from Sasanishiki, named for 'Masayume' (a true dream come reality), a phrase attributed to Date Masamune, founding lord of the Sendai domain. Marketed under the tagline 'fulfilling Miyagi rice's dream', carrying the prefecture's hopes. Positioned within Miyagi as its top-tier brand rice, it's also said to be marketed as a gift item. Also said to be carried by department stores in Sendai.",
+   "sources": [
+    {
+     "title": "だて正夢",
+     "url": "https://ja.wikipedia.org/wiki/だて正夢",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "date-masayume",
+     "to_slug": "hitomebore",
+     "relation_type": "兄弟",
+     "basis": "だて正夢とひとめぼれは、ともに宮城県古川農業試験場が育成した宮城県産米で、育成機関を同じくする同県の品種同士。"
+    }
+   ]
+  },
+  {
+   "slug": "fufufu",
+   "body_ja": "## 何でできているか\n高温の年でも白く濁った粒が出にくいといい、艶があり透明感のある炊き上がりになるとされる。甘みが強く、粘りとうまみのバランスが良いといい、いもち病にも強く低農薬で作りやすいとされる。炊きたての香りも豊かだといい、噛むほどにコクと甘みが広がる、満足感のある米とされる。冷めても粒がしっかりまとまり、弁当にも向くとされる。贈答用としても人気が高いとされる。\n## どう作るのか\n富山県農林水産総合技術センターが2007年に研究を始め、コシヒカリ系統を複数掛け合わせて2012年に交配、2014年に系統選抜を経て2016年に品種登録を出願したとされる。温暖化と病害への強さを重視して育成された県のブランド米という。選抜にあたっては食味だけでなく、いもち病への強さや倒れにくさも重視されたとされる。\n## なぜこの形になったのか\n名は「ふふふ」という響きに、食後の幸せな気持ちと、富山の水・大地・人（農家）という三つの「富」を重ねたとされる。県が総力を挙げて開発し、2018年にデビューしたブランド米で、立山連峰の雪解け水を生かした富山米の新しい柱と位置づけられているという。県内の生産者は栽培技術の研修を受けるなど、品質を均一に保つ体制が敷かれているとされる。富山県外への出荷も年々増えているとされる。",
+   "body_en": "## What it's made of\nSaid to resist the chalky grains that heat can cause even in hot years, cooking up glossy and translucent. Said to carry strong sweetness balanced with stickiness and umami, and to resist blast disease well enough to be grown with less pesticide. Said to carry a rich aroma when freshly cooked, its body and sweetness said to deepen with each chew. Said to hold together well even when cooled, suiting bento use too. Also said to be a popular choice as a gift.\n## How it's made\nSaid to have started research in 2007 at a Toyama prefectural technology center, crossing several Koshihikari-derived lines in 2012, passing through line selection in 2014, and filing for variety registration in 2016 — a prefectural brand rice bred with warming and disease resistance in mind. Selection is said to have weighed not just taste but also resistance to blast disease and lodging.\n## Why it took this shape\nIts name, read 'fufufu', is said to layer the sound of a happy sigh after a meal with three sources of 'fu' (abundance): Toyama's water, land, and people (its farmers). Developed with the prefecture's full backing and launched in 2018, it's said to be positioned as a new pillar of Toyama rice, drawing on snowmelt from the Tateyama mountains. Growers within the prefecture are said to undergo cultivation training as part of a system meant to keep quality consistent. Shipments beyond Toyama Prefecture are also said to be growing year by year.",
+   "sources": [
+    {
+     "title": "富富富",
+     "url": "https://ja.wikipedia.org/wiki/富富富",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "富富富【とやまの新しいブランド米】",
+     "url": "https://fufufu-toyama.jp/",
+     "publisher": "富山県 市場戦略推進課",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "fufufu",
+     "to_slug": "niji-no-kirameki",
+     "relation_type": "対比",
+     "basis": "富富富（富山県）とにじのきらめき（農研機構）は、いずれも温暖化に伴う登熟期の高温対策を主目的に近年育成された品種同士で、産地限定ブランドと全国普及型という育成方針が対照的。"
+    }
+   ]
+  },
+  {
+   "slug": "yumeshizuku",
+   "body_ja": "## 何でできているか\nほどよい粘りとコシがあり、ふっくらとしてつやのある炊き上がりが評価されているとされる。さがびよりに比べるとさっぱりとした食味で、和食との相性が良いといい、日常づかいの米として親しまれているとされる。炊きたての香りも穏やかだといい、粒の一つひとつがふっくらと膨らむ、優しい口当たりの米とされる。見た目のつやも高く評価されているという。\n## どう作るのか\n佐賀県農業試験研究センターが「キヌヒカリ（北陸122号）」と「ひとめぼれ（東北143号）」を交配して育成し、2000年から本格栽培が始まり2003年に品種登録されたとされる。さがヒノヒカリよりおよそ10日早く収穫できるという。耐病性にも優れるといい、栽培しやすさも兼ね備えた実用性の高い品種として評価されているという。\n## なぜこの形になったのか\nさがびよりが最上位ブランドとして華やかさを追うのに対し、夢しずくは佐賀県の水田作付けでおよそ25.9%と二番目に広いシェアを持つ、県民の食卓を支える存在とされる。穏やかな食味のイメージから名付けられたといい、幅広い料理と合わせやすいとされる。佐賀県内の給食や外食でも広く使われているといい、県民にとって最も身近な米の一つとされる。価格も手ごろで、日々の主食として選びやすいとされる。",
+   "body_en": "## What it's made of\nSaid to be prized for a moderate stickiness and firmness, cooking up plump and glossy. Said to have a lighter taste than Sagabiyori that pairs well with washoku, favored as a rice for everyday use. Said to have a gentle aroma when freshly cooked, each grain plumping up fully for a soft, gentle mouthfeel. Its glossy appearance is also said to be well regarded.\n## How it's made\nSaid to have been bred at Saga's agricultural research center by crossing 'Kinuhikari (Hokuriku 122)' with 'Hitomebore (Tohoku 143)', entering full cultivation from 2000 and registered as a variety in 2003. Said to harvest roughly ten days earlier than Saga's Hinohikari. Also said to carry strong disease resistance, it's valued as a highly practical variety that's easy to grow.\n## Why it took this shape\nWhere Sagabiyori chases flashier top-tier status, Yumeshizuku is said to hold the second-largest share of Saga's paddy acreage at around 25.9 percent, supporting the everyday table instead. Its name is said to evoke a gentle taste, making it easy to pair with a wide range of dishes. Said to be widely used in school lunches and restaurants across Saga, making it one of the rice varieties closest to daily life there. Also said to be reasonably priced, making it an easy everyday staple to choose.",
+   "sources": [
+    {
+     "title": "夢しずく",
+     "url": "https://ja.wikipedia.org/wiki/夢しずく",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yumeshizuku",
+     "to_slug": "genkitsukushi",
+     "relation_type": "対比",
+     "basis": "夢しずく（佐賀）と元気つくし（福岡）は、隣接する九州の県がそれぞれ日常づかいの安定品質を狙って育成した米で、最上位ブランド米（さがびより・つくしろまん系）に次ぐ位置づけが共通する。"
+    }
+   ]
+  },
+  {
+   "slug": "genkitsukushi",
+   "body_ja": "## 何でできているか\nやや大粒で、粘りと甘みのバランスが良く「極めて良い」食味とされる。冷めても味が落ちにくく、古米になっても品質が保たれやすいといい、毎日食べても飽きないとされる。食味の評価が安定していることで知られるという。炊きたての香りも豊かだといい、粒の粒張りが良く見た目にも満足感のある炊き上がりとされる。見た目にも粒立ちの良さが表れるとされる。\n## どう作るのか\n2008年に福岡県農業総合試験場が「つくしろまん（筑紫４６号）」と「つくし早生」を交配して育成したとされる。早生の品種で、登熟期の高温に強い高温登熟性を特徴として持つという。福岡県はコシヒカリに代わる主力品種を求めていたとされ、県内の奨励品種の中でも作付けが広がってきたという。倒伏にも強いといい、大規模経営でも扱いやすい品種とされる。\n## なぜこの形になったのか\n福岡県は2004年ごろから夏の高温による品質低下が課題になっていたとされ、その対策として登熟期の高温に強い性質を狙って育成されたという。名は「元気」と、筑紫地方の古い呼び名にちなむとされ、福岡県を代表する看板品種の一つという。外食・中食向けの需要も見込んで育成されたといい、業務用米としての取引も多いとされる。福岡県内のスーパーでも定番として扱われているという。",
+   "body_en": "## What it's made of\nSaid to be a somewhat large-grained rice balancing stickiness and sweetness for an 'extremely good' taste. It is known for consistently well-regarded eating quality. Said to carry a rich aroma when freshly cooked, its well-filled grains giving a visually satisfying result. Its well-defined grain is also said to show in its appearance.\n## How it's made\nSaid to have been bred in 2008 at a Fukuoka agricultural research institute by crossing 'Tsukushiroman (Chikushi 46)' with 'Tsukushi Wase', an early-maturing variety said to be notable for its heat tolerance during ripening. Fukuoka is said to have been looking for a lead variety to stand alongside Koshihikari, and its acreage is said to have grown among the prefecture's recommended varieties. Also said to resist lodging, making it manageable for large-scale operations too.\n## Why it took this shape\nFukuoka is said to have faced quality problems from summer heat since around 2004, and the variety is said to have been bred specifically to resist that heat during ripening. Its name blends 'genki' (vigor) with an old name for the Chikushi region, one of Fukuoka's flagship varieties. Said to have been bred with an eye toward restaurant and takeout demand as well, it's said to see heavy use as a commercial-grade rice. Also said to be a standard offering at supermarkets across Fukuoka.",
+   "sources": [
+    {
+     "title": "元気つくし",
+     "url": "https://ja.wikipedia.org/wiki/元気つくし",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "genkitsukushi",
+     "to_slug": "hinohikari",
+     "relation_type": "対比",
+     "basis": "元気つくしは福岡県が高温耐性を狙って近年育成した品種、ヒノヒカリは九州で最も広く作られてきた長年の主力品種で、新旧の九州米を対比できる。"
+    }
+   ]
+  },
+  {
+   "slug": "kirara397",
+   "body_ja": "## 何でできているか\nあっさりとした食味で、粒は大きく水もちが良いとされる。当時としては珍しくアミロース値が19%と低めで、20%を切った初めての道産米とされる。丼物など汁気のある料理でも粒が崩れにくいといい、タンパク質含有率も6.3〜6.5%と低めとされる。炊きたての香りは控えめだといい、粒感がしっかり残るためカレーや丼にもよく合うとされる。\n## どう作るのか\n北海道立中央農業試験場（現・上川農業試験場）が1980年に育種を始め、「渡育214号（のちのしまひかり）」を母、「道北36号（のちのきたあけ）」を父として交配し、1990年に品種登録されたとされる。育種にはおよそ10年を要したとされ、道内各地の試験圃場で寒冷地での栽培適性が確かめられたという。当時としては異例の速さで品種登録にこぎつけたとも伝わる。\n## なぜこの形になったのか\n「鳥またぎ」「やっかいどう米」と揶揄されていた北海道米の評価を大きく変えた先駆けとされる品種で、名は「きらきら光る」に由来するという。1990年代に道内作付けの主力となり、ほしのゆめやななつぼし、ゆめぴりかなど後継のブランド米開発の礎になったとされる。その後は品種改良が進み、現在は道内での作付けを後継品種に譲って生産量を減らしているとされる。",
+   "body_en": "## What it's made of\nSaid to have a light taste, with large grains and good water retention. Unusually low in amylose for its time at 19 percent, it's said to be the first Hokkaido rice to break below the 20 percent mark, and its grains are said to hold together well in soupy dishes like donburi, with protein content also said to run comparatively low at 6.3 to 6.5 percent. Said to have a subdued aroma when cooked, its firm grain feel said to suit curry and donburi well.\n## How it's made\nSaid to have started breeding in 1980 at Hokkaido's Central Agricultural Experiment Station (now the Kamikawa Agricultural Experiment Station), crossing 'Watariiku 214 (later Shimahikari)' as mother with 'Dōhoku 36 (later Kitaake)' as father, and registered as a variety in 1990. Breeding is said to have taken roughly a decade, with cold-region suitability confirmed at trial fields across Hokkaido. It's also said to have reached variety registration unusually quickly for its time.\n## Why it took this shape\nSaid to be the pioneering variety that overturned Hokkaido rice's once-derided reputation as fare 'birds won't touch' or 'troublesome Hokkaido rice', its name said to evoke a sparkling glint. It became Hokkaido's leading variety through the 1990s and is said to have laid the groundwork for later brand rice like Hoshi no Yume, Nanatsuboshi, and Yumepirika. Breeding has since moved on, and it's said to have ceded much of Hokkaido's acreage to its successor varieties over time.",
+   "sources": [
+    {
+     "title": "きらら397",
+     "url": "https://ja.wikipedia.org/wiki/きらら397",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kirara397",
+     "to_slug": "nanatsuboshi",
+     "relation_type": "源流",
+     "basis": "きらら397は北海道米の評価を変えた先駆けとされ、後継のななつぼしの礎になったとWikipediaで明記されている。"
+    },
+    {
+     "from_slug": "kirara397",
+     "to_slug": "yumepirika",
+     "relation_type": "源流",
+     "basis": "ゆめぴりかの交配親「札系96118」はきらら397の培養変異とされ、きらら397が遺伝的に直接の親筋にあたる。"
+    }
+   ]
+  },
+  {
+   "slug": "koshiibuki",
+   "body_ja": "## 何でできているか\nあっさりとした食味で、コシヒカリの血統を受け継ぎながらも日常づかいしやすい品種とされる。粒はすっきりとした食感で、高品質・良食味な特性を備えるといい、新米をいち早く楽しめる早生米という位置づけという。炊きたての香りも穏やかだといい、粒の一つひとつがしっかりとした輪郭を保つ、扱いやすい米とされる。粒の大きさはコシヒカリよりやや小ぶりとされる。\n## どう作るのか\n1993年に新潟県農業総合研究所が育種を始め、ひとめぼれと「どまんなか」を交配して育成したとされる。コシヒカリよりおよそ10日ほど早く収穫できる、早生の晩という熟期に仕立てられたという。1999年に奨励品種に選ばれた。コシヒカリの栽培経験を活かしやすい性質も重視され、既存の生産体制に組み込みやすい品種として育成されたという。\n## なぜこの形になったのか\n新潟県はコシヒカリの主産地だが、収穫時期が全県で重なると労力も加工も集中してしまうとされる。より早く刈り取れる品種を置くことで作期を分散させる狙いがあったといい、名はコシヒカリの「こし」と新潟の気候にちなむ「いぶき」から取られ、「新鮮で活力に満ちた21世紀の米」を目指したとされる。県内では9月上旬から出荷が始まるといい、その年最初の新米として店頭に並ぶことが多いとされる。",
+   "body_en": "## What it's made of\nSaid to have a light taste, carrying Koshihikari lineage while suiting everyday use. Its grains are said to have a crisp texture and a reputation for high quality, positioned as an early variety that lets shoppers taste the new crop first. Said to have a mild aroma when freshly cooked, its grains keeping a firm, manageable shape. Its grain size is also said to run slightly smaller than Koshihikari's.\n## How it's made\nSaid to have begun breeding in 1993 at the Niigata Agricultural Research Institute, crossing Hitomebore with 'Domannaka'. Bred to harvest roughly ten days earlier than Koshihikari, timed as a late early-maturing variety, and adopted as a recommended variety in 1999. Bred also with an eye toward growers' existing Koshihikari know-how, meant to fit easily into established production systems.\n## Why it took this shape\nNiigata is Koshihikari's main growing region, but a harvest that lands all at once across the prefecture is said to strain both labor and processing capacity. An earlier-harvesting variety is said to have been placed to spread that load out, its name combining Koshihikari's 'koshi' with 'ibuki', evoking Niigata's climate, aimed, it's said, at a 'fresh, vigorous rice for the 21st century'. Shipments within the prefecture are said to begin in early September, often the first new-crop rice to appear on shelves that year.",
+   "sources": [
+    {
+     "title": "こしいぶき",
+     "url": "https://ja.wikipedia.org/wiki/こしいぶき",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "koshiibuki",
+     "to_slug": "shinnosuke",
+     "relation_type": "兄弟",
+     "basis": "こしいぶきと新之助は、ともに新潟県農業総合研究所が育成したコシヒカリに続く新潟県産のブランド・準ブランド米で、同県の育種系譜にある。"
+    }
+   ]
+  },
+  {
+   "slug": "niji-no-kirameki",
+   "body_ja": "## 何でできているか\nコシヒカリよりひと回り大きい粒で、玄米千粒重はおよそ2グラム重いとされる。食味はコシヒカリと同等以上といい、高温の年でも品質が落ちにくいとされる。収量もおよそ3割多いという。炊きたての香りも豊かだといい、粒感がしっかり残るため冷めても食味が落ちにくいとされる。精米後の白さも安定しているとされる。見た目も従来品種とほぼ変わらないとされる。\n## どう作るのか\n農研機構の上越研究拠点が「北陸223号」と「西南136号（のちのなつほのか）」を交配して育成し、2018年に品種登録を出願したとされる。高温登熟性、つまり登熟期の暑さでも粒が白く濁りにくい性質を強みとして持つという。全国各地の試験圃場で栽培試験が重ねられ、地域を問わず安定した収量が得られることが確かめられたという。\n## なぜこの形になったのか\n地球温暖化で稲の登熟期に高温が続く年が増えていることを見据え、産地を問わず全国どこでも栽培できる品種として育成されたとされる。名の「にじ」は複数の系統を掛け合わせて育てたことに由来するとされ、特定の産地に縛られない新しいタイプの品種という。2020年代に入り、九州から東北まで各地の産地での試験栽培や本格導入が進んでいるとされる。今後さらに導入地域が広がる見込みとされる。",
+   "body_en": "## What it's made of\nSaid to have grains somewhat larger than Koshihikari's, with a thousand-grain weight about 2 grams heavier. Said to taste on par with or better than Koshihikari, resisting quality loss even in hot years, with yields said to run about 30 percent higher. Said to carry a rich aroma when freshly cooked, its firm grain feel said to help it resist losing flavor when cooled. Its whiteness after milling is also said to stay consistent. Its appearance is also said to differ little from that of conventional varieties.\n## How it's made\nSaid to have been bred by a research base of Japan's national agriculture research organization, crossing 'Hokuriku 223' with 'Seinan 136 (later Natsuhonoka)', with variety registration filed in 2018. Its strength is said to be heat tolerance during ripening — resisting the chalky grains that summer heat can cause. Trial cultivation is said to have been repeated at test fields nationwide, confirming stable yields regardless of region.\n## Why it took this shape\nSaid to have been bred as a variety plantable anywhere in the country regardless of region, with an eye toward more years of sustained heat during ripening as the climate warms. The 'niji' (rainbow) in its name is said to reflect the multiple lines crossed to breed it, marking a new kind of variety not tied to one home region. Since the 2020s, trial and full-scale cultivation is said to have progressed at production areas from Kyushu to Tohoku. The number of regions adopting it is also expected to keep growing.",
+   "sources": [
+    {
+     "title": "にじのきらめき",
+     "url": "https://ja.wikipedia.org/wiki/にじのきらめき",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "niji-no-kirameki",
+     "to_slug": "kinumusume",
+     "relation_type": "対比",
+     "basis": "にじのきらめき（農研機構・全国普及型）ときぬむすめ（中国地方中心）は、ともにコシヒカリより高温に強い性質を狙って育成された品種で、普及の範囲が対照的。"
+    }
+   ]
+  },
+  {
+   "slug": "kamenoo",
+   "body_ja": "## 何でできているか\n当時としては耐冷性に優れた在来品種とされ、冷害の年でも実りを保ったと伝わる。子孫に当たるコシヒカリやササニシキと比べると素朴な味わいとされ、五百万石やたかね錦など多くの酒米品種にも血を残しているとされる。収量は現代の品種に比べると多くないといい、稲の丈も高く倒れやすい性質を持っていたとされる。収穫できる粒の色合いはやや褐色がかっていたとも伝わる。\n## どう作るのか\n1893年、山形県庄内地方の篤農家・阿部亀治が、冷害の年に熊谷神社近くの田んぼで在来品種「惣兵衛早生」の中から冷害に耐えて実った3本の穂を見つけ、これを種子に足掛け三年かけて育て上げたと伝わる。阿部亀治はその後も選抜と栽培を重ね、地元の農家仲間にも種もみを分け与えて広めたと伝わる。その後この一帯では亀の尾を祀る石碑も建てられたと伝わる。\n## なぜこの形になったのか\n庄内地方は最上川と日本海に挟まれ、冷夏に見舞われやすい土地とされる。その厳しい気候をくぐり抜けた個体を選び出した育種が、のちの多くの品種の礎になったといい、子に陸羽132号、孫に農林1号、曾孫にコシヒカリ・ササニシキと続く系譜が伝わる、日本の稲育種史を支えた在来種という。その普及は東北にとどまらず、酒米も含め全国の稲育種に長く影響を与え続けてきたとされる。",
+   "body_en": "## What it's made of\nSaid to be a landrace notably cold-hardy for its time, said to have kept its yield even in cold-damage years. Its taste is said to be plainer than that of its descendants Koshihikari and Sasanishiki, and its blood is also said to run through many sake rice varieties such as Gohyakumangoku and Takane Nishiki. Said to have yielded less than modern varieties and to have grown tall enough to be prone to lodging. The harvested grain is also said to have carried a slightly brownish tinge.\n## How it's made\nSaid to have been found in 1893 by the dedicated farmer Abe Kamejirō in Yamagata's Shonai region, who in a cold-damage year is said to have noticed three ears that had still ripened within a paddy of the landrace 'Sōbei Wase' near Kumagai Shrine, and to have spent about three years raising them into seed stock. Abe Kamejirō is said to have continued selecting and cultivating it, sharing seed with fellow local farmers to spread it further. A stone monument honoring the variety is also said to have later been erected in the area.\n## Why it took this shape\nThe Shonai region, wedged between the Mogami River and the Sea of Japan, is said to be prone to cool summers. Selecting an individual plant that had survived that harsh climate is said to have laid the groundwork for many later varieties — a lineage said to run from its child Rikuu 132 to its grandchild Norin 1 and great-grandchildren Koshihikari and Sasanishiki, a landrace said to underpin the history of Japanese rice breeding. Its influence is said to have spread beyond Tohoku, shaping rice breeding nationwide, sake rice included, for generations.",
+   "sources": [
+    {
+     "title": "亀の尾",
+     "url": "https://ja.wikipedia.org/wiki/亀の尾",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kamenoo",
+     "to_slug": "koshihikari",
+     "relation_type": "源流",
+     "basis": "亀の尾は陸羽132号・農林1号を経てコシヒカリにつながる曾孫筋の系譜がWikipediaに明記されている。"
+    },
+    {
+     "from_slug": "kamenoo",
+     "to_slug": "sasanishiki",
+     "relation_type": "源流",
+     "basis": "亀の尾はササニシキにもつながる系譜がWikipediaに明記されている（曾孫・玄孫筋）。"
+    }
+   ]
+  },
+  {
+   "slug": "koganemochi",
+   "body_ja": "## 何でできているか\nつやのある黄金色を帯びた色合いから名付けられたとされるもち米で、粘りが強いとされる。晩生のもち米品種で、餅や赤飯、おこわなど幅広い用途に使われる定番品種という。搗くと強い粘りとコシが出るといい、時間が経っても硬くなりにくい扱いやすいもち米とされる。精米すると純白に近い色合いになるとされる。米粒はやや大きめで、粒ぞろいの良さも特徴とされる。\n## どう作るのか\n1943年に誕生し1956年に命名、新潟県農業試験場中条試験地が「農林17号」と「信農糯3号」を交配して育成し、1958年に新潟県の奨励品種に指定されたとされる。育成には10年以上を要したとされ、収量性と粘りの強さを両立させる選抜が繰り返されたという。命名の際には黄金色の輝きにちなむ候補が複数挙がったとも伝わる。\n## なぜこの形になったのか\n全国のもち米作付面積でも上位を占めるとされ、流通量の多い定番品種として長く親しまれてきたという。宮城県ではみやこがねもちという別の銘柄名で流通するなど、産地ごとに名を変えながら各地のもち米生産を支え、ヒメノモチなど後発品種の交配親にもなってきたとされる。正月の鏡餅や祝い事のおこわなど、ハレの日の行事食を支える米としても欠かせない存在とされる。米菓の原料としても一定の需要があるとされる。",
+   "body_en": "## What it's made of\nSaid to be named for its glossy, golden-tinged hue, this mochi rice is said to be strongly sticky. A late-maturing glutinous variety, it's said to be used broadly for pounded mochi, festive red rice, and steamed glutinous rice. Said to develop strong stickiness and body when pounded, and to resist hardening over time, making it an easy-to-handle mochi rice. Said to turn a near-pure white once milled. Its grains are also said to run somewhat large, notably even in size.\n## How it's made\nSaid to have first appeared in 1943 and been named in 1956, bred by a Niigata experiment station's Nakajo trial site by crossing 'Norin 17' with 'Shinnō-mochi 3', and designated a recommended Niigata variety in 1958. Breeding is said to have taken more than a decade, with repeated selection to combine yield with strong stickiness. Several naming candidates evoking its golden shine are also said to have been considered.\n## Why it took this shape\nSaid to rank among the most widely planted mochi-rice varieties nationwide, long favored as a widely distributed standard. Sold under the separate brand name Miyakoganemochi in Miyagi, it's said to have supported mochi-rice production across regions under differing local names, and to have gone on to serve as a parent for later varieties such as Himenomochi. Also said to be indispensable for festive-day dishes such as New Year's kagami mochi and celebratory steamed rice. Also said to see steady demand as a raw material for rice crackers.",
+   "sources": [
+    {
+     "title": "こがねもち",
+     "url": "https://ja.wikipedia.org/wiki/こがねもち",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "koganemochi",
+     "to_slug": "himenomochi",
+     "relation_type": "派生",
+     "basis": "ヒメノモチの交配親は大系227号とコガネモチで、コガネモチが直接の父親にあたる。"
+    }
+   ]
+  },
+  {
+   "slug": "himenomochi",
+   "body_ja": "## 何でできているか\n餅にしたときの口当たりが良く、ひび割れしにくいとされるもち米。旧品種のオトメモチよりも収量性や食味がやや優れるとされ、粘りの強さと扱いやすさを兼ね備えているという。搗くとなめらかで均一な粘りが出るといい、時間が経ってもひび割れにくい扱いやすいもち米とされる。粒はやや小ぶりで、加工のしやすさにもつながっているとされる。\n## どう作るのか\n1962年、旧東北農業試験場が「大系227号」を母、「コガネモチ」を父として交配し育成したとされる。育成地は東北だが、その後は九州、特に熊本県で広く栽培されるようになり、西日本のもち米生産を支える主力品種の一つになったという。育成当初は東北での普及を想定していたとされるが、実際には熊本の気候との相性の良さが評価されたという。\n## なぜこの形になったのか\n寒冷な東北で育成されながら、実際には温暖な九州で主産地を形成したとされる点が特徴という。もち米は搗いたときの粘りとひび割れにくさが重視されるため、加工適性の高さが産地を選ばず広がった理由とされ、熊本県は今も国内有数のもち米産地に数えられているという。近年は熊本県のもち米加工品の原料としても広く使われ、餅菓子業界を支える存在になっているとされる。贈答用の餅菓子にもよく使われているという。",
+   "body_en": "## What it's made of\nA mochi rice said to be smooth on the palate once pounded and resistant to cracking. Said to slightly outdo the older Otomemochi variety in yield and taste, combining strong stickiness with easy handling. Said to develop a smooth, even stickiness when pounded, resisting cracks over time and easy to handle. Its somewhat smaller grain is also said to contribute to easier processing.\n## How it's made\nSaid to have been bred in 1962 at a former Tohoku agricultural experiment station, crossing 'Taikei 227' as mother with 'Koganemochi' as father. Though bred in Tohoku, it's said to have gone on to be grown widely in Kyushu, especially Kumamoto, becoming one of the mainstay varieties supporting mochi-rice production in western Japan. Said to have originally been intended for cultivation in Tohoku, it instead proved a good match for Kumamoto's climate.\n## Why it took this shape\nBred in the cool Tohoku region yet said to have found its main production area in warmer Kyushu, a notable mismatch between origin and heartland. Mochi rice is judged mainly on stickiness and crack resistance once pounded, and that processing quality is said to be why it spread regardless of region, with Kumamoto still counted among Japan's leading mochi-rice producers today. In recent years it's also said to be widely used as a raw material for Kumamoto's mochi confectionery, underpinning the local sweets industry. Also said to be commonly used in gift-boxed mochi confectionery.",
+   "sources": [
+    {
+     "title": "ヒメノモチ",
+     "url": "https://ja.wikipedia.org/wiki/ヒメノモチ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "himenomochi",
+     "to_slug": "akamai",
+     "relation_type": "対比",
+     "basis": "ヒメノモチ（もち米・餅やおこわに用いる特用米）と赤米（神事に用いる特用米）は、ともに用途が限定される特徴的な特用米として並置できる。"
+    }
+   ]
+  },
+  {
+   "slug": "yamadanishiki",
+   "body_ja": "## 何でできているか\n「酒米の王様」と呼ばれる最高峰の酒米とされる。粒の中心にある心白が大きく、粘度と強度が高いため吸水性が良く、麹菌が入り込みやすく醪にも溶け出しやすいとされる。粒が大きいため砕米が少なく、高精米に耐えるという。タンパク質やアミノ酸が少なく、雑味の少ない酒に仕上がるとされる。精米してもタンパク質含有量の変動が少なく、安定した品質の酒米として評価されているとされる。\n## どう作るのか\n1923年、兵庫県立農事試験場が「山田穂」と「短稈渡船」を人工交配して育成したとされる。丈が高く倒れやすいなど栽培には手間がかかる品種とされるが、その分酒造適性の高さが評価されてきたという。選抜には長い年月を要したとされ、心白の大きさと稈の強さを両立させる系統がようやく見つかったという。兵庫県内でも特に条件の良い一部地域が最高等級の産地として知られているという。\n## なぜこの形になったのか\n兵庫県は瀬戸内海式の温暖な気候と、六甲山系からの伏流水（宮水）に恵まれ、酒造りの盛んな土地とされる。心白が大きく高精米に耐える性質を活かし、雑味の少ない華やかな吟醸香を持つ吟醸酒・大吟醸に多く使われてきたといい、酒米生産量でも最大を占めるとされる。兵庫県内でも山田錦専用の格付け制度が設けられ、産地や等級ごとに管理が徹底されているとされる。",
+   "body_en": "## What it's made of\nOften called the 'king of sake rice', said to be the pinnacle of sake-brewing varieties. Said to have a large starchy core (shinpaku) at the grain's center, whose high viscosity and strength give it good water absorption, letting koji mold penetrate easily and dissolve well into the mash. Its large grain size means fewer broken grains, said to let it withstand heavy polishing, and its low protein and amino acid content is said to yield sake with few off-flavors. Said to show little variation in protein content even after polishing, valued as a sake rice with dependable, stable quality.\n## How it's made\nSaid to have been bred in 1923 at Hyogo's prefectural agricultural experiment station, hand-crossing 'Yamada Ho' with 'Tankan Watarifune'. Said to be labor-intensive to grow, with tall stems prone to lodging, though that difficulty is said to be offset by its prized suitability for brewing. Selection is said to have taken many years before a line finally combined a large starchy core with a sturdy stem. A handful of especially favorable areas within Hyogo are said to be known as its top-grade growing districts.\n## Why it took this shape\nHyogo is said to enjoy the mild climate of the Seto Inland Sea and spring-fed water (miyamizu) flowing from the Rokko mountains, long a center of sake brewing. Its large starchy core and tolerance for heavy polishing are said to make it a staple for ginjo and daiginjo sake, prized for a fragrant aroma with few off-flavors, and it's said to account for the largest sake-rice output of any variety. Within Hyogo, a dedicated grading system for Yamada Nishiki is said to be in place, closely managed by growing area and grade.",
+   "sources": [
+    {
+     "title": "山田錦",
+     "url": "https://ja.wikipedia.org/wiki/山田錦",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "兵庫県立農林水産技術総合センター",
+     "url": "https://www.hyogo-nourinsuisangc.jp/",
+     "publisher": "兵庫県立農林水産技術総合センター（山田錦の育成機関）",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yamadanishiki",
+     "to_slug": "gohyakumangoku",
+     "relation_type": "対比",
+     "basis": "山田錦（兵庫・やや甘みの強い味わい深い酒質）と五百万石（新潟・淡麗できれいな酒質）は、酒造好適米の代表2品種として酒質の傾向が対比される。"
+    },
+    {
+     "from_slug": "yamadanishiki",
+     "to_slug": "koshitanrei",
+     "relation_type": "派生",
+     "basis": "越淡麗の交配親は五百万石と山田錦で、山田錦が直接の親にあたる。"
+    }
+   ]
+  },
+  {
+   "slug": "gohyakumangoku",
+   "body_ja": "## 何でできているか\n新潟県を代表するとされる酒米で、心白の発現率が高く大粒だという。淡麗辛口の日本酒に合う、きれいで端麗な酒質になりやすいとされる一方、50%を超える高精白には向かず麹は作りやすいという。精米すると砕けやすいといい、扱いには技術を要するものの、扱いに慣れた蔵元には評価が高いとされる。香りは穏やかで、料理に寄り添う酒に仕上がりやすいとされる。\n## どう作るのか\n1944年に「交系290号」として系統名が付けられ、新潟県が「新200号」と「菊水」を交配して育成し、1957年に品種登録されたとされる。生産量は山田錦に次いで多いとされ、北陸から東北にかけて広く栽培されているという。選抜には10年以上を要したとされ、心白の発現率と稈の強さを両立させる系統を見つけるのに時間がかかったという。\n## なぜこの形になったのか\n名は新潟県が目標に掲げた米の生産量「五百万石」にちなむとされる。淡麗な酒質を好む新潟の酒造りの気風に合わせて育成されたといい、雪深い北陸の冷涼な気候が、すっきりとした後味の酒米を育てる土壌になっているとされる。現在も新潟の酒蔵の多くが看板銘柄にこの米を使うといい、地元では欠かせない酒米とされている。淡麗辛口を代表する酒米として、全国的な知名度も高いとされる。",
+   "body_en": "## What it's made of\nSaid to be Niigata's signature sake rice, with a high incidence of starchy core and large grains. Said to lend itself to a clean, crisp sake quality that suits the dry, crisp style, though it's said not to tolerate polishing beyond 50 percent, while its koji is said to be easy to work with. Said to be prone to breaking during polishing, requiring skilled handling, though it's highly valued by breweries experienced with it. Said to have a mild aroma, lending itself to a sake that pairs gently with food.\n## How it's made\nSaid to have been given the line name 'Kōkei 290' in 1944, bred by Niigata crossing 'Shin 200' with 'Kikusui', and registered as a variety in 1957. Said to have the second-largest production after Yamada Nishiki, grown widely from Hokuriku into Tohoku. Selection is said to have taken over a decade, time spent finding a line that combined a high starchy-core rate with stem strength.\n## Why it took this shape\nIts name is said to reference 'five million koku', a rice-production target Niigata once set for itself. Said to have been bred to suit Niigata's preference for a crisp, clean sake style, the cool, deep-snow climate of Hokuriku is said to provide fertile ground for a sake rice with a clean finish. Many Niigata breweries are still said to use it for their flagship labels, an indispensable local sake rice. As a representative crisp, dry-style sake rice, it's also said to be well known nationwide.",
+   "sources": [
+    {
+     "title": "五百万石",
+     "url": "https://ja.wikipedia.org/wiki/五百万石",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gohyakumangoku",
+     "to_slug": "koshitanrei",
+     "relation_type": "派生",
+     "basis": "越淡麗の交配親は五百万石と山田錦で、五百万石が直接の親にあたる。"
+    }
+   ]
+  },
+  {
+   "slug": "miyamanishiki",
+   "body_ja": "## 何でできているか\n大粒で心白の発現率が高いとされる酒米で、山田錦とは違うすっきりとした味わいの酒になりやすいという。「北アルプスに積もる雪のような心白」と評されるとされ、比較的高精米にも耐えるといわれている。精米しても砕けにくいといい、蔵元にとって扱いやすい酒米として評価されているとされる。香りは控えめで、料理に寄り添う酒に仕上がりやすいとされる。\n## どう作るのか\n1978年、長野県農事試験場が在来の酒米「たかね錦」に放射線を照射して突然変異を誘発し、大粒で心白の発現率が高い個体を選び出して育成したとされる。母は「北陸12号」、父は「東北25号」とされるたかね錦の系譜を引く。選抜には数年を要したとされ、放射線処理で生じた複数の変異系統から最も優れた個体が選び出されたという。\n## なぜこの形になったのか\n長野県は標高が高く冷涼な気候の土地とされ、寒冷地でも育てやすい酒米が求められてきたという。もとのたかね錦の耐冷性を受け継ぎながら粒を大きく改良したことで、東北の蔵元にも広まったとされ、すっきりとした味わいの酒に仕上がるといわれている。現在では長野県のみならず山形県や東北各県の酒蔵でも広く使われている酒米とされる。美山錦を使った地酒は各地の品評会でも評価されているという。",
+   "body_en": "## What it's made of\nSaid to be a large-grained sake rice with a high incidence of starchy core, said to lend itself to a clean-tasting sake distinct from Yamada Nishiki's. Its core is likened, it's said, to snow piled on the Northern Alps, and it's said to tolerate relatively heavy polishing. Said to resist breaking during polishing, valued by breweries as an easy sake rice to work with. Said to have a restrained aroma, lending itself to a sake that pairs gently with food.\n## How it's made\nSaid to have been bred in 1978 when the Nagano Agricultural Experiment Station irradiated the older sake rice 'Takane Nishiki' to induce mutation, then selected an individual with larger grains and a higher rate of starchy core — tracing back through Takane Nishiki to parents said to be 'Hokuriku 12' and 'Tohoku 25'. Selection is said to have taken several years, with the best individual chosen from multiple mutant lines produced by the irradiation.\n## Why it took this shape\nNagano is said to sit at high, cool elevation, a place said to have long needed a sake rice suited to cold-region farming. Said to have inherited Takane Nishiki's cold hardiness while breeding for a larger grain, it's said to have spread to breweries across Tohoku, said to yield a clean-tasting sake. Today it's said to be widely used not only in Nagano but by breweries across Yamagata and other Tohoku prefectures as well. Local sake brewed with Miyama Nishiki is also said to be well regarded at regional competitions.",
+   "sources": [
+    {
+     "title": "美山錦",
+     "url": "https://ja.wikipedia.org/wiki/美山錦",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "miyamanishiki",
+     "to_slug": "yamadanishiki",
+     "relation_type": "対比",
+     "basis": "美山錦（長野・冷涼地向けですっきりした酒質）と山田錦（兵庫・温暖地向けで華やかな吟醸香）は、産地の気候と酒質の方向性が対照的な代表酒米。"
+    }
+   ]
+  },
+  {
+   "slug": "omachi",
+   "body_ja": "## 何でできているか\n大粒で心白が大きく軟質とされ、山田錦とは違う個性の強い香りと味わいの酒になるという。コクのある濃醇な酒質になりやすいとされ、昭和初期の品評会では最高級と見なされたと伝わる。精米には手間がかかるといい、砕けやすい性質のため高精白には向かないともされる。香りは山田錦よりも土台の厚い印象になりやすいとされる。\n## どう作るのか\n1859年、備前国上道郡雄町（現在の岡山市中区雄町）で岸本甚造が伯耆大山参拝の帰路に見つけた珍しい稲を育てたのが始まりとされる。丈が1.8メートルほどと高く倒れやすいうえ病虫害にも弱いといい、栽培には手間がかかるとされる。その後岡山県内で栽培が広まり、明治から昭和初期にかけて西日本各地の酒蔵に種もみが分けられたと伝わる。\n## なぜこの形になったのか\n現存する酒造好適米のおよそ3分の2は雄町の系統を引き継いでいるとされ、山田錦や五百万石など多くの優良品種の親にあたるという。栽培の難しさから一時は山田錦に取って代わられたが、その希少な個性が近年再評価され、生産者の減少もあって希少性が高まっているとされる。近年は岡山県が生産振興に力を入れ、雄町を使った日本酒を集めたイベントも各地で開かれているという。雄町を使った酒だけを集めた飲み比べ企画も人気だという。",
+   "body_en": "## What it's made of\nSaid to have large, soft grains with a big starchy core, yielding a sake with a distinct aroma and flavor unlike Yamada Nishiki's. Said to lend itself to a rich, full-bodied sake, and said to have been judged top-grade at competitions in the early Showa era. Said to be labor-intensive to polish, and its tendency to break is said to make it less suited to very heavy polishing. Its aroma is also said to give a more grounded, earthy impression than Yamada Nishiki's.\n## How it's made\nSaid to trace back to 1859, when Kishimoto Jinzō is said to have found an unusual rice plant on his way home from a pilgrimage to Mount Daisen and raised it near what is now Okayama's Ward of Omachi. Standing about 1.8 meters tall, it's said to be prone to lodging and vulnerable to pests and disease, making it labor-intensive to grow. Its cultivation is said to have spread across Okayama afterward, with seed shared with breweries across western Japan from the Meiji through early Showa eras.\n## Why it took this shape\nSaid to run through the lineage of roughly two-thirds of existing sake rice varieties, an ancestor of many prized varieties including Yamada Nishiki and Gohyakumangoku. Its difficulty in cultivation is said to have let Yamada Nishiki eclipse it for a time, but its distinct character is said to be drawing renewed interest, with fewer farmers still growing it adding to its rarity. In recent years Okayama is said to have pushed to promote its cultivation, with events showcasing sake brewed from Omachi held around the country. Tasting events gathering only sake brewed from Omachi are also said to be popular.",
+   "sources": [
+    {
+     "title": "雄町",
+     "url": "https://ja.wikipedia.org/wiki/雄町",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "omachi",
+     "to_slug": "yamadanishiki",
+     "relation_type": "源流",
+     "basis": "現存する酒造好適米の約2/3が雄町の系統を引き継いでいるとされ、山田錦の親「短稈渡船」も雄町系の渡船から選抜された品種で、系譜上の源流にあたる。"
+    }
+   ]
+  },
+  {
+   "slug": "koshitanrei",
+   "body_ja": "## 何でできているか\n小粒ではなく、線状の心白を持つとされる大粒の酒米。五百万石譲りの「淡麗できれい」な酒質と、山田錦譲りの「やや甘みが強く味わいがある」酒質の中間で、柔らかくふくらみのある味わいと評されているという。精米しても砕けにくいといい、大吟醸に求められる高精白にも十分耐える性質とされる。香りは山田錦と五百万石の中間的な印象になりやすいとされる。\n## どう作るのか\n1996年に新潟県農業試験場が五百万石と山田錦を人工交配し、2001年から試験栽培を経て2004年に品種登録を出願したとされる。両者の長所を受け継ぐ大吟醸向けの酒米として育成されたという。交配から品種登録までにおよそ10年をかけ、両親の心白発現率や稈の強さを丹念に見極めたとされる。新潟県内でも限られた地域でのみ契約栽培されているという。\n## なぜこの形になったのか\n新潟県は五百万石の主産地でありながら、より高精米に耐える上位の酒米を求めていたとされる。県内で唯一の大吟醸酒専用品種として位置づけられ、山田錦を県外から仕入れずに大吟醸を仕込める体制を整える狙いがあったとされる。現在では新潟県内の主要な酒蔵の多くが、この米を使った限定の大吟醸を毎年仕込んでいるとされる。越淡麗を使った大吟醸は贈答用としても選ばれやすいとされる。",
+   "body_en": "## What it's made of\nSaid to be a large-grained sake rice, not small, with a linear starchy core. Said to sit between Gohyakumangoku's 'clean and crisp' sake quality and Yamada Nishiki's 'somewhat sweeter, fuller' character, described as soft with a rounded body. Said to resist breaking during polishing, with enough durability to withstand the heavy milling daiginjo demands. Its aroma is also said to fall somewhere between Yamada Nishiki's and Gohyakumangoku's.\n## How it's made\nSaid to have been hand-crossed in 1996 by the Niigata Agricultural Experiment Station from Gohyakumangoku and Yamada Nishiki, entering trial cultivation from 2001 and filed for variety registration in 2004 — bred as a sake rice for daiginjo meant to inherit the strengths of both parents. Roughly a decade passed between the cross and its registration, spent carefully assessing the starchy-core rate and stem strength inherited from both parents. Said to be grown under contract only in limited areas within Niigata.\n## Why it took this shape\nNiigata is said to be Gohyakumangoku's main growing region, yet is said to have wanted a higher-grade sake rice that could withstand heavier polishing. Positioned as the prefecture's only variety dedicated to daiginjo, it's said to have been meant to let Niigata brew daiginjo without sourcing Yamada Nishiki from elsewhere. Today, many of Niigata's major breweries are said to brew a limited annual daiginjo using this rice. Daiginjo brewed from Koshi Tanrei is also said to be a favored choice as a gift.",
+   "sources": [
+    {
+     "title": "越淡麗",
+     "url": "https://ja.wikipedia.org/wiki/越淡麗",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "koshitanrei",
+     "to_slug": "miyamanishiki",
+     "relation_type": "対比",
+     "basis": "越淡麗（新潟・五百万石と山田錦の交配による大吟醸専用米）と美山錦（長野・たかね錦の突然変異による冷涼地向け酒米）は、育成手法（交配 対 突然変異）が対照的。"
+    }
+   ]
+  },
+  {
+   "slug": "iwai",
+   "body_ja": "## 何でできているか\n心白の発現率が高く心白自体も大きいとされる酒米で、味のある酒に仕上がるという。收量は少なめとされ、一時は栽培が途絶えかけたことから幻の酒米と呼ばれた時期もあったと伝わる。精米しても砕けにくいといい、京都の淡麗な酒質を支える酒米として評価されているとされる。香りは穏やかで、京料理との相性を意識した酒質になりやすいとされる。\n## どう作るのか\n1933年、京都府立農事試験場丹後分場が在来品種「野条穂」の純系から選抜して育成したとされる。食糧難の時代背景や価格の低迷、少収であることから1973年に奨励品種から外れ、一時は生産が途絶えかけたという。選抜には数年を要したとされ、在来品種の中から心白の発現率が特に高い系統が選び出されたという。選抜地となった丹後地方は京都府内でも稲作の盛んな土地とされる。\n## なぜこの形になったのか\n地元蔵元からの求めを受け、1992年に京都府のオリジナル米として奨励品種に復活したとされる。1993年には不耕起移植栽培でも慣行栽培と同等の収量を確認したといい、京の酒造りを象徴する米として位置づけられ、復活栽培が今も続けられているという。現在は京都府内の複数の酒蔵が協力し、原料米の確保から酒造りまでを一貫して支える体制が続いているとされる。",
+   "body_en": "## What it's made of\nSaid to be a sake rice with both a high incidence of starchy core and a large core itself, said to yield a flavorful sake. Said to be low-yielding, and said to have earned a reputation at one point as a 'phantom' sake rice after nearly vanishing from cultivation. Said to resist breaking during polishing, valued as a sake rice that supports Kyoto's crisp, clean style of brewing. Said to have a gentle aroma, lending itself to a sake style mindful of pairing with Kyoto cuisine.\n## How it's made\nSaid to have been bred in 1933 by a Kyoto experiment station's Tango branch, selected from a pure line of the landrace 'Nojobo'. Amid postwar food shortages, low prices, and its low yield, it's said to have been dropped from the recommended-variety list in 1973, its cultivation nearly lost for a time. Selection is said to have taken several years, choosing a line with an especially high starchy-core rate from among the landrace population. The Tango region where it was selected is also said to be one of Kyoto Prefecture's more active rice-growing areas.\n## Why it took this shape\nSaid to have been revived as one of Kyoto's original recommended varieties in 1992 at the request of local brewers. A 1993 trial is said to have confirmed comparable yields even under no-till transplanting, and it's now treated as symbolic of Kyoto sake, its revived cultivation said to continue today. Today, several Kyoto breweries are said to cooperate in a system that supports everything from securing the raw rice to brewing.",
+   "sources": [
+    {
+     "title": "祝 (米)",
+     "url": "https://ja.wikipedia.org/wiki/祝_(米)",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "iwai",
+     "to_slug": "yamadanishiki",
+     "relation_type": "対比",
+     "basis": "祝（京都・栽培が一時途絶え1990年代に復活した希少な地域限定米）と山田錦（兵庫・酒米生産量で最大を占める王道品種）は、酒米としての希少性と普及度が対照的。"
+    }
+   ]
+  },
+  {
+   "slug": "akamai",
+   "body_ja": "## 何でできているか\n赤い糠層を持つ古代からの品種群とされ、種皮のタンニン系色素が漏れ出すことで糊粉層まで赤みを帯びることもあるという。吸肥力が強く病害虫や環境変化にも強い一方、丈が長く倒れやすく収量が少ないという難点があるとされる。精米すると赤みが薄れるといい、玄米や分づき米のまま食べることで色と風味を楽しむ品種とされる。品種によって赤みの濃淡にも差があるとされる。\n## どう作るのか\n収穫量が少ないため大規模な栽培には向かないとされるが、対馬市の多久頭魂神社や鹿児島県種子島の宝満神社（2000年に及ぶとも伝わる）、岡山県総社市の国司神社など各地の神社で、神事用として今も栽培が受け継がれているという。対馬市の神社では毎年決まった時期に赤米の田植えと収穫の神事が営まれ、地域の行事として受け継がれているという。\n## なぜこの形になったのか\n7世紀末から8世紀後半の飛鳥京跡の木簡には、丹波・丹後・但馬から赤米が貢物として運ばれた記録があるとされる。民俗学者の柳田國男は「赤飯の起源は赤米である」と論じたと伝わり、赤の色が神聖視されてきたことが、神事での継承を支えてきたと考えられている。こうした神事に使われることから、赤米は単なる古代米以上に、地域の信仰や暮らしと結びついた米として扱われてきたとされる。",
+   "body_en": "## What it's made of\nSaid to be an ancient category of rice with a reddish bran layer, its tannin-based pigment sometimes said to leak from the seed coat deep enough to tint the aleurone layer beneath it as well. Said to draw nutrients vigorously and to resist pests and shifting conditions, but its tall, lodging-prone stem and low yield are said to be its drawbacks. Said to lose its reddish tint once milled, it's a variety meant to be eaten unmilled or partially milled to enjoy both color and flavor. Said to vary in the depth of its red hue depending on the specific variety.\n## How it's made\nSaid to be unsuited to large-scale cultivation because of its low yield, its cultivation is still said to be kept alive at shrines around the country for use in Shinto ritual — among them Tsushima's Takutsudama Shrine, Tanegashima's Hōman Shrine (a history said to span some 2,000 years), and Okayama's Kokushi Shrine. At the Tsushima shrine, planting and harvest rituals for red rice are said to be held at set times each year, kept alive as a local tradition.\n## Why it took this shape\nWooden tablets from the Asuka-kyo ruins, dated to the late 7th through late 8th century, are said to record red rice sent as tribute from Tanba, Tango, and Tajima. The folklorist Yanagita Kunio is said to have argued that red rice was the origin of celebratory red rice dishes (sekihan), and the color's sacred associations are thought to be part of what has kept it alive in Shinto ritual. Because of this ritual use, red rice is said to be treated as more than just an ancient grain — bound up with local faith and daily life.",
+   "sources": [
+    {
+     "title": "赤米",
+     "url": "https://ja.wikipedia.org/wiki/赤米",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "akamai",
+     "to_slug": "kuromai",
+     "relation_type": "対比",
+     "basis": "赤米（タンニン系色素で赤い糠層）と黒米（アントシアニン系色素で黒紫の糠層）は、色素の由来が異なる古代米の代表2品目として対比される。"
+    }
+   ]
+  },
+  {
+   "slug": "kuromai",
+   "body_ja": "## 何でできているか\n黒紫色の種皮または果皮にアントシアニン系の色素を含む古代米の一群とされる。少量を白米に混ぜて炊くと、水に溶け出した色素で全体が紫がかった色に染まるという。糠にはビタミンB群やビタミンE、リンやカルシウムなどのミネラルも含まれるとされる。炊き上がりは薄紫色を帯びるといい、白米だけのときとは違う香りと食感も楽しめるとされる。品種によって紫の濃淡にも差があるとされる。\n## どう作るのか\n赤米と同じく古くからの在来品種群で、単独で炊くよりも白米に数パーセント混ぜて炊飯されることが多いとされる。玄米のまま精米せず、糠層ごと炊き込む食べ方が一般的だという。白米に比べて精米の度合いは浅く抑えられるといい、糠層を残したまま流通することが多い品種とされる。用途に応じて数種類の黒米が使い分けられることもあるとされる。\n## なぜこの形になったのか\n古代中国では「紫米」「黒糯」と呼ばれ、酒に加工されたほか漢方薬や産婦の栄養食品としても用いられたと伝わる、薬膳米としての歴史が長いとされる。アントシアニンには抗酸化作用があるとされ、近年は栄養価の面から日本でも見直されているという。近年は健康志向の高まりから、日本でも古代米ミックスなどの商品名で店頭に並ぶことが増えているという。",
+   "body_en": "## What it's made of\nSaid to be a category of ancient rice whose blackish-purple seed coat or pericarp carries anthocyanin pigments. Mixed in small proportion with white rice, the pigment is said to dissolve into the cooking water and tint the whole pot purple. Its bran is also said to carry B vitamins and vitamin E, along with minerals like phosphorus and calcium. Cooked, the pot is said to take on a light purple tint, offering an aroma and texture different from plain white rice. Said to vary in the depth of its purple tint depending on the specific variety.\n## How it's made\nLike red rice, said to be an old landrace category, more often cooked mixed a few percent into white rice than cooked alone. Said to be typically eaten unmilled, bran layer and all. Said to be milled less than white rice, typically sold with much of its bran layer left intact. Depending on the use, several different black rice varieties are also said to be chosen among.\n## Why it took this shape\nIn ancient China it was known as 'purple rice' or 'black glutinous rice', said to have been made into alcohol as well as used in Chinese medicine and as nourishment for new mothers — a rice said to carry a long history as a medicinal food. Its anthocyanins are said to have antioxidant properties, and it's said to be drawing renewed attention in Japan for its nutritional value as well. Amid rising health consciousness, it's said to increasingly appear on Japanese shelves under names like 'ancient rice mix'.",
+   "sources": [
+    {
+     "title": "黒米",
+     "url": "https://ja.wikipedia.org/wiki/黒米",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kuromai",
+     "to_slug": "himenomochi",
+     "relation_type": "対比",
+     "basis": "黒米（色素と栄養価で選ばれる古代米）とヒメノモチ（粘りと加工適性で選ばれるもち米）は、白米に少量混ぜる・搗くといった特用米としての使われ方の違いを対比できる。"
+    }
+   ]
+  }
+ ]
+}

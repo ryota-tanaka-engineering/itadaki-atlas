@@ -1,0 +1,808 @@
+{
+ "items": [
+  {
+   "slug": "koikuchi-shoyu",
+   "body_ja": "## 何でできているか\n色は赤みを帯びた琥珀色から黒に近く、香りは強め。塩気に加えて大豆由来の旨味と小麦由来の香ばしさ・軽い甘みが重なり、煮物にもかけ醤油にも使える万能な味の骨格を持つ。冷たいままだと角の立つ塩気が先に来るが、加熱すると香りがふくらんで丸くなり、照り焼きのたれに使うと表面に艶やかな焦げ色がつく。刺身にそのままつけても、素材の味を覆い隠さず輪郭だけを引き締める強さがある。\n\n## どう作るのか\n蒸した大豆と炒った小麦をほぼ同量合わせて種麹をつけ、数日かけて麹にする。これに食塩水を加えてもろみにし、桶の中で半年から1年ほど発酵・熟成させたのち搾って火入れする。大豆と小麦を等量近く使う配合と、搾った後の火入れによる香りの安定化が、赤みの強い色と強い香りを生んでいる。同じ配合でも蔵ごとに麹菌や発酵期間が違い、味の幅が出るとされる。\n\n## なぜこの形になったのか\n大豆・小麦とも比較的どこでも手に入る組み合わせだったことから、特定の産地に縛られず各地の蔵で造られた。江戸期の関東で醸造技術が発達し、大消費地の需要に応える形で全国に広まったとされる。今も国内出荷量の約8割を占めるとされ、他の4分類はこの濃口を基準にした対照・派生として位置づけられる。産地を問わず似た配合で造れることが、結果として全国一律の「標準の醤油」を生んだといえ、他の分類はここからの差分として理解しやすい。",
+   "body_en": "## What it's made of\nIts color runs from reddish amber to near-black, and its aroma is pronounced. Umami from soybean layers with the wheat's toasty, faintly sweet note and a clean saltiness, giving it a versatile backbone that works equally well simmered into a dish or poured straight over one. Cold, its saltiness leads; heated, the aroma rounds out and deepens the color, so a teriyaki glaze made from it browns to a glossy sheen. Poured raw over sashimi, it still lets the fish's own flavor show through rather than covering it.\n\n## How it's made\nSteamed soybeans and roasted wheat, used in roughly equal parts, are seeded with koji mold and cultured for several days. The koji is then mixed with brine into a mash, which ferments and ages in a barrel for six months to a year before being pressed and pasteurized by heat. That near-even soybean-wheat ratio, together with the heat treatment, is what gives it its deep reddish color and strong aroma. The same recipe still varies from brewery to brewery, since each uses its own koji mold strain and aging time.\n\n## Why it took this shape\nBecause soybean and wheat were both reasonably easy to source almost anywhere, brewing wasn't tied to one region. The trade is said to have matured around Edo-period Kanto, spreading nationwide to meet the demand of that huge consumer market. It's said to still account for roughly 80% of national shipments today, with the other four soy sauce styles read as contrasts or offshoots of this baseline — a fairly interchangeable set of ingredients is, in a sense, what let a single 'standard' soy sauce emerge nationwide.",
+   "sources": [
+    {
+     "title": "種類",
+     "url": "https://www.soysauce.or.jp/knowledge/kinds",
+     "publisher": "しょうゆ情報センター（日本醤油協会）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "koikuchi-shoyu",
+     "to_slug": "usukuchi-shoyu",
+     "relation_type": "兄弟",
+     "basis": "JASの醤油品質表示基準が定める5分類（濃口・淡口・たまり・再仕込・白）のうち、生産量の中心をなす濃口と、色を抑えて造る淡口は並ぶ分類として扱われる"
+    }
+   ]
+  },
+  {
+   "slug": "usukuchi-shoyu",
+   "body_ja": "## 何でできているか\n色は淡い琥珀色で、塩分は濃口よりやや高めながら香りは控えめ。だしや素材そのものの色・風味を邪魔しないため、汁物や煮物の仕上げに使うと、具材の色や出汁の香りが前面に出る。関西のうどんつゆのように、汁が透き通ったまま塩気だけがきいた味になるのは、この控えめな色と香りゆえとされる。煮物に使えば大根や卵の白さを損なわずに味だけをしみ込ませられる。\n\n## どう作るのか\n大豆・小麦・食塩水に加え、米や甘酒を仕込みに使い発酵を穏やかに保つことで、色の濃化を抑える。塩分をやや高めにして雑菌の繁殖を防ぎつつ、揖保川の軟水を使うと麹の働きが安定し、淡い色合いを保ったまま旨味を引き出せるとされる。搾ったあとの火入れも控えめに行い、色止めを徹底する。発酵を急がず穏やかに進めることが、香りを立たせすぎない仕上がりにつながっている。\n\n## なぜこの形になったのか\n兵庫県たつの市では寛文年間に考案されたと伝わる。揖保川の軟水、播州平野の大豆・小麦、赤穂の塩と原料がすべて近くでそろい、素材の色を活かす関西の食文化とともに発達したとされる。京料理をはじめ、出汁の風味と素材の色を主役に据える食文化が、色を抑えた醤油を必要としたといえる。原料の産地がすべて近隣で完結していた点も、独自の醸造法が根付いた背景とされる。",
+   "body_en": "## What it's made of\nPale amber in color, it carries a slightly higher salt content than koikuchi soy sauce but a much quieter aroma. Used to finish a soup or simmered dish, it seasons without masking the ingredients' own color or the fragrance of the dashi beneath them.\n\n## How it's made\nAlongside soybean, wheat, and brine, the mash often takes in rice or sweet amazake to keep fermentation gentle and hold back the color from deepening. Soft water from the Ibo River is said to keep the koji working steadily while the color stays pale.\n\n## Why it took this shape\nIt's said to have been devised in what is now Tatsuno, Hyogo, during the Kanbun era. Soft Ibo River water, soybean and wheat from the Banshu plain, and salt from nearby Ako all sat within reach, and the style is said to have grown up alongside a Kansai food culture that prizes an ingredient's own color.",
+   "sources": [
+    {
+     "title": "兵庫県／醤油",
+     "url": "https://web.pref.hyogo.lg.jp/sr09/jibasan/05.html",
+     "publisher": "兵庫県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "usukuchi-shoyu",
+     "to_slug": "tamari-shoyu",
+     "relation_type": "兄弟",
+     "basis": "JASの醤油5分類（濃口・淡口・たまり・再仕込・白）内で並ぶ分類。淡口は色を抑えるが、たまりは逆に大豆主体で色を濃くする対照的な仕込みを持つ"
+    }
+   ]
+  },
+  {
+   "slug": "tamari-shoyu",
+   "body_ja": "## 何でできているか\nとろみのある質感と、大豆由来の強い旨味・コクが特徴。小麦をほとんど使わないぶん香りは穏やかで甘みは控えめ、色は濃い赤褐色。刺身にひとさじ絡めるだけで、素材の味を包み込むような濃厚さが出るため、まぐろなど脂の強い赤身魚との相性がよいとされる。煮詰めると照りが強く出るので、佃煮や煮こごりのつやを出す用途にも向く。\n\n## どう作るのか\n大豆を主原料に、麹には小麦をごく少量しか加えない。仕込み水も通常より少なめにし、大豆由来の粘りをもろみに残したまま長期熟成させる。小麦を使わない分だけ膨らみにくいもろみを丁寧に混ぜ返す手間がかかるとされ、豆味噌と同じ製法系統から生まれた造り方といえる。発酵に時間がかかるぶん、搾れる量も少なく高価になりやすいとされる。\n\n## なぜこの形になったのか\n愛知・三重・岐阜の東海3県、なかでも知多半島の半田周辺が主産地とされる。もともと豆味噌を仕込んでいた蔵で、桶の底にたまる液体を利用したのが始まりという説があり、豆味噌文化と地続きの醸造技術から生まれたとされる。稲作より大豆栽培や畑作が根付いていた土地柄も、大豆主体の醤油が育った背景にあると考えられている。知多半島の温暖な気候と海運の便も、蔵が集積した理由のひとつとされる。",
+   "body_en": "## What it's made of\nThick and viscous, with a deep umami and richness that come almost entirely from soybean. Using little to no wheat, it stays mild in aroma and restrained in sweetness, with a dark reddish-brown color — a single spoonful clinging to sashimi wraps the fish in real density.\n\n## How it's made\nSoybean is the near-sole raw material; only a trace of wheat, if any, goes into the koji. The mash is mixed with less water than usual, keeping the soybean's natural stickiness in place through a long aging period, in a brewing lineage shared with soybean miso.\n\n## Why it took this shape\nAichi, Mie, and Gifu — the Tokai region, especially around Handa on the Chita Peninsula — are its main production area. One account traces its start to breweries that already made soybean miso, using the liquid that pooled at the bottom of the miso barrels; either way it grew out of the same brewing tradition as the region's soybean miso.",
+   "sources": [
+    {
+     "title": "組合企業一覧",
+     "url": "https://www.aichimisotamari.or.jp/pages/55/",
+     "publisher": "愛知県味噌溜醤油工業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tamari-shoyu",
+     "to_slug": "saishikomi-shoyu",
+     "relation_type": "兄弟",
+     "basis": "JASの醤油5分類で並ぶ分類。ともに濃厚な仕込みだが、たまりは大豆主体、再仕込は生揚げ醤油で二度仕込む点で製法が異なる"
+    }
+   ]
+  },
+  {
+   "slug": "saishikomi-shoyu",
+   "body_ja": "## 何でできているか\n生揚げ醤油をもう一度仕込みに使うため、旨味と香りが二重に凝縮された濃厚な味わい。とろみも強く、色は黒に近い。刺身や寿司にそのままつけると、少量でも味がしっかり乗るので、醤油皿にひたひたと注がなくても十分な満足感が出る。加熱調理よりも、生のまま素材にのせる使い方でこの濃さが最も生きるとされ、卵かけご飯に数滴垂らすだけでも味の輪郭が変わる。\n\n## どう作るのか\n通常なら食塩水を使うところを、すでに完成した生揚げ醤油に置き換えて麹と合わせ、もう一度もろみを仕込んで発酵させる。二度手間の分だけ熟成に時間がかかり、旨味成分が通常より濃縮されるとされる。塩分の代わりに醤油そのものを使うため製造コストもかさみ、他の分類より高価になりやすい造り方といえる。仕込み量も限られるため、少量生産にとどまる蔵が多いとされる。\n\n## なぜこの形になったのか\n山口県柳井市の醸造家が江戸中期に生み出し、藩主に献上したところ「甘露、甘露」と称えられ「甘露醤油」とも呼ばれるようになったと伝わる。手間のかかる贅沢な仕込みが、献上品にふさわしい濃厚さを生んだといえる。瀬戸内側の温暖な気候が長い熟成にも向いていたことも、この造りが根付いた一因とされる。地元では正月や慶事の膳に使う特別な醤油として扱われることもあるという。",
+   "body_en": "## What it's made of\nBecause finished raw soy sauce is used again as the brewing liquid, its umami and aroma come doubly concentrated into a rich, dense flavor. It's noticeably thick, nearly black — even a small dab on sashimi or sushi carries real weight.\n\n## How it's made\nWhere a normal brew uses brine, this one substitutes already-finished raw soy sauce, mixes it with koji, and ferments a second mash from there. The extra step means longer aging, and is said to concentrate umami components well beyond the usual level.\n\n## Why it took this shape\nIt's said to have been created in the mid-Edo period by a brewer in Yanai, Yamaguchi, who presented it to his lord — who reportedly praised it as 'kanro, kanro' (nectar, nectar), earning it the alternate name kanro shoyu. The costly, labor-heavy double brewing produced a richness fit for a gift to one's lord.",
+   "sources": [
+    {
+     "title": "甘露しょうゆ",
+     "url": "https://www.city-yanai.jp/site/kanko/kanroshoyu.html",
+     "publisher": "柳井市",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "saishikomi-shoyu",
+     "to_slug": "shiro-shoyu",
+     "relation_type": "兄弟",
+     "basis": "JASの醤油5分類で並ぶ分類。再仕込は生揚げ醤油で二度仕込んで色濃く仕上げ、白はその対極で小麦主体・短期熟成で色を極力抑える"
+    }
+   ]
+  },
+  {
+   "slug": "shiro-shoyu",
+   "body_ja": "## 何でできているか\n琥珀色に近い薄い色と、際立つ甘みが特徴。小麦をほぼ主原料とし大豆はわずかしか使わないため、色づきが弱く、素材の色をそのまま見せたい料理の下味に向く。だしと合わせると澄んだ色合いの一皿になり、茶碗蒸しや吸い物のように見た目の透明感を保ちたい料理でその違いがよくわかる。醤油というより「透明な塩味」に近い感覚で使われることもあるという。\n\n## どう作るのか\n小麦を主原料に大豆を少量だけ加えて麹を造り、短期間で発酵させて搾る。熟成期間を長く取らないことで色の濃化を抑え、小麦由来の甘みとほのかな香ばしさを残す造り方とされる。搾ったあとも極力加熱を控えめにし、色止めと香りの両立を図るという。日持ちがしにくいぶん、仕込みから出荷までの期間が短いことも特徴とされる。\n\n## なぜこの形になったのか\n愛知県碧南市が発祥の地とされる。三河湾に面し海運と醸造に適した土地柄で、白だしなど色を淡く仕上げたい京風・関西風の料理文化に応える形で、色を抑えた醤油が求められたことが背景にあるとされる。原料が小麦主体で足りる点も、この地域の気候風土に合っていたと考えられている。同じく碧南で造られる三河みりんと合わせて使う地元の献立も少なくないといい、二つの醸造文化が同じ町で育った珍しい例とされる。",
+   "body_en": "## What it's made of\nNearly amber and pale in color, with a sweetness that stands out. Brewed mainly from wheat with only a small amount of soybean, it barely darkens a dish, making it the seasoning of choice when a recipe wants the ingredient's own color to show through, as in a clear shirodashi-based dish.\n\n## How it's made\nWheat forms the bulk of the koji, with just a touch of soybean added, and the mash ferments only briefly before pressing. Keeping the aging period short holds the color back from deepening, while preserving the sweetness and faint toastiness that comes from the wheat.\n\n## Why it took this shape\nHekinan, Aichi is said to be its birthplace — a town on Mikawa Bay well suited to both sea transport and brewing. Demand for a pale soy sauce is said to have grown out of Kyoto- and Kansai-style cooking, where dishes like shirodashi call for color to stay light rather than deepen.",
+   "sources": [
+    {
+     "title": "白しょうゆ発祥のまちで地元産有機白しょうゆ・みりんを使用した学校給食を提供",
+     "url": "https://www.city.hekinan.lg.jp/soshiki/kyouiku/shomu/gakkou_kyushoku/20158.html",
+     "publisher": "碧南市",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shiro-shoyu",
+     "to_slug": "koikuchi-shoyu",
+     "relation_type": "兄弟",
+     "basis": "JASの醤油5分類で並ぶ分類。白は小麦主体・短期熟成で色を極力抑え、濃口は大豆・小麦ほぼ等量で全国標準の色と香りに仕上げる、対照的な位置づけ"
+    }
+   ]
+  },
+  {
+   "slug": "kyushu-amakuchi-shoyu",
+   "body_ja": "## 何でできているか\n醤油に砂糖や甘味料を加えて仕込むため、塩気の奥にはっきりとした甘さが感じられる。九州各地で刺身醤油として定着しており、新鮮な魚の脂の甘みと合わさると、甘みが喧嘩せずむしろ引き立て役に回る。他地域の醤油に慣れた舌には甘すぎると感じられることもあるが、地元の刺身や卵かけご飯には欠かせない味とされ、旅行者が最初に違いに気づく味覚のひとつともいわれる。\n\n## どう作るのか\n基本は濃口醤油と同じく大豆・小麦を仕込むが、搾った醤油に砂糖や水飴などの甘味料を加えて仕上げる。地域や蔵によって甘みの強さに幅があり、刺身用・煮物用など用途で配合を変えることもあるとされる。とろみを持たせるため加熱を工夫する蔵もあり、単に甘くするだけでなく口当たりも調整されている。仕上げに加える甘味料の量や種類は蔵ごとの企業秘密とされることも多いという。\n\n## なぜこの形になったのか\n江戸期の南蛮貿易で砂糖が九州に早くから流通したことや、新鮮な魚を甘みで引き立てる食習慣が背景にあるとされる。砂糖が手に入りやすい土地だったからこそ、醤油に甘みを加える発想が定着したといえる。長崎から広がった南蛮文化の影響を色濃く残す味覚のひとつとされる。他地域の醤油とはっきり分かれた個性を持つ点も、九州の食文化らしさとして語られることが多い。",
+   "body_en": "## What it's made of\nBecause sugar or other sweeteners are worked into the brew, a clear sweetness sits beneath the saltiness. It's the everyday sashimi soy sauce across much of Kyushu, and against the natural sweetness of very fresh fish fat, the sugar doesn't compete so much as amplify it.\n\n## How it's made\nThe base brewing follows the same soybean-and-wheat process as koikuchi soy sauce, but sugar or starch syrup is added once the sauce is pressed. Sweetness levels vary by region and brewery, and some makers adjust the blend for sashimi versus simmered dishes.\n\n## Why it took this shape\nSugar is said to have reached Kyushu early via Edo-era trade with Portuguese and Dutch merchants, and a local habit of using sweetness to complement very fresh raw fish is often cited as well. Easy access to sugar is what let the idea of a sweetened soy sauce take root here.",
+   "sources": [
+    {
+     "title": "山口・九州地方における甘いしょうゆの歴史としょうゆと砂糖の関係",
+     "url": "https://www.alic.go.jp/joho-s/joho07_002775.html",
+     "publisher": "農畜産業振興機構",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kyushu-amakuchi-shoyu",
+     "to_slug": "koikuchi-shoyu",
+     "relation_type": "派生",
+     "basis": "大豆・小麦をほぼ同量用いる濃口醤油の仕込みを土台に、搾った醤油へ砂糖等の甘味料を加えて仕上げる点で濃口の派生形とされる"
+    }
+   ]
+  },
+  {
+   "slug": "shodoshima-shoyu",
+   "body_ja": "## 何でできているか\n木桶で仕込むことで生まれる、複雑で奥行きのある香りとまろやかな旨味が特徴。工業的なタンク仕込みに比べ木桶には多様な微生物が住みつき、蔵ごとに個性の違う味わいが出るとされる。同じ配合でも桶によって味が微妙に違うため、同じ蔵の醤油でも桶番号ごとに飲み比べる楽しみ方もあるという。刺身にかけると、香りの層が幾重にも重なって感じられるとされる。\n\n## どう作るのか\n大豆・小麦・食塩水を大きな木桶に仕込み、1年以上かけてじっくり発酵・熟成させる。桶自体に棲みつく酵母や乳酸菌が世代を超えて働き続けることが、木桶仕込みならではの香りを生み出すとされる。桶の手入れや温度管理には経験が要り、機械化しづらい手作業の部分が多く残っている。桶は数十年から百年単位で使い続けられることもあり、蔵の歴史そのものが発酵に関わっているといえる。\n\n## なぜこの形になったのか\n紀州湯浅の醸造技術が約400年前に伝わったとされる。温暖な気候と海運の便に恵まれ、最盛期には島内に400軒の蔵があったという。木桶仕込みは手間がかかるため多くの産地で姿を消したが、小豆島は今も現存する木桶の多くを占めるとされ、島の温暖な気候が長期熟成を可能にしたとも考えられている。瀬戸内海の穏やかな気候そのものが、手間のかかる木桶仕込みを続けられる土台になったとされる。",
+   "body_en": "## What it's made of\nWooden-barrel brewing gives it a layered, complex aroma and a rounded umami. Compared with steel-tank brewing, wooden barrels host a far more varied community of microbes, and each brewery's barrels are said to carry their own distinct character as a result.\n\n## How it's made\nSoybean, wheat, and brine go into large wooden barrels and are left to ferment and age slowly for a year or more. Yeasts and lactic bacteria that live on in the wood itself, generation after generation, are said to be what gives wooden-barrel brewing its particular aroma.\n\n## Why it took this shape\nThe brewing technique is said to have arrived from Yuasa in Kishu (present-day Wakayama) around 400 years ago. A mild climate and easy sea transport once supported some 400 breweries on the small island at its peak; wooden-barrel brewing has since vanished from most other regions because of the labor it demands, but Shodoshima still accounts for much of what remains in Japan.",
+   "sources": [
+    {
+     "title": "小豆島町の特産品「本場の本物」小豆島桶(こが)仕込醤油",
+     "url": "https://www.town.shodoshima.lg.jp/gyousei/kakuka/shokokanko/4/891.html",
+     "publisher": "小豆島町",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shodoshima-shoyu",
+     "to_slug": "koikuchi-shoyu",
+     "relation_type": "派生",
+     "basis": "大豆・小麦をほぼ同量仕込む濃口醤油の系統に位置づけられる産地銘柄で、木桶での長期熟成という製法差が個性になっている"
+    }
+   ]
+  },
+  {
+   "slug": "choshi-shoyu",
+   "body_ja": "## 何でできているか\n黒潮の影響で年間を通じて湿度が高く保たれる土地柄が、麹菌や酵母の働きに向いているとされる。関東の食文化に合わせた、塩気と旨味のバランスが取れた濃口寄りの味わいが基本となっている。派手さより安定した品質を重視した造りとされ、そばつゆやかけ醤油として日々使いやすい。江戸前寿司のつけ醤油としても好まれてきた、くせのない濃口の代表格とされる。\n\n## どう作るのか\n大豆・小麦を仕込み、利根川水系の水を使って発酵・熟成させる。江戸へ川船で運びやすい立地を生かし、大消費地である江戸の好みに合わせた醤油造りが発達したとされる。高温多湿な気候の中でも安定して発酵が進むよう、蔵の造りや温度管理に工夫が重ねられてきたという。大規模な仕込みができる蔵が多く育ったことも、この産地の特徴とされる。\n\n## なぜこの形になったのか\n紀州の商人が江戸初期に興したとされる。黒潮と親潮が交わる沖合の影響で夏冬の寒暖差が小さく高湿な気候が麹菌や酵母の働きに適していたとされ、利根川舟運で江戸へ運びやすい立地もあいまって、江戸の食を支える一大産地に育ったという。海運と水運の両方に恵まれた立地が、大量生産と品質の両立を可能にしたと考えられており、現在も国内有数の醤油産地として知られる。",
+   "body_en": "## What it's made of\nYear-round humidity, shaped by the Kuroshio current offshore, is said to suit the koji mold and yeast used in brewing. The result leans toward a koikuchi-style balance of salt and umami, tuned to match Kanto's food culture.\n\n## How it's made\nSoybean and wheat are brewed using water from the Tone River system, then fermented and aged. Its location made it easy to ship product upriver by boat to Edo, and the brewing style is said to have developed around the tastes of that huge consumer market.\n\n## Why it took this shape\nIt's said to have been founded by merchants from Kishu in the early Edo period. The mild, humid climate — shaped by the meeting of the Kuroshio and Oyashio currents offshore, which keeps summer-winter temperature swings small — is said to suit koji mold and yeast, and easy river transport to Edo via the Tone helped the town grow into a major supplier feeding the capital.",
+   "sources": [
+    {
+     "title": "銚子の醤油醸造",
+     "url": "https://japan-heritage.bunka.go.jp/ja/culturalproperties/result/1818/",
+     "publisher": "文化庁 日本遺産ポータルサイト",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "choshi-shoyu",
+     "to_slug": "koikuchi-shoyu",
+     "relation_type": "派生",
+     "basis": "大豆・小麦をほぼ同量仕込む濃口醤油の系統に位置づけられる産地銘柄で、黒潮由来の高湿な気候という土地条件が個性になっている"
+    }
+   ]
+  },
+  {
+   "slug": "kome-miso",
+   "body_ja": "## 何でできているか\n色は淡黄色から赤褐色まで幅広く、味も甘口から辛口まで産地によって大きく違う。米麹の甘みと大豆の旨味が土台にあり、地域ごとの塩分や熟成の差がそのまま個性になっている、味噌全体の中心をなす分類。汁物にすれば米麹由来の丸みのある甘さがまず舌に触れ、そのあとに大豆のコクが追いかけてくる。同じ「米味噌」でも信州味噌と江戸甘味噌ほど味の幅が出る。\n\n## どう作るのか\n蒸した大豆に米麹と塩を加えて仕込み、桶や樽で数か月から数年かけて発酵・熟成させる。米麹の量や塩分濃度、熟成期間の組み合わせを変えることで、同じ米味噌でも産地ごとに違う色・甘さ・香りが生まれる。麹の比率を上げれば甘みが強く、塩分を上げれば長期保存に向く辛口になるという具合に、配合の調整幅がそのまま地域味噌の多様さにつながっている。\n\n## なぜこの形になったのか\n稲作が盛んな地域を中心に、米麹を使う味噌として全国に広まったとされる。国内生産量の約8割を占めるとされ、信州味噌や江戸甘味噌など、気候や食文化の異なる各地の地域味噌を内側に抱える大きな括りとなっている。米が手に入りやすい土地ほど米麹の味噌が定着しやすく、結果として味噌全体の標準形になったと考えられている。",
+   "body_en": "## What it's made of\nIts color ranges from pale yellow to reddish-brown, and its flavor from sweet to sharply salty, depending on where it's made. Sweetness from rice koji and umami from soybean form the base, and regional differences in salt content and aging time become each variety's signature. In a bowl of miso soup, the rounded sweetness of the rice koji arrives first, with the soybean's depth following behind — and the gap between, say, Shinshu miso and Edo amai miso shows just how wide that range can be.\n\n## How it's made\nSteamed soybean is mixed with rice koji and salt, then left in a barrel or vat to ferment and age anywhere from a few months to a few years. Varying the amount of rice koji, the salt level, and the aging time is what gives rice miso from different regions their own color, sweetness, and aroma. More koji tends to mean more sweetness; more salt tends to mean a saltier miso built to keep longer — and that range of adjustment is exactly what lets so many distinct regional misos exist under one name.\n\n## Why it took this shape\nIt's said to have spread nationwide as the miso style built on rice koji, taking root especially where rice farming was strong. Said to account for roughly 80% of national miso production, it's the broad umbrella under which many distinct regional misos — Shinshu, Edo amai, and more — sit, each shaped by its own climate and food culture. Wherever rice was easy to get, rice-koji miso is thought to have taken hold most readily, which is likely why it became the default form of miso overall.",
+   "sources": [
+    {
+     "title": "味噌",
+     "url": "https://ja.wikipedia.org/wiki/味噌",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kome-miso",
+     "to_slug": "mugi-miso",
+     "relation_type": "兄弟",
+     "basis": "味噌の3大分類（米味噌・麦味噌・豆味噌）は麹の原料の違いで並ぶ分類とされる"
+    }
+   ]
+  },
+  {
+   "slug": "mugi-miso",
+   "body_ja": "## 何でできているか\n米味噌に比べて熟成期間が短く色も淡い傾向で、麦由来の香ばしさとやさしい甘みが前面に出る。九州や中国・四国など、自家用として素朴な味わいのまま親しまれてきた味噌で、汁物にすると麦の香りがふわりと立ち、後味は意外なほどあっさりしている。米味噌のようなコクの強さよりも、日々の食卓に馴染む軽さが持ち味とされる。\n\n## どう作るのか\n蒸した大豆に麦麹と塩を加えて仕込む。米麹よりも短期間で熟成が進むとされ、色の濃化が進む前に食べごろを迎えることが多く、結果として淡い色と軽い口当たりに仕上がる。麦麹自体の粒が大きく、糖化が進みやすい性質を持つことも、短期間で甘みが出る一因とされる。仕込みから食べ頃までの回転が早いぶん、自家用の味噌として扱いやすかったといえる。\n\n## なぜこの形になったのか\n稲作が難しい土地で、米の代わりに麦を使う知恵として自家用に広まったとされる。九州や中国・四国地方など、米作りより麦の栽培が根付いていた地域の事情が、麦味噌という分類を生んだといえる。味噌を買うのではなく各家庭で仕込む文化が根強かった地域ほど、手に入りやすい麦を使う味噌が定着したと考えられている。同じ麦味噌でも九州と中国・四国では甘さや色に差があり、土地ごとの気候がそのまま反映されているとされる。",
+   "body_en": "## What it's made of\nIt tends to age faster and stay paler than rice miso, letting barley's toasty aroma and gentle sweetness come through up front. Long popular as a home-brewed staple in Kyushu and the Chugoku-Shikoku region, it keeps a rustic, straightforward flavor — in soup, the barley's aroma lifts first, and the aftertaste stays surprisingly light rather than heavy with umami the way rice miso can be.\n\n## How it's made\nSteamed soybean is mixed with barley koji and salt. It's said to age faster than rice-koji miso, often reaching its best before the color has deepened much, which is part of why it stays pale and light on the palate. Barley koji's larger grain and readiness to saccharify are also credited with bringing out sweetness quickly. That short turnaround from brewing to eating made it practical as a staple to make at home.\n\n## Why it took this shape\nIt's said to have spread as a home-brewed solution in places where rice farming was harder, using barley in its place. Regions like Kyushu and Chugoku-Shikoku, where barley cultivation took root more readily than rice, are what shaped barley miso as its own category. Where households brewed their own miso rather than buying it, it's thought that whichever grain was easiest to get — barley, in these regions — was the one that stuck.",
+   "sources": [
+    {
+     "title": "麦味噌",
+     "url": "https://ja.wikipedia.org/wiki/麦味噌",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mugi-miso",
+     "to_slug": "mame-miso",
+     "relation_type": "兄弟",
+     "basis": "味噌の3大分類（米味噌・麦味噌・豆味噌）は麹の原料の違いで並ぶ分類とされる"
+    }
+   ]
+  },
+  {
+   "slug": "mame-miso",
+   "body_ja": "## 何でできているか\n大豆だけを原料に麹を造るため、色は黒に近いほど濃く、香ばしさの奥に渋みを伴う力強い旨味がある。米麹や麦麹を使う味噌に比べて甘みは控えめで、噛みしめるような濃厚さが際立つ。汁物にすればひと口で味の芯が伝わり、少量でも料理全体の輪郭を引き締める力を持つとされる。田楽や味噌おでんのように、味噌そのものを主役にする料理と特に相性がよいという。\n\n## どう作るのか\n蒸した大豆をそのまま麹にし、米や麦を加えずに塩と合わせて仕込む。木桶と重石を使い、2年前後という長期の熟成を経ることで、深い色と渋みを伴う旨味が育つとされる。大豆だけの仕込みは麹の糖化が進みにくく甘みが出にくいぶん、長期熟成によって旨味成分を引き出す造り方が発達したといえる。重石の圧力で水分を絞り出しながら熟成させる点も、他の味噌にはない工程とされる。\n\n## なぜこの形になったのか\n愛知・三重・岐阜の東海3県を中心に生産されるとされる。稲作より大豆栽培が盛んだった土地の事情に加え、高温多湿な気候でも長期熟成に耐える濃い塩分と大豆だけの配合が、この地域で定着したと考えられている。八丁味噌に代表される力強い味わいは、豆味噌文化圏に共通する特徴とされる。同じ大豆を主原料とする溜醤油も、この地域から生まれた点で共通している。",
+   "body_en": "## What it's made of\nMade from soybean alone, it's dark, sometimes nearly black, with a bold umami that carries a slight astringency beneath its toasty depth. It stays far less sweet than rice- or barley-koji miso, and its density is the whole point — a single spoonful in soup carries the flavor through the whole bowl, and even a small amount can anchor a dish.\n\n## How it's made\nSteamed soybean itself is turned into koji, mixed with salt with no rice or barley added. Aged for around two years under wooden barrels and heavy stone weights, it's said to develop its deep color and astringent umami through that long wait. Because an all-soybean koji saccharifies less readily and yields less sweetness on its own, the long aging is what's said to draw out its umami instead.\n\n## Why it took this shape\nProduction centers on the Tokai region — Aichi, Mie, and Gifu. Alongside a local history of growing soybean over rice, the region's hot, humid climate is thought to have favored a soybean-only, high-salt recipe tough enough to survive the long aging it needs. The bold, long-aged character typified by Hatcho miso is said to be a shared trait across this soybean-miso belt.",
+   "sources": [
+    {
+     "title": "味噌",
+     "url": "https://ja.wikipedia.org/wiki/味噌",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mame-miso",
+     "to_slug": "kome-miso",
+     "relation_type": "兄弟",
+     "basis": "味噌の3大分類（米味噌・麦味噌・豆味噌）は麹の原料の違いで並ぶ分類とされる"
+    }
+   ]
+  },
+  {
+   "slug": "shinshu-miso",
+   "body_ja": "## 何でできているか\n淡い黄色と、かすかな酸味を伴う軽やかな味わいが特徴の米味噌。塩気はしっかりありながら後味は意外とすっきりしていて、汁物にすると出汁の香りを邪魔しない。強い個性を主張しない分、野菜や魚どんな具にも合わせやすい万能さが持ち味とされる。全国どこのスーパーでも見かける存在感の薄さが、逆にこの味噌の実力を物語っているといえる。\n\n## どう作るのか\n米麹を多めに使い、比較的短期間で発酵・熟成させる。長野の澄んだ水と寒冷な気候がゆっくりとした発酵を助け、雑味の少ない淡い色合いに仕上がるとされる。標高が高く冷涼な環境で発酵がゆるやかに進むことが、酸味を伴う軽やかな後味につながっているという。大規模な蔵から小さな蔵まで、共通の製法基準を守りながら量産できる体制が整っている。\n\n## なぜこの形になったのか\n鎌倉時代に禅僧が製法を伝えたとの言い伝えがある。長野県は出荷量・出荷額とも全国一とされ、寒冷な気候と豊かな水に恵まれた土地条件が、国内で流通する味噌のおよそ半分を占めるまでの生産規模を支えてきたとされる。癖の少ない味わいが全国どこの食卓にも合わせやすかったことも、普及を後押ししたと考えられている。信州味噌協同組合連合会が品質基準を定め、産地としてのブランドを維持してきた点も普及を支えている。",
+   "body_en": "## What it's made of\nA pale yellow rice miso with a light, faintly tangy flavor. The saltiness is present but the aftertaste stays surprisingly clean, making it a soup base that doesn't fight with the dashi underneath it. Its restraint is exactly what makes it so adaptable — it pairs easily with vegetables, fish, almost anything.\n\n## How it's made\nIt's brewed with a generous amount of rice koji and ferments over a relatively short period. Nagano's clear water and cold climate are said to slow the fermentation down gently, producing a pale color with little off-flavor. The high altitude and cool air are credited with that slow pace of fermentation, which is what leaves the light, faintly tangy finish.\n\n## Why it took this shape\nTradition holds that a Zen monk brought the technique here in the Kamakura period. Nagano leads Japan in both miso shipment volume and value, and its cold climate and abundant clean water are said to underpin a production scale large enough that Shinshu miso now makes up roughly half of all miso distributed nationwide. Its mild, unassuming flavor is also thought to have helped it travel well to tables far outside Nagano.",
+   "sources": [
+    {
+     "title": "信州味噌を知る",
+     "url": "https://shinshu-miso.or.jp/learn/",
+     "publisher": "長野県味噌工業協同組合連合会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shinshu-miso",
+     "to_slug": "kome-miso",
+     "relation_type": "派生",
+     "basis": "米麹を使う米味噌の一種であり、長野の気候・水を背景に発達した地域味噌として米味噌に位置づけられる"
+    }
+   ]
+  },
+  {
+   "slug": "sendai-miso",
+   "body_ja": "## 何でできているか\n赤褐色で塩気の強い辛口の米味噌。長期間熟成させるため香りは複雑で、大豆の旨味がしっかりと濃縮されている。汁物にすると力強いコクが出て、寒い土地の食卓によく合う。冷めても味がぼやけにくく、具だくさんの汁物と合わせても負けない濃さを持つとされ、根菜や魚介の出汁と合わせると味の輪郭がさらにはっきりする。焼き味噌にして香ばしさを足す食べ方も、この地域では珍しくないという。\n\n## どう作るのか\n米麹の使用量を抑えめにし、塩分を高めにして長期間熟成させる。保存性を高めるための造り方とされ、結果として色が濃く、旨味が凝縮された味わいに仕上がる。塩分を高めることで雑菌の繁殖を抑えつつ、時間をかけて大豆由来の旨味成分を引き出す仕込み方が特徴とされる。寒冷な気候そのものがゆっくりとした熟成を後押ししているという。\n\n## なぜこの形になったのか\n仙台藩祖・伊達政宗が城下に専用の味噌蔵を設けたのが始まりと伝わる。朝鮮出兵の際に他藩の味噌が腐敗する中、仙台藩の味噌だけが変質しなかったという逸話が伝わり、高塩分・長期熟成という保存を重視した造りが特徴として根付いたとされる。軍の兵糧としての実用性が、そのまま味の個性になったといえる。仙台という城下町が長く消費地としても機能したことが、この味噌の伝統を支えてきたとされる。",
+   "body_en": "## What it's made of\nA reddish-brown, firmly salted rice miso on the savory side. Its long aging gives it a complex aroma and concentrates the soybean's umami; used in soup, it delivers a bold depth well suited to a cold-climate table. The flavor holds up even once the soup cools, and it doesn't get lost against a bowl loaded with other ingredients.\n\n## How it's made\nRice koji is used more sparingly and salt content kept high, with a long aging period on top. The approach is said to have favored keeping the miso from spoiling, and the result is a dark color with tightly concentrated umami. The higher salt is credited with holding off unwanted bacteria while the long aging slowly draws the umami out of the soybean.\n\n## Why it took this shape\nIt's said to trace back to a dedicated miso storehouse built by Date Masamune, founding lord of the Sendai domain. A well-known anecdote holds that during a 16th-century overseas campaign, other domains' miso spoiled in the heat while Sendai's alone held up — and that emphasis on keeping miso from spoiling, through high salt and long aging, is said to have become the style's defining trait. What began as practical military provisioning is what shaped its flavor.",
+   "sources": [
+    {
+     "title": "「仙台みそ」の長い歴史",
+     "url": "http://www.omiso.or.jp/misohistory/misohistory.html",
+     "publisher": "宮城県味噌醤油工業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sendai-miso",
+     "to_slug": "kome-miso",
+     "relation_type": "派生",
+     "basis": "米麹を使う米味噌の一種であり、仙台藩の保存重視の仕込みから発達した地域味噌として米味噌に位置づけられる"
+    }
+   ]
+  },
+  {
+   "slug": "hatcho-miso",
+   "body_ja": "## 何でできているか\n黒に近い色と、噛むほどに広がる渋みを伴った濃厚な旨味が特徴の豆味噌。甘みはほとんどなく、少量でも汁や煮込みの味に強い芯を通せる力強さがある。田楽のように味噌そのものを主役にする料理では、この濃さがそのまま個性になる。カレーやクリーム系の料理に隠し味として使っても負けない濃度を持つとされ、少量でコクだけを足す使い方もできる。\n\n## どう作るのか\n大豆と塩水のみを原料とし、大きな木桶に仕込んで重石を積む。2年以上という長期の熟成を経ることで、水分が抜けて旨味が凝縮され、独特の黒に近い色と渋みが生まれるとされる。重石の重さと木桶の大きさは今も蔵ごとに受け継がれた独自の配分があるという。米や麦を加えない分、糖化しにくく甘みが出にくいため、渋みと旨味だけが際立つ仕上がりになるとされる。\n\n## なぜこの形になったのか\n岡崎城から西へ八丁（約870メートル）の地区で造られてきたことが名の由来と伝わる。矢作川の水運を通じて原料の大豆や塩が運び込みやすく、豆味噌文化の盛んな東海地方の中でも、特に長期熟成にこだわる造りが定着したとされる。城下町という立地が、原料の調達と長期保存の両方を後押ししたと考えられている。三河一帯に根付く大豆中心の醸造文化の中でも、特に濃厚さを極めた形といえる。",
+   "body_en": "## What it's made of\nA soybean miso that runs nearly black, with a deep umami and an astringency that grows the more you chew. It carries almost no sweetness, and even a small amount can carry the flavor of a soup or simmered dish on its own — in a dish like dengaku, where the miso itself takes center stage, that density becomes the whole point.\n\n## How it's made\nMade from only soybean and brine, packed into large wooden barrels and topped with stacked stone weights. Aging for two years or more is said to drive out moisture, concentrate the umami, and produce the near-black color and astringency that define it. The weight of the stones and the size of the barrels still follow ratios handed down within each individual brewery.\n\n## Why it took this shape\nIts name is said to come from the district '8 cho' (about 870 meters) west of Okazaki Castle, where it has long been brewed. Easy river transport of soybean and salt via the Yahagi River is credited with helping the style take hold, and within the wider soybean-miso culture of Tokai, this particular emphasis on very long aging is said to have set it apart. Being a castle town helped with both sourcing ingredients and storing the miso long-term.",
+   "sources": [
+    {
+     "title": "八丁味噌の産地",
+     "url": "https://okazaki-kanko.jp/feature/hayawakari/miso",
+     "publisher": "岡崎市観光協会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hatcho-miso",
+     "to_slug": "mame-miso",
+     "relation_type": "派生",
+     "basis": "大豆のみを原料とする豆味噌の代表的な地域銘柄で、豆味噌に位置づけられる"
+    }
+   ]
+  },
+  {
+   "slug": "saikyo-miso",
+   "body_ja": "## 何でできているか\n塩分5%前後と控えめで、白く甘みの強い味噌。米麹を通常より多く使うため、コクよりも麹由来のまろやかな甘さが先に立つのが特徴で、西京焼きなど焼き物に使うと表面が香ばしく焦げやすい。魚を漬け込んでも塩気で身を締めすぎず、ふっくらとした焼き上がりになるとされる。上品な甘さのぶん、味噌汁よりも焼き物や和え物の下味として使われることが多い。\n\n## どう作るのか\n大豆に対して米麹の比率を高くし、短期間で発酵させる。塩を控えめにする分、腐敗を防ぐため発酵期間を短く抑える造り方とされ、これが白く甘い仕上がりにつながっている。低塩の仕込みは温度・衛生管理に手間がかかるため、他の味噌より繊細な扱いを要するという。発酵を早めに止めることで、色が濃くなる前の白さを保っているとされる。\n\n## なぜこの形になったのか\n京都所司代の依頼で宮中料理用に献上されたのが始まりと伝わる。塩分の強い味噌が求められた武家や庶民の食卓とは異なり、上品な甘さを重んじる宮中・公家の食文化に応える形で低塩・甘口の味噌が発達したとされる。京都府味噌工業協同組合が原料や産地を定めて認定する呼称でもあり、産地と味の両方が厳格に管理されていることが、京料理の看板を支えているといえる。",
+   "body_en": "## What it's made of\nLow in salt, at around 5%, and distinctly white and sweet. A higher-than-usual proportion of rice koji means the flavor leads with a mellow, koji-driven sweetness rather than deep saltiness — and used in grilled dishes like saikyo-yaki, its surface browns and caramelizes readily. Fish marinated in it doesn't get pushed too firm by salt, and comes off the grill notably plump.\n\n## How it's made\nThe ratio of rice koji to soybean is raised, and the mash ferments over a short period. Keeping the salt low means the fermentation time has to stay short to avoid spoilage, and that short brew is part of what makes it so white and sweet. Low-salt brewing demands closer attention to temperature and hygiene, making it a more delicate process than most miso.\n\n## Why it took this shape\nIt's said to have originated when it was presented for court cuisine at the request of Kyoto's shogunal deputy. Unlike the higher-salt miso favored by warrior households and commoners, it's said to have developed as a low-salt, sweet miso suited to the refined tastes of the imperial court and nobility. The name is now also a certified designation defined by the Kyoto Miso Industry Cooperative, governing its ingredients and production area.",
+   "sources": [
+    {
+     "title": "京みそ「西京味噌」について",
+     "url": "https://kyomiso.com/saikyomiso.html",
+     "publisher": "京都府味噌工業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "saikyo-miso",
+     "to_slug": "kome-miso",
+     "relation_type": "派生",
+     "basis": "米麹を高比率で使う米味噌の一種であり、宮中料理向けに発達した地域味噌として米味噌に位置づけられる"
+    }
+   ]
+  },
+  {
+   "slug": "edoamai-miso",
+   "body_ja": "## 何でできているか\n麹を贅沢に使う甘口味噌で、色は濃い茶色ながら味わいは軽く甘い。豆味噌のような重い旨味と京都白味噌のような甘さを両方感じられる、他の味噌にはない独特のバランスを持つ。汁物より、ふろふき大根や野菜のあえ衣など、甘みをそのまま生かす料理に向くとされる。江戸っ子好みとされる濃い味付けとは対照的に、実は繊細な甘さが持ち味の味噌といえる。\n\n## どう作るのか\n麹の使用量を通常より多くし、短期間で発酵させることで甘みを強く残す。熟成期間が短いぶん日持ちがしないため、造ってすぐ食べる前提の造り方とされる。麹の比率が高い分、発酵中の温度管理を誤ると甘みより酸味が先に出てしまうため、経験のいる仕込みとされる。長期熟成させる味噌とは正反対の、鮮度勝負の造り方といえる。\n\n## なぜこの形になったのか\n三河の豆味噌の旨味と京都白味噌の甘さを兼ね備えるよう考案されたと伝わる。熟成が短く日持ちしない新鮮さが、その日のうちに食べきる江戸っ子の気質に合っていたとされ、東京都地域特産品にも認証されている。二つの異なる味噌文化の折衷という成り立ちが、他にない甘さと旨味の同居を生んだといえる。参勤交代などで各地の味噌文化が江戸に集まったことも、この折衷が生まれた土壌になったと考えられている。",
+   "body_en": "## What it's made of\nA sweet miso made with a generous helping of koji — dark brown in color but light and sweet in flavor. It manages to carry both the heavy umami of soybean miso and the sweetness of Kyoto's white miso, a balance no other miso quite matches. It suits dishes that let sweetness stand on its own, like simmered daikon or a vegetable dressing, more than a plain soup.\n\n## How it's made\nUsing more koji than usual and fermenting for only a short time keeps the sweetness pronounced. That short aging also means it doesn't keep well, and it's essentially made to be eaten soon after brewing. The high koji ratio also makes it unforgiving: get the fermentation temperature wrong and sourness can overtake the sweetness, which is why it's considered a brew that takes real experience.\n\n## Why it took this shape\nIt's said to have been devised to combine the umami of Mikawa's soybean miso with the sweetness of Kyoto's white miso. Its short shelf life and need to be eaten fresh reportedly suited the fast-living tastes of Edo's townspeople, and it now carries Tokyo's regional specialty certification. Blending two very different miso traditions is what's said to have produced a sweetness and umami found together nowhere else.",
+   "sources": [
+    {
+     "title": "あぶまた 江戸甘味噌",
+     "url": "https://www.e-mark-iishina.metro.tokyo.lg.jp/foods/detail/id=107",
+     "publisher": "東京都地域特産品認証食品（Eマーク）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "edoamai-miso",
+     "to_slug": "kome-miso",
+     "relation_type": "派生",
+     "basis": "麹を多用する米味噌の一種であり、三河豆味噌と京都白味噌の折衷として発達した地域味噌として米味噌に位置づけられる"
+    }
+   ]
+  },
+  {
+   "slug": "echigo-miso",
+   "body_ja": "## 何でできているか\n精白した丸米の米麹が味噌の中で粒のまま浮いて見えることから「浮麹味噌」とも呼ばれる、赤色でしっかりした辛口の味噌。粒感の残る麹が、噛んだときに独特の食感を添える。汁物にすると麹の粒がそのまま口に残り、なめらかな味噌とは違う存在感を出すとされる。粒を目で確認できることが、他の味噌との違いをひと目で伝える特徴にもなっている。\n\n## どう作るのか\n米を削りすぎずに粒を残したまま麹にするため、仕込んだあとも麹の粒がそのまま味噌の中に残る。上越・中越・下越・佐渡それぞれの気候風土に応じて塩分や熟成期間を変えるとされる。粒を残す分だけ糖化がゆっくり進み、辛口ながらどこか米の風味を感じる味わいになるという。精米の削り方ひとつで粒の残り方が変わるため、蔵ごとに扱いの差が出るとされる。\n\n## なぜこの形になったのか\n豪雪地帯として知られる新潟県では、雪に閉ざされる冬に備えた保存食としての性格が強かったとされる。地域ごとに気候差が大きい新潟の中で、上越・中越・下越・佐渡それぞれに独自の作り方が根付いたという。厳しい冬を越すための保存性の高さが、そのまま味噌の骨格になったといえる。日本海側の湿った気候も、長期熟成に向いた発酵環境を整えてきたと考えられている。",
+   "body_en": "## What it's made of\nA red, savory miso also called 'ukikoji miso' (floating-koji miso), because whole, polished rice grains stay visible as koji within the paste. Those intact grains give it a distinct texture with each bite — stirred into soup, the koji grains stay noticeable on the tongue, unlike the smooth paste of other miso styles.\n\n## How it's made\nThe rice is milled just enough to keep the grains whole before being turned into koji, so the koji grains remain visible in the finished paste. Salt content and aging time are said to vary across Niigata's Joetsu, Chuetsu, Kaetsu, and Sado districts, each shaped by its own local climate. Leaving the grains whole slows saccharification, giving it a savory edge that still carries a trace of rice flavor.\n\n## Why it took this shape\nIn a region known for heavy snowfall, miso is said to have taken on a strong role as a preserved food to see households through winters cut off by snow. Within Niigata's considerable internal climate variation, each of its four districts — Joetsu, Chuetsu, Kaetsu, and Sado — is said to have developed its own particular way of making it. Surviving a harsh winter is, in effect, what shaped its backbone.",
+   "sources": [
+    {
+     "title": "越後みその特徴",
+     "url": "https://niigata-miso-shouyu.amebaownd.com/pages/8214177/page_202409040957",
+     "publisher": "新潟県味噌醤油工業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "echigo-miso",
+     "to_slug": "kome-miso",
+     "relation_type": "派生",
+     "basis": "丸米麹を使う米味噌の一種であり、豪雪地帯の保存食として発達した地域味噌として米味噌に位置づけられる"
+    }
+   ]
+  },
+  {
+   "slug": "tsugaru-miso",
+   "body_ja": "## 何でできているか\n色濃い赤色で塩気の強い、辛口の米味噌。足かけ3年に及ぶ長期熟成により、香りは複雑で旨味がぎゅっと詰まった濃厚な味わいになる。寒冷な気候に負けない、しっかりした塩気が特徴で、根菜たっぷりの汁物にしても味がぼやけない。厳寒の土地の食卓で、体を温める汁物の芯として長く親しまれてきたとされ、りんごを使った郷土料理にも合わせやすいという。\n\n## どう作るのか\n米麹と大豆を仕込み、寒冷な気候の中でじっくりと3年近くかけて熟成させる。塩分をやや高めに保つことで、長期熟成でも品質を保ちながら発酵を進める造り方とされる。冬の低温をあえて利用し、ゆっくりとした発酵で雑味を抑えつつ旨味を凝縮させるという。3年という時間の長さが、他の米味噌にはない厚みのある香りを育てているといえる。\n\n## なぜこの形になったのか\n弘前藩が軍需備蓄として麹屋の営業を奨励したことから広まったとされる。津軽地方の厳しい寒さに耐えるため、塩分を高めにして長期熟成させる造りが定着し、備蓄食としての役割も果たしてきたと考えられている。寒さの厳しい土地ほど、保存性を優先した味噌が根付いたといえる。津軽平野の寒暖差が、じっくりとした発酵に適した環境を生んだとも考えられている。",
+   "body_en": "## What it's made of\nA deep-red, savory rice miso with a firm saltiness. Aging for close to three years gives it a complex aroma and a dense, concentrated umami — a sturdy saltiness that stands up to the region's cold, and doesn't get lost even in a soup loaded with root vegetables.\n\n## How it's made\nRice koji and soybean are brewed and then left to age slowly for close to three years through the cold local climate. Keeping the salt a little higher than usual is said to help the miso hold its quality through that long aging. The cold winter is used deliberately, slowing fermentation to suppress off-flavors while concentrating the umami.\n\n## Why it took this shape\nIt's said to have spread after the Hirosaki domain encouraged koji makers to operate as a form of military provisioning. To withstand the Tsugaru region's harsh cold, the miso is said to have settled into a higher-salt, long-aged style that also served as a stockpiled food. The harsher the climate, it seems, the more a preservation-first miso took hold.",
+   "sources": [
+    {
+     "title": "公益社団法人 弘前観光コンベンション協会",
+     "url": "https://www.hirosaki-kanko.or.jp/edit.html?id=cat03_food01",
+     "publisher": "弘前観光コンベンション協会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tsugaru-miso",
+     "to_slug": "kome-miso",
+     "relation_type": "派生",
+     "basis": "米麹を使う米味噌の一種であり、藩の備蓄目的で発達した地域味噌として米味噌に位置づけられる"
+    }
+   ]
+  },
+  {
+   "slug": "kyushu-mugi-miso",
+   "body_ja": "## 何でできているか\n色は淡く、甘口に仕上がる麦味噌。温暖な気候のおかげで熟成が早く進み、塩分も全国平均より低めのものが多いとされ、麦由来のやさしい甘さと香ばしさが際立つ。九州の甘口醤油と同様、地元の食卓は全体に甘みを好む傾向があるとされ、汁物にすると角の立たない優しい後味になる。豚汁のように具材の多い汁物でも、甘みが全体をまとめる役割を果たすという。\n\n## どう作るのか\n麦麹を多めに使い、比較的短期間で仕上げる。温暖な九州の気候では発酵が早く進むため、長く寝かせずとも甘みとコクが出やすく、塩分を抑えても保存が利く造り方が根付いたとされる。気温の高さが発酵を後押しする分、他地域より短い熟成期間で仕上げられるという。同じ麦味噌でも寒冷地の造りに比べ、色の濃化が進みにくい点が特徴とされる。\n\n## なぜこの形になったのか\n米作りより麦の裏作が根付いていた土地の事情から広まったとされる。稲作に適さない土地でも育てやすい麦を使う知恵に加え、温暖な気候が短期熟成でも十分な旨味を引き出せる条件を整えたと考えられている。甘口の醤油と麦味噌がともに好まれる土地柄が、九州の甘み文化を形づくっているといえる。稲作より麦作りに向いた土地の広さが、そのまま麦味噌の生産量を支えてきたとされる。",
+   "body_en": "## What it's made of\nA pale, sweet barley miso. The mild local climate speeds up aging, and many versions run lower in salt than the national average, letting barley's gentle sweetness and toasty note come through clearly. Much like Kyushu's sweetened soy sauce, the region's table as a whole tends to favor sweetness.\n\n## How it's made\nA generous share of barley koji is used and the miso is finished over a relatively short period. Kyushu's warm climate speeds fermentation, so even a short rest brings out real sweetness and depth, letting the miso stay both low-salt and shelf-stable. The heat itself does much of the work, letting brewers get away with a shorter aging time than colder regions need.\n\n## Why it took this shape\nIt's said to have taken root where barley, grown as a second crop after rice, was more readily available than rice itself. Beyond the practicality of a grain that grows where rice struggles, the region's mild climate is thought to have made a short aging period enough to develop real flavor. A shared taste for sweetness, seen in both the local soy sauce and this miso, is part of what defines Kyushu's food culture.",
+   "sources": [
+    {
+     "title": "麦味噌",
+     "url": "https://ja.wikipedia.org/wiki/麦味噌",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kyushu-mugi-miso",
+     "to_slug": "mugi-miso",
+     "relation_type": "派生",
+     "basis": "麦麹を使う麦味噌の一種であり、九州の温暖な気候の中で発達した地域味噌として麦味噌に位置づけられる"
+    }
+   ]
+  },
+  {
+   "slug": "gozen-miso",
+   "body_ja": "## 何でできているか\n麹を多めに使ったやや甘口の米味噌。塩気よりも麹由来のふくよかな甘みが前面に出るのが特徴で、殿様の御膳に供された歴史にふさわしい上品な口当たりを持つ。汁物にすると角の立たないまろやかな味になり、素材の味を邪魔しない控えめな存在感がある。派手さのない甘みが、日常の膳にも特別な膳にも馴染む理由とされ、徳島の郷土料理では今も日常的に使われている。\n\n## どう作るのか\n米麹の比率を高めに仕込み、甘みを引き出す。藍の栽培の裏作として育てられた大豆を使う伝統があるとされ、原料調達の仕組みも地域の農業と結びついてきた。麹を多めに使うぶん発酵管理には手間がかかり、品質を保つための細やかな温度調整が必要とされる。原料の産地や配合を組合が定めることで、味のばらつきを抑えているという。\n\n## なぜこの形になったのか\n阿波藩主・蜂須賀家政の御膳に供されたことが名の由来と伝わる。藍の栽培の裏作として大豆が育てられていたことも背景にあるとされ、1966年に組合商標として登録され地域の味として守られてきた。藍という換金作物と味噌造りが同じ土地で結びついていたことが、この味噌の成り立ちを支えている。徳島の温暖な気候も、米麹を多用する仕込みに向いていたと考えられている。",
+   "body_en": "## What it's made of\nA somewhat sweet rice miso, made with a generous share of koji. Its flavor leads with koji-driven sweetness rather than salt, a refined character fitting for a miso once served at a lord's own table. In soup it comes across mellow with no sharp edges, a quiet presence that doesn't crowd out other ingredients.\n\n## How it's made\nA higher proportion of rice koji is worked into the mash to draw out its sweetness. Soybean grown as a rotation crop alongside the region's indigo trade is part of its traditional supply chain, tying its ingredients to local agriculture. The higher koji content also demands closer attention to fermentation temperature to keep quality consistent.\n\n## Why it took this shape\nIts name is said to come from having been served at the table (gozen) of Hachisuka Iemasa, lord of the Awa domain. Soybean grown as a rotation crop alongside the domain's indigo trade is cited as part of its background, and it became a registered cooperative trademark in 1966, protecting it as a regional specialty. Indigo, the region's cash crop, and miso brewing ended up tied together on the same land.",
+   "sources": [
+    {
+     "title": "Q 御膳みその由来は？",
+     "url": "https://tokushima-gozenmiso.jimdofree.com/q-a/",
+     "publisher": "徳島県味噌工業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gozen-miso",
+     "to_slug": "kome-miso",
+     "relation_type": "派生",
+     "basis": "米麹を多用する米味噌の一種であり、藩主に献上された歴史を持つ地域味噌として米味噌に位置づけられる"
+    }
+   ]
+  },
+  {
+   "slug": "kome-su",
+   "body_ja": "## 何でできているか\n米と水だけで造られる、まろやかで旨味を感じやすい酢。ツンとくる酸の刺激よりも、口に含んだあとにふわりと広がる米の甘みと丸みが先に立つ。すし飯に混ぜると、酢の角が立たずに米粒全体になじみ、酢飯特有のつやとまとまりを生むとされる。合わせ酢にしても他の調味料を邪魔しない懐の広さがあり、南蛮漬けや酢の物でも素材の味を引き立てる。加熱すると酸味がさらに丸くなるため、合わせ酢を煮切って使う料理にも向くとされる。\n\n## どう作るのか\n蒸した米に麹と酵母を加えて酒を造り、それに酢酸菌を加えてさらに発酵させる二段階の工程を経る。JAS規格では穀物1リットルあたり米40g以上の使用が定められており、半年から1年ほど熟成させることでとがった酸味が落ち着き、まろやかさが増すとされる。米の使用量が多いほど旨味とコクが強く出るという。発酵と熟成の両方に時間をかける分、大量生産の合成酢よりも手間のかかる造り方とされる。\n\n## なぜこの形になったのか\n米を原料にできる土地であれば全国どこでも造れたことから、地域を問わず広く根付いたとされる。酒造りの技術がそのまま酢造りにも応用できたため、日本酒の産地と重なる形で酢の産地も各地に生まれたと考えられている。他の穀物酢に比べてまろやかで旨味を感じやすいとされ、和食全般の基準となる酢として扱われてきた。すし文化の広がりとともに、酢そのものの需要も各地で高まったと考えられている。",
+   "body_en": "## What it's made of\nA mellow, umami-forward vinegar made from rice and water alone. Rather than a sharp, biting acidity, what comes through first is a soft, rounded sweetness from the rice itself. Mixed into sushi rice, it blends in without leaving any harsh edge, giving sushi rice its characteristic sheen and cohesion, and it stays unobtrusive enough to sit comfortably in almost any mixed dressing.\n\n## How it's made\nSteamed rice is fermented with koji and yeast into a sake-like liquid, which is then fermented a second time with acetic acid bacteria. Japan's JAS standard requires at least 40g of rice per liter of grain used, and aging for roughly six months to a year is said to soften the sharp acidity into something mellower. A higher rice content tends to mean a deeper umami and richness.\n\n## Why it took this shape\nBecause rice could be grown almost anywhere, this vinegar is said to have taken root nationwide rather than in one particular region. Sake-brewing know-how carried over directly into vinegar brewing, so vinegar production areas are thought to have grown up largely overlapping with sake-brewing regions. Generally described as mellower and more umami-forward than other grain vinegars, it has come to serve as the baseline vinegar across Japanese cooking.",
+   "sources": [
+    {
+     "title": "米酢（こめず）",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/komezu.html",
+     "publisher": "農林水産省 にっぽん伝統食図鑑",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kome-su",
+     "to_slug": "ponzu",
+     "relation_type": "対比",
+     "basis": "米酢は米と水のみで造る単一原料の醸造酢であるのに対し、ぽん酢は柑橘・酢・醤油などを合わせる複合調味料で、素材構成が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "kurozu",
+   "body_ja": "## 何でできているか\n琥珀色から黒褐色まで熟成とともに濃くなる色合いと、まろやかな酸味の奥にある芳ばしい香りが特徴。米酢よりも旨味とコクが強く、飲む酢としてそのまま水や炭酸で割っても味が持つ。料理に使うと酸味だけでなく香ばしさも加わるため、黒酢あんかけのように味の輪郭をはっきりさせたい料理と相性がよいとされる。豚肉など脂の多い食材と合わせると、酸味が脂を切りながらコクを補う働きをするという。\n\n## どう作るのか\n屋外に並べた壺の中で、蒸した米・米麹・水を仕込み、壺一つで糖化・発酵・酢酸発酵までを行う。上澄みが徐々に琥珀色から黒褐色へと変わっていく様子が見た目でわかり、発酵と熟成に1年前後をかける。日光と気温の変化にさらされながら壺の中でゆっくり進む発酵が、独特の香ばしさと深い色を生むとされる。密閉されたタンクではなく壺の口を開けたまま発酵させる点も、他の酢造りとは異なる特徴とされる。\n\n## なぜこの形になったのか\n鹿児島県霧島市福山町が発祥地とされる。良質な水と米に加え、壺を屋外に並べて発酵させるのに適した温暖な気候と、台風などの風雨をしのげる立地が福山町にはそろっていたとされる。壺仕込みという独特の製法は、この土地の気候風土なしには成立しなかったと考えられている。壺畑と呼ばれる景観そのものが、この土地の発酵文化を象徴しているという。",
+   "body_en": "## What it's made of\nIts color deepens from amber to blackish-brown with age, and beneath a mellow acidity sits a distinctly toasty aroma. It carries more umami and richness than plain rice vinegar, enough that it holds up as a drink diluted with water or soda. Used in cooking, it adds toastiness along with sourness, which is why dishes like kurozu-based sauces lean on it to sharpen a dish's flavor.\n\n## How it's made\nSteamed rice, rice koji, and water are set inside earthenware jars lined up outdoors, and a single jar carries the process through saccharification, fermentation, and acetic fermentation in one vessel. The liquid visibly darkens from amber toward blackish-brown over roughly a year of fermentation and aging. That slow process, exposed to sunlight and shifting temperatures inside the jar, is said to be what produces its particular toastiness and deep color.\n\n## Why it took this shape\nFukuyama in Kirishima, Kagoshima is said to be its birthplace. Good water and good rice aside, Fukuyama is said to have had the mild climate needed for open-air jar fermentation, along with enough shelter from wind and rain. The jar-brewing method itself is thought to be something that could only have taken hold under this particular climate.",
+   "sources": [
+    {
+     "title": "鹿児島の壺造り黒酢",
+     "url": "https://pd.jgic.jp/register/entry/7.html",
+     "publisher": "地理的表示産品情報発信サイト（GI登録）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kurozu",
+     "to_slug": "kome-su",
+     "relation_type": "対比",
+     "basis": "同じ米を原料とする醸造酢だが、米酢が短期熟成で淡い色に仕上げるのに対し、黒酢は屋外の壺で1年前後かけて色と香りを濃縮させる点が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "kasuzu",
+   "body_ja": "## 何でできているか\n赤みを帯びた琥珀色と、米酢にはない独特のこなれた旨味が特徴の酢。酒粕由来のアミノ酸が多く、まろやかで角の少ない酸味を持つ。江戸前寿司の酢飯に使うと、赤みがかった色合いと深いコクが出るため、白い酢飯とは違う古典的な風合いを再現できるとされる。ネタの魚とすし飯の間で味をつなぐ役割を果たすとされ、脂の多い魚とも相性がよいという。\n\n## どう作るのか\n清酒を搾ったあとに残る酒粕を主原料とし、これに酢酸菌を加えて発酵させる。米をそのまま使う米酢とは異なり、酒粕という副産物を活用するため、原料コストを抑えながら旨味の強い酢を造れるとされる。長期熟成させることで酒粕特有の香りが穏やかになり、赤みのある色合いに変化していくという。搾りたての酒粕をどれだけ新鮮なうちに仕込めるかが、味の決め手になるとされる。\n\n## なぜこの形になったのか\n愛知県半田市の酒造家が江戸時代に生み出したとされる。半田は酒どころとして酒粕が豊富に手に入る土地であり、当時高価だった米酢の代わりに安価な副産物を使う発想が生まれたと考えられている。江戸への海運の便もよく、江戸の握りずし文化の広がりを支えたとされる。廃棄されがちな副産物を調味料に変えた発想が、江戸の食文化を裏で支えたといえる。",
+   "body_en": "## What it's made of\nReddish amber in color, with a mellow, rounded umami that plain rice vinegar doesn't have. Amino acids carried over from the sake lees give it a soft acidity with little sharp edge. Used in Edo-style sushi rice, it lends both a reddish tint and a deeper richness, said to recreate the classic look and flavor that predates today's white sushi rice.\n\n## How it's made\nSake lees — the solids left over after pressing sake — form the main raw material, fermented further with acetic acid bacteria. Unlike rice vinegar, which uses rice directly, this repurposes a brewing byproduct, letting makers produce a strongly umami vinegar at lower ingredient cost. Long aging is said to mellow the sake lees' particular aroma while shifting the color toward red.\n\n## Why it took this shape\nIt's said to have been developed in the Edo period by a sake brewer in Handa, Aichi. As a sake-brewing town, Handa had ready access to sake lees, and using this inexpensive byproduct in place of the far pricier rice vinegar of the day is thought to have been the original idea behind it. Good sea access to Edo also helped, and it's credited with fueling the spread of nigiri sushi there.",
+   "sources": [
+    {
+     "title": "尾州半田の歴史を味わう「尾州早すし」",
+     "url": "https://www.handa-kankou.com/feature/bishuhayasushi/",
+     "publisher": "半田市観光協会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kasuzu",
+     "to_slug": "kome-su",
+     "relation_type": "対比",
+     "basis": "米酢が高価だった江戸期に、安価な酒粕を原料とする粕酢が代替として供給された経緯が出典にあり、原料と価格帯の対照として位置づけられる"
+    }
+   ]
+  },
+  {
+   "slug": "hon-mirin",
+   "body_ja": "## 何でできているか\nアルコール分12〜14%ほどを含む、酒類に分類される甘い調味料。糖類だけで似せた「みりん風調味料」とは違い、もち米由来のこっくりとした甘さと、アルコールならではの香りの立ち方を併せ持つ。煮物に使うと照りと艶が出て、魚や肉の臭みを和らげながら上品な甘さを加えるとされる。加熱するとアルコール分が飛び、甘みと香りだけが料理に残るという扱いやすさもある。\n\n## どう作るのか\nもち米を蒸して米麹と混ぜ、そこに焼酎などの蒸留アルコールを加えて仕込む。アルコールが酵素の働きを抑えるため、糖化がゆっくり進み、数か月かけてもち米のでんぷんが糖に変わっていく。搾って熟成させることで、単なる甘味料ではなく複雑な風味を持つ調味料に仕上がるとされる。砂糖を後から加える調味料とは異なり、原料由来の自然な甘みだけで完結している点が特徴という。\n\n## なぜこの形になったのか\nもともとは甘い酒として飲まれていたものが、江戸期以降に料理の調味料としても使われるようになったとされる。もち米・米麹・アルコールという原料の組み合わせが各地で応用可能だったため、産地ごとに独自のみりん造りが根付き、三河みりんのような地域銘柄が生まれる土台になったと考えられている。酒として飲む文化と調味料として使う文化が併存してきた点も、他の調味料にはない特徴とされる。",
+   "body_en": "## What it's made of\nA sweet seasoning classed as an alcoholic beverage, running roughly 12–14% alcohol. Unlike 'mirin-style seasoning', an imitation sweetened mainly with sugars, it carries both a deep sweetness from glutinous rice and the particular lift that alcohol brings to aroma. Used in simmered dishes, it adds a glossy sheen and takes the edge off fish or meat's stronger smells while lending a refined sweetness.\n\n## How it's made\nSteamed glutinous rice is mixed with rice koji, then combined with distilled alcohol such as shochu. The alcohol slows the action of the enzymes, so saccharification proceeds gradually over months as the rice starch converts to sugar. Pressing and aging it afterward is said to turn it into a seasoning with real complexity, not just sweetness.\n\n## Why it took this shape\nIt's said to have started out as a sweet drink before coming into use as a cooking seasoning from the Edo period onward. Because the combination of glutinous rice, rice koji, and alcohol could be reproduced almost anywhere, distinct regional styles of mirin are thought to have taken root in different places, laying the groundwork for named regional versions such as Mikawa mirin.",
+   "sources": [
+    {
+     "title": "みりん",
+     "url": "https://ja.wikipedia.org/wiki/みりん",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hon-mirin",
+     "to_slug": "wasanbon",
+     "relation_type": "対比",
+     "basis": "ともに和食に上品な甘みを添える伝統的な甘味素材だが、本みりんは麹とアルコールで醸す液体、和三盆は手作業で研ぎ上げる固形の砂糖という対照的な成り立ちを持つ"
+    }
+   ]
+  },
+  {
+   "slug": "mikawa-mirin",
+   "body_ja": "## 何でできているか\n本みりんの中でも特にこっくりとした甘さと、酒粕由来の香りをほのかに残す味わいが特徴とされる。もち米の甘みに加え、粕取り焼酎で仕込むことで生まれる独特の風味があり、うなぎの蒲焼きのたれのように、照りと深いコクを同時に求める料理でその実力がわかるとされる。三河湾で獲れる魚介の煮付けにも古くから使われてきたという。\n\n## どう作るのか\nもち米・米麹に、余った酒粕を蒸留した粕取り焼酎を合わせて仕込む。通常の焼酎ではなく酒粕由来の焼酎を使う点が特徴で、これが独特の香りとコクにつながっているとされる。海に近い温暖な気候の中でじっくり熟成させることで、まろやかな甘みが育つという。仕込みから出荷までに長い時間をかける蔵が多く、大量生産には向かない造り方とされる。\n\n## なぜこの形になったのか\n醸造に適した気候と海運の便に恵まれた愛知県碧南市を中心に、江戸時代から続くみりんの産地とされる。余った酒粕を蒸留した粕取り焼酎で仕込み、江戸へ海運で運ばれて広まったのが始まりとされ、酒粕を無駄にしない仕込みの知恵が、この地域のみりんの個性を形づくったといえる。同じ碧南で造られる白しょうゆとともに、地域の醸造文化を代表する存在とされる。",
+   "body_en": "## What it's made of\nSaid to be notably rich and deeply sweet even among hon-mirin styles, with a faint aroma carried over from sake lees. Alongside the sweetness of glutinous rice, brewing it with shochu distilled from sake lees gives it a particular character, one said to show its worth in dishes like unagi glaze, where both sheen and deep richness are wanted at once.\n\n## How it's made\nGlutinous rice and rice koji are combined with shochu distilled from leftover sake lees, rather than ordinary shochu — a distinction said to be behind its particular aroma and richness. Long, slow aging in the region's mild, coastal climate is credited with developing its mellow sweetness.\n\n## Why it took this shape\nHekinan, Aichi — favored by a climate suited to fermentation and easy access to sea transport — is said to be a mirin-brewing region dating to the Edo period. It's said to have begun with brewers using shochu distilled from otherwise-wasted sake lees, then shipping the mirin by sea to Edo, where it spread; the resourceful use of a leftover byproduct is credited with shaping this region's particular character.",
+   "sources": [
+    {
+     "title": "醸造のまち・碧南市で、特産品の三河みりんと希少な白しょうゆの老舗蔵を巡ろう",
+     "url": "https://hakko-aichi.jp/course/detail/4/",
+     "publisher": "うまみ県あいち（愛知県発酵食観光ポータル）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mikawa-mirin",
+     "to_slug": "hon-mirin",
+     "relation_type": "派生",
+     "basis": "もち米・米麹・アルコールで仕込む本みりんの系統に位置づけられる地域銘柄で、粕取り焼酎を使う点が製法上の個性になっている"
+    }
+   ]
+  },
+  {
+   "slug": "shottsuru",
+   "body_ja": "## 何でできているか\n魚を長期間発酵させて造る、塩気と強い旨味を併せ持つ琥珀色の液体調味料。生臭さは意外なほど少なく、熟成の過程で魚のたんぱく質が分解されてできた旨味成分が味の中心になっている。鍋に少量加えるだけでだし全体に深みが出るため、具材の下味というより出汁そのものとして働くとされる。白菜やねぎなど淡白な野菜と合わせても、味の芯がぼやけない強さを持つという。\n\n## どう作るのか\nハタハタなど近海の魚を丸ごと、あるいは内臓ごと塩とともに漬け込み、1年以上かけて発酵させる。魚の身は徐々に溶けて液体状になり、上澄みを濾して調味料として使う。長期の発酵によって生臭みのもとになる成分が分解され、代わりに旨味成分が凝縮されるとされる。冬の寒さの中でゆっくり発酵させることが、雑菌の繁殖を抑えながら旨味を育てる工夫になっているという。\n\n## なぜこの形になったのか\n江戸時代初期には各家庭で作られていたと伝わる、秋田県沿岸の保存食文化から生まれたとされる。冬場に大量に獲れるハタハタを長く保存し、限られた食材で塩気と旨味を補う知恵として発達したと考えられている。各地に残る魚醤の一つとして、冬の鍋料理「しょっつる鍋」の味の決め手として知られる。雪深い土地で保存食を仕込む生活の知恵が、そのまま郷土料理の核になったといえる。",
+   "body_en": "## What it's made of\nAn amber liquid seasoning made by long-fermenting fish, carrying both saltiness and a deep umami. It's surprisingly free of fishy odor, since the fermentation process breaks fish protein down into the umami compounds that define its flavor. Even a small amount added to a hot pot deepens the whole broth, functioning less like a seasoning added to ingredients and more like the broth itself.\n\n## How it's made\nLocal catch — chiefly hatahata (sailfin sandfish) — is packed whole or with its innards in salt and left to ferment for over a year. The flesh gradually breaks down into liquid, which is then strained off and used as a seasoning. The long fermentation is said to break down the compounds behind fishy odor while concentrating umami compounds in their place.\n\n## Why it took this shape\nIt's said to have grown out of a preserved-food tradition along Akita's coast, with home brewing dating back to the early Edo period. Preserving the hatahata caught in bulk each winter, and stretching limited ingredients into a source of salt and umami, is thought to have driven its development. It's counted one of the fish sauces still made in Japan, known above all as the seasoning behind the winter hot pot shottsuru-nabe.",
+   "sources": [
+    {
+     "title": "しょっつる鍋",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_23_akita.html",
+     "publisher": "農林水産省 うちの郷土料理",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shottsuru",
+     "to_slug": "ishiru",
+     "relation_type": "兄弟",
+     "basis": "日本三大魚醤とされるしょっつる・いしり・いかなご醤油は、魚介を長期発酵させて造る調味料として並ぶ分類として扱われる"
+    }
+   ]
+  },
+  {
+   "slug": "ishiru",
+   "body_ja": "## 何でできているか\n内浦地区ではイカの内臓、外浦地区ではイワシやサバを主原料とする魚醤で、地区によって香りと塩気の質感が異なるとされる。熟成が進むほど角の取れた旨味に変わり、能登の郷土料理「いしり鍋」に使うと、貝や野菜のだしと合わさって複雑な旨味の層ができるという。かき揚げの衣に少量混ぜるなど、隠し味として使う食べ方もあるとされる。\n\n## どう作るのか\nイカの内臓や小魚を塩とともに漬け込み、1年以上かけて発酵・熟成させる。木桶や壺の中でゆっくりと分解が進み、液体状になった上澄みを濾して使う。内浦と外浦で原料が異なるため、同じ「いしり」でも地区ごとに香りの強さや塩気の効き方に違いが出るとされる。発酵期間が長引くほど雑味が減り、旨味だけが残っていくという。\n\n## なぜこの形になったのか\n能登半島の沿岸部で、獲れた魚介を余すことなく使い切る保存の知恵として発達したとされる。内浦・外浦それぞれの漁で獲れるものが違ったことが、原料の違いをそのまま生んだと考えられている。1年以上発酵・熟成させる技術は国の登録無形民俗文化財となっており、各地に残る魚醤の一つとされる。半島という限られた土地で、海の恵みを無駄にしない工夫が受け継がれてきたといえる。",
+   "body_en": "## What it's made of\nA fish sauce made mainly from squid innards on Noto's inner-bay coast and from sardine or mackerel on the outer coast, with aroma and saltiness said to differ between the two areas. The longer it ages, the rounder its umami becomes, and used in the local dish ishiru-nabe, it layers with the broth from shellfish and vegetables into a complex depth of flavor.\n\n## How it's made\nSquid innards or small fish are packed in salt and left to ferment and age for over a year. Breakdown proceeds slowly inside a wooden barrel or jar, and the liquid that results is strained off and used. Because the inner and outer coasts use different raw materials, even 'ishiru' from different districts can vary in aroma strength and saltiness.\n\n## Why it took this shape\nIt's said to have developed along the Noto Peninsula's coast as a way to use every part of the catch without waste. What each side of the peninsula happened to catch is thought to have directly shaped the difference in ingredients between the inner and outer coasts. Its year-plus fermentation technique is a registered Intangible Folk Cultural Property, and it is counted one of the fish sauces still made in Japan.",
+   "sources": [
+    {
+     "title": "いしり／いしる",
+     "url": "https://pd.jgic.jp/register/entry/146.html",
+     "publisher": "地理的表示産品情報発信サイト（GI登録）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ishiru",
+     "to_slug": "ikanago-shoyu",
+     "relation_type": "兄弟",
+     "basis": "日本三大魚醤とされるしょっつる・いしり・いかなご醤油は、魚介を長期発酵させて造る調味料として並ぶ分類として扱われる"
+    }
+   ]
+  },
+  {
+   "slug": "ikanago-shoyu",
+   "body_ja": "## 何でできているか\nイカナゴを塩とともに発酵させて造る、澄んだ琥珀色の魚醤。魚醤の中では比較的くせが少なく、塩気の奥にすっきりとした旨味があるとされる。少量を煮物や佃煮の仕上げに加えると、生臭さを出さずに旨味だけを底上げできるという。冷奴やそうめんのつゆに数滴垂らす使い方も、地元では親しまれているとされ、塩の代わりに使う家庭もあるという。\n\n## どう作るのか\nイカナゴを丸ごと塩とともに漬け込み、半年以上かけて発酵させる。上澄みを濾して調味料として使うほか、残った固形分は肥料などに再利用されることもあるとされる。半年程度と他の魚醤より短い発酵期間で仕上げられる点が特徴で、比較的軽やかな風味につながっているという。イカナゴの水揚げ量に発酵の仕込み量が左右される、季節に左右されやすい造り方でもある。\n\n## なぜこの形になったのか\n香川県高松市庵治町が主産地とされる。瀬戸内海でイカナゴがまとまって獲れる地域だったことが、この魚醤が生まれた背景にあると考えられている。一時は姿を消したが1998年頃に地元有志の手で復活したと伝わり、各地に残る魚醤の一つとされる。地元の漁業とともに廃れかけた食文化を、有志の手で呼び戻した例といえる。",
+   "body_en": "## What it's made of\nA clear amber fish sauce made by fermenting sand lance with salt. Among fish sauces it's relatively mild, with a clean umami sitting beneath the saltiness rather than a strong funk. A small amount stirred into a simmered dish or tsukudani is said to lift the umami without adding any fishy edge.\n\n## How it's made\nWhole sand lance is packed in salt and left to ferment for six months or more. The liquid is strained off for use as a seasoning, while the solids left behind are sometimes repurposed as fertilizer. Its fermentation period, shorter than other fish sauces at around half a year, is credited with its comparatively light character.\n\n## Why it took this shape\nThe Aji district of Takamatsu, Kagawa is said to be its main production area. Sand lance being caught in quantity in the Seto Inland Sea nearby is thought to be behind why this particular fish sauce developed here. It's said to have disappeared for a time before local volunteers revived production around 1998, and it is counted one of the fish sauces still made in Japan.",
+   "sources": [
+    {
+     "title": "いかなご醤油",
+     "url": "https://ja.wikipedia.org/wiki/いかなご醤油",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ikanago-shoyu",
+     "to_slug": "shottsuru",
+     "relation_type": "兄弟",
+     "basis": "日本三大魚醤とされるしょっつる・いしり・いかなご醤油は、魚介を長期発酵させて造る調味料として並ぶ分類として扱われる"
+    }
+   ]
+  },
+  {
+   "slug": "moshio",
+   "body_ja": "## 何でできているか\nホンダワラという海藻の香りをまとった、ミネラル分の多い塩。精製塩のような角のある塩辛さではなく、海藻由来のうまみと磯の香りがふわりと混ざる、やわらかい塩気が特徴とされる。おにぎりに軽くふるだけで、米の甘さと磯の香りが同時に立ち上がるという。刺身に添えても、醤油とは違う海そのものの風味を感じさせるとされる。\n\n## どう作るのか\n海藻を海水に浸して天日で乾かし、それを焼いて灰にしたのち、再び海水に浸して塩分を抽出し、煮詰めて結晶化させる。海藻を燃やす工程を挟むことで、単なる海水由来の塩にはない香ばしさとうまみが加わるとされる。手間のかかる工程を経るため、大量生産には向かない造り方とされる。海藻を繰り返し漬けては乾かす作業を、当時の人々がどう工夫したかは復元の過程でも試行錯誤が重ねられたという。\n\n## なぜこの形になったのか\n古代の製塩土器が広島県呉市蒲刈町で発見されたことをきっかけに、1998年に製法が復元されたとされる。周囲を海に囲まれ、ホンダワラのような海藻が豊富に採れる瀬戸内海の島々では、海水を煮詰めるだけでなく海藻を活用する製塩法が発達したと考えられている。万葉集にも詠まれた技法として知られ、古代の暮らしを今に伝える手がかりにもなっている。",
+   "body_en": "## What it's made of\nA mineral-rich salt carrying the aroma of hondawara seaweed. Rather than the sharp saltiness of refined salt, it's said to bring a soft, briny sweetness layered with a light seaweed fragrance. A light sprinkle over a rice ball is enough to bring out both the rice's sweetness and the aroma of the sea at once.\n\n## How it's made\nSeaweed is soaked in seawater, sun-dried, then burned to ash, which is soaked in seawater again to draw out the salt before the liquid is boiled down into crystals. Burning the seaweed as a step is said to add a toastiness and umami that plain evaporated seawater salt doesn't have. The labor involved makes it unsuited to large-scale production.\n\n## Why it took this shape\nThe method is said to have been reconstructed in 1998 after ancient salt-making pottery was found on Kamagari Island in Kure, Hiroshima. Surrounded by sea and rich in seaweed like hondawara, the islands of the Seto Inland Sea are thought to have developed a salt-making method that used seaweed rather than simply boiling down seawater alone. It is known as the technique referenced in the Man'yoshu poetry anthology.",
+   "sources": [
+    {
+     "title": "古代製塩遺跡復元展示館　来館者18万人達成！",
+     "url": "https://kure-trip.jp/news/83",
+     "publisher": "呉市観光振興課（呉市観光サイト）",
+     "accessed_at": "2026-09-06"
+    },
+    {
+     "title": "蒲刈藻塩の会",
+     "url": "https://www.moshionokai.jp/",
+     "publisher": "蒲刈藻塩の会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "moshio",
+     "to_slug": "ako-shio",
+     "relation_type": "対比",
+     "basis": "ともに瀬戸内海周辺の伝統的な製塩法だが、藻塩は海藻を燃やして風味を加える古代の製法、赤穂の塩は入浜式塩田による近世の大規模製塩という対照的な成り立ちを持つ"
+    }
+   ]
+  },
+  {
+   "slug": "ako-shio",
+   "body_ja": "## 何でできているか\n雑味の少ない、すっきりとした塩辛さが特徴の塩。大規模な塩田で計画的に濃縮された海水から結晶化させるため、粒がそろい溶けやすいとされる。おにぎりや天ぷらの付け塩のように、塩そのものの味をダイレクトに感じる使い方でその実力がわかるという。梅干しなど保存食の下漬けに使っても、雑味が出にくいとされ、素材の色や味を邪魔しない扱いやすさがある。\n\n## どう作るのか\n水尾と呼ばれる水路と防潮堤で海水の出入りを制御し、干満に左右されず塩田に海水を引き込む「入浜式」で塩分を濃縮する。天日と風の力で水分を蒸発させたのち、残った濃い塩水を釜で煮詰めて結晶化させる。潮の満ち引きに作業を左右されない画期的な仕組みだったとされる。この仕組みにより、狙った時間に狙った量の海水を安定して確保できるようになったという。\n\n## なぜこの形になったのか\n江戸時代に完成した入浜式塩田による、専業製塩の先駆けとされる。播州平野の広い遠浅の海岸と、日照時間の長い瀬戸内海式気候が、大規模な塩田を営むのに適していたと考えられている。300年にわたり日本の主要な製塩法であり続けたとされ、赤穂は塩の産地として知られるようになった。専業で塩を造る仕組みが確立したことで、他の産業との分業も進んだと考えられている。",
+   "body_en": "## What it's made of\nA salt known for a clean, straightforward saltiness with little off-flavor. Crystallized from seawater concentrated methodically across a large saltfield, its grains are said to come out even and quick to dissolve. Used plainly — sprinkled on a rice ball or dusted onto tempura — it's the sort of salt whose character comes through most directly.\n\n## How it's made\nChannels called mizuo and embankments control the flow of seawater, letting it into the saltfield regardless of the tide — the 'irihama' method of concentrating salt. Sun and wind evaporate the water, and the concentrated brine that remains is then boiled down in a kettle to crystallize. It was, at the time, a groundbreaking system that freed the work from the rhythm of the tides.\n\n## Why it took this shape\nIt's tied to Japan's earliest full-scale commercial saltfields, using the irihama tidal-field method perfected in the Edo period. The wide, shallow coastline of the Banshu plain and the long hours of sunshine typical of the Seto Inland Sea climate are thought to have suited large-scale saltfields. The method is said to have remained Japan's main salt-making approach for some 300 years, and Ako became known as a salt-producing town as a result.",
+   "sources": [
+    {
+     "title": "『日本第一』の塩を産したまち 播州赤穂",
+     "url": "https://www.hyogo-tourism.jp/feature/detail_59.html",
+     "publisher": "兵庫県観光サイト HYOGO！ナビ",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ako-shio",
+     "to_slug": "noto-shio",
+     "relation_type": "対比",
+     "basis": "ともに江戸期に発達した伝統的製塩法だが、赤穂は入浜式で干満を制御し省力化した大規模製塩、能登は今も人力で海水を汲み上げる揚げ浜式という対照的な成り立ちを持つ"
+    }
+   ]
+  },
+  {
+   "slug": "noto-shio",
+   "body_ja": "## 何でできているか\nミネラルをしっかり感じる、しっとりとした質感の塩。人力で汲み上げ砂浜に撒いた海水を天日で濃縮するため、機械による製塩に比べて塩の結晶が均一になりすぎず、味に奥行きが出るとされる。刺身や焼き魚に添えると、魚の味を引き立てながら余韻が長く残るという。素朴な塩気の中に、能登の潮風を思わせる香りが混じるともいわれる。\n\n## どう作るのか\n海水を桶で汲み上げ、砂浜に撒いて天日と風で水分を蒸発させる「揚げ浜式」で塩分を濃縮する。塩を含んだ砂を集めて濾過し、得られた濃い塩水を釜で煮詰めて結晶化させる。海水を汲んで撒く作業をすべて人力で行うため、体力と経験を要する重労働とされる。天候によって作業の進み方が大きく左右される、自然任せの製法でもあるという。\n\n## なぜこの形になったのか\n石川県珠洲市に伝わる製法で、江戸時代から続くとされる。遠浅の海岸が少なく塩田を大規模に造りにくい能登の地形が、人力で海水を運んで撒く揚げ浜式を発達させた背景にあると考えられている。国の重要無形民俗文化財にも指定され、現在も日本でここだけに残るとされる。効率化が進んだ他の産地とは対照的に、手作業の製法がそのまま今に残った珍しい例といえる。",
+   "body_en": "## What it's made of\nA salt with a noticeably mineral character and a slightly moist texture. Because seawater is carried by hand and scattered over sand to concentrate by sun, rather than processed by machine, its crystals come out less uniform than factory salt, which is said to give it more depth of flavor. Sprinkled over sashimi or grilled fish, it's said to bring out the fish's flavor while leaving a long finish.\n\n## How it's made\nSeawater is hauled up in buckets and scattered over sand, where sun and wind evaporate the water — the 'agehama' method of concentrating salt. The salt-laden sand is gathered and filtered, and the resulting brine is boiled down in a kettle to crystallize. Because carrying and scattering the seawater is all done by hand, it's considered demanding, physical work that takes real experience.\n\n## Why it took this shape\nThis is a technique native to Suzu, Ishikawa, dating to the Edo period. Noto's coastline, with little of the wide, shallow shore needed for a large saltfield, is thought to be why the region developed the agehama method of hauling and scattering seawater by hand instead. It has been designated an Important Intangible Folk Cultural Property, and is said to survive today only in this part of Noto.",
+   "sources": [
+    {
+     "title": "能登のはま塩（揚げ浜塩田 角花 豊）",
+     "url": "https://www.city.suzu.lg.jp/site/kankou/1688.html",
+     "publisher": "珠洲市",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "noto-shio",
+     "to_slug": "aizu-yamajio",
+     "relation_type": "対比",
+     "basis": "ともに人力に頼る手間のかかる伝統製塩法だが、能登の塩は海水を汲み上げる揚げ浜式、会津山塩は山中の塩分を含む湧水を煮詰める方式で、原料となる水源が海と山で対照的"
+    }
+   ]
+  },
+  {
+   "slug": "wasanbon",
+   "body_ja": "## 何でできているか\nきめ細かい粒子と、後味に嫌味の残らない上品な甘さが特徴の砂糖。上白糖のようなべたつきが少なく、口に入れるとすっと溶けてほのかな甘みだけが残るとされる。干菓子に使うと型の細部までくっきりと写り、口に入れた瞬間にほろりと崩れる独特の食感が生まれるという。抹茶の苦みと合わせると、甘さが引き立ちながらも喧嘩しない相性のよさがあるとされる。\n\n## どう作るのか\n竹糖という在来品種のサトウキビを搾って煮詰め、糖蜜を分離させたのち、盆の上で押しては水を加えて研ぐ「研ぎ」という工程を何度も繰り返す。手作業でこの工程を重ねることで、機械圧搾では出せないきめ細かさとえぐみの少なさが生まれるとされる。研ぐ回数や力加減は職人の経験に大きく左右されるという。仕上がりまでに数週間を要することもあり、大量生産には向かない甘味とされ、少量ずつ丁寧に仕上げる職人技が今も続いている。\n\n## なぜこの形になったのか\n四国東部の徳島・香川両県で江戸時代から生産されてきたとされる。温暖な気候と、水はけのよい土壌が竹糖の栽培に適していたことが背景にあると考えられている。上品な甘みが和菓子作りに好まれ、茶道文化とともに独自の地位を築いてきたとされる。手間のかかる製法ゆえに、今も高級な甘味料として扱われており、贈答品としても選ばれることが多いという。",
+   "body_en": "## What it's made of\nA fine-grained sugar known for a refined sweetness that leaves no harsh aftertaste. Less sticky than ordinary white sugar, it's said to dissolve quickly on the tongue, leaving only a faint sweetness behind. Used in dry confections, it takes the finest detail of a mold cleanly and gives the sweet its characteristic texture — crumbling softly the moment it hits the mouth.\n\n## How it's made\nJuice pressed from a native cane variety called 'chikuto' is boiled down and separated from its molasses, then repeatedly kneaded and refined by hand on a wooden tray (bon) in a process called 'togi' — pressing and adding water over and over. Repeating this by hand is said to produce a fineness and lack of bitterness that machine pressing can't match. How many times it's kneaded, and how hard, depends heavily on the maker's experience.\n\n## Why it took this shape\nIt has been produced since the Edo period in eastern Shikoku, in both Tokushima and Kagawa. A mild climate and well-drained soil suited to growing chikuto cane are thought to be behind this. Its refined sweetness became prized for making Japanese confectionery, and it's said to have carved out its own place alongside tea-ceremony culture.",
+   "sources": [
+    {
+     "title": "和三盆",
+     "url": "https://www.pref.tokushima.lg.jp/kenseijoho/tokushimakennitsuite/tokushimakennosangyo/dentosangyo/wasanbon/",
+     "publisher": "徳島県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "wasanbon",
+     "to_slug": "kokuto",
+     "relation_type": "対比",
+     "basis": "ともに日本の伝統的なサトウキビ由来の砂糖だが、和三盆は不純物を取り除き上品な甘さに仕上げる精製、黒糖は搾り汁を精製せず煮詰めるだけの造り方で対照的"
+    }
+   ]
+  },
+  {
+   "slug": "kokuto",
+   "body_ja": "## 何でできているか\nミネラルを多く含み、上白糖にはないコクと苦みを伴う濃厚な甘さを持つ砂糖。精製を経ないため色は黒褐色で、そのままかじると塩気にも似た複雑な後味があるとされる。煮物に使うと甘みだけでなく色とコクも同時に加わるため、豚の角煮のような濃い味付けの料理と相性がよいという。焼き菓子に使うと、上白糖では出せない香ばしさが加わるとされる。\n\n## どう作るのか\nサトウキビを圧搾機で搾り、得られた汁をそのまま大きな釜で煮詰めて固める。上白糖のように糖蜜を分離させる精製工程を経ないため、サトウキビの栄養やミネラルがそのまま残るとされる。煮詰める火加減ひとつで色や硬さが変わるため、職人の経験がそのまま味に出るという。島ごとに小規模な製糖工場が今も残り、産地による味の違いが楽しめるとされる。\n\n## なぜこの形になったのか\n沖縄の離島群や奄美群島で江戸時代から作られてきたとされる。高温多湿でサトウキビの栽培に適した亜熱帯の気候と、島ごとに製糖工場を持たざるを得なかった地理的な事情が、精製せずそのまま固める簡素な製法を各島に根付かせたと考えられている。離島という孤立した環境が、島独自の製法を守る結果にもなったといえ、島ごとの味の違いを比べる楽しみ方も生まれている。",
+   "body_en": "## What it's made of\nA mineral-rich sugar with a depth and bitterness that refined white sugar lacks. Left unrefined, it's dark brown, and eating it plain reveals a complex aftertaste that can even carry a hint of salt. Used in simmered dishes, it adds color and richness along with sweetness, which is why it pairs well with heavily seasoned dishes like braised pork belly.\n\n## How it's made\nSugarcane is pressed and the resulting juice is simply boiled down and set in a large kettle. Skipping the refining step that separates out molasses, as white sugar production does, leaves the cane's nutrients and minerals intact. The color and hardness shift depending on how it's boiled, so a maker's experience shows directly in the result.\n\n## Why it took this shape\nIt has been made since the Edo period on Okinawa's outer islands and in the Amami archipelago. A subtropical climate — hot and humid, well suited to growing sugarcane — combined with the practical need for each island to run its own small sugar mill, is thought to be why this simple, unrefined method took root island by island.",
+   "sources": [
+    {
+     "title": "沖縄黒糖の魅力",
+     "url": "https://www.ja-okinawa.or.jp/agriculture/product/kokutou/",
+     "publisher": "JAおきなわ",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kokuto",
+     "to_slug": "hon-mirin",
+     "relation_type": "対比",
+     "basis": "ともに和食に伝統的な甘みを添える素材だが、黒糖はサトウキビを精製せず固めた固形の砂糖、本みりんはもち米と麹をアルコールで仕込む醸造液という対照的な成り立ちを持つ"
+    }
+   ]
+  },
+  {
+   "slug": "yuzu-kosho",
+   "body_ja": "## 何でできているか\n青柚子の爽やかな香りと青唐辛子のするどい辛みが同時に来る薬味。塩の力で辛みと香りがなじみ、単なる薬味を超えた奥行きのある味わいになるとされる。鍋や焼き物にほんの少量添えるだけで、香りと辛みが料理全体の輪郭を引き締めるという。うどんやそばに溶かし込むと、出汁の風味に柑橘の香りが重なり印象が一変するとされる。\n\n## どう作るのか\n青柚子の皮をすりおろすかみじん切りにし、種を取った青唐辛子と塩を加えてすり合わせる。すぐには使わず冷暗所で数週間から数か月ほど熟成させることで、角の立つ辛さが和らぎ、柚子の香りと唐辛子の辛みが一体になるとされる。塩分濃度が発酵と保存性の両方を左右する重要な要素という。青柚子の収穫できる短い時期に仕込みが集中するため、年に一度しか造れない薬味とされる。\n\n## なぜこの形になったのか\n柚子の産地として知られる大分県日田市が発祥のひとつとされるが、諸説ある。柚子と唐辛子がともに育つ温暖な気候の九州各地で、それぞれ独立に似た薬味が生まれた可能性も指摘されている。柑橘と唐辛子という組み合わせが、脂の多い料理の多い九州の食卓に合っていたと考えられている。産地間で由来の主張が分かれること自体が、各地で似た知恵が独立に育った証ともいえる。",
+   "body_en": "## What it's made of\nA condiment where the bright aroma of green yuzu peel and the sharp heat of green chili arrive together. Salt is what lets the heat and aroma settle into each other, giving it a depth beyond what a simple garnish usually offers. A tiny dab added to a hot pot or grilled dish is enough for its aroma and heat to sharpen the whole dish.\n\n## How it's made\nGreen yuzu peel is grated or finely chopped, then ground together with seeded green chili and salt. Rather than being used right away, it's left to age in a cool, dark place for weeks to months, which is said to soften the chili's sharp edge and let the yuzu's aroma and the chili's heat merge into one. Salt concentration is a key factor governing both the fermentation and how well it keeps.\n\n## Why it took this shape\nHita in Oita, known for its yuzu orchards, is often cited as one place of origin, though accounts vary. Some suggest similar condiments may have arisen independently across Kyushu, wherever the warm climate suited growing both yuzu and chili. The combination of citrus and chili is thought to have suited a regional table with plenty of rich, fatty dishes.",
+   "sources": [
+    {
+     "title": "柚子胡椒",
+     "url": "https://ja.wikipedia.org/wiki/柚子胡椒",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yuzu-kosho",
+     "to_slug": "kanzuri",
+     "relation_type": "対比",
+     "basis": "ともに唐辛子を主原料とする発酵系の薬味だが、柚子胡椒は柑橘皮と塩で短期間に仕上げる簡便な造り、かんずりは雪さらしと糀で3年がかりに仕上げる長期発酵という対照的な成り立ちを持つ"
+    }
+   ]
+  },
+  {
+   "slug": "zenkoji-shichimi",
+   "body_ja": "## 何でできているか\n唐辛子を軸に山椒や陳皮など複数の香辛料を合わせた七味唐辛子。辛さよりも香りの層を重ねることに重きを置いた配合とされ、そばやうどんにひとふりすると、辛みの奥から柑橘系や山椒の香りが順に立ち上がってくるという。おでんや煮物にかけても、辛さだけでなく香りが料理全体を引き締めるとされ、天ぷらの塩に混ぜて使う人もいるという。\n\n## どう作るのか\n唐辛子・山椒・陳皮・胡麻・青のり・けしの実・麻の実など、複数の香辛料を独自の配合で調合する。配合比率は店ごとに異なり秘伝とされ、香りの立ち方や辛さのバランスに個性が出る。参拝客の好みに合わせて配合を調整してきた歴史もあるとされる。焙煎の火加減や粉砕の粗さも香りの立ち方を左右する、繊細な工程とされる。\n\n## なぜこの形になったのか\n1736年創業と伝わる善光寺門前の老舗が調合してきたとされる。門前町として全国から参拝客が行き交う土地柄から、唐辛子や薬種を扱う商いが根付いたとされ、東京・浅草の七味と並び語られることが多い。信仰の地に集う人々の需要が、香辛料商いを育てたといえる。参拝の土産として持ち帰られたことも、全国への広がりを後押ししたと考えられており、旅の記憶とともに味が伝わっていったといえる。",
+   "body_en": "## What it's made of\nA seven-spice chili blend built around chili but layered with sansho pepper, dried citrus peel, and other spices. The recipe is said to prioritize a stack of aromas over raw heat, so a shake over soba or udon brings citrus and sansho notes rising up one after another behind the chili's kick.\n\n## How it's made\nChili, sansho pepper, dried citrus peel, sesame, green laver, poppy seed, and hemp seed, among others, are blended in a proportion each shop keeps to itself. That ratio varies from maker to maker, giving each blend its own balance of aroma and heat. The mix is also said to have historically been adjusted to suit the tastes of visiting pilgrims.\n\n## Why it took this shape\nIt's said to have been blended by a long-established shop at the gate of Zenkoji Temple, dating to 1736. The neighborhood's history as a temple town, drawing pilgrims from across the country, is credited with letting a trade in chili and spices take root there, and it is counted among Japan's 'three great shichimi', alongside Tokyo's Asakusa. Demand from people gathered at a place of pilgrimage is what's said to have nurtured the spice trade here.",
+   "sources": [
+    {
+     "title": "根元 八幡屋礒五郎 本店",
+     "url": "https://www.nagano-cvb.or.jp/modules/sightseeing/page/276",
+     "publisher": "長野市観光コンベンションビューロー",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "zenkoji-shichimi",
+     "to_slug": "asakusa-shichimi",
+     "relation_type": "対比",
+     "basis": "日本三大七味として並び称される善光寺の七味と浅草の七味は、門前町の参拝客文化から発達した香辛料商いという共通の背景を持ちつつ、店ごとの配合が異なる対の存在として編集上並置される"
+    }
+   ]
+  },
+  {
+   "slug": "asakusa-shichimi",
+   "body_ja": "## 何でできているか\n漢方の知識を生かして配合されたとされる七味唐辛子。単に辛いだけでなく、生薬にも使われる香辛料を組み合わせることで、体を温める効能も意識した配合になっているとされる。うなぎのたれやそばつゆにかけると、辛さの中に薬味らしい複雑な香りが感じられるという。同じ唐辛子ベースでも、店によって辛さと香りのバランスが大きく異なるとされる。\n\n## どう作るのか\n唐辛子を中心に、山椒・陳皮・胡麻・けしの実・麻の実・青のりなどを客の好みに応じてその場で調合する。あらかじめ決まった配合だけでなく、辛さや香りの強弱を客ごとに変えられる点が特徴とされる。薬種問屋としての知識が、香辛料の組み合わせ方に生かされているという。粉末にする前の香辛料を目の前で調合する様子自体が、店の名物になっているという。\n\n## なぜこの形になったのか\n1625年創業と伝わる、浅草・薬研堀に始まる七味唐辛子の元祖とされる店の調合から広まったとされる。江戸有数の薬種問屋街だった土地柄から、漢方の知識を持つ商人が薬効も意識した香辛料の調合を手がけるようになったと考えられている。江戸庶民の間で広まった蕎麦文化が、薬味としての七味の需要を後押ししたとも考えられている。",
+   "body_en": "## What it's made of\nA seven-spice chili blend said to draw on traditional Chinese medicine knowledge. Rather than heat alone, it's said to combine spices also used as herbal remedies, with an eye toward a warming effect on the body. Drizzled over unagi sauce or soba broth, its heat carries a complex, medicinal-herb aroma alongside it.\n\n## How it's made\nChili forms the core, blended to order with sansho pepper, dried citrus peel, sesame, poppy seed, hemp seed, and green laver, adjusted to each customer's taste on the spot. Rather than a single fixed recipe, the heat and aroma can be dialed up or down per customer — a hallmark of the shop's approach. Its roots as a medicinal-herb wholesaler are said to inform how the spices are combined.\n\n## Why it took this shape\nIt's said to have spread from a shop tracing back to 1625 in Asakusa's old Yagenbori district, often described as the origin point of shichimi togarashi. The neighborhood's history as a hub for medicinal-herb wholesalers is thought to be why merchants with knowledge of traditional medicine came to blend spices with an eye toward their health effects, not just their heat.",
+   "sources": [
+    {
+     "title": "人気の七味唐辛子。好みの香りや辛さに調合も やげん堀 新仲見世本店",
+     "url": "https://e-asakusa.jp/spot/7586",
+     "publisher": "浅草観光連盟",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "asakusa-shichimi",
+     "to_slug": "yuzu-kosho",
+     "relation_type": "対比",
+     "basis": "ともに唐辛子を核とする薬味だが、浅草の七味は複数の香辛料を客の好みで調合する乾いた粉末、柚子胡椒は柑橘皮と塩ですり合わせ発酵させる湿った練り物という対照的な成り立ちを持つ"
+    }
+   ]
+  },
+  {
+   "slug": "kanzuri",
+   "body_ja": "## 何でできているか\n唐辛子の辛みに、柚子の香りと糀の甘みが溶け込んだ、複雑な旨味を持つ発酵調味料。単純な辛さではなく、雪にさらすことで角の取れたまろやかな辛みになるとされる。鍋料理に溶かし込むと、辛さの奥からじんわりと甘みと旨味が広がるという。焼き魚や冷奴に少量添えるだけでも、味に立体感が出るとされ、パスタや炒め物の隠し味として使う例もあるという。\n\n## どう作るのか\n塩漬けした唐辛子をひと冬、雪の上にさらす「雪さらし」を行ったのち、糀・柚子と合わせて仕込み、3年ほど発酵させる。雪にさらす工程で唐辛子の塩気とアクが抜け、糀の力で辛みがまろやかな旨味に変わっていくとされる。長期発酵によって唐辛子だけでは出せない深いコクが育つという。仕込みから完成まで数年を要するため、毎年少しずつ仕込みを重ねて出荷量を保っているとされる。\n\n## なぜこの形になったのか\n特別豪雪地帯である新潟県妙高市に伝わる。雪に閉ざされる長い冬を越すための保存食として発達したとされ、雪さらしという工程自体が、豪雪地帯だからこそ可能な製法といえる。体を温める保存食として、寒さの厳しい土地の食卓を支えてきたとされる。雪という厄介者を逆手に取った点が、この調味料の独自性を生んでいるといえる。",
+   "body_en": "## What it's made of\nA fermented condiment where chili heat dissolves into yuzu aroma and koji sweetness for a complex umami. Rather than raw heat, spreading the chili on snow is said to round off its sharp edge into something mellower. Stirred into a hot pot, sweetness and umami spread slowly out from behind the heat.\n\n## How it's made\nSalted chili peppers are spread on snow for a winter — a step called 'yukizarashi' — then mixed with koji and yuzu and left to ferment for roughly three years. The snow exposure is said to draw out the chili's saltiness and harshness, while the koji turns its heat into a mellow umami over time. That long fermentation is credited with a depth chili alone couldn't produce.\n\n## Why it took this shape\nIt's traditional to Myoko, Niigata — a designated heavy-snowfall zone. It's said to have developed as a preserved food to see households through Myoko's long, snow-bound winters, and the yukizarashi step itself is only possible because of that heavy snow. As a warming preserved food, it's said to have long supported the table through the region's harsh winters.",
+   "sources": [
+    {
+     "title": "冬の風物詩！醗酵調味料「かんずり」の雪さらしを見てきた／妙高市",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kanzuri_niigata.html",
+     "publisher": "農林水産省 うちの郷土料理",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kanzuri",
+     "to_slug": "mame-miso",
+     "relation_type": "対比",
+     "basis": "ともに長期発酵を経る調味料だが、かんずりは唐辛子と糀・柚子を雪さらしを経て3年発酵させる薬味、豆味噌は大豆のみを2年以上熟成させる味噌で、原料も気候的背景も対照的"
+    }
+   ]
+  },
+  {
+   "slug": "ponzu",
+   "body_ja": "## 何でできているか\n柑橘の酸味と醤油の塩気・旨味が同時に来る、さっぱりとした合わせ調味料。単なる酢や醤油よりも味の輪郭がはっきりしていながら重くならず、鍋物や刺身につけると素材の味を洗い流すのではなく、むしろ輪郭を際立たせるとされる。脂の多い食材と合わせると酸味が脂を切る働きをするという。餃子や唐揚げにも合わせやすく、和洋を問わない汎用性の高さがあるとされる。\n\n## どう作るのか\n柑橘の搾り汁に酢・醤油・だしなどを合わせて造る。柑橘の種類や配合比率は家庭や店ごとに幅があり、決まった規格があるわけではないとされる。搾りたての柑橘汁を使うか、あらかじめ調味した「味付けぽん酢」を使うかでも風味が大きく変わるという。柚子・すだち・かぼすなど、地域で好まれる柑橘の違いがそのまま味の個性になるとされる。\n\n## なぜこの形になったのか\n語源はオランダ語で柑橘酒を指す「pons」に由来するとされる。もともとは柑橘の搾り汁と酢を合わせた飲み物やたれとして使われ、明治期には調味料としての記録も見られるとされる。醤油や酢などすでに各地で発達していた調味料を組み合わせる形で成立したと考えられている。単一の産地に縛られない成り立ちが、全国どこでも独自の配合が生まれる土壌になったといえる。",
+   "body_en": "## What it's made of\nA refreshing mixed seasoning where citrus tartness and the salt and umami of soy sauce arrive together. It carries a sharper edge than plain vinegar or soy sauce alone, without turning heavy, and used with a hot pot or sashimi, it's said to sharpen an ingredient's flavor rather than wash it out. Against fatty ingredients, the acidity is said to cut through the richness.\n\n## How it's made\nCitrus juice is combined with vinegar, soy sauce, and often dashi. The type of citrus and the ratio of ingredients vary widely from household to household or shop to shop, with no fixed standard. Whether freshly squeezed citrus juice is used, or a pre-seasoned bottled ponzu instead, is said to change the flavor considerably.\n\n## Why it took this shape\nIts name is said to derive from the Dutch 'pons', a citrus-based drink. It originally served as a drink or dipping sauce combining citrus juice and vinegar, and records of it as a table condiment appear from the Meiji era onward. It's thought to have taken shape by combining seasonings — soy sauce, vinegar — that had already developed separately in different regions.",
+   "sources": [
+    {
+     "title": "ポン酢",
+     "url": "https://ja.wikipedia.org/wiki/ポン酢",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ponzu",
+     "to_slug": "usukuchi-shoyu",
+     "relation_type": "対比",
+     "basis": "ぽん酢は柑橘・酢・醤油を合わせる複合調味料であるのに対し、淡口醤油は単一の醸造発酵でつくる醤油そのもので、単一原料と複合調味料という組み立ての違いが対照的"
+    }
+   ]
+  }
+ ]
+}
