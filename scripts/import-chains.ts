@@ -8,7 +8,7 @@
  *   既に持っており、リンクはアイテム（kind='item'）のみに絞る運用のため。
  * - recommend の kind='item' の slug が food_items に存在しない場合は
  *   投入せずエラーで落とす（黙って握りつぶさない）。
- * - genre_slug は今回すべて 'ramen' 固定、pref_limited は全件 NULL（地域限定チェーン用の予約列）。
+ * - genre_slug は省略時 'ramen'（初期データ互換）。2026-09 以降は各チェーンに明示（焼き鳥等）。pref_limited は全件 NULL（地域限定チェーン用の予約列）。
  * - 冪等: chains は slug で upsert。chain_recommendations は chain_id 単位で
  *   delete-then-insert し、並び順の変化にも追随する。
  *
@@ -37,6 +37,10 @@ const chainSchema = z.object({
   name_en: z.string().trim().min(1, "必須"),
   founded: z.string().trim().min(1).optional(),
   style: z.string().trim().min(1).optional(),
+  style_ja: z.string().trim().min(1).optional(),
+  style_en: z.string().trim().min(1).optional(),
+  /** 省略時は 'ramen'（初期データ互換）。焼き鳥など他ジャンルのチェーンは明示する。 */
+  genre_slug: z.string().trim().regex(/^[a-z0-9-]+$/).optional(),
   bridge_ja: z.string().trim().min(1, "必須"),
   bridge_en: z.string().trim().min(1, "必須"),
   recommend: z.array(recommendSchema),
@@ -105,12 +109,12 @@ async function main() {
           slug: c.slug,
           name_ja: c.name_ja,
           name_en: c.name_en,
-          style_ja: c.style ?? null,
-          style_en: null,
+          style_ja: c.style_ja ?? c.style ?? null,
+          style_en: c.style_en ?? null,
           founded_note: c.founded ?? null,
           bridge_ja: c.bridge_ja,
           bridge_en: c.bridge_en,
-          genre_slug: "ramen",
+          genre_slug: c.genre_slug ?? "ramen",
           pref_limited: null,
           source_url: c.source_url ?? null,
           source_note: c.source_note ?? null,

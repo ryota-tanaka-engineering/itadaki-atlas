@@ -242,6 +242,210 @@
       ],
       "source_url": "https://www.ringerhut.co.jp/corporate/history/",
       "source_note": "リンガーハット公式サイト 沿革ページ"
+    },
+    {
+      "slug": "torikizoku",
+      "name_ja": "鳥貴族",
+      "name_en": "Torikizoku — uniform-price yakitori chain",
+      "founded": "1985年・大阪府東大阪市（「焼鳥屋 鳥貴族」として創業。現在の運営会社は株式会社エターナルホスピタリティジャパン）",
+      "style_ja": "全品均一価格のタレ・塩焼き鳥。ねぎまやつくねなど定番部位を幅広くそろえる",
+      "style_en": "Uniform-price yakitori chain serving tare and shio skewers across a wide range of standard cuts",
+      "bridge_ja": "鳥貴族の均一価格メニューは、ねぎまやつくねなど焼き鳥の定番部位を幅広くそろえる構成とされ、部位の違いを食べ比べる入り口になりうる。",
+      "bridge_en": "Torikizoku's uniform-price menu spans classic yakitori cuts like negima and tsukune, offering an entry point for comparing parts side by side.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "negima"
+        },
+        {
+          "kind": "item",
+          "slug": "tsukune"
+        },
+        {
+          "kind": "item",
+          "slug": "kawa"
+        }
+      ],
+      "genre_slug": "yakitori",
+      "source_url": "https://eternal-hospitality.co.jp/company/history/",
+      "source_note": "エターナルホスピタリティ（鳥貴族運営会社）公式サイト 沿革ページ"
+    },
+    {
+      "slug": "daikichi",
+      "name_ja": "やきとり大吉",
+      "name_en": "Yakitori Daikichi — neighborhood charcoal yakitori chain",
+      "founded": "1977年12月1日・大阪府大阪市（ダイキチシステム株式会社。住宅街立地のフランチャイズ展開で知られる）",
+      "style_ja": "住宅街に根ざした庶民的な炭火焼き鳥店。タレ・塩の定番串が中心",
+      "style_en": "Neighborhood-rooted charcoal yakitori chain built around classic tare and shio skewers",
+      "bridge_ja": "大吉のやきとりは、つくねやねぎまなど家庭的な定番部位を中心にそろえるとされる。",
+      "bridge_en": "Daikichi's menu centers on homely staple cuts like tsukune and negima.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "tsukune"
+        },
+        {
+          "kind": "item",
+          "slug": "negima"
+        },
+        {
+          "kind": "item",
+          "slug": "sunagimo"
+        }
+      ],
+      "genre_slug": "yakitori",
+      "source_url": "https://www.daikichi.co.jp/company/profile/",
+      "source_note": "ダイキチシステム公式サイト 会社概要ページ（設立1977年12月1日と明記）"
+    },
+    {
+      "slug": "akiyoshi",
+      "name_ja": "やきとりの秋吉",
+      "name_en": "Akiyoshi — garlic-forward yakitori chain from Fukui",
+      "founded": "創業・昭和34年6月（1959年6月）福井県福井市呉服町（現・順化二丁目）。設立・昭和57年10月19日（株式会社秋吉グループ本部）",
+      "style_ja": "炭火焼きの焼き鳥。にんにくを効かせたタレが特徴とされる",
+      "style_en": "Charcoal-grilled yakitori known for a garlic-forward tare",
+      "bridge_ja": "秋吉は福井発祥で、にんにくを効かせた味わいが特徴とされる。にんにく粉を振って食べる山口・長門やきとりと通じる嗜好とされる。",
+      "bridge_en": "Born in Fukui, Akiyoshi is known for its garlic-forward flavor — a taste that echoes Nagato yakitori's habit of dusting skewers with garlic powder.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "nagato-yakitori"
+        },
+        {
+          "kind": "item",
+          "slug": "negima"
+        },
+        {
+          "kind": "item",
+          "slug": "tsukune"
+        }
+      ],
+      "genre_slug": "yakitori",
+      "source_url": "https://www.akiyoshi.co.jp/company/index.html",
+      "source_note": "秋吉グループ本部公式サイト 企業情報ページ（創業・設立年月日を明記）"
+    },
+    {
+      "slug": "yamachan",
+      "name_ja": "世界の山ちゃん",
+      "name_en": "Sekai no Yamachan — Nagoya tebasaki izakaya chain",
+      "founded": "1981年6月14日・愛知県名古屋市中区新栄（創業者・山本重雄。運営は株式会社エスワイフード）",
+      "style_ja": "名古屋名物の手羽先唐揚げが看板の居酒屋チェーン",
+      "style_en": "Nagoya izakaya chain famous for its deep-fried chicken wings (tebasaki)",
+      "bridge_ja": "山ちゃんの看板メニューである手羽先唐揚げは、名古屋で育った手羽先文化の一角とされる。",
+      "bridge_en": "Yamachan's signature fried chicken wings sit within Nagoya's broader tebasaki culture.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "tebasaki"
+        },
+        {
+          "kind": "item",
+          "slug": "tebanaka"
+        }
+      ],
+      "genre_slug": "yakitori",
+      "source_url": "https://syfood-japan.com/company/",
+      "source_note": "エスワイフード公式サイト 会社概要（沿革）ページ"
+    },
+    {
+      "slug": "furaibo",
+      "name_ja": "風来坊",
+      "name_en": "Furaibo — Nagoya's original tebasaki karaage chain",
+      "founded": "1963年11月1日・愛知県名古屋市熱田区比々野町（創業者・大坪健庫）",
+      "style_ja": "「元祖手羽先唐揚」を掲げる名古屋発祥の手羽先チェーン",
+      "style_en": "Nagoya-born chain billed as the originator of tebasaki karaage",
+      "bridge_ja": "風来坊は名古屋の手羽先唐揚げの元祖を名乗るチェーンで、世界の山ちゃんと並ぶ名古屋手羽先文化の担い手とされる。",
+      "bridge_en": "Furaibo bills itself as the originator of Nagoya's tebasaki karaage, standing alongside Yamachan as a pillar of the city's wing culture.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "tebasaki"
+        },
+        {
+          "kind": "item",
+          "slug": "tebanaka"
+        }
+      ],
+      "genre_slug": "yakitori",
+      "source_url": "https://furaibou.com/tanzyo/",
+      "source_note": "風来坊公式サイト「誕生ものがたり」ページ"
+    },
+    {
+      "slug": "tori-tetsu",
+      "name_ja": "とり鉄",
+      "name_en": "Tori-Tetsu — charcoal yakitori izakaya chain",
+      "founded": "2000年6月・東京都目黒区（株式会社タスコシステムが焼き鳥業態1号店「学芸大学駅前店」を出店。現在は株式会社アスラポートが運営）",
+      "style_ja": "炭火焼きの焼き鳥と鶏料理を中心にした居酒屋チェーン",
+      "style_en": "Izakaya chain centered on charcoal-grilled yakitori and chicken dishes",
+      "bridge_ja": "とり鉄の焼き鳥は、ねぎまやつくねなど定番部位を炭火でじっくり焼き上げる構成とされる。",
+      "bridge_en": "Tori-Tetsu's yakitori leans on slow charcoal-grilling of classic cuts like negima and tsukune.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "negima"
+        },
+        {
+          "kind": "item",
+          "slug": "tsukune"
+        },
+        {
+          "kind": "item",
+          "slug": "sunagimo"
+        }
+      ],
+      "genre_slug": "yakitori",
+      "source_url": "http://www.tori-tetsu.com/about/",
+      "source_note": "とり鉄（運営：株式会社アスラポート）公式サイト 事業概要・沿革ページ"
+    },
+    {
+      "slug": "yakitori-center",
+      "name_ja": "やきとりセンター",
+      "name_en": "Yakitori Center — Colowide-group low-price yakitori chain",
+      "founded": "2012年6月18日・東京都新宿区歌舞伎町（コロワイドグループの新業態として1号店「新宿東口店」を出店。運営は株式会社コロワイドMD）",
+      "style_ja": "焼き鳥を中心に均一価格帯で提供する立ち飲み系の居酒屋チェーン",
+      "style_en": "Colowide-group izakaya chain serving yakitori at low, uniform prices in a standing-bar-style setting",
+      "bridge_ja": "やきとりセンターは低価格の均一メニューで焼き鳥の定番部位を幅広くそろえるとされる。",
+      "bridge_en": "Yakitori Center offers a broad range of classic cuts at low, uniform prices.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "negima"
+        },
+        {
+          "kind": "item",
+          "slug": "tsukune"
+        },
+        {
+          "kind": "item",
+          "slug": "kawa"
+        }
+      ],
+      "genre_slug": "yakitori",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000294.000001718.html",
+      "source_note": "運営会社（当時：株式会社コロワイド東日本）公式プレスリリース（PR TIMES掲載）。1号店の出店日・所在地を明記"
+    },
+    {
+      "slug": "toriyoshi-shoten",
+      "name_ja": "鳥良商店",
+      "name_en": "Toriyoshi Shoten — chicken-focused izakaya chain",
+      "founded": "1984年・東京都武蔵野市吉祥寺（「手羽先唐揚専門店 鳥良」として創業。運営会社は現在、株式会社クリエイト・レストランツ・ホールディングスのグループ企業）",
+      "style_ja": "鶏料理専門の居酒屋チェーン。手羽先唐揚げが看板",
+      "style_en": "Chicken-focused izakaya chain known for its fried chicken wings",
+      "bridge_ja": "鳥良商店は手羽先唐揚げを看板に据えた鶏専門店で、名古屋の手羽先チェーンとは別系統の手羽先文化にあたるとされる。",
+      "bridge_en": "Toriyoshi Shoten built its name on fried chicken wings — a tebasaki lineage distinct from Nagoya's own wing chains.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "tebasaki"
+        },
+        {
+          "kind": "item",
+          "slug": "tori-momo"
+        }
+      ],
+      "genre_slug": "yakitori",
+      "source_url": "http://web.archive.org/web/20260621175240/https://sfpdining.jp/company/",
+      "source_note": "運営会社公式サイト（sfpdining.jp/company/）のWayback Machineアーカイブ（2026-06-21取得分）。現行サイトは自動アクセスを403で拒否するため、アーカイブ経由で公式記載（創業年・場所）を確認。運営会社はSFPホールディングスから株式会社クリエイト・レストランツ・ホールディングスグループへ移行済み"
     }
   ]
 }
