@@ -131,13 +131,14 @@ test.describe("F-01 全国表示（県クラスタ）", () => {
     await page.goto("/");
     // 2026-09: 本場ピン（海鮮丼＝金沢）を地図に出す対応で、発祥ピンが0件の県も
     // 本場ピンがあれば選べるようになった（全県選択可能＝空白県ゼロ）。
-    const ishikawa = page.getByRole("button", { name: /^石川県 1件。選ぶと拡大します/ });
+    // 2026-09 食材拡張で石川は能登牛・能登豚等も加わり件数は増える（本場ピンだけでも選べる、が検証の趣旨）
+    const ishikawa = page.getByRole("button", { name: /^石川県 \d+件。選ぶと拡大します/ });
     await expect(ishikawa).toBeVisible({ timeout: 30_000 });
   });
 
   test("本場: 石川県クラスタを選ぶと地図が拡大し海鮮丼の本場ピンが出る", async ({ page }) => {
     await page.goto("/");
-    const ishikawa = page.getByRole("button", { name: /^石川県 1件。選ぶと拡大します/ });
+    const ishikawa = page.getByRole("button", { name: /^石川県 \d+件。選ぶと拡大します/ });
     await expect(ishikawa).toBeVisible({ timeout: 30_000 });
     await tapPrefCluster(ishikawa);
 
@@ -152,9 +153,9 @@ test.describe("F-01 全国表示（県クラスタ）", () => {
   }) => {
     await page.goto("/ja");
 
-    // 絞り込み前: 福島県は8件（ラーメン5+そば2+その他1）、三重県はラーメン以外の2件のみ掲載
+    // 絞り込み前: 福島県はラーメン5件+他ジャンル多数、三重県はラーメン以外のみ掲載（件数は拡張で増えるため固定しない）
     await expect(
-      page.getByRole("button", { name: /^福島県 8件。選ぶと拡大します/ }),
+      page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ }),
     ).toBeVisible({ timeout: 30_000 });
     await expect(
       page.getByRole("button", { name: /^三重県 \d+件。選ぶと拡大します/ }),
@@ -726,14 +727,15 @@ test.describe("タグページ（興味からさがす。2026-08 デザイン確
     await page.goto("/ja/tags");
     await expect(page.getByRole("heading", { name: "興味からさがす", level: 1 })).toBeVisible();
     await expect(page.getByRole("link", { name: /中華由来/ })).toBeVisible();
-    // 牛肉タグは今回の付与対象外（件数0）なので出ない
-    await expect(page.getByRole("link", { name: "牛肉" })).toHaveCount(0);
+    // 件数0のタグは出ない（2026-09 食材拡張で牛肉タグは付与済みになったため、恒常的に0件の昆虫食で検証）
+    await expect(page.getByRole("link", { name: "昆虫食" })).toHaveCount(0);
   });
 
   test("タグ詳細ページに該当アイテムと近いタグが出る", async ({ page }) => {
     await page.goto("/ja/tag/chinese_derived");
     await expect(page.getByRole("heading", { name: /中華由来/, level: 1 })).toBeVisible();
-    await expect(page.getByRole("link", { name: /博多ラーメン/ })).toBeVisible();
+    // 件数が増えたため描画に時間がかかる。先頭一致で待つ
+    await expect(page.getByRole("link", { name: /博多ラーメン/ }).first()).toBeVisible({ timeout: 15_000 });
     await expect(page.getByRole("heading", { name: "近いタグ" })).toBeVisible();
   });
 
@@ -751,7 +753,7 @@ test.describe("タグページ（興味からさがす。2026-08 デザイン確
     const res = await request.get("/sitemap.xml");
     const xml = await res.text();
     expect(xml).toContain("/ja/tag/chinese_derived</loc>");
-    expect(xml).not.toContain("/ja/tag/beef</loc>");
+    expect(xml).not.toContain("/ja/tag/insect</loc>");
   });
 });
 
@@ -864,9 +866,12 @@ test.describe("トップページ改善（ピン選択カード。2026-09 本番
     // ピンaria-labelもロケール対応（市名はローマ字辞書が無いため県までに留める）
     const pin = page.getByRole("button", { name: "Koriyama Black (Fukushima, Shoyu — soy sauce)" });
     await expect(pin).toBeVisible({ timeout: 30_000 });
-    await pin.click();
 
+    // 2026-09 食材拡張で郡山市に別アイテム（銘柄豚）のピンが重なるようになったため、
+    // カードの選択は索引（シート）経由で行う（ピンの aria-label 検証は上で済ませている）
     const sheet = page.getByRole("dialog");
+    await page.getByRole("button", { name: /Move sheet to next position/ }).click();
+    await sheet.getByRole("button", { name: /Koriyama Black/ }).first().click();
     // 見出しはロケール主導でローマ字（/en の日本語混入対策）。三点セットの残りは副題に出る
     await expect(sheet.getByRole("heading", { name: "Koriyama Black" })).toBeVisible();
     await expect(sheet.getByText(/郡山ブラック — dark soy broth of Koriyama/)).toBeVisible();
