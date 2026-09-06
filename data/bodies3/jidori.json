@@ -1,0 +1,739 @@
+{
+ "items": [
+  {
+   "slug": "hinai-jidori",
+   "body_ja": "## 何でできているか\n噛みしめるたびに押し返してくる歯ごたえと、煮込むほど出汁に溶け出す旨みの強さが持ち味とされる。比内鶏の血を引く赤身は繊維がしっかりして締まりが強く、脂は薄いぶん皮目を焼いたときの香ばしさが際立つという。甘辛い割り下や濃い味噌だれと合わせても、肉そのものの存在感が負けずに残ると評される。脂身と赤身の対比がはっきりしていて、焼き加減によって表情が変わる懐の深さも持ち味という。\n## どう作るのか\n国の天然記念物「比内鶏」の雄とロードアイランドレッドの雌を一代交配して作られたとされる、いわゆる一代雑種の地鶏。放し飼いで150日前後、一般的なブロイラーの2倍以上の時間をかけて育てるといい、広い鶏舎の中を歩き回らせることで運動量を確保する。この運動量の多さが、そのまま歯ごたえの強さと出汁の出やすさに直結すると考えられている。出荷前には体重や外見が個体ごとに確認され、基準に満たないものは市場に出さないとされる。\n## なぜこの形になったのか\n秋田は冬の冷え込みが厳しく、雪に閉ざされる季節を鍋で体を温めながら過ごす食文化が根付いた土地とされる。比内鶏はもとは狩猟の対象としても親しまれてきた在来種で、家禽としてよりも野趣あふれる味わいが評価されてきた歴史を持つという。その血の濃さゆえの歯ごたえと出汁の強さは、鍋にしてじっくり味わう食べ方と自然に結びついてきたとも読める。秋田の郷土料理としてきりたんぽ鍋が広く知られており、この地鶏の存在感がその文化を支えてきたとも語られる。",
+   "body_en": "## What it's made of\nThe bite pushes firmly back before it gives, and the longer it simmers the more flavor it lends the broth — said to be its defining trait. Meat carrying Hinai blood runs lean and firm-fibered, with fat kept thin so the crisped skin does more of the work. Even against a sweet-savory broth or a thick miso sauce, the meat itself is said to hold its own. The contrast between fat and lean is said to be clear-cut, showing a different face depending on how it's grilled.\n## How it's made\nSaid to be a first-generation cross of the natural-monument Hinai breed and Rhode Island Red — a hybrid raised free-range for around 150 days, more than twice a standard broiler's span, roaming a wide coop to build up movement. That extra time on its feet is thought to translate directly into firmer bite and richer stock. Before shipping, each bird is reportedly checked for weight and appearance, with any falling short of standard held back from market.\n## Why it took this shape\nAkita winters cut deep, and a hot-pot culture grew up around staying warm through snow-bound months. Hinai itself was long kept as a hunting bird, valued more for its wild character than as ordinary poultry. Its blood is said to carry through as a firmness and stock-strength that reads naturally as an answer built for slow, pot-cooked eating. Kiritanpo hot pot is widely known as an Akita specialty, and this breed's presence is said to have helped sustain that culture.",
+   "sources": [
+    {
+     "title": "比内地鶏って？",
+     "url": "https://common3.pref.akita.lg.jp/hinaijidori/ouchigohan/about",
+     "publisher": "秋田県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hinai-jidori",
+     "to_slug": "tosa-jiro",
+     "relation_type": "対比",
+     "basis": "比内地鶏・土佐ジローともに、国の天然記念物である在来種の雄とロードアイランドレッドの雌を交配するという同じ方式で作られたとされるが、秋田と高知という離れた土地で独立に地鶏化された対"
+    }
+   ]
+  },
+  {
+   "slug": "nagoya-cochin",
+   "body_ja": "## 何でできているか\n赤みの強い肉に脂がしっかりと乗り、噛むとじんわり甘みがにじみ出るとされる。皮は厚めで張りがあり、焼くと香ばしさが際立つ。産卵率の高さを追い求めるより、肉と卵の双方の味を重視して選抜が重ねられてきたとされ、卵も鶏肉と並ぶ名物として扱われている。焼き鳥にすると皮のパリッとした食感と身の甘みの対比が際立ち、すき焼きにしても煮崩れにくい強さを持つという。\n## どう作るのか\n明治期に旧尾張藩士の兄弟が在来種を改良し、日本で最初に実用品種として認定された地鶏とされる。一般的なブロイラーの倍以上、120〜150日ほどかけて丁寧に育てられ、この長い期間がきめ細かい肉質と皮の厚みにつながるという。品種として確立してから百年以上が経つ、日本の地鶏の元祖ともいえる存在。産卵開始が遅く産卵数も少ないため、卵自体が希少価値の高い食材として扱われてきたとされる。\n## なぜこの形になったのか\n尾張の城下町は古くから鶏を飼う文化が根付いていたとされ、藩士だった開発者たちは明治維新で失業した士族の生計手段として養鶏に着目したとも伝わる。実用性と味の両立を掲げた選抜の積み重ねが、日本初の登録品種という重みと、今も多くの地鶏の交配に使われる血統の広がりにつながっている。その後多くの地鶏の交配親として全国へ広まったこともあり、日本の地鶏文化そのものの礎になったとも評される。",
+   "body_en": "## What it's made of\nDeep red meat well marbled with fat, its sweetness spreading slowly with each bite, is said to be the defining trait. The skin runs thick and taut, turning fragrant on the grill. Selected over the years for the taste of both meat and eggs rather than laying rate alone, its eggs are prized right alongside the meat as a signature product. Grilled as yakitori, the crisp skin plays off the meat's sweetness, and it's said to hold together well even simmered in sukiyaki.\n## How it's made\nDeveloped in the Meiji era by two former Owari-domain samurai brothers who improved a native breed, reportedly Japan's first officially recognized practical chicken breed. Said to be reared for 120–150 days, more than double a standard broiler, with that extra time credited for its fine-grained meat and thick skin. More than a century has passed since it was established as a breed, making it something of an ancestor to Japan's jidori. Laying starts late and yields fewer eggs, which is said to be part of why the eggs themselves are treated as a rare, prized ingredient.\n## Why it took this shape\nOwari's castle town is said to have long kept a poultry-raising culture, and its samurai-turned-developers are said to have turned to chicken farming as a livelihood for displaced former retainers after the Meiji Restoration. A selection built on both practicality and flavor carries the weight of being Japan's first registered breed, and its bloodline is still said to run through many other jidori today. Its bloodline is said to have since spread nationwide as a parent stock for many other jidori, becoming something of a foundation for Japan's jidori culture as a whole.",
+   "sources": [
+    {
+     "title": "名古屋コーチン",
+     "url": "https://www.pref.aichi.jp/soshiki/chikusan/0000001530.html",
+     "publisher": "愛知県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nagoya-cochin",
+     "to_slug": "shinshu-ogon-shamo",
+     "relation_type": "派生",
+     "basis": "信州黄金シャモのデータに「シャモと名古屋種を掛け合わせ」と明記されている"
+    }
+   ]
+  },
+  {
+   "slug": "satsuma-jidori",
+   "body_ja": "## 何でできているか\nよく動く分だけ肉が締まり、脂よりも赤身の旨みで食べさせるタイプとされる。鹿児島では鶏を生や湯引きで味わう鶏刺し文化が根強く、締まった肉質と臭みの少なさがその食べ方を支えてきたとも考えられている。噛むほどに濃い旨みが返ってくる点も特徴という。焼き鳥にしても身崩れしにくく、みそ焼きなど濃い味付けとも相性が良いとされる。\n## どう作るのか\n国の天然記念物である薩摩鶏の血を引く系統をもとに作られたとされ、薩摩藩の時代から観賞・闘鶏用に飼われてきた歴史を持つ。120〜150日ほどかけて育成され、闘鶏由来の筋肉の締まりがそのまま肉質の強さに表れるという。飼育密度を抑え、運動できる環境を整えることも重視されている。出荷される個体は月齢や体格が細かく管理され、品質のばらつきを抑える工夫がされているという。\n## なぜこの形になったのか\n薩摩鶏はもともと食用ではなく、藩の威信を映す観賞・闘鶏用の鳥として大切にされてきたとされる。時代が下って食用に改良された今も、鑑賞用として鍛えられた体つきの名残が、締まった歯ごたえという形で残っているといえる。生食文化が根付く土地柄も、その肉質の良さを裏づける一因とされる。鶏刺しという生食文化そのものが、衛生管理を徹底した飼育があってこそ成り立つとも語られている。",
+   "body_en": "## What it's made of\nReportedly firm-fleshed from all that movement, a breed said to be carried by the strength of its lean red meat rather than fat. Kagoshima keeps a strong culture of eating chicken raw or lightly blanched as torisashi, and this breed's firm texture and mild odor are thought to have helped sustain that habit — the flavor said to deepen the more you chew. Grilled as yakitori it's said to hold its shape well, and it's said to pair nicely with strongly seasoned dishes like miso-grilled chicken.\n## How it's made\nSaid to draw on the blood of Satsuma, a natural-monument fowl kept for ornament and cockfighting since the domain era, and reportedly reared for 120–150 days at low stocking density with room to move. Its fighting-fowl muscle tone is said to carry straight through into the meat's firmness. Shipped birds are reportedly managed closely for age and build, an effort said to keep quality consistent.\n## Why it took this shape\nSatsuma fowl were reportedly prized not for the table but as ornamental and cockfighting birds reflecting a domain's prestige. Even now, refined for eating, the frame once built for display is said to remain — in the form of its notably firm bite. The region's raw-chicken culture is also credited as evidence of just how good this meat's quality really is. The raw-chicken culture itself is said to rest on thorough hygiene management throughout rearing.",
+   "sources": [
+    {
+     "title": "鹿児島の地鶏（さつま若しゃも，さつま地鶏，黒さつま鶏）について",
+     "url": "http://www.pref.kagoshima.jp/ag07/sangyo-rodo/nogyo/tikusan/faq/satsumajidori.html",
+     "publisher": "鹿児島県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "satsuma-jidori",
+     "to_slug": "kuro-satsuma-dori",
+     "relation_type": "兄弟",
+     "basis": "両者ともに国の天然記念物「薩摩鶏」の血を引く系統と自らのデータに明記されている"
+    }
+   ]
+  },
+  {
+   "slug": "tokyo-shamo",
+   "body_ja": "## 何でできているか\n皮は薄く張りがあり、噛むと繊維がほろりとほどける独特の歯ごたえを持つとされる。脂は少なめで、煮込むほどにだしへ旨みを出す性質があり、鍋料理で真価を発揮するタイプという。噛みしめた後に残る余韻の長さも特徴とされる。皮と身の食感の違いがはっきりしていて、焼き鳥にしても鍋にしても異なる表情を見せるとされる。\n## どう作るのか\n江戸に伝わった軍鶏の血を引く東京の愛好家の系統をもとに、都の畜産試験場が交配様式を確立したとされる。飼育期間は120日以上とブロイラーの3倍近く、長い期間をかけて筋肉質な体に仕上げるという。都市部という限られた環境での飼育技術の蓄積も、この地鶏を支えてきたとされる。限られた敷地での飼育となるため、一羽あたりの飼育スペースや衛生管理には特に気を配るという。\n## なぜこの形になったのか\n軍鶏はもともと闘鶏として江戸の愛好家たちに大切に飼われてきた鳥で、食用ではなかったとされる。その血を引く個体を都が食用として仕立て直した経緯には、江戸から続く愛玩文化と、都市の食文化としての鍋需要の両方が重なっているといえる。江戸前という言葉に象徴される、都心ならではの誇りも背景にあるとされる。軍鶏鍋という料理名がそのまま料理ジャンルとして定着している点にも、この鶏の存在感の大きさがうかがえる。",
+   "body_en": "## What it's made of\nThin, taut skin and a distinctive bite where the fibers seem to come apart in shreds are said to define it. Said to carry little fat, but the longer it simmers the more flavor it gives up to the broth — a bird said to show its best in a hot pot, with a lingering aftertaste that stays long after swallowing. The contrast between skin and meat texture is said to be pronounced, showing a different character whether grilled as yakitori or simmered in a pot.\n## How it's made\nBuilt from a lineage of Edo-era shamo fighting fowl kept by Tokyo enthusiasts, with the cross reportedly fixed by the metropolitan livestock experiment station; said to be reared 120 days or more, nearly triple a broiler, building a notably muscular frame. Accumulated know-how for raising it within a crowded urban setting is also credited with sustaining the breed. Raised on limited urban land, particular care is reportedly given to space per bird and hygiene.\n## Why it took this shape\nShamo were reportedly kept purely for cockfighting by Edo-era enthusiasts, never meant for the table. That the capital later remade this bloodline into a food animal reflects both a long-running fancier culture and the pull of hot-pot demand in a growing city — with a certain \"Edomae\" pride, tied to the heart of the old capital, said to run underneath it. That the dish name shamo-nabe itself became a recognized category of cooking speaks to just how large this breed's presence looms.",
+   "sources": [
+    {
+     "title": "東京しゃも",
+     "url": "https://www.tokyo-aff.or.jp/site/ome/1197.html",
+     "publisher": "東京都農林水産振興財団",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tokyo-shamo",
+     "to_slug": "kawamata-shamo",
+     "relation_type": "兄弟",
+     "basis": "両者ともに江戸期由来の闘鶏用シャモの血を引く系統とデータに明記されている（東京しゃも・川俣シャモ）"
+    }
+   ]
+  },
+  {
+   "slug": "kawamata-shamo",
+   "body_ja": "## 何でできているか\nしっかりとした歯ごたえと、噛むほどに広がる旨みの濃さを兼ね備えるとされる。脂肪は控えめで、たたきや鍋にしても肉の輪郭がぼやけない強さを持つという。皮目を炙ると香ばしさが一段と際立つとされる。たたきにすると赤身本来の風味が際立ち、鍋にすれば煮込むほど出汁にコクが移っていくとされる。刺身にしても甘みを感じられるほど、雑味の少ない味わいとされる。\n## どう作るのか\n絹問屋が栄えた福島県川俣で闘鶏用に親しまれてきたシャモを、食用としておいしく育てる研究を重ねて生まれたとされる。地理的表示（GI）にも登録され、品質基準に沿った飼育が行われているという。長年の試行錯誤の末に確立された飼育法が、今の品質を支えているとされる。GI登録にあたっては、飼料や飼育期間などの基準が細かく定められ、生産者間で品質を揃える取り組みが続けられているという。\n## なぜこの形になったのか\n川俣はかつて絹織物で栄え、商人たちが娯楽として闘鶏を楽しんだ土地と伝わる。絹産業が支えた豊かさが趣味としての闘鶏文化を育み、その鳥を惜しんで食用に転じさせた経緯が、この地鶏の由来として語られている。GI登録という形での品質保証も、絹の町としての誇りの延長線上にあるといえる。川俣シャモの名は、絹の町として栄えた歴史と、闘鶏文化を惜しんで食用に転じさせた経緯の両方を今に伝えている。",
+   "body_en": "## What it's made of\nSaid to combine a firm bite with a flavor that deepens the more you chew, carrying little fat — sturdy enough to keep its shape whether seared rare or simmered in a pot, with the skin turning especially fragrant when charred. Seared rare, its native lean flavor is said to stand out, and the longer it simmers in a pot, the more depth it lends the broth. Even served rare it's said to carry a clean sweetness with little off-flavor.\n## How it's made\nSaid to descend from shamo fighting fowl favored by Kawamata's prosperous silk merchants, refined over years of research into raising them for the table; registered as a Geographical Indication product under set quality standards. Today's quality is credited to years of trial and error in settling on that method. GI registration reportedly set detailed standards for feed and rearing period, with producers said to keep working together to keep quality consistent.\n## Why it took this shape\nKawamata is said to have prospered on silk weaving, with merchants said to have enjoyed cockfighting as a pastime the trade's wealth afforded. That leisure culture is credited with nurturing the birds, later repurposed — reluctantly, it's said — as food. The GI registration itself is said to extend the same pride once invested in the silk trade. The name Kawamata Shamo is said to carry both the town's history as a silk-trading center and the story of repurposing fighting fowl for food.",
+   "sources": [
+    {
+     "title": "川俣シャモ（地理的表示保護制度）",
+     "url": "https://www.maff.go.jp/j/shokusan/gi_act/register/0118/index.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kawamata-shamo",
+     "to_slug": "okukuji-shamo",
+     "relation_type": "兄弟",
+     "basis": "両者ともにシャモを基にした系統で、地理的表示（GI）に登録された福島・茨城の銘柄鶏という共通点を持つ"
+    }
+   ]
+  },
+  {
+   "slug": "awaodori-dori",
+   "body_ja": "## 何でできているか\n皮はぱりっと香ばしく、身は締まりながらも過度に硬くならない歯ごたえに仕上がるとされる。骨付きのまま焼いても身離れがよく、香辛料の効いた味付けにも負けない肉の強さを持つという。冷めても硬くなりにくい点も評価されている。から揚げにしても身が縮みにくく、ジューシーさを保ったまま揚がる点も評価されているという。\n## どう作るのか\n徳島に古くからいた赤笹系の軍鶏を改良・固定し、白色プリマスロックと交雑して作られたとされる。JAS規格の基準どおり75日以上かけて育てられ、出荷羽数は全国有数という規模で流通している。飼育のしやすさと味の良さを両立させた点が、これほどの流通量につながったとされる。JAS規格の基準を満たすかどうかは出荷前に検査され、基準を満たさない個体は出荷対象から外れるとされる。\n## なぜこの形になったのか\n徳島は骨付き鶏を豪快に焼いて食べる文化を持つ土地とされ、香辛料を効かせた濃い味付けに負けない鶏が求められてきたと考えられる。在来の軍鶏の強さとブロイラー系の育てやすさを掛け合わせた選抜は、その土地の食べ方に応える方向で進んだといえる。阿波踊りの熱気にも通じる、豪快な食べ方を支える鶏という位置づけである。県内有数の出荷量を誇る一方で、味の均一性を保つための飼育マニュアルが徹底されているとも伝わる。",
+   "body_en": "## What it's made of\nSkin crisps up fragrant while the meat stays firm without turning tough — said to hold together well when grilled bone-in, sturdy enough to stand up to a heavily spiced seasoning, and said to resist toughening even once it cools. Deep-fried as karaage, the meat is said to resist shrinking, staying juicy through the fry.\n## How it's made\nSaid to be developed by fixing a local red-and-black shamo fowl and crossing it with white Plymouth Rock; reared for the JAS-standard minimum of 75 days, with shipment volume reportedly among Japan's largest. Balancing ease of raising with flavor is credited for that volume. Whether a bird meets the JAS standard is reportedly checked before shipping, with any falling short excluded.\n## Why it took this shape\nTokushima is said to have a culture of grilling bone-in chicken boldly, calling for a bird sturdy enough to stand up to heavily spiced seasoning. Crossing the toughness of a native shamo line with an easier-to-raise broiler stock reads as a selection aimed at answering that local style — a bird built, in spirit, for the same boldness as the Awa Odori dance itself. Even with shipment volume among the prefecture's largest, a strict rearing manual is said to be followed to keep flavor consistent.",
+   "sources": [
+    {
+     "title": "阿波尾鶏物語 -開発からブランド確立まで",
+     "url": "https://www.pref.tokushima.lg.jp/tafftsc/chikusan/outline/business/awastory.html",
+     "publisher": "徳島県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "awaodori-dori",
+     "to_slug": "sanuki-cochin",
+     "relation_type": "対比",
+     "basis": "阿波尾鶏は在来軍鶏×白色プリマスロックの国産改良、讃岐コーチンは中国原産コーチン種の導入という異なる由来を持つ、四国の隣県ブランド鶏の対"
+    }
+   ]
+  },
+  {
+   "slug": "tosa-jiro",
+   "body_ja": "## 何でできているか\n小柄な体格に反して肉の味は濃く、脂よりも赤身の旨みで勝負するタイプとされる。卵も小ぶりながら濃厚で、肉と卵の両方が名物として扱われるという。噛むほどに凝縮した旨みが感じられる点が魅力とされる。たたきにすると赤身の旨みが凝縮された味わいが際立ち、卵は濃厚な黄身の色でも知られているという。煮ても身が締まったまま柔らかさを保つ点も評価されているという。\n## どう作るのか\n国の天然記念物「土佐地鶏」の雄とロードアイランドレッドの雌を交配して生まれたとされる小柄な地鶏。1980年代から高知県内で飼育が広がり、120〜150日かけて育てられるという。小柄ゆえに一羽から取れる肉量は少なく、飼育農家の手間も相応にかかるとされる。小柄な体格のため一般的な地鶏より飼育スペースの効率が悪く、生産量が限られる一因にもなっているとされる。\n## なぜこの形になったのか\n土佐地鶏はもともと観賞用の小型在来種として大切にされてきたとされ、体の小ささは食用向けの改良では不利にもなり得た特徴という。それでも味の濃さを評価する形で残された選抜は、土地に根付いた鶏への愛着の表れとも読める。効率よりも味を優先した希少な地鶏として今も守られている。高知の食文化はカツオのたたきなど素材の味を生かす料理が多く、この地鶏の濃い味わいもその系譜に連なるとも読める。",
+   "body_en": "## What it's made of\nSmall-framed but strongly flavored, a breed said to be carried by its lean meat rather than fat. Its eggs, too, run small but rich, with both meat and egg treated as local specialties — the flavor said to feel concentrated with every bite. Seared rare, its lean flavor is said to come across concentrated, and its eggs are also known for their notably rich yolk color. Simmered, it's said to keep its tenderness even as the meat stays firm.\n## How it's made\nA compact breed said to come from crossing the natural-monument Tosa-jidori cockerel with a Rhode Island Red hen; spread through Kochi from the 1980s and reportedly reared for 120–150 days. Its small frame means less meat per bird, adding proportionally more work for the farmers who raise it. Its small frame makes rearing less space-efficient than larger jidori, said to be one reason production stays limited.\n## Why it took this shape\nTosa-jidori was reportedly long kept as a small ornamental native breed, its size a trait that could have worked against it in a push toward meat production. That it was kept on for the strength of its flavor anyway reads as a sign of local attachment to the bird — a rare breed still protected today by choosing flavor over efficiency. Kochi's food culture favors dishes that showcase an ingredient's raw flavor, like seared bonito, and this breed's bold taste is said to belong to that same lineage.",
+   "sources": [
+    {
+     "title": "土佐ジローはいかが？",
+     "url": "https://www.pref.kochi.lg.jp/doc/tosajirou/",
+     "publisher": "高知県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tosa-jiro",
+     "to_slug": "tosa-hachikin-jidori",
+     "relation_type": "対比",
+     "basis": "同じ高知県畜産試験場が手がけた地鶏だが、親となる在来種が土佐地鶏（天然記念物）と土佐九斤で異なる"
+    }
+   ]
+  },
+  {
+   "slug": "amakusa-daio",
+   "body_ja": "## 何でできているか\n大柄な体から取れる肉は繊維がしっかりして、煮込んでも身が崩れにくいとされる。脂と赤身のバランスがよく、鍋にすると濃い出汁が出る一方で身はぼそつかないという。骨からも旨みが出やすく、丸鶏料理にも向くとされる。骨付きのまま焼いても身崩れしにくく、丸鶏での鍋料理にも向くとされる。皮はやや厚めで、焼くとパリッとした食感に仕上がるとされる。\n## どう作るのか\n明治・大正期に天草で飼われた大型の肉用鶏が昭和初期に途絶えたのち、熊本県が約10年かけて復元したとされる。120〜150日齢で出荷され、日本最大級の地鶏と紹介される。復元にあたっては、残された資料や近縁の在来種をもとに交配を重ねたとされる。復元にあたっては、近縁の在来種や残された記録をもとに、何世代にもわたる選抜が重ねられたと伝わる。\n## なぜこの形になったのか\n天草は開拓地としての歴史を持ち、体格の大きな鶏を育てて肉量を確保する必要があったとも考えられている。一度途絶えた系統をあえて10年がかりで復元した背景には、単なる効率を超えた土地の記憶へのこだわりが読み取れる。「大王」という名にも、その規模と誇りへの思いが込められているとされる。「大王」という名は、単なる体格の大きさだけでなく、一度途絶えた系統を蘇らせた誇りをも表しているといえる。",
+   "body_en": "## What it's made of\nMeat from its large frame is said to keep firm fibers that hold together even when simmered long, with fat and lean balanced enough that a pot of it yields rich stock without the meat turning stringy — even the bones are said to give up good flavor, suiting whole-bird cooking. Grilled bone-in, it's said to hold together well, and it also suits whole-bird pot cooking. The skin runs a touch thick, said to crisp up nicely when grilled.\n## How it's made\nA large-bodied meat fowl once kept in Amakusa in the Meiji and Taisho eras, said to have died out in the early Showa period before Kumamoto prefecture spent roughly a decade recreating it; reportedly among the biggest jidori breeds, shipped at 120–150 days. The revival is said to have drawn on surviving records and related native breeds. The revival is said to have drawn on related native breeds and surviving records across many generations of selection.\n## Why it took this shape\nAmakusa carries a history as reclaimed farmland, and raising a large-framed bird is thought to have answered a need for more meat per animal. Spending a decade reviving a lineage that had already died out suggests something beyond efficiency — a hold on local memory, with the name \"Daio\" (great king) said to carry both its scale and that pride. The name Daio (great king) is said to carry not just its size but pride in reviving a lineage that had already died out.",
+   "sources": [
+    {
+     "title": "天草大王",
+     "url": "https://www.pref.kumamoto.jp/soshiki/75/851.html",
+     "publisher": "熊本県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "amakusa-daio",
+     "to_slug": "bibai-yakitori",
+     "relation_type": "対比",
+     "basis": "熊本の天草大王は120〜150日かけて育てる大型地鶏で「大きさ」を軸に据え、北海道美唄やきとりは一羽を余さず串にする「使い切り」を軸に据える、鶏の価値の置き方が異なる対"
+    }
+   ]
+  },
+  {
+   "slug": "hakata-jidori",
+   "body_ja": "## 何でできているか\n皮に脂がのりつつ、身はさっぱりとした後味を持つとされる。長時間煮込んでも濁りにくい澄んだ出汁が取れるといい、鍋料理向けに肉質と脂のバランスが調整されているという。骨からも上品な旨みが溶け出すとされる。皮の脂が出汁にコクを加える一方で、身自体は淡白に仕上がるため、鍋の後半まで飽きずに楽しめるとされる。\n## どう作るのか\n郷土料理の水炊きやがめ煮に合う地鶏として、軍鶏をもとに福岡県の試験場が開発したとされる。飼育期間は80日以上と定められ、実際の出荷日齢は平均85日ほどになるという。開発にあたっては、料理に使う地元の料理人の声も参考にされたと伝わる。出荷日齢は品質を保つため個体ごとに管理され、基準日齢に満たないものは出荷しないという運用がされているとされる。\n## なぜこの形になったのか\n福岡は水炊きという鶏の鍋料理が郷土料理として根付いた土地で、澄んだ出汁と締まった身の両方が求められてきたとされる。料理そのものに合わせて品種を仕立てるという発想が、この地鶏の開発の出発点にあったといえる。鍋の主役であり続けるための改良が、今も続けられているとされる。水炊きという料理が博多の家庭料理として根付いていることも、この地鶏が今も選ばれ続ける理由の一つとされる。",
+   "body_en": "## What it's made of\nThe skin carries fat while the meat itself finishes clean, said to yield stock that stays clear even after long simmering — meat and fat reportedly balanced with hot-pot cooking specifically in mind, the bones said to give up an elegant depth of flavor too. Fat from the skin adds depth to the broth while the meat itself stays mild, said to keep the pot enjoyable through to the last bite.\n## How it's made\nSaid to have been bred from shamo fowl by a Fukuoka prefectural research station specifically to suit local dishes like mizutaki hot pot; the standard sets a minimum 80 days, with average shipment reportedly around 85. Local cooks' input is said to have informed the development process. Shipment age is reportedly managed bird by bird to protect quality, with any falling short of the standard held back.\n## Why it took this shape\nFukuoka is a place where mizutaki, a chicken hot pot, took root as a local dish demanding both a clear broth and firm meat. Starting from the dish itself and building a breed to match it is said to have been the point of departure for this bird, with refinements said to continue even now to keep it the centerpiece of the pot. That mizutaki remains a home-cooked staple in Fukuoka is said to be one reason this breed is still chosen today.",
+   "sources": [
+    {
+     "title": "はかた地どり",
+     "url": "https://zennoh-fukuren.jp/consumer/tikusan/jidori",
+     "publisher": "JA全農ふくれん",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hakata-jidori",
+     "to_slug": "kurume-yakitori",
+     "relation_type": "対比",
+     "basis": "同じ福岡県で、はかた地どりは水炊きに合わせて開発された地鶏、久留米焼きとりは鶏に限らず何でも串にする気軽な文化という対"
+    }
+   ]
+  },
+  {
+   "slug": "miyazaki-jitokko",
+   "body_ja": "## 何でできているか\n皮は薄くパリッと焼け、身は締まって歯ごたえがありながら硬すぎないとされる。炭火で焼くと脂と皮の香ばしさが立ち、シンプルな塩味でも十分な旨みを感じさせるという。噛むほどに肉汁がにじみ出る点も特徴とされる。刺身や炭火焼きなど、シンプルな調理法ほど肉そのものの味が引き立つとされる。脂の甘みと赤身の旨みのバランスが良く、幅広い料理に合うとされる。\n## どう作るのか\n霧島山麓で古くから飼われてきた在来種「地頭鶏」をもとに開発されたとされる。オス4か月・メス5か月ほどかけて育てられ、じっくり時間をかけることで肉の締まりを引き出すという。雌雄で育成期間を分けることで、それぞれに適した肉質に仕上げているとされる。飼育期間中は運動できる環境を確保することが重視され、これが身の締まりにつながっているという。\n## なぜこの形になったのか\n名は、美味しさから地頭に献上されたことに由来すると伝わる。霧島の山麓という土地で長く守られてきた在来種の血を絶やさぬよう、地域ぐるみで飼育を続けてきたという経緯が、この地鶏の背景にあるとされる。宮崎の炭火焼き文化を支える存在としても知られている。宮崎の炭火焼き文化は鶏だけでなく牛や豚にも広がる土地の食べ方で、この地鶏もその系譜の中心に位置づけられるとされる。",
+   "body_en": "## What it's made of\nThe skin runs thin and crisps well, the meat firm with a bite that stops short of tough — said to bring out the fat and skin's aroma best over charcoal, carrying enough flavor to need nothing more than salt, with juice said to well up more the longer you chew. Simple preparations like sashimi or charcoal grilling are said to let the meat's own flavor shine through most. Fat and lean are said to balance well, suiting a wide range of dishes.\n## How it's made\nDeveloped from Jitokko, a native fowl long kept at the foot of Kirishima, reportedly reared roughly four months for cockerels, five for hens — the extra time said to draw out the meat's firmness. Splitting the rearing period by sex is said to let each be finished to its own ideal texture. Ensuring room to move during rearing is said to be prioritized, credited with the meat's firmness.\n## Why it took this shape\nIts name is said to come from being offered to the local lord for its flavor. The breed's background is said to lie in a community-wide effort to keep alive a native line long protected at the foot of Kirishima — one now also known as a mainstay of Miyazaki's charcoal-grilling culture. Miyazaki's charcoal-grilling culture extends beyond chicken to beef and pork, and this breed is said to sit at the center of that tradition.",
+   "sources": [
+    {
+     "title": "みやざき地頭鶏(じとっこ)事業協同組合",
+     "url": "https://www.mjitokko.jp/",
+     "publisher": "みやざき地頭鶏事業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "miyazaki-jitokko",
+     "to_slug": "nanbu-kashiwa",
+     "relation_type": "対比",
+     "basis": "共に天然記念物・在来種の血を引く地鶏だが、みやざき地頭鶏は地頭への献上という言い伝えに由来する名、南部かしわは成長の早いコーニッシュ系を掛けた実利型という異なる方向性"
+    }
+   ]
+  },
+  {
+   "slug": "okukuji-shamo",
+   "body_ja": "## 何でできているか\n皮はぱりっと薄く、身は繊維質でしっかりした歯ごたえを持つとされる。脂は少なめで、蕎麦のつゆや鍋の出汁に肉の旨みをよく溶け出させる性質があるという。噛むほどに滋味深い味わいが広がる点も評価される。南蛮そばなど蕎麦料理との組み合わせでも親しまれ、出汁への溶け込みやすさが評価されているとされる。冷めても硬くなりにくく、弁当などにも向くとされる。\n## どう作るのか\n闘鶏用として気性が荒いシャモを、茨城県の試験場が繁殖力と肉質を高めるよう改良して生まれたとされる。雄で125日、雌で155日ほどかけて育てられ、鶏として初めて地理的表示（GI）に登録されたという。改良には長い年月がかかり、繁殖の難しさを克服する研究が重ねられたと伝わる。繁殖の難しいシャモを安定して増やすため、種鶏の管理には特に手間がかけられているという。\n## なぜこの形になったのか\n奥久慈は山あいの寒暖差が大きい土地とされ、長い飼育期間に耐えられる丈夫さが元来のシャモの気性の荒さと重なったとも考えられる。気性の荒さを丈夫さへと読み替えた改良が、鶏として初のGI登録という評価につながったといえる。地域を挙げて品質を守る仕組みも、この評価を支えているとされる。GI登録という形での品質保証は、山あいの厳しい気候の中で丁寧に育て続けてきた生産者の努力の証ともいえる。",
+   "body_en": "## What it's made of\nThin, crisp skin and meat with a fibrous, firm bite, said to carry little fat — a type said to give up its flavor readily into soba broth or a hot pot's stock, with a deep, savory quality said to build the more you chew. It's also enjoyed paired with soba dishes like nanban soba, valued for how readily it gives up flavor into the broth. It resists toughening even cold, said to suit bento and packed lunches.\n## How it's made\nSaid to be bred from the fierce shamo fighting fowl, tempered by an Ibaraki research station for better fertility and meat quality; reportedly reared around 125 days for cockerels and 155 for hens, and the first chicken registered as a Geographical Indication product. The improvement reportedly took years of work to overcome the breed's notoriously difficult fertility. Because shamo are notoriously hard to breed, extra care is reportedly given to managing the breeding stock.\n## Why it took this shape\nOkukuji is a mountain-valley area said to see wide temperature swings, and the hardiness needed to endure a long rearing period is thought to have dovetailed with the shamo's original fierce temperament. Reading that fierceness as hardiness is said to have led to its status as the first chicken registered as a GI product, an achievement credited partly to a region-wide system for guarding its quality. The GI registration is said to stand as proof of producers' patient work raising the bird through a harsh mountain climate.",
+   "sources": [
+    {
+     "title": "奥久慈しゃも（地理的表示保護制度）",
+     "url": "https://www.maff.go.jp/j/shokusan/gi_act/register/0071/index.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "okukuji-shamo",
+     "to_slug": "aomori-shamorock",
+     "relation_type": "兄弟",
+     "basis": "両者ともに気性の荒いシャモを県の試験場が食用向けに改良した地鶏とデータに明記されている（奥久慈しゃも・青森シャモロック）"
+    }
+   ]
+  },
+  {
+   "slug": "aizu-jidori",
+   "body_ja": "## 何でできているか\n肉質はきめ細かく、脂と赤身のバランスが取れているとされる。長期間かけて丁寧に肥育されるため、身が締まりながらもパサつきにくいという特徴を持つという。噛むと上品な脂の甘みが広がる点も特徴とされる。すき焼きや鍋にすると、脂の甘みと赤身の旨みが溶け合うように広がるとされる。口に入れた瞬間のやわらかさと、噛むほどに増す旨みの両方を楽しめるという。\n## どう作るのか\n平家の落人が会津に持ち込んだと伝わる系統をもとに、絶滅寸前だったところを福島県が保護し交配・改良を重ねて作出したとされる。90〜170日ほどかけて丁寧に肥育されるという。個体ごとに育成期間を見極めながら、じっくり仕上げる飼育が続けられているとされる。個体ごとの成長を見ながら育成期間を柔軟に調整することが、品質を安定させる鍵になっているという。\n## なぜこの形になったのか\n会津は山に囲まれ、落人伝説が伝わるような隔絶された土地とされる。外部との交流が限られたことが、独自の血統を絶滅寸前まで純粋なまま保つ一因になったとも考えられ、その希少さゆえの復活劇がこの地鶏の物語になっている。会津の郷土料理を支える、地域の誇りともいえる存在という。会津の郷土料理は保存食が多いことでも知られ、この地鶏もそうした土地の食文化を支える一つとして位置づけられている。",
+   "body_en": "## What it's made of\nSaid to have fine-grained meat with fat and lean in balance; a long, careful fattening period is credited with keeping the meat firm without turning dry, its fat said to carry an elegant sweetness with each bite. In sukiyaki or a hot pot, the fat's sweetness is said to melt together with the lean meat's flavor. It's said to offer both an initial tenderness and a flavor that deepens with each chew.\n## How it's made\nA lineage said to have been brought to Aizu by Heike clan refugees, saved from near-extinction and re-established through crossbreeding by Fukushima prefecture; reportedly fattened for 90 to 170 days. Rearing time is said to be judged bird by bird, finishing each one slowly and carefully. Adjusting the rearing period flexibly based on each bird's growth is said to be key to keeping quality consistent.\n## Why it took this shape\nAizu is a mountain-ringed area associated with legends of refugee clans settling in isolation. Limited contact with the outside world is thought to be part of why the bloodline stayed this pure right up to near-extinction — and that rarity is what gives this breed its story of revival, now standing as a source of regional pride behind Aizu's local cooking. Aizu is also known for its preserved-food traditions, and this breed is said to be positioned as another pillar supporting that local food culture.",
+   "sources": [
+    {
+     "title": "会津地鶏（地理的表示保護制度）",
+     "url": "https://www.maff.go.jp/j/shokusan/gi_act/register/0166/index.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aizu-jidori",
+     "to_slug": "date-dori",
+     "relation_type": "対比",
+     "basis": "同じ福島県の地鶏・銘柄鶏だが、会津地鶏は平家落人伝説を持つ絶滅寸前の系統の復活、伊達鶏はフランス・ブレス地方を参考に一から作った系統という由来の対照"
+    }
+   ]
+  },
+  {
+   "slug": "shinshu-ogon-shamo",
+   "body_ja": "## 何でできているか\nシャモゆずりの締まった歯ごたえと、名古屋種由来のコクのある旨みを併せ持つとされる。ブロイラーの血が入っていない分、脂はさっぱりとしていながら肉の味自体は濃いという。噛むほどに二つの系統の持ち味が重なって感じられるとされる。焼き鳥にすると脂の軽さとシャモ譲りの歯ごたえが同時に楽しめるとされる。後味はすっきりとしていて、しつこさを感じさせないとされる。\n## どう作るのか\nシャモと名古屋種を掛け合わせ、ブロイラーの血を一切含まない在来種100%として長野県畜産試験場が開発したとされる。オス112日以上、メス120日以上かけて育てられるという。血統の純度を保つため、交配や飼育の過程が厳しく管理されているとされる。ブロイラーの血を排除した分、成長は緩やかで、飼育コストは一般的な鶏より高くなるとされる。\n## なぜこの形になったのか\n長野は寒暖差の大きい内陸の土地で、濃い味の郷土料理が育まれてきたとされる。ブロイラーの血を排してまで在来種の純度にこだわった開発方針には、土地の濃い食文化に見合う濃い味わいを求めた狙いがあったとも読める。名前の「黄金」には、その品質への自負が込められているとされる。長野の郷土料理には山国らしい濃い味付けのものが多く、この地鶏の濃厚な味わいもその食文化に沿う形で育てられてきたといえる。",
+   "body_en": "## What it's made of\nSaid to combine the firm bite of shamo with the rich flavor of Nagoya-breed stock; with no broiler blood diluting it, the fat runs light even as the meat's own flavor stays strong, the two bloodlines' character said to layer together with each chew. Grilled as yakitori, its light fat and shamo-inherited bite are said to come through together. The finish is said to run clean, without any heaviness lingering.\n## How it's made\nSaid to be developed by Nagano's livestock experiment station from a cross of shamo and Nagoya breed, kept at 100% native blood with no broiler ancestry; reportedly reared at least 112 days for cockerels and 120 for hens. Breeding and rearing are said to be tightly controlled to preserve that purity of blood. Excluding broiler blood is said to mean slower growth and higher rearing costs than an ordinary chicken.\n## Why it took this shape\nNagano is an inland region of wide temperature swings, said to have nurtured strongly flavored local dishes. Insisting on 100% native blood, even at the cost of excluding broiler stock, reads as an effort to match a flavor as bold as the region's own cooking — with \"ogon\" (gold) in its name said to carry pride in that quality. Nagano's local dishes tend toward bold, mountain-country seasoning, and this breed's rich flavor is said to have been raised to match that food culture.",
+   "sources": [
+    {
+     "title": "信州黄金シャモ",
+     "url": "https://www.pref.nagano.lg.jp/enchiku/sangyo/nogyo/chikusan/ogonshamo/index.html",
+     "publisher": "長野県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shinshu-ogon-shamo",
+     "to_slug": "kyo-jidori",
+     "relation_type": "兄弟",
+     "basis": "両者ともにシャモ（軍鶏）を親に持ち、ともに「在来種100%」にこだわったとデータに明記されている"
+    }
+   ]
+  },
+  {
+   "slug": "daisen-dori",
+   "body_ja": "## 何でできているか\n平飼いで育つ分、脂肪の質がさらりとしていて、赤身との一体感があるとされる。抗生物質を用いない飼料で育てるため、臭みの少ない澄んだ味わいに仕上がるという。噛むほどに脂の軽やかな甘みが感じられるとされる。焼いても脂がしつこくならず、から揚げにしても軽い後味に仕上がるとされる。皮はパリッと香ばしく、身はしっとりとした食感を保つとされる。\n## どう作るのか\n大山の麓で種鶏の育成から処理まで一貫して手がける生産者による銘柄鶏とされる。抗生物質を用いない専用飼料で通常より長く平飼いされ、脂と旨みのバランスを狙うという。一貫生産によって、飼育から出荷までの品質管理を徹底しているとされる。種鶏の選定から出荷まで一つの生産者が管理することで、品質のばらつきを抑える体制が取られているという。\n## なぜこの形になったのか\n大山は伏流水が豊富な山として知られ、水と空気のきれいさが畜産に向く土地とされてきた。種鶏から処理まで一貫生産にこだわる姿勢は、大山の環境そのものを味に反映させようとする発想の表れとも読める。清らかな水と空気が育む味わいこそが、この銘柄鶏の核にあるとされる。大山の名水を生かした農産物は他にも多く、この銘柄鶏もそうした水と空気の恵みを味に変えた一例とされる。",
+   "body_en": "## What it's made of\nFree-ranging is said to leave the fat lighter and more integrated with the lean meat; feed kept free of antibiotics is credited with a cleaner flavor, less prone to off-notes, the fat itself said to carry a light sweetness with each bite. Grilled, the fat is said to avoid turning heavy, and fried as karaage it's said to finish with a light aftertaste. The skin crisps up fragrant while the meat is said to keep a moist texture.\n## How it's made\nA branded chicken said to be raised end-to-end, from breeding stock to processing, by producers at the foot of Mount Daisen — free-ranged longer than usual on an antibiotic-free feed aimed at balancing fat and flavor. That end-to-end system is said to enforce quality control from rearing through shipping. Having one producer manage everything from breeding stock selection to shipment is said to keep quality consistent.\n## Why it took this shape\nMount Daisen is known for its abundant spring water, long considered land well suited to livestock for its clean water and air. Insisting on end-to-end production, from breeding stock to processing, reads as an effort to let the mountain's own environment show through in the flavor — that clean water and air said to sit at the very core of the brand. Many local products draw on Mount Daisen's famous spring water, and this branded chicken is said to be another example of turning that water and air into flavor.",
+   "sources": [
+    {
+     "title": "大山どり",
+     "url": "https://www.j-chicken.jp/anshin/sanchi5_31_02.html",
+     "publisher": "一般社団法人 日本食鳥協会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "daisen-dori",
+     "to_slug": "okumino-kojidori",
+     "relation_type": "対比",
+     "basis": "大山どりは生産者主導で抗生剤不使用飼料・平飼い延長を行う銘柄鶏、奥美濃古地鶏は天然記念物「岐阜地鶏」の血を引く公的な地鶏という、成立の背景が異なる対"
+    }
+   ]
+  },
+  {
+   "slug": "iyoji-shamo",
+   "body_ja": "## 何でできているか\n放し飼いに強い体質ゆえに筋肉質で、噛むとしっかりした歯ごたえが返ってくるとされる。脂は控えめで、焼いても身が締まったまま旨みを保つという。噛むほどに濃い赤身の風味が広がる点も特徴とされる。焼いても身が縮みにくく、から揚げにしても外はカリッと中はジューシーに仕上がるとされる。冷めても硬くならず、弁当や作り置きにも向くとされる。\n## どう作るのか\n輸入鶏肉の拡大と消費者の高品質志向を背景に、愛媛県養鶏研究所が開発したとされる高品質な肉用鶏。放し飼いに強く、120日ほどかけて育てるため歯ごたえが出るという。丈夫な体質を選抜することで、放し飼いでも育てやすい系統に仕上げられたとされる。放し飼いに耐えられる丈夫さを選抜の重要な基準としたことが、この鶏の開発の出発点だったと伝わる。\n## なぜこの形になったのか\n輸入鶏肉の増加という外圧に対抗する形で、あえて時間とコストをかけた高品質路線を選んだ経緯があるとされる。効率よりも歯ごたえと味を優先する開発方針は、量では勝てない土地が質で応えようとした結果とも読める。愛媛の温暖な気候も、放し飼いでの飼育を後押ししたとされる。輸入鶏肉との価格競争を避け、あえて品質で差別化する道を選んだ点に、この地鶏の開発思想が表れているといえる。",
+   "body_en": "## What it's made of\nIts constitution suited to free-ranging leaves it muscular, said to give back a firm bite with each chew; fat stays modest, and the meat keeps its firmness — and flavor — even grilled, the lean meat's own character said to come through strongly. Grilled, the meat is said to resist shrinking, and fried as karaage it's said to turn out crisp outside and juicy within. It resists toughening once cold, said to suit bento or make-ahead cooking.\n## How it's made\nSaid to be developed by Ehime's poultry research institute in response to growing imports and demand for quality, this hardy, free-range-suited bird is reportedly raised around 120 days for its firm bite. Selecting for hardiness is said to have been key to making free-ranging practical. Selecting for the hardiness to withstand free-ranging is said to have been the starting point for this breed's development.\n## Why it took this shape\nSaid to have been developed as a deliberate quality-first response to the pressure of rising chicken imports. Prioritizing bite and flavor over efficiency reads as a region choosing to answer volume with quality instead — helped along, it's said, by Ehime's mild climate favoring free-range rearing. Choosing quality over price competition with imports is said to reflect the development philosophy behind this breed.",
+   "sources": [
+    {
+     "title": "全国地鶏銘柄鳥ガイド（愛媛県）",
+     "url": "https://www.j-chicken.jp/anshin/sanchi5_38_01.html",
+     "publisher": "一般社団法人 日本食鳥協会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "iyoji-shamo",
+     "to_slug": "imabari-yakitori",
+     "relation_type": "対比",
+     "basis": "同じ愛媛県で、伊予路しゃもは放し飼いに強い専用種として開発された地鶏、今治焼き鳥は鉄板で押さえ焼く独自スタイルの焼き鳥という対"
+    }
+   ]
+  },
+  {
+   "slug": "sanuki-cochin",
+   "body_ja": "## 何でできているか\nコーチン種譲りの肉厚な体つきで、脂がしっかりと乗るとされる。ブロイラーより長く育てる分、身に締まりが出て、焼き物にすると香ばしさが際立つという。噛むほどにコーチン種らしい濃厚な旨みが広がるとされる。鍋にしても身が締まったままで、コーチン種らしい肉厚な食感を最後まで楽しめるとされる。皮はやや厚めで、揚げ物にしても旨みが逃げにくいとされる。\n## どう作るのか\n中国原産のコーチン種をもとに、香川県畜産試験場が独自に改良して1993年に誕生したとされる地域ブランド鶏。ブロイラーの50日に対し、80〜90日ほどかけて育てられるという。独自の改良には数年単位の年月がかけられたと伝わる。独自の改良には、中国原産の系統を日本の気候に合わせて調整する試行錯誤が重ねられたと伝わる。\n## なぜこの形になったのか\n讃岐は古くからうどん文化で知られる土地だが、鶏肉についても独自のブランドを立てようとした試みがこの地鶏の誕生につながったとされる。中国由来の系統を土台にしながら、県独自の改良を重ねた点に、地域色を打ち出そうとする狙いが読み取れる。うどんに並ぶもう一つの名物を育てたいという思いが背景にあるとされる。うどん県として知られる香川に、もう一つの名物を育てたいという思いが、この地鶏のブランド化を後押ししたとされる。",
+   "body_en": "## What it's made of\nSaid to carry the fleshy build passed down from Cochin stock, with fat that sits well; reared longer than a broiler, the meat firms up and turns notably fragrant when grilled, the rich Cochin character said to come through more with every bite. Even in a hot pot the meat stays firm, said to let its Cochin-style fleshy texture come through to the last bite. The skin runs a touch thick, said to hold its flavor well even fried.\n## How it's made\nSaid to originate from the Chinese Cochin breed, independently improved by Kagawa's livestock experiment station and introduced in 1993; reportedly reared 80–90 days versus a broiler's 50. The independent refinement is said to have taken several years to complete. The independent refinement is said to have involved trial and error adapting Chinese-origin stock to Japan's climate.\n## Why it took this shape\nSanuki is long known for its udon culture, but an effort to build a chicken brand of its own is said to lie behind this breed's creation. Building on Chinese Cochin stock while adding the prefecture's own refinements suggests a deliberate push for local identity — a second specialty, it's said, meant to stand alongside udon. A wish to raise a second specialty alongside Kagawa's famous udon is said to have driven this breed's branding.",
+   "sources": [
+    {
+     "title": "讃岐コーチン",
+     "url": "https://kagawa.lin.gr.jp/kentoku/kochin/chin2.htm",
+     "publisher": "公益社団法人香川県畜産協会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sanuki-cochin",
+     "to_slug": "okazaki-ouhan",
+     "relation_type": "対比",
+     "basis": "共に県・国の試験場が交配様式を確立した実用種だが、讃岐コーチンは中国原産コーチン種の改良、岡崎おうはんは横斑プリマスロック×ロードアイランドレッドの純国産卵肉兼用種という由来の違い"
+    }
+   ]
+  },
+  {
+   "slug": "kumano-jidori",
+   "body_ja": "## 何でできているか\n複数の系統を掛け合わせた分、脂と赤身のバランスが取れた肉質になるとされる。低密度でゆったり育てるため、身にストレスが少なく、きめ細かい肉に仕上がるという。噛むと複数の血統の旨みが重なって感じられるとされる。焼いても煮ても、三つの系統の持ち味が重なり合った複雑な旨みを楽しめるとされる。皮は薄めで、脂のくどさを感じさせない上品な味わいとされる。\n## どう作るのか\n三重県原産のシャモ「八木戸」と銘柄鶏「伊勢赤どり」に名古屋コーチンを掛け合わせて作られたとされ、現在も熊野市周辺でのみ飼養されるという。平均115日ほど、低密度で育てられる。三つの系統を組み合わせる交配には、相当な試行錯誤があったと伝わる。生産地を限定していることもあり、流通量は多くなく、地元や限られた飲食店でのみ扱われることが多いという。\n## なぜこの形になったのか\n熊野は古くから信仰の地として知られ、限られた地域だけで守られてきた食文化を持つとされる。生産地を熊野市周辺に限定し続ける姿勢には、量産よりも土地との結びつきを優先する考え方が表れているといえる。熊野古道を訪れる人々をもてなす一皿としても位置づけられているとされる。熊野古道という観光資源と結びつけることで、量産よりも土地の物語を伝える地鶏として位置づけられているとされる。",
+   "body_en": "## What it's made of\nA cross of several bloodlines is said to leave fat and lean well balanced; raised at low density for an unhurried life, the meat is said to come out fine-grained with less stress on the birds, the character of each parent line said to layer together. Grilled or simmered, the complex flavor of three combined bloodlines is said to come through. The skin runs thin, said to give an elegant flavor without heavy fat.\n## How it's made\nSaid to be crossed from Yagito, a Mie-native shamo fowl, Ise Akadori and Nagoya Cochin, and still raised only around Kumano city; reportedly reared for an average of 115 days at low stocking density. Combining three separate lines is said to have taken considerable trial and error. With production kept to a limited area, distribution stays small, reportedly reaching only local or select restaurants.\n## Why it took this shape\nKumano is long known as a place of pilgrimage and faith, said to hold onto food traditions kept within a limited area. Keeping production confined to around Kumano city suggests a choice to prioritize the bond with the land over scaling up — positioned, it's said, as a dish to welcome pilgrims walking the Kumano Kodo trails. Tying the breed to the Kumano Kodo pilgrimage trails is said to position it as a dish that tells the land's story rather than one built for mass production.",
+   "sources": [
+    {
+     "title": "熊野地鶏",
+     "url": "https://www.miebrand.jp/certified_product/8",
+     "publisher": "三重ブランド（三重県）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kumano-jidori",
+     "to_slug": "nagoya-cochin",
+     "relation_type": "源流",
+     "basis": "熊野地鶏のデータに「名古屋コーチンを掛け合わせて作られた」と明記されている"
+    }
+   ]
+  },
+  {
+   "slug": "tanba-jidori",
+   "body_ja": "## 何でできているか\n外来種の血を取り入れつつも、在来種らしい歯ごたえと旨みを残しているとされる。ブロイラーよりゆっくり育つ分、身が締まり、鍋やすき焼きにしても煮崩れしにくいという。噛むほどに肉の旨みがじわりと広がるとされる。すき焼きにすると割り下の甘辛さに負けない肉の存在感が際立つとされる。冷めても硬くなりにくく、料理の幅が広いとされる。\n## どう作るのか\n京都・兵庫にまたがる丹波地域で飼育される地鶏で、フランス由来の種鶏をもとに改良されたとされる。地鶏JAS規格に沿い、通常のブロイラーの約1.5倍の期間をかけて育てられるという。二つの府県にまたがる産地ゆえ、統一された飼育基準が設けられているとされる。フランス由来の種鶏を導入したのち、国内の気候に合わせて世代を重ねながら改良が続けられたと伝わる。\n## なぜこの形になったのか\n丹波は山あいの盆地で、寒暖差の大きさが食材の味を濃くすると語られてきた土地とされる。二つの府県にまたがって育てられているのは、山塊でつながる丹波という地理そのものが行政区分より先にある土地柄だからともいえる。黒豆や栗など、他の丹波産品と並ぶ濃い味わいが持ち味とされる。丹波は黒豆や栗など、寒暖差を生かした濃い味の産品で知られる土地であり、この地鶏もその一角を担っているとされる。",
+   "body_en": "## What it's made of\nSaid to keep a native breed's bite and flavor even with imported bloodlines mixed in; slower-growing than a broiler, its meat holds firm and resists falling apart in a hot pot or sukiyaki, its flavor said to spread slowly with each chew. In sukiyaki, the meat's presence is said to hold up against the sweet-savory broth. It resists toughening once cold, lending itself to a wide range of dishes.\n## How it's made\nA jidori breed raised across the Tanba plateau spanning Kyoto and Hyogo prefectures, said to be improved from French-origin breeding stock; reportedly reared to the jidori JAS standard, about 1.5 times a standard broiler's rearing period. Spanning two prefectures, it's said to be raised to one unified standard regardless of the administrative line. After introducing French breeding stock, refinement is said to have continued across generations to suit the domestic climate.\n## Why it took this shape\nTanba is a mountain basin said to be a place where wide temperature swings are credited with deepening the flavor of local produce. That the breed is raised across two prefectures reflects how the Tanba highlands, bound together by terrain, predate the administrative line drawn through them — its bold flavor said to stand alongside other Tanba specialties like black soybeans and chestnuts. Tanba is known for other boldly flavored products shaped by its temperature swings, like black soybeans and chestnuts, and this breed is said to be part of that lineup.",
+   "sources": [
+    {
+     "title": "丹波地どり",
+     "url": "https://www.j-chicken.jp/guide/brand_28hyogo_tanbajidori/",
+     "publisher": "一般社団法人 日本食鳥協会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tanba-jidori",
+     "to_slug": "mitsuse-dori",
+     "relation_type": "対比",
+     "basis": "共にフランス由来の血統を導入して改良された地鶏・銘柄鶏だが、丹波地どりは京都・兵庫にまたがる山間地、みつせ鶏は佐賀・福岡県境の山間地という異なる土地で育てられる"
+    }
+   ]
+  },
+  {
+   "slug": "kyo-jidori",
+   "body_ja": "## 何でできているか\n在来種100%にこだわった血統ゆえ、脂は控えめで赤身の旨みがはっきり感じられるとされる。噛むとほどよい弾力があり、京料理の上品な味付けにも負けない存在感を持つという。噛むほどに澄んだ旨みが返ってくる点も特徴とされる。すき焼きにしても出汁の繊細さを損なわず、素材の味を生かす京料理との相性が良いとされる。\n## どう作るのか\n横斑プリマスロックと軍鶏を掛け合わせ、京都府が畜産技術センターと共同開発したとされる比較的新しい地鶏。JAS規格の在来種50%基準を上回る在来種100%にこだわるという。開発から日が浅い分、今も改良が続けられているとされる。在来種100%という基準を満たすため、交配や飼育の過程で血統管理が特に厳格に行われているという。\n## なぜこの形になったのか\n京都は繊細な出汁文化を持つ土地とされ、素材そのものの味の濃さが料理の質を左右すると考えられてきたという。JAS基準を上回る在来種100%への執着は、薄味の京料理を支えるための素材選びの厳しさを映しているとも読める。京の料亭文化を支える食材の一つとして育てられているとされる。京都は素材の味を引き立てる薄味の料理が多く、この地鶏の澄んだ旨みはその料理観と重なるとも読める。こうした背景から、京料理店での採用実績が品質の裏づけとしても語られているという。",
+   "body_en": "## What it's made of\nA pedigree built on 100% native blood is said to keep the fat modest while letting the lean meat's flavor come through clearly, with just enough spring in the bite to hold its own against Kyoto cuisine's delicate seasoning, its flavor said to come back clean with each chew. Even in sukiyaki it's said not to overpower a delicate broth, suiting Kyoto cuisine's ingredient-forward style.\n## How it's made\nA comparatively new jidori said to be jointly developed by Kyoto prefecture and its livestock technology center from a Barred Plymouth Rock and shamo cross, reportedly kept at 100% native blood, above the JAS standard's 50% minimum. Being a relatively recent breed, refinement is said to continue even now. Meeting the 100%-native-blood standard reportedly requires especially strict pedigree management through breeding and rearing.\n## Why it took this shape\nKyoto is a place said to hold a culture built around delicate dashi, where the raw strength of an ingredient's own flavor is thought to shape the quality of a dish. Insisting on native blood beyond the JAS minimum reads as the rigor that quiet Kyoto cooking demands of its ingredients — raised, it's said, as one of the ingredients underpinning the city's ryotei restaurant culture. Kyoto favors lightly seasoned dishes that let ingredients speak for themselves, and this breed's clean flavor is said to align with that culinary outlook. That background is said to be cited as one reason it's now used by some Kyoto ryotei restaurants.",
+   "sources": [
+    {
+     "title": "ブランド畜産物「京地どり」",
+     "url": "https://www.pref.kyoto.jp/chikusan/jidori.html",
+     "publisher": "京都府",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kyo-jidori",
+     "to_slug": "tanba-jidori",
+     "relation_type": "対比",
+     "basis": "共に京都府に地縁を持つ比較的新しい地鶏だが、京地どりは在来種100%にこだわる方針、丹波地どりはJAS規格の一般的な地鶏という方向性の違い"
+    }
+   ]
+  },
+  {
+   "slug": "omi-shamo",
+   "body_ja": "## 何でできているか\nシャモ譲りの締まった肉質に、ニューハンプシャー系のコクが重なるとされる。長期飼育によって脂肪がゆっくりと乗るため、あっさりしすぎない旨みを持つという。噛むほどに複数の系統の持ち味が層になって感じられるとされる。焼いても煮ても脂がしつこくならず、シャモ譲りの歯ごたえだけがしっかりと残るとされる。皮は厚めでパリッと焼け、脂の甘みも楽しめるとされる。\n## どう作るのか\nニューハンプシャーと横斑プリマスロックの母鶏にシャモを交配して滋賀県畜産技術振興センターが作出したとされる。140日以上とブロイラーの約2.5倍の期間をかけて育てられるという。開発には7年ほどの歳月がかけられたと伝わる。母鶏の系統を複数掛け合わせることで、繁殖性と肉質の両立を目指す開発が続けられたと伝わる。\n## なぜこの形になったのか\n近江は近江牛で知られる畜産の盛んな土地とされ、牛に並ぶ鶏のブランドを育てようとした狙いがあったとも考えられる。7年という歳月をかけた開発には、既に評価の定まった近江牛に見劣りしない品質を求めた姿勢が表れているといえる。牛と鶏、二つのブランドが並び立つ土地としての誇りがあるとされる。近江牛という強力なブランドの隣で、鶏肉の分野でも品質を追求しようとした挑戦の産物ともいえる。",
+   "body_en": "## What it's made of\nSaid to pair shamo's firm meat with the richness of New Hampshire stock; a long rearing period lets fat build slowly, keeping the flavor from turning too plain, the character of each bloodline said to layer in distinct depths. Grilled or simmered, the fat stays light, said to leave only shamo's firm bite standing out clearly. The skin runs thick and crisps well, said to bring out the fat's sweetness too.\n## How it's made\nSaid to be created by Shiga's livestock technology center by crossing shamo onto a hen line of New Hampshire and Barred Plymouth Rock; reportedly reared 140 days or more, about 2.5 times a broiler's period. Development reportedly took around seven years. Crossing multiple maternal lines is said to have aimed at balancing fertility with meat quality.\n## Why it took this shape\nOmi is known as cattle country, home to Omi beef, and is thought to have wanted a chicken brand to stand alongside it. Spending seven years on development suggests a drive not to be outshone by a beef brand whose reputation was already well established — a source of pride, it's said, in a region carrying two brands side by side. It can be read as an attempt to pursue quality in chicken alongside the powerful Omi beef brand next door.",
+   "sources": [
+    {
+     "title": "「近江しゃも」～滋賀県特産高品質地鶏～",
+     "url": "https://www.pref.shiga.lg.jp/ippan/shigotosangyou/chikusan/18265.html",
+     "publisher": "滋賀県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "omi-shamo",
+     "to_slug": "daisen-dori",
+     "relation_type": "対比",
+     "basis": "共に飼育期間の長さを軸にした地鶏・銘柄鶏だが、近江しゃもは滋賀県の試験場が140日以上とブロイラーの2.5倍を定めた公的規格、大山どりは生産者主導で平飼い期間を延ばした銘柄鶏という違い"
+    }
+   ]
+  },
+  {
+   "slug": "ise-akadori",
+   "body_ja": "## 何でできているか\nフランス系赤鶏らしい引き締まった肉質で、脂は控えめながら旨みが濃いとされる。開放鶏舎で運動させて育てるため、身がしまり、焼いても縮みにくいという。噛むほどに赤身らしい濃厚な風味が広がるとされる。焼き鳥にすると赤身の締まりと脂の軽さの対比が楽しめ、冷めても硬くなりにくいとされる。皮はパリッと香ばしく、身は締まって歯切れが良いとされる。\n## どう作るのか\nフランス産の赤鶏「レッドブロー」を導入して開発されたとされる銘柄鶏で、開放鶏舎で運動させながら通常より長い70〜75日ほど飼育するという。地域団体商標にも登録されている。輸入した種鶏をもとに、国内での飼育に適した形へ調整が重ねられたとされる。開放鶏舎での飼育は天候や季節の影響を受けやすく、管理には細やかな気配りが必要とされるという。\n## なぜこの形になったのか\n伊勢は古くから神宮への参詣客でにぎわい、もてなしの食文化が発達してきた土地とされる。海外の血統を取り入れてでも質の高い鶏を用意しようとした姿勢には、参宮客をもてなす土地としての矜持が重なっているとも読める。地域団体商標の登録も、その品質への自信の表れとされる。伊勢神宮への参拝客をもてなす食文化の延長線上に、この銘柄鶏の開発があったとも読み取れる。",
+   "body_en": "## What it's made of\nSaid to carry the firm meat typical of French red-fowl stock, with modest fat but a strong flavor; raised with room to move in open sheds, the meat stays firm and resists shrinking on the grill, its lean character said to intensify with each chew. Grilled as yakitori, the contrast between firm lean meat and light fat is said to stand out, resisting toughening even once cool. The skin crisps up fragrant, the meat firm with a clean bite.\n## How it's made\nA branded chicken said to be developed from imported French Redbro stock, reared in open sheds with room to move for around 70–75 days, longer than standard; registered as a regional collective trademark. The imported stock is said to have been adjusted repeatedly to suit domestic rearing conditions. Open-shed rearing is said to be more exposed to weather and season, requiring careful attention.\n## Why it took this shape\nIse is said to have long bustled with pilgrims visiting its shrine, nurturing a culture built around hospitality. Reaching for foreign bloodlines to secure a high-quality bird reads as a reflection of that same pride in hosting visitors well — the trademark registration itself said to reflect confidence in that quality. The development can be read as an extension of the hospitality culture built around welcoming pilgrims to Ise Shrine.",
+   "sources": [
+    {
+     "title": "伊勢赤どり",
+     "url": "https://www.j-chicken.jp/guide/brand_24mie_iseakadori/",
+     "publisher": "一般社団法人 日本食鳥協会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ise-akadori",
+     "to_slug": "kishu-umedori",
+     "relation_type": "対比",
+     "basis": "共に三重・和歌山という近畿南部で、輸入血統や梅酢成分など独自の一手間を加えて開発された銘柄鶏という共通点を持つ対"
+    }
+   ]
+  },
+  {
+   "slug": "nanbu-kashiwa",
+   "body_ja": "## 何でできているか\n在来種の血を引きながらも成長の早いコーニッシュ系を掛けたことで、歯ごたえと育てやすさのバランスが取れているとされる。脂は控えめで、汁物や鍋にすると出汁がよく出るという。噛むほどに素朴な旨みが広がる点が特徴とされる。汁物にすると出汁がよく出て、寒い季節にも体を温める一品として親しまれているとされる。煮ても身が硬くなりにくく、汁物向きの肉質とされる。\n## どう作るのか\n天然記念物の岩手地鶏や軍鶏の血を引く系統と、成長の早いコーニッシュ系を掛け合わせて岩手県農業研究センターが作出したとされる。雌で120日以上かけて育てられるという。在来種の味とコーニッシュ系の効率性を両立させる交配が重ねられたとされる。在来種とコーニッシュ系の交配比率を調整しながら、味と育てやすさのバランスを探る改良が重ねられたという。\n## なぜこの形になったのか\n岩手は郷土料理のひっつみなど、汁物文化が根付いた土地とされる。在来種の味の濃さと外来種の効率性を両立させる交配は、寒冷な土地で汁物を日常的に食べ続けてきた食文化の実利的な要請に応えた結果とも読める。「かしわ」という呼び名自体が、鶏肉を指す方言として今も使われているという。岩手の郷土料理は寒さをしのぐための知恵が詰まったものが多く、この地鶏もその実利的な発想の延長にあるとされる。",
+   "body_en": "## What it's made of\nSaid to balance bite with ease of raising, carrying native blood crossed with fast-growing Cornish stock; fat stays modest, and it gives up good stock in soups and hot pots, its plain, homely flavor said to spread with each chew. In soup dishes it's said to give up good stock, valued as a warming dish through the cold season. It resists toughening when simmered, said to suit soup dishes especially well.\n## How it's made\nSaid to be created by Iwate's agricultural research center by crossing lines carrying the blood of the natural-monument Iwate-jidori and shamo fowl with fast-growing Cornish stock; reportedly reared 120 days or more for hens. Balancing native flavor against Cornish efficiency is said to have taken repeated crossbreeding. Adjusting the ratio of native to Cornish blood is said to have been refined repeatedly to balance flavor with ease of raising.\n## Why it took this shape\nIwate is said to be a region with a deep-rooted soup culture, seen in dishes like hittsumi. Crossing a strongly flavored native line with efficient foreign stock reads as answering the practical demands of a cold region that eats soup as an everyday matter — the word kashiwa itself still used locally as a dialect term for chicken meat. Iwate's local dishes are said to be full of practical wisdom for enduring the cold, and this breed is said to extend that same practical thinking.",
+   "sources": [
+    {
+     "title": "美味しいね、南部かしわ",
+     "url": "https://www.pref.iwate.jp/sangyoukoyou/nougyou/chikusangijutsu/jidori/1007735.html",
+     "publisher": "岩手県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nanbu-kashiwa",
+     "to_slug": "hokkai-jidori",
+     "relation_type": "対比",
+     "basis": "共に在来種と成長の早い外来系統を掛け合わせた実利型の地鶏だが、南部かしわは岩手地鶏と軍鶏の血、北海地鶏は名古屋種を父にした三元交雑という違い"
+    }
+   ]
+  },
+  {
+   "slug": "aomori-shamorock",
+   "body_ja": "## 何でできているか\nシャモの筋肉質な歯ごたえと、プリマスロック譲りの適度な脂を併せ持つとされる。長めの飼育期間により、身にほどよい弾力とコクが生まれるという。噛むほどに二つの系統の持ち味が調和して感じられるとされる。焼いても脂が軽く、シャモ譲りの弾力が最後まで残る点が評価されているとされる。冷めても硬くなりにくく、幅広い料理に使いやすいとされる。\n## どう作るのか\nシャモと横斑プリマスロックを掛け合わせ、青森県畜産試験場が約20年の研究の末に開発したとされる。雄で約100日、雌で約120日と、一般的なブロイラーより50〜60日長く育てられるという。長期研究の過程では、繁殖の安定性を高めるための試行錯誤が重ねられたとされる。約20年の研究期間には、繁殖の安定性を高めるための地道な選抜が繰り返されたと伝わる。\n## なぜこの形になったのか\n青森は冷涼な気候で知られ、鶏の飼育には不利ともされてきた土地という。約20年という長い研究期間をかけた背景には、厳しい気候条件の中でも品質の高い鶏を作ろうとした粘り強さが表れているといえる。「シャモロック」という名にも、粘り強く育て上げた誇りが込められているとされる。厳しい気候の青森で高品質な鶏を作り上げたという実績が、この地鶏のブランド価値を支えているとされる。",
+   "body_en": "## What it's made of\nSaid to combine shamo's muscular bite with a moderate layer of fat from its Plymouth Rock side; the longer rearing period is credited with a well-judged springiness and depth of flavor, the two bloodlines said to come together in balance. Grilled, the fat stays light, said to leave shamo's springiness standing out to the last bite. It resists toughening once cold, said to work well across a range of dishes.\n## How it's made\nSaid to be developed by Aomori's livestock experiment station over roughly two decades of research from a shamo and Barred Plymouth Rock cross; reportedly reared about 100 days for cockerels and 120 for hens, 50–60 days longer than a standard broiler. That long research process is said to have involved repeated efforts to stabilize breeding. The roughly two decades of research reportedly involved repeated patient selection to stabilize breeding.\n## Why it took this shape\nAomori is known for its cool climate, long considered unfavorable ground for raising chickens. Spending some two decades on research reflects a persistence in chasing quality despite conditions stacked against it — pride in that persistence said to be carried in the name Shamorock itself. Its brand value is said to rest on the track record of producing a high-quality bird despite Aomori's harsh climate.",
+   "sources": [
+    {
+     "title": "青森県の特産地鶏「青森シャモロック」の生産定義について",
+     "url": "https://www.pref.aomori.lg.jp/soshiki/nourin/chikusan/aoshamo.html",
+     "publisher": "青森県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aomori-shamorock",
+     "to_slug": "hinai-jidori",
+     "relation_type": "対比",
+     "basis": "共に東北の地鶏だが、青森シャモロックはシャモ×横斑プリマスロックを約20年かけて開発、比内地鶏は天然記念物比内鶏の血を引く一代雑種という異なる成立過程"
+    }
+   ]
+  },
+  {
+   "slug": "hokkai-jidori",
+   "body_ja": "## 何でできているか\n三元交雑らしく複数の系統の持ち味が重なり、脂と赤身のバランスが良いとされる。平飼いで育つため筋肉質で、噛むとしっかりした歯ごたえが返ってくるという。噛むほどに三つの血統の持ち味が層になって感じられるとされる。焼いても煮ても、三つの系統それぞれの個性が層になって感じられるとされる。皮はやや厚めで、焼くと香ばしさがしっかり立つとされる。\n## どう作るのか\n名古屋種を父に、大型シャモとロードアイランドレッドの掛け合わせを母に用いた三元交雑鶏として道立の試験場が開発したとされる。28日齢以降120日以上、平飼いで育てられるという。三元交雑という手法によって、それぞれの系統の長所を引き出そうとしたとされる。広大な土地を生かした平飼いが可能な点も、この地鶏の飼育方針の特徴の一つとされる。\n## なぜこの形になったのか\n北海道は広大な土地を生かした平飼いに向く一方、寒さの厳しさから鶏の飼育例が本州より少なかったとされる。三つの系統を掛け合わせるという手の込んだ交配には、不利な気候条件を品種改良の工夫で乗り越えようとした狙いがあったとも読める。広い土地を生かした飼育こそが、この地鶏の持ち味を支えているとされる。北海道ならではの広い土地と厳しい気候の両方を乗り越えて生まれた地鶏として紹介されることが多いという。",
+   "body_en": "## What it's made of\nA three-way cross said to layer several bloodlines' strengths, balancing fat and lean; raised free-range, it grows muscular and gives back a firm bite, the character of all three lines said to come through in layers. Grilled or simmered, the individual character of all three bloodlines is said to come through in layers. The skin runs a touch thick, said to turn notably fragrant when grilled.\n## How it's made\nSaid to be a three-way cross bred by a Hokkaido prefectural research station from a Nagoya-breed sire and a large shamo–Rhode Island Red dam line; reportedly free-ranged from 28 days old for 120 days or more. The three-way method is said to have been chosen specifically to draw out each line's individual strength. Being able to free-range across wide land is said to be one defining feature of this breed's rearing policy.\n## Why it took this shape\nHokkaido's wide-open land suits free-ranging, but its harsh cold is said to have meant fewer chicken-raising traditions than on Japan's main island. A deliberately elaborate three-way cross reads as an attempt to out-engineer unfavorable conditions through breeding — that wide-open land itself said to be what makes the breed's character possible. It's often introduced as a jidori born from overcoming both Hokkaido's vast land and its harsh climate at once.",
+   "sources": [
+    {
+     "title": "北海地鶏IIIについて",
+     "url": "https://www.hro.or.jp/agricultural/research/sintoku/organization/tyusyou/poultry/hokkaijidori3.html",
+     "publisher": "北海道立総合研究機構",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hokkai-jidori",
+     "to_slug": "nagoya-cochin",
+     "relation_type": "源流",
+     "basis": "北海地鶏のデータに「名古屋種を父に」用いた三元交雑鶏と明記されている"
+    }
+   ]
+  },
+  {
+   "slug": "yamato-nikudori",
+   "body_ja": "## 何でできているか\n三種交配らしいコクの深さがあり、脂と赤身のバランスが取れているとされる。戦前の味の再現を目指しただけあって、昔ながらの濃い鶏の風味を持つという。噛むほどに三つの系統の持ち味が重なって感じられるとされる。すき焼きや親子丼にしても昔ながらの濃い鶏の風味を楽しめるとされる。冷めても硬くなりにくく、昔ながらの味わいを保つとされる。\n## どう作るのか\n戦前に京阪神で評判だった「大和かしわ」の味を復活させようと、奈良県畜産試験場が大型軍鶏・名古屋種・ニューハンプシャーの3種交配で作出したとされる。120〜140日ほどかけて育てられるという。味の再現には、複数の系統を組み合わせる地道な試行錯誤が重ねられたとされる。3種の交配比率を調整しながら、戦前の味に近づけるための試行錯誤が繰り返されたと伝わる。\n## なぜこの形になったのか\n大和は古くから都が置かれた土地で、京阪神という大消費地に近く、戦前から鶏肉の評判が伝わっていたとされる。一度は廃れた評判の味をあえて復活させようとした試みには、失われた食文化への土地の愛着が読み取れる。古都としての誇りが、この鶏の復活劇の背景にあるとされる。大和かしわという名は今も奈良の郷土料理の呼び名として使われており、この地鶏がその記憶をつないでいるといえる。",
+   "body_en": "## What it's made of\nSaid to carry the depth typical of a three-way cross, fat and lean well balanced; built to revive a prewar taste, it's said to keep an old-fashioned, robustly flavored character, all three bloodlines said to layer together in the finished flavor. In sukiyaki or oyakodon it's said to carry that old-fashioned, robust chicken flavor. It resists toughening once cold, said to keep its old-fashioned flavor.\n## How it's made\nSaid to be bred by Nara's livestock experiment station from a three-way cross of large shamo, Nagoya breed and New Hampshire, in an effort to revive the flavor of a prewar fowl once famed across the Kansai region; reportedly reared 120–140 days. Recreating that flavor is said to have taken patient trial and error across several bloodlines. Adjusting the ratio of the three crossed bloodlines is said to have taken repeated trial and error to approach the prewar taste.\n## Why it took this shape\nYamato was long home to ancient capitals, close enough to the Kansai region's big markets that its chicken reportedly built a reputation before the war. Deliberately reviving a flavor that had once faded reflects a local attachment to a food culture that had been lost — a pride in its history as an old capital said to lie behind the revival. The name Yamato Kashiwa is still used in Nara's local cooking today, and this breed is said to carry that memory forward.",
+   "sources": [
+    {
+     "title": "大和肉鶏",
+     "url": "https://www.pref.nara.lg.jp/n116/58611.html",
+     "publisher": "奈良県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yamato-nikudori",
+     "to_slug": "nagoya-cochin",
+     "relation_type": "源流",
+     "basis": "大和肉鶏のデータに「大型軍鶏・名古屋種・ニューハンプシャーの3種交配」と明記されている"
+    }
+   ]
+  },
+  {
+   "slug": "tosa-hachikin-jidori",
+   "body_ja": "## 何でできているか\n複数の在来種の血を引く分、歯ごたえと旨みのバランスが取れているとされる。80日という比較的短い飼育期間ながら、しっかりとした肉質に仕上がるという。噛むほどに複数の血統の持ち味が感じられる点も特徴とされる。短期間の飼育ながら、三種の在来種の持ち味が重なった複雑な旨みが楽しめるとされる。皮は薄めで、身は締まってジューシーさを保つとされる。\n## どう作るのか\n高知原産の土佐九斤と大シャモ、白色プリマスロックを掛け合わせて高知県畜産試験場が完成させたとされる。「はちきん」は高知の快活な女性を指す方言に由来するという。飼育期間は80日という。三種の交配によって、短期間でも十分な肉質を確保できるよう工夫されたとされる。土佐九斤という古くからの在来種の血を生かしつつ、短期間で仕上げる効率性も重視された開発だったという。\n## なぜこの形になったのか\n高知は「はちきん」という言葉が示すように、気風の良さを誇る土地柄とされる。地元の方言をそのまま品種名に用いた点には、土地の気質そのものをブランドとして押し出そうとする狙いが表れているといえる。土佐弁の親しみやすさが、この地鶏の知名度を後押ししているとされる。高知県には土佐ジローという別の地鶏もあり、異なる在来種を親に持つ二つの地鶏が土地の多様性を物語っているとされる。",
+   "body_en": "## What it's made of\nCarrying the blood of several native breeds, it's said to balance bite and flavor well; despite a comparatively short 80-day rearing period, the meat still comes out notably firm, the character of each bloodline said to be felt with every chew. Even over a short rearing period, the layered flavor of three native bloodlines is said to come through. The skin runs thin, the meat firm yet said to stay juicy.\n## How it's made\nSaid to be completed by Kochi's livestock experiment station from a cross of the native Tosa-kukin, large shamo and white Plymouth Rock; its name reportedly borrows a local dialect word for a lively, spirited woman, and rearing is said to run 80 days. Combining three lines is said to have been designed to secure good meat quality even in that short span. Drawing on the old native Tosa-kukin bloodline while still prioritizing efficient short-term rearing is said to have shaped this breed's development.\n## Why it took this shape\nKochi is a place proud of its spirited character, as the word hachikin itself suggests. Naming a breed directly after a local dialect term reads as an attempt to brand the region's own temperament — the warmth of Tosa dialect said to have helped the breed's name spread. Kochi is also home to Tosa Jiro, another jidori, and the two breeds — each descended from a different native line — are said to reflect the region's diversity.",
+   "sources": [
+    {
+     "title": "土佐はちきん地鶏をご存じですか？",
+     "url": "https://www.pref.kochi.lg.jp/doc/hachikin/",
+     "publisher": "高知県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tosa-hachikin-jidori",
+     "to_slug": "kuro-satsuma-dori",
+     "relation_type": "対比",
+     "basis": "共に方言・地域色由来のユニークな名を持ち、比較的新しく開発された地鶏だが、はちきんは高知の快活な女性を指す方言、黒さつま鶏は薩摩鶏の血と羽色に由来する名という違い"
+    }
+   ]
+  },
+  {
+   "slug": "kishu-umedori",
+   "body_ja": "## 何でできているか\n梅酢由来の成分を与えられることで、臭みが少なく柔らかい肉質に仕上がるとされる。脂の口当たりも軽く、さっぱりとした後味を持つという。噛むほどにほのかな酸味を思わせる爽やかさが感じられるとされる。から揚げや焼き鳥にしても臭みが出にくく、梅の風味がほのかに感じられるとされる。皮はやわらかく、から揚げにしても食べやすいとされる。\n## どう作るのか\n梅の産地みなべ町の梅加工業者と県が共同で、梅酢から塩分を除いて抽出した成分を飼料に加えて育てる銘柄鶏として開発したとされる。臭みが少なく柔らかい肉質になるという。飼料の配合には、地元の梅加工業者の知見が生かされたと伝わる。飼料への梅酢成分の配合量は試行錯誤の末に決められ、味と臭み消しの効果のバランスが探られたと伝わる。\n## なぜこの形になったのか\nみなべ町は梅の一大産地として知られ、梅酢は梅干し作りの副産物として大量に生まれる土地とされる。廃棄されがちな副産物を飼料に活用する発想には、梅と鶏という二つの産業を土地の中で結びつけようとする工夫が表れている。梅の名産地としての誇りが、この銘柄鶏の名にも込められているとされる。梅干しの生産量日本一を誇るみなべ町ならではの発想が、この銘柄鶏の飼料開発につながったといえる。",
+   "body_en": "## What it's made of\nSaid to be fed on an extract drawn from plum vinegar, yielding milder, more tender meat, with fat that eats lighter and finishes clean, a faint hint of tartness said to linger refreshingly with each bite. Fried as karaage or grilled as yakitori, off-notes stay minimal and a faint plum aroma is said to come through. The skin stays tender, said to make it easy to eat even fried as karaage.\n## How it's made\nSaid to be a branded chicken co-developed by a plum-processing company and the prefecture in Minabe, a plum-growing town, fed on a desalted extract drawn from ume vinegar — reportedly yielding milder, more tender meat. The feed formula is said to draw on know-how from local plum processors. The proportion of ume-vinegar extract in the feed is said to have been settled through trial and error, balancing flavor against odor reduction.\n## Why it took this shape\nMinabe is known as a major plum-growing area, where ume vinegar is said to turn up in quantity as a byproduct of making pickled plums. Putting a would-be waste product to use as feed reflects an effort to bind two local industries — plums and poultry — together, with the town's pride as a plum producer said to carry into the branded chicken's very name. An idea distinctive to Minabe, Japan's top producer of pickled plums, is said to lie behind this branded chicken's feed development.",
+   "sources": [
+    {
+     "title": "紀州うめどり・うめたまご協議会",
+     "url": "https://umedori.com/",
+     "publisher": "紀州うめどり・うめたまご協議会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kishu-umedori",
+     "to_slug": "daisen-dori",
+     "relation_type": "対比",
+     "basis": "共に飼料への一手間で肉質を高めた銘柄鶏で、紀州うめどりは梅酢由来成分、大山どりは抗生剤不使用飼料という違い"
+    }
+   ]
+  },
+  {
+   "slug": "date-dori",
+   "body_ja": "## 何でできているか\nシャキシャキとした独特の食感を持ち、噛むと繊維がはっきり感じられるとされる。両親ともに赤鶏という系統ゆえ、脂よりも赤身の風味の濃さで印象づけるという。噛むほどに歯切れの良さが際立つ点も特徴とされる。焼き鳥にすると歯切れの良さが際立ち、刺身でもその食感の違いを楽しめるとされる。冷めても食感が損なわれにくく、弁当にも向くとされる。\n## どう作るのか\nフランスのブレス地方を視察した生産者が「南東北の気候風土に合った鶏を」と3年ほど研究を重ねて生まれたとされる銘柄鶏。両親ともに赤鶏という珍しい系統だという。視察をもとにした試行錯誤の末、独自の交配様式が確立されたと伝わる。赤鶏同士を掛け合わせるという珍しい交配は、南東北の気候に合う独自の系統を作るための工夫だったと伝わる。\n## なぜこの形になったのか\n福島県伊達市は南東北の内陸性気候を持つ土地とされ、フランスの銘柄鶏ブレス鶏の育て方をそのまま持ち込むのではなく、土地の気候風土に合わせて作り直そうとしたことがこの鶏の出発点だったという。海外の知見を土地なりに咀嚼し直す姿勢が、この銘柄鶏の背景にあるとされる。海外の銘柄鶏をそのまま輸入するのではなく、土地に合わせて一から作り直す姿勢が、この鶏の開発思想を象徴しているといえる。",
+   "body_en": "## What it's made of\nKnown for a distinctively crisp texture, the fibers said to stand out clearly with each bite; with red fowl on both sides of its pedigree, it's said to make its impression through the strength of its lean flavor rather than fat, that crispness said to stand out with every chew. Grilled as yakitori the crisp bite stands out, and even raw its distinct texture is said to come through. Texture holds up even cold, said to suit bento boxes well.\n## How it's made\nSaid to be created after a producer visited France's Bresse region and spent about three years researching a bird suited to southern Tohoku's climate; an unusual line bred from red fowl on both sides. That research trip is said to have led to a distinct crossing method developed through repeated trial and error. Crossing red fowl on both sides is an unusual choice said to have been a deliberate effort to build a bloodline suited to southern Tohoku's climate.\n## Why it took this shape\nDate city in Fukushima sits in an inland southern-Tohoku climate, and rather than importing France's famed Bresse fowl wholesale, the starting point for this bird is said to have been remaking that approach to suit the local climate instead — a stance of digesting outside knowledge on the region's own terms said to lie behind the brand. Rather than importing a foreign branded breed wholesale, remaking it from scratch to suit the region is said to symbolize this breed's development philosophy.",
+   "sources": [
+    {
+     "title": "伊達鶏",
+     "url": "https://www.city.fukushima-date.lg.jp/site/promotion/48743.html",
+     "publisher": "福島県伊達市",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "date-dori",
+     "to_slug": "miyazaki-jitokko",
+     "relation_type": "対比",
+     "basis": "共に物語性の強い地鶏・銘柄鶏で、伊達鶏はフランス・ブレス地方を参考にした3年の研究、みやざき地頭鶏は地頭への献上という言い伝えに由来する名という違い"
+    }
+   ]
+  },
+  {
+   "slug": "mitsuse-dori",
+   "body_ja": "## 何でできているか\nフランス血統の赤鶏らしく、脂は控えめで赤身の旨みがはっきりしているとされる。長期飼育により身が締まり、焼いても縮みにくいという。噛むほどに赤鶏らしい濃厚な風味が広がる点も特徴とされる。焼き鳥にすると赤鶏らしいコクのある脂の香りが立ち、身は最後まで縮みにくいとされる。皮はパリッと香ばしく、身は柔らかさとコクを併せ持つとされる。\n## どう作るのか\n佐賀・福岡県境の山あい三瀬村にちなんで名付けられた銘柄鶏で、フランスで開発された赤鶏の種鶏をひなの時に空輸して自社種鶏場で育てているとされる。約80日間の長期飼育を行うという。空輸から一貫飼育まで、自社で完結させる体制が整えられているとされる。海外からひなを空輸するという手間をかけてでも、フランス血統の質を保つことを優先した開発方針だったという。\n## なぜこの形になったのか\n三瀬は佐賀市内でも標高が高く涼しい山あいの集落とされる。ひなを海外から空輸してまで自社で一貫飼育する体制には、涼しい山あいの環境を生かして高品質な鶏を仕立てようとする狙いが表れているといえる。佐賀の焼き鳥文化を支える存在としても知られているという。佐賀は焼き鳥店の多い土地としても知られ、この銘柄鶏がその食文化を支える存在の一つになっているとされる。",
+   "body_en": "## What it's made of\nSaid to carry the modest fat and clear lean flavor typical of French red-fowl bloodlines; the long rearing period is credited with firming the meat so it resists shrinking on the grill, the red fowl's rich character said to come through with every bite. Grilled as yakitori, the rich aroma of red-fowl fat is said to rise, with the meat resisting shrinkage to the last bite. The skin crisps up fragrant, the meat said to carry both tenderness and depth.\n## How it's made\nA branded chicken said to be named after Mitsuse, a mountain village on the Saga–Fukuoka border, raised from French-bred red fowl chicks flown in and grown at a dedicated breeding farm; reportedly reared for about 80 days. Everything from the flight-in chicks to final rearing is said to be handled in-house. Flying chicks in from overseas, despite the trouble, is said to reflect a development policy that prioritized preserving the quality of French bloodstock.\n## Why it took this shape\nMitsuse is said to be a cool, high-altitude hamlet even within Saga city's limits. Flying in chicks from overseas just to raise them in-house end to end reflects an effort to put that cool mountain environment to work for a higher-quality bird — one also said to be a mainstay behind Saga's yakitori culture. Saga is also known for its density of yakitori shops, and this branded chicken is said to be one pillar supporting that food culture.",
+   "sources": [
+    {
+     "title": "みつせ鶏",
+     "url": "https://www.j-chicken.jp/guide/brand_41saga_mitsusedori/",
+     "publisher": "一般社団法人 日本食鳥協会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mitsuse-dori",
+     "to_slug": "hakata-jidori",
+     "relation_type": "対比",
+     "basis": "共に福岡県に近い九州の鶏文化だが、はかた地どりは水炊きに向くよう軍鶏をもとに開発された地鶏、みつせ鶏はフランス生まれの赤鶏を空輸したひなから育てる銘柄鶏という異なる由来"
+    }
+   ]
+  },
+  {
+   "slug": "kuro-satsuma-dori",
+   "body_ja": "## 何でできているか\n薩摩鶏譲りの締まった肉質と、プリマスロック譲りの飼いやすさを併せ持つとされる。羽色の黒さそのままに、肉の味も濃く引き締まっているという。噛むほどに闘鶏由来の力強い旨みが感じられる点も特徴とされる。みそ焼きや鍋にしても身が締まったままで、闘鶏由来の力強い旨みが最後まで残るとされる。皮は厚めで、焼くと香ばしさがしっかり立つとされる。\n## どう作るのか\n闘鶏用に作られた薩摩鶏を父に、在来種の横斑プリマスロックを母に持つ地鶏で、鹿児島県畜産試験場が6年かけて開発したとされる。平成23年度から本格的に出荷されているという。6年という歳月には、繁殖性と肉質を両立させるための試行錯誤が重ねられたとされる。薩摩鶏の繁殖性の低さを補うため、母系にプリマスロックを選ぶことで安定した生産を目指したと伝わる。\n## なぜこの形になったのか\n鹿児島は薩摩鶏という闘鶏文化の血統を大切にしてきた土地とされ、その血を絶やさず食用に転じさせる試みが重ねられてきたという。同じ薩摩鶏の血を引く薩摩地鶏とは異なる母系を選ぶことで、もう一つの選択肢を用意しようとしたとも読める。黒い羽色が、闘鶏文化の名残を今に伝えているとされる。薩摩地鶏と黒さつま鶏という二つのブランドが並び立つことで、鹿児島の地鶏文化に幅を持たせているといえる。",
+   "body_en": "## What it's made of\nSaid to combine the firm meat inherited from Satsuma fowl with the manageability of Plymouth Rock stock; as dark as its plumage, its meat flavor runs correspondingly deep and firm, a robust flavor from its fighting-fowl side said to come through with each chew. In miso-grilled dishes or a hot pot, the meat stays firm, said to keep its fighting-fowl-derived robust flavor to the last bite. The skin runs thick, said to turn notably fragrant when grilled.\n## How it's made\nA jidori breed said to be sired by Satsuma fowl, once bred for cockfighting, out of a native Barred Plymouth Rock hen, developed over six years by Kagoshima's livestock experiment station; reportedly shipped commercially since 2011. Those six years are said to reflect repeated trial and error balancing fertility with meat quality. Choosing Plymouth Rock for the maternal line is said to have aimed at stable production, offsetting Satsuma fowl's low fertility.\n## Why it took this shape\nKagoshima is said to be a place that has long guarded the bloodline of Satsuma fowl's cockfighting culture, with repeated efforts to keep that blood alive by converting it to food use. Choosing a different maternal line from Satsuma Jidori, which shares the same paternal blood, reads as an attempt to offer a second option built on it — its dark plumage said to still carry a trace of that fighting-fowl history. Having both Satsuma Jidori and Kuro Satsuma-dori as separate brands is said to give Kagoshima's jidori culture added breadth.",
+   "sources": [
+    {
+     "title": "鹿児島の地鶏（さつま若しゃも，さつま地鶏，黒さつま鶏）について",
+     "url": "http://www.pref.kagoshima.jp/ag07/sangyo-rodo/nogyo/tikusan/faq/satsumajidori.html",
+     "publisher": "鹿児島県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kuro-satsuma-dori",
+     "to_slug": "choshu-kurokashiwa",
+     "relation_type": "対比",
+     "basis": "共に「黒」を冠し天然記念物由来の在来種の血を引く地鶏だが、黒さつま鶏は薩摩鶏（闘鶏用）の父系、長州黒かしわは黒柏鶏（観賞・声良系）の血という異なる系統"
+    }
+   ]
+  },
+  {
+   "slug": "tsushima-jidori",
+   "body_ja": "## 何でできているか\n在来種らしい締まった歯ごたえを持ちながら、軍鶏の血で肉付きが補われているとされる。脂は少なめで、煮ても身が縮みにくいという。噛むほどに島の在来種らしい素朴な旨みが感じられる点も特徴とされる。煮ても焼いても素朴な味わいが際立ち、島の郷土料理との相性が良いとされる。皮は薄めで、素材そのものの味を楽しめるとされる。\n## どう作るのか\n対馬に伝わり朝鮮通信使のもてなしにも使われたと伝わる在来種を県の試験場が導入・改良し、軍鶏の血を引く系統と交配して作られたとされる。110日以上かけて育てられるという。絶滅寸前だった在来種の保護と改良には、長い年月がかけられたとされる。絶滅寸前だった系統を安定して増やすため、種鶏の確保には特に慎重な管理が重ねられたと伝わる。\n## なぜこの形になったのか\n対馬は朝鮮半島に近く、外交使節を迎える窓口としての歴史を持つ島とされる。もてなしの席で供されたと伝わる鶏を、絶滅寸前から復活させて再び食卓に戻した経緯には、島の外交史そのものへの誇りが重なっているといえる。島という限られた環境が、独自の血統を守り抜く土壌になったとも読める。国境の島として異文化との交流を重ねてきた対馬の歴史が、この地鶏の物語にも重なっているといえる。",
+   "body_en": "## What it's made of\nSaid to keep a native breed's firm bite while shamo blood fills out the meat; fat stays light, and the meat resists shrinking even simmered, a plain, native flavor said to come through with each bite. Simmered or grilled, its plain, native flavor is said to stand out, pairing well with the island's local dishes. The skin runs thin, said to let the ingredient's own flavor come through.\n## How it's made\nSaid to be bred from a native Tsushima fowl, reportedly once used to entertain Korean diplomatic envoys, introduced and improved by a prefectural research station and crossed with a shamo-descended line; reportedly reared 110 days or more. Protecting and improving the near-extinct native line is said to have taken years of effort. Securing breeding stock for a once-near-extinct line reportedly required especially careful, cautious management.\n## Why it took this shape\nTsushima sits close to the Korean peninsula and carries a history as a gateway for receiving diplomatic envoys. Bringing back, from near-extinction, a fowl said to have once been served at such receptions carries something of the island's diplomatic history along with it — the isolation of island life itself said to be what let the bloodline survive as long as it did. Tsushima's history as a border island shaped by cross-cultural exchange is said to echo through this breed's own story.",
+   "sources": [
+    {
+     "title": "長崎対馬地どり",
+     "url": "https://www.pref.nagasaki.jp/bunrui/shigoto-sangyo/nogyo/chikusan/youkei/tushimadidori/",
+     "publisher": "長崎県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tsushima-jidori",
+     "to_slug": "aizu-jidori",
+     "relation_type": "対比",
+     "basis": "共に絶滅寸前だった在来種を県の試験場が保護・復活させた地鶏だが、対馬地どりは朝鮮通信使のもてなしに使われたと伝わる島の系統、会津地鶏は平家落人伝説を持つ山国の系統という由来の対"
+    }
+   ]
+  },
+  {
+   "slug": "okazaki-ouhan",
+   "body_ja": "## 何でできているか\n卵肉兼用種らしく、肉質はきめ細かくクセが少ないとされる。脂と赤身のバランスが良く、親子丼や鍋物など幅広い料理に合わせやすいという。噛むほどに素直な旨みが感じられる、扱いやすい肉質とされる。焼いても煮ても素直な旨みを保ち、どんな味付けにも合わせやすい万能さが持ち味とされる。皮も身もクセがなく、下ごしらえのしやすさでも評価されるという。\n## どう作るのか\n肉質のよい横斑プリマスロックと産卵性のよいロードアイランドレッドを掛け合わせ、国の家畜改良センター岡崎牧場が開発したとされる純国産の卵肉兼用種。ひなから120日ほどかけて育てられるという。卵肉兼用という性格から、肉質と産卵性の両立が重視されたとされる。国の機関が開発した経緯から、飼育マニュアルが整備され、全国どこでも再現しやすい点も特徴という。\n## なぜこの形になったのか\n岡崎は国の家畜改良機関が置かれた土地で、特定の郷土料理に合わせるというより、全国どこでも扱いやすい純国産種を作ろうとした国レベルの狙いがあったとされる。地域色よりも汎用性を優先した成り立ちが、この鶏の特徴といえる。純国産種を残すという国の方針そのものを体現した存在とも読める。地域ブランドとしてではなく、全国に流通する純国産種の保存という役割を担ってきた点が、この鶏の特色といえる。",
+   "body_en": "## What it's made of\nTrue to a dual-purpose meat-and-egg breed, the meat is said to be fine-grained with little off-flavor; fat and lean balance well enough to suit anything from oyakodon to a hot pot, its straightforward flavor said to make it an easy ingredient to cook with. Grilled or simmered, its straightforward flavor holds up, said to make it versatile enough for almost any seasoning. Both skin and meat are said to carry little off-flavor, valued also for how easy it is to prep.\n## How it's made\nA purely domestic, dual-purpose breed said to be developed at the national Livestock Improvement Center's Okazaki farm from a cross of Barred Plymouth Rock, prized for meat, and Rhode Island Red, prized for laying; reportedly reared about 120 days from chick. As a dual-purpose breed, both meat quality and laying performance are said to have been weighed together. Having been developed at a national institute, a standardized rearing manual is said to make it easy to reproduce anywhere in the country.\n## Why it took this shape\nOkazaki is home to a national livestock-improvement institute, and the aim behind this breed is said to have been national in scope — a purely domestic breed easy to handle anywhere, rather than one built around a single local dish. Prioritizing versatility over regional flavor is what defines its origin, embodying, it's said, a national policy of preserving purely domestic breeds. Rather than serving as a regional brand, this breed's distinctive role has been preserving a purely domestic breed distributed nationwide.",
+   "sources": [
+    {
+     "title": "岡崎おうはん",
+     "url": "https://www.pref.aichi.jp/soshiki/nogyo-shinko/okazaki-ohan.html",
+     "publisher": "愛知県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "okazaki-ouhan",
+     "to_slug": "higashihiroshima-koi-jidori",
+     "relation_type": "対比",
+     "basis": "共に国・大学の研究機関が開発に関わった交配種だが、岡崎おうはんは国の家畜改良センターによる純国産卵肉兼用種、東広島こい地鶏は広島大学と市の共同研究による2021年デビューの県内唯一のブランド地鶏という違い"
+    }
+   ]
+  },
+  {
+   "slug": "okumino-kojidori",
+   "body_ja": "## 何でできているか\n天然記念物の血を引く分、赤身の旨みが濃く、脂は控えめとされる。平飼いで運動量が多いため、身が締まって歯ごたえがしっかりしているという。噛むほどに天然記念物ゆずりの野趣が感じられる点も特徴とされる。けいちゃんのような鉄板焼き料理にすると、脂と赤身の香ばしさが同時に楽しめるとされる。皮は薄めで、脂の軽さと赤身の濃さの対比が楽しめるとされる。\n## どう作るのか\n国の天然記念物「岐阜地鶏」をもとに、県の養鶏試験所が「おいしい卵と鶏肉づくり」を掲げて開発したとされる地鶏。28日齢以降は平飼いとし、平均84日ほどかけて育てられるという。卵と肉、両方の味を追求する開発方針が掲げられていたとされる。「おいしい卵と鶏肉づくり」という開発目標のもと、卵の味も同時に追求されてきたと伝わる。\n## なぜこの形になったのか\n奥美濃は郡上市を中心とした山あいの土地とされ、鶏肉を炭火や鉄板で香ばしく焼く郷土料理が親しまれてきたという。天然記念物の血を絶やさず食用にも生かそうとした取り組みには、貴重な在来種を土地の日常食に結びつけたいという願いが読み取れる。「古地鶏」という名にも、その古さへの敬意が込められているとされる。郡上市周辺の山あいという限られた地域で守られてきたことが、この地鶏の希少価値を高めているといえる。",
+   "body_en": "## What it's made of\nCarrying the blood of a natural-monument breed, the lean meat is said to run strongly flavored with fat kept modest; free-ranging with plenty of movement leaves the meat firm with a solid bite, a wild edge from its heritage said to show through with each chew. Grilled on an iron plate as in keichan-style dishes, the fat and lean are said to turn fragrant together. The skin runs thin, said to let the contrast between light fat and rich lean meat come through.\n## How it's made\nSaid to be developed from the natural-monument Gifu-jidori fowl by the prefecture's poultry experiment station under a banner of \"good eggs and good meat\"; reportedly free-ranged from 28 days old and raised for an average of about 84 days. Pursuing both egg and meat quality together is said to have guided the development. Under a development goal of \"good eggs and good meat,\" egg quality is said to have been pursued alongside meat quality.\n## Why it took this shape\nOkumino is a mountain region centered on Gujo city, said to have nurtured a local food culture of grilling chicken fragrantly over charcoal or an iron plate. Working to keep a natural monument's blood alive by putting it to culinary use reflects a wish to tie a rare native breed back into the region's everyday food — the word \"old\" in its name said to carry respect for that long history. Being preserved within the limited mountain area around Gujo city is said to be part of what makes this breed so rare.",
+   "sources": [
+    {
+     "title": "奥美濃古地鶏",
+     "url": "https://www.j-chicken.jp/guide/brand_21gifu_okuminokojidori1/",
+     "publisher": "一般社団法人 日本食鳥協会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "okumino-kojidori",
+     "to_slug": "amakusa-daio",
+     "relation_type": "対比",
+     "basis": "共に地域の天然記念物・在来大型鶏の血を活かして試験場が仕立て直した地鶏だが、奥美濃古地鶏は現存する岐阜地鶏の改良、天草大王は一度途絶えた系統を約10年かけて復元したという違い"
+    }
+   ]
+  },
+  {
+   "slug": "choshu-kurokashiwa",
+   "body_ja": "## 何でできているか\n天然記念物の血を引く分、赤身の旨みが濃く締まった肉質とされる。羽色の黒さながら、脂は控えめで後味はさっぱりしているという。噛むほどに天然記念物ゆずりの奥深い旨みが感じられる点も特徴とされる。焼いても煮ても、黒柏鶏譲りの濃い旨みが最後まで残るとされる。皮はやや厚めで、焼くと香ばしさが際立つとされる。冷めても硬くなりにくいという。\n## どう作るのか\n山口・島根両県原産で国の天然記念物とされる黒柏鶏の血を生かして山口県の試験場が開発した地鶏をもとに、養鶏場が仕上げて名付けたとされる。80〜100日ほど平飼いで育てられるという。試験場での開発を養鶏場が引き継ぎ、商品として仕上げるまでに時間がかけられたとされる。試験場での開発を養鶏場が引き継いだ経緯には、地域ぐるみで血統を守ろうとする姿勢が表れているという。\n## なぜこの形になったのか\n黒柏鶏はもともと声の良さを愛でる観賞用の在来種としても知られてきたとされる。観賞用としての希少な血統を、あえて食用としても育て直した経緯には、天然記念物という枠を超えて土地の食文化に生かそうとする姿勢が表れている。「黒」という一文字に、羽色と血統の希少さの両方が込められているとされる。山口・島根にまたがる黒柏鶏の血統は、観賞用としての希少さゆえに今も大切に守られているとされる。",
+   "body_en": "## What it's made of\nCarrying the blood of a natural-monument breed, the lean meat is said to run strongly flavored and firm; despite its dark plumage, fat stays modest and the finish runs clean, a depth from its heritage bloodline said to show with each chew. Grilled or simmered, the deep flavor inherited from Kurokashiwa is said to remain to the last bite. The skin runs a touch thick, turning notably fragrant when grilled, and said to resist toughening once cold.\n## How it's made\nSaid to draw on the blood of Kurokashiwa, a natural-monument fowl native to Yamaguchi and Shimane, developed into a jidori by a Yamaguchi research station and finished and named by a poultry farm; reportedly free-ranged for 80–100 days. Taking a research-station breed to market is said to have taken further time at the poultry farm's hands. That a poultry farm took over development from the research station is said to reflect a community-wide effort to preserve the bloodline.\n## Why it took this shape\nKurokashiwa is said to have also been kept and prized as an ornamental breed valued for its crowing voice. Deliberately re-raising that rare, ornamental bloodline for the table reflects a stance that pushes past its natural-monument status to put it to use in the region's own food culture — the single word \"black\" in its name said to carry both its plumage and its rare bloodline. The Kurokashiwa bloodline, native to both Yamaguchi and Shimane, is said to still be carefully guarded for its rarity as an ornamental breed.",
+   "sources": [
+    {
+     "title": "長州黒かしわ（地理的表示産品情報）",
+     "url": "https://www.maff.go.jp/j/shokusan/gi_act/register/0152/index.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "choshu-kurokashiwa",
+     "to_slug": "nagato-yakitori",
+     "relation_type": "対比",
+     "basis": "同じ山口県長門市を拠点に、長州黒かしわは天然記念物「黒柏鶏」の血を引く手間暇かけた地鶏、長門やきとりはにんにくパウダーで気軽に食べる街の焼き鳥文化という対"
+    }
+   ]
+  },
+  {
+   "slug": "higashihiroshima-koi-jidori",
+   "body_ja": "## 何でできているか\n交配二世代目らしく、脂と赤身のバランスが取れた食べやすい肉質とされる。平飼いで130日ほどかけて育つため、程よい歯ごたえを持つという。噛むほどに癖のない素直な旨みが感じられる点も特徴とされる。平飼いで育つ分、脂と赤身のバランスが取れた食べやすさが際立つとされる。皮も身もクセが少なく、家庭料理にも取り入れやすいとされる。\n## どう作るのか\n広島大学と東広島市の共同研究で作られた「広大鶏」の雄とロードアイランドレッドの雌を掛け合わせて2021年に誕生したとされる、県内唯一のブランド地鶏という。約130日、平飼いで育てられる。大学と自治体が連携するという珍しい開発体制が取られたとされる。大学発の種鶏を使うという珍しい経緯から、開発の過程が地域内でも注目を集めたと伝わる。\n## なぜこの形になったのか\n東広島は広島大学のキャンパスを擁する学術都市としての性格を持つ土地とされる。大学と市が組んで一から鶏を作り上げたという経緯は、産学連携という比較的新しい形の地域ブランドづくりを象徴しているといえる。「こい」という名には、地元への深い思い入れが込められているとされる。県内唯一のブランド地鶏という位置づけが、東広島という土地の新しい顔を作ろうとする狙いを物語っているといえる。",
+   "body_en": "## What it's made of\nTrue to a second-generation cross, it's said to offer an easy-eating meat with fat and lean in balance; free-ranged for about 130 days, it carries a moderate bite, a clean, unassuming flavor said to come through with each chew. Raised free-range, the balance between fat and lean is said to make for an especially easy-eating bird. Both skin and meat carry little off-flavor, said to make it easy to bring into home cooking.\n## How it's made\nSaid to have been introduced in 2021 from a cross of Kodai-dori, a rooster bred through joint research by Hiroshima University and Higashihiroshima city, and a Rhode Island Red hen — reportedly the prefecture's only branded jidori, free-ranged for about 130 days. A university-city partnership is said to be an unusual arrangement for developing a breed. Using breeding stock developed at a university is an unusual path said to have drawn regional attention to the development process.\n## Why it took this shape\nHigashihiroshima carries the character of a university town, home to Hiroshima University's campus. That a university and a city partnered to build a chicken breed from scratch stands as a symbol of a comparatively new kind of region-branding built on academia-industry cooperation — the word \"koi\" (deep affection) in its name said to carry a strong attachment to the local area. Being positioned as the prefecture's only branded jidori is said to reflect an effort to build a new identity for Higashihiroshima itself.",
+   "sources": [
+    {
+     "title": "東広島こい地鶏とは",
+     "url": "https://www.city.higashihiroshima.lg.jp/soshiki/sangyo/12/hanro/39737.html",
+     "publisher": "東広島市",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "higashihiroshima-koi-jidori",
+     "to_slug": "ise-akadori",
+     "relation_type": "対比",
+     "basis": "共に2000年代以降に開発された比較的新しい銘柄鶏だが、東広島こい地鶏は広島大学との共同研究による交配、伊勢赤どりはフランス産赤鶏「レッドブロー」の導入という異なる開発経路"
+    }
+   ]
+  }
+ ]
+}
