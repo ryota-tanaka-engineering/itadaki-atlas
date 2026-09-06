@@ -34,7 +34,7 @@ async function all(table: string, select: string): Promise<Row[]> {
   for (let from = 0; ; from += 1000) {
     const { data, error } = await db.from(table).select(select).range(from, from + 999);
     if (error) throw new Error(`${table}: ${error.message}`);
-    out.push(...(data ?? []));
+    out.push(...((data ?? []) as unknown as Row[]));
     if (!data || data.length < 1000) break;
   }
   return out;

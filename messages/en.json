@@ -234,5 +234,11 @@
     "adsTitle": "Advertising",
     "operatorTitle": "Operator",
     "backToMap": "Back to the map"
+  },
+  "consent": {
+    "label": "Analytics consent",
+    "text": "With your consent, we use Google Analytics (cookies) to understand how the site is used. Everything works without it.",
+    "accept": "Accept",
+    "decline": "Decline"
   }
 }

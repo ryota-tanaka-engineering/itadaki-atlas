@@ -6,6 +6,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { routing } from "@/i18n/routing";
 import { SITE_URL, localeAlternates } from "@/lib/seo";
+import { Analytics } from "@/components/Analytics";
 import { SiteHeader } from "@/components/SiteHeader";
 
 import "../globals.css";
@@ -63,6 +64,7 @@ export default async function LocaleLayout({
         <NextIntlClientProvider>
           <SiteHeader locale={locale} />
           {children}
+          <Analytics />
         </NextIntlClientProvider>
       </body>
     </html>

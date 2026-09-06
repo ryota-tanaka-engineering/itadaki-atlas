@@ -234,5 +234,11 @@
     "adsTitle": "広告について",
     "operatorTitle": "運営",
     "backToMap": "地図へ戻る"
+  },
+  "consent": {
+    "label": "アクセス解析の同意",
+    "text": "サイト改善のため、同意いただいた場合のみ Google Analytics でアクセス解析を行います（Cookie を使用します）。同意しなくても全ての機能を利用できます。",
+    "accept": "同意する",
+    "decline": "同意しない"
   }
 }

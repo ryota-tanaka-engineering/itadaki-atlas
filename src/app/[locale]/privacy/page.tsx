@@ -75,13 +75,14 @@ export default async function PrivacyPage({ params }: { params: Promise<Params> 
           <h2 className="text-lg font-semibold">{ja ? "3. Cookie" : "3. Cookies"}</h2>
           {ja ? (
             <p className="leading-relaxed">
-              本サイトは言語設定の保持のためにCookieを使用します。アクセス解析・広告のためのCookieは現在使用していません。導入する場合は本ポリシーを更新してお知らせします。
+              本サイトは言語設定の保持のためにCookieを使用します。アクセス解析には、Cookieを使用しない Cloudflare Web Analytics と、同意いただいた場合に限り Google Analytics（Cookieを使用）を利用します。同意は画面下部のバナーからいつでも選択でき、同意しなくても全ての機能を利用できます。広告のためのCookieは使用していません。
             </p>
           ) : (
             <p className="leading-relaxed">
-              This site uses only a cookie that remembers your language preference. We do not
-              currently use analytics or advertising cookies. If we introduce any, we will update
-              this policy before doing so.
+              This site uses a cookie that remembers your language preference. For analytics we
+              use Cloudflare Web Analytics, which sets no cookies, and Google Analytics (cookies)
+              only when you accept it in the banner at the bottom of the screen. Everything works
+              without it. We do not use advertising cookies.
             </p>
           )}
         </section>
