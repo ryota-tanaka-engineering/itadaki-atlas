@@ -37,7 +37,17 @@
     "clusterAriaLabel": "{pref} {count}件。選ぶと拡大します",
     "pinAriaLabel": "{name}（{prefCity}・{style}）",
     "honbaPinAriaLabel": "{name}（{honba}・{prefCity}）",
-    "styleUnknown": "系統不明"
+    "styleUnknown": "系統不明",
+    "regionUnknown": "地域なし",
+    "kanaOther": "その他",
+    "modules": {
+      "todayDish": "今日の一皿",
+      "honba": "本場をたどる",
+      "landStories": "土地の物語から",
+      "about": "このサイトについて",
+      "aboutBody": "日本の食を、土地から読む地理データベース。{items}の食と{prefs}都道府県を、発祥・産地・本場のつながりでたどれます。",
+      "aboutCta": "編集方針を読む"
+    }
   },
   "item": {
     "origin": "発祥",

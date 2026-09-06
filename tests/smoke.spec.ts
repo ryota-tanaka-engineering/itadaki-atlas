@@ -524,6 +524,46 @@ test.describe("このサイトについて（About）", () => {
   });
 });
 
+test.describe("トップページ情報モジュール（今日の一皿・本場をたどる・チェーンから・土地の物語から・このサイトについて）", () => {
+  test("/ja: シートをfullまで開くと5モジュールの見出しが出て、今日の一皿から詳細に遷移できる", async ({ page }) => {
+    await page.goto("/ja");
+    const toggle = page.getByRole("button", { name: /シートを次の段階へ/ });
+    // peak → half → full（既存の About 到達テストと同じ2クリックの流儀）
+    await toggle.click();
+    await toggle.click();
+
+    const sheet = page.getByRole("dialog");
+    await expect(sheet.getByRole("heading", { name: "今日の一皿" })).toBeVisible();
+    await expect(sheet.getByRole("heading", { name: "本場をたどる" })).toBeVisible();
+    await expect(
+      sheet.getByRole("heading", { name: "その味、ご当地にもあります" }),
+    ).toBeVisible();
+    await expect(sheet.getByRole("heading", { name: "土地の物語から" })).toBeVisible();
+    await expect(sheet.getByRole("heading", { name: "このサイトについて" })).toBeVisible();
+
+    // 「今日の一皿」の詳細リンクから詳細ページに遷移できる
+    const todayDish = sheet.getByRole("region", { name: "今日の一皿" });
+    await todayDish.getByRole("link", { name: "詳細を見る" }).click();
+    await expect(page).toHaveURL(/\/ja\/[^/]+\/[^/]+$/);
+  });
+
+  test("/en: 英語見出しで5モジュールが出る", async ({ page }) => {
+    await page.goto("/en");
+    const toggle = page.getByRole("button", { name: /Move sheet to next position/ });
+    await toggle.click();
+    await toggle.click();
+
+    const sheet = page.getByRole("dialog");
+    await expect(sheet.getByRole("heading", { name: "Today's dish" })).toBeVisible();
+    await expect(sheet.getByRole("heading", { name: "Where it's at its best" })).toBeVisible();
+    await expect(
+      sheet.getByRole("heading", { name: "Know these chains? Meet the regional originals" }),
+    ).toBeVisible();
+    await expect(sheet.getByRole("heading", { name: "Stories from the land" })).toBeVisible();
+    await expect(sheet.getByRole("heading", { name: "About this atlas" })).toBeVisible();
+  });
+});
+
 test.describe("利用規約 / プライバシーポリシー / お問い合わせ / 共通フッター", () => {
   test("利用規約が英日両方で表示される", async ({ page }) => {
     await page.goto("/ja/terms");

@@ -1,7 +1,7 @@
 import { createClient } from "@/lib/supabase/server";
 
 import type { PrimaryStyle } from "./styles";
-import { excerptFirstSentence } from "./markdown";
+import { excerptChapterSentence, excerptFirstSentence } from "./markdown";
 
 /**
  * 地図・索引が読むアイテム一覧。
@@ -53,7 +53,11 @@ export type TagBadge = { slug: string; nameJa: string; nameEn: string };
 export type BrowseItem = MapItem & {
   /** 最大3件（件数が多いアイテムは先頭3件のみ）。 */
   tags: TagBadge[];
+  /** 1章目「何でできているか」冒頭の1文。 */
   bodyExcerpt: string | null;
+  /** 3章目「なぜこの形になったのか」冒頭の1文（トップ「土地の物語から」用。
+   * 作業パッケージ「トップページ情報モジュール」§4）。 */
+  bodyExcerptCh3: string | null;
 };
 
 // ピン選択の一意キー（mapPinKey）は ./pinKey.ts に置く。
@@ -138,6 +142,7 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<BrowseItem[]
       shelfSlug: row.shelf_slug,
       tags,
       bodyExcerpt: t?.body_md ? excerptFirstSentence(t.body_md) : null,
+      bodyExcerptCh3: t?.body_md ? excerptChapterSentence(t.body_md, 2) : null,
     };
   });
 }
@@ -570,6 +575,72 @@ export async function fetchHonbaPins(locale: Locale = "ja"): Promise<MapPin[]> {
     .filter((p): p is MapPin => p !== null);
 }
 
+export type HonbaCity = { pref: string; city: string | null };
+
+/**
+ * トップ「本場をたどる」用データ（2026-09 トップページ情報モジュール §2）。
+ * fetchHonbaPins が1行=1ピン（地図用）であるのに対し、こちらは1アイテム=1グループに
+ * 集約して返す（アイテムごとに複数都市のチップを並べるため）。
+ * 地図に乗せないため座標フィルタは掛けない（座標が無い本場行があっても拾う）。
+ */
+export type HonbaGroup = {
+  slug: string;
+  nameJa: string;
+  nameEn: string | null;
+  nameRomaji: string;
+  genreSlug: string | null;
+  shelfSlug: string;
+  cities: HonbaCity[];
+};
+
+type HonbaFoodItemRow = {
+  slug: string;
+  name_romaji: string;
+  shelf_slug: string;
+  genres?: { slug: string }[] | { slug: string } | null;
+  food_item_translations: { locale: string; name: string }[] | null;
+};
+
+export async function fetchHonbaGroups(): Promise<HonbaGroup[]> {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("food_item_regions")
+    .select(
+      `pref, city,
+       food_items!inner ( slug, name_romaji, shelf_slug, genres ( slug ), food_item_translations ( locale, name ) )`,
+    )
+    .eq("relation_type", "本場")
+    .order("pref");
+
+  if (error) throw new Error(`fetchHonbaGroups failed: ${error.message}`);
+
+  const groups = new Map<string, HonbaGroup>();
+  for (const row of data ?? []) {
+    const item = toOne(row.food_items as unknown as HonbaFoodItemRow | HonbaFoodItemRow[] | null);
+    if (!item) continue;
+
+    let group = groups.get(item.slug);
+    if (!group) {
+      const translations = item.food_item_translations ?? [];
+      const ja = translations.find((x) => x.locale === "ja");
+      const en = translations.find((x) => x.locale === "en");
+      group = {
+        slug: item.slug,
+        nameJa: ja?.name ?? item.name_romaji,
+        nameEn: en?.name ?? null,
+        nameRomaji: item.name_romaji,
+        genreSlug: toOne(item.genres ?? null)?.slug ?? null,
+        shelfSlug: item.shelf_slug,
+        cities: [],
+      };
+      groups.set(item.slug, group);
+    }
+    group.cities.push({ pref: row.pref, city: row.city });
+  }
+
+  return [...groups.values()];
+}
+
 /** データが存在する県の一覧（sitemap と「地域から探す」が読む）。regions 経由も含む。 */
 export async function fetchPrefsWithItems(): Promise<string[]> {
   const db = await createClient();
@@ -989,6 +1060,33 @@ export async function fetchChainsForGenre(genreSlug: string): Promise<Chain[]> {
     .eq("genre_slug", genreSlug)
     .order("sort_order");
   if (error) throw new Error(`fetchChainsForGenre failed: ${error.message}`);
+
+  return (data ?? []).map((c) => ({
+    slug: c.slug,
+    nameJa: c.name_ja,
+    nameEn: c.name_en,
+    bridgeJa: c.bridge_ja,
+    bridgeEn: c.bridge_en,
+    recommendations: mapChainRecommendations((c.chain_recommendations ?? []) as ChainRecRow[]),
+  }));
+}
+
+/**
+ * トップ「チェーンから、ご当地へ」用（2026-09 トップページ情報モジュール §3）。
+ * fetchChainsForGenre と異なりジャンル非依存で**全チェーン**を返す
+ * （現状はラーメンのみだが、データ駆動で他ジャンルのチェーンが増えても自動的に乗る）。
+ * ジャンルページと同じ ChainBridgeSection にそのまま渡せる形で返す。
+ */
+export async function fetchAllChains(): Promise<Chain[]> {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("chains")
+    .select(
+      `slug, name_ja, name_en, bridge_ja, bridge_en, sort_order,
+       chain_recommendations ( ${CHAIN_RECOMMENDATION_SELECT} )`,
+    )
+    .order("sort_order");
+  if (error) throw new Error(`fetchAllChains failed: ${error.message}`);
 
   return (data ?? []).map((c) => ({
     slug: c.slug,

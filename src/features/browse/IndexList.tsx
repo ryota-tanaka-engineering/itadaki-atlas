@@ -6,7 +6,34 @@ import type { MapItem, Locale } from "@/features/map/queries";
 import { PIN_STROKE, styleColor } from "@/features/map/styles";
 import { useMasterLabels } from "@/features/map/labels";
 
-import { AXES, groupBy, type Axis } from "./axes";
+import { AXES, groupBy, kanaRomajiLabel, type Axis, type Group } from "./axes";
+
+/**
+ * グループ見出しの表示文字列（作業パッケージ「トップページ情報モジュール」
+ * 「あわせて直す /en の残り」節）。
+ *
+ * groupBy() が返す group.key/label は日本語（五十音の行・都道府県名・系統名）が
+ * そのまま入っている。ja はこれまで通り group.label を使う（現状維持）。
+ * en は軸ごとに翻訳する: 五十音行→ローマ字頭文字、地域→prefecture辞書、
+ * 系統→style辞書（既存の browse.styleUnknown 等を流用）。
+ */
+function groupLabel(
+  group: Group,
+  axis: Axis,
+  locale: Locale,
+  label: ReturnType<typeof useMasterLabels>,
+  t: ReturnType<typeof useTranslations>,
+): string {
+  if (locale === "ja") return group.label;
+  if (axis === "kana") return kanaRomajiLabel(group.key) ?? t("kanaOther");
+  if (axis === "region") {
+    if (group.key === "地域なし") return t("regionUnknown");
+    return label.prefecture(group.key) ?? group.key;
+  }
+  // style
+  if (group.key === "系統不明") return t("styleUnknown");
+  return label.style(group.key) ?? group.key;
+}
 
 /**
  * 索引（.doc/30_features/01_requirements.md F-03）。
@@ -56,7 +83,7 @@ export function IndexList({ items, axis, onAxisChange, selectedSlug, onSelect, l
       {groups.map((group) => (
         <section key={group.key} className="mb-4">
           <h3 className="text-muted-foreground bg-background sticky top-0 py-1 text-xs font-semibold">
-            {group.label}
+            {groupLabel(group, axis, locale, label, t)}
             <span className="ml-2 font-normal">{group.items.length}</span>
           </h3>
           <ul>

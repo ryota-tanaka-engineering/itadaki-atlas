@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { excerptFirstSentence, parseBodyMarkdown } from "./markdown";
+import { excerptChapterSentence, excerptFirstSentence, parseBodyMarkdown } from "./markdown";
 
 describe("parseBodyMarkdown", () => {
   it("## 見出しごとに章へ分割する", () => {
@@ -61,5 +61,26 @@ describe("excerptFirstSentence", () => {
 
   it("見出しが無い（本文が無い扱いの）Markdownは null を返す", () => {
     expect(excerptFirstSentence("本文だけ。")).toBeNull();
+  });
+});
+
+describe("excerptChapterSentence", () => {
+  const bodyMd =
+    "## 何でできているか\n\n1章目の文。\n\n## どう作るのか\n\n2章目の文。\n\n## なぜこの形になったのか\n\n3章目の文。次の文。";
+
+  it("指定した章（0始まり）の冒頭の最初の1文を抜き出す", () => {
+    expect(excerptChapterSentence(bodyMd, 2)).toBe("3章目の文。");
+  });
+
+  it("章0を指定すると excerptFirstSentence と同じ結果になる", () => {
+    expect(excerptChapterSentence(bodyMd, 0)).toBe(excerptFirstSentence(bodyMd));
+  });
+
+  it("章数を超えるインデックスは null を返す", () => {
+    expect(excerptChapterSentence(bodyMd, 5)).toBeNull();
+  });
+
+  it("見出しが無いMarkdownはどの章指定でも null を返す", () => {
+    expect(excerptChapterSentence("本文だけ。", 0)).toBeNull();
   });
 });

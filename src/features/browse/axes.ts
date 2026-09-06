@@ -27,7 +27,7 @@ export type Group = {
  * TODO: [仮名の読みが必要な精度になったら food_items に reading カラムを足す。
  *        ジャンル追加で漢字表記が増えたときに判断する]
  */
-const KANA_ROWS: { label: string; heads: string[] }[] = [
+export const KANA_ROWS: { label: string; heads: string[] }[] = [
   { label: "あ行", heads: ["a", "i", "u", "e", "o"] },
   { label: "か行", heads: ["k", "g"] },
   { label: "さ行", heads: ["s", "z", "j"] },
@@ -44,6 +44,17 @@ function kanaRow(romaji: string): { key: string; label: string } {
   const head = romaji.trim().charAt(0).toLowerCase();
   const row = KANA_ROWS.find((r) => r.heads.includes(head));
   return row ? { key: row.label, label: row.label } : { key: "その他", label: "その他" };
+}
+
+/**
+ * 五十音グループの日本語キー（"あ行" 等）から、ローマ字頭文字の表示ラベルを引く
+ * （/en の五十音グループ見出し用。CLAUDE.md「あわせて直す /en の残り」節）。
+ * 該当しない（「その他」グループ）場合は null を返し、呼び出し側が英語の
+ * フォールバック文言（browse.kanaOther）を出す。
+ */
+export function kanaRomajiLabel(key: string): string | null {
+  const row = KANA_ROWS.find((r) => r.label === key);
+  return row ? row.heads.map((h) => h.toUpperCase()).join("/") : null;
 }
 
 function byRomaji(a: MapItem, b: MapItem) {

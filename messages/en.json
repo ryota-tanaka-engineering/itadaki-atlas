@@ -37,7 +37,17 @@
     "clusterAriaLabel": "{pref} — {count} items. Select to zoom in",
     "pinAriaLabel": "{name} ({prefCity}, {style})",
     "honbaPinAriaLabel": "{name} ({honba}, {prefCity})",
-    "styleUnknown": "Style unknown"
+    "styleUnknown": "Style unknown",
+    "regionUnknown": "No region",
+    "kanaOther": "Other",
+    "modules": {
+      "todayDish": "Today's dish",
+      "honba": "Where it's at its best",
+      "landStories": "Stories from the land",
+      "about": "About this atlas",
+      "aboutBody": "A geographic database of Japanese food, read from the land. Trace {items} dishes and {prefs} prefectures through their origins, sources, and renowned places.",
+      "aboutCta": "Read our editorial policy"
+    }
   },
   "item": {
     "origin": "Origin",

@@ -6,14 +6,20 @@ import { Search } from "lucide-react";
 
 import { Link } from "@/i18n/navigation";
 import { Input } from "@/components/ui/input";
+import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
 import { MapView } from "@/features/map/MapView";
 import { mapPinKey } from "@/features/map/pinKey";
 import { useMasterLabels } from "@/features/map/labels";
-import type { BrowseItem, MapPin, Genre, Locale } from "@/features/map/queries";
+import { ChainBridgeSection } from "@/features/map/ChainBridgeSection";
+import type { BrowseItem, Chain, HonbaGroup, MapPin, Genre, Locale } from "@/features/map/queries";
 
 import { BottomSheet, snapOffset, type Snap } from "./BottomSheet";
 import { IndexList } from "./IndexList";
+import { TodayDishSection } from "./TodayDishSection";
+import { HonbaTrailSection, type HonbaDisplayGroup } from "./HonbaTrailSection";
+import { LandStoriesSection } from "./LandStoriesSection";
+import { AboutBlurbSection } from "./AboutBlurbSection";
 import type { Axis } from "./axes";
 
 /**
@@ -23,7 +29,7 @@ import type { Axis } from "./axes";
  * 無いため日本語のままにする（詳細ページ・作業パッケージ「トップページ改善」A節と同じ流儀）。
  * ja は既存表記（連結）を変えない。en は「Fukushima / 郡山市」形式（"/" 区切り）。
  */
-function formatPrefCity(
+export function formatPrefCity(
   pref: string | null,
   city: string | null,
   locale: Locale,
@@ -52,16 +58,33 @@ export function BrowseShell({
   honbaPins,
   genres,
   locale,
+  dailyDish,
+  landStories,
+  honbaGroups,
+  chains,
+  siteCounts,
 }: {
   items: BrowseItem[];
   /** 本場ピン（2026-09）。索引には出さず、地図でのみ items と合流する。 */
   honbaPins: MapPin[];
   genres: Genre[];
   locale: Locale;
+  /** トップ情報モジュール「今日の一皿」（2026-09）。日付選定はサーバー側（dailyPicks.ts）。
+   * 本文を持つアイテムが1件も無ければ null（モジュール自体を出さない）。 */
+  dailyDish: BrowseItem | null;
+  /** トップ情報モジュール「土地の物語から」（2026-09）。今日の一皿と重複しない最大3件。 */
+  landStories: BrowseItem[];
+  /** トップ情報モジュール「本場をたどる」（2026-09）。food_item_regions（本場）のアイテム別集約。 */
+  honbaGroups: HonbaGroup[];
+  /** トップ情報モジュール「チェーンから、ご当地へ」（2026-09）。ジャンル非依存の全チェーン。 */
+  chains: Chain[];
+  /** トップ情報モジュール「このサイトについて」（2026-09）の件数（DB実数）。 */
+  siteCounts: { items: number; prefs: number };
 }) {
   const t = useTranslations("browse");
   const ti = useTranslations("item");
   const tRegion = useTranslations("regionRelation");
+  const tGenre = useTranslations("genre");
   const label = useMasterLabels();
   // selectedSlug は origin ピン/索引選択では item.slug そのもの、
   // honba ピン選択では mapPinKey() が返す複合キー（同じ slug が複数都市を持つため）。
@@ -125,6 +148,22 @@ export function BrowseShell({
     return map;
   }, [items]);
   const nextRelated = selectedBrowseItem ? (nextRelatedMap.get(selectedBrowseItem.slug) ?? null) : null;
+
+  // 情報モジュール「本場をたどる」の表示用整形（作業パッケージ「トップページ情報モジュール」§2）。
+  // 都市名はロケール表記（formatPrefCity）に、都道府県は PREF_SLUGS で地域ページへのリンクに変換する。
+  const honbaDisplayGroups = useMemo<HonbaDisplayGroup[]>(
+    () =>
+      honbaGroups.map((g) => ({
+        slug: g.slug,
+        name: locale === "ja" ? g.nameJa : g.nameRomaji,
+        cities: g.cities.map((c, i) => ({
+          key: `${c.pref}-${c.city ?? i}`,
+          label: formatPrefCity(c.pref, c.city, locale, label.prefecture, ti("unknown")),
+          prefSlug: PREF_SLUGS[c.pref as Prefecture] ?? null,
+        })),
+      })),
+    [honbaGroups, locale, label, ti],
+  );
 
   // ジャンル絞り込み中の表示データ（地図・索引で共有）。
   // 本場ピンも item.genreSlug で判定するため、絞り込み時は発祥/本場を問わず揃って絞られる。
@@ -255,7 +294,9 @@ export function BrowseShell({
               // 発祥地表記はロケール対応（作業パッケージ「トップページ改善」A節）。
               <dl className="text-sm">
                 <div className="flex gap-2">
-                  <dt className="text-muted-foreground w-16 shrink-0">{tRegion("本場")}</dt>
+                  {/* 固定幅(w-16)だと英語ラベル "Renowned for" が折り返すため、
+                      固定幅をやめて中身に合わせる（CLAUDE.md「あわせて直す /en の残り」節）。 */}
+                  <dt className="text-muted-foreground shrink-0 whitespace-nowrap">{tRegion("本場")}</dt>
                   <dd>
                     {formatPrefCity(selected.originPref, selected.originCity, locale, label.prefecture, ti("unknown"))}
                   </dd>
@@ -416,6 +457,49 @@ export function BrowseShell({
                 <span className="text-muted-foreground text-xs">{t("entryInterestHint")}</span>
               </Link>
             </div>
+
+            {/* 情報モジュール群（2026-09 トップページ情報モジュール）。
+                地図が主役という確定設計は崩さず、3カードの下でスクロールした人に
+                150件分の中身（本文・本場・チェーン）を見せる。ランキング・
+                「おすすめ」ではない中立な導線にする（CLAUDE.md「規律」節）。 */}
+            {dailyDish && (
+              <TodayDishSection
+                heading={t("modules.todayDish")}
+                item={dailyDish}
+                locale={locale}
+                originCaption={ti("origin")}
+                originLabel={formatPrefCity(
+                  dailyDish.originPref,
+                  dailyDish.originCity,
+                  locale,
+                  label.prefecture,
+                  ti("unknown"),
+                )}
+                detailLabel={ti("viewDetail")}
+              />
+            )}
+
+            <HonbaTrailSection heading={t("modules.honba")} groups={honbaDisplayGroups} />
+
+            <ChainBridgeSection
+              heading={tGenre("chainsHeading")}
+              intro={tGenre("chainsIntro")}
+              chains={chains}
+              locale={locale}
+            />
+
+            <LandStoriesSection
+              heading={t("modules.landStories")}
+              items={landStories}
+              locale={locale}
+              detailLabel={ti("viewDetail")}
+            />
+
+            <AboutBlurbSection
+              heading={t("modules.about")}
+              body={t("modules.aboutBody", { items: siteCounts.items, prefs: siteCounts.prefs })}
+              linkLabel={t("modules.aboutCta")}
+            />
 
             <p className="text-center">
               <Link href="/about" className="text-muted-foreground text-xs underline">
