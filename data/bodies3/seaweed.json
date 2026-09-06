@@ -1,0 +1,214 @@
+{
+ "items": [
+  {
+   "slug": "makonbu",
+   "body_ja": "## 何でできているか\n出汁を引くと透き通った黄金色になり、雑味のない上品な甘みが立つ。肉厚な葉は火を通しても煮崩れにくく、出汁を取り終えたあとも柔らかいまま煮物に使える。切り口が白く見える最上級品は「白口浜」と呼ばれて他産地の昆布と区別され、生のままでもほのかな甘みがあり、江戸期には献上先で菓子代わりに食されたと伝わるほど、昆布そのものの持ち味が濃い。出汁を引く前と後とで印象がこれほど変わる昆布も、そう多くはないという。\n## どう作るのか\n夏の解禁日に刈り取った昆布は天日で干して乾燥させる。南茅部沿岸では昭和40年代に道立の水産研究機関の指導で促成養殖が確立し、天然ものと養殖ものが並行して育てられるようになった。厚みがあり切り口の白い良質なものは選別され、高級な塩昆布やおぼろ昆布への加工にも向くとされ、加工の幅の広さが他の昆布と一線を画す。一枚の昆布から出汁昆布・塩昆布・おぼろ昆布と複数の製品が生まれる懐の深さも、この産地ならではとされる。\n## なぜこの形になったのか\n松前藩が朝廷や将軍家に納めたことから献上昆布とも呼ばれ、江戸幕府による蝦夷地調査の記録には「天下昆布」「昆布の絶品」と評されたと伝わる。産地は北海道でも、加工業者の多い関西・北陸へ北前船で運ばれた歴史から、消費の中心はいまも関西圏にあるとされる。この産地と消費地のねじれが、昆布文化を関西的なものにした一因ともいわれる。生産地と主要な使い手が遠く離れたままの構図は、いまも変わっていない。",
+   "body_en": "## What it's made of\nThe broth runs clear and golden, carrying a refined sweetness with no bitterness. Thick leaves hold their shape when heated and stay soft enough for simmered dishes even after making stock. The finest grade, with its telltale white-cut cross-section, is set apart from other regions' kelp as \"white-mouth beach\" kelp, and carries a faint sweetness even raw — said to have once been served as a confection where it was presented at court, a sign of how concentrated its flavor is.\n## How it's made\nKelp cut on the opening day of the summer harvest is dried in the sun. Along the Minamikayabe coast, forced cultivation was established in the 1960s with guidance from a Hokkaido fisheries research body, so wild and farmed kelp are now grown side by side. The thickest leaves with the whitest cut are sorted out as premium stock, suited even to high-grade salted kelp and shaved kelp products — a range of uses that sets it apart from other kelp.\n## Why it took this shape\nOnce presented by the Matsumae domain to the imperial court and shogunate, it earned the nickname \"tribute kelp,\" and a record from the shogunate's survey of Ezo is said to have called it \"kelp beneath heaven, a peerless kelp.\" Though harvested in Hokkaido, it was long shipped south by Kitamaebune ships to the Kansai and Hokuriku regions where processors clustered — and Kansai has remained the center of its consumption ever since, a twist between where it grows and where it is eaten that is said to have shaped Kansai's own kelp-broth culture.",
+   "sources": [
+    {
+     "title": "真昆布について",
+     "url": "http://www.jf-minamikayabe.or.jp/makonbu/",
+     "publisher": "南かやべ漁業協同組合",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "makonbu",
+     "to_slug": "rishiri-konbu",
+     "relation_type": "兄弟",
+     "basis": "ともに濁りのない澄んだ出汁が取れる高級だし昆布とされ、羅臼昆布・日高昆布の濃厚・食用向きの系統と対になる「清澄系」の代表格として並び称される（南かやべ漁協・北海道宗谷総合振興局の各紹介より）。"
+    }
+   ]
+  },
+  {
+   "slug": "rausu-konbu",
+   "body_ja": "## 何でできているか\n出汁は色こそ茶色く濁るが、旨みの強さでは昆布随一とされる。知床の栄養豊かな海で育つ分、香りも強く出やすい。身は柔らかく、出汁を取ったあとの葉もそのまま佃煮などで食べられ、国産昆布のうちわずか1%ほどしか採れない希少品として高級料亭でも珍重される。濁りを恐れず旨みを取りに行く料理には、むしろこの昆布が選ばれるという。透明さより深みを求める場面での定番格ともいえる。\n## どう作るのか\n収穫後は天日で干し、いったん乾いた昆布をあえて夜露にさらして湿らせる「湿り」という工程を挟む。巻いた昆布を伸ばして重ね、重石をのせて寝かせる「庵蒸」など、仕上げまでに20以上の手間をかけるとされ、この丁寧な仕込みが柔らかな身と強い旨みを引き出すという。手間のかけ方そのものが、他の昆布と一線を画す点とされ、一枚に費やす日数の長さがそのまま値打ちに直結するといわれる。\n## なぜこの形になったのか\n世界自然遺産に登録された知床半島の付け根、オホーツク海に大きく突き出した羅臼町の海域は、豊かな自然に育まれた栄養価の高い漁場とされる。この一角でしか育たないことが希少性につながり、国内流通量のわずかしか採れない土地の名が、そのまま高級昆布の代名詞になった。知床という土地の格が、そのまま昆布の格として語られている構図といえる。",
+   "body_en": "## What it's made of\nThe broth runs cloudy brown, but few kelps match it for sheer savoriness. Grown in the nutrient-rich waters off Shiretoko, it carries a strong aroma too. The leaf stays soft enough that the spent kelp itself is often eaten, simmered in soy — a rare item, said to make up only about 1% of Japan's kelp harvest, prized in fine restaurants that are willing to trade clarity for depth of flavor.\n## How it's made\nAfter harvest it is sun-dried, then deliberately re-dampened overnight in the dew — a step called \"shimeri.\" The rolled kelp is then unrolled, stacked, and weighted down to rest in a process called \"anjo,\" said to involve more than twenty separate steps before it is finished. That sheer amount of handling is said to be what sets it apart from other kelp.\n## Why it took this shape\nAt the base of the Shiretoko Peninsula, a UNESCO World Natural Heritage site jutting into the Sea of Okhotsk, Rausu's waters are said to form a nutrient-rich fishing ground shaped by that wilderness. Growing only in this one corner makes it scarce, and the town's own name has come to stand for premium kelp itself — the prestige of the place read directly onto the kelp it produces.",
+   "sources": [
+    {
+     "title": "羅臼の魅力（羅臼町について）",
+     "url": "https://kanko.rausu-town.jp/about",
+     "publisher": "羅臼町観光協会",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "rausu-konbu",
+     "to_slug": "hidaka-konbu",
+     "relation_type": "兄弟",
+     "basis": "ともに身が柔らかく出汁後の葉自体を食べる用途を持つ点で、硬く出汁専用の真昆布・利尻昆布と対になる「食用系」の系統として並べられる（羅臼町観光協会・新ひだか町の各紹介より）。"
+    }
+   ]
+  },
+  {
+   "slug": "rishiri-konbu",
+   "body_ja": "## 何でできているか\n出汁を引くと薄い塩味を感じるほど濃厚でありながら、色は驚くほど澄んだままになる。濁りを嫌う料理にはこの透明感こそが値打ちで、京料理の懐石だしや千枚漬けに欠かせない存在として重用されてきた。身は硬めで、出汁を取ったあとの昆布そのものはあまり食べず、専ら出汁専用として扱われるという。塩味の強さと透明さが同居する点が、この昆布ならではの持ち味とされ、色を変えたくない椀物ほどこの一枚が選ばれる。\n## どう作るのか\n寿命は2年とされ、2年目の初夏には一日に1.6センチほど伸びて長さ・重さとも最大になる。この時期に刈り取られた昆布を天日で干して乾燥させる。岩礁の水深1〜7メートルというごく浅い層に育つため、漁は手作業が中心になり、天候や潮の状態に左右されやすい仕事とされる。成長の頂点を見極めて刈り取る、時季との勝負でもあり、採る時期が一日ずれるだけで質が変わるといわれる。\n## なぜこの形になったのか\n稚内から利尻島・礼文島にかけての冷たく澄んだ海で育つことが、雑味のない透明な出汁につながるとされる。京の都からは遠い北の海の産物でありながら、その澄んだ質が濁りを嫌う懐石料理と結びつき、いまも関西の高級だし文化を支える昆布として選ばれ続けている。遠い産地であるほど、逆に重宝される皮肉な巡り合わせともいえる構図である。",
+   "body_en": "## What it's made of\nThe broth is strong enough to taste faintly salty, yet stays remarkably clear. That clarity is exactly the point for dishes that reject any cloudiness, which is why it has long been indispensable to Kyoto kaiseki stock and senmaizuke pickles. The leaf itself is firm and is rarely eaten after making stock — it is treated as a broth-only kelp, its strength and clarity coexisting in a way few kelps manage.\n## How it's made\nSaid to live two years, it grows fastest in its second early summer, lengthening about 1.6cm a day at its peak in size and weight. Kelp cut at this time is then dried in the sun. Because it grows in shallow rocky beds only 1–7 meters deep, harvesting is largely done by hand and stays at the mercy of weather and tide — a race to catch the kelp right at its peak.\n## Why it took this shape\nGrowing in the cold, clear waters from Wakkanai down through Rishiri and Rebun islands is said to be what gives it a broth free of any murkiness. Though it comes from a northern sea far from the old capital, that clarity matched Kyoto's kaiseki cuisine, which shuns cloudy stock — and it remains a kelp of choice for Kansai's refined dashi culture today, prized in part because of, not despite, the distance it travels.",
+   "sources": [
+    {
+     "title": "利尻昆布",
+     "url": "https://www.pref.hokkaido.lg.jp/sr/gid/fis091.html",
+     "publisher": "北海道宗谷総合振興局",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "rishiri-konbu",
+     "to_slug": "rausu-konbu",
+     "relation_type": "対比",
+     "basis": "利尻昆布の「澄んで硬く出汁専用」という性質は、羅臼昆布の「濁って柔らかく食用も兼ねる」性質と正反対で、だし昆布の対極として編集上並置できる（北海道宗谷総合振興局・羅臼町観光協会の各紹介より）。"
+    }
+   ]
+  },
+  {
+   "slug": "hidaka-konbu",
+   "body_ja": "## 何でできているか\n標準和名はミツイシコンブ。他の昆布より繊維が柔らかく短時間で煮えるため「煮え昆布」とも呼ばれる。出汁を引いたあとの葉もそのまま佃煮や煮物にしやすく、出汁と食用の両方をこなせる万能さが家庭で重宝される理由とされる。硬い昆布を出汁専用に磨いてきた他産地とは、目指す方向がそもそも違うといえ、一杯の味噌汁の具にそのまま流用できる気軽さも持ち味とされる。\n## どう作るのか\n早朝に刈り取った昆布は浜辺に敷き詰め、丸一日たっぷりと日光を浴びせて乾かす。砂利浜特有の小石の隙間が適度な通気をもたらし乾燥を促すとされ、100年以上ほとんど変わらぬこの天日干しの製法が、他では出せない独特の風味を生むという。機械に頼らない、天候まかせの根気のいる仕事であり、天気が崩れれば干す作業もそのまま止まるという。\n## なぜこの形になったのか\n産地はもともと新ひだか町三石地域に限られていたが、需要の広がりとともに日高沿岸一帯へと生産地が拡大した経緯があるとされる。硬い昆布を出汁専用に仕立てた他産地とは対照的に、早く煮えて食べやすい性質をそのまま活かす道を選んだ結果、家庭料理に根づく昆布になった。産地拡大の背景には、この使いやすさそのものへの需要があったとみられ、扱いやすい昆布が広まるほど、家庭料理の裾野も広がったと考えられる。",
+   "body_en": "## What it's made of\nIts formal name is mitsuishi kelp. Softer-fibered and faster-cooking than other kelps, it is sometimes called \"quick-boiling kelp.\" The spent leaves are easy to turn into a simmered side or soy-simmered dish after making stock — an all-round usefulness said to be why households keep it on hand, aiming at a different goal from kelp bred purely for stock elsewhere.\n## How it's made\nKelp cut at dawn is spread out on the beach and left to soak up a full day of sunlight. The gaps between the pebbles of the gravel beach are said to provide just enough airflow to aid drying, and this sun-drying method, largely unchanged for over a century, is said to produce a flavor unlike any other — patient, weather-dependent work with no shortcut through machinery.\n## Why it took this shape\nProduction was originally confined to the Mitsuishi area of what is now Shinhidaka, before spreading along the wider Hidaka coast as demand grew. Where other regions bred kelp purely for stock, hardened for that purpose, this one leaned into being soft and quick to cook — and so became the kelp that settled into everyday home cooking, its very usefulness driving the spread of production.",
+   "sources": [
+    {
+     "title": "日高昆布の天日干し",
+     "url": "https://www.shinhidaka-hokkaido.jp/hotnews/detail/00000168.html",
+     "publisher": "新ひだか町",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hidaka-konbu",
+     "to_slug": "makonbu",
+     "relation_type": "対比",
+     "basis": "日高昆布の「早く煮えて葉ごと食べる」性質は、真昆布の「肉厚で出汁専用に磨かれてきた」性質と対をなし、だし昆布と食用昆布という役割の違いを編集上対比できる（新ひだか町・南かやべ漁協の各紹介より）。"
+    }
+   ]
+  },
+  {
+   "slug": "wakame",
+   "body_ja": "## 何でできているか\n生の状態は褐色だが、湯に通すと黄色くなった赤色素が緑色素と結びつき、鮮やかな緑色に変わる。噛むとシコシコとした歯ごたえがあり、素朴な味わいの奥に潮の香りが残る。産地や潮の強さによって肉厚さに差が出るとされ、強い潮流にもまれて育ったものほど歯切れがよいという。色の変わりようが、食卓での存在感をいっそう引き立て、鍋に投じた瞬間の変化そのものがごちそう感を演出するとされる。\n## どう作るのか\n1〜4月の寒い時期、北西の季節風が吹くころに刈り取る。湯通ししたあと冷水で締めて水を切り、塩を混ぜて漬け込み、茎を除いてから脱水すると塩蔵わかめになる。鳴門ではこれとは別に、19世紀に考案された灰をまぶして乾燥させる「灰干し」の保存加工も伝わっている。用途に応じて仕上げ方を変える、産地ならではの知恵といえ、生・塩蔵・灰干しの3通りが今も併存しているという。\n## なぜこの形になったのか\n世界最大級とされる鳴門の渦潮を生む激しい潮流にもまれることで、身が引き締まり歯切れのよいワカメに育つという。荒い潮に立ち向かえる場所でしか育たないという制約が、かえって鳴門わかめを「渦潮が鍛えた」特産品として際立たせている。厳しい環境をそのまま売りに変えた、産地としての強みでもあり、渦潮という観光名所と特産品が一体で語られる珍しい土地柄といえる。",
+   "body_en": "## What it's made of\nRaw, it is brown, but a brief dip in hot water turns a yellowed red pigment to bind with the green one, flashing it bright green. It has a crisp, springy bite, with a briny scent lingering beneath its plain flavor. Thickness is said to vary by growing ground and current strength — the stronger the tide it grows against, the crisper it turns out, its color change alone making it a presence on the table.\n## How it's made\nIt is cut in the cold months of January to April, as the north-westerly winter wind sets in. After a hot-water blanch, it is chilled in cold water, drained, salted and cured, then de-stemmed and dehydrated into salt-cured wakame. Separately, Naruto also carries on an ash-drying preservation method devised in the 19th century — different finishes suited to different uses, a piece of local know-how.\n## Why it took this shape\nBeing buffeted by the powerful current behind Naruto's whirlpools, said to be among the world's largest, is credited with firming its texture into a crisp bite. The constraint of growing only where it can withstand such rough water has, if anything, made Naruto wakame stand out as a specialty \"forged by the whirlpool\" — a harsh environment turned into its own selling point.",
+   "sources": [
+    {
+     "title": "鳴門わかめ",
+     "url": "https://www.pride-fish.jp/JPF/pref/detail.php?pk=1468224633",
+     "publisher": "一般社団法人大日本水産会（日本の魚 PRIDE FISH）",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "wakame",
+     "to_slug": "hijiki",
+     "relation_type": "対比",
+     "basis": "家庭の食卓に並ぶ定番海藻という点は共通しながら、湯に通すと鮮やかな緑になるワカメと、加工を経て黒く変わるヒジキとで色と食感の対比が際立つ（PRIDE FISH・Wikipedia各記事より）。"
+    }
+   ]
+  },
+  {
+   "slug": "hijiki",
+   "body_ja": "## 何でできているか\n生のヒジキは黄褐色をしているが、加工の過程で黒く変わり、見慣れた小さな粒や枝の姿になる。潮間帯の岩の上に密生して育ち、早春から初夏にかけて群落をつくる。煮物にすると独特の磯の香りとミネラル分を感じるコリッとした食感が楽しめる。地味な見た目に反して、噛むほどに味の輪郭がはっきりしてくる海藻であり、脇役に見えて満足感の底上げを担う存在ともいえる。\n## どう作るのか\n収穫は硬くなる前の春先、3〜6月ごろに限られる。伊勢地方では天日で干したあと水で戻して塩気を抜き、蒸し上げてから再び乾燥させる製法が伝わり、房総地方では海水ごと煮沸してから干す製法が用いられる。どちらの工程も、生では食べにくい繊維を柔らかくするための手間とされる。産地によって手順が違う点も興味深く、同じヒジキでも土地ごとに仕上がりの硬さが変わるという。\n## なぜこの形になったのか\n三重の伊勢志摩と千葉の房総をはじめ、愛媛・大分・長崎など各地の岩礁海岸で採られてきた海藻で、産地ごとに異なる加工法が育った。大豆や人参と炊き合わせる定番の食べ方は、硬く黒い姿になったヒジキを日常のおかずに落とし込むための知恵として定着したと考えられる。地味な海藻を主役にした食べ方の工夫といえ、彩りを添える具材との組み合わせが定番として根づいている。",
+   "body_en": "## What it's made of\nFresh hijiki is yellow-brown, but processing turns it black into the familiar small strands and pellets. It grows dense on rocks in the intertidal zone, forming colonies from early spring into early summer. Simmered, it carries a distinct briny aroma and a mineral-rich crunch — a seaweed whose flavor sharpens the more you chew it, despite its plain look.\n## How it's made\nHarvest is limited to spring, roughly March to June, before the fronds toughen. In the Ise region it is sun-dried, then rehydrated to remove salt, steamed, and dried again; in the Boso region it is instead boiled in seawater before drying. Either process is meant to soften fibers too tough to eat raw — and the differing steps by region are a story in themselves.\n## Why it took this shape\nIt has long been gathered along rocky coasts from Ise-Shima in Mie and Boso in Chiba to Ehime, Oita, and Nagasaki, with each region developing its own processing method. The classic pairing with soybeans and carrot is thought to have taken hold as a way of folding this hard, black seaweed into everyday side dishes — a way of making a plain-looking seaweed the center of the plate.",
+   "sources": [
+    {
+     "title": "ヒジキ",
+     "url": "https://ja.wikipedia.org/wiki/ヒジキ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hijiki",
+     "to_slug": "nori",
+     "relation_type": "対比",
+     "basis": "煮物として食べるヒジキと、乾かして紙状の板に仕立て包む・巻くための材料にするノリとで、同じ乾物海藻でも食べ方・仕立て方が正反対になる（Wikipedia・佐賀県有明海漁協の各紹介より）。"
+    }
+   ]
+  },
+  {
+   "slug": "nori",
+   "body_ja": "## 何でできているか\n焼くとパリッとした食感とともに、香ばしさとトロけるような甘みを含んだ独特の旨みが立つ。口どけがよく、噛むというより溶けるように喉を通っていくのが特徴とされる。初摘みのノリほど柔らかく甘みが強く、摘み取る時期が味を大きく左右する。同じ海で育っても、摘む日によって別物のような差が出るといい、初摘みと後摘みを食べ比べればその差は歴然とされる。\n## どう作るのか\n支柱を立てて網を張る支柱式養殖では、1日2回、満潮時に海水に浸り干潮時に日光を浴びる。この干出を繰り返すことで海水と太陽光を交互に吸収し、旨みが凝縮されるとされる。遠浅で干満差の大きい海でなければ成立しない、潮任せの養殖法といえる。生産者は日々の潮回りを読みながら網の張り具合を調整するといい、収穫のタイミングも潮の動きに合わせて決まる。\n## なぜこの形になったのか\n有明海は満潮と干潮の差が最大6メートルにも達する、国内屈指の干満差を持つ海とされる。この極端な干出環境こそがノリ養殖に適しており、「佐賀海苔」という一つの土地の名を冠したブランドが育つ土壌になったと言われる。海そのものの癖が、そのままブランドの個性として語られており、生産者の技術がその癖を活かす形で磨かれてきたと伝えられる。",
+   "body_en": "## What it's made of\nToasted, it turns crisp, carrying a distinct savoriness laced with toastiness and a melting sweetness. It is said to dissolve on the tongue rather than needing to be chewed. The first-of-season harvest is said to be softest and sweetest, so timing matters more than almost anything else — sheets from the same bed can taste like a different food depending on the day they were picked.\n## How it's made\nIn pole-and-net farming, nets are exposed twice a day — soaking in seawater at high tide and drying under sunlight at low tide. This repeated cycle of exposure is said to let the nori alternately absorb seawater and sunlight, concentrating its umami. It only works in shallow water with a large tidal swing, a method entirely at the tide's mercy, with growers reading the day's tide to adjust how the nets sit.\n## Why it took this shape\nThe Ariake Sea is said to have one of Japan's largest tidal ranges, up to six meters between high and low tide. That extreme exposure cycle happens to suit nori farming perfectly, and is said to be the ground from which a single-region brand — \"Saga nori\" — was able to grow, the sea's own quirks becoming the brand's identity.",
+   "sources": [
+    {
+     "title": "有明海ののりづくり",
+     "url": "https://www.jf-sariake.or.jp/page/feature.html",
+     "publisher": "佐賀県有明海漁業協同組合",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nori",
+     "to_slug": "mozuku",
+     "relation_type": "対比",
+     "basis": "水分を抜いて紙状に乾かし切るノリと、あえて乾かさずぬめりを残したまま食べるもずくとで、同じ食用海藻でも加工の方向性が正反対になる（佐賀県有明海漁協・沖縄県もずく養殖業振興協議会の各紹介より）。"
+    }
+   ]
+  },
+  {
+   "slug": "mozuku",
+   "body_ja": "## 何でできているか\n糸のように細く、独特のぬめりを持ちながらもコシのある食感が持ち味の褐藻類。三杯酢に和えて食べるのが定番で、つるりとした喉ごしの奥にほのかな磯の香りが残る。ぬめりの強さと歯切れのよさを両立させる点が、他の海藻にはない個性とされる。噛むというより、まとわりつくように食べる海藻であり、箸で持ち上げる感触そのものが食べる楽しみの一部になっている。\n## どう作るのか\n沖縄では、サンゴ礁の浅瀬や藻の枝葉に種を付けて育てる養殖が、国内で唯一産業規模に成功している方式とされる。最盛期は4〜6月で、この時期に刈り取られたものが三杯酢のほか、天ぷらや雑炊の具材としても親しまれる。細く柔らかい姿からは想像しにくいが、収穫は手作業が中心の根気のいる仕事とされ、絡み合った糸状の藻を丁寧にほぐしながら刈り取るという。\n## なぜこの形になったのか\n国内の養殖もずくの生産量は、沖縄県が99%以上を占めるとされる。サンゴ礁が広がる遠浅の海という条件が本州の海にはあまりなく、養殖に適した環境が偏って存在したことが、一つの県にほぼ集中する珍しい産地構造を生んだと考えられる。一つの県の海の性質が、そのまま全国の食卓を支えている形といえ、他地域での代替生産がほぼ利かない産地依存の強さも特徴的とされる。",
+   "body_en": "## What it's made of\nA thin, thread-like brown seaweed, prized for a slipperiness paired with a springy bite. Dressed in a light vinegar sauce is the classic way to eat it, its smooth slide down the throat leaving a faint briny scent behind. Combining that slipperiness with a crisp bite is said to be what sets it apart from other seaweeds — something eaten less by chewing than by letting it cling to the tongue.\n## How it's made\nIn Okinawa, seeding it onto shallow coral reef or the branches of other algae is said to be the only method that has succeeded at an industrial scale in Japan. Peak harvest runs April to June, when it goes beyond the vinegar dressing into tempura and rice porridge as well. Despite its thin, soft look, harvesting is said to remain patient, largely hand-done work.\n## Why it took this shape\nOkinawa Prefecture is said to account for over 99% of Japan's farmed mozuku. Shallow reef-lined water of the kind it needs is scarce elsewhere in Japan's main islands, and that lopsided distribution of suitable conditions is thought to explain why production concentrates so heavily in a single prefecture — one prefecture's sea, in effect, supplying the whole country's table.",
+   "sources": [
+    {
+     "title": "もずくについて",
+     "url": "https://www.mozukukyo.org/mozuku/",
+     "publisher": "沖縄県もずく養殖業振興協議会",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mozuku",
+     "to_slug": "aosa",
+     "relation_type": "対比",
+     "basis": "もずくは料理の主役として量を食べる海藻であるのに対し、アオサは乾かして少量を薬味として振りかける海藻で、同じ緑〜褐色系の食用海藻でも料理内での役割が対照的になる（沖縄県もずく養殖業振興協議会・Wikipedia各記事より）。"
+    }
+   ]
+  },
+  {
+   "slug": "aosa",
+   "body_ja": "## 何でできているか\n河口付近など世界中の汽水域に広く分布する緑藻で、生のままだと種類によっては苦味が強く、あまり食用には向かないとされる。乾燥させると鮮やかな濃い緑色に変わり、磯の香りを一気に立たせる薬味として汁物や天ぷら、お好み焼きの仕上げに使われる。主役になることは少ないが、香りだけで料理の印象を変える力を持ち、振りかけた瞬間に磯の空気がふわりと立ち上るとされる。\n## どう作るのか\n収穫したものは天日で乾燥させ、細かくほぐして「青のり」のふりかけとして流通させるのが基本の加工とされる。生のままでは苦味が残る種もあるため、乾燥という一手間を経てはじめて、薬味として日常的に使える形になる。乾かすことで香りが凝縮され、少量でも十分に効くようになるといい、保存も利くようになるため通年で使いやすくなる。\n## なぜこの形になったのか\n国内収穫量の7割ほどを愛知県三河湾が占めるとされ、岡山県や徳島県でも採られる。河口の汽水域という限られた環境でしか育たないことが、乾燥させて各地に届ける「薬味」としての立ち位置を定着させた一因と考えられる。生の状態で流通しにくいことが、逆にこの海藻の使われ方を決めたともいえ、産地が偏る割に全国の食卓で見かける理由も、乾燥という保存の効く形にあるとみられる。",
+   "body_en": "## What it's made of\nA green algae found widely in brackish water near river mouths worldwide, some varieties of which are said to carry too strong a bitterness fresh to be eaten as-is. Dried, it turns a deep, vivid green and is used as a briny-aromatic garnish to finish soups, tempura, and okonomiyaki — rarely the star of a dish, yet able to shift its character by scent alone.\n## How it's made\nAfter harvest it is sun-dried and crumbled fine, distributed as a sprinkle-on \"aonori\" garnish — the standard processing method. Since some varieties keep a lingering bitterness fresh, it is only after this drying step that it becomes usable as an everyday seasoning, the drying itself concentrating its aroma enough to work in a small pinch.\n## Why it took this shape\nAbout seven-tenths of Japan's harvest is said to come from Mikawa Bay in Aichi Prefecture, with the rest gathered in Okayama and Tokushima. Growing only in the narrow band of brackish river-mouth water is thought to be one reason it settled into the role of a dried garnish shipped elsewhere, rather than a fresh vegetable eaten on the spot — its poor keeping quality fresh arguably deciding how it would be used.",
+   "sources": [
+    {
+     "title": "アオサ",
+     "url": "https://ja.wikipedia.org/wiki/アオサ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aosa",
+     "to_slug": "wakame",
+     "relation_type": "対比",
+     "basis": "河口の汽水域でしか育たず乾燥後の薬味としてのみ使われるアオサと、外海で育ち生や塩蔵のまま食材そのものとして食べるワカメとで、生育環境と料理内での位置づけが対をなす（Wikipedia・PRIDE FISHの各紹介より）。"
+    }
+   ]
+  },
+  {
+   "slug": "tororo-konbu",
+   "body_ja": "## 何でできているか\n酢に浸して柔らかくした昆布を何枚も重ねて固め、側面を薄く削り出した加工品。ふわりとした食感と、酢の酸味を含んだ昆布の旨みが持ち味とされる。表面の黒い部分を削れば「黒とろろ」、中心の白い部分を削れば「白とろろ」と呼び分けられる。削る場所が変わるだけで、味も見た目もまるで別物になり、一つの塊から複数の商品が生まれる無駄のなさも特徴とされる。\n## どう作るのか\n酢に漬けて柔らかくした昆布を何枚も重ねて固め、その側面をかんなのように薄く削り出すのがとろろ昆布の作り方とされる。よく似た製法に、一枚の昆布の表面を鉋がけのように薄く削る「おぼろ昆布」があり、重ねてから削るか一枚のまま削るかで名前と食感が分かれる。削り方一つが、別の加工品を生み出す境目になっており、同じ原料からまったく違う商品名が生まれる面白さがある。\n## なぜこの形になったのか\n江戸期、北前船は「昆布ロード」と呼ばれる航路で北海道の昆布を各地に運び、寄港地では昆布を保存・加工する産業が育ったと伝わる。敦賀もその一つで、厚みのある昆布を酢で柔らかくして薄く削るこの加工技術が、日持ちと食べやすさを両立させる知恵として発達したとされる。北前船が運んだのは昆布そのものだけでなく、加工の技でもあった。",
+   "body_en": "## What it's made of\nKelp softened in vinegar is layered many sheets deep, pressed, then shaved thin off the side — that is the basic processing. It is light and fluffy, carrying a tangy savoriness from the vinegar cure. Shaving the dark outer layer yields \"black tororo,\" while the pale center yields \"white tororo\" — a shift in where the blade cuts changing both taste and look entirely.\n## How it's made\nKelp softened in vinegar is stacked into a thick block and shaved thin off its side like a plane, the standard way to make tororo kelp. A closely related product, oboro kelp, instead planes a single sheet of kelp directly rather than stacking several — the distinction between stacking-then-shaving and shaving-one-sheet is what gives each its own name and texture.\n## Why it took this shape\nDuring the Edo period, Kitamaebune ships ran what came to be called the \"kelp road,\" carrying Hokkaido kelp to ports along the way, where industries for curing and processing it are said to have taken root. Tsuruga was one such port, and this craft of softening thick kelp in vinegar and shaving it thin is said to have developed there as a way to make it both long-lasting and easy to eat — what those ships carried was not just kelp itself, but the craft of processing it.",
+   "sources": [
+    {
+     "title": "とろろ昆布（とろろこんぶ）｜にっぽん伝統食図鑑",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/tororo_konbu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tororo-konbu",
+     "to_slug": "makonbu",
+     "relation_type": "派生",
+     "basis": "とろろ昆布は肉厚な昆布を酢で柔らかくして削り出す加工品であり、そのまま食べても甘みがあり肉厚とされる真昆布のような昆布が加工原料の代表格とされることから、真昆布からの派生として位置づけられる（農林水産省・南かやべ漁協の各紹介より）。"
+    }
+   ]
+  }
+ ]
+}

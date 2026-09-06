@@ -1,0 +1,429 @@
+{
+ "items": [
+  {
+   "slug": "kagoshima-kurobuta",
+   "body_ja": "## 何でできているか\n黒く艶のある毛並みのバークシャー種で、脂身は白く締まりながらも口に含むとすっと溶けて甘みが広がる。赤身と脂の層はきめ細かく、しゃぶしゃぶで薄く引いても脂の甘みが先に立つとされる。とんかつに揚げても脂が縁に残って溶け切らないため、噛むたびに甘みと香ばしさが重なっていく。角煮のように長く煮ても脂がしつこくならないと語られる。\n## どう作るのか\n明治期に英国から鹿児島へ導入されたバークシャー種を、農家が長い年月をかけて改良してきたとされる。肥育後期にさつまいもを加えた専用飼料を60日以上与える点が特徴で、この期間が脂の甘みときめ細かな肉質につながるという。出荷までの飼育日数も一般の豚より長めにとられ、じっくり時間をかけて仕上げる飼育方針が品質を支えているとされる。\n## なぜこの形になったのか\n鹿児島は火山灰質のシラス台地が広がり、稲作より甘藷（さつまいも）の栽培に向いてきた土地とされる。江戸期から救荒作物として根づいたその甘藷を豚の飼料に回す発想が、脂に独特の甘みを与えたと語られる。輸入したバークシャー種がここに根づいたのも、豚を貴重な換金家畜として大切に育ててきた土地の歴史と重なっているという。南国らしい温暖な気候も、じっくり時間をかけて育てる飼育に向いていたと語られる。",
+   "body_en": "## What it's made of\nA black Berkshire with a glossy coat, its fat firm and white yet said to melt sweetly the moment it hits the tongue. The marbling runs fine, so even sliced thin for shabu-shabu the fat's sweetness comes through first. Fried into tonkatsu it never fully renders at the edge, so each bite layers sweetness over crisp aroma, and it is said to stay light even simmered long into a kakuni-style braise.\n## How it's made\nBerkshire stock brought to Kagoshima from England in the Meiji era has been refined here by local farmers over generations. A late-stage diet mixed with sweet potato for 60-plus days is said to be the defining step, credited with the fat's sweetness and the meat's fine grain. Pigs are also kept longer than usual before shipping, a slower finishing schedule said to underpin the quality.\n## Why it took this shape\nKagoshima's volcanic-ash Shirasu plateau is said to suit sweet potato better than rice, a crop that took root here as a famine staple as far back as the Edo era. Turning that long-grown local staple into hog feed is said to be what gives the fat its particular sweetness. That imported Berkshire stock took root here too tracks with a land that has long kept pigs as a valued cash animal.",
+   "sources": [
+    {
+     "title": "かごしま黒豚とは",
+     "url": "https://www.k-kurobuta.com/about/",
+     "publisher": "鹿児島県黒豚生産者協議会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kagoshima-kurobuta",
+     "to_slug": "kirishima-kogen-junsui-kurobuta",
+     "relation_type": "兄弟",
+     "basis": "どちらも英国由来のバークシャー種を鹿児島で改良した黒豚。霧島高原純粋黒豚はかごしま黒豚の枠内で純血にこだわる系統とされる（krp1.com「かごしま黒豚の特徴」）。"
+    },
+    {
+     "from_slug": "kagoshima-kurobuta",
+     "to_slug": "chami-buta",
+     "relation_type": "対比",
+     "basis": "同じ鹿児島の豚だが、かごしま黒豚はさつまいも飼料による脂の甘みを、茶美豚は緑茶の抗酸化作用による鮮度・臭み対策を打ち出しており、同地域内で異なる飼料設計思想を対比できる。"
+    },
+    {
+     "from_slug": "kagoshima-kurobuta",
+     "to_slug": "olive-yumebuta",
+     "relation_type": "兄弟",
+     "basis": "オリーブ夢豚の土台である讃岐夢豚も1994年に英国から導入したバークシャー種で、かごしま黒豚と同じ品種系統にあたる（pref.kagawa.lg.jp「オリーブ畜産物」）。"
+    }
+   ]
+  },
+  {
+   "slug": "okinawa-agu",
+   "body_ja": "## 何でできているか\n在来種らしく小柄な体格で、脂の層は薄めながら赤身に力強いうまみが凝縮しているとされる。長時間煮込むラフテーや豚汁にしても身が締まったまま煮崩れしにくく、脂は輸入種に比べてくどさが少なくあっさりしていると語られる。小柄な分だけ1頭から取れる量は少なく、希少性の高さも味の印象を後押ししているという。脂肪は白くきめが細かいとされ、火を通しても硬くなりにくいという声もある。\n## どう作るのか\n琉球王朝時代から沖縄で飼われてきた在来種で、戦後の混血や大型種の導入によって純粋な血統は一時数を大きく減らしたとされる。現在は純粋アグーの血を父方に持ち、母方もDNA検査で確認された個体だけが「あぐー」を名乗れる仕組みで、血統を厳格に管理しながら数を回復させてきたという。この認証の仕組みは近年整備されたもので、以前は地域ごとに呼び方や基準が揺れていたと伝わる。\n## なぜこの形になったのか\n島という限られた土地で、小柄で粗食にも耐える在来種が長く重宝されてきたと伝わる。戦後に生産性の高い大型種へ切り替えが進むなかで数を減らしたが、島固有の血統を守ろうとする動きがDNA検査という厳密な仕組みに結実したとされる。琉球王朝時代からの飼育の記憶を制度で受け継ぐ試みとも読め、観光や食文化の発信とも結びつき、希少な在来種を守ること自体が土地の誇りとして語られているという。",
+   "body_en": "## What it's made of\nSmall-framed like the native breed it is, with a thinner fat layer but said to carry a concentrated savoriness in the lean meat. Simmered long in rafute or pork-and-vegetable soup it holds its shape well, and its fat is described as lighter, less cloying than that of larger imported breeds. Being small-bodied also means less meat per pig, adding to its sense of scarcity, and the fat is said to stay tender rather than toughening once cooked through.\n## How it's made\nAgu has been kept in Okinawa since the Ryukyu kingdom era, its pure line said to have thinned sharply after postwar crossbreeding with larger imported stock. Today only pigs with a purebred Agu sire and a dam confirmed by DNA testing may carry the name — a strict system said to have helped rebuild numbers while guarding what remains of the bloodline. That verification framework is a relatively recent addition; before it, names and standards are said to have varied from area to area.\n## Why it took this shape\nOn an island with limited land, a small, hardy native breed that could thrive on modest feed is said to have long been valued. Numbers fell as postwar farming shifted toward more productive large breeds, and the effort to save what remained of the native line is said to have hardened into today's DNA-verification system — carrying the kingdom-era memory of keeping this pig into a modern institution, and now tied to tourism and food-culture promotion as a point of local pride.",
+   "sources": [
+    {
+     "title": "あぐ〜について",
+     "url": "https://agu-pr.jp/aboutagu/",
+     "publisher": "あぐー応援団（JAおきなわ銘柄豚推進協議会）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "okinawa-agu",
+     "to_slug": "kirishima-kogen-junsui-kurobuta",
+     "relation_type": "対比",
+     "basis": "あぐーは沖縄在来種の血をDNA検査で確認して守る純血主義、霧島高原純粋黒豚は輸入バークシャー種を交配せず守る純血主義で、対象の出自（在来 対 輸入）が対照的な純血へのこだわり。"
+    }
+   ]
+  },
+  {
+   "slug": "tokyo-x",
+   "body_ja": "## 何でできているか\n北京黒豚・バークシャー・デュロックという三品種を掛け合わせた三元豚で、赤身のきめが細かく脂もしつこくないと語られる。通常より長く飼育される分だけ肉に厚みが出て、焼いても縮みにくいという声もある。脂はほのかに甘く、赤身との一体感があるとされる。脂の白さも際立ち、見た目の美しさも評価されると語られる。肉汁も比較的多く残ると言われる。\n## どう作るのか\n東京都の畜産試験場が三品種を掛け合わせ、7年をかけて安定した系統に育成したとされる三元交雑種。出荷までの飼育期間を通常より長めにとることが特徴で、この時間のかけ方が赤身と脂のきめ細かさにつながるという。品種の組み合わせも育種計画の段階から意図して選ばれたと伝わる。育成にあたっては複数世代にわたる選抜が繰り返されたとも語られる。\n## なぜこの形になったのか\n「TOKYO X」という名は、大都会・東京で7年がかりの品種改良から生まれた豚という異色の成り立ちを示しているとされる。産地としての土地の物語を持たない代わりに、都の試験場が長期計画で育種に取り組んだという開発の物語そのものが、この豚の個性になっているという見方ができる。地方色を打ち出す銘柄豚が主流のなかで、あえて都市発の育種にこだわった点も語り草になっているという。",
+   "body_en": "## What it's made of\nA three-way cross of Beijing Black, Berkshire and Duroc, said to give finely grained lean meat and fat that is never heavy. Raised longer than most pigs before shipping, the meat is said to carry more body and hold up well on the grill, with the fat's faint sweetness said to blend smoothly into the lean, its whiteness often noted as visually distinctive too.\n## How it's made\nDeveloped over seven years by Tokyo's metropolitan livestock station crossing the three breeds into a stable line. Pigs are kept longer than usual before shipping, a stretch of time said to be what gives the lean meat and fat their fine grain, with the breed combination itself said to have been chosen deliberately at the planning stage, refined through repeated selection across several generations.\n## Why it took this shape\nThe name TOKYO X is said to mark an unusual origin story — a pig bred over seven years inside a metropolis rather than shaped by any rural terroir. Lacking the usual tale of local land and climate, its character rests instead on the prefecture's own long, deliberate breeding program as the story that defines it, a point of pride often noted against the many brand porks that lean on regional color instead.",
+   "sources": [
+    {
+     "title": "TOKYO Xって？",
+     "url": "https://tokyox.jp/",
+     "publisher": "TOKYO X生産組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tokyo-x",
+     "to_slug": "yonezawa-buta-ichiban-sodachi",
+     "relation_type": "対比",
+     "basis": "どちらも三元交雑種だが、TOKYO Xは北京黒豚・バークシャー・デュロックを都の試験場が7年かけて系統化した都市型の育種、米澤豚一番育ちはランドレース・大ヨークシャー・デュロックを置賜盆地の気候と水で育てる土地型のアプローチで対比できる。"
+    }
+   ]
+  },
+  {
+   "slug": "yonezawa-buta-ichiban-sodachi",
+   "body_ja": "## 何でできているか\nランドレースと大ヨークシャーの一代交雑にデュロックを掛けた三元豚で、脂に甘みがあり口当たりがやわらかいとされる。角煮などじっくり火を入れる料理でも脂がしつこくならず、赤身のうまみが最後まで残ると語られる。冷めても脂が白く固まりにくいという声もある。脂の白さも際立ち、薄切りにしても存在感が残るとされる。冷しゃぶにしても脂の輪郭がきれいに残ると語られる。\n## どう作るのか\nランドレースと大ヨークシャーを掛けた一代交雑種にデュロックをさらに交配した三元豚。置賜盆地の寒暖差の大きい環境と、山から流れるミネラル豊富な雪解け水を飲ませながら丁寧に育てられているとされる。出荷まで手間をかけて育てる姿勢が名前の「一番育ち」にも込められているという。山からの水を管理する仕組みも整えられており、飲み水の質にまでこだわっているという。\n## なぜこの形になったのか\n米沢を含む置賜盆地は夏と冬の寒暖差が大きく、山からの雪解け水にも恵まれてきた土地とされる。この気候と水を生かして育てる発想が名前にも表れており、米沢牛で知られる土地の「一番育ち」という誇りを豚にも求めた結果と語られる。米沢牛と同じ土地・同じ水で育つという物語が、豚肉のブランドづくりにも生かされていると語られる。",
+   "body_en": "## What it's made of\nA three-way cross — Landrace by Large Yorkshire, then Duroc — said to give sweet-tasting fat and a soft bite. Even braised long into kakuni the fat never turns heavy, and the lean meat's flavor is said to carry through to the last piece, staying soft rather than firming up white as it cools, its whiteness said to hold presence even sliced thin.\n## How it's made\nA Landrace × Large Yorkshire sow crossed again with Duroc, raised with care in the Okitama basin's wide seasonal temperature swings, given mineral-rich snowmelt water flowing down from the surrounding mountains. The name — meaning \"raised best\" — is said to carry that same unhurried, careful approach through to shipping, with the mountain water itself said to be managed for quality.\n## Why it took this shape\nThe Okitama basin around Yonezawa is known for its sharp swings between summer heat and winter cold, and for the mountain snowmelt that feeds it. The name is said to echo the same land-and-water pride long applied to Yonezawa's famous beef, now claimed for pork as well — the same land and the same water, the story goes, turned toward a second brand.",
+   "sources": [
+    {
+     "title": "山形県産の銘柄豚",
+     "url": "https://www.yamagata.nmai.org/know/pork/index.html",
+     "publisher": "おいしい山形（山形県）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yonezawa-buta-ichiban-sodachi",
+     "to_slug": "kyoto-poku",
+     "relation_type": "兄弟",
+     "basis": "どちらもランドレースと大ヨークシャーの交雑にデュロックを掛けた三元豚（LWD）で、同じ交配構成の兄弟にあたる。"
+    }
+   ]
+  },
+  {
+   "slug": "iwanaka-buta",
+   "body_ja": "## 何でできているか\n締まった赤身と適度な脂を持つ、いわゆる標準的な豚肉の完成形として長く評価されてきたとされる。特別な飼料設計を前面に出す銘柄が多いなかで、飼育管理の丁寧さそのものが持ち味とされ、市場では長く高値で取引されてきたと語られる。派手さより安定感で選ばれてきた豚という位置づけという。見た目の色合いも安定しており、部位ごとの差が出にくいとも語られる。\n## どう作るのか\n東京食肉市場銘柄豚協会が銘柄豚の指定第一号として認定した豚肉で、岩手県の牧場でSPF基準の衛生管理のもと飼育されるとされる。特定の交配や特殊な飼料よりも、衛生管理と飼育記録の徹底によって品質を保つ考え方に立っているという。この管理体制が約40年続く評価の土台になっているとされる。衛生管理の記録は出荷ごとに残され、追跡できる体制が整っているという。\n## なぜこの形になったのか\n「銘柄豚」という制度そのものがまだ珍しかった時代に第一号として認定を受けたことが、この豚の位置づけを決めているとされる。約40年にわたり市場で評価され続けてきた実績が、味の設計よりも管理の徹底で選ばれる豚という性格を作ったと語られる。後発の銘柄豚が味や飼料を打ち出すなかで、岩中豚は管理の先駆けという立ち位置を保ち続けているとされる。",
+   "body_en": "## What it's made of\nFirm lean meat with a moderate amount of fat, said to have long stood as something close to a baseline for what good pork should be. Where many named brands lead with a distinctive feed, here careful farm management itself is the selling point, and the pork is said to have commanded strong prices on the market for decades on consistency rather than flair, its color said to stay even across cuts.\n## How it's made\nDesignated brand-pork No. 1 by the Tokyo Meat Market's branded-pork association, raised on an Iwate farm under SPF hygiene standards. Rather than a special cross or feed formula, quality here is said to rest on strict hygiene and record-keeping through the whole raising process, a system said to underpin roughly 40 years of standing in the market, with records kept and traceable for every shipment.\n## Why it took this shape\nBeing certified first, back when \"brand pork\" was still an unfamiliar category, is said to define this pork's place today. Roughly 40 years of standing up on the market is said to have shaped a brand defined less by a distinctive taste design than by the sheer consistency of its management — a pioneer of process, the story goes, even as later brands lead with taste or feed instead.",
+   "sources": [
+    {
+     "title": "東京食肉市場銘柄豚協会",
+     "url": "http://www.meigaraton.jp/",
+     "publisher": "東京食肉市場銘柄豚協会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "iwanaka-buta",
+     "to_slug": "noto-buta",
+     "relation_type": "対比",
+     "basis": "岩中豚は東京食肉市場銘柄豚協会の指定第一号として約40年の歴史を持つ最古参格、能登豚は2014年設立の推進協議会による比較的新しい統一ブランドで、銘柄豚という制度の新旧を対比できる。"
+    }
+   ]
+  },
+  {
+   "slug": "joshu-mugi-buta",
+   "body_ja": "## 何でできているか\n大麦を多く配合した飼料で育つため、脂に香ばしさがあり、くせのない軽い味わいとされる。特定の品種で押し出すのではなく、飼料設計だけで個性を作る考え方の豚で、豚肉本来の味を素直に楽しめるという声が多い。脂身は白くさらりとして、しつこさが残りにくいとも語られる。脂の色も白く、見た目にも清潔感のある印象とされる。煮込み料理に使っても脂がくどくならないという。\n## どう作るのか\n動物性たんぱくを含まず、大麦を多く配合した専用飼料で育てる、群馬県の統一銘柄豚とされる。県内に複数あった地域銘柄をひとつの枠組みにまとめたもので、飼料の中身を基準として品質を担保しているという。血統よりも飼料設計を土台に据えた銘柄化とも言える。統一銘柄として整備される前は、県内の生産者ごとに呼び名が分かれていたと伝わる。\n## なぜこの形になったのか\n群馬県は古くから大麦・小麦の二毛作が盛んな土地とされ、麦作の技術と飼料資源が身近にあった。県内でばらばらだった地域銘柄を大麦飼料という共通の基準でひとつにまとめた点に、産地としての土地の強みを制度に落とし込んだ発想が読み取れる。小麦との輪作で土地を休ませる知恵も、飼料用大麦の安定供給を後押ししてきたと語られる。麦畑の広がる景観そのものが、この銘柄の背景を物語っているという。",
+   "body_en": "## What it's made of\nRaised on a feed heavy in barley, said to give the fat a light, nutty aroma and a flavor with no rough edge. Rather than leaning on a distinctive breed, the character here comes purely from the feed design, and many describe it as a clean, straightforward way to taste pork itself, the white fat staying light rather than heavy, with a clean, tidy look overall.\n## How it's made\nRaised on a formula feed high in barley and free of animal protein, under a Gunma-wide unified brand-pork framework. It gathers what were once several separate local names into one, with the barley-heavy feed itself serving as the shared quality standard rather than any particular bloodline. Before that unification, producers across the prefecture are said to have used separate names of their own.\n## Why it took this shape\nGunma has long been known for double-cropping barley and wheat, giving it ready access to both the grain and the know-how. Folding the prefecture's scattered local pork names into one under a shared barley-feed standard reads as turning that regional strength in grain farming into an institution, the same wheat rotation said to have helped keep barley feed supply steady.",
+   "sources": [
+    {
+     "title": "上州銘柄豚",
+     "url": "https://gunmanooniku.com/buta/mugi.html",
+     "publisher": "群馬県食肉品質向上対策協議会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "joshu-mugi-buta",
+     "to_slug": "hokkaido-whey-buta",
+     "relation_type": "対比",
+     "basis": "上州麦豚は大麦という穀物飼料で、北海道ホエイ豚はチーズ製造由来の乳清という畜産副産物で、それぞれ異なる資源を軸に据えた飼料設計を対比できる。"
+    }
+   ]
+  },
+  {
+   "slug": "hokkaido-whey-buta",
+   "body_ja": "## 何でできているか\nチーズ製造で出るホエー（乳清）を飼料に加えて育つ豚で、脂にほのかな乳の風味が乗るとされる。脂の口当たりは軽く、しゃぶしゃぶや焼き物でもさっぱりと食べられると語られる。乳製品由来の飼料らしい、くどさの少ない後味が特徴という。脂の色も白くきれいで、見た目の印象もよいとされる。焼くと香ばしさとほのかな乳の香りが同時に立つとも語られる。\n## どう作るのか\nチーズ工房から出るホエーを飼料に混ぜて育てる豚で、与える量や期間の基準を満たしたものだけが名乗れるとされる。2001年に十勝・中札内村のチーズ工房と養豚農家が連携して始めたと伝わる、食品副産物を生かす仕組みで、基準を明文化することで品質を一定に保っているという。取り組みが広がるにつれ、参加する農家や工房も少しずつ増えてきたと伝わる。\n## なぜこの形になったのか\n中札内村は十勝でも酪農とチーズづくりが盛んな土地で、製造過程で必ず出るホエーの使い道が課題だったとされる。捨てられがちな副産物を隣接する養豚に回すという発想は、酪農と養豚が同じ地域に共存してきたからこそ生まれたと語られる。十勝という酪農王国の中でも、副産物を無駄にしない発想が根づいてきた土地柄が表れているという。厳しい冬を越すための知恵の延長とも語られる。",
+   "body_en": "## What it's made of\nRaised on a feed mixed with whey left over from cheesemaking, said to leave a faint milky note in the fat. The fat is described as light on the palate, making the pork taste clean even sliced for shabu-shabu or seared whole, with a finish said to carry the mildness typical of dairy-based feed, and a clean white color noted as part of the look.\n## How it's made\nPigs fed whey from a local cheese workshop, with only those meeting set standards for the amount and duration allowed to carry the name. Said to have started in 2001 when a cheesemaker and hog farmers in Nakasatsunai, Tokachi, teamed up to put a food byproduct to use, with a written standard keeping quality consistent; the circle of participating farms and workshops is said to have grown gradually since.\n## Why it took this shape\nNakasatsunai is Tokachi dairy-and-cheese country, where the whey that cheesemaking always leaves behind is said to have been something of a standing question. Routing that byproduct — rather than discarding it — to hog farms next door is described as a solution that could only come from dairy and pig farming sharing the same small area, reflecting a habit of not wasting byproducts long rooted in this dairy heartland.",
+   "sources": [
+    {
+     "title": "北海道ホエイ豚協議会",
+     "url": "https://whey.htri.co.jp/",
+     "publisher": "北海道ホエイ豚協議会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "shinshu-olein-buta",
+   "body_ja": "## 何でできているか\nオレイン酸を多く含む脂質を持つ豚で、脂の融点が低くなめらかな口当たりになるとされる。冷めても脂が白く固まりにくく、しゃぶしゃぶや冷しゃぶにしても口当たりが重くならないと語られる。指でつまむと脂がすっと溶け出す感触があるとも紹介される。赤身とのバランスもよく、脂だけが浮くような重さを感じにくいとされる。赤身の色合いも鮮やかに保たれるとされる。\n## どう作るのか\n専用飼料でオレイン酸の含有率を高めて育てる豚で、1頭ごとに測定値を記した証明書が発行されるとされる。感覚的な評価に頼らず、脂肪酸の数値を基準に据えて品質を管理する考え方が特徴という。基準値を満たさなければ銘柄として出荷されない仕組みとも伝わる。この証明書の仕組みは、消費者が数値で選べる豚肉として紹介されることも多いという。\n## なぜこの形になったのか\n長野県は昼夜の寒暖差が大きい高原地帯を抱え、脂の質にこだわる畜産が育ちやすい土壌があったとされる。数値による証明という発想は、感覚的な「おいしさ」を科学的な根拠に置き換えようとした結果と語られ、産地としての信頼づくりの一手とも読める。高原野菜や果樹で数値による品質管理に慣れてきた土地柄が、豚肉にも応用されたとも読める。涼しい気候そのものが豚のストレスを減らしているという声もある。",
+   "body_en": "## What it's made of\nBred for a fat higher in oleic acid, said to lower the fat's melting point for a smoother mouthfeel. It is said to stay less prone to turning white and firm once cooled, so the fat stays light even served as chilled shabu-shabu, described as melting away at a touch, balanced enough with the lean meat that the fat rarely feels heavy on its own.\n## How it's made\nRaised on a dedicated feed formula to boost oleic-acid content, with each pig issued a certificate recording its own measured value. The approach favors a numeric fatty-acid standard over subjective tasting as the basis for quality, and pigs falling short of the threshold are said not to ship under the name; the certificate is often cited as letting shoppers choose pork by the numbers.\n## Why it took this shape\nNagano's highland terrain, with its wide swing between day and night temperatures, is said to have long suited livestock raising focused on fat quality. Backing that up with a measured certificate reads as an attempt to turn a subjective sense of \"good fat\" into something provable — and a way for the region to build trust in its own name, extending a habit of numeric quality control long used for its highland vegetables and fruit.",
+   "sources": [
+    {
+     "title": "信州オレイン豚とは",
+     "url": "https://www.nagachoku.co.jp/brand/oleicpig/",
+     "publisher": "長野県農協直販株式会社",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shinshu-olein-buta",
+     "to_slug": "ise-umashi-buta",
+     "relation_type": "対比",
+     "basis": "信州オレイン豚はオレイン酸の数値を証明書化する科学的アプローチ、伊勢うまし豚は柑橘や亜麻仁油による香り・風味設計のアプローチで、脂へのこだわり方の違いを対比できる。"
+    }
+   ]
+  },
+  {
+   "slug": "ise-umashi-buta",
+   "body_ja": "## 何でできているか\n柑橘の果皮や亜麻仁油を加えた飼料で育つ豚で、脂にほのかな柑橘の香りが感じられるとされる。脂はさらりとして後味が軽く、揚げ物にしても胃にもたれにくいと語られる。香りづけの飼料らしい、さっぱりとした余韻が持ち味という。脂の色も澄んでおり、見た目にも軽やかな印象を与えるとされる。冷めても脂の質感が損なわれにくいとも紹介される。\n## どう作るのか\n三重県内の生産者が2002年に一つにまとめた「みえ豚」の飼料をさらに改良し、2016年に生まれた統一ブランドとされる。特産の柑橘「新姫」の果皮や亜麻仁油を加えた飼料で育てられているという。既存の銘柄を土台に飼料だけを磨き直した経緯が特徴とされる。改良の過程では地元生産者の意見を反映しながら配合を見直したと伝わる。毎年のように配合の見直しが続けられているともいう。\n## なぜこの形になったのか\n三重は柑橘栽培が盛んな土地で、特産の「新姫」という香り高い品種を持つ。地域の柑橘を飼料に取り込むという発想は、農産物の副産物を無駄にしない土地の工夫の延長にあり、既存の「みえ豚」を土台にさらに磨いた経緯にも土地の連続性が表れている。柑橘と養豚という一見離れた産業を飼料でつなぐ発想に、地域資源を循環させる土地の工夫が表れているという。",
+   "body_en": "## What it's made of\nRaised on a feed mixed with citrus peel and flaxseed oil, said to leave a faint citrus note in the fat. The fat is described as light and clean-finishing, easy on the stomach even fried, with the fragrant feed said to leave a refreshing aftertaste, and a clear color noted as part of that lighter impression.\n## How it's made\nBorn in 2016 from a further refinement of the feed behind Mie's earlier unified brand, Mie Buta, raised on a formula said to include peel from the local citrus Niihime and flaxseed oil. The brand's defining move is said to be refining the feed alone on top of an existing name, with local producers' input said to have shaped the formula along the way.\n## Why it took this shape\nMie is citrus country, home to the fragrant local variety Niihime. Working that citrus into hog feed reads as an extension of a habit of not wasting farm byproducts, and building this newer brand on top of the earlier Mie Buta shows a certain continuity running through the region's pork, linking two seemingly separate industries — citrus and hog farming — through a shared feed.",
+   "sources": [
+    {
+     "title": "みえのお肉に注目！",
+     "url": "https://www.zennoh.or.jp/me/product/meat/",
+     "publisher": "JA全農みえ",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "kyoto-poku",
+   "body_ja": "## 何でできているか\nランドレースと大ヨークシャーの交雑にデュロックを掛けた三元豚で、脂に大麦由来の香ばしさが感じられるとされる。市場での格付けを経たものだけが名乗れるため、肉質のばらつきが少ないと語られる。赤身はきめが細かく、色合いも安定しているという。脂の色も白く澄み、見た目の清潔感も評価されると語られる。赤身との層もはっきりしており、見栄えのよさにもつながっているという。\n## どう作るのか\nランドレースと大ヨークシャーの交雑種にデュロックを掛けた三元豚で、大麦やパン粉を加えた飼料で60日以上肥育するとされる。京都市中央卸売市場での格付けを満たしたものだけが「京都ぽーく」を名乗れる仕組みという。飼料設計と流通段階の格付け、両方を条件とする点が特徴とされる。格付け基準は市場の担当者によって毎回厳密に確認されるとされる。\n## なぜこの形になったのか\n京都は古くから市場を中心に食材の目利きが発達してきた土地とされる。飼料の設計だけでなく、卸売市場という第三者の格付けを通過することを条件にした点に、目利きの文化を制度として品質保証に組み込んだ発想が読み取れる。京料理を支えてきた食材への厳しい目が、豚肉という新しい対象にも向けられた結果と読める。老舗の料理人が扱いやすい豚肉として評価しているとも伝わる。",
+   "body_en": "## What it's made of\nA Landrace × Large Yorkshire cross bred with Duroc, said to carry a nutty note from barley in its fat. Only pigs cleared through market grading may use the name, said to keep quality consistent across the brand, with fine-grained lean meat and steady color, and a clean white fat noted as part of the look.\n## How it's made\nA Landrace × Large Yorkshire sow crossed with a Duroc boar, fed barley and bread crumbs for 60-plus days. Only pigs graded at Kyoto's central wholesale market may carry the name Kyoto Poku, a brand defined by both a feed formula and a downstream grading step, with the grading standard said to be checked strictly by market staff each time.\n## Why it took this shape\nKyoto is said to be a city where a discerning eye for food has long been sharpened around its markets. Making passage through third-party grading at the wholesale market a condition — not just the feed formula — reads as building that market culture directly into the brand's quality guarantee, the same exacting eye once trained on Kyoto cuisine now turned toward pork.",
+   "sources": [
+    {
+     "title": "ブランド畜産物 京都ぽーく",
+     "url": "https://www.pref.kyoto.jp/chikusan/pork.html",
+     "publisher": "京都府",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kyoto-poku",
+     "to_slug": "hayama-kogen-buta",
+     "relation_type": "兄弟",
+     "basis": "京都ぽーくと麓山高原豚はいずれもランドレース・大ヨークシャー・デュロックの三元交配で、同じLWD構成を共有する。"
+    }
+   ]
+  },
+  {
+   "slug": "setouchi-rokkoku-buta",
+   "body_ja": "## 何でできているか\n六種の穀物を配合した飼料で育つ豚で、脂に甘みがありながら後味が軽いとされる。単一の穀物に偏らない配合が、香りにくどさを残さない味わいにつながっていると語られる。赤身と脂のバランスもよく、幅広い料理に使いやすいという。脂の色も白くきれいで、見た目の印象も評価されるという。赤身の色味も安定しており、盛り付けたときの見映えもよいとされる。\n## どう作るのか\nとうもろこし・マイロ・米・大麦・小麦・大豆の六種の穀物を配合した飼料で育てる、広島県の銘柄豚とされる。県のHACCP準拠農場で繁殖から出荷まで一貫して生産される点も特徴という。飼料の多様さと衛生管理の両輪で品質を支えているとされる。六種の穀物を組み合わせる配合は、地域の飼料事情に合わせて調整されてきたと伝わる。農場ごとの記録も細かく管理されているという。\n## なぜこの形になったのか\n瀬戸内という地名を冠しながらも、味の個性は特定の海産物や気候ではなく、六種の穀物を組み合わせた飼料設計そのものに置かれているとされる。一貫生産と衛生基準を土地の看板として掲げる発想は、農産物より管理体制で信頼を作る現代的な銘柄づくりの一例と読める。瀬戸内という広域の名を冠することで、単一の産地に頼らない供給体制を築こうとした狙いも読み取れる。",
+   "body_en": "## What it's made of\nRaised on a feed blending six grains, said to give sweet fat with a finish that stays light. Not leaning on any single grain is described as what keeps the aroma from turning heavy, with a lean-to-fat balance said to suit a wide range of dishes, and a clean white color often noted approvingly.\n## How it's made\nRaised on a feed blending six grains — corn, milo, rice, barley, wheat and soy — at HACCP-compliant farms in Hiroshima that handle the pigs from birth through finishing. Quality here is said to rest on both the feed's variety and consistent hygiene management together, with the six-grain mix said to have been tuned over time to local feed supply conditions.\n## Why it took this shape\nDespite carrying the name Setouchi, this pork's character is said to rest not on any particular seafood or coastal climate but on the six-grain feed formula itself. Making a point of consistent management and hygiene standards its calling card reads as a more modern way of building trust in a brand — through process rather than terroir, and naming it after the whole Setouchi region reads as a bid to avoid depending on any single production area.",
+   "sources": [
+    {
+     "title": "瀬戸内六穀豚",
+     "url": "https://www.hiroshima-ouen.com/250",
+     "publisher": "JA全農ひろしま",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "setouchi-rokkoku-buta",
+     "to_slug": "toukibi-buta",
+     "relation_type": "対比",
+     "basis": "瀬戸内六穀豚は六種の穀物を組み合わせる配合設計、とうきび豚は道産とうもろこし単軸の地域循環設計で、飼料の組み立て方が対照的。"
+    }
+   ]
+  },
+  {
+   "slug": "daisen-ruby",
+   "body_ja": "## 何でできているか\n赤い毛並みが特徴的な系統の雌に黒豚の雄を交配して生まれた豚で、脂の質と肉の柔らかさを両方受け継ぐとされる。オレイン酸を多く含む脂は口溶けがよく、赤身もやわらかいと語られる。両親それぞれの長所を一頭に集めたような味わいという。見た目の色合いも安定しており、部位ごとの差が出にくいとされる。脂の白さと赤身の赤みのコントラストが美しいとも語られる。\n## どう作るのか\n鳥取県中小家畜試験場が、オレイン酸を多く含む「大山赤ぶた」の雌に黒豚の雄を交配して作出した鳥取県オリジナル品種とされる。試験場での計画的な交配によって両親の長所を狙って組み合わせた育種という。系統として安定させるまでに時間をかけたと伝わる。命名には大山という地名と、赤い毛並みを思わせる「ルビー」の両方が込められていると伝わる。\n## なぜこの形になったのか\n大山山麓は放牧や畜産が根づいてきた土地とされ、地元の系統豚「大山赤ぶた」もそこで育まれてきた。地域固有の系統を土台に、黒豚という別系統を掛け合わせて新しい品種を作る発想は、産地の名を冠した独自品種づくりという一つの完成形と読める。既存の系統を掛け合わせるだけでなく、地名を冠して独自ブランドに仕立てた点に県の意欲が表れているという。",
+   "body_en": "## What it's made of\nBred from a red-coated sow line crossed with a black Berkshire boar, said to inherit both the sow's fat quality and the boar's tenderness. High in oleic acid, the fat is said to melt easily, and the lean meat stays soft — as if each parent's strong point were gathered into one pig, with its color said to stay consistent across cuts.\n## How it's made\nBred at Tottori Prefecture's livestock station by crossing a sow of the oleic-acid-rich Daisen Akabuta line with a Berkshire boar — a planned cross said to be designed to combine both parents' strengths, taking time at the station to stabilize into a reliable line. The name is said to fold in both the mountain, Daisen, and the ruby-red hint of the sow line's coat.\n## Why it took this shape\nThe foothills of Mt. Daisen are said to be pasture-and-livestock country, home to the local Daisen Akabuta line long raised there. Crossing that regional line with a separate black-pig lineage to build a wholly new breed reads as one complete form of a prefecture staking its own name on an original pig — not just crossing existing lines, but branding the result under a place name as a deliberate act of ambition.",
+   "sources": [
+    {
+     "title": "大山ルビー",
+     "url": "https://www.pref.tottori.lg.jp/178181.htm",
+     "publisher": "鳥取県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "daisen-ruby",
+     "to_slug": "kagoshima-kurobuta",
+     "relation_type": "兄弟",
+     "basis": "大山ルビーは大山赤ぶたの雌に黒豚（バークシャー種）の雄を交配して作出されたとされ、かごしま黒豚と同じバークシャー系統の血を引く（pref.tottori.lg.jp「大山ルビー」）。"
+    }
+   ]
+  },
+  {
+   "slug": "kirishima-kogen-junsui-kurobuta",
+   "body_ja": "## 何でできているか\n他品種を交えない純粋なバークシャー種で、かごしま黒豚のなかでも特にきめ細かな肉質とされる。脂は白く締まり、少量でも満足感のある濃い甘みを持つと語られる。赤身も締まりがあり、噛むほどにうまみが出るという。見た目の色艶もよく、脂の白さが際立つとされる。赤身も深みのある色合いを保つと語られる。熟成させるとさらに風味が増すとも紹介される。\n## どう作るのか\n農事組合法人の牧場が霧島高原の自然のなかで飼育する純粋バークシャー種の黒豚とされる。他品種と交配させず血統を保つことが、脂と肉のきめ細かさを維持する条件になっているという。放牧に近い環境で育てることも肉質に影響しているとされる。飼育頭数を絞り、目の届く範囲で管理する方針も品質維持につながっているという。日々の健康観察も細かく行われているとされる。\n## なぜこの形になったのか\n霧島高原は標高があり気候が涼しいため、豚の飼育にストレスの少ない環境とされる。同じ黒豚でも純血にこだわる姿勢は、鹿児島全体の黒豚ブランドのなかで「もっとも血統に忠実な一頭」という位置づけを作っていると読める。純血を守るという選択は、量より質を優先する牧場の姿勢そのものを表しているとも読める。その姿勢が価格の高さにも表れているとされる。",
+   "body_en": "## What it's made of\nA purebred Berkshire with no other breed crossed in, said to be especially fine-grained even among Kagoshima kurobuta. The fat stays firm and white, with a concentrated sweetness said to satisfy in small amounts, and the lean meat holds a firmness that releases more flavor the more it's chewed, its color and sheen said to stand out for the fat's whiteness.\n## How it's made\nPurebred Berkshire raised on the Kirishima highlands by an agricultural cooperative ranch. Keeping the bloodline free of any crossing is said to be the condition for maintaining that fine grain in both fat and meat, with a near-pasture raising environment also said to shape the texture, and a deliberately small herd kept within easy reach of close management.\n## Why it took this shape\nThe Kirishima highlands sit high enough to stay cool, said to make for a low-stress raising environment. Insisting on a pure Berkshire line even within the wider kurobuta category reads as staking out a place as the most bloodline-faithful pig in Kagoshima's black-pork lineup — a choice for purity that itself reads as a ranch prioritizing quality over volume.",
+   "sources": [
+    {
+     "title": "かごしま黒豚の特徴",
+     "url": "https://www.krp1.com/kurobuta.html",
+     "publisher": "霧島高原ロイヤルポーク",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "chami-buta",
+   "body_ja": "## 何でできているか\n緑茶粉末とさつまいもを加えた飼料で育つ豚で、脂に軽やかな香りがあり臭みが少ないとされる。時間が経っても肉の鮮度が保たれやすいと語られ、しゃぶしゃぶなど素材の香りが出やすい料理に向くという。脂の色も白く澄んで見えると紹介される。脂の色も澄んで見え、見た目の印象も軽やかとされる。他の鹿児島産黒豚と並べても香りの違いがわかりやすいと語られる。\n## どう作るのか\n緑茶粉末とさつまいもを加えた専用飼料で育てる豚で、鹿児島県を中心とした農場で飼育されるとされる。茶に含まれるカテキンとビタミンEの抗酸化作用が、肉の鮮度維持と臭み軽減につながるという考え方に基づく。飼料の配合には両方の食材の比率にも工夫があるという。飼料の配合は生産農場ごとに管理され、基準を満たすことが求められているという。出荷前には抜き取りでの確認も行われるとされる。\n## なぜこの形になったのか\n鹿児島は茶とさつまいもの両方の産地であり、この豚はその二つを飼料として組み合わせている点に土地の特徴が表れているとされる。同じ鹿児島の黒豚がさつまいもの甘みで語られるのに対し、茶美豚は抗酸化という機能面で個性を出そうとした銘柄と読める。特産品を飼料として組み合わせる発想は、鹿児島の他の畜産にも見られる共通の工夫と重なるとされる。",
+   "body_en": "## What it's made of\nRaised on feed mixed with green tea powder and sweet potato, said to give the fat a light aroma with less of the usual pork odor. The meat is said to hold its freshness well, suiting dishes like shabu-shabu where a clean aroma matters, with the fat described as staying clear white and the overall impression light.\n## How it's made\nPigs raised on feed mixed with green tea powder and sweet potato, centered on farms in Kagoshima. The antioxidant effect of catechin and vitamin E in the tea is said to help the meat stay fresh with less odor, with the ratio of the two ingredients said to be carefully tuned, and the feed mix managed and checked farm by farm against a shared standard.\n## Why it took this shape\nKagoshima grows both tea and sweet potato, and combining the two in a single feed formula is said to reflect that dual local strength. Where the prefecture's black pork is usually framed around the potato's sweetness, Chamiton reads as a brand built instead around a functional claim — freshness through antioxidants — an approach to using local specialties as feed echoed elsewhere in Kagoshima livestock farming.",
+   "sources": [
+    {
+     "title": "茶美豚",
+     "url": "https://www.karen-ja.or.jp/agri/chami-ton/",
+     "publisher": "JA鹿児島県経済連",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "rose-pork",
+   "body_ja": "## 何でできているか\n茨城県が育成した系統豚「ローズ」を交配に使う三元豚で、大麦を多く含む飼料により脂に軽い香ばしさがあるとされる。品質基準を満たしたものだけが名乗れるため、肉質が安定していると語られる。赤身の色合いも均一に仕上がるという。見た目の色合いも安定し、部位による差が出にくいと語られる。赤身にも適度なきめ細かさがあるとされる。脂の甘みも控えめで、日常の料理に合わせやすいという。\n## どう作るのか\n茨城県が独自に育成し1979年に日本初の系統豚として認定した「ローズ」を交配に使う三元豚とされる。大麦を多く含む飼料で育てられ、生産者団体が定めた品質基準を満たしたものだけが名乗れるという。系統豚という土台があることで品質の再現性が高いとされる。「ローズ」という系統名は、茨城県の育種の歴史を象徴する呼び名として今も使われているという。\n## なぜこの形になったのか\n「日本初の系統豚」という肩書きが示すとおり、この豚の個性は特定の気候や飼料よりも、茨城県が公的に取り組んだ育種の歴史そのものにあるとされる。行政が種豚づくりから関わってきたことが、後続の三元豚づくりの土台になったと読める。公的機関が種豚づくりから関わる姿勢は、後の全国各地の系統豚づくりにも影響を与えたと語られる。",
+   "body_en": "## What it's made of\nA three-way cross built on Rose, a line bred by Ibaraki Prefecture, its fat said to carry a light nuttiness from a barley-heavy feed. Only pigs meeting set quality standards may use the name, said to keep the meat consistent, with the lean meat's color said to come out even across the cut.\n## How it's made\nA three-way cross built on Rose, a line bred by Ibaraki Prefecture and certified in 1979 as Japan's first registered pig line. Raised on a barley-heavy feed, with only pigs meeting the producers' council's standards allowed to carry the name, a founding line said to make quality easier to reproduce; the name Rose itself is still used today as a symbol of that breeding history.\n## Why it took this shape\nAs the title \"Japan's first registered pig line\" suggests, this pork's character is said to rest less on any particular climate or feed than on the prefecture's own long history of official breeding work. The government's hand in building the founding stock is said to have laid the groundwork for the three-way crosses that followed, an approach said to have influenced registered-line breeding elsewhere in Japan afterward.",
+   "sources": [
+    {
+     "title": "ローズポーク",
+     "url": "https://www.zennoh.or.jp/ib/rosepork/",
+     "publisher": "茨城県銘柄豚振興会（JA全農いばらき）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "rose-pork",
+     "to_slug": "fuji-kinka",
+     "relation_type": "兄弟",
+     "basis": "ローズポークの「ローズ」（1979年茨城県認定）とフジキンカの「フジロック」（静岡県育成）は、いずれも都道府県が独自に育成した系統豚を土台に交配豚を作る同じ成り立ちを持つ。"
+    }
+   ]
+  },
+  {
+   "slug": "awa-biton",
+   "body_ja": "## 何でできているか\n米を中心とした飼料で育つ豚で、脂にくどさがなく上品な甘みがあるとされる。臭みが少なく、豚肉が苦手な人でも食べやすいと語られることが多い。赤身の色も明るく、見た目にもすっきりした印象という。脂の色も白く、見た目にも軽やかな印象を与えるとされ、米の甘みが脂にほのかに移るという声もある。赤身もやわらかく、噛み切りやすいと語られる。\n## どう作るのか\n標高400メートルの徳島県阿波市の山中で、米を中心とした飼料を与えて育てる豚とされる。飼育担当者が日々飼料の配合を調整し、遺伝子組み換え作物を避けながらストレスの少ない環境を心がけているという。少数の農場できめ細かく管理されている点も特徴とされる。山中という立地のため出荷や流通には手間がかかるが、それが少量生産のこだわりにもつながっているという。\n## なぜこの形になったのか\n阿波市は稲作が盛んな土地で、米を飼料に使う発想はその土地の主産物をそのまま活かしたものと読める。標高400メートルの山中という涼しい環境を選んだことも、豚にとってストレスの少ない飼育を目指す姿勢の表れとされる。認証制度に登録することで、生産者ごとの品質のばらつきを抑える狙いもあるとされる。地域全体で品質を守ろうとする姿勢が表れているという。",
+   "body_en": "## What it's made of\nRaised on a feed centered on rice, said to give the fat an understated sweetness with no heaviness. Its odor is said to be mild, often described as easy to eat even for those who find pork's smell off-putting, with a bright, clean-looking lean meat and the rice said to lend the fat a faint sweetness of its own.\n## How it's made\nRaised in the mountains of Awa City, Tokushima, at about 400 meters, on a feed centered on rice. Handlers are said to adjust the feed mix daily, avoiding genetically modified crops and aiming to keep the pigs' stress low, with a small number of farms managing the pigs closely; the mountain location makes shipping more work, but is said to reinforce the brand's small-batch care.\n## Why it took this shape\nAwa City is rice country, and building the feed around rice reads as putting the region's main crop directly to use. Choosing a cool mountain site at 400 meters is also said to reflect a deliberate effort to keep the pigs' raising environment low-stress, and registering under the certification system is said to be aimed at keeping quality consistent across individual producers too.",
+   "sources": [
+    {
+     "title": "阿波美豚",
+     "url": "https://awaagri.jp/ninsyouhin/item.cgi?Id=26",
+     "publisher": "阿波市特産品認証制度",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "awa-biton",
+     "to_slug": "joshu-mugi-buta",
+     "relation_type": "対比",
+     "basis": "阿波美豚は米を中心とした飼料、上州麦豚は大麦を中心とした飼料で、いずれも単一の主産物を軸に据える点は共通しつつ、選んだ穀物が異なる対比。"
+    }
+   ]
+  },
+  {
+   "slug": "olive-yumebuta",
+   "body_ja": "## 何でできているか\nバークシャー種をもとにした讃岐夢豚に、小豆島のオリーブ由来の葉やしぼりかすを加えた飼料で育つ豚で、脂にほのかな果実の甘みが加わるとされる。脂の口当たりも軽く、後味にわずかな香りが残ると語られる。赤身は締まりがありながら硬すぎないという。脂の色も白く澄んでおり、見た目の印象もよいと語られる。オリーブらしい爽やかな香りが鼻に抜けるとも紹介される。\n## どう作るのか\n1994年に英国から導入したバークシャー種をもとにした讃岐夢豚に、小豆島のオリーブ加工で出る葉やしぼりかすを加えた飼料を与えて育てる豚とされる。果実由来の甘みが脂に加わるという考え方に基づく。加える量や配合には試行錯誤があったと伝わる。香川県内の複数の農場が基準を共有しながら生産にあたっているとされる。生産者同士の情報交換も盛んに行われているという。\n## なぜこの形になったのか\n小豆島はオリーブ栽培の産地として知られ、搾油の過程で出る葉やしぼりかすの活用先が課題だったとされる。海を挟んだ養豚と、島のオリーブ産業を飼料でつなぐ発想は、香川県が地域資源を無駄にしない仕組みとして育ててきた銘柄と読める。オリーブという特産品を軸に据えることで、他県の銘柄豚と一線を画す個性を打ち出そうとしたとも読める。",
+   "body_en": "## What it's made of\nRaised on Sanuki Yumebuta — a Berkshire-based line — fed a formula mixed with leaves and pressed residue from Shodoshima's olive processing, said to add a faint fruity sweetness to the fat, along with a lighter mouthfeel and a trace of aroma in the finish. The lean meat is said to stay firm without turning tough, and the fat's clear color is noted as part of the appeal.\n## How it's made\nBuilt on Sanuki Yumebuta, itself based on Berkshire stock brought from England in 1994, given a feed mixed with leaves and pressed residue left over from Shodoshima's olive processing — a fruit-derived sweetness said to carry into the fat, arrived at through trial and error on the ratio. Several farms across Kagawa are said to share the same standard in raising it.\n## Why it took this shape\nShodoshima is known for olive growing, and finding a use for the leaves and press residue left over from pressing oil is said to have been a standing question. Linking hog farming across the strait to the island's olive industry through feed reads as Kagawa turning a local resource that might otherwise go to waste into a brand, staking out a character distinct from other prefectures' named porks by centering it on olives.",
+   "sources": [
+    {
+     "title": "オリーブ畜産物",
+     "url": "https://www.pref.kagawa.lg.jp/chikusan/olive/gaiyou/gaiyou.html",
+     "publisher": "香川県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "tajima-pork",
+   "body_ja": "## 何でできているか\n但馬地域で育つ豚肉で、突出した個性よりも安定した品質そのものが持ち味とされる。締まった赤身と適度な脂のバランスがよく、幅広い料理に扱いやすいと語られる。特定の飼料や交配を強く打ち出さない、穏やかな味わいという評価もある。脂の色も白くきれいで、見た目の印象も安定しているとされる。特別な香りづけはないが、素直な豚肉のうまみが感じられるという。\n## どう作るのか\n兵庫県北部の但馬地域で生産される豚肉で、繁殖から出荷までの記録管理などの基準を満たしたものとして、兵庫県認証食品に位置づけられているとされる。特定の交配や飼料よりも、管理記録の徹底が品質の裏付けになっているという。認証の更新には継続的な基準維持が求められるとされる。認証取得後も定期的な確認が行われ、基準を維持し続ける仕組みになっているという。\n## なぜこの形になったのか\n但馬といえば但馬牛の産地として知られる土地だが、この豚肉は同じ地名を冠しながら、牛とは別の道で「安全・安心」という価値を掲げているとされる。県認証食品という公的な枠組みを選んだ点に、地名のブランド力よりも制度的な信頼を重視した設計が読み取れる。全国的な知名度より地元での信頼を積み重ねる方向を選んだ銘柄とも言えるとされる。",
+   "body_en": "## What it's made of\nPork raised in the Tajima region, its strength said to lie less in a striking individual trait than in steady, dependable quality. A good balance of firm lean meat and moderate fat is said to make it easy to use across many dishes, with a mild flavor that doesn't lean hard on any one feed or cross, and a clean, consistent white fat.\n## How it's made\nRaised in the Tajima region of northern Hyogo, positioned as one of the prefecture's certified foods after meeting standards that include record-keeping from breeding through shipping. Quality here is said to rest on management records rather than a distinctive cross or feed, with the certification said to require keeping those standards up over time through regular follow-up checks.\n## Why it took this shape\nTajima is better known as the home of Tajima beef, but this pork, carrying the same place name, is said to stake its own claim to safety and reliability along a separate path from the cattle. Choosing a prefectural certification framework over a striking place-name story reads as a design that trusts an institution over a brand name alone — building local trust over time rather than chasing national name recognition.",
+   "sources": [
+    {
+     "title": "兵庫県認証食品について",
+     "url": "https://hyogo-umashi.com/about/index.html",
+     "publisher": "ひょうごの美味し風土拡大協議会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "hayama-kogen-buta",
+   "body_ja": "## 何でできているか\nランドレース・大ヨークシャー・デュロックの三元交配で育つ豚で、専用飼料により豚肉特有のくせが抑えられているとされる。赤身と脂のバランスがよく、煮ても焼いても扱いやすいと語られる。脂はしつこくなく、家庭料理にも向くという。脂の色も白く、見た目の印象も整っているとされる。赤身との層もきれいに分かれ、扱いやすいと語られる。冷凍しても風味が落ちにくいとも紹介される。\n## どう作るのか\n川俣町と二本松市にまたがる麓山山麓に旧経済連が種豚場を設けたことに始まるとされる豚肉。専用飼料でくせを抑えつつ、ランドレース・大ヨークシャー・デュロックの三元交配で育てられているという。種豚場から続く育種の蓄積が味の安定につながっているとされる。現在も複数の農家が同じ基準のもとで飼育を続けているという。種豚場が残した記録は今も参考にされているとされる。\n## なぜこの形になったのか\n麓山山麓という一つの山を挟んで二つの町にまたがる立地が、この豚の生まれをそのまま表しているとされる。行政の後押しで種豚場が設けられた経緯には、特定の農家ではなく地域全体で銘柄豚を育てようとした福島県の姿勢が表れていると読める。経済連という組織が種豚場の運営に関わってきたこと自体が、産地としての一体感を支えているとも読める。",
+   "body_en": "## What it's made of\nA Landrace-Yorkshire-Duroc cross, raised on a dedicated feed said to keep the usual pork odor in check. A good balance of lean meat and fat is said to make it easy to handle whether simmered or grilled, with fat mild enough to suit everyday home cooking, and a white color that reads as tidy and consistent.\n## How it's made\nTraces to a breeding farm the prefecture's former economic federation built at the foot of Mt. Hayama, straddling Kawamata and Nihonmatsu. A Landrace-Yorkshire-Duroc cross, fed to keep the pork odor down, with decades of accumulated breeding said to underpin its consistency, and several farms still raising it under the same shared standard today.\n## Why it took this shape\nStraddling two towns across a single mountain foothill is said to sum up this pork's origin story in itself. That a breeding farm was set up there with institutional backing reads as Fukushima's own approach — building a brand pork around a whole region rather than any single farm, the economic federation's long involvement itself said to hold that regional identity together.",
+   "sources": [
+    {
+     "title": "麓山高原豚",
+     "url": "https://www.zennoh.or.jp/fs/product/meat/pork.html",
+     "publisher": "JA全農福島",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "toukibi-buta",
+   "body_ja": "## 何でできているか\n北海道産のとうもろこしを主体とした飼料で育つ豚で、脂にくどさがなく軽い後味とされる。輸入穀物への依存が少ない飼料設計が、味の面でも安定感につながっていると語られる。赤身の風味も穏やかで、素材の味を邪魔しないという。脂の色も白く、輸入飼料由来の独特のにおいが出にくいと語られる。赤身の色も鮮やかで、産地の新鮮さが表れているという。\n## どう作るのか\n道内自給率98%の飼料で育てる豚で、南空知の転作水田で栽培した子実用とうもろこしを主原料とするとされる。実は飼料に、収穫後の茎や葉はすき込んで緑肥として土づくりに使われる仕組みで、地域内で循環しているという。SPF認定農場での飼育も基準の一つとされる。南空知だけでなく周辺のJAにも取り組みが広がってきたとされる。\n## なぜこの形になったのか\n南空知では2008年ごろから、秋まき小麦や大豆の連作障害を避けるための転作作物として子実用とうもろこしの栽培が広がったと伝わる。とうもろこしは根が深く水はけの改善にもつながるとされ、田を守るための転作が飼料として豚に還元される仕組みが、この土地ならではの循環を作っているといえる。転作が広がった背景には、同じ作物を作り続けることで畑が弱る連作障害という切実な課題があったと伝わる。",
+   "body_en": "## What it's made of\nRaised on a feed centered on Hokkaido-grown corn, said to give the fat a light finish with none of the usual heaviness. Relying little on imported grain is said to carry through into a steadier flavor as well, with a lean meat mild enough to let the ingredient itself come through, and a whiteness said to carry none of the odor sometimes tied to imported feed.\n## How it's made\nRaised on feed that is 98% Hokkaido-grown, centered on feed corn grown as a rotation crop in South Sorachi's rice paddies. The kernels go into the feed, while the stalks and leaves left after harvest are said to be tilled back into the soil as green manure, closing the loop within the region, with raising at SPF-certified farms said to be part of the standard, and the practice said to have spread to neighboring JA co-ops beyond South Sorachi.\n## Why it took this shape\nAround South Sorachi, feed-corn cultivation is said to have spread from around 2008 as a rotation crop meant to break the continuous-cropping strain of autumn wheat and soybeans. Corn's deep roots are also said to improve drainage, so a rotation planted to protect the paddies ends up feeding pigs — a closed loop distinctive to this land, born from the pressing problem of fields worn down by growing the same crop year after year.",
+   "sources": [
+    {
+     "title": "飼料から道産にこだわる新しい価値",
+     "url": "https://agriport.jp/dairy-livestock/ap-10793/",
+     "publisher": "ホクレン農業協同組合連合会（アグリポート）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "fuji-kinka",
+   "body_ja": "## 何でできているか\n中国原産の金華豚とデュロック系の系統豚を交配した豚で、金華豚譲りのやわらかな肉質と、細かな霜降りを併せ持つとされる。脂は上品な甘みがあり、少量でも満足感があると語られる。赤身にもきめ細かさが表れているという。見た目の色合いも独特で、他の三元豚とは違う個性が表れているという。希少種らしい深みのある赤身の色も特徴とされる。\n## どう作るのか\n静岡県が育成した系統豚「フジロック」に、中国浙江省原産の希少品種・金華豚を掛け合わせて作出した豚とされる。金華豚のやわらかな肉質とフジロック譲りの霜降りを併せ持つよう狙った交配という。希少な海外品種を扱う分、飼育頭数も限られているとされる。交配や飼育の記録は静岡県が管理し、系統の維持に努めているとされる。血統の管理には特に注意が払われているという。\n## なぜこの形になったのか\n静岡県だけの豚という位置づけは、海外の希少品種をあえて掛け合わせるという珍しい選択から生まれているとされる。県が独自に持つ系統豚を土台にしながら、外の血を取り入れて個性を作る発想は、他の多くの銘柄豚が国内三品種の組み合わせにとどまるなかで異色といえる。一県だけで完結する希少な銘柄であることが、逆に県外への発信力にもつながっているという見方もある。",
+   "body_en": "## What it's made of\nA cross of the Chinese Jinhua breed with a Duroc-based prefectural line, said to combine Jinhua's tenderness with a fine marbling. The fat carries an understated sweetness, said to satisfy even in small portions, with that fine grain showing through in the lean meat as well, giving it a look distinct from other three-way crosses.\n## How it's made\nBred by Shizuoka Prefecture by crossing its own Duroc line, Fujirock, with Jinhua, a rare breed from China's Zhejiang province — a cross said to be aimed at combining Jinhua's tenderness with Fujirock's marbling. Working with a rare overseas breed is said to keep the numbers raised limited, with breeding and raising records managed by the prefecture to maintain the line.\n## Why it took this shape\nBeing found only in Shizuoka is said to trace back to the unusual choice of deliberately crossing in a rare overseas breed. Building on the prefecture's own line while bringing in outside blood to shape its character stands out among most brand porks, which stick to combinations of the three familiar domestic breeds — and being a rarity confined to one prefecture is said, if anything, to sharpen its appeal beyond it.",
+   "sources": [
+    {
+     "title": "静岡オンリーワン品種「フジキンカ」",
+     "url": "https://www.pref.shizuoka.jp/sangyoshigoto/norinjimusho/1052177/1082876/1044320.html",
+     "publisher": "静岡県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "noto-buta",
+   "body_ja": "## 何でできているか\n石川県内で育つ豚肉で、金沢食肉流通センターでの処理・格付けを経て初めて名乗れるとされる。突出した個性よりも、格付けという第三者基準を通った安定感が持ち味と語られる。赤身と脂の質にも一定の基準があるという。見た目の色合いも均一に近く、格付けの効果が表れているとされる。赤身と脂の境目もはっきりしていると語られる。見た目の均一さが消費者の信頼にもつながっているという。\n## どう作るのか\n石川県内で肥育され、金沢食肉流通センターで処理・格付けされた豚肉とされる。2014年に養豚農家や食肉団体が推進協議会を設立し、統一名称としての普及を進めているという。それまで個々に流通していた豚肉を一つの旗のもとにまとめる試みとされる。協議会の設立以降、参加する農家の数も徐々に増えてきたという。地元での消費拡大にも力を入れているとされる。\n## なぜこの形になったのか\n能登豚という名前は特定の血統や飼料ではなく、金沢食肉流通センターという流通の出口を基準に据えている点に特徴があるとされる。2014年という比較的新しい設立時期は、県内で個々に流通していた豚肉を一つの名前でまとめようとした動きと重なる。能登という地名を冠しつつ、実際の基準は流通の出口に置くという柔軟な設計とも読める。",
+   "body_en": "## What it's made of\nPork raised within Ishikawa, said to be allowed to use the name only after processing and grading at Kanazawa's meat distribution center. Its strength is described less as a striking trait than as the steadiness that comes from clearing a third-party grading standard, with set thresholds for both lean meat and fat quality, and a color said to come out fairly even as a result.\n## How it's made\nPork raised in Ishikawa and processed and graded at Kanazawa's meat distribution center. A promotion council of hog farmers and meat-trade groups formed in 2014 to spread the name as a unified brand, gathering pork that had previously moved through separate, individual channels; the number of participating farms is said to have grown gradually since.\n## Why it took this shape\nThe name Noto Buta is said to be distinctive for anchoring itself not to a bloodline or feed but to a point in the distribution chain — grading at Kanazawa's meat center. Its relatively recent 2014 founding lines up with an effort to gather pork that had circulated under separate names into one shared brand, a flexible design that keeps the Noto place name while anchoring its real standard downstream.",
+   "sources": [
+    {
+     "title": "能登豚について",
+     "url": "https://www.pref.ishikawa.lg.jp/tikusan/buta/about.html",
+     "publisher": "石川県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "aiton",
+   "body_ja": "## 何でできているか\n特定の一頭というより、県内の豚肉の土台となる種豚そのものを指す言葉とされる。この系統をもとに作られる豚肉には、地域ごとに違う個性が出るとされ、愛とん自体は素材としての安定感を担うという。脂の質より血統の管理そのものが持ち味とも言える。そのため愛とん単体としての味の個性よりも、そこから生まれる各銘柄の違いこそが特徴とされる。\n## どう作るのか\n愛知県が独自に改良した3系統の種豚をもとにした豚で、これを素材にみかわポークなど複数の地域銘柄豚が作られているとされる。1つの銘柄というより、県産豚肉全体を支える土台の役割を担っているという。改良には長い年月をかけたと伝わる。改良の過程では複数の系統を掛け合わせ、目的に応じて使い分けられているという。改良の成果は複数の地域銘柄に受け継がれているという。\n## なぜこの形になったのか\n愛知県が種豚の改良にみずから取り組み、それを複数の地域銘柄が共有する仕組みは、県が旗振り役となって地域ブランドを支える発想の表れとされる。特定の土地の物語を持つ銘柄が多いなかで、愛とんは「土台」という違う役割を引き受けている点に個性があると読める。土台としての役割に徹する設計は、県全体で品質を底上げしようとする発想の表れとも言える。",
+   "body_en": "## What it's made of\nLess a single named pork than the foundation breeding stock behind much of the prefecture's pork, said to let individual regional brands built on it each develop their own character while Aiton itself supplies the underlying consistency — its distinction resting more in bloodline management than in any one fat profile, so the real character shows up in the brands it produces rather than in Aiton itself.\n## How it's made\nA breeding line improved by Aichi Prefecture from three strains of stock pig. Several of the prefecture's local brand porks, including Mikawa Pork, are said to be built on this base rather than standing as one branded product itself, the work of improving it said to have taken years, crossing multiple strains and drawing on each as needed.\n## Why it took this shape\nAichi Prefecture taking on the work of improving its own breeding stock, then sharing it across several regional brands, reads as the prefecture acting as the standard-bearer behind its local pork brands. Where most named porks carry their own story of a specific place, Aiton's distinct role is instead to serve as everyone else's foundation — a design committed to that supporting role as a way of lifting quality prefecture-wide.",
+   "sources": [
+    {
+     "title": "愛とん（愛知県の系統豚）",
+     "url": "https://www.pref.aichi.jp/soshiki/chikusan/0000048567.html",
+     "publisher": "愛知県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aiton",
+     "to_slug": "tajima-pork",
+     "relation_type": "対比",
+     "basis": "愛とんは愛知県独自の系統豚づくりという遺伝子面の設計でブランドの土台を作るのに対し、但馬ポークは兵庫県認証食品という記録管理・認証面の設計で品質を担保しており、銘柄豚の作り方の異なる二つの型を対比できる。"
+    }
+   ]
+  }
+ ]
+}

@@ -1,0 +1,697 @@
+{
+ "items": [
+  {
+   "slug": "tokachi-wagyu",
+   "body_ja": "## 何でできているか\n北海道で生まれ、畑作地帯として知られる十勝平野でじっくりと肥育される黒毛和種。脂は重すぎずまろやかで、赤身にはしっかりとした旨みが乗るとされる。霜降りの量そのものより、脂と赤身の釣り合いのよさで語られることが多い銘柄で、地域団体商標にも登録されている。脂の色は黄みを帯びず白く澄んでいるとされ、赤身に近い部位ほど肉そのものの香りが強く感じられるという声もある牛肉という。\n## どう作るのか\n十勝は小麦や豆類、てん菜、じゃがいもなどが輪作される日本有数の畑作地帯で、その生産過程で出る規格外品や副産物が飼料資源として牛に回されているという。広い平野を生かして肥育期間を長めにとる農家が多く、十勝産の飼料資源を積極的に取り入れる点が特色とされる。出荷までの期間は他産地よりゆとりを持たせる生産者が多いとされ、寒冷な気候の中で牛の代謝がゆるやかに進む分、脂の熟成にも時間をかけているという。\n## なぜこの形になったのか\n一説によると、稲作より畑作に向いた冷涼な気候と広大な平野が、十勝を全国屈指の畑作地帯に育ててきたとされる。その畑作の副産物を牛の餌に回すという発想が、十勝和牛の脂の質を裏で支えてきたと読める。米どころの稲わら飼料とは異なる、畑作地帯ならではの成り立ちといえる。全国的には稲作地帯の稲わら飼料が和牛の定番とされる中、畑作由来の副産物を軸に据える十勝和牛は、産地の農業構造がそのまま銘柄の個性として表れた例といえる。",
+   "body_en": "## What it's made of\nJapanese Black born in Hokkaido and finished slowly on the Tokachi plain, known as a farming district. Its fat is said to stay mellow rather than heavy, with pronounced umami in the lean meat — valued less for marbling volume than for the balance between fat and lean, and registered as a regional collective trademark. The fat is said to stay pale rather than yellowish, with the aroma growing stronger closer to the lean, according to some accounts.\n## How it's made\nTokachi is one of Japan's leading arable-farming districts, rotating wheat, beans, sugar beet, and potatoes, and the off-grade produce and byproducts from that farming are said to be fed back to cattle. Producers make use of the open plain to extend the fattening period, drawing on Tokachi's own feed resources rather than importing them. Producers often extend the fattening period beyond other regions, letting the cattle's metabolism proceed slowly in the cool climate so the fat, too, has time to mature.\n## Why it took this shape\nA cool climate suited to field crops rather than rice, paired with a wide plain, is said to have made Tokachi one of Japan's leading arable districts — and feeding cattle on that farming's byproducts is said to underpin the quality of Tokachi Wagyu's fat. It is a different foundation from the rice-straw feeding common in rice-growing brands. Where rice straw is the nationwide standard feed for wagyu, Tokachi Wagyu's reliance on arable byproducts instead is an example of a region's farming structure showing directly in the brand's character.",
+   "sources": [
+    {
+     "title": "十勝和牛とは",
+     "url": "http://www.tokachiwagyu.com/about.php",
+     "publisher": "十勝和牛プロジェクト",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tokachi-wagyu",
+     "to_slug": "shiraoi-gyu",
+     "relation_type": "兄弟",
+     "basis": "ともに北海道内で育つ黒毛和種の銘柄で、十勝和牛は畑作地帯の副産物を飼料に取り入れるのに対し、白老牛はビール醸造の副産物やおからを与えるなど、道内でも飼料の組み立て方が対照的な点で並べられる。"
+    }
+   ]
+  },
+  {
+   "slug": "shiraoi-gyu",
+   "body_ja": "## 何でできているか\n太平洋に面した白老町で昭和29年頃から飼育が続く黒毛和種。小麦やおから、ビール醸造の副産物を加えた飼料で育てられ、きめ細かな霜降りと深いコクを持つとされる。海に近い土地で育ちながら、脂の質を左右するのは海そのものより給餌の組み立て方だという銘柄。副産物飼料を配合することで脂の甘みに独特の厚みが出るとされ、赤身にもコクが乗るため、脂だけでなく肉全体で満足感を感じやすい牛肉とされる。\n## どう作るのか\n小麦やおから、ビール粕といった副産物を配合した独自飼料を長年にわたり与え続けているとされる。繁殖から肥育まで一貫して行う体制が地域に根づいており、現在は数千頭規模まで拡大したという。一頭ごとの成育を見ながら配合を調整する、地道な積み重ねの肥育とされる。配合の割合は牛の成育段階に応じて細かく調整されるとされ、繁殖から肥育まで地域で完結させる体制が、味のばらつきを抑える助けになっているという。\n## なぜこの形になったのか\n一説によると、太平洋沿岸という土地柄だけでなく、周辺で得やすい小麦やおから、ビール醸造の副産物といった副産物飼料を早くから取り入れたことが、白老牛のコクを生む土台になったとされる。昭和29年頃という早い時期からの飼育の積み重ねが、地域に根づいた技術として今に続いている。太平洋に面した港町であることも、ビール工場やパン・製粉工場から出る副産物を安定して手に入れやすい環境を用意してきたと考えられる。",
+   "body_en": "## What it's made of\nJapanese Black raised in Shiraoi, facing the Pacific, where breeding has continued since around 1954. Fed a mix that includes wheat, okara, and brewer's byproducts, it is said to develop fine marbling and a deep richness — a brand where what shapes the fat is less the sea itself than the feeding regimen built around it. The byproduct feed is said to add a distinct depth to the fat's sweetness, carrying richness into the lean as well, so the beef satisfies as a whole rather than through fat alone.\n## How it's made\nProducers have long fed a distinctive blend built around wheat, okara, and brewer's lees, with breeding and fattening handled together within the district, now grown to a scale of several thousand head. The feed mix is said to be adjusted animal by animal, the product of decades of incremental refinement. The feed ratio is said to be adjusted finely by growth stage, and handling breeding through fattening within one district is said to help keep the flavor consistent.\n## Why it took this shape\nBeyond its Pacific-facing setting, an early adoption of byproduct feeds — wheat, okara, brewer's residue — readily available nearby is said to have built the foundation of Shiraoi Gyu's richness. Feeding practices accumulated since around 1954 have become a technique rooted in the district and carried forward today. Facing the Pacific has also likely made it easier to secure a steady supply of byproducts from nearby brewing and milling operations.",
+   "sources": [
+    {
+     "title": "白老牛銘柄推進協議会",
+     "url": "https://shiraoi-beef.jp/",
+     "publisher": "白老牛銘柄推進協議会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shiraoi-gyu",
+     "to_slug": "biratori-wagyu",
+     "relation_type": "兄弟",
+     "basis": "ともに道内、日高・胆振の隣接地域で育つ黒毛和種で、白老は昭和29年頃からの飼育の歴史、びらとりは昭和37年に島根から導入した繁殖牛という、異なる起点を持つ道内銘柄同士として並べられる。"
+    }
+   ]
+  },
+  {
+   "slug": "biratori-wagyu",
+   "body_ja": "## 何でできているか\n日高地方・平取町で育つ黒毛和種。昭和37年に島根県から導入された繁殖牛を礎とする血統で、冬の厳しい寒さの中でじっくりと肥育される。味の濃さに定評があるとされ、道内でも広く親しまれる銘柄になったという。赤身の色は濃く、噛むとじわりと肉の旨みがにじみ出るとされ、脂よりも赤身そのものの味わいで記憶に残るという声が多い牛肉という。\n## どう作るのか\n島根から導入した繁殖牛の系統を軸に、平取町の生産者が繁殖から肥育まで手をかけて育てる。日高山脈からの寒風が吹き下ろす冬の厳しい環境の中、牛はじっくりと時間をかけて肥育され、体に脂を蓄えていくとされる。厳寒期の飼養管理そのものが、肉質を左右する要になっているという。日高山脈からの寒風が吹き下ろす冬の間、牛舎で暖をとらせながらも運動量を保つ工夫がされているとされ、寒さに耐える体づくりそのものが肥育の要になっているという。\n## なぜこの形になったのか\n一説によると、日高地方の冬の厳しい寒さが、牛の体に脂肪をゆっくりと行き渡らせ、味の濃さにつながってきたとされる。遠く島根から繁殖牛を導入したことも、この土地の気候に合う血統を新たに根づかせる試みだったと読める。厳しい寒さを逆手に取った肥育が、びらとり和牛の濃い味わいの土台になっている。島根から来た血統が北海道の気候に合うよう時間をかけて根づかされてきたことも、この土地ならではの試行錯誤の積み重ねだったと読める。",
+   "body_en": "## What it's made of\nJapanese Black raised in Biratori, Hidaka, on a bloodline founded on breeding cattle brought from Shimane Prefecture in 1962. It is finished slowly through the region's harsh winters and is said to have a notably deep flavor, making it a brand widely loved across Hokkaido. The lean is deep in color and said to release its umami slowly as it's chewed, with many describing the lean itself, more than the fat, as what stays with them.\n## How it's made\nProducers in Biratori handle breeding through fattening around the Shimane-derived bloodline, taking their time through winters made harsh by cold winds off the Hidaka mountains, during which the cattle are said to build fat slowly. Winter husbandry itself is said to be the key factor shaping the meat's character. Through winters made harsh by cold winds off the Hidaka mountains, cattle are kept warm in the barn while producers still work to maintain exercise — building a body that can withstand the cold is itself central to the fattening.\n## Why it took this shape\nHidaka's harsh winter cold is said to let fat spread slowly through the animal's body, deepening its flavor. Bringing breeding cattle from distant Shimane can also be read as an attempt to root a bloodline suited to this climate. Turning the region's cold to advantage is the foundation of Biratori Wagyu's rich taste. That the Shimane bloodline took time to settle into Hokkaido's climate is also read as the product of ongoing trial and error unique to this land.",
+   "sources": [
+    {
+     "title": "びらとり和牛｜びらとり農業協同組合",
+     "url": "https://nishipa.or.jp/agri03/",
+     "publisher": "びらとり農業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "biratori-wagyu",
+     "to_slug": "tokachi-wagyu",
+     "relation_type": "兄弟",
+     "basis": "同じ北海道の銘柄で、びらとりは島根由来の繁殖牛と冬の厳寒による濃い味わい、十勝は畑作地帯での長期肥育とまろやかな脂という、道内でも成り立ちの異なる牛肉として並べられる。"
+    }
+   ]
+  },
+  {
+   "slug": "iwate-tankaku-wagyu",
+   "body_ja": "## 何でできているか\n霜降りの黒毛和種とは異なる品種、日本短角種。放牧で育つため筋肉質で脂肪が少なく、赤身そのものにアミノ酸由来の旨みが濃く出るとされる。とろけるような脂ではなく、噛むほどに肉の味が立ち上がってくる、赤身らしさを前面に出した牛肉という。脂肪が少ないため加熱してもくどくなりにくく、赤身の繊維がしっかり感じられる分、噛むごとに肉の甘みと香りが強まっていくとされる。\n## どう作るのか\n岩手の山あいで春から秋にかけて放牧され、山の草を食んで育つ。冬季は牛舎に移して仕上げるとされ、放牧と舎飼いを一年の中で使い分ける飼い方が特徴という。寒暖差のある環境の中で赤身にアミノ酸などの旨み成分を蓄えていくとされ、脂肪の少ない体質はこの放牧中心の飼い方に由来するという。放牧地では親子で群れをなして草を食む姿が見られるとされ、母牛のそばで育つ期間が長いことも、ストレスの少ない赤身の質につながっているという。\n## なぜこの形になったのか\n一説によると、山あいの広い放牧地を生かせる岩手の地形が、穀物中心の舎飼いではなく牧草を食べて育つ日本短角種の飼育に向いていたとされる。全国の飼育頭数の約4割を岩手県が占めるとされ、寒暖差の中で草を食んで育つ環境そのものが、赤身の旨みを育ててきたと読める。広い放牧地を必要とする飼い方は、平地の少ない地形が逆に山あいの草地を生かす発想を後押ししてきた結果とも考えられている。",
+   "body_en": "## What it's made of\nA breed distinct from marbled Japanese Black: Nihon Tankaku, or Japanese Shorthorn. Raised on pasture, it develops lean, muscular meat rather than heavy marbling, said to carry pronounced amino-acid umami in the lean itself — meat whose character builds with each bite rather than melting away. Because the fat is so light, the meat does not turn heavy when cooked, and the firm texture of the lean lets its sweetness and aroma build with each bite.\n## How it's made\nPastured across Iwate's hills from spring through autumn on mountain grass, then moved indoors to finish over winter — a husbandry that alternates grazing and housing across the year. Amid sharp temperature swings, the lean meat is said to build up amino-acid umami, its low fat content tracing directly to this pasture-based rearing. On pasture, cows and calves are said to graze together as a herd, and the long time calves spend near their mothers is said to also contribute to the low-stress quality of the lean.\n## Why it took this shape\nIwate's hilly terrain, with its wide grazing land, is said to have suited raising Nihon Tankaku on grass rather than housing it on grain-heavy feed. Iwate accounts for roughly 40% of the breed's national population, and grazing amid sharp temperature swings is read as the very environment that has built up the lean meat's umami. The need for wide grazing land is also read as a case where scarce flatland instead pushed producers to make use of hillside pasture.",
+   "sources": [
+    {
+     "title": "日本短角種（いわてお国自慢）",
+     "url": "https://www.pref.iwate.jp/kensei/profile/1000655/1018314.html",
+     "publisher": "岩手県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "iwate-tankaku-wagyu",
+     "to_slug": "maesawa-gyu",
+     "relation_type": "対比",
+     "basis": "同じ岩手県内でも、いわて短角和牛は日本短角種という別品種で放牧中心の赤身の牛肉、前沢牛は但馬系の血統を引く黒毛和種の舎飼い霜降り牛肉を特徴とし、赤身と霜降りという対照的な牛肉として並べられる。"
+    }
+   ]
+  },
+  {
+   "slug": "aizu-gyu",
+   "body_ja": "## 何でできているか\n会津盆地で育つ黒毛和種の去勢牛・雌牛。地元産の稲わらを中心とした飼料で育てられ、盆地特有の寒暖差の大きい気候が肥育に適するとされる。福島県を代表する銘柄として、首都圏での引き合いも増えているという。脂は控えめでも赤身にはしっかりとした旨みが乗るとされ、稲わら飼料由来の穏やかな甘みが後味に残るという声もある牛肉という。\n## どう作るのか\n地元産の稲わらを主体に、盆地の生産者が一頭ずつ丁寧に肥育する。冬は底冷えし夏は蒸し暑い盆地特有の寒暖差の中で、牛はゆっくりと体に脂を蓄えていくとされる。稲わらという身近な資源を無駄なく飼料に回す、盆地の農業の営みと結びついた肥育の形とされる。生産者ごとに稲わらの与え方や配合の工夫が異なるとされ、盆地の湿った空気の中で牛舎の管理にも細かな気配りが求められるという。\n## なぜこの形になったのか\n一説によると、四方を山に囲まれた会津盆地の地形が夏冬の寒暖差を大きくし、その環境が牛の肥育に適した条件を生んできたとされる。稲作の盛んな土地で出る稲わらを飼料に回す循環も、この土地ならではの営みという。盆地の気候と稲作という二つの土地の因果が、会津牛の肉質を支えてきたと読める。猪苗代湖や磐梯山に近い盆地特有の湿潤な気候も、牧草や稲の生育を助け、結果として飼料の質を安定させてきた土地の条件と読める。",
+   "body_en": "## What it's made of\nSteers and heifers of Japanese Black raised in the Aizu basin, fed mainly on local rice straw. The basin's sharp swings between summer and winter temperatures are said to suit fattening, and demand for the brand, Fukushima's leading name, is said to be growing even in the Tokyo area. Even with modest fat, the lean is said to carry strong umami, with a mild sweetness from the rice-straw feed said to linger in the aftertaste.\n## How it's made\nProducers around the basin fatten cattle carefully, one at a time, mainly on locally grown rice straw. Amid the basin's sharp seasonal swings — cold winters, humid summers — the cattle are said to build fat slowly. Feeding rice straw, a resource close at hand, ties the fattening directly to the basin's rice-farming rhythms. Producers vary in how they prepare and blend the straw, and the basin's humid air is said to call for careful attention to barn management as well.\n## Why it took this shape\nThe Aizu basin, ringed by mountains, is said to sharpen the swing between summer and winter temperatures, and that climate is said to have created conditions suited to fattening cattle. Feeding rice straw grown in this rice-farming district back to the cattle is also a practice of the place. Climate and rice farming together are read as the twin causes behind Aizu Gyu's character. The basin's humid climate, shaped by its nearness to Lake Inawashiro and Mt. Bandai, is also said to help pasture and rice grow well, in turn stabilizing the feed supply.",
+   "sources": [
+    {
+     "title": "福島県ブランド牛肉",
+     "url": "https://www.pref.fukushima.lg.jp/sec/32031c/brand-gyuniku.html",
+     "publisher": "福島県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aizu-gyu",
+     "to_slug": "yamagata-gyu",
+     "relation_type": "対比",
+     "basis": "会津牛は会津盆地という一つの盆地の寒暖差と稲わら飼料で語られる単独の銘柄であるのに対し、山形牛は米沢牛など県内複数地域の銘柄を束ねる総称であり、隣県同士でも銘柄の輪郭の結び方が対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "yamagata-gyu",
+   "body_ja": "## 何でできているか\n山形県内で最も長く肥育・育成された黒毛和種の総称で、日本食肉格付協会の定める等級を満たしたものだけが名乗れるという。米沢牛をはじめ、西川牛や天童牛など各地域の銘柄を束ねる呼び名で、単体の産地銘柄というより県全体の格付けの枠組みに近い。総称としての性格上、地域ごとに味わいの傾向は幅があるとされ、雪深い内陸性の気候で育つ点だけは県内どの銘柄にも共通しているという。\n## どう作るのか\n県内各地の生産者が地域ごとの気候や飼料の使い方を生かしながら肥育し、出荷時の格付けで一定等級を満たした牛だけが「山形牛」を名乗る。その中でも置賜地域など特定の産地基準を満たしたものが米沢牛として、さらに絞り込まれた名前で呼ばれることになるという。格付け基準を満たすかどうかの判定は出荷のたびに一頭ずつ行われるとされ、地域名を名乗れるかどうかもこの等級の可否にかかっているという。\n## なぜこの形になったのか\n一説によると、山形県内には米沢や西川、天童など古くから牛の産地として知られた地域が複数あり、それぞれが独自の呼び名を育ててきたとされる。それらを一つの県産銘柄として束ねるために、地域名より先に等級という基準を置いたことが、山形牛という総称の骨格になっていると読める。稲作地帯として稲わらを得やすい土地柄も、県内どの地域の生産者にも共通する飼料資源として、総称としてのまとまりを支えてきたと考えられる。",
+   "body_en": "## What it's made of\nAn umbrella term for Japanese Black cattle raised and fattened longest within Yamagata Prefecture, reserved for cattle meeting a grading threshold set by Japan's meat grading association. It gathers area names such as Yonezawa Gyu, Nishikawa Gyu, and Tendo Gyu under one prefecture-wide name — closer to a grading framework than a single place-brand. As an umbrella term, flavor is said to vary somewhat by area, with the one constant across the prefecture being the snowy, continental climate all its brands share.\n## How it's made\nProducers across the prefecture fatten cattle drawing on their own region's climate and feed, and only those clearing a set grade at shipment may be called Yamagata Gyu. Within that group, cattle meeting the further, area-specific standard for the Okitama district are narrowed down again and called Yonezawa Gyu. Whether a given carcass clears the grading standard is judged animal by animal at each shipment, and that grading outcome is what determines whether an area name may be used.\n## Why it took this shape\nYamagata is said to hold several districts long known for cattle raising, including Yonezawa, Nishikawa, and Tendo, each having built its own name. Placing a grading threshold ahead of any single place-name, to gather them under one prefecture brand, is read as the structural backbone of the umbrella term Yamagata Gyu. Ready access to rice straw as a rice-growing prefecture, common to producers across the region, is also said to have held the umbrella term together as a single group.",
+   "sources": [
+    {
+     "title": "山形県のブランド和牛総称（山形牛）について",
+     "url": "https://www.yamagata-gyu.org/aboutus",
+     "publisher": "山形肉牛協会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yamagata-gyu",
+     "to_slug": "yonezawa-gyu",
+     "relation_type": "源流",
+     "basis": "山形牛は「米沢牛をはじめ各地域の銘柄を束ねる呼び名」と説明される山形県の総称で、米沢牛は山形牛のうち格付け等級を満たした置賜地域の個体を指す、総称と地域銘柄の関係にある。"
+    }
+   ]
+  },
+  {
+   "slug": "hitachi-gyu",
+   "body_ja": "## 何でできているか\n茨城県内の指定生産者が育てる黒毛和種。長期肥育によりきめ細かなサシが入り、柔らかな肉質を持つとされる。江戸期に水戸藩が桜野牧で牛を飼育した記録が残る土地柄で、近年は海外の高級店にも輸出されているという。きめ細かなサシは口の中でほどけるように溶けるとされ、赤身の繊維も柔らかく、噛む力をあまり必要としない食べやすさが特徴という。\n## どう作るのか\n県が指定した生産者が、一定の期間をかけて一頭ずつ丁寧に肥育する。長期肥育によって筋繊維の間に脂が細かく行き渡るとされ、それが柔らかな肉質につながるという。指定制度のもとで飼料や飼育管理の水準をそろえることが、常陸牛を名乗るための条件になっている。指定生産者は出荷までの飼料配合や衛生管理について一定の基準を課されるとされ、その基準を満たし続けることが銘柄の信頼を保つ仕組みになっているという。\n## なぜこの形になったのか\n一説によると、江戸期に水戸藩が桜野牧で牛を飼育した記録が残るように、茨城には古くから牛を飼う土地の記憶があるとされる。ただし現在の常陸牛の肉質を支えているのは、その歴史そのものというより、長期肥育を可能にする指定生産者制度という仕組みだと読める。歴史と現在の飼育体制、両方が重なって今の常陸牛がある。太平洋に近く比較的温暖な気候であることも、長期にわたる肥育を続けやすい環境として、常陸牛の育成を後押ししてきたと考えられる。",
+   "body_en": "## What it's made of\nJapanese Black raised by designated producers across Ibaraki Prefecture. Long fattening is said to give fine marbling and tender meat, in a region with records of the Mito domain keeping cattle at Sakurano pasture in the 1830s — and the brand is now said to be exported to fine restaurants overseas. The fine marbling is said to melt smoothly in the mouth, and the lean's soft fiber makes for meat that asks comparatively little chewing.\n## How it's made\nProducers designated by the prefecture fatten cattle carefully, one at a time, over an extended period. Long fattening is said to let fat spread finely between muscle fibers, giving the meat its tenderness — and aligning feed and husbandry standards under this designation system is the condition for bearing the Hitachi Gyu name. Designated producers are said to be held to set standards for feed formulation and hygiene through shipment, and meeting those standards continuously is what maintains the brand's trust.\n## Why it took this shape\nRecords of the Mito domain keeping cattle at Sakurano pasture in the 1830s suggest Ibaraki holds a long memory of raising cattle. What supports today's Hitachi Gyu, though, is read as less that history itself than the designated-producer system that makes long fattening possible — both the past and the present husbandry framework together shape the brand as it stands. Being close to the Pacific and comparatively mild is also said to have supported the extended fattening period Hitachi Gyu requires.",
+   "sources": [
+    {
+     "title": "【公式】常陸牛｜茨城県が誇る極上の霜降り牛肉",
+     "url": "https://ibaraki.lin.gr.jp/hitachigyuu.html",
+     "publisher": "茨城県常陸牛振興協会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hitachi-gyu",
+     "to_slug": "mikawa-gyu",
+     "relation_type": "対比",
+     "basis": "常陸牛は江戸期に水戸藩が桜野牧で牛を飼育した記録、三河牛は江戸時代に新城で飼われ杉平牛として四国へ移出された記録と、ともに食用ブランド化以前の江戸期の牛飼育の記録を持つ土地柄だが、藩の牧場と運搬用の役牛という性格が異なる。"
+    }
+   ]
+  },
+  {
+   "slug": "joshu-gyu",
+   "body_ja": "## 何でできているか\n黒毛和種と乳用種を交配させた牛で、群馬の丘陵地で放牧気味に育つ。山から湧き出る清らかな水を与えられることで、赤身の締まった、うまみの強い肉質になるとされる。霜降りの厚みより赤身の締まりで語られる、独特の位置づけの銘柄という。乳用種の血が入ることで肉質はやや締まった印象になるとされ、脂よりも赤身の弾力と味の濃さで評価されることが多い牛肉という。\n## どう作るのか\n乳用種を交配に用いることで、黒毛和種単独よりも飼いやすい体質を持たせているとされる。群馬の丘陵地では放牧気味に牛を歩かせながら育て、山からの清らかな水を日々与える。運動量の多さと水質へのこだわりが、赤身の締まりを生む要因になっているという。放牧気味の飼い方により運動量が増える分、余分な脂肪がつきにくいとされ、水を豊富に飲ませることも赤身のみずみずしさにつながっているという。\n## なぜこの形になったのか\n一説によると、群馬の丘陵地という起伏のある地形が、舎飼いよりも放牧気味の育て方を後押ししてきたとされる。山から湧き出る清らかな水が日常的に得られる土地柄も、この牛肉の味を支えてきたと読める。交配による飼いやすさと、丘陵地の水と地形という土地の条件が組み合わさった銘柄といえる。赤城山や榛名山など複数の山を抱える群馬の地形が、清らかな伏流水を各地で得やすくし、丘陵地での放牧的な飼い方とも相性がよかったと考えられる。",
+   "body_en": "## What it's made of\nA cross of Japanese Black and dairy cattle, raised semi-free-range across Gunma's hilly terrain. Watered from streams flowing off the mountains, it is said to develop firm, strongly flavored lean meat — a brand defined less by marbling depth than by the firmness of its lean. The dairy cross is said to give the meat a slightly firmer impression, valued more for the lean's springiness and depth of flavor than for its fat.\n## How it's made\nCrossing in dairy stock is said to give the cattle a hardier constitution than purebred Japanese Black. Raised semi-free-range across Gunma's hills, the cattle are walked more than housed cattle typically are, and given clean mountain water daily — both the exercise and the attention to water quality are said to firm up the lean. The semi-free-range rearing increases exercise, which is said to discourage excess fat, while ample water is also said to keep the lean juicy.\n## Why it took this shape\nGunma's undulating hill country is said to have favored semi-free-range rearing over full housing. Ready access to clean spring water flowing off the mountains is also read as underpinning this beef's flavor. The brand combines a hardier cross-bred constitution with the terrain and water of the hills themselves. Gunma's terrain, holding several mountains including Akagi and Haruna, is said to make clean subsurface water available in many spots, suiting the semi-free-range style on its hills.",
+   "sources": [
+    {
+     "title": "銘柄牛肉",
+     "url": "https://www.gunmanooniku.com/beef/",
+     "publisher": "群馬県食肉品質向上対策協議会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "joshu-gyu",
+     "to_slug": "tochigi-wagyu",
+     "relation_type": "対比",
+     "basis": "上州牛は黒毛和種と乳用種を交配させ放牧気味に育てる銘柄であるのに対し、とちぎ和牛は純血の黒毛和種を約30か月かけて舎飼いで肥育する銘柄で、隣接する北関東の銘柄でも血統と育て方の軸が異なる。"
+    }
+   ]
+  },
+  {
+   "slug": "tochigi-wagyu",
+   "body_ja": "## 何でできているか\n栃木県内の指定生産者が育てる黒毛和種。地元産の稲わらや米を交えた飼料を与えながら、約30か月という長い期間をかけて肥育される。他の銘柄より長めの肥育期間そのものが、風味を引き出す条件として語られる牛肉という。長期肥育により脂と赤身の境目が細かく入り組むとされ、噛むほどに米由来の穏やかな甘みが脂からにじみ出るという声もある牛肉という。\n## どう作るのか\n稲わらに加えて地元産の米を飼料に混ぜて与える点が特徴とされ、穀物由来の甘みを肉に反映させる狙いがあるという。約30か月という長期の肥育期間中、指定生産者が一頭ずつ状態を見ながら丁寧に育て上げる。長い時間をかけることで、脂と赤身の両方に味を行き渡らせているとされる。指定生産者は出荷までの成育記録を管理しながら育てるとされ、稲わらと米の配合比率を状態に応じて調整することも肥育技術の要になっているという。\n## なぜこの形になったのか\n一説によると、稲作が盛んな栃木の土地柄が、稲わらだけでなく米そのものを飼料に取り入れるという発想を後押ししてきたとされる。約30か月という長い肥育期間を選んだこと自体も、米どころならではの、時間をかけて風味を育てる姿勢の表れと読める。稲作と長期肥育の組み合わせが、とちぎ和牛の骨格になっている。日光連山からの豊かな水と関東平野の恵みを受けた稲作地帯であることが、稲わらと米という二つの資源を同時に飼料へ回せる土地の条件になってきたと読める。",
+   "body_en": "## What it's made of\nJapanese Black raised by designated producers across Tochigi Prefecture, fed a mix of local rice straw and rice and fattened over roughly 30 months — a span longer than many brands, spoken of as itself the condition that draws out the meat's flavor. The long fattening is said to let fat and lean interlace finely, with a mild sweetness from the rice said to seep from the fat as it's chewed.\n## How it's made\nMixing local rice into the feed alongside rice straw is a distinguishing trait, said to be aimed at carrying the grain's sweetness into the meat. Over the roughly 30-month fattening period, designated producers watch each animal's condition and raise it with care — the long span is said to let flavor spread through both fat and lean. Designated producers are said to track each animal's growth records through shipment, adjusting the ratio of straw to rice as a key part of the fattening technique.\n## Why it took this shape\nTochigi's strength in rice farming is said to have encouraged feeding rice itself, not just its straw, back to the cattle. Choosing a fattening period as long as roughly 30 months can itself be read as an expression of a rice-growing region's patience in letting flavor build over time. Rice farming and long fattening together form the backbone of Tochigi Wagyu. Abundant water off the Nikko mountains and the bounty of the Kanto plain's rice country is read as what let this region feed cattle on both straw and rice at once.",
+   "sources": [
+    {
+     "title": "とちぎ和牛",
+     "url": "https://www.pref.tochigi.lg.jp/c05/kensei/aramashi/sangyou/nouringyou/wagyuu.html",
+     "publisher": "栃木県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tochigi-wagyu",
+     "to_slug": "shinshu-premium-gyu",
+     "relation_type": "対比",
+     "basis": "とちぎ和牛は稲わらや米を交えた飼料と約30か月という肥育期間の長さで風味を語るのに対し、信州プレミアム牛は霜降りに加えてオレイン酸含有率という数値基準で選抜する銘柄で、味の裏付け方が対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "shinshu-premium-gyu",
+   "body_ja": "## 何でできているか\n長野県が認定する農場で育つ黒毛和種のうち、脂肪交雑に加えてオレイン酸含有率という県独自の基準を満たした牛肉。オレイン酸は融点の低い脂肪酸とされ、口に入れたときの溶けやすさと香りの良さにつながるという、脂の質を重視した選抜の銘柄。オレイン酸の多い脂は常温でもやわらかく、口に入れるとすっと引くように溶けるとされ、後味に香ばしさが残る点も評価されているという。\n## どう作るのか\n県が認定した農場で育てられた牛のうち、出荷時にオレイン酸含有率を測定し、一定の基準を満たしたものだけが信州プレミアム牛を名乗れるという。霜降りの量だけでなく脂肪酸の組成まで踏み込んで選ぶ点が特徴で、飼料の配合や肥育管理を通じてオレイン酸の含有率を高める工夫が重ねられているとされる。認定農場では出荷前にオレイン酸含有率を測定し、基準に届かない牛は別枠として扱われるとされ、選抜の厳格さがそのまま品質保証になっているという。\n## なぜこの形になったのか\n一説によると、標高が高く冷涼な長野の気候は牛の飼育に手間がかかる一方、その手間をかけた分だけ脂肪の質を細かく管理できる土壌になってきたとされる。霜降りの量という見た目の基準だけでなく、オレイン酸含有率という科学的な指標を持ち込んだこと自体が、この銘柄の骨格になっていると読める。標高差の大きい長野の地形は昼夜の寒暖差を生みやすく、その環境でじっくり育てることが、脂肪酸組成にも影響してきたのではないかと語られている。",
+   "body_en": "## What it's made of\nJapanese Black raised on Nagano-certified farms, selected not only for marbling but for meeting the prefecture's own standard for oleic-acid content. Oleic acid is a fatty acid with a comparatively low melting point, said to give the fat a smoother melt and a better aroma — a brand built around the quality of the fat itself. Fat high in oleic acid is said to stay soft even at room temperature, melting away cleanly, with a fragrant note said to linger in the aftertaste.\n## How it's made\nOnly cattle raised on prefecture-certified farms whose oleic-acid content, measured at shipment, clears a set threshold may be called Shinshu Premium Gyu. The selection looks past marbling volume to fatty-acid composition itself, and producers are said to refine feed and husbandry to raise that oleic-acid share. Certified farms are said to measure oleic-acid content before shipment, setting aside cattle that fall short — the strictness of that selection is itself the quality guarantee.\n## Why it took this shape\nNagano's high-altitude, cool climate is said to make cattle raising more labor-intensive, but that same effort is said to have built a foundation for managing fat quality closely. Bringing in a scientific measure — oleic-acid content — alongside the visual standard of marbling volume is itself read as the backbone of this brand. Nagano's steep elevation changes are said to sharpen the swing between day and night temperatures, and raising cattle slowly in that environment is said to shape the fat's composition as well.",
+   "sources": [
+    {
+     "title": "信州プレミアム牛肉の認定基準",
+     "url": "https://www.oishii-shinshu.net/shokuiku/food/shinshu-beef/standard",
+     "publisher": "長野県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shinshu-premium-gyu",
+     "to_slug": "koshu-gyu",
+     "relation_type": "対比",
+     "basis": "信州プレミアム牛はオレイン酸含有率という数値基準で脂の質を選抜するのに対し、甲州牛は富士山や南アルプス水系の伏流水という水質そのものを肉質の由来として語る銘柄で、品質の裏付け方が対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "koshu-gyu",
+   "body_ja": "## 何でできているか\n山梨県内で育つ黒毛和種のうち、格付け等級が上位のものだけが名乗れる銘柄。富士山や南アルプス水系の伏流水を与えられ、まろやかな脂と鮮やかな肉色を持つとされる。血統管理と流通管理が徹底されているという、水と管理の両輪で支えられる牛肉。まろやかな脂に加え、赤身は鮮やかな色を保つとされ、見た目の美しさと口当たりの良さの両方で語られることが多い牛肉という。\n## どう作るのか\n富士山や南アルプスから湧き出る伏流水を日々与えながら、生産者が血統を管理して育てる。出荷後に格付けを受け、上位等級と判定された枝肉だけが甲州牛を名乗れるという。水質へのこだわりに加え、どの血統の牛をどう組み合わせるかという管理の細かさが、品質を保つ要になっているとされる。生産者は日々の水やりだけでなく、血統証明を一頭ごとに確認しながら交配や導入を管理しているとされ、流通段階でも産地の確認が徹底されているという。\n## なぜこの形になったのか\n一説によると、日本を代表する山岳地帯である富士山と南アルプスに挟まれた山梨の地形が、清らかな伏流水を豊富に得られる土地条件を用意してきたとされる。その水を日常の飼育に取り入れたことが、甲州牛のまろやかな脂の土台になっていると読める。山に囲まれた土地であることが、そのまま水の質に直結している。富士山と南アルプスという二つの水源に挟まれた地形が、他地域にはない伏流水の豊かさを山梨にもたらしてきたと考えられている。",
+   "body_en": "## What it's made of\nJapanese Black raised in Yamanashi Prefecture, reserved for cattle placed in the top grading tiers. Watered with subsurface flow from Mt. Fuji and the Southern Alps, it is said to give mellow fat and a bright meat color — a brand supported equally by water quality and by careful pedigree management. Alongside its mellow fat, the lean is said to keep a vivid color, spoken of for both its appearance and its mouthfeel.\n## How it's made\nProducers manage bloodlines while watering their cattle daily with subsurface flow drawn from Mt. Fuji and the Southern Alps. Only carcasses graded into the top tiers after shipment may be called Koshu Gyu — alongside the attention to water, the fine detail of which bloodlines are paired is said to be the key to maintaining quality. Producers are said to check pedigree certificates animal by animal, not just manage the daily watering, with the origin tracked through distribution as well.\n## Why it took this shape\nYamanashi's terrain, wedged between two of Japan's leading mountain ranges — Fuji and the Southern Alps — is said to have given the land abundant, clean subsurface water. Working that water into daily husbandry is read as the foundation of Koshu Gyu's mellow fat; being ringed by mountains translates directly into water quality. Sitting between two water sources, Mt. Fuji and the Southern Alps, is read as what has given Yamanashi a richness of subsurface water not found elsewhere.",
+   "sources": [
+    {
+     "title": "山梨県／甲州牛について",
+     "url": "https://www.pref.yamanashi.jp/faq/chikusan/koushuugyuu.html",
+     "publisher": "山梨県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "koshu-gyu",
+     "to_slug": "wakasa-gyu",
+     "relation_type": "対比",
+     "basis": "甲州牛は富士山・南アルプスの伏流水という水質そのものを、若狭牛はオレイン酸含量の高さという脂の成分を、それぞれ品質の根拠として語る銘柄で、着目する要素が対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "mikawa-gyu",
+   "body_ja": "## 何でできているか\n愛知県三河地方で育つ黒毛和種。江戸時代に新城で飼われ「杉平牛」として四国へ移出された歴史を持つ土地柄で、戦後の食肉需要の高まりとともに銘柄化された。現在は県全域に広がる銘柄として流通しているという。長い歴史を持つ産地らしく、肥育技術には土地ごとの工夫が積み重ねられてきたとされ、赤身と脂のバランスの良さで評価されることが多いという。\n## どう作るのか\n三河地方をはじめ愛知県内各地の生産者が黒毛和種を肥育し、出荷する。かつては役牛や運搬用として飼われていた牛が、戦後の食肉需要の高まりを受けて肥育の対象へと転換されたとされ、その延長線上に今の三河牛の肥育体制があるという。県全域に生産が広がったことで、産地を限定しない銘柄として流通している。県内各地の生産者がそれぞれの飼料配合や肥育期間を工夫しながら育てるとされ、統一された一つの型より、産地ごとの個性を残す育て方が続いているという。\n## なぜこの形になったのか\n一説によると、江戸期に新城で飼われた牛が「杉平牛」として四国へ移出されたように、三河は古くから牛を飼い、他所へ送り出す土地だったとされる。役牛としての歴史が、戦後の食肉需要の高まりとともに肥育牛の産地へと転じたことが、三河牛という銘柄の成り立ちを説明していると読める。三河湾に近く海運の便に恵まれた土地柄が、かつて牛を四国へ移出する流通の起点にもなり、今も広域で流通する銘柄としての性格を残していると読める。",
+   "body_en": "## What it's made of\nJapanese Black raised in Aichi Prefecture's Mikawa region, tracing to Edo-era cattle kept at Shinshiro and shipped to Shikoku as pack animals under the name Sugidaira Gyu. It was branded for beef as postwar demand for meat grew, and is now said to circulate as a brand spanning the entire prefecture. As a region with a long history, its fattening technique is said to carry layers of local refinement, often praised for the balance between lean and fat.\n## How it's made\nProducers across Mikawa and the rest of Aichi Prefecture fatten and ship Japanese Black cattle. Cattle once kept as draft or pack animals are said to have shifted toward fattening as postwar demand for meat rose, and today's Mikawa Gyu husbandry system extends from that shift. Production spreading prefecture-wide has made it a brand not tied to a single locality. Producers across the prefecture are said to each adjust their own feed blend and fattening period, so no single uniform style has taken over — regional character persists.\n## Why it took this shape\nCattle kept at Shinshiro in the Edo period and shipped to Shikoku as pack animals under the name Sugidaira Gyu suggest Mikawa has long been a region that raised cattle and sent them elsewhere. That history as draft animals turning, alongside rising postwar demand for meat, into a fattening region is read as explaining how the Mikawa Gyu brand came to be. Being close to Mikawa Bay and well served by shipping is read as having once made this region a starting point for exporting cattle to Shikoku, a trait that lingers in its wide distribution today.",
+   "sources": [
+    {
+     "title": "みかわ牛",
+     "url": "https://www.pref.aichi.jp/soshiki/chikusan/mikawaushi.html",
+     "publisher": "愛知県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mikawa-gyu",
+     "to_slug": "kyoto-niku",
+     "relation_type": "対比",
+     "basis": "三河牛は江戸期に新城で飼われ杉平牛として四国へ移出された役牛としての記録、京都肉は1310年の『国牛十図』に丹波牛として記された記録と、ともに食用銘柄化以前の古い牛の記録を持つ土地柄だが、時代も牛の用途もまったく異なる。"
+    }
+   ]
+  },
+  {
+   "slug": "noto-gyu",
+   "body_ja": "## 何でできているか\n石川県・能登半島で育つ黒毛和種。脂肪にオレイン酸を多く含み、口に入れたときの上品な溶け方が特徴とされる。全国有数のオレイン酸含有量を持つとも言われ、脂の香りと後味の軽さで語られることが多い銘柄という。高いオレイン酸含有率は脂の融点を下げるとされ、常温でもべたつかず、後味が軽く感じられる点が能登牛の持ち味とされている。\n## どう作るのか\n明治25年に兵庫県但馬地方から導入した種雄牛3頭を礎とする血統を受け継いで育てられているとされる。能登半島の生産者がその系統を大切に守りながら肥育を続け、脂肪のオレイン酸含有率を高める飼育管理を重ねているという。血統の継承そのものが、能登牛の品質を支える柱になっている。能登半島の生産者は血統の記録を代々引き継ぎながら、限られた頭数を大切に育てているとされ、飼料の与え方にもこの血統に合わせた工夫が重ねられているという。\n## なぜこの形になったのか\n一説によると、明治期に遠く但馬から種雄牛を導入したことが、能登半島という半島の先端の土地に良質な血統を根づかせる出発点になったとされる。以来100年以上にわたってその血を受け継いできたことが、能登牛のオレイン酸の多さと上品な口溶けにつながっていると読める。半島という閉ざされた地理が、血統を守りやすくしたとも考えられる。半島という地理的な閉ざされ方が、外部の血統が入りにくい環境をつくり、結果として但馬由来の血をそのまま純度高く保つことにつながったと考えられる。",
+   "body_en": "## What it's made of\nJapanese Black raised on the Noto peninsula in Ishikawa Prefecture. Its fat is said to carry notably high oleic acid, giving a refined, smooth melt — among the highest oleic-acid levels reported for any wagyu brand, and often spoken of for the lightness of its aftertaste. High oleic-acid content is said to lower the fat's melting point, so it does not turn sticky at room temperature and leaves a light aftertaste — Noto Gyu's signature.\n## How it's made\nThe bloodline is said to trace to three sires brought from the Tajima district of Hyogo Prefecture in 1892, a lineage producers on the Noto peninsula have carefully preserved while refining husbandry to raise the fat's oleic-acid content. Carrying that bloodline forward is itself the pillar supporting Noto Gyu's quality. Producers on the peninsula are said to pass down pedigree records across generations, carefully raising a limited number of head, with feeding adjusted to suit this bloodline.\n## Why it took this shape\nBringing sires from distant Tajima in the Meiji era is read as the starting point for rooting a fine bloodline at the tip of the Noto peninsula. Carrying that blood forward for more than a century since is read as underlying Noto Gyu's high oleic-acid content and refined melt — and the peninsula's relative isolation may also have made the bloodline easier to protect. The peninsula's relative geographic isolation is read as having made it harder for outside bloodlines to enter, keeping the Tajima-derived blood comparatively pure.",
+   "sources": [
+    {
+     "title": "能登牛について",
+     "url": "https://www.pref.ishikawa.lg.jp/tikusan/chikusan/chikusann/notoushi.html",
+     "publisher": "石川県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "noto-gyu",
+     "to_slug": "tajima-ushi",
+     "relation_type": "派生",
+     "basis": "能登牛の血統は明治25年に兵庫県但馬地方から導入された種雄牛3頭がルーツとされ、但馬牛の系統を能登半島で100年以上受け継いできたことが裏付けとなる。"
+    }
+   ]
+  },
+  {
+   "slug": "awaji-beef",
+   "body_ja": "## 何でできているか\n淡路島で育つ純血の但馬牛系統。霜降りの量よりも赤身と脂の調和を重視して選ばれる、出荷頭数の少ない牛肉とされる。淡路牛と呼ばれる一般呼称とは区別される、希少な銘柄という。純血の但馬系ゆえに、きめ細かなサシと上品な脂の香りを持つとされる。赤身と脂の調和を重視する選抜のため、脂だけが突出して主張することがなく、赤身の旨みまでしっかり感じられる牛肉とされている。\n## どう作るのか\n1986年に生産者らが立ち上げた銘柄で、純血の但馬牛系統だけを対象に選び育てる。霜降りの量を追い求めるのではなく、赤身と脂の調和がとれた個体を選ぶ基準を持つとされ、出荷頭数を絞ることでその基準を保っているという。生産者による選抜の厳しさが、そのまま銘柄の輪郭になっている。生産者は出荷頭数をあえて絞り込みながら、純血の但馬牛系統だけを対象に血統を管理しているとされ、量より質を優先する姿勢が一貫しているという。\n## なぜこの形になったのか\n一説によると、淡路島という海に囲まれた限られた土地で、純血の但馬牛系統を守り育てるという選択自体が、この銘柄の希少さを生んできたとされる。量を追わず調和を選ぶという1986年の生産者らの方針が、一般的な淡路牛と区別される淡路ビーフという別の名前を生んだと読める。島という閉じた環境が血統管理を後押ししたとも考えられる。淡路島という海に囲まれた土地で外部の血統が混ざりにくかったことが、純血の但馬牛系統を保ちやすい環境として働いてきたと考えられている。",
+   "body_en": "## What it's made of\nPure Tajima-line Japanese Black cattle raised on Awaji Island. Selected for balance between lean and fat rather than marbling volume, it is a brand with a comparatively small annual output — distinct from the general term \"Awaji Gyu,\" and said to carry fine marbling and a refined fat aroma owing to its pure Tajima lineage. Because selection favors balance between lean and fat, the fat never dominates on its own, and the lean's umami comes through fully as well.\n## How it's made\nA brand producers founded in 1986, raising only pure Tajima-line cattle. Rather than chasing marbling volume, selection favors animals balanced between lean and fat, and keeping the shipped head count small is said to help maintain that standard — the strictness of the producers' own selection is what gives the brand its shape. Producers are said to deliberately keep the shipped head count small while managing bloodlines for pure Tajima-line cattle only, consistently prioritizing quality over volume.\n## Why it took this shape\nPreserving a pure Tajima bloodline on the limited, sea-bound land of Awaji Island is itself read as the choice that created this brand's scarcity. The producers' 1986 policy of choosing balance over volume is read as having given rise to a name — Awaji Beef — distinct from the general term \"Awaji Gyu\"; the island's closed setting may also have made the bloodline easier to manage. Being on an island surrounded by sea is read as having made it harder for outside bloodlines to mix in, helping keep the pure Tajima line intact.",
+   "sources": [
+    {
+     "title": "淡路ビーフ®｜淡路ビーフブランド化推進協議会",
+     "url": "https://awaji-beef.com/",
+     "publisher": "淡路ビーフブランド化推進協議会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "awaji-beef",
+     "to_slug": "tajima-ushi",
+     "relation_type": "派生",
+     "basis": "淡路ビーフは淡路島で育つ「純血の但馬牛系統」と明記される銘柄で、1986年に生産者らが霜降りの量より調和を重視して立ち上げた、但馬牛の血統を直接受け継ぐ牛肉とされる。"
+    }
+   ]
+  },
+  {
+   "slug": "kyoto-niku",
+   "body_ja": "## 何でできているか\n京都府内で最も長く飼養された黒毛和種。格付け上位のものだけが名乗れる、選ばれた牛肉とされる。1310年の書物『国牛十図』に丹波牛として記されるほど古い歴史を持つ土地柄で育つが、今の肉質を決めるのは格付けと処理の条件だという。格付け上位のものだけが名乗れるため、脂と赤身のきめ細かさは総じて高い水準にあるとされ、見た目の美しさでも評価される牛肉という。\n## どう作るのか\n京都府内で生まれてから出荷まで最も長く飼養された黒毛和種のうち、格付け上位のものだけが京都肉を名乗れるとされる。加えて、京都市中央卸売市場第二市場での加工が条件とされ、飼育の長さと処理の場所の両方が定められている。丹波地方をはじめ府内各地の生産者がその基準を満たすよう肥育を続けているという。京都市中央卸売市場第二市場での加工という条件があるため、飼育した生産者の手を離れたあとも、決まった場所で処理されることが銘柄の一部になっているという。\n## なぜこの形になったのか\n一説によると、1310年の『国牛十図』に丹波牛として記されたように、京都は古くから良い牛の産地として知られてきたとされる。ただし今の京都肉という名前を支えているのは、その古い歴史というより、飼養期間の長さと中央卸売市場での加工という現代の基準だと読める。歴史と制度、両方が重なって成立している銘柄といえる。古くから牛の産地として知られてきた丹波をはじめ、京都府内には牛を扱う技術が土地に根づいてきたとされ、その積み重ねが今の基準を支えていると読める。",
+   "body_en": "## What it's made of\nJapanese Black cattle raised longest within Kyoto Prefecture, reserved for those graded into the top tiers — cattle raised in a region traced to \"Tanba Gyu,\" recorded in a 1310 guide to Japan's noted cattle, though what defines today's meat is grading and processing conditions rather than that history alone. Because only the top grading tiers may use the name, both fat and lean tend to be finely grained overall, and the beef is also praised for its appearance.\n## How it's made\nAmong Japanese Black raised from birth to shipment longest within Kyoto Prefecture, only those graded into the top tiers may be called Kyoto Niku — and processing at the city's central wholesale market's second market is also required, fixing both the length of husbandry and where it is handled. Producers across the prefecture, including the Tanba district, fatten cattle to meet that standard. The requirement to be processed at the city's central wholesale market's second market means that even after leaving the producer's hands, processing at a fixed site is part of the brand itself.\n## Why it took this shape\nBeing recorded as \"Tanba Gyu\" in a 1310 guide to Japan's noted cattle suggests Kyoto has long been known as a source of fine cattle. What supports today's name Kyoto Niku, though, is read as less that old history than modern standards — length of husbandry and processing at the central wholesale market. History and a modern system together make up the brand. Districts across Kyoto Prefecture, including Tanba, long known for cattle, are said to carry an accumulated skill in handling cattle that is read as underpinning today's standard.",
+   "sources": [
+    {
+     "title": "ブランド畜産物【京都肉】",
+     "url": "https://www.pref.kyoto.jp/chikusan/niku.html",
+     "publisher": "京都府",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kyoto-niku",
+     "to_slug": "yamato-gyu",
+     "relation_type": "対比",
+     "basis": "京都肉は1310年の『国牛十図』に丹波牛として記された歴史を持ち、大和牛も同じ書物に良牛として描かれた歴史を持つ、隣接する近畿の銘柄同士として並べられる。"
+    }
+   ]
+  },
+  {
+   "slug": "yamato-gyu",
+   "body_ja": "## 何でできているか\n奈良県内で血統から飼料まで一元管理されて育つ黒毛和種。『国牛十図』にも良牛として描かれた歴史を持ち、オレイン酸を多く含み脂肪の口溶けが良いとされる。管理体制の一貫性がそのまま肉質の均一さにつながる銘柄という。オレイン酸の多さは脂の口溶けの良さに直結するとされ、赤身と脂の境目がなめらかにつながる印象を持つ牛肉として語られているという。\n## どう作るのか\n血統の選定から飼料の配合、出荷までを一つの体制のもとで一元管理して育てられるとされる。2003年に流通推進協議会が設立され、それ以前はばらつきがあった生産・流通の体制が整えられたという。一元管理のもとで飼料の配合を調整し、オレイン酸含有率を高める工夫が重ねられているとされる。血統の選定にあたっては複数の候補から相性を見極めて交配を決めるとされ、飼料の配合も出荷までの成育段階ごとに細かく調整されているという。\n## なぜこの形になったのか\n一説によると、『国牛十図』に良牛として描かれるほど古くから牛の産地として知られてきた奈良の土地柄が、この銘柄の下地になってきたとされる。ただし2003年の流通推進協議会設立を境に、血統と飼料を一元管理する体制へと転換したことが、今の大和牛の均一な口溶けの良さを支えていると読める。歴史ある土地柄と、新しい管理体制の両方が重なっている。奈良盆地の穏やかな気候と、古くから開けた土地としての牛の飼育の蓄積が、一元管理という現代的な体制を受け入れる土壌になってきたと考えられる。",
+   "body_en": "## What it's made of\nJapanese Black raised in Nara Prefecture under centrally managed bloodlines and feed. Also depicted as a noted breed in the same historical record as Kyoto Niku, its fat is said to carry high oleic acid and melt smoothly — a brand where consistent management translates directly into uniform meat quality. High oleic acid is said to translate directly into a smooth melt, with fat and lean said to blend almost seamlessly at the boundary.\n## How it's made\nBloodline selection, feed formulation, and shipment are all said to be handled under one centralized system. A distribution promotion council founded in 2003 is said to have brought order to what had been an uneven production and distribution setup before, and under that centralized management, feed is fine-tuned to raise oleic-acid content. Bloodline selection is said to weigh compatibility among candidates before breeding, with feed also fine-tuned at each stage of growth through shipment.\n## Why it took this shape\nNara's standing as a cattle-raising region old enough to be depicted as a noted breed in the same medieval record as Kyoto Niku is read as the foundation of this brand. But the shift to centrally managing bloodline and feed, marked by the 2003 founding of a distribution promotion council, is read as underpinning today's uniformly smooth melt — both the old ground and the newer management system are at work. The Nara basin's mild climate, together with an old accumulation of cattle-raising experience in this long-settled region, is read as having prepared the ground for accepting today's centralized system.",
+   "sources": [
+    {
+     "title": "大和牛",
+     "url": "https://www.pref.nara.lg.jp/n116/58610.html",
+     "publisher": "奈良県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yamato-gyu",
+     "to_slug": "kumano-gyu",
+     "relation_type": "対比",
+     "basis": "大和牛は『国牛十図』に良牛として描かれるほど古くから知られた土地柄で血統を一元管理する銘柄であるのに対し、熊野牛はかつて農耕用の労働力として飼われていた牛を1984年に食用として銘柄化した経緯を持ち、同じ近畿でも成り立ちの時期が対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "kumano-gyu",
+   "body_ja": "## 何でできているか\n和歌山県南部・熊野地方で育つ黒毛和種。かつて農耕用の労働力として飼われていた土地柄で、昭和59年に食用牛として銘柄化された。三重県で肥育する生産者もいるとされ、紀北地方など生産地域は熊野に限らないという。労働力として鍛えられてきた体質を引き継ぐとされ、赤身は締まりがありながらも、噛むと肉の旨みがしっかりと広がる牛肉とされている。\n## どう作るのか\nかつて田畑を耕す労働力として飼われていた牛を、昭和59年に食用牛として改めて銘柄化したという経緯を持つ。生産地域は熊野地方に限らず紀北地方にも広がり、三重県側で肥育する生産者もいるとされる。農耕用から食用への転換という出発点そのものが、他の古くからの食用ブランドとは異なる歴史を持つ牛肉になっている。三重県側で肥育する生産者もいるとされるように、和歌山県内に限らず紀伊半島の広い範囲で分業的に育てられている点も特徴という。\n## なぜこの形になったのか\n一説によると、山がちで平地の少ない紀伊半島南部という地形が、牛を食肉ではなく農耕の労働力として長く飼う暮らしを育ててきたとされる。その役目が薄れた昭和59年になって初めて食用牛として銘柄化されたことが、熊野牛という名前の新しさを説明していると読める。生産地域が熊野に限らず広がっているのも、労働力としての牛が土地を越えて飼われていた名残とも考えられる。平地が少なく耕作に牛の力を借りる必要があった紀伊半島南部の暮らしが、結果として粗放的な環境で育つ丈夫な牛の系統を残してきたと読める。",
+   "body_en": "## What it's made of\nJapanese Black raised in the Kumano district of southern Wakayama Prefecture, a region that once kept cattle as farm labor. Branded for beef in 1984, with some producers fattening it across the border in Mie Prefecture, and production said to extend beyond Kumano itself into the Kihoku district. Carrying forward a constitution built for labor, the lean is said to stay firm while still spreading real umami as it's chewed.\n## How it's made\nCattle once kept as labor for plowing fields were branded for beef only in 1984, a distinct starting point. Production is not confined to Kumano itself but extends into the Kihoku district, with some producers fattening cattle across the border in Mie — that shift from farm labor to food is itself what sets this brand's history apart from older beef brands. As producers in Mie also fatten it, the cattle are raised across a wider stretch of the Kii peninsula rather than confined to Wakayama alone, a division-of-labor trait of its own.\n## Why it took this shape\nThe mountainous, plain-scarce terrain of the southern Kii peninsula is said to have long favored keeping cattle as farm labor rather than for meat. That this role only gave way to a beef brand in 1984 is read as explaining the relative newness of the Kumano Gyu name. Production spreading beyond Kumano itself may also be a trace of cattle once kept as labor across a wider stretch of land. Life in the plain-scarce southern Kii peninsula, which needed cattle for farm labor, is read as having left behind a hardy line suited to comparatively unmanicured conditions.",
+   "sources": [
+    {
+     "title": "熊野牛",
+     "url": "https://www.pref.wakayama.lg.jp/prefg/070400/d00209472.html",
+     "publisher": "和歌山県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kumano-gyu",
+     "to_slug": "chiya-gyu",
+     "relation_type": "対比",
+     "basis": "熊野牛はかつて農耕用の労働力として飼われていた牛を1984年に食用として銘柄化した新しい経緯を持つのに対し、千屋牛は江戸時代からの最古級の蔓牛の血統を受け継ぐとされ、食用牛としての歴史の長さが対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "tottori-wagyu",
+   "body_ja": "## 何でできているか\n鳥取県内で育つ黒毛和種。1966年の全国和牛能力共進会で最高位となった種雄牛「気高号」の系統を受け継ぐとされる。2011年から脂肪のオレイン酸値を測定し、近年はオレイン酸55％以上の牛肉のみを別枠で認定しているという、脂の質を数値で語る銘柄。血統由来の霜降りとオレイン酸値の高さが重なることで、脂の甘みと口溶けの良さが両立した牛肉になっているとされている。\n## どう作るのか\n「気高号」の系統を受け継ぐ種雄牛を軸に、県内の生産者が血統を管理しながら肥育する。2011年から出荷時にオレイン酸値を測定する体制を整え、一定の値を超えたものを別枠で認定しているとされる。血統による霜降りの土台に、数値基準による選抜を重ねる二段構えの体制になっている。種雄牛の選定は県の機関が一元的に担っているとされ、生産者はその血統をもとに、地域ごとの気候に合わせた肥育方法を工夫しているという。\n## なぜこの形になったのか\n一説によると、気高号という一頭の種雄牛が優れた成績を残したことが、鳥取和牛全体の血統の土台を形づくってきたとされる。その血統の質をさらに裏付けるため、2011年からオレイン酸値という数値基準を導入したことが、感覚的な評価だけに頼らない体制を作ってきたと読める。血統と数値、二つの拠り所を持つ銘柄といえる。大山を望む冷涼な気候と、古くから優れた種雄牛を輩出してきた土地の実績が重なり、血統と気候の両面で肥育に適した条件を整えてきたと考えられる。",
+   "body_en": "## What it's made of\nJapanese Black raised across Tottori Prefecture, tracing to the sire Ketaka, a top performer at the 1966 national wagyu competition. Fat has been measured for oleic-acid content since 2011, and cattle testing above 55% are now certified under a separate tier — a brand that speaks of fat quality in numbers. Marbling from the bloodline combined with high oleic acid is said to let the fat's sweetness and its smooth melt come together at once.\n## How it's made\nProducers across the prefecture manage bloodlines around sires descended from Ketaka, and since 2011 have measured oleic-acid content at shipment, certifying cattle above a set threshold under a separate tier — a two-step system layering a numeric standard on top of a bloodline-based foundation for marbling. Sire selection is centrally handled by a prefectural body, and producers are said to build fattening methods around that bloodline, tailored to their own local climate.\n## Why it took this shape\nA single sire, Ketaka, delivering standout results is read as having shaped the bloodline foundation of Tottori Wagyu as a whole. Introducing oleic-acid measurement in 2011 to back up that bloodline's quality further is read as building a system that does not rely on sensory judgment alone — a brand resting on two pillars, bloodline and number. A cool climate looking out on Mt. Daisen, together with a long track record of producing standout sires, is read as having aligned both bloodline and climate in favor of fattening.",
+   "sources": [
+    {
+     "title": "鳥取和牛オレイン５５",
+     "url": "https://www.pref.tottori.lg.jp/178179.htm",
+     "publisher": "鳥取県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tottori-wagyu",
+     "to_slug": "shimane-wagyu",
+     "relation_type": "対比",
+     "basis": "鳥取和牛は「気高号」という一頭の種雄牛の系統とオレイン酸値の測定という中央管理型の体制で語られるのに対し、しまね和牛は県内各地の生産者がそれぞれの飼育方法にこだわる分散型の総称で、同じ山陰の銘柄でも管理の軸が対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "shimane-wagyu",
+   "body_ja": "## 何でできているか\n島根県内で育つ去勢・未経産の黒毛和種の総称。県内各地の生産者がそれぞれの飼育方法にこだわりながら育て、きめ細かな霜降りとさらっとした脂を持つとされる。地域や生産者ごとに個別の銘柄でも流通しているという、一つの型に収まらない銘柄。生産者ごとの個性が出やすいため、同じしまね和牛でも脂の入り方や香りに幅があるとされ、食べ比べで違いを楽しめる銘柄ともいわれている。\n## どう作るのか\n県内各地の生産者が、それぞれの土地の条件に合わせた独自の飼料配合や肥育方法で牛を育てる。「しまね和牛」という総称のもとにありながら、地域や生産者ごとの個別銘柄としても流通しているとされ、統一基準よりも生産者ごとの工夫を尊重する体制がとられているという。未経産の雌牛と去勢牛を中心に、各地の生産者が地元の気候や水に合わせた独自の飼料配合で育てるとされ、統一レシピを持たない点が特徴という。\n## なぜこの形になったのか\n一説によると、南北に長く山陰と山陽の両方の気候を持つ島根の地形が、地域ごとに異なる肥育の工夫を生んできたとされる。一つの県として統一基準を作るより、地域や生産者ごとの銘柄を総称でゆるやかに束ねるという発想が、しまね和牛という名前の骨格になっていると読める。土地の多様さが、そのまま銘柄の多様さにつながっている。日本海と中国山地の両方に接する島根の地形が、地域ごとに気候や水質の異なる小さな産地を県内に点在させ、多様な肥育方法を育んできたと読める。",
+   "body_en": "## What it's made of\nAn umbrella term for steers and virgin heifers of Japanese Black raised across Shimane Prefecture. Each producer keeps its own approach to feeding, and the beef is said to give fine marbling with a clean-tasting fat — circulating not as one fixed type but also under individual area and producer names. Because each producer's character shows through, marbling and aroma are said to vary even within Shimane Wagyu, making comparison itself part of the appeal.\n## How it's made\nProducers across the prefecture raise cattle with their own feed blends and fattening methods suited to local conditions. Even while gathered under the umbrella name Shimane Wagyu, cattle also circulate under individual area or producer brands, a system said to favor each producer's own approach over one uniform standard. Centered on virgin heifers and steers, producers across the region raise cattle on their own feed blends suited to local climate and water, without a single shared recipe.\n## Why it took this shape\nShimane's terrain, stretching long north to south and spanning both the San'in and San'yo climates, is said to have bred distinct fattening approaches from area to area. Loosely gathering area and producer brands under one umbrella name, rather than setting one prefecture-wide standard, is read as the backbone of the name Shimane Wagyu — the land's diversity carries straight through into the brand's diversity. Shimane's terrain, touching both the Sea of Japan and the Chugoku mountains, is read as having scattered small producing areas with differing climates and water across the prefecture, nurturing this diversity of methods.",
+   "sources": [
+    {
+     "title": "しまね和牛",
+     "url": "https://ja-shimane.jp/tokusan/beef/",
+     "publisher": "JAしまね",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shimane-wagyu",
+     "to_slug": "hiroshima-gyu",
+     "relation_type": "対比",
+     "basis": "しまね和牛は県内各地の生産者がそれぞれの飼育方法にこだわる分散型の総称であるのに対し、広島牛は県内で最も長く飼養された牛だけが名乗れる単一基準の銘柄で、同じ中国地方でも銘柄の結び方が対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "hiroshima-gyu",
+   "body_ja": "## 何でできているか\n広島県北部、中国山地の穏やかな気候の中で育つ黒毛和種。筋繊維が細かく余分な脂肪が少ないとされ、上品な脂肪の香りとまろやかさが特徴という。霜降りの多さよりも脂の質と筋繊維の細かさで語られる牛肉とされる。筋繊維の細かさは口当たりの柔らかさに直結するとされ、脂の主張が強すぎない分、赤身の風味まで丁寧に味わえる牛肉という。\n## どう作るのか\n県内で最も長く飼養された牛だけが「広島牛」を名乗れるという単一の基準が設けられている。中国山地の穏やかな気候の中で、生産者が時間をかけて肥育することで筋繊維を細かく保つとされ、余分な脂肪をつけすぎない育て方が重視されているという。長く飼うことと脂を抑えることが、同時に求められる肥育になっている。生産者は出荷までの飼育記録を一頭ごとに管理し、県内で最も長く飼養されたことを証明できる牛だけを出荷しているとされる。\n## なぜこの形になったのか\n一説によると、中国山地の冷涼で穏やかな気候が、牛にストレスの少ない環境を用意し、筋繊維の細かさにつながってきたとされる。県内で最も長く飼養された牛だけに絞るという基準自体も、脂肪をつけすぎない上品な肉質を保つための工夫と読める。山地の気候と飼育基準の両方が、広島牛の上品さを支えている。瀬戸内海側に比べ雨や霧が多い中国山地の内陸気候が、牛にとって穏やかな環境をつくり、ストレスの少ない肥育を可能にしてきたと考えられている。",
+   "body_en": "## What it's made of\nJapanese Black raised in the mild climate of the Chugoku mountains in northern Hiroshima Prefecture. Said to have fine muscle fiber and modest fat, it is known for a refined fat aroma and mellowness — spoken of less for marbling volume than for the fineness of its muscle and the quality of its fat. Fine muscle fiber is said to translate directly into a softer mouthfeel, and with the fat never dominating, the lean's own flavor comes through as well.\n## How it's made\nA single standard governs the name: only cattle raised longest within the prefecture may be called Hiroshima Gyu. In the mild climate of the Chugoku mountains, producers take their time fattening the cattle to keep the muscle fiber fine, emphasizing a rearing style that avoids excess fat — long husbandry and restrained fat together are what the standard asks for. Producers are said to track each animal's rearing records through shipment, sending out only cattle that can be shown to have been raised longest within the prefecture.\n## Why it took this shape\nThe cool, mild climate of the Chugoku mountains is said to give cattle a low-stress environment, contributing to fine muscle fiber. The standard itself — reserving the name for cattle raised longest within the prefecture — can also be read as a device for keeping the meat refined rather than overly fatty. Both the mountain climate and the husbandry standard support Hiroshima Gyu's refinement. The Chugoku mountains' inland climate, wetter and mistier than the Seto coast, is said to give cattle a milder, lower-stress environment, supporting this style of fattening.",
+   "sources": [
+    {
+     "title": "広島牛とは",
+     "url": "https://www.hiroshimagyuu.com/about",
+     "publisher": "広島牛特産化促進対策協議会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hiroshima-gyu",
+     "to_slug": "chiya-gyu",
+     "relation_type": "対比",
+     "basis": "広島牛は中国山地の冷涼な気候による筋繊維の細かさで語られる銘柄であるのに対し、千屋牛は江戸期からの蔓牛の血統と高梁川の水で語られる銘柄で、同じ中国山地でも気候と血統という着目点が対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "chiya-gyu",
+   "body_ja": "## 何でできているか\n岡山県新見市で育つ黒毛和種。江戸時代からの最古級の蔓牛（系統牛）の血統を受け継ぐとされ、全国の和牛銘柄のルーツのひとつに数えられるという。高梁川の清らかな水と肥沃な土壌の恩恵を受けて育つ、血統と水の両方で語られる牛肉。蔓牛の血統は肉質の均一さに定評があるとされ、赤身にも脂にもクセが少なく、素材そのものの味を楽しみやすい牛肉という。\n## どう作るのか\n江戸時代から代々受け継がれてきた蔓牛の血統を守りながら、新見市の生産者が一頭ずつ肥育する。高梁川沿いの肥沃な土壌で育った牧草や飼料作物を与えられるとされ、清らかな川の水も日々の飼育に使われるという。血統の古さと土地の恵みの両方を保ち続けることが、千屋牛を名乗るための条件になっている。生産者は高梁川沿いの牧草地で育てた飼料作物を中心に与えるとされ、血統台帳を代々受け継ぎながら交配の相手を慎重に選んでいるという。\n## なぜこの形になったのか\n一説によると、高梁川が育む肥沃な土壌と清らかな水が、新見の地に古くから良質な牛を育てる条件を用意してきたとされる。江戸時代から蔓牛の血統を絶やさず受け継いできたことも、この土地ならではの営みという。全国の和牛銘柄のルーツのひとつに数えられるのは、血統と土地の両方が長く保たれてきた結果と読める。新見市は中国山地に囲まれた盆地状の地形で、高梁川の恵みと限られた耕地という条件が、牛を大切に一頭ずつ育てる小規模な肥育文化を育んできたと読める。",
+   "body_en": "## What it's made of\nJapanese Black raised in Niimi, Okayama Prefecture, tracing to one of the oldest documented \"tsuru-ushi\" pedigree lines from the Edo period — counted among the roots of wagyu brands nationwide, and said to benefit from the clear water and fertile soil of the Takahashi river. The tsuru-ushi bloodline is said to be known for consistency of quality, with little off-flavor in either lean or fat, letting the base ingredient's own taste come through.\n## How it's made\nProducers in Niimi fatten cattle one by one while preserving a pedigree line passed down since the Edo period. The cattle are said to be fed pasture and feed crops grown in the fertile soil along the Takahashi river, with its clear water also used in daily husbandry — keeping both the old bloodline and the land's bounty intact is the condition for bearing the Chiya Gyu name. Producers are said to feed mainly crops grown on pasture along the Takahashi river, carrying a pedigree register across generations and choosing breeding pairs carefully.\n## Why it took this shape\nThe fertile soil and clear water nurtured by the Takahashi river are said to have long provided the conditions for raising fine cattle around Niimi. Carrying an unbroken tsuru-ushi bloodline forward since the Edo period is also a practice unique to this land. Being counted among the roots of wagyu brands nationwide is read as the result of both bloodline and land having been preserved for so long. Niimi's basin-like terrain, ringed by the Chugoku mountains, together with the Takahashi river's bounty and limited arable land, is read as having nurtured a small-scale culture of raising cattle one at a time with care.",
+   "sources": [
+    {
+     "title": "千屋牛",
+     "url": "https://www.ja-hareoka.or.jp/specialty/tiyagyuu.php",
+     "publisher": "JA晴れの国岡山",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "chiya-gyu",
+     "to_slug": "sanuki-gyu",
+     "relation_type": "対比",
+     "basis": "千屋牛は江戸時代からの蔓牛の血統という古さで語られる銘柄であるのに対し、讃岐牛は明治15年頃の小豆島での肥育開始という、和牛の肥育産地として早い時期に始まった歴史で語られる銘柄で、同じ「古さ」でも着目する起点が異なる。"
+    }
+   ]
+  },
+  {
+   "slug": "sanuki-gyu",
+   "body_ja": "## 何でできているか\n香川県内で育つ血統明確な黒毛和種。明治15年頃、小豆島で肥育が始まった全国でも早い産地とされ、大正期には京阪神で「讃岐牛」の愛称が定着したと伝わる。現在は血統と肥育期間を定めた基準で選定されているという。血統管理が徹底されているため、脂と赤身のバランスに大きなばらつきが出にくいとされ、安定した味わいで評価される牛肉という。\n## どう作るのか\n小豆島での肥育を起点に、血統と肥育期間を定めた基準に沿って県内の生産者が育てる。瀬戸内海に浮かぶ島や沿岸部という土地柄を生かし、温暖な気候の中で牛を肥育する体制が続いているとされる。基準を満たした牛の一部は、後にオリーブ牛としてさらに絞り込まれた名前でも流通することになる。肥育期間や交配の記録は一頭ごとに残されるとされ、瀬戸内海の島々や沿岸部という分散した産地でも、統一された基準で品質を保っているという。\n## なぜこの形になったのか\n一説によると、明治期に小豆島で早くから肥育が始まったことが、香川を全国でも早い和牛肥育の産地に押し上げたとされる。瀬戸内海の温暖な気候が牛の飼育に向いていたことも背景にあると読める。大正期に京阪神で愛称が定着したという逸話は、早くから肥育を始めていたからこそ根付いた評判とも考えられる。温暖な瀬戸内海式気候と、島や沿岸という海運の便に恵まれた土地柄が、早くから他地域と交流しながら肥育技術を磨く条件を整えてきたと考えられる。",
+   "body_en": "## What it's made of\nPedigreed Japanese Black raised across Kagawa Prefecture, one of Japan's earliest fattening regions for the breed — begun on the island of Shodoshima around 1882, with the nickname \"Sanuki Gyu\" said to have settled in the Kyoto-Osaka-Kobe area by the 1910s. Selection today follows set standards for bloodline and fattening period. Strict bloodline management is said to keep the balance of fat and lean from varying much, giving the beef a reputation for consistency.\n## How it's made\nStarting from that early fattening on Shodoshima, producers across the prefecture raise cattle to standards fixed for bloodline and fattening period. Making use of the islands and coastline of the Seto Inland Sea, fattening has continued in a mild climate — and some cattle meeting the standard are later distinguished further under the name Olive Gyu. Fattening and breeding records are kept for each animal, and even across the scattered producing areas of the Inland Sea islands and coast, one shared standard is said to hold quality steady.\n## Why it took this shape\nFattening beginning early, on Shodoshima in the Meiji era, is read as having pushed Kagawa to the forefront of wagyu-fattening regions nationwide. The Seto Inland Sea's mild climate suiting cattle raising is also read as part of the background. The nickname settling in the Kyoto-Osaka-Kobe area by the 1910s can be read as a reputation that took root precisely because fattening had begun so early. A mild Seto Inland Sea climate and a coastal, island setting well served by shipping are read as having let this region refine its fattening technique early through exchange with other areas.",
+   "sources": [
+    {
+     "title": "【オリーブ牛】瀬戸内の温かな風土とオリーブに育まれた「讃岐牛」",
+     "url": "https://sanukinoshoku.jp/product/%E3%80%90%E3%82%AA%E3%83%AA%E3%83%BC%E3%83%96%E7%89%9B%E3%80%91%E7%80%AC%E6%88%B8%E5%86%85%E3%81%AE%E6%B8%A9%E3%81%8B%E3%81%AA%E9%A2%A8%E5%9C%9F%E3%81%A8%E3%82%AA%E3%83%AA%E3%83%BC%E3%83%96%E3%81%AB/",
+     "publisher": "香川県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sanuki-gyu",
+     "to_slug": "olive-gyu",
+     "relation_type": "派生",
+     "basis": "オリーブ牛は「讃岐牛のうち、オリーブ油を搾った後の果実を乾燥させた飼料を一定期間与えられた」牛と明記され、讃岐牛の基準を満たした個体の一部をさらに飼料で絞り込んだ銘柄とされる。"
+    }
+   ]
+  },
+  {
+   "slug": "olive-gyu",
+   "body_ja": "## 何でできているか\n讃岐牛のうち、オリーブ油を搾った後の果実を乾燥させた飼料を一定期間与えられた香川県産黒毛和種。搾油後の果実を使うため脂に独特の風味が加わるとされ、通常の讃岐牛よりもさらに個性の際立つ脂の香りを持つという。オリーブ由来のポリフェノールが脂に影響するとされ、酸化しにくく色持ちの良い脂という声もあり、香りにもほのかな独自性が加わるという。\n## どう作るのか\n小豆島の農家が、オリーブ油を搾った後に残る果実を乾燥・加工して飼料に混ぜる試みを始めたのが起点とされる。この飼料を出荷前の一定期間与えられた讃岐牛だけがオリーブ牛を名乗れるという。搾油の副産物を無駄にせず飼料に回すという発想が、県内全域に広まったとされる。与えられる期間や配合の割合は個体の状態を見ながら調整されるとされ、通常の讃岐牛の基準をすべて満たした上での追加的な飼料という位置づけという。\n## なぜこの形になったのか\n一説によると、小豆島がオリーブの一大産地であることが、搾油後の果実という副産物を飼料に活用する発想を生んだとされる。廃棄されていたはずの果実を牛の餌に回すことで、循環型農業の一環としても位置づけられているという。オリーブという島の特産品が、そのまま牛肉の個性に姿を変えた例といえる。オリーブの木を植えるのに適した瀬戸内海式気候が小豆島にオリーブ産業を根づかせ、その副産物が偶然にも牛の飼料として活かされる循環を生んだと読める。",
+   "body_en": "## What it's made of\nSanuki Gyu cattle given a set period on feed made from dried, pressed olive residue left over from oil production — a Japanese Black raised in Kagawa Prefecture. Using the fruit left after pressing is said to add a distinctive character to the fat, giving it an even more pronounced aroma than standard Sanuki Gyu. Polyphenols from the olives are said to affect the fat, with some describing it as more resistant to oxidation and better at holding its color, adding a faint aroma of its own.\n## How it's made\nThe practice is said to have begun with farmers on Shodoshima drying and processing the leftover fruit from olive-oil pressing to mix into feed. Only Sanuki Gyu cattle given this feed for a set period before shipment may be called Olive Gyu — the idea of putting a pressing byproduct to use rather than discarding it is said to have spread across the prefecture. The length and ratio of the feed is said to be adjusted to each animal's condition, positioned as an addition on top of cattle that already meet every standard Sanuki Gyu requires.\n## Why it took this shape\nShodoshima's standing as a major olive-producing area is said to have given rise to the idea of using the pressed fruit, a byproduct, as feed. Feeding cattle fruit that would otherwise be discarded also positions the practice as part of circular agriculture. It is an example of a local specialty, the olive, reshaping itself directly into the character of the beef. A Seto Inland Sea climate suited to olive cultivation let the industry take root on Shodoshima, and its byproduct happening to serve as cattle feed is read as an unplanned cycle.",
+   "sources": [
+    {
+     "title": "オリーブ牛のはじまり",
+     "url": "https://olivefedwagyu.jp/about/",
+     "publisher": "JA香川県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "olive-gyu",
+     "to_slug": "awa-gyu",
+     "relation_type": "対比",
+     "basis": "オリーブ牛は搾油後の果実を飼料に活かすという飼料の工夫で個性を作る銘柄であるのに対し、阿波牛は昭和37年の東京食肉市場での共励会出品を機に評価を高めた銘柄で、同じ四国でも品質の裏付け方が対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "awa-gyu",
+   "body_ja": "## 何でできているか\n徳島県内で肥育される血統明確な黒毛和種。しっとりときめ細かな肉質と適度な脂が特徴とされる。格付けはA5・A4・B5・B4規格に限られるとされ、極端な霜降りよりもしっとりとした質感で語られることの多い牛肉という。きめ細かな肉質は舌の上でしっとりとした食感を残すとされ、脂の甘さより赤身の旨みで記憶に残ることが多い牛肉という。\n## どう作るのか\n血統の明確な牛を選び、徳島県内の生産者が肥育する。昭和37年の東京食肉市場での共励会出品を機に評価を高めたとされ、以来、格付けをA5・A4・B5・B4規格に限定することで、一定水準以上の肉質だけを阿波牛として流通させる体制がとられているという。血統の管理と格付けの絞り込みが両輪になっている。血統の明確な牛だけを選ぶため、生産者は交配の記録を細かく管理しているとされ、格付けで基準に届かなかった牛は別の呼び名で流通するという。\n## なぜこの形になったのか\n一説によると、昭和37年に東京の食肉市場で行われた共励会に出品したことが、遠く離れた徳島の牛肉の評価を全国に広める転機になったとされる。格付けを上位規格に限定するという線引きも、その評価に見合う品質を保ち続けるための工夫と読める。四国の中でも早くから県外の市場を意識してきた銘柄といえる。吉野川流域の豊かな水と、四国山地に囲まれた盆地状の気候が、牛の飼育に適した穏やかな環境を用意してきたと考えられている。",
+   "body_en": "## What it's made of\nPedigreed Japanese Black fattened across Tokushima Prefecture, said to have a moist, fine-grained texture and modest fat. Grading is limited to the A5, A4, B5, and B4 tiers — a beef more often spoken of for its moist texture than for extreme marbling. The fine-grained meat is said to leave a moist texture on the tongue, more often remembered for the lean's umami than for the fat's sweetness.\n## How it's made\nProducers across Tokushima select pedigreed cattle and fatten them. The brand is said to have gained recognition after being shown at a competitive exhibition at Tokyo's meat market in 1962, and since then, limiting grading to the A5, A4, B5, and B4 tiers has kept only meat above a certain standard circulating as Awa Gyu — bloodline management and tightened grading work together. Because only pedigreed cattle are selected, producers are said to keep detailed breeding records, and cattle that fall short of the grading standard circulate under a different name.\n## Why it took this shape\nBeing shown at a competitive exhibition at Tokyo's meat market in 1962 is read as the turning point that spread recognition of this distant Tokushima beef nationwide. Limiting grading to the top tiers can also be read as a device for maintaining quality worthy of that recognition. Among Shikoku's brands, it is one that turned early toward markets beyond the island. Abundant water along the Yoshino river and a basin-like climate ringed by the Shikoku mountains are read as having provided a mild environment suited to raising cattle.",
+   "sources": [
+    {
+     "title": "阿波牛（あわぎゅう）とは何ですか。",
+     "url": "https://www.pref.tokushima.lg.jp/FAQ/docs/00029513/",
+     "publisher": "徳島県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "awa-gyu",
+     "to_slug": "tosa-akaushi",
+     "relation_type": "対比",
+     "basis": "阿波牛は血統明確な黒毛和種の霜降り牛肉であるのに対し、土佐あかうしは高知県内でしか改良されていない褐毛和種で赤身のジューシーさを特徴とし、同じ四国でも霜降りと赤身という対照的な牛肉として並べられる。"
+    }
+   ]
+  },
+  {
+   "slug": "tosa-akaushi",
+   "body_ja": "## 何でできているか\n和牛4品種のうち褐毛和種・高知系と呼ばれる系統で、高知県内でしか改良されていない。赤褐色の被毛が特徴で、霜降りの黒毛和種とは異なり、赤身の旨みとジューシーさを前面に出した肉質を持つとされる。脂は控えめでも、噛むほどに肉そのものの味が広がる牛肉という。脂肪酸組成も黒毛和種とは異なるとされ、あっさりとした脂の中に赤身由来の香ばしさが立つ、独特の風味を持つ牛肉という。\n## どう作るのか\n28か月ほどかけて一頭ずつ肥育される。高知県内でのみ改良が続けられてきた系統のため、血統の管理が県外に開かれていない点が特徴とされる。赤身中心の体質を保ちながら適度な運動をさせる飼育が行われているとされ、脂肪をつけすぎない育て方がジューシーさを保つ要になっているという。高知県内の限られた生産者だけが飼育を担っているとされ、繁殖から肥育まで一貫して県内で完結させる体制が血統の純粋さを守っているという。\n## なぜこの形になったのか\n一説によると、黒毛和種が全国的に霜降りを追求する方向へ改良されていく中、高知だけは褐毛和種の系統を独自に守り続けてきたとされる。他県との交配に頼らず県内だけで改良を重ねてきたことが、土佐あかうしという他に類を見ない系統を今に残してきたと読める。赤身のジューシーさを選び続けてきた土地の選択そのものが、この牛肉の個性になっている。温暖な太平洋側の気候と、山がちで放牧に適した高知の地形が、赤身中心の褐毛和種を育てる環境として長く受け継がれてきたと読める。",
+   "body_en": "## What it's made of\nA line of Brown Japanese cattle — one of wagyu's four breeds, the Kochi line — bred and improved only within Kochi Prefecture. Known for its reddish-brown coat, it differs from marbled Japanese Black, with a character built around the umami and juiciness of the lean meat rather than heavy fat. Its fatty-acid makeup also differs from Japanese Black, said to give a light fat with a savory note from the lean itself — a distinctive character.\n## How it's made\nFattened over roughly 28 months, one animal at a time. Because the line has been improved only within Kochi, its bloodline management has never opened to outside prefectures. Cattle are given moderate exercise while keeping their lean-forward constitution, and a rearing style that avoids excess fat is said to be key to keeping the meat juicy. A limited number of producers within Kochi are said to handle the breed, with breeding through fattening completed entirely within the prefecture to protect the bloodline's purity.\n## Why it took this shape\nAs Japanese Black was bred nationwide toward heavier marbling, Kochi alone is said to have kept its own line of Brown Japanese cattle. Continuing to improve the breed within the prefecture alone, without crossing in outside stock, is read as what has preserved Tosa Akaushi as a line with no real counterpart. The land's own choice to keep favoring lean juiciness has become this beef's character. A mild Pacific-side climate and Kochi's mountainous terrain, suited to grazing, are read as having long sustained an environment for raising this lean-centered Brown breed.",
+   "sources": [
+    {
+     "title": "土佐あかうし（土佐褐毛牛）",
+     "url": "https://www.pref.kochi.lg.jp/doc/tosa-akaushi/",
+     "publisher": "高知県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tosa-akaushi",
+     "to_slug": "kumamoto-akaushi",
+     "relation_type": "対比",
+     "basis": "土佐あかうしは高知県内でのみ改良されてきた褐毛和種・高知系であるのに対し、くまもとあか牛は熊本を中心に飼育される褐毛和種で全国の約7割を占める系統とされ、同じ褐毛和種でも県内限定の系統と全国的な主流系統という点で対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "imari-gyu",
+   "body_ja": "## 何でできているか\n佐賀県伊万里市のJA管内で肥育される黒毛和種。佐賀牛と同じ但馬牛の血統をルーツに持つとされる。枝肉格付けとBMS値の基準を満たす必要があるという、佐賀牛と共通の物差しを持ちながら、名前だけが分かれた牛肉。血統も格付け基準も佐賀牛と共通しているとされ、味わいの傾向は近いものの、出荷される組織の違いが名前を分けているだけともいえる牛肉という。\n## どう作るのか\n佐賀牛と同じ枝肉格付けとBMS値の基準を満たした牛だけが伊万里牛を名乗れるとされる。かつては佐賀牛と同じ組織のもとで生産されていたが、平成19年のJAさが発足を機に伊万里市農業協同組合がその枠組みから独立し、別の組織のもとで生産が続けられることになったという。伊万里市農業協同組合の管内で、佐賀牛と同じ基準に沿って生産者が肥育を続けているとされ、BMS値の測定など出荷段階の手順もそろえられているという。\n## なぜこの形になったのか\n一説によると、平成19年のJAさが発足という組織再編が、それまで一つだったJA佐賀の枠組みを分け、伊万里市農業協同組合が独立した経緯を持つとされる。血統も基準も佐賀牛と共通でありながら、組織が分かれたことでもう一つの名前が生まれたという成り立ちは、味そのものより組織の歴史が名前を分けた珍しい例といえる。焼き物の町として知られる伊万里が独自の農業協同組合を持ち続けてきたことが、味の違いではなく組織の歴史によって銘柄が分かれるという珍しい経緯を生んだと読める。",
+   "body_en": "## What it's made of\nJapanese Black fattened within the JA district of Imari, Saga Prefecture, said to share the same Tajima roots as the neighboring brand Saga Gyu — carrying the same yardstick of carcass grading and BMS score, yet split off under a separate name. Sharing both bloodline and grading standard with Saga Gyu, the flavor profile is close, and the name split can be read as owing to organizational differences rather than the meat itself.\n## How it's made\nOnly cattle meeting the same carcass grading and BMS-score standard as Saga Gyu may be called Imari Gyu. It was once produced within the same organization as Saga Gyu, but the 2007 founding of JA Saga is said to have left the Imari city agricultural cooperative outside that new framework, continuing production under its own organization instead. Producers within the Imari city agricultural cooperative's district are said to continue fattening to the same standard as Saga Gyu, including matching procedures like BMS measurement at shipment.\n## Why it took this shape\nThe 2007 reorganization that founded JA Saga is said to have split what had been a single Saga JA framework, leaving the Imari city agricultural cooperative to become independent. Sharing the same bloodline and standard as Saga Gyu while ending up under a separate name owing to that organizational split makes this a rare case where organizational history, rather than the meat itself, is what divided the name. That Imari, known as a pottery town, kept its own agricultural cooperative is read as having produced the unusual case of a brand splitting over organizational history rather than a difference in taste.",
+   "sources": [
+    {
+     "title": "伊万里牛とは？",
+     "url": "https://www.city.imari.lg.jp/4185.htm",
+     "publisher": "伊万里市",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "imari-gyu",
+     "to_slug": "saga-gyu",
+     "relation_type": "兄弟",
+     "basis": "伊万里牛は「佐賀牛と同じ但馬牛の血統をルーツに持つ」牛肉で、平成19年のJAさが発足によって伊万里市農業協同組合がその枠組みから分かれ、同じ佐賀県内で別の銘柄として残ったとされる。"
+    }
+   ]
+  },
+  {
+   "slug": "nagasaki-wagyu",
+   "body_ja": "## 何でできているか\n長崎県内の登録生産者が育てる黒毛和種。半島と離島が入り組む複雑な海岸線を持つ土地柄で、潮風の当たる牧草地を含む自然環境が肥育に生かされているとされる。1,980戸ほどの生産者が飼育を担っているとされる、多くの手による銘柄。潮風にさらされた牧草を食むためか、脂にほのかなミネラル感があるという声もあり、赤身にもすっきりとした後味が残る牛肉とされている。\n## どう作るのか\n半島部や離島に点在する登録生産者が、それぞれの土地で牛を育てる。潮風の当たる牧草地を含む自然環境を生かしながら肥育しているとされ、1,980戸ほどという多くの生産者が分担して銘柄を支えている。産地が一箇所に集中せず、複雑な海岸線に沿って散らばっている点が特徴という。半島部や離島の生産者はそれぞれ小規模に牛を育てているとされ、離島ゆえに子牛の輸送や飼料の確保に工夫が求められる産地もあるという。\n## なぜこの形になったのか\n一説によると、半島と離島が入り組む長崎の複雑な海岸線が、産地を一箇所に集約させず、各地に分散した多数の生産者による飼育体制を生んできたとされる。潮風の当たる牧草地という、海に近い土地ならではの自然環境も肥育に生かされているという。海岸線の複雑さが、そのまま生産体制の分散につながっている。島原半島や五島列島など、海に囲まれた地形が各地に独立した小さな産地を生み、結果として県全体では多くの生産者が分担する体制になったと考えられる。",
+   "body_en": "## What it's made of\nJapanese Black raised by registered producers across Nagasaki Prefecture, a prefecture of intricate peninsulas and remote islands where the natural environment — including pasture reached by sea breeze — is said to shape the fattening. Around 1,980 producer households are said to share responsibility for raising the brand. Perhaps from grazing on pasture exposed to sea breeze, some describe a faint minerality in the fat, with a clean aftertaste said to linger in the lean as well.\n## How it's made\nRegistered producers scattered across peninsulas and remote islands each raise cattle on their own land, making use of a natural environment that includes pasture reached by sea breeze. Around 1,980 producer households are said to share the work of supporting the brand, with no single concentrated production center — production instead spread along the prefecture's intricate coastline. Producers on the peninsulas and islands are said to each raise cattle on a small scale, with some island producers needing extra care to secure calf transport and feed.\n## Why it took this shape\nNagasaki's intricate coastline of interlocking peninsulas and remote islands is said to have prevented production from concentrating in one place, instead giving rise to a system of many scattered producers. Pasture reached by sea breeze, a natural feature unique to land close to the sea, is also said to be worked into the fattening. The coastline's complexity carries directly into how dispersed the production system is. Sea-bound terrain such as the Shimabara peninsula and Goto islands is read as having created many small, independent producing areas, leading to a prefecture-wide system shared among many producers.",
+   "sources": [
+    {
+     "title": "長崎和牛とは？",
+     "url": "https://nagasakiwagyu-brand.jp/about/",
+     "publisher": "長崎和牛銘柄推進協議会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nagasaki-wagyu",
+     "to_slug": "hakata-wagyu",
+     "relation_type": "対比",
+     "basis": "長崎和牛は半島と離島に散らばる約1,980戸の生産者が地元で育てきる分散型の銘柄であるのに対し、博多和牛は九州各地から子牛を買い入れ福岡で約20か月肥育する集約型の銘柄で、同じ九州でも生産体制が対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "kumamoto-akaushi",
+   "body_ja": "## 何でできているか\n熊本県で育つ褐毛和種。全国で飼育される褐毛和種の約7割が熊本産とされる。赤身に脂が控えめに入り、旨みが強い肉質になるという。霜降りでとろけさせるのではなく、赤身の噛みごたえと旨みで食べさせる牛肉とされる。赤身の中に細かく入る脂は控えめでも風味を損なわず、噛むほどにアミノ酸由来の旨みが濃く感じられる牛肉とされている。\n## どう作るのか\n発祥の阿蘇地域では放牧が中心とされ、広大なカルデラの草原で牛を歩かせながら育てる。放牧により余分な脂肪がつきにくく、赤身が引き締まった体質になるとされる。舎飼いの黒毛和種とは異なり、牛自身が草を求めて動く分だけ、筋肉質な肉に仕上がるという。放牧地では母牛と子牛が一緒に草を食む時期が長くとられるとされ、広い草原を歩き回ることで自然と筋肉質な体格に育っていくという。\n## なぜこの形になったのか\n一説によると、世界有数のカルデラを持つ阿蘇の広大な草原が、褐毛和種を放牧で育てる暮らしを長く支えてきたとされる。全国の褐毛和種の約7割が熊本産という集中ぶりも、阿蘇という広い放牧地があったからこそ成り立ってきたと読める。放牧に向く土地の広さが、そのまま赤身中心の肉質を生んできたといえる。世界有数の規模を持つ阿蘇の外輪山とカルデラの草原が、日本の中でも珍しい規模の放牧地を用意し、褐毛和種の飼育を熊本に集中させてきたと読める。",
+   "body_en": "## What it's made of\nBrown Japanese cattle raised in Kumamoto Prefecture, which accounts for roughly 70% of the breed nationwide. Its lean carries modest marbling and is said to have pronounced umami — beef built around the chew and flavor of the lean meat rather than a melting marbled texture. The fine marbling within the lean stays modest without dulling the flavor, and amino-acid umami is said to deepen with each bite.\n## How it's made\nAround Aso, the breed's birthplace, rearing is largely pasture-based, with cattle walked across the grasslands of a vast caldera. Grazing is said to make it harder for excess fat to build up, keeping the lean firm. Unlike housed Japanese Black, the cattle's own movement in search of grass is said to give the meat its muscular texture. On pasture, cows and calves are said to spend an extended period grazing together, and walking the wide grassland naturally builds a muscular frame.\n## Why it took this shape\nThe vast grasslands of Aso, one of the world's largest calderas, are said to have long supported a pasture-based way of raising Brown Japanese cattle. That roughly 70% of the breed nationwide comes from Kumamoto is also read as something made possible only by grazing land as extensive as Aso's — land suited to grazing has translated directly into lean-centered meat. The vast grassland of Aso's outer rim and caldera, among the world's largest, is read as having provided grazing land on a scale rare in Japan, concentrating Brown-breed raising in Kumamoto.",
+   "sources": [
+    {
+     "title": "第67号：くまもとあか牛",
+     "url": "https://www.maff.go.jp/j/shokusan/gi_act/register/0067/index.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kumamoto-akaushi",
+     "to_slug": "kagoshima-kuroushi",
+     "relation_type": "対比",
+     "basis": "くまもとあか牛は阿蘇の草原で放牧される褐毛和種で赤身の旨みを特徴とするのに対し、鹿児島黒牛は不飽和脂肪酸のバランスがよく融点の低い霜降りが特徴の黒毛和種で、同じ九州南部でも赤身と霜降りという対照的な牛肉として並べられる。"
+    }
+   ]
+  },
+  {
+   "slug": "kagoshima-kuroushi",
+   "body_ja": "## 何でできているか\n鹿児島県内での飼養期間が最も長く、県内を最終肥育地とする黒毛和種。不飽和脂肪酸のバランスが良く、融点の低い霜降りが口の中でとろけるような食感につながるとされる。赤身より脂の溶け方そのもので語られることの多い牛肉という。融点の低い脂は舌の上で早く溶けるとされ、赤身との一体感が強く、噛む前から香りが広がるような食べ心地になるという。\n## どう作るのか\n県内で生まれてから出荷まで最も長く飼養され、県内を最終肥育地とすることが条件とされる。鹿児島は全国有数の牛の飼育頭数を誇る県で、豊富な飼料資源と広い飼育基盤を生かして牛を育てる生産者が多いとされる。長期にわたる県内一貫の肥育体制そのものが、霜降りの質を支えているという。生産者は繁殖から肥育まで県内で一貫して手がけるとされ、飼料の配合や牛舎の管理を出荷まで切れ目なく続けることが品質の安定につながっているという。\n## なぜこの形になったのか\n一説によると、火山灰土壌のシラス台地が広がる鹿児島の土地柄が、牧草や飼料作物の栽培に独自の条件を与え、豊富な飼料資源を用意してきたとされる。県内で生まれてから出荷まで一貫して育てる体制を保てるだけの飼育基盤があったことが、融点の低い霜降りを生む長期肥育を可能にしてきたと読める。温暖な気候と桜島の火山灰土壌という条件が、独自の飼料作物栽培を可能にし、豊富な飼料資源を背景にした大規模な肥育産地を育ててきたと考えられる。",
+   "body_en": "## What it's made of\nJapanese Black raised longest within Kagoshima Prefecture and finished there. Its fat is said to carry a balanced unsaturated-fat profile with a comparatively low melting point, giving a melting texture in the mouth — a beef more often spoken of for how its fat melts than for the lean itself. The low-melting fat is said to melt quickly on the tongue, blending closely with the lean for a mouthfeel where aroma seems to spread before the first bite.\n## How it's made\nThe standard requires cattle to be raised longest within the prefecture, from birth through shipment, and finished there. Kagoshima ranks among Japan's leading cattle-producing prefectures, and many producers are said to draw on abundant feed resources and a wide rearing base — that sustained, in-prefecture fattening system is itself what supports the marbling's quality. Producers are said to handle breeding through fattening within the prefecture without interruption, and keeping feed and barn management continuous through shipment is said to stabilize quality.\n## Why it took this shape\nKagoshima's terrain, much of it the volcanic-ash Shirasu plateau, is said to have given distinctive conditions for growing pasture and feed crops, building up abundant feed resources. Having a rearing base able to sustain cattle from birth through shipment entirely within the prefecture is read as what has made possible the long fattening behind this low-melting-point marbling. A mild climate together with the volcanic-ash soil of Sakurajima is read as having enabled distinctive feed-crop cultivation, backing a large-scale fattening region built on abundant feed resources.",
+   "sources": [
+    {
+     "title": "鹿児島黒牛（GI）",
+     "url": "http://www.pref.kagoshima.jp/ag01/sangyo-rodo/nogyo/nosanbutu/brand/kurousi.html",
+     "publisher": "鹿児島県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kagoshima-kuroushi",
+     "to_slug": "ishigaki-gyu",
+     "relation_type": "対比",
+     "basis": "鹿児島黒牛は不飽和脂肪酸のバランスによる低い融点の霜降りで語られる南九州の銘柄であるのに対し、石垣牛は年間平均気温24度前後という温暖な気候そのものでさっぱりとした脂を語る沖縄の銘柄で、脂の質を語る根拠が対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "hakata-wagyu",
+   "body_ja": "## 何でできているか\n福岡県内の登録生産者約50戸が育てる黒毛和種。九州各地の産地から導入した子牛を、県産の稲わらを主体とした専用飼料で約20か月かけて丁寧に肥育するという。格付け三等級以上のものだけが名乗れる基準という。仕上げの肥育を福岡で一貫して行うため、産地ごとの個体差が均され、安定したきめ細かな霜降りに仕上がるとされている牛肉という。\n## どう作るのか\n九州各地から導入した子牛を、福岡県産の稲わらを主体とした専用飼料で育てる体制がとられている。約20か月という肥育期間をかけ、登録生産者約50戸が一頭ずつ丁寧に肥育を進めるとされる。出荷時の格付けが三等級以上と判定されたものだけが博多和牛を名乗れるという。稲わらを主体とした専用飼料は生産者共通のレシピに近いとされ、子牛の導入元は異なっても仕上げの飼料と期間をそろえることで品質を保っているという。\n## なぜこの形になったのか\n一説によると、九州の中心的な消費地・流通拠点である福岡という土地柄が、各地の産地から子牛を集めて仕上げるという肥育スタイルを育ててきたとされる。県産の稲わらを飼料に使う点は米どころとしての土地の恵みを生かした工夫と読める。九州各地の子牛を福岡の飼料で育て上げるという分業の形が、博多和牛の骨格になっている。九州の交通と流通の要である福岡という土地柄が、各地から牛を集めて仕上げるという肥育のかたちそのものを生んできたと読める。",
+   "body_en": "## What it's made of\nJapanese Black raised by around 50 registered producers in Fukuoka Prefecture. Calves bought in from across Kyushu are finished carefully over roughly 20 months, mainly on a purpose-built feed centered on locally grown rice straw — with the name reserved for carcasses graded three tiers or higher. Because the finishing fattening is handled entirely within Fukuoka, differences between calves' home regions are said to even out, yielding a consistently fine marbling.\n## How it's made\nCalves brought in from across Kyushu are raised on a purpose-built feed centered on rice straw grown in Fukuoka. Over a roughly 20-month fattening period, around 50 registered producer households each raise the cattle with care — only carcasses graded three tiers or higher at shipment may be called Hakata Wagyu. The purpose-built, rice-straw-centered feed is said to follow much the same recipe across producers, so that even with calves from different origins, matching the finishing feed and period keeps quality even.\n## Why it took this shape\nFukuoka's standing as a central consumption and distribution hub for Kyushu is read as having shaped a fattening style built around gathering calves from producing areas across the region and finishing them locally. Using Fukuoka-grown rice straw as feed can be read as making use of the land's strength as a rice-growing prefecture. This division of labor — Kyushu-wide calves finished on Fukuoka feed — is the backbone of Hakata Wagyu. Fukuoka's role as a transport and distribution hub for Kyushu is read as having given rise to this very style of fattening — gathering cattle from around the region to finish locally.",
+   "sources": [
+    {
+     "title": "博多和牛について",
+     "url": "http://www.hakata-wagyu.com/hakatawagyu/",
+     "publisher": "博多和牛販売促進協議会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hakata-wagyu",
+     "to_slug": "iga-gyu",
+     "relation_type": "対比",
+     "basis": "博多和牛は九州各地から子牛を買い入れ福岡で約20か月かけて仕上げる集約型の肥育であるのに対し、伊賀牛は伊賀盆地で12か月以上、未経産の雌牛のみを育てる地域限定型の肥育で、産地と肥育地の結び方が対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "ishigaki-gyu",
+   "body_ja": "## 何でできているか\n沖縄県石垣市・八重山郡で生後20か月以上肥育された純粋な黒毛和種。年間平均気温24度前後という温暖な気候の中でのびのびと育ち、脂はさっぱりしているとされる。重い脂よりも軽やかな後味で語られることの多い、南の島ならではの牛肉という。脂の融点が低くなりすぎない程度に軽く、赤身の弾力もしっかり残るとされ、南国らしい爽やかな後味が特徴という声もある牛肉という。\n## どう作るのか\n生後20か月以上という期間、石垣島・八重山郡内で純血の黒毛和種を肥育する。年間を通じて温暖な気候の中、牛が過度なストレスを受けにくい環境で育てられるとされ、寒冷地のように長期の舎飼いを必要としない分、のびのびとした肥育になっているという。石垣島や周辺の島々で登録された生産者が、亜熱帯の気候の中、暑さ対策を施した牛舎で飼育を続けているとされ、水分補給の管理も入念に行われるという。\n## なぜこの形になったのか\n一説によると、年間平均気温24度前後という沖縄本島以上に温暖な気候が、石垣牛の脂をさっぱりとしたものにしてきたとされる。寒暖差で脂を凝縮させる本土の銘柄とは対照的に、一年を通じて穏やかな気候の中で育つことが、この牛肉の軽さにつながっていると読める。南の島の気候そのものが、脂の性格を決めている。八重山諸島という海に囲まれた孤立した環境が、外部からの伝染病の侵入を抑えやすくし、安定した飼育環境を保つ一因になってきたとも語られている。",
+   "body_en": "## What it's made of\nPure Japanese Black fattened for at least 20 months around Ishigaki city and the Yaeyama district of Okinawa Prefecture. Raised in a climate averaging roughly 24°C year-round, it grows without the stress of extreme cold, and its fat is said to be comparatively light — a beef of the southern islands, spoken of for a light finish rather than heavy fat. The fat stays light without its melting point dropping too far, and the lean keeps its springiness, said to leave the refreshing aftertaste associated with the subtropics.\n## How it's made\nPure-bred Japanese Black cattle are fattened for at least 20 months within Ishigaki and the Yaeyama district. Raised in a climate mild year-round, the cattle are said to face less of the stress that comes with extreme cold, and without needing the long indoor housing common in colder regions, the rearing is comparatively relaxed. Registered producers on Ishigaki and nearby islands are said to keep raising cattle in barns fitted for the subtropical heat, with careful attention paid to hydration as well.\n## Why it took this shape\nA year-round average temperature of roughly 24°C, warmer even than mainland Okinawa, is said to be what keeps Ishigaki Gyu's fat light. In contrast to mainland brands that concentrate fat through sharp seasonal swings, growing up in a climate mild through the whole year is read as what gives this beef its lightness — the southern islands' climate itself shapes the character of the fat. The Yaeyama islands' isolated, sea-bound setting is also said to have made it easier to keep contagious disease out, contributing to a stable rearing environment.",
+   "sources": [
+    {
+     "title": "石垣牛とは",
+     "url": "http://www.ishigakigyu.com/about.html",
+     "publisher": "JAおきなわ",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ishigaki-gyu",
+     "to_slug": "nagasaki-wagyu",
+     "relation_type": "対比",
+     "basis": "石垣牛は年間平均気温24度前後という亜熱帯の温暖な気候でさっぱりとした脂を持つ銘柄であるのに対し、長崎和牛は半島と離島の複雑な海岸線と潮風で語られる銘柄で、ともに海に近い九州・沖縄の産地ながら気候の語り方が対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "iga-gyu",
+   "body_ja": "## 何でできているか\n三重県伊賀地域で12か月以上肥育される未経産の黒毛和種雌牛。盆地特有の寒暖差が大きい気候が肥育に向くとされ、干し肉が戦国期の兵糧になったとも伝わる土地柄。「肉の横綱」とも称される鮮やかな肉色が特徴という。未経産の雌牛に限ることで脂の質が保たれるとされ、鮮やかな肉色に加え、きめ細かな霜降りが枝肉の断面にはっきりと現れるという。\n## どう作るのか\n未経産の雌牛だけを選び、伊賀盆地の生産者が12か月以上かけて肥育する。盆地特有の寒暖差が大きい気候の中で牛を育てることが、肉質を左右する条件とされているという。干し肉が戦国期の兵糧になったと伝わるように、古くから牛を保存食として扱ってきた土地の記憶も残るとされる。12か月以上という期間、伊賀盆地の生産者が一頭ずつ体調を見ながら丁寧に肥育するとされ、盆地特有の水と空気の中で牛をじっくり育てているという。\n## なぜこの形になったのか\n一説によると、四方を山に囲まれた伊賀盆地の寒暖差の大きさが、肥育に向く気候条件を用意してきたとされる。干し肉が戦国期の兵糧になったという伝承は、この土地が古くから牛を保存食に加工する知恵を持っていたことを示すと読める。盆地の気候と、保存食としての牛の利用という二つの土地の因果が重なっている。忍者の里としても知られる伊賀は険しい山々に囲まれた盆地で、寒暖差の大きさに加え、保存食としての牛肉加工の知恵が古くから育まれてきた土地とされる。",
+   "body_en": "## What it's made of\nVirgin heifers of Japanese Black fattened for at least 12 months in the Iga district of Mie Prefecture, where the basin's sharp seasonal swings are said to suit fattening — a region whose dried meat reputedly served as Sengoku-era rations, and known for a meat color vivid enough to be called \"the yokozuna of meat.\" Limiting the brand to virgin heifers is said to preserve fat quality, and the vivid meat color along with fine marbling is said to show clearly across the cut carcass.\n## How it's made\nOnly virgin heifers are selected, and producers in the Iga basin fatten them for at least 12 months. Raising cattle amid the basin's sharp seasonal swings is said to be the condition that shapes the meat's quality. The tradition that dried meat once served as Sengoku-era rations also points to a long-standing local knowledge of processing cattle into preserved food. Over at least 12 months, producers in the Iga basin are said to fatten cattle one by one, watching each animal's condition amid the basin's particular water and air.\n## Why it took this shape\nThe sharp seasonal swings of the Iga basin, ringed by mountains, are said to have provided conditions suited to fattening. The tradition that dried meat once served as Sengoku-era rations is read as evidence of a long-standing local skill in turning cattle into preserved food. Both the basin's climate and this history of using cattle as preserved food are at work here. Known as the home of the ninja, Iga is a basin ringed by steep mountains, said to carry not only sharp seasonal swings but also a long-nurtured local skill in processing beef into preserved food.",
+   "sources": [
+    {
+     "title": "伊賀牛",
+     "url": "https://www.miebrand.jp/certified_product/9",
+     "publisher": "三重県（三重ブランド）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "iga-gyu",
+     "to_slug": "wakasa-gyu",
+     "relation_type": "対比",
+     "basis": "伊賀牛は伊賀盆地の寒暖差の大きさと戦国期の兵糧という土地の歴史で肉質を語る銘柄であるのに対し、若狭牛は平安時代の牛車を引く牛としての歴史とオレイン酸含量の高さで語る銘柄で、同じ古い歴史を持つ産地でも着目する時代と要素が対照的といえる。"
+    }
+   ]
+  },
+  {
+   "slug": "wakasa-gyu",
+   "body_ja": "## 何でできているか\n福井県内で12か月以上肥育される血統明確な黒毛和種。脂の口どけの良さと後味のさっぱりとした風味が特徴とされる。オレイン酸含量の特に高いものは別枠で認証されるという、脂の質にこだわりの軸を置く銘柄。脂の口どけの良さに加え、後味がさっぱりとしているため、脂の量が多くても重たく感じにくい牛肉として語られているという。\n## どう作るのか\n血統の明確な牛を選び、県内の生産者が12か月以上かけて肥育する。出荷時にオレイン酸含量を確認し、特に高いものは通常の若狭牛とは別枠で認証されるとされる。血統管理と脂肪酸の測定という二段階の選抜が、脂の口どけの良さを支える体制になっているという。12か月以上の肥育期間中、生産者は血統証明を確認しながら飼料を管理するとされ、オレイン酸含量の高い個体は別枠での認証を経て出荷されるという。\n## なぜこの形になったのか\n一説によると、平安時代には牛車を引く牛として知られた福井の土地柄が、古くから牛を身近な家畜として扱う暮らしを育んできたとされる。運搬用の役牛としての歴史から食用のブランド牛へと役目が移り変わる中で、脂の口どけという新しい価値基準を打ち立てたことが、若狭牛という銘柄の輪郭を作ってきたと読める。若狭湾に面し、古くから都へ海産物や物資を運ぶ「鯖街道」の起点として栄えた土地柄も、牛を運搬や交易に利用してきた歴史と重なると考えられている。",
+   "body_en": "## What it's made of\nPedigreed Japanese Black fattened for at least 12 months within Fukui Prefecture, said to give smooth-melting fat and a clean, light aftertaste. Cattle with especially high oleic-acid content are certified under a separate tier — a brand built around the quality of its fat. Beyond how smoothly the fat melts, the clean aftertaste is said to keep the meat from feeling heavy even when the fat is generous.\n## How it's made\nProducers select pedigreed cattle and fatten them across the prefecture for at least 12 months. Oleic-acid content is checked at shipment, and cattle testing especially high are certified separately from standard Wakasa Gyu — a two-step selection, pedigree management followed by fatty-acid measurement, supports the fat's smooth melt. Through at least 12 months of fattening, producers are said to check pedigree certificates while managing feed, with especially high-oleic-acid individuals shipped only after separate certification.\n## Why it took this shape\nFukui's history as a region once known for oxen that pulled carts in the Heian era is said to have nurtured a long-standing familiarity with cattle as household animals. As their role shifted from draft animal to branded beef, establishing a new standard of value — how smoothly the fat melts — is read as what has shaped the Wakasa Gyu brand. Facing Wakasa Bay and once flourishing as the starting point of the \"Saba Kaido,\" a road that carried seafood and goods to the capital, this land's history of using cattle for transport and trade is read as overlapping with its beef today.",
+   "sources": [
+    {
+     "title": "若狭牛・ふくいポーク・福地鶏 福井の畜産ブランド紹介",
+     "url": "https://www.pref.fukui.lg.jp/doc/021500/tiku1.html",
+     "publisher": "福井県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "wakasa-gyu",
+     "to_slug": "noto-gyu",
+     "relation_type": "対比",
+     "basis": "若狭牛は平安時代の牛車を引く牛としての歴史とオレイン酸含量の高さで語る銘柄であるのに対し、能登牛は明治25年の但馬牛の種雄牛導入という血統の起点とオレイン酸含量の高さで語る銘柄で、同じ北陸でも歴史の起点が異なる。"
+    }
+   ]
+  }
+ ]
+}

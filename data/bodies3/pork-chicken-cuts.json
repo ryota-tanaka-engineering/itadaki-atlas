@@ -1,0 +1,634 @@
+{
+ "items": [
+  {
+   "slug": "pork-loin",
+   "body_ja": "## 何でできているか\n\n背中に沿ってつく部位で、きめが細かく、脂肪と赤身がほどよく同居する。豚肉のなかでも最上級部位のひとつとされ、脂の甘みと赤身のやわらかさを一緒に味わえる。肩に近い側はやや厚みのある脂がのり、腰へ近づくほど締まった肉質に変わっていく。断面を横から見ると外周の脂身と中心の赤身がはっきり分かれており、この境目の存在そのものが噛んだときの食感の変化を生んでいる。\n\n## どう作るのか\n\nとんかつやしゃぶしゃぶの主役を務める部位で、脂身の縁に浅く切れ目を入れておくと加熱時に肉が反り返りにくいとされる。厚切りにして揚げても硬くなりにくく、薄切りで鍋にくぐらせても崩れにくい、火の入れ方を選ばない扱いやすさが持ち味だ。とんかつでは衣の厚みと脂身の量を釣り合わせることが揚げ上がりの印象を左右するとされ、切り身の厚さに応じて揚げ時間を調整する下ごしらえも欠かせない。\n\n## なぜこの形になったのか\n\nとんかつという揚げ物からしゃぶしゃぶという鍋物まで、調理法を選ばず主役を張れる懐の深さが、最上級部位としての評価を支えている。脂肪が少なく繊細なヒレと、脂に寄ったバラのあいだにあって、ちょうど中間の立ち位置を占める部位でもある。家庭の食卓でも外食でも「豚肉といえばまずこの部位」という位置づけを長く保ってきた、いわば豚肉の顔とも言える存在だ。",
+   "body_en": "## What it's made of\n\nFrom along the back, fine-grained, with lean and fat sitting comfortably side by side. Often ranked among pork's top cuts, it lets you taste the fat's sweetness and the lean's tenderness at once. The end nearer the shoulder carries a thicker fat cap, while the hip end runs leaner and firmer. Seen in cross-section, the outer ring of fat and the lean center stand out clearly, and that very boundary is what shifts the texture from bite to bite.\n\n## How it's made\n\nIt carries the main role in both tonkatsu and shabu-shabu. Scoring the fat's edge lightly is said to keep the meat from curling as it cooks, and it holds up well cut thick and deep-fried or sliced thin and swirled through hot pot — a versatility across heat levels that's part of its appeal. For tonkatsu, balancing the batter's thickness against the amount of fat is said to shape how the finished cutlet reads, and frying time is adjusted to the slice's thickness as a matter of course.\n\n## Why it took this shape\n\nBeing able to headline both a fried dish like tonkatsu and a simmered one like shabu-shabu without missing a beat is much of what earns it top-cut status. It sits squarely between the delicate, low-fat tenderloin and the fat-forward belly — a middle ground all its own. Whether at home or eating out, it's long held the position of the cut people picture first when they think \"pork\" — something close to the face of the whole animal.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "pork-loin",
+     "to_slug": "pork-shoulder-loin",
+     "relation_type": "兄弟",
+     "basis": "肩ロースの説明に「肩からロースにかけての部位」と明記されており、背中に沿って隣り合う部位同士"
+    }
+   ]
+  },
+  {
+   "slug": "pork-tenderloin",
+   "body_ja": "## 何でできているか\n\n豚肉のなかで最もきめが細かく、脂肪がほとんどつかない部位。ロースの内側に沿って一頭に二本だけ位置し、赤身らしい繊細な口当たりが持ち味になる。柔らかい反面、脂の後ろ盾がないぶん、加熱しすぎるとパサつきやすいとされる。細長い形をしており、中心の太い部分と両端の細くなる部分とで火の通り方が変わる、一本の中でも表情のある部位でもある。\n\n## どう作るのか\n\n1頭から取れる量が少なく、ロースより高値で取引される部位でもある。火の通し方に気を配る必要があり、短時間でさっと火を入れる調理に向く。厚みのある中心部と細くなる先端とで火の通りが違うため、切り分ける段階で厚みをそろえる下ごしらえが要る。ソテーであれば表面を強火で短く焼き固め、あとは余熱で仕上げるといった、脂に頼らずに柔らかさを保つ工夫も語られる。\n\n## なぜこの形になったのか\n\n脂肪の少なさと歩留まりの低さが、そのまま「高級部位」としての位置づけにつながっている。ロースが調理法を選ばない万能さで評価されるのに対し、ヒレは繊細さと希少性で別枠に置かれる部位で、両者は同じ背中側の肉でありながら性格の異なるきょうだいのような関係にある。改まった一皿に選ばれることが多いのも、この希少性ゆえと言える。贈答用や特別な献立で選ばれることも多く、希少性そのものが特別感を後押ししている。",
+   "body_en": "## What it's made of\n\nThe finest-grained, leanest cut in the whole pig — two slender pieces per animal, lying just inside the loin. With almost no fat to speak of, it delivers a delicate, purely lean bite, though that same leanness is said to leave it prone to drying out if overcooked. Long and slender, it cooks unevenly along its length, with the thick center and tapering ends behaving almost like different cuts.\n\n## How it's made\n\nYielded in far smaller amounts than the loin, it's priced higher as a result. It rewards quick, careful cooking over long heat, and because the thick center and tapering tip cook at different rates, trimming it to an even thickness beforehand matters. Searing it hard and fast on the surface, then letting residual heat finish the center, is one way cooks are said to keep it tender without leaning on fat.\n\n## Why it took this shape\n\nIts low fat and low yield are exactly what earn it premium status. Where the loin is prized for going anywhere in the kitchen, the tenderloin is set apart for its delicacy and scarcity — a sibling cut from the same side of the back, but with a very different temperament. That scarcity is much of why it tends to show up on more formal plates. It's a common choice for gift boxes and special-occasion menus, its scarcity alone lending it an air of occasion.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "pork-tenderloin",
+     "to_slug": "pork-loin",
+     "relation_type": "兄弟",
+     "basis": "ヒレはロースの内側に沿って位置する部位で、いずれも背中側の肉として隣接する"
+    }
+   ]
+  },
+  {
+   "slug": "pork-shoulder-loin",
+   "body_ja": "## 何でできているか\n\n肩からロースにかけて位置する部位で、脂肪が網目状に細かく入り込む。この霜降りに近い脂の入り方がコクのある味わいを生み、赤身と脂の境目には筋が通っているのが特徴だ。ロースよりも肉質はやや粗いが、脂の風味の濃さでは勝るとされる。部位のなかでも肩寄りか腰寄りかで脂の入り方に差があり、一枚のなかでも味わいの濃淡が出る。精肉店では脂の入り方の美しさから「霜降り」と称されて並ぶこともある。\n\n## どう作るのか\n\n赤身と脂肪の境にある筋を切っておくと、加熱後も食べやすいとされる。厚切りにしてカレーやシチューでじっくり煮込んでも硬くなりにくく、薄切りにして焼き豚や生姜焼きに仕立てても脂の甘みが生きる、煮る・焼くの両方に対応できる部位。厚みのある塊肉として売られることも多く、用途に応じて厚切り・薄切りを切り分ける下ごしらえの自由度が高い。\n\n## なぜこの形になったのか\n\n肩の運動量とロースのきめ細かさの両方を受け継いだ、いわば中間的な部位として食卓に定着している。カレーの具や焼き豚の材料として日常づかいされる場面が多く、ロースほど改まった扱いを受けない代わりに、家庭料理の主力を担ってきた部位と言える。脂の網目模様そのものが、コクを求める煮込み料理と相性のよさを裏付けている。贈り物用の焼き肉セットに選ばれることもあり、コクの強さが高級感の裏付けになっている。",
+   "body_en": "## What it's made of\n\nRunning from the shoulder into the loin, it carries fat woven through in a fine, net-like pattern — closer to marbling than a simple fat cap — for a richer bite. A tendon runs along the border between lean and fat, and while the texture is somewhat coarser than the loin's, the flavor of the fat is said to run deeper. How much marbling shows up shifts depending on whether a given piece sits nearer the shoulder or the loin, so richness varies even within a single cut. Butchers sometimes display it under the name \"marbled cut\" for how attractively the fat threads through it.\n\n## How it's made\n\nTrimming the tendon at that lean-fat border is said to make it easier to eat once cooked. It holds up well cut thick and simmered slowly into curry or stew, and just as well sliced thin for roast pork or ginger-fried pork, where the fat's sweetness comes through — equally suited to braising and grilling. It's often sold as a solid block, giving cooks the freedom to cut it thick or thin depending on the dish.\n\n## Why it took this shape\n\nIt sits at a kind of midpoint, inheriting both the shoulder's well-worked muscle and the loin's fine grain. It shows up constantly in everyday cooking — curry fillings, roast pork — carrying less formality than the loin but doing more of the daily heavy lifting on the family table. That net-like marbling is exactly what makes it so at home in a slow-simmered pot. It turns up in gift-worthy yakiniku sets too, its richness doing the work of feeling premium.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "pork-shoulder-loin",
+     "to_slug": "pork-shoulder",
+     "relation_type": "兄弟",
+     "basis": "肩ロースは「肩からロースにかけて」の部位であり、かた（前脚の付け根）と地続きの位置にある"
+    }
+   ]
+  },
+  {
+   "slug": "pork-belly",
+   "body_ja": "## 何でできているか\n\n肋骨のまわりにつく部位で、赤身と脂肪が幾層にも重なってしましまの断面をつくる。脂の層が厚いぶん加熱すると濃厚な甘みが出て、赤身の層がそれを引き締める。骨付きのまま整形されたものは「スペアリブ」という別名で扱われる。層の厚みは肋骨に近い側と腹側とで異なり、部位のどこを切り出すかで脂と赤身の比率も変わる。脂身の色は乳白色に近く、赤身との対比が美しい断面をつくるとされる。\n\n## どう作るのか\n\n角煮やベーコンの原料として広く使われ、長時間じっくり火を通すと脂が溶けて赤身がほろりとほぐれる。皮つきのまま扱う場合は下ゆでして余分な脂を落とすことが多く、脂の層が厚いぶん、生焼けと焼きすぎの両方を避ける火加減の見極めが要る。塊のまま調理してから切り分けると、層の断面がきれいに見える仕上がりになるとされる。圧力鍋を使えば煮込み時間を短縮しつつ同様のとろけ具合に近づけられるとされる。\n\n## なぜこの形になったのか\n\n角煮やベーコンといった「時間をかけて脂を手なずける」料理の定番素材になってきたのは、層状の脂と赤身という構造そのものが、じっくり火を通すことで一番おいしくなる作りだからだ。骨付きのまま焼き物や煮込みにするスペアリブは、同じ部位の別の顔と言える。脂の多さが弱点ではなく持ち味として扱われてきた点も、この部位らしい位置づけだ。",
+   "body_en": "## What it's made of\n\nThe rib section, where lean and fat stack in alternating layers to give the cut its striped cross-section. The thick fat layers turn richly sweet when cooked, and the lean layers keep that richness in check. Left bone-in and trimmed into a rack, this same cut goes by a different name: spare ribs. How thick those layers run differs between the rib side and the belly side, so the fat-to-lean ratio shifts depending on exactly where a piece is cut. The fat itself runs a milky white, making for a strikingly layered cross-section against the lean.\n\n## How it's made\n\nIt's the standard base for kakuni (braised pork belly) and bacon, and long, slow cooking melts the fat and lets the lean pull apart tender. Left skin-on, it's often parboiled first to render off excess fat, and with such thick fat layers, judging the heat carefully — avoiding both undercooking and toughening it — matters. Cooking it whole before slicing is said to give a cleaner look at those layers once plated. A pressure cooker can shorten the braising time while still getting close to that same melting texture.\n\n## Why it took this shape\n\nIt became the go-to ingredient for dishes built around slowly taming fat, like kakuni and bacon, precisely because its layered structure rewards long, gentle heat more than almost any other cut. Left on the bone as spare ribs, it's the same cut wearing a different face. That its richness has always been treated as the point, not a flaw, says something about its whole culinary role.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "pork-belly",
+     "to_slug": "spare-rib",
+     "relation_type": "兄弟",
+     "basis": "バラ肉の説明に「骨付きのまま販売されるものはスペアリブと呼ばれる」と明記されており、同じ部位の骨付き/骨なしの関係"
+    }
+   ]
+  },
+  {
+   "slug": "pork-leg",
+   "body_ja": "## 何でできているか\n\n後ろ脚の付け根にあたる部位で、脂肪が少なく赤身が大半を占める。ヒレに次いでビタミンB1を多く含むとされ、あっさりとした味わいながら肉のうまみはしっかり感じられる。もも肉のなかでも内側と外側で肉質がわずかに異なり、内側は比較的きめが細かく、外側はやや歯ごたえが強い傾向があるとされる。きめの細かさは他の赤身部位にも劣らず、脂肪の少なさと両立している点が評価される。\n\n## どう作るのか\n\n脂肪が少ないため加熱しすぎるとパサつきやすく、厚切りでじっくり焼くよりも、薄切りや塊のまま低温でじっくり火を通す調理が向く。焼き豚やハムの原料としても使われ、加工したものは「ボンレスハム」と呼ばれる。塊のまま扱うときは筋の向きを見極めてから切り分けると、繊維を断つ方向に包丁を入れられ、口当たりが柔らかくなるとされる。\n\n## なぜこの形になったのか\n\n脂肪の少なさと栄養価の高さから、ロースやバラのような濃厚さより「日常的に食べやすい赤身肉」としての役割を担ってきた部位。ハムや焼き豚といった加工品の定番原料になっているのも、赤身主体で扱いやすく、まとまった量が取れることが背景にあるとされる。脂に頼らず肉そのものの味で満足させる、いわば実直な部位でもある。スポーツ選手の食事など、高タンパクな赤身肉を積極的に取り入れる場面でも選ばれやすい。",
+   "body_en": "## What it's made of\n\nFrom the base of the hind leg, low in fat and mostly lean meat. Said to be second only to the tenderloin in vitamin B1 content, it carries a light flavor but still real savoriness. Texture varies subtly between the inner and outer portions of the leg, with the inner side running somewhat finer-grained and the outer side chewing a touch firmer. Its fine grain holds its own against other lean cuts, managing to pair with low fat at the same time.\n\n## How it's made\n\nBeing so low in fat, it dries out easily if overcooked, so it suits slow, gentle heat on a thick cut or whole roast rather than fast high-heat grilling. It's also a standard base for roast pork and ham — processed whole, it's what's sold as boneless ham. Handled as a whole roast, reading the direction of the muscle fiber before slicing against the grain is said to keep the texture tender.\n\n## Why it took this shape\n\nIts low fat and high nutrition have given it a role less about richness, more about being an everyday, easy-to-eat lean meat, in contrast to the loin or belly. Its status as the standard base for ham and roast pork is said to come from being lean, manageable, and yielded in bulk. It's a cut that satisfies on the strength of the meat itself, without leaning on fat to do the work. It's a natural fit for athletes' meals too, wherever a lean, high-protein cut is called for.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "pork-leg",
+     "to_slug": "pork-outside-round",
+     "relation_type": "兄弟",
+     "basis": "そとももの説明に「もも肉の外側にあたる部位」と明記され、ももの一部として直接つながる"
+    }
+   ]
+  },
+  {
+   "slug": "pork-shoulder",
+   "body_ja": "## 何でできているか\n\n前脚の付け根にあたる部位で、ロースやももに比べてきめがやや粗く、肉色も濃い。前脚は日常的によく動かす場所のため筋がしっかりしており、赤身の味の濃さでは他の部位に引けを取らないとされる。運動量の多さゆえに部位のなかに筋や膜が入り組んでおり、切り出す位置によって歯ごたえの印象も変わる。煮込むと溶け出すコラーゲン質が少しずつスープにとろみを添えるとされる。\n\n## どう作るのか\n\n薄切りや角切りにして煮込み料理に使うと、粗い筋がほどけて旨みが引き立つとされる。ロースに比べて価格が手頃なぶん、日々の食卓で使う量を気にせず使いやすい部位でもある。厚切りのまま焼くよりも、切り分けて煮る・炒めるほうが持ち味が出る。角切りにして煮込む場合は、脂身の少ない分だけ長めに加熱して味を含ませる下ごしらえが向くとされる。\n\n## なぜこの形になったのか\n\n運動量の多い前脚由来という成り立ちが、そのまま「煮込んでこそ生きる部位」という調理上の位置づけにつながっている。ロースのような繊細さやももの淡白さとは違う、噛むほどに味の出る赤身として、家庭の煮込み料理を支えてきた部位と言える。手ごろな価格帯そのものが、日常の台所での出番の多さを物語っている。煮込み料理の主役というより、スープや煮汁全体の味を底上げする脇役的な働きも担っている。",
+   "body_en": "## What it's made of\n\nFrom the base of the foreleg, somewhat coarser-grained and darker in color than the loin or leg. Since the foreleg is worked constantly in everyday movement, its muscle fiber runs firm, and its lean flavor is said to hold its own against any other cut. All that work leaves tendon and membrane woven through the meat, so the chew changes noticeably depending on exactly where a piece is cut from. The collagen that renders out during simmering is said to lend the broth a gentle body of its own.\n\n## How it's made\n\nSliced thin or cubed for simmered dishes, its coarser fibers loosen up and let the flavor come through, it's said. It's generally more affordable than the loin too, making it an easy cut to reach for without watching the quantity. It shows its best side cut and braised or stir-fried rather than grilled thick. Cubed for stew, it's said to suit a somewhat longer cooking time to make up for its lower fat content and let the seasoning soak all the way in.\n\n## Why it took this shape\n\nComing from a hard-working foreleg is exactly what gives it its place in the kitchen: a cut that comes alive through simmering. Different from the loin's delicacy or the leg's mildness, it's a lean cut that rewards chewing with more flavor, and it's long carried the everyday stew pot at home. Its modest price alone tells you how often it earns a spot in the everyday kitchen. It's less a headline cut for stewing than a quiet contributor, deepening the overall flavor of the pot.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "pork-shoulder",
+     "to_slug": "pork-leg",
+     "relation_type": "対比",
+     "basis": "かたは「きめがやや粗く肉色が濃い」前脚由来の煮込み向き部位、ももは「脂肪が少なくビタミンB1を多く含む」後ろ脚由来の赤身部位と、前脚・後ろ脚で性格が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "pork-outside-round",
+   "body_ja": "## 何でできているか\n\nもも肉のうち外側にあたる部分で、ほとんどの豚肉料理に使える万能な部位とされる。肉色の濃い部分はきめが粗く、内側の肉よりやや歯ごたえが強い。脂肪が少なく、赤身らしいさっぱりとした味わいが持ち味。もも肉のなかでは比較的まとまった量が取れる部位でもあり、日々の献立に使い勝手のよいサイズで店頭に並ぶことが多い。薄切りにすれば火が通りやすく、時短調理にも向くとされる。\n\n## どう作るのか\n\nきめが粗い部分は薄切りや角切りにすると食べやすく、生姜焼きのように短時間で味をからめる調理によく合うとされる。脂肪が少ないぶん火を通しすぎると硬くなりやすく、厚みをそろえて手早く仕上げる下ごしらえが向く。筋の向きに逆らって切ると口当たりが柔らかくなるとされ、薄切りにする際はこの向きの見極めが仕上がりを左右する。\n\n## なぜこの形になったのか\n\n特定の一皿を代表するというより、「困ったらこの部位」という位置づけで台所に根づいてきた部位と言える。脂肪の少なさで際立つヒレほどの繊細さは求められない代わりに、価格と使い勝手のバランスで日常のおかずを支えてきた。特別な日の一皿より、毎日の食卓を支える働き者としての立ち位置がふさわしい部位だ。特売の目玉になることも多く、家庭の食費をやりくりする上で頼れる部位という側面もある。",
+   "body_en": "## What it's made of\n\nThe outer portion of the leg, described as an all-purpose cut usable in nearly any pork dish. Its darker sections are coarser-grained, chewing slightly firmer than the inner leg meat, and low fat gives it a clean, lean flavor. It's one of the more generously sized portions of the leg, which is part of why it shows up at butcher counters in convenient everyday quantities. Cut thin, it cooks quickly too, making it a natural for fast weeknight cooking.\n\n## How it's made\n\nThe coarser sections are easiest to eat sliced thin or cubed, and it's said to suit quick, sauce-forward dishes like ginger-fried pork. With so little fat, overcooking toughens it fast, so cutting it to an even thickness and cooking it quickly works best. Slicing against the grain is said to keep it tender, so reading which way the fibers run matters most when it's cut thin.\n\n## Why it took this shape\n\nRather than headlining any one dish, it's earned its place in the kitchen as the cut you reach for when nothing more specific is called for. It doesn't ask for the tenderloin's delicacy, but its balance of price and everyday usability has carried a lot of ordinary weeknight cooking. It suits the role of a quiet workhorse on the everyday table more than a star turn on a special occasion. It's often the cut on sale, which speaks to its role as something households can lean on for the grocery budget.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "pork-outside-round",
+     "to_slug": "pork-tenderloin",
+     "relation_type": "対比",
+     "basis": "そとももは「ほとんどの豚肉料理に使える万能な部位」、ヒレは「1頭から取れる量が少なくロースより高値」の希少部位と、日常使いと高級部位という対照"
+    }
+   ]
+  },
+  {
+   "slug": "spare-rib",
+   "body_ja": "## 何でできているか\n\nバラ肉のうち骨がついたまま整形された部位で、骨のまわりには特に濃厚な脂と旨みが集まる。骨から伝わる熱で身の中心までじっくり火が入りやすく、骨なしのバラとは食感の印象が変わる。骨と骨の間隔に沿って一本一本を切り分けるため、一本ごとの脂と赤身の割合にはわずかなばらつきが出る。骨のまわりに集まる旨みは、骨から少し身を外しただけでも強く感じ取れるとされる。\n\n## どう作るのか\n\n煮込みやオーブン焼きでじっくり時間をかけて火を通し、骨から身が外れやすくなるまで加熱するのが定番とされる。骨があることで持ちやすく、かぶりつく食べ方に向く一方、火の通りにムラが出やすいため下ゆでで一度脂を落としておく下ごしらえも使われる。骨の両側から均等に火が入るよう、鍋のなかで向きを返しながら煮る工夫も語られる。\n\n## なぜこの形になったのか\n\n同じバラ肉でも、骨を残すか外すかで料理の格好が変わる。骨付きのまま豪快に焼く・煮るという食べ方は、繊細な調理を求められるとんかつの主役・ロースとは対照的な、時間と手をかけて骨際の旨みを引き出す料理の系統を担っている。手づかみで食べる料理が多いのも、骨付きならではの楽しみ方と言える。アメリカ式のバーベキューでも定番の部位として扱われ、国を問わず愛される豪快な調理法と相性がよい。",
+   "body_en": "## What it's made of\n\nPork belly left bone-in and trimmed into a rack, with especially rich fat and flavor gathered around the bone. Heat conducts through the bone into the meat's center, giving it a different textural character from boneless belly. Ribs are cut apart along the bone spacing, so the exact ratio of fat to lean varies slightly from one rib to the next. The savoriness gathered near the bone comes through strongly even in just the sliver of meat closest to it.\n\n## How it's made\n\nThe standard approach is long, slow cooking — braising or roasting — until the meat pulls easily from the bone. The bone gives it something to hold onto for eating by hand, though the cooking can run uneven, so parboiling first to render off some fat is also used. Turning the rack partway through a braise, so heat reaches both sides of the bone evenly, is another common technique.\n\n## Why it took this shape\n\nThe same belly cut takes on a different character depending on whether the bone stays or goes. Cooked whole and bone-in, it belongs to a lineage of dishes built around slow, hands-on work to coax flavor out near the bone — a contrast to the loin's more delicate, precision-cooked role in tonkatsu. That so many spare rib dishes are eaten by hand is very much part of the bone-in experience. It's a staple of American-style barbecue too, its hands-on, hearty cooking style crossing borders easily.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "spare-rib",
+     "to_slug": "pork-loin",
+     "relation_type": "対比",
+     "basis": "スペアリブは骨付きのまま長時間煮込む豪快な調理が定番、ロースはとんかつ・しゃぶしゃぶなど繊細な火加減が求められる最上級部位と、扱われ方が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "tontoro",
+   "body_ja": "## 何でできているか\n\n頬から首にかけての部位で、脂が細かくきめ込むように入り、マグロのトロを思わせるとろけるような口当たりを持つ。1頭から少量しか取れないとされ、赤身と脂のバランスが濃厚な味わいをつくる。頬に近い側と首に近い側とで脂の入り方に差があり、部位のなかでもとろけ方の強弱が変わる。見た目には赤身のような色合いでも、口に入れると脂の存在感が一気に前に出てくる。\n\n## どう作るのか\n\n脂が多いぶん加熱しても硬くなりにくく、焼肉や焼き鳥屋では串や網焼きでじっくり炙る食べ方が定番とされる。1頭あたりの取れる量が少ないため、複数頭分をまとめてようやく人数分の串がそろう希少部位でもある。厚みを均一にそろえて切り出すことで、串を刺した際の火の通りにムラが出にくくなるとされる。予約制で提供する店もあるほど、入荷量そのものが仕入れの時点で読みにくい部位とされる。\n\n## なぜこの形になったのか\n\n「トントロ」という名前自体が、マグロのトロに例えられる脂ののり方の類似から生まれたとされ、まったく違う動物の部位を結びつける発想が食文化の面白さとして語られる。希少性と脂の濃さが、焼肉・焼き鳥どちらの卓でも特別な一皿としての位置づけを支えている。数に限りがあるからこそ、注文するときのちょっとした特別感につながっている。",
+   "body_en": "## What it's made of\n\nFrom the cheek to the neck, finely marbled with fat that melts almost like fatty tuna. Only a small amount comes from each pig, and the balance of lean and fat gives it an especially rich flavor. How much fat runs through it differs slightly between the cheek side and the neck side, so how much it melts in the mouth shifts along its length. It can look like an ordinary piece of lean meat, but the fat's presence hits the moment it's in the mouth.\n\n## How it's made\n\nIts high fat content keeps it from toughening even under direct heat, and grilling it slowly, skewered or over an open flame, is the standard at yakiniku and yakitori counters alike. Because so little comes from one animal, pulling together enough for a full round of skewers usually means drawing on several pigs. Cutting it to an even thickness is said to keep the heat reaching a skewered piece evenly. Some shops even take it by reservation only, since how much comes in is hard to know until the animal is butchered.\n\n## Why it took this shape\n\nThe name itself is said to come from a resemblance to fatty tuna, or toro — a case where two completely unrelated animals get linked by nothing but the way their fat renders, which is part of what makes it a fun bit of food culture. Its scarcity and richness together earn it a special-occasion spot on both yakiniku and yakitori menus. Being limited in supply is exactly what gives ordering it a small sense of occasion.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tontoro",
+     "to_slug": "maguro",
+     "relation_type": "対比",
+     "basis": "トントロの名は「マグロのトロのように脂がのった食感」に由来すると出典に明記されており、まったく異なる動物の部位を脂の質感で結びつける編集上の対比"
+    }
+   ]
+  },
+  {
+   "slug": "kashira",
+   "body_ja": "## 何でできているか\n\nこめかみから頬にかけての部位で、「チークミート」とも呼ばれる。よく動かす筋肉のため歯ごたえがしっかりしており、脂身はトントロよりも控えめで、赤身らしい引き締まった味わいが前に出る。表情筋にあたる部分のため筋繊維が細かく、噛むほどに弾力が戻ってくるような独特の歯ざわりを持つ。脂肪が控えめなぶん、味付けをしっかり効かせても部位本来の歯ごたえが埋もれにくい。\n\n## どう作るのか\n\n主に加工品の原料として利用されるが、焼き鳥店では串に打って炙る食べ方でも提供される。運動量の多い部位ゆえに筋が入り組んでおり、串打ちの際は繊維の向きをそろえて切り出すことで、噛み切りやすさが変わるとされる。塩でシンプルに焼き上げる店が多く、味付けよりも部位そのものの歯ごたえを前面に出す調理が主流とされる。\n\n## なぜこの形になったのか\n\n加工品の裏方に回ることが多いこの部位が、あえて串にのぼるときは「歯ごたえ」そのものが売りになる。となりのトントロが脂のとろけを楽しむ部位だとすれば、カシラは同じ頭まわりでありながら噛む力を楽しむ、対照的な役どころを担っている。地味な扱いを受けがちな部位が一本の串で主役に変わる面白さも、この部位らしさと言える。希少部位として扱う店もあり、トントロと並べて注文されることも多い。",
+   "body_en": "## What it's made of\n\nFrom the temple to the cheek, also known as \"cheek meat.\" Being a well-worked muscle, it chews firm, with less fat than tontoro and more of a lean, tight-grained flavor up front. As part of the facial muscle, its fiber runs fine, giving a distinctive bite that seems to spring back the more you chew it. Its modest fat means a bold seasoning doesn't bury the cut's own characteristic chew.\n\n## How it's made\n\nIt's mainly used as raw material for processed products, though it also turns up skewered and grilled at yakitori shops. The muscle fiber runs dense from constant use, and cutting with the grain aligned when skewering is said to change how easily it chews. Many shops grill it simply with salt, letting the cut's own texture take the lead over any heavy seasoning.\n\n## Why it took this shape\n\nA cut that mostly works behind the scenes in processed goods, when it does make it onto a skewer, its firm chew is the whole point. Where its neighbor tontoro sells melting fat, kashira — from the same head-and-neck neighborhood — sells the pleasure of a good, firm bite instead. That a cut usually relegated to the background can headline a single skewer is part of its particular charm. Some shops treat it as a rare cut, often serving it alongside tontoro for the sake of the contrast.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kashira",
+     "to_slug": "tontoro",
+     "relation_type": "兄弟",
+     "basis": "カシラは「こめかみから頬にかけて」、トントロは「頬から首にかけて」と、いずれも頭部まわりで隣接する部位"
+    }
+   ]
+  },
+  {
+   "slug": "buta-tan",
+   "body_ja": "## 何でできているか\n\n豚の舌にあたる部位で、牛タンに比べると小ぶりだが、味わいの方向性は近い。舌の根元は脂肪が多くやわらかく、先端に向かうほど筋肉質で歯ごたえが増す、一本の中でも表情が変わる部位だ。表面は薄い皮に覆われており、下処理でこれを取り除くとなめらかな断面が現れる。厚みのある根元部分は歯ごたえがしっかりしており、噛むほどに旨みがにじむとされる。\n\n## どう作るのか\n\n薄切りにして網焼きや唐揚げにする食べ方が知られ、根元側と先端側で厚みを変えて切り分けると火の通りがそろいやすい。ビタミンや鉄、タウリンを多く含むとされ、下処理としては表面の薄皮を取り除いてから調理するのが一般的。斜めに包丁を入れて薄くそぎ切りにすると、噛み切りやすさが増すとされる。冷凍された状態で流通することも多く、解凍後は水分をしっかり拭き取ってから焼くと臭みが出にくいとされる。\n\n## なぜこの形になったのか\n\n同じ「タン」でも牛のものより小ぶりで手に入れやすく、焼肉店や居酒屋では気軽な一品として扱われることが多い。牛タンが厚切りで塩焼きの主役を張るのに対し、豚タンは薄切りにして脇を固める役回りに立つことが多く、同じ部位名でも料理での立ち位置は分かれている。頭部に由来する部位という成り立ちは、頬肉のカシラとも通じるところがある。",
+   "body_en": "## What it's made of\n\nThe tongue, smaller than beef tongue but similar in overall flavor direction. The base is fattier and soft, growing more muscular and firmer toward the tip, so the texture shifts along its length. A thin membrane covers the surface, and once that's trimmed away in prep, a smooth cut face is revealed underneath. The thicker base chews with real substance, releasing more savoriness the longer you work at it.\n\n## How it's made\n\nIt's known to be sliced thin for grilling or deep-frying, and cutting the base and tip to different thicknesses helps them cook through evenly. Said to be rich in vitamins, iron, and taurine, it's typically skinned on the surface before cooking. Slicing it thin on an angle is said to make it easier to bite through cleanly. It's often sold frozen, and patting it dry after thawing is said to cut down on off-odors once it hits the grill.\n\n## Why it took this shape\n\nBeing smaller and easier to source than beef tongue, it tends to show up as a casual order at yakiniku spots and izakaya. Where beef tongue is cut thick and grilled with salt as the headline dish, pork tongue is usually sliced thin and plays more of a supporting role — the same cut name, a different place at the table. Coming from the head, much like cheek meat, it shares something of a family resemblance with kashira.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "buta-tan",
+     "to_slug": "kashira",
+     "relation_type": "兄弟",
+     "basis": "タンは頭部にある舌の部位、カシラはこめかみから頬にかけての部位で、ともに豚の頭まわりに由来する部位同士"
+    }
+   ]
+  },
+  {
+   "slug": "gatsu",
+   "body_ja": "## 何でできているか\n\n豚の胃にあたる部位で、臭みが少なく内臓が苦手な人でも比較的食べやすいとされる。厚みのある筋肉質な壁を持ち、噛むとコリコリとした歯ざわりが返ってくる、内臓系のなかでもくせの薄い部位。表面には細かなひだが多く、見た目にも他の内臓とは異なる独特の質感を持つ。厚みのある壁は加熱してもしぼみにくく、ボリューム感のある一切れとして楽しめる。\n\n## どう作るのか\n\n下茹でしてから炒め物や煮込みに使われることが多く、鉄板焼きにも向くとされる。消化管の入り口にあたるため内側にひだが多く、下処理では汚れやぬめりを丁寧に落としてから茹でこぼす工程が欠かせない。茹で上がったあとは薄切りにすることで、コリコリとした歯ざわりがより際立つとされる。茹でこぼしを複数回繰り返すことで、より淡白でくせのない仕上がりになるとされる。\n\n## なぜこの形になったのか\n\n豚の消化管のうち、口に一番近いこの部位から先に小腸・大腸へと続いていく。もつ煮や炒め物といった「くせが少ない内臓から挑戦できる」入り口的な位置づけにあり、内臓料理に慣れていない客にもすすめやすい部位として扱われることが多い。もつ焼きのコースでは、最初の一皿として置かれることも少なくない。内臓料理の入門編として扱われることが多く、そこから他の部位に挑戦する客も少なくないとされる。",
+   "body_en": "## What it's made of\n\nThe stomach, said to have little odor and to be relatively approachable even for those unused to offal. Its walls are thick and muscular, giving a crisp, firm bite — one of the milder-tasting organs in the offal lineup. Its surface is heavily folded and ridged, giving it a distinct look and feel compared to other organ cuts. Its thick walls hold their shape under heat, giving each piece a satisfying sense of bulk.\n\n## How it's made\n\nIt's usually parboiled first, then stir-fried or simmered, and also suits teppan-grilling. As the entry point of the digestive tract, its inner surface is heavily folded, so careful cleaning and a preliminary boil to clear away grime are essential prep steps. Slicing it thin once boiled is said to bring out its crisp texture even more. Parboiling it more than once is said to leave an even milder, cleaner result.\n\n## Why it took this shape\n\nIt's the first stop in the pig's digestive tract, leading on into the small and then large intestine. In motsu-nabe and stir-fries, it tends to serve as the approachable entry point into offal cooking — a cut often recommended to diners not yet used to eating organ meat. On a yakiton course, it's not unusual to see it served first for exactly that reason. It often serves as a gateway into offal cooking, with diners going on to try other cuts from there.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gatsu",
+     "to_slug": "buta-shocho",
+     "relation_type": "兄弟",
+     "basis": "消化管の並びで胃（ガツ）の次に小腸（ショウチョウ）が続く、隣接する消化器官"
+    }
+   ]
+  },
+  {
+   "slug": "buta-hatsu",
+   "body_ja": "## 何でできているか\n\n豚の心臓にあたる部位で、脂肪が少なく淡白な味わいを持つ。牛のハツに比べるとやや小ぶりで、火が通りやすいとされる。筋肉の壁が厚い部分と薄い部分があり、切り分ける位置で歯ごたえが変わる。心室にあたる部分は特に肉厚で、噛みごたえのある一切れになるとされる。赤みの強い断面は新鮮さの目安にもなり、鮮度が味わいに直結する部位とされる。\n\n## どう作るのか\n\n調理の際は十分な血抜きが必要とされ、下処理を丁寧に行うほど臭みが抑えられる。鉄板焼きや煮物によく合い、火が通りやすいぶん、焼きすぎるとすぐに硬くなるため短時間で仕上げる焼き方が向く。厚みのある部分は開いて薄くしてから焼くと、火の通りが均一になりやすいとされる。串に刺す際は複数個をまとめて刺すことで、一本あたりの食べ応えを出す工夫もされる。\n\n## なぜこの形になったのか\n\n同じ「ハツ」でも動物ごとに大きさが違い、豚のものは牛より小ぶりで火の通りが早いぶん、焼きとん屋でも扱いやすい部位として親しまれてきた。淡白な味わいはくせの強い内臓が並ぶなかで箸休め的な役割も果たしている。同じ胸まわりの臓器であるレバーとは、もつ盛りの卓で並んで出されることも多い。同じ胸腹部の臓器であるレバーとは対照的に、あっさりとした味わいで脇を固める役どころにある。",
+   "body_en": "## What it's made of\n\nThe heart, low in fat with a mild flavor. Said to be somewhat smaller than beef heart and quicker to cook through, it has both thicker and thinner-walled sections that chew differently depending on where it's cut. The chamber walls run especially thick in places, giving a few notably heartier bites within the same piece. A deep red cut face is one sign of freshness, and freshness here shows through directly in the flavor.\n\n## How it's made\n\nThorough draining of blood is said to be needed before cooking, and the more carefully that's done, the less odor remains. It suits teppan-grilling or simmering, and since it cooks through fast, a short time on the heat keeps it from toughening. Butterflying the thicker sections flat before grilling is said to even out how it cooks. Threading several onto one skewer is a common way to give a single serving more substance.\n\n## Why it took this shape\n\n\"Hatsu\" comes in different sizes across species, and the pork version — smaller and quicker-cooking than beef — has made it an easy cut for yakiton stalls to work with. Its mild flavor also gives diners a bit of a break between the more assertive offal cuts on the menu. Sharing the chest cavity with the liver, the two often turn up side by side on the same offal platter. Set against the liver sharing the same cavity, it plays the milder, supporting role at the table.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "buta-hatsu",
+     "to_slug": "buta-reba",
+     "relation_type": "兄弟",
+     "basis": "心臓（ハツ）と肝臓（レバー）はともに胸腹部にある主要な内臓で、もつ盛りの卓でも並んで扱われることが多い近しい部位同士"
+    }
+   ]
+  },
+  {
+   "slug": "buta-reba",
+   "body_ja": "## 何でできているか\n\n豚の肝臓にあたる部位で、ビタミンAや鉄分を豊富に含む。牛レバーよりくせが強いとされ、独特の風味と濃厚な後味を持つ。高タンパク低カロリーな食材として知られ、断面はなめらかで崩れやすい。表面には薄い膜が張っており、これを取り除くかどうかでも口当たりの印象が変わるとされる。生食が禁止されて以降は、加熱調理を前提とした扱われ方が定着したとされる。\n\n## どう作るのか\n\n揚げ物や炒め物、ソテーによく使われ、くせの強さを牛レバーより意識した下処理が重視される。血抜きや臭み取りのために牛乳や香味野菜に漬け込むといった工夫がされることが多く、加熱しすぎるとぼそぼそになるため火加減の見極めが要る。切り分ける際は血管の筋を避けて包丁を入れると、崩れにくく仕上がるとされる。スライスの厚みを均一にそろえることで、火の通りのムラを防げるとされる。\n\n## なぜこの形になったのか\n\n牛レバーに比べてくせが強いぶん、しっかりとした下味やにんにく・生姜を効かせた調理と合わせられることが多く、もつ焼きや炒め物のなかでも存在感の強い一品として扱われてきた。淡白な部位の後に置くと、味の起伏をはっきりつける役割を果たす。同じ胸腹部の臓器であるハツとは対照的に、味の濃さで存在を主張する部位でもある。内臓のなかでも栄養価の高さで知られ、貧血予防の食材として紹介されることもある。",
+   "body_en": "## What it's made of\n\nThe liver, rich in vitamin A and iron. Said to have a stronger flavor than beef liver, it carries a distinctive taste and a rich, lingering finish. Known as high-protein and low-calorie, its cut surface is smooth and easily crumbles. A thin membrane covers the surface, and whether it's trimmed away is said to noticeably change the mouthfeel. Since raw consumption was banned, cooking it through has become the standard, unquestioned approach.\n\n## How it's made\n\nIt's commonly deep-fried, stir-fried, or sauteed, and because its flavor runs stronger than beef liver's, careful prep matters more. Soaking it in milk or aromatics to draw off blood and odor is a common step, and overcooking quickly turns it dry and crumbly, so timing the heat is key. Cutting around the connective vessels is said to help it hold together rather than fall apart. Slicing it to an even thickness is said to help it cook without patchy spots.\n\n## Why it took this shape\n\nIts stronger flavor, compared to beef liver, pairs naturally with a firm seasoning or a good hit of garlic and ginger, and it's long held a prominent place among grilled-offal and stir-fried dishes. Placed after milder cuts, it's the one that gives the lineup a clear jolt of intensity. Where the heart sitting in the same cavity stays mild, the liver is the one that makes its presence known through sheer flavor. Known among offal for its nutritional density, it's often recommended as a food to guard against anemia.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "buta-reba",
+     "to_slug": "buta-mame",
+     "relation_type": "対比",
+     "basis": "レバーは「牛レバーよりくせが強い」と明記されるほど風味の濃い内臓、マメは「脂肪が少なく栄養価が高い」あっさりとした内臓と、内臓の風味の強弱で対照的"
+    }
+   ]
+  },
+  {
+   "slug": "buta-mame",
+   "body_ja": "## 何でできているか\n\n豚の腎臓にあたる部位で、そら豆に似た形から「マメ」と呼ばれる。脂肪が少なく栄養価が高いとされ、表面はなめらかで内部には細い管が走る、他の内臓とは違う独特の構造を持つ。左右一対で存在し、一頭から取れる量はごく限られる。見た目にはそら豆というより小ぶりな一対の塊で、他の内臓と並べても判別しやすい形をしている。\n\n## どう作るのか\n\n表面の皮と尿管を取り除くと臭みが抑えられるとされ、この下処理の丁寧さが仕上がりを大きく左右する。脂肪が少なく火の通りが早いため、炒め物や焼き物で短時間仕上げる調理と相性がよいとされる。半分に割ってから焼くと中心まで均一に火が通りやすいとされる。加熱しすぎると独特の風味が強く出すぎるとされ、短時間で仕上げる火加減が好まれる。\n\n## なぜこの形になったのか\n\n料理にも使いやすい部位として紹介されることが多く、内臓のなかでは比較的くせが少なく扱いやすい部類に入る。強い風味の部位が続くもつ焼きの席では、脂肪の少なさとあっさりした味わいで箸を休める一品としての位置づけがある。くせの強いレバーの後に置かれることが多いのも、この対照的な立ち位置ゆえだ。希少な部位としてもつ焼き店の裏メニューに近い扱いを受けることもある。同じ内臓料理のなかでも、脂を抑えた選択肢を探す客にすすめられる部位でもある。",
+   "body_en": "## What it's made of\n\nThe kidney, called \"mame\" (bean) for its resemblance in shape to a fava bean. Said to be low in fat and nutrient-dense, its surface is smooth and its interior threaded with fine ducts — a structure unlike any other organ cut. It comes as a pair, one on each side, so only a limited amount is yielded per animal. In shape it reads less like an actual bean and more like a small paired lobe, distinct enough to pick out easily among other offal cuts.\n\n## How it's made\n\nRemoving the surface membrane and duct is said to cut down its odor, and how carefully that's done shapes the final result. Being low-fat and quick to cook, it suits stir-frying or grilling finished in a short burst of heat. Splitting it in half before grilling is said to help the heat reach the center more evenly. Overcooked, its distinctive flavor is said to turn overpowering, so a short time on the heat is preferred.\n\n## Why it took this shape\n\nIt's often described as easy to cook with, sitting among the milder, more approachable offal cuts. At a table of grilled offal running heavy on intense flavors, its low fat and light taste give it the job of a palate break. It's frequently served right after the more assertive liver, exactly because the two sit at opposite ends of that spectrum. As a genuinely rare cut, it sometimes turns up almost as an off-menu item at offal-grill counters. It's also a cut worth recommending to anyone at the offal table specifically looking for something lower in fat.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "buta-mame",
+     "to_slug": "buta-daicho",
+     "relation_type": "対比",
+     "basis": "マメは腎臓由来の脂肪が少なくあっさりした内臓、ダイチョウは消化管由来の脂肪はやや控えめでも歯応えの強い内臓と、内臓のなかでの由来と食感が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "buta-shocho",
+   "body_ja": "## 何でできているか\n\n豚の小腸にあたる部位で、内側に脂肪が多く付着している。大腸に比べると管が細く、火が通ると独特のとろけるような食感が出る。大腸とあわせて「モツ」として市販されることが多い。管の内側にはひだが連なっており、洗い流す手間がかかる構造をしている。管の内部は複雑に折り重なっており、この構造が下処理の手間を増やす要因にもなっている。\n\n## どう作るのか\n\n下茹でして脂を取り除く下処理が欠かせず、この手間を惜しむと臭みが強く残るとされる。もつ煮込みや炒め物によく使われ、細い管状の形をいかして輪切りにすると、味の染み込みと食感のバランスがよくなる。長く煮込むほどとろける食感が増し、短めに仕上げると弾力が残る、火加減次第で印象が変わる部位でもある。強火で一気に炒めると脂が飛び、香ばしさが増すとされる。\n\n## なぜこの形になったのか\n\n消化管のうち胃の次に位置するこの部位は、大腸とセットで「モツ」の代表格として扱われてきた。下処理に手間がかかるぶん、丁寧な仕込みがそのまま味に直結する部位で、もつ煮という料理そのものが、この手間を前提に組み立てられてきたと言える。太さの違う大腸と並べることで、もつ盛りに歯ごたえの変化が生まれる。煮込むほど旨みが染み出す一方、煮汁自体にコクを与える役割も果たしている。",
+   "body_en": "## What it's made of\n\nThe small intestine, carrying a good deal of fat attached to its inner wall. Its tube runs narrower than the large intestine's, and once cooked it takes on a distinctively soft, almost melting texture. Sold together with the large intestine as \"motsu.\" The inner wall is lined with folds, which is exactly what makes it so labor-intensive to clean. Its interior folds back on itself in complex layers, which is exactly what makes the prep so labor-intensive.\n\n## How it's made\n\nParboiling to render away the fat is an essential step, and skipping it is said to leave a strong odor behind. It's common in offal stews and stir-fries, and cutting the narrow tube into rings balances how well the flavor soaks in against the texture. Simmered longer it turns more meltingly soft, while a shorter cook keeps more spring in the bite — the impression shifts with the timing. Stir-frying it hard and fast is said to spatter off some fat and deepen the browned aroma.\n\n## Why it took this shape\n\nComing right after the stomach in the digestive tract, it's long been paired with the large intestine as the flagship of \"motsu.\" Because the prep takes real effort, how carefully it's done shows directly in the flavor — motsu-nikomi as a dish is essentially built around that labor. Set beside the thicker large intestine, it adds a contrast in bite to a plate of mixed offal. The longer it simmers the more savoriness it releases, which is also said to enrich the broth itself.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "buta-shocho",
+     "to_slug": "buta-daicho",
+     "relation_type": "兄弟",
+     "basis": "小腸の説明に「大腸とあわせてモツとして市販される」と明記されており、隣接する消化器官として一体で扱われる"
+    }
+   ]
+  },
+  {
+   "slug": "buta-daicho",
+   "body_ja": "## 何でできているか\n\n豚の大腸にあたる部位で、小腸よりも太く歯応えがあるとされる。管の壁が厚く、噛むとしっかりとした弾力が返ってくる。小腸に比べると脂肪の付き方はやや控えめで、味自体は淡白な方に寄る。太さがあるぶん、切り方によって仕上がりの印象が大きく変わる部位でもある。太い管状の構造ゆえに、一度にまとまった量を仕込みやすい部位でもある。\n\n## どう作るのか\n\n下処理として脂肪を落としてから使うのが一般的とされ、野菜と味噌で煮たり、酢の物やマリネにするなど幅広い調理法で食べられる。管が太いぶん、開いて広げてから切り分けると味が染み込みやすくなる。輪切りにすれば弾力を、開いて切れば食べやすさを優先できるなど、切り方そのものが味わい方を左右する。酢の物にする場合は、下茹でのあとに一度冷ますことで余分な脂が固まって取りやすくなるとされる。\n\n## なぜこの形になったのか\n\n小腸とセットで「モツ」を代表する部位ながら、太さゆえの歯ごたえの強さで小腸とは違う存在感を放つ。もつ煮込みの鍋のなかでも噛みごたえのある部位として、脂の多い部位や淡白な部位との対比を生む役どころにある。同じもつ焼きの卓では、コブクロのような柔らかい部位と並べて出されることも多い。もつ鍋の具材としても定番で、噛みごたえが鍋全体の満足感を支えている。",
+   "body_en": "## What it's made of\n\nThe large intestine, said to be thicker and chewier than the small intestine. Its walls run thick, giving a firm, springy resistance with each bite, while carrying somewhat less fat and a milder flavor than the small intestine. Because the tube runs thick, how it's cut changes the finished texture quite a bit. Its thick, tube-like structure makes it easy to prep in bulk in one go.\n\n## How it's made\n\nTypically trimmed of excess fat before use, it's prepared in various ways — simmered with vegetables and miso, or dressed with vinegar or marinade. Because the tube is thick, opening it flat before cutting helps the seasoning soak in. Cut into rings it keeps more spring; opened flat it's easier to eat — the cut itself shapes the eating experience. For a vinegar dish, letting it cool after parboiling is said to firm up the remaining fat so it's easier to trim away.\n\n## Why it took this shape\n\nPaired with the small intestine as one half of \"motsu,\" its thickness gives it a firmer presence all its own. In a pot of motsu-nikomi, it's the cut that brings a solid chew, standing in contrast against fattier or milder pieces alongside it. At the same offal table, it's often served next to a softer cut like kobukuro for exactly that contrast. It's a motsu-nabe staple too, its chew doing real work toward the pot's overall satisfaction.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "buta-daicho",
+     "to_slug": "buta-kobukuro",
+     "relation_type": "対比",
+     "basis": "ダイチョウは消化管由来の歯ごたえの強い部位、コブクロは生殖器官由来の柔らかく淡白な部位と、同じもつ焼きの卓に並びながら由来と食感が対照的"
+    }
+   ]
+  },
+  {
+   "slug": "buta-kobukuro",
+   "body_ja": "## 何でできているか\n\n豚の子宮にあたる部位で、若い雌豚のものは柔らかく淡白な味わいとされる。脂肪が非常に少なく、噛むとコリッとした軽い歯ざわりがある。焼肉店で扱う「コブクロ」の多くは、実はこの豚由来とされる。管状の構造をしており、切り方によって断面のリング状の模様が見える。厚みのある壁は加熱すると程よく縮み、コリコリとした歯ざわりがより際立つとされる。\n\n## どう作るのか\n\n脂肪が少ないため網焼きや和え物に向くとされ、下処理では表面のぬめりや筋膜を丁寧に取り除く。淡白な味わいを生かすなら塩焼き、香りを足すなら香味だれで和えるなど、味付けの幅を広く受け止める部位でもある。輪切りにすると火が均一に通りやすく、断面の模様も楽しめるとされる。香味野菜と一緒に下茹ですると、臭みがさらに抑えられるとされる。\n\n## なぜこの形になったのか\n\n牛のコブクロと混同されがちだが、実際には豚由来のものが多く流通しているとされ、脂肪の少なさと軽い歯ごたえが焼肉店の卓でも重宝されてきた。強い風味の内臓が並ぶなかで、あっさりと箸を進められる一品としての立ち位置がある。歯ごたえの強いダイチョウと並べると、もつ盛りの中で柔らかさが際立つ。希少部位ゆえに一晩の提供数を限定する店もあり、早めの注文がすすめられることもある。",
+   "body_en": "## What it's made of\n\nThe uterus. From young sows it's said to be tender and mild, with very little fat and a light, crisp bite. Most \"kobukuro\" served at yakiniku shops is actually said to come from pork rather than beef. Its tubular structure means slicing it can reveal a ring-shaped pattern in cross-section. Its thick walls shrink pleasantly under heat, making the crisp bite stand out even more.\n\n## How it's made\n\nIts low fat suits grilling or dressed dishes, and prep involves carefully removing the surface slick and connective membrane. Its mild flavor takes well to a plain salt grill, or to a fragrant sauce if you want more character. Cut into rings, it cooks evenly and shows off that ring pattern on the plate. Parboiling it together with aromatics is said to cut the odor down even further.\n\n## Why it took this shape\n\nOften mistaken for the beef version, most of what's served as \"kobukuro\" at yakiniku shops is actually said to come from pork. Its low fat and light bite have made it a welcome cut at the grill table, offering a clean, easy piece amid the more assertive offal around it. Set beside the firmer large intestine, its softness stands out all the more on a mixed offal plate. Being genuinely rare, some shops cap how many servings they'll offer in a night, and ordering early is advised.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "buta-kobukuro",
+     "to_slug": "buta-mame",
+     "relation_type": "対比",
+     "basis": "コブクロは「脂肪が非常に少ない」子宮由来の部位、マメは「脂肪が少なく栄養価が高い」腎臓由来の部位と、ともに内臓のなかでは比較的くせが少ない部類でありながら由来が異なる"
+    }
+   ]
+  },
+  {
+   "slug": "tonsoku",
+   "body_ja": "## 何でできているか\n\n豚の足にあたる部位で、大半が皮と軟骨、そしてコラーゲン質で構成される。赤身はごくわずかで、噛むとぷるぷるとした弾力と、皮のねっとりとした食感が主役になる部位。関節部分には細かな軟骨が集まっており、そこだけ違う歯ごたえが楽しめるとされる。皮の表面はぷりぷりとした弾力があり、噛むと内側のコラーゲン質がとろりとにじみ出る。\n\n## どう作るのか\n\n長時間煮ると皮や軟骨に含まれるコラーゲンがゼラチン質に変わり、とろりと柔らかくなる。手間がかかるため、あらかじめ茹でた状態で売られていることが多く、家庭ではそこからさらに味付けして仕上げる流れが一般的。半分に割ってから煮ると、中まで味が染み込みやすくなるとされる。圧力鍋を使うと通常より短い時間で骨から身が外れる状態まで柔らかくできるとされる。\n\n## なぜこの形になったのか\n\n沖縄では「テビチ」の名で郷土料理に使われ、長く煮込んで骨からほろりと外すという食べ方が定着している。皮と軟骨主体という構造そのものが、時間をかけて煮るほど価値が増す部位としての位置づけを支えている。同じ皮と軟骨主体の部位であるミミガーとは、沖縄の食卓でしばしば同じ皿に並ぶ関係にある。コラーゲンを豊富に含むことから、美容や健康を意識した食材としても紹介されることがある。",
+   "body_en": "## What it's made of\n\nThe trotters, mostly skin, cartilage, and collagen, with barely any lean meat. What defines the bite is the springy give of the connective tissue and the sticky, gelatinous texture of the skin. Fine cartilage gathers around the joints, giving those spots a noticeably different chew from the rest. The skin's surface has a springy bounce, and biting through it releases the soft collagen underneath.\n\n## How it's made\n\nLong simmering turns the collagen in the skin and cartilage into gelatin, softening everything into a rich, silky texture. Given the effort involved, it's usually sold already boiled, with home cooks then seasoning and finishing it from there. Splitting it in half before simmering is said to let the seasoning reach further in. A pressure cooker can get it to that fall-off-the-bone softness in less time than a standard simmer.\n\n## Why it took this shape\n\nIn Okinawa it's known as \"tebichi,\" a local dish built around simmering it for hours until the meat pulls easily from the bone. Being built almost entirely of skin and cartilage is exactly what makes it a cut that only gets better the longer it's cooked. On an Okinawan table, it often shares the same plate with mimiga, another skin-and-cartilage cut built the same way. Rich in collagen, it's also often introduced as a beauty- and health-conscious food choice.",
+   "sources": [
+    {
+     "title": "豚の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster04.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tonsoku",
+     "to_slug": "kashira",
+     "relation_type": "対比",
+     "basis": "トンソクは「大半が皮と軟骨で構成」され主に煮込んで食べる足の部位、カシラは「主に加工品の原料として利用される」筋肉質な頭部の部位と、ともに手間をかけて仕込む部位でありながら成り立ちが対照的"
+    }
+   ]
+  },
+  {
+   "slug": "mimiga",
+   "body_ja": "## 何でできているか\n\n豚の耳にあたる部位で、軟骨を含むコリコリとした歯ざわりが特徴。赤身はほとんどなく、薄い皮と軟骨が幾重にも重なった構造を持つ。沖縄の郷土料理として親しまれている。耳の先端側と根元側とで軟骨の厚みが違い、切る場所によって歯ごたえの強さも変わる。薄くそぎ切りにするほど、皮と軟骨の層が幾重にも重なった断面がよく見える。\n\n## どう作るのか\n\n毛を丁寧に焼き取ってから茹でる下処理が必要とされ、この工程を省くと臭みが強く残る。茹でたあとは細切りにして酢の物や和え物にする食べ方が定番で、薄く切るほど軟骨の歯ごたえが際立つ。繊維を断つ方向に細く刻むと、噛み切りやすさと歯ざわりのバランスがよくなるとされる。ごま油やピーナッツバターで和えるなど、香りを足す味付けの幅も広い部位とされる。\n\n## なぜこの形になったのか\n\n軟骨とコラーゲンの層でできたこの部位は、豚足と同じく「皮と軟骨を食べる」系統の料理に連なる。沖縄では豚を鳴き声以外すべて食べるという言葉が伝わるほど部位を余さず使う食文化があり、ミミガーはその象徴的な一品として位置づけられている。淡白な味わいは、くせの強い内臓の後に置く箸休めとしても重宝される。沖縄の泡盛のつまみとしても定番で、酒の席に欠かせない一皿とされる。",
+   "body_en": "## What it's made of\n\nThe ear, prized for its crisp, cartilage-laden texture. It carries almost no lean meat, just thin skin and cartilage layered one on top of another. It's a familiar Okinawan local specialty. Cartilage runs thicker near the base than at the tip, so the firmness of the bite shifts depending on where a piece is cut from. Sliced thinner, the layered structure of skin and cartilage shows up more clearly in cross-section.\n\n## How it's made\n\nThe hair is singed off carefully before it's boiled, a step that leaves a strong odor behind if skipped. Once boiled, it's typically shredded thin and dressed with vinegar or other seasonings — the thinner the slice, the more the cartilage's crunch stands out. Cutting across the grain into fine strips is said to balance an easy bite against that crunch. It's dressed in a fair range of ways too, from sesame oil to peanut sauce, whenever more fragrance is wanted.\n\n## Why it took this shape\n\nBuilt from layers of cartilage and collagen, it belongs to the same lineage of \"eating the skin and cartilage\" as pig's trotters. Okinawa carries a saying that every part of the pig is eaten but its cry, and mimiga stands as something of a symbol of that no-waste food culture. Its mild flavor also makes it a welcome palate break after a run of stronger-tasting offal. It's a standard companion to Okinawan awamori as well, a fixture of the drinking table.",
+   "sources": [
+    {
+     "title": "ミミガーさしみ 沖縄県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_15_okinawa.html",
+     "publisher": "農林水産省 うちの郷土料理",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mimiga",
+     "to_slug": "tonsoku",
+     "relation_type": "兄弟",
+     "basis": "ミミガーは「軟骨を含むコリコリとした歯ざわり」、トンソクは「大半が皮と軟骨で構成」と、ともに皮と軟骨主体で沖縄の郷土料理（テビチ）にも通じる近しい部位"
+    }
+   ]
+  },
+  {
+   "slug": "tebasaki",
+   "body_ja": "## 何でできているか\n\n手羽のうち先端側の部位で、ゼラチン質と脂質を多く含む。骨のまわりに薄い肉がまとわりつく形をしており、皮目のパリッとした食感とゼラチン質のとろみが同時に楽しめる。骨は鶏ガラとして出汁にも使われる。関節部分の軟骨も一緒に食べられるため、部位のなかでも食感の変化が特に大きい。皮と骨のあいだにわずかに脂ものっており、噛むごとに旨みがにじみ出る構造になっている。\n\n## どう作るのか\n\n唐揚げや水炊きなど幅広い料理で使われ、油で揚げると皮がかりっと締まり、内側の脂とゼラチン質がとろける対比が生まれる。骨に沿って身が少ないぶん、下ごしらえでは骨の位置を見極めて切り込みを入れると味が染みやすい。骨に沿って一本切り込みを入れておくと、揚げても身が縮みにくくなるとされる。揚げたてに甘辛だれを二度がけすると、皮の香ばしさとたれの照りが両立するとされる。\n\n## なぜこの形になったのか\n\n名古屋の甘辛だれの唐揚げが全国的によく知られており、脂とゼラチン質の多さを甘辛い味付けで受け止める食べ方が定番として広がった。骨つきのまま手でかぶりつく食べ方そのものが、この部位の脂の濃さを一番楽しめる形として定着している。骨と軟骨、皮と身、複数の食感を一度に味わえる部位でもある。手が汚れるのを気にせず食べられる庶民的な一品として、居酒屋の定番であり続けている。",
+   "body_en": "## What it's made of\n\nThe outer tip of the wing, rich in gelatin and fat. Thin meat wraps around the bone, so the crisp skin and the soft gelatin underneath come through in the same bite. The bone itself also goes into chicken stock. Joint cartilage comes along with it too, which is part of why this cut carries such a wide range of textures in one piece. A thin layer of fat sits between the skin and bone, so savoriness seeps out with every bite.\n\n## How it's made\n\nIt appears in dishes from deep-fried karaage to hot pot; frying crisps the skin while the fat and gelatin inside stay soft, and that contrast is much of the appeal. With so little meat relative to bone, scoring along the bone before cooking helps the seasoning reach further in. A single cut along the bone is also said to keep the meat from shrinking too much as it fries. Brushing on a second coat of sweet-savory glaze right after frying is said to balance the crisp skin against the glaze's shine.\n\n## Why it took this shape\n\nNagoya's sweet-spicy fried style is the best-known version nationally, and a bold sweet-savory glaze has become the standard way to carry all that fat and gelatin. Eating it bone-in, straight off the fingers, is how this cut's richness comes through best. Bone, cartilage, skin, and meat all in one bite give it a range of texture few other cuts can match. As a cut you can eat without worrying about messy hands, it's stayed an izakaya staple for exactly that reason.",
+   "sources": [
+    {
+     "title": "鶏の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster06.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tebasaki",
+     "to_slug": "tebanaka",
+     "relation_type": "兄弟",
+     "basis": "手羽先と手羽中の説明にあるとおり、手羽のなかで隣接する部位同士"
+    }
+   ]
+  },
+  {
+   "slug": "tebanaka",
+   "body_ja": "## 何でできているか\n\n手羽先と手羽元の中間にあたる部位で、手羽先よりも小ぶりで扱いやすい。縦半分に割ったものは「鶏スペアリブ」と呼ばれ、骨のまわりに肉がついた形が豚のスペアリブを思わせる。手羽先ほどゼラチン質は多くないが、脂と赤身のバランスが取れた食べやすさがある。手羽先ほどの脂っこさはないが、ひと口ごとに肉と脂のバランスの良さを感じられる。\n\n## どう作るのか\n\n串焼きや唐揚げでよく提供され、手羽先ほど脂とゼラチン質が多くないぶん、短時間でも火が通りやすい。縦割りにする調理法では骨に沿って刃を入れる下ごしらえが要るが、家庭でも扱いやすい大きさとされる。骨が二本並んで通っているため、割る位置によって身のつき方が左右で変わることもある。皮目を下にして焼き始めると、脂が均一に染み出して香ばしく仕上がるとされる。\n\n## なぜこの形になったのか\n\n手羽先と手羽元、どちらの個性も少しずつ受け継ぐ中間的な部位として、串焼き店でも家庭でも使いやすいポジションを占めてきた。「鶏スペアリブ」という呼び名は、骨付き肉をかぶりつく食べ方の楽しさが豚のスペアリブと重なることから広まったとされる。手羽の両端をつなぐ位置にあるぶん、癖のない扱いやすさが持ち味になっている。串焼き店でも唐揚げ店でも定番の一品として扱われ、幅広い調理法に馴染む部位とされる。",
+   "body_en": "## What it's made of\n\nThe middle section between the wing tip and the drumette, smaller and easier to handle than the tip. Split lengthwise, it's called a \"chicken spare rib\" — its meat-around-bone shape recalling actual pork spare ribs. It carries less gelatin than the wing tip, giving it an easier balance of fat and lean meat. It's not as fatty as the wing tip, but each bite carries a good balance of meat and fat.\n\n## How it's made\n\nIt's commonly served skewered or deep-fried, and with less fat and gelatin than the wing tip, it cooks through faster even over a short time. Splitting it lengthwise takes a careful cut along the bone, but its size makes it manageable for home cooking too. Two bones run side by side through it, so how the meat sits can differ slightly depending on exactly where it's split. Starting it skin-side down on the grill is said to render the fat evenly for a more fragrant finish.\n\n## Why it took this shape\n\nSitting between the wing tip and drumette, inheriting a bit of each one's character, it's carved out a place that works equally well at a skewer counter or a home stove. The \"chicken spare rib\" name is said to have caught on because the fun of gnawing bone-in meat echoes actual pork spare ribs. Bridging both ends of the wing, its main virtue is simply being an easy, unfussy cut to work with. It's a fixture at both skewer counters and fried-chicken shops alike, comfortable with a wide range of cooking methods.",
+   "sources": [
+    {
+     "title": "鶏の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster06.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tebanaka",
+     "to_slug": "tebamoto",
+     "relation_type": "兄弟",
+     "basis": "手羽中の説明に「手羽先と手羽元の中間にあたる部位」と明記されており、手羽元と直接つながる"
+    }
+   ]
+  },
+  {
+   "slug": "tebamoto",
+   "body_ja": "## 何でできているか\n\n手羽のうち胴体に近い部位で、形がチューリップに似ることから「チューリップ肉」とも呼ばれる。手羽先よりもやや淡白で、骨のまわりにしっかりとした肉がつく、手羽のなかでは肉の割合が最も多い部分。皮目の脂も適度にのっており、淡白さのなかにコクを感じさせる。骨の周りに厚くつく肉は、部位のなかでもとりわけ食べ応えがあるとされる。\n\n## どう作るのか\n\n長時間煮込むと肉離れがよく、水炊きや煮物によく使われる。骨に沿って身が厚くつくため、皮に切り込みを入れて味を染み込ませたり、骨の根元をトリミングしてチューリップ形に整えたりする下ごしらえがされる。骨の一方を露出させておくと、手に持って食べやすくなるとされる。水炊きに入れる場合は、煮込みの途中で一度取り出して余熱で仕上げると身が締まりすぎないとされる。\n\n## なぜこの形になったのか\n\n手羽先が脂とゼラチン質で勝負する部位だとすれば、手羽元は肉の量そのもので満足感を出す部位にあたる。手でつかんで食べやすい骨の形と、長時間煮込んでも崩れにくい肉質が、家庭の煮込み料理に向く部位としての位置づけを支えている。同じ手羽のなかでも、脂よりも食べ応えを求める場面で選ばれる部位だ。唐揚げにしても存在感があり、家庭の食卓で人数分そろえやすい部位としても選ばれている。",
+   "body_en": "## What it's made of\n\nThe wing section nearest the body, also called \"tulip meat\" for its shape once trimmed. Milder than the tip, it carries the thickest layer of meat of any part of the wing, wrapped firmly around the bone. A moderate amount of fat under the skin still gives its plainer flavor some backbone. The thick meat wrapped around the bone gives it a heartiness few other wing cuts can match.\n\n## How it's made\n\nLong simmering lets the meat fall easily off the bone, which is why it turns up so often in hot pot and braises. With meat sitting thick around the bone, prep often involves scoring the skin to let seasoning in, or trimming the base of the bone into that tulip shape. Exposing one end of the bone is said to make it easier to hold and eat by hand. For hot pot, pulling it out partway through simmering and letting residual heat finish it is said to keep the meat from tightening up too much.\n\n## Why it took this shape\n\nWhere the wing tip earns its keep through fat and gelatin, the drumette earns it through sheer volume of meat. A bone shaped for easy handheld eating, paired with meat that holds together through long cooking, is what makes it so suited to home braises and stews. Within the wing, it's the piece reached for when heartiness matters more than richness. It holds its own fried too, and its heartiness makes it an easy cut to portion out for a table of diners.",
+   "sources": [
+    {
+     "title": "鶏の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster06.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tebamoto",
+     "to_slug": "furisode",
+     "relation_type": "兄弟",
+     "basis": "手羽元は「胴体に近い部位」、ふりそでは「手羽のなかでも肩に近い部位」と、ともに手羽の付け根まわりで隣接する"
+    }
+   ]
+  },
+  {
+   "slug": "tori-mune",
+   "body_ja": "## 何でできているか\n\n胸骨に沿った部位で、脂肪が少なく高タンパクな肉質を持つ。もも肉に比べると色が薄く繊維も細かい。皮つきのまま調理すると、皮の脂の旨みが淡白な赤身を補ってくれる。厚みのある中心部と薄くなる端の部分とで、火の通りやすさに差が出る部位でもある。皮を外すとよりカロリーが低くなるため、ダイエット食材としても紹介されることが多い。\n\n## どう作るのか\n\n高温で一気に火を通すとパサつきやすく、低温でじっくり加熱するのがよいとされる。厚みが均一でないと火の通りにムラが出やすいため、観音開きにするなど厚みをそろえる下ごしらえが向く。皮を残すか外すかで仕上がりの印象が大きく変わる部位でもある。そぎ切りにして表面積を増やすと、短時間でも火が入りやすくなるとされる。低温調理器を使えば、パサつきを抑えたまま均一に火を入れやすいとされる。\n\n## なぜこの形になったのか\n\n唐揚げやサラダチキンなど、高タンパク低脂質を前面に出した料理でよく主役を務める。脂の多いもも肉とは対照的な、赤身のあっさりした持ち味を生かす調理が数多く工夫されてきたのは、鶏のなかで最も脂肪が少ないという性格そのものへの応答と言える。淡白さを弱点ではなく個性として調理する工夫が、この部位の料理の幅を広げてきた。",
+   "body_en": "## What it's made of\n\nAlong the breastbone, lean and high in protein. It runs paler and finer-grained than thigh meat, and cooking it skin-on lets the skin's own fat richness make up for the lean meat's plainness. The thick center and the thinner edges cook at noticeably different rates within the same piece. Removing the skin lowers the calorie count further, which is why it's so often recommended for dieting.\n\n## How it's made\n\nCooking it hot and fast is said to dry it out, so slow, gentle heat is recommended. Because uneven thickness cooks unevenly, butterflying it to an even thickness is a common prep step, and whether the skin stays on or comes off changes the whole character of the finished dish. Slicing it thin on an angle increases the surface area, letting it cook through faster even over gentle heat. A sous-vide cooker is said to bring it evenly to temperature while keeping it from drying out.\n\n## Why it took this shape\n\nIt headlines dishes built around low fat and high protein, like karaage and salad chicken. That so many cooking methods have been worked out specifically to flatter its plain, lean character — the opposite of the fattier thigh — is really a response to it being the leanest cut on the bird. Treating its plainness as a trait to build around, rather than a shortfall, is what's widened its range in the kitchen.",
+   "sources": [
+    {
+     "title": "鶏の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster06.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tori-mune",
+     "to_slug": "tebasaki",
+     "relation_type": "対比",
+     "basis": "むね肉は「脂肪が少なく高タンパク」な鶏のなかで最も淡白な部位、手羽先は「ゼラチン質と脂質を多く含む」部位と、脂肪量の対極に位置する"
+    }
+   ]
+  },
+  {
+   "slug": "furisode",
+   "body_ja": "## 何でできているか\n\n手羽のなかでも肩に近い部位で、着物の振袖に形が似ることが名前の由来とされる。もも肉より脂質は控えめで、むね肉よりジューシーな上品な味わいを持つ、両者のあいだに位置する肉質が特徴。繊維はむね肉に近く細かいが、脂の入り方はもも肉に寄っている、両者の性質を併せ持つ部位でもある。羽ばたきに使う筋肉に近い部分で、適度な弾力と柔らかさを兼ね備えているとされる。\n\n## どう作るのか\n\n1羽から取れる量が少ない希少部位とされ、串焼きなど短時間で火を通す調理に向く。手羽の付け根に近いぶん骨や筋が入り組んでおり、きれいに切り出すには手間がかかる。骨からきれいに身を外すには、関節の位置を見極めて刃を入れる下処理の技術が求められるとされる。希少ゆえに扱う店が限られ、専門の焼き鳥店でしか見かけないことも珍しくない。\n\n## なぜこの形になったのか\n\nむね肉の淡白さともも肉の脂の強さ、両方の間を埋める中間的な味わいが、この部位ならではの持ち味になっている。取れる量の少なさも相まって、通好みの一本として扱われることが多い部位だ。むね肉やもも肉のように大量には出回らないぶん、串焼き店の品書きでは特別な扱いを受けることが多い。むね肉ともも肉の中間という立ち位置が、幅広い客の好みを受け止める役割も果たしている。",
+   "body_en": "## What it's made of\n\nThe part of the wing nearest the shoulder, its name said to come from a resemblance to a furisode kimono sleeve. Leaner than thigh meat but juicier than breast, it sits in a flavor register squarely between the two. Its fiber runs fine like the breast's, while its fat content leans closer to the thigh's — a cut that carries traits of both. Close to the muscle used for flapping the wing, it's said to carry a good balance of spring and softness.\n\n## How it's made\n\nYielded in only small amounts per bird, it's considered a rare cut, and suits quick cooking methods like skewer-grilling. Being close to the base of the wing, it's tangled with bone and sinew, so cutting it out cleanly takes real effort. Separating the meat neatly from the bone is said to take real skill in reading exactly where the joint sits. Being rare, only a limited number of shops carry it, and it's not unusual to find it only at dedicated yakitori counters.\n\n## Why it took this shape\n\nFilling the gap between the breast's plainness and the thigh's richness is exactly what gives this cut its particular character. Combined with how little of it there is per bird, it's often treated as a connoisseur's order. Since it never circulates in the volume that breast or thigh meat does, it tends to get special billing on a yakitori menu. Sitting between the breast and the thigh, it also serves as a cut that appeals to a wide range of tastes.",
+   "sources": [
+    {
+     "title": "鶏の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster06.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "furisode",
+     "to_slug": "tori-mune",
+     "relation_type": "対比",
+     "basis": "ふりそでの説明に「むね肉よりジューシーな上品な味わい」と明記されており、むね肉との違いが直接語られている"
+    }
+   ]
+  },
+  {
+   "slug": "sasami",
+   "body_ja": "## 何でできているか\n\nむね肉に沿って位置する細長い部位で、笹の葉に似ていることが名前の由来とされる。鶏肉のなかで最も脂肪が少なく、高タンパクな部位として知られる。中心には筋が一本通っている。左右一枚ずつしか取れず、むね肉に比べると量そのものは少ない。刺身として提供される店もあるほど、新鮮なものは臭みが少なく上品な味わいとされる。\n\n## どう作るのか\n\n筋を取り除いてから調理するのが一般的とされ、この下ごしらえを省くと口当たりが硬く残る。脂肪がほとんどないため火を通しすぎるとぱさつきやすく、さっと湯通しする、蒸すといった短時間の調理に向く。筋に沿って刃先を滑らせるように引き抜くと、身を崩さずに取り除けるとされる。梅肉や大葉と合わせるなど、淡白さを引き立てる薬味と組み合わせる調理法が定番とされる。\n\n## なぜこの形になったのか\n\nむね肉よりもさらに脂肪が少ないこの部位は、鶏の中でも「最も淡白な赤身」という立ち位置にある。サラダや冷菜など、脂を使わない軽い料理の主役として重宝されてきたのは、この脂肪のなさそのものが売りになっているためだ。むね肉が皮の脂で淡白さを補うのに対し、ささみは脂に頼らずそのままの淡白さで勝負する部位と言える。筋トレをする人々のあいだでも重宝される、高タンパク低脂質の代表格として知られる。",
+   "body_en": "## What it's made of\n\nA slender cut lying against the breast, its name said to come from a resemblance to a bamboo leaf (sasa). Known as the leanest, most protein-dense part of the bird, with a single tendon running through its center. Only one comes from each side of the bird, so it's yielded in smaller quantity than the breast itself. Some shops even serve it raw as sashimi, since a truly fresh piece carries little odor and a refined flavor.\n\n## How it's made\n\nIt's typically cooked after that central tendon is removed, a step that, if skipped, leaves the texture tough. With almost no fat to protect it, it dries out fast if overcooked, so quick methods like a brief poach or steam suit it best. Sliding a knife tip along the tendon and pulling it free is said to remove it without tearing the meat. Pairing it with plum paste or shiso is a standard way to bring out its plainness rather than mask it.\n\n## Why it took this shape\n\nLeaner even than the breast, it holds the title of the plainest lean cut on the whole bird. It's become a go-to for light, oil-free dishes like salads and cold plates precisely because that total lack of fat is the selling point, not a drawback. Where the breast leans on its skin's fat to soften its plainness, the tenderloin goes the other way, leaning into that plainness with nothing to hide behind. It's a favorite among people focused on strength training too, the archetypal high-protein, low-fat cut.",
+   "sources": [
+    {
+     "title": "鶏の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster06.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sasami",
+     "to_slug": "tori-mune",
+     "relation_type": "兄弟",
+     "basis": "ささみの説明に「むね肉に沿った細長い部位」と明記されており、むね肉と隣接する部位"
+    }
+   ]
+  },
+  {
+   "slug": "tori-momo",
+   "body_ja": "## 何でできているか\n\n脚の付け根にあたる部位で、肉厚でうまみとコクのある肉質を持つ。むね肉に比べると脂肪が多く、繊維も太い。日本人に最も好まれる部位のひとつともされ、皮目の脂が焼くと香ばしさを増す。よく動かす脚の部分だけに筋肉がしっかり発達しており、噛みごたえのある肉質にもつながっている。皮と身のあいだに脂の層があり、これが焼いたときの香ばしさの源になっている。\n\n## どう作るのか\n\n焼く、煮る、揚げるなど幅広い調理法に向き、脂肪が多いぶん多少火を通しすぎても硬くなりにくい。皮目をしっかり焼いて余分な脂を落としてから仕上げると、香ばしさと食感のバランスがよくなるとされる。厚みのある部分に切り込みを入れておくと、皮目からの火の通りが均一になりやすいとされる。唐揚げにする場合は、大きさをそろえて切ることで揚げ時間を均一にできるとされる。\n\n## なぜこの形になったのか\n\n脂肪の多さとうまみの濃さが、家庭の食卓でも唐揚げや照り焼きの定番として選ばれ続けてきた理由になっている。脂肪が少なく扱いに気をつかうむね肉とは対照的に、多少雑に扱っても崩れにくい懐の深さが、日常づかいの部位としての支持を支えている。淡白なむね肉と並べて焼くと、鶏一羽の脂の対照がはっきり見える。照り焼きや唐揚げなど、甘辛い味付けとの相性のよさも選ばれ続ける理由のひとつとされる。",
+   "body_en": "## What it's made of\n\nFrom the base of the leg, thick-cut with a rich, flavorful bite. Fattier and coarser-fibered than the breast, it's said to be among the parts most preferred in Japan, and the fat under the skin browns richly when grilled. Being part of a constantly-worked leg, the muscle here develops firm and full, adding to its hearty bite. A layer of fat sits between the skin and the meat, and that's exactly what gives it its browned aroma on the grill.\n\n## How it's made\n\nIt suits grilling, simmering, or frying, and its higher fat content means it stays tender even with a bit of overcooking. Searing the skin side hard first to render off excess fat is said to give the best balance of char and texture. Scoring the thicker sections is said to help heat travel evenly in from the skin side. For karaage, cutting the pieces to a uniform size is said to keep the frying time even across the batch.\n\n## Why it took this shape\n\nIts richness and higher fat content are much of why it's stayed a staple for karaage and teriyaki on the home table. Unlike the breast, which punishes careless handling, its forgiving nature — holding up even when treated a little roughly — has kept it the everyday go-to cut. Grilled side by side with the plainer breast, the fat contrast between the two ends of the same bird becomes obvious. Its affinity with sweet-savory glazes, in teriyaki and karaage alike, is another reason it's stayed so popular.",
+   "sources": [
+    {
+     "title": "鶏の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster06.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tori-momo",
+     "to_slug": "tori-mune",
+     "relation_type": "対比",
+     "basis": "もも肉は「肉厚でうまみとコクのある」脂の多い部位、むね肉は「脂肪が少なく高タンパク」な赤身部位と、鶏のなかで代表的な対照をなす二部位"
+    }
+   ]
+  },
+  {
+   "slug": "tori-hatsu",
+   "body_ja": "## 何でできているか\n\n鶏の心臓にあたる部位で、周りの脂肪や血管を取り除き血抜きをするとクセのないあっさりとした味わいになる。小ぶりな見た目に反してしっかりとした弾力があり、噛むとコリッとした歯ざわりが返ってくる。表面には脂と血管が薄く張りついており、下処理の丁寧さがそのまま味に出るとされる。血抜きが不十分だと生臭さが残りやすく、下処理の丁寧さが味に直結する部位とされる。\n\n## どう作るのか\n\n串焼きや炒め物によく合うとされ、小ぶりなため串では複数個をまとめて刺すことが多い。血抜きと脂肪・血管の除去という下処理を丁寧に行うほど、あっさりとした味わいが際立つとされる。串に刺す際は向きをそろえることで、火の通りが均一になりやすいとされる。串に刺す前に大きさをそろえて選別すると、焼き上がりのムラが出にくいとされる。\n\n## なぜこの形になったのか\n\n同じ「ハツ」でも鶏・豚・牛で大きさが違い、鶏のものは三者のなかでも特に小ぶりとされる。小ささゆえに一皿・一串にまとめるための下処理の手間がかかる一方、あっさりした味わいは焼き鳥店のコースでも扱いやすい内臓として定着している。豚のハツと並べると、同じ「ハツ」でもサイズの違いがはっきり分かる。小ぶりながら濃い旨みを持ち、内臓好きのあいだで根強い人気を保っている部位とされる。",
+   "body_en": "## What it's made of\n\nThe heart, its surrounding fat and vessels trimmed and blood drained to give a clean, mild flavor. Small as it looks, it holds real springy resistance, with a crisp, firm bite. A thin layer of fat and vessels clings to the surface, and how carefully those are trimmed away shows directly in the final flavor. Incomplete draining of blood is said to leave a raw, gamey edge, so careful prep shows directly in the flavor.\n\n## How it's made\n\nSaid to suit skewer-grilling and stir-frying well, it's small enough that several are usually threaded per skewer. The more carefully the blood is drained and the fat and vessels trimmed away, the cleaner the flavor comes through. Lining up each piece the same way on the skewer is said to help them all cook through evenly. Sorting pieces to a similar size before skewering is said to keep the grilling even across the batch.\n\n## Why it took this shape\n\n\"Hatsu\" comes in different sizes across chicken, pork, and beef, and the chicken version is said to be the smallest of the three. That smallness means more prep work to gather enough for a plate or skewer, but its clean flavor has made it an easy organ cut to build into a yakitori course. Set next to the pork version, the size difference between the two \"hatsu\" becomes obvious at a glance. Small as it is, its flavor runs deep, and it holds a loyal following among offal enthusiasts.",
+   "sources": [
+    {
+     "title": "鶏の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster06.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tori-hatsu",
+     "to_slug": "buta-hatsu",
+     "relation_type": "対比",
+     "basis": "同じ「ハツ」でも鶏・豚・牛で大きさが異なり、豚ハツの説明では牛との比較が明記されている。鶏と豚のハツを並べることで、種による心臓のサイズ差という編集上の対比が成立する"
+    }
+   ]
+  },
+  {
+   "slug": "hatsumoto",
+   "body_ja": "## 何でできているか\n\n心臓のうち大動脈がつながる部分で、ハツより一羽から取れる量が少ない部位とされる。柔らかな肉質で歯切れがよく、ハツと混同されやすいが別の部位として扱われる。血管が集まる部分だけに、下処理で血や脂をきれいに取り除く手間がハツ以上にかかるとされる。血管が集まる場所という成り立ちから、見た目にも独特の形をしているとされる。\n\n## どう作るのか\n\n串焼きなどで提供されることが多く、心臓本体より弾力がやわらかいぶん、火を通しすぎない短時間の焼き方が向くとされる。取れる量がハツよりさらに少ないため、複数羽分をまとめてようやく一皿分がそろう希少部位でもある。小さく不揃いな形をしているため、串に刺す際は大きさをそろえて選別する手間もかかる。希少部位ゆえに品切れになりやすく、早い時間の来店がすすめられることもある。\n\n## なぜこの形になったのか\n\nハツという部位のなかでもさらに細分化された、いわば「ハツの一部」としての立ち位置にある。同じ心臓でも部位が違えば食感も変わるという、鶏の部位分けの細かさそのものを体現する存在で、内臓好きのあいだで通好みの一串として扱われる。ハツと並べて注文されることが多いのも、両者の違いを食べ比べる楽しみからだと言える。同じ心臓由来でも部位が違えば味も食感も変わることを、身をもって教えてくれる一串とされる。",
+   "body_en": "## What it's made of\n\nThe portion of the heart where the aorta attaches, said to be taken in smaller amounts per bird than the heart itself. Tender with a clean bite, it's easily confused with the heart proper but treated as a distinct cut. Because vessels converge right at this spot, trimming away blood and fat here is said to take even more care than with the heart itself. Being the spot where blood vessels converge is said to give it its distinctively irregular shape.\n\n## How it's made\n\nIt's often served skewered, and being softer than the main body of the heart, it suits a shorter time on the grill so it doesn't toughen. Yielded in even smaller amounts than the heart, gathering enough for one plate usually means pooling several birds. Its small, irregular shape also means extra work sorting pieces to a similar size before skewering. Being a rare cut, it tends to sell out fast, and an early visit is sometimes recommended.\n\n## Why it took this shape\n\nIt occupies a niche within a niche — a further subdivision of the heart itself. That the same organ can be split into cuts with genuinely different textures says something about just how finely a bird gets divided, and among offal enthusiasts, it's treated as a connoisseur's skewer. It's often ordered right alongside the heart itself, precisely so diners can compare the two side by side. It's a small lesson in how much texture and flavor can differ within a single organ, depending on exactly which part it comes from.",
+   "sources": [
+    {
+     "title": "鶏の部位図鑑",
+     "url": "https://www.maff.go.jp/j/pr/aff/2009/pdf/aff2009_02_poster06.pdf",
+     "publisher": "農林水産省 webマガジンaff（監修：公益財団法人日本食肉消費総合センター）",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hatsumoto",
+     "to_slug": "tori-hatsu",
+     "relation_type": "兄弟",
+     "basis": "ハツモトの説明に「心臓のうち大動脈がつながる部分で、ハツより一羽から取れる量が少ない」と明記されており、ハツと直接つながる部位"
+    }
+   ]
+  },
+  {
+   "slug": "hiza-nankotsu",
+   "body_ja": "## 何でできているか\n\n膝の関節部分にある軟骨で、胸の軟骨（ヤゲン軟骨）とは異なる位置から取れる。コリコリとした強い歯ざわりが持ち味で、ヤゲンよりも硬めの歯応えとされる。脂肪も臭みもほとんど持たない。関節を構成する軟骨のため、丸みを帯びた小さな塊として一羽から一対だけ取れる。小ぶりな塊ながら密度が高く、噛んだ瞬間の抵抗感がはっきりと伝わってくる。\n\n## どう作るのか\n\n唐揚げや串焼きで食べられ、硬めの歯応えを生かすなら唐揚げにしてかりっと揚げる、繊細な食感を楽しむなら串焼きで軽く炙るなど、調理法によって印象が変わる。関節部分から切り出す下処理には手間がかかる。周囲の筋や皮を丁寧に外しておくと、軟骨そのものの歯ざわりがより際立つとされる。から揚げにする場合は、衣を薄めにつけると軟骨そのものの歯ざわりを損ないにくいとされる。\n\n## なぜこの形になったのか\n\n同じ軟骨でも位置によって硬さが違うことを、ヤゲン軟骨との対比が教えてくれる部位。ヤゲンが胸まわりの繊細な歯ざわりを担うのに対し、ひざ軟骨はより硬質でしっかりした噛みごたえを担う、軟骨のなかでも役割が分かれたきょうだいと言える。両方を並べて食べ比べると、鶏の軟骨にも部位ごとの個性があることがよく分かる。希少部位として品書きに載る店も多く、注文できたときの満足感につながっている。",
+   "body_en": "## What it's made of\n\nCartilage from the knee joint, distinct from the breastbone (yagen) cartilage found elsewhere on the bird. Prized for an especially firm crunch, it's said to bite firmer than yagen cartilage, with almost no fat or odor of its own. Being part of the joint itself, it comes as a small, rounded chunk, only one pair per bird. Small as each piece is, it's dense enough that the resistance of that first bite is unmistakable.\n\n## How it's made\n\nIt's eaten deep-fried or skewered — fried crisp to play up its firmness, or lightly grilled on a skewer for a more delicate crunch, with the impression shifting depending on the method. Cutting it out from the joint itself takes some care. Trimming the surrounding sinew and skin carefully away is said to let the cartilage's own crunch stand out more clearly. For karaage, a thin coating of batter is said to preserve the cartilage's own crunch rather than bury it.\n\n## Why it took this shape\n\nSet against yagen cartilage, it shows how cartilage from different parts of the bird can chew so differently. Where yagen carries a more delicate crunch around the breast, knee cartilage delivers a firmer, heartier bite — siblings in cartilage with clearly divided roles. Tasting the two side by side makes it clear that even a bird's cartilage carries its own cut-by-cut personality. As a cut that shows up on the menu at plenty of shops as something special, actually getting to order it feels like its own small win.",
+   "sources": [
+    {
+     "title": "鶏肉の部位",
+     "url": "https://www.nlbc.go.jp/hyogo/tishiki/bui/index.html",
+     "publisher": "独立行政法人家畜改良センター兵庫牧場",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hiza-nankotsu",
+     "to_slug": "yagen-nankotsu",
+     "relation_type": "兄弟",
+     "basis": "ひざ軟骨の説明に「胸の軟骨（ヤゲン軟骨）とは異なる位置から取れる」「ヤゲンよりも硬めの歯応えとされる」と明記されており、軟骨同士の直接比較がある"
+    }
+   ]
+  }
+ ]
+}
