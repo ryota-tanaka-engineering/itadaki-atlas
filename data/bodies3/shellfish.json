@@ -1,0 +1,757 @@
+{
+ "items": [
+  {
+   "slug": "zuwaigani",
+   "body_ja": "## 何でできているか\n茹でた身は繊維に沿ってほろりとほどけ、噛むと上品な甘みがじんわり広がる。脚の身は締まりすぎず、口に入れるとすっと溶けるような柔らかさが残る。甲羅を割ると現れる蟹味噌は濃厚でクリーミーとされ、身よりもこちらを目当てにする人も多い。脱皮直後の個体は殻がまだ薄く水っぽいため「水ガニ」と呼ばれ、身入りの濃い個体とは味わいが大きく違うとされる。\n## どう作るのか\n底曳き網漁で水深200〜400mほどの深い海底からすくい上げるように獲る。水揚げ後は鮮度が落ちやすいため、港に着くとすぐに茹でるか活け締めにするのが基本とされる。雄は脚が長く身入りがよいため単体で高値がつき、雌は小ぶりだが内子と呼ばれる卵を蟹味噌とともに味わえる。水揚げ港では黄色や緑のタグを爪に取り付け、産地と鮮度を保証する仕組みが整えられている。\n## なぜこの形になったのか\n日本海側の深い海底の砂泥地に生息し、冷たい海流にさらされて育つことがゆっくりとした成長につながるとされる。同じ種でも水揚げされる港によって呼び名が分かれ、福井では越前ガニ、鳥取では松葉ガニ、京丹後の間人漁港では間人ガニと呼ばれる。間人漁港はわずか5隻ほどの小型底曳き網船が日帰りで操業する港で、船上で活け締めにすることが鮮度の高さにつながっているとされる。",
+   "body_en": "## What it's made of\nBoiled meat pulls apart along its fibers into tender flakes, carrying a gentle sweetness that spreads slowly with each bite. The leg meat is never overly firm; it seems to melt just as it hits the tongue. Crack the shell and the crab roe inside is said to be rich and creamy enough that many diners come for that alone rather than the meat. A crab caught just after molting has a still-thin, watery shell and goes by the name \"mizu-gani,\" tasting noticeably different from a fully filled-out one.\n## How it's made\nBottom trawlers work depths of roughly 200 to 400 meters, scooping the crabs up from the seafloor. Because the meat spoils quickly once landed, boats boil or kill the catch live almost as soon as it reaches port. Males, with their longer legs and fuller meat, fetch higher prices on their own, while smaller females carry roe alongside their crab paste. Landing ports tag each crab's claw in yellow or green to certify its origin and freshness.\n## Why it took this shape\nIt lives on the muddy, sandy seafloor of the Sea of Japan's deeper waters, and the cold current there is said to slow its growth. The same species is named differently depending on which port lands it: Echizen-gani in Fukui, Matsuba-gani in Tottori, and Taiza-gani at the small port of Taiza in Kyotango, where only about five small trawlers fish and return the same day, killing the crabs live aboard for exceptional freshness.",
+   "sources": [
+    {
+     "title": "越前がに",
+     "url": "https://www.pref.fukui.lg.jp/doc/suisan/ryutsu/echizengani_menu.html",
+     "publisher": "福井県",
+     "accessed_at": "2026-09-06"
+    },
+    {
+     "title": "松葉がに",
+     "url": "https://www.pref.tottori.lg.jp/178131.htm",
+     "publisher": "鳥取県",
+     "accessed_at": "2026-09-06"
+    },
+    {
+     "title": "間人がに",
+     "url": "https://www.kyotango.gr.jp/foods/taiza-kani/",
+     "publisher": "京丹後市観光公社",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "zuwaigani",
+     "to_slug": "tarabagani",
+     "relation_type": "対比",
+     "basis": "同じ「カニ」として並べられるが、ズワイガニは十脚目短尾下目(真のカニ)、タラバガニは異尾下目でヤドカリに近い系統のため分類上は別グループとして対比。"
+    }
+   ]
+  },
+  {
+   "slug": "tarabagani",
+   "body_ja": "## 何でできているか\n太い脚を割ると、繊維質の身がひと塊になってほろりと出てきて、噛むと弾力のある歯ごたえの奥からすっきりとした甘みが広がる。カニの名がついているが、分類上はヤドカリに近い十脚目異尾類とされ、よく見ると歩脚は3対しかなく、後ろの1対は甲羅の中に折りたたまれて隠れている。加熱すると身がぎゅっと締まって繊維がほどけやすくなり、脚1本の身の量が多いぶん、鍋に入れても存在感のある一切れとして楽しめる。\n## どう作るのか\nオホーツク海や根室海峡の沿岸でカニかごを海底に沈め、餌でおびき寄せるようにして獲るのが主な漁法とされる。脱皮を繰り返して大きくなる甲殻類の常として、脱皮直後の個体は殻がまだ薄く身入りが乏しいため、漁期の見極めが味を左右するとされる。水揚げ後は港でボイルされることが多く、そのまま食べるほか、殻ごと炙って香ばしさを足す焼きガニの食べ方も好まれている。\n## なぜこの形になったのか\n冷たい海の海底近くに生息し、水温の低い北海道沿岸が主産地とされる。ヤドカリに近い系統であることは、腹部が左右非対称でかつて巻貝に体を収めていた名残と考えられている。厳しい寒さの海でゆっくりと時間をかけて育つ分、太い脚にしっかりと身が詰まり、身が水っぽくなりにくいとされる。冬場に漁が盛んになるのも、この時期に身入りが最も充実するからだとされる。",
+   "body_en": "## What it's made of\nCrack open a thick leg and a single fibrous block of meat slides out, its springy bite giving way to a clean sweetness. Called a crab, it is technically closer to a hermit crab, in the decapod suborder Anomura. Look closely and it has only three pairs of walking legs; a fourth pair is folded away, tucked inside the shell. Cooking firms the meat further and helps the fibers pull apart cleanly, and because each leg holds so much meat, even one piece in a hot pot carries real presence.\n## How it's made\nCrab pots sunk to the seafloor along the Okhotsk Sea and the Nemuro Strait coast, baited to lure the crabs in, are the main way it's caught rather than trawled. Like any crustacean that grows by molting, a freshly molted individual has a thin shell and thin meat, so timing the season matters for flavor. Landed catches are usually boiled right at port and eaten plain, though grilling the shell adds a toasty note some diners prefer.\n## Why it took this shape\nIt lives near the cold seafloor, and Hokkaido's chilly coastal waters are its main fishing grounds. Its kinship with hermit crabs shows in an asymmetrical abdomen, thought to be a remnant of once curling into a snail shell. Growing slowly over time in such cold water is said to pack its thick legs full of meat without letting it turn watery, and fishing peaks in winter precisely because that's when the meat fills out most.",
+   "sources": [
+    {
+     "title": "タラバガニ",
+     "url": "https://ja.wikipedia.org/wiki/タラバガニ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tarabagani",
+     "to_slug": "hanasakigani",
+     "relation_type": "兄弟",
+     "basis": "ともに異尾下目タラバガニ科(Lithodidae)に属し、ヤドカリに近い系統を共有する近縁種。"
+    }
+   ]
+  },
+  {
+   "slug": "kegani",
+   "body_ja": "## 何でできているか\n甲羅一面を覆う短い毛に指が触れると、ほかのカニとは違う手触りに気づく。脚の身は決して多くないが、甲羅いっぱいに詰まった濃厚な味噌が真骨頂とされ、殻を割った瞬間にとろりと現れる。脚肉は繊細で上品な甘みを持ち、味噌と絡めて食べると濃さがいっそう際立つ。身よりも味噌を主役に据えて食べるカニとして知られている。\n## どう作るのか\nオホーツク海沿岸を中心に、かごや刺し網で沿岸近くを狙って獲られることが多いとされる。水揚げされたら鮮度が落ちないうちにすぐ茹でるのが定番で、余計な味付けをせず塩茹でにしてそのまま食べる楽しみ方が根強い。冬から春にかけて漁が盛んになり、この時期は身入りとともに味噌の詰まりもよくなるとされる。殻が薄く割りやすいため、家庭でも扱いやすいカニとされている。水揚げ後は時間が経つほど身の水分が抜けて風味が落ちやすいとされ、港の近くで即日食べる「浜茹で」が最もおいしい食べ方だという声も多い。\n## なぜこの形になったのか\n冷たいオホーツク海沿岸の海底に生息し、水温の低さが身の締まりとミソの濃さにつながるとされる。ほかの大型ガニに比べて体は小ぶりだが、その分1匹あたりの甲羅に対する味噌の割合が高く感じられ、脚の身より味噌を主役にした食べ方が定着してきたと考えられている。手のひらに収まるほどの大きさが、家庭の食卓にも上りやすい理由の一つとされる。",
+   "body_en": "## What it's made of\nRun a finger over the shell and short bristles cover every inch of it, a texture no other crab quite has. The leg meat is modest, but the real point is the dense, rich innards packed under the shell, which spill out the moment it's cracked open. The leg flesh itself is delicate and mildly sweet, and pairs well with the stronger flavor of the innards, which end up as the real star rather than the legs.\n## How it's made\nIt's mainly caught in pots or gillnets set along the Okhotsk Sea coast, working relatively close to shore. Once landed, it's usually boiled quickly to preserve freshness, plain and unseasoned, and eaten that way with no further dressing. Fishing peaks in winter through spring, when both the meat and the innards are said to fill out best, and its thin, easily cracked shell makes it manageable even in a home kitchen.\n## Why it took this shape\nIt lives on the seafloor along the cold Okhotsk coast, and that cold water is thought to firm up the meat and concentrate the richness of its innards. Smaller-bodied than the large crabs it's often compared to, it carries a higher ratio of innards to shell, which may be why eating it centers on the innards rather than the legs. Its palm-sized build is also part of why it turns up so readily on home tables.",
+   "sources": [
+    {
+     "title": "ケガニ",
+     "url": "https://ja.wikipedia.org/wiki/ケガニ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kegani",
+     "to_slug": "zuwaigani",
+     "relation_type": "対比",
+     "basis": "冬の代表的な食用ガニとして並び称されるが、ケガニは短尾下目クリガニ科、ズワイガニはケセンガニ科で系統が異なるため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "hanasakigani",
+   "body_ja": "## 何でできているか\n生きている間は黒褐色でどこか地味な見た目だが、茹でた瞬間に花が咲いたような鮮やかな赤色に変わることが名の由来とされる。太く鋭いトゲが殻全体を覆い、素手で扱うには軍手がいるほど。トゲの下にはしっかりと身が詰まり、濃厚なミソと合わせるとカニの中でも特に力強い旨みを感じさせる。脚は短めだが身の詰まりがよく、噛みごたえのある食感が持ち味とされる。\n## どう作るのか\n分類上はタラバガニと同じ仲間とされ、脚の構造もよく似ている。名の由来となった根室市の花咲半島周辺の海域でかご漁により水揚げされ、トゲの硬い殻を割るには相応の力がいる。茹でると殻が鮮やかな赤に発色し、そのまま食卓に出されることが多い。硬い殻は割りにくい分、身をひと塊で取り出しやすいという利点もあるとされる。漁期は夏から秋にかけてが中心とされ、脱皮直後の個体は殻がまだ軟らかく身入りが薄いため、殻の硬さを確かめてから水揚げする漁師の目利きが味を左右するといわれる。\n## なぜこの形になったのか\n根室半島の先端に近い花咲半島周辺の冷たい海域が主産地とされ、荒い岩礁の多い海底で育つ過程で殻に鋭いトゲをまとうようになったと考えられている。北方領土に近い漁場でもあり、水揚げ量が限られることから他の大型ガニに比べて希少とされる。厳しい環境で育つ分、身の締まりが強く、力強い食べ応えにつながっているとされる。",
+   "body_en": "## What it's made of\nDark brown while alive and easy to overlook, it's said to take its name from turning flower-bright red the instant it's boiled. Thick, sharp spines cover the whole shell, sharp enough to demand gloves when handling it bare-handed. Beneath those spines sits substantial meat, and paired with its rich roe it carries a particularly forceful savoriness even among crabs; the legs run short but are densely filled, giving a satisfying, chewy bite.\n## How it's made\nTaxonomically it's grouped with the king crab, and its leg structure closely resembles that species. It's landed by pot fishing in the waters around the Hanasaki Peninsula near Nemuro, the area its name comes from, and cracking its hard, spiny shell takes real effort. Boiling turns the shell bright red, and it's usually served that way straight to the table; the very toughness of the shell is said to make it easier to pull the meat out in one clean piece.\n## Why it took this shape\nThe cold waters around the Hanasaki Peninsula, near the tip of the Nemuro Peninsula, are its main fishing ground, and growing over rocky, rough seafloor there is thought to be why it developed such sharp spines. The grounds sit close to the disputed northern territories, and limited catch volumes make it scarcer than other large crabs. Growing in such a harsh environment is thought to be behind its firm, forceful bite.",
+   "sources": [
+    {
+     "title": "ハナサキガニ",
+     "url": "https://ja.wikipedia.org/wiki/ハナサキガニ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hanasakigani",
+     "to_slug": "kegani",
+     "relation_type": "対比",
+     "basis": "ともに北海道の冬のカニとして並ぶが、ハナサキガニは異尾下目、ケガニは短尾下目で系統が異なるため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "watarigani",
+   "body_ja": "## 何でできているか\n後ろ脚の先だけがヒレのように平たく広がり、水をかくたびに体全体で泳ぐように移動する。甲羅いっぱいに詰まった濃厚なミソと、殻ごと煮込むことで溶け出す出汁の旨みが持ち味とされ、身そのものよりも殻から染み出る風味を主役にした料理が多い。産卵期を控えた秋から冬にかけて雌の内子が詰まり、味わいが濃くなるとされる。身は繊維質でほぐしやすく、汁物の具としても扱いやすい。\n## どう作るのか\n後ろ脚をオール代わりに泳ぐため機動力が高く、砂泥底に潜って隠れる習性もあることから、かごや底曳き網で獲られることが多いとされる。挟む力が強くけがをしやすいため、水揚げ後は爪を縛って扱われる。殻ごと味噌汁や煮込みパスタにすることで、殻の内側に残った旨みまで余さず引き出せるとされ、丸ごと使い切る調理法が広く根づいている。\n## なぜこの形になったのか\n遠浅で栄養分の豊富な内湾を好み、三河湾など河川が流れ込む海域が古くからの漁場とされる。泳ぐ力に優れる分、開けた干潟や浅い砂泥底を行き来しながら餌となる小魚や貝を探すことができ、内湾の生態系に適応した体の形とされる。栄養豊富な汽水域で育つことが、濃厚なミソの詰まりにつながっていると考えられている。同じ内湾でも河口に近いほど餌となる小魚が集まりやすく、漁場ごとに味の濃さが微妙に違うと語る漁師もいるという。",
+   "body_en": "## What it's made of\nOnly the tips of its hind legs flatten into paddles, and it swims by working its whole body with each stroke. It's prized for the rich roe packed under its shell and for the savory broth that seeps out when it's simmered whole, valued more for what the shell releases than for the meat alone. Just before autumn-to-winter spawning, a female's roe fills out and the flavor deepens, while the flesh itself is fibrous and easy to flake into soup.\n## How it's made\nIts paddle-legs make it a strong swimmer, and it also burrows into sandy mud, so it's often caught in pots or bottom trawls. Its pincers are strong enough to injure handlers, so they're tied shut after landing. Simmering it whole, shell and all, in soup or pasta is said to draw out flavor that would otherwise stay locked inside, and using the whole crab this way is a deeply rooted way of cooking it.\n## Why it took this shape\nIt favors shallow, nutrient-rich inner bays, and waters like Mikawa Bay, fed by rivers, have long served as its fishing grounds. Its strong swimming ability lets it range across open tidal flats and shallow sandy-mud bottoms in search of the small fish and shellfish it feeds on, a body suited to life in an inner bay's ecosystem. Growing in such a nutrient-rich brackish environment is thought to be what packs its roe so densely.",
+   "sources": [
+    {
+     "title": "ガザミ",
+     "url": "https://ja.wikipedia.org/wiki/ガザミ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "watarigani",
+     "to_slug": "kegani",
+     "relation_type": "対比",
+     "basis": "ともに甲羅の中の濃厚なミソが持ち味とされる冬のカニだが、ワタリガニはガザミ科の遊泳ガニ、ケガニはクリガニ科で生態も系統も異なるため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "ise-ebi",
+   "body_ja": "## 何でできているか\n太く長い触角を左右に伸ばし、赤みがかった殻をまとう姿は祝いの席にふさわしい華やかさを放つ。身は締まって甘みが強く、刺身にすると歯切れのよい食感が際立つ。加熱すると身がふっくらと締まり、鬼殻焼きにすれば殻の香ばしさごと濃厚な旨みを味わえるとされる。頭部から出る出汁は濃く、味噌汁や潮汁にしても存在感を発揮する。\n## どう作るのか\n岩礁の陰やすき間に潜む習性があり、刺し網や素潜りで一尾ずつ丁寧に獲られることが多いとされる。生きたまま姿を保って出荷されることが尊ばれ、活きのよさが値を左右する。刺身のほか、殻ごと焼く鬼殻焼きや、出汁を活かした味噌汁にも使われ、大きな個体ほど祝い膳の主役として扱われる。夜行性で日中は岩の隙間に潜んで動かないため、漁は夜間に刺し網を仕掛けて回るのが伝統的とされ、脱皮直後の個体は殻が軟らかく漁を避ける目安にもなるという。\n## なぜこの形になったのか\nリアス式海岸に囲まれた岩礁域を好み、鳥羽をはじめとする志摩や房総半島南部が主産地とされる。入り組んだ海岸線が隠れ場所となり、外敵から身を守りながらゆっくり育つ環境が整っているとされる。姿の華やかさから正月や婚礼など祝い膳の主役として扱われてきたのも、この土地の恵みがあってこそとされる。水温が下がる冬場は活動が鈍り漁が難しくなるため、水揚げは水温の高い時期に集中しやすいともいわれる。",
+   "body_en": "## What it's made of\nLong, thick antennae sweep out to either side, and its reddish shell gives it a showiness fit for a celebration table. The flesh is firm with strong sweetness, and raw as sashimi it's known for a crisp, clean bite. Cooked, the meat firms up further, and grilled whole in its shell it's said to carry deep, concentrated flavor alongside the shell's toasty aroma; broth from its head is strong enough to carry a miso or clear soup on its own.\n## How it's made\nIt tends to hide in crevices and under rocky overhangs, and is mostly caught one at a time by gillnet or free-diving rather than in bulk. Keeping it alive and intact through shipping is prized, since liveliness affects its price. Beyond sashimi, it's grilled whole in its shell or simmered into a broth-rich soup, and the largest specimens are reserved as the centerpiece of a celebration spread.\n## Why it took this shape\nIt favors rocky reef zones along ria coastlines, with Toba and the wider Shima area, plus the southern Boso Peninsula, as its main grounds. The coast's deep inlets are thought to offer shelter from predators while it grows slowly over time. Its showy form has long made it the centerpiece of New Year's and wedding meals, a role owed in no small part to what this particular coastline provides.",
+   "sources": [
+    {
+     "title": "イセエビ",
+     "url": "https://ja.wikipedia.org/wiki/イセエビ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ise-ebi",
+     "to_slug": "kuruma-ebi",
+     "relation_type": "対比",
+     "basis": "ともに祝い膳を彩る大型甲殻類の代表格だが、伊勢海老はイセエビ科の歩行型、車海老はクルマエビ科の遊泳型で系統が異なるため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "kuruma-ebi",
+   "body_ja": "## 何でできているか\n縞模様の殻をまとい、丸まった姿が車輪のように見えることが名の由来とされる。生きたまま出す踊り食いでは透き通った身のぷりっとした弾力が際立ち、加熱すると一転して身がぎゅっと締まり濃厚な甘みが前面に出てくる。天ぷらにすると衣の中でふっくらと蒸し上がり、上品な甘さが強調されるとされる。殻ごと塩焼きにしても香ばしさが加わり、身の甘みを引き立てる。\n## どう作るのか\n遠浅でリアス式の入り江が続く海域は稚エビを育てる養殖に向いているとされ、いけすや池での養殖が盛んに行われている。天然物は砂に潜って身を隠す習性があり、日中は砂の中に潜み夜間に活動するため、底曳き網などで夜間に獲られることが多いとされる。活きのよさを保つため、出荷直前まで生かしたまま管理される。養殖では水温や塩分を管理した池で幼生から育て、脱皮のたびに殻がやわらかくなる時期を見極めながら共食いを避けて育てる手間がかかるとされる。\n## なぜこの形になったのか\n遠浅で波の穏やかな内湾は稚エビが身を隠しながら育つのに適し、天草など入り組んだリアス式海岸が養殖の主産地の一つとされる。穏やかな水温と豊富な餌に恵まれた環境で育つことが、身の締まりと甘みにつながっていると考えられている。波の穏やかさが、身の柔らかさと甘みの両立を可能にしているとされる。冬場は水温が下がり成長が止まるため、出荷までの期間をどう見込むかが養殖の難しさの一つになっているという。",
+   "body_en": "## What it's made of\nA striped shell and a curled, wheel-like shape are said to be behind its name. Served live, its translucent flesh has a springy bite; cooked, it firms up entirely and a rich sweetness takes over. Battered into tempura, it steams tender inside the coating while its refined sweetness comes through even more, and grilled shell-on with salt it picks up a toasty note that lifts that sweetness further.\n## How it's made\nShallow, ria-shaped inlets suit raising the young shrimp, and pond or enclosure farming is common in such waters. Wild ones burrow into the sand and hide by day, becoming active at night, so bottom trawling for them often happens after dark. To keep them lively, they're often held alive right up until shipment.\n## Why it took this shape\nCalm, shallow inner waters give young shrimp places to hide while they grow, and the ria coastline around Amakusa is a major farming area for that reason. Steady water temperatures and abundant feed there are thought to be what firms up the flesh and builds its sweetness, and the calm surf itself is said to be what lets it grow both tender and sweet at once.",
+   "sources": [
+    {
+     "title": "クルマエビ",
+     "url": "https://ja.wikipedia.org/wiki/クルマエビ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kuruma-ebi",
+     "to_slug": "sakura-ebi",
+     "relation_type": "対比",
+     "basis": "ともに漁協・自治体が資源管理に力を入れる代表的なエビだが、車海老は養殖が主流、桜海老は天然かつ限定操業のみという対照。"
+    }
+   ]
+  },
+  {
+   "slug": "ama-ebi",
+   "body_ja": "## 何でできているか\n標準和名はホッコクアカエビ。冷たい深海に生息する体は薄紅色に透き通り、生のまま口に入れるととろけるような食感とともに強い甘みが広がる。加熱するとその甘みは和らぐ一方で身がふっくらと締まり、殻ごと揚げれば香ばしさが加わるとされる。頭部のミソも濃厚で、殻を吸って味わう食べ方も知られている。低い水温にさらされる時間が長いほど体内に甘み成分が蓄積されるといわれ、深場で育った個体ほど濃い甘みを感じさせるとされる。\n## どう作るのか\n水深200〜700mほどの冷たい深海に生息するため、底曳き網でゆっくりと引き上げるようにして漁獲されるとされる。深海から急に引き上げられることもあり、鮮度の落ちが早いため、水揚げ後は速やかに選別・出荷される。刺身や寿司ネタとして通年出回るほか、殻ごとの唐揚げでも親しまれている。急激な水圧の変化にさらされるため、水揚げ直後は身が傷みやすく、船上で氷にすぐ埋めて温度を下げる作業が鮮度を保つ鍵とされる。\n## なぜこの形になったのか\n富山湾は岸近くから急に深くなる特有の地形を持ち、本来なら遠い沖合でしか獲れない深海性のこのエビが、比較的岸に近い漁場でも獲れるとされる。冷たく安定した深海の環境でゆっくり育つことが、身のとろけるような食感につながっていると考えられている。急深な地形は他の深海魚介にとっても好漁場になっているとされる。",
+   "body_en": "## What it's made of\nFormally the northern shrimp, its body is a translucent pale pink adapted to cold deep water. Eaten raw, it carries a melting texture alongside pronounced sweetness. Cooking mellows that sweetness but firms the flesh, and frying it shell-on adds a toasty note; the paste in its head is rich too, and some diners suck the shell itself to get at it.\n## How it's made\nLiving 200 to 700 meters down in cold water, it's caught by slowly hauling bottom trawls up from the deep. The sudden trip from deep water to the surface means it spoils fast, so catches are sorted and shipped quickly. Sold year-round for sashimi and sushi, it's also popular fried whole, shell and all.\n## Why it took this shape\nToyama Bay's seafloor drops off steeply close to shore, letting this deep-water shrimp be caught in grounds nearer land than it would otherwise need. Growing slowly in the bay's cold, stable deep water is thought to be what gives its flesh that melting texture, and the same steep drop-off is said to make the bay a good ground for other deep-sea catches too.",
+   "sources": [
+    {
+     "title": "甘えび(ホッコクアカエビ)",
+     "url": "https://www.toyama-sakana.com/archives/158",
+     "publisher": "富山県漁業協同組合連合会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ama-ebi",
+     "to_slug": "botan-ebi",
+     "relation_type": "兄弟",
+     "basis": "ともにタラバエビ科タラバエビ属(Pandalus)に属す近縁種で、生息水深や漁場が近い姉妹種。"
+    }
+   ]
+  },
+  {
+   "slug": "botan-ebi",
+   "body_ja": "## 何でできているか\n殻に散った赤い斑点が牡丹の花びらを思わせることが名の由来とされる大ぶりのエビ。生のまま口にすると、ねっとりとした粘りのある食感とともに強い甘みが舌に残る。ボタンエビと呼ばれる中には近縁の別種が混じることもあるが、いずれも身の厚みと濃厚な甘みが共通した持ち味とされる。頭部の味噌も濃く、身と合わせて味わう食べ方が好まれる。\n## どう作るのか\n水深の深い岩礁域や砂泥底に生息し、底曳き網でまとまって漁獲されることが多いとされる。水揚げ後は傷みが早いため、鮮度を保ったまま速やかに港へ運ばれ、刺身や寿司ネタとして生のまま提供されることが多い。殻を剥くと現れる身は厚みがあり、頭部の味噌も濃厚で、あわせて食べる楽しみ方もある。水深200m前後の深場に生息するため一度の漁で獲れる数が限られ、まとまった量が揚がる日は少ないとされる。\n## なぜこの形になったのか\n日本海側の後志沿岸など、水温の低い深い海域が主な漁場の一つとされる。冷たく暗い深場でゆっくりと育つことが、身にねっとりとした厚みと強い甘みをもたらすと考えられている。漁獲量が限られることもあり、エビの中でも高値で取引される部類とされる。深場ゆえに漁の機会も限られ、希少性がいっそう高まるとされる。成長が遅い深海性のエビであることも、資源が増えにくく高値が続く一因になっているといわれる。",
+   "body_en": "## What it's made of\nRed markings scattered across its shell are said to resemble peony petals, giving it its name. Eaten raw, it has a dense, almost sticky texture and leaves a strong sweetness on the tongue. Several related species get sold under the same name, but all share that thick flesh and concentrated sweetness, and the rich paste in its head is often eaten alongside the meat.\n## How it's made\nIt lives on rocky or sandy-muddy bottoms in deep water, mostly caught in bulk by bottom trawl. It spoils quickly once landed, so boats move it to port fast to keep it fresh enough to serve raw for sashimi or sushi. Shelled, the flesh is notably thick, and its head holds a rich paste some diners eat alongside the meat.\n## Why it took this shape\nCold, deep grounds like the Shiribeshi coast on the Sea of Japan side are among its main fishing areas. Growing slowly in that cold, dark depth is thought to be what gives it such dense, sweet flesh. Limited catch volume also makes it one of the pricier shrimp at market, and fishing opportunities in such deep water stay scarce, which only adds to its rarity.",
+   "sources": [
+    {
+     "title": "ボタンエビ",
+     "url": "https://ja.wikipedia.org/wiki/ボタンエビ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "botan-ebi",
+     "to_slug": "ise-ebi",
+     "relation_type": "対比",
+     "basis": "ともに刺身で高値がつく大型エビだが、ボタンエビはタラバエビ科の深海性遊泳エビ、伊勢海老はイセエビ科の歩行性大型甲殻類で系統・生態が異なるため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "sakura-ebi",
+   "body_ja": "## 何でできているか\n体長4cmほどの透き通った小さなエビで、生きているときはほぼ無色に近いが、水揚げされて日に当たると鮮やかな桜色に染まるとされる。かき揚げにすると殻ごと香ばしく、釜揚げにすると口の中でほろりと崩れる繊細な甘みが広がる。乾燥させた素干しは噛むほどに旨みが濃くなり、そのままつまむほか炒め物やだしの風味づけにも重宝される、国内でも数少ない希少な食材とされる。\n## どう作るのか\n2隻の船で1つの網を引く船曳網漁で獲る。日中は水深200m以上の深場に沈んでいる群れを魚群探知機で探り、日没後や早朝に浅場へ浮上してくるタイミングを狙って引き揚げるとされる。傷みが早いため、水揚げ後は港ですぐに選別され、その日のうちに釜揚げや素干しに加工されるのが通例とされ、鮮度がそのまま風味に直結するといわれる。\n## なぜこの形になったのか\n駿河湾は沖合ですぐ2000mを超えて深くなる急峻な地形を持ち、暖流の影響で群れが沈む水深も年によって大きく変動するとされる。獲れる年と獲れない年の差が激しいため、乱獲を避けようと由比港と大井川港の2港に限って春漁・秋漁と期間を区切り、日ごとの漁獲量にも上限を設けて操業する体制が長く続けられてきた。この漁期・漁獲量の管理体制は関係者の合意のもとで長く続けられ、資源を絶やさない工夫として知られている。",
+   "body_en": "## What it's made of\nAbout 4cm long, this translucent shrimp is nearly colorless while alive but is said to turn a vivid cherry-pink once landed and exposed to light. Fried whole into fritters it turns fragrant and crisp, while briefly boiled it melts in the mouth with a delicate sweetness. Dried, it develops a deeper savor with every chew, eaten as a snack, stirred into dishes, or used as a seasoning for broth, prized as one of Japan's scarcer commercial catches.\n## How it's made\nCaught by two boats towing a single net together. By day the shoal sits over 200m deep and is tracked by sonar; boats then time the haul for dusk or dawn, when the shrimp rise toward shallower water. Because it spoils fast, the catch is sorted dockside and typically briefly boiled or sun-dried the same day it is landed, freshness translating directly into flavor.\n## Why it took this shape\nSuruga Bay plunges past 2000m not far from shore, and the depth at which the shoal settles is said to shift widely from year to year. To guard against overfishing, only two ports, Yui and Oigawa, are licensed to fish it, each running short spring and autumn seasons under a daily catch cap.",
+   "sources": [
+    {
+     "title": "静岡県:さくらえび漁業(由比港・大井川港)",
+     "url": "https://www.pref.shizuoka.jp/sangyoshigoto/suisan/suisangyo/uocching/1003392/1043930/1028017.html",
+     "publisher": "静岡県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sakura-ebi",
+     "to_slug": "shako",
+     "relation_type": "対比",
+     "basis": "ともに漁の許可・操業期間が限られる希少な地域食材だが、桜海老は十脚目、シャコは口脚目で分類上大きく異なるため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "shako",
+   "body_ja": "## 何でできているか\n細長く平たい体を持つ甲殻類で、殻を剥くと白くやわらかな身が現れる。強力な前脚を打撃武器のように使って獲物の殻を叩き割る性質で知られ、そのぶん脚に力をためた身は繊細な甘みを持つとされる。江戸前寿司ではツメと呼ばれる甘辛いタレを塗って握られることが多く、卵を抱えた子持ちシャコは身の間にプチプチとした食感の卵が加わり、濃厚な旨みが増すとされる。皮は薄く、身離れがよいのも特徴とされる。\n## どう作るのか\n遠浅の湾奥に広がる砂泥底に穴を掘って暮らし、底曳き網で漁獲される。傷みが早いため水揚げ後は早めに茹でて殻を剥き、江戸前寿司のネタとして扱われることが多いとされる。脱皮を繰り返しながら成長し、脱皮直後は殻がやわらかく身入りが薄いとされる一方、産卵前の春には脚の身入りがよくなり、この時期が旬とされる。夏場の産卵後は身が痩せ、しばらく漁を休む地域もあるといわれる。\n## なぜこの形になったのか\n遠浅の干潟が広がる東京湾奥は伝統的なシャコの漁場とされ、江戸前の魚介として古くから親しまれてきた。砂泥に穴を掘って暮らす性質上、干潟の埋め立てや水質の変化の影響を受けやすく、漁獲量が年ごとに大きく変動しやすいともいわれる。手を焼く前脚の力強さも、江戸前の漁師の間で語り継がれてきた特徴の一つとされる。",
+   "body_en": "## What it's made of\nA flat, elongated crustacean whose shell hides soft white flesh. Known for using its powerful forelimbs like a hammer to smash open prey, it carries a delicate sweetness once shelled, perhaps as a byproduct of the power stored in those legs. In Edo-style sushi it is usually brushed with a sweet-savory glaze, and egg-bearing females are said to add a popping texture and extra richness between the flesh. Its thin skin is said to peel away easily from the meat.\n## How it's made\nIt burrows into the sandy mud of shallow bay-head flats and is caught by bottom trawl. Because it spoils quickly, the catch is typically boiled and shelled soon after landing for use as sushi topping. It grows by repeated molting, thin-shelled and sparse in flesh right after each molt, while its legs are said to fill out best in spring, just before spawning, marking its season.\n## Why it took this shape\nThe shallow tidal flats at the head of Tokyo Bay have long been a traditional fishing ground, and this crustacean became a familiar Edo-mae catch there. Because it lives burrowed in sandy mud, its numbers are said to be sensitive to landfill and water-quality change, making annual catches swing widely.",
+   "sources": [
+    {
+     "title": "シャコ",
+     "url": "https://ja.wikipedia.org/wiki/シャコ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shako",
+     "to_slug": "ama-ebi",
+     "relation_type": "対比",
+     "basis": "ともに小さな体に濃厚な旨みを持つ甲殻類だが、シャコは口脚目、甘海老は十脚目タラバエビ科で系統が異なり、食べ方も加熱と生食で対照的なため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "hotate",
+   "body_ja": "## 何でできているか\n貝柱1本で殻を開閉し、水を勢いよく噴射して泳ぐように移動する二枚貝。加熱しても縮みにくい貝柱は繊維がしっかりして甘みが強く、生では貝そのものの上品な甘さとぷりぷりした弾力を楽しめる。刺身から焼き物、フライまで火の通し方を選ばない扱いやすさも持ち味で、卵巣にあたる赤い部分や白い精巣まで丸ごと食べられるほか、貝ひもも佃煮や炒め物に使われるとされる。\n## どう作るのか\n稚貝の殻の縁(耳)に小さな穴を開けてロープに吊るし、海中で育てる耳吊り式の垂下式養殖が主流とされる。北海道の一部海域では稚貝を海底にまいて数年かけて育てる地まき式も行われる。いずれも収穫までに数年を要し、水温が下がる冬から春にかけて貝柱の身入りがよくなり、この時期が旬とされる。夏場の高水温は成長を鈍らせるだけでなく、まれに大量へい死を招く要因にもなるといわれる。\n## なぜこの形になったのか\n陸奥湾や噴火湾のように外洋の荒波が入りにくい湾内は、垂下式養殖のロープを安定して吊るせる好条件とされる。冷たい海水は植物プランクトンを豊富に育て、それを餌とする貝柱の甘みにつながるといわれる。同じ二枚貝でも岩に固着して育つ真牡蠣とは異なり、ホタテは吊るされたまま海中を漂う育ち方をする点も特徴とされる。",
+   "body_en": "## What it's made of\nA bivalve that claps its shell open and shut with a single strong muscle, jetting water forcefully to swim across the seabed. That muscle stays firm and richly sweet whether raw or cooked, plump and springy raw, and versatile enough to go from sashimi to grilling to frying without losing its texture; even the roe-colored gonad and white testis are eaten whole, and the frilled mantle edge gets simmered or stir-fried.\n## How it's made\nSpat are pierced at the shell's hinge edge, the \"ear,\" and hung from ropes to grow suspended in the water column for a few years, the dominant method. In parts of Hokkaido, spat are instead scattered on the seabed to grow to size over several years. Either way, the muscle is said to fill out best as water temperatures drop, from winter into spring, marking its season.\n## Why it took this shape\nSheltered inlets like Mutsu Bay and Funka Bay, where open-ocean swells rarely reach, are said to offer stable conditions for hanging ropes of scallops. The cold water there nurtures abundant phytoplankton, feeding the muscle a sweetness said to trace back to that food supply.",
+   "sources": [
+    {
+     "title": "ホタテガイ",
+     "url": "https://ja.wikipedia.org/wiki/ホタテガイ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hotate",
+     "to_slug": "magaki",
+     "relation_type": "対比",
+     "basis": "ともに東北・北海道を代表する養殖二枚貝だが、ホタテは貝柱で泳ぎロープに吊るして育つのに対し、マガキは岩に固着して育つ点で対比。"
+    }
+   ]
+  },
+  {
+   "slug": "awabi",
+   "body_ja": "## 何でできているか\n海藻を食べて育つ大型の巻貝で、殻は一枚だけの独特な形をしている。コリコリとした強い歯ごたえと磯の香りが持ち味で、生きたまま刺身にすると歯切れのよさが際立つ。蒸しアワビや酒蒸しにすると生のときより身が締まりにくくやわらかくなり、旨みと甘みが増すとされる。肝の部分は塩辛にされることもあり、身とは違うほろ苦い風味が珍重されるといわれる。\n## どう作るのか\n海女や海士による素潜り漁で1個ずつ手で獲られることが多く、機械に頼らない伝統的な漁法が今も続く地域があるとされる。資源保護のため殻の大きさに下限を設け、産卵期にあたる夏場を禁漁とする地域が多いといわれる。育つのに数年から10年近くかかるとされ、乱獲すれば資源が回復しにくい点も漁の制限が厳しい理由とされる。\n## なぜこの形になったのか\n房総半島や三陸沿岸のように寒流と暖流が接する岩礁域は、餌となる海藻が豊富に育つ環境とされる。素潜りで一つずつ探して獲る漁の性質上、まとまった漁獲量を出しにくく、希少な高級食材としての位置づけが続いてきた。育つのに数年から10年近くかかるとされる成長の遅さも、まとまった漁獲量を確保しにくい理由の一つに挙げられる。海藻が乏しくなる「磯焼け」が起きた海域では身入りが悪くなるとされ、豊かな藻場の有無がそのまま産地の価値を左右するといわれる。",
+   "body_en": "## What it's made of\nA large sea snail that grazes on seaweed, with a distinctive single-shell form. Its firm, briny bite defines it, and raw as sashimi that crispness stands out most. Steaming, whether plain or with sake, is said to keep it from toughening the way raw flesh does and instead bring out more sweetness and depth; the liver is sometimes salted into its own delicacy, prized for a bitterness quite unlike the meat.\n## How it's made\nOften hand-gathered one by one by ama free-divers, a method that in some regions still relies on no machinery at all. To protect stocks, many areas set a minimum shell size and close the fishery through summer, when the snail spawns. Taking anywhere from several years to nearly a decade to mature, it is said to leave stocks slow to recover once overfished, one reason catch rules run so strict.\n## Why it took this shape\nRocky coasts where cold and warm currents meet, such as the Boso Peninsula and Sanriku, are said to grow the seaweed this snail feeds on in abundance. Because free-diving means searching out and gathering each one by hand, catches stay small, keeping it a scarce, high-value delicacy.",
+   "sources": [
+    {
+     "title": "アワビ",
+     "url": "https://ja.wikipedia.org/wiki/アワビ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "awabi",
+     "to_slug": "namako",
+     "relation_type": "対比",
+     "basis": "ともに冬が旬とされ、コリコリとした強い歯ごたえが持ち味の磯の幸だが、アワビは巻貝、ナマコは棘皮動物で系統が大きく異なるため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "sazae",
+   "body_ja": "## 何でできているか\n殻にトゲ状の突起を持つ巻貝で、殻の入り口にある蓋でぴたりと身を守る。壺焼きにすると殻の中で身が蒸し焼きになり、磯の香りとコリコリとした強い歯ごたえが立つ。刺身では肝の部分にほろ苦さが残り、身の甘みとの対比が楽しめるとされる。焼くと殻の中で出汁が凝縮し、磯の香りがいっそう強く立つのも壺焼きならではの持ち味とされる。\n## どう作るのか\n海女漁や素潜りで岩礁のすき間を探りながら1個ずつ手で獲られることが多いとされる。産卵期にあたる初夏から夏にかけて禁漁とする地域が多く、殻の大きさに制限を設けて小型個体を残す資源管理も行われているといわれる。海藻を主な餌として育つため、餌場となる岩礁の海藻の状態が身入りを左右するとされる。壺焼きにする際は生きたまま火にかけ、殻の中で自らの水分だけで蒸し焼きになるのを待つのが基本とされ、加熱しすぎると身が縮んで硬くなるため火加減の見極めが要る。\n## なぜこの形になったのか\n志摩のように海女漁の伝統が続く岩礁域は、外敵から身を守るための硬く尖った殻を持つサザエが育ちやすい環境とされる。波の当たり方が強い海域ほどトゲが発達するという説もあり、地形と殻の形が結びついているとされる。波の穏やかな内湾ではトゲがほとんど出ない個体も見られるとされ、同じ種でも育った海の荒さによって姿が変わる貝として知られている。",
+   "body_en": "## What it's made of\nA turban-shaped sea snail with spiny shell projections, sealing itself shut with a trapdoor operculum at the mouth of the shell. Grilled whole, it steams in its own juices, its briny aroma and firm crunch standing out; raw, the liver carries a faint bitterness that plays against the flesh's sweetness. Grilling is said to concentrate that broth inside the shell, pushing the brine even further than eating it raw.\n## How it's made\nOften hand-gathered one by one by ama divers or free-divers searching the gaps in rocky reefs. Many areas close the fishery from early to late summer, when it spawns, and some also set a minimum shell size to leave smaller individuals in the water. Since it feeds mainly on seaweed, the condition of the reef's weed beds is said to shape how well it fills out.\n## Why it took this shape\nRocky reefs like those off Shima, worked for generations by ama divers, are said to favor snails with hard, spiny shells for warding off predators. One account holds that spines grow more pronounced where wave action is stronger, tying the shell's shape to the coastline itself.",
+   "sources": [
+    {
+     "title": "サザエ",
+     "url": "https://ja.wikipedia.org/wiki/サザエ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sazae",
+     "to_slug": "hoya",
+     "relation_type": "対比",
+     "basis": "ともに海女漁・素潜り文化と結びつく磯の幸だが、サザエは巻貝、ホヤは原索動物で分類上まったく異なるため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "hamaguri",
+   "body_ja": "## 何でできているか\n対になる殻としか合わない構造から夫婦和合の象徴とされ、婚礼料理の吸い物に使われる二枚貝。焼きハマグリにすると殻が開いた瞬間に濃厚な出汁があふれ、ふっくらとした身と強い旨みが楽しめる。江戸期の紀行文にも桑名の焼き蛤の名で登場するといわれ、東海道を行き交う旅人をもてなす名物として古くから知られてきた。潮汁にすると出汁の透明感がそのまま生き、身を煮すぎないうちに引き上げることでふっくらとした食感を保てるとされる。\n## どう作るのか\n河口の砂泥に潜って暮らし、熊手やジョレンで掘り出す漁が伝統的とされる。近年は資源量の減少を受け、稚貝の放流や漁獲サイズの制限など資源回復の取り組みが各地で進められているといわれる。産卵前の春が身入りのよい旬とされ、夏場は産卵で体力を使い身が痩せやすいとされる。殻の厚みや模様には個体差があり、育った場所の砂質や水の動きによって形が微妙に変わるとされる。\n## なぜこの形になったのか\n木曽三川が注ぎ込む伊勢湾の汽水域は、淡水と海水が入り混じり殻が薄く身がふっくらするとされる環境で、東海道の宿場町だった桑名では旅人をもてなす名物として焼き蛤が定着したと伝わる。対になる殻でなければぴたりと合わないという性質が、二つとして同じ組み合わせがない夫婦のあり方に重ねられ、祝いの膳にふさわしい貝として扱われてきたとされる。",
+   "body_en": "## What it's made of\nBecause each shell fits only its original pair, this clam symbolizes marital harmony and appears in wedding-banquet soup. Grilled, it releases a rich broth the instant it pops open, with plump, deeply savory meat. It is said to appear under the name Kuwana's grilled clams in Edo-period travel writing, long known as the dish that greeted travelers on the Tokaido highway.\n## How it's made\nIt burrows into estuary sand and mud, traditionally dug up with a rake or a toothed scoop called a jorenn. Facing declining stocks in recent years, regions are said to be releasing farmed spat and capping catch sizes to help numbers recover. It is said to fill out best just before spring spawning, then thin out over summer as spawning drains its reserves.\n## Why it took this shape\nThe brackish waters where the Kiso Three Rivers meet Ise Bay, mixing fresh and salt water, are said to give this clam a thin shell and plump meat. Kuwana, once a post town on the Tokaido highway, is said to have made grilled clams its signature way of welcoming travelers.",
+   "sources": [
+    {
+     "title": "桑名のハマグリ",
+     "url": "https://www.city.kuwana.lg.jp/norin/shigoto/sangyou/26-11412-281-630.html",
+     "publisher": "桑名市",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hamaguri",
+     "to_slug": "shijimi",
+     "relation_type": "対比",
+     "basis": "ともに汁物・味噌汁の定番二枚貝だが、ハマグリはマルスダレガイ科で海水域、シジミはシジミ科で汽水・淡水域を好み生息環境が対照的なため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "asari",
+   "body_ja": "## 何でできているか\n潮干狩りの定番として親しまれる小型の二枚貝。砂抜きしてから酒蒸しや味噌汁にすると濃い出汁がよく出て、ぷりっとした身の食感を楽しめる。殻の模様は個体ごとに異なり、同じ柄がないともいわれるほど多様なのも特徴とされる。開いた口から砂を吐き出す姿を見ながら掘り進めるのも潮干狩りの醍醐味の一つとされる。砂抜きの際は海水に近い塩分濃度の水に浸けると吐き出しがよく進むとされ、真水では貝が弱ってしまうため加減が要る。\n## どう作るのか\n遠浅の砂泥に浅く潜って暮らし、熊手で掘り起こす潮干狩りや底曳き網で漁獲される。産卵期を控えた春に身が最も詰まるとされ、この時期が旬とされる。近年は資源量の減少がみられ、稚貝の保護区域を設けたり、放流を行ったりする取り組みも各地で進められているといわれる。潮の満ち引きが大きい大潮の日に干潟が広く現れることを利用し、潮干狩りの多くはこのタイミングに合わせて行われるとされる。\n## なぜこの形になったのか\n有明海や三河湾のように遠浅の干潟が広がる海域は、潮の満ち引きで海水がよく動き、栄養分やプランクトンが豊富に運ばれる環境とされる。この栄養条件が、殻の小ささに対して濃い出汁が出るアサリの旨みを育てているといわれる。干潟が広いほど貝が身を隠せる面積も広がり、外敵から逃れながら数を増やせる環境になっているとも考えられている。",
+   "body_en": "## What it's made of\nA small bivalve familiar from beach clam-digging outings. Purged of sand, it releases a strong broth in sake-steaming or miso soup, its flesh springy underfoot. Its shell pattern is said to vary so much from one clam to the next that no two are truly alike, and watching it spit sand from its open shell while digging is part of the outing's appeal.\n## How it's made\nIt lives just beneath the surface of shallow tidal sand and mud, dug up by rake at low tide or caught by bottom trawl. Its meat is said to be fullest in spring, just before spawning, marking its season. Facing recent declines, some areas are said to be setting aside protected nursery grounds and releasing farmed spat to help numbers recover.\n## Why it took this shape\nShallow tidal-flat waters such as the Ariake Sea and Mikawa Bay are said to churn constantly with the tide, carrying in a steady supply of nutrients and plankton. That richness is said to be what lets such a small shell yield such a strongly flavored broth.",
+   "sources": [
+    {
+     "title": "アサリ",
+     "url": "https://ja.wikipedia.org/wiki/アサリ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "asari",
+     "to_slug": "bakagai",
+     "relation_type": "対比",
+     "basis": "ともに東京湾岸で潮干狩り文化を支えてきた二枚貝だが、アサリは小型で殻ごと食べ、バカガイは足の部分をむき身にして使う点で対比。"
+    }
+   ]
+  },
+  {
+   "slug": "shijimi",
+   "body_ja": "## 何でできているか\n淡水と海水が混じる汽水域を好む小型の二枚貝。小さな殻からは想像しにくいほどしっかりと出汁が出るのが持ち味で、味噌汁の実として定番とされる。肝臓によいとされる成分を含むともいわれ、体をいたわりたいときの一杯としても親しまれてきた。砂抜きは他の貝に比べて短時間で済むのも扱いやすさの一つとされる。殻を開けたときに立つ磯の香りは控えめで、出汁の濃さと香りの穏やかさのギャップが小さな貝ならではの持ち味ともいえる。\n## どう作るのか\n水深4mより浅い湖岸の砂泥に生息し、じょれんと呼ばれる道具で湖底を引いて漁獲されるとされる。深い場所では溶存酸素が不足し生息できないといわれる。入水管から吸い込んだ水をえらでこし取り、呼吸と同時にプランクトンを食べて育つ。夏と冬の年2回、身入りがよくなる時期が旬とされる。じょれん漁は湖底を傷めないよう網目や引き方に決まりを設けている地域もあり、資源を絶やさない工夫が漁法自体に組み込まれているとされる。\n## なぜこの形になったのか\n宍道湖のように淡水と海水が絶えず入れ替わる汽水湖は、塩分濃度が0.3〜1.0%程度の薄さに保たれることでヤマトシジミの生育に適した環境になるとされる。水深の浅い湖岸部に生息域が限られるため、湖全体の水質や塩分バランスの変化が漁獲量に直結するといわれる。上流からの淡水と海からの潮の押し引きのバランスが崩れると生育に影響が出るとされ、湖の環境そのものが漁獲を支えている。",
+   "body_en": "## What it's made of\nA small clam that favors brackish water where fresh and salt water mix. Its tiny shell belies how strong a broth it releases, making it the standard filling for miso soup. It is said to carry compounds thought good for the liver, a bowl people reach for when they want to go easy on themselves, and it needs only a short soak to purge its sand compared with other shellfish.\n## How it's made\nIt lives in the sandy mud of lakeshores shallower than about four meters, said to be raked up from the lakebed with a toothed scoop called a jorenn; deeper water is said to lack the dissolved oxygen it needs to survive. It draws water in through a siphon and filters it through its gills, feeding on plankton as it breathes. It is said to fill out best twice a year, in summer and winter.\n## Why it took this shape\nA brackish lake like Shinji, where fresh and salt water are constantly exchanged, is said to hold salinity around a thin 0.3-1.0%, well suited to this clam's growth. Because it lives only in the shallow shoreline band, its catch is said to track directly with the lake's overall water quality and salt balance.",
+   "sources": [
+    {
+     "title": "ヤマトシジミの生態",
+     "url": "https://www.pref.shimane.lg.jp/industry/suisan/shinkou/kawa_mizuumi/yutakana/shijimi_seitai.html",
+     "publisher": "島根県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shijimi",
+     "to_slug": "asari",
+     "relation_type": "対比",
+     "basis": "ともに日常の味噌汁を支える小型二枚貝だが、シジミは汽水域のシジミ科、アサリは海水域のマルスダレガイ科で生息環境と科が異なるため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "hokkigai",
+   "body_ja": "## 何でできているか\n標準和名はウバガイ。冷たい海の砂地に生息する二枚貝で、生では淡いオレンジ色をした身が、加熱すると足の部分だけ鮮やかな紅色に変わる。コリッとした歯ごたえと磯の甘みが持ち味で、寿司ネタのほか炊き込みご飯や汁物の具にも使われる。刺身にすると加熱前の淡い色そのままで、火を通した紅色との対比が楽しめるとされる。\n## どう作るのか\n砂地の海底に浅く潜って暮らし、桁網と呼ばれる道具を引いて漁獲されるとされる。水揚げ後は足の部分を開いて内臓を取り除き、さっと湯通ししてから使うことが多い。低い水温を好むため、身が締まる冬場が旬とされる一方、夏場は水温が上がり身が痩せやすいといわれる。湯通しの時間は数秒ほどとごく短く、長く火を通すと足の食感が硬くなりすぎるため、色の変化を見ながら手早く引き上げるのがこつとされる。\n## なぜこの形になったのか\n苫小牧のように冷たい海流が接岸する砂浜が続く海域は、ウバガイが好む低水温の砂地環境とされる。この地域はホッキ貝と結びつきが深く、市の魚に定められるほど暮らしに根づいた存在になっているといわれる。冷たい海に生息する分、成長も緩やかで、殻が大きく育つまでに数年を要するとされる。水揚げ量が安定しているため、通年で手に入れやすい貝としても親しまれている。",
+   "body_en": "## What it's made of\nFormally called the surf clam, it lives buried in sand in cold seas. Pale orange raw, only its foot turns a bright crimson once cooked. Its crisp bite and briny sweetness carry it beyond sushi into rice dishes and soups alike, and raw sashimi keeps that pale pre-cooked hue, letting the two colors sit side by side on the plate.\n## How it's made\nIt burrows just beneath the sandy seabed and is said to be caught by towing a toothed dredge called a getanet. After landing, the foot is typically split open, the innards removed, and the meat briefly blanched before use. Preferring cold water, it is said to firm up best, and come into season, through winter, while summer's warmer water is said to leave it thinner.\n## Why it took this shape\nA stretch of coast like Tomakomai's, where cold currents run close to shore, is said to offer the cold sandy ground this clam favors. The clam is said to run so deep in local life there that the city named it its official fish.",
+   "sources": [
+    {
+     "title": "ウバガイ",
+     "url": "https://ja.wikipedia.org/wiki/ウバガイ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hokkigai",
+     "to_slug": "tsubugai",
+     "relation_type": "対比",
+     "basis": "ともに北海道の冷たい海でコリコリとした歯ごたえが持ち味とされる貝だが、ホッキ貝は二枚貝、ツブ貝は巻貝で分類が異なるため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "tsubugai",
+   "body_ja": "## 何でできているか\nつぶ貝は北海道近海に多いエゾボラなど、近縁の巻貝をまとめて呼ぶ通称。渦を巻いた硬い殻の中に、コリコリとした歯ごたえの身が詰まる。噛むほどにほのかな苦みが立つのが特徴で、この苦みは殻の奥にある小さな唾液腺に由来するとされる。刺身では薄く引くと苦みと甘みの対比が際立ち、バター焼きや煮つけにすると香ばしさや出汁の旨みが加わって印象がまるで変わる貝でもある。\n## どう作るのか\n主にかご漁で獲る。餌を仕込んだ筒状のかごを海底に沈めて数日置き、匂いに寄ってきた個体を引き揚げる方法とされる。獲れた身は殻から外す前に唾液腺を丁寧に取り除く下処理が要る。取り残すとしびれを感じることがあるとされ、店先では下処理済みの状態で売られることも多い。刺身にする際は薄切りにしてから氷水で締めると、余分な水分が抜けて歯ごたえが一段と際立つとされる。\n## なぜこの形になったのか\n北海道の冷たい海に多くの種が分布し、砂泥底や岩礁の間を這って貝や小動物を捕食する。オホーツク海沿岸のような荒く冷たい漁場では、船を出して網を引く底曳きより、かごを沈めて待つ漁の方が効率的とされ、地域の漁法として定着してきたと考えられる。冬から春にかけて身が締まり、味が乗るとされ、この時期が旬として好まれてきた。",
+   "body_en": "## What it's made of\nTsubugai is an everyday name covering several closely related whelks common in Hokkaido's coastal waters, chief among them ezobora. Inside its tightly coiled shell sits meat with a firm, crunchy bite. Chewing brings out a faint bitterness, said to come from a small salivary gland tucked deep in the shell. Sliced thin as sashimi, that bitterness plays off the sweetness underneath; butter-fried or simmered, a toasty or broth-like note takes over instead, giving the same clam an entirely different character.\n## How it's made\nMost are caught in baited traps: tube-shaped cages are sunk to the seafloor and left for a few days, then hauled up once whelks drawn by the scent have gathered inside. Before the meat is worked out of the shell, the salivary gland is carefully removed — leftover gland is said to bring on a numbing sensation, so much of what reaches shops has already been cleaned. For sashimi, thin slices are chilled in ice water, which is said to draw off excess moisture and sharpen the crunch further.\n## Why it took this shape\nMany species cluster in Hokkaido's cold waters, crawling over sandy mud and reef to prey on smaller shellfish and animals. In rough, cold grounds like the Okhotsk coast, sinking and waiting with traps is said to work better than towing a trawl net, which is thought to be why it became the region's standard method. Its meat is said to firm up and gain flavor from winter into spring, a stretch long favored as its season.",
+   "sources": [
+    {
+     "title": "エゾボラ",
+     "url": "https://ja.wikipedia.org/wiki/エゾボラ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tsubugai",
+     "to_slug": "sazae",
+     "relation_type": "対比",
+     "basis": "ともに殻の中の身をコリコリとした歯ごたえで楽しむ巻貝だが、ツブ貝はバイ科の仲間、サザエはリュウテン科で系統が異なるため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "akagai",
+   "body_ja": "## 何でできているか\n身が赤みを帯びるのは、貝の血液に人と同じヘモグロビンを含むためとされる。コリッと歯切れよく、噛むと鉄分を思わせる独特の風味がじんわり広がる。江戸前寿司では身とともに「ひも」と呼ばれる縁側も刻んで添えられ、こちらは身よりさらに強い歯ごたえと磯の香りを持つ。生で食べると赤みと甘みの対比がはっきり感じられ、火を通すとかえって硬く縮んでしまうため、基本的には生食で楽しむ貝とされる。\n## どう作るのか\n砂泥の海底に潜って暮らす二枚貝で、桁網を引く漁や潜水漁で獲る。水揚げ後は殻を開けて身を取り出し、表面のぬめりを塩でもんで洗い流してから調理する。寿司ネタにする際は身を開いて細かく包丁目を入れ、コリコリとした食感を保ったまま花のように形よく仕立てるのが職人の腕とされる。ひもは酢の物や和え物にして、身とは別の食感を楽しむことが多い。\n## なぜこの形になったのか\n仙台湾のような閉じた内湾は波が穏やかで砂泥が堆積しやすく、この貝が好む静かな底質を作るとされる。江戸前の寿司文化圏に近い産地が多いことも、赤貝が刺身よりむしろ寿司ネタとして伝統的に定着してきた背景の一つに挙げられる。冬から春にかけてが身の充実する時期とされ、この頃が最も脂とコクが乗るという。こうした穏やかな内湾がすぐ近くの都市の食文化と結びついたことも、赤貝が特別なネタとして扱われてきた一因とされる。",
+   "body_en": "## What it's made of\nThe flesh runs red because its blood is said to carry hemoglobin, much like ours. It has a crisp, clean bite, and chewing releases a faint iron-tinged flavor. In Edo-style sushi it comes with himo, the frilled mantle edge sliced alongside, chewier still and carrying an even stronger briny note. Eaten raw, the contrast between its redness and its sweetness stands out clearly; cooking tends to toughen and shrink it, so it is treated as a shellfish best eaten raw.\n## How it's made\nThis bivalve burrows into sandy mud on the seafloor and is caught by dredge net or diving. Once landed, the shell is opened and the meat drawn out, then rubbed with salt to rinse off its slick coating before it is worked. For sushi, the meat is butterflied and finely scored, shaped into a flower-like form while keeping its crunch — a step said to separate a skilled hand from an ordinary one. The himo is often vinegared or dressed separately, prized for a texture distinct from the body.\n## Why it took this shape\nEnclosed inner bays like Sendai Bay stay calm enough for sandy mud to settle, said to give this bivalve the quiet seabed it favors. Many of its landing sites also sit close to the Edo-style sushi culture's home ground, one reason it is thought to have become a sushi staple rather than mainly a sashimi item. Winter into spring is treated as when the meat fills out and gains the most richness, and the closeness of these calm bays to nearby urban food culture is thought to be one reason the clam came to be treated as a special sushi item rather than an everyday one.",
+   "sources": [
+    {
+     "title": "アカガイ",
+     "url": "https://ja.wikipedia.org/wiki/アカガイ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "akagai",
+     "to_slug": "torigai",
+     "relation_type": "対比",
+     "basis": "ともに江戸前寿司の代表的な二枚貝ネタだが、アカガイは生食が基本、トリガイは黒く茹でてから使う点で調理法が対照的なため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "torigai",
+   "body_ja": "## 何でできているか\n足の部分が鳥のくちばしに似た形をしていることが名の由来とされる二枚貝。江戸前寿司では黒く茹でた足を開いてネタにし、コリッとした歯切れとほのかな甘みが持ち味になる。足が大きく黒々としたものほど身が締まり良品とされ、生のままより加熱した方が甘みが引き立つとされる珍しい貝でもある。噛んだ瞬間の弾力とその後に残る磯の香りが対照的に感じられる。\n## どう作るのか\n遠浅の砂泥底に浅く潜って暮らすため、桁網を引く漁でまとめて獲る。水揚げ後は殻から身を外し、足の部分をさっと湯通ししてから氷水で締める。この加熱と冷却の落差でコリコリとした歯ごたえが引き立つとされ、黒く色づいた表面はそのまま握りに使われることが多い。わたの部分は身と切り離して別に扱われ、酒蒸しなどに回されることもある。\n## なぜこの形になったのか\n瀬戸内海のような遠浅の干潟が広がる海域は、トリガイが好む柔らかい砂泥底と適度な栄養分を備えるとされる。冬から春にかけて水温が下がる時期に身が締まるとされ、旬とされる時期はこの水温変化と重なる。干潟の面積の増減とともに漁獲量が変動しやすい貝としても知られ、環境の変化に敏感な指標とも言われる。近年は干潟の環境変化によって漁獲量の年ごとの差が大きくなっているとされ、獲れる年と獲れない年の差が際立つ貝としても知られている。",
+   "body_en": "## What it's made of\nThis bivalve is said to be named for a foot shaped like a bird's beak. In Edo-style sushi the foot is boiled black and butterflied for nigiri, prized for a crisp bite and a mild sweetness underneath. The bigger and blacker the foot, the firmer and better the meat is said to be — an unusual clam whose sweetness is said to come through more once cooked than raw. The snap on first bite and the briny note that lingers after feel almost like two different sensations.\n## How it's made\nIt burrows just under the surface of shallow, muddy sand, so it is caught in bulk by dredge net. Once landed, the meat is freed from the shell and the foot briefly scalded, then plunged into ice water — that jump from heat to cold is said to be what sharpens its crisp bite, and the blackened surface is usually left as is for nigiri. The innards are trimmed away and handled separately from the foot, sometimes simmered in sake on their own.\n## Why it took this shape\nShallow tidal flats like those of the Seto Inland Sea are said to offer the soft, muddy sand and steady nutrients this clam favors. Its flesh is said to firm up as water temperatures drop from winter into spring, and its season is understood to track that same shift. Its catch is also known to swing with how much tidal flat area remains from year to year, making it something of a barometer for the health of that shoreline.",
+   "sources": [
+    {
+     "title": "トリガイ",
+     "url": "https://ja.wikipedia.org/wiki/トリガイ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "torigai",
+     "to_slug": "hokkigai",
+     "relation_type": "対比",
+     "basis": "ともに足の部分を主に食べる二枚貝だが、トリガイは瀬戸内など温暖な干潟、ホッキ貝は北海道の冷たい砂地を主産地とする点で対比。"
+    }
+   ]
+  },
+  {
+   "slug": "mirugai",
+   "body_ja": "## 何でできているか\n標準和名はミルクイ。殻から太く長く伸びる水管を刺身や寿司ネタとして食べる大型の二枚貝で、コリッとした歯切れのよさと淡い甘みが持ち味とされる。表面をさっと湯引きすると皮の食感が香ばしさに変わり、生のままより甘みが立つとされる。貝の本体よりも水管が主役という珍しい食べ方をする貝でもあり、身の部分は煮物などに回されることが多い。\n## どう作るのか\n砂泥の海底深くに潜って暮らし、水管だけを海底に出して呼吸する。桁網などで掘り起こして獲る。水揚げ後は殻を割って身と水管を取り出し、水管の皮を湯引きして剥くひと手間を加えると、独特の臭みが抜けて食感がなめらかになるとされる。剥いた皮の縁はさらに刻んで、薬味代わりに添えられることもあり、下処理の丁寧さがそのまま味に表れる貝とされる。\n## なぜこの形になったのか\n遠浅で潮の干満差が大きい東京湾奥のような海域は、深く潜って暮らすこの貝に適した砂泥底を持つとされる。水管を長く伸ばして海底の砂の中で身を守る形は、こうした波の穏やかな内湾の環境に合わせて育った姿だと考えられる。深く潜るほど外敵から狙われにくくなるとも言われ、水管が長いほど良品として扱われる傾向がある。近年は漁獲量が少なくなり、天然物は高級食材として扱われることが多いとされる。",
+   "body_en": "## What it's made of\nFormally called mirukui, this large clam is eaten for its thick siphon, which stretches far beyond the shell and is served raw as sashimi or sushi, prized for a crisp bite and a mild sweetness. Briefly scalding the surface turns the skin's texture toasty and is said to bring out more sweetness than eating it raw — an unusual clam where the siphon, not the body, takes center stage, with the body itself usually simmered instead.\n## How it's made\nIt burrows deep into sandy mud, leaving only the siphon poking above the seabed to breathe, and is dug up with dredge nets. Once landed, the shell is cracked open and the siphon separated from the body; scalding and peeling the siphon's skin is said to remove its distinctive off-flavor and smooth out the texture. The trimmed edge of that peeled skin is sometimes chopped and served as a garnish of its own, so how carefully it is prepped shows directly in the result.\n## Why it took this shape\nShallow inner waters with a wide tidal range, like the head of Tokyo Bay, are said to offer the sandy-mud seabed this deep-burrowing clam needs. Its long siphon, which shields the body deep in the sand, is thought to have developed to suit these calm, wave-sheltered bay environments, since burrowing deeper is also said to keep it safer from predators. The longer the siphon, the better the clam is generally reckoned to be.",
+   "sources": [
+    {
+     "title": "ミルクイ",
+     "url": "https://ja.wikipedia.org/wiki/ミルクイ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mirugai",
+     "to_slug": "akagai",
+     "relation_type": "対比",
+     "basis": "ともに江戸前寿司の伝統的なネタだが、ミルガイは水管、アカガイは身とひもを食べる点、また生息深度も異なるため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "bakagai",
+   "body_ja": "## 何でできているか\n市場では青柳の名で流通することが多い二枚貝。橙色の足の部分をむき身にすると柔らかい歯ごたえとほのかな甘みが感じられ、寿司では軍艦巻きやにぎりに使われる。貝柱は小柱と呼ばれ、こちらは粒立ちのよい歯ごたえでかき揚げやかき混ぜご飯などに重宝される、身と貝柱で表情の違う貝でもある。加熱すると身が縮みやすく、生食での扱いが好まれる。\n## どう作るのか\n遠浅の砂浜に浅く潜って暮らすため、熊手や桁網で掘り起こして獲る。水揚げ後は殻から足とわたを分け、足はむき身にして塩水で洗う。傷みが早いとされる貝でもあり、鮮度が落ちる前に手早く処理することが柔らかい食感を保つ鍵とされる。小柱は足とは別に選り分けて出荷され、それぞれ違う用途に回され、天ぷらの種として重宝される。\n## なぜこの形になったのか\n九十九里浜のような遠浅の砂浜が延々と続く海域は、この貝が好む柔らかい砂地を広く提供するとされる。波打ち際近くの浅い場所に群れて生息する性質が、熊手で掘る潮干狩り的な漁のスタイルを地域に根付かせてきたと考えられる。砂の質が漁の効率を大きく左右するとされ、荒天の後は群れの位置が変わりやすいという。青柳という呼び名は江戸時代に多く水揚げされた地名に由来するとも伝わり、産地の記憶が名前として残った貝ともいえる。",
+   "body_en": "## What it's made of\nThis clam usually reaches market under its trade name, aoyagi. Its orange foot is shucked and used raw for sushi nigiri or gunkan rolls, tender with a mild sweetness. Its small adductor muscles, called kobashira, are kept separate for their grainy bite and prized for fritters or mixed rice — a clam that shows two different faces depending on which part is used. Cooking tends to shrink the foot, so it is usually kept raw.\n## How it's made\nIt burrows just under the sand of shallow beaches and is dug up by rake or dredge net. Once landed, the foot and innards are separated from the shell, and the foot is shucked and rinsed in saltwater. It is said to spoil quickly, so handling it fast before freshness slips is key to keeping its tender texture. The kobashira are sorted out and shipped apart from the foot, each headed for a different use, prized in particular as tempura filling.\n## Why it took this shape\nA long, shallow, sandy shoreline like Kujukuri Beach is said to offer wide stretches of the soft sand this clam favors. Its habit of clustering just under the surface near the waterline is thought to be why rake-based, beach-digging-style fishing took hold as the local method. The quality of the sand itself is said to make a real difference to how efficient that fishing is, and a storm can shift where the clams cluster overnight.",
+   "sources": [
+    {
+     "title": "バカガイ",
+     "url": "https://ja.wikipedia.org/wiki/バカガイ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "bakagai",
+     "to_slug": "mirugai",
+     "relation_type": "対比",
+     "basis": "ともに東京湾奥の砂泥に潜る二枚貝だが、バカガイは足の部分、ミルガイは水管を主に食べる点で対比。"
+    }
+   ]
+  },
+  {
+   "slug": "surume-ika",
+   "body_ja": "## 何でできているか\n国内で最も漁獲量の多いイカ。生では歯切れのよい食感と上品な甘みがあり、火を通すと身が締まって噛み応えが増す。乾燥させて「スルメ」に加工する保存食としての利用に由来する名を持ち、干すことで水分が抜けて旨み成分が凝縮されるとされる。一夜干しや塩辛、いか飯まで加工の幅が広いことも特徴の一つで、部位ごとに向く料理が分かれる。\n## どう作るのか\n夜間に光に集まる習性を利用し、船に強い集魚灯を灯して群れを寄せる「いさり火漁」で獲る。釣り針を並べた自動釣り機で一尾ずつ引き上げるのが伝統的な漁法とされる。水揚げ後は鮮度が落ちやすいため、船上で内臓を抜いて急冷することが多く、こうした処理の速さが刺身用の透明感を左右するとされる。皮を剥く工程の丁寧さも食感に影響する。近年は資源量の変動が大きく、年によって水揚げ量に差が出やすいイカとしても知られている。\n## なぜこの形になったのか\n函館周辺の海域は暖流と寒流が接する潮目にあたり、群れが集まりやすい漁場とされる。秋から冬にかけて回遊するこのイカを狙って発達したいさり火漁は、夜の海面を明るく照らす光景として今もこの港町の風物詩になっている。漁期の長さが加工文化の豊かさにもつながってきたと考えられ、港には今も水揚げを待つ仲買人の姿が絶えない。",
+   "body_en": "## What it's made of\nJapan's most heavily landed squid. Raw, it has a crisp bite and a mild, refined sweetness; cooked, the flesh firms up into a chewier texture. Its name traces back to its use as surume, the dried snack it is turned into, a process said to draw out moisture and concentrate its savory flavor. It also lends itself to a wide range of other preparations, from overnight drying to salted shiokara and stuffed rice, with different parts suited to different dishes.\n## How it's made\nCatching it relies on its habit of gathering under light at night: boats hang powerful lamps to draw in the shoal, a method known as isaribi-ryo, or fishing-fire fishing. Traditionally, rows of hooks on an automatic jigging rig haul them up one after another. Because freshness fades fast once landed, crews often gut and chill the catch on board right away, and that speed is said to be what keeps the flesh translucent enough for sashimi, with careful skinning shaping the texture further.\n## Why it took this shape\nThe waters around Hakodate sit on a tidal front where a warm and a cold current meet, said to make it a spot where shoals tend to gather. Isaribi-ryo developed to chase this squid as it migrates through in autumn and winter, and the lights it casts across the night sea remain a fixture of this port town. A long fishing season is thought to be part of why its processing culture grew so varied, and buyers still crowd the docks each time a boat comes in.",
+   "sources": [
+    {
+     "title": "スルメイカ",
+     "url": "https://ja.wikipedia.org/wiki/スルメイカ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "surume-ika",
+     "to_slug": "sumi-ika",
+     "relation_type": "対比",
+     "basis": "ともに国内で広く流通する代表的なイカだが、スルメイカはアカイカ科の外洋性回遊種、コウイカは石灰質の甲を持つコウイカ科で体のつくりが異なるため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "yari-ika",
+   "body_ja": "## 何でできているか\n細長い胴と槍先のような姿からこの名がついたイカ。スルメイカより身が薄く柔らかで、上品な甘みととろけるような食感が刺身で好まれる。加熱しても硬くなりにくいとされ、さっと湯通しした霜降りづくりでも滑らかな食感が残る。透明感のある白い身は寿司ネタとしても扱いやすく、細切りにすると特に柔らかさが際立つ。身の薄さゆえに味が染み込みやすく、煮物にしても硬くなりにくいという扱いやすさもある。\n## どう作るのか\n冬から春にかけて岸近くの浅場に寄ってくる性質を利用し、刺し網や釣りで獲る。水揚げ後は皮を剥いて胴を開き、透き通った身の状態を保ったまま出荷される。皮引きの丁寧さが刺身にしたときの舌触りを左右するとされ、細く切り分けて糸造りにすると柔らかさがより際立つ。エンペラの部分も別に刺身にされる。釣りで一尾ずつ丁寧に扱うことが、身の透明感を保ったまま出荷する条件になっているとされる。\n## なぜこの形になったのか\n明石海峡のような潮流の速い海域は、餌となる小魚やプランクトンが豊富に流れ込むとされる。速い潮に逆らって泳ぐ細長い体つきは、こうした潮目の海で暮らすのに適した形と考えられ、冬の水温低下とともに接岸してくる時期が旬に重なる。産卵を控えた時期は特に身が充実するという。海藻に卵を産みつける習性があり、藻場が豊かな海域ほど産卵場として選ばれやすいとされる。",
+   "body_en": "## What it's made of\nNamed for its long, slender body shaped like a spear tip. Its flesh runs thinner and softer than surume-ika's, prized raw for a delicate sweetness and a melting texture. It is said to stay tender even when cooked, keeping that smoothness even briefly blanched for a lightly seared preparation. Its clear white flesh also handles easily as a sushi topping, and cutting it into fine threads makes its softness stand out even more.\n## How it's made\nIt is caught by gillnet or line fishing, timed to its habit of moving into shallow water near shore from winter through spring. Once landed, the skin is peeled and the body opened, then shipped while the flesh is still translucent. How carefully the skin is stripped is said to shape the texture on the tongue when served raw, and slicing it into fine threads makes its softness stand out even more. Its fin is often sliced and served on its own as well.\n## Why it took this shape\nFast-flowing waters like the Akashi Strait are said to carry in plenty of small fish and plankton to feed on. Its slender build, suited to swimming against strong currents, is thought to fit life in such tidal-front waters, and its inshore approach as winter water temperatures drop lines up with its season. It is said to be especially full-bodied just before spawning.",
+   "sources": [
+    {
+     "title": "ヤリイカ",
+     "url": "https://ja.wikipedia.org/wiki/ヤリイカ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yari-ika",
+     "to_slug": "aori-ika",
+     "relation_type": "兄弟",
+     "basis": "ともにジンドウイカ科(Loliginidae)に属す近縁種で、沿岸性の生態と刺身での上品な甘みを共有する。"
+    }
+   ]
+  },
+  {
+   "slug": "aori-ika",
+   "body_ja": "## 何でできているか\nエンペラと呼ばれるヒレが胴全体を縁取る大型のイカ。透き通るような身に強い甘みとねっとりした厚みのある食感があり、イカの中でも高値で取引される。皮を引いて薄造りにすると、噛むほどに甘みがにじみ出るとされる。厚みのある身は少し寝かせて熟成させると旨みが増すとも言われ、鮮度と熟成のどちらの味も楽しめる。大きな個体では胴長40cmを超えることもあるとされ、イカの中でも特に食べ応えのある部類に入る。\n## どう作るのか\n海藻の茂る浅い岩礁域に卵を産みつける性質があり、春から夏にかけて産卵のため接岸した個体を釣りや刺し網で狙う。活きたまま港に持ち帰り、活け締めにしてから神経を抜くと身の透明感と甘みが保たれやすいとされる。この処理の丁寧さが刺身にしたときの味を大きく左右するといい、扱いの差が値段にも表れる。産卵床となる藻場を人工的に沈めて設置し、資源を増やす取り組みを行っている地域もあるとされる。\n## なぜこの形になったのか\n対馬暖流の影響を受ける五島列島周辺のような温暖な海域は、海藻が茂る岩礁と適度な水温を備え、産卵場に適するとされる。夏に接岸して産卵し、秋には大きく育った個体が獲れることから、季節ごとに異なる大きさで楽しめるイカとされる。冬にかけて深場へ移動する個体もあるとされ、季節によって漁場が移り変わる点も特徴の一つに挙げられる。",
+   "body_en": "## What it's made of\nA large squid whose fin, called empera, skirts the entire body. Its translucent flesh carries strong sweetness and a thick, dense texture, making it one of the pricier squid at market. Skinned and cut into thin sashimi slices, its sweetness is said to seep out more with every bite, and its thick flesh is also said to grow more savory when aged a little, so both its fresh and rested flavors are worth trying.\n## How it's made\nIt lays its eggs in shallow, seaweed-covered reef, and fishers target individuals that move inshore to spawn from spring through summer, using line fishing or gillnets. Brought back to port alive, it is killed and its nerve removed at once — a step said to preserve the flesh's clarity and sweetness, and how carefully this is done is said to make a real difference in the sashimi's taste, a difference that shows up in the price as well.\n## Why it took this shape\nWarm waters like those around the Goto Islands, shaped by the Tsushima Current, are said to offer the seaweed-covered reef and steady temperatures a spawning ground needs. It moves inshore to spawn in summer and grows large by autumn, so the squid caught can differ in size through the season.",
+   "sources": [
+    {
+     "title": "アオリイカ",
+     "url": "https://ja.wikipedia.org/wiki/アオリイカ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aori-ika",
+     "to_slug": "surume-ika",
+     "relation_type": "対比",
+     "basis": "ともに人気の高い食用イカだが、アオリイカはジンドウイカ科の沿岸性で高値、スルメイカはアカイカ科の外洋回遊性で漁獲量最大という対照。"
+    }
+   ]
+  },
+  {
+   "slug": "hotaru-ika",
+   "body_ja": "## 何でできているか\n体長5cmほどの小型のイカで、体のあちこちに発光器を持つ。ボイルして酢味噌で和えると、内臓ごと食べられる濃厚な旨みとほろ苦さが同時に広がる。柔らかい身と小さな吸盤のコリッとした歯触りが対照的に感じられ、丸ごと食べられる小さなイカという珍しさも味わいのうちに含まれる。天ぷらにすると身の食感がより軽くなる。\n## どう作るのか\n春の産卵期になると深海から浅場まで浮上する習性があり、この時期に定置網や、夜間に沿岸で群れをすくい取る漁で獲られる。鮮度落ちが早いため水揚げ後すぐに茹でるのが基本とされ、生のまま食べる場合は寄生虫対策で内臓を除くなどの下処理が要る。すくい取り漁は観光としても親しまれ、多くの見物客を集める。産卵を終えた個体は浅場で力尽きることも多く、波打ち際に打ち上げられる姿も春の風物詩の一つとされる。\n## なぜこの形になったのか\n富山湾は沿岸からすぐ深い谷へ落ち込む棚状の海底地形を持つとされ、深海性のこのイカが産卵のため浅場近くまで上がってきやすい環境になっているという。富山県のまとめによれば、この地形が沿岸でのすくい取り漁や観光的な鑑賞を可能にしているとされ、春の風物詩として地域に定着してきた。発光する様子が海面を青白く照らすことから、夜の漁は幻想的な光景としても知られている。",
+   "body_en": "## What it's made of\nA small squid about 5cm long, dotted with light-producing organs across its body. Boiled and dressed in vinegar-miso, it is eaten whole, guts included, for a rich savoriness laced with a faint bitterness. Its soft flesh sits against the crisp bite of its tiny suckers, and the novelty of eating a whole squid in one bite is part of the appeal. Deep-fried as tempura, its texture turns noticeably lighter.\n## How it's made\nIt rises from deep water to shallows to spawn each spring, and is caught during that window by set net or by scooping up shoals along the coast at night. It spoils fast, so boiling it right after landing is standard; eaten raw, the innards are removed first as a precaution against parasites. The scoop-net fishing itself has also become a popular seasonal tourist draw, pulling in crowds of onlookers.\n## Why it took this shape\nToyama Bay is said to have a shelf-like seabed that drops straight into a deep trench close to shore, an environment that lets this deep-water squid rise near the shallows to spawn. According to the prefecture, this terrain is what makes both coastal scoop-net fishing and the seasonal spectacle of watching it possible, and it has become a fixture of spring along this coast.",
+   "sources": [
+    {
+     "title": "富山湾のホタルイカ",
+     "url": "https://www.info-toyama.com/stories/hotaruika-toyama",
+     "publisher": "公益社団法人とやま観光推進機構",
+     "accessed_at": "2026-09-06"
+    },
+    {
+     "title": "ホタルイカ",
+     "url": "https://ja.wikipedia.org/wiki/ホタルイカ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hotaru-ika",
+     "to_slug": "yari-ika",
+     "relation_type": "対比",
+     "basis": "ともに春が旬とされるイカだが、ホタルイカは体長5cmほどの小型で発光器を持ち、ヤリイカは細長い大型種という対照。"
+    }
+   ]
+  },
+  {
+   "slug": "sumi-ika",
+   "body_ja": "## 何でできているか\nコウイカの背には石灰質の甲が埋まっていて、これが軟骨の代わりに体を支えている。外套長は大きくても18cmほど、体重600g前後の中型のイカで、黒褐色の帯状の斑が横に走り、ひれの付け根には銀色の帯が浮かぶ。イカの仲間の中では厚みのある身が特徴で、加熱してももっちりとした弾力を保ったまま硬くならず、噛むほどに上品な甘みがにじむ。寿司や炒め物のほか、墨を使った料理にも向く旨みの濃さがある。\n## どう作るのか\n底曳網や刺し網に混じって揚がるほか、産卵期に接岸する大型個体だけを狙う「いかかご漁」が知られ、瀬戸内海の島原湾などでは特に重要な漁法とされる。水温10〜15度前後、海底の塩分濃度が33〜34パーミル台で安定した海域で水揚げがよいとされ、水深10〜100mほどの砂泥質の海底に暮らす個体が狙われる。内湾の岩礁や海藻に卵を産みつける春の習性も、漁の組み立てに利用されている。\n## なぜこの形になったのか\n早春から初夏にかけて内湾の岩礁や海藻に産卵のため寄ってくる性質から、遠浅で藻場が広がる瀬戸内海は絶好の産卵場とされる。餌となる小魚やエビが豊富な内湾の穏やかな海況が、厚みのある身を育てる条件になっているとみられ、岡山など瀬戸内沿岸で漁が盛んな理由の一つと考えられている。産卵を控えた4〜5月ごろの個体がとりわけ旬とされるのも、この海域の環境と結びついている。",
+   "body_en": "## What it's made of\nA chalky internal shell runs down the cuttlefish's back, standing in for the cartilage other squid rely on. It is a mid-sized squid, its mantle reaching about 18cm and 600g at most, marked with dark brown bands across the body and a silver stripe at the base of its fins. Its flesh runs thicker than most squid, staying springy and tender even after cooking rather than turning rubbery, with a refined sweetness that deepens the more you chew. That makes it prized for sushi, stir-fries, and dishes built around its own ink.\n## How it's made\nCaught incidentally in bottom trawls and gillnets, but the more targeted method is a squid-pot fishery aimed at large adults moving inshore to spawn, said to be especially important in bays like Shimabara in the Seto Inland Sea. Landings are reportedly best around 10-15°C with seafloor salinity holding steady in the 33-34 range, targeting cuttlefish that live on sandy, muddy bottoms 10 to 100 meters down. Its spring habit of laying eggs on inshore rocks and seaweed shapes how the fishery is timed.\n## Why it took this shape\nFrom early spring through early summer, cuttlefish head into sheltered bays to lay eggs on rocks and seaweed, and the shallow, weed-rich waters of the Seto Inland Sea are said to make an ideal spawning ground. Calm bay conditions rich in small fish and shrimp are thought to be what lets the flesh grow so thick, one likely reason the fishery has long been active along the Okayama coast. The April-to-May window just before spawning, prized as its peak season, traces back to that same coastal environment.",
+   "sources": [
+    {
+     "title": "コウイカ",
+     "url": "https://ja.wikipedia.org/wiki/コウイカ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sumi-ika",
+     "to_slug": "hotaru-ika",
+     "relation_type": "対比",
+     "basis": "ともに独特の体の仕組み(石灰質の甲/発光器)を持つイカだが、コウイカは中型で瀬戸内の内湾性、ホタルイカは小型で富山湾の深海性という対照。"
+    }
+   ]
+  },
+  {
+   "slug": "madako",
+   "body_ja": "## 何でできているか\n国内で最も食べられているタコで、明石海峡のように潮の速い海域で育つ個体は足が太く短く締まり、陸に置いても踏ん張って立つほどの力強さを持つとされる。茹でると弾力のある歯ごたえと凝縮した旨みが際立ち、酢だこや煮ダコ、たこ焼きの具まで幅広く使われる。加熱で身がぎゅっと締まる分、火の通し加減ひとつで歯ごたえの印象が大きく変わる食材でもある。\n## どう作るのか\n底曳き網漁が最も漁獲量が多いとされるが、タコ壺を海底に沈めて棲みつかせる伝統的なタコ壺漁や一本釣りも行われる。明石ではタコ壺の仕掛けが100mから2.3kmにも及ぶことがあるとされ、夏の水温上昇で活動が活発になる6月末からお盆ごろにかけて大量に水揚げされる。水揚げ後は活きたまま持ち帰り、〆てから調理に回すことで身の締まりを保つ。満月や新月前後の大潮に活性が上がるとされ、こうした潮回りを見計らって仕掛けを入れる漁師も多いという。\n## なぜこの形になったのか\n明石海峡のような速い潮流にもまれて育つと、流されまいと踏ん張る分だけ足が太く短くしまるとされ、餌となるカニやエビが豊富な環境も相まって旨みが凝縮するという。夏の水温上昇でエサを盛んに食べタウリンなどの栄養を蓄えることも、旬とされる時期の身の充実につながっているとみられ、狭い海峡という地形そのものがこの味を作っていると言える。",
+   "body_en": "## What it's made of\nThe most widely eaten octopus in Japan. Raised against fast currents like those in the Akashi Strait, it is said to grow legs thick and short enough to plant itself and stand upright on land. Boiled, it turns springy and deeply savory, used everywhere from vinegared dishes to simmered octopus and takoyaki filling. Because the flesh firms up so much with heat, how long it's cooked makes a real difference to the bite.\n## How it's made\nBottom trawling reportedly lands the most, but traditional pot fishing, sinking jars for the octopus to move into, and hook-and-line fishing are also used. Around Akashi, strings of pots can reportedly stretch from 100 meters to 2.3 kilometers, with the biggest landings from late June through mid-August, when rising water temperatures make the octopus more active. Brought back alive and killed just before cooking, it keeps that firmness through to the plate.\n## Why it took this shape\nRaised against fast currents like the Akashi Strait's, the octopus is said to bulk up its legs thick and short just from bracing against the flow, with abundant crab and shrimp prey concentrating the flavor further. The summer rise in water temperature that spurs heavier feeding and taurine accumulation is also thought to be part of why the meat fills out best in season, so the strait's tight geography itself is credited with shaping this octopus's character.",
+   "sources": [
+    {
+     "title": "明石浦漁業協同組合と明石だこ",
+     "url": "https://www.city.akashi.lg.jp/seisaku/seisaku_shitsu/20130701_takaramono_3.html",
+     "publisher": "明石市",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "madako",
+     "to_slug": "mizudako",
+     "relation_type": "対比",
+     "basis": "ともに国内でよく食べられるタコだが、マダコは潮流の速い浅場で足が締まり、ミズダコは冷たい北の海で世界最大級に育つ点で対比。"
+    }
+   ]
+  },
+  {
+   "slug": "mizudako",
+   "body_ja": "## 何でできているか\n世界最大級とされるタコで、脚を広げると3〜5mに達することもあり、記録上は体長9.1m・体重272kgという例もあるという。マダコに比べて皮膚だけでなく身そのものも柔らかく水分を多く含むため、かつては水っぽいと敬遠されたが、近年はその柔らかな食感がむしろ評価されるようになっている。湯引きして刺身にすると淡白ながら甘みのある味わいになる。\n## どう作るのか\n蛸壺を海底に沈めて棲みつかせる漁法で獲られ、北海道では漁獲量の多い重要な水産物とされる。繁殖期は10月頃で、生後2年ほどで成熟すると考えられている。寒流の効いた冷たい海を好み、季節によって浅場と深場を行き来する習性があるため、冬にかけて漁が盛んになるとされ、大型ゆえに一杯の水揚げが持つ量感も大きい。警戒心が強く物陰に隠れる習性があるため、蛸壺には身を隠しやすい形状のものが選ばれるとされる。\n## なぜこの形になったのか\n寒海性で低い水温を好む性質から、噴火湾のように水温の低い北の海が好漁場になっているとされる。マダコが暖かく速い潮流にもまれて身を締めるのとは対照的に、冷たく穏やかな海で大きく育つ分、身に水分を多く含み柔らかくなる傾向があるとみられ、同じタコでも海が変われば求められる食感がまるで違うことを教えてくれる一種と言える。",
+   "body_en": "## What it's made of\nReckoned the world's largest octopus species, it can span 3 to 5 meters across its outstretched legs, with a recorded extreme of 9.1 meters and 272 kilograms. Its flesh runs softer and more water-rich than madako's, not just the skin — once dismissed as watery, that same softness is now valued in its own right. Briefly blanched for sashimi, it turns mild yet distinctly sweet.\n## How it's made\nCaught with sunken pots the octopus moves into on its own, it is one of Hokkaido's most significant catches by volume. It reportedly spawns around October and matures roughly two years later. Favoring cold water, it moves between shallow and deep grounds by season, with fishing said to pick up through winter, and its sheer size means a single catch brings in far more meat than a madako would.\n## Why it took this shape\nIts preference for cold water is said to make northern bays like Funka Bay a prime fishing ground. Where madako firms up bracing against warm, fast currents, this octopus grows large in calm, cold water instead, tending toward a softer, more water-rich flesh — a reminder that the same kind of animal can come out with a completely different texture depending on the sea it grows up in.",
+   "sources": [
+    {
+     "title": "ミズダコ",
+     "url": "https://ja.wikipedia.org/wiki/ミズダコ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mizudako",
+     "to_slug": "iidako",
+     "relation_type": "対比",
+     "basis": "ともにタコ壺漁で獲られるが、ミズダコは世界最大級、イイダコは体長20cmほどの小型種という対照的な体格。"
+    }
+   ]
+  },
+  {
+   "slug": "iidako",
+   "body_ja": "## 何でできているか\n体長30cmほどの小型のタコで、瀬戸内海沿岸のような遠浅の海に多く見られる。産卵期のメスは胴の中に卵がぎっしり詰まり、その粒がご飯粒のように見えることが名の由来とされる。市場には10cm前後のものが多く出回り、煮つけにすると身は柔らかく、卵を抱えた個体は噛むとプチプチとした食感が加わって、小型のタコならではの楽しみ方ができる。\n## どう作るのか\n主にタコ壺漁で獲られ、イイダコ用の壺には大きな二枚貝の殻や、それを模したプラスチック製の貝殻が使われることが知られている。浅い砂泥底に暮らす小型種ならではの仕掛けで、壺の中に潜んだ個体をそのまま引き上げる。産卵直前で卵が発達したメスが特に珍重され、産卵期にあたる冬から春にかけてが最も食べごろの時季とされる。\n## なぜこの形になったのか\n冬から春の産卵期に合わせてメスの体に卵が詰まる生態が、この時期を旬として定着させたとみられる。小型で浅い海底に暮らす習性から、貝殻を模した仕掛けで営巣させるタコ壺漁が発達したと考えられ、遠浅の海が続く瀬戸内海沿岸のような地形が、この壺漁の伝統をいまも支えている。産卵を終えたメスは体力を使い果たして弱ることが多いとされ、卵を抱えた時期こそが漁の狙い目になっている。",
+   "body_en": "## What it's made of\nA small octopus, only about 30cm long, common along shallow coasts such as the Seto Inland Sea. In females nearing spawning, the body fills with roe whose grains are said to look like cooked rice, the source of the octopus's Japanese name. Most sold at market run about 10cm, and simmered, the flesh turns tender while roe-carrying females add a popping texture with every bite, a small-octopus pleasure of its own.\n## How it's made\nMostly caught with pot fishing, using pots built from large bivalve shells, or plastic shells shaped to match, that the octopus is known to move into — gear suited to a small species living on shallow, sandy-muddy ground, hauled up whole once it has settled inside. Females just before spawning, roe fully developed, are especially prized, with the winter-to-spring spawning season doubling as the best time to eat them.\n## Why it took this shape\nThe way roe fills a female's body ahead of spawning each winter and spring appears to be what fixed that stretch as the season to eat this octopus. Its small size and habit of living on shallow seafloor are thought to have shaped a pot-fishing method built around shell-mimicking traps, and the shallow coastline running along the Seto Inland Sea is what keeps that pot-fishing tradition alive today.",
+   "sources": [
+    {
+     "title": "イイダコ",
+     "url": "https://ja.wikipedia.org/wiki/イイダコ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "iidako",
+     "to_slug": "madako",
+     "relation_type": "対比",
+     "basis": "ともに壺漁の伝統を持つタコだが、イイダコは卵を抱えた小型種、マダコは国内で最も一般的に食べられる中型種という対照。"
+    }
+   ]
+  },
+  {
+   "slug": "bafun-uni",
+   "body_ja": "## 何でできているか\n殻径4cmほどの小ぶりなウニで、つぶれた饅頭のような丸い形をし、短い棘が密生する暗緑色の殻を持つ。食べる部分は生殖腺で、産卵を終えたあとに栄養を蓄えて肥大する時期がもっとも美味とされ、ムラサキウニより濃厚な甘みとねっとりとした舌触りを持つとされる。産卵前は苦味成分プルケリミンが増えるため、この時期は食用に不向きとされる。\n## どう作るのか\n海女や海士による素潜り漁のほか、船の上から箱眼鏡で海中をのぞきながらたも網や鈎ですくう「舟採り」という漁法が知られている。殻を割ってすぐに生殖腺を取り出すため鮮度の管理が難しく、生のまま流通するほか、塩水に漬けたまま出荷する「塩水うに」や、塩漬けにした練りウニに加工されることもあり、産地によって流通の形が分かれる。\n## なぜこの形になったのか\n浅い岩礁でアオサやテングサなど海藻を主食とすることから、昆布をはじめ海藻が豊富な礼文島周辺のような海域では身入りのよい個体が育つとされる。産卵期の1〜4月を外した時期に生殖腺が肥大する生態が、そのまま旬の時季を決めていて、冬から春にかけての流通量にも直結している。海藻が少ない海域では成長が鈍り身入りが薄くなるとされ、藻場の豊かさが産地としての評価に直結しているといわれる。",
+   "body_en": "## What it's made of\nA small urchin, about 4cm across its shell, shaped like a squashed bun and covered in short spines over a dark greenish shell. What's eaten is the gonad, at its best once it fattens back up with reserves after spawning, said to carry a richer sweetness and a denser, creamier texture than murasaki uni. Just before spawning it builds up a bitter compound called pulcherrimine, making that window a poor time to eat it.\n## How it's made\nHarvested by ama and ama-otoko free divers, or by a method called funadori, scooping urchins from a boat with a net or hook while scanning the seabed through a glass-bottomed box. Because the gonad is pulled out the moment the shell is cracked open, freshness is hard to hold, so it's sold fresh but also shipped preserved in brine as shiomizu-uni, or processed into a salted paste, with the form it takes to market varying by region.\n## Why it took this shape\nBecause it feeds mainly on shallow-reef seaweed such as sea lettuce and agar weed, waters rich in kelp and other seaweed, like those around Rebun Island, are said to raise especially well-filled urchins. Its gonad swells outside the January-to-April spawning window, and that biology alone is what sets the season for eating it.",
+   "sources": [
+    {
+     "title": "バフンウニ",
+     "url": "https://ja.wikipedia.org/wiki/バフンウニ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "bafun-uni",
+     "to_slug": "murasaki-uni",
+     "relation_type": "兄弟",
+     "basis": "ともにオオバフンウニ科(Strongylocentrotidae)に属す近縁種で、日本近海で獲れる代表的な食用ウニ二種として並び称される。"
+    }
+   ]
+  },
+  {
+   "slug": "murasaki-uni",
+   "body_ja": "## 何でできているか\n殻径5〜6cmでバフンウニよりやや大ぶりのウニ。殻は暗紫色の長い棘に覆われるが、中の生殖腺は白色から淡黄色をしていて「白雲丹」とも呼ばれる。バフンウニに比べてあっさりとした上品な甘みで、粒立ちのよい食感が持ち味とされる。棘は殻径よりもさらに長く伸び、触れると鋭く痛みを感じるほどだが、割ってすぐの生殖腺はほろりと崩れる柔らかさを持つ。刺身や軍艦巻きで食べられ、夏が旬とされる。\n## どう作るのか\n潮間帯から浅海の岩礁にふつうに見られ、海女漁や素潜り漁で獲られる。鮮度を保つため、ミョウバンで洗浄してから板状に並べた「板ウニ」として全国へ流通することが多いとされる。産卵期は5〜8月とされ、この時期を外した身の充実期が食べごろとなり、産地ではミョウバンを使わない生のままの流通も見られる。殻を割ってすぐに生殖腺を取り出す作業は手早さが求められ、崩れやすい身をひとつずつ丁寧にすくい上げる手作業が主流とされる。\n## なぜこの形になったのか\n岩礁の海藻を食べて育つ性質から、三陸のように寒流と暖流が交わり海藻が豊富な岩礁域は身入りのよい産地になるとされる。逆に藻場が衰える「磯焼け」が起きた海域では成長が悪くなるといい、海藻資源の豊かさがそのまま身の質を左右する構図になっている。浅い岩礁に広く分布する分、素潜りで探しやすく、古くから沿岸の漁として親しまれてきたとされる。",
+   "body_en": "## What it's made of\nSomewhat larger than bafun uni at 5-6cm across its shell, covered in long, dark-purple spines. The roe inside runs pale, from white to light yellow, earning it the nickname \"white uni.\" Milder and more refined than bafun uni, it's said to have a distinctly grainy texture.\n## How it's made\nCommonly found from the intertidal zone into shallow rocky reefs, harvested by ama divers and free divers. To hold freshness, it is typically rinsed in alum and arranged into flat trays as itauni before shipping nationwide. It reportedly spawns May through August, so the best eating comes once the gonad refills outside that window, and some producing regions also sell it fresh, without the alum treatment.\n## Why it took this shape\nBecause it grazes on reef seaweed, rocky coasts where cold and warm currents meet and seaweed grows thick, like Sanriku, are said to produce especially well-filled urchins. Where seaweed beds thin out in a phenomenon called isoyake, growth reportedly suffers instead, so the health of the local seaweed directly decides the quality of the roe.",
+   "sources": [
+    {
+     "title": "ムラサキウニ",
+     "url": "https://ja.wikipedia.org/wiki/ムラサキウニ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "murasaki-uni",
+     "to_slug": "awabi",
+     "relation_type": "対比",
+     "basis": "ともに岩礁の海藻を主食に育つ磯の幸だが、ムラサキウニは棘皮動物、アワビは巻貝で系統が異なるため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "namako",
+   "body_ja": "## 何でできているか\n円筒形の体に口と肛門が向かい合い、口の周りに20本の触手を持つ棘皮動物。生息場所や成長段階によって「アカ」「アオ」「クロ」と呼ばれる体色の違いが生じ、これは同じ種の中の変異で、異なる色が保護色として働いているとされる。体壁はコラーゲンとグリコサミノグリカンでできていて独特のコリコリとした歯ごたえがあり、冬が旬とされる。\n## どう作るのか\n潮間帯から水深20mほどの浅い海に生息し、砂泥の海底に散らばる個体を「桁網」や「漕網」と呼ばれる底引き網ですくい取る漁法で獲る。薄く切って酢の物にするのが定番で、内臓を塩漬けにした「このわた」、生殖巣を乾かした「くちこ」など加工品にも姿を変え、一匹から複数の食べ方が生まれる。生きたままの状態でも刺激を受けると体を硬く縮める性質があり、扱う際は乱暴に触れないことが身の食感を損なわないこつとされる。\n## なぜこの形になったのか\n「アカ」は外洋性で岩礁や礫地を好み、「アオ」は内湾性で砂泥底を主な生息場とするなど、体色ごとに好む海底環境が異なるとされる。冬に活発になり身が締まる性質が旬を決め、内臓を加工した「このわた」が正月の高級珍味として珍重されてきたことも、冬という季節と結びついている。水温が高くなる夏場は砂に潜って夏眠する個体が多いとされ、冬にかけて活発に動き出す生態がそのまま漁期を形づくっている。",
+   "body_en": "## What it's made of\nAn echinoderm with a cylindrical body, mouth and anus at opposite ends, ringed by twenty tentacles around the mouth. Body color varies by habitat and growth stage into three loose types, reddish, greenish, and black, thought to be variation within the same species, each color working as camouflage suited to where it lives. The body wall is built from collagen and glycosaminoglycans, giving it a distinctive crunchy bite, in season through winter.\n## How it's made\nLiving from the intertidal zone down to about 20 meters, it is scooped up from sandy, muddy seafloor using dredge-like bottom nets called keta-ami or kogi-ami. Thinly sliced and vinegared is the standard way to eat it, but it's also processed into konowata, its salted innards, or kuchiko, its dried gonads, so a single animal ends up eaten several different ways.\n## Why it took this shape\nThe reddish type tends toward open, rocky or pebbly ground while the greenish type favors sheltered, muddy-sand bays, each color apparently suited to a different seafloor. Turning active and firming up in winter is what sets its season, and that same winter timing carries over into konowata, the processed delicacy long prized as a New Year's treat.",
+   "sources": [
+    {
+     "title": "マナマコ",
+     "url": "https://ja.wikipedia.org/wiki/マナマコ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "namako",
+     "to_slug": "tsubugai",
+     "relation_type": "対比",
+     "basis": "ともに冷たい海の底で獲れ、噛むほどに味わいが増すコリコリ系の食材だが、ナマコは棘皮動物、ツブ貝は巻貝で分類が異なるため対比。"
+    }
+   ]
+  },
+  {
+   "slug": "hoya",
+   "body_ja": "## 何でできているか\n岩に固着して生きる原索動物で、独特の磯とパイナップルを思わせる香りを持つ。旬の6〜8月にかけてグリコーゲンが最盛期の約8倍にまで増え、甘みと旨みが強まるとされる。鮮度の良いものは爽やかな甘みがあり、海そのものを食べているような味わいと表現され、鮮度が落ちるとその印象は一気に崩れる。表面の突起の間から出る体液にも独特の風味が凝縮されているとされ、割ってすぐの一杯をそのまま味わう食べ方が好まれている。\n## どう作るのか\n宮城県の養殖は、カキ殻などを使って天然の種苗を採る「天然採苗」と、ロープに吊るして育てる「垂下養殖」からなり、種苗から出荷まで2年半から3年ほどかけて育てられるとされる。生のまま刺身や酢の物で食べられ、殻を開いてすぐの鮮度がそのまま味の良し悪しを左右する。養殖中は付着する海藻や他の生物を取り除く手入れが欠かせず、この作業の丁寧さが出荷時の見た目と身入りを左右するといわれる。\n## なぜこの形になったのか\n入り組んだ入り江が連なるリアス式海岸と、プランクトンが豊富な三陸の海がホヤの生育と養殖に適しているとされ、親潮と黒潮が混じる海域という条件も相まって、国内養殖の中心地として知られる。複雑な海岸線が垂下養殖に向いた静穏な入り江を各所に作り出していることも一因とみられる。独特の香りは好みが分かれるとされ、初めて食べる人には慣れが要る一方、地元では夏の訪れを告げる味として親しまれてきたという。",
+   "body_en": "## What it's made of\nA sea squirt that lives fixed to rocks, carrying a distinct aroma somewhere between brine and pineapple. Through its June-to-August season, glycogen levels are said to climb to roughly eight times their off-season low, sharpening its sweetness and savoriness. At peak freshness it's described as having a clean sweetness, like eating the sea itself, an impression that collapses fast once it starts to lose that freshness.\n## How it's made\nFarming in Miyagi combines natural seeding, collecting wild larvae on oyster shells and similar surfaces, with hanging culture on ropes, and reportedly takes two and a half to three years from seed to harvest. Eaten raw as sashimi or dressed in vinegar, how it tastes comes down almost entirely to how fresh it is the moment its shell is opened.\n## Why it took this shape\nThe intricate inlets of the ria coastline and the plankton-rich waters of Sanriku are said to suit both the natural growth and farming of sea squirts, with the mixing of the Oyashio and Kuroshio currents adding to the conditions, making the region Japan's center for their cultivation. The jagged coastline's many sheltered coves are also likely part of what makes it so well suited to hanging-rope culture.",
+   "sources": [
+    {
+     "title": "ホヤ",
+     "url": "https://www.pride-fish.jp/JPF/pref/detail.php?pk=1433903024",
+     "publisher": "みやぎ水産振興協会 プライドフィッシュ",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hoya",
+     "to_slug": "awabi",
+     "relation_type": "対比",
+     "basis": "ともに三陸・房総などの海女漁・養殖文化と結びつく磯の珍味だが、ホヤは原索動物、アワビは巻貝で系統が大きく異なるため対比。"
+    }
+   ]
+  }
+ ]
+}
