@@ -21,8 +21,9 @@ function buildStyle(withLabels = true, lang = "ja"): maplibregl.StyleSpecificati
       protomaps: {
         type: "vector",
         url: `pmtiles://${PMTILES_URL}`,
-        attribution:
-          '<a href="https://protomaps.com">Protomaps</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>',
+        // クレジットは義務のある OpenStreetMap（ODbL）のみ。Protomaps は
+        // 自前生成タイルの配信のため表示義務なし（ホスティング利用時のみ規約で必須）
+        attribution: '© <a href="https://openstreetmap.org">OpenStreetMap</a>',
       },
     },
     // 全国ミニ地図では地名ラベルを出さない。この縮尺では「日本」「上海市」のような
@@ -89,8 +90,6 @@ export function PositionBand({ lat, lng, label, distanceLabel }: Props) {
       attributionControl: false,
     });
 
-    map.addControl(new maplibregl.AttributionControl({ compact: true }));
-
     map.on("error", (e) => {
       // 空catchで潰さない（ia-nextjs-standards のエラー可視化ルール）
       console.error("maplibre:", e.error);
@@ -121,8 +120,6 @@ export function PositionBand({ lat, lng, label, distanceLabel }: Props) {
       interactive: false,
       attributionControl: false,
     });
-
-    map.addControl(new maplibregl.AttributionControl({ compact: true }));
 
     map.on("error", (e) => {
       console.error("maplibre:", e.error);
@@ -157,6 +154,17 @@ export function PositionBand({ lat, lng, label, distanceLabel }: Props) {
             当てるため、absolute inset-0 で高さを取ろうとすると 0 になる（既知の落とし穴）。
             明示的にサイズを与える。 */}
         <div ref={nationalContainerRef} className="h-full w-full" aria-hidden="true" />
+        {/* クレジットは帯全体で1つの最小表示（MapLibre標準コントロールは小型図では
+            場所を取りすぎるため使わない。ODbLが求めるのは地図上または近傍の表示）。 */}
+        <a
+          href="https://www.openstreetmap.org/copyright"
+          target="_blank"
+          rel="noreferrer"
+          className="absolute right-1 bottom-0.5 rounded px-1 text-[10px]"
+          style={{ color: "#7a6a58", backgroundColor: "#fffdf7cc" }}
+        >
+          © OpenStreetMap
+        </a>
       </div>
 
       {/* 添え: 東京駅からの距離・方位（30km未満=都内相当は出さない） */}

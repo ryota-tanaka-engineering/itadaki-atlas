@@ -245,8 +245,9 @@ export function MapView({
           protomaps: {
             type: "vector",
             url: `pmtiles://${PMTILES_URL}`,
-            attribution:
-              '<a href="https://protomaps.com">Protomaps</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>',
+            // クレジットは義務のある OpenStreetMap（ODbL）のみ。Protomaps は
+            // 自前生成タイルの配信のため表示義務なし（ホスティング利用時のみ規約で必須）
+            attribution: '© <a href="https://openstreetmap.org">OpenStreetMap</a>',
           },
         },
         layers: buildAtlasLayers(locale),
