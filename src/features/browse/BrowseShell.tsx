@@ -213,17 +213,16 @@ export function BrowseShell({
             {selected.summary && <p className="text-sm leading-relaxed">{selected.summary}</p>}
             <div className="flex items-center gap-4">
               {/* 詳細ページ（SEOの受け皿）へ。シート内の表示は要約に留める。
-                  アイテムのジャンルに応じたリンクにする（バグ修正: 以前は
-                  /ramen/${slug} 固定だったため他ジャンルのアイテムが誤ったURLへ
-                  飛んでいた）。棚内「その他」（genre_id null）は棚一覧が未実装
-                  のためリンクにしない。 */}
-              {selected.genreSlug ? (
-                <Link href={`/${selected.genreSlug}/${selected.slug}`} className="text-sm underline">
-                  {ti("sources")} / {ti("viewOnMap")}
-                </Link>
-              ) : (
-                <span className="text-muted-foreground text-sm">{ti("sources")} / {ti("viewOnMap")}</span>
-              )}
+                  その他アイテム（genre_id null）は棚slug経由のURLで到達できる
+                  （CLAUDE.md「棚ページ + その他アイテムの到達経路」）。
+                  旧文言「出典 / 地図で見る」は出典非表示の決定前の名残だったため
+                  「詳細を見る」に変更（2026-09 本番レビュー指摘）。 */}
+              <Link
+                href={`/${selected.genreSlug ?? selected.shelfSlug}/${selected.slug}`}
+                className="text-sm underline"
+              >
+                {ti("viewDetail")}
+              </Link>
               <button
                 type="button"
                 onClick={() => setSelectedSlug(null)}

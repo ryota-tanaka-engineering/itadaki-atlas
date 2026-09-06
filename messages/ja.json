@@ -38,8 +38,6 @@
   "item": {
     "origin": "発祥",
     "style": "系統",
-    "sources": "出典",
-    "accessedAt": "参照日",
     "unknown": "—",
     "viewOnMap": "地図で見る",
     "connections": "つながり",
@@ -61,7 +59,8 @@
       "SW": "南西",
       "W": "西",
       "NW": "北西"
-    }
+    },
+    "viewDetail": "詳細を見る"
   },
   "language": {
     "label": "言語",

@@ -38,8 +38,6 @@
   "item": {
     "origin": "Origin",
     "style": "Style",
-    "sources": "Sources",
-    "accessedAt": "Accessed",
     "unknown": "—",
     "viewOnMap": "View on map",
     "connections": "Connections",
@@ -61,7 +59,8 @@
       "SW": "southwest",
       "W": "west",
       "NW": "northwest"
-    }
+    },
+    "viewDetail": "View details"
   },
   "language": {
     "label": "Language",
