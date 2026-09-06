@@ -1,7 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useMemo, useRef, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import * as maplibregl from "maplibre-gl";
 import { Protocol } from "pmtiles";
 import { layers, namedFlavor, type Flavor } from "@protomaps/basemaps";
@@ -64,8 +64,10 @@ const ROAD_LINE_MIN_ZOOM = 10;
  * トーン・レイヤー構成・タイル配信元は詳細ページの位置帯（PositionBand）でも
  * 同じものを使う（見え方の一貫性・ベンダ固有APIの直書き回避）。
  */
-export function buildAtlasLayers() {
-  return layers("protomaps", ATLAS_FLAVOR, { lang: "ja" }).map((layer) => {
+export function buildAtlasLayers(lang: string = "ja") {
+  // 地名ラベルはロケールに追従させる（/en では英語ラベル。タイルの name:en 属性を参照し、
+  // 無い地名はローカル名にフォールバックする）。本番レビュー「英語にした時に地図が日本語」対応
+  return layers("protomaps", ATLAS_FLAVOR, { lang }).map((layer) => {
     // 道路・鉄道・橋・トンネル・経路番号シールドなど roads_* 系レイヤーを
     // 国土ズームで一律隠す（roads_labels_* 等は元々もっと高いズームでしか
     // 出ないため Math.max により実質変化しない）。
@@ -190,6 +192,7 @@ export function MapView({
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
   const label = useMasterLabels();
+  const locale = useLocale();
   const t = useTranslations("browse");
   const tRegion = useTranslations("regionRelation");
   // 描画effectの依存は関数ではなく文字列にする。next-intl の t 関数は毎レンダーで
@@ -246,7 +249,7 @@ export function MapView({
               '<a href="https://protomaps.com">Protomaps</a> © <a href="https://openstreetmap.org">OpenStreetMap</a>',
           },
         },
-        layers: buildAtlasLayers(),
+        layers: buildAtlasLayers(locale),
       },
       bounds: JAPAN_BOUNDS,
       // シート分の下余白は、余裕を判定できる初回フィット後（bottomInset effect 側）で

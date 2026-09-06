@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef } from "react";
+import { useLocale } from "next-intl";
 import * as maplibregl from "maplibre-gl";
 import "maplibre-gl/dist/maplibre-gl.css";
 
@@ -12,7 +13,7 @@ import { formatDegMinCoord } from "./geo";
  * 位置帯の地図スタイル（MapView と共通のトーン・タイル配信元）。
  * ベンダ固有APIの直書きを避けるため、地図の生成ロジックはこの1関数に集約する。
  */
-function buildStyle(withLabels = true): maplibregl.StyleSpecification {
+function buildStyle(withLabels = true, lang = "ja"): maplibregl.StyleSpecification {
   return {
     version: 8,
     glyphs: "https://protomaps.github.io/basemaps-assets/fonts/{fontstack}/{range}.pbf",
@@ -27,8 +28,8 @@ function buildStyle(withLabels = true): maplibregl.StyleSpecification {
     // 全国ミニ地図では地名ラベルを出さない。この縮尺では「日本」「上海市」のような
     // 大縮尺の地名だけが残って位置表示のノイズになる（役割はピンの一点で足りる）
     layers: withLabels
-      ? buildAtlasLayers()
-      : buildAtlasLayers().filter((l) => l.type !== "symbol"),
+      ? buildAtlasLayers(lang)
+      : buildAtlasLayers(lang).filter((l) => l.type !== "symbol"),
   };
 }
 
@@ -66,6 +67,7 @@ type Props = {
 };
 
 export function PositionBand({ lat, lng, label, distanceLabel }: Props) {
+  const locale = useLocale();
   const nationalContainerRef = useRef<HTMLDivElement>(null);
   const nationalMapRef = useRef<maplibregl.Map | null>(null);
   const cityContainerRef = useRef<HTMLDivElement>(null);
@@ -112,7 +114,8 @@ export function PositionBand({ lat, lng, label, distanceLabel }: Props) {
 
     const map = new maplibregl.Map({
       container: cityContainerRef.current,
-      style: buildStyle(),
+      // 都市拡大図の地名ラベルはロケールに追従（/en では英語ラベル）
+      style: buildStyle(true, locale),
       center: [lng, lat],
       zoom: 7,
       interactive: false,
@@ -133,7 +136,7 @@ export function PositionBand({ lat, lng, label, distanceLabel }: Props) {
       map.remove();
       cityMapRef.current = null;
     };
-  }, [lat, lng]);
+  }, [lat, lng, locale]);
 
   return (
     // md:h-full は親グリッド（詳細ページカバー）の items-stretch に合わせるためのもの。
