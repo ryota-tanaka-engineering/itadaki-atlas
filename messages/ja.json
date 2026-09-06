@@ -33,11 +33,16 @@
     "entryInterestHint": "タグで探せます",
     "aboutLink": "このサイトについて",
     "genreFilterClear": "{name}の絞り込みを解除",
-    "genreViewAllLink": "{name}の一覧へ"
+    "genreViewAllLink": "{name}の一覧へ",
+    "clusterAriaLabel": "{pref} {count}件。選ぶと拡大します",
+    "pinAriaLabel": "{name}（{prefCity}・{style}）",
+    "honbaPinAriaLabel": "{name}（{honba}・{prefCity}）",
+    "styleUnknown": "系統不明"
   },
   "item": {
     "origin": "発祥",
     "style": "系統",
+    "tagsLabel": "タグ",
     "unknown": "—",
     "viewOnMap": "地図で見る",
     "connections": "つながり",

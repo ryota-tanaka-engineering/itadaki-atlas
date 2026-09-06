@@ -69,3 +69,24 @@ export function parseBodyMarkdown(bodyMd: string): BodyChapter[] {
 
   return chapters;
 }
+
+/**
+ * 本文（body_md）の1章目冒頭の最初の1文を抜き出す（ピン選択カードの判断材料用。
+ * 作業パッケージ「トップページ改善」B節）。
+ *
+ * 全文をクライアントに送らないため、この関数でサーバー側（queries.ts）が
+ * 切り出した短い文字列だけを MapItem に持たせる（150件×全文はペイロード過大）。
+ */
+export function excerptFirstSentence(bodyMd: string): string | null {
+  const [firstChapter] = parseBodyMarkdown(bodyMd);
+  const firstParagraph = firstChapter?.paragraphs[0];
+  if (!firstParagraph) return null;
+
+  const text = firstParagraph.map((token) => token.text).join("").trim();
+  if (!text) return null;
+
+  // 句点（。/．/.）までを最初の1文とする。見つからなければ全文をそのまま返す
+  // （短い段落で句点が無いケースもあるため）。
+  const match = text.match(/^[^。．.]*[。．.]/);
+  return match ? match[0] : text;
+}

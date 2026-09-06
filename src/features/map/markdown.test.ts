@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { parseBodyMarkdown } from "./markdown";
+import { excerptFirstSentence, parseBodyMarkdown } from "./markdown";
 
 describe("parseBodyMarkdown", () => {
   it("## 見出しごとに章へ分割する", () => {
@@ -40,5 +40,26 @@ describe("parseBodyMarkdown", () => {
 
   it("見出しが無ければ空配列を返す", () => {
     expect(parseBodyMarkdown("本文だけ。")).toEqual([]);
+  });
+});
+
+describe("excerptFirstSentence", () => {
+  it("1章目冒頭の最初の1文だけを抜き出す", () => {
+    const bodyMd = "## 何でできているか\n\n味噌とにんにくが決め手。深いコクが特徴。\n\n二段落目。\n\n## どう作るのか\n\n中華鍋を振る。";
+    expect(excerptFirstSentence(bodyMd)).toBe("味噌とにんにくが決め手。");
+  });
+
+  it("句点が無い短い段落は全文を返す", () => {
+    expect(excerptFirstSentence("## 章\n\n句点なしの一文")).toBe("句点なしの一文");
+  });
+
+  it("太字トークンはプレーンテキストに戻して結合する", () => {
+    expect(excerptFirstSentence("## 章\n\n寒さが**保存食**を育てた。次の文。")).toBe(
+      "寒さが保存食を育てた。",
+    );
+  });
+
+  it("見出しが無い（本文が無い扱いの）Markdownは null を返す", () => {
+    expect(excerptFirstSentence("本文だけ。")).toBeNull();
   });
 });

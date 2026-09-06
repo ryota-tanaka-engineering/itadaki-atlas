@@ -1,6 +1,7 @@
 import { createClient } from "@/lib/supabase/server";
 
 import type { PrimaryStyle } from "./styles";
+import { excerptFirstSentence } from "./markdown";
 
 /**
  * 地図・索引が読むアイテム一覧。
@@ -39,6 +40,22 @@ export type MapItem = {
  */
 export type MapPin = MapItem & { kind: "origin" | "honba" };
 
+/** ピン選択カードのタグバッジ用（作業パッケージ「トップページ改善」B節）。 */
+export type TagBadge = { slug: string; nameJa: string; nameEn: string };
+
+/**
+ * トップのピン選択カード用データ（作業パッケージ「トップページ改善」B節）。
+ * MapItem に、ViewDetail 前の判断材料（タグ・本文冒頭1文）を足しただけの型。
+ *
+ * bodyExcerpt はサーバー側（excerptFirstSentence）で本文Markdownの1章目冒頭の
+ * 最初の1文だけを切り出したもの。全文は持たせない（150件×全文はペイロード過大）。
+ */
+export type BrowseItem = MapItem & {
+  /** 最大3件（件数が多いアイテムは先頭3件のみ）。 */
+  tags: TagBadge[];
+  bodyExcerpt: string | null;
+};
+
 // ピン選択の一意キー（mapPinKey）は ./pinKey.ts に置く。
 // ここ（queries.ts）は @/lib/supabase/server（next/headers 依存）を import しているため、
 // クライアントコンポーネント（MapView / BrowseShell）が値としてここから何かを import すると
@@ -65,7 +82,12 @@ function pickTranslation<T extends { locale: string }>(translations: T[], locale
   );
 }
 
-export async function fetchMapItems(locale: Locale = "ja"): Promise<MapItem[]> {
+/**
+ * トップの地図・索引・ピン選択カードが読む。ピン選択カードの判断材料
+ * （タグ・本文冒頭1文。作業パッケージ「トップページ改善」B節）もここで合流させ、
+ * 追加のDBラウンドトリップを増やさない。
+ */
+export async function fetchMapItems(locale: Locale = "ja"): Promise<BrowseItem[]> {
   const db = await createClient();
 
   const { data, error } = await db
@@ -73,8 +95,9 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<MapItem[]> {
     .select(
       `slug, name_romaji, origin_pref, origin_city, lat, lng, type, shelf_slug,
        genres ( slug ),
-       food_item_translations ( locale, name, summary ),
-       dish_details ( primary_style )`,
+       food_item_translations ( locale, name, summary, body_md ),
+       dish_details ( primary_style ),
+       food_item_tags ( tags ( slug, name_ja, name_en ) )`,
     )
     .not("lat", "is", null)
     .order("slug");
@@ -90,6 +113,13 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<MapItem[]> {
     const t = pickTranslation(translations, locale);
     const ja = translations.find((x) => x.locale === "ja");
     const en = translations.find((x) => x.locale === "en");
+    const tagRows = row.food_item_tags ?? [];
+    const tags = tagRows
+      .map((tr) => toOne(tr.tags))
+      .filter((tag): tag is { slug: string; name_ja: string; name_en: string } => tag !== null)
+      .map((tag): TagBadge => ({ slug: tag.slug, nameJa: tag.name_ja, nameEn: tag.name_en }))
+      // 件数が多い場合は3個まで（作業パッケージ「トップページ改善」B節）
+      .slice(0, 3);
 
     return {
       slug: row.slug,
@@ -106,6 +136,8 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<MapItem[]> {
       itemType: row.type as "dish" | "ingredient",
       genreSlug: toOne(row.genres)?.slug ?? null,
       shelfSlug: row.shelf_slug,
+      tags,
+      bodyExcerpt: t?.body_md ? excerptFirstSentence(t.body_md) : null,
     };
   });
 }
@@ -137,7 +169,28 @@ export type ItemDetail = MapItem & {
   }[];
   /** 名産地・主要提供圏など。発祥を1つに決められないアイテムが複数の土地と結びつく */
   regions: ItemRegion[];
+  /** タグ一元語彙からの付与（.doc/20_data/01_models.md §3）。カバー内チップ表示用。 */
+  tags: ItemTag[];
 };
+
+export type ItemTag = {
+  slug: string;
+  nameJa: string;
+  nameEn: string;
+};
+
+/** PostgREST の埋め込み結果 `food_item_tags ( tags ( ... ) )` からタグ配列を組み立てる。 */
+function toItemTags(
+  rows:
+    | { tags: { slug: string; name_ja: string; name_en: string } | { slug: string; name_ja: string; name_en: string }[] | null }[]
+    | null
+    | undefined,
+): ItemTag[] {
+  return (rows ?? [])
+    .map((row) => toOne(row.tags))
+    .filter((t): t is { slug: string; name_ja: string; name_en: string } => t !== null)
+    .map((t) => ({ slug: t.slug, nameJa: t.name_ja, nameEn: t.name_en }));
+}
 
 export async function fetchItemBySlug(
   genreSlug: string,
@@ -155,6 +208,7 @@ export async function fetchItemBySlug(
        food_item_translations ( locale, name, summary, body_md ),
        food_item_sources ( title, url, publisher, accessed_at ),
        food_item_regions ( pref, city, relation_type, note_ja, note_en ),
+       food_item_tags ( tags ( slug, name_ja, name_en ) ),
        dish_details ( primary_style )`,
     )
     .eq("slug", slug)
@@ -203,6 +257,7 @@ export async function fetchItemBySlug(
       noteJa: r.note_ja,
       noteEn: r.note_en,
     })),
+    tags: toItemTags(data.food_item_tags),
   };
 }
 
@@ -227,6 +282,7 @@ export async function fetchItemByShelfSlug(
        food_item_translations ( locale, name, summary, body_md ),
        food_item_sources ( title, url, publisher, accessed_at ),
        food_item_regions ( pref, city, relation_type, note_ja, note_en ),
+       food_item_tags ( tags ( slug, name_ja, name_en ) ),
        dish_details ( primary_style )`,
     )
     .eq("slug", slug)
@@ -275,6 +331,7 @@ export async function fetchItemByShelfSlug(
       noteJa: r.note_ja,
       noteEn: r.note_en,
     })),
+    tags: toItemTags(data.food_item_tags),
   };
 }
 

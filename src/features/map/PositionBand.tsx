@@ -57,17 +57,19 @@ function createPinElement(): HTMLDivElement {
  * 一覧の地図（MapView）とは役割が違う（発祥地1点を示すだけの非インタラクティブな
  * 帯）ため、独立コンポーネントにする。トーン・タイル配信元は MapView と共通化し、
  * ベンダ固有APIの直書きを避ける。**経緯線グリッドは出さない**（確定デザイン）。
+ *
+ * 「東京から{方位}へ約{km}km」の一行は、2026-09 カバー情報密度改善でカバー内の
+ * 事実チップ列（CoverInfo.tsx）へ統合し、この帯からは削除した（同じ文言が
+ * 2箇所に出る重複を避けるため）。位置帯は地図ビジュアルの役割に専念する。
  */
 type Props = {
   lat: number;
   lng: number;
   /** 地名ラベル（発祥県＋市区町村。ロケール済みの表示文字列を呼び出し側で組み立てる） */
   label: string;
-  /** 「東京から{方位}へ約{km}km」の翻訳済み一行。東京都内相当（30km未満）は null */
-  distanceLabel: string | null;
 };
 
-export function PositionBand({ lat, lng, label, distanceLabel }: Props) {
+export function PositionBand({ lat, lng, label }: Props) {
   const locale = useLocale();
   const nationalContainerRef = useRef<HTMLDivElement>(null);
   const nationalMapRef = useRef<maplibregl.Map | null>(null);
@@ -166,13 +168,6 @@ export function PositionBand({ lat, lng, label, distanceLabel }: Props) {
           © OpenStreetMap
         </a>
       </div>
-
-      {/* 添え: 東京駅からの距離・方位（30km未満=都内相当は出さない） */}
-      {distanceLabel && (
-        <p className="shrink-0 px-0.5 text-xs tabular-nums" style={{ color: "#5b4a37" }}>
-          {distanceLabel}
-        </p>
-      )}
 
       {/* 従: 既存の都市レベル拡大図（PCのみ。CLAUDE.md「軽さ優先で静的表示でよい」） */}
       <div

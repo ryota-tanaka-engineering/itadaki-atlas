@@ -33,11 +33,16 @@
     "entryInterestHint": "Explore by tag",
     "aboutLink": "About this site",
     "genreFilterClear": "Clear the {name} filter",
-    "genreViewAllLink": "View all {name}"
+    "genreViewAllLink": "View all {name}",
+    "clusterAriaLabel": "{pref} — {count} items. Select to zoom in",
+    "pinAriaLabel": "{name} ({prefCity}, {style})",
+    "honbaPinAriaLabel": "{name} ({honba}, {prefCity})",
+    "styleUnknown": "Style unknown"
   },
   "item": {
     "origin": "Origin",
     "style": "Style",
+    "tagsLabel": "Tags",
     "unknown": "—",
     "viewOnMap": "View on map",
     "connections": "Connections",

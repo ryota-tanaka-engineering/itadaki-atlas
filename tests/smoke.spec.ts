@@ -254,22 +254,22 @@ test.describe("F-05 言語切り替え / F-08 SEO", () => {
     await page.goto("/en/ramen/hakata");
     // 英訳は説明訳なので、英語表示でも見出しはローマ字
     await expect(page.getByRole("heading", { name: "Hakata Ramen", level: 1 })).toBeVisible();
-    // マスタラベルは辞書で翻訳される（二層方式）。
-    // 定義リスト内に限定する（辞書全体がRSCペイロードにも載るため）
-    const dl = page.locator("dl");
-    await expect(dl.getByText("Fukuoka / 福岡市")).toBeVisible();
-    await expect(dl.getByText("Tonkotsu — pork bone")).toBeVisible();
+    // マスタラベルは辞書で翻訳される（二層方式）。2026-09 カバー情報密度改善で
+    // 下部の定義リスト(dl)は廃止し、カバー内の事実チップ列へ統合した。
+    await expect(page.getByText(/Origin: Fukuoka 福岡市/)).toBeVisible();
+    await expect(page.getByText("Tonkotsu — pork bone")).toBeVisible();
     // 出典はDB内部の検証データでUIには出さない（2026-08 デザイン確定）。
     // 代わりに訂正導線だけが出る
     await expect(page.getByRole("heading", { name: "Sources" })).toHaveCount(0);
     await expect(page.getByRole("link", { name: "Report a correction" })).toBeVisible();
   });
 
-  test("位置帯: 全国ミニ地図の下に東京駅からの距離・方位の一行が出る（本番体験レビュー対応）", async ({
+  test("東京駅からの距離・方位がカバー内の事実チップに一行で出る（本番体験レビュー対応）", async ({
     page,
   }) => {
     // 「詳細に出てる地図見てもどこだか全然わからない」への対処（2026-09）。
-    // 都市レベル拡大図だけでなく、日本全体のどこかが伝わる一行を添える。
+    // 2026-09 カバー情報密度改善で、位置帯の添えからカバー内の事実チップへ統合した
+    // （地図と同じ文言が2箇所に重複しないよう、位置帯側からは削除済み）。
     await page.goto("/ja/ramen/sapporo");
     await expect(page.getByText(/東京から北へ約830km/)).toBeVisible();
 
@@ -292,6 +292,16 @@ test.describe("F-05 言語切り替え / F-08 SEO", () => {
     const xml = await res.text();
     expect(xml).toContain("/ja/ramen/hakata");
     expect(xml).toContain("/en/ramen/hakata");
+  });
+});
+
+test.describe("カバーの事実チップ（2026-09 本番体験レビュー「情報量が少ない」対応）", () => {
+  test("カバー内に系統チップと発祥表示が出る", async ({ page }) => {
+    await page.goto("/ja/ramen/sapporo");
+    // 系統（色ドット付きチップ）と発祥（県+市）がカバー内の事実チップ列に並ぶ
+    // （旧・本文下の属性欄(dl)から引き上げ。重複するため dl 側は廃止した）
+    await expect(page.getByText("味噌", { exact: true }).first()).toBeVisible();
+    await expect(page.getByText(/発祥: 北海道札幌市/)).toBeVisible();
   });
 });
 
@@ -798,5 +808,38 @@ test.describe("チェーン独立ページ（1チェーン=1URL。検索流入�
     const xml = await res.text();
     expect(xml).toContain("/ja/chain/ichiran");
     expect(xml).toContain("/en/chain/ichiran");
+  });
+});
+
+test.describe("トップページ改善（ピン選択カード。2026-09 本番体験レビュー対応）", () => {
+  test("/en のピン選択カードは英語主導で表示され、タグ・本文冒頭・次の1件が出る", async ({ page }) => {
+    // 郡山ブラックはローカルDBのE2E fixtureピンと座標が重ならないため検証クリック対象に使う
+    // （喜多方ラーメンは fixture ピンと同座標で重なる。作業パッケージ「トップページ改善」参照）。
+    await page.goto("/en");
+
+    const fukushima = page.getByRole("button", { name: /^Fukushima — \d+ items\. Select to zoom in/ });
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+    await tapPrefCluster(fukushima);
+
+    // ピンaria-labelもロケール対応（市名はローマ字辞書が無いため県までに留める）
+    const pin = page.getByRole("button", { name: "Koriyama Black (Fukushima, Shoyu — soy sauce)" });
+    await expect(pin).toBeVisible({ timeout: 30_000 });
+    await pin.click();
+
+    const sheet = page.getByRole("dialog");
+    // 見出しはロケール主導でローマ字（/en の日本語混入対策）。三点セットの残りは副題に出る
+    await expect(sheet.getByRole("heading", { name: "Koriyama Black" })).toBeVisible();
+    await expect(sheet.getByText(/郡山ブラック — dark soy broth of Koriyama/)).toBeVisible();
+
+    // 発祥は都道府県辞書で翻訳される。市名はローマ字辞書が無いため日本語のまま
+    // （"Fukushima / 郡山市" 形式。詳細ページと同じ流儀）
+    await expect(sheet.getByText("Fukushima / 郡山市")).toBeVisible();
+    // 系統も辞書で翻訳される（生の日本語「醤油」が出ない）
+    await expect(sheet.getByText("Shoyu — soy sauce", { exact: true })).toBeVisible();
+
+    // ViewDetail前の判断材料（作業パッケージ「トップページ改善」B節）
+    await expect(sheet.getByText("Chinese-derived", { exact: true })).toBeVisible();
+    await expect(sheet.getByText(/The broth looks almost jet black/)).toBeVisible();
+    await expect(sheet.getByText(/More like this/)).toBeVisible();
   });
 });

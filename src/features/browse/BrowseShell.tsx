@@ -9,11 +9,32 @@ import { Input } from "@/components/ui/input";
 
 import { MapView } from "@/features/map/MapView";
 import { mapPinKey } from "@/features/map/pinKey";
-import type { MapItem, MapPin, Genre, Locale } from "@/features/map/queries";
+import { useMasterLabels } from "@/features/map/labels";
+import type { BrowseItem, MapPin, Genre, Locale } from "@/features/map/queries";
 
 import { BottomSheet, snapOffset, type Snap } from "./BottomSheet";
 import { IndexList } from "./IndexList";
 import type { Axis } from "./axes";
+
+/**
+ * 発祥地の表示文字列（作業パッケージ「トップページ改善」A節）。
+ *
+ * 都道府県名はマスタラベル辞書（prefecture）で翻訳する。市名はローマ字辞書が
+ * 無いため日本語のままにする（詳細ページ・作業パッケージ「トップページ改善」A節と同じ流儀）。
+ * ja は既存表記（連結）を変えない。en は「Fukushima / 郡山市」形式（"/" 区切り）。
+ */
+function formatPrefCity(
+  pref: string | null,
+  city: string | null,
+  locale: Locale,
+  prefLabel: (v: string | null | undefined) => string | null,
+  unknown: string,
+): string {
+  if (!pref) return unknown;
+  const name = prefLabel(pref) ?? pref;
+  if (locale === "ja") return `${name}${city ?? ""}`;
+  return city ? `${name} / ${city}` : name;
+}
 
 /**
  * 地図・ボトムシート・索引を束ねる層。
@@ -32,7 +53,7 @@ export function BrowseShell({
   genres,
   locale,
 }: {
-  items: MapItem[];
+  items: BrowseItem[];
   /** 本場ピン（2026-09）。索引には出さず、地図でのみ items と合流する。 */
   honbaPins: MapPin[];
   genres: Genre[];
@@ -41,6 +62,7 @@ export function BrowseShell({
   const t = useTranslations("browse");
   const ti = useTranslations("item");
   const tRegion = useTranslations("regionRelation");
+  const label = useMasterLabels();
   // selectedSlug は origin ピン/索引選択では item.slug そのもの、
   // honba ピン選択では mapPinKey() が返す複合キー（同じ slug が複数都市を持つため）。
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
@@ -70,6 +92,39 @@ export function BrowseShell({
     () => mapPins.find((i) => mapPinKey(i) === selectedSlug) ?? null,
     [mapPins, selectedSlug],
   );
+
+  // 選択が発祥ピンのときだけ、カード増強用のフルデータ（タグ・本文冒頭）を引く
+  // （本場ピンは items に含まれず、food_item_regions 由来の別データのため対象外。
+  // 作業パッケージ「トップページ改善」B節）。
+  const selectedBrowseItem = useMemo(
+    () => (selected && selected.kind === "origin" ? (items.find((i) => i.slug === selected.slug) ?? null) : null),
+    [selected, items],
+  );
+
+  // 「同じ系統をもっと」的な次の1件（作業パッケージ「トップページ改善」B節）。
+  // 同ジャンル+同系統（無ければ同棚）でグループ化し、自分以外の先頭1件を割り当てる。
+  // 詳細ページの fetchStyleSiblings/fetchShelfSiblings と同じ考え方だが、
+  // 追加のDBクエリを増やさないよう既に取得済みの items からその場で計算する。
+  const nextRelatedMap = useMemo(() => {
+    const groups = new Map<string, BrowseItem[]>();
+    for (const item of items) {
+      const key = item.genreSlug
+        ? `genre::${item.genreSlug}::${item.primaryStyle ?? ""}`
+        : `shelf::${item.shelfSlug}`;
+      const list = groups.get(key);
+      if (list) list.push(item);
+      else groups.set(key, [item]);
+    }
+    const map = new Map<string, BrowseItem>();
+    for (const list of groups.values()) {
+      for (const item of list) {
+        const other = list.find((x) => x.slug !== item.slug);
+        if (other) map.set(item.slug, other);
+      }
+    }
+    return map;
+  }, [items]);
+  const nextRelated = selectedBrowseItem ? (nextRelatedMap.get(selectedBrowseItem.slug) ?? null) : null;
 
   // ジャンル絞り込み中の表示データ（地図・索引で共有）。
   // 本場ピンも item.genreSlug で判定するため、絞り込み時は発祥/本場を問わず揃って絞られる。
@@ -162,13 +217,24 @@ export function BrowseShell({
         peak={
           selected ? (
             <div>
+              {/* 見出しはロケール主導（ja=日本語名・en=ローマ字）。三点セットの残りを副題に
+                  （作業パッケージ「トップページ改善」A節。/en の日本語混入対策）。
+                  ja の出力はこれまでと完全に同じ（既存E2E tests/smoke.spec.ts が検証）。 */}
               <h2 id="sheet-heading" className="text-base font-semibold">
-                {selected.nameJa}
+                {locale === "ja" ? selected.nameJa : selected.nameRomaji}
               </h2>
-              {/* 三点セット: 日本語名 — ローマ字 — 英訳（.doc/00_concept/05_brand.md §5） */}
               <p className="text-muted-foreground truncate text-sm">
-                {selected.nameRomaji}
-                {selected.nameEn ? ` — ${selected.nameEn}` : ""}
+                {locale === "ja" ? (
+                  <>
+                    {selected.nameRomaji}
+                    {selected.nameEn ? ` — ${selected.nameEn}` : ""}
+                  </>
+                ) : (
+                  <>
+                    {selected.nameJa}
+                    {selected.nameEn ? ` — ${selected.nameEn}` : ""}
+                  </>
+                )}
               </p>
             </div>
           ) : (
@@ -186,12 +252,12 @@ export function BrowseShell({
             {selected.kind === "honba" ? (
               // 本場ピン: 発祥/系統ではなく「本場」ラベル＋市名を出す
               // （構造的理由の長文=note はここに入れない。詳細ページで読める）。
+              // 発祥地表記はロケール対応（作業パッケージ「トップページ改善」A節）。
               <dl className="text-sm">
                 <div className="flex gap-2">
                   <dt className="text-muted-foreground w-16 shrink-0">{tRegion("本場")}</dt>
                   <dd>
-                    {selected.originPref ?? "—"}
-                    {selected.originCity ?? ""}
+                    {formatPrefCity(selected.originPref, selected.originCity, locale, label.prefecture, ti("unknown"))}
                   </dd>
                 </div>
               </dl>
@@ -200,17 +266,48 @@ export function BrowseShell({
                 <div className="flex gap-2">
                   <dt className="text-muted-foreground w-16 shrink-0">{ti("origin")}</dt>
                   <dd>
-                    {selected.originPref ?? "—"}
-                    {selected.originCity ?? ""}
+                    {formatPrefCity(selected.originPref, selected.originCity, locale, label.prefecture, ti("unknown"))}
                   </dd>
                 </div>
                 <div className="flex gap-2">
                   <dt className="text-muted-foreground w-16 shrink-0">{ti("style")}</dt>
-                  <dd>{selected.primaryStyle ?? "—"}</dd>
+                  <dd>{selected.primaryStyle ? label.style(selected.primaryStyle) : ti("unknown")}</dd>
                 </div>
               </dl>
             )}
             {selected.summary && <p className="text-sm leading-relaxed">{selected.summary}</p>}
+
+            {/* ViewDetail前の判断材料（作業パッケージ「トップページ改善」B節）。
+                本場ピンには対象データが無い（food_item_regions由来の別データのため）ので、
+                発祥ピン選択時（selectedBrowseItem がある時）だけ出す。 */}
+            {selectedBrowseItem && selectedBrowseItem.tags.length > 0 && (
+              <ul aria-label={ti("tagsLabel")} className="flex flex-wrap gap-1">
+                {selectedBrowseItem.tags.map((tag) => (
+                  <li key={tag.slug}>
+                    <span className="border-border bg-background text-muted-foreground rounded-full border px-2 py-0.5 text-xs">
+                      {locale === "ja" ? tag.nameJa : tag.nameEn}
+                    </span>
+                  </li>
+                ))}
+              </ul>
+            )}
+            {selectedBrowseItem?.bodyExcerpt && (
+              <p className="text-muted-foreground text-xs leading-relaxed">
+                {selectedBrowseItem.bodyExcerpt}
+              </p>
+            )}
+            {nextRelated && (
+              <p className="text-xs">
+                <span className="text-muted-foreground">{ti("connectionsStyleTitle")}: </span>
+                <Link
+                  href={`/${nextRelated.genreSlug ?? nextRelated.shelfSlug}/${nextRelated.slug}`}
+                  className="underline"
+                >
+                  {locale === "ja" ? nextRelated.nameJa : nextRelated.nameRomaji}
+                </Link>
+              </p>
+            )}
+
             <div className="flex items-center gap-4">
               {/* 詳細ページ（SEOの受け皿）へ。シート内の表示は要約に留める。
                   その他アイテム（genre_id null）は棚slug経由のURLで到達できる
@@ -332,6 +429,7 @@ export function BrowseShell({
               onAxisChange={setAxis}
               selectedSlug={selectedSlug}
               onSelect={handleSelectFromIndex}
+              locale={locale}
             />
           </div>
         )}

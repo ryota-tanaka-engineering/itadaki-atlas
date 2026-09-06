@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 
-import type { MapItem } from "@/features/map/queries";
+import type { MapItem, Locale } from "@/features/map/queries";
 import { PIN_STROKE, styleColor } from "@/features/map/styles";
 import { useMasterLabels } from "@/features/map/labels";
 
@@ -21,9 +21,11 @@ type Props = {
   onAxisChange: (axis: Axis) => void;
   selectedSlug: string | null;
   onSelect: (slug: string) => void;
+  /** /en では各行をローマ字主導にする（ja=日本語名先頭は維持。作業パッケージ「トップページ改善」A節）。 */
+  locale: Locale;
 };
 
-export function IndexList({ items, axis, onAxisChange, selectedSlug, onSelect }: Props) {
+export function IndexList({ items, axis, onAxisChange, selectedSlug, onSelect, locale }: Props) {
   const t = useTranslations("browse");
   const label = useMasterLabels();
   const groups = groupBy(items, axis);
@@ -77,9 +79,13 @@ export function IndexList({ items, axis, onAxisChange, selectedSlug, onSelect }:
                     }}
                   />
                   <span className="min-w-0 flex-1">
-                    <span className="block truncate text-sm">{item.nameJa}</span>
+                    {/* ja=日本語名先頭、en=ローマ字主導（三点セットの残りを副題に）。
+                        作業パッケージ「トップページ改善」A節。 */}
+                    <span className="block truncate text-sm">
+                      {locale === "ja" ? item.nameJa : item.nameRomaji}
+                    </span>
                     <span className="text-muted-foreground block truncate text-xs">
-                      {item.nameRomaji}
+                      {locale === "ja" ? item.nameRomaji : item.nameEn}
                       {item.originPref ? ` ／ ${label.prefecture(item.originPref)}` : ""}
                       {/* 色だけに依存させないため系統名をテキストでも出す */}
                       {item.primaryStyle ? ` ／ ${label.style(item.primaryStyle)}` : ""}

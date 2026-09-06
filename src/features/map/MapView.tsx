@@ -200,6 +200,15 @@ export function MapView({
   // たびに全マーカーが破棄・再生成され、その最中のクリックが失われ、フォーカス中の
   // 要素が消えてフォーカスが飛ぶ（本番レビュー「押せもしない」の真因）。
   const honbaLabel = tRegion("本場");
+  // クラスタ・ピンの aria-label はロケール対応（作業パッケージ「トップページ改善」A節。
+  // /en の日本語混入対策）。県ごと・アイテムごとに異なる値をテンプレートへ埋め込む必要が
+  // あるため honbaLabel のように「値そのもの」を依存にできない。t/label はレンダーごとに
+  // 新しい関数参照になり、それを描画effectの依存に入れると無関係な再レンダーのたびに
+  // 全マーカーが再生成されてしまう（上のコメントと同じ理由）ので、ref経由で最新値だけ読む。
+  const i18nRef = useRef({ t, label });
+  useEffect(() => {
+    i18nRef.current = { t, label };
+  });
   // WebGL コンテキスト喪失（実機での「触ってたら地図が消えた」報告への防御。
   // iOS Safari はメモリ圧迫時に WebGL コンテキストを強制破棄することがある）に遭遇したら
   // このキーを進めて地図コンポーネントを丸ごと作り直す（コンテナDOM+Mapインスタンス）。
@@ -323,8 +332,9 @@ export function MapView({
       mapRef.current = null;
     };
     // mapGeneration の変化でこの effect を再実行し、コンテナDOM（key指定）+ Mapインスタンスの
-    // 両方を作り直す。
-  }, [mapGeneration]);
+    // 両方を作り直す。locale はスタイル（地名ラベル言語）の生成に使う。実際には
+    // ロケール切替はフルナビゲーションで再マウントされるため変化しないが、依存として明示する。
+  }, [mapGeneration, locale]);
 
   // 県クラスタ（発祥+本場の合流データから、県ごとの重心と件数を算出）。
   // 県座標マスタは新設せず、ピン群の重心をその場で計算する（データ駆動。やらないこと参照）。
@@ -446,9 +456,17 @@ export function MapView({
         el.type = "button";
         // 集約マーカーは button 要素にしてキーボードでフォーカスできるようにする
         // （.doc/30_features/01_requirements.md F-07 / WCAG 2.2 AA）。
-        // ラベル文言は従来のディフォルメ地図のラベルに準拠し、この地図の個別ピン
-        // aria-label と同様に日本語決め打ちにする（マスタラベル辞書は使わない）。
-        el.setAttribute("aria-label", `${cluster.pref} ${cluster.count}件。選ぶと拡大します`);
+        // ラベル文言はロケール対応（作業パッケージ「トップページ改善」A節）。
+        // ja は messages/ja.json の prefecture 辞書が県名と同じ値を返すため、
+        // 出力は従来（日本語決め打ち）と完全に同じ（既存E2E tests/smoke.spec.ts が検証）。
+        const { t: clusterT, label: clusterLabel } = i18nRef.current;
+        el.setAttribute(
+          "aria-label",
+          clusterT("clusterAriaLabel", {
+            pref: clusterLabel.prefecture(cluster.pref) ?? cluster.pref,
+            count: cluster.count,
+          }),
+        );
         // 拡大などの transform 系の装飾は root（マーカー本体）に当てない。
         // Tailwind v4 の scale-* は独立プロパティ `scale` としてインライン transform の
         // 外側に乗算されるため、MapLibre の translate ごと拡大されてマーカーが
@@ -477,12 +495,24 @@ export function MapView({
         el.type = "button";
         const key = mapPinKey(item);
         // 地図ピンは button 要素にしてキーボードでフォーカスできるようにする
-        // （.doc/30_features/01_requirements.md F-07 / WCAG 2.2 AA）
+        // （.doc/30_features/01_requirements.md F-07 / WCAG 2.2 AA）。
+        // ラベル文言はロケール対応（作業パッケージ「トップページ改善」A節）。
+        // ja は日本語決め打ちの出力と完全に同じ（既存E2E tests/smoke.spec.ts が検証）。
+        // en は市名（ローマ字辞書が無い）を含めず県名までに留める
+        // （"Sapporo Ramen (Hokkaido, Miso)" 相当。指示書の具体例に合わせる）。
+        const { t: pinT, label: pinLabel } = i18nRef.current;
+        const pinName = locale === "ja" ? item.nameJa : item.nameRomaji;
+        const pinPref = item.originPref ? (pinLabel.prefecture(item.originPref) ?? item.originPref) : "";
+        const pinPrefCity = locale === "ja" ? `${pinPref}${item.originCity ?? ""}` : pinPref;
         el.setAttribute(
           "aria-label",
           item.kind === "honba"
-            ? `${item.nameJa}（${honbaLabel}・${item.originPref ?? ""}${item.originCity ?? ""}）`
-            : `${item.nameJa}（${item.originPref ?? ""}${item.originCity ?? ""}・${item.primaryStyle ?? "系統不明"}）`,
+            ? pinT("honbaPinAriaLabel", { name: pinName, honba: honbaLabel, prefCity: pinPrefCity })
+            : pinT("pinAriaLabel", {
+                name: pinName,
+                prefCity: pinPrefCity,
+                style: item.primaryStyle ? (pinLabel.style(item.primaryStyle) ?? item.primaryStyle) : pinT("styleUnknown"),
+              }),
         );
 
         // 拡大は root に当てず内側 span に持たせる（クラスタ側のコメント参照。
@@ -541,7 +571,8 @@ export function MapView({
       for (const m of markers) m.remove();
     };
     // mapGeneration も依存に含め、WebGLコンテキスト喪失で地図を作り直した後もピンを再描画する。
-  }, [items, selectedSlug, onSelect, honbaLabel, mapGeneration, isClusterView, prefClusters, flyToPrefecture]);
+    // locale はピンaria-labelの市名表記の要否（ja=含む/en=含まない）に使うため依存に含める。
+  }, [items, selectedSlug, onSelect, honbaLabel, mapGeneration, isClusterView, prefClusters, flyToPrefecture, locale]);
 
   // 選択地点への寄せ
   useEffect(() => {

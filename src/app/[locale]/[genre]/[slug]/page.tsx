@@ -16,6 +16,7 @@ import { styleColor } from "@/features/map/styles";
 import { parseBodyMarkdown } from "@/features/map/markdown";
 import { distanceFromTokyo } from "@/features/map/geo";
 import { PositionBand } from "@/features/map/PositionBand";
+import { CoverFactChips, CoverTagChips, type CoverFact, type CoverTag } from "@/features/map/CoverInfo";
 import { TableOfContents, BodyChapters } from "@/features/map/ItemBody";
 import { ItemConnections, type ConnectionCard, type RegionPill } from "@/features/map/ItemConnections";
 import { localeAlternates } from "@/lib/seo";
@@ -96,14 +97,30 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
 
   // 2. 位置帯: 発祥地名+座標。座標が無いアイテム（部位・定番種）は帯ごと出さない
   const hasGeo = item.lat !== null && item.lng !== null;
-  const placeLabel = item.originPref
+  const originLabel = item.originPref
     ? `${tp(item.originPref)}${item.originCity ? (isJa ? item.originCity : ` ${item.originCity}`) : ""}`
-    : item.nameRomaji;
-  // 位置帯の添え: 東京駅からの距離・方位（30km未満=都内相当は行ごと出さない）
+    : null;
+  const placeLabel = originLabel ?? item.nameRomaji;
+  // 東京駅からの距離・方位（30km未満=都内相当は出さない）。2026-09 カバー情報密度
+  // 改善で位置帯からカバー内の事実チップへ移した（下記 coverFacts）。
   const distance = hasGeo ? distanceFromTokyo(item.lat as number, item.lng as number) : null;
   const distanceLabel = distance
     ? t("distanceFromTokyo", { direction: t(`direction.${distance.direction}`), km: distance.km })
     : null;
+
+  // カバー「事実の帯」（本番体験レビュー「情報量が少ない」対応）: 発祥・系統・
+  // 東京からの距離を1行のチップ列にする。旧・本文下の属性欄(dl)はこれと重複するため廃止した。
+  const coverFacts: CoverFact[] = [];
+  if (originLabel) coverFacts.push({ key: "origin", label: `${t("origin")}: ${originLabel}` });
+  if (item.primaryStyle) {
+    coverFacts.push({ key: "style", label: ts(item.primaryStyle), dotColor: styleColor(item.primaryStyle) });
+  }
+  if (distanceLabel) coverFacts.push({ key: "distance", label: distanceLabel });
+
+  const coverTags: CoverTag[] = item.tags.map((tag) => ({
+    slug: tag.slug,
+    label: isJa ? tag.nameJa : tag.nameEn,
+  }));
 
   // 3. 本文: body_md が無ければ目次ごと非表示（Tier1でもページが欠けて見えない設計）
   const chapters = item.bodyMd ? parseBodyMarkdown(item.bodyMd) : [];
@@ -168,17 +185,6 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
               {breadcrumb}
             </p>
 
-            {item.primaryStyle && (
-              <div className="mt-2 flex items-center gap-2">
-                <span
-                  aria-hidden
-                  className="inline-block size-3.5 rounded-full border"
-                  style={{ backgroundColor: styleColor(item.primaryStyle), borderColor: "#fffdf7" }}
-                />
-                <span className="text-sm">{ts(item.primaryStyle)}</span>
-              </div>
-            )}
-
             {/* 三点セット: 日本語名を大きく（明朝・白） */}
             <h1 className="font-serif mt-3 text-3xl md:text-4xl">{displayName}</h1>
             {subtitle && (
@@ -186,16 +192,22 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
                 {subtitle}
               </p>
             )}
+
+            {/* 概要文（カバーの空白を埋める第一候補。本文エリアからカバーへ移設） */}
+            {item.summary && (
+              <p className="mt-4 max-w-prose text-sm leading-relaxed md:text-base">{item.summary}</p>
+            )}
+
+            {/* 事実の帯: 発祥・系統・東京からの距離 */}
+            <CoverFactChips facts={coverFacts} />
+
+            {/* タグ: タグページへのリンク */}
+            <CoverTagChips tags={coverTags} ariaLabel={t("tagsLabel")} />
           </header>
 
           {hasGeo && (
             <div className="px-4 pb-4 md:px-0 md:py-2">
-              <PositionBand
-                lat={item.lat as number}
-                lng={item.lng as number}
-                label={placeLabel}
-                distanceLabel={distanceLabel}
-              />
+              <PositionBand lat={item.lat as number} lng={item.lng as number} label={placeLabel} />
             </div>
           )}
         </div>
@@ -203,31 +215,11 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
         {/* 3. 本文（紙） */}
         <div className="px-4 pt-8 md:grid md:grid-cols-[minmax(0,700px)_260px] md:items-start md:gap-10 md:px-0">
           <div className="min-w-0">
-            {item.summary && <p className="mb-8 leading-relaxed">{item.summary}</p>}
-
             <TableOfContents chapters={chapters} heading={tocHeading} className="mb-8 md:hidden" />
 
             <BodyChapters chapters={chapters} />
 
-            {(item.originPref || item.primaryStyle) && (
-              <dl className="mb-8 text-sm">
-                {item.originPref && (
-                  <div className="flex gap-3 py-1">
-                    <dt className="text-muted-foreground w-20 shrink-0">{t("origin")}</dt>
-                    <dd>
-                      {tp(item.originPref)}
-                      {item.originCity ? ` / ${item.originCity}` : ""}
-                    </dd>
-                  </div>
-                )}
-                {item.primaryStyle && (
-                  <div className="flex gap-3 py-1">
-                    <dt className="text-muted-foreground w-20 shrink-0">{t("style")}</dt>
-                    <dd>{ts(item.primaryStyle)}</dd>
-                  </div>
-                )}
-              </dl>
-            )}
+            {/* 発祥・系統は事実チップとしてカバーへ移設済み（重複するため下部の属性欄は廃止） */}
 
             {/* 4. つながり（SP: 本文の下） */}
             <ItemConnections
