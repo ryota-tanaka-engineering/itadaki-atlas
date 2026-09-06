@@ -30,7 +30,7 @@ KGI は **既存事業への送客数**であり、トラフィックは中間�
 | 検索パフォーマンス | Google Search Console | 1 |
 | エラー監視 | Sentry（Platform 固定スタック） | 1（初回デプロイ時） |
 
-`TODO: [Cloudflare Web Analytics を GA と併用するか判断する。Cookie不要でプライバシー面の利点があるが、GAほど詳細が取れない。初回デプロイ時に決定]`
+**決定（2026-09）: Cloudflare Web Analytics を GA と併用する。** 主対象の英語圏には EU・英国が含まれるため、GA4 は同意バナーで許可されたときだけ読み込む（同意前は一切送らない）。同意が無い閲覧も Cookie 不要の Cloudflare Web Analytics で総量だけ取る。実装は `src/components/Analytics.tsx`、切り替えは環境変数 `NEXT_PUBLIC_GA_ID` / `NEXT_PUBLIC_CF_BEACON_TOKEN`（未設定なら描画しない）。GTM は導入しない（タグが増える予定が無く、層を増やす理由が無い）。AdSense 等のバナー広告は `../00_concept/04_strategy.md` の不採用方針どおり入れない。
 
 ## 3. カスタムイベント定義（フェーズ1）
 

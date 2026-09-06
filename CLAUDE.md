@@ -54,7 +54,7 @@
 
 | 項目 | 状態 |
 | :--- | :--- |
-| デプロイ先 | **Cloudflare Workers 稼働中**（2026-09 初回デプロイ。https://itadaki-atlas.itadaki-atlas.workers.dev 。デプロイは scratchpad のスクリプトではなく `npm run deploy:cf` + 本番環境変数。タイルは R2 `itadaki-atlas-tiles` の r2.dev 公開URL） |
+| デプロイ先 | **Cloudflare Workers 稼働中**（2026-09 初回デプロイ。https://itadaki-atlas.itadaki-atlas.workers.dev 。デプロイは `scripts/deploy-prod.sh`（タイル退避 + 本番環境変数注入 + `npm run deploy:cf`）。計測 ID は `.env.production.local` に置く。タイルは R2 `itadaki-atlas-tiles` の r2.dev 公開URL） |
 | Supabase 本番 | **稼働中**（ref: xzkvvdldovgbuutttmzj・東京・Free。ローカルと同一データを投入済み） |
 | ドメイン `itadakiatlas.com` / Sentry / GitHub自動デプロイ（CF_DEPLOY_ENABLED） | **未設定**（ドメイン取得後に SITE_URL 設定・R2カスタムドメイン化・workers.dev 無効化をまとめて行う） |
 | マーク（ロゴ） | **未決**（暫定=三つ紋。ブランドページの3案から選定待ち） |
