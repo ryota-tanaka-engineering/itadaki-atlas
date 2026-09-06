@@ -1,0 +1,579 @@
+{
+ "items": [
+  {
+   "slug": "katsuo",
+   "body_ja": "## 何でできているか\n黒潮に乗って土佐沖から三陸沖まで北上する回遊魚で、初夏に釣れる「初鰹」は身が締まって脂が少なく、さっぱりとした後味が身上とされる。秋に南下する「戻り鰹」は皮下にたっぷり脂をまとい、口に入れた瞬間にとろける濃厚さへと一変する。同じ一尾でも赤身の締まった部分と血合いの濃い部分とで味わいが分かれ、通る季節と海域の水温によって脂の量も身の締まりもまるで別の魚のように変わる。\n\n## どう作るのか\n一本釣りで釣り上げてすぐに血抜きし、鮮度を保ったまま港へ運ぶ。藁焼きは強い火で表面だけを一気に炙り、中心は生のまま仕上げる技術で、皮に近い脂を溶かして香ばしさと旨みを引き出しながら、余熱で火を入れすぎないよう手早く氷水に落として締める。炙った直後に厚めに切り、薬味とともに塩やポン酢で食べることで、脂の少ない初鰹でも旨みを引き立てられる。\n\n## なぜこの形になったのか\n黒潮が沖合を洗う土佐湾では一本釣り漁が古くから盛んで、藁焼きたたきは一説によるとこの海で生まれたとされる。焼津や気仙沼のように黒潮に近い港へは短時間で水揚げできるため、釣ってから店に並ぶまでの時間が短く、鮮度がそのまま旨みの差になる。黒潮の通り道に沿って各地の港を渡り歩くように旬が北上していく点も、この魚ならではの特徴とされる。",
+   "body_en": "## What it's made of\nA migratory fish riding the Kuroshio current from Tosa to Sanriku, lean and clean-tasting when caught in early summer as 'hatsu-gatsuo', then richer by autumn as it turns south and packs fat under the skin for the 'modori-gatsuo' run. Even within one fish, the firm red flesh and the darker chiai muscle taste distinct, and both fat content and firmness shift with the season and the water temperature of wherever it was caught — the same fish tasting almost unrecognizable from one month to the next.\n\n## How it's made\nTataki sears the skin over a blazing straw fire while leaving the center raw, melting the fat just under the skin without cooking it through. Fish taken by pole-and-line are bled immediately, and after searing, the fillet is plunged into ice water fast so residual heat doesn't overcook it. Sliced thick right after searing and served with salt or ponzu and sharp aromatics, even a lean early-summer catch reads as full of flavor.\n\n## Why it took this shape\nThe Kuroshio runs close offshore of Tosa Bay, where pole-and-line fishing has long thrived and where straw-seared tataki is said to have originated. Ports near the current, like Yaizu and Kesennuma, land it within hours of catching, and that short trip from sea to store is what fresh flavor comes down to. As the current moves north through the year, the fish's peak season is said to travel with it, port by port.",
+   "sources": [
+    {
+     "title": "カツオ｜焼津市",
+     "url": "https://www.city.yaizu.lg.jp/business/suisan-nougyo/fisheries/sea/seafood/katsuo.html",
+     "publisher": "焼津市",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "katsuo",
+     "to_slug": "maguro",
+     "relation_type": "対比",
+     "basis": "ともに黒潮に乗る回遊性の高いサバ科／マグロ亜科魚で刺身文化の中心だが、カツオは藁焼きで香ばしさを添えて食べる短時間勝負の魚、マグロは脂の乗りそのものを主役にする魚として扱いが対照的。"
+    }
+   ]
+  },
+  {
+   "slug": "sake-salmon",
+   "body_ja": "## 何でできているか\n生まれた川の匂いを覚えて戻るとされる回遊魚で、外洋で数年を過ごすほど脂をたっぷりとまとう。産卵のため川を遡り始めると、蓄えていた脂は卵と精巣に取られて急激に落ちていくため、河口や沿岸で獲れる個体ほど身が締まりつつも脂を残している。塩焼きにすると皮目が香ばしく、脂の少ない時期でも身のほぐれの良さで食べやすいとされ、脂の乗り方は漁獲する海域の水温によっても変わるという。\n\n## どう作るのか\n塩を振って寝かせる塩鮭、二段階で薄塩にしてじっくり乾かす新巻鮭、卵をほぐしていくらにするなど一匹を余さず加工する。産卵前の遡上期に定置網や河口の網で獲れば、身と卵の両方を状態よく取り分けられるため、獲る時期の見極めが加工の質を左右する。氷頭や中骨といった部位まで酢の物や汁物に回す扱いも各地に残り、内臓さえも塩辛に加工されることがある。\n\n## なぜこの形になったのか\n知床半島に近い標津町のように河川回帰する鮭が集まる海域では、遡上前の脂の乗った個体を狙って揚げる漁が発達した。新潟県村上市では三面川に平安時代からとされる鮭漁の記録が伝わり、江戸期には遡上を助ける「種川」の仕組みが整えられたともいう。一匹の身も卵も使い切る百種以上の郷土料理が、この川筋の暮らしとともに育った。",
+   "body_en": "## What it's made of\nA migratory fish said to sense and return to the river of its birth, fattening more the longer it feeds at sea — and losing that fat fast once it starts the spawning run, as reserves shift into eggs and milt. Fish taken near river mouths just before that run keep both firmness and fat, and even salted plain and grilled, the flesh flakes easily enough to eat well in leaner seasons too.\n\n## How it's made\nSalted as shiozake, twice-salted and slow-dried as aramaki-zake, or its roe worked loose into ikura — little of the fish goes unused. Set nets and river-mouth nets timed to the pre-spawning run let both flesh and roe be taken in good condition, so timing the catch is what determines processing quality. Even the cartilage and backbone are simmered or pickled in some regions.\n\n## Why it took this shape\nWaters near the Shiretoko Peninsula, like those off Shibetsu, draw river-returning salmon before they head upstream, giving rise to a fishery built around catching them still fat. In Niigata's Murakami, salmon fishing on the Miomote River is said to date to the Heian era, with an Edo-period system of side channels later built to help the run along. The town's more than a hundred local dishes, using every part of the fish, grew out of that river.",
+   "sources": [
+    {
+     "title": "村上の鮭漁｜村上市",
+     "url": "https://www.city.murakami.lg.jp/site/kanko/murakami-sakeryo.html",
+     "publisher": "村上市",
+     "accessed_at": "2026-09-06"
+    },
+    {
+     "title": "三面川鮭産漁業協同組合",
+     "url": "https://www.miomotegyokyo.com/",
+     "publisher": "三面川鮭産漁業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sake-salmon",
+     "to_slug": "nijimasu",
+     "relation_type": "対比",
+     "basis": "同じサケ科だが、サケは母川回帰する天然の海洋回遊魚で沿岸漁として獲られるのに対し、ニジマスは明治期に移入され湧水養殖場で一年中育てられる淡水養殖魚という対照。"
+    }
+   ]
+  },
+  {
+   "slug": "saba",
+   "body_ja": "## 何でできているか\n背に青緑の縞模様が走る青魚で、秋から冬にかけて皮下脂肪が増して身に白い脂の筋が浮く。塩焼きにすると皮が香ばしく弾け、味噌煮にすると脂が煮汁に溶けて甘みに変わる。酢で締めた〆さばは、脂の重さを酸味が受け止めて後味を軽くし、生とは違う旨みの引き出し方ができる。夏場は脂が薄く、加熱調理よりも酢や香味野菜で軽く仕立てる料理が向くとされ、季節で調理法を選び分ける魚といえる。\n\n## どう作るのか\n傷みが速い魚のため、水揚げ後は素早く血抜きと冷却をして鮮度を保つ。速い潮流に揉まれて回遊せず一つの海域に居着いた個体は、体力を保つために身が締まりやすく脂も抜けにくいとされ、そうした個体は一本釣りで丁寧に活け締めして出荷される。〆さばに加工する際は、まず強めに塩をあてて水分を抜き、そのあと酢に浸けることで生臭さを抑えながら身を引き締める。\n\n## なぜこの形になったのか\n豊後水道は太平洋からの黒潮と瀬戸内側の潮がぶつかる速い潮流の海域で、ここに居着くサバは回遊せずに潮に耐え続けるため身が締まる。大分市佐賀関ではこうした個体を一本釣りで揚げ、活け締めした状態で市場へ運ぶ扱いが受け継がれている。同じような速い潮流を持つ海峡や瀬戸には、各地で似た理屈の居着き型ブランドサバが生まれている。",
+   "body_en": "## What it's made of\nA blue-green-striped fish that lays down visible fat lines from autumn into winter — grilled, the skin crackles; simmered in miso, the fat melts into sweetness; and vinegar-cured as shimesaba, the acidity cuts through that richness for a lighter finish and a different kind of flavor than eating it raw. In summer, when fat runs thin, dishes built around vinegar and aromatics suit it better than heavy cooking.\n\n## How it's made\nBecause the flesh spoils fast, catches are bled and chilled immediately. Fish held in place by strong currents rather than migrating build firmer flesh and retain more fat to endure the flow, and such fish are taken one at a time by pole-and-line and bled alive on deck before shipping. Curing it into shimesaba starts with a heavy salting to draw out moisture, then a vinegar bath that tames any fishy edge while firming the flesh further.\n\n## Why it took this shape\nThe Bungo Channel is where the Pacific's Kuroshio meets Seto Inland Sea currents in a fast-moving strait, and mackerel that settle there rather than migrate firm up from constantly working against the flow. In Oita City's Saganoseki, such fish are taken by pole-and-line and bled at sea, a handling method passed down through generations. Wherever a similarly fast strait exists, similar resident-fish brands of mackerel have emerged along the coast.",
+   "sources": [
+    {
+     "title": "関あじ・関さば｜大分市",
+     "url": "https://www.city.oita.oita.jp/o157/bunkasports/guide/1014022357237.html",
+     "publisher": "大分市",
+     "accessed_at": "2026-09-06"
+    },
+    {
+     "title": "大分県漁業協同組合 佐賀関支店",
+     "url": "https://sekiajisekisaba.or.jp/",
+     "publisher": "大分県漁業協同組合佐賀関支店",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "saba",
+     "to_slug": "aji",
+     "relation_type": "対比",
+     "basis": "ともに豊後水道の速い潮に居着く個体が「関さば」「関あじ」として同じ大分市佐賀関で一本釣りされるが、サバ科とアジ科で系統は別で、脂の質と身の食感の傾向が異なる。"
+    }
+   ]
+  },
+  {
+   "slug": "aji",
+   "body_ja": "## 何でできているか\n一年を通して出回る身近な青魚だが、居着いた個体ほど脂の乗りが良く、刺身にすると甘みが強く出る。たたきにすれば薬味と混ざり合って香りが立ち、フライにすれば皮の香ばしさと脂の甘みが衣の中で凝縮される。旬は初夏から夏にかけてとされ、この時期は皮下の脂が特に厚くなり、刺身にしたときの口当たりがなめらかになるといい、冬場は身が締まる一方で脂は控えめになる。\n\n## どう作るのか\n回遊せず一つの瀬に居着いた個体は、速い潮に逆らい続けるために筋肉質になり脂も逃げにくい。こうした個体を刺し網や巻き網ではなく一本釣りで丁寧に釣り上げ、船上で活け締めすることで身の劣化を抑え、刺身に耐える鮮度を保つ。小骨が多いため刺身にする際は骨切りに近い細かい包丁目を入れることもあり、たたきにする場合は皮ごと叩いて薬味となじませる。\n\n## なぜこの形になったのか\n豊後水道の速い潮流にもまれて回遊せず居着くアジは、身が締まり脂がのった個体になるとされ、大分市佐賀関では一本釣りで揚げて「関あじ」として扱われてきた。潮通しの良い海域ほど居着き型の個体が育ちやすく、各地で似た理屈のブランドアジが生まれている。回遊するアジと居着くアジとでは、同じ種であっても味も扱われ方もはっきり分かれる。",
+   "body_en": "## What it's made of\nA blue-backed fish sold year-round, but fish that settle in one spot rather than migrate run fattier and sweeter raw, mince well into tataki with herbs, and fry up with a fat-rich sweetness concentrated inside the crust. It peaks from early to midsummer, when the fat under the skin runs thickest and sashimi turns especially smooth.\n\n## How it's made\nFish that hold their ground against a fast current rather than migrate build muscle and hold onto fat. Taken one at a time by pole-and-line rather than net, they're bled alive on deck, which slows deterioration and keeps them fit to eat raw. Because it carries many small bones, sashimi sometimes gets fine scoring similar to hone-kiri, and tataki is minced skin-on so the fat blends with the aromatics.\n\n## Why it took this shape\nHorse mackerel that settle in the Bungo Channel's fast currents rather than migrate are said to firm up and fatten, and in Oita City's Saganoseki, pole-and-line-caught fish are sold as 'Sekiaji'. Wherever tidal flow is strong enough to favor these resident fish, similar branded catches have emerged along the coast — and within the same species, migratory and resident fish end up tasting, and being treated, quite differently.",
+   "sources": [
+    {
+     "title": "関あじ・関さば｜大分市",
+     "url": "https://www.city.oita.oita.jp/o157/bunkasports/guide/1014022357237.html",
+     "publisher": "大分市",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "iwashi",
+   "body_ja": "## 何でできているか\n群れで泳ぐ小型の青魚で、脂の乗りは群れが育つ海域に左右される。刺身は口の中でとろけるほど柔らかく、梅干しと一緒に煮ればさっぱりと、つみれにすれば身の甘みが凝縮される。傷みが早いため「陸に上がったら死ぬ」とまで言われるほど鮮度が落ちやすく、脂が最も乗るとされる秋から冬にかけては刺身よりも鮮度を保ちやすい加熱調理が選ばれやすい。\n\n## どう作るのか\n水揚げ後すぐに氷詰めしないと身が崩れるため、港に近い漁場で獲れることが鮮魚として売れる条件になる。骨まで柔らかく煮る梅煮や、乾燥させて出汁を取る煮干しなど、鮮度が落ちる前提で保存や加工に回す扱いも古くから発達している。つみれにする場合は骨ごとすり身にすることで、カルシウムも旨みも余さず使い切れ、加工に回すことを前提にした扱いが定着している。\n\n## なぜこの形になったのか\n寒流の親潮と暖流の黒潮がぶつかる潮境は、水温差でプランクトンが集まりやすい好漁場になるとされる。千葉県銚子はそうした潮境に面した位置にあり、水揚げ量の多さで知られる。潮境に近い港ほど、群れの規模と脂の乗りの両方に恵まれやすく、獲れる時期や量が海流の動き方そのものに左右される魚といえ、潮境の位置が年によってずれるとその年の漁模様も変わる。",
+   "body_en": "## What it's made of\nA small, schooling blue-backed fish whose fat content tracks the waters its shoal feeds in. Raw, it melts almost instantly; simmered with pickled plum it turns light and clean; minced into tsumire dumplings its natural sweetness concentrates — but it spoils so fast it's said to start dying the moment it leaves the water, and in autumn and winter, when it's fattest, cooked dishes are favored over raw ones simply because they hold up better.\n\n## How it's made\nUnless iced immediately after landing, the flesh breaks down, so proximity between fishing ground and port decides whether it can be sold fresh at all. Long before refrigeration, it was simmered soft with plum or dried into niboshi stock, processing built around the assumption that freshness wouldn't last. Ground bones and all into tsumire dumplings, nothing of the fish, calcium included, goes to waste.\n\n## Why it took this shape\nWhere the cold Oyashio current meets the warm Kuroshio, the temperature boundary is said to concentrate plankton into a rich fishing ground. Facing that boundary, Choshi in Chiba is known for landing large volumes — and ports near such tidal fronts tend to get both bigger shoals and fatter fish, making this a fish whose season and abundance follow the current's own movement almost directly.",
+   "sources": [
+    {
+     "title": "銚子市漁業協同組合",
+     "url": "https://www.choshi-gyokyo.jp/",
+     "publisher": "銚子市漁業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "sanma",
+   "body_ja": "## 何でできているか\n細長い銀色の体をした回遊魚で、秋に脂が最も乗る。内臓ごと塩焼きにするのが定番で、身の脂の甘さと内臓のほろ苦さが同時に楽しめる。北の海で夏を過ごし南下してくる群れは、その年の海水温によって脂の乗りも群れの大きさも変わるとされ、水温が高い年は脂の乗りが薄くなる傾向があるともいわれ、年ごとに味の当たり外れが出やすい魚でもある。旬を過ぎると脂は急速に落ちていくという。\n\n## どう作るのか\n棒受け網漁は、夜間に光で魚群を集めてから網で一気にすくい上げる漁法で、群れを傷つけにくく鮮度を保ちやすいとされる。内臓に苦味がある魚だが、鮮度が良いうちは臭みが出にくいため、水揚げから食卓までの時間の短さが味を大きく左右する。塩焼きにする際はウロコを落とさずそのまま強火で炙り、皮目を香ばしく仕上げ、内臓の苦味を活かすかどうかで好みが分かれる。\n\n## なぜこの形になったのか\n秋になるとサンマの群れは北の海から沿岸近くまで接岸して南下する性質があり、その通り道に面した港ほど水揚げが多くなる。北海道根室のように群れが接岸しやすい海域を持つ漁港では、棒受け網漁を中心にサンマ漁が営まれてきた。接岸する時期と量は毎年の海流と水温の動きに左右され、旬の訪れ方そのものが年によって変わる。",
+   "body_en": "## What it's made of\nA slender, silver migratory fish at its fattest in autumn. Grilled whole with salt, innards included, it pairs sweet fat with a faint bitterness from the guts — and how much fat and how large a shoal turns up each year tracks that season's sea temperature as it heads south from northern waters, with warmer years said to bring leaner fish.\n\n## How it's made\nStick-held dip net fishing gathers a shoal at night with light before scooping it up in one motion, handling it gently enough to protect freshness. Its innards carry a natural bitterness that a fresh fish doesn't turn unpleasant, so how quickly it reaches the table matters as much as anything. Grilled with the scales left on, it's cooked over high heat to crisp the skin.\n\n## Why it took this shape\nEach autumn, shoals of saury move south from northern waters and come close to shore, and ports facing that route land the most. Around Nemuro in Hokkaido, where the shoals readily approach the coast, saury fishing has centered on stick-held dip nets for exactly that reason. Both the timing and the size of that approach shift year to year with the current and water temperature, so the season itself arrives differently each time.",
+   "sources": [
+    {
+     "title": "サンマ漁｜落石漁業協同組合",
+     "url": "https://ochiishi.or.jp/sealife/sanma/",
+     "publisher": "落石漁業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sanma",
+     "to_slug": "katsuo",
+     "relation_type": "対比",
+     "basis": "どちらも海流に乗って季節を告げる回遊魚だが、カツオは黒潮に乗って北上する初夏の魚、サンマは南下しながら沿岸に接岸する秋の魚という対照的な役割で季節の変わり目を示す。"
+    }
+   ]
+  },
+  {
+   "slug": "buri",
+   "body_ja": "## 何でできているか\n成長につれ呼び名が変わる出世魚で、冬に脂をたっぷりとためた「寒ブリ」は刺身にすると口の中でとろけるほど濃厚になる。照り焼きにすればタレと脂が絡み合って甘辛く仕上がり、大根と炊けば脂が大根にしみ込み、身以上に大根が主役になるとも言われる。夏場のブリは脂が薄く「夏ブリ」と呼ばれ、あっさりとした味わいでフライなどに向くとされ、同じ魚とは思えないほど冬との印象が違う。\n\n## どう作るのか\n越冬前に湾内で脂を蓄えた群れを定置網で丸ごと迎え入れる漁が中心で、網に入った魚を一匹ずつ絞めて血抜きすることで臭みを抑える。刺身は皮目を炙って香ばしさを足す「ブリの湯霜」など、脂の乗った身をどう活かすかで調理の工夫が分かれる。活け締め後に数時間寝かせることで脂と旨みがなじみ、より濃厚な味わいになるとされる。\n\n## なぜこの形になったのか\n対馬暖流に乗って日本海を回遊するブリは、富山湾のように急に深くなる地形の湾に入ると、越冬に備えて脂を蓄えてから定置網にかかる。富山県氷見市ではこうして揚がる寒ブリを「ひみ寒ぶり」と呼び、脂の質と歩留まりの高さが評価されてきた。湾の地形が深く切れ込んでいるほど、越冬前の群れが留まりやすいとされ、氷見沖はまさにその条件がそろった湾とされる。",
+   "body_en": "## What it's made of\nA 'shusseuo' whose name changes as it grows, winter's fat-laden kanburi turns almost creamy raw, glazes into a sweet-savory teriyaki where sauce and fat bind together, and simmered with daikon it renders enough fat that the daikon is sometimes said to outshine the fish itself. Summer yellowtail, by contrast, runs lean and is called 'natsu-buri', suited to lighter dishes like frying.\n\n## How it's made\nThe core method is a set net that receives an entire shoal that has fattened in a bay before wintering, with each fish bled individually once netted to keep off any off-flavor. Techniques diverge from there — searing the skin briefly for a dish called yu-shimo adds smoky depth to the rich flesh. Resting it a few hours after bleeding lets the fat and umami settle together for a richer taste.\n\n## Why it took this shape\nYellowtail riding the Tsushima Current through the Sea of Japan fatten up once they enter a steeply plunging bay like Toyama Bay, building reserves ahead of winter before running into set nets. In Toyama's Himi, fish taken this way are sold as 'Himi Kanburi', valued for both fat quality and yield. The more sharply a bay's seabed drops away, the more likely a wintering shoal is to linger there.",
+   "sources": [
+    {
+     "title": "氷見漁業協同組合",
+     "url": "http://www.tyhimigyokyo.jf-net.ne.jp/",
+     "publisher": "氷見漁業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "buri",
+     "to_slug": "kanpachi",
+     "relation_type": "兄弟",
+     "basis": "ともにブリ属の近縁種で、外見も味も似ているために「ブリ御三家」として並べて語られることが多い。冬に脂を蓄えるブリに対し、カンパチは夏が旬で身が締まる対照的な旬を持つ。"
+    },
+    {
+     "from_slug": "tai-madai",
+     "to_slug": "buri",
+     "relation_type": "対比",
+     "basis": "ともに慶事や年越しに欠かせない象徴的な魚だが、マダイは一年を通して祝いの席で使われるのに対し、ブリは西日本を中心に正月の年取り魚として特に重んじられる、という象徴のされ方の違い。"
+    }
+   ]
+  },
+  {
+   "slug": "kanpachi",
+   "body_ja": "## 何でできているか\nブリに似た姿だが体高があり平たく、身の締まりが強く脂は控えめな高級魚。刺身にすると歯ごたえのある食感が際立ち、噛むほどに上品な甘みがにじみ出る。ブリが冬に脂をのせるのに対し、カンパチは夏が旬とされ、暑い季節でもさっぱりと食べられる。旬を過ぎた個体は身がやや水っぽくなるため、夏場の一時期に人気が集まる魚とされ、旬の短さがかえって価値を高めているともいえる。\n\n## どう作るのか\n天然物は外洋を回遊する個体を一本釣りや定置網で獲るのに対し、養殖物は波の穏やかな湾内の生け簀で育てられる。回遊による運動量の差が身の締まり方に表れるとされ、天然と養殖のどちらを選ぶかで刺身の食感がはっきり変わる魚でもある。刺身は皮を引かずに霜降りにし、皮目のコリコリとした食感を活かす切り方も好まれる。\n\n## なぜこの形になったのか\n鹿児島県の垂水湾や根占沖のように黒潮の影響を受けつつ波の穏やかな湾は、カンパチの養殖に適した水温と潮通しを持つとされ、早い時期からの育成・出荷が行われてきた。天然物は黒潮に近い海域で漁獲され、養殖物とは育つ環境そのものが異なる。湾の穏やかさと外海の速い潮、その両方が同じ魚を別の姿に育てているといえ、産地を見れば天然か養殖かの見当がつくとされる。",
+   "body_en": "## What it's made of\nSimilar in build to yellowtail but taller-bodied and a touch flatter, this premium fish carries firmer flesh and less fat. Raw, its chewy bite gives way to a refined sweetness the longer it's chewed — and while yellowtail fattens in winter, kanpachi peaks in summer, eating light even in the heat. Once past its peak, the flesh turns slightly watery, so demand concentrates into that one summer window.\n\n## How it's made\nWild fish are migratory, taken by pole-and-line or set net out in open water, while farmed fish are raised in calm bay pens. That difference in how much a fish swims is said to show up directly in firmness, so wild versus farmed changes the bite of the sashimi noticeably. It's often served skin-on and lightly seared, or sashimi-style, to make the most of the skin's own crisp texture.\n\n## Why it took this shape\nBays like Tarumizu and the waters off Nejime in Kagoshima, touched by the Kuroshio yet calm enough for aquaculture, are said to offer water temperature and flow well suited to raising kanpachi, letting farms there ship earlier in the season. Wild fish, by contrast, come from open water closer to the Kuroshio itself — the same species raised into two different textures by a calm bay on one side and a fast current on the other.",
+   "sources": [
+    {
+     "title": "ねじめ漁業協同組合",
+     "url": "https://www.nejime-gyokyo.jp/",
+     "publisher": "ねじめ漁業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kanpachi",
+     "to_slug": "hiramasa",
+     "relation_type": "兄弟",
+     "basis": "ブリ属の近縁種同士で、いずれも夏が旬とされ、見た目も似ているため「ブリ御三家」として並べて語られる。カンパチは体高がありやや太め、ヒラマサは体高がありつつ平たい体形という体つきの違いで見分けられる。"
+    }
+   ]
+  },
+  {
+   "slug": "hiramasa",
+   "body_ja": "## 何でできているか\nブリやカンパチに似るが体高があり平たい体形で、夏に旬を迎える高級魚。脂の量はブリほど多くないが、身の締まりと歯切れの良さは際立ち、刺身にすると噛むたびに上品な甘みが広がる。寿司職人の間ではその食感からブリより上に位置づけられることもあるという。冬場に出回る個体は少なく、夏を代表する白身として扱われ、冷たい時期の個体は身が硬くなりすぎるとも言われる。\n\n## どう作るのか\n回遊性が強い魚で、外洋を泳ぎ続ける個体ほど身が締まるとされる。一本釣りで釣り上げてから活け締めし、血抜きと神経締めを行うことで身の劣化を遅らせる扱いが一般的で、鮮度と締め方の丁寧さがそのまま刺身の食感の違いになって表れる。厚めのそぎ造りにすることで、歯ごたえの強さを存分に楽しめる切り方が好まれ、皮を軽く炙って香りを足す扱いも見られる。\n\n## なぜこの形になったのか\n黒潮の影響を受ける島嶼部の海域は潮通しが良く、外洋を回遊するヒラマサが育ちやすい環境とされる。長崎県五島列島のように黒潮に近い離島の漁場では、回遊してくる個体を一本釣りで狙う漁が行われ、島の地形と海流の両方が漁場を形づくっている。外洋に面した島ほど、回遊魚を待ち構える漁場として活かされてきたといえ、島々の位置そのものが漁場の善し悪しを決めている。",
+   "body_en": "## What it's made of\nSimilar in shape to yellowtail and kanpachi but taller-bodied and flatter, at its best in summer. Less fatty than yellowtail, but its firmness and crisp bite stand out, unfolding a refined sweetness with every chew — and some sushi chefs rank its texture above buri. Few fish reach market in winter, making it a summer white-fish standard instead.\n\n## How it's made\nStrongly migratory, and fish that keep swimming through open water are said to firm up the most. The common handling is pole-and-line capture followed by ike-jime bleeding and shinkei-jime nerve destruction, slowing deterioration — so how carefully it's bled shows directly in the bite. Thick-sliced sogi-zukuri cuts are favored to let that firm chew come through fully.\n\n## Why it took this shape\nIsland waters touched by the Kuroshio tend to have strong tidal flow, an environment well suited to migratory yellowtail amberjack. Around the Goto Islands off Nagasaki, close to the current, boats target incoming fish by pole-and-line — grounds shaped equally by the islands' terrain and the current running past them. The more exposed an island sits to open water, the more its waters serve as a waiting ground for fish on the move.",
+   "sources": [
+    {
+     "title": "五島のヒラマサ！磯のスプリンターに迫る｜五島市公式釣り特集",
+     "url": "https://goto.nagasaki-tabinet.com/feature/fishing5",
+     "publisher": "五島市",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "tai-madai",
+   "body_ja": "## 何でできているか\n祝いの席に欠かせない紅い魚で、脂は控えめでありながら上品な甘みを持つ淡白な白身。皮目には独特の旨みがあるため、皮を引かずに湯霜にしたり炙ったりして皮ごと味わう食べ方が好まれる。骨からは出汁が出るため、鯛めしや潮汁にも余さず使われる。産卵期を控えた春先は「桜鯛」と呼ばれ、一年でも特に脂がのった状態になり、産卵を終えた初夏は身がやせるとされる。\n\n## どう作るのか\n速い潮流にもまれて育つ天然物は身が締まり、養殖物は穏やかな湾で脂を安定してのせやすい。活け締めした後に数時間から一日ほど寝かせて旨み成分を増す「熟成」を行うことも多く、獲れたてよりむしろ少し置いたほうが甘みが出るとされる。鱗を引く際にはヒレの付け根を丁寧に扱い、皮ごと食べる料理に備えて皮を傷つけないようにし、熟成の日数は好みや厚みで調整される。\n\n## なぜこの形になったのか\n兵庫県明石市の沖に横たわる明石海峡は速い潮流で知られ、そこで育つ「明石鯛」は身の締まりが際立つ天然の高級ブランドとして扱われる。一方、愛媛県宇和島市のようなリアス式で潮通しの良い湾は、穏やかな水面を活かした養殖の適地として発展した。同じ魚でも、速い潮流と穏やかな湾という正反対の環境がそれぞれ別の強みを育てている。",
+   "body_en": "## What it's made of\nThe red fish central to Japanese celebrations, mild and lean but sweet, with a distinct richness in the skin that keeps many preparations from removing it — briefly blanched or seared skin-on instead. Even the bones go into taimeshi rice or a clear soup, giving up their flavor as dashi. In early spring, just before spawning, it's called 'sakura-dai' and carries more fat than at any other time of year.\n\n## How it's made\nWild fish raised in fast currents firm up, while farmed fish in calm bays fatten more evenly. Many are bled and rested for a few hours to a full day after ike-jime to let umami develop — often said to taste sweeter a little after catching than straight off the hook. Scaling is done carefully around the fin base so the skin stays intact for dishes meant to be eaten skin-on.\n\n## Why it took this shape\nThe Akashi Strait off Hyogo's Akashi City is known for its fast tidal flow, and the wild 'Akashi tai' raised there is prized as a firm-fleshed premium brand. In contrast, the ria coastline of Uwajima in Ehime offers calm, well-circulated water that developed into ideal ground for farming instead — the same species drawing out opposite strengths from a fast strait on one side and a sheltered bay on the other.",
+   "sources": [
+    {
+     "title": "第302号：明石鯛（地理的表示保護制度）",
+     "url": "https://www.maff.go.jp/j/shokusan/gi_act/notice/pnApplication/0302_index.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-06"
+    },
+    {
+     "title": "明石の“まえもん”｜明石浦漁業協同組合",
+     "url": "https://www.akashiura.or.jp/maemon/",
+     "publisher": "明石浦漁業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "hirame",
+   "body_ja": "## 何でできているか\n体の左側に両目が寄る平たい魚で、「左ヒラメに右カレイ」で見分けるとされる。冬に脂がのり、身は透明感のある白身で、刺身にすると強いコリコリとした歯ごたえが際立つ。縁側と呼ばれるヒレの付け根の部分は特に脂が多く、別格の部位として扱われる。夏場は身が水っぽくなりやすく「夏ヒラメは犬も食わぬ」と言われるほど評価が落ちるとされ、冬との差がとりわけ大きい魚である。\n\n## どう作るのか\n荒波にもまれて育つ天然物は筋肉質でとりわけ歯ごたえが強くなるとされ、薄造りにして昆布の旨みを移す昆布締めにすると、コリコリとした食感はそのままに旨みだけが増すという。活け締め後に数時間寝かせて熟成させることで、甘みを引き出す扱いも一般的。縁側だけを別に切り出し、握り寿司の種として珍重する扱いも各地に残り、一尾から取れる量が少ないため高値がつく。\n\n## なぜこの形になったのか\n日本海側や太平洋側を問わず、砂地の海底に潜んで小魚を待ち伏せる生活は共通しており、荒波が立つ海域ほど身が引き締まった個体が育つとされる。青森県や福島県沿岸のように潮の流れが速く水温の低い海域は、締まった身質のヒラメが揚がる漁場として知られる。冬に水温が下がるほど活性が落ち着き、脂を蓄えた個体が増えるともいう。",
+   "body_en": "## What it's made of\nA flatfish with both eyes on the left side of its head, told apart from karei by the saying 'hirame on the left, karei on the right'. At its best in winter, its translucent white flesh delivers a notably firm, chewy bite raw, and the fatty strip along the fin base, engawa, is treated as a cut apart. In summer the flesh turns watery, and its reputation drops so far a saying claims 'not even a dog will eat summer hirame'.\n\n## How it's made\nWild fish raised in rough surf are said to build the most muscle and the firmest bite, and thin-sliced sashimi kombu-cured to draw in the kelp's umami keeps that chewiness while adding depth. Resting the fish a few hours after bleeding to let it mature is also common practice. The engawa strip is often cut out separately and prized on its own as a nigiri sushi topping.\n\n## Why it took this shape\nWhether on the Sea of Japan or Pacific side, it shares the same habit of lying in wait on sandy seabeds for small fish, and rougher seas are said to raise firmer-fleshed fish. Coastal waters off Aomori and Fukushima, with strong currents and cold water, are known for landing hirame with especially firm flesh. As water cools in winter the fish grows calmer and tends to carry more fat.",
+   "sources": [
+    {
+     "title": "水産の質問箱｜新潟県ホームページ",
+     "url": "https://www.pref.niigata.lg.jp/sec/suisan/1228939271837.html",
+     "publisher": "新潟県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hirame",
+     "to_slug": "karei",
+     "relation_type": "対比",
+     "basis": "「左ヒラメに右カレイ」と並び称される平たい魚同士だが、ヒラメは肉食で歯が鋭く天然物の食感が身上、カレイは種類が多く煮付けなど加熱調理に向くなど、扱われ方が対照的。"
+    }
+   ]
+  },
+  {
+   "slug": "karei",
+   "body_ja": "## 何でできているか\n体の右側に両目が寄る平たい魚の総称で、種類によって味も旬も大きく異なる。マコガレイやマガレイは淡白な白身で煮付けにすると身がほろりとほどけ、皮目のゼラチン質がとろりとした食感を生む。子持ちのものは卵の食感と身の淡白さの対比が楽しまれ、種類によって旬が春から冬まで散らばっているのも特徴とされ、一年を通じて何かしらのカレイが旬を迎える。\n\n## どう作るのか\n薄い身のため骨ごと煮付けにして旨みを逃さない調理が向いており、しっかり味を含ませてから煮汁ごと供する。唐揚げにする場合は小骨まで揚げて食べられるようにすることも多く、種類によって身の厚みが異なるため下処理の丁寧さが仕上がりを左右する。子持ちのメスは卵に火が通りすぎないよう、煮る時間の見極めも求められ、火加減一つで食感が変わる。\n\n## なぜこの形になったのか\n冷たい海域で育つ種類ほど脂が乗りやすいとされ、種類ごとに好む水温や生息する海底の性質が異なるため、産地によって手に入るカレイの種類も味も変わる。北海道釧路のように冷たい親潮の影響を受ける海域は、脂の乗ったカレイの産地として知られる。同じカレイという名でも、獲れる海域が変われば別の魚のように味が変わり、種類の見分けが仕入れの技術になっている。",
+   "body_en": "## What it's made of\nA broad family of flatfish with eyes on the right, whose flavor and season vary widely by species. Makogarei and magarei run mild and white, falling apart tender when simmered, with a gelatinous richness under the skin — and roe-bearing females pair the roe's texture against the flesh's plainness, with different species peaking anywhere from spring to winter.\n\n## How it's made\nIts thin flesh suits simmering bone-in to hold in flavor, served with the braising liquid itself. Deep-fried versions are often cooked through enough to eat the small bones, and since thickness varies by species, how carefully it's prepped shapes the final dish. With roe-bearing females, timing the simmer matters too, so the eggs don't overcook.\n\n## Why it took this shape\nColder-water species tend to run fattier, and since each species favors a different water temperature and seabed, the type of karei available — and its flavor — shifts by region. Kushiro in Hokkaido, cooled by the Oyashio current, is known for landing especially fatty karei. Under the same name, karei from one sea can taste like an entirely different fish from another.",
+   "sources": [
+    {
+     "title": "水産の質問箱｜新潟県ホームページ",
+     "url": "https://www.pref.niigata.lg.jp/sec/suisan/1228939271837.html",
+     "publisher": "新潟県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "tara-madara",
+   "body_ja": "## 何でできているか\n「たらふく食べる」の語源の一つとされるほど大食漢な冬の魚で、身は加熱すると真っ白でふっくらとほどける淡白な白身。白子は濃厚なクリーム状の味わいで珍重され、卵はたらことして別に加工される。淡白な身は昆布の旨みを吸わせるとぐっと味が締まり、鍋に入れれば出汁をよく吸って主役になる。旬は水温が下がる冬とされ、産卵を控えた時期に白子が最も充実するという。\n\n## どう作るのか\n水分が多くやわらかい身のため、鍋に入れると煮崩れしやすい一方、昆布で挟んで一晩締める昆布締めにすると余分な水分が抜けて旨みが凝縮される。白子や卵はそれぞれ別に扱われ、身・白子・卵の三つを一匹から使い分けるのが定番の扱い方とされる。鍋にする際は骨からも出汁が出るため、あら炊きにして骨まで味わう食べ方もあり、捨てる部位がほとんどない。\n\n## なぜこの形になったのか\n津軽海峡に面した函館は、冷たい海域から揚がるタラを鍋物や昆布締めで食べる文化と結びついてきた。冷たく淡白な身を昆布の旨みで補う工夫は、良質な昆布の産地が近くにあったこととも関係するとされ、海と保存の知恵が結びついた土地の料理といえる。海峡の冷たい水そのものが、この魚の淡白な身質を育てているとも言われ、寒さが厳しい年ほど身が締まるという。",
+   "body_en": "## What it's made of\nA winter fish so voracious it's said to give Japanese the phrase 'eat one's fill'. Cooked, the flesh turns snow-white and flakes apart mildly, while its milt, shirako, is prized for a rich, custard-like taste, and its roe is processed separately into tarako — plain flesh that comes alive once it takes on kelp's umami, or soaks up broth as the centerpiece of a hot pot. It peaks in winter as the water cools.\n\n## How it's made\nWatery, soft flesh falls apart easily in a hot pot, but pressed between sheets of kombu overnight it loses excess moisture and concentrates in flavor. Milt and roe are handled separately from the flesh, and using all three from one fish is the standard approach. Since even the bones give up flavor, some dishes simmer the whole carcass, ara-daki style, to use them too.\n\n## Why it took this shape\nFacing the Tsugaru Strait, Hakodate has long paired cod taken from its cold waters with hot-pot dishes and kombu-curing. Balancing the fish's cold, plain flesh with kelp's umami is thought to be tied to the region's access to good kombu nearby — a dish born from pairing the sea with a preservation craft. The strait's cold water itself is said to be what shapes the fish's mild flesh in the first place.",
+   "sources": [
+    {
+     "title": "マダラ｜ウィキペディア",
+     "url": "https://ja.wikipedia.org/wiki/マダラ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tara-madara",
+     "to_slug": "nishin",
+     "relation_type": "対比",
+     "basis": "ともに冷たい北海道近海を代表する魚だが、タラは昆布締めや鍋物として今も日常的に食べられるのに対し、ニシンは群来と呼ばれる往時の豊漁を背景に身欠きニシンなどの保存加工文化として今に残る点が対照的。"
+    }
+   ]
+  },
+  {
+   "slug": "hokke",
+   "body_ja": "## 何でできているか\n北海道の居酒屋で塩焼きの開きとして親しまれる魚で、冷たい海域で育つほど身に脂がのる。焼くと皮はぱりっと香ばしく、身はふっくらとほぐれて脂が滴るほどになる。骨が多い魚だが、開いて焼くことで骨に沿って身をきれいにはがしながら食べられる。旬は産卵前の秋から冬とされ、この時期は特に脂の厚みが増すといい、身の色まで白く濁って見えるほどになる。\n\n## どう作るのか\n水分が多く鮮魚のままでは傷みが早いため、開いて一夜干しにする加工が発達した。干すことで余分な水分が抜けて旨みが凝縮されるとされ、居酒屋で出される開き干しの多くはこの製法による。開いた身をそのまま干すため、骨ごと均一に脂を行き渡らせられ、焼く際も皮目から均一に火が入るという利点もある。干す時間の長さで身の締まり方が変わるとされる。\n\n## なぜこの形になったのか\n冷たい親潮の影響を受ける北海道太平洋沿岸の海域は、ホッケが脂をたっぷりとためやすい環境とされる。水揚げ後の鮮魚での長距離輸送が難しいため、水揚げ地に近い場所で開き干しに加工する体制が整い、脂の乗った個体を鮮度良く届ける工夫として定着した。冷たい海と加工の速さ、両方が揃って初めて美味しい開きになるとされ、産地から離れるほど鮮魚では出会いにくい魚でもある。",
+   "body_en": "## What it's made of\nThe fish behind Hokkaido izakaya's split, salt-grilled classic — the colder the water it grows in, the fatter it runs. Grilled, the skin crackles while the flesh flakes soft enough to drip fat, and splitting it before cooking lets the meat peel cleanly off the many bones. It peaks in autumn and winter ahead of spawning, when the fat runs especially thick.\n\n## How it's made\nIts watery flesh spoils fast fresh, so splitting and drying it overnight became the standard. Drying is said to draw out excess moisture and concentrate flavor, and most of the split, dried fish served at izakaya is made this way — the open cut lets fat distribute evenly right down to the bone, and also lets heat reach the flesh evenly when grilled.\n\n## Why it took this shape\nHokkaido's Pacific coast, cooled by the Oyashio current, is an environment said to help hokke pack on fat. Because it travels poorly fresh over long distances, processing it into dried, split fish near the landing port became standard practice, a way of delivering fatty fish while it's still good. It takes both cold water and fast processing together to make a good split hokke.",
+   "sources": [
+    {
+     "title": "ホッケの開きを家で作りたい！一夜干しに挑戦！",
+     "url": "https://osakana.suisankai.or.jp/s-other/10736",
+     "publisher": "一般社団法人大日本水産会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kamasu",
+     "to_slug": "hokke",
+     "relation_type": "対比",
+     "basis": "どちらも生の状態では傷みが早く干物にすることで旨みが増すとされる魚だが、カマスは水分の多さが理由、ホッケは冷たい海域で育つ脂の多さと長距離輸送の難しさが理由と、干す動機が異なる。"
+    }
+   ]
+  },
+  {
+   "slug": "nishin",
+   "body_ja": "## 何でできているか\n明治から昭和初期にかけて莫大な漁獲量を誇った魚で、卵は数の子として正月に欠かせない食材になった。身は脂がのった白身で、乾燥させた身欠きニシンは噛むほどに凝縮された旨みがにじみ出る。甘露煮にすれば骨まで柔らかくなり、そのまま食べられる。旬は産卵のため接岸する春先とされ、この時期は脂も卵も充実し、身に対して卵の存在感が特に増すという。\n\n## どう作るのか\n産卵のために接岸した群れを網で一気に獲る漁が中心で、かつては大量に獲れすぎて加工が追いつかず、干して保存性を高める身欠きニシンの製法が発達した。乾燥の度合いによって身の締まり方が変わり、じっくり干すほど旨みが凝縮されるとされる。卵は塩水に漬けて数の子にし、身とは別の工程で加工されることで、それぞれの持ち味が保たれ、保存性も高まる。\n\n## なぜこの形になったのか\n北海道小樽の沿岸は、かつて産卵期のニシンの大群が押し寄せ、その白子で海が白く染まるほどだったと伝わる。この「群来」と呼ばれる豊漁が沿岸に富をもたらし、身欠きニシンなど保存加工の技術とともに、漁で栄えた歴史が今も鰊御殿として残っている。沿岸に押し寄せる群れの規模そのものが、この魚の物語と保存加工の技術の両方を作ってきたといえ、往時の賑わいを今に伝えている。",
+   "body_en": "## What it's made of\nA fish landed in staggering volumes from the Meiji era into early Showa, its roe becoming kazunoko, a New Year staple. The flesh itself is fatty white meat, and dried migaki-nishin releases concentrated flavor with every chew, while nishin simmered sweet and slow turns soft enough to eat bones and all. It peaks in early spring as shoals approach shore to spawn, both fat and roe at their fullest.\n\n## How it's made\nThe core method nets an entire shoal as it approaches shore to spawn, and catches once ran so far beyond what could be processed fresh that drying it into migaki-nishin became standard for preservation. How long it's dried changes the texture, with longer drying said to concentrate more flavor. The roe is brined separately into kazunoko, processed apart from the flesh entirely.\n\n## Why it took this shape\nOff the coast of Otaru in Hokkaido, herring once arrived in shoals so dense during spawning season that their milt is said to have turned the sea white — a phenomenon called kuki. That boom brought wealth to the coast, and the preservation craft it required, like migaki-nishin, survives today alongside the herring mansions it built. The sheer scale of those shoals is what shaped the fish's whole story here.",
+   "sources": [
+    {
+     "title": "小樽市鰊御殿｜小樽市",
+     "url": "https://www.city.otaru.lg.jp/categories/bunya/shisetsu/bunka_kanko/nisin_goten/",
+     "publisher": "小樽市",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "shishamo",
+   "body_ja": "## 何でできているか\n北海道太平洋沿岸のみに生息する小魚で、卵を持った雌は「子持ちししゃも」として珍重される。丸ごと塩焼きにすると、頭からしっぽまで香ばしく食べられ、卵のプチプチとした食感と身のほろ苦さが同時に楽しめる。輸入される別種のカペリンとは味も食感も異なるとされ、旬は産卵のため川を遡る秋に限られ、この時期を逃すと本物に出会う機会は少なく、雄は雌より脂が少ないとされる。\n\n## どう作るのか\n川を遡上する時期にしか漁ができないため、漁期そのものが極端に短い。網で獲った後は鮮度を保ったまま加工場へ運び、天日干しや冷凍で保存性を高める。生息域が狭く漁獲量が少ないため、一匹ずつ丁寧に扱われることが多いとされる。雄と雌は卵の有無で選別され、それぞれ別の用途で加工されることで、卵を持つ雌の価値が保たれる。\n\n## なぜこの形になったのか\n生息域が北海道太平洋沿岸に限られるという生態そのものが、産地を一点に絞り込んでいる。むかわ町を流れる鵡川などの河口域は、秋にししゃもが産卵のため遡上する数少ない場所で、その遡上期だけに漁が成立するという希少さが、他の魚とは違う扱いを生んでいる。近年は資源保護のため休漁となる年も出てきており、希少さがさらに増しているといい、資源管理の重要性が増している。",
+   "body_en": "## What it's made of\nFound only off Hokkaido's Pacific coast, roe-bearing females are prized as 'ko-mochi shishamo'. Grilled whole, it eats head to tail with a smoky char, the roe's pop against the flesh's faint bitterness — a texture and taste distinct from the imported capelin often sold under the same name, and its season is confined to the autumn spawning run up the rivers.\n\n## How it's made\nFishing is only possible during the river spawning run, making the season extremely short. Netted fish are rushed to processing while still fresh, then sun-dried or frozen to extend shelf life — and because the range is so narrow and the catch so small, each fish tends to get careful handling. Males and females are sorted by whether they carry roe, then processed differently.\n\n## Why it took this shape\nThe species' habitat, confined entirely to Hokkaido's Pacific coast, narrows its home ground to almost a single point. River mouths like the Mukawa running through Mukawa town are among the few places the fish runs upstream to spawn each autumn, and the fact that fishing works only during that run gives it a scarcity unlike most other fish. In recent years, some seasons have even seen the fishery closed to protect stocks.",
+   "sources": [
+    {
+     "title": "ししゃもについて｜むかわ町",
+     "url": "https://www.town.mukawa.lg.jp/5544.htm",
+     "publisher": "むかわ町",
+     "accessed_at": "2026-09-06"
+    },
+    {
+     "title": "鵡川のししゃもを食す｜むかわ町漁業協同組合",
+     "url": "https://www.jf-mukawa.jp/eat_6_2.php",
+     "publisher": "むかわ町漁業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shishamo",
+     "to_slug": "iwashi",
+     "relation_type": "対比",
+     "basis": "どちらも小型の魚だが、イワシは全国の広い海域で群れをなし水揚げ量も多い一方、ししゃもは北海道太平洋沿岸のみに生息域が限られ、遡上期という短い漁期しか持たないという希少性で対照的。"
+    }
+   ]
+  },
+  {
+   "slug": "unagi",
+   "body_ja": "## 何でできているか\n蒲焼にすると香ばしいタレの香りの奥から脂の甘みがにじみ出る魚で、皮はぱりっと、身はふっくらとほどける。関東風は一度蒸してから焼くためふわりと柔らかく、関西風は蒸さずに直火で焼き上げるため皮目に強い香ばしさとパリッとした食感が残る。旬は夏の土用の丑の日と結びつけられるが、本来は冬にかけて脂がのるとされ、夏場は需要が味を上回るともいわれる。\n\n## どう作るのか\n腹から割くか背から割くかで関西と関東の流儀が分かれ、関東は背開きにしてから蒸し、関西は腹開きにしてそのまま焼く。稚魚のシラスウナギを捕獲して育てる養殖が中心で、餌やりと水温管理によって身の締まりと脂の乗り方が変わるとされる。蒸す工程を挟むかどうかは、単なる好みではなく脂を落とすかどうかの違いでもあり、関東と関西で食感の印象が大きく異なる。\n\n## なぜこの形になったのか\n汽水湖である浜名湖はシラスウナギが豊富に獲れたことから、静岡県浜松市周辺で養鰻業が発達し、蒲焼の名産地として知られるようになった。福岡県柳川市のように掘割が巡る水郷の地では、蒸して柔らかく仕上げるせいろ蒸しの調理法が独自に根付いている。汽水域という育成環境が、この魚の産地の分布と地域ごとの調理法の両方を決めてきたといえる。",
+   "body_en": "## What it's made of\nGrilled and glazed as kabayaki, a faint fatty sweetness rises from behind the sauce's smoky aroma, the skin crisp and the flesh soft underneath. The Kanto style steams the fish before grilling for extra tenderness, while Kansai grills it straight through, leaving stronger char and a crisper skin. Tied to midsummer's Day of the Ox by custom, it actually carries more fat heading into winter.\n\n## How it's made\nWhether the fish is split along the belly or the back marks the divide between Kansai and Kanto styles — Kanto splits along the back and steams before grilling, Kansai splits the belly and grills straight through. Farming dominates, raised from wild-caught glass eels, and how they're fed and kept at temperature is said to shape firmness and fat. Steaming or not isn't just preference — it decides how much fat is rendered away.\n\n## Why it took this shape\nAbundant glass eels once caught in the brackish Lake Hamana gave rise to a major eel-farming industry around Hamamatsu in Shizuoka, making the area a kabayaki stronghold. In Yanagawa, a canal-laced water town in Fukuoka, a distinct steamed-then-served seiromushi style took root instead. Brackish water suited to raising glass eels is what decided where this industry could grow at all.",
+   "sources": [
+    {
+     "title": "浜松のうなぎのヒミツ｜浜松市",
+     "url": "https://www.city.hamamatsu.shizuoka.jp/foodpark/hamamatsu-foods/unagi.html",
+     "publisher": "浜松市",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "unagi",
+     "to_slug": "anago",
+     "relation_type": "対比",
+     "basis": "どちらもウナギ目に属する細長い魚だが、ウナギは淡水で育ちタレを絡めて焼く蒲焼が主役なのに対し、アナゴは海水で育ち寿司種としてツメを塗って供されることが多く、育つ環境と主な食べ方の両方が対照的。"
+    },
+    {
+     "from_slug": "ayu",
+     "to_slug": "unagi",
+     "relation_type": "対比",
+     "basis": "どちらも夏を代表する川にゆかりの魚だが、アユは清流の香りを楽しむ淡白な魚、ウナギは脂とタレの濃厚さで夏バテを乗り切るための魚として、季節の中での役割が対照的。"
+    }
+   ]
+  },
+  {
+   "slug": "ayu",
+   "body_ja": "## 何でできているか\n清流の石についた苔を食んで育つ川魚で、内臓にほのかな苦味がありながら西瓜に似た独特の香りを放つ。塩焼きにすると頭からしっぽまで丸ごと食べられ、皮目の香ばしさと身の淡白な甘みに加えて、内臓のほろ苦さが味の輪郭をはっきりさせる。旬は初夏から夏で、若鮎は骨まで柔らかく、盛夏になるほど香りが強まるとされ、秋に近づくと子持ちアユとして卵の食感も加わる。\n\n## どう作るのか\n縄張りに侵入した他のアユを体当たりで追い払う習性を利用した「友釣り」は、おとりのアユを泳がせて縄張り争いを誘発させ、掛け針で引っかける独自の漁法。水の透明度が高い川ほど苔の質が良く、そこで育った個体ほど香りが際立つとされる。塩焼きにする際は化粧塩を施し、ヒレが焦げないよう工夫することも多く、姿の美しさも味のうちとして扱われ、串の打ち方一つにも技が求められる。\n\n## なぜこの形になったのか\n岐阜県郡上市を流れる長良川は透明度の高い清流として知られ、鵜飼漁と友釣りの両方が受け継がれてきた。高知県四万十川では夜に松明で驚かせて網に追い込む火振り漁など独自の伝統漁法が今も残り、清流であることそのものが漁法と味の両方を支えている。水の澄み方が変わればアユの香りも変わるとされるほど、川の状態に敏感な魚である。",
+   "body_en": "## What it's made of\nA river fish that grazes algae off clean streambed stones, its innards carrying a faint bitterness alongside a distinct watermelon-like scent. Salt-grilled whole, head to tail, the crisp skin and mild sweet flesh meet that bitter edge from the guts to sharpen the whole flavor. It peaks from early to midsummer, young fish soft-boned enough to eat whole, the scent growing stronger as summer deepens.\n\n## How it's made\nTomo-zuri, or 'decoy fishing', exploits the fish's habit of ramming rivals that enter its territory — a lure fish is set swimming to provoke a territorial charge, and a hooked line catches it in the act. The clearer the river, the better the algae, and the more that scent is said to stand out in fish raised there. Salt-grilling often dresses the fins in extra salt so they don't scorch over the fire.\n\n## Why it took this shape\nThe Nagara River running through Gifu's Gujo is renowned for its clarity, sustaining both cormorant fishing and tomo-zuri decoy fishing for generations. On Kochi's Shimanto River, distinct traditions survive too, like torch fishing that startles fish into a net at night — clarity itself underwriting both the method and the flavor. This is a fish so sensitive to its river that even a shift in water clarity is said to change its scent.",
+   "sources": [
+    {
+     "title": "郡上漁業協同組合",
+     "url": "https://www.gujo-fc.or.jp/",
+     "publisher": "郡上漁業協同組合",
+     "accessed_at": "2026-09-06"
+    },
+    {
+     "title": "四万十川の漁法について｜四万十市",
+     "url": "https://www.city.shimanto.lg.jp/soshiki/13/1452.html",
+     "publisher": "四万十市",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "iwana",
+   "body_ja": "## 何でできているか\n渓流の最上流部に棲む川魚で、警戒心が強く岩陰に隠れる習性が名の由来とも言われる。塩焼きにすると淡白な身の奥から上品な脂がにじみ、皮目はぱりっと香ばしい。冷たく澄んだ水で育つほど臭みがなく、身の締まりも良くなるとされる。旬は産卵前の初夏から秋にかけてで、この時期は脂の乗りも増すといい、渓流魚の中でも特に癖の少ない味わいとされ、刺身にしても嫌みがない。\n\n## どう作るのか\n渓流釣りでは毛針や川虫を使い、警戒心の強さゆえに物音を立てずに近づく技術が求められる。塩を振ってじっくり焼く塩焼きが定番で、串を打って囲炉裏端でゆっくり火を通すと、皮目が香ばしくなりながら中の身はふっくらと仕上がる。骨酒にして骨まで無駄なく味わう食べ方も渓流沿いの土地に伝わり、頭からしっぽまで余すところなく使い切る。\n\n## なぜこの形になったのか\n人里から離れた冷たい源流部ほどイワナが生息しやすく、標高が上がるにつれて水温が下がる渓流の構造そのものが、この魚を「最も上流にいる魚」にしている。同じ川でもさらに下流にはヤマメが棲み分けており、上流・下流という位置関係が二つの魚を分けている。水温という一つの条件が、棲み分けの境界線を引いているとされ、川を遡るほど別の魚に出会う仕組みになっている。",
+   "body_en": "## What it's made of\nA river char living in the uppermost reaches of mountain streams, said to take its name from a wary habit of hiding among rocks. Salt-grilled, a delicate fat seeps out from otherwise mild flesh, the skin crisping up smoky — and the colder, clearer the water, the less any off-flavor and the firmer the bite. It peaks from early summer into autumn, ahead of spawning, when fat runs a little richer too.\n\n## How it's made\nStream fishing for it uses flies or river insects, and its wariness demands moving without a sound to get close. Salted and slow-grilled is the classic approach, often skewered and cooked slowly by an open hearth so the skin turns smoky while the flesh inside stays tender. Along some streams, the grilled fish is even steeped whole in hot sake, bones included, so nothing goes to waste.\n\n## Why it took this shape\nThe colder the headwaters, the further from settlement, the more likely char are to live there — and the very structure of a mountain stream, cooling as elevation rises, makes this the fish found furthest upstream of all. Further downstream on the same river, yamame take over instead, the two species divided by that upstream-downstream line — water temperature alone drawing the border between them.",
+   "sources": [
+    {
+     "title": "渓流魚と渇水｜岐阜県水産研究所",
+     "url": "https://www.fish.rd.pref.gifu.lg.jp/nisshi/2022/2206/2206.htm",
+     "publisher": "岐阜県水産研究所",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "iwana",
+     "to_slug": "yamame",
+     "relation_type": "兄弟",
+     "basis": "同じサケ科の渓流魚で、同じ川の中でもイワナが最上流部、ヤマメがその下流側という棲み分けをする近縁種として並べて語られることが多い。"
+    }
+   ]
+  },
+  {
+   "slug": "yamame",
+   "body_ja": "## 何でできているか\nサクラマスが海に下らず川に残った陸封型で、体側に散らばる朱色の斑点が美しい川魚。塩焼きにすると身は締まりながらも上品な脂がのり、皮目の香ばしさと相まって淡白ながら奥行きのある味わいになる。渓流魚の中でもとりわけ姿の美しさが好まれ、旬は初夏から夏にかけてとされ、産卵が近づくにつれ婚姻色でさらに斑点が濃くなるといい、雄はより色鮮やかになる傾向がある。\n\n## どう作るのか\n渓流釣りの対象として人気が高く、警戒心の強さから細い糸と静かな動きが求められる。塩焼きが定番の調理法で、串を打って遠火でじっくり焼くことで皮目の脂を落としすぎず、身はふっくらと仕上げる。養殖も行われ、清らかな水で育てることが味の決め手とされる。骨せんべいにして丸ごと味わう食べ方も渓流沿いに残り、小ぶりな個体ほど骨まで食べやすい。\n\n## なぜこの形になったのか\n冷たく澄んだ源流に生息するほど朱点が鮮やかになるとされ、水質の良さが見た目にも表れる魚とされる。サクラマスの一部が海へ下らずに川に残る理由は完全には分かっていないとされるが、山形県のように山あいの清流が多い土地では陸封型のヤマメが特に親しまれてきた。清流の多さが、この陸封という生き方を選ぶ個体の多さにもつながっているという。",
+   "body_en": "## What it's made of\nThe landlocked form of cherry salmon that never heads to sea, marked by vivid red spots along its flanks. Salt-grilled, the flesh firms up while carrying a delicate fat, its smoky skin adding depth to an otherwise mild, layered flavor — prized among stream fish as much for its looks as its taste, at its best from early to midsummer.\n\n## How it's made\nA favorite of stream anglers, its wariness demanding thin line and quiet movement. Salt-grilling is standard, skewered and cooked slowly over indirect heat so the fat under the skin doesn't render away and the flesh stays tender. It's farmed too, with clean water said to be what decides the flavor, and some stream towns even fry it whole into a crisp, bone-and-all cracker.\n\n## Why it took this shape\nThe colder and clearer the headwater stream, the more vivid its trademark red spots are said to become — water quality made visible on the fish itself. Why some cherry salmon stay landlocked rather than migrate to sea isn't fully understood, but in mountainous, stream-rich regions like Yamagata, this landlocked form has long been a local favorite. More clear streams are said to mean more fish choosing to stay behind rather than migrate.",
+   "sources": [
+    {
+     "title": "私の試験研究｜兵庫県立農林水産技術総合センター",
+     "url": "https://hyogo-nourinsuisangc.jp/archive/19-kenkyu/article/kenkyu_2909.html",
+     "publisher": "兵庫県立農林水産技術総合センター",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "nijimasu",
+   "body_ja": "## 何でできているか\n北米原産の川魚で、身は淡い橙色を帯び、塩焼きにすると淡白ながらしっとりとした食感になる。フライにすれば皮はさくっと身はふわりと仕上がり、養殖環境が安定しているものは臭みが少なく刺身でも食べられる。年間を通して味に大きな差が出にくいのも特徴とされ、天然の川魚とは違う安定した美味しさが持ち味になっており、季節を問わず一定の品質で提供できる。\n\n## どう作るのか\n湧水を引き込んだ養殖池で育てるのが一般的で、水温が年間を通じて安定しているため季節を問わず身が締まりやすい。餌の配合や水温管理によって身質や脂のりを調整でき、天然魚に比べて味のばらつきが少ない養殖魚として扱われる。出荷前には水を絞って泥臭さを抜く「餌止め」を行うことも多く、池ごとに味の個性を作り込むことも可能とされ、産地ごとに個性を競うようになっている。\n\n## なぜこの形になったのか\n富士山からの湧水は年間を通じて水温が一定に保たれており、この安定した水温がニジマス養殖に適した環境を生んだ。静岡県富士宮市は明治期にこの湧水を利用した養鱒が始まった地とされ、以来、湧水を活かした養殖が地場産業として根付いている。湧き水という地下からの恵みが、特定の川を選ばずにこの魚を安定して育てる土台になったといえる。",
+   "body_en": "## What it's made of\nA trout native to North America, its flesh pale orange, mild yet moist when salt-grilled. Fried, the skin turns crisp while the flesh stays soft, and fish raised in well-managed farms carry little off-flavor, mild enough to serve raw — with less seasonal swing in flavor than most fish, a steadiness quite different from a wild river fish's.\n\n## How it's made\nTypically raised in spring-fed ponds, where a steady year-round temperature keeps flesh firm regardless of season. Feed mix and water temperature can be adjusted to shape texture and fat content, giving farmed fish more consistent flavor than most wild catches. Many farms also withhold feed briefly before shipping to clear any muddy taste.\n\n## Why it took this shape\nSpring water flowing from Mt. Fuji holds a nearly constant temperature year-round, an environment well suited to rainbow trout farming. Fujinomiya in Shizuoka is said to be where farming using this spring water began in the Meiji era, and it has remained a local industry built on that steady water ever since — an underground gift of water that let this fish be raised without depending on any one river.",
+   "sources": [
+    {
+     "title": "バーチャル富士養鱒場｜静岡県水産・海洋技術研究所",
+     "url": "https://fish-exp.pref.shizuoka.jp/fuji/0010/index.html",
+     "publisher": "静岡県水産・海洋技術研究所",
+     "accessed_at": "2026-09-06"
+    },
+    {
+     "title": "富士養鱒漁業協同組合",
+     "url": "https://www.fujiyoson.com/",
+     "publisher": "富士養鱒漁業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "fugu-torafugu",
+   "body_ja": "## 何でできているか\n内臓や皮に毒を持つ高級魚で、身は透明感のある白身。刺身は薄く引いた「てっさ」にすると歯ごたえのある独特の食感が際立ち、噛むほどに淡白な旨みがにじむ。鍋にすれば身から出る出汁が澄んだ味わいになり、白子は濃厚でクリームのような口当たりになる。旬は水温が下がる冬とされ、卵巣に栄養をためる前の身が特に締まるといい、産卵期に近づくと味が落ちるとされ、冬の間だけの特別な味わいとなる。\n\n## どう作るのか\n毒を持つ部位を取り除く処理には専門の免許が必要で、内臓や皮を丁寧に分別してから可食部だけを扱う。薄造りの刺身は皿の絵柄が透けるほど薄く引くことが技術の見せどころとされ、鍋では骨や皮からも出汁を取り、身以外の部位まで余さず活かす。ひれを炙って熱燗に入れる「ひれ酒」も、一匹を余さず使い切る扱いの一つとして知られ、香ばしさが酒に移る。\n\n## なぜこの形になったのか\n山口県下関市の沖に広がる関門海峡は速い潮流で知られ、そこで育つトラフグは身が締まりやすいとされる。下関には全国からふぐが集まる南風泊市場があり、大量の入荷を安全に処理する必要から、毒抜きや調理の技術が古くからこの土地に蓄積されてきた。速い潮流と大きな市場、その両方が揃って初めて今の扱いが成り立っているといえる。",
+   "body_en": "## What it's made of\nA premium fish whose organs and skin carry toxin, the flesh itself pale and translucent. Sliced paper-thin as tessa sashimi, its distinctive chewy bite gives way to a mild richness with each chew; simmered in hot pot, it yields a clean broth, while its milt turns rich and custard-smooth. It peaks in winter, its flesh firmest just before the ovaries draw off nutrients.\n\n## How it's made\nRemoving the toxic parts requires a licensed chef, who separates organs and skin carefully before handling only the edible flesh. Sashimi sliced thin enough to see the plate's pattern through it is the technique's showcase, and in hot pot even the bones and skin are simmered for broth, wasting nothing. Even the fin is toasted and dropped into warm sake for hire-zake, using every last part of the fish.\n\n## Why it took this shape\nThe Kanmon Strait off Shimonoseki in Yamaguchi is known for its fast tidal flow, and tiger pufferfish raised there are said to firm up as a result. Shimonoseki is also home to the Haedomari market, where pufferfish arrive from across Japan, and handling that volume safely built up deep local expertise in detoxing and preparing the fish. It took both a fast strait and a market of that scale for today's craft to take shape.",
+   "sources": [
+    {
+     "title": "一般社団法人下関ふく連盟",
+     "url": "http://fuku.com/index.html",
+     "publisher": "下関ふく連盟",
+     "accessed_at": "2026-09-06"
+    },
+    {
+     "title": "下関南風泊水産団地協同組合",
+     "url": "http://haedomari.com/",
+     "publisher": "下関南風泊水産団地協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "fugu-torafugu",
+     "to_slug": "hamo",
+     "relation_type": "対比",
+     "basis": "どちらも専門的な技術がなければ食べられない魚として知られ、フグは毒抜きの免許、ハモは小骨を断つ骨切りという、必要とされる技術の種類が対照的。"
+    }
+   ]
+  },
+  {
+   "slug": "hamo",
+   "body_ja": "## 何でできているか\n小骨が多く、そのままでは食べにくい魚だが、骨切りを施すと口当たりが一変し、ふわりとした身の食感が楽しめるようになる。梅雨の水を飲んで美味くなるとされ、湯引きにして氷水で身を「花」のように開かせ、梅肉やからし酢味噌で食べる夏の味覚。旬は梅雨から真夏にかけてで、産卵を控えた時期に脂も乗るといい、皮のすぐ下にうっすらと脂が浮き、秋には味が落ちるとされる。\n\n## どう作るのか\n骨切りは皮一枚を残して身と小骨を数ミリ間隔で細かく切り込む技術で、一人前で数百回にも及ぶとされる。骨を断ちながら身を崩さない繊細な包丁使いが求められ、湯引きにすると切り込んだ身が花のように開き、余分な脂と臭みも同時に抜ける。骨切りの技術は職人によって切り込みの間隔が微妙に異なるとされ、店ごとの個性が食感の違いに表れる。\n\n## なぜこの形になったのか\n京都の祇園祭は「鱧祭り」とも呼ばれるほど夏の京料理と結びついており、祭りの時期に食べる習慣が骨切りの技術を磨いてきたとされる。兵庫県淡路市のように明石海峡と紀伊水道に挟まれた漁場は、京都・大阪へ短時間で運べる近さから需要を集めてきた。祭りという年中行事が、一つの魚の扱う技術水準そのものを押し上げてきたともいえ、今も夏の風物詩であり続けている。",
+   "body_en": "## What it's made of\nA fish so fine-boned it's hard to eat as is, until hone-kiri knife work transforms it into something with a soft, yielding bite. Said to fatten on the rains of early summer, it's often blanched into a 'flower' shape in ice water and served with plum paste or mustard miso as a summer specialty. It peaks from the rainy season into midsummer, carrying more fat as it nears spawning.\n\n## How it's made\nHone-kiri leaves the skin intact while scoring flesh and bones into cuts just millimeters apart — sometimes hundreds of cuts per serving. It demands precise knife work that severs bone without breaking the flesh apart, and blanching afterward opens the scored meat into a flower shape while releasing excess fat and any off-flavor. The exact spacing of those cuts is said to vary subtly from one chef to the next.\n\n## Why it took this shape\nKyoto's Gion Festival is nicknamed the 'hamo festival' for how tightly it's bound to summer cuisine there, and the custom of eating it during the festival is said to have honed the hone-kiri craft over generations. Grounds like Awaji in Hyogo, sandwiched between the Akashi Strait and the Kii Channel, saw demand concentrate simply for being close enough to supply Kyoto and Osaka quickly. An annual festival, in effect, is what pushed one fish's knife craft to such a refined level.",
+   "sources": [
+    {
+     "title": "祇園祭｜京都観光Navi",
+     "url": "https://ja.kyoto.travel/event/single.php?event_id=6603",
+     "publisher": "京都市",
+     "accessed_at": "2026-09-06"
+    },
+    {
+     "title": "公益財団法人祇園祭山鉾連合会",
+     "url": "http://www.gionmatsuri.or.jp/",
+     "publisher": "祇園祭山鉾連合会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "tachiuo",
+   "body_ja": "## 何でできているか\n銀色に輝く太刀のような細長い魚で、ウロコを持たず銀色の粉のような膜に覆われている。この膜ごと食べられるのが特徴で、塩焼きやムニエルにすると皮目が香ばしく、脂の乗った身はふっくらとほどける。型が大きい個体ほど脂のりが良いとされ、旬は水温が下がり始める秋とされる。刺身にすると独特の粘りのある食感が楽しめ、指を銀色の膜がすべるほど滑らかとされる。\n\n## どう作るのか\n歯が鋭く暴れると仕掛けを切られやすいため、一本釣りでは針や仕掛けを工夫しながら丁寧に釣り上げる。釣り上げてすぐに氷締めして鮮度を保つことで、銀色の膜が剥がれ落ちるのを防ぐ。塩焼きにする際はウロコを取らずそのまま調理できる手軽さもあり、刺身にする場合は骨切りに近い細かい包丁目を入れて食べやすく仕立て、銀色の膜ごと美しく盛り付けられる。\n\n## なぜこの形になったのか\n黒潮に近い海域を泳ぐ個体は型が大きくなりやすいとされ、鹿児島県指宿市のように黒潮の影響を受ける海域に面した漁場では、一本釣りで大型のタチウオを狙う漁が行われてきた。回遊性の強い魚だが、黒潮に近い漁場ほど型・脂のりともに優れる個体が集まるとされ、暖流の勢いそのものが魚の大きさと脂の量に直結しているといえ、産地としての評価も高まっている。",
+   "body_en": "## What it's made of\nA long, silver, blade-shaped fish with no scales, instead coated in a silvery film that's eaten right along with the skin. Salt-grilled or pan-fried, the skin turns aromatic while the fatty flesh flakes soft — and larger fish are said to run fattier still. It peaks in autumn as the water starts to cool, and raw, it has a distinctive sticky texture unlike most white fish.\n\n## How it's made\nIts sharp teeth can cut through tackle if it thrashes, so pole-and-line fishing calls for careful rigging and handling. Fish are iced immediately after landing to preserve freshness and keep that silvery film from flaking off, and because it needs no scaling, it's simple to prepare whole for salt-grilling; sashimi gets fine, hone-kiri-like scoring to make it easier to eat.\n\n## Why it took this shape\nFish swimming near the Kuroshio current tend to grow larger, and in grounds facing that current, like those off Ibusuki in Kagoshima, boats have long targeted big beltfish by pole-and-line. Though strongly migratory, grounds closer to the Kuroshio are said to draw fish that are both larger and fattier — the strength of the warm current translating almost directly into the size of the fish.",
+   "sources": [
+    {
+     "title": "指宿BLUE OCEAN TOURISM｜指宿市観光協会",
+     "url": "https://www.ibusuki.or.jp/tourism/experience/blue-ocean-tourism/",
+     "publisher": "指宿市観光協会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tachiuo",
+     "to_slug": "sawara",
+     "relation_type": "対比",
+     "basis": "ともに細長い銀色の魚として並び称されるが、タチウオは黒潮に近い海域で一年を通して狙われる魚、サワラは瀬戸内海に滞留しやすく春が旬とされる魚と、回遊のしかたと旬が対照的。"
+    }
+   ]
+  },
+  {
+   "slug": "kinmedai",
+   "body_ja": "## 何でできているか\n深海に棲む鮮やかな赤い魚で、身に脂がたっぷりとのり、加熱すると脂がとろけて甘みに変わる。煮付けにすると濃い目のタレと脂が絡み合ってこってりと仕上がり、刺身にすると脂の甘さと身の弾力が同時に楽しめる。皮目には特に強い旨みが集まるとされ、旬は脂が最も充実する冬とされ、産卵期を控えた時期の個体が最も評価が高いといい、夏場は身がやや水っぽくなるとされる。\n\n## どう作るのか\n深場を狙う一本釣りでゆっくりと引き上げるため、急激な水圧の変化で身に負担がかかりにくいとされる。釣り上げてすぐに血抜きと冷却を行い、脂の乗った身を劣化させずに港へ運ぶ。煮付けにする際は皮目に切り込みを入れ、タレを染み込みやすくするとともに、皮が縮んで身が崩れるのを防ぐ効果もあり、見た目も美しく仕上がるため、贈答用にも好まれる。\n\n## なぜこの形になったのか\n静岡県下田市や稲取の沖に広がる相模灘は、海岸から急に深くなる地形を持ち、深海性のキンメダイが好む水深に短い距離で到達できる。この地形の近さゆえに一本釣りで日帰り操業ができ、鮮度の良い「地キンメ」として稲取・下田の名で扱われてきた。海岸線からの距離の近さが、そのまま鮮度の良さと魚価の高さに変わる漁場といえ、地元の主要な産業として根付いている。",
+   "body_en": "## What it's made of\nA vivid red deep-sea fish, richly fatty flesh that turns sweet as its fat melts under heat. Simmered, that fat binds with a thick sauce into something rich and heavy; raw, its sweetness pairs with a springy bite — and the skin is said to hold especially strong flavor. It peaks in winter, when its fat content is at its fullest.\n\n## How it's made\nPole-and-line fishing in deep water hauls the catch up slowly, said to spare the flesh the stress of rapid pressure change. Fish are bled and chilled immediately after landing to keep that fat from breaking down before reaching port, and simmered preparations score the skin so sauce soaks in more easily while also keeping the skin from shrinking and tearing the flesh.\n\n## Why it took this shape\nSagami Bay off Shimoda and Inatori in Shizuoka drops away steeply close to shore, putting the deep water alfonsino favor within a short run. That proximity lets boats fish by pole-and-line and return the same day, landing it fresh enough to be sold under Inatori and Shimoda's own name for 'local kinme' — a fishing ground where sheer closeness to the coast translates directly into freshness.",
+   "sources": [
+    {
+     "title": "稲取キンメ｜東伊豆町稲取漁業協同組合",
+     "url": "http://www.soizuinatori.jf-net.ne.jp/kinme.html",
+     "publisher": "東伊豆町稲取漁業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kinmedai",
+     "to_slug": "nodoguro-akamutsu",
+     "relation_type": "対比",
+     "basis": "ともに深海性で鮮やかな赤色をした高脂の高級魚として比較されるが、キンメダイは太平洋側の相模灘、ノドグロは日本海側の急深地形と、育つ海と代表される産地が異なる。"
+    }
+   ]
+  },
+  {
+   "slug": "nodoguro-akamutsu",
+   "body_ja": "## 何でできているか\n喉の奥が黒いことから「ノドグロ」と呼ばれる深海魚で、脂の乗りの良さから「白身のトロ」とも評される。あぶり寿司にすると脂が炙られて香ばしさが増し、塩焼きにすれば皮目の脂がじゅわりと溶け出す。身は柔らかく、箸を入れるとほろりとほどける。旬は寒さが増す冬とされ、この時期は脂の量が一年で最も多くなるといい、夏場は流通量そのものも少なくなる。\n\n## どう作るのか\n一本釣りや底引き網で漁獲され、深場から引き上げる際の扱い方が身質を左右するとされる。脂が多い魚のため、焼く際は皮目に切り込みを入れて余分な脂を落としながら火を通す。刺身にする場合は骨に沿って厚めに切り、脂の食感を活かす扱いが好まれる。釣り上げた後は速やかに冷却し、脂が溶け出さないよう温度管理され、船上での処理速度が味を左右する。\n\n## なぜこの形になったのか\n島根県浜田市の沖に広がる日本海は急に深くなる地形を持ち、深海性のノドグロが育つ水深に近い距離で到達できる好漁場になっているとされる。この地の利を活かした一本釣りや底引き網漁が発達し、「どんちっち」ブランドの中心的な魚として扱われてきた。急深な海底地形こそが、この魚を身近な高級魚にしている理由とされ、地元漁業を支える柱の一つになっている。",
+   "body_en": "## What it's made of\nA deep-sea fish nicknamed for the black patch inside its throat, its richness earning it the nickname 'toro of white fish'. Seared as sushi, that fat crisps into extra aroma; salt-grilled, fat under the skin renders out with a sizzle — and the flesh itself is soft enough to fall apart at a touch of chopsticks. It peaks in the depths of winter, when fat content runs highest all year.\n\n## How it's made\nTaken by pole-and-line or trawl, how it's handled coming up from deep water is said to shape its texture. Because it's so fatty, grilling usually scores the skin first to render off excess fat as it cooks, and for sashimi it's often cut in thick slices along the bone to make the most of that richness. Once landed, it's chilled quickly so the fat doesn't start to break down.\n\n## Why it took this shape\nThe Sea of Japan off Hamada in Shimane drops away steeply close to shore, giving boats short access to the depths this fish favors — a fishing ground said to owe its richness to that terrain. Pole-and-line and trawl fishing built around that advantage made it the centerpiece of the local 'Donchicchi' brand, and it's that steep seabed alone that keeps this deep-sea delicacy within easy reach.",
+   "sources": [
+    {
+     "title": "どんちっちノドグロ｜浜田市",
+     "url": "https://www.city.hamada.shimane.jp/www/contents/1001000002252/index.html",
+     "publisher": "浜田市",
+     "accessed_at": "2026-09-06"
+    },
+    {
+     "title": "どんちっち三魚｜島根県浜田水産事務所",
+     "url": "https://www.pref.shimane.lg.jp/industry/suisan/chiho_kikan/hamada_suisan/infomation/info_c.html",
+     "publisher": "島根県",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "kamasu",
+   "body_ja": "## 何でできているか\n細長い体をした沿岸魚で、身は水分を多く含みやや淡白。干物にすると水分が抜けて旨みが凝縮し、塩焼きにすると皮はぱりっと、身はふんわりとほどける。生の刺身でも食べられるが、水分の多さゆえに干して食べる扱いのほうが定着している。旬は水温が下がり始める秋とされ、この時期は脂の乗りもわずかに増し、干物にしたときの香りも一段と強くなるといい、夏場は身が特に水っぽくなる。\n\n## どう作るのか\n水分が多く身が傷みやすいため、水揚げ後は早めに開いて干物に加工するのが一般的。一夜干し程度の軽い干し加減にとどめることで、身の柔らかさを保ちながら旨みだけを凝縮させる。骨が少なく開きやすいことも、干物文化が定着した理由の一つとされる。近年は骨まで食べられるよう加工する工夫も広まり、頭から尾まで丸ごと味わえる商品も増え、朝食向けの一品としても人気がある。\n\n## なぜこの形になったのか\n相模湾に面した神奈川県小田原市は、漁場から港までの距離が近く、揚がったばかりの新鮮なカマスをすぐに開いて干物に加工できる環境にある。傷みやすい魚だからこそ、水揚げから加工までの早さが味を左右し、地元での干物づくりが盛んになったとされる。漁場と加工場の距離の近さが、そのまま干物の味の決め手になっているといえる。",
+   "body_en": "## What it's made of\nA slender coastal fish whose flesh runs watery and fairly plain. Dried, it loses that excess moisture and concentrates in flavor; salt-grilled, the skin turns crisp while the flesh stays airy. It can be eaten raw, but drying has become the more established way to serve it, largely because of that moisture. It peaks in autumn as the water starts to cool, when it carries a touch more fat too.\n\n## How it's made\nBecause its watery flesh spoils fast, it's typically split and dried soon after landing. A light, overnight dry keeps the flesh tender while concentrating flavor, and having few bones that split easily is part of why the dried-fish tradition took hold here. Recent processing has even found ways to make the bones themselves edible.\n\n## Why it took this shape\nFacing Sagami Bay, Odawara in Kanagawa sits close enough to its fishing grounds that freshly landed barracuda can be split and set to dry almost immediately. Because the fish spoils so quickly, how fast it moves from catch to processing shapes the flavor, and that speed is said to be why dried-fish making took root locally — the short distance between ground and workshop deciding the flavor almost directly.",
+   "sources": [
+    {
+     "title": "経済部 水産海浜課｜小田原市",
+     "url": "https://www.city.odawara.kanagawa.jp/msec/46/",
+     "publisher": "小田原市",
+     "accessed_at": "2026-09-06"
+    },
+    {
+     "title": "小田原の魚｜小田原の魚ブランド化・消費拡大協議会",
+     "url": "http://odawara-sakana.com/",
+     "publisher": "小田原の魚ブランド化・消費拡大協議会",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "sawara",
+   "body_ja": "## 何でできているか\n「魚へんに春」と書く字の通り春に旬を迎える細長い魚で、身は柔らかく脂は上品。西京焼きにすると味噌の甘みと脂がなじんで濃厚に、刺身では脂の乗った身がとろけるように柔らかい。皮目を軽く炙ると香ばしさが加わり、身の淡い甘みが引き立つ。秋にも脂がのる個体があり「寒鰆」と呼び分けられることもあり、産地により旬の捉え方が異なる魚でもあり、夏場は身がやや水っぽくなるとされる。\n\n## どう作るのか\n身が柔らかく崩れやすいため、切り身にする際は厚みを均一にし、余分な水分を拭き取ってから調理する。西京焼きは味噌床に数日漬け込むことで水分を抜きながら味を含ませる手法で、時間をかけて漬けるほど身が締まり、味噌の香りが深く入り込むとされる。刺身にする際は皮を引かずに炙り、皮目の脂を活かす切り方も好まれ、漬け床の味噌の種類でも風味が変わる。\n\n## なぜこの形になったのか\n瀬戸内海は外海に比べて波が穏やかで、回遊してきたサワラがそのまま滞留しやすい内海とされる。岡山県ではこうして水揚げされるサワラが多く、春の彩り豊かなちらし寿司「祭り寿司」の具として定着し、地域の食文化に深く組み込まれてきた。波の穏やかさという内海の性質が、この魚を留まらせ、行事食にまで押し上げている。",
+   "body_en": "## What it's made of\nIts kanji combines 'fish' and 'spring', a slender fish at its peak that season, tender-fleshed with a refined fat. Miso-glazed as saikyoyaki, that sweetness and fat meld into something rich; raw, the fatty flesh turns almost melting. Lightly searing the skin adds a smoky note that lifts the meat's mild sweetness. Some fish carry fat into autumn too, sold separately as 'kan-sawara'.\n\n## How it's made\nIts soft flesh falls apart easily, so fillets are cut to an even thickness and patted dry before cooking. Saikyoyaki cures the fish in a miso bed for several days, drawing out moisture while working flavor in — the longer it's cured, the firmer the flesh and the deeper the miso aroma penetrates. For sashimi, the skin is sometimes left on and lightly seared to make the most of its fat.\n\n## Why it took this shape\nCalmer than open water, the Seto Inland Sea is thought to let migrating Spanish mackerel linger there rather than pass through. Okayama lands much of its catch this way, and the fish has become a fixture of the region's colorful spring chirashi-zushi known as matsuri-zushi, woven deeply into local food culture. That calm inland water is what keeps the fish around long enough to become a festival dish at all.",
+   "sources": [
+    {
+     "title": "まつりずし／ばらずし（岡山県）｜うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_1_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-06"
+    },
+    {
+     "title": "サワラ資源回復計画｜日生町漁業協同組合",
+     "url": "https://www.hinase.net/%E3%81%95%E3%82%8F%E3%82%89%E8%B3%87%E6%BA%90%E5%9B%9E%E5%BE%A9%E8%A8%88%E7%94%BB/",
+     "publisher": "日生町漁業協同組合",
+     "accessed_at": "2026-09-06"
+    }
+   ],
+   "relations": []
+  }
+ ]
+}
