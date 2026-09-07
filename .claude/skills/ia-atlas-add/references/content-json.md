@@ -31,5 +31,5 @@ genres → tags → items（ジャンル／棚ごと）→ regenre → regions �
 
 ## 語彙
 - `regions[].relation_type`: 名産地 | 本場（本場は note_ja/note_en/source_url 必須。発祥は書かない）
-- `relations[].relation_type`: 源流 | 派生 | 兄弟 | 対比 | 使用食材 | 代表ネタ（DB では lineage/sibling/contrast/uses に変換される）
+- `relations[].relation_type`: 源流 | 派生 | 兄弟 | 対比 | 使用食材 | 代表ネタ（DB では lineage/sibling/contrast/uses に変換される）。向き: 「A → B 派生」= A は B から派生（子→親）、「A → B 源流」= A は B の源流（親→子）。投入時に DB の親→子へ揃える
 - `type`: items は dish | ingredient（地図ピン ●/■）、genres は dish | ingredient | cut（層）

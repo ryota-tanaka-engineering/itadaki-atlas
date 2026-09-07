@@ -16,31 +16,31 @@
     {
      "from_slug": "yakitori",
      "to_slug": "higashimatsuyama-yakitori",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "既存アイテムの一次資料が示す通り、カシラ肉と辛味噌だれという独自の部位・タレへ枝分かれしたご当地焼き鳥のため"
     },
     {
      "from_slug": "yakitori",
      "to_slug": "muroran-yakitori",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "室蘭やきとりの会の資料が示す通り、鶏でなく豚を使う独自の型へ枝分かれしたご当地焼き鳥のため"
     },
     {
      "from_slug": "yakitori",
      "to_slug": "bibai-yakitori",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "既存アイテムの一次資料が示す通り、一羽分を一本の串に刺す独自の型へ枝分かれしたご当地焼き鳥のため"
     },
     {
      "from_slug": "yakitori",
      "to_slug": "imabari-yakitori",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "既存アイテムの一次資料が示す通り、串を使わず鉄板で焼く独自の型へ枝分かれしたご当地焼き鳥のため"
     },
     {
      "from_slug": "yakitori",
      "to_slug": "kurume-yakitori",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "久留米広域連携中枢都市圏の資料が示す通り、豚・牛・馬まで串にする独自の型へ枝分かれしたご当地焼き鳥のため"
     }
    ]

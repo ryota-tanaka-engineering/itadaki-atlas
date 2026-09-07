@@ -37,7 +37,7 @@
     {
      "from_slug": "banshu-somen",
      "to_slug": "miwa-somen",
-     "relation_type": "源流",
+     "relation_type": "派生",
      "basis": "三輪素麺公式サイトに「伊勢参りの旅人によって播州・小豆島・島原へと製法が広まったと伝わる」との記述がある"
     }
    ]
@@ -100,7 +100,7 @@
     {
      "from_slug": "handa-somen",
      "to_slug": "miwa-somen",
-     "relation_type": "源流",
+     "relation_type": "派生",
      "basis": "つるぎ町公式サイトに「川船の船頭たちが三輪（奈良県）から淡路・鳴門を経て半田にそうめんの技法を伝えたとされる」と明記されている"
     }
    ]
@@ -295,7 +295,7 @@
     {
      "from_slug": "miwa-somen",
      "to_slug": "shimabara-somen",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "三輪素麺公式サイトと島原観光サイトの双方が、伊勢参りの旅人を介した三輪から島原への製法伝播説を記している（一説）"
     }
    ]
@@ -370,7 +370,7 @@
     {
      "from_slug": "nagasaki-champon",
      "to_slug": "obama-champon",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "雲仙温泉観光協会公式サイトに「長崎市の茂木港と雲仙市小浜港は航路で結ばれ...ちゃんぽんの食文化が自然に小浜へ根付いた」と明記されており、長崎ちゃんぽんが商標登録せず広めたことも派生を後押しした"
     }
    ]

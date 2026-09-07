@@ -1,6 +1,6 @@
 from_slug,to_slug,relation_type
-kurume,hakata,派生
-kurume,kumamoto,派生
+kurume,hakata,源流
+kurume,kumamoto,源流
 hakata,hakodate,対比
 sapporo,hakodate,対比
 toyama-black,koriyama-black,対比

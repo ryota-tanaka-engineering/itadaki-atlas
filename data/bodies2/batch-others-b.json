@@ -16,7 +16,7 @@
     {
      "from_slug": "naha-soba",
      "to_slug": "soki-soba",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "沖縄生麺協同組合の記録で1975年に名護でソーキそばが登場し、沖縄そばの概念を大きく広げたと明記されている(oki-soba.jp)。"
     }
    ]
@@ -170,7 +170,7 @@
     {
      "from_slug": "yawatahama-champon",
      "to_slug": "nagasaki-champon",
-     "relation_type": "源流",
+     "relation_type": "派生",
      "basis": "八幡浜のデータに「具だくさんの麺料理という九州のちゃんぽんの考え方がこの航路を通じて伝わった」と明記されている。"
     }
    ]
@@ -191,7 +191,7 @@
     {
      "from_slug": "napolitan",
      "to_slug": "tsuke-napolitan",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "つけナポリタンのデータに「トマトベースのスープに...つけ麺のようにひたして食べる」とあり、2008年にナポリタンのトマトソース文化を土台に創作されたことが明記されている。"
     }
    ]
@@ -302,7 +302,7 @@
     {
      "from_slug": "shodoshima-somen",
      "to_slug": "miwa-somen",
-     "relation_type": "源流",
+     "relation_type": "派生",
      "basis": "小豆島そうめんのデータに「池田村の人が三輪に立ち寄った際にそうめんの製法を学び持ち帰った」と明記されている。"
     }
    ]

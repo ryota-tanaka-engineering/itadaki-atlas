@@ -553,7 +553,7 @@
     {
      "from_slug": "nigiri-zushi",
      "to_slug": "edomae-zushi",
-     "relation_type": "源流",
+     "relation_type": "派生",
      "basis": "文政期の江戸で屋台料理として考案されたとされる江戸前寿司が、握りずしという型そのものの起こりとされる"
     },
     {
@@ -700,7 +700,7 @@
     {
      "from_slug": "oshi-zushi",
      "to_slug": "hako-zushi",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "木型に酢飯と具材を詰めて押し固める押しずしの技法を、大阪の箱寿司が今に伝える"
     }
    ]

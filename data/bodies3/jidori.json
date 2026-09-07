@@ -37,7 +37,7 @@
     {
      "from_slug": "nagoya-cochin",
      "to_slug": "shinshu-ogon-shamo",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "信州黄金シャモのデータに「シャモと名古屋種を掛け合わせ」と明記されている"
     }
    ]
@@ -352,7 +352,7 @@
     {
      "from_slug": "kumano-jidori",
      "to_slug": "nagoya-cochin",
-     "relation_type": "源流",
+     "relation_type": "派生",
      "basis": "熊野地鶏のデータに「名古屋コーチンを掛け合わせて作られた」と明記されている"
     }
    ]
@@ -499,7 +499,7 @@
     {
      "from_slug": "hokkai-jidori",
      "to_slug": "nagoya-cochin",
-     "relation_type": "源流",
+     "relation_type": "派生",
      "basis": "北海地鶏のデータに「名古屋種を父に」用いた三元交雑鶏と明記されている"
     }
    ]
@@ -520,7 +520,7 @@
     {
      "from_slug": "yamato-nikudori",
      "to_slug": "nagoya-cochin",
-     "relation_type": "源流",
+     "relation_type": "派生",
      "basis": "大和肉鶏のデータに「大型軍鶏・名古屋種・ニューハンプシャーの3種交配」と明記されている"
     }
    ]

@@ -16,13 +16,13 @@
     {
      "from_slug": "koshihikari",
      "to_slug": "akitakomachi",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "あきたこまちはコシヒカリと奥羽292号を交配して育成された品種で、直接の子にあたる。"
     },
     {
      "from_slug": "koshihikari",
      "to_slug": "milky-queen",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "ミルキークイーンはコシヒカリの種子に突然変異原処理を施して選抜した半糯突然変異体で、コシヒカリ由来の品種。"
     }
    ]
@@ -43,7 +43,7 @@
     {
      "from_slug": "akitakomachi",
      "to_slug": "haenuki",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "はえぬきの交配親はあきたこまち（秋田31号）と庄内29号で、あきたこまちが直接の親にあたる。"
     }
    ]
@@ -64,13 +64,13 @@
     {
      "from_slug": "hitomebore",
      "to_slug": "koshiibuki",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "こしいぶきの交配親はひとめぼれとどまんなかで、ひとめぼれが直接の親にあたる。"
     },
     {
      "from_slug": "hitomebore",
      "to_slug": "yumeshizuku",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "夢しずくの交配親はキヌヒカリとひとめぼれ（東北143号）で、ひとめぼれが直接の親にあたる。"
     }
    ]
@@ -217,7 +217,7 @@
     {
      "from_slug": "kinumusume",
      "to_slug": "nikomaru",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "にこまるの交配親はきぬむすめと北陸174号で、きぬむすめが直接の親にあたる。"
     }
    ]
@@ -613,7 +613,7 @@
     {
      "from_slug": "koganemochi",
      "to_slug": "himenomochi",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "ヒメノモチの交配親は大系227号とコガネモチで、コガネモチが直接の父親にあたる。"
     }
    ]
@@ -667,7 +667,7 @@
     {
      "from_slug": "yamadanishiki",
      "to_slug": "koshitanrei",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "越淡麗の交配親は五百万石と山田錦で、山田錦が直接の親にあたる。"
     }
    ]
@@ -688,7 +688,7 @@
     {
      "from_slug": "gohyakumangoku",
      "to_slug": "koshitanrei",
-     "relation_type": "派生",
+     "relation_type": "源流",
      "basis": "越淡麗の交配親は五百万石と山田錦で、五百万石が直接の親にあたる。"
     }
    ]

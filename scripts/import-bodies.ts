@@ -18,6 +18,10 @@ const JA_CHAPTERS = ["## 何でできているか", "## どう作るのか", "##
 const EN_CHAPTERS = ["## What it's made of", "## How it's made", "## Why it took this shape"];
 
 // CSVは編集用の日本語語彙、DBは4語彙（import-relations.ts と同じ変換）
+// 語彙の向き（ia-atlas-content Skill §3）: 「A → B 源流」= A は B の源流（親→子）、
+// 「A → B 派生」= A は B から派生（子→親）。DB は常に 親→子（from=源流側）で持つので、
+// 派生 は挿入時に from/to を入れ替える。
+const SWAP_ON_INSERT = new Set(["派生"]);
 const TYPE_TO_DB: Record<string, string> = {
   源流: "lineage",
   派生: "lineage",
@@ -141,8 +145,8 @@ async function main() {
     for (const r of it.relations) {
       const { error: re } = await db.from("food_item_relations").upsert(
         {
-          from_id: idOf.get(r.from_slug)!,
-          to_id: idOf.get(r.to_slug)!,
+          from_id: idOf.get(SWAP_ON_INSERT.has(r.relation_type) ? r.to_slug : r.from_slug)!,
+          to_id: idOf.get(SWAP_ON_INSERT.has(r.relation_type) ? r.from_slug : r.to_slug)!,
           relation_type: TYPE_TO_DB[r.relation_type],
         },
         { onConflict: "from_id,to_id,relation_type" },

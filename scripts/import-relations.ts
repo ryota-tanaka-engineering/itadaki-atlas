@@ -18,6 +18,10 @@ const RELATION_TYPES = ["源流", "派生", "対比", "兄弟", "代表ネタ", 
 // CSVは編集用の日本語語彙、DBは4語彙（migration 20260826000000 の CHECK と同じ対応）。
 // 以前は日本語のまま挿入→migrationが変換、という経路だったが、新規DBでは
 // CHECK制約に弾かれるため、挿入時にここで変換する。
+// 語彙の向き（ia-atlas-content Skill §3）: 「A → B 源流」= A は B の源流（親→子）、
+// 「A → B 派生」= A は B から派生（子→親）。DB は常に 親→子（from=源流側）で持つので、
+// 派生 は挿入時に from/to を入れ替える。
+const SWAP_ON_INSERT = new Set(["派生"]);
 const TYPE_TO_DB: Record<(typeof RELATION_TYPES)[number], string> = {
   源流: "lineage",
   派生: "lineage",
@@ -98,8 +102,8 @@ async function main() {
   for (const r of rows) {
     const { error: e } = await db.from("food_item_relations").upsert(
       {
-        from_id: idOf.get(r.from_slug)!,
-        to_id: idOf.get(r.to_slug)!,
+        from_id: idOf.get(SWAP_ON_INSERT.has(r.relation_type) ? r.to_slug : r.from_slug)!,
+        to_id: idOf.get(SWAP_ON_INSERT.has(r.relation_type) ? r.from_slug : r.to_slug)!,
         relation_type: TYPE_TO_DB[r.relation_type],
       },
       { onConflict: "from_id,to_id,relation_type" },
