@@ -9,6 +9,7 @@ import {
   fetchChainsForGenre,
   fetchGenre,
   fetchGenreItems,
+  fetchPlaceNames,
   fetchShelf,
   fetchShelfGenres,
   fetchShelfOtherItems,
@@ -17,6 +18,7 @@ import {
   type Locale,
   type Shelf,
 } from "@/features/map/queries";
+import { translateCityName } from "@/features/map/placeNames";
 import { ChainBridgeSection } from "@/features/map/ChainBridgeSection";
 import { PIN_STROKE, PRIMARY_STYLES, styleColor } from "@/features/map/styles";
 import { localeAlternates } from "@/lib/seo";
@@ -39,23 +41,32 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
     const items = await fetchGenreItems(genre, locale as Locale);
     const name = locale === "ja" ? g.nameJa : g.nameEn;
     const ing = g.type === "ingredient";
+    const cut = g.type === "cut";
     return {
       title:
         locale === "ja"
-          ? ing
-            ? `${name}の銘柄と産地（${items.length}件）`
-            : `${name}の種類（${items.length}種）— 生まれた土地から`
-          : ing
-            ? `${name} — brands and regions`
-            : `${items.length} kinds of ${name}, by where they were born`,
+          ? cut
+            ? `${name}の一覧（${items.length}件）`
+            : ing
+              ? `${name}の銘柄と産地（${items.length}件）`
+              : `${name}の種類（${items.length}種）— 生まれた土地から`
+          : cut
+            ? `${name} — ${items.length} entries`
+            : ing
+              ? `${name} — brands and regions`
+              : `${items.length} kinds of ${name}, by where they were born`,
       description:
         locale === "ja"
-          ? ing
-            ? `日本各地の${name}の銘柄と産地を整理した一覧。`
-            : `${name}${items.length}種を、生まれた土地と系統で整理した一覧。全国で食べられる型も、ここでしか出会えない型も。`
-          : ing
-            ? `${name} brands and their source regions across Japan.`
-            : `${items.length} kinds of ${name}, organized by where each was born and how it is made — from styles served nationwide to ones found only in one town.`,
+          ? cut
+            ? `${name}を、味・扱い方・料理での位置づけで整理した一覧。`
+            : ing
+              ? `日本各地の${name}の銘柄と産地を整理した一覧。`
+              : `${name}${items.length}種を、生まれた土地と系統で整理した一覧。全国で食べられる型も、ここでしか出会えない型も。`
+          : cut
+            ? `${name} organized by taste, handling, and their place on the table.`
+            : ing
+              ? `${name} brands and their source regions across Japan.`
+              : `${items.length} kinds of ${name}, organized by where each was born and how it is made — from styles served nationwide to ones found only in one town.`,
       alternates: localeAlternates(`/${genre}`),
     };
   }
@@ -90,9 +101,12 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
   const t = await getTranslations("genre");
   const ts = await getTranslations("style");
   const tp = await getTranslations("prefecture");
-  const [items, chains] = await Promise.all([
+  const [items, chains, placeNames] = await Promise.all([
     fetchGenreItems(genreSlug, locale as Locale),
     fetchChainsForGenre(genreSlug),
+    // 市区町村名の他言語表記（一覧行の発祥表記用。実装部隊の報告「/en の本場・産地
+    // チップに市区町村名が日本語のまま」対応）。ja では不要。
+    locale === "en" ? fetchPlaceNames("en") : Promise.resolve({}),
   ]);
   const geo = items.filter((i) => i.lat !== null);
   const nonGeo = items.filter((i) => i.lat === null);
@@ -187,7 +201,9 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
                     {item.originPref && (
                       <span className="text-muted-foreground mt-1 block text-xs">
                         {tp(item.originPref)}
-                        {item.originCity ? ` / ${item.originCity}` : ""}
+                        {item.originCity
+                          ? ` / ${translateCityName(item.originPref, item.originCity, locale as Locale, placeNames)}`
+                          : ""}
                       </span>
                     )}
                   </Link>

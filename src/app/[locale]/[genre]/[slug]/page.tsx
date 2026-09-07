@@ -6,12 +6,14 @@ import { SiteFooter } from "@/components/SiteFooter";
 import {
   fetchItemBySlug,
   fetchItemByShelfSlug,
+  fetchPlaceNames,
   fetchRelated,
   fetchSamePref,
   fetchShelfSiblings,
   fetchStyleSiblings,
   type Locale,
 } from "@/features/map/queries";
+import { translateCityName } from "@/features/map/placeNames";
 import { styleColor } from "@/features/map/styles";
 import { parseBodyMarkdown } from "@/features/map/markdown";
 import { distanceFromTokyo } from "@/features/map/geo";
@@ -22,6 +24,7 @@ import { ItemConnections, type ConnectionCard, type RegionPill } from "@/feature
 import { CutDiagram } from "@/features/map/CutDiagram";
 import { speciesForGenre } from "@/features/map/cutDiagramData";
 import { LineageTree, type LineageNode } from "@/features/map/LineageTree";
+import { fetchGuidesForItem } from "@/features/guide/queries";
 import { localeAlternates } from "@/lib/seo";
 import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
@@ -71,11 +74,12 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
   const ts = await getTranslations("style");
   const tr = await getTranslations("relation");
   const trr = await getTranslations("regionRelation");
+  const tg = await getTranslations("guide");
   const isJa = locale === "ja";
 
   // 行き止まり禁止（回遊が価値の中核）。relations に行を足すと双方向で増え、
   // 同県リンクはデータを足すだけで自動で増える
-  const [related, samePrefAll, styleSiblings] = await Promise.all([
+  const [related, samePrefAll, styleSiblings, beforeYouGoGuides, placeNames] = await Promise.all([
     fetchRelated(slug, locale as Locale),
     item.originPref
       ? fetchSamePref(slug, item.originPref, locale as Locale)
@@ -83,6 +87,15 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
     item.genreSlug
       ? fetchStyleSiblings(item.genreSlug, slug, item.primaryStyle, locale as Locale)
       : fetchShelfSiblings(item.shelfSlug, slug, locale as Locale),
+    // 「食べに行く前に」（作業パッケージ「食べに行く前にガイド」）。
+    // genre/shelf/tags のいずれかに guide_links で結ばれたガイドを逆引きする
+    fetchGuidesForItem(
+      { genreSlug: item.genreSlug, shelfSlug: item.shelfSlug, tagSlugs: item.tags.map((tag) => tag.slug) },
+      locale as "ja" | "en",
+    ),
+    // 市区町村名の他言語表記（発祥チップ・本場チップ用。実装部隊の報告「/en の
+    // 本場・産地チップに市区町村名が日本語のまま」対応）。ja では不要。
+    locale === "en" ? fetchPlaceNames("en") : Promise.resolve({}),
   ]);
   // 名前つき関係で既に出ているアイテムは同県リストから外す（重複表示を避ける）
   const relatedSlugs = new Set(related.map((r) => r.slug));
@@ -101,7 +114,13 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
   // 2. 位置帯: 発祥地名+座標。座標が無いアイテム（部位・定番種）は帯ごと出さない
   const hasGeo = item.lat !== null && item.lng !== null;
   const originLabel = item.originPref
-    ? `${tp(item.originPref)}${item.originCity ? (isJa ? item.originCity : ` ${item.originCity}`) : ""}`
+    ? `${tp(item.originPref)}${
+        item.originCity
+          ? isJa
+            ? item.originCity
+            : ` ${translateCityName(item.originPref, item.originCity, locale as Locale, placeNames)}`
+          : ""
+      }`
     : null;
   const placeLabel = originLabel ?? item.nameRomaji;
   // 東京駅からの距離・方位（30km未満=都内相当は出さない）。2026-09 カバー情報密度
@@ -174,7 +193,15 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
     // 同一県・同一種別に複数都市が並ぶ（例: 海鮮丼の本場=釧路・小樽・函館）ため city も key に含める
     key: `${r.pref}-${r.city ?? ""}-${r.relationType}`,
     href: `/region/${PREF_SLUGS[r.pref as Prefecture]}`,
-    label: `${tp(r.pref)}${r.city ? ` ${r.city}` : ""} ${trr(r.relationType)}`,
+    // ja「東京都 中央区 本場」/ en「Renowned for: Tokyo, Chuo」（英語は種別を先に置かないと読めない）
+    label: (() => {
+      const place = `${tp(r.pref)}${
+        r.city
+          ? `${isJa ? " " : ", "}${translateCityName(r.pref, r.city, locale as Locale, placeNames)}`
+          : ""
+      }`;
+      return isJa ? `${place} ${trr(r.relationType)}` : `${trr(r.relationType)}: ${place}`;
+    })(),
     note: isJa ? r.noteJa : r.noteEn,
   }));
   // 小見出しは実際に並ぶ種別から作る（本場だけなのに「名産地」と出さない）
@@ -265,6 +292,32 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
             <BodyChapters chapters={chapters} />
 
             {/* 発祥・系統は事実チップとしてカバーへ移設済み（重複するため下部の属性欄は廃止） */}
+
+            {/* 3.8 食べに行く前に（作業パッケージ「食べに行く前にガイド」）。
+                genre/shelf/tagsのいずれかにguide_linksで結ばれたガイドが無ければ節ごと出さない。
+                「つながり」の手前に置く（CLAUDE.md「ページ型」節） */}
+            {beforeYouGoGuides.length > 0 && (
+              <section aria-labelledby="before-you-go-heading" className="mb-8">
+                <h2 id="before-you-go-heading" className="mb-3 text-sm font-semibold">
+                  {tg("title")}
+                </h2>
+                <ul className="space-y-2">
+                  {beforeYouGoGuides.map((g) => (
+                    <li key={g.slug}>
+                      <Link
+                        href={`/guide/${g.slug}`}
+                        className="border-border hover:bg-muted/50 block rounded-lg border p-3"
+                      >
+                        <span className="block font-medium">{g.title}</span>
+                        {g.summary && (
+                          <span className="text-muted-foreground block text-xs">{g.summary}</span>
+                        )}
+                      </Link>
+                    </li>
+                  ))}
+                </ul>
+              </section>
+            )}
 
             {/* 4. つながり（SP: 本文の下） */}
             <ItemConnections

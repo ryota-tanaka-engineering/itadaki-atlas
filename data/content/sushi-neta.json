@@ -1,0 +1,993 @@
+{
+ "genres": [
+  {
+   "slug": "sushi-neta",
+   "name_ja": "寿司ネタ",
+   "name_en": "Sushi toppings",
+   "type": "cut",
+   "shelf": "rice",
+   "intro_ja": "寿司ネタは、握りや軍艦に「何をのせるか」という素材の図鑑にあたる。マグロなら赤身・中トロ・大トロと部位で分かれ、鯖はシメサバという酢締めの仕事を経て、アナゴは煮てツメを塗る。同じ魚介でも、寿司の上でどう切り、どう仕込むかで別のネタとして扱われるとされる。ここでは魚そのものではなく、寿司の上での仕事・切り方・位置づけを辿る。",
+   "intro_en": "Sushi toppings form a catalog of what goes on top of nigiri and gunkan. Tuna alone splits by cut into akami, chutoro, and otoro; mackerel is cured into shime-saba; conger eel is simmered and glazed with tsume. The same fish or shellfish is said to become a different topping depending on how it's cut and worked for the counter. This section follows not the fish itself, but the work, the cut, and the role each takes on as sushi."
+  }
+ ],
+ "items": [
+  {
+   "slug": "akami-zuke",
+   "name_ja": "赤身のヅケ",
+   "name_romaji": "Akami no Zuke",
+   "name_en": "soy-marinated lean tuna — the cure that came before the fatty cuts were prized",
+   "summary_ja": "マグロの赤身を醤油だれに浸けて締めたもの。冷蔵の手立てがなかった時代に身を持たせる工夫として生まれ、大トロが好まれる今もヅケ専用の仕込みとして受け継がれているという。江戸前寿司の原点にあたる仕事の一つとされる。",
+   "summary_en": "Lean tuna cured in a soy-based marinade. Born as a way to keep the fish from spoiling before refrigeration existed, it's said to survive today as its own deliberate preparation even now that fattier cuts get the attention — one of the founding techniques of Edomae sushi itself.",
+   "body_ja": "## 何でできているか\nマグロの背側に多い、脂の少ない赤身が主役。醤油だれに浸けると表面がわずかに締まり、生の赤身とは違う照りと、ねっとりとした舌触りが出る。脂の甘さで食べさせる中トロや大トロとは逆に、鉄分を感じるような赤身そのものの味が前に出る仕立てだという。江戸前ではこの赤身こそがマグロの基本形として扱われてきたと伝わり、づけにすることで刺身とはまた違う濃い旨みが立つとされる。\n## どう作るのか\n柵にした赤身を醤油だれに数十分から一晩ほど浸け、余分な水分とともに生臭さを抜く。かつては酒や昆布を加えただれにじっくり漬け込み、何日か身を持たせる仕込みとして扱われたとされる。今日では冷蔵技術が整い、短時間で味をのせるだけの店も多いが、づけならではの照りと締まりは今も変わらないという。漬け込む時間の長さで味の濃淡を調整するのが職人の勘所とされる。\n## なぜこの形になったのか\n江戸時代中期に醤油が広まると、冷蔵の手立てがない中で魚を持たせる工夫として、マグロの赤身を醤油に漬け込む方法が生まれたと伝わる。当時は「赤べろべろ」とも呼ばれ、下魚として扱われたマグロを美味しく食べさせるための知恵だったとされる。握り寿司にマグロが使われ始めたのは1831年ごろとされるが、格式ある寿司屋で扱われるようになったのは1923年頃からだといい、この仕事から今日の多彩な部位使いが広がったという。",
+   "body_en": "## What it's made of\nThe star is akami, the lean, low-fat meat cut mostly from a tuna's back. Soaking it in a soy-based marinade tightens the surface slightly, giving it a sheen and a denser, almost sticky texture unlike raw tuna. Rather than the fatty sweetness of chutoro or otoro, this cut is said to bring the iron-like taste of lean tuna itself to the front, and Edomae tradition is said to treat this lean cut as tuna's basic, original form, the cure said to bring out a richer savoriness than sashimi alone.\n## How it's made\nA block of akami is soaked in a soy marinade for anywhere from thirty minutes to overnight, drawing out excess moisture along with any fishy edge. It's said that the marinade once included sake or kelp and the fish was left in it for days as a way of keeping it edible. Today, with refrigeration in place, many shops simply add flavor for a short soak, though the sheen and firmness particular to zuke are said to remain unchanged. Reading how long to marinate it is said to be where a chef's judgment shows.\n## Why it took this shape\nOnce soy sauce spread widely in the mid-Edo period, marinating tuna's lean meat in it is said to have emerged as a way to keep the fish edible before refrigeration existed. It was reportedly once called 'aka-berobero' and treated as a clever way to make a fish then considered too cheap for a proper sushi counter taste good. Tuna is said to have first appeared as a nigiri topping around 1831, though it's said not to have reached more formal sushi counters until around 1923, and the wide range of cuts served today is said to trace back to this one technique.",
+   "sources": [
+    {
+     "title": "鮪",
+     "url": "https://ja.wikipedia.org/wiki/鮪",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "握り寿司",
+     "url": "https://ja.wikipedia.org/wiki/握り寿司",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "akami-zuke",
+     "to_slug": "maguro",
+     "relation_type": "兄弟",
+     "basis": "同じマグロの、脂の少ない部位を使う仕事違い（ウィキペディア「鮪」）"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "chutoro",
+   "name_ja": "中トロ",
+   "name_romaji": "Chutoro",
+   "name_en": "medium-fatty tuna, between lean akami and the richest otoro",
+   "summary_ja": "マグロの腹身のうち、大トロほど脂が強くない部位。脂と赤身の味がほぼ半々で拮抗するため、脂の重さと赤身の香りを同時に味わえる部位とされる。大トロと赤身の両方の良さを求める客に選ばれてきたという。",
+   "summary_en": "A cut from a tuna's belly, less richly fatty than otoro. Fat and lean flavor sit close to even here, said to be the part where the weight of the fat and the character of lean tuna can both be tasted at once — chosen by those wanting the best of both cuts.",
+   "body_ja": "## 何でできているか\n中トロはマグロの腹身や背の一部にあたり、脂肪の量が大トロと赤身のちょうど中間にあるとされる部位。断面には赤身の色と脂の白い筋がまだらに入り、口に含むと脂の重さと赤身らしい香りがほぼ同時に来る。大トロほどしつこくなく、赤身ほど淡白でもない釣り合いが持ち味だといい、づけにも生のままにも仕立てられる懐の広さがあるという。辞典によっては背肉を中トロ、腹肉を大トロと区別する説明もあり、部位の呼び分けには複数の見方があるとされる。\n## どう作るのか\n柵取りの段階でマグロの部位ごとに脂ののり方を見極め、大トロ・中トロ・赤身に切り分ける。中トロはそのまま握られることが多く、づけのように長く漬け込む仕事はあまり施されない。切り付けの厚みと筋の入り方で口どけの印象が変わるとされ、脂の筋を断ち切るように刃を入れることもあるという。一本のマグロから取れる中トロの量は限られ、部位ごとの見極めそのものが職人の仕事とされる。\n## なぜこの形になったのか\n一尾のマグロから取れる部位ごとに脂の量が違うことは古くから知られていたが、脂の多い部位が持てはやされるようになったのは戦後、冷凍技術と食生活の洋風化が進んでからとされる。中トロはその中間に位置づき、大トロがまだ「猫またぎ」と呼ばれていた頃から、赤身と脂の両方の良さを取りたい客に選ばれてきたという。今日では大トロに次ぐ人気の部位として扱われることが多いとされる。",
+   "body_en": "## What it's made of\nChutoro comes from a tuna's belly and parts of the back, with a fat content said to sit roughly halfway between otoro and lean akami. Its cut face shows red lean flesh marbled with white fat, and biting into it brings the weight of the fat and the character of lean tuna at nearly the same moment — not as heavy as otoro, not as plain as akami — and it's said to take equally well to a raw finish or a soy cure.\n## How it's made\nWhen a tuna is broken into blocks, the fish is read part by part for how the fat runs, and separated into otoro, chutoro, and akami accordingly. Chutoro is usually served as is, without the long soy-cure sometimes given to lean cuts. How thick it's sliced, and how the fat marbling runs, is said to shape the impression it leaves in the mouth, and the blade is sometimes angled to cut across the fat lines themselves.\n## Why it took this shape\nThat fat content varies by part of a single tuna has long been known, but the fatty cuts are said to have only become prized after the war, once freezer technology spread and diets grew more Western. Chutoro settled into the middle ground, and even back when otoro was still dismissed as 'neko-matagi,' it's said to have been chosen by diners wanting both the lean and the fatty sides of the fish at once.",
+   "sources": [
+    {
+     "title": "中とろ",
+     "url": "https://kotobank.jp/word/%E4%B8%AD%E3%81%A8%E3%82%8D-567750",
+     "publisher": "コトバンク",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "鮪",
+     "url": "https://ja.wikipedia.org/wiki/鮪",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "chutoro",
+     "to_slug": "maguro",
+     "relation_type": "兄弟",
+     "basis": "同じマグロの、脂の中程度の部位（コトバンク「中とろ」）"
+    },
+    {
+     "from_slug": "chutoro",
+     "to_slug": "otoro",
+     "relation_type": "対比",
+     "basis": "どちらもマグロの脂身だが、脂の量で中トロ・大トロに分かれる（コトバンク「中とろ」「大とろ」）"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "otoro",
+   "name_ja": "大トロ",
+   "name_romaji": "Otoro",
+   "name_en": "the fattiest cut of tuna belly, once dismissed and now the most prized",
+   "summary_ja": "マグロの腹身のうち、もっとも脂肪が多い部位。かつては足が早く傷みやすいため「猫またぎ」とまで呼ばれたが、冷凍技術の進歩と食生活の変化で今日もっとも珍重される部位になったとされる。切り付けにも独特の配慮がいるという。",
+   "summary_en": "The fattiest cut from a tuna's belly. Once dismissed as spoiling too fast even for a cat to bother with, it's said to have become, with better freezing and changing tastes, the most prized cut of all today — one that calls for its own particular way of being sliced.",
+   "body_ja": "## 何でできているか\n大トロはマグロの腹身のうち、もっとも脂肪が多い部位。筋に沿って白い脂が層をなし、口に入れるとすぐに脂が溶けて甘みが広がる。赤身のような鉄分の香りはほとんど感じられず、脂の重さそのものを味わうネタだという。断面はさくら色を帯び、光を受けると霜降りのように輝いて見えるとされ、一尾のうちでも取れる量はごくわずかだという。\n## どう作るのか\n一尾のマグロを解体する際、脂のりが最も強い腹の部分を見極めて切り分ける。脂が多いぶん身が柔らかく崩れやすいため、切り付けには薄めの刃づかいが求められるとされる。炙って脂を軽く溶かしてから握る店もあり、常温に近づけてから供することで脂の香りを立たせる工夫もあるという。冷えたままでは脂が固まり本来の甘みが出にくいとされる。\n## なぜこの形になったのか\n冷蔵技術がなかった時代、脂の多い部位は傷みが早く生臭さも出やすいため、猫すら見向きしないという意味で「猫またぎ」と蔑まれたと伝わる。戦後に冷凍技術が進み、脂を好む食生活への変化が重なった1960年代以降、大トロは一転して珍重される部位になったとされ、今では中トロや赤身よりも高値で取引されることが多いという。かつての評価が丸ごと反転した珍しい例とされ、今日では寿司屋の看板ネタとして扱われることも多いという。",
+   "body_en": "## What it's made of\nOtoro is the fattiest cut from a tuna's belly. White fat runs in layers along the grain, and it melts almost the moment it hits the tongue, spreading sweetness. Little of the iron-like character of lean tuna comes through — this is a cut built entirely around the weight of its fat. Its cut face carries a pale pink blush and is said to catch the light almost like marbled beef.\n## How it's made\nWhen a tuna is broken down, the section of belly with the heaviest marbling is identified and cut out. Because the high fat content makes the flesh soft and prone to falling apart, it's said to call for a thinner, more careful blade than leaner cuts. Some shops lightly sear it to melt the fat before serving, and letting it approach room temperature first is said to help the fat's aroma come through.\n## Why it took this shape\nBefore refrigeration, the fattiest cuts spoiled fastest and turned fishy quickest, and are said to have been scorned as 'neko-matagi' — food a cat wouldn't even bother stepping over for. Only after postwar freezer technology advanced, alongside a diet that grew to favor richer fat, did otoro reportedly flip into the most prized cut on the counter from the 1960s on, today often fetching a higher price than either chutoro or akami.",
+   "sources": [
+    {
+     "title": "大とろ",
+     "url": "https://kotobank.jp/word/%E5%A4%A7%E3%81%A8%E3%82%8D-450447",
+     "publisher": "コトバンク",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "鮪",
+     "url": "https://ja.wikipedia.org/wiki/鮪",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "otoro",
+     "to_slug": "maguro",
+     "relation_type": "兄弟",
+     "basis": "同じマグロの、もっとも脂の多い部位（コトバンク「大とろ」）"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "negitoro",
+   "name_ja": "ネギトロ（軍艦）",
+   "name_romaji": "Negitoro",
+   "name_en": "minced fatty tuna scraps mounded on a rice cup, wrapped in nori",
+   "summary_ja": "トロの部位を骨についた身ごと叩き刻んだもの。軍艦巻きの定番ネタの一つとされ、切り身では出せない脂と粘りの一体感を楽しむネタだという。骨を無駄にしない工夫から生まれたと伝わる。",
+   "summary_en": "Fatty tuna scraps, including meat scraped from the bone, minced fine. It's counted among the standard toppings for gunkan-maki, offering a fat-and-stickiness unity a sliced cut can't give — said to have started as a way not to waste meat left on the bone.",
+   "body_ja": "## 何でできているか\n骨に残った身や筋の多い部分など、切り身にはしづらいトロの部位を細かく叩き刻んだもの。単体の脂の甘みに加え、包丁で叩くことで出る独特の粘りが持ち味とされる。刻んだ青ねぎを合わせることが多いが、ねぎを使わない店もあるという。口の中でとろけるように広がる食感は、切り身のトロとはまた違う楽しみ方だとされ、軍艦巻きの中でも人気の高いネタの一つだという。\n## どう作るのか\n骨についた身を丁寧にこそげ取り、筋を断ち切るように包丁で叩いて細かくする。酢飯を海苔で囲んだ軍艦の形にのせ、崩れやすい刻み身をこぼさず提供できるようにするのが軍艦巻きという形だとされる。青ねぎのほか、刻んだガリを添える店もあるという。粘りの出方は叩く細かさで変わり、粗く刻むか細かくするかは店ごとの好みが分かれるとされる。\n## なぜこの形になったのか\nもとは骨に残ったトロの身を無駄にしないための工夫だったと伝わる。握りでは形が保てない刻み身も、酢飯を海苔で囲んで固定する軍艦巻きの形なら盛れる。1941年に銀座の寿司店で軍艦巻きが考案されたことで、ネギトロのような崩れやすいネタも寿司として出しやすくなり、今では軍艦巻きの代表ネタの一つとしてイクラやウニと並んで数えられているという。",
+   "body_en": "## What it's made of\nMeat scraped from the bone and other sinewy parts of the fatty tuna too awkward to slice as a cut, minced fine. Beyond the fat's own sweetness, the stickiness that comes from mincing with a blade is said to be the point. Chopped scallion is often mixed in, though some shops skip it. The way it melts and spreads in the mouth is said to be a different pleasure than tuna served as a clean slice.\n## How it's made\nMeat left clinging to the bone is carefully scraped off, then chopped with a blade to cut through the sinew until fine. It's mounded onto a cup of vinegared rice wrapped in nori — the gunkan-maki shape, said to be built precisely so a topping too loose to hold its form doesn't spill. Some shops add chopped pickled ginger alongside the scallion.\n## Why it took this shape\nIt's said to have started as a way not to waste the tuna meat left on the bone. Minced meat like this can't keep its shape as nigiri, but a gunkan-maki, with nori holding rice around it, can carry it. Once gunkan-maki was reportedly invented at a Ginza sushi shop in 1941, loose toppings like negitoro became far easier to serve as sushi, and it's now counted among the style's standard toppings.",
+   "sources": [
+    {
+     "title": "軍艦巻",
+     "url": "https://ja.wikipedia.org/wiki/軍艦巻き",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "鮪",
+     "url": "https://ja.wikipedia.org/wiki/鮪",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "negitoro",
+     "to_slug": "maguro",
+     "relation_type": "兄弟",
+     "basis": "同じマグロの、骨についた身を刻んだ部位（ウィキペディア「軍艦巻」がネギトロを代表ネタの一つに挙げる）"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "shime-saba",
+   "name_ja": "シメサバ",
+   "name_romaji": "Shime-saba",
+   "name_en": "mackerel cured first in salt, then in vinegar",
+   "summary_ja": "三枚におろした鯖を塩でしめ、酢に浸けて仕立てたもの。生食に不向きとされる鯖を安全に、かつ身を締めて食べさせるための仕事とされる。江戸前の光り物を代表する一品として扱われてきたという。",
+   "summary_en": "Mackerel filleted into three pieces, salted, then cured in vinegar. It's the preparation said to make a fish considered unsafe raw both safe to eat and firmer on the tongue — treated as the signature piece among Edomae's oily 'hikarimono' fish.",
+   "body_ja": "## 何でできているか\n三枚におろした鯖の身。塩と酢の力で表面がわずかに白く締まり、生の刺身とは違う張りのある食感になる。青魚らしい脂の香りは残るが、酢の酸味が輪郭をはっきりさせるという。皮目の銀色の光沢もそのまま活かされ、皮を引かずに削ぎ切りにする仕立てが多いとされる。脂の乗り具合は季節によって変わり、仕立ての塩梅もそれに応じて調整されるという。\n## どう作るのか\n頭と内臓を取って三枚におろした鯖を、まず塩に一晩ほど浸けて余分な水分と生臭さを抜く。塩を洗い落としたのち酢に浸け、身を締める。塩と酢それぞれの時間や配合には店ごとに流儀があるとされる。骨を抜いてから握りに仕立て、わさびや生姜を添えて出すこともあるという。締めすぎると酸味が勝ちすぎるため、時間の見極めが仕事の要とされる。\n## なぜこの形になったのか\n鯖は足が早く、寄生虫の心配もあることから生食に向かない魚とされてきた。塩と酢でしめることで身を締めつつ菌の働きを抑え、安全に食べられる形にしたのがこの仕事だという。江戸前の光り物の仕事の中でも、酢締めを代表する一品として扱われてきたとされ、米にのせれば鯖寿司やバッテラとも呼ばれる、系譜の広い仕事だとされ、地域や店によって塩と酢の配合が異なるのも特徴だという。",
+   "body_en": "## What it's made of\nMackerel filleted into three pieces. Salt and vinegar together tighten the surface to a faint white and give it a firmer bite than raw sashimi. The oily, blue-fish aroma stays, but the vinegar's tang is said to sharpen its edges. The skin keeps its silver sheen, and it's often sliced with the skin left on rather than pulled off.\n## How it's made\nMackerel, gutted and filleted into three pieces, is first salted for about a night to draw out moisture and any fishy edge. The salt is rinsed off and the fish cured in vinegar to firm the flesh. The timing and ratio for both stages is said to vary by shop. The pin bones are pulled before it's shaped into nigiri, sometimes served with wasabi or ginger.\n## Why it took this shape\nMackerel spoils fast and carries a risk of parasites, making it a fish long considered unsuited to eating raw. Curing it first in salt, then in vinegar, is said to firm the flesh while holding bacterial growth back, turning it into something safe to eat. Among Edomae's work on oily 'hikarimono' fish, this vinegar-cure is treated as a signature piece, and laid over rice it's what becomes saba-zushi or batterazushi.",
+   "sources": [
+    {
+     "title": "きずし",
+     "url": "https://ja.wikipedia.org/wiki/しめさば",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "握り寿司",
+     "url": "https://ja.wikipedia.org/wiki/握り寿司",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shime-saba",
+     "to_slug": "saba",
+     "relation_type": "派生",
+     "basis": "生食に不向きな鯖を塩と酢で締めるという仕事（ウィキペディア「きずし」）"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "kisu-kawashimo",
+   "name_ja": "キス（皮霜仕立て）",
+   "name_romaji": "Kisu (Kawashimo-jitate)",
+   "name_en": "sillago given a quick pass of heat on the skin before it's sliced",
+   "summary_ja": "皮目に軽く熱を通し、冷水で締めてから開いたキス。淡白な白身に、皮のわずかな旨みと歯ざわりを添えるための仕事とされる。将軍にも献上された江戸の白身の代表格で、小骨の多さも扱いの難しさに数えられるという。",
+   "summary_en": "Sillago given a quick pass of heat on its skin, then cooled in ice water before being butterflied. It's a way of adding the skin's faint richness and bite to an otherwise very plain white fish — a fish once served daily even to the shogun, and known for its many small bones.",
+   "body_ja": "## 何でできているか\nキスは脂の少ない淡白な白身で、皮は薄く繊細。皮目だけに軽く熱を通してから氷水で締める「皮霜」の仕事を施すと、身は生のまま、皮のきわだけに火が入った状態になる。皮に近い部分の旨みが引き立ち、淡白さの中に奥行きが生まれるという。天ぷら種としても名高く、身の淡白さと上品な甘みは素材そのものの評価として古くから高いとされる。刺身にすると水っぽくなりやすいため、皮の仕事が味を左右するともいう。\n## どう作るのか\n三枚におろしたキスの皮目に湯をかけるか、皮を軽く炙ってから氷水にとって身を締める。皮の厚い魚や旨みのある皮を持つ魚に用いられる仕事で、コハダなど他の光り物にも通じる考え方とされる。骨切りに近い細かな包丁も入ることがあり、小骨の多さが下処理の丁寧さを求めるという。開いた身を一尾分そのまま使うため、姿の美しさも仕上がりの評価に含まれるとされる。\n## なぜこの形になったのか\nキスは江戸時代、将軍の献立に日常的に上るほど重んじられた魚だったと伝わり、月に何度かは決まった献立が出されるほどだったという。小骨が多く皮も薄いため、皮の旨みを殺さず食べやすくする工夫として、熱を通してから締める仕事が磨かれてきたとされる。淡白な白身だからこそ、仕事の差が味に出やすいといい、地味な見た目に反して手間のかかるネタとされる。",
+   "body_en": "## What it's made of\nSillago is a very plain, low-fat white fish with delicate, thin skin. Giving just the skin a quick pass of heat, then chilling it in ice water — the 'kawashimo' treatment — leaves the flesh raw while only the skin's edge is cooked. The result is said to draw out the richness sitting just under the skin and give an otherwise plain fish some depth.\n## How it's made\nAfter the fish is filleted into three pieces, hot water is poured over the skin, or it's lightly seared, then plunged into ice water to firm the flesh. This treatment is used on fish with thick skin or skin that carries flavor, a logic said to connect it to the vinegar work done on kohada and other oily 'hikarimono.' Fine scoring cuts close to honeboné work are sometimes added too.\n## Why it took this shape\nSillago is said to have been valued enough in the Edo period to appear on the shogun's table almost daily. With its many small bones and thin skin, the practice of applying heat before chilling is thought to have been refined as a way to keep the skin's flavor while still making the fish easy to eat. Because the fish itself is so plain, the difference this work makes is said to show clearly in the taste.",
+   "sources": [
+    {
+     "title": "刺身",
+     "url": "https://ja.wikipedia.org/wiki/刺身",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "キス (魚)",
+     "url": "https://ja.wikipedia.org/wiki/キス_(魚)",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kisu-kawashimo",
+     "to_slug": "kisu",
+     "relation_type": "派生",
+     "basis": "皮目にだけ熱を通してから締めるという仕事（ウィキペディア「刺身」の皮霜造りの記述）"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "sayori",
+   "name_ja": "サヨリ",
+   "name_romaji": "Sayori",
+   "name_en": "halfbeak — a slender, silver-bodied fish with a jet-black belly lining",
+   "summary_ja": "背は青緑、腹は銀色に輝く細身の魚。腹の中の膜が真っ黒なのが特徴で、下処理でこれを丁寧にこすり落とすかどうかが仕事の分かれ目になるという。旬は春とされ、江戸前の季節を告げるネタの一つとして扱われてきたと伝わる。",
+   "summary_en": "A slender fish, its back blue-green and its belly a bright silver. Its distinguishing trait is a jet-black lining inside the belly, and whether that's carefully scraped away during prep is said to be where the work shows — a fish said to announce spring at an Edomae counter.",
+   "body_ja": "## 何でできているか\n背は青緑、腹は銀色に輝く細身の魚で、あっさりとした白身は上品な甘みを持つとされる。腹の中の膜が真っ黒なのが特徴で、これは筋肉が半透明で光を通しやすいため、体内への光を遮る適応とみられるという。下顎の先端が赤いことも見分けの目印になり、姿の美しさそのものが評価される魚だという。細く華奢な体つきから、上品さの象徴として扱われることもあるとされる。\n## どう作るのか\n三枚におろし、腹の中の黒い膜を包丁の背やまな板でこすり落としてから使う。この膜を残すと生臭さと苦みが出るとされ、丁寧に取り除くかどうかが仕事の差になるという。細身のため一尾で一貫分に足りず、開いて姿を活かした握りに仕立てることが多く、切り口の美しさも仕事のうちとされる。皮目に細かい飾り包丁を入れて見た目を整える店もあるという。\n## なぜこの形になったのか\n漁期は春から秋、旬は3月から5月とされ、江戸前の春を告げるネタの一つとして扱われてきたと伝わる。身が薄く傷みやすいため、鮮度が落ちる前に手早く開いて出す扱いが基本になったという。塩で食べると甘みが引き立つとされ、淡白さを活かす仕事が中心になっているといい、天ぷらや干物など他の食べ方も並んで伝わる、江戸前の季節を映す魚とされる。",
+   "body_en": "## What it's made of\nA slender fish with a blue-green back and a silver-bright belly, its plain white flesh said to carry a refined sweetness. Its defining feature is a jet-black lining inside the belly — thought to be an adaptation blocking light from passing through its translucent muscle. A red tip on the lower jaw is another way to identify it.\n## How it's made\nAfter being filleted into three pieces, the black lining inside the belly is scraped away with the back of the blade or against the cutting board. Left in place, it's said to bring out a fishy edge and bitterness, so how carefully it's removed becomes the mark of the work. Because the fish is so slender, one alone rarely makes a full piece, so it's often butterflied open to keep its shape for nigiri.\n## Why it took this shape\nIts catch runs spring through autumn, with a peak said to fall between March and May, and it's spoken of as one of the toppings that announces spring at an Edomae counter. Because its flesh is thin and spoils quickly, opening it fast before it loses freshness is said to be the basic approach. Eaten with just salt, its sweetness is said to come through, and the work centers on making the most of that plainness.",
+   "sources": [
+    {
+     "title": "サヨリ",
+     "url": "https://ja.wikipedia.org/wiki/サヨリ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sayori",
+     "to_slug": "kisu-kawashimo",
+     "relation_type": "対比",
+     "basis": "どちらも江戸前の淡白な白身を、皮や下処理の仕事で食べさせるネタ（ウィキペディア「サヨリ」「キス (魚)」）"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "kuruma-ebi-nigiri",
+   "name_ja": "車海老（茹で）",
+   "name_romaji": "Kuruma-ebi (Yude)",
+   "name_en": "tiger prawn, boiled straight on a skewer and shelled for nigiri",
+   "summary_ja": "活きた車海老を串に沿わせてまっすぐ茹で、殻をむいて握りに仕立てたもの。曲がった尾まで美しい姿を保つための下処理が仕事の中心になるという。活け車海老のまま流通する数少ない海老の一つとされる。",
+   "summary_en": "A live tiger prawn boiled straight along a skewer, then shelled and shaped for nigiri. Much of the work is said to go into the prep that keeps its body straight and its tail intact right through boiling — one of the few shrimp still commonly sold alive.",
+   "body_ja": "## 何でできているか\n縞模様の殻を持つ車海老を茹でて仕立てたネタ。生の甘エビとは違い、火を通すことで身が締まり、ほんのりとした甘さと弾力のある歯ごたえが出るとされる。殻の縞模様に沿うように、身にもうっすらと縞が残り、尾までまっすぐ伸びた姿が見た目の評価にもつながるという。塩焼きや天ぷら、フライなど幅広い料理法を持つ海老の中でも、寿司では茹でが基本とされる。\n## どう作るのか\n活きた車海老に竹串を腹側から刺してまっすぐ固定し、丸まらないようにしてから茹でる。冷ましてから殻と背わたを取り、腹を開いて一尾分の身を握りにのせる。串を使うのは、丸まったまま茹でると姿が崩れるためだという。茹で加減も身の締まりを左右する繊細な工程とされ、茹ですぎると硬く締まりすぎるという。塩加減も店ごとに工夫が分かれるとされる。\n## なぜこの形になったのか\n車海老は淡水にも通じる汽水域で育つ養殖種として古くから盛んで、活きたまま流通する数少ない海老とされる。生きたままの姿の美しさを寿司の上でも保ちたいという狙いから、串でまっすぐ固定して茹でる仕事が定着したと考えられている。天ぷらや塩焼きなど他の調理にも通じる、姿を活かす扱いが車海老には共通しているといい、祝いの席の料理にも用いられてきたとされる。",
+   "body_en": "## What it's made of\nA tiger prawn in its striped shell, boiled before serving. Unlike raw sweet shrimp, cooking firms the flesh, giving it a faint sweetness and a springy bite. Faint stripes carry over into the meat itself, echoing the pattern on the shell.\n## How it's made\nA live tiger prawn is skewered straight through from the underside to keep it from curling, then boiled. Once cooled, the shell and vein are removed and the body opened out to lay a whole prawn across a piece of nigiri. The skewer is used because boiling it loose would let the body curl and lose its shape.\n## Why it took this shape\nTiger prawns have long been farmed in brackish water and are among the few shrimp that reach market still alive. The practice of skewering it straight before boiling is thought to have taken hold as a way to carry the beauty of its living shape through to the sushi counter.",
+   "sources": [
+    {
+     "title": "クルマエビ",
+     "url": "https://ja.wikipedia.org/wiki/クルマエビ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kuruma-ebi-nigiri",
+     "to_slug": "kuruma-ebi",
+     "relation_type": "兄弟",
+     "basis": "同じ車海老を、茹でて殻をむいた握りの形にした仕事"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "ama-ebi-nigiri",
+   "name_ja": "甘海老",
+   "name_romaji": "Ama-ebi",
+   "name_en": "northern shrimp, its raw sweetness building after it's caught",
+   "summary_ja": "ホッコクアカエビの通称。生きているうちは甘みを感じにくく、水揚げ後にアミノ酸が増えて甘くなるとされる。頭は捨てずに素揚げにされることも多く、身とは別の濃い旨みを持つという。",
+   "summary_en": "The common name for the northern shrimp. It's said to carry little sweetness while alive, only developing it after landing as amino acids build up — and the head, often fried whole rather than discarded, carries a rich flavor of its own.",
+   "body_ja": "## 何でできているか\n殻が柔らかく、身が剥がれやすい海老。生で食べるとグリシンやアラニンといったアミノ酸に由来する甘みが感じられ、これが「甘」の名の由来になったとされる。とろけるような食感が持ち味で、大ぶりの雌が握りに向くという。殻の薄さゆえに身離れがよく、下処理の負担が少ない海老ともいわれ、色の濃い赤も見た目の華やかさにつながっているという。北の海で獲れる冷たい水域の海老とされる。\n## どう作るのか\n殻をむいて背わたを取り、そのまま握りにのせる。捕れた直後は甘みをあまり感じられず、死後しばらくしてタンパク質がアミノ酸に分解されることで甘くなっていくとされ、店頭に並ぶ頃合いが食べ頃とされる。頭の中の「海老味噌」は濃い旨みを持つといい、唐揚げや味噌汁の実など、身とは別の料理に回されることが多いという。\n## なぜこの形になったのか\n冷蔵・冷凍の流通が整う以前、生の海老を遠くまで運んで甘みが増した状態で提供するのは難しかったとされる。輸送と保存の技術が進んだことで、水揚げから時間を置いて甘みがのった状態のまま握りに使えるようになったという。今では回転寿司でも定番のネタとして扱われ、手ごろな高級感を持つ海老として親しまれているという。輸入品が増えたことで年間を通じて手に入りやすくなったとも伝わる。",
+   "body_en": "## What it's made of\nA soft-shelled shrimp whose meat comes away easily. Eaten raw, it carries a sweetness said to come from amino acids like glycine and alanine — reportedly the source of its 'ama' (sweet) name. A melting texture is its hallmark, and the larger females are said to suit nigiri best.\n## How it's made\nThe shell is peeled and the vein removed before it's laid across nigiri as is. It's said to carry little sweetness right after being caught, only growing sweet as protein breaks down into amino acids over the following hours — meaning the moment it reaches a shop's counter is often its peak. The rich paste inside the head, sometimes called 'shrimp miso,' carries strong flavor and is often used separately, deep-fried.\n## Why it took this shape\nBefore refrigerated and frozen distribution matured, it's said to have been difficult to carry raw shrimp far enough for its sweetness to build before serving. Better transport and storage are thought to have made it possible to hold the shrimp long enough after landing for that sweetness to develop before it reaches nigiri.",
+   "sources": [
+    {
+     "title": "ホッコクアカエビ",
+     "url": "https://ja.wikipedia.org/wiki/アマエビ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ama-ebi-nigiri",
+     "to_slug": "ama-ebi",
+     "relation_type": "兄弟",
+     "basis": "同じホッコクアカエビを、殻をむいた握りの形にした仕事"
+    },
+    {
+     "from_slug": "ama-ebi-nigiri",
+     "to_slug": "botan-ebi-nigiri",
+     "relation_type": "対比",
+     "basis": "どちらも生で食べる甘い海老だが、希少性と価格帯で扱いが分かれる"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "botan-ebi-nigiri",
+   "name_ja": "ボタン海老",
+   "name_romaji": "Botan-ebi",
+   "name_en": "spot prawn, a rarer and richer relative served raw",
+   "summary_ja": "甘海老よりも大ぶりで漁獲量が少なく、とろけるような甘みを持つ海老。高価で料亭や高級寿司店以外ではあまり見かけられないとされる。近縁の複数種がまとめてこの名で流通しているという。",
+   "summary_en": "Larger than the northern shrimp and far less commonly caught, with a melting sweetness of its own. Said to be expensive enough that it rarely turns up outside high-end restaurants and sushi counters, with several related species sold under the same name.",
+   "body_ja": "## 何でできているか\n甘海老よりひとまわり大きく、身に弾力がありながらとろけるような甘さを持つ海老。殻や脚に赤い斑点が見られ、これが牡丹の花に見立てられて名がついたとされる。漁獲量が少なく、高級ネタとして扱われるという。加熱しないぶん、鮮度がそのまま味に直結するとされ、身の透明感も鮮度の目安になるといい、時間が経つと白く濁っていくとされる。\n## どう作るのか\n殻をむいて背わたを取り、大ぶりの身をそのまま握りにのせる。甘海老と同様に生で提供されることが多く、加熱せずに身の弾力と甘みを直接味わわせる仕立てが基本とされる。頭を別に焼いたり揚げたりして添える店もあり、身と頭それぞれの持ち味を出す仕事が求められるという。大ぶりな分、切り付けの厚みで食感の印象も変わるとされ、一尾からとれる身の量そのものが甘海老より多いという。\n## なぜこの形になったのか\n甘海老と混同されやすいが、漁獲量の少なさと大ぶりな身から別格の扱いを受けてきたとされる。旬は秋から春とされ、漁期がそのまま食べ頃と重なるため、季節の高級ネタとして料亭や高級店を中心に扱われてきたという。本種のほかトヤマエビなど近縁種も同じ名で流通しており、回転寿司でも高級ネタとして扱われることがあるといい、名前の由来となった花の彩りが今もそのまま評価につながっているとされる。",
+   "body_en": "## What it's made of\nA shrimp somewhat larger than the northern shrimp, with a springy body carrying a melting sweetness of its own. Red spots on its shell and legs are said to have earned it its name, likened to a peony (botan) in bloom. Caught in smaller numbers, it's treated as a premium topping.\n## How it's made\nThe shell is peeled and the vein removed, and the large body laid whole across nigiri. Like the northern shrimp, it's usually served raw, the basic approach built around letting its springy bite and sweetness come through without cooking. Some shops grill or fry the head separately as a side.\n## Why it took this shape\nOften confused with the northern shrimp, it's said to be treated as something apart because of how little of it is caught and how large its body runs. Its season is said to fall autumn through spring, meaning the catch period and its prime eating window line up — a seasonal, premium topping kept mostly to fine restaurants and high-end counters.",
+   "sources": [
+    {
+     "title": "ボタンエビ",
+     "url": "https://ja.wikipedia.org/wiki/ボタンエビ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "botan-ebi-nigiri",
+     "to_slug": "botan-ebi",
+     "relation_type": "兄弟",
+     "basis": "同じボタンエビを、殻をむいた握りの形にした仕事"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "uni-gunkan",
+   "name_ja": "ウニ軍艦",
+   "name_romaji": "Uni Gunkan",
+   "name_en": "sea urchin roe mounded in a nori-wrapped rice cup",
+   "summary_ja": "ウニの生殖巣を酢飯の上にのせ、海苔で囲んで固定したもの。形を保てない素材を軍艦巻きという器に盛る、寿司ならではの解決策とされる。ミョウバン処理の有無が味と品質を左右するという。",
+   "summary_en": "Sea urchin gonads mounded on vinegared rice, held in place by a band of nori. A sushi-specific solution for serving something that can't otherwise keep its own shape — whether it's alum-treated is said to shape both its taste and quality.",
+   "body_ja": "## 何でできているか\n食べているのはウニの生殖巣（精巣・卵巣）で、崩れやすくとろりとした質感を持つ。市販品はミョウバンで軽く処理された「板ウニ」か、近年増えている塩水パックのものが多いとされる。ミョウバンは型崩れを防ぐ一方、渋みの原因にもなるといい、無添加を売りにする店もあるという。色は種類や産地によって濃淡が分かれ、それも店選びの目安になるとされる。\n## どう作るのか\n殻から取り出したウニの身を崩さないよう木枠に並べて板状にし、酢飯を握らずに海苔で囲んだ器の上に盛る。握って固めることができない素材のため、軍艦巻きという形自体がウニのためにあるような扱いを受けているとされる。海苔のパリッとした食感と、身のとろける食感の対比も持ち味の一つだという。海苔が湿気るとこの対比が失われるため、供する直前に巻く店も多いとされる。\n## なぜこの形になったのか\n握り寿司はもともと、酢飯とネタを手で押し固めて一貫にする料理だが、ウニのようにとろけるネタはその方法で形を保てない。1941年、銀座の寿司店で軍艦巻きが考案されたことで、崩れやすいネタを飯の上に盛って海苔で留める盛り付けが可能になったと伝わる。今ではウニは軍艦巻きを代表するネタの一つとして扱われており、産地や種類の違いを食べ比べる楽しみ方も広まっているという。",
+   "body_en": "## What it's made of\nWhat's eaten is the sea urchin's gonads — testes and ovaries — a soft, near-liquid texture that can't hold together on its own. Commercial urchin is often lightly treated with alum as 'ita-uni' (board urchin), or increasingly sold packed in saltwater instead. Alum is said to prevent the roe from collapsing but can add a slight bitterness, which is why some shops advertise using none. Color varies by species and region, and that variation is itself said to guide which shop diners choose.\n## How it's made\nRoe removed from the shell is laid out in wooden frames to keep its shape as a flat block, then mounded onto a cup of unpressed vinegared rice wrapped in a band of nori. Because this is a material that can't be pressed and held by hand, the gunkan-maki shape itself is treated as though it exists almost specifically for sea urchin. The contrast between the crisp nori and the melting roe is said to be part of the pleasure.\n## Why it took this shape\nNigiri-zushi was originally built around pressing rice and topping together by hand into one piece, a method that can't hold something as soft as urchin roe. Gunkan-maki, reportedly invented at a Ginza sushi shop in 1941, is said to have made it possible to mound a topping too loose to press onto rice and hold it there with a wall of nori. Sea urchin is now counted among gunkan-maki's defining toppings.",
+   "sources": [
+    {
+     "title": "ウニ",
+     "url": "https://ja.wikipedia.org/wiki/ウニ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "軍艦巻",
+     "url": "https://ja.wikipedia.org/wiki/軍艦巻き",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "uni-gunkan",
+     "to_slug": "murasaki-uni",
+     "relation_type": "兄弟",
+     "basis": "同じウニの生殖巣を、軍艦巻きの形にした仕事"
+    },
+    {
+     "from_slug": "uni-gunkan",
+     "to_slug": "ikura-gunkan",
+     "relation_type": "対比",
+     "basis": "どちらも形を保てない素材を軍艦巻きという器で盛るネタ（ウィキペディア「軍艦巻」）"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "ikura-gunkan",
+   "name_ja": "イクラ軍艦",
+   "name_romaji": "Ikura Gunkan",
+   "name_en": "salmon roe, separated grain by grain, mounded in nori-wrapped rice",
+   "summary_ja": "サケの卵をひと粒ずつばらしたもの。筋子との違いは薄皮を残しているかどうかとされ、軍艦巻きの形で酢飯の上に盛られる。噛むとプチプチと弾ける食感が最大の持ち味だとされ、色つやも鮮度の目安になるという。",
+   "summary_en": "Salmon roe separated into individual grains. What sets it apart from unseparated sujiko is said to be whether the thin membrane around each egg is left on, and it's served mounded in gunkan-maki, its popping texture the main draw and its color a guide to freshness.",
+   "body_ja": "## 何でできているか\n食べているのはサケの卵を一粒ずつにばらしたもの。名はロシア語で魚卵を指す言葉に由来するとされ、日本では特にサケ科の卵をばらしたものだけをこう呼ぶという。噛むとプチプチと弾け、中から濃い旨みの液が出てくるのが持ち味とされる。粒の大きさや色つやも鮮度や産地によって違って見えるといい、オレンジ色が濃いほど良品とされることが多いという。\n## どう作るのか\n卵巣ごと取り出した卵を薄い塩水や醤油だれに漬け、粒同士をつなぐ膜をもみほぐして一粒ずつに分ける。漁獲から時間が経つと粒が硬くなり「筋子」として扱われるとされ、鮮度のよいうちに手早くばらす仕事が求められるという。醤油だれに漬ける時間で味の濃さを調整する店もあるとされ、漬けすぎると粒の張りが失われるといい、塩水だけで仕上げるあっさりとした仕立てを好む店もあるという。\n## なぜこの形になったのか\n粒がばらばらで、握りのように押し固めることができない。酢飯を海苔で囲んで留める軍艦巻きという盛り付けが1941年に考案されたことで、イクラのような粒状の素材もこぼさず一貫として出せるようになったと伝わる。海鮮丼やおにぎりの具としても定番になっており、軍艦巻きの中でも特に人気の高いネタとされ、子供から大人まで幅広く好まれる味という。",
+   "body_en": "## What it's made of\nWhat's served is salmon roe separated into individual grains. The name is said to come from a Russian word for fish roe in general, though in Japan it refers specifically to separated salmon-family roe. Each grain is meant to pop between the teeth, releasing a rich burst of flavor. Grain size and color are said to shift visibly with freshness and origin.\n## How it's made\nRoe is removed still inside its ovarian sac, then soaked in light brine or a soy marinade while the membrane binding the eggs together is worked loose by hand until each grain sits separate. Left too long after catching, the eggs are said to firm up and get treated instead as sujiko, so separating them while still fresh is said to be the point of the work. Some shops adjust flavor by varying how long the roe sits in the soy marinade.\n## Why it took this shape\nLoose grains can't be pressed together the way nigiri toppings are. Gunkan-maki, the style of banding rice with nori, is said to have been invented in 1941, and once it existed, a grainy material like salmon roe could finally be served as a single piece without spilling. It's also become a standard topping for kaisendon bowls and onigiri.",
+   "sources": [
+    {
+     "title": "イクラ",
+     "url": "https://ja.wikipedia.org/wiki/イクラ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "軍艦巻",
+     "url": "https://ja.wikipedia.org/wiki/軍艦巻き",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ikura-gunkan",
+     "to_slug": "sake-salmon",
+     "relation_type": "兄弟",
+     "basis": "同じサケの卵を、軍艦巻きの形にした仕事"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "ika-kanokozukuri",
+   "name_ja": "イカの鹿の子造り",
+   "name_romaji": "Ika no Kanoko-zukuri",
+   "name_en": "squid scored in a fine cross-hatch to make its thick skin easy to bite through",
+   "summary_ja": "スミイカやアオリイカなどの身に格子状の切れ目を入れる仕事。皮に近い部分に旨みがあるが厚くて噛み切りにくい身を、食べやすくしつつ甘みを引き出すための技とされる。見た目にも美しい飾り包丁の一つという。",
+   "summary_en": "A technique of scoring squid flesh in a fine cross-hatch. It's meant to make a thick-skinned cut — flavorful near the skin but hard to bite through — easier to eat while drawing out its sweetness, one of sushi's more visually striking knife techniques.",
+   "body_ja": "## 何でできているか\nスミイカ（コウイカ）やアオリイカなど、身に厚みと甘みのあるイカが素材になる。アオリイカは遊離アミノ酸の量が国産イカの中でも最高水準とされ、弾力に富みながら強い甘みを持つという。鹿の子造りを施すと、噛み切りやすさに加えて格子の切れ目から甘みがにじみ出やすくなるとされる。透き通るような身の色も見た目の評価につながるという。\n## どう作るのか\n皮を引いた身の表面に、縦横斜めに浅い格子状の切れ目を細かく入れる。皮に近い部分に旨みはあるが皮が厚く噛み切りにくい魚やイカ、貝類に用いられる技とされ、切れ目を入れることで繊維を断ち切り、口当たりを柔らかくする狙いがあるという。切れ目の深さや間隔は職人によって異なり、仕上がりの見た目にも差が出るとされ、格子の細かさそのものが技量を示すともいう。\n## なぜこの形になったのか\nイカは弾力が強く、そのまま切ると噛み切りにくい素材とされる。格子状に切れ目を入れて食べやすくする工夫は、皮の厚い魚介全般に通じる飾り包丁の考え方から生まれたと考えられており、見た目の美しさと食べやすさを両立させる仕事として扱われてきたという。細造りなど他の切り方と組み合わせて出す店もあり、素材の個性に応じて使い分けられているとされる。",
+   "body_en": "## What it's made of\nSquid with thick, sweet flesh — cuttlefish (sumi-ika) or bigfin reef squid (aori-ika) among them — is the material here. Aori-ika is said to carry among the highest levels of free amino acids of any domestic squid, giving it both a springy bite and strong sweetness. Scoring it this way is said to make it easier to bite through while letting sweetness seep out through the cuts. Its near-translucent color is also said to factor into how it's judged.\n## How it's made\nThe skinned flesh has a fine, shallow cross-hatch of cuts scored into its surface, running vertically, horizontally, and on the diagonal. This is a technique used on fish, squid, and shellfish whose flavor sits near a skin too thick to bite through easily; the cuts are meant to sever the fibers and soften the texture in the mouth. How deep and how closely spaced the cuts run is said to vary by chef, changing the final look as well.\n## Why it took this shape\nSquid is known for a bite strong enough to be hard to chew through if simply sliced. Scoring it in a cross-hatch to make it easier to eat is thought to have grown out of the broader idea of decorative knife-work applied to thick-skinned seafood generally, treated as a way to hold both looks and eatability at once. Some shops combine it with other cuts, like fine julienning, on the same piece.",
+   "sources": [
+    {
+     "title": "刺身",
+     "url": "https://ja.wikipedia.org/wiki/刺身",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "アオリイカ",
+     "url": "https://ja.wikipedia.org/wiki/アオリイカ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ika-kanokozukuri",
+     "to_slug": "sumi-ika",
+     "relation_type": "派生",
+     "basis": "厚い身に格子状の切れ目を入れて食べやすくする仕事（ウィキペディア「刺身」の鹿の子造りの記述）"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "tako-sakurani",
+   "name_ja": "タコの桜煮",
+   "name_romaji": "Tako no Sakura-ni",
+   "name_en": "octopus simmered in a sweet soy broth until it takes on a pale pink blush",
+   "summary_ja": "茹でダコをさらに甘辛いたれで煮て、淡い桜色に仕立てたもの。日本ではタコの刺身は生食よりも茹でて用いるのが一般的とされ、そこからさらに手を加えた仕事の一つとされる。吸盤の並びが断面にそのまま残るのも特徴で、コリコリとした歯ごたえも持ち味という。",
+   "summary_en": "Boiled octopus simmered further in a sweet-savory soy broth until it takes on a pale pink blush. In Japan, octopus for sashimi is generally boiled rather than served raw, and this is one further step of work built on top of that, its suckers still visible across every cut.",
+   "body_ja": "## 何でできているか\n茹でて色づいたタコの身。単に茹でただけの淡白な味とは違い、甘辛い煮汁で炊くことで照りと奥行きのある甘みが加わるとされる。煮汁の色移りで身がほんのりと桜色に染まるのが名の由来だという。吸盤の並びが断面にそのまま残り、コリコリとした独特の歯ごたえも持ち味とされる。八本の脚のうちどこを使うかで太さや食感の印象も変わるという。\n## どう作るのか\n生のタコはまず塩もみをして下処理をし、余分なぬめりを落としてから茹でる。日本ではタコの刺身は普通、この茹でダコが使われ、生食は西日本のごく一部の地域に限られるとされる。さらに醤油と砂糖を合わせた煮汁でじっくり炊き上げ、味を含ませたものが桜煮になる。煮る時間の長さで硬さと味の染み具合が変わるといい、炊き加減の見極めが職人の勘所とされる。\n## なぜこの形になったのか\nタコは生のままでは身が硬く、火を通すことで初めて食べやすくなるとされる。ただ茹でるだけでなく甘辛い煮汁で炊く仕事が加わった背景には、江戸前寿司でアナゴを煮てツメを塗る仕事と同じく、保存性を高めつつ味に深みを持たせる考え方があったと考えられている。今日でも江戸前の煮物仕事を代表する一品として扱われており、握りだけでなく前菜としても供されるという。",
+   "body_en": "## What it's made of\nOctopus, boiled until it colors, then simmered further in a sweet-savory broth for a gloss and a deeper sweetness the plain boil alone doesn't give. Color from the simmering liquid tints the flesh a faint pink blush — reportedly the source of its name, 'cherry-blossom simmer.' The pattern of its suckers stays visible across the cut, and a firm, crisp bite is said to be part of the appeal.\n## How it's made\nRaw octopus is first rubbed with salt to work off its excess slime before boiling. In Japan, octopus sashimi is said to normally use this boiled form; serving it raw is limited to a few pockets of western Japan. From there, it's simmered slowly in a broth of soy sauce and sugar until the flavor soaks through, which is what turns it into sakura-ni. How long it simmers is said to shape both its firmness and how deeply the flavor sets in.\n## Why it took this shape\nRaw octopus is said to be too tough to eat comfortably until it's cooked. Behind the extra step of simmering it in a sweet-savory broth, rather than just boiling it, is thought to lie the same logic as Edomae's simmered conger eel glazed with tsume — a way of extending how well the food keeps while giving it more depth of flavor. It's still treated today as a flagship piece of Edomae's simmered work.",
+   "sources": [
+    {
+     "title": "マダコ",
+     "url": "https://ja.wikipedia.org/wiki/マダコ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "握り寿司",
+     "url": "https://ja.wikipedia.org/wiki/握り寿司",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tako-sakurani",
+     "to_slug": "madako",
+     "relation_type": "派生",
+     "basis": "茹でダコをさらに甘辛いたれで煮る仕事（ウィキペディア「マダコ」が茹で蛸を刺身の基本形とする）"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "ni-hamaguri",
+   "name_ja": "煮蛤",
+   "name_romaji": "Ni-hamaguri",
+   "name_en": "clam simmered in a sweet soy broth and glazed with its own reduced liquid",
+   "summary_ja": "ハマグリを甘辛い煮汁で煮て、煮詰めたツメを塗って仕立てたもの。生のまま握るのではなく、火を通して味を含ませる江戸前の煮物仕事の一つとされる。俳句では春の季語とされるほど季節感の強い貝で、婚礼や祝いの席にも用いられるという。",
+   "summary_en": "Clam simmered in a sweet soy broth, then brushed with a glaze reduced from its own cooking liquid. Rather than being served raw, it's cooked and worked into flavor — part of Edomae's tradition of simmered toppings, and a clam tied closely enough to spring to stand as a season word in haiku.",
+   "body_ja": "## 何でできているか\n殻から外したハマグリの身。甘辛い煮汁で火を通すことで、生のコリコリとした食感とは違う、しっとりとした噛み応えに変わるとされる。仕上げに煮汁を煮詰めたツメを塗ることで、照りと濃い甘みが加わるという。俳句では春の季語とされるほど、季節感の強い貝でもあり、婚礼やひな祭りの吸い物にも用いられる縁起物とされる。対になっていた貝殻としか合わないことから、夫婦円満の象徴とされるという。\n## どう作るのか\n殻をむいたハマグリを醤油と砂糖を合わせた煮汁で短時間煮て、身を締めすぎないよう火を通す。煮汁はさらに煮詰めて粘度のあるツメに仕立て、握った身の表面に刷毛で塗って仕上げる。生食用の刺身とは別に、この煮る仕事のために用意される個体もあるとされ、火入れの時間が短すぎても長すぎても食感を損なうという。大ぶりな個体ほど煮ても身が締まりにくいとされる。\n## なぜこの形になったのか\n生のハマグリは身が硬く締まりやすいため、江戸前では火を通して食べやすくする仕事が発達したと考えられている。アナゴを煮てツメを塗る仕事と同じ考え方の延長にあり、火入れと煮詰めた甘辛いたれで持ち味を補う、江戸前の煮物仕事の系譜に連なるとされる。時雨煮など、生姜を効かせて煮る近縁の料理法も伝わっており、握りのほか前菜として供されることもあるという。",
+   "body_en": "## What it's made of\nClam meat removed from its shell. Cooking it in a sweet soy broth turns its raw, crisp bite into a softer, moister chew, quite different from eating it raw. A glaze reduced from that same cooking liquid, brushed on at the end, is said to add a shine and a deeper sweetness. The clam is tied closely enough to the season that it stands as a spring reference in haiku, and is treated as a lucky food served at weddings and the Doll Festival.\n## How it's made\nShelled clam meat is simmered briefly in a broth of soy sauce and sugar, cooked just enough not to toughen. The broth is then reduced further into a thick glaze, brushed over the meat once it's shaped onto rice. Some clams are said to be set aside for this simmered treatment separately from those meant to be eaten raw, and either too short or too long a simmer is said to spoil the texture.\n## Why it took this shape\nRaw clam meat is prone to toughening, and Edomae is thought to have developed this cooked treatment as a way to keep it easy to eat. It extends the same logic behind simmering conger eel and glazing it with tsume — using heat and a reduced sweet-savory sauce to round out a topping's character — and sits within that same lineage of Edomae's simmered work. A related method using ginger, called shigure-ni, is also passed down, and larger clams are said to resist firming even after a long simmer, sometimes served as an appetizer rather than nigiri.",
+   "sources": [
+    {
+     "title": "ハマグリ",
+     "url": "https://ja.wikipedia.org/wiki/ハマグリ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "握り寿司",
+     "url": "https://ja.wikipedia.org/wiki/握り寿司",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ni-hamaguri",
+     "to_slug": "hamaguri",
+     "relation_type": "派生",
+     "basis": "生のハマグリを甘辛く煮て仕立てる仕事（ウィキペディア「ハマグリ」が時雨煮などの調理法を挙げる）"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "hotate-nigiri",
+   "name_ja": "ホタテ",
+   "name_romaji": "Hotate",
+   "name_en": "scallop adductor muscle, sliced thin and served raw for nigiri",
+   "summary_ja": "ホタテガイの貝柱をそぎ切りにして握りにしたもの。肉厚で淡白ながらほぐれやすく、グリコーゲンに由来する甘みが特徴とされる。生食用と加熱用が区別して流通する地域もあるという。",
+   "summary_en": "The scallop's adductor muscle, sliced thin and shaped into nigiri. Thick yet mild and easy to pull apart, its sweetness is said to come from stored glycogen — and some regions keep raw-grade scallops separate in distribution from those meant to be cooked.",
+   "body_ja": "## 何でできているか\n食べているのは貝を開閉させる貝柱の部分。肉厚で淡白だがほぐれやすく、舌触りと風味のよさが持ち味とされる。グリコーゲンに由来する独特の甘みがあり、生のまま食べると弾力とねっとりとした食感が同時に楽しめるという。貝柱の繊維は横に走っており、それが独特のほぐれやすさにつながっているとされる。表面に薄く格子状の切れ目を入れて味を含みやすくする仕立てもあるという。\n## どう作るのか\n貝柱を厚みのある一枚のまま、そぎ切りにして握りにのせる。生食用として扱われるものとそうでないものが区別されて流通する地域もあるとされ、鮮度の見極めが仕事の入り口になる。切り込みを入れて開き、見た目の大きさを出す仕立て方もあり、格子状の飾り包丁を添える店もあるという。厚みのある一枚をそのまま活かすか薄くそぐかは、店ごとの好みが分かれるとされる。\n## なぜこの形になったのか\nホタテは刺身や寿司ネタのほか、煮込みやバター焼き、フライなど幅広い調理に使われる貝とされる。その中でも寿司では、貝柱の甘みと食感を生かすために加熱せずそぎ切りで出す仕立てが定着してきたと考えられている。産地ごとの水温や餌の違いが甘みの強さに表れるともいわれ、北海道や東北の養殖が主な供給源になっているという。",
+   "body_en": "## What it's made of\nWhat's eaten is the adductor muscle that opens and closes the shell. Thick yet mild, and easy to pull apart, its texture and flavor are said to be the draw. A distinct sweetness comes from stored glycogen, and eaten raw it offers both a springy bite and a slightly sticky texture at once. Its fibers run crosswise, said to be part of why it pulls apart so easily.\n## How it's made\nThe muscle is sliced thin, in one piece, and laid across nigiri. In some regions, scallops sold for raw eating are kept separate in distribution from those that aren't, with judging freshness said to be the first step of the work. Some shops score and open the muscle out to make it look larger, sometimes adding a light cross-hatch for decoration.\n## Why it took this shape\nScallop is said to be used across a wide range of cooking — sashimi and sushi, but also simmered dishes, butter-searing, and frying. Within sushi specifically, serving it raw, sliced thin, is thought to have become standard as the way to make the most of the muscle's sweetness and texture. Water temperature and feed at a given farming site are said to shape how sweet it turns out.",
+   "sources": [
+    {
+     "title": "ホタテガイ",
+     "url": "https://ja.wikipedia.org/wiki/ホタテガイ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hotate-nigiri",
+     "to_slug": "hotate",
+     "relation_type": "兄弟",
+     "basis": "同じホタテガイの貝柱を、そぎ切りの握りにした仕事"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "akagai-nigiri",
+   "name_ja": "赤貝",
+   "name_romaji": "Akagai",
+   "name_en": "ark shell, its flesh reddened by blood carrying iron rather than copper",
+   "summary_ja": "血液に鉄を含む色素を持つため身が赤いことからその名がついた貝。コリコリとした食感で高級寿司ネタとされ、市販品にはサルボウガイが代用されることも多いという。鮮度が仕事の質を大きく左右する貝とされる。",
+   "summary_en": "A clam named for its red flesh, colored by blood that carries an iron-based pigment rather than the copper most mollusks use. Prized for its crisp bite, it's a premium topping often substituted commercially with the smaller ark shell relative sarubō-gai, and freshness shapes the work more than almost anything else.",
+   "body_ja": "## 何でできているか\n貝殻を開くと現れる赤い身が特徴。多くの貝が銅を含む青い血液を持つのに対し、赤貝は鉄を含む血色素を持つため血液そのものが赤く、身の色にも表れているとされる。コリコリとした強い歯ざわりと、ほのかな磯の香りが持ち味だという。血の赤さは他の貝には見られない珍しい特徴ともされ、身の色つやが鮮度をそのまま映すという。\n## どう作るのか\n貝柱と身を切り分け、包丁目を入れて開き、末広がりの形に整えて握りにのせる。ひも（外套膜）と呼ばれる縁の部分は身とは別に、軍艦や炙りなどで扱われることもあるとされる。市場に出回る安価な赤貝の多くは、近縁のサルボウガイで代用されているという。開いた身の切れ込みの入れ方一つで見た目の印象が変わるとされ、末広がりの形は縁起の良さにも通じるという。ひもの部分にはコリコリとした食感がより強く残るとされる。\n## なぜこの形になったのか\n生きた赤貝は殻を開けるとすぐに身が縮んでしまうため、鮮度が仕事の質を大きく左右するとされる。開いて末広がりに整える切り付けは、貝の身をより大きく美しく見せると同時に、繊維を断ち切って食べやすくする狙いがあると考えられている。高級店ほど活け締めの個体にこだわる傾向があるといい、開いた瞬間の身の張りで質を見極めるとされる。冬場が旬とされ、季節ごとの味の変化も評価の一部だという。",
+   "body_en": "## What it's made of\nWhat shows once the shell opens is red flesh. Where most mollusks carry blue, copper-based blood, ark shell's blood pigment is iron-based and red, a color said to carry over into the flesh itself. A strong, crisp bite and a faint brininess are its signature, and that red blood is said to be rare among shellfish generally.\n## How it's made\nThe muscle and body are separated, then scored and opened out, shaped into a fanned form before being laid on nigiri. The frilled edge, called the himo (mantle), is sometimes served separately, in gunkan or lightly seared. Much of the cheaper ark shell on the market is said to actually be the closely related, smaller sarubō-gai. How the scoring cuts are placed is said to shape the final look considerably.\n## Why it took this shape\nA living ark shell's flesh contracts almost the instant its shell is opened, meaning freshness is said to shape the quality of the work more than almost anything else. Opening the flesh out into a fanned cut is thought to serve two purposes at once: making the piece look larger and more striking, and severing the fibers to make it easier to eat. Higher-end shops are said to insist on clams kept alive right up to preparation.",
+   "sources": [
+    {
+     "title": "アカガイ",
+     "url": "https://ja.wikipedia.org/wiki/アカガイ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "akagai-nigiri",
+     "to_slug": "akagai",
+     "relation_type": "兄弟",
+     "basis": "同じ赤貝を、開いて整えた握りの形にした仕事"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "mirugai-nigiri",
+   "name_ja": "ミル貝",
+   "name_romaji": "Mirugai",
+   "name_en": "the giant water siphon of a gaper clam — a rare topping now often substituted",
+   "summary_ja": "貝殻に収まりきらないほど発達した水管を食用にする貝。国産は減少して久しく、今では高級食材の一つとされ、代用として白みると呼ばれる近縁種が多く流通しているという。皮をむく手間が仕事の中心とされる。",
+   "summary_en": "A clam eaten for its giant siphon, grown too large to fully retreat into its own shell. Domestic supply is said to have thinned for years, making it a premium item now often replaced by a related species sold as 'shiro-miru' — removing its dark skin is said to be the core of the work.",
+   "body_ja": "## 何でできているか\n食べているのは貝の後方にある水管の部分。殻に収まりきらないほど発達しており、黒い皮に覆われているのが特徴とされる。表面に海藻が付着することがあり、これが名の由来になったという。コリッとした強い歯ざわりが持ち味とされ、噛むほどに甘みがにじむともいわれる。貝殻そのものは薄く小ぶりで、水管の大きさとの対比が際立つ貝だという。\n## どう作るのか\n水管を覆う黒い皮を湯引きなどでむき、白い身を刺身や握りに仕立てる。皮を引く手間が仕事の中心になるとされ、皮を残した状態と取り除いた状態とでは食感の印象が変わるという。刺身のほか塩焼きにされることもあり、厚みのある切り付けほど歯ごたえが際立つとされる。皮の下のぬめりを丁寧に洗い流すことも仕事のうちとされる。\n## なぜこの形になったのか\n日本産のミルクイは減少し、今や高級食材の一つになっているとされ、現在流通する多くは中国産や韓国産、あるいは近縁種のナミガイ（白みる）が占めているという。希少になった本種を「本ミル」と呼んで区別する店もあり、素材の来歴を明かすこと自体が仕事の一部になっているとされ、値の張るネタとして扱われており、置いていない店も珍しくないという。旬は冬から春とされ、寒い時期ほど身が締まって甘みが増すとされる。",
+   "body_en": "## What it's made of\nWhat's eaten is the clam's siphon, grown so large it can no longer fully withdraw into its own shell. Covered in a dark skin, it sometimes carries attached seaweed — reportedly the source of its name. A strong, crisp bite is its defining trait, said to give way to a rising sweetness the more it's chewed.\n## How it's made\nThe dark skin covering the siphon is removed, often by a quick pass of hot water, before the white flesh underneath is cut for sashimi or nigiri. Much of the work is said to lie in that skin removal, since leaving it on or taking it off changes the texture noticeably. Beyond sashimi, it's sometimes salt-grilled, and a thicker cut is said to bring out the crunch even more.\n## Why it took this shape\nDomestic giant clam supply is said to have thinned to the point where it's now one of Japan's premium ingredients, with most of what's sold today coming from China or Korea, or from a related species sold as 'shiro-miru.' Some shops label the genuine, now-scarce native clam 'hon-miru' to distinguish it — disclosing a topping's origin has itself become part of the work, and it's treated as one of the pricier items on the counter.",
+   "sources": [
+    {
+     "title": "ミルクイ",
+     "url": "https://ja.wikipedia.org/wiki/ミルクイ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mirugai-nigiri",
+     "to_slug": "mirugai",
+     "relation_type": "兄弟",
+     "basis": "同じミルクイの水管を、皮をむいた握りの形にした仕事"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "engawa",
+   "name_ja": "エンガワ",
+   "name_romaji": "Engawa",
+   "name_en": "the fin-moving muscle strip along a flatfish's edge — fatty and prized",
+   "summary_ja": "ヒラメやカレイの背びれ・尻びれの付け根にある、ひれを動かす筋肉。脂が乗ってコリコリとした食感を持ち、一尾から少量しか取れない部位とされる。かつては高級ネタの代表格だったという。",
+   "summary_en": "The muscle strip running along a flatfish's back and belly edges, used to move its fins. Fatty and crisp-textured, it's a cut only a small amount of which comes from any one fish — long treated as a flagship premium topping.",
+   "body_ja": "## 何でできているか\n背びれと臀びれの付け根にある担鰭骨という骨に付いた筋肉。ヒレを絶えず動かすための筋肉のため脂がよく乗り、甘みのある脂とコリコリとした食感を併せ持つとされる。ヒラメのエンガワはとりわけ希少で、従来から高級ネタとして扱われてきたという。カラスガレイやオヒョウなど大型カレイのエンガワも流通しているとされ、種によって脂の質や量に差があるという。\n## どう作るのか\n一尾のヒラメやカレイから、背とお腹の縁に沿って細い帯状に切り出す。取れる量がごくわずかなため、複数枚を並べて一貫分の量にすることが多いとされる。脂の乗り具合を見極め、そぎ切りにして食感を活かすのが仕事の要になるという。炙って脂を軽く溶かしてから出す店もあり、生のままとは違う香ばしさが加わるとされ、塩やレモンを添える店もあるという。\n## なぜこの形になったのか\nヒラメのエンガワは一尾からわずかしか取れず、長く高級ネタとして扱われてきたと伝わる。近年は海外産の大型カレイの利用が進み、回転寿司チェーンやスーパーのパック寿司でも安価に提供できるようになったとされ、希少部位だった時代とは扱われ方が変わってきているという。大型カレイの利用が今日の値ごろ感を支えているとされ、天然のヒラメに限る店も一部で残っているという。",
+   "body_en": "## What it's made of\nA muscle attached to the fin-supporting bones running along a flatfish's back and belly edges. Because it's worked constantly to move the fins, it carries good fat, giving it a sweetness alongside a crisp, springy bite. The engawa from a true flounder is said to be especially scarce and has long been treated as a premium topping. Engawa from larger flatfish like Greenland halibut and Pacific halibut also circulates commercially, and the muscle is said to be worked constantly enough by the fish's own movement to build noticeably more fat than the rest of the body.\n## How it's made\nA thin strip is cut from along the back and belly edge of a single flatfish. Because so little comes from any one fish, several strips are often laid side by side to make up a single piece. Reading how well the fat has developed and slicing it thin to make the most of its texture is said to be the core of the work. Some shops lightly sear it first to melt the fat before serving.\n## Why it took this shape\nA flounder's engawa yields only a small amount per fish and has long been treated as a premium cut. In recent years, the use of large imported flatfish is said to have made it possible to offer engawa cheaply even at conveyor-belt chains and supermarket sushi packs, changing how a once-scarce cut is treated today. The fat's quality and quantity are said to vary noticeably by species.",
+   "sources": [
+    {
+     "title": "えんがわ",
+     "url": "https://ja.wikipedia.org/wiki/エンガワ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "ヒラメ",
+     "url": "https://ja.wikipedia.org/wiki/ヒラメ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "engawa",
+     "to_slug": "hirame",
+     "relation_type": "兄弟",
+     "basis": "同じヒラメのひれを動かす筋肉の部位（ウィキペディア「えんがわ」）"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "hirame-kobujime",
+   "name_ja": "ヒラメの昆布締め",
+   "name_romaji": "Hirame no Kobujime",
+   "name_en": "flounder sandwiched between sheets of kelp to draw out extra umami",
+   "summary_ja": "ヒラメの身を昆布で挟んで寝かせたもの。水分が昆布に吸われて身が締まり、昆布のグルタミン酸が移ることで、刺身とは違う深い味わいになるとされる。冬が旬の「寒ビラメ」に向く仕事という。",
+   "summary_en": "Flounder fillets sandwiched between sheets of kelp and left to rest. Moisture is drawn into the kelp, firming the flesh, while glutamate from the kelp seeps in for a depth of flavor plain sashimi doesn't have — a technique said to suit winter flounder at its peak.",
+   "body_ja": "## 何でできているか\n冬が旬とされる「寒ビラメ」の身。昆布に挟んで寝かせることで身の水分が昆布に吸われて締まり、昆布由来のグルタミン酸などの旨みが浸透するとされる。淡白なヒラメの白身に、昆布の旨みが層のように重なった味わいになるという。透明感のある身の色も鮮度の目安とされ、締めた直後よりも少し時間を置いたほうが味がなじむともいい、切り分けたときの断面のつやも仕上がりの評価につながるという。\n## どう作るのか\nさくに取った身を日本酒や酢を軽くふった昆布ではさみ、半日から一晩ほど寝かせる。時間が経つほど昆布の旨みが移る一方、身は締まって生の刺身とは違う食感になるとされ、寝かせる時間の見極めが仕事の要になるという。昆布の種類や厚みによっても仕上がりの風味が変わるとされ、利尻や羅臼など産地の違いも味に表れるという。\n## なぜこの形になったのか\n冷蔵庫が普及する以前から、傷みやすい刺身を数日持たせる手立てとして昆布締めは重宝されてきたと伝わる。淡白な白身魚ほど昆布の旨みとの相性がよいとされ、旬で脂の少ないヒラメは、保存と同時に味を足すこの仕事に向いた魚として扱われてきたという。エンガワとは対照的に、身そのものの繊細さを活かす仕事とされ、脂の少ない旬の身ほど昆布の旨みが染みやすいという。",
+   "body_en": "## What it's made of\nFlounder at its winter peak, sometimes called 'kan-hirame' (cold-season flounder). Sandwiched between sheets of kelp and left to rest, its moisture is drawn into the kelp, firming the flesh, while glutamate and other umami from the kelp are said to seep back in. The result is a plain white fish layered with the kelp's own savoriness, its near-translucent color also a mark of freshness.\n## How it's made\nA block of fillet is sandwiched between kelp lightly dampened with sake or vinegar and left to rest anywhere from half a day to overnight. The longer it rests, the more umami transfers from the kelp, but the flesh also firms further into a texture unlike raw sashimi — judging how long to leave it is said to be the core of the work. The kelp's type and thickness are also said to shape the final flavor.\n## Why it took this shape\nEven before refrigerators were common, kelp-curing is said to have been valued as a way to keep easily spoiled sashimi edible for several days. Milder white fish are said to pair especially well with kelp's umami, and flounder — lean and at its peak in winter — is treated as a fish well suited to a technique that adds flavor while preserving it at the same time. Where engawa showcases fat, this is said to showcase the fish's own delicacy instead.",
+   "sources": [
+    {
+     "title": "昆布締め",
+     "url": "https://ja.wikipedia.org/wiki/昆布締め",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "ヒラメ",
+     "url": "https://ja.wikipedia.org/wiki/ヒラメ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hirame-kobujime",
+     "to_slug": "hirame",
+     "relation_type": "派生",
+     "basis": "ヒラメを昆布で挟んで寝かせるという仕事（ウィキペディア「昆布締め」）"
+    }
+   ],
+   "tags": [
+    "kelp_cured"
+   ],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "tamago-nigiri",
+   "name_ja": "玉子（厚焼き・だし巻き）",
+   "name_romaji": "Tamago",
+   "name_en": "a sweet, sponge-like omelet slice — the topping said to prove a sushi chef's skill",
+   "summary_ja": "白身魚や海老のすり身を加えて甘く焼き上げた玉子焼き、あるいは出汁で仕立てただし巻き玉子を切り分けたもの。江戸前寿司では職人の技量を測るネタとされてきたという。コースの最後に選ばれることが多いとされる。",
+   "summary_en": "A slice of sweet omelet made with white fish or shrimp paste worked into the egg, or a lighter version built on dashi stock. In Edomae sushi, it's said to be the topping used to judge a chef's true skill, and often the last piece served in a meal.",
+   "body_ja": "## 何でできているか\n魚のすり身を加えて甘く焼き上げる昔ながらの玉子焼きと、砂糖控えめで出汁の風味を立てるだし巻き玉子の二系統があるとされる。前者はスポンジのようなふわりとした口当たり、後者はしっとりとした食感が持ち味だという。米を使わないネタの中でも、唯一の甘い一貫として位置づけられている。切り口にできる気泡の並びも焼き加減の目安とされる。\n## どう作るのか\n白身魚や芝海老のすり身に山芋のとろろと砂糖を加え、弱火で何層にも重ねながらじっくり焼き上げるのが昔ながらの製法とされる。戦後には砂糖と出汁だけで作るだし巻き玉子も広まったという。焼き上がりを一貫分に切り分け、海苔の帯で軽く留めて握る。均一な厚さに焼き上げるには相応の修業がいるとされ、店の看板を背負う仕事ともいわれる。\n## なぜこの形になったのか\n江戸時代から江戸前の種として伝わり、玉子焼きを上手に焼けるようにならないと一人前の職人として扱われなかったとされるほど、技量を測る指標とされてきたという。魚のネタが続いたあとの締めくくりとして、あるいは魚を使わない一貫として、コース最後に選ばれることが多いとされる。既製品を使う店と手焼きにこだわる店とに分かれているともいい、その差が店の姿勢を映すとされ、あえて甘さを抑えた素朴な仕立てにこだわる店もあるという。",
+   "body_en": "## What it's made of\nThere are said to be two lineages: an older-style sweet omelet built with fish or shrimp paste worked into the egg, and a lighter dashi-based version made mostly with stock and less sugar. The first is said to have a soft, almost sponge-like bite; the second, a moister one. Among toppings that don't rely on rice-adjacent seafood, it stands as the one sweet piece in the lineup. Even the pattern of tiny air pockets in a cut slice is said to hint at how well it was cooked.\n## How it's made\nThe older method mixes white fish or shiba-shrimp paste with grated mountain yam and sugar, cooked slowly over low heat in many thin layers. After the war, a simpler dashi-based version made mostly of sugar and stock spread widely. Once cooked, the block is sliced into single portions and lightly bound to rice with a strip of nori. Cooking it to an even thickness is said to take real training, and some treat it as a shop's signature piece.\n## Why it took this shape\nHanded down as an Edomae topping since the Edo period, it's said to have doubled as a measure of skill — a chef reportedly wasn't considered fully trained until they could make tamagoyaki properly. It's often chosen as the last piece of a meal, either as a palate-cleansing close after a run of fish, or as the one piece on the counter that uses no seafood at all. Shops today are said to split between those using premade omelet and those still hand-cooking it themselves.",
+   "sources": [
+    {
+     "title": "卵焼き",
+     "url": "https://ja.wikipedia.org/wiki/卵焼き",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "握り寿司",
+     "url": "https://ja.wikipedia.org/wiki/握り寿司",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tamago-nigiri",
+     "to_slug": "anago",
+     "relation_type": "対比",
+     "basis": "どちらも生のまま握らず、火を通してから仕立てる江戸前の仕事もの（ウィキペディア「握り寿司」）"
+    }
+   ],
+   "tags": [
+    "egg",
+    "meal_ender"
+   ],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "kanpyo",
+   "name_ja": "かんぴょう",
+   "name_romaji": "Kanpyo",
+   "name_en": "dried gourd shavings, simmered sweet-savory, rolled into maki",
+   "summary_ja": "ユウガオの果肉を紐状に剥いて干した保存食を、煮て巻き寿司の具にしたもの。魚を使わない巻物として、握りのネタとは違う立ち位置を持つとされる。栃木県が国内生産のほとんどを占めるという。",
+   "summary_en": "Strips shaved from the flesh of a bottle gourd and sun-dried into a preserved food, then simmered sweet-savory and rolled into maki. As a roll that uses no fish, it holds a different place from nigiri toppings, and Tochigi Prefecture is said to account for nearly all of Japan's domestic production.",
+   "body_ja": "## 何でできているか\n干瓢はユウガオの果実の白い果肉を、紐状に薄く剥いて乾燥させた保存食。もどして甘辛く煮ると、繊維質のしっかりとした歯ごたえと、出汁と醤油を含んだ濃い味が両立するとされる。魚介を使わない、数少ない巻き寿司の具の一つだという。乾物ならではの、生の野菜とは違う独特の噛み応えも特徴とされ、噛むほどに出汁の風味が広がるという。\n## どう作るのか\nユウガオの実を機械や手鉋で帯状に剥き、二日ほど天日と風にさらして乾燥させたものが干瓢の原料になる。水で戻してやわらかくしてから、醤油と砂糖でしっかり甘辛く煮含める。これを酢飯とともに海苔で巻くと、かんぴょう巻きになる。寿司業界ではこの巻物を「木津巻き」と符牒で呼ぶこともあるという。海苔巻きの具のほか、昆布巻きを結ぶ紐としても使われるという。\n## なぜこの形になったのか\n生鮮の魚介と違い、干瓢はもともと保存を目的に作られた乾物だったとされる。冷蔵の手立てがなかった時代、日持ちする具として巻き寿司に取り入れられ、江戸前の中でも魚を使わない一巻として独自の位置を占めるようになったと考えられている。歴史的には大阪が発祥地とされ、江戸時代に各地へ伝わったという。海苔巻きの中でも特に古くから親しまれてきた具材の一つとされる。",
+   "body_en": "## What it's made of\nKanpyo is a preserved food made from the white flesh of a bottle gourd, shaved into thin strips and sun-dried. Rehydrated and simmered sweet-savory, it's said to hold a firm, fibrous bite alongside a deep flavor soaked through with dashi and soy sauce. It's one of the few maki fillings that uses no seafood at all. Its chew, distinct from any fresh vegetable, is said to be part of what a dried food brings to the roll.\n## How it's made\nA bottle gourd is shaved into long ribbons by machine or hand plane, then dried in sun and wind for about two days to make raw kanpyo. Soaked in water until soft, it's simmered firmly sweet-savory in soy sauce and sugar. Rolled with vinegared rice inside a sheet of nori, this becomes kanpyo-maki — sometimes called 'Kizu-maki' in the trade's own shorthand. Beyond maki filling, it's also used as the tie binding rolled simmered kelp.\n## Why it took this shape\nUnlike fresh seafood, kanpyo is said to have originally been made purely as a preserved, dried food. In an age before refrigeration, it's thought to have been folded into maki as a filling that kept well, coming to hold its own place within Edomae sushi as the one roll that uses no fish at all. Its origin is traced to the Osaka area, said to have spread to other regions during the Edo period.",
+   "sources": [
+    {
+     "title": "干瓢",
+     "url": "https://ja.wikipedia.org/wiki/干瓢",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kanpyo",
+     "to_slug": "tamago-nigiri",
+     "relation_type": "対比",
+     "basis": "どちらも魚を使わない江戸前の定番ネタ（ウィキペディア「卵焼き」「干瓢」）"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "kazunoko",
+   "name_ja": "数の子",
+   "name_romaji": "Kazunoko",
+   "name_en": "herring roe, salted or dried into a bundle prized for its crunch",
+   "summary_ja": "ニシンの卵を塩蔵または乾燥させたもの。プチプチとした歯ざわりが持ち味で、子孫繁栄を祝う縁起物として正月のおせちにも欠かせないとされる。漂白で黄金色に仕上げられ「黄色いダイヤ」とも呼ばれるという。",
+   "summary_en": "Herring roe, salted or dried into a bundle. Its crackling texture is the point, and it's said to be an indispensable New Year's food symbolizing a wish for many descendants — bleached to a golden color and nicknamed the 'yellow diamond.'",
+   "body_ja": "## 何でできているか\nニシンの卵巣を塩蔵したもので、細かな卵の粒が房状に連なっている。噛むとプチプチと弾ける歯ざわりが最大の持ち味とされ、素材本来の味を活かすため過度な調味は避けるべきという考え方もあるという。漂白によって黄金色に仕上げられ、「黄色いダイヤ」とも呼ばれる。塩加減の強弱も好みが分かれるところだといい、房の大きさによって値段が大きく変わるとされる。\n## どう作るのか\n卵巣ごと取り出した卵を塩に漬けて水分を抜き、塩蔵のまま、あるいは真水で塩抜きして味付けし直す。房の形を保ったまま切り分け、握りや前菜として供される。ばらしたイクラとは違い、房のまま歯ざわりを楽しませる仕立てが基本とされる。塩抜きの加減で塩気と旨みのバランスが変わるとされ、店ごとの味付けの差になるという。\n## なぜこの形になったのか\n名は古い呼称「カド」の子が転じたとする説があり、江戸時代から正月の膳に並ぶ縁起物として扱われてきたと伝わる。数の多い卵が子孫繁栄を連想させることから、将軍時代から庶民にまで広がった三つ肴の一つとして、正月に欠かせないネタになったとされる。かつては群来と呼ばれる大量発生が北海道沿岸で見られたと伝わり、今も正月料理における縁起物としての地位は変わらないという。",
+   "body_en": "## What it's made of\nHerring ovaries, salted, with fine roe grains still bundled together in their sac. The crackling texture on the bite is said to be the whole point, and there's a view that seasoning should be kept light to let the roe's own flavor come through. Bleaching gives it a golden color, earning it the nickname 'yellow diamond.' How heavily it's salted is said to be a matter of personal taste.\n## How it's made\nRoe is removed still inside its sac and cured in salt to draw out moisture, then either kept salted or soaked in fresh water and reseasoned. It's sliced while still bundled and served as nigiri or as an appetizer. Unlike salmon roe separated into loose grains, the point here is keeping the bundle intact to preserve that crunch. How much salt is drawn back out is said to shape the balance between saltiness and umami, varying shop by shop.\n## Why it took this shape\nOne account traces the name to 'kado,' an old word for herring, with 'kado-no-ko' shifting into 'kazunoko' over time; it's said to have been served at the New Year's table as a lucky food since the Edo period. Because so many eggs in one bundle suggest many descendants, it's said to have spread from the shogun's table to ordinary households as one of the 'three lucky foods,' becoming an indispensable New Year's piece. Herring were once said to arrive in such numbers off Hokkaido's coast that the sea itself turned white.",
+   "sources": [
+    {
+     "title": "数の子",
+     "url": "https://ja.wikipedia.org/wiki/数の子",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "ニシン",
+     "url": "https://ja.wikipedia.org/wiki/ニシン",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kazunoko",
+     "to_slug": "nishin",
+     "relation_type": "兄弟",
+     "basis": "同じニシンの卵を塩蔵した部位（ウィキペディア「数の子」）"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  },
+  {
+   "slug": "shirako",
+   "name_ja": "白子",
+   "name_romaji": "Shirako",
+   "name_en": "fish milt, a soft, custard-like organ served raw or lightly seared",
+   "summary_ja": "魚の精巣を食材としたもの。タラ、フグ、アンコウなどから取れ、とろりとした独特の食感が持ち味とされる。寿司では軍艦巻きとして供されることが多いという。冬場にしか出回らない季節限定のネタとされる。",
+   "summary_en": "Fish milt eaten as food — taken from cod, pufferfish, anglerfish, and others — prized for a soft, custard-like texture unlike anything else on the counter. In sushi, it's most often served as gunkan-maki, and only during the winter months.",
+   "body_ja": "## 何でできているか\n魚の精巣にあたる部位で、水分が多くとろりとした質感を持つ。タラ、フグ、アンコウ、サケ、タイ、サワラなど複数の魚種から取れるとされ、中でもマダラの精巣は「真子」と呼ばれる卵巣と対で扱われることもあるという。タラの白子は襞のようにうねった独特の形状を持つとされ、旬は冬とされ、産卵期に近づくほど身が大きく充実するという。\n## どう作るのか\n崩れやすい臓器のため、氷水で締めるなどして形を保ってから使う。形が保てないぶん、握りではなく酢飯を海苔で囲んだ軍艦巻きとして盛られることが多いとされる。生のまま供するほか、軽く炙る、酢の物や吸い物、鍋の具として使う調理法もあるという。臭みを抜くための塩や湯通しの下処理が仕事の要になるとされ、鮮度が落ちると臭みが強く出るという。\n## なぜこの形になったのか\n精巣という臓器の性質上、そのままでは形を保てず、切り身のように握ることが難しい。イクラやウニと同じく、崩れやすい素材を海苔で留める軍艦巻きという盛り付けが考案されたことで、白子も寿司のネタとして扱えるようになったと考えられている。冬場に旬を迎える魚が多いため、鍋料理と並ぶ冬の味覚として親しまれており、好き嫌いが分かれる通好みのネタとされることも多いという。",
+   "body_en": "## What it's made of\nThis is fish milt — the male reproductive organ — soft, moist, and custard-like in texture. It's taken from several species including cod, pufferfish, anglerfish, salmon, sea bream, and Spanish mackerel; cod milt in particular is sometimes paired on menus with 'mako,' the cod's own roe. Cod milt is said to carry a distinctive shape, folded like a ruffled membrane, and its season is said to fall in winter.\n## How it's made\nBecause the organ falls apart easily, it's firmed in ice water or similar before use to hold its shape. As it still can't be pressed into nigiri, it's most often mounded instead into gunkan-maki, rice banded by nori. Beyond serving it raw, it's sometimes lightly seared, dressed in vinegar, or added to soup or a hot pot. Salting or a quick blanch to clear any off-smell is said to be the core of the prep work.\n## Why it took this shape\nGiven what an organ like this is, it can't hold together well enough to be pressed into a cut of nigiri. Much like salmon roe and sea urchin, it's thought to have become usable as a sushi topping only once gunkan-maki — the style of holding loose material with a wall of nori — was devised. With most source fish at their peak in winter, it's treated as a cold-season delicacy alongside hot pot dishes.",
+   "sources": [
+    {
+     "title": "白子 (精巣)",
+     "url": "https://ja.wikipedia.org/wiki/白子_(精巣)",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "タラ",
+     "url": "https://ja.wikipedia.org/wiki/タラ",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shirako",
+     "to_slug": "tara-madara",
+     "relation_type": "兄弟",
+     "basis": "同じマダラの精巣にあたる部位（ウィキペディア「白子 (精巣)」）"
+    }
+   ],
+   "tags": [],
+   "type": "ingredient",
+   "shelf": "rice",
+   "genre": "sushi-neta",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "regions": []
+  }
+ ],
+ "regenre": [
+  {
+   "slug": "maguro",
+   "genre": "sushi-neta"
+  },
+  {
+   "slug": "kohada",
+   "genre": "sushi-neta"
+  },
+  {
+   "slug": "anago",
+   "genre": "sushi-neta"
+  }
+ ],
+ "notes": ""
+}

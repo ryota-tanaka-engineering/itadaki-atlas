@@ -1,0 +1,499 @@
+{
+  "items": [
+    {
+      "slug": "okonomiyaki",
+      "body_ja": "## 何でできているか\nだしで溶いた小麦粉の生地に、刻んだキャベツと豚肉、天かすを合わせたものが基本の姿とされる。鉄板に広げて焼くと、外側はかりっと、キャベツの水分を含んだ中はふんわりと蒸れる。仕上げに塗る甘辛いソースと青のり、削り節の香りが先に立ち、かじると豚の脂とキャベツの甘みが追いかけてくる。混ぜ焼きか重ね焼きかで、生地とキャベツの一体感がまるで違うという。\n## どう作るのか\n大阪の混ぜ焼きは、生地とキャベツ、卵、天かすを鉢の中であらかじめ和えてから鉄板にのせ、押しつぶさずにふっくら焼き上げる。広島の重ね焼きは、生地を薄く延ばした上にキャベツと豚肉、そば・うどんを山盛りに重ねて蒸し焼きにし、最後に卵の上に返して仕上げるという。どちらも仕上げのソースは濃厚な甘口が定番で、青のりや削り節、好みでマヨネーズを添える。\n## なぜこの形になったのか\nルーツは安土桃山時代の茶菓子「フノヤキ」にまで遡るとも、明治後期にメリケン粉とキャベツ、ソースで作る「洋食焼」が屋台に登場したのが直接の原型ともいわれる。大阪では都市の屋台文化の中で具材が豚肉や野菜へと膨らみ、広島では戦後、鉄を扱う工場が多く鉄板が手に入りやすかった土地柄が、空腹をしのぐ「重ね焼き」の普及を後押ししたとされる。同じ生地から違う焼き方が育った背景は、それぞれの街が生地に何を足せたかの違いを映しているという。",
+      "body_en": "## What it's made of\nThe basic form is a batter of wheat flour thinned with dashi, folded together with shredded cabbage, pork, and crunchy tempura scraps called tenkasu. Spread on a griddle, the outside turns crisp while the cabbage's moisture keeps the inside soft and steamy. The sweet-savory sauce brushed on top, plus green laver and bonito flakes, hits first, and the pork fat and cabbage's sweetness follow after. Whether the batter is mixed in first or stacked in layers is said to change how tightly the cabbage and batter bind together.\n## How it's made\nOsaka's mixed style folds batter, cabbage, egg, and tenkasu together in a bowl before it touches the griddle, then cooks it gently so it stays fluffy rather than pressed flat. Hiroshima's layered style spreads a thin batter first, piles cabbage, pork, and noodles — soba or udon — on top, steams the stack, then flips it onto a sheet of egg to finish. Both are said to favor a thick, sweet sauce, finished with green laver, bonito flakes, and mayonnaise for those who like it.\n## Why it took this shape\nOne account traces the root back to funoyaki, a tea-ceremony sweet from the Azuchi-Momoyama period; a more direct ancestor is said to be yoshoku-yaki, a wheat-and-cabbage snack sold from Meiji-era stalls. In Osaka, the toppings are said to have grown heartier — pork, more vegetables — within the city's street-stall culture, while in Hiroshima, a town full of steelworks made griddles easy to come by after the war, which is said to have helped the stacked, steamed style spread as a way to fill an empty stomach. The two techniques growing from the same batter is said to reflect what each place could afford to add to it.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：お好み焼き 大阪府",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_20_osaka.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        },
+        {
+          "title": "うちの郷土料理：お好み焼き 広島県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_7_hiroshima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "okonomiyaki",
+          "to_slug": "takoyaki",
+          "relation_type": "対比",
+          "basis": "同じ大阪発祥のコナモンだが、お好み焼きは生地に具材を混ぜて焼き、たこ焼きはだしを効かせた生地でタコだけを丸く包んで焼くという作り方の違いがある"
+        },
+        {
+          "from_slug": "okonomiyaki",
+          "to_slug": "pork-belly",
+          "relation_type": "使用食材",
+          "basis": "重ね焼き・混ぜ焼きとも豚バラ肉の薄切りを主要な具材とすることが多いとされる一般的な知見に基づく"
+        }
+      ]
+    },
+    {
+      "slug": "takoyaki",
+      "body_ja": "## 何でできているか\nだしと卵でゆるく溶いた小麦粉の生地に、ぶつ切りのゆでダコと天かすが入る。丸い型で焼くと外側は薄くかりっと、生地の芯はとろりと半熟に近い状態で仕上がるという。仕上げに刷毛でぬる濃厚なソース、青のり、削り節の香りが先に立ち、割ると中からタコの弾力とだしの香りが追いかけてくる。\n## どう作るのか\nたこ焼き器の丸いくぼみのふちが隠れるまで生地を流し、タコと天かすを落とし、ふちが焼けてきたらあふれた生地を中に入れ込みながら少しずつ丸く返していく。数回に分けて回転させ、飛び出た生地を内側に押し込みながら球状に仕上げるのがこつとされる。焼き上がりにソースをぬり、青のりと削り節をふる。\n## なぜこの形になったのか\n明治末から大正期、駄菓子屋の「チョボ焼き」やこんにゃく・干し海老を具にした屋台食が土台になったといわれる。大正末期のラジオ放送開始にちなんだ「ラジオ焼き」が登場したのち、昭和初期に具をタコへ差し替えたのが今のたこ焼きの原型とされ、戦後に濃厚ソースが生まれたことで現在の食べ方が定まったという。丸い型は、屋台の小さな鉄板でも数を焼ける効率と、串に刺さず手軽につまめる形を両立させた結果と考えられている。屋台文化が生んだ食べ物という性格は、今も変わっていないとされる。",
+      "body_en": "## What it's made of\nThe batter is flour loosened with dashi and egg, studded with chunks of boiled octopus and crunchy tenkasu. Cooked in a mold of round wells, the outside turns thin and crisp while the center stays close to a soft, half-set custard. The thick sauce brushed on at the end, plus green laver and bonito flakes, hits first, and cracking one open releases the octopus's bite and the dashi's aroma.\n## How it's made\nBatter is poured until it covers the rim of each round well, octopus and tenkasu dropped in, and once the edges firm up, the overflow is folded back in and turned bit by bit into a ball. The trick is said to be rotating each one in stages, tucking in whatever pokes out, until it's fully round. Sauce goes on last, then green laver and bonito flakes.\n## Why it took this shape\nThe dish is said to build on Meiji- and Taisho-era stall snacks like chobo-yaki and konjac-and-shrimp fritters sold at candy shops. A version called radio-yaki, named for the new medium of radio broadcasting, appeared in the late Taisho years, and swapping in octopus in the early Showa era is said to have set the template for today's takoyaki; a rich sauce invented after the war settled how it's eaten now. The round mold is thought to balance two things — turning out many servings fast on a small stall griddle, and a shape easy to eat without a skewer. Its character as street-stall food is said to remain unchanged today.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：たこ焼き 大阪府",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_15_osaka.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "takoyaki",
+          "to_slug": "katsuo",
+          "relation_type": "使用食材",
+          "basis": "仕上げに削り節（かつお節）をふりかけることが多いとされる一般的な知見に基づく"
+        }
+      ]
+    },
+    {
+      "slug": "hiroshima-okonomiyaki",
+      "body_ja": "## 何でできているか\n薄く延ばした生地の上に、せん切りキャベツと豚肉、蒸した中華麺（そばやうどん）が層を成して重なる。仕上げに薄焼き卵をくぐらせて返すため、断面には生地・麺・キャベツ・卵がそれぞれの層として現れるという。ヘラで割ると、蒸れたキャベツの甘みと麺のこし、濃厚な甘口ソースの香りが層ごとに立ち上がる。\n## どう作るのか\nだし汁で溶いた生地を鉄板に薄い円形に広げ、キャベツ・もやし・豚バラ肉を山のように重ね、そばやうどんを別に炒めておいたものをのせる。大きなヘラで一気にひっくり返し、卵を割り入れた上に重ねてもう一度返すことで、麺と卵が生地の下に収まる。仕上げにソース、青のり、紅しょうがを添えて「ヘラ」でそのまま食べるのが流儀とされる。\n## なぜこの形になったのか\n発祥は戦前に食べられていた「一銭洋食」とされ、戦後の食糧難のなかで空腹をしのぐ一品として形を変えていったという。広島は鉄を扱う工場が多く鉄板が比較的手に入りやすかったことが、お好み焼き店の増加を後押ししたと考えられている。昭和30年代以降、住宅を改装した店が増え、麺や豚肉を加える工夫が重なって現在の重ね焼きが定着し、広島東洋カープの優勝を機に全国へ知られていったとされる。この変遷は今も続いているという。",
+      "body_en": "## What it's made of\nA thin batter is spread first, then topped with layer upon layer of shredded cabbage, pork, and steamed noodles — soba or udon. A thin sheet of egg goes on last, flipped underneath, so a cross-section shows batter, noodles, cabbage, and egg each as their own layer. Cutting in with the spatula releases the steamed cabbage's sweetness, the noodles' bite, and the thick, sweet sauce, layer by layer.\n## How it's made\nA dashi-thinned batter is spread into a thin circle on the griddle, piled with cabbage, bean sprouts, and pork belly, and topped with noodles fried separately on the side. A large spatula flips the whole stack at once, egg is cracked on top, and it's flipped again so the noodles and egg end up tucked beneath the batter. Sauce, green laver, and pickled red ginger finish it, and the custom is said to be eating it straight off the griddle with the spatula.\n## Why it took this shape\nIts origin is said to be issen-yoshoku, a prewar penny snack, which changed shape as postwar Japan looked for something to fill an empty stomach. Hiroshima, a city full of steelworks, is thought to have had griddles more within reach than most places, which helped okonomiyaki shops multiply. From the 1950s on, more shops opened in converted homes and began adding noodles and pork, settling into today's layered style, and it's said to have spread nationwide around the time the Hiroshima Toyo Carp won their pennant. That shift is said to be still ongoing today.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：お好み焼き 広島県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_7_hiroshima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "hiroshima-okonomiyaki",
+          "to_slug": "okonomiyaki",
+          "relation_type": "派生",
+          "basis": "農林水産省の資料は広島のお好み焼きの発祥を戦前の一銭洋食とし、大阪のお好み焼きと同じ洋食焼き系の系譜から広島独自の重ね焼きへ発展したと説明している"
+        }
+      ]
+    },
+    {
+      "slug": "fuchu-yaki",
+      "body_ja": "## 何でできているか\n基本の広島お好み焼きと同じくキャベツと蒸し麺を重ねるが、豚バラの薄切りではなく牛や豚のひき肉を使うのが府中焼きの特徴とされる。ひき肉は生地やキャベツの層にまぶすように広がるため、焼き上がりは肉汁が生地全体にしみ込み、脂の甘みとキャベツの甘みが一体になって感じられるという。噛むたびに繊維状の肉が口の中でほどけるのも、薄切り肉とは違う食感だとされる。\n## どう作るのか\n薄く延ばした生地の上にひき肉を広げてから、キャベツともやし、蒸し麺を重ねて焼く点が、豚バラ肉をキャベツの上にのせるだけの広島市内の作り方と異なるとされる。ひき肉は薄切り肉よりも短時間で火が入るため、カリッとした焼き目がつきやすいともいわれる。仕上げのソースや青のりは広島お好み焼きと共通する。\n## なぜこの形になったのか\n府中市は精肉店が多く、古くからひき肉が身近な食材だったことが、薄切り肉ではなくひき肉を使う型につながったといわれる。広島市内のお好み焼きが鉄工業の広がりとともに屋台から店舗へ育ったのに対し、府中市では精肉文化という別の土地の条件が、同じ重ね焼きの中に独自の具材選びを生んだとされる。今も市内の精肉店ごとにひき肉の配合が違うといい、店による味の差を生む一因にもなっているという。",
+      "body_en": "## What it's made of\nLike standard Hiroshima okonomiyaki, it layers cabbage and steamed noodles, but Fuchu-yaki's mark is ground beef or pork used instead of sliced pork belly. Scattered through the batter and cabbage layers, the ground meat is said to let its juices soak into the whole stack, so the fat's richness and the cabbage's sweetness come through together. The way the meat's fibers give way with each bite is also said to feel different from sliced pork.\n## How it's made\nThe ground meat is spread over the thin batter before the cabbage, bean sprouts, and noodles go on top — different from the Hiroshima city method of simply laying sliced pork on the cabbage. Ground meat cooks faster than sliced meat, which is also said to make for an easier, crisper sear. The finishing sauce and green laver match standard Hiroshima okonomiyaki.\n## Why it took this shape\nFuchu is said to have long had many butcher shops, which put ground meat within easy reach and is thought to explain the switch from sliced meat. Where Hiroshima city's okonomiyaki grew from stall to shop alongside the spread of steelworks, Fuchu's butcher-shop culture is said to have shaped a different choice of filling within the same layered format. Each butcher shop is said to blend its own ratio of meat even today, one reason the taste still differs shop to shop.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：お好み焼き 広島県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_7_hiroshima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "fuchu-yaki",
+          "to_slug": "hiroshima-okonomiyaki",
+          "relation_type": "派生",
+          "basis": "農林水産省の資料は府中市の「備後府中焼き」を、牛・豚のひき肉を使う点が特徴の広島お好み焼きの地域バリエーションとして紹介している"
+        }
+      ]
+    },
+    {
+      "slug": "kure-yaki",
+      "body_ja": "## 何でできているか\n広島お好み焼きと同じくキャベツと麺を重ねるが、呉焼きは麺に呉名物の細うどんを使い、円形のまま出さずに生地を二つ折りにして半月形に整えるのが特徴とされる。折りたたむことで持ちやすくなり、断面からキャベツと麺の層がのぞく食べやすい一皿になるという。丸いままの広島お好み焼きに比べると一回り小ぶりで、片手でつまめる軽食としての性格が強いとされる。\n## どう作るのか\n薄く延ばした生地の上にキャベツ、豚肉、茹でた細うどんを重ねて蒸し焼きにするところまでは広島市内の作り方と共通するが、仕上げでヘラを使って生地を半分に折りたたむ工程が加わる。折ることで具材が中に収まり、片手でも食べやすい形に整うとされる。ソースや青のりは通常の広島お好み焼きと同様に仕上げに加える。\n## なぜこの形になったのか\n呉市はかつて海軍工廠、戦後は造船所で栄えた街で、職工たちが限られた休憩時間で手早く食べられるようにと二つ折りの形が定着したといわれる。細うどんを使うのも、呉で古くから親しまれてきた麺だったためとされる。同じ広島の重ね焼きでも、働く人の時間の制約という土地の事情が、丸いままか折りたたむかという形の違いを生んだと考えられている。この二つ折りの型は今も呉市内で受け継がれているとされる。",
+      "body_en": "## What it's made of\nKure-yaki layers cabbage and noodles like standard Hiroshima okonomiyaki, but it uses the city's own thin udon and, instead of staying round, gets folded in half into a crescent. Folding it is said to make it easier to hold, and the cut edge shows off the cabbage and noodle layers inside. It runs a size smaller than the round Hiroshima okonomiyaki too, leaning more toward a quick, one-handed bite.\n## How it's made\nUp through layering cabbage, pork, and boiled thin udon on the thin batter and steaming it, the method matches Hiroshima city's okonomiyaki. What's added is a final step of folding the whole thing in half with the spatula. The fold is said to tuck the fillings inside and leave a shape easy to eat even one-handed. Sauce and green laver finish it the same way as standard Hiroshima okonomiyaki.\n## Why it took this shape\nKure grew up first around a naval arsenal, then postwar shipyards, and the half-fold is said to have taken hold so workers could eat fast during a short break. The thin udon is also said to reflect a noodle the city had long favored. Even within Hiroshima's shared layered format, the working conditions specific to Kure are thought to have produced this fold — round versus half-moon. The half-fold is still carried on in Kure today.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：お好み焼き 広島県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_7_hiroshima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kure-yaki",
+          "to_slug": "hiroshima-okonomiyaki",
+          "relation_type": "派生",
+          "basis": "農林水産省の資料は呉市の「呉焼き」を、細うどんと半月形の折りたたみが特徴の広島お好み焼きの地域バリエーションとして紹介している"
+        }
+      ]
+    },
+    {
+      "slug": "shobara-yaki",
+      "body_ja": "## 何でできているか\n基本の重ね焼きと同じくキャベツと豚肉を層にするが、そば・うどんの代わりに炊いた庄原産の米を挟み、仕上げも甘口ソースではなくポン酢をかけるのが庄原焼きの特徴とされる。麺のこしの代わりに米粒の食感が加わり、ポン酢の酸味が全体をさっぱりまとめるという。噛むと粒立った米がほろりとほどけ、麺のような弾力とは違う口当たりになる。\n## どう作るのか\n薄く延ばした生地の上にキャベツ、豚肉を重ねるところまでは広島市内と同じだが、炒めた麺を挟む工程が、あらかじめ炊いておいた米を挟む工程に置き換わる。米は麺よりも水分を含みやすいため、焼き加減を見ながら押さえて水分を飛ばすのがこつとされる。仕上げの卵は共通で、最後にポン酢をかけて食べる。米を平らに広げすぎないよう、へらで軽く押しながら層を保つのがきれいに仕上げるこつだという。\n## なぜこの形になったのか\n庄原市は広島県内陸部の稲作地帯で、海側の街のように麺文化が根付く前に、身近な米を使う型が定着したと考えられている。ソースではなくポン酢を使うのも、濃い味よりもさっぱりした後味が好まれる内陸の食習慣を映しているといわれる。同じ広島の重ね焼きでも、海に近いか稲作地帯かという土地の違いが、麺か米か、ソースかポン酢かという二つの分岐を生んだとされる。",
+      "body_en": "## What it's made of\nLike the standard layered style, it stacks cabbage and pork, but Shobara-yaki swaps the soba or udon for cooked local rice and trades the usual sweet sauce for ponzu. Rice grains stand in for the noodles' chew, and the ponzu's tartness is said to keep the whole thing light. Each bite lets the grains fall apart softly, a mouthfeel quite different from a noodle's springy bite.\n## How it's made\nUp through layering cabbage and pork on the thin batter, the method matches Hiroshima city's okonomiyaki, but the step of frying noodles is replaced with folding in rice that's already been cooked. Rice holds more moisture than noodles, so pressing it down to cook off that moisture as it goes is said to be the trick. Egg finishes it the same way, and ponzu is poured on at the end. Keeping the rice from spreading too thin, pressed gently with the spatula, is said to be what keeps the layers distinct.\n## Why it took this shape\nShobara sits in Hiroshima's inland rice-growing belt, and rice is thought to have become the natural filling there before noodle culture, more associated with the coast, took hold. Ponzu instead of sauce is also said to reflect an inland preference for a lighter finish over a heavier one. Even within Hiroshima's shared layered format, being near the sea or in rice country is said to have split the dish two ways — noodles or rice, sauce or ponzu.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：お好み焼き 広島県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_7_hiroshima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "shobara-yaki",
+          "to_slug": "hiroshima-okonomiyaki",
+          "relation_type": "派生",
+          "basis": "農林水産省の資料は庄原市の「庄原焼き」を、麺のかわりに庄原産の米、ソースのかわりにポン酢を使う点が特徴の広島お好み焼きの地域バリエーションとして紹介している"
+        }
+      ]
+    },
+    {
+      "slug": "onomichi-yaki",
+      "body_ja": "## 何でできているか\nキャベツと豚肉、麺を重ねる基本の型に、コリコリとした食感の砂肝と、練り物を揚げたイカ天が加わるのが尾道焼きの特徴とされる。砂肝の弾力とイカ天の練り物特有のふっくらした食感が、キャベツの甘みや麺のこしと重なり、単一の重ね焼きより噛みごたえの層が増えるという。層をかき分けるたびに、海と陸、それぞれ由来の違う食感が交互に現れる。\n## どう作るのか\n生地とキャベツ、豚肉、麺を重ねる工程は広島市内の作り方と同じだが、麺の上に一口大に切った砂肝と、あらかじめ揚げてあるイカ天を並べてから蒸し焼きにする点が異なるとされる。砂肝は火が通りにくいため、あらかじめ下処理して薄く切っておくのが一般的だという。仕上げの卵とソースは通常の広島お好み焼きと変わらない。\n## なぜこの形になったのか\n尾道は瀬戸内海の海運と造船で栄えた港町で、練り物のイカ天のような海の加工品が食材として身近だったと考えられている。一方で砂肝を加える理由は諸説あるとされ、内陸との行き来があった土地柄で肉の内臓も手に入りやすかったためともいわれる。海の幸と鶏の内臓という一見異なる二つの食材が同じ生地の上に並ぶのは、港町ならではの食材の集まりやすさを映しているとされる。同じ広島の中でも、この組み合わせは尾道ならではの特徴として今も珍しがられるという語りが根強い。",
+      "body_en": "## What it's made of\nOnomichi-yaki adds chewy chicken gizzard and a fried squid-paste cake to the standard layers of cabbage, pork, and noodles. The gizzard's springy bite and the squid cake's soft, fried texture stack on top of the cabbage's sweetness and the noodles' chew, adding another layer of texture to the usual stack. Digging through the layers, textures from the sea and from land alternate bite after bite.\n## How it's made\nLayering batter, cabbage, pork, and noodles matches Hiroshima city's method, but Onomichi-yaki adds bite-sized gizzard and pre-fried squid cake on top of the noodles before steaming. Gizzard is slow to cook through, so it's usually trimmed and sliced thin beforehand. Egg and sauce finish it the same way as standard Hiroshima okonomiyaki.\n## Why it took this shape\nOnomichi grew as a Seto Inland Sea shipping and shipbuilding port, and a processed seafood product like squid cake is thought to have been close at hand as an ingredient. Why gizzard was added is less settled, with one account pointing to the town's trade routes inland, which are said to have kept poultry offal within easy reach too. Seafood and chicken offal landing on the same batter is said to reflect just how much a port town had passing through it. Even within Hiroshima, this pairing is still seen as distinctly Onomichi's own.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：お好み焼き 広島県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_7_hiroshima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "onomichi-yaki",
+          "to_slug": "hiroshima-okonomiyaki",
+          "relation_type": "派生",
+          "basis": "農林水産省の資料は尾道市の「尾道焼き」を、砂肝とイカ天が入る点が特徴の広島お好み焼きの地域バリエーションとして紹介している"
+        }
+      ]
+    },
+    {
+      "slug": "takehara-yaki",
+      "body_ja": "## 何でできているか\nキャベツと豚肉、麺を重ねる基本の重ね焼きに、酒粕と日本酒を練り込んだ生地を使うのがたけはら焼きの特徴とされる。生地からほのかに立つ酒の香りが、ソースの甘辛さやキャベツの甘みと重なり、他の広島焼きにはない風味の層を作るという。焼き上がりの生地表面はやや白みを帯び、酒粕特有の甘い匂いが湯気とともに漂う。\n## どう作るのか\n生地に酒粕と日本酒を加えて溶く点を除けば、キャベツと豚肉、麺を重ねて蒸し焼きにする工程は広島市内の作り方と共通する。酒粕を加えた生地は焦げやすいとされ、火加減を弱めに保ちながら焼き上げるのがこつだという。仕上げのソースや青のりも通常の広島お好み焼きと変わらない。酒粕の量は店ごとに加減され、香りの強さもまちまちだといわれる。\n## なぜこの形になったのか\n竹原市は江戸時代から製塩業と酒造業で栄え、「安芸の小京都」と呼ばれる町並みが今も残る酒どころとされる。地元の酒蔵が仕込む純米吟醸酒や酒粕を、名物のお好み焼きにも生かそうという発想から生地に練り込む型が生まれたといわれる。同じ広島の重ね焼きでも、酒造という竹原ならではの産業が、具材ではなく生地そのものに個性を持たせる方向を選んだとされる。その香りは今も竹原の街並みと結びついているとされる。",
+      "body_en": "## What it's made of\nTakehara-yaki keeps the standard layers of cabbage, pork, and noodles, but its batter is kneaded with sake lees and sake itself. A faint aroma of sake rises off the batter and layers over the sauce's sweet-savory edge and the cabbage's sweetness, adding a note no other Hiroshima-style okonomiyaki has. The cooked batter takes on a faint whiteness, and a sweet, lees-like scent drifts up with the steam.\n## How it's made\nAside from mixing sake lees and sake into the batter, the process of layering cabbage, pork, and noodles and steaming it matches Hiroshima city's method. Batter with sake lees is said to scorch more easily, so keeping the heat a touch lower while it cooks is said to be the trick. The finishing sauce and green laver are the same as standard Hiroshima okonomiyaki. How much sake lees goes in varies shop to shop, so the strength of the aroma is said to vary as well.\n## Why it took this shape\nTakehara grew wealthy from salt production and sake brewing from the Edo period on, and its townscape, still known as \"Aki's little Kyoto,\" remains a sake town today. The idea of working the local breweries' junmai ginjo sake and sake lees into the town's signature okonomiyaki is said to have grown from wanting to carry that industry into the dish. Within Hiroshima's shared layered format, Takehara's sake-brewing trade is said to have shaped the batter itself rather than the fillings. That aroma is still tied to the town's streets today.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：お好み焼き 広島県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_7_hiroshima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "takehara-yaki",
+          "to_slug": "hiroshima-okonomiyaki",
+          "relation_type": "派生",
+          "basis": "農林水産省の資料は竹原市の「純米吟醸たけはら焼き」を、生地に酒粕や日本酒を練り込む点が特徴の広島お好み焼きの地域バリエーションとして紹介している"
+        }
+      ]
+    },
+    {
+      "slug": "mihara-yaki",
+      "body_ja": "## 何でできているか\nキャベツと豚肉、麺を重ねる基本の型に、コリコリとした鶏モツが加わるのが三原焼きの特徴とされる。砂肝やハツなど部位を刻んで加えることが多く、噛むとキャベツの甘みや麺のこしに、鶏モツ特有の弾力と旨みが重なるという。層の中に小さな歯ごたえが点在するため、一枚の中で食感の強弱がはっきり分かれる。\n## どう作るのか\n生地とキャベツ、豚肉、麺を重ねて蒸し焼きにする工程は広島市内の作り方と共通するが、麺の上に刻んだ鶏モツを散らしてから焼き上げる点が異なるとされる。鶏モツは下処理として臭みを抜いておくことが多いといわれる。仕上げの卵とソースは通常の広島お好み焼きと変わらない。鶏モツの量や部位の組み合わせは店ごとに違いがあるという。\n## なぜこの形になったのか\n三原市はかつて養鶏が盛んな土地であったとされ、身近な食材として鶏モツが手に入りやすかったことが、お好み焼きの具に取り入れられた理由と考えられている。同じ広島の重ね焼きでも、養鶏という地場産業が具材の選び方に直接反映された例といえ、内陸の稲作地帯や港町とはまた違う土地の事情を映しているとされる。養鶏の伝統は今も三原の食卓に息づいているといい、鶏モツの扱いや部位の選び方には店ごとの工夫が続いているとされる。",
+      "body_en": "## What it's made of\nMihara-yaki adds chewy chicken giblets to the standard layers of cabbage, pork, and noodles. Gizzard and heart are often chopped in, and biting through it layers the giblets' springy bite and savor over the cabbage's sweetness and the noodles' chew. Little pockets of extra chew turn up throughout, so one piece can swing between soft and firm from bite to bite.\n## How it's made\nLayering batter, cabbage, pork, and noodles and steaming it matches Hiroshima city's method, but Mihara-yaki scatters chopped chicken giblets over the noodles before it's cooked through. The giblets are often trimmed beforehand to cut any gamey smell. Egg and sauce finish it the same way as standard Hiroshima okonomiyaki. How much giblet goes in, and which cuts, is said to vary from shop to shop.\n## Why it took this shape\nMihara is said to have once been a center of poultry farming, and that is thought to explain why chicken giblets were within easy reach as a filling. Within Hiroshima's shared layered format, the local poultry industry is said to show up directly in the choice of filling — a different set of local conditions from the inland rice country or the port towns. That poultry tradition is said to still live on at Mihara's tables, with each shop handling the giblets its own way.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：お好み焼き 広島県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_7_hiroshima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "mihara-yaki",
+          "to_slug": "hiroshima-okonomiyaki",
+          "relation_type": "派生",
+          "basis": "農林水産省の資料は三原市の「三原焼き」を、養鶏がさかんであったことから鶏モツが入る点が特徴の広島お好み焼きの地域バリエーションとして紹介している"
+        }
+      ]
+    },
+    {
+      "slug": "miyoshi-karamen-yaki",
+      "body_ja": "## 何でできているか\nキャベツと豚肉を重ねる基本の型は変わらないが、麺そのものに唐辛子を練り込んである点が三次唐麺焼の特徴とされる。麺をかむと最初に小麦の香りに続いて辛みが追いかけてきて、甘口のソースと合わさることで甘辛い後味に変わるという。赤みを帯びた麺の色も、他の広島焼きにはない見た目の特徴だとされる。\n## どう作るのか\n唐辛子を練り込んだ専用の麺を用意し、キャベツと豚肉を重ねて蒸し焼きにする工程は広島市内の作り方と同じとされる。麺自体に辛みがあるため、ソースは通常の広島お好み焼きと同じ甘口を使い、辛さと甘さのバランスを麺と生地の役割分担で取っているという。唐辛子の配合は店ごとに違い、辛さの強さもさまざまだといわれる。\n## なぜこの形になったのか\n三次市は盆地特有の寒暖差が大きい土地とされ、体を温める辛い食べ物が好まれてきたと考えられている。ソースやキャベツを辛くするのではなく麺そのものに辛みを仕込む発想は、麺づくりの技術を持つ土地ならではの工夫だといわれる。同じ広島の重ね焼きでも、盆地の気候という土地の条件が、具材ではなく麺という素材そのものに個性を持たせる方向を選んだとされる。この工夫は今も三次の麺づくりの技術として、地元の店々に大切に受け継がれているという。",
+      "body_en": "## What it's made of\nThe basic layers of cabbage and pork stay the same, but Miyoshi Karamen-yaki's mark is chili pepper kneaded directly into the noodles. Biting into the noodles brings wheat's aroma first, chili heat trailing after, and mixing with the sweet sauce turns into a sweet-and-spicy finish. The noodles themselves take on a reddish tint, a look no other Hiroshima-style okonomiyaki has.\n## How it's made\nA batch of noodles kneaded with chili is prepared ahead of time, and layering cabbage and pork on the batter and steaming it matches Hiroshima city's method. Since the noodles carry their own heat, the sauce stays the same sweet style as standard Hiroshima okonomiyaki, balancing spice and sweetness by splitting the job between noodle and sauce. How much chili goes into the noodles differs by shop, so the heat varies as well.\n## Why it took this shape\nMiyoshi sits in a basin known for wide temperature swings, and warming, spicy food is thought to have taken hold there for that reason. Working the heat into the noodles themselves, rather than the sauce or cabbage, is said to reflect a town with the noodle-making know-how to pull it off. Within Hiroshima's shared layered format, a basin climate is said to have shaped the noodle itself rather than the fillings. This trick is said to live on today as part of Miyoshi's noodle-making craft.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：お好み焼き 広島県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_7_hiroshima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "miyoshi-karamen-yaki",
+          "to_slug": "hiroshima-okonomiyaki",
+          "relation_type": "派生",
+          "basis": "農林水産省の資料は三次市の「三次唐麺焼」を、唐辛子を練り込んだ麺を使う点が特徴の広島お好み焼きの地域バリエーションとして紹介している"
+        }
+      ]
+    },
+    {
+      "slug": "kumano-natto-yaki",
+      "body_ja": "## 何でできているか\nキャベツと豚肉を重ねる基本の型に、納豆と卵、すりおろした山芋が加わるのがふわふわ納豆焼の特徴とされる。納豆と山芋の粘りが生地全体を包み込み、箸を入れると糸を引くほどのとろみが感じられるという。焼き上がりは他の広島焼きよりもふっくらと軽い口当たりになるとされ、崩すと湯気とともに納豆特有の匂いが立つ。\n## どう作るのか\n生地にあらかじめ納豆と山芋、卵を混ぜ込んでおき、キャベツと豚肉を重ねて蒸し焼きにする点は広島市内の作り方と共通する。納豆の粘りが強いため、生地がだれないよう手早く広げて焼くのがこつだといわれる。仕上げのソースと青のりは通常の広島お好み焼きと変わらないが、粘りの強さから食べる際に糸を引くことがある。\n## なぜこの形になったのか\n熊野町は書道用の筆づくりで知られる町だが、地元の家庭料理として納豆を混ぜ込む食べ方が親しまれてきたと考えられている。山芋を合わせてふわりと仕上げる工夫は、粘りの強い食材同士を重ねることで軽い食感を狙ったものだといわれる。同じ広島の重ね焼きでも、地場産業ではなく家庭の味付けの工夫が土地の型として残った例とされる。納豆と山芋の組み合わせは、他の広島焼きにはない熊野町ならではの味として今も残っているという。",
+      "body_en": "## What it's made of\nFuwafuwa Natto-yaki adds natto, egg, and grated mountain yam to the standard layers of cabbage and pork. The stickiness of the natto and yam is said to wrap around the whole batter, pulling into threads with a chopstick, and the finished dish is said to come out lighter and fluffier than other Hiroshima-style okonomiyaki, natto's own smell rising with the steam as it's broken open.\n## How it's made\nNatto, yam, and egg are worked into the batter beforehand, and layering cabbage and pork on top and steaming it matches Hiroshima city's method. Because the natto is so sticky, spreading the batter quickly before it slackens is said to be the trick. The finishing sauce and green laver are the same as standard Hiroshima okonomiyaki, though the stickiness can pull into threads as you eat.\n## Why it took this shape\nKumano-cho is known for making calligraphy brushes, but mixing natto into home cooking is thought to have been a familiar habit there regardless. Adding yam to keep the result light and fluffy is said to reflect an idea of stacking two sticky ingredients to produce the opposite effect — softness. Within Hiroshima's shared layered format, this is said to be a case where a household seasoning habit, not a local industry, became the region's mark. Natto paired with mountain yam is said to remain a flavor unique to Kumano-cho among Hiroshima-style okonomiyaki.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：お好み焼き 広島県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_7_hiroshima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kumano-natto-yaki",
+          "to_slug": "hiroshima-okonomiyaki",
+          "relation_type": "派生",
+          "basis": "農林水産省の資料は熊野町の「ふわふわ納豆焼」を、卵・納豆・山芋入りである点が特徴の広島お好み焼きの地域バリエーションとして紹介している"
+        }
+      ]
+    },
+    {
+      "slug": "innoshima-innoko",
+      "body_ja": "## 何でできているか\nキャベツと豚肉を重ねる基本の型は共通するが、いんおこは麺にうどんを使うのが主流とされ、他の広島焼きに比べて麺の量そのものが多い傾向があるという。うどんのもちっとした食感がキャベツの甘みと絡み、麺料理としての満足感が強い一皿になるとされる。生地の割合が相対的に薄くなるぶん、麺の存在感がより前に出るともいわれる。\n## どう作るのか\n生地とキャベツ、豚肉を重ねてから、たっぷりのうどんをのせて蒸し焼きにする点が広島市内の作り方と共通するが、うどんの分量が多いぶん蒸し焼きの時間をやや長めにとるといわれる。仕上げの卵とソースは通常の広島お好み焼きと変わらない。うどんのゆで加減は店によって異なり、コシの強弱も一皿ごとに違うとされる。\n## なぜこの形になったのか\n因島は造船業とかんきつ栽培で栄えた瀬戸内海の島で、造船所の労働者にとって腹持ちのよいうどん入りの一皿が好まれたと考えられている。麺料理としての性格が強いのは、島という限られた食材事情のなかで、うどんが手に入りやすい主食だったためともいわれる。同じ広島の重ね焼きでも、島の暮らしという条件が麺の比重を高めたとされる。この島の暮らしが育てた麺主体の型は、今も因島の食卓にしっかりと根づいているという。",
+      "body_en": "## What it's made of\nThe standard layers of cabbage and pork stay the same, but In-oko is said to favor udon as its noodle, and it tends to carry more noodle than other Hiroshima-style okonomiyaki. Udon's chewy bite tangles with the cabbage's sweetness, making for a dish that satisfies more like a noodle meal. With relatively less batter, the noodle is said to stand out even more.\n## How it's made\nLayering batter, cabbage, and pork before piling on a generous amount of udon and steaming it matches Hiroshima city's method, but the larger amount of udon is said to call for a slightly longer steam. Egg and sauce finish it the same way as standard Hiroshima okonomiyaki. How the udon is boiled differs by shop, so its firmness varies from one plate to the next.\n## Why it took this shape\nInnoshima grew through shipbuilding and citrus farming as a Seto Inland Sea island, and a filling, udon-heavy dish is thought to have suited shipyard workers there. Its noodle-forward character is also said to reflect an island's limited range of ingredients, where udon was simply the staple most within reach. Within Hiroshima's shared layered format, island life is said to have tipped the balance toward more noodle. This island-shaped style is said to still be rooted in Innoshima's tables today.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：お好み焼き 広島県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_7_hiroshima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "innoshima-innoko",
+          "to_slug": "hiroshima-okonomiyaki",
+          "relation_type": "派生",
+          "basis": "農林水産省の資料は因島の「いんおこ」を、うどん入りが主流である点が特徴の広島お好み焼きの地域バリエーションとして紹介している"
+        }
+      ]
+    },
+    {
+      "slug": "akashiyaki",
+      "body_ja": "## 何でできているか\n小麦粉とじん粉（小麦粉のでんぷんを精製した粉）を卵とだし汁で溶いた生地に、タコがまるごと一つずつ入る。じん粉は加熱しても硬くなりにくいとされ、たこ焼きよりも卵の分量が多いこともあって、ふわりと崩れるような柔らかい焼き上がりになるという。かつおと昆布のだし汁につけると、生地の卵の風味とだしの香りが重なる。\n## どう作るのか\nタコを塩でもんでぬめりを取り、小麦粉とじん粉をだし汁で溶いた生地とともに、熱した銅鍋の丸いくぼみに流し込む。銅は熱の伝わりが均一だとされ、丸く整えながら破れないよう丁寧にひっくり返して焼き上げる。仕上げにソースをかけるたこ焼きとは異なり、温かいまたは冷たいだし汁につけて食べるのが明石焼き独自の流儀とされる。\n## なぜこの形になったのか\n江戸末期から大正期、明石では装飾品「明石玉」の生産が盛んで、白身を使う明石玉づくりの過程で余った卵の黄身と、目の前の海で捕れるタコを混ぜ合わせたのが始まりではないかといわれる。ソースではなくだし汁につける食べ方が残ったのも、この地場産業の副産物として生まれた経緯を映しているとされる。名称は昭和63年頃、市の職員がPRのためにつけたもので、それまでは「玉子焼」と呼ばれていたという。だし汁につける食べ方だけは、その頃も今も変わらないとされる。",
+      "body_en": "## What it's made of\nA whole piece of octopus goes into a batter of wheat flour and jin-ko, a refined wheat starch, loosened with egg and dashi. Jin-ko is said to resist toughening even when heated, and with more egg than takoyaki batter carries, the result is said to come out soft enough to fall apart at a touch. Dipped in a bonito-and-kelp broth, the egg's richness and the broth's aroma layer together.\n## How it's made\nOctopus is rubbed with salt to strip its sliminess, then batter of flour, jin-ko, and dashi is poured into the round wells of a heated copper pan. Copper is said to spread heat evenly, and each piece is carefully turned to keep it round without breaking. Unlike takoyaki, finished with a brush of sauce, Akashiyaki is dipped in a broth, warm or cold, said to be its own distinct way of eating it.\n## Why it took this shape\nFrom the late Edo period into the Taisho era, Akashi was known for making decorative \"Akashi balls,\" a craft that used only egg white — and the leftover yolks, mixed with octopus caught right offshore, are thought to be where the dish began. Dipping it in broth rather than sauce is also said to reflect that origin as a byproduct of a local industry. The name Akashiyaki itself dates only to around 1988, coined by a city employee for publicity; before that it was simply called tamagoyaki. Dipping it in broth, though, is said to be the one thing that hasn't changed since.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：明石焼／玉子焼 兵庫県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_2_hyogo.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "akashiyaki",
+          "to_slug": "takoyaki",
+          "relation_type": "対比",
+          "basis": "農林水産省の資料は「見た目はたこ焼きに似ているが、たこ焼きはソースをかけて食べるのに対し、明石焼はだし汁につけて食べる点が大きな違い」と明記している"
+        }
+      ]
+    },
+    {
+      "slug": "monjayaki",
+      "body_ja": "## 何でできているか\nキャベツや紅しょうが、コーン、揚げ玉、桜えびを、だしを効かせたゆるい小麦粉の生地に混ぜ込む。生地は他のお好み焼き系よりも水分が多く、鉄板の上で土手を作ってから流し込むと、ふつふつと泡立ちながら薄く広がっていくという。焦がしながらヘラですくうと、外側のかりっとした部分ととろりとした中心の対比が楽しめる。\n## どう作るのか\nキャベツと具材を刻んで生地とは別にボウルにまとめ、鉄板の上でまず具材だけを軽く炒める。真ん中にヘラで穴を開けてドーナツ状の土手を作り、そこに残しておいた生地を流し込んで火を通してから、全体を混ぜて薄く広げる。表面が軽く泡立ち、裏面が焦げてきたら、青のりや削り節をふって、各自の小さなヘラで熱いうちに直接食べるのが流儀とされる。\n## なぜこの形になったのか\n物資が乏しかった時代、小麦粉を水で溶いた生地を鉄板に広げて文字を書き、遊びながら覚えさせたことから「文字焼き」と呼ばれ、それが訛って「もんじゃ」になったといわれる。戦後、キャベツやコーンなど具材が増えて子どものおやつから大人のつまみへと変わっていったが、その過程で駄菓子屋が減り、月島でもんじゃ焼き専門店が集まって町の名物として定着したとされる。この専門店文化は今も続いているという。",
+      "body_en": "## What it's made of\nCabbage, pickled red ginger, corn, crunchy tenkasu, and dried baby shrimp are folded into a loose, dashi-thinned wheat-flour batter. The batter carries far more water than other okonomiyaki-family dishes, and pouring it into a ring built up on the griddle is said to make it bubble and spread out thin. Scraping it up with the spatula and letting it char a little brings out a contrast between a crisp edge and a runny center.\n## How it's made\nCabbage and toppings are chopped and kept separate from the batter, then lightly stir-fried on the griddle first. A well is pushed open in the middle with the spatula to form a ring, the reserved batter is poured in and cooked through, and then everything is mixed and spread thin. Once the surface bubbles lightly and the underside chars, green laver and bonito flakes go on top, and the custom is to eat it hot, straight off the griddle, with each diner's own small spatula.\n## Why it took this shape\nIn leaner times, the same watery flour batter was spread on a griddle so kids could trace out characters as a way of learning them, and that game is said to be why it was called moji-yaki (character-grilling), a name that slurred into monja. After the war, toppings like cabbage and corn multiplied and the dish shifted from a kids' snack to an adult's drinking food; along the way the candy shops that once served it thinned out, and Tsukishima's cluster of monjayaki-only restaurants is said to be what turned it into the neighborhood's signature dish. That cluster of specialty shops is still going strong today.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：もんじゃ焼き 東京都",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_3_tokyo.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "monjayaki",
+          "to_slug": "okonomiyaki",
+          "relation_type": "兄弟",
+          "basis": "ともに小麦粉を水やだしで溶いた生地を鉄板で焼く料理という広い系譜を共有するが、もんじゃ焼きは子どもの文字焼き遊びから、お好み焼きは洋食焼きの系譜からと、出典上たどれる起源は別々である"
+        }
+      ]
+    },
+    {
+      "slug": "gyoda-furai",
+      "body_ja": "## 何でできているか\n水でやわらかく溶いた小麦粉の生地に、刻んだネギと豚肉が入るのが基本の姿とされる。生地は薄く丸くのばして焼くため、お好み焼きよりもクレープに近い薄さになるという。ソースや醤油だれを塗って食べると、香ばしく焼けた表面の香りと、ネギの香りが先に立つ。かじると薄い生地はぱりっと割れ、中の豚肉の脂がじゅわりと広がる。\n## どう作るのか\n水で溶いた小麦粉を鉄板に薄くたらして丸く広げ、刻んだネギと豚肉をのせて、上からさらに生地をかける。鍋のふたなどで表裏を繰り返し押しつけながら焼き、焦げ目をつけるのが特徴とされる。仕上げにソースか醤油だれを塗り、好みで青のりをふる。店によっては焼きそばを挟んだり、チーズやイカを加えたりすることもあるという。\n## なぜこの形になったのか\n材料が安く、持ち運びやすく、腹持ちがよいことから、昭和初期に全盛期を迎えた行田の足袋工場で働く女工の間で人気を集め、販売する店が増えて定着したといわれる。「フライ」という名の由来には、行田周辺が布の産地だったことから「布来」になったという説や、フライパンで焼くからという説など諸説あるとされる。揚げ物ではなく焼き物であることが、名前と実際の調理法のずれとしてしばしば話題になるという。この名前と調理法のずれは、今も行田を訪れる人の話の種になっているとされる。",
+      "body_en": "## What it's made of\nThe basic form is a soft, water-thinned wheat-flour batter with chopped scallion and pork worked in. Spread thin into a round shape on the griddle, it's said to come out closer to a crepe than to okonomiyaki. Brushed with sauce or a soy-based glaze, the toasted surface's aroma and the scallion's bite come through first. Bite in and the thin batter cracks, the pork's fat spreading out warm underneath.\n## How it's made\nWater-thinned batter is ladled thin onto the griddle and spread into a circle, chopped scallion and pork go on top, and more batter is poured over that. Pressing both sides repeatedly with a pot lid or similar tool to build up a char is said to be the distinctive step. Sauce or a soy glaze finishes it, with green laver optional. Some shops fold in fried noodles or add cheese or squid.\n## Why it took this shape\nCheap ingredients, easy portability, and a filling bite are said to have made it a hit among the women working Gyoda's tabi-sock factories, which hit their peak in the early Showa years, and more shops opened to sell it as demand grew. Accounts of the name \"furai\" differ — one holds it comes from the town's cloth trade, another that it simply comes from being cooked in a frying pan. That it's grilled rather than fried, despite the name, is often noted as a mismatch between name and method — one visitors to Gyoda still bring up today.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：フライ 埼玉県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_20_saitama.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "gyoda-furai",
+          "to_slug": "okonomiyaki",
+          "relation_type": "対比",
+          "basis": "農林水産省の資料は「お好み焼きやクレープのような料理」と表現するにとどまり、独自の呼び名と由来を持つため直接の派生とはせず対比とした"
+        }
+      ]
+    },
+    {
+      "slug": "nikuten",
+      "body_ja": "## 何でできているか\n薄くのばした生地の上に、甘辛く煮込んだすじ肉とこんにゃく、角切りのじゃがいも、キャベツ、天かすがのる。すじ肉のとろりとした食感とじゃがいものほくほく感が、キャベツの甘みと重なり、焼いたあとに半分に折りたたんで食べるため、断面から具材がのぞく形になるという。ソースの甘辛さが具材全体をひとつにまとめる役目を果たす。\n## どう作るのか\n鉄板に薄くのばした生地の上に、下ごしらえしたすじ肉やこんにゃくを甘辛く煮込んだものと、じゃがいも、みじん切りのキャベツやねぎをのせて焼く。片面が焼けたらひっくり返し、裏面にもソースを塗って真ん中で折り、折った面にもう一度ソースを塗って青のりと削り節をふるのがにくてんの流儀とされる。おでんの残り具材をそのまま使うこともあるという。\n## なぜこの形になったのか\n名前の由来は「すじ肉」と「天かす」を合わせて「にくてん」になったといわれる。戦後、アメリカから小麦粉が輸入されるようになると家庭でよく食べられるようになり、おでんを食べた翌日に残った具材を使って作る習慣が定着したとされる。半分に折る形は、おでんのように多様な具材を一枚の生地にまとめて食べやすくする工夫だったとも考えられている。この折りたたむ食べ方は、今も高砂市内の家庭や個人商店で長く大切に受け継がれているとされる。",
+      "body_en": "## What it's made of\nA thin batter is topped with beef tendon and konjac simmered sweet and savory, diced potato, cabbage, and tenkasu. The tendon's soft, gelatinous bite and the potato's starchiness layer over the cabbage's sweetness, and because it's folded in half after cooking, the fillings peek out from the fold. The sauce's sweet-savory edge is what ties every filling together into one bite.\n## How it's made\nOn a thin batter spread on the griddle go pre-simmered beef tendon and konjac, potato, and chopped cabbage and scallion, cooked through. Once one side is done, it's flipped, sauce goes on the other side too, and it's folded in half down the middle; the fold gets another coat of sauce, then green laver and bonito flakes — said to be nikuten's own way of finishing it. Leftover oden ingredients are sometimes used as well.\n## Why it took this shape\nThe name is said to come from combining sujiniku (beef tendon) and tenkasu into \"nikuten.\" It's said to have become a common home dish once wheat flour started arriving from America after the war, and using what was left over from the previous night's oden is said to have become a habit. Folding it in half is also thought to have been a way of gathering oden-like, varied leftovers into one easy-to-eat batter. That fold is still how it's eaten in Takasago homes and shops today.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：にくてん 兵庫県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_19_hyogo.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "nikuten",
+          "to_slug": "okonomiyaki",
+          "relation_type": "派生",
+          "basis": "農林水産省の資料は「お好み焼きのことを高砂市では『にくてん』と呼んでいる」と明記しており、同一料理の地域的な呼称・具材バリエーションといえる"
+        }
+      ]
+    },
+    {
+      "slug": "tarashi-yaki",
+      "body_ja": "## 何でできているか\n小麦粉に水や味噌を混ぜた生地に、刻んだ野菜や、地域によっては漬物やご飯を混ぜ込むこともある。生地をたらすように焼くことから「たらし焼き」と呼ばれるとされ、味噌の香ばしさや、砂糖醤油のたれの甘さが土地や家庭ごとに味の違いを作るという。ホットケーキよりも薄く、表面は香ばしく焼き上がり、噛むと味噌の塩気と野菜の水分が同時に広がる。\n## どう作るのか\n味噌を水で溶いて小麦粉と合わせ、刻んだ野菜を加えて生地を作る。油を薄くひいたフライパンでおたま一杯分ずつ生地を伸ばし、両面を香ばしく焼き付ける。秩父地域では「しゃくし菜」の漬物を油炒めにして混ぜ込むのが定番とされ、味噌を入れずに焼いて砂糖醤油のたれをつけて食べる家庭もあるという。生地の厚みは家庭によって差があり、薄く焼くほどぱりっとした食感になるとされる。\n## なぜこの形になったのか\n小麦の栽培が盛んだった秩父地域や東部低地では、うどんやまんじゅうほど手間のかからない小麦料理として、農作業の合間の小昼飯にたらし焼きが重宝されたと考えられている。米が貴重だった時代、身近な小麦粉と、その季節に採れる野菜だけで手早く作れる点が、農家の暮らしに合った形として残ったとされる。この手軽さは今も農家の暮らしに合っているという。",
+      "body_en": "## What it's made of\nThe batter is wheat flour mixed with water or miso, sometimes with chopped vegetables, and in some households, pickles or leftover rice folded in. The name tarashi-yaki is said to come from the way the batter is ladled — tarasu — onto the griddle, and the toastiness of miso, or the sweetness of a soy-sugar glaze, is said to vary by place and household. It runs thinner than a pancake, with a toasted surface, and biting in releases the miso's saltiness together with the vegetables' moisture.\n## How it's made\nMiso is loosened with water and mixed with flour, then chopped vegetables are folded in. A ladleful at a time is spread thin in a lightly oiled frying pan and toasted on both sides. In the Chichibu area, stir-fried shakushina pickles are a standard addition, and some households skip the miso entirely and dip the plain batter in a sweet soy glaze instead. How thin it's spread varies by household, and a thinner batter is said to crisp up more.\n## Why it took this shape\nIn the Chichibu area and the eastern lowlands, both known for growing wheat, tarashi-yaki is thought to have served as a mid-morning snack less fussy to make than udon or steamed buns, fitting neatly into a break from farm work. In an era when rice was precious, being quick to make from wheat flour on hand and whatever vegetables were in season is said to be why it stayed part of farming life. That same convenience still suits farming life today.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：たらし焼き 埼玉県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_23_saitama.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tarashi-yaki",
+          "to_slug": "okonomiyaki",
+          "relation_type": "対比",
+          "basis": "小麦粉を水で溶いた生地を鉄板で焼くという広い意味でのコナモンの型を共有するが、農作業の合間の小昼飯として独自に発達したとされ、直接の派生関係は出典上確認できない"
+        }
+      ]
+    },
+    {
+      "slug": "oyaki",
+      "body_ja": "## 何でできているか\n小麦粉やそば粉を水や湯でこねた生地で、味噌や醤油で味付けしたなす、きのこ、かぼちゃ、切干大根などの具を包む。焼くと皮の水分が抜けてパリッとし、蒸すとふっくらもちもちとした食感になるといい、地域や家庭によって具材も焼き方もさまざまだとされる。かじると皮の香ばしさに続いて、中の具の湯気と味噌の香りが立ちのぼる。\n## どう作るのか\n生地は水や湯でよくこね、しばらく寝かせてから丸くのばして具を包む。かつては囲炉裏端で「ほうろく」という鉄鍋を使い、表面を焼いたあと灰の中で蒸し焼きにする「灰焼きおやき」が主流だったとされ、今はフライパンで両面を焼いたあと蒸す方法が一般的だという。具は季節ごとに変わり、なすには甘味噌を挟むのが定番とされる。\n## なぜこの形になったのか\n急峻な山間地が多く米づくりに向かない信州では、小麦やそばが古くから栽培され、1日1回はその粉を使う食事を作っていたと伝わる。小川村の縄文遺跡から雑穀を練って焼いた跡が見つかっているとされるほど歴史は古く、米の代わりとして先人の食を支えてきたという。お盆には仏前に供える習わしも残り、観光資源としての価値が高まるにつれて県内全域の郷土料理として親しまれるようになったとされる。こうした土地との結びつきは今も県内各地それぞれのおやきに色濃く残っているという。",
+      "body_en": "## What it's made of\nA dough of wheat or buckwheat flour, kneaded with water or hot water, wraps a filling of eggplant, mushroom, pumpkin, or dried radish strips, seasoned with miso or soy sauce. Grilling dries out the skin until it's crisp; steaming leaves it soft and chewy — and both the filling and the method are said to vary by region and household. Bite in and the toasted skin gives way first, then the filling's steam and miso aroma rise up.\n## How it's made\nThe dough is kneaded well with water or hot water, rested, then rolled round to wrap the filling. The traditional method, called \"ash-baked oyaki,\" used an iron pan called a horoku over an irori hearth to sear the surface before burying it in the embers to steam through; today it's more common to sear both sides in a frying pan, then steam it. Fillings change with the season, and eggplant paired with sweet miso is said to be a standard.\n## Why it took this shape\nIn Shinshu's steep, mountainous terrain, ill-suited to rice, wheat and buckwheat have long been grown, and the region is said to have eaten a flour-based meal at least once a day. The history runs deep enough that traces of ground grain baked over a fire have reportedly turned up at a Jomon-era site in Ogawa Village, and the dish is said to have stood in for rice as a staple. The custom of offering it at the household altar during Obon survives too, and as its value as a tourist draw grew, it's said to have spread into a specialty eaten across the whole prefecture. That tie between place and dough is said to remain in oyaki made across Nagano today.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：おやき 長野県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/oyaki_nagano.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "oyaki",
+          "to_slug": "gyoza",
+          "relation_type": "対比",
+          "basis": "生地で具材を包んで加熱するという調理法は共通するが、おやきはそば粉・小麦粉の皮で野菜と味噌を包み山間部で発達したのに対し、餃子は中華点心由来で挽肉と野菜を薄い小麦粉の皮で包む点が異なる"
+        }
+      ]
+    },
+    {
+      "slug": "usu-yaki",
+      "body_ja": "## 何でできているか\n小麦粉を水で溶いた生地を薄く丸くのばし、ねぎ、紅しょうが、桜えび、天かす、海苔をのせて焼く。仕上げに刷毛で醤油を塗るのが特徴とされ、もちもちとした食感の中に桜えびの風味と紅しょうがのアクセントが効いているという。くるくると巻いて渡されることもあり、歩きながら食べやすい形になっている。\n## どう作るのか\n水で溶いた小麦粉を鉄板の上で丸く薄くのばし、ねぎや紅しょうが、桜えび、天かす、海苔などをのせて焼く。焼き上がりの表面に刷毛で醤油を塗って仕上げる。通常は業務用の大きな鉄板で作られ、屋台ではテンポよく次々に焼き上げる様子も祭りの風物詩とされる。生地の薄さと焼き時間の短さが、行列を捌く早さにつながっているという。\n## なぜこの形になったのか\n盛岡八幡宮の祭礼や初詣の際に屋台で売られてきた食べ物で、市内でも狭い範囲で親しまれてきたため、盛岡市外ではあまり知られていないとされる。名前のとおり生地を薄くのばす点が特徴で、同様に小麦粉を薄く焼く食べ物は日田市の「へこ焼き」など地域ごとに呼び名が異なるといい、屋台という限られた設備と時間の中で手早く提供できる薄さが土地の型として定着したと考えられている。この祭りとの結びつきは今も変わっていないという。",
+      "body_en": "## What it's made of\nA wheat-flour batter thinned with water is spread into a thin round and topped with scallion, pickled red ginger, dried baby shrimp, tenkasu, and nori before cooking. Brushing soy sauce on with a pastry brush at the end is said to be the finishing touch, and the chewy batter carries the shrimp's flavor and the ginger's kick as accents. It's sometimes rolled up before it's handed over, a shape easy to eat on the move.\n## How it's made\nWater-thinned batter is spread thin and round on the griddle, then topped with scallion, red ginger, baby shrimp, tenkasu, and nori and cooked through. Soy sauce is brushed over the surface once it's done. It's typically made on a large commercial griddle, and stall vendors turning them out in quick succession is said to be a fixture of the festival scene, the thin batter and short cook time keeping the line moving.\n## Why it took this shape\nSold from festival stalls at Morioka's Hachiman Shrine and during New Year's visits, it's said to be familiar only within a narrow part of the city and little known elsewhere in Iwate. Its name reflects its defining trait — a batter rolled thin — and similar thin wheat-batter snacks go by different names in other regions, such as Hita's heko-yaki. Being thin enough to cook fast on a stall's limited equipment and time is thought to be what settled it into this shape. That tie to the festival is said to hold true today.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：うす焼き 岩手県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_22_iwate.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "usu-yaki",
+          "to_slug": "okonomiyaki",
+          "relation_type": "対比",
+          "basis": "だしを含まない水溶きの生地を鉄板で薄く焼くという点で広い意味の粉ものと共通するが、屋台の祭礼食として独自に発達したとされ、直接の派生関係は出典上確認できない"
+        }
+      ]
+    },
+    {
+      "slug": "hirayachi",
+      "body_ja": "## 何でできているか\n小麦粉を卵とだしまたは水で溶いた生地に、刻んだニラやねぎを混ぜ込んで焼く。塩味だけで仕上げるとチヂミに近い食感になるとされ、最近ではソースやマヨネーズをかけて食べる人も増え、「沖縄風お好み焼き」と呼ばれることもあるという。平たく焼くことから「ヒラヤーチー」の名がついたとされ、薄いぶん外側はかりっと仕上がる。\n## どう作るのか\n小麦粉と水、卵、だしを混ぜ合わせ、食べやすい大きさに切ったニラを加える。熱したフライパンに油をひき、生地を流し入れて両面をこんがり焼く。卵を使わずに作るとさっぱりとした味に仕上がるといい、もずくやアーサ、ツナなど冷蔵庫にある食材を加えることも多いとされる。具材の組み合わせに決まりはなく、家庭ごとに味が違うという。\n## なぜこの形になったのか\n台風が多く停電もしばしば起こる沖縄で、外出が難しいときに家にある食材だけで手早く作れる料理として親しまれてきたと考えられている。非常時に限らず、間食やお茶請けとして日常的にも作られるのは、材料が小麦粉と身近な野菜だけで済み、特別な道具もいらない手軽さが土地の暮らしに合っていたためとされる。こうした暮らしの知恵は、今も沖縄各地の家庭料理として、世代を超えて日常的に受け継がれているとされる。",
+      "body_en": "## What it's made of\nWheat flour is loosened with egg and dashi, or just water, then mixed with chopped garlic chives or scallion and pan-fried. Finished with just salt, it's said to come out close to Korean-style jeon in texture; more people now eat it with sauce or mayonnaise, and it's sometimes called \"Okinawan-style okonomiyaki.\" The name Hirayachi is said to come from \"hira,\" flat, describing how it's cooked, and being thin lets the outside turn crisp.\n## How it's made\nFlour, water, egg, and dashi are mixed together, and garlic chives cut into bite-sized pieces are folded in. Oil goes into a hot frying pan, the batter is poured in, and both sides are cooked until golden. Leaving out the egg is said to make for a lighter taste, and ingredients already in the fridge — mozuku seaweed, sea lettuce, canned tuna — are often added too, so there's no fixed rule and the taste differs household to household.\n## Why it took this shape\nIn Okinawa, where typhoons are frequent and power outages common, it's thought to have become a familiar dish for days when going out isn't an option, made from whatever is already in the house. That it's also made as an everyday snack, not just in emergencies, is said to reflect how well its simplicity — flour and whatever vegetables are on hand, no special equipment — suited daily life on the islands. That everyday wisdom is said to still carry on in Okinawan home cooking.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：ヒラヤーチー 沖縄県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_23_okinawa.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "hirayachi",
+          "to_slug": "okonomiyaki",
+          "relation_type": "対比",
+          "basis": "農林水産省の資料は「沖縄風お好み焼き」と呼ばれることがあると明記しているが、琉球独自の食文化圏で発達した別系統の料理であるため対比とした"
+        }
+      ]
+    },
+    {
+      "slug": "jiriyaki",
+      "body_ja": "## 何でできているか\n小麦粉を味噌だれで溶いた生地に、刻んだ野菜を混ぜ込んで焼く。味噌の香ばしさとコクが先に立ち、ソースを使うお好み焼きとはまた違う味わいになるとされる。地域によってはえごまをすってだしと合わせ、香ばしさに深みを加えることもあるという。焼き上がりは表面がやや黒みを帯び、味噌の焦げる匂いが香ばしさを増す。\n## どう作るのか\nえごまを軽くいってすり鉢ですり、砂糖・味噌・だし汁を加えてよく練った生地に、桜えびやふきのとう、ネギ、キャベツなど好みの具材を刻んで混ぜ込む。かつては囲炉裏の灰の余熱を使う焙烙焼きが主流だったとされるが、今はホットプレートで焼くのが一般的だという。具材や生地の硬さに決まりはなく、家庭ごとに味が異なる。\n## なぜこの形になったのか\n群馬では昔から女性も男性も共に働く習慣があり、仕事を終えたあとに手早く用意できる食事としてじりやきが好まれたと考えられている。田んぼの少ない南牧村ではえごまを加えるなど、畑作の広がりが具材の違いにもつながったとされる。農作業の合間の「おこじはん」として片手で食べられる軽食であることも、この形が定着した理由と考えられている。この片手で食べられる手軽さは、今も群馬の農村部の暮らしにしっかりと合っているという。",
+      "body_en": "## What it's made of\nBatter of wheat flour loosened with a miso-based liquid is mixed with chopped vegetables and cooked. Miso's savory depth comes through first, giving it a different character from sauce-based okonomiyaki. In some areas, ground perilla seed is worked in with the dashi for extra richness. The finished surface takes on a faint dark tint, and the scent of lightly scorched miso deepens the aroma.\n## How it's made\nPerilla seed is lightly toasted and ground in a mortar, then mixed with sugar, miso, and dashi into a well-worked batter, into which chopped dried shrimp, butterbur sprouts, scallion, or cabbage go, depending on what's on hand. It was once cooked slowly over the residual heat of an irori hearth's ashes; today it's more commonly made on a hot plate. There's no fixed rule for the fillings or how thick the batter runs, so it varies household to household.\n## Why it took this shape\nIn Gunma, where both men and women traditionally worked, jiriyaki is thought to have suited a meal that could be put together quickly after the day's work. In Nanmoku Village, where paddies are scarce, perilla seed is said to have been worked in instead, tying the difference in fillings to the spread of dryland farming. Being a one-handed snack for a short break during farm work is also thought to be part of why it settled into this shape. That one-handed convenience still suits rural life today.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：じりやき 群馬県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_22_gunma.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "jiriyaki",
+          "to_slug": "okonomiyaki",
+          "relation_type": "対比",
+          "basis": "農林水産省の資料は「味噌風味のお好み焼き」と表現しているが、囲炉裏の灰焼きという独自の調理器具・農村文化から発達したとされ、直接の派生関係は出典上確認できない"
+        }
+      ]
+    },
+    {
+      "slug": "gyuten",
+      "body_ja": "## 何でできているか\n小麦粉と水、卵を溶いた生地にキャベツやねぎを刻んで混ぜ込み、小判形に薄く焼き上げる。使う材料はお好み焼きに近いが、生地が薄く小ぶりなぶん、外側のかりっとした焼き目の割合が多くなるとされる。近年はチーズや桜えびを加えるアレンジもあるという。手のひらに収まる大きさも特徴の一つとされる。\n## どう作るのか\n小麦粉と水、卵をよく溶いた生地に、ざく切りのキャベツとねぎを混ぜ、フライパンで食べやすい大きさに広げる。フライ返しで生地をぎゅっと押さえつけながら火を通し、両面に焼き色をつけるのが特徴とされる。仕上げにソースをかけたり、チーズや桜えびを加えたりするのは近年のアレンジだという。押しつける強さや焼き時間は家庭ごとに加減が違うともいわれる。\n## なぜこの形になったのか\n桐生市は奈良時代から続く絹織物の産地で、家庭を守る女性たちも織物業で働きに出ることが多かったとされる。忙しい合間でもさっと作れる食事として、少ない材料で手早くできるぎゅうてんが子どものおやつや食事の副菜として親しまれたと考えられている。押しつけて焼くという名の由来も、手早く火を通す工夫の跡と見ることができるという。この手早さは今も忙しい桐生の暮らしにしっかりと合っているとされる。",
+      "body_en": "## What it's made of\nA batter of flour, water, and egg is mixed with chopped cabbage and scallion and cooked thin into an oval shape. The ingredients are close to okonomiyaki's, but because the batter runs thin and the portion is small, the crisp seared edge is said to make up a larger share of each piece. Cheese or dried baby shrimp are recent additions at some tables, and it's small enough to fit in one hand.\n## How it's made\nFlour, water, and egg are well mixed into a batter, chopped cabbage and scallion are folded in, and the mixture is spread to a manageable size in a frying pan. Pressing the batter down firmly with a spatula while it cooks, coloring both sides, is said to be the defining step. Topping it with sauce, or adding cheese or dried shrimp, is a more recent twist. How hard it's pressed and how long it cooks is said to vary household to household too.\n## Why it took this shape\nKiryu has been a center of silk weaving since the Nara period, and the women who kept house there often worked in the textile trade too. A dish that could be thrown together fast even during a busy stretch is thought to be why gyuten, needing few ingredients and little time, became a favorite as a kids' snack and a side dish alike. The pressing that gives the dish its name can also be read as a trace of that need to cook it through quickly. That quickness still suits life in Kiryu today.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：ぎゅうてん 群馬県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_27_gunma.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "gyuten",
+          "to_slug": "okonomiyaki",
+          "relation_type": "対比",
+          "basis": "農林水産省の資料は「お好み焼きのような料理」と表現しているが、桐生の絹織物産業という独自の土地の事情から発達したとされ、直接の派生関係は出典上確認できない"
+        }
+      ]
+    },
+    {
+      "slug": "funayaki",
+      "body_ja": "## 何でできているか\n小麦粉と水だけで作る生地を丸く薄く焼き、黒砂糖を包めばおやつに、高菜漬けなどを挟めば軽食になる。具材以外に味付けをしないぶん、小麦の香りと焼き目の香ばしさがそのまま前面に出るとされる。折りたたんだ形は底面が湾曲した大きな鉄鍋に由来するという。かむと折り目のところから具材の味が先にしみ出す。\n## どう作るのか\n小麦粉を水で溶いた生地を鉄鍋の上で丸く薄く広げて焼き、黒砂糖や高菜漬けなど好みの具をのせて半分に折りたたむ。底面が湾曲した鉄鍋を使うため、折りたたむと自然に舟のような形になるとされる。仕上げに何かをかけることはなく、生地と具材だけのシンプルな食べ方が特徴だという。生地の厚みは店や家庭によって違い、薄いほどぱりっとした食感になるとされる。\n## なぜこの形になったのか\n筑後川流域は九州でも麦の作付けが盛んな土地で、福岡県と佐賀県で九州全体の麦の作付面積の8割を占めるとされる。手軽に作れるふなやきは、そうした小麦の産地でおやつとして根づいたと考えられている。名前の「ふな」は舟を指すとされ、底の湾曲した鉄鍋で焼いて折りたたむという調理法そのものが、そのまま名前に残った例といえる。この結びつきは今も筑後川流域の暮らしの中に残っているという。",
+      "body_en": "## What it's made of\nA batter of just flour and water is cooked thin and round, then folded around brown sugar for a sweet snack or pickled takana greens for something more like a light meal. With no seasoning beyond the filling, the wheat's aroma and the toasted crust are said to carry the whole thing. The folded shape is said to trace back to the curved-bottom iron pan it's cooked in, and the filling's flavor seeps out first right at the fold.\n## How it's made\nA flour-and-water batter is spread thin and round in an iron pan and cooked, then topped with brown sugar or pickled takana and folded in half. Because the pan has a curved bottom, folding it is said to naturally produce a boat-like shape. Nothing more is added on top — the simplicity of batter plus filling is said to be the point. How thick the batter runs differs by shop and household, and a thinner one is said to crisp up more.\n## Why it took this shape\nThe Chikugo River basin is one of Kyushu's main wheat-growing areas, with Fukuoka and Saga together said to account for eighty percent of the region's wheat acreage. Funayaki, quick and easy to make, is thought to have taken root as a snack in a place with wheat so close at hand. The \"funa\" in its name means boat, and the method itself — cooked in a curve-bottomed pan and folded over — is said to have stuck directly to the name. That tie between pan and name is said to remain part of life in Chikugo today.",
+      "sources": [
+        {
+          "title": "うちの郷土料理：ふなやき 福岡県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/funayaki_fukuoka.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "funayaki",
+          "to_slug": "okonomiyaki",
+          "relation_type": "対比",
+          "basis": "小麦粉の生地を鉄鍋で焼くという広い意味でのコナモンの型を共有するが、筑後地域の麦作を背景に独自に発達したおやつ・軽食であるとされ、直接の派生関係は出典上確認できない"
+        }
+      ]
+    }
+  ]
+}

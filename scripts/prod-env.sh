@@ -7,6 +7,18 @@
 # 使い方:
 #   bash scripts/prod-env.sh node scripts/import-content.ts --file data/content/<name>.json
 #   bash scripts/prod-env.sh node scripts/content-lint.ts --strict
+# --- prefer .env.production.local ---
+# `.env.production.local`（gitignore 対象）に PROD_SUPABASE_URL / PROD_SUPABASE_SERVICE_ROLE_KEY があれば
+# supabase CLI を呼ばずにそれを使う（CLI はキーチェーン確認待ちで固まることがある）。
+if [ -f "$(dirname "$0")/../.env.production.local" ]; then
+  set -a; . "$(dirname "$0")/../.env.production.local"; set +a
+fi
+if [ -n "${PROD_SUPABASE_SERVICE_ROLE_KEY:-}" ]; then
+  export NEXT_PUBLIC_SUPABASE_URL="${PROD_SUPABASE_URL:-https://xzkvvdldovgbuutttmzj.supabase.co}"
+  export SUPABASE_SERVICE_ROLE_KEY="$PROD_SUPABASE_SERVICE_ROLE_KEY"
+  exec "$@"
+fi
+
 set -eo pipefail
 cd "$(dirname "$0")/.."
 

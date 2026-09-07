@@ -8,6 +8,7 @@ import { afterEach, beforeEach, describe, expect, it } from "vitest";
 import {
   type Bundle,
   bundleSchema,
+  buildRelationsCsvRows,
   csvStringify,
   escapeCsvField,
   expandBundle,
@@ -238,6 +239,14 @@ describe("expandBundle", () => {
           shelf: "grilled",
           genre: null,
         }),
+        // 本文なし × relations あり（relations.csv 経由で投入する対象。実装部隊の報告
+        // 「投入スクリプトの仕上げ」対応。from_slug 省略時は自分自身が源流側になる）。
+        minimalItem({
+          slug: "no-body-with-relation",
+          shelf: "grilled",
+          genre: null,
+          relations: [{ to_slug: "other-item", relation_type: "兄弟" }],
+        }),
       ],
       chains: [
         {
@@ -259,21 +268,28 @@ describe("expandBundle", () => {
       existingChainsJson: existingChainsPath,
     });
 
-    // genres.csv: 既存1件 + 新規1件 = 2件
+    // genres.csv: 既存1件 + 新規1件 = 2件。data/genres.csv 本体（テストでは existingGenresPath）
+    // 自体に書き戻す。data/content/<name>/ にはコピーを残さない（実装部隊の報告
+    // 「投入スクリプトの仕上げ」対応）。
     expect(result.genres?.count).toBe(2);
+    expect(result.genres?.path).toBe(existingGenresPath);
     expect(existsSync(result.genres!.path)).toBe(true);
     const genreCsvBody = parseCsv(readFileSync(result.genres!.path, "utf8")).slice(1);
     expect(genreCsvBody).toHaveLength(2);
+    expect(existsSync(join(dir, "verify-batch", "genres.csv"))).toBe(false);
 
-    // tags.json: 既存1件 + 新規1件 = 2件
+    // tags.json: 既存1件 + 新規1件 = 2件。同じく tags.json 本体に書き戻す
     expect(result.tags?.count).toBe(2);
+    expect(result.tags?.path).toBe(existingTagsPath);
+    expect(existsSync(join(dir, "verify-batch", "tags.json"))).toBe(false);
 
-    // items: sushi/rice に1件、others/grilled に1件、計2ファイル
+    // items: sushi/rice に1件、others/grilled に2件（本文ありのother-item + 本文なしの
+    // no-body-with-relation）、計2ファイル
     expect(result.items).toHaveLength(2);
     const sushiGroup = result.items.find((i) => i.genre === "sushi");
     const othersGroup = result.items.find((i) => i.genre === null);
     expect(sushiGroup?.count).toBe(1);
-    expect(othersGroup?.count).toBe(1);
+    expect(othersGroup?.count).toBe(2);
     expect(othersGroup?.path.endsWith("items__others__grilled.csv")).toBe(true);
 
     // name_en のカンマが壊れていないこと（CSVパース結果で1フィールドのまま）
@@ -290,8 +306,17 @@ describe("expandBundle", () => {
     const bodiesJson = JSON.parse(readFileSync(result.bodies!.path, "utf8"));
     expect(bodiesJson.items[0].slug).toBe("kaburazushi");
 
-    // chains.json: 既存0件 + 新規1件 = 1件
+    // relations.csv: 本文なし×relationsありの1件のみ（本文ありのkaburazushiは
+    // relationsを持たないためここでは0だが、bodies段で入る対象なのでここには含めない仕様）
+    expect(result.relations?.count).toBe(1);
+    const relationsCsvRows = parseCsv(readFileSync(result.relations!.path, "utf8"));
+    expect(relationsCsvRows[0]).toEqual(["from_slug", "to_slug", "relation_type"]);
+    expect(relationsCsvRows[1]).toEqual(["no-body-with-relation", "other-item", "兄弟"]);
+
+    // chains.json: 既存0件 + 新規1件 = 1件。同じく chains.json 本体に書き戻す
     expect(result.chains?.count).toBe(1);
+    expect(result.chains?.path).toBe(existingChainsPath);
+    expect(existsSync(join(dir, "verify-batch", "chains.json"))).toBe(false);
   });
 
   it("bodyが無いアイテムだけの場合はbodies.jsonを作らない", () => {
@@ -300,6 +325,39 @@ describe("expandBundle", () => {
     expect(result.bodies).toBeUndefined();
     expect(result.regions).toBeUndefined();
     expect(result.itemTags).toBeUndefined();
+    // relations が無ければ relations.csv も作らない
+    expect(result.relations).toBeUndefined();
+  });
+});
+
+// -----------------------------------------------------------------------------
+// relations.csv 行の組み立て（本文なしアイテムのみが対象。bodies段との二重投入回避）
+// -----------------------------------------------------------------------------
+describe("buildRelationsCsvRows", () => {
+  it("本文なしアイテムの relations だけを対象にする（本文ありは bodies 段で入るため除外）", () => {
+    const withBody = bundleSchema.parse({
+      items: [minimalItem({ slug: "with-body", body_ja: "## x", body_en: "## x", relations: [{ to_slug: "other", relation_type: "兄弟" }] })],
+    }).items[0];
+    const withoutBody = bundleSchema.parse({
+      items: [minimalItem({ slug: "without-body", relations: [{ to_slug: "other", relation_type: "対比" }] })],
+    }).items[0];
+
+    const rows = buildRelationsCsvRows([withBody, withoutBody]);
+    expect(rows).toEqual([{ from_slug: "without-body", to_slug: "other", relation_type: "対比" }]);
+  });
+
+  it("from_slug 省略時はアイテム自身のslugを使う", () => {
+    const item = bundleSchema.parse({
+      items: [minimalItem({ slug: "self-slug", relations: [{ to_slug: "other", relation_type: "源流" }] })],
+    }).items[0];
+    expect(buildRelationsCsvRows([item])).toEqual([
+      { from_slug: "self-slug", to_slug: "other", relation_type: "源流" },
+    ]);
+  });
+
+  it("relations が無いアイテムからは何も作らない", () => {
+    const item = bundleSchema.parse({ items: [minimalItem()] }).items[0];
+    expect(buildRelationsCsvRows([item])).toEqual([]);
   });
 });
 

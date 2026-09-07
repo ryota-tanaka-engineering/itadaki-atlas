@@ -1,0 +1,88 @@
+{
+  "guides": [
+    {
+      "slug": "ticket-machine",
+      "kind": "ordering",
+      "sort_order": 1,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "券売機の読み方",
+          "summary": "先に食券を買ってから席に着くお店では、券売機のボタンの並びに一定の傾向があることが多いです。",
+          "body_md": "多くの食券機店では、いちばん目立つ位置に看板メニューのボタンを置く傾向があります。\n\n## ボタンの並び\n\n迷ったら、**左上**か上段の列に人気メニューが集まっていることが多いです。とはいえ店による配置の違いも大きく、必ずそうとは限りません。\n\n## 買い方の流れ\n\n- お金を先に入れる\n- ボタンを押して食券を受け取る\n- お釣りが出れば取る\n- 食券を店員に渡す\n\n## わからないときは\n\n写真付きのボタンや、店員に見せて注文できる店も増えています。困ったら遠慮なく店員に声をかけて大丈夫なことが多いです。"
+        },
+        "en": {
+          "title": "How to read a ticket machine",
+          "summary": "Shops that use a ticket machine (shokken-ki) often place their most popular items in a similar spot.",
+          "body_md": "Many ramen and noodle shops ask you to buy a ticket from a machine before you sit down.\n\n## Button layout\n\nWhen in doubt, the **top-left** or top row often has the shop's most popular items — though this varies a lot by shop, so it's not a hard rule.\n\n## How to use one\n\n- Insert your money first\n- Press the button for the item, and take your ticket\n- Take any change\n- Hand the ticket to a staff member\n\n## If you're stuck\n\nMany machines now have photos, and staff are often happy to help if you just show them you're unsure."
+        }
+      },
+      "sources": [
+        {
+          "title": "日本政府観光局（JNTO）公式サイト",
+          "url": "https://www.jnto.go.jp/en/",
+          "publisher": "日本政府観光局",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "links": [
+        { "kind": "genre", "slug": "ramen" },
+        { "kind": "shelf", "slug": "noodles" }
+      ]
+    },
+    {
+      "slug": "vertical-menu",
+      "kind": "ordering",
+      "sort_order": 2,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "縦書きメニューの読み方",
+          "summary": "短冊状の縦書きメニューが貼られている店では、右上あたりに人気・おすすめ品が置かれていることが多いです。",
+          "body_md": "壁に短冊（たんざく）状のメニューが縦に貼られているお店も多くあります。\n\n## 貼り方の傾向\n\nおすすめ品や人気メニューは、**右上**に近い位置に貼られていることが多いとされます。ただし店の考え方次第で、貼る場所は大きく変わります。\n\n## 読み方のコツ\n\n- 縦書きは右から左、上から下へ読みます\n- 値段は品名の下か左に添えられていることが多いです\n- 「本日のおすすめ」は色紙や別の紙で区別されることがあります\n\n読めない漢字があっても、指差しで注文できる店がほとんどです。"
+        },
+        "en": {
+          "title": "How to read a vertical menu",
+          "summary": "In shops with strips of handwritten menu items on the wall, the top-right spot is often used for recommendations.",
+          "body_md": "Many traditional shops display their menu as vertical strips of paper on the wall instead of (or alongside) a printed menu.\n\n## Where the recommendations tend to go\n\nThe **top-right** area is often used for the chef's picks or most popular items — though this depends entirely on the shop.\n\n## How to read it\n\n- Vertical Japanese text reads top-to-bottom, right-to-left\n- The price is usually written below or to the left of the item name\n- Daily specials are sometimes marked on a different color of paper\n\nEven if you can't read the characters, pointing at the strip works at almost every shop."
+        }
+      },
+      "sources": [
+        {
+          "title": "Japan National Tourism Organization",
+          "url": "https://www.japan.travel/en/",
+          "publisher": "Japan National Tourism Organization",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "links": [{ "kind": "genre", "slug": "sushi" }]
+    },
+    {
+      "slug": "cash-only",
+      "kind": "paying",
+      "sort_order": 1,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "支払いは現金が多い店",
+          "summary": "特にラーメン店は、券売機とあわせて現金だけで営業していることが多いです。",
+          "body_md": "個人経営の小さな飲食店、特にラーメン店では、今も現金のみに対応している店が多いとされます。\n\n## なぜ現金だけなのか\n\n券売機自体が現金専用のことが多く、また回転の速い業態のため、決済手数料や機材コストを避ける店が一定数あります。\n\n## 備えておきたいこと\n\n- 小銭・千円札を多めに用意しておくと安心です\n- 店頭やドアに「現金のみ」「Cash Only」の表示がないか確認します\n- 大きい金額の紙幣（一万円札）は券売機で使えないことがあります\n\nキャッシュレス対応の店も年々増えていますが、入る前に少し確認しておくと安心です。"
+        },
+        "en": {
+          "title": "Cash-only shops are common",
+          "summary": "Especially at ramen shops, it's common to find places that only accept cash — often through a ticket machine.",
+          "body_md": "Small, independently run restaurants — ramen shops in particular — are still often cash-only.\n\n## Why cash only\n\nTicket machines themselves are often cash-only, and for fast-turnover shops, avoiding card fees and extra equipment is common.\n\n## What to have ready\n\n- Carry some coins and 1,000 yen notes\n- Check the door or counter for a \"Cash Only\" sign\n- Large notes (10,000 yen) sometimes can't be used in the ticket machine\n\nCashless payment is slowly becoming more common, but it's worth checking before you walk in."
+        }
+      },
+      "sources": [
+        {
+          "title": "日本フードサービス協会",
+          "url": "https://www.jfnet.or.jp/",
+          "publisher": "一般社団法人日本フードサービス協会",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "links": [{ "kind": "genre", "slug": "ramen" }]
+    }
+  ]
+}

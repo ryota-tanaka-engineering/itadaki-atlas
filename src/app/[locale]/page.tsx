@@ -8,6 +8,7 @@ import {
   fetchHonbaGroups,
   fetchHonbaPins,
   fetchMapItems,
+  fetchPlaceNames,
   fetchPrefsWithItems,
   fetchTagsWithCounts,
   type Locale,
@@ -28,7 +29,7 @@ export default async function Home({
   setRequestLocale(locale);
 
   const t = await getTranslations("site");
-  const [items, genres, honbaPins, honbaGroupsAll, chains, prefs, tags] = await Promise.all([
+  const [items, genres, honbaPins, honbaGroupsAll, chains, prefs, tags, placeNames] = await Promise.all([
     fetchMapItems(locale as Locale),
     fetchGenres(),
     // 本場ピン（2026-09）。発祥ピンとは別経路で取得し、地図側でだけ合流させる
@@ -44,6 +45,9 @@ export default async function Home({
     fetchPrefsWithItems(),
     // トップ「興味からさがす」カードのタグチップ用（件数はサーバー側で集計。/tags と同じクエリ）。
     fetchTagsWithCounts(),
+    // 市区町村名の他言語表記（/en の本場・産地チップ用）。ja では不要なので空のまま
+    // （実装部隊の報告「/en の本場・産地チップに市区町村名が日本語のまま」対応）。
+    locale === "en" ? fetchPlaceNames("en") : Promise.resolve({}),
   ]);
 
   // 「今日の一皿」「土地の物語から」の日付選定はサーバー側で1回だけ確定させる
@@ -71,6 +75,7 @@ export default async function Home({
         chains={chains}
         siteCounts={{ items: items.length, prefs: prefs.length }}
         allTags={tags}
+        placeNames={placeNames}
       />
     </main>
   );

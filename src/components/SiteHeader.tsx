@@ -38,6 +38,9 @@ export async function SiteHeader({ locale }: { locale: string }) {
           <Link href="/tags" className="text-foreground/80 hover:text-foreground">
             {t("navInterest")}
           </Link>
+          <Link href="/guide" className="text-foreground/80 hover:text-foreground">
+            {t("navGuide")}
+          </Link>
         </nav>
 
         <div className="shrink-0">

@@ -1,0 +1,468 @@
+{
+  "items": [
+    {
+      "slug": "kamaboko",
+      "body_ja": "## 何でできているか\nスケトウダラなどの白身魚のすり身に塩と砂糖、みりんを加えてよく練り、板の上に半月形に盛って仕上げる。歯を立てるとプリッと押し返してくる弾力と、噛むほどにじむ魚の淡い甘みが持ち味で、練りの塩梅ひとつで舌触りが変わるとされる。明治時代より前は日常のごちそうというより、祝いの席に出す高級な食べものだったと伝わる。\n## どう作るのか\nすり身を練って空気を抜き、板に盛ってから蒸気で蒸し上げるのが基本の作り方で、これを「蒸しかまぼこ」と呼ぶ。地域によっては蒸さずに直火で炙る「焼き抜き」の仕上げを選ぶところもあり、同じ蒲鉾でも断面や表面の色合い、弾力の出方に違いが出るという。板に盛らず簀の子や竹皮で巻いて蒸す型も各地に残り、包む素材の違いがそのまま見た目の個性になっているという。\n## なぜこの形になったのか\n平安時代の古文書に残る最初の形は、棒の先にすり身を巻いて焼いた今のちくわに近いものだったと伝わる。後に板へ盛って蒸す製法が分かれて広まり、水揚げされる魚と保存の必要に合わせて土地ごとに仕上げ方の違う「かまぼこ」が育っていったとされる。高知県のように、生産・消費量で全国有数とされる産地も別に育っている。",
+      "body_en": "## What it's made of\nWhite fish paste, often from walleye pollock, is kneaded with salt, sugar, and mirin, then mounded onto a wooden board in a half-moon shape. Bite into it and it pushes back with a springy bounce, releasing a faint sweetness with each chew, and the paste's exact balance is said to shape how it feels on the tongue. Before the Meiji era, it's said to have been less an everyday food than a delicacy served at celebrations.\n## How it's made\nThe base method kneads the paste to work out air, mounds it on a board, and steams it -- this is called \"steamed kamaboko.\" Some regions skip the steaming step and bake it directly over open flame instead, a finish called yakinuki, which leaves a different cross-section, surface color, and bounce even though it's the same family of food.\n## Why it took this shape\nThe earliest form on record, noted in an eleventh-century document, is said to have looked closer to today's chikuwa -- paste wound around a stick and grilled. A board-mounted, steamed method later split off and spread, and different regions are said to have grown their own finish depending on the fish they landed and what preservation demanded. Kochi Prefecture, among others, grew into a separate major producing region in its own right.",
+      "sources": [
+        {
+          "title": "かまぼこの歴史",
+          "url": "https://www.nikkama.jp/history/",
+          "publisher": "日本かまぼこ協会（全国蒲鉾水産加工業協同組合連合会）",
+          "accessed_at": "2026-09-08"
+        },
+        {
+          "title": "かまぼこ製品図鑑",
+          "url": "https://www.nikkama.jp/zukan/",
+          "publisher": "日本かまぼこ協会（全国蒲鉾水産加工業協同組合連合会）",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kamaboko",
+          "to_slug": "chikuwa",
+          "relation_type": "派生",
+          "basis": "板に盛って蒸す製法は、元は棒に巻いて焼く竹輪型だった蒲鉾から分かれて生まれたと伝わる。"
+        },
+        {
+          "from_slug": "kamaboko",
+          "to_slug": "surimi",
+          "relation_type": "源流",
+          "basis": "戦後開発された冷凍すり身の技術が、遠洋の魚でも通年で練り製品にできる基盤になった。"
+        }
+      ]
+    },
+    {
+      "slug": "chikuwa",
+      "body_ja": "## 何でできているか\n白身魚のすり身を金属や竹の棒に巻きつけて焼き上げた、中心に空洞を持つ筒形の練り物。表面はきつね色に焼き目がつき、噛むと弾力の奥から焼きの香ばしさが立つ。明治時代より前は蒲鉾も竹輪も日常の惣菜というより、祝いの席で使う高級な食べものだったと伝わる。現在は魚以外にえびや帆立などのすり身を使った変わり種のちくわも作られているという。\n## どう作るのか\nすり身を棒に巻きつけて成形し、直火やオーブンで表面に焼き目をつけながら火を通す。焼き上がって棒を抜くと、切り口が竹の節を切ったような輪の形に見えることから「竹輪」と呼ばれるようになったとされる。焼く強さや棒の太さで、地域ごとに仕上がりの弾力がわずかに違うという。太さや長さも店によって差があり、細めに仕立てて串団子のように食べる地域もあるとされる。\n## なぜこの形になったのか\n室町時代の書物には棒に巻いて焼いたすり身が「蒲鉾」として記されており、これが今のちくわの原型とされる。安土桃山時代後期に板へ盛って蒸す製法が現れると、竹に見立てたこちらは「竹輪蒲鉾」と呼び分けられ、後に竹輪と略されて定着したと伝わる。青森の牡丹焼きのように、焼き目の模様そのものを見せる仕立ても残る。",
+      "body_en": "## What it's made of\nWhite fish paste is wound around a metal or bamboo rod and grilled into a hollow tube. The surface browns to a light gold, and each bite carries a smoky, grilled aroma underneath the paste's springy bite. Before the Meiji era, kamaboko and chikuwa alike are said to have been delicacies for celebrations rather than everyday food.\n## How it's made\nThe paste is shaped around a rod and cooked over open flame or in an oven until the surface browns. Once grilled, the rod is pulled out, leaving a ring-shaped cross-section said to resemble a cut stalk of bamboo -- the origin of the name chikuwa, or \"bamboo ring.\" How hard it's grilled and how thick the rod is shift the bounce slightly from region to region.\n## Why it took this shape\nMuromachi-era writings record fish paste grilled on a stick under the name kamaboko, and that's said to be the original form of today's chikuwa. Once a board-mounted, steamed method appeared in the late Azuchi-Momoyama period, the stick-grilled version was distinguished by its bamboo-like look and called \"chikuwa-kamaboko,\" later shortened to chikuwa. Aomori's botan-yaki style, which shows off its scorch pattern like flower petals, is one regional take that survives.",
+      "sources": [
+        {
+          "title": "ちくわ",
+          "url": "https://ja.wikipedia.org/wiki/ちくわ",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        },
+        {
+          "title": "かまぼこの歴史",
+          "url": "https://www.nikkama.jp/history/",
+          "publisher": "日本かまぼこ協会（全国蒲鉾水産加工業協同組合連合会）",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "odawara-kamaboko",
+      "body_ja": "## 何でできているか\nグチやエソなど相模湾で揚がる白身魚のすり身を使い、板に盛って蒸し上げた蒲鉾。他地域のものより歯切れのよい弾力と、雑味の少ない上品な白さが持ち味とされる。鈴廣や籠清など、今も小田原には老舗の蒲鉾店が軒を連ねているという。でんぷんなどの増量材をほとんど使わない分、原料となる魚の質そのものが味を大きく左右するとされる。\n## どう作るのか\n仕入れた白身魚をすり身にし、塩だけで練り上げてから板に盛って蒸す。でんぷんなどのつなぎを控えめにし、魚そのものの旨みと弾力を前面に出す仕立てが特徴という。その日水揚げされた魚を選ぶことも、上品な白さと風味を保つ工夫のひとつとされる。蒸し時間や火加減の見極めは職人の経験に頼る部分が大きく、店ごとに微妙な違いが出るという。\n## なぜこの形になったのか\n相模湾に面し新鮮な魚が絶えず水揚げされたことに加え、東海道の宿場町として人と物が行き交ったことが重なり、江戸時代から蒲鉾づくりが根付いたとされる。今もかまぼこ通りには製造元の直売店が並び、観光客が食べ歩きを楽しむ通りになっているという。小田原は古くから東海道有数の宿場町としてにぎわい、旅人や行き交う人の多さが蒲鉾の需要を絶えず支えてきたとみられる。",
+      "body_en": "## What it's made of\nMade from white fish such as croaker and lizardfish landed in Sagami Bay, kneaded into paste and steamed on a board. It's said to carry a crisper bite and a purer white than kamaboko from other regions, with little of the muddiness some fish paste can have. Long-established makers like Suzuhiro and Kagosei still line the streets of Odawara today.\n## How it's made\nFresh white fish is worked into paste, kneaded with little more than salt, then mounded on a board and steamed. Starch and other binders are said to be kept light, letting the fish's own body and bounce carry the texture. Choosing fish landed that same day is said to be part of what keeps the color and flavor this refined.\n## Why it took this shape\nFacing Sagami Bay for a steady supply of fresh fish, and sitting on the Tokaido highway where people and goods constantly passed through, are together said to be why kamaboko-making took root here from the Edo period. Kamaboko-dori street still lines up direct-sale shops from local makers today, drawing visitors who stroll and snack their way down it.",
+      "sources": [
+        {
+          "title": "小田原市",
+          "url": "https://ja.wikipedia.org/wiki/小田原市",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        },
+        {
+          "title": "かまぼこ通り",
+          "url": "https://www.odawara-kankou.com/spot/spot_area/kamabokodouri.html",
+          "publisher": "小田原市観光協会",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "odawara-kamaboko",
+          "to_slug": "kamaboko",
+          "relation_type": "派生",
+          "basis": "板に盛って蒸す、蒲鉾の基本形を受け継ぐ代表的な地域型とされる。"
+        }
+      ]
+    },
+    {
+      "slug": "sasa-kamaboko",
+      "body_ja": "## 何でできているか\nヒラメなど白身魚のすり身を、笹の葉のような扁平な形に整えて焼き上げた蒲鉾。表面は香ばしく焼き色がつき、中はふっくらとした弾力を保つ。焼き立ては特に香りが立つとされ、仙台は蒲鉾の生産・消費量で全国有数の地域になっているという。焼き加減がわずかに違うだけで香ばしさと弾力の出方が変わるため、店ごとの個性が出やすい品とされる。\n## どう作るのか\nすり身を手のひらで笹の葉形に伸ばし、串を使わず金網の上で両面を直火焼きする「焼き抜き」の製法をとる。蒸さずに焼き切ることで、表面の香ばしさと日持ちのよさが生まれるという。白身魚以外にグチなど複数の魚を混ぜて使う店もあり、店ごとに配合の違いがあるとされる。冷めても硬くなりにくいのも焼き抜きならではの特徴とされ、そのまま食べるほか炙り直しても楽しめるという。\n## なぜこの形になったのか\n明治初期、三陸沖でヒラメが大漁になった際、保存と利用のためすり身を笹の葉形に焼いたのが始まりと伝わる。後に阿部蒲鉾店が伊達家の家紋「竹に雀」にちなみ「笹かまぼこ」と名づけ、この名が定着したとされる。1972年には「笹かま」の名が商標登録され、宮城県内の業者が使えるようになったと伝わる。今では仙台土産の定番として、駅の売店や空港でも数多くの店の商品が並んでいるという。",
+      "body_en": "## What it's made of\nWhite fish paste, often flounder, is shaped flat like a bamboo-grass leaf and grilled. The surface browns fragrantly while the inside keeps a plump, springy bite, and it's said to smell best fresh off the grill. Sendai has grown into one of Japan's leading regions for kamaboko output and consumption.\n## How it's made\nThe paste is flattened by hand into a leaf shape and grilled on both sides over open flame on a wire rack, skipping the skewer entirely -- a fire-baked method called yakinuki. Baking it through without steaming is said to be what gives it a fragrant surface and better keeping quality. Some makers blend in croaker and other fish alongside the flounder, and the exact mix is said to vary by shop.\n## Why it took this shape\nIn the early Meiji era, a glut of flounder caught off the Sanriku coast is said to have led locals to shape the surplus paste into leaf forms and grill it for preservation. The maker Abe Kamaboko later named it \"sasa-kamaboko\" after the Date clan's bamboo-and-sparrow crest, and that name is said to have stuck. In 1972, the name \"sasakama\" was registered as a trademark, opened up for use by makers across Miyagi Prefecture.",
+      "sources": [
+        {
+          "title": "笹かまぼこの歴史",
+          "url": "https://www.abekama.co.jp/history",
+          "publisher": "阿部蒲鉾店",
+          "accessed_at": "2026-09-08"
+        },
+        {
+          "title": "蒲鉾",
+          "url": "https://ja.wikipedia.org/wiki/蒲鉾",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "sasa-kamaboko",
+          "to_slug": "odawara-kamaboko",
+          "relation_type": "対比",
+          "basis": "蒸して仕上げる小田原型と、串を使わず焼き抜く仙台型という製法の違いを持つ対照的な地域型とされる。"
+        }
+      ]
+    },
+    {
+      "slug": "kobumaki-kamaboko",
+      "body_ja": "## 何でできているか\n板に盛った蒲鉾の表面を昆布で巻いて仕上げた練り物で、蒲鉾のプリッとした弾力に昆布のとろりとした食感と旨みが重なる。切り口に昆布の層が見えるのも特徴とされ、蒲鉾単体よりも噛みごたえに深みが出て贈答品としても選ばれやすいという。そのまま食べるだけでなく、薄く切って酒の肴や弁当のおかずにも使われるという。\n## どう作るのか\nすり身を板に盛って成形したあと、表面に昆布を巻きつけて蒸し上げる。昆布が水分を含んでやわらかくなり、蒲鉾の身に旨みを移すとともに、乾燥や型崩れを防ぐ役目も果たすという。昆布の巻き方や厚みは店によって工夫が異なり、見た目の仕立てにも違いが出るとされる。蒸し時間が長くなりがちなため、蒲鉾本体が硬くなりすぎないよう火加減を調整する必要があるとされる。\n## なぜこの形になったのか\n江戸時代、加賀藩が治めた越中(現在の富山県)では魚が手に入りにくく、代わりに蒲鉾が広く食べられていたと伝わる。同時にこの地は北前船による昆布貿易の中継地で、家庭でも昆布を多く使う土地柄で、両者が結びついて昆布を巻いた蒲鉾が生まれたとされる。富山藩には昆布貿易を担う「薩摩組」という部署もあったと伝わる。",
+      "body_en": "## What it's made of\nA board-mounted kamaboko wrapped in kelp, layering the paste's springy bite with the kelp's silky texture and umami. A ring of kelp visible in the cross-section is one of its marks, and the extra chew it adds is said to make it a favored gift item over plain kamaboko.\n## How it's made\nPaste is shaped on a board as usual, then wrapped in kelp before steaming. The kelp softens as it takes on moisture, passing its umami into the fish cake while also guarding against drying out or losing its shape, it's said. How the kelp is wrapped and how thick it's cut differ from maker to maker, changing the finished look.\n## Why it took this shape\nIn the Edo period, fish was said to be hard to come by in Etchu -- present-day Toyama -- under Kaga domain rule, so kamaboko was widely eaten in its place. At the same time, the region served as a relay point for the Kitamae-bune kelp trade and is said to still lead the country in household kelp spending today; the two are said to have come together to produce a kamaboko wrapped in kelp. The Toyama domain is even said to have run a department, the Satsuma-gumi, dedicated to the kelp trade.",
+      "sources": [
+        {
+          "title": "昆布巻き",
+          "url": "https://ja.wikipedia.org/wiki/昆布巻き",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        },
+        {
+          "title": "北前船",
+          "url": "https://ja.wikipedia.org/wiki/北前船",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kobumaki-kamaboko",
+          "to_slug": "kamaboko",
+          "relation_type": "派生",
+          "basis": "板に盛って蒸す蒲鉾の表面に、地元で入手しやすい昆布を巻いて仕上げる地域型とされる。"
+        }
+      ]
+    },
+    {
+      "slug": "zaiku-kamaboko",
+      "body_ja": "## 何でできているか\n着色したすり身を鯛や鶴亀など縁起のよい形に細工した蒲鉾で、味そのものよりも見た目の華やかさが持ち味とされる。大きい製品では尾頭付きの鯛を模したものが体長60センチ近くにもなるという。富山県民でも作り方を詳しくは知らないという声があるほど、専門の職人による特別な仕立てとされる。婚礼の引き出物として配られることも多く、切り分けて振る舞う場面そのものが祝いの演出になっているという。\n## どう作るのか\nすり身に食紅などで色をつけ、へらや型を使って鯛の鱗や尾びれまで細かく彩色・成形してから蒸し上げる。職人の手仕事による細工の精密さが仕上がりを左右するとされ、一つの作品に数日をかける場合もあるという。蒲鉾というより工芸品に近い扱いを受けているとされる。型を使わず全て手作業で仕上げる工房も残り、代々受け継がれる技として大切にされているとされる。\n## なぜこの形になったのか\n祝いの席で「めでたい」に通じる鯛の形を蒲鉾で表すことで、日持ちがして切り分けやすい祝い肴を用意できたと考えられている。富山では婚礼や出産の祝いに配る習わしが残り、昆布巻きかまぼこと並ぶ祝儀性の高い蒲鉾として発展したとされる。近年はテレビ番組で職人の技が紹介されるなど、富山の伝統文化として改めて注目されているという。",
+      "body_en": "## What it's made of\nColored fish paste sculpted into auspicious shapes -- sea bream, cranes and turtles -- where the visual flourish matters as much as the taste. The largest pieces, modeled as a whole sea bream head to tail, run close to 60cm. Even some Toyama locals are said to know little about how it's actually made, a mark of just how specialized the craft is.\n## How it's made\nThe paste is tinted with food coloring, then shaped and painted in fine detail down to the scales and tail fin with spatulas and molds before steaming. A craftsman's precision in the sculpting is said to make or break the finished piece, and a single work can reportedly take several days. It's treated less like a fish cake than a piece of craftwork.\n## Why it took this shape\nShaping kamaboko like a sea bream -- a fish whose name puns on \"auspicious\" in Japanese -- is thought to have let households offer a celebratory dish that kept well and was easy to portion out. Toyama still keeps the custom of giving it at weddings and births, developing alongside kelp-wrapped kamaboko as one of the region's more ceremonial fish cakes. In recent years, television features on the craftsmen's technique are said to have renewed attention on it as a Toyama tradition.",
+      "sources": [
+        {
+          "title": "蒲鉾",
+          "url": "https://ja.wikipedia.org/wiki/蒲鉾",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "zaiku-kamaboko",
+          "to_slug": "kobumaki-kamaboko",
+          "relation_type": "兄弟",
+          "basis": "富山で発展した祝儀性の高い蒲鉾という共通点を持つ。"
+        }
+      ]
+    },
+    {
+      "slug": "toyohashi-chikuwa",
+      "body_ja": "## 何でできているか\n三河湾でとれる新鮮な魚介のすり身を棒に巻いて焼き上げたちくわ。表面はきつね色に焼け、噛むと弾力とともに焼きの香ばしさが立つ。ヤマサちくわなど地元の老舗が、変わらぬ製法を守り続けているとされる。地元では魚のすり身に地元産のみりんを合わせるなど、味付けにも土地の産物を生かす工夫があるという。地元の魚市場で仕入れた魚をその日のうちにすり身へ加工することが、鮮度を保つ鍵になっているとされる。\n## どう作るのか\n仕入れた魚をすり身にし、棒に巻きつけて成形してから直火で焼き上げる。豊かな水資源と温暖な気候に支えられ、190年余りにわたり同じ製法が受け継がれてきたという。長い歴史の中でも、焼き加減の見極めは職人の経験に頼る部分が大きいとされる。串を抜いた跡の空洞に薬味や具材を詰めて食べる楽しみ方も、地元では親しまれているとされる。\n## なぜこの形になったのか\n南に太平洋、西に三河湾を望む豊橋は、旬の魚介が絶えず入ってくる恵まれた漁場だったとされる。加えて東海道の宿場町として物流の要衝であったことが、ちくわの味を全国へ広める役割を果たしたと伝わる。東三河で長く親しまれてきたことから、今も豊橋の名産品として位置づけられているという。駅の売店や土産物店に並ぶ定番品としても知られ、地域の顔となる産品のひとつに数えられているという。",
+      "body_en": "## What it's made of\nChikuwa made from fresh seafood paste caught in Mikawa Bay, wound around a rod and grilled. The surface browns to gold, and each bite carries both spring and a grilled aroma. Long-established local makers like Yamasa Chikuwa are said to keep the same method going unchanged.\n## How it's made\nFresh fish is worked into paste, shaped around a rod, and grilled over open flame. Rich water resources and a mild climate are said to have supported the same method here for over 190 years. Even after all that history, judging exactly how far to grill it is said to still rest largely on a craftsman's experience.\n## Why it took this shape\nFacing the Pacific to the south and Mikawa Bay to the west, Toyohashi is said to have been a favored fishing ground with a steady supply of seasonal catch. On top of that, its role as a Tokaido post town and distribution hub is said to have carried the town's chikuwa out across the country. Long loved throughout the eastern Mikawa area, it's now positioned as one of Toyohashi's signature local products.",
+      "sources": [
+        {
+          "title": "ヤマサちくわと豊橋",
+          "url": "https://company.yamasachikuwa.com/history/2025061916482636.html",
+          "publisher": "ヤマサちくわ株式会社",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "toyohashi-chikuwa",
+          "to_slug": "chikuwa",
+          "relation_type": "派生",
+          "basis": "竹輪の製法を受け継ぎつつ、三河湾の魚介と水で仕立てた地域型とされる。"
+        }
+      ]
+    },
+    {
+      "slug": "noyaki",
+      "body_ja": "## 何でできているか\n近海でとれる魚のすり身を太い棒状に成形し、串を通さず直火で焼き上げた練り物。表面はぱりっと香ばしく焼け、中はふっくらとした弾力を保つとされる。日本かまぼこ協会の製品分類でも「焼きかまぼこ」の仲間に位置づけられているという。地元では祝い事の膳や来客のもてなしにも使われ、日常と行事の両方で食べられてきたとされる。\n## どう作るのか\nすり身を成形したあと、金串などで貫かずそのまま炭火や機械で炙り焼く。焼成中に空気抜きの穴を開けることで、中まで均一に火が通るよう工夫されているという。焼き加減や焼き時間は職人の経験による部分が大きく、店ごとに微妙な差が出るとされる。焼く前にすり身をよく練り込むことで、焼成中に割れにくくなるという工夫もあるとされる。\n## なぜこの形になったのか\n出雲地方では古くから、蒸さずに直火で焼き切ることで日持ちを高める焼き抜き蒲鉾の製法が伝わってきたとされる。串を通さず「野」で焼くその名の通り、山陰の魚と保存の必要が結びついて育った地域の技法とみられる。蒸して仕上げる蒲鉾とは対照的に、焼き切ることで水分を抑える工夫とされる。同じ焼き抜きでも仙台の笹かまぼこのように薄く成形する型もあり、太い棒状に仕立てる点が山陰の特徴とされる。",
+      "body_en": "## What it's made of\nCoastal fish paste is shaped into a thick cylinder and fire-baked directly, without a skewer. The surface bakes to a crisp, fragrant finish while the inside is said to stay plump and springy. The Japan Kamaboko Association's own product guide places it among the \"grilled kamaboko\" family.\n## How it's made\nAfter the paste is shaped, it's grilled over charcoal or by machine without ever being run through with a skewer. Small vent holes are poked into it during baking, said to help the heat reach evenly through to the center. How long and how hot it's grilled is said to rest largely on a craftsman's judgment, with small differences from shop to shop.\n## Why it took this shape\nThe Izumo region is said to have long carried a tradition of yakinuki -- baking fish paste through over direct flame rather than steaming it -- to improve how well it kept. Baked \"in the open,\" true to its name, noyaki looks to be a local technique grown from the coastal fish of the Sanin region and the need to preserve it. Baking it through, in contrast to steamed kamaboko, is thought to hold down moisture and extend how long it keeps.",
+      "sources": [
+        {
+          "title": "ちくわ",
+          "url": "https://ja.wikipedia.org/wiki/ちくわ",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        },
+        {
+          "title": "あご野焼き",
+          "url": "https://ja.wikipedia.org/wiki/あご野焼き",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "noyaki",
+          "to_slug": "ago-yaki",
+          "relation_type": "源流",
+          "basis": "トビウオ(あご)を使う高級版があご野焼きと呼び分けられ、素材魚の違いで派生したとされる。"
+        }
+      ]
+    },
+    {
+      "slug": "ago-yaki",
+      "body_ja": "## 何でできているか\n「あご」と呼ばれるトビウオのすり身を長さ40センチほどの棒状に成形し、焼き上げた野焼き。他の魚を使う野焼きより上品な甘みが出るとされ、表面はパリッとした食感を持つ。焼き上げる際に立つ香ばしいにおいも、他の練り物にはない魅力とされる。厚めに切り分けてそのままつまむほか、軽く炙って香りを立たせて食べる楽しみ方もあるという。\n## どう作るのか\n味付けしたトビウオのすり身を太さ7センチほどの棒状に成形し、突き立て棒で空気抜きの穴を開けてから焼き上げる。串を通さず焼き切ることで、パリッとした表面の食感が生まれるという。焼き加減を見極める技術が味の決め手となり、店ごとに焼き上がりの香ばしさが違うとされる。トビウオは足が早い魚とされ、水揚げ後すぐにすり身へ加工することが鮮度を保つ鍵になっているという。\n## なぜこの形になったのか\nトビウオを焼いて保存食にしたのが始まりとされ、出雲地方で古くから作られてきた。日持ちがよく切り分けやすいことから土産物としても人気が高く、山陰の海でとれる魚を無駄なく活かす知恵が今の形につながったとみられる。贈答品として箱に入れて配られることも多く、島根土産の定番のひとつになっているという。贈答文化に根ざした品として、今も地元で大切に扱われているという。",
+      "body_en": "## What it's made of\nPaste from flying fish, called ago, is shaped into a rod about 40cm long and fire-baked. It's said to come out sweeter and more refined than noyaki made from other fish, with a surface that cracks crisply under the teeth. The fragrant smell that rises as it bakes is said to be another pleasure this practice offers over other fish-paste products.\n## How it's made\nSeasoned flying-fish paste is shaped into a rod about 7cm thick, poked with vent holes using a skewer-like tool, then baked through without ever running a skewer through it -- a method said to be what gives it that crackling surface. Reading the exact heat and timing is said to be the real skill, and the fragrance of the finish differs shop to shop.\n## Why it took this shape\nIt's said to have started as a way of grilling flying fish into a preserved food, made in the Izumo region since long ago. Because it keeps well and slices easily, it's become a popular travel souvenir, and the shape it holds today looks to carry forward a way of using the Sanin coast's fish without waste. Often boxed up as a gift, it's said to be one of Shimane's standard souvenirs.",
+      "sources": [
+        {
+          "title": "あご野焼き",
+          "url": "https://ja.wikipedia.org/wiki/あご野焼き",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "ago-yaki",
+          "to_slug": "chikuwa",
+          "relation_type": "兄弟",
+          "basis": "串を使わず焼く点で異なるが、すり身を棒状に成形して焼く仲間とされる。"
+        }
+      ]
+    },
+    {
+      "slug": "hanpen",
+      "body_ja": "## 何でできているか\nヨシキリザメなど白身魚のすり身に山芋やとろみをつける材料を加えて泡立て、たっぷり気泡を含ませた練り物。見た目はマシュマロのように白くふくらみ、噛むとふわりと崩れる軽い食感を持つ。白さと軽さは製法の見極め次第で変わり、店ごとに食感の違いが出るとされる。関東を中心に、おでんの具や汁物の実として日常的に食べられているという。\n## どう作るのか\nすり身に山芋を混ぜて空気を含ませながら泡立て、半月形に整えてから茹で上げて浮かせる。気泡を多く含ませることで、他の練り物にはないふわふわとした軽さが生まれるという。近年ではスケトウダラを使ったものも増え、原料魚の違いで風味に差が出るとされる。焼いたり揚げたりすると表面が香ばしくなり、そのまま食べるのとは違った食感を楽しめるとされる。\n## なぜこの形になったのか\n名前の由来には諸説あり、駿河の料理人・半平が考案したからという説や、椀の蓋で半月形に整えたからという説が伝わる。どちらの説でも、他の蒲鉾より軽く仕立てる工夫が今の形につながったとみられる。漢字では「半片」「半平」のほか「半弁」「鱧餅」とも書かれ、表記のゆれも多いとされる。焼津や沼津など東海の一部でも独自の仕立てが伝わり、地域によって白さや軽さの度合いが異なるという。",
+      "body_en": "## What it's made of\nWhite fish paste, often from blue shark, is whipped with grated yam and other thickeners into a foam full of tiny air bubbles. It puffs up white like a marshmallow and gives way to a light, airy crumble with each bite. How white and how light it comes out depends on the maker's touch, and the texture shifts shop to shop.\n## How it's made\nThe paste is mixed with grated yam and whipped to trap air, shaped into a half-moon, then boiled until it floats. Packing in more air than other fish-paste products is said to be what gives hanpen its distinctly light, fluffy texture. Walleye pollock has become a more common base fish in recent years, shifting the flavor somewhat.\n## Why it took this shape\nIts name carries more than one account -- one traces it to a cook named Hanpei from Suruga, another to being shaped into a half-moon using a bowl lid as a mold. Either way, the effort to make it lighter than other kamaboko is thought to be what led to its current form. Its kanji spelling itself varies -- written as \"half-piece,\" \"Hanpei,\" or even \"half-portion\" and \"eel rice cake\" in different records.",
+      "sources": [
+        {
+          "title": "はんぺん",
+          "url": "https://ja.wikipedia.org/wiki/はんぺん",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "hanpen",
+          "to_slug": "kuro-hanpen",
+          "relation_type": "兄弟",
+          "basis": "同じ茹で練り物の系譜だが、関東の白いはんぺんと静岡の黒はんぺんとで原料魚と製法が分かれるとされる。"
+        },
+        {
+          "from_slug": "hanpen",
+          "to_slug": "datemaki",
+          "relation_type": "兄弟",
+          "basis": "はんぺんで代用できるほど近い、すり身に卵を合わせて焼く仲間とされる。"
+        }
+      ]
+    },
+    {
+      "slug": "kuro-hanpen",
+      "body_ja": "## 何でできているか\nサバやイワシなど青魚のすり身を、皮や骨ごとすり込んで半月形に成形した練り物。関東の白いはんぺんとは対照的な青灰色をしており、魚そのものの風味が濃く残るのが特徴とされる。焼いたりフライにしたりと、そのまま食べる以外の調理法にも幅広く使われるという。そのまま食べるよりも揚げたり焼いたりして香ばしさを引き出す食べ方が地元では好まれているという。\n## どう作るのか\nサバやイワシを皮や骨ごとすり身にし、山芋などでつなぎながら半月形に整えて茹で上げる。白身魚だけを使う白いはんぺんと違い、青魚を骨まで使うことで色と風味が濃く出るという。骨まですり身にするため魚の下処理に手間がかかり、店ごとに配合や比率が異なるとされる。青魚は鮮度が落ちやすいため、水揚げからすり身への加工までの早さが味を左右するとされる。\n## なぜこの形になったのか\n駿河湾などで青魚が多く水揚げされる土地柄から、白身魚に限らず身近な魚を骨や皮ごと無駄なく使う仕立てが根付いたとみられる。関東の白いはんぺんとは原料魚も製法も分かれ、静岡独自の練り物として定着したとされる。おでんの具としても定番で、静岡おでんの黒っぽい出汁とも相性がよいという。静岡おでんでは具材を串に刺して提供する店が多く、黒はんぺんもその一本として並ぶことが多いとされる。",
+      "body_en": "## What it's made of\nPaste from mackerel or sardine, ground in with skin and bone, shaped into a half-moon. Its blue-gray color stands in contrast to the white hanpen found in the Kanto region, and it's said to carry a much stronger fish flavor. Beyond eating it plain, it's also grilled or deep-fried in a range of dishes.\n## How it's made\nMackerel or sardine is worked into paste along with its skin and bone, bound with grated yam or similar, shaped into a half-moon, and boiled. Unlike white hanpen made from white fish alone, using oily fish down to the bone is said to be what gives it its deeper color and flavor. Grinding the bone in as well takes extra prep work, and the exact ratio is said to differ from maker to maker.\n## Why it took this shape\nLanding plenty of oily fish from waters like Suruga Bay is thought to be behind a habit of using whatever fish was at hand, bone and skin included, without waste. Both its raw fish and its method split off from Kanto's white hanpen, and it's said to have settled in as a fish cake distinct to Shizuoka. It's also a fixture in oden, said to pair especially well with the darker broth of Shizuoka-style oden.",
+      "sources": [
+        {
+          "title": "はんぺん",
+          "url": "https://ja.wikipedia.org/wiki/はんぺん",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "narutomaki",
+      "body_ja": "## 何でできているか\n白いすり身と赤く着色したすり身を重ねて渦巻き状に巻いた円筒形の練り物。切り口に「の」の字のような渦模様が浮かぶのが特徴で、ラーメンやおでんの具として彩りを添える。断面の渦をきれいに見せるため、巻き方や色付けに細かな工夫があるとされる。赤い色は食用色素で付けられ、白い部分との対比が断面の模様をより際立たせているとされる。\n## どう作るのか\n白と赤、二色のすり身を薄く重ねて巻き簾で巻き締め、蒸し上げてから輪切りにする。周囲が巻き簾で押されたようにギザギザになるのも仕立ての特徴とされる。現在はほとんどが機械による大量生産で、手巻きの渦模様も均一に再現されているという。厚みを均一に切りそろえることで、丼やラーメンに乗せたときの見栄えが良くなるとされる。\n## なぜこの形になったのか\n名前は鳴門海峡の渦潮にちなむと伝わるが、はっきりした由来は定かではないという。江戸時代後期にあった「五色巻」という練り物のうち、赤い一色だけが独立して今の形になったという説もある。実際の鳴門の渦潮は逆向きに巻くことが多いともされ、名前と実物の渦の向きは一致しないという。現在では消費量の9割ほどを静岡県焼津市が担っているとされる。",
+      "body_en": "## What it's made of\nWhite and red-dyed fish paste layered and rolled into a spiral, then formed into a cylinder. Sliced, it shows a swirl in its cross-section that reads like the Japanese character \"no\" -- a splash of color often dropped into ramen or oden. Getting that swirl to show cleanly is said to take real care in how the layers are rolled and dyed.\n## How it's made\nThin layers of white and red paste are rolled together with a bamboo mat, steamed, then sliced into rounds. The ridged edge left by the mat's press is another mark of how it's made. Most production today is machine-made, and even the hand-rolled-looking swirl is now reproduced with mechanical consistency.\n## Why it took this shape\nIts name is said to nod to the whirlpools of the Naruto Strait, though the exact origin isn't settled. One account traces it to a five-color roll made in the late Edo period, from which only the red swirl split off into today's form. The strait's actual whirlpools are said to spin the opposite way more often than not, so the name and the real thing don't quite match. Today, roughly nine in ten are said to be produced in Yaizu, Shizuoka.",
+      "sources": [
+        {
+          "title": "なると巻き",
+          "url": "https://ja.wikipedia.org/wiki/なると巻き",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "narutomaki",
+          "to_slug": "kamaboko",
+          "relation_type": "派生",
+          "basis": "茹で仕立ての練り物の一種で、二色のすり身を渦巻きに巻いて仕上げる型とされる。"
+        }
+      ]
+    },
+    {
+      "slug": "datemaki",
+      "body_ja": "## 何でできているか\n白身魚やエビのすり身に卵黄や溶き卵、だしを加えてすり混ぜ、みりんや砂糖で甘く調味して焼き上げた練り物。渦巻き状の断面と黄金色の見た目、卵らしいふんわりとした甘さが持ち味とされる。卵とすり身を合わせることで、卵焼きよりもしっとりとした厚みのある食感になるという。冷めても硬くなりにくいよう、卵とだしの配合を工夫する作り手も多いとされる。\n## どう作るのか\nすり身と卵、だしをよくすり混ぜて焼き、熱いうちに巻き簾で巻いて形を整える。はんぺんで代用してもよいとされ、卵焼きに近い工程でありながら魚のすり身を加える点が普通の卵焼きと異なる。巻き簾の目の細かさによって表面の模様も変わり、店ごとの個性が出やすい工程とされる。焼き上がりの厚みや巻きの固さは店ごとに差があり、ふんわり仕立てるかしっとり仕立てるかで好みが分かれるという。\n## なぜこの形になったのか\n名前の由来には、洒落たものを指す「伊達者」から来たという説と、武将・伊達政宗の好物だったからという説が伝わり、はっきりしないという。見た目や色合いが華やかなことから正月の御節料理に定着し、地域によってはだし巻き卵で代えることもあるとされる。宮城県石巻市には、同じ材料を巻かずに焼く「カステラかまぼこ」という郷土の一品も伝わるという。",
+      "body_en": "## What it's made of\nPaste from white fish or shrimp mixed with egg yolk or beaten egg and dashi, sweetened with mirin and sugar, and baked. Its spiral cross-section, golden color, and a soft, egg-like sweetness are what define it. Folding in the fish paste is said to give it a moister, thicker bite than a plain rolled omelet.\n## How it's made\nPaste, egg, and dashi are worked together and baked, then rolled up with a bamboo mat while still hot to set the shape. Hanpen can stand in for the paste, it's said, and while the process resembles a rolled omelet, folding in fish paste is what sets it apart from an ordinary one. How fine the bamboo mat's weave is even shows up as a pattern on the surface, giving each maker's version its own look.\n## Why it took this shape\nIts name carries competing stories -- one traces it to \"date-mono,\" a word for something fashionable and showy, another to it being a favorite of the warlord Date Masamune -- and which is right isn't settled. Its showy look and color are said to be why it settled into New Year's osechi cooking, with some regions using a plain rolled omelet in its place instead. Ishinomaki, Miyagi, is said to keep a local relative called \"castella kamaboko,\" made from the same ingredients but baked flat instead of rolled.",
+      "sources": [
+        {
+          "title": "伊達巻",
+          "url": "https://ja.wikipedia.org/wiki/伊達巻",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "tsumire",
+      "body_ja": "## 何でできているか\nイワシやアジなど青魚のすり身に薬味を加え、手やスプーンで一口大に摘み取って茹でた練り物。骨まで使うため魚の風味が濃く、汁に溶け出した旨みごと味わうのが持ち味とされる。生姜やねぎなどの薬味を加えることで、青魚特有の臭みを抑える工夫がされているという。だしと一緒に煮込むことで、すり身自体にもだしの旨みがしみ込むとされる。\n## どう作るのか\n青魚のすり身にしょうがなどの薬味を混ぜ、型に入れて成形せず、指先やスプーンで摘み取って直接煮汁に落として茹でる。同じすり身でもあらかじめ形を整えたものは「つくね」と呼び分けられるという。形が不揃いなのも特徴のひとつで、手作業ならではの表情が煮物に味わいを添えるとされる。冷凍しても味が落ちにくいとされ、家庭では多めに作り置きすることもあるという。\n## なぜこの形になったのか\n成形の手間をかけず、獲れた青魚をそのまま鍋に落として食べるという簡便さが、今の食べ方につながったとみられる。使う魚は地域によって異なり、関東ではイワシやアジ、九州や日本海沿いではトビウオが使われるなど、土地の水揚げがそのまま具材の違いになっているとされる。鍋物や汁物の具として親しまれ、練り物の中でも家庭料理に近い立ち位置にあるとみられる。",
+      "body_en": "## What it's made of\nPaste from oily fish like sardine or horse mackerel, mixed with aromatics, torn into bite-sized pieces by hand or spoon, and boiled. Using the fish down to the bone gives it a strong flavor, meant to be enjoyed together with the broth it melts its umami into. Ginger and scallion are worked in, it's said, to tame the stronger smell that oily fish can carry.\n## How it's made\nPaste from oily fish is mixed with ginger or other aromatics, then -- skipping any mold -- torn off in pieces with fingers or a spoon straight into simmering broth. The same paste shaped ahead of time instead is called tsukune, a related but distinct method. Its uneven, hand-torn shape is part of the appeal, said to add character to the simmered dish.\n## Why it took this shape\nSkipping the work of shaping it, and dropping the catch straight into the pot, is thought to be what led to how it's eaten today. Which fish gets used shifts by region -- sardine and horse mackerel in Kanto, flying fish along Kyushu and the Sea of Japan coast -- so what lands nearby becomes the filling itself. Common in hot pots and soups, it sits closer to home cooking than most other fish-paste products.",
+      "sources": [
+        {
+          "title": "つみれ",
+          "url": "https://ja.wikipedia.org/wiki/つみれ",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tsumire",
+          "to_slug": "kamaboko",
+          "relation_type": "兄弟",
+          "basis": "同じ魚のすり身を使うが、型に成形せず摘み取って茹でる点で作り方が異なるとされる。"
+        }
+      ]
+    },
+    {
+      "slug": "surimi",
+      "body_ja": "## 何でできているか\nスケトウダラなどの魚肉をすりつぶし、水にさらして余分な脂や血合いを抜いた白い練り身。かまぼこやちくわなど、練り製品すべての土台になる素材とされる。冷凍する前のすり身は日持ちが短く、水揚げ地の近くでしか加工できなかったとされる。冷凍すり身は等級づけされて取引され、等級によって用途や価格が変わるとされる。\n## どう作るのか\n魚肉を細かくすりつぶして水洗いし、砂糖や重合リン酸塩を加えて冷凍する。この工程により、蛋白質が変性せず品質を保ったまま長期保存・遠隔輸送できるようになったという。砂糖やリン酸塩は魚のタンパク質を保護する役割を果たし、解凍後も弾力を保てるようにするとされる。解凍後にすり潰し直す工程を経て、初めて蒲鉾やちくわの生地として使えるようになるという。\n## なぜこの形になったのか\n1959年ごろ、北海道水産試験場がスケトウダラを冷凍すり身に加工する技術を確立し、特許を取得したと伝わる。それまで水揚げ地の近くでしか作れなかった練り製品が、この技術によって全国どこでも通年で作れるようになり、練り物産業が大きく広がる土台になったとされる。遠洋で獲れる魚も練り製品の主原料として使えるようになった意義は大きいという。",
+      "body_en": "## What it's made of\nGround fish -- often walleye pollock -- rinsed in water to strip away excess fat and dark meat, left as a white paste. It's the base material behind every fish-paste product, from kamaboko to chikuwa. Before freezing was worked out, surimi kept for only a short time and could only be processed near where the fish was landed.\n## How it's made\nFish flesh is ground fine, rinsed, mixed with sugar and polyphosphate, then frozen. That process is said to be what let the paste keep its quality without protein breakdown, making long storage and shipping over distance possible. The sugar and phosphate are said to protect the fish protein so it keeps its bounce even after thawing.\n## Why it took this shape\nAround 1959, Hokkaido's fisheries research institute is said to have worked out and patented a way to freeze walleye pollock into surimi. Fish-paste products that once could only be made near where the fish was landed could now, thanks to that technique, be made year-round anywhere in the country -- laying the ground for the industry's nationwide growth, it's said. Fish caught in distant waters could now become the main raw material for fish-paste products too, a significant shift.",
+      "sources": [
+        {
+          "title": "かまぼこ製造の歴史",
+          "url": "https://www.nikkama.jp/deki/manufacturing/",
+          "publisher": "日本かまぼこ協会（全国蒲鉾水産加工業協同組合連合会）",
+          "accessed_at": "2026-09-08"
+        },
+        {
+          "title": "すり身",
+          "url": "https://ja.wikipedia.org/wiki/すり身",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "surimi",
+          "to_slug": "kani-kamaboko",
+          "relation_type": "派生",
+          "basis": "冷凍すり身の技術革新の上に、アルギン酸を使うかに風味かまぼこという新しい製品が生まれたとされる。"
+        }
+      ]
+    },
+    {
+      "slug": "gyoniku-sausage",
+      "body_ja": "## 何でできているか\nスケトウダラなどの冷凍すり身に豚脂と香辛料を練り合わせ、ケーシングに詰めて加熱殺菌した練り物。かまぼこと同じすり身を使いながら、豚脂と香辛料で洋風の風味に仕立てているのが特徴とされる。略して「ギョニソ」とも呼ばれ、手軽なおかずやおつまみとして親しまれているという。赤いフィルムで包まれた見た目が特徴で、遠足や運動会の弁当にもよく使われてきたとされる。\n## どう作るのか\n冷凍すり身5〜6割に豚脂・調味料・香辛料を混ぜて練り、ケーシングに詰めてから高圧高温で殺菌する。製法自体はかまぼこと近いが、保存性の高さがこの形の利点とされる。レトルト殺菌によって常温でも長期間保存できることが、この形の大きな利点とされる。そのまま食べられるほか、炒め物やサンドイッチの具にするなど幅広い使い方があるという。\n## なぜこの形になったのか\n1949年に愛媛県で試作が成功し、1950年代前半に商品化されたと伝わる。1954年のビキニ環礁での水爆実験をきっかけにマグロが買い控えられ価格が下落した際、水産各社が余ったマグロを原料にソーセージの生産を強めたことが普及を後押ししたとされる。安価で手に入りやすいことから学校給食にも広く使われ、「東の横綱」と呼ばれるほど普及したと伝わる。",
+      "body_en": "## What it's made of\nFrozen surimi, often from walleye pollock, kneaded with pork fat and spices, packed into a casing, and heat-sterilized. It shares the same paste as kamaboko but is finished with pork fat and spice into a Western-leaning flavor, unlike anything else in the family. Nicknamed \"gyoniso\" for short, it's a familiar, easy side dish or snack.\n## How it's made\nFrozen surimi makes up 50-60% of the mix, kneaded with pork fat, seasoning, and spices, packed into a casing, then sterilized under high heat and pressure. The method sits close to kamaboko's, but the appeal of this shape is said to be how well it keeps. Retort sterilization is what lets it sit at room temperature for a long stretch, a major point in its favor.\n## Why it took this shape\nA successful trial run in Ehime in 1949 is said to have led to commercial sale in the early 1950s. After the 1954 hydrogen bomb test at Bikini Atoll made buyers wary of tuna and prices dropped, fisheries companies are said to have leaned harder into sausage production to use up the surplus catch. Cheap and easy to find, it spread widely into school lunches too, said to have become so common it was nicknamed the \"eastern grand champion\" of cafeteria food.",
+      "sources": [
+        {
+          "title": "魚肉ソーセージ",
+          "url": "https://ja.wikipedia.org/wiki/魚肉ソーセージ",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        },
+        {
+          "title": "かまぼこ製造の歴史",
+          "url": "https://www.nikkama.jp/deki/manufacturing/",
+          "publisher": "日本かまぼこ協会（全国蒲鉾水産加工業協同組合連合会）",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "gyoniku-sausage",
+          "to_slug": "surimi",
+          "relation_type": "源流",
+          "basis": "冷凍すり身の技術とマグロの余剰が結びついて生まれた戦後の加工品とされる。"
+        }
+      ]
+    },
+    {
+      "slug": "kani-kamaboko",
+      "body_ja": "## 何でできているか\n白身魚のすり身にアルギン酸ナトリウムなどを加え、カニの脚肉に似せた繊維状に仕立てた練り物。表面は天然色素で赤く色づけされ、見た目も食感もカニの脚に近づけているのが特徴とされる。すり身とは思えない繊維の細さと、糸を束ねたような断面が本物らしさを演出しているという。本物のカニ肉と混ぜて売られることもあり、価格を抑えつつ風味を補う使われ方もされているという。\n## どう作るのか\nすり身を薄いシート状にしてから細く裂き、アルギン酸ナトリウムの溶液で繊維をまとめてカニの脚のような形に固める。この技術はもともと昆布の成分から人工クラゲを作ろうとした際の失敗作から思いついたと伝わる。焼き色をつける工程を加えたものは「刻みタイプ」と呼ばれ、より本物に近い食感を再現しているとされる。繊維の太さや着色の濃さを変えることで、ズワイガニ風・タラバガニ風など複数の商品展開があるとされる。\n## なぜこの形になったのか\n1972年、石川県七尾市の練り物メーカー・スギヨが世界で初めてかに風味かまぼこを発売したとされる。すり身を安く手に入りやすい形で高級食材に似せて売るという発想が当たり、輸出を通じて世界中に広まり、現在は欧州を中心に年間50万トンが消費されているという。開発の裏には、うまくいかなかった実験からヒントを得るという偶然の発見があったと伝わる。",
+      "body_en": "## What it's made of\nWhite fish paste bound with sodium alginate and worked into crab-leg-like fibers. The surface is tinted red with natural coloring, made to look and even bite like the real thing, it's said. Fibers fine enough that the paste underneath barely shows, and a cross-section that looks like bundled threads, are what sell the illusion.\n## How it's made\nThe paste is spread into thin sheets, torn into fine strands, then set with a sodium alginate solution into a crab-leg shape. The technique is said to have come from a failed attempt to make artificial jellyfish out of kelp-derived alginate. A version with a browned surface, called the \"shredded type,\" is said to come even closer to the real texture.\n## Why it took this shape\nIn 1972, the fish-paste maker Sugiyo of Nanao, Ishikawa, is said to have released the world's first kani kamaboko. The idea of dressing up an affordable paste to resemble a luxury ingredient caught on, spreading worldwide through exports, and it's said around 500,000 tons are now consumed annually, mostly in Europe. Behind the invention is said to be a chance discovery -- a failed experiment that turned out to hint at something else entirely.",
+      "sources": [
+        {
+          "title": "スギヨの歴史",
+          "url": "https://www.sugiyo.co.jp/special/history.php",
+          "publisher": "スギヨ",
+          "accessed_at": "2026-09-08"
+        },
+        {
+          "title": "かに風味かまぼこ",
+          "url": "https://ja.wikipedia.org/wiki/かに風味かまぼこ",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "tofu-chikuwa",
+      "body_ja": "## 何でできているか\n魚のすり身に木綿豆腐を混ぜて成形し、蒸し上げたちくわ。豆腐を加えることで低カロリーながら高タンパクに仕上がり、竹輪本来の弾力に豆腐のやわらかさが加わるとされる。カレー味やレモン味など変わり種の商品も開発され、ご当地グルメとして親しまれているという。揚げても崩れにくく、天ぷらや煮物の具としても地元で親しまれているという。\n## どう作るのか\n木綿豆腐と魚のすり身を混ぜ合わせ、竹輪の形に成形してから蒸し上げる。焼かずに蒸す点や、豆腐を混ぜる分すり身の使用量を抑えられる点が、魚のみで作る竹輪との違いとされる。豆腐の水切り加減が食感を左右し、店ごとにしっとりとした仕上がりの違いが出るという。地元の給食にも使われることがあり、子どものころから親しむ味として定着しているとされる。\n## なぜこの形になったのか\n1648年に鳥取藩主となった池田光仲が、魚の代わりに豆腐を食べるよう勧めたのがきっかけと伝わる。当時の鳥取藩は漁港の整備が遅れて魚が貴重だった一方、大豆の栽培が盛んで城下町に豆腐店が多かったため、豆腐を使った新しい練り物として考案されたとされる。鳥取市内には江戸時代から製法を受け継ぐ店も残り、今も郷土の味として親しまれているという。",
+      "body_en": "## What it's made of\nFish paste kneaded with firm tofu, shaped like chikuwa and steamed. Adding tofu is said to keep it low in calories while high in protein, layering the tofu's softness over chikuwa's usual bounce. Curry and lemon-flavored versions have also been developed, and it's embraced today as a regional specialty food.\n## How it's made\nFirm tofu and fish paste are mixed together, shaped into the chikuwa form, and steamed rather than grilled. Steaming instead of baking, and using less fish paste thanks to the tofu, are what set it apart from ordinary chikuwa. How well the tofu is drained shapes the texture, and the moistness of the finish is said to vary from maker to maker.\n## Why it took this shape\nIt's said to trace back to 1648, when Tottori's new domain lord Ikeda Mitsunaka encouraged people to eat tofu in place of fish. At the time, the domain's harbors were underdeveloped and fish was precious, while soybeans were grown widely and tofu shops filled the castle town -- conditions said to have led to this tofu-based fish cake. Some makers in Tottori city still carry on methods passed down since the Edo period, kept alive today as a local flavor.",
+      "sources": [
+        {
+          "title": "とうふちくわ",
+          "url": "https://ja.wikipedia.org/wiki/とうふちくわ",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tofu-chikuwa",
+          "to_slug": "chikuwa",
+          "relation_type": "対比",
+          "basis": "竹輪の形をとりながら、魚を使わず豆腐とすり身を練る点で作り方が異なるとされる。"
+        }
+      ]
+    },
+    {
+      "slug": "itawasa",
+      "body_ja": "## 何でできているか\n板に盛った蒲鉾を刺身よりやや厚めに切り、わさびと醤油だけを添えた食べ方。素材の弾力と魚の淡い甘みをそのまま味わえるのが持ち味で、醤油をつけすぎない方が持ち味を引き出せるという見方もある。厚みのある切り方をすることで、蒲鉾そのものの噛みごたえを楽しめるとされる。冷蔵庫に入れておくだけで用意できる手軽さも、酒の肴として選ばれる理由のひとつとされる。\n## どう作るのか\n上質な蒲鉾を選び、刺身包丁で厚めに切り分けて皿に盛り、わさびと醤油を添えるだけの簡素な仕立て。店によって切り方に飾りを加えるなど工夫が見られるという。わさびをのせる量や醤油のつけ方にも店ごとの流儀があり、細部にこだわりが表れるとされる。そぎ切りにして小皿へ美しく並べるなど、見た目にも気を配る店が多いという。\n## なぜこの形になったのか\n名前は「板蒲鉾」と「わさび」を合わせたものと伝わる。蕎麦屋では他の凝った肴を出さず板わさなど数品だけで通す店もあるとされ、江戸の蕎麦屋文化の中で酒の肴として定着した食べ方とみられる。蒲鉾にはアミノ酸がバランスよく含まれているとされ、酒の肴として体にやさしいという見方もあるという。近年は家庭でも手軽な酒の肴として親しまれ、蕎麦屋以外の居酒屋でも定番の一品になっているという。",
+      "body_en": "## What it's made of\nBoard-mounted kamaboko sliced a touch thicker than sashimi, served with nothing more than wasabi and soy sauce. It's meant to let the paste's bounce and faint sweetness come through as they are, and some hold that going easy on the soy sauce draws out the flavor best. Cutting it thick is said to be what lets the kamaboko's own bite come through.\n## How it's made\nA good-quality kamaboko is chosen, sliced thick with a sashimi knife, plated, and served with wasabi and soy sauce -- nothing more. Some shops add a decorative cut or two, it's said. How much wasabi goes on, and how the soy sauce is applied, are said to carry each shop's own small conventions.\n## Why it took this shape\nThe name is said to combine \"ita-kamaboko\" (board kamaboko) and \"wasabi.\" Some soba shops are said to serve nothing more elaborate than itawasa and a few other simple dishes alongside their noodles, and it looks to have settled in as a drinking snack within Edo's soba-shop culture. Kamaboko is said to carry a well-balanced set of amino acids, which some hold makes it an easy dish to pair with a drink.",
+      "sources": [
+        {
+          "title": "板わさ",
+          "url": "https://ja.wikipedia.org/wiki/板わさ",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "itawasa",
+          "to_slug": "kamaboko",
+          "relation_type": "派生",
+          "basis": "上質な板付き蒲鉾を刺身のように薄く切って食べる、蕎麦屋の酒肴として定着した食べ方とされる。"
+        }
+      ]
+    },
+    {
+      "slug": "shirayaki-kamaboko",
+      "body_ja": "## 何でできているか\nエソや小鯛など上質な白身魚のすり身を使い、焼き色をほとんどつけずに焼き上げた蒲鉾。表面には縮緬のような細かいしわが寄り、他の焼き抜き蒲鉾とは見た目が大きく異なるとされる。白さを保ったまま火を通す加減が難しく、職人の経験がものをいう仕立てという。見た目の白さから、切り分けたときの断面の美しさも評価されているとされる。\n## どう作るのか\nすり身を成形したあと、焦げ目がつかないよう火加減を抑えながら焼き上げる。仙台の笹かまぼこなど焼き色をしっかりつける焼き抜き蒲鉾とは異なり、白さを保ったまま火を通す点に技術が要るという。焼き色をつける笹かまぼこなどとは対照的に、白さそのものを売りにする珍しい仕立てとされる。厚みのある成形をすることが多く、断面のしわがより際立って見えるよう仕立てられているという。\n## なぜこの形になったのか\n瀬戸内海や日本海に面し、エソや小鯛など上質な白身魚が水揚げされる土地柄が、色よりも魚本来の白さと風味を生かす仕立てにつながったとみられる。同じ焼き抜き蒲鉾の仲間でも、原料魚と焼き加減の違いが地域ごとの見た目の差を生んだとされる。山口では魚の白さを活かす方向に発展した点が、地域の個性になっているという。",
+      "body_en": "## What it's made of\nMade from quality white fish paste -- lizardfish, small sea bream -- baked with almost no browning at all. The surface crinkles into a fine, crepe-like texture, giving it a look quite different from other fire-baked kamaboko. Cooking it through while keeping that whiteness is said to be a difficult balance that takes real experience.\n## How it's made\nAfter shaping, the paste is baked over carefully controlled heat to avoid any char. Unlike Sendai's sasa-kamaboko and other fire-baked kamaboko that take on a deep color, keeping it white while still cooking it through is said to take real skill. In contrast to browned styles like sasa-kamaboko, this one sells its whiteness itself -- an unusual approach within the family.\n## Why it took this shape\nFacing both the Seto Inland Sea and the Sea of Japan, a region landing quality white fish like lizardfish and small sea bream is thought to have leaned into showcasing the fish's own whiteness and flavor over color. Within the same family of fire-baked kamaboko, differences in raw fish and baking control are said to be what set each region's look apart. Leaning into the fish's own whiteness is said to be what gives Yamaguchi's version its particular regional character.",
+      "sources": [
+        {
+          "title": "蒲鉾",
+          "url": "https://ja.wikipedia.org/wiki/蒲鉾",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-08"
+        },
+        {
+          "title": "かまぼこ製品図鑑",
+          "url": "https://www.nikkama.jp/zukan/",
+          "publisher": "日本かまぼこ協会（全国蒲鉾水産加工業協同組合連合会）",
+          "accessed_at": "2026-09-08"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "shirayaki-kamaboko",
+          "to_slug": "sasa-kamaboko",
+          "relation_type": "兄弟",
+          "basis": "同じ焼き抜き蒲鉾の仲間で、原料魚と焼き色の付け方が異なるとされる。"
+        }
+      ]
+    }
+  ]
+}

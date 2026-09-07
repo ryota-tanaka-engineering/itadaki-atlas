@@ -10,7 +10,7 @@ const rowSchema = z.object({
   slug: z.string().trim().min(1).regex(/^[a-z0-9-]+$/),
   name_ja: z.string().trim().min(1),
   name_en: z.string().trim().min(1),
-  type: z.enum(["dish", "ingredient"]),
+  type: z.enum(["dish", "ingredient", "cut"]),
   sort_order: z.coerce.number().int(),
   // 棚slug（排他・必須）。genres.shelf_slug に対応
   shelf: z.string().trim().min(1).regex(/^[a-z0-9-]+$/),

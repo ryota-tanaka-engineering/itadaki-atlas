@@ -34,6 +34,102 @@ export type Database = {
   }
   public: {
     Tables: {
+      chain_recommendations: {
+        Row: {
+          chain_id: string
+          created_at: string
+          food_item_id: string
+          id: string
+          sort_order: number
+        }
+        Insert: {
+          chain_id: string
+          created_at?: string
+          food_item_id: string
+          id?: string
+          sort_order?: number
+        }
+        Update: {
+          chain_id?: string
+          created_at?: string
+          food_item_id?: string
+          id?: string
+          sort_order?: number
+        }
+        Relationships: [
+          {
+            foreignKeyName: "chain_recommendations_chain_id_fkey"
+            columns: ["chain_id"]
+            isOneToOne: false
+            referencedRelation: "chains"
+            referencedColumns: ["id"]
+          },
+          {
+            foreignKeyName: "chain_recommendations_food_item_id_fkey"
+            columns: ["food_item_id"]
+            isOneToOne: false
+            referencedRelation: "food_items"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      chains: {
+        Row: {
+          bridge_en: string
+          bridge_ja: string
+          created_at: string
+          founded_note: string | null
+          genre_slug: string
+          id: string
+          name_en: string
+          name_ja: string
+          pref_limited: string | null
+          slug: string
+          sort_order: number
+          source_note: string | null
+          source_url: string | null
+          style_en: string | null
+          style_ja: string | null
+          updated_at: string
+        }
+        Insert: {
+          bridge_en: string
+          bridge_ja: string
+          created_at?: string
+          founded_note?: string | null
+          genre_slug: string
+          id?: string
+          name_en: string
+          name_ja: string
+          pref_limited?: string | null
+          slug: string
+          sort_order?: number
+          source_note?: string | null
+          source_url?: string | null
+          style_en?: string | null
+          style_ja?: string | null
+          updated_at?: string
+        }
+        Update: {
+          bridge_en?: string
+          bridge_ja?: string
+          created_at?: string
+          founded_note?: string | null
+          genre_slug?: string
+          id?: string
+          name_en?: string
+          name_ja?: string
+          pref_limited?: string | null
+          slug?: string
+          sort_order?: number
+          source_note?: string | null
+          source_url?: string | null
+          style_en?: string | null
+          style_ja?: string | null
+          updated_at?: string
+        }
+        Relationships: []
+      }
       dish_details: {
         Row: {
           created_at: string
@@ -84,6 +180,8 @@ export type Database = {
           is_representative: boolean
           lat: number | null
           lng: number | null
+          note_en: string | null
+          note_ja: string | null
           pref: string
           relation_type: string
         }
@@ -95,6 +193,8 @@ export type Database = {
           is_representative?: boolean
           lat?: number | null
           lng?: number | null
+          note_en?: string | null
+          note_ja?: string | null
           pref: string
           relation_type: string
         }
@@ -106,6 +206,8 @@ export type Database = {
           is_representative?: boolean
           lat?: number | null
           lng?: number | null
+          note_en?: string | null
+          note_ja?: string | null
           pref?: string
           relation_type?: string
         }
@@ -338,6 +440,8 @@ export type Database = {
           created_at: string
           default_source: string | null
           id: string
+          intro_en: string | null
+          intro_ja: string | null
           name_en: string
           name_ja: string
           shelf_slug: string
@@ -350,6 +454,8 @@ export type Database = {
           created_at?: string
           default_source?: string | null
           id?: string
+          intro_en?: string | null
+          intro_ja?: string | null
           name_en: string
           name_ja: string
           shelf_slug: string
@@ -362,6 +468,8 @@ export type Database = {
           created_at?: string
           default_source?: string | null
           id?: string
+          intro_en?: string | null
+          intro_ja?: string | null
           name_en?: string
           name_ja?: string
           shelf_slug?: string
@@ -379,6 +487,141 @@ export type Database = {
             referencedColumns: ["slug"]
           },
         ]
+      }
+      guide_links: {
+        Row: {
+          created_at: string
+          guide_id: string
+          target_kind: string
+          target_slug: string
+        }
+        Insert: {
+          created_at?: string
+          guide_id: string
+          target_kind: string
+          target_slug: string
+        }
+        Update: {
+          created_at?: string
+          guide_id?: string
+          target_kind?: string
+          target_slug?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "guide_links_guide_id_fkey"
+            columns: ["guide_id"]
+            isOneToOne: false
+            referencedRelation: "guides"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      guide_sources: {
+        Row: {
+          accessed_at: string | null
+          created_at: string
+          guide_id: string
+          id: string
+          publisher: string | null
+          title: string
+          url: string | null
+        }
+        Insert: {
+          accessed_at?: string | null
+          created_at?: string
+          guide_id: string
+          id?: string
+          publisher?: string | null
+          title: string
+          url?: string | null
+        }
+        Update: {
+          accessed_at?: string | null
+          created_at?: string
+          guide_id?: string
+          id?: string
+          publisher?: string | null
+          title?: string
+          url?: string | null
+        }
+        Relationships: [
+          {
+            foreignKeyName: "guide_sources_guide_id_fkey"
+            columns: ["guide_id"]
+            isOneToOne: false
+            referencedRelation: "guides"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      guide_translations: {
+        Row: {
+          body_md: string | null
+          created_at: string
+          guide_id: string
+          locale: string
+          summary: string | null
+          title: string
+          updated_at: string
+        }
+        Insert: {
+          body_md?: string | null
+          created_at?: string
+          guide_id: string
+          locale: string
+          summary?: string | null
+          title: string
+          updated_at?: string
+        }
+        Update: {
+          body_md?: string | null
+          created_at?: string
+          guide_id?: string
+          locale?: string
+          summary?: string | null
+          title?: string
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "guide_translations_guide_id_fkey"
+            columns: ["guide_id"]
+            isOneToOne: false
+            referencedRelation: "guides"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      guides: {
+        Row: {
+          created_at: string
+          id: string
+          kind: string
+          slug: string
+          sort_order: number
+          status: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          id?: string
+          kind: string
+          slug: string
+          sort_order?: number
+          status?: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          id?: string
+          kind?: string
+          slug?: string
+          sort_order?: number
+          status?: string
+          updated_at?: string
+        }
+        Relationships: []
       }
       inquiries: {
         Row: {
@@ -407,6 +650,33 @@ export type Database = {
           locale?: string
           message?: string
           name?: string
+        }
+        Relationships: []
+      }
+      place_names: {
+        Row: {
+          city: string
+          created_at: string
+          locale: string
+          name: string
+          pref: string
+          updated_at: string
+        }
+        Insert: {
+          city: string
+          created_at?: string
+          locale: string
+          name: string
+          pref: string
+          updated_at?: string
+        }
+        Update: {
+          city?: string
+          created_at?: string
+          locale?: string
+          name?: string
+          pref?: string
+          updated_at?: string
         }
         Relationships: []
       }
@@ -485,12 +755,12 @@ export type Tables<
   DefaultSchemaTableNameOrOptions extends
     | keyof (DefaultSchema["Tables"] & DefaultSchema["Views"])
     | { schema: keyof DatabaseWithoutInternals },
-  TableName extends DefaultSchemaTableNameOrOptions extends {
+  TableName extends (DefaultSchemaTableNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
     ? keyof (DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"] &
         DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Views"])
-    : never = never,
+    : never) = never,
 > = DefaultSchemaTableNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
@@ -514,11 +784,11 @@ export type TablesInsert<
   DefaultSchemaTableNameOrOptions extends
     | keyof DefaultSchema["Tables"]
     | { schema: keyof DatabaseWithoutInternals },
-  TableName extends DefaultSchemaTableNameOrOptions extends {
+  TableName extends (DefaultSchemaTableNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
     ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
-    : never = never,
+    : never) = never,
 > = DefaultSchemaTableNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
@@ -539,11 +809,11 @@ export type TablesUpdate<
   DefaultSchemaTableNameOrOptions extends
     | keyof DefaultSchema["Tables"]
     | { schema: keyof DatabaseWithoutInternals },
-  TableName extends DefaultSchemaTableNameOrOptions extends {
+  TableName extends (DefaultSchemaTableNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
     ? keyof DatabaseWithoutInternals[DefaultSchemaTableNameOrOptions["schema"]]["Tables"]
-    : never = never,
+    : never) = never,
 > = DefaultSchemaTableNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
@@ -564,11 +834,11 @@ export type Enums<
   DefaultSchemaEnumNameOrOptions extends
     | keyof DefaultSchema["Enums"]
     | { schema: keyof DatabaseWithoutInternals },
-  EnumName extends DefaultSchemaEnumNameOrOptions extends {
+  EnumName extends (DefaultSchemaEnumNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
     ? keyof DatabaseWithoutInternals[DefaultSchemaEnumNameOrOptions["schema"]]["Enums"]
-    : never = never,
+    : never) = never,
 > = DefaultSchemaEnumNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }
@@ -581,11 +851,11 @@ export type CompositeTypes<
   PublicCompositeTypeNameOrOptions extends
     | keyof DefaultSchema["CompositeTypes"]
     | { schema: keyof DatabaseWithoutInternals },
-  CompositeTypeName extends PublicCompositeTypeNameOrOptions extends {
+  CompositeTypeName extends (PublicCompositeTypeNameOrOptions extends {
     schema: keyof DatabaseWithoutInternals
   }
     ? keyof DatabaseWithoutInternals[PublicCompositeTypeNameOrOptions["schema"]]["CompositeTypes"]
-    : never = never,
+    : never) = never,
 > = PublicCompositeTypeNameOrOptions extends {
   schema: keyof DatabaseWithoutInternals
 }

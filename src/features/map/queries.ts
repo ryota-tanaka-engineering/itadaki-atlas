@@ -2,6 +2,7 @@ import { createClient } from "@/lib/supabase/server";
 
 import type { PrimaryStyle } from "./styles";
 import { excerptChapterSentence, excerptFirstSentence } from "./markdown";
+import type { PlaceNameMap } from "./placeNames";
 
 /**
  * 地図・索引が読むアイテム一覧。
@@ -17,8 +18,11 @@ export type MapItem = {
   summary: string | null;
   originPref: string | null;
   originCity: string | null;
-  lat: number;
-  lng: number;
+  /** 座標なし（部位・ネタ等、発祥地の物語を持たないアイテム）は null（実装部隊の報告
+   * 「トップで牛肉の部位等を選ぶと0件」対応）。地図ピン・県クラスタ・距離計算など
+   * 座標が要る箇所は利用側で `lat != null` に絞る（MapPin 参照）。 */
+  lat: number | null;
+  lng: number | null;
   primaryStyle: PrimaryStyle | null;
   /** 記号（CLAUDE.md「記号」節）: dish=●料理 / ingredient=■食材。地図ピンの形に使う。 */
   itemType: "dish" | "ingredient";
@@ -38,7 +42,7 @@ export type MapItem = {
  * 「そのピンの所在地（本場の都市）」を表す（MapView が既存の
  * originPref ベースの集計・寄せロジックをそのまま使い回せるようにするため）。
  */
-export type MapPin = MapItem & { kind: "origin" | "honba" };
+export type MapPin = MapItem & { kind: "origin" | "honba"; lat: number; lng: number };
 
 /** ピン選択カードのタグバッジ用（作業パッケージ「トップページ改善」B節）。 */
 export type TagBadge = { slug: string; nameJa: string; nameEn: string };
@@ -106,7 +110,8 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<BrowseItem[]
        dish_details ( primary_style ),
        food_item_tags ( tags ( slug, name_ja, name_en ) )`,
     )
-    .not("lat", "is", null)
+    // 座標なし（部位・ネタ等）も含める（実装部隊の報告「トップで牛肉の部位等を選ぶと
+    // 0件」対応）。地図ピンにするかどうかは呼び出し側（BrowseShell）が lat != null で絞る。
     .order("slug");
 
   if (error) {
@@ -137,8 +142,8 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<BrowseItem[]
       summary: t?.summary ?? null,
       originPref: row.origin_pref,
       originCity: row.origin_city,
-      lat: row.lat as number,
-      lng: row.lng as number,
+      lat: row.lat,
+      lng: row.lng,
       // PostgREST は 1:1 でも配列で返すため先頭を取る
       primaryStyle: (toOne(row.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
       itemType: row.type as "dish" | "ingredient",
@@ -243,8 +248,8 @@ export async function fetchItemBySlug(
     summary: t?.summary ?? null,
     originPref: data.origin_pref,
     originCity: data.origin_city,
-    lat: data.lat as number,
-    lng: data.lng as number,
+    lat: data.lat,
+    lng: data.lng,
     primaryStyle: (toOne(data.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
     itemType: data.type as "dish" | "ingredient",
     genreSlug: genre?.slug ?? genreSlug,
@@ -317,8 +322,8 @@ export async function fetchItemByShelfSlug(
     summary: t?.summary ?? null,
     originPref: data.origin_pref,
     originCity: data.origin_city,
-    lat: data.lat as number,
-    lng: data.lng as number,
+    lat: data.lat,
+    lng: data.lng,
     primaryStyle: (toOne(data.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
     itemType: data.type as "dish" | "ingredient",
     genreSlug: null,
@@ -401,8 +406,8 @@ function rowToItem(
     summary: t?.summary ?? null,
     originPref: row.origin_pref,
     originCity: row.origin_city,
-    lat: row.lat as number,
-    lng: row.lng as number,
+    lat: row.lat,
+    lng: row.lng,
     primaryStyle: (toOne(row.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
     itemType: row.type as "dish" | "ingredient",
     genreSlug: toOne(row.genres ?? null)?.slug ?? null,
@@ -426,7 +431,7 @@ export type Genre = {
   slug: string;
   nameJa: string;
   nameEn: string;
-  type: "dish" | "ingredient";
+  type: "dish" | "ingredient" | "cut";
   /** 所属する棚のslug（ジャンルページ末尾「この棚の仲間」チップ用）。 */
   shelfSlug: string;
   /** 国民食型ジャンルの総論（未投入なら null。ヒーロー直下に段落として出す）。 */
@@ -446,7 +451,7 @@ export async function fetchGenres(): Promise<Genre[]> {
     slug: g.slug,
     nameJa: g.name_ja,
     nameEn: g.name_en,
-    type: g.type as "dish" | "ingredient",
+    type: g.type as "dish" | "ingredient" | "cut",
     shelfSlug: g.shelf_slug,
     introJa: g.intro_ja,
     introEn: g.intro_en,
@@ -466,7 +471,7 @@ export async function fetchGenre(genreSlug: string): Promise<Genre | null> {
         slug: data.slug,
         nameJa: data.name_ja,
         nameEn: data.name_en,
-        type: data.type as "dish" | "ingredient",
+        type: data.type as "dish" | "ingredient" | "cut",
         shelfSlug: data.shelf_slug,
         introJa: data.intro_ja,
         introEn: data.intro_en,
@@ -861,7 +866,7 @@ export async function fetchShelfGenres(shelfSlug: string): Promise<ShelfGenre[]>
     slug: g.slug,
     nameJa: g.name_ja,
     nameEn: g.name_en,
-    type: g.type as "dish" | "ingredient",
+    type: g.type as "dish" | "ingredient" | "cut",
     shelfSlug,
     introJa: g.intro_ja,
     introEn: g.intro_en,
@@ -1175,4 +1180,27 @@ export async function fetchAllChainSlugs(): Promise<string[]> {
   const { data, error } = await db.from("chains").select("slug").order("sort_order");
   if (error) throw new Error(`fetchAllChainSlugs failed: ${error.message}`);
   return (data ?? []).map((c) => c.slug);
+}
+
+// -----------------------------------------------------------------------------
+// 市区町村名の他言語表記（place_names）。
+// 実装部隊の報告「/en の本場・産地チップに市区町村名が日本語のまま」対応。
+// -----------------------------------------------------------------------------
+
+/**
+ * 指定ロケールの市区町村名マップを1クエリでまとめて取得する（N+1回避）。
+ * `${pref}::${city}` をキーにした Record を返し、純粋関数 translateCityName
+ * （src/features/map/placeNames.ts）と組み合わせて使う。
+ * ja は翻訳不要（呼び出し側で空オブジェクトのまま渡してよい）。
+ */
+export async function fetchPlaceNames(locale: "en" = "en"): Promise<PlaceNameMap> {
+  const db = await createClient();
+  const { data, error } = await db.from("place_names").select("pref, city, name").eq("locale", locale);
+  if (error) throw new Error(`fetchPlaceNames failed: ${error.message}`);
+
+  const map: PlaceNameMap = {};
+  for (const row of data ?? []) {
+    map[`${row.pref}::${row.city}`] = row.name;
+  }
+  return map;
 }

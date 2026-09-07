@@ -7,6 +7,7 @@
 #   anon key は公開前提のキー（クライアントに埋め込まれる設計）なので env 経由でよい
 # - 計測 ID（NEXT_PUBLIC_GA_ID / NEXT_PUBLIC_CF_BEACON_TOKEN）は .env.production.local
 #   （gitignore対象）に置く。未設定ならタグは描画されない（src/components/Analytics.tsx）
+# - 同ファイルに PROD_SUPABASE_ANON_KEY があれば supabase CLI（キーチェーン待ちで固まることがある）を呼ばない
 set -euo pipefail
 cd "$(dirname "$0")/.."
 
@@ -22,7 +23,8 @@ fi
 
 REF=xzkvvdldovgbuutttmzj
 export NEXT_PUBLIC_SUPABASE_URL="https://${REF}.supabase.co"
-NEXT_PUBLIC_SUPABASE_ANON_KEY=$(npx supabase projects api-keys --project-ref "$REF" -o json \
+NEXT_PUBLIC_SUPABASE_ANON_KEY="${PROD_SUPABASE_ANON_KEY:-}"
+[ -n "$NEXT_PUBLIC_SUPABASE_ANON_KEY" ] || NEXT_PUBLIC_SUPABASE_ANON_KEY=$(npx supabase projects api-keys --project-ref "$REF" -o json \
   | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{const j=JSON.parse(s.slice(s.indexOf('['))); console.log(j.find(x=>x.name==='anon').api_key);})")
 export NEXT_PUBLIC_SUPABASE_ANON_KEY
 export NEXT_PUBLIC_PMTILES_URL="${NEXT_PUBLIC_PMTILES_URL:-https://pub-2b8d1a5772e14d0a812b9b3555ac420a.r2.dev/japan.pmtiles}"

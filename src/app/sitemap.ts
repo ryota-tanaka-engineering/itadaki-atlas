@@ -9,6 +9,7 @@ import {
   fetchShelves,
   fetchTagsWithCounts,
 } from "@/features/map/queries";
+import { fetchAllGuideSlugs } from "@/features/guide/queries";
 import { SITE_URL } from "@/lib/seo";
 import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
@@ -17,13 +18,14 @@ import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
  * ロケールごとにURLを並べ、alternates で言語版を相互に示す。
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [paths, genres, prefs, shelves, tags, chainSlugs] = await Promise.all([
+  const [paths, genres, prefs, shelves, tags, chainSlugs, guideSlugs] = await Promise.all([
     fetchPublishedPaths(),
     fetchGenres(),
     fetchPrefsWithItems(),
     fetchShelves(),
     fetchTagsWithCounts(),
     fetchAllChainSlugs(),
+    fetchAllGuideSlugs(),
   ]);
 
   const entry = (path: string): MetadataRoute.Sitemap[number][] =>
@@ -52,6 +54,7 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...entry("/privacy"),
     ...entry("/contact"),
     ...entry("/tags"),
+    ...entry("/guide"),
     // ジャンル・棚・地域・詳細・タグ。データを足すと sitemap も自動で伸びる
     ...genres.flatMap((g) => entry(`/${g.slug}`)),
     ...shelves.filter((s) => shelfSlugsWithItems.has(s.slug)).flatMap((s) => entry(`/${s.slug}`)),
@@ -59,5 +62,6 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...paths.flatMap((p) => entry(`/${p.genreSlug}/${p.slug}`)),
     ...tags.filter((tg) => tg.itemCount > 0).flatMap((tg) => entry(`/tag/${tg.slug}`)),
     ...chainSlugs.flatMap((slug) => entry(`/chain/${slug}`)),
+    ...guideSlugs.flatMap((slug) => entry(`/guide/${slug}`)),
   ];
 }

@@ -25,14 +25,19 @@ export default async function Image({ params }: { params: Promise<Params> }) {
   const isJa = locale === "ja";
   const name = isJa ? (g?.name_ja ?? genre) : (g?.name_en ?? genre);
   const ing = g?.type === "ingredient";
+  const cut = g?.type === "cut";
   const title = isJa
-    ? ing
-      ? `${name}の銘柄と産地`
-      : `${name}の種類`
-    : ing
-      ? `${name} — brands and regions`
-      : `Types of ${name}`;
-  const subtitle = isJa ? `${count ?? 0}${ing ? "件" : "種"}` : `${count ?? 0} entries`;
+    ? cut
+      ? `${name}の一覧`
+      : ing
+        ? `${name}の銘柄と産地`
+        : `${name}の種類`
+    : cut
+      ? `${name}`
+      : ing
+        ? `${name} — brands and regions`
+        : `Types of ${name}`;
+  const subtitle = isJa ? `${count ?? 0}${ing || cut ? "件" : "種"}` : `${count ?? 0} entries`;
 
   const allText = `ITADAKI ATLAS 日本の食の地理データベース${title}${subtitle}`;
 

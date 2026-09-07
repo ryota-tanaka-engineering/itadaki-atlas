@@ -13,6 +13,10 @@ export type Axis = (typeof AXES)[number];
 
 // 軸のラベルは messages/*.json（browse.axis）が持つ。ここには置かない。
 
+/** 「地域」軸で originPref を持たないアイテム（部位・ネタ等）がまとまる群のキー。
+ * IndexList.tsx の groupLabel（/en 表示）もこのキーで判定する。 */
+export const NO_REGION_KEY = "地域なし";
+
 export type Group = {
   key: string;
   label: string;
@@ -79,8 +83,14 @@ export function groupBy(items: MapItem[], axis: Axis): Group[] {
   if (axis === "region") {
     const buckets = new Map<string, Group>();
     for (const item of items) {
-      const key = item.originPref ?? "地域なし";
-      if (!buckets.has(key)) buckets.set(key, { key, label: key, items: [] });
+      const key = item.originPref ?? NO_REGION_KEY;
+      if (!buckets.has(key)) {
+        // 発祥地の物語を持たないアイテム（部位・ネタ等）の群見出し（実装部隊の報告
+        // 「トップで牛肉の部位等を選ぶと0件」対応。ジャンルページの「図鑑」節と同じ語彙。
+        // 座標も無いため地図には乗らないが、五十音タブには普通に並ぶ）。
+        const label = key === NO_REGION_KEY ? "図鑑（土地なし）" : key;
+        buckets.set(key, { key, label, items: [] });
+      }
       buckets.get(key)!.items.push(item);
     }
     // 都道府県はJISコード順（北→南）。マスタに無いものは末尾。

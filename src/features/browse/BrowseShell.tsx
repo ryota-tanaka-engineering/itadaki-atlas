@@ -12,6 +12,7 @@ import { MapView } from "@/features/map/MapView";
 import { mapPinKey } from "@/features/map/pinKey";
 import { useMasterLabels } from "@/features/map/labels";
 import { ChainBridgeSection } from "@/features/map/ChainBridgeSection";
+import { translateCityName, type PlaceNameMap } from "@/features/map/placeNames";
 import type {
   BrowseItem,
   Chain,
@@ -44,9 +45,10 @@ const TAG_CHIP_ACTIVE_CLASS =
 /**
  * 発祥地の表示文字列（作業パッケージ「トップページ改善」A節）。
  *
- * 都道府県名はマスタラベル辞書（prefecture）で翻訳する。市名はローマ字辞書が
- * 無いため日本語のままにする（詳細ページ・作業パッケージ「トップページ改善」A節と同じ流儀）。
- * ja は既存表記（連結）を変えない。en は「Fukushima / 郡山市」形式（"/" 区切り）。
+ * 都道府県名はマスタラベル辞書（prefecture）で翻訳する。市名は place_names
+ * （DBの他言語表記マスタ）で翻訳し、無ければ日本語のままにする（実装部隊の報告
+ * 「/en の本場・産地チップに市区町村名が日本語のまま」対応）。
+ * ja は既存表記（連結）を変えない。en は「Fukushima / Koriyama」形式（"/" 区切り）。
  */
 export function formatPrefCity(
   pref: string | null,
@@ -54,11 +56,13 @@ export function formatPrefCity(
   locale: Locale,
   prefLabel: (v: string | null | undefined) => string | null,
   unknown: string,
+  placeNames: PlaceNameMap = {},
 ): string {
   if (!pref) return unknown;
   const name = prefLabel(pref) ?? pref;
   if (locale === "ja") return `${name}${city ?? ""}`;
-  return city ? `${name} / ${city}` : name;
+  if (!city) return name;
+  return `${name} / ${translateCityName(pref, city, locale, placeNames)}`;
 }
 
 /**
@@ -84,6 +88,7 @@ export function BrowseShell({
   chains,
   siteCounts,
   allTags,
+  placeNames,
 }: {
   items: BrowseItem[];
   /** 本場ピン（2026-09）。索引には出さず、地図でのみ items と合流する。 */
@@ -106,6 +111,9 @@ export function BrowseShell({
   siteCounts: { items: number; prefs: number };
   /** トップ「興味からさがす」カードのタグチップ・タグ絞り込み用（/tags と同じクエリ。件数はDB実数）。 */
   allTags: TagWithCount[];
+  /** 市区町村名の他言語表記（/en 用。実装部隊の報告「/en の本場・産地チップに市区町村名が
+   * 日本語のまま」対応）。ja では空オブジェクトでよい（formatPrefCity は ja では参照しない）。 */
+  placeNames: PlaceNameMap;
 }) {
   const t = useTranslations("browse");
   const ti = useTranslations("item");
@@ -116,6 +124,9 @@ export function BrowseShell({
   // honba ピン選択では mapPinKey() が返す複合キー（同じ slug が複数都市を持つため）。
   const [selectedSlug, setSelectedSlug] = useState<string | null>(null);
   const [snap, setSnap] = useState<Snap>("peak");
+  // 絞り込み中の結果ヘッダーに出すジャンル総論の展開状態（本番レビュー「和牛一覧の
+  // 説明文みたいなのは表示必要なのでは」対応）。ジャンルを切り替えたら畳み直す。
+  const [introExpanded, setIntroExpanded] = useState(false);
   const [axis, setAxis] = useState<Axis>("kana");
   const [vh, setVh] = useState(0);
   // PC/SP判定（地図コンパクト化の比率切り替え用。ヘッダーのPCナビと同じ md=768px を使う）。
@@ -145,7 +156,10 @@ export function BrowseShell({
   // 絞り込み・選択が有効な状態（ジャンル/タグ/県クラスタ選択のいずれか）では、地図を
   // SP約38vh・PC約45vhに縮め、シートを残りの高さに広げて結果一覧を主役にする
   // （本番レビュー「地図がフルサイズのままで使いづらい」対応）。解除で元のフルサイズに戻る。
-  const compact = Boolean(genreFilter) || Boolean(tagFilter) || !isClusterView;
+  // シートを full まで開いてモジュール・索引を読んでいる間は、背後の地図がフルサイズの
+  // ままだと隠れているだけで意味が無い（本番レビュー「地図外のエリアみてる時に地図が
+  // ずっとフルサイズである必要あるの？」対応）。full 到達でも同じく縮める。
+  const compact = Boolean(genreFilter) || Boolean(tagFilter) || !isClusterView || snap === "full";
   const mapHeight =
     compact && vh > 0 ? Math.round(vh * (isDesktop ? 0.45 : 0.38)) : null;
   const dockedHeight = mapHeight !== null ? vh - mapHeight : undefined;
@@ -172,8 +186,15 @@ export function BrowseShell({
 
   // 地図に渡す合流データ（発祥+本場）。索引・件数表記は items のまま
   // （本場を索引に重複表示しないため。作業パッケージ「本場ピン」§1）。
+  // items には座標なし（部位・ネタ等）も含まれる（実装部隊の報告「トップで牛肉の部位等を
+  // 選ぶと0件」対応）ため、地図ピンにする分だけ lat/lng != null で絞る。
   const mapPins = useMemo<MapPin[]>(
-    () => [...items.map((i): MapPin => ({ ...i, kind: "origin" })), ...honbaPins],
+    () => [
+      ...items
+        .filter((i): i is BrowseItem & { lat: number; lng: number } => i.lat != null && i.lng != null)
+        .map((i): MapPin => ({ ...i, kind: "origin" })),
+      ...honbaPins,
+    ],
     [items, honbaPins],
   );
 
@@ -224,11 +245,11 @@ export function BrowseShell({
         name: locale === "ja" ? g.nameJa : g.nameRomaji,
         cities: g.cities.map((c, i) => ({
           key: `${c.pref}-${c.city ?? i}`,
-          label: formatPrefCity(c.pref, c.city, locale, label.prefecture, ti("unknown")),
+          label: formatPrefCity(c.pref, c.city, locale, label.prefecture, ti("unknown"), placeNames),
           prefSlug: PREF_SLUGS[c.pref as Prefecture] ?? null,
         })),
       })),
-    [honbaGroups, locale, label, ti],
+    [honbaGroups, locale, label, ti, placeNames],
   );
 
   // ジャンル絞り込み中の表示データ（地図・索引で共有）。
@@ -252,6 +273,42 @@ export function BrowseShell({
         .sort((a, b) => b.itemCount - a.itemCount)
         .slice(0, 12),
     [allTags],
+  );
+  // 「種類からさがす」の3層（本番レビュー「銘柄豚と豚肉の部位って並列になってるけど
+  // 同じ情報なのか？部位は別じゃね」対応）。銘柄（dish/ingredient）と部位・ネタ（cut）は
+  // 見た目の同型ジャンルでも土地に結びつくかどうかが違うため、層を分けて出す。
+  // 層にジャンルが無ければ空配列になり、その層自体を出さない。
+  const genresByType = useMemo(
+    () => ({
+      dish: genres.filter((g) => g.type === "dish"),
+      ingredient: genres.filter((g) => g.type === "ingredient"),
+      cut: genres.filter((g) => g.type === "cut"),
+    }),
+    [genres],
+  );
+  // 3層共通のチップ列（絞り込み挙動は handleSelectGenre のまま。見た目のみ層分けする）。
+  const renderGenreChips = (list: Genre[]) => (
+    <ul className="flex flex-wrap gap-1">
+      {list.map((g) => {
+        const active = g.slug === genreFilter;
+        return (
+          <li key={g.slug}>
+            <button
+              type="button"
+              onClick={() => handleSelectGenre(g.slug)}
+              aria-pressed={active}
+              className={`rounded-full px-2.5 py-1 text-xs transition-colors ${
+                active
+                  ? "bg-primary text-primary-foreground"
+                  : "border-border bg-background hover:bg-muted/60 border"
+              }`}
+            >
+              {locale === "ja" ? g.nameJa : g.nameEn}
+            </button>
+          </li>
+        );
+      })}
+    </ul>
   );
   // 絞り込み中の名前表示（ジャンル・タグ両方あるときは連結）。結果ビューの見出しと
   // ピーク位置の要約の両方で使う（本番レビュー「タグ押しても本場を辿るとか出てるから
@@ -312,10 +369,12 @@ export function BrowseShell({
     setGenreFilter(slug);
     setSelectedSlug(null);
     setSnap("peak");
+    setIntroExpanded(false);
   }, []);
 
   const handleClearGenreFilter = useCallback(() => {
     setGenreFilter(null);
+    setIntroExpanded(false);
   }, []);
 
   // タグをタップしたら地図をそのタグに絞り込む（ジャンルと同じ流儀。
@@ -336,6 +395,7 @@ export function BrowseShell({
   const handleClearAllFilters = useCallback(() => {
     setGenreFilter(null);
     setTagFilter(null);
+    setIntroExpanded(false);
   }, []);
 
   // 地図を寄せる際の下端余白。シートに隠れない位置に選択地点を置く。
@@ -447,24 +507,61 @@ export function BrowseShell({
             // 絞り込み中はピーク位置の要約も結果ビューと同じ名前+件数にする（総数のまま
             // だと「絞り込めているように見えない」という指摘の再発になるため）。
             // 結果ヘッダーの「絞り込みを解除」もここに集約し、下の本文側では重複させない。
-            <div className="flex items-center justify-between gap-2">
-              <h2 id="sheet-heading" className="text-base font-semibold">
-                {filterLabel}
-                <span className="text-muted-foreground ml-2 text-sm font-normal">
-                  {t("count", { count: visibleItems.length })}
-                </span>
-              </h2>
-              <button
-                type="button"
-                onClick={(e) => {
-                  // peak クリックでシートの段階が進む挙動と競合しないよう伝播を止める
-                  e.stopPropagation();
-                  handleClearAllFilters();
-                }}
-                className="text-muted-foreground shrink-0 text-sm underline"
-              >
-                {t("filterClearAll")}
-              </button>
+            <div>
+              <div className="flex items-center justify-between gap-2">
+                <h2 id="sheet-heading" className="text-base font-semibold">
+                  {filterLabel}
+                  <span className="text-muted-foreground ml-2 text-sm font-normal">
+                    {t("count", { count: visibleItems.length })}
+                  </span>
+                </h2>
+                <button
+                  type="button"
+                  onClick={(e) => {
+                    // peak クリックでシートの段階が進む挙動と競合しないよう伝播を止める
+                    e.stopPropagation();
+                    handleClearAllFilters();
+                  }}
+                  className="text-muted-foreground shrink-0 text-sm underline"
+                >
+                  {t("filterClearAll")}
+                </button>
+              </div>
+              {/* ジャンル絞り込み中の総論（本番レビュー「和牛一覧の説明文みたいなのは
+                  表示必要なのでは」対応）。タグのみの絞り込みには対応する総論が無いため
+                  現状維持。ジャンル+タグ併用時もジャンルの総論を出す。 */}
+              {filteredGenre &&
+                (() => {
+                  const genreIntro = locale === "ja" ? filteredGenre.introJa : filteredGenre.introEn;
+                  if (!genreIntro) return null;
+                  return (
+                    <div className="mt-1.5">
+                      <p
+                        className={`text-sm leading-relaxed ${introExpanded ? "" : "line-clamp-3"}`}
+                      >
+                        {genreIntro}
+                      </p>
+                      <button
+                        type="button"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          setIntroExpanded((v) => !v);
+                        }}
+                        aria-expanded={introExpanded}
+                        className="text-muted-foreground mt-0.5 text-xs underline"
+                      >
+                        {introExpanded ? t("introCollapse") : t("introExpand")}
+                      </button>
+                    </div>
+                  );
+                })()}
+              {/* タグ絞り込み中の定義（実装部隊の報告「タグ絞り込み中に文脈が無い」対応）。
+                  ジャンル総論と同じ見た目だが line-clamp なしで1〜2行（tags.definition は短文）。
+                  definition は日本語のみのカラムのため /en では出さない（多言語正規化は後日対応。
+                  .doc/20_data/01_models.md §3 参照）。 */}
+              {filteredTag && locale === "ja" && (
+                <p className="mt-1.5 text-sm leading-relaxed">{filteredTag.definition}</p>
+              )}
             </div>
           ) : (
             <h2 id="sheet-heading" className="text-base font-semibold">
@@ -488,7 +585,7 @@ export function BrowseShell({
                       固定幅をやめて中身に合わせる（CLAUDE.md「あわせて直す /en の残り」節）。 */}
                   <dt className="text-muted-foreground shrink-0 whitespace-nowrap">{tRegion("本場")}</dt>
                   <dd>
-                    {formatPrefCity(selected.originPref, selected.originCity, locale, label.prefecture, ti("unknown"))}
+                    {formatPrefCity(selected.originPref, selected.originCity, locale, label.prefecture, ti("unknown"), placeNames)}
                   </dd>
                 </div>
               </dl>
@@ -497,7 +594,7 @@ export function BrowseShell({
                 <div className="flex gap-2">
                   <dt className="text-muted-foreground w-16 shrink-0">{ti("origin")}</dt>
                   <dd>
-                    {formatPrefCity(selected.originPref, selected.originCity, locale, label.prefecture, ti("unknown"))}
+                    {formatPrefCity(selected.originPref, selected.originCity, locale, label.prefecture, ti("unknown"), placeNames)}
                   </dd>
                 </div>
                 <div className="flex gap-2">
@@ -634,28 +731,30 @@ export function BrowseShell({
                   <span className="text-sm font-semibold">{t("entryTypeTitle")}</span>
                 </div>
                 {/* タップで地図の絞り込みに反映する（ジャンルページへは遷移しない。
-                    遷移導線は下の「◯◯の一覧へ」リンクに主従を逆転して残す）。 */}
-                <ul className="flex flex-wrap gap-1">
-                  {genres.map((g) => {
-                    const active = g.slug === genreFilter;
-                    return (
-                      <li key={g.slug}>
-                        <button
-                          type="button"
-                          onClick={() => handleSelectGenre(g.slug)}
-                          aria-pressed={active}
-                          className={`rounded-full px-2.5 py-1 text-xs transition-colors ${
-                            active
-                              ? "bg-primary text-primary-foreground"
-                              : "border-border bg-background hover:bg-muted/60 border"
-                          }`}
-                        >
-                          {locale === "ja" ? g.nameJa : g.nameEn}
-                        </button>
-                      </li>
-                    );
-                  })}
-                </ul>
+                    遷移導線は下の「◯◯の一覧へ」リンクに主従を逆転して残す）。
+                    3層に分ける（本番レビュー「銘柄豚と豚肉の部位って並列になってるけど
+                    同じ情報なのか？部位は別じゃね」対応）。層にジャンルが無ければ
+                    その層自体を出さない。 */}
+                <div className="space-y-2">
+                  {genresByType.dish.length > 0 && (
+                    <div>
+                      <p className="text-foreground/80 mb-1 text-xs font-semibold">{t("typeGroupDish")}</p>
+                      {renderGenreChips(genresByType.dish)}
+                    </div>
+                  )}
+                  {genresByType.ingredient.length > 0 && (
+                    <div>
+                      <p className="text-foreground/80 mb-1 text-xs font-semibold">{t("typeGroupIngredient")}</p>
+                      {renderGenreChips(genresByType.ingredient)}
+                    </div>
+                  )}
+                  {genresByType.cut.length > 0 && (
+                    <div>
+                      <p className="text-foreground/80 mb-1 text-xs font-semibold">{t("typeGroupCut")}</p>
+                      {renderGenreChips(genresByType.cut)}
+                    </div>
+                  )}
+                </div>
               </div>
 
               {/* 興味からさがす: 付与件数が多い順のタグチップ（最大12個）を絞り込みボタンとして
@@ -717,6 +816,7 @@ export function BrowseShell({
                   locale,
                   label.prefecture,
                   ti("unknown"),
+                  placeNames,
                 )}
                 detailLabel={ti("viewDetail")}
               />

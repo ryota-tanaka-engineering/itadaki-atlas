@@ -1,0 +1,1042 @@
+{
+ "genres": [
+  {
+   "slug": "tsukemono",
+   "name_ja": "漬物",
+   "name_en": "Tsukemono (pickles)",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "sort_order": 18,
+   "intro_ja": "漬物は、塩・糠・酒粕・麹・味噌・醤油・酢のいずれかに野菜や魚を漬け込み、微生物や浸透圧の力で保存性と風味を引き出す加工食品の総称である。京都のすぐき漬けのように塩だけで乳酸発酵させるものもあれば、秋田のいぶりがっこのように囲炉裏の煙で燻してから糠に漬けるものもあるなど、同じ「漬ける」という工程でも土地の気候と入手できる漬け床によって仕上がりが大きく変わる。雪に閉ざされる内陸部では冬を越すための保存食として、寺社の門前や街道沿いでは土産物として発展してきたという。ここでは漬け床の違いと、それぞれの土地の事情を辿る。",
+   "intro_en": "Tsukemono covers vegetables and fish pickled in salt, rice bran, sake lees, rice malt, miso, soy sauce, or vinegar — each medium drawing out shelf life and flavor through microbes or osmotic pressure. Kyoto's suguki-zuke ferments in salt alone, while Akita's iburigakko is first smoked over an irori hearth before going into a bran bed: the same basic act of pickling ends up looking very different depending on a region's climate and what pickling medium was on hand. Inland areas shut in by snow are said to have developed these as food to see out the winter, while others grew into souvenirs sold at temple gates and along old highways. This section follows the different pickling media and the local circumstances behind each."
+  }
+ ],
+ "items": [
+  {
+   "slug": "nozawana-zuke",
+   "name_ja": "野沢菜漬け",
+   "name_romaji": "Nozawana-zuke",
+   "name_en": "Nozawana-zuke — pickled leaf mustard from a Nagano hot-spring village",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "長野県",
+   "origin_city": "下高井郡野沢温泉村",
+   "lat": 36.9236,
+   "lng": 138.4383,
+   "summary_ja": "信州の冬を越すために大量に仕込む青菜の漬物。野沢温泉村に伝わった天王寺かぶが高冷地の気候で葉と茎だけを大きく育てる変わり種になり、霜に当たるほど甘く柔らかくなるという。",
+   "summary_en": "A leaf-mustard pickle put up in bulk to see Nagano through winter. A turnip once brought from Kyoto is said to have changed in the cold highlands of Nozawa Onsen, growing only leaf and stem — sweeter and softer the more frost it takes.",
+   "body_ja": "## 何でできているか\n野沢菜と塩、それに焼酎を少し加えて漬け込む。原種は江戸時代に京都から持ち帰られた天王寺かぶだったとされるが、標高600メートル近い野沢温泉村の気候で根が育たず、葉と茎だけが大きくなる変わり種になったという。9月に種をまいた野沢菜は大きなものだと1メートルにも育ち、霜に当たった葉は甘みとぬめりを増して、漬け上がりはべっ甲色に染まっていく。\n## どう作るのか\n11月23日を過ぎて霜が降りるのを待ってから収穫し、1枚ずつ丁寧に洗う「お菜洗い」は北信州の冬を告げる風物詩とされる。一石桶と呼ばれる大きな桶で大量に漬け込み、焼酎はかび止めの役目を果たすという。仕込みから2〜3週間で食べられるが、乳酸発酵が進んで味がなじむのは年末年始の頃で、春先まで置いた古漬けは酸味が強まり炒めて食べることも多い。\n## なぜこの形になったのか\n冬になると畑から青いものが一切とれなくなる信州の内陸部では、晩秋のうちに大量の漬物を仕込んでおく必要があった。「お葉漬け」と呼ばれる菜類の漬物文化には稲核菜や源助かぶ菜、木曽菜などいくつもの型があるが、野沢菜漬けはその代表格として県内全域に広がり、ふるさとの味、おふくろの味として深く根付いているという。",
+   "body_en": "## What it's made of\nNozawana leaves are salted and pickled with a splash of shochu added in. The plant is said to descend from a turnip carried from Kyoto in the Edo period, which lost the ability to grow a root in the cold highlands around Nozawa Onsen and instead put all its energy into leaf and stem. Sown in September, it can grow to a meter, and frost is said to sweeten the leaves and turn the finished pickle the color of tortoiseshell.\n## How it's made\nHarvest waits for frost after November 23rd, and washing each leaf by hand in a ritual called na-arai is said to mark the start of winter across northern Shinshu. The greens go into a huge barrel called an isseki-oke in one large batch, and the shochu is said to guard against mold. It's edible within two to three weeks, but the flavor is said to settle in around New Year's as lactic fermentation proceeds, and pickle left until spring turns sharply sour and is often stir-fried instead.\n## Why it took this shape\nIn Nagano's landlocked interior, fields stop yielding anything green once winter sets in, so households needed to put up a large batch of pickles by late autumn. This leaf-pickling culture, known as ohazuke, takes several other forms too — inakarina, gensuke-kabuna, kisona among them — but nozawana-zuke became the best known across the prefecture and is described as a taste people associate with home.",
+   "sources": [
+    {
+     "title": "野沢菜漬（長野県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nozawana_zuke_nagano.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "hiroshimana-zuke",
+     "relation_type": "対比",
+     "basis": "長野の野沢菜、広島の広島菜、九州の高菜が「日本三大漬け菜」と並び称される（出典: 農林水産省うちの郷土料理・広島菜漬けページ）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "shiba-zuke",
+   "name_ja": "しば漬け",
+   "name_romaji": "Shiba-zuke",
+   "name_en": "Shiba-zuke — purple shiso-pickled eggplant and cucumber from Kyoto's Ohara valley",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "京都府",
+   "origin_city": "京都市左京区大原",
+   "lat": 35.1201,
+   "lng": 135.8267,
+   "summary_ja": "なすときゅうりを赤しそとともに塩漬けにする、京都を代表する漬物の一つとされる。大原の赤しそがしみ出す紫色と酸味が特徴で、建礼門院に献上された逸話から「紫葉漬け」の名が転じたと伝わる。",
+   "summary_en": "Eggplant and cucumber salted together with red shiso, one of Kyoto's \"three great pickles.\" The shiso bleeds a deep purple and sourness into the vegetables — a color and taste said to trace to a dish once offered to the retired Empress Kenreimon-in at Ohara.",
+   "body_ja": "## 何でできているか\nなす、きゅうり、みょうがなどを赤しその葉とともに塩でもみ、漬け込む。主役は大原の赤しそで、盆地のため外からの花粉が入りにくく、800回以上栽培を重ねてきたことから原品種に近いと評価されているという。しそのあざやかな紫色と酸味が野菜にしみ込むのが身上で、発酵が進むほど色と香りがいっそう濃くなっていくとされ、口に入れると酸味の奥にしその清涼感が広がる。\n## どう作るのか\n食べやすく切ったなすやきゅうりをしその葉、塩ともみ合わせ、水分を絞ってから容器に移して数日間寝かせる。発酵が進んだら、ごはんのおかずや酒のつまみとして食べる。大原では赤しその収穫期にあわせ7月1日から31日まで「赤しそ開き」がおこなわれ、初日には赤しそ法要も営まれ、漬け込み体験も毎年おこなわれているという。\n## なぜこの形になったのか\n地下水に恵まれた京都では古くから野菜栽培が営まれ、漬物文化が発展したとされる。大原の名刹三千院の僧が発案したとも伝わり、寂光院に閑居していた建礼門院がしその漬物を喜び「紫葉漬け」と名付けたという逸話が、しば漬けという名の由来として語り継がれている。今も直売所や漬物業者にとって欠かせない商品として、全国的にも知られているという。",
+   "body_en": "## What it's made of\nEggplant, cucumber, and myoga ginger are hand-worked with salt and red shiso leaves. The lead ingredient is Ohara's red shiso, grown in a basin sheltered from outside pollen and, having been propagated for more than 800 cycles, said to sit close to its original form. The shiso's deep purple and sourness carry through into the vegetables, deepening in color and aroma the further fermentation goes.\n## How it's made\nCut vegetables are worked together with shiso leaves and salt, squeezed of their water, then left to sit in a container for several days. As fermentation proceeds it becomes a side for rice or a drinking snack. Ohara holds a month-long “red shiso opening” event each July timed to the harvest, its first day marked by a small ceremony and a pickling workshop for visitors.\n## Why it took this shape\nKyoto's groundwater is said to have long supported vegetable growing and, with it, a pickling culture. Tradition credits a monk at Ohara's Sanzen-in temple with devising the dish, and tells of the retired Empress Kenreimon-in, living in seclusion at nearby Jakko-in, delighting in a shiso pickle offered to her and naming it “murasaki-hazuke” — purple leaf pickle — the story behind the name shiba-zuke carries today. It remains a staple stocked by direct-sale stands and pickle merchants across the country.",
+   "sources": [
+    {
+     "title": "しば漬け（京都府）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shibazuke_kyoto.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "suguki-zuke",
+     "relation_type": "兄弟",
+     "basis": "しば漬け・すぐき漬け・千枚漬けは「京都三大漬物」と並び称される（出典: 農林水産省うちの郷土料理・しば漬けページ）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "suguki-zuke",
+   "name_ja": "すぐき漬け",
+   "name_romaji": "Suguki-zuke",
+   "name_en": "Suguki-zuke — a salt-only fermented turnip from Kyoto's Kamigamo shrine district",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "京都府",
+   "origin_city": "京都市北区上賀茂",
+   "lat": 35.0508,
+   "lng": 135.7622,
+   "summary_ja": "かぶらの一種すぐきを塩だけで漬け、独特の酸味を発酵させる京都を代表する漬物の一つとされる。上賀茂神社の社家が栽培を始めたと伝わり、江戸時代には他村への持ち出しも禁じられた、かつては御所へ献上される品だったという。",
+   "summary_en": "A turnip called suguki, salted alone and left to sour through fermentation — one of Kyoto's \"three great pickles.\" Cultivation is said to trace to shrine families at Kamigamo Shrine, who once presented it to the imperial court.",
+   "body_ja": "## 何でできているか\nすぐきは京の伝統野菜に数えられるかぶらの一種で、漬物以外にはほとんど使われないという。塩だけで漬け込むにもかかわらず独特の酸味が生まれるのが特徴で、下漬け・本漬け・室入れという3工程を経て、根の部分は半月切りやいちょう切り、葉は刻んで、ご飯のお供やお茶漬け、酒の肴として食べられる。すっきりとした酸味の奥にほのかな塩気が残る。\n## どう作るのか\n本漬けのあと、炭や電気で40度ほどに保った「室」に入れて乳酸発酵を促すのが現在の主流な作り方で、半月ほどで食べられるようになるという。昔は室を使わず自然の気温任せで発酵させる「時候熟れ」がおこなわれ、その場合は春から夏にかけての珍味だったと伝わる。室入れには専用設備が必要なため、今は一般家庭より漬物業者がつくることが多いという。\n## なぜこの形になったのか\n安土桃山時代、上賀茂神社の社家が鴨川に自生していたすぐきを栽培し始めたとの説や、京都御所から種をもらったという説が伝わる。江戸時代には他の村への持ち出しが禁じられ、社家だけがつくる御所への献上品だったという。霜が降りて根の糖度が増す11月中旬から漬け込みが始まり、年末年始の贈答品としても親しまれている。",
+   "body_en": "## What it's made of\nSuguki is a turnip counted among Kyoto's heritage vegetables and is said to be used almost nowhere except this pickle. Salted alone, it still develops a distinctive sourness. It goes through three stages — an initial salting, a main salting, and a warm chamber — and the root ends up sliced into half-moons or fan shapes, the leaves chopped, for rice, ochazuke, or a drinking snack.\n## How it's made\nAfter the main salting, today's standard method moves the turnips into a chamber, or muro, warmed to around 40°C by charcoal or electricity to push lactic fermentation along, ready in about two weeks. Older practice skipped the chamber and let ambient temperature do the work over what was called jikou-nare, a slower process said to have once made suguki-zuke a spring-into-summer delicacy. Because the chamber needs dedicated equipment, it's more often made by pickle merchants than at home today.\n## Why it took this shape\nOne account traces cultivation to shrine families at Kamigamo Shrine, who are said to have begun growing suguki that grew wild along the Kamo River in the Azuchi–Momoyama period; another holds that the seed came as a gift from the imperial palace. By the Edo period, carrying it out to other villages was reportedly forbidden, and it remained a delicacy made only by shrine families and presented to the court. Harvest and pickling begin in mid-November once frost has sweetened the roots, and it remains a favored year-end gift today.",
+   "sources": [
+    {
+     "title": "すぐき漬け（京都府）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sugukizuke_kyoto.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "senmai-zuke",
+     "relation_type": "兄弟",
+     "basis": "すぐき漬け・千枚漬け・しば漬けは「京都三大漬物」と並び称される（出典: 農林水産省うちの郷土料理・すぐき漬けページ）"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "senmai-zuke",
+   "name_ja": "千枚漬け",
+   "name_romaji": "Senmai-zuke",
+   "name_en": "Senmai-zuke — thin-sliced turnip pickled in kelp and vinegar, a Kyoto winter classic",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "京都府",
+   "origin_city": "亀岡市篠町",
+   "lat": 35.014,
+   "lng": 135.5748,
+   "summary_ja": "聖護院かぶを薄切りにし、昆布と酢で漬ける京都を代表する漬物の一つとされる。長期保存を目的とせず繊細に仕上げるのが特徴で、江戸時代に御所の料理人が考案し漬物商として広めたと伝わる。",
+   "summary_en": "Thin-sliced turnip pickled with kelp and vinegar, one of Kyoto's \"three great pickles.\" Unlike most tsukemono it isn't made for long storage but for a delicate, fresh finish — devised, tradition says, by a cook at the imperial court.",
+   "body_ja": "## 何でできているか\n使うのは国内最大級のかぶらとされる聖護院かぶで、大きなものは4〜5キロにもなる。薄く切ったかぶを昆布や唐辛子とともに酢に漬け込む。従来の漬物のように塩漬けで乳酸発酵させる作り方だったともいうが、今は長期保存を目的とせず発酵もさせず、繊細な口当たりに仕上げるのが主流だという。からすみやスモークサーモンを挟むアレンジも見られる。\n## どう作るのか\nかぶらの皮を厚めにむいて2ミリほどの薄さに切り、塩を振って一晩重石をしてから水気を切る。昆布、唐辛子とともに酢・砂糖・みりんの調味液に漬け込み、一昼夜置けば食べられる。聖護院かぶの出荷が始まる11月ごろから、大樽を使う仕込み風景が冬の京都の風物詩になっているといい、家庭でも収穫期に合わせてつくられている。\n## なぜこの形になったのか\n江戸時代、御所の料理人だった大藤藤三郎が考案したとされ、のちに漬物商に転じたと伝わる。原料の聖護院かぶも左京区聖護院の農家が近江かぶの種を持ち帰り栽培を始めたのが発祥とされ、戦後は亀岡市篠町が名産地となって京都で流通する千枚漬けの大半を支えているという。御所ゆかりの料理人が考案したという由来が、繊細な仕上げ方にも表れている。",
+   "body_en": "## What it's made of\nThe turnip used is Shogoin kabu, said to be Japan's largest turnip variety at 4 to 5 kilograms. Thin slices go into a vinegar pickle with kelp and chili. Some accounts say it was originally a salted, lactic-fermented pickle, but today it's made without long storage or fermentation in mind, aiming instead for a delicate texture. Some cooks tuck in karasumi or smoked salmon for a modern twist.\n## How it's made\nThe turnip is thickly peeled, sliced about 2mm thin, salted and weighted overnight, then drained. It's layered with kelp and chili in a vinegar, sugar, and mirin marinade and is ready after a day and a night. From around November, when Shogoin turnips come into season, the sight of large barrels being filled is said to mark the start of a Kyoto winter, and households still make their own batch around harvest time too.\n## Why it took this shape\nTradition credits Oto Tozaburo, a cook at the imperial court, with devising it in the Edo period, after which he is said to have gone into the pickle trade. The Shogoin turnip itself is said to trace to a Sakyo-ku farmer who brought back Omi turnip seed and began growing it locally; today, Kameoka's Shino district is the main growing area behind most of the senmai-zuke sold in Kyoto. Its origin with a court cook still shows in how delicately the pickle is finished.",
+   "sources": [
+    {
+     "title": "千枚漬け（京都府）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/semmaizuke_kyoto.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "shiba-zuke",
+     "relation_type": "兄弟",
+     "basis": "千枚漬け・しば漬け・すぐき漬けは「京都三大漬物」と並び称される（出典: 農林水産省うちの郷土料理・千枚漬けページ）"
+    },
+    {
+     "to_slug": "kaburazushi",
+     "relation_type": "対比",
+     "basis": "同じ冬のかぶらを使う仕事だが、千枚漬けは酢漬けで長期保存をしないのに対し、かぶら寿司は麹で漬け込み熟らせる点が対照的"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "sunki-zuke",
+   "name_ja": "すんき漬け",
+   "name_romaji": "Sunki-zuke",
+   "name_en": "Sunki-zuke — a salt-free, lactic-fermented turnip green from the Kiso valley",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "長野県",
+   "origin_city": "木曽地域（木曽町ほか）",
+   "lat": 35.8497,
+   "lng": 137.6841,
+   "summary_ja": "赤かぶの葉を塩を一切使わずに乳酸発酵させる、木曽地域だけの無塩漬物。海から遠い山深い谷では塩が貴重品だったため、それを節約する生活の知恵として生まれた発酵食品だと伝わる。",
+   "summary_en": "Red-turnip greens fermented by lactic bacteria alone, with no salt at all — a pickle unique to the mountain-locked Kiso valley, where, tradition says, salt was too precious to spare for it.",
+   "body_ja": "## 何でできているか\n使うのは木曽地域で育てられてきた木曽かぶの葉で、開田かぶや王滝かぶ、三岳黒瀬かぶなど地元に根付いた品種が6種ほどあるという。塩を使わないため一般的な漬物とは違う独特の酸味を持ち、茎と根の付け根に多く含まれる自然の乳酸菌が発酵を担っている。近年の研究では乳酸菌の種類がヨーグルトに匹敵するほど豊富だとわかってきたという。\n## どう作るのか\nかぶの葉を60度ほどの湯にくぐらせて殺菌し、前の年に漬けて干したり冷凍したりした「すんき種」と交互に容器へ重ねる。45度前後のゆで汁を注いで温かい場所に1日置くと酸味が出てくるという。乳酸菌は高温だと死んでしまうため温度管理が重要とされ、かつては山に自生するズミなどの実を発酵させたものを種として使っていたと伝わる。\n## なぜこの形になったのか\n海から遠く隔たった木曽谷は「米は貸しても塩は貸すな」といわれるほど塩が貴重だったとされ、塩を節約する生活の知恵としてすんき漬けが生まれたという。芭蕉一門の連句にも「木曽の酸茎に春も暮れつつ」と詠まれており、約150年前の古文書にもすんき料理の記述が残ることから、少なくとも300年以上前から続く発酵食品とみられている。",
+   "body_en": "## What it's made of\nThe leaves come from turnip varieties raised in the Kiso valley, roughly six of them tied to specific villages, including Kaida kabu, Otaki kabu, and Mitake-kurose kabu. With no salt used at all, the pickle carries a sourness unlike ordinary tsukemono, driven by natural lactic bacteria said to concentrate where the stem meets the root; recent research suggests the bed holds a range of lactic bacteria rivaling yogurt.\n## How it's made\nThe leaves are scalded in roughly 60°C water to sterilize them, then layered in a container with sunki-dane — starter made from the previous year's sunki, dried or frozen. Hot water at around 45°C is poured over, and a day in a warm spot brings out the sourness; because the bacteria die off at high heat, temperature control matters a great deal. Older practice is said to have used a starter fermented from wild fruit such as zumi crabapples gathered in the mountains.\n## Why it took this shape\nThe Kiso valley sits far from the sea, and salt is said to have been so precious there that people said you could lend rice but never salt — sunki-zuke is described as a piece of household ingenuity built around saving it. A renku verse from Basho's circle already mentions “Kiso's sour stem as spring draws to a close,” and a document some 150 years old records a sunki dish being served, suggesting the fermented food has been made for at least three hundred years.",
+   "sources": [
+    {
+     "title": "すんき漬け（長野県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sunki_zuke_nagano.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "nozawana-zuke",
+     "relation_type": "対比",
+     "basis": "同じ長野県の菜物漬けだが、野沢菜漬けは塩を使う一方すんき漬けは塩を一切使わない点が対照的（出典: 農林水産省うちの郷土料理・すんき漬けページ）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "iburigakko",
+   "name_ja": "いぶりがっこ",
+   "name_romaji": "Iburigakko",
+   "name_en": "Iburigakko — smoke-dried daikon pickled in rice bran, from Akita's snow country",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "秋田県",
+   "origin_city": "横手市ほか県内陸南部",
+   "lat": 39.3092,
+   "lng": 140.5666,
+   "summary_ja": "大根を囲炉裏の煙で燻してから米ぬかで漬け込む、秋田の燻製たくあん漬け。天日干しが凍ってしまう雪深い内陸南部で、火の熱と煙を使う保存の知恵として生まれたと伝わる漬物である。",
+   "summary_en": "Daikon smoked over an irori hearth, then pickled in rice bran — Akita's smoked take on takuan. In the snowbound inland south, where plain sun-drying would freeze solid, the fire's heat and smoke are said to have stepped in instead.",
+   "body_ja": "## 何でできているか\n大根を米ぬか、塩、砂糖（ザラメ）で漬け込むのは普通のたくあんと同じだが、漬け込む前に大根をナラや桜の煙で2〜5日いぶす工程が加わる。燻製の香りと糠漬けのうま味が冬の間じっくり発酵しながら融け合い、飴色の身と独特の風味を生むという。「いぶり」は「いぶした」の意味で、「がっこ」は秋田で漬物を指す方言とされる。\n## どう作るのか\n大根を手作業で縄編みし、いぶし小屋に吊るして昼夜火を焚きながら数日いぶす。飴色になったらすすを洗い流し、米ぬかや塩、砂糖などを振りかけながら樽に漬け込み、2カ月以上かけて発酵・熟成させる。樽から出したら表面のぬかを冷水で洗い流し、薄く切って器に盛る。2019年には地理的表示（GI）にも登録され、燻製方法や熟成期間に基準が設けられているという。\n## なぜこの形になったのか\n冬の訪れが早い秋田内陸南部は、日本海の湿った西風が奥羽山脈にぶつかって降雪が多く、日照時間も短いため、天日干しの途中で大根が凍ってしまう。囲炉裏の熱と煙で大根を干すことで保存性を高めたのがいぶりがっこの原型とされ、この地域のほぼ全戸でつくられてきたといい、その起源は室町時代までさかのぼるともいわれている。",
+   "body_en": "## What it's made of\nDaikon is pickled in rice bran, salt, and coarse sugar just as ordinary takuan is, but before that it spends two to five days smoking over oak or cherry wood. The smoke's aroma and the bran bed's savor are said to work into each other slowly over a winter of fermentation, leaving an amber daikon with a flavor found nowhere else. Iburi is said to mean smoked, and gakko is Akita dialect for pickle.\n## How it's made\nDaikon is hand-braided on cord and hung in a smoking hut, tended over a fire day and night for several days. Once it turns amber, the soot is rinsed off and the daikon is layered in a barrel with rice bran, salt, and sugar to ferment and mature for over two months; taken out of the barrel, it's rinsed of surface bran in cold water and sliced thin for the table. In 2019 it was registered under Japan's Geographical Indication system, which now sets standards for the smoking method, ingredients, and maturation period.\n## Why it took this shape\nWinter arrives early in Akita's inland south, where moist west winds off the Sea of Japan collide with the Ou mountains, bringing heavy snow and short daylight — daikon left to sun-dry in the usual way would simply freeze partway through. Drying it instead over an irori hearth's heat and smoke is said to be the origin of iburigakko, once made in nearly every household in the district, a practice some trace as far back as the Muromachi period.",
+   "sources": [
+    {
+     "title": "いぶりがっこ（秋田県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_1_akita.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "takuan",
+     "relation_type": "派生",
+     "basis": "農林水産省うちの郷土料理は「秋田の代表的な燻製干しのたくあん漬け」と明記しており、燻製という手法によるたくあんの派生形と位置づけられる"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "smoked",
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "bettara-zuke",
+   "name_ja": "べったら漬け",
+   "name_romaji": "Bettara-zuke",
+   "name_en": "Bettara-zuke — daikon pickled sweet in rice malt, a Nihonbashi autumn tradition",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "東京都",
+   "origin_city": "中央区日本橋",
+   "lat": 35.687,
+   "lng": 139.7745,
+   "summary_ja": "塩で下漬けした大根を米麹と砂糖で漬け込む、江戸のえびす講で売られた浅漬けが起源とされる漬物。麹の自然な甘さが身上で、日本橋の「べったら市」で今も親しまれている。",
+   "summary_en": "Daikon salted first, then pickled sweet in rice malt and sugar — said to descend from a lightly pickled daikon once sold at Edo's ebisu-kō market. The rice malt gives it a natural sweetness, and it still headlines Nihonbashi's autumn \"Bettara Market.\"",
+   "body_ja": "## 何でできているか\n大根を塩で下漬けしたあと、米麹、砂糖、みりん、昆布などで漬け込む。麹をふんだんに使うことで上品な甘みが生まれ、江戸で好まれた練馬大根やその流れをくむ東光寺大根のように、辛みが強く少し苦い大根がべったら漬けやたくあんに向いていたという。江戸の都市部では各家庭で漬物をつくらず、漬物屋で買い求めるのが日常だったと伝わる。\n## どう作るのか\n大根の皮をむいて塩をまぶし、重石をして一晩置いて水を抜く。半日ほど干して水気を切ったら、米麹、砂糖、みりん、昆布とともに漬け込み、1〜3日でできあがる。発酵が進むと酸味が強くなるため、その後は冷蔵して保存するという。大根の収穫と合わせて仕込む江戸時代は主に秋から冬にかけて、ご飯のお供として日常的に食べられていた。\n## なぜこの形になったのか\n江戸時代のえびす講で売られていた大根の浅漬けが起源とされ、縄でくくって持ち歩く際「べったり付くぞ」と振り回したことが名の由来と伝わる。大所帯の商家は練馬村の農家と契約して一年分の漬物を仕込んでもらっていたといい、日本橋の宝田恵比寿神社では江戸時代から続く「べったら市」が今も秋の風物詩として毎年開かれている。",
+   "body_en": "## What it's made of\nDaikon is first salted, then pickled in rice malt, sugar, mirin, and kelp. The generous use of malt gives it a refined sweetness, and daikon varieties favored in Edo — Nerima daikon and its descendant Tokoji daikon, both notably pungent and slightly bitter — are said to have suited themselves equally well to bettara-zuke or to drying into takuan. City dwellers in Edo are said to have mostly stopped making pickles at home and bought them from pickle shops instead.\n## How it's made\nPeeled daikon is salted, weighted overnight to draw out water, then air-dried for about half a day before being layered with rice malt, sugar, mirin, and kelp; it's ready in one to three days. Fermentation is said to sharpen the sourness over time, so once made it's kept refrigerated. Made to follow the daikon harvest, it was mainly an autumn-to-winter food in the Edo period.\n## Why it took this shape\nIt is said to trace to a lightly salted daikon once sold at Edo's ebisu-kō market fairs, with the name supposedly coming from young men swinging the string-tied pickle at women, warning “it'll stick to you” (bettari tsuku zo). Large merchant households are said to have contracted with farmers in Nerima village to prepare a year's worth of pickles, and Nihonbashi's Takarada Ebisu Shrine still holds its centuries-old autumn “Bettara Market” every year.",
+   "sources": [
+    {
+     "title": "べったら漬け（東京都）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_8_tokyo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "takuan",
+     "relation_type": "兄弟",
+     "basis": "農林水産省うちの郷土料理は「東京で庶民に愛された漬物といえば、たくあんとべったら漬けだった」と明記しており、練馬大根から分かれた江戸の二大漬物として並記される"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "takana-zuke",
+   "name_ja": "高菜漬け",
+   "name_romaji": "Takana-zuke",
+   "name_en": "Takana-zuke — mustard greens pickled with chili, a Kyushu everyday staple",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "からし菜の仲間である高菜を塩と唐辛子で漬け込む、九州各地の漬物。浅漬けの新漬けと半年かけて乳酸発酵させる古漬けがあり、刻んでご飯や炒め物にもよく使われるという。",
+   "summary_en": "Mustard greens salted with chili — a pickle found across Kyushu. There is a lightly salted fresh version and an aged one fermented for half a year, and both get chopped into rice, stir-fries, and more.",
+   "body_ja": "## 何でできているか\n高菜はからし菜の仲間で、葉や茎にピリリとした辛味を持つ。1メートル以上に育つ緑黄色野菜で、塩と唐辛子で漬け込む。数日で食べられる新漬けはあっさりとした浅漬けだが、半年かけて乳酸発酵させた古漬けはべっこう色に熟成し、酸味と辛味のコクが増すという。ビタミンやカロテン、鉄分、カルシウムを含む栄養豊富な保存食として重宝されてきた。\n## どう作るのか\n高菜を葉先と根元が交互になるよう桶に並べ、塩と唐辛子の粉をまぶしながら隙間なく詰めていく。重石をして梅雨を越すと食べ頃になるという。食べるときは細かく刻み、しょうがやごまを添えるほか、油で炒めてご飯に混ぜる「高菜飯」としても親しまれ、おにぎりやチャーハン、餃子の具、パスタなどにも幅広く使われている。\n## なぜこの形になったのか\n高菜は漬け菜を代表する葉物の一つとされ、九州各地で栽培条件に合わせた品種が育てられてきたとされる。熊本県阿蘇市では寒冷な気候と火山灰の大地で育つ阿蘇高菜が、機械ではなく手で折る「高菜折り」の収穫とともに、福岡県みやま市瀬高町では中国由来の青菜と在来種を掛け合わせた三池高菜が、それぞれの土地の産物として定着したという。",
+   "body_en": "## What it's made of\nTakana is a mustard green with a distinct peppery bite in its leaves and stem, growing over a meter tall, and is pickled with salt and chili. A fresh version is ready in days as a mild, lightly salted pickle, while an aged version, fermented for half a year, turns amber and deepens in both sourness and heat. It's valued as a nutrient-rich preserve, carrying vitamins, carotene, iron, and calcium.\n## How it's made\nTakana is laid in a barrel with leaf tips and stem bases alternating, dusted with salt and ground chili, and packed tight layer by layer. Weighted down, it's said to be ready once the rainy season passes. It's finely chopped for the table, often with ginger and sesame, stir-fried in oil and mixed into rice as takana-meshi, or worked into rice balls, fried rice, gyoza filling, and even pasta.\n## Why it took this shape\nTakana is counted among Japan's “three great pickling greens,” and different regions across Kyushu are said to have bred it to their own growing conditions. In Kumamoto's Aso, a variety grown in cold air and volcanic-ash soil, harvested by hand-snapping the thick stalks in a ritual called takana-ori, became known as Aso takana; in Miyama's Setaka district of Fukuoka, a cross between a green brought from China and a native strain produced Mike takana — each rooted in its own local ground.",
+   "sources": [
+    {
+     "title": "阿蘇高菜漬け（熊本県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/aso_takana_zuke_kumamoto.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "瀬高の高菜漬け（福岡県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/setakano_takana_zuke_fukuoka.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "熊本県",
+     "city": "阿蘇市",
+     "lat": 32.9564,
+     "lng": 131.0864,
+     "relation_type": "本場",
+     "note_ja": "寒冷な気候と火山灰の大地で育つ阿蘇高菜を、収穫後すぐに塩と唐辛子で漬けてきた土地",
+     "note_en": "Home to Aso takana, grown in cold air and volcanic-ash soil and salted with chili right after harvest.",
+     "source_url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/aso_takana_zuke_kumamoto.html"
+    },
+    {
+     "pref": "福岡県",
+     "city": "みやま市瀬高町",
+     "lat": 33.1546,
+     "lng": 130.4772,
+     "relation_type": "本場",
+     "note_ja": "温暖な気候と肥沃な土壌に恵まれ、中国由来の青菜と在来種を掛け合わせた三池高菜の栽培が明治期に定着した土地",
+     "note_en": "A warm, fertile district where Mike takana — a cross of a green brought from China and a native strain — took hold as a crop in the Meiji era.",
+     "source_url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/setakano_takana_zuke_fukuoka.html"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "nozawana-zuke",
+     "relation_type": "対比",
+     "basis": "九州の高菜、長野の野沢菜、広島の広島菜が「日本三大漬け菜」と並び称される"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "spicy"
+   ]
+  },
+  {
+   "slug": "hiroshimana-zuke",
+   "name_ja": "広島菜漬け",
+   "name_romaji": "Hiroshimana-zuke",
+   "name_en": "Hiroshimana-zuke — a mild, faintly peppery leaf pickle grown only around Hiroshima",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "広島県",
+   "origin_city": "広島市安佐南区",
+   "lat": 34.4795,
+   "lng": 132.4194,
+   "summary_ja": "白菜の仲間である広島菜を浅漬けにした、広島市周辺だけで栽培される菜漬け。繊維が少なく歯切れがよいのが特徴で、太田川中州の肥沃な土地で古くから育てられてきたという。",
+   "summary_en": "A mild leaf pickle made from hiroshimana, a napa-cabbage relative grown only around Hiroshima. Low in fiber and crisp to bite into, it has long been cultivated on the fertile sandbar land of the Ota River delta.",
+   "body_ja": "## 何でできているか\n広島菜はアブラナ科の白菜の一種とされ、繊維が少なくやわらかで、浅漬けにすると歯切れがよくほんのり辛い風味が好まれるという。9月に種をまき12月には十分育ち、霜に当たるとピリッとした風味がいっそう増していく。茎の形状から「平茎」とも呼ばれ、年配の人には昔の呼び名である「京菜」と呼ぶ人も今なお多いといい、その名残から京都との縁も感じさせる。\n## どう作るのか\n収穫した広島菜を浅漬けにし、3〜4センチほどに切っておにぎりに巻いたり、雑煮の具や刻んでふりかけにしたりして食べる。古漬けはお茶漬けとしても親しまれているという。太田川の中州にある広島市安佐南区川内地区は肥沃で水はけがよく、古くから広島菜の栽培地になってきた。主産地では雑煮の具に使い「餅菜」とも呼ぶという。\n## なぜこの形になったのか\n江戸時代の参勤交代の際に京都から種子を持ち帰ったのが始まりと伝わり、京都の壬生菜がルーツとも考えられているという。長野県の野沢菜、九州の高菜と並ぶ漬け菜として知られ、地域特有の土壌と気候に合わせて広島の重要な特産品に育っていった。「広島菜」という呼び名そのものは昭和8年に定められたとされる。",
+   "body_en": "## What it's made of\nHiroshimana is classed as a napa-cabbage relative in the mustard family, low in fiber and tender, prized as a lightly salted pickle for its crisp bite and faint peppery edge. Sown in September, it's fully grown by December, and frost is said to sharpen its flavor further. Its stem shape also earns it the name hiragoki, flat stem, though many older residents still call it kyona, Kyoto green.\n## How it's made\nHarvested hiroshimana is lightly pickled and cut into 3-4cm lengths to wrap rice balls, added to New Year's zoni soup, or chopped into a rice topping. The aged version is also enjoyed as ochazuke. The Kawauchi district of Asaminami-ku, Hiroshima, on a well-drained, fertile sandbar of the Ota River, has long been the crop's growing ground, where it also goes by mochina when used in zoni.\n## Why it took this shape\nIt's said to trace to seed brought back from Kyoto during a feudal lord's obligatory Edo journey, and some think its roots lie in Kyoto's mibuna green. Grouped with Nagano's nozawana and Kyushu's takana as one of Japan's “three great pickling greens,” it grew into a defining Hiroshima specialty as it adapted to the region's particular soil and climate. The name hiroshimana itself is said to date only to 1933.",
+   "sources": [
+    {
+     "title": "広島菜漬けのおにぎり（広島県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_23_hiroshima.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "takana-zuke",
+     "relation_type": "対比",
+     "basis": "広島の広島菜、九州の高菜、長野の野沢菜が「日本三大漬け菜」と並び称される（出典: 農林水産省うちの郷土料理・広島菜漬けページ）"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "hida-akakabu-zuke",
+   "name_ja": "飛騨赤かぶ漬け",
+   "name_romaji": "Hida Akakabu-zuke",
+   "name_en": "Hida akakabu-zuke — a red turnip pickle that turns a mountain valley's winter table crimson",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "岐阜県",
+   "origin_city": "高山市・飛騨市",
+   "lat": 36.1461,
+   "lng": 137.2521,
+   "summary_ja": "飛騨紅かぶを丸ごと塩漬けにする、雪に閉ざされる飛騨地域の保存漬物。皮の色素が発酵とともに身を紅色に染め、山間部で貴重だった塩を節約するための江戸時代以来の製法と伝わる。",
+   "summary_en": "Whole turnips salted down in barrels — a preserve from the snowbound Hida region. The skin's pigment bleeds crimson into the flesh as fermentation proceeds, in a method said to date to the Edo period, when it helped stretch precious salt.",
+   "body_ja": "## 何でできているか\n使うのは大正7年に八賀かぶの突然変異株として見つかったとされる飛騨紅かぶ。柔らかく肥大したかぶの糖分と乳酸菌の力が合わさり、ほのかな酸っぱさを持つ独特の味わいが生まれるという。鮮やかな紅色は皮の色素によるもので、発酵が進むほど白かった身をじわじわと赤く染めていき、味わいも同時に深くなっていくとされる。\n## どう作るのか\n樽に塩水を張り、隙間なく並べたかぶに塩を振りながら重ねていく。重石をして常温で漬け込み、15日ほどで上下を入れ替える「天地替え」をおこなうと塩分が均一になり発色もよくなるという。白い酵母が樽内の水面に上がってきたらこまめにくみ取り、2カ月ほど経つと発酵、熟成が進んで食べごろになるという。地元の漬物店や土産物店、一部の宿泊施設でも味わえるとされる。\n## なぜこの形になったのか\n山深く冬には雪に閉ざされる飛騨地域では、赤かぶ漬けは貴重な食料だったとされる。雪や霜に強い赤かぶは家庭に受け継がれ、11月になると漬物用の野菜を川で洗う「菜洗い」が冬の訪れを告げる風物詩だったという。山間部では塩が貴重だったため、それを節約する江戸時代以来の伝統製法として今日まで定着してきたと伝わる。",
+   "body_en": "## What it's made of\nThe turnip used is Hida-beni kabu, said to have first appeared in 1918 as a red mutant of the Hachiga turnip. The soft, swollen root's sugar combines with lactic bacteria to produce a faintly sour, distinctive taste. The vivid red comes from pigment in the skin, which is said to bleed further into the once-white flesh — and deepen in flavor — as fermentation proceeds.\n## How it's made\nTurnips are packed tight into a barrel of brine, salted layer by layer, then weighted and left at room temperature. About fifteen days in, the barrel's contents are turned top to bottom in a step called tenchi-gae, said to even out the salt and improve the color; any white yeast rising to the surface is skimmed off regularly, and after roughly two months of fermentation and aging, it's ready to eat.\n## Why it took this shape\nIn the deep, snowbound Hida region, this red-turnip pickle is said to have been a vital food source. Hardy against snow and frost, it was passed down within families, and November brought nasai, a ritual washing of pickling vegetables in the river, said to have marked the arrival of winter. Salt being scarce in this mountainous region, the method is said to have taken hold since the Edo period as a way to use it sparingly.",
+   "sources": [
+    {
+     "title": "赤かぶ漬け（岐阜県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_20_gifu.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "sunki-zuke",
+     "relation_type": "対比",
+     "basis": "ともに内陸山間部で塩が貴重だったことから生まれた保存の知恵だが、赤かぶ漬けは塩を使い、すんき漬けは塩を一切使わない点が対照的"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "matsumae-zuke",
+   "name_ja": "松前漬け",
+   "name_romaji": "Matsumae-zuke",
+   "name_en": "Matsumae-zuke — squid, kelp, and herring roe steeped in soy sauce, a Hokkaido winter keeper",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "北海道",
+   "origin_city": "松前郡松前町",
+   "lat": 41.4308,
+   "lng": 140.1058,
+   "summary_ja": "細切りにしたスルメイカと昆布を醤油だれで漬け込む、道南松前町発祥とされる保存食。ニシン漁で獲れた数の子を使ったのが始まりで、正月料理としても親しまれているという。",
+   "summary_en": "Shredded dried squid and kelp steeped in a soy-based marinade — a preserve said to trace to Matsumae in southern Hokkaido. It began with herring roe from the region's herring fishery and remains a fixture of New Year's cooking.",
+   "body_ja": "## 何でできているか\n乾燥させたスルメイカと昆布を細切りにし、数の子とともに醤油、酒、みりん、砂糖などで漬け込む。かつては塩漬けが主流だったが、味覚の変化とともに現在は醤油ベースの味付けが多くなっているという。人参や大根、柚子の皮を加える作り方もあり、味付けは店舗によってさまざまで、塩味のものや山菜入りのものもあるという。\n## どう作るのか\nスルメイカと昆布は細切りに、数の子は塩出ししてほぐしておき、醤油、みりん、酒、塩を合わせた調味液に1週間ほど漬け込む。ニシン漁が衰退したあとスルメイカ漁が本格化した経緯から、今では松前町と隣接する福島町が全国有数のスルメイカ産地となり、スルメイカと昆布が主原料になっているという。ご飯のおかずにも酒の肴にも合う一皿とされる。\n## なぜこの形になったのか\n松前藩発祥といわれ、地元でとれた食材を使って漁師の家庭でつくられ、冬の保存食として広まったとされる。江戸時代後期から明治にかけてニシン漁で大量に獲れた数の子を使っていたが、数の子の価格が上がるにつれてスルメイカと昆布の比重が増していったという。今では正月料理や北海道土産の定番としても親しまれている。",
+   "body_en": "## What it's made of\nDried squid and kelp are cut into thin strips and pickled with herring roe in soy sauce, sake, mirin, and sugar. It was once mostly salted, but tastes shifted and a soy-based version is now more common. Some versions add carrot, daikon, or yuzu peel, and the exact seasoning is said to vary from shop to shop.\n## How it's made\nSquid and kelp are shredded, herring roe is desalted and loosened, and everything steeps for about a week in a mix of soy sauce, mirin, sake, and salt. As herring fishing declined and squid fishing grew into the region's main catch, Matsumae and neighboring Fukushima town became one of Japan's leading squid-landing areas, and squid and kelp became the pickle's core ingredients.\n## Why it took this shape\nIt is said to have originated with the Matsumae domain, made in fishing households from whatever local ingredients were on hand, and spread as a winter preserve. From the late Edo period into the Meiji era it relied on herring roe caught in bulk by the local herring fishery; as roe prices rose, squid and kelp came to carry more of the dish. Today it remains a fixture of New Year's cooking and a standard Hokkaido souvenir.",
+   "sources": [
+    {
+     "title": "松前漬（北海道）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/matsumaezuke_hokkaido.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "surume-ika",
+     "relation_type": "使用食材",
+     "basis": "松前漬けの主原料の一つとしてスルメイカを用いる（出典: 農林水産省うちの郷土料理・松前漬ページ）"
+    }
+   ],
+   "tags": [
+    "kelp",
+    "ceremonial",
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "wasabi-zuke",
+   "name_ja": "わさび漬け",
+   "name_romaji": "Wasabi-zuke",
+   "name_en": "Wasabizuke — chopped wasabi worked into sake lees, a Shizuoka station souvenir since 1889",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "静岡県",
+   "origin_city": "静岡市葵区有東木",
+   "lat": 35.22,
+   "lng": 138.335,
+   "summary_ja": "わさびの茎や根を刻んで酒粕と練り合わせる粕漬け。徳川家康が門外不出とした有東木の栽培地から広まったとされ、明治22年の静岡駅構内での販売が定番土産の始まりという。",
+   "summary_en": "Chopped wasabi stem and root worked into sake lees. Cultivation is said to trace to Utogi, a valley Tokugawa Ieyasu once forbade anyone to carry wasabi out of, and the pickle became a fixture of Shizuoka Station's platform stalls from 1889.",
+   "body_ja": "## 何でできているか\nわさびの茎と根を細かく刻み、酒粕に砂糖と酒を加えて練り合わせたものに漬け込む。わさびのつんとくる辛みと酒粕の甘い風味が合わさり、主に大人に好まれる味わいになるという。静岡県は多量の降雨や地質、年間を通じ13度前後を保つ湧水に恵まれ、わさびの収量・品質とも日本一を誇るとされ、家庭の食卓にも日常的にのぼる一品だという。\n## どう作るのか\nわさびの茎・根を一晩塩漬けにしてから水分をよく絞り、砂糖と塩を加えてこねた酒粕の中に少しずつ練り込んでいく。密封容器に移して2〜3日置くと辛みが出て食べ頃になるという。辛すぎる場合はふたを少し開けておくと和らぐそうだ。湧水が湧く山間地に階段状のわさび田をつくり、肥料を極力使わず栽培されているという。\n## なぜこの形になったのか\n慶長年間、静岡市有東木に自生していたわさびを湧水源付近に植えたのが発祥とされ、駿府城で晩年を過ごした徳川家康が地区外への持ち出しを禁じたため、長らく門外不出だったと伝わる。18世紀半ばに伊豆へ栽培法が伝わり、中伊豆で「畳石式」という栽培方式が開発されると静岡県全域に広まった。明治22年に静岡駅で売られたのが定番土産としての始まりという。",
+   "body_en": "## What it's made of\nChopped wasabi stem and root are worked into sake lees kneaded with sugar and sake. The wasabi's sharp bite meets the lees' sweetness in a flavor said to appeal mainly to adult palates. Heavy rainfall, the local geology, and spring water that holds steady around 13°C year-round are said to make Shizuoka Japan's leading wasabi-growing prefecture in both yield and quality.\n## How it's made\nWasabi stem and root are salted overnight, squeezed well of their liquid, then worked bit by bit into sake lees kneaded with sugar and salt. Sealed and left for two to three days, it develops its bite and is ready to eat; if it turns out too sharp, leaving the lid slightly open is said to mellow it. Terraced wasabi paddies are built into mountain slopes wherever spring water rises, grown with as little fertilizer as possible.\n## Why it took this shape\nCultivation is said to trace to the Keicho era, when wild wasabi growing near Shizuoka's Utogi district was transplanted beside a spring there; Tokugawa Ieyasu, who spent his final years at nearby Sunpu Castle, is said to have forbidden anyone to carry it outside the district, keeping it a local secret for years. Growing methods reached Izu by the mid-18th century, and once a terraced technique called tataishi-shiki was developed there, it spread across the whole prefecture. Sales at Shizuoka Station from 1889 are said to mark its start as a standard souvenir.",
+   "sources": [
+    {
+     "title": "山葵漬け（静岡県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_3_shizuoka.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kasuzuke",
+     "relation_type": "派生",
+     "basis": "全日本漬物協同組合連合会は「刻んだわさびの茎や根を酒粕と練り合わせたわさび漬け…も粕漬けの仲間」と明記している"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "yamagata-dashi",
+   "name_ja": "山形のだし",
+   "name_romaji": "Yamagata Dashi",
+   "name_en": "Dashi — a summer relish of chopped raw vegetables from Yamagata's Murayama basin",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "山形県",
+   "origin_city": "村山地域・置賜地域",
+   "lat": 38.2554,
+   "lng": 140.3396,
+   "summary_ja": "なすやきゅうりなどの夏野菜と薬味を刻み、醤油で和える山形の常備菜。生のまま手軽に食べられるスピード料理として、暑さの厳しい村山地域を中心に親しまれてきたという。",
+   "summary_en": "Summer vegetables and aromatics chopped fine and dressed in soy sauce, eaten raw — a Yamagata staple. It is said to have taken hold especially in the hot, humid Murayama basin as a quick dish for the busy farming season.",
+   "body_ja": "## 何でできているか\nなす、きゅうりなど水分の多い夏野菜と、みょうがや青じそなどの香味野菜を細かく刻み、醤油で味付けする。「100軒の家があれば100種類の味」といわれるほど家庭ごとに具材が違い、山芋やオクラ、刻み昆布でねばりを加える家庭や、玉ねぎを加える家庭もあるという。子ども向けにとうもろこしや枝豆を入れると好評だそうだ。\n## どう作るのか\n野菜をすべてみじん切りにし、水にさらしてアクを抜いてから水気を切る。器に盛ってかつお節をかけ、だし醤油を回しかければできあがる。ごはんにのせるほか、冷奴やそうめん、そばの薬味としても使われ、飲食店では「だしパスタ」や「だしピザ」など、アレンジメニューを提供するところも珍しくないという。酒の肴としてそのまま食べることもある。\n## なぜこの形になったのか\n夏は高温多湿で暑さが厳しい村山地域を中心に、食欲が落ちる時期の農繁期に手早くつくれるスピード料理として定着したとされる。名前の由来には諸説あり、出汁のように他の食材を引き立てることから「だし」となった説や、刻んで手早く食卓に出すことに由来する説などがあり、山形県の観光土産としても広く浸透しているという。",
+   "body_en": "## What it's made of\nWatery summer vegetables like eggplant and cucumber are finely chopped with aromatics such as myoga ginger and shiso and dressed in soy sauce. Recipes are said to vary so much by household that people joke a hundred houses make a hundred different versions, some adding mountain yam, okra, or shredded kelp for extra body, others onion.\n## How it's made\nAll the vegetables are finely diced, soaked briefly in water to draw out bitterness, then drained. It's piled in a bowl, topped with bonito flakes, and finished with a dash of soy sauce. Beyond rice, it turns up as a garnish for chilled tofu, somen, or soba, and restaurants not infrequently serve their own twists, dashi pasta or dashi pizza among them.\n## Why it took this shape\nIt is said to have taken hold especially in the hot, humid Murayama basin as a dish that could be put together quickly during the busy farming season, when appetites flag in the heat. Its name has several possible origins: one traces it to dashi broth's role of bringing out other ingredients' flavor, another to the idea of quickly bringing (dasu) chopped vegetables to the table, and it has become a well-established Yamagata souvenir in its own right.",
+   "sources": [
+    {
+     "title": "だし（山形県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/dashi_yamagata.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "koikuchi-shoyu",
+     "relation_type": "使用食材",
+     "basis": "だしの味付けの基本は醤油であると農林水産省うちの郷土料理ページに明記されている"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "sangohachi-zuke",
+   "name_ja": "三五八漬け",
+   "name_romaji": "Sangohachi-zuke",
+   "name_en": "Sangohachi-zuke — vegetables pickled in a rice-malt bed named for its 3:5:8 ratio",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "福島県",
+   "origin_city": "二本松市",
+   "lat": 37.5936,
+   "lng": 140.455,
+   "summary_ja": "塩・麹・米を三対五対八の割合で混ぜた床に野菜を漬け込む、福島県二本松市周辺の麹漬け。江戸時代からのこうじ食品で、田植えの時期のおかずとして重宝されてきたという。",
+   "summary_en": "Vegetables pickled in a bed of salt, rice malt, and rice mixed roughly 3:5:8 — a fermented-rice pickle from around Nihonmatsu, Fukushima. A koji food dating to the Edo period, it is said to have been valued as a ready-made side dish during the rice-planting season.",
+   "body_ja": "## 何でできているか\n冷めたご飯か餅米に麹と塩を混ぜてつくる「三五八の素」に、きゅうりやなす、にんじん、かぶなどを漬け込む。塩が三、麹が五、米が八の割合でつくられることが名の由来とされるが、実際は1対1対1だったという説もあるという。江戸時代からあるこうじ食品の一つで、近年は肉や魚介を漬けて楽しむ人も増えているそうだ。米の甘みと麹の風味が野菜を包み込む。\n## どう作るのか\n炊いたご飯が人肌に冷めたところへ麹をほぐし入れ、塩を加えて混ぜ合わせたら瓶などで1カ月以上寝かせて「三五八の素」をつくる。夏野菜にまぶしてビニール袋などで一晩置けば食べられ、漬物桶を使うときは軽い重石で十分だという。近年は塩の割合を減らし、健康に配慮したレシピでつくることも増えているとされる。手軽さも支持される理由の一つだという。\n## なぜこの形になったのか\n田畑が多く新鮮な野菜が採れる二本松市周辺では、野菜を余すことなく使い切れる保存食として三五八漬けが根づいたとされる。冬の間に仕込んでおいた三五八の素に夏野菜を漬け、田植えで忙しい春先のおかずとして重宝してきたと伝わる。今では県内で商品化され、初心者向けの手づくりキットも開発されており、気軽に入手できるようになっているという。",
+   "body_en": "## What it's made of\nCucumber, eggplant, carrot, and turnip are pickled in sango-hachi no moto, a bed made by mixing cooled rice with malted rice and salt. The name is said to come from a ratio of three parts salt to five parts malt to eight parts rice, though one account says the real proportions were once a simple one-to-one-to-one. A koji food dating to the Edo period, it's increasingly used to pickle meat and seafood too.\n## How it's made\nMalted rice is worked into rice cooled to body temperature, salt is mixed in, and the whole thing rests in a jar for at least a month to become sango-hachi no moto. Summer vegetables are coated in it, left overnight in a bag, and are then ready to eat; a light weight is enough if a pickling tub is used instead. Recipes with less salt, aimed at health-conscious cooks, are said to be increasingly common.\n## Why it took this shape\nAround Nihonmatsu, an area rich in farmland and fresh vegetables, sango-hachi-zuke is said to have taken hold as a way to use vegetables without waste. The bed was made up over winter, then used to pickle summer vegetables that served as a ready side dish during the busy spring rice-planting season. It's now sold commercially within the prefecture, and pre-made kits have been developed for home use.",
+   "sources": [
+    {
+     "title": "三五八漬け（福島県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_14_fukushima.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "bettara-zuke",
+     "relation_type": "兄弟",
+     "basis": "ともに米麹を漬け床に使う麹漬けの系統に属する（出典: 農林水産省うちの郷土料理・三五八漬けページ、全日本漬物協同組合連合会・漬物の種類ページ）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "rakkyou-zuke",
+   "name_ja": "らっきょう漬け",
+   "name_romaji": "Rakkyou-zuke",
+   "name_en": "Rakkyo-zuke — sweet-vinegared shallots grown in the sand dunes of Tottori",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "鳥取県",
+   "origin_city": "鳥取市福部町",
+   "lat": 35.5459,
+   "lng": 134.2934,
+   "summary_ja": "らっきょうを塩漬けしたのち甘酢などに漬け込む、鳥取砂丘周辺の名産品。生命力が強く砂丘地でも育つらっきょうが、江戸時代の参勤交代で持ち帰られたのが栽培の始まりと伝わる。",
+   "summary_en": "Shallots salted first, then steeped in sweet vinegar — a specialty of the sand dunes around Tottori. Hardy enough to grow in dune sand, the shallot is said to have arrived there when a feudal retainer brought it back from a trip to Edo.",
+   "body_ja": "## 何でできているか\nらっきょうは生命力が旺盛で、砂丘地でも育つのが特徴だという。塩漬けにすることで乳酸発酵が進み、独特の風味が生まれる。仕上げの味付けは甘酢漬けが最もポピュラーだが、塩漬けや赤ワイン漬け、しそ漬け、りんご酢漬け、黒砂糖漬け、黒酢漬けなど地元では実に多様な漬け方が試みられているという。噛むとシャキッとした歯ざわりが残る。\n## どう作るのか\n「本漬け」は水洗いしたらっきょうを2週間以上塩漬けしたあと塩抜きして漬け込む方法で、乳酸発酵の美味しさが出る一方、塩抜きの加減が難しいという。塩抜きの手間を省いた「簡単漬け」もあり、冷蔵保存すれば思い立った日にすぐ漬け込める。収穫は5月下旬から6月中旬で、加工後は一年を通じて店頭に並んでいるという。\n## なぜこの形になったのか\n鳥取県でのらっきょう栽培は江戸時代、参勤交代の際に小石川薬園から持ち帰ったのが始まりと伝わる。生命力の強さから砂丘地でも自家用として栽培されていたが、大正初期にスプリンクラー灌水が導入されると本格的な大規模生産が始まったという。平成27年度には「鳥取砂丘/ふくべ砂丘らっきょう」が地理的表示（GI）として登録された。",
+   "body_en": "## What it's made of\nRakkyo shallots are said to grow vigorously enough to thrive even in dune sand. Salting brings on lactic fermentation and a distinctive flavor. Sweet vinegar is the most common finish, though salting, red wine, shiso, apple vinegar, and brown sugar pickling are all used locally too.\n## How it's made\nThe full method salts washed shallots for at least two weeks, then desalts and pickles them, giving the flavor of lactic fermentation but requiring a careful hand with the desalting step. A simplified method skips desalting entirely and, kept refrigerated, can be started on a whim any day. Harvest runs late May to mid-June, and the processed shallot is sold year-round.\n## Why it took this shape\nCultivation in Tottori is said to trace to the Edo period, when a retainer brought shallots back from Koishikawa medicinal garden during an obligatory trip to Edo. Its hardiness let it be grown as a home crop even in dune sand, but large-scale production is said to have begun only after sprinkler irrigation arrived in the early Taisho era. In fiscal 2015, \"Tottori Sakyu / Fukube Sakyu Rakkyo\" was registered under Japan's GI system.",
+   "sources": [
+    {
+     "title": "らっきょう漬け（鳥取県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/rakkyou_zuke_tottori.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "umeboshi",
+     "relation_type": "対比",
+     "basis": "全日本漬物協同組合連合会「漬物の種類」ページはらっきょう漬けを酢漬けの代表、梅干しを塩漬けの代表として並記しており、単一食材を漬ける代表的な漬物として対照的な技法をとる"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "kasuzuke",
+   "name_ja": "粕漬け",
+   "name_romaji": "Kasuzuke",
+   "name_en": "Kasuzuke — vegetables re-packed again and again in sake lees until they turn amber",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "塩漬けした野菜を熟成させた酒粕に繰り返し漬け替える漬物の総称。酒粕の糖分とうまみが染み込みあめ色に仕上がるとされ、酒蔵が多く酒粕を得やすい土地で古くから根づいてきたという。",
+   "summary_en": "A family of pickles made by repacking salted vegetables again and again in aged sake lees. The lees' sugar and umami are said to seep in over time, turning the vegetable a deep amber — a method that took hold especially where sake breweries were plentiful.",
+   "body_ja": "## 何でできているか\n塩漬けにした瓜や大根などの野菜を、熟成させた酒粕に漬け込むのが基本の形である。奈良漬けのようにしろうりを使うものもあれば、わさびの茎や根を酒粕と練り合わせたわさび漬け、数の子などを酒粕に練り込んだ山海漬けのように、素材の幅は広いという。塩漬けと乳酸菌などの発酵漬物とは別に、粕床という調味漬けの系統に位置づけられる。\n## どう作るのか\nまず野菜を塩漬けにして水分を抜き、乾かしてから酒粕を塗り付けるように漬け込む。一度で終わらせず、酒粕を新しいものに漬け替える作業を繰り返すことで、糖分とうまみが少しずつ染み込み、あめ色に色づいていくとされる。愛知のかりもりの粕漬けのように、みりん粕を使って仕上げるつくり方も伝わっており、完成までには数週間から1年以上かかることもあるという。\n## なぜこの形になったのか\n清酒の醸造がさかんな土地では大量の酒粕が生まれ、これを無駄にしないための保存食として粕漬けが根づいたとみられている。知多半島のように最盛期に200を超える酒蔵があった土地では、近隣で採れる野菜と酒粕を組み合わせる粕漬け文化が育ったと伝わる。新潟のふぐの子の粕漬けのように、魚介を漬け込む土地もあるという。",
+   "body_en": "## What it's made of\nThe basic form is a vegetable — melon or daikon most often — salted first, then packed in aged sake lees. Ingredients range widely: shirouri melon in nara-zuke, chopped wasabi stem and root worked into lees for wasabizuke, herring roe kneaded into lees for sankai-zuke. It sits in its own category, distinct from plain salt-curing or lactic-fermented pickling, built around a lees-based bed.\n## How it's made\nThe vegetable is salted to draw out its water, dried, then coated in sake lees as if spreading a paste. Rather than stopping there, the lees are replaced and the vegetable repacked again and again, letting sugar and umami work in gradually until the flesh turns amber. Some versions, like Aichi's kaimori kasuzuke, finish with mirin lees instead of plain sake lees.\n## Why it took this shape\nRegions with active sake brewing produced large amounts of leftover lees, and kasuzuke is thought to have taken hold as a way to put them to use rather than waste them. On the Chita Peninsula, once home to more than 200 breweries at its peak, a kasuzuke culture is said to have grown up pairing that lees with locally grown vegetables. Elsewhere, as in Niigata's lees-pickled pufferfish roe sac, the same method is applied to seafood instead.",
+   "sources": [
+    {
+     "title": "漬物の種類：全日本漬物協同組合連合会",
+     "url": "https://www.tsukemono-japan.org/about-tsukemono/types/",
+     "publisher": "全日本漬物協同組合連合会",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "かりもりの粕漬け（愛知県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/karimorinokasuzuke_aichi.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "愛知県",
+     "city": "清須市",
+     "lat": 35.2136,
+     "lng": 136.8393,
+     "relation_type": "名産地"
+    },
+    {
+     "pref": "新潟県",
+     "city": "",
+     "lat": 37.9026,
+     "lng": 139.0232,
+     "relation_type": "名産地"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "nukazuke",
+     "relation_type": "対比",
+     "basis": "同じ野菜の保存漬物だが、粕漬けは酒粕、ぬか漬けは米ぬかという対照的な漬け床を使う（出典: 全日本漬物協同組合連合会・漬物の種類ページ）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "nara-zuke",
+   "name_ja": "奈良漬け",
+   "name_romaji": "Nara-zuke",
+   "name_en": "Nara-zuke — melon repacked in sake lees until it turns the color of amber",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "奈良県",
+   "origin_city": "奈良市",
+   "lat": 34.6851,
+   "lng": 135.8048,
+   "summary_ja": "塩漬けにしたしろうりなどを熟成させた酒粕に繰り返し漬け替える、粕漬けの代名詞とされる漬物。あめ色に仕上がるまで漬け替えを重ねる、手間のかかる製法で古くから知られている。",
+   "summary_en": "Melon salted, then repacked again and again in aged sake lees — the pickle most closely identified with the whole kasuzuke family. It's known for the labor of repeated repacking until the flesh turns amber.",
+   "body_ja": "## 何でできているか\n主に使われるのはしろうりで、塩漬けにしたあと熟成させた酒粕に漬け込む。酒粕の糖分とうまみが少しずつ染み込むことで、あめ色をした芳醇な味わいの漬物に仕上がるという。漬物以外で食べられることの少ないしろうりが、粕漬けの主役として使われてきた。奈良漬けは全日本漬物協同組合連合会も「粕漬けの代名詞」と位置づけている。\n## どう作るのか\n塩漬けにして水分を抜いたしろうりを、熟成させた酒粕に漬け込む。ここで終わらず、酒粕を新しいものに漬け替える工程を繰り返すのが特徴とされ、その手間によって色とうまみが少しずつ深まっていくという。仕上がりまでには長い月日がかかるため、家庭よりも専門の漬物業者がつくることが多いとみられ、切り分けると断面のあめ色が際立つ。\n## なぜこの形になったのか\n奈良は日本最古の漬物の記録が残る土地とされ、正倉院に伝わる750年の文書には塩漬けの野菜「須須保利」の記述があるという。平安時代の『延喜式』には塩漬け・醤漬け・酢漬け・粕漬けなど20種類を超える漬物の記載が残るといい、古くからの保存食文化を土台に、酒粕を使った漬け替えの手間を惜しまない製法が根づいていったとみられている。",
+   "body_en": "## What it's made of\nShirouri melon is the vegetable most used, salted first and then packed in aged sake lees. The lees' sugar and umami are said to seep in gradually, producing an amber, richly flavored pickle. Shirouri, rarely eaten any other way, has long served as this pickle's main ingredient — the industry body itself calls nara-zuke synonymous with kasuzuke as a whole.\n## How it's made\nShirouri melon, salted to draw out its water, is packed in aged sake lees. Rather than stopping there, the lees are replaced with fresh ones and the melon repacked repeatedly — a labor said to deepen both color and flavor step by step. The whole process takes months, and today it's more often made by specialist pickle makers than at home.\n## Why it took this shape\nNara is said to hold Japan's oldest surviving record of a pickled food: a document from 750 kept at the Shosoin repository mentions susuhori, salted vegetables. The Heian-era Engishiki is said to record more than twenty kinds of pickles, from salt-cured to lees-cured, and it was on top of that long preserved-food tradition that a method built around the labor of repeatedly repacking in sake lees is thought to have taken root.",
+   "sources": [
+    {
+     "title": "全国のご当地漬物：全日本漬物協同組合連合会",
+     "url": "https://www.tsukemono-japan.org/about-tsukemono/local-tsukemono/",
+     "publisher": "全日本漬物協同組合連合会",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "漬物の種類：全日本漬物協同組合連合会",
+     "url": "https://www.tsukemono-japan.org/about-tsukemono/types/",
+     "publisher": "全日本漬物協同組合連合会",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "漬物の歴史：全日本漬物協同組合連合会",
+     "url": "https://www.tsukemono-japan.org/about-tsukemono/history-tsukemono/",
+     "publisher": "全日本漬物協同組合連合会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kasuzuke",
+     "relation_type": "派生",
+     "basis": "全日本漬物協同組合連合会「漬物の種類」ページは粕漬けの「代表は奈良漬け」と明記している"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "moriguchi-zuke",
+   "name_ja": "守口漬け",
+   "name_romaji": "Moriguchi-zuke",
+   "name_en": "Moriguchi-zuke — a meter-long daikon pickled whole in sake lees, a Nagoya specialty",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "愛知県",
+   "origin_city": "丹羽郡扶桑町",
+   "lat": 35.2867,
+   "lng": 136.9106,
+   "summary_ja": "1メートルを超える細長い守口大根を丸ごと酒粕に漬け込む名古屋名物。愛知の伝統野菜かりもりと同じ、知多半島の醸造がさかんな土地の酒粕文化から生まれたとされる粕漬けの一つである。",
+   "summary_en": "A slender daikon over a meter long, pickled whole in sake lees — a Nagoya specialty. Like kasuzuke made from the local kaimori melon, it is said to have grown out of the sake-lees culture of the nearby Chita peninsula.",
+   "body_ja": "## 何でできているか\n守口大根は1メートルを超える細長い大根で、これを丸ごと酒粕に漬け込む。愛知の伝統野菜かりもりの粕漬けと並び、酒蔵から出る酒粕を活かした漬物として知られ、丹羽郡扶桑町の特産である守口大根とかりもりを一緒に漬けることもあるという。守口漬けはかりもりの粕漬けと並んで、名古屋を代表する名物として知られている。\n## どう作るのか\n細長い守口大根を丸のまま塩漬けにしたあと、酒粕に漬け込んで熟成させる。かりもりの粕漬けと同じくみりん粕を使うつくり方も伝わっており、長期間かけて酒粕の風味を大根にしみ込ませていく点は他の粕漬けと共通しているという。細長い形のまま漬け込むため、ほかの粕漬けよりも仕込みに手間がかかるとみられ、切り分けると独特の香りが立つ。\n## なぜこの形になったのか\n濃尾平野の南に広がる知多半島はかつて200を超える酒蔵があった醸造の土地で、そこから出る大量の酒粕を活用する粕漬け文化が根づいたとされる。守口大根の産地が近かったこともあり、細長い大根を丸ごと漬け込む守口漬けが名古屋名物として定着していったという。醸造業と農業が地理的に近かったことが、この組み合わせを生んだとみられている。",
+   "body_en": "## What it's made of\nMoriguchi daikon is a slender radish over a meter long, pickled whole in sake lees. Alongside kasuzuke made from the local kaimori melon, it's known as a way of putting brewery lees to use, and the two are sometimes pickled together, both grown around Fuso in Aichi's Niwa district; moriguchi-zuke and kaimori kasuzuke are named together as Nagoya specialties.\n## How it's made\nThe long, slender daikon is salted whole, then packed in sake lees to mature. Some methods use mirin lees as well, the same as for kaimori kasuzuke, and the process shares with other kasuzuke pickles a long, slow steeping meant to work the lees' flavor deep into the radish. Pickling it whole, rather than in pieces, is said to make it more labor-intensive than most other kasuzuke.\n## Why it took this shape\nThe Chita Peninsula, south of the Nobi Plain, was once a brewing center with over 200 sake breweries at its peak, and a kasuzuke culture is said to have grown up around using the large volumes of lees the breweries produced. With daikon-growing land nearby, moriguchi-zuke — a whole slender daikon packed in lees — is said to have settled in as a Nagoya specialty, the pairing of brewing and farming land said to have shaped this particular combination.",
+   "sources": [
+    {
+     "title": "かりもりの粕漬け（愛知県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/karimorinokasuzuke_aichi.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "全国のご当地漬物：全日本漬物協同組合連合会",
+     "url": "https://www.tsukemono-japan.org/about-tsukemono/local-tsukemono/",
+     "publisher": "全日本漬物協同組合連合会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kasuzuke",
+     "relation_type": "派生",
+     "basis": "守口大根を酒粕に漬け込む粕漬けの一種として位置づけられる（出典: 農林水産省うちの郷土料理・かりもりの粕漬けページ）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "tsubo-zuke",
+   "name_ja": "つぼ漬け",
+   "name_romaji": "Tsubo-zuke",
+   "name_en": "Tsubo-zuke — sun-dried daikon pickled sweet, a Kagoshima side to curry rice",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "鹿児島県",
+   "origin_city": "",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "干した大根を甘めの味付けで漬け込む鹿児島の漬物。カレーライスの添え物としてもおなじみで、大根を原料にする漬物として東京のべったら漬けや秋田のいぶりがっこと並び語られることもあるという。",
+   "summary_en": "Sun-dried daikon pickled with a sweet edge — a Kagoshima specialty often served alongside curry rice. As a daikon-based pickle it's sometimes mentioned in the same breath as Tokyo's bettara-zuke and Akita's iburigakko.",
+   "body_ja": "## 何でできているか\n天日で干した大根を甘めの味付けで漬け込んだもので、噛むと干し大根特有のこりこりとした歯ざわりが残る。大根を原料にする漬物は全国各地にあり、東京のべったら漬けや秋田のいぶりがっこと並んで語られることもあるという。鹿児島では食卓の常備菜としても、お土産の定番としても、昔から長く親しまれ続けてきたとされる。\n## どう作るのか\n干し大根を甘みのある調味液に漬け込み、時間をかけて味をなじませる。仕上がりは甘さと大根の歯ざわりが際立つ味わいになり、そのままご飯のお供にするほか、カレーライスに添える食べ方が鹿児島でおなじみになっているという。天日干しの工程が入るため、生の大根をそのまま漬けるものとは食感がはっきりと異なるという。\n## なぜこの形になったのか\n鹿児島は麦みそ漬けや桜島大根の粕漬けなど大根や芋を使った漬物が根づいた土地とされ、干した大根を甘く漬けるつぼ漬けもその一つとして親しまれてきたという。大根を原料とする漬物文化は全国各地に見られるが、それぞれの土地の気候と好みに合わせて味付けが分かれ、鹿児島では甘みの強い味付けが定着したとみられている。",
+   "body_en": "## What it's made of\nSun-dried daikon is pickled in a sweetened marinade, keeping the crunchy bite dried daikon is known for. Daikon-based pickles turn up all over Japan, and tsubo-zuke is sometimes mentioned in the same breath as Tokyo's bettara-zuke or Akita's iburigakko. In Kagoshima it's equally at home as an everyday side dish or a souvenir.\n## How it's made\nDried daikon is steeped in a sweetened seasoning liquid and given time to take on its flavor. The result balances sweetness against the daikon's crisp texture, eaten plain alongside rice or, in a pairing well known in Kagoshima, served next to curry rice. Because the daikon is sun-dried first, its texture differs from pickles made with fresh daikon.\n## Why it took this shape\nKagoshima is a region where pickles built around daikon and sweet potato took hold, from barley-miso pickles to lees-pickled Sakurajima daikon, and tsubo-zuke, sweetened dried daikon, is counted among them. Daikon-based pickling shows up across Japan, but the seasoning is said to vary region by region to match local climate and taste, and a pronounced sweetness is said to be what settled in around Kagoshima.",
+   "sources": [
+    {
+     "title": "全国のご当地漬物：全日本漬物協同組合連合会",
+     "url": "https://www.tsukemono-japan.org/about-tsukemono/local-tsukemono/",
+     "publisher": "全日本漬物協同組合連合会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "bettara-zuke",
+     "relation_type": "対比",
+     "basis": "農林水産省うちの郷土料理・べったら漬けページは「秋田のいぶりがっこや鹿児島のつぼ漬けなど大根を原料とした漬物は全国各地にある」と並記している"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "harihari-zuke",
+   "name_ja": "ハリハリ漬け",
+   "name_romaji": "Harihari-zuke",
+   "name_en": "Harihari-zuke — thick-cut dried daikon pickled crisp in soy and kelp, from Miura",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "神奈川県",
+   "origin_city": "三浦市",
+   "lat": 35.1486,
+   "lng": 139.6178,
+   "summary_ja": "切り干し大根より太く切った「割り干し大根」を醤油だれに漬け込む、三浦半島の郷土料理。パリパリとした歯ざわりが名の由来とされ、大根の名産地三浦市で古くからつくられてきたという。",
+   "summary_en": "Daikon cut thicker than ordinary kiriboshi strips, dried, then pickled in a soy-based sauce — a Miura Peninsula specialty. Its name is said to echo the crisp \"hari-hari\" bite, developed in Miura, a daikon-growing region since the Edo period.",
+   "body_ja": "## 何でできているか\n切り干し大根より太く切った「割り干し大根」を、醤油やだし汁などの調味料に漬け込む。昆布やスルメを加えて漬けることが多く、パリパリとした歯ざわりが身上とされる。地域や家庭によってはさざえやわかめを入れたり、唐辛子でピリ辛にしたりするという。三浦市の特産品として、地元では日常食として頻繁に食されている。\n## どう作るのか\n根元を切り落とした大根を縦に16〜20分割し、2週間ほど天日干しすると割り干し大根ができる。これを昆布やスルメ、醤油などの調味液に漬け込めばはりはり漬けの完成で、最近ではキムチの素を使ったアレンジも楽しまれているという。割り干し大根は「かながわブランド」にも登録され、地域の特産物としてPRされている。\n## なぜこの形になったのか\n三方を海に囲まれた三浦市は一年を通じて野菜の露地栽培が盛んで、大根は日本一の生産量を誇る国の指定産地だったとされる。江戸時代からすでに大根栽培がおこなわれていたこの土地で、大根の保存法の一つとして割り干し大根とはりはり漬けが根づいたという。明治後期には三浦の在来種と練馬大根を交配した三浦大根も生まれた。",
+   "body_en": "## What it's made of\nDaikon cut thicker than ordinary kiriboshi strips — wari-boshi daikon — is pickled in soy sauce or a dashi-based marinade. Kelp and dried squid are often added, and a crisp, crunchy bite is the point. Some households add turban shell or wakame, or spike it with chili. As a Miura specialty, it's eaten frequently as an everyday food by local farming households.\n## How it's made\nDaikon is trimmed and split lengthwise into 16 to 20 pieces, then sun-dried for about two weeks to make wari-boshi daikon. Pickled in a marinade of kelp, dried squid, and soy sauce, it becomes harihari-zuke, and more recently some cooks work in kimchi seasoning for a twist. Wari-boshi daikon itself is registered under the Kanagawa Brand program promoting regional specialties.\n## Why it took this shape\nMiura, surrounded by sea on three sides, grows vegetables in open fields year-round and is said to have been a nationally designated growing area with Japan's largest daikon output. Daikon cultivation there is said to date to the Edo period, and wari-boshi daikon and harihari-zuke took hold as one of the region's ways to preserve it. In the late Meiji era, crossing a local strain with Nerima daikon also produced Miura daikon.",
+   "sources": [
+    {
+     "title": "割り干し大根のはりはり漬け（神奈川県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_14_kanagawa.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "matsumae-zuke",
+     "relation_type": "対比",
+     "basis": "ともに昆布とスルメを使う醤油だれの漬物だが、はりはり漬けは干し大根、松前漬けは魚介が主素材という対照的な組み合わせ（出典: 農林水産省うちの郷土料理・はりはり漬け/松前漬けページ）"
+    }
+   ],
+   "tags": [
+    "kelp"
+   ]
+  },
+  {
+   "slug": "fukujin-zuke",
+   "name_ja": "福神漬け",
+   "name_romaji": "Fukujin-zuke",
+   "name_en": "Fukujin-zuke — seven vegetables diced and steeped in soy sauce, curry rice's usual companion",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "東京都",
+   "origin_city": "",
+   "lat": 35.6762,
+   "lng": 139.6503,
+   "summary_ja": "大根やなす、れんこんなど7種の野菜を刻んで醤油だれに漬け込む、東京生まれと伝わる漬物。船の食堂でチャツネの代わりに使われたのが縁で、カレーライスに添えられる定番の一品としても知られている。",
+   "summary_en": "Seven kinds of vegetables — daikon, eggplant, lotus root among them — diced and steeped in a soy-based marinade. Said to have originated in Tokyo, it's best known today as curry rice's standard side.",
+   "body_ja": "## 何でできているか\n大根、なす、れんこんなど7種の野菜を刻んで、醤油をベースにした調味液に漬け込む。糠漬けのたくあんとは違い塩を使わず長期発酵もさせない醤油漬けの一種とされ、細かく刻んだ野菜のシャキシャキとした食感が身上だという。7種それぞれの色と食感が混ざり合うのも特徴とされ、彩りの豊かさも見た目の楽しみになっている。\n## どう作るのか\n7種の野菜をそれぞれ食べやすく刻み、醤油をベースにした調味液に漬け込んで味をなじませる。同じ醤油漬けの仲間には、しろうりに唐辛子を詰めた鉄砲漬けやきゅうりの醤油漬けなどもあるという。長期の発酵を経ないため、比較的短い期間で食べられるようになるのも身上の一つとされ、常備菜として日々の食卓で重宝されている。\n## なぜこの形になったのか\n東京生まれと伝えられる漬物で、カレーライスに添えられるようになったのは、船の食堂でインド料理のチャツネの代わりに使われたのが始まりといわれている。糠床を使うたくあんとは異なる醤油漬けの系統として、東京の漬物文化の中で育っていったとみられ、今ではカレーライスに欠かせない定番の添え物として全国に定着している。",
+   "body_en": "## What it's made of\nSeven kinds of vegetables — daikon, eggplant, and lotus root among them — are diced and steeped in a soy-based marinade. Unlike bran-pickled takuan, it uses no salt and skips long fermentation; it's classed as a soy pickle, and the point is the crisp bite of the finely cut vegetables, each kind of vegetable keeping its own color and texture in the mix.\n## How it's made\nEach of the seven vegetables is cut into bite-size pieces and steeped in a soy-based seasoning liquid until the flavor takes. Teppo-zuke, a shirouri melon stuffed with chili, and soy-pickled cucumber belong to the same soy-pickle family. Skipping long fermentation means it's ready to eat in a comparatively short time.\n## Why it took this shape\nIt is said to have originated in Tokyo, and its pairing with curry rice is said to have begun on passenger ships, where it stood in for the chutney served with Indian-style curry. As a soy-pickle line distinct from bran-pickled takuan, it is thought to have developed as part of Tokyo's broader pickling culture, and it now sits as the standard curry-rice companion nationwide.",
+   "sources": [
+    {
+     "title": "全国のご当地漬物：全日本漬物協同組合連合会",
+     "url": "https://www.tsukemono-japan.org/about-tsukemono/local-tsukemono/",
+     "publisher": "全日本漬物協同組合連合会",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "漬物の種類：全日本漬物協同組合連合会",
+     "url": "https://www.tsukemono-japan.org/about-tsukemono/types/",
+     "publisher": "全日本漬物協同組合連合会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "takuan",
+     "relation_type": "対比",
+     "basis": "ともに東京で育まれた大根を含む漬物だが、糠漬けのたくあんに対し福神漬けは塩を使わない醤油漬けという対照的な技法をとる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "takuan",
+   "name_ja": "たくあん",
+   "name_romaji": "Takuan",
+   "name_en": "Takuan — sun-dried daikon pickled in rice bran, Japan's everyday yellow pickle",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "干した大根を米ぬかと塩で漬け込む、糠漬けの代表格とされる漬物。江戸初期の僧沢庵宗彭が考案または好んで食べたとの説が広く知られ、土地ごとの大根の性質に合わせた型が各地に残っている。",
+   "summary_en": "Sun-dried daikon pickled in rice bran and salt — the pickle most identified with the whole nuka-zuke family. Widely credited (among other accounts) to the early-Edo monk Takuan Soho, it takes a different shape in each region depending on the local daikon.",
+   "body_ja": "## 何でできているか\n天日で干して水分を抜いた大根を、米ぬかと塩で漬け込む。ぬか床の乳酸菌や酵母の働きで独特の酸味と深い風味が生まれるとされ、糠漬けの中でも代表格として位置づけられている。大根の品種によって辛みや繊維の性質が異なり、干し方や漬け方が土地ごとに分かれるという。仕上がりの色や香り、歯ざわりも土地ごとに個性が出る。\n## どう作るのか\n収穫した大根を軒先などで数週間天日干しし、しんなりしたら米ぬかと塩を交互に振りながら樽に漬け込む。重石をして数カ月かけて発酵させると、独特の香りと歯ざわりを持つたくあんに仕上がるという。糠に砂糖やこうじを加えて甘みを調整する地域もあれば、燻してから漬け込む地域もあるなど、干し方・漬け方の幅は非常に広いとされる。\n## なぜこの形になったのか\n江戸初期の臨済宗の僧沢庵宗彭が考案した、あるいは好んで食べたという説が広く知られているとされる。大根を天日干ししてから糠と塩で漬け込む製法は長期保存が可能で、江戸時代に各地の街道を通じて全国に広まっていったといわれている。同じ大根の糠漬けでも、辛みの強い品種を使う土地では独自の呼び名がつくこともあるという。",
+   "body_en": "## What it's made of\nSun-dried daikon, its moisture drawn out, is pickled in rice bran and salt. Lactic bacteria and yeast in the bran bed are said to give it a distinctive sourness and depth of flavor, and it's treated as the pickle most identified with the whole bran-pickling family. Different daikon varieties bring different pungency and fiber, so drying and pickling both vary by region, and so does the resulting color, aroma, and bite.\n## How it's made\nHarvested daikon is sun-dried under the eaves for several weeks until it softens, then layered in a barrel with alternating dustings of rice bran and salt. Weighted down and left to ferment for several months, it develops takuan's characteristic aroma and bite. Some regions add sugar or malted rice to the bran to adjust the sweetness, others smoke the daikon before pickling it — the range of drying and pickling methods runs wide.\n## Why it took this shape\nIt is widely credited, among other accounts, to Takuan Soho, an early-Edo Rinzai monk said to have either devised it or simply favored eating it. Sun-drying daikon before pickling it in bran and salt allowed for long storage, and the method is said to have spread nationwide along Edo-period highways. Where a particularly pungent daikon variety is used, the resulting pickle sometimes even earns its own local name.",
+   "sources": [
+    {
+     "title": "漬物の歴史：全日本漬物協同組合連合会",
+     "url": "https://www.tsukemono-japan.org/about-tsukemono/history-tsukemono/",
+     "publisher": "全日本漬物協同組合連合会",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "べったら漬け（東京都）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_8_tokyo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "野菜の漬物（三重県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yasaino_tsuke_mono_mie.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "東京都",
+     "city": "練馬区",
+     "lat": 35.7357,
+     "lng": 139.6519,
+     "relation_type": "本場",
+     "note_ja": "辛みが強く少し苦い練馬大根が干し大根に向いていたため、江戸時代に契約農家がたくあん用の大根を仕込んでいた",
+     "note_en": "Nerima daikon, notably pungent and slightly bitter, suited itself to drying, and Edo-period contract farmers there prepared daikon specifically for takuan.",
+     "source_url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_8_tokyo.html"
+    },
+    {
+     "pref": "三重県",
+     "city": "中南勢地域（伊勢市周辺）",
+     "lat": 34.4863,
+     "lng": 136.7096,
+     "relation_type": "本場",
+     "note_ja": "日照量の多い中南勢地域で育つ御薗大根を漬け込むことから「伊勢たくあん」の名で呼ばれている",
+     "note_en": "Takuan made from Mizono daikon, grown in the sunny Chunansei district, is known locally as \"Ise takuan.\"",
+     "source_url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yasaino_tsuke_mono_mie.html"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "nukazuke",
+     "relation_type": "派生",
+     "basis": "全日本漬物協同組合連合会「漬物の種類」ページは糠漬けの「代表格は…たくあん漬け」と明記している"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "nukazuke",
+   "name_ja": "ぬか漬け",
+   "name_romaji": "Nukazuke",
+   "name_en": "Nukazuke — vegetables (and sometimes fish) fermented in a living rice-bran bed",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "米ぬかに塩を加えた「ぬか床」に野菜などを漬け込む発酵漬物の総称。ぬか床の乳酸菌と酵母の働きで独特の酸味が生まれ、日々かき混ぜて育てる家庭の味として親しまれてきたという。",
+   "summary_en": "Vegetables (and in some regions, fish) fermented in a nuka-doko — rice bran mixed with salt. Lactic bacteria and yeast in the bed give it a distinctive sourness, and the bed itself is stirred daily and passed down as a household's own particular flavor.",
+   "body_ja": "## 何でできているか\n米ぬかに塩などを加えた「ぬか床」に野菜を漬け込む。ぬか床の乳酸菌や酵母の働きで独特の酸味と深い風味が生まれ、ぬかに含まれるビタミンB1が野菜に移るのも特徴とされる。干し大根を漬け込むたくあんも、このぬか漬けの一種として位置づけられているという。魚をぬか床で漬け込む土地もあり、素材の幅は野菜にとどまらない。\n## どう作るのか\nぬか床は毎日かき混ぜて育てるのが基本とされ、家によっては代々受け継がれた「百年もの」の床もあるという。野菜を漬けるだけでなく、なれた床の一部を使って青魚を煮ることで生臭さを消す食べ方も各地に伝わっている。サバなどの魚を塩漬けにしたあとぬか漬けにして長期保存する土地もあり、床の個性がそのまま味の個性になるという。\n## なぜこの形になったのか\n精米技術が向上し大量に出るようになった米ぬかを活かす知恵として、室町時代ごろに糠床に野菜を漬ける方法が考案されたとされる。北九州のぬかみそ炊きは栄養価が高く保存もきくことから戦の際にも用いられ、時の藩主から「陣立煮」と名付けられたと伝わる。海に近い土地では魚を糠漬けにする工夫が生まれ、山間の土地では野菜のぬか漬けが日々の食卓を支える存在として根づいていったという。",
+   "body_en": "## What it's made of\nVegetables are pickled in nuka-doko, rice bran mixed with salt. Lactic bacteria and yeast in the bed are said to produce a distinctive sourness and deep flavor, and vitamin B1 from the bran is said to transfer into the vegetables. Takuan, made from dried daikon, is itself classed as a form of nukazuke, and in some regions fish, not just vegetables, goes into the bed.\n## How it's made\nA nuka-doko bed is meant to be stirred daily to keep it alive, and some households pass down beds said to be a hundred years old. Beyond pickling vegetables, some regions use a well-aged bed to simmer oily fish, a step said to cut the fish's raw smell. Elsewhere, mackerel and other fish are salted first and then bran-pickled for long-term storage.\n## Why it took this shape\nAs milling technology improved and rice bran became newly abundant, pickling vegetables in a bran bed is thought to have been devised around the Muromachi period as a way to put it to use. Kitakyushu's nukamiso-daki, nutritious and long-keeping, is said to have doubled as battle rations and was reportedly named jindani by the ruling lord of the day. Coastal areas developed ways to preserve fish in bran, while inland regions built nukazuke of vegetables into an everyday fixture of the table.",
+   "sources": [
+    {
+     "title": "漬物の種類：全日本漬物協同組合連合会",
+     "url": "https://www.tsukemono-japan.org/about-tsukemono/types/",
+     "publisher": "全日本漬物協同組合連合会",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "へしこ（福井県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/heshiko_fukui.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "ぬかみそ炊き（福岡県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nukamiso_daki_fukuoka.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "福井県",
+     "city": "三方郡美浜町（若狭地域）",
+     "lat": 35.6081,
+     "lng": 135.9033,
+     "relation_type": "本場",
+     "note_ja": "サバなどの魚を塩漬けにしたあとさらに糠漬けにする「へしこ」が、厳しい冬を越すための貴重なたんぱく源として伝わってきた",
+     "note_en": "Heshiko — mackerel and other fish salted, then further pickled in rice bran — is said to have served as a vital protein source through hard winters.",
+     "source_url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/heshiko_fukui.html"
+    },
+    {
+     "pref": "福岡県",
+     "city": "北九州市",
+     "lat": 33.8834,
+     "lng": 130.8752,
+     "relation_type": "本場",
+     "note_ja": "小笠原藩の保存食だった糠床が旧家に代々受け継がれ、青魚を炊く「ぬかみそ炊き」の文化として今に伝わっている",
+     "note_en": "A nuka-doko bed once kept as a preserve by the Kokura domain has been passed down through old households and lives on as nukamiso-daki, fish simmered in aged bran.",
+     "source_url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nukamiso_daki_fukuoka.html"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "umeboshi",
+     "relation_type": "対比",
+     "basis": "全日本漬物協同組合連合会「漬物の種類」ページは塩漬け（梅干し）と糠漬け（ぬか漬け）を対照的な漬け床のカテゴリーとして分けて説明している"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "umeboshi",
+   "name_ja": "梅干し",
+   "name_romaji": "Umeboshi",
+   "name_en": "Umeboshi — salt-cured, sun-dried plums with a sourness that cuts through everything",
+   "type": "ingredient",
+   "shelf": "fermented",
+   "genre": "tsukemono",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "梅を塩に漬けたのち天日で干す、日本の食卓に古くからある保存食。和歌山県南部では年貢を逃れるためやせ地に自生していた梅の栽培が奨励され、産地として広がっていったと伝わる。",
+   "summary_en": "Plums cured in salt, then sun-dried — one of Japan's oldest table preserves. In southern Wakayama, cultivation is said to have spread after wild plum trees on tax-exempt wasteland were deliberately encouraged as a way to ease the local tax burden.",
+   "body_ja": "## 何でできているか\n梅を塩で漬け込み、天日で干して仕上げる。強い酸味と塩気が持ち味で、青魚を煮付ける際に加えると臭みが和らぐとされる。大粒で肉厚な品種「南高梅」は、長年の系統選抜を経て昭和40年に品種登録されたものだという。梅の花が咲き誇る様子は地元で「一目百万、香り十里」と表現されるほどだと伝わり、早春の風物詩になっている。\n## どう作るのか\n塩漬けにした梅を夏の土用の時期に天日干しする「土用干し」をおこない、干した梅の一部はその年のうちに梅酢に漬けて食べ、残りは蔵で保存して非常食にする慣習があったと伝わる。家庭ごとに漬け方の工夫があり、それぞれの「我が家の味」として受け継がれているという。明治以降は日清・日露戦争や第二次世界大戦の軍用食として需要が増えた時期もあった。\n## なぜこの形になったのか\n江戸時代、紀州藩田辺領は稲作に向かないやせ地が多く年貢に苦しんでいたため、城代家老がやせ地に自生する「やぶ梅」の栽培を奨励したのが本格的な梅栽培の始まりとされる。温暖な気候と日当たりのよい山あいの風土が栽培に適していたことから、県南部一帯に産地が広がり、江戸でも「田辺梅」として評判を呼んだと伝わる。",
+   "body_en": "## What it's made of\nPlums are salted, then finished by drying in the sun. A strong sourness and salt are the point, and adding one to a simmered oily fish is said to soften the fish's smell. Nanko-ume, a large, thick-fleshed cultivar, was registered as a distinct variety in 1965 after years of selective breeding. The plum blossoms in bloom are described in a local saying as worth a million glances and ten leagues of fragrance.\n## How it's made\nSalted plums undergo doyoboshi, a sun-drying carried out during the height of summer; a portion of that year's dried plums were, by custom, kept in plum vinegar and eaten right away, while the rest were stored as an emergency food. Each household is said to have its own way of curing them, carried on as a taste particular to that family. From the Meiji era on, demand rose at times as umeboshi became a ration during Japan's wars.\n## Why it took this shape\nIn the Edo period, the Tanabe domain of the Kishu clan held much land too poor for rice farming and struggled under its tax burden, so a castle steward is said to have encouraged planting wild plum trees, yabu-ume, on that unproductive land — the start of serious plum cultivation there. A warm climate and sun-facing mountain terrain suited plum growing well, and the crop is said to have spread across the southern part of the prefecture, its plums earning a reputation in Edo as \"Tanabe ume.\"",
+   "sources": [
+    {
+     "title": "梅干し（和歌山県）：うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/umeboshi_wakayama.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "和歌山県",
+     "city": "みなべ町",
+     "lat": 33.7167,
+     "lng": 135.3167,
+     "relation_type": "本場",
+     "note_ja": "年貢を逃れるためやせ地に自生する「やぶ梅」の栽培が奨励されたことが、梅の産地として広がる出発点になったとされる",
+     "note_en": "Cultivation of wild yabu-ume plum trees on tax-exempt wasteland is said to be the starting point behind the region's growth as a plum-growing area.",
+     "source_url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/umeboshi_wakayama.html"
+    },
+    {
+     "pref": "和歌山県",
+     "city": "田辺市",
+     "lat": 33.73,
+     "lng": 135.3844,
+     "relation_type": "本場",
+     "note_ja": "みなべ町と並ぶ江戸時代の紀州藩田辺領で、日当たりの良い山あいの気候風土が梅の栽培に適していたとされる",
+     "note_en": "Alongside Minabe, this was the Edo-period Tanabe domain territory, whose sun-facing mountain climate is said to have suited plum cultivation well.",
+     "source_url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/umeboshi_wakayama.html"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "nara-zuke",
+     "relation_type": "対比",
+     "basis": "ともに単一の食材を長期保存する漬物の代表格だが、梅干しは塩漬け、奈良漬けは酒粕漬けという対照的な技法で仕上げる"
+    }
+   ],
+   "tags": []
+  }
+ ],
+ "notes": "対象外にしたもの: 岩下の新生姜のような単一企業商品はブランド指定のため対象外。かぶら寿司(kaburazushi)は既存アイテム（寿司ジャンル）のため新規追加せず、senmai-zuke から「対比」で参照するにとどめた。山川漬（鹿児島県指宿市山川、たくあんの燻製系とされる）は、全日本漬物協同組合連合会の全国一覧に品名は載るものの、本文3章を書けるだけの一次資料（由来・製法の詳細）を確認できなかったため今回は見送った。要判断: 守口漬けは名称の由来が大阪府守口市にあるという説を把握しているが、本文で確認できた一次資料は「愛知県（丹羽郡扶桑町・名古屋名物）」としての記述のみだったため、origin は愛知県として投入した。守口市発祥説を裏づける一次資料が見つかれば origin の見直しを検討されたい。"
+}

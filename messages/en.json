@@ -8,7 +8,8 @@
     "navLabel": "Site navigation",
     "navPlace": "Place",
     "navType": "Type",
-    "navInterest": "Interest"
+    "navInterest": "Interest",
+    "navGuide": "Guide"
   },
   "browse": {
     "index": "Index",
@@ -29,11 +30,16 @@
     "entryPlaceTitle": "Browse by place",
     "entryPlaceHint": "Tap the map, or select a pin, to explore",
     "entryTypeTitle": "Browse by type",
+    "typeGroupDish": "Dishes",
+    "typeGroupIngredient": "Ingredients (brands, varieties, seafood)",
+    "typeGroupCut": "Cuts & toppings",
     "entryInterestTitle": "Browse by interest",
     "entryInterestHint": "Explore by tag",
     "aboutLink": "About this site",
     "genreFilterClear": "Clear the {name} filter",
     "genreViewAllLink": "View all {name}",
+    "introExpand": "Read more",
+    "introCollapse": "Show less",
     "tagFilterClear": "Clear the {name} filter",
     "tagAllLink": "Browse all tags",
     "filterClearAll": "Clear filters",
@@ -41,7 +47,7 @@
     "pinAriaLabel": "{name} ({prefCity}, {style})",
     "honbaPinAriaLabel": "{name} ({honba}, {prefCity})",
     "styleUnknown": "Style unknown",
-    "regionUnknown": "No region",
+    "regionUnknown": "Encyclopedia (no fixed land)",
     "kanaOther": "Other",
     "modules": {
       "todayDish": "Today's dish",
@@ -212,6 +218,23 @@
     "recommendHeading": "If you like this flavor",
     "otherChainsHeading": "More chains",
     "genreLink": "All {name}",
+    "correction": "Report a correction"
+  },
+  "guide": {
+    "title": "Before You Go",
+    "description": "What to know before you walk in — manners, ordering, paying, and more.",
+    "backToFood": "Explore the food map",
+    "kind": {
+      "ordering": "Ordering",
+      "paying": "Paying",
+      "manners": "Manners",
+      "finding": "Finding a Restaurant",
+      "takeaway": "Takeaway & Souvenirs",
+      "seasons": "Seasons & Timing"
+    },
+    "relatedFoodHeading": "Related food",
+    "otherGuidesHeading": "More guides",
+    "nextKindLabel": "Next up — {kind}: {title}",
     "correction": "Report a correction"
   },
   "relation": {

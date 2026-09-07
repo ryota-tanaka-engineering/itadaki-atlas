@@ -208,6 +208,27 @@ test.describe("トップ操作体系の作り直し（2026-09。本番体験レ�
     await expect(chip).toHaveCount(0);
   });
 
+  test("牛肉の部位を選ぶと索引に30件出る（座標なしアイテムもトップの索引に含まれる）", async ({
+    page,
+  }) => {
+    // 実装部隊の報告「トップで牛肉の部位等を選ぶと索引に0件」の再発防止。
+    // 部位は発祥地の物語を持たない（座標なし）アイテムのため、座標フィルタで
+    // 索引ごと除外されていた（fetchMapItems / BrowseShell 参照）。座標が無いため
+    // 地図には乗らないが、索引（五十音タブ）には他アイテムと同じく普通に並ぶ。
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+
+    await sheet.getByRole("button", { name: "牛肉の部位", exact: true }).click();
+
+    const chip = page.getByRole("button", { name: "牛肉の部位の絞り込みを解除" });
+    await expect(chip).toBeVisible();
+    await expect(chip).toContainText(/牛肉の部位30件/);
+
+    // 索引にも同じ30件が実際に並ぶ
+    await page.getByRole("button", { name: /シートを次の段階へ/ }).click();
+    await expect(sheet.getByRole("button", { name: /サーロイン/ })).toBeVisible();
+  });
+
   test("シートのヘッダー行をタップすると次の段階へ展開する（ドラッグ不要）", async ({ page }) => {
     // 「メニューが押しながら引っ張らないと出てこない」への対処。
     await page.goto("/ja");
@@ -257,7 +278,9 @@ test.describe("F-05 言語切り替え / F-08 SEO", () => {
     await expect(page.getByRole("heading", { name: "Hakata Ramen", level: 1 })).toBeVisible();
     // マスタラベルは辞書で翻訳される（二層方式）。2026-09 カバー情報密度改善で
     // 下部の定義リスト(dl)は廃止し、カバー内の事実チップ列へ統合した。
-    await expect(page.getByText(/Origin: Fukuoka 福岡市/)).toBeVisible();
+    // 市区町村名も place_names（実装部隊の報告「/en の本場・産地チップに市区町村名が
+    // 日本語のまま」対応）で英語表記になる。
+    await expect(page.getByText(/Origin: Fukuoka Fukuoka/)).toBeVisible();
     await expect(page.getByText("Tonkotsu — pork bone")).toBeVisible();
     // 出典はDB内部の検証データでUIには出さない（2026-08 デザイン確定）。
     // 代わりに訂正導線だけが出る
@@ -368,6 +391,25 @@ test.describe("データ駆動ページ（行を足すと増える機械）", ()
     await expect(kurumeConn.getByText("派生", { exact: true }).first()).toBeVisible();
     await expect(kurumeConn.getByRole("link", { name: /博多ラーメン/ })).toBeVisible();
   });
+
+  test("本場チップ: /en では市区町村名が英語表記になる（place_names）", async ({ page }) => {
+    // 実装部隊の報告「/en の本場・産地チップに市区町村名が日本語のまま
+    // （例 "Tokyo / 中央区"）」対応。握り寿司は東京都中央区・石川県金沢市の
+    // 2箇所の本場を持つ（food_item_regions）。
+    await page.goto("/en/sushi/nigiri-zushi");
+    const conn = page.locator("section:visible", { hasText: "This land, this ingredient" });
+    await expect(conn.getByRole("link", { name: /Chuo/ })).toBeVisible();
+    await expect(conn.getByRole("link", { name: /Kanazawa/ })).toBeVisible();
+    // 日本語の市区町村名がページ内のどこにも残っていない
+    await expect(page.getByText("中央区")).toHaveCount(0);
+    await expect(page.getByText("金沢市")).toHaveCount(0);
+
+    // /ja は従来どおり日本語のまま（回帰なし）
+    await page.goto("/ja/sushi/nigiri-zushi");
+    const jaConn = page.locator("section:visible", { hasText: "この土地と、この素材" });
+    await expect(jaConn.getByRole("link", { name: /中央区/ })).toBeVisible();
+    await expect(jaConn.getByRole("link", { name: /金沢市/ })).toBeVisible();
+  });
 });
 
 test.describe("詳細ページの本文（目次・章。2026-08 デザイン確定）", () => {
@@ -453,7 +495,7 @@ test.describe("二層構造（寿司×ネタ）", () => {
   });
 
   test("ネタ詳細に複数の名産地が出て、逆方向にスタイルへ辿れる", async ({ page }) => {
-    await page.goto("/ja/sushi/maguro");
+    await page.goto("/ja/sushi-neta/maguro");
     // 名産地（発祥を1つに決められないアイテムの土地との結びつき）は
     // 「この土地と、この素材」セクションの中に出る
     const conn = page.locator("section:visible", { hasText: "この土地と、この素材" });
@@ -635,20 +677,22 @@ test.describe("共通ヘッダー / 言語切替（2026-08 デザイン確定）
 });
 
 test.describe("棚ページ + その他アイテムの到達経路（2026-08 デザイン確定）", () => {
+  // 富士宮やきそばは焼きそばジャンルへ昇格済み（その他ではなくなった）ため、麺棚に
+  // 残る「その他」アイテム（ほうとう）に差し替える（実装部隊の報告「E2Eのデータドリフト」対応）。
   test("棚ページが橙カバー・主要ジャンル・その他アイテムで構成される", async ({ page }) => {
     await page.goto("/ja/noodles");
     await expect(page.getByRole("heading", { name: "麺", level: 1 })).toBeVisible();
     await expect(page.getByRole("heading", { name: "主なジャンル" })).toBeVisible();
     await expect(page.getByRole("link", { name: /ラーメン/ }).first()).toBeVisible();
     await expect(page.getByRole("heading", { name: "まだ数の少ない仲間たち" })).toBeVisible();
-    await expect(page.getByRole("link", { name: /富士宮やきそば/ })).toBeVisible();
+    await expect(page.getByRole("link", { name: /ほうとう/ })).toBeVisible();
   });
 
   test("その他アイテムは棚slug経由で詳細ページに到達でき、つながりに同じ棚の仲間が出る", async ({ page }) => {
     await page.goto("/ja/noodles");
-    await page.getByRole("link", { name: /富士宮やきそば/ }).click();
-    await expect(page).toHaveURL(/\/ja\/noodles\/fujinomiya-yakisoba$/);
-    await expect(page.getByRole("heading", { name: "富士宮やきそば", level: 1 })).toBeVisible();
+    await page.getByRole("link", { name: /ほうとう/ }).click();
+    await expect(page).toHaveURL(/\/ja\/noodles\/hoto$/);
+    await expect(page.getByRole("heading", { name: "ほうとう", level: 1 })).toBeVisible();
 
     // つながり（同じ棚の仲間）が出る。行き止まり禁止（現在34件が行き止まりだった問題の解消）
     const conn = page.locator("section:visible", { hasText: "同じ系統を、もっと" });
@@ -671,7 +715,7 @@ test.describe("棚ページ + その他アイテムの到達経路（2026-08 デ
     const res = await request.get("/sitemap.xml");
     const xml = await res.text();
     expect(xml).toContain("/ja/noodles</loc>");
-    expect(xml).toContain("/ja/noodles/fujinomiya-yakisoba</loc>");
+    expect(xml).toContain("/ja/noodles/hoto</loc>");
   });
 });
 
@@ -880,9 +924,10 @@ test.describe("トップページ改善（ピン選択カード。2026-09 本番
     await expect(sheet.getByRole("heading", { name: "Koriyama Black" })).toBeVisible();
     await expect(sheet.getByText(/郡山ブラック — dark soy broth of Koriyama/)).toBeVisible();
 
-    // 発祥は都道府県辞書で翻訳される。市名はローマ字辞書が無いため日本語のまま
-    // （"Fukushima / 郡山市" 形式。詳細ページと同じ流儀）
-    await expect(sheet.getByText("Fukushima / 郡山市")).toBeVisible();
+    // 発祥は都道府県辞書で翻訳される。市名も place_names で英語表記になる
+    // （"Fukushima / Koriyama" 形式。実装部隊の報告「/en の本場・産地チップに
+    // 市区町村名が日本語のまま」対応）。
+    await expect(sheet.getByText("Fukushima / Koriyama")).toBeVisible();
     // 系統も辞書で翻訳される（生の日本語「醤油」が出ない）
     await expect(sheet.getByText("Shoyu — soy sauce", { exact: true })).toBeVisible();
 
@@ -975,6 +1020,23 @@ test.describe("トップ導線修正（本番レビュー「タグとか選択�
     await expect(sheet.getByRole("heading", { name: "ひとつの食べもの、いくつもの本場" })).toBeVisible();
   });
 
+  test("ジャンル絞り込み中に総論が出て、続きを読むで展開できる（和牛）", async ({ page }) => {
+    // 本番レビュー「トップで何か選択した時にいきなり絞り込まれるけど、和牛一覧の
+    // 説明文みたいなのは表示必要なのでは」対応。
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+    await sheet.getByRole("button", { name: "和牛", exact: true }).click();
+
+    const expandButton = sheet.getByRole("button", { name: "続きを読む" });
+    await expect(expandButton).toBeVisible();
+    await expect(expandButton).toHaveAttribute("aria-expanded", "false");
+
+    await expandButton.click();
+    const collapseButton = sheet.getByRole("button", { name: "閉じる" });
+    await expect(collapseButton).toBeVisible();
+    await expect(collapseButton).toHaveAttribute("aria-expanded", "true");
+  });
+
   test("PC 1440幅でヘッダー「種類」を押すとシートが開いて種類カードが見える、「興味」で/tagsに遷移する", async ({
     page,
   }) => {
@@ -1049,5 +1111,76 @@ test.describe("地図のコンパクト化（本番レビュー「地図がフ�
       expect(h).toBeGreaterThan(300);
       expect(h).toBeLessThan(500);
     }).toPass({ timeout: 5_000 });
+  });
+
+  test("シートを full にすると地図が縮み、peak に戻すとフルサイズに戻る（SP 390x844）", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/ja");
+    const map = page.locator(".maplibregl-map");
+    await expect(map).toBeVisible();
+    const fullHeight = (await map.boundingBox())?.height ?? 0;
+    expect(fullHeight).toBeGreaterThan(700);
+
+    const toggle = page.getByRole("button", { name: /シートを次の段階へ/ });
+    await toggle.click(); // peak -> half
+    await toggle.click(); // half -> full
+
+    // SP約38vh（844*0.38≈321px）まで縮む
+    await expect(async () => {
+      const h = (await map.boundingBox())?.height ?? 0;
+      expect(h).toBeGreaterThan(250);
+      expect(h).toBeLessThan(400);
+    }).toPass({ timeout: 5_000 });
+
+    await toggle.click(); // full -> peak
+    await expect(async () => {
+      const h = (await map.boundingBox())?.height ?? 0;
+      expect(h).toBeGreaterThan(700);
+    }).toPass({ timeout: 5_000 });
+  });
+});
+
+test.describe("食べに行く前にガイド（マナー・注文攻略・支払い等の実用ページ）", () => {
+  test("一覧が kind ごとに出る", async ({ page }) => {
+    await page.goto("/ja/guide");
+    await expect(page.getByRole("heading", { name: "食べに行く前に", level: 1 })).toBeVisible();
+
+    // 注文セクションに2件、支払いセクションに1件（data/guides.json の投入内容）
+    const orderingSection = page.locator("section", { has: page.getByRole("heading", { name: "注文" }) });
+    await expect(orderingSection.getByRole("link", { name: /券売機の読み方/ })).toBeVisible();
+    await expect(orderingSection.getByRole("link", { name: /縦書きメニューの読み方/ })).toBeVisible();
+
+    const payingSection = page.locator("section", { has: page.getByRole("heading", { name: "支払い" }) });
+    await expect(payingSection.getByRole("link", { name: /支払いは現金が多い店/ })).toBeVisible();
+
+    // 行き止まり禁止: 「食べものから探す」でトップへ戻れる
+    await expect(page.getByRole("link", { name: "食べものから探す" })).toBeVisible();
+  });
+
+  test("詳細が開いて関係する食べものへ遷移できる", async ({ page }) => {
+    await page.goto("/ja/guide/cash-only");
+    await expect(page.getByRole("heading", { name: "支払いは現金が多い店", level: 1 })).toBeVisible();
+    // 橙カバーに kind ラベルが出る
+    await expect(page.getByText("支払い", { exact: true })).toBeVisible();
+    // 出典はUI非表示
+    await expect(page.getByText("jfnet.or.jp", { exact: false })).toHaveCount(0);
+
+    const relatedSection = page.locator("section", { hasText: "関係する食べもの" });
+    const ramenLink = relatedSection.getByRole("link", { name: "ラーメン" });
+    await expect(ramenLink).toBeVisible();
+    await ramenLink.click();
+    await expect(page.getByRole("heading", { name: "ラーメン", level: 1 })).toBeVisible();
+  });
+
+  test("ラーメン詳細に「食べに行く前に」が出て、ガイド詳細に遷移できる", async ({ page }) => {
+    await page.goto("/ja/ramen/hakata");
+    await expect(page.getByRole("heading", { name: "博多ラーメン", level: 1 })).toBeVisible();
+
+    const beforeYouGo = page.locator("section", { has: page.getByRole("heading", { name: "食べに行く前に" }) });
+    await expect(beforeYouGo).toBeVisible();
+    const guideLink = beforeYouGo.getByRole("link", { name: /支払いは現金が多い店/ });
+    await expect(guideLink).toBeVisible();
+    await guideLink.click();
+    await expect(page.getByRole("heading", { name: "支払いは現金が多い店", level: 1 })).toBeVisible();
   });
 });

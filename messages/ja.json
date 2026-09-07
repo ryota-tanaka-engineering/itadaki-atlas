@@ -8,7 +8,8 @@
     "navLabel": "サイトナビゲーション",
     "navPlace": "土地",
     "navType": "種類",
-    "navInterest": "興味"
+    "navInterest": "興味",
+    "navGuide": "ガイド"
   },
   "browse": {
     "index": "索引",
@@ -29,11 +30,16 @@
     "entryPlaceTitle": "土地からさがす",
     "entryPlaceHint": "地図をタップ、またはピンを選んで探せます",
     "entryTypeTitle": "種類からさがす",
+    "typeGroupDish": "料理",
+    "typeGroupIngredient": "食材（銘柄・品種・魚介）",
+    "typeGroupCut": "部位・ネタ",
     "entryInterestTitle": "興味からさがす",
     "entryInterestHint": "タグで探せます",
     "aboutLink": "このサイトについて",
     "genreFilterClear": "{name}の絞り込みを解除",
     "genreViewAllLink": "{name}の一覧へ",
+    "introExpand": "続きを読む",
+    "introCollapse": "閉じる",
     "tagFilterClear": "{name}の絞り込みを解除",
     "tagAllLink": "タグの一覧へ",
     "filterClearAll": "絞り込みを解除",
@@ -41,7 +47,7 @@
     "pinAriaLabel": "{name}（{prefCity}・{style}）",
     "honbaPinAriaLabel": "{name}（{honba}・{prefCity}）",
     "styleUnknown": "系統不明",
-    "regionUnknown": "地域なし",
+    "regionUnknown": "図鑑（土地なし）",
     "kanaOther": "その他",
     "modules": {
       "todayDish": "今日の一皿",
@@ -212,6 +218,23 @@
     "recommendHeading": "この味が好きなら",
     "otherChainsHeading": "他のチェーンも見る",
     "genreLink": "{name}の一覧へ",
+    "correction": "内容の訂正を送る"
+  },
+  "guide": {
+    "title": "食べに行く前に",
+    "description": "お店に入る前に知っておきたいこと。マナー・注文・支払いなど。",
+    "backToFood": "食べものから探す",
+    "kind": {
+      "ordering": "注文",
+      "paying": "支払い",
+      "manners": "マナー",
+      "finding": "店の見つけ方",
+      "takeaway": "持ち帰り・土産",
+      "seasons": "季節・時間"
+    },
+    "relatedFoodHeading": "関係する食べもの",
+    "otherGuidesHeading": "他のガイド",
+    "nextKindLabel": "次は「{kind}」: {title}",
     "correction": "内容の訂正を送る"
   },
   "relation": {

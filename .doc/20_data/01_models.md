@@ -180,6 +180,25 @@ erDiagram
 
 `chain_recommendations` は `chain_id` → `food_item_id` の推薦リンク（表示はアイテムリンクのみ。系統レベルの推薦は bridge 文が担う）。投入は `data/chains.json` → `scripts/import-chains.ts`。チェーンのロゴ・画像は使わない（商標。テキストのみ）。
 
+### 3.10 `guides` / `guide_translations` / `guide_sources` / `guide_links` — 「食べに行く前に」ガイド
+
+店に入る前の不安を減らす実用ページ（マナー・注文攻略・支払い等）。断定せず「〜なことが多い」「店による」の文体で書く（`ia-atlas-content` Skill）。最初から多言語前提で、`food_items` と同じ二層方式（コア + 翻訳テーブル）を採る。
+
+| カラム（guides） | 型 | 内容 |
+| :--- | :--- | :--- |
+| `slug` | text | UNIQUE。`^[a-z0-9-]+$` |
+| `kind` | text | `ordering`（注文）\| `paying`（支払い）\| `manners`（マナー）\| `finding`（店の見つけ方）\| `takeaway`（持ち帰り・土産）\| `seasons`（季節・時間） |
+| `sort_order` | integer | kind内の並び順 |
+| `status` | text | `draft` \| `published`（既定 `draft`。anon は `published` のみ select） |
+
+`guide_translations`（PK: `guide_id, locale`）は `title` / `summary` / `body_md`（Markdown。見出しは自由）を持つ。翻訳が無いロケールは en → ja の順でフォールバックする（アプリ層。`../.doc/10_system/10_growth_infra.md` §3.3）。
+
+`guide_sources` は出典（内部検証用。**UI非表示**。`food_item_sources` と同じ方針）。
+
+`guide_links`（PK: `guide_id, target_kind, target_slug`）はガイドを食べものへ結びつける疎な参照（`target_kind` は `genre` \| `shelf` \| `tag`。FK制約なし。`chains.genre_slug` と同じ方針）。例: 「ラーメン屋は現金が多い」→ `genre` `ramen`。詳細ページ（`/[genre]/[slug]`）の「食べに行く前に」節は、アイテムの genre/shelf/tags から `guide_links` を逆引きして関連ガイドを出す。
+
+投入は `data/guides.json` → `scripts/import-guides.ts`。
+
 ## 4. 粒度の方針
 
 データは最初から**市町村 + 座標**で保持する。表示は当面県単位とし、地図のズームでエリア表示に切り替える。座標は市町村役場等の代表点でよい。

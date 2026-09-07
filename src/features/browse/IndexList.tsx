@@ -6,7 +6,7 @@ import type { MapItem, Locale } from "@/features/map/queries";
 import { PIN_STROKE, styleColor } from "@/features/map/styles";
 import { useMasterLabels } from "@/features/map/labels";
 
-import { AXES, groupBy, kanaRomajiLabel, type Axis, type Group } from "./axes";
+import { AXES, groupBy, kanaRomajiLabel, NO_REGION_KEY, type Axis, type Group } from "./axes";
 
 /**
  * グループ見出しの表示文字列（作業パッケージ「トップページ情報モジュール」
@@ -27,7 +27,7 @@ function groupLabel(
   if (locale === "ja") return group.label;
   if (axis === "kana") return kanaRomajiLabel(group.key) ?? t("kanaOther");
   if (axis === "region") {
-    if (group.key === "地域なし") return t("regionUnknown");
+    if (group.key === NO_REGION_KEY) return t("regionUnknown");
     return label.prefecture(group.key) ?? group.key;
   }
   // style

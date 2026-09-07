@@ -7,13 +7,18 @@
  *
  * 処理の流れ:
  *   1. 束JSON（--file）をzodで検証する
- *   2. 既存importerが受け付ける中間ファイルに展開し、data/content/<name>/ に書き出す
- *      （genres.csv / tags.json / chains.json は既存 data/*.{csv,json} に upsert マージ。
- *       git追跡されるこのバッチの正データになる）
+ *   2. 既存importerが受け付ける中間ファイルに展開する。
+ *      genres.csv / tags.json / chains.json は **data/genres.csv・data/tags.json・
+ *      data/chains.json 本体をマージ結果で書き戻す**（これらが正データ。
+ *      data/content/<name>/ 側にコピーは残さない）。items__*.csv / regions.csv /
+ *      item-tags.csv / bodies.json / relations.csv はバッチごとの中間ファイルとして
+ *      data/content/<name>/ に書き出す
  *   3. 展開したファイルを、既存の import-*.ts を子プロセスとして順に実行して投入する:
  *      import-genres → import-tags → import-food-items（グループごと）→ regenre（インライン）
- *      → import-regions → import-item-tags → import-bodies → import-chains
- *      どれかが非0で終了したら即座に停止する。
+ *      → import-regions → import-item-tags → import-bodies → import-relations → import-chains
+ *      どれかが非0で終了したら即座に停止する。import-relations は本文（body_ja/en）を
+ *      持たないアイテムの relations のみを対象にする（本文ありの relations は
+ *      bodies 段で入るため二重投入しない）
  *   4. 最後に content-lint.ts を実行して結果を表示する（--strict ではなく通常）
  *
  * 使い方:
@@ -48,15 +53,7 @@
  * }
  */
 import { spawnSync } from "node:child_process";
-import {
-  existsSync,
-  mkdirSync,
-  mkdtempSync,
-  readFileSync,
-  rmSync,
-  writeFileSync,
-} from "node:fs";
-import { tmpdir } from "node:os";
+import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { basename, dirname, extname, join, resolve } from "node:path";
 import { fileURLToPath, pathToFileURL } from "node:url";
 
@@ -85,6 +82,7 @@ const STEP_NAMES = [
   "regions",
   "item-tags",
   "bodies",
+  "relations",
   "chains",
 ] as const;
 type StepName = (typeof STEP_NAMES)[number];
@@ -536,6 +534,25 @@ export function buildBodies(items: ItemInput[]): BodyItem[] {
     }));
 }
 
+/**
+ * relations.csv（import-relations.ts 用。from_slug,to_slug,relation_type）の行を作る。
+ *
+ * **本文（body_ja/en）を持たないアイテムの relations のみ**が対象。本文ありのアイテムの
+ * relations は bodies 段（buildBodies）で一緒に入るため、ここに含めると二重投入になる。
+ * basis は import-relations.ts のCSV形式に列が無く、bodies経路でもDBには保存されない
+ * （import-bodies.ts 参照）ため、ここでも持たせない。
+ */
+export function buildRelationsCsvRows(items: ItemInput[]): { from_slug: string; to_slug: string; relation_type: string }[] {
+  const out: { from_slug: string; to_slug: string; relation_type: string }[] = [];
+  for (const it of items) {
+    if (it.body_ja !== undefined) continue; // 本文ありは bodies 段で入る
+    for (const r of it.relations) {
+      out.push({ from_slug: r.from_slug ?? it.slug, to_slug: r.to_slug, relation_type: r.relation_type });
+    }
+  }
+  return out;
+}
+
 export function mergeGenres(existing: GenreRow[], newGenres: GenreInput[]): GenreRow[] {
   const rows = existing.map((r) => ({ ...r }));
   const bySlug = new Map(rows.map((r) => [r.slug, r]));
@@ -627,6 +644,8 @@ export interface ExpandResult {
   regions?: ExpandFileInfo;
   itemTags?: ExpandFileInfo;
   bodies?: ExpandFileInfo;
+  /** 本文を持たないアイテムの relations のみ（bodies 段と二重投入しないため）。 */
+  relations?: ExpandFileInfo;
   chains?: ExpandFileInfo;
 }
 
@@ -643,20 +662,23 @@ export function expandBundle(bundle: Bundle, name: string, paths: ExpandPaths = 
   const result: ExpandResult = { contentDir, items: [] };
 
   if (bundle.genres.length > 0) {
-    const existing = readExistingGenres(paths.existingGenresCsv ?? "data/genres.csv");
+    // data/genres.csv 本体をマージ結果で書き戻す（正データ。data/content/<name>/ には
+    // コピーを残さない。実装部隊の報告「投入スクリプトの仕上げ」対応）。
+    const canonicalPath = paths.existingGenresCsv ?? "data/genres.csv";
+    const existing = readExistingGenres(canonicalPath);
     const merged = mergeGenres(existing, bundle.genres);
     const rows = merged.map((r) => GENRE_HEADER.map((h) => r[h]));
-    const filePath = join(contentDir, "genres.csv");
-    writeFileSync(filePath, csvStringify([[...GENRE_HEADER], ...rows]));
-    result.genres = { path: filePath, count: merged.length };
+    writeFileSync(canonicalPath, csvStringify([[...GENRE_HEADER], ...rows]));
+    result.genres = { path: canonicalPath, count: merged.length };
   }
 
   if (bundle.tags.length > 0) {
-    const existing = readExistingTags(paths.existingTagsJson ?? "data/tags.json");
+    // data/tags.json 本体をマージ結果で書き戻す（正データ。同上）。
+    const canonicalPath = paths.existingTagsJson ?? "data/tags.json";
+    const existing = readExistingTags(canonicalPath);
     const merged = mergeTags(existing, bundle.tags);
-    const filePath = join(contentDir, "tags.json");
-    writeFileSync(filePath, JSON.stringify(merged, null, 2));
-    result.tags = { path: filePath, count: merged.length };
+    writeFileSync(canonicalPath, JSON.stringify(merged, null, 2));
+    result.tags = { path: canonicalPath, count: merged.length };
   }
 
   if (bundle.items.length > 0) {
@@ -690,14 +712,23 @@ export function expandBundle(bundle: Bundle, name: string, paths: ExpandPaths = 
       writeFileSync(filePath, JSON.stringify({ items: bodiesItems }, null, 2));
       result.bodies = { path: filePath, count: bodiesItems.length };
     }
+
+    const relationsRows = buildRelationsCsvRows(bundle.items);
+    if (relationsRows.length > 0) {
+      const rows = relationsRows.map((r) => [r.from_slug, r.to_slug, r.relation_type]);
+      const filePath = join(contentDir, "relations.csv");
+      writeFileSync(filePath, csvStringify([["from_slug", "to_slug", "relation_type"], ...rows]));
+      result.relations = { path: filePath, count: relationsRows.length };
+    }
   }
 
   if (bundle.chains.length > 0) {
-    const existing = readExistingChains(paths.existingChainsJson ?? "data/chains.json");
+    // data/chains.json 本体をマージ結果で書き戻す（正データ。同上）。
+    const canonicalPath = paths.existingChainsJson ?? "data/chains.json";
+    const existing = readExistingChains(canonicalPath);
     const merged = mergeChains(existing, bundle.chains);
-    const filePath = join(contentDir, "chains.json");
-    writeFileSync(filePath, JSON.stringify({ chains: merged }, null, 2));
-    result.chains = { path: filePath, count: merged.length };
+    writeFileSync(canonicalPath, JSON.stringify({ chains: merged }, null, 2));
+    result.chains = { path: canonicalPath, count: merged.length };
   }
 
   return result;
@@ -808,23 +839,14 @@ function runNodeScript(label: string, scriptName: string, args: string[], opts: 
 
 /**
  * import-chains.ts は --file を受け付けず、常に cwd 相対の "data/chains.json" を読む。
- * このスクリプトを書き換えずに data/content/<name>/chains.json を投入するため、
- * 一時ディレクトリに data/chains.json を複製し、cwd をそこに切り替えて実行する。
- * data/chains.json 本体（正データ）は書き換えない。
+ * data/chains.json 本体は展開段階（expandBundle）で既にマージ結果に書き換え済み
+ * （正データ。data/content/<name>/ にはコピーを残さない）ため、複製は不要で
+ * そのまま子プロセスを起動するだけでよい。
  */
-function runChainsStep(contentDir: string): void {
-  const chainsPath = join(contentDir, "chains.json");
-  const raw = readFileSync(chainsPath, "utf8");
-  const merged = JSON.parse(raw) as { chains: unknown[] };
+function runChainsStep(chainsPath: string): void {
+  const merged = JSON.parse(readFileSync(chainsPath, "utf8")) as { chains: unknown[] };
   console.log(`\n=== chains (${merged.chains.length}件) ===`);
-  const tmpDir = mkdtempSync(join(tmpdir(), "atlas-chains-"));
-  try {
-    mkdirSync(join(tmpDir, "data"), { recursive: true });
-    writeFileSync(join(tmpDir, "data", "chains.json"), raw);
-    runNodeScript("import-chains", "import-chains.ts", [], { cwd: tmpDir });
-  } finally {
-    rmSync(tmpDir, { recursive: true, force: true });
-  }
+  runNodeScript("import-chains", "import-chains.ts", []);
 }
 
 // -----------------------------------------------------------------------------
@@ -845,7 +867,7 @@ async function main() {
   if (!file) {
     console.error(
       "使い方: node --env-file=.env.local scripts/import-content.ts --file data/content/<name>.json\n" +
-        "      [--dry-run] [--only genres,tags,items,regenre,regions,item-tags,bodies,chains] [--skip-expand]",
+        "      [--dry-run] [--only genres,tags,items,regenre,regions,item-tags,bodies,relations,chains] [--skip-expand]",
     );
     process.exit(1);
   }
@@ -888,13 +910,14 @@ async function main() {
   if (!skipExpand) {
     const result = expandBundle(bundle, name);
     console.log(`\n展開先: ${result.contentDir}`);
-    if (result.genres) console.log(`  genres.csv: ${result.genres.count}行（既存とマージ後の総数）`);
-    if (result.tags) console.log(`  tags.json: ${result.tags.count}件（既存とマージ後の総数）`);
+    if (result.genres) console.log(`  ${result.genres.path}: ${result.genres.count}行（既存とマージ後の総数。本体を書き戻し済み）`);
+    if (result.tags) console.log(`  ${result.tags.path}: ${result.tags.count}件（既存とマージ後の総数。本体を書き戻し済み）`);
     for (const it of result.items) console.log(`  ${basename(it.path)}: ${it.count}件`);
     if (result.regions) console.log(`  regions.csv: ${result.regions.count}行`);
     if (result.itemTags) console.log(`  item-tags.csv: ${result.itemTags.count}行`);
     if (result.bodies) console.log(`  bodies.json: ${result.bodies.count}件`);
-    if (result.chains) console.log(`  chains.json: ${result.chains.count}件（既存とマージ後の総数）`);
+    if (result.relations) console.log(`  relations.csv: ${result.relations.count}行（本文なしアイテムのみ）`);
+    if (result.chains) console.log(`  ${result.chains.path}: ${result.chains.count}件（既存とマージ後の総数。本体を書き戻し済み）`);
   } else {
     if (!existsSync(contentDir)) {
       console.error(`--skip-expand ですが展開済みディレクトリがありません: ${contentDir}`);
@@ -915,12 +938,14 @@ async function main() {
 
   if (shouldRun("genres")) {
     if (bundle.genres.length > 0) {
-      runNodeScript("import-genres", "import-genres.ts", ["--file", join(contentDir, "genres.csv")]);
+      // data/genres.csv 本体（展開段階で既にマージ結果に書き換え済み。正データ）を読む。
+      runNodeScript("import-genres", "import-genres.ts", ["--file", "data/genres.csv"]);
     } else skipNote("genres");
   }
   if (shouldRun("tags")) {
     if (bundle.tags.length > 0) {
-      runNodeScript("import-tags", "import-tags.ts", ["--file", join(contentDir, "tags.json")]);
+      // data/tags.json 本体（同上）を読む。
+      runNodeScript("import-tags", "import-tags.ts", ["--file", "data/tags.json"]);
     } else skipNote("tags");
   }
   if (shouldRun("items")) {
@@ -957,9 +982,16 @@ async function main() {
       runNodeScript("import-bodies", "import-bodies.ts", ["--file", join(contentDir, "bodies.json")]);
     } else skipNote("bodies");
   }
+  if (shouldRun("relations")) {
+    // 本文なし × relations あり のアイテムのみが対象（本文ありは bodies 段で入る）。
+    if (bundle.items.some((it) => it.body_ja === undefined && it.relations.length > 0)) {
+      runNodeScript("import-relations", "import-relations.ts", ["--file", join(contentDir, "relations.csv")]);
+    } else skipNote("relations");
+  }
   if (shouldRun("chains")) {
     if (bundle.chains.length > 0) {
-      runChainsStep(contentDir);
+      // data/chains.json 本体（展開段階で既にマージ結果に書き換え済み。正データ）を読む。
+      runChainsStep("data/chains.json");
     } else skipNote("chains");
   }
 
