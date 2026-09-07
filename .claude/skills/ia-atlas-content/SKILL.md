@@ -89,6 +89,8 @@ North Star: **浅い興味の人を「深く」か「広く」のどちらかに
 - 3群記号: ●料理（生まれた）/ ■食材（育てる）/ ◆仕込み（仕込む）
 - **意味のない分岐を作らない**。ジャンル別の見出しテンプレ・型分類などは、単一の普通の表現で壊れる証拠が出るまで作らない
 
+新ジャンル・新カテゴリを足す前の構造の問い（層・棚・受け皿・本場・チェーン・総論・結び方・見出し）は `ia-atlas-add` Skill §1。
+
 ## 5. Tier制（均一を約束しない）
 
 | Tier | 内容 | 対象 |
@@ -99,22 +101,9 @@ North Star: **浅い興味の人を「深く」か「広く」のどちらかに
 
 本文は章立て自由のMarkdown。Tier1でもページが欠けて見えない設計なので、薄いまま出してよい。
 
-## 6. 投入手順
+## 6. 投入・量産
 
-```bash
-cd itadaki-atlas
-bash -c 'set -a; source .env.local; set +a
-npx tsx scripts/import-genres.ts --file data/genres.csv
-npx tsx scripts/import-food-items.ts --file data/<genre>.csv --genre <genre-slug> --dry-run  # 三点セット全列を目視
-npx tsx scripts/import-food-items.ts --file data/<genre>.csv --genre <genre-slug> --publish'
-```
+投入手順・部隊の指示書テンプレート・束 JSON 形式・本番反映は `ia-atlas-add` Skill（`references/fleet-brief.md`・`references/content-json.md`）が正典。ここには繰り返さない。本Skillが持つのは「何を書くか」だけで、部隊の指示書には本Skillの §1〜§3 を転記する。
 
-- CSV生成は**pythonのcsvモジュール必須**（name_en にカンマが入る。手書き処理で全行破損した事故あり）
+- CSV を手で作る場合は**pythonのcsvモジュール必須**（name_en にカンマが入る。手書き処理で全行破損した事故あり）。通常は束 JSON → `npm run content:import` で CSV を生成させる
 - **slugはグローバル一意**。地名だけのslugはジャンル間で衝突する（博多うどんが博多ラーメンを上書きした事故あり）→ `<地名>-<ジャンル>` 形式にし、投入前に既存slugと突合する
-- **投入後は必ず `npm run content:lint`**（`scripts/content-lint.ts`。ローカルDB全件を走査し、行き止まり・三点セット/概要/出典の欠落・本場の理由文欠落・ジャンル20件規則・総論欠落を「✗」、本文未投入数・チェーン未整備ジャンル・本場の無い料理棚・語彙外タグを「△」で出す）。✗ がゼロになるまで投入完了としない。本番デプロイ前は `--strict`（✗ があれば exit 1）で再実行する
-- 続けて対象ページの生成確認 → `npm run test:e2e` 全件。「掲載なし県」前提のテスト（現在=石川）はデータで埋まったら更新する
-- 本番投入は同じ import スクリプトを本番の URL / service_role で実行する（鍵は `npx supabase projects api-keys` から node で抽出してコマンド内で受け渡し、会話に値を出さない）
-
-## 7. 量産
-
-`research-fleet`（グローバルSkill）の体制で回す。指示書には本Skillの **1〜3節（採否基準・文体・データ規律）とslug/CSV規則を全文転記**すること（部隊は会話文脈を持たない）。

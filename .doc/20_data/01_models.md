@@ -100,10 +100,10 @@ erDiagram
 | `id` | uuid | PK |
 | `slug` | text | **URLルーティングにそのまま使う**（`/ramen`） |
 | `name_ja` / `name_en` | text | マスタ小規模のためカラム方式のまま持つ |
-| `type` | text | `dish` \| `ingredient` |
+| `type` | text | `dish` \| `ingredient` \| `cut`（2026-09 追加。層＝料理／食材／部位・ネタ。`CLAUDE.md` 体験原則4。`food_items.type` は2値のまま） |
 | `sort_order` | int | |
 | `default_source` | text | ジャンル共通の出典 |
-| `intro_ja` / `intro_en` | text | **NULL可**。国民食型ジャンル（寿司など）の総論。あるジャンルだけヒーロー下に描画される（`ia-atlas-content` Skill §2.4） |
+| `intro_ja` / `intro_en` | text | ジャンルの総論。列は NULL 可だが**運用上は全ジャンル必須**（2026-09〜。`content:lint` E7 で検査。体験原則2）。ジャンルページのヒーロー下と、トップの絞り込み直後の結果ヘッダーに描画 |
 
 ### 3.5 `dish_details` — dish型の詳細（フェーズ2で本格使用）
 
