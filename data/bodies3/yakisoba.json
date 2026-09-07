@@ -1,0 +1,316 @@
+{
+ "items": [
+  {
+   "slug": "hiruzen-yakisoba",
+   "body_ja": "## 何でできているか\n黒っぽい味噌だれが麺と具にまとわりつき、ソース焼そばとは違う甘辛い香りが先に立つ。具はかしわと呼ばれる親鶏、または若鶏、そしてキャベツが基本で、鶏の脂とだれの甘みが絡んで濃い味に仕上がる。青のりや紅しょうがを添える店もあるが、主役はあくまで味噌だれの照りと香りだという。噛むほどに鶏の旨みと味噌の発酵香が交互に立ち上がり、白飯が欲しくなるような濃さになる。\n## どう作るのか\n店ごとに配合を変えた味噌だれをあらかじめ仕込んでおき、蒸し中華麺とかしわ、キャベツを鉄板や中華鍋で一気に炒め合わせる。だれは砂糖やにんにくなどで甘辛く仕立てられ、汁気を飛ばしながら麺にしっかりからめるのがこつとされる。仕上げに強火で香ばしさを立たせる店が多いという。だれの配合は各店の看板であり、代替わりのたびに少しずつ手が加えられてきたとも伝わる。\n## なぜこの形になったのか\n一説によると、昭和30年代の蒜山では自家製の味噌だれでジンギスカンなどを食べることが流行していた。地元の食堂がその味噌だれをいかし、かしわとキャベツを炒めた焼そばを出したところ評判になり、以後この地域の味として定着したと伝わる。味噌だれの文化がそのまま麺料理に転用された形といえ、高原の畜産と味噌づくりが結びついて育った一皿とも読める。",
+   "body_en": "## What it's made of\nA dark miso-based sauce coats the noodles and toppings, giving off a sweet, savory aroma unlike Worcestershire-style sauce yakisoba. The toppings are built around kashiwa (stewing hen) or young chicken and cabbage, the chicken fat mingling with the sauce's sweetness for a rich finish. Some shops add nori flakes or pickled red ginger, but the shine and scent of the miso sauce stays the point.\n## How it's made\nEach shop keeps its own pre-mixed miso sauce ready, then stir-fries steamed Chinese-style noodles with chicken and cabbage together on a griddle or in a wok. The sauce, sweetened and spiked with garlic, is worked into the noodles as the liquid cooks off, with a final high-heat sear said to bring out the aroma.\n## Why it took this shape\nIn the Hiruzen highlands of the 1950s, one account holds, households were mixing their own miso sauces to eat with dishes like Jingisukan grilled mutton. A local diner is said to have put that same sauce to use frying chicken and cabbage into yakisoba, and the dish caught on from there — a highland miso culture carried straight into a noodle dish.",
+   "sources": [
+    {
+     "title": "ひるぜん焼そば",
+     "url": "https://www.maniwa.or.jp/web/?c=spot-2&pk=3169",
+     "publisher": "真庭市観光局",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "蒜山（グルメ）",
+     "url": "https://www.maniwa.or.jp/hiruzen/",
+     "publisher": "真庭市観光局",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hiruzen-yakisoba",
+     "to_slug": "miso-yakisoba",
+     "relation_type": "派生",
+     "basis": "真庭市観光局の紹介記事で、蒜山焼そばはソースではなく自家製味噌だれで炒めると明記されており、味噌焼そばの系統に位置づけられる"
+    }
+   ]
+  },
+  {
+   "slug": "itoigawa-black-yakisoba",
+   "body_ja": "## 何でできているか\n皿に盛られた麺が艶やかな黒に染まっているのが最初の印象で、口に運ぶとイカ墨特有の磯の香りとほのかな塩気が広がる。具には新潟県産のイカが使われ、味付けや他の具材は店ごとに任されているという。イカ以外にキャベツやもやしを合わせる店もあり、黒い麺の上で彩りが際立つ。噛むとイカの弾力と麺のコシが重なり、見た目の強さに反して後味は意外なほど軽い。\n## どう作るのか\n中華麺にイカ墨を練り込むか、炒める段階でイカ墨をからめて麺全体を黒く染め上げる。イカと野菜を炒め合わせたところへ黒い麺を加え、ソースや塩だれなど店ごとの味付けでまとめる。仕上げの黒さと艶をどこまで出すかは、店の腕の見せどころとされている。山菜やミートソースを添える店もあり、黒い麺を土台にした自由な工夫が広がっている。\n## なぜこの形になったのか\n地元の飲食店有志でつくる「糸魚川うまいもん会」が、糸魚川の名物になるものをという思いから考え出した創作料理と伝わる。既存の焼きそばの形はそのままに、日本海に面した土地で身近なイカとイカ墨を主役に据えたことで、見た目からして他にない一皿になったという。ゼロから新しい料理を興すのではなく、定番の焼きそばに土地の食材を重ねる発想だったといえ、漁港のまちらしい食材選びが色濃く表れている。",
+   "body_en": "## What it's made of\nThe first thing you notice is the noodles themselves, dyed a glossy black on the plate; the first bite brings squid ink's briny aroma and a faint saltiness. Squid caught off Niigata goes in as the topping, with the rest of the seasoning and ingredients left up to each shop — some add cabbage or bean sprouts, their color standing out against the black noodles.\n## How it's made\nSquid ink is either worked into the Chinese-style noodle dough or tossed in during frying so it coats the noodles black all the way through. Squid and vegetables are stir-fried first, then the blackened noodles are added and finished with each shop's own sauce or salt-based seasoning. How deep and glossy that black comes out is said to be where a shop's skill shows.\n## Why it took this shape\nItoigawa Umaimonkai, a volunteer group of local restaurant owners, is said to have invented the dish out of a wish to give the city a signature food of its own. Keeping yakisoba's familiar form intact, they built it around squid and squid ink — everyday ingredients in a town on the Sea of Japan — and the result stood out from any other yakisoba on sight alone.",
+   "sources": [
+    {
+     "title": "糸魚川ブラック焼きそば",
+     "url": "http://itoigawa-umaimonkai.com/",
+     "publisher": "糸魚川うまいもん会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "itoigawa-black-yakisoba",
+     "to_slug": "sauce-yakisoba",
+     "relation_type": "派生",
+     "basis": "糸魚川うまいもん会の紹介では、既存の焼きそばの構造にイカ墨を加えて創作したことが由来とされている"
+    }
+   ]
+  },
+  {
+   "slug": "ina-romen",
+   "body_ja": "## 何でできているか\nマトンの独特な脂の香りとにんにくの強さが先に立ち、キャベツの甘みがそれを受け止める。麺は蒸した中華麺で、焼きそばよりもふっくらとした食感を保つ。汁気をほとんど飛ばして炒め上げる店が多く、皿に残るのはとろりとした少量のたれだけだという。羊肉特有のくせは強火の炒めで和らぎ、にんにくの香りに包まれて食べやすくなる。\n## どう作るのか\n蒸し麺とマトン、キャベツ、にんにくを鉄板や中華鍋でしっかり炒め合わせ、専用のたれをからめて仕上げる。汁を張らずに炒め切るのが基本形とされ、焼きそばに近い扱いで作られる。仕上げに酢や唐辛子を添えて味を締める食べ方も広まっているという。店によってはマトン以外の肉を選べるところもあり、味の濃さも幅がある。\n## なぜこの形になったのか\n一説によると、昭和30年頃、地域の声から生まれた焼きそば風の一皿が始まりで、当初は「チャーローメン」と呼ばれていたという。その後のラーメンブームの影響を受けて名前が「ローメン」に落ち着いたと伝わり、麺料理としての骨格は焼きそばに近いまま、具材と名前だけが土地の事情で変わっていった格好になる。伊那谷でマトンが手に入りやすかったことも、この具材選びを後押ししたと考えられ、寒い土地で温まる一皿として定着していった側面もうかがえる。",
+   "body_en": "## What it's made of\nMutton's distinct fat and a strong hit of garlic come first, with cabbage's sweetness catching up behind them. The noodles are steamed Chinese-style noodles, kept plumper than typical yakisoba. Most shops fry off nearly all the liquid, leaving only a thin, glossy coating of sauce on the plate.\n## How it's made\nSteamed noodles, mutton, cabbage, and garlic are stir-fried hard together on a griddle or in a wok and finished with a house sauce. Frying the liquid off entirely, rather than serving it in broth, is the standard form, handled much like yakisoba. Many diners finish it with vinegar or chili pepper to sharpen the flavor.\n## Why it took this shape\nOne account holds that around 1950, a yakisoba-style dish born from local requests was first called \"cha-romen.\" As Japan's ramen boom took off afterward, the name is said to have settled into its present form, \"romen,\" while the dish itself kept a build much closer to yakisoba — only its ingredients and name shifted with the place.",
+   "sources": [
+    {
+     "title": "ローメンについて",
+     "url": "https://ina-romen.com/aboutus/",
+     "publisher": "伊那ローメンズクラブ",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ina-romen",
+     "to_slug": "sauce-yakisoba",
+     "relation_type": "対比",
+     "basis": "伊那ローメンズクラブの説明では焼きそば風の提案から生まれたとされる一方、主具材がマトンである点や汁をほぼ残さず炒め切る点で一般的なソース焼きそばとは食材構成が異なる"
+    }
+   ]
+  },
+  {
+   "slug": "kobe-sobameshi",
+   "body_ja": "## 何でできているか\n刻んだ焼きそばと刻んだご飯が一体になり、麺だけでもご飯だけでもない独特の食感になる。ソースの甘辛さがご飯の一粒一粒にまでしみ込み、豚肉やキャベツのほか、店によっては海鮮やキムチをのせることもあるという。青のりや紅しょうが、かつお節をふって食べるのが定番とされる。麺とご飯の粒がほぼ同じ大きさに刻まれているため、れんげでも箸でもすくいやすい。\n## どう作るのか\n鉄板でソース焼きそばを炒め、ある程度火が通ったところで刻んだご飯を加える。麺とご飯をへらで刻みながら炒め合わせ、味がなじんだところでソースを足して仕上げる。麺とご飯を細かく刻むことで両者がよくからみ、冷めにくくなるともいわれている。海鮮を使う店では、ちゃんぽんそばめしのように具の種類を増やして提供することもある。\n## なぜこの形になったのか\n一説によると、長田のお好み焼き店で、近くの工場に勤めていた客が持参した冷や飯を、注文した焼きそばと一緒に鉄板で温めてほしいと頼んだのが始まりという。メニューになかった一品が裏メニューとして広まり、やがて店の名物になった。ご飯を持ち込めるほど下町の店が客と近かったことも、この生まれ方を後押ししたと考えられる。工場で働く人の腹を満たす一皿として根づいた側面もうかがえる。",
+   "body_en": "## What it's made of\nChopped yakisoba and chopped rice become one dish, neither quite noodles nor quite rice on its own. The sauce's sweet-savory flavor works its way into every grain of rice, and beyond the usual pork and cabbage, some shops add seafood or kimchi. A finish of nori flakes, pickled red ginger, and bonito flakes is typical.\n## How it's made\nSauce yakisoba is fried on the griddle, and once it's mostly cooked, chopped rice is added. The noodles and rice are chopped further and worked together with a spatula, with more sauce stirred in to finish once the flavors combine. Chopping both fine is said to help them bind together and keep the dish from cooling too fast.\n## Why it took this shape\nOne account has it starting at an okonomiyaki shop in Nagata, when a customer who worked at a nearby factory asked the shop to warm the cold rice he'd brought along with the yakisoba he'd ordered, frying them together on the griddle. What began as an off-menu favor spread by word of mouth and eventually became the shop's signature dish — helped along, it's thought, by just how close a neighborhood shop and its regulars could be.",
+   "sources": [
+    {
+     "title": "食の街・長田のご当地グルメ「そばめし」と「すじ焼き」を堪能",
+     "url": "https://www.feel-kobe.jp/column/nagata-gourmet/",
+     "publisher": "Feel KOBE 神戸公式観光サイト（神戸観光局）",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "兵庫県の郷土料理レシピ そばめし",
+     "url": "https://social.ja-kyosai.or.jp/prefecture/recipe/hyogo/",
+     "publisher": "JA共済（全国共済農業協同組合連合会）",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kobe-sobameshi",
+     "to_slug": "sauce-yakisoba",
+     "relation_type": "派生",
+     "basis": "JA共済の郷土料理レシピ解説で、そばめしは客が持ち込んだご飯をソース焼きそばと一緒に炒めてほしいと頼んだことから生まれたと明記されている"
+    }
+   ]
+  },
+  {
+   "slug": "sauce-yakisoba",
+   "body_ja": "## 何でできているか\n蒸した中華麺にとろみのあるウスターソース系のたれをからめ、豚肉やキャベツ、もやしと一緒に炒め上げる。甘辛く濃いソースの香りが麺全体を包み、青のりや紅しょうが、かつお節をふって仕上げるのが全国共通の型として広く定着している。湯気とともに立つソースの匂いは、屋台や縁日の記憶と結びついている人も多いという。\n## どう作るのか\n細麺には粘度の低いソースを、太麺には粘度の高いソースを合わせるなど、麺の太さに応じてソースの粘り気を変える店が多いという。下味付け・麺をほぐす段階・仕上げがけと、ソースを複数回に分けて使う技法も広まっており、店ごとの味の差はこの使い分けから生まれる。市販ソースと自家配合のブレンドを使い分ける店もあり、同じ「ソース焼そば」でも味の幅は広い。\n## なぜこの形になったのか\n一説によると、明治末期から大正初期にかけて浅草を中心に中華麺の製麺所が増え、中国の炒麺を真似た料理にウスターソースを加えたものが原型になったという。大正時代の東京でお好み焼きの一種として定着し、戦後は各地に麺文化が広まる中で、1950年代には全国各地でこの型が定番として根づいたと伝わる。各地のご当地焼きそばの多くは、この型を土台にして生まれていったと考えられている。",
+   "body_en": "## What it's made of\nSteamed Chinese-style noodles are coated in a thick, Worcestershire-style sauce and fried with pork, cabbage, and bean sprouts. The sauce's sweet, savory aroma wraps around the whole dish, finished with nori flakes, pickled red ginger, and bonito flakes — a combination that has become the common template found nationwide.\n## How it's made\nMany shops match a thinner sauce to thin noodles and a thicker one to thick noodles, adjusting viscosity to the noodle's width. It's also common to work the sauce in at several stages — an initial seasoning, a pass to loosen the noodles, and a final coating — and it's this layering that gives each shop its own particular flavor.\n## Why it took this shape\nOne account holds that as Chinese-style noodle makers multiplied around Asakusa from the late Meiji into the early Taisho era, a dish modeled on Chinese chao mian with Worcestershire sauce added became the prototype. It's said to have settled into Taisho-era Tokyo as a form of okonomiyaki, and as noodle culture spread nationwide after the war, this style took root as the standard version across the country by the 1950s.",
+   "sources": [
+    {
+     "title": "ソース焼そばの源流",
+     "url": "https://www.otafuku.co.jp/yakisoba/column/column_data.html",
+     "publisher": "オタフクソース株式会社",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "愛される焼そば、ブームの変遷と定着",
+     "url": "https://www.otafuku.co.jp/yakisoba/column/column_data_2.html",
+     "publisher": "オタフクソース株式会社",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sauce-yakisoba",
+     "to_slug": "shoyu-yakisoba",
+     "relation_type": "兄弟",
+     "basis": "オタフクソースの解説コラムで、ソース・塩・醤油・味噌は焼そばの味付けバリエーションとして並置して紹介されている"
+    }
+   ]
+  },
+  {
+   "slug": "shio-yakisoba",
+   "body_ja": "## 何でできているか\nソース焼そばのような濃い茶色ではなく、麺と具の色がそのまま透けて見える淡い仕上がりになる。塩だれのすっきりした塩気が先に立ち、豚肉やもやし、キャベツなど具材そのものの甘みや香ばしさを感じやすいのが特徴とされる。後味が軽いため、量を食べても重たくなりにくいという声もある。見た目の淡さから、初めて出会うと焼きそばだと気づかない人もいるという。\n## どう作るのか\n塩、または塩をベースにしただれで下味をつけながら中華麺と具材を炒め合わせる。仕上げにレモンや酢を絞ってさっぱりと食べさせる店、逆にバターを加えてこくを足す店など、ソース焼そばに比べて仕上げの幅が広いとされる。魚介だしを効かせて塩気に奥行きを持たせる店もあるという。塩そのものの種類を変えて、粒の粗さや塩気の質にこだわる店もある。\n## なぜこの形になったのか\n一説によると、濃厚な味のソース焼そばが全国に定着していく中で、それとは違う軽い味わいを求める客に応える形で、塩だれや塩そのもので味付けする店が各地に生まれていったという。ソースという主役に対するバラエティとして育ってきた型といえ、素材の味を前に出したいという発想が根っこにあると考えられる。夏場にさっぱりした一皿を求める客の声が後押しした面もあるとされる。",
+   "body_en": "## What it's made of\nInstead of sauce yakisoba's deep brown, this version comes out pale, the noodles and toppings showing their own color through. A clean saltiness comes first, and it's said to be easier to taste the sweetness and char of the pork, bean sprouts, and cabbage themselves under a salt-based seasoning.\n## How it's made\nChinese-style noodles and toppings are fried together seasoned with salt or a salt-based sauce. Some shops finish with a squeeze of lemon or vinegar for a tart edge, others add butter for richness — a wider range of finishes than sauce yakisoba typically sees.\n## Why it took this shape\nOne account holds that as the rich flavor of sauce yakisoba settled in nationwide, shops answering diners who wanted something lighter began seasoning with salt or a salt-based sauce instead, springing up in various places. It grew, in other words, as a variation set against sauce as the default.",
+   "sources": [
+    {
+     "title": "焼そば、その味わいはさまざま",
+     "url": "https://www.otafuku.co.jp/yakisoba/column/column_data_3.html",
+     "publisher": "オタフクソース株式会社",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shio-yakisoba",
+     "to_slug": "sauce-yakisoba",
+     "relation_type": "兄弟",
+     "basis": "オタフクソースの解説コラムで、塩焼そばは「ソースに対するバラエティとして提供する店も多い」と説明されている"
+    }
+   ]
+  },
+  {
+   "slug": "shoyu-yakisoba",
+   "body_ja": "## 何でできているか\nソースの茶色とは違う、醤油特有の香ばしい香りとつやのある色合いが特徴になる。中華麺に豚肉や青菜、もやしなどを合わせることが多く、中華料理店らしい油の香りと醤油のコクが前面に出る味わいだという。噛むと醤油の塩気の奥から中華だしの旨みがのぞくのも見どころとされる。仕上げにこしょうやラー油を効かせ、中華料理らしい輪郭をさらに強める店もある。\n## どう作るのか\n醤油や醤油だれ、中国醤油で下味をつけながら中華麺と具材を炒め合わせる。仕上げにオイスターソースを加えると、コクと照りが増して上海風と呼ばれる味に近づくとされ、店によって醤油の種類や配合を変えているという。強火で一気に炒めて醤油の香りを立たせるのがこつともいわれる。中華鍋の扱いに慣れた厨房ほど、この型を得意にしている印象がある。\n## なぜこの形になったのか\n一説によると、ソース焼そばが庶民の味として広まる一方で、中華料理店では素材本来の味に近い醤油仕立てが好まれ、独自の型として並び立つようになったという。ソースという西洋由来の調味料に対し、醤油仕立ては中華料理店の系譜をそのまま受け継ぐ形になっており、厨房の使い慣れた調味料がそのまま採用された結果とも読める。ラーメンと同じ厨房で作れる手軽さも、この型が根づいた理由のひとつと考えられる。",
+   "body_en": "## What it's made of\nInstead of sauce's brown, this style carries soy sauce's own toasty aroma and a glossy sheen. Chinese-style noodles are typically paired with pork, leafy greens, and bean sprouts, and the flavor is said to lean into the oil and soy depth typical of a Chinese restaurant kitchen.\n## How it's made\nChinese-style noodles and toppings are fried and seasoned with soy sauce, a soy-based sauce, or Chinese soy sauce. Adding oyster sauce at the finish deepens the flavor and shine, pushing it toward what's called a Shanghai-style version, and shops vary the type and blend of soy sauce they use.\n## Why it took this shape\nOne account holds that while sauce yakisoba spread as an everyday food, Chinese restaurants favored a soy-seasoned version closer to the ingredients' own flavor, and it grew into a distinct strand alongside sauce. Where sauce traces to a Western import, the soy-sauce version carries the Chinese-restaurant lineage straight through.",
+   "sources": [
+    {
+     "title": "焼そば、その味わいはさまざま",
+     "url": "https://www.otafuku.co.jp/yakisoba/column/column_data_3.html",
+     "publisher": "オタフクソース株式会社",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shoyu-yakisoba",
+     "to_slug": "miso-yakisoba",
+     "relation_type": "兄弟",
+     "basis": "オタフクソースの解説コラムで、醤油焼そばと味噌焼そばは焼そばの味付けバリエーションとして並記されている"
+    }
+   ]
+  },
+  {
+   "slug": "miso-yakisoba",
+   "body_ja": "## 何でできているか\n味噌特有の発酵香とにんにくの強い香りが先に立ち、ソース焼そばよりも肉料理に近い印象になる。中華麺に豚肉やキャベツを合わせることが多く、味噌だれのこくと甘みが具材にしっかりからむ仕上がりだという。脂の多い具材と合わせても、味噌のこくがそれを受け止めてくどくなりにくい。焼き色がつくまでしっかり炒めることで、香ばしさと味噌の風味が重なり合う。\n## どう作るのか\n味噌をベースに砂糖やにんにく、店によっては辛味を加えただれをあらかじめ仕込み、中華麺と具材を炒め合わせながらからめていく。焼肉店では網焼きの締めとして鉄板や網の上で提供されることも多いとされる。味噌の種類や熟成の度合いを変えることで、店ごとに香りの個性が出るという。仕上げに白ごまや刻みねぎを添えて香りに変化をつける店もある。\n## なぜこの形になったのか\n一説によると、味噌だれで肉を焼く食文化が根づいた土地や焼肉店で、その味噌だれを麺にも応用したのがこの型の広まり方だという。ソースという単一の調味料に頼らず、地域や店の味噌文化がそのまま麺の味付けに転用された結果と考えられ、肉料理の締めとして麺を食べる習慣とも結びついている。網の脂を吸った味噌だれをそのまま生かす発想が、この型を支えているとも言える。",
+   "body_en": "## What it's made of\nMiso's fermented aroma and a strong hit of garlic come first, giving the dish more the feel of a meat course than sauce yakisoba does. Chinese-style noodles are typically paired with pork and cabbage, the miso sauce's depth and sweetness clinging tightly to the toppings.\n## How it's made\nA miso-based sauce, sweetened with sugar and garlic and sometimes given a kick of chili, is mixed ahead of time, then worked into the noodles and toppings as they fry together. At yakiniku restaurants it's often served as a closing dish, cooked right on the grill or griddle.\n## Why it took this shape\nOne account holds that in places, and at yakiniku restaurants, where cooking meat in a miso-based sauce was already the custom, that same sauce was simply carried over to noodles. Rather than leaning on sauce as the default seasoning, a region's or shop's own miso culture was turned directly into a way of dressing noodles.",
+   "sources": [
+    {
+     "title": "焼そば、その味わいはさまざま",
+     "url": "https://www.otafuku.co.jp/yakisoba/column/column_data_3.html",
+     "publisher": "オタフクソース株式会社",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "miso-yakisoba",
+     "to_slug": "shio-yakisoba",
+     "relation_type": "兄弟",
+     "basis": "オタフクソースの解説コラムで、味噌焼そばと塩焼そばは焼そばの味付けバリエーションとして並記されている"
+    }
+   ]
+  },
+  {
+   "slug": "ueda-ankake-yakisoba",
+   "body_ja": "## 何でできているか\n生麺を固めに茹でてから揚げ焼きにするため、麺そのものにパリッとした食感が残る。そこへニンジンやキャベツ、ほうれん草など数種の野菜とえび、豚肉、うずらの卵を合わせたとろみの強い餡をかける。仕上げに酢で溶いたからしを餡の上からかけ、混ぜながら食べるのが上田らしい食べ方とされる。酸味と辛味が加わることで、餡の甘みが単調にならずに最後まで飽きない。\n## どう作るのか\n細い縮れ麺を固く茹で、油で揚げ焼きにしてから皿に盛る。餡は注文が入ってから調理され、玉ねぎを入れずに仕立てることで甘くなりすぎないように工夫する店もあるという。餡をかけたあと、酢で溶いたからしを別添えにする店が多く、食べる側がその場で味を調える。麺の細さと縮れ具合は店ごとに違い、通う客はその違いを食べ比べるという。\n## なぜこの形になったのか\n一説によると、あんかけ焼きそば自体は中華料理のひとつだが、大正13年（1924年）に長野市権堂で創業した中華料理店をきっかけに上田にも同様の店ができ、市民の間に根づいていったという。酢とからしを添える食べ方は、とろみの強い餡に変化をつけるために土地で育った工夫と考えられる。中華料理店の技法が家庭の味覚に合わせて少しずつ調整された結果ともいえる。",
+   "body_en": "## What it's made of\nThe raw noodles are boiled firm, then fried in oil, leaving the noodles themselves with a crisp bite. Over them goes a thick, glossy sauce built from several vegetables — carrot, cabbage, spinach — along with shrimp, pork, and quail egg. Finished with mustard dissolved in vinegar poured over the sauce and mixed in as you eat, a habit particular to Ueda.\n## How it's made\nThin, curly noodles are boiled firm and fried in oil before plating. The sauce is made to order, and some shops leave out onion so it doesn't turn too sweet. Most shops serve the vinegar-mustard mix on the side after the sauce goes on, leaving diners to adjust the flavor themselves.\n## Why it took this shape\nOne account holds that ankake yakisoba itself is a Chinese dish, but it took root in Ueda after a similar restaurant opened there following one founded in 1924 in Nagano city's Gondo district, catching on among residents from there. The habit of adding vinegar and mustard is thought to be a local touch developed to vary the flavor of a sauce that comes on this thick.",
+   "sources": [
+    {
+     "title": "上田のソウルフード「あんかけ焼きそば」の魅力に迫る",
+     "url": "https://ueda-kanko.or.jp/blog/special_ankakeyakisoba/",
+     "publisher": "信州上田観光協会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ueda-ankake-yakisoba",
+     "to_slug": "otaru-ankake-yakisoba",
+     "relation_type": "対比",
+     "basis": "同じあんかけ焼きそばでも、上田は酢で溶いたからしを添えて混ぜる点、小樽は港町で体を温める料理として広まった点で成り立ちと食べ方の構造が異なる"
+    }
+   ]
+  },
+  {
+   "slug": "soup-yakisoba",
+   "body_ja": "## 何でできているか\n見た目は醤油ラーメンそのものだが、れんげですくって食べると麺はしっかりコシのある焼きそば麺で、噛むほどにソースの香りが立つ。具は豚肉やキャベツ、鶏肉、なると、紅しょうがなど店によって幅があり、注いだ直後は醤油だしのすっきりした風味が先に立つという。見た目と食感の落差が、初めて食べる客をいつも驚かせるという。\n## どう作るのか\n中華麺をソースで炒めて焼きそばに仕上げ、丼に盛りつける。そこへ鶏がらだしなどをベースにした醤油味のスープを別に用意して注ぎ入れ、麺とスープを一体にして完成させる。時間が経つにつれてスープにソースの味が溶け出し、風味が徐々に変化していくのも食べ方のひとつとされる。麺を先に食べるかスープと絡めるか、順番も客の好みに委ねられている。\n## なぜこの形になったのか\n一説によると、塩原温泉の名物として50年以上前から作られてきたという。湯上がりの体を温める一杯として、長く同じ形が守られてきたとも伝わる。炒めたソース焼きそばに醤油味のスープを注ぐという作り方は、焼きそばとラーメンという二つの麺料理を一つの丼にまとめる土地の工夫として育ってきたと考えられる。温泉街で食べ歩く客の記憶に残る一杯として、半世紀にわたり同じ作り方が受け継がれてきたとも読める。",
+   "body_en": "## What it's made of\nIt looks exactly like a bowl of soy-sauce ramen, but scoop up a spoonful and the noodles have the firm bite of yakisoba, the sauce's aroma rising with every chew. Toppings vary by shop — pork, cabbage, chicken, fish cake, pickled red ginger — and right after the broth is poured, a clean soy flavor comes first.\n## How it's made\nChinese-style noodles are fried in sauce into ordinary yakisoba and plated in a bowl. A separately prepared soy-based broth, often built on a chicken-bone stock, is then poured over it, bringing noodles and broth together into one dish. As time passes, the sauce's flavor bleeds into the broth, and that shift in flavor is said to be part of how the dish is meant to be eaten.\n## Why it took this shape\nOne account holds that it has been made as a specialty of the Shiobara hot spring for more than fifty years. The two-step method — frying sauce yakisoba, then pouring a soy broth over it — reads as a local way of folding two separate noodle dishes, yakisoba and ramen, into a single bowl.",
+   "sources": [
+    {
+     "title": "スープ入り焼きそば",
+     "url": "https://www.siobara.or.jp/gourmet/yakisoba/",
+     "publisher": "塩原温泉観光協会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "soup-yakisoba",
+     "to_slug": "sauce-yakisoba",
+     "relation_type": "派生",
+     "basis": "塩原温泉観光協会の説明で、炒めたソース焼きそばを丼に入れて醤油味のスープを注ぐ作り方が明記されている"
+    }
+   ]
+  },
+  {
+   "slug": "omigawa-curry-yakisoba",
+   "body_ja": "## 何でできているか\n丼を覗くとラーメンのようなつゆに中華麺が沈み、湯気とともにソースとカレーの香りが同時に立ちのぼる。すった魚肉ソーセージと軽く炒めたキャベツがのり、甘みのあるつゆがソースの味を際立たせる作りだという。カレー粉は食べる直前にふりかけ、つゆに溶けていく途中の香りの変化も味のうちとされる。すすっているうちに香りが少しずつ変わっていくのが独特の楽しみ方になる。\n## どう作るのか\n中華麺をゆでてラーメンのように丼に盛り、甘口に仕立てたソース味のつゆを注ぐ。すり身にした魚肉ソーセージと軽く炒めたキャベツをのせ、仕上げにカレー粉をふりかける。名前は焼きそばでも、麺を油で炒める工程を持たない点がこの料理の特徴になっている。カレー粉の量は自分で加減できる店が多く、辛さの好みに応じて調整できる。\n## なぜこの形になったのか\n一説によると、黒部川沿いにかつてあった「一心堂」という店が発祥とされる。焼きそばの名を持ちながらソース味のつゆとカレー粉を組み合わせた独特の構成は、店ごとの工夫が積み重なって定着したご当地の型と考えられている。水郷の町で親しまれてきた麺料理が、独自の呼び名のまま今の店々に引き継がれ、地元の人にとっては当たり前の一杯になっているという。祭りや行事の合間に食べる一杯としても親しまれてきたと伝わる。",
+   "body_en": "## What it's made of\nLook into the bowl and Chinese-style noodles sit in what looks like ramen broth, the steam carrying both sauce and curry aromas at once. Ground fish sausage and lightly fried cabbage sit on top, and a broth on the sweeter side is said to make the sauce flavor stand out. Curry powder is dusted on right before eating, and the way its aroma shifts as it dissolves into the broth is considered part of the experience.\n## How it's made\nChinese-style noodles are boiled and served ramen-style in a bowl, then covered with a sweetened, sauce-flavored broth. Ground fish sausage and lightly fried cabbage go on top, finished with a dusting of curry powder. Despite carrying yakisoba in its name, the dish skips the step of frying the noodles in oil — its defining trait.\n## Why it took this shape\nOne account credits a now-closed shop called Isshindo, once located along the Kurobe River, as the dish's origin. Carrying the name of yakisoba while combining a sauce-flavored broth with curry powder, this particular build is thought to have settled in as a local form built up through individual shops' own tweaks.",
+   "sources": [
+    {
+     "title": "小見川カレー焼きそば",
+     "url": "https://maruchiba.jp/gourmet/spot/detail_11107.html",
+     "publisher": "まるごとちば（千葉県観光物産協会）",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "omigawa-curry-yakisoba",
+     "to_slug": "aizu-curry-yakisoba",
+     "relation_type": "兄弟",
+     "basis": "焼きそばにカレーを合わせる「カレー焼きそば」という同型の派生が、千葉・小見川と福島・会津若松でそれぞれ独立に定着したと各地の一次資料で説明されている"
+    }
+   ]
+  },
+  {
+   "slug": "aizu-curry-yakisoba",
+   "body_ja": "## 何でできているか\nソースの香ばしさとカレーのスパイスが同じ皿の上で重なり合い、混ぜて食べるうちに味が少しずつ変化していく。ベースはソース焼きそばで、その上にとろみのあるカレールーをのせる構成が基本形とされる。店によってはとんかつや目玉焼きをのせ、麺も太麺や細麺、パスタを使うところもあるという。ルーの辛さと麺の太さの組み合わせだけでも、店ごとに印象が大きく変わる。\n## どう作るのか\n中華麺をソースで炒めて焼きそばに仕上げ、皿に盛ったところへ別に作ったカレーのルーをたっぷりとかける。麺とルーを最初から混ぜずに提供する店が多く、食べる側が好みで混ぜ具合を調整できるようになっているという。トッピングの自由度が高いことも、この料理の特徴とされる。ボリューム重視の一皿として大盛りを用意する店も少なくない。\n## なぜこの形になったのか\n一説によると、会津若松の食堂「トミーフード」が焼きそばにカレーをかけて提供したのが始まりで、その安さとボリュームが若者を中心に評判となり、他の飲食店にも広がっていったという。一軒の思いつきが土地の定番として広まった例といえ、財布に優しい一皿を求める学生や勤め人の需要とも重なっていたと考えられる。焼きそばとカレーという二つの定番を重ねる発想自体は単純だが、それゆえに真似しやすく広まったとも考えられる。",
+   "body_en": "## What it's made of\nSauce's toasty depth and curry's spice sit side by side on the same plate, the flavor shifting a little with every bite as you mix them together. The base is ordinary sauce yakisoba, topped with a thick curry roux — that's the standard build. Some shops add pork cutlet or a fried egg, and noodles can range from thick to thin to even pasta.\n## How it's made\nChinese-style noodles are fried in sauce into yakisoba, plated, then generously topped with a separately made curry roux. Many shops serve it without mixing the noodles and roux together first, leaving diners free to blend them to taste — a flexibility in topping that's part of the dish's character.\n## Why it took this shape\nOne account traces it to a diner in Aizuwakamatsu called Tommy Food, which began serving yakisoba topped with curry; its low price and generous size are said to have caught on especially with young diners before spreading to other restaurants around town. A single shop's idea, in other words, became the local standard.",
+   "sources": [
+    {
+     "title": "会津カレー焼きそば",
+     "url": "https://samurai-city.jp/ja/food/1522",
+     "publisher": "samurai-city.jp（会津若松市観光公社）",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aizu-curry-yakisoba",
+     "to_slug": "sauce-yakisoba",
+     "relation_type": "派生",
+     "basis": "会津若松市観光公社の紹介記事で、トミーフードが焼きそばにカレーをかけて提供したのが始まりと明記されている"
+    }
+   ]
+  },
+  {
+   "slug": "nakaminato-yakisoba",
+   "body_ja": "## 何でできているか\n口に入れるとまず麺のもちもちとした弾力が伝わり、噛むほどに小麦の風味が広がる。この麺は「手延べせいろ蒸し麺」と呼ばれ、一般的な蒸し中華麺よりも太さや食感に土地ならではの個性があるという。ソースの香ばしさと麺の弾力が合わさることで、他の焼きそばとは違う噛み応えになる。もちっとした食感が長く残るため、食べ終わったあとも印象に残るという。\n## どう作るのか\n手延べで仕立てた麺をせいろで蒸し上げてから、鉄板や中華鍋でソースとともに炒め合わせる。豚肉やキャベツなど具材は一般的な焼きそばと大きく変わらないが、麺そのものの製法にこだわることで土地の型を保っているとされる。蒸し加減ひとつで食感が変わるため、麺づくりの工程そのものが味の決め手になっているという。麺を仕入れる製麺所ごとに配合が違い、店を変えると食感の印象も変わるといわれる。\n## なぜこの形になったのか\n一説によると、那珂湊では60年以上前からこの焼きそばが地元で親しまれてきたという。港町として発展してきた土地で、独自の製麺技術を持つ麺が焼きそばに使われ続けたことが、他の地域とは違う食感を生み、市民のソウルフードとして根づく土台になったと考えられる。漁業の町で働く人たちの腹ごしらえとして重宝されてきた側面もうかがえ、市場で働く人の生活時間に寄り添ってきた一皿でもあるという。",
+   "body_en": "## What it's made of\nThe first thing you notice is the noodle's springy, chewy bite, with wheat's flavor spreading the more you chew. Called \"tenobe seiro mushimen\" — hand-stretched noodles steamed in a bamboo basket — it carries a width and texture distinct from ordinary steamed Chinese-style noodles. Combined with the sauce's savory depth, it gives the dish a bite unlike other yakisoba.\n## How it's made\nHand-stretched noodles are steamed in a bamboo basket, then fried together with sauce on a griddle or in a wok. The toppings — pork, cabbage — don't differ much from ordinary yakisoba, but sticking to this particular way of making the noodle themselves is said to be what keeps the local form intact.\n## Why it took this shape\nOne account holds that this yakisoba has been a local favorite in Nakaminato for more than sixty years. In a town that grew up as a fishing port, a noodle made with its own particular technique kept being used for yakisoba, and that is thought to be what gave the dish a texture unlike other regions' and let it take root as a local soul food.",
+   "sources": [
+    {
+     "title": "那珂湊焼きそば",
+     "url": "https://www.ibarakiguide.jp/gourmet/famous_food/page000458.html",
+     "publisher": "いばらきグルメ・ガイド（茨城県観光物産協会）",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nakaminato-yakisoba",
+     "to_slug": "ishinomaki-yakisoba",
+     "relation_type": "対比",
+     "basis": "那珂湊は手延べせいろ蒸し麺、石巻は二度蒸しの中力粉麺と、どちらも麺の蒸し工程に土地の型を持たせている点で対照的な発達をしている"
+    }
+   ]
+  },
+  {
+   "slug": "horusoba",
+   "body_ja": "## 何でできているか\n牛ホルモンの脂と味噌だれの甘辛さが先に立ち、そこに中華そばの麺がからんで香ばしさを添える。腸系のホルモンとハツやミノなどのミックス系があり、店によって梨を隠し味に使ったりにんにくを強めに効かせたりと、たれの濃さ・甘さ・辛さに幅があるという。噛むとホルモンの弾力と麺のコシが交互に感じられ、飲み物が進む味わいになる。\n## どう作るのか\n牛ホルモンと野菜を味噌だれで炒め、その中に中華そばの麺を加えてさらに炒め合わせる。古くからの店ではたれを別添えにして自分で濃さを調整する「つけダレ」式が多く、新しい店では最初からたれを絡めて焼く「混ぜ系」が増えているとされる。ホルモンの下処理の仕方も店ごとに違い、臭みの取り方に工夫が凝らされている。\n## なぜこの形になったのか\n一説によると、昭和30年代の鳥取市内の焼肉屋やホルモン屋で、ホルモンと野菜を味噌だれで炒めた中に中華そばを入れてみたところ好評だったのが始まりという。焼肉屋の味噌だれ文化と中華そばという別々の食材が、店先の思いつきで結びついた例と考えられる。締めの一品として麺を加える発想が、そのまま独立した料理に育っていった格好になり、今では単品としても頼める一皿として食堂の品書きに並んでいるという。",
+   "body_en": "## What it's made of\nBeef offal's fat and the miso sauce's sweet-savory pull come first, with Chinese-style noodles worked in to add a toasty edge. Intestine cuts and a mixed set of heart and tripe are both used, and shops vary the sauce's strength, sweetness, and heat — some working in pear as a hidden sweetener, others leaning hard on garlic.\n## How it's made\nBeef offal and vegetables are stir-fried in a miso-based sauce, then Chinese-style noodles are added in and fried further. Older shops tend to serve the sauce on the side as a dip so diners can adjust the strength themselves, while newer shops more often fry everything together with the sauce already worked in from the start.\n## Why it took this shape\nOne account holds that in the 1950s, a yakiniku or offal restaurant in Tottori city tried adding Chinese-style noodles into offal and vegetables already being fried in a miso sauce, and it caught on. It reads as two separate things — a yakiniku shop's miso-sauce culture and Chinese-style noodles — joined by one shopfront's idea.",
+   "sources": [
+    {
+     "title": "鳥取県東部で50年愛される牛ホルモン入り焼きそば「ホルそば」",
+     "url": "https://www.pref.tottori.lg.jp/178223.htm",
+     "publisher": "鳥取県",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "horusoba",
+     "to_slug": "miso-yakisoba",
+     "relation_type": "派生",
+     "basis": "鳥取県公式サイトの解説で、ホルモンと野菜を味噌だれで炒めた中に中華そばを加えたのが始まりと明記されている"
+    }
+   ]
+  }
+ ]
+}
