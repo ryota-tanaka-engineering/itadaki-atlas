@@ -1,0 +1,187 @@
+{
+ "items": [
+  {
+   "slug": "yakitori",
+   "body_ja": "## 何でできているか\n炭火の香りが最初に鼻へ抜け、そのあとタレなら甘辛い醤油だれ、塩なら脂そのものの香ばしさが追いかけてくる。もも肉はしっとりと脂を残し、むねやささみは締まった歯ざわりが持ち味となる。せせり・すなぎも・レバーなどの内臓は部位ごとに食感の振れ幅が大きく、コリコリからねっとりまで、一本の串の中で完結しない多様さを持つという。皮は脂を落としながら焼くことでかりっと仕上がり、正肉とはまったく別の一串として扱われることも多い。\n## どう作るのか\n下処理で余分な水分と筋を取り、部位ごとに大きさをそろえて串に刺すところから焼き手の仕事が始まる。炭火からの遠赤外線でじっくり中まで火を通しつつ、皮目やタレは強火でかりっと仕上げる、という火加減の使い分けが要るとされる。タレは継ぎ足しながら熟成させる店もあり、塩は脂の質がそのまま味に出るため、素材選びがより厳しくなるという。焼き手は串を細かく回しながら火の当たりを均一にし、部位ごとに焼き上がりの合図を見極めるとされる。\n## なぜこの形になったのか\n一説によると、鶏を丸ごと無駄なく食べる工夫の中で、正肉だけでなく内臓まで串にする文化が育ったという。地域によっては、養豚が奨励された時代に安く手に入った豚肉を串にし、それでも「やきとり」と呼び続けた土地もある。串という携帯性の高い形は屋台や立ち飲みの文化とも相性がよく、各地で独自の部位・タレ・呼び名を生みながら根付いていったと考えられる。安価な材料を無駄なく火にかけるという発想そのものが、土地ごとの型を生む土台になったといえる。",
+   "body_en": "## What it's made of\nCharcoal smoke reaches the nose first, followed by a sweet-savory soy glaze if it's tare, or the fat's own aroma if it's salt. Thigh meat stays moist and fatty while breast and tenderloin keep a firmer bite. Offal cuts like neck meat, gizzard, and liver swing wildly in texture from crunchy to silky, so a single skewer never settles into one character. Skin is grilled until its fat renders away and turns crisp, often treated as its own skewer entirely apart from prime cuts.\n## How it's made\nThe grill cook's work starts with trimming excess moisture and sinew, then sizing each cut evenly before threading it onto a skewer. Charcoal's radiant heat cooks the inside slowly while a hotter flame crisps the skin or caramelizes the tare, a balancing act said to define a good grill hand. Some shops age their tare by continually topping it up, and salt-seasoned skewers are said to demand stricter sourcing since the fat's quality shows through directly. The cook turns each skewer often to spread the heat evenly and reads small cues to judge when each cut is done.\n## Why it took this shape\nOne account holds that a culture of using the whole bird — offal included, not just prime cuts — grew out of efforts to waste nothing. In some regions, cheap pork available in eras when hog farming was promoted went on the skewer instead, and the dish kept the name yakitori regardless. The skewer's portability suited street stalls and standing bars well, letting each area develop its own cuts, sauces, and names as it took root. That same instinct — to put inexpensive material over fire without waste — is said to be the root from which each region's own form grew.",
+   "sources": [
+    {
+     "title": "焼き鳥の種類",
+     "url": "https://alex-co.jp/free/syurui",
+     "publisher": "一般社団法人 日本焼き鳥協会",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yakitori",
+     "to_slug": "higashimatsuyama-yakitori",
+     "relation_type": "派生",
+     "basis": "既存アイテムの一次資料が示す通り、カシラ肉と辛味噌だれという独自の部位・タレへ枝分かれしたご当地焼き鳥のため"
+    },
+    {
+     "from_slug": "yakitori",
+     "to_slug": "muroran-yakitori",
+     "relation_type": "派生",
+     "basis": "室蘭やきとりの会の資料が示す通り、鶏でなく豚を使う独自の型へ枝分かれしたご当地焼き鳥のため"
+    },
+    {
+     "from_slug": "yakitori",
+     "to_slug": "bibai-yakitori",
+     "relation_type": "派生",
+     "basis": "既存アイテムの一次資料が示す通り、一羽分を一本の串に刺す独自の型へ枝分かれしたご当地焼き鳥のため"
+    },
+    {
+     "from_slug": "yakitori",
+     "to_slug": "imabari-yakitori",
+     "relation_type": "派生",
+     "basis": "既存アイテムの一次資料が示す通り、串を使わず鉄板で焼く独自の型へ枝分かれしたご当地焼き鳥のため"
+    },
+    {
+     "from_slug": "yakitori",
+     "to_slug": "kurume-yakitori",
+     "relation_type": "派生",
+     "basis": "久留米広域連携中枢都市圏の資料が示す通り、豚・牛・馬まで串にする独自の型へ枝分かれしたご当地焼き鳥のため"
+    }
+   ]
+  },
+  {
+   "slug": "gyoza",
+   "body_ja": "## 何でできているか\n薄い小麦の皮の中に、豚ひき肉とキャベツや白菜、にら、にんにくなどを合わせた餡が詰まっている。焼き目のついた面はかりっと香ばしく、蒸し上がった上面はもちっと薄い。かじると肉汁と野菜の甘みが先に来て、にんにくの香りがあとを追う、というのが焼き餃子の典型的な構成とされる。皮の薄さと野菜の水分量のバランスが、餡が破れずに肉汁を閉じ込められるかを左右するという。\n## どう作るのか\n皮で餡を包んだあと、鉄鍋に並べて焼き、途中で湯を差して蒸し焼きにし、最後に油を足して底面をかりっと仕上げる「焼く・蒸す・焼く」の三段階が一般的とされる。皮の厚み、野菜と肉の比率、にんにくの量は店や家庭ごとに違い、添えるタレも酢醤油にラー油を効かせるかどうかで土地の好みが分かれるという。並べ方も、円形にすき間なく並べる店と、一つずつ間隔を空けて並べる店とで焼き上がりの食感が変わるとされる。\n## なぜこの形になったのか\n一説によると、中国から伝わった水餃子が、戦後の日本で家庭や屋台の献立に取り入れられる中で、鉄鍋で焼く形に定着していったという。安価な材料で満腹感を得られる点や、鉄板ひとつで手早く量産できる点が、街の食堂や引き揚げ者の生業と結びついたと伝わる。土地ごとの野菜の配合やタレの違いは、こうした草の根的な広まり方を映しているとされ、地元の商工団体が名物として後押しする例も見られる。",
+   "body_en": "## What it's made of\nA thin wheat wrapper holds a filling of minced pork mixed with cabbage or napa, chives, and garlic. The seared underside turns crisp and fragrant while the steamed top stays thin and chewy. Meat juice and the vegetables' sweetness tend to arrive first, garlic trailing after — the typical structure of a pan-fried gyoza. How thin the wrapper is and how much water the vegetables hold are said to decide whether the filling stays sealed and the juice stays in.\n## How it's made\nAfter wrapping, the standard sequence is said to be sear, steam, sear again: the dumplings go into a hot pan, water is added partway through to steam them, then more oil crisps the base at the end. Wrapper thickness, the ratio of vegetable to meat, and how much garlic goes in vary by shop and household, and the dip — vinegar-soy with or without chili oil — is said to split along regional taste as well. Whether the dumplings are packed edge to edge in a circle or spaced apart is also said to change the texture of the crisped base.\n## Why it took this shape\nOne account holds that boiled dumplings brought from China settled into a pan-fried form as postwar Japan folded them into home cooking and street food. Their low cost, filling nature, and the ease of turning out a batch from a single griddle are said to have tied them to neighborhood diners and the livelihoods of returnees from the mainland. Local differences in vegetable mix and sauce are said to reflect this grassroots, place-by-place spread, sometimes pushed further by local chambers of commerce promoting it as a citywide dish.",
+   "sources": [
+    {
+     "title": "宇都宮餃子会公式サイト",
+     "url": "https://www.gyozakai.com/",
+     "publisher": "宇都宮餃子会",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gyoza",
+     "to_slug": "pork-shoulder",
+     "relation_type": "使用食材",
+     "basis": "豚ひき肉には肩ロースなど脂と赤身のバランスが良い部位が使われることが多いとされる一般的な知見に基づく"
+    }
+   ]
+  },
+  {
+   "slug": "oden",
+   "body_ja": "## 何でできているか\n大根や卵、こんにゃく、練り物などがだしを吸い込み、噛むとじんわりとしみ出してくる。関東炊きと呼ばれる濃口醤油の澄んだ茶色いだしもあれば、真っ黒に煮えただしで黒はんぺんを煮込む土地もある。具材そのものよりも、だしの色と香りの違いが、土地ごとの個性を最も強く伝えるとされる。同じ大根でも、長く煮込むほど繊維がほどけて出汁を抱え込みやすくなるという。\n## どう作るのか\n大根は下ゆでして面取りし、練り物は油抜きしてからだしに合わせ、味の染み込みにくい具から順に鍋へ入れて長く煮込むのが基本とされる。地域によってはだしを吸わせたあとに生姜醤油をかけて食べる、串に刺して屋台で提供する、だし粉をふりかけるなど、煮込んだあとの仕上げ方に個性が出るという。一晩寝かせて味を落ち着かせてから供する店もあり、煮込む時間そのものが看板になることもある。\n## なぜこの形になったのか\n一説によると、豆腐田楽の「田楽」から転じた煮込み料理が各地に広まる中で、手に入りやすい練り物や地元の魚を具に取り込みながら土地ごとの形に分かれていったという。駄菓子屋や屋台で子どもも気軽に買えた土地もあれば、居酒屋の定番として発展した土地もあり、売られてきた場所の違いがそのまま食べ方の違いにつながったと考えられる。庶民的な売り場で育った土地ほど、気軽な食べ方が今も残りやすいという。",
+   "body_en": "## What it's made of\nDaikon, egg, konjac, and fish cakes soak up the broth and release it slowly with each bite. Some regions use a clear brown broth seasoned with dark soy, called Kanto-daki, while others simmer everything in a broth cooked nearly black, along with dark fish cake. More than the ingredients themselves, the color and aroma of the broth is said to carry a place's character. The longer the daikon simmers, the more its fibers loosen and take on the broth, so cooking time itself becomes part of the flavor.\n## How it's made\nThe standard approach is said to be parboiling and beveling the daikon, blanching the oil out of fish cakes, then adding ingredients to the pot in order of how slowly they take on flavor, for a long simmer. Some regions finish by drizzling or dipping the simmered pieces in ginger soy sauce, serving them skewered from a street stall, or dusting them with dried fish powder — the after-simmer touches are said to be where regional character shows. Some shops let the pot rest overnight before serving, treating the resting time itself as part of the craft.\n## Why it took this shape\nOne account holds that a simmered dish descended from grilled tofu dengaku spread across the country, taking on whatever fish cakes or local fish were on hand as it settled into each place's own form. Some regions sold it at candy shops where children could buy a piece easily; others built it into the standard izakaya menu — and that difference in where it was sold is said to have shaped how it came to be eaten. Places where it grew up in a casual, everyday setting are said to have kept that casual manner of eating it to this day.",
+   "sources": [
+    {
+     "title": "姫路おでん",
+     "url": "https://www.himeji-kanko.jp/gourmet/5/",
+     "publisher": "公益社団法人姫路観光コンベンションビューロー",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "oden",
+     "to_slug": "tsukune",
+     "relation_type": "使用食材",
+     "basis": "つくねは焼き鳥だけでなく、おでん種としても各地で扱われることが多いとされる一般的な知見に基づく"
+    }
+   ]
+  },
+  {
+   "slug": "unagi-kabayaki",
+   "body_ja": "## 何でできているか\n表面はタレの照りでつやめき、炭火の香ばしさをまとう。中の身は関東式なら蒸し工程を経てふわりと柔らかく、関西式なら蒸さない分、皮目のパリッとした歯ごたえが残る。甘辛いタレは焼くたびに継ぎ足され、店によっては何十年も注ぎ足し続けた「秘伝のタレ」を使うという。骨も一緒に揚げて別皿で出す店もあり、身とは違うパリッとした食感を楽しめる。\n## どう作るのか\nウナギは背開きか腹開きにして骨と頭を外し、素焼きにしたあとタレをつけて焼く「白焼き→蒲焼」の工程を踏むのが一般的とされる。関東では素焼きのあとに一度蒸してから再び焼く工程が入り、余分な脂を落として柔らかく仕上げる。関西ではこの蒸し工程を省き、直火でじっくり焼き上げて香ばしさを前面に出すという違いがある。\n## なぜこの形になったのか\n一説によると、武家文化の江戸では蒸して柔らかくする調理が好まれ、商人文化の大阪では直火焼きのまま供する形が定着したという。シラスウナギが豊富に獲れる汽水湖や、寺社の参詣客をもてなす門前町など、養殖のしやすさと人の集まる立地が重なった土地で、蒲焼を名物とする店が集積していったと考えられる。水と人の流れが交わる場所に、老舗の蒲焼店が育ちやすかったといえる。同じ蒲焼という名でも、開き方ひとつに土地の気質が表れているという。",
+   "body_en": "## What it's made of\nThe surface gleams with the sheen of the glaze and carries the smell of charcoal. Inside, the Kanto style comes out soft and pillowy thanks to a steaming step, while the Kansai style, which skips steaming, keeps a crisp bite at the skin. The sweet soy glaze is topped up with every batch grilled, and some shops use a \"secret sauce\" said to have been replenished for decades. Some restaurants fry the bones separately and serve them on their own plate, offering a crunch quite different from the flesh.\n## How it's made\nThe eel is split along the back or belly, boned and headed, then grilled plain before the glaze goes on — a \"shirayaki then kabayaki\" sequence said to be standard. In eastern Japan a steaming step follows the plain grill and precedes the final grilling, rendering out excess fat for a softer result. Western Japan skips that steaming step, grilling straight through over direct heat to foreground the char.\n## Why it took this shape\nOne account holds that Edo's samurai culture favored the softer result of steaming, while Osaka's merchant culture settled on serving it grilled straight through. In places with the right mix of easy eel farming — a brackish lake rich in glass eels — and a temple town drawing crowds of visitors, kabayaki shops are thought to have clustered and turned the dish into a local specialty. Where water and foot traffic met, long-established kabayaki restaurants seem to have found room to grow. Even under one name, kabayaki, the way the fish is split is said to carry something of each place's temperament.",
+   "sources": [
+    {
+     "title": "うなぎ",
+     "url": "https://ja.wikipedia.org/wiki/ウナギ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "unagi-kabayaki",
+     "to_slug": "unagi",
+     "relation_type": "使用食材",
+     "basis": "うなぎの蒲焼はニホンウナギを主原料とする調理法であるため"
+    }
+   ]
+  },
+  {
+   "slug": "sukiyaki",
+   "body_ja": "## 何でできているか\n鉄鍋の上で牛肉の脂がじわりと溶け出し、割り下の醤油と砂糖の甘辛い香りが立ちのぼる。しらたきや長ねぎ、豆腐、春菊などが肉の脂と割り下を吸い込み、それぞれ違う食感で口に運ばれる。仕上げに溶き卵をくぐらせることで、熱と辛みが和らぎ、まろやかな後味になるという。脂の質が良い肉ほど、割り下の濃さに負けずに肉本来の甘みが残るとされる。\n## どう作るのか\n関東式は醤油・砂糖・みりんなどを合わせた割り下を先に用意し、具材を鍋に入れて煮ながら食べ進める。関西式は牛脂で肉をまず焼き、砂糖と醤油を直接振りかけて味をつけたあとに野菜を加え、水分が出てきたところで割り下代わりにするという違いがあるとされる。薄切り肉は火が通りやすく、甘辛い味を強くまとわせやすい厚みとされる。\n## なぜこの形になったのか\n一説によると、農具の鋤を鉄板代わりに肉を焼いたのが名の由来ともいわれ、明治期の牛肉食解禁とともに広まったという。良質な牛肉が手に入る土地では、脂の甘みを活かす調理として濃い味の割り下や直焼きが好まれてきたと考えられ、銘柄牛の産地ごとにすき焼きが看板料理として定着していったとされる。長期肥育で脂を蓄えた牛が育つ土地ほど、濃い味付けとの相性が語られやすいといえる。老舗の牛肉店が今も残る土地では、すき焼きが特別な日の料理として位置づけられてきたとされる。",
+   "body_en": "## What it's made of\nBeef fat slowly renders on the hot iron pan as the sweet-savory smell of soy and sugar rises from the sauce. Shirataki noodles, long onion, tofu, and chrysanthemum greens each soak up the meat's fat and the sauce, arriving at the mouth with a different texture apiece. A final dip in beaten raw egg is said to soften the heat and round off the aftertaste. The better the fat's quality, the more the meat's own sweetness is said to hold up against the sauce's strength.\n## How it's made\nThe Kanto style mixes soy sauce, sugar, and mirin into a sauce ahead of time and simmers the ingredients in it as the meal proceeds. The Kansai style sears the meat first in beef fat, seasons it directly with sugar and soy, then adds vegetables and lets the liquid that emerges stand in for the pre-mixed sauce. Meat is sliced thin so it cooks through quickly and takes on the sweet-savory flavor readily.\n## Why it took this shape\nOne account traces the name to using a plow blade (suki) as a makeshift griddle, the dish spreading once beef eating was lifted from restriction in the Meiji era. In places with access to good beef, a stronger-flavored sauce or direct searing is said to have been favored to showcase the fat's sweetness, and sukiyaki is said to have settled in as the signature preparation in one brand-beef region after another. Cattle raised over a long span to build fat are said to pair especially well with that stronger seasoning. In towns where long-established beef restaurants still stand, sukiyaki is said to have held a place as a dish for special occasions.",
+   "sources": [
+    {
+     "title": "牛の部位図鑑",
+     "url": "https://www.piif.jmtc.or.jp/ushibui/",
+     "publisher": "公益財団法人日本食肉流通センター",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sukiyaki",
+     "to_slug": "rib-roast",
+     "relation_type": "使用食材",
+     "basis": "リブロースはステーキだけでなくすき焼きに使われることが多いとされる、牛肉の部位図鑑等の一般的知見に基づく"
+    }
+   ]
+  },
+  {
+   "slug": "karaage",
+   "body_ja": "## 何でできているか\n衣は薄く、噛むとまず醤油と生姜の下味の香りが来て、そのあとに鶏肉自体の脂とうまみが追いかけてくる。骨付きのままごろりと揚げる型もあれば、骨を外して食べやすくした型もあり、衣の厚みと下味の濃さの組み合わせで土地ごとの個性が生まれるとされる。仕上げにかけるタレの有無も、衣の食感を左右する要素のひとつという。\n## どう作るのか\n醤油・酒・生姜・にんにくなどに鶏肉を漬け込み、味をしみ込ませたあと、片栗粉や小麦粉を薄くまぶして高温の油で揚げる、というのが基本の型とされる。二度揚げして衣をかりっとさせる店もあれば、揚げたてに専用のタレをからめて仕上げる土地もあり、揚げたあとのひと手間に地域差が出るという。骨付きか骨なしかでも揚げ時間の管理が変わり、店ごとの経験がものをいうとされる。\n## なぜこの形になったのか\n一説によると、中国から伝わった揚げ物の技法が下味文化と結びつき、戦後の食肉消費の広がりとともに全国の食堂や居酒屋に定着していったという。鶏肉の生産量が多い土地や、酒の肴として揚げ物が好まれた土地では、それぞれ独自のタレや衣で個性を競うようになり、専門店が集積する街も生まれたと考えられる。居酒屋文化と結びついた土地ほど、酒に合う濃いめの味付けが好まれる傾向があるという。",
+   "body_en": "## What it's made of\nThe batter is thin, so the marinade's soy and ginger hit first on the bite, the chicken's own fat and savor following after. Some places fry it bone-in for a heartier chunk, others bone it out for easy eating, and the combination of batter thickness and marinade strength is said to give each region its own character. Whether a sauce is tossed on at the end also shapes how the batter finally feels in the mouth.\n## How it's made\nThe standard method is said to be marinating chicken in soy sauce, sake, ginger, and garlic to let the flavor soak in, then dusting it thinly with potato or wheat starch before frying in hot oil. Some shops double-fry for extra crispness, others toss the freshly fried pieces in a house sauce — a regional difference said to show up in that last step after frying. Whether the bone stays in also changes how the frying time is judged, a matter of each shop's experience.\n## Why it took this shape\nOne account holds that a frying technique brought from China merged with a marinating tradition and spread through diners and izakaya nationwide as postwar meat consumption grew. In places with strong chicken production, or where fried food was favored as a drinking snack, shops are thought to have competed with their own marinades and batters, in some cases clustering into whole streets of specialty shops. Places tied closely to izakaya culture are said to lean toward a bolder seasoning suited to drinking.",
+   "sources": [
+    {
+     "title": "からあげフェスティバル",
+     "url": "https://www.karaage.ne.jp/event/karafes/",
+     "publisher": "一般社団法人日本唐揚協会",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "karaage",
+     "to_slug": "tori-momo",
+     "relation_type": "使用食材",
+     "basis": "唐揚げには鶏もも肉が使われることが多いとされる一般的な知見に基づく"
+    }
+   ]
+  },
+  {
+   "slug": "curry-rice",
+   "body_ja": "## 何でできているか\nとろみのあるルーはひと口ごとに米粒をまとい、スパイスの香りのあとから小麦粉のコクと甘みが追いかけてくる。具は牛肉・豚肉・鶏肉と土地や家庭で分かれ、福神漬けやらっきょうを添えるのが定番とされる。ステンレスの皿にキャベツの千切りを添えて出す型など、盛り付けそのものが名物化した土地もあるという。福神漬けの赤とルーの色の対比も、皿全体の見た目を印象づける要素とされる。\n## どう作るのか\n小麦粉をバターやラードで炒めてルウを作り、出汁やスープでのばしてとろみをつけたあと、スパイスと具材を煮込むのが基本の型とされる。家庭では市販のルウを使うことが多いが、専門店では独自にスパイスを配合し、数日寝かせて味をなじませる店もあるという。ご当地の型では、ソースをかけて食べる、フォークで食べるなど、仕上げと食べ方に独自のルールを持つ場合がある。\n## なぜこの形になったのか\n一説によると、インド経由でイギリス海軍に伝わったシチュー状のカレーが、明治期の日本の海軍に取り入れられ、栄養バランスが良く調理しやすい献立として広まったのが始まりという。軍港の街ではその味を今に再現する動きがあり、また各地の食堂や喫茶店がそれぞれの配合を競う中で、ご当地色の強いカレーライスが生まれていったと考えられる。",
+   "body_en": "## What it's made of\nThe thickened roux coats each grain of rice, spice aromas arriving first before the wheat roux's own richness and sweetness follow. The meat varies by place and household — beef, pork, or chicken — and a side of fukujinzuke pickles or rakkyo is standard. In some places the plating itself became the specialty, such as shredded cabbage served alongside on a stainless steel plate.\n## How it's made\nThe basic method is said to be browning flour in butter or lard to make a roux, thinning it with stock or dashi for body, then simmering in spices and other ingredients. Home cooks mostly use a packaged roux block, while specialty shops blend their own spices, some resting the finished curry for days to let the flavor settle. Local styles sometimes carry their own rules for finishing and eating — a drizzle of sauce, or eating with a fork rather than a spoon.\n## Why it took this shape\nOne account traces it to a stew-like curry that reached the British Navy by way of India and was then adopted by Japan's own navy in the Meiji era as an easy-to-cook, nutritionally balanced meal. Former naval port towns have moved to recreate that original taste, and as diners and cafes across the country competed with their own spice blends, curry rice is thought to have branched into distinct local forms.",
+   "sources": [
+    {
+     "title": "よこすか海軍カレー・横須賀海自カレーガイドブック",
+     "url": "https://www.cocoyoko.net/",
+     "publisher": "横須賀集客促進・魅力発信実行委員会",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "curry-rice",
+     "to_slug": "muroran-curry",
+     "relation_type": "対比",
+     "basis": "カレーライスとご当地カレーラーメンは、いずれも日本で独自に発展したカレー料理として編集上対比できるため。両者を直接結ぶ源流関係を示す一次資料は確認できなかった"
+    },
+    {
+     "from_slug": "curry-rice",
+     "to_slug": "sanjo-curry",
+     "relation_type": "対比",
+     "basis": "カレーライスとご当地カレーラーメンは、いずれも日本で独自に発展したカレー料理として編集上対比できるため。両者を直接結ぶ源流関係を示す一次資料は確認できなかった"
+    },
+    {
+     "from_slug": "curry-rice",
+     "to_slug": "miso-curry-milk",
+     "relation_type": "対比",
+     "basis": "カレーライスとご当地カレーラーメンは、いずれも日本で独自に発展したカレー料理として編集上対比できるため。両者を直接結ぶ源流関係を示す一次資料は確認できなかった"
+    }
+   ]
+  }
+ ]
+}

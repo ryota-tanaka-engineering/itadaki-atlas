@@ -1,0 +1,25 @@
+{
+ "items": [
+  {
+   "slug": "managatsuo",
+   "body_ja": "## 何でできているか\n菱形に近い平たい体つきで、身は白く柔らかい。皮の際に脂がのり、加熱すると上品な甘みに変わるとされる。骨が少なく食べやすいため、切り身にしても扱いやすい魚とされる。旬は冬から早春とされ、この時期はとくに脂の乗りがよく、身の締まりも増すという。刺身にすると上品な甘みが際立ち、火を通すとふっくらと柔らかくほどける食感になるとされる。\n## どう作るのか\n瀬戸内海や播磨灘で刺し網などによって漁獲されることが多いとされる。傷みが早い魚とされ、水揚げ後の鮮度管理が重んじられるという。西京味噌に漬け込んで焼く「西京焼き」や、正月料理の一品として調理されることが多く、骨が少ない体つきが下処理のしやすさにもつながっているとされ、切り身での流通にも向いているという。西京漬けは味噌の塩分と糖分が身を締め、日持ちを良くする効果もあるとされる。\n## なぜこの形になったのか\n瀬戸内海に面した関西では、正月や祝いの席で扱われる「祝い魚」として親しまれてきたと伝わる。名の「まな」は「真魚」に通じるとされ、古くから食用魚の代表格として扱われてきたことに由来するのではないかという。骨が少ない上品な白身であることが、儀礼的な席で好まれてきた理由のひとつになってきたと考えられる。骨を気にせず取り分けられる扱いやすさも、大勢が囲む祝いの席との相性を後押ししてきたとされる。",
+   "body_en": "## What it's made of\nA flat, near-diamond-shaped fish with soft white flesh. Fat gathers just under the skin and is said to turn mellow and sweet once cooked. With few bones, it is easy to eat and easy to handle as fillets. Its season runs from winter into early spring, when the fat is said to be at its richest and the flesh firmest. Raw, its sweetness is said to stand out; cooked, it turns soft and yields easily apart.\n## How it's made\nIt is mostly taken by gillnet in the Seto Inland Sea and Harima Sea, and is said to spoil quickly, so freshness management right after landing is treated as important. It is often miso-marinated and grilled as saikyo-yaki, or served as part of New Year cooking, and its low bone count is said to make it easy to prepare into fillets, suiting it well to sale as cut portions. The salt and sugar in a miso marinade are also said to firm the flesh and help it keep longer.\n## Why it took this shape\nIn the Kansai region along the Seto Inland Sea, it is said to have long been treated as a celebratory fish for New Year and other festive occasions. The \"mana\" in its name is said to echo \"true fish\" (真魚), possibly reflecting a history as a byword for edible fish in general. Its refined white flesh and low bone count are thought to be part of why it has been favored at ceremonial tables. Being easy to portion without worrying about bones is also said to have suited it to shared, festive meals.",
+   "sources": [
+    {
+     "title": "マナガツオ",
+     "url": "https://ja.wikipedia.org/wiki/マナガツオ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "managatsuo",
+     "to_slug": "tai-madai",
+     "relation_type": "対比",
+     "basis": "いずれも関西で祝い魚・儀礼食として扱われてきた白身魚だが、マダイが慶事の象徴として全国区で扱われるのに対し、マナガツオは瀬戸内海沿岸で正月魚として親しまれてきた地域色の強い魚であり、編集上対比できるため（両者を直接結ぶ源流関係を示す一次資料は確認できなかった）"
+    }
+   ]
+  }
+ ]
+}
