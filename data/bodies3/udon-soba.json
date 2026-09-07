@@ -1,0 +1,417 @@
+{
+ "items": [
+  {
+   "slug": "kiryu-himokawa",
+   "body_ja": "## 何でできているか\n生地は小麦粉と塩水だけを練った素うどんだが、桐生の店ごとに麺の幅がまるで違う。一玉の中に幅十センチを超える帯のような麺を出す店もあり、噛み切るというよりも、しなる帯を舌の上でいったん受け止めてから味わうような食感になるという。厚みはきしめんよりもさらに薄く、つるりとした喉ごしが残る。つゆは醤油だしで、太く薄い麺の存在感を消さない澄んだ味に仕立てられることが多いとされる。\n## どう作るのか\n生地を足で踏んで練り込み、しばらく寝かせてから麺棒で極めて薄く伸ばしていく。屏風畳みにしてから包丁で幅広に切り分けるため、断面はきしめんよりもさらに平たく薄くなる。ゆで時間は短く、するりと茹で上がったところをすぐに冷たい水にとって締める店が多いという。同じ生地でも切る幅次第で一玉ごとに表情が変わる。\n## なぜこの形になったのか\n桐生は絹織物の産地として栄え、機織りの合間に手早く食べられる粉物として、うどんを打つ粉食文化が根づいたと伝わる。麺の幅そのものに決まった規格はなく、店ごとに違う太さを競うように出してきた結果、帯のような幅が名物として定着したとされる。決まった型がないことこそが、この麺の個性を保ってきたとも言える。今も一軒ごとに違う幅を求めて食べ歩く客がいるという。",
+   "body_en": "## What it's made of\nThe dough is plain wheat and salted water, but Kiryu shops vary sharply in width — some serve noodles wider than ten centimeters in a single bowl, a ribbon you almost catch on your tongue rather than slurp. The dipping broth is soy-based, kept clear so it doesn't compete with the noodle's thin, wide presence.\n## How it's made\nThe dough is kneaded underfoot, rested, then rolled out extremely thin with a rolling pin. Folded accordion-style before being cut into wide strips, the cross-section ends up flatter and thinner than kishimen. Boiling time is short, and many shops plunge the noodles straight into cold water once they rise.\n## Why it took this shape\nKiryu grew as a silk-weaving town, and a quick, hand-eaten flour dish is said to have taken root between shifts at the loom. There was never a fixed standard for the width itself, and as shops came to outdo one another with wider and wider cuts, the ribbon-like width stuck as the noodle's signature.",
+   "sources": [
+    {
+     "title": "群馬のうどん",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_11_gunma.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kiryu-himokawa",
+     "to_slug": "mizusawa",
+     "relation_type": "兄弟",
+     "basis": "農林水産省「群馬のうどん」で桐生のひもかわと水沢うどんが同じ群馬の郷土うどんとして並び紹介されている"
+    }
+   ]
+  },
+  {
+   "slug": "tatebayashi-udon",
+   "body_ja": "## 何でできているか\n使うのは邑楽館林産の在来品種「百年小麦」を挽いた粉だという。強い粘りとほのかな甘みが出るとされ、釜から上げたばかりの熱い麺に生卵と醤油だれを素早く絡める「釜玉うどん」として供する店が多い。湯気とともに立ちのぼる卵のとろみが麺全体をくるみ、すすった瞬間にまろやかな甘みが広がるという。冷たいざるうどんとして味わう店もあり、季節によって食べ方を変える客も多いという。\n## どう作るのか\n小麦粉を塩水でこね、しっかり踏み込んで生地を締めてから、しばらく寝かせる。麺棒で伸ばして切り分けたあと、大鍋でゆでてそのまま釜から丼へ移し、湯を切らずに卵とたれを手早く絡めるのが釜玉の作法とされる。麺自体は特別な細工を加えない素朴な手打ちのままで、店によっては薬味に刻みねぎと生姜を添え、卵の代わりに温泉卵を使うところもあるという。\n## なぜこの形になったのか\n稲作に不向きな土地で小麦栽培が盛んだった群馬では、うどんが日常の主食として根づいたと伝わる。館林では地元産小麦の復権を掲げて「百年小麦」を選び、釜から上げてすぐ食べる釜玉という食べ方に、麦どころとしての誇りを重ねてきたとされる。地粉の風味を生かす食べ方が、今も地元の食堂で世代を超えて受け継がれ、地域の誇りとして語り継がれている。",
+   "body_en": "## What it's made of\nThe flour is said to come from Hyakunen Komugi, a heritage wheat variety grown around Ora-Tatebayashi, valued for a firm chew and a faint sweetness. Many shops serve it as kamatama udon: noodles lifted straight from the pot, still hot, tossed quickly with raw egg and soy tare so the steam sets the egg into a light coating.\n## How it's made\nWheat flour is kneaded with salted water, trodden firmly to tighten the dough, then rested. After rolling and cutting, the noodles are boiled in a large pot and moved straight from pot to bowl without draining, which is said to be the point of kamatama — egg and tare go on while the noodle is still wet and hot.\n## Why it took this shape\nOn land ill-suited to rice, Gunma grew wheat instead, and udon is said to have settled in as an everyday staple. Tatebayashi chose to revive a local heritage wheat, Hyakunen Komugi, and built a point of pride into kamatama — eating the noodle the moment it leaves the pot, as a stand for the region's wheat.",
+   "sources": [
+    {
+     "title": "群馬のうどん",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_11_gunma.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tatebayashi-udon",
+     "to_slug": "kiryu-himokawa",
+     "relation_type": "兄弟",
+     "basis": "農林水産省「群馬のうどん」で館林のうどんと桐生のひもかわが同じ群馬の郷土うどんとして並び紹介されている"
+    }
+   ]
+  },
+  {
+   "slug": "oshibori-udon",
+   "body_ja": "## 何でできているか\n主役は麺よりもつけ汁である。辛味の強い「ねずみ大根」をすりおろし、布で絞った汁に信州味噌を溶き、刻みねぎとかつお節を加える。びっくりするほど辛い大根の汁に、まろやかな味噌が入ることで角が取れ、独特の深い味わいになるという。地元では「あまもっくら」という言葉でこの奥深さを表すこともある。辛味と甘み、旨みが層になって重なる味わいだという。\n## どう作るのか\n大根をすりおろして布で絞り、「おしぼり」と呼ばれる汁を作る。そこに信州味噌を溶き入れ、ねぎとかつお節を加えてつけ汁とする。うどんは生麺・乾麺のいずれでもよく、茹でてこの汁に浸しながら食べる。汗をかくほど辛いとされ、器に張った濃いつけ汁に麺をくぐらせて少しずつ味わう食べ方だという。地元では薬味の量で辛さを加減しながら食べるとも伝わる。\n## なぜこの形になったのか\n辛味大根の産地である坂城町周辺では、大根の絞り汁を無駄にせず調味に使う工夫が根づいたと伝わる。江戸から明治にかけて信州味噌との相性が見出され、辛さと旨みを両立させる食べ方として定着したとされる。冬の寒さを乗り切る滋養食としても親しまれてきたとされ、戸隠や千曲には麺をそばに替えた類似の「おしぼりそば」も伝わっており、辛味大根文化の広がりがうかがえる。",
+   "body_en": "## What it's made of\nThe star here is the dipping sauce, not the noodle. A fiercely hot variety called nezumi daikon is grated and squeezed through cloth, and the juice is mixed with Shinshu miso, chopped scallion, and bonito flakes. The daikon juice alone is startlingly hot, and the miso is said to round off its edge into a deep, distinctive flavor.\n## How it's made\nDaikon is grated and wrung through cloth to make the juice called oshibori. Miso is dissolved into it, then scallion and bonito flakes are added to finish the dipping sauce. Either fresh or dried udon works; it is boiled and then dipped into the sauce as you eat, hot enough, it's said, to bring out a sweat.\n## Why it took this shape\nAround Sakaki, a growing area for this hot daikon, using the squeezed-out juice rather than wasting it is said to have taken hold as a matter of course. Between the Edo and Meiji periods, its affinity with Shinshu miso was discovered, and the pairing of heat and umami settled in as a way of eating it. Togakushi and Chikuma keep a similar dish called oshibori soba.",
+   "sources": [
+    {
+     "title": "おしぼりうどん",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/oshibori_udon_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "oshibori-udon",
+     "to_slug": "togakushi",
+     "relation_type": "対比",
+     "basis": "出典に長野県内の戸隠・千曲には類似の「おしぼりそば」があると明記されている"
+    }
+   ]
+  },
+  {
+   "slug": "nibouto",
+   "body_ja": "## 何でできているか\n主材料は小麦粉を練った幅広の平たい麺と、深谷名産のねぎをはじめとする大根・にんじん・白菜・鶏肉・油揚げなど冬野菜である。麺は下茹でせず生のまま汁に入れるため、打ち粉が溶け出して汁全体にとろみがつく。味付けは醤油ベースで、とろみのついた熱い汁ごとすすると体が芯から温まるという。冬の日常食として親しまれてきたとされる。\n## どう作るのか\n薄く延ばした幅広の生麺を用意する。鍋で野菜をじっくり油で炒めてからだし汁を注ぎ、柔らかくなったところへ生麺をそのまま入れて煮込んでいく。同じ埼玉県から山梨に伝わる「ほうとう」と製法はよく似るが、味噌ではなく醤油で仕立てる点が異なるという。煮込むほどに汁と麺がひとつに馴染んでいき、仕上げに深谷ねぎをたっぷりのせるのが地元の流儀とされる。\n## なぜこの形になったのか\n稲作の裏作として小麦を多く産していた埼玉県では、各地に多様なうどんが生まれたと伝わる。深谷では名産のねぎをたっぷり使い、冬に体を温める日常食として定着した。実業家・渋沢栄一が愛したとも伝えられ、地元では今も学校給食を通じて子どもたちに世代を超えて親しまれ、深谷の郷土の味として大切に受け継がれ、家庭の食卓にも欠かせない存在だと今も語り継がれている。",
+   "body_en": "## What it's made of\nThe core is a wide, flat wheat noodle plus winter vegetables — Fukaya's own scallions above all, along with daikon, carrot, napa cabbage, chicken, and fried tofu. The noodle goes into the pot raw, without pre-boiling, so the flour dusting it washes off and thickens the broth. The seasoning is soy-based.\n## How it's made\nWide, flat noodles are rolled thin and left raw. Vegetables are stir-fried in oil, dashi is added, and once they've softened the raw noodles go straight in to simmer. The method resembles hoto, which traveled from the same wheat country to neighboring Yamanashi, but here soy sauce stands in for hoto's miso.\n## Why it took this shape\nSaitama, where wheat was widely grown as a second crop after rice, is said to have produced a range of local udon. Fukaya leans on its own scallions and settled in as an everyday dish to warm the body through winter. The industrialist Shibusawa Eiichi is said to have loved it, and it's still enjoyed locally today.",
+   "sources": [
+    {
+     "title": "煮ぼうとう／ひもかわ",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_7_saitama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nibouto",
+     "to_slug": "hoto",
+     "relation_type": "対比",
+     "basis": "出典に「山梨のほうとうとは異なる」と明記されている"
+    }
+   ]
+  },
+  {
+   "slug": "tsuyama-horumon-udon",
+   "body_ja": "## 何でできているか\n主材料はホルモン（内臓肉）とうどん、キャベツ・玉ねぎ・長ねぎ・もやしである。焼いたホルモンの脂とうどんの小麦の香りが鉄板の上で混ざり合い、店ごとに仕込む味噌や醤油ベースのたれをまとわせる。仕上げにゆず果汁を絞る店も多く、脂の重さに酸味が切れ込むという。白いご飯にも合う濃い味付けで、麺と内臓を交互に頬張る食べ方が定番とされる。\n## どう作るのか\n熱した鉄板でホルモンを焼き、野菜を加えて炒め合わせる。塩こしょうとたれ、うどんを加えてさらに炒め、最後にもやしを加えて仕上げる。ゆでたうどんを後から加える焼きうどんの一種で、たれの配合は店ごとに異なり、仕上げに一味唐辛子を振る店もあるという。五十軒を超える店がそれぞれの味を競い合い、店主の腕が試される料理とされている。\n## なぜこの形になったのか\n津山は古くから牛馬の流通拠点で、西暦705年には牛馬市が開かれた記録が残るという。肉食が禁じられた時代にも「養生喰い」として食が続いた土地柄から、内臓を臭みなく扱う食肉処理の技術が育ち、その内臓をうどんと合わせる食べ方が根づいたとされる。今では地元の研究会が中心となり、B級グルメの祭典を通じて全国にその濃厚な味がすっかり広く知られるようになったという。",
+   "body_en": "## What it's made of\nThe core is horumon (offal) and udon, stir-fried with cabbage, onion, scallion, and bean sprouts. The fat rendered from grilled offal mingles with the wheat aroma of the noodles, coated in a miso- or soy-based tare each shop mixes on its own; many finish with a squeeze of yuzu juice.\n## How it's made\nOffal is seared on a hot griddle, then vegetables are added and stir-fried together. Salt, pepper, tare, and udon go in next and are fried further, with bean sprouts added at the end. It's a form of pan-fried udon where the boiled noodle joins late, and the tare recipe is said to differ shop by shop.\n## Why it took this shape\nTsuyama has long been a hub for the cattle and horse trade, with records of a livestock market held there as far back as 705. Even in eras when eating meat was banned, the practice is said to have continued locally as \"recuperative eating,\" and the region's skill at handling offal without odor is said to have grown from that history, eventually meeting udon on the griddle.",
+   "sources": [
+    {
+     "title": "ホルモンうどん",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_19_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tsuyama-horumon-udon",
+     "to_slug": "buta-daicho",
+     "relation_type": "使用食材",
+     "basis": "「ホルモン」は牛・豚などの内臓肉の総称として使われ、代表的な部位として大腸が挙げられる"
+    }
+   ]
+  },
+  {
+   "slug": "nigomi-udon",
+   "body_ja": "## 何でできているか\n主材料は生うどんまたは乾麺と、大根・人参・小松菜・白菜・長ねぎ・しめじなどの野菜、油揚げである。味噌味・醤油味、あるいはその両方と、家庭によって味付けが分かれるという。だし汁に溶け出した野菜の甘みが麺をやわらかく包み、汁ごと飲み干したくなる素朴な味に仕上がる。冬の寒い日にはことのほか喜ばれる、体の芯からほっとする一杯だという。\n## どう作るのか\n野菜を具として使い、その汁でうどんを直接煮込む。麺を別茹でせずに汁へ加えるため、時間が経つほど汁にとろみが増していくとされる。仕上げにゆずこしょうを添える家庭もある。作り方自体は決まった型を持たず、煮込み時間の長さや具の組み合わせ、味付けの濃さも家庭ごとにさまざまに異なり、同じ名前でも味わいはひとつではないとされている。\n## なぜこの形になったのか\n相模原市津久井地域は稲作に不向きな土地で、古くから小麦・大麦の栽培が盛んだったと伝わる。名前の由来は汁が「濁る」ことから、あるいは「煮込みうどん」がなまったものからとも言われる。地形が育てた粉食文化を背景に、近年は地元商工会と大学が協力し、若い世代にも味を伝えようと周辺の飲食店での提供が根気強く復興されているという取り組みも今なお続いているとされる。",
+   "body_en": "## What it's made of\nThe core is fresh or dried udon simmered with vegetables — daikon, carrot, komatsuna, napa cabbage, scallion, mushrooms — plus fried tofu. Some households season it with miso, others with soy sauce, or both. The sweetness that leaches from the vegetables into the broth is said to wrap the noodle in a soft finish.\n## How it's made\nThe vegetables serve as the base, and the udon is simmered directly in their broth. Because the noodle isn't boiled separately before going in, the broth is said to thicken the longer it sits. Some households finish it with a dash of yuzu pepper. Beyond that, the recipe is left to each family's own taste.\n## Why it took this shape\nThe Tsukui area of Sagamihara is land ill-suited to rice, and wheat and barley are said to have been grown there for generations instead. The name is said to come either from the broth turning cloudy (nigoru) or from a slurring of \"nikomi udon\" (simmered udon). A recent partnership between the local business association and a university has revived it at nearby restaurants.",
+   "sources": [
+    {
+     "title": "にごみうどん",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_11_kanagawa.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nigomi-udon",
+     "to_slug": "miso-nikomi",
+     "relation_type": "対比",
+     "basis": "ともに味噌または醤油で野菜とうどんを直接煮込む郷土料理だが、伝わる地域と麺の太さが異なる"
+    }
+   ]
+  },
+  {
+   "slug": "noshikomi-udon",
+   "body_ja": "## 何でできているか\nだしは煮干しとしいたけを主に使う。汁は酒・塩・醤油で味を調え、具には野菜のほかちくわも加わる。中力粉と塩で作った生地を伸ばして切ったコシのある麺を、その汁でそのまま煮込むため、麺と汁が一体になった味に仕上がるという。冷え切った体にじんわりと染みる一杯とされる。山の冷え込みをしのぐ、体の芯まで温まる大切な食事だったという。\n## どう作るのか\n中力粉に塩を加えてこね、生地を作る。これを「伸ばし広げる」ことからのしこみと呼ばれ、地域によっては「ずりだしうどん」とも呼ばれるという。煮干しとしいたけのだしに酒・塩を加えた鍋にうどんを入れて煮込み、野菜やちくわを加え、野菜の甘みが汁全体に広がったところで最後に醤油を回し入れて味を調えてから仕上げる。\n## なぜこの形になったのか\n江戸時代、幕府の直轄領だった奥多摩は急峻な地形で水田に向かず、小麦や蕎麦の栽培が中心となり粉食文化が定着したと伝わる。山仕事から寒い中で帰った男性に、家庭で素早く温かい食事を出すための料理として根づいたとされる。手早さそのものが、この麺の形を決めてきたといえ、寒さの厳しい山里の暮らしを長く支えてきた一杯として、今も家庭料理として大切に、そして静かに受け継がれているとされている。",
+   "body_en": "## What it's made of\nThe dashi is mainly dried sardines and shiitake, seasoned with sake, salt, and soy sauce; the toppings run from vegetables to chikuwa fish cake. A firm noodle, rolled and cut from medium-strength flour and salt, is simmered directly in that broth, so noodle and soup are said to come together as one.\n## How it's made\nMedium-strength flour is kneaded with salt into a dough. The name noshikomi comes from \"rolling it out wide,\" and in some areas it's also called zuridashi udon. The noodle goes into a pot of dashi seasoned with sake and salt, simmered with vegetables and chikuwa, and finished with soy sauce.\n## Why it took this shape\nIn the Edo period, Okutama was shogunate-held land, its steep terrain unsuited to paddy fields, so wheat and buckwheat became the main crops and a flour-based food culture is said to have taken hold. It's said to have settled in as a dish households could serve quickly and hot to men coming home cold from work in the mountains.",
+   "sources": [
+    {
+     "title": "のしこみうどん",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_16_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "noshikomi-udon",
+     "to_slug": "nigomi-udon",
+     "relation_type": "対比",
+     "basis": "ともに山間部で発達した、生麺を汁でそのまま煮込む郷土うどんという共通点を持つが、伝わる地域が異なる"
+    }
+   ]
+  },
+  {
+   "slug": "kitsune-udon",
+   "body_ja": "## 何でできているか\n主材料はうどんと甘辛く煮含めた油揚げである。だしは真昆布と雑節を主に使い、青ねぎ・かまぼこ・柚子を薬味に添える。麺は太すぎずもっちりとした食感が身上とされ、澄んだだしによく馴染むよう仕立てられているという。甘辛い油揚げの汁がだしに溶け出し、丼全体をまろやかにするとされ、見た目以上に奥行きのある滋味豊かな味に仕上がるという。\n## どう作るのか\n真昆布と雑節でだしを取り、砂糖・塩などで丁寧に味を整える。油揚げは別のだしでじっくり時間をかけて甘辛く煮含めておく。茹でたうどんにだしをかけ、煮含めた油揚げと薬味をのせて仕上げる。油揚げとだしをそれぞれ別の鍋で丁寧に仕込む手間が特徴とされ、薬味の柚子が香りを引き締め、店ごとに煮汁の甘さの加減が微妙に違うという。\n## なぜこの形になったのか\n明治26年、船場のうどん店「松葉家」で、客が素うどんに油揚げをのせて食べたのが始まりと伝わる。油揚げが女狐の好物とされる俗信から「きつね」の名がついたという。大阪では「きつね」はうどん、油揚げをのせたそばは「たぬき」と呼び分けられ、今も大阪の食堂で定番の一杯として世代を超えて広く親しまれ続け、旅行者にも根強い人気の味だという評判が今も絶えることなくずっと続いている。",
+   "body_en": "## What it's made of\nThe core is udon topped with fried tofu simmered sweet and salty. The dashi runs mainly on true kelp and mixed dried fish, finished with scallion, kamaboko, and yuzu as garnish. The noodle itself is meant to be not too thick and pleasantly chewy, built to take up the dashi well.\n## How it's made\nDashi is drawn from true kelp and mixed dried fish, then seasoned with sugar and salt. The fried tofu is simmered separately, sweet and salty, in its own dashi. Boiled udon is doused in the broth and topped with the tofu and garnish. Preparing the tofu and dashi separately is said to be the point of the effort.\n## Why it took this shape\nIn 1893, at a Semba udon shop called Matsubaya, a customer is said to have topped a plain bowl with fried tofu, and that became the dish's start. The name kitsune (fox) is said to trace to a folk belief that foxes favor fried tofu. In Osaka, kitsune specifically means the udon version; soba with the same topping is called tanuki instead.",
+   "sources": [
+    {
+     "title": "きつねうどん",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_17_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kitsune-udon",
+     "to_slug": "usukuchi-shoyu",
+     "relation_type": "使用食材",
+     "basis": "大阪のうどんだしは色を抑えた淡口醤油で仕立てるのが通例とされる"
+    }
+   ]
+  },
+  {
+   "slug": "sippoku-udon",
+   "body_ja": "## 何でできているか\n主材料はゆでたうどんと、大根・人参・ねぎなどの冬野菜、豆腐、油揚げである。煮干しだしで数種の野菜を一度にじっくり煮込み、具材ごとうどんにかける。讃岐うどんならではの強いコシとなめらかな食感に、野菜の甘みと油揚げの味が重なるという。具だくさんで一杯でもおかずいらずの食べごたえがあり、日によって野菜の顔ぶれが変わる味わいを生むという。\n## どう作るのか\n大根や人参など季節の野菜を油揚げとともに煮干しだしでじっくり煮込む。ゆでたうどんの上から、具材と汁を一緒にかけて盛り付ける。薬味にねぎやしょうがを添え、家庭や店によって鶏肉や豚肉を加えてこくを出すこともあり、具材や出汁の配合、野菜の切り方も家庭ごとに少しずつ異なり、決まった正解のない料理として長く親しまれている。\n## なぜこの形になったのか\n雨が少なく温暖な香川の気候は良質な小麦の栽培にとても適し、瀬戸内海では煮干しの原料となるいわしが豊富に獲れ、醤油づくりも古くから盛んだったと伝わる。こうした条件が重なってうどんが定着し、冬には季節の野菜を一度に煮込んで盛るしっぽくうどんが根づいたとされる。年末には年越しそばの代わりとして食べる家庭も、今なお決して少なくないと広く言い伝えられているという。",
+   "body_en": "## What it's made of\nThe core is boiled udon under a handful of winter vegetables — daikon, carrot, scallion — plus tofu and fried tofu, all simmered together in dried-sardine dashi and ladled over the noodle, vegetables and broth alike. Sanuki udon's firm bite and smooth texture carry the sweetness of the vegetables and the flavor of the fried tofu.\n## How it's made\nSeasonal vegetables such as daikon and carrot are simmered together with fried tofu in dried-sardine dashi. The mixture, broth included, is ladled over boiled udon. Scallion and ginger go on as garnish, and some households or shops add chicken or pork for extra depth.\n## Why it took this shape\nKagawa's dry, mild climate suits growing good wheat, the Seto Inland Sea supplies the anchovies that become dried-sardine dashi, and soy sauce production is said to have flourished there too. Those conditions together are said to have settled udon into the region, and in winter, ladling a whole pot of simmered seasonal vegetables over it became shippoku udon.",
+   "sources": [
+    {
+     "title": "しっぽくうどん",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sippoku_udon_kagawa.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sippoku-udon",
+     "to_slug": "sanuki",
+     "relation_type": "派生",
+     "basis": "出典に「『讃岐うどん』の特徴であるコシの強さとなめらかな食感に加えて」と明記され、讃岐うどんを土台にした料理とされている"
+    }
+   ]
+  },
+  {
+   "slug": "chitake-udon",
+   "body_ja": "## 何でできているか\n主材料はちたけ（乳茸）となす、うどんである。ちたけは裂くと白い汁が出るきのこで香りが強く、なすとの相性がよいとされる。炒めただし汁にはちたけの風味が溶け出し、うどんにかけると香ばしさが麺全体に回るという。夏にしか出会えない、季節限定の一杯とされ、なすの甘みがちたけの風味をいっそう引き立てるという味わいである。\n## どう作るのか\n土を落としたちたけとなすを油で炒め、香りが立ったところにだし汁と調味料を加えて軽く煮る。丼に入れたうどんにこの汁をかけ、薬味のねぎをのせて仕上げる。うどんの代わりにそばで作ることもあり、「ちたけうどん（そば）」と併記されることもあるという。汁ごと味わうことで香りを余さず楽しめるとされ、家庭によって濃さの好みが違うという。\n## なぜこの形になったのか\n麦作が盛んな栃木県では、盆の行事に挽きたての小麦粉でうどんを打つ習わしがあったと伝わる。ちたけは秋のきのこに先立って8月頃にだけ生える希少なきのこで、盆の時期に採れることから、うどんのだし汁として使われるようになったとされる。里山の管理が進んだ時代の恵みが、盆の食卓にそのまま重なったともいえる。近年は自然環境の変化により収穫量そのものの減少が課題になっているという。",
+   "body_en": "## What it's made of\nThe core is chitake (a milk-cap mushroom), eggplant, and udon. Chitake releases a white sap when torn and carries a strong aroma said to pair well with eggplant. Stir-fried into the dashi, its flavor dissolves through the broth, and ladled over the noodle it carries that savor through the whole bowl.\n## How it's made\nChitake, cleaned of soil, and eggplant are stir-fried in oil, then dashi and seasoning are added for a light simmer. The broth goes over udon in a bowl, finished with scallion as garnish. Soba can stand in for the udon, and the dish is sometimes written as \"chitake udon (soba)\" to note both.\n## Why it took this shape\nIn Tochigi, a wheat-growing region, households are said to have kneaded udon from freshly milled flour as part of Obon observances. Chitake is a scarce mushroom that appears only around August, ahead of autumn's fungi, and because its season overlaps with Obon, it's said to have found its way into the noodle's dashi.",
+   "sources": [
+    {
+     "title": "ちたけうどん（そば）",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_9_tochigi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "chitake-udon",
+     "to_slug": "kate-soba",
+     "relation_type": "兄弟",
+     "basis": "ともに栃木県のそば処気候を背景に持つ郷土麺料理として、農林水産省の同一資料に隣接して紹介されている"
+    }
+   ]
+  },
+  {
+   "slug": "taishu-soba",
+   "body_ja": "## 何でできているか\n対州そばは小粒な在来種のそば粉だけから作る麺である。強いコシと、ほのかな苦みを伴う独特の風味を持つとされる。もりそば・かけそばとして食べるほか、対馬の郷土料理「いりやき」に入れた「いりやきそば」としても親しまれているという。噛むほどに香り高く、苦みが立つ味わいだとされ、あとを引く独特の後味が持ち味という。\n## どう作るのか\nそばを茹でて冷水で洗い、ぬめりを取ってから器に盛る。薬味には刻み海苔と刻みねぎを添える簡潔な調理法である。品種そのものの香りと苦みを生かすため、こね方や薬味を凝らしすぎない食べ方が長く守られてきたとされる。飾らない盛り付けそのものが、そばそのものの実力を静かに語る食べ方だといえる。海を渡ってきた麺の素朴さが、今も変わらずそのまま残っている。\n## なぜこの形になったのか\nそばの原種は中国南部からヒマラヤ周辺がルーツとされ、縄文時代に朝鮮半島を経由して対馬に伝わったと伝わる。離島であるため他品種との交雑が少なく、原種に近い性質を保ってきたとされ、2018年にはそばとして日本初の地理的表示（GI）保護制度の登録を受けた。離島だからこそ守られてきたこの性質が、今も対馬という小さな島の食文化を静かに、確かに支える存在とされている。",
+   "body_en": "## What it's made of\nTaishu soba is a noodle made from a small-grained heirloom buckwheat. It's said to carry a firm bite and a distinctive flavor with a faint bitterness. Beyond mori and kake styles, it's also enjoyed folded into Tsushima's local dish iriyaki, as iriyaki-soba.\n## How it's made\nThe noodle is boiled, rinsed in cold water to remove its surface starch, and served plain in a bowl with chopped nori and scallion as the only garnish. Keeping the preparation simple is said to let the variety's own aroma and bitterness carry the dish, rather than dressing it up.\n## Why it took this shape\nBuckwheat's wild ancestor is thought to trace to southern China or the Himalayan foothills, reaching Tsushima by way of the Korean peninsula in the Jomon period. Because the island is isolated, the crop is said to have crossed little with other varieties and kept close to its original form — in 2018 it became the first soba to be registered under Japan's geographical indication (GI) system.",
+   "sources": [
+    {
+     "title": "対州そば",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_26_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "taishu-soba",
+     "to_slug": "izumo",
+     "relation_type": "対比",
+     "basis": "ともに在来種にこだわる伝統的なそばとして比較されるが、対州そばは離島での交雑防止、出雲そばは挽きぐるみの製法に特徴がある"
+    }
+   ]
+  },
+  {
+   "slug": "niimi-kenchin-soba",
+   "body_ja": "## 何でできているか\n主材料はそばと、鶏肉・豆腐・大根・人参・ごぼう・油揚げなどの具である。千切りにした具を油で炒めてから醤油ベースのだし汁で煮込む「けんちん汁」を仕立て、これを茹でたそばにかけて食べる。野菜の滋味が汁全体に溶け込み、体の芯から温まる一杯になるといい、冬の寒さをしのぐための昔ながらの知恵が凝縮された料理として親しまれてきたという。\n## どう作るのか\n鶏肉を炒めたあと豆腐と野菜、油揚げを加えてさらに炒める。だし汁を注いで具が柔らかくなるまで煮込み、醤油・みりん・塩で味を調える。手打ちそばを茹でて丼に盛り、熱いけんちん汁をかけて仕上げる。野菜の甘みがそばの風味を引き立て、具だくさんの汁がそのままおかずにもなるという、満足感のある食べ応えの一杯に仕上がるという。\n## なぜこの形になったのか\n新見市は稲作に不向きな土壌のため、古くからそば栽培がとりわけ盛んだったと伝わる。千切りの具材を油で炒めて巻く「けんちん」の手法は江戸の頃から冬の栄養補給として重宝され、手打ちそばと相性のよい汁として組み合わされてきたとされる。地域の気候と土壌が生んだこの組み合わせが、家庭と飲食店の両方で今も大切に受け継がれ、冬の味覚として今なお、広く、深く親しまれているという。",
+   "body_en": "## What it's made of\nThe core is soba under a topping of chicken, tofu, daikon, carrot, burdock, and fried tofu. The julienned ingredients are stir-fried in oil, then simmered in a soy-based dashi to make kenchin broth, which is ladled hot over boiled soba — the vegetables' savor dissolving through the whole bowl.\n## How it's made\nChicken is stir-fried first, then tofu, vegetables, and fried tofu are added and cooked further. Dashi is poured in and simmered until everything softens, seasoned with soy sauce, mirin, and salt. Hand-cut soba is boiled, placed in a bowl, and topped with the hot kenchin broth.\n## Why it took this shape\nNiimi's soil is ill-suited to rice, and buckwheat is said to have been grown there widely for generations instead. The kenchin technique — julienning ingredients and stir-frying them before simmering — is said to date to the Edo period as a way to build winter nutrition, and it settled in as a broth suited to hand-cut soba.",
+   "sources": [
+    {
+     "title": "けんちんそば",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_15_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "niimi-kenchin-soba",
+     "to_slug": "soba-dojo-nabe",
+     "relation_type": "兄弟",
+     "basis": "ともに岡山県北部の山間地（新見市・美作市周辺）に伝わる、野菜だし仕立てのそば料理として同じ資料に紹介されている"
+    }
+   ]
+  },
+  {
+   "slug": "nishin-soba",
+   "body_ja": "## 何でできているか\n主材料は身欠きニシン（ニシンの干物）とそばである。身欠きニシンを水・醤油・砂糖・酒で甘露煮にし、濃口醤油の出汁をかけたそばの上にのせる。北海道版は味付けが濃く、汁がほのかに甘いのが特徴とされる。骨まで柔らかく煮含めた身が箸でほろりと崩れ、そばの香りと甘辛いニシンの対比が持ち味とされ、寒い土地らしい濃さの汁が芯から体を温めるという。\n## どう作るのか\n身欠きニシンをまず下茹でしたあと、水・醤油・砂糖・酒で長い時間をかけて甘露煮に仕立てる。そばは温・冷どちらの食べ方もあるとされ、濃口醤油ベースの出汁をかけたそばの上に、煮上がった身欠きニシンをのせて仕上げる。煮込む時間の長さが味の決め手になるといい、じっくり煮た煮汁の甘さがそば湯にまでゆっくりと移っていくという。\n## なぜこの形になったのか\n京都が発祥といわれる一方、北海道の「ニシン蕎麦」は江差町でニシン漁が栄えた頃の網元「横山家」に伝わるレシピが元になっているという。江戸後期から明治にかけてニシンを身欠きにして保存食にし、北前船で運んだことが各地のニシン料理につながったとされる。北前船交易が結んだ遠い土地と土地の長い歴史を、この一杯は今もなおそのまま、静かに、確かに伝えているとされている。",
+   "body_en": "## What it's made of\nThe core is migaki-nishin (dried herring) and soba. The dried herring is simmered sweet in water, soy sauce, sugar, and sake, then laid over soba in a dark soy-based broth. Hokkaido's version is said to run stronger in seasoning, its broth carrying a faint sweetness.\n## How it's made\nThe dried herring is first parboiled, then simmered slowly sweet in water, soy sauce, sugar, and sake. The soba can be served hot or cold, topped with the finished herring over a koikuchi soy-based broth.\n## Why it took this shape\nWhile the dish is also said to have originated in Kyoto, Hokkaido's version traces to a recipe kept by the Yokoyama family, herring-fishing magnates in Esashi during the herring boom. From the late Edo period into Meiji, herring was dried for preservation and shipped nationwide by kitamae-bune trading ships, a trade said to have spread herring dishes to many regions in turn.",
+   "sources": [
+    {
+     "title": "ニシン蕎麦",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nishinsoba_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nishin-soba",
+     "to_slug": "sapporo",
+     "relation_type": "対比",
+     "basis": "ともに北海道を代表する麺料理として知られるが、ニシン蕎麦はそば、札幌はラーメンという別系統の麺である"
+    }
+   ]
+  },
+  {
+   "slug": "baniku-soba",
+   "body_ja": "## 何でできているか\n主材料は馬肉の小間切れとそばである。馬肉をしょうがと醤油・砂糖・酒・赤酒でじっくり甘辛く煮詰めた「しぐれ煮」を作り、これを熱いそばにのせる。馬肉は「桜肉」とも呼ばれ、熊本ではスーパーでも普通に並ぶ身近な食材だという。ほろりとほどける肉の食感が持ち味とされ、そばの香りと肉の甘辛さが絡み合う味わいだといわれる。\n## どう作るのか\n馬肉を下ゆでしてから、しょうがと調味料でじっくり甘辛くなるまで煮詰め、しぐれ煮に仕立てる。茹でて温めたそばを丼に盛り、しぐれ煮をのせて仕上げる。「熊本で肉そば」といえば、この馬肉のしぐれ煮を指したとされ、薬味に刻みねぎを添えることも多いという。甘辛いたれがそばつゆにも自然に溶け込んでいく、滋味深い味わいである。\n## なぜこの形になったのか\n肥後藩主・加藤清正が朝鮮出兵の際に軍馬を食べたことが馬肉文化の始まりと伝わる。江戸時代には栄養価の高い薬膳料理として、けが人や病人に供されたという。戦後は阿蘇山麓で役目を終えた軍馬の肉が活用され、馬肉料理が広まったとされる。武士の時代から戦後まで長く続いてきた土地の歴史が、この一杯の皿の上に重なり合い、今も変わらず熊本の食文化をなお静かに、確かに象徴し続けているのだと言われる。",
+   "body_en": "## What it's made of\nThe core is thin-sliced horse meat and soba. The meat is simmered sweet and salty with ginger, soy sauce, sugar, sake, and akazake into a shigure-ni, then laid over hot soba. Horse meat, also called sakura-niku (cherry-blossom meat), is said to be an everyday ingredient in Kumamoto, sold even in supermarkets.\n## How it's made\nThe horse meat is parboiled, then simmered down with ginger and seasonings until sweet and salty, finished as shigure-ni. Hot boiled soba is placed in a bowl and topped with the meat. In Kumamoto, \"niku soba\" (meat soba) is said to have traditionally meant this horse-meat version specifically.\n## Why it took this shape\nHorse-meat culture is said to trace to the Higo lord Kato Kiyomasa eating army horses during his campaigns in Korea. In the Edo period, it's said to have been served as a nutrient-rich restorative dish for the injured and ill. After the war, meat from army horses retired to pasture on the Aso foothills came into use, spreading horse-meat cooking further.",
+   "sources": [
+    {
+     "title": "馬肉蕎麦",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/baniku_soba_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "baniku-soba",
+     "to_slug": "kumamoto-akaushi",
+     "relation_type": "対比",
+     "basis": "ともに熊本県の郷土肉食文化を代表する食材だが、馬肉蕎麦は馬肉、あか牛は牛肉という違いがある"
+    }
+   ]
+  },
+  {
+   "slug": "mikuriya-soba",
+   "body_ja": "## 何でできているか\n主材料はそば粉と山芋、鶏肉、人参・しいたけ・青ねぎである。水の代わりに山芋（自然薯）でそばをつなぐため、なめらかで喉ごしがよいという。だしは鶏ガラを主に、かつおと昆布のだしも合わせるとされ、山里らしい野趣に富んだ滋味深い一杯に仕上がるといい、噛むよりも喉でじっくりと味わう独特の食感になるといい、山里の恵みを寄せ集めたような滋味が広がるという。\n## どう作るのか\n鶏ガラでだしを取り、細切りにした鶏肉・人参・しいたけを煮込んで醤油と砂糖で味付けする。そば粉は山芋を加えてこね、水を使わずに手打ちする。茹でたそばにこの汁をかけて仕上げる。つなぎに山芋を使うため、そば粉だけの麺よりもとろりとした口当たりになり、手間を惜しまない家庭の味として世代を超えて長く伝わってきたという。\n## なぜこの形になったのか\n御厨地域はそばや麦を多く栽培していた農村部で、水の確保がとりわけ難しい土地柄から、農家が山芋を使ってそばをつなぐ工夫をしたのが起源とされる。鶏ガラでだしを取る点も、身近な食材でつゆを仕立てる暮らしから生まれたと伝わる。限られた資源を生かす知恵が、この土地ならではの一杯として今もなお大切に息づき、家庭ごとの味として静かに、確かに語り継がれているという。",
+   "body_en": "## What it's made of\nThe core is soba flour, wild yam, chicken, carrot, shiitake, and scallion. In place of water, grated wild yam (jinenjo) binds the dough, giving the noodle a smooth, easy swallow. The dashi runs mainly on chicken bones, sometimes rounded out with bonito and kelp.\n## How it's made\nDashi is drawn from chicken bones, then julienned chicken, carrot, and shiitake are simmered in it and seasoned with soy sauce and sugar. The buckwheat flour is kneaded with wild yam instead of water and hand-cut. Boiled soba is topped with this broth to finish.\n## Why it took this shape\nMikuriya was farm country that grew a great deal of buckwheat and wheat, and on land where water was hard to come by, farmers are said to have hit on using wild yam to bind the dough instead. Drawing dashi from chicken bones, too, is said to have grown out of a life built on making broth from whatever ingredients were close at hand.",
+   "sources": [
+    {
+     "title": "御厨そば",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_9_shizuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mikuriya-soba",
+     "to_slug": "yoshida",
+     "relation_type": "対比",
+     "basis": "ともに富士山麓に伝わる粉物の麺料理だが、静岡側はそば、山梨側はうどんとして別々に発達した"
+    }
+   ]
+  },
+  {
+   "slug": "kanuma-zairai-soba",
+   "body_ja": "## 何でできているか\n鹿沼在来そばは、一般的なそば実に比べて約8割ほどの小粒（3.8〜4.2mm）にとどまる在来種である。殻が薄い分、香り成分のもとになる甘皮の割合が高く、剥き実の香りが豊かだという。麺にすると高いデンプン質で雑味のない澄んだ甘さが出て、タンパク質が低いため歯切れもよいとされる。香りの強さは挽きたてほど際立ち、地元でも評判だという。\n## どう作るのか\n栽培地は山によって分断された沢地を中心に選び、他品種との交雑を防いでいるという。収穫したそばの実を挽きぐるみで粉にし、水を加えてこね、丁寧に麺状に打つ。品種の小粒さと薄い殻が、そのまま麺の香りと甘さに直結するとされる。地元では「鹿沼そば振興会」がこの在来種の普及を担い、SNSや直売所などを通じた広報活動も積極的に行っているという。\n## なぜこの形になったのか\n鹿沼は土地がやせ米の栽培が難しかったため、江戸時代からそばが食文化として定着したと伝わる。日光連山の南麓に位置し、昼夜の寒暖差が大きい気候により、そばの甘味成分が増えるとされる。栽培地を沢ごとに分けて選ぶ工夫が、気候と地形の両方を生かし、代々大切に受け継がれてきた在来種の性質を、今の麺の香りと甘さにまで、しっかりと確かに伝えているとされる。",
+   "body_en": "## What it's made of\nKanuma zairai soba is a heirloom variety whose grains run roughly 80% the size of ordinary buckwheat, 3.8 to 4.2 millimeters. The thinner hull means a higher share of the aromatic inner skin, giving the hulled grain a richer scent. Milled into noodles, its high starch content is said to give a clean sweetness with no off-notes, and its low protein a good bite.\n## How it's made\nGrowing areas are chosen along valleys separated by mountains, a layout said to guard against cross-pollination with other varieties. The harvested grain is milled whole, hull included, kneaded with water, and worked into noodles — the variety's small grain and thin hull carrying straight through into the noodle's aroma and sweetness.\n## Why it took this shape\nKanuma's thin soil made rice difficult, and buckwheat is said to have settled into the local food culture as far back as the Edo period. Lying on the southern foothills of the Nikko mountains, the area's wide swings between day and night temperature are said to build up the crop's sweetness. Choosing separate valleys for cultivation is what has carried the heirloom variety's character through to today.",
+   "sources": [
+    {
+     "title": "第136号：鹿沼在来そば",
+     "url": "https://www.maff.go.jp/j/shokusan/gi_act/register/0136/index.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kanuma-zairai-soba",
+     "to_slug": "ibuki-soba",
+     "relation_type": "兄弟",
+     "basis": "ともに地理的表示（GI）保護制度に登録された小粒在来種のそばである"
+    }
+   ]
+  },
+  {
+   "slug": "ibuki-soba",
+   "body_ja": "## 何でできているか\n伊吹そばは直径4.5mm以下という、際立って小粒な在来種である。甘皮（種皮）の部分が多く、それに由来する緑の色調と強い香りが出るという。うま味と甘みは他の優良品種と比べても遜色がないとされ、製粉業者やそば店から高く評価されている。挽きたての香りの強さが持ち味とされ、緑がかった色合いも麺のひとつの特徴として好まれているという。\n## どう作るのか\n姉川上流域を通常の採種場とすることで、在来種を保全しながら安定した生産を確保する体制が長年かけて確立されているという。そこから下流の米原市内へと生産域を広げ、収穫した実を挽いて粉にし、麺として打つ。手間をかけて系統を守ることが、この品種の香りを保つ条件になっているといい、地元の生産者が世代を超えて守り継いできたという。\n## なぜこの形になったのか\n元来の生産地である姉川上流域は斜面地で水はけがよく、周囲を山に囲まれているため他品種と交雑しにくい環境だという。米原市は水はけのよい扇状地や黒ボク土の圃場を広く擁し、そば栽培に適した土地とされる。自然の地形が品種保全という大切な役割を果たし、在来種の性質を何世代にもわたってそのまま静かに、確かに守り続けてきたと伝わる、地の利による恵みだといわれている。",
+   "body_en": "## What it's made of\nIbuki soba is a small-grained heirloom variety, 4.5 millimeters or under. It carries a thick inner skin that lends it a green tint and a strong aroma, and its umami and sweetness are said to hold up well against other prized varieties, earning praise from millers and soba shops alike.\n## How it's made\nThe upper reaches of the Ane River have been kept as the standard seed-collection ground, a system said to preserve the heirloom line while securing stable production. Cultivation then spreads downstream into Maibara itself. The harvested grain is milled and worked into noodles.\n## Why it took this shape\nThe original growing area along the upper Ane River sits on well-drained slopes ringed by mountains, an environment said to resist cross-pollination with other varieties. Maibara itself offers well-drained alluvial fans and kuroboku volcanic soil suited to buckwheat. This terrain is said to be what has protected the heirloom variety's character.",
+   "sources": [
+    {
+     "title": "第85号：伊吹そば",
+     "url": "https://www.maff.go.jp/j/shokusan/gi_act/register/0085/index.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ibuki-soba",
+     "to_slug": "sanbe-soba",
+     "relation_type": "兄弟",
+     "basis": "ともに火山性・山間の土壌で育つ小粒在来種として地理的表示（GI）保護制度に登録されている"
+    }
+   ]
+  },
+  {
+   "slug": "sanbe-soba",
+   "body_ja": "## 何でできているか\n三瓶そばは本州各地で栽培される主要な品種と比べても小粒で引き締まった在来種である。苦味の強さに起因する深みのある濃い味が特徴とされ、粘りのよさと合わせて、全国各地の製粉会社やこだわりのそば屋から高く評価されているという。実の締まりが噛みごたえにも表れ、苦みの奥にほのかな甘みも感じられる、噛めば噛むほどに味わい深さが増していくとされる。\n## どう作るのか\n三瓶山麓の標高約500メートルに位置する三瓶町・山口町で栽培する。活火山である三瓶山から降り積もった火山灰質の黒ボクの土壌と、日中と夜間の寒暖差が大きい高原気候が、そばの生育に長年適してきたとされる。収穫した実を挽いて粉にし、麺として打ち、小規模ながら丁寧な栽培が代々続けられているという営みが今も続く。\n## なぜこの形になったのか\n三瓶山麓は火山灰質の土壌と高原の寒暖差という自然条件がそばの生産に適しており、江戸時代からそばが栽培されてきたと伝わる。希少な在来種としての性質と、それに由来する苦味・粘り・味の濃さが、この土地ならではの品質として長く受け継がれてきたとされ、自然条件と人による丁寧な栽培努力の両方が、この希少な味を今日まで、ずっと静かに、そして確かに支え続けてきたのだといえる。",
+   "body_en": "## What it's made of\nSanbe soba is a small-grained, tightly-formed heirloom variety compared to the main strains grown across Honshu. Its defining trait is a deep, strong flavor rooted in pronounced bitterness, paired with good stickiness — qualities said to earn it praise from milling companies and particular soba shops nationwide.\n## How it's made\nIt's grown in Sanbe-cho and Yamaguchi-cho, at roughly 500 meters on the foot of Mount Sanbe. The kuroboku soil, built from volcanic ash off the still-active Sanbe, and a highland climate swinging widely between day and night temperatures, are said to suit the crop well. The harvested grain is milled and worked into noodles.\n## Why it took this shape\nThe foot of Mount Sanbe offers natural conditions well suited to buckwheat — volcanic-ash soil and a highland day-night temperature swing — and the crop is said to have been grown there since the Edo period. The heirloom variety's rarity, and the bitterness, stickiness, and depth of flavor that come with it, are said to have been carried forward as a quality particular to this land.",
+   "sources": [
+    {
+     "title": "第91号：三瓶そば",
+     "url": "https://www.maff.go.jp/j/shokusan/gi_act/register/0091/index.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sanbe-soba",
+     "to_slug": "izumo",
+     "relation_type": "対比",
+     "basis": "ともに島根県のそばだが、出雲そばは挽きぐるみの製法に、三瓶そばは希少な在来品種の希少性に特徴がある"
+    }
+   ]
+  },
+  {
+   "slug": "kate-soba",
+   "body_ja": "## 何でできているか\n主材料はそば粉、小麦粉、にらまたは大根である。冬は大根、春先はにらを使い分けるといい、かさを増すだけでなく風味も加わるとされる。栃木県はそば生産量が全国有数で、日常にも行事にも欠かせない料理という。かさ増しの知恵が、そのまま香りと食感の両方を引き立てる、この土地ならではの味になっているとされ、素朴な家庭の知恵が今もなお静かに、確かに息づいているという。\n## どう作るのか\nだいこんそばは大根を線状にして先に茹で、後からそばを入れて一緒に茹で、冷水でしっかりしめてからざるに上げる。にらそばは、そばとにらを一緒に茹でるか、別々に茹でてにらをのせる。地域ごとに鹿沼周辺は「にらそば」、佐野周辺は「だいこんそば」が定着し、家庭によって具材の量や太さ、茹で加減も少しずつ違うという。\n## なぜこの形になったのか\n「かて」とは増量材のことで、食糧難の時代にだいこんやにらを加えてかさを増したのが始まりと伝わる。かつて鹿沼周辺は麻の産地でもあり、麻を刈った後の地力回復として作付けされた「麻後蕎麦」の伝統も残る。地域ごとの気候と産物のわずかな違いが、にらそばとだいこんそばという食べ方の違いを、長い年月をかけてゆっくりと、そして確かに分けてきたのだとされている。",
+   "body_en": "## What it's made of\nThe core is buckwheat flour, wheat flour, and either garlic chives or daikon. Daikon goes in during winter, chives in early spring, said to add flavor as well as bulk. Tochigi ranks among Japan's leading buckwheat producers, and the dish is said to be indispensable both day to day and at local events.\n## How it's made\nFor the daikon version, daikon is cut into strips and boiled first, then the soba goes in to cook alongside it before both are rinsed in cold water and drained. For the chive version, soba and chives are boiled together, or boiled separately with the chives laid on top. Kanuma is said to favor the chive version, Sano the daikon one.\n## Why it took this shape\nKate means a bulking agent, and adding daikon or chives to stretch the noodle in lean times is said to be where the dish began. Kanuma was once a hemp-growing area too, and a tradition survives of sowing buckwheat after the hemp harvest to restore the soil, called asaato-soba. The area's own chive production is said to have helped chive soba take hold there.",
+   "sources": [
+    {
+     "title": "かてそば",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_8_tochigi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kate-soba",
+     "to_slug": "kanuma-zairai-soba",
+     "relation_type": "使用食材",
+     "basis": "鹿沼周辺の「にらそば」には地元産の鹿沼在来そばが使われるとされる"
+    }
+   ]
+  },
+  {
+   "slug": "soba-dojo-nabe",
+   "body_ja": "## 何でできているか\n主材料はそば粉と卵、ごぼう・油揚げ・にんじん・白菜などの野菜、川魚を使っただし汁である。そば粉に卵を加えて練った生地を、どじょうのような形に細長く延ばして鍋に落とすため、すいとんより繊細で、うどんより素朴な口当たりになるという。鍋の中でゆらゆらと揺れる様がどじょうに見立てられ、冬に体をじんわりと温める郷土の知恵だとされる一品である。\n## どう作るのか\nそば粉に卵を加えて混ぜ、熱湯を少しずつ加えて耳たぶくらいの硬さになるまで練る。鍋にだし汁を入れ、油抜きしたごぼう・油揚げ・にんじん・白菜を煮立てる。練ったそば粉をちぎり、どじょうのような形に細長く延ばして鍋に入れ、野菜の甘みがだしにじんわりと溶け出したところで醤油・みりん・酒を加えて丁寧に味を調え仕上げる。\n## なぜこの形になったのか\n美作市・鏡野町一帯は山あいの地で、消化がよく体の温まる料理として古くから冬に重宝されてきたと伝わる。だしに川魚を使うのも、内陸の山間地ならではの工夫とされる。そば粉を茹でずに直接鍋へ細長く落とす調理法が、汁全体にとろみと風味をゆっくり行き渡らせる、山間地ならではの知恵が息づく一品として、今も変わらず、静かに、そして確かに語り継がれ、大切に伝わっているとされる。",
+   "body_en": "## What it's made of\nThe core is buckwheat flour and egg, vegetables — burdock, fried tofu, carrot, napa cabbage — and a dashi built on river fish. Buckwheat dough kneaded with egg is stretched thin and long, shaped like a loach, and dropped straight into the pot, landing somewhere more delicate than suiton dumplings and more rustic than udon.\n## How it's made\nEgg is worked into buckwheat flour, then hot water is added little by little until the dough reaches an earlobe-soft firmness. Dashi goes into the pot with burdock, fried tofu, carrot, and napa cabbage, oil-blanched first. The dough is torn off and stretched loach-thin straight into the simmering pot, then seasoned with soy sauce, mirin, and sake once cooked through.\n## Why it took this shape\nThe Mimasaka-Kagamino area is mountain country, and the dish is said to have been valued in winter for being easy to digest and warming to the body. Drawing dashi from river fish, too, is said to reflect the ingenuity of an inland mountain community. Dropping the buckwheat dough straight into the pot, stretched long rather than boiled first, is what lets its starch thicken and flavor the whole broth.",
+   "sources": [
+    {
+     "title": "そばどじょう鍋",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_25_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": []
+  }
+ ]
+}
