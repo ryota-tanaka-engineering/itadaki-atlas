@@ -411,7 +411,8 @@ test.describe("マルチジャンル（2ジャンル目はデータ投入のみ�
     await expect(page.getByRole("heading", { name: "焼き鳥", level: 1 })).toBeVisible();
     // 地域性のない部位は「図鑑」セクションに自動で現れる
     await expect(page.getByRole("heading", { name: "図鑑" })).toBeVisible();
-    await expect(page.getByRole("link", { name: /せせり/ })).toBeVisible();
+    // 焼き鳥（全国区の受け皿アイテム）の概要にも「せせり」が出るため先頭一致で絞る
+    await expect(page.getByRole("link", { name: /^せせり/ })).toBeVisible();
   });
 
   test("非地理アイテムの詳細（三点セット・説明訳）", async ({ page }) => {
@@ -423,7 +424,7 @@ test.describe("マルチジャンル（2ジャンル目はデータ投入のみ�
   test("地域ページにジャンル横断で並ぶ（広くする方向）", async ({ page }) => {
     await page.goto("/ja/region/hokkaido");
     await expect(page.getByRole("link", { name: /札幌ラーメン/ })).toBeVisible();
-    await expect(page.getByRole("link", { name: /室蘭やきとり/ })).toBeVisible();
+    await expect(page.getByRole("link", { name: /室蘭やきとり/ }).first()).toBeVisible();
   });
 
   test("トップの「種類からさがす」に自動で増える", async ({ page }) => {
@@ -489,7 +490,7 @@ test.describe("食材展開型（和牛・牡蠣）", () => {
   test("銘柄がデータ投入だけで空白県を埋める（滋賀=近江牛）", async ({ page }) => {
     await page.goto("/ja/region/shiga");
     await expect(page.getByRole("heading", { name: "滋賀県", level: 1 })).toBeVisible();
-    await expect(page.getByRole("link", { name: /近江牛/ })).toBeVisible();
+    await expect(page.getByRole("link", { name: /近江牛/ }).first()).toBeVisible();
   });
 
   test("基底アイテムの名産地が地域ページに合流する（広島=真牡蠣）", async ({ page }) => {
