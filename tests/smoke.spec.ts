@@ -535,7 +535,7 @@ test.describe("トップページ情報モジュール（今日の一皿・本�
 
     const sheet = page.getByRole("dialog");
     await expect(sheet.getByRole("heading", { name: "今日の一皿" })).toBeVisible();
-    await expect(sheet.getByRole("heading", { name: "本場をたどる" })).toBeVisible();
+    await expect(sheet.getByRole("heading", { name: "ひとつの食べもの、いくつもの本場" })).toBeVisible();
     await expect(
       sheet.getByRole("heading", { name: "その味、ご当地にもあります" }),
     ).toBeVisible();
@@ -556,7 +556,7 @@ test.describe("トップページ情報モジュール（今日の一皿・本�
 
     const sheet = page.getByRole("dialog");
     await expect(sheet.getByRole("heading", { name: "Today's dish" })).toBeVisible();
-    await expect(sheet.getByRole("heading", { name: "Where it's at its best" })).toBeVisible();
+    await expect(sheet.getByRole("heading", { name: "One dish, many hometowns" })).toBeVisible();
     await expect(
       sheet.getByRole("heading", { name: "Know these chains? Meet the regional originals" }),
     ).toBeVisible();
@@ -740,12 +740,15 @@ test.describe("タグページ（興味からさがす。2026-08 デザイン確
   });
 
   test("トップの「興味からさがす」カードから/tagsへ到達できる", async ({ page }) => {
+    // 2026-09 トップ導線修正: カード全体がリンクだった旧仕様から、タグチップ
+    // （絞り込みボタン）+末尾の「タグの一覧へ」リンクへ変わった（本番レビュー
+    // 「ヘッダーの土地・種類・興味は何も意味ない」対応）。
     await page.goto("/ja");
     const toggle = page.getByRole("button", { name: /シートを次の段階へ/ });
     await toggle.click();
     await toggle.click();
     const sheet = page.getByRole("dialog");
-    await sheet.getByRole("link", { name: "興味からさがす" }).click();
+    await sheet.getByRole("link", { name: "タグの一覧へ" }).click();
     await expect(page.getByRole("heading", { name: "興味からさがす", level: 1 })).toBeVisible();
   });
 
@@ -886,5 +889,164 @@ test.describe("トップページ改善（ピン選択カード。2026-09 本番
     await expect(sheet.getByText("Chinese-derived", { exact: true })).toBeVisible();
     await expect(sheet.getByText(/The broth looks almost jet black/)).toBeVisible();
     await expect(sheet.getByText(/More like this/)).toBeVisible();
+  });
+});
+
+test.describe("トップ導線修正（本番レビュー「タグとか選択しても意味なくなってる」「ヘッダーの土地・種類・興味も何も意味ない」対応）", () => {
+  function parseCount(text: string): number {
+    const m = text.match(/(\d+)件/);
+    if (!m) throw new Error(`件数が読み取れない: ${text}`);
+    return Number(m[1]);
+  }
+
+  test("ピン選択カードのタグを押すと絞り込みチップが出て県クラスタ件数が減る、✕で戻る", async ({ page }) => {
+    await page.goto("/ja");
+
+    // 絞り込み前の福島県クラスタ件数を控える（郡山ブラックは中華由来タグを持つが、
+    // 福島にはこのタグを持たないアイテム（そば・やきそば等）も含まれる）
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ });
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+    const beforeCount = parseCount((await fukushima.getAttribute("aria-label")) ?? "");
+
+    // 郡山ブラック（喜多方ラーメンはローカルfixtureピンと座標が重なるため使わない）を
+    // 索引経由で選ぶ
+    const sheet = page.getByRole("dialog");
+    await page.getByRole("button", { name: /シートを次の段階へ/ }).click();
+    await sheet.getByRole("button", { name: /郡山ブラック/ }).first().click();
+
+    // ピン選択カードのタグバッジは絞り込みボタン（旧: 見た目だけのバッジで押せなかった）
+    const tagButton = sheet.getByRole("button", { name: "中華由来", exact: true });
+    await expect(tagButton).toBeVisible();
+    await tagButton.click();
+
+    // 絞り込みチップが件数付きで出る
+    const chip = page.getByRole("button", { name: "中華由来の絞り込みを解除" });
+    await expect(chip).toBeVisible();
+    await expect(chip).toContainText(/中華由来\d+件/);
+
+    // 福島県クラスタの件数が絞り込み後に減る（0件にはならない。郡山ブラック自身が該当する）
+    const fukushimaAfter = page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ });
+    await expect(fukushimaAfter).toBeVisible({ timeout: 30_000 });
+    const afterCount = parseCount((await fukushimaAfter.getAttribute("aria-label")) ?? "");
+    expect(afterCount).toBeGreaterThan(0);
+    expect(afterCount).toBeLessThan(beforeCount);
+
+    // ✕で解除すると絞り込みが消え、件数が元に戻る
+    await chip.click();
+    await expect(chip).toHaveCount(0);
+    const fukushimaRestored = page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ });
+    await expect(fukushimaRestored).toBeVisible({ timeout: 30_000 });
+    expect(parseCount((await fukushimaRestored.getAttribute("aria-label")) ?? "")).toBe(beforeCount);
+  });
+
+  test("「興味からさがす」カードのタグチップで絞り込める", async ({ page }) => {
+    await page.goto("/ja");
+    const toggle = page.getByRole("button", { name: /シートを次の段階へ/ });
+    await toggle.click();
+    await toggle.click();
+    const sheet = page.getByRole("dialog");
+
+    await sheet.getByRole("button", { name: "中華由来", exact: true }).click();
+
+    await expect(page.getByRole("button", { name: "中華由来の絞り込みを解除" })).toBeVisible();
+    // 索引もそのタグを持つアイテムだけに絞られる（ラーメン系は該当、焼き鳥は非該当）
+    await expect(sheet.getByRole("button", { name: /博多ラーメン/ })).toBeVisible();
+    await expect(sheet.getByText("室蘭やきとり")).toHaveCount(0);
+  });
+
+  test("絞り込み中はシートが結果ビュー（結果ヘッダー＋索引のみ）になり、解除で元に戻る", async ({ page }) => {
+    // 本番レビュー「タグ押しても本場を辿るとか出てるから全然絞り込めてるように見えない」対応。
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+    await sheet.getByRole("button", { name: "ラーメン", exact: true }).click();
+
+    // 絞り込み中は3カード・情報モジュールが消え、結果ヘッダー＋絞り込み済み索引だけになる
+    await expect(sheet.getByText("土地からさがす")).toHaveCount(0);
+    await expect(sheet.getByRole("heading", { name: "ひとつの食べもの、いくつもの本場" })).toHaveCount(0);
+    await expect(sheet.getByRole("button", { name: /札幌ラーメン/ })).toBeVisible();
+    await expect(sheet.getByText("室蘭やきとり")).toHaveCount(0);
+    // ジャンルの一覧ページへの導線は結果ヘッダー側に残る
+    await expect(sheet.getByRole("link", { name: "ラーメンの一覧へ" })).toBeVisible();
+
+    // 「絞り込みを解除」で元の構成（3カード・本場をたどる）に戻る
+    await sheet.getByRole("button", { name: "絞り込みを解除" }).click();
+    await expect(sheet.getByText("土地からさがす")).toBeVisible();
+    await expect(sheet.getByRole("heading", { name: "ひとつの食べもの、いくつもの本場" })).toBeVisible();
+  });
+
+  test("PC 1440幅でヘッダー「種類」を押すとシートが開いて種類カードが見える、「興味」で/tagsに遷移する", async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    // トップ以外のページからでも遷移できることを見る
+    await page.goto("/ja/about");
+    const header = page.getByRole("banner");
+
+    await header.getByRole("link", { name: "種類" }).click();
+    const sheet = page.getByRole("dialog");
+    await expect(sheet.getByText("種類からさがす")).toBeVisible();
+    await expect(sheet.getByRole("button", { name: "ラーメン", exact: true })).toBeVisible();
+
+    await header.getByRole("link", { name: "興味" }).click();
+    await expect(page.getByRole("heading", { name: "興味からさがす", level: 1 })).toBeVisible();
+  });
+
+  test("PC 1440幅でヘッダー「土地」を押すとシートが開いて土地カードが見える", async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto("/ja/about");
+    const header = page.getByRole("banner");
+
+    await header.getByRole("link", { name: "土地" }).click();
+    const sheet = page.getByRole("dialog");
+    await expect(sheet.getByText("土地からさがす")).toBeVisible();
+  });
+});
+
+test.describe("地図のコンパクト化（本番レビュー「地図がフルサイズのままで使いづらい」対応）", () => {
+  test("ジャンル絞り込み中は地図が縮み、解除で元のフルサイズに戻る（SP 390x844）", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/ja");
+    const map = page.locator(".maplibregl-map");
+    await expect(map).toBeVisible();
+    const fullHeight = (await map.boundingBox())?.height ?? 0;
+    expect(fullHeight).toBeGreaterThan(700);
+
+    const sheet = page.getByRole("dialog");
+    await sheet.getByRole("button", { name: "ラーメン", exact: true }).click();
+
+    // SP約38vh（844*0.38≈321px）まで縮む。増減の余地を持たせて範囲でみる
+    await expect(async () => {
+      const h = (await map.boundingBox())?.height ?? 0;
+      expect(h).toBeGreaterThan(250);
+      expect(h).toBeLessThan(400);
+    }).toPass({ timeout: 5_000 });
+
+    await sheet.getByRole("button", { name: "絞り込みを解除" }).click();
+    await expect(async () => {
+      const h = (await map.boundingBox())?.height ?? 0;
+      expect(h).toBeGreaterThan(700);
+    }).toPass({ timeout: 5_000 });
+  });
+
+  test("タグ絞り込み中は地図が縮む（PC 1440x900）", async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto("/ja");
+    const map = page.locator(".maplibregl-map");
+    await expect(map).toBeVisible();
+    const fullHeight = (await map.boundingBox())?.height ?? 0;
+    expect(fullHeight).toBeGreaterThan(850);
+
+    const toggle = page.getByRole("button", { name: /シートを次の段階へ/ });
+    await toggle.click();
+    await toggle.click();
+    const sheet = page.getByRole("dialog");
+    await sheet.getByRole("button", { name: "中華由来", exact: true }).click();
+
+    // PC約45vh（900*0.45=405px）まで縮む
+    await expect(async () => {
+      const h = (await map.boundingBox())?.height ?? 0;
+      expect(h).toBeGreaterThan(300);
+      expect(h).toBeLessThan(500);
+    }).toPass({ timeout: 5_000 });
   });
 });

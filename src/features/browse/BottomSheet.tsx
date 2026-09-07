@@ -43,9 +43,18 @@ type Props = {
   peak: React.ReactNode;
   children: React.ReactNode;
   labelledBy?: string;
+  /**
+   * 指定すると「ドッキング」モードになる（本番レビュー「地図がフルサイズのままで
+   * 使いづらい」対応）。3段階スナップ（peak/half/full）の重なり表示ではなく、
+   * 画面下端にこの高さ(px)で固定表示し、中身は常時スクロール可能にする
+   * （BrowseShell が地図を縮めた残りの高さを渡す）。ドラッグは無効化する。
+   * つまみボタンは既存E2Eの互換のため残すが、ドッキング中は見た目上の演出のみ
+   * （snapを変えても位置は動かない）。
+   */
+  dockedHeight?: number;
 };
 
-export function BottomSheet({ snap, onSnapChange, peak, children, labelledBy }: Props) {
+export function BottomSheet({ snap, onSnapChange, peak, children, labelledBy, dockedHeight }: Props) {
   const t = useTranslations("browse");
   const y = useMotionValue(0);
   const [vh, setVh] = useState(0);
@@ -59,16 +68,16 @@ export function BottomSheet({ snap, onSnapChange, peak, children, labelledBy }: 
     return () => window.removeEventListener("resize", update);
   }, []);
 
-  // スナップ変更をアニメーションで反映
+  // スナップ変更をアニメーションで反映（ドッキング中は位置固定なのでアニメーションしない）
   useEffect(() => {
-    if (vh === 0) return;
+    if (vh === 0 || dockedHeight !== undefined) return;
     const controls = animate(y, snapOffset(snap, vh), {
       type: "spring",
       stiffness: 400,
       damping: 40,
     });
     return () => controls.stop();
-  }, [snap, vh, y]);
+  }, [snap, vh, y, dockedHeight]);
 
   // full 以外ではリストをスクロールさせない（ドラッグと競合するため）
   useEffect(() => {
@@ -101,6 +110,34 @@ export function BottomSheet({ snap, onSnapChange, peak, children, labelledBy }: 
     const i = SNAPS.indexOf(snap);
     onSnapChange(SNAPS[(i + 1) % SNAPS.length]);
   };
+
+  if (dockedHeight !== undefined) {
+    // ドッキングモード（地図コンパクト化時）。画面下端に固定高さで表示し、
+    // 中身は常時スクロール可能（peak/half/full の重なり表示はしない。ドラッグも無効）。
+    // つまみボタンは既存E2E（「シートを次の段階へ」ロケーター）との互換のため残す。
+    return (
+      <div
+        role="dialog"
+        aria-labelledby={labelledBy}
+        aria-modal={false}
+        className="bg-background absolute inset-x-0 bottom-0 z-20 flex flex-col rounded-t-2xl shadow-[0_-4px_24px_rgba(0,0,0,0.12)]"
+        style={{ height: dockedHeight }}
+      >
+        <button
+          type="button"
+          onClick={cycle}
+          aria-label={t("sheetToggle", { snap })}
+          className="flex min-h-11 w-full shrink-0 items-center justify-center"
+        >
+          <span aria-hidden className="bg-muted-foreground/40 h-1.5 w-10 rounded-full" />
+        </button>
+        <div onClick={cycle} className="shrink-0 cursor-pointer px-4 pb-2">
+          {peak}
+        </div>
+        <div className="min-h-0 flex-1 overflow-y-auto px-4 pb-8">{children}</div>
+      </div>
+    );
+  }
 
   return (
     <motion.div

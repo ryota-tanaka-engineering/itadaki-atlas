@@ -135,7 +135,7 @@ const CLUSTER_MIN_DIST = 32;
  * ズームが幅で決まり日本が縦をほぼ使い切るため、余白を足すと maxBounds と
  * 干渉して日本が上にずれ、北側のクラスタがヘッダー裏に隠れる）。
  */
-function fitJapan(map: maplibregl.Map, bottomInset: number, duration: number) {
+function fitJapan(map: maplibregl.Map, bottomInset: number, duration: number, topInset = 24) {
   const sw = map.project([JAPAN_BOUNDS[0], JAPAN_BOUNDS[1]]);
   const ne = map.project([JAPAN_BOUNDS[2], JAPAN_BOUNDS[3]]);
   const japanHeight = Math.abs(sw.y - ne.y);
@@ -146,7 +146,7 @@ function fitJapan(map: maplibregl.Map, bottomInset: number, duration: number) {
       [JAPAN_BOUNDS[0], JAPAN_BOUNDS[1]],
       [JAPAN_BOUNDS[2], JAPAN_BOUNDS[3]],
     ],
-    { padding: { top: 24, right: 24, bottom, left: 24 }, duration },
+    { padding: { top: topInset, right: 24, bottom, left: 24 }, duration },
   );
 }
 
@@ -172,6 +172,18 @@ type Props = {
   bottomInset: number;
   /** 系統凡例の表示可否（ラーメン内部・単一ジャンル絞り込み時のみ。CLAUDE.md「デザイン」節）。 */
   showLegend: boolean;
+  /**
+   * 県クラスタ表示か個別ピン表示か（isClusterView の実測値）が変わるたびに呼ばれる
+   * （本番レビュー「地図がフルサイズのままで使いづらい」対応。BrowseShell が地図の
+   * コンパクト化トリガーの1つとして持ち上げる）。
+   */
+  onClusterViewChange?: (isClusterView: boolean) => void;
+  /**
+   * 絞り込み・選択中でコンテナ（親）の高さが縮んでいるか（本番レビュー「地図が
+   * フルサイズのままで使いづらい」対応）。この値が変わったタイミングでだけ
+   * map.resize() と再フィットを行う（BrowseShell 側のCSS transition完了を待つ）。
+   */
+  compact: boolean;
 };
 
 /** 県ごとの集約マーカー（2026-09 全国表示の作り直し）。位置はその県のピン群の重心。 */
@@ -188,6 +200,8 @@ export function MapView({
   onSelect,
   bottomInset,
   showLegend,
+  onClusterViewChange,
+  compact,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -209,6 +223,11 @@ export function MapView({
   useEffect(() => {
     i18nRef.current = { t, label };
   });
+  // onClusterViewChange も同じ理由（親の再レンダーで新しい関数参照になりうる）でrefに逃がす。
+  const onClusterViewChangeRef = useRef(onClusterViewChange);
+  useEffect(() => {
+    onClusterViewChangeRef.current = onClusterViewChange;
+  });
   // WebGL コンテキスト喪失（実機での「触ってたら地図が消えた」報告への防御。
   // iOS Safari はメモリ圧迫時に WebGL コンテキストを強制破棄することがある）に遭遇したら
   // このキーを進めて地図コンポーネントを丸ごと作り直す（コンテナDOM+Mapインスタンス）。
@@ -217,6 +236,16 @@ export function MapView({
   // CLUSTER_ZOOM_THRESHOLD 参照）。ピンチズームでも同じ規則で切り替わるよう、
   // クリック操作ではなく実際の map の zoomend から判定する（単一の真実の情報源）。
   const [isClusterView, setIsClusterView] = useState(true);
+  // 直近のフィット先（全国 or 特定県）。コンテナサイズが変わった際（地図コンパクト化。
+  // 本番レビュー「地図がフルサイズのままで使いづらい」対応）に同じ範囲へ再フィットするために使う。
+  // resize() 単体だとカメラの中心・ズームを保ったまま矩形だけ変わるため、高さが縮んだ分だけ
+  // 視野の南北が削れてピン・クラスタが視界外に出うる（既存E2Eのクラスタタップ→ピン確認系を壊さない対応）。
+  const lastFitRef = useRef<{ kind: "japan" } | { kind: "pref"; pref: string }>({ kind: "japan" });
+  // 同じ理由（setTimeout内のコールバックが古いクロージャを掴む）で items も ref 経由で読む。
+  const itemsRef = useRef(items);
+  useEffect(() => {
+    itemsRef.current = items;
+  });
   // 集約マーカーのタップでその県へ寄せる際に使う下端余白。ボトムシートの
   // snap変化のたびにマーカーを作り直したくないため、ref経由で最新値だけ渡す。
   const bottomInsetRef = useRef(bottomInset);
@@ -336,6 +365,43 @@ export function MapView({
     // ロケール切替はフルナビゲーションで再マウントされるため変化しないが、依存として明示する。
   }, [mapGeneration, locale]);
 
+  // 地図コンパクト化のON/OFF切り替え時だけ map.resize() を呼ぶ（本番レビュー「地図が
+  // フルサイズのままで使いづらい」対応。BrowseShell が絞り込み・県選択中に親コンテナの
+  // 高さをCSSで変えるが、MapLibreはウィンドウのresizeイベントしか自動検知しないため、
+  // 親のCSS高さ変更だけではキャンバスの内部サイズがズレ、ピン位置がヒットテストと
+  // 食い違う）。ResizeObserverで常時監視すると、CSSの height transition 中に何度も
+  // 発火し、その都度の再フィットが集約マーカータップ直後の flyToPrefecture ズームインと
+  // 競合して元の全国表示に引き戻してしまう不具合があったため、compact の変化という
+  // 単一のトリガーに限定し、CSS transition（duration-300）の完了を待ってから1回だけ呼ぶ。
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+    const id = setTimeout(() => {
+      map.resize();
+      // resize() 単体だとカメラの中心・ズームを保ったまま矩形だけ変わるため、
+      // 高さが縮んだ分だけ視野が削れてピン・クラスタが視界外に出うる。直近の
+      // フィット先（全国 or 特定県。lastFitRef）へ、新しいコンテナサイズに
+      // 合わせて再フィットする。
+      const target = lastFitRef.current;
+      if (target.kind === "japan") {
+        // コンパクト時は共通ヘッダー（sticky・地図に重なる設計）が上端を覆うため、
+        // 上パディングを広げて県クラスタがヘッダー裏に隠れてクリックできなくなるのを防ぐ
+        // （本番レビュー「地図がフルサイズのままで使いづらい」対応で発覚。ヘッダー高さは
+        // SP 48px/PC 62pxだが、余裕を持たせて flyToPrefecture と同じ 80px に揃える）。
+        fitJapan(map, 0, 0, compact ? 80 : 24);
+        return;
+      }
+      const targets = itemsRef.current.filter((i) => i.originPref === target.pref);
+      if (targets.length === 0) return;
+      const lngs = targets.map((i) => i.lng);
+      const lats = targets.map((i) => i.lat);
+      const sw: [number, number] = [Math.min(...lngs), Math.min(...lats)];
+      const ne: [number, number] = [Math.max(...lngs), Math.max(...lats)];
+      map.fitBounds([sw, ne], { padding: { top: 80, right: 80, bottom: 80, left: 80 }, maxZoom: 9, duration: 0 });
+    }, 320);
+    return () => clearTimeout(id);
+  }, [compact, mapGeneration]);
+
   // 県クラスタ（発祥+本場の合流データから、県ごとの重心と件数を算出）。
   // 県座標マスタは新設せず、ピン群の重心をその場で計算する（データ駆動。やらないこと参照）。
   const prefClusters = useMemo<PrefCluster[]>(() => {
@@ -364,6 +430,7 @@ export function MapView({
     const evaluate = () => {
       const clusterView = map.getZoom() < CLUSTER_ZOOM_THRESHOLD;
       setIsClusterView((prev) => (prev === clusterView ? prev : clusterView));
+      onClusterViewChangeRef.current?.(clusterView);
     };
 
     if (map.isStyleLoaded()) evaluate();
@@ -391,6 +458,7 @@ export function MapView({
       const sw: [number, number] = [Math.min(...lngs), Math.min(...lats)];
       const ne: [number, number] = [Math.max(...lngs), Math.max(...lats)];
 
+      lastFitRef.current = { kind: "pref", pref };
       map.fitBounds([sw, ne], {
         // ボトムシートのsnapは頻繁に変わるため、マーカー再生成を避けるべく
         // ref経由で最新値だけ読む（依存配列に bottomInset を含めない）。
@@ -407,6 +475,7 @@ export function MapView({
   const flyToJapan = useCallback(() => {
     const map = mapRef.current;
     if (!map) return;
+    lastFitRef.current = { kind: "japan" };
     fitJapan(map, bottomInsetRef.current, 600);
   }, []);
 

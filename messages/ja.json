@@ -34,6 +34,9 @@
     "aboutLink": "このサイトについて",
     "genreFilterClear": "{name}の絞り込みを解除",
     "genreViewAllLink": "{name}の一覧へ",
+    "tagFilterClear": "{name}の絞り込みを解除",
+    "tagAllLink": "タグの一覧へ",
+    "filterClearAll": "絞り込みを解除",
     "clusterAriaLabel": "{pref} {count}件。選ぶと拡大します",
     "pinAriaLabel": "{name}（{prefCity}・{style}）",
     "honbaPinAriaLabel": "{name}（{honba}・{prefCity}）",
@@ -42,7 +45,8 @@
     "kanaOther": "その他",
     "modules": {
       "todayDish": "今日の一皿",
-      "honba": "本場をたどる",
+      "honba": "ひとつの食べもの、いくつもの本場",
+      "honbaCount": "本場を持つ食べもの{count}件",
       "landStories": "土地の物語から",
       "about": "このサイトについて",
       "aboutBody": "日本の食を、土地から読む地理データベース。{items}の食と{prefs}都道府県を、発祥・産地・本場のつながりでたどれます。",
@@ -75,7 +79,14 @@
       "W": "西",
       "NW": "北西"
     },
-    "viewDetail": "詳細を見る"
+    "viewDetail": "詳細を見る",
+    "lineage": "系譜",
+    "cutDiagram": {
+      "ariaLabel": "{species}の部位図: {part}の位置",
+      "speciesBeef": "牛",
+      "speciesPork": "豚",
+      "speciesChicken": "鶏"
+    }
   },
   "language": {
     "label": "言語",

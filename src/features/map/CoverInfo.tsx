@@ -12,6 +12,14 @@ const CHIP_CLASS =
   "inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs whitespace-nowrap";
 const CHIP_STYLE = { borderColor: "#ffe9cf", color: "#ffe9cf" } as const;
 
+/**
+ * タグチップ専用の寸法（本番レビュー「タグも小さくてみづらい」対応。トップの
+ * ピン選択カード・「興味からさがす」カードのタグチップと寸法を揃える）。
+ * 事実チップ（CoverFactChips: 発祥・系統・距離）は変更対象外のため CHIP_CLASS のまま。
+ */
+const TAG_CHIP_CLASS =
+  "inline-flex min-h-8 items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm whitespace-nowrap";
+
 export type CoverFact = {
   key: string;
   label: string;
@@ -53,7 +61,7 @@ export function CoverTagChips({ tags, ariaLabel }: { tags: CoverTag[]; ariaLabel
       <ul className="flex flex-wrap gap-1.5">
         {tags.map((tag) => (
           <li key={tag.slug}>
-            <Link href={`/tag/${tag.slug}`} className={`${CHIP_CLASS} hover:bg-white/10`} style={CHIP_STYLE}>
+            <Link href={`/tag/${tag.slug}`} className={`${TAG_CHIP_CLASS} hover:bg-white/10`} style={CHIP_STYLE}>
               {tag.label}
             </Link>
           </li>

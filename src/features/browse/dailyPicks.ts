@@ -1,6 +1,6 @@
 import { differenceInCalendarDays } from "date-fns";
 
-import type { BrowseItem } from "@/features/map/queries";
+import type { BrowseItem, HonbaGroup } from "@/features/map/queries";
 
 /**
  * トップ「今日の一皿」「土地の物語から」用の日替わり順繰り選定
@@ -49,4 +49,62 @@ export function pickDailyItems(items: BrowseItem[], today: Date, storyCount = 3)
   }
 
   return { dish, stories };
+}
+
+/**
+ * トップ「本場をたどる」の表示件数を絞る日替わり順繰り選定
+ * （本番レビュー「本場を辿るはなんでこの仕分け？魚だけ？違和感しかない」対応）。
+ *
+ * 本場を持つアイテムは魚介棚（seafood）に偏りやすいため、全件をそのまま並べると
+ * 魚介ばかりの一覧に見える。ランキングにはせず、pickDailyItems と同じ通算日ベースの
+ * 順繰り（rotate）で母集団を回しつつ、次の2条件だけを制約として掛ける:
+ *
+ * - 料理（type=dish）を優先する（先に dish だけを rotate 順で拾い、枠が余れば食材等で埋める）
+ * - 魚介（shelf=seafood）は seafoodCap 件まで
+ *
+ * どちらも「順位付け」ではなく「その日の巡回開始位置から見て何を出すか」を
+ * 決めるだけなので、日付が変われば構成も入れ替わる中立な導線であり続ける。
+ */
+export function pickHonbaGroups(
+  groups: HonbaGroup[],
+  today: Date,
+  max = 6,
+  seafoodCap = 2,
+): HonbaGroup[] {
+  if (groups.length === 0) return [];
+
+  const offset = mod(epochDay(today), groups.length);
+  const rotated = [...groups.slice(offset), ...groups.slice(0, offset)];
+
+  const picked: HonbaGroup[] = [];
+  const pickedSlugs = new Set<string>();
+  let seafoodCount = 0;
+
+  const tryPick = (g: HonbaGroup) => {
+    if (picked.length >= max || pickedSlugs.has(g.slug)) return;
+    const isSeafood = g.shelfSlug === "seafood";
+    if (isSeafood && seafoodCount >= seafoodCap) return;
+    picked.push(g);
+    pickedSlugs.add(g.slug);
+    if (isSeafood) seafoodCount++;
+  };
+
+  // 「辿る」モジュールなので、本場が2箇所以上ある食べものを優先する
+  // （本番レビュー「本場を辿るが一項目1箇所だけで意味をなしてない」対応）。
+  // 1周目: 料理（dish）かつ2箇所以上 → 2周目: 2箇所以上 → 3周目: 料理 → 4周目: 残り
+  const multi = (g: HonbaGroup) => g.cities.length >= 2;
+  const passes: Array<(g: HonbaGroup) => boolean> = [
+    (g) => g.itemType === "dish" && multi(g),
+    multi,
+    (g) => g.itemType === "dish",
+    () => true,
+  ];
+  for (const pass of passes) {
+    for (const g of rotated) {
+      if (picked.length >= max) break;
+      if (pass(g)) tryPick(g);
+    }
+  }
+
+  return picked;
 }

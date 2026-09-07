@@ -34,6 +34,9 @@
     "aboutLink": "About this site",
     "genreFilterClear": "Clear the {name} filter",
     "genreViewAllLink": "View all {name}",
+    "tagFilterClear": "Clear the {name} filter",
+    "tagAllLink": "Browse all tags",
+    "filterClearAll": "Clear filters",
     "clusterAriaLabel": "{pref} — {count} items. Select to zoom in",
     "pinAriaLabel": "{name} ({prefCity}, {style})",
     "honbaPinAriaLabel": "{name} ({honba}, {prefCity})",
@@ -42,7 +45,8 @@
     "kanaOther": "Other",
     "modules": {
       "todayDish": "Today's dish",
-      "honba": "Where it's at its best",
+      "honba": "One dish, many hometowns",
+      "honbaCount": "{count} foods with a renowned home",
       "landStories": "Stories from the land",
       "about": "About this atlas",
       "aboutBody": "A geographic database of Japanese food, read from the land. Trace {items} dishes and {prefs} prefectures through their origins, sources, and renowned places.",
@@ -75,7 +79,14 @@
       "W": "west",
       "NW": "northwest"
     },
-    "viewDetail": "View details"
+    "viewDetail": "View details",
+    "lineage": "Lineage",
+    "cutDiagram": {
+      "ariaLabel": "{species} cut diagram: location of {part}",
+      "speciesBeef": "Beef",
+      "speciesPork": "Pork",
+      "speciesChicken": "Chicken"
+    }
   },
   "language": {
     "label": "Language",

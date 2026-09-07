@@ -166,11 +166,24 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
                     <span className="block font-medium">
                       {isJa ? item.nameJa : item.nameRomaji}
                     </span>
-                    {/* 三点セット（.doc/00_concept/05_brand.md §5） */}
-                    <span className="text-muted-foreground block text-xs">
-                      {item.nameJa} — {item.nameRomaji}
-                      {item.nameEn ? ` — ${item.nameEn}` : ""}
-                    </span>
+                    {/* 三点セット（.doc/00_concept/05_brand.md §5）は /en で。/ja の一覧では
+                        英語の説明訳が主役になってしまうため、ローマ字+日本語の概要1行にする
+                        （本番レビュー「日本語ページに英語が大量」対応） */}
+                    {isJa ? (
+                      <>
+                        <span className="text-muted-foreground block text-xs">{item.nameRomaji}</span>
+                        {item.summary && (
+                          <span className="text-muted-foreground mt-0.5 line-clamp-2 block text-sm">
+                            {item.summary}
+                          </span>
+                        )}
+                      </>
+                    ) : (
+                      <span className="text-muted-foreground block text-xs">
+                        {item.nameJa} — {item.nameRomaji}
+                        {item.nameEn ? ` — ${item.nameEn}` : ""}
+                      </span>
+                    )}
                     {item.originPref && (
                       <span className="text-muted-foreground mt-1 block text-xs">
                         {tp(item.originPref)}
@@ -198,10 +211,21 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
                     <span className="block font-medium">
                       {isJa ? item.nameJa : item.nameRomaji}
                     </span>
-                    <span className="text-muted-foreground block text-xs">
-                      {item.nameRomaji}
-                      {item.nameEn ? ` — ${item.nameEn}` : ""}
-                    </span>
+                    {isJa ? (
+                      <>
+                        <span className="text-muted-foreground block text-xs">{item.nameRomaji}</span>
+                        {item.summary && (
+                          <span className="text-muted-foreground mt-0.5 line-clamp-2 block text-sm">
+                            {item.summary}
+                          </span>
+                        )}
+                      </>
+                    ) : (
+                      <span className="text-muted-foreground block text-xs">
+                        {item.nameRomaji}
+                        {item.nameEn ? ` — ${item.nameEn}` : ""}
+                      </span>
+                    )}
                   </Link>
                 </li>
               ))}
@@ -339,10 +363,21 @@ async function ShelfView({ shelf, locale }: { shelf: Shelf; locale: string }) {
                     <span className="block font-medium">
                       {isJa ? item.nameJa : item.nameRomaji}
                     </span>
-                    <span className="text-muted-foreground block text-xs">
-                      {item.nameJa} — {item.nameRomaji}
-                      {item.nameEn ? ` — ${item.nameEn}` : ""}
-                    </span>
+                    {isJa ? (
+                      <>
+                        <span className="text-muted-foreground block text-xs">{item.nameRomaji}</span>
+                        {item.summary && (
+                          <span className="text-muted-foreground mt-0.5 line-clamp-2 block text-sm">
+                            {item.summary}
+                          </span>
+                        )}
+                      </>
+                    ) : (
+                      <span className="text-muted-foreground block text-xs">
+                        {item.nameJa} — {item.nameRomaji}
+                        {item.nameEn ? ` — ${item.nameEn}` : ""}
+                      </span>
+                    )}
                   </Link>
                 </li>
               ))}

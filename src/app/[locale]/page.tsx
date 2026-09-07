@@ -1,7 +1,7 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { BrowseShell } from "@/features/browse/BrowseShell";
-import { pickDailyItems } from "@/features/browse/dailyPicks";
+import { pickDailyItems, pickHonbaGroups } from "@/features/browse/dailyPicks";
 import {
   fetchAllChains,
   fetchGenres,
@@ -9,6 +9,7 @@ import {
   fetchHonbaPins,
   fetchMapItems,
   fetchPrefsWithItems,
+  fetchTagsWithCounts,
   type Locale,
 } from "@/features/map/queries";
 
@@ -27,24 +28,31 @@ export default async function Home({
   setRequestLocale(locale);
 
   const t = await getTranslations("site");
-  const [items, genres, honbaPins, honbaGroups, chains, prefs] = await Promise.all([
+  const [items, genres, honbaPins, honbaGroupsAll, chains, prefs, tags] = await Promise.all([
     fetchMapItems(locale as Locale),
     fetchGenres(),
     // 本場ピン（2026-09）。発祥ピンとは別経路で取得し、地図側でだけ合流させる
     // （索引・件数表記は従来どおり発祥のみ。BrowseShell 参照）。
     fetchHonbaPins(locale as Locale),
     // トップ情報モジュール「本場をたどる」用（2026-09）。地図ピンとは別に、
-    // アイテム単位で集約した本場データ（BrowseShell 参照）。
+    // アイテム単位で集約した本場データ（BrowseShell 参照）。全件はここでは絞らない
+    // （選定は下の pickHonbaGroups がサーバー側で行う）。
     fetchHonbaGroups(),
     // トップ情報モジュール「チェーンから、ご当地へ」用（2026-09）。ジャンル非依存の全チェーン。
     fetchAllChains(),
     // トップ情報モジュール「このサイトについて」の件数（DB実数）用。
     fetchPrefsWithItems(),
+    // トップ「興味からさがす」カードのタグチップ用（件数はサーバー側で集計。/tags と同じクエリ）。
+    fetchTagsWithCounts(),
   ]);
 
   // 「今日の一皿」「土地の物語から」の日付選定はサーバー側で1回だけ確定させる
-  // （dailyPicks.ts。ランキング・「おすすめ」ではない中立な順繰り）。
-  const { dish: dailyDish, stories: landStories } = pickDailyItems(items, new Date());
+  // （dailyPicks.ts。ランキング・「おすすめ」ではない中立な順繰り）。同じ日時を使い回す。
+  const today = new Date();
+  const { dish: dailyDish, stories: landStories } = pickDailyItems(items, today);
+  // 「本場をたどる」も同じ流儀で日替わり順繰り選定する（本番レビュー「魚だけ？違和感しかない」対応）。
+  // 見出し横の総数（honbaTotalCount）は選定前の全件数を使う。
+  const honbaGroups = pickHonbaGroups(honbaGroupsAll, today);
 
   return (
     <main>
@@ -59,8 +67,10 @@ export default async function Home({
         dailyDish={dailyDish}
         landStories={landStories}
         honbaGroups={honbaGroups}
+        honbaTotalCount={honbaGroupsAll.length}
         chains={chains}
         siteCounts={{ items: items.length, prefs: prefs.length }}
+        allTags={tags}
       />
     </main>
   );

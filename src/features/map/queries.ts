@@ -53,6 +53,9 @@ export type TagBadge = { slug: string; nameJa: string; nameEn: string };
 export type BrowseItem = MapItem & {
   /** 最大3件（件数が多いアイテムは先頭3件のみ）。 */
   tags: TagBadge[];
+  /** タグ絞り込み用の全タグslug（表示は tags の3件までだが、絞り込み判定は全件で行う。
+   * 作業パッケージ「トップ導線修正」A節）。 */
+  tagSlugs: string[];
   /** 1章目「何でできているか」冒頭の1文。 */
   bodyExcerpt: string | null;
   /** 3章目「なぜこの形になったのか」冒頭の1文（トップ「土地の物語から」用。
@@ -118,12 +121,13 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<BrowseItem[]
     const ja = translations.find((x) => x.locale === "ja");
     const en = translations.find((x) => x.locale === "en");
     const tagRows = row.food_item_tags ?? [];
-    const tags = tagRows
+    const allTags = tagRows
       .map((tr) => toOne(tr.tags))
       .filter((tag): tag is { slug: string; name_ja: string; name_en: string } => tag !== null)
-      .map((tag): TagBadge => ({ slug: tag.slug, nameJa: tag.name_ja, nameEn: tag.name_en }))
-      // 件数が多い場合は3個まで（作業パッケージ「トップページ改善」B節）
-      .slice(0, 3);
+      .map((tag): TagBadge => ({ slug: tag.slug, nameJa: tag.name_ja, nameEn: tag.name_en }));
+    // 表示は件数が多い場合3個まで（作業パッケージ「トップページ改善」B節）。
+    // 絞り込み判定（作業パッケージ「トップ導線修正」A節）は全タグで行うため tagSlugs は切らない。
+    const tags = allTags.slice(0, 3);
 
     return {
       slug: row.slug,
@@ -141,6 +145,7 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<BrowseItem[]
       genreSlug: toOne(row.genres)?.slug ?? null,
       shelfSlug: row.shelf_slug,
       tags,
+      tagSlugs: allTags.map((tag) => tag.slug),
       bodyExcerpt: t?.body_md ? excerptFirstSentence(t.body_md) : null,
       bodyExcerptCh3: t?.body_md ? excerptChapterSentence(t.body_md, 2) : null,
     };
@@ -590,6 +595,9 @@ export type HonbaGroup = {
   nameRomaji: string;
   genreSlug: string | null;
   shelfSlug: string;
+  /** 棚種別をまたいだ選定（トップ「本場をたどる」ローテーション）で料理を優先するために使う。
+   * 作業パッケージ「トップ導線修正」追加指示2。 */
+  itemType: "dish" | "ingredient";
   cities: HonbaCity[];
 };
 
@@ -597,6 +605,7 @@ type HonbaFoodItemRow = {
   slug: string;
   name_romaji: string;
   shelf_slug: string;
+  type: string;
   genres?: { slug: string }[] | { slug: string } | null;
   food_item_translations: { locale: string; name: string }[] | null;
 };
@@ -607,7 +616,7 @@ export async function fetchHonbaGroups(): Promise<HonbaGroup[]> {
     .from("food_item_regions")
     .select(
       `pref, city,
-       food_items!inner ( slug, name_romaji, shelf_slug, genres ( slug ), food_item_translations ( locale, name ) )`,
+       food_items!inner ( slug, name_romaji, shelf_slug, type, genres ( slug ), food_item_translations ( locale, name ) )`,
     )
     .eq("relation_type", "本場")
     .order("pref");
@@ -631,6 +640,7 @@ export async function fetchHonbaGroups(): Promise<HonbaGroup[]> {
         nameRomaji: item.name_romaji,
         genreSlug: toOne(item.genres ?? null)?.slug ?? null,
         shelfSlug: item.shelf_slug,
+        itemType: item.type as "dish" | "ingredient",
         cities: [],
       };
       groups.set(item.slug, group);

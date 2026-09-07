@@ -25,15 +25,17 @@ export async function SiteHeader({ locale }: { locale: string }) {
           </span>
         </Link>
 
-        {/* PC専用ナビ。遷移先は今後の画面実装で差す（現状はトップへのリンク） */}
+        {/* PC専用ナビ（本番レビュー「ヘッダーの土地・種類・興味は何も意味ない」対応）。
+            土地/種類はトップへ遷移し、BrowseShell がハッシュを読んでシートを full まで
+            開いて該当カード（#place/#type）へスクロールする。興味はタグ一覧ページへ。 */}
         <nav aria-label={t("navLabel")} className="hidden items-center gap-6 text-sm md:flex">
-          <Link href="/" className="text-foreground/80 hover:text-foreground">
+          <Link href="/#place" className="text-foreground/80 hover:text-foreground">
             {t("navPlace")}
           </Link>
-          <Link href="/" className="text-foreground/80 hover:text-foreground">
+          <Link href="/#type" className="text-foreground/80 hover:text-foreground">
             {t("navType")}
           </Link>
-          <Link href="/" className="text-foreground/80 hover:text-foreground">
+          <Link href="/tags" className="text-foreground/80 hover:text-foreground">
             {t("navInterest")}
           </Link>
         </nav>
