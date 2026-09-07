@@ -19,6 +19,9 @@ import { PositionBand } from "@/features/map/PositionBand";
 import { CoverFactChips, CoverTagChips, type CoverFact, type CoverTag } from "@/features/map/CoverInfo";
 import { TableOfContents, BodyChapters } from "@/features/map/ItemBody";
 import { ItemConnections, type ConnectionCard, type RegionPill } from "@/features/map/ItemConnections";
+import { CutDiagram } from "@/features/map/CutDiagram";
+import { speciesForGenre } from "@/features/map/cutDiagramData";
+import { LineageTree, type LineageNode } from "@/features/map/LineageTree";
 import { localeAlternates } from "@/lib/seo";
 import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
@@ -126,6 +129,30 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
   const chapters = item.bodyMd ? parseBodyMarkdown(item.bodyMd) : [];
   const tocHeading = t("toc");
 
+  // 3.5 概念図（部位図・系統図）。本文カラムの先頭、第1章の直前に差し込む
+  // （作業パッケージ「詳細ページ概念図」）。
+  const cutSpecies = speciesForGenre(item.genreSlug, item.slug);
+  const cutSpeciesLabel =
+    cutSpecies === "beef"
+      ? t("cutDiagram.speciesBeef")
+      : cutSpecies === "pork"
+        ? t("cutDiagram.speciesPork")
+        : cutSpecies === "chicken"
+          ? t("cutDiagram.speciesChicken")
+          : null;
+
+  // 系統図: page.tsx が既に持っている related（源流/派生・兄弟）だけを使う。
+  // href の組み立ては relatedCards と同じ規約（現在ページの genre セグメントを使う）。
+  const lineageParents: LineageNode[] = related
+    .filter((r) => r.relationType === "lineage" && r.otherIsFrom)
+    .map((r) => ({ key: r.slug, href: `/${genre}/${r.slug}`, name: isJa ? r.nameJa : r.nameRomaji }));
+  const lineageChildren: LineageNode[] = related
+    .filter((r) => r.relationType === "lineage" && !r.otherIsFrom)
+    .map((r) => ({ key: r.slug, href: `/${genre}/${r.slug}`, name: isJa ? r.nameJa : r.nameRomaji }));
+  const lineageSiblings: LineageNode[] = related
+    .filter((r) => r.relationType === "sibling")
+    .map((r) => ({ key: r.slug, href: `/${genre}/${r.slug}`, name: isJa ? r.nameJa : r.nameRomaji }));
+
   // 4. つながり（2軸）
   const styleTitle = t("connectionsStyleTitle");
   const landTitle = t("connectionsLandTitle");
@@ -216,6 +243,24 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
         <div className="px-4 pt-8 md:grid md:grid-cols-[minmax(0,700px)_260px] md:items-start md:gap-10 md:px-0">
           <div className="min-w-0">
             <TableOfContents chapters={chapters} heading={tocHeading} className="mb-8 md:hidden" />
+
+            {/* 概念図: 部位図（対象ジャンルのときだけ）・系統図（関係データがあるときだけ）。
+                第1章の直前、SP/PC共通で本文カラム内（サイドバーには入れない）。 */}
+            {cutSpecies && cutSpeciesLabel && (
+              <CutDiagram
+                slug={item.slug}
+                label={displayName}
+                ariaLabel={t("cutDiagram.ariaLabel", { species: cutSpeciesLabel, part: displayName })}
+              />
+            )}
+            <LineageTree
+              heading={t("lineage")}
+              selfName={displayName}
+              parents={lineageParents}
+              childItems={lineageChildren}
+              siblings={lineageSiblings}
+              className="mb-8"
+            />
 
             <BodyChapters chapters={chapters} />
 
