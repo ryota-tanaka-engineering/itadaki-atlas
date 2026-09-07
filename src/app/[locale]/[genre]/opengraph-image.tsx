@@ -28,7 +28,7 @@ export default async function Image({ params }: { params: Promise<Params> }) {
   const title = isJa
     ? ing
       ? `${name}の銘柄と産地`
-      : `ご当地${name}一覧`
+      : `${name}の種類`
     : ing
       ? `${name} — brands and regions`
       : `Types of ${name}`;

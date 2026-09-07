@@ -44,18 +44,18 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
         locale === "ja"
           ? ing
             ? `${name}の銘柄と産地（${items.length}件）`
-            : `ご当地${name}一覧（${items.length}種）`
+            : `${name}の種類（${items.length}種）— 生まれた土地から`
           : ing
             ? `${name} — brands and regions`
-            : `Types of ${name} — ${items.length} regional varieties`,
+            : `${items.length} kinds of ${name}, by where they were born`,
       description:
         locale === "ja"
           ? ing
             ? `日本各地の${name}の銘柄と産地を整理した一覧。`
-            : `日本各地の${name}${items.length}種を、発祥地と系統で整理した一覧。`
+            : `${name}${items.length}種を、生まれた土地と系統で整理した一覧。全国で食べられる型も、ここでしか出会えない型も。`
           : ing
             ? `${name} brands and their source regions across Japan.`
-            : `${items.length} regional varieties of ${name} in Japan, organized by origin and style.`,
+            : `${items.length} kinds of ${name}, organized by where each was born and how it is made — from styles served nationwide to ones found only in one town.`,
       alternates: localeAlternates(`/${genre}`),
     };
   }

@@ -150,19 +150,19 @@
     "その他": "Other"
   },
   "genre": {
-    "title": "Types of {name}",
+    "title": "Kinds of {name}",
     "count": "{count} varieties",
     "viewOnMap": "View on map",
     "mapCta": "View all {name} on the map",
     "otherStyles": "Other",
     "encyclopedia": "Encyclopedia",
     "byRegion": "Browse by region",
-    "regional": "Regional varieties",
+    "regional": "Born in a place",
     "titleIngredient": "{name} — brands and regions",
     "styleNavLabel": "Jump to style",
     "shelfSiblingsTitle": "More from this shelf",
-    "chainsHeading": "Know these chains? Meet the regional originals",
-    "chainsIntro": "The flavors of major chains often trace back to a regional style of their own."
+    "chainsHeading": "Know these chains? Meet the originals they trace back to",
+    "chainsIntro": "The flavors of major chains often trace back to a style born in one place. Start with a taste you know, then meet the ones found only there."
   },
   "region": {
     "title": "What to eat in {pref}",

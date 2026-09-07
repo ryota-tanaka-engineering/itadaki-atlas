@@ -537,7 +537,7 @@ test.describe("トップページ情報モジュール（今日の一皿・本�
     await expect(sheet.getByRole("heading", { name: "今日の一皿" })).toBeVisible();
     await expect(sheet.getByRole("heading", { name: "ひとつの食べもの、いくつもの本場" })).toBeVisible();
     await expect(
-      sheet.getByRole("heading", { name: "その味、ご当地にもあります" }),
+      sheet.getByRole("heading", { name: "その味の、生まれた土地へ" }),
     ).toBeVisible();
     await expect(sheet.getByRole("heading", { name: "土地の物語から" })).toBeVisible();
     await expect(sheet.getByRole("heading", { name: "このサイトについて" })).toBeVisible();
@@ -558,7 +558,7 @@ test.describe("トップページ情報モジュール（今日の一皿・本�
     await expect(sheet.getByRole("heading", { name: "Today's dish" })).toBeVisible();
     await expect(sheet.getByRole("heading", { name: "One dish, many hometowns" })).toBeVisible();
     await expect(
-      sheet.getByRole("heading", { name: "Know these chains? Meet the regional originals" }),
+      sheet.getByRole("heading", { name: "Know these chains? Meet the originals they trace back to" }),
     ).toBeVisible();
     await expect(sheet.getByRole("heading", { name: "Stories from the land" })).toBeVisible();
     await expect(sheet.getByRole("heading", { name: "About this atlas" })).toBeVisible();
@@ -765,7 +765,7 @@ test.describe("チェーンから、ご当地へ（チェーン橋渡し装置�
     page,
   }) => {
     await page.goto("/ja/ramen");
-    const chainSection = page.locator("section", { hasText: "その味、ご当地にもあります" });
+    const chainSection = page.locator("section", { hasText: "その味の、生まれた土地へ" });
     await expect(chainSection).toBeVisible();
     await expect(chainSection.getByText("一蘭", { exact: true })).toBeVisible();
 
@@ -778,7 +778,7 @@ test.describe("チェーンから、ご当地へ（チェーン橋渡し装置�
   test("英語版でも文言が英語で出る", async ({ page }) => {
     await page.goto("/en/ramen");
     const chainSection = page.locator("section", {
-      hasText: "Know these chains? Meet the regional originals",
+      hasText: "Know these chains? Meet the originals they trace back to",
     });
     await expect(chainSection).toBeVisible();
     await expect(
@@ -788,7 +788,7 @@ test.describe("チェーンから、ご当地へ（チェーン橋渡し装置�
 
   test("チェーンの無いジャンルにはセクションが出ない（寿司）", async ({ page }) => {
     await page.goto("/ja/sushi");
-    await expect(page.getByText("その味、ご当地にもあります")).toHaveCount(0);
+    await expect(page.getByText("その味の、生まれた土地へ")).toHaveCount(0);
   });
 });
 
@@ -838,7 +838,7 @@ test.describe("チェーン独立ページ（1チェーン=1URL。検索流入�
 
   test("ジャンルページのチェーン行から独立ページへ遷移できる", async ({ page }) => {
     await page.goto("/ja/ramen");
-    const chainSection = page.locator("section", { hasText: "その味、ご当地にもあります" });
+    const chainSection = page.locator("section", { hasText: "その味の、生まれた土地へ" });
     await chainSection.getByRole("link", { name: "一蘭" }).click();
     await expect(page.getByRole("heading", { name: "一蘭", level: 1 })).toBeVisible();
   });
