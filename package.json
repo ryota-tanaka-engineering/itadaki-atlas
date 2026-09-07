@@ -11,6 +11,7 @@
     "test:watch": "vitest",
     "test:e2e": "playwright test",
     "content:lint": "node --env-file=.env.local scripts/content-lint.ts",
+    "content:import": "node --env-file=.env.local scripts/import-content.ts",
     "preview:cf": "opennextjs-cloudflare build && opennextjs-cloudflare preview",
     "deploy:cf": "opennextjs-cloudflare build && opennextjs-cloudflare deploy"
   },
