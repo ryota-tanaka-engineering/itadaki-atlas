@@ -348,7 +348,7 @@ test.describe("データ駆動ページ（行を足すと増える機械）", ()
   });
 
   test("国民食型: 発祥ピンなしの海鮮丼詳細が開ける", async ({ page }) => {
-    await page.goto("/ja/rice/kaisendon");
+    await page.goto("/ja/donburi/kaisendon");
     await expect(page.getByRole("heading", { name: "海鮮丼", level: 1 })).toBeVisible();
   });
 

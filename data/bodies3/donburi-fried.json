@@ -1,0 +1,895 @@
+{
+ "items": [
+  {
+   "slug": "oyakodon",
+   "body_ja": "## 何でできているか\n鶏もも肉と玉ねぎを甘辛い割り下でくぐらせ煮て、半熟の卵でふんわりとじる。出汁の効いた割り下の香りが最初に立ち、そこへ鶏の脂の甘みと卵のコクが重なっていく。黄身がまだとろりとした状態で飯に落ちるため、箸を入れるたびに黄色い層が飯へしみ込み、三つ葉の青い香りが全体の甘辛さを引き締める役どころを担う。玉ねぎの甘みが煮汁全体をまろやかにし、鶏の旨みを飯まで運ぶ橋渡しになる。\n## どう作るのか\n鶏もも肉と玉ねぎをだし・醤油・みりんの割り下で煮て、そこへ溶き卵を大きく円を描くように流し入れる。卵を半熟のまま火から下ろして飯にのせるのが勘所とされ、火を入れすぎると卵が締まって食感が硬くなるため、余熱だけで仕上げる店が多いという。三つ葉を最後に散らし、香りと彩りを添えて供する。専用の小さな鍋で一人前ずつ仕上げる店が多く、卵の火入れ具合が店ごとの個性になるとされる。\n## なぜこの形になったのか\n一説には、東京・日本橋人形町の軍鶏料理専門店で、鶏すきの締めに残った肉と割り下を客が卵でとじて飯とともに食べていたのが始まりという。もとは出前専用の料理で、片手で持ち運べて冷めても味が締まりやすい丼という形が、忙しい商家の多い界隈で重宝されたとされる。鶏と卵という一つの生き物の親子を一皿に収めた取り合わせが、そのまま料理名として定着した。",
+   "body_en": "## What it's made of\nChicken thigh and onion simmer in a sweet-savory dashi broth until the meat softens, then beaten egg is poured over and left just short of set. The broth's aroma comes first, followed by the richness of chicken fat meeting egg, and as the still-runny yolk breaks into the rice with each bite, a scattering of mitsuba leaf cuts through the sweetness at the end.\n## How it's made\nChicken and onion cook down in a warishita of dashi, soy sauce, and mirin, then beaten egg is swirled in from the center outward in a wide circle. The trick, it's said, is pulling it off the heat while the egg is still soft — overcooking tightens the curd — so many shops let residual heat finish the set before it goes over rice, topped at the end with mitsuba for color and scent.\n## Why it took this shape\nOne account traces it to a game-fowl restaurant in Tokyo's Nihonbashi Ningyocho, where customers began binding the leftover meat and broth from a chicken hot pot with egg and eating it over rice. Originally a delivery-only dish, its form — portable by hand, holding its flavor even once cold — suited a busy merchant district. Chicken and egg, parent and child from the same bird, gave the dish the name it still carries.",
+   "sources": [
+    {
+     "title": "親子丼 東京都｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_12_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "oyakodon",
+     "to_slug": "tori-momo",
+     "relation_type": "使用食材",
+     "basis": "鶏もも肉を主素材として使う（農林水産省「うちの郷土料理」）"
+    }
+   ]
+  },
+  {
+   "slug": "katsudon",
+   "body_ja": "## 何でできているか\nパン粉をまとわせて揚げたとんかつを、玉ねぎと一緒に甘辛い出汁で軽く煮て、溶き卵でとじる。衣はだしを吸ってふやけながらも肉の食感を残し、卵とだしが絡んだ層の下に、揚げたてのサクサク感が最後まで残る部分もある。玉ねぎの甘みが出汁全体をやわらげ、濃い味の衣と淡い白飯の間を取り持つ役割を果たし、器全体の温度を保つ蓋のような働きもする。\n## どう作るのか\n揚げたてのとんかつを一口大に切り、出汁・醤油・みりんで煮立てた玉ねぎの上にのせ、溶き卵を回しかけて半熟に火を入れる。衣を煮汁に浸す時間が短いほど衣の食感が残り、長いほどだしが染みる。好みに応じて煮る時間を調整する店が多いとされ、卵を二度に分けて流し込み層をつくる技法を使う店もあるという。蓋をして蒸らす時間の長さも、店ごとの味を分ける要素になる。\n## なぜこの形になったのか\n一説には、大正10年に早稲田高等学院の学生が考案したソースをかけるかつ丼が先にあり、その後同年代に大阪などで卵とじの形が現れたとされる。とんかつという西洋料理の翻案を、出汁と卵という和食の技法で丼に仕立て直した点に、洋食を丼飯に合わせようとした時代の試行錯誤が表れているとされる。単一の発祥地が定まらないまま全国に広まった点も、この丼の成り立ちを物語っている。",
+   "body_en": "## What it's made of\nA deep-fried pork cutlet is simmered briefly with onion in a sweet-savory dashi, then bound with beaten egg. The panko soaks up broth while still holding the meat's texture, so the dish carries both a broth-soaked softness and pockets of the fry's original crispness, with the onion's sweetness softening the whole broth and bridging the rich crumb to the plain rice beneath.\n## How it's made\nA freshly fried cutlet is cut into pieces and set over onion simmered in dashi, soy sauce, and mirin, then beaten egg is poured over and cooked just short of set. The shorter the crumb sits in the broth, the more crunch survives; the longer, the more it soaks up broth — timing said to vary by shop, some of which pour the egg in two passes to build distinct layers.\n## Why it took this shape\nOne account holds that a Worcester-sauce version devised by a Waseda student in 1921 came first, with the egg-bound form appearing around the same era in places including Osaka. Recasting a Western-derived fried cutlet through dashi and egg — techniques native to Japanese cooking — reflects an era of trial and error in fitting Western food onto a bowl of rice, and that no single birthplace ever settled tells its own part of the story.",
+   "sources": [
+    {
+     "title": "駒ヶ根ソースかつ丼とは？",
+     "url": "http://www.komacci.or.jp/katsu/katsudon.html",
+     "publisher": "駒ヶ根商工会議所",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "katsudon",
+     "to_slug": "tonkatsu",
+     "relation_type": "派生",
+     "basis": "揚げたとんかつを卵とじにして丼へ仕立てた料理（駒ヶ根商工会議所の文献引用に基づく）"
+    }
+   ]
+  },
+  {
+   "slug": "fukui-katsudon",
+   "body_ja": "## 何でできているか\n薄めのとんかつに、とろみのない醤油ベースのウスターソースをくぐらせただけの潔い一杯。卵とじの丼と違い、揚げたばかりの衣がソースを吸ってしっとりしつつも、噛むとまだ油の香ばしさが残る。飯は白飯のみで、ソースの酸味と甘みが直接伝わり、卵の膜を挟まない分だけ肉とソースの輪郭がはっきりと立つ。器を覆うほどの大きさに切られた肉が、見た目にも食べ応えを伝える。\n## どう作るのか\nロース肉を薄めに切って衣をつけて揚げ、熱いうちに専用の醤油ベースソースにくぐらせて飯にのせる。キャベツは添えず、ソースかつそのものの味を飯にまとわせるのが福井流とされる。揚げたてをすぐソースにくぐらせる速さが、衣のべたつきを防ぐ勘所とされ、ソースの温度を保つ工夫をする店もあるという。肉を薄めに切るのは、ソースを芯まで行き渡らせるためともいわれる。\n## なぜこの形になったのか\n一説には、ドイツで料理修行をした高畠増太郎が、日本人向けに工夫したウスターソースを大正2年の東京の料理発表会で披露したのが始まりという。その後福井に戻り店の味として受け継がれたとされ、卵とじが後から全国に広まる前に、ソースをからめる形がまず先にあったという流れが福井の丼には残っている。飯とソースが直接触れる潔さが、この土地の丼の型として今日まで守られている。",
+   "body_en": "## What it's made of\nA thin pork cutlet is simply dipped in a thin soy-based Worcester sauce, no egg involved. Unlike the egg-bound version, the just-fried crumb turns moist with sauce yet still carries a toasted-oil bite when chewed. Plain white rice underneath lets the sauce's sourness and sweetness come through directly.\n## How it's made\nA thinly cut loin cutlet is breaded, fried, and dipped hot into a dedicated soy-based sauce before going over rice — no cabbage added, letting the sauce itself coat the rice. Dipping it while still hot, and quickly, is said to be the trick that keeps the crumb from turning soggy.\n## Why it took this shape\nOne account holds that Masotaro Takahatake, trained in Germany, unveiled a Worcester sauce adapted for Japanese palates at a Tokyo food event in 1913, then carried it back to Fukui as his shop's signature. The sauced form is said to have come before the egg-bound style spread nationwide, and that earlier form survives in Fukui's bowl.",
+   "sources": [
+    {
+     "title": "福井名物『ソースカツ丼』とは？｜福いろ",
+     "url": "https://fuku-iro.jp/feature/katsudon",
+     "publisher": "福井市公式観光サイト",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "fukui-katsudon",
+     "to_slug": "aizu-katsudon",
+     "relation_type": "兄弟",
+     "basis": "ともに卵を使わずソースをかけるかつ丼の地域型（各公式サイトの記述に基づく）"
+    }
+   ]
+  },
+  {
+   "slug": "aizu-katsudon",
+   "body_ja": "## 何でできているか\n揚げたてのとんかつに、とろみのついた甘辛いソースがたっぷりとかかる。福井のソースかつ丼よりソースの粘度が高く、衣にしっかり絡みつくため、一口目からソースの甘みと衣の香ばしさが同時に来る。刻みキャベツが丼の縁に添えられ、ソースを吸ったキャベツが箸休めの役割も兼ねる。とろみのある分、最後まで冷めにくいのもこの丼の特徴とされる。\n## どう作るのか\nロース肉を揚げ、丼に敷いたキャベツの上にのせて、とろみのあるソースをたっぷりとかける。ソースは店ごとに配合が異なり、とろみの強さが会津流の特徴とされる。卵は使わず、ソースと衣の一体感を保つために揚げたてを供する店が多いといい、ソースをかけるタイミングも味を左右するという。二度がけをして味を重ねる店もあると伝わる。\n## なぜこの形になったのか\n由来ははっきりしないとされ、大正期のカフェ文化の中で洋食コックが賄いとして作った説、食堂主が東京から洋食コックを招いた説、戦後の物資不足期に生まれた説の三つが伝わる。いずれの説も、地元で洋食が「賄い」や「工夫」から生まれたという点で共通しており、会津の日常の中でかつ丼が磨かれてきたことをうかがわせる。大正時代から今日まで、会津の人々の食卓に自然に溶け込んできた一皿とされる。",
+   "body_en": "## What it's made of\nA freshly fried cutlet arrives under a thick, sweet-savory sauce — thicker than Fukui's version — that clings to the crumb, so the sauce's sweetness and the crumb's toasted aroma hit at once. Shredded cabbage sits at the bowl's edge.\n## How it's made\nA loin cutlet is fried and set on a bed of cabbage in the bowl, then generously coated in a thick sauce whose blend varies by shop — that thickness is Aizu's signature. No egg is used, and many shops serve it fresh from the fryer to keep the sauce and crumb working as one.\n## Why it took this shape\nIts origin is said to be unsettled: one account has a Western-food cook improvising it as staff food during the Taisho-era café boom, another has a diner owner bringing in a Western cook from Tokyo, and a third places it in the postwar years of scarcity. All three agree the dish grew out of everyday improvisation, suggesting it was refined through daily use in Aizu rather than a single moment of invention.",
+   "sources": [
+    {
+     "title": "会津のソースカツ丼｜伝統会津ソースカツ丼の会",
+     "url": "https://aizu-katudon.com/source_katsu/",
+     "publisher": "伝統会津ソースカツ丼の会",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aizu-katsudon",
+     "to_slug": "komagane-katsudon",
+     "relation_type": "兄弟",
+     "basis": "ともに卵を使わずソースをかけるかつ丼の地域型（各公式サイトの記述に基づく）"
+    }
+   ]
+  },
+  {
+   "slug": "komagane-katsudon",
+   "body_ja": "## 何でできているか\n千切りキャベツを敷いた飯の上に、秘伝のソースにくぐらせたとんかつをのせる。熱々のかつと冷たいキャベツの歯ざわりの対比が最初の一口の印象を決め、甘辛いソースがキャベツにも染みて、飯とかつを一体にまとめる。海苔や他の具材を一切のせない潔さも、この丼の見た目の特徴になっており、蓋の有無は店の裁量に委ねられている。\n## どう作るのか\nロース肉を規定の120グラム以上で揚げ、水気を切った千切りキャベツを丼の飯にのせてから、パン粉をつけて揚げたかつをソースにくぐらせて盛る。「駒ヶ根ソースかつ丼会」による規定では、器や具材の組み合わせ、揚げ油の管理方法まで細かく定められているとされ、加盟店ごとに味の基準を守りながら看板料理として提供している。\n## なぜこの形になったのか\n地元の証言では、昭和3年（異説では11年）に「喜楽」の初代店主が、当時流行り始めた洋食を見てソースかつ丼を考案したという。この地域では今も「かつ丼」といえばソースをかけたものを指し、卵とじは特別に頼む必要があるとされ、ソースをかける形がこの土地の丼の基準として定着してきたことがうかがえる。平成5年には地元有志が会を発足させ、街おこしとして受け継いでおり、駒ヶ根を訪れる目的の一つに数えられるまでになっている。",
+   "body_en": "## What it's made of\nShredded cabbage sits on the rice, topped with a cutlet dipped in a secret sauce. The first bite plays hot cutlet against cold cabbage, and the sweet-savory sauce seeps into the cabbage too, tying rice and cutlet together.\n## How it's made\nA loin cutlet of at least 120 grams is fried, set atop drained shredded cabbage over rice, and dipped hot in sauce. Rules set by the local Sauce Katsudon Association reportedly spell out even the bowl and the pairing of ingredients in detail.\n## Why it took this shape\nLocal testimony holds that the first owner of a shop called Kiraku devised the sauce-dipped version in 1928 (some accounts say 1936), after seeing the Western food then coming into fashion. In this town, 'katsudon' still means the sauced kind by default — the egg-bound version has to be specially requested — showing how the sauced form became this place's local standard.",
+   "sources": [
+    {
+     "title": "駒ヶ根ソースかつ丼とは？",
+     "url": "http://www.komacci.or.jp/katsu/katsudon.html",
+     "publisher": "駒ヶ根商工会議所",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "komagane-katsudon",
+     "to_slug": "katsudon",
+     "relation_type": "対比",
+     "basis": "ソースをかける形と卵でとじる形という、かつ丼の二つの系統の対比（駒ヶ根商工会議所の文献引用に基づく）"
+    }
+   ]
+  },
+  {
+   "slug": "gyudon",
+   "body_ja": "## 何でできているか\n薄切りの牛肉と玉ねぎを、甘辛い出汁でくたくたになるまで煮込み、汁ごと飯にかける。肉の脂とみりんの甘みが溶け出した煮汁が飯の粒の間まで染み込み、玉ねぎのとろけるような柔らかさが肉の存在感を受け止める。紅生姜の酸味が全体の輪郭を締め、七味を振ればさらに味が引き締まる。丼の中で汁と飯と具材が一体になっているのが最大の特徴とされる。\n## どう作るのか\n薄切りの牛肉を出汁・醤油・砂糖・みりんの割り下で煮て、玉ねぎがくたっとするまで火を通す。肉を煮すぎると硬くなるため、あとから加えて短時間で仕上げる店が多いとされる。煮汁ごと飯にかけ、紅生姜や七味を添えて供するのが一般的な形とされ、店によっては卵を落として食べる供し方もある。早く安く提供できる調理法として広まったともいわれる。\n## なぜこの形になったのか\n一説には、幕末の開港とともに横浜の外国人居留地周辺で牛肉を味噌や醤油で煮る牛鍋が生まれ、そこから簡略化された煮込みが丼飯にかけられるようになったとみられている。牛肉という当時の新しい食材を、出汁と丼という和食の枠組みに落とし込む過程で、この一杯が形になっていったと考えられており、早く安く提供できる点が忙しい都市の生活に合っていたとされ、今では地域を問わず日常食として定着している。",
+   "body_en": "## What it's made of\nThin-sliced beef and onion simmer in a sweet-savory broth until soft, then both meat and broth go straight over rice. The broth, rich with rendered fat and mirin's sweetness, soaks down between the grains, while the onion's melting softness offsets the beef's presence, and pickled red ginger sharpens the whole bowl at the edges.\n## How it's made\nThin-sliced beef simmers in a broth of dashi, soy sauce, sugar, and mirin alongside onion cooked until soft. Overcooked beef toughens, so many shops add it late and finish quickly. The meat and broth both go over rice, typically finished with pickled red ginger or shichimi pepper.\n## Why it took this shape\nOne account traces it back to gyunabe, a beef hot pot simmered in miso or soy sauce that grew up near Yokohama's foreign settlement after the port opened in the closing years of the shogunate — a simplified version of that stew is thought to have moved onto a bowl of rice from there. Working a then-unfamiliar ingredient, beef, into the dashi-and-rice-bowl framework of Japanese cooking is how this dish is thought to have taken shape.",
+   "sources": [
+    {
+     "title": "西洋文化の影響を受けた名物料理『牛鍋』｜観光かながわNOW",
+     "url": "https://www.kanagawa-kankou.or.jp/features/301",
+     "publisher": "神奈川県公式観光サイト",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gyudon",
+     "to_slug": "beef-short-rib",
+     "relation_type": "使用食材",
+     "basis": "薄切りの牛肉を主素材として使う"
+    }
+   ]
+  },
+  {
+   "slug": "obihiro-butadon",
+   "body_ja": "## 何でできているか\n炭火で焼いた豚肉に、うなぎの蒲焼き風の甘辛いタレをからめて飯にのせる。表面は香ばしく焦げ目がつき、噛むと肉汁とタレの甘みが同時にあふれる。白髪ねぎの辛みが脂の重さを断ち切り、飯にはタレだけがしっかりと染み込んでいる。厚めに切った豚肉が何枚も飯を覆う見た目も、この丼の特徴として広く知られており、蓋を開けた瞬間の香りも食欲をそそる。\n## どう作るのか\n筋切りした豚ロースやバラ肉を炭火やフライパンで焼き、醤油・砂糖・みりんのタレを絡めて仕上げる。タレを何度もからめながら焼き重ねることで照りと香ばしさが増すとされ、炭火で焼くとより香ばしく仕上がるという。白髪ねぎを天盛りにして供するのが定番で、毎年2月10日は「豚丼の日」に制定されているとも伝わっている。\n## なぜこの形になったのか\n一説には、明治末から養豚が盛んだった十勝地方で、昭和初期に帯広市内の食堂が、当時高価だったうなぎの代わりに入手しやすい豚肉を使い、蒲焼き風のタレをまとわせたのが始まりという。開拓期の労働者のためのスタミナ料理として、身近な豚肉を贅沢な蒲焼きに見立てた工夫がそのまま丼の形になったとされ、今では帯広を代表する食として全国に知られており、観光で訪れる人の目当ての一つにもなっている。",
+   "body_en": "## What it's made of\nCharcoal-grilled pork is coated in a sweet-savory glaze modeled on eel kabayaki sauce and set over rice. The surface carries a fragrant char, and each bite releases meat juice and the glaze's sweetness together, while julienned white scallion cuts through the richness and the glaze alone soaks into the rice beneath.\n## How it's made\nPork loin or belly, scored to keep it from curling, is grilled over charcoal or in a pan and basted repeatedly in a soy-sugar-mirin glaze. Layering the basting as it cooks is said to build both sheen and aroma, with charcoal grilling said to deepen the smokiness further; julienned scallion is piled on top to finish.\n## Why it took this shape\nOne account holds that in the Tokachi region, where hog farming had thrived since the late Meiji era, a diner in Obihiro devised it in the early Showa years by substituting the readily available pork for eel, then too costly, and coating it in an eel-style glaze. Conceived as a hearty dish for the region's pioneer-era laborers, the idea of dressing up humble pork as a stand-in for a luxury food became the bowl itself.",
+   "sources": [
+    {
+     "title": "豚丼 北海道｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/butadon_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "obihiro-butadon",
+     "to_slug": "pork-loin",
+     "relation_type": "使用食材",
+     "basis": "豚ロース・バラ肉を主素材として使う（農林水産省「うちの郷土料理」）"
+    }
+   ]
+  },
+  {
+   "slug": "tendon",
+   "body_ja": "## 何でできているか\nエビや魚介、季節の野菜を揚げた天ぷらを、甘辛いたれをくぐらせて飯にのせる。天つゆがそのまま飯にも染みるため、衣の香ばしさとたれの甘みが層になって重なり、下の飯までしっかり味がついているのが天丼の特徴とされる。複数の天ぷらが盛られることで、一つの丼の中に何種類もの食感と香りが同時に同居することになる。\n## どう作るのか\nエビや魚介、野菜を天ぷらにし、揚げたてを醤油・みりん・砂糖を煮詰めたたれにくぐらせるか、飯にたれをかけてから天ぷらをのせる。衣がたれを吸ってしんなりする食感を好む向きと、カラッとした衣を保ちたい向きとで、たれのかけ方が店によって分かれるとされる。エビは尾を丼の縁からはみ出させて豪快に盛る店も多いという。\n## なぜこの形になったのか\n業界団体の資料では、丼という料理の形自体が江戸時代の都市経済の成立とともに本格化したとされ、天ぷらという単体の料理と飯とが結びついて初めて天丼が成り立つと位置づけられている。天ぷらなくして天丼はあり得ないとされ、飯の上に直接おかずをのせる江戸っ子気質がこの丼を生んだとみられており、複数の料理文化が積み重なった高度な一皿と説明されており、天ぷらの発展史そのものと重なる歩みを持つとされ、専門店だけでなく蕎麦屋や定食屋でも幅広く供されている。",
+   "body_en": "## What it's made of\nShrimp, seafood, and seasonal vegetables are deep-fried as tempura, dipped in a sweet-savory sauce, and set over rice. Because the sauce soaks straight into the rice as well, the crumb's toasted aroma and the sauce's sweetness build up in layers, with the rice underneath said to carry flavor all the way through.\n## How it's made\nShrimp, seafood, and vegetables are fried as tempura, then either dipped hot into a sauce reduced from soy sauce, mirin, and sugar, or the rice itself is sauced before the tempura goes on top. Shops split over whether the crumb should soften as it drinks in sauce or stay crisp, and that split shapes how the sauce gets applied.\n## Why it took this shape\nAn industry association's account frames the donburi form itself as having taken shape alongside Edo-period urban economic life, with tendon only possible once tempura, a dish in its own right, met rice in a single bowl. Tempura is described as indispensable to it — there is no tendon without tempura — and the habit of placing a dish directly atop rice is seen as what gave rise to this bowl.",
+   "sources": [
+    {
+     "title": "丼の歴史｜一般社団法人全国丼連盟",
+     "url": "https://don.or.jp/text/history/",
+     "publisher": "一般社団法人全国丼連盟",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tendon",
+     "to_slug": "kuruma-ebi",
+     "relation_type": "使用食材",
+     "basis": "エビ天を代表的な具材として使う"
+    }
+   ]
+  },
+  {
+   "slug": "unadon",
+   "body_ja": "## 何でできているか\n香ばしく焼き上げたうなぎの蒲焼きを、甘辛いたれごと熱い飯の上にのせる。飯の熱でたれの香りがふわりと立ち、皮はぱりっと、身はふっくらとした対比が一口ごとに感じられる。たれが染みた飯の部分は、うなぎとはまた違う旨みを持ち、山椒を振ると香りがさらに引き締まる。蓋を開けた瞬間に立ちのぼる湯気も、この丼のごちそう感を支えている。\n## どう作るのか\n素焼きにしたうなぎをたれにつけて焼く「つけ焼き」を繰り返し、香ばしい照りを出してから飯にのせる。皮目をぱりっと、身をふっくらと仕上げるための火加減が肝とされ、飯にたれを先にかけてから蒲焼きをのせる店と、のせてからたれをかける店があるという。蒸してから焼く関東風と、蒸さずに焼く関西風で食感が分かれるとも伝わる。\n## なぜこの形になったのか\n江戸時代後期、うなぎ好きの大久保今助という人物が、常陸国への帰路に立ち寄った牛久沼の茶店で蒲焼きと丼飯を注文したところ、船の出航を告げる声に飯の上へ皿をかぶせて持ち込んだという逸話が伝わる。対岸に着いて食べると、飯の熱で蒸された蒲焼きがこれまでにない美味しさだったとされ、この偶然の組み合わせが今日の形につながったといわれており、龍ケ崎市では今もこの逸話を発祥の物語として伝えている。",
+   "body_en": "## What it's made of\nA grilled eel fillet, glazed with a sweet-savory sauce, is set atop hot rice, sauce included. The rice's heat lifts the glaze's aroma, and each bite plays crisp skin against tender flesh, while the sauce-soaked rice underneath carries a flavor distinct from the eel itself.\n## How it's made\nSkewered eel is grilled plain, then repeatedly dipped and re-grilled in a sauce to build a fragrant glaze before going over rice. Getting the skin crisp and the flesh tender at once is the key, and shops differ over whether the sauce goes on the rice first or over the eel after it's placed.\n## Why it took this shape\nAn account from the late Edo period tells of Konsuke Okubo, a lover of eel, stopping at a teahouse by Ushiku Marsh on his way home to Hitachi Province and ordering grilled eel over a bowl of rice — then, hearing the call that his boat was leaving, capping the bowl with its plate and carrying it aboard. Eating it on the far shore, the eel steamed soft by the rice's heat, he reportedly found it better than ever, and that accident is said to have led to the dish's present form.",
+   "sources": [
+    {
+     "title": "うな丼発祥の地 龍ケ崎市の牛久沼｜龍ケ崎市公式ホームページ",
+     "url": "https://www.city.ryugasaki.ibaraki.jp/kanko/kankokyokai/more-ryugasaki/kanko_yomimono/2013081500954.html",
+     "publisher": "龍ケ崎市",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "unadon",
+     "to_slug": "unagi",
+     "relation_type": "使用食材",
+     "basis": "うなぎの蒲焼きを主素材として使う"
+    }
+   ]
+  },
+  {
+   "slug": "fukagawa-don",
+   "body_ja": "## 何でできているか\nネギと生のアサリを味噌でさっと煮て、汁ごと飯にかけた素朴な一杯。味噌の塩気とアサリの潮の香りが最初に来て、噛むとアサリの身から出る旨みがじわりと汁に広がる。ネギの甘みが味噌の角を取り、全体を丸くまとめており、刻み海苔の香りが仕上げに軽さを添えている。漁師町らしい、飾らない素朴な味わいが持ち味とされる。\n## どう作るのか\nアサリの身を殻から外し、味噌を溶いた出汁でネギとともにさっと煮て、汁ごと飯にかける「ぶっかけ」の作り方が原型とされる。近年ではアサリと具材を米と一緒に炊き込む「炊き込み」の形も並んで供され、刻み海苔を天盛りにするのが一般的とされる。ニンジンやゴボウ、油揚げを加えて具だくさんに仕立てる店も少なくないという。\n## なぜこの形になったのか\n江戸時代、現在の東京湾岸に干潟が広がっていた深川浦一帯はアサリやハマグリの宝庫で、漁師町として栄えていたとされる。忙しい漁師が手早く食べられるよう、汁ごと飯にかける形が生まれたとみられ、昭和初期には浅草の屋台でも売られるなど、庶民の味として親しまれてきたと伝わる。1981年には深川江戸資料館の開館に合わせて郷土料理として改めて広められたといい、今も地元の飲食店の看板料理として観光客と地元の人の双方に親しまれている。",
+   "body_en": "## What it's made of\nFresh clams and leek simmer briefly in a miso broth, then both go over rice, broth included, in a plain, unadorned bowl. The miso's salinity and the sea-tinged scent of clam come first, and as you chew, the clams release their savor slowly into the broth, while the leek's sweetness rounds off the miso's edge.\n## How it's made\nClam meat is shelled and simmered briefly with leek in a miso-thinned dashi, then ladled over rice — the 'bukkake' style said to be the original form. A rice-cooked 'takikomi' version, where clams and other ingredients steam in with the rice itself, is now served alongside it, typically finished with a pile of shredded nori.\n## Why it took this shape\nIn the Edo period, the tidal flats along what is now Tokyo Bay made the Fukagawa inlet a rich source of clams, and the district grew up as a fishing town. The broth-over-rice form is thought to have arisen so busy fishermen could eat quickly, and by the early Showa era it was reportedly sold from stalls in Asakusa too, taking root as an everyday, working-class dish.",
+   "sources": [
+    {
+     "title": "深川めし／深川丼 東京都｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_1_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "fukagawa-don",
+     "to_slug": "asari",
+     "relation_type": "使用食材",
+     "basis": "生アサリを主素材として使う（農林水産省「うちの郷土料理」）"
+    }
+   ]
+  },
+  {
+   "slug": "shirasu-don",
+   "body_ja": "## 何でできているか\n透き通ったしらすを、水揚げ当日のうちに生のまま飯にのせる。噛むとぷちぷちとした食感の中からほのかな甘みと海の香りがにじみ出て、卵黄を割り入れるとまろやかさが加わる。刻み海苔と薬味のねぎが、しらすの淡い味に輪郭を与える一杯である。加熱していないぶん、しらす本来の透明感がそのまま皿の上に残り、見た目にも涼しさを感じさせる。\n## どう作るのか\n生のしらすを飯にのせ、卵黄やうずらの卵、小口ねぎ、大葉、白ごまなどの薬味を添えて、醤油とおろし生姜で食べる。生しらすは水揚げ後の劣化が早く、当日のうちに食べる必要があるとされ、加熱しない分だけ産地でしか味わえない鮮度がそのまま皿に出るとされる。漁が休みの日や海が荒れた日には店頭に並ばないことも珍しくないという。\n## なぜこの形になったのか\n相模湾に面した湘南地域や駿河湾に面した静岡では、しらす漁が古くから盛んで、当初は天日干しの「たたみいわし」が主だったが、釜炊きと冷蔵技術の発展とともに、生のまま食べる文化が根づいたとされる。鮮度が落ちる前提の魚を丼にするという発想自体が、漁港の目の前という立地から生まれた食べ方といえ、内陸ではまず出会えない一皿になっており、産地を訪れる理由の一つにも数えられている。",
+   "body_en": "## What it's made of\nTranslucent shirass, still raw, go straight onto rice the same day they're landed. Each bite pops with a faint sweetness and a scent of the sea, and breaking in an egg yolk rounds the whole thing out, while shredded nori and scallion give the shirasu's mild flavor an edge to stand on.\n## How it's made\nRaw shirasu is piled on rice and finished with an egg yolk or quail egg, scallion, shiso, and sesame, then eaten with soy sauce and grated ginger. Raw shirasu spoils fast once landed and is said to need eating the same day, so skipping any cooking lets the freshness of the port itself land straight on the plate.\n## Why it took this shape\nAlong Sagami Bay's Shonan coast and Suruga Bay in Shizuoka, shirasu fishing has long thrived; sun-dried tatami-iwashi came first, and eating it raw is said to have taken hold only once boiling and refrigeration technology advanced. Building a bowl around a fish that spoils almost as soon as it's caught is itself an idea born of sitting right beside the port.",
+   "sources": [
+    {
+     "title": "生しらす丼 神奈川県｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_3_kanagawa.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "生しらす丼 静岡県｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_23_shizuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shirasu-don",
+     "to_slug": "ikura-don",
+     "relation_type": "対比",
+     "basis": "どちらも小さな海の幸をそのまま飯にのせる丼だが、生の稚魚か加工した魚卵かで対をなす"
+    }
+   ]
+  },
+  {
+   "slug": "ikura-don",
+   "body_ja": "## 何でできているか\nつやつやと輝くいくらを、惜しみなく飯の上に盛る。箸を入れるとぷちりと膜が弾け、中から濃厚な旨みと塩気を含んだ脂がとろりと流れ出す。粒同士がこすれ合う軽い音も、この丼を食べる楽しみの一つとされる。赤い粒が飯を覆い尽くす見た目は、それだけでごちそう感を伝え、口に含むたびに違う粒が弾ける感覚も味わえ、飯との対比がいっそう際立つ。\n## どう作るのか\n生筋子を塩水でほぐしてバラ子にし、酒と醤油を合わせた漬け汁に一晩ほど漬け込んで、いくらの醤油漬けを作る。家庭によっては出汁を加えて味をまろやかにすることもあるとされる。これを温かい飯にたっぷりとのせ、好みで刻み海苔を添えて食べるのが定番で、手巻き寿司の具材や酒の肴として使う家庭も多いといわれている。\n## なぜこの形になったのか\nいくらという呼び名自体、明治時代にロシア語から伝わったとされ、日露戦争の捕虜を通じた説や北洋漁業でのロシアとの交流を通じた説など複数の由来が伝わる。大正時代から日本で広く食べられるようになったとされ、鮭の漁場である北海道で、水揚げされたばかりの筋子を無駄なく使う工夫として丼の形が定着したとみられ、今では贈答品としても選ばれる北海道の特産品として広く知られており、家庭の食卓にも季節の楽しみとして根づいている。",
+   "body_en": "## What it's made of\nGlistening ikura is piled generously over rice. Each spoonful pops as the roe's membrane gives way, releasing a rich, salty richness, and the faint sound of the beads shifting against each other is part of the pleasure of eating this bowl.\n## How it's made\nFresh salmon roe skeins are rinsed in salt water, separated into loose eggs, and steeped overnight in a marinade of sake and soy sauce to make ikura no shoyuzuke. Some households mellow the flavor further with dashi. The cured roe is piled generously over hot rice, sometimes finished with shredded nori.\n## Why it took this shape\nThe word ikura itself is said to have entered Japanese from Russian in the Meiji era, with accounts ranging from prisoners of the Russo-Japanese War to contact through North Pacific fishing, and it's said to have become widely eaten only from the Taisho era on. In Hokkaido, a major salmon fishery, using freshly landed roe skeins without waste is thought to be what settled the dish into a bowl.",
+   "sources": [
+    {
+     "title": "いくらの醤油漬け 北海道｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ikuranoshoyuzuke_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ikura-don",
+     "to_slug": "sake-salmon",
+     "relation_type": "使用食材",
+     "basis": "鮭の卵（いくら）を主素材として使う"
+    }
+   ]
+  },
+  {
+   "slug": "katte-don",
+   "body_ja": "## 何でできているか\n市場の店先を巡って自分で選んだ魚介が、一つの丼に集まる。同じ「勝手丼」でも、選ぶ人によってウニが多かったりイクラが主役だったりと中身がまるで違うため、見た目も味の重心も一杯ごとに変わるのがこの丼の面白さとされる。どの店で何を選ぶか、自分だけの組み合わせを考える過程そのものも楽しみのうちに含まれるとされる。\n## どう作るのか\nまず飯だけを買い、市場内の鮮魚店を回って好みの刺身や魚介を選んで買い足していく。店ごとに切り分けてもらった刺身を、自分の飯にのせて完成させる仕組みで、あらかじめ盛り付けられた海鮮丼とは注文の手順そのものが異なるとされる。予算に合わせて量や種類を細かく調整できる自由度も、この食べ方ならではの利点とされる。\n## なぜこの形になったのか\n北海道釧路市の和商市場では、水揚げに近い市場でそのまま鮮魚を選べる環境を背景に、この食べ方が根づいたとされる。「勝手どんぶり」の名称は市場内の事業者による登録商標とされ、単なる海鮮丼の一種ではなく、市場が自ら定義し発信してきた独自の食べ方として扱われている。観光客が市場を歩き回ること自体を楽しむ仕掛けにもなっているといい、釧路を訪れる旅行者に向けて市場自身が積極的に紹介している食べ方でもある。",
+   "body_en": "## What it's made of\nSeafood chosen stall by stall across the market comes together in a single bowl. Because what goes in depends entirely on who's choosing — heavy on sea urchin one time, built around salmon roe the next — the look and the center of gravity of the flavor shift bowl to bowl, which is much of the fun.\n## How it's made\nA diner first buys just the rice, then walks the market's fish stalls picking out whichever sashimi or seafood catches the eye, having each vendor slice it to order before setting it on their own rice. The ordering process itself — piece by piece, stall by stall — differs from a pre-assembled seafood bowl.\n## Why it took this shape\nAt Kushiro's Washo Market in Hokkaido, this way of eating is said to have taken root because the market sits close to where the fish is landed, letting shoppers pick straight from the case. The name 'katte-don' is a registered trademark held by a market vendor, treated not as a mere variant of kaisendon but as a way of eating the market itself defined and promoted.",
+   "sources": [
+    {
+     "title": "勝手丼のいろは",
+     "url": "https://www.washoichiba.com/html/kattedon.html",
+     "publisher": "釧路和商市場",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "katte-don",
+     "to_slug": "kaisendon",
+     "relation_type": "対比",
+     "basis": "あらかじめ盛り付けられた海鮮丼に対し、勝手丼は市場を巡って自分で具材を選ぶ点で対をなす"
+    }
+   ]
+  },
+  {
+   "slug": "konoha-don",
+   "body_ja": "## 何でできているか\n細く刻んだかまぼこと、甘辛く炊いたしいたけ、青ねぎを卵とだしでふんわりとじる。かまぼこの淡い甘みとしいたけの濃い旨みが、卵の中で互いを引き立て合い、具材が舞い散る木の葉のように見えることから名がついたとされる素朴な丼である。他人丼や親子丼に比べて具材が軽いぶん、卵とだしの香りがより前面に出るのも特徴とされる。\n## どう作るのか\nかまぼこを細切りにし、甘辛く炊いたしいたけと青ねぎを合わせて、だし・醤油・みりんで煮る。そこへ溶き卵を流し入れ、半熟にとじて飯にのせる。しいたけは数日かけてじっくり炊き上げる店もあり、甘辛さの奥に残る後味の軽さが持ち味とされる。肉を使わないため、精進料理のもてなしにも通じる仕立てとして扱われることがあるという。\n## なぜこの形になったのか\n京都をはじめ関西一円で長く親しまれてきた丼で、肉を使わず身近な乾物や練り物で仕立てられる点に、精進の食文化が根づいた土地柄が表れているとみられる。刻んだ具材が卵の中で散らばる様子を木の葉に見立てた名づけ方にも、季節の情景を料理に重ねる感性が表れているとされ、衣笠丼やハイカラ丼など同じ卵とじ系統の丼が並ぶ土地柄でもあり、今も昔ながらの食堂の品書きに定番として残り続け、世代を超えて注文され続けている。",
+   "body_en": "## What it's made of\nJulienned kamaboko fish cake, sweet-simmered shiitake, and scallion are bound together in egg and dashi until just set. The kamaboko's faint sweetness and the shiitake's deep savor draw each other out inside the egg, and the way the scattered ingredients resemble falling leaves is said to have given the plain, homely bowl its name.\n## How it's made\nKamaboko is cut into fine strips and simmered with sweet-cooked shiitake and scallion in dashi, soy sauce, and mirin. Beaten egg is then poured in and left just short of set before going over rice. Some shops simmer the shiitake for days on end, and a light aftertaste behind the sweet-savory base is said to be the dish's signature.\n## Why it took this shape\nLong loved across Kyoto and the wider Kansai region, this bowl uses no meat, built instead from everyday dried and processed ingredients — a choice thought to reflect a region shaped by a vegetarian temple-cuisine culture. Naming it for the way the chopped ingredients scatter through the egg like falling leaves is said to reflect a sensibility for laying the season's imagery over the food itself.",
+   "sources": [
+    {
+     "title": "【京都の丼】衣笠丼・木の葉丼・ハイカラ丼・ばんばらこ丼ってどんな丼？",
+     "url": "https://www.kyotoside.jp/entry/20180226/",
+     "publisher": "京都府公式サイト KYOTO SIDE",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "konoha-don",
+     "to_slug": "tamago-don",
+     "relation_type": "兄弟",
+     "basis": "ともに肉を使わず卵でとじる関西由来の簡素な丼という系統でつながる"
+    }
+   ]
+  },
+  {
+   "slug": "tekkadon",
+   "body_ja": "## 何でできているか\n酢飯の上に、赤身のまぐろを刺身の厚さに切って隙間なく並べる。わさびの鼻に抜ける辛みと、まぐろの脂の少ない締まった赤身の味わいが直に伝わり、酢飯の酸味が脂気の少ない赤身の淡白さを引き立てる。海苔を添えて香りを重ねる店もあり、赤身の色そのものが皿の見た目を決める潔さも特徴とされ、丼の中に余計な具材が入らない構成そのものが持ち味になっている。\n## どう作るのか\nまぐろの赤身だけを選び、刺身に切って酢飯の上に並べ、わさびと刻み海苔を添えるのが基本形とされる。白飯を使い赤身以外の部位も用いる「まぐろ丼」とは、酢飯を使うか白飯を使うか、赤身に絞るかどうかという点で区別されるという。醤油をあらかじめ刺身にくぐらせてから盛る店もあると伝わり、切り方の厚みも店ごとに個性が出るという。\n## なぜこの形になったのか\n寿司ネタとしてのまぐろの赤身を、握らずにそのまま酢飯にのせるという簡略化の発想から生まれたとみられる丼で、江戸前寿司の系譜に連なる食べ方とされる。手早く仕立てられる点が、忙しい江戸の町の食文化に合っていたとも考えられており、握る手間を省いた分だけ具材の質がそのまま味に表れる形にもなっている。寿司屋の隠れた定番として扱われることも多いといい、赤身の色合いが皿の上でよく映える一皿とされる。",
+   "body_en": "## What it's made of\nLean maguro tuna, sliced sashimi-thick, covers a bed of vinegared rice edge to edge. Wasabi's sharp bite and the tight, low-fat character of the lean cut come through directly, with the rice's acidity setting off the meat's leanness, and some shops layer in nori for another note of aroma.\n## How it's made\nOnly the lean red meat of the tuna is chosen, sliced as sashimi and arranged over vinegared rice, finished with wasabi and shredded nori as the basic form. It's distinguished from maguro-don, which uses plain rice and cuts beyond the lean meat, by both the rice and the choice of cut.\n## Why it took this shape\nThe bowl is thought to have grown out of a simplification of sushi itself — laying lean tuna, a classic sushi topping, straight onto vinegared rice without shaping it into nigiri — placing it within the Edo-mae sushi lineage. Its quick assembly is also thought to have suited the pace of a busy Edo-era town.",
+   "sources": [
+    {
+     "title": "鉄火丼",
+     "url": "https://ja.wikipedia.org/wiki/鉄火丼",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tekkadon",
+     "to_slug": "negitoro-don",
+     "relation_type": "兄弟",
+     "basis": "ともに酢飯にまぐろをのせる江戸前系統の丼で、赤身をそのまま使うか叩いて使うかで対をなす"
+    }
+   ]
+  },
+  {
+   "slug": "negitoro-don",
+   "body_ja": "## 何でできているか\nまぐろの中落ちや皮際の身をねぎと一緒に叩いた、とろりとした赤身が飯の上に盛られる。刺身のように切り分ける必要がなく、スプーンですくうとねっとりとした脂の質感が舌に絡みつく。刻んだねぎの香りと歯ざわりが、脂の重さに軽さを添え、醤油をひとたらしすると味の輪郭がさらにはっきりする。刺身の状態では敬遠されがちな部位も、叩くことで誰もが親しみやすい食感に変わる。\n## どう作るのか\nまぐろの中骨に残る身や皮に付いた身を包丁で細かく叩き、ミンチ状にしてねぎと和える。骨に近い部位を余すことなく使う調理法のため、赤身の刺身に比べて脂の入り方が不均一で濃淡があり、口の中で溶けるような食感になりやすいとされる。市販品には植物油脂や調味料を加えて食感を整えたものもあるといい、家庭で手軽に作れる点も広まった理由の一つとされる。\n## なぜこの形になったのか\n名前の由来には諸説あり、ねぎと脂の乗った部分（とろ）を合わせたためという説のほか、浅草にあった飲食店の名にちなむという説も伝わる。骨や皮際に残る身を無駄にしない発想から生まれたとみられ、「中落ち丼」の別称もそのことをうかがわせ、まぐろを余すことなく使い切る知恵の延長として、今日の寿司屋や食卓まで続いており、少量でも満足感の高い一杯として親しまれている。",
+   "body_en": "## What it's made of\nScraped meat from around the tuna's spine and skin, minced together with scallion, piles onto rice in a soft, oily mass. There's no need to slice it as sashimi — a spoon draws out its clinging, fatty texture — while the chopped scallion's scent and crunch lighten the richness.\n## How it's made\nMeat clinging to the tuna's central bone and skin is finely minced with a knife and mixed with scallion. Because it uses meat close to the bone that would otherwise go to waste, the fat runs unevenly through it compared to sliced sashimi, giving it a texture that tends to melt in the mouth.\n## Why it took this shape\nIts name has more than one account — one holds it combines negi (scallion) and toro (the fatty cut), another that it echoes the name of an Asakusa eatery. It's thought to have grown from a habit of not wasting meat clinging to bone and skin, a thrift the dish's other name, 'nakaochi-don,' also points to.",
+   "sources": [
+    {
+     "title": "ネギトロ",
+     "url": "https://ja.wikipedia.org/wiki/ねぎとろ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "negitoro-don",
+     "to_slug": "maguro",
+     "relation_type": "使用食材",
+     "basis": "まぐろの中落ちを主素材として使う"
+    }
+   ]
+  },
+  {
+   "slug": "chuka-don",
+   "body_ja": "## 何でできているか\n豚肉や白菜、にんじん、うずらの卵などを炒め合わせ、スープと醤油で味を調えてとろみをつけた具だくさんの餡を、白飯にたっぷりとかける。八宝菜に似た具の多さと、とろみが飯にゆっくり広がっていく食べ応えが、この丼の満足感を支えている。具材の種類が多いぶん、一口ごとに違う食感が代わる代わる現れるのも楽しみとされる。\n## どう作るのか\n豚肉や野菜を強火で手早く炒め、鶏がらスープと醤油、塩で味を調えてから水溶き片栗粉でとろみをつける。八宝菜とほぼ同じ調理法だが、皿ではなく丼の飯にかけることを前提に、汁気をやや多めに仕立てる店が多いとされる。うずらの卵やイカ、エビを加えて具を豪華にする店もあり、中華料理店の一品料理を丼向けに調整した形とも言われている。\n## なぜこの形になったのか\n文献での初出は昭和3年の家庭料理本とされ、浅草の中華料理店「来々軒」が作ったという説も伝わる。中国では同様の餡かけご飯を「燴飯」と呼び、東南アジアの華人圏にも広く見られるが、片栗粉でとろみをつけた餡を丼飯にかけるという型は、日本で独自に定着した和製中華の一つとされる。遅くとも昭和初期には広く普及していたとみられ、今日も中華料理店の定番として残っており、ラーメンと並ぶ人気メニューとして扱われることも多いという。",
+   "body_en": "## What it's made of\nPork, napa cabbage, carrot, and quail egg are stir-fried together, then finished in a soy-seasoned broth thickened into a hearty sauce poured generously over rice. The sheer number of ingredients, close kin to happosai, and the way the thickened sauce spreads slowly through the rice give this bowl its filling character.\n## How it's made\nPork and vegetables are stir-fried quickly over high heat, seasoned with chicken stock, soy sauce, and salt, then thickened with a cornstarch slurry. The technique is nearly identical to happosai, but many shops keep it a touch wetter, built to be poured over rice rather than plated, sometimes enriched with quail egg, squid, or shrimp.\n## Why it took this shape\nIts earliest known appearance in print is a 1928 home-cooking book, and one account credits Rairaiken, a Chinese restaurant in Asakusa, with creating it. China has a similar thickened rice dish called huifan, common across Chinese communities in Southeast Asia too, but pouring a cornstarch-thickened sauce over a bowl of rice in this particular form is said to have taken shape as a distinctly Japanese, Chinese-derived dish.",
+   "sources": [
+    {
+     "title": "中華丼",
+     "url": "https://ja.wikipedia.org/wiki/中華丼",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "chuka-don",
+     "to_slug": "pork-shoulder",
+     "relation_type": "使用食材",
+     "basis": "豚肉を主素材の一つとして使う"
+    }
+   ]
+  },
+  {
+   "slug": "tamago-don",
+   "body_ja": "## 何でできているか\nねぎや玉ねぎ、しいたけなどの細切りを甘辛く煮て、溶き卵でとじただけの飾らない丼。具が少ない分、卵と出汁の甘辛さが飯にまっすぐ伝わり、余計な脂を含まないぶん後味が軽い。かき混ぜて黄身と白身をなじませてから食べる人も多く、飾り気のなさがそのまま安心感につながっている。派手さのない見た目こそが、この丼の変わらぬ持ち味とされる。\n## どう作るのか\nねぎ、玉ねぎ、しいたけ、三つ葉などを細く切り、砂糖・醤油・みりん・出汁で軽く煮てから、溶いた卵を回し入れてとじる。肉や魚を使わないぶん調理も早く、蕎麦屋や定食屋では最も安価な丼物の一つとして位置づけられているとされる。具材の組み合わせは店によって幅があり、家庭ごとの味も出やすいといい、卵を二段階に分けて流し込む店もあるという。\n## なぜこの形になったのか\n親子丼や他人丼から肉を抜いた形とも、そもそも卵とじの丼の原型とも見なされ、どちらが先かははっきりしないとされる。手早く作れて値段も抑えられることから、忙しい昼どきの一杯として、そして肉を控えたい人の選択肢として、長く定番の位置を保ってきたとみられ、蕎麦屋のメニューに今も欠かせない存在となっており、他の丼を注文するかどうか迷ったときの選択肢としても選ばれている。",
+   "body_en": "## What it's made of\nJulienned leek, onion, and shiitake are simmered in a sweet-savory broth, then simply bound with beaten egg — a plain, unadorned bowl. With so few ingredients, the sweet-savory flavor of egg and broth comes through directly, and the absence of any meat's fat leaves a light aftertaste; many stir the yolk and white together before eating.\n## How it's made\nLeek, onion, shiitake, and mitsuba are cut fine and simmered briefly in sugar, soy sauce, mirin, and dashi, then bound with beaten egg poured in a circle. With no meat or fish involved, it cooks quickly and is said to rank among the cheapest rice bowls on offer at soba shops and diners.\n## Why it took this shape\nIt's seen either as oyakodon or tanindon with the meat left out, or as the original form from which those egg-bound bowls descended — which came first isn't settled. Quick to make and easy on the wallet, it's thought to have held a lasting place as a fast lunchtime option and as a choice for those wanting to go without meat.",
+   "sources": [
+    {
+     "title": "玉子丼",
+     "url": "https://ja.wikipedia.org/wiki/玉子丼",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tamago-don",
+     "to_slug": "oyakodon",
+     "relation_type": "対比",
+     "basis": "鶏肉を加えるかどうかで対をなす、卵とじ丼の二つの型"
+    }
+   ]
+  },
+  {
+   "slug": "tanindon",
+   "body_ja": "## 何でできているか\n牛肉や豚肉を玉ねぎとともに甘辛い割り下で煮て、卵でとじた丼。鶏肉を使う親子丼と違い、牛肉の脂の強い旨みが割り下に溶け出すため、卵をまとった後も肉そのものの存在感がはっきりと残る。親子丼より味の輪郭が濃く出る一杯とされ、玉ねぎの甘みが濃い肉の味をやわらかく受け止める役割も担い、卵は半熟でとじて肉の旨みを包み込むように仕上げるとされる。\n## どう作るのか\n牛肉や豚肉を薄切りにして玉ねぎとともに出汁・醤油・みりんで煮て、溶き卵を回し入れてとじる。作り方自体は親子丼とほぼ同じだが、鶏肉以外の肉を使う点だけが異なるとされる。牛肉を使う店では「牛とじ丼」、豚肉では「豚生姜丼」と呼び分ける例もあるといい、蕎麦屋の品書きに親子丼と並んで置かれることも多いという。\n## なぜこの形になったのか\n親子丼が鶏肉と卵という同じ生き物の親子を一皿に収めるのに対し、卵と別の種類の肉を組み合わせることから「他人丼」と名づけられたとされる。西日本では他人丼と呼ぶ一方、関東地方では同様の丼を「開化丼」と呼ぶ例もあり、地域による名の付け方の違いにも食文化の広がりが表れている。名づけそのものが親子丼という先行する丼を前提にした、いわば対句のような発想から生まれており、今も蕎麦屋や定食屋の品書きに親子丼と並んで残っている。",
+   "body_en": "## What it's made of\nBeef or pork simmers with onion in a sweet-savory broth and is bound with egg — unlike oyakodon's chicken, beef's stronger, fattier savor stays distinct in the broth even once egg is added, leaving the meat's own presence more pronounced than in the chicken version.\n## How it's made\nThin-sliced beef or pork simmers with onion in dashi, soy sauce, and mirin, then beaten egg is swirled in — the method is nearly identical to oyakodon, differing only in using a meat other than chicken. Some shops distinguish a beef version as 'gyu-toji-don' and a pork version as 'buta-shoga-don.'\n## Why it took this shape\nWhere oyakodon unites chicken and egg, parent and child from the same bird, in one bowl, this dish pairs egg with a different kind of meat entirely — hence 'tanindon,' or 'stranger's bowl.' Western Japan calls it tanindon, while parts of Kanto use the name 'kaikadon' for much the same dish, and that regional split in naming reflects how the dish spread.",
+   "sources": [
+    {
+     "title": "他人丼",
+     "url": "https://ja.wikipedia.org/wiki/他人丼",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tanindon",
+     "to_slug": "gyu-kata",
+     "relation_type": "使用食材",
+     "basis": "牛肉を主素材の一つとして使う"
+    }
+   ]
+  },
+  {
+   "slug": "sanshoku-don",
+   "body_ja": "## 何でできているか\n甘辛く炒った肉そぼろの茶色、卵そぼろの黄色、さやえんどうなど青菜の緑色が、飯の上できれいな三色に分かれて盛られる。見た目の彩りだけでなく、そぼろのしっとりした食感と青菜のしゃきっとした歯ざわりが一口ごとに交互に現れ、三つの味が混ざらないまま口の中で出会う構成になっており、見た目の三色がそのまま栄養バランスの目安としても語られている。\n## どう作るのか\n鶏そぼろや豚そぼろを醤油と砂糖で炒りつけ、卵は箸で細かくかき混ぜながら炒って「卵そぼろ」に仕上げる。そこへ塩ゆでしたさやえんどうや絹さやを刻んで加え、三色が混ざらないよう飯の上に分けて盛りつける。汁気を残さず仕上げるのが崩れにくくするコツとされ、弁当箱に詰めても傾きにくく、時間が経っても彩りが保たれる利点にもつながっている。\n## なぜこの形になったのか\n茶色・黄色・緑色の三色がきれいに分かれて見える丼という説明が、そのまま料理名になったとみられる。汁気が少なく傷みにくいことから弁当のおかずとしても重宝され、高たんぱく・低脂肪でありながら彩りよく仕上がる点が、食が細くなりがちな場面でも箸を進めやすい丼として選ばれてきた理由とされる。運動量の多い人の食事指導の場でも紹介される一杯だといい、学校給食や家庭の食卓にも取り入れられている。",
+   "body_en": "## What it's made of\nSweet-savory minced meat in brown, scrambled egg in yellow, and green snap peas or other vegetables are arranged in three neat bands over rice. Beyond the color alone, the soft texture of the minced toppings and the crisp bite of the greens alternate with every mouthful.\n## How it's made\nGround chicken or pork is cooked down with soy sauce and sugar, while egg is stirred fine with chopsticks as it cooks into a loose scramble. Blanched snap peas or snow peas are chopped and added, with all three kept apart rather than mixed as they go over the rice; keeping the toppings dry is said to be the trick to a tidy, unspoiled bowl.\n## Why it took this shape\nThe description of three colors — brown, yellow, and green — sitting cleanly apart is thought to have become the dish's own name. Being low in moisture and slow to spoil makes it a favorite for bento boxes, and its high-protein, low-fat balance paired with its bright color are cited as reasons it's chosen as an easy bowl to eat even when appetite runs low.",
+   "sources": [
+    {
+     "title": "三色丼｜アスリートのわいわいレシピ",
+     "url": "https://www.jpnsport.go.jp/hpsc/study/sports_nutrition/tabid/1525/pdid/125-1/Default.aspx",
+     "publisher": "日本スポーツ振興センター",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sanshoku-don",
+     "to_slug": "tori-mune",
+     "relation_type": "使用食材",
+     "basis": "鶏そぼろの素材として鶏むね肉を使う"
+    }
+   ]
+  },
+  {
+   "slug": "tonkatsu",
+   "body_ja": "## 何でできているか\n豚ロースやヒレに小麦粉・卵・パン粉をまとわせ、たっぷりの油できつね色に揚げる。衣は厚みがあるのにべたつかず、噛むとザクッという乾いた音がして、その奥から肉汁がじわりとにじみ出る。千切りキャベツの水気とソースの酸味が、脂の重さを都度リセットしてくれる。皿の上で肉と衣とキャベツがそれぞれの持ち場を守っているような、役割のはっきりした一皿である。\n## どう作るのか\n厚切りの豚肉に小麦粉、溶き卵、パン粉の順に衣をつけ、170度前後の油でじっくりと揚げる。中まで火を通しながら衣を焦がさないよう油の温度管理が要とされ、揚げたあとに数分休ませて余熱で肉汁を落ち着かせる店もあるという。皿にキャベツの千切りを添えて供するのが定番の形とされ、ソースを直接かけるかつけて食べるかは好みが分かれるという。\n## なぜこの形になったのか\n一説には、明治28年に銀座で開業した洋食店が、カツレツに代表される揚げ物料理を手がけ、キャベツの千切りを添えたり、ご飯を同じ皿に盛ったりする工夫をしたと伝わる。西洋料理のカツレツを、箸で食べやすい厚みと付け合わせに翻案していく過程で、今日のとんかつの形が整えられていったとみられている。ナイフとフォークを使わずに食べられる形へ寄せていった工夫の跡が、今の姿に残っているといえる。",
+   "body_en": "## What it's made of\nPork loin or fillet is coated in flour, egg, and panko, then deep-fried to a golden crisp in plenty of oil. The crumb is thick yet never greasy, giving a dry, crackling bite that gives way to a slow seep of meat juice, while the moisture of shredded cabbage and the sauce's tang reset the richness with every bite.\n## How it's made\nA thick-cut piece of pork is breaded in flour, beaten egg, and panko in that order, then fried slowly at around 170°C. Managing the oil's temperature so the inside cooks through without scorching the crumb is the key, and some shops rest the cutlet a few minutes after frying to let the juices settle; shredded cabbage on the side is the standard accompaniment.\n## Why it took this shape\nOne account holds that a Western-food restaurant that opened in Ginza in 1895 took up fried dishes typified by the cutlet, adding shredded cabbage on the side and setting the rice on the same plate. In the process of adapting the Western cutlet into a thickness easy to eat with chopsticks, alongside a suitable garnish, today's tonkatsu is thought to have taken its present shape.",
+   "sources": [
+    {
+     "title": "煉瓦亭｜GINZA OFFICIAL",
+     "url": "https://www.ginza.jp/shop/894",
+     "publisher": "銀座通連合会",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "銀座 煉瓦亭",
+     "url": "https://tokuhain.chuo-kanko.or.jp/detail.php?id=4550",
+     "publisher": "中央区観光協会特派員ブログ",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tonkatsu",
+     "to_slug": "pork-loin",
+     "relation_type": "使用食材",
+     "basis": "豚ロース肉を主素材として使う"
+    }
+   ]
+  },
+  {
+   "slug": "tempura",
+   "body_ja": "## 何でできているか\nエビや白身魚、季節の野菜に軽い衣をつけ、高温の油でからりと揚げる。江戸前式は薄い衣を胡麻油でぱりっと揚げ、天つゆにくぐらせて食べるのに対し、長崎天ぷらは衣そのものに甘みがついていて、そのまま食べられる。同じ天ぷらでも土地によって味の設計がまったく違い、衣の厚みや油の香りにもそれぞれの個性がはっきりと表れる。\n## どう作るのか\n魚介や野菜に小麦粉をまぶしてから、卵黄・冷水・小麦粉を合わせた衣にくぐらせ、160〜180度の油で揚げる。衣を練りすぎないことが江戸前式の勘所とされ、氷水を使ってグルテンの発生を抑えるという。長崎式では衣に砂糖や醤油、酒を加え、味のついた衣として仕上げる違いがあり、冷めても美味しく食べられるよう工夫されているとされる。\n## なぜこの形になったのか\n16世紀にポルトガルから伝わった南蛮料理が原点とされ、長崎で根づいた甘い衣の天ぷらと、江戸で発展した胡麻油のからりとした天ぷらとで、別々の系統に分かれて広まったとみられる。菜種油の生産拡大と屋台文化が江戸での普及を後押しし、南蛮貿易の窓口だった長崎ではまた違う形に育っていったとされる。同じ語源から出発しながら、それぞれの土地の交易史と食文化が別々の答えを導き出したといえる。",
+   "body_en": "## What it's made of\nShrimp, white fish, and seasonal vegetables get a light coating and a quick fry in hot oil. The Edo-mae style fries a thin batter in sesame oil until crisp and dips it in a savory sauce, while Nagasaki tempura's batter itself is sweetened and needs no dipping at all — the same word, tempura, carries two entirely different flavor designs depending on where it's made.\n## How it's made\nSeafood and vegetables are dusted with flour, then dipped in a batter of egg yolk, ice water, and flour before frying at 160-180°C. Not overworking the batter is said to be the key to the Edo-mae style, with ice water used to hold back gluten; the Nagasaki style instead mixes sugar, soy sauce, and sake into the batter itself, seasoning it directly.\n## Why it took this shape\nThe dish is said to trace to a Portuguese-style fritter that arrived in the 16th century, and it's thought to have split into distinct lines from there: a sweetly battered form that took root in Nagasaki, and a crisp, sesame-oil-fried form that developed in Edo. Growing rapeseed-oil production and street-stall culture are said to have driven its spread in Edo, while Nagasaki, a gateway for trade with the Portuguese, shaped its own form.",
+   "sources": [
+    {
+     "title": "てんぷら 東京都｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_6_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "長崎天ぷら 長崎県｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_18_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tempura",
+     "to_slug": "kuruma-ebi",
+     "relation_type": "使用食材",
+     "basis": "エビ天として車エビを代表的な具材に使う"
+    }
+   ]
+  },
+  {
+   "slug": "kushikatsu",
+   "body_ja": "## 何でできているか\n薄切りの牛肉や野菜、魚介を串に刺し、厚めの衣をつけてパン粉をまとわせ、高温の油でさっと揚げる。串を持ち上げるとまず衣の軽い音が鳴り、噛み進めるにつれ具材ごとに違う食感と味が現れる。共有のソース壺に串を突っ込む「二度づけ禁止」の作法も、この料理の一部として定着している。一本ずつ値段が決まっているため、好きな串だけを選んで気軽に楽しめるのも魅力とされる。\n## どう作るのか\n小麦粉と水で緩めの衣を作り、串に刺した具材にくぐらせてからパン粉をまぶし、180度の油で1〜2分ほど揚げる。牛肉やうずらの卵、蓮根、ししとうなど具材は多岐にわたり、串一本ごとに火の通り方や味付けが変わるよう工夫されているとされる。ソースは客同士で共有する壺に一度だけくぐらせるのが決まりごとといい、キャベツを箸休めに挟みながら食べ進めるのが習わしとされる。\n## なぜこの形になったのか\n一説には、大正末期から昭和初期にかけて、大阪・新世界の通天閣周辺で働く労働者たちの腹を手早く満たすため、薄い牛肉に厚い衣をつけて揚げる形が考案されたとされる。安く早くうまいという条件を串一本に凝縮した料理で、戦後は食中毒の心配が少ない揚げ物として評判を広げ、新世界には専門店が集まる通りができたと伝わる。労働者の胃袋を支える食堂の知恵が、そのまま大阪を代表する食文化に育っていった例といえる。",
+   "body_en": "## What it's made of\nThin-sliced beef, vegetables, and seafood are skewered, coated in a thick crumb, and flash-fried in hot oil. Lifting the skewer brings a light crunch first, and each ingredient along its length offers a different bite and flavor as you work through it. The shared sauce pot, and the 'no double-dipping' rule that governs it, has become as much a part of the dish as the food itself.\n## How it's made\nA loose batter of flour and water coats skewered ingredients before they're rolled in panko and fried for one to two minutes at 180°C. Beef, quail egg, lotus root, and shishito pepper are among the many fillings used, each skewer said to be tuned for how it cooks and how it tastes. Sauce comes from a pot shared among diners, with each skewer dipped in only once by house rule.\n## Why it took this shape\nOne account holds that in the late Taisho to early Showa years, workers around Tsutenkaku Tower in Osaka's Shinsekai district needed a quick way to fill up cheaply, and thin beef in a thick crumb, fried on a stick, was devised to meet that need. Cheap, fast, and good, condensed onto a single skewer, it's said to have gained a reputation postwar as a fry with little risk of food poisoning, and Shinsekai grew a street lined with shops devoted to it.",
+   "sources": [
+    {
+     "title": "串カツ 大阪府｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_28_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kushikatsu",
+     "to_slug": "gyu-kata",
+     "relation_type": "使用食材",
+     "basis": "薄切りの牛肉を代表的な具材の一つとして使う"
+    }
+   ]
+  },
+  {
+   "slug": "korokke",
+   "body_ja": "## 何でできているか\n蒸してつぶしたじゃがいもに炒めた挽き肉と玉ねぎを混ぜ、俵形に整えて衣をつけて揚げる。表面はパン粉の粗い食感でザクザクと鳴り、中はほくほくとしたじゃがいもがひき肉の旨みを吸って一体になっている。冷めてもじゃがいもの甘みが残り、惣菜として持ち帰っても味が落ちにくいとされ、弁当のおかずとしても長く親しまれてきた。\n## どう作るのか\nじゃがいもを蒸してつぶし、炒めた玉ねぎと挽き肉を混ぜ込んで俵形にまとめる。薄力粉・溶き卵・パン粉の順に衣をつけ、170〜180度の油できつね色に揚げる。じゃがいもの水分量を見極めて衣が破れない硬さにまとめるのが勘所とされ、精肉店の総菜として量り売りされることも多いという。家庭ではひき肉の代わりにツナやコーンを混ぜる作り方も広まっている。\n## なぜこの形になったのか\n大正期、フランス発祥のクロケットに影響を受けつつ、イギリス由来のじゃがいも料理の系統も合わさり、日本オリジナルのじゃがいもコロッケが生まれたとされる。とんかつ・カレーライスと並んで家庭に定着した洋食の一つとされ、東京の西洋料理店から広まった洋食が、庶民の惣菜として定着していく過程を象徴する一皿とみられている。高価だった洋食を、身近なじゃがいもで手の届く一品に翻案した工夫が今も生きている。",
+   "body_en": "## What it's made of\nMashed potato is mixed with sauteed ground meat and onion, shaped into an oval, and fried in a crumb coating. The surface crackles with the coarse texture of panko, while the inside stays fluffy, the potato soaking up the meat's savor into one mass. Even cold, the potato's sweetness holds up, which is said to be why it travels so well as a takeaway side dish.\n## How it's made\nPotato is steamed and mashed, then mixed with sauteed onion and ground meat and shaped into an oval. It's coated in flour, beaten egg, and panko in that order and fried golden at 170-180°C. Judging the potato's moisture so the crumb doesn't split while frying is said to be the key, and it's often sold by weight as a prepared side at butcher shops.\n## Why it took this shape\nIn the Taisho era, the dish is said to have grown from the French croquette crossed with British potato cookery, yielding an originally Japanese potato korokke. Ranked alongside tonkatsu and curry rice as one of the 'three great yoshoku dishes,' it's seen as emblematic of how Western food, having spread from Tokyo's Western-food restaurants, settled into everyday life as a common side dish.",
+   "sources": [
+    {
+     "title": "コロッケ 東京都｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_10_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "korokke",
+     "to_slug": "tonkatsu",
+     "relation_type": "兄弟",
+     "basis": "とんかつ・カレーライスと並び「三大洋食」と位置づけられる（農林水産省「うちの郷土料理」）"
+    }
+   ]
+  },
+  {
+   "slug": "chikin-nanban",
+   "body_ja": "## 何でできているか\n衣をつけて揚げた鶏肉を、甘酸っぱい南蛮酢にくぐらせ、卵をたっぷり使ったタルタルソースをかける。揚げたての衣が酢を吸ってしっとりとしながらも歯ごたえを保ち、酸味と甘みのあとにタルタルのコクが追いかけてくる。刻んだピクルスの歯ざわりが全体を軽くする役割も果たし、ソースをまとった衣の照りが皿全体の見た目も引き立てる。\n## どう作るのか\n鶏むね肉に下味をつけて薄力粉と卵の衣で揚げ、揚げたてを醤油・酢・砂糖・みりんを合わせた南蛮酢にくぐらせる。仕上げにマヨネーズ・ケチャップ・ゆで卵・きゅうり・玉ねぎで作るタルタルソースをかけて完成させる。南蛮酢に浸す時間の長さで酸味の入り方が変わるとされ、タルタルソースの配合は店や家庭ごとに個性が出るという。\n## なぜこの形になったのか\n一説には、昭和30年代に宮崎県延岡市の洋食店で、まかない料理として「鶏の唐揚げ甘酢漬け」が作られたのが始まりという。当初は南蛮酢だけをかけていたが、やがてタルタルソースをかけてサラダを添える今の形に進化し、昭和40年代には外食の人気メニューとして定着したと伝わる。まかないという日常の工夫が、そのまま県を代表する味に育っていった例といえ、地元有志の団体が7月8日を「南蛮の日」に制定するまでになったという。",
+   "body_en": "## What it's made of\nFried chicken, breaded and cooked, is dipped in a sweet-and-sour nanban vinegar and topped with an egg-rich tartar sauce. The just-fried crumb turns moist as it soaks up the vinegar while still holding some crunch, and the tartar's richness follows close behind the sweet-sour hit, with chopped pickle cutting through the whole thing to keep it light.\n## How it's made\nChicken breast is seasoned, breaded in flour and egg, and fried, then dipped hot into a nanban vinegar of soy sauce, vinegar, sugar, and mirin. It's finished with a tartar sauce made of mayonnaise, ketchup, hard-boiled egg, cucumber, and onion. How long it soaks in the vinegar is said to determine how far the sourness carries through.\n## Why it took this shape\nOne account holds that in the 1950s, a Western-food restaurant in Nobeoka, Miyazaki, devised a sweet-vinegar fried chicken as staff food. It's said to have carried only the nanban vinegar at first, evolving into today's form with tartar sauce and a side salad, and by the 1960s it had settled in as a popular restaurant dish across the prefecture.",
+   "sources": [
+    {
+     "title": "チキン南蛮 宮崎県｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/chikin_nanban_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "chikin-nanban",
+     "to_slug": "nanban-zuke",
+     "relation_type": "源流",
+     "basis": "唐辛子入りの甘酢漬けである南蛮漬けを鶏肉で仕立てたのが始まりとされる（農林水産省「うちの郷土料理」）"
+    }
+   ]
+  },
+  {
+   "slug": "tori-ten",
+   "body_ja": "## 何でできているか\n骨を外した鶏もも肉を一口大に切り、天ぷらのような軽い衣をつけて揚げる。から揚げよりも衣が薄くさらりとしていて、噛むとサクッと軽い音がしたあと、鶏肉のジューシーさがすぐに追いかけてくる。酢橘や辛子酢醤油を添えて食べると、脂の重さが一段と軽くなり、いくつでも箸が進む軽やかさが持ち味とされ、大分の鶏料理を代表する一皿として広く知られている。\n## どう作るのか\n鶏もも肉やむね肉を一口大に切り、にんにく・醤油・砂糖で下味をつけたあと、薄力粉と卵を合わせた衣にくぐらせて175〜180度の油で揚げる。から揚げより衣を薄くつけるのが特徴とされ、骨がないぶん食べやすく、短時間でからりと揚がるとされる。酢橘や辛子酢醤油を添えて供することが多く、家庭でも手早く作れる一品として、大分県内の食堂で広く親しまれている。\n## なぜこの形になったのか\n一説には、大分県内で県内初のレストランとされる別府市の食堂が、骨付きの唐揚げを女性でも食べやすいようにと、骨のないもも肉を天ぷら風にアレンジしたのが始まりという。鶏肉が高価だった時代には、衣でかさを増やして家族全員で味わえるようにする工夫でもあったと伝わり、鶏肉の消費量で知られる大分らしい一皿として県内に広まっていったとみられる。",
+   "body_en": "## What it's made of\nBoneless chicken thigh, cut bite-size, is coated in a light, tempura-like batter and fried. Compared to karaage, the crumb is thin and airy, giving a light crackle on the first bite before the chicken's juiciness catches up right behind it. A squeeze of sudachi citrus or a mustard-vinegar-soy dip lightens the richness further.\n## How it's made\nChicken thigh or breast, cut bite-size, is seasoned with garlic, soy sauce, and sugar, then dipped in a batter of flour and egg and fried at 175-180°C. The batter is kept thinner than karaage's, and with no bone to work around it's easier to eat and fries crisp in less time; sudachi citrus or a mustard-vinegar-soy sauce is the usual accompaniment.\n## Why it took this shape\nOne account holds that a diner in Beppu, said to be the prefecture's first Western-style restaurant, devised it by turning bone-in karaage into a boneless, tempura-style version so women could eat it more easily. In an era when chicken was costly, the batter is also said to have stretched the meat further, letting a whole family share it.",
+   "sources": [
+    {
+     "title": "とり天 大分県｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/toriten_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tori-ten",
+     "to_slug": "tori-momo",
+     "relation_type": "使用食材",
+     "basis": "骨なしの鶏もも肉を主素材として使う（農林水産省「うちの郷土料理」）"
+    }
+   ]
+  },
+  {
+   "slug": "zangi",
+   "body_ja": "## 何でできているか\n醤油ベースの甘辛いタレに漬け込んだ鶏肉を、小麦粉をまとわせて揚げる。から揚げよりも味付けが濃く、衣を噛んだ瞬間からしっかりとした醤油の風味が広がる。にんにくと生姜の香りが油の中でも消えずに残り、冷めても味の輪郭がぼやけにくいと言われており、ビールのつまみとしても定番の一品とされ、地元の食堂では持ち帰り惣菜としても人気だという。\n## どう作るのか\n一口大に切った鶏もも肉を、酒・醤油・こしょう・しょうが・にんにくを合わせたタレに1時間から半日ほど漬け込む。水気を切って小麦粉を薄くまぶし、中温の油で表面がカリッとなるまでじっくり揚げる。揚げたあとにさらにタレへくぐらせて味を重ねる食べ方もあるといい、鶏だけでなくタコを使った「タコザンギ」も北海道では親しまれている。\n## なぜこの形になったのか\n一説には、昭和30年頃、釧路市末広の鶏料理店が鶏一羽をぶつ切りにして唐揚げにしたのが始まりとされる。店主が中国料理の「炸鶏（ザーチー）」に運を付けようと文字の間に「ン」を加えて「ザンギ」と名づけたという説が伝わり、下味をしっかりつけてから揚げる点が、から揚げとの違いとして今も語り継がれている。漁業と歓楽街が近かった釧路らしい、酒に合う一皿として定着したとみられる。",
+   "body_en": "## What it's made of\nChicken marinated in a soy-based sweet-savory sauce is dusted in flour and fried. Compared to karaage, the seasoning runs deeper, so a firm soy flavor spreads from the first bite of crumb. Garlic and ginger's scent survives the frying, and the dish is said to hold its flavor even once it cools.\n## How it's made\nBite-size chicken thigh is steeped for one hour to half a day in a marinade of sake, soy sauce, pepper, ginger, and garlic. Drained and lightly dusted in flour, it's fried slowly in medium-hot oil until the surface turns crisp. Some dip it once more in the marinade after frying to layer the flavor further.\n## Why it took this shape\nOne account holds that around 1955, a chicken restaurant in Kushiro's Suehiro entertainment district cut a whole bird into pieces and deep-fried it, giving the dish its start. One story has the owner adding an 'n' to zāchī, the Chinese fried chicken it was named after, for luck, calling it 'zangi' — and marinating the meat well before frying, unlike plain karaage, is still cited today as the difference between the two.",
+   "sources": [
+    {
+     "title": "ザンギ 北海道｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/zangi_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "zangi",
+     "to_slug": "karaage",
+     "relation_type": "対比",
+     "basis": "下味を漬け込んでから揚げるザンギと、下味の薄い唐揚げとで対をなす（農林水産省「うちの郷土料理」）"
+    }
+   ]
+  },
+  {
+   "slug": "tatsuta-age",
+   "body_ja": "## 何でできているか\n醤油とみりんで下味をつけた鶏肉に片栗粉をまとわせ、からりと揚げる。から揚げより衣が薄く、片栗粉ならではのごつごつとした表面が油をまとって独特のカリッとした歯ざわりを生む。揚げた衣の赤茶色と、ところどころ覗く白い粉のむらが、紅葉が流れる川面を思わせる見た目になっており、冷めても衣が湿りにくいのも特徴とされる。\n## どう作るのか\n鶏肉やときに魚肉を、醤油・酒・みりん・しょうが汁に30分ほど漬け込んで下味をつけ、水気を切ってから片栗粉を薄くまぶし、170度前後の油で揚げる。小麦粉ではなく片栗粉を使うことで、から揚げとは違う軽くもろい食感の衣に仕上がるとされる。二度揚げしてカリッと感を強める店もあるといい、下味をしっかり効かせるためソースなしでも食べられる点も特徴とされる。\n## なぜこの形になったのか\n名前の由来は、揚げたときに醤油の色が赤く染まり、そこに片栗粉が白く点々と浮かぶ様子が、紅葉の名所として知られる奈良の竜田川に見立てられたためとされる。調理法そのものよりも、揚げ上がりの見た目を情景になぞらえて名づけた点に、料理を目でも味わおうとする感性が表れているといえ、季節の景色を日々の食卓に持ち込む発想が、今も献立の名前として受け継がれている。",
+   "body_en": "## What it's made of\nChicken seasoned in soy sauce and mirin is dusted in potato starch and fried until crisp. The crumb is thinner than karaage's, and the rough surface potato starch leaves behind catches the oil in a distinctly crackling bite. The glaze's reddish-brown hue, mottled with flecks of white starch, is meant to evoke maple leaves drifting on a river.\n## How it's made\nChicken, and sometimes fish, is marinated about 30 minutes in soy sauce, sake, mirin, and ginger juice, drained, lightly dusted in potato starch, and fried at around 170°C. Using potato starch instead of flour is said to give a lighter, more brittle crumb than karaage's; some shops fry it twice for extra crunch.\n## Why it took this shape\nThe name is said to come from the way the soy sauce turns the fry a reddish color, dotted white with potato starch, likened to Nara's Tatsuta River, famous for its autumn maples. Rather than the cooking method itself, it's the look of the finished fry, mapped onto a landscape, that gave the dish its name — a way of tasting a dish with the eyes as much as the mouth.",
+   "sources": [
+    {
+     "title": "県立竜田公園",
+     "url": "https://www.pref.nara.lg.jp/site/aruku/1445.html",
+     "publisher": "奈良県",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "令和5年度12月の給食紹介",
+     "url": "https://www.city.nara.lg.jp/site/school-lunch/193176.html",
+     "publisher": "奈良市",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tatsuta-age",
+     "to_slug": "tori-mune",
+     "relation_type": "使用食材",
+     "basis": "鶏肉を主素材として使う"
+    }
+   ]
+  },
+  {
+   "slug": "kakiage",
+   "body_ja": "## 何でできているか\n小さな魚介や野菜を細かく刻み、衣でまとめて一つの塊として揚げる。天ぷらの一種でありながら、単独の具材を揚げるのとは違い、断面に何種類もの具が入り混じって見えるのが特徴とされる。噛むと具材ごとに違う食感が次々に現れ、衣の隙間から立ちのぼる香りも複雑に重なり、一口の中に何層もの味わいが同居する構成になっている。\n## どう作るのか\n白魚や桜えびなど小さな具材、あるいは千切りにした野菜を、衣液にくぐらせてから軽く混ぜ合わせ、まとまりを保ったまま油に落として揚げる。具材が多いぶん散らばりやすく、8等分ほどに手早く形を整えてから揚げるのがコツとされる。うどんや天丼の種物として供されることが多いといい、たけのこや菜の花など季節の野菜を合わせる家庭も多いといわれている。\n## なぜこの形になったのか\n小さな具材を一つ一つ揚げるのではなく、まとめて衣でつなぎ合わせるという発想自体が、天ぷらという料理の応用形として生まれたとみられる。旬の小魚や細切りの野菜を無駄なく使い切る工夫が、結果として断面の賑やかな一品を生んだとされ、天ぷらの定番種物として各地の食卓に根づいている。小ぶりで扱いにくい食材ほど、まとめることで主役になれるという逆転の発想が根底にあるといえる。",
+   "body_en": "## What it's made of\nSmall seafood or vegetables, cut fine, are bound together in batter and fried as a single mass. Though a form of tempura, unlike frying one ingredient at a time, its cut face shows several ingredients mixed together — each bite bringing a different texture in turn, with a complex layering of aromas rising through the crumb.\n## How it's made\nSmall ingredients such as icefish or sakura shrimp, or julienned vegetables, are folded lightly into batter and dropped into the oil while still holding together. With so many pieces prone to scattering, working quickly to shape it into roughly eight portions before frying is said to be the trick; it's often served as a topping for udon or tendon.\n## Why it took this shape\nThe idea itself — binding many small ingredients together in batter rather than frying each alone — is thought to have grown as an application of tempura technique. Using up seasonal small fish or julienned vegetables without waste is said to have produced, as a byproduct, a dish busy with cross-sections, and it has settled in as a standard tempura topping at tables across the country.",
+   "sources": [
+    {
+     "title": "しらうおのかき揚げ 島根県｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shirauonokakiage_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kakiage",
+     "to_slug": "tempura",
+     "relation_type": "兄弟",
+     "basis": "天ぷらの一種で、単独の具材を揚げる天ぷらと具材をまとめて揚げるかき揚げとで対をなす"
+    }
+   ]
+  },
+  {
+   "slug": "satsuma-age",
+   "body_ja": "## 何でできているか\n魚のすり身に豆腐や地酒、砂糖を混ぜて成形し、油でじっくり揚げる。表面はきつね色に色づき、噛むとふわりとした弾力の中からほのかな甘みがにじみ出る。他県の同種の練り物より甘めに仕上げるのが鹿児島らしさとされ、そのままでも、炙り直しても楽しめる懐の深さを持ち、酒の肴としてもご飯のおかずとしても重宝される。\n## どう作るのか\nアジやサバ、トビウオなどのすり身に、水切りした木綿豆腐、地酒、砂糖、薩摩芋でんぷんを混ぜて練り、棒状や角型に成形してから160度ほどの油でじっくり揚げる。豆腐を加えることでふんわりとした食感になるとされ、砂糖を加えて甘口に仕上げる点が他県の揚げかまぼことの違いとされる。地元では魚の種類や配合を変え、野菜や卵を練り込んだ多彩な種類が作られているという。\n## なぜこの形になったのか\n一説には、江戸時代に薩摩藩主・島津斉彬が、紀州のはんぺんやかまぼこにヒントを得て、高温多湿な鹿児島の気候に合わせて保存性を高めるために揚げ物にしたとされる。琉球料理の揚げかまぼこ「チキアーギ」が訛って「つけあげ」になったという説も伝わり、他藩や琉球との交流が味の土台になったとみられ、砂糖の入手しやすさも甘口に仕上がった一因とされ、藩の産業政策と食文化が結びついた例ともいえる。",
+   "body_en": "## What it's made of\nFish paste mixed with tofu, local sake, and sugar is shaped and fried slowly in oil. The surface turns golden, and a springy bite gives way to a faint sweetness underneath. Finishing it sweeter than similar fish cakes elsewhere is said to be distinctly Kagoshima, and it's enjoyed either as is or reheated over a flame.\n## How it's made\nPaste from horse mackerel, mackerel, or flying fish is kneaded with drained firm tofu, local sake, sugar, and sweet-potato starch, shaped into bars or blocks, and fried slowly at around 160°C. Adding tofu is said to give it a soft, airy texture, and sweetening it with sugar is what sets it apart from similar fried fish cakes elsewhere in Japan.\n## Why it took this shape\nOne account holds that in the Edo period, the Satsuma domain's lord Nariakira Shimazu, inspired by hanpen and kamaboko from Kishu, turned it into a fried food to improve its keeping quality in Kagoshima's hot, humid climate. Another traces the name tsuke-age to a corruption of chiki-agi, a fried fish cake from Ryukyuan cooking — either way, contact with other domains and Ryukyu is thought to underlie the flavor.",
+   "sources": [
+    {
+     "title": "つけあげ 鹿児島県｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tsukeage_kagoshima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "satsuma-age",
+     "to_slug": "jako-ten",
+     "relation_type": "兄弟",
+     "basis": "ともに魚のすり身を揚げた練り物で、地域ごとに材料や味付けの異なる系統"
+    }
+   ]
+  },
+  {
+   "slug": "jako-ten",
+   "body_ja": "## 何でできているか\n小魚のすり身を小判形にまとめ、骨ごとじっくり油で揚げる。表面はかりっと香ばしく、中はふんわりとした弾力を持ち、噛むごとに魚の旨みと塩気がじわりと広がる。骨まで一緒に使うため出汁のような深い味わいが練り込まれており、そのままでも、炙り直しても味が引き締まるとされる。輪切りにしてそのまま酒の肴にする食べ方も、地元では日常の一コマとされている。\n## どう作るのか\n底引き網でとれたエソやアジなど小さな魚の皮と身を、骨ごと細かく叩いてすり潰し、塩と小麦粉、卵を加えて堅めに練り上げる。小判形に形を整えたあと、じっくりと油で揚げてかりっと仕上げる。骨ごと使うことでカルシウムやミネラルが豊富になるとされ、そのまま食べても酒の肴にもなるといい、練り込む魚の配合は店ごとに微妙に異なるという。\n## なぜこの形になったのか\n一説には、元和元年に宇和島藩初代藩主・伊達秀宗が、故郷の仙台から蒲鉾職人を連れてきて作らせたのが始まりとされる。底引き網で獲れる雑多な魚（じゃこ）を余すことなく使うために骨ごとすり身にする発想が生まれ、「ざこ天」が変化して「じゃこ天」と呼ばれるようになったと伝わっている。仙台の蒲鉾技術と、南予地方の漁で獲れる小魚とが結びついて生まれた郷土の味といえる。",
+   "body_en": "## What it's made of\nSmall fish paste is shaped into an oval and fried slowly, bones and all. The surface turns crisp and fragrant while the inside stays springy, releasing the fish's savor and salt with every bite. Using the bones as well works a broth-like depth into the paste, and the flavor is said to sharpen further whether eaten as is or reheated over a flame.\n## How it's made\nSkin and flesh from small trawl-net fish like lizardfish and horse mackerel are pounded fine, bones included, then kneaded firm with salt, flour, and egg. Shaped into ovals, it's fried slowly to a crisp finish. Using the bones is said to pack in calcium and minerals, and it's eaten as is or as a snack alongside a drink.\n## Why it took this shape\nOne account holds that in 1615, Munemune Date, the first lord of the Uwajima domain, brought a kamaboko craftsman from his native Sendai to make it. The idea of grinding whole small trawl-net fish — jako, in local dialect — bones and all, is said to have given rise to the dish, its name shifting from zako-ten to jako-ten over time.",
+   "sources": [
+    {
+     "title": "じゃこ天 愛媛県｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/jakoten_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "jako-ten",
+     "to_slug": "aji",
+     "relation_type": "使用食材",
+     "basis": "小アジなど小魚のすり身を主素材として使う（農林水産省「うちの郷土料理」）"
+    }
+   ]
+  },
+  {
+   "slug": "ganmodoki",
+   "body_ja": "## 何でできているか\n豆腐に山芋や刻んだ野菜を混ぜて丸め、油で揚げる。表面はかりっと揚がっているのに、中は豆腐のふんわりとした食感がそのまま残り、噛むとにんじんやれんこんの歯ざわりが顔を出す。京都では「ひろうす」「飛龍頭」とも呼ばれ、出汁でじっくり煮含めて食べる場面も多いといい、おでんの具材としても広く親しまれ、家庭の常備菜として冷蔵庫に置かれることも多い。\n## どう作るのか\n水切りした豆腐をすり潰し、山芋や卵、刻んだにんじん・れんこん・ごぼう・水菜などを混ぜ合わせて丸く成形し、油で揚げる。具材の下ごしらえに手間がかかるとされ、精進料理の応用として発展してきた背景から、動物性の食材を使わずに作られることが多いという。揚げたては熱いうちに、翌日は出汁で煮直して味を含ませる食べ方もある。\n## なぜこの形になったのか\n京都では古くから「ひろうす」「ひりょうず（飛龍頭）」という呼び名が定着しており、豆腐加工品を使った料理の一つとして京豆腐文化の中に位置づけられている。肉を使わずに満足感のある一品を作ろうとする精進料理の発想が、野菜を混ぜ込んで揚げるという工夫を通じて、この料理の形に結びついたとみられる。名前の「もどき」には、肉に見立てて作った精進料理という由来が込められているとも言われている。",
+   "body_en": "## What it's made of\nTofu, mountain yam, and chopped vegetables are mixed, rolled into balls, and fried. The surface fries up crisp while the inside keeps tofu's soft, airy texture, with carrot and lotus root offering crunch as you bite through. In Kyoto it's also known as hirousu or hiryōzu, and it's often simmered slowly in dashi rather than eaten straight from the fryer.\n## How it's made\nDrained tofu is mashed and mixed with mountain yam, egg, and chopped carrot, lotus root, burdock, and mizuna, then rolled into balls and fried. Prepping the vegetables is said to take real effort, and because the dish grew out of vegetarian temple cooking, it's often made without any animal ingredients at all. It's eaten hot from the fryer, or simmered again in dashi the next day to soak up more flavor.\n## Why it took this shape\nIn Kyoto, the names hirousu and hiryōzu have long been the everyday terms for this dish, placed within a wider culture of Kyoto tofu processing. The idea behind vegetarian temple cooking — building a satisfying dish without meat — is thought to have led, through the trick of folding vegetables into tofu and frying it, to this particular form.",
+   "sources": [
+    {
+     "title": "京豆腐｜にっぽん伝統食図鑑",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/kyo_dohu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "京の食べものクイズ｜京・けんこうひろば",
+     "url": "https://kyo-kenko.city.kyoto.lg.jp/food-education/kyoto/quiz/",
+     "publisher": "京都市保健所",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ganmodoki",
+     "to_slug": "gane",
+     "relation_type": "対比",
+     "basis": "ともに野菜と衣の生地を丸めて揚げる料理だが、京都の豆腐仕立てと鹿児島の芋仕立てとで対をなす"
+    }
+   ]
+  },
+  {
+   "slug": "gane",
+   "body_ja": "## 何でできているか\n太めの千切りにしたさつまいもと野菜を、衣でまとめてかにの姿のように揚げる。放射状に広げられた具材の先端がかりっと軽く揚がる一方、中心部はいもの甘みがしっとりと残り、一つの揚げ物の中で食感の差がはっきり味わえる。甘めの衣が油の香ばしさと混じり合い、おやつのような感覚でも食べられ、子どものおやつとしても親から子へ受け継がれてきたとされる。\n## どう作るのか\nさつまいもと人参を太めの千切りにし、小麦粉・もち米粉・砂糖・卵などを合わせた衣にくぐらせる。木杓子で具を横長のかにの姿のように整え、菜箸で放射状に広げながら170度の油でじっくり揚げる。地域によっては黒砂糖やそば粉を混ぜて風味を変える作り方もあるといい、家庭ごとに受け継がれた配合の違いが味の個性になっているという。\n## なぜこの形になったのか\nさつまいもの見た目が鹿児島弁で「がね」と呼ばれるかにに似ていることが名前の由来とされる。さつまいもは1698年に琉球から種子島へ伝わり、1705年に鹿児島県全域に広まったとされ、この普及が地域の食文化の基盤になったといわれる。痩せた土地でもよく育つさつまいもを、揚げ物として日常に取り入れる知恵が息づいており、かつては「孝行芋」とも呼ばれるほど生活を支えた作物だったと伝わる。",
+   "body_en": "## What it's made of\nThick-cut julienned sweet potato and vegetables are bound in batter and fried into a shape resembling a crab. The tips fanned out from the center fry up light and crisp, while the middle keeps the potato's moist sweetness, letting one fried dish carry two distinct textures. The sweetened batter mingles with the oil's toasted aroma, making it snackable enough to eat between meals.\n## How it's made\nSweet potato and carrot are cut into thick julienne strips and dipped in a batter of flour, glutinous rice flour, sugar, and egg. A wooden paddle shapes the mixture into the long form of a crab, spread out radially with cooking chopsticks and fried slowly at 170°C. Some regions mix in brown sugar or buckwheat flour for a different character.\n## Why it took this shape\nThe name is said to come from the sweet potato's resemblance to gane, the local Kagoshima-dialect word for crab. Sweet potato is said to have arrived from Ryukyu to Tanegashima in 1698 and spread across Kagoshima prefecture by 1705, a spread thought to have laid the groundwork for the region's food culture. Working a root vegetable that thrives even in poor soil into an everyday fried dish is the wisdom the dish carries.",
+   "sources": [
+    {
+     "title": "がね 鹿児島県｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gane_kagoshima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gane",
+     "to_slug": "renkon-hasami-age",
+     "relation_type": "兄弟",
+     "basis": "ともに野菜を主役にした地域性の強い揚げ物という系統でつながる"
+    }
+   ]
+  },
+  {
+   "slug": "renkon-hasami-age",
+   "body_ja": "## 何でできているか\n輪切りにしたれんこんに具材を挟み、衣をつけて揚げる。表面はかりっと揚がり、噛むとれんこん特有のしゃきしゃきとした歯ざわりが最初に来て、挟んだ具材のやわらかさとの対比が楽しめる。れんこんの穴に具が入り込むことで、断面に模様のような層ができるのも見た目の面白さとされ、切り口を見せて盛りつける店も多いという。\n## どう作るのか\nれんこんを厚めの輪切りにし、間に具材を挟んでから衣をつけて油で揚げる。れんこんはあらかじめ酢水にさらして変色を防ぎ、繊維を断つように薄く切ることでかみ切りやすく仕上げるとされる。地元では煮物の具材としても使われるほか、はさみ揚げにして揚げたてを味わう食べ方が親しまれているといい、行方市の直売所では加工品として販売されることもあるという。\n## なぜこの形になったのか\n霞ヶ浦・北浦周辺に広がる行方市はれんこんの一大産地で、地元の食べ方として煮物と並んではさみ揚げが紹介されている。水はけのよい低湿地という土地条件がれんこん栽培に適しており、豊富に穫れるれんこんを日々の惣菜として食べ尽くす工夫の一つが、この揚げ物の形になったとみられる。全国有数の産地だからこそ日常の惣菜になり得た、土地の恵みがそのまま形になった料理といえる。",
+   "body_en": "## What it's made of\nRound-cut lotus root is sandwiched around a filling, breaded, and fried. The surface fries up crisp, and lotus root's crunchy bite comes first, playing off the softness of whatever's tucked inside. The way filling settles into the root's natural holes leaves a patterned cross-section, part of the dish's visual appeal.\n## How it's made\nLotus root is cut into thick rounds, filled, breaded, and fried in oil. It's soaked beforehand in vinegared water to keep its color, and cut thin across the grain so it's easy to bite through. Locally it's also simmered as a stew ingredient, but eating it freshly fried as hasami-age is said to be a favored way to enjoy it.\n## Why it took this shape\nNamegata, spread across the shores of Lake Kasumigaura and Lake Kitaura, is a major lotus root growing region, and hasami-age is introduced locally alongside simmered dishes as a way to eat it. The well-drained lowland suits lotus root cultivation, and using the abundant harvest up in everyday cooking is thought to be part of what shaped this particular fried dish.",
+   "sources": [
+    {
+     "title": "レンコン｜行方市公式ホームページ",
+     "url": "https://www.city.namegata.ibaraki.jp/kankou/kankou-ajiwau/page001375.html",
+     "publisher": "行方市",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "renkon-hasami-age",
+     "to_slug": "hatoshi",
+     "relation_type": "兄弟",
+     "basis": "ともに食材を挟んで衣をつけ揚げる「はさみ揚げ」の系統でつながる"
+    }
+   ]
+  },
+  {
+   "slug": "hatoshi",
+   "body_ja": "## 何でできているか\n食パンでエビとイカのすり身を挟み、油で揚げる。パンの表面はかりっと香ばしく焼き揚がり、中からはエビの弾力とすり身のふんわりとした食感が同時に伝わる。パンとすり身という異なる二つの生地が一体になって揚がる様子は、和洋中のどれとも違う独特の存在感を持ち、片手でつまめる軽食として、地元では日常的に気軽に楽しまれている。\n## どう作るのか\nエビとイカをすり身状にし、タマネギ・マヨネーズ・塩こしょう・一味唐辛子を混ぜて食パンに塗り、もう一枚のパンで挟んでから一度蒸して形を安定させ、油で揚げる。パン粉をつけずにパンそのものを衣代わりに使うのが特徴とされ、外はかりっと、中はふんわりと仕上がるといい、街の総菜店で店頭販売されるほど市民に定着しているという。\n## なぜこの形になったのか\n明治時代に中国から長崎に伝わったとされ、「蝦多士（ハートーシー）」という中国語表記の通り、エビのすり身を食パンで挟んで揚げたのが始まりとされる。長崎の卓袱料理の一皿として供されていたものが、やがて市中で店頭販売されるほど身近な郷土食になったと伝わり、中華とパン食という異なる文化の接点が一つの料理に凝縮されている。開港地・長崎ならではの多文化の重なりが、この一皿の成り立ちに表れているといえる。",
+   "body_en": "## What it's made of\nShrimp and squid paste is sandwiched between slices of bread and deep-fried. The bread's surface fries up crisp and fragrant, while the inside delivers the shrimp's springy bite together with the paste's soft give. Two entirely different bases — bread and fish paste — fusing into one fried dish gives it a character unlike anything in Japanese, Western, or Chinese cooking alone.\n## How it's made\nShrimp and squid are worked into a paste, mixed with onion, mayonnaise, salt, pepper, and chili pepper, spread on bread, sandwiched with a second slice, steamed once to hold its shape, and then deep-fried. Using the bread itself as the coating, with no panko added, is said to be the key, giving a crisp outside and a soft inside.\n## Why it took this shape\nSaid to have arrived in Nagasaki from China in the Meiji era, its name written 'hato-shi,' or 蝦多士 — shrimp (ha) and bread (toshi) — reflects its origin as shrimp paste sandwiched in bread and fried. Once served as a course within Nagasaki's shippoku banquet cuisine, it's said to have become familiar enough to be sold from street storefronts, condensing a meeting point of Chinese and bread-eating cultures into a single dish.",
+   "sources": [
+    {
+     "title": "ハトシ 長崎県｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_29_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hatoshi",
+     "to_slug": "gyoza",
+     "relation_type": "対比",
+     "basis": "ともに中華由来で、皮に具材を包んで加熱する点で共通しつつ、揚げるか焼くかで対をなす"
+    }
+   ]
+  },
+  {
+   "slug": "shiso-maki",
+   "body_ja": "## 何でできているか\n味噌とくるみ、ごまを練り合わせた餡を青しその葉で巻き、油でさっと揚げる。噛むと最初にしそ独特の清涼感が広がり、そのあとから味噌の濃い塩気とくるみのコクが追いかけてくる。揚げたては葉がぱりっと軽く、時間が経つとしっとりとした食感に変わり、二つの表情を楽しめるとされ、小さな一切れでもご飯が何杯も進むほどの、しっかりとした濃さを持つ。\n## どう作るのか\n赤味噌に砂糖、くるみ、ごま、七味唐辛子などを練り合わせて棒状にまとめ、青しその葉できっちりと巻いてから楊枝で留め、170度に熱した油で一度裏返しながら揚げる。味噌餡を巻く量と葉の巻き方で食感が変わるとされ、揚げたてのぱりっとした状態で食べるのが好まれるという。おかずとしてだけでなく、砂糖を増やしてお茶請けに仕立てる作り方もあるとされる。\n## なぜこの形になったのか\n一説には、伊達政宗が鳴子温泉の湯治客のために作らせたのが始まりという言い伝えがある。もとはご飯のおかずだったが、砂糖を加えて甘みを強めたことで、お茶請けやおやつとしても食べられるようになったとされ、鳴子という一地域の名物が宮城県全域に広まっていった経緯がうかがえる。保存の効く味噌を軸に、少ない材料で満足感を作り出す発想が土台にあるとみられる。",
+   "body_en": "## What it's made of\nA paste of miso, walnut, and sesame is rolled in a shiso leaf and quickly deep-fried. The shiso's cool, herbal snap comes first, followed by the miso's deep salinity and the walnut's richness close behind. Fresh from the fryer the leaf stays light and crisp, but it softens as it sits, giving the dish two distinct characters to enjoy.\n## How it's made\nRed miso is worked with sugar, walnut, sesame, and shichimi pepper into a stick shape, wrapped tightly in a shiso leaf, pinned with a toothpick, and fried in oil heated to 170°C, flipped once partway through. How much paste goes in and how tightly the leaf is wrapped are said to shape the texture, and eating it fresh, while the leaf is still crisp, is preferred.\n## Why it took this shape\nOne account traces it to Date Masamune, said to have had it made for guests taking the waters at Naruko hot spring. Originally a side dish for rice, adding sugar for sweetness is said to have turned it into a snack to go with tea as well, and the way this single hot-spring town's specialty spread across all of Miyagi prefecture is part of the dish's story.",
+   "sources": [
+    {
+     "title": "しそ巻き 宮城県｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shiso_maki_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shiso-maki",
+     "to_slug": "gansu",
+     "relation_type": "対比",
+     "basis": "ともに余り物や身近な素材を活かして生まれた地域性の強い揚げ物という系統でつながる"
+    }
+   ]
+  },
+  {
+   "slug": "gansu",
+   "body_ja": "## 何でできているか\n魚のすり身を丸く平たく成形し、パン粉をまとわせて揚げた練り物。表面はざくざくとした衣の食感が立ち、中はかまぼこのようになめらかで、噛むと魚のほのかな甘みがじんわりと広がる。揚げかまぼこでありながらフライのような衣を持つ、他にあまり例のない組み合わせとされ、ご飯のおかずにもビールのつまみにもよく合う懐の広さがある。\n## どう作るのか\n魚のすり身に調味料を加えて練り、平たい円形に成形してからパン粉をまとわせて油で揚げる。かまぼこの製造過程で出る魚肉すり身の端材を活用する発想から生まれたとされ、揚げかまぼこでありながらフライ衣をまとう点が、他の練り物とは違う個性になっている。そのまま食べても、炙り直しても味が引き立つといい、冷蔵で日持ちする点も日常使いに向いている。\n## なぜこの形になったのか\n一説には、昭和20年代、蒲鉾を製造する際に出る魚肉すり身の余りを活用する方法として、呉市内で考案されたとされる。名称は「日常の食卓に溶け込んでほしい」という願いと、「〜でございます」を意味する広島弁の「がんす」を組み合わせて名づけられたと伝わり、余り物を無駄にしない発想が地域の味として定着した例といえる。70年以上にわたり作られ続け、近年は全国的な知名度も高まっているという。",
+   "body_en": "## What it's made of\nFish paste is shaped into a flat round and coated in panko before frying. The surface carries a crackling crumb texture while the inside stays smooth like kamaboko, releasing the fish's faint sweetness slowly as you chew. A fried fish cake wearing a crumb coating more typical of a cutlet is an unusual pairing rarely seen elsewhere.\n## How it's made\nFish paste is seasoned, kneaded, shaped into a flat disc, coated in panko, and deep-fried. It's said to have grown from a way of using up the scraps of fish paste left over from making kamaboko, and wearing a fritter's crumb coating while still being a fried fish cake sets it apart from other processed fish products. It's eaten as is or reheated over a flame.\n## Why it took this shape\nOne account holds that in the postwar 1940s, it was devised in Kure as a way to use leftover fish paste from kamaboko production. The name is said to combine a wish for it to blend into everyday meals with 'gansu,' a Hiroshima-dialect way of saying 'it is' — an example of a habit of not wasting scraps settling into a distinctly local food.",
+   "sources": [
+    {
+     "title": "みやけのうまいでがんす｜広島市公式ウェブサイト",
+     "url": "https://www.city.hiroshima.lg.jp/hiroshima-brand/tokusan/1026502/1026504/1014766.html",
+     "publisher": "広島市経済観光局産業振興部",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gansu",
+     "to_slug": "satsuma-age",
+     "relation_type": "兄弟",
+     "basis": "ともに魚のすり身を揚げた練り物で、地域ごとに材料や衣が異なる系統"
+    }
+   ]
+  },
+  {
+   "slug": "aji-fry",
+   "body_ja": "## 何でできているか\n三枚におろしたアジにパン粉をまとわせて揚げる。表面はざくざくとした衣が立ち、噛むとその奥から青魚らしい脂の乗った身がほろりとほどける。とんかつのような重さはなく、ソースをかけてもレモンを絞っても、魚そのものの味がまっすぐ伝わるとされ、家庭の食卓にも定食屋にも幅広く並ぶ、飽きの来ない定番となっている。\n## どう作るのか\nアジを三枚におろして骨を抜き、塩こしょうをしてから小麦粉・卵・パン粉の順に衣をつけ、170度前後の油できつね色に揚げる。骨を丁寧に取り除く下処理が食べやすさを左右するとされ、キャベツの千切りとともに皿に盛るのが一般的な形とされる。米油を使ってあっさりと仕上げる店もあるといい、骨を抜く技術そのものが、店ごとの職人の腕の見せどころとされる。\n## なぜこの形になったのか\n千葉県は全国有数のアジの水揚げ量を誇る漁場を抱え、脂の乗った「黄金アジ」など地域ブランドの魚が知られている。新鮮なアジを手早く調理して食べる方法として、洋食由来のフライという技法が根づき、水揚げ地に近い店ほど鮮度の良いアジフライを提供できるという構図が生まれているとみられる。骨まで丁寧に処理する手間を惜しまない点に、水揚げの近さゆえの贅沢が表れているといえる。",
+   "body_en": "## What it's made of\nHorse mackerel, filleted, is breaded in panko and fried. The crumb crackles on the surface, giving way to the oily, blue-fish richness of the meat underneath. It carries none of tonkatsu's heaviness, and whether finished with sauce or a squeeze of lemon, the fish's own flavor is said to come through directly.\n## How it's made\nHorse mackerel is filleted and boned, seasoned with salt and pepper, breaded in flour, egg, and panko in that order, and fried golden at around 170°C. Carefully removing every bone is said to determine how easy it is to eat, and it's typically plated with shredded cabbage; some shops fry it in rice oil for a lighter finish.\n## Why it took this shape\nChiba prefecture holds some of the richest horse mackerel fishing grounds in the country, known for regional brands like the oily 'golden aji.' Frying, a technique borrowed from Western cooking, is thought to have taken root as a quick way to cook fresh mackerel, with shops closer to the landing port able to serve it at its freshest.",
+   "sources": [
+    {
+     "title": "アジフライ｜ちば観光ナビ",
+     "url": "https://maruchiba.jp/gourmet/feature/detail_301.html",
+     "publisher": "千葉県公式観光サイト",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aji-fry",
+     "to_slug": "aji",
+     "relation_type": "使用食材",
+     "basis": "アジを主素材として使う"
+    }
+   ]
+  },
+  {
+   "slug": "kaki-fry",
+   "body_ja": "## 何でできているか\nむき身の牡蠣にパン粉をまとわせ、高温の油で手早く揚げる。衣はかりっと軽く、噛んだ瞬間に中から牡蠣の濃厚な旨みと磯の香りを含んだ汁がじゅわりとあふれる。加熱しすぎると身が縮んで硬くなるため、ふっくらとした食感を保てるかどうかが仕上がりを大きく左右するとされ、大ぶりの牡蠣ほど、その差がはっきりと表れるとされる。\n## どう作るのか\nむき身にした牡蠣を丁寧に水洗いして水気を切り、塩こしょうをしてから小麦粉・卵・パン粉の順に衣をつけ、180度前後の高温の油で短時間揚げる。中まで火を通しつつ縮ませないよう、揚げ時間を見極めるのが最大の勘所とされ、タルタルソースやレモンを添えて食べるのが定番という。衣を工夫して白く仕上げる新しい調理法の開発も、近年進められているとされる。\n## なぜこの形になったのか\n広島県は全国有数の牡蠣の産地として知られ、地元では家庭で母親が揚げてくれる日常の家庭料理として親しまれてきたとされる。県外ではとんかつ屋などで秋冬に期間限定で味わう「ちょっとしたごちそう」として扱われる一方、産地では日々の食卓に並ぶ身近な一品という、土地による受け止め方の違いが表れている。豊富な水揚げ量があってこそ、日常のおかずになり得た料理といえる。",
+   "body_en": "## What it's made of\nShucked oysters are breaded in panko and fried quickly in hot oil. The crumb stays light and crisp, and the first bite releases a rich, briny savor from the oyster inside. Overcooking shrinks the meat and toughens it, so keeping it plump is said to be what makes or breaks the dish.\n## How it's made\nShucked oysters are rinsed carefully, drained, seasoned with salt and pepper, breaded in flour, egg, and panko in that order, and fried briefly in oil at around 180°C. Judging the frying time so the inside cooks through without the meat shrinking is said to be the key, typically served with tartar sauce or a wedge of lemon.\n## Why it took this shape\nHiroshima prefecture is known as one of Japan's leading oyster-producing regions, and locally the dish is said to have stayed a homestyle staple, the kind a mother fries at home rather than something eaten out. Outside the prefecture it's treated as a seasonal treat served at tonkatsu shops in autumn and winter, a difference in how the same dish is regarded depending on how close you are to where it's grown.",
+   "sources": [
+    {
+     "title": "カキフライについて｜牡蠣食う研",
+     "url": "https://kakikuken.com/research/archives/2",
+     "publisher": "広島県商工労働局観光課",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kaki-fry",
+     "to_slug": "magaki",
+     "relation_type": "使用食材",
+     "basis": "真牡蠣を主素材として使う"
+    }
+   ]
+  },
+  {
+   "slug": "nanban-zuke",
+   "body_ja": "## 何でできているか\n小麦粉をまとわせて揚げた小魚を、酢・醤油・砂糖・唐辛子を合わせた甘酢に漬け込む。揚げたてのぱりっとした衣が酢を吸って徐々にやわらかくなり、時間が経つほど骨まで食べやすくなる。冷やして食べると酸味がより際立ち、暑い季節でも箸が進む一皿とされ、彩りに玉ねぎやにんじんが添えられて、皿の上の見た目も華やかになる。\n## どう作るのか\n下処理をした小アジなどの小魚に小麦粉をまぶして油で揚げ、揚げたてを酢・醤油・砂糖・みりん・だし汁に唐辛子や玉ねぎ、にんじんを合わせた漬け汁に30分以上漬け込む。冷蔵庫のない時代には、揚げてから酢に漬けることで保存性を高める知恵として使われていたとされる。漬け込む時間が長いほど骨まで柔らかくなり、頭から尾まで丸ごと食べられるようになるという。\n## なぜこの形になったのか\n新鮮な魚が獲れる漁村では、獲れた魚を無駄なく調理し、油で揚げてから酢に漬けることで保存食にしていたとされる。冷蔵の手立てがなかった時代、揚げるという加熱と酢に漬けるという保存処理を組み合わせた工夫が、漁業の盛んな土地ごとに残っており、今も各地の郷土料理として伝わっている。保存の必要が薄れた今でも、酸味の効いた味わいそのものが好まれて、各地で作り続けられているとみられる。",
+   "body_en": "## What it's made of\nSmall fish, dusted in flour, are fried and then steeped in a sweet vinegar of vinegar, soy sauce, sugar, and chili pepper. The just-fried crumb turns soft as it soaks up the vinegar, and the longer it sits, the easier the bones become to eat. Served chilled, the tartness stands out even more, making it a dish that goes down easily even in hot weather.\n## How it's made\nSmall fish such as juvenile horse mackerel are prepped, dusted in flour, fried, and steeped while still hot in a marinade of vinegar, soy sauce, sugar, dashi, chili pepper, onion, and carrot for thirty minutes or more. In an age before refrigeration, frying the fish and then curing it in vinegar is said to have been a way of preserving it.\n## Why it took this shape\nIn fishing villages with fresh catch close at hand, fish were cooked without waste — fried, then cured in vinegar to keep. Before refrigeration existed, this pairing of frying's heat with vinegar's preservation is said to have taken hold wherever fishing thrived, and it survives today as a local dish handed down in coastal regions across the country.",
+   "sources": [
+    {
+     "title": "アジの南蛮漬け｜杵築市公式ホームページ",
+     "url": "https://www.city.kitsuki.lg.jp/soshiki/1/kenkou/kyoudoryouri/h29/1012.html",
+     "publisher": "杵築市健康長寿あんしん課",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nanban-zuke",
+     "to_slug": "aji-fry",
+     "relation_type": "兄弟",
+     "basis": "同じアジを素材に、揚げてそのまま食べるアジフライと、揚げて酢に漬け込む南蛮漬けとで対をなす"
+    }
+   ]
+  },
+  {
+   "slug": "ika-menchi",
+   "body_ja": "## 何でできているか\nいかのゲソを叩いてミンチにし、野菜と一緒に丸めて揚げる。表面はかりっと香ばしく、噛むといかのぷりっとした弾力と野菜の甘みが同時に感じられ、ひき肉のメンチカツとはまた違う軽やかな歯ごたえを持つ。冷めてもいかの旨みが残り、お弁当のおかずとしても重宝されるという、子どもから大人にまで人気のある一品である。\n## どう作るのか\n刺身にした際に残るいかのゲソを、フードプロセッサーで形が残る程度に刻み、足の部分は包丁で叩いてみじん切りにする。玉ねぎ・人参・キャベツをみじん切りにして混ぜ、塩こしょうと小麦粉でつないで小判形に成形し、油で揚げる。豆腐や長芋を加えてふわふわに仕上げる家庭もあるといい、カレー粉を加えて風味を変えるアレンジも各家庭に広まっているという。\n## なぜこの形になったのか\n終戦直後の食糧難の時代、貴重ないかを無駄なく使い切り、野菜くずも美味しく食べる工夫として津軽地方で考案されたとされる。刺身では使いにくいゲソの部分をひき肉のように扱うという発想が、青森の家庭料理として根づき、今では子どもから大人まで親しまれるソウルフードになっていると伝わる。厳しい時代を生き抜くための知恵が、形をほとんど変えずに今日の食卓まで受け継がれている例といえる。",
+   "body_en": "## What it's made of\nSquid tentacles are minced and rolled with vegetables into patties, then fried. The surface turns crisp and fragrant, and each bite carries the squid's springy bite alongside the vegetables' sweetness — a lighter crunch than a ground-meat menchikatsu. The squid's flavor holds up even cold, making it a favorite for bento boxes.\n## How it's made\nSquid tentacles left over from making sashimi are minced in a food processor, coarse enough to keep some texture, with the legs chopped fine by hand. Onion, carrot, and cabbage are minced and mixed in, bound with salt, pepper, and flour, shaped into ovals, and fried. Some households add tofu or mountain yam for a fluffier texture.\n## Why it took this shape\nIn the years of food scarcity right after the war, it's said to have been devised in the Tsugaru region as a way to use precious squid without waste, vegetable scraps included. The idea of treating tentacle meat, awkward to use as sashimi, the way ground meat is used, is said to have taken root as a home dish in Aomori, and it's now called a soul food loved by children and adults alike.",
+   "sources": [
+    {
+     "title": "イカメンチ 青森県｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ika_menchi_aomori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ika-menchi",
+     "to_slug": "surume-ika",
+     "relation_type": "使用食材",
+     "basis": "いかのゲソを主素材として使う（農林水産省「うちの郷土料理」）"
+    }
+   ]
+  }
+ ]
+}
