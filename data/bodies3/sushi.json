@@ -1,0 +1,964 @@
+{
+ "items": [
+  {
+   "slug": "kaburazushi",
+   "body_ja": "## 何でできているか\n主役は分厚く輪切りにしたかぶらと、脂の乗ったブリ。塩でしめて水を抜いたかぶらに、同じく塩漬けにして寝かせたブリを挟み込み、米麹と飯で仕込んだ甘酒を全体にまとわせる。人参や柚子の皮、赤唐辛子が彩りに添えられ、断面は白いかぶらと紅色のブリが層をなす。噛むと酸味の奥から麹の甘さが追いかけてくる、刺身とも粕漬けともつかない味。\n## どう作るのか\nブリはひと月ほど塩をあてて余分な水気と生臭さを抜き、かぶらも一週間前後塩漬けにして水を絞る。糀に飯と湯を合わせた甘酒を一晩かけて仕込み、水を切ったかぶらでブリを挟んでは糀に埋めるように桶へ重ねていく。そのまま七日から十日ほど発酵させると、糀の乳酸発酵と塩の力で魚が生のまま日持ちする、なれずしの技法に連なる仕上がりになる。\n## なぜこの形になったのか\n一説には、一本一俵と称されるほど高価だったブリを庶民の口にも合わせるため、かぶらで挟んでかさを増やしたのが始まりという。金沢は浅野川と犀川に挟まれた盆地で、冬は日本海側特有の湿った寒さに沈む。糀を使った低温発酵はこの寒さの中でこそ腐敗を抑えて進み、年の瀬に商家が得意先へ配る手土産としても広まったと伝わる。冷蔵の手立てがない時代、寒風にさらされる金沢の冬そのものが天然の保存庫として働いたとも言われる。",
+   "body_en": "## What it's made of\nThick-cut salted turnip rounds sandwich fatty yellowtail that has been salt-cured and rested on its own. A sweet malt made from rice koji and cooked rice coats everything, with carrot, yuzu peel, and red chili for color. Cut open, white turnip and pink-red yellowtail sit in layers, and the tang gives way to malted sweetness underneath — a taste between sashimi and a rice-bran pickle.\n## How it's made\nThe yellowtail is salted for about a month to draw out moisture and any fishy edge, while the turnip is salted roughly a week and pressed dry. A malt is built overnight from koji, rice, and hot water, then the drained turnip sandwiches the fish and is layered into a barrel, buried in more koji. Left to ferment seven to ten days, lactic fermentation and the earlier salting let the raw fish keep — a technique descended from narezushi.\n## Why it took this shape\nOne account holds that yellowtail, once priced so high it was sold by the whole fish, got sandwiched in turnip to stretch it further for ordinary households. Kanazawa sits in a basin between two rivers, its winters settling into the damp cold typical of the Sea of Japan coast — conditions under which koji fermentation proceeds slowly enough to hold spoilage back. It's also said to have spread as a year-end gift merchants carried to regular customers, in an age before refrigeration made that cold season itself a kind of natural larder.",
+   "sources": [
+    {
+     "title": "かぶらずし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kaburazushi_ishikawa.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kaburazushi",
+     "to_slug": "buri",
+     "relation_type": "使用食材",
+     "basis": "ブリを主原料として使う（農林水産省「うちの郷土料理」）"
+    },
+    {
+     "from_slug": "kaburazushi",
+     "to_slug": "narezushi",
+     "relation_type": "派生",
+     "basis": "魚を塩漬けし穀物とともに乳酸発酵させる、なれずしの製法を継ぐ"
+    }
+   ]
+  },
+  {
+   "slug": "daikonzushi",
+   "body_ja": "## 何でできているか\n薄切りにした大根と、水で戻した身欠きニシンを、人参や柚子皮、赤唐辛子とともに層に重ねる。米と米麹で仕込んだ甘酒をまとわせて漬け込むと、大根の水気とニシンの脂が糀の甘みと混じり合う。かぶらずしより歯ざわりが軽く、酸味も穏やかで、大根そのものの青みがふっと鼻に抜ける一皿になる。加賀地方では冬から正月にかけて各家庭の台所で仕込まれ、切り分けるとニシンの銀色の身と大根の透き通った白さが層になって現れる。\n## どう作るのか\n大根はまず塩漬けにして五、六日置き、水分を抜く。ニシンは米のとぎ汁で一晩浸して身を柔らかく戻し、骨や小骨をていねいに取り除く。甘酒を仕込んだあと、大根とニシン、人参を交互に重ねながら糀を挟み込み、桶に重石をのせて七日から十日ほど発酵させると、糀の乳酸発酵が進んで味がなじむ。重石の重さは仕込む量に応じて加減し、発酵の進み具合を見ながら調整するのが各家庭の勘どころとされる。\n## なぜこの形になったのか\n北前船が江戸から明治にかけて日本海を行き来し、蝦夷地でとれた身欠きニシンを能登や加賀の港へ運んだ。港町に建った「にしん蔵」を介して、それまで高価だった魚が庶民の手にも届くようになったことが、この漬け込みずしを日常の食に押し上げたとされる。大根という保存の利く野菜と組み合わさったことで、冬場の貴重なたんぱく源を長く食いつなぐ知恵として定着したとも言われる。",
+   "body_en": "## What it's made of\nThin-sliced daikon radish and rehydrated dried herring are layered with carrot, yuzu peel, and red chili. A sweet malt made from rice and rice koji is worked through the layers as they're packed — daikon's moisture and herring's fat mingling with the koji's sweetness into something lighter on the teeth and milder in acidity than kaburazushi, with a faint green freshness from the radish itself. Kaga households traditionally prepare it through the New Year season, and a cut cross-section shows herring's silver flesh layered against translucent white daikon.\n## How it's made\nThe daikon is salted first and left five or six days to draw out its water, while the dried herring is soaked overnight in rice-rinsing water to soften and carefully deboned. Once the malt is built, daikon, herring, and carrot are layered in turn with koji tucked between them, packed into a barrel under a weight, and left to ferment seven to ten days as lactic fermentation works through the layers.\n## Why it took this shape\nKitamae-bune trading ships ran the Sea of Japan from the Edo period into the Meiji era, carrying dried herring from Ezo down to the ports of Noto and Kaga. Herring warehouses built up around those ports, and through them a once-costly fish reached ordinary households — a shift said to have pushed this pickled sushi into everyday eating. Pairing it with daikon, a vegetable that itself keeps well, is also said to have made it a way to stretch a scarce winter protein further.",
+   "sources": [
+    {
+     "title": "大根ずし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/daikonzushi_ishikawa.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "daikonzushi",
+     "to_slug": "nishin",
+     "relation_type": "使用食材",
+     "basis": "身欠きニシンを主原料として使う"
+    },
+    {
+     "from_slug": "daikonzushi",
+     "to_slug": "narezushi",
+     "relation_type": "派生",
+     "basis": "魚と穀物を乳酸発酵させるなれずしの製法を継ぐ"
+    },
+    {
+     "from_slug": "daikonzushi",
+     "to_slug": "kaburazushi",
+     "relation_type": "兄弟",
+     "basis": "ともに石川県加賀地方に伝わる、魚と野菜を米麹で漬け込む発酵ずし"
+    }
+   ]
+  },
+  {
+   "slug": "iwakuni-zushi",
+   "body_ja": "## 何でできているか\n酢飯とアジやアナゴのそぼろ、錦糸卵、甘辛く煮た干し椎茸、酢漬けにした岩国れんこん、彩りのチシャを、木枠の中で幾層にも重ねる。切り分けた断面は具材の色がそのまま層になって並び、岩国の名産であるれんこんのシャクッとした歯ざわりが酢飯の中に混じる。一段ごとに具の並びを揃えるため、切り口はどこを切っても同じ縞模様が現れるように仕立てられている。\n## どう作るのか\n木枠にチシャを敷き、酢飯と具材を交互に重ねる作業を三段から五段繰り返す。れんこんは薄切りにして酢に漬け、椎茸は甘辛く煮詰めて味を含ませ、アジやアナゴはそぼろにして酢飯全体に混ぜ込む。最後に蓋をして重石をかけて押し固め、型から出して四角く切り分けてから供する。押す時間は半日近くに及ぶこともあり、時間をかけるほど層と層がなじんで一体になるという。\n## なぜこの形になったのか\n江戸時代、岩国藩主への献上品として工夫されたと伝わり、山城である岩国城まで運んでも崩れない押し寿司の形が選ばれたとされる。祝いの席に大人数分を一度で行き渡らせる必要から、幾段にも重ねて等分に切り分けやすい構成になったと考えられている。木箱に詰めて重石で押す製法は、握りずしのように職人がその場で仕立てるのではなく、まとめて仕込んで運ぶための工夫でもあったとされる。",
+   "body_en": "## What it's made of\nVinegared rice is layered in a wooden frame with minced seasoned horse mackerel and conger eel, shredded egg, sweet-simmered dried shiitake, vinegared local lotus root, and lettuce for color. Sliced open, the ingredients show as clean stripes, lotus root's crunch running through the rice, each tier built to match the one below so every cut reveals the same striped pattern.\n## How it's made\nLettuce lines the frame, then rice and toppings are layered in turn across three to five tiers. Lotus root is thin-sliced and vinegared; shiitake is simmered sweet and savory until it takes the seasoning; minced horse mackerel and conger eel are worked through the rice itself. A lid presses the whole stack under weight, and once unmolded it is cut into squares.\n## Why it took this shape\nIt's said to trace to a dish devised as a gift for the Iwakuni domain's lord — a pressed form sturdy enough to survive the climb up to the hilltop Iwakuni Castle without falling apart. Stacking it in tiers is thought to have let a single build feed a large banquet in equal, easy-to-cut portions, prepared in bulk ahead of time rather than shaped to order the way nigiri is.",
+   "sources": [
+    {
+     "title": "岩国寿司",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_5_yamaguchi.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "iwakuni-zushi",
+     "to_slug": "oshi-zushi",
+     "relation_type": "派生",
+     "basis": "木枠に酢飯と具を重ねて押し固める押しずしの技法による"
+    },
+    {
+     "from_slug": "iwakuni-zushi",
+     "to_slug": "hako-zushi",
+     "relation_type": "対比",
+     "basis": "同じ押しずしの系統だが、岩国寿司は木枠で三段以上に重ねる大型の献上仕立て、箱寿司は一段で押し切る大阪の型"
+    },
+    {
+     "from_slug": "iwakuni-zushi",
+     "to_slug": "aji",
+     "relation_type": "使用食材",
+     "basis": "アジのそぼろを具材の一つに使う"
+    }
+   ]
+  },
+  {
+   "slug": "okayama-barazushi",
+   "body_ja": "## 何でできているか\nサワラやイカ、エビ、タコ、アナゴといった瀬戸内の魚介と、れんこんや高野豆腐、たけのこ、ごぼうなど山と畑の恵みを、昆布だしで炊いた酢飯に混ぜ込む。仕上げに錦糸卵や絹さやを飾り、春はサワラとたけのこ、秋はまつたけと、季節ごとに具の顔ぶれが変わる。十種類を超える具が一椀の中で色とりどりに重なり合い、ひと口ごとに違う具材にあたる賑やかさが身上になっている。\n## どう作るのか\n魚介は塩焼きや照り焼きにし、野菜はそれぞれ甘辛く煮含めて下ごしらえする。飾り用に取り分けた具材以外を酢飯に混ぜ込み、たらい状の桶に盛って彩りよく並べる。取り分けやすいよう、大皿や桶のまま食卓に出すのが基本の形で、各家庭で下ごしらえの味つけや具の組み合わせが少しずつ違うとされる。混ぜ込む具材と、仕上げに飾りとして残す具材の振り分け方にも、家ごとの流儀があるという。\n## なぜこの形になったのか\n江戸時代、岡山藩主が「庶民は一汁一菜」と倹約令を出した際、魚や野菜をすしの具にすれば副菜にはあたらないという理屈で、十種類を超える具を酢飯に混ぜ込んで食べたのが始まりと伝わる。倹約令をすり抜ける工夫が、そのまま具だくさんの形として今に残っているとされ、瀬戸内海の魚介と背後の山の幸をどちらも余さず使い切る土地柄が、この賑やかな盛り付けを後押ししたとも考えられている。",
+   "body_en": "## What it's made of\nSetouchi seafood — Spanish mackerel, squid, shrimp, octopus, conger eel — is mixed with mountain and field ingredients like lotus root, freeze-dried tofu, bamboo shoot, and burdock into rice cooked with kelp stock. Shredded egg and snap peas finish it, and the lineup shifts with the season: mackerel and bamboo in spring, matsutake mushroom in autumn. More than ten ingredients overlap in a single bowl, so that a different bite turns up more or less every mouthful.\n## How it's made\nSeafood is grilled with salt or glazed, and each vegetable is simmered separately until seasoned through. Everything but the garnish is mixed into the rice, which is then piled high and colorfully in a wide tub-shaped vessel and brought to the table as is for sharing — with seasoning and the exact mix of ingredients said to vary slightly from household to household.\n## Why it took this shape\nLocal telling holds that when an Okayama domain lord decreed commoners keep to one soup and one dish, people reasoned that fish and vegetables folded into sushi rice weren't a side dish at all — and packed in more than ten kinds of ingredients. The workaround is said to have become, quite literally, the loaded shape the dish still takes, and a coastline backed by mountains that offered both seafood and mountain produce in easy reach is thought to have made that abundance possible.",
+   "sources": [
+    {
+     "title": "ばらずし（まつりずし）",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_1_okayama.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "okayama-barazushi",
+     "to_slug": "chirashi-zushi",
+     "relation_type": "派生",
+     "basis": "具をすし飯に混ぜ込む関西風ちらしずしの技法による"
+    },
+    {
+     "from_slug": "okayama-barazushi",
+     "to_slug": "sawara",
+     "relation_type": "使用食材",
+     "basis": "サワラを春の具材に使う"
+    }
+   ]
+  },
+  {
+   "slug": "mamakari-zushi",
+   "body_ja": "## 何でできているか\nママカリと呼ばれる小魚（標準和名サッパ）を開いて骨を取り、甘酢にくぐらせてしめる。握った酢飯にのせるだけの簡素な形だが、皮目の銀色と身の甘酢の照りが並ぶと、握りずしとはまた違う小魚ずしの顔つきになる。骨切りをせずに開いた身は薄く、噛むとすっと歯が通るやわらかさで、酢の効いた身の脇からほのかな脂の甘みがのぞく。\n## どう作るのか\nママカリは頭と内臓を除いて開き、塩をあてたのち甘酢に漬け込む。酢飯を一口大に握り、しめたママカリを皮目を上にしてのせるだけで仕上がる、握りずしに近い手早い作り方。小魚ゆえに一尾ずつの下ごしらえは早く、まとまった数を短時間で仕上げられるのも家庭料理としての強みになっている。漬け込む甘酢の甘さや酸味の強さは家庭ごとに加減され、好みの違いがそのまま味の違いになって表れるという。\n## なぜこの形になったのか\nママカリは瀬戸内海沿岸で秋に旬を迎える小魚で、傷みが早いぶん酢でしめる保存の工夫が、そのまま料理名の由来になったとされる。「隣家にご飯を借りに行くほどうまい」という言い伝えが名の由来といい、小魚を余さず食べ切る沿岸の食文化を映しているとされる。大きな魚を切り分けるのではなく一尾をそのまま使う簡素な形も、日々の惣菜として繰り返し作られてきたことの表れと考えられている。",
+   "body_en": "## What it's made of\nA small fish called mamakari (sappa, a relative of herring) is butterflied, boned, and briefly cured in sweet vinegar. Laid over hand-pressed rice, the plain construction lets the fish's silver skin and vinegar sheen carry the dish — a different face of small-fish sushi from standard nigiri. Left unscored, the thin butterflied flesh gives easily to the bite, a faint fatty sweetness showing through the vinegar cure.\n## How it's made\nThe fish is gutted and butterflied, salted, then steeped in sweet vinegar. Rice is pressed into bite-sized mounds and the cured fish is simply laid on top, skin side up — a quick technique close to nigiri. Because each fish is small, prepping a whole batch goes quickly, which suits it well as an everyday home dish rather than a special-occasion one.\n## Why it took this shape\nMamakari comes into season along the Seto Inland Sea coast in autumn and spoils quickly, and curing it in vinegar as a way to keep it is said to have given the dish its name. A saying that it's good enough to send you next door borrowing rice is said to reflect a coastal habit of using every part of a small, plentiful fish. Using one whole fish rather than slicing a larger one is thought to reflect its life as a repeated, everyday side dish.",
+   "sources": [
+    {
+     "title": "ままかりずし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_27_okayama.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mamakari-zushi",
+     "to_slug": "nigiri-zushi",
+     "relation_type": "派生",
+     "basis": "酢でしめた魚を握った酢飯にのせる、江戸前握りに通じる素朴な形"
+    },
+    {
+     "from_slug": "mamakari-zushi",
+     "to_slug": "okayama-barazushi",
+     "relation_type": "対比",
+     "basis": "同じ岡山の祝い膳文化の中で、混ぜ込み型のばらずしと一尾のせ型のママカリずしという対照的な形を成す"
+    }
+   ]
+  },
+  {
+   "slug": "funa-zushi",
+   "body_ja": "## 何でできているか\n主役は琵琶湖でとれる子持ちのニゴロブナ。うろこと内臓を除いた魚を塩でしっかり締め、さらに炊いた飯とともに桶に漬け込む。米は魚を発酵させるための床であって主食ではなく、時間をかけて乳酸発酵した飯は粥のように溶け、魚の身は強い酸味と独特の発酵香をまとう。切り分けると腹に卵をぎっしり抱えた一尾が現れる。発酵が深まるほど身は飴色に近づき、箸で割くとほろりと崩れるやわらかさになる。\n## どう作るのか\nニゴロブナは春先に水揚げし、塩漬けにして二カ月以上寝かせる。塩を洗い落としたのち、炊いた飯と魚を交互に桶へ詰め、重石をのせて半年から一年以上発酵させる「本漬け」に入る。乳酸発酵が進むにつれて飯は溶け、魚の身に酸味と香りが移っていく。仕込む時期と食べ頃の時期がずれるため、家によっては数年がかりで漬けることもあるという。\n## なぜこの形になったのか\n冷蔵の技術がない時代、魚を長く保存する方法として、塩と飯による乳酸発酵が選ばれたと考えられている。琵琶湖という淡水の内湖に囲まれた滋賀では、海の潮に頼らず魚を保存する必要があり、飯に漬け込んで密閉するこの製法が根づいたとされる。近年はニゴロブナの数が減り、仕込む家庭も減少しているといい、現在では祝いの席や来客時に振る舞われる特別な一品としての性格が強まっているという。",
+   "body_en": "## What it's made of\nThe main ingredient is roe-bearing nigorobuna, a crucian carp caught in Lake Biwa. Scaled and gutted, the fish is heavily salted, then packed into a barrel with cooked rice. The rice serves as a fermenting bed rather than something to eat outright — over time it turns porridge-soft with lactic fermentation, while the fish takes on sharp sourness and a distinctive pungency. Cut open, a single fish appears packed with roe.\n## How it's made\nNigorobuna are caught in early spring and salted, then left to cure for two months or more. Once rinsed of salt, the fish is layered with cooked rice in a barrel, weighted down, and left to ferment for six months to a year or longer in what's called the main cure. As lactic fermentation proceeds, the rice breaks down and its sourness and aroma move into the flesh. Because the curing and eating seasons don't line up, some households let a batch sit for several years.\n## Why it took this shape\nIn an age without refrigeration, salting and lactic fermentation in rice is thought to have been chosen as a way to keep fish for the long term. Shiga, ringed by the freshwater expanse of Lake Biwa rather than the sea, needed a way to preserve fish without relying on ocean brine, and this method of packing fish in sealed rice is said to have taken root there. In recent years, as nigorobuna numbers have declined, fewer households still make it.",
+   "sources": [
+    {
+     "title": "ふなずし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/funa_zushi_shiga.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "funa-zushi",
+     "to_slug": "narezushi",
+     "relation_type": "派生",
+     "basis": "魚を塩漬けし、さらに飯とともに漬け込んで乳酸発酵させる、なれずしの技法そのもの"
+    },
+    {
+     "from_slug": "funa-zushi",
+     "to_slug": "funa",
+     "relation_type": "使用食材",
+     "basis": "琵琶湖のニゴロブナ（フナの一種）を主原料とする"
+    }
+   ]
+  },
+  {
+   "slug": "sanma-zushi",
+   "body_ja": "## 何でできているか\n背開きにしたサンマを塩でしめ、だいだいやレモンなど柑橘の酢に浸してから酢飯に重ね、巻きすで棒状に締める。二センチ幅に切り分けると、銀色に光るサンマの皮と、酢でほんのり色づいた身が並ぶ。脂の乗ったサンマと柑橘の酸味が、他地域のサバのなれずしより軽やかな後味を残す。山椒の葉やごまを添えることもあり、酢飯の甘みとサンマの脂が香りの中でひとつにまとまる。\n## どう作るのか\nサンマは背開きまたは腹開きにして中骨と内臓を取り、塩をあてたのち水洗いする。下漬けとして二十分ほど軽く酢に通し、さらに本漬けの柑橘酢にしっかり漬け込む。酢飯にのせて巻きすで形を整え、二センチ幅に切り分けて仕上げる。下漬けと本漬けを分けるのは、酢の入り方を段階的に調整し、身の芯まで均一に味を通すためだという。\n## なぜこの形になったのか\n熊野市の産田神社に伝わる、子どもの健やかな成長を願う神事「奉飯」が起源の一つとされる。十一月下旬、三重県沖を南下するサンマは産卵を控えて脂が落ち、身が締まって酢締めに向く時季を迎える。熊野の武家の食文化の影響で、腹開きではなく背開きが選ばれたとも伝わっている。紀伊半島の海沿いでは家庭ごとに配合する柑橘酢の割合が異なり、酸味の強さに土地ごとの個性が表れるとも言われる。",
+   "body_en": "## What it's made of\nSaury is butterflied along the back, salted, and steeped in citrus vinegar — bitter orange or lemon — before being layered onto vinegared rice and rolled tight with a bamboo mat. Sliced into two-centimeter rounds, the fish's silvery skin lines up against flesh faintly tinted by the vinegar. Fatty saury against citrus acidity leaves a lighter finish than mackerel narezushi from other regions.\n## How it's made\nSaury is butterflied along the back or belly, boned and gutted, salted, then rinsed. It gets a light twenty-minute pre-cure in vinegar before a firmer cure in citrus vinegar. Laid onto vinegared rice, it's shaped with a bamboo mat and sliced into two-centimeter rounds.\n## Why it took this shape\nOne account traces it to Ubuta Shrine in Kumano, to a ritual called hōhan praying for children's healthy growth. In late November, saury moving south off the Mie coast lose fat ahead of spawning and firm up, reaching a texture suited to vinegar curing. It's also said that Kumano's samurai-influenced food culture favored butterflying along the back rather than the belly.",
+   "sources": [
+    {
+     "title": "さんまずし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sanma_zushi_mie.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sanma-zushi",
+     "to_slug": "sanma",
+     "relation_type": "使用食材",
+     "basis": "サンマを主原料とする"
+    },
+    {
+     "from_slug": "sanma-zushi",
+     "to_slug": "bo-zushi",
+     "relation_type": "派生",
+     "basis": "巻きすで棒状に締める押しずしの技法による"
+    }
+   ]
+  },
+  {
+   "slug": "kakinoha-zushi",
+   "body_ja": "## 何でできているか\n俵型に握った酢飯に、塩と酢でしめた薄切りのサバをのせ、渋柿の葉できゅっと包む。開けると柿の葉の青い香りがサバの脂に移り、塩気と酸味の輪郭がやわらいでいる。一晩桶で寝かせた分だけ、葉と魚の香りが酢飯にまで染み込んでいる。葉ごと持って頬張ると、まず柿の葉の香りが立ち、次いでサバの脂とすし飯の酸味が追いかけてくる。\n## どう作るのか\nサバは骨を除いて酢で一時間ほどしめ、薄くそぎ切りにする。米は昆布と酒を加えて炊き、合わせ酢で酢飯にする。俵型に握った酢飯にサバをのせ、柿の葉でくるみ、寿司箱に隙間なく詰めて重石をかけ、一晩置いて味をなじませる。包んだあとひと晩重石をかけて寝かせることで、葉の香りと魚の旨みが酢飯の芯まで均一に行き渡る。\n## なぜこの形になったのか\n紀州の漁師が年貢を稼ぐため、熊野灘で獲れた夏サバを塩でしめて吉野川沿いの村へ運び、夏祭りのごちそうになったのが始まりという説が伝わる。海から遠い山間の村では魚が貴重で、柿の葉に含まれるタンニンと酢の防腐効果を借りて、生ものを日持ちさせる知恵が形になったとされる。運搬や保存を目的に生まれたこの押しずしは、今では祭礼や来客時のもてなし料理として受け継がれ、葉の香りごと持ち運べる形が駅弁としての流通にも合っていたとされる。",
+   "body_en": "## What it's made of\nA barrel-shaped mound of vinegared rice is topped with thin-sliced mackerel cured in salt and vinegar, then wrapped snugly in a bitter persimmon leaf. Unwrapped, the leaf's green scent has moved into the mackerel's fat, softening the edges of its salt and acid. A night resting under weight lets the leaf and fish scent work all the way into the rice.\n## How it's made\nMackerel is boned, cured in vinegar about an hour, and sliced thin. Rice is cooked with kelp and sake, then dressed into vinegared rice. Mackerel is laid onto a barrel-shaped mound of that rice, wrapped in a persimmon leaf, packed tight into a sushi box, weighted, and left overnight to settle.\n## Why it took this shape\nOne account holds that fishermen from Kishu, needing to raise tax rice, salt-cured summer mackerel caught in Kumano Bay and carried it to villages along the Yoshino River, where it became a summer-festival treat. In mountain villages far from the sea, fish was precious, and the tannin in persimmon leaves combined with vinegar's preserving power is said to have become the wisdom that let raw fish keep.",
+   "sources": [
+    {
+     "title": "柿の葉寿司",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kakinoha_zushi_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kakinoha-zushi",
+     "to_slug": "saba",
+     "relation_type": "使用食材",
+     "basis": "塩と酢でしめたサバを主原料とする"
+    },
+    {
+     "from_slug": "kakinoha-zushi",
+     "to_slug": "oshi-zushi",
+     "relation_type": "派生",
+     "basis": "型に詰めて重石をかける押しずしの技法による"
+    }
+   ]
+  },
+  {
+   "slug": "kokera-zushi",
+   "body_ja": "## 何でできているか\nしめサバ、卵、干し椎茸、人参、さやえんどうなど、必ず魚を含む奇数の具材を用意する。層の間には山いちごや花みょうがの葉を敷き込み、押している間に葉の香りが酢飯へじんわりと移る。切り分けると、こけら葺きの屋根のように具がずれて重なった断面が現れる。具材の彩りと葉の香りを同時に感じ取れるよう、層を薄く均一に仕上げることが仕込みの要になっているという。\n## どう作るのか\n木の押し型の底に花みょうがの葉を敷き、酢飯をのせて五種の具を彩りよく並べる工程を三、四段繰り返す。最後に蓋をして重石をかけ、四十分以上置いて味をなじませてから型から出して切り分ける。層ごとに具の並びをそろえるため、切る位置によって断面の見え方が変わるという。四十分という時間は、押す力の強さと合わせて各家庭で微妙に加減されてきたとされる。\n## なぜこの形になったのか\n名前は、こけら葺きの屋根のように具材を一枚ずつずらして重ねる盛り付けに由来するとされる。東紀州はひのきなど木材の産地で、木の香りが移りやすい押し型がこの地域で発達したことが、層状に重ねる押しずしの形を後押ししたと考えられている。山と海の両方の幸を層に閉じ込めるこの製法は、祭礼や来客のもてなしに用いられる特別な一品として受け継がれている。",
+   "body_en": "## What it's made of\nCured mackerel, egg, dried shiitake, carrot, and snap peas — always an odd number of ingredients including one fish — are prepared. Wild strawberry or myoga ginger leaves are tucked between the layers, and as the sushi is pressed, their scent seeps slowly into the rice. Sliced open, the toppings appear shifted layer to layer, like shingles on a cedar-bark roof.\n## How it's made\nA wooden mold is lined with myoga leaves, then rice and five kinds of toppings are arranged in color across three or four tiers, repeated layer by layer. A lid and weight are applied and left more than forty minutes to let the flavors settle before the block is turned out and sliced. Because each layer keeps the same arrangement, the look of the cross-section shifts with where it's cut.\n## Why it took this shape\nThe name is said to come from the way its ingredients shingle over one another, layer by layer, like a cedar-bark roof. Higashi-Kishu is a source of timber such as hinoki cypress, and the region's wooden pressing molds — which readily pick up wood's scent — are thought to have encouraged this layered, pressed form.",
+   "sources": [
+    {
+     "title": "こけらずし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kokera_zushi_mie.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kokera-zushi",
+     "to_slug": "oshi-zushi",
+     "relation_type": "派生",
+     "basis": "型に詰めて重石で押す押しずしの技法による"
+    },
+    {
+     "from_slug": "kokera-zushi",
+     "to_slug": "saba",
+     "relation_type": "使用食材",
+     "basis": "しめサバを具材の一つに使う"
+    },
+    {
+     "from_slug": "kokera-zushi",
+     "to_slug": "hako-zushi",
+     "relation_type": "対比",
+     "basis": "同じ押しずしの系統だが、こけらずしは木型に薄葉を挟んで層状に重ねる東紀州の型、箱寿司は一段で押し切る大阪の型"
+    }
+   ]
+  },
+  {
+   "slug": "tekone-zushi",
+   "body_ja": "## 何でできているか\nそぎ切りにしたカツオの赤身を、醤油とみりんのたれに短く漬け込み、酢飯にざっくりと混ぜ込む。青じそやしょうが、刻み海苔を添えるだけの簡素な盛り付けで、握りずしや押しずしのように型に押さない、混ぜるだけの素朴な一皿になる。漬けだれのしみたカツオの赤身は、生のままより角が取れて食べやすく、酢飯との馴染みもよくなる。\n## どう作るのか\nカツオは血合いと骨を除いてそぎ切りにし、醤油・みりん・酒を合わせたたれに五分から三十分ほど漬け込む。昆布だしで炊いた酢飯にカツオを漬けだれごと混ぜ込み、青じそ、しょうが、刻み海苔を散らして仕上げる。漬け込む時間の長さで、赤身の色づき方と味の濃さが変わるという。仕上げに刻み海苔を多めに散らす家もあれば、薬味を控えめにして魚の味を前に出す家もある。\n## なぜこの形になったのか\n「漁師が船の上で獲れた魚をその場でさばき、手で混ぜ合わせた」ことが名の由来と伝わる。三重県は全国有数のカツオの漁獲高を誇り、熊野灘では一本釣りや曳き縄釣りが盛んで、新鮮な魚が生のまま食べられる機会が多いことが、型に押さず混ぜるだけのこの簡素な形を後押ししたとされる。漁の合間に手早く食べられる実用性も、この形が漁師町に根づいた理由の一つと考えられている。",
+   "body_en": "## What it's made of\nThin-sliced red bonito is briefly marinated in a soy and mirin sauce, then folded loosely through vinegared rice. Garnished with nothing more than shiso, ginger, and shredded nori, it skips the mold or press of nigiri and oshi-zushi alike for a plain, mixed-together dish.\n## How it's made\nBonito is trimmed of blood line and bone, sliced thin, and marinated five to thirty minutes in soy sauce, mirin, and sake. It's folded, marinade and all, through rice cooked with kelp stock, then finished with shiso, ginger, and shredded nori. How long it marinates shapes both the color of the fish and the strength of the flavor.\n## Why it took this shape\nIt's said to be named for fishermen who cleaned fish caught right there on deck and mixed it in by hand. Mie lands one of Japan's largest bonito catches, and Kumano Bay's pole-and-line and trolled fishing keep fresh fish coming in — conditions said to have favored this plain, unmolded, mixed style over anything requiring a press.",
+   "sources": [
+    {
+     "title": "てこねずし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tekone_zushi_mie.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tekone-zushi",
+     "to_slug": "katsuo",
+     "relation_type": "使用食材",
+     "basis": "カツオを主原料とする"
+    },
+    {
+     "from_slug": "tekone-zushi",
+     "to_slug": "chirashi-zushi",
+     "relation_type": "派生",
+     "basis": "具を酢飯に混ぜ込むちらしずしの技法による"
+    }
+   ]
+  },
+  {
+   "slug": "hatahata-zushi",
+   "body_ja": "## 何でできているか\nハタハタを開いて内臓を除き、酢と塩で下ごしらえしたのち、飯と米麹、笹の葉を交互に重ねて漬け込む。人参やふのり、柚子、生姜が彩りと香りを添え、三週間ほど涼しい場所で発酵させると、身は薄く飴色に染まり、糀の甘さと酢の酸味が混じった独特の風味になる。笹の葉に包まれた層を開くと、発酵の酸味の奥から糀の甘い香りがふわりと立ちのぼる。\n## どう作るのか\nハタハタは内臓と頭を除いて冷水で洗い、三昼夜ほど血抜きをしたのち酢に漬ける。米飯に糀を混ぜ、笹の葉と交互に層状に積み重ねて重石をかけ、三週間ほど涼しい場所で発酵させる。仕上げに酒とみりんで風味を調える家もあるという。血抜きにこれほど日数をかけるのは、生臭さの元を徹底して抜き、糀の香りだけを残すためだという。\n## なぜこの形になったのか\nハタハタは深海に棲む魚で、雷鳴がとどろく晩秋から初冬、産卵のために沿岸へ大群で押し寄せる時期だけ大量に水揚げされる。「ハタハタなしでは正月を迎えられない」と言われるほど、限られた時期にまとめて獲れる魚を長く食いつなぐ知恵として、この漬け込みずしが根づいたとされる。米どころ秋田ならではの、米と麹を惜しみなく使う仕込みでもあり、今では昔ながらの製法を守る専門店はごくわずかになったという。",
+   "body_en": "## What it's made of\nSandfish are butterflied and gutted, given a preliminary cure of vinegar and salt, then layered with cooked rice, rice koji, and bamboo leaves. Carrot, funori seaweed, yuzu, and ginger add color and scent, and about three weeks of fermenting somewhere cool leaves the flesh a thin amber, carrying koji's sweetness alongside the vinegar's tang.\n## How it's made\nSandfish are gutted, rinsed in cold water, bled for about three days, then cured in vinegar. Rice mixed with koji is layered with bamboo leaves in alternating tiers, weighted, and left to ferment about three weeks somewhere cool. Some households finish it with a touch of sake and mirin for extra depth.\n## Why it took this shape\nSandfish live in deep water and come inshore in huge schools only in late autumn and early winter, timed to thunderstorms, right before spawning. A local saying holds the New Year can't arrive without it — a sign of how this fermented sushi grew out of the need to make a fish caught in one short burst last much longer. It's also a dish built on Akita's identity as rice country, using rice and koji without restraint.",
+   "sources": [
+    {
+     "title": "ハタハタ寿し",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_2_akita.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hatahata-zushi",
+     "to_slug": "narezushi",
+     "relation_type": "派生",
+     "basis": "魚を塩と酢でしめ、飯と麹で乳酸発酵させるなれずしの技法による"
+    },
+    {
+     "from_slug": "hatahata-zushi",
+     "to_slug": "akazushi",
+     "relation_type": "対比",
+     "basis": "ともに秋田県の郷土ずしだが、ハタハタ寿しは魚を主原料とする発酵ずし、赤ずしは魚を使わない餅米中心の発酵食という対照をなす"
+    }
+   ]
+  },
+  {
+   "slug": "akazushi",
+   "body_ja": "## 何でできているか\n主役は魚ではなく、炊いたもち米と塩もみした赤じそ。梅酢や赤じその葉で色をつけ、地域によってはみょうがの葉やきゅうりの漬物も加わる。仕上がりは鮮やかな赤紫色で、もち米のもちっとした粘りと赤じそのさわやかな酸味が特徴になる。魚を使わないぶん保存はきくものの発酵は穏やかで、なれずしの中でも酸味の立ち方が優しい部類に入るとされる。\n## どう作るのか\n炊いた餅米に塩でもんだ赤じその葉を混ぜ、樽に詰めて軽い重石をかけ、常温で二日ほど発酵させる。仕上げに甘酢と、色出しした赤じその煮汁を加えて味と色を整える。地域によって加える具材の配合が違うという。発酵の進み具合は気温によって変わるため、涼しい年と暑い年とで漬け込む日数を微妙に変え、色の濃さも仕上がりの目安にするという。\n## なぜこの形になったのか\n夏場、農作業で体力を消耗する時期に、疲労回復や消化を助ける発酵食として食べられてきたとされる。食欲が落ちる盛夏でも喉を通りやすいことが、この植物性のなれずしを農村の食卓に定着させた理由と考えられている。県北地方ではお盆に精霊棚や墓へ供える行事食としても伝わり、海から離れた内陸の集落でも仕込める植物性の発酵食という点も、広く伝わった理由の一つと考えられている。",
+   "body_en": "## What it's made of\nThe core ingredient isn't fish but cooked glutinous rice and salt-rubbed red shiso leaves. Plum vinegar or shiso leaves give it color, and in some areas myoga ginger leaves or pickled cucumber join in. The result is a bright reddish-purple, glutinous rice's chewy stick meeting the shiso's clean sourness.\n## How it's made\nCooked glutinous rice is mixed with salt-rubbed red shiso leaves, packed into a barrel under a light weight, and left to ferment at room temperature about two days. It's finished with sweet vinegar and a shiso-dyed liquid to round out color and flavor, the exact mix varying by region.\n## Why it took this shape\nIt's said to have been eaten in summer, when farm labor wore the body down, as a fermented food that helped recovery and digestion. Going down easily even when midsummer heat kills the appetite is thought to be why this plant-based cousin of narezushi took hold at the farming table. In northern Akita it's also offered at Obon, on ancestor altars and at graves.",
+   "sources": [
+    {
+     "title": "赤漬け／赤ずし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_29_akita.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "akazushi",
+     "to_slug": "narezushi",
+     "relation_type": "派生",
+     "basis": "穀物を塩と酢で漬け込み短く発酵させる、なれずしに連なる製法"
+    },
+    {
+     "from_slug": "akazushi",
+     "to_slug": "daikonzushi",
+     "relation_type": "対比",
+     "basis": "ともに発酵と保存の知恵から生まれた郷土ずしだが、赤ずしは魚を使わない植物性、大根ずしはニシンを漬け込む動物性という対照をなす"
+    }
+   ]
+  },
+  {
+   "slug": "nishin-zushi",
+   "body_ja": "## 何でできているか\n干した大根を戻して塩漬けにし、米のとぎ汁で戻したニシンと人参を層に重ねる。麹と鷹の爪、酒を各層に振りかけて漬け込み、二週間ほどで食べ頃になる。大根の歯ざわりとニシンの脂、糀の甘みが折り重なる、塩気を抑えた発酵の味わい。重石をかけて漬け込むほどに大根から水分が抜け、ニシンの旨みと糀の香りが芯まで染み込んでいく。\n## どう作るのか\n大根はまず干してから塩漬けにし、水気を抜く。ニシンは米のとぎ汁に一晩浸して身をやわらかく戻す。大根とニシンを交互に漬け込みながら、麹と鷹の爪、酒を各層に振りかけ、重石をして二週間ほど寝かせると味がなじむ。重石の重さと漬け込む期間は、その年の気温や大根の水分量を見ながら家ごとに加減されてきたといい、味見をしながら仕上がりを見極めるという。\n## なぜこの形になったのか\n江戸時代中期から明治にかけて、北前船が日本海を通じて昆布やニシンを運び、福井の三国や河野、敦賀といった港が寄港地になった。北からもたらされたニシンは特別な食材とされ、地域の食文化に組み込まれていったとされる。夏に仕込んで秋の刈り入れ時に食べ頃を迎える、農繁期のたんぱく源としての役割もあったと伝わり、忙しい収穫期を支える保存食としての性格も併せ持っていた。",
+   "body_en": "## What it's made of\nDried daikon is rehydrated and salted, then layered with herring softened in rice-rinsing water and carrot. Koji, red chili, and sake are sprinkled between each layer as it cures, reaching its peak in about two weeks — daikon's crunch, herring's fat, and koji's sweetness folding together in a fermentation that stays light on salt.\n## How it's made\nDaikon is dried first, then salted to draw out its water. Herring is soaked overnight in rice-rinsing water to soften. Daikon and herring are layered in turn, with koji, chili, and sake sprinkled over each layer, then weighted and left about two weeks to settle.\n## Why it took this shape\nFrom the mid-Edo period into Meiji, Kitamae trading ships ran the Sea of Japan carrying kelp and herring, with Fukui's ports of Mikuni, Kono, and Tsuruga among their stops. Herring brought down from the north was treated as a special ingredient, said to have worked its way into the local food culture from there. Cured in summer and ready by the autumn harvest, it's also said to have served as a protein source during the busiest farming season.",
+   "sources": [
+    {
+     "title": "にしんすし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nishin_sushi_fukui.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nishin-zushi",
+     "to_slug": "nishin",
+     "relation_type": "使用食材",
+     "basis": "身欠きニシンを主原料とする"
+    },
+    {
+     "from_slug": "nishin-zushi",
+     "to_slug": "daikonzushi",
+     "relation_type": "兄弟",
+     "basis": "ともに北前船が運んだニシンと大根を米麹で漬け込む、日本海沿岸に共通する発酵ずしの系譜"
+    }
+   ]
+  },
+  {
+   "slug": "sakezushi",
+   "body_ja": "## 何でできているか\n干し大根や干し椎茸、たけのこ、人参、卵、鯛、エビ、さつま揚げ、かまぼこなど、十種近い具材を個別に下ごしらえする。すし桶に地酒の灰持酒を振ってから飯を敷き、具材を層状に重ねる。仕上がりは酒の香りがふわりと立つ、他地域の酢を効かせた押しずしとは一線を画す味わい。十種近い具材が層をなす断面は、押しずしというよりちらしずしに近い賑やかさを見せる。\n## どう作るのか\n各具材はそれぞれ甘辛く煮含めるなど下ごしらえをすませる。すし桶に灰持酒を振りかけたのち炊きたての飯を敷き、具材を彩りよく層に重ねていく。軽く重石をのせて半日ほど寝かせ、酒の香りと発酵の力で味をなじませる。半日という発酵の時間は、酒の香りが強くなりすぎない絶妙な加減として代々受け継がれてきたとされる。\n## なぜこの形になったのか\n江戸時代、薩摩藩主が花見の宴のあとに残った食材と酒を桶に入れておいたところ、翌日発酵して良い香りを放つ料理になったという言い伝えが起源とされる。鹿児島の温暖な気候は清酒造りには不向きで、代わりに灰を加えて造る保存性の高い灰持酒が普及しており、この地酒があったからこそ酢の代わりに酒で発酵させる製法が根づいたと考えられている。祝いの席で振る舞われる特別な一品としての性格は、今も変わらず受け継がれている。",
+   "body_en": "## What it's made of\nDried daikon, dried shiitake, bamboo shoot, carrot, egg, sea bream, shrimp, fried fish cake, and steamed fish cake — nearly ten ingredients, each prepared separately. Rice is spread in a sushi tub splashed with a local ash-cleared sake, then the toppings are layered on. What results carries a faint waft of sake, setting it apart from the vinegar-forward pressed sushi found elsewhere.\n## How it's made\nEach ingredient is separately simmered sweet and savory. Ash-cleared sake is splashed into a sushi tub, freshly cooked rice is spread over it, and the toppings are layered on in color. A light weight is set on top and the whole thing rests about half a day, sake's aroma and fermentation working the flavor through.\n## Why it took this shape\nOne account traces it to the Edo period, when a Satsuma domain lord is said to have left behind food and sake from a flower-viewing feast in a tub, only to find it fermented into something fragrant the next day. Kagoshima's warm climate was ill-suited to brewing ordinary clear sake, so an ash-cleared sake with better keeping power took hold locally instead — and it's thought to be this local sake that made fermenting with sake, rather than vinegar, possible in the first place.",
+   "sources": [
+    {
+     "title": "酒ずし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sakezushi_kagoshima.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sakezushi",
+     "to_slug": "oshi-zushi",
+     "relation_type": "派生",
+     "basis": "飯に具材を重ねて発酵・熟成させる押しずしに連なる技法"
+    },
+    {
+     "from_slug": "sakezushi",
+     "to_slug": "tai-madai",
+     "relation_type": "使用食材",
+     "basis": "タイを具材の一つに使う"
+    }
+   ]
+  },
+  {
+   "slug": "suko-zushi",
+   "body_ja": "## 何でできているか\nうるち米にもち米を少量混ぜて炊いた飯を合わせ酢で仕立て、木箱「もろぶた」に詰める。ムツゴロウの蒲焼き、たけのこ、人参、椎茸、錦糸卵、かまぼこ、奈良漬、紅しょうがを彩りよくのせ、三つ葉を添えて仕上げる。もち米を混ぜた飯はうるち米だけより粘りが強く、押し固めても切り分けやすい。断面には錦糸卵の黄色とムツゴロウの飴色、紅しょうがの赤が並び、有明海の恵みがそのまま彩りになる。\n## どう作るのか\n飯にうるち米ともち米、塩、合わせ酢を混ぜてもろぶたに詰める。四角く切り目を入れたのち、甘辛く煮たたけのこや椎茸、ごぼう、錦糸卵、ムツゴロウの蒲焼き、奈良漬をこんもりとのせ、三つ葉と紅しょうがで彩りを添える。押し固める工程を経ないまま盛る家もあるという。四角く切り分けた一切れずつが来客の膳にそのまま並ぶよう、あらかじめ人数分の見当をつけて仕込むという。\n## なぜこの形になったのか\n白石町は有明海に面し、干拓を重ねて造成されてきた土地である。五百年ほど前、この地の領主が米の品質改良に力を入れ、「すし米」として全国に知られる評判を得たと伝わる。その米への感謝を込め、有明海の幸と里山の幸を組み合わせて作られたのが須古ずしの始まりとされ、干拓地という土地の成り立ちそのものが具材の顔ぶれに表れている。",
+   "body_en": "## What it's made of\nNon-glutinous rice cooked with a little glutinous rice mixed in is dressed with vinegar and packed into a wooden box called a morobuta. Grilled mudskipper, bamboo shoot, carrot, shiitake, shredded egg, fish cake, pickled daikon, and red pickled ginger are piled on in color, finished with mitsuba. The glutinous rice gives the mix more stick than plain rice alone, holding together cleanly once pressed and cut.\n## How it's made\nRice — non-glutinous with a little glutinous mixed in — is combined with salt and vinegar dressing and packed into a morobuta. Scored into squares, it's piled with sweet-simmered bamboo shoot, shiitake, and burdock, shredded egg, grilled mudskipper, and pickled daikon, finished with mitsuba and red ginger. Some households skip the pressing step and simply pile the toppings on.\n## Why it took this shape\nShiroishi faces the Ariake Sea, on land built up over repeated reclamation projects. Around five hundred years ago, the local lord is said to have pushed hard to improve the rice grown there, earning it a nationwide reputation as 'sushi rice.' Suko-zushi is said to have begun as a way of giving thanks for that rice, combining what the Ariake Sea and the surrounding hills offered — the reclaimed land's own history showing up directly in what tops the dish.",
+   "sources": [
+    {
+     "title": "須古ずし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_6_saga.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "suko-zushi",
+     "to_slug": "oshi-zushi",
+     "relation_type": "派生",
+     "basis": "木箱に飯と具を詰めて押し固める押しずしの技法による"
+    },
+    {
+     "from_slug": "suko-zushi",
+     "to_slug": "hako-zushi",
+     "relation_type": "対比",
+     "basis": "同じ押しずしの系統だが、須古ずしは有明海の幸を盛った佐賀の型、箱寿司は大阪の型という土地ごとの対照をなす"
+    }
+   ]
+  },
+  {
+   "slug": "omura-zushi",
+   "body_ja": "## 何でできているか\n酢飯に大量の砂糖を加えて仕立て、木枠の中に敷き詰める。中央にごぼうを一本通し、白身魚のそぼろやはんぺん、干し椎茸、かんぴょう、たけのこ、ふきを重ね、仕上げに錦糸卵を盛る。甘めの酢飯と何層もの具材が重なる断面は、他地域の押し寿司より色数が多く華やかに見える。甘みを強めに効かせた酢飯は、脂の少ない白身魚の具材とかみ合うよう工夫されているという。\n## どう作るのか\n型の内側を酢で湿らせ、酢飯を半量入れてごぼうを平らにのせ、残りの酢飯を重ねる。その上に具材を彩りよく層状に広げ、最後に錦糸卵を盛って蓋をし、重石で三十分ほど押し固める。型に入れたまま切り分けて供するため、切り口をそろえやすいのも扱いやすさにつながっているという。重石をかける時間の長短で酢飯と具材のなじみ具合が変わり、家によって好みの押し加減があるとされる。\n## なぜこの形になったのか\n室町時代、戦に敗れて領地を追われた大村純伊が城を奪還した際、迎えた領民が祝いに押し寿司を作って供したのが始まりと伝わる。大勢の兵に一度に食べさせるため食器が足りず、浅い木箱に飯と具を重ねて即席の押し寿司を仕立て、兵は脇差しで切り分けながら食べたという。この由来から、現在も祝い事に欠かせない料理として扱われている。",
+   "body_en": "## What it's made of\nVinegared rice generously sweetened with sugar is packed into a wooden frame. A stalk of burdock runs through the center, topped with crumbled white fish, fish cake, dried shiitake, dried gourd shavings, bamboo shoot, and butterbur, finished with shredded egg. The cross-section, sweeter rice against many layers of toppings, shows more color than pressed sushi from most other regions. The rice's stronger sweetness is said to be built to balance the leaner white fish toppings.\n## How it's made\nThe inside of the mold is dampened with vinegar, half the rice goes in, burdock is laid flat across it, then the rest of the rice covers it. Toppings are spread in colorful layers on top, finished with shredded egg, then a lid presses the whole thing under weight for about thirty minutes. It's cut and served straight from the mold, which is said to keep the cut edges neat.\n## Why it took this shape\nIt's said to trace to the Muromachi period, when Omura Sumikore, having lost his domain in battle, retook his castle and was met by residents who prepared pressed sushi to celebrate. With too few dishes to feed a large body of troops at once, the story goes that rice and toppings were layered into shallow wooden boxes as an improvised pressed sushi, and soldiers cut it apart with their short swords as they ate. That origin is said to be why it remains a fixture at celebrations today.",
+   "sources": [
+    {
+     "title": "大村寿司",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_5_nagasaki.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "omura-zushi",
+     "to_slug": "oshi-zushi",
+     "relation_type": "派生",
+     "basis": "木枠に酢飯と具を詰めて押し固める押しずしの技法による"
+    },
+    {
+     "from_slug": "omura-zushi",
+     "to_slug": "iwakuni-zushi",
+     "relation_type": "対比",
+     "basis": "ともに大人数へ一度に振る舞うために工夫された押しずしだが、大村寿司は浅い木箱の一段仕立て、岩国寿司は三段以上に積む献上仕立てという対照をなす"
+    }
+   ]
+  },
+  {
+   "slug": "boze-zushi",
+   "body_ja": "## 何でできているか\nボウゼと呼ばれる白身魚（標準和名イボダイ）を背開きにして骨と内臓を除き、塩と酢でしめる。開いた一尾でそのまま酢飯を包み込み、頭からしっぽまでの姿を保った状態に仕立てる。切り分けずに一尾のまま盛られるため、皿の上でも魚の形がそのまま見え、酢でしまった皮の銀色が艶やかに光る。頭からしっぽの先までの一連の姿が、祭りの膳にそのまま並ぶ迫力を生んでいる。\n## どう作るのか\nボウゼは背開きにして中骨と内臓を除いたのち、塩をあてて三十分から一時間置く。塩を洗い流して酢に浸し、同じく三十分から一時間ほどしめる。酢飯を魚の腹に詰めるように包み込み、姿を整えてすだちを添えて供する。塩と酢、それぞれの時間をどう配分するかが身の締まり方を左右し、仕込む人の経験によって微妙に異なるという。\n## なぜこの形になったのか\nこの形は秋祭りの季節に発展したとされる。ボウゼは徳島の沿岸で夏から秋にかけて新鮮なものが手に入りやすく、身が締まっているほど姿寿司として扱いやすいという理由から、この地方独特の一尾仕立てが根づいたと考えられている。全国では焼き物や煮魚が主な食べ方で、姿寿司にするのは徳島ならではの調理法とされ、地元では秋祭りの膳に欠かせない一品として親しまれている。",
+   "body_en": "## What it's made of\nA white fish called boze locally (butterfish) is butterflied along the back, boned and gutted, then cured in salt and vinegar. The single opened fish is wrapped whole around a core of vinegared rice, keeping its shape from head to tail. Served uncut, the fish's form stays visible on the plate, its vinegar-firmed skin gleaming silver.\n## How it's made\nBoze is butterflied along the back with the bone and innards removed, then salted and left thirty minutes to an hour. Rinsed of salt, it's steeped in vinegar for a similar stretch. Vinegared rice is packed into the opened fish as if stuffing it, the shape reformed, and it's served with a wedge of sudachi citrus. How the salting and vinegar time are balanced is said to determine how firm the flesh turns out.\n## Why it took this shape\nThis form is said to have developed around the autumn festival season. Boze is easiest to find fresh along the Tokushima coast from summer into autumn, and the firmer the fish, the better it holds up as a whole shaped sushi — conditions thought to have rooted this region's distinctive whole-fish style. Elsewhere in Japan the fish is mostly grilled or simmered; shaping it into sushi is said to be distinctly Tokushima's way.",
+   "sources": [
+    {
+     "title": "ボウゼの姿寿司",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_2_tokushima.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "boze-zushi",
+     "to_slug": "oshi-zushi",
+     "relation_type": "派生",
+     "basis": "魚に酢飯を詰めて姿のまま形を保つ、押しずしに連なる技法"
+    },
+    {
+     "from_slug": "boze-zushi",
+     "to_slug": "sanma-zushi",
+     "relation_type": "対比",
+     "basis": "ともに柑橘や酢で魚をしめて姿を保つ地方の祝いずしだが、ボウゼの姿寿司は一尾丸ごと包む徳島の型、さんまずしは棒状に締める三重の型という対照をなす"
+    }
+   ]
+  },
+  {
+   "slug": "inaka-zushi",
+   "body_ja": "## 何でできているか\nみょうが、りゅうきゅう（ハスイモの茎）、こんにゃく、たけのこ、しいたけといった山の幸を、それぞれ別々に甘酢や出汁で下味をつけ、柚子酢で仕立てた酢飯にのせる。握りずしのような魚のネタは一切使わず、山の野菜だけで彩りと歯ごたえの違いを出す、全国的にも珍しいすしになっている。具材ごとに漬け込む甘酢の配合が違うため、ひと皿の中でも酸味の強さがまちまちに変わる。\n## どう作るのか\nたけのこは出汁でじっくり煮含め、りゅうきゅうは塩漬けにしたのち甘酢に漬け込む。みょうがは熱湯にくぐらせてから甘酢に浸し、しいたけは甘辛く煮る。それぞれ下ごしらえを終えた具材を、柚子酢で香りづけした酢飯にのせて仕上げる。具材ごとに下ごしらえの手順が異なるため仕込みには手間と時間がかかり、来客をもてなす特別な日にふさわしい一皿とされてきたという。\n## なぜこの形になったのか\n昆布や海苔が手に入りにくかった時代、海から離れた山間の集落で、山でとれる食材を使ってすしを仕立てたのが始まりとされる。「おきゃく」と呼ばれる宴会文化の中で来客をもてなす料理として代々作られ、海産物に頼らずとも季節の野菜だけで一皿を仕立てる知恵が、この形として今に伝わっている。現在も地域の宴席では欠かせない一皿として受け継がれている。",
+   "body_en": "## What it's made of\nMountain ingredients — myoga ginger, ryukyu (taro stem), konjac, bamboo shoot, shiitake — are each seasoned separately in sweet vinegar or dashi, then laid over rice dressed with yuzu vinegar. No fish topping appears anywhere, unlike nigiri; color and texture come entirely from mountain vegetables, making this an unusually rare kind of sushi nationwide. Each ingredient is cured in its own ratio of sweet vinegar, so acidity varies bite to bite across the same plate.\n## How it's made\nBamboo shoot is slow-simmered in dashi; ryukyu is salted, then cured in sweet vinegar. Myoga is blanched before going into sweet vinegar; shiitake is simmered sweet and savory. Once each ingredient is prepared on its own, they're arranged over rice scented with yuzu vinegar. Because each ingredient needs its own preparation, putting the dish together takes real time and effort.\n## Why it took this shape\nIn an age when kelp and nori were hard to obtain, inland communities cut off from the sea are said to have built sushi from whatever the mountains offered instead. Made for generations as a dish for entertaining guests within a banquet culture called okyaku, the wisdom of building a full dish from seasonal vegetables alone, without relying on seafood, is said to survive today in this shape.",
+   "sources": [
+    {
+     "title": "田舎ずし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/inakazushi_kochi.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "inaka-zushi",
+     "to_slug": "chirashi-zushi",
+     "relation_type": "派生",
+     "basis": "具材を酢飯の上に盛るちらしずしの技法による"
+    },
+    {
+     "from_slug": "inaka-zushi",
+     "to_slug": "okayama-barazushi",
+     "relation_type": "対比",
+     "basis": "ともに祝いの席で振る舞われる具だくさんのちらしずしだが、田舎ずしは魚介を一切使わない山の幸だけの型、岡山ばらずしは瀬戸内の魚介を主体とする型という対照をなす"
+    }
+   ]
+  },
+  {
+   "slug": "matsuyama-zushi",
+   "body_ja": "## 何でできているか\nエソという白身魚のすり身を混ぜ込んだ合わせ酢で酢飯を仕立て、アナゴ、しめサバ、エビ、ぎんなん、干し椎茸、三つ葉、絹さやなどを混ぜ込む。仕上げに錦糸卵を彩りよく盛り付ける、瀬戸内の海の幸と山の幸を惜しみなく使った、具だくさんのちらしずしになっている。すり身のうまみが酢飯全体に行き渡るため、具を混ぜ込む前から下味がついているのが特徴という。\n## どう作るのか\nエソのすり身を加えた合わせ酢を用意し、炊いた米と合わせて酢飯にする。野菜は千切りにして調味料で煮含め、卵は錦糸卵に仕立てる。アナゴとしめサバを切り分け、エビやぎんなんは加熱してから加え、調味した野菜と三つ葉を酢飯に混ぜ込んで大皿に盛り、具材を飾り付けて仕上げる。具材の下ごしらえに手間をかけるほど、酢飯全体の味わいに奥行きが出るとされる。\n## なぜこの形になったのか\n松山地域は瀬戸内海に面し、祝い事や来客をもてなす際にちらしずしを振る舞う習慣が根づいてきたとされる。豊富にとれる瀬戸内の魚介を惜しみなく散りばめることが、もてなしの気持ちを示す形として定着したと考えられ、エソのすり身を合わせ酢に混ぜる工夫も、地元でとれる魚を余さず使う土地柄を映しているとされる。この賑やかな盛り付けそのものが、もてなす側の心づくしを表しているとも言われる。",
+   "body_en": "## What it's made of\nRice is dressed with a vinegar mix that includes paste made from lizardfish, then folded together with conger eel, cured mackerel, shrimp, ginkgo nuts, dried shiitake, mitsuba, and snap peas. Shredded egg finishes it in color — a lavishly loaded scattered sushi drawing generously on both the sea and the hills of the Seto Inland Sea. The lizardfish paste carries its savor through the rice itself, so the base is already seasoned before any topping goes in.\n## How it's made\nA vinegar mix with lizardfish paste is worked into cooked rice. Vegetables are julienned and simmered in seasoning; eggs are made into shredded egg. Conger eel and cured mackerel are sliced, shrimp and ginkgo nuts are cooked and added, and the seasoned vegetables and mitsuba are folded into the rice before it's piled on a large platter and finished with the remaining toppings arranged on top.\n## Why it took this shape\nFacing the Seto Inland Sea, the Matsuyama area is said to have built a custom of serving scattered sushi like this at celebrations and for guests. Scattering the sea's abundant catch across the dish without restraint is thought to have become a way of showing hospitality, and working lizardfish paste into the vinegar mix is also said to reflect a habit of using local fish to the last scrap.",
+   "sources": [
+    {
+     "title": "松山鮓",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/matsu_yama_zushi_ehime.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "matsuyama-zushi",
+     "to_slug": "chirashi-zushi",
+     "relation_type": "派生",
+     "basis": "具材を酢飯に混ぜ込むちらしずしの技法による"
+    },
+    {
+     "from_slug": "matsuyama-zushi",
+     "to_slug": "okayama-barazushi",
+     "relation_type": "兄弟",
+     "basis": "ともに瀬戸内海沿岸の祝いの席で振る舞われる、具だくさんのちらしずしという系譜を共有する"
+    }
+   ]
+  },
+  {
+   "slug": "nigiri-zushi",
+   "body_ja": "## 何でできているか\n俵型に握った酢飯の上に、マグロやヒラメ、タイ、コハダなど生や酢締めのネタを一枚のせる。ネタと酢飯の間にはわさびを薄く挟むのが基本で、箸で挟んでも崩れず、口に入れるとほろりとほどける握り加減が良しとされる。ネタの種類は生ものだけでなく、エビやアナゴのように火を通したものも含まれ、握りの主役は必ずしも生魚だけとは限らない。仕上げに醤油を軽くつけて食べるのが基本の作法とされる。\n## どう作るのか\n酢飯を一口大につまみ、指先で軽く押さえながら俵型にまとめる。ネタを手のひらにのせてわさびを塗り、酢飯を重ねて指で軽く押さえて形を整える。強く握りすぎると飯粒がつぶれて食感が失われるため、空気を含ませるように握る力加減が職人の技とされる。ネタの脂の乗り方や厚みによって握る強さを微妙に変えることも、経験によって身につくという。\n## なぜこの形になったのか\nなれずしのように長く発酵させず、酢で味をつけた飯にその場でネタをのせて即座に食べる形は、江戸の屋台という時間のかかる仕込みを許さない場から生まれたとされる。江戸前の海でとれる魚を漬けや酢締め、煮るといった「仕事」で下ごしらえし、冷蔵のない時代でも一日のうちに提供できる速さが、この握るだけの簡素な形を後押ししたと考えられている。現在では世界各地に広まり、すしそのものを指す代名詞のようになっている。",
+   "body_en": "## What it's made of\nA hand-pressed oval of vinegared rice is topped with a single slice of fish or other seafood, raw or vinegar-cured — tuna, flounder, sea bream, gizzard shad. A thin smear of wasabi usually sits between topping and rice, and the ideal press holds together between chopsticks yet falls apart easily in the mouth. Toppings aren't limited to raw fish; cooked ones like shrimp and simmered conger eel are just as central. The usual etiquette is a light dip in soy sauce before eating.\n## How it's made\nRice is pinched into a bite-sized oval, lightly shaped between the fingers. The topping is laid across the palm, brushed with wasabi, and the rice is pressed onto it and shaped with a light touch. Squeezing too hard crushes the grains and kills the texture, so pressing just enough to trap air between grains is treated as a skill built through practice. Chefs also vary how firmly they press depending on a topping's fat content and thickness.\n## Why it took this shape\nSkipping the long fermentation of narezushi in favor of vinegared rice topped and eaten on the spot is said to have grown out of Edo's street stalls, where there was no time for slow preparation. Fish from Edo's own bay was cured, vinegared, or simmered in advance — techniques called shigoto — and the speed of serving it within a single day, in an age without refrigeration, is thought to have pushed sushi toward this simple, hand-pressed form. It has since spread worldwide and become almost synonymous with sushi itself.",
+   "sources": [
+    {
+     "title": "握りずし",
+     "url": "https://kotobank.jp/word/%E6%8F%A1%E3%82%8A%E3%81%9A%E3%81%97-3162192",
+     "publisher": "コトバンク",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "沿革",
+     "url": "https://www.kyubey.jp/history/",
+     "publisher": "銀座 久兵衛",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nigiri-zushi",
+     "to_slug": "edomae-zushi",
+     "relation_type": "源流",
+     "basis": "文政期の江戸で屋台料理として考案されたとされる江戸前寿司が、握りずしという型そのものの起こりとされる"
+    },
+    {
+     "from_slug": "nigiri-zushi",
+     "to_slug": "maguro",
+     "relation_type": "代表ネタ",
+     "basis": "現代の握りずしで最も代表的なネタとされる"
+    },
+    {
+     "from_slug": "nigiri-zushi",
+     "to_slug": "narezushi",
+     "relation_type": "対比",
+     "basis": "なれずしは魚を長期発酵させる古い形式、握りずしは酢飯にネタをのせてその場で食べる新しい形式という対照をなす"
+    }
+   ]
+  },
+  {
+   "slug": "maki-zushi",
+   "body_ja": "## 何でできているか\n焼き海苔の上に酢飯を薄く広げ、卵焼きやかんぴょう、きゅうり、マグロの赤身などの具材を中央に置いて、巻きすを使って一気に巻き締める。太く巻いた太巻きは断面に具材の模様が大きく現れ、細く巻いた細巻きは一種類の具材だけを芯にすることが多い。切り分けた一切れごとに、渦を巻くような断面の模様が並ぶのが特徴になっている。\n## どう作るのか\n巻きすの上に海苔を置き、酢飯を端を少し残して均一に広げる。具材を横一列に並べ、巻きすごと手前から一気に持ち上げて巻き込み、閉じ目を下にして少し置いてなじませてから、濡らした包丁で一本を六つから八つに切り分ける。包丁を濡らすのは、酢飯が刃にくっついて断面が崩れるのを防ぐためだという。太さや具材の組み合わせを変えるだけで、同じ技法から幾通りもの見た目が生まれる。\n## なぜこの形になったのか\n海苔で巻いて包丁で切り分けるこの形は、握りずしのように一つずつ仕立てる手間をかけず、まとめて仕込んで切り分けられる効率のよさから、家庭や仕出しの料理としても広まったとされる。切り口に具材の配置がそのまま模様として現れるため、遠足や祭りの折詰めなど、持ち運んで開いたときの見栄えも重んじられてきたと考えられている。海苔という保存の利く食材で包む形は、常温での持ち運びにも向いていたとされる。",
+   "body_en": "## What it's made of\nVinegared rice is spread thin over a sheet of roasted nori, then fillings — rolled egg, dried gourd shavings, cucumber, lean tuna — are laid across the center and rolled tight with a bamboo mat. Thick-rolled futomaki shows a bold pattern of fillings in cross-section, while thin-rolled hosomaki usually carries just one filling as its core. Each sliced piece repeats the same spiral pattern.\n## How it's made\nNori is laid on a bamboo mat and rice spread evenly, leaving a bare margin at one edge. Fillings are lined up across it, and the mat is lifted from the near edge and rolled tight in one motion, seam-side down, then left briefly to set before being sliced into six or eight pieces with a wetted knife. Wetting the blade keeps rice from sticking to it and crushing the cut face.\n## Why it took this shape\nRolling in nori and slicing with a knife, rather than shaping each piece by hand like nigiri, let a batch be prepared at once and cut to order — an efficiency said to have carried it into home cooking and catering alike. Because the arrangement of fillings shows straight through as a pattern in each slice, how it looks when opened for a picnic or festival box lunch is also thought to have mattered as much as taste.",
+   "sources": [
+    {
+     "title": "巻きずし",
+     "url": "https://kotobank.jp/word/%E5%B7%BB%E3%81%8D%E3%81%9A%E3%81%97-1418724",
+     "publisher": "コトバンク",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "maki-zushi",
+     "to_slug": "nigiri-zushi",
+     "relation_type": "対比",
+     "basis": "握りずしは酢飯にネタをのせて握る形式、巻き寿司は海苔で巻いて切り分ける形式という対照をなす"
+    },
+    {
+     "from_slug": "maki-zushi",
+     "to_slug": "inari-zushi",
+     "relation_type": "兄弟",
+     "basis": "ともに江戸期に発達した、握らずに仕立てるすしの型として並び称される"
+    }
+   ]
+  },
+  {
+   "slug": "temaki-zushi",
+   "body_ja": "## 何でできているか\n半分に切った焼き海苔に酢飯を薄く広げ、マグロやカニカマ、納豆、きゅうりなど好みの具材をのせて、手で円錐形にくるりと巻く。巻きずしのように芯を真ん中にそろえる必要がなく、具材の量や組み合わせをその場で自由に変えられるのが特徴になっている。海苔の端がぱりっと立ったまま食べられる、巻きたてならではの食感が身上とされる。\n## どう作るのか\n海苔を半分か三分の一に切り、片側に酢飯を薄く広げる。具材を斜めに置き、海苔の角を持ち上げるようにして手前から巻き込み、先端をすぼめて円錐形に仕立てる。巻いたらすぐに食べるのが基本で、時間を置くと具材の水分が海苔に移って湿り、パリッとした食感が失われるとされる。持ち帰り用にはフィルムで包み、食べる直前に外すことで湿りを防ぐ工夫もあるといい、家庭でも同じ配慮がされるという。\n## なぜこの形になったのか\n巻きずしのように包丁で切り分ける工程がなく、各自が好きな具材を好きな量だけ巻いて食べられることから、大人数で囲む食卓や家庭料理として定着したとされる。海苔を巻いた直後のぱりっとした食感を保ったまま食べ切れることも、この場で巻いてすぐ食べる形が好まれる理由と考えられている。取り分ける手間がかからず、食卓を囲む人数が多いほど向く形式ともいえる。",
+   "body_en": "## What it's made of\nHalf a sheet of roasted nori is spread thin with rice, topped with whatever filling someone likes — tuna, crab stick, natto, cucumber — and rolled by hand into a cone. Unlike maki-zushi, there's no need to center a neat core; the amount and mix of fillings can change freely, roll to roll. The point is the crisp, just-rolled bite of the nori itself.\n## How it's made\nNori is cut in half or thirds and spread with a thin layer of rice on one side. Fillings are laid on diagonally, and the sheet is rolled from one corner into a cone, cinched at the tip. It's meant to be eaten right away — left sitting, moisture from the fillings works into the nori and softens what should be crisp. Takeout versions are often wrapped in film, removed only just before eating, to hold that moisture off.\n## Why it took this shape\nSkipping the knife work of maki-zushi and letting each person roll exactly what and how much they want is said to have made this a natural fit for a table shared by many, and for home cooking generally. Being able to eat it while the nori is still at its crispest, straight after rolling, is also thought to be why this roll-and-eat-immediately form took hold.",
+   "sources": [
+    {
+     "title": "Temaki",
+     "url": "https://en.wikipedia.org/wiki/Temaki",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "temaki-zushi",
+     "to_slug": "maki-zushi",
+     "relation_type": "派生",
+     "basis": "海苔で酢飯と具材を包む点で巻き寿司の技法を引き継ぐが、切り分けずに手で巻いてその場で食べる点で異なる"
+    },
+    {
+     "from_slug": "temaki-zushi",
+     "to_slug": "nigiri-zushi",
+     "relation_type": "対比",
+     "basis": "握りずしは職人が一つずつ仕立てる形式、手巻き寿司は各自が卓上で巻いて仕立てる形式という対照をなす"
+    }
+   ]
+  },
+  {
+   "slug": "inari-zushi",
+   "body_ja": "## 何でできているか\n薄く切った「かます」と呼ばれる油揚げを甘辛いだし汁で煮含め、汁気を軽く絞ってから中に酢飯を詰める。ネタをのせる握りずしと違い、外側の油揚げそのものが甘みと旨みの層になっており、酢飯との対比が一つの俵の中で完結する構造になっている。地域によっては油揚げを俵型ではなく三角形に切って詰めることもあり、愛媛県松山市の三角形はその代表例とされる。\n## どう作るのか\n油揚げは油抜きをしたのち、だし・醤油・砂糖・みりんでくたっとするまで煮含め、冷まして汁気を軽く絞る。切り口から開いて袋状にし、俵型に握った酢飯を詰め込んで形を整える。煮汁を甘く仕立てるほど、酢飯の酸味との対比がはっきりと感じられるといい、油揚げの煮含め方に家庭ごとの味の個性が出やすいとされる。ごまや刻み野菜を酢飯に混ぜ込んで彩りを足す作り方もある。\n## なぜこの形になったのか\n稲荷神の使いとされるキツネが油揚げを好むという言い伝えと、キツネが人に化けるという民間説話が名の由来になったとされる。天保年間に名古屋で生まれ、嘉永年間には行商によって江戸で広まったと伝わり、握らずに油揚げへ酢飯を詰めるだけで仕立てられる手軽さが、屋台や行商で売り歩く商いの形によく合っていたのだと考えられている。",
+   "body_en": "## What it's made of\nThin-sliced fried tofu pouches, called kamasu, are simmered in a sweet-savory dashi until soft, lightly squeezed of liquid, and packed with vinegared rice. Unlike nigiri, where a topping sits on rice, the fried tofu itself forms a sweet, savory layer around the rice, the whole contrast contained within a single pouch. In some regions the tofu is cut into triangles rather than rectangles before filling.\n## How it's made\nFried tofu is blanched to remove excess oil, then simmered in dashi, soy sauce, sugar, and mirin until soft, cooled, and lightly squeezed dry. Opened at a cut edge into a pouch, it's packed with an oval of pressed vinegared rice and shaped. The sweeter the simmering liquid is made, the more sharply the rice's sourness stands out against it, it's said.\n## Why it took this shape\nA legend that foxes, messengers of the god Inari, are fond of fried tofu, along with folk tales of foxes taking human form, is said to have given the dish its name. It's said to have originated in Nagoya in the 1830s-40s and spread to Edo by peddlers in the following decade, its simplicity — no pressing or shaping beyond stuffing a pouch — suited to selling from a stall or a peddler's tray.",
+   "sources": [
+    {
+     "title": "いなりずし",
+     "url": "https://kotobank.jp/word/%E3%81%84%E3%81%AA%E3%82%8A%E3%81%9A%E3%81%97-897531",
+     "publisher": "コトバンク",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "inari-zushi",
+     "to_slug": "narezushi",
+     "relation_type": "対比",
+     "basis": "なれずしは魚を長期発酵させる古い形式、いなり寿司は油揚げに酢飯を詰めるだけの江戸期の即席のすしという対照をなす"
+    },
+    {
+     "from_slug": "inari-zushi",
+     "to_slug": "chirashi-zushi",
+     "relation_type": "兄弟",
+     "basis": "ともに握らずに仕立てる庶民的なすしの型として並び称される"
+    }
+   ]
+  },
+  {
+   "slug": "chirashi-zushi",
+   "body_ja": "## 何でできているか\n関東風は塗りの器や蓋付き丼に酢飯を盛り、刺身や海老、いくらなどの生ものを彩りよく飾りつける。関西風は小さく切った具材を酢飯そのものに混ぜ込み、その上から錦糸卵や刻み海苔、紅しょうがを飾る五目ずしの形をとる。同じ名前でも、生の魚介が主役になるか、混ぜ込んだ具材が主役になるかで印象が大きく変わり、器から出さずに食べる点は両者に共通している。\n## どう作るのか\n関東風は酢飯を器に盛った上に、切り分けた刺身や具材を種類ごとに並べて仕上げる。関西風はエビ、白身魚、椎茸、れんこんなど複数の具材をそれぞれ下味をつけて刻み、酢飯に混ぜ込んでから盛り、仕上げに錦糸卵などを彩りとして飾る。混ぜ込む具材の種類を増やすほど、ひと口ごとの味わいが変わる賑やかな一皿になるといい、どちらの形式も切り分ける手間がかからない。\n## なぜこの形になったのか\n握るという手間をかけずに、酢飯の上や中に具材を配るだけで仕立てられる手軽さが、家庭や祝いの席で広く作られる理由になったと考えられている。関西では特にこの形が発達し、岡山ばらずしや松山鮓のように、地域ごとの祝いずしとして具材の顔ぶれを変えながら根づいていったとされる。大皿や丼のまま食卓に出せるため、大人数の集まりにも向く形式とされる。",
+   "body_en": "## What it's made of\nKanto style piles vinegared rice in a lacquered bowl and arranges sashimi, shrimp, and salmon roe over the top in color. Kansai style mixes small-diced ingredients straight into the rice itself, in the gomoku-zushi manner, then finishes with shredded egg, shredded nori, and red pickled ginger. Under the same name, the dish reads very differently depending on whether raw seafood on top, or mixed-in ingredients, carries the dish.\n## How it's made\nKanto style plates rice in a bowl, then arranges sliced sashimi and other toppings by kind across the surface. Kansai style seasons and dices several ingredients — shrimp, white fish, shiitake, lotus root — separately, mixes them into the rice, then garnishes with shredded egg and the like. The more ingredients folded in, the livelier and more varied each bite becomes, it's said.\n## Why it took this shape\nSkipping the hand-shaping of nigiri, and simply arranging or mixing ingredients into rice, is thought to be why this form spread widely for home cooking and celebrations alike. It developed especially strongly in the Kansai region, and is said to have taken root as a regional celebration dish in many forms — Okayama's bara-zushi and Matsuyama-zushi among them — each varying the lineup of ingredients by place.",
+   "sources": [
+    {
+     "title": "ちらしずし",
+     "url": "https://kotobank.jp/word/%E3%81%A1%E3%82%89%E3%81%97%E3%81%9A%E3%81%97-1368843",
+     "publisher": "コトバンク",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "chirashi-zushi",
+     "to_slug": "nigiri-zushi",
+     "relation_type": "対比",
+     "basis": "握りずしはネタを一つずつ握って仕立てる形式、ちらし寿司は具材を飾る・混ぜ込むだけの形式という対照をなす"
+    },
+    {
+     "from_slug": "chirashi-zushi",
+     "to_slug": "kaisendon",
+     "relation_type": "対比",
+     "basis": "ともに酢飯や飯の上に魚介を盛る料理だが、ちらし寿司は酢飯を使うすし、海鮮丼は酢飯を使わない丼という違いがある"
+    }
+   ]
+  },
+  {
+   "slug": "oshi-zushi",
+   "body_ja": "## 何でできているか\n木型や竹の皮など地域ごとに異なる型に酢飯を詰め、しめ鯖や小鯛、でんぶなどの具材をのせて蓋をし、重石で押し固める。握りずしのように一つずつ仕立てるのではなく、まとめて押した塊を四角や短冊状に切り分けるため、切り口が揃った規則的な形になるのが特徴とされる。型の素材や大きさは地域によって異なり、同じ押しずしでも見た目の印象は土地ごとに変わる。\n## どう作るのか\n型の内側を酢で湿らせて酢飯がくっつくのを防ぎ、具材と酢飯を交互に詰めていく。蓋をして重石をのせ、数十分から数時間かけて押し固める。型から抜いたのち、濡らした包丁で切り分けて仕上げる。押す時間の長さによって、飯と具材のなじみ方や食感の締まり具合が変わるといい、地域や家庭ごとに好みの加減が受け継がれているという。\n## なぜこの形になったのか\n魚を生のまま扱うのではなく、酢や塩でしめてから型に詰めて押し固めるこの技法は、握りずしが屋台料理として広まる以前から関西を中心に行われていたとされる。まとめて仕込んで運べる形は、祭礼や祝いの席に大人数分を用意する必要から発達したと考えられており、地域ごとに型の大きさや具材が変わりながら各地に伝わっている。冷蔵のない時代、酢と塩でしめる工程そのものが保存の技法でもあった。",
+   "body_en": "## What it's made of\nVinegared rice is packed into a mold — wood or bamboo bark, depending on the region — topped with cured mackerel, small sea bream, or fish floss, covered, and pressed under weight. Rather than shaping each piece by hand like nigiri, a whole block is pressed at once and cut into squares or rectangles, giving it a regular, uniform shape.\n## How it's made\nThe inside of the mold is dampened with vinegar so the rice won't stick, then rice and toppings are packed in alternating layers. A lid and weight press it for anywhere from tens of minutes to several hours. Once unmolded, it's sliced with a wetted knife. How long it's pressed is said to shape both how well the flavors meld and how firm the texture turns out.\n## Why it took this shape\nCuring fish in salt or vinegar rather than serving it raw, then packing and pressing it in a mold, is said to have been practiced mainly around the Kansai region even before nigiri spread as street food. Being preparable in bulk and easy to transport is thought to have suited it to festivals and celebrations needing to feed many people at once, and it survives today across the country with the mold's size and toppings changing by region.",
+   "sources": [
+    {
+     "title": "押しずし",
+     "url": "https://kotobank.jp/word/%E6%8A%BC%E3%81%97%E3%81%9A%E3%81%97-1283005",
+     "publisher": "コトバンク",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "oshi-zushi",
+     "to_slug": "nigiri-zushi",
+     "relation_type": "対比",
+     "basis": "押しずしは型で押し固める古い技法、握りずしは屋台で即座に仕立てる新しい技法という対照をなす"
+    },
+    {
+     "from_slug": "oshi-zushi",
+     "to_slug": "hako-zushi",
+     "relation_type": "派生",
+     "basis": "木型に酢飯と具材を詰めて押し固める押しずしの技法を、大阪の箱寿司が今に伝える"
+    }
+   ]
+  },
+  {
+   "slug": "narezushi",
+   "body_ja": "## 何でできているか\n塩漬けにした魚を、炊いた飯とともに桶に漬け込む。米は魚を発酵させるための床として使われ、主食として食べることを前提としない場合が多い。数カ月から一年以上かけて乳酸発酵が進むと、魚の身は強い酸味と独特の発酵香をまとい、飯は粥のように溶けた状態になる。地域によっては、この溶けた飯ごと食べるか、魚の身だけを取り出して食べるかの流儀が分かれる。\n## どう作るのか\n魚は内臓とうろこを除いて塩でしっかりと締め、数週間から数カ月ほど寝かせる。塩を洗い落としたのち、炊いた飯と交互に桶へ詰め、重石をのせて長期間発酵させる。発酵の進み具合は気温や仕込む時期によって大きく変わり、家や地域によって漬け込む期間もさまざまだという。仕込みから食べ頃までの時間の長さそのものが、保存食としての性格を色濃く残している。\n## なぜこの形になったのか\n冷蔵の技術がない時代、魚を長く保存する方法として、塩漬けと乳酸発酵を組み合わせるこの製法が各地で選ばれたと考えられている。もともとは東南アジア大陸部で稲作とともに発達した魚の保存法が伝わったとする説もあり、日本では琵琶湖のふなずしをはじめ、吉野のアユずし、秋田のハタハタ寿しなど、各地の川や湖、海でとれる魚に合わせて独自に発展したとされる。",
+   "body_en": "## What it's made of\nSalted fish is packed into a barrel together with cooked rice. The rice serves mainly as a fermenting bed rather than something eaten on its own. Over months to more than a year of lactic fermentation, the fish takes on a sharp sourness and distinctive pungency, while the rice breaks down into something closer to porridge.\n## How it's made\nFish is scaled and gutted, salted heavily, and left to cure for weeks to months. Once rinsed of salt, it's layered with cooked rice in a barrel, weighted, and left to ferment over a long stretch. How far the fermentation goes depends heavily on temperature and the season it's begun, and the exact curing time varies by household and region.\n## Why it took this shape\nIn an age without refrigeration, combining salting with lactic fermentation is thought to have been chosen across many regions as a way to keep fish for the long term. One theory traces the method back to fish-preservation techniques that developed alongside rice farming on the Southeast Asian mainland. In Japan it's said to have developed independently around whatever fish each region's rivers, lakes, or coast provided — Lake Biwa's funa-zushi, Yoshino's ayu-zushi, and Akita's hatahata-zushi among them.",
+   "sources": [
+    {
+     "title": "なれずし",
+     "url": "https://kotobank.jp/word/%E3%81%AA%E3%82%8C%E3%81%9A%E3%81%97-894119",
+     "publisher": "コトバンク",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "narezushi",
+     "to_slug": "ayu",
+     "relation_type": "使用食材",
+     "basis": "吉野のアユずしなど、川魚を使うなれずしの例がある"
+    },
+    {
+     "from_slug": "narezushi",
+     "to_slug": "oshi-zushi",
+     "relation_type": "対比",
+     "basis": "なれずしは長期発酵させる古い保存の技法、押しずしは発酵させずに型で押し固める技法という対照をなす"
+    }
+   ]
+  },
+  {
+   "slug": "bo-zushi",
+   "body_ja": "## 何でできているか\n塩と酢でしめた魚を一枚のまま酢飯の上に重ね、巻きすで棒状に強く締める。木型で四角く押し固める箱寿司と違い、丸みを帯びた棒状に仕上がるのが特徴で、切り分けると魚の皮目が表を覆う楕円形の断面が並ぶ。鯖やサンマなど、皮に脂の乗った青魚が主に使われ、皮の銀色と身の白さの対比がそのまま断面の模様になり、酢の酸味が脂を軽くまとめる役割も果たす。\n## どう作るのか\n魚は骨を除いて塩でしめたのち、酢に浸してさらにしめる。酢飯の上に魚を皮目を上にしてのせ、巻きすでくるみながら手前から力を込めて巻き締め、棒状に形を整える。そのまま少し置いて味をなじませてから、二センチ前後の幅に切り分けて仕上げる。巻きすを締める力加減が、切り分けたときの断面の丸みを左右するといい、締めが甘いと形が崩れやすいという。\n## なぜこの形になったのか\n内陸部など海から遠い土地で、酢と塩でしめて日持ちさせた魚を運び、酢飯と合わせて食べる工夫から発達したと考えられている。棒状に締めることで魚の身崩れを防ぎながら均一な厚さに切り分けられ、遠方から運ばれてきた貴重な魚を無駄なく振る舞える形として、京都の鯖寿司をはじめ各地の祝いずしに残っているとされる。持ち運びやすい棒状という形も、内陸への輸送に向いていたと考えられている。",
+   "body_en": "## What it's made of\nFish cured in salt and vinegar, kept in a single fillet, is laid over rice and rolled bar-shaped with firm pressure from a bamboo mat. Unlike box-pressed hako-zushi's square edges, this comes out rounded and log-shaped, and each slice shows an oval cross-section capped by the fish's skin. Oily-skinned fish like mackerel and saury are the usual choice.\n## How it's made\nFish is boned, salted, then cured further in vinegar. Laid skin-side up over rice, it's rolled tight with a bamboo mat, pulled firm from the near edge, and shaped into a log. Left briefly to let the flavors settle, it's then sliced into rounds about two centimeters wide.\n## Why it took this shape\nIt's thought to have developed in places far from the sea, as a way of carrying fish cured with salt and vinegar to keep it, then pairing it with rice once it arrived. Rolling it bar-shaped kept the fish from falling apart while allowing even, uniform slices — a way to serve a hard-won fish without waste, said to survive today in Kyoto's saba-zushi and regional celebration sushi elsewhere.",
+   "sources": [
+    {
+     "title": "棒ずし",
+     "url": "https://kotobank.jp/word/%E6%A3%92%E3%81%9A%E3%81%97-1414316",
+     "publisher": "コトバンク",
+     "accessed_at": "2026-09-07"
+    },
+    {
+     "title": "さんまずし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sanma_zushi_mie.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "bo-zushi",
+     "to_slug": "saba-zushi",
+     "relation_type": "源流",
+     "basis": "巻きすで棒状に締める押しずしの技法を、京都の鯖寿司が代表する型として伝える"
+    },
+    {
+     "from_slug": "bo-zushi",
+     "to_slug": "oshi-zushi",
+     "relation_type": "派生",
+     "basis": "酢締めした魚と酢飯を押し固める点で、押しずしの技法を引き継ぐ"
+    }
+   ]
+  },
+  {
+   "slug": "gunkan-maki",
+   "body_ja": "## 何でできているか\n俵型に握った酢飯の側面を、帯状に切った海苔でぐるりと囲み、上部に土手のような縁を作る。その中にウニやイクラ、ネギトロなど、そのままでは形を保てない柔らかいネタや粒状のネタを盛り込む。海苔の縁が器のように働くことで、握りずしでは扱えなかったネタも一つの寿司として成立するようになっている。ネタと海苔の間にわずかな隙間ができるため、口に運ぶ直前まで香りが逃げにくいとも言われる。\n## どう作るのか\n酢飯を俵型に握り、側面に合わせて切った海苔を巻きつけて留める。海苔の縁が酢飯の高さより少し高く残るように仕立て、その内側にネタをこんもりと盛る。ウニなら型崩れしないよう箸で優しくのせ、イクラのような粒状のネタはすくうように盛り込むのが基本とされる。海苔を巻きつける長さと高さの調整は、盛るネタの量に合わせて職人がその場で判断するという。\n## なぜこの形になったのか\n昭和15年、銀座の久兵衛の初代店主が、握りずしでは扱いづらかったウニを美味しく提供する方法として考案したと伝わる。柔らかく崩れやすいネタは握りずしの形では飯の上にとどまらず、ネタそのものが酢飯からこぼれ落ちてしまう。海苔で側面を囲んで土手を作るという発想は、この「こぼれる」という一点を解決するための工夫だったとされ、形が軍艦に似ていたことから名がついたという。",
+   "body_en": "## What it's made of\nAn oval of hand-pressed rice is ringed on its sides by a band of nori, built up into a low wall above the rice. Inside that wall goes something too soft or granular to hold its own shape — sea urchin, salmon roe, minced fatty tuna. The nori rim works like a small vessel, letting toppings that nigiri alone couldn't carry become a sushi in their own right.\n## How it's made\nRice is pressed into an oval, and a strip of nori cut to size is wrapped around its sides and sealed. The nori is left standing slightly taller than the rice, and the topping is piled generously inside that rim. Sea urchin is laid in gently with chopsticks to keep its shape; granular toppings like salmon roe are scooped in.\n## Why it took this shape\nIt's said to trace to 1940, when the founding chef of Kyubey in Ginza devised a way to serve sea urchin, a topping nigiri handled poorly. Anything too soft to hold together simply wouldn't stay on a mound of rice — it spilled. Building a nori wall around the rice's sides is said to have been the fix for exactly that problem, and the resulting shape, resembling a warship's hull, gave the dish its name.",
+   "sources": [
+    {
+     "title": "沿革",
+     "url": "https://www.kyubey.jp/history/",
+     "publisher": "銀座 久兵衛",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gunkan-maki",
+     "to_slug": "nigiri-zushi",
+     "relation_type": "派生",
+     "basis": "握りずしでは扱いにくい柔らかいネタを、海苔の壁で囲んで盛れるようにした派生形"
+    },
+    {
+     "from_slug": "gunkan-maki",
+     "to_slug": "murasaki-uni",
+     "relation_type": "代表ネタ",
+     "basis": "軍艦巻き考案のきっかけになったとされる代表的なネタ"
+    }
+   ]
+  },
+  {
+   "slug": "salmon-nigiri",
+   "body_ja": "## 何でできているか\n薄くそぎ切りにした生のサケを、握った酢飯にのせる。かつて日本の寿司ネタとしては馴染みが薄かったサケだが、脂の乗ったオレンジ色の身と、他の魚にはない甘みに近い風味が受け入れられ、今では回転寿司や街の寿司店で定番のネタになっている。天然の魚とは違う、養殖ならではの脂の均一な入り方も特徴とされ、切り口の縞模様が美しく見えるという。\n## どう作るのか\nサケは骨と皮を除いてそぎ切りにし、酢飯の上にのせて軽く握る。天然の川を遡上するサケやマスは寄生虫を持つ個体があるため、伝統的な江戸前ずしでは生食を避け、酢締めや加熱をして提供してきた。生のまま握れるようになったのは、寄生虫のいない環境で育てる養殖技術が確立されたことが前提になっているといい、流通の冷凍・冷蔵技術の進歩も欠かせなかったとされる。\n## なぜこの形になったのか\n1980年代、日本市場でマグロの供給が不足する中、ノルウェー漁業省などが「プロジェクト・ジャパン」と呼ばれる売り込みを開始したのが転機とされる。養殖技術によって寄生虫の心配を克服したノルウェー産サケは、寿司店や輸入業者への試食提供や地道な働きかけを重ね、十年ほどをかけて日本の寿司ネタとして定着した。1980年に二トンだった輸出量は、二十年後には四万五千トンを超えたと伝わる。",
+   "body_en": "## What it's made of\nThin-sliced raw salmon is laid over pressed rice. Once an unfamiliar sushi topping in Japan, its orange, fatty flesh and a sweetness unlike any other fish won it over, and it's now a fixture at both kaiten-zushi chains and neighborhood sushi counters. Unlike wild fish, farmed salmon's fat is said to run through the flesh with unusual evenness.\n## How it's made\nSalmon is boned, skinned, sliced thin, and laid over lightly pressed rice. Wild salmon and trout that migrate up rivers can carry parasites, so traditional Edomae sushi avoided serving it raw, curing it in vinegar or cooking it instead. Serving it raw only became possible once farming techniques that raise the fish in a parasite-free environment were established.\n## Why it took this shape\nThe turning point is said to have come in the 1980s, when Japan's market faced a tuna shortage and Norway's fisheries ministry launched a marketing push known as Project Japan. Norwegian salmon, freed of parasite concerns by its farming methods, was offered as samples to sushi restaurants and importers and promoted patiently over roughly a decade until it became a fixture as a sushi topping. Exports that stood at two tonnes in 1980 are said to have topped 45,000 tonnes twenty years later.",
+   "sources": [
+    {
+     "title": "サーモン寿司、誕生40周年",
+     "url": "https://www.seafoodfromnorway.jp/stories-from-norway/you-get-the-best-possible-seafood/the-origin-of-salmon-sushi/",
+     "publisher": "ノルウェー水産物審議会",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "salmon-nigiri",
+     "to_slug": "sake-salmon",
+     "relation_type": "使用食材",
+     "basis": "生のサケを主原料とする"
+    },
+    {
+     "from_slug": "salmon-nigiri",
+     "to_slug": "nigiri-zushi",
+     "relation_type": "派生",
+     "basis": "握りずしの技法をそのまま用いるが、ネタが養殖の輸入魚である点で江戸前の伝統的なネタと異なる"
+    },
+    {
+     "from_slug": "salmon-nigiri",
+     "to_slug": "maguro",
+     "relation_type": "対比",
+     "basis": "マグロの供給不足を補う代替として売り込まれた経緯があり、寿司ネタの主役の座を巡る対比として語られることがある"
+    }
+   ]
+  },
+  {
+   "slug": "aburi-zushi",
+   "body_ja": "## 何でできているか\nサーモンやトロ、チーズなどをのせた握りずしの表面だけを、バーナーで数秒炙る。炙った部分は脂が溶けて香ばしさが立ち、その下の生の部分とは温度も食感も違う二層の味わいになる。塩やレモン、特製のたれを添えて、炙りだけでは足りない塩気や酸味を補うことも多い。表面と内側の対比そのものが、一貫の中にもう一段の変化を作り出しているといえる。\n## どう作るのか\nネタをのせて握った寿司の表面に、ガスバーナーの炎を数秒当てて焼き目をつける。炙りすぎるとネタ全体に火が通ってしまうため、表面の脂だけを溶かして香りを立たせる、短い時間の見極めが求められる。仕上げに塩や特製だれ、レモンなどを添えて提供することが多い。炙る強さや時間は職人や店ごとに異なり、香ばしさの度合いも一貫ごとに変わるという。\n## なぜこの形になったのか\n江戸前の「仕事」が魚を長持ちさせるための下ごしらえだったのに対し、炙りは保存を目的とせず、香りと食感の変化そのものを楽しむために生まれた食べ方とされる。小皿単位で原価と提供速度を管理する回転寿司をはじめとする大衆店で、脂の乗ったサーモンなど比較的手に入りやすいネタに手を加え、一皿の付加価値を高める工夫として広まったと考えられている。目先の変化を求める客に向けた提案という側面もあるという。",
+   "body_en": "## What it's made of\nNigiri topped with salmon, fatty tuna, or even cheese has just its surface seared with a torch for a few seconds. The seared part melts its fat into a toasty aroma, leaving a two-layer bite against the raw flesh underneath, different in both temperature and texture. Salt, lemon, or a house sauce is often added to supply the salt or acidity the searing alone doesn't provide.\n## How it's made\nA gas torch flame is passed over the surface of an already-shaped piece of nigiri for a few seconds to mark it. Searing too long cooks the topping through, so the skill lies in judging a window short enough to melt only the surface fat and lift its aroma. It's commonly finished with salt, a house sauce, or a squeeze of lemon.\n## Why it took this shape\nWhere Edomae's shigoto curing was preparation meant to keep fish longer, searing isn't about preservation at all — it's said to have arisen purely for the change in aroma and texture it creates. At kaiten-zushi and other budget-minded chains that manage cost and speed by the plate, adding a torch to a relatively easy-to-source topping like fatty salmon is thought to have spread as a way to raise the perceived value of a single plate.",
+   "sources": [
+    {
+     "title": "回転寿司",
+     "url": "https://kotobank.jp/word/%E5%9B%9E%E8%BB%A2%E5%AF%BF%E5%8F%B8-458090",
+     "publisher": "コトバンク",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aburi-zushi",
+     "to_slug": "nigiri-zushi",
+     "relation_type": "派生",
+     "basis": "握りずしの技法にバーナーで炙る工程を加えた派生形"
+    },
+    {
+     "from_slug": "aburi-zushi",
+     "to_slug": "edomae-zushi",
+     "relation_type": "対比",
+     "basis": "江戸前の仕事は保存のための下ごしらえ、炙りは保存を目的としない香りづけという対照をなす"
+    }
+   ]
+  },
+  {
+   "slug": "ebiten-nigiri",
+   "body_ja": "## 何でできているか\n衣をつけて揚げたエビの天ぷらを、握った酢飯にのせる。揚げたてのサクサクとした衣と、下の酢飯のひんやりとした酸味が対照的な食感を作る。仕上げにたれや天かすを添えることもあり、生のエビを使う握りとは香ばしさの方向性がまったく違うネタになっている。衣の厚みやエビの大きさによって、一貫の存在感が大きく変わるという。\n## どう作るのか\nエビに衣をつけて油で揚げ、油を切ってから酢飯の上にのせて軽く握る。衣が酢飯の水分を吸って湿らないよう、揚げてから握るまでの時間を短くすることが求められるという。仕上げに甘辛いたれをかけたり、マヨネーズを添えたりする店もある。エビの尾を握りからはみ出させて盛る店もあり、見た目のボリューム感も好まれる要素とされる。\n## なぜこの形になったのか\n生の魚介を扱う江戸前の握りと違い、火を通した天ぷらは日持ちがしやすく、仕入れや仕込みの管理がしやすいという性質を持つ。ベルトコンベヤで一定のコストと品質を保ちながら大量に提供する回転寿司の業態では、火を通して原価と品質を安定させやすいネタが好まれる傾向があるとされ、天ぷらというすでに完成された調理法をそのまま握りにのせる形が定着したと考えられている。仕込みの手順が単純であることも、大量提供に向く理由の一つとされる。",
+   "body_en": "## What it's made of\nBattered and deep-fried shrimp tempura is laid over pressed rice. The fresh crunch of the batter plays against the cool acidity of the rice below. A sauce or crumbled tempura bits sometimes finish it, giving this topping a completely different kind of savor from a raw-shrimp nigiri.\n## How it's made\nShrimp is battered, deep-fried, drained of oil, and laid over lightly pressed rice. Keeping the time between frying and pressing short is said to matter, since the batter softens once it starts absorbing moisture from the rice. Some shops finish it with a sweet-savory sauce or a dab of mayonnaise.\n## Why it took this shape\nUnlike raw seafood handled the Edomae way, cooked tempura keeps well and is easier to manage in sourcing and prep. Kaiten-zushi chains, which serve high volumes at a steady cost and quality over a conveyor belt, are said to favor toppings that are cooked and therefore easier to keep consistent in both cost and quality — and laying an already-finished preparation like tempura straight onto nigiri rice is thought to have become a fixture for exactly that reason.",
+   "sources": [
+    {
+     "title": "回転寿司",
+     "url": "https://kotobank.jp/word/%E5%9B%9E%E8%BB%A2%E5%AF%BF%E5%8F%B8-458090",
+     "publisher": "コトバンク",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ebiten-nigiri",
+     "to_slug": "nigiri-zushi",
+     "relation_type": "派生",
+     "basis": "握りずしの技法に天ぷらという調理済みのネタを組み合わせた派生形"
+    },
+    {
+     "from_slug": "ebiten-nigiri",
+     "to_slug": "kuruma-ebi",
+     "relation_type": "使用食材",
+     "basis": "エビの天ぷらを主なネタとする"
+    }
+   ]
+  },
+  {
+   "slug": "mayo-zushi",
+   "body_ja": "## 何でできているか\nサーモンやツナ、コーンなどをマヨネーズで和え、握った酢飯や軍艦巻きの上に盛る。マヨネーズのコクと酸味が具材の生臭さを和らげ、酢飯の酸味とは違うまろやかな味わいになる。仕上げに黒こしょうや刻みねぎ、あぶった香ばしさを添えるなど、店によって細部の仕立てが分かれる。ねっとりとした質感が酢飯によく絡み、箸でもつまみやすいという声もある。\n## どう作るのか\nサーモンは角切りかそぎ切りにし、コーンやツナ缶の身とともにマヨネーズで和える。握った酢飯の上に盛るか、海苔で囲んだ軍艦巻きの上にこんもりと盛りつける。仕上げに黒こしょうを効かせたり、表面をバーナーで軽く炙ったりして、マヨネーズの脂を香ばしさに変える仕立てもある。和える際のマヨネーズの量は店ごとに加減され、こってり感の強弱に差が出るという。\n## なぜこの形になったのか\nマヨネーズで和える下ごしらえは、魚特有の生臭さや酢飯の酸味に慣れていない子どもや初心者でも食べやすくする効果があるとされる。子ども連れの家族客を取り込む回転寿司の業態では、こうした食べやすいネタが定番メニューとして重宝され、原価が安定した食材をマヨネーズでまとめて提供しやすいという理由からも、広く定着したと考えられている。子どもの初めての寿司体験を支える一品として語られることもある。",
+   "body_en": "## What it's made of\nSalmon, tuna, or corn dressed in mayonnaise is piled onto pressed rice or gunkan-maki. Mayonnaise's richness and mild tang soften whatever fishiness the ingredient carries, landing somewhere gentler than vinegared rice's own acidity. Black pepper, chopped scallion, or a quick torch-sear finish it differently from shop to shop.\n## How it's made\nSalmon is diced or thin-sliced and mixed with mayonnaise alongside corn kernels or canned tuna. It's piled onto pressed rice or heaped into a nori-ringed gunkan-maki. Some shops finish it with black pepper or a light torch-sear that turns the mayonnaise's fat toasty.\n## Why it took this shape\nDressing ingredients in mayonnaise is said to make them easier to eat for children or anyone unused to fish's natural notes or vinegared rice's acidity. At kaiten-zushi chains courting family customers with kids in tow, toppings this approachable earned a permanent spot on the menu, and being able to dress cost-stable ingredients uniformly in mayonnaise is also thought to have helped it spread widely.",
+   "sources": [
+    {
+     "title": "回転寿司",
+     "url": "https://kotobank.jp/word/%E5%9B%9E%E8%BB%A2%E5%AF%BF%E5%8F%B8-458090",
+     "publisher": "コトバンク",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mayo-zushi",
+     "to_slug": "gunkan-maki",
+     "relation_type": "派生",
+     "basis": "軍艦巻きの技法を用いてマヨネーズで和えた具材を盛る派生形"
+    },
+    {
+     "from_slug": "mayo-zushi",
+     "to_slug": "sake-salmon",
+     "relation_type": "使用食材",
+     "basis": "サーモンマヨなど、サケをマヨネーズで和えたネタが代表的とされる"
+    }
+   ]
+  },
+  {
+   "slug": "california-roll",
+   "body_ja": "## 何でできているか\nアボカド、かに風味かまぼこ、きゅうりを芯にして、酢飯の外側に海苔がこないよう裏返しに巻く。切り口は白い酢飯が表面を覆い、海苔は具材のすぐそばに隠れている。とろりとしたアボカドの脂とかまぼこの甘みが、生魚を使わなくても寿司らしい満足感を作り出す組み合わせになっている。表面にごまや魚卵をまぶして彩りを加える仕立ても広く見られる。\n## どう作るのか\n巻きすにラップを敷き、酢飯を広げてからごまなどをまぶし、裏返して海苔をのせる。中央にアボカド、かに風味かまぼこ、きゅうりを並べ、ラップごと巻き込んで棒状に締める。仕上げにラップを外してから切り分けるため、酢飯が巻きすに直接くっつかず、裏巻きでも形が崩れにくいという。切り分ける前にラップを外す手順が、裏巻き特有の仕上がりを支えている。\n## なぜこの形になったのか\n刺身や海苔の香りに馴染みのなかった米国の食卓向けに考案されたとされ、海苔を内側に隠すことで見た目への抵抗感を減らしたという。とろりとした脂を持つアボカドは、当時手に入りにくかった魚の脂の代わりとして選ばれたと伝えられ、こうした工夫が海外の食卓向けに定着したのち、日本へも逆輸入される形で広まったとされる。今では海苔を外側に巻く従来の巻き寿司と並んで注文される定番になっている。",
+   "body_en": "## What it's made of\nAvocado, imitation crab, and cucumber form the core, rolled inside-out so nori never touches the outside of the rice. Sliced open, white rice covers the surface and the nori hides just beneath it. Avocado's creamy fat and the crab stick's sweetness together deliver a sushi-like satisfaction without any raw fish at all.\n## How it's made\nPlastic wrap lines a bamboo mat, rice is spread and sprinkled with sesame, then flipped so nori sits on top. Avocado, imitation crab, and cucumber are laid across the center, and the whole thing is rolled tight, wrap and all, into a log. The wrap is peeled off before slicing, keeping the rice from sticking to the mat and holding the inside-out roll together.\n## Why it took this shape\nIt's said to have been devised for American diners unfamiliar with the taste of sashimi or the smell of nori, hiding the seaweed inside to soften any visual resistance to it. Avocado, with its own creamy fat, is said to have been chosen as a stand-in for fatty tuna, which was hard to source at the time — and once this workaround took hold abroad, it's said to have found its way back to Japan as a reverse import.",
+   "sources": [
+    {
+     "title": "カリフォルニアロール",
+     "url": "https://kotobank.jp/word/%E3%81%8B%E3%82%8A%E3%81%B5%E3%81%8A%E3%82%8B%E3%81%AB%E3%81%82%E3%82%8D%E3%83%BC%E3%82%8B-3209475",
+     "publisher": "コトバンク",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "california-roll",
+     "to_slug": "maki-zushi",
+     "relation_type": "派生",
+     "basis": "海苔で酢飯と具材を巻く巻き寿司の技法を用いるが、海苔を内側にする点で異なる"
+    },
+    {
+     "from_slug": "california-roll",
+     "to_slug": "nigiri-zushi",
+     "relation_type": "対比",
+     "basis": "握りずしは生魚をネタにする江戸前の伝統形式、カリフォルニアロールは生魚を使わない海外発祥の形式という対照をなす"
+    }
+   ]
+  },
+  {
+   "slug": "niku-zushi",
+   "body_ja": "## 何でできているか\n薄切りにした牛肉や馬肉を、握った酢飯にのせる。表面だけをバーナーや鉄板で炙り、赤身の断面と炙った縁の焼き色が層になって現れる。塩やわさび醤油、にんにくを効かせたたれを添えることが多く、脂の香ばしさと酢飯の酸味を合わせて食べる、魚介の握りとは違う満足感を持つネタになっている。厚みのある一切れを盛る店ほど、肉そのものの存在感が強く出るという。\n## どう作るのか\n肉は薄くそぎ切りにし、表面を強火で短時間炙って香ばしさを出す。握った酢飯の上にのせ、塩やたれ、薬味を添えて仕上げる。生のまま提供する店もあるが、表面だけを炙って断面の赤身を活かす仕立てが一般的とされ、火の通し方の加減が店ごとの持ち味になっているという。にんにくや生姜を効かせた薬味を添えることで、脂の重さを軽くする工夫も見られる。\n## なぜこの形になったのか\n焼肉店や馬刺しを名物とする地域の食文化が、寿司という別の形式と合流してできたネタとされる。魚介の握りとは違う脂の豊かさと満足感が、居酒屋や回転寿司のメニューに変化を求める客に好まれ、表面を軽く炙る仕立ては生の赤身肉をそのまま出すより食べやすいという理由から広まったと考えられている。魚介中心のメニューに変化をつける一品として位置づけられることが多い。",
+   "body_en": "## What it's made of\nThin-sliced beef or horse is laid over pressed rice. Just the surface is seared with a torch or hot griddle, leaving a layer of browned edge against the red cross-section underneath. Salt, wasabi-soy, or a garlic-forward sauce often accompanies it, pairing fat's savor with rice's acidity for a satisfaction different from a seafood nigiri.\n## How it's made\nMeat is sliced thin and the surface seared briefly over high heat for aroma. It's laid over pressed rice and finished with salt, sauce, or a garnish. Some shops serve it fully raw, but searing just the surface while keeping the red center intact is the more common approach, with how far the heat is taken becoming each shop's signature.\n## Why it took this shape\nIt's said to be a topping born where the food culture of yakiniku restaurants and regions known for basashi (horse sashimi) met the separate format of sushi. The richer, fattier satisfaction it offers, unlike a seafood nigiri, is said to appeal to izakaya and kaiten-zushi customers looking for something different on the menu, and searing just the surface is thought to have spread as an easier way to serve raw red meat than presenting it fully raw.",
+   "sources": [
+    {
+     "title": "回転寿司",
+     "url": "https://kotobank.jp/word/%E5%9B%9E%E8%BB%A2%E5%AF%BF%E5%8F%B8-458090",
+     "publisher": "コトバンク",
+     "accessed_at": "2026-09-07"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "niku-zushi",
+     "to_slug": "nigiri-zushi",
+     "relation_type": "派生",
+     "basis": "握りずしの技法をそのまま用いるが、ネタが魚介ではなく牛肉や馬肉である点で異なる"
+    },
+    {
+     "from_slug": "niku-zushi",
+     "to_slug": "tajima-ushi",
+     "relation_type": "使用食材",
+     "basis": "但馬牛系統の和牛が肉寿司のネタに使われることがある"
+    }
+   ]
+  }
+ ]
+}
