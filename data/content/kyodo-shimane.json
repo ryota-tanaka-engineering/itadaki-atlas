@@ -1,0 +1,1020 @@
+{
+ "items": [
+  {
+   "slug": "hoshi-daikon-no-nishime",
+   "name_ja": "干し大根の煮しめ",
+   "name_romaji": "Hoshi Daikon no Nishime",
+   "name_en": "Hoshi daikon no nishime — simmered sun-dried daikon strung up to cure",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "浜田市",
+   "lat": 34.8983,
+   "lng": 132.0816,
+   "summary_ja": "石見地方で親しまれる干し大根の煮しめ。輪切りにした大根を藁で編んで軒先に干し、蒸してから戻し、いりこや醤油で甘辛く煮る。乾燥で凝縮した甘みとコリッとした歯ごたえが特徴とされる。",
+   "summary_en": "Rounds of daikon are strung on straw and hung under the eaves to dry, then steamed and simmered sweet and savory with sardine stock and soy sauce — an Iwami preserve said to gain a concentrated sweetness and crisp bite from the drying.",
+   "sources": [
+    {
+     "title": "干し大根の煮しめ 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hoshidaikonnonishime_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hoshi-daikon-no-nishime",
+     "to_slug": "shimane-kaki-namasu",
+     "relation_type": "対比",
+     "basis": "どちらも大根を主役にした島根の常備菜だが、干し大根の煮しめは乾物、柿なますは酢の物として仕立てが異なる。"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oki-arame-no-itameni",
+   "name_ja": "隠岐アラメの炒め煮",
+   "name_romaji": "Oki Arame no Itameni",
+   "name_en": "Oki arame no itameni — stir-simmered Oki seaweed with carrot and fried tofu",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "隠岐の島町",
+   "lat": 36.2036,
+   "lng": 133.3268,
+   "summary_ja": "隠岐の浅瀬でとれる海藻アラメを、人参や油揚げと油で炒めて出汁で煮しめる家庭料理。天日干しと渋抜きを経た乾燥アラメは、ほかの海藻にはない独特の歯ごたえがあるといい、春から日常のおかずとして食卓に並ぶという。",
+   "summary_en": "Arame seaweed gathered from Oki's shallows is dried, softened, then stir-fried with carrot and fried tofu and simmered in dashi — said to have a chew unlike other seaweeds once rehydrated.",
+   "sources": [
+    {
+     "title": "隠岐アラメの炒め煮 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/okiaramenoitameni_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "oki-arame-no-itameni",
+     "to_slug": "shimane-sazae-meshi",
+     "relation_type": "対比",
+     "basis": "どちらも隠岐の海の恵みを使う日常料理で、海藻と貝という食材の違いで対比される。"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kakuzushi",
+   "name_ja": "角ずし",
+   "name_romaji": "Kakuzushi",
+   "name_en": "Kakuzushi — Iwami's meatless pressed sushi of vegetables and vinegared rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "島根県",
+   "origin_city": "浜田市",
+   "lat": 34.8983,
+   "lng": 132.0816,
+   "summary_ja": "石見地方に伝わる、魚や肉を使わない野菜だけの押し寿司「角ずし」（大きな型は「箱ずし」）。角形や花形の小さな木枠に酢飯と野菜を重ねて押し固め、錦糸卵などで彩る。ハレの日に家々でつくられてきたと伝わる。",
+   "summary_en": "An Iwami pressed sushi made without fish or meat, called kakuzushi (a larger mold version is hakozushi): vinegared rice and simmered vegetables layered in a small square or flower-shaped wooden mold, finished with shredded egg. Households are said to have made it for festive occasions.",
+   "sources": [
+    {
+     "title": "角ずし 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kakuzushi_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kakuzushi",
+     "to_slug": "sumoji",
+     "relation_type": "対比",
+     "basis": "どちらも島根のハレの日の酢飯料理だが、角ずしは魚を使わない野菜の押し寿司、すもじは焼きサバのちらしずしという違いがある。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "uzume-meshi",
+   "name_ja": "うずめ飯",
+   "name_romaji": "Uzumemeshi",
+   "name_en": "Uzumemeshi — Tsuwano's rice hiding diced fish and vegetables under broth",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "津和野町",
+   "lat": 34.4593,
+   "lng": 131.7692,
+   "summary_ja": "出汁をかけたごはんの下に、刻んだタイや野菜を隠して食べる津和野の郷土料理。質素倹約の時代にごちそうを隠したことに由来するとも伝わり、清らかな水で育つわさびが決め手になるという。",
+   "summary_en": "A Tsuwano dish where diced sea bream and vegetables are hidden beneath a bowl of rice topped with broth and grated wasabi — said to date to an era of frugality, when a family's good food was tucked out of sight. Local, spring-fed wasabi is said to be the key.",
+   "sources": [
+    {
+     "title": "うずめ飯 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/uzumemeshi_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "uzume-meshi",
+     "to_slug": "kakuzushi",
+     "relation_type": "対比",
+     "basis": "どちらも石見地方の来客・行事のもてなし料理だが、角ずしは押し寿司、うずめ飯は汁かけ飯という形の違いがある。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "azuki-zoni",
+   "name_ja": "小豆雑煮",
+   "name_romaji": "Azuki Zoni",
+   "name_en": "Azuki zoni — mochi simmered in lightly sweetened red bean broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "出雲市",
+   "lat": 35.3667,
+   "lng": 132.7566,
+   "summary_ja": "甘さを控えて煮た小豆に丸餅を入れた雑煮で、あっさりとした味わいが「ぜんざい」に近いとされる。出雲地方では元旦のすまし雑煮に続き、正月二日から食べる家庭もあるという。広域の伝承のため出雲市を代表点とした。",
+   "summary_en": "Round mochi sit in azuki beans simmered with a light hand on the sugar, closer in taste to a thin zenzai than a dessert. In the Izumo area some households eat a clear zoni on New Year's Day, then switch to this one from the second.",
+   "sources": [
+    {
+     "title": "小豆雑煮 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/azukizouni_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "azuki-zoni",
+     "to_slug": "sumashi-zoni",
+     "relation_type": "兄弟",
+     "basis": "出雲地方では元旦にすまし雑煮、正月二日から小豆雑煮を食べる地域があると本文にある。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "takenoko-sansho-ni",
+   "name_ja": "たけのこ山椒煮",
+   "name_romaji": "Takenoko Sansho Ni",
+   "name_en": "Takenoko sansho ni — bamboo shoot simmered with sansho pepper",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "松江市",
+   "lat": 35.4723,
+   "lng": 133.0505,
+   "summary_ja": "松江市島田地区特産の、繊維が細かく身の柔らかいたけのこを、山椒やカツオ出汁で甘辛く煮た一品。粘土質の赤土で育つたけのこは地中深くまで根を張るとされ、春の食卓に欠かせない味覚となっている。",
+   "summary_en": "Bamboo shoots from Matsue's Shimada district, prized for their fine grain and tender flesh grown in clay-rich red soil, are simmered sweet-savory in bonito stock with sansho pepper — a spring fixture on the local table.",
+   "sources": [
+    {
+     "title": "たけのこ山椒煮 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/takenokonosanshouni_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "takenoko-sansho-ni",
+     "to_slug": "fukinoto-miso",
+     "relation_type": "対比",
+     "basis": "どちらも島根の春の山菜・地場野菜を使った家庭の常備菜として対比できる。"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shimane-kaki-namasu",
+   "name_ja": "柿なます",
+   "name_romaji": "Kaki Namasu",
+   "name_en": "Kaki namasu — dried persimmon in a vinegared daikon salad",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "松江市",
+   "lat": 35.4723,
+   "lng": 133.0505,
+   "summary_ja": "島根特産の西条柿を干した干し柿を、大根や人参の酢の物に加えたなます。干し柿の赤と大根の白の紅白が縁起がよいとされ、祝宴や正月料理として親しまれている。県内全域の伝承のため県庁所在地を代表点とした。",
+   "summary_en": "Dried Saijo persimmon, a Shimane specialty, is tossed into a vinegared salad of daikon and carrot. The persimmon's red against the daikon's white is read as an auspicious pairing, and the dish is kept for banquets and New Year's tables.",
+   "sources": [
+    {
+     "title": "柿なます 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kakinamasu_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shimane-kaki-namasu",
+     "to_slug": "hoshi-daikon-no-nishime",
+     "relation_type": "対比",
+     "basis": "どちらも大根を主役にした島根の常備菜だが、柿なますは酢の物、干し大根の煮しめは煮物として仕立てが異なる。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "bakudan-onigiri",
+   "name_ja": "ばくだんおにぎり",
+   "name_romaji": "Bakudan Onigiri",
+   "name_en": "Bakudan onigiri — a rice ball wrapped whole in Oki rock nori",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "隠岐の島町",
+   "lat": 36.2036,
+   "lng": 133.3268,
+   "summary_ja": "隠岐でとれる香り高い岩のりを軽くあぶり、醤油を塗って丸く大きなおにぎりを覆うように巻いた一品。見た目の豪快さから「ばくだん」と呼ばれ、弁当やおやつとして食べられている。出雲地方にも伝わる広域の料理。",
+   "summary_en": "A large round rice ball is wrapped entirely in lightly toasted, soy-brushed rock nori from Oki — its bold look earning it the name 'bakudan,' or bomb. It travels well in lunch boxes and as an everyday snack.",
+   "sources": [
+    {
+     "title": "ばくだんおにぎり 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/bakudanonigiri_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "bakudan-onigiri",
+     "to_slug": "shimane-sazae-meshi",
+     "relation_type": "対比",
+     "basis": "どちらも隠岐でとれる岩のりを使う日常の握り飯料理で、包み方と混ぜ方の違いで対比できる。"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "handheld"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kujira-gohan",
+   "name_ja": "くじらご飯",
+   "name_romaji": "Kujira Gohan",
+   "name_en": "Kujira gohan — rice cooked with whale skin, daikon, and burdock",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "浜田市",
+   "lat": 34.8983,
+   "lng": 132.0816,
+   "summary_ja": "浜田市や益田市で伝わる、くじらの皮を炒めて大根やごぼうと炊き込んだごはん。くじらのような大物になるよう願いを込め、節分に食べる風習が残っているという。伝承地域は両市にまたがるため浜田市を代表点とした。",
+   "summary_en": "Whale skin is fried with daikon and burdock and mixed through rice in Hamada and Masuda. Children are said to eat it on Setsubun, wishing to grow as large and strong as the whale itself.",
+   "sources": [
+    {
+     "title": "くじらご飯 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kujiragohan_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kujira-gohan",
+     "to_slug": "heka",
+     "relation_type": "兄弟",
+     "basis": "くじらご飯の由来ページに、冬野菜と一緒にすき焼き風にする食べ方が石見地方で「へか」と呼ばれると明記されている。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kuroda-seri-ohitashi",
+   "name_ja": "黒田せりとほうれんそうのおひたし",
+   "name_romaji": "Kuroda Seri Ohitashi",
+   "name_en": "Kuroda seri ohitashi — Matsue's prized watercress blanched with spinach",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "松江市",
+   "lat": 35.4723,
+   "lng": 133.0505,
+   "summary_ja": "松江市黒田町に伝わる香り高いせり、黒田せりを、ほうれんそうと合わせておひたしにした冬の一品。アクが少なくシャキシャキとした歯ごたえが特徴とされ、正月前後に食卓へ上る。",
+   "summary_en": "Kuroda seri, a fragrant watercress grown in Matsue's Kuroda district since the Edo period, is blanched together with spinach for a crisp, low-bitterness winter side — said to be low in astringency compared to ordinary seri.",
+   "sources": [
+    {
+     "title": "黒田せりとほうれんそうのおひたし 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kurodaseritohorensonoohitashi_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kuroda-seri-ohitashi",
+     "to_slug": "fukinoto-miso",
+     "relation_type": "対比",
+     "basis": "どちらも島根の冬から春にかけての葉物・山菜を使う簡素な家庭のおかずとして対比できる。"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "unagi-dofu",
+   "name_ja": "うなぎ豆腐",
+   "name_romaji": "Unagi Dofu",
+   "name_en": "Unagi dofu — a yanagawa-style hot pot of eel and grilled tofu",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "松江市",
+   "lat": 35.4723,
+   "lng": 133.0505,
+   "summary_ja": "宍道湖のうなぎと角切りの焼き豆腐を出汁で煮て、京葱やきのこを加えた柳川鍋風の鍋料理。出雲産うなぎが大阪へ運ばれた輸送の歴史とともに伝わってきたとされる。焼き魚ではなく鍋物のため棚を homestyle から hotpot に変更した。",
+   "summary_en": "Lake Shinji eel is simmered with cubed grilled tofu, Kyoto leek, and seasonal mushrooms in a yanagawa-style pot — said to trace back to the era when Izumo eel was hauled overland all the way to Osaka.",
+   "sources": [
+    {
+     "title": "うなぎ豆腐 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/unagidofu_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "unagi-dofu",
+     "to_slug": "dojo-kenchin-jiru",
+     "relation_type": "対比",
+     "basis": "どちらも島根の淡水・汽水域の生き物を主役にした鍋仕立ての料理で、うなぎとドジョウという違いで対比できる。"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "suzuki-no-hosho-yaki",
+   "name_ja": "スズキの奉書焼き",
+   "name_romaji": "Suzuki no Hosho Yaki",
+   "name_en": "Suzuki no hosho yaki — sea bass steamed in wrapped mulberry paper",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "松江市",
+   "lat": 35.4723,
+   "lng": 133.0505,
+   "summary_ja": "宍道湖でとれるスズキを和紙の奉書に包んで蒸し焼きにする、松江の名物料理。灰まみれの焼き魚を殿様に差し上げるため紙で包んだのが始まりと伝わり、ハレの日に供される。既存の「スズキ」は魚の食材ページで、本品は別の調理された郷土料理のため新規作成。",
+   "summary_en": "Lake Shinji sea bass, salted and wrapped in hosho paper, is steamed over the coals — said to have begun when a fisherman's ash-covered grilled fish was wrapped in paper to be presentable enough for the domain lord. It remains a dish for special occasions.",
+   "sources": [
+    {
+     "title": "スズキの奉書焼き 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/suzukinohoshoyaki_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "suzuki-no-hosho-yaki",
+     "to_slug": "shirauo-no-kakiage",
+     "relation_type": "兄弟",
+     "basis": "どちらも宍道湖七珍に数えられる魚介を使う松江の郷土料理として、本文に「宍道湖七珍」の記載がある。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shirauo-no-kakiage",
+   "name_ja": "白魚のかき揚げ",
+   "name_romaji": "Shirauo no Kakiage",
+   "name_en": "Shirauo no kakiage — Lake Shinji icefish fritters",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "島根県",
+   "origin_city": "松江市",
+   "lat": 35.4723,
+   "lng": 133.0505,
+   "summary_ja": "宍道湖でとれる透き通った白魚を、たけのこや菜の花などの旬の野菜と揚げたかき揚げ。ふわりとした衣の中に淡白な白魚の旨味が広がり、うどんや天丼の種として親しまれている。既存の「かき揚げ」は一般的な調理法のページで、本品は宍道湖の白魚を使う別の郷土料理のため新規作成。",
+   "summary_en": "Nearly translucent icefish from Lake Shinji are fried into a fritter with seasonal vegetables like bamboo shoot and rapeseed blossom. The fluffy batter is said to bring out the icefish's delicate sweetness, and it's a familiar topping on udon and tendon.",
+   "sources": [
+    {
+     "title": "白魚のかき揚げ 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shirauonokakiage_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shirauo-no-kakiage",
+     "to_slug": "suzuki-no-hosho-yaki",
+     "relation_type": "兄弟",
+     "basis": "どちらも宍道湖七珍に数えられる魚介を使う松江の郷土料理として、本文に「宍道湖七珍」の記載がある。"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "koi-no-itozukuri",
+   "name_ja": "鯉の糸造り",
+   "name_romaji": "Koi no Itozukuri",
+   "name_en": "Koi no itozukuri — carp sliced into threads with its own roe",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "松江市",
+   "lat": 35.4723,
+   "lng": 133.0505,
+   "summary_ja": "宍道湖のコイを糸のように細く刺身にし、煎ったコイの卵をまぶした松江の冬の料理。かつて天皇や将軍の御前料理だったと伝わり、いまも祝いの席で味わわれているという。刺身に近い料理のため棚を homestyle から raw に変更した。",
+   "summary_en": "Lake Shinji carp is sliced into fine threads and topped with its own roe, lightly parched. Said to have once been served to emperors and shoguns, it remains a Matsue winter dish for celebratory occasions.",
+   "sources": [
+    {
+     "title": "鯉の糸造り 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/koinoitozukuri_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "koi-no-itozukuri",
+     "to_slug": "shimane-shijimi-jiru",
+     "relation_type": "兄弟",
+     "basis": "どちらも宍道湖七珍に数えられる素材を使う松江の郷土料理として、本文に「宍道湖七珍」の記載がある。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "akagai-garan-mushi",
+   "name_ja": "赤貝がらん蒸し",
+   "name_romaji": "Akagai Garan Mushi",
+   "name_en": "Akagai garan mushi — ark shell steamed in its shell with soy broth",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "松江市",
+   "lat": 35.4723,
+   "lng": 133.0505,
+   "summary_ja": "中海でとれるサルボウガイ（赤貝）を殻ごと醤油だしで蒸す出雲地方の料理。別名「赤貝の殻蒸し」。殻を洗う音や「殻」がなまったことが名の由来ともいわれ、正月料理として親しまれてきたという。既存の「akagai」は食材ページで、本品は調理された郷土料理のため新規作成。",
+   "summary_en": "Ark shell clams from Lake Nakaumi are steamed in their shells in a soy-seasoned broth, also known as akagai no kara-mushi. The name 'garan' is said to come either from a slurred 'kara' (shell) or the rattling sound made while rinsing the shells — a dish long kept for New Year's.",
+   "sources": [
+    {
+     "title": "赤貝がらん蒸し 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/akagaigarammushi_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "akagai-garan-mushi",
+     "to_slug": "koi-no-itozukuri",
+     "relation_type": "対比",
+     "basis": "どちらも松江周辺の汽水湖でとれる食材を使う祝い料理だが、中海の赤貝と宍道湖のコイという水域の違いで対比できる。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "agonoko-umani",
+   "name_ja": "アゴの子旨煮",
+   "name_romaji": "Agonoko Umani",
+   "name_en": "Agonoko umani — simmered roe from egg-bearing flying fish",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "隠岐の島町",
+   "lat": 36.2036,
+   "lng": 133.3268,
+   "summary_ja": "初夏にとれる子持ちトビウオの卵、アゴの子を出汁と醤油で炒め煮にした隠岐の酒の肴。粒が大きくねっとりとした食感が特徴で、しょうがを添えると魚卵特有のクセが和らぐという。",
+   "summary_en": "The roe of egg-bearing flying fish, caught only in early summer, is simmered in stock and soy sauce as an Oki bar snack. Its large grains and dense, sticky texture are prized as a delicacy said to be scarcer even than the fish's flesh.",
+   "sources": [
+    {
+     "title": "アゴの子旨煮 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/agonokoumani_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "agonoko-umani",
+     "to_slug": "ago-yaki",
+     "relation_type": "使用食材",
+     "basis": "どちらも島根特産のトビウオ（アゴ）を使う加工品で、卵と身の違う部位を使う関係にある。"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "dojo-kenchin-jiru",
+   "name_ja": "ドジョウのけんちんじる",
+   "name_romaji": "Dojo Kenchin Jiru",
+   "name_en": "Dojo kenchin jiru — loach kenchin soup from Yasugi",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "安来市",
+   "lat": 35.4342,
+   "lng": 133.2419,
+   "summary_ja": "安来市に伝わる、ドジョウをごぼうや大根、しいたけと一緒にすまし汁仕立てで煮たけんちん汁。「ウナギ一匹ドジョウ一匹」と言われる養生食で、田植え後の泥落としに食べられたという。既存の「dojo」は食材ページで、本品は調理された郷土料理のため新規作成。",
+   "summary_en": "Loach is simmered with burdock, daikon, and shiitake in a clear soy broth in Yasugi, said to embody the old saying that one loach is worth one eel for stamina — traditionally eaten after washing the mud off from rice planting.",
+   "sources": [
+    {
+     "title": "ドジョウのけんちんじる 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/dojonokenchinjiru_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "dojo-kenchin-jiru",
+     "to_slug": "unagi-dofu",
+     "relation_type": "対比",
+     "basis": "どちらも島根の淡水・汽水域の生き物を主役にした鍋仕立ての料理で、ドジョウとうなぎという違いで対比できる。"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fukinoto-miso",
+   "name_ja": "ふきのとう味噌",
+   "name_romaji": "Fukinoto Miso",
+   "name_en": "Fukinoto miso — butterbur sprouts folded into sweetened miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "松江市",
+   "lat": 35.4723,
+   "lng": 133.0505,
+   "summary_ja": "田畑のあぜ道や山林に自生するふきのとうを刻み、白味噌や田舎味噌と和えた常備菜。独特の苦みと香りがごはんのおともや酒の肴として親しまれ、冷凍保存で一年を通してつくられるという。出雲・石見にまたがる広域のため県庁所在地を代表点とした。",
+   "summary_en": "Butterbur sprouts, foraged along paths and hillsides as spring's first green, are chopped and blended with white or country miso. Its bitterness and aroma make it a favorite with rice or sake, and it keeps well frozen for year-round use.",
+   "sources": [
+    {
+     "title": "ふきのとう味噌 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/fukinotomiso_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fukinoto-miso",
+     "to_slug": "kuroda-seri-ohitashi",
+     "relation_type": "対比",
+     "basis": "どちらも島根の冬から春にかけての葉物・山菜を使う簡素な家庭のおかずとして対比できる。"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsumire-ni",
+   "name_ja": "つみれ煮",
+   "name_romaji": "Tsumire Ni",
+   "name_en": "Tsumire ni — simmered fish balls from Shimane's daily catch",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "松江市",
+   "lat": 35.4723,
+   "lng": 133.0505,
+   "summary_ja": "沖ギスやアジ、アゴなどをすり身にし、ごぼうや人参と煮たつみれ煮。長い海岸線を持つ島根の多様な漁でとれる白身魚を無駄なく生かす日常のおかずとされる。出雲・石見・隠岐にまたがる広域のため県庁所在地を代表点とした。",
+   "summary_en": "White fish such as silver gizzard shad, horse mackerel, and flying fish are ground and simmered as fish balls with burdock and carrot — an everyday way of using up Shimane's varied catch along its long coastline.",
+   "sources": [
+    {
+     "title": "つみれ煮 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tsumireni_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tsumire-ni",
+     "to_slug": "tobiuo-no-sashimi",
+     "relation_type": "対比",
+     "basis": "どちらもトビウオ（アゴ）を使う島根の料理だが、つみれ煮はすり身、刺身は生の身という調理法の違いがある。"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sumoji",
+   "name_ja": "すもじ",
+   "name_romaji": "Sumoji",
+   "name_en": "Sumoji — a scattered sushi of whole-grilled mackerel",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "島根県",
+   "origin_city": "雲南市",
+   "lat": 35.1258,
+   "lng": 132.9012,
+   "summary_ja": "雲南市木次・三刀屋地区に伝わる、竹串で丸ごと焼いたサバをほぐして酢飯に混ぜるちらしずしの一種。焼きサバは輸送のため炙って日持ちさせた知恵から生まれたと伝わる。本文で「ちらしすしの一種」と明記されるためジャンルは sushi とした。",
+   "summary_en": "Whole mackerel, skewered and grilled over charcoal in Unnan's Kisuki and Mitoya districts, is flaked and folded into vinegared rice for this scattered sushi — grilling said to have begun as a way to keep the fish from spoiling in transit.",
+   "sources": [
+    {
+     "title": "すもじ 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sumoji_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sumoji",
+     "to_slug": "kakuzushi",
+     "relation_type": "対比",
+     "basis": "どちらも島根のハレの日の酢飯料理だが、すもじは焼きサバのちらしずし、角ずしは魚を使わない押し寿司という違いがある。"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shimane-sazae-meshi",
+   "name_ja": "さざえ飯",
+   "name_romaji": "Sazae Meshi",
+   "name_en": "Sazae meshi — rice cooked with chopped turban shell",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "隠岐の島町",
+   "lat": 36.2036,
+   "lng": 133.3268,
+   "summary_ja": "隠岐でとれるサザエを刻み、ゆで汁で米と炊き込んだ素朴なごはん。正月や祭り、祝宴といった人が集まる場で、岩のりを巻いたのり巻きとして食べられてきたという。石見・出雲の沿岸部にも伝わる広域のため隠岐を代表点とした。石川県の「さざえめし」（sazaemeshi）と読みが同じため県名を冠したスラッグにした。",
+   "summary_en": "Chopped turban shell is cooked into rice with its own simmering liquid, a simple Oki dish rolled into nori maki with local rock nori for New Year's, festivals, and other occasions where people gather.",
+   "sources": [
+    {
+     "title": "さざえ飯 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sazaemeshi_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shimane-sazae-meshi",
+     "to_slug": "oki-arame-no-itameni",
+     "relation_type": "対比",
+     "basis": "どちらも隠岐の海の恵みを使う日常料理で、貝と海藻という食材の違いで対比される。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tobiuo-no-sashimi",
+   "name_ja": "トビウオの刺身",
+   "name_romaji": "Tobiuo no Sashimi",
+   "name_en": "Tobiuo no sashimi — sliced raw flying fish",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "",
+   "lat": 35.4723,
+   "lng": 133.0505,
+   "summary_ja": "県魚にも指定されたトビウオを鮮度のよいうちに刺身にした、初夏を告げる一皿。脂肪の少ない筋肉質の身は淡白で上品な味わいとされ、姿造りにされることもあるという。東部地域・隠岐地方にまたがる広域のため代表点を松江市とした。既存の「tobiuo」は食材ページで、本品は調理された郷土料理のため新規作成。",
+   "summary_en": "Flying fish, Shimane's designated prefectural fish, is sliced raw while still fresh to mark the arrival of early summer. Its lean, muscular flesh is prized for a light, refined flavor and is sometimes served as a whole platter with the head attached.",
+   "sources": [
+    {
+     "title": "トビウオの刺身 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tobiuonosashimi_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tobiuo-no-sashimi",
+     "to_slug": "ago-yaki",
+     "relation_type": "使用食材",
+     "basis": "どちらも島根特産のトビウオ（アゴ）を使う料理・加工品で、刺身は生の身、あご野焼きはすり身という違いがある。"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shimane-kashiwa-mochi",
+   "name_ja": "かしわ餅",
+   "name_romaji": "Kashiwa Mochi",
+   "name_en": "Shimane kashiwa mochi — sweet mochi wrapped in smilax leaf",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "松江市",
+   "lat": 35.4723,
+   "lng": 133.0505,
+   "summary_ja": "かしわの葉が自生しない島根では、サルトリイバラの葉であんもちを包んで蒸す。地域により「かたらもち」「まき」とも呼ばれ、端午の節句や田植え後の労をねぎらう日に食べられている。",
+   "summary_en": "Since true oak doesn't grow wild in Shimane, sweet bean mochi is wrapped in smilax leaf instead and steamed, going by names like katara-mochi or maki depending on the area. It's made for the Boys' Festival and for the day families rest after rice planting.",
+   "sources": [
+    {
+     "title": "かしわ餅 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kashiwamochi_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shimane-kashiwa-mochi",
+     "to_slug": "shimane-sasamaki",
+     "relation_type": "対比",
+     "basis": "どちらも端午の節句前後に葉で包んで蒸す島根の行事食だが、包む葉がサルトリイバラと熊笹で異なる。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shimane-shijimi-jiru",
+   "name_ja": "しじみ汁",
+   "name_romaji": "Shijimi Jiru",
+   "name_en": "Shijimi jiru — Lake Shinji clam soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "出雲市",
+   "lat": 35.3667,
+   "lng": 132.7566,
+   "summary_ja": "宍道湖でとれる大粒のヤマトシジミを、冬は味噌仕立て、夏はすまし仕立てで汁にする日常の一杯。「煮すぎるな」という出雲の言い伝えが残るほど手早く仕上げるのが良いとされる。滋賀県の「しじみ汁」（shijimi-jiru）と読みが同じため県名を冠したスラッグにした。",
+   "summary_en": "Large-grained Yamato clams from Lake Shinji are simmered into a soup — miso-based in winter, clear in summer. A local saying warns against overcooking the clams, so the pot is taken off the heat quickly.",
+   "sources": [
+    {
+     "title": "しじみ汁 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shijimijiru_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shimane-shijimi-jiru",
+     "to_slug": "koi-no-itozukuri",
+     "relation_type": "兄弟",
+     "basis": "どちらも宍道湖七珍に数えられる素材を使う出雲・松江の郷土料理として、本文に「宍道湖七珍」の記載がある。"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "heka",
+   "name_ja": "へか",
+   "name_romaji": "Heka",
+   "name_en": "Heka — a sukiyaki-style seafood hot pot in a flat iron pan",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "大田市",
+   "lat": 35.1928,
+   "lng": 132.4959,
+   "summary_ja": "大田市に伝わる、平たい鉄鍋「へか鍋」で魚介を野菜とすき焼き風に煮る郷土料理。農具の犂の金属部分を鍋代わりにしたのが名の由来と伝わり、一日漁でとれた魚介を豪快に味わう。すき焼き風の鍋料理のため棚を homestyle から hotpot に変更した。",
+   "summary_en": "Fresh seafood is simmered sukiyaki-style with onion and other vegetables in a flat iron pan called a heka nabe in Ota — its name said to come from the plow blade once used in place of a pot. It's shared after a fishing community's New Year vigil at the shrine.",
+   "sources": [
+    {
+     "title": "へか 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/heka_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "heka",
+     "to_slug": "kujira-gohan",
+     "relation_type": "兄弟",
+     "basis": "くじらご飯の由来ページに、石見地方でくじらをすき焼き風にする食べ方が「へか」と呼ばれると明記されている。"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sumashi-zoni",
+   "name_ja": "すまし雑煮",
+   "name_romaji": "Sumashi Zoni",
+   "name_en": "Sumashi zoni — clear New Year's mochi soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "松江市",
+   "lat": 35.4723,
+   "lng": 133.0505,
+   "summary_ja": "醤油仕立てのすまし汁に丸餅を入れた島根全域の雑煮。東部は岩のりとカツオ節、西部は干しアユ出汁と、出汁や具は地域によって異なるという。県内全域の伝承のため県庁所在地を代表点とした。",
+   "summary_en": "Round mochi sit in a clear soy-based broth across Shimane, though the details shift by region: rock nori and bonito flake in the east, dried ayu stock in the west.",
+   "sources": [
+    {
+     "title": "すまし雑煮 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sumashizoni_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sumashi-zoni",
+     "to_slug": "azuki-zoni",
+     "relation_type": "兄弟",
+     "basis": "出雲地方では元旦にすまし雑煮、正月二日から小豆雑煮を食べる地域があると本文にある。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shimane-sasamaki",
+   "name_ja": "笹巻き",
+   "name_romaji": "Sasamaki",
+   "name_en": "Shimane sasamaki — rice-flour dumplings bound in bamboo grass",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "島根県",
+   "origin_city": "雲南市",
+   "lat": 35.1258,
+   "lng": 132.9012,
+   "summary_ja": "練った米粉を熊笹で巻いていぐさで結び、ゆでた端午の節句の伝統食。殺菌効果があるとされる熊笹に子どもの健やかな成長を願う意味が込められ、地域により「ちまき」「まき」とも呼ばれる。秋田県の「笹巻き」（sasamaki）と読みが同じため県名を冠したスラッグにした。",
+   "summary_en": "Kneaded rice flour is shaped, wrapped in kumazasa bamboo grass, tied with rush, and boiled for the Boys' Festival. The grass, believed to have antiseptic properties, is said to carry a wish for children's health; regional names include chimaki and maki.",
+   "sources": [
+    {
+     "title": "笹巻き 島根県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sasamaki_shimane.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shimane-sasamaki",
+     "to_slug": "shimane-kashiwa-mochi",
+     "relation_type": "対比",
+     "basis": "どちらも端午の節句前後に葉で包んで蒸す島根の行事食だが、包む葉が熊笹とサルトリイバラで異なる。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: izumosoba_shimane(出雲そば) — existing_slug=izumo, match_confidence=high、本文も既存説明と一致するため不作成。 判断が必要だった行: kakuzushi_shimane(角ずし/箱ずし) — existing_slug=hako-zushi(箱寿司,大阪府), confidence=medium。大阪の箱寿司は魚介ネタを使うのに対し、島根の角ずし/箱ずしは魚肉を使わない野菜だけの押し寿司で由来・地域も別物のため作成。 suzukinohoshoyaki_shimane/shirauonokakiage_shimane/akagaigarammushi_shimane/dojonokenchinjiru_shimane/tobiuonosashimi_shimane — 既存slug(suzuki/kakiage/akagai/dojo/tobiuo)はいずれも県名なしの一般食材ページであり、こちらは調理済みの具体的な郷土料理のため別物として作成。 kakinamasu_shimane(柿なます) — all-items-ja.txtに岐阜(gifu-kaki-namasu)・宮城(kaki-namasu)の同名料理があるため県名を冠したslug(shimane-kaki-namasu)にした。 sazaemeshi_shimane(さざえ飯) — 石川県sazaemeshi(さざえめし)と読みが同じため県名を冠したslug(shimane-sazae-meshi)にした。 kashiwamochi_shimane(かしわ餅) — 福井県kashiwa-mochi(柏餅)と読みが同じだが、島根はサルトリイバラの葉を使う別物のため県名を冠したslug(shimane-kashiwa-mochi)にした。 shijimijiru_shimane(しじみ汁) — 滋賀県shijimi-jiruと読みが同じため県名を冠したslug(shimane-shijimi-jiru)にした。 sasamaki_shimane(笹巻き) — 秋田県sasamakiと読みが同じため県名を冠したslug(shimane-sasamaki)にした。 棚を変えた行: unagidofu_shimane(うなぎ豆腐) homestyle→hotpot(鍋料理のため)。 koinoitozukuri_shimane(鯉の糸造り) homestyle→raw(刺身に近い生食のため)。 heka_shimane(へか) homestyle→hotpot(すき焼き風の鍋料理のため)。 座標の根拠: 「東部地域」「出雲地方、石見地方など」のような広域・複数地域の伝承地域は、本文中の記述の中心となる市（多くは松江市・出雲市）または県庁所在地(松江市)を代表点として採用し、各itemのsummary_jaまたはrelationsのbasisに広域である旨を記載した。 要判断: uzumemeshi_shimane(うずめ飯)は伝承地域に複数市が列挙されるが、本文の記述量から津和野町を代表点にした。"
+}

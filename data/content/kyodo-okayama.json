@@ -1,0 +1,865 @@
+{
+ "items": [
+  {
+   "slug": "okayama-saba-zushi",
+   "name_ja": "さばずし",
+   "name_romaji": "Okayama Saba Zushi",
+   "name_en": "Okayama saba zushi — pressed sushi of salted mackerel for autumn festivals",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "岡山県",
+   "origin_city": "",
+   "lat": 35.3446,
+   "lng": 133.7726,
+   "summary_ja": "岡山県北部の秋祭りに欠かせない、塩さばを合わせ酢に漬けて型に詰めた棒寿司。交通の不便な山間部で、鳥取から届く塩ものの魚を活かす知恵から生まれたと伝わる。真庭市・高梁市にまたがる広域のため真庭市を代表点とした。",
+   "summary_en": "In Okayama's mountainous north, salted mackerel is cured in vinegar and pressed into rice for a box sushi that's a fixture of autumn festivals — said to have grown from a way of putting salted fish carried in from Tottori to good use in villages far from the sea.",
+   "sources": [
+    {
+     "title": "さばずし 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_2_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "okayama-saba-zushi",
+     "to_slug": "mamakari-zushi",
+     "relation_type": "対比",
+     "basis": "どちらも岡山の祭りに欠かせない魚介の押し・握り寿司で、山間部の塩さばと沿岸部のママカリという違いで対比できる。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mamakari-su-zuke",
+   "name_ja": "ママカリの酢漬け",
+   "name_romaji": "Mamakari Suzuke",
+   "name_en": "Mamakari su-zuke — sweet-vinegar pickled Setouchi sardine",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "",
+   "lat": 34.6551,
+   "lng": 133.9195,
+   "summary_ja": "瀬戸内海でとれる小魚ママカリを、しょうがや昆布入りの甘酢に漬けた岡山の定番。「ご飯を借りに行くほどおいしい」が名の由来とされ、漬かるほど骨まで柔らかくなるという。漬物ジャンルではなく魚介の甘酢漬けの保存食のため棚は fermented、ジャンルは null とした。",
+   "summary_en": "Mamakari, a small Setouchi fish, is salted then cured in a sweet vinegar with ginger and kelp — its name is said to come from a phrase meaning 'so good you'd borrow rice to eat more,' and the longer it cures, the softer even the bones become.",
+   "sources": [
+    {
+     "title": "ママカリの酢漬け 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_3_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mamakari-su-zuke",
+     "to_slug": "mamakari-zushi",
+     "relation_type": "源流",
+     "basis": "本文に「「ままかりずし」は、酢漬けにしたママカリをすしにしたもの」とあり、酢漬けがすしの元になっている。"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hiruzen-okowa",
+   "name_ja": "蒜山おこわ",
+   "name_romaji": "Hiruzen Okowa",
+   "name_en": "Hiruzen okowa — five-ingredient sticky rice from the Hiruzen highlands",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "真庭市",
+   "lat": 35.3446,
+   "lng": 133.7726,
+   "summary_ja": "真庭市蒜山地域に伝わる具だくさんのおこわ。とり肉や栗、ごぼう、小豆に山菜を加えた豪華な内容で、田植え後の祝いや祭りの席に欠かせないという。本文の中心地である蒜山の座標を使用した。",
+   "summary_en": "Glutinous rice steamed with chicken, chestnut, burdock, red beans, and seasonal mountain greens, a hearty five-ingredient okowa from the Hiruzen highlands of Maniwa — said to be a fixture at rice-planting celebrations and local festivals.",
+   "sources": [
+    {
+     "title": "蒜山おこわ 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_4_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hiruzen-okowa",
+     "to_slug": "hiruzen-yakisoba",
+     "relation_type": "対比",
+     "basis": "どちらも真庭市蒜山地域を代表する料理だが、蒜山おこわは伝統の行事食、蒜山焼そばは戦後生まれのご当地グルメという由来の違いがある。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kenbiki-yaki",
+   "name_ja": "けんびき焼き",
+   "name_romaji": "Kenbiki Yaki",
+   "name_en": "Kenbiki yaki — wheat dumplings grilled wrapped in myoga leaf",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "新見市",
+   "lat": 34.9902,
+   "lng": 133.4681,
+   "summary_ja": "新見市で旧暦六月一日の休みの日につくられる、小麦粉の生地をみょうがの葉で包んで焼いた菓子。食べると農作業で疲れた肩がほぐれるという言い伝えが残り、家族みんなで囲んで食べたという。",
+   "summary_en": "Made in Niimi on the old-calendar rest day of the sixth lunar month, a wheat-flour dough is wrapped in fragrant myoga leaf and pan-grilled — said by tradition to loosen the shoulders stiffened by farm work.",
+   "sources": [
+    {
+     "title": "けんびき焼き 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_5_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kenbiki-yaki",
+     "to_slug": "niimi-kenchin-soba",
+     "relation_type": "対比",
+     "basis": "どちらも新見市に伝わる郷土料理で、けんびき焼きは旧暦六月の行事菓子、けんちんそばは冬の麺料理という違いがある。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "todomese",
+   "name_ja": "とどめせ",
+   "name_romaji": "Todomese",
+   "name_en": "Todomese — vinegar-seasoned rice from a Muromachi-era port town",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "岡山県",
+   "origin_city": "瀬戸内市",
+   "lat": 34.6666,
+   "lng": 134.0999,
+   "summary_ja": "瀬戸内市の港町に伝わる、酢を混ぜ込んだ炊き込みごはん。酸っぱくなったどぶろくを炊き込みごはんに入れたのが始まりと伝わり、名は「どぶろくめし」がなまったものという。本文で「煮込み寿司」と説明されるためジャンルは sushi とした。",
+   "summary_en": "A rice pilaf finished with vinegar, from the old port town of Setouchi — said to have begun when sour, spoiled doburoku was stirred into a boatman's rice, and the name itself is a slurring of doburoku-meshi.",
+   "sources": [
+    {
+     "title": "とどめせ 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_6_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "todomese",
+     "to_slug": "okayama-barazushi",
+     "relation_type": "源流",
+     "basis": "本文に「これが「どぶろくめし」の始まりとされ、後の備前ばら寿司の元祖と言われている」と明記されている。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sawara-no-kokozushi",
+   "name_ja": "さわらのこうこずし",
+   "name_romaji": "Sawara no Kokozushi",
+   "name_en": "Sawara no kokozushi — vinegared mackerel sushi with pickled daikon",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "岡山県",
+   "origin_city": "備前市",
+   "lat": 34.7322,
+   "lng": 134.2258,
+   "summary_ja": "備前市日生町で豊漁を祝う寿司。酢に漬けたさわらと千切りのたくあん（こうこ）、木の芽を酢飯に混ぜ込む。もとはさわらだけだった寿司に古漬けが混ざり定着したと伝わる。本文が日生町を名指しするためその座標を使用した。",
+   "summary_en": "In Bizen's Hinase, a sushi celebrating a good catch mixes vinegar-cured Spanish mackerel, shredded aged takuan pickle, and sansho buds into vinegared rice — the pickle said to have started as a garnish before finding its way into the mix itself.",
+   "sources": [
+    {
+     "title": "さわらのこうこずし 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_7_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sawara-no-kokozushi",
+     "to_slug": "okayama-barazushi",
+     "relation_type": "対比",
+     "basis": "どちらも岡山沿岸部の祭り・行事に欠かせない具入り酢飯料理で、地域ごとの具材の違いで対比できる。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kusagina-kakemeshi",
+   "name_ja": "くさぎ菜のかけめし",
+   "name_romaji": "Kusagina Kakemeshi",
+   "name_en": "Kusagina kakemeshi — dried clerodendrum greens over broth-doused rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "吉備中央町",
+   "lat": 34.8271,
+   "lng": 133.7274,
+   "summary_ja": "吉備中央町で、干して戻したくさぎ菜を鶏肉と炒めてごはんにのせ、鶏がらのすまし汁をかけて食べる。独特の強い香りがあり、しっかりアク抜きしてから保存されるという。ごはん主体の料理のため棚を homestyle から rice に変更した。",
+   "summary_en": "Dried, strong-smelling clerodendrum leaves are rehydrated, stir-fried with chicken, and piled over rice, then doused with a clear chicken broth in Kibichuo — the leaves are picked young and carefully leached of bitterness before drying.",
+   "sources": [
+    {
+     "title": "くさぎ菜のかけめし 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_8_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kusagina-kakemeshi",
+     "to_slug": "tofu-meshi",
+     "relation_type": "対比",
+     "basis": "どちらもごはんに具をのせてつゆをかける岡山の「かけめし」型の料理で、具材が山菜と豆腐という違いで対比できる。"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yubeshi",
+   "name_ja": "柚餅子",
+   "name_romaji": "Yubeshi",
+   "name_en": "Yubeshi — a citron confection kneaded with sticky rice flour",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "",
+   "lat": 34.7983,
+   "lng": 133.6167,
+   "summary_ja": "高梁市や矢掛町に伝わる柚子の餅菓子。もち米粉に柚子の皮と水あめを練り込んで仕上げる。江戸期の宿場町で大名にも親しまれたとされ、東北とはことなりくるみではなく柚子を使う。高梁市・矢掛町にまたがる広域のため高梁市を代表点とした。",
+   "summary_en": "Steamed sticky rice flour is kneaded with grated yuzu peel and starch syrup into a chewy sweet in Takahashi and Yakage — where the Tohoku version uses walnut, Okayama's leans on the yuzu grown here, a treat said to have pleased traveling lords at old post towns.",
+   "sources": [
+    {
+     "title": "柚餅子 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_9_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yubeshi",
+     "to_slug": "yuzu-miso",
+     "relation_type": "兄弟",
+     "basis": "どちらも岡山特産のゆずを使う保存食で、柚餅子は餅菓子、柚子味噌は調味料という用途の違いがある。"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "takomeshi",
+   "name_ja": "たこめし",
+   "name_romaji": "Takomeshi",
+   "name_en": "Takomeshi — rice cooked with chunks of Kurashiki octopus",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "倉敷市",
+   "lat": 34.585,
+   "lng": 133.7722,
+   "summary_ja": "潮の速い倉敷市下津井付近でとれる、歯ごたえのよいたこをぶつ切りにして炊き込んだごはん。漁師が船の上で食べていたのが始まりと伝わり、店ごとに具や味付けが異なるという。",
+   "summary_en": "Octopus caught in the fast currents off Kurashiki's Shimotsui, prized for its firm bite, is cut into chunks and cooked into rice — said to have started as something fishermen ate aboard their boats, with each shop now shaping it its own way.",
+   "sources": [
+    {
+     "title": "たこめし 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_10_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "takomeshi",
+     "to_slug": "funa-meshi",
+     "relation_type": "対比",
+     "basis": "どちらも岡山でとれる魚介を炊き込んだごはん料理で、沿岸のたこと内陸水路のフナという違いで対比できる。"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "bachi-jiru",
+   "name_ja": "手延べ素麺のばち汁",
+   "name_romaji": "Bachi Jiru",
+   "name_en": "Bachi jiru — soup made from the trimmed ends of hand-stretched somen",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "浅口市",
+   "lat": 34.5322,
+   "lng": 133.5967,
+   "summary_ja": "浅口市鴨方町で、手延べそうめんをつくる際に端に出る「ばち」を大根や人参と煮た汁物。三味線の撥に形が似ることが名の由来とされ、そうめんよりコシが強く小さな子どもにも食べやすいという。",
+   "summary_en": "The offcut ends of hand-stretched somen, called bachi for their resemblance to a shamisen pick, are simmered with daikon, carrot, and fried tofu in Asakuchi's Kamogata — said to hold a firmer bite than the somen strands themselves.",
+   "sources": [
+    {
+     "title": "手延べ素麺のばち汁 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_11_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "bachi-jiru",
+     "to_slug": "takakibi-dango-jiru",
+     "relation_type": "対比",
+     "basis": "どちらも粉物を具にした岡山の汁物で、そうめんの端切れとたかきび団子という素材の違いで対比できる。"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ami-to-daikon-no-nitsuke",
+   "name_ja": "あみとだいこんの煮付け",
+   "name_romaji": "Ami to Daikon no Nitsuke",
+   "name_en": "Ami to daikon no nitsuke — small shrimp simmered with daikon",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "",
+   "lat": 34.6551,
+   "lng": 133.9195,
+   "summary_ja": "瀬戸内で秋の訪れを告げる、小エビのアミをだいこんと醤油や砂糖で煮付けた一皿。脂ののったアミとだいこんの相性がよく、荒天で漁に出られない冬場は塩漬けにして食べ継いだという。",
+   "summary_en": "Tiny Setouchi shrimp called ami, richest in early autumn, are simmered with daikon in soy sauce and sugar — a pairing said to have grown from the two coming into season together, with a salted version kept for winter when rough seas kept boats ashore.",
+   "sources": [
+    {
+     "title": "あみとだいこんの煮付け 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_12_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ami-to-daikon-no-nitsuke",
+     "to_slug": "ishimochi-jako-karaage",
+     "relation_type": "対比",
+     "basis": "どちらも瀬戸内海沿岸でとれる小さな魚介を無駄なく使う日常料理で、煮付けと唐揚げという調理法の違いで対比できる。"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "buri-zoni",
+   "name_ja": "ブリ雑煮",
+   "name_romaji": "Buri Zoni",
+   "name_en": "Buri zoni — New Year's mochi soup with yellowtail",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "高梁市",
+   "lat": 34.7983,
+   "lng": 133.6167,
+   "summary_ja": "岡山県南部で正月に食べる、出世魚ブリを具にした雑煮。ほうれん草や大根、百合根などの根菜を合わせ、縁起のよいブリで新年を祝う家庭料理として親しまれている。既存の「ブリ」は魚の食材ページで、本品は調理された正月料理のため新規作成。",
+   "summary_en": "In southern Okayama, New Year's zoni is built around yellowtail, a fish that changes name as it grows and so is read as auspicious, simmered with spinach, daikon, and other root vegetables — a dish passed down through the generations for the New Year's table.",
+   "sources": [
+    {
+     "title": "ブリ雑煮 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_13_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "buri-zoni",
+     "to_slug": "kuromame-chirashizushi",
+     "relation_type": "対比",
+     "basis": "どちらも岡山のハレの日に食べられる縁起物の料理で、正月のブリ雑煮と祭り・法事のちらしずしという場面の違いがある。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "takakibi-dango-jiru",
+   "name_ja": "たかきび団子汁",
+   "name_romaji": "Takakibi Dango Jiru",
+   "name_en": "Takakibi dango jiru — sorghum dumpling soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "",
+   "lat": 34.6767,
+   "lng": 133.7458,
+   "summary_ja": "中国大陸由来の雑穀たかきびを粉にして団子にし、ごぼうや大根、しいたけと一緒に醤油だしで煮た汁。手間のかかるあく抜きを経てつくられ、豊作と無病息災を願って食べるという。総社市・井原市・高梁市・新見市にまたがる広域のため総社市を代表点とした。",
+   "summary_en": "Takakibi, a sorghum grain that reached Japan from the Asian mainland, is milled and shaped into dumplings, then simmered in a soy broth with burdock, daikon, and shiitake — made after a laborious leaching process, and eaten once a year for a good harvest and good health.",
+   "sources": [
+    {
+     "title": "たかきび団子汁 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_14_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "takakibi-dango-jiru",
+     "to_slug": "bachi-jiru",
+     "relation_type": "対比",
+     "basis": "どちらも粉物を具にした岡山の汁物で、たかきび団子とそうめんの端切れという素材の違いで対比できる。"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ishimochi-jako-karaage",
+   "name_ja": "いしもちじゃこの唐揚げ",
+   "name_romaji": "Ishimochi Jako Karaage",
+   "name_en": "Ishimochi jako karaage — deep-fried small cardinalfish",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "岡山県",
+   "origin_city": "",
+   "lat": 34.6551,
+   "lng": 133.9195,
+   "summary_ja": "瀬戸内で春から夏にとれる小魚、いしもちじゃこを頭ごと揚げた唐揚げ。身は少ないが骨ごと食べると、ほのかな甘みが感じられるという。塩をふってお酒のあてにも重宝される。既存の「唐揚げ」は一般的な調理法のページで、本品は特定魚種の別の郷土料理のため新規作成。",
+   "summary_en": "Small cardinalfish caught in the Setouchi from spring through summer are deep-fried whole, head and bones included — the flesh is scant, but eaten bones and all it's said to carry a faint sweetness, and it's a favorite with a sprinkle of salt and a drink.",
+   "sources": [
+    {
+     "title": "いしもちじゃこの唐揚げ 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_16_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ishimochi-jako-karaage",
+     "to_slug": "ami-to-daikon-no-nitsuke",
+     "relation_type": "対比",
+     "basis": "どちらも瀬戸内海沿岸でとれる小さな魚介を無駄なく使う日常料理で、唐揚げと煮付けという調理法の違いで対比できる。"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shishi-nabe",
+   "name_ja": "しし鍋",
+   "name_romaji": "Shishi Nabe",
+   "name_en": "Shishi nabe — miso hot pot with wild boar",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "",
+   "lat": 35.0064,
+   "lng": 134.2242,
+   "summary_ja": "岡山県北部の美作地域で、冬の貴重なたんぱく源として食べられてきたイノシシ肉の味噌鍋。カツオや昆布でとった出汁に味噌を溶き、猟師をはじめ一般家庭でも親しまれているという。美作地域全体の広域のため美作市を代表点とした。",
+   "summary_en": "In the mountainous Mimasaka area of northern Okayama, wild boar is simmered in a miso broth built on bonito and kelp stock — long relied on by hunters and households alike as a hearty source of protein through the winter.",
+   "sources": [
+    {
+     "title": "しし鍋 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_17_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shishi-nabe",
+     "to_slug": "chiya-gyu",
+     "relation_type": "対比",
+     "basis": "どちらも岡山県北部の山間地域を代表する肉料理・銘柄で、狩猟のイノシシと飼育の牛という違いで対比できる。"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iidako-no-nitsuke",
+   "name_ja": "いいだこの煮つけ",
+   "name_romaji": "Iidako no Nitsuke",
+   "name_en": "Iidako no nitsuke — simmered egg-bearing baby octopus",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "倉敷市",
+   "lat": 34.585,
+   "lng": 133.7722,
+   "summary_ja": "倉敷市児島の下津井周辺でとれる、卵をたっぷり抱えたイイダコを醤油味で煮つけた冬の一皿。「イイダコは墨が値打ち」とも言われ、墨ごと味わう食べ方も伝わる、小さな体に見合わぬ濃い味の料理という。",
+   "summary_en": "Small octopus caught off Kurashiki's Shimotsui, their bodies packed with rice-grain-sized eggs, are simmered in a soy broth through winter — locals say the ink, too, holds the flavor, though many still remove the ink sac before cooking.",
+   "sources": [
+    {
+     "title": "いいだこの煮つけ 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_18_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "iidako-no-nitsuke",
+     "to_slug": "takomeshi",
+     "relation_type": "対比",
+     "basis": "どちらも倉敷市下津井周辺でとれるタコを使う料理で、いいだこの煮つけと丸ごと炊き込むたこめしという違いで対比できる。"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "demi-katsudon",
+   "name_ja": "デミかつ丼",
+   "name_romaji": "Demi Katsudon",
+   "name_en": "Demi katsudon — pork cutlet rice bowl in demi-glace sauce",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "donburi",
+   "origin_pref": "岡山県",
+   "origin_city": "岡山市",
+   "lat": 34.6551,
+   "lng": 133.9195,
+   "summary_ja": "揚げたてのとんかつに熱々のデミグラスソースをかけた岡山市発祥のご当地丼。東京のホテルの洋食に感動した老舗の創業者が考案したと伝わり、店ごとにトッピングが違うという。",
+   "summary_en": "A freshly fried pork cutlet is doused in hot demi-glace sauce over rice, a bowl said to have been devised by the founder of an old Okayama City restaurant after being won over by Western-style cooking at a Tokyo hotel — toppings vary shop to shop.",
+   "sources": [
+    {
+     "title": "デミかつ丼 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_20_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "demi-katsudon",
+     "to_slug": "tsuyama-horumon-udon",
+     "relation_type": "対比",
+     "basis": "どちらも昭和以降に生まれた岡山のご当地グルメで、B-1グランプリなどのイベントを通じて発信されてきた点が共通する。"
+    }
+   ],
+   "tags": [
+    "yoshoku"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ki-nira-ohitashi",
+   "name_ja": "黄ニラのおひたし",
+   "name_romaji": "Ki Nira Ohitashi",
+   "name_en": "Ki-nira ohitashi — blanched yellow chives",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "",
+   "lat": 34.6551,
+   "lng": 133.9195,
+   "summary_ja": "全国生産量の七割を占める岡山特産の黄ニラを、塩ゆでしてごま油や醤油で和えたおひたし。太陽の光を遮って育てる遮光栽培により、繊維が柔らかく生でも食べられる甘みが出るという。岡山市・赤磐市にまたがる広域のため岡山市を代表点とした。",
+   "summary_en": "Yellow chives, an Okayama specialty accounting for some seven-tenths of the country's supply, are blanched and dressed with sesame oil and soy sauce — grown shaded from sunlight, a method said to soften the fiber and bring out a sweetness fresh enough to eat raw.",
+   "sources": [
+    {
+     "title": "黄ニラのおひたし 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_21_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ki-nira-ohitashi",
+     "to_slug": "shiso-no-mi-tsukudani",
+     "relation_type": "対比",
+     "basis": "どちらも岡山の家庭で日常的に食べられる簡素な野菜のおかずで、黄ニラとしその実という素材の違いで対比できる。"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shiso-no-mi-tsukudani",
+   "name_ja": "しその実の佃煮",
+   "name_romaji": "Shiso no Mi Tsukudani",
+   "name_en": "Shiso no mi tsukudani — soy-simmered shiso seed",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "美作市",
+   "lat": 35.0064,
+   "lng": 134.2242,
+   "summary_ja": "美作地域で夏につくられる、しその実をしょうゆとみりんで汁気がなくなるまで煮詰めた佃煮。ピリッとした風味があり、しらす干しと合わせてごはんのお供として食卓に並ぶという。",
+   "summary_en": "Shiso seeds, stripped from the stem in summer around Mimasaka, are simmered down with soy sauce and mirin until the liquid is gone — a peppery little condiment kept on the table as a rice companion.",
+   "sources": [
+    {
+     "title": "しその実の佃煮 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_22_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shiso-no-mi-tsukudani",
+     "to_slug": "ki-nira-ohitashi",
+     "relation_type": "対比",
+     "basis": "どちらも岡山の家庭で日常的に食べられる簡素な野菜のおかずで、しその実と黄ニラという素材の違いで対比できる。"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "funa-meshi",
+   "name_ja": "鮒めし",
+   "name_romaji": "Funameshi",
+   "name_en": "Funameshi — crucian carp broth ladled over rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "",
+   "lat": 34.5061,
+   "lng": 133.9453,
+   "summary_ja": "児島湾の干拓地に育った水路でとれる寒鮒を、まな板で叩いてミンチにし、根菜と炒め煮した汁を熱いごはんにかけて食べる。「とんとこ汁」とも呼ばれ、冬の寒い日の料理として伝わる。矢掛町・玉野市・八浜にまたがる広域のため玉野市を代表点とした。",
+   "summary_en": "Crucian carp caught in the waterways of the reclaimed Kojima Bay farmland, at their least fishy in the cold season, are minced by hand and simmered with root vegetables, the rich broth then ladled over hot rice — also known as tonto-ko-jiru for the sound of the knife against the board.",
+   "sources": [
+    {
+     "title": "鮒めし 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_23_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "funa-meshi",
+     "to_slug": "takomeshi",
+     "relation_type": "対比",
+     "basis": "どちらも岡山でとれる魚介を使ったごはん料理で、内陸水路のフナと沿岸のたこという違いで対比できる。"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kuromame-chirashizushi",
+   "name_ja": "黒豆入りちらしずし",
+   "name_romaji": "Kuromame-iri Chirashizushi",
+   "name_en": "Kuromame chirashizushi — scattered sushi with black soybeans",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "岡山県",
+   "origin_city": "美作市",
+   "lat": 35.0064,
+   "lng": 134.2242,
+   "summary_ja": "岡山県北東部の勝英地域特産、大粒の黒豆「作州黒」を煎ってすし飯に炊き込んだちらしずし。酢を合わせると桜色に染まり、祭りや法事などハレの日に岡山各地でつくられるばらずしの一種という。",
+   "summary_en": "Sakushu-guro, a large-grained black soybean grown in northeastern Okayama's Shoei area, is roasted and cooked into the rice for this scattered sushi, which turns a cherry-blossom pink once vinegared — a version of the barazushi made across Okayama for festivals and family gatherings.",
+   "sources": [
+    {
+     "title": "黒豆入りちらしずし 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_24_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kuromame-chirashizushi",
+     "to_slug": "okayama-barazushi",
+     "relation_type": "対比",
+     "basis": "本文に「県全域で作られているばら寿司同様に、お祭りや法事などの集まりに提供される」とあり、岡山ばらずしの黒豆版という位置づけが読み取れる。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tofu-meshi",
+   "name_ja": "豆腐飯",
+   "name_romaji": "Tofu Meshi",
+   "name_en": "Tofu meshi — crumbled tofu and vegetables over rice in a light broth",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "高梁市",
+   "lat": 34.7983,
+   "lng": 133.6167,
+   "summary_ja": "商家の仏事料理として広まったとされる精進料理。つぶして炒った豆腐をご飯にのせ、しいたけやかんぴょうを煮た薄味のつゆをかけて食べる。手に入りやすい材料からできた家庭料理という。ごはん主体の料理のため棚を homestyle から rice に変更した。",
+   "summary_en": "Said to have spread as a Buddhist memorial dish among merchant households, crumbled and pan-fried tofu is set over rice and doused with a light broth simmered with shiitake and dried gourd shavings — made from cheap, easy-to-find ingredients that turned it into an everyday dish.",
+   "sources": [
+    {
+     "title": "豆腐飯 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_26_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tofu-meshi",
+     "to_slug": "kusagina-kakemeshi",
+     "relation_type": "対比",
+     "basis": "どちらもごはんに具をのせてつゆをかける岡山の「かけめし」型の料理で、具材が豆腐と山菜という違いで対比できる。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yuzu-miso",
+   "name_ja": "柚子味噌",
+   "name_romaji": "Yuzu Miso",
+   "name_en": "Yuzu miso — citron-scented sweetened miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "岡山県",
+   "origin_city": "井原市",
+   "lat": 34.4886,
+   "lng": 133.4653,
+   "summary_ja": "県内有数のゆずの産地、井原市に伝わる万能調味料。ゆずの皮を煮て味噌や砂糖、水あめと合わせる。秋から冬に仕込まれ、ごはんにのせたりゆでた野菜につけたりして食べられている。",
+   "summary_en": "In Ibara, one of Okayama's leading yuzu-growing areas, yuzu peel is simmered and worked into a miso paste with sugar and starch syrup — made in the autumn and winter harvest season and served over rice or alongside boiled vegetables.",
+   "sources": [
+    {
+     "title": "柚子味噌 岡山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/41_28_okayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yuzu-miso",
+     "to_slug": "yubeshi",
+     "relation_type": "兄弟",
+     "basis": "どちらも岡山特産のゆずを使う保存食で、柚子味噌は調味料、柚餅子は餅菓子という用途の違いがある。"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: 41_1_okayama(まつりずし) — 台帳にexisting_slugの記載はないが、本文に「まつりずしは、「岡山ばらずし」「備前ばら寿司」とも呼ばれ」と明記されており、既存slug okayama-barazushi(岡山ばらずし)と同一料理と判断し不作成（all-items-ja.txt突合で判明）。 41_15_okayama(けんちんそば) — existing_slug=niimi-kenchin-soba, confidence=high、伝承地域(新見市)も一致するため不作成。 41_19_okayama(ホルモンうどん) — existing_slug=tsuyama-horumon-udon, confidence=low だが、本文が「津山ホルモンうどん」そのものを説明しており同一と確認できたため不作成。 41_25_okayama(そばどじょう鍋) — existing_slug=soba-dojo-nabe, confidence=high、伝承地域(美作市・鏡野町)も一致するため不作成。 41_27_okayama(ままかりずし) — existing_slug=mamakari-zushi, confidence=high、本文も同一のため不作成。 判断が必要だった行: 41_13_okayama(ブリ雑煮)/41_16_okayama(いしもちじゃこの唐揚げ) — 既存slug(buri/karaage)はいずれも県名なしの一般食材・調理法ページであり、こちらは調理済みの具体的な郷土料理のため別物として作成。 41_3_okayama(ママカリの酢漬け) — genre_hint=tsukemono だが、漬物ジャンル(野菜の漬物)ではなく魚介の甘酢漬けという保存食であり、all-items-ja.txtに同名の品も無いため、例外規定に従い棚を fermented・ジャンルを null として作成。 slug衝突回避: 41_2_okayama(さばずし) — 京都府saba-zushi(鯖寿司)と読みが同じため県名を冠したslug(okayama-saba-zushi)にした。 棚を変えた行: 41_8_okayama(くさぎ菜のかけめし) homestyle→rice(ごはんが主体の料理のため)。41_26_okayama(豆腐飯) homestyle→rice(同上)。 座標の根拠: 「瀬戸内海沿岸」「美作地域」のような広域・複数市町村の伝承地域は、本文中の記述の中心となる市、または県庁所在地(岡山市)を代表点として採用し、各itemのsummary_jaに広域である旨を記載した。41_23_okayama(鮒めし)は矢掛町・玉野市・八浜が列挙されるが、本文が児島湾干拓に関する記述中心のため玉野市を代表点にした。 41_4_okayama(蒜山おこわ)・41_7_okayama(さわらのこうこずし)は本文が蒜山・日生町という具体地名を明記しているため、その座標を採用した。"
+}
