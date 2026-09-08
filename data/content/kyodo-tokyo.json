@@ -1,0 +1,737 @@
+{
+ "items": [
+  {
+   "slug": "yanagawa-nabe",
+   "name_ja": "柳川鍋",
+   "name_romaji": "Yanagawa Nabe",
+   "name_en": "Yanagawa Nabe — loach simmered with burdock and egg",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "東京都",
+   "origin_city": "",
+   "lat": 35.7118,
+   "lng": 139.7966,
+   "summary_ja": "開いたどじょうをささがきごぼうとともに割り下で煮て、溶き卵でとじる浅草発祥の鍋。丸ごと酒で酔わせて煮る「丸鍋」、骨を抜いて煮る「ぬき鍋」もあり、卵でとじる柳川鍋はあっさりとした仕上がりになるという。",
+   "summary_en": "Butterflied loach simmers in a soy-sweet broth with shaved burdock, then is set with beaten egg — an Asakusa dish that also comes as maru-nabe (whole loach stunned in sake) and nuki-nabe (deboned loach), the egg making yanagawa-nabe the mildest of the three.",
+   "sources": [
+    {
+     "title": "柳川鍋／どじょう汁 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_4_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yanagawa-nabe",
+     "to_slug": "dojou-jiru",
+     "relation_type": "対比",
+     "basis": "どじょうを使う汁物・鍋料理は栃木にも伝わるが、東京の柳川鍋は卵でとじ、割り下で仕立てる江戸前の鍋料理として発達した"
+    }
+   ],
+   "tags": [
+    "egg"
+   ],
+   "notes": "name_ja: 台帳の「柳川鍋／どじょう汁」から主名を柳川鍋とした。丸鍋・ぬき鍋の呼び分けはsummaryに記載。origin_city: 伝承地域が台東区浅草・駒形、江東区高橋と複数にまたがるため空欄、lat/lngは代表店が集まる浅草を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "edo-zoni",
+   "name_ja": "お雑煮",
+   "name_romaji": "Ozoni",
+   "name_en": "Edo Zoni — clear soy-based mochi soup with grilled mochi",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "東京都",
+   "origin_city": "",
+   "lat": 35.6895,
+   "lng": 139.6917,
+   "summary_ja": "焼いた角餅に鶏肉や小松菜などを添え、昆布とかつお節のすまし汁をかける東京の雑煮。元は味噌仕立てだったが、下総の野田や銚子で醤油づくりが盛んになった元禄期以降、濃口醤油のすまし汁に変わったと伝わる。",
+   "summary_en": "Grilled square mochi is topped with chicken, komatsuna, and other greens, and covered in a clear kelp-and-bonito broth — Edo's own zoni, said to have started miso-based before switching to a dark soy sauce clear broth once soy production took off in nearby Noda and Choshi in the Genroku era.",
+   "sources": [
+    {
+     "title": "お雑煮 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_7_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "edo-zoni",
+     "to_slug": "kurumi-zoni",
+     "relation_type": "対比",
+     "basis": "ともに正月に食べる雑煮だが、江戸雑煮は角餅を焼いて醤油のすまし汁をかけ、岩手のくるみ雑煮は餅をくるみだれに浸けて食べる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "name_ja: 台帳の名称「お雑煮」を採用したが、本文が繰り返し呼ぶ「江戸雑煮」をslug(edo-zoni)に用いた。origin_city: 伝承地域=都内全域のため空欄、lat/lngは都庁所在地を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shokkara-jiru",
+   "name_ja": "しょっから汁",
+   "name_romaji": "Shokkara Jiru",
+   "name_en": "Shokkara Jiru — fermented mackerel-scad soup from the Izu Islands",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "東京都",
+   "origin_city": "",
+   "lat": 33.8703,
+   "lng": 139.5967,
+   "summary_ja": "ムロアジをミンチにして塩で1か月ほど発酵させた「しょっから」に、アシタバやサトイモなど島の野菜を加えて煮る汁物。御蔵島を中心に伊豆諸島に伝わり、伊豆大島では「えんばい汁」と呼ばれるという。",
+   "summary_en": "Minced round scad is salted and left to ferment for about a month into shokkara, then simmered with island vegetables like ashitaba and taro — a soup centered on Mikurajima and shared across the Izu Islands, known on Izu Oshima as enbai-jiru.",
+   "sources": [
+    {
+     "title": "しょっから汁 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_9_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shokkara-jiru",
+     "to_slug": "edo-zoni",
+     "relation_type": "対比",
+     "basis": "ともに東京都内で伝わる郷土の汁物だが、江戸雑煮は都心の正月料理、しょっから汁は伊豆諸島で発酵魚醤を使う島の日常食"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "origin_city: 伝承地域が式根島・新島・御蔵島と複数の島にまたがるため空欄、lat/lngは本文で中心地とされる御蔵島を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tamagoyaki",
+   "name_ja": "玉子焼き",
+   "name_romaji": "Tamagoyaki",
+   "name_en": "Tamagoyaki — thick, sweet rolled omelet, Edo style",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "東京都",
+   "origin_city": "北区",
+   "lat": 35.7539,
+   "lng": 139.7385,
+   "summary_ja": "卵にだし汁と砂糖を合わせ、焦げ目がつくほど厚く焼き上げる関東風の玉子焼き。だしを効かせて焦がさない関西のだし巻き玉子とは対照的で、王子の茶屋「扇屋」が江戸時代から手焼きの味を伝えているという。",
+   "summary_en": "Egg beaten with dashi and sugar is cooked thick, with a bit of char, in the Kanto style — a contrast to Kansai's dashimaki tamago, which favors dashi over sugar and no browning; the teahouse Ogiya in Oji is said to have hand-grilled it this way since the Edo period.",
+   "sources": [
+    {
+     "title": "玉子焼き 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_11_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tamagoyaki",
+     "to_slug": "kanpyo-maki",
+     "relation_type": "兄弟",
+     "basis": "ともに江戸前寿司の仕事として重んじられる一品で、玉子焼きは職人の腕を見る品としても扱われる"
+    }
+   ],
+   "tags": [
+    "egg"
+   ],
+   "notes": "origin_city: 伝承地域=都内全域だが、老舗「王子扇屋」の所在地として本文に具体的に言及される北区を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kanpyo-maki",
+   "name_ja": "かんぴょう巻き",
+   "name_romaji": "Kanpyo Maki",
+   "name_en": "Kanpyo Maki — soy-simmered dried gourd rolled in sushi rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "東京都",
+   "origin_city": "",
+   "lat": 35.6895,
+   "lng": 139.6917,
+   "summary_ja": "甘辛く煮付けたかんぴょうを芯に、酢飯と焼きのりで巻いた江戸前ずしの定番。品川・大森でのり養殖が広まり、浅草紙の製法を応用した焼きのりが「浅草のり」と呼ばれたことで、庶民ものり巻きをつくれるようになったと伝わる。",
+   "summary_en": "Kanpyo, dried gourd strips simmered sweet and savory, is rolled with vinegared rice inside toasted nori — a staple of Edomae sushi, said to have become an everyday roll once nori farming spread through Shinagawa and Omori and the paper-making know-how behind \"Asakusa nori\" made toasted sheets affordable.",
+   "sources": [
+    {
+     "title": "かんぴょう巻き 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_13_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kanpyo-maki",
+     "to_slug": "kanpyo",
+     "relation_type": "使用食材",
+     "basis": "芯に使うかんぴょうそのものの加工品"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域=東京湾周辺・都内全域（広域）のため空欄。lat/lngは都庁所在地を使用。genre: すし飯を使う巻きずしのためsushiとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "jisuke-imo-negi-miso",
+   "name_ja": "治助芋のネギ味噌",
+   "name_romaji": "Jisuke Imo no Negi Miso",
+   "name_en": "Jisuke Imo no Negi Miso — steamed heirloom potato with scallion miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "東京都",
+   "origin_city": "奥多摩町",
+   "lat": 35.8092,
+   "lng": 139.0994,
+   "summary_ja": "奥多摩町小河内地区で100年以上前から育てられてきた治助芋を蒸し、ねぎとかつお節を混ぜたねぎ味噌を添える料理。山梨から嫁いだ女性が持参した芋を治助という人物が持ち帰ったことが名の由来と伝わる、稲作に向かない土地の食材。",
+   "summary_en": "Jisuke potato, an heirloom variety grown around Ogouchi in Okutama for over a century, is steamed and served with a scallion-and-bonito miso — named, it's said, for a man called Jisuke who took home tubers a bride from Yamanashi had brought with her, a crop suited to land too steep and thin for rice.",
+   "sources": [
+    {
+     "title": "治助芋のネギ味噌 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_14_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "jisuke-imo-negi-miso",
+     "to_slug": "okutama-wasabi-tokyo-x-maki",
+     "relation_type": "兄弟",
+     "basis": "ともに奥多摩の地場食材を生かして育まれてきた郷土料理"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "okutama-wasabi-tokyo-x-maki",
+   "name_ja": "おくたまワサビのTOKYO-X巻き",
+   "name_romaji": "Okutama Wasabi no TOKYO-X Maki",
+   "name_en": "Okutama Wasabi no TOKYO-X Maki — grated wasabi rolled in TOKYO-X pork",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "東京都",
+   "origin_city": "奥多摩町",
+   "lat": 35.8092,
+   "lng": 139.0994,
+   "summary_ja": "すりおろした後に残る奥多摩わさびの根を刻んで豚肉（TOKYO X）で巻き、醤油とみりんで焼き上げる料理。2011年の料理コンクールで最優秀賞を受け、地元の食材活用グループが考案した奥多摩の新しい郷土食と伝わる。",
+   "summary_en": "The leftover root of Okutama wasabi, after it's been grated, is chopped and rolled in TOKYO-X pork, then pan-seared with soy sauce and mirin — a newer local dish, born from a 2011 cooking contest win by a group devoted to using Okutama's seasonal ingredients.",
+   "sources": [
+    {
+     "title": "おくたまワサビのTOKYO-X巻き 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_15_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "okutama-wasabi-tokyo-x-maki",
+     "to_slug": "tokyo-x",
+     "relation_type": "使用食材",
+     "basis": "巻きに使う豚肉そのもののブランド"
+    }
+   ],
+   "tags": [
+    "pork"
+   ],
+   "notes": "棚: 台帳ではhomestyleだが、フライパンで焼き上げる調理法のためgrilledに変更。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "anago-zushi",
+   "name_ja": "穴子寿司",
+   "name_romaji": "Anago Zushi",
+   "name_en": "Anago Zushi — simmered conger eel sushi with sweet glaze",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "東京都",
+   "origin_city": "",
+   "lat": 35.6828,
+   "lng": 139.7738,
+   "summary_ja": "甘辛く煮たあなごをシャリにのせ、煮詰めたツメを塗った江戸前ずしの定番ネタ。栄養豊かな川が流れ込む東京湾で育ったあなごは江戸の食文化を支えた魚のひとつで、ぬめりを取り除く下ごしらえに職人の技が問われるという。",
+   "summary_en": "Conger eel, simmered sweet and savory, is laid over sushi rice and brushed with a reduced glaze called tsume — a staple Edomae topping from a fish that thrived in Tokyo Bay's nutrient-rich waters, its slick skin demanding a sushi chef's careful hand to clean.",
+   "sources": [
+    {
+     "title": "穴子寿司 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_18_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "anago-zushi",
+     "to_slug": "edomae-zushi",
+     "relation_type": "兄弟",
+     "basis": "江戸前寿司の代表的なネタのひとつとしてあなごが挙げられている"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域=東京湾周辺（広域）のため空欄。lat/lngは老舗店が集まる日本橋を使用。genre: 寿司ネタを使う寿司のためsushiとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shima-zushi",
+   "name_ja": "島ずし",
+   "name_romaji": "Shima Zushi",
+   "name_en": "Shima Zushi — island-style sushi with soy-marinated fish",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "東京都",
+   "origin_city": "八丈島",
+   "lat": 33.1075,
+   "lng": 139.7854,
+   "summary_ja": "タイやマグロなど伊豆諸島で獲れる魚を醤油だれに漬け、酢飯で握る八丈島の寿司。漁の途中で鮮度を保つ工夫が始まりとされ、ワサビが手に入りにくかったことから練りがらしや島唐辛子入りの醤油を使うなど島ごとに違いがある。",
+   "summary_en": "Fish caught around the Izu Islands, tai and tuna among them, are marinated in soy sauce and shaped into nigiri with vinegared rice — said to have started as a way of keeping fish fresh out on the boat, and varying island to island since wasabi wasn't easy to come by, some using hot mustard, others a soy sauce steeped with island chili.",
+   "sources": [
+    {
+     "title": "島ずし 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_19_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shima-zushi",
+     "to_slug": "edomae-zushi",
+     "relation_type": "対比",
+     "basis": "江戸前ずしのヅケの技法が明治以降に伊豆諸島へ伝わり、ワサビの代わりに島唐辛子醤油やからしを使うなど島独自の発展を遂げた"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "edo-soba",
+   "name_ja": "そば",
+   "name_romaji": "Edo Soba",
+   "name_en": "Edo Soba — Tokyo's soba noodle houses and their customs",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "東京都",
+   "origin_city": "",
+   "lat": 35.6969,
+   "lng": 139.7671,
+   "summary_ja": "そば粉に水とつなぎを加えてこねた麺を、もり・かけで食べる東京のそば文化。「砂場」「更科」「藪」の三系統が江戸そば御三家として知られ、麺の色合いがそれぞれ異なるという。大晦日の年越しそばなど、縁起を担ぐ食べ方も広く根づいている。",
+   "summary_en": "Buckwheat flour, kneaded with water and a binder, is cut into noodles served cold with dipping sauce or hot in broth — Tokyo's soba culture is anchored by three old lineages, Sunaba, Sarashina, and Yabu, each known for a different color of noodle, and by customs like eating soba on New Year's Eve for good luck.",
+   "sources": [
+    {
+     "title": "そば 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_20_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "edo-soba",
+     "to_slug": "jindaiji",
+     "relation_type": "対比",
+     "basis": "ともに東京のそば文化だが、edo-sobaは砂場・更科・藪という町場の老舗の系譜、深大寺そばは寺の門前で振る舞われてきた系譜という異なる由来を持つ"
+    }
+   ],
+   "tags": [
+    "meal_ender"
+   ],
+   "notes": "台帳のexisting_slug=aizu-curry-yakisoba（低確信）は明らかな別県の焼きそばとの誤マッチと判断。既存アイテム「深大寺そば」(jindaiji)とは扱う範囲が異なり（本項は深大寺に限らず砂場・更科・藪など江戸そば全体の系譜を扱う）、別項目として新規作成した。genre: そば（麺）のためsobaとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kohada-no-awazuke",
+   "name_ja": "こはだの粟づけ",
+   "name_romaji": "Kohada no Awazuke",
+   "name_en": "Kohada no Awazuke — vinegared gizzard shad cured with millet",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "東京都",
+   "origin_city": "",
+   "lat": 35.6895,
+   "lng": 139.6917,
+   "summary_ja": "塩でしめて酢漬けにしたこはだを、クチナシで黄色く染めた蒸し粟と交互に重ねて漬ける正月料理。出世魚であるこはだを使うことで縁起を担ぎ、酢を強めにすることで重箱に詰めても日持ちするようにしたと伝わる。",
+   "summary_en": "Kohada, salted and cured in vinegar, is layered with steamed millet dyed yellow with gardenia — the fish is chosen for its status as an auspicious shusse-uo, a species that changes name as it grows, and the vinegar is kept strong enough to hold up packed in a New Year's tiered box.",
+   "sources": [
+    {
+     "title": "こはだの粟づけ 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_21_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kohada-no-awazuke",
+     "to_slug": "kohada",
+     "relation_type": "使用食材",
+     "basis": "主材料であるこはだそのもの"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ],
+   "notes": "棚: 台帳ではhomestyleだが、塩と酢で漬け込む保存食のためfermentedに変更。origin_city: 伝承地域=都内全域のため空欄、lat/lngは都庁所在地を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sakura-mochi",
+   "name_ja": "桜もち",
+   "name_romaji": "Sakura Mochi",
+   "name_en": "Sakura Mochi — bean paste wrapped in salted cherry leaf, Kanto style",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "東京都",
+   "origin_city": "墨田区",
+   "lat": 35.7141,
+   "lng": 139.8107,
+   "summary_ja": "小麦粉の生地を薄く焼いてこしあんを包み、塩漬けの桜の葉で巻いた和菓子。長命寺の門前に住んでいた男性が、隅田堤の落ち葉掃除から思いついたのが始まりと伝わり、花見客に喜ばれて名物になったという。",
+   "summary_en": "A thin crepe-like wheat dough is wrapped around smooth red bean paste and finished in a salted cherry leaf — said to have been dreamed up by a man living at the gate of Chomeiji temple while sweeping fallen leaves off the Sumida riverbank, a treat that caught on with flower-viewing crowds.",
+   "sources": [
+    {
+     "title": "桜もち 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_22_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sakura-mochi",
+     "to_slug": "imo-youkan",
+     "relation_type": "対比",
+     "basis": "ともに江戸・浅草周辺で庶民の知恵から生まれた和菓子で、桜もちは土手の落ち葉、いもようかんは身近なさつまいもを活かして考案された"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "imo-youkan",
+   "name_ja": "いもようかん",
+   "name_romaji": "Imo Youkan",
+   "name_en": "Imo Youkan — sweet potato paste set like yokan",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "東京都",
+   "origin_city": "台東区",
+   "lat": 35.7118,
+   "lng": 139.7966,
+   "summary_ja": "蒸してつぶしたさつまいもに砂糖を加え、練り上げてようかん状にした和菓子。高価だった練りようかんの代わりにと、浅草の芋問屋と菓子職人が明治期に考案したと伝わり、庶民に手が届く甘味として親しまれてきた。",
+   "summary_en": "Steamed sweet potato is mashed and worked with sugar into a paste set like yokan — said to have been devised in the Meiji era by an Asakusa potato wholesaler and a confectioner as an affordable stand-in for the pricier bean-paste yokan of the day.",
+   "sources": [
+    {
+     "title": "いもようかん 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_23_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "imo-youkan",
+     "to_slug": "sakura-mochi",
+     "relation_type": "対比",
+     "basis": "ともに江戸・浅草周辺で庶民の知恵から生まれた和菓子"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsukudani",
+   "name_ja": "佃煮",
+   "name_romaji": "Tsukudani",
+   "name_en": "Tsukudani — seafood simmered dark in soy sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "東京都",
+   "origin_city": "中央区",
+   "lat": 35.6631,
+   "lng": 139.7844,
+   "summary_ja": "白魚やのり、貝など小さな魚介を醤油やみりん、砂糖で汁気がなくなるまで煮詰めた保存食。徳川家康が摂津国佃村から漁師を移住させた佃島にちなむ名で、紀州から伝わったたまり醤油を使ったことで貯蔵性が高まったと伝わる。",
+   "summary_en": "Small seafood — whitebait, nori, shellfish — is simmered down in soy sauce, mirin, and sugar until the liquid is gone, a preserve named for Tsukudajima, the island Tokugawa Ieyasu settled with fishermen brought from Tsukuda village in Settsu; using thick tamari soy sauce from Kishu is said to be what gave it its keeping power.",
+   "sources": [
+    {
+     "title": "佃煮 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_25_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tsukudani",
+     "to_slug": "choshi-shoyu",
+     "relation_type": "使用食材",
+     "basis": "江戸の佃煮づくりを支えた濃口・たまり系醤油の産地として、隣接する千葉県銚子の醤油が知られる"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=都内全域だが、発祥地として本文に名指しされる佃島（中央区佃）を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "negima-nabe",
+   "name_ja": "ねぎま鍋",
+   "name_romaji": "Negima Nabe",
+   "name_en": "Negima Nabe — tuna and leek hot pot, the original negima",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "東京都",
+   "origin_city": "葛飾区",
+   "lat": 35.7438,
+   "lng": 139.8469,
+   "summary_ja": "ぶつ切りのまぐろとねぎを醤油だれでさっと煮る、江戸生まれの小鍋料理。今は高値のトロも江戸時代は日持ちしない下品な部位とされ、痛みやすい脂身を火にかけて食べる工夫から生まれたと伝わる。焼き鳥の「ねぎま」はこの鍋の名を受け継いだ料理とされる。",
+   "summary_en": "Chunks of tuna and leek are quickly simmered in a soy-based broth — a small-pot dish born in Edo, when today's prized fatty toro was considered a lesser cut too perishable to serve raw, and cooking it with leek became the fix. Yakitori's negima skewer is said to have inherited only the name from this dish.",
+   "sources": [
+    {
+     "title": "ねぎま鍋 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_26_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "negima-nabe",
+     "to_slug": "negima",
+     "relation_type": "源流",
+     "basis": "まぐろとねぎを煮た江戸のねぎま鍋が原型で、まぐろが高値になったのちに鶏肉の串焼き「ねぎま」へ名前だけが受け継がれたと、negima側の由来にも記されている"
+    }
+   ],
+   "tags": [],
+   "notes": "既存アイテム「ねぎま」(negima)は鶏肉の焼き鳥だが、本項は原型とされるまぐろとねぎの鍋料理であり別物のため新規作成。台帳のexisting_slug=negima（低確信）はこの誤マッチと判断。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kinpira",
+   "name_ja": "きんぴら",
+   "name_romaji": "Kinpira",
+   "name_en": "Kinpira — burdock and carrot stir-fried sweet-savory with chili",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "東京都",
+   "origin_city": "北区",
+   "lat": 35.746,
+   "lng": 139.7372,
+   "summary_ja": "千切りのごぼうとにんじんを油で炒め、砂糖と醤油、唐辛子で仕上げる惣菜。江戸東京野菜の滝野川ごぼうが名産だった北区滝野川にちなみ、ごぼうの歯ごたえを浄瑠璃の勇ましい主人公・坂田金平になぞらえて名づけられたと伝わる。",
+   "summary_en": "Julienned burdock and carrot are stir-fried in oil, then finished sweet and savory with soy sauce and chili — named, it's said, for Sakata Kinpira, a swaggering hero of old puppet theater, his strength likened to the crunch of burdock long grown in Takinogawa, in what's now Tokyo's Kita ward.",
+   "sources": [
+    {
+     "title": "きんぴら 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_27_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kinpira",
+     "to_slug": "joshu-kinpira",
+     "relation_type": "対比",
+     "basis": "江戸で生まれたごぼうのきんぴらに対し、群馬には地名を冠した「上州きんぴら」という派生系が伝わる"
+    }
+   ],
+   "tags": [
+    "spicy"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chanko-nabe",
+   "name_ja": "ちゃんこ鍋",
+   "name_romaji": "Chanko Nabe",
+   "name_en": "Chanko Nabe — the sumo stable's communal hot pot",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "東京都",
+   "origin_city": "墨田区",
+   "lat": 35.6968,
+   "lng": 139.7965,
+   "summary_ja": "鶏肉や白菜、豆腐などを出汁でまとめて煮込む、相撲部屋発祥の鍋。明治期に始まったとされ、手をつくことが負けを連想させるとして牛や豚など四足の肉を避けてきたと伝わる。両国を中心に元力士が営む店で味が受け継がれている。",
+   "summary_en": "Chicken, napa cabbage, tofu, and more simmer together in broth — a hot pot born in sumo stables, said to date to the Meiji era, when four-legged meat like beef and pork was avoided since touching a hand to the ground echoed a loss in the ring. Former wrestlers still run chanko restaurants around Ryogoku, keeping their stable's flavor.",
+   "sources": [
+    {
+     "title": "ちゃんこ鍋 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_28_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "chanko-nabe",
+     "to_slug": "sukiyaki",
+     "relation_type": "対比",
+     "basis": "ともに東京の鍋料理文化だが、すき焼きは牛肉を主役にしたハレの鍋、ちゃんこ鍋は力士の体づくりのために大量の具材を煮込む鍋"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kushi-dango",
+   "name_ja": "串だんご",
+   "name_romaji": "Kushi Dango",
+   "name_en": "Kushi Dango — skewered rice dumplings, four to a stick",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "東京都",
+   "origin_city": "葛飾区",
+   "lat": 35.7539,
+   "lng": 139.8737,
+   "summary_ja": "上新粉と白玉粉をこねて丸めただんごを茹で、あんやみたらしだれ、きな粉をつけて食べる串団子。柴又帝釈天の門前が名所として知られ、東京では一串4つ刺しが主流で、関西の5つ刺しとは数が異なると伝わる。",
+   "summary_en": "Dumplings kneaded from rice flours are boiled and skewered, then dipped in red bean paste, sweet soy glaze, or kinako — the approach to a temple gate stall in Shibamata is a well-known spot for them, and Tokyo's sticks are said to run four dumplings each, one short of the five common in Kansai.",
+   "sources": [
+    {
+     "title": "串だんご 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_29_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kushi-dango",
+     "to_slug": "sakura-mochi",
+     "relation_type": "対比",
+     "basis": "ともに東京で庶民のおやつとして定着した和菓子で、串だんごは参道の茶店文化、桜もちは花見文化から生まれた"
+    }
+   ],
+   "tags": [
+    "skewered"
+   ],
+   "notes": "origin_city: 伝承地域=都内全域だが、名所として本文に具体的に言及される柴又帝釈天の所在地・葛飾区を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "udo-no-sumiso-ae",
+   "name_ja": "うどの酢味噌和え",
+   "name_romaji": "Udo no Sumiso-ae",
+   "name_en": "Udo no Sumiso-ae — blanched udo dressed in sweet vinegar miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "東京都",
+   "origin_city": "武蔵野市",
+   "lat": 35.7031,
+   "lng": 139.5799,
+   "summary_ja": "光を当てずに地下の室で育てた東京うどを短冊に切り、さっと湯にくぐらせて酢味噌で和える料理。関東ローム層の地質が栽培に適したことから江戸東京野菜として定着し、独特の香りとあくの少なさが特徴と伝わる。",
+   "summary_en": "Udo grown light-free in an underground pit is cut into strips, quickly blanched, and dressed with sweet vinegared miso — a Tokyo heirloom vegetable that took root in the Kanto loam soil around what's now Musashino, prized for its aroma and the mildness that comes from never seeing the sun.",
+   "sources": [
+    {
+     "title": "うどの酢味噌和え 東京都 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_30_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "udo-no-sumiso-ae",
+     "to_slug": "kinpira",
+     "relation_type": "対比",
+     "basis": "ともに江戸東京野菜を使った東京の家庭料理だが、うどは酢みそ和え、ごぼうはきんぴらという異なる調理法をとる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域=北多摩地区（広域）だが、栽培発祥地として本文に具体的に言及される武蔵野八幡宮周辺（武蔵野市）を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行（既存slugが高確信で一致）: 34_1_tokyo(深川めし/深川丼→fukagawa-don)、34_5_tokyo(おでん→oden)、34_10_tokyo(コロッケ→korokke)、34_12_tokyo(親子丼→oyakodon)、34_16_tokyo(のしこみうどん→noshikomi-udon)、34_17_tokyo(すき焼き→sukiyaki)。作らなかった行（既存アイテムと出典・内容が同一）: 34_2_tokyo(にぎりずし)は既存アイテムedomae-zushiの出典が同じdetail_url(34_2_tokyo)であり同一項目のため作らず。34_6_tokyo(てんぷら)は既存アイテムtempuraの出典が同じdetail_url(34_6_tokyo)であり同一項目のため作らず。34_3_tokyo(もんじゃ焼き)は既存アイテムmonjayakiと同一の郷土料理のため作らず。34_8_tokyo(べったら漬け)はgenre_hint=tsukemono、かつ既存slug bettara-zuke（高確信）のため作らず。低確信2件の判断: 34_20_tokyo(そば、existing_slug=aizu-curry-yakisoba)は別県の焼きそばとの明らかな誤マッチと判断。既存アイテムjindaiji（深大寺そば）とは扱う範囲（深大寺限定 vs 江戸そば御三家全体）が異なるため、別項目として新規作成(edo-soba)。34_26_tokyo(ねぎま鍋、existing_slug=negima)は既存アイテムnegimaが鶏肉の焼き鳥であり、本項はその原型とされるまぐろとねぎの鍋料理で別物と判断し新規作成(negima-nabe)。要判断（見送り）: 34_24_tokyo(鰻のかば焼き)は既存の全国的アイテムunagi-kabayaki（national-dishes.json）が関東式（蒸し工程）や関西式との違いをすでに詳述しており内容の重複度が高いため、新規作成を見送った。江戸前の語源や土用の丑の日の逸話など独自の記述もあり、境界的な判断であることを付記する。棚を変えた行: 34_15_tokyo(おくたまワサビのTOKYO-X巻き、homestyle→grilled、焼き上げる調理のため)、34_21_tokyo(こはだの粟づけ、homestyle→fermented、塩と酢の漬け込み保存食のため)。genreを付与した行: 34_13_tokyo・34_18_tokyo・34_19_tokyo(sushi、すし飯を使う寿司のため)、34_20_tokyo(soba、そば粉の麺のため)。"
+}

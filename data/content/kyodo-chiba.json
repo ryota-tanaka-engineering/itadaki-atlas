@@ -1,0 +1,1048 @@
+{
+ "items": [
+  {
+   "slug": "futomaki-zushi",
+   "name_ja": "太巻ずし",
+   "name_romaji": "Futomaki Zushi",
+   "name_en": "Futomaki Zushi — Boso's picture-cut sushi roll",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "千葉県",
+   "origin_city": "",
+   "lat": 35.6073,
+   "lng": 140.1065,
+   "summary_ja": "酢飯に卵焼きや干瓢、青菜、桜でんぶを組み合わせ、巻いて切ると華やかな絵柄が現れる太巻き。房総の農家で祭りや節句のたびにつくられ、断面の図柄を見せ合う楽しみが受け継がれてきたと伝わる。",
+   "summary_en": "Sushi rice rolled with rolled omelet, kanpyo, greens, and pink oboro fish flakes reveals a bright picture when sliced — a Boso farmhouse dish said to be made for festivals and seasonal turning points, its cut pattern shown off from house to house.",
+   "sources": [
+    {
+     "title": "太巻ずし 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/futomaki_zushi_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "futomaki-zushi",
+     "to_slug": "teppou-maki",
+     "relation_type": "対比",
+     "basis": "ともに千葉の巻きずし文化だが、太巻ずしは酢飯に何種もの具を組んで断面の絵柄を見せる祝い料理、鉄砲巻きはすし飯を使わず鰹節だけを芯にした漁師の携帯食"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=上総・下総地域（広域）のため空欄。lat/lngは県庁所在地の千葉市を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "seguro-iwashi-goma-zuke",
+   "name_ja": "せぐろいわしのごま漬け",
+   "name_romaji": "Seguro Iwashi no Goma-zuke",
+   "name_en": "Seguro Iwashi no Goma-zuke — sesame-cured anchovy from Kujukuri",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "九十九里町",
+   "lat": 35.5906,
+   "lng": 140.4747,
+   "summary_ja": "日本最大級の水揚げを誇る九十九里浜のカタクチイワシを塩でしめ、炒りごまと生姜、赤唐辛子で漬け込む保存食。大量に獲れても傷みやすいイワシを長くもたせる知恵として伝わってきたという。",
+   "summary_en": "Anchovies from the Kujukuri coast — among Japan's biggest catches — are salted, then packed with toasted sesame, ginger, and chili, a way of keeping a fish that spoils fast even when it's landed by the ton.",
+   "sources": [
+    {
+     "title": "せぐろいわしのごま漬け 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/seguro_iwashi_no_gomazuke_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "seguro-iwashi-goma-zuke",
+     "to_slug": "chiba-iwashi-no-unohana-zuke",
+     "relation_type": "対比",
+     "basis": "ともに九十九里の背黒イワシを漬け込んで保存する千葉の郷土食だが、ごま漬けは塩と炒りごまで、卯の花漬けはおからで漬け込む点が異なる"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "genre: 台帳genre_hint=tsukemonoだが、野菜の漬物ではなく魚を漬け込んだ保存食のためgenreはnullとした（棚はfermentedのまま、ブリーフの魚介保存食の例外に該当）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "namerou",
+   "name_ja": "なめろう",
+   "name_romaji": "Namerou",
+   "name_en": "Namerou — pounded raw fish with miso from the Boso coast",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "",
+   "lat": 34.9926,
+   "lng": 139.87,
+   "summary_ja": "揺れる船の上で獲れたてのアジをさばき、味噌とねぎ、しょうがとともに粘りが出るまで叩いた漁師料理。醤油だとこぼれるため味噌を使ったといい、皿までなめたくなる旨さが名の由来と伝わる。",
+   "summary_en": "Fresh-caught horse mackerel is pounded with miso, scallion, and ginger right on a rocking boat until it turns sticky — miso was used instead of soy sauce because soy sauce spilled on deck, and the name is said to come from wanting to lick the plate clean.",
+   "sources": [
+    {
+     "title": "なめろう 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/namerou_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "namerou",
+     "to_slug": "sanga-yaki",
+     "relation_type": "兄弟",
+     "basis": "なめろうを貝殻に詰めて焼いたものがさんが焼きとされ、山へ仕事に行く漁師が持参して焼いたと伝わる"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域=房総半島沿岸地域（広域）のため空欄。lat/lngは南房総の中心地である館山市を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sanga-yaki",
+   "name_ja": "さんが焼き",
+   "name_romaji": "Sanga Yaki",
+   "name_en": "Sanga Yaki — grilled namerou from Boso's fishing villages",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "",
+   "lat": 34.9926,
+   "lng": 139.87,
+   "summary_ja": "なめろうをホタテやアワビの貝殻に詰め、鉄板や網で焼いた一品。山仕事に出る漁師がなめろうを貝殻に入れて持参し、山小屋で焼いて食べたことに由来すると伝わり、千葉の方言で「家」を「が」と呼ぶことから名がついたという。",
+   "summary_en": "Namerou is packed into a scallop or abalone shell and grilled — said to come from fishermen who carried it in the shell up into the hills for woodcutting work and grilled it there, the local dialect word for \"house,\" ga, giving the dish its name.",
+   "sources": [
+    {
+     "title": "さんが焼き 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sanga_yaki_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sanga-yaki",
+     "to_slug": "namerou",
+     "relation_type": "兄弟",
+     "basis": "素材と味付けはなめろうと同じで、それを貝殻に詰めて焼いたものがさんが焼きとされる"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域=房総半島地域周辺（広域）のため空欄。lat/lngはなめろうと同じ南房総・館山市を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "haba-zoni",
+   "name_ja": "はば雑煮",
+   "name_romaji": "Haba Zoni",
+   "name_en": "Haba Zoni — New Year's mochi soup with dried habanori seaweed",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "",
+   "lat": 35.6551,
+   "lng": 140.4508,
+   "summary_ja": "房州でとれる「はばのり」を干して刻み、焼いた餅にかけて汁を注ぐ千葉の正月雑煮。年明けにはばのりを食べると一年中「幅を利かせられる」と縁起を担ぐ地域の言い伝えがある。",
+   "summary_en": "Dried habanori seaweed harvested along the Boso coast is crumbled over grilled mochi and broth for New Year's — eating it at the year's start is said to bring the local pun's promise of \"carrying weight\" (haba) all year.",
+   "sources": [
+    {
+     "title": "はば雑煮 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/haba_zouni_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "haba-zoni",
+     "to_slug": "kaisou",
+     "relation_type": "対比",
+     "basis": "ともに千葉で正月に食べる海藻を使った料理だが、はば雑煮は雑煮に加える具、かいそうはお節の箸休めとして固めた寒天状の一品"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=上総地域・山武郡（広域）のため空欄。lat/lngは山武郡の中心である山武市を使用。産地は鴨川市・南房総市だが、雑煮として食す九十九里・山武地域を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kaisou",
+   "name_ja": "かいそう",
+   "name_romaji": "Kaisou",
+   "name_en": "Kaisou — jellied seaweed for New Year's, made from kotoji-tsunomata",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "",
+   "lat": 35.7346,
+   "lng": 140.8267,
+   "summary_ja": "岩場に生えるコトジツノマタという海藻を煮溶かし、型に流して固めた寒天状の一品。年末に銚子の商人が正月用に売り歩いたことからお節に加わり、味の濃いお節の箸休めとして食べられてきたという。",
+   "summary_en": "A seaweed called kotoji-tsunomata is simmered until it thickens, then set in a mold like a firm jelly — merchants from Choshi are said to have sold it door to door each year-end, and it became a palate-cleanser among the heavier dishes of osechi.",
+   "sources": [
+    {
+     "title": "かいそう 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kaisou_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kaisou",
+     "to_slug": "haba-zoni",
+     "relation_type": "対比",
+     "basis": "ともに千葉の正月に食べる海藻料理だが、かいそうは寒天状に固めたお節の箸休め、はば雑煮は雑煮に加える具材"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=銚子地方から九十九里地方中心（広域）のため空欄。lat/lngは銚子地方の中心である銚子市を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chiba-yude-rakkasei",
+   "name_ja": "ゆで落花生",
+   "name_romaji": "Yude Rakkasei",
+   "name_en": "Yude Rakkasei — boiled fresh peanuts",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "八街市",
+   "lat": 35.6597,
+   "lng": 140.3211,
+   "summary_ja": "掘りたての生の落花生をさやごと塩水でゆでる、千葉の産地ならではの季節の味。生の落花生は収穫後すぐに硬くなり出すため、掘りたてをすぐゆでないとおいしくならないという。",
+   "summary_en": "Freshly dug peanuts, still in their shells, are boiled whole in salted water — a taste unique to the growing region, since raw peanuts start hardening the moment they're pulled from the ground and need to be boiled almost immediately.",
+   "sources": [
+    {
+     "title": "ゆで落花生 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yude_rakkasei_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "chiba-yude-rakkasei",
+     "to_slug": "chiba-rakkasei-miso",
+     "relation_type": "兄弟",
+     "basis": "ともに千葉県産落花生の食べ方だが、ゆで落花生は収穫直後の生を塩ゆでにし、落花生味噌は規格外の実を味噌に仕立てて保存食にする"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域は県内全域（千葉市、八街市、富里市、袖ケ浦市など）だが、本文で千葉県内一の生産地として言及される八街市を代表地点とした。既存アイテムに同名の「茹で落花生」（神奈川県、yude-rakkasei）があるため、slugをchiba-yude-rakkaseiとして区別した。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chiba-rakkasei-miso",
+   "name_ja": "落花生味噌",
+   "name_romaji": "Rakkasei Miso",
+   "name_en": "Rakkasei Miso — peanuts stirred into sweet miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "",
+   "lat": 35.6073,
+   "lng": 140.1065,
+   "summary_ja": "市場に出回らない規格外の落花生を、味噌や砂糖と合わせて炒りつける常備菜。今ほど食料が豊かでなかった時代、農家が余った落花生を無駄にしない工夫から生まれたと伝わる。",
+   "summary_en": "Peanuts too small or misshapen to sell are stirred into miso and sugar and toasted into a pantry relish — said to have started as a way for farm households to use up peanuts the market wouldn't take, in leaner years.",
+   "sources": [
+    {
+     "title": "落花生味噌 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/rakkasei_miso_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "chiba-rakkasei-miso",
+     "to_slug": "pinattsu-miso",
+     "relation_type": "対比",
+     "basis": "落花生を味噌に仕立てる同名の郷土料理が茨城県にもあり、県境をまたいで似た加工法が伝わっている"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "既存アイテムに同名の「落花生味噌」（茨城県、pinattsu-miso）があるため、slugをchiba-rakkasei-misoとして区別した（同じ名前が複数県にある扱い）。origin_city: 伝承地域=県内全域のため空欄、lat/lngは県庁所在地の千葉市を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "seigaku-mochi",
+   "name_ja": "性学もち",
+   "name_romaji": "Seigaku Mochi",
+   "name_en": "Seigaku Mochi — pounded rice cake made without mochi rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "旭市",
+   "lat": 35.7167,
+   "lng": 140.65,
+   "summary_ja": "うるち米を粉にせず二度蒸し、臼でついてつくる餅のような料理。高価なもち米を買えない農民にも餅を食べさせたいと、幕末の農民指導者・大原幽学が考えたと伝わり、粘りが少なく喉に詰まりにくいのが特徴。",
+   "summary_en": "Ordinary non-glutinous rice, steamed twice without grinding and pounded like mochi, makes a rice cake with little of the stickiness of the real thing — said to have been devised by the late-Edo farmer-educator Ohara Yugaku for households that couldn't afford true mochi rice.",
+   "sources": [
+    {
+     "title": "性学もち 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/seigaku_mochi_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "seigaku-mochi",
+     "to_slug": "kaki-mochi",
+     "relation_type": "対比",
+     "basis": "ともに千葉の米を加工した保存食だが、性学もちはうるち米を餅のようについて食べ、かき餅はもち米の餅を薄く切って干した菓子"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域=香取・海匝地域（広域）だが、考案者・大原幽学を伝承する記念館の所在地である旭市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fuukashi",
+   "name_ja": "ふうかし",
+   "name_romaji": "Fuukashi",
+   "name_en": "Fuukashi — miso soup from steamed asari clams",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "",
+   "lat": 35.6947,
+   "lng": 139.9822,
+   "summary_ja": "あさりを蒸し、その蒸し汁に味噌を少し溶いた汁物。冷蔵設備のない時代、輸送のためにあさりを蒸かした汁を漁師が賄いとして飲んだのが始まりと伝わる、東京湾の漁師町らしい一椀。",
+   "summary_en": "Asari clams are steamed, and their own steaming liquid is loosened with a little miso — said to trace to fishermen who steamed clams for transport before refrigeration existed and drank the leftover broth as a working meal, a bowl shaped by Tokyo Bay's fishing towns.",
+   "sources": [
+    {
+     "title": "ふうかし 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/fuukashi_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fuukashi",
+     "to_slug": "iwashi-dango-jiru",
+     "relation_type": "対比",
+     "basis": "ともに千葉の漁師町発祥の魚介の汁物だが、ふうかしはあさりの蒸し汁に味噌を溶くだけの簡素な賄い、いわしのだんご汁はイワシのすり身だんごを具にする"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域=富津市から船橋市にかけてのベイエリア（広域）だが、将軍家献上や学校行事など本文で最も具体的に記述される船橋市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kujira-no-tare",
+   "name_ja": "くじらのたれ",
+   "name_romaji": "Kujira no Tare",
+   "name_en": "Kujira no Tare — soy-marinated, air-dried whale meat",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "南房総市",
+   "lat": 35.05,
+   "lng": 139.87,
+   "summary_ja": "体長12mほどのツチクジラの肉を、醤油と酒、しょうがのたれに漬けてから干した保存食。木の皮のように黒く見た目は素朴だが、冷蔵庫のない時代の保存の知恵から生まれ、南房総で暮らした人が里帰りの土産に買い求めるという。",
+   "summary_en": "Meat from a Baird's beaked whale is marinated in soy sauce, sake, and ginger, then air-dried into a jerky-like preserve — bark-black and plain to look at, born of preservation before refrigeration, and still something people who left southern Boso are said to bring home as a taste of it.",
+   "sources": [
+    {
+     "title": "くじらのたれ 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kujirano_tare_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kujira-no-tare",
+     "to_slug": "aomori-kujira-jiru",
+     "relation_type": "対比",
+     "basis": "ともに捕鯨の伝統を持つ土地の鯨肉料理だが、千葉のくじらのたれはたれに漬けて干す保存食、青森のくじら汁は汁物として食べる"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ],
+   "notes": "origin_city: 伝承地域=南房総地域のため南房総市とした。棚: 台帳ではhomestyleだが、たれに漬けて干す保存加工食品のためfermentedに変更。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iwashi-dango-jiru",
+   "name_ja": "いわしのだんご汁",
+   "name_romaji": "Iwashi no Dango Jiru",
+   "name_en": "Iwashi no Dango Jiru — sardine dumpling soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "",
+   "lat": 35.5906,
+   "lng": 140.4747,
+   "summary_ja": "3枚におろしたイワシを味噌と長芋、卵と合わせてすり、大根や里芋の汁にだんごにして落とした冬の汁物。「海の米」と呼ばれるほど水揚げの多い九十九里のイワシを生かした家庭の定番料理と伝わる。",
+   "summary_en": "Sardines are filleted, ground with miso, grated mountain yam, and egg, then dropped as dumplings into a broth of daikon and taro — a winter soup built on Kujukuri's sardine catch, once so plentiful it was called \"rice of the sea.\"",
+   "sources": [
+    {
+     "title": "いわしのだんご汁 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/iwashino_dango_jiru_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "iwashi-dango-jiru",
+     "to_slug": "chiba-iwashi-no-unohana-zuke",
+     "relation_type": "兄弟",
+     "basis": "ともに九十九里の背黒イワシを使う千葉の郷土料理だが、だんご汁はすり身を汁物に、卯の花漬けはおからで漬けて保存する"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域=北総地域・九十九里地域（広域）のため空欄。lat/lngは九十九里浜大漁イワシまつりや元旦祭が行われる九十九里町を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chiba-iwashi-no-unohana-zuke",
+   "name_ja": "いわしの卯の花漬け",
+   "name_romaji": "Iwashi no Unohana-zuke",
+   "name_en": "Iwashi no Unohana-zuke — sardines cured in tofu lees, a Chiba version",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "",
+   "lat": 35.6939,
+   "lng": 140.5614,
+   "summary_ja": "酢でしめた背黒イワシを、甘酢で炒ったおからと人参、しょうがとともに漬け込む保存食。おからの白さを卯の花に見立てて名がつき、型崩れや酸化を防ぐ効果もあるとされ、正月のお節や日々の常備食として親しまれてきた。",
+   "summary_en": "Salt-and-vinegar-cured sardines are packed into sweet-vinegared tofu lees with carrot and ginger — the pale lees are likened to unohana blossoms in the name, and are also said to keep the fish from breaking apart or oxidizing; eaten at New Year's and as an everyday pantry food.",
+   "sources": [
+    {
+     "title": "いわしの卯の花漬け 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/iwashino_unohana_zuke_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "chiba-iwashi-no-unohana-zuke",
+     "to_slug": "iwashi-no-unohana-zuke",
+     "relation_type": "対比",
+     "basis": "同じ名前・製法の卯の花漬けが茨城県にも伝わっており、九十九里から続く房総半島の海沿いで、隣接する県境をまたいで似た保存食が育った"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ],
+   "notes": "同名・同種の既存アイテム「いわしの卯の花漬け」（茨城県、iwashi-no-unohana-zuke）があるため、slugをchiba-iwashi-no-unohana-zukeとして区別した。genre: 台帳genre_hint=tsukemonoだが、野菜の漬物ではなく魚の保存食のためgenreはnullとした（棚はfermentedのまま）。origin_city: 伝承地域=海匝地域・九十九里地域（広域）のため空欄、lat/lngは海匝地域の中心である匝瑳市を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kaki-mochi",
+   "name_ja": "かき餅",
+   "name_romaji": "Kaki Mochi",
+   "name_en": "Kaki Mochi — dried, thin-sliced rice crackers",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "香取市",
+   "lat": 35.8909,
+   "lng": 140.5,
+   "summary_ja": "里芋やごま、のりを混ぜたもち米を蒸してつき、薄く切って陰干しした保存菓子。旧暦の正月に餅と一緒についたのが始まりとされ、低温の油でからりと揚げたり、炭火で焼いたりして食べる。",
+   "summary_en": "Glutinous rice pounded with taro, sesame, and nori is sliced thin and air-dried into a keeping snack — said to trace to pounding it alongside New Year's mochi, later fried in low-temperature oil or toasted over charcoal.",
+   "sources": [
+    {
+     "title": "かき餅 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kaki_mochi_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kaki-mochi",
+     "to_slug": "seigaku-mochi",
+     "relation_type": "対比",
+     "basis": "ともに千葉の米を加工した保存食だが、かき餅はもち米の餅を薄く切って干した菓子、性学もちはうるち米を餅のようについて食べる"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kara-namasu",
+   "name_ja": "からなます",
+   "name_romaji": "Kara Namasu",
+   "name_en": "Kara Namasu — tofu-lees salad with sardine and vegetables",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "館山市",
+   "lat": 34.9926,
+   "lng": 139.87,
+   "summary_ja": "空煎りしたおからに酢でしめたイワシ、人参ときゅうり、油揚げを合わせ、味噌と酢、ピーナッツパウダーで和えたなます。館山市の疱瘡祭など人が集まる行事の定番で、祝いの席では俵型に握って供されると伝わる。",
+   "summary_en": "Toasted tofu lees are tossed with vinegar-cured sardine, carrot, cucumber, and fried tofu, dressed in miso, vinegar, and ground peanut — a fixture of gatherings like Tateyama's Hoso Festival, shaped into little rice-bale mounds for celebratory occasions.",
+   "sources": [
+    {
+     "title": "からなます 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kara_namasu_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kara-namasu",
+     "to_slug": "chiba-iwashi-no-unohana-zuke",
+     "relation_type": "対比",
+     "basis": "ともにおからとイワシを使う千葉の郷土料理だが、からなますは酢の物として和え、卯の花漬けはおからに漬け込んで保存する"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chikko-toufu",
+   "name_ja": "チッコ豆腐",
+   "name_romaji": "Chikko Toufu",
+   "name_en": "Chikko Toufu — curd made from cow's first milk",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "",
+   "lat": 35.1136,
+   "lng": 140.1002,
+   "summary_ja": "出産直後の牛から搾れる初乳を温め、酢を加えて分離させた素朴な豆腐状の一品。8代将軍徳川吉宗が嶺岡牧で白牛を飼育させたことが日本の酪農の始まりとされ、酪農家の間で食べ継がれてきたという。",
+   "summary_en": "A cow's first milk after calving is warmed and split with a little vinegar into a plain curd — tied to the story of shogun Tokugawa Yoshimune's white cattle raised at the Mineoka pastures, said to be the start of dairy farming in Japan, and long eaten among the region's dairy households.",
+   "sources": [
+    {
+     "title": "チッコ豆腐／牛乳豆腐 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/chikko_toufu_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "chikko-toufu",
+     "to_slug": "kinzanji-miso",
+     "relation_type": "対比",
+     "basis": "ともに千葉県内で農家・酪農家が身近な原料（初乳、夏野菜）を加工してつくってきた保存食という共通点を持つ"
+    }
+   ],
+   "tags": [],
+   "notes": "別名「牛乳豆腐」はsummaryに記載。origin_city: 伝承地域が南房総市・鴨川市の2市にまたがるため空欄。lat/lngは酪農の発祥地とされる嶺岡牧がある鴨川市を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kinzanji-miso",
+   "name_ja": "金山寺みそ",
+   "name_romaji": "Kinzanji Miso",
+   "name_en": "Kinzanji Miso — chunky miso studded with summer vegetables",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "東金市",
+   "lat": 35.5595,
+   "lng": 140.3689,
+   "summary_ja": "大豆に麦麹を合わせ、なすやしょうが、みょうがなど夏野菜を漬け込んで発酵させたおかず味噌。中国から伝わった製法という説があり、8代将軍吉宗に献上されたことで江戸にも広まったと伝わる。",
+   "summary_en": "Soybeans mixed with barley koji ferment together with summer vegetables like eggplant, ginger, and myoga into a chunky relish-miso — said by one account to trace back to a technique brought from China, later spread to Edo after being presented to shogun Yoshimune.",
+   "sources": [
+    {
+     "title": "金山寺みそ 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kinzanji_miso_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kinzanji-miso",
+     "to_slug": "chikko-toufu",
+     "relation_type": "対比",
+     "basis": "ともに千葉県内で身近な原料を発酵・加工してつくる保存食で、金山寺みそは大豆と夏野菜を糀で漬け込む"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "miso"
+   ],
+   "notes": "棚: 台帳ではhomestyleだが、麦糀と塩で1週間ほど発酵させる漬け込み食品のためfermentedに変更。all-items-ja.txtに同名の既存アイテムなし（和歌山等でも食されるが未投入）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gonjuu",
+   "name_ja": "ごんじゅう",
+   "name_romaji": "Gonjuu",
+   "name_en": "Gonjuu — pork and fried-tofu rice balls for festival mikoshi bearers",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "館山市",
+   "lat": 34.9926,
+   "lng": 139.87,
+   "summary_ja": "甘辛く煮た豚バラ肉と油揚げをかつお節とともにご飯に混ぜ、おにぎりにした館山市の郷土料理。秋祭り「やわたんまち」で神輿を担ぐ若衆に振る舞われ、十分に火を通した具が食中毒予防にもなっていたという。",
+   "summary_en": "Pork belly and fried tofu simmered sweet and savory are mixed with bonito flakes into rice and shaped into onigiri — handed out to the young men carrying the mikoshi at Tateyama's Yawatanmachi festival, the thoroughly cooked filling also said to guard against food poisoning in the late-summer heat.",
+   "sources": [
+    {
+     "title": "ごんじゅう 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gonjuu_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gonjuu",
+     "to_slug": "takatsu-no-torimeshi",
+     "relation_type": "対比",
+     "basis": "ともに千葉の地域の行事に結びついたご飯料理だが、ごんじゅうは秋祭りの神輿担ぎに配る豚肉のおにぎり、高津のとり飯は子安講などの行事で食べる鶏飯"
+    }
+   ],
+   "tags": [
+    "pork",
+    "ceremonial",
+    "handheld"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "juubako-iri-botamochi",
+   "name_ja": "重箱入りぼたもち",
+   "name_romaji": "Juubako-iri Botamochi",
+   "name_en": "Juubako-iri Botamochi — layered rice-cake sweet for a newborn's third day",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "",
+   "lat": 35.7346,
+   "lng": 140.8267,
+   "summary_ja": "もち米ご飯とあんこを一つひとつ丸めず重箱に敷き詰め、好きな分だけ取り分けて食べるぼたもち。子どもが生まれて三日目に配る祝いの風習で食べられ、産後の母親に栄養をという願いが込められていると伝わる。",
+   "summary_en": "Sweet rice and red-bean paste are layered whole into a lacquered box rather than shaped into individual mounds, so each person takes as much as they like — made to mark a baby's third day, a custom said to carry the hope of nourishing a mother soon after birth.",
+   "sources": [
+    {
+     "title": "重箱入りぼたもち／おはぎ 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/jyuubako_iri_bota_mochi_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "juubako-iri-botamochi",
+     "to_slug": "mitsumenobotamochi",
+     "relation_type": "兄弟",
+     "basis": "子どもが生まれて三日目にぼたもちを配る同じ風習が茨城県にも伝わり、そちらでは「みつめのぼたもち」と呼ばれている（本文にも同じ風習として言及）"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "別名「おはぎ」「みつめのぼたもち」はsummaryに記載。origin_city: 伝承地域=北部地方（広域）だが、本文で風習が残るとされる銚子市・市原市のうち銚子市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chiba-sumitsukare",
+   "name_ja": "すみつかれ",
+   "name_romaji": "Sumitsukare",
+   "name_en": "Sumitsukare — grated daikon simmered with soybeans and sake lees, a Chiba version",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "野田市",
+   "lat": 35.9455,
+   "lng": 139.8749,
+   "summary_ja": "鬼おろしで粗くおろした大根と人参を、節分の豆や酒かすと一緒に煮た料理。栃木県から伝わったとされ、2月最初の午の日にお稲荷様へ供えてから食べる。茨城や埼玉にも同じ名の郷土料理が伝わっている。",
+   "summary_en": "Daikon and carrot, coarsely grated with a rough-toothed oni-oroshi grater, are simmered with leftover setsubun soybeans and sake lees — said to have traveled from Tochigi into Chiba's Higashikatsushika area, offered to the local inari shrine on the year's first Day of the Horse before being eaten. Ibaraki and Saitama carry dishes of the same name.",
+   "sources": [
+    {
+     "title": "すみつかれ 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sumi_tsukare_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "chiba-sumitsukare",
+     "to_slug": "ibaraki-shimotsukare",
+     "relation_type": "対比",
+     "basis": "節分の豆と大根おろしを使う「すみつかれ」系の郷土料理は茨城・栃木・埼玉にも伝わり、千葉のものは栃木から東葛飾地域に伝わったとされる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "既存アイテムに同系統の「すみつかれ」（茨城県ibaraki-shimotsukare、埼玉県saitama-sumitsukare、群馬県gunma-sumitsukare）があるが、千葉県のものも独立した郷土料理として作成し、slugをchiba-sumitsukareとした（既存の複数県別立て運用に合わせた）。origin_city: 伝承地域=東葛飾地域（広域）だが、本文で節分の呼称「としこし」とともに具体的に言及される野田市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "takatsu-no-torimeshi",
+   "name_ja": "高津のとり飯",
+   "name_romaji": "Takatsu no Torimeshi",
+   "name_en": "Takatsu no Torimeshi — soy-simmered chicken mixed into rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "八千代市",
+   "lat": 35.7182,
+   "lng": 140.1,
+   "summary_ja": "小さく切った鶏もも肉を醤油だけで煮て、炊きたてのご飯に混ぜ込む八千代市高津地区の料理。安産祈願の子安講や豊作を願う八朔の行事で食べられてきたと伝わり、肉を小さく切るのは分け合うためとも硬い肉を食べやすくするためとも言われる。",
+   "summary_en": "Chicken thigh, cut small, is simmered in nothing but soy sauce and mixed into hot rice — a Takatsu district dish said to be served at the koyasu-ko safe-delivery gathering and the hassaku harvest-prayer, the small-cut meat explained either as a way of sharing it fairly or of taming an older bird's tougher meat.",
+   "sources": [
+    {
+     "title": "高津のとり飯 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/takatsu_no_torimeshi_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "takatsu-no-torimeshi",
+     "to_slug": "gonjuu",
+     "relation_type": "対比",
+     "basis": "ともに千葉の地域行事に結びついたご飯料理だが、高津のとり飯は子安講などで食べる鶏飯、ごんじゅうは秋祭りの神輿担ぎに配る豚肉のおにぎり"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "ceremonial"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "otaki-takenoko-tenpura",
+   "name_ja": "塩漬けタケノコの天ぷら",
+   "name_romaji": "Shiozuke Takenoko no Tenpura",
+   "name_en": "Shiozuke Takenoko no Tenpura — tempura of salt-cured bamboo shoot",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "千葉県",
+   "origin_city": "大多喜町",
+   "lat": 35.2372,
+   "lng": 140.2461,
+   "summary_ja": "塩抜きした大多喜産のタケノコを醤油だれで下味をつけ、卵と小麦粉の衣で揚げる一品。あくが少なく白いのが特徴の「白たけのこ」を塩漬けで保存し、旬を過ぎても年間を通して味わえるようにした知恵と伝わる。",
+   "summary_en": "Bamboo shoots from Otaki, known for a pale color and little bitterness, are salt-cured then desalted, seasoned in a soy sauce mixture, and fried in an egg-and-flour batter — a way, it's said, of holding onto shoots grown in a short spring season long enough to eat them year-round.",
+   "sources": [
+    {
+     "title": "塩漬けタケノコの天ぷら 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shiozuke_takenoko_no_tenpura_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "otaki-takenoko-tenpura",
+     "to_slug": "tempura",
+     "relation_type": "対比",
+     "basis": "同じ天ぷらだが、東京の天ぷらはキスやアナゴなど魚介が主役、大多喜のたけのこ天ぷらは県産の塩漬けタケノコを主役にする"
+    }
+   ],
+   "tags": [],
+   "notes": "台帳のexisting_slug=tempura（低確信）は東京の魚介中心の天ぷら（34_6_tokyo由来）で、本項は千葉県大多喜産の塩漬けタケノコを主役にした別物と判断し新規作成。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "teppou-maki",
+   "name_ja": "鉄砲巻き",
+   "name_romaji": "Teppou Maki",
+   "name_en": "Teppou Maki — a katsuobushi rice roll from Futtsu",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "富津市",
+   "lat": 35.3011,
+   "lng": 139.8453,
+   "summary_ja": "炙った海苔にすし飯ではなく普通のご飯を広げ、醤油をかけた鰹節を芯にして巻いた富津市の一品。見た目が鉄砲に似ることが名の由来で、海苔の産地である富津の漁師が携帯食として食べてきたと伝わる。",
+   "summary_en": "Toasted nori is spread not with vinegared sushi rice but with plain rice, rolled around a soy-doused core of bonito flakes — named for its resemblance to a gun barrel, and said to have traveled as portable food for fishermen in Futtsu, a nori-growing town.",
+   "sources": [
+    {
+     "title": "鉄砲巻き 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/teppou_maki_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "teppou-maki",
+     "to_slug": "futomaki-zushi",
+     "relation_type": "対比",
+     "basis": "ともに千葉の巻きずし文化だが、鉄砲巻きはすし飯を使わず鰹節だけを芯にした漁師の携帯食、太巻ずしは酢飯に何種もの具を組んで断面の絵柄を見せる祝い料理"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "genre: すし飯ではなく普通のご飯を使うためsushiジャンルには分類せずnullとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tenmondou",
+   "name_ja": "てんもんどう",
+   "name_romaji": "Tenmondou",
+   "name_en": "Tenmondou — root vegetables candied in sugar syrup",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "東金市",
+   "lat": 35.5595,
+   "lng": 140.3689,
+   "summary_ja": "ごぼうやれんこん、しょうがなど繊維の多い野菜を薄く切ってゆで、砂糖でじっくり煮詰めて乾燥させた保存菓子。漢方薬の天門冬を蜜漬けにした昔の薬用の食べ方が名の由来とされ、農繁期のおやつとして食べられてきた。",
+   "summary_en": "Fibrous vegetables like burdock, lotus root, and ginger are boiled thin, then slow-simmered in sugar and dried into a keeping sweet — its name is said to trace to an old herbal remedy of asparagus root steeped in honey, and it was eaten as a snack to fuel farm work during the busy season.",
+   "sources": [
+    {
+     "title": "てんもんどう 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tenmon_dou_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tenmondou",
+     "to_slug": "kaki-mochi",
+     "relation_type": "対比",
+     "basis": "ともに千葉の農家が農繁期のおやつ・保存食としてつくってきた菓子だが、てんもんどうは野菜を蜜で煮詰め、かき餅はもち米の餅を薄く切って干す"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "barappa-manju",
+   "name_ja": "ばらっぱまんじゅう",
+   "name_romaji": "Barappa Manju",
+   "name_en": "Barappa Manju — steamed bun wrapped in catbrier leaf",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "",
+   "lat": 35.6073,
+   "lng": 140.1065,
+   "summary_ja": "収穫したばかりの小麦を挽いた生地にあんを包み、サルトリイバラ（ばらっぱ）の葉を下に敷いて蒸す北総地域の饅頭。夏祭りやお盆に人が集まると材料を持ち寄ってつくられてきたと伝わる。",
+   "summary_en": "Freshly milled wheat dough is wrapped around red bean paste and steamed on a leaf of catbrier, called barappa locally — a bun said to be made in Chiba's Hokuso area when people gathered for summer festivals or Obon, each bringing ingredients to share.",
+   "sources": [
+    {
+     "title": "ばらっぱまんじゅう 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/barappa_manjyuu_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "barappa-manju",
+     "to_slug": "yangome",
+     "relation_type": "兄弟",
+     "basis": "ともにお盆の行事で食べられてきた千葉の郷土食"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=北総地域（広域）のため空欄。lat/lngは県庁所在地の千葉市を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yangome",
+   "name_ja": "ヤンゴメ",
+   "name_romaji": "Yangome",
+   "name_en": "Yangome — toasted rice and sweetened azuki for Obon",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "",
+   "lat": 34.9926,
+   "lng": 139.87,
+   "summary_ja": "一晩水に浸した米を炒り、砂糖で煮た小豆と合わせて蒸らす、赤飯に似た見た目の料理。お盆の迎え火・送り火で唱え言葉とともに米と水をまき、故人を迎え送る行事に結びついた房総半島の食べ物と伝わる。",
+   "summary_en": "Rice soaked overnight is toasted, then steamed together with azuki beans simmered in sugar — it looks like sekihan but tastes gently sweet, and is tied to the Boso peninsula's Obon custom of scattering rice and water toward the welcoming and send-off fires while chanting for the dead.",
+   "sources": [
+    {
+     "title": "ヤンゴメ 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yangome_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yangome",
+     "to_slug": "barappa-manju",
+     "relation_type": "兄弟",
+     "basis": "ともにお盆の行事で食べられてきた千葉の郷土食"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=房総半島地域（広域）のため空欄。lat/lngは南房総の中心地である館山市を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "toridose",
+   "name_ja": "鶏雑炊",
+   "name_romaji": "Toridose",
+   "name_en": "Toridose — chicken and rice porridge for New Year's and gatherings",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "千葉県",
+   "origin_city": "市原市",
+   "lat": 35.498,
+   "lng": 140.1136,
+   "summary_ja": "鶏肉とささがきごぼうをだしで煮て、味噌で味を付けたところに炊いたご飯を加えて仕上げる雑炊。正月や冠婚葬祭など人が集まるハレの日に食べられ、たたいた鶏の骨を団子に混ぜ込んで無駄なく使う工夫も伝わる。",
+   "summary_en": "Chicken and shaved burdock simmer in broth seasoned with miso, then cooked rice is stirred in to finish — served at New Year's and other gatherings, with even the pounded chicken bones sometimes worked into dumplings so nothing goes to waste.",
+   "sources": [
+    {
+     "title": "鶏雑炊 千葉県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/toridose_chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "toridose",
+     "to_slug": "takatsu-no-torimeshi",
+     "relation_type": "対比",
+     "basis": "ともに鶏肉を使った千葉の行事のご飯料理だが、高津のとり飯は炊き込みご飯風のおにぎり、鶏雑炊は雑炊に仕立てる"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "ceremonial"
+   ],
+   "notes": "棚: 台帳ではriceだが、だし汁でご飯を煮込む雑炊のためhotpotに変更。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: urino_teppou_zuke_chiba(瓜の鉄砲漬)=genre_hint=tsukemonoのため作らず（野菜の漬物で、魚介保存食の例外規定に該当しないため）。low判定1件: shiozuke_takenoko_no_tenpura_chiba(existing_slug=tempura, low)は東京の魚介中心の天ぷら(34_6_tokyo由来)とは別物と判断し新規作成(otaki-takenoko-tenpura)。棚を変えた行: kujirano_tare_chiba(homestyle→fermented、たれ漬け＋乾燥の保存食のため)、kinzanji_miso_chiba(homestyle→fermented、麹発酵の漬け込み食品のため)、toridose_chiba(rice→hotpot、雑炊のため)。genreを判断した行: teppou_maki_chiba(すし飯を使わないためsushi非適用、null)。要判断（他県に同名・同系統アイテムがある行）: rakkasei_miso_chiba(茨城県pinattsu-miso)、iwashino_unohana_zuke_chiba(茨城県iwashi-no-unohana-zuke)、sumi_tsukare_chiba(茨城・埼玉・群馬のすみつかれ系)、jyuubako_iri_bota_mochi_chiba(茨城県mitsumenobotamochi)は、既存の複数県別立て運用（すみつかれが茨城/埼玉/群馬で個別に存在する前例）に合わせ、県境をまたいで独立に伝わる郷土料理と判断してslugを区別し新規作成した。座標: 伝承地域が広域の行は、本文が名指しする最も具体的な市町村（例: 落花生=八街市、性学もち=旭市）を代表地点とし、県全域・房総半島全域など特定の市町村を絞れない行は千葉市または南房総の中心地である館山市を代表地点とした。"
+}
