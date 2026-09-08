@@ -1,0 +1,1072 @@
+{
+ "items": [
+  {
+   "slug": "imo-no-kuki-no-itameni",
+   "name_ja": "いもの茎の炒め煮",
+   "name_romaji": "Imo no Kuki no Itameni",
+   "name_en": "Sweet Potato Stem Stir-simmer — the leaf-stalk of the vine, cooked crisp-tender in dashi",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.5597,
+   "lng": 133.5311,
+   "summary_ja": "さつまいもの茎（葉柄）を炒めてから出汁で甘辛く煮る高知の常備菜。高温多湿な気候で茂る茎を活かした農家の知恵とされ、彩りに唐辛子を添え、揚げ物を加えてアレンジすることも多いという。",
+   "summary_en": "The leaf-stalk of the sweet potato vine is stir-fried, then simmered sweet and salty in dashi — a Kochi staple side dish. Said to have grown from farm households making use of stems that thrive in the hot, humid climate, it's often finished with red chili and sometimes bulked out with fried fish cake.",
+   "sources": [
+    {
+     "title": "いもの茎の炒め煮 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/imonokukinoitameni_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "imo-no-kuki-no-itameni",
+     "to_slug": "satsuma-age",
+     "relation_type": "使用食材",
+     "basis": "てんぷら（高知でのさつま揚げの呼び名）を加えてアレンジすることがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は県内全域のため origin_city空欄、代表点は高知市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "katsuo-no-tataki",
+   "name_ja": "かつおのたたき",
+   "name_romaji": "Katsuo no Tataki",
+   "name_en": "Katsuo no Tataki — bonito seared over an open flame, then salted and slapped by hand",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.5597,
+   "lng": 133.5311,
+   "summary_ja": "3枚におろしたカツオを藁などであぶり、厚めの刺身にして塩を振って手でたたき、柚子酢や醤油のたれをかける。船上のまかないが始まりとされ、皿鉢料理の定番として地域や家庭ごとに味付けが違うという。",
+   "summary_en": "Bonito is filleted, seared over an open flame (traditionally straw), sliced thick, salted, slapped by hand, and dressed with a yuzu-vinegar or soy sauce. Said to have started as food fishermen made on board, it's a fixture of sawachi platters, with the finishing touch varying by area and household.",
+   "sources": [
+    {
+     "title": "かつおのたたき 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/katuonotataki_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "katsuo-no-tataki",
+     "to_slug": "sawachi-ryori",
+     "relation_type": "兄弟",
+     "basis": "冠婚葬祭や神事に欠かせない皿鉢料理の定番の一品とされる（出典双方に相互の記述あり）"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は県内全域のため origin_city空欄、代表点は高知市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "guruni",
+   "name_ja": "ぐる煮",
+   "name_romaji": "Guruni",
+   "name_en": "Guruni — a big-batch winter simmer of daikon, taro, and whatever root vegetable was on hand",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.5597,
+   "lng": 133.5311,
+   "summary_ja": "大根や人参、里芋などの根菜を出汁じゃこと醤油で煮込む冬の総菜。土佐弁で「仲間」を意味する「ぐる」が名の由来とされ、何度も温め直しながら食べる備蓄菜として親しまれてきたという。",
+   "summary_en": "Daikon, carrot, taro, and other root vegetables are simmered together in a dashi made from dried baby sardines and soy sauce — a winter side dish. The name is said to come from \"guru,\" Tosa dialect for a group of companions, and the dish was long made in bulk and reheated meal after meal.",
+   "sources": [
+    {
+     "title": "ぐる煮 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/guruni_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "guruni",
+     "to_slug": "taimo-no-korobashi",
+     "relation_type": "対比",
+     "basis": "ともに高知の根菜を甘辛く煮る家庭料理だが、ぐる煮は大根や里芋など複数の根菜を四角に切って煮込み、田芋のころばしは里芋を丸ごと甘辛く煮てごまをまぶす違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は県内全域のため origin_city空欄、代表点は高知市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ryukyu-no-sunomono",
+   "name_ja": "りゅうきゅうの酢の物",
+   "name_romaji": "Ryukyu no Sunomono",
+   "name_en": "Ryukyu no Sunomono — the crisp leaf-stalk of taro-leaf vine, dressed in yuzu vinegar with hairtail",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.5597,
+   "lng": 133.5311,
+   "summary_ja": "ハスイモの葉柄「りゅうきゅう」を塩もみし、柚子酢に浸したタチウオなどの魚としょうが、ごまで和える高知の夏の定番。名は沖縄伝来の説があるが定かではないとされ、地域で使う魚が違うという。",
+   "summary_en": "The crisp leaf-stalk of the taro-leaf vine, known locally as ryukyu, is salted and tossed with hairtail or another fish that's been steeped in yuzu vinegar, ginger, and sesame — a summer standard in Kochi. One theory traces the name to Okinawa, though it's said to be unconfirmed, and the fish used varies by area.",
+   "sources": [
+    {
+     "title": "りゅうきゅうの酢の物 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ryukyunosunomono_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ryukyu-no-sunomono",
+     "to_slug": "inaka-zushi",
+     "relation_type": "使用食材",
+     "basis": "りゅうきゅう（ハスイモの葉柄）は田舎ずしの具としても使われる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は県内全域のため origin_city空欄、代表点は高知市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "itadori-no-aburaitame",
+   "name_ja": "いたどりの油いため",
+   "name_romaji": "Itadori no Aburaitame",
+   "name_en": "Itadori no Aburaitame — a tart, crunchy mountain shoot, salted or frozen for year-round eating",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.5597,
+   "lng": 133.5311,
+   "summary_ja": "山あいに自生するタデ科の若芽「いたどり」の皮をむき、湯通しして酸味を抜いてから油で炒め、醤油と砂糖で味付ける。春にしか採れないため塩漬けや冷凍で保存し、通年食卓にのぼるという。",
+   "summary_en": "The young shoots of itadori, a mountain-growing knotweed, are peeled, blanched to draw out their tartness, then stir-fried in oil and seasoned with soy sauce and sugar. Since the shoots appear only in spring, they're salted or frozen for storage and eaten from the pantry year-round.",
+   "sources": [
+    {
+     "title": "いたどりの油いため 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/itadorinoaburaitame_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "itadori-no-aburaitame",
+     "to_slug": "zenmai-no-itameni",
+     "relation_type": "兄弟",
+     "basis": "ともに高知の山菜を炒め煮にする郷土料理で、名前もそろって「〜の炒め煮／油いため」と呼ばれる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は県内全域のため origin_city空欄、代表点は高知市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "himeichi-mikan-karashini",
+   "name_ja": "ひめいちとみかんの辛子煮",
+   "name_romaji": "Himeichi to Mikan no Karashini",
+   "name_en": "Himeichi to Mikan no Karashini — a small sea-bream stand-in simmered with citrus peel and hot mustard",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.5597,
+   "lng": 133.5311,
+   "summary_ja": "土佐湾でとれる小魚ヒメイチを、種を抜いた辛子とみかんの皮とともに弱火でじっくり煮る。安価にタイの代役を果たしたとされ、骨まで柔らかくなるため年の暮れに大量につくり保存食にしたという。",
+   "summary_en": "Himeichi, a small fish caught in Tosa Bay, is simmered slowly over low heat with seeded hot mustard and citrus peel. Prized as an affordable stand-in for sea bream, the long simmer softens even the bones, and it was traditionally made in bulk at year's end to keep through the season.",
+   "sources": [
+    {
+     "title": "ひめいちとみかんの辛子煮 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/himeichitomikannokarashini_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "himeichi-mikan-karashini",
+     "to_slug": "ryukyu-no-sunomono",
+     "relation_type": "使用食材",
+     "basis": "土佐山田地域ではりゅうきゅう（ハスイモの葉柄）を加えることがある"
+    }
+   ],
+   "tags": [
+    "spicy"
+   ],
+   "notes": "伝承地域は県内全域のため origin_city空欄、代表点は高知市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "koshimeshi",
+   "name_ja": "こうし飯",
+   "name_romaji": "Koshimeshi",
+   "name_en": "Koshimeshi — winter-harvested rock nori worked into New Year's Eve rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "大月町",
+   "lat": 32.947,
+   "lng": 132.708,
+   "summary_ja": "ちりめんじゃこや刻んだ魚を炊き込んだご飯に、冬の海に浸かって採る岩のり「めのり」を仕上げに混ぜる大月町の年越し料理。「越しめし」から転じたとされ、年越しそばの代わりに定着していたという。",
+   "summary_en": "Rice cooked with dried baby sardines or minced fish is finished with rock nori called menori, gathered by wading chest-deep into the winter sea — a New Year's Eve dish from Otsuki Town. The name is said to derive from \"koshimeshi,\" rice for seeing out the year, and it long stood in for the more common year-end soba noodles.",
+   "sources": [
+    {
+     "title": "こうし飯 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/koshimeshi_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "koshimeshi",
+     "to_slug": "katsuo",
+     "relation_type": "使用食材",
+     "basis": "ちりめんじゃこの代わりにカツオ節を使うこともある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は大月町。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kirazu-mochi",
+   "name_ja": "きらずもち",
+   "name_romaji": "Kirazu Mochi",
+   "name_en": "Kirazu Mochi — mochi rice stretched with tofu pulp, wrapped around sweet red bean",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "佐川町",
+   "lat": 33.4526,
+   "lng": 133.3011,
+   "summary_ja": "もち米とおから（きらず）を混ぜた生地であんこを包む佐川町尾川地区だけに伝わる菓子。正月前の豆腐づくりで出るおからを使い、縁を「切らず」に通じる縁起物としても振る舞われてきたという。",
+   "summary_en": "Sticky rice dough stretched with tofu pulp, called kirazu locally, is wrapped around sweet red bean paste — a confection passed down only in the Ogawa district of Sakawa Town. Made from the pulp left over from pre-New Year's tofu-making, it was also served as a good-luck food, its name playing on \"not cutting\" a bond.",
+   "sources": [
+    {
+     "title": "きらずもち 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kirazumochi_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kirazu-mochi",
+     "to_slug": "kibinago-no-hokaburi",
+     "relation_type": "兄弟",
+     "basis": "ともにおから（きらず）を使う高知の郷土料理で、出典にも「たまずし」やきびなごのほおかぶりと並んで紹介される"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は佐川町尾川地区のため origin_city=佐川町とした（地区名は省略）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tofu-no-umezuzuke",
+   "name_ja": "豆腐の梅酢づけ",
+   "name_romaji": "Tofu no Umezuzuke",
+   "name_en": "Tofu no Umezuzuke — firm mountain tofu, charcoal-grilled then steeped in plum vinegar",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.4227,
+   "lng": 132.9945,
+   "summary_ja": "かための豆腐を炭火で何度も焼いてから梅酢に1週間から10日漬け込む津野山地区の保存食。梅酢で赤く染まった見た目が特徴で、塩分が高く薄く切って酒の肴として食べられてきたという。",
+   "summary_en": "Firm tofu, a specialty of the mountainous Tsunoyama district, is charcoal-grilled repeatedly and then steeped in plum vinegar for a week to ten days. The vinegar turns it a vivid red, and its saltiness means it's traditionally sliced thin and eaten as a drinking snack.",
+   "sources": [
+    {
+     "title": "豆腐の梅酢づけ 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tofunoumezuzuke_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tofu-no-umezuzuke",
+     "to_slug": "kashikiri",
+     "relation_type": "対比",
+     "basis": "ともに高知県山間部のごく限られた地域だけに伝わる貴重な保存食だが、豆腐の梅酢づけは焼いた豆腐を梅酢に漬け、かしきりはかしの実を粉末にして寒天状に固める違いがある"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "genre_hintは空欄（tsukemono指定なし）で、all-items-ja.txtにも同一項目なし。伝承地域「津野山地区」は津野町・梼原町にまたがる広域のため origin_city空欄、代表点は津野町とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kure-no-nimono",
+   "name_ja": "暮れの煮物",
+   "name_romaji": "Kure no Nimono",
+   "name_en": "Kure no Nimono — whale meat simmered with daikon and kelp for New Year's Eve",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "室戸市",
+   "lat": 33.2894,
+   "lng": 134.1467,
+   "summary_ja": "くじら肉を大根や人参、こんにゃく、糸昆布と煮込む高知の年越し料理。大きなものを食べて「大物になるように」との願いが込められたとされ、捕鯨の町として知られる室戸市がその文化を担ってきた。",
+   "summary_en": "Whale meat is simmered with daikon, carrot, konjac, and shredded kelp — a New Year's Eve dish in Kochi. Eating something so large is said to carry a wish for one's children to grow into something big themselves, and the whaling town of Muroto has long carried the tradition.",
+   "sources": [
+    {
+     "title": "暮れの煮物 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kurenonimono_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kure-no-nimono",
+     "to_slug": "kujira-no-tare",
+     "relation_type": "対比",
+     "basis": "ともにくじら肉を使う郷土料理だが、暮れの煮物は高知で大晦日に大根や昆布とともに甘辛く煮込む年越し料理という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は県内全域だが、出典に捕鯨文化の中心として室戸市が明記されるため origin_city=室戸市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "taimo-no-korobashi",
+   "name_ja": "田芋のころばし",
+   "name_romaji": "Taimo no Korobashi",
+   "name_en": "Taimo no Korobashi — taro rolled in sesame after a long, slow soy-sugar simmer",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "佐川町",
+   "lat": 33.4526,
+   "lng": 133.3011,
+   "summary_ja": "里芋を高知では田芋と呼び、醤油と砂糖でじっくり煮詰めてから炒りごまをまぶす佐川町の郷土料理。ごまの上で芋を転がすことが名の由来とされ、子孫繁栄の縁起物として皿鉢料理にも加わるという。",
+   "summary_en": "Taro, called taimo in Kochi, is slowly simmered down in soy sauce and sugar, then rolled in roasted sesame — a dish from Sakawa Town. The name is said to come from rolling the taro over the sesame, and as a symbol of a family's growing lineage, it also appears on festive sawachi platters.",
+   "sources": [
+    {
+     "title": "田芋のころばし 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/taimonokorobashi_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "taimo-no-korobashi",
+     "to_slug": "guruni",
+     "relation_type": "対比",
+     "basis": "ともに高知の根菜を甘辛く煮る家庭料理だが、田芋のころばしは里芋を丸ごと甘辛く煮てごまをまぶし、ぐる煮は大根や里芋など複数の根菜を四角に切って煮込む違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は県内全域だが、出典に佐川町独自の郷土料理と明記されるため origin_city=佐川町とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hachiku-to-endo-no-nimono",
+   "name_ja": "淡竹とエンドウの煮物",
+   "name_romaji": "Hachiku to Endo no Nimono",
+   "name_en": "Hachiku to Endo no Nimono — slender purple-skinned bamboo shoot simmered with fresh peas",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.5597,
+   "lng": 133.5311,
+   "summary_ja": "身が薄く淡白な淡竹（はちく）を出汁で煮て、実をつけ始めたエンドウを加えて仕上げる高知の初夏の煮物。孟宗竹に続いて出回る淡竹と、同じ頃に収穫期を迎えるエンドウの組み合わせという。",
+   "summary_en": "Hachiku, a slender, purple-tinged bamboo shoot with a mild flavor, is simmered in dashi and finished with fresh green peas just coming into season — an early-summer simmered dish in Kochi. It pairs hachiku, which follows the earlier moso bamboo to market, with peas harvested around the same time.",
+   "sources": [
+    {
+     "title": "淡竹とエンドウの煮物 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hachikutoendononimono_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hachiku-to-endo-no-nimono",
+     "to_slug": "guruni",
+     "relation_type": "対比",
+     "basis": "ともに複数の食材を合わせて煮る高知の家庭のおかずだが、ぐる煮は根菜を中心にした冬の煮物、淡竹とエンドウの煮物は淡竹とエンドウを合わせた初夏の煮物という違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は県内全域のため origin_city空欄、代表点は高知市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sawachi-ryori",
+   "name_ja": "皿鉢料理",
+   "name_romaji": "Sawachi Ryori",
+   "name_en": "Sawachi Ryori — a single vast platter piled with sushi, sashimi, and simmered dishes for a party",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.5597,
+   "lng": 133.5311,
+   "summary_ja": "36〜39cmほどの大皿に刺身やかつおのたたき、すし、煮物、揚げ物などを盛り合わせる高知の宴会様式。「おきゃく」と呼ぶ客をもてなす場で振る舞われ、皿の枚数で宴の規模がわかるとされる。",
+   "summary_en": "Sashimi, seared bonito, sushi, simmered dishes, and fried food are piled onto a single platter roughly 36 to 39 centimeters across — a style of feasting in Kochi. Served at gatherings called okyaku, the number of platters set out is said to signal the scale of the party.",
+   "sources": [
+    {
+     "title": "皿鉢料理 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sawachiryori_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sawachi-ryori",
+     "to_slug": "katsuo-no-tataki",
+     "relation_type": "兄弟",
+     "basis": "刺身や「かつおのたたき」などの旬の生ものの皿鉢が定番の一つとされる（出典双方に相互の記述あり）"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は県内全域のため origin_city空欄、代表点は高知市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "imobera-azuki",
+   "name_ja": "いもべらあずき",
+   "name_romaji": "Imobera Azuki",
+   "name_en": "Imobera Azuki — dried sweet potato slow-simmered soft and folded with sweet red bean",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "伊野町",
+   "lat": 33.557,
+   "lng": 133.416,
+   "summary_ja": "さつまいもを丸ごと煮てから干し、輪切りにしてさらに干した「ゆでべら」を小豆とともに甘く煮る伊野町の菓子。他地域では「東山」と呼ぶ同じ干し芋を使い、農作業の合間のおやつになったという。",
+   "summary_en": "Sweet potato is boiled whole, dried, sliced into rounds, and dried again into what's called yudebera, then simmered sweet with red bean — a confection from Ino Town. The same dried potato goes by \"Higashiyama\" elsewhere in Kochi, and it once served as a snack eaten between stretches of farm work.",
+   "sources": [
+    {
+     "title": "いもべらあずき 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/imoberaazuki_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "imobera-azuki",
+     "to_slug": "kankoro",
+     "relation_type": "対比",
+     "basis": "ともに干し芋を甘く煮て小豆と合わせる四国のおやつだが、いもべらあずきは高知県伊野町、かんころは愛媛県伊方町の佐田岬半島に伝わる違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は伊野町。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "konchin",
+   "name_ja": "こんちん",
+   "name_romaji": "Konchin",
+   "name_en": "Konchin — burdock kneaded into wheat batter and pan-fried into a snack",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "大豊町",
+   "lat": 33.762,
+   "lng": 133.782,
+   "summary_ja": "ささがきにしたごぼうを中力粉の生地にたっぷり混ぜ、フライパンで両面を焼く大豊町のおやつ。米がとれない時期に主食とされた地粉（中力粉）を用いるとされ、皿鉢料理の一品にもなるという。",
+   "summary_en": "Shaved burdock is worked generously into a batter of medium-strength wheat flour and pan-fried on both sides — a snack from Otoyo Town. It's said to use the same local wheat flour that once stood in for rice when it was scarce, and it also finds a place on sawachi platters.",
+   "sources": [
+    {
+     "title": "こんちん 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/konchin_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "konchin",
+     "to_slug": "ginburo-zushi",
+     "relation_type": "兄弟",
+     "basis": "ともに大豊町の郷土の味とされ、皿鉢料理にも欠かせない一品として紹介される"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は大豊町。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsugani-jiru",
+   "name_ja": "つがに汁",
+   "name_romaji": "Tsugani Jiru",
+   "name_en": "Tsugani Jiru — a soup pounded whole from a live river crab, shell and all",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.5597,
+   "lng": 133.5311,
+   "summary_ja": "四万十川などに棲むモクズガニ「ツガニ」を生きたまま甲羅ごと粉砕し、その出汁でなすやりゅうきゅうを煮る高知の秋の汁物。産卵で川を下る秋が旬とされ、資源保護のため禁漁期間が設けられている。",
+   "summary_en": "A live mitten crab called tsugani, caught in rivers like the Shimanto, is pounded whole, shell included, and the resulting stock is used to simmer eggplant and taro-leaf stalk — an autumn soup in Kochi. The crab is said to be at its best in autumn as it heads downstream to spawn, and a closed season now protects the stock.",
+   "sources": [
+    {
+     "title": "つがに汁 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tsuganijiru_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tsugani-jiru",
+     "to_slug": "ryukyu-no-sunomono",
+     "relation_type": "使用食材",
+     "basis": "りゅうきゅう（ハスイモの茎）を具材に使うことがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は四万十川・仁淀川・物部川流域と複数河川にまたがる広域のため origin_city空欄、代表点は高知市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chate-no-aemono",
+   "name_ja": "チャーテの和え物",
+   "name_romaji": "Chate no Aemono",
+   "name_en": "Chate no Aemono — chayote, sliced raw and tossed while still crisp",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.5597,
+   "lng": 133.5311,
+   "summary_ja": "熱帯アメリカ原産のウリ科植物チャーテ（ハヤトウリ）を生のまま和え物にする高知の秋の家庭料理。1株で100個以上実るため自家消費や近所への差し入れに使われ、栽培しやすい山間部で特に親しまれている。",
+   "summary_en": "Chayote, a squash-family vine native to tropical America and known locally as chate, is tossed raw into a light dressing — an autumn home dish in Kochi. A single vine can bear over a hundred fruit, so it's mostly grown for the household or shared with neighbors, and it's especially popular in the mountains where it grows easily.",
+   "sources": [
+    {
+     "title": "チャーテの和え物 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/chatenoaemono_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "chate-no-aemono",
+     "to_slug": "kyuri-to-kawaebi-no-nimono",
+     "relation_type": "対比",
+     "basis": "ともに高知の夏から秋にとれる野菜を使う家庭料理だが、チャーテの和え物は生のまま和え、きゅうりと川エビの煮物は出汁で煮てとろみをつける違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は県内全域のため origin_city空欄、代表点は高知市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "zenmai-no-itameni",
+   "name_ja": "ぜんまいの炒め煮",
+   "name_romaji": "Zenmai no Itameni",
+   "name_en": "Zenmai no Itameni — mountain fern, dried and re-hydrated, stir-simmered with fried tofu",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "大豊町",
+   "lat": 33.762,
+   "lng": 133.782,
+   "summary_ja": "ゆでて天日干しを何度も繰り返した乾燥ぜんまいを戻し、油揚げと炒め煮にする大豊町の郷土料理。繰り返しの乾燥で繊維が柔らかくなるとされ、皿鉢料理の一品としてもよく登場するという。",
+   "summary_en": "Zenmai fern, repeatedly boiled and sun-dried until fully cured, is re-hydrated and stir-simmered with fried tofu — a dish from Otoyo Town, known for its zenmai. The repeated drying is said to soften the fern's fiber, and the dish is a regular on sawachi platters.",
+   "sources": [
+    {
+     "title": "ぜんまいの炒め煮 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/zemmainoitameni_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "zenmai-no-itameni",
+     "to_slug": "konchin",
+     "relation_type": "兄弟",
+     "basis": "ともに大豊町の郷土の味とされ、皿鉢料理にも欠かせない一品として紹介される"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は山間地域だが、出典に大豊町がぜんまいの産地として明記されるため origin_city=大豊町とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kobu-zushi",
+   "name_ja": "こぶずし",
+   "name_romaji": "Kobu Zushi",
+   "name_en": "Kobu Zushi — sushi rice rolled in kelp alone, no filling at its core",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.5597,
+   "lng": 133.5311,
+   "summary_ja": "芯に具を入れず酢飯を昆布で巻くすしで、県中央部は白い板昆布を使う「板こぶずし」、県西部は黒い昆布を甘辛く煮た「黒こぶずし」に分かれる。冠婚葬祭で客に持たせる折箱にも入るという。",
+   "summary_en": "Vinegared rice is rolled in kelp alone, with nothing at the core — central Kochi uses thin white sheet kelp for itakobu-zushi, while the west uses kelp simmered sweet and salty for kurokobu-zushi. It's also packed into the boxed take-home gifts given to guests at celebrations.",
+   "sources": [
+    {
+     "title": "こぶずし 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kobuzushi_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kobu-zushi",
+     "to_slug": "saba-no-sugata-zushi",
+     "relation_type": "兄弟",
+     "basis": "冠婚葬祭の折箱に「こぶずし」「卵ずし」「巻きずし」「さばの姿ずし」を詰めて客に持たせる風習があると出典に明記される"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "kelp"
+   ],
+   "notes": "伝承地域は県中央部（板こぶずし）・県西部（黒こぶずし）の2地域にまたがるため origin_city空欄、代表点は高知市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kyuri-to-kawaebi-no-nimono",
+   "name_ja": "きゅうりと川エビの煮物",
+   "name_romaji": "Kyuri to Kawaebi no Nimono",
+   "name_en": "Kyuri to Kawaebi no Nimono — river prawns simmered with cucumber until glossy with starch",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.5597,
+   "lng": 133.5311,
+   "summary_ja": "四万十川などでとれる川エビ（テナガエビ）と地這きゅうりを出汁で煮て、水溶き片栗粉でとろみをつける高知の夏の一皿。柴を束ねた仕掛けで獲る伝統漁法が今も伝わり、子どもの川遊びの成果だったという。",
+   "summary_en": "River prawns caught in rivers like the Shimanto and a local trailing cucumber are simmered in dashi and thickened with a cornstarch slurry — a summer dish in Kochi. A traditional method using bundled brushwood traps is still used to catch the prawns, once the reward of a child's day playing in the river.",
+   "sources": [
+    {
+     "title": "きゅうりと川エビの煮物 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kyuritokawaebinonimono_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kyuri-to-kawaebi-no-nimono",
+     "to_slug": "chate-no-aemono",
+     "relation_type": "対比",
+     "basis": "ともに高知の夏から秋にとれる野菜を使う家庭料理だが、きゅうりと川エビの煮物は出汁で煮てとろみをつけ、チャーテの和え物は生のまま和える違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は県内全域のため origin_city空欄、代表点は高知市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kibinago-no-hokaburi",
+   "name_ja": "きびなごのほおかぶり",
+   "name_romaji": "Kibinago no Hokaburi",
+   "name_en": "Kibinago no Hokaburi — vinegared kibinago fish wrapped around a ball of seasoned tofu pulp",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "宿毛市",
+   "lat": 32.9392,
+   "lng": 132.7642,
+   "summary_ja": "背開きにして酢でしめたキビナゴで、酢で味付けて炒ったおからを丸めた玉を包む「たまずし」の一種。すしの形が頬かむりした人の頭に見えることが名の由来とされ、宿毛市が特産品としてPRしている。",
+   "summary_en": "Small kibinago fish are butterflied, cured in vinegar, and wrapped around a ball of tofu pulp that's been pan-toasted and seasoned with vinegar — a variant of tamazushi, sushi made with pulp instead of rice. The wrapped shape is said to resemble a head wrapped in a cloth, and Sukumo City promotes it as a local specialty.",
+   "sources": [
+    {
+     "title": "きびなごのほおかぶり 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kibinagonohokaburi_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kibinago-no-hokaburi",
+     "to_slug": "kirazu-mochi",
+     "relation_type": "兄弟",
+     "basis": "ともにおから（きらず）を使う高知の郷土料理で、出典にも「たまずし」やきらずもちと並んで紹介される"
+    }
+   ],
+   "tags": [],
+   "notes": "米の代わりにおからを使う「たまずし」の一種のためgenre=sushiとせずnullとした（既存のsushiジャンル項目がすべてshelf=riceで統一されているため）。伝承地域は県内全域だが、出典に宿毛市が特産品としてPRしていると明記されるため origin_city=宿毛市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ginburo-zushi",
+   "name_ja": "銀ぶろうずし",
+   "name_romaji": "Ginburo Zushi",
+   "name_en": "Ginburo Zushi — sushi rice mixed with a rare local bean grown by only a few families",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "高知県",
+   "origin_city": "大豊町",
+   "lat": 33.762,
+   "lng": 133.782,
+   "summary_ja": "大豊町西豊永地区で自家用に栽培されてきたいんげん豆「銀ぶろう」を甘く煮て、根菜とともに酢飯に混ぜ込むすし。不老長寿の豆として縁起物とされ、祝宴や祭事のときにつくられてきたという。",
+   "summary_en": "Ginburo, a kidney bean grown only for home use in a district of Otoyo Town, is simmered sweet and folded into vinegared rice with root vegetables. Regarded as a bean of long life and good fortune, it's traditionally made for festivals and celebratory banquets.",
+   "sources": [
+    {
+     "title": "銀ぶろうずし 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gimburozushi_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ginburo-zushi",
+     "to_slug": "hange-dango",
+     "relation_type": "兄弟",
+     "basis": "ともに大豊町の郷土の味とされ、祝宴や祭事のときにつくられてきたという記述が出典にある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は大豊町。読みは「ぎんぶろうずし」だが由来の豆の名に合わせginburo-zushiとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hange-dango",
+   "name_ja": "半夏だんご",
+   "name_romaji": "Hange Dango",
+   "name_en": "Hange Dango — a wheat dumpling wrapped in myoga leaf, made for the day farm labor gets a rest",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "大豊町",
+   "lat": 33.762,
+   "lng": 133.782,
+   "summary_ja": "小麦粉の生地であんこを包み、みょうがの葉で包んで蒸す大豊町の郷土菓子。7月2日の「半夏」に農作業の労をねぎらってつくられ、田んぼの神様にも供えるとされる。「みょうがだんご」とも呼ばれる。",
+   "summary_en": "Wheat dough is wrapped around sweet red bean, then wrapped again in a myoga leaf and steamed — a confection from Otoyo Town. It's made on hange, July 2nd, to mark a rest from farm labor, and is said to be offered to the paddy field's guardian deity too. It also goes by the name myoga dango.",
+   "sources": [
+    {
+     "title": "半夏だんご 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hangedango_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hange-dango",
+     "to_slug": "zenmai-no-itameni",
+     "relation_type": "兄弟",
+     "basis": "ともに大豊町の郷土の味とされる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は大豊町。別名「みょうがだんご」はsummaryに記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kashikiri",
+   "name_ja": "かしきり",
+   "name_romaji": "Kashikiri",
+   "name_en": "Kashikiri — acorn flour, leached of bitterness for two days, set into a tofu-like block",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "安芸市",
+   "lat": 33.5045,
+   "lng": 133.9103,
+   "summary_ja": "かしの実（どんぐり）を粉砕し、水を何度も替えて2日ほどかけて渋抜きしてから練り上げる豆腐状の食品。飢饉の際の救荒食として山間部で広く食べられたが、今では安芸市南部でのみ伝わる貴重な料理という。",
+   "summary_en": "Acorns are ground, then leached of bitterness over some two days of repeated water changes, and worked into a tofu-like block. Once widely eaten across the mountains as emergency food in lean years, it survives today only in southern Aki City, where it's treated as a rare local dish.",
+   "sources": [
+    {
+     "title": "かしきり 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kashikiri_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kashikiri",
+     "to_slug": "tofu-no-umezuzuke",
+     "relation_type": "対比",
+     "basis": "ともに高知県のごく限られた地域だけに伝わる貴重な保存食だが、かしきりはかしの実を粉末にして寒天状に固め、豆腐の梅酢づけは焼いた豆腐を梅酢に漬ける違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は安芸市南部。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mushidai",
+   "name_ja": "蒸し鯛",
+   "name_romaji": "Mushidai",
+   "name_en": "Mushidai — a whole sea bream stuffed with seasoned tofu pulp and steamed",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.5597,
+   "lng": 133.5311,
+   "summary_ja": "タイの腹に味付けしたおからや人参、しいたけ、卵などを詰めて丸ごと蒸す高知の祝い料理。「おきゃく」と呼ばれる宴席に欠かせない一皿とされ、かつてはどの家にも専用のセイロがあったという。",
+   "summary_en": "A whole sea bream is stuffed with seasoned tofu pulp, carrot, shiitake, and egg, then steamed whole — a celebratory dish in Kochi. Considered essential to the feasts called okyaku, it's said every household once kept its own steamer just for this dish.",
+   "sources": [
+    {
+     "title": "蒸し鯛 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mushidai_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mushidai",
+     "to_slug": "sawachi-ryori",
+     "relation_type": "兄弟",
+     "basis": "「蒸し鯛」やそうめん、ぜんざいといった一品盛りの皿鉢があると出典に明記される"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は平野部・海岸部の広域のため origin_city空欄、代表点は高知市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "negi-satsumaimo-no-nuta",
+   "name_ja": "ねぎとさつまいものぬた",
+   "name_romaji": "Negi to Satsumaimo no Nuta",
+   "name_en": "Negi to Satsumaimo no Nuta — leek and sweet potato dressed in sweet vinegar miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "南国市",
+   "lat": 33.5766,
+   "lng": 133.6467,
+   "summary_ja": "ゆでたねぎとさつまいもを白味噌ベースの酢味噌で和える南国市の一皿。定番の「ねぎといかのぬた」のイカをさつまいもに置き換えたとされ、地場産品を生かした料理研究から生まれたという。",
+   "summary_en": "Boiled leek and sweet potato are tossed in a white-miso-based sweet vinegar dressing — a dish from Nankoku City. Said to swap in sweet potato for the squid used in the more common negi-to-ika no nuta, it grew out of local research into using homegrown produce.",
+   "sources": [
+    {
+     "title": "ねぎとさつまいものぬた 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/negitosatsumaimononuta_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "negi-satsumaimo-no-nuta",
+     "to_slug": "ha-ninniku-no-nuta",
+     "relation_type": "兄弟",
+     "basis": "高知では葉にんにくの酢味噌和えが伝統的な「ぬた」とされ、その応用としてねぎとさつまいものぬたが紹介されている"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域は南国市など。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ha-ninniku-no-nuta",
+   "name_ja": "葉にんにくのぬた",
+   "name_romaji": "Ha Ninniku no Nuta",
+   "name_en": "Ha Ninniku no Nuta — a vinegar-miso dressing of ground garlic greens, poured over raw fish",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.5597,
+   "lng": 133.5311,
+   "summary_ja": "刻んですり潰した葉にんにくに味噌や酢、ごま、砂糖を混ぜる高知の伝統的な調味料。朝鮮渡来が由来と伝わり、ブリなど生の魚に醤油の代わりにかけるのが一般的で、地域ごとに呼び名や具材が違うという。",
+   "summary_en": "Garlic greens are chopped, ground, and mixed with miso, vinegar, sesame, and sugar — a traditional Kochi condiment said to trace back to a Korean import. It's commonly spooned over raw fish like yellowtail in place of soy sauce, and both its name and the fish it accompanies vary by area.",
+   "sources": [
+    {
+     "title": "葉にんにくのぬた 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/haninnikunonuta_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ha-ninniku-no-nuta",
+     "to_slug": "negi-satsumaimo-no-nuta",
+     "relation_type": "兄弟",
+     "basis": "「ねぎとさつまいものぬた」は定番の「ねぎといかのぬた」の応用とされ、葉にんにくのぬたと同じ酢味噌の系譜にある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域は県内全域のため origin_city空欄、代表点は高知市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "saba-no-sugata-zushi",
+   "name_ja": "さばの姿ずし",
+   "name_romaji": "Saba no Sugata Zushi",
+   "name_en": "Saba no Sugata Zushi — a whole mackerel, cured and packed with sushi rice, head and tail intact",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "高知県",
+   "origin_city": "",
+   "lat": 33.5597,
+   "lng": 133.5311,
+   "summary_ja": "サバを背開きにして塩と酢でしめ、腹に酢飯をぎっしり詰めて頭と尾を立てて仕上げる皿鉢料理の定番。京都のさばずしより酢と塩を効かせた味付けとされ、脂の少ないゴマサバの持ち味に合わせているという。",
+   "summary_en": "Mackerel is butterflied, cured in salt and vinegar, and packed tight with sushi rice, finished with the head and tail set upright — a fixture of sawachi platters. Its seasoning leans harder on vinegar and salt than Kyoto's saba-zushi, said to suit the leaner blue mackerel more commonly caught off Kochi.",
+   "sources": [
+    {
+     "title": "さばの姿ずし 高知県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sabanosugatazushi_kochi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "saba-no-sugata-zushi",
+     "to_slug": "sawachi-ryori",
+     "relation_type": "兄弟",
+     "basis": "皿鉢料理の定番といえるのが「さばの姿ずし」であると出典に明記される"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "既存slug「saba-zushi」（京都府）とは製法（京都は押しずし、高知は姿のまま酢飯を詰める）も味付けも異なる別品と判断し、地名を冠さず品名どおりsaba-no-sugata-zushiとした。伝承地域は県内全域のため origin_city空欄、代表点は高知市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行(2件): kokerazushi_kochi(existing=kokera-zushi,high)、inakazushi_kochi(existing=inaka-zushi,high) は台帳のexisting_slug/high判定どおり作らず。low判定行は高知県分には無し。genre_hint=tsukemonoの行は無し。tofunoumezuzuke_kochi(豆腐の梅酢づけ)はmaff_category=漬物だがgenre_hint欄は空欄で、all-items-ja.txtにも同一項目が無いため作成した（shelf=fermented, genre=null）。座標の根拠: 伝承地域が「県内全域」等の広域は代表点として高知市（県庁所在地）を使用。本文が特定市町村・地区を名指しする場合（暮れの煮物→捕鯨文化の中心である室戸市、田芋のころばし→独自料理と明記される佐川町、きびなごのほおかぶり→特産品としてPRする宿毛市）はその市町村を採用し、大豊町の複数品（こんちん・つがに汁は流域広域のため対象外・ぜんまいの炒め煮・銀ぶろうずし・半夏だんご）は大豊町、単一市町村が明記された行（こうし飯→大月町、きらずもち→佐川町尾川地区、いもべらあずき→伊野町、かしきり→安芸市南部、ねぎとさつまいものぬた→南国市）はその市町村を採用した。「豆腐の梅酢づけ」の伝承地域「津野山地区」は津野町・梼原町にまたがる広域地区のため origin_city空欄、代表点は津野町とした。genreの判断: 「こぶずし」「銀ぶろうずし」「さばの姿ずし」は酢飯を使う正統なすしのためgenre=sushiとした。「きびなごのほおかぶり」は米の代わりにおからを使う「たまずし」の一種のためgenre=nullとした（既存sushiジャンル項目がすべてshelf=riceで統一されているため、愛媛「いずみや」と同じ判断基準を適用）。要判断: 「さばの姿ずし」は既存slug「saba-zushi」（京都府）と名前が近いが、製法（姿のまま酢飯を詰める高知式 vs 押しずしの京都式）と使うサバの種類・味付けが出典で明確に区別されているため別品と判断し作成した。「かつおのたたき」「皿鉢料理」はブリーフで「既存が多い」と例示されていたが、all-items-ja.txt・all-slugs.txt・itadaki-atlasリポジトリ内grepのいずれにも既存項目が見つからなかったため新規作成した。"
+}

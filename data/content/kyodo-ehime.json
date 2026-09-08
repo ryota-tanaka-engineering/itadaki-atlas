@@ -1,0 +1,813 @@
+{
+ "items": [
+  {
+   "slug": "ehime-taimeshi",
+   "name_ja": "鯛めし",
+   "name_romaji": "Taimeshi",
+   "name_en": "Taimeshi — whole sea bream cooked into rice, or laid raw over it in egg-soy sauce",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "",
+   "lat": 33.8392,
+   "lng": 132.7657,
+   "summary_ja": "タイを丸ごと米と炊き込む東予の型と、生の切り身を卵と醤油だれに漬けて熱いご飯にのせる南予の型がある。縁起の良い魚とされ祝いの席でも食べられ、家庭ごとにどちらの食べ方が根付くかが分かれるという。",
+   "summary_en": "Eastern Ehime cooks a whole sea bream into the rice pot; the south instead lays raw fillets marinated in egg and soy over hot rice. Considered an auspicious fish, it appears at celebrations too, and which style a household follows tends to run by region.",
+   "sources": [
+    {
+     "title": "鯛めし 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/taimeshi_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ehime-taimeshi",
+     "to_slug": "ehime-tai-somen",
+     "relation_type": "対比",
+     "basis": "ともにタイを主役にする愛媛の郷土料理だが、鯛めしは米と一緒に炊き込み、鯛そうめんは煮たタイを素麺に添えて食べる違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は県内全域のため origin_city空欄、代表点は松山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ehime-satsuma",
+   "name_ja": "さつま",
+   "name_romaji": "Satsuma",
+   "name_en": "Satsuma — grilled fish flaked into barley miso and ladled hot over rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "",
+   "lat": 33.2236,
+   "lng": 132.56,
+   "summary_ja": "焼いてほぐした白身魚を麦味噌とすり合わせ、骨でとった出汁でのばして熱い麦飯にかける南予の一杯。ぱさつきがちな麦飯を食べやすくする漁師の工夫と伝わり、地域や家庭で使う魚が違うという。",
+   "summary_en": "Grilled fish is flaked and worked into barley miso, thinned with a stock from its own bones, and ladled over hot barley rice — a dish of southern Ehime. Said to have started as a fisherman's trick for making dry barley rice easier to eat, with the fish varying by area and household.",
+   "sources": [
+    {
+     "title": "さつま 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/satsuma_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ehime-satsuma",
+     "to_slug": "miso-shiru-ehime",
+     "relation_type": "兄弟",
+     "basis": "ともに愛媛の麦味噌を使う料理で、さつまはすり鉢で溶いた麦味噌を出汁でのばして飯にかけ、味噌汁はそのまま汁物として仕立てる（味噌汁側の由来にも「さつま」への言及あり）"
+    }
+   ],
+   "tags": [],
+   "notes": "existing_slug=satsuma-age(low)だが、さつま揚げは魚のすり身の揚げ物、さつまは焼き魚と麦味噌をすり合わせて飯にかける汁かけ飯で別物と判断し作成。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "imotaki",
+   "name_ja": "いもたき",
+   "name_romaji": "Imotaki",
+   "name_en": "Imotaki — a riverside autumn hot pot of taro, chicken, and mochi dumplings",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "大洲市",
+   "lat": 33.5058,
+   "lng": 132.5453,
+   "summary_ja": "鶏肉や里芋、こんにゃく、しいたけを煮込む鍋で、発祥は大洲市とされる。地元名産の里芋を持ち寄った行事が始まりと伝わり、秋には河原に大勢が集まり月見をしながら囲む愛媛の風物詩という。",
+   "summary_en": "Chicken, taro, konjac, and shiitake simmer together in this hot pot, said to have begun in Ozu. Local lore traces it to a gathering where people brought their own home-grown taro, and in autumn crowds still gather on the riverbank to eat it under the moon.",
+   "sources": [
+    {
+     "title": "いもたき 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/imotaki_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "imotaki",
+     "to_slug": "sekka-jiru",
+     "relation_type": "対比",
+     "basis": "ともに愛媛で大勢で囲む鍋料理だが、いもたきは秋の河原で里芋を煮込み、石花汁は今治の石切り場で熱した石を汁に入れて温める違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は県内全域だが、出典に発祥は大洲市と明記されるため origin_city=大洲市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ehime-igisu-dofu",
+   "name_ja": "いぎす豆腐",
+   "name_romaji": "Igisu Dofu",
+   "name_en": "Igisu Dofu — a jellied summer dish of seaweed and soybean flour set like agar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "今治市",
+   "lat": 34.0663,
+   "lng": 132.9979,
+   "summary_ja": "海藻のいぎすと生の大豆粉をだし汁で煮溶かし、寒天のように冷やし固める今治の料理。ひんやりとした食感で暑い盛りの食欲をそそり、エビなどの具を入れる家と入れない家で味わいが分かれるという。",
+   "summary_en": "Igisu seaweed and raw soybean flour are simmered into stock and chilled firm like agar, a dish from Imabari. Its cool texture is meant to coax back a summer appetite, and households differ over whether to fold in shrimp or leave it plain.",
+   "sources": [
+    {
+     "title": "いぎす豆腐 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/igisu_dofu_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ehime-igisu-dofu",
+     "to_slug": "sekka-jiru",
+     "relation_type": "対比",
+     "basis": "ともに今治市に伝わる郷土料理だが、いぎす豆腐は夏に食べる冷たい寒天寄せ、石花汁は冬の石切り場で温まるための熱い汁物という違いがある"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "notes": "伝承地域は今治地域のため origin_city=今治市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "senzanki",
+   "name_ja": "せんざんき",
+   "name_romaji": "Senzanki",
+   "name_en": "Senzanki — bone-in chicken deep-fried whole, Imabari's version of karaage",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "愛媛県",
+   "origin_city": "今治市",
+   "lat": 34.0663,
+   "lng": 132.9979,
+   "summary_ja": "若鶏を骨付きのまま一口大に切り、下味を漬けてから片栗粉をまぶして揚げる今治の唐揚げ。骨から出る旨味が味を深めるとされ、祝い事から弁当まであらゆる場面で食べられているという。",
+   "summary_en": "Bone-in young chicken, cut into bite-sized pieces, marinated, and dusted in potato starch before frying — Imabari's take on fried chicken. The bone is said to deepen the flavor, and it turns up everywhere from celebrations to packed lunches.",
+   "sources": [
+    {
+     "title": "せんざんき 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/senzanki_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "senzanki",
+     "to_slug": "imabari-yakitori",
+     "relation_type": "対比",
+     "basis": "ともに今治の鶏料理の代表格だが、今治焼き鳥は鉄板で串を押し焼きにし、せんざんきは骨付きのまま油で揚げる違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "台帳shelf=homestyleだが、実際は骨付き鶏肉の唐揚げ（揚げ物）のためshelf=fried、genre=friedに変更。伝承地域は東予地方（主に今治市辺り）のため origin_city=今治市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "horaku-yaki",
+   "name_ja": "法楽焼",
+   "name_romaji": "Horaku Yaki",
+   "name_en": "Horaku Yaki — sea bream and shellfish steamed whole over hot stones, no water",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "今治市",
+   "lat": 34.0663,
+   "lng": 132.9979,
+   "summary_ja": "焙烙鍋に小石を敷き、タイを中心にエビやハマグリなど魚介を彩りよく盛って塩だけで蒸し焼きにする今治の一皿。水を使わないため旨味が凝縮するといい、村上海賊の戦勝料理に由来すると伝わる。",
+   "summary_en": "Sea bream, shrimp, clams, and other shellfish are arranged over hot stones in a shallow earthenware pan and steamed with nothing but salt — a dish from Imabari. Using no water is said to concentrate the flavor, and it's traced to a victory meal of the Murakami pirates.",
+   "sources": [
+    {
+     "title": "法楽焼 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/houraku_yaki_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "horaku-yaki",
+     "to_slug": "sekka-jiru",
+     "relation_type": "対比",
+     "basis": "ともに今治で焼いた・熱した石を調理に使う郷土料理だが、法楽焼は焙烙に小石を敷いて魚介を蒸し焼きにし、石花汁は熱した石を汁の中に落として温める違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は今治市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "izumiya",
+   "name_ja": "いずみや",
+   "name_romaji": "Izumiya",
+   "name_en": "Izumiya — a scattered sushi made with seasoned soybean pulp instead of rice",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "新居浜市",
+   "lat": 33.9601,
+   "lng": 133.2836,
+   "summary_ja": "酢飯の代わりに味付けしたおからを使う卯の花ずし。別子銅山を開いた住友家の屋号「泉屋」に由来すると伝わり、米を食べにくかった庶民が見た目だけでも真似た料理という。宇和島では丸ずしと呼ぶ。",
+   "summary_en": "A scattered-sushi variant that uses seasoned soybean pulp (okara) in place of vinegared rice. It's said to take its name from Izumiya, the trade name of the Sumitomo family who opened the Besshi copper mine, after commoners who couldn't easily afford rice mimicked the look of their sushi. In Uwajima it's called maru-zushi.",
+   "sources": [
+    {
+     "title": "いずみや 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/izumiya_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "izumiya",
+     "to_slug": "mikan-zushi",
+     "relation_type": "対比",
+     "basis": "ともに酢飯の代わりに別の材料を使う南予の変わりずしだが、いずみやはおからを、みかんずしはみかん果汁を使う違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は県内全域だが、由来が新居浜の住友家に明記されるため origin_city=新居浜市とした。名前が「いずみや／丸ずし」と地域で呼称が分かれるため name_ja は「いずみや」を採用し別名はsummaryに記載。米を使わないおから寿司のためgenre=sushiとはせずnullとした（既存のsushiジャンル項目はすべてshelf=riceで統一されているため）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ehime-tai-somen",
+   "name_ja": "鯛そうめん",
+   "name_romaji": "Tai Somen",
+   "name_en": "Tai Somen — a whole simmered sea bream served over noodles for weddings and milestones",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "",
+   "lat": 33.8392,
+   "lng": 132.7657,
+   "summary_ja": "タイを一尾丸ごと煮て、ゆでた素麺と大皿に盛り、煮汁をかけ汁にして食べる。素麺は七夕の織女に、タイは縁起物にちなむとされ、婚礼や還暦など祝いの席で親族に振る舞われてきたという。",
+   "summary_en": "A whole sea bream is simmered and set on a large platter of boiled somen noodles, the cooking broth doubling as a dipping sauce. The noodles are linked to the Tanabata weaver-star legend and the fish to good fortune, and the dish has long been served to family at weddings and milestone birthdays.",
+   "sources": [
+    {
+     "title": "鯛そうめん 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tai_soumen_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ehime-tai-somen",
+     "to_slug": "ehime-taimeshi",
+     "relation_type": "対比",
+     "basis": "ともにタイを主役にする愛媛の郷土料理だが、鯛めしは米と一緒に炊き込み、鯛そうめんは煮たタイを素麺に添えて食べる違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は県内全域のため origin_city空欄、代表点は松山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ehime-tako-meshi",
+   "name_ja": "たこ飯",
+   "name_romaji": "Ehime Tako Meshi",
+   "name_en": "Ehime Tako Meshi — octopus simmered into rice with kelp and citrus peel",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "",
+   "lat": 33.8392,
+   "lng": 132.7657,
+   "summary_ja": "伊予灘でとれるタコをぶつ切りにし、昆布や根菜と一緒に米に炊き込む。もともと漁船の上で漁師が獲れたタコをそのまま炊いたのが始まりとされ、仕上げにみかんの皮をのせるのが愛媛らしい。",
+   "summary_en": "Octopus from the Iyo Sea is cut into pieces and cooked into rice with kelp and root vegetables. It's said to have begun with fishermen simmering their catch right on board, and the finishing touch of mikan peel on top is distinctly Ehime.",
+   "sources": [
+    {
+     "title": "たこ飯 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tako_meshi_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ehime-tako-meshi",
+     "to_slug": "tako-meshi",
+     "relation_type": "対比",
+     "basis": "ともにタコを米と炊き込むたこ飯だが、三重県のたこ飯は志摩の海女漁の文化とともに伝わり、愛媛は伊予灘のタコを昆布や根菜、みかんの皮とともに炊き込む違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "既存slug「tako-meshi」（三重県）・「himakajima-takomeshi」（愛知県）と同名のため ehime-tako-meshi とした。伝承地域は中予地方、今治市および島しょ部と複数地域のため origin_city空欄、代表点は中予地方の中心都市である松山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fuka-no-yuzarashi",
+   "name_ja": "ふかの湯ざらし",
+   "name_romaji": "Fuka no Yuzarashi",
+   "name_en": "Fuka no Yuzarashi — parboiled shark sliced thin and dressed in hot mustard miso",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "",
+   "lat": 33.2236,
+   "lng": 132.56,
+   "summary_ja": "サメを熱湯にくぐらせ冷水にさらして薄く卸し、辛子を効かせた酢味噌で食べる南予の一皿。売り物にならないサメを酒の肴にしたのが始まりと伝わり、宇和島の鉢盛料理に欠かせないという。",
+   "summary_en": "Shark is quickly blanched, plunged into cold water, and sliced thin to eat with a mustard-spiked vinegar miso — a dish of southern Ehime. Said to have begun with fishermen using shark too small to sell as a drinking snack, it's counted as essential to Uwajima's festive sawachi platters.",
+   "sources": [
+    {
+     "title": "ふかの湯ざらし 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/fukano_yu_zarashi_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fuka-no-yuzarashi",
+     "to_slug": "fukumen",
+     "relation_type": "兄弟",
+     "basis": "ともに宇和島市周辺の祝い事に欠かせない鉢盛料理の一皿とされる（出典双方に「鉢盛料理に欠かせない」との記述あり）"
+    }
+   ],
+   "tags": [
+    "miso",
+    "cold_served"
+   ],
+   "notes": "台帳shelf=homestyleだが、実際は熱湯にくぐらせた後に冷水でしめて薄造りにする生食に近い調理のためshelf=rawに変更。伝承地域は南予地方のため origin_city空欄、代表点は宇和島市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fukumen",
+   "name_ja": "ふくめん",
+   "name_romaji": "Fukumen",
+   "name_en": "Fukumen — flaked white fish over konjac noodles, colored to mark the four seasons",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "宇和島市",
+   "lat": 33.2236,
+   "lng": 132.56,
+   "summary_ja": "白身魚をほぐして甘辛く煮たそぼろを、麺状に切ったこんにゃくにまぶす宇和島の行事食。ピンクは春、緑は夏、みかん色は秋、白は冬と四季を色で表すとされ、婚礼や長寿祝いに供される。",
+   "summary_en": "Flaked white fish, simmered sweet and salty, is worked into thin-cut strands of konjac styled like noodles — a festival dish from Uwajima. The colors are said to stand for the seasons, pink for spring through white for winter, and it's served at weddings and longevity celebrations.",
+   "sources": [
+    {
+     "title": "ふくめん 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/fukumen_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fukumen",
+     "to_slug": "fuka-no-yuzarashi",
+     "relation_type": "兄弟",
+     "basis": "ともに宇和島市周辺の祝い事に欠かせない鉢盛料理の一皿とされる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は宇和島市周辺。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sekka-jiru",
+   "name_ja": "石花汁",
+   "name_romaji": "Sekka Jiru",
+   "name_en": "Sekka Jiru — soup kept simmering by dropping in heated stones, from a stone-quarry town",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "今治市",
+   "lat": 34.0663,
+   "lng": 132.9979,
+   "summary_ja": "米のとぎ汁や出汁に野菜や貝、油揚げなどを煮込み、熱く焼いた石を入れて保温する。今治市大島の石切り場で働く職人の賄いが始まりとされ、湯気が立つ様が花のように見えることが名の由来という。",
+   "summary_en": "Vegetables, shellfish, and fried tofu are simmered in rice-rinse water or stock, then kept hot by dropping in a stone heated over a fire. Said to have begun as a meal for stonecutters on Oshima island off Imabari, the name is said to come from how the rising steam looked like a blooming flower.",
+   "sources": [
+    {
+     "title": "石花汁 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sekka_jiru_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sekka-jiru",
+     "to_slug": "horaku-yaki",
+     "relation_type": "対比",
+     "basis": "ともに今治で焼いた・熱した石を調理に使う郷土料理だが、法楽焼は焙烙に小石を敷いて魚介を蒸し焼きにし、石花汁は熱した石を汁の中に落として温める違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は今治市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "miso-shiru-ehime",
+   "name_ja": "味噌汁（麦味噌）",
+   "name_romaji": "Mugi Miso Shiru",
+   "name_en": "Mugi Miso Shiru — a barley-miso soup made from Ehime's own mellow, high-koji miso",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "",
+   "lat": 33.8392,
+   "lng": 132.7657,
+   "summary_ja": "はだか麦を多く使い麹歩合を高めた愛媛の麦味噌でつくる味噌汁。米を年貢に納め麦を味噌に加工した名残とされ、田舎味噌とも呼ばれる。煮返さず食べる直前に溶くのが風味を保つ勘所という。",
+   "summary_en": "A miso soup made with Ehime's own barley miso, high in malted rice grain and known for a mellow sweetness. Said to be a holdover from days when rice went to tribute and barley was worked into miso instead, it's also called inaka (country) miso. The trick to keeping its flavor is to stir it in just before serving, never reboiling it.",
+   "sources": [
+    {
+     "title": "味噌汁（麦味噌） 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/miso_shiru_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "miso-shiru-ehime",
+     "to_slug": "ehime-satsuma",
+     "relation_type": "兄弟",
+     "basis": "ともに愛媛の麦味噌を使う料理で、味噌汁はそのまま汁物として仕立て、さつまはすり鉢で溶いた麦味噌を出汁でのばして飯にかける"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域は県内全域のため origin_city空欄、代表点は松山市。slugは既存の一般名「miso-shiru」等との混同を避けmiso-shiru-ehimeとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ebiten",
+   "name_ja": "えび天",
+   "name_romaji": "Ebiten",
+   "name_en": "Ebiten — a fried cake of ground shrimp, shell and all, worked into tofu",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "愛媛県",
+   "origin_city": "新居浜市",
+   "lat": 33.9601,
+   "lng": 133.2836,
+   "summary_ja": "殻ごとすりつぶしたジャコエビを白身魚や豆腐と練り合わせ、油で揚げる東予の練り物。塩分を抑えて豆腐の甘みとエビの香りを立たせ、殻のジャリっとした歯ざわりが持ち味とされる。",
+   "summary_en": "Small shrimp are ground shell and all, worked with white fish and tofu, and fried into a cake — a fish-paste product from eastern Ehime. The salt is kept light to let the tofu's sweetness and the shrimp's aroma come through, with the ground shell left in for a gritty bite.",
+   "sources": [
+    {
+     "title": "えび天 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ebiten_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ebiten",
+     "to_slug": "jako-ten",
+     "relation_type": "対比",
+     "basis": "ともに愛媛の魚のすり身を油で揚げる練り物だが、じゃこ天は小魚を骨ごとすりつぶし、えび天はジャコエビと豆腐を合わせてつくる違いがある"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ],
+   "notes": "台帳shelf=homestyleだが、実際は魚のすり身を油で揚げる練り製品のためshelf=fried、genre=friedに変更（jako-tenと同系統）。existing_slug=ebiten-nigiri(low)はえび天を握りずしにした別項目と判断し、練り物そのものである本品は別途作成。伝承地域は東予地方のため origin_city空欄、代表点は新居浜市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kankoro",
+   "name_ja": "かんころ",
+   "name_romaji": "Kankoro",
+   "name_en": "Kankoro — dried sweet potato simmered soft and mixed with sweetened red bean",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "伊方町",
+   "lat": 33.4959,
+   "lng": 132.3494,
+   "summary_ja": "米がとれにくい佐田岬半島で保存食として干したさつまいもを、じっくり炊いて砂糖と小豆を合わせるおやつ。鍋で練り炊く音が名の由来とされ、みかん栽培が盛んになる前の暮らしを伝える。",
+   "summary_en": "On the rice-poor Sada Misaki peninsula, sweet potato was dried for storage, then this snack simmers it soft and works in sugar and red bean. The name is said to come from the sound of stirring the pot, and the dish recalls life on the peninsula before citrus growing took hold.",
+   "sources": [
+    {
+     "title": "かんころ 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kankoro_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kankoro",
+     "to_slug": "imobera-azuki",
+     "relation_type": "対比",
+     "basis": "ともに干し芋を甘く煮て小豆と合わせる四国のおやつだが、かんころは佐田岬半島の伊方町、いもべらあずきは高知県伊野町に伝わる違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は伊方町。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kijiniku-kiriboshi-daikon-gohan",
+   "name_ja": "きじ肉と切り干し大根の混ぜご飯",
+   "name_romaji": "Kijiniku to Kiriboshi Daikon no Mazegohan",
+   "name_en": "Pheasant and Dried Daikon Mixed Rice — a mild, lean game bird folded into rice with sun-dried radish",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "鬼北町",
+   "lat": 33.293,
+   "lng": 132.789,
+   "summary_ja": "きじ骨の出汁できじ肉と切り干し大根、根菜を煮て、炊いたご飯に混ぜ込む鬼北町の一皿。きじは淡泊で熟成に向くとされ、地域で飼育がおこなわれ学校給食にも取り入れられているという。",
+   "summary_en": "Pheasant meat and sun-dried daikon, along with root vegetables, are simmered in a stock made from pheasant bones and folded into cooked rice — a dish from Kihoku Town. The lean, mild meat is said to suit aging, and the bird is now raised locally and served in school lunches.",
+   "sources": [
+    {
+     "title": "きじ肉と切り干し大根の混ぜご飯 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kijiniku_to_kiri_boshi_daikon_no_maze_gohan_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kijiniku-kiriboshi-daikon-gohan",
+     "to_slug": "jako-ten",
+     "relation_type": "使用食材",
+     "basis": "具材にじゃこ天などの練り物を加えることがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は鬼北町。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shoyu-meshi",
+   "name_ja": "しょうゆめし",
+   "name_romaji": "Shoyu Meshi",
+   "name_en": "Shoyu Meshi — a soy-simmered mixed rice that became Matsuyama's train-station bento",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "",
+   "lat": 33.8392,
+   "lng": 132.7657,
+   "summary_ja": "ごぼうや人参などその時々の野菜を醤油で炊き込む松山地域の祝いご飯。室町時代から続くもてなし料理とされ、昭和に駅弁としてアレンジされたものが今も松山の名物として親しまれている。",
+   "summary_en": "Burdock, carrot, and other seasonal vegetables are cooked into rice with soy sauce — a celebratory rice dish from the Matsuyama area, said to trace back to Muromachi-era hospitality cooking. A Showa-era bento version, sold at the train station, remains a Matsuyama favorite today.",
+   "sources": [
+    {
+     "title": "しょうゆめし 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shouyu_meshi_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shoyu-meshi",
+     "to_slug": "botecha",
+     "relation_type": "対比",
+     "basis": "ともに松山地域に伝わるハレの日の料理だが、しょうゆめしは野菜と醤油で炊き込むご飯、ぼて茶は泡立てたお茶に黒豆ご飯を入れて食べる違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "soy_sauce"
+   ],
+   "notes": "伝承地域は松山地域のため origin_city空欄、代表点は松山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tachiuo-maki",
+   "name_ja": "太刀魚巻／太刀巻",
+   "name_romaji": "Tachiuo Maki",
+   "name_en": "Tachiuo Maki — hairtail fish spiraled onto bamboo and grilled over charcoal",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "宇和島市",
+   "lat": 33.2236,
+   "lng": 132.56,
+   "summary_ja": "タチウオを竹串にらせん状に巻きつけ、秘伝のたれを塗りながら炭火で焼く宇和島の一品。臭みが少なく脂の乗った魚を老舗魚屋が考案したと伝わり、今では観光客に人気の名物になっている。",
+   "summary_en": "Hairtail fish is wound in a spiral around a bamboo skewer and grilled over charcoal, basted with a secret sauce — a specialty of Uwajima. Devised, it's said, by a long-established fishmonger using a mild, fatty fish, it's now a favorite with visitors to the town.",
+   "sources": [
+    {
+     "title": "太刀魚巻／太刀巻 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tachiuo_maki_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tachiuo-maki",
+     "to_slug": "jako-ten",
+     "relation_type": "対比",
+     "basis": "ともに宇和島市周辺で土産物としても売られる魚介の加工品だが、太刀魚巻きは竹に巻いて炭火で焼き、じゃこ天は小魚のすり身を油で揚げる違いがある"
+    }
+   ],
+   "tags": [
+    "skewered",
+    "souvenir_non_confection"
+   ],
+   "notes": "名前が「太刀魚巻／太刀巻」と併記のため name_ja は先頭の「太刀魚巻」を採用。伝承地域は南予地方（宇和島市）と明記されるため origin_city=宇和島市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ehime-taruto",
+   "name_ja": "タルト",
+   "name_romaji": "Ehime Taruto",
+   "name_en": "Ehime Taruto — a castella roll cake filled with yuzu-scented red bean paste",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "松山市",
+   "lat": 33.8392,
+   "lng": 132.7657,
+   "summary_ja": "カステラ生地でこし餡を巻いた松山銘菓。長崎で出会った南蛮菓子を藩主が持ち帰り、柑橘どころらしく餡に柚子を加えて和菓子へつくり変えたと伝わり、断面の渦模様が特徴という。",
+   "summary_en": "A Matsuyama specialty: a castella sponge rolled around sweet red bean paste. A domain lord is said to have brought the recipe home after encountering a Portuguese-style confection in Nagasaki, then reworked it with yuzu citrus in the filling — a nod to the region's oranges — leaving a spiral pattern in cross-section.",
+   "sources": [
+    {
+     "title": "タルト 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/taruto_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ehime-taruto",
+     "to_slug": "matsuyama-zushi",
+     "relation_type": "対比",
+     "basis": "ともに松山を代表する名物だが、松山鮓は瀬戸内の幸を使った祝いずし、タルトはカステラ生地に柚子餡を巻いた菓子という違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "洋菓子の「タルト」との混同を避けるためslugをehime-tarutoとした。伝承地域は松山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "botecha",
+   "name_ja": "ぼて茶",
+   "name_romaji": "Bote Cha",
+   "name_en": "Bote Cha — tea whisked to a froth over black-bean rice, a temple festival treat",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "愛媛県",
+   "origin_city": "",
+   "lat": 33.8392,
+   "lng": 132.7657,
+   "summary_ja": "煮出した番茶を塩をつけた茶せんで泡立て、黒豆ご飯やたけのこなどの具を入れて食べる松山の一皿。倹約令の折に藩主の女房たちが工夫したと伝わり、花まつりでふるまわれる寺の名物でもある。",
+   "summary_en": "Roasted tea is whisked to a froth with a salted bamboo whisk and poured over black-bean rice with toppings like bamboo shoot — a dish from Matsuyama. Said to have been devised by a domain lord's household during a period of enforced frugality, it's still served at a temple's springtime Buddha festival.",
+   "sources": [
+    {
+     "title": "ぼて茶 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/botecha_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "botecha",
+     "to_slug": "shoyu-meshi",
+     "relation_type": "対比",
+     "basis": "ともに松山地域に伝わるハレの日の料理だが、ぼて茶は泡立てたお茶に黒豆ご飯を入れて食べ、しょうゆめしは野菜と醤油で炊き込むご飯という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は松山地域のため origin_city空欄、代表点は松山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mikan-zushi",
+   "name_ja": "みかんずし",
+   "name_romaji": "Mikan Zushi",
+   "name_en": "Mikan Zushi — sushi rice seasoned with mikan juice instead of scarce vinegar",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "愛媛県",
+   "origin_city": "",
+   "lat": 33.2236,
+   "lng": 132.56,
+   "summary_ja": "米酢が貴重だった南予で、酸味の強いみかんやかぼすの果汁を合わせ酢代わりに使うちらしずし。売り物にならないみかんを使った「みかんご飯」が原型とされ、学校給食にも取り入れられている。",
+   "summary_en": "In southern Ehime, where rice vinegar was once hard to come by, the tart juice of mikan or kabosu citrus stands in for vinegar in this scattered sushi. It's said to have grown out of \"mikan rice,\" made with fruit too blemished to sell, and it now appears on school lunch menus too.",
+   "sources": [
+    {
+     "title": "みかんずし 愛媛県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mikan_zushi_ehime.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mikan-zushi",
+     "to_slug": "izumiya",
+     "relation_type": "対比",
+     "basis": "ともに酢飯の代わりに別の材料を使う南予の変わりずしだが、みかんずしはみかん果汁を、いずみやはおからを使う違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "名前に「ずし」を含み合わせ酢の代わりにみかん果汁を使う点が出典に明記されるためgenre=sushiとした。伝承地域は南予地方のため origin_city空欄、代表点は宇和島市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行(4件): hino_kabura_zuke_ehime(緋の蕪漬／緋のかぶ漬, genre_hint=tsukemono)は漬物ジャンル投入済みのため作らず。matsu_yama_zushi_ehime(existing=matsuyama-zushi,high)、imabari_yakitori_ehime(existing=imabari-yakitori,high)、jakoten_ehime(existing=jako-ten,high) は台帳のexisting_slug/high判定どおり作らず。low判定の内訳(2件・いずれも別物と判断し作成): satsuma_ehime(existing=satsuma-age,low)はさつま揚げ（魚のすり身の揚げ物）と、さつま（焼き魚と麦味噌をすり合わせ飯にかける汁かけ飯）が別料理であるため作成。ebiten_ehime(existing=ebiten-nigiri,low)はえび天握り（すしの一種）と、えび天（エビ・豆腐入りの練り物そのもの）が別物のため作成。棚(shelf)を変えた行: senzanki_ehime(homestyle→fried、骨付き鶏肉の唐揚げのためgenreもfriedを付与)、ebiten_ehime(homestyle→fried、魚のすり身を揚げる練り物のためgenreもfriedを付与)、fukano_yu_zarashi_ehime(homestyle→raw、熱湯にくぐらせた後冷水でしめる生食に近い調理のため)。座標の根拠: 伝承地域が「県内全域」「南予地方」等の広域は代表点として松山市（県庁所在地）または宇和島市（南予地方の中心都市）を使用。本文が特定市町村を名指しする場合（いもたき→発祥の大洲市、いずみや→由来の新居浜市、かんころ→伊方町、きじ肉と切り干し大根の混ぜご飯→鬼北町、太刀魚巻→宇和島市、タルト→松山市）はその市町村を採用し、今治市に伝わる複数品（いぎす豆腐・せんざんき・法楽焼・石花汁）は今治市を使用した。genreの判断: 「いずみや」「きびなごのほおかぶり」（高知）等の米を使わないおから寿司はgenre=sushiとせずnullとした（既存のsushiジャンル項目がすべてshelf=riceで統一されているため、ridge一貫性を優先）。一方「みかんずし」は米に果汁を合わせる正統なちらしずしのためgenre=sushiとした。slug衝突の回避: all-slugs.txtとの照合で「taimeshi」（広島県）「satsuma」（香川県）「igisu-dofu」（広島県）「tai-somen」（香川県）と同名の既存slugが判明したため、それぞれehime-taimeshi、ehime-satsuma、ehime-igisu-dofu、ehime-tai-somenに変更した（地名-料理名の命名規則を適用）。要判断: 「たこ飯」は既存slug「tako-meshi」（三重県）「himakajima-takomeshi」（愛知県）と同名のためehime-tako-meshiとした。「タルト」は洋菓子の一般名と紛らわしいためehime-tarutoとした。"
+}
