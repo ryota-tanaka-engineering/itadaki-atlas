@@ -1,0 +1,805 @@
+{
+ "items": [
+  {
+   "slug": "okaisan",
+   "name_ja": "おかいさん",
+   "name_romaji": "Okaisan",
+   "name_en": "Okaisan — rice simmered in roasted tea, a stand-in for scarce rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "",
+   "lat": 34.2306,
+   "lng": 135.1708,
+   "summary_ja": "番茶を煮出した湯で米を炊く、和歌山で「茶がゆ」を親しみを込めて呼ぶ朝の一杯。山がちで米が乏しかった土地で少ない米を腹持ちよくする知恵とされ、さつまいもや梅干し、金山寺味噌をのせるなど食べ方は家庭ごとに違うという。",
+   "summary_en": "Rice is simmered in water steeped with roasted tea — what Wakayama fondly calls chagayu. Said to have stretched scarce rice into a filling meal in a mountainous prefecture, it's topped differently by every household, with sweet potato, umeboshi, or kinzanji miso.",
+   "sources": [
+    {
+     "title": "おかいさん／茶がゆ 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/okaisan_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "okaisan",
+     "to_slug": "umeboshi",
+     "relation_type": "使用食材",
+     "basis": "南高梅の梅干しをのせて食べることがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は「県内全域」のため origin_city は空欄、代表点は県庁所在地の和歌山市とした。名前が「おかいさん／茶がゆ」と併記のため name_ja は先頭の「おかいさん」を採用し、別名はsummaryで言及。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mehari-zushi",
+   "name_ja": "めはりずし",
+   "name_romaji": "Mehari Zushi",
+   "name_en": "Mehari Zushi — a rice ball wrapped whole in salt-cured mustard greens",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "和歌山県",
+   "origin_city": "",
+   "lat": 33.7297,
+   "lng": 135.3767,
+   "summary_ja": "塩漬けした高菜の葉で大きなおにぎりをまるごと包む、県南部の山仕事や漁の合間に食べられてきた携行食。名前の由来には目を見張るほど大きい、美味しいなど諸説あり、地域によって具や米の炊き方が違うという。",
+   "summary_en": "A big rice ball wrapped whole in salt-cured mustard greens, carried into the hills and out to sea in southern Wakayama. Accounts of the name vary — eyes opening wide at its size, or at its flavor — and both the filling and the rice change by area.",
+   "sources": [
+    {
+     "title": "めはりずし 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mehari_zushi_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mehari-zushi",
+     "to_slug": "shirasu",
+     "relation_type": "使用食材",
+     "basis": "具材にシラスを入れることもある"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "伝承地域は南部地域で広域のため origin_city は空欄。代表点は紀南地域の中心都市である田辺市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "onomi-no-sashimi",
+   "name_ja": "尾の身の刺身",
+   "name_romaji": "Onomi no Sashimi",
+   "name_en": "Onomi no Sashimi — thin-sliced, marbled whale tail meat eaten raw",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "太地町",
+   "lat": 33.5975,
+   "lng": 135.9423,
+   "summary_ja": "尾びれの付け根からわずかしか取れない霜降りの鯨肉を薄く切り、刺身でいただく太地町の一皿。江戸期から続く古式捕鯨の歴史を持つ町で、骨や皮まで無駄なく食べ尽くす文化の中でも特に希少とされる部位という。",
+   "summary_en": "Thinly sliced, marbled whale meat from the narrow cut near the tail fin, served raw as sashimi in the town of Taiji. In a town with a history of traditional whaling reaching back to the Edo period, where every part of the whale is used, this cut is counted among the rarest.",
+   "sources": [
+    {
+     "title": "尾の身の刺身 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/onomino_sashimi_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "onomi-no-sashimi",
+     "to_slug": "utsubo-ryouri",
+     "relation_type": "対比",
+     "basis": "ともに紀南で余さず食べ尽くされてきた海の幸だが、尾の身は希少部位を刺身で、うつぼは干してから佃煮などに加工して食べる"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "notes": "伝承地域は太地町。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "goma-toufu",
+   "name_ja": "ごま豆腐",
+   "name_romaji": "Goma Toufu",
+   "name_en": "Goma Toufu — sesame ground and kneaded with mountain-water arrowroot",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "高野町",
+   "lat": 34.213,
+   "lng": 135.5934,
+   "summary_ja": "生のごまの皮を除いてすり潰し、高野山の水と吉野葛で練り上げて炊く精進料理の一つ。肉や魚を断つ修行僧のたんぱく源として生まれたと伝わり、今では高野山の土産や和食の一品として広く親しまれている。",
+   "summary_en": "Raw sesame is skinned, ground, and worked with mountain water and Yoshino arrowroot into a simmered block of shojin cuisine. Said to have supplied protein for monks who abstained from meat and fish, it's now a familiar Koyasan souvenir and a fixture on Japanese menus.",
+   "sources": [
+    {
+     "title": "ごま豆腐 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/goma_toufu_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "goma-toufu",
+     "to_slug": "goma-gohan",
+     "relation_type": "対比",
+     "basis": "ともにごまを主役にするが、ごま豆腐は葛で練って固める精進料理、ごまごはんはすり潰したごまをご飯に混ぜる家庭料理という違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は北部地域だが、由来・製法ともに高野山（高野町）に集中しているため、いかめし→森町の例に倣い origin_city=高野町、座標も高野町とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "igami-no-nitsuke",
+   "name_ja": "いがみの煮付け",
+   "name_romaji": "Igami no Nitsuke",
+   "name_en": "Igami no Nitsuke — a whole parrotfish simmered sweet and salty for New Year's",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "田辺市",
+   "lat": 33.7297,
+   "lng": 135.3767,
+   "summary_ja": "県南部でブダイと呼ばれる磯魚「イガミ」を丸ごと甘辛く煮付ける一皿。冬に岩場の海藻を食べて臭みが抜けて美味になることから、田辺市周辺では正月に鯛の代わりに尾頭付きで供える習慣が伝わるという。",
+   "summary_en": "Igami — what southern Wakayama calls the parrotfish — is simmered whole in a sweet-salty broth. Feeding on seaweed among winter rocks leaves it free of any off-flavor, and around Tanabe it's said to be served head-to-tail in place of sea bream for New Year's.",
+   "sources": [
+    {
+     "title": "いがみの煮付け 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/igamino_nitsuke_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "igami-no-nitsuke",
+     "to_slug": "tachiuo-ryouri",
+     "relation_type": "対比",
+     "basis": "ともに紀伊水道でとれる魚を使った和歌山の家庭料理だが、いがみは丸ごと甘辛く煮付け、太刀魚は刺身や塩焼きなど食べ方が多彩という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域「田辺市周辺」は単一市に準じるとみなし origin_city=田辺市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "utsubo-ryouri",
+   "name_ja": "うつぼ料理",
+   "name_romaji": "Utsubo Ryouri",
+   "name_en": "Utsubo Ryouri — moray eel dried, fried, and simmered into a soy glaze",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "",
+   "lat": 33.7297,
+   "lng": 135.3767,
+   "summary_ja": "鋭い歯を持つ「海のギャング」ウツボを、南部地域では秋冬にかけて開いて天日干しにし、揚げてから甘辛いタレに絡めた佃煮などにして食べる。白身は淡白で癖がなく、鍋や刺身、唐揚げにも使われるという。",
+   "summary_en": "The moray eel — called the \"gangster of the sea\" for its sharp teeth — is butterflied and sun-dried in autumn and winter in southern Wakayama, then fried and coated in a sweet soy glaze. The mild white flesh also goes into hot pots, sashimi, and fried preparations.",
+   "sources": [
+    {
+     "title": "うつぼ料理／うつぼの佃煮 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/utsubo_ryouri_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "utsubo-ryouri",
+     "to_slug": "onomi-no-sashimi",
+     "relation_type": "対比",
+     "basis": "ともに紀南の海の幸を余さず食べる文化から生まれたが、うつぼは干してから加工し、尾の身は刺身でそのまま食べる"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "souvenir_non_confection"
+   ],
+   "notes": "名前が「うつぼ料理／うつぼの佃煮」と併記のため name_ja は先頭の「うつぼ料理」を採用し、別名はsummaryで言及。伝承地域は南部地域で広域のため origin_city空欄、代表点は田辺市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kakimade-gohan",
+   "name_ja": "かきまでご飯",
+   "name_romaji": "Kakimade Gohan",
+   "name_en": "Kakimade Gohan — rice mixed with fish-stock vegetables, no vinegar",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "",
+   "lat": 33.8917,
+   "lng": 135.1511,
+   "summary_ja": "焼き魚の骨でとった出汁で季節の野菜を炊き、酒を加えて炊いたご飯に混ぜ込む。酢は使わずちらし寿司とは一線を画す、日高地方の祝い事や法事に振る舞われてきた混ぜご飯だという。",
+   "summary_en": "Vegetables are simmered in a stock made from grilled fish bones, then folded into rice cooked with a splash of sake — no vinegar, unlike chirashi sushi. It's a mixed rice dish served at celebrations and memorial gatherings across the Hidaka region.",
+   "sources": [
+    {
+     "title": "かきまでご飯 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kakimade_gohan_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kakimade-gohan",
+     "to_slug": "saba",
+     "relation_type": "使用食材",
+     "basis": "焼サバの骨でとった出汁を使う"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は日高地方（地方単位）のため origin_city空欄、代表点は地方の中心都市である御坊市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kaki-maburi",
+   "name_ja": "かきまぶり",
+   "name_romaji": "Kaki Maburi",
+   "name_en": "Kaki Maburi — a chirashi-style rice dish made in bulk for guests",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "",
+   "lat": 34.2667,
+   "lng": 135.3097,
+   "summary_ja": "高野豆腐や干ししいたけなど乾物と季節の野菜をすし飯に混ぜ込むちらしずし。「かき混ぜ」がなまった那賀地方の方言「まぶり」が名の由来で、来客が何人来るか分からない祝い事の日にたくさんつくって振る舞われてきた。",
+   "summary_en": "Dried tofu, shiitake, and seasonal vegetables are folded into sushi rice for this chirashi-style dish. Its name comes from \"maburi,\" a Naga-area dialect word for \"mix,\" and it's made in bulk for celebrations where the number of guests can't be known in advance.",
+   "sources": [
+    {
+     "title": "かきまぶり 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kaki_maburi_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kaki-maburi",
+     "to_slug": "kakimade-gohan",
+     "relation_type": "対比",
+     "basis": "ともに和歌山の混ぜご飯だが、かきまぶりは酢飯を使うちらしずし、かきまでご飯は酢を使わず出汁で炊き込む点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は岩出市・紀の川市の複数市のため origin_city空欄、代表点は岩出市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "wakayama-kokera-zushi",
+   "name_ja": "こけら寿司",
+   "name_romaji": "Kokera Zushi",
+   "name_en": "Kokera Zushi (Wakayama) — grilled fish and vegetables pressed into sushi rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "和歌山県",
+   "origin_city": "",
+   "lat": 34.2306,
+   "lng": 135.1708,
+   "summary_ja": "焼いてほぐした魚やしいたけ、人参、卵などをすし飯にのせ、木枠で押し固める押しずし。屋根板の「こけら板」に見立てた名という説があり、地区ごとに使う魚や具、包む葉が違う夏祭りや正月のごちそうだという。",
+   "summary_en": "Grilled, flaked fish, shiitake, carrot, and egg are laid over sushi rice and pressed in a wooden mold. One theory traces the name to \"kokera\" roof shingles the layers resemble, and each district uses its own fish, fillings, and wrapping leaf for this summer-festival and New Year's dish.",
+   "sources": [
+    {
+     "title": "こけら寿司 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kokera_sushi_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "wakayama-kokera-zushi",
+     "to_slug": "kokera-zushi",
+     "relation_type": "対比",
+     "basis": "ともに木型で押し固める押しずしの系統だが、三重県東紀州のこけらずしは奇数の具材を層状に重ねる決まった型なのに対し、和歌山のこけら寿司は和歌山市や那智勝浦町など地区ごとに具材や包む葉が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "既存slug「kokera-zushi」(三重県、match_confidence=medium)は名前が似るが、地区ごとに具材・包む葉・名前の由来が異なる別系統の押しずしと判断し作成。slugはwakayama-kokera-zushiとした。伝承地域は北部・南部地域と広域のため origin_city空欄、本文で最も具体的に触れられる和歌山市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mikan-mochi",
+   "name_ja": "みかん餅",
+   "name_romaji": "Mikan Mochi",
+   "name_en": "Mikan Mochi — mandarin oranges steamed onto sticky rice and pounded together",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "有田市",
+   "lat": 34.0808,
+   "lng": 135.1222,
+   "summary_ja": "もち米の上に有田みかんをのせて蒸し、皮をむいてから一緒についた餅菓子。ふるさと料理の研究から生まれたとされ、みかんの酸味と香りが感じられる。焼くと表面はパリッと、中はとろりとした食感になるという。",
+   "summary_en": "Arida mandarins are steamed atop sticky rice, then peeled and pounded in together into a mochi treat. Said to have grown out of research into local home cooking, it carries the citrus's tang and scent, and turns crisp outside, molten inside, when toasted.",
+   "sources": [
+    {
+     "title": "みかん餅 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mikan_mochi_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mikan-mochi",
+     "to_slug": "inoko-mochi",
+     "relation_type": "対比",
+     "basis": "ともに和歌山の餅菓子だが、みかん餅は有田みかんをもち米につきこみ、いのこ餅は里芋を混ぜたご飯に小豆あんをまぶす点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は有田市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "inoko-mochi",
+   "name_ja": "いのこ餅",
+   "name_romaji": "Inoko Mochi",
+   "name_en": "Inoko Mochi — taro-mashed rice balls coated in sweet red bean, offered at harvest",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "",
+   "lat": 34.2306,
+   "lng": 135.1708,
+   "summary_ja": "うるち米ともち米に里芋を炊き込んでつぶし丸めた餅に、塩を効かせた小豆あんをまとわせる。旧暦10月の亥の日、実りに感謝して田の神に供える行事食とされ、県南部の一部では秋祭りでもつくられているという。",
+   "summary_en": "Non-glutinous and sticky rice are cooked with taro, mashed, and shaped into balls coated with lightly salted sweet red bean paste. Offered to the harvest god on the Day of the Boar in the old tenth lunar month, it's also made for autumn festivals in parts of southern Wakayama.",
+   "sources": [
+    {
+     "title": "いのこ餅 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/inoko_mochi_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "inoko-mochi",
+     "to_slug": "mikan-mochi",
+     "relation_type": "対比",
+     "basis": "ともに和歌山の餅菓子だが、いのこ餅は里芋を混ぜたご飯に小豆あんをまぶし、みかん餅は有田みかんをもち米につきこむ点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は北部・南部地域で県全域相当のため origin_city空欄、代表点は県庁所在地の和歌山市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "wakayama-imomochi",
+   "name_ja": "いももち",
+   "name_romaji": "Imomochi",
+   "name_en": "Imomochi (Wakayama) — sweet potato pounded with a small measure of sticky rice",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "串本町",
+   "lat": 33.4761,
+   "lng": 135.7897,
+   "summary_ja": "赤土の台地で育つさつまいもを、少なめのもち米と合わせて餅にする熊野灘沿岸の菓子。稲作に向かない土地で米を節約する知恵から生まれたとされ、冷めて固くなったら焼いて食べるという。",
+   "summary_en": "Sweet potatoes grown on red clay bluffs are pounded together with a smaller-than-usual measure of sticky rice into this treat from the Kumano coast. Said to have begun as a way to stretch scarce rice on land ill-suited to growing it, it's toasted once it cools and firms up.",
+   "sources": [
+    {
+     "title": "いももち 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/imomochi_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "wakayama-imomochi",
+     "to_slug": "hokkaido-imomochi",
+     "relation_type": "対比",
+     "basis": "同じ「いももち」でも北海道はじゃがいもと片栗粉を焼いたもの、和歌山は熊野灘沿岸で育つさつまいもをもち米と合わせて搗く点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "既存slug「gifu-imomochi」「hokkaido-imomochi」と同名のためslugをwakayama-imomochiとした。伝承地域は南部地域で広域だが、さつまいも栽培の起源として本文が串本町を名指ししているため origin_city=串本町とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "uzumi",
+   "name_ja": "うずみ",
+   "name_romaji": "Uzumi",
+   "name_en": "Uzumi — rice buried under a clear tofu broth for a memorial meal",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "古座川町",
+   "lat": 33.5228,
+   "lng": 135.7822,
+   "summary_ja": "しいたけと昆布の出汁に豆腐やしいたけを浮かせたすまし汁の下にご飯を埋め、ゆずやしょうがなど薬味を添える。古座川最奥の平井集落だけに伝わる法事の前夜料理で、京の懐石料理が伝わったとの言い伝えもあるという。",
+   "summary_en": "Rice is buried beneath a clear broth of shiitake and kelp, floated with tofu and mushrooms, and finished with citrus zest and ginger. Passed down only in the Hirai hamlet deep in the Kozagawa valley for the eve of a memorial service, one account traces it back to Kyoto kaiseki cuisine.",
+   "sources": [
+    {
+     "title": "うずみ 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/uzumi_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "uzumi",
+     "to_slug": "bouri",
+     "relation_type": "対比",
+     "basis": "ともに紀南に伝わる法要にまつわる行事食だが、うずみは古座川流域の精進汁料理、ぼうりは田辺市大塔村で正月に食べる里芋の煮物という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は古座川町（平井集落）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mame-gohan",
+   "name_ja": "豆ごはん",
+   "name_romaji": "Mame Gohan",
+   "name_en": "Mame Gohan — spring peas cooked into rice at the peak of harvest",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "",
+   "lat": 33.8917,
+   "lng": 135.1511,
+   "summary_ja": "米が乏しくなる春先に、収穫期を迎えるうすいえんどうをたっぷり炊き込んでかさ増しした、和歌山県中部地域の豆産地に伝わるご飯。塩だけで味付けし、豆の風味と甘みを生かした素朴な一品だという。",
+   "summary_en": "As rice grew scarce each spring, plump usui peas at the peak of their harvest were cooked into rice to stretch it further, a dish from the pea-growing districts of central Wakayama. Seasoned with nothing but salt, it lets the peas' sweetness and flavor carry the dish.",
+   "sources": [
+    {
+     "title": "豆ごはん 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mame_gohan_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mame-gohan",
+     "to_slug": "shouga-meshi",
+     "relation_type": "対比",
+     "basis": "ともに和歌山の季節の食材を米に炊き込む一皿だが、豆ごはんは春のうすいえんどう、しょうが飯は初夏から秋の新しょうがを使う点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は中部地域で広域のため origin_city空欄、代表点は主要産地の一つである御坊市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gonpachi-no-abura-itame",
+   "name_ja": "ゴンバチの油炒め",
+   "name_romaji": "Gonpachi no Abura Itame",
+   "name_en": "Gonpachi no Abura Itame — wild knotweed stir-fried until crisp-tender",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "",
+   "lat": 33.7297,
+   "lng": 135.3767,
+   "summary_ja": "正式にはイタドリという山菜「ごんばち」を、湯通しして皮をむいてから油でさっと炒める春の一品。折ると軽快な音が鳴るほど太くよく伸びた茎を使い、コリコリとした歯ごたえとほのかな酸味が持ち味だという。",
+   "summary_en": "Gonbachi, formally known as itadori knotweed, is blanched, peeled, and quickly stir-fried in oil for this spring dish. Thick, well-grown stalks that snap with a crisp pop are prized for a crunchy bite and a faint sourness.",
+   "sources": [
+    {
+     "title": "ゴンバチの油炒め 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gonpachi_no_abura_itame_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gonpachi-no-abura-itame",
+     "to_slug": "mame-gohan",
+     "relation_type": "対比",
+     "basis": "ともに和歌山の春の食材を生かした家庭料理だが、ごんばちの油炒めは山菜を油で炒め、豆ごはんは米に豆を炊き込む点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は南部地域で広域のため origin_city空欄、代表点は本文にある龍神村（現田辺市）を含む田辺市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shouga-meshi",
+   "name_ja": "しょうが飯",
+   "name_romaji": "Shouga Meshi",
+   "name_en": "Shouga Meshi — new ginger cooked straight into the rice pot",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "和歌山市",
+   "lat": 34.2306,
+   "lng": 135.1708,
+   "summary_ja": "紀の川沿いの砂地で栽培される辛味の少ない新しょうがを、米と一緒に炊き込む和歌山市の一品。爽やかな香りが食欲をそそり、夏場でもさっぱりと食べやすいことから風邪予防や冷え性対策としても使われてきたという。",
+   "summary_en": "Mild new ginger, grown in the sandy soil along the Kinokawa river, is cooked straight into the rice pot in this Wakayama City dish. Its bright scent whets the appetite and goes down easily even in summer, and it's also been used as a folk remedy for colds and poor circulation.",
+   "sources": [
+    {
+     "title": "しょうが飯 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shouga_meshi_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shouga-meshi",
+     "to_slug": "mame-gohan",
+     "relation_type": "対比",
+     "basis": "ともに和歌山の季節の食材を米に炊き込む一皿だが、しょうが飯は初夏から秋の新しょうが、豆ごはんは春のうすいえんどうを使う点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は和歌山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tachiuo-ryouri",
+   "name_ja": "太刀魚料理",
+   "name_romaji": "Tachiuo Ryouri",
+   "name_en": "Tachiuo Ryouri — cutlassfish served raw, grilled, fried, or simmered",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "有田市",
+   "lat": 34.0808,
+   "lng": 135.1222,
+   "summary_ja": "紀伊水道の好漁場に面する有田市箕島漁港で水揚げされる太刀魚を、刺身や塩焼き、天ぷら、煮物など多彩に食べる。地元では親しみを込めて「たっちょ」と呼ばれ、あっさりと上品な味わいが特徴だという。",
+   "summary_en": "Cutlassfish landed at Arida City's Mishima fishing port, on a productive stretch of the Kii Channel, are eaten every way — raw, salt-grilled, fried, simmered. Locals affectionately call it \"tacchо,\" and it's prized for a light, refined flavor.",
+   "sources": [
+    {
+     "title": "太刀魚料理／太刀魚寿司 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tachiuo_ryouri_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tachiuo-ryouri",
+     "to_slug": "igami-no-nitsuke",
+     "relation_type": "対比",
+     "basis": "ともに紀伊水道でとれる魚を使った和歌山の家庭料理だが、太刀魚は刺身や塩焼きなど食べ方が多彩、いがみは丸ごと甘辛く煮付ける点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "台帳では棚=rice・genre_hint=sushiだが、本文に太刀魚寿司の記載はなく刺身・塩焼き・天ぷら・煮物など多様な食べ方が中心のため、棚をhomestyleに変更しgenreはnullとした。名前は「太刀魚料理／太刀魚寿司」の併記のため先頭の「太刀魚料理」を主名とし、別名はsummaryで言及。伝承地域は有田市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hatagonbo-zushi",
+   "name_ja": "はたごんぼずし",
+   "name_romaji": "Hatagonbo Zushi",
+   "name_en": "Hatagonbo Zushi — a stout local burdock hollowed out and packed with sushi rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "和歌山県",
+   "origin_city": "橋本市",
+   "lat": 34.3161,
+   "lng": 135.606,
+   "summary_ja": "橋本市西畑地区の急斜面の赤土で育つ、太くて丸みのある「はたごんぼ」を輪切りにし、中心をくり抜いて酢飯を詰める。一時は栽培が途絶えかけたが、地元組合が2013年に約70年ぶりに復活させたという。",
+   "summary_en": "A stout, round burdock called hatagonbo, grown on the steep red-clay slopes of Hashimoto City's Nishihata district, is sliced into rounds, hollowed at the center, and packed with vinegared rice. Cultivation had nearly died out until a local cooperative revived it around 2013, roughly seventy years on.",
+   "sources": [
+    {
+     "title": "はたごんぼずし 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hata_gonbo_zushi_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hatagonbo-zushi",
+     "to_slug": "wakame-zushi",
+     "relation_type": "対比",
+     "basis": "ともに和歌山の特産食材を酢飯と組み合わせるが、はたごんぼずしはごぼうをくり抜いて酢飯を詰め、わかめずしはわかめで酢飯を巻く点が異なる"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ],
+   "notes": "伝承地域は橋本市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "bouri",
+   "name_ja": "ぼうり",
+   "name_romaji": "Bouri",
+   "name_en": "Bouri — a whole parent taro simmered for two days, eaten in place of New Year's mochi",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "田辺市",
+   "lat": 33.7297,
+   "lng": 135.3767,
+   "summary_ja": "皮をむかない里芋の親芋を二日がかりで煮込む、田辺市大塔村鮎川に伝わる正月の一皿。護良親王を助けなかった非礼を600年悔い、餅つきをやめて代わりに食べ続けたとの言い伝えが残っているという。",
+   "summary_en": "A whole, unpeeled parent taro is simmered over two days for this New Year's dish from the Ayukawa area of Tanabe City's Ото̄ district. One account holds that villagers gave up pounding mochi for six hundred years to atone for once turning away a fleeing prince, eating this in its place.",
+   "sources": [
+    {
+     "title": "ぼうり 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/bouri_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "bouri",
+     "to_slug": "uzumi",
+     "relation_type": "対比",
+     "basis": "ともに紀南に伝わる法要にまつわる行事食だが、ぼうりは田辺市大塔村で正月に食べる里芋の煮物、うずみは古座川流域の精進汁料理という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は田辺市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "wakame-zushi",
+   "name_ja": "わかめずし",
+   "name_romaji": "Wakame Zushi",
+   "name_en": "Wakame Zushi — sushi rice rolled inside a sheet of fresh wakame",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "和歌山県",
+   "origin_city": "由良町",
+   "lat": 33.9417,
+   "lng": 135.1122,
+   "summary_ja": "紀伊水道の荒波にもまれて香り高く育つわかめの養殖地、由良町の一品。新芽のわかめを広げ、のり巻きのように酢飯を巻く。輪切りにすると縞模様が現れ、山登りの弁当や祝い事に用いられてきたという。",
+   "summary_en": "From Yura, a wakame-farming town where the Kii Channel's rough waters produce especially fragrant seaweed. Fresh young wakame fronds are spread out and rolled around vinegared rice like a nori roll; sliced into rounds it reveals a striped pattern, and it's long been packed for hikes and served at celebrations.",
+   "sources": [
+    {
+     "title": "わかめずし 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/wakame_zushi_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "wakame-zushi",
+     "to_slug": "wakame",
+     "relation_type": "使用食材",
+     "basis": "新芽のわかめを酢飯とともに巻き込む"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は由良町。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "wasabi-zushi",
+   "name_ja": "わさびずし",
+   "name_romaji": "Wasabi Zushi",
+   "name_en": "Wasabi Zushi — vinegared salt mackerel pressed and wrapped in wasabi leaves",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "和歌山県",
+   "origin_city": "有田川町",
+   "lat": 34.0806,
+   "lng": 135.3623,
+   "summary_ja": "わさびが自生する有田川町清水地域で、酢でしめた塩サバを酢飯にのせ、わさびの葉で包んだ押しずし。田植えやお盆、秋祭りに欠かせないすしとして各家庭でつくられ、貴重な葉は冷凍して使うこともあるという。",
+   "summary_en": "In the Shimizu area of Aridagawa Town, where wasabi grows wild, salt-cured mackerel is set over vinegared rice and wrapped in a wasabi leaf for this pressed sushi. Made in households for rice planting, Obon, and autumn festivals, the leaves are sometimes frozen to keep on hand since they're hard to come by.",
+   "sources": [
+    {
+     "title": "わさびずし 和歌山県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/wasabi_zushi_wakayama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "wasabi-zushi",
+     "to_slug": "saba",
+     "relation_type": "使用食材",
+     "basis": "酢でしめた塩サバを具材に使う"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は有田川町（清水地域）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: sanma_zushi_wakayama(既存sanma-zushi, high), nare_zushi_wakayama(既存narezushi, high), kakinoha_zushi_wakayama(既存kakinoha-zushi, high), shirasu_don_wakayama(既存shirasu-don, high) は台帳のexisting_slug/high判定どおり作らず。kinzanji_miso_wakayama(金山寺味噌)はall-items-ja.txtの既存「kinzanji-miso」(千葉県)と同一の食品と判断し作らず（千葉県側の notes にも和歌山でも食されている旨の記載あり）。umeboshi_wakayama(梅干し)はall-items-ja.txtの既存「umeboshi」(汎用、body本文で和歌山県南部の梅栽培史を詳述済み)と重複のため作らず。medium判定: kokera_sushi_wakayama(こけら寿司)は既存slug「kokera-zushi」(三重県)とmatch_confidence=mediumだったが、地区ごとに具材・包む葉・由来が異なる別系統の押しずしと判断し、slugをwakayama-kokera-zushiとして作成した。棚を変えた行: tachiuo_ryouri_wakayama は台帳rice/sushiだが本文が刺身・塩焼き・天ぷら・煮物中心でsushiの記述がないためhomestyle/genre nullに変更。座標の根拠: 伝承地域が「県内全域」「北部・南部地域」等の広域は県庁所在地(和歌山市)、「地方」単位（日高地方→御坊市、南部地域の中心として田辺市）は地方の中心都市、本文が特定市町村を名指しする場合（ごま豆腐→高野山を管掌する高野町、いももち→さつまいも伝来の串本町）はその市町村を採用した。要判断: 「かきまでご飯」（日高地方）と「かきまぶり」（岩出市・紀の川市＝那賀地方）は主要食材が似るが、MAFF詳細ページが伝承地域・方言由来（かきまぜ／まぶり）ともに別記事として明確に区別しているため、両方を別項目として作成した。"
+}

@@ -1,0 +1,917 @@
+{
+ "items": [
+  {
+   "slug": "igisu",
+   "name_ja": "いぎす",
+   "name_romaji": "Igisu",
+   "name_en": "Igisu — a seaweed simmered down and set like a savory jelly",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "",
+   "lat": 35.4306,
+   "lng": 133.8236,
+   "summary_ja": "夏から秋に日本海の岩場で育ついぎす草を干して保存し、煮溶かして自然に固める寒天状の一品。ごまを振り酢味噌や辛子醤油でいただき、精進料理や正月、法事の膳に欠かせない鳥取中部・西部の郷土食だという。",
+   "summary_en": "Igisu grass, a seaweed gathered from Japan Sea rocks in summer and autumn, is dried, then simmered until it sets naturally into a jelly, with no thickener added. Topped with sesame and eaten with vinegar-miso or chili soy sauce, it's a fixture of shojin cuisine and New Year's and memorial tables in central and western Tottori.",
+   "sources": [
+    {
+     "title": "いぎす 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/igisu_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "igisu",
+     "to_slug": "ita-wakame",
+     "relation_type": "対比",
+     "basis": "ともに鳥取の海藻を使った素朴な一品だが、いぎすは煮溶かして寒天状に固め、板わかめは干して板状にしたそのままの姿で食べる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は中部地域で広域のため origin_city空欄、代表点は倉吉市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "itadaki",
+   "name_ja": "いただき",
+   "name_romaji": "Itadaki",
+   "name_en": "Itadaki — raw rice and vegetables stuffed into a whole fried tofu pouch",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "境港市",
+   "lat": 35.5386,
+   "lng": 133.2306,
+   "summary_ja": "大きな三角油揚げに生米と野菜を詰め、だし汁でじっくり炊き上げる西部地域の郷土食。明治中頃、境港市の寺の住職が福井の精進料理からヒントを得たのが始まりと伝わり、綿入れの着物に見立てて「ののこ飯」とも呼ばれる。",
+   "summary_en": "Raw rice and vegetables are packed into a large triangular fried tofu pouch and slow-simmered in stock, a dish from western Tottori. Said to have begun in the mid-Meiji era when a Sakaiminato temple priest borrowed the idea from shojin cooking in Fukui, it's also called \"nonoko meshi\" for its resemblance to a padded winter kimono.",
+   "sources": [
+    {
+     "title": "いただき 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/itadaki_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "itadaki",
+     "to_slug": "daisen-okowa",
+     "relation_type": "対比",
+     "basis": "ともに鳥取西部でもてなしや行事に用いられる米料理だが、いただきは油揚げに生米と具を詰めて炊き、大山おこわはもち米を具と一緒に炊き込む点が異なる"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "伝承地域は西部地域・弓ヶ浜半島と広域だが、由来として境港市の寺が本文で名指しされているため origin_city=境港市とした。名前「いただき／ののこ飯」は先頭の「いただき」を主名とし、別名はsummaryで言及。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "azuki-zouni",
+   "name_ja": "小豆雑煮",
+   "name_romaji": "Azuki Zouni",
+   "name_en": "Azuki Zouni — soft rice cakes in a sweet simmered red bean broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "",
+   "lat": 35.5039,
+   "lng": 134.238,
+   "summary_ja": "小豆を煮た汁に柔らかく煮た丸餅を入れる、鳥取の正月雑煮の主流。古来より赤い小豆に邪気を払う力があるとされ、元日の朝に若水と浄めた火で煮て家族で分かち合う、祝い膳の中心料理と伝わる。",
+   "summary_en": "Soft round rice cakes are added to a broth of simmered red beans, the mainstream style of New Year's zoni in Tottori. Red beans have long been thought to ward off misfortune, and the dish is said to be simmered on New Year's morning with the year's first water and a purified flame, then shared among family.",
+   "sources": [
+    {
+     "title": "小豆雑煮 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/azuki_zouni_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "azuki-zouni",
+     "to_slug": "tochi-mochi",
+     "relation_type": "対比",
+     "basis": "ともに鳥取の正月の餅料理だが、小豆雑煮は甘く煮た小豆の汁に丸餅を入れ、栃餅はあく抜きした栃の実をもち米と搗いて餅にする点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は東部・中部地域で広域のため origin_city空欄、代表点は県庁所在地の鳥取市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "daisen-okowa",
+   "name_ja": "大山おこわ",
+   "name_romaji": "Daisen Okowa",
+   "name_en": "Daisen Okowa — soy-seasoned sticky rice steamed with mountain vegetables",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "大山町",
+   "lat": 35.4897,
+   "lng": 133.5486,
+   "summary_ja": "しいたけやごぼう、鶏肉などをもち米に炊き込む、大山山麓のしょうゆ味おこわ。かつて僧兵が戦勝祈願で炊いたのが始まりとも伝わり、大山寺の牛馬市で振る舞われた後、祭りやもてなしの席に受け継がれてきたという。",
+   "summary_en": "Shiitake, burdock, and chicken are cooked into sticky rice seasoned with soy, a dish from the foot of Mount Daisen. Said to trace back to warrior monks preparing it before battle to pray for victory, it was later served at the horse-and-cattle market by Daisen-ji temple and carried on into festivals and hospitality since.",
+   "sources": [
+    {
+     "title": "大山おこわ 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/daisen_okowa_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "daisen-okowa",
+     "to_slug": "itadaki",
+     "relation_type": "対比",
+     "basis": "ともに鳥取西部でもてなしや行事に用いられる米料理だが、大山おこわはもち米を具と一緒に炊き込み、いただきは油揚げに生米と具を詰めて炊く点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は西部地域で広域だが、由来・継承ともに大山町（大山寺・大山山麓）を名指ししているため origin_city=大山町とした。1986年の「ふるさとおにぎり百選」選定歴には触れず断定的な受賞表現は避けた。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "dondoroke-meshi",
+   "name_ja": "どんどろけ飯",
+   "name_romaji": "Dondoroke Meshi",
+   "name_en": "Dondoroke Meshi — rice mixed with tofu fried loud enough to sound like thunder",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "",
+   "lat": 35.5039,
+   "lng": 134.238,
+   "summary_ja": "熱した油で豆腐を炒める「バリバリ」という音を雷（方言でどんどろけ）に見立てた、鳥取東部・中部の炊き込みご飯。各集落にあった豆腐小屋で自家製の大豆から豆腐をつくっていた頃の、地元産づくしの一品と伝わる。",
+   "summary_en": "Named for the crackling sound of tofu frying in hot oil, likened to thunder — \"dondoroke\" in local dialect — this is a rice dish from eastern and central Tottori. It's said to date to when each hamlet had its own tofu shack turning home-grown soybeans into tofu, using nothing but local ingredients.",
+   "sources": [
+    {
+     "title": "どんどろけ飯 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/dondoro_ke_meshi_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "dondoroke-meshi",
+     "to_slug": "tottori-komodofu",
+     "relation_type": "対比",
+     "basis": "ともに鳥取のかつての豆腐小屋文化を背景に生まれた豆腐料理だが、どんどろけ飯は豆腐を炒めて炊き込みご飯にし、こも豆腐はわらで包んで茹で固める点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は東部・中部地域で広域のため origin_city空欄、代表点は鳥取市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "imobota",
+   "name_ja": "いもぼた",
+   "name_romaji": "Imobota",
+   "name_en": "Imobota — a botamochi made mostly of sweet potato, not sticky rice",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "",
+   "lat": 35.4283,
+   "lng": 133.3308,
+   "summary_ja": "稲作に不向きな砂地の弓浜半島で、収穫の少ないもち米をさつまいもでかさ増ししてつくるぼたもち。江戸中期にさつまいもの栽培が広まって生まれたとされ、小豆あんの隙間から黄色い芋が覗く見た目が特徴という。",
+   "summary_en": "On the sandy Yumigahama Peninsula, ill-suited to rice paddies, sweet potato stretches out the scarce sticky rice in this version of botamochi. Said to have emerged after sweet potato cultivation spread in the mid-Edo period, it shows a telltale yellow beneath the red bean coating.",
+   "sources": [
+    {
+     "title": "いもぼた 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/imobota_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "imobota",
+     "to_slug": "wakayama-imomochi",
+     "relation_type": "対比",
+     "basis": "ともにさつまいもともち米を合わせた郷土菓子だが、いもぼたは小豆あんをまぶしたぼたもち、和歌山のいももちは丸めて焼く餅という違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は弓浜半島（複数市にまたがる地域）のため origin_city空欄、代表点は米子市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tottori-komodofu",
+   "name_ja": "こも豆腐",
+   "name_romaji": "Komodofu",
+   "name_en": "Komodofu (Tottori) — tofu boiled while wrapped in a woven straw mat",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "倉吉市",
+   "lat": 35.4306,
+   "lng": 133.8236,
+   "summary_ja": "粗く織ったわらのむしろ「こも」に豆腐を巻いて茹で固める、倉吉市など鳥取中部の冠婚葬祭料理。魚が少なく貴重なたんぱく源だった豆腐を、共同の豆腐小屋で大量につくった名残とも伝わり、わらの香りと筋目が独特という。",
+   "summary_en": "Tofu is wrapped in a coarsely woven straw mat called \"komo\" and boiled until firm, a dish served at celebrations and memorials in Kurayoshi and central Tottori. Tofu was a precious source of protein where fish was scarce, and this may recall villages once making it together in a shared tofu shack, leaving the straw's scent and imprint behind.",
+   "sources": [
+    {
+     "title": "こも豆腐 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/komo_toufu_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tottori-komodofu",
+     "to_slug": "komodofu",
+     "relation_type": "対比",
+     "basis": "同じわら包み豆腐だが、茨城のこも豆腐は水切りした豆腐を藁苞に詰めて塩ゆでし、鳥取のこも豆腐はわらのむしろで巻いて茹でる点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "既存slug「komodofu」(茨城県)・「gifu-komodofu」(岐阜県)と同名だがそれぞれ別項目として投入済みのため、同様の扱いでslugをtottori-komodofuとした。伝承地域は倉吉市周辺のため origin_city=倉吉市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tochi-mochi",
+   "name_ja": "栃餅",
+   "name_romaji": "Tochi Mochi",
+   "name_en": "Tochi Mochi — bitter horse chestnuts leached and pounded with sticky rice",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "",
+   "lat": 35.5039,
+   "lng": 134.238,
+   "summary_ja": "強いえぐみを持つ栃の実をあく抜きし、もち米と一緒に蒸してついた餅。米がほとんどとれなかった山村で縄文時代から食べ継がれてきたと伝わり、独特の渋みが残る素朴な味わいで正月の雑煮用の餅として食べられているという。",
+   "summary_en": "Bitter horse chestnuts are leached of their harsh tannins, then steamed with sticky rice and pounded into mochi. Said to have been eaten in mountain villages with little rice since Jomon times, it carries a distinct astringency and is used as the rice cake for New Year's zoni.",
+   "sources": [
+    {
+     "title": "栃餅 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tochi_mochi_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tochi-mochi",
+     "to_slug": "azuki-zouni",
+     "relation_type": "対比",
+     "basis": "ともに鳥取の正月の餅料理だが、栃餅はあく抜きした栃の実をもち米と搗いて餅にし、小豆雑煮は甘く煮た小豆の汁に丸餅を入れる点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は八頭郡・鳥取市河原町・三朝町の複数地域のため origin_city空欄、代表点は鳥取市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oyagani-no-miso-shiru",
+   "name_ja": "親ガニのみそ汁",
+   "name_romaji": "Oyagani no Miso Shiru",
+   "name_en": "Oyagani no Miso Shiru — a simple miso soup built on female snow crab",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "鳥取市",
+   "lat": 35.5039,
+   "lng": 134.238,
+   "summary_ja": "ズワイガニのメス「親ガニ」と大根だけでつくる、鳥取の冬の定番みそ汁。オスの松葉ガニより手頃な価格で11月から12月の短い漁期にしか味わえず、うまみを生かすため具は少なめにするという。",
+   "summary_en": "Made from nothing but female snow crab — called \"oyagani\" — and daikon, this is a staple winter miso soup in Tottori. More affordable than the male matsuba crab, it's only available during a short catch season from November to December, and kept sparing on other ingredients to let the crab's flavor lead.",
+   "sources": [
+    {
+     "title": "親ガニのみそ汁 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/oyagani_no_miso_shiru_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "oyagani-no-miso-shiru",
+     "to_slug": "gancha-jiru",
+     "relation_type": "対比",
+     "basis": "ともに鳥取の川や海のカニでとる汁物だが、親ガニのみそ汁はズワイガニのメスを大根とみそ汁にし、がんちゃ汁は川ガニをすり潰して汁の実にする点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は鳥取市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "akagarei-no-komaburi",
+   "name_ja": "アカガレイの子まぶり",
+   "name_romaji": "Akagarei no Komaburi",
+   "name_en": "Akagarei no Komaburi — flounder sashimi tossed with its own roe",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "岩美町",
+   "lat": 35.5972,
+   "lng": 134.3583,
+   "summary_ja": "子持ちのアカガレイを刺身にし、ゆでてほぐした卵をまぶす岩美町網代周辺の一皿。フナの子まぶりが伝わって生まれたとされ、脂ののった冬の白身にコクのある卵が絡む、祭りや正月のごちそうという。",
+   "summary_en": "Roe-bearing red flounder is sliced into sashimi and tossed with its own boiled, crumbled eggs, a dish from around the Amijiro area of Iwami Town. Said to have descended from a similar dish made with crucian carp roe, it pairs rich eggs with mild, fatty winter flounder for festivals and New Year's.",
+   "sources": [
+    {
+     "title": "アカガレイの子まぶり 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/aka_garei_no_komaburi_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "akagarei-no-komaburi",
+     "to_slug": "mosaebi-no-sashimi",
+     "relation_type": "対比",
+     "basis": "ともに鳥取沿岸でとれる魚介を生で味わう料理だが、アカガレイの子まぶりは刺身に自身の卵をまぶし、もさえびの刺身は深海エビをそのまま刺身で食べる点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "cold_served"
+   ],
+   "notes": "伝承地域は岩美町網代周辺のため origin_city=岩美町とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ago-chikuwa",
+   "name_ja": "あごちくわ",
+   "name_romaji": "Ago Chikuwa",
+   "name_en": "Ago Chikuwa — flying fish surimi grilled into a chikuwa with a crackling skin",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": "nerimono",
+   "origin_pref": "鳥取県",
+   "origin_city": "",
+   "lat": 35.5039,
+   "lng": 134.238,
+   "summary_ja": "鳥取でトビウオを指す「あご」のすり身を焼き上げるちくわ。表面の硬い焼き皮に包丁を入れると香ばしい音が響き、色濃く仕上がるのが普通のちくわとの違い。産卵期の春から夏が旬の初夏の味覚という。",
+   "summary_en": "Chikuwa made from the surimi of flying fish, called \"ago\" in Tottori. A knife through the firm grilled skin sends up a fragrant crackle, and it turns out darker than ordinary chikuwa. It's a taste of early summer, in season through the fish's spawning run from spring into summer.",
+   "sources": [
+    {
+     "title": "あごちくわ 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ago_chikuwa_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ago-chikuwa",
+     "to_slug": "tobiuo",
+     "relation_type": "使用食材",
+     "basis": "トビウオのすり身を原材料にする"
+    }
+   ],
+   "tags": [],
+   "notes": "既存の「chikuwa」(汎用)・「toyohashi-chikuwa」(愛知県)とは別に、鳥取産あご(トビウオ)を使う点で明確に別品のため作成。伝承地域は県内全域のため origin_city空欄、代表点は鳥取市とした。genreはちくわ・かまぼこ類のnerimonoとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "igai-meshi",
+   "name_ja": "いがい飯",
+   "name_romaji": "Igai Meshi",
+   "name_en": "Igai Meshi — mussels foraged by ama divers, cooked into rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "鳥取市",
+   "lat": 35.5039,
+   "lng": 134.238,
+   "summary_ja": "山陰で唯一海女が活動する鳥取市青谷町夏泊で、海女がとってきたイガイ（イガイ科の二枚貝）を炊き込みご飯にする。海女の仕事が始まる6月頃からつくられ、磯の香りが口いっぱいに広がる夏の始まりを告げる一皿という。",
+   "summary_en": "In Natsudomari, part of Tottori City's Aoya district and the only place in the San'in region where ama divers still work, mussels the divers bring up are cooked into rice. Made from around June, when the divers' season begins, it fills the mouth with the scent of the shore and marks the start of summer.",
+   "sources": [
+    {
+     "title": "いがい飯 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/igai_meshi_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "igai-meshi",
+     "to_slug": "ago-chikuwa",
+     "relation_type": "対比",
+     "basis": "ともに鳥取の漁師町に伝わる海の幸を使った郷土食だが、いがい飯はイガイを炊き込みご飯にし、あごちくわはトビウオのすり身を焼き上げる点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は鳥取市青谷町のため origin_city=鳥取市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "surume-no-kouji-zuke",
+   "name_ja": "スルメの麹漬け",
+   "name_romaji": "Surume no Kouji Zuke",
+   "name_en": "Surume no Kouji Zuke — dried squid cured in koji through winter",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "",
+   "lat": 35.5039,
+   "lng": 134.238,
+   "summary_ja": "秋にとれたスルメイカを海風で干し、刻んで麹に漬け込んで熟成させる、雪深い鳥取の冬の保存食。きゅうりやなすなど塩漬け野菜と一緒に漬けることが多く、麹の甘みが染み込んで柔らかくなるという。",
+   "summary_en": "Squid caught in autumn is wind-dried, then chopped and buried in koji to ferment, a winter preserve from snow-heavy Tottori. It's often cured alongside salted vegetables like cucumber and eggplant, softening as koji's sweetness seeps in.",
+   "sources": [
+    {
+     "title": "スルメの麹漬け 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/surume_no_kouji_zuke_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "surume-no-kouji-zuke",
+     "to_slug": "surume-ika",
+     "relation_type": "使用食材",
+     "basis": "海風で干したスルメイカを刻んで麹に漬け込む"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "genre_hint=tsukemonoだが、野菜の漬物ではなく海産物の麹漬け（保存食）であり、all-items-ja.txtにも同名の既存アイテムがないため、ブリーフの例外規定（松前漬け等）に基づき作成。棚はfermented、genreはnullとした。伝承地域は県内全域のため origin_city空欄、代表点は鳥取市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ita-wakame",
+   "name_ja": "板わかめ",
+   "name_romaji": "Ita Wakame",
+   "name_en": "Ita Wakame — fresh wakame fronds spread flat and dried into a crisp sheet",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "",
+   "lat": 35.5039,
+   "lng": 134.238,
+   "summary_ja": "収穫した生わかめを板状に並べ、低温で丸一日かけて乾燥させただけの味付けなしの一品。清流が日本海に注ぐ鳥取の海で育つわかめは風味がよく、あぶってご飯にかけたり味噌汁に戻したりして食べるという。",
+   "summary_en": "Freshly harvested wakame is laid out flat into sheets and left to dry at low temperature for a full day, with nothing added. Wakame grown where clear rivers flow into the Japan Sea off Tottori carries a strong flavor on its own, and it's toasted over rice or rehydrated into miso soup.",
+   "sources": [
+    {
+     "title": "板わかめ 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ita_wakame_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ita-wakame",
+     "to_slug": "wakame",
+     "relation_type": "使用食材",
+     "basis": "海女が素潜りでとったわかめを板状に乾燥させる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は県内沿岸部全域のため origin_city空欄、代表点は鳥取市とした。昭和天皇への献上の逸話には触れず、味・食感の描写にとどめた。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iwashi-dango",
+   "name_ja": "いわし団子",
+   "name_romaji": "Iwashi Dango",
+   "name_en": "Iwashi Dango — hand-chopped sardine simmered into fluffy dumplings",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "",
+   "lat": 35.4306,
+   "lng": 133.8236,
+   "summary_ja": "包丁でたたいたイワシに卵などを混ぜ、片栗粉を使わずふんわりと仕上げて煮汁で火を通す。地引き網漁が盛んだった弓ヶ浜半島などで水揚げされる新鮮なイワシを生かした、鳥取の庶民の味という。",
+   "summary_en": "Hand-chopped sardine is mixed with egg and simmered in broth, turning out fluffy without any starch to bind it. It makes the most of fresh sardine landed around the Yumigahama Peninsula, where beach seine fishing once thrived, a humble, everyday taste of Tottori.",
+   "sources": [
+    {
+     "title": "いわし団子 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/iwashi_dango_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "iwashi-dango",
+     "to_slug": "gancha-jiru",
+     "relation_type": "対比",
+     "basis": "ともに鳥取の魚介をすり潰して煮る家庭料理だが、いわし団子はイワシを叩いて団子にし、がんちゃ汁は川ガニをすり潰して汁にする点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "台帳では棚=sweetsだが、卵とイワシを煮汁で煮る惣菜であり菓子ではないためhomestyleに変更した。伝承地域は中部地域・弓ヶ浜半島で広域のため origin_city空欄、代表点は倉吉市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oiri",
+   "name_ja": "おいり",
+   "name_romaji": "Oiri",
+   "name_en": "Oiri — leftover rice dried, toasted, and bound with sweet syrup",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "鳥取市",
+   "lat": 35.5039,
+   "lng": 134.238,
+   "summary_ja": "残ったご飯を洗って天日干しし、炒ってから水あめを絡めて丸める因幡地方の菓子。食べ物を無駄にしない工夫から生まれたとされ、鳥取市用瀬町などに残る流し雛の行事にひな祭りの供え菓子として添えられてきたという。",
+   "summary_en": "Leftover rice is rinsed, sun-dried, then toasted and bound with sweet syrup into small balls, a treat from the old Inaba region. Said to have grown from a habit of not wasting food, it's offered alongside the doll-floating ritual still kept in Tottori City's Mochigase area for the Doll Festival.",
+   "sources": [
+    {
+     "title": "おいり 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/oiri_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "oiri",
+     "to_slug": "tochi-mochi",
+     "relation_type": "対比",
+     "basis": "ともに残り物や木の実を無駄にしない知恵から生まれた鳥取の菓子だが、おいりは残りご飯を炒って水飴を絡め、栃餅はあく抜きした栃の実をもち米と搗く点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は東部地域だが、由来として鳥取市用瀬町の流し雛（県指定無形民俗文化財）が名指しされているため origin_city=鳥取市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gancha-jiru",
+   "name_ja": "がんちゃ汁",
+   "name_romaji": "Gancha Jiru",
+   "name_en": "Gancha Jiru — river crab ground whole into a rich, silky broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "",
+   "lat": 35.5039,
+   "lng": 134.238,
+   "summary_ja": "鳥取の清流でとれるモクズガニを丸ごとすり潰してこし、なすと一緒に煮る汁物。加熱すると身がふわふわと汁に浮かび、カニのうまみを余すことなく味わえる、秋から冬にかけての一品という。",
+   "summary_en": "Mokuzu crabs from Tottori's clear rivers are ground whole and strained, then simmered with eggplant into this soup. When heated, the flesh sets into fluffy curds floating in the broth, capturing the crab's flavor in full, a dish for autumn into winter.",
+   "sources": [
+    {
+     "title": "がんちゃ汁 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gancha_jiru_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gancha-jiru",
+     "to_slug": "oyagani-no-miso-shiru",
+     "relation_type": "対比",
+     "basis": "ともに鳥取の川や海のカニでとる汁物だが、がんちゃ汁は川ガニをすり潰して汁の実にし、親ガニのみそ汁はズワイガニのメスを大根とみそ汁にする点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は県内全域のため origin_city空欄、代表点は鳥取市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "jabu",
+   "name_ja": "じゃぶ",
+   "name_romaji": "Jabu",
+   "name_en": "Jabu — chicken and vegetables simmered soupy in a single pot",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "",
+   "lat": 35.5039,
+   "lng": 134.238,
+   "summary_ja": "鶏肉や豆腐、根菜をひと鍋でじっくり煮込む、鳥取中部・東部の家庭料理。煮ているうちに水分が「じゃぶじゃぶ」出てくることに由来するとされ、肉が貴重だった時代は正月や冠婚葬祭のごちそうだったという。",
+   "summary_en": "Chicken, tofu, and root vegetables are slow-simmered together in a single pot, a home dish from central and eastern Tottori. Its name is said to come from the \"jabu-jabu\" sound of moisture bubbling up as it cooks, and in an era when meat was hard to come by, it was a New Year's and celebration feast.",
+   "sources": [
+    {
+     "title": "じゃぶ 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/jabu_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "jabu",
+     "to_slug": "dondoroke-meshi",
+     "relation_type": "対比",
+     "basis": "ともに鳥取の来客・行事に振る舞われてきた一皿だが、じゃぶは鶏肉と根菜をだしで煮込み、どんどろけ飯は豆腐を炒めてご飯に炊き込む点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は中部・東部地域で広域のため origin_city空欄、代表点は鳥取市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "soramame-no-kofuki",
+   "name_ja": "そら豆の粉吹き",
+   "name_romaji": "Soramame no Kofuki",
+   "name_en": "Soramame no Kofuki — sun-dried broad beans simmered back to a mealy softness",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "",
+   "lat": 35.5039,
+   "lng": 134.238,
+   "summary_ja": "完熟させて乾燥保存したそら豆を水で戻し、重曹でゆでて皮をむき、味付けして煮る鳥取東中部の一品。傷みやすい生のそら豆を長く楽しむ知恵から生まれたとされ、行事や来客時に振る舞われてきたという。",
+   "summary_en": "Broad beans, left to fully ripen and dried for storage, are soaked, boiled with baking soda, peeled, and simmered with seasoning, a dish from east-central Tottori. Born of a way to keep enjoying beans that spoil quickly fresh, it's been served at gatherings and for guests.",
+   "sources": [
+    {
+     "title": "そら豆の粉吹き 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/soramame_no_kofuki_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "soramame-no-kofuki",
+     "to_slug": "goae",
+     "relation_type": "対比",
+     "basis": "ともに鳥取の来客・仏事のもてなし料理に使われる豆料理だが、そら豆の粉吹きは乾燥そら豆をゆでて調味し、呉和えはすり潰した大豆を和え衣にする点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は中部・東部地域で広域のため origin_city空欄、代表点は鳥取市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tottori-hatahata-zushi",
+   "name_ja": "ハタハタ寿司",
+   "name_romaji": "Hatahata Zushi",
+   "name_en": "Hatahata Zushi (Tottori) — vinegared sandfish stuffed with seasoned okara, no rice",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "鳥取市",
+   "lat": 35.5253,
+   "lng": 134.2075,
+   "summary_ja": "地元では「しろはた寿司」とも呼ばれる、鳥取市賀露地区のハタハタ料理。酢でしめたハタハタの腹に、いって味付けしたおからを詰め込む。ご飯を使わないためあっさりとして、賀露神社ホーエンヤ祭のごちそうとして振る舞われてきたという。",
+   "summary_en": "Known locally as \"shirohata zushi,\" this dish from Tottori City's Karo district cures sandfish in vinegar, then stuffs the belly with toasted, seasoned okara instead of rice. Being rice-free, it eats light, and it's been served as a feast dish at Karo Shrine's biennial Hoenya festival.",
+   "sources": [
+    {
+     "title": "ハタハタ寿司 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hatahata_zushi_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tottori-hatahata-zushi",
+     "to_slug": "hatahata-zushi",
+     "relation_type": "対比",
+     "basis": "同じ「ハタハタ寿司」でも秋田は米と麹で3週間ほど漬け込む発酵ずし、鳥取賀露はご飯を使わずおからを詰めて数日で仕上げる点が大きく異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "台帳のexisting_slug「hata」（ハタ／グルーパー、別の魚）はmatch_confidence=lowで誤りと判断。ご飯を使わずおからを詰める点で秋田の既存「hatahata-zushi」（米麹の発酵ずし）とも明確に別品のため、slugをtottori-hatahata-zushiとして作成。棚は台帳のrice/sushiだが、ご飯を使わないためraw、genreはnullに変更。伝承地域は賀露地域（鳥取市内）のため origin_city=鳥取市とした。名前「ハタハタ寿司／しろはた寿司」は先頭の「ハタハタ寿司」を主名とし、別名はsummaryで言及。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mosaebi-no-sashimi",
+   "name_ja": "もさえびの刺身",
+   "name_romaji": "Mosaebi no Sashimi",
+   "name_en": "Mosaebi no Sashimi — a deep-sea shrimp found only in the Sea of Japan, eaten raw",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "",
+   "lat": 35.5039,
+   "lng": 134.238,
+   "summary_ja": "正式名クロザコエビ、鳥取で「もさえび」と呼ばれる深海のエビを刺身で味わう。鮮度が落ちやすく銅イオンを含むため半日で頭部が黒ずみ、遠方への流通が難しかったことから地元だけの味とされてきたという。",
+   "summary_en": "Sold locally as \"mosaebi\" and formally known as the humpback shrimp, this deep-sea catch found only in the Sea of Japan is eaten raw. It spoils fast — copper in its blood turns the head black within half a day — so it long stayed a taste known only to locals, hard to ship any distance.",
+   "sources": [
+    {
+     "title": "もさえびの刺身 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mosaebi_no_sashimi_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mosaebi-no-sashimi",
+     "to_slug": "akagarei-no-komaburi",
+     "relation_type": "対比",
+     "basis": "ともに鳥取沿岸でとれる魚介を生で味わう料理だが、もさえびの刺身は深海エビをそのまま刺身にし、アカガレイの子まぶりは刺身に自身の卵をまぶす点が異なる"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "notes": "伝承地域は県内沿岸部で広域のため origin_city空欄、代表点は鳥取市とした。特産品コンクールでの受賞歴には触れなかった。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yakisaba-no-nitsuke",
+   "name_ja": "焼き鯖の煮付け",
+   "name_romaji": "Yakisaba no Nitsuke",
+   "name_en": "Yakisaba no Nitsuke — grilled mackerel simmered soft with onion",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "",
+   "lat": 35.5039,
+   "lng": 134.238,
+   "summary_ja": "保存のために焼いて出荷されていたサバをほぐし、たまねぎと甘めに煮込む鳥取東部の一品。冷蔵技術がなかった時代、多く出回っていた焼きサバを農繁期でも手軽に食べられる魚料理として重宝したのが始まりという。",
+   "summary_en": "Mackerel, once grilled before shipping just to keep it from spoiling, is flaked and simmered sweetly with onion in this dish from eastern Tottori. It's said to have begun when grilled mackerel was plentiful and farmers, busy during the growing season, wanted an easy fish dish to fall back on.",
+   "sources": [
+    {
+     "title": "焼き鯖の煮付け 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yakisaba_no_nitsuke_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yakisaba-no-nitsuke",
+     "to_slug": "saba",
+     "relation_type": "使用食材",
+     "basis": "焼いたサバの身をほぐしてたまねぎと煮込む"
+    }
+   ],
+   "tags": [],
+   "notes": "台帳では棚=grilledだが、実際は焼いたサバをほぐしてたまねぎと甘辛く煮込む料理であり調理の主体は「煮る」ためhomestyleに変更した。伝承地域は東部地域で広域のため origin_city空欄、代表点は鳥取市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "goae",
+   "name_ja": "呉和え",
+   "name_romaji": "Goae",
+   "name_en": "Goae — ground soybean paste tossed with vegetables and mushrooms",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "日南町",
+   "lat": 35.1706,
+   "lng": 133.3081,
+   "summary_ja": "ゆでてすり潰した大豆「ご」を衣に、野菜やきのこを和える。伯耆地方山間部の豪雪地帯・日南町に伝わり、稲作に不向きな急斜面の畑で貴重なたんぱく源として重宝された大豆を使う、仏事のもてなし料理という。",
+   "summary_en": "Boiled, ground soybeans called \"go\" are tossed with vegetables and mushrooms as a dressing. Passed down in Nichinan Town, a heavy-snow district in the mountains of the old Hoki region, it makes use of soybeans grown on steep, rice-unfriendly slopes as a prized protein source, served to guests at Buddhist memorial gatherings.",
+   "sources": [
+    {
+     "title": "呉和え 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/goae_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "goae",
+     "to_slug": "soramame-no-kofuki",
+     "relation_type": "対比",
+     "basis": "ともに鳥取の来客・仏事のもてなし料理に使われる豆料理だが、呉和えはすり潰した大豆を和え衣にし、そら豆の粉吹きは乾燥そら豆をゆでて調味する点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は西部地域（日南町）のため origin_city=日南町とした。食育活動の表彰歴には触れなかった。名前「呉和え／なすのずんだ和え」は先頭の「呉和え」を主名とし、別名はsummaryで言及しなかった（本文中で別名の使用文脈が薄いため notesにのみ記載）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tottori-wakasa-oyaki",
+   "name_ja": "若桜のおやき",
+   "name_romaji": "Wakasa no Oyaki",
+   "name_en": "Wakasa no Oyaki — a mochi-rice bun filled with red bean for a shrine festival",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "若桜町",
+   "lat": 35.3556,
+   "lng": 134.3986,
+   "summary_ja": "もち米とうるち米の粉を練った生地で小豆あんを包み、屋号入りの型で押して焼く若桜町の菓子。約400年続く若桜神社大祭のもてなし料理とされ、長野の小麦粉生地とは異なり米粉でつくるのが特徴という。",
+   "summary_en": "Red bean paste is wrapped in a dough kneaded from sticky and non-glutinous rice flour, then pressed in a mold stamped with the household crest and pan-fried, a treat from Wakasa Town. Served for the roughly four-century-old Wakasa Shrine festival, it's distinguished from Nagano's wheat-dough version by its rice-flour dough.",
+   "sources": [
+    {
+     "title": "若桜のおやき 鳥取県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/wakasa_no_oyaki_tottori.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tottori-wakasa-oyaki",
+     "to_slug": "akita-oyaki",
+     "relation_type": "対比",
+     "basis": "ともに小豆あんを包む米粉生地のおやきだが、若桜のおやきはもち米とうるち米の粉を練った生地を型押しして焼く祭りのもてなし料理、秋田のおやきは餅米生地を焼き上げる日常の菓子という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "souvenir_non_confection"
+   ],
+   "notes": "「おやき」は秋田(akita-oyaki)・長野(oyaki)に既存slugがあるため、地名を冠したtottori-wakasa-oyakiとした（「wakasa-oyaki」は既存「wakasa-gyu」(福井県、若狭)と読みが紛らわしいため回避）。伝承地域は若桜町。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: kakinoha_zushi_tottori(既存kakinoha-zushi, high), rakkyou_zuke_tottori(genre_hint=tsukemono かつ all-items-ja.txt既存rakkyou-zuke/鳥取県と同一), toufu_chikuwa_tottori(all-items-ja.txt既存tofu-chikuwa/鳥取県と同一表記違い) は作らず。low判定: hatahata_zushi_tottori は台帳existing_slug「hata」(ハタ/グルーパー、別の魚)がmatch_confidence=lowで誤りと判断。秋田の既存hatahata-zushiとも製法（米麹の発酵ずし vs おから詰めの即席ずし）が明確に異なる別品のため、slugをtottori-hatahata-zushiとして作成した。棚を変えた行: iwashi_dango_tottori(sweets→homestyle、卵とイワシの惣菜のため)、yakisaba_no_nitsuke_tottori(grilled→homestyle、実質は煮る料理のため)、tottori-hatahata-zushi(rice→raw、ご飯を使わずおからを詰めるため、genreもsushi→nullに変更)。surume_no_kouji_zuke_tottori はgenre_hint=tsukemonoだが魚介の麹漬け（保存食）でありall-items-ja.txtに同名の既存アイテムがないため、ブリーフの例外規定に基づき作成（棚fermented・genre null）。座標の根拠: 伝承地域が「県内全域」「県内沿岸部全域」等の広域は県庁所在地(鳥取市)、複数地方にまたがる場合も鳥取市を代表点とした。本文が特定市町村・地区を名指しする場合（いただき→境港市、大山おこわ→大山町、こも豆腐→倉吉市、いがい飯→鳥取市青谷町、おいり→鳥取市用瀬町、ハタハタ寿司→鳥取市賀露地区）はその市町村を採用した。要判断: 「こも豆腐」「いももち」「おやき」は他県に同名の既存アイテムがあるが、既存項目もそれぞれ地域ごとに別項目として投入済み（茨城/岐阜のこも豆腐、北海道/岐阜のいももち、秋田/長野のおやき）という先例に倣い、鳥取版も地名を冠したslugで別項目として作成した。"
+}
