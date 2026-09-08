@@ -1,0 +1,867 @@
+{
+ "items": [
+  {
+   "slug": "gunma-suiton",
+   "name_ja": "すいとん",
+   "name_romaji": "Suiton",
+   "name_en": "Suiton — hand-torn wheat dumplings simmered in a root-vegetable soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "",
+   "lat": 36.3906,
+   "lng": 139.0604,
+   "summary_ja": "小麦粉を水で溶いて丸めた団子を、根菜と煮干しだしで煮込んだ汁物。米が貴重だった時代の代替食で、太田市では米粉、藤岡市では「とっちゃなげ汁」と呼ぶなど、地域ごとに材料や呼び名が変わる。",
+   "summary_en": "Wheat-flour dumplings simmered with root vegetables in a dried-sardine broth. Once a stand-in for rice, it goes by different names and ingredients from town to town across Gunma.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_2_gunma.html",
+     "title": "すいとん｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-suiton",
+     "to_slug": "okkirikomi",
+     "relation_type": "兄弟",
+     "basis": "同じ小麦粉文化から生まれた麺料理どうし"
+    }
+   ],
+   "tags": [
+    "miso",
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-tansan-manju",
+   "name_ja": "炭酸まんじゅう",
+   "name_romaji": "Tansan Manju",
+   "name_en": "Tansan Manju — baking-soda steamed buns with sweet red bean filling",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "",
+   "lat": 36.3906,
+   "lng": 139.0604,
+   "summary_ja": "小麦粉の生地に重曹とベーキングパウダーを加えて発酵させ、あんを包んで蒸したまんじゅう。ほんのり苦味のある生地と甘いあんの対比が持ち味で、砂糖が貴重だった頃はごちそう扱いだった。",
+   "summary_en": "Wheat buns leavened with baking soda and filled with sweet bean paste. The dough's faint bitterness sets off the filling's sweetness, and it once counted as a special treat when sugar was scarce.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_3_gunma.html",
+     "title": "炭酸まんじゅう｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-tansan-manju",
+     "to_slug": "gunma-yaki-manju",
+     "relation_type": "兄弟",
+     "basis": "群馬のまんじゅう文化を共有する"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-yakimochi",
+   "name_ja": "やきもち",
+   "name_romaji": "Yakimochi",
+   "name_en": "Yakimochi — griddled wheat dough cakes with miso or vegetable fillings",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "",
+   "lat": 36.3906,
+   "lng": 139.0604,
+   "summary_ja": "小麦粉の生地に季節の野菜や薬味、味噌や醤油を混ぜて丸め、焙烙などでじっくり焼いた軽食。農作業の合間の「小昼半」として食べられ、地域により「おやき」「じり焼き」とも呼ぶ。",
+   "summary_en": "Wheat dough mixed with seasonal vegetables, herbs, miso or soy sauce, shaped and slow-grilled. Eaten as a between-meals snack during farm work, it also goes by names like oyaki or jiriyaki depending on the area.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_4_gunma.html",
+     "title": "やきもち｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-yakimochi",
+     "to_slug": "gunma-tansan-manju",
+     "relation_type": "兄弟",
+     "basis": "同じ粉食文化から生まれたおやつ"
+    }
+   ],
+   "tags": [
+    "miso",
+    "soy_sauce",
+    "handheld"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-amaneji",
+   "name_ja": "あまねじ",
+   "name_romaji": "Amaneji",
+   "name_en": "Amaneji — wheat dumplings simmered in sweet red bean soup",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "渋川市",
+   "lat": 36.4909,
+   "lng": 139.0011,
+   "summary_ja": "甘く煮た小豆汁に、水で練った小麦粉の団子を落として煮込むおやつ。渋川市で主に食べられ、川場村では「あまだんご」と呼ぶ。農作業の合間にとる小昼飯の甘味として親しまれてきた。",
+   "summary_en": "Wheat dumplings simmered in a sweetened red bean soup, mainly eaten around Shibukawa; Kawaba village calls it amadango. It was a treat during breaks from farm work.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_5_gunma.html",
+     "title": "あまねじ｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-amaneji",
+     "to_slug": "gunma-suiton",
+     "relation_type": "兄弟",
+     "basis": "同じ小麦粉団子の甘味版"
+    }
+   ],
+   "tags": [],
+   "item_note": "別名「あまだんご」はsummaryに記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-shime-dofu",
+   "name_ja": "しめ豆腐",
+   "name_romaji": "Shime Dofu",
+   "name_en": "Shime Dofu — pressed tofu roll seasoned with soy sauce and sugar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "",
+   "lat": 36.3906,
+   "lng": 139.0604,
+   "summary_ja": "巻きすで巻いた豆腐を茹で、醤油と砂糖で味付けした一品。かまぼこのような食感で、たくあんのように薄切りにして食べる。近隣の主婦が持ち寄って作る、祭りや節句の行事食だった。",
+   "summary_en": "Tofu rolled in a bamboo mat, boiled, then seasoned with soy sauce and sugar. Sliced thin like pickled radish, it has a kamaboko-like texture and was made for festivals and seasonal rites.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_6_gunma.html",
+     "title": "しめ豆腐｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-shime-dofu",
+     "to_slug": "gunma-konnyaku-shiraae",
+     "relation_type": "兄弟",
+     "basis": "どちらも群馬の豆腐・こんにゃく料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "item_note": "伝承地域が複数町村（沼田市白沢町、神流町、長野原町、沼田市・利根郡）にまたがるため座標は県庁所在地（前橋市）を使用。広域。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-katemeshi",
+   "name_ja": "かて飯",
+   "name_romaji": "Katemeshi",
+   "name_en": "Katemeshi (Gunma) — rice stretched with barley, beans and root vegetables",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "",
+   "lat": 36.3906,
+   "lng": 139.0604,
+   "summary_ja": "米に麦や豆、大根などの「かて」を加えて炊いたご飯。米不足の時代のかさ増し料理が起源で、現在は五目ご飯として親しまれる。学業成就を願う天神講の日に供されることが多い。",
+   "summary_en": "Rice cooked with barley, beans, daikon and other bulking ingredients called kate. Born of rice shortages, it survives today as a mixed rice dish often served on the Tenjin festival day.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_7_gunma.html",
+     "title": "かて飯｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-katemeshi",
+     "to_slug": "saitama-katemeshi",
+     "relation_type": "対比",
+     "basis": "同じ「かてめし」の系譜だが群馬と埼玉で漢字表記・具材が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-neginuta",
+   "name_ja": "ねぎぬた",
+   "name_romaji": "Neginuta",
+   "name_en": "Neginuta (Gunma) — steamed leek dressed in sweet vinegar-miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "",
+   "lat": 36.3906,
+   "lng": 139.0604,
+   "summary_ja": "蒸した下仁田ねぎなどを、すりごま入りの酢味噌で和えた一品。冠婚葬祭や桃の節句のもてなし料理で、宴席の締めくくりに出されることが多い。ねぎの甘みと酢味噌の酸味が合う。",
+   "summary_en": "Steamed leek, often the sweet Shimonita variety, dressed in vinegared miso. Served at weddings and the Doll Festival, it traditionally signals the closing course of a banquet.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_8_gunma.html",
+     "title": "ねぎぬた｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-neginuta",
+     "to_slug": "saitama-neginuta",
+     "relation_type": "対比",
+     "basis": "同じ酢味噌和えのねぎ料理だが埼玉版は深谷ねぎを使う"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial",
+    "meal_ender"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-mayudama",
+   "name_ja": "まゆ玉",
+   "name_romaji": "Mayudama",
+   "name_en": "Mayudama — rice-flour dumplings shaped like silkworm cocoons for offerings",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "",
+   "lat": 36.3906,
+   "lng": 139.0604,
+   "summary_ja": "米粉やひえの粉を丸め、繭に見立てて木の枝に飾ってから、どんど焼きで焼いて食べる小正月の行事食。養蚕業が盛んだった群馬らしく、繭の豊作を願う祈りが込められている。",
+   "summary_en": "Rice- or millet-flour balls shaped to resemble silkworm cocoons, hung on branches then roasted at the New Year bonfire. The custom reflects Gunma's sericulture heritage and prayers for a good cocoon harvest.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_9_gunma.html",
+     "title": "まゆ玉｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-mayudama",
+     "to_slug": "gunma-yaki-manju",
+     "relation_type": "兄弟",
+     "basis": "どちらも行事に結びついた粉物のごちそう"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "joshu-kinpira",
+   "name_ja": "上州きんぴら",
+   "name_romaji": "Joshu Kinpira",
+   "name_en": "Joshu Kinpira — stir-fried burdock and pork with thick-cut root vegetables",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "",
+   "lat": 36.3906,
+   "lng": 139.0604,
+   "summary_ja": "太切りのごぼうに豚肉やにんじん、しいたけ、こんにゃくを合わせて炒め煮したきんぴら。1983年の「あかぎ国体」の際に考案され、上毛三山を思わせる太いごぼうが特徴。",
+   "summary_en": "A kinpira stir-fry of thick-cut burdock with pork, carrot, shiitake and konjac, devised for Gunma's 1983 national sports meet. The chunky burdock is meant to evoke the prefecture's three sacred mountains.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_10_gunma.html",
+     "title": "上州きんぴら｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "joshu-kinpira",
+     "to_slug": "joshu-mugi-buta",
+     "relation_type": "使用食材",
+     "basis": "群馬ブランドの麦豚を具材に使う"
+    }
+   ],
+   "tags": [
+    "pork"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-udon",
+   "name_ja": "群馬のうどん",
+   "name_romaji": "Gunma no Udon",
+   "name_en": "Gunma no Udon — a family of local wheat noodle styles across the prefecture",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_pref": "群馬県",
+   "origin_city": "",
+   "lat": 36.3906,
+   "lng": 139.0604,
+   "summary_ja": "粉食文化が根づく群馬各地で育った、うどんの総称。桐生市の幅広麺「ひもかわ」、館林のうどん、水沢うどんなど地域ごとに個性があり、観光グルメとしても親しまれている。",
+   "summary_en": "An umbrella term for the wheat noodle traditions that grew up across wheat-loving Gunma, from Kiryu's extra-wide himokawa to Tatebayashi udon and Mizusawa udon, each with its own regional character.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_11_gunma.html",
+     "title": "群馬のうどん｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-udon",
+     "to_slug": "kiryu-himokawa",
+     "relation_type": "兄弟",
+     "basis": "群馬のうどん文化を代表する幅広麺"
+    },
+    {
+     "from_slug": "gunma-udon",
+     "to_slug": "mizusawa",
+     "relation_type": "兄弟",
+     "basis": "日本三大うどんの一つとされる群馬のうどん"
+    },
+    {
+     "from_slug": "gunma-udon",
+     "to_slug": "tatebayashi-udon",
+     "relation_type": "兄弟",
+     "basis": "邑楽館林産小麦を使う群馬のうどん"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-konnyaku-shiraae",
+   "name_ja": "こんにゃくの白和え",
+   "name_romaji": "Konnyaku no Shiraae",
+   "name_en": "Konnyaku no Shiraae — konjac dressed in sweetened tofu-sesame paste",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "",
+   "lat": 36.3906,
+   "lng": 139.0604,
+   "summary_ja": "すりつぶした豆腐に砂糖やみりん、塩を加えた衣で、湯がいたこんにゃくを和えた精進料理。全国的な白和えに、こんにゃく生産量日本一の群馬らしくこんにゃくを合わせたもの。",
+   "summary_en": "A shiraae dressing of mashed tofu, sugar and mirin tossed with parboiled konjac. It takes the nationwide shiraae style and adds konjac, reflecting Gunma's status as Japan's top konjac producer.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_12_gunma.html",
+     "title": "こんにゃくの白和え｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-konnyaku-shiraae",
+     "to_slug": "gunma-shime-dofu",
+     "relation_type": "兄弟",
+     "basis": "どちらも豆腐を使う群馬の精進的な料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-sumitsukare",
+   "name_ja": "すみつかれ",
+   "name_romaji": "Sumitsukare",
+   "name_en": "Sumitsukare (Gunma) — grated daikon simmered with salmon head and soybeans",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "",
+   "lat": 36.2905,
+   "lng": 139.3757,
+   "summary_ja": "鬼おろしで粗くすった大根とにんじん、正月の鮭の頭、節分の残り豆を酒粕とともに煮込んだ行事食。初午の日に稲荷神社へ供え、無病息災を願っていただく北関東一帯の風習。",
+   "summary_en": "Coarsely grated daikon and carrot simmered with leftover New Year salmon head, Setsubun soybeans and sake lees. Offered at the fox shrine on the first Horse Day of February and eaten to ward off illness, a custom shared across northern Kanto.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_13_gunma.html",
+     "title": "すみつかれ｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-sumitsukare",
+     "to_slug": "saitama-sumitsukare",
+     "relation_type": "対比",
+     "basis": "同じ初午の行事食だが埼玉版は乾燥大豆を使う"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "item_note": "伝承地域は「東毛」（群馬東部の地方名）。中心都市の太田市の座標を使用。広域。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-zakuni",
+   "name_ja": "ざく煮",
+   "name_romaji": "Zakuni",
+   "name_en": "Zakuni — finely diced root vegetables and dried squid simmered without oil",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "高崎市",
+   "lat": 36.3219,
+   "lng": 139.0031,
+   "summary_ja": "高崎市に伝わる、けんちん汁によく似た精進的な汁物。野菜を油で炒めず、するめでだしを取るのが特徴。少なくとも60年以上、正月や節分、えびす講、婚礼など祝い事の席で作られてきた。",
+   "summary_en": "A Takasaki soup resembling kenchin-jiru but made without oil, using dried squid for stock instead. It appears at New Year, Setsubun, the Ebisu harvest festival and weddings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_14_gunma.html",
+     "title": "ざく煮｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-zakuni",
+     "to_slug": "koshine-jiru",
+     "relation_type": "兄弟",
+     "basis": "どちらも群馬の野菜たっぷりの汁物"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hanaingen-no-nimame",
+   "name_ja": "花いんげんの煮豆",
+   "name_romaji": "Hana Ingen no Nimame",
+   "name_en": "Hana Ingen no Nimame — sweet-simmered scarlet runner beans from the highlands",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "中之条町",
+   "lat": 36.5686,
+   "lng": 138.8567,
+   "summary_ja": "標高900m以上の吾妻地域だけで育つ大粒の花いんげんを、砂糖と塩でやわらかく煮含めた一品。乾燥豆を戻して作るため保存がきき、地域の祭りやおせち料理、贈答用にも供される。",
+   "summary_en": "Large scarlet runner beans, grown only in the highlands above 900 meters, gently simmered with sugar and salt. Made from dried beans and easy to keep, it appears at festivals and in New Year spreads.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_15_gunma.html",
+     "title": "花いんげんの煮豆｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hanaingen-no-nimame",
+     "to_slug": "gunma-gojiru",
+     "relation_type": "兄弟",
+     "basis": "どちらも群馬の豆を使う料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "item_note": "伝承地域は吾妻地域内の4町村（中之条町、嬬恋村、草津町、長野原町）。中心の中之条町を座標に採用し、他3町村はregionsに名産地として記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "namazu-no-tempura",
+   "name_ja": "なまずの天ぷら",
+   "name_romaji": "Namazu no Tempura",
+   "name_en": "Namazu no Tempura — deep-fried catfish from Itakura's waterways",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "群馬県",
+   "origin_city": "板倉町",
+   "lat": 36.2419,
+   "lng": 139.6924,
+   "summary_ja": "利根川や渡良瀬川に囲まれた「群馬の水郷」板倉町の名物。皮ごと揚げたなまずはふっくらとした白身でクセが少なく、川魚問屋やその料理店が軒を連ねた町の食文化を今に伝えている。",
+   "summary_en": "A specialty of Itakura, a town ringed by the Tone and Watarase rivers and known as Gunma's water country. Catfish is fried skin-on into a mild, fluffy-fleshed dish that carries on the river-fish trade the town once ran.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_16_gunma.html",
+     "title": "なまずの天ぷら｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "namazu-no-tempura",
+     "to_slug": "gunma-ayu-shioyaki",
+     "relation_type": "兄弟",
+     "basis": "どちらも群馬の川魚料理"
+    },
+    {
+     "from_slug": "namazu-no-tempura",
+     "to_slug": "tempura",
+     "relation_type": "対比",
+     "basis": "全国的な天ぷらに対し、板倉町のなまずを使う地域版"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-ayu-shioyaki",
+   "name_ja": "鮎塩焼き",
+   "name_romaji": "Ayu Shioyaki",
+   "name_en": "Ayu Shioyaki — salt-grilled sweetfish from the Kanna river",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "上野村",
+   "lat": 35.9613,
+   "lng": 138.7574,
+   "summary_ja": "群馬県魚の鮎を、生きたまま串にジグザグに刺して塩をふり、炭火で焼き上げたシンプルな一品。神流川の鮎は香り高く身が締まり、6月の解禁とともに県内外から食通が訪れる。",
+   "summary_en": "Gunma's official fish, skewered in a zigzag and salted before charcoal grilling. Sweetfish from the Kanna river are prized for their aroma and firm flesh, drawing visitors once the season opens in June.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_17_gunma.html",
+     "title": "鮎塩焼き｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-ayu-shioyaki",
+     "to_slug": "namazu-no-tempura",
+     "relation_type": "兄弟",
+     "basis": "どちらも群馬の川魚料理"
+    }
+   ],
+   "tags": [
+    "skewered"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-torimeshi",
+   "name_ja": "鶏めし",
+   "name_romaji": "Torimeshi",
+   "name_en": "Torimeshi — sliced grilled chicken over rice with a savory-sweet sauce",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "",
+   "lat": 36.3906,
+   "lng": 139.0604,
+   "summary_ja": "桑の葉や梅酢を食べて育つ上州地鶏など、上質な鶏肉の産地である群馬で親しまれる丼もの。焼いてたれに漬けた薄切り鶏肉をご飯にのせ、行楽に持っていく弁当としても人気がある。",
+   "summary_en": "A rice bowl from Gunma, known for quality chicken such as Joshu Jidori raised on mulberry leaves and plum vinegar. Grilled, sauce-dipped chicken slices top the rice, and it doubles as a popular picnic lunch.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_18_gunma.html",
+     "title": "鶏めし｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-torimeshi",
+     "to_slug": "gunma-katsudon",
+     "relation_type": "対比",
+     "basis": "どちらも群馬のご当地丼もの"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "handheld"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-katsudon",
+   "name_ja": "ソースカツ丼",
+   "name_romaji": "Sosu Katsudon",
+   "name_en": "Sosu Katsudon (Gunma) — breaded pork cutlet dipped in sauce over rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "donburi",
+   "origin_pref": "群馬県",
+   "origin_city": "桐生市",
+   "lat": 36.4058,
+   "lng": 139.3316,
+   "summary_ja": "鰻のたれにウスターソースを合わせたオリジナルソースにくぐらせた豚ヒレカツを、ご飯にのせた丼。織物業の街・桐生市で出前のごちそうとして広まり、県内各地に定着した。",
+   "summary_en": "Breaded pork fillet dipped in a house sauce blending Worcestershire with eel tare, served over rice. It spread as a delivery favorite in the textile town of Kiryu and is now found across the prefecture.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_20_gunma.html",
+     "title": "ソースカツ丼｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-katsudon",
+     "to_slug": "aizu-katsudon",
+     "relation_type": "対比",
+     "basis": "同じソースカツ丼文化圏だが会津版とはたれが異なる"
+    }
+   ],
+   "tags": [
+    "pork",
+    "yoshoku"
+   ],
+   "item_note": "伝承地域は桐生市・前橋市・伊勢崎市の3市。発祥地とされる桐生市を座標に採用し、他2市はregionsに名産地として記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-gojiru",
+   "name_ja": "呉汁",
+   "name_romaji": "Gojiru",
+   "name_en": "Gojiru (Gunma) — miso soup thickened with ground soybeans and vegetables",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "大泉町",
+   "lat": 36.2274,
+   "lng": 139.4131,
+   "summary_ja": "すりつぶした大豆の「呉」を、旬の野菜と一緒に味噌汁に加えて煮込む一品。大豆の産地・群馬で新豆の採れる秋から冬にかけて作られ、体を芯から温める栄養食として親しまれてきた。",
+   "summary_en": "Ground soybean paste, called go, stirred into a miso soup with seasonal vegetables. Made in soybean-growing Gunma from autumn into winter, it has long served as a warming, nutritious dish.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_21_gunma.html",
+     "title": "呉汁｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-gojiru",
+     "to_slug": "saitama-gojiru",
+     "relation_type": "対比",
+     "basis": "同じ大豆をすりつぶす呉汁だが埼玉版は田畦豆を使う"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-konnyaku-miso-oden",
+   "name_ja": "こんにゃく味噌おでん",
+   "name_romaji": "Konnyaku Miso Oden",
+   "name_en": "Konnyaku Miso Oden (Gunma) — skewered konjac simmered then glazed with sweet miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "",
+   "lat": 36.3906,
+   "lng": 139.0604,
+   "summary_ja": "生産量日本一のこんにゃくを串に刺し、酒と水で煮てから甘辛い味噌だれを塗った、群馬の冬の一品。水気を切る際に布巾へたたきつけることから「ひっぱたきおでん」とも呼ばれる。",
+   "summary_en": "Skewered konjac, simmered in sake and water then brushed with a sweet-savory miso glaze, eaten through the cold winter. Its nickname, hippataki oden, comes from the slap of drying the konjac against a cloth.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_23_gunma.html",
+     "title": "こんにゃく味噌おでん｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-konnyaku-miso-oden",
+     "to_slug": "saitama-konnyaku-miso-oden",
+     "relation_type": "対比",
+     "basis": "同じ味噌おでんの系統だが埼玉版は手作りこんにゃくを使う"
+    }
+   ],
+   "tags": [
+    "miso",
+    "skewered"
+   ],
+   "item_note": "全国的な「おでん」(既存slug oden)とは別の、味噌田楽に近い群馬固有の料理として作成。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "koshine-jiru",
+   "name_ja": "こしね汁",
+   "name_romaji": "Koshine Jiru",
+   "name_en": "Koshine Jiru — miso soup of konjac, shiitake and leek named for its ingredients",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "富岡市",
+   "lat": 36.2589,
+   "lng": 138.8908,
+   "summary_ja": "富岡市婦人会連合会が考案した、こんにゃく・しいたけ・ねぎの頭文字を取った汁物。世界遺産・富岡製糸場の街で養蚕から農業へと移った土地の恵みを一杯に詰め込んでいる。",
+   "summary_en": "A soup named from the initials of konjac, shiitake and negi, devised by Tomioka's women's association. It concentrates the harvest of a town that shifted from silk to farming near the World Heritage Tomioka Silk Mill.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_24_gunma.html",
+     "title": "こしね汁｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "koshine-jiru",
+     "to_slug": "gunma-zakuni",
+     "relation_type": "兄弟",
+     "basis": "どちらも群馬の野菜たっぷりの汁物"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gunma-yaki-manju",
+   "name_ja": "焼きまんじゅう",
+   "name_romaji": "Yaki Manju",
+   "name_en": "Yaki Manju — steamed buns skewered and grilled with sweet miso glaze",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "群馬県",
+   "origin_city": "前橋市",
+   "lat": 36.3906,
+   "lng": 139.0604,
+   "summary_ja": "どぶろくで発酵させた酒まんじゅうを串に刺し、甘い味噌だれを塗って焼いた前橋発祥の一品。花見や夏祭りの屋台で香ばしい匂いを漂わせ、群馬のソウルフードとして親しまれている。",
+   "summary_en": "Sake-leavened buns skewered and grilled with a sweet miso glaze, said to originate in Maebashi. The fragrant smell drifts from festival stalls at cherry-blossom time and summer fairs, and it is treasured as a Gunma soul food.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/32_26_gunma.html",
+     "title": "焼きまんじゅう｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gunma-yaki-manju",
+     "to_slug": "gunma-tansan-manju",
+     "relation_type": "兄弟",
+     "basis": "どちらも群馬のまんじゅう文化を代表する"
+    }
+   ],
+   "tags": [
+    "miso",
+    "skewered",
+    "street_food"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "[群馬県] 作らなかった行:\n  - 32_1_gunma おきりこみ／おっきりこみ: existing_slug=okkirikomi (high) のため作らず。\n  - 32_19_gunma すき焼き: existing_slug=sukiyaki (high) のため作らず。\n  - 32_22_gunma じりやき: 台帳のexisting_slugは空欄だが、all-items-ja.txtにjiriyaki|じりやき|(pref空欄)が既存。名称完全一致のため作らず。\n  - 32_27_gunma ぎゅうてん: 台帳のexisting_slugは空欄だが、all-items-ja.txtにgyuten|ぎゅうてん|群馬県が既存。名称・県とも完全一致のため作らず。\n  - 32_25_gunma ゆず巻き: genre_hintは空欄だがmaff本文は「干した大根でゆずの皮を巻き、酢・砂糖に漬け込む」冬の保存食＝実質は漬物ジャンル。既存の漬物ジャンル投入済み方針に準じ、埼玉版(33_17)と同一の判断基準で作らず。要判断: genre_hint検出漏れの可能性あり。\n棚(shelf)を変えた行:\n  - 32_5_gunma あまねじ: 台帳shelf=hotpot→sweets に変更（甘い小豆汁に団子を落とす菓子的な一品のため）。\n  - 32_9_gunma まゆ玉: 台帳shelf=homestyle→sweets に変更（砂糖・きな粉をつけて食べる団子菓子のため）。"
+}

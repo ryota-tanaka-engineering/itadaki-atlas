@@ -1,0 +1,1115 @@
+{
+ "items": [
+  {
+   "slug": "ibaraki-shimotsukare",
+   "name_ja": "しもつかれ／すみつかれ",
+   "name_romaji": "Shimotsukare",
+   "name_en": "Shimotsukare — daikon, soybean, and salted salmon head simmered in sake lees",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "",
+   "lat": 36.3418,
+   "lng": 140.4468,
+   "summary_ja": "正月に残った塩鮭の頭と節分の炒り大豆、大根と人参を鬼おろしで粗くすりおろし、酒粕でじっくり煮込む冬の料理。初午の日にお稲荷様へ供え、余りを近所へ配る習わしが残る。栃木県など隣接地域にも同様の料理が伝わる。",
+   "summary_en": "Leftover salted salmon head from New Year's and roasted soybeans from Setsubun are simmered with coarsely grated daikon and carrot in sake lees — a winter dish offered to the fox shrine on the first Horse Day of February, with leftovers shared among neighbors. Similar dishes are made in neighboring Tochigi.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shimotukare_ibaraki.html",
+     "title": "しもつかれ／すみつかれ 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ibaraki-shimotsukare",
+     "to_slug": "tochigi-shimotsukare",
+     "relation_type": "兄弟",
+     "basis": "両県にまたがって伝わる同名の郷土料理"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "wakasagi-renkon-suzuke",
+   "name_ja": "わかさぎとれんこんの酢漬け",
+   "name_romaji": "Wakasagi to Renkon no Suzuke",
+   "name_en": "Wakasagi to Renkon no Suzuke — fried smelt and lotus root steeped in sweet vinegar",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "",
+   "lat": 36.0757,
+   "lng": 140.1994,
+   "summary_ja": "霞ヶ浦でとれる小魚のワカサギを揚げ、薄切りのれんこんとともに甘酢に漬け込む料理。骨まで丸ごと食べられる手軽さと、酢の効いたさっぱりした後味が特徴。柚子の皮を添えて香りを添えることもある。",
+   "summary_en": "Smelt from Lake Kasumigaura are fried whole, then layered with thin lotus root slices and steeped in sweet vinegar — bones and all, with a bright, tart finish sometimes brightened with yuzu peel.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/wakasagitorenkonnosuzuke_ibaraki.html",
+     "title": "わかさぎとれんこんの酢漬け 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "wakasagi-renkon-suzuke",
+     "to_slug": "renkon-hasami-age",
+     "relation_type": "使用食材",
+     "basis": "霞ヶ浦特産のれんこんを共有"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "garigarinamasu",
+   "name_ja": "がりがりなます",
+   "name_romaji": "Garigari Namasu",
+   "name_en": "Garigari Namasu — coarsely grated daikon tossed with vinegared fish",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "",
+   "lat": 36.3418,
+   "lng": 140.4468,
+   "summary_ja": "大根を「鬼おろし」という竹製のおろし器で粗くガリガリとすりおろし、酢漬けの魚と和えるなます。粗い食感が身上で、正月など人が集まる席でよく振る舞われてきた。ボラやコイが使われることもある。",
+   "summary_en": "Daikon is coarsely grated with a bamboo oni-oroshi grater — hence the crunchy 'gari-gari' name — then tossed with vinegared fish. The rough texture is the point, and the dish turns up at New Year's and other gatherings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/garigarinamasu_ibaraki.html",
+     "title": "がりがりなます 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "garigarinamasu",
+     "to_slug": "ibaraki-shimotsukare",
+     "relation_type": "対比",
+     "basis": "共に鬼おろしで大根を粗くすりおろす技法を使う"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsukekenchin",
+   "name_ja": "つけけんちん",
+   "name_romaji": "Tsuke Kenchin",
+   "name_en": "Tsuke Kenchin — thick soba dipped into a hot root-vegetable kenchin soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "",
+   "lat": 36.3418,
+   "lng": 140.4468,
+   "summary_ja": "里芋や大根、こんにゃくを煮込んだ温かいけんちん汁に、太めのそばを別皿でつけて食べる料理。江戸時代後期から水戸藩を中心に広がったとされ、新そばが出る秋から冬によく食べられる。",
+   "summary_en": "Thick soba noodles are served on a separate plate, to be dipped into a hot kenchin soup of taro, daikon, and konjac — a style said to have spread from the Mito domain in the late Edo period, popular once the new buckwheat comes in for autumn and winter.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tukekenchin_ibaraki.html",
+     "title": "つけけんちん 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tsukekenchin",
+     "to_slug": "shimikonnyaku",
+     "relation_type": "使用食材",
+     "basis": "けんちん汁の具材にこんにゃくを使う"
+    }
+   ],
+   "tags": [
+    "miso",
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "niai",
+   "name_ja": "煮合い",
+   "name_romaji": "Niai",
+   "name_en": "Niai — lotus root and burdock simmered and finished with vinegar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "水戸市",
+   "lat": 36.3418,
+   "lng": 140.4468,
+   "summary_ja": "水戸市東部の下市地方に伝わる、れんこんやごぼうを炒めてだしと醤油で煮て、仕上げに酢を回しかける料理。名は「煮て和える」からと伝わる。仏事では人参を抜き白く仕上げる作法もある。",
+   "summary_en": "From the Shimoichi district east of Mito, lotus root and burdock are stir-fried, simmered in dashi and soy sauce, and finished with a splash of vinegar — the name is said to come from 'simmer and dress.' For Buddhist rites, carrot is left out to keep the dish white.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/niai_ibaraki.html",
+     "title": "煮合い 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "niai",
+     "to_slug": "renkon-hasami-age",
+     "relation_type": "使用食材",
+     "basis": "霞ヶ浦周辺のれんこんを共有"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shikinbai",
+   "name_ja": "紫錦梅",
+   "name_romaji": "Shikinbai",
+   "name_en": "Shikinbai — salted plums pickled with red shiso",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "水戸市",
+   "lat": 36.3418,
+   "lng": 140.4468,
+   "summary_ja": "水戸藩主・徳川斉昭が偕楽園の梅を余さず使おうと考案したとされる、傷んだ梅の実を割って赤しそと塩で漬け込んだ保存食。梅びしおとも呼ばれ、ご飯やたたききゅうりに和えて食べる。",
+   "summary_en": "Said to have been devised by Mito lord Tokugawa Nariaki to use every plum from Kairakuen, damaged fruit is split, pitted, and salted with red shiso — a preserve also called ume-bishio, eaten over rice or tossed with smashed cucumber.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shikimbai_ibaraki.html",
+     "title": "紫錦梅 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shikinbai",
+     "to_slug": "yuzudaikon",
+     "relation_type": "対比",
+     "basis": "共に果実・野菜を使う茨城の漬け込み保存食"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "taganemochi",
+   "name_ja": "たがね餅",
+   "name_romaji": "Tagane Mochi",
+   "name_en": "Tagane Mochi — a flat, sea-cucumber-shaped rice cake of mochi and non-glutinous rice",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "",
+   "lat": 36.3418,
+   "lng": 140.4468,
+   "summary_ja": "もち米とうるち米を蒸してついた、なまこ形の平たい餅。青のりや大豆、しその実など混ぜる具は地域ごとに違う。正月によくつくられ、焼いたり揚げたりして食べる霞ヶ浦周辺の郷土菓子。",
+   "summary_en": "Glutinous and non-glutinous rice are steamed and pounded together into a flat, sea-cucumber-shaped cake, its mix-ins — green nori, soybeans, shiso seeds — varying by town around Lake Kasumigaura. Grilled or fried, it is a New Year's favorite.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/taganemochi_ibaraki.html",
+     "title": "たがね餅 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "taganemochi",
+     "to_slug": "mitsumenobotamochi",
+     "relation_type": "兄弟",
+     "basis": "共に茨城で慶事に食べられる餅菓子"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hoshiimo",
+   "name_ja": "干しいも",
+   "name_romaji": "Hoshi Imo",
+   "name_en": "Hoshi Imo — sweet potato slices sun- and wind-dried into a chewy sweet",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "ひたちなか市",
+   "lat": 36.3959,
+   "lng": 140.5457,
+   "summary_ja": "蒸したさつまいもを薄切りにし、海風にさらして干し上げる保存食。静岡から伝わったとされ、ひたちなか市を中心に盛んに作られてきたとされる。素朴な甘さとねっとりした食感が持ち味。",
+   "summary_en": "Steamed sweet potato is sliced thin and dried in the sea wind — a technique said to have come from Shizuoka, now centered on Hitachinaka, which leads the country in output. The result is naturally sweet with a chewy, dense bite.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hoshiimo_ibaraki.html",
+     "title": "干しいも 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hoshiimo",
+     "to_slug": "nakaminato-yakisoba",
+     "relation_type": "対比",
+     "basis": "共にひたちなか市の名物、系統は対照的"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sudarebu-goma-zu-ae",
+   "name_ja": "すだれ麩のごま酢和え",
+   "name_romaji": "Sudare-bu no Goma Zu-ae",
+   "name_en": "Sudare-bu no Goma Zu-ae — Yuki City's dried wheat-gluten cake dressed in sesame vinegar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "結城市",
+   "lat": 36.3056,
+   "lng": 139.8785,
+   "summary_ja": "結城市だけでつくられる、小麦グルテンに再び小麦粉を練り込んで薄く延ばし、すだれで天日干しにした「すだれ麩」を、ごまと酢で和える一皿。城下町の精進料理から生まれたと伝わる。",
+   "summary_en": "Made only in Yuki, wheat gluten is kneaded again with flour, rolled thin, and sun-dried on a bamboo screen — this 'sudare-fu' is then dressed with sesame and vinegar, a dish said to trace back to the old castle town's temple cooking.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sudarebunogomazuae_ibaraki.html",
+     "title": "すだれ麩のごま酢和え 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sudarebu-goma-zu-ae",
+     "to_slug": "komodofu",
+     "relation_type": "対比",
+     "basis": "共に結城・水戸周辺の大豆・麩由来の加工保存食"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "komodofu",
+   "name_ja": "こも豆腐",
+   "name_romaji": "Komo Dofu",
+   "name_en": "Komo Dofu — tofu pressed and boiled in a straw wrapper",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "",
+   "lat": 36.3418,
+   "lng": 140.4468,
+   "summary_ja": "水切りした豆腐を藁苞に詰め、塩ゆでして固めた保存食。藁の跡が模様となり、ほのかな香りが移る。冠婚葬祭の料理として親しまれ、藁が手に入りにくくなり近年はつくる家庭が減っている。",
+   "summary_en": "Drained tofu is packed into a straw wrapper and boiled in salted water until firm — the straw leaves a pattern and a faint aroma. Once common at weddings and funerals, it is made less often now that straw wrappers are harder to find.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/komodofu_ibaraki.html",
+     "title": "こも豆腐 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "komodofu",
+     "to_slug": "sudarebu-goma-zu-ae",
+     "relation_type": "対比",
+     "basis": "共に結城・水戸周辺の大豆・麩由来の加工保存食"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gomoku-inarizushi",
+   "name_ja": "五目いなりずし",
+   "name_romaji": "Gomoku Inarizushi",
+   "name_en": "Gomoku Inarizushi — fried tofu pouches filled with mixed vegetable rice, from Kasama",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "茨城県",
+   "origin_city": "笠間市",
+   "lat": 36.3852,
+   "lng": 140.2965,
+   "summary_ja": "油揚げに、人参やごぼう、しいたけを混ぜ込んだ酢飯を詰めたいなりずし。笠間稲荷神社の門前町・笠間市では、そばやくるみも加えた華やかな具で古くから参詣客をもてなしてきたと伝わる。",
+   "summary_en": "Fried tofu pockets are stuffed with vinegared rice mixed with carrot, burdock, and shiitake. In Kasama, home to Kasama Inari Shrine, the mix grows even more colorful with local soba and walnuts, served to shrine visitors.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gomokuinarizushi_ibaraki.html",
+     "title": "五目いなりずし 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gomoku-inarizushi",
+     "to_slug": "kanpyo-inari-zushi",
+     "relation_type": "対比",
+     "basis": "いなりずしの具材の地域差(五目 対 かんぴょう結び)"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ogura-renkon",
+   "name_ja": "小倉れんこん",
+   "name_romaji": "Ogura Renkon",
+   "name_en": "Ogura Renkon — lotus root rings simmered sweet with red beans",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "",
+   "lat": 36.0757,
+   "lng": 140.1994,
+   "summary_ja": "輪切りにしたれんこんの穴に小豆を詰めて甘く煮た正月料理。じっくり煮込むと筑波山が夕陽に赤く染まる様子から「紫峰色」と呼ばれる色に仕上がる。穴が見通せる縁起物として食べられる。",
+   "summary_en": "Sliced lotus root has its holes packed with red beans and is simmered sweet for New Year's, taking on a purplish hue nicknamed 'Shiho color' after nearby Mt. Tsukuba at sunset — eaten as a good-luck charm for its 'clear view' holes.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ogurarenkon_ibaraki.html",
+     "title": "小倉れんこん 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ogura-renkon",
+     "to_slug": "renkon-hasami-age",
+     "relation_type": "使用食材",
+     "basis": "霞ヶ浦特産のれんこんを共有"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kabocha-no-itokoni",
+   "name_ja": "かぼちゃのいとこ煮",
+   "name_romaji": "Kabocha no Itokoni",
+   "name_en": "Kabocha no Itokoni — pumpkin and red beans simmered for the winter solstice",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "",
+   "lat": 36.3418,
+   "lng": 140.4468,
+   "summary_ja": "かぼちゃと小豆を醤油と砂糖で煮た冬至の定番料理。保存がきくかぼちゃと邪気を払うとされる小豆の赤を合わせ、日照の短い時期を健やかに越すための料理として受け継がれてきた。",
+   "summary_en": "Pumpkin and red beans are simmered in soy sauce and sugar for the winter solstice, pairing a keep-well squash with beans whose red is said to ward off misfortune — food meant to see people safely through the darkest days.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kabochanoitokoni_ibaraki.html",
+     "title": "かぼちゃのいとこ煮 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kabocha-no-itokoni",
+     "to_slug": "ogura-renkon",
+     "relation_type": "使用食材",
+     "basis": "共に小豆を使う茨城の行事料理"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hamaguri-gohan",
+   "name_ja": "はまぐりごはん",
+   "name_romaji": "Hamaguri Gohan",
+   "name_en": "Hamaguri Gohan — rice cooked with clams from the Kashima coast",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "大洗町",
+   "lat": 36.3122,
+   "lng": 140.5772,
+   "summary_ja": "鹿島灘でとれる大ぶりなハマグリを人参やしいたけと炒め、その煮汁で米を炊き込んだ混ぜごはん。左右がぴったり合う貝殻の性質から、結婚式や雛祭りなど祝いの席で振る舞われてきた。",
+   "summary_en": "Large clams from the Kashima coast are stir-fried with carrot and shiitake, and the rice is cooked in their broth. Because each clam's two shells fit only each other, the dish is served at weddings and other celebrations.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hamagurigohan_ibaraki.html",
+     "title": "はまぐりごはん 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hamaguri-gohan",
+     "to_slug": "unadon",
+     "relation_type": "対比",
+     "basis": "共に茨城の魚介飯もの、貝と魚で対照的"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iwashi-no-unohana-zuke",
+   "name_ja": "いわしの卯の花漬け",
+   "name_romaji": "Iwashi no Unohana-zuke",
+   "name_en": "Iwashi no Unohana-zuke — sardines cured with tofu lees, yuzu, and chili",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "北茨城市",
+   "lat": 36.8058,
+   "lng": 140.7501,
+   "summary_ja": "新鮮なイワシを塩と酢でしめ、酢と砂糖で炒ったおからに柚子と唐辛子とともに漬け込む保存食。「卯の花」はおからの別名で、北部の漁港でとれるイワシを長く味わうための工夫と伝わる。",
+   "summary_en": "Fresh sardines are salted and vinegar-cured, then packed with tofu lees (its poetic name means 'deutzia blossom'), yuzu peel, and chili — a way, from ports like Otsu and Hirakata, to make the north coast's sardine catch last.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/iwashinounohanazuke_ibaraki.html",
+     "title": "いわしの卯の花漬け 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "iwashi-no-unohana-zuke",
+     "to_slug": "gosai-zuke",
+     "relation_type": "対比",
+     "basis": "共に茨城北部・鹿行の魚を漬け込む保存食"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "unagi-no-hobiki-ni",
+   "name_ja": "うなぎの帆引き煮",
+   "name_romaji": "Unagi no Hobiki-ni",
+   "name_en": "Unagi no Hobiki-ni — eel simmered sweet and plated with a sail-boat motif",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "龍ヶ崎市",
+   "lat": 35.9139,
+   "lng": 140.1836,
+   "summary_ja": "酒と醤油、砂糖でふっくら煮たうなぎを、霞ヶ浦名物の帆引き船に見立てた笹の葉とともに供する料理。急な来客をもてなすため、冷凍していたうなぎを手早く仕上げる知恵から生まれたという。",
+   "summary_en": "Eel is simmered soft in sake, soy sauce, and sugar, then plated with bamboo grass shaped to recall Lake Kasumigaura's sail-net fishing boats — a way, it is said, to turn frozen eel into a quick feast for unexpected guests.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/unaginohobikini_ibaraki.html",
+     "title": "うなぎの帆引き煮 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "unagi-no-hobiki-ni",
+     "to_slug": "unadon",
+     "relation_type": "兄弟",
+     "basis": "牛久沼はうな丼発祥の地とも伝わり、共にうなぎ料理"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gosai-zuke",
+   "name_ja": "ごさい漬け",
+   "name_romaji": "Gosai-zuke",
+   "name_en": "Gosai-zuke — salted, fermented sardines or saury layered with daikon",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "鉾田市",
+   "lat": 36.1652,
+   "lng": 140.5453,
+   "summary_ja": "塩漬けにして発酵させたイワシと大根を、柚子と唐辛子とともに漬け込む鹿行地域の冬の保存食。近年はイワシの水揚げが減り、代わりにサンマでつくられることが多くなっている。",
+   "summary_en": "Salted, fermented sardines are layered with daikon, yuzu, and chili for a winter preserve from the Rokko coast. As sardine catches have thinned, saury increasingly takes their place.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gosaizuke_ibaraki.html",
+     "title": "ごさい漬け 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gosai-zuke",
+     "to_slug": "iwashi-no-unohana-zuke",
+     "relation_type": "対比",
+     "basis": "共に茨城北部・鹿行の魚を漬け込む保存食"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "koi-no-karaage",
+   "name_ja": "鯉の唐揚げ",
+   "name_romaji": "Koi no Karaage",
+   "name_en": "Koi no Karaage — deep-fried farmed carp from Lake Kasumigaura",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "茨城県",
+   "origin_city": "行方市",
+   "lat": 35.9924,
+   "lng": 140.488,
+   "summary_ja": "霞ヶ浦周辺で盛んな養殖ゴイを片栗粉で揚げた料理。骨まで食べられるため子どもにも人気で学校給食の定番。にぎわう養殖業を背景に、鯉こくや甘露煮と並ぶコイ料理の一つとして親しまれる。",
+   "summary_en": "Farmed carp from around Lake Kasumigaura is dusted with potato starch and deep-fried until the bones soften enough to eat — a school-lunch favorite that sits alongside carp soup and simmered carp as a product of the area's long carp-farming trade.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/koinokaraage_ibaraki.html",
+     "title": "鯉の唐揚げ 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "koi-no-karaage",
+     "to_slug": "karaage",
+     "relation_type": "対比",
+     "basis": "一般的な鶏の唐揚げに対し、霞ヶ浦の養殖鯉を使う点が異なる"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kaiso-yose",
+   "name_ja": "海藻よせ",
+   "name_romaji": "Kaiso Yose",
+   "name_en": "Kaiso Yose — seaweed jelly from the Kashima coast",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "鹿嶋市",
+   "lat": 35.9639,
+   "lng": 140.6461,
+   "summary_ja": "鹿島灘でとれる海藻・コトジツノマタを煮溶かし、型に流して冷やし固めた寒天状の料理。銚子の商人が正月前に売り歩いたことから、鹿行地域ではおせちの箸休めとして受け継がれている。",
+   "summary_en": "Kotoji tsunomata seaweed from the Kashima coast is simmered until it thickens, then poured into a mold and chilled into a jelly-like dish — sold by Choshi merchants before New Year's, it lingers on Rokko-area tables as a palate cleanser.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kaisoyose_ibaraki.html",
+     "title": "海藻よせ 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kaiso-yose",
+     "to_slug": "gosai-zuke",
+     "relation_type": "対比",
+     "basis": "共に鹿行地域の正月料理・箸休め"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aka-mochi",
+   "name_ja": "赤餅",
+   "name_romaji": "Aka Mochi",
+   "name_en": "Aka Mochi — reddish sorghum-flour dumplings coated in sweet bean paste",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "常陸太田市",
+   "lat": 36.5372,
+   "lng": 140.5288,
+   "summary_ja": "赤みを帯びたもろこし粉を湯で練り、だんご状にゆでてあんこやきなこをまぶす餅。稲や小麦が育ちにくい水害の多い地域で、もろこしだけが被害を免れたことから主食代わりに食べられてきた。",
+   "summary_en": "Reddish sorghum flour is kneaded with hot water, boiled into dumplings, and coated with sweet bean paste or soybean flour. In flood-prone areas where rice and wheat often failed, sorghum alone survived, making this a stand-in staple.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/akamochi_ibaraki.html",
+     "title": "赤餅 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "aka-mochi",
+     "to_slug": "taganemochi",
+     "relation_type": "対比",
+     "basis": "共に茨城の郷土餅、原料が米ともろこしで対照的"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mitsumenobotamochi",
+   "name_ja": "みつめのぼたもち",
+   "name_romaji": "Mitsume no Botamochi",
+   "name_en": "Mitsume no Botamochi — an oversized rice cake made to mark a firstborn's birth",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "",
+   "lat": 36.3418,
+   "lng": 140.4468,
+   "summary_ja": "第一子が生まれて3日後に、出産の疲労回復と母乳の出を願ってつくる大きなぼたもち。重箱に詰めて近所や親戚に配り、赤ちゃんの誕生を知らせる役目も担う。第一子のときだけの習わし。",
+   "summary_en": "Three days after a first child is born, an oversized botamochi rice cake is made to help the mother recover and encourage her milk — packed into lacquer boxes and shared with neighbors as a way of announcing the birth, done only for the firstborn.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mitsumenobotamochi_ibaraki.html",
+     "title": "みつめのぼたもち 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mitsumenobotamochi",
+     "to_slug": "tochigi-botamochi",
+     "relation_type": "対比",
+     "basis": "共にぼたもちだが、行事の位置づけが異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "soboro-natto",
+   "name_ja": "そぼろ納豆／しょぼろ納豆",
+   "name_romaji": "Soboro Natto",
+   "name_en": "Soboro Natto — Mito's small-grain natto mixed with dried daikon strips",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "水戸市",
+   "lat": 36.3418,
+   "lng": 140.4468,
+   "summary_ja": "水戸で盛んな小粒納豆に、天日と寒風で干した割り干し大根を刻んで混ぜ、醤油やみりんで漬け込んだ保存食。糸引きの弱い納豆を活かす工夫から生まれたといい、方言で「しょぼろ納豆」とも呼ばれる。",
+   "summary_en": "Mito's small-grain natto is mixed with sun- and wind-dried daikon strips and steeped in soy sauce and mirin — said to have started as a way to use natto that had not fermented quite right, and known locally as shoboro-natto.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/soboronatto_ibaraki.html",
+     "title": "そぼろ納豆／しょぼろ納豆 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "soboro-natto",
+     "to_slug": "komodofu",
+     "relation_type": "対比",
+     "basis": "共に水戸・県央の大豆加工の保存食"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yuzudaikon",
+   "name_ja": "柚子大根",
+   "name_romaji": "Yuzu Daikon",
+   "name_en": "Yuzu Daikon — dried daikon rolled around yuzu peel and pickled sweet",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "",
+   "lat": 36.5994,
+   "lng": 140.6516,
+   "summary_ja": "天日干しした大根で柚子の皮を巻き、昆布で結んで甘酢に漬ける冬の一品。北部で柚子がよくとれることから根づいた料理とされ、正月のおせちの箸休めとしていまも親しまれている。",
+   "summary_en": "Sun-dried daikon slices wrap strips of yuzu peel, tied with kelp and steeped in sweet vinegar — a winter dish rooted in the north's yuzu harvest, eaten as a palate cleanser in New Year's spreads.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yuzudaikon_ibaraki.html",
+     "title": "柚子大根 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yuzudaikon",
+     "to_slug": "yuzu-maki",
+     "relation_type": "対比",
+     "basis": "共に大根と柚子の漬物だが、巻き方が異なる"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "pinattsu-miso",
+   "name_ja": "ピーナッツ味噌/落花生味噌",
+   "name_romaji": "Pinattsu Miso",
+   "name_en": "Pinattsu Miso — ground peanuts kneaded with miso and sugar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "",
+   "lat": 36.3418,
+   "lng": 140.4468,
+   "summary_ja": "国内有数の落花生産地・茨城県で、規格外の豆を無駄にしないよう考案された味噌和え。すり潰した落花生を味噌や砂糖と練り合わせ、ごはんのお供や酒の肴として常備菜にされる。",
+   "summary_en": "In Ibaraki, one of Japan's top peanut-growing areas, this miso spread was devised to use peanuts too irregular for market — ground peanuts kneaded with miso and sugar, kept on hand as a rice topping or drinking snack.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/pinattsumiso_ibaraki.html",
+     "title": "ピーナッツ味噌/落花生味噌 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "pinattsu-miso",
+     "to_slug": "soboro-natto",
+     "relation_type": "対比",
+     "basis": "共に県内食材を練り込む常備菜"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "imogara-no-itameni",
+   "name_ja": "いもがらの炒め煮/いもがらの五目煮",
+   "name_romaji": "Imogara no Itameni",
+   "name_en": "Imogara no Itameni — dried taro stems simmered with root vegetables",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "",
+   "lat": 36.3418,
+   "lng": 140.4468,
+   "summary_ja": "里芋の茎を乾燥させた「いもがら」を水で戻し、れんこんや油揚げ、こんにゃくとともにじっくり煮た常備菜。豊富にとれる野菜を長く食べるための保存食の一つとして、正月にも食卓に並ぶ。",
+   "summary_en": "Dried taro stems, imogara, are rehydrated and simmered slowly with lotus root, fried tofu, and konjac — one of several preserves born of a vegetable-rich region, and a dish that still appears at New Year's tables.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/imogaranoitameniimogaranogomokuni_ibaraki.html",
+     "title": "いもがらの炒め煮/いもがらの五目煮 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "imogara-no-itameni",
+     "to_slug": "shimikonnyaku",
+     "relation_type": "使用食材",
+     "basis": "こんにゃくを共有する茨城の乾物保存食"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "renkon-no-kinpira",
+   "name_ja": "れんこんのきんぴら",
+   "name_romaji": "Renkon no Kinpira",
+   "name_en": "Renkon no Kinpira — lotus root, burdock, and carrot stir-fried sweet and salty",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "",
+   "lat": 36.0757,
+   "lng": 140.1994,
+   "summary_ja": "国内生産量日本一を誇る霞ヶ浦周辺のれんこんを、ごぼうや人参とともに太めに切って甘辛く炒めたきんぴら。ふたをせずさっと仕上げることで、シャキシャキとした食感を残すのが特徴。",
+   "summary_en": "Lotus root from around Lake Kasumigaura, the country's top producer, is cut thick with burdock and carrot and stir-fried sweet and salty — left uncovered on the heat to keep its crunch.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/renkonnokinpira_ibaraki.html",
+     "title": "れんこんのきんぴら 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "renkon-no-kinpira",
+     "to_slug": "renkon-hasami-age",
+     "relation_type": "使用食材",
+     "basis": "霞ヶ浦特産のれんこんを共有"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tezukuri-sashi-konnyaku",
+   "name_ja": "手作りさしみこんにゃく",
+   "name_romaji": "Tezukuri Sashi Konnyaku",
+   "name_en": "Tezukuri Sashi Konnyaku — raw konjac sliced thin and eaten as sashimi",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "大子町",
+   "lat": 36.7716,
+   "lng": 140.3502,
+   "summary_ja": "こんにゃく発祥の地とされる奥久慈地方で、精粉からつくるためアクが少なく、生のまま刺身で食べられるこんにゃく。わさびや柚子を添え、正月やもてなしの席で振る舞われてきた。",
+   "summary_en": "In the Okukuji area, said to be where konjac processing began, refined-flour konjac has little bitterness and can be eaten raw as sashimi, garnished with wasabi or yuzu and served at New Year's and to guests.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tezukurisashimikonnyaku_ibaraki.html",
+     "title": "手作りさしみこんにゃく 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tezukuri-sashi-konnyaku",
+     "to_slug": "shimikonnyaku",
+     "relation_type": "兄弟",
+     "basis": "共に奥久慈地方に伝わるこんにゃく食文化"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shimikonnyaku",
+   "name_ja": "凍みこんにゃく",
+   "name_romaji": "Shimi Konnyaku",
+   "name_en": "Shimi Konnyaku — konjac freeze-dried outdoors over winter",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "常陸大宮市",
+   "lat": 36.5794,
+   "lng": 140.4106,
+   "summary_ja": "厳冬期の畑にわらを敷き、こんにゃくを凍らせては昼の日差しで解かすことを20日ほど繰り返してつくる保存食。水分が抜けてスポンジ状になり、独特の食感で煮しめによく使われる。",
+   "summary_en": "Konjac is laid on straw in midwinter fields and repeatedly frozen overnight and thawed by day for about 20 days, losing its moisture into a sponge-like texture prized in simmered dishes.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shimikonnyaku_ibaraki.html",
+     "title": "凍みこんにゃく 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shimikonnyaku",
+     "to_slug": "tezukuri-sashi-konnyaku",
+     "relation_type": "兄弟",
+     "basis": "共に奥久慈地方に伝わるこんにゃく食文化"
+    }
+   ],
+   "tags": [
+    "freeze_dried"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ankou-no-tomozu",
+   "name_ja": "あんこうの共酢",
+   "name_romaji": "Ankou no Tomozu",
+   "name_en": "Ankou no Tomozu — boiled monkfish dipped in vinegared miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "北茨城市",
+   "lat": 36.8058,
+   "lng": 140.7501,
+   "summary_ja": "ゆでたアンコウの身やヒレ、肝など複数の部位を、肝を練り込んだ酢味噌につけて食べる北部地域の冬の料理。西のフグ東のアンコウと並び称される茨城の冬の味覚として親しまれる。",
+   "summary_en": "Boiled monkfish — flesh, fin, liver, and more — is dipped in a vinegared miso worked through with its own liver, a winter dish from the north coast often paired with fugu as one of Japan's twin winter delicacies.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ankounotomozu_ibaraki.html",
+     "title": "あんこうの共酢 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ankou-no-tomozu",
+     "to_slug": "iwashi-no-unohana-zuke",
+     "relation_type": "対比",
+     "basis": "共に茨城北部の魚料理"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "paita-yaki",
+   "name_ja": "パイタ焼き",
+   "name_romaji": "Paita Yaki",
+   "name_en": "Paita Yaki — minced sardine or saury pan-fried with miso and egg",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "茨城県",
+   "origin_city": "ひたちなか市",
+   "lat": 36.3959,
+   "lng": 140.5457,
+   "summary_ja": "叩いたイワシやサンマにねぎ、しょうが、味噌、卵を混ぜて焼いた漁師料理。舟を漕ぐ櫂の平らな部分で魚を叩いたことから「パイタ」と呼ばれるようになったと伝わる、那珂湊の家庭の味。",
+   "summary_en": "Minced sardine or saury is mixed with scallion, ginger, miso, and egg and pan-fried — a fisherman's dish said to be named for paita, the flat oar once used to pound the fish, now a Nakaminato home-cooking staple.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/paitayaki_ibaraki.html",
+     "title": "パイタ焼き 茨城県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "paita-yaki",
+     "to_slug": "hitachinaka-stamina",
+     "relation_type": "対比",
+     "basis": "共にひたちなか市の名物、系統は対照的"
+    }
+   ],
+   "tags": [
+    "miso",
+    "egg"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: なし（茨城県30行はすべて採用。既存項目との重複は無かった）。koinokaraage_ibaraki(鯉の唐揚げ)はexisting_slug=karaage/match_confidence=lowだったが、既存karaageは一般的な鶏の唐揚げで、霞ヶ浦の養殖鯉を使う本品とは別物と判断し作成（対比関係で明示）。genre_hint=tsukemonoのwakasagitorenkonnosuzuke_ibaraki/iwashinounohanazuke_ibaraki/gosaizuke_ibarakiは、いずれも魚介の酢漬け・発酵漬けであり松前漬け型の「漬物ジャンルでない保存食」の例外規定に該当するため作成（shelf=fermented, genre=null）。shikimbai_ibaraki/yuzudaikon_ibarakiはmaff_category=漬物だがgenre_hintは空欄のため通常どおり作成。棚を変えた行: koinokaraage_ibarakiのみ genre=fried を付与（台帳のgenre_hint=friedを反映、shelfはfried据え置き）。gomokuinarizushi_ibarakiはgenre=sushiを付与（名前に「ずし」を含むため）。他は台帳のshelfをそのまま採用。座標の根拠: 単一市町村が伝承地域または本文で明示される行(niai/shikinbai/hoshiimo/sudarebunogomazuae/gomokuinarizushi/hamagurigohan/iwashinounohanazuke/unaginohobikini/gosaizuke/koinokaraage/kaisoyose/akamochi/soboronatto/tezukurisashimikonnyaku/shimikonnyaku/ankounotomozu/paitayaki)はその市役所付近の座標を使用。伝承地域が「県内全域」「西部地域」「県央地域」「北部地域」「南部地域」等の広域表記の行は、県庁所在地(水戸市)か、本文が霞ヶ浦周辺を強調する場合は土浦市の座標で代用し、notesに準じ広域と明記。要判断事項: いなり寿司ジャンル該当はgomokuinarizushiのみ(既存inari-zushiとは別名・別内容のため重複なし、対比関係で紐付け)。"
+}

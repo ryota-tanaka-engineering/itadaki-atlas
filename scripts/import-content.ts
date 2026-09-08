@@ -113,7 +113,9 @@ const prefField = z
 // 「空欄=値なし」の慣習（DISH_RULES.md: 発祥地が特定できないものは空欄=図鑑枠）を束JSONは
 // キー省略ではなく空文字列で表す実例がある（研究部隊のPython生成物はキーを常に持つため）。
 // 任意項目は "" もキー省略も等しく「値なし」として扱う。数値項目も "" は未入力扱いにする。
-const emptyToUndefined = (v: unknown) => (typeof v === "string" && v.trim() === "" ? undefined : v);
+// 空文字と null はどちらも「値なし」（部隊の生成物は両方の書き方をする）
+const emptyToUndefined = (v: unknown) =>
+  v === null || (typeof v === "string" && v.trim() === "") ? undefined : v;
 const optionalTrimmed = () => z.preprocess(emptyToUndefined, z.string().trim().min(1).optional());
 const optionalRaw = () => z.preprocess(emptyToUndefined, z.string().min(1).optional());
 const optionalDate = () => z.preprocess(emptyToUndefined, z.string().trim().regex(DATE_RE, "YYYY-MM-DD 形式").optional());

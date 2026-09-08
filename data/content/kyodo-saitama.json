@@ -1,0 +1,951 @@
+{
+ "items": [
+  {
+   "slug": "saitama-udon",
+   "name_ja": "埼玉のうどん",
+   "name_romaji": "Saitama no Udon",
+   "name_en": "Saitama no Udon — a family of local wheat noodle styles across the prefecture",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_pref": "埼玉県",
+   "origin_city": "",
+   "lat": 35.8617,
+   "lng": 139.6455,
+   "summary_ja": "小麦生産量全国有数の埼玉で育った、うどんの総称。北東部はコシの強い手打ち麺、西部は濃いつけ汁、川沿いは幅広麺と地域色が豊かで、20種類以上のご当地うどんがある。",
+   "summary_en": "An umbrella term for the wheat noodle traditions of Saitama, a leading wheat-growing prefecture. Firm hand-cut noodles in the northeast, strong dipping broth in the west, wide noodles along the rivers — more than twenty local styles exist.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_1_saitama.html",
+     "title": "埼玉のうどん｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "saitama-udon",
+     "to_slug": "kazo",
+     "relation_type": "兄弟",
+     "basis": "埼玉のうどん文化を代表するご当地うどん"
+    },
+    {
+     "from_slug": "saitama-udon",
+     "to_slug": "nibouto",
+     "relation_type": "兄弟",
+     "basis": "埼玉のうどん文化から生まれた煮込みうどん"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "saitama-gojiru",
+   "name_ja": "呉汁",
+   "name_romaji": "Gojiru",
+   "name_en": "Gojiru (Saitama) — miso soup thickened with ground soybeans and vegetables",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "",
+   "lat": 35.8617,
+   "lng": 139.6455,
+   "summary_ja": "田んぼのあぜで育てた「たのくろ豆」をすりつぶし、里芋や大根と一緒に味噌汁で煮込んだ埼玉の日常食。秋の収穫期に作られ、冬に不足しがちなタンパク源として重宝された。",
+   "summary_en": "Soybeans grown on paddy-field edges, called tanokuro mame, ground and simmered in miso soup with taro and daikon. Made at autumn harvest, it was valued as a winter protein source.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_2_saitama.html",
+     "title": "呉汁｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "saitama-gojiru",
+     "to_slug": "gunma-gojiru",
+     "relation_type": "対比",
+     "basis": "同じ呉汁の系統だが群馬版とは大豆の育て方が異なる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hiyajiru",
+   "name_ja": "冷や汁",
+   "name_romaji": "Hiyajiru",
+   "name_en": "Hiyajiru — cold sesame-miso soup poured over noodles or rice in summer",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "川島町",
+   "lat": 35.9767,
+   "lng": 139.423,
+   "summary_ja": "すり鉢でごまと味噌をすり、きゅうりや大葉などの夏野菜と冷水を合わせたつけ汁。うどん文化が根づく埼玉ではうどんのつけ汁として重宝され、川島町では「すったて」と呼ぶ。",
+   "summary_en": "Sesame and miso ground in a mortar, mixed with summer vegetables like cucumber and shiso, then chilled with cold water. It serves as a dipping broth for udon in noodle-loving Saitama, and Kawajima town calls it suttate.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_3_saitama.html",
+     "title": "冷や汁｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hiyajiru",
+     "to_slug": "saitama-udon",
+     "relation_type": "兄弟",
+     "basis": "埼玉のうどん文化から生まれたつけ汁"
+    }
+   ],
+   "tags": [
+    "miso",
+    "cold_served"
+   ],
+   "item_note": "別名「すったて」はsummaryに記載。伝承地域は川島町・入間地域・県北の3か所。「すったて」の名がついた川島町を座標に採用し、他2地域はregionsに名産地として記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iga-manju",
+   "name_ja": "いがまんじゅう",
+   "name_romaji": "Iga Manju",
+   "name_en": "Iga Manju — sweet bean buns wrapped in red rice, named for their chestnut-burr look",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "鴻巣市",
+   "lat": 36.0653,
+   "lng": 139.5175,
+   "summary_ja": "あんこ入りの田舎まんじゅうを赤飯でくるんで蒸した、鴻巣市発祥とされるハレの日の菓子。栗のイガのような見た目が名の由来で、甘じょっぱさともちもちした食感が持ち味。",
+   "summary_en": "A sweet bean bun wrapped in red rice and steamed, said to originate in Konosu. Named for its resemblance to a spiky chestnut burr, it balances a sweet-salty flavor with a chewy bite.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_4_saitama.html",
+     "title": "いがまんじゅう｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "iga-manju",
+     "to_slug": "shio-anbin",
+     "relation_type": "兄弟",
+     "basis": "同じ埼玉北東部のハレの日の餅菓子"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "item_note": "伝承地域4市のうち発祥地とされる鴻巣市を座標に採用し、他3市はregionsに名産地として記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shio-anbin",
+   "name_ja": "塩あんびん",
+   "name_romaji": "Shio Anbin",
+   "name_en": "Shio Anbin — mochi filled with salt-seasoned red bean paste",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "久喜市",
+   "lat": 36.0592,
+   "lng": 139.6656,
+   "summary_ja": "砂糖ではなく塩で味付けした餡を餅で包んだ、埼玉北東部の新米収穫祝いの菓子。江戸時代中期、砂糖が貴重だった頃の知恵が起源とされ、子どもの成長祝いにも用いられてきた。",
+   "summary_en": "Mochi filled with red bean paste seasoned with salt instead of sugar, a new-rice harvest treat from northeastern Saitama. It dates to the mid-Edo period when sugar was scarce, and also marks children's growth celebrations.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_5_saitama.html",
+     "title": "塩あんびん｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shio-anbin",
+     "to_slug": "iga-manju",
+     "relation_type": "兄弟",
+     "basis": "同じ埼玉北東部のハレの日の餅菓子"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "item_note": "伝承地域3市のうち代表として久喜市を座標に採用し、他2市はregionsに名産地として記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "saitama-katemeshi",
+   "name_ja": "かてめし",
+   "name_romaji": "Katemeshi",
+   "name_en": "Katemeshi (Saitama) — rice stretched with dried vegetables and shiitake",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "",
+   "lat": 35.9925,
+   "lng": 139.0839,
+   "summary_ja": "米の生産が少なかった秩父地方を中心に広まった、干しずいきや野菜でかさを増したご飯。年貢や換金のため米を惜しんだ小作農の知恵から生まれ、山の神や桃の節句に食べる。",
+   "summary_en": "Rice bulked out with dried taro stems and vegetables, centered on Chichibu where rice was scarce. It grew from the thrift of tenant farmers who had to sell most of their rice, and is eaten at mountain-god and Doll Festival rites.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_6_saitama.html",
+     "title": "かてめし｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "saitama-katemeshi",
+     "to_slug": "gunma-katemeshi",
+     "relation_type": "対比",
+     "basis": "同じ「かてめし」の系譜だが群馬と埼玉で漢字表記・具材が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "soy_sauce"
+   ],
+   "item_note": "台帳のmaff_category/shelfは「麺料理／noodles」だが本文は完全に米料理（ご飯に具を混ぜる）であり誤り。shelf=riceに訂正。伝承地域4か所のうち中心の秩父地方（秩父市）を座標に採用し、他3地域はregionsに名産地として記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "zerii-furai",
+   "name_ja": "ゼリーフライ",
+   "name_romaji": "Zerii Furai",
+   "name_en": "Zerii Furai — a deep-fried patty of okara and potato, coin-shaped and sauced",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "埼玉県",
+   "origin_city": "行田市",
+   "lat": 36.1408,
+   "lng": 139.4589,
+   "summary_ja": "おからとじゃがいもを主体に、にんじんやねぎを混ぜて小判形に整え、衣なしで揚げてソースにくぐらせた行田市のおやつ。小判に似た形から「銭フライ」がなまって名付けられた。",
+   "summary_en": "A coin-shaped patty of okara and potato mixed with carrot and leek, deep-fried without batter and dipped in sauce, a Gyoda snack. Its name is said to be a slurring of zeni furai, meaning coin fry.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_8_saitama.html",
+     "title": "ゼリーフライ｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "zerii-furai",
+     "to_slug": "gyoda-furai",
+     "relation_type": "兄弟",
+     "basis": "どちらも行田市の粉物おやつ"
+    }
+   ],
+   "tags": [
+    "handheld",
+    "street_food",
+    "chinese_derived"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "saitama-neginuta",
+   "name_ja": "ねぎぬた",
+   "name_romaji": "Neginuta",
+   "name_en": "Neginuta (Saitama) — steamed leek dressed in sweet vinegar-miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "深谷市",
+   "lat": 36.1974,
+   "lng": 139.2823,
+   "summary_ja": "生産量全国2位を誇る埼玉のねぎ、なかでも甘みの強い深谷ねぎを蒸してすりごま入りの酢味噌で和えた祝いの料理。宴席では「もうすぐお開き」の合図として出されることも。",
+   "summary_en": "Leek from Saitama, the country's second-largest producer, especially the sweet Fukaya variety, steamed and dressed in sesame vinegar-miso for celebrations. At banquets its appearance can signal the meal is winding down.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_9_saitama.html",
+     "title": "ねぎぬた｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "saitama-neginuta",
+     "to_slug": "gunma-neginuta",
+     "relation_type": "対比",
+     "basis": "同じ酢味噌和えのねぎ料理だが群馬版は下仁田ねぎを使う"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial",
+    "meal_ender"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "neji",
+   "name_ja": "ねじ",
+   "name_romaji": "Neji",
+   "name_en": "Neji — twisted short noodles tossed in sweet red bean paste",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "小鹿野町",
+   "lat": 36.0186,
+   "lng": 138.9319,
+   "summary_ja": "秩父郡小鹿野町が発祥とされる、螺旋状にねじった短いうどんを小豆あんと和えた菓子。ゆるいあんを使う場合は「小豆ぼうとう」と呼ぶ。餅が手に入らない頃の代替食との説もある。",
+   "summary_en": "Short noodles twisted into a spiral and tossed with sweet red bean paste, said to originate in Ogano. A looser, soup-like version is called azuki boto; one theory holds it began as a substitute for mochi.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_10_saitama.html",
+     "title": "ねじ｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "neji",
+     "to_slug": "tsumikko",
+     "relation_type": "兄弟",
+     "basis": "どちらも秩父地域の小麦粉料理"
+    }
+   ],
+   "tags": [],
+   "item_note": "別名「小豆ぼうとう」はsummaryに記載。伝承地域は秩父地域・比企郡の2か所。ルーツとされる小鹿野町（秩父地域）を座標に採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "miso-poteto",
+   "name_ja": "みそポテト",
+   "name_romaji": "Miso Poteto",
+   "name_en": "Miso Poteto — deep-fried battered potato glazed with sweet miso sauce",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "秩父市",
+   "lat": 35.9925,
+   "lng": 139.0839,
+   "summary_ja": "ゆでたじゃがいもに衣をつけて揚げ、甘辛い味噌だれを絡めた秩父地方の一品。いろりで焼いたじゃがいもに味噌を塗った素朴な始まりが、2009年のB級グルメ大会優勝で全国区に。",
+   "summary_en": "Boiled potato coated in batter, deep-fried and glazed with a sweet-savory miso sauce, from the Chichibu area. It began simply as hearth-roasted potato brushed with miso, then went national after winning a 2009 local-food contest.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_11_saitama.html",
+     "title": "みそポテト｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "miso-poteto",
+     "to_slug": "tarashi-yaki",
+     "relation_type": "兄弟",
+     "basis": "どちらも埼玉の粉物・揚げ物系ご当地グルメ"
+    }
+   ],
+   "tags": [
+    "miso",
+    "street_food"
+   ],
+   "item_note": "台帳shelf=homestyle→friedに訂正（衣をつけて油で揚げる調理法のため）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kanrobai",
+   "name_ja": "甘露梅",
+   "name_romaji": "Kanrobai",
+   "name_en": "Kanrobai — green plums preserved in sugar and wrapped in salted shiso leaves",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "越生町",
+   "lat": 35.9591,
+   "lng": 139.2989,
+   "summary_ja": "梅の里として知られる越生町に伝わる梅の菓子。あく抜きした青梅を砂糖漬けにし、梅酢に漬けた赤じそで包んで冷蔵庫でひと月ほど寝かせる、手間のかかる一品。南北朝時代からの梅栽培の歴史を持つ。",
+   "summary_en": "A plum sweet from Ogose, a town long known for plum growing since the Nanboku-cho era. Green plums are de-bittered, sugared, wrapped in shiso leaves soaked in plum vinegar, and left to mature in the fridge for about a month.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_12_saitama.html",
+     "title": "甘露梅｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kanrobai",
+     "to_slug": "kuri-no-shibukawani",
+     "relation_type": "兄弟",
+     "basis": "どちらも埼玉の手間をかけた果実の保存菓子"
+    }
+   ],
+   "tags": [],
+   "item_note": "台帳shelf=homestyle→sweetsに訂正（砂糖漬けの保存菓子のため）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kuri-no-shibukawani",
+   "name_ja": "栗の渋皮煮",
+   "name_romaji": "Kuri no Shibukawani",
+   "name_en": "Kuri no Shibukawani — chestnuts slow-simmered in sugar with their inner skin on",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "日高市",
+   "lat": 35.9058,
+   "lng": 139.3419,
+   "summary_ja": "栗の産地・日高市に伝わる贅沢菓子。鬼皮だけをむき、渋皮を傷つけないよう何度もゆでこぼしてから砂糖でじっくり煮る。かつては貴重な砂糖を使うため祭りやお祝いの日限定だった。",
+   "summary_en": "A luxury sweet from chestnut-growing Hidaka. Only the outer shell is peeled, the inner skin left intact through repeated boilings, then slow-simmered in sugar. Sugar's cost once confined it to festivals and celebrations.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_13_saitama.html",
+     "title": "栗の渋皮煮｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kuri-no-shibukawani",
+     "to_slug": "kanrobai",
+     "relation_type": "兄弟",
+     "basis": "どちらも埼玉の手間をかけた果実の保存菓子"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsumikko",
+   "name_ja": "つみっこ",
+   "name_romaji": "Tsumikko",
+   "name_en": "Tsumikko — hand-torn wheat dough simmered in a vegetable soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "本庄市",
+   "lat": 36.2384,
+   "lng": 139.1911,
+   "summary_ja": "小麦粉の生地をちぎって鍋に入れる、埼玉版のすいとん。「つみとる」という本庄地方の方言が名の由来とされ、養蚕や機織りの合間、忙しい農家の日常食として重宝されてきた。",
+   "summary_en": "Saitama's take on suiton, made by tearing off pieces of wheat dough into a simmering pot. The name comes from a Honjo-area dialect word for tearing off, and it fed busy farmers between silk-raising and weaving work.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_14_saitama.html",
+     "title": "つみっこ｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tsumikko",
+     "to_slug": "neji",
+     "relation_type": "兄弟",
+     "basis": "どちらも秩父地域の小麦粉料理"
+    },
+    {
+     "from_slug": "tsumikko",
+     "to_slug": "gunma-suiton",
+     "relation_type": "対比",
+     "basis": "同じすいとん系の汁物だが群馬版とは方言・具材が異なる"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "item_note": "伝承地域は本庄市・秩父地域の2か所。名称の由来地である本庄市を座標に採用し、秩父地域はregionsに名産地として記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "saitama-konnyaku-miso-oden",
+   "name_ja": "こんにゃくのみそおでん",
+   "name_romaji": "Konnyaku no Miso Oden",
+   "name_en": "Konnyaku no Miso Oden (Saitama) — skewered hand-made konjac glazed with sweet miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "寄居町",
+   "lat": 36.1088,
+   "lng": 139.1974,
+   "summary_ja": "こんにゃく芋の産地・寄居町風布地区や秩父地域で、生芋から手作りしたこんにゃくを串に刺して味噌だれで食べる冬の一品。市販の粉こんにゃくとは異なる独特の風味と食感が持ち味。",
+   "summary_en": "Konjac made by hand from raw tubers in Yorii's Fu-nuno district and Chichibu, skewered and eaten hot with a miso glaze through winter. Home-made from raw tubers, it has a distinct texture unlike the store-bought powder version.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_15_saitama.html",
+     "title": "こんにゃくのみそおでん｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "saitama-konnyaku-miso-oden",
+     "to_slug": "gunma-konnyaku-miso-oden",
+     "relation_type": "対比",
+     "basis": "同じ味噌おでんの系統だが埼玉版は手作りこんにゃくを使う"
+    }
+   ],
+   "tags": [
+    "miso",
+    "skewered"
+   ],
+   "item_note": "全国的な「おでん」(既存slug oden)とは別の、味噌田楽に近い埼玉固有の料理として作成。伝承地域は寄居町風布地区・秩父地域の2か所。地区名まで特定できる寄居町を座標に採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ude-manju",
+   "name_ja": "うでまんじゅう",
+   "name_romaji": "Ude Manju",
+   "name_en": "Ude Manju — wheat dumplings boiled rather than steamed, plain or bean-filled",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "所沢市",
+   "lat": 35.7985,
+   "lng": 139.4688,
+   "summary_ja": "蒸すのではなく茹でて作るまんじゅうで、「ゆでまんじゅう」がなまって名付けられた。所沢市など小麦畑作地帯で新小麦の香りを楽しみ、お盆やお彼岸の供物として作られてきた。",
+   "summary_en": "A bun boiled rather than steamed, its name a slurring of yude manju, boiled bun. Wheat-farming areas like Tokorozawa savored the aroma of new-harvest wheat, making it as an offering for Obon and the equinox.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_18_saitama.html",
+     "title": "うでまんじゅう｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ude-manju",
+     "to_slug": "komugi-manju",
+     "relation_type": "兄弟",
+     "basis": "どちらも埼玉の小麦粉まんじゅう"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "item_note": "伝承地域は「県内全域」だが本文で所沢市が具体例として名指しされているため座標に採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "saitama-sumitsukare",
+   "name_ja": "すみつかれ",
+   "name_romaji": "Sumitsukare",
+   "name_en": "Sumitsukare (Saitama) — grated daikon simmered with dried soybeans and vegetables",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "",
+   "lat": 36.1382,
+   "lng": 139.5988,
+   "summary_ja": "鬼おろしで粗くすった大根に、節分で余った乾燥大豆や油揚げを加えて煮込む北埼玉地域の行事食。初午の日にきんぴらとともに稲荷様へ供え、隣接する栃木や茨城にも似た料理がある。",
+   "summary_en": "Coarsely grated daikon simmered with leftover Setsubun soybeans and fried tofu, a ritual dish from northern Saitama. Offered to the fox shrine alongside kinpira on the first Horse Day, with kindred versions in neighboring Tochigi and Ibaraki.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_19_saitama.html",
+     "title": "すみつかれ｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "saitama-sumitsukare",
+     "to_slug": "gunma-sumitsukare",
+     "relation_type": "対比",
+     "basis": "同じ初午の行事食だが群馬版は鮭の頭を使う"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "item_note": "伝承地域は「北埼玉地域、幸手市など」で単一市町村に絞れないため広域扱い。中心地とみられる加須市の座標を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iimochi",
+   "name_ja": "飯餅",
+   "name_romaji": "Iimochi",
+   "name_en": "Iimochi — leftover rice mixed with wheat dough and pan-grilled into cakes",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "",
+   "lat": 35.9925,
+   "lng": 139.0839,
+   "summary_ja": "残りご飯に小麦粉を混ぜて丸め、平たく焼いた埼玉の軽食。手作業の農作業で忙しかった時代、朝作って田んぼへ弁当代わりに持って行けた手軽さが重宝された。呼び名は地域で異なる。",
+   "summary_en": "Leftover rice kneaded with wheat flour, shaped and pan-grilled flat, a Saitama snack. In an era of hand-worked farming, it could be made in the morning and carried to the fields like a packed lunch. Names for it vary by area.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_21_saitama.html",
+     "title": "飯餅｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "iimochi",
+     "to_slug": "gunma-yakimochi",
+     "relation_type": "対比",
+     "basis": "同じ粉物の焼き軽食だが群馬版は米を使わず小麦粉のみ"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "handheld"
+   ],
+   "item_note": "伝承地域は秩父地域が中心（加須などの東部低地では「焼きびん」、北東部・入間地域では「やきもち」とも）。台帳shelf=rice→grilledに訂正（フライパンで焼く調理法のため）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yatsugashira-no-kuki-no-itameni",
+   "name_ja": "八ツ頭の茎の炒め煮",
+   "name_romaji": "Yatsugashira no Kuki no Itameni",
+   "name_en": "Yatsugashira no Kuki no Itameni — dried taro stem simmered with soy sauce and shiitake",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "",
+   "lat": 35.8617,
+   "lng": 139.6455,
+   "summary_ja": "八ツ頭の茎を干した「芋がら」を水で戻し、しいたけや油揚げ、こんにゃくと炒め煮した一品。食料が乏しい時期のおかずや酒の肴として重宝され、女性の健康にもよいとされてきた。",
+   "summary_en": "Dried taro stems, called imogara, rehydrated and stir-simmered with shiitake and fried tofu. It served as a side dish and drinking snack in lean times, and was thought to be good for women's health.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_22_saitama.html",
+     "title": "八ツ頭の茎の炒め煮｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yatsugashira-no-kuki-no-itameni",
+     "to_slug": "kuwai-no-fukumeni",
+     "relation_type": "兄弟",
+     "basis": "どちらも埼玉の根菜を使う伝統料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "item_note": "伝承地域は「県内全域」。本文で主産地として名指しされた深谷市・杉戸町はregionsに名産地として記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsutokko",
+   "name_ja": "つとっこ",
+   "name_romaji": "Tsutokko",
+   "name_en": "Tsutokko — sweet rice parcels steamed in horse chestnut leaves",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "秩父市",
+   "lat": 35.9925,
+   "lng": 139.0839,
+   "summary_ja": "もち米と小豆を栃の葉で包み、わらで縛って蒸した秩父地域の携帯食。かつては武士の陣中食だったとも伝わり、5月の節句には青々とした栃の葉を使った行事食として作られる。",
+   "summary_en": "Sweet rice and red beans wrapped in horse chestnut leaves, tied with straw and steamed, a portable food from Chichibu. Said to trace back to samurai field rations, it is made for the May Boys' Festival with fresh green leaves.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_24_saitama.html",
+     "title": "つとっこ｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tsutokko",
+     "to_slug": "iga-manju",
+     "relation_type": "兄弟",
+     "basis": "どちらも埼玉のハレの日の携帯できる餅・米菓子"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "handheld"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oname",
+   "name_ja": "おなめ",
+   "name_romaji": "Oname",
+   "name_en": "Oname — a fermented barley-and-soybean relish eaten with rice",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "秩父市",
+   "lat": 35.9925,
+   "lng": 139.0839,
+   "summary_ja": "麦こうじと大豆で作る発酵食品で、冷蔵すれば半年ほど日持ちする常備菜。秩父地域を中心に伝わり、塩漬けのなすやしいたけを混ぜ込んで、夏の食欲がない時期にも食が進む。",
+   "summary_en": "A fermented relish of barley malt and soybeans that keeps for months in the fridge, a pantry staple centered on Chichibu. Salted eggplant or shiitake are mixed in, and its saltiness coaxes appetite through the summer heat.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_25_saitama.html",
+     "title": "おなめ｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "oname",
+     "to_slug": "saitama-gojiru",
+     "relation_type": "使用食材",
+     "basis": "どちらも埼玉の大豆を発酵・加工して作る料理"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "item_note": "台帳shelf=homestyle→fermentedに訂正（麦こうじと大豆による発酵食品のため）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "dojo-ni",
+   "name_ja": "どじょう煮",
+   "name_romaji": "Dojo Ni",
+   "name_en": "Dojo Ni — pond loach simmered with burdock in soy sauce and sugar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "",
+   "lat": 35.8617,
+   "lng": 139.6455,
+   "summary_ja": "荒川や利根川の恵みを受ける埼玉東部で、田んぼで捕れたどじょうをささがきごぼうと甘辛く煮付けた一品。栄養豊富で滋養強壮によいとされ、妊婦の栄養源としても重んじられてきた。",
+   "summary_en": "Pond loach caught in the paddies of eastern Saitama, simmered sweet and savory with shaved burdock, from a land fed by the Arakawa and Tone rivers. Rich in nutrients, it was valued as a tonic and a food for pregnant women.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_26_saitama.html",
+     "title": "どじょう煮｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "dojo-ni",
+     "to_slug": "namazu-no-tempura",
+     "relation_type": "対比",
+     "basis": "どちらも北関東の川魚を活かした料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "item_note": "伝承地域は「県東部、利根川、綾瀬川流域」で単一市町村に絞れないため県庁所在地の座標を使用。広域。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kuwai-no-fukumeni",
+   "name_ja": "くわいの含め煮",
+   "name_romaji": "Kuwai no Fukumeni",
+   "name_en": "Kuwai no Fukumeni — arrowhead corms simmered golden with gardenia seed pods",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "さいたま市",
+   "lat": 35.8617,
+   "lng": 139.6455,
+   "summary_ja": "生産量全国2位のくわいを、くちなしの実で鮮やかな黄色に煮含めたおせちの一品。芽が大きく伸びる姿を立身出世になぞらえた縁起物で、綾瀬川流域の低湿地栽培から生まれた。",
+   "summary_en": "Arrowhead corms, of which Saitama is the nation's second-largest producer, simmered golden with gardenia seed pods for New Year's. Its long sprouting shoot is read as a sign of career success, grown in the low wetlands along the Ayase river.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_27_saitama.html",
+     "title": "くわいの含め煮｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kuwai-no-fukumeni",
+     "to_slug": "yatsugashira-no-kuki-no-itameni",
+     "relation_type": "兄弟",
+     "basis": "どちらも埼玉の根菜を使う伝統料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "komugi-manju",
+   "name_ja": "小麦まんじゅう",
+   "name_romaji": "Komugi Manju",
+   "name_en": "Komugi Manju — steamed wheat buns filled with sweet red bean paste",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "埼玉県",
+   "origin_city": "",
+   "lat": 35.8617,
+   "lng": 139.6455,
+   "summary_ja": "小麦粉の生地で小豆あんを包んで蒸した、埼玉の小麦文化を代表するシンプルなまんじゅう。七夕やお盆、十五夜の供物として作られ、三富新田地域ではさつまいもあんの「いもまんじゅう」も伝わる。",
+   "summary_en": "A simple steamed bun of wheat dough wrapped around sweet red bean paste, representing Saitama's wheat culture. Made as an offering for Tanabata, Obon and the harvest moon, with a sweet-potato version known in the Santo Shinden area.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_28_saitama.html",
+     "title": "小麦まんじゅう｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "komugi-manju",
+     "to_slug": "ude-manju",
+     "relation_type": "兄弟",
+     "basis": "どちらも埼玉の小麦粉まんじゅう"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shoten-zushi",
+   "name_ja": "聖天ずし",
+   "name_romaji": "Shoten Zushi",
+   "name_en": "Shoten Zushi — takeout inari and rolled sushi sold at a temple gate",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "埼玉県",
+   "origin_city": "熊谷市",
+   "lat": 36.147,
+   "lng": 139.3888,
+   "summary_ja": "熊谷市妻沼の聖天山歓喜院の門前で売られてきた稲荷ずしと巻きずしの一人前セット。米と貴重な油揚げを使ったハレの日料理で、かつては米を持参して寿司に交換してもらっていた。",
+   "summary_en": "A set of inari and rolled sushi sold before the gate of Shoden-zan Kangi-in temple in Menuma, Kumagaya. Made with rice and once-precious fried tofu for festive occasions, villagers used to trade their own rice for it.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/33_29_saitama.html",
+     "title": "聖天ずし｜うちの郷土料理｜農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shoten-zushi",
+     "to_slug": "iga-manju",
+     "relation_type": "兄弟",
+     "basis": "どちらも埼玉のハレの日のテイクアウト行事食"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "souvenir_non_confection"
+   ],
+   "item_note": "伝承地域は熊谷市妻沼地域。熊谷市の座標を使用し、origin_cityは熊谷市（妻沼地区）とする。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "[埼玉県] 作らなかった行:\n  - 33_7_saitama 煮ぼうとう／ひもかわ: existing_slug=nibouto (high) のため作らず。\n  - 33_23_saitama たらし焼き: 台帳のexisting_slugは空欄だが、all-items-ja.txtにtarashi-yaki|たらし焼き|埼玉県が既存。名称・県とも完全一致のため作らず。\n  - 33_16_saitama やきとり: 台帳のexisting_slugはbibai-yakitori(low、北海道美唄の別物)だが、本文を読むと東松山市の豚カシラ肉やきとりそのものであり、all-items-ja.txtのhigashimatsuyama-yakitori|東松山やきとり|埼玉県と同一の料理と判断。作らず。\n  - 33_20_saitama フライ: 台帳のexisting_slugはaji-fry(low、アジフライで別物)だが、本文は行田市のお好み焼き風「フライ」そのものであり、all-items-ja.txtのgyoda-furai|行田フライ|埼玉県と同一の料理と判断。作らず。\n  - 33_17_saitama ゆず巻き: genre_hintは空欄だがmaff_category=漬物、本文も「大根を天日干しし、ゆずの皮を巻いて甘酢に漬け込む冬の保存食」で実質は漬物ジャンル。既存の漬物ジャンル投入済み方針に準じ、群馬版(32_25)と同一の判断基準で作らず。要判断: genre_hint検出漏れの可能性あり（漬物カテゴリなのにgenre_hint=tsukemonoが付与されていない）。\n棚(shelf)を変えた行:\n  - 33_6_saitama かてめし: 台帳shelf=noodles→riceに変更（台帳のmaff_category「麺料理」自体が誤りで、本文はご飯に具材を混ぜる飯料理のため）。\n  - 33_11_saitama みそポテト: 台帳shelf=homestyle→friedに変更（衣をつけて油で揚げる調理法のため）。\n  - 33_12_saitama 甘露梅: 台帳shelf=homestyle→sweetsに変更（砂糖漬けの保存菓子のため）。\n  - 33_21_saitama 飯餅: 台帳shelf=rice→grilledに変更（フライパンで焼く調理法のため）。\n  - 33_25_saitama おなめ: 台帳shelf=homestyle→fermentedに変更（麦こうじと大豆による発酵食品のため）。"
+}

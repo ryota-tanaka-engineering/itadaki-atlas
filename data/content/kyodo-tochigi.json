@@ -1,0 +1,1026 @@
+{
+ "items": [
+  {
+   "slug": "tochigi-shimotsukare",
+   "name_ja": "しもつかれ／シモツカレ",
+   "name_romaji": "Shimotsukare",
+   "name_en": "Shimotsukare — daikon, soybean, and salted salmon head simmered in sake lees",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "正月に残った塩鮭の頭と節分の炒り大豆を、大根や人参とともに鬼おろしで粗くすりおろし、酒粕でじっくり煮込む冬の料理。初午にお稲荷様へ供え、七軒分を食べると病気をしないと伝わる。",
+   "summary_en": "Leftover salted salmon head and roasted Setsubun soybeans are simmered with coarsely grated daikon and carrot in sake lees. Offered to the fox shrine on the first Horse Day, folklore holds that eating it from seven households wards off illness.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_1_tochigi.html",
+     "title": "しもつかれ／シモツカレ 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tochigi-shimotsukare",
+     "to_slug": "ibaraki-shimotsukare",
+     "relation_type": "兄弟",
+     "basis": "両県にまたがって伝わる同名の郷土料理"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kanpyo-no-tamago-toji",
+   "name_ja": "干瓢の卵とじ",
+   "name_romaji": "Kanpyo no Tamago Toji",
+   "name_en": "Kanpyo no Tamago Toji — dried gourd strips simmered in dashi and bound with egg",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "干瓢の生産で余った、うまく剥けなかった部分を汁物に活かした一皿。かんぴょうをだし汁で煮て、溶き卵でとじる。かんぴょう農家の日常食から生まれ、今も家庭や給食で親しまれる。",
+   "summary_en": "Kanpyo gourd strips too uneven to sell whole are simmered in dashi and bound with beaten egg — a dish born from farm households making the most of imperfect kanpyo, still common in homes and school lunches.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_3_tochigi.html",
+     "title": "干瓢の卵とじ 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kanpyo-no-tamago-toji",
+     "to_slug": "kanpyo-inari-zushi",
+     "relation_type": "使用食材",
+     "basis": "栃木特産のかんぴょうを共有"
+    }
+   ],
+   "tags": [
+    "egg"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "imogushi",
+   "name_ja": "芋ぐし／いも串",
+   "name_romaji": "Imogushi",
+   "name_en": "Imogushi — skewered taro grilled with a miso glaze",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "蒸したり茹でたりしたさといもを串に刺し、焦げ目がつくまで味噌だれをからめて焼く料理。稲作以前から栽培されてきたさといもを使い、正月や稲荷社の祭りなど行事に合わせてつくられてきた。",
+   "summary_en": "Steamed or boiled taro is skewered and grilled with a miso glaze until lightly charred — made from a root vegetable grown since before rice farming, and tied to New Year's and shrine festival gatherings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_4_tochigi.html",
+     "title": "芋ぐし／いも串 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "imogushi",
+     "to_slug": "nishime",
+     "relation_type": "対比",
+     "basis": "共にさといもを使う栃木の料理、串焼きと煮物で対照的"
+    }
+   ],
+   "tags": [
+    "miso",
+    "skewered",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "saganbo-no-nitsuke",
+   "name_ja": "さがんぼの煮付け",
+   "name_romaji": "Saganbo no Nitsuke",
+   "name_en": "Saganbo no Nitsuke — spiny dogfish shark simmered in soy sauce and sugar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "大田原市",
+   "lat": 36.8697,
+   "lng": 140.0122,
+   "summary_ja": "北茨城の漁港から内陸へ運ばれたアブラツノザメの切り身を、醤油と砂糖、みりんで煮付けた料理。冷蔵庫のなかった時代、腐りにくいサメは海なし県・栃木の貴重なたんぱく源だった。",
+   "summary_en": "Spiny dogfish shark, carried inland from north Ibaraki's ports, is simmered in soy sauce, sugar, and mirin. Before refrigeration, shark's natural resistance to spoiling made it a key protein source for landlocked Tochigi.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_5_tochigi.html",
+     "title": "さがんぼの煮付け 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "saganbo-no-nitsuke",
+     "to_slug": "moro-no-nitsuke",
+     "relation_type": "兄弟",
+     "basis": "共に内陸の栃木で親しまれるサメの煮付け"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "bandai-mochi",
+   "name_ja": "板台餅／ばんだい餅",
+   "name_romaji": "Bandai Mochi",
+   "name_en": "Bandai Mochi — firm rice pounded on a board, from Nikko's Kuriyama district",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "日光市",
+   "lat": 36.7199,
+   "lng": 139.6982,
+   "summary_ja": "日光市栗山地区に伝わる、うるち米を硬めに炊いてつく餅。山小屋の板の上で斧の峰などで叩いてついたことから「板台餅」と呼ばれ、味噌だれやあんこ、じゅうねなど地域ごとの食べ方が残る。",
+   "summary_en": "In the Kuriyama district of Nikko, firm-cooked non-glutinous rice is pounded on a wooden board — hence 'itadai-mochi,' board-mochi — and eaten with miso glaze, sweet bean paste, or a perilla-seed sauce depending on the hamlet.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_6_tochigi.html",
+     "title": "板台餅／ばんだい餅 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "bandai-mochi",
+     "to_slug": "yakimochi",
+     "relation_type": "対比",
+     "basis": "共に栃木の素朴な餅・粉ものの家庭菓子"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "komugi-manju",
+   "name_ja": "小麦まんじゅう",
+   "name_romaji": "Komugi Manju",
+   "name_en": "Komugi Manju — steamed wheat buns filled with sweet bean paste",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "重曹を加えた小麦粉の生地であんを包んで蒸したまんじゅう。麦の収穫が終わったばかりの盆の時期に欠かせない菓子で、地獄の蓋が開くとされる旧暦7月1日には先祖に供える習わしもある。",
+   "summary_en": "Wheat dough leavened with baking soda wraps sweet bean paste and is steamed — a treat tied to the Obon season just after the wheat harvest, once offered to ancestors on the old-calendar day the gates of the underworld were said to open.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_7_tochigi.html",
+     "title": "小麦まんじゅう 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "komugi-manju",
+     "to_slug": "kusamochi",
+     "relation_type": "対比",
+     "basis": "共に節句・盆の行事菓子、原料が小麦とよもぎで対照的"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "moro-no-nitsuke",
+   "name_ja": "モロの煮付",
+   "name_romaji": "Moro no Nitsuke",
+   "name_en": "Moro no Nitsuke — salmon shark simmered soft in soy sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "茨城や福島沖でとれるネズミザメを「モロ」と呼び、醤油と砂糖でやわらかく煮付けた料理。腐りにくいサメの性質を活かし、海の遠い栃木で貴重なたんぱく源として食卓に上ってきた。",
+   "summary_en": "Salmon shark, caught off Ibaraki and Fukushima and known locally as moro, is simmered soft in soy sauce and sugar — its resistance to spoiling made it a reliable protein source in landlocked Tochigi.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_10_tochigi.html",
+     "title": "モロの煮付 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "moro-no-nitsuke",
+     "to_slug": "saganbo-no-nitsuke",
+     "relation_type": "兄弟",
+     "basis": "共に内陸の栃木で親しまれるサメの煮付け"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kanpyo-no-gomazu-ae",
+   "name_ja": "干瓢のごま酢あえ",
+   "name_romaji": "Kanpyo no Gomazu-ae",
+   "name_en": "Kanpyo no Gomazu-ae — rehydrated dried gourd dressed in sesame vinegar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "下野市",
+   "lat": 36.3939,
+   "lng": 139.8541,
+   "summary_ja": "戻したかんぴょうを人参や油揚げとともにごま酢で和えたさっぱりとした料理。栽培に適した関東ローム層が広がる県南地域で、江戸期から300年続くかんぴょう食文化の一皿として親しまれる。",
+   "summary_en": "Rehydrated kanpyo gourd strips are dressed with sesame vinegar alongside carrot and fried tofu — a light dish from southern Tochigi, whose Kanto loam soil has suited kanpyo growing for some 300 years since the Edo period.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_11_tochigi.html",
+     "title": "干瓢のごま酢あえ 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kanpyo-no-gomazu-ae",
+     "to_slug": "kanpyo-no-tamago-toji",
+     "relation_type": "使用食材",
+     "basis": "栃木特産のかんぴょうを共有"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yuzu-maki",
+   "name_ja": "ゆず巻き",
+   "name_romaji": "Yuzu Maki",
+   "name_en": "Yuzu Maki — daikon rolled around yuzu peel and pickled sweet",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "宇都宮市",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "宇都宮市北部でとれる香り高い寒冷ゆずの皮を大根で巻き、2〜3日甘酢に漬け込む正月料理。半日ほど大根を干すと歯ごたえと保存性が増すといい、秋祭りにも欠かせない一品とされる。",
+   "summary_en": "Fragrant, cold-grown yuzu peel from northern Utsunomiya is wrapped in daikon and steeped in sweet vinegar for a few days — a New Year's dish also served at autumn festivals, its bite and shelf life improved by pre-drying the daikon.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_12_tochigi.html",
+     "title": "ゆず巻き 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yuzu-maki",
+     "to_slug": "yuzudaikon",
+     "relation_type": "対比",
+     "basis": "共に大根と柚子の漬物だが、巻き方が異なる"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gomoku-meshi",
+   "name_ja": "五目飯",
+   "name_romaji": "Gomoku Meshi",
+   "name_en": "Gomoku Meshi — mixed rice with kanpyo, mushroom, and vegetables for festival days",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "栃木の特産・かんぴょうと干ししいたけ、ごぼう、錦糸卵などを彩りよく炊き込んだ祭りの日のごちそう。手間がかかることから、農家の休日や祭りなど特別な日につくられてきた。",
+   "summary_en": "Tochigi's signature kanpyo gourd joins dried shiitake, burdock, and thin egg strands in a colorful mixed rice — festive fare reserved for holidays and farm rest days because of the work it takes to prepare.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_13_tochigi.html",
+     "title": "五目飯 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gomoku-meshi",
+     "to_slug": "kanpyo-no-tamago-toji",
+     "relation_type": "使用食材",
+     "basis": "かんぴょうを共有し、祭りの日に共につくられると伝わる"
+    }
+   ],
+   "tags": [
+    "egg",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kanpyo-inari-zushi",
+   "name_ja": "いなりずし",
+   "name_romaji": "Inarizushi",
+   "name_en": "Inarizushi — fried tofu pouches tied at the middle with kanpyo like a rice bale",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "酢飯を詰めた油揚げの真ん中を、味付けしたかんぴょうで俵のように結ぶいなりずし。全国生産のほぼすべてを占める栃木のかんぴょうを俵の縄に見立てた形で、手づかみで食べられる。",
+   "summary_en": "Vinegared rice packed into fried tofu pouches is cinched at the middle with seasoned kanpyo, tied like a straw rice bale — a shape built around Tochigi's near-total share of Japan's kanpyo, and eaten by hand.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_14_tochigi.html",
+     "title": "いなりずし 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kanpyo-inari-zushi",
+     "to_slug": "inari-zushi",
+     "relation_type": "対比",
+     "basis": "いなり寿司の全国的な型に対し、かんぴょうで俵形に結ぶ点が異なる"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aiso-no-kanroni",
+   "name_ja": "あいその甘露煮",
+   "name_romaji": "Aiso no Kanroni",
+   "name_en": "Aiso no Kanroni — spring dace slow-simmered sweet from the Naka River",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.7909,
+   "lng": 140.1666,
+   "summary_ja": "那珂川や鬼怒川で春の産卵期に群れるウグイを、あいそと呼び、弱火で長時間かけて骨まで柔らかく甘露煮にする。冷蔵庫が普及する前、川魚が貴重なたんぱく源だった内陸県の料理。",
+   "summary_en": "Dace that gather to spawn each spring in the Naka and Kinu rivers, known locally as aiso, are slow-simmered in a sweet glaze until soft to the bone — food from a landlocked prefecture where river fish once meant protein.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_15_tochigi.html",
+     "title": "あいその甘露煮 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "aiso-no-kanroni",
+     "to_slug": "ayu-meshi",
+     "relation_type": "兄弟",
+     "basis": "共に那珂川流域の川魚を使う郷土料理"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "agemaki-yuba-no-nimono",
+   "name_ja": "揚げまき湯波の煮物",
+   "name_romaji": "Agemaki Yuba no Nimono",
+   "name_en": "Agemaki Yuba no Nimono — rolled, fried yuba simmered in a light broth, from Nikko",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "栃木県",
+   "origin_city": "日光市",
+   "lat": 36.7199,
+   "lng": 139.6982,
+   "summary_ja": "生ゆばを重ねて棒状に巻き、輪切りにして油で揚げた「揚げまき湯波」を、薄味でじっくり煮た日光の郷土料理。表面が波打つ日光ゆばの技法を生かし、正月や祝いの席にも欠かせない。",
+   "summary_en": "Fresh yuba sheets are layered, rolled into a log, sliced into rounds, and deep-fried before a slow simmer in a light broth — a Nikko dish built on the region's rippled yuba-making craft, served at New Year's and celebrations.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_16_tochigi.html",
+     "title": "揚げまき湯波の煮物 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "agemaki-yuba-no-nimono",
+     "to_slug": "koi-no-karaage",
+     "relation_type": "対比",
+     "basis": "共に地元食材を揚げた郷土料理、湯波と鯉で対照的"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "battou-jiru",
+   "name_ja": "ばっとう汁・だんご汁（すいとん）",
+   "name_romaji": "Battou Jiru",
+   "name_en": "Battou Jiru — hand-torn wheat dumplings in a vegetable miso soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "季節の野菜を煮た味噌汁に、練った小麦粉を手でちぎり入れただんご汁。地域によって「はっとう汁」「だんご汁」と呼び名が変わり、米が足りない時の日常食として親しまれてきた。",
+   "summary_en": "Wheat dough is torn by hand into a miso soup simmered with seasonal vegetables — known by different names, hattou-jiru or dango-jiru, across the region, and long relied on when rice ran short.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_17_tochigi.html",
+     "title": "ばっとう汁・だんご汁（すいとん） 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "battou-jiru",
+     "to_slug": "komugi-manju",
+     "relation_type": "使用食材",
+     "basis": "県産小麦粉を使う点を共有"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kanpyo-norimaki-zushi",
+   "name_ja": "かんぴょうのり巻き寿司",
+   "name_romaji": "Kanpyo Norimaki Zushi",
+   "name_en": "Kanpyo Norimaki Zushi — nori rolls built around sweet-simmered kanpyo",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "甘じょっぱく煮たかんぴょうを芯にした細巻きや、卵ときゅうりを加えた太巻きなど、のり巻きに欠かせないかんぴょう。花見や運動会など行楽の重箱に、いなりずしと並んで詰められてきた。",
+   "summary_en": "Sweet-savory simmered kanpyo forms the core of thin nori rolls, or joins egg and cucumber in thicker ones — a staple of the picnic box, packed alongside inari-zushi for flower viewing and school sports days.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_18_tochigi.html",
+     "title": "かんぴょうのり巻き寿司 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kanpyo-norimaki-zushi",
+     "to_slug": "maki-zushi",
+     "relation_type": "対比",
+     "basis": "一般的な巻き寿司に対し、かんぴょうを芯にする点が栃木特有"
+    },
+    {
+     "from_slug": "kanpyo-norimaki-zushi",
+     "to_slug": "kanpyo-inari-zushi",
+     "relation_type": "使用食材",
+     "basis": "栃木特産のかんぴょうを共有"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nishime",
+   "name_ja": "煮しめ",
+   "name_romaji": "Nishime",
+   "name_en": "Nishime — taro, root vegetables, and konjac simmered slowly in soy sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "さといもを主役に、大根や人参、ごぼう、しいたけ、こんにゃくを醤油でじっくり煮含めた料理。親芋のまわりに子芋が育つさといもの姿から子孫繁栄の縁起物とされ、正月や冠婚葬祭に欠かせない。",
+   "summary_en": "Taro takes the lead alongside daikon, carrot, burdock, shiitake, and konjac, simmered slowly in soy sauce. Because taro grows new corms clustered around the parent, it is read as a wish for descendants, essential at New Year's and life events.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_19_tochigi.html",
+     "title": "煮しめ 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nishime",
+     "to_slug": "imogushi",
+     "relation_type": "対比",
+     "basis": "共にさといもを使う栃木の料理、煮物と串焼きで対照的"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nishin-to-takenoko-no-nitsuke",
+   "name_ja": "ニシンとタケノコの煮付け",
+   "name_romaji": "Nishin to Takenoko no Nitsuke",
+   "name_en": "Nishin to Takenoko no Nitsuke — dried herring and bamboo shoot simmered sweet",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "身欠きにしんとたけのこを甘じょっぱく煮付けた料理。田植えの労をねぎらう「田植えにしん」として振る舞われてきた、乾物のにしんを貴重なたんぱく源としてきた内陸県ならではの一皿。",
+   "summary_en": "Dried herring and bamboo shoot are simmered sweet and salty — served as 'rice-planting herring' to thank those who helped with planting, a dish from a landlocked prefecture that relied on dried fish for protein.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_20_tochigi.html",
+     "title": "ニシンとタケノコの煮付け 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nishin-to-takenoko-no-nitsuke",
+     "to_slug": "moro-no-nitsuke",
+     "relation_type": "兄弟",
+     "basis": "共に乾物・保存魚を煮付ける内陸県ならではの料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tochigi-botamochi",
+   "name_ja": "ぼた餅",
+   "name_romaji": "Botamochi",
+   "name_en": "Botamochi — pounded rice topped with sweet bean paste for equinox and Obon",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "うるち米ともち米を炊いて丸め、あんをのせた餅菓子。春秋の彼岸や盆に欠かせず、稲刈りや脱穀の後にこぼれた米でつくる「刈りあげぼた餅」など、収穫の節目を祝う名も残っている。",
+   "summary_en": "Cooked non-glutinous and glutinous rice is shaped and topped with sweet bean paste — a fixture of spring and autumn equinox and Obon, with names like 'harvest botamochi,' made from rice gleaned after threshing to mark the season's end.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_21_tochigi.html",
+     "title": "ぼた餅 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tochigi-botamochi",
+     "to_slug": "mitsumenobotamochi",
+     "relation_type": "対比",
+     "basis": "共にぼたもちだが、行事の位置づけが異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ayu-meshi",
+   "name_ja": "鮎めし",
+   "name_romaji": "Ayu Meshi",
+   "name_en": "Ayu Meshi — rice cooked with grilled sweetfish from the Naka River",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.7909,
+   "lng": 140.1666,
+   "summary_ja": "那珂川など鮎の獲れる川筋で、素焼きにした鮎を米と一緒に炊き込む混ぜごはん。祭りや農作業の休みなど特別な日につくられ、余った鮎は串に刺して囲炉裏端に吊るし保存したという。",
+   "summary_en": "Along the Naka River and other ayu-fishing streams, unseasoned grilled ayu is cooked into the rice — made for festivals and farm rest days, with any leftover fish skewered and hung by the hearth to keep.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_22_tochigi.html",
+     "title": "鮎めし 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ayu-meshi",
+     "to_slug": "aiso-no-kanroni",
+     "relation_type": "兄弟",
+     "basis": "共に那珂川流域の川魚を使う郷土料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ebi-daikon",
+   "name_ja": "えび大根",
+   "name_romaji": "Ebi Daikon",
+   "name_en": "Ebi Daikon — river shrimp and daikon simmered tender for winter",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "小山市",
+   "lat": 36.3147,
+   "lng": 139.8007,
+   "summary_ja": "笹を束ねて岸辺に沈め、寒さを避けて集まる川エビをすくい獲る漁でとれたエビと大根を、とろけるほど柔らかく煮た冬の料理。赤いエビと白い大根の対比から、祝いの水神祭にも供された。",
+   "summary_en": "River shrimp, lured into bundled bamboo leaves sunk along the riverbank to escape the cold, are simmered with daikon until tender — the red shrimp against white daikon making it a fitting offering at the river-god festival.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_23_tochigi.html",
+     "title": "えび大根 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ebi-daikon",
+     "to_slug": "kiriboshi-daikon-no-nimono",
+     "relation_type": "使用食材",
+     "basis": "共に大根を使う栃木の冬の料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kusamochi",
+   "name_ja": "草餅",
+   "name_romaji": "Kusa Mochi",
+   "name_en": "Kusa Mochi — pounded rice kneaded with young mugwort",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "芽吹いたばかりのよもぎを練り込んだ餅。ひな節句に飾り、きな粉などをまぶして食べる風習があり、旧暦での節句を守る土地では餅草の育ち具合を待ってからつくられてきた。",
+   "summary_en": "Freshly sprouted mugwort is kneaded into pounded rice — displayed at the Doll Festival and eaten dusted with soybean flour, made only once the young mugwort has grown enough in places still keeping to the old lunar calendar.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_24_tochigi.html",
+     "title": "草餅 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kusamochi",
+     "to_slug": "komugi-manju",
+     "relation_type": "対比",
+     "basis": "共に節句・盆の行事菓子、原料が小麦とよもぎで対照的"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shira-ae",
+   "name_ja": "白あえ",
+   "name_romaji": "Shira-ae",
+   "name_en": "Shira-ae — tofu ground smooth and dressed with vegetables",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "水切りした豆腐をすり鉢で滑らかにし、下煮した人参やこんにゃくと和える料理。祝い事では彩りに赤い食材を加え、葬式では入れずに白く仕上げるなど、席によって仕立てを変える。",
+   "summary_en": "Drained tofu is ground smooth and dressed with pre-simmered carrot and konjac — red ingredients added for celebrations, left out for a purely white dish at funerals, the recipe shifting with the occasion.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_25_tochigi.html",
+     "title": "白あえ 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shira-ae",
+     "to_slug": "nishime",
+     "relation_type": "使用食材",
+     "basis": "こんにゃく・人参を共有する栃木の惣菜"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chitake-to-nasu-no-abura-itame",
+   "name_ja": "ちたけとなすの油炒め",
+   "name_romaji": "Chitake to Nasu no Abura Itame",
+   "name_en": "Chitake to Nasu no Abura Itame — a summer mushroom stir-fried with eggplant",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "宇都宮市",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "裂くと乳白色の汁が出るきのこ・ちたけを、なすとともに油で炒めた料理。里山の管理とともに8月ごろだけとれる希少なきのこで、うどんやそばのだしにも使われる栃木ならではの味覚。",
+   "summary_en": "Chitake mushrooms, which weep a milky sap when torn, are stir-fried with eggplant — a summer-only find tied to managed satoyama woodland, and also prized as a broth base for udon and soba.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_26_tochigi.html",
+     "title": "ちたけとなすの油炒め 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "chitake-to-nasu-no-abura-itame",
+     "to_slug": "chitake-udon",
+     "relation_type": "対比",
+     "basis": "共にちたけを使う栃木の郷土料理、麺と炒め物で対照的"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nasu-to-ingen-no-abura-miso",
+   "name_ja": "なすといんげんの油味噌",
+   "name_romaji": "Nasu to Ingen no Abura Miso",
+   "name_en": "Nasu to Ingen no Abura Miso — eggplant and green beans stir-fried in sweet miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "刻んだなすといんげんを油で炒め、味噌と砂糖でからめた夏の惣菜。稲の豊作を祈る宇都宮の天祭など、夏の行事に合わせてつくられてきたが、平日の食卓にも日常的に上る料理でもある。",
+   "summary_en": "Chopped eggplant and green beans are stir-fried and coated in sweet miso — tied to summer events like Utsunomiya's Tensai harvest-prayer festival, though it turns up on ordinary tables just as often.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_27_tochigi.html",
+     "title": "なすといんげんの油味噌 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nasu-to-ingen-no-abura-miso",
+     "to_slug": "chitake-to-nasu-no-abura-itame",
+     "relation_type": "対比",
+     "basis": "共になすを油で炒める栃木の夏の惣菜"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "dojou-jiru",
+   "name_ja": "どじょう汁",
+   "name_romaji": "Dojou Jiru",
+   "name_en": "Dojou Jiru — paddy loach simmered in a sake and soy broth with egg",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "田んぼの水口でとったどじょうを、ねぎやごぼうとともに酒と醤油の汁で煮て卵でとじる、夏の定番料理。宇都宮の一部地域では、真夏に行われる八坂神社の祭りの昼食として受け継がれている。",
+   "summary_en": "Loach caught at rice-paddy sluices are simmered with scallion and burdock in sake and soy broth, finished with egg — a summer staple that, in parts of Utsunomiya, still doubles as lunch for the midsummer Yasaka Shrine festival.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_28_tochigi.html",
+     "title": "どじょう汁 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "dojou-jiru",
+     "to_slug": "battou-jiru",
+     "relation_type": "対比",
+     "basis": "共に栃木の汁物、夏と通年で季節性が対照的"
+    }
+   ],
+   "tags": [
+    "egg",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yakimochi",
+   "name_ja": "焼き餅",
+   "name_romaji": "Yaki Mochi",
+   "name_en": "Yaki Mochi — leftover rice pan-fried with flour and miso",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "残りごはんに小麦粉や味噌を混ぜて丸め、ほうろくやフライパンで焼いた素朴なおやつ。傷みやすい夏のごはんを日持ちさせる知恵でもあり、地域や家庭によって蒸したり茹でたりもする。",
+   "summary_en": "Leftover rice is mixed with flour and miso, shaped, and pan-fried into a simple snack — a way of keeping quick-to-spoil summer rice edible longer, with some households steaming or boiling it instead.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_29_tochigi.html",
+     "title": "焼き餅 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yakimochi",
+     "to_slug": "bandai-mochi",
+     "relation_type": "対比",
+     "basis": "共に栃木の素朴な餅・粉ものの家庭菓子"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kiriboshi-daikon-no-nimono",
+   "name_ja": "切干し大根の煮物",
+   "name_romaji": "Kiriboshi Daikon no Nimono",
+   "name_en": "Kiriboshi Daikon no Nimono — sun-dried daikon strips simmered slowly",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "栃木県",
+   "origin_city": "",
+   "lat": 36.5658,
+   "lng": 139.8836,
+   "summary_ja": "細切りにした大根を2週間ほど天日で干した切干し大根を戻し、じっくり煮含めた料理。空っ風が吹き晴天の続く栃木の冬につくられてきた保存食で、生の大根とは違う風味と栄養が凝縮される。",
+   "summary_en": "Julienned daikon, sun-dried for about two weeks in Tochigi's dry winter winds, is rehydrated and slow-simmered — a preserve whose flavor and nutrients concentrate in ways fresh daikon cannot match.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_30_tochigi.html",
+     "title": "切干し大根の煮物 栃木県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kiriboshi-daikon-no-nimono",
+     "to_slug": "ebi-daikon",
+     "relation_type": "使用食材",
+     "basis": "共に大根を使う栃木の冬の料理"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行(既存につき採用しない): 31_2_tochigi(耳うどん) — existing_slug=mimi, match_confidence空欄(高)のため既存。31_8_tochigi(かてそば) — existing_slug=kate-soba, match_confidence空欄(高)のため既存。31_9_tochigi(ちたけそば（うどん）) — existing_slugは台帳上空欄だが、all-items-ja.txtにchitake-udon|ちたけうどん|栃木県 が既存。ちたけとなすを炒めただし汁にうどん(そば)を入れる同一の料理と判断し、台帳の空欄を上書きして既存扱いとした（台帳の名前一致漏れ）。要判断事項(medium/low): 31_14_tochigi(いなりずし, existing_slug=inari-zushi, confidence=medium) — 既存inari-zushiは無県のいなり寿司の受け皿項目。栃木のいなりずしは酢飯を詰めた油揚げの中心をかんぴょうで俵形に結ぶ形状が明確な特徴のため、既存とは別項目として作成（slug=kanpyo-inari-zushi、対比関係で紐付け、notesに判断根拠を明記）。31_18_tochigi(かんぴょうのり巻き寿司, existing_slug=maki-zushi, confidence=low) — 既存maki-zushiは無県の巻き寿司の受け皿項目。栃木のものはかんぴょうを芯に使う点が特有のため別項目として作成（対比関係で紐付け）。31_20_tochigi(ニシンとタケノコの煮付け, existing_slug=nishin, confidence=low) — 既存nishinは魚そのものの受け皿項目（食材、料理ではない）。本品は身欠きにしんとたけのこの煮付けという別の完成した料理のため作成。棚を変えた行: なし（台帳のshelfをそのまま採用。31_16_tochigi(揚げまき湯波の煮物)はgenre_hint=friedのためgenre=friedを付与、shelfはfried据え置き）。31_14/31_18はgenre=sushiを付与（名前に「ずし」「寿司」を含むため）。座標の根拠: 単一市町村が本文で明示される行(bandai-mochi=日光市, saganbo-no-nitsuke=大田原市, kanpyo-no-gomazu-ae=下野市, yuzu-maki=宇都宮市市内北部, agemaki-yuba-no-nimono=日光市, ebi-daikon=小山市)はその市役所付近の座標を使用。伝承地域が「栃木県全域」等の広域表記の行は県庁所在地(宇都宮市)の座標で代用。那珂川流域にまたがるaiso-no-kanroni/ayu-meshiは、川沿いの代表地点として那珂川町の座標で代用し、いずれもnotesに準じ広域と明記。"
+}

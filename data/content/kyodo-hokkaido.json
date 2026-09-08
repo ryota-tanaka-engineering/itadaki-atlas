@@ -1,0 +1,709 @@
+{
+ "items": [
+  {
+   "slug": "chanchan-yaki",
+   "name_ja": "鮭のチャンチャン焼き",
+   "name_romaji": "Sake no Chanchan-yaki",
+   "name_en": "Salmon chanchan-yaki — salmon and vegetables steamed with miso",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 43.2039,
+   "lng": 141.3536,
+   "summary_ja": "秋から冬にかけて水揚げされるサケと旬の野菜を、味噌とバターで蒸し焼きにする料理。石狩地方の漁師町で、船上や浜で手早く仕上げていた食べ方が始まりと伝わる。鉄板の上で味噌が香ばしく焦げる匂いが食欲をそそるとされる。",
+   "summary_en": "Salmon and seasonal vegetables are pan-steamed with miso and butter — said to trace back to fishing towns along the Ishikari coast, where it was cooked quickly on deck or shore right after the catch.",
+   "sources": [
+    {
+     "title": "鮭のチャンチャン焼き 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sakenochanchanyaki_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "chanchan-yaki",
+     "to_slug": "sake-salmon",
+     "relation_type": "使用食材",
+     "basis": "主材料に石狩地方で水揚げされるサケを使う"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域=石狩地方（広域）のため空欄。lat/lngは石狩地方の中心地点として石狩市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hokkaido-imomochi",
+   "name_ja": "いももち",
+   "name_romaji": "Imomochi",
+   "name_en": "Imomochi — pan-fried potato cakes (also called imodango)",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 43.3416,
+   "lng": 142.3826,
+   "summary_ja": "蒸してつぶしたじゃがいもに片栗粉を混ぜ、焼き目がつくまで焼く軽食。地域によっては「いもだんご」とも呼ばれる。稲作が難しかった時代にもち米の代わりにじゃがいもを使ったのが始まりと伝わる、北海道の定番おやつ。",
+   "summary_en": "Steamed potato is mashed and bound with potato starch, then pan-fried until browned — also called imodango. Said to have begun as a stand-in for mochi rice in years when rice was hard to grow.",
+   "sources": [
+    {
+     "title": "いももち／いもだんご 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/imomochi_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hokkaido-imomochi",
+     "to_slug": "hokkaido-bekomochi",
+     "relation_type": "対比",
+     "basis": "ともに北海道の間食として親しまれるが、いももちはじゃがいもを主原料に焼いて食べるのに対し、べこ餅は米粉の生地を蒸してつくる"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "name_jaは併記名の先頭「いももち」を採用、別名「いもだんご」はsummaryで言及。origin_city: 伝承地域=道内全域のため空欄。lat/lngは北海道の地理的中心とされる富良野市（通称「北海道のへそ」）を代表地点とした。本文中に岐阜・高知・和歌山にも同名の郷土料理がある旨の記載があり、slugをhokkaido-imomochiとした（ブリーフの例示と一致）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ishikari-nabe",
+   "name_ja": "石狩鍋",
+   "name_romaji": "Ishikari Nabe",
+   "name_en": "Ishikari nabe — salmon and vegetable miso hot pot",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 43.2039,
+   "lng": 141.3536,
+   "summary_ja": "ぶつ切りにしたサケのあらと身を、キャベツや大根などの野菜と昆布だしで煮て味噌で仕立てる鍋。石狩川の河口で、大漁を祝った漁師たちがとれたてのサケを味噌汁に入れて食べていたのが始まりと伝わる。",
+   "summary_en": "Chunks of salmon and its trimmings simmer with cabbage, daikon, and kelp dashi, finished with miso — said to have begun among fishermen at the mouth of the Ishikari River, celebrating a good catch.",
+   "sources": [
+    {
+     "title": "石狩鍋 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ishikarinabe_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ishikari-nabe",
+     "to_slug": "sake-salmon",
+     "relation_type": "使用食材",
+     "basis": "主材料としてサケの身とあらを使う"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域=石狩地方（広域）のため空欄。lat/lngは石狩市役所付近を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ikameshi",
+   "name_ja": "いかめし",
+   "name_romaji": "Ikameshi",
+   "name_en": "Ikameshi — squid stuffed with rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 41.7687,
+   "lng": 140.7288,
+   "summary_ja": "内臓を抜いたイカの胴にもち米とうるち米を詰め、醤油や砂糖の煮汁でじっくり炊き上げる料理。戦時中の米不足のなか、函館本線森駅の駅弁として考案されたのが始まりと伝わる、道南地域の郷土料理。",
+   "summary_en": "Squid bodies are stuffed with a mix of glutinous and regular rice, then slow-simmered in a soy-sweet broth. Said to have been devised as a station bento at Mori Station during wartime rice shortages.",
+   "sources": [
+    {
+     "title": "いかめし 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ikameshi_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ikameshi",
+     "to_slug": "surume-ika",
+     "relation_type": "使用食材",
+     "basis": "主材料であるイカにスルメイカが用いられ、いか飯への加工が挙げられている"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=道南地域（広域）のため空欄。lat/lngは道南地域の代表市である函館市を採用。なお本文では発祥地として函館本線森駅（森町）がより具体的に記されており、地方全体より狭い可能性がある点は要判断として記録。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hokkaido-ramen",
+   "name_ja": "ラーメン",
+   "name_romaji": "Ramen",
+   "name_en": "Hokkaido ramen — regional ramen traditions of Sapporo, Hakodate, and Asahikawa",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 43.3416,
+   "lng": 142.3826,
+   "summary_ja": "気温の低い北海道で独自に発展したラーメンの総称。札幌は味噌、函館は塩、旭川は醤油とスープを覆う香味油というように地域差があり、それぞれの風土に合わせて工夫が重ねられてきたと伝わる。",
+   "summary_en": "An umbrella term for the ramen styles shaped by cold-climate Hokkaido — Sapporo's miso, Hakodate's shio, and Asahikawa's shoyu with its aromatic oil cap — each said to reflect local conditions.",
+   "sources": [
+    {
+     "title": "ラーメン 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ramen_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hokkaido-ramen",
+     "to_slug": "taiwan-ramen",
+     "relation_type": "対比",
+     "basis": "ともにご当地ラーメンとして知られるが、hokkaido-ramenは味噌・塩・醤油と地域ごとにスープが分かれるのに対し、taiwan-ramenは唐辛子のひき肉あんを鶏ガラ醤油スープにのせる名古屋発祥の一杯"
+    }
+   ],
+   "tags": [],
+   "notes": "既存slugと同名衝突なし（既存all-slugs.txtにramen系はtaiwan-ramenのみ）だが、全国的に一般名詞なためslugをhokkaido-ramenとした。genre_hintが空欄のためgenre=null（本来はramen genreが妥当と思われるが台帳指示に従い空欄を尊重）。origin_city: 伝承地域=道内全域のため空欄、lat/lngは富良野市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hokkaido-sekihan",
+   "name_ja": "赤飯",
+   "name_romaji": "Sekihan",
+   "name_en": "Hokkaido sekihan — sweet rice with candied beans instead of azuki",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 43.3416,
+   "lng": 142.3826,
+   "summary_ja": "もち米とうるち米を食紅でほんのり色付けし、炊きあがりに甘納豆を混ぜ込む赤飯。全国的な小豆の赤飯と違って甘みがあるのが特徴とされ、忙しい母親のためにと考案された簡便な調理法が広まったと伝わる。",
+   "summary_en": "Glutinous and regular rice are tinted pink with food coloring, then folded with candied beans instead of the azuki used elsewhere in Japan — a sweeter take said to have spread from a method devised for busy mothers.",
+   "sources": [
+    {
+     "title": "赤飯 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sekihan_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hokkaido-sekihan",
+     "to_slug": "koganemochi",
+     "relation_type": "使用食材",
+     "basis": "赤飯に使うもち米の用途としてこがねもちのような品種が挙げられている"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "全国的に一般名詞（赤飯）のためslugをhokkaido-sekihanとした。origin_city: 伝承地域=道内全域のため空欄、lat/lngは富良野市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hokkaido-konbumaki",
+   "name_ja": "昆布巻き",
+   "name_romaji": "Konbumaki",
+   "name_en": "Konbumaki — kelp rolls filled with salmon or herring",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 42.1652,
+   "lng": 142.7719,
+   "summary_ja": "繊維質が少なく柔らかい日高昆布でサケやニシンを巻き、かんぴょうで結んで甘辛く煮る料理。昆布の音が「よろこぶ」に通じる縁起物とされ、正月のおせち料理に欠かせない一品と伝わる。",
+   "summary_en": "Salmon or herring is rolled in soft Hidaka kelp, tied with dried gourd strips, and simmered sweet. Kelp's name echoes the Japanese word for \"joy,\" making this a fixture of New Year's osechi.",
+   "sources": [
+    {
+     "title": "昆布巻き 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kobumaki_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hokkaido-konbumaki",
+     "to_slug": "sake-salmon",
+     "relation_type": "使用食材",
+     "basis": "昆布で巻く魚として主にサケが使われる"
+    }
+   ],
+   "tags": [
+    "kelp",
+    "ceremonial"
+   ],
+   "notes": "全国各地でつくられる昆布巻きとの混同を避けるためslugをhokkaido-konbumakiとした。origin_city: 伝承地域=日高地方（広域）のため空欄、lat/lngは日高振興局所在地の浦河町を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "bibai-torimeshi",
+   "name_ja": "美唄のとりめし",
+   "name_romaji": "Bibai no Torimeshi",
+   "name_en": "Bibai torimeshi — chicken and rice from Bibai",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "美唄市",
+   "lat": 43.3193,
+   "lng": 141.8578,
+   "summary_ja": "鶏肉とたまねぎを米と一緒に醤油、砂糖、酒で炊き込むごはん。明治の開拓期、小作人に養鶏を勧めた農場主が、米が実った後に鶏をつぶして客をもてなしたのが始まりと伝わる美唄市中村地区の郷土料理。",
+   "summary_en": "Chicken and onion are cooked into rice with soy sauce, sugar, and sake — said to trace back to a Meiji-era landowner in Bibai's Nakamura district who had tenant farmers raise chickens, then served them to guests.",
+   "sources": [
+    {
+     "title": "美唄のとりめし 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/bibainotorimeshi_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "bibai-torimeshi",
+     "to_slug": "bibai-yakitori",
+     "relation_type": "対比",
+     "basis": "ともに美唄市の鶏料理として知られるが、とりめしは鶏肉と米を炊き込む一方、やきとりはモツを含む部位を串に刺して焼く"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ],
+   "notes": "origin_city: 伝承地域=美唄市（単一）のためそのまま採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kujira-jiru",
+   "name_ja": "鯨汁",
+   "name_romaji": "Kujira Jiru",
+   "name_en": "Kujira jiru — salted whale and vegetable soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 41.7687,
+   "lng": 140.7288,
+   "summary_ja": "塩蔵した鯨肉を大根や豆腐、山菜と一緒に醤油味で煮込む正月料理。ニシンを岸へ追い込む縁起の良い生き物として鯨を敬ってきた道南地域で、正月三が日に食べる習いが伝わっている。",
+   "summary_en": "Salted whale meat is simmered with daikon, tofu, and wild greens in a soy-based broth — a New Year's dish from southern Hokkaido, where whales were once revered as creatures said to drive herring toward shore.",
+   "sources": [
+    {
+     "title": "鯨汁 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kujirajiru_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kujira-jiru",
+     "to_slug": "sampei-jiru",
+     "relation_type": "対比",
+     "basis": "ともに塩蔵した魚介と野菜を煮る北海道の冬の汁物だが、鯨汁は塩くじらを正月に、三平汁は塩漬けの魚を冬の日常食として使う"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=道南地域（広域）のため空欄、lat/lngは函館市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ruibe",
+   "name_ja": "ルイベ",
+   "name_romaji": "Ruibe",
+   "name_en": "Ruibe — frozen raw salmon sashimi",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 43.2039,
+   "lng": 141.3536,
+   "summary_ja": "サケやマスを凍らせたまま薄く切って食べる刺身。雪に埋めて凍らせ寄生虫を防ぎながら保存していたアイヌ発祥の食べ方と伝わり、口の中でじわりと溶けていく食感が持ち味とされる。",
+   "summary_en": "Salmon or trout is sliced thin while still frozen and eaten raw — said to descend from an Ainu method of burying fish in snow to preserve it and guard against parasites, prized for how it melts slowly in the mouth.",
+   "sources": [
+    {
+     "title": "ルイベ 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ruibe_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ruibe",
+     "to_slug": "sake-salmon",
+     "relation_type": "使用食材",
+     "basis": "主材料としてサケを凍らせたまま用いる"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "notes": "origin_city: 伝承地域=「石狩市、函館市、釧路市など沿岸部を中心とした複数地域」（複数）のため空欄。lat/lngは列挙された先頭の石狩市を代表地点とし、2箇所目以降の函館市・釧路市はregionsに「名産地」として記載。shelfはledgerのhomestyleから raw（生食）に変更（凍ったまま刺身で食べる料理のため、ブリーフの「焼き魚がhomestyle→grilled」と同種の補正）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shishamo-kanroni",
+   "name_ja": "ししゃもの甘露煮",
+   "name_romaji": "Shishamo no Kanroni",
+   "name_en": "Shishamo kanroni — smelt simmered in sweet soy",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 42.6689,
+   "lng": 141.9138,
+   "summary_ja": "素焼きにしたししゃもを醤油、みりん、砂糖でじっくり煮含める料理。太平洋沿岸の限られた川にしか遡上しない北海道固有種を使い、子持ちの雌が特に珍重されると伝わる、胆振・日高・釧路・十勝地方の郷土料理。",
+   "summary_en": "Grilled shishamo smelt is simmered slowly in soy sauce, mirin, and sugar. Made with a native species that spawns only in a handful of Pacific-coast rivers, with roe-bearing females said to be especially prized.",
+   "sources": [
+    {
+     "title": "ししゃもの甘露煮 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shishamonokanroni_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shishamo-kanroni",
+     "to_slug": "shishamo",
+     "relation_type": "使用食材",
+     "basis": "主材料に北海道太平洋沿岸のみに生息するししゃもを使う"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=「胆振・日高・釧路・十勝地方」（複数地方）のため空欄。lat/lngは本文中でししゃも漁の代表地として名指しされるむかわ町（胆振地方）を代表地点とした（伝承地域欄より本文がより具体的な要判断ケース）。既存slug「shishamo」（素材アイテム）との衝突回避のためslugはshishamo-kanroniとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kasube-no-nitsuke",
+   "name_ja": "カスベの煮付け",
+   "name_romaji": "Kasube no Nitsuke",
+   "name_en": "Kasube no nitsuke — simmered skate",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 43.9426,
+   "lng": 141.6364,
+   "summary_ja": "北海道の方言でエイを指す「カスベ」を、しょうがと一緒に醤油や砂糖、みりんで煮る冬の料理。軟骨魚で骨まで柔らかく食べられ、冷めると煮こごりになるのも持ち味とされる。",
+   "summary_en": "Skate — called kasube in Hokkaido dialect — is simmered with ginger, soy sauce, sugar, and mirin. As a cartilaginous fish its bones soften enough to eat whole, and the chilled broth is said to set into a savory aspic.",
+   "sources": [
+    {
+     "title": "カスベの煮付け 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kasubenonitsuke_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kasube-no-nitsuke",
+     "to_slug": "shishamo-kanroni",
+     "relation_type": "対比",
+     "basis": "ともに北海道の魚を甘辛く煮る家庭料理だが、カスベの煮付けはしょうがでエイの臭みを抑え、ししゃもの甘露煮は醤油とみりんで小魚を丸ごと煮含める"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=「沿岸部など複数地域」（広域・不特定）のため空欄。lat/lngは本文で分布域として挙げられる宗谷・留萌地方のうち留萌市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tachi-miso-shiru",
+   "name_ja": "たちの味噌汁",
+   "name_romaji": "Tachi no Miso Shiru",
+   "name_en": "Tachi no miso shiru — cod milt miso soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 43.3416,
+   "lng": 142.3826,
+   "summary_ja": "マダラやスケソウダラの白子を丸ごと昆布だしに入れ、味噌を溶いただけのシンプルな汁物。北海道では白子を「たち」と呼び、真鱈のものは「真だち」と区別して珍重されると伝わる、冬の家庭料理。",
+   "summary_en": "Whole cod or walleye pollock milt goes into kelp dashi and is finished with miso. In Hokkaido milt is called tachi, with Pacific cod's distinguished as \"ma-dachi\" — a winter home-cooking staple.",
+   "sources": [
+    {
+     "title": "たちの味噌汁／スケソウダラの白子の味噌汁 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tachinomisoshiru_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tachi-miso-shiru",
+     "to_slug": "tara-madara",
+     "relation_type": "使用食材",
+     "basis": "主材料にマダラの白子を使う"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "name_jaは併記名の先頭「たちの味噌汁」を採用。origin_city: 伝承地域=道内全域のため空欄、lat/lngは富良野市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hokkaido-bekomochi",
+   "name_ja": "べこ餅",
+   "name_romaji": "Bekomochi",
+   "name_en": "Bekomochi — leaf-shaped two-tone rice cake",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 43.3416,
+   "lng": 142.3826,
+   "summary_ja": "上新粉に白砂糖と黒砂糖を混ぜた生地を、木の葉の形に整えて蒸す菓子。白と黒の配色がホルスタインを連想させることから「べこ」の名がついたなど、由来には諸説あると伝わる。",
+   "summary_en": "Rice-flour dough colored white with sugar and dark with black sugar is shaped like leaves and steamed. One story behind the name bekomochi (beko meaning cow) is that the pattern recalls a Holstein.",
+   "sources": [
+    {
+     "title": "べこ餅 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/bekomochi_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hokkaido-bekomochi",
+     "to_slug": "hokkaido-imomochi",
+     "relation_type": "対比",
+     "basis": "ともに北海道の日常のおやつだが、べこ餅は米粉の生地を蒸してつくるのに対し、いももちはじゃがいもを焼いてつくる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "本文中に青森県にも同名の郷土菓子がある旨の記載があり、slugをhokkaido-bekomochiとした。origin_city: 伝承地域=道内全域のため空欄、lat/lngは富良野市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hokkaido-izushi",
+   "name_ja": "飯寿司",
+   "name_romaji": "Izushi",
+   "name_en": "Izushi — fish and rice pickled with koji",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 43.3416,
+   "lng": 142.3826,
+   "summary_ja": "魚と野菜を米麹に漬け、低温でじっくり乳酸発酵させるなれずし。ニシンやホッケ、サケなど北海道でとれる魚を使い、晩秋に漬け込んで正月ごろに食べる冬の保存食と伝わる。",
+   "summary_en": "Fish and vegetables are packed with rice malt and left to ferment slowly at low temperature — a narezushi made with herring, atka mackerel, or salmon, said to be pickled in late autumn and eaten around New Year's.",
+   "sources": [
+    {
+     "title": "飯寿司 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/izushi_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hokkaido-izushi",
+     "to_slug": "nishin-zushi",
+     "relation_type": "対比",
+     "basis": "ともに魚を米に漬けて発酵させるなれずしだが、izushiは複数の魚と麹を使い低温発酵させる北海道の正月料理、nishin-zushiはニシンと糀・大根を層に重ねて漬ける福井の一品"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ],
+   "notes": "既存slug「izushi」（出石そば、兵庫県、同じ読み「いずし」の別料理）との衝突を避けるためslugをhokkaido-izushiとした。要判断: 読みの同音異義による衝突なので、他県で本来の「izushi」枠を使う品が出てきた場合の扱いは要相談。origin_city: 伝承地域=道内全域のため空欄、lat/lngは富良野市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "teppo-jiru",
+   "name_ja": "てっぽう汁",
+   "name_romaji": "Teppo Jiru",
+   "name_en": "Teppo jiru — crab miso soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 43.3306,
+   "lng": 145.5828,
+   "summary_ja": "カニを昆布だしでじっくり煮て味噌で仕立て、豆腐と長ねぎを加える汁物。箸でカニの脚をつついて身を出す仕草が、鉄砲に弾を込める動きに似ることが名の由来と伝わる、根室地方の漁師料理。",
+   "summary_en": "Crab simmers in kelp dashi, finished with miso, tofu, and scallion — a Nemuro fishing dish said to be named for the way diners pick at crab legs with chopsticks, resembling the motion of loading a gun.",
+   "sources": [
+    {
+     "title": "てっぽう汁 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/teppojiru_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "teppo-jiru",
+     "to_slug": "tarabagani",
+     "relation_type": "使用食材",
+     "basis": "花咲ガニのほか、タラバガニなど北海道でとれる他のカニも使われる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域=「道東地域（主に根室地方）」のため空欄。lat/lngは本文が特に挙げる根室市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sampei-jiru",
+   "name_ja": "三平汁",
+   "name_romaji": "Sampei Jiru",
+   "name_en": "Sampei jiru — salted fish and vegetable soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 43.3416,
+   "lng": 142.3826,
+   "summary_ja": "塩漬けにしたサケやタラ、ニシンを大根やじゃがいもと一緒に煮て、魚の塩分だけで味を調える汁物。松前藩の藩主が漁師の家で食べた汁を気に入ったのが名の由来との言い伝えもある。",
+   "summary_en": "Salted salmon, cod, or herring simmers with daikon and potato, seasoned by the fish's own salt alone. One story behind the name traces it to a Matsumae domain lord who took a liking to a fisherman's simple soup.",
+   "sources": [
+    {
+     "title": "三平汁 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sambeijiru_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sampei-jiru",
+     "to_slug": "tara-madara",
+     "relation_type": "使用食材",
+     "basis": "道北地域などで塩ダラを使う「塩三平」がある"
+    }
+   ],
+   "tags": [
+    "miso",
+    "soy_sauce"
+   ],
+   "notes": "name_romajiはヘボン式の撥音規則により「三平（さんぺい）」を Sampei と表記（ん+p→m）。origin_city: 伝承地域=道内全域のため空欄、lat/lngは富良野市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hokkaido-jingisukan",
+   "name_ja": "ジンギスカン",
+   "name_romaji": "Jingisukan",
+   "name_en": "Jingisukan — grilled lamb barbecue",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 43.3416,
+   "lng": 142.3826,
+   "summary_ja": "羊肉を専用の鍋で野菜と一緒に焼く料理。大正期の綿羊飼育奨励を背景に、中国料理の羊の焼肉を参考に考案されたと伝わり、鍋の溝を伝った肉汁が野菜に染み込む食べ方が持ち味とされる。",
+   "summary_en": "Lamb or mutton is grilled with vegetables on a domed skillet. Said to have been devised with Chinese roast-lamb dishes as a reference, following Taisho-era efforts to promote sheep farming in Hokkaido.",
+   "sources": [
+    {
+     "title": "ジンギスカン／成吉思汗 北海道 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/jingisukan_hokkaido.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hokkaido-jingisukan",
+     "to_slug": "muroran-yakitori",
+     "relation_type": "対比",
+     "basis": "ともに北海道を代表する焼き肉文化だが、ジンギスカンは羊肉を専用鍋で焼くのに対し、室蘭やきとりは豚肩ロースを串に刺して焼く"
+    }
+   ],
+   "tags": [
+    "chinese_derived"
+   ],
+   "notes": "name_jaは併記名の先頭「ジンギスカン」を採用（「成吉思汗」はsummaryに含めず、一般的でないため省略）。shelfはledgerのhomestyleからgrilled（専用鍋で焼く料理のため）に変更。全国複数県でジンギスカンが郷土料理とされる可能性（山形県など）を考慮しslugをhokkaido-jingisukanとした。origin_city: 伝承地域=道内全域のため空欄、lat/lngは富良野市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "採否内訳: 27行中、作った18件／既存で作らなかった5件（butadon:実質高確信一致, bibaiyakitori, muroranyakitori, nishinsoba, zangi）／genre_hint=tsukemonoで除外4件（nishinzuke, tokishirazu, ikuranoshoyuzuke, matsumaezuke）。\n棚(shelf)を変えた行: ruibe（homestyle→raw、凍ったまま刺身で食べるため）／hokkaido-jingisukan（homestyle→grilled、専用鍋で焼く料理のため）。\n座標の根拠: 単一市町村が明記された行（bibai-torimeshi）はその市役所付近。広域・複数地域の行は notes に個別記載のとおり、地方の中心市・分布地・本文で名指しされた市町村を代表地点とし、県庁所在地（札幌市）は使わなかった。「道内全域」表記の8件（imomochi, ramen, sekihan, tachinomisoshiru, bekomochi, izushi, sambeijiru, jingisukan）はブリーフに直接の指示がなく、北海道の地理的中心とされる富良野市（通称「北海道のへそ」）を代表地点とする独自の判断を採った。座標値はジオコーディングAPI（Nominatim）がこの環境から403で使えなかったため、一般的な地理知識による概算（4桁だが実測ではない）。\n要判断: (1) nishinzuke_hokkaidoの採否（上記skipped参照、ブリーフ内の矛盾）。 (2) 「道内全域」時の代表地点選定ルールがブリーフに無く、富良野市を独自採用した点の妥当性。 (3) shishamonokanroni_hokkaidoは伝承地域が広域（胆振・日高・釧路・十勝地方）だが本文がむかわ町を名指ししており、市区町村欄は空欄のままlat/lngだけむかわ町にした処理の妥当性。 (4) 「izushi」slugが既存アイテム（出石そば、兵庫県）と同音異義で衝突していたため hokkaido-izushi とした。今後同種の同音異義衝突が他県でも起こりうる。\nskipped行の詳細:\n- butadon_hokkaido: 豚丼。existing_slug=obihiro-butadon（match_confidence=low）。既存アイテムの本文・出典を確認したところ同一のmaff detail_url（butadon_hokkaido.html, accessed_at 2026-09-07）を参照する完全一致品のため作らない（低確信度だったが実際は高確信度相当と判断）。\n- nishinzuke_hokkaido: ニシン漬け。genre_hint=tsukemono のため作らない（別部隊担当）。要判断: existing_slug=nishin（魚のニシン、match_confidence=low）との比較ではブリーフ本文の例示（ニシン漬けと魚のニシンは別物→作る）に合致し「作る」判断もありえたが、genre_hint=tsukemonoの除外規則を優先し作らなかった。ブリーフの例示行とgenre_hint除外規則が同一行で衝突するケースなので、次回指示書でどちらを優先するか明記してほしい。\n- tokishirazu_hokkaido: トキシラズ／トキ鮭の焼漬け。genre_hint=tsukemono のため作らない。\n- ikuranoshoyuzuke_hokkaido: いくらの醤油漬け。genre_hint=tsukemono のため作らない。\n- matsumaezuke_hokkaido: 松前漬。genre_hint=tsukemono のため作らない。\n- bibaiyakitori_hokkaido: 美唄やきとり。existing_slug=bibai-yakitori（match_confidence=high）のため既存。作らない。\n- muroranyakitori_hokkaido: 室蘭やきとり。existing_slug=muroran-yakitori（match_confidence=high）のため既存。作らない。\n- nishinsoba_hokkaido: ニシン蕎麦。existing_slug=nishin-soba（match_confidence=high）のため既存。作らない。\n- zangi_hokkaido: ザンギ。existing_slug=zangi（match_confidence=high）のため既存。作らない。"
+}
