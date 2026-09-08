@@ -1,0 +1,1043 @@
+{
+ "items": [
+  {
+   "slug": "isaza-mame",
+   "name_ja": "いさざ豆",
+   "name_romaji": "Isaza Mame",
+   "name_en": "Isaza mame — Lake Biwa's endemic isaza goby simmered sweet-savory with soybeans",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.3833,
+   "lng": 136.2833,
+   "summary_ja": "琵琶湖の固有種イサザを大豆とともに甘辛く炊き合わせた佃煮風の一皿。畑の肉と呼ばれる大豆の滋味と淡白なイサザの旨みが響き合い、湖北地域では冠婚葬祭の席にも並ぶと伝わる。",
+   "summary_en": "Isaza mame simmers Lake Biwa's endemic isaza goby with soybeans in soy sauce and mirin. The bean's earthy richness meets the fish's mild flavor, and around Lake Biwa's northern shore the dish is said to appear at both everyday meals and formal gatherings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/isaza_mame_shiga.html",
+     "title": "いさざ豆 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "isaza-mame",
+     "to_slug": "funa-zushi",
+     "relation_type": "対比",
+     "basis": "どちらも琵琶湖の魚を使う保存食だが、いさざ豆は佃煮、ふなずしは発酵と手法が異なる"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gori-no-tsukudani",
+   "name_ja": "ごりの佃煮",
+   "name_romaji": "Gori no Tsukudani",
+   "name_en": "Gori no tsukudani — Lake Biwa goby simmered down with sansho pepper",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.3833,
+   "lng": 136.2833,
+   "summary_ja": "琵琶湖に棲むヨシノボリ（ゴリ）を粒山椒とともに醤油だれで煮詰めた佃煮。初夏から初秋のごく短い時期しか生の魚は出回らないが、加工品として通年親しまれ、土産にも選ばれると伝わる。",
+   "summary_en": "Small Lake Biwa gobies known locally as gori are simmered down in soy sauce with whole sansho peppercorns. Fresh gori appear only briefly in early summer, but the preserved version is sold year-round and often bought as a souvenir.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gorino_tsukuda_ni_shiga.html",
+     "title": "ごりの佃煮 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gori-no-tsukudani",
+     "to_slug": "isaza-mame",
+     "relation_type": "兄弟",
+     "basis": "どちらも琵琶湖の小魚を醤油だれで甘辛く煮詰める佃煮という点で同じ調理系統"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "souvenir_non_confection"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shiga-itokoni",
+   "name_ja": "いとこ煮",
+   "name_romaji": "Itoko Ni",
+   "name_en": "Itoko ni — azuki beans simmered with taro or pumpkin",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.3833,
+   "lng": 136.2833,
+   "summary_ja": "小豆を里芋またはかぼちゃと甘辛く炊き合わせた煮物で、報恩講や冬至によくつくられると伝わる。かぼちゃ仕立ては湖東、里芋仕立ては湖北で好まれるなど、地域で具材が分かれるという。",
+   "summary_en": "Azuki beans are simmered with taro or pumpkin in a slightly sweet broth, traditionally made for Buddhist memorial gatherings and the winter solstice. The pumpkin version is favored around Lake Biwa's east shore, the taro version in the north.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/itokoni_shiga.html",
+     "title": "いとこ煮 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shiga-itokoni",
+     "to_slug": "itokoni",
+     "relation_type": "対比",
+     "basis": "富山県の「いとこ煮」と同名だが、こちらは小豆と里芋・かぼちゃを合わせる滋賀独自の具材"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "amenoio-gohan",
+   "name_ja": "あめのいおご飯",
+   "name_romaji": "Amenoio Gohan",
+   "name_en": "Amenoio gohan — rice cooked whole with Lake Biwa trout",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.0045,
+   "lng": 135.8686,
+   "summary_ja": "産卵のため川を遡上する琵琶湖固有種ビワマスを丸ごと米にのせて炊き込むご飯。「あめのいお」は雨の魚の意で、身と卵をほぐして混ぜ込む食べ方が秋の大鍋料理として伝わる。",
+   "summary_en": "A whole Lake Biwa trout, migrating upstream to spawn, is set atop rice and cooked together; \"amenoio\" means \"rain fish,\" a name tied to the trout's autumn run after rainfall. The flesh and roe are flaked and mixed through the rice, traditionally made in large pots for gatherings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/amenoio_gohan_shiga.html",
+     "title": "あめのいおご飯 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "amenoio-gohan",
+     "to_slug": "biwamasu-sashimi",
+     "relation_type": "兄弟",
+     "basis": "どちらも琵琶湖固有種ビワマスを主役にした料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "koayu-no-sansho-ni",
+   "name_ja": "小あゆの山椒煮",
+   "name_romaji": "Koayu no Sansho Ni",
+   "name_en": "Koayu no sansho ni — small Lake Biwa ayu simmered with sansho pepper",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.0045,
+   "lng": 135.8686,
+   "summary_ja": "琵琶湖でしか大きくなれない小あゆを、しょうがや山椒とともに甘辛く炊いた佃煮。川魚特有の匂いを消す工夫と、鍋返しをしない煮崩れ防止の技が各家庭で受け継がれてきたという。",
+   "summary_en": "Koayu, small ayu that never grow large because of Lake Biwa's limited feed, are simmered sweet-savory with ginger and sansho pepper to tame the freshwater fish's aroma. Cooks avoid stirring too roughly so the delicate fish stay whole.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/koayuno_sanshou_ni_shiga.html",
+     "title": "小あゆの山椒煮 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "koayu-no-sansho-ni",
+     "to_slug": "gori-no-tsukudani",
+     "relation_type": "兄弟",
+     "basis": "どちらも琵琶湖の小魚を甘辛だれで煮詰める佃煮という点で同じ調理系統"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shiga-decchi-yokan",
+   "name_ja": "丁稚羊羹",
+   "name_romaji": "Decchi Yokan",
+   "name_en": "Decchi yokan — bamboo-leaf-wrapped azuki yokan thickened with flour",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.0045,
+   "lng": 135.8686,
+   "summary_ja": "小豆こしあんに小麦粉を混ぜて竹の皮で包んで蒸した素朴な羊羹。海のない近江では寒天が手に入りにくく、代わりに小麦粉でつないだといわれ、竹の香りともちもちとした食感が持ち味とされる。",
+   "summary_en": "A simple steamed yokan made by mixing sweet azuki paste with flour and wrapping it in bamboo sheath. Landlocked Omi had little access to agar, so flour was used as a binder instead, giving the confection its chewy texture and faint bamboo aroma.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/decchi_youkan_shiga.html",
+     "title": "丁稚羊羹 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shiga-decchi-yokan",
+     "to_slug": "decchi-yokan",
+     "relation_type": "対比",
+     "basis": "福井県の「でっち羊かん」と同じ「でっち」の名を持つ庶民の羊羹だが、滋賀は小麦粉でつなぐ点が異なる"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "junjun",
+   "name_ja": "じゅんじゅん",
+   "name_romaji": "Junjun",
+   "name_en": "Junjun — sukiyaki-style hot pot of beef, chicken, or lake fish",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.0045,
+   "lng": 135.8686,
+   "summary_ja": "牛肉や鶏肉、あるいは湖魚をすき焼き風に味付けする鍋料理。具材が煮える際の音が名の由来とされ、近江牛や湖魚のイサザなど旬の食材を通年で楽しめる工夫がされていると伝わる。",
+   "summary_en": "A sukiyaki-style hot pot made with beef, chicken, or lake fish, its name said to echo the simmering sound of the pot. Local ingredients such as Omi beef or the lake's isaza goby rotate in with the seasons, making it a year-round dish.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/junjun_shiga.html",
+     "title": "じゅんじゅん 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "junjun",
+     "to_slug": "omi-gyu",
+     "relation_type": "使用食材",
+     "basis": "出典に近江牛を使った「じゅんじゅん」がハレの日に食されると明記"
+    }
+   ],
+   "tags": [
+    "beef",
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aka-konnyaku-ni",
+   "name_ja": "赤こんにゃく煮",
+   "name_romaji": "Aka Konnyaku Ni",
+   "name_en": "Aka konnyaku ni — Omi-Hachiman's iron-red konjac simmered in soy sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "近江八幡市",
+   "lat": 35.1283,
+   "lng": 136.0989,
+   "summary_ja": "近江八幡の名物である鉄分で赤く染めたこんにゃくを、花かつおと醤油で炒り煮にした一品。煮ても色が抜けないのが特徴で、冠婚葬祭や学校給食にも欠かせない一皿として親しまれている。",
+   "summary_en": "Konjac dyed reddish with iron oxide, a specialty of Omi-Hachiman, is pan-simmered with bonito flakes and soy sauce. The color holds even after cooking, and the dish is a fixture at ceremonial meals and school lunches alike.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/aka_konnyaku_ni_shiga.html",
+     "title": "赤こんにゃく煮 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "aka-konnyaku-ni",
+     "to_slug": "junjun",
+     "relation_type": "使用食材",
+     "basis": "出典に赤こんにゃくが「じゅんじゅん」鍋に合う食材として明記"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shijimi-jiru",
+   "name_ja": "しじみ汁",
+   "name_romaji": "Shijimi Jiru",
+   "name_en": "Shijimi jiru — miso soup with Lake Biwa's endemic seta shijimi clam",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.0045,
+   "lng": 135.8686,
+   "summary_ja": "琵琶湖の固有種セタシジミを昆布だしと合わせた味噌汁。他のシジミより殻が大きく身にコクがあるとされ、産卵前の春が特に美味とされる。近年は漁獲量の減少で貴重になってきているという。",
+   "summary_en": "A miso soup built on seta shijimi, a clam found only in Lake Biwa, simmered in a kelp-based broth. Plumper and richer than other shijimi species, it is said to taste best in spring before spawning, though catches have grown scarce in recent years.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shijimi_jiru_shiga.html",
+     "title": "しじみ汁 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shijimi-jiru",
+     "to_slug": "funa-zushi",
+     "relation_type": "対比",
+     "basis": "どちらも琵琶湖の恵みを生かす料理だが、しじみ汁は汁物、ふなずしは発酵食と調理法が異なる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ebimame",
+   "name_ja": "えび豆",
+   "name_romaji": "Ebi Mame",
+   "name_en": "Ebi mame — Lake Biwa river shrimp simmered sweet-savory with soybeans",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.0045,
+   "lng": 135.8686,
+   "summary_ja": "琵琶湖でとれるスジエビを大豆とともに甘辛く煮た郷土料理。安価で日持ちがし、日常食として食べられる一方、「エビのように腰が曲がるまで達者に暮らせるように」との長寿の願いを込めて正月にも供されると伝わる。",
+   "summary_en": "Freshwater shrimp from Lake Biwa are simmered sweet-savory with soybeans. Inexpensive and long-keeping, the dish is eaten as everyday fare, but is also served at New Year's with a wish for long life — that one might live, like the bent-backed shrimp, into old age.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ebimame_shiga.html",
+     "title": "えび豆 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ebimame",
+     "to_slug": "isaza-mame",
+     "relation_type": "兄弟",
+     "basis": "どちらも琵琶湖の幸と大豆を甘辛く炊き合わせる滋賀の豆料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "saba-somen",
+   "name_ja": "鯖そうめん",
+   "name_romaji": "Saba Somen",
+   "name_en": "Saba somen — somen noodles simmered in grilled mackerel broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.3833,
+   "lng": 136.2833,
+   "summary_ja": "焼きサバを甘辛く煮込み、その煮汁でそうめんを味付ける湖北地域の料理。若狭から鯖街道を経て届いたサバを、田植え時期に嫁ぎ先へ贈る「五月見舞い」の風習とも結びついて伝わってきたという。",
+   "summary_en": "Grilled mackerel is simmered in a sweet-savory sauce, which is then used to season somen noodles. The dish traces back to mackerel carried along the old \"Saba Kaido\" route from Wakasa, and to a custom of sending preserved mackerel to newly married daughters during the busy rice-planting season.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/saba_soumen_shiga.html",
+     "title": "鯖そうめん 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "saba-somen",
+     "to_slug": "saba-no-bozushi",
+     "relation_type": "兄弟",
+     "basis": "どちらも鯖街道を経て届いたサバを使う湖北地域の料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "choji-fu-no-karashi-ae",
+   "name_ja": "丁字麩のからしあえ",
+   "name_romaji": "Chojifu no Karashi Ae",
+   "name_en": "Chojifu no karashi ae — square wheat gluten and cucumber in mustard miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.0045,
+   "lng": 135.8686,
+   "summary_ja": "滋賀のご当地麩である丁字麩をきゅうりと合わせ、辛子酢味噌で和えた定番料理。仏事の精進料理にも使われる麩を用い、もちもちとした食感とさっぱりとした後味が親戚の集まりで好まれると伝わる。",
+   "summary_en": "Chojifu, a square baked wheat gluten unique to Shiga, is paired with cucumber and dressed in mustard-miso vinegar. The gluten also appears in Buddhist vegetarian meals, and its chewy texture with a refreshing tang makes the dish a staple at family gatherings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/choujifu_no_karashi_ae_shiga.html",
+     "title": "丁字麩のからしあえ 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "choji-fu-no-karashi-ae",
+     "to_slug": "junjun",
+     "relation_type": "使用食材",
+     "basis": "出典に丁字麩が「じゅんじゅん」鍋に合う滋賀の特産食材として明記"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "uchimame-jiru",
+   "name_ja": "打ち豆汁",
+   "name_romaji": "Uchimame Jiru",
+   "name_en": "Uchimame jiru — miso soup with hand-pounded flattened soybeans",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.3833,
+   "lng": 136.2833,
+   "summary_ja": "蒸した大豆を木づちで一粒ずつ潰して乾燥させた打ち豆を、かぶや里芋とともに味噌汁に仕立てた湖北地域の料理。雪深い冬の貴重なたんぱく源とされ、報恩講のお講汁としても振る舞われると伝わる。",
+   "summary_en": "Soybeans, steamed and hand-flattened one by one with a wooden mallet before drying, are simmered with turnip and taro into a miso soup from Lake Biwa's snowy north. Once a vital winter protein source, it is also served at Buddhist memorial gatherings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/uchimame_jiru_shiga.html",
+     "title": "打ち豆汁 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "uchimame-jiru",
+     "to_slug": "shiga-itokoni",
+     "relation_type": "対比",
+     "basis": "どちらも報恩講の行事食として伝わる汁物・煮物だが、主材料と季節が異なる"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kogyo-no-tempura",
+   "name_ja": "湖魚の天ぷら",
+   "name_romaji": "Kogyo no Tempura",
+   "name_en": "Kogyo no tempura — tempura of Lake Biwa's small native fish",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.0045,
+   "lng": 135.8686,
+   "summary_ja": "小あゆやイサザ、ワカサギなど琵琶湖でとれる小魚を素揚げにする天ぷら。魚ごとに漁期が異なるため、組み合わせればほぼ通年味わえるとされ、揚げたては川魚特有の匂いが気にならないという。",
+   "summary_en": "Small fish native to Lake Biwa — koayu, isaza goby, or smelt — are battered and deep-fried. Because each fish has a different season, some combination is available almost year-round, and freshly fried, the fish loses the aroma freshwater fish are sometimes known for.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kogyono_tenpura_shiga.html",
+     "title": "湖魚の天ぷら 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kogyo-no-tempura",
+     "to_slug": "tempura",
+     "relation_type": "対比",
+     "basis": "既存の「天ぷら」と同じ揚げ物だが、琵琶湖固有の湖魚を使う点で異なる"
+    }
+   ],
+   "tags": [
+    "egg"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kofuku-mame",
+   "name_ja": "幸福豆",
+   "name_romaji": "Kofuku Mame",
+   "name_en": "Kofuku mame — griddled disks of roasted soybeans and flour",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.3833,
+   "lng": 136.2833,
+   "summary_ja": "煎った大豆を小麦粉の生地に混ぜ、円盤状に焼いた素朴なおやつ。米どころの滋賀では米粉でもつくられ、甘いおやつが少なかった時代に農作業の合間の一服として食べられてきたと伝わる。",
+   "summary_en": "Roasted soybeans are folded into a wheat-flour batter and griddled into flat discs. In rice-growing Shiga the batter is sometimes made with rice flour instead, and the humble snack was traditionally eaten during breaks from farm work.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kofuku_mame_shiga.html",
+     "title": "幸福豆 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kofuku-mame",
+     "to_slug": "oae-dango",
+     "relation_type": "兄弟",
+     "basis": "どちらも米や大豆を使った滋賀の素朴な農作業のおやつ"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "saba-no-bozushi",
+   "name_ja": "鯖の棒ずし",
+   "name_romaji": "Saba no Bozushi",
+   "name_en": "Saba no bozushi — pressed rod-shaped sushi of vinegar-cured mackerel",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.3833,
+   "lng": 136.2833,
+   "summary_ja": "酢締めした塩サバを酢飯で巻き、棒状に成形した押し寿司。鯖街道を経て届いたサバを使う湖北・湖西の料理のひとつで、大津や長浜の曳山祭りに欠かせないご馳走として供されてきたと伝わる。",
+   "summary_en": "Salt-cured, vinegar-set mackerel is rolled around vinegared rice and pressed into a log-shaped sushi. Made with mackerel carried along the old Saba Kaido route, it has long been a festival treat at the Otsu and Nagahama float parades.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sabano_bouzushi_shiga.html",
+     "title": "鯖の棒ずし 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "saba-no-bozushi",
+     "to_slug": "saba-somen",
+     "relation_type": "兄弟",
+     "basis": "どちらも鯖街道を経て届いたサバを使う湖北地域の料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "zeitaku-ni",
+   "name_ja": "ぜいたく煮",
+   "name_romaji": "Zeitaku Ni",
+   "name_en": "Zeitaku ni — desalted old takuan pickle simmered in dashi",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.0045,
+   "lng": 135.8686,
+   "summary_ja": "塩の抜けた古漬けのたくあんを水で塩抜きし、だし汁と醤油で炊き直した湖北地域の料理。漬物をわざわざ煮る手間のかかる料理であることが名の由来とされ、仏事に欠かせない定番として伝わる。",
+   "summary_en": "Old, over-salted takuan pickle is soaked to draw out the salt, then simmered again in dashi and soy sauce. The name, meaning \"extravagant simmer,\" is said to reflect the trouble of turning a pickle back into a cooked dish, and it remains a fixture at Buddhist memorial meals.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/zeitaku_ni_shiga.html",
+     "title": "ぜいたく煮 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "zeitaku-ni",
+     "to_slug": "furu-takuan-no-nimono",
+     "relation_type": "対比",
+     "basis": "福井県の「古たくあんの煮物」と同じく古漬けたくあんを塩抜きして炊き直す発想が共通"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shiga-tofu-dengaku",
+   "name_ja": "豆腐田楽",
+   "name_romaji": "Tofu Dengaku",
+   "name_en": "Tofu dengaku — skewered tofu grilled with sweet miso glaze",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.0045,
+   "lng": 135.8686,
+   "summary_ja": "水切りした豆腐を串に刺して焼き、木の芽味噌やねぎ味噌を塗って炙る料理。寺院の多い滋賀では精進料理として親しまれ、報恩講や冬至に食す湖北の風習や、東海道沿いの名物としても伝わってきたという。",
+   "summary_en": "Firm tofu is skewered, grilled, brushed with a sweet miso glaze, and grilled again until lightly charred. Popular as a vegetarian dish in temple-dense Shiga, it is traditionally made for Buddhist memorial gatherings and the winter solstice, and was once a specialty along the old Tokaido road.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/toufu_dengaku_shiga.html",
+     "title": "豆腐田楽 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shiga-tofu-dengaku",
+     "to_slug": "tofu-dengaku",
+     "relation_type": "対比",
+     "basis": "岩手県の「豆腐田楽」と同名同種の料理で、味噌の種類や添える具材が異なる"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial",
+    "skewered"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "dongame-jiru",
+   "name_ja": "泥亀汁",
+   "name_romaji": "Dongame Jiru",
+   "name_en": "Dongame jiru — miso soup of scored eggplant and sesame",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "東近江市",
+   "lat": 35.0333,
+   "lng": 136.2,
+   "summary_ja": "なすの皮に格子状の切れ目を入れてだし汁で煮て、味噌とすりごまを溶き入れた夏の汁物。近江商人の町、五個荘で生まれたとされ、汁のごまが泥、なすの甲羅模様が亀に見えることが名の由来という。",
+   "summary_en": "Eggplant scored with a crosshatch pattern is simmered in dashi, then finished with miso and ground sesame. Said to originate in the merchant town of Gokasho, the name compares the muddy look of the sesame in the broth and the eggplant's scored skin to a turtle's shell.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/dongame_jiru_shiga.html",
+     "title": "泥亀汁 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "dongame-jiru",
+     "to_slug": "uchimame-jiru",
+     "relation_type": "対比",
+     "basis": "どちらも滋賀の具沢山な味噌汁だが、夏のなすと冬の打ち豆で季節が対照的"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oae-dango",
+   "name_ja": "おあえ団子",
+   "name_romaji": "Oae Dango",
+   "name_en": "Oae dango — rice-flour dumplings wrapped in tofu-vegetable shira-ae",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.0667,
+   "lng": 135.9833,
+   "summary_ja": "米粉でつくった団子を、人参やしいたけ、こんにゃく、豆腐であえた白和えで包み込んだ守山・野洲地域の料理。お茶うけにもなる素朴な甘さで、主に法事の席で供されてきたと伝わる。",
+   "summary_en": "Rice-flour dumplings are wrapped in a shira-ae dressing of tofu mashed with carrot, shiitake, and greens. Mildly sweet enough to serve alongside tea, the dish from the Moriyama and Yasu area is traditionally made for Buddhist memorial gatherings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/oaedango_shiga.html",
+     "title": "おあえ団子 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "oae-dango",
+     "to_slug": "kofuku-mame",
+     "relation_type": "兄弟",
+     "basis": "どちらも米や大豆を使った滋賀の素朴なおやつ・行事食"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "omi-gyu-no-misozuke",
+   "name_ja": "近江牛の味噌漬",
+   "name_romaji": "Omi Gyu no Misozuke",
+   "name_en": "Omi gyu no misozuke — Omi beef cured in white miso before grilling",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.0045,
+   "lng": 135.8686,
+   "summary_ja": "近江牛を白味噌に数日漬け込んでから焼く料理。江戸時代に彦根藩が薬用として将軍家へ献上した牛肉の味噌漬けが起源のひとつとされ、国内最古のブランド牛の歴史を今に伝える一皿とされる。",
+   "summary_en": "Omi beef is cured in white miso for several days, then wiped clean and pan-grilled. One account traces it to the Edo-period Hikone domain, which presented miso-cured beef to the shogunate as a medicinal offering — an early chapter in the history of what is considered Japan's oldest branded beef.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/oumigyuu_no_misozuke_shiga.html",
+     "title": "近江牛の味噌漬 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "omi-gyu-no-misozuke",
+     "to_slug": "omi-gyu",
+     "relation_type": "使用食材",
+     "basis": "既存アイテム「近江牛」を白味噌に漬け込んで仕立てる加工料理"
+    }
+   ],
+   "tags": [
+    "beef",
+    "miso",
+    "fermented"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kurumi-gobo",
+   "name_ja": "くるみごぼう",
+   "name_romaji": "Kurumi Gobo",
+   "name_en": "Kurumi gobo — burdock root bound in a sweet edamame paste",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "甲賀市",
+   "lat": 34.9639,
+   "lng": 136.2075,
+   "summary_ja": "ゆでてすりつぶした枝豆に砂糖を加えた餡を、下ゆでしたごぼうに絡めた料理。甲賀市信楽町上朝宮の三所神社で行われる秋祭り「ごんぼ祭り」に供えられ、食べると健康に過ごせるといわれてきた。",
+   "summary_en": "Boiled edamame is mashed into a sweetened paste and tossed with par-boiled burdock root. The dish is offered at the autumn \"gonbo festival\" held at Sansho Shrine in Koka's Shigaraki area, where it is said that eating it brings a year of good health.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kurumi_gobou_shiga.html",
+     "title": "くるみごぼう 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kurumi-gobo",
+     "to_slug": "shoi-meshi",
+     "relation_type": "対比",
+     "basis": "どちらも滋賀の一地域(甲賀市・高島市)に伝わる祭り・行事色の強い郷土料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shoi-meshi",
+   "name_ja": "しょいめし",
+   "name_romaji": "Shoi Meshi",
+   "name_en": "Shoi meshi — soy-seasoned rice cooked with root vegetables",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "高島市",
+   "lat": 35.35,
+   "lng": 136.0333,
+   "summary_ja": "ごぼうや人参、干ししいたけ、油揚げをだし汁と醤油で煮て、そこに米を加えて炊き上げる高島市新旭地域の料理。祭りの際に食べられてきたことから「わっしょい」にちなむ説など、名の由来には諸説あるという。",
+   "summary_en": "Burdock, carrot, dried shiitake, and fried tofu are simmered in dashi and soy sauce before rice is added and cooked through, a specialty of the Shinasahi area of Takashima. Traditionally eaten at festivals, its name is said to echo the festival chant \"wasshoi,\" among other theories.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shoi_meshi_shiga.html",
+     "title": "しょいめし 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shoi-meshi",
+     "to_slug": "kurumi-gobo",
+     "relation_type": "対比",
+     "basis": "どちらも滋賀の一地域(高島市・甲賀市)に伝わる祭り・行事色の強い郷土料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hasu-gyoden",
+   "name_ja": "はす魚田",
+   "name_romaji": "Hasu Gyoden",
+   "name_en": "Hasu gyoden — grilled Lake Biwa hasu fish glazed with sweet miso",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.3167,
+   "lng": 136.2833,
+   "summary_ja": "琵琶湖にすむ肉食性の淡水魚ハスを塩と酒でしめ、玉味噌を塗って焼く料理。網にかかると弱ってしまい流通しにくいため、限られた地域でのみ味わわれてきた琵琶湖八珍のひとつとされる。",
+   "summary_en": "Hasu, a rare carnivorous freshwater fish native to Lake Biwa, is salted and grilled, then brushed with a sweetened miso glaze. Because the fish weakens quickly once netted and rarely reaches wider markets, this member of the \"eight Lake Biwa delicacies\" has stayed a local specialty.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hasu_gyoden_shiga.html",
+     "title": "はす魚田 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hasu-gyoden",
+     "to_slug": "yaki-moroko-no-dorozu",
+     "relation_type": "対比",
+     "basis": "どちらも琵琶湖の魚を焼いて味噌だれ・酢味噌で仕上げる調理法が共通"
+    }
+   ],
+   "tags": [
+    "miso",
+    "skewered"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hitokawa-zushi",
+   "name_ja": "ひとかわすし",
+   "name_romaji": "Hitokawa Zushi",
+   "name_en": "Hitokawa zushi — a box sushi pressed in four or five colorful layers",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.0333,
+   "lng": 136.2,
+   "summary_ja": "酢飯と干ししいたけ、人参、錦糸卵などの具材を寿司桶に何段も重ねて押し固める箱寿司。一段ずつ取り分けて食べることから「ひとかわすし」と呼ばれ、一度に大人数分をつくれることから人寄せの席に伝わる。",
+   "summary_en": "Vinegared rice and colorful toppings such as dried shiitake, carrot, and shredded egg are layered four or five times in a wooden mold and pressed. Served by lifting off one layer at a time, the sushi can feed twenty to forty people at once, making it a fixture at large gatherings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hitokawa_zushi_shiga.html",
+     "title": "ひとかわすし 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hitokawa-zushi",
+     "to_slug": "funa-zushi",
+     "relation_type": "対比",
+     "basis": "どちらも滋賀に伝わる寿司だが、ひとかわすしは押し寿司、ふなずしは発酵寿司と製法が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "biwamasu-sashimi",
+   "name_ja": "ビワマス刺身",
+   "name_romaji": "Biwamasu Sashimi",
+   "name_en": "Biwamasu sashimi — raw slices of Lake Biwa's endemic trout",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.0045,
+   "lng": 135.8686,
+   "summary_ja": "琵琶湖にのみ生息するサケ科の固有種ビワマスを三枚におろした刺身。初夏から夏にかけて脂がのり、地元では「琵琶湖の宝石」と呼ばれるほど貴重で、あまり流通しない魚と伝わる。",
+   "summary_en": "Biwamasu, a trout found only in Lake Biwa, is filleted and served raw as sashimi. The fish grows richest from early to midsummer and is prized locally as \"the jewel of Lake Biwa\" — a fish so scarce that it rarely reaches markets beyond the lakeshore.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/biwamasu_sasimi_shiga.html",
+     "title": "ビワマス刺身 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "biwamasu-sashimi",
+     "to_slug": "amenoio-gohan",
+     "relation_type": "兄弟",
+     "basis": "どちらも琵琶湖固有種ビワマスを主役にした料理"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yaki-moroko-no-dorozu",
+   "name_ja": "焼きもろこのどろ酢",
+   "name_romaji": "Yaki Moroko no Dorozu",
+   "name_en": "Yaki moroko no dorozu — grilled honmoroko dipped in miso vinegar",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "滋賀県",
+   "origin_city": "",
+   "lat": 35.0045,
+   "lng": 135.8686,
+   "summary_ja": "琵琶湖固有種ホンモロコを串に刺して焼き、味噌・砂糖・辛子・酢を合わせた「どろ酢」につけて食べる料理。冬から春の子持ちの時期が特に美味とされ、絶滅危惧種ながら養殖で今も食されていると伝わる。",
+   "summary_en": "Honmoroko, a minnow found only in Lake Biwa, is grilled on skewers and dipped in \"doro-zu,\" a muddy-colored sauce of miso, sugar, mustard, and vinegar. The roe-bearing fish of winter and spring are considered best, and though endangered in the wild, farmed stock keeps the dish on tables today.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yaki_morokono_dorozu_shiga.html",
+     "title": "焼きもろこのどろ酢 滋賀県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yaki-moroko-no-dorozu",
+     "to_slug": "hasu-gyoden",
+     "relation_type": "対比",
+     "basis": "どちらも琵琶湖の魚を焼いて味噌だれ・酢味噌で仕上げる調理法が共通"
+    }
+   ],
+   "tags": [
+    "miso",
+    "skewered"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "【作らなかった行】funa_zushi_shiga(ふなずし): existing_slug=funa-zushi, match_confidence=high のため既存として作らない / hinona_zuke_shiga(日野菜漬け): genre_hint=tsukemono(野菜の漬物そのもの)のため作らない / hakusai_no_tatami_zuke_shiga(白菜のたたみ漬け): genre_hint=tsukemono(野菜の漬物そのもの)のため作らない 【low判定の内訳】kogyono_tenpura_shiga(湖魚の天ぷら): existing_slug=tempura, match_confidence=low → 既存tempuraは無pref/汎用の天ぷらで別物と判定し新規作成(slug: kogyo-no-tempura) / oumigyuu_no_misozuke_shiga(近江牛の味噌漬): existing_slug=omi-gyu, match_confidence=low → 既存omi-gyuは近江牛そのもの(食材)、本品は味噌漬け加工料理で別物と判定し新規作成(slug: omi-gyu-no-misozuke) 【個別判断】shiga-itokoni: 既存slug「itokoni」（富山県）と同名のため slug を shiga-itokoni に変更 / amenoio-gohan: 伝承地域は県内全域のため県庁所在地(大津市)座標を使用 / shiga-decchi-yokan: 既存slug「decchi-yokan」（福井県）と同名読みのため slug を shiga-decchi-yokan に変更 / shijimi-jiru: 伝承地域は県内全域のため県庁所在地(大津市)座標を使用 / ebimame: 伝承地域は県内全域のため県庁所在地(大津市)座標を使用 / choji-fu-no-karashi-ae: 伝承地域は県内全域のため県庁所在地(大津市)座標を使用 / kogyo-no-tempura: 既存slug「tempura」(match_confidence=low)と衝突する内容差のため新規作成。汎用天ぷらではなく琵琶湖の湖魚に限定した料理 / zeitaku-ni: 伝承地域は県内全域のため県庁所在地(大津市)座標を使用 / shiga-tofu-dengaku: 既存slug「tofu-dengaku」（岩手県）と同名のため slug を shiga-tofu-dengaku に変更。三重県のトウフデンガクとも同名のため両方に地名を冠した / dongame-jiru: 伝承地域「湖東地域」は「地方」単位として中心都市の東近江市座標を使用、origin_cityは空欄(広域) / oae-dango: 伝承地域「守山地域、野洲地域」は複数のためorigin_city空欄、代表として守山市座標を使用 / omi-gyu-no-misozuke: 既存slug omi-gyu(match_confidence=low)は牛肉そのもの、本品は味噌漬け加工料理で別物のため新規作成。genre_hint=tsukemonoだが食肉の保存食のため例外規定を適用しgenreはnull / shoi-meshi: 伝承地域「高島市、新旭町」は新旭町が高島市に編入済みのため単一市とみなしorigin_cityを高島市とした / hasu-gyoden: 伝承地域「湖岸、米原地域」は単一市町村に絞れないためorigin_city空欄、代表点として米原市座標を使用(広域)。shelfは焼き魚に味噌を塗って炙る調理法のためhomestyleからgrilledに変更 / hitokawa-zushi: 伝承地域「愛荘町、東近江市」は複数のためorigin_city空欄、代表として東近江市座標を使用(広域) / biwamasu-sashimi: 伝承地域は県内全域のため県庁所在地(大津市)座標を使用 / yaki-moroko-no-dorozu: 伝承地域は県内全域のため県庁所在地(大津市)座標を使用"
+}

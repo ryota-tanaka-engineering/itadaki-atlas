@@ -1,0 +1,928 @@
+{
+ "items": [
+  {
+   "slug": "arame-maki",
+   "name_ja": "あらめ巻き",
+   "name_romaji": "Arame Maki",
+   "name_en": "Arame maki — seasonal fish rolled in dried arame seaweed and simmered",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "鳥羽市",
+   "lat": 34.4875,
+   "lng": 136.8383,
+   "summary_ja": "水で戻したアラメ（褐藻の一種）でイワシやサンマを幾重にも巻き、醤油と砂糖で煮付けた鳥羽の郷土料理。伊勢神宮にも献上されてきたアラメを使い、地域によって巻く魚が変わると伝わる。",
+   "summary_en": "Rehydrated arame, a brown seaweed once offered to Ise Shrine, is wrapped several times around sardine or saury and simmered in soy sauce and sugar. The choice of fish shifts by locality along the Toba coast.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/arame_maki_mie.html",
+     "title": "あらめ巻き 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "arame-maki",
+     "to_slug": "sakana-no-shiokara",
+     "relation_type": "対比",
+     "basis": "どちらも海の幸を長く味わうための加工の知恵だが、海藻で巻くか塩で漬けるかで手法が異なる"
+    }
+   ],
+   "tags": [
+    "kelp",
+    "ceremonial",
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mie-aimaze",
+   "name_ja": "あいまぜ",
+   "name_romaji": "Aimaze",
+   "name_en": "Aimaze — julienned vegetables dressed separately then tossed together",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "伊勢市",
+   "lat": 34.4859,
+   "lng": 136.7096,
+   "summary_ja": "干ししいたけやれんこん、ごぼう、凍りこんにゃくなどをそれぞれ別々に煮て味付けし、合わせ酢で和える料理。法事用の煮しめの残りを刻んで活用したのが始まりとされ、地域で呼び名が変わると伝わる。",
+   "summary_en": "Dried shiitake, lotus root, burdock, and freeze-dried konjac are each simmered and seasoned separately, then tossed together in a sweetened vinegar dressing. It is said to have begun as a way to use up leftover simmered dishes from funeral gatherings, and the name changes by locality.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/aimaze_mie.html",
+     "title": "あいまぜ 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mie-aimaze",
+     "to_slug": "aimaze",
+     "relation_type": "対比",
+     "basis": "石川県の「あいまぜ」と同名だが、三重は複数の下ゆで具材を合わせ酢で和える点で調理法が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fuki-dawara",
+   "name_ja": "ふき俵",
+   "name_romaji": "Fuki Dawara",
+   "name_en": "Fuki dawara — rice wrapped in butterbur leaf as a harvest offering",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "",
+   "lat": 34.7692,
+   "lng": 136.133,
+   "summary_ja": "大豆を炊き込んだご飯をふきの葉で米俵のかたちに包んだ伊賀地域の行事食。田植えの際、田の神に豊作を祈って供えるほか、農作業の合間の携帯食としても食べられてきたと伝わる。",
+   "summary_en": "Rice cooked with soybeans is wrapped in butterbur leaves into a small rice-bale shape, an Iga-area harvest offering. It is set before the rice-paddy deity at planting time to pray for a good crop, and doubles as a portable snack for breaks between farm work.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/fuki_dawara_mie.html",
+     "title": "ふき俵 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fuki-dawara",
+     "to_slug": "chagayu",
+     "relation_type": "兄弟",
+     "basis": "どちらも耕地の少ない伊賀地域で米を大切に使う工夫から生まれた料理"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "handheld"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "bon-jiru",
+   "name_ja": "盆汁",
+   "name_romaji": "Bon Jiru",
+   "name_en": "Bon jiru — a vegetable-packed miso soup made without fish stock for Obon",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "",
+   "lat": 34.5778,
+   "lng": 136.5281,
+   "summary_ja": "ごぼうやなす、かぼちゃなど旬の野菜をたっぷり煮込んだ味噌汁。お盆に殺生を避ける禅宗の教えから、かつお節や煮干しのだしを使わず、油揚げと具材の多さで旨みを出すのが特徴とされる。",
+   "summary_en": "A miso soup packed with seasonal vegetables such as burdock, eggplant, and pumpkin. Following Zen Buddhist practice of avoiding killing during Obon, it skips bonito or dried-fish stock, relying instead on fried tofu and a generous mix of vegetables for its savor.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/bonjiru_mie.html",
+     "title": "盆汁 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "bon-jiru",
+     "to_slug": "uchimame-jiru",
+     "relation_type": "対比",
+     "basis": "どちらも具沢山の味噌汁で行事に結びつくが、盆汁は夏の精進料理、打ち豆汁は冬の行事食と対照的"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ibara-mochi",
+   "name_ja": "いばら餅",
+   "name_romaji": "Ibara Mochi",
+   "name_en": "Ibara mochi — sweet rice cake wrapped in smilax leaves",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "",
+   "lat": 34.7185,
+   "lng": 136.5056,
+   "summary_ja": "上新粉の生地であんを包み、丸くつるりとしたサルトリイバラの葉で包んで蒸した5月の節句菓子。津市では「いばら餅」、地域によって「がんだち餅」「どっかん餅」などと呼び名が変わると伝わる。",
+   "summary_en": "Sweet bean paste wrapped in rice-flour dough is enclosed in a round, smooth smilax leaf and steamed, traditionally made for the May boy's festival. Known as \"ibara mochi\" in Tsu, the same treat carries different names — \"gandachi mochi,\" \"dokkan mochi\" — across other parts of Mie.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ibara_mochi_mie.html",
+     "title": "いばら餅 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ibara-mochi",
+     "to_slug": "naisho-mochi",
+     "relation_type": "兄弟",
+     "basis": "どちらも三重で家庭に伝わる素朴な餅菓子"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "handheld"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "same-namasu",
+   "name_ja": "さめなます",
+   "name_romaji": "Same Namasu",
+   "name_en": "Same namasu — thinly sliced shark blanched and dressed in fermented miso",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "志摩市",
+   "lat": 34.3236,
+   "lng": 136.8206,
+   "summary_ja": "そぎ切りにしたサメの身をさっと湯通しし、志摩地域独特の発酵の効いた塩辛いみそだれで和える料理。サメは「鮫」の字に交わるを含むためおめでたい席にふさわしいとされ、婚礼などの祝いの一品に供されてきたと伝わる。",
+   "summary_en": "Shark meat, sliced thin, is briefly blanched and dressed in a strongly fermented, salty miso sauce distinctive to the Shima area. Because the character for shark contains the character for \"intersection,\" the fish is considered auspicious and traditionally served at weddings and other celebrations.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/same_namasu_mie.html",
+     "title": "さめなます 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "same-namasu",
+     "to_slug": "sakana-no-tataki",
+     "relation_type": "対比",
+     "basis": "どちらも熊野灘沿岸で生の魚を使う料理だが、さめなますは湯通しして味噌だれで和え、たたきは包丁でたたく点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "fermented"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sakana-no-jifu",
+   "name_ja": "魚のじふ",
+   "name_romaji": "Sakana no Jifu",
+   "name_en": "Sakana no jifu — a fisherman's sukiyaki-style hot pot of blue-backed fish",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "尾鷲市",
+   "lat": 34.0704,
+   "lng": 136.1897,
+   "summary_ja": "サンマやサバなど背の青い旬の魚と季節の野菜、豆腐、糸こんにゃくを醤油だれで煮る東紀州の鍋料理。「魚のすき焼き」とも呼ばれ、大勢が集まっても分かち合える漁師町の定番として親しまれてきたという。",
+   "summary_en": "Seasonal blue-backed fish such as saury or mackerel are simmered with vegetables, tofu, and konjac noodles in a soy-based broth, a fisherman's hot pot from the Higashi-Kishu coast. Also called \"fish sukiyaki,\" it is a staple that can easily stretch to feed a crowd.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sakana_no_jifu_mie.html",
+     "title": "魚のじふ／魚のすき焼き 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sakana-no-jifu",
+     "to_slug": "sukiyaki",
+     "relation_type": "対比",
+     "basis": "出典が「漁師街のすき焼き鍋」と明記する通り、すき焼きと同系統の鍋料理だが魚が主役の点で異なる"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chagayu",
+   "name_ja": "茶粥",
+   "name_romaji": "Chagayu",
+   "name_en": "Chagayu — rice porridge cooked in roasted tea",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "",
+   "lat": 34.7185,
+   "lng": 136.5056,
+   "summary_ja": "ほうじ茶などを煎じた茶袋の湯に米を入れて炊いたお粥。耕地が少なく米が貴重だった伊賀地域で、水の量を増やして米を節約する工夫から生まれたとされ、夏は冷やして食べる家庭もあるという。",
+   "summary_en": "Rice is cooked in water steeped with a bag of roasted tea leaves. Born in Iga, where farmland was scarce and rice precious, the extra water was a way to stretch the grain further; in summer some households chill the porridge before eating.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/chagayu_mie.html",
+     "title": "茶粥 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "chagayu",
+     "to_slug": "fuki-dawara",
+     "relation_type": "兄弟",
+     "basis": "どちらも耕地の少ない伊賀地域で米を大切に使う工夫から生まれた料理"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mie-tofu-dengaku",
+   "name_ja": "豆腐でんがく",
+   "name_romaji": "Tofu Dengaku",
+   "name_en": "Tofu dengaku — skewered tofu grilled with sweet miso in Iga style",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "伊賀市",
+   "lat": 34.7692,
+   "lng": 136.133,
+   "summary_ja": "水切りした豆腐に串を打って焼き、田楽味噌を塗って炙る伊賀地域の料理。魚介の乏しい盆地で貴重なたんぱく源だった豆腐を使い、大晦日や正月、山の口講のもてなしに供されてきたと伝わる。",
+   "summary_en": "Firm tofu is skewered, grilled, brushed with a sweet miso glaze, and grilled again, an Iga-basin dish. In a landlocked area with little access to seafood, tofu was a vital protein source, and the dish was traditionally served at New Year's and mountain-deity rites.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/toufu_dengaku_mie.html",
+     "title": "豆腐でんがく 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mie-tofu-dengaku",
+     "to_slug": "shiga-tofu-dengaku",
+     "relation_type": "兄弟",
+     "basis": "滋賀県の「豆腐田楽」と同じ串焼き豆腐に味噌を塗る料理だが、それぞれ独自の食文化圏で伝わってきた"
+    }
+   ],
+   "tags": [
+    "miso",
+    "skewered",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "noppei",
+   "name_ja": "のっぺい",
+   "name_romaji": "Noppei",
+   "name_en": "Noppei — a thick root-vegetable stew that settles into a simmered dish",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "",
+   "lat": 34.7692,
+   "lng": 136.133,
+   "summary_ja": "里芋を必ず具に使い、人参や大根、こんにゃくなど根菜を油で炒めずに煮込む冬の料理。海に面さない伊賀地域では魚料理に恵まれなかったため、竹輪やかまぼこなど加工品も貴重なごちそうだったと伝わる。",
+   "summary_en": "Taro is always among the vegetables, simmered with carrot, daikon, and konjac without pan-frying first, a winter dish from landlocked Iga. Without easy access to seafood, processed goods like fish cake and kamaboko were treasured additions.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/noppei_mie.html",
+     "title": "のっぺい 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "noppei",
+     "to_slug": "chagayu",
+     "relation_type": "対比",
+     "basis": "どちらも海に面さない伊賀地域を代表する家庭料理だが、のっぺいは冬の煮物、茶粥は通年の粥料理と役割が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ahodaki",
+   "name_ja": "あほだき",
+   "name_romaji": "Ahodaki",
+   "name_en": "Ahodaki — desalted old takuan pickle simmered in soy sauce",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "いなべ市",
+   "lat": 35.2136,
+   "lng": 136.4967,
+   "summary_ja": "味や匂いが落ちてきた古漬けのたくあんを塩抜きし、醤油だれで炊き直す北勢地域の常備菜。美味しい時期を過ぎてから食べる「あほなことをしている」との自嘲めいた名の由来が伝わる、食品を無駄にしない知恵の料理。",
+   "summary_en": "Old takuan pickle, once its flavor and aroma have faded, is desalted and simmered again in soy sauce, a pantry staple from the Hokusei area. Its name — playfully self-deprecating, roughly \"doing a foolish thing\" — nods to eating it well past its prime, a frugal way to waste nothing.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ahodaki_mie.html",
+     "title": "あほだき 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ahodaki",
+     "to_slug": "furu-takuan-no-nimono",
+     "relation_type": "対比",
+     "basis": "出典に福井県の「たくあんの煮たの」など同様の料理が挙げられており、古漬けたくあんを炊き直す発想が共通"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iwashi-zushi",
+   "name_ja": "いわしずし",
+   "name_romaji": "Iwashi Zushi",
+   "name_en": "Iwashi zushi — pressed box sushi topped with salted sardine",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "三重県",
+   "origin_city": "",
+   "lat": 34.7185,
+   "lng": 136.5056,
+   "summary_ja": "塩をしたイワシを木枠に詰めた酢飯にのせて押し固める寿司。イワシ漁が盛んな三重の秋祭りに欠かせない一品とされ、山側の伊賀・名張ではイワシがごちそうとして特に喜ばれてきたと伝わる。",
+   "summary_en": "Salted sardine is layered over vinegared rice packed into a wooden box mold and pressed. A fixture of Mie's autumn festivals in a prefecture known for its sardine catch, it was especially prized inland in Iga and Nabari, where fresh fish was harder to come by.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/iwashi_zushi_mie.html",
+     "title": "いわしずし 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "iwashi-zushi",
+     "to_slug": "sanma-zushi",
+     "relation_type": "対比",
+     "basis": "既存アイテム「さんまずし」と同じく三重の祭りに欠かせない魚を使った押し寿司"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kakimaze",
+   "name_ja": "かきまぜ",
+   "name_romaji": "Kakimaze",
+   "name_en": "Kakimaze — a five-color mixed sushi from the Kumano coast",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "三重県",
+   "origin_city": "",
+   "lat": 34.1547,
+   "lng": 136.0972,
+   "summary_ja": "酢に漬けたマグロやサンマの身を、細かく刻んで煮た具材とともに酢飯に混ぜ込む東紀州南部の五目ずし。冠婚葬祭や人寄せの席でつくられ、具材は5種または7種の奇数で取り合わせると伝わる。",
+   "summary_en": "Tuna or saury cured in vinegar is folded into vinegared rice along with finely chopped, simmered ingredients, a mixed sushi from the southern Higashi-Kishu coast. Made for weddings, funerals, and other gatherings, it traditionally combines five or seven ingredients — always an odd number.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kakimaze_mie.html",
+     "title": "かきまぜ 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kakimaze",
+     "to_slug": "kokera-zushi",
+     "relation_type": "対比",
+     "basis": "既存アイテム「こけらずし」と同じく三重に伝わる彩り豊かな混ぜ・押し寿司"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "garagara-oroshi",
+   "name_ja": "ガラガラおろし",
+   "name_romaji": "Garagara Oroshi",
+   "name_en": "Garagara oroshi — coarsely grated daikon mixed with dried sardine and miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "",
+   "lat": 34.7185,
+   "lng": 136.5056,
+   "summary_ja": "竹製の鬼おろし器で粗くおろした大根に、油揚げやちくわ、煮干し、赤白の味噌、酢を合わせる料理。江戸時代には年貢の代わりに納めた地域もあったとされ、冠婚葬祭や正月の箸休めとして伝わる。",
+   "summary_en": "Daikon coarsely grated with a bamboo \"oni-oroshi\" grater is mixed with fried tofu, fish cake, dried sardine, red and white miso, and vinegar. Some areas are said to have once paid it in place of rice tax, and it remains a palate-cleansing side at weddings, funerals, and New Year's.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/garagara_oroshi_mie.html",
+     "title": "ガラガラおろし 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "garagara-oroshi",
+     "to_slug": "chatsu",
+     "relation_type": "対比",
+     "basis": "どちらも北勢地域で冠婚葬祭の際に出される副菜的な一品"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kyuri-no-hiyajiru",
+   "name_ja": "きゅうりの冷や汁",
+   "name_romaji": "Kyuri no Hiyajiru",
+   "name_en": "Kyuri no hiyajiru — a cold sesame-miso soup with cucumber",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "",
+   "lat": 34.7692,
+   "lng": 136.133,
+   "summary_ja": "すりごまと味噌をすり合わせ、輪切りのきゅうりを加えて冷たいだし汁でのばした夏の汁物。盆地特有の蒸し暑さで食欲が落ちる伊賀地域で、夏バテを乗り切る知恵として食べられてきたと伝わる。",
+   "summary_en": "Ground sesame and miso are worked together, mixed with sliced cucumber, and thinned with chilled dashi, a summer soup from the Iga basin's sweltering heat. It has long been eaten as a way to keep up one's appetite through the hottest months.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kyuuri_no_hiyajiru_mie.html",
+     "title": "きゅうりの冷や汁 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kyuri-no-hiyajiru",
+     "to_slug": "hiyajiru",
+     "relation_type": "対比",
+     "basis": "埼玉県の「冷や汁」と同じ冷たい味噌仕立ての夏の汁だが、三重ではご飯にかけず汁物として食べる点が異なる"
+    }
+   ],
+   "tags": [
+    "miso",
+    "cold_served"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kounago-no-kugini",
+   "name_ja": "こうなごのくぎ煮",
+   "name_romaji": "Kounago no Kugini",
+   "name_en": "Kounago no kugini — young sand lance simmered into curled, nail-like strands",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "鳥羽市",
+   "lat": 34.4875,
+   "lng": 136.8383,
+   "summary_ja": "伊勢湾でとれる稚魚コウナゴ（イカナゴ）をザラメと醤油、清酒で煮詰めた佃煮。煮ると細長い身が折れ曲がり、錆びた釘のように見えることが名の由来とされ、春を告げる伊勢湾岸の味と伝わる。",
+   "summary_en": "Young sand lance from Ise Bay, called kounago locally, are simmered down with coarse sugar, soy sauce, and sake. As the slender fish curl while cooking, they come to resemble rusted nails — the source of the dish's name — and the catch is considered a herald of spring along the bay.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kounago_no_kugini_mie.html",
+     "title": "こうなごのくぎ煮 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kounago-no-kugini",
+     "to_slug": "sakana-no-shiokara",
+     "relation_type": "対比",
+     "basis": "どちらも伊勢湾岸で大量に獲れた魚介を保存加工する知恵から生まれた料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "souvenir_non_confection"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mie-zoni",
+   "name_ja": "雑煮",
+   "name_romaji": "Zoni",
+   "name_en": "Zoni — New Year's mochi soup where eastern and western customs meet",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "",
+   "lat": 34.7185,
+   "lng": 136.5056,
+   "summary_ja": "正月に食べる餅入りの汁物で、三重は東西文化の境目にあたることから角餅と丸餅、すまし汁と味噌汁が地域ごとに入り混じって伝わる。県立博物館の調査では県内で9つの分布ブロックに分かれるとされる。",
+   "summary_en": "A New Year's soup with mochi, made distinct by Mie's position at the meeting point of eastern and western Japan — square and round mochi, clear broth and miso broth, vary by district. A prefectural museum survey found the custom splits into nine regional patterns across Mie.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/zouni_mie.html",
+     "title": "雑煮 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mie-zoni",
+     "to_slug": "toyama-zoni",
+     "relation_type": "対比",
+     "basis": "既存アイテムの富山県「雑煮」と同じく、地域色が色濃く残る郷土の雑煮という点で対比できる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tako-meshi",
+   "name_ja": "たこ飯",
+   "name_romaji": "Tako Meshi",
+   "name_en": "Tako meshi — rice cooked together with fresh octopus",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "鳥羽市",
+   "lat": 34.4875,
+   "lng": 136.8383,
+   "summary_ja": "生ダコを調味液とともに米に炊き込む鳥羽市答志島畔蛸の料理。伊勢湾口の速い潮流で身が締まったタコは「潮騒タコ」とも呼ばれ、伊勢神宮の神饌にも用いられるなど古くから身近な食材だったと伝わる。",
+   "summary_en": "Fresh octopus is cooked directly into the rice with a seasoning liquid, a dish from Adako on Toba's Toshi Island. Octopus firmed by the fast currents at the mouth of Ise Bay is known locally as \"shiosai dako,\" and has long been offered at Ise Shrine's ritual meals as well as eaten at home.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tako_meshi_mie.html",
+     "title": "たこ飯 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tako-meshi",
+     "to_slug": "kounago-no-kugini",
+     "relation_type": "対比",
+     "basis": "どちらも伊勢湾・鳥羽の海の幸を生かした郷土料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "naisho-mochi",
+   "name_ja": "ないしょ餅",
+   "name_romaji": "Naisho Mochi",
+   "name_en": "Naisho mochi — half-pounded rice cake made quietly without a mortar",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "大台町",
+   "lat": 34.3667,
+   "lng": 136.3167,
+   "summary_ja": "蒸したもち米とうるち米を鍋の中で半づきにし、よもぎとあんを混ぜて仕上げる大台町の餅菓子。臼と杵を使う音が近所に響くのを避け、内緒でつくったことが名の由来とされ、「なべ餅」とも呼ばれる。",
+   "summary_en": "Steamed glutinous and non-glutinous rice are half-pounded together in a pot, then finished with mugwort and sweet bean paste, a specialty of Odai town. The name, meaning \"secret mochi,\" is said to come from making it quietly in a pot rather than with a mortar and pestle, whose thumping would carry to the neighbors; it is also called \"nabe mochi.\"",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/naisho_meshi_mie.html",
+     "title": "ないしょ餅/なべ餅 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "naisho-mochi",
+     "to_slug": "ibara-mochi",
+     "relation_type": "兄弟",
+     "basis": "どちらも三重で家庭に伝わる素朴な餅菓子"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "manbo-sumiso-ae",
+   "name_ja": "まんぼう酢味噌あえ",
+   "name_romaji": "Manbo Sumiso Ae",
+   "name_en": "Manbo sumiso ae — lightly boiled ocean sunfish dressed in vinegar-miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "尾鷲市",
+   "lat": 34.0704,
+   "lng": 136.1897,
+   "summary_ja": "手で裂いたマンボウの身をさっとゆでて、酢味噌で和える東紀州の料理。長時間煮ると身が縮んでしまうため短時間でゆでるのがこつとされ、鶏のささみに似た歯ごたえが持ち味と伝わる。",
+   "summary_en": "Ocean sunfish, torn by hand into pieces, is briefly boiled and dressed in vinegar-miso, a dish from the Higashi-Kishu coast. The trick is a short boil, since the flesh shrinks away with prolonged cooking, leaving a texture said to resemble chicken tenderloin.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/manbou_sumiso_ae_mie.html",
+     "title": "まんぼう酢味噌あえ 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "manbo-sumiso-ae",
+     "to_slug": "same-namasu",
+     "relation_type": "対比",
+     "basis": "どちらも熊野灘・伊勢志摩沿岸の魚介を酢や味噌で和えた料理"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sakana-no-tataki",
+   "name_ja": "魚のたたき",
+   "name_romaji": "Sakana no Tataki",
+   "name_en": "Sakana no tataki — small blue-backed fish minced fine with a knife",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "",
+   "lat": 34.7185,
+   "lng": 136.5056,
+   "summary_ja": "小アジやイサギなどの小型魚を骨や皮ごと包丁でたたき、薬味の大葉とともに仕上げる熊野灘沿岸の料理。とれたての魚をより美味しく食べる工夫から生まれたとされ、志摩地域の一部では「なめろう」とも呼ばれると伝わる。",
+   "summary_en": "Small fish such as horse mackerel or grunt, bones and skin included, are minced fine with a knife and finished with shiso leaf, a dish from the Kumano-nada coast. Born from a fisherman's way of enjoying the day's catch at its freshest, in parts of the Shima area it is also called \"namero.\"",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sakana_no_tataki_mie.html",
+     "title": "魚のたたき／なめろう 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sakana-no-tataki",
+     "to_slug": "same-namasu",
+     "relation_type": "兄弟",
+     "basis": "どちらも熊野灘沿岸で生の魚介を使う祝い・日常の郷土料理"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chatsu",
+   "name_ja": "ちゃつ",
+   "name_romaji": "Chatsu",
+   "name_en": "Chatsu — julienned root vegetables simmered in vinegar without soy sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "朝日町",
+   "lat": 35.0011,
+   "lng": 136.6008,
+   "summary_ja": "大根や人参、れんこん、昆布、油揚げを千切りにし、酢と砂糖で煮た朝日町の料理。精進料理を盛った朱漆塗りの器「ちゃつ」に由来する名とされ、白く仕上げるため醤油を使わないのが特徴という。",
+   "summary_en": "Julienned daikon, carrot, lotus root, kelp, and fried tofu are simmered in vinegar and sugar, a dish from Asahi town. Its name is said to come from \"chatsu,\" the red-lacquered vessel once used to serve vegetarian temple food, and soy sauce is deliberately left out to keep the dish pale.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/chatsu_mie.html",
+     "title": "ちゃつ 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "chatsu",
+     "to_slug": "garagara-oroshi",
+     "relation_type": "対比",
+     "basis": "どちらも北勢地域で冠婚葬祭の際に出される副菜的な一品"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sakana-no-shiokara",
+   "name_ja": "魚の漬物（塩辛）",
+   "name_romaji": "Sakana no Shiokara",
+   "name_en": "Sakana no shiokara — whole fish salted and cured for months",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "",
+   "lat": 34.7185,
+   "lng": 136.5056,
+   "summary_ja": "イワシやサンマ、サバ、カツオなどを一匹丸ごと塩で漬け込み、秋から冬に仕込んで春に食べる保存食。冷蔵庫のない時代、熊野灘の好漁場で大量にとれた魚を余さず活かす知恵として伝わってきたという。",
+   "summary_en": "Whole sardine, saury, mackerel, or bonito are packed in salt and cured for months, typically salted in autumn or winter and eaten in spring. Born before refrigeration, the practice made full use of the abundant catch from the rich fishing grounds off the Kumano-nada coast.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sakana_no_tsuke_mono_mie.html",
+     "title": "魚の漬物（塩辛） 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sakana-no-shiokara",
+     "to_slug": "arame-maki",
+     "relation_type": "対比",
+     "basis": "どちらも海の幸を長く味わうための三重の保存の知恵だが、塩漬けと海藻巻きで手法が異なる"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "rakkasei-no-nimame",
+   "name_ja": "落花生の煮豆",
+   "name_romaji": "Rakkasei no Nimame",
+   "name_en": "Rakkasei no nimame — peanuts simmered sweet-savory in place of black beans",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "三重県",
+   "origin_city": "",
+   "lat": 34.7185,
+   "lng": 136.5056,
+   "summary_ja": "日照時間が長く落花生の栽培に適した東紀州南部や中南勢地域で、殻をむいた落花生をだし汁と砂糖、醤油で柔らかく煮た料理。正月の黒豆の代わりに「まめに暮らせるように」との願いを込めてつくられると伝わる。",
+   "summary_en": "Shelled peanuts, grown well in the sunny south of Higashi-Kishu and the Chunansei area, are simmered soft in dashi, sugar, and soy sauce. Made in place of black soybeans at New Year's, the dish carries a pun-based wish for a healthy year ahead.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/rakkasei_no_nimame_mie.html",
+     "title": "落花生の煮豆 三重県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "rakkasei-no-nimame",
+     "to_slug": "bon-jiru",
+     "relation_type": "対比",
+     "basis": "どちらも三重の行事に合わせてつくられる豆・野菜を使った家庭料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "【作らなかった行】tekone_zushi_mie(てこねずし): existing_slug=tekone-zushi, match_confidence=high のため既存として作らない / iseudon_mie(伊勢うどん): existing_slug=ise, match_confidence=high のため既存として作らない / kokera_zushi_mie(こけらずし): existing_slug=kokera-zushi, match_confidence=high のため既存として作らない / sanma_zushi_mie(さんまずし): existing_slug=sanma-zushi, match_confidence=high のため既存として作らない / nare_zushi_mie(なれずし): existing_slug=narezushi, match_confidence=high のため既存として作らない / yasaino_tsuke_mono_mie(野菜の漬物): genre_hint=tsukemono(野菜の漬物そのもの)のため作らない 【low判定の内訳】sakana_no_jifu_mie(魚のじふ／魚のすき焼き): existing_slug=sukiyaki, match_confidence=low → 既存sukiyakiは無pref/汎用の牛肉すき焼きで別物と判定し新規作成(slug: sakana-no-jifu) 【個別判断】arame-maki: 伝承地域は複数の食文化圏にまたがるが、保存・継承欄で「鳥羽の離島を代表する郷土料理」と明記されているため代表地として鳥羽市を採用 / mie-aimaze: 既存slug「aimaze」（石川県）と同名のため slug を mie-aimaze に変更。伝承地域は複数食文化圏だが、出典に「伊勢市では『あいまぜ』と呼ばれている」と明記されるため伊勢市を採用 / fuki-dawara: 伝承地域「伊賀食文化圏、中南勢食文化圏(主に松阪市)」のうち、主な由来説明は伊賀地域のため「地方」中心都市の伊賀市座標を使用、origin_cityは空欄(広域) / bon-jiru: 伝承地域「中南勢食文化圏・東紀州食文化圏」は複数のためorigin_city空欄。出典の記録(松坂風俗記)や学校給食の記述から松阪市を代表点として採用 / ibara-mochi: 伝承地域は県内全域のため県庁所在地(津市)座標を使用 / same-namasu: 伝承地域「伊勢志摩食文化圏」のうち、出典が志摩市和具・越賀地域を具体的な由来地として挙げているため志摩市を採用 / sakana-no-jifu: 別名「魚のすき焼き」はsummaryに記載。既存slug「sukiyaki」(match_confidence=low)は牛肉のすき焼きで別物のため新規作成。shelfは鍋料理のためledgerのgrilledからhotpotに修正。伝承地域は「主に熊野灘沿岸の漁村」だが出典に尾鷲市が早くから郷土料理と位置付けたと明記されるため尾鷲市を採用 / chagayu: 伝承地域「伊賀食文化圏、東紀州食文化圏、中南勢食文化圏」は複数のためorigin_city空欄、県庁所在地(津市)座標を使用(広域) / mie-tofu-dengaku: 既存slug「tofu-dengaku」（岩手県）および滋賀県分と同名のため slug を mie-tofu-dengaku に変更 / noppei: 伝承地域「伊賀食文化圏」を「地方」単位として中心都市の伊賀市座標を使用、origin_cityは空欄(広域) / ahodaki: 伝承地域「北勢食文化圏」のうち、出典がいなべ市のグリーン・ツーリズム計画で地域の自慢料理として挙げていることから、いなべ市を採用 / iwashi-zushi: 伝承地域「伊賀食文化圏、中南勢食文化圏、北勢食文化圏」は複数のためorigin_city空欄、県庁所在地(津市)座標を使用(広域) / kakimaze: 伝承地域「東紀州食文化圏(熊野市、御浜町、紀宝町周辺)」は複数市町のためorigin_city空欄、代表として熊野市座標を使用(広域)。genre_hintは空欄だが出典に「一般に言う五目ずし（混ぜずし）のこと」と明記されるためgenreをsushiとした / garagara-oroshi: 伝承地域「北勢食文化圏・中南勢食文化圏」は複数市町のためorigin_city空欄、県庁所在地(津市)座標を使用(広域) / kyuri-no-hiyajiru: 伝承地域「伊賀食文化圏」を「地方」単位として中心都市の伊賀市座標を使用、origin_cityは空欄(広域) / kounago-no-kugini: 伝承地域は複数食文化圏にまたがるが、出典が「主に鳥羽」と明記するため鳥羽市を採用 / mie-zoni: 伝承地域は県内全域のため県庁所在地(津市)座標を使用。既存の富山県アイテムと名前(雑煮)が重複するためslugをmie-zoniとした / tako-meshi: 伝承地域「伊勢志摩食文化圏(主に鳥羽市)」に基づき鳥羽市を採用 / naisho-mochi: 別名「なべ餅」はsummaryに記載。伝承地域「中南勢食文化圏」のうち出典が大台町を具体的な由来地として繰り返し挙げているため大台町を採用 / manbo-sumiso-ae: 伝承地域「東紀州食文化圏」のうち、出典が尾鷲市のスーパーマーケットでの流通を具体的に挙げているため尾鷲市を採用 / sakana-no-tataki: 別名「なめろう」はsummaryに記載。伝承地域「東紀州食文化圏、伊勢志摩食文化圏」は複数のためorigin_city空欄、県庁所在地(津市)座標を使用(広域) / chatsu: 伝承地域「北勢食文化圏・中南勢食文化圏」のうち、出典が「特に朝日町に古くから伝わる」と明記するため朝日町を採用 / sakana-no-shiokara: genre_hint=tsukemonoだが、野菜の漬物ではなく魚介の塩蔵保存食のため例外規定(魚介の醤油漬け・松前漬け類)を適用しshelf=fermented・genre=nullで作成 / rakkasei-no-nimame: 伝承地域「東紀州食文化圏、中南勢食文化圏」は複数のためorigin_city空欄、県庁所在地(津市)座標を使用(広域)"
+}
