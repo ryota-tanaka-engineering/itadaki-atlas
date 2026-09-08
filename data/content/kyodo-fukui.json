@@ -1,0 +1,957 @@
+{
+ "items": [
+  {
+   "slug": "heshiko",
+   "name_ja": "へしこ",
+   "name_romaji": "Heshiko",
+   "name_en": "Heshiko — mackerel salted and then aged for months in rice bran",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "",
+   "lat": 35.4897,
+   "lng": 135.7444,
+   "summary_ja": "塩をしたサバをさらに半年ほど糠に漬けこむ、若狭・越前海岸の保存食。糠を落として炙ったり茶漬けや寿司ネタにするなど食べ方は幅広く、厳しい冬を越すたんぱく源だったと伝わる。",
+   "summary_en": "Salted mackerel is packed in rice bran for around half a year along the Wakasa and Echizen coast. Once the bran is brushed off it can be grilled, flaked over rice, or used as sushi topping — said to have been a winter protein source in lean months.",
+   "sources": [
+    {
+     "title": "へしこ 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/heshiko_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "heshiko",
+     "to_slug": "sabanuta",
+     "relation_type": "対比",
+     "basis": "ともに若狭でとれるサバを使うが、へしこは糠に漬けて半年ほど熟成させる保存食、さばぬたは酢でしめてすぐ和える点で仕立てが異なる"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "shelfを変更（台帳homestyle→fermented。糠に半年漬けこむ発酵保存食のため）。伝承地域=若狭地域（嶺北の河野地区を含む）は広域のため、地方の中心地点として小浜市を採用した。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "namagusa-jiru",
+   "name_ja": "なまぐさ汁",
+   "name_romaji": "Namagusa Jiru",
+   "name_en": "Namagusa jiru — a clear soup built on whole grilled mackerel",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "小浜市",
+   "lat": 35.4897,
+   "lng": 135.7444,
+   "summary_ja": "串に刺して丸ごと焼いたサバをほぐし、麩や豆腐、きのこと一緒に澄まし仕立てで煮こむ小浜市新保区の一椀。名前に反して生臭さはなく、精進明けや祝いの席の汁として伝わる。",
+   "summary_en": "Whole mackerel grilled on a skewer is flaked into a clear broth with wheat gluten, tofu, and mushrooms — a dish from Obama's Shinbo district. Despite its 'raw-smelling' name it carries no fishy edge, and is said to mark the end of a fast or a celebration.",
+   "sources": [
+    {
+     "title": "なまぐさ汁 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/namagusa_jiru_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "namagusa-jiru",
+     "to_slug": "maruyaki-saba",
+     "relation_type": "派生",
+     "basis": "本文に「焼きサバ（竹串にさした鯖の丸焼き）を使ってつくられ」とあり、丸焼き鯖をほぐして仕立てる汁であることが明記されている"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=小浜市新保区のため小浜市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sabanuta",
+   "name_ja": "さばぬた",
+   "name_romaji": "Sabanuta",
+   "name_en": "Sabanuta — vinegar-cured mackerel dressed with miso and mustard",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "小浜市",
+   "lat": 35.4897,
+   "lng": 135.7444,
+   "summary_ja": "脂ののった若狭のサバを酢でしめて皮をむき、ねぎや辛子味噌と和える小浜の一皿。地元では「のた」「どろず」とも呼ばれ、香味野菜との組み合わせで食欲をそそる副菜として伝わる。",
+   "summary_en": "Fatty Wakasa mackerel is cured in vinegar, skinned, and tossed with scallion and a mustard-miso dressing in this Obama dish, locally also called 'nota' or 'dorozu' — a piquant side meant to sharpen the appetite.",
+   "sources": [
+    {
+     "title": "さばぬた 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sabanuta_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sabanuta",
+     "to_slug": "maruyaki-saba",
+     "relation_type": "兄弟",
+     "basis": "ともに若狭で水揚げされる脂ののったサバを主役にした郷土料理で、酢でしめるか串焼きにするかで仕立てが分かれる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=小浜地区のため小浜市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "maruyaki-saba",
+   "name_ja": "丸焼き鯖",
+   "name_romaji": "Maruyaki Saba",
+   "name_en": "Maruyaki saba — a whole mackerel skewered and slow-grilled over charcoal",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "大野市",
+   "lat": 35.9825,
+   "lng": 136.4874,
+   "summary_ja": "背開きにしたマサバを竹串で縫うように刺し、炭火で25分ほどじっくり焼く若狭の一品。大野では田植え明けの半夏生に領民をねぎらって配られたのが始まりと伝わり、しょうが醤油で食す。",
+   "summary_en": "A butterflied mackerel is threaded on bamboo skewers and slow-grilled over charcoal for about 25 minutes — a Wakasa specialty said to have begun in Ono as a treat handed out to farmers after rice planting, eaten with ginger and soy sauce.",
+   "sources": [
+    {
+     "title": "丸焼き鯖 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/maruyaki_saba_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "maruyaki-saba",
+     "to_slug": "kashiwa-mochi",
+     "relation_type": "兄弟",
+     "basis": "本文に「若狭地域では五月休みに柏餅と焼き鯖を親戚に配る習慣がある」とあり、同じ田植え明けの祝いで一緒に配られる取り合わせであることが明記されている"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=若狭地域（広域）だが、本文が大野（現在の大野市）の殿様による半夏生の由来を名指ししているため大野市を採用（要判断）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "honkosan",
+   "name_ja": "ほんこさん／報恩講料理",
+   "name_romaji": "Honkosan",
+   "name_en": "Honkosan — the shojin meal served at Jodo Shinshu's autumn memorial gathering",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "",
+   "lat": 36.0652,
+   "lng": 136.2216,
+   "summary_ja": "浄土真宗の年中最大行事「報恩講」に集まった人々へ、旬の野菜や豆を使った一汁三菜の精進料理をふるまう福井の食習。呉汁やおつぼなど地域ごとの一品が重なり合い、家庭の味として根づいたと伝わる。",
+   "summary_en": "At Honkoko, Jodo Shinshu's biggest annual memorial gathering, participants are served a shojin meal of seasonal vegetables and beans built around one soup and three sides — dishes like gojiru and otsubo layered together into what is said to have become an everyday family taste.",
+   "sources": [
+    {
+     "title": "ほんこさん／報恩講料理 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/honkosan_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "honkosan",
+     "to_slug": "chameshi",
+     "relation_type": "派生",
+     "basis": "本文に「その報恩講に集まった人々に、精進料理の一つとして「茶飯」を振る舞う地域もある」とあり、報恩講料理の具体的な一品として茶飯が挙げられている"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=県内全域のため県庁所在地の福井市を採用。すこ・呉汁・おつぼ・麩の辛し和えなど台帳の複数行が本文に個別の報恩講料理として列挙されており、それらの relations の根拠にした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fukui-gojiru",
+   "name_ja": "呉汁",
+   "name_romaji": "Gojiru",
+   "name_en": "Fukui gojiru — a miso soup thickened with ground soybean paste",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "",
+   "lat": 36.0652,
+   "lng": 136.2216,
+   "summary_ja": "一晩水に浸けた大豆をすり潰した「呉」を溶かし込む味噌汁で、報恩講に集まった人々にふるまう精進料理の一つと伝わる。ふわりとしたコクとたっぷりの大豆で滋養があり、冬の家庭料理として親しまれてきた。",
+   "summary_en": "Soybeans soaked overnight are ground into a paste called 'go' and stirred into miso soup — said to be one of the shojin dishes served at the Honkoko gathering. The soft, nutty richness makes it a nourishing winter staple in Fukui homes.",
+   "sources": [
+    {
+     "title": "呉汁 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gojiru_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fukui-gojiru",
+     "to_slug": "honkosan",
+     "relation_type": "派生",
+     "basis": "本文に「「呉汁」はその報恩講に集まった人々にふるまう精進料理のひとつ」と明記されている"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "既存slug gojiru（宮城県）・gunma-gojiru・saitama-gojiru と同名のため地名を冠したfukui-gojiruとした。伝承地域=嶺北地域（地方）のため中心都市の福井市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "atsuage-nita",
+   "name_ja": "厚揚げの煮たの",
+   "name_romaji": "Atsuage no Nita",
+   "name_en": "Atsuage no nita — thick fried tofu simmered in a sweet soy broth",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "",
+   "lat": 36.0652,
+   "lng": 136.2216,
+   "summary_ja": "湯抜きして十文字に切り込みを入れた厚揚げを、だしと醤油、みりんで甘辛く煮てしょうが汁を効かせる福井の日常菜。油揚げの消費量が全国有数の土地で、報恩講のごちそうから各家庭の定番になったと伝わる。",
+   "summary_en": "Thick fried tofu, blanched and scored with a cross cut, is simmered sweet-savory in dashi, soy sauce, and mirin with a dash of ginger juice. Fukui leads the country in fried-tofu consumption, and this dish is said to have moved from a Honkoko feast dish into everyday cooking.",
+   "sources": [
+    {
+     "title": "厚揚げの煮たの 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/atsuage_nitano_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "atsuage-nita",
+     "to_slug": "honkosan",
+     "relation_type": "派生",
+     "basis": "本文に「報恩講でのお斎（食事）にはごちそうであった「厚揚げ」…をつかった料理が添えられていた」とある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=嶺北地方（地方）のため中心都市の福井市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fu-no-karashi-ae",
+   "name_ja": "麩の辛し和え",
+   "name_romaji": "Fu no Karashi-ae",
+   "name_en": "Fu no karashi-ae — wheat gluten and cucumber dressed in hot mustard miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "",
+   "lat": 36.0652,
+   "lng": 136.2216,
+   "summary_ja": "もどした角麩と塩もみきゅうりを、地からしと味噌、酢で和える報恩講の精進料理。福井の地からしは油を抜かずに丸ごと粉にした独特の香りで、越前市産の赤く色づく角麩が彩りを添えると伝わる。",
+   "summary_en": "Rehydrated wheat gluten and salted cucumber are dressed with local mustard, miso, and vinegar — a shojin dish for Honkoko. Fukui's mustard is milled whole without degreasing for a sharper aroma, and gluten from Echizen, tinted red in part, adds color, it is said.",
+   "sources": [
+    {
+     "title": "麩の辛し和え 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/funo_karashi_ae_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fu-no-karashi-ae",
+     "to_slug": "honkosan",
+     "relation_type": "派生",
+     "basis": "本文に「「麩の辛し和え」はその報恩講に集まった人々に振る舞う精進料理の一つ」と明記されている"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=嶺北地方（地方）のため中心都市の福井市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "furu-takuan-no-nimono",
+   "name_ja": "古たくあんの煮物",
+   "name_romaji": "Furu Takuan no Nimono",
+   "name_en": "Furu takuan no nimono — aged, sour takuan pickle simmered fresh again",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "",
+   "lat": 36.0652,
+   "lng": 136.2216,
+   "summary_ja": "翌年まで漬け込んで酸味の出た古漬けたくあんを塩抜きし、だしと醤油で煮直す福井の惣菜。地域では「よもこんじ」「大名煮」とも呼ばれ、古くなった漬物を無駄にしない知恵として各家庭に伝わる。",
+   "summary_en": "Takuan pickle left to age until the next year turns sour, so it is desalted and simmered fresh in dashi and soy sauce. Known locally as 'yomokonji' or 'daimyo-ni', it is said to reflect a household habit of not letting an aging pickle go to waste.",
+   "sources": [
+    {
+     "title": "古たくあんの煮物 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/furu_takuan_no_nimono_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "furu-takuan-no-nimono",
+     "to_slug": "takuan",
+     "relation_type": "対比",
+     "basis": "たくあんを塩抜きして煮直した惣菜であり、漬けたままの一般的なたくあん（既存アイテム）とは調理段階が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=福井県内全域のため福井市を採用。genre_hint=tsukemonoではなく、漬物を煮直した惣菜のため作成対象とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fukui-konbumaki",
+   "name_ja": "昆布巻き／棒巻き",
+   "name_romaji": "Konbumaki",
+   "name_en": "Fukui konbumaki — dried herring rolled in kelp and simmered soft",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "",
+   "lat": 36.0652,
+   "lng": 136.2216,
+   "summary_ja": "戻した身欠きニシンを昆布で巻き、箸を芯にして柔らかく煮含める正月の縁起物。北前船の寄港地・敦賀を通じて北海道の昆布とニシンが福井にもたらされたことに由来すると伝わり、盆や祝い事に大きいまま供される。",
+   "summary_en": "Dried herring is rolled around a chopstick core in kelp and simmered until soft — a New Year good-luck dish said to trace back to Hokkaido kelp and herring reaching Fukui through the Kitamae-bune trade route via the port of Tsuruga. It is served whole at Obon and celebrations.",
+   "sources": [
+    {
+     "title": "昆布巻き／棒巻き 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kobumaki_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fukui-konbumaki",
+     "to_slug": "hokkaido-konbumaki",
+     "relation_type": "対比",
+     "basis": "ともに北前船の交易で広まった昆布巻きだが、福井では身欠きニシンを芯に巻く点が特徴とされる"
+    }
+   ],
+   "tags": [
+    "kelp",
+    "ceremonial"
+   ],
+   "notes": "既存slug hokkaido-konbumaki・kobumaki-kamaboko（富山県）と別物の身欠きニシン入り昆布巻きのためfukui-konbumakiとした。伝承地域=福井県内全域のため福井市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "satoimo-no-koroni",
+   "name_ja": "里芋のころ煮",
+   "name_romaji": "Satoimo no Koroni",
+   "name_en": "Satoimo no koroni — taro simmered down until glossy and thick",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "",
+   "lat": 35.9825,
+   "lng": 136.4874,
+   "summary_ja": "皮をこそげた里芋を下ゆでせずに醤油とみりんで煮つめ、とろみのある照りに仕上げる奥越の一品。豪雪と寒暖差が育てる里芋の産地として知られ、報恩講や祝いの席にふるまう精進料理と伝わる。",
+   "summary_en": "Taro, its skin merely scraped rather than peeled, is simmered without pre-boiling in soy sauce and mirin until the surface turns glossy and thick — a dish from the snowy Okuetsu region known for its taro, said to be served as a shojin dish at Honkoko and celebrations.",
+   "sources": [
+    {
+     "title": "里芋のころ煮 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/satoimo_no_koroni_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "satoimo-no-koroni",
+     "to_slug": "honkosan",
+     "relation_type": "派生",
+     "basis": "本文に「「里芋のころ煮」はその報恩講に集まった人々に振る舞う精進料理の一つである」と明記されている"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=奥越地域（地方）のため中心都市の大野市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "choju-namasu",
+   "name_ja": "長寿なます",
+   "name_romaji": "Choju Namasu",
+   "name_en": "Choju namasu — a sesame-miso salad of daikon, carrot, and fried tofu",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "",
+   "lat": 36.0652,
+   "lng": 136.2216,
+   "summary_ja": "すった白ごまに味噌と厚揚げ、からしと酢を練り合わせ、千切り大根や人参、さやえんどうを和える福井の正月なます。名前の通り長生きを願う縁起物とされ、法事や報恩講の膳にも並ぶという。",
+   "summary_en": "Ground sesame is worked into a paste with miso, thick fried tofu, mustard, and vinegar, then tossed with shredded daikon, carrot, and snap peas — a New Year salad whose name literally wishes long life, also said to appear at memorial services and Honkoko.",
+   "sources": [
+    {
+     "title": "長寿なます 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/chouju_namasu_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "choju-namasu",
+     "to_slug": "honkosan",
+     "relation_type": "派生",
+     "basis": "本文に「法事や報恩講でも食べられる」とある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=嶺北地方（地方）のため中心都市の福井市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gonza",
+   "name_ja": "ごんざ／ごんじなます",
+   "name_romaji": "Gonza",
+   "name_en": "Gonza — daikon and pounded soybean simmered together plain",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "福井市",
+   "lat": 36.0652,
+   "lng": 136.2216,
+   "summary_ja": "水で戻して木槌でつぶした保存食「打ち豆」と千切り大根を、醤油で煮るだけの素朴な一品。福井市東部に伝わり、報恩講の男衆の寄り合いや近所のもらい風呂のお茶請けにも出されたと伝わる。",
+   "summary_en": "Softened soybeans pounded flat and dried — called 'uchimame' — are simmered plainly with shredded daikon in soy sauce. Passed down in eastern Fukui city, it is said to have been served at men's gatherings during Honkoko and as a snack when neighbors shared a bath.",
+   "sources": [
+    {
+     "title": "ごんざ／ごんじなます 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gonza_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gonza",
+     "to_slug": "honkosan",
+     "relation_type": "派生",
+     "basis": "本文に「元々は、「報恩講…で、仏の教えを説き伝える「お説教」時に、男性が集まる会の時だけにつくられることが多かった」とある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=福井市東部地域のため福井市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hazushi",
+   "name_ja": "葉ずし",
+   "name_romaji": "Hazushi",
+   "name_en": "Hazushi — sweet bean sushi wrapped in tung tree leaves",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "福井県",
+   "origin_city": "",
+   "lat": 36.0652,
+   "lng": 136.2216,
+   "summary_ja": "金時豆やひじき、しいたけを混ぜたすし飯を、油気があり香り立つアブラギリの葉で一つずつ包む福井市殿下地区・丹南地区の押しずし。葉が飯離れよく保存も利くため、盆や秋祭りの手土産として伝わる。",
+   "summary_en": "Sushi rice mixed with sweet kidney beans, hijiki, and shiitake is individually wrapped in the oily, fragrant leaf of the tung tree — a pressed sushi from Fukui city's Denga and Tannan districts. The leaf keeps rice from sticking and aids preservation, and is said to be a favored gift for Obon and autumn festivals.",
+   "sources": [
+    {
+     "title": "葉ずし 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hazushi_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hazushi",
+     "to_slug": "happa-zushi",
+     "relation_type": "兄弟",
+     "basis": "ともに保存性と香りに優れたアブラギリの葉で包むすしだが、葉ずしは金時豆やひじきなどの精進の具、葉っぱずしは塩マスを詰める点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "handheld"
+   ],
+   "notes": "伝承地域=福井市殿下地区、丹南地区（二地域併記のため要判断）は最初に挙げられている福井市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "happa-zushi",
+   "name_ja": "葉っぱずし",
+   "name_romaji": "Happa Zushi",
+   "name_en": "Happa zushi — a block sushi of salted trout wrapped in tung tree leaves",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "福井県",
+   "origin_city": "永平寺町",
+   "lat": 36.0561,
+   "lng": 136.3466,
+   "summary_ja": "そぎ切りにした塩マスとしょうがを酢飯にのせ、アブラギリの葉で包んで重石をかける九頭竜川流域の押しずし。淡い紅色が祝いの席にふさわしいとされ、前日に仕込んで祭りやお盆にふるまうと伝わる。",
+   "summary_en": "Thin slices of salted trout and ginger are laid on vinegared rice, wrapped in tung tree leaves, and pressed under weight — a block sushi from along the Kuzuryu River. Its pale pink color is considered fitting for celebrations, and it is said to be made the day before a festival or Obon.",
+   "sources": [
+    {
+     "title": "葉っぱずし 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/happa_zushi_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "happa-zushi",
+     "to_slug": "hazushi",
+     "relation_type": "兄弟",
+     "basis": "ともにアブラギリの葉を使う福井の押しずしで、葉っぱずしは塩マス、葉ずしは金時豆などの精進の具を包む点で異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=九頭竜川流域（主に永平寺地区）のため永平寺町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "houba-meshi",
+   "name_ja": "ほうばめし",
+   "name_romaji": "Houba Meshi",
+   "name_en": "Houba meshi — rice and sweetened soybean flour pressed in a magnolia leaf",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "",
+   "lat": 36.0652,
+   "lng": 136.2216,
+   "summary_ja": "炊きたてのごはんに砂糖入りきな粉をまぶし、ほお葉で挟んで重石をかける福井の田植え仕舞いの一品。葉の香りがご飯に移り持ち運びもしやすく、豊作祈願を込めた「さつきあげ」のごちそうと伝わる。",
+   "summary_en": "Freshly steamed rice is dusted with sweetened soybean flour and pressed between two magnolia leaves — a dish marking the end of rice planting in Fukui. The leaf's scent seeps into the rice and makes it easy to carry, said to be the treat for the 'satsukiage' harvest-wish celebration.",
+   "sources": [
+    {
+     "title": "ほうばめし 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/houba_meshi_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "houba-meshi",
+     "to_slug": "kashiwa-mochi",
+     "relation_type": "兄弟",
+     "basis": "ともに田植えを終えた祝いに葉で包んでふるまわれる福井の一品で、ほうばめしはほお葉と炊き込みご飯、柏餅はかしわの葉と餅である点が異なる"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "伝承地域=県内全域のため福井市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fukui-zoni",
+   "name_ja": "雑煮",
+   "name_romaji": "Zoni",
+   "name_en": "Fukui zoni — a plain miso New Year soup of round mochi and turnip",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "",
+   "lat": 36.0652,
+   "lng": 136.2216,
+   "summary_ja": "板昆布のだしで丸餅とかぶを煮て味噌で味をととのえ、かつお節をのせるだけの簡素な正月の椀。具を入れない家も多く、日常の汁椀に盛るのが福井らしいとされ、嶺南では黒砂糖をのせる地域もある。",
+   "summary_en": "Round mochi and turnip are simmered in a kelp broth, finished with miso and a topping of bonito flakes — a plain New Year soup often served without other fillings, in an everyday soup bowl rather than a special one. In the Reinan area some households top it with brown sugar.",
+   "sources": [
+    {
+     "title": "雑煮 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/zouni_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fukui-zoni",
+     "to_slug": "sendai-zoni",
+     "relation_type": "対比",
+     "basis": "ともに正月の雑煮だが、福井は白味噌にかぶを合わせる仕立てで、東北の雑煮とは味付けや具材が異なる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=県内全域のため福井市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hamana-miso",
+   "name_ja": "はまなみそ",
+   "name_romaji": "Hamana Miso",
+   "name_en": "Hamana miso — a sweet-fermented paste of malted rice, beans, and pickled eggplant",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "",
+   "lat": 36.0652,
+   "lng": 136.2216,
+   "summary_ja": "米麹でつくった甘酒に豆麹と醤油、塩漬けなすを混ぜて重石をし、20日ほど発酵させる福井の冬の保存食。徳川家康の好物「浜納豆」が越前に伝わり土地の気候に合わせて変化したものと伝わり、酒の肴にもよく合う。",
+   "summary_en": "Sweet rice-malt amazake is mixed with bean koji, soy sauce, and salted eggplant, weighted down and left to ferment for about twenty days — a winter keeping food said to descend from 'hama-natto', a favorite of Tokugawa Ieyasu, adapted to Fukui's climate. It pairs well with sake.",
+   "sources": [
+    {
+     "title": "はまなみそ 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hamana_miso_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hamana-miso",
+     "to_slug": "shoyu-no-mi",
+     "relation_type": "対比",
+     "basis": "ともに大豆と麹を発酵させた保存用の嘗め物だが、はまなみそは甘酒と塩漬けなすを合わせる点で山形のしょうゆの実と仕立てが異なる"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "miso"
+   ],
+   "notes": "shelfを変更（台帳homestyle→fermented。米麹の甘酒に豆麹を合わせ20日ほど発酵させる嘗め味噌のため）。伝承地域=嶺北地方（地方）のため中心都市の福井市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "bokkake",
+   "name_ja": "ぼっかけ",
+   "name_romaji": "Bokkake",
+   "name_en": "Bokkake — a thick vegetable broth poured hot over freshly cooked rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "勝山市",
+   "lat": 36.0486,
+   "lng": 136.5011,
+   "summary_ja": "厚揚げやごぼう、糸こんにゃくを削り節のだしで煮て、炊きたてのごはんに汁ごとぶっかける福井の一品。大正初期から100年以上食べ継がれ、勝山ではかまぼこや三つ葉を添えたお茶漬け風にもすると伝わる。",
+   "summary_en": "Thick fried tofu, burdock, and shirataki noodles are simmered in a bonito broth and poured hot, broth and all, over freshly cooked rice — eaten for over a century since the early 1910s. In Katsuyama it is said to take a chazuke-like turn, topped with fish cake and mitsuba.",
+   "sources": [
+    {
+     "title": "ぼっかけ 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/bokkake_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "bokkake",
+     "to_slug": "chameshi",
+     "relation_type": "対比",
+     "basis": "ともに報恩講の夜食としても出される福井の一品だが、ぼっかけは根菜の汁をごはんにかける丼、茶飯は番茶で炊き込むご飯である点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=嶺北地方、坂井市、勝山市など（複数併記のため要判断）。本文で独自の食べ方まで説明されている勝山市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chameshi",
+   "name_ja": "茶飯",
+   "name_romaji": "Chameshi",
+   "name_en": "Chameshi — rice cooked in barley tea with roasted soybeans",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "南越前町",
+   "lat": 35.7376,
+   "lng": 136.0929,
+   "summary_ja": "炒った大豆を熱い豆入り番茶に浸し、その茶で米を炊き上げる今庄の一品。奈良の「奈良茶飯」が宿場町に伝わったとされ、仏事や報恩講の膳、里帰りする娘へのもてなしにも欠かせない味と伝わる。",
+   "summary_en": "Roasted soybeans are steeped in hot roasted barley tea, and rice is then cooked in that same tea — a dish from the old post town of Imajo, said to descend from Nara's 'nara-chameshi'. It is said to be indispensable at memorial services, Honkoko, and for daughters visiting home.",
+   "sources": [
+    {
+     "title": "茶飯 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/chameshi_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "chameshi",
+     "to_slug": "bokkake",
+     "relation_type": "対比",
+     "basis": "ともに報恩講の夜食としても出される福井の一品だが、茶飯は番茶で炊き込むご飯、ぼっかけは根菜の汁をごはんにかける丼である点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=今庄地区のため南越前町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "seige",
+   "name_ja": "せいげ",
+   "name_romaji": "Seige",
+   "name_en": "Seige — female snow crab simmered with grated daikon and miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "南越前町",
+   "lat": 35.7376,
+   "lng": 136.0929,
+   "summary_ja": "せいこがに（雌のズワイガニ）の足や甲羅を大根おろしと一緒に土鍋で煮て味噌を溶き、岩のりを添える南越前町河野地区の漁師料理。甲羅からよい出汁が出るとされ、ごはんにかけたり酒の肴にすると伝わる。",
+   "summary_en": "The legs and shell of female snow crab are simmered in a clay pot with grated daikon, finished with miso and a scrap of rock nori — a fishermen's dish from the Kono district of Minami-Echizen. The shell is said to lend a good broth, eaten over rice or alongside sake.",
+   "sources": [
+    {
+     "title": "せいげ 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/seige_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "seige",
+     "to_slug": "sabanuta",
+     "relation_type": "対比",
+     "basis": "ともに若狭・越前の漁師町に伝わる、地元でとれた魚介をシンプルに仕立てる郷土料理で、素材がセイコガニかサバかで異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=河野地区のため南越前町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tobitsuki-dango",
+   "name_ja": "とびつき団子",
+   "name_romaji": "Tobitsuki Dango",
+   "name_en": "Tobitsuki dango — mochi dumplings coated in sweetened cowpea beans",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "あわら市",
+   "lat": 36.2136,
+   "lng": 136.2286,
+   "summary_ja": "もち米にうるち米を混ぜた生地を茹で、砂糖水に浸したササゲをまぶすあわら市周辺のお盆の菓子。薄赤い豆が餅に飛びついたように見えることが名前の由来とされ、控えめな甘さの素朴な味と伝わる。",
+   "summary_en": "A dough of glutinous and non-glutinous rice flour is boiled and coated with cowpea beans soaked in sugar water — an Obon sweet from around Awara city. The name is said to come from the pale red beans looking as if they had 'jumped onto' the mochi, its sweetness kept modest.",
+   "sources": [
+    {
+     "title": "とびつき団子 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tobi_tsuki_dango_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tobitsuki-dango",
+     "to_slug": "decchi-yokan",
+     "relation_type": "対比",
+     "basis": "ともに福井の庶民的な伝統菓子だが、とびつき団子はお盆に食べるもち米の団子、でっち羊かんは冬に食べる水羊かんである点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=あわら市、坂井市の一部（二地域併記のため要判断）は最初に挙げられているあわら市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "decchi-yokan",
+   "name_ja": "でっち羊かん",
+   "name_romaji": "Decchi Yokan",
+   "name_en": "Decchi yokan — a thin, watery winter yokan cut from a shallow tray",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "",
+   "lat": 36.0652,
+   "lng": 136.2216,
+   "summary_ja": "こしあんに寒天と砂糖、塩を溶かして固める、水羊かんに近い福井の冬の菓子。京都へ丁稚奉公に出た若者が正月に持ち帰った羊かんを水で伸ばして配ったのが始まりと伝わり、こたつで食べるのが定番という。",
+   "summary_en": "Sweet red bean paste is set with agar, sugar, and a pinch of salt into a thin, water-yokan-like winter confection. It is said to have begun when a young apprentice, home for New Year from a Kyoto shop, stretched a bar of yokan with water to share with neighbors, eaten by the kotatsu.",
+   "sources": [
+    {
+     "title": "でっち羊かん 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/decchi_youkan_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "decchi-yokan",
+     "to_slug": "tobitsuki-dango",
+     "relation_type": "対比",
+     "basis": "ともに福井の庶民的な伝統菓子だが、でっち羊かんは冬に食べる水羊かん、とびつき団子はお盆に食べるもち米の団子である点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=県内全域のため福井市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kashiwa-mochi",
+   "name_ja": "柏餅",
+   "name_romaji": "Kashiwa Mochi",
+   "name_en": "Kashiwa mochi — a rice cake filled with sweet bean paste, wrapped in oak leaf",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "小浜市",
+   "lat": 35.4897,
+   "lng": 135.7444,
+   "summary_ja": "米粉の生地を蒸してつき、あんを包んでかしわの葉で包む小浜市・若狭町の田植え祝いの菓子。5月半ばから7月にかけて集落ごとの「田の神祭り」で神輿を担ぐ日に用意され、親類にも配ると伝わる。",
+   "summary_en": "Rice-flour dough is steamed, pounded, wrapped around sweet bean paste, and folded in an oak leaf — a rice-planting celebration sweet from Obama and Wakasa town. It is prepared for each community's 'god of the rice paddy' festival between mid-May and July, and shared with relatives.",
+   "sources": [
+    {
+     "title": "柏餅 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kashiwa_mochi_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kashiwa-mochi",
+     "to_slug": "houba-meshi",
+     "relation_type": "兄弟",
+     "basis": "ともに田植えを終えた福井の祝いで葉に包んでふるまわれる菓子・食事で、柏餅はかしわの葉と餅、ほうばめしはほお葉と炊き込みご飯である点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=小浜市、若狭町（二市町併記のため要判断）は最初に挙げられている小浜市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "otsubo",
+   "name_ja": "おつぼ",
+   "name_romaji": "Otsubo",
+   "name_en": "Otsubo — sweetened azuki beans simmered with lightly salted taro",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "",
+   "lat": 36.0652,
+   "lng": 136.2216,
+   "summary_ja": "砂糖でやわらかく煮た小豆に、薄い塩味の里芋を合わせる報恩講の精進料理。器の名でもある「おつぼ」に盛るのが決まりとされ、親鸞聖人が小豆を好んだという言い伝えから欠かせない一品と伝わる。",
+   "summary_en": "Azuki beans simmered soft with sugar are combined with lightly salted taro — a shojin dish for Honkoko, traditionally served in the small bowl also called 'otsubo'. It is said to be indispensable owing to a tradition that the priest Shinran was fond of azuki beans.",
+   "sources": [
+    {
+     "title": "おつぼ 福井県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/otsubo_fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "otsubo",
+     "to_slug": "honkosan",
+     "relation_type": "派生",
+     "basis": "本文に「「おつぼ」はその報恩講に集まった人々にふるまう精進料理のひとつ」と明記されている"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=嶺北地方（地方）のため中心都市の福井市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "件数: 29行中、作った25件／既存で作らなかった4件（nishin_sushi_fukui=既存slug nishin-zushiとhigh一致、oroshi_soba_fukui=既存slug echizen-oroshiとhigh一致かつ本文が「越前おろしそば」と同一の由来を明記、aka_kabura_no_suzuke_fukui=genre_hint=tsukemonoで除外、suko_fukui=要判断で除外）／low判定は0件（台帳のexisting_slug欄に低確信の行は無かった）。\n要判断: suko_fukui（すこ）はgenre_hint欄が空欄でtsukemonoヒントが立っていなかったが、maff_category=漬物で実質は赤ずいきの甘酢漬け（報恩講の精進料理の一つ）であり、ブリーフの「漬物ジャンルは投入済みのため作らない」の趣旨に照らして作成対象から外した（魚介の醤油漬け等の例外規定には該当しないと判断）。\n棚(shelf)を変えた行: heshiko（台帳homestyle→fermented、糠に半年漬けこむ発酵保存食のため）／hamana-miso（台帳homestyle→fermented、米麹の甘酒に豆麹を合わせ20日発酵させる嘗め味噌のため）。他は台帳のshelfを踏襲。\n座標の根拠: 伝承地域が単一市町村の行はその市区町村を採用（namagusa-jiru, sabanuta, kashiwa-mochi=小浜市、happa-zushi=永平寺町、chameshi, seige=南越前町、tobitsuki-dango=あわら市、gonza=福井市）。伝承地域が地方・広域の行は中心都市を代表地点とした（honkosan, fukui-gojiru, atsuage-nita, fu-no-karashi-ae, furu-takuan-no-nimono, fukui-konbumaki, choju-namasu, houba-meshi, fukui-zoni, hamana-miso, otsubo=福井市、satoimo-no-koroni=大野市）。本文が特定市町村を名指しした行はそこを採用した（maruyaki-saba=大野市[半夏生の由来を語る大野の殿様の逸話]）。複数市町村が並記され優劣つけがたい行は本文で詳しく描写される方、または先に挙げられている方を代表地点とした（bokkake=勝山市[本文で独自の食べ方が説明されている]、hazushi=福井市[殿下地区、丹南地区の順で先に記載]、kashiwa-mochi=小浜市[小浜市、若狭町の順で先に記載]、tobitsuki-dango=あわら市[あわら市、坂井市の一部の順で先に記載]）。\n要判断（座標・地名の併記）: bokkake（嶺北地方、坂井市、勝山市などと併記）、hazushi（福井市殿下地区と丹南地区が同格に並記）、kashiwa-mochi（小浜市と若狭町が同格に並記）、tobitsuki-dango（あわら市と坂井市の一部が並記）はいずれも単一市町村に絞りきれず、本文の記述量や記載順で代表地点を選んだ。"
+}

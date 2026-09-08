@@ -1,0 +1,1031 @@
+{
+ "items": [
+  {
+   "slug": "seida-no-tamaji",
+   "name_ja": "せいだのたまじ",
+   "name_romaji": "Seida no Tamaji",
+   "name_en": "Seida no tamaji — small skin-on potatoes simmered in sweet miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "上野原市",
+   "lat": 35.6089,
+   "lng": 139.1478,
+   "summary_ja": "小粒の皮つきじゃがいもを油で揚げてから味噌と砂糖で煮っころがす上野原市棡原の郷土料理。江戸後期の代官・中井清太夫が九州から取り寄せた種いもで村を飢饉から救ったことに由来すると伝わる。",
+   "summary_en": "Small unpeeled potatoes are fried, then simmered down in sweetened miso — a dish from the Yuzurihara area of Uenohara city, said to trace back to a late-Edo-era official who brought seed potatoes from Kyushu and saved the village from famine.",
+   "sources": [
+    {
+     "title": "せいだのたまじ 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/seidano_tamaji_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "seida-no-tamaji",
+     "to_slug": "jagaimo-hijiki-nimono",
+     "relation_type": "対比",
+     "basis": "ともにじゃがいもを使う山梨の家庭料理だが、せいだのたまじは飢饉を救った代官の逸話に由来し、じゃがいもとひじきの煮物は富士山信仰の御師のもてなし料理に由来する点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=上野原市のためそのまま採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yamanashi-mimi",
+   "name_ja": "みみ",
+   "name_romaji": "Mimi",
+   "name_en": "Mimi — triangle-folded dough dumplings simmered in miso with vegetables",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "富士川町",
+   "lat": 35.585,
+   "lng": 138.5185,
+   "summary_ja": "小麦粉の生地を正方形に切り、二つの角をつまんで三角にした「耳」を野菜と味噌で煮こむ富士川町十谷地域の一品。農具の箕に似た形が「福をすくう」に通じるとされ、正月元旦に歳神様へ供えると伝わる。",
+   "summary_en": "Squares of wheat dough are pinched at two corners into a triangle and simmered in miso with vegetables — a dish from the Totani area of Fujikawa town. Its shape, likened to a winnowing basket, is said to symbolize scooping up good fortune, and it is offered to the New Year's deity.",
+   "sources": [
+    {
+     "title": "みみ 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mimi_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yamanashi-mimi",
+     "to_slug": "hoto",
+     "relation_type": "兄弟",
+     "basis": "本文に「「ほうとう」と似ているが「みみ」はその三角形が特徴的」とあり、ほうとうと同じ小麦生地を味噌汁で煮る系統の料理と位置づけられている"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "既存slug mimi（栃木県、耳うどん）と同名のためyamanashi-mimiとした。伝承地域=富士川町十谷地域のため富士川町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "amanatto-sekihan",
+   "name_ja": "甘納豆のお赤飯",
+   "name_romaji": "Amanatto no Osekihan",
+   "name_en": "Amanatto sekihan — sweet red rice colored with food dye, not azuki",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "",
+   "lat": 35.6642,
+   "lng": 138.5684,
+   "summary_ja": "ささげや小豆を使わず、食紅で赤く色づけたもち米に甘納豆を混ぜ込む山梨の赤飯。ごま塩をかけると甘じょっぱく、祝いの席に欠かせないとされる。同様の甘い赤飯は遠く離れた北海道や東北の一部にもあると伝わる。",
+   "summary_en": "Made without azuki or cowpea beans, glutinous rice is dyed red with food coloring and mixed with candied sweet beans — a Yamanashi take on celebratory red rice, sweet-salty with a sprinkle of sesame salt. A similarly sweet red rice is said to exist far away in Hokkaido and parts of Tohoku.",
+   "sources": [
+    {
+     "title": "甘納豆のお赤飯 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ama_nattou_no_osekihan_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "amanatto-sekihan",
+     "to_slug": "hokkaido-sekihan",
+     "relation_type": "対比",
+     "basis": "本文に「甘い赤飯はとても珍しく感じるが、山梨県から遠く離れた北海道、東北の一部でも食べられている」とあり、北海道の赤飯との共通性が明記されている"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=南アルプス市、甲斐市、山梨市、甲府市（四市併記のため要判断）は県庁所在地の甲府市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "awabi-no-nigai",
+   "name_ja": "あわびの煮貝",
+   "name_romaji": "Awabi no Nigai",
+   "name_en": "Awabi no nigai — abalone simmered soft in soy sauce, an inland delicacy",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "甲府市",
+   "lat": 35.6642,
+   "lng": 138.5684,
+   "summary_ja": "駿河湾でとれたアワビを醤油に漬けて樽で運び、馬の体温に揺られるうちに味がしみ込んだという甲州の名産。薄切りにして肝と盛り合わせ、しそやきゅうりを添えて食べると伝わる、海のない山梨に残る海の幸。",
+   "summary_en": "Abalone from Suruga Bay was soy-sauce-marinated and hauled in barrels by horse, the jostling and body heat said to have worked the flavor deep in — a specialty from landlocked Kofu. Sliced thin and paired with its liver, shiso, and cucumber, it endures as a taste of the sea inland.",
+   "sources": [
+    {
+     "title": "あわびの煮貝 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/awabino_nigai_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "awabi-no-nigai",
+     "to_slug": "tori-motsuni",
+     "relation_type": "対比",
+     "basis": "ともに甲府市を代表する名物だが、あわびの煮貝は江戸期の交易で生まれた保存食、鳥もつ煮は戦後の蕎麦屋発祥という成り立ちの違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=甲府市のためそのまま採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tori-motsuni",
+   "name_ja": "鳥もつ煮",
+   "name_romaji": "Tori Motsuni",
+   "name_en": "Tori motsuni — chicken giblets flash-glazed in a thick soy-sugar sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "甲府市",
+   "lat": 35.6642,
+   "lng": 138.5684,
+   "summary_ja": "レバーや砂肝、はつを醤油と砂糖のたれで強火で短時間、照りが出るまで煮詰める甲府の一品。戦後まもない食糧難の時代、蕎麦屋の主人が捨てられるはずのもつを工夫して考案したのが始まりと伝わる。",
+   "summary_en": "Chicken liver, gizzard, and heart are flash-glazed over high heat in a thick soy-sugar sauce until they shine — a Kofu dish said to have begun just after the war, when a soba shop owner found a use for giblets that would otherwise have been thrown away.",
+   "sources": [
+    {
+     "title": "鳥もつ煮 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/torino_motsuni_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tori-motsuni",
+     "to_slug": "awabi-no-nigai",
+     "relation_type": "対比",
+     "basis": "ともに甲府市を代表する名物だが、鳥もつ煮は戦後の蕎麦屋発祥、あわびの煮貝は江戸期の交易で生まれた保存食という成り立ちの違いがある"
+    }
+   ],
+   "tags": [
+    "offal",
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=甲府市のためそのまま採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "memaki",
+   "name_ja": "めまき",
+   "name_romaji": "Memaki",
+   "name_en": "Memaki — fish wrapped triangular in seaweed and simmered for hours",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "富士河口湖町",
+   "lat": 35.5064,
+   "lng": 138.759,
+   "summary_ja": "ワカサギなどの魚を乾燥アラメで三角に巻き、10時間以上かけて醤油だれで柔らかく煮る富士河口湖町の一品。富士山信仰の参詣者を泊めた御師がふるまったとされ、三角の形は富士山を表すと伝わる。",
+   "summary_en": "Smelt or other small fish are wrapped triangular in dried arame seaweed and simmered for over ten hours in a soy sauce broth until soft — a dish from Fujikawaguchiko town said to have been served by the oshi lodging-house keepers to Mount Fuji pilgrims, its triangle shape said to represent the mountain.",
+   "sources": [
+    {
+     "title": "めまき 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/memaki_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "memaki",
+     "to_slug": "jagaimo-hijiki-nimono",
+     "relation_type": "兄弟",
+     "basis": "本文にともに富士山信仰の御師がふるまったと明記されており、じゃがいもとひじきの煮物は山開きの日、めまきは参詣のもてなしに供された同系統のもてなし料理とされる"
+    }
+   ],
+   "tags": [
+    "kelp"
+   ],
+   "notes": "伝承地域=富士河口湖町のためそのまま採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "azuki-hoto",
+   "name_ja": "小豆ほうとう",
+   "name_romaji": "Azuki Hoto",
+   "name_en": "Azuki hoto — hoto noodles simmered in sweet red bean soup instead of miso",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "北杜市",
+   "lat": 35.9089,
+   "lng": 138.4706,
+   "summary_ja": "太めに切ったほうとう麺を、餅の代わりに小豆の汁粉に入れて煮る山梨の行事食。北杜市須玉町若神子の三輪神社の夏祭りは「ほうとう祭り」と呼ばれるほどで、赤い小豆の色が厄除けになるとされる。",
+   "summary_en": "Hoto noodles, cut thicker than usual, are simmered in sweet azuki bean soup in place of mochi — a festival food in Yamanashi. The summer festival at Miwa Shrine in Hokuto city's Wakamiko area is nicknamed the 'hoto festival', and azuki's red color is said to ward off misfortune.",
+   "sources": [
+    {
+     "title": "小豆ほうとう 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/azuki_houtou_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "azuki-hoto",
+     "to_slug": "hoto",
+     "relation_type": "派生",
+     "basis": "本文に「「ほうとう」のめんを太めに切り、餅に見立ててあずきの汁粉に入れ代用にした」とあり、ほうとう麺を転用した行事食と明記されている"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "既存slug hoto（low判定）と比較し、味噌仕立ての日常食であるほうとうに対し、小豆の汁粉に麺を入れる祝い日の行事食で別物と判断し作成。伝承地域=北杜市、市川三郷町、身延町、甲斐市、甲府市（五市町併記）のうち、本文が祭りの由来として名指しする北杜市を代表地点とした（要判断）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ozara",
+   "name_ja": "おざら",
+   "name_romaji": "Ozara",
+   "name_en": "Ozara — hoto's cold summer cousin, thin noodles dipped in warm broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "",
+   "lat": 35.6642,
+   "lng": 138.5684,
+   "summary_ja": "ほうとうより細く切った麺を一度ゆでて冷水でしめ、温かい醤油だしにつけて食べる山梨の夏の麺。盆地特有の猛暑をしのぐ一品として、ほうとう専門店でも夏場に代わって出されると伝わる。",
+   "summary_en": "Noodles cut thinner than hoto are boiled, rinsed cold, then dipped into a warm soy-based broth — Yamanashi's answer to its basin summers. Even hoto specialty shops are said to swap it in during the hottest months.",
+   "sources": [
+    {
+     "title": "おざら 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ozara_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ozara",
+     "to_slug": "hoto",
+     "relation_type": "兄弟",
+     "basis": "本文に「「ほうとう」にかわり夏の季節に好まれるのが「おざら」である」とあり、ほうとうの夏向けの対になる麺として明記されている"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "notes": "伝承地域=甲府市、甲斐市、身延町、昭和町（四市町併記のため要判断）は県庁所在地の甲府市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "korogaki",
+   "name_ja": "枯露柿",
+   "name_romaji": "Korogaki",
+   "name_en": "Korogaki — a large dried persimmon sun-cured until its sugars crystalize white",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "甲州市",
+   "lat": 35.7136,
+   "lng": 138.7392,
+   "summary_ja": "皮をむいた渋柿を軒先で日に当てながらころころと向きを変えて干し上げる甲州市松里地域の干し柿。糖分が結晶化して白い粉を吹くまで乾かすのが特徴とされ、なますに刻んだり天ぷらにもすると伝わる。",
+   "summary_en": "Peeled astringent persimmons are hung under the eaves and turned in the sun until their sugars crystalize into a white bloom — a dried persimmon from the Matsuzato area of Koshu city. It is said to be chopped into a New Year salad or even fried in tempura.",
+   "sources": [
+    {
+     "title": "枯露柿 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/korogaki_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "korogaki",
+     "to_slug": "kaki-namasu",
+     "relation_type": "使用食材",
+     "basis": "本文に「おせち料理の「なます」に入れて「柿なます」にしたり」とあり、なますの材料として使われることが明記されている"
+    }
+   ],
+   "tags": [
+    "freeze_dried"
+   ],
+   "notes": "伝承地域=甲州市、南アルプス市など（複数併記）のうち、本文が名産地として名指しする甲州市松里地域から甲州市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sanma-meshi",
+   "name_ja": "さんまめし",
+   "name_romaji": "Sanma Meshi",
+   "name_en": "Sanma meshi — new-harvest rice cooked together with whole saury",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "",
+   "lat": 35.6642,
+   "lng": 138.5684,
+   "summary_ja": "サンマの切り身を米と一緒に炊き、ほぐした身と刻みしょうがを混ぜ込む山梨の秋の一品。海のない土地でも秋には新鮮なサンマが出回り、稲刈りの終わった祝いのごちそうとして各家庭でつくられてきたと伝わる。",
+   "summary_en": "Saury is cooked right in with the rice, then flaked and mixed back in with shredded ginger — an autumn dish from landlocked Yamanashi, where fresh saury is said to have reached market each fall and been made as a celebratory meal once the rice harvest was in.",
+   "sources": [
+    {
+     "title": "さんまめし 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sanma_meshi_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sanma-meshi",
+     "to_slug": "yakome",
+     "relation_type": "対比",
+     "basis": "ともに稲作にまつわる山梨の行事食だが、さんまめしは稲刈り後の秋の祝い、やこめは種まき前の春の水口祭りに供される点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=中北地域（地方）のため中心都市の甲府市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yakome",
+   "name_ja": "やこめ",
+   "name_romaji": "Yakome",
+   "name_en": "Yakome — steamed sticky rice with roasted soybeans and sesame, offered to the fields",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "",
+   "lat": 35.6642,
+   "lng": 138.5684,
+   "summary_ja": "もち米とうるち米に炒った大豆とごまを混ぜて蒸す山梨の行事食。田の水口に豊作を祈って供える「水口祭り」の供物が由来とされ、名は籾殻を煎った「焼米」から来ていると伝わる。",
+   "summary_en": "Glutinous and non-glutinous rice are steamed together with roasted soybeans and sesame — a ritual food said to originate as an offering laid at the inlet of a rice paddy during the 'mizuguchi' spring planting rite, its name traced to roasted unhulled rice, 'yakigome'.",
+   "sources": [
+    {
+     "title": "やこめ 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yakome_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yakome",
+     "to_slug": "yamanashi-mimi",
+     "relation_type": "対比",
+     "basis": "ともに神仏に供える山梨の行事食だが、やこめは春の水口祭りで田の水口に供え、みみは正月元旦に歳神様へ供える点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=県内全域（特に中北地域）のため県庁所在地の甲府市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "akebono-daizu-edamame",
+   "name_ja": "あけぼの大豆の枝豆",
+   "name_romaji": "Akebono Daizu no Edamame",
+   "name_en": "Akebono daizu edamame — a large-grained soybean picked young and salt-boiled",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "身延町",
+   "lat": 35.3897,
+   "lng": 138.4408,
+   "summary_ja": "通常の1.6倍という大粒の「あけぼの大豆」を塩ゆでにする身延町曙地域の枝豆。明治から続く在来種だが機械化になじまず生産者の高齢化で希少となり、「幻の大豆」とも呼ばれてきたと伝わる。",
+   "summary_en": "The 'akebono' soybean, said to be 1.6 times the size of an ordinary bean, is picked young and salt-boiled — an edamame from the Akebono area of Minobu town. Grown since the Meiji era but resistant to mechanization, aging growers have made it scarce enough to be called a 'phantom bean'.",
+   "sources": [
+    {
+     "title": "あけぼの大豆の枝豆 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/akebono_daizuno_edamame_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "akebono-daizu-edamame",
+     "to_slug": "nama-yuba",
+     "relation_type": "対比",
+     "basis": "ともに山梨の大豆を生かした特産品だが、あけぼの大豆の枝豆は塩ゆでの豆そのもの、生湯葉は豆乳から膜をすくう加工品である点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=身延町のためそのまま採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "anbin",
+   "name_ja": "あんびん",
+   "name_romaji": "Anbin",
+   "name_en": "Anbin — a sweet potato flour dumpling filled with bean paste, slapped flat",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "市川三郷町",
+   "lat": 35.5497,
+   "lng": 138.5044,
+   "summary_ja": "さつまいも粉と小麦粉を熱湯でこね、あんを包んで叩いて平らにし蒸す峡南地域の菓子。あんを叩き入れる仕草が名前の由来とされ、廃校を機に地元が復活させた市川三郷町六郷の伝統食と伝わる。",
+   "summary_en": "Sweet potato and wheat flour are kneaded with hot water, wrapped around bean paste, slapped flat, and steamed — a sweet from the Kyonan region. Its name is said to come from the slapping motion, revived in Ichikawamisato town's Rokugo area after a local school's closure sparked a heritage-food effort.",
+   "sources": [
+    {
+     "title": "あんびん 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/anbin_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "anbin",
+     "to_slug": "usuyaki",
+     "relation_type": "兄弟",
+     "basis": "ともに稲作に向かない山梨の土地柄から発展した粉物のおやつで、あんびんは蒸して仕上げる点がホットプレートで焼くうすやきと異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=峡南地域（地方）のうち、本文が復活の取り組みとして名指しする市川三郷町を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "imogara-makizushi",
+   "name_ja": "いもがら入り太巻き寿司",
+   "name_romaji": "Imogara-iri Futomaki Zushi",
+   "name_en": "Imogara futomaki — a thick sushi roll filled with sweet-simmered dried taro stem",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "山梨県",
+   "origin_city": "",
+   "lat": 35.6642,
+   "lng": 138.5684,
+   "summary_ja": "干したずいき「いもがら」を甘辛く煮て、かんぴょうのように芯にして巻く山梨の太巻き寿司。繊維質でしゃきしゃきした食感が親しまれ、冠婚葬祭や人が集まる席のごちそうとして各家庭に伝わる。",
+   "summary_en": "Dried taro stem, called 'imogara', is simmered sweet-savory and rolled into the center of a thick sushi roll like kanpyo gourd strips — prized for its fibrous crunch, made in Yamanashi homes as a treat for weddings, funerals, and any gathering.",
+   "sources": [
+    {
+     "title": "いもがら入り太巻き寿司 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/imogara_iri_futomaki_sushi_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "imogara-makizushi",
+     "to_slug": "maki-zushi",
+     "relation_type": "対比",
+     "basis": "既存の巻き寿司（全国的な一般名称）に対し、いもがら入り太巻き寿司は干しずいきを芯に使う山梨特有の具材で区別される"
+    }
+   ],
+   "tags": [],
+   "notes": "既存slug maki-zushi（low判定、全国的な巻き寿司の一般名称）と比較し、いもがらという山梨固有の具材を使う別物と判断し作成。伝承地域=県内全域のため甲府市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "usuyaki",
+   "name_ja": "うすやき",
+   "name_romaji": "Usuyaki",
+   "name_en": "Usuyaki — a thin griddled flatbread of wheat flour, savory or sweet",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "",
+   "lat": 35.6642,
+   "lng": 138.5684,
+   "summary_ja": "水で溶いた小麦粉にちりめんじゃこや青じそを混ぜ、ホットプレートで両面を焼く山梨のおやつ。稲作に不向きな土地で発展した粉物文化の一つとされ、あんこや甘い煮豆を入れる甘口もあると伝わる。",
+   "summary_en": "Wheat flour thinned with water and mixed with dried baby sardines and shiso is griddled on both sides — a Yamanashi snack said to be one product of a flour-based food culture that grew where rice farming did not suit the land. Sweet versions with bean paste also exist.",
+   "sources": [
+    {
+     "title": "うすやき 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/usuyaki_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "usuyaki",
+     "to_slug": "anbin",
+     "relation_type": "兄弟",
+     "basis": "ともに稲作に向かない山梨の土地柄から発展した粉物のおやつで、うすやきはホットプレートで焼く点が蒸して仕上げるあんびんと異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=県内全域のため甲府市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oshaka-kogori",
+   "name_ja": "おしゃかこごり",
+   "name_romaji": "Oshaka Kogori",
+   "name_en": "Oshaka kogori — a lumpy soybean dumpling for the Buddha's birthday",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "甲府市",
+   "lat": 35.6642,
+   "lng": 138.5684,
+   "summary_ja": "煎った大豆を混ぜた小麦粉の生地を蒸し、ごつごつと丸めた甲府市などの行事菓子。4月8日の灌仏会（花祭り）に甘茶とともに供えられ、釈迦の頭に似た形から食べると知恵が授かるとされる。",
+   "summary_en": "Wheat dough mixed with roasted soybeans is steamed into knobby lumps — a festival sweet from around Kofu city, offered with sweet hydrangea tea on April 8th's Buddha's-birthday festival. Shaped to resemble the Buddha's head, it is said to grant wisdom to those who eat it.",
+   "sources": [
+    {
+     "title": "おしゃかこごり 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/oshaka_kogori_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "oshaka-kogori",
+     "to_slug": "amanatto-sekihan",
+     "relation_type": "対比",
+     "basis": "ともに特定の祝いの日に限って食べられる山梨の行事食だが、おしゃかこごりは4月8日の灌仏会、甘納豆のお赤飯は祝い事全般に供される点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=甲府市、峡南地域（併記のため要判断）は先に挙げられている甲府市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "obaku",
+   "name_ja": "おばく",
+   "name_romaji": "Obaku",
+   "name_en": "Obaku — hulled barley porridge with root vegetables, topped with miso and scallion",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "",
+   "lat": 35.6642,
+   "lng": 138.5684,
+   "summary_ja": "一晩浸した丸麦にじゃがいもや大根、里芋などを加え、たっぷりの水で柔らかく炊く山梨の主食。米が貴重だった山間部の日常食とされ、味付けはせず、ねぎ味噌や醤油の実をつけて食べると伝わる。",
+   "summary_en": "Hulled barley soaked overnight is simmered soft in plenty of water with potato, daikon, and taro — a Yamanashi staple said to have been the everyday food of mountain areas where rice was precious. Left unseasoned itself, it is eaten with a scallion miso or a spoon of shoyu-no-mi.",
+   "sources": [
+    {
+     "title": "おばく 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/obaku_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "obaku",
+     "to_slug": "yamanashi-shoyu-no-mi",
+     "relation_type": "対比",
+     "basis": "本文に「ねぎやカツオ節を加えた味噌や醤油の実をつけて食す」とあり、しょうゆの実がおばくに添える薬味として明記されている"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=峡東地域、峡南地域、富士・東部地域（広域三地域併記）のため県庁所在地の甲府市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "urajiro-manju",
+   "name_ja": "うらじろまんじゅう",
+   "name_romaji": "Urajiro Manju",
+   "name_en": "Urajiro manju — a mochi-like bun kneaded with the white-backed leaf of oyamabokuchi",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "甲州市",
+   "lat": 35.7136,
+   "lng": 138.7392,
+   "summary_ja": "キク科オヤマボクチの若葉を練り込み、あんを包んで仕上げる甲州市大和地域の菓子。もとはほうとうのつなぎに使っていた葉の繊維をまんじゅうに応用したのが始まりとされ、草の匂いは控えめと伝わる。",
+   "summary_en": "Young leaves of the thistle-like oyamabokuchi plant are kneaded into the dough around a sweet bean filling — a confection from the Yamato area of Koshu city, said to have begun when fiber from the same leaf, once used as a binder for hoto noodles, was worked into a bun instead.",
+   "sources": [
+    {
+     "title": "うらじろまんじゅう 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/urajiro_manjuu_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "urajiro-manju",
+     "to_slug": "hoto",
+     "relation_type": "派生",
+     "basis": "本文に「かつて「オヤマボクチ」の葉から取り出した繊維を「ほうとう」の「つなぎ」として使っていたことがあり、それをまんじゅうとして加工したのが始まりとされる」とある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=甲州市、上野原市（二市併記のため要判断）は本文が由来として名指しする甲州市大和地域から甲州市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yamanashi-katsudon",
+   "name_ja": "かつ丼",
+   "name_romaji": "Katsudon",
+   "name_en": "Yamanashi katsudon — sauce-topped cutlet on cabbage and rice, no egg",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "donburi",
+   "origin_pref": "山梨県",
+   "origin_city": "甲府市",
+   "lat": 35.6642,
+   "lng": 138.5684,
+   "summary_ja": "ごはんに千切りキャベツをのせ、揚げたてのとんかつをソースでいただく山梨のかつ丼。卵でとじる一般的なかつ丼は地元で「煮かつ丼」と呼ばれ別物とされ、甲府市の老舗そば店が発祥と伝わる。",
+   "summary_en": "Shredded cabbage sits under a freshly fried pork cutlet doused in sauce, no egg in sight — Yamanashi's version of katsudon. The egg-topped style found elsewhere is locally called 'ni-katsudon' and considered a different dish, this one said to have originated at an old Kofu soba shop.",
+   "sources": [
+    {
+     "title": "かつ丼 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/katsudon_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yamanashi-katsudon",
+     "to_slug": "katsudon",
+     "relation_type": "対比",
+     "basis": "本文に「県外で一般的な卵でとじる「かつ丼」は、山梨県では「煮かつ丼」と呼ばれていて別の料理とされている」とあり、既存の卵とじかつ丼とは別物と明記されている"
+    }
+   ],
+   "tags": [],
+   "notes": "既存slug katsudon（カツ丼（卵とじ）、pref未設定の全国的な標準形）と比較し、卵を使わずソースをかける山梨固有の様式のため別物と判断しyamanashi-katsudonとした。伝承地域=県内全域だが、本文が発祥地として甲府市の老舗そば店を名指ししているため甲府市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mogura-uri-hiyajiru",
+   "name_ja": "茂倉瓜の冷や汁",
+   "name_romaji": "Mogura Uri no Hiyajiru",
+   "name_en": "Mogura uri no hiyajiru — a cold summer soup of a rare local melon-gourd",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "早川町",
+   "lat": 35.4478,
+   "lng": 138.2478,
+   "summary_ja": "130年前から自家採種で受け継がれてきた茂倉瓜を千切りにし、冷たい煮干しだしに味噌とみょうがを合わせてごはんにかける早川町茂倉地域の夏の汁。きゅうりより青くささが少なく、しゃきしゃきした食感と伝わる。",
+   "summary_en": "The mogura melon-gourd, saved and replanted from seed for some 130 years, is julienned and dropped into cold sardine-stock miso soup with myoga, then poured over rice — a summer dish from the Mogura area of Hayakawa town. Less grassy than cucumber, with a crisp bite, it is said.",
+   "sources": [
+    {
+     "title": "茂倉瓜の冷や汁 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mogura_uri_no_hiyajiru_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mogura-uri-hiyajiru",
+     "to_slug": "obaku",
+     "relation_type": "兄弟",
+     "basis": "本文に「丸麦のおかゆである「おばく」にかけて食べるのが好まれている」とあり、おばくにかける冷や汁として明記されている"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "notes": "伝承地域=早川町のためそのまま採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "jagaimo-hijiki-nimono",
+   "name_ja": "じゃがいもとひじきの煮物",
+   "name_romaji": "Jagaimo to Hijiki no Nimono",
+   "name_en": "Jagaimo to hijiki no nimono — potato and hijiki simmered for the mountain's opening day",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "富士吉田市",
+   "lat": 35.487,
+   "lng": 138.8064,
+   "summary_ja": "じゃがいもと戻したひじきを醤油とみりんで甘辛く煮る富士吉田市周辺の一品。富士山の山開き（7月1日）に登拝者を世話した御師がふるまい、山の幸と海の幸で開山を祝う意味が込められていたと伝わる。",
+   "summary_en": "Potato and rehydrated hijiki seaweed are simmered sweet-savory in soy sauce and mirin — a dish from around Fujiyoshida city, said to have been served by oshi lodging-house keepers to pilgrims on Mount Fuji's July 1st opening day, pairing mountain and sea to mark the season's start.",
+   "sources": [
+    {
+     "title": "じゃがいもとひじきの煮物 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/jagaimo_to_hijiki_no_nimono_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "jagaimo-hijiki-nimono",
+     "to_slug": "memaki",
+     "relation_type": "兄弟",
+     "basis": "本文にともに富士山信仰の御師がふるまったと明記されており、めまきは参詣のもてなし、じゃがいもとひじきの煮物は山開きの日に供された同系統のもてなし料理とされる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=富士吉田市、富士河口湖町（二市町併記のため要判断）は先に挙げられている富士吉田市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsukino-shizuku",
+   "name_ja": "月の雫",
+   "name_romaji": "Tsukino Shizuku",
+   "name_en": "Tsukino shizuku — a Koshu grape coated whole in hardened sugar glaze",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "甲府市",
+   "lat": 35.6642,
+   "lng": 138.5684,
+   "summary_ja": "皮の厚い甲州ぶどうを一粒ずつ、練り上げた白い砂糖蜜にくぐらせて固める甲府の銘菓。江戸時代、和菓子店で煮詰めていた蜜にぶどうが落ちて固まったのが始まりという言い伝えがあり、江戸期の文献にも記されている。",
+   "summary_en": "Thick-skinned Koshu grapes are dipped one by one in molten sugar glaze and left to harden — a confection from Kofu, said by legend to have begun when a grape fell into boiling sugar syrup at a Kofu sweet shop, and already noted in Edo-period guidebooks.",
+   "sources": [
+    {
+     "title": "月の雫 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tukino_shizuku_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tsukino-shizuku",
+     "to_slug": "anbin",
+     "relation_type": "対比",
+     "basis": "ともに山梨に伝わる伝統菓子だが、月の雫は甲府の和菓子店が仕立てる上生菓子、あんびんは峡南地域の素朴な家庭のおやつである点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=甲州市、甲府市（二市併記）のうち、本文の由来譚が甲府市の和菓子店を舞台にしているため甲府市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yamanashi-basashi",
+   "name_ja": "馬刺し",
+   "name_romaji": "Basashi",
+   "name_en": "Yamanashi basashi — raw horse meat sliced thin and dipped in soy sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "",
+   "lat": 35.6642,
+   "lng": 138.5684,
+   "summary_ja": "薬味を添えた生の馬肉を醤油につけて食べる山梨の一品。かつて貢馬の国と呼ばれ富士登山の荷揚げにも馬が使われたことから、安価な馬肉料理が根づいたとされ、吉田のうどんに甘辛く煮てのせることもある。",
+   "summary_en": "Raw horse meat, sliced thin, is dipped in soy sauce with grated ginger, garlic, and scallion — a Yamanashi dish said to have taken root because horses long served the province, from tribute animals to load-bearers for Mount Fuji pilgrims, making the meat cheap and familiar. It is also simmered sweet and piled onto Yoshida udon.",
+   "sources": [
+    {
+     "title": "馬刺し 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/basashi_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yamanashi-basashi",
+     "to_slug": "yoshida",
+     "relation_type": "使用食材",
+     "basis": "本文に「「吉田うどん」には甘辛く煮た馬肉がのせられる」とあり、吉田のうどんの具材として使われることが明記されている"
+    }
+   ],
+   "tags": [],
+   "notes": "既存slug basashi（福島県）と同名のためyamanashi-basashiとした。伝承地域=県内全域のため甲府市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yugao-miso-shiru",
+   "name_ja": "夕顔のみそ汁",
+   "name_romaji": "Yugao no Miso Shiru",
+   "name_en": "Yugao no miso shiru — bottle-gourd miso soup, a Fuji foothill summer staple",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "",
+   "lat": 35.487,
+   "lng": 138.8064,
+   "summary_ja": "ひょうたんに似た長い形の「ながゆうがお」を薄切りにし、煮干しだしと味噌で仕立てる富士北麓地域の夏の汁。かんぴょうの原料とは別種で、淡泊な味わいがとろりとした食感とともに好まれると伝わる。",
+   "summary_en": "The long, gourd-shaped 'naga-yugao', a bottle gourd variety distinct from the one used for kanpyo strips, is thinly sliced into a sardine-stock miso soup — a summer dish from the Fuji foothills, its mild flavor and silky texture said to be well liked.",
+   "sources": [
+    {
+     "title": "夕顔のみそ汁 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yuugao_no_miso_shiru_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yugao-miso-shiru",
+     "to_slug": "mogura-uri-hiyajiru",
+     "relation_type": "兄弟",
+     "basis": "ともに山梨の山間・高原地域で育つ瓜類を使う夏の汁物だが、夕顔のみそ汁は温かい味噌汁、茂倉瓜の冷や汁は冷たい汁である点が異なる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=富士北麓地域（地方）のため中心都市の富士吉田市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nama-yuba",
+   "name_ja": "生湯葉",
+   "name_romaji": "Nama Yuba",
+   "name_en": "Nama yuba — the fresh skin skimmed from simmering soy milk",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "身延町",
+   "lat": 35.3897,
+   "lng": 138.4408,
+   "summary_ja": "煮立てた豆乳の表面にできる膜をすくいとる身延町の特産品。日蓮聖人が身延山に入った際、消化によい栄養源として弟子がつくったのが始まりと伝わり、ひと口大に切ってわさび醤油で食べる。",
+   "summary_en": "The skin that forms on the surface of simmering soy milk is skimmed off fresh — a specialty of Minobu town, said to have begun when the priest Nichiren's disciples made it as an easily digested source of nutrition after he entered Mount Minobu. It is cut bite-sized and eaten with wasabi soy sauce.",
+   "sources": [
+    {
+     "title": "生湯葉 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nama_yuba_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nama-yuba",
+     "to_slug": "akebono-daizu-edamame",
+     "relation_type": "対比",
+     "basis": "ともに山梨の大豆を生かした特産品だが、生湯葉は豆乳から膜をすくう加工品、あけぼの大豆の枝豆は塩ゆでの豆そのものである点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=身延町のためそのまま採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yamanashi-shoyu-no-mi",
+   "name_ja": "しょうゆの実",
+   "name_romaji": "Shoyu no Mi",
+   "name_en": "Yamanashi shoyu no mi — the koji-fermented soybean solids left from making soy sauce",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "南アルプス市",
+   "lat": 35.6167,
+   "lng": 138.3944,
+   "summary_ja": "煮た大豆に麦麹を混ぜてわらに包み、数日発酵させる芦安地域の保存食。各家庭で醤油をつくった名残の副産物とされ、貴重なたんぱく源として麦ごはんにのせて食べてきたと伝わる。",
+   "summary_en": "Boiled soybeans are mixed with barley koji, wrapped in straw, and left to ferment for several days — a keeping food from the Ashiyasu area, said to be a byproduct of home soy-sauce-making once common there, eaten over barley rice as a valued source of protein.",
+   "sources": [
+    {
+     "title": "しょうゆの実 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shouyu_nomi_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yamanashi-shoyu-no-mi",
+     "to_slug": "obaku",
+     "relation_type": "対比",
+     "basis": "本文の「おばく」の項に「醤油の実をつけて食す」とあり、しょうゆの実がおばくに添える薬味として使われることが記されている"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "soy_sauce"
+   ],
+   "notes": "既存slug shoyu-no-mi（山形県）と同名のためyamanashi-shoyu-no-miとした。伝承地域=芦安（あしやす）地域は南アルプス市内の一地区のため、南アルプス市かつ芦安地域寄りの座標を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "inobuta-nabe",
+   "name_ja": "いのぶた鍋",
+   "name_romaji": "Inobuta Nabe",
+   "name_en": "Inobuta nabe — a sesame miso hot pot of wild-boar-crossed pork",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "山梨県",
+   "origin_city": "山梨市",
+   "lat": 35.6944,
+   "lng": 138.6825,
+   "summary_ja": "雄いのししと雌豚を掛け合わせた「いのぶた」の肉を、ごま入り味噌汁で野菜やきのこと煮る三富地域の鍋。獣臭さがなく脂に甘みがあるとされ、戦後の狩猟文化を背景に飼育が奨励されたと伝わる。",
+   "summary_en": "Meat from 'inobuta', a cross between wild boar and domestic sow, is simmered with vegetables and mushrooms in a sesame-miso broth — a hot pot from the Mitomi area, said to lack any gamey edge and carry a sweet richness in its fat, its breeding encouraged after the war on a base of local hunting culture.",
+   "sources": [
+    {
+     "title": "いのぶた鍋 山梨県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/inobuta_nabe_yama_nashi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "inobuta-nabe",
+     "to_slug": "hoto",
+     "relation_type": "派生",
+     "basis": "本文に「「いのぶたほうとう」や「いのぶたラーメン」などもある」とあり、いのぶた肉を使ったほうとうの派生料理があることが明記されている"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=三富地域他のため、三富地域を含む山梨市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "件数: 30行中、作った27件／既存で作らなかった2件（houtou_yama_nashi=既存slug hotoとhigh一致、yoshida_no_udon_yama_nashi=既存slug yoshidaとhigh一致）／low判定は2件（azuki_houtou_yama_nashi=既存hotoと比較し、小麦の日常食である本来のほうとうに対し正月・盆・祭りに小豆汁粉で食べる行事食であり別物と判断し作成、imogara_iri_futomaki_sushi_yama_nashi=既存maki-zushi（全国的な巻き寿司の一般名称、pref未設定）と比較し、いもがらという山梨固有の具材を使う別物と判断し作成）。genre_hint=tsukemonoで除外1件（kousyuu_koume_zuke_yama_nashi）。\nall-items-ja.txtの日本語名突合で追加検出した同名・類似アイテム（台帳のexisting_slug欄は空欄）: mimi_yama_nashi（既存slug mimi=栃木県「耳うどん」と同名だが別地域・別由来のためyamanashi-mimiとして作成）、katsudon_yama_nashi（既存slug katsudon=卵とじの標準形と同名だが、本文で「煮かつ丼」と呼び分けて別料理とされているためyamanashi-katsudonとして作成）、basashi_yama_nashi（既存slug basashi=福島県と同名だが別地域のためyamanashi-basashiとして作成）、shouyu_nomi_yama_nashi（既存slug shoyu-no-mi=山形県と同名だが別地域のためyamanashi-shoyu-no-miとして作成）、gojiru系は該当なし。いずれも「同じ名前の郷土料理が複数県にある」パターンとして地名を冠したslugにした。\n棚(shelf)を変えた行: なし（台帳のshelfをすべて踏襲）。\n座標の根拠: 伝承地域が単一市町村の行はその市区町村を採用（seida-no-tamaji=上野原市、yamanashi-mimi=富士川町、awabi-no-nigai, tori-motsuni=甲府市、memaki=富士河口湖町、akebono-daizu-edamame, nama-yuba=身延町、mogura-uri-hiyajiru=早川町）。伝承地域が地方・広域の行は中心都市を代表地点とした（amanatto-sekihan, ozara, sanma-meshi, yakome, imogara-makizushi, usuyaki, obaku, yamanashi-basashi=甲府市、yugao-miso-shiru=富士吉田市）。本文が特定市町村を名指しした行はそこを採用した（azuki-hoto=北杜市［三輪神社のほうとう祭りの由来］、korogaki=甲州市［松里地域の名産地としての記述］、anbin=市川三郷町［六郷特産品加工組合による復活の記述］、urajiro-manju=甲州市［大和地域の由来譚］、yamanashi-katsudon=甲府市［発祥のそば店］、jagaimo-hijiki-nimono=富士吉田市［御師のもてなし］、tsukino-shizuku=甲府市［由来譚の舞台］、oshaka-kogori=甲府市、inobuta-nabe=山梨市［三富地域を含む］）。yamanashi-shoyu-no-miは伝承地域が南アルプス市内の一地区「芦安地域」のため、市域内でもその地区に近い座標を採用した。\n要判断（座標・地名の併記）: amanatto-sekihan（四市併記）、azuki-hoto（五市町併記のうち祭りの由来がある北杜市を選定）、ozara（四市町併記）、korogaki（甲州市、南アルプス市などの併記）、anbin（峡南地域の広域表記だが本文の復活拠点を採用）、urajiro-manju（甲州市、上野原市の併記）、jagaimo-hijiki-nimono（富士吉田市、富士河口湖町の併記）、tsukino-shizuku（甲州市、甲府市の併記）、oshaka-kogori（甲府市、峡南地域の併記）はいずれも単一市町村に絞りきれず、本文の記述の具体性や記載順で代表地点を選んだ。"
+}
