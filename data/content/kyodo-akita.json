@@ -1,0 +1,939 @@
+{
+ "items": [
+  {
+   "slug": "sasamaki",
+   "name_ja": "笹巻き",
+   "name_romaji": "Sasamaki",
+   "name_en": "Sasamaki — sticky rice wrapped and steamed in bamboo grass leaves",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "",
+   "lat": 39.7186,
+   "lng": 140.1024,
+   "summary_ja": "もち米を笹の葉で巻き、イ草で結んで蒸し上げた行事食。端午の節句や田植え後の「さなぶり」に作られ、嫁いだ娘が里帰りの手土産として持たせていた、秋田の初夏の味覚と伝わる。",
+   "summary_en": "Glutinous rice is wrapped in bamboo grass leaves, tied with rush, and steamed — said to be made for the Boys' Festival and the post-rice-planting 'sanaburi' holiday, once carried home by married daughters visiting their parents.",
+   "sources": [
+    {
+     "title": "笹巻き 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_3_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sasamaki",
+     "to_slug": "tenko-azuki-sekihan",
+     "relation_type": "対比",
+     "basis": "ともに秋田でもち米を使う行事食だが、笹の葉で包むか小豆で色づけるかで仕立てが異なる"
+    }
+   ],
+   "tags": [
+    "handheld",
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=県内全域のため空欄。lat/lngは県庁所在地の秋田市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "damako-nabe",
+   "name_ja": "だまこ鍋",
+   "name_romaji": "Damako Nabe",
+   "name_en": "Damako nabe — pounded rice dumpling hot pot",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "",
+   "lat": 39.9481,
+   "lng": 140.0384,
+   "summary_ja": "炊きたてのご飯をすりこぎで軽くつぶして丸めた「だまこ」を、比内地鶏の出汁でごぼうやせりと煮る鍋。八郎潟の魚が減り、代わりに鶏を使うようになったのが始まりと伝わる。",
+   "summary_en": "Freshly cooked rice, lightly pounded with a pestle and rolled into balls called 'damako', simmers in hinai-jidori chicken broth with burdock and Japanese parsley — said to have taken shape once fish from Lake Hachirogata grew scarce and chicken took their place.",
+   "sources": [
+    {
+     "title": "だまこ鍋 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_4_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "damako-nabe",
+     "to_slug": "kiritanpo-nabe",
+     "relation_type": "対比",
+     "basis": "ともに比内地鶏の出汁とすりつぶした米を使う秋田の鍋だが、団子にするか棒に巻いて焼くかで仕立てが異なる"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ],
+   "notes": "origin_city: 伝承地域は「秋田市、男鹿、南秋、能代山本地区までの沿岸北部」と複数市町にまたがる広域表記のため空欄。本文が発祥地として明記する南秋地方（八郎潟周辺）の中心地に近い八郎潟町周辺の座標を代表地点とした。要判断として記録。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "natto-jiru",
+   "name_ja": "納豆汁",
+   "name_romaji": "Natto Jiru",
+   "name_en": "Natto jiru — pureed fermented soybean miso soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "横手市",
+   "lat": 39.3122,
+   "lng": 140.5691,
+   "summary_ja": "すり潰した納豆を溶き入れた味噌汁に、里芋やきのこ、山菜を加えた県南地域の郷土料理。納豆発祥の地の一つとされる横手市に伝わり、正月三が日に温め直して食べる習わしがあるという。",
+   "summary_en": "Finely mashed fermented soybeans are stirred into a miso soup of taro, mushrooms, and wild greens — a dish tied to Yokote, one of the places said to claim natto's origin, traditionally reheated and eaten over the first three days of the New Year.",
+   "sources": [
+    {
+     "title": "納豆汁 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_5_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "natto-jiru",
+     "to_slug": "akita-imonoko-jiru",
+     "relation_type": "対比",
+     "basis": "ともに秋田県南地域の里芋を使った汁物だが、納豆を溶き入れるかどうかで仕立てが異なる"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "伝承地域は「県南地域内陸部、由利本荘市中直根地域」と広域だが、本文の由来（後三年の役と横手市金沢公園の記念碑）が具体的なため横手市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kiritanpo-nabe",
+   "name_ja": "きりたんぽ鍋",
+   "name_romaji": "Kiritanpo Nabe",
+   "name_en": "Kiritanpo nabe — grilled rice-paste stick hot pot",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "大館市",
+   "lat": 40.2717,
+   "lng": 140.5683,
+   "summary_ja": "少し硬めに炊いたご飯を棒に付けて焼いた「たんぽ」を鍋の大きさに切り、比内地鶏の出汁でごぼうやせりと煮込む。炭焼きで山にこもる人々の残りご飯の食べ方が始まりと伝わる、大館・鹿角地方の郷土料理。",
+   "summary_en": "Slightly firm rice is pressed onto a stick and grilled into 'tanpo', then cut to size and simmered in hinai-jidori chicken broth with burdock and parsley — said to have begun as a way charcoal makers used up leftover rice while holed up in the mountains.",
+   "sources": [
+    {
+     "title": "きりたんぽ鍋 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_6_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "秋田県",
+     "city": "鹿角市",
+     "lat": 40.1878,
+     "lng": 140.7876,
+     "relation_type": "名産地"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kiritanpo-nabe",
+     "to_slug": "hinai-jidori",
+     "relation_type": "使用食材",
+     "basis": "出汁と具材の主役に比内地鶏を使う"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "ceremonial"
+   ],
+   "notes": "伝承地域に「大館市、鹿角市」の2市が明記されているため、大館市を発祥地・origin_cityとし、鹿角市はregionsに名産地として記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "akita-imonoko-jiru",
+   "name_ja": "いものこ汁",
+   "name_romaji": "Imonoko Jiru",
+   "name_en": "Imonoko jiru — taro and chicken autumn soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "横手市",
+   "lat": 39.3122,
+   "lng": 140.5691,
+   "summary_ja": "里芋の子芋や孫芋「いものこ」を、鶏肉やきのこ、山菜とともに味噌や醤油で煮た秋の汁物。横手市山内地域特有の土壌で育つ里芋は柔らかな歯ごたえが特徴で、県北のきりたんぽ鍋と対比される郷土料理と伝わる。",
+   "summary_en": "Baby taro corms called 'imonoko' simmer with chicken, mushrooms, and wild greens in miso or soy — an autumn soup said to use taro grown in Yokote's Sannai district, prized for its soft bite, and set alongside kiritanpo nabe as the region's autumn counterpart.",
+   "sources": [
+    {
+     "title": "いものこ汁 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_7_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "akita-imonoko-jiru",
+     "to_slug": "kiritanpo-nabe",
+     "relation_type": "対比",
+     "basis": "県南のいものこ汁と県北のきりたんぽ鍋は、ともに秋田の秋を代表する鍋として対比されると伝わる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は「県南地域」（広域）だが、本文は里芋の産地として横手市山内地域を具体的に記すため横手市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tenko-azuki-sekihan",
+   "name_ja": "てんこ小豆の赤飯",
+   "name_romaji": "Tenko Azuki Sekihan",
+   "name_en": "Tenko azuki sekihan — red rice colored with black-eyed peas",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "にかほ市",
+   "lat": 39.2231,
+   "lng": 139.9089,
+   "summary_ja": "皮が割れにくい黒ささげ「てんこ小豆」で色づけ、砂糖を加えて蒸す秋田の赤飯。盆や正月、冠婚葬祭に欠かせず、紫がかった色合いが特徴で、大往生を祝う際は「黒飯」とも呼ばれると伝わる。",
+   "summary_en": "Red rice colored with 'tenko azuki' — black-eyed peas chosen for skins that resist splitting — is steamed with a touch of sugar, giving it a faint purple cast. Said to appear at Obon, New Year's, and every family occasion, it's also called 'kuromeshi' at a long life's funeral.",
+   "sources": [
+    {
+     "title": "てんこ小豆の赤飯 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_10_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "秋田県",
+     "city": "横手市",
+     "lat": 39.3122,
+     "lng": 140.5691,
+     "relation_type": "名産地"
+    },
+    {
+     "pref": "秋田県",
+     "city": "湯沢市",
+     "lat": 39.1594,
+     "lng": 140.4967,
+     "relation_type": "名産地"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tenko-azuki-sekihan",
+     "to_slug": "sasamaki",
+     "relation_type": "対比",
+     "basis": "ともに秋田でもち米を使う行事食だが、小豆で色づけるか笹の葉で包むかで仕立てが異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域に「にかほ市、横手平鹿地域、湯沢雄勝地域」の3地域が明記されているため、先頭のにかほ市をorigin_cityとし、横手市・湯沢市はregionsに名産地として記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tamago-kanten",
+   "name_ja": "卵寒天",
+   "name_romaji": "Tamago Kanten",
+   "name_en": "Tamago kanten — egg-set agar sweet",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "",
+   "lat": 39.7186,
+   "lng": 140.1024,
+   "summary_ja": "寒天液に溶き卵と砂糖を加えて型で固めた菓子。人数に合わせて切り分けやすく持ち帰りやすいことから、冠婚葬祭で振る舞う「取り回し」料理として県南地方を中心に親しまれてきたと伝わる。",
+   "summary_en": "Agar liquid is sweetened and set with beaten egg in a mold — said to be favored, especially in southern Akita, as a 'torimawashi' dish handed round at funerals and celebrations, since it slices easily to serve a crowd and travels well in a box.",
+   "sources": [
+    {
+     "title": "卵寒天 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_11_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tamago-kanten",
+     "to_slug": "tofu-kasutera",
+     "relation_type": "対比",
+     "basis": "ともに秋田県南地域で冠婚葬祭の「取り回し」料理として作られてきた菓子"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=県内全域のため空欄。本文は県南地方が中心とも補足するが、伝承地域の表記に従い県庁所在地の秋田市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tofu-kasutera",
+   "name_ja": "豆腐カステラ",
+   "name_romaji": "Tofu Kasutera",
+   "name_en": "Tofu kasutera — castella sponge made with tofu",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "大仙市",
+   "lat": 39.4508,
+   "lng": 140.4692,
+   "summary_ja": "水気を切った豆腐に砂糖や卵を混ぜてカステラ状に焼き上げる菓子。高価だった卵や砂糖の代わりに、ハレの日に食べていた豆腐を使ったのが始まりと伝わる、しっとりした食感が特徴の秋田県南の菓子。",
+   "summary_en": "Tofu, pressed of its moisture, is mixed with sugar and egg and baked into a castella-style sponge — said to have begun as a way to stretch prized tofu when eggs and sugar were too costly, giving southern Akita a sweet with a moist, tofu-tinged texture.",
+   "sources": [
+    {
+     "title": "豆腐カステラ 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_12_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "秋田県",
+     "city": "横手市",
+     "lat": 39.3122,
+     "lng": 140.5691,
+     "relation_type": "名産地"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tofu-kasutera",
+     "to_slug": "tamago-kanten",
+     "relation_type": "対比",
+     "basis": "ともに秋田県南地域で冠婚葬祭の「取り回し」料理として作られてきた菓子"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "egg"
+   ],
+   "notes": "伝承地域に「大仙市、横手市」の2市が明記されているため、先に挙がる大仙市をorigin_cityとし、横手市はregionsに名産地として記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "akita-asazuke",
+   "name_ja": "あさづけ",
+   "name_romaji": "Asazuke",
+   "name_en": "Akita asazuke — sweet-and-sour rice dessert with fruit and vegetables",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "",
+   "lat": 39.7186,
+   "lng": 140.1024,
+   "summary_ja": "砕け米をすりつぶして煮た生地を砂糖と酢で味付けし、きゅうりやかぶ、季節の果物を混ぜた甘酸っぱいデザート。一般的な漬物の「浅漬け」とは別物で、田植えを終えた女性たちを癒やす夏の一品と伝わる。",
+   "summary_en": "Broken rice grains are pureed, simmered, and seasoned sweet-and-sour with sugar and vinegar, then mixed with cucumber, turnip, and seasonal fruit — a summer dessert unrelated to the pickle of the same name, said to refresh women after a day planting rice.",
+   "sources": [
+    {
+     "title": "あさづけ 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_13_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "akita-asazuke",
+     "to_slug": "tororo-manma",
+     "relation_type": "対比",
+     "basis": "ともに秋田で名前から想像される料理とは異なる中身を持つ郷土料理"
+    }
+   ],
+   "tags": [],
+   "notes": "slug: 一般的な漬物「浅漬け」との混同を避けるため地名を冠したakita-asazukeとした。origin_city: 伝承地域=県内全域のため空欄。lat/lngは県庁所在地の秋田市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tara-no-ko-iri",
+   "name_ja": "鱈の子炒り",
+   "name_romaji": "Tara no Ko Iri",
+   "name_en": "Tara no ko iri — simmered cod roe with konjac noodles",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "",
+   "lat": 39.3803,
+   "lng": 140.0475,
+   "summary_ja": "秋田で「たらこ」と呼ばれる真鱈の卵を、糸こんにゃくやねぎと甘辛く煮つけた冬の料理。子宝を願う縁起物として正月に欠かせず、真鱈の産地である由利地域ではシンプルな味付けで食べると伝わる。",
+   "summary_en": "Pacific cod roe — called 'tarako' locally, unlike the pollock roe the word usually means elsewhere — is simmered sweet-savory with shirataki noodles and scallion, a winter dish said to be a New Year's must for its wish of fertility, kept simplest in cod-rich Yuri.",
+   "sources": [
+    {
+     "title": "鱈の子炒り 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_14_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tara-no-ko-iri",
+     "to_slug": "tara-jiru",
+     "relation_type": "兄弟",
+     "basis": "ともに秋田で真鱈を余さず食べる冬の郷土料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=日本海沿岸地域（広域）のため空欄。lat/lngは本文で真鱈の産地として名指しされる由利本荘市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kamabuku",
+   "name_ja": "かまぶく",
+   "name_romaji": "Kamabuku",
+   "name_en": "Kamabuku — steamed potato and mochi flour log shaped like fish cake",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "大館市",
+   "lat": 40.2717,
+   "lng": 140.5683,
+   "summary_ja": "茹でてつぶしたじゃがいもに餅粉と砂糖を混ぜ、かまぼこ状に成形して蒸す菓子。魚が手に入りにくい内陸の山間部で、すり身の代わりにじゃがいもを使って考案されたと伝わる、秋田県北の口取り菓子。",
+   "summary_en": "Boiled, mashed potato is worked with glutinous rice flour and sugar, shaped into a fish-cake-like log, and steamed — said to have been devised in Akita's mountainous interior, where fish was scarce, as a stand-in for fish paste at celebrations.",
+   "sources": [
+    {
+     "title": "かまぶく 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_15_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kamabuku",
+     "to_slug": "kamaboko",
+     "relation_type": "対比",
+     "basis": "見た目はかまぼこに似せているが、魚のすり身を一切使わずじゃがいもと餅粉で作る点で対照的"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は「県北地方」（広域）だが、本文は三種町上岩川地域と大館市山館地域を具体的に記す。保存・継承の取組が大館市に集中するため大館市を代表地点とした。要判断として記録。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "junsai-nabe",
+   "name_ja": "じゅんさい鍋",
+   "name_romaji": "Junsai Nabe",
+   "name_en": "Junsai nabe — water shield hot pot",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "三種町",
+   "lat": 40.0126,
+   "lng": 140.0138,
+   "summary_ja": "沼で育つ水草じゅんさいのゼリー状の新芽を、鶏肉やごぼう、せりと煮た鍋料理。つるりとした喉ごしが持ち味で、日本有数の産地である三種町では箱舟で手摘みする夏の風物詩と伝わる。",
+   "summary_en": "The jelly-coated young shoots of junsai, a water shield that grows in ponds, simmer with chicken, burdock, and Japanese parsley — prized for a smooth, slippery bite, and said to be hand-picked from small boats each summer in Mitane, one of Japan's leading junsai-growing towns.",
+   "sources": [
+    {
+     "title": "じゅんさい鍋 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_16_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "junsai-nabe",
+     "to_slug": "damako-nabe",
+     "relation_type": "対比",
+     "basis": "ともに秋田の鶏出汁を使った鍋料理だが、主役がじゅんさいか米の団子かで異なる"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ],
+   "notes": "伝承地域は「県北西部」（広域）だが、本文はじゅんさいの産地として三種町を具体的に記すため三種町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tara-jiru",
+   "name_ja": "鱈汁",
+   "name_romaji": "Tara Jiru",
+   "name_en": "Tara jiru — whole cod miso soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "にかほ市",
+   "lat": 39.2231,
+   "lng": 139.9089,
+   "summary_ja": "真鱈を身からあら、肝、白子まで丸ごと使い、ねぎと味噌で仕立てた冬の汁物。にかほ市金浦山神社の鱈祭り「掛魚祭り」で振る舞われる、300年以上続く行事とともに伝わる秋田の冬の定番料理。",
+   "summary_en": "Whole Pacific cod — flesh, bones, liver, and milt — simmers with scallion in a miso broth, a winter staple said to be served at Nikaho's 300-year-old cod festival, 'kakeyo matsuri', at Konoura Yama Shrine.",
+   "sources": [
+    {
+     "title": "鱈汁 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_17_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tara-jiru",
+     "to_slug": "tara-no-ko-iri",
+     "relation_type": "兄弟",
+     "basis": "ともに秋田で真鱈を余さず食べる冬の郷土料理"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tonburi-nagaimo-ae",
+   "name_ja": "とんぶりの長芋和え",
+   "name_romaji": "Tonburi Nagaimo Ae",
+   "name_en": "Tonburi nagaimo ae — kochia seeds tossed with grated yam",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "大館市",
+   "lat": 40.2717,
+   "lng": 140.5683,
+   "summary_ja": "プチプチとした食感から「畑のキャビア」と呼ばれるコキアの実「とんぶり」を、千切りの長芋と醤油で和えた一品。国内唯一の産地である大館市で、乾燥・脱皮の手間を重ねて作られてきたと伝わる。",
+   "summary_en": "Tonburi — the tiny, crunchy seeds of kochia, dried and hulled through a laborious process — are tossed with julienned mountain yam and a dash of soy sauce. Odate, the only place in Japan that produces it, is said to have kept the technique alive for generations.",
+   "sources": [
+    {
+     "title": "とんぶりの長芋和え 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_18_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tonburi-nagaimo-ae",
+     "to_slug": "tororo-manma",
+     "relation_type": "対比",
+     "basis": "ともに秋田の芋類を使う日常の一品だが、主役がとんぶりか山芋のとろろかで異なる"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域は「県内全域」（広域）だが、本文はとんぶりが大館市の国内唯一の産地であると明記するため大館市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nasu-no-hanazushi",
+   "name_ja": "なすの花ずし",
+   "name_romaji": "Nasu no Hanazushi",
+   "name_en": "Nasu no hanazushi — pickled eggplant layered with rice and chrysanthemum",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "横手市",
+   "lat": 39.3122,
+   "lng": 140.5691,
+   "summary_ja": "輪切りにしたなすの中に、餅米と菊の花、赤とうがらしを重ねて漬け込む正月の漬物。なすの紫、菊の黄、唐辛子の赤が映える色合いから「秋田の漬物の芸術品」と称され、横手市で受け継がれてきたと伝わる。",
+   "summary_en": "Rounds of eggplant are packed with layers of glutinous rice, chrysanthemum petals, and red chili — a New Year's pickle prized for the contrast of purple, yellow, and red, said to be kept alive around Yokote, where the eggplant variety it uses is grown.",
+   "sources": [
+    {
+     "title": "なすの花ずし 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_19_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nasu-no-hanazushi",
+     "to_slug": "iburigakko",
+     "relation_type": "対比",
+     "basis": "ともに秋田の正月に欠かせない漬物だが、いぶりがっこは大根を燻して漬け、花ずしはなすと餅米を漬け込む点で異なる"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ],
+   "notes": "台帳のgenre_hintはtsukemonoではなくsushiのため作らない対象外。all-items-ja.txt突合でも「花ずし」に一致する既存項目なし。カテゴリは漬物だが米を使うため「すし」と呼ばれる点をnotesに明記。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "koi-no-amani",
+   "name_ja": "鯉の甘煮",
+   "name_romaji": "Koi no Amani",
+   "name_en": "Koi no amani — sweet soy-simmered carp",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "",
+   "lat": 39.7186,
+   "lng": 140.1024,
+   "summary_ja": "血抜きして輪切りにした鯉を、酒と砂糖、醤油でじっくり甘辛く煮付けた内陸地方のごちそう。清水で育った鯉は泥臭さが少なく、「来い」に通じることから嫁取りの祝いに出されてきたと伝わる。",
+   "summary_en": "Carp, bled and cut into rounds, is slow-simmered sweet-savory in sake, sugar, and soy sauce — a feast dish from Akita's inland areas, where carp raised in clear spring water is said to carry little of the usual muddiness, and served at weddings for a pun on 'koi', to come.",
+   "sources": [
+    {
+     "title": "鯉の甘煮 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_20_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "koi-no-amani",
+     "to_slug": "koi",
+     "relation_type": "使用食材",
+     "basis": "主材料に秋田内陸部で養殖される鯉を使う"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=内陸地方という広域表記で、特定の市町村名の記載がないため空欄。lat/lngは代表地点として県庁所在地の秋田市とした。要判断として記録。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "akita-oyaki",
+   "name_ja": "おやき",
+   "name_romaji": "Akita Oyaki",
+   "name_en": "Akita oyaki — glutinous rice cake filled with sweet red bean",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "",
+   "lat": 39.7186,
+   "lng": 140.1024,
+   "summary_ja": "餅米の生地であんこを包み、こんがりと焼き上げる菓子。野沢菜となすを小麦の皮で包む信州のおやきとは別物で、山の神へのお供えや五城目町の朝市の名物として親しまれてきたと伝わる。",
+   "summary_en": "Glutinous rice dough wraps sweet red bean paste and is pan-grilled until lightly browned — unrelated to the wheat-and-buckwheat oyaki of Nagano stuffed with nozawana and eggplant, said to be offered to the mountain god and sold as a signature item at Gojome's morning market.",
+   "sources": [
+    {
+     "title": "おやき 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_21_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "akita-oyaki",
+     "to_slug": "oyaki",
+     "relation_type": "対比",
+     "basis": "同じ「おやき」の名を持つが、長野は小麦とそば粉の皮に野菜を包んで焼き、秋田は餅米の皮であんこを包む点で対照的"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "既存slug「oyaki」（長野県）と同名だが別の郷土料理のため、命名ルールに従いakita-oyakiとした。origin_city: 伝承地域=全域のため空欄。lat/lngは県庁所在地の秋田市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kasube-ni",
+   "name_ja": "かすべ煮",
+   "name_romaji": "Kasube Ni",
+   "name_en": "Kasube ni — simmered dried skate",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "秋田市",
+   "lat": 39.7186,
+   "lng": 140.1024,
+   "summary_ja": "北海道から北前船で運ばれた干しエイ「かすべ」を、水で戻して甘辛く煮込んだ料理。冷めても傷みにくく、夏の貴重なごちそうだったと伝わる。秋田市土崎地区の夏祭りでは各家庭で振る舞われる。",
+   "summary_en": "Dried skate, once carried down from Hokkaido by the old Kitamae shipping route, is rehydrated and simmered sweet-savory — said to keep well even in summer heat, making it a prized warm-season dish, and still served at every home during Akita's Tsuchizaki summer festival.",
+   "sources": [
+    {
+     "title": "かすべ煮 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_22_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kasube-ni",
+     "to_slug": "tara-no-ko-iri",
+     "relation_type": "対比",
+     "basis": "ともに秋田で保存の利く魚介を甘辛く煮る冬・夏の郷土料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は「県北地域、県南地域」（広域）だが、本文は「かすべ祭り」で知られる秋田市土崎地区を中心に記すため秋田市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shottsuru-nabe",
+   "name_ja": "しょっつる鍋",
+   "name_romaji": "Shottsuru Nabe",
+   "name_en": "Shottsuru nabe — sailfin sandfish hot pot in fish sauce broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "男鹿市",
+   "lat": 39.8961,
+   "lng": 139.8332,
+   "summary_ja": "秋田の魚醤しょっつるを昆布出汁に合わせ、ハタハタと豆腐、白菜などの野菜を煮る冬の鍋。発祥地の男鹿市ではハタハタだけのシンプルな汁で食べると伝わり、雷鳴とともに沿岸に群れる時季に食べられる。",
+   "summary_en": "Shottsuru, Akita's fermented fish sauce, is blended into a kelp broth to simmer sailfin sandfish with tofu and napa cabbage — a winter hot pot said to be kept simplest, just fish and broth, in Oga, where it's said to have begun, timed to the fish's thunder-season run inshore.",
+   "sources": [
+    {
+     "title": "しょっつる鍋 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_23_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shottsuru-nabe",
+     "to_slug": "shottsuru",
+     "relation_type": "使用食材",
+     "basis": "出汁の要となる秋田の魚醤しょっつるを使う"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "match_confidence=lowの行（existing_slug=shottsuru）。既存slug「shottsuru」は魚醤という調味料そのものの解説（ソースも本ページと同一）であり、鍋料理として仕立てる本項とは別物と判断し新規作成。要判断として記録：既存bodyの本文はしょっつる鍋にも言及しており内容の一部重複はあるが、しょっつる（調味料）としょっつる鍋（料理）はブリーフの「ニシン漬けとニシン」の例に準じ別項目として扱った。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tororo-manma",
+   "name_ja": "とろろまんま",
+   "name_romaji": "Tororo Manma",
+   "name_en": "Tororo manma — grated mountain yam over rice in miso broth",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "由利本荘市",
+   "lat": 39.3803,
+   "lng": 140.0475,
+   "summary_ja": "コシの強い「やまのいも」をすりおろし、濃いめの味噌汁でのばしてご飯にかける正月料理。魔除けの力があると信じられ、元旦に食べる風習が今も残る。由利本荘市では大食い大会も催されると伝わる。",
+   "summary_en": "Grated 'yamanoimo', a stickier mountain yam than nagaimo, is thinned with a rich miso broth and poured over rice — a New Year's dish said to ward off misfortune, still eaten on New Year's morning, with Yurihonjo hosting an annual eating contest built around it.",
+   "sources": [
+    {
+     "title": "とろろまんま 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_24_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tororo-manma",
+     "to_slug": "tonburi-nagaimo-ae",
+     "relation_type": "対比",
+     "basis": "ともに秋田の芋類を使う一品だが、とろろ汁にかけるかとんぶりと和えるかで異なる"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "伝承地域は「県北地域、県南地域、中央地区由利本荘市」と複数記載。本文が大食い大会の開催地として名指しする由利本荘市をorigin_cityとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kyanokko-jiru",
+   "name_ja": "きゃのっこ汁",
+   "name_romaji": "Kyanokko Jiru",
+   "name_en": "Kyanokko jiru — finely diced root vegetable miso soup (also keno jiru)",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "",
+   "lat": 39.7186,
+   "lng": 140.1024,
+   "summary_ja": "大根や人参、さつまいも、山芋などをけんちん汁より細かく刻み、味噌仕立ての出汁で煮た小正月の行事食。別名けの汁。大鍋で作り置き、無病息災を願いながら数日かけて食べる風習と伝わる。",
+   "summary_en": "Daikon, carrot, sweet potato, and mountain yam, diced even finer than for kenchin soup, simmer in a miso broth — a dish for Koshogatsu, the 'little' New Year, also called 'keno jiru', said to be made in a big pot and eaten over several days for good health.",
+   "sources": [
+    {
+     "title": "きゃのっこ汁／けの汁 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_25_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kyanokko-jiru",
+     "to_slug": "natto-jiru",
+     "relation_type": "対比",
+     "basis": "ともに秋田の味噌仕立ての汁物で正月行事に結びつくが、納豆汁は正月三が日、きゃのっこ汁は小正月に食べる点で異なる"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "name_ja「きゃのっこ汁／けの汁」は主名を先頭の「きゃのっこ汁」とし、別名「けの汁」はsummaryで言及。origin_city: 伝承地域=県央から県北地域、一部県南地域という広域表記のため空欄。lat/lngは県庁所在地の秋田市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sanbai-miso",
+   "name_ja": "三杯みそ",
+   "name_romaji": "Sanbai Miso",
+   "name_en": "Sanbai miso — steamed sweet rice-flour and red bean cake",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "大仙市",
+   "lat": 39.4508,
+   "lng": 140.4692,
+   "summary_ja": "餅米粉、うるち米粉、小豆あんを茶碗一杯ずつ合わせて練り、蒸し上げる菓子。味噌は使わないが、材料を合わせた見た目が味噌のようだったことが名の由来と伝わる、県南地域の重箱菓子。",
+   "summary_en": "Glutinous and non-glutinous rice flour and sweet red bean paste, each measured out a bowlful, are kneaded together and steamed — no miso in it, though the name is said to come from how the mixed batter once resembled miso, a tiered-box sweet from southern Akita.",
+   "sources": [
+    {
+     "title": "三杯みそ 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_28_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sanbai-miso",
+     "to_slug": "tofu-kasutera",
+     "relation_type": "対比",
+     "basis": "ともに秋田県南地域で親戚が集う席に出される重箱菓子"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は「県南地域」（広域）だが、本文は起源を大曲地方（現・大仙市）と明記するため大仙市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "akita-hoshimochi",
+   "name_ja": "干し餅",
+   "name_romaji": "Akita Hoshimochi",
+   "name_en": "Akita hoshimochi — freeze-dried mochi crackers",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "秋田県",
+   "origin_city": "",
+   "lat": 39.7186,
+   "lng": 140.1024,
+   "summary_ja": "切った餅を吊るし編みにして水に浸し、冬の寒さで凍らせては乾かす「寒締め」を経て作る保存菓子。さくさくとした歯ごたえが持ち味で、腹持ちがよく、田植えの合間の軽食として食べられてきたと伝わる。",
+   "summary_en": "Sliced mochi is strung up, soaked in water, then left to freeze and thaw through the winter cold in a process called 'kanjime' — the result crisp and filling, said to have fueled breaks during rice-planting season.",
+   "sources": [
+    {
+     "title": "干し餅 秋田県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/29_26_akita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "akita-hoshimochi",
+     "to_slug": "hoshimochi",
+     "relation_type": "対比",
+     "basis": "同じ「干し餅」の名で青森県にも伝わるが、産地・製法の細部が異なる寒冷地それぞれの保存菓子"
+    }
+   ],
+   "tags": [
+    "freeze_dried"
+   ],
+   "notes": "既存slug「hoshimochi」（青森県）と同名だが別項目のため、命名ルールに従いakita-hoshimochiとした。origin_city: 伝承地域=県全域のため空欄。lat/lngは県庁所在地の秋田市とした。本文は横手市西野地区の保存会にも言及するが、伝承地域が広域のため代表地点は変更していない。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: 29_1_akita(いぶりがっこ)=all-items-ja.txtに既存slug iburigakko(秋田県)と完全一致のため作らず（台帳のexisting_slugは空欄だったが名称突合で検出）/ 29_2_akita(ハタハタ寿し)=既存slug hatahata-zushi(high confidence)のため作らず / 29_8_akita(柿漬け)・29_9_akita(なた漬け)・29_27_akita(なすのこうじ漬け)=genre_hint=tsukemonoのため作らず / 29_29_akita(赤漬け／赤ずし)=既存slug akazushi(秋田県)のsourcesが本行のdetail_urlと完全一致しており同一項目のため作らず。低確信1件(しょっつる鍋)は既存slug shottsuru(調味料そのものの解説)と発祥地こそ男鹿市で共通するが、ブリーフの「ニシン漬けとニシン」の例に準じ調味料と鍋料理は別物と判断し新規作成（要判断としてitem notesに記載）。棚を変えた行: なし（あさづけはhomestyleではなくsweetsとして台帳どおり採用、他は台帳のshelfを踏襲）。座標: 伝承地域が広域の場合は代表地点（地方の中心都市か県庁所在地=秋田市）を採用し、本文が特定市町村を名指しする場合はその市町村を採用（judgment箇所はitem別notesに記載）。要判断: damako-nabe・kamabuku・koi-no-amaniのorigin_cityは伝承地域の広域表記と本文の具体的記述が食い違う、またはどちらも broad なため代表地点を判断で選定した（各item notesに記載）。"
+}

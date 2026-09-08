@@ -1,0 +1,1109 @@
+{
+ "items": [
+  {
+   "slug": "ika-ninjin",
+   "name_ja": "いかにんじん",
+   "name_romaji": "Ika Ninjin",
+   "name_en": "Ika ninjin — shredded squid and carrot steeped in a sweet soy marinade",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "福島市",
+   "lat": 37.7608,
+   "lng": 140.4747,
+   "summary_ja": "細切りにしたするめいかと人参を、醤油とざらめを煮たてたたれに漬け込む福島市の常備菜。もとは雪深い冬の保存食として作られていたとされ、するめのこりこりした食感と甘辛い味がご飯を進ませるという。",
+   "summary_en": "Shredded dried squid and carrot are steeped in a marinade of soy sauce and coarse sugar — a Fukushima City staple. Said to have begun as a keeping food for the region's snowbound winters, the squid's chewy bite and sweet-salty marinade are known for making rice disappear fast.",
+   "sources": [
+    {
+     "title": "いかにんじん 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_1_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ika-ninjin",
+     "to_slug": "matsumae-zuke",
+     "relation_type": "対比",
+     "basis": "北海道の松前漬けとよく似ると言われ、両者にはつながりがあるとする説もあるが、松前漬けは昆布を加えるのに対しいかにんじんには昆布を入れない違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "fermented"
+   ],
+   "notes": "genre_hint欄は空欄（tsukemonoではない）。魚介の醤油漬けという性質から棚をhomestyleからfermentedに変更（松前漬け等と同様の例外規定を適用）。伝承地域=福島市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kozuyu",
+   "name_ja": "こづゆ",
+   "name_romaji": "Kozuyu",
+   "name_en": "Kozuyu — a scallop-broth vegetable soup served in shallow lacquer dishes",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "",
+   "lat": 37.4955,
+   "lng": 139.9298,
+   "summary_ja": "貝柱のだしできくらげや里芋、わらびなど7つか9つの具を煮て、浅い会津塗の「手塩皿」に盛る会津の冠婚葬祭料理。奇数の具材が縁起が良いとされ、婚礼の宴では何杯おかわりしてもよいとされていたという。",
+   "summary_en": "Wood ear mushroom, taro, fiddlehead fern, and other ingredients — seven or nine kinds — simmer in a scallop broth and are ladled into shallow lacquered Aizu-nuri dishes. An odd number of ingredients is said to be lucky, and at wedding banquets, guests could refill the dish as many times as they liked.",
+   "sources": [
+    {
+     "title": "こづゆ 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_2_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kozuyu",
+     "to_slug": "zakuzaku",
+     "relation_type": "対比",
+     "basis": "福島県内にはこづゆに似た郷土料理としてざくざく（二本松市）があるとされ、こづゆはだしに貝柱、ざくざくは煮干しなどを使う違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=「南会津をのぞいた会津地方」という広域のため空欄。lat/lngは会津地方の中心都市として会津若松市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sanma-popo-yaki",
+   "name_ja": "サンマのポーポー焼き",
+   "name_romaji": "Sanma no Popo-yaki",
+   "name_en": "Sanma no popo-yaki — minced saury patties grilled the way fishermen ate them at sea",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "いわき市",
+   "lat": 37.05,
+   "lng": 140.8878,
+   "summary_ja": "秋にとれたサンマを骨ごとたたいて味噌としょうが、ねぎ、片栗粉を混ぜて丸め、焦げ目がつくまで焼くいわきの漁師料理。船上で炭火にかけると脂が「ポーポー」と音を立てて燃え上がることが名の由来という。",
+   "summary_en": "Autumn saury are minced bones and all, mixed with miso, ginger, scallion, and potato starch, formed into patties, and grilled until browned — a fisherman's dish of Iwaki. The name is said to come from the popping sound the fish's oil made flaring up over charcoal on deck.",
+   "sources": [
+    {
+     "title": "サンマのポーポー焼き 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_4_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sanma-popo-yaki",
+     "to_slug": "sanma",
+     "relation_type": "使用食材",
+     "basis": "秋にとれるサンマを骨ごとミンチにして使う"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "existing_slug=sanma、match_confidence=lowの行。既存のsanmaは魚そのもの（type=ingredient、県指定なし）であり、いわき市の加工料理サンマのポーポー焼きとは別物と判断し作成した。伝承地域=いわき市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hokki-meshi",
+   "name_ja": "ほっきめし",
+   "name_romaji": "Hokki Meshi",
+   "name_en": "Hokki meshi — rice cooked in the broth of local surf clams",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "相馬市",
+   "lat": 37.8017,
+   "lng": 140.9421,
+   "summary_ja": "醤油だれで煮たほっき貝のだしを米に吸わせて炊き、蒸らす際に貝を戻して混ぜ、しそを散らす相馬の一品。福島県唯一の潟湖・松川浦は明治期からほっき貝の名産地とされ、もとは漁師の船内食だったという。",
+   "summary_en": "Rice is cooked in the broth of surf clams simmered in soy sauce, the clams folded back in as the rice steams and finished with shiso — a dish of Soma. Matsukawa-ura, Fukushima's only lagoon, has been known as a surf clam ground since the Meiji era, and the dish is said to have begun as food fishermen ate aboard their boats.",
+   "sources": [
+    {
+     "title": "ほっきめし 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_5_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hokki-meshi",
+     "to_slug": "hokkigai",
+     "relation_type": "使用食材",
+     "basis": "松川浦でとれるほっき貝のだしで米を炊く"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=相馬市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "koi-no-kanroni",
+   "name_ja": "鯉の甘露煮",
+   "name_romaji": "Koi no Kanroni",
+   "name_en": "Koi no kanroni — carp simmered a long while in sugar, syrup, and soy sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "郡山市",
+   "lat": 37.4004,
+   "lng": 140.3596,
+   "summary_ja": "ぶつ切りにしたコイを砂糖と水あめ、醤油、酒でじっくり煮こみ、一晩置いて味を含ませる郡山の料理。猪苗代湖の水を引いた溜め池で養殖される臭みの少ない鯉を使い、もとはハレの日の料理だったと伝わる。",
+   "summary_en": "Carp cut into chunks is simmered a long while in sugar, starch syrup, soy sauce, and sake, then left overnight to soak up the sauce — a dish of Koriyama. It uses carp farmed with little of the fish's usual muddiness in ponds fed by Lake Inawashiro, and is said to have started as festival-day food.",
+   "sources": [
+    {
+     "title": "鯉の甘露煮 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_6_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "koi-no-kanroni",
+     "to_slug": "koi",
+     "relation_type": "使用食材",
+     "basis": "猪苗代湖の水で養殖される郡山の鯉を主材料に使う"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域欄は「会津地方」だが、本文は終始、猪苗代湖から引水した溜め池で鯉を養殖する郡山市について記述している（同じ福島県の鯉料理である鯉のあらい・鯉こくは伝承地域=郡山市と明記）。本文の具体地名を優先し郡山市を代表地点とした。伝承地域表記との乖離は要判断。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kyabetsu-mochi",
+   "name_ja": "キャベツ餅",
+   "name_romaji": "Kyabetsu Mochi",
+   "name_en": "Kyabetsu mochi — stir-fried cabbage tossed with freshly pounded rice cake",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "郡山市",
+   "lat": 37.4004,
+   "lng": 140.3596,
+   "summary_ja": "醤油とだし、みりんで炒めたキャベツに、つきたての餅を絡めて食べる郡山市逢瀬地区の料理。米とキャベツを自給していた農家が、どちらも飽きずに食べ切るために考え出したアイデア料理と伝わっている。",
+   "summary_en": "Cabbage stir-fried with soy sauce, dashi, and mirin is tossed with freshly pounded mochi — a dish from the Ose district of Koriyama. It is said to have been dreamed up by farmers who grew both rice and cabbage for themselves, a way to work through a surplus of each without tiring of it.",
+   "sources": [
+    {
+     "title": "キャベツ餅 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_7_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kyabetsu-mochi",
+     "to_slug": "daikon-mochi",
+     "relation_type": "対比",
+     "basis": "ともに福島の農家が自給する野菜を使い切る知恵から生まれた餅・粉物だが、キャベツ餅は搗いた餅にキャベツを絡め、大根もちは大根おろしと米粉を焼く違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=郡山市（単一市、逢瀬地区）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "zakuzaku",
+   "name_ja": "ざくざく",
+   "name_romaji": "Zakuzaku",
+   "name_en": "Zakuzaku — root vegetables and chicken cut into cubes and simmered in dashi",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "二本松市",
+   "lat": 37.5936,
+   "lng": 140.4551,
+   "summary_ja": "里芋やにんじん、ごぼう、こんにゃくなどをざくざくと角切りにし、煮干しなどのだしで煮て醤油で調える二本松の料理。江戸期の文献に「菜を細かく切ったもの」と記され、冠婚葬祭や祭りに供されてきたという。",
+   "summary_en": "Taro, carrot, burdock, and konnyaku are cut into rough cubes — zaku-zaku — and simmered in a dashi of dried sardine or the like, seasoned with soy sauce — a dish of Nihonmatsu. An Edo-period text describes it as vegetables cut small, and it is said to have long been served at weddings, funerals, and festivals.",
+   "sources": [
+    {
+     "title": "ざくざく 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_8_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "zakuzaku",
+     "to_slug": "kozuyu",
+     "relation_type": "対比",
+     "basis": "本文が「こづゆに似た郷土料理」として明示的に言及しており、ざくざくは煮干しなどのだし、こづゆは貝柱のだしを使う違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "shelfをledgerのhomestyleからhotpotに変更（別名「ざくざく汁」とも呼ばれ、だしで煮る汁物の性格が強いため）。伝承地域=二本松市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "miso-kanpura",
+   "name_ja": "みそかんぷら",
+   "name_romaji": "Miso Kanpura",
+   "name_en": "Miso kanpura — small unshippable potatoes fried and glazed in sweet miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "古殿町",
+   "lat": 37.1305,
+   "lng": 140.5871,
+   "summary_ja": "皮つきのまま茹でた馬鈴薯（かんぷら）を油で炒めてから水を加えて柔らかくし、砂糖と味噌で炒め煮にする古殿町の料理。出荷できないほど小さな芋を家庭で食べ切るための工夫から生まれたと伝わる。",
+   "summary_en": "Small potatoes, boiled skin-on and called kanpura locally, are pan-fried, softened with a splash of water, and finished in a sweet miso glaze — a dish of Furudono. It is said to have grown out of a way to use up potatoes too small to sell, from farms that grew them for shipment.",
+   "sources": [
+    {
+     "title": "みそかんぷら 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_9_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "miso-kanpura",
+     "to_slug": "juunen-botamochi",
+     "relation_type": "対比",
+     "basis": "ともに福島の農家発祥のおやつ的な料理だが、みそかんぷらは出荷できない小芋を味噌で炒め煮にし、じゅうねんぼたもちはもち米にじゅうねんをまぶす違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=古殿町（単一町）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "daikon-mochi",
+   "name_ja": "大根もち",
+   "name_romaji": "Daikon Mochi",
+   "name_en": "Daikon mochi — grated heirloom daikon and rice flour pan-fried like okonomiyaki",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "郡山市",
+   "lat": 37.4004,
+   "lng": 140.3596,
+   "summary_ja": "皮に赤い筋が入る会津赤筋大根をすりおろし、刻んだねぎやアミ、米粉と混ぜて焼く郡山の料理。お好み焼きに近い焼き方だが、煮崩れしにくい大根の風味がしっかり残るのが持ち味だという。",
+   "summary_en": "Aizu akasuji daikon, a heirloom turnip with red-streaked skin, is grated and mixed with scallion, tiny shrimp, and rice flour before being pan-fried — a dish of Koriyama, cooked much like okonomiyaki. Its selling point is the daikon's flavor staying intact, since the variety holds its shape well.",
+   "sources": [
+    {
+     "title": "大根もち 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_10_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "daikon-mochi",
+     "to_slug": "kyabetsu-mochi",
+     "relation_type": "対比",
+     "basis": "ともに福島の農家が自給する野菜を使い切る知恵から生まれた餅・粉物だが、大根もちは大根おろしと米粉を焼き、キャベツ餅は搗いた餅にキャベツを絡める違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=郡山市（単一市）。本文が「お好み焼きのような料理」と形容しているが、名前自体に該当ジャンルの語（お好み焼き等）を含まないためgenreはnullとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsuyu-nishime",
+   "name_ja": "つゆ煮しめ",
+   "name_romaji": "Tsuyu Nishime",
+   "name_en": "Tsuyu nishime — dried herring and straw-wrapped tofu simmered in a seasoned broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "南会津町",
+   "lat": 37.1946,
+   "lng": 139.5952,
+   "summary_ja": "わらで包んで保存性を高めた「つと豆腐」と身欠きにしん、里芋、昆布をだしで煮て醤油と砂糖で仕立てる南会津の料理。冠婚葬祭や祭りの酒の肴として供され、今もイベントで振る舞われているという。",
+   "summary_en": "Tsuto-dofu, tofu wrapped in straw for better keeping, simmers in dashi with dried herring, taro, and kelp, seasoned with soy sauce and sugar — a dish of Minamiaizu. It is served at weddings, funerals, and festivals as an accompaniment to sake, and is said to still be served at local events.",
+   "sources": [
+    {
+     "title": "つゆ煮しめ 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_11_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tsuyu-nishime",
+     "to_slug": "nishin",
+     "relation_type": "使用食材",
+     "basis": "保存のきく身欠きにしんを具材として使う"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=南会津町（単一町）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "harako-meshi",
+   "name_ja": "はらこ飯",
+   "name_romaji": "Harako Meshi",
+   "name_en": "Harako meshi — rice piled high with soy-marinated salmon roe",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "浪江町",
+   "lat": 37.4839,
+   "lng": 141.0002,
+   "summary_ja": "鮭から取り出したいくら（はらこ）の薄皮を丁寧に外し、酒と醤油に漬けて炊きたてのご飯にたっぷりのせる浜通りの料理。福島で最初に鮭の人工ふ化を取り入れたとされる請戸川流域の鮭漁とともに親しまれてきたという。",
+   "summary_en": "Salmon roe, its thin membrane carefully removed, is marinated in sake and soy sauce and piled thick over freshly cooked rice — a dish of the Hamadori coast. It is said to have grown up alongside the salmon fishery of the Ukedo River, where Fukushima's first salmon hatchery is said to have been built.",
+   "sources": [
+    {
+     "title": "はらこ飯 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_12_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "harako-meshi",
+     "to_slug": "sake-salmon",
+     "relation_type": "使用食材",
+     "basis": "秋に遡上する鮭から取れるいくら（はらこ）を主材料に使う"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=「相馬市、南相馬市、浪江町」の3市町併記。本文が請戸川（浪江町）を鮭の人工ふ化発祥地として特筆しているため浪江町を代表地点としたが、相馬市・南相馬市も同様に伝承地とされており要判断。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mame-kazunoko",
+   "name_ja": "豆数の子",
+   "name_romaji": "Mame Kazunoko",
+   "name_en": "Mame kazunoko — flat yellow soybeans tossed with soy-marinated herring roe",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "",
+   "lat": 37.7608,
+   "lng": 140.4747,
+   "summary_ja": "青大豆の一種でひらたく黄みを帯びた「ひやし豆」を一晩水に浸して茹で、酒と醤油に漬けた数の子と和える正月料理。福島県内でつくられるおせちに欠かせない一品として親しまれているという。",
+   "summary_en": "Hiyashimame, a flat, yellow-tinged green soybean, is soaked overnight, boiled, and tossed with herring roe marinated in sake and soy sauce — a New Year dish. It is said to be a fixture of the osechi spread made across Fukushima.",
+   "sources": [
+    {
+     "title": "豆数の子 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_13_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mame-kazunoko",
+     "to_slug": "kazunoko",
+     "relation_type": "使用食材",
+     "basis": "酒と醤油に漬けた数の子を主材料の一つに使う"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=「郡山市、いわき市、福島市」の3市併記で単一に絞れないため空欄とした。lat/lngは3市のうち県庁所在地でもある福島市を代表点とした（要判断）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "anko-no-tomoae",
+   "name_ja": "あんこうのとも和え",
+   "name_romaji": "Anko no Tomoae",
+   "name_en": "Anko no tomoae — boiled monkfish tossed with its own pan-fried liver",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "相馬市",
+   "lat": 37.8017,
+   "lng": 140.9421,
+   "summary_ja": "あんこうの肝をフライパンで炒って味噌と砂糖を加えて練り、ゆでたあんこうの身と切り干し大根に絡める相馬の料理。もとは5月の田植えを手伝ってくれた人たちへのご馳走として振る舞われていたという。",
+   "summary_en": "Monkfish liver is pan-fried and worked with miso and sugar into a paste, then tossed with boiled monkfish meat and dried daikon strips — a dish of Soma. It is said to have started as a feast served in May to thank neighbors who helped with rice planting.",
+   "sources": [
+    {
+     "title": "あんこうのとも和え 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_15_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "anko-no-tomoae",
+     "to_slug": "anko",
+     "relation_type": "使用食材",
+     "basis": "あんこうの身と肝の両方を使う"
+    }
+   ],
+   "tags": [
+    "miso",
+    "offal"
+   ],
+   "notes": "伝承地域=相馬市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "anpogaki-no-namasu",
+   "name_ja": "あんぽ柿のなます",
+   "name_romaji": "Anpogaki no Namasu",
+   "name_en": "Anpogaki no namasu — semi-dried persimmon in a vinegared daikon-carrot salad",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "伊達市",
+   "lat": 37.7994,
+   "lng": 140.5987,
+   "summary_ja": "皮をむいて天日干しにした「あんぽ柿」を大根、にんじんとともにせん切りにし、酢と砂糖で和える正月料理。江戸時代に梁川（現伊達市）に住んでいた七右衛門が柿の木を植えたのが始まりと伝わっている。",
+   "summary_en": "Anpogaki, persimmon peeled and dried in the sun, is shredded together with daikon and carrot and dressed in vinegar and sugar — a New Year dish. Cultivation is said to trace to a man named Shichiemon, who planted persimmon trees in Yanagawa, now part of Date, in the Edo period.",
+   "sources": [
+    {
+     "title": "あんぽ柿のなます 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_16_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "anpogaki-no-namasu",
+     "to_slug": "koi-no-arai",
+     "relation_type": "対比",
+     "basis": "ともに福島で祝いの席に供される酢を使った冷たい料理だが、あんぽ柿のなますは干し柿と根菜の酢の物、鯉のあらいは鯉の刺身という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "cold_served"
+   ],
+   "notes": "伝承地域=「伊達市、福島市」の2市併記だが、本文が柿栽培の由来として梁川（現伊達市）を名指ししているため伊達市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ohira",
+   "name_ja": "おひら",
+   "name_romaji": "Ohira",
+   "name_en": "Ohira — smoke-dried river dace simmered with mountain and river ingredients",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "只見町",
+   "lat": 37.3126,
+   "lng": 139.4183,
+   "summary_ja": "産卵期で腹が赤くなったハヤを焼き干しにしてだしを取り、まいたけや昆布、ごぼう、豆腐と煮込む只見町の正月料理。平たい椀に盛りつけることから「おひら」の名がついたとされ、大晦日に仕込み正月に食べるという。",
+   "summary_en": "Dace caught with reddened bellies at spawning time are smoke-dried for stock, then simmered with maitake mushroom, kelp, burdock, and tofu — a New Year dish of Tadami. It is said to take its name, ohira, from the flat bowl it is served in, prepared on New Year's Eve to eat the next day.",
+   "sources": [
+    {
+     "title": "おひら 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_17_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ohira",
+     "to_slug": "tsuyu-nishime",
+     "relation_type": "対比",
+     "basis": "ともに会津地方の乾物を使った冬の煮物・汁物だが、おひらは焼き干しのハヤでだしを取り、つゆ煮しめは身欠きにしんとつと豆腐を使う違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=只見町（単一町）。いわき市周辺の類似料理「おしら」は内容が異なるとの記載があり、混同しないよう別項目とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "koi-no-arai",
+   "name_ja": "鯉のあらい",
+   "name_romaji": "Koi no Arai",
+   "name_en": "Koi no arai — fresh raw carp rinsed in cold water and served with hot mustard miso",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "郡山市",
+   "lat": 37.4004,
+   "lng": 140.3596,
+   "summary_ja": "小骨が多いためさばくのが難しく鮮魚店で購入するのが一般的な、新鮮なコイをそのまま食べる郡山の料理。からし酢味噌をつけて食べるのが定番で、猪苗代湖のミネラルで育つみずみずしい鯉だからこそ生で味わえるという。",
+   "summary_en": "Carp full of small bones, usually bought already prepared from a fishmonger, is eaten raw as is — a dish of Koriyama. Served with a hot-mustard vinegared miso, it is said that only carp as fresh as Koriyama's, raised on Lake Inawashiro's mineral-rich water, can be eaten this way.",
+   "sources": [
+    {
+     "title": "鯉のあらい 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_18_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "koi-no-arai",
+     "to_slug": "koi",
+     "relation_type": "使用食材",
+     "basis": "猪苗代湖の水で養殖される郡山の鯉を生のまま使う"
+    }
+   ],
+   "tags": [
+    "cold_served",
+    "ceremonial"
+   ],
+   "notes": "shelfをledgerのhomestyleからrawに変更（加熱せず刺身で食べる料理のため）。伝承地域=郡山市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shimidofu-no-tamagotoji",
+   "name_ja": "凍豆腐の卵とじ",
+   "name_romaji": "Shimidofu no Tamagotoji",
+   "name_en": "Shimidofu no tamagotoji — freeze-dried tofu stir-fried with greens and egg",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "福島市",
+   "lat": 37.7608,
+   "lng": 140.4747,
+   "summary_ja": "薄切りの豆腐を寒風に2週間ほどさらして水分を抜いた「凍豆腐」を戻し、地元の葉物野菜「信夫菜」と炒めて卵でとじる福島市南部の料理。北西から吹く強風「吾妻おろし」が凍み豆腐づくりを支えてきたという。",
+   "summary_en": "Sliced tofu is left out in the cold wind for about two weeks until dried into shimidofu, then rehydrated, stir-fried with the local shinobuna green, and finished with beaten egg — a dish of southern Fukushima City. The strong northwesterly wind called Azuma-oroshi is said to be what makes the drying possible.",
+   "sources": [
+    {
+     "title": "凍豆腐の卵とじ 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_19_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shimidofu-no-tamagotoji",
+     "to_slug": "uchimame-to-kirikonbu-no-nimono",
+     "relation_type": "対比",
+     "basis": "ともに福島の冬に向けて作る乾物保存食（凍豆腐／打ち豆）を使った料理"
+    }
+   ],
+   "tags": [
+    "egg",
+    "soy_sauce",
+    "freeze_dried"
+   ],
+   "notes": "伝承地域=福島市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "juunen-botamochi",
+   "name_ja": "じゅうねんぼたもち",
+   "name_romaji": "Junen Botamochi",
+   "name_en": "Junen botamochi — rice balls coated in roasted, sweetened perilla seed",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "いわき市",
+   "lat": 37.05,
+   "lng": 140.8878,
+   "summary_ja": "もち米を丸めたものに、炒って砂糖で味付けしたじゅうねん（えごま）をまぶすぼたもち。あんこやきなこで包む一般的なぼたもちと違い、「食べると十年長生きする」と言われるじゅうねんを使うのが特徴という。",
+   "summary_en": "Balls of glutinous rice are coated in junen, perilla seed roasted and sweetened, in place of the usual red bean paste or soybean flour. The seed is said to add ten years to your life if eaten — junen literally meaning ten years — which gives the dish its distinguishing ingredient.",
+   "sources": [
+    {
+     "title": "じゅうねんぼたもち 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_20_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "juunen-botamochi",
+     "to_slug": "shingoro",
+     "relation_type": "兄弟",
+     "basis": "ともに炒ったじゅうねん（えごま）を使う福島の米料理で、じゅうねんぼたもちはもち米の団子にまぶし、しんごろうはうるち米を焼いてじゅうねんみそを塗る違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=「福島市、いわき市」の2市併記だが、本文がいわき市の民話「白蛇のたたり」に言及しているためいわき市を代表地点とした（要判断）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shingoro",
+   "name_ja": "しんごろう",
+   "name_romaji": "Shingoro",
+   "name_en": "Shingoro — grilled rice-cake skewers glazed with sweet perilla-seed miso",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "",
+   "lat": 37.3358,
+   "lng": 139.7863,
+   "summary_ja": "つぶした白米を卵大に丸めて串に刺し、囲炉裏で焼いてから「じゅうねんみそ」を塗ってさらに焼く下郷町・南会津町の料理。餅を食べられなかった若者「しんごろう」がご飯で代用したのが名の由来と伝わる。",
+   "summary_en": "Mashed rice is shaped into egg-sized balls, skewered, grilled over an open hearth, then brushed with junen-miso — sweetened perilla-seed paste — and grilled again — a dish of Shimogo and Minamiaizu. It is said to be named for a young man, Shingoro, who used rice as a stand-in for mochi he could not afford.",
+   "sources": [
+    {
+     "title": "しんごろう 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_21_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shingoro",
+     "to_slug": "juunen-botamochi",
+     "relation_type": "兄弟",
+     "basis": "ともに炒ったじゅうねん（えごま）を使う福島の米料理で、しんごろうはうるち米を焼いてじゅうねんみそを塗り、じゅうねんぼたもちはもち米の団子にまぶす違いがある"
+    }
+   ],
+   "tags": [
+    "miso",
+    "skewered"
+   ],
+   "notes": "伝承地域=「下郷町、南会津町」の2町併記で単一に絞れないため origin_city は空欄とし、lat/lngは代表として下郷町を採用した（要判断）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "koikoku",
+   "name_ja": "鯉こく",
+   "name_romaji": "Koikoku",
+   "name_en": "Koikoku — carp and tofu simmered into a hearty miso soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "郡山市",
+   "lat": 37.4004,
+   "lng": 140.3596,
+   "summary_ja": "切り身の鯉をきくらげや豆腐、ねぎと煮込み、味噌で味を調える郡山の汁物。だしに鯉のうまみがしっかり染み込む一杯で、出産後の母乳がよく出るようにと願いを込めた栄養食として作られることが多いという。",
+   "summary_en": "Carp fillets are simmered with wood ear mushroom, tofu, and scallion and finished with miso — a hearty soup of Koriyama. The broth takes on a deep carp flavor, and it is said to be made especially for new mothers, in the hope it helps milk come in after childbirth.",
+   "sources": [
+    {
+     "title": "鯉こく 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_22_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "koikoku",
+     "to_slug": "koi",
+     "relation_type": "使用食材",
+     "basis": "郡山産の鯉を主材料とする味噌汁仕立ての一杯"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=郡山市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "basashi",
+   "name_ja": "馬刺し",
+   "name_romaji": "Basashi",
+   "name_en": "Basashi — raw horse meat sliced thin and dipped in hot-mustard miso",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "会津若松市",
+   "lat": 37.4955,
+   "lng": 139.9298,
+   "summary_ja": "戊辰戦争の負傷者に馬肉を食べさせたのが始まりとされる、会津若松の生食文化。内陸で新鮮な魚が手に入りにくかったこの地では「刺身」といえば馬刺しを指すとまで言われ、からし味噌をつけて食べるのが特徴という。",
+   "summary_en": "Raw horse meat, eaten thin-sliced, is said to trace to feeding horse meat to the wounded during the Boshin War — a taste of Aizuwakamatsu. In this inland city, where fresh fish was hard to come by, sashimi is said to mean horse before it means fish, and it is dipped in a hot-mustard miso unique to the area.",
+   "sources": [
+    {
+     "title": "馬刺し 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_23_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "basashi",
+     "to_slug": "koi-no-arai",
+     "relation_type": "対比",
+     "basis": "ともに新鮮な魚介が入りにくかった内陸部で育った生食文化だが、馬刺しは馬肉、鯉のあらいは鯉を使う違いがある"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "notes": "shelfをledgerのhomestyleからrawに変更（生肉をそのまま食べる料理のため）。伝承地域=「会津若松市、会津坂下町」の2市町併記だが、本文が全体を通じて会津若松市の食文化として記述しているため会津若松市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "uchimame-to-kirikonbu-no-nimono",
+   "name_ja": "打ち豆と切り昆布の煮物",
+   "name_romaji": "Uchimame to Kirikonbu no Nimono",
+   "name_en": "Uchimame to kirikonbu no nimono — pounded soybeans and shredded kelp simmered together",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "会津若松市",
+   "lat": 37.4955,
+   "lng": 139.9298,
+   "summary_ja": "青大豆を木づちでつぶして乾燥させた打ち豆と、細かく刻んだ切り昆布を大根や油揚げとともに炒め煮にする会津若松の料理。冬に採れる青物が少ない雪国で、長期保存できる乾物を組み合わせて作られてきたという。",
+   "summary_en": "Uchimame, green soybeans pounded flat with a wooden mallet and dried, are simmered with shredded kelp, daikon, and fried tofu — a dish of Aizuwakamatsu. In a snow country where winter yields little fresh produce, it is said to have grown out of combining keeping foods with long shelf lives.",
+   "sources": [
+    {
+     "title": "打ち豆と切り昆布の煮物 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_24_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "uchimame-to-kirikonbu-no-nimono",
+     "to_slug": "shimidofu-no-tamagotoji",
+     "relation_type": "対比",
+     "basis": "ともに福島の冬に向けて作る乾物保存食（打ち豆・切り昆布／凍豆腐）を使った料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "kelp"
+   ],
+   "notes": "伝承地域=会津若松市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "bodara-ni",
+   "name_ja": "ぼうたら煮",
+   "name_romaji": "Bodara-ni",
+   "name_en": "Bodara-ni — bone-dry salt cod, soaked a week and simmered soft over days",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "会津若松市",
+   "lat": 37.4955,
+   "lng": 139.9298,
+   "summary_ja": "かちかちに乾燥させた棒鱈を一週間ほどかけて水で戻し、醤油と砂糖で骨までやわらかくなるまで何日も煮込む会津若松の正月料理。新鮮な魚介が届きにくい内陸で、たんぱく源として重宝されてきたと伝わる。",
+   "summary_en": "Bodara, cod dried bone-hard, is soaked in water for about a week and simmered over several days in soy sauce and sugar until even the bones soften — a New Year dish of Aizuwakamatsu. In an inland city where fresh seafood rarely arrived, it is said to have been valued as a source of protein.",
+   "sources": [
+    {
+     "title": "ぼうたら煮 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_25_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "bodara-ni",
+     "to_slug": "tara-madara",
+     "relation_type": "使用食材",
+     "basis": "干して固めた棒鱈（タラ）を戻して主材料に使う"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=会津若松市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hatto",
+   "name_ja": "はっとう",
+   "name_romaji": "Hatto",
+   "name_en": "Hatto — buckwheat and glutinous rice dough cut into diamonds and boiled",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "檜枝岐村",
+   "lat": 36.9535,
+   "lng": 139.3141,
+   "summary_ja": "そば粉ともち米粉を等分に合わせて練り、菱形に切って茹で、砂糖と塩で味付けしたじゅうねんをまぶして食べる檜枝岐村の料理。江戸期に粉食が制限された際、こっそり食べていたことが名の由来とも伝わる。",
+   "summary_en": "Buckwheat flour and glutinous rice flour, mixed equal parts, are kneaded, cut into diamonds, boiled, and coated in sweetened, salted perilla seed — a dish of Hinoemata. One account traces its name to an Edo-period ban on eating milled grain, when it is said to have been made and eaten in secret.",
+   "sources": [
+    {
+     "title": "はっとう 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_26_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hatto",
+     "to_slug": "juunen-hiyadare",
+     "relation_type": "対比",
+     "basis": "ともに福島の山間部で食べられる粉物・麺的な軽食だが、はっとうはそば粉ともち米粉を菱形に切って茹で、じゅうねん冷やだれはうどんをじゅうねんのたれにつけて食べる違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=「檜枝岐村、南会津地方」の併記だが、本文の由来譚が檜枝岐村を中心に語られているため檜枝岐村を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ego",
+   "name_ja": "えご",
+   "name_romaji": "Ego",
+   "name_en": "Ego — seaweed simmered down and set firm, sliced like a savory jelly",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "西会津町",
+   "lat": 37.6141,
+   "lng": 139.6266,
+   "summary_ja": "エゴ草という海藻を30分ほど煮て溶かし、型に流して冷やし固める西会津の料理。江戸後期に新潟から酒の肴として持ち込まれ、宿場町だった西会津に根づいたとされ、からし醤油をつけて食べることが多いという。",
+   "summary_en": "Ego-gusa, a seaweed, is simmered for about thirty minutes until it dissolves, then poured into a mold and chilled firm — a dish of Nishiaizu. Said to have been brought from Niigata in the late Edo period as a bar snack and to have taken root in Nishiaizu, once a post-station town, it is usually eaten with hot mustard and soy sauce.",
+   "sources": [
+    {
+     "title": "えご 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_27_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ego",
+     "to_slug": "konnyaku-no-shiraae",
+     "relation_type": "対比",
+     "basis": "ともに福島の冠婚葬祭で供される小鉢料理だが、えごは海藻を固めた寒天質、こんにゃくの白和えはこんにゃくと豆腐を和えたものという違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=「西会津町、喜多方市」の2市町併記だが、本文・保存継承の取組ともに西会津町を中心に記述しているため西会津町を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "juunen-hiyadare",
+   "name_ja": "じゅうねん冷やだれ",
+   "name_romaji": "Junen Hiyadare",
+   "name_en": "Junen hiyadare — cold udon dipped in a nutty roasted perilla-seed sauce",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "鮫川村",
+   "lat": 36.9006,
+   "lng": 140.5981,
+   "summary_ja": "すりつぶして煎ったじゅうねん（えごま）に味噌、砂糖、醤油を合わせ水でのばしたたれに、冷たいうどんをつけて食べる鮫川村の夏の料理。ねぎやみょうが、紫蘇の葉など香り豊かな薬味を添えることが多いという。",
+   "summary_en": "Perilla seed, ground and roasted, is mixed with miso, sugar, and soy sauce and thinned with water into a dipping sauce for cold udon — a summer dish of Samegawa. It is often served with fragrant garnishes like scallion, myoga, and shiso leaf.",
+   "sources": [
+    {
+     "title": "じゅうねん冷やだれ 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_28_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "juunen-hiyadare",
+     "to_slug": "hatto",
+     "relation_type": "対比",
+     "basis": "ともに福島の山間部で食べられる粉物・麺的な軽食だが、じゅうねん冷やだれはうどんをじゅうねんのたれにつけて食べ、はっとうはそば粉ともち米粉を菱形に切って茹でる違いがある"
+    }
+   ],
+   "tags": [
+    "cold_served",
+    "miso"
+   ],
+   "notes": "伝承地域=鮫川村（単一村）。主材料にうどんを含むが、料理名自体に「うどん」の語を含まないためgenreはnullとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "konnyaku-no-shiraae",
+   "name_ja": "こんにゃくの白和え",
+   "name_romaji": "Konnyaku no Shiraae",
+   "name_en": "Konnyaku no shiraae — simmered konnyaku strips folded into sweetened mashed tofu",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "塙町",
+   "lat": 36.9236,
+   "lng": 140.5698,
+   "summary_ja": "短冊切りにしたこんにゃくとにんじんを醤油と砂糖で煮て水気を切り、砂糖と塩で味つけした豆腐と和える塙町の料理。こんにゃくの産地として知られる塙町で冠婚葬祭の際に作られてきた甘めのおかずという。",
+   "summary_en": "Konnyaku and carrot, cut into strips, are simmered in soy sauce and sugar, drained, and folded into mashed tofu seasoned with sugar and salt — a dish of Hanawa. Hanawa is known as a konnyaku-growing town, and this sweetish side is said to have been made for weddings and funerals there.",
+   "sources": [
+    {
+     "title": "こんにゃくの白和え 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_29_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "konnyaku-no-shiraae",
+     "to_slug": "ego",
+     "relation_type": "対比",
+     "basis": "ともに福島の冠婚葬祭で供される小鉢料理だが、こんにゃくの白和えはこんにゃくと豆腐を和えたもの、えごは海藻を固めた寒天質という違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=「塙町、棚倉町」の2町併記だが、本文がこんにゃくの産地として塙町を中心に記述しているため塙町を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "soma-donko-jiru",
+   "name_ja": "どんこ汁",
+   "name_romaji": "Donko Jiru",
+   "name_en": "Donko jiru — a miso soup built on a hardy coastal fish and its liver",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "福島県",
+   "origin_city": "相馬市",
+   "lat": 37.8017,
+   "lng": 140.9421,
+   "summary_ja": "北海道から福島県浜通りの沿岸にすむ「どんこ」（正式名エゾイソアイナメ）を大根や白菜、人参と煮て味噌で仕立てる相馬の汁物。鮮度が落ちやすく刺身は現地でしか食べられないが、肝の入る秋冬が旬とされる。",
+   "summary_en": "Donko, formally called ezo-isoainame, a fish found from Hokkaido down to Fukushima's Hamadori coast, is simmered with daikon, napa cabbage, and carrot and finished with miso — a soup of Soma. It spoils fast enough that only locals eat it raw, and autumn through winter, when the liver fills out, is said to be its season.",
+   "sources": [
+    {
+     "title": "どんこ汁 福島県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_30_fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "soma-donko-jiru",
+     "to_slug": "hokki-meshi",
+     "relation_type": "兄弟",
+     "basis": "ともに相馬市の魚介を使った郷土料理"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=相馬市（単一市）。slugは当初donko-jiruを予定していたが、all-items-ja.txtに岩手県の同名別料理（donko-jiru＝どんこ汁だが「どんこ」は乾しいたけの品種を指し魚のどんことは別物）が既存のため同音異義衝突を回避しsoma-donko-jiruに変更した。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "件数: 30行中、作った28件／既存で作らなかった0件／genre_hint=tsukemonoで除外2件（nishinsanshozuke:にしんの山椒漬け, sangohachizuke:三五八漬け。sangohachizukeは既存slug sangohachi-zukeとdetail_urlが完全一致の重複でもある）／low判定は1件（sanma-popo-yaki: existing_slug=sanma。既存sanmaは魚そのもの(type=ingredient)で、いわき市の加工料理サンマのポーポー焼きとは別物と判断し作成）。\n棚(shelf)を変えた行: ika-ninjin（homestyle→fermented、魚介の醤油漬けという性質のため）／zakuzaku（homestyle→hotpot、別名「ざくざく汁」の通りだしで煮る汁物のため）／koi-no-arai, basashi（ともにhomestyle→raw、加熱しない生食料理のため）。\n座標の根拠: 単一市町村が明記された行はその市区町村役場付近を採用（ika-ninjin=福島市、sanma-popo-yaki=いわき市、hokki-meshi=相馬市、kyabetsu-mochi, daikon-mochi=郡山市、zakuzaku=二本松市、miso-kanpura=古殿町、tsuyu-nishime=南会津町、anko-no-tomoae, soma-donko-jiru=相馬市、ohira=只見町、koi-no-arai, koikoku=郡山市、shimidofu-no-tamagotoji=福島市、uchimame-to-kirikonbu-no-nimono, bodara-ni=会津若松市、juunen-hiyadare=鮫川村）。複数市町村併記だが本文が特定の地名を強く名指しした行は要判断としつつ採用（koi-no-kanroni=郡山市[伝承地域は「会津地方」表記だが本文全体が郡山市の鯉養殖を記述]、harako-meshi=浪江町[請戸川の鮭ふ化発祥地]、anpogaki-no-namasu=伊達市[柿の由来譚]、juunen-botamochi=いわき市[民話]、basashi=会津若松市、hatto=檜枝岐村、ego=西会津町、konnyaku-no-shiraae=塙町）。3市町以上の併記で単一に絞れない行はmame-kazunoko（郡山市・いわき市・福島市→県庁所在地でもある福島市を代表点、origin_cityは空欄）のみ。2町併記で優劣つけがたいshingoroは下郷町を代表点とした（origin_cityは空欄）。kozuyuは「南会津をのぞいた会津地方」という広域のため会津若松市を地方代表点とした。\n要判断: (1) koi-no-kanroniの伝承地域欄「会津地方」と本文（終始郡山市の鯉養殖を記述）の食い違い。同じ福島の鯉料理2件（鯉のあらい・鯉こく）は伝承地域=郡山市と明記されており、本文の具体性を優先して郡山市とした判断の妥当性。 (2) harako-meshi・mame-kazunoko・shingoroなど3市町等の併記行で、本文の言及に偏りがある場合にどこまで単一地点に絞ってよいかの基準がブリーフに無く、本文で最も具体的に語られる地名を都度選んだ。 (3) daikon-mochi・juunen-hiyadareは本文がお好み焼き／うどんとの類似に言及するが、料理名自体に該当ジャンル語を含まないためgenre=nullとした判断の妥当性。"
+}

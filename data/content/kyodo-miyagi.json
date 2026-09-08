@@ -1,0 +1,1035 @@
+{
+ "items": [
+  {
+   "slug": "okuzukake",
+   "name_ja": "おくずかけ",
+   "name_romaji": "Okuzukake",
+   "name_en": "Okuzukake — a kudzu-thickened vegetable and noodle soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "",
+   "lat": 38.0016,
+   "lng": 140.6203,
+   "summary_ja": "里芋やごぼうなど数種の野菜、豆腐、白石温麺をしいたけの戻し汁で煮て、くず粉でとろみをつけた精進料理。県南地域で春秋の彼岸やお盆に、法事に集まった人をもてなす一椀として食べられてきたと伝わる。",
+   "summary_en": "Taro, burdock, and other vegetables simmer with tofu and Shiroishi's thin somen-style noodles in a shiitake-soaked broth, thickened with kudzu starch — a meat-free dish said to be served at spring and autumn equinox gatherings in southern Miyagi.",
+   "sources": [
+    {
+     "title": "おくずかけ 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/okuzu_kake_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "okuzukake",
+     "to_slug": "hatto-jiru",
+     "relation_type": "対比",
+     "basis": "ともに宮城県北・県南で伝わる粉ものを使った汁物だが、くず粉のとろみと手延べ麺という点で仕立てが異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域=県南地域（広域）のため空欄。lat/lngは本文で名産として言及される白石温麺の産地・白石市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sendai-zoni",
+   "name_ja": "仙台雑煮",
+   "name_romaji": "Sendai Zoni",
+   "name_en": "Sendai zoni — New Year's mochi soup with grilled goby and salmon roe",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "仙台市",
+   "lat": 38.2682,
+   "lng": 140.8694,
+   "summary_ja": "焼いて干したハゼでとった出汁に、はらこ（いくら）や仙台せり、大根とごぼうの「おひきな」を加えた正月の雑煮。江戸時代末期から仙台の正月三が日に食べられてきたと伝わる。",
+   "summary_en": "Dried, grilled goby forms the broth, joined by harako salmon roe, Sendai's mitsuba-like parsley, and 'ohikina' — julienned daikon and burdock — a New Year's mochi soup said to date to the late Edo period.",
+   "sources": [
+    {
+     "title": "仙台雑煮 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sendai_zouni_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sendai-zoni",
+     "to_slug": "harakomeshi",
+     "relation_type": "兄弟",
+     "basis": "ともに宮城で獲れるサケの腹子（はらこ）を用いる季節の郷土食"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hokkimeshi",
+   "name_ja": "ほっきめし",
+   "name_romaji": "Hokki Meshi",
+   "name_en": "Hokki meshi — surf clam rice from Yamamoto",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "山元町",
+   "lat": 37.9682,
+   "lng": 140.92,
+   "summary_ja": "生のホッキ貝を醤油だれで煮て、その煮汁で炊いたご飯に身をのせた炊き込みご飯。厚みのある大ぶりの貝で、ホッキ漁が盛んな山元町の家庭料理から、町を代表するご当地グルメへと育ったと伝わる。",
+   "summary_en": "Raw surf clams are simmered in a soy-based sauce, and that broth cooks the rice they're served over — a home dish from clam-rich Yamamoto that's said to have grown into the town's signature food.",
+   "sources": [
+    {
+     "title": "ほっきめし 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hokki_meshi_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hokkimeshi",
+     "to_slug": "aburafu-don",
+     "relation_type": "兄弟",
+     "basis": "ともに宮城の一つの町から広がったご当地丼・炊き込みご飯"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は「宮城県」表記だが、本文は山元町磯浜漁港を発祥・産地として明記しているため山元町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hesodaikon-nishime",
+   "name_ja": "へそ大根のにしめ",
+   "name_romaji": "Hesodaikon no Nishime",
+   "name_en": "Hesodaikon nishime — simmered sun-dried daikon rounds",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "丸森町",
+   "lat": 37.9291,
+   "lng": 140.7566,
+   "summary_ja": "輪切りの大根を茹でて串を通し、冬の寒風で一か月ほど干した「へそ大根」を、人参や凍み豆腐と煮しめにした丸森町の料理。串を抜いた穴がへそに見えることが名の由来と伝わる。",
+   "summary_en": "Boiled daikon rounds are threaded on a skewer and left to dry in the winter wind for about a month, becoming 'hesodaikon' — said to be named for the navel-like hole the skewer leaves — then simmered with carrot and frozen tofu.",
+   "sources": [
+    {
+     "title": "へそ大根のにしめ 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/heso_daikon_no_nishime_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hesodaikon-nishime",
+     "to_slug": "kaki-namasu",
+     "relation_type": "対比",
+     "basis": "ともに丸森町周辺で寒風にさらして作る乾燥保存食材を使った郷土料理"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は「宮城県南地域」（広域）だが、本文は丸森町を具体的な産地として明記しているため丸森町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "harakomeshi",
+   "name_ja": "はらこ飯",
+   "name_romaji": "Harako Meshi",
+   "name_en": "Harako meshi — salmon and salmon roe rice from Watari",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "亘理町",
+   "lat": 38.0602,
+   "lng": 140.9364,
+   "summary_ja": "サケの煮汁で炊いたご飯に、ほぐした身と煮汁にくぐらせたいくらをのせる亘理町の郷土食。阿武隈川を遡るサケを地引網で獲っていた漁師飯が、伊達政宗への献上を経て広まったと伝わる。",
+   "summary_en": "Rice is cooked in the broth used to simmer salmon, then topped with flaked salmon and roe dipped back into that same broth — said to have started as a fisherman's meal along the Abukuma River before being served to feudal lord Date Masamune.",
+   "sources": [
+    {
+     "title": "はらこ飯 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/harako_meshi_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "harakomeshi",
+     "to_slug": "sake-salmon",
+     "relation_type": "使用食材",
+     "basis": "主材料に阿武隈川を遡上するサケの身といくらを使う"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "bakke-miso",
+   "name_ja": "ばっけ味噌",
+   "name_romaji": "Bakke Miso",
+   "name_en": "Bakke miso — butterbur sprout miso paste",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "",
+   "lat": 38.2682,
+   "lng": 140.8694,
+   "summary_ja": "春先に摘んだふきのとう（方言で「ばっけ」）を茹でて刻み、くるみや味噌と練り合わせた常備菜。冬にたまった体の毒を出すとして好まれ、温かいご飯や焼き魚に添えて食べると伝わる。",
+   "summary_en": "Butterbur sprouts picked in early spring — called 'bakke' locally — are boiled, chopped, and worked into a paste with walnuts and miso, said to be prized for helping clear the body of winter's buildup, spooned over rice or grilled fish.",
+   "sources": [
+    {
+     "title": "ばっけ味噌 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/bakke_miso_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "bakke-miso",
+     "to_slug": "myoga-hayaki",
+     "relation_type": "対比",
+     "basis": "ともに宮城の家庭で季節の植物（ふきのとう・みょうがの葉）を活かして作る保存食・おやつ"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域=宮城県（県全域）のため空欄。lat/lngは県庁所在地の仙台市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nasu-iri",
+   "name_ja": "なす炒り",
+   "name_romaji": "Nasu Iri",
+   "name_en": "Nasu iri — stir-fried eggplant with aburafu wheat gluten",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "",
+   "lat": 38.2682,
+   "lng": 140.8694,
+   "summary_ja": "仙台長なすを刻み、油麩や油揚げとともに醤油で炒めて片栗粉でとろみをつけた常備菜。伊達家家臣が持ち帰ったなすが東北の気候になじみ独特の形になったのが始まりと伝わる。",
+   "summary_en": "Sendai's long eggplant is sliced and stir-fried with aburafu or fried tofu in soy sauce, finished with a light potato-starch gloss — said to trace to an eggplant a Date-clan retainer brought home, which took its distinct shape in the Tohoku climate.",
+   "sources": [
+    {
+     "title": "なす炒り 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nasuiri_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nasu-iri",
+     "to_slug": "aburafu-don",
+     "relation_type": "兄弟",
+     "basis": "ともに宮城特産の油麩を使う郷土料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=宮城県（県全域）のため空欄。lat/lngは県庁所在地の仙台市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "zunda-mochi",
+   "name_ja": "ずんだ餅",
+   "name_romaji": "Zunda Mochi",
+   "name_en": "Zunda mochi — mochi coated in sweet edamame paste",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "",
+   "lat": 38.2682,
+   "lng": 140.8694,
+   "summary_ja": "茹でた枝豆をすりつぶし、砂糖で甘みを加えた鮮やかな緑の餡を、つきたての餅にからめた菓子。正月や婚礼など餅を食べる行事の多い宮城で、来客用の一品として親しまれてきたと伝わる。",
+   "summary_en": "Boiled edamame is mashed into a vivid green paste sweetened with sugar and worked into freshly pounded mochi — said to have become a guest-worthy treat in a prefecture where mochi appears at New Year's, weddings, and other occasions.",
+   "sources": [
+    {
+     "title": "ずんだ餅 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/zunda_mochi_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "zunda-mochi",
+     "to_slug": "ebi-mochi",
+     "relation_type": "兄弟",
+     "basis": "ともに宮城で来客用にふるまわれてきた多彩な餅料理のひとつ"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=県全域のため空欄。lat/lngは県庁所在地の仙台市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "takenoko-gohan",
+   "name_ja": "たけのこご飯",
+   "name_romaji": "Takenoko Gohan",
+   "name_en": "Takenoko gohan — bamboo shoot rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "",
+   "lat": 38.2682,
+   "lng": 140.8694,
+   "summary_ja": "春に掘り出した孟宗竹のたけのこを、人参や油揚げとともに炊き込んだご飯。丸森町や名取市など各地で食べきれないほど採れ、田植えや行楽の弁当として食卓に上ると伝わる。",
+   "summary_en": "Spring-dug moso bamboo shoots are cooked into rice with carrot and fried tofu — said to be harvested in such quantity in places like Marumori and Natori that it becomes a staple for rice-planting season and outings.",
+   "sources": [
+    {
+     "title": "たけのこご飯 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/takenoko_gohan_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "takenoko-gohan",
+     "to_slug": "hokkimeshi",
+     "relation_type": "対比",
+     "basis": "ともに宮城の炊き込みご飯系郷土食だが、主材料が山の幸と海の幸で対照的"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域=県内全域のため空欄。lat/lngは県庁所在地の仙台市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hatto-jiru",
+   "name_ja": "はっと汁",
+   "name_romaji": "Hatto Jiru",
+   "name_en": "Hatto jiru — hand-stretched wheat dumpling soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "登米市",
+   "lat": 38.6013,
+   "lng": 141.2717,
+   "summary_ja": "水で練った小麦粉を薄く伸ばして手でちぎり、季節の野菜や鶏肉とともに出汁で煮込んだ汁物。米が不足した藩政時代の登米地方で代用食として広まり、のちに名がついたと伝わる。",
+   "summary_en": "Wheat dough worked with water is stretched thin and torn by hand into broth with seasonal vegetables and chicken — said to have spread through the Tome region during the feudal era, when rice fell short and this stood in for it.",
+   "sources": [
+    {
+     "title": "はっと汁 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hatto_jiru_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hatto-jiru",
+     "to_slug": "okuzukake",
+     "relation_type": "対比",
+     "basis": "ともに宮城で伝わる粉ものを使った汁物だが、手延べのすいとんとくず粉あんかけで仕立てが異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域は「県北地域（栗原、仙北・大崎耕土、北上丘陵、三陸沿岸地域）」と広域表記だが、本文の由来は登米地方の買米制に具体的に紐づくため登米市を採用。要判断として記録。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nameta-garei-nitsuke",
+   "name_ja": "ナメタガレイの煮つけ",
+   "name_romaji": "Nameta Garei Nitsuke",
+   "name_en": "Nameta garei nitsuke — simmered slime flounder for New Year's",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "仙台市",
+   "lat": 38.2682,
+   "lng": 140.8694,
+   "summary_ja": "ぬめりの多い大ぶりのカレイを切り身にして醤油だれで煮つけ、大みそかから正月にかけて食べる仙台の魚料理。冬に子持ちで卵が黄金色になることから縁起物として定着したと伝わる。",
+   "summary_en": "A large, notably slick flounder is cut into steaks and simmered in a soy-based sauce, eaten from New Year's Eve through the new year — said to have become a lucky dish in Sendai for its golden roe and the way it plumps up in winter.",
+   "sources": [
+    {
+     "title": "ナメタガレイの煮つけ 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nameta_gareino_nitsuke_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nameta-garei-nitsuke",
+     "to_slug": "donko-jiru",
+     "relation_type": "対比",
+     "basis": "ともに宮城の冬を代表する魚を使った家庭料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fusube-mochi",
+   "name_ja": "ふすべ餅",
+   "name_romaji": "Fusube Mochi",
+   "name_en": "Fusube mochi — mochi with smoke-cured loach and root vegetables",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "栗原市",
+   "lat": 38.7328,
+   "lng": 141.0203,
+   "summary_ja": "素焼きにして囲炉裏でいぶしたドジョウを粉状にし、大根やごぼうと炒め煮にして醤油と唐辛子で仕上げた餡を、つきたての餅に絡める。海から遠い栗原の内陸ならではの餅料理と伝わる。",
+   "summary_en": "Loach, grilled plain then smoked over an irori hearth, is ground to powder and simmered with grated daikon and burdock in a soy-chili sauce, then folded into freshly pounded mochi — said to be a mochi dish born of inland Kurihara's distance from the sea.",
+   "sources": [
+    {
+     "title": "ふすべ餅 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/fusube_mochi_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fusube-mochi",
+     "to_slug": "ebi-mochi",
+     "relation_type": "兄弟",
+     "basis": "ともに栗原の川や沼の恵みを行事用の餅料理に仕立てたもの"
+    }
+   ],
+   "tags": [
+    "spicy",
+    "smoked"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sanma-surimijiru",
+   "name_ja": "サンマのすり身汁",
+   "name_romaji": "Sanma Surimijiru",
+   "name_en": "Sanma surimijiru — pounded saury dumpling soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "",
+   "lat": 38.4342,
+   "lng": 141.302,
+   "summary_ja": "秋に水揚げされるサンマをたたいてすり身にし、団子状にして大根などの野菜と煮た汁物。石巻地域では松葉に見立てた大根の千切りを加え「松葉汁」とも呼ばれ、家庭や飲食店で日常的に食べられてきたと伝わる。",
+   "summary_en": "Autumn-caught saury is pounded into a paste, rolled into dumplings, and simmered with daikon and other vegetables — in the Ishikawaki area it's said to carry pine-needle-shaped daikon shreds and go by the name 'matsubajiru'.",
+   "sources": [
+    {
+     "title": "サンマのすり身汁 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sanmano_surimi_shiru_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sanma-surimijiru",
+     "to_slug": "sanma",
+     "relation_type": "使用食材",
+     "basis": "主材料に秋に水揚げされるサンマを使う"
+    }
+   ],
+   "tags": [],
+   "notes": "match_confidence=lowの行（existing_slug=sanma）。既存slug「sanma」はサンマという魚そのものの解説であり、すり身にして汁にする本項の料理とは別物と判断し新規作成。origin_city: 伝承地域=宮城県（広域）のため空欄。lat/lngは本文で名の由来が語られる石巻市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hoya-sunomono",
+   "name_ja": "ホヤの酢の物",
+   "name_romaji": "Hoya Sunomono",
+   "name_en": "Hoya sunomono — sea squirt dressed in vinegar",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "",
+   "lat": 38.4342,
+   "lng": 141.302,
+   "summary_ja": "殻から取り出した新鮮なホヤの身を、きゅうりやみょうが、青しそとともに酢で和えた初夏の一品。三陸のリアス海岸で養殖され、生産量の8割を宮城が担うと伝わる、磯の香りの立つ料理。",
+   "summary_en": "Fresh sea squirt, shucked straight from the shell, is dressed in vinegar with cucumber, myoga ginger, and shiso — a briny early-summer dish from the ria coast of Sanriku, where Miyagi is said to account for four-fifths of Japan's farmed output.",
+   "sources": [
+    {
+     "title": "ホヤの酢の物 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hoyano_sunomono_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hoya-sunomono",
+     "to_slug": "hoya",
+     "relation_type": "使用食材",
+     "basis": "主材料に三陸で養殖されるホヤを使う"
+    }
+   ],
+   "tags": [],
+   "notes": "match_confidence=lowの行（existing_slug=hoya）。既存slug「hoya」はホヤという食材そのものの解説であり、酢の物に仕立てる本項の料理とは別物と判断し新規作成。shelf: 台帳ではhomestyleだが、生のホヤを酢で和える調理法のためrawに変更。origin_city: 伝承地域=宮城県沿岸部（広域）のため空欄。lat/lngは主要産地の石巻市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sanma-kigaki",
+   "name_ja": "サンマのきがき",
+   "name_romaji": "Sanma Kigaki",
+   "name_en": "Sanma kigaki — saury simmered with grated daikon",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "気仙沼市",
+   "lat": 38.9086,
+   "lng": 141.57,
+   "summary_ja": "頭とうろこを落としたサンマを、大根おろしごと煮込んで醤油で仕上げる気仙沼の家庭料理。かつて塩蔵カツオの漬け汁を魚醤のように使った調味法「きがき」の名残と伝わる。",
+   "summary_en": "Saury, head and scales removed, is simmered together with grated daikon and finished in soy sauce — a Kesennuma home dish said to carry the name of an older method, 'kigaki', that once used the brine from salted bonito as a fish-sauce-like seasoning.",
+   "sources": [
+    {
+     "title": "サンマのきがき 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sanma_no_kigaki_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sanma-kigaki",
+     "to_slug": "sanma-surimijiru",
+     "relation_type": "対比",
+     "basis": "ともに宮城のサンマを使った郷土料理だが、すり身にするか大根おろしで煮込むかで調理法が異なる"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "match_confidence=lowの行（existing_slug=sanma）。既存slug「sanma」はサンマという魚そのものの解説であり、「きがき」という漬け汁調理法を用いる本項の料理とは別物と判断し新規作成。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ebi-mochi",
+   "name_ja": "エビ餅",
+   "name_romaji": "Ebi Mochi",
+   "name_en": "Ebi mochi — mochi studded with paddy shrimp",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "栗原市",
+   "lat": 38.7328,
+   "lng": 141.0203,
+   "summary_ja": "田んぼの用水路や沼で獲れる沼エビを醤油と酒で調味し、つきたての餅に姿のまま絡めた栗原の餅料理。紅白の彩りが美しく、正月に来客をもてなす一皿として代々受け継がれてきたと伝わる。",
+   "summary_en": "Paddy shrimp caught in irrigation channels and ponds are seasoned with soy sauce and sake, then folded whole into freshly pounded mochi — a Kurihara dish said to be served, red against white, to guests over New Year's.",
+   "sources": [
+    {
+     "title": "エビ餅 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ebibochi_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ebi-mochi",
+     "to_slug": "fusube-mochi",
+     "relation_type": "兄弟",
+     "basis": "ともに栗原の川や沼の恵みを行事用の餅料理に仕立てたもの"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sasakamaboko-isobeage",
+   "name_ja": "笹かまぼこの磯部揚げ",
+   "name_romaji": "Sasa Kamaboko Isobeage",
+   "name_en": "Sasa kamaboko isobeage — fish cake deep-fried in seaweed batter",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "宮城県",
+   "origin_city": "",
+   "lat": 38.2682,
+   "lng": 140.8694,
+   "summary_ja": "宮城名産の笹かまぼこに青のりを混ぜた衣をつけて揚げる一品。ヒラメなど白身魚のすり身を手のひら状に焼いた保存食が起源で、伊達家の家紋にちなみ笹かまぼこと呼ばれるようになったと伝わる。",
+   "summary_en": "Miyagi's signature sasa kamaboko fish cake is dipped in a green-laver batter and deep-fried — the cake itself said to trace to a hand-shaped, fire-grilled way of preserving flounder paste, later named for the bamboo-leaf crest of the Date clan.",
+   "sources": [
+    {
+     "title": "笹かまぼこの磯部揚げ 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sasa_kamaboko_no_isobeage_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sasakamaboko-isobeage",
+     "to_slug": "sasa-kamaboko",
+     "relation_type": "使用食材",
+     "basis": "主材料に宮城名産の笹かまぼこを使う"
+    }
+   ],
+   "tags": [],
+   "notes": "all-items-ja.txtの「sasa-kamaboko」（かまぼこそのもの）とは別の揚げ物料理と判断し新規作成。origin_city: 伝承地域=宮城県内全域のため空欄。lat/lngは県庁所在地の仙台市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gojiru",
+   "name_ja": "呉汁",
+   "name_romaji": "Gojiru",
+   "name_en": "Gojiru — pureed soybean miso soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "",
+   "lat": 38.2682,
+   "lng": 140.8694,
+   "summary_ja": "一晩水に浸した大豆をすりつぶした「呉」を、里芋や大根、油揚げの入った味噌汁に加えた汁物。大豆の栽培面積が全国2位という宮城で、体を温める冬の家庭料理として伝わる。",
+   "summary_en": "Soybeans soaked overnight are ground into a paste called 'go' and stirred into a miso soup of taro, daikon, and fried tofu — said to be a winter home dish in Miyagi, the country's second-largest soybean-growing prefecture.",
+   "sources": [
+    {
+     "title": "呉汁 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gojiru_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gojiru",
+     "to_slug": "donko-jiru",
+     "relation_type": "対比",
+     "basis": "ともに宮城の冬を代表する味噌仕立ての汁物"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域=宮城県内（広域）のため空欄。lat/lngは県庁所在地の仙台市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "donko-jiru",
+   "name_ja": "どんこ汁",
+   "name_romaji": "Donko Jiru",
+   "name_en": "Donko jiru — miso soup with brown hakeling",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "気仙沼市",
+   "lat": 38.9086,
+   "lng": 141.57,
+   "summary_ja": "石巻港や気仙沼港で水揚げされるドンコを大根や豆腐とともに味噌で仕立てた冬の汁物。口が大きく尻がすぼまる姿から金運の縁起魚とされ、えびす講に神棚へ供える風習も伝わる。",
+   "summary_en": "Donko, a brown hakeling landed at Ishinomaki and Kesennuma ports, is simmered in miso with daikon and tofu — a fish said to be considered lucky for money, given its wide mouth and narrow tail, and offered at the autumn ebisu-ko festival.",
+   "sources": [
+    {
+     "title": "どんこ汁 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/donko_jiru_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "donko-jiru",
+     "to_slug": "gojiru",
+     "relation_type": "対比",
+     "basis": "ともに宮城の冬を代表する味噌仕立ての汁物"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域は「宮城県内全域」（広域）だが、本文はえびす講の風習とともに気仙沼地方を具体的に記すため気仙沼市を代表地点とした。要判断として記録。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kishazu-iri",
+   "name_ja": "きしゃず炒り",
+   "name_romaji": "Kishazu Iri",
+   "name_en": "Kishazu iri — stir-fried okara with root vegetables",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "",
+   "lat": 38.2682,
+   "lng": 140.8694,
+   "summary_ja": "豆腐を作る際に出るおから（きらず）を、人参やごぼう、干ししいたけと出汁で炒め煮にした常備菜。切らずに使える食材であることが名の由来ともいわれる、宮城の日常のおかず。",
+   "summary_en": "Okara, the soy pulp left from tofu-making and locally called 'kirazu', is simmered with carrot, burdock, and dried shiitake in dashi — an everyday Miyagi side said to take its name from needing no knife to prepare.",
+   "sources": [
+    {
+     "title": "きしゃず炒り 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kishazu_iri_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kishazu-iri",
+     "to_slug": "nasu-iri",
+     "relation_type": "対比",
+     "basis": "ともに宮城の家庭で常備菜として炒め煮にする郷土料理"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域=宮城県全域のため空欄。lat/lngは県庁所在地の仙台市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ganzuki",
+   "name_ja": "がんづき",
+   "name_romaji": "Ganzuki",
+   "name_en": "Ganzuki — steamed black-sugar bread",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "",
+   "lat": 38.2682,
+   "lng": 140.8694,
+   "summary_ja": "小麦粉と黒砂糖、重曹に酢を加えて練り、蒸し上げる素朴な蒸しパン。ふんわりしつつ食べ応えがあり、姿が雁の肉に似ることが名の由来と伝わる、宮城で古くから親しまれてきた日常のおやつ。",
+   "summary_en": "Wheat flour is worked with dark brown sugar, baking soda, and vinegar, then steamed into a plain sweet bread — light yet filling, said to be named for a resemblance to wild goose meat, an everyday snack in Miyagi.",
+   "sources": [
+    {
+     "title": "がんづき 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ganzuki_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ganzuki",
+     "to_slug": "myoga-hayaki",
+     "relation_type": "対比",
+     "basis": "ともに宮城の小麦粉を使う素朴な蒸し・焼き菓子"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域=宮城県全域のため空欄。lat/lngは県庁所在地の仙台市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "myoga-hayaki",
+   "name_ja": "みょうがの葉焼き",
+   "name_romaji": "Myoga no Hayaki",
+   "name_en": "Myoga no hayaki — miso-sweet dough grilled in myoga leaves",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "",
+   "lat": 38.7328,
+   "lng": 141.0203,
+   "summary_ja": "小麦粉ともち米粉に砂糖と味噌を練り合わせ、みょうがの葉に包んで焼くおやつ。葉の香りが移った素朴な甘さがあり、農作業の合間やお盆の供え物として食べられてきたと伝わる。",
+   "summary_en": "Wheat and glutinous rice flour are worked with sugar and miso, wrapped in myoga ginger leaves, and grilled — a plain sweet said to pick up the leaf's scent, eaten during breaks in farm work and offered at the Obon festival.",
+   "sources": [
+    {
+     "title": "みょうがの葉焼き 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/myouga_no_hayaki_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "myoga-hayaki",
+     "to_slug": "bakke-miso",
+     "relation_type": "対比",
+     "basis": "ともに宮城の家庭で味噌を使ってつくる季節の食べ物"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=宮城県北部（広域）のため空欄。lat/lngは活動団体の拠点である栗原市を代表地点とした。要判断として記録。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kaki-namasu",
+   "name_ja": "柿なます",
+   "name_romaji": "Kaki Namasu",
+   "name_en": "Kaki namasu — daikon and carrot salad with dried persimmon",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "丸森町",
+   "lat": 37.9291,
+   "lng": 140.7566,
+   "summary_ja": "紅白なますに、寒風にさらして干した「ころ柿」を加えた正月料理。丸森町や白石市でつくられる渋柿の干し柿が甘みを蓄え、大根の歯ざわりと合わさる縁起の良い一皿と伝わる。",
+   "summary_en": "Red-and-white daikon and carrot salad is joined by 'korogaki', astringent persimmons dried in the cold wind of Marumori and Shiroishi until sweet — a New Year's dish said to be prized for its lucky coloring and the daikon's crunch.",
+   "sources": [
+    {
+     "title": "柿なます 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kaki_namasu_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kaki-namasu",
+     "to_slug": "hesodaikon-nishime",
+     "relation_type": "対比",
+     "basis": "ともに丸森町周辺で寒風にさらして作る乾燥保存食材を使った郷土料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は「宮城県南部」（広域）だが、本文は丸森町・白石市を具体的な産地として明記しているため丸森町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "azara",
+   "name_ja": "あざら",
+   "name_romaji": "Azara",
+   "name_en": "Azara — aged napa pickles simmered with rockfish and sake lees",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "気仙沼市",
+   "lat": 38.9086,
+   "lng": 141.57,
+   "summary_ja": "長く漬け込んで酸味の増した白菜の古漬けと、メヌケのあらを酒粕でじっくり煮込む気仙沼の料理。冷めても、翌日煮返してもうまみが増すと伝わる、庶民に親しまれてきた一皿。",
+   "summary_en": "Napa cabbage pickled long enough to turn sour is simmered slowly with rockfish trimmings and sake lees — a Kesennuma dish said to taste even better cold, or reheated the next day, long loved as everyday food.",
+   "sources": [
+    {
+     "title": "あざら 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/azara_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "azara",
+     "to_slug": "sanma-kigaki",
+     "relation_type": "対比",
+     "basis": "ともに宮城沿岸で魚を漬け床や保存調味料とともに煮込む郷土料理"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "shelf: 台帳ではhomestyleだが、白菜の古漬けと酒粕を主体とする発酵由来の料理性が強いためfermentedに変更。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iwana-shioyaki",
+   "name_ja": "いわなの塩焼き",
+   "name_romaji": "Iwana Shioyaki",
+   "name_en": "Iwana shioyaki — salt-grilled char",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "栗原市",
+   "lat": 38.7328,
+   "lng": 141.0203,
+   "summary_ja": "清流にのみ棲むイワナを串に刺し、塩を振って炭火でじっくり焼く一品。日本で初めてイワナ養殖に成功したのが宮城県栗原市で、清らかな水で育ち臭みのない甘みのある身が持ち味と伝わる。",
+   "summary_en": "Char, a fish found only in clear mountain streams, is skewered, salted, and slow-grilled over charcoal — Kurihara in Miyagi is said to have been the first place in Japan to farm it successfully, prized for flesh with a clean sweetness and no off odor.",
+   "sources": [
+    {
+     "title": "いわなの塩焼き 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/iwanano_shioyaki_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "iwana-shioyaki",
+     "to_slug": "iwana",
+     "relation_type": "使用食材",
+     "basis": "主材料に栗原市で養殖されるイワナを使う"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aburafu-don",
+   "name_ja": "油麩丼",
+   "name_romaji": "Aburafu Don",
+   "name_en": "Aburafu don — deep-fried wheat gluten rice bowl",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "donburi",
+   "origin_pref": "宮城県",
+   "origin_city": "登米市",
+   "lat": 38.6013,
+   "lng": 141.2717,
+   "summary_ja": "棒状にして揚げた油麩を、かつ丼のように甘辛い出汁で煮て卵でとじ、ご飯にのせた登米市の丼。豆腐店が保存の利く麩を考案したのが始まりで、地元旅館の女将が丼に仕立てたと伝わる。",
+   "summary_en": "Deep-fried wheat gluten, shaped into a log, is simmered in a sweet-savory broth and set with egg over rice, katsudon-style — a Tome City bowl said to trace to a tofu shop's shelf-stable gluten product, later turned into a bowl dish by a local innkeeper.",
+   "sources": [
+    {
+     "title": "油麩丼 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/aburafu_don_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "aburafu-don",
+     "to_slug": "nasu-iri",
+     "relation_type": "兄弟",
+     "basis": "ともに宮城特産の油麩を使う郷土料理"
+    }
+   ],
+   "tags": [
+    "egg"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ichijiku-kanroni",
+   "name_ja": "いちじくの甘露煮",
+   "name_romaji": "Ichijiku no Kanroni",
+   "name_en": "Ichijiku no kanroni — figs simmered in sugar syrup",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "宮城県",
+   "origin_city": "",
+   "lat": 38.2682,
+   "lng": 140.8694,
+   "summary_ja": "加工用の青いいちじくを、水と砂糖、レモン汁だけでコトコト煮詰めるシンプルな保存食。県南地区を主産地に9月から10月にかけて各家庭で仕込まれ、瓶詰めにして分け合うと伝わる。",
+   "summary_en": "Unripe figs grown for processing are slow-simmered with nothing more than water, sugar, and lemon juice — a simple preserve said to be put up at home every September and October, mostly in southern Miyagi, and shared around in jars.",
+   "sources": [
+    {
+     "title": "いちじくの甘露煮 宮城県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ichijiku_no_kanroni_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ichijiku-kanroni",
+     "to_slug": "kaki-namasu",
+     "relation_type": "対比",
+     "basis": "ともに宮城の果物を砂糖で仕立てて保存食にする郷土料理"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域=宮城県内（広域）のため空欄。lat/lngは県庁所在地の仙台市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: shiso_maki_miyagi(しそ巻き)=既存slug shiso-maki(high confidence, 完全一致)のため作らず / sendai_hakusai_no_tsuke_mono_miyagi(仙台白菜の漬物)=genre_hint=tsukemonoのため作らず（漬物ジャンルは投入済み方針）。低確信2件(サンマのすり身汁・ホヤの酢の物)は既存slug(sanma/hoya)が食材そのものの解説であり、調理済み料理である本項とは別物と判断し新規作成、根拠をnotesに記載。棚を変えた行: hoyano_sunomono(homestyle→raw、生のホヤを酢で和えるため)、azara(homestyle→fermented、白菜古漬けと酒粕主体のため)。座標: 伝承地域が広域の場合は代表地点（地方の中心都市か県庁所在地=仙台市）を採用し、本文が特定市町村を名指しする場合はその市町村を採用（judgment箇所はitem別notesに記載）。要判断: hatto_jiru・myoga_hayaki・donko_jiruのorigin_cityは伝承地域の広域表記と本文の具体的記述が食い違うため、本文の記述を優先した（各item notesに記載）。"
+}

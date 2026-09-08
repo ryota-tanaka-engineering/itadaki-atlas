@@ -1,0 +1,992 @@
+{
+ "items": [
+  {
+   "slug": "shokuyogiku-ohitashi",
+   "name_ja": "食用ぎくのおひたし",
+   "name_romaji": "Shokuyogiku no Ohitashi",
+   "name_en": "Shokuyogiku ohitashi — blanched edible chrysanthemum petals dressed in soy sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "",
+   "lat": 38.2404,
+   "lng": 140.3633,
+   "summary_ja": "紫色の食用ぎく「もってのほか」の花びらだけを摘み、酢を落とした湯でさっと茹でて醤油をかける。筒状の花弁が生むしゃきしゃきした歯ごたえとほろ苦さを、山形の家庭では秋の惣菜として日常的に味わうという。",
+   "summary_en": "Petals of the purple 'mottenohoka' chrysanthemum are quickly blanched in vinegared water and dressed with soy sauce. Their tube-shaped petals give a crisp bite and gentle bitterness said to make this an everyday autumn side in Yamagata homes.",
+   "sources": [
+    {
+     "title": "食用ぎくのおひたし 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shokuyogikunoohitashi_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shokuyogiku-ohitashi",
+     "to_slug": "yamagata-dashi",
+     "relation_type": "対比",
+     "basis": "ともに山形の家庭に根づく夏秋の野菜料理で醤油で味を決めるが、食用ぎくのおひたしは花びらを茹でて食べるのに対し、だしは生野菜を刻んで和える点が異なる"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "cold_served"
+   ],
+   "notes": "伝承地域=県内全域のため空欄。lat/lngは県庁所在地の山形市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nattojiru",
+   "name_ja": "納豆汁",
+   "name_romaji": "Nattojiru",
+   "name_en": "Nattojiru — a winter miso soup thickened with mashed fermented soybeans",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "大江町",
+   "lat": 38.3562,
+   "lng": 140.2028,
+   "summary_ja": "すり鉢で粒が見えなくなるまで潰した納豆でとろみをつけ、いもがらや山菜、豆腐と一緒に味噌仕立てで煮る冬の汁。とろみのぶん冷めにくく、雪深い山形で無病息災を願う七草の頃に食べられてきたという。",
+   "summary_en": "Fermented soybeans are ground smooth in a mortar to thicken a miso soup filled with dried taro-stem, wild greens, and tofu. The thickened broth holds its heat, and in snowbound Yamagata it is said to be eaten around the seven-herb season as a wish for good health.",
+   "sources": [
+    {
+     "title": "納豆汁 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nattojiru_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nattojiru",
+     "to_slug": "dongarajiru",
+     "relation_type": "兄弟",
+     "basis": "ともに山形の内陸・庄内で冬に親しまれる味噌仕立ての汁物で、雪深い時季の保存食を具に使う点が共通する"
+    }
+   ],
+   "tags": [
+    "miso",
+    "fermented"
+   ],
+   "notes": "伝承地域=県内全域だが、本文が大江町村山地域の食習（納豆汁への仕立て方）を名指ししているためそこを代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "dongarajiru",
+   "name_ja": "どんがら汁",
+   "name_romaji": "Dongarajiru",
+   "name_en": "Dongarajiru (kandarajiru) — a miso soup made from whole winter cod, bones and all",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "",
+   "lat": 38.7274,
+   "lng": 139.8271,
+   "summary_ja": "寒の時季にとれる寒ダラを頭から内臓まで余さず味噌仕立ての汁にする、庄内の漁師料理が起こりとされる冬の一杯。あぶらわたと呼ぶ肝のこくが決め手で、ねぎは入れず岩のりだけを添えるのが本来という。",
+   "summary_en": "Winter cod caught in the coldest weeks goes into a miso soup head to tail, innards included — said to trace back to fishermen's cooking on the Shonai coast. The liver's richness carries the flavor, and the traditional way adds only a scrap of rock nori, no scallion.",
+   "sources": [
+    {
+     "title": "どんがら汁／寒鱈汁 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/dongarajiru_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "dongarajiru",
+     "to_slug": "nattojiru",
+     "relation_type": "兄弟",
+     "basis": "ともに山形の内陸・庄内で冬に親しまれる味噌仕立ての汁物で、雪深い時季の保存食を具に使う点が共通する"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=庄内地域（地方）。本文は酒田市・鶴岡市の両方を「寒鱈まつり」開催地として並記しており単一市に絞れないため、地方の中心地点として鶴岡市を採用した。別名「寒鱈汁」はsummaryで言及。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "imoni",
+   "name_ja": "芋煮",
+   "name_romaji": "Imoni",
+   "name_en": "Imoni — a riverside autumn hot pot of taro and beef simmered together",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "",
+   "lat": 38.2404,
+   "lng": 140.3633,
+   "summary_ja": "里芋と牛肉、こんにゃく、ねぎを醤油味で煮込む秋の鍋で、最上川舟運の船頭が河原で棒ダラと里芋を煮て待ち時間を過ごしたのが始まりと伝わる。庄内側では豚肉と味噌仕立てに変わるなど地域差も大きい。",
+   "summary_en": "Taro, beef, konnyaku, and scallion simmer together in a soy-based autumn hot pot said to trace to boatmen on the Mogami River, who cooked taro and dried cod on the riverbank while waiting out the delays of cargo transport. On the Shonai coast the same dish turns to pork and miso.",
+   "sources": [
+    {
+     "title": "芋煮 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/imoni_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "imoni",
+     "to_slug": "yamagata-gyu",
+     "relation_type": "使用食材",
+     "basis": "内陸部の芋煮は主に山形牛を使う牛肉仕立てで作られる"
+    }
+   ],
+   "tags": [
+    "beef",
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=県内全域のため空欄。lat/lngは県庁所在地の山形市を代表点とした（芋煮会フェスティバルも山形市開催）。庄内地域では豚肉・味噌仕立てになる旨をsummaryで言及。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shoyu-no-mi",
+   "name_ja": "しょうゆの実",
+   "name_romaji": "Shoyu no Mi",
+   "name_en": "Shoyu no mi — a fermented soybean-and-grain relish eaten in place of soy sauce",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "",
+   "lat": 38.7274,
+   "lng": 139.8271,
+   "summary_ja": "大豆、小麦、米に種麹を混ぜた麹に塩水を加えて発酵させる庄内の万能調味料で、江戸時代から食べられてきたという。ご飯にのせたり冷奴や焼き肉のたれに使ったりと、麹の量で甘みや塩気が家ごとに変わる。",
+   "summary_en": "Soybean, wheat, and rice are mixed with koji and left to ferment with salted water into an all-purpose Shonai relish said to date to the Edo period. It goes over rice, onto cold tofu, or into a grilling sauce, its sweetness and salt shifting with how much koji each household uses.",
+   "sources": [
+    {
+     "title": "しょうゆの実 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shoyunomi_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shoyu-no-mi",
+     "to_slug": "yamagata-dashi",
+     "relation_type": "対比",
+     "basis": "ともに山形で常備される万能の薬味・調味だが、しょうゆの実は麹を発酵させた調味料、だしは生野菜を刻んだ薬味という違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "fermented"
+   ],
+   "notes": "伝承地域=庄内地域のため空欄。lat/lngは地方の中心地点として鶴岡市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "udo-shimidaikon-donkoroni",
+   "name_ja": "うどと凍み大根のどんころ煮",
+   "name_romaji": "Udo to Shimidaikon no Donkoroni",
+   "name_en": "Udo and shimidaikon donkoroni — spring udo simmered with freeze-dried winter daikon",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "",
+   "lat": 38.7639,
+   "lng": 140.3009,
+   "summary_ja": "厳寒期に大根を茹でて雪の上で凍らせ、軒先で干して仕上げる「凍み大根」と、春に芽吹くうどを身欠きニシンと一緒に煮る最上地域の料理。うどを切った切り口が丸太に似ることから”どんころ”と呼ぶという。",
+   "summary_en": "Daikon boiled, frozen on the snow, and dried under the eaves through the coldest weeks becomes shimidaikon, simmered here with spring udo and dried herring — a dish of the Mogami region. Udo's cut cross-section is said to resemble a log, donkoro, which gives the dish its name.",
+   "sources": [
+    {
+     "title": "うどと凍み大根のどんころ煮 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/udotoshimidaikonnodonkoroni_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "udo-shimidaikon-donkoroni",
+     "to_slug": "kukitachiboshi-no-nimono",
+     "relation_type": "兄弟",
+     "basis": "ともに雪深い山形で冬の間の食料として乾燥・保存した野菜を戻して煮る郷土料理"
+    }
+   ],
+   "tags": [
+    "freeze_dried",
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=最上地域（地方）のため空欄。lat/lngは地方の中心都市の新庄市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "warabi-tataki",
+   "name_ja": "わらびたたき",
+   "name_romaji": "Warabi Tataki",
+   "name_en": "Warabi tataki — spring fiddlehead ferns pounded fine with miso and sansho",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "",
+   "lat": 38.7639,
+   "lng": 140.3009,
+   "summary_ja": "アク抜きしたわらびをまな板の上で包丁で叩いて繊維を断ち切り、焼き味噌とすりつぶした山椒の葉を加えてさらに叩く。とろとろの食感になるまで仕上げたものを熱いご飯やそばにのせる、山形北部の春の味という。",
+   "summary_en": "Fiddlehead ferns, their bitterness drawn out, are pounded on a cutting board to break their fibers, then worked further with roasted miso and ground sansho leaf until silky. Spooned over hot rice or soba, it is said to mark spring in northern Yamagata.",
+   "sources": [
+    {
+     "title": "わらびたたき 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/warabitataki_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "warabi-tataki",
+     "to_slug": "ukogi-no-kiriae",
+     "relation_type": "対比",
+     "basis": "ともに山菜を刻んで味噌で和える山形の春の食べ方だが、わらびたたきは包丁で叩いてとろみを出すのに対し、うこぎの切り和えは刻んだうこぎに焼き味噌をのせる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=県北部という広域表現のため単一市町村に絞れず、最上地域の中心都市である新庄市を目安の代表点とした（要判断）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shiobiki-zushi",
+   "name_ja": "塩引きずし",
+   "name_romaji": "Shiobiki-zushi",
+   "name_en": "Shiobiki-zushi — salt-cured salmon pressed onto sushi rice for celebrations",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "山形県",
+   "origin_city": "米沢市",
+   "lat": 37.9222,
+   "lng": 140.117,
+   "summary_ja": "塩漬けにしたサケを薄く切り、すし飯とともに木枠で押しずしにする米沢の祝い料理。サケの赤とすし飯の白が紅白に映えることから婚礼などの席に欠かせない一品として、内陸の米沢で育まれてきたという。",
+   "summary_en": "Thin slices of salt-cured salmon are pressed with sushi rice in a wooden mold — a celebratory dish of Yonezawa. The salmon's red against the rice's white reads as an auspicious red-and-white pairing, and it is said to have taken root in this inland city where fresh fish was hard to come by.",
+   "sources": [
+    {
+     "title": "塩引きずし 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shiobikisushi_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shiobiki-zushi",
+     "to_slug": "sake-salmon",
+     "relation_type": "使用食材",
+     "basis": "塩漬けにしたサケを主材料に使う"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "genreはledger genre_hint=sushiをそのまま採用（名前に「ずし」を含む）。伝承地域=米沢市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kukitachiboshi-no-nimono",
+   "name_ja": "くきたち干しの煮物",
+   "name_romaji": "Kukitachiboshi no Nimono",
+   "name_en": "Kukitachiboshi no nimono — sun-dried brassica greens simmered with fried tofu",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "米沢市",
+   "lat": 37.9222,
+   "lng": 140.117,
+   "summary_ja": "アブラナ科の野菜「くきたち」を茹でて4、5日天日に干した保存食を戻し、油揚げや糸こんにゃくと炒め煮にする。青物が絶える冬に備えて蓄えた干し野菜を使う、置賜・村山に伝わる家庭のおかずという。",
+   "summary_en": "Kukitachi, a brassica green, is boiled and sun-dried for four or five days into a keeping food, then rehydrated and simmered with fried tofu and shirataki. Put up against a winter with no fresh greens, it is a home side dish handed down in the Okitama and Murayama areas.",
+   "sources": [
+    {
+     "title": "くきたち干しの煮物 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kukitachihoshinonimono_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kukitachiboshi-no-nimono",
+     "to_slug": "udo-shimidaikon-donkoroni",
+     "relation_type": "兄弟",
+     "basis": "ともに雪深い山形で冬の間の食料として乾燥・保存した野菜を戻して煮る郷土料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=米沢市（置賜地域・村山地域）と併記されるが、市名が明記されているため米沢市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tama-konnyaku",
+   "name_ja": "玉こんにゃく",
+   "name_romaji": "Tama Konnyaku",
+   "name_en": "Tama konnyaku — bite-sized ball konnyaku simmered in soy broth and skewered",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "山形市",
+   "lat": 38.2404,
+   "lng": 140.3633,
+   "summary_ja": "3センチほどの球状に成形したこんにゃくを水を使わず醤油だけで煮て、練り辛子を添えて串のまま食べる。山寺こと立石寺の精進料理からこんにゃく食が広まったと伝わり、参道の力こんにゃくとして親しまれている。",
+   "summary_en": "Konnyaku shaped into balls about three centimeters across is simmered in soy sauce alone, no water added, and eaten off the skewer with hot mustard. Konnyaku eating is said to have spread from the temple cooking of Risshaku-ji, known as Yamadera, and it is a familiar snack along the temple's approach.",
+   "sources": [
+    {
+     "title": "玉こんにゃく 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tamakonnyaku_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tama-konnyaku",
+     "to_slug": "kujira-mochi",
+     "relation_type": "対比",
+     "basis": "ともに山形の観光地や祭りで手軽に食べられる名物だが、玉こんにゃくは串刺しの醤油味こんにゃく、くじら餅は米粉の蒸し菓子という違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "skewered",
+    "street_food"
+   ],
+   "notes": "伝承地域=県全域だが、本文が発祥の逸話として山形市の山寺（立石寺）を名指ししているため山形市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tamago-kanten",
+   "name_ja": "卵寒天",
+   "name_romaji": "Tamago Kanten",
+   "name_en": "Tamago kanten — a sweet-salty egg-and-soy jelly for festival days",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "鶴岡市",
+   "lat": 38.7274,
+   "lng": 139.8271,
+   "summary_ja": "溶かした寒天に溶き卵、醤油、砂糖を加えて冷やし固める庄内のお菓子で、祭りや正月に作られる甘じょっぱい一品という。日常的な食材の寒天と当時貴重だった卵が結びつき、行事食として親しまれてきたと伝わる。",
+   "summary_en": "Melted kanten is mixed with beaten egg, soy sauce, and sugar, then chilled until set — a Shonai sweet made for festivals and New Year, sweet and salty at once. It is said to have grown out of pairing everyday kanten with egg, once a precious ingredient, into a dish for special occasions.",
+   "sources": [
+    {
+     "title": "卵寒天　/　醤油寒天 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tamagokanten_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tamago-kanten",
+     "to_slug": "masu-no-ankake",
+     "relation_type": "対比",
+     "basis": "ともに5月の酒田まつりの行事食として並び親しまれる庄内の料理だが、卵寒天は醤油と卵で固める甘い寒天菓子、鱒のあんかけはサクラマスにくず粉のあんをかける一品という違いがある"
+    }
+   ],
+   "tags": [
+    "egg",
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "shelfをledgerのhomestyleからsweetsに変更（行事の甘い菓子として食べられるため）。伝承地域=庄内地域だが、本文が「酒田まつり」の行事食との記述から鶴岡市・酒田市を含む庄内の中心地点として鶴岡市を採用。別名「醤油寒天」はsummaryに反映。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "masu-no-ankake",
+   "name_ja": "鱒のあんかけ",
+   "name_romaji": "Masu no Ankake",
+   "name_en": "Masu no ankake — poached cherry salmon under a sweet, cold starch glaze",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "",
+   "lat": 38.7274,
+   "lng": 139.8271,
+   "summary_ja": "県魚のサクラマスをゆでてニラを添え、くず粉でとろみをつけた甘いあんを冷たいままかける庄内の春のごちそう。北前船で西日本のあんかけ文化が伝わったとされ、酒田まつりなど祝いの席の定番という。",
+   "summary_en": "Poached sakuramasu is topped with chives and a sweet kudzu-starch glaze served cold rather than hot — a spring feast of the Shonai coast. The technique is said to have arrived from western Japan via the Kitamae cargo ships, and it remains a fixture of festivals like the Sakata Matsuri.",
+   "sources": [
+    {
+     "title": "鱒のあんかけ 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/masunoankake_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "masu-no-ankake",
+     "to_slug": "tamago-kanten",
+     "relation_type": "対比",
+     "basis": "ともに5月の酒田まつりの行事食として並び親しまれる庄内の料理だが、鱒のあんかけはサクラマスにくず粉のあんをかける一品、卵寒天は醤油と卵で固める甘い寒天菓子という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=庄内地域のため空欄。lat/lngは地方の中心地点として鶴岡市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "okahijiki-no-karashiae",
+   "name_ja": "おかひじきのからし和え",
+   "name_romaji": "Okahijiki no Karashiae",
+   "name_en": "Okahijiki no karashiae — crunchy land-samphire dressed with hot mustard",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "南陽市",
+   "lat": 38.023,
+   "lng": 140.1121,
+   "summary_ja": "海藻のひじきに似た野草おかひじきを辛子醤油で和える一品。もとは庄内の海岸に自生していた種が最上川を渡って南陽市に伝わり栽培が始まったとされ、江戸期の文献にも産地として記されているという。",
+   "summary_en": "Okahijiki, a land plant that resembles the seaweed hijiki, is dressed with hot mustard and soy sauce. Its seed is said to have traveled up the Mogami River from the Shonai coast to Nanyo, where cultivation began, and an Edo-period text already records the area as its source.",
+   "sources": [
+    {
+     "title": "おかひじきのからし和え 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/okahijikinokarashiae_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "okahijiki-no-karashiae",
+     "to_slug": "ukogi-no-kiriae",
+     "relation_type": "対比",
+     "basis": "ともに置賜地域で親しまれる薬味和えの野菜料理で、おかひじきのからし和えは辛子醤油、うこぎの切り和えは焼き味噌で和える違いがある"
+    }
+   ],
+   "tags": [
+    "spicy"
+   ],
+   "notes": "伝承地域=村山地域、置賜地域（広域）だが、本文が「南陽市はおかひじき発祥の地」と名指ししているため南陽市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "karakai-ni",
+   "name_ja": "からかい煮",
+   "name_romaji": "Karakai-ni",
+   "name_en": "Karakai-ni — dried skate cartilage simmered until soft and gelatinous",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "",
+   "lat": 38.2404,
+   "lng": 140.3633,
+   "summary_ja": "北海道でとれるエイのヒレを乾燥させた「からかい」を2、3日かけて水で戻し、骨がやわらかくなるまでじっくり煮る内陸の郷土料理。プルプルとした軟骨とコラーゲンの食感が特徴で、正月や祭りに供されるという。",
+   "summary_en": "Dried skate fin from Hokkaido, called karakai, is soaked for two or three days and simmered slowly until the bone softens — an inland dish built around its jelly-soft, collagen-rich cartilage. It is said to appear at New Year and festival tables.",
+   "sources": [
+    {
+     "title": "からかい煮 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/karakaini_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "karakai-ni",
+     "to_slug": "udo-shimidaikon-donkoroni",
+     "relation_type": "対比",
+     "basis": "ともに乾物を戻して煮込む内陸山形の郷土料理だが、からかい煮はエイの干物、どんころ煮は大根とニシンの干物を使う点が異なる"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=県内全域のため空欄。lat/lngは県庁所在地の山形市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hatahata-no-yuage",
+   "name_ja": "ハタハタの湯上げ",
+   "name_romaji": "Hatahata no Yuage",
+   "name_en": "Hatahata no yuage — scaleless sailfin sandfish simply boiled and served with soy",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "",
+   "lat": 38.7274,
+   "lng": 139.8271,
+   "summary_ja": "産卵のため庄内浜に押し寄せるハタハタを丸ごと湯がき、大根おろしと醤油だけで食べるシンプルな冬の魚料理。うろこがなく下処理が手軽なことから、庄内の秋冬の食卓に定着してきたという。",
+   "summary_en": "Hatahata, scaleless sailfin sandfish that crowd the Shonai coast to spawn, are boiled whole and eaten with nothing more than grated daikon and soy sauce — a simple winter fish dish. With no scales to remove, it is said to have become a fixture of Shonai's autumn and winter table.",
+   "sources": [
+    {
+     "title": "ハタハタの湯上げ 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hatahatanoyuage_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hatahata-no-yuage",
+     "to_slug": "hatahata",
+     "relation_type": "使用食材",
+     "basis": "うろこのないハタハタを丸ごと使う"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "existing_slug=hata（ハタ＝グルーパー科の別種）、match_confidence=lowの行。ハタハタ（サンドフィッシュ科の別魚種、うろこなし）とは別物と判断し作成した。伝承地域=庄内地域のため空欄。lat/lngは地方の中心地点として鶴岡市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "akebi-no-miso-zumeyaki",
+   "name_ja": "あけびの味噌詰め焼き",
+   "name_romaji": "Akebi no Miso Zumeyaki",
+   "name_en": "Akebi no miso zumeyaki — akebia rind stuffed with miso-simmered mince and grilled",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "天童市",
+   "lat": 38.3708,
+   "lng": 140.3803,
+   "summary_ja": "ほろ苦いあけびの皮に、ひき肉と舞茸を味噌と砂糖で煎り煮したものを詰め、タコ糸で結んで焼く秋の一品。全国では実の白い部分を食べるのが一般的だが、山形では皮を食べる珍しい食文化が根づいているという。",
+   "summary_en": "The bittersweet rind of the akebia fruit is stuffed with minced meat and maitake mushroom simmered in miso and sugar, tied with kitchen string, and grilled. Elsewhere in Japan the white pulp is what gets eaten, but Yamagata is said to hold onto the unusual custom of eating the rind instead.",
+   "sources": [
+    {
+     "title": "あけびの味噌詰め焼き／あけびの油焼き 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/akebinomisozumeyaki_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "akebi-no-miso-zumeyaki",
+     "to_slug": "yamagata-dashi",
+     "relation_type": "対比",
+     "basis": "ともに山形の家庭で夏秋の食材を活かす料理だが、あけびの味噌詰め焼きは皮に肉味噌を詰めて焼くのに対し、だしは生野菜を刻んで和える点が異なる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=県内全域だが、本文があけび栽培が広まった経緯として天童市を名指ししているため天童市を代表地点とした（要判断）。別名「あけびの油焼き」はsummaryで言及。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ukogi-no-kiriae",
+   "name_ja": "うこぎの切り和え",
+   "name_romaji": "Ukogi no Kiriae",
+   "name_en": "Ukogi no kiriae — hedge-shrub greens minced and tossed with roasted miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "米沢市",
+   "lat": 37.9222,
+   "lng": 140.117,
+   "summary_ja": "米沢藩9代藩主・上杉鷹山が垣根として植えることを推奨したうこぎの新芽を茹でて刻み、焼き味噌をのせて食べる置賜地域の春の味。トゲが防犯の垣根にも食用にもなった、飢饉への備えの知恵と伝わる。",
+   "summary_en": "Ukogi, a hedge shrub the ninth Yonezawa lord Uesugi Yozan is said to have encouraged planting as a living fence, has its new shoots boiled, minced, and topped with roasted miso — a spring taste of the Okitama area. The same thorny hedge that guarded a house also fed it, wisdom said to date to years of famine.",
+   "sources": [
+    {
+     "title": "うこぎの切り和え 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ukoginokiriae_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ukogi-no-kiriae",
+     "to_slug": "warabi-tataki",
+     "relation_type": "対比",
+     "basis": "ともに山菜を刻んで味噌で和える山形の春の食べ方だが、うこぎの切り和えは刻んだうこぎに焼き味噌をのせ、わらびたたきは包丁で叩いてとろみを出す"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=置賜地域、米沢市と併記されるが、市名が明記されているため米沢市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "koi-no-umani",
+   "name_ja": "鯉のうま煮",
+   "name_romaji": "Koi no Umani",
+   "name_en": "Koi no umani — carp simmered sweet with soy sauce, sugar, and mirin",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "米沢市",
+   "lat": 37.9222,
+   "lng": 140.117,
+   "summary_ja": "輪切りにしたコイを醤油、酒、砂糖で甘辛く煮る置賜地域の祝い料理。上杉鷹山が内陸で乏しい水産資源を補うために養殖を勧めたのが始まりとされ、正月や結婚式など祝いの席に並んできたという。",
+   "summary_en": "Carp cut into rounds is simmered sweet and salty in soy sauce, sake, and sugar — a celebratory dish of the Okitama area. Farming is said to have begun on the urging of lord Uesugi Yozan, who sought a stand-in for the seafood this inland region lacked, and the dish is said to appear at New Year and weddings.",
+   "sources": [
+    {
+     "title": "鯉のうま煮 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/koinomani_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "koi-no-umani",
+     "to_slug": "koi",
+     "relation_type": "使用食材",
+     "basis": "置賜地域で養殖されるコイを主材料に使う"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=置賜地域、米沢市と併記されるが、市名が明記されているため米沢市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hyoboshi-no-nimono",
+   "name_ja": "ひょう干しの煮物",
+   "name_romaji": "Hyoboshi no Nimono",
+   "name_en": "Hyoboshi no nimono — sun-dried purslane simmered for New Year good luck",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "",
+   "lat": 38.2404,
+   "lng": 140.3633,
+   "summary_ja": "夏に摘んだすべりひゆ（ひょう）を茹でて天日干しにした保存食を戻し、糸こんにゃくや人参、油揚げと炒め煮にする正月料理。「今年も“ひょっと”していいことがありますように」と縁起を担いで食べるという。",
+   "summary_en": "Purslane, called hyo, is picked in summer, boiled, and sun-dried into a keeping food, then rehydrated and simmered with shirataki, carrot, and fried tofu for New Year. The name is said to be played on for luck — a wish that something good might happen, hyotto, this year.",
+   "sources": [
+    {
+     "title": "ひょう干しの煮物／ひょう干し煮 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hyoboshinonimono_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hyoboshi-no-nimono",
+     "to_slug": "kukitachiboshi-no-nimono",
+     "relation_type": "兄弟",
+     "basis": "ともに夏に摘んだ野草・野菜を天日干しにして冬の保存食とし、油揚げなどと炒め煮にする山形の郷土料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=村山地域、置賜地域（広域・複数）で単一市町村に絞れないため、県庁所在地の山形市を代表点とした（要判断）。別名「ひょう干し煮」はsummaryで言及。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kujira-mochi",
+   "name_ja": "くじら餅",
+   "name_romaji": "Kujira Mochi",
+   "name_en": "Kujira mochi — a steamed rice-flour cake with walnuts, named for its old bulk",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "新庄市",
+   "lat": 38.7639,
+   "lng": 140.3009,
+   "summary_ja": "米粉に砂糖とくるみを混ぜて蒸し上げる餅菓子で、くじらの肉は使わないが、昔は今より大きく作られその大きさをくじらに例えたなど諸説あるという。旧暦の桃の節句に雛壇へ供える新庄発祥の菓子と伝わる。",
+   "summary_en": "Rice flour, sugar, and walnuts steamed together into a mochi cake that contains no whale at all — its name is said to come from the loaves once being made whale-sized, among other theories. It is said to have originated in Shinjo and is offered at the old-calendar Doll's Festival.",
+   "sources": [
+    {
+     "title": "くじら餅 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kujiramochi_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kujira-mochi",
+     "to_slug": "tama-konnyaku",
+     "relation_type": "対比",
+     "basis": "ともに山形の観光地や祭りで手軽に食べられる名物だが、くじら餅は米粉の蒸し菓子、玉こんにゃくは串刺しの醤油味こんにゃくという違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=最上地域・村山地域だが、本文が新庄藩の兵糧食に由来し新庄市が発祥ではないかと記しているため新庄市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sasamaki",
+   "name_ja": "笹巻き",
+   "name_romaji": "Sasamaki",
+   "name_en": "Sasamaki — glutinous rice bundled in bamboo grass and boiled for Boys' Day",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "",
+   "lat": 38.2404,
+   "lng": 140.3633,
+   "summary_ja": "水切りしたもち米を笹の葉で巻いて結び、熱湯で茹で上げたものにきなこと砂糖をかけて食べる端午の節句の行事食。鶴岡市南部には灰汁水で煮て黄色くぷるんとした食感に仕上げる珍しい作り方も残るという。",
+   "summary_en": "Drained glutinous rice is wrapped and tied in bamboo grass leaves, boiled, and eaten dusted with sweetened soybean flour — a food for the Boys' Day festival. In the southern part of Tsuruoka, an unusual method boils it in lye water instead, turning the rice yellow and springy.",
+   "sources": [
+    {
+     "title": "笹巻き 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sasamaki_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sasamaki",
+     "to_slug": "kujira-mochi",
+     "relation_type": "対比",
+     "basis": "ともに山形の節句に作られる行事食の餅菓子だが、笹巻きはもち米を粒のまま笹で包んで茹で、くじら餅は米粉を蒸して固める点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=県内全域のため空欄。lat/lngは県庁所在地の山形市を代表点とした。鶴岡市南部の灰汁水製法や庄内町余目地区の風習はsummary/本文差分として個別地域の話にとどめた。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "toyama-kabu-no-kasujiru",
+   "name_ja": "遠山かぶの粕汁",
+   "name_romaji": "Toyama Kabu no Kasujiru",
+   "name_en": "Toyama kabu no kasujiru — a sake-lees soup built on Yonezawa's firm heirloom turnip",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "米沢市",
+   "lat": 37.9222,
+   "lng": 140.117,
+   "summary_ja": "煮崩れしにくい米沢の伝統野菜「遠山かぶ」と、大豆を木づちで打って平たくした「打ち豆」を味噌汁仕立てにし、仕上げに酒粕を加えてまろやかにする冬の汁。上杉鷹山の産業振興策で栽培が広まったと伝わる。",
+   "summary_en": "Toyama turnip, a Yonezawa heirloom vegetable firm enough to hold its shape, and uchimame — soybeans flattened with a wooden mallet — go into a miso soup finished with sake lees for a mellow winter dish. Cultivation is said to have spread under lord Uesugi Yozan's push to build up local industry.",
+   "sources": [
+    {
+     "title": "遠山かぶの粕汁 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/toyamakabukasujiru_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "toyama-kabu-no-kasujiru",
+     "to_slug": "yonezawa-hiyajiru",
+     "relation_type": "兄弟",
+     "basis": "ともに米沢市の郷土料理で、うちの豆（打ち豆）を欠かせない具材として使う"
+    }
+   ],
+   "tags": [
+    "miso",
+    "fermented"
+   ],
+   "notes": "伝承地域=米沢市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shio-kujira-jiru",
+   "name_ja": "塩くじら汁",
+   "name_romaji": "Shio Kujira Jiru",
+   "name_en": "Shio kujira jiru — new potatoes and salted whale blubber simmered for summer stamina",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "",
+   "lat": 38.2404,
+   "lng": 140.3633,
+   "summary_ja": "皮付きの鯨の脂身を塩漬けにした塩くじらと新じゃがいも、夏野菜を一緒に煮る内陸の暑気払い料理。動物性たんぱく源が乏しかった山間部で夏を乗り切るために生まれたとされ、村山地域では「いるか汁」とも呼ぶという。",
+   "summary_en": "Salted whale blubber, skin still on, is simmered with new potatoes and summer vegetables — a heat-battling dish of inland Yamagata. It is said to have taken shape in mountain areas short on animal protein, and in the Murayama area it also goes by the name iruka-jiru.",
+   "sources": [
+    {
+     "title": "塩くじら汁 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shiokujirajiru_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shio-kujira-jiru",
+     "to_slug": "imoni",
+     "relation_type": "対比",
+     "basis": "ともに山形の家庭で季節を分けて食べる鍋料理で、塩くじら汁は夏の滋養食、芋煮は秋の里芋料理という違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=県内全域のため空欄。lat/lngは県庁所在地の山形市を代表点とした。村山地域の別名「いるか汁」「もんぎりみず汁」はsummary/本文に反映。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yonezawa-hiyajiru",
+   "name_ja": "冷や汁",
+   "name_romaji": "Hiyajiru",
+   "name_en": "Hiyajiru — seasonal vegetables served in a cold, savory soaking broth",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "米沢市",
+   "lat": 37.9222,
+   "lng": 140.117,
+   "summary_ja": "干し貝柱の戻し汁に凍みこんにゃくや干ししいたけを合わせた冷たいだし汁を、季節の野菜にかけて食べる米沢の郷土料理。上杉謙信の陣中食に由来するとの説もあり、冬には伝統野菜「雪菜」も使われるという。",
+   "summary_en": "A cold broth made from dried scallop soaking liquid, freeze-dried konnyaku, and dried shiitake is poured over seasonal vegetables — a dish of Yonezawa. One account traces it to field rations of the warlord Uesugi Kenshin, and in winter it takes the local heirloom green yukina as well.",
+   "sources": [
+    {
+     "title": "冷や汁 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hiyashiru_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yonezawa-hiyajiru",
+     "to_slug": "toyama-kabu-no-kasujiru",
+     "relation_type": "兄弟",
+     "basis": "ともに米沢市の郷土料理で、うちの豆（打ち豆）を欠かせない具材として使う"
+    }
+   ],
+   "tags": [
+    "cold_served",
+    "ceremonial"
+   ],
+   "notes": "shelfをledgerのhotpotからhomestyleに変更（冷たいだし汁をかけるおひたし料理で、鍋物ではないため）。cold_servedタグを付与。伝承地域=置賜地域、米沢市だが、本文が「米沢市の郷土料理」と明記しているため米沢市を代表地点とした。slugは当初hiyajiruを予定していたが、all-items-ja.txtに埼玉県の同名別料理（hiyajiru＝冷や汁）が既存のため同音異義衝突を回避しyonezawa-hiyajiruに変更した。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mosojiru",
+   "name_ja": "孟宗汁",
+   "name_romaji": "Mosojiru",
+   "name_en": "Mosojiru — a miso soup built on freshly dug moso bamboo shoots",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "山形県",
+   "origin_city": "鶴岡市",
+   "lat": 38.7274,
+   "lng": 139.8271,
+   "summary_ja": "その日の朝に掘りたての孟宗竹のたけのこを厚揚げやしいたけと一緒に煮て、酒粕と味噌で仕立てる鶴岡の初夏の汁。鶴岡市湯田川温泉周辺は粘土質の赤土が良質な孟宗を育てるとされ、産地として知られている。",
+   "summary_en": "Moso bamboo shoots dug that same morning are simmered with fried tofu and shiitake, finished with sake lees and miso — an early-summer soup of Tsuruoka. The clay-rich red soil around Yudagawa Onsen in Tsuruoka is said to grow especially good shoots, and the area is known as a source.",
+   "sources": [
+    {
+     "title": "孟宗汁 山形県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mosojiru_yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mosojiru",
+     "to_slug": "tamago-kanten",
+     "relation_type": "対比",
+     "basis": "ともに鶴岡天神まつりなどの行事食として親しまれる庄内の料理だが、孟宗汁は孟宗竹のたけのこを使う汁物、卵寒天は醤油と卵で固める甘い寒天菓子という違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=庄内地域だが、本文が湯田川温泉（鶴岡市）を産地・発祥として名指ししているため鶴岡市を代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "件数: 29行中、作った25件／既存で作らなかった1件（dashi_yamagata: だし。既存slug yamagata-dashi と detail_url が完全一致のため作らない）／genre_hint=tsukemonoで除外3件（seisaizuke, omizuke, yukinanofusubezuke）。low判定は1件（hatahatanoyuage: existing_slug=hata＝グルーパー科の別種、ハタハタはうろこのないサンドフィッシュ科の別魚種のため別物と判断し作成）。\n棚(shelf)を変えた行: tamago-kanten（homestyle→sweets、行事の甘い寒天菓子のため）／yonezawa-hiyajiru（hotpot→homestyle、鍋物ではなく冷たいだし汁をかけるおひたし料理のため、cold_servedタグを付与）。\n座標の根拠: 単一市町村が明記された行（shiobiki-zushi, toyama-kabu-no-kasujiru, koi-no-umani, ukogi-no-kiriae, kukitachiboshi-no-nimono, yonezawa-hiyajiru＝いずれも米沢市／kujira-mochi＝新庄市／tamago-kanten, masu-no-ankake, mosojiru＝鶴岡市／tama-konnyaku＝山形市／okahijiki-no-karashiae＝南陽市）はその市役所付近を採用。地方単位の広域行（udo-shimidaikon-donkoroni＝最上地域→新庄市、shoyu-no-mi, hatahata-no-yuage＝庄内地域→鶴岡市、dongarajiru＝庄内地域だが酒田市・鶴岡市両方が本文に登場するため地方の中心地点として鶴岡市）は地方の中心都市を代表点とした。県全域・複数地域で単一に絞れない行（shokuyogiku-ohitashi, imoni, karakai-ni, sasamaki, shio-kujira-jiru, hyoboshi-no-nimono）は県庁所在地の山形市を代表点とした。warabi-tataki（県北部という表現）とakebi-no-miso-zumeyaki（県内全域だが天童市の逸話あり）は要判断として個別に注記した。\n要判断: (1) warabi-tatakiの「県北部」という表現に単一の代表都市指定がなく、最上地域の中心である新庄市を目安に採用した点の妥当性。 (2) akebi-no-miso-zumeyakiの伝承地域は県内全域だが、あけび栽培が広まった経緯として本文が名指しする天童市を代表地点にした点。 (3) hyoboshi-no-nimonoは村山・置賜の2地域併記で単一の中心都市ルールが無く、県庁所在地山形市で代用した点（hokkaido報告書の富良野市代用と同種の判断）。"
+}
