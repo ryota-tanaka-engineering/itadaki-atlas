@@ -1,0 +1,983 @@
+{
+ "items": [
+  {
+   "slug": "noppe",
+   "name_ja": "のっぺ",
+   "name_romaji": "Noppe",
+   "name_en": "Noppe — a thick, simmered taro dish with scallop, salmon and vegetables",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "",
+   "lat": 37.9026,
+   "lng": 139.0232,
+   "summary_ja": "里芋を主役に、ホタテやサケ、こんにゃくなどを薄味でとろりと煮た新潟の家庭料理で、汁というより煮物に近い。雪深い土地で振る舞い料理として重宝され、冷やしても食べられると伝わる。",
+   "summary_en": "A Niigata home dish built around taro, gently simmered with scallops, salmon and konjac until thick, closer to a stew than a soup. In this snow-heavy region it became a go-to for gatherings, and some households are said to eat it chilled.",
+   "sources": [
+    {
+     "title": "のっぺ 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/noppe_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "noppe",
+     "to_slug": "imomiso",
+     "relation_type": "兄弟",
+     "basis": "里芋を主役にした新潟の家庭料理という点で共通（農水省ページの記述に基づく）"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=新潟県内全域のため広域扱い。座標は県庁所在地（新潟市）を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "igoneri",
+   "name_ja": "いごねり",
+   "name_romaji": "Igoneri",
+   "name_en": "Igoneri — chilled seaweed jelly sliced thin and served with ginger soy sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "佐渡市",
+   "lat": 38.0333,
+   "lng": 138.3667,
+   "summary_ja": "佐渡でとれるいご草を長く練って板状に固め、細く切って生姜醤油や酢味噌でいただく郷土料理。もっちりとした食感とほのかな磯の香りが特徴で、九州の食文化が北前船を経て伝わったといわれる。",
+   "summary_en": "A Sado specialty made by simmering and kneading igo seaweed until it sets into a firm sheet, then slicing it thin to eat with ginger soy sauce or vinegar miso. Chewy with a faint sea-breeze aroma, it is said to trace back to Kyushu cuisine carried north by kitamae-bune ships.",
+   "sources": [
+    {
+     "title": "いごねり 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/igoneri_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "igoneri",
+     "to_slug": "hegi",
+     "relation_type": "対比",
+     "basis": "へぎそばのつなぎに使う布海苔と同じ紅藻の仲間（いご草）を寒天状に固めた食品という対比（農水省ページの記述に基づく）"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "notes": "伝承地域は「新潟県内全域」だが本文が佐渡を代表する料理と明記するため、佐渡市（単一市）として扱った。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shoyu-okowa",
+   "name_ja": "しょうゆおこわ",
+   "name_romaji": "Shoyu Okowa",
+   "name_en": "Shoyu okowa — soy-colored glutinous rice steamed with kidney beans",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "長岡市",
+   "lat": 37.4468,
+   "lng": 138.8514,
+   "summary_ja": "長岡市に伝わる、醤油で色づけしたおこわに金時豆を炊き込んだ料理。同じ新潟県でも長岡だけは「赤飯」といえばこの茶色い醤油味を指すとされ、日常のおかずから婚礼の引き出物まで幅広く食べられている。",
+   "summary_en": "A Nagaoka specialty of glutinous rice steamed with kidney beans and colored not red but brown with soy sauce. In Nagaoka alone, 'red rice' is said to mean this soy-flavored version, eaten everyday and given as a wedding gift alike.",
+   "sources": [
+    {
+     "title": "しょうゆおこわ 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shouyu_okowa_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shoyu-okowa",
+     "to_slug": "nagaoka-shoga",
+     "relation_type": "対比",
+     "basis": "同じ長岡市生まれのご当地グルメという点で対比"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=長岡市（中越地方）。単一市として扱った。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sasa-dango",
+   "name_ja": "笹団子",
+   "name_romaji": "Sasa Dango",
+   "name_en": "Sasa dango — sweet bean dumplings wrapped in bamboo grass leaves",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "",
+   "lat": 37.9026,
+   "lng": 139.0232,
+   "summary_ja": "米粉とよもぎの生地であんを包み、笹の葉で俵形に包んで蒸した新潟の菓子。笹の防腐効果を生かした戦国期の携行食が起源とされ、五穀豊穣を祈る祭りや端午の節句に欠かせない一品と伝わる。",
+   "summary_en": "A Niigata sweet of rice-and-mugwort dough wrapped around sweet bean paste, folded into a bale shape with bamboo grass leaves and steamed. Its origin is traced to a portable ration that used the leaves' antiseptic power, and it is said to be essential at harvest festivals and the Boys' Festival.",
+   "sources": [
+    {
+     "title": "笹団子 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sasa_dango_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sasa-dango",
+     "to_slug": "sankaku-chimaki",
+     "relation_type": "兄弟",
+     "basis": "どちらも笹に包んで携行・保存した新潟の郷土食という由来を共有（農水省ページの記述に基づく）"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "伝承地域=下越地方のため広域扱い。座標は下越の中心地として新潟市を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kirizai",
+   "name_ja": "きりざい",
+   "name_romaji": "Kirizai",
+   "name_en": "Kirizai — natto mixed with finely chopped pickled vegetables",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "南魚沼市",
+   "lat": 37.0645,
+   "lng": 138.8853,
+   "summary_ja": "納豆に野沢菜漬けや大根を細かく刻んで混ぜ合わせる魚沼地方の郷土料理。雪深い土地で保存食を無駄なく食べ切る知恵から生まれたとされ、ごはんのお供にもおつまみにもなる。",
+   "summary_en": "A Uonuma-region dish of natto mixed with finely chopped nozawana pickles and daikon. Said to have grown from the wisdom of using every scrap of preserved food through the long snowbound winters, it works equally well over rice or as a drinking snack.",
+   "sources": [
+    {
+     "title": "きりざい 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kirizai_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kirizai",
+     "to_slug": "nina",
+     "relation_type": "対比",
+     "basis": "どちらも保存した漬け菜など食材を活かした新潟の家庭のおかずという点で対比"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "伝承地域=中越地方だが、本文が南魚沼市の町おこし団体名で具体的に言及しているため南魚沼市（単一市）とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sasa-zushi",
+   "name_ja": "笹寿司",
+   "name_romaji": "Sasa Zushi",
+   "name_en": "Sasa-zushi — vinegared rice on bamboo grass topped with mountain vegetables and salmon",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "新潟県",
+   "origin_city": "",
+   "lat": 37.1489,
+   "lng": 138.235,
+   "summary_ja": "クマ笹の葉に酢飯をのせ、山菜やサケ、野沢菜漬けなどを彩りよく盛りつける上越地方の押し寿司。上杉謙信の出陣にまつわる言い伝えがあり、お盆や祭りなどハレの日に振る舞われてきたと伝わる。",
+   "summary_en": "A Joetsu-area sushi of vinegared rice set on bamboo grass leaves and topped colorfully with mountain vegetables, salmon and nozawana pickles. Legend ties it to Uesugi Kenshin's military campaigns, and it is said to have been served on festival and Obon occasions.",
+   "sources": [
+    {
+     "title": "笹寿司 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sasa_zushi_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sasa-zushi",
+     "to_slug": "sake-salmon",
+     "relation_type": "使用食材",
+     "basis": "具材にサケを使う（農水省ページの主な使用食材欄）"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "handheld"
+   ],
+   "notes": "伝承地域=上越地方（妙高市・上越市・糸魚川市など複数市）のため広域扱い。座標は上越市を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sake-no-yakizuke",
+   "name_ja": "鮭の焼漬け",
+   "name_romaji": "Sake no Yakizuke",
+   "name_en": "Sake no yakizuke — grilled salmon steeped in a soy-based sauce",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "村上市",
+   "lat": 38.2231,
+   "lng": 139.4816,
+   "summary_ja": "村上市に伝わる、白焼きにしたサケを酒とみりん、醤油を合わせたたれに漬け込んだ料理。冷凍技術がなかった時代の保存食が起源とされ、冷めても身がふんわりとして固くならないのが特徴と伝わる。",
+   "summary_en": "A Murakami dish of plain-grilled salmon steeped in a soy-based sauce. Said to have begun as a preservation method before refrigeration existed, it stays soft and tender even after cooling.",
+   "sources": [
+    {
+     "title": "鮭の焼漬け 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sakeno_yakizuke_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sake-no-yakizuke",
+     "to_slug": "sake-salmon",
+     "relation_type": "使用食材",
+     "basis": "主材料が生サケ（農水省ページの主な使用食材欄）"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "genre_hint=tsukemonoだが魚介の醤油漬け系の保存食で漬物ジャンルではないため例外規定を適用し作成（shelf=fermented、genre=null）。伝承地域=新潟県内北部だが本文が村上市を繰り返し明記するため村上市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "zenmai-no-nimono",
+   "name_ja": "ぜんまいの煮物",
+   "name_romaji": "Zenmai no Nimono",
+   "name_en": "Zenmai no nimono — simmered dried royal fern",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "",
+   "lat": 37.9026,
+   "lng": 139.0232,
+   "summary_ja": "天日干しにした干しぜんまいを戻し、油で炒めてから出汁と醤油で煮る新潟の家庭料理。雪解けとともに芽吹くぜんまいを乾燥させて冬の保存食とした知恵が今も受け継がれている。",
+   "summary_en": "A Niigata home dish of sun-dried royal fern, rehydrated, pan-fried, then simmered in dashi and soy sauce. It preserves the old wisdom of drying spring fiddleheads to see the household through winter.",
+   "sources": [
+    {
+     "title": "ぜんまいの煮物 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/zenmaino_nimono_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "zenmai-no-nimono",
+     "to_slug": "kakiae-namasu",
+     "relation_type": "対比",
+     "basis": "どちらも乾物や下ごしらえに手間をかける新潟の秋冬の野菜料理という点で対比"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=新潟県内全域のため広域扱い。座標は県庁所在地（新潟市）を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kakiae-namasu",
+   "name_ja": "かきあえなます",
+   "name_romaji": "Kakiae Namasu",
+   "name_en": "Kakiae namasu — vinegared edible chrysanthemum with lotus root and walnuts",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "",
+   "lat": 37.9026,
+   "lng": 139.0232,
+   "summary_ja": "赤紫色の食用菊「かきのもと」をさっとゆで、れんこんやくるみと合わせて酢で和える新潟の郷土料理。精進料理として法事やお正月に欠かせず、秋の食卓に彩りを添えると伝わる。",
+   "summary_en": "A Niigata dish of the reddish-purple edible chrysanthemum called kakinomoto, briefly blanched and dressed in vinegar with lotus root and walnuts. Rooted in shojin vegetarian cooking, it is said to be indispensable at memorial services and New Year, brightening the autumn table.",
+   "sources": [
+    {
+     "title": "かきあえなます 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kakiae_namasu_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kakiae-namasu",
+     "to_slug": "zenmai-no-nimono",
+     "relation_type": "対比",
+     "basis": "どちらも乾物や下ごしらえに手間をかける新潟の秋冬の野菜料理という点で対比"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=新潟県内全域（中越・下越）のため広域扱い。座標は県庁所在地（新潟市）を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kurumafu-no-nimono",
+   "name_ja": "車麩の煮物",
+   "name_romaji": "Kurumafu no Nimono",
+   "name_en": "Kurumafu no nimono — simmered wheel-shaped wheat gluten fu",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "",
+   "lat": 37.9026,
+   "lng": 139.0232,
+   "summary_ja": "小麦グルテンを鉄棒に巻いて焼き上げる新潟の車麩を、白なすやいんげんと一緒に煮た料理。北前船で製法が伝わったとされ、精進料理や行事の煮しめに欠かせない食材として親しまれている。",
+   "summary_en": "A dish simmering Niigata's wheel-shaped wheat-gluten fu with white eggplant and green beans. Its craft is said to have arrived via kitamae-bune trading ships, and the fu remains a staple of shojin cooking and festive simmered dishes.",
+   "sources": [
+    {
+     "title": "車麩の煮物 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kurumafu_no_nimono_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kurumafu-no-nimono",
+     "to_slug": "sado-nishime",
+     "relation_type": "使用食材",
+     "basis": "佐渡の煮しめにも車麩を入れる地域があると本文に明記（農水省ページ）"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=下越地方のため広域扱い。座標は下越の中心地として新潟市を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nina",
+   "name_ja": "煮菜",
+   "name_romaji": "Nina",
+   "name_en": "Nina — salted greens simmered with crushed soybeans",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "",
+   "lat": 37.9026,
+   "lng": 139.0232,
+   "summary_ja": "塩漬けにした体菜を戻し、打ち豆と一緒に出汁と醤油や味噌で煮る新潟の家庭料理。雪で青菜がとれなくなる冬を越すための保存食から生まれたとされ、家庭ごとに味付けが異なる。",
+   "summary_en": "A Niigata home dish of salted taina greens, desalted and simmered with crushed soybeans in dashi with soy sauce or miso. Born of the need to see winter through when snow buries the fields, it varies in seasoning from household to household.",
+   "sources": [
+    {
+     "title": "煮菜 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nina_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nina",
+     "to_slug": "kirizai",
+     "relation_type": "対比",
+     "basis": "どちらも保存した漬け菜など食材を活かした新潟の家庭のおかずという点で対比"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "伝承地域=新潟県内全域のため広域扱い。座標は県庁所在地（新潟市）を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kensan-yaki",
+   "name_ja": "けんさん焼き",
+   "name_romaji": "Kensan Yaki",
+   "name_en": "Kensan yaki — grilled rice balls brushed with miso",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "",
+   "lat": 37.9026,
+   "lng": 139.0232,
+   "summary_ja": "おにぎりに味噌やしょうが味噌をぬって両面を香ばしく焼く新潟の郷土料理。上杉謙信が兵糧を剣先に刺して焼いたことが名の由来と伝わり、夜食やお茶漬けとしても親しまれている。",
+   "summary_en": "A Niigata dish of rice balls brushed with miso and grilled until fragrant on both sides. Legend traces its name to Uesugi Kenshin roasting rations on his sword tip, and it is also enjoyed as a late-night snack or over tea.",
+   "sources": [
+    {
+     "title": "けんさん焼き 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kensan_yaki_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kensan-yaki",
+     "to_slug": "tare-katsudon",
+     "relation_type": "対比",
+     "basis": "どちらも新潟の家庭・軽食として親しまれる米料理という点で対比"
+    }
+   ],
+   "tags": [
+    "miso",
+    "handheld"
+   ],
+   "notes": "伝承地域=新潟県内全域のため広域扱い。座標は県庁所在地（新潟市）を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sado-nishime",
+   "name_ja": "佐渡の煮しめ",
+   "name_romaji": "Sado no Nishime",
+   "name_en": "Sado no nishime — slow-simmered tofu, konjac and kelp in flying-fish dashi",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "佐渡市",
+   "lat": 38.0333,
+   "lng": 138.3667,
+   "summary_ja": "焼きあごの出汁で焼き豆腐やこんにゃく、昆布などをじっくり煮る佐渡市の郷土料理。汁がなくなるまで煮しめることからその名がつき、祭りや冠婚葬祭には欠かせない一皿と伝わる。",
+   "summary_en": "A Sado City dish of grilled tofu, konjac and kelp slow-simmered in dashi made from grilled flying fish. Its name comes from being simmered until the broth is gone, and it is said to be indispensable at festivals and family occasions.",
+   "sources": [
+    {
+     "title": "佐渡の煮しめ 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sadono_nishime_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sado-nishime",
+     "to_slug": "kurumafu-no-nimono",
+     "relation_type": "使用食材",
+     "basis": "地域によっては車麩を入れると本文に明記（農水省ページ）"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=佐渡市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sankaku-chimaki",
+   "name_ja": "三角ちまき",
+   "name_romaji": "Sankaku Chimaki",
+   "name_en": "Sankaku chimaki — a triangular rice dumpling wrapped in bamboo grass",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "",
+   "lat": 37.9026,
+   "lng": 139.0232,
+   "summary_ja": "もち米だけをクマ笹で三角に包み、イグサで縛ってゆでる新潟の素朴なちまき。きな粉をつけて食べ、日本のちまきの中でも古い形式のひとつとされる。上杉謙信の携行食との言い伝えも残る。",
+   "summary_en": "A simple Niigata rice dumpling of glutinous rice alone, wrapped triangularly in bamboo grass and tied with rush, then boiled and eaten with soybean flour. It is said to be one of the oldest forms of chimaki in Japan, with a legend tying it to Uesugi Kenshin's field rations.",
+   "sources": [
+    {
+     "title": "三角ちまき 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sankaku_chimaki_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sankaku-chimaki",
+     "to_slug": "sasa-dango",
+     "relation_type": "兄弟",
+     "basis": "どちらも笹に包んで携行・保存した新潟の郷土食という由来を共有（農水省ページの記述に基づく）"
+    }
+   ],
+   "tags": [
+    "handheld",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=新潟県内全域のため広域扱い。座標は県庁所在地（新潟市）を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tare-katsudon",
+   "name_ja": "タレかつ丼",
+   "name_romaji": "Tare Katsudon",
+   "name_en": "Tare katsudon — thin pork cutlets dipped in sweet soy sauce over rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "donburi",
+   "origin_pref": "新潟県",
+   "origin_city": "新潟市",
+   "lat": 37.9026,
+   "lng": 139.0232,
+   "summary_ja": "薄めのとんかつを甘辛い醤油だれにくぐらせてごはんにのせる新潟市発祥の丼。卵とじにせず、カツを2枚以上のせるのが特徴で、昭和初期に古町の洋食店から広まったと伝わる。",
+   "summary_en": "A Niigata City-born rice bowl of thin pork cutlets dipped in a sweet-savory soy sauce and laid over rice, no egg involved, typically with two or more cutlets. It is said to have spread from a Western-style restaurant in the Furumachi district in the early Showa era.",
+   "sources": [
+    {
+     "title": "タレかつ丼 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tare_katsudon_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tare-katsudon",
+     "to_slug": "kensan-yaki",
+     "relation_type": "対比",
+     "basis": "どちらも新潟の家庭・軽食として親しまれる米料理という点で対比"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "pork"
+   ],
+   "notes": "伝承地域=県内全域（下越地域）だが、本文が新潟市古町発祥と明記するため新潟市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "niigata-kujira-jiru",
+   "name_ja": "くじら汁",
+   "name_romaji": "Kujira Jiru",
+   "name_en": "Kujira jiru — salted whale blubber simmered in miso with summer vegetables",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "",
+   "lat": 37.9026,
+   "lng": 139.0232,
+   "summary_ja": "塩漬けの鯨の脂身を、丸なすやゆうがおなどの夏野菜と一緒に味噌で煮る新潟の郷土料理。北前船で運ばれた塩鯨を使う知恵から生まれ、暑い盛りのスタミナ食として食べられてきたと伝わる。",
+   "summary_en": "A Niigata dish of salted whale blubber simmered in miso with summer vegetables like round eggplant and bottle gourd. Born from the salted whale carried by kitamae-bune ships, it is said to have served as a stamina food through the hottest stretch of summer.",
+   "sources": [
+    {
+     "title": "くじら汁 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kujira_jiru_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "niigata-kujira-jiru",
+     "to_slug": "shio-kujira-jiru",
+     "relation_type": "対比",
+     "basis": "どちらも塩クジラを味噌で煮る調理法を持つ点で対比（山形県の塩くじら汁との比較）"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "同名の「くじら汁」が北海道・青森県・山形県にも既存のため地名を冠したniigata-kujira-jiruとした。伝承地域=中越・下越の複数地方のため広域扱い、座標は県庁所在地（新潟市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "namagusa-kouko",
+   "name_ja": "なまぐさこうこ",
+   "name_romaji": "Namagusa Kouko",
+   "name_en": "Namagusa kouko — daikon pickled in a broth of simmered salted sardines",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "新潟市",
+   "lat": 37.783,
+   "lng": 138.833,
+   "summary_ja": "新潟市角田浜地区に伝わる、塩漬けにしたイワシを煮溶かした汁で大根を漬け込む漬物。地元でとれるイワシを無駄なく使う知恵から生まれたとされ、正月にはどの家庭でも食べられていたと伝わる。",
+   "summary_en": "A pickle from the Kakudahama district of Niigata City, in which daikon is steeped in a broth made by simmering down salted sardines. Said to have grown from the wisdom of using local sardines without waste, it was reportedly eaten in every household at New Year.",
+   "sources": [
+    {
+     "title": "なまぐさこうこ 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/namagusa_kouko_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "namagusa-kouko",
+     "to_slug": "iwashi",
+     "relation_type": "使用食材",
+     "basis": "主材料がイワシ（農水省ページの主な使用食材欄）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "genre_hintは空欄（tsukemonoではない）。伝承地域=新潟市西蒲区角田浜地区のため座標は角田浜付近を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hiyashi-jiru-miso-jitate",
+   "name_ja": "冷やし汁みそ仕立て",
+   "name_romaji": "Hiyashijiru Miso Jitate",
+   "name_en": "Hiyashijiru — a chilled miso soup with cucumber and shiso",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "長岡市",
+   "lat": 37.4468,
+   "lng": 138.8514,
+   "summary_ja": "だし汁を味噌でのばし、きゅうりや青じそを刻んで加える中越地方の冷たい汁物。夏に食欲が落ちても食べやすいよう工夫された料理で、そのままでもごはんや麺にかけても食べられると伝わる。",
+   "summary_en": "A chilled soup from the Chuetsu region, dashi thinned with miso and studded with chopped cucumber and shiso. Devised to stay appetizing through the summer heat, it is said to be eaten on its own or poured over rice or noodles.",
+   "sources": [
+    {
+     "title": "冷やし汁みそ仕立て 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hiyashi_shiru_miso_zitate_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hiyashi-jiru-miso-jitate",
+     "to_slug": "niigata-kujira-jiru",
+     "relation_type": "対比",
+     "basis": "どちらも新潟県中越地方に伝わる夏場の食事という点で対比"
+    }
+   ],
+   "tags": [
+    "miso",
+    "cold_served"
+   ],
+   "notes": "伝承地域=長岡市、中越地方。市が明記されているため長岡市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fugunoko-no-kasuzuke",
+   "name_ja": "ふぐの子の粕漬け",
+   "name_romaji": "Fugu no Ko no Kasuzuke",
+   "name_en": "Fugu no ko no kasuzuke — puffer fish roe cured in salt and sake lees",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "佐渡市",
+   "lat": 38.0333,
+   "lng": 138.3667,
+   "summary_ja": "ゴマフグの卵巣を2年以上塩蔵したのち佐渡の酒粕で長期熟成させる珍味。ふぐ調理師免許を持つ者が処理したものだけが出回り、江戸時代から佐渡でつくられてきたと伝わる。",
+   "summary_en": "A rare Sado delicacy in which puffer fish ovaries are salt-cured for two years or more, then aged for a long stretch in Sado's sake lees. Only ovaries processed by licensed fugu chefs are sold, and the practice is said to date back to the Edo period.",
+   "sources": [
+    {
+     "title": "ふぐの子の粕漬け 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/fuguno_ko_no_kasuzuke_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fugunoko-no-kasuzuke",
+     "to_slug": "migaki-nishin-no-kouji-zuke",
+     "relation_type": "対比",
+     "basis": "どちらも魚介を糀や酒粕で漬け込んで発酵させる新潟の保存食という点で対比"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "genre_hint=tsukemonoだが魚介の粕漬けで漬物ジャンルではないため例外規定を適用し作成（shelf=fermented、genre=null）。伝承地域=佐渡地方（＝佐渡市と同義）のため佐渡市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fukashi-nasu",
+   "name_ja": "ふかしなす",
+   "name_romaji": "Fukashi Nasu",
+   "name_en": "Fukashi nasu — steamed eggplant chilled and served with mustard soy sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "",
+   "lat": 37.9026,
+   "lng": 139.0232,
+   "summary_ja": "巾着なすを半分に切って蒸し、冷やしてからし醤油や生姜醤油で食べる新潟の郷土料理。なすの生産量が全国有数の新潟で、体を冷やす夏の一品として親しまれてきたと伝わる。",
+   "summary_en": "A Niigata dish of kinchaku eggplant halved, steamed, chilled and eaten with mustard or ginger soy sauce. In a prefecture among Japan's top eggplant producers, it is said to have been valued as a cooling dish through the summer.",
+   "sources": [
+    {
+     "title": "ふかしなす 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/fukashi_nasu_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fukashi-nasu",
+     "to_slug": "nasu-iri",
+     "relation_type": "対比",
+     "basis": "どちらもなすをシンプルに調理する家庭のおかずという点で対比（宮城県のなす炒りとの比較）"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "notes": "伝承地域=県内全域のため広域扱い。座標は県庁所在地（新潟市）を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "migaki-nishin-no-kouji-zuke",
+   "name_ja": "身欠きにしんの糀漬け",
+   "name_romaji": "Migaki Nishin no Kouji Zuke",
+   "name_en": "Migaki nishin no kouji-zuke — dried herring pickled with koji and vegetables",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "阿賀町",
+   "lat": 37.6167,
+   "lng": 139.4667,
+   "summary_ja": "戻した身欠きニシンを大根や白菜と一緒に塩で下漬けし、甘酒で仕上げる阿賀町津川の郷土料理。北前船が運んだ身欠きニシンを内陸で活かす知恵から生まれ、正月のごちそうとして食べられてきたと伝わる。",
+   "summary_en": "A dish from Tsugawa in Agamachi, where rehydrated dried herring is salted with daikon and napa cabbage, then finished with sweet amazake. Born of the inland wisdom for using herring carried in by kitamae-bune ships, it is said to have been served as a New Year treat.",
+   "sources": [
+    {
+     "title": "身欠きにしんの糀漬け 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/migaki_nishin_no_kouji_zuke_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "migaki-nishin-no-kouji-zuke",
+     "to_slug": "nishin",
+     "relation_type": "使用食材",
+     "basis": "主材料が身欠きニシン（農水省ページの主な使用食材欄）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "genre_hint=tsukemonoだが魚介の糀漬けで漬物ジャンルではないため例外規定を適用し作成（shelf=fermented、genre=null）。伝承地域は下越地方・阿賀町津川中心と明記されるため阿賀町とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "anbo",
+   "name_ja": "あんぼ",
+   "name_romaji": "Anbo",
+   "name_en": "Anbo — a rice-flour dumpling steamed around sweet or savory fillings",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "",
+   "lat": 37.4468,
+   "lng": 138.8514,
+   "summary_ja": "米粉の生地であん餅や漬け菜、なすなどの具を包んで蒸す中越地域の郷土料理。小麦が育ちにくく米どころだった土地柄から、長野の「おやき」に似ながらも皮に米粉を使うのが特徴とされる。",
+   "summary_en": "A Chuetsu-region dish of steamed rice-flour dumplings filled with sweet bean paste, pickled greens or eggplant. Similar in spirit to Nagano's oyaki but distinguished by its rice-flour skin, reflecting land suited to rice rather than wheat.",
+   "sources": [
+    {
+     "title": "あんぼ 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/anbo_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "anbo",
+     "to_slug": "sasa-dango",
+     "relation_type": "対比",
+     "basis": "どちらも米の粉を練った生地で具を包む新潟の郷土菓子という点で対比"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "伝承地域=中越地域のため広域扱い。座標は中越の中心地として長岡市を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "takenoko-jiru",
+   "name_ja": "竹の子汁",
+   "name_romaji": "Takenoko Jiru",
+   "name_en": "Takenoko jiru — a miso soup of early-summer bamboo shoots and canned mackerel",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "",
+   "lat": 37.1489,
+   "lng": 138.235,
+   "summary_ja": "初夏だけとれる姫たけのことサバ缶を具にした上越地方の味噌汁。旬が短く貴重な山菜を贅沢に使った一杯とされ、地域によっては身欠きニシンを入れる家庭もあったと伝わる。",
+   "summary_en": "A Joetsu-region miso soup made with hime-takenoko bamboo shoots, available only in early summer, and canned mackerel. Said to make lavish use of a fleeting mountain vegetable, some households reportedly used dried herring instead.",
+   "sources": [
+    {
+     "title": "竹の子汁 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/takenoko_jiru_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "takenoko-jiru",
+     "to_slug": "migaki-nishin-no-kouji-zuke",
+     "relation_type": "対比",
+     "basis": "妙高市などでは竹の子汁にサバ缶ではなく身欠きニシンを使っていたと本文に明記（農水省ページ）"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=上越地方のため広域扱い。座標は上越市を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "imomiso",
+   "name_ja": "いもみそ",
+   "name_romaji": "Imomiso",
+   "name_en": "Imomiso — Gosen City taro slow-simmered in dashi and miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "五泉市",
+   "lat": 37.7833,
+   "lng": 139.0667,
+   "summary_ja": "五泉市特産の里芋「帛乙女」を出汁と味噌でじっくり煮る郷土料理。ぬめりを生かすため洗いすぎないのがコツとされ、里芋が採れる秋になると各家庭でつくられてきたと伝わる。",
+   "summary_en": "A dish from Gosen City that slow-simmers the local kinuotome taro in dashi and miso. The trick is said to be avoiding over-washing so the taro's natural sliminess remains, and it is reportedly made in every household each autumn harvest.",
+   "sources": [
+    {
+     "title": "いもみそ 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/imomiso_niigata.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "imomiso",
+     "to_slug": "noppe",
+     "relation_type": "兄弟",
+     "basis": "里芋を主役にした新潟の家庭料理という点で共通（農水省ページの記述に基づく）"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=下越地方だが、本文が五泉市の特産里芋を主題に据えているため五泉市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "niigata-izushi",
+   "name_ja": "飯ずし",
+   "name_romaji": "Izushi",
+   "name_en": "Izushi — a nare-zushi of salmon, herring roe and vegetables fermented with rice and koji",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "新潟県",
+   "origin_city": "村上市",
+   "lat": 38.2231,
+   "lng": 139.4816,
+   "summary_ja": "村上市に伝わる、サケや数の子、野菜を米と糀に漬け込んで発酵させたなれずし。特産の塩引きサケを使い、低温でじっくり発酵させる保存食で、正月の味として親しまれてきたと伝わる。",
+   "summary_en": "A fermented nare-zushi from Murakami, salmon, herring roe and vegetables packed in rice and koji to ferment slowly at low temperature. Made with the region's signature salt-cured salmon, it is said to have long been treasured as a New Year delicacy.",
+   "sources": [
+    {
+     "title": "飯ずし 新潟県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/izushi_niitaga.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "niigata-izushi",
+     "to_slug": "sake-salmon",
+     "relation_type": "使用食材",
+     "basis": "主材料がサケ（農水省ページの主な使用食材欄）"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ],
+   "notes": "既存slug「izushi」（出石そば・兵庫県）と読みが同じ（いずし）ため衝突を避けniigata-izushiとした。伝承地域=村上市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行（既存・重複）: kanzuri_niigata（既存slug kanzuri, match_confidence=high、同一と判断）／hegisoba_niigata_niigata（既存slug hegi, match_confidence=high、同一と判断）。作らなかった行（genre_hint=tsukemono、野菜の漬物で例外規定に該当せず）: hoshi_daikon_zuke_niigata（干し大根漬け、大根の漬物）、zuikino_suzuke_niigata（ずいきの酢漬け、ずいきの漬物）、akakabu_zuke_niigata（赤かぶ漬け、赤かぶの漬物）。genre_hint=tsukemonoだが例外規定（魚介の保存食で漬物ジャンルでない）を適用し作成: sakeno_yakizuke_niigata（鮭の焼漬け、焼いたサケの醤油漬け）、fuguno_ko_no_kasuzuke_niigata（ふぐの子の粕漬け）、migaki_nishin_no_kouji_zuke_niigata（身欠きにしんの糀漬け）。いずれもall-items-ja.txtに該当なしを確認。棚を変えた行: なし（台帳のshelfをそのまま採用）。座標の根拠: 伝承地域が単一市（佐渡市・長岡市・村上市・南魚沼市・阿賀町・五泉市・新潟市）を指す行はその市役所付近の座標を使用。「新潟県内全域」「下越地方」「上越地方」「中越地方」等の広域表記の行はorigin_cityを空欄にし、地方の中心都市（下越・全域→新潟市、上越地方→上越市、中越地域→長岡市）または県庁所在地（新潟市）で代用し、notesに広域と明記した。いごねり・佐渡の煮しめ・ふぐの子の粕漬けは伝承地域の記載が「新潟県内全域」または「佐渡地方」だが、本文が佐渡（＝佐渡市）を明確な発祥地・産地として繰り返し述べているため単一市として扱った。なまぐさこうこは新潟市西蒲区角田浜地区という字レベルの記載があるため、角田浜付近の座標を概算で使用した。スラッグ命名: 飯ずし(izushi_niitaga)は既存slug「izushi」（出石そば・兵庫県、読みが同じ「いずし」）と衝突するためniigata-izushiとした。くじら汁は既存の「kujira-jiru」（北海道）「aomori-kujira-jiru」（青森県）「shio-kujira-jiru」（山形県）と同名のためniigata-kujira-jiruとした。他の18品も念のため<地名>形式は避け料理名のみとしたが、all-slugs.txtとの衝突は事前確認済みでいずれも無し。要判断事項: とん漬け（35_6_kanagawa、神奈川県側の行）はgenre_hint=tsukemonoで豚肉の味噌漬けであり、農水省ページの魚介の例外規定（松前漬け等）に該当しないと判断し作成対象から除外した（神奈川県ファイル側のnotesにも記載）。"
+}

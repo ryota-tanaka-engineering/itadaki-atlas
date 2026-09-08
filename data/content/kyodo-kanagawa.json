@@ -1,0 +1,663 @@
+{
+ "items": [
+  {
+   "slug": "kanagawa-kenchin-jiru",
+   "name_ja": "けんちん汁",
+   "name_romaji": "Kenchin Jiru",
+   "name_en": "Kenchin jiru — root vegetables and tofu pan-fried then simmered in dashi",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "鎌倉市",
+   "lat": 35.3193,
+   "lng": 139.5466,
+   "summary_ja": "こんにゃくや根菜、豆腐をごま油で炒めてから出汁で煮込む鎌倉発祥の汁物。建長寺の精進料理が起源のひとつとされ、僧侶が落とした豆腐を拾い集めて汁に入れた逸話も残っている。",
+   "summary_en": "A Kamakura-born soup of root vegetables and tofu, pan-fried in sesame oil before simmering in dashi. One account traces it to the shojin cooking of Kenchoji temple, with a story that a monk once gathered spilled tofu into the pot rather than waste it.",
+   "sources": [
+    {
+     "title": "けんちん汁 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_1_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kanagawa-kenchin-jiru",
+     "to_slug": "iwate-kenchin-jiru",
+     "relation_type": "対比",
+     "basis": "同じ「けんちん汁」の名で全国に伝わりながら、鎌倉建長寺発祥という由来を持つ点で対比"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "既存の「kenchin」系slugは岩手県のiwate-kenchin-jiruのみでKanagawa向けは未登録のため作成。読みが同じ既存名は無し。伝承地域=鎌倉、全国だが本文が建長寺（鎌倉市）発祥説を中心に記すため鎌倉市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oyama-tofu",
+   "name_ja": "大山の豆腐料理",
+   "name_romaji": "Oyama no Tofu Ryori",
+   "name_en": "Oyama tofu dishes — chilled and hot-pot tofu made with Tanzawa spring water",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "伊勢原市",
+   "lat": 35.4028,
+   "lng": 139.3136,
+   "summary_ja": "丹沢山系の清らかな水でつくる伊勢原市大山の豆腐料理。大山詣りの参拝客に振る舞われて名物となり、冷奴や湯豆腐、田楽など素材の味を生かした食べ方が受け継がれている。",
+   "summary_en": "Tofu dishes from Mount Oyama in Isehara City, made with clear water from the Tanzawa mountains. Served to pilgrims visiting the mountain shrine, it became a local specialty, still enjoyed simply as chilled tofu, hot pot tofu, or grilled tofu with miso.",
+   "sources": [
+    {
+     "title": "大山の豆腐料理 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_2_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "oyama-tofu",
+     "to_slug": "tofu-dengaku",
+     "relation_type": "対比",
+     "basis": "大山豆腐の食べ方の一つに豆腐の田楽があると本文に明記される、豆腐料理という共通点での対比"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=伊勢原市大山地域（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "herahera-dango",
+   "name_ja": "へらへら団子",
+   "name_romaji": "Herahera Dango",
+   "name_en": "Herahera dango — flat dumplings coated in sweet bean paste",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "横須賀市",
+   "lat": 35.2814,
+   "lng": 139.6714,
+   "summary_ja": "薄力粉や白玉粉を練った平たい団子にあんをからめる横須賀市佐島の郷土菓子。夏の船祭りで豊漁と無病息災を願って神棚に供えられ、集まった親族とともに味わう習わしが残っている。",
+   "summary_en": "A confection from Sajima in Yokosuka City, flattened dumplings of wheat or glutinous rice flour coated in sweet bean paste. Offered at the shrine during a summer boat festival to pray for a good catch and good health, it is still shared among family.",
+   "sources": [
+    {
+     "title": "へらへら団子 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_4_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "herahera-dango",
+     "to_slug": "ishigaki-dango",
+     "relation_type": "兄弟",
+     "basis": "どちらも相模原・三浦地域に伝わる、身近な粉ものを使った素朴な郷土菓子という点で共通"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "handheld"
+   ],
+   "notes": "伝承地域=横須賀市、県央地域の2地域だが、本文の中心は横須賀市佐島のため横須賀市とした（座間市の記載は要旨に含めた）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yokosuka-kaigun-curry",
+   "name_ja": "よこすか海軍カレー",
+   "name_romaji": "Yokosuka Kaigun Curry",
+   "name_en": "Yokosuka navy curry — thickened curry recreating the old Imperial Navy recipe",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "横須賀市",
+   "lat": 35.2814,
+   "lng": 139.6714,
+   "summary_ja": "牛肉や鶏肉と野菜をとろみのあるカレーで煮込み、ごはんにかける横須賀市の料理。旧日本海軍の給食として脚気対策に導入されたカレーを再現したもので、平成の街おこしから名物になったと伝わる。",
+   "summary_en": "A Yokosuka City dish of beef or chicken and vegetables simmered in a thickened curry and served over rice. It recreates the curry once served in the old Imperial Japanese Navy to combat beriberi, and is said to have become a local specialty through a Heisei-era town revival effort.",
+   "sources": [
+    {
+     "title": "よこすか海軍カレー 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_5_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yokosuka-kaigun-curry",
+     "to_slug": "curry-rice",
+     "relation_type": "対比",
+     "basis": "日本海軍の給食として生まれ、退役後に全国のカレーライス文化へ合流したという由来を持つ点で対比"
+    }
+   ],
+   "tags": [
+    "yoshoku"
+   ],
+   "notes": "伝承地域=横須賀市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sake-manju",
+   "name_ja": "酒まんじゅう",
+   "name_romaji": "Sake Manju",
+   "name_en": "Sake manju — steamed buns leavened with a rice-koji starter",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "相模原市",
+   "lat": 35.5714,
+   "lng": 139.3739,
+   "summary_ja": "米麹でつくった酒種と小麦粉の生地であんを包んで蒸す相模原市の郷土菓子。稲作に向かない土地で小麦を育ててきた歴史を映し、夏祭りに欠かせないごちそうとして親しまれてきたと伝わる。",
+   "summary_en": "A Sagamihara City confection of sweet bean paste wrapped in dough leavened with a rice-koji starter, then steamed. It reflects a land better suited to wheat than rice, and is said to have long been an essential treat at summer festivals.",
+   "sources": [
+    {
+     "title": "酒まんじゅう 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_7_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sake-manju",
+     "to_slug": "ishigaki-dango",
+     "relation_type": "対比",
+     "basis": "どちらも相模原周辺で農作業の合間や祭りに食べられてきた粉ものの菓子という点で対比"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=相模原市（単一市）。「酒まんじゅう」は全国に類似菓子があるが、all-items-ja.txtに該当なしを確認。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kanagawa-kate-meshi",
+   "name_ja": "かて飯",
+   "name_romaji": "Kate Meshi",
+   "name_en": "Kate meshi — rice mixed with simmered vegetables and fish cake",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "相模原市",
+   "lat": 35.5714,
+   "lng": 139.3739,
+   "summary_ja": "煮た干ししいたけやごぼう、ちくわなどをごはんに混ぜ込む相模原市の郷土料理。米が貴重だった土地で量をかさ増しする知恵から生まれたとされ、祭りや彼岸のごちそうとして食べられてきた。",
+   "summary_en": "A Sagamihara City dish of rice mixed with simmered shiitake mushrooms, burdock and chikuwa fish cake. Said to have grown from the need to stretch precious rice, it is reportedly served as a festive dish at festivals and equinox gatherings.",
+   "sources": [
+    {
+     "title": "かて飯 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_8_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kanagawa-kate-meshi",
+     "to_slug": "gunma-katemeshi",
+     "relation_type": "対比",
+     "basis": "同じ「かて飯」という名前で群馬県にも伝わる、米を野菜でかさ増しする混ぜご飯という点で対比"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "既存slug「gunma-katemeshi」（群馬県）と同名のためkanagawa-kate-meshiとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "wakasagi-no-kanroni",
+   "name_ja": "ワカサギの甘露煮",
+   "name_romaji": "Wakasagi no Kanroni",
+   "name_en": "Wakasagi no kanroni — smelt from Lake Ashinoko candied to a glossy finish",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "箱根町",
+   "lat": 35.2323,
+   "lng": 139.1069,
+   "summary_ja": "芦ノ湖でとれたワカサギを素焼きにしてから水あめで照りをつけて煮る箱根町の郷土料理。甘辛くしっかり味付けして日持ちさせた保存食で、正月には定番の一品として食卓に並ぶと伝わる。",
+   "summary_en": "A Hakone dish of smelt from Lake Ashinoko, first dry-grilled and then simmered to a glossy finish with starch syrup. Seasoned firmly sweet and salty to keep well, it is said to be a standard dish on the New Year table.",
+   "sources": [
+    {
+     "title": "ワカサギの甘露煮 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_9_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "wakasagi-no-kanroni",
+     "to_slug": "wakasagi",
+     "relation_type": "使用食材",
+     "basis": "主材料がワカサギ（農水省ページの主な使用食材欄）"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "台帳のexisting_slug=wakasagi/match_confidence=lowだったが、既存wakasagiは魚そのもの（ingredient）のページで、本品は甘露煮という調理された一皿（dish）のため別物と判断し作成。伝承地域=箱根町（単一町）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ume-gohan",
+   "name_ja": "梅ごはん",
+   "name_romaji": "Ume Gohan",
+   "name_en": "Ume gohan — rice cooked with pickled plum and dried whitebait",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "小田原市",
+   "lat": 35.2547,
+   "lng": 139.1541,
+   "summary_ja": "梅干しとちりめんじゃこを混ぜ込んで炊く小田原市の郷土料理。城下に植えられた梅の実を旅人が重宝した歴史を持つ土地で、地元の食生活指導士が考案し家庭料理として広まったと伝わる。",
+   "summary_en": "An Odawara City rice dish cooked with pickled plums and dried whitebait mixed in. In a region where plums planted around the castle town were long valued by traveling merchants, it is said to have been devised by a local food educator and spread as a home dish.",
+   "sources": [
+    {
+     "title": "梅ごはん 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_10_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ume-gohan",
+     "to_slug": "umeboshi",
+     "relation_type": "使用食材",
+     "basis": "主材料が梅干し（農水省ページの主な使用食材欄）"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=小田原市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kanko-yaki",
+   "name_ja": "かんこ焼き",
+   "name_romaji": "Kanko Yaki",
+   "name_en": "Kanko yaki — wheat dough wrapped around seasonal fillings, pan-baked and steamed",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "相模原市",
+   "lat": 35.5714,
+   "lng": 139.3739,
+   "summary_ja": "小麦粉の生地に山菜やあん、かぼちゃなど季節の具を包んで焼き蒸す相模原市津久井地域の郷土料理。稲作に向かない山間地の粉食文化から生まれ、雅楽の太鼓に似た形が名の由来と伝わる。",
+   "summary_en": "A dish from the Tsukui area of Sagamihara City, wheat dough wrapped around seasonal fillings such as mountain vegetables, sweet bean paste or pumpkin, then pan-baked and steamed. Born of a wheat-based diet in mountains ill-suited to rice, its name is said to come from its resemblance to a drum used in court music.",
+   "sources": [
+    {
+     "title": "かんこ焼き 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_12_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kanko-yaki",
+     "to_slug": "anbo",
+     "relation_type": "対比",
+     "basis": "どちらも小麦粉や米粉の生地に季節の具を包んで焼く・蒸す山間地の粉食という点で対比（新潟県のあんぼとの比較）"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "伝承地域=相模原市津久井地域。津久井地域は相模原市の一地区のため相模原市（単一市）とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "maguro-no-kabuto-yaki",
+   "name_ja": "マグロのかぶと焼き",
+   "name_romaji": "Maguro no Kabutoyaki",
+   "name_en": "Maguro no kabuto-yaki — a whole tuna head slow-roasted in the oven",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "三浦市",
+   "lat": 35.1447,
+   "lng": 139.6178,
+   "summary_ja": "マグロの頭部をまるごとオーブンでじっくり焼き上げる三浦市三崎の名物料理。遠洋漁船の漁師たちが売り物にならない頭を船上で蒸し焼きにして食べたのが始まりとされ、希少な部位も味わえる。",
+   "summary_en": "A specialty of Misaki in Miura City, a whole tuna head slow-roasted in the oven. Said to have begun with deep-sea fishermen steam-roasting unsellable heads aboard ship, it lets diners taste otherwise rare cuts.",
+   "sources": [
+    {
+     "title": "マグロのかぶと焼き 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_13_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "maguro-no-kabuto-yaki",
+     "to_slug": "maguro",
+     "relation_type": "使用食材",
+     "basis": "主材料がマグロ（農水省ページの主な使用食材欄）"
+    }
+   ],
+   "tags": [],
+   "notes": "台帳のexisting_slug=maguro/match_confidence=lowだったが、既存maguroは寿司ネタとしての魚そのもの（ingredient）のページで、本品は頭部を焼いた一皿（dish）のため別物と判断し作成。伝承地域=三浦市三崎地域（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "norabou-na-no-ohitashi",
+   "name_ja": "のらぼう菜のおひたし",
+   "name_romaji": "Norabouna no Ohitashi",
+   "name_en": "Norabouna no ohitashi — blanched norabou greens dressed simply",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "川崎市",
+   "lat": 35.5308,
+   "lng": 139.7029,
+   "summary_ja": "川崎市多摩区菅地区で育つ伝統野菜ののらぼう菜をゆでてお浸しにする料理。江戸時代の飢饉で人々を救ったと伝わる強い野菜で、ほのかな甘みとやわらかな食感をシンプルに楽しむ。",
+   "summary_en": "A dish of norabouna, a traditional vegetable grown in the Suge district of Kawasaki City, blanched and served as a simple dressed side. Said to have helped people survive an Edo-period famine, it is enjoyed simply for its faint sweetness and tender texture.",
+   "sources": [
+    {
+     "title": "のらぼう菜のおひたし 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_15_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "norabou-na-no-ohitashi",
+     "to_slug": "nasu-iri",
+     "relation_type": "対比",
+     "basis": "どちらも旬の野菜を手早く調味料だけで食べるシンプルな家庭のおかずという点で対比"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=川崎市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gyu-nabe",
+   "name_ja": "牛鍋",
+   "name_romaji": "Gyu Nabe",
+   "name_en": "Gyu nabe — beef, tofu and greens simmered together from the start in seasoned broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "横浜市",
+   "lat": 35.4437,
+   "lng": 139.638,
+   "summary_ja": "牛肉や豆腐、春菊などを味噌や醤油だれで最初から煮込む横浜市発祥の鍋料理。開港後に西洋の肉食文化と出会って生まれ、居酒屋の主人が牛鍋屋を開いたのが始まりと伝わる。",
+   "summary_en": "A Yokohama-born hot pot of beef, tofu and chrysanthemum greens simmered from the start in a soy or miso-based sauce. Born of the port city's encounter with Western meat-eating culture, it is said to trace to a tavern owner who opened one of the first beef-pot restaurants.",
+   "sources": [
+    {
+     "title": "牛鍋 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_17_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gyu-nabe",
+     "to_slug": "yokohama",
+     "relation_type": "対比",
+     "basis": "どちらも開港後の横浜で外来の食文化と出会って生まれた名物という点で対比"
+    }
+   ],
+   "tags": [
+    "beef"
+   ],
+   "notes": "伝承地域=横浜市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ishigaki-dango",
+   "name_ja": "石垣団子",
+   "name_romaji": "Ishigaki Dango",
+   "name_en": "Ishigaki dango — steamed dumplings of local wheat flour and cubed sweet potato",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "相模原市",
+   "lat": 35.5714,
+   "lng": 139.3739,
+   "summary_ja": "地粉にさつまいもを混ぜて蒸す相模原市の郷土菓子。さいころ状のさつまいもが石垣のように見えることから名がつき、農作業の合間のおやつ「おこじゅう」として親しまれてきたと伝わる。",
+   "summary_en": "A Sagamihara City confection of local wheat flour dough mixed with cubed sweet potato and steamed. Named for the potato cubes' resemblance to a stone wall, it is said to have long served as an okojuu, a between-fieldwork snack.",
+   "sources": [
+    {
+     "title": "石垣団子 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_18_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ishigaki-dango",
+     "to_slug": "herahera-dango",
+     "relation_type": "兄弟",
+     "basis": "どちらも相模原・三浦地域に伝わる、身近な粉ものを使った素朴な郷土菓子という点で共通"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "伝承地域=相模原市（単一市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nara-chameshi",
+   "name_ja": "奈良茶飯",
+   "name_romaji": "Nara Chameshi",
+   "name_en": "Nara chameshi — rice cooked with chestnuts and red beans in green tea",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "川崎市",
+   "lat": 35.5308,
+   "lng": 139.7029,
+   "summary_ja": "米に栗や小豆を入れて煎茶で炊き込む川崎市の郷土料理。東海道川崎宿の茶屋で提供され旅人に好評を博したとされ、『東海道中膝栗毛』にも登場して全国に名が知られたと伝わる。",
+   "summary_en": "A Kawasaki City dish of rice cooked with chestnuts and red beans in green tea. Said to have been served at a teahouse along the Tokaido post town of Kawasaki-juku to great acclaim from travelers, it became nationally known after appearing in the comic novel Tokaidochu Hizakurige.",
+   "sources": [
+    {
+     "title": "奈良茶飯 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_20_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nara-chameshi",
+     "to_slug": "kawasaki-new-tantan",
+     "relation_type": "対比",
+     "basis": "どちらも川崎で育まれた名物料理という点で対比"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=川崎市（単一市）。名前に「奈良」を含むが本文どおり川崎市の郷土料理として扱った（起源伝承は奈良の寺院だが、伝承地域は川崎市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tanishi-no-misoni",
+   "name_ja": "田にしの味噌煮",
+   "name_romaji": "Tanishi no Misoni",
+   "name_en": "Tanishi no misoni — river snails simmered with burdock in sweet miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "厚木市",
+   "lat": 35.4425,
+   "lng": 139.3639,
+   "summary_ja": "厚木市飯山温泉周辺に伝わる、田にしを甘辛い味噌でごぼうと一緒に煮込む郷土料理。かつて花祭りの屋台に並んだ名物で「たにし町」と呼ばれるほど身近だったが、今はほとんど食べられなくなったと伝わる。",
+   "summary_en": "A dish from around Iiyama hot spring in Atsugi City, river snails simmered with burdock in a sweet-savory miso. Once so common it lined festival stalls and gave the area the nickname 'Tanishi Town,' it is said to be rarely eaten today.",
+   "sources": [
+    {
+     "title": "田にしの味噌煮 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_21_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tanishi-no-misoni",
+     "to_slug": "wakasagi-no-kanroni",
+     "relation_type": "対比",
+     "basis": "どちらも神奈川県内の水辺でとれる小さな生き物を甘辛く煮て保存性を持たせた郷土料理という点で対比"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=厚木市飯山温泉周辺。厚木市（単一市）とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shumai",
+   "name_ja": "シューマイ",
+   "name_romaji": "Shumai",
+   "name_en": "Shumai — ground pork and onion wrapped in a thin skin and steamed",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "横浜市",
+   "lat": 35.4437,
+   "lng": 139.638,
+   "summary_ja": "豚ひき肉やタマネギを皮で包んで蒸す横浜市の名物料理。中華街の点心にヒントを得た駅弁のシウマイが全国に知られるようになり、市民の食卓に今も深く根づいていると伝わる。",
+   "summary_en": "A Yokohama specialty of ground pork and onion wrapped in a thin skin and steamed. Inspired by dim sum from Chinatown, a station bento version made it famous nationwide, and the city is said to still lead the country in shumai consumption.",
+   "sources": [
+    {
+     "title": "シューマイ 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_22_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shumai",
+     "to_slug": "yokohama",
+     "relation_type": "兄弟",
+     "basis": "どちらも横浜中華街の文化から生まれ、横浜の名物として定着した点で共通（農水省ページの記述に基づく）"
+    }
+   ],
+   "tags": [
+    "chinese_derived",
+    "pork",
+    "handheld"
+   ],
+   "notes": "伝承地域=横浜市、神奈川県全域。本文の主眼が横浜市（崎陽軒・中華街）にあるため横浜市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yude-rakkasei",
+   "name_ja": "茹で落花生",
+   "name_romaji": "Yude Rakkasei",
+   "name_en": "Yude rakkasei — peanuts boiled in their shells with salt",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "神奈川県",
+   "origin_city": "",
+   "lat": 35.3728,
+   "lng": 139.2222,
+   "summary_ja": "殻付きのまま塩ゆでする秦野市周辺の郷土料理。日本で初めて落花生栽培が始まった土地で、出荷できない未熟豆を農家がおやつに茹でていたものが、冷凍商品化を機に広まったと伝わる。",
+   "summary_en": "A dish from around Hadano City, peanuts boiled in their shells with salt. In the region where peanut cultivation first began in Japan, farmers are said to have boiled unripe, unsellable pods as a snack, a practice that spread widely once it was turned into a frozen product.",
+   "sources": [
+    {
+     "title": "茹で落花生 神奈川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/35_23_kanagawa.html",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yude-rakkasei",
+     "to_slug": "oyama-tofu",
+     "relation_type": "対比",
+     "basis": "どちらも神奈川県の農産物をシンプルな調理でそのまま味わう点で対比"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "伝承地域=秦野市、二宮町、大磯町の3市町のため広域扱い。座標は相州落花生の中心地として秦野市を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行（既存slug・match_confidence=high、同一と判断）: 35_11_kanagawa にごみうどん（nigomi-udon）、35_16_kanagawa サンマーメン（sanmamen）。作らなかった行（台帳では空欄だがall-items-ja.txtの日本語名で既存と判明、同一と判断）: 35_19_kanagawa 小田原かまぼこ（既存slug odawara-kamaboko・神奈川県と完全一致）、35_14_kanagawa 割り干し大根のはりはり漬け（既存slug harihari-zuke「ハリハリ漬け」・神奈川県と同一の大根漬物と判断）。作らなかった行（match_confidence=low、既存とは別物と判断し新規作成）: 35_3_kanagawa 生しらす丼（existing_slug=shirasu-don）は、リポジトリ内データ（data/expansion/dishes/donburi-fried__donburi__rice.csv）で同じdetail_url・同一内容の既存アイテムと確認できたため作成せず。35_9_kanagawa ワカサギの甘露煮（existing_slug=wakasagi）と35_13_kanagawa マグロのかぶと焼き（existing_slug=maguro）は、既存wakasagi/maguroが魚そのもの（ingredient種別）のページであるのに対し、本品はそれぞれ調理された一皿（dish種別）のため別物と判断し作成。作らなかった行（genre_hint=tsukemono、例外規定に該当せず）: 35_6_kanagawa とん漬け（豚肉の味噌漬けで、農水省ページの例外規定が想定する魚介の保存食に該当しないため見送り）。棚を変えた行: なし（台帳のshelfをそのまま採用）。座標の根拠: 伝承地域が単一市町（鎌倉市・伊勢原市・横須賀市・相模原市・箱根町・小田原市・三浦市・川崎市・横浜市・厚木市）を指す行はその市区町村役場付近の座標を使用。茹で落花生は秦野市・二宮町・大磯町の3市町にまたがるため広域扱いとし、座標は相州落花生の中心地とされる秦野市を使用した。スラッグ命名: けんちん汁（35_1）は既存iwate-kenchin-jiruと同名のためkanagawa-kenchin-jiru、かて飯（35_8）は既存gunma-katemeshiと同名のためkanagawa-kate-meshiとした。要判断事項: 奈良茶飯（35_20_kanagawa）は名称に「奈良」を含むが、農水省ページの伝承地域は川崎市であり、起源伝承（奈良の寺院の食が川崎宿の茶屋に伝わった）と混同しないようorigin_prefは神奈川県、origin_cityは川崎市とした。"
+}
