@@ -1,0 +1,1019 @@
+{
+ "items": [
+  {
+   "slug": "arame-rakkasei-nitsuke",
+   "name_ja": "あらめと落花生の煮付",
+   "name_romaji": "Arame to Rakkasei no Nitsuke",
+   "name_en": "Arame to rakkasei no nitsuke — coarse kelp simmered sweet with roasted peanuts",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "田原市",
+   "lat": 34.6666,
+   "lng": 137.2667,
+   "summary_ja": "戻したアラメ（昆布の一種）と落花生をやわらかくゆで、砂糖と醤油、みりんで煮つめる。砂地で落花生を、伊勢湾沿岸でアラメをともに産する渥美半島ならではの常備菜で、東三河地域で親しまれてきたとされる。",
+   "summary_en": "Rehydrated arame — a coarse local kelp — and peanuts are boiled tender, then simmered down in sugar, soy sauce, and mirin. A standing side dish of the Atsumi peninsula, where sandy soil grows peanuts and the Ise Bay coast yields arame, said to be a fixture of the eastern Mikawa region.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/arametorakkaseinonitsuke_aichi.html",
+     "title": "あらめと落花生の煮付 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "arame-rakkasei-nitsuke",
+     "to_slug": "takenoko-no-arame-ni",
+     "relation_type": "兄弟",
+     "basis": "ともにアラメ（昆布の一種）を使う点で共通する東海地方の煮物とされる"
+    }
+   ],
+   "tags": [
+    "kelp"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "furofuki-daikon",
+   "name_ja": "ふろふき大根",
+   "name_romaji": "Furofuki Daikon",
+   "name_en": "Furofuki daikon — daikon simmered soft and topped with sweet red miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "",
+   "lat": 35.1815,
+   "lng": 136.9066,
+   "summary_ja": "面取りした大根をだし汁で煮て、豆味噌（赤味噌）を使った甘い練り味噌をのせる。大根の名産地として知られる愛知県らしく、豆味噌の濃厚なコクと渋みが、だしで甘みを増した大根によく合うとされる。",
+   "summary_en": "Beveled daikon is simmered in dashi, then topped with a sweet miso paste made from red soybean miso. Fitting for a prefecture known for daikon, the miso's deep richness and bitterness is said to pair well with the daikon's dashi-sweetened flavor.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/furofukidaikon_aichi.html",
+     "title": "ふろふき大根 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "furofuki-daikon",
+     "to_slug": "hatcho-miso",
+     "relation_type": "使用食材",
+     "basis": "愛知の豆味噌（八丁味噌）を使った甘い練り味噌をのせる料理のため"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域は県内全域。県庁所在地の名古屋市の座標を使用。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "juroku-sasage-gomamiso",
+   "name_ja": "十六ささげのごま味噌和え",
+   "name_romaji": "Juroku Sasage no Gomamiso Ae",
+   "name_en": "Juroku sasage no gomamiso ae — long yardlong beans dressed in sesame miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "愛西市",
+   "lat": 35.1969,
+   "lng": 136.7486,
+   "summary_ja": "ゆでた十六ささげを、赤味噌とすりごま、みりんのたれで和える。さやに16個の豆が入ることが名の由来とされ、愛西市など尾張西部でつくられる夏野菜を使った、お盆の供えにも欠かせない一品とされる。",
+   "summary_en": "Boiled juroku sasage — long yardlong beans — are dressed in a sauce of red miso, ground sesame, and mirin. Named for the sixteen beans said to fill each pod, this summer vegetable dish from western Owari is said to be essential at Obon offerings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/jurokusasagenogomamisoae_aichi.html",
+     "title": "十六ささげのごま味噌和え 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "juroku-sasage-gomamiso",
+     "to_slug": "hatcho-miso",
+     "relation_type": "使用食材",
+     "basis": "赤味噌（豆味噌）を使った和え衣で仕立てる料理のため"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "伝承地域は県内全域だが、文中で主産地として愛西市・稲沢市が名指しされるため愛西市の座標を使用。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "renkon-no-nimono",
+   "name_ja": "れんこんの煮物",
+   "name_romaji": "Renkon no Nimono",
+   "name_en": "Renkon no nimono — lotus root simmered in a sweet soy dashi",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "愛西市",
+   "lat": 35.1969,
+   "lng": 136.7486,
+   "summary_ja": "食べやすく切ったれんこんを、だし汁と醤油、みりんで煮こむ。海抜0m地帯で水害に悩んだ愛西市が稲作に代わる作物として広めたと伝わり、穴から先を見通す縁起物として正月にも食べられるとされる。",
+   "summary_en": "Lotus root, cut into easy-to-eat pieces, is simmered in dashi with soy sauce and mirin. Said to have spread as an alternative to rice farming in flood-prone, below-sea-level Aisai, it's also eaten at New Year as a lucky charm for seeing through to the future.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/renkonnonimono_aichi.html",
+     "title": "れんこんの煮物 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "renkon-no-nimono",
+     "to_slug": "furofuki-daikon",
+     "relation_type": "対比",
+     "basis": "ともに尾張地域を代表する根菜のだし煮という共通点を持つ"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fuki-no-nitsuke",
+   "name_ja": "ふきの煮付け",
+   "name_romaji": "Fuki no Nitsuke",
+   "name_en": "Fuki no nitsuke — a thick-stemmed local butterbur simmered in dashi",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "東海市",
+   "lat": 35.0322,
+   "lng": 136.9235,
+   "summary_ja": "アク抜きしたふきをだし汁で煮る。愛知の伝統野菜「愛知早生ふき」は現在の東海市で発見され、茎が太く香りが良いことから知多半島を中心に広まったと伝わり、シャキシャキとした食感が特徴とされる。",
+   "summary_en": "Butterbur, its bitterness drawn out, is simmered in dashi. Aichi Wase Fuki, a traditional local variety, is said to have been discovered in present-day Tokai City and spread across the Chita peninsula for its thick, fragrant stalks and crisp bite.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/fukinonitsuke_aichi.html",
+     "title": "ふきの煮付け 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "fuki-no-nitsuke",
+     "to_slug": "renkon-no-nimono",
+     "relation_type": "対比",
+     "basis": "ともに尾張地域の伝統野菜をだしで煮る家庭料理という共通点を持つ"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "himakajima-takomeshi",
+   "name_ja": "たこ飯",
+   "name_romaji": "Himakajima Takomeshi",
+   "name_en": "Himakajima takomeshi — rice cooked with raw octopus until it turns faintly pink",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "南知多町日間賀島",
+   "lat": 34.6136,
+   "lng": 136.7967,
+   "summary_ja": "生ダコをぶつ切りにし、米と一緒に炊きこむ。全国的には煮たタコを混ぜることが多いが、愛知では生のまま炊きこみ、きれいな桜色に染まることから「桜飯」とも呼ばれる、「タコの島」日間賀島の漁師めしとされる。",
+   "summary_en": "Raw octopus is cut into chunks and cooked into the rice from the start. While simmered octopus is more common elsewhere, Aichi's version cooks it raw, turning the rice a faint pink that gives it the nickname \"sakura rice\" — a fisherman's dish from Himakajima, the \"octopus island.\"",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/takomeshi_aichi.html",
+     "title": "たこ飯 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "himakajima-takomeshi",
+     "to_slug": "tako-sakurani",
+     "relation_type": "兄弟",
+     "basis": "ともにタコを炊いた色合いを『桜』にたとえる点で共通する"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は尾張地域・日間賀島。特産地として名指しされる日間賀島（南知多町）の座標を使用。名前が「たこ飯」のみで他県のたこ飯（瀬戸内地域等）は未投入のため地名を冠さずhimakajima-takomeshiとした。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oni-manju",
+   "name_ja": "鬼まんじゅう",
+   "name_romaji": "Oni Manju",
+   "name_en": "Oni manju — a steamed dumpling studded with cubed sweet potato",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "名古屋市",
+   "lat": 35.1815,
+   "lng": 136.9066,
+   "summary_ja": "角切りのさつまいもを、小麦粉と砂糖を混ぜた生地に入れて蒸す。戦中戦後の食糧難の時代、米の代わりの主食として広まり、角切りの芋が鬼の角のように見えることが名の由来と伝わる。",
+   "summary_en": "Cubed sweet potato is folded into a batter of flour and sugar, then steamed. Said to have spread as a stand-in staple for rice during wartime and postwar food shortages, its name is said to come from the potato cubes' resemblance to an ogre's horns.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/onimanju_aichi.html",
+     "title": "鬼まんじゅう 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "oni-manju",
+     "to_slug": "hokkaido-imomochi",
+     "relation_type": "対比",
+     "basis": "ともにいも類を使う素朴なおやつという共通点を持つが、地域や由来は異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "jojokiri",
+   "name_ja": "じょじょきり",
+   "name_romaji": "Jojokiri",
+   "name_en": "Jojokiri — hand-cut wheat noodles simmered in a sweet red bean broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "田原市",
+   "lat": 34.6666,
+   "lng": 137.2667,
+   "summary_ja": "小麦粉を練って薄くのばし、細く切った麺をゆでて小豆と砂糖の汁で仕立てる。麺の形がドジョウに似ることが名の由来とされ、農作業の合間のおやつとして渥美半島の農家に伝わってきたとされる。",
+   "summary_en": "Wheat dough is rolled thin, cut into fine noodles, boiled, and served in a sweet broth of red beans and sugar. Its name is said to come from the noodles' resemblance to loach, once eaten as a between-chores snack on Atsumi peninsula farms.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/jojokiri_aichi.html",
+     "title": "じょじょきり 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "jojokiri",
+     "to_slug": "sumiso-somen",
+     "relation_type": "対比",
+     "basis": "ともに愛知の麺料理だが、甘い汁粉仕立てのじょじょきりと冷たい酢味噌仕立ての酢味噌そうめんは対照をなす"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sumiso-somen",
+   "name_ja": "酢味噌そうめん",
+   "name_romaji": "Sumiso Somen",
+   "name_en": "Sumiso somen — chilled somen noodles dressed in sweetened vinegar-miso",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "名古屋市",
+   "lat": 35.1815,
+   "lng": 136.9066,
+   "summary_ja": "味噌と酢、砂糖でつくる酢味噌を、ゆでたそうめんにかけて食べる。豆味噌文化が根づく愛知で、酢が加わることでさっぱりと食べられる夏の一皿とされ、半田市周辺の粕酢の伝統とも重なると伝わる。",
+   "summary_en": "A dressing of miso, vinegar, and sugar is poured over boiled somen noodles. In a prefecture where soybean miso runs deep, the vinegar is said to lighten the dish for summer, its roots said to overlap with the vinegar-brewing tradition around Handa.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sumisosomen_aichi.html",
+     "title": "酢味噌そうめん 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sumiso-somen",
+     "to_slug": "hatcho-miso",
+     "relation_type": "使用食材",
+     "basis": "豆味噌（八丁味噌に代表される赤味噌）を使った酢味噌で和える料理のため"
+    }
+   ],
+   "tags": [
+    "miso",
+    "cold_served"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aichi-hebo-meshi",
+   "name_ja": "へぼ飯",
+   "name_romaji": "Hebo Meshi",
+   "name_en": "Hebo meshi — rice mixed with simmered giant hornet larvae",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "",
+   "lat": 35.0826,
+   "lng": 137.156,
+   "summary_ja": "地蜂（クロスズメバチ）の成虫と幼虫を甘辛く煮つけ、炊きたてのごはんに混ぜ込む。信州から奥三河の山間部にかけて貴重なタンパク源とされてきたと伝わり、現在はごちそうとして客人にふるまわれるとされる。",
+   "summary_en": "Adult and larval giant hornets are simmered sweet and savory, then folded into freshly cooked rice. Said to have served as a prized protein source across the mountains from Shinshu to Okumikawa, it's now more often served as a treat for guests.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hebomeshi_aichi.html",
+     "title": "へぼ飯 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aichi-hebo-meshi",
+     "to_slug": "hebo-meshi",
+     "relation_type": "対比",
+     "basis": "ともに地蜂の幼虫を使う中部山間部の郷土料理で、岐阜県の恵那市周辺のへぼ飯と並行して伝わるとされる"
+    }
+   ],
+   "tags": [
+    "insect"
+   ],
+   "notes": "伝承地域は西三河・東三河・奥三河地域（広域）。奥三河の中心地として豊田市の座標を使用。既にhebo-meshiが岐阜県で使用済みのためaichi-を冠した。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aichi-iga-manju",
+   "name_ja": "いがまんじゅう",
+   "name_romaji": "Iga Manju",
+   "name_en": "Iga manju — a bean-paste bun coated in dyed sticky rice grains",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "岡崎市",
+   "lat": 34.9536,
+   "lng": 137.1746,
+   "summary_ja": "米粉の生地で粒あんを包み、表面に着色したもち米をつける。もち米の粒が栗の「いが」に似ることが名の由来の一説とされ、西三河地域では桃の節句にお雛様へ供える風習が伝わる。",
+   "summary_en": "Sweet bean paste is wrapped in rice flour dough, then coated with dyed sticky rice grains. One account ties the name to the grains' resemblance to a chestnut's spiny husk, and in the western Mikawa region it's said to be offered to Hina dolls at the Doll Festival.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/igamanju_aichi.html",
+     "title": "いがまんじゅう 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aichi-iga-manju",
+     "to_slug": "iga-manju",
+     "relation_type": "対比",
+     "basis": "同じ『いがまんじゅう』の名を持つ埼玉県の郷土菓子と並行して伝わるが、供える行事や地域が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "既存slug iga-manju（埼玉県）と同名のため、命名規則に従いaichi-を冠した。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "haze-tsukudani",
+   "name_ja": "はぜ佃煮",
+   "name_romaji": "Haze Tsukudani",
+   "name_en": "Haze tsukudani — goby fish simmered down in dark tamari soy sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "",
+   "lat": 35.1815,
+   "lng": 136.9066,
+   "summary_ja": "ハゼをたまり醤油で濃く煮詰める。三河湾沿岸では古くから獲れた魚を佃煮にする風習があり、ハゼの顔が翁に似ることから長寿を意味するとされ、正月のおせち料理に欠かせない一品とされる。",
+   "summary_en": "Goby fish is simmered down thick in tamari soy sauce. The Mikawa Bay coast is said to carry a long habit of preserving local fish as tsukudani, and the goby's face, likened to an elder's, is said to symbolize long life — a fixture of New Year's osechi.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hazetsukudani_aichi.html",
+     "title": "はぜ佃煮 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "haze-tsukudani",
+     "to_slug": "tsukudani",
+     "relation_type": "対比",
+     "basis": "ともに魚介をたまりや醤油で濃く煮詰める佃煮の技法を用いるが、使う魚や地域の由来が異なる"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域は沿岸地域（広域）。県庁所在地の名古屋市の座標を使用。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nimiso",
+   "name_ja": "煮味噌",
+   "name_romaji": "Nimiso",
+   "name_en": "Nimiso — root vegetables simmered and reheated repeatedly in red miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "",
+   "lat": 35.1815,
+   "lng": 136.9066,
+   "summary_ja": "大根や人参、里芋などの根菜を、家にある食材で豆味噌煮こんでいく。まとめてつくって翌日また煮返すうちに味噌の味が染みてコクが増すとされ、家庭ごとに具材や仕立てが大きく異なるとされる。",
+   "summary_en": "Daikon, carrot, taro, and other root vegetables — whatever's on hand — are simmered in red soybean miso. Made in a big batch and reheated the next day, the miso is said to sink in deeper each time, with what goes into it varying widely from house to house.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nimiso_aichi.html",
+     "title": "煮味噌 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nimiso",
+     "to_slug": "hatcho-miso",
+     "relation_type": "使用食材",
+     "basis": "豆味噌（八丁味噌に代表される赤味噌）で具材を煮返してつくる料理のため"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域は県内全域。県庁所在地の名古屋市の座標を使用。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kushi-asari",
+   "name_ja": "串あさり",
+   "name_romaji": "Kushi Asari",
+   "name_en": "Kushi asari — clams threaded on a skewer and dried whole in the sun",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "半田市",
+   "lat": 34.9265,
+   "lng": 136.9314,
+   "summary_ja": "生きたアサリの水管に串を通し、丸1日天日干しにする。全国有数のアサリ漁獲量を誇る三河湾沿岸に伝わり、江戸時代には幕府への献上品にもなったとされる、半田市亀崎の祭りに欠かせない保存食とされる。",
+   "summary_en": "Live clams are strung by the siphon onto a skewer and sun-dried for a full day. A tradition of the Mikawa Bay coast, said to rank among the country's top clam harvests, the dish is said to have once been offered to the Edo shogunate and remains essential to the Kamezaki festival.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kushiasari_aichi.html",
+     "title": "串あさり 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kushi-asari",
+     "to_slug": "asari",
+     "relation_type": "使用食材",
+     "basis": "アサリを串に刺して天日干しにする保存食のため"
+    }
+   ],
+   "tags": [
+    "skewered",
+    "street_food"
+   ],
+   "notes": "伝承地域は東三河地域・知多地域（複数）。祭礼との結びつきが文中で強調される半田市（亀崎）の座標を使用。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "togan-jiru",
+   "name_ja": "とうがん汁",
+   "name_romaji": "Togan Jiru",
+   "name_en": "Togan jiru — winter melon simmered in a thick chicken and mushroom broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "",
+   "lat": 35.1815,
+   "lng": 136.9066,
+   "summary_ja": "皮をむいたとうがんを、とり肉や干ししいたけとともに出汁で煮て、片栗粉でとろみをつける。全国有数のとうがん出荷量を誇る愛知県で、水分が多く淡白な味わいが夏の食欲減退期に重宝されてきたとされる。",
+   "summary_en": "Peeled winter melon is simmered in dashi with chicken and dried shiitake, then thickened with potato starch. In Aichi, said to rank among the country's top winter melon producers, its watery, mild flavor is said to have made it useful when summer heat dulls the appetite.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/toganjiru_aichi.html",
+     "title": "とうがん汁 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "togan-jiru",
+     "to_slug": "ozaku",
+     "relation_type": "対比",
+     "basis": "ともに東海地方の家庭に伝わる根菜・野菜のだし汁だが、季節と主材料が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は尾張地域・西三河地域を中心に県全域。県庁所在地の名古屋市の座標を使用。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aichi-gohei-mochi",
+   "name_ja": "五平餅",
+   "name_romaji": "Gohei Mochi",
+   "name_en": "Gohei mochi — pounded rice pressed flat on a skewer and glazed with miso",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "豊田市",
+   "lat": 35.0826,
+   "lng": 137.156,
+   "summary_ja": "炊きたてのうるち米を潰して串に刺し、味噌だれをつけて焼き上げる。中部地方の山間部発祑とされ、山仕事の安全を祈る祭りの前夜につくられてきたと伝わる、奥三河をはじめ中部山間部一帯の料理とされる。",
+   "summary_en": "Freshly cooked non-glutinous rice is pounded, pressed flat on a skewer, and grilled with a miso glaze. Said to have originated in the mountainous Chubu region, it's traditionally made the night before a festival praying for safety in mountain work.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/goheimochi_aichi.html",
+     "title": "五平餅 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aichi-gohei-mochi",
+     "to_slug": "gifu-gohei-mochi",
+     "relation_type": "対比",
+     "basis": "ともに中部山間部に伝わる五平餅だが、岐阜県は木曽・飛騨地域、愛知県は奥三河地域を中心に伝わるとされる"
+    }
+   ],
+   "tags": [
+    "miso",
+    "skewered",
+    "handheld",
+    "street_food"
+   ],
+   "notes": "伝承地域は西三河・東三河・奥三河地域（広域）。奥三河の中心地として豊田市の座標を使用。既にgohei-mochiが岐阜県・長野県で県名を冠して使用済みのため同じ命名規則に従いaichi-を冠した。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kakimawashi",
+   "name_ja": "かきまわし",
+   "name_romaji": "Kakimawashi",
+   "name_en": "Kakimawashi — rice folded together with chicken simmered in its own fat",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "高浜市",
+   "lat": 34.9186,
+   "lng": 136.9989,
+   "summary_ja": "とりの脂で炒めたとり肉やごぼう、人参を、炊き上げたごはんとしっかりかき混ぜてつくる混ぜごはん。愛知県では「とりめし」とも呼ばれ、卵を産まなくなった成鶏を美味しく食べる工夫から生まれたと伝わる。",
+   "summary_en": "Chicken, burdock, and carrot stir-fried in chicken fat are folded thoroughly into cooked rice. Also known in Aichi as torimeshi, it's said to have grown from finding a good way to eat hens no longer laying eggs.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kakimawashi_aichi.html",
+     "title": "かきまわし／とりめし 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kakimawashi",
+     "to_slug": "gunma-torimeshi",
+     "relation_type": "対比",
+     "basis": "同じ『とりめし』の系統に連なる混ぜごはんが群馬県にも伝わり、地域ごとに呼び名と仕立てが異なるとされる"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ],
+   "notes": "名は「かきまわし／とりめし」の併記のため、名称ルールに従い先頭のかきまわしをname_jaとし、とりめしはsummaryに記載。とりめしでのまちおこしが盛んな高浜市の座標を使用。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kiinai-okowa",
+   "name_ja": "黄いないおこわ",
+   "name_romaji": "Kiinai Okowa",
+   "name_en": "Kiinai okowa — sticky rice steamed golden with gardenia seed and black beans",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "名古屋市",
+   "lat": 35.1815,
+   "lng": 136.9066,
+   "summary_ja": "もち米をくちなしの実とともに浸してから黒豆と炊きこみ、黄色く染まったおこわに仕立てる。端午の節句に、高価な赤飯の代わりに身近なくちなしで色付けたのが始まりと伝わり、大分の「おうはん」と並ぶ料理とされる。",
+   "summary_en": "Sticky rice is soaked with gardenia seed and steamed with black beans into a golden-colored dish. Said to have begun as a stand-in for costly red rice at the Boys' Festival, dyed instead with easily found gardenia, it's said to stand alongside Oita's ouhan.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kiinaiokowa_aichi.html",
+     "title": "黄いないおこわ 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kiinai-okowa",
+     "to_slug": "okazaki-ouhan",
+     "relation_type": "兄弟",
+     "basis": "出典に『大分県や静岡県にも同様の料理があり、大分ではおうはんと呼ぶ』とある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aichi-funa-miso",
+   "name_ja": "ふな味噌",
+   "name_romaji": "Funa Miso",
+   "name_en": "Funa miso — crucian carp simmered for hours with soybeans in red miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "",
+   "lat": 35.1815,
+   "lng": 136.9066,
+   "summary_ja": "フナを大豆とともに弱火で5時間ほど煮こんでから、豆味噌と砂糖のたれで仕上げる。木曽三川下流域の川魚料理で、12月後半から1月にとれる寒ブナが脂がのって美味とされ、骨まで柔らかくなるまで煮こむとされる。",
+   "summary_en": "Crucian carp is simmered slowly with soybeans for around five hours, then finished in a sauce of red miso and coarse sugar. A freshwater fish dish of the Kiso rivers' lower basin, made with fatty winter carp simmered until the bones soften through.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/funamiso_aichi.html",
+     "title": "ふな味噌 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aichi-funa-miso",
+     "to_slug": "funa-miso",
+     "relation_type": "対比",
+     "basis": "ともに木曽三川流域に伝わるフナの味噌煮だが、岐阜県は西濃地域、愛知県は尾張地域を中心に伝わるとされる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域は尾張地域・木曽三川流域（広域）。県庁所在地の名古屋市の座標を使用。既にfuna-misoが岐阜県で使用済みのためaichi-を冠した。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aichi-miso-oden",
+   "name_ja": "味噌おでん",
+   "name_romaji": "Aichi Miso Oden",
+   "name_en": "Aichi miso oden — oden dipped from a pot of sweetened red miso at the table",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "",
+   "lat": 35.1815,
+   "lng": 136.9066,
+   "summary_ja": "土鍋の中央に味噌だれの壺を置き、大根や豆腐などをだしで煮てから壺の味噌につけて食べる。江戸で醤油だしの「関東煮」が広まる一方、愛知では豆味噌（八丁味噌）をつけて食べる方法が根づいたと伝わる。",
+   "summary_en": "A pot of sweet red miso sits in the center of the simmering pot, and daikon, tofu, and other ingredients simmered in dashi are dipped into it before eating. While soy-based Kanto-style oden spread in Edo, Aichi is said to have settled on dipping in soybean miso instead.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/misooden_aichi.html",
+     "title": "味噌おでん 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aichi-miso-oden",
+     "to_slug": "oden",
+     "relation_type": "対比",
+     "basis": "だしの色や食べ方に土地ごとの個性が出るとされるおでんの中で、豆味噌につけて食べる愛知独自の様式を持つ"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "台帳shelf=homestyleを、既存odenに合わせhotpotに変更。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aichi-hakozushi",
+   "name_ja": "箱ずし",
+   "name_romaji": "Aichi Hakozushi",
+   "name_en": "Aichi hakozushi — vinegared rice pressed in a box under diagonal rows of toppings",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "愛知県",
+   "origin_city": "名古屋市",
+   "lat": 35.1815,
+   "lng": 136.9066,
+   "summary_ja": "木枠に酢飯を詰め、エビやアナゴ、干ししいたけ、錦糸卵などを斜めに配置して押しかためる。皆が平等にさまざまな味を楽しめるよう具材を斜めに置くのが尾張・西三河地域の特徴とされ、祝い事でつくられてきたとされる。",
+   "summary_en": "Vinegared rice is packed into a wooden frame, topped with shrimp, eel, shiitake, and egg arranged diagonally, and pressed. Placing toppings on the diagonal so everyone gets a fair share of each is said to be a feature of the Owari and western Mikawa style, made for celebrations.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hakozushi_aichi.html",
+     "title": "箱ずし 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aichi-hakozushi",
+     "to_slug": "hako-zushi",
+     "relation_type": "対比",
+     "basis": "ともに木箱に酢飯を詰めて押す押し寿司の技法だが、大阪の箱寿司に対し、愛知は具材を斜めに配置する点が異なるとされる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aichi-moroko-zushi",
+   "name_ja": "もろこずし",
+   "name_romaji": "Moroko Zushi",
+   "name_en": "Moroko zushi — a small freshwater fish simmered sweet and pressed onto sushi rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "愛知県",
+   "origin_city": "名古屋市",
+   "lat": 35.1815,
+   "lng": 136.9066,
+   "summary_ja": "モロコという小さなコイ科の川魚を甘辛く煮て、木枠のすし飯の上に斜めに並べて押す。尾張地域の水郷地帯に伝わる箱ずしの一種とされ、漁獲量の減少で高級魚となったモロコの代わりにハヤを使うこともあるとされる。",
+   "summary_en": "Moroko, a small carp-family river fish, is simmered sweet and savory, then arranged diagonally over pressed sushi rice in a wooden frame. Said to be a form of hakozushi from the water towns of the Owari region, with dwindling moroko catches now sometimes substituted with hae.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/morokozushi_aichi.html",
+     "title": "もろこずし 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aichi-moroko-zushi",
+     "to_slug": "aichi-hakozushi",
+     "relation_type": "兄弟",
+     "basis": "出典に『モロコを使った箱ずしのもろこずし』とあり、尾張地域の箱ずしの一種と明記される"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "既存slug moroko-zushi（岐阜県）と同名のため、命名規則に従いaichi-を冠した。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oshimon",
+   "name_ja": "おしもん",
+   "name_romaji": "Oshimon",
+   "name_en": "Oshimon — rice flour dough pressed into floral molds and tinted for the Doll Festival",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "名古屋市",
+   "lat": 35.1815,
+   "lng": 136.9066,
+   "summary_ja": "米粉を熱湯で練って型に押し込み、取り出したものに色粉をつける。桃の節句にお雛様へ供える郷土菓子で、名古屋地域では「おしもん」、周辺地域では「おこしもん」と呼ばれ、西三河のいがまんじゅうとともに供えられるとされる。",
+   "summary_en": "Rice flour dough kneaded with hot water is pressed into molds, then tinted with coloring once unmolded. Offered to Hina dolls at the Doll Festival, it's called oshimon around Nagoya and okoshimon in surrounding areas, said to be set out alongside iga manju in western Mikawa.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/oshimon_aichi.html",
+     "title": "おしもん／おこしもん 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "oshimon",
+     "to_slug": "aichi-iga-manju",
+     "relation_type": "兄弟",
+     "basis": "出典に『西三河地域ではいがまんじゅうを供える』とあり、ともに桃の節句に供える愛知の郷土菓子として並記される"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "名は「おしもん/おこしもん」の併記のため、名称ルールに従い先頭のおしもんをname_jaとし、おこしもんはsummaryに記載。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "miso-dengaku",
+   "name_ja": "味噌田楽",
+   "name_romaji": "Miso Dengaku",
+   "name_en": "Miso dengaku — skewered tofu grilled and topped with sweet red miso",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "",
+   "lat": 35.1815,
+   "lng": 136.9066,
+   "summary_ja": "串に刺した豆腐を焼き、味噌だれをつけて食べる。田植えの太鼓に合わせて踊る「田楽舞い」の田楽法師の姿に似ることが名の由来とされ、三河地域の菜飯田楽、尾張地域の麩田楽など地域ごとに個性があるとされる。",
+   "summary_en": "Tofu is skewered, grilled, and topped with a miso glaze. Its name is said to come from the resemblance to dengaku hoshi, dancers who performed to drums at rice-planting time, with regional versions ranging from the Mikawa area's rice-and-tofu set to Owari's fried wheat gluten version.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/misodengaku_aichi.html",
+     "title": "味噌田楽 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "miso-dengaku",
+     "to_slug": "orido-nasu-dengaku",
+     "relation_type": "兄弟",
+     "basis": "ともに味噌をのせて焼く田楽料理という共通の技法を持つ"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域は県内全域。県庁所在地の名古屋市の座標を使用。台帳shelf=homestyleを、既存tofu-dengakuの棚に合わせgrilledに変更。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kashiwa-no-hikizuri",
+   "name_ja": "かしわのひきずり",
+   "name_romaji": "Kashiwa no Hikizuri",
+   "name_en": "Kashiwa no hikizuri — a chicken sukiyaki finished with a raw egg dip",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "",
+   "lat": 35.1815,
+   "lng": 136.9066,
+   "summary_ja": "とり肉と野菜を鍋で焼き、砂糖と醤油で味付けして溶き卵につけて食べる、とり肉のすき焼き。明治初期に名古屋コーチンが生まれるなど愛知は養鶏が盛んで、全国的にも珍しいとり肉のすき焼きとして伝わってきたとされる。",
+   "summary_en": "Chicken and vegetables are seared in a pot, seasoned with sugar and soy sauce, and dipped in raw egg — a chicken sukiyaki. Aichi's poultry farming has long thrived, giving rise to the Nagoya Cochin breed in the early Meiji era, and this dish is said to be an unusually rare chicken sukiyaki nationwide.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kashiwanohikizuri_aichi.html",
+     "title": "かしわのひきずり 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kashiwa-no-hikizuri",
+     "to_slug": "nagoya-cochin",
+     "relation_type": "使用食材",
+     "basis": "出典に『明治初期には名古屋コーチンが誕生』とあり、愛知の養鶏の系譜にあるとり肉料理として使用食材の関係を持つ"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "egg"
+   ],
+   "notes": "伝承地域は尾張・奥三河地域（広域）。県庁所在地の名古屋市の座標を使用。台帳shelf=homestyleを、鍋料理のためhotpotに変更。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aichi-zoni",
+   "name_ja": "雑煮",
+   "name_romaji": "Aichi Zoni",
+   "name_en": "Aichi zoni — a plain clear-broth New Year soup of mochi and greens, deliberately unseasoned with miso",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "愛知県",
+   "origin_city": "名古屋市",
+   "lat": 35.1815,
+   "lng": 136.9066,
+   "summary_ja": "角餅と尾張の伝統野菜、餅菜をすまし汁でいただく、非常にシンプルな正月の雑煮。日常的に豆味噌を使うからこそハレの場ではすまし汁を選ぶのではないかと推察されており、味噌を用いないのが愛知の特徴とされる。",
+   "summary_en": "Square mochi and mochina, a traditional Owari green, are served in a plain clear broth for New Year — a notably simple zoni. It's speculated that using miso so often in daily cooking is exactly why a clear broth is chosen for this festive occasion, deliberately leaving miso out.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/zoni_aichi.html",
+     "title": "雑煮 愛知県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aichi-zoni",
+     "to_slug": "hatcho-miso",
+     "relation_type": "対比",
+     "basis": "出典に『日常的に味噌を使うので、正月などのハレの場ではすまし汁を選ぶ』とあり、日常の豆味噌文化とあえて味噌を使わない雑煮の対比が示される"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "既にzoniが岩手県・宮城県・富山県で県名を冠して使用済みのため同じ命名規則に従いaichi-を冠した。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: kishimen_aichi（きしめん, existing_slug=kishimen, high, 既存）/ misonikomiudon_aichi（味噌煮込みうどん, existing_slug=miso-nikomi, high, 既存）/ aburagezushi_aichi（あぶらげずし/いなりずし, existing_slug=inari-zushi, medium）— 既存inari-zushiの由来が『天保年間に名古屋で生まれ』と明記され同一の寿司のため既存とし作らず。/ karimorinokasuzuke_aichi（かりもりの粕漬け, genre_hint=tsukemono）— 白瓜（野菜）の粕漬けであり、例外規定の対象（魚介の保存食）に当たらないため漬物ジャンルの既存投入済みとして作らず。要判断で作成した行: hakozushi_aichi（箱ずし, existing_slug=hako-zushi, medium）— 既存hako-zushiは大阪発祥の押し寿司、本項目は尾張・西三河独自の具材を斜めに配置する押し寿司のため別物と判断し作成。misooden_aichi（味噌おでん, existing_slug=oden, low）— 既存odenは地域差を一般論として記述する全国共通の項目、本項目は豆味噌の壺につけて食べる愛知独自の様式のため別物と判断し作成。igamanju_aichi（いがまんじゅう）— 台帳のexisting_slugは空欄だが、all-items-ja.txt突合で埼玉県のiga-manjuと同名と判明。ともに『いが』状のもち米を表面につける菓子だが、供える行事・地域が異なる並行伝承と判断し、命名規則（同名複数県→地名を冠する）に従いaichi-iga-manjuとして作成。同様にhebomeshi_aichi・goheimochi_aichi・funamiso_aichi・morokozushi_aichi・zoni_aichiは、台帳では未検出だったがスクリプト実行時のslug衝突チェックで岐阜県・宮城県等の既存項目（hebo-meshi/gohei-mochi系/funa-miso/moroko-zushi/zoni系）と同名と判明し、いずれも地域固有の並行伝承として県名を冠したslugで作成し対比関係を設定。棚を変えた行: misooden_aichi・kashiwanohikizuri_aichi はhomestyle→hotpot（おでん・すき焼き鍋のため）。misodengaku_aichi はhomestyle→grilled（既存tofu-dengakuの棚に合わせる）。座標の根拠: 伝承地域が単一市町村の行はその市役所付近、複数市町村・県内全域の行は県庁所在地（名古屋市）または文中で主産地・由来の中心として名指しされる市の座標を使用し notes に広域と明記（ジオコーディングAPI不使用、一般知識の概算）。要判断: 黄いないおこわ（愛知）は出典が大分県『おうはん』・静岡県『染飯』を同一系統の料理として名指ししており、両県の既存・新規項目との兄弟関係を設定した。かきまわし／おしもんのように「／」併記名は、先頭を主名としname_jaに採用し、別名はsummaryに記載した。"
+}

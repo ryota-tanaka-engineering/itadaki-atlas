@@ -1,0 +1,925 @@
+{
+ "items": [
+  {
+   "slug": "kuro-hanpen-fry",
+   "name_ja": "黒はんぺんフライ",
+   "name_romaji": "Kuro Hanpen Fry",
+   "name_en": "Kuro-hanpen fry — Shizuoka's grey fish cake, breaded and deep-fried",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "静岡県",
+   "origin_city": "焼津市",
+   "lat": 34.8669,
+   "lng": 138.3208,
+   "summary_ja": "鯖や鰺、鰯を骨や皮ごとすり身にした灰色の練り物、黒はんぺんに小麦粉と溶き卵、パン粉をまとわせて揚げる。白いはんぺんより魚の香りが濃く、衣の香ばしさが加わって、子どもから大人まで日常のおかずとして親しまれてきたとされる。",
+   "summary_en": "Grey fish cake made from mackerel, horse mackerel, and sardine ground bone and skin included, breaded and fried. Its flavor runs stronger than white fish cake, and the fried crust is said to have made it a household side dish across generations.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_1_shizuoka.html",
+     "title": "黒はんぺんフライ 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kuro-hanpen-fry",
+     "to_slug": "kuro-hanpen",
+     "relation_type": "使用食材",
+     "basis": "黒はんぺんを揚げてつくる惣菜であるため"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gawa",
+   "name_ja": "がわ",
+   "name_romaji": "Gawa",
+   "name_en": "Gawa — a chilled miso soup of raw bonito, cucumber, and pickled plum",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "御前崎市",
+   "lat": 34.6303,
+   "lng": 138.1315,
+   "summary_ja": "生のカツオをたたき、きゅうりや梅干し、青しそとともに味噌で溶いた冷たい汁。カツオ漁に出た漁師が船上で氷水に味噌を溶くとき「ガワガワ」と音がしたことが名の由来と伝わる、夏の漁師めしだったとされる。",
+   "summary_en": "Raw bonito is minced and mixed into a chilled miso broth with cucumber, pickled plum, and shiso. Its name is said to come from the \"gawa-gawa\" sound of stirring miso into ice water aboard a fishing boat — originally a summer meal made at sea.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_2_shizuoka.html",
+     "title": "がわ 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gawa",
+     "to_slug": "katsuo",
+     "relation_type": "使用食材",
+     "basis": "生のカツオを刻んで味噌汁に仕立てる料理のため"
+    }
+   ],
+   "tags": [
+    "miso",
+    "cold_served"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tororo-jiru",
+   "name_ja": "とろろ汁",
+   "name_romaji": "Tororo Jiru",
+   "name_en": "Tororo jiru — grated mountain yam soup poured over barley rice",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "静岡市",
+   "lat": 34.9756,
+   "lng": 138.3827,
+   "summary_ja": "すりおろした自然薯をだし汁と味噌でのばし、麦飯にかけて食べる。東海道の宿場町だった丸子（現・静岡市駿河区）の名物で、十返舎一九や松尾芭蕉の作にも登場するほど古くから旅人に親しまれてきたとされる。",
+   "summary_en": "Grated wild mountain yam is thinned with dashi and miso, then poured over barley rice. A specialty of the old Tokaido post town of Marico, in present-day Shizuoka, it's said to appear in Jippensha Ikku's travel novel and a Basho haiku, once favored by travelers on the road.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_4_shizuoka.html",
+     "title": "とろろ汁 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tororo-jiru",
+     "to_slug": "abekawa-mochi",
+     "relation_type": "兄弟",
+     "basis": "ともに東海道の宿場町の名物として『東海道中膝栗毛』に描かれたと伝わる点で共通する"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iruka-no-misoni",
+   "name_ja": "イルカの味噌煮",
+   "name_romaji": "Iruka no Misoni",
+   "name_en": "Iruka no misoni — dolphin meat simmered with burdock root in miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "伊東市",
+   "lat": 34.9762,
+   "lng": 139.1004,
+   "summary_ja": "伊豆で追い込み漁により水揚げされたイルカの肉を、ごぼうとともに炒めてから酒・醤油・砂糖・味噌で煮る。伊豆地方で縄文期から続くとされるイルカ漁の記憶を伝える、家庭の日常食だったとされる。",
+   "summary_en": "Dolphin meat landed by the traditional drive fishery of the Izu coast is stir-fried with burdock root, then simmered in sake, soy sauce, sugar, and miso. It's said to carry the memory of a hunt traced back to the Jomon period, once an everyday home dish in Izu.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_6_shizuoka.html",
+     "title": "イルカの味噌煮 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "iruka-no-misoni",
+     "to_slug": "mago-chazuke",
+     "relation_type": "兄弟",
+     "basis": "ともに伊豆地域に伝わる漁師めしを起源とする家庭料理とされる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "someii",
+   "name_ja": "染飯",
+   "name_romaji": "Someii",
+   "name_en": "Someii — steamed rice dyed yellow with gardenia seed, pressed thin and dried",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "藤枝市",
+   "lat": 34.8667,
+   "lng": 138.2585,
+   "summary_ja": "蒸したもち米をくちなしの実で黄色く染めてすりつぶし、小判形に薄くのばして干した携帯食。旧東海道瀬戸（現・藤枝市）の茶屋で戦国時代から売られ、足腰の疲れを取る食べ物として旅人に評判だったと伝わる。",
+   "summary_en": "Steamed sticky rice is dyed yellow with gardenia seed, mashed, and pressed thin into a portable travel food. Sold at teahouses along the old Tokaido in present-day Fujieda since the Warring States era, it's said to have earned a reputation for easing travelers' tired legs.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_7_shizuoka.html",
+     "title": "染飯 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "someii",
+     "to_slug": "kiinai-okowa",
+     "relation_type": "兄弟",
+     "basis": "愛知県の黄いないおこわの出典に『大分県や静岡県にも同様の料理があり、静岡ではそめいい（染飯）と呼ぶ』とある"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "saba-hako-zushi",
+   "name_ja": "鯖の箱寿司",
+   "name_romaji": "Saba no Hakozushi",
+   "name_en": "Saba no hakozushi — mackerel-topped pressed sushi from the Izu coast",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "静岡県",
+   "origin_city": "伊東市",
+   "lat": 34.9762,
+   "lng": 139.1004,
+   "summary_ja": "ほぐしたサバのそぼろやにんじん、しいたけの煮物を酢飯にのせ、木箱に詰めて押しかためる。日蓮上人を匿った漁師が井桁の重箱で食事を運んだ故事に由来すると伝わる、伊豆地域のハレの日の押し寿司とされる。",
+   "summary_en": "Flaked simmered mackerel, carrot, and shiitake are laid over vinegared rice packed into a wooden box and pressed. Local lore ties its origin to a fisherman who once carried meals in a lattice box to the exiled priest Nichiren — a festival-day pressed sushi of the Izu coast.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_8_shizuoka.html",
+     "title": "鯖の箱寿司 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "saba-hako-zushi",
+     "to_slug": "aichi-hakozushi",
+     "relation_type": "対比",
+     "basis": "ともに愛知・静岡の東海地方に伝わる押し寿司だが、地元産の魚を使う点や具材の並べ方が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は伊東市・伊豆地域（複数）。文中で先に名指しされる伊東市の座標を使用。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "bokumeshi",
+   "name_ja": "ぼくめし",
+   "name_romaji": "Bokumeshi",
+   "name_en": "Bokumeshi — mixed rice with simmered eel and burdock root",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "吉田町",
+   "lat": 34.7534,
+   "lng": 138.2635,
+   "summary_ja": "蒸したウナギとささがきごぼうを煮て、炊きたてのごはんに混ぜ込む。太すぎて売り物にならなかったウナギを養鰻場の「木杭（ぼっくい）」でまかない飯にしたのが名の由来と伝わる、大井川流域の混ぜごはん。",
+   "summary_en": "Steamed eel and shaved burdock are simmered together and folded into freshly cooked rice. Its name is said to trace to oversized eels unfit for sale, used in staff meals at eel farms along the Oi River — a mixed rice dish of the region.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_10_shizuoka.html",
+     "title": "ぼくめし 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "bokumeshi",
+     "to_slug": "unagi",
+     "relation_type": "使用食材",
+     "basis": "養殖ウナギを煮て混ぜ込む料理のため"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gennari-zushi",
+   "name_ja": "げんなり寿司",
+   "name_romaji": "Gennari Zushi",
+   "name_en": "Gennari zushi — a large pressed sushi topped with seasoned golden eye snapper",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "静岡県",
+   "origin_city": "東伊豆町",
+   "lat": 34.8747,
+   "lng": 139.1257,
+   "summary_ja": "甘く煮たにんじんを詰めた酢飯を型に押し、キンメダイの紅白のそぼろをのせる押し寿司。結婚式や七五三などの祝い事でつくられ、その大きさに食べるだけで「げんなり」してしまうことが名の由来と伝わる。",
+   "summary_en": "Vinegared rice packed with sweet-simmered carrot is pressed in a mold and topped with pink and white flaked golden eye snapper. Made for weddings and coming-of-age celebrations, its name is said to come from how filling — gennari, or wearying — just eating it could be.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_11_shizuoka.html",
+     "title": "げんなり寿司 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gennari-zushi",
+     "to_slug": "saba-hako-zushi",
+     "relation_type": "兄弟",
+     "basis": "ともに伊豆地域でハレの日につくられる押し寿司とされる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tokoroten",
+   "name_ja": "ところてん",
+   "name_romaji": "Tokoroten",
+   "name_en": "Tokoroten — chilled agar noodles cut from boiled Izu seaweed",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "",
+   "lat": 34.9757,
+   "lng": 138.9403,
+   "summary_ja": "天草を水と酢で煮て型に流し固め、突き器で細長く押し出す。天草の日本一の産地とされる伊豆半島では、家庭でつくるほか駄菓子屋でも売られ、子どものおやつとして根づいてきたとされる。",
+   "summary_en": "Agarweed is boiled with water and vinegar, set in a mold, then pushed through a press into long strands. In the Izu peninsula, said to be the country's leading agarweed source, it was made at home and sold at candy shops alike, settling in as a children's treat.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_12_shizuoka.html",
+     "title": "ところてん 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tokoroten",
+     "to_slug": "tamago-kanten",
+     "relation_type": "対比",
+     "basis": "ともに海藻を煮て固める寒天質の料理だが、卵を加える秋田のたまご寒天とは仕立てが異なる"
+    }
+   ],
+   "tags": [
+    "cold_served",
+    "street_food"
+   ],
+   "notes": "伝承地域は土肥（西伊豆）・稲取（東伊豆）の広域。伊豆半島中央部の座標を概算で使用し「広域」と付す。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oki-agari",
+   "name_ja": "沖あがり",
+   "name_romaji": "Okiagari",
+   "name_en": "Okiagari — raw sakura shrimp simmered with tofu and scallion, sukiyaki-style",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "静岡市清水区由比",
+   "lat": 34.9575,
+   "lng": 138.463,
+   "summary_ja": "生の桜エビを豆腐やねぎとともに、すき焼き風に醤油と砂糖で煮る。国内で桜エビが揚がるのは駿河湾だけとされ、漁を終えた由比の漁師が船を下りてから反省がてら食べた酒の肴が始まりと伝わる。",
+   "summary_en": "Raw sakura shrimp is simmered sukiyaki-style with tofu and scallion in soy sauce and sugar. Sakura shrimp are landed only in Suruga Bay, and the dish is said to have begun as something fishermen in Yui ate over drinks after coming ashore from the day's catch.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_13_shizuoka.html",
+     "title": "沖あがり 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "oki-agari",
+     "to_slug": "sakura-ebi",
+     "relation_type": "使用食材",
+     "basis": "生の桜エビを主材料として煮る料理のため"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ozaku",
+   "name_ja": "おざく",
+   "name_romaji": "Ozaku",
+   "name_en": "Ozaku — a simmered vegetable soup of taro, daikon, and carrot",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "三島市",
+   "lat": 35.1181,
+   "lng": 138.9182,
+   "summary_ja": "里芋や大根、にんじんなどをだし汁と醤油、砂糖でざくざくと切って煮る汁物。結婚式や葬式など人が集まるとき、近所がそれぞれの畑の野菜を持ち寄ってつくった料理と伝わる。",
+   "summary_en": "Taro, daikon, and carrot are roughly chopped and simmered in dashi with soy sauce and sugar. Said to have been made for weddings, funerals, and other gatherings, with neighbors each bringing vegetables from their own fields.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_14_shizuoka.html",
+     "title": "おざく 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ozaku",
+     "to_slug": "togan-jiru",
+     "relation_type": "対比",
+     "basis": "ともに根菜や夏冬の野菜をだしで煮る家庭の汁物だが、季節と主材料が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は三島市・函南町の2市町。文中で先に名指しされる三島市の座標を使用。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shizuoka-kinzanji-miso",
+   "name_ja": "金山寺味噌",
+   "name_romaji": "Shizuoka Kinzanji Miso",
+   "name_en": "Kinzanji miso — a chunky fermented paste studded with summer vegetables",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "",
+   "lat": 34.9756,
+   "lng": 138.3827,
+   "summary_ja": "米麹と豆麹で冬瓜やなす、生姜、しその実などの夏野菜を漬け込んで発酵させる、そのまま食べる「なめ味噌」。もとは寺で夏野菜を冬に食べるための保存食で、県内各地のほか和歌山や千葉でも食されると伝わる。",
+   "summary_en": "Rice and soy koji ferment summer vegetables — winter melon, eggplant, ginger, shiso seed — into a chunky paste eaten as-is rather than used to season. Originally a temple preserve for carrying summer vegetables into winter, it's said to be eaten across the prefecture and as far as Wakayama and Chiba.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_15_shizuoka.html",
+     "title": "金山寺味噌 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shizuoka-kinzanji-miso",
+     "to_slug": "kinzanji-miso",
+     "relation_type": "対比",
+     "basis": "出典に『静岡県以外にも千葉県などで食されている』とあり、千葉県の金山寺みそと並行して伝わる同名の発酵食とされる"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "miso"
+   ],
+   "notes": "伝承地域は県内各地（広域）。県庁所在地の静岡市の座標を使用。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shizuoka-oden",
+   "name_ja": "静岡おでん",
+   "name_romaji": "Shizuoka Oden",
+   "name_en": "Shizuoka oden — oden simmered in a broth blackened with dark fish cake and beef tendon",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "静岡市",
+   "lat": 34.9756,
+   "lng": 138.3827,
+   "summary_ja": "牛すじや黒はんぺん、練り物、大根、卵を串に刺し、色の黒いだし汁で煮込んで青のりとだし粉をかける。戦後、捨てられていた牛すじや豚モツを具にしたことで人気が高まったと伝わる、静岡市の郷土おでん。",
+   "summary_en": "Beef tendon, dark fish cake, fish cakes, daikon, and egg are skewered and simmered in a broth cooked nearly black, then dusted with green laver and dried fish powder. Popularity is said to have grown after the war, when once-discarded beef tendon and offal became a filling.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_16_shizuoka.html",
+     "title": "静岡おでん 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shizuoka-oden",
+     "to_slug": "oden",
+     "relation_type": "対比",
+     "basis": "だしの色や具材で土地ごとに個性が分かれるとされるおでんの中で、黒はんぺんを煮込む色の黒いだしを特徴とする"
+    }
+   ],
+   "tags": [
+    "skewered",
+    "street_food"
+   ],
+   "notes": "台帳のshelf=homestyleを、おでん・鍋物の既存項目（oden等）に合わせhotpotに変更。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kinme-no-nitsuke",
+   "name_ja": "金目の煮付け",
+   "name_romaji": "Kinme no Nitsuke",
+   "name_en": "Kinme no nitsuke — golden eye snapper simmered sweet with ginger",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "下田市",
+   "lat": 34.6752,
+   "lng": 138.9457,
+   "summary_ja": "金目鯛を醤油、酒、砂糖のたれで、皮付きの生姜とともに強火で煮詰める。水揚げ日本一とされる下田港をはじめ伊豆半島の各漁港で揚がる金目鯛を使う、脂ののった一皿とされる。",
+   "summary_en": "Golden eye snapper is simmered hard in a soy, sake, and sugar glaze with skin-on ginger. Made with fish landed at Izu peninsula ports including Shimoda, said to be the country's top golden eye snapper port, it's known for the fish's rich fat.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_17_shizuoka.html",
+     "title": "金目の煮付け 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kinme-no-nitsuke",
+     "to_slug": "kinmedai",
+     "relation_type": "使用食材",
+     "basis": "金目鯛を主材料として醤油だれで煮付ける料理のため"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は下田市・東伊豆町（稲取）。文中で水揚げ日本一と紹介される下田市の座標を使用。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "abekawa-mochi",
+   "name_ja": "安倍川もち",
+   "name_romaji": "Abekawa Mochi",
+   "name_en": "Abekawa mochi — fresh-pounded rice cake dusted in sweetened soybean flour",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "静岡市",
+   "lat": 34.9756,
+   "lng": 138.3827,
+   "summary_ja": "つきたての餅に砂糖入りのきな粉をまぶす。県内を流れる安倍川にちなむ名で、東海道を旅する人に安倍川の茶屋の名物として親しまれ、『東海道中膝栗毛』にも登場したと伝わる。",
+   "summary_en": "Fresh-pounded rice cake is dusted in soybean flour mixed with sugar. Named for the Abe River, it's said to have been famous among Tokaido travelers as a teahouse specialty and to appear in the travel novel Tokaidochu Hizakurige.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_18_shizuoka.html",
+     "title": "安倍川もち 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "abekawa-mochi",
+     "to_slug": "tororo-jiru",
+     "relation_type": "兄弟",
+     "basis": "ともに東海道の宿場町の名物として『東海道中膝栗毛』に描かれたと伝わる点で共通する"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kiriboshi-imo",
+   "name_ja": "切り干しいも",
+   "name_romaji": "Kiriboshi Imo",
+   "name_en": "Kiriboshi imo — sun-dried sweet potato slices",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "御前崎市",
+   "lat": 34.6303,
+   "lng": 138.1315,
+   "summary_ja": "蒸したさつまいもを薄切りにして天日干しする。遭難した薩摩の船を助けたことがサツマイモ伝来のきっかけと伝わり、遠州の空っ風と長い日照時間が乾燥に適したことで根づいたとされる。",
+   "summary_en": "Steamed sweet potato is sliced thin and dried in the sun. Local lore ties the potato's arrival to a rescued Satsuma ship, and the region's dry winter wind and long daylight hours are said to have suited it well to drying.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_19_shizuoka.html",
+     "title": "切り干しいも 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kiriboshi-imo",
+     "to_slug": "hoshiimo",
+     "relation_type": "対比",
+     "basis": "ともに蒸したさつまいもを乾燥させた保存食だが、切り方や産地の乾燥方法が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は御前崎市・島田市・焼津市（複数）。伝来の逸話の舞台である御前崎市の座標を使用。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "takenoko-no-arame-ni",
+   "name_ja": "筍のアラメ煮",
+   "name_romaji": "Takenoko no Arame Ni",
+   "name_en": "Takenoko no arame ni — bamboo shoot simmered with a coarse local kelp",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "静岡市",
+   "lat": 34.9756,
+   "lng": 138.3827,
+   "summary_ja": "タケノコと切り干し大根、アラメ（昆布の一種）をそれぞれ戻してから合わせて煮る。かつて中部地域の海岸に打ち上げられたアラメを拾って料理したのが始まりとされ、今も春を告げる一品とされる。",
+   "summary_en": "Bamboo shoot, dried daikon strips, and arame — a coarse local kelp — are each rehydrated, then simmered together. Said to have begun with kelp gathered after washing up on the central coast, it remains a dish that signals spring.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_20_shizuoka.html",
+     "title": "筍のアラメ煮 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "takenoko-no-arame-ni",
+     "to_slug": "arame-rakkasei-nitsuke",
+     "relation_type": "兄弟",
+     "basis": "ともにアラメ（昆布の一種）を使う点で共通する東海地方の煮物とされる"
+    }
+   ],
+   "tags": [
+    "kelp"
+   ],
+   "notes": "伝承地域は吉田町・牧之原市・焼津市など中部地域＋西部地域（広域）。中部地域の中心地として静岡市の座標を使用し「広域」と付す。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "rakkasei-namasu",
+   "name_ja": "落花生なます",
+   "name_romaji": "Rakkasei Namasu",
+   "name_en": "Rakkasei namasu — daikon and carrot namasu softened with ground roasted peanuts",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "富士宮市",
+   "lat": 35.2226,
+   "lng": 138.6203,
+   "summary_ja": "千切りにした大根と人参を、すりつぶした炒り落花生入りの合わせ酢で和える。落花生が特産の富士宮市や富士市周辺では、酢の酸味を落花生のこくが和らげる紅白なますとして正月に定着してきたとされる。",
+   "summary_en": "Julienned daikon and carrot are dressed in vinegar mixed with ground roasted peanuts. Around Fujinomiya and Fuji, where peanuts are a local crop, the nut's richness is said to soften the vinegar's sharpness in this red-and-white New Year namasu.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_21_shizuoka.html",
+     "title": "落花生なます 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "rakkasei-namasu",
+     "to_slug": "yude-rakkasei",
+     "relation_type": "対比",
+     "basis": "ともに落花生を使う静岡・神奈川の家庭料理だが、すりつぶして和え衣にする点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は東部地域（富士宮市、富士市）。文中で先に名指しされる富士宮市の座標を使用。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "orido-nasu-dengaku",
+   "name_ja": "折戸なすの田楽",
+   "name_romaji": "Orido Nasu Dengaku",
+   "name_en": "Orido nasu dengaku — a native eggplant variety grilled and topped with sweet miso",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "静岡市清水区三保",
+   "lat": 34.9756,
+   "lng": 138.3827,
+   "summary_ja": "静岡市三保の在来種、折戸なすを両面焼き、赤みそに酒・砂糖・みりんを練り合わせたたれをのせる。徳川家康が好んだ「一富士、二鷹、三茄子」の茄子と伝わり、濃厚な味わいが味噌料理と相性が良いとされる。",
+   "summary_en": "Orido nasu, a native eggplant grown in Miho, Shizuoka, is grilled on both sides and topped with red miso simmered with sake, sugar, and mirin. Said to be the eggplant of the \"first Fuji, second hawk, third eggplant\" New Year's luck saying, its richness is said to suit miso well.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_22_shizuoka.html",
+     "title": "折戸なすの田楽 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "orido-nasu-dengaku",
+     "to_slug": "miso-dengaku",
+     "relation_type": "兄弟",
+     "basis": "ともに味噌をのせて焼く田楽料理という共通の技法を持つ"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域は静岡市（三保）。市街地とは別地区のため座標は静岡市代表点を使用。台帳shelf=homestyleを、田楽料理の既存項目（tofu-dengaku）に合わせgrilledに変更。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mago-chazuke",
+   "name_ja": "まご茶漬け",
+   "name_romaji": "Mago Chazuke",
+   "name_en": "Mago chazuke — pounded raw horse mackerel over rice, doused in hot tea",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "伊東市",
+   "lat": 34.9762,
+   "lng": 139.1004,
+   "summary_ja": "たたいた新鮮なアジをごはんにのせ、熱いお茶や湯をそそいで醤油とわさびで食べる。漁の合間に「まごまごしないで早く食え」の意から名がついたと伝わる、伊豆半島全域の漁師めしとされる。",
+   "summary_en": "Pounded fresh horse mackerel is piled on rice and doused with hot tea or water, seasoned with soy sauce and wasabi. Its name is said to come from a call to eat quickly between hauls — a fisherman's meal found across the Izu peninsula.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_24_shizuoka.html",
+     "title": "まご茶漬け 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mago-chazuke",
+     "to_slug": "gawa",
+     "relation_type": "兄弟",
+     "basis": "ともに駿河・伊豆の漁師が漁の合間に船上で仕立てた即席の料理と伝わる"
+    }
+   ],
+   "tags": [],
+   "notes": "台帳genre_hint=tsukemonoだが、野菜の漬物ではなく魚をたたいて茶漬けにする料理のため『漬物ジャンルでない保存食』の例外規定を適用し作成。genreはnull。伝承地域は伊東市・伊豆地域（複数）。文中で先に名指しされる伊東市の座標を使用。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "namaribushi-tamanegi-salad",
+   "name_ja": "なまり節と白玉葱のサラダ",
+   "name_romaji": "Namaribushi to Shiro Tamanegi no Salad",
+   "name_en": "Namaribushi to shiro tamanegi no salad — smoked half-dried bonito tossed with sweet white onion",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "焼津市",
+   "lat": 34.8669,
+   "lng": 138.3208,
+   "summary_ja": "湯通ししてほぐしたなまり節（かつお節の一歩手前）を、愛知から伝わり品種改良を重ねた白たまねぎと合わせ、ドレッシングで和える。焼津港で水揚げされたカツオを釜ゆで、燻して仕立てる加工品を使う一皿とされる。",
+   "summary_en": "Namaribushi — half-cured bonito, a step before katsuobushi — is blanched and flaked, then tossed with a sweet white onion bred from a variety brought from Aichi. Made from bonito landed at Yaizu port, boiled and smoked into the cured form.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_25_shizuoka.html",
+     "title": "なまり節と白玉葱のサラダ 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "namaribushi-tamanegi-salad",
+     "to_slug": "katsuo",
+     "relation_type": "使用食材",
+     "basis": "カツオを釜ゆで・燻製にしたなまり節を主材料とする料理のため"
+    }
+   ],
+   "tags": [
+    "smoked"
+   ],
+   "notes": "台帳shelf=homestyleを、加熱調理を伴わない和え物のためrawに変更。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tamago-fuwafuwa",
+   "name_ja": "たまごふわふわ",
+   "name_romaji": "Tamago Fuwafuwa",
+   "name_en": "Tamago fuwafuwa — a whipped egg poured into clear broth until airy",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "袋井市",
+   "lat": 34.7508,
+   "lng": 137.9202,
+   "summary_ja": "卵とだし汁だけでつくる、ふわりと泡立てた食感のすまし汁。江戸時代の紀行文「仙台下向日記」に、袋井宿の本陣で宿泊客の朝食に出されたという記述が残ると伝わり、観光協会が再現・復活させたとされる。",
+   "summary_en": "Made from nothing but egg and dashi, this clear soup is whipped into a soft, foamy texture. A travel diary from the Edo period is said to record it being served for breakfast at the Fukuroi post town's main inn, later revived by the local tourism association.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_26_shizuoka.html",
+     "title": "たまごふわふわ 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tamago-fuwafuwa",
+     "to_slug": "abekawa-mochi",
+     "relation_type": "兄弟",
+     "basis": "ともに東海道の宿場町の名物として紀行文に記録が残ると伝わる料理とされる"
+    }
+   ],
+   "tags": [
+    "egg"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "heso-mochi",
+   "name_ja": "へそもち",
+   "name_romaji": "Heso Mochi",
+   "name_en": "Heso mochi — a dimpled rice dumpling set out for the harvest moon",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "静岡県",
+   "origin_city": "静岡市",
+   "lat": 34.9756,
+   "lng": 138.3827,
+   "summary_ja": "上新粉の団子を平たく丸め、中央をへこませて蒸す月見団子。富士川以西の中・西部地域特有で、十五夜や十三夜にその年の新米でつくり、新藁の束にのせて供える風習が伝わる。",
+   "summary_en": "Rice flour dumplings are shaped flat with a dimple pressed into the center, then steamed. Specific to the central and western region west of the Fuji River, they're said to be made from that year's new rice for the mid-autumn and later moon-viewing nights.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_27_shizuoka.html",
+     "title": "へそもち 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "heso-mochi",
+     "to_slug": "abekawa-mochi",
+     "relation_type": "対比",
+     "basis": "ともに上新粉や餅を使う静岡の伝統菓子だが、月見の供え物と日常のおやつという食習の機会が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は中・西部地域（おもに富士川以西）の広域。中心地として静岡市の座標を使用し「広域」と付す。",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sakura-ebi-kakiage",
+   "name_ja": "サクラエビのかき揚げ",
+   "name_romaji": "Sakura Ebi no Kakiage",
+   "name_en": "Sakura ebi no kakiage — a fritter of raw sakura shrimp from Suruga Bay",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "静岡県",
+   "origin_city": "静岡市",
+   "lat": 34.9756,
+   "lng": 138.3827,
+   "summary_ja": "生の桜エビを小麦粉と水で溶いた衣にまとめ、油で揚げる。国内で桜エビが揚がるのは駿河湾のみとされ、由比港などの漁港周辺に限らず県内全域の家庭や飲食店でよくつくられる一皿とされる。",
+   "summary_en": "Raw sakura shrimp is bound in a batter of flour and water, then deep-fried. Sakura shrimp are landed only in Suruga Bay, and the fritter is said to be made widely across the prefecture's homes and restaurants, not just near the fishing ports.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_28_shizuoka.html",
+     "title": "サクラエビのかき揚げ 静岡県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sakura-ebi-kakiage",
+     "to_slug": "sakura-ebi",
+     "relation_type": "使用食材",
+     "basis": "生の桜エビを主材料とする揚げ物のため"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: 36_3_shizuoka（山葵漬け, existing_slug=空欄だが台帳のexisting_slug列は未検出。all-items-ja.txt突合でwasabi-zuke（静岡県）と同一と判明、既存のため作らず）/ 36_5_shizuoka（水かけ菜の漬物, genre_hint=tsukemonoのため作らず）/ 36_9_shizuoka（御厨そば, existing_slug=mikuriya-soba, high, 既存）/ 36_23_shizuoka（生しらす丼, existing_slug=shirasu-don, low判定だが、既存shirasu-donのsources自体が36_23_shizuokaの詳細ページを既に引用しており同一項目と確認、作らず）。要判断で作成した行: 36_8_shizuoka（鯖の箱寿司, existing_slug=hako-zushi, low）— 既存は大阪発祥の押し寿司、本項目は伊豆地域独自の鯖を使うハレの寿司のため別物と判断し作成、hako-zushiの愛知版（aichi-hakozushi）と対比関係を設定。36_16_shizuoka（静岡おでん, existing_slug=oden, low）— 既存oden項目は具材・だしの地域差を一般論として記述する全国共通の項目、本項目は黒はんぺんと牛すじを黒いだしで煮込む静岡市固有の様式のため別物と判断し作成。36_28_shizuoka（サクラエビのかき揚げ, existing_slug=kakiage, low）— 既存は汎用のかき揚げ、本項目は駿河湾特産の生サクラエビを使う点で富山県の白えびのかき揚げと同様の判断により別物とし作成。36_24_shizuoka（まご茶漬け）— genre_hint=tsukemonoだが、野菜の漬物ではなくアジをたたいて茶漬けにする料理のため『漬物ジャンルでない保存食』の例外規定を適用し作成（shelf=fermented, genre=null）。棚を変えた行: 36_16_shizuoka（静岡おでん）はhomestyle→hotpot（既存odenに合わせる）。36_22_shizuoka（折戸なすの田楽）はhomestyle→grilled（既存tofu-dengakuの棚に合わせる）。36_25_shizuoka（なまり節と白玉葱のサラダ）はhomestyle→raw（加熱調理を伴わない和え物のため）。座標の根拠: 伝承地域が単一市町村の行はその市役所付近、複数市町村・広域の行は文中で先に名指しされる、または最も由来の中心とされる市の座標を使用し notes に広域と明記（ジオコーディングAPI不使用、一般知識の概算）。要判断: 静岡おでん・鯖の箱寿司・サクラエビのかき揚げの3件は既存の全国的・他県的な項目（oden／hako-zushi／kakiage）と地理的に近い派生関係にあるため、対比関係で明示し重複を避けた。"
+}
