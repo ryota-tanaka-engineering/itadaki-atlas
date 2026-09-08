@@ -1,0 +1,1100 @@
+{
+ "items": [
+  {
+   "slug": "hotaruika-no-sumisoae",
+   "name_ja": "ほたるいかの酢味噌和え",
+   "name_romaji": "Hotaruika no Sumisoae",
+   "name_en": "Hotaru ika no sumisoae — firefly squid with vinegar-miso and mustard",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "滑川市",
+   "lat": 36.7628,
+   "lng": 137.3453,
+   "summary_ja": "ゆでて目を取ったホタルイカに、ワケギを添えて辛子酢味噌をかける。3月に富山湾沿岸へ産卵のため群れで浮かび上がるホタルイカを使う春の一皿で、江戸期にはすでに漁が行われていたとされる。",
+   "summary_en": "Boiled firefly squid, its eyes removed, is paired with scallion and dressed in a mustard-vinegar-miso sauce — a spring dish built on squid said to have been fished from Toyama Bay's shores since the Edo period, rising in shimmering shoals each March to spawn.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_1_toyama.html",
+     "title": "ほたるいかの酢味噌和え 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hotaruika-no-sumisoae",
+     "to_slug": "shiroebi-no-kakiage",
+     "relation_type": "対比",
+     "basis": "ともに富山湾を代表する小型甲殻・軟体類を使う季節料理とされる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tarajiru",
+   "name_ja": "たら汁",
+   "name_romaji": "Tarajiru",
+   "name_en": "Tarajiru — whole cod miso soup from Asahi",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "朝日町",
+   "lat": 36.9333,
+   "lng": 137.5261,
+   "summary_ja": "スケソウダラを頭や肝、白子ごとぶつ切りにして味噌で煮込む。漁に出た男たちを迎えようと漁師の女房たちが浜で大鍋を沸かしたのが始まりとされ、国道沿いは「たら汁街道」とも呼ばれる。",
+   "summary_en": "Walleye pollock, cut whole with head, liver, and roe intact, is simmered in miso — said to have started when fishermen's wives lit a big pot on the beach to welcome the boats home, giving the coastal road here the nickname \"cod-soup highway.\"",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_2_toyama.html",
+     "title": "たら汁 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tarajiru",
+     "to_slug": "genge-no-misoshiru",
+     "relation_type": "対比",
+     "basis": "ともに富山の漁師町に伝わる魚の味噌汁とされる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "su-zuki",
+   "name_ja": "酢ずき",
+   "name_romaji": "Suzuki",
+   "name_en": "Suzuki — pickled taro stem in sweet vinegar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "里芋の葉柄「ずいき」を短く切ってあくを抜き、甘酢に漬け込む。酢に漬けると赤色が鮮やかに発色するとされ、シャキシャキとした歯ごたえから産後の女性が食べる食材としても知られてきた。",
+   "summary_en": "Taro stems, known as zuiki, are cut short, had their bitterness drawn out, and pickled in sweet vinegar — the vinegar is said to brighten their red color, and the crunchy stems have long been eaten by women recovering after childbirth.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_3_toyama.html",
+     "title": "酢ずき 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "su-zuki",
+     "to_slug": "osuwai",
+     "relation_type": "兄弟",
+     "basis": "ともに富山で常備菜として作られる酢を効かせた野菜の和え物とされる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は県内全域（広域）。座標は県庁所在地の富山市。slugは魚のスズキとの混同を避けるためsu-zukiとハイフンで区切った。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "toyama-buridaikon",
+   "name_ja": "ぶり大根",
+   "name_romaji": "Buri Daikon",
+   "name_en": "Buri daikon — yellowtail simmered with daikon, Toyama style",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "氷見市",
+   "lat": 36.8578,
+   "lng": 136.9861,
+   "summary_ja": "ブリのあらを大根とじっくり煮込む、富山湾の寒ブリ料理の代表格。氷見で水揚げされるブリは「ひみ寒ブリ」としてブランド化され、嫁ぎ先へ一本のブリを贈る「嫁ブリ」の風習とも結びつく。",
+   "summary_en": "Yellowtail trimmings are slow-simmered with daikon, the signature dish built on Toyama Bay's winter yellowtail — fish landed at Himi are branded \"Himi kan-buri,\" and the custom of gifting a whole yellowtail to a newly married daughter ties the dish to marriage.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_4_toyama.html",
+     "title": "ぶり大根 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "toyama-buridaikon",
+     "to_slug": "ishikawa-buridaikon",
+     "relation_type": "対比",
+     "basis": "両県とも『ぶり起こし』の雷とともに寒ブリ漁が最盛期を迎えるとされ、隣県で並行して作られてきたと伝わる"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "itokoni",
+   "name_ja": "いとこ煮",
+   "name_romaji": "Itokoni",
+   "name_en": "Itokoni — azuki beans simmered with root vegetables",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "親鸞聖人の好物とされる小豆を、ごぼうや大根、里芋などの根菜とともに煮る。報恩講で作られる一品とされ、県東部では「にざい」と呼ばれ具材を大きめに切るなど地域差がある。",
+   "summary_en": "Azuki beans, said to have been a favorite of the Jodo Shinshu founder, are simmered with burdock, daikon, and taro — made for the memorial gathering known as houonko, called \"nizai\" in the east of the prefecture, where the vegetables are cut larger.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_6_toyama.html",
+     "title": "いとこ煮／にざい 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "itokoni",
+     "to_slug": "itokojiru",
+     "relation_type": "兄弟",
+     "basis": "ともに真宗王国とされる北陸で報恩講に作られる小豆の煮物・汁物とされる"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "別名「にざい」はsummaryに記載。伝承地域は県内全域（広域）。座標は県庁所在地の富山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tororo-konbu-onigiri",
+   "name_ja": "とろろ昆布のおにぎり",
+   "name_romaji": "Tororo Konbu Onigiri",
+   "name_en": "Tororo konbu onigiri — rice balls wrapped in shredded kelp",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "握ったおにぎりを白と黒のとろろ昆布に転がして全体にまとわせる。富山は昆布をほとんど産しないが消費量は屈指とされ、北前船と北海道移住者の縁で根づいたと伝わる。時間が経っても柔らかいのが利点。",
+   "summary_en": "Rice balls are rolled in white and black shredded kelp until fully coated — Toyama produces almost no kelp itself yet is said to consume more than most, a habit traced to Kitamae-bune trade and to migrants who settled in Hokkaido. Unlike nori, it stays soft over time.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_7_toyama.html",
+     "title": "とろろ昆布のおにぎり 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tororo-konbu-onigiri",
+     "to_slug": "tororo-konbu",
+     "relation_type": "使用食材",
+     "basis": "既存アイテム「とろろ昆布」を使う"
+    }
+   ],
+   "tags": [
+    "kelp",
+    "handheld"
+   ],
+   "notes": "existing_slug=tororo-konbu（とろろ昆布、地域無し）はmatch_confidence=low。既存項目は昆布そのものの加工品、本項目はそれを使ったおにぎりという料理のため別物と判断し作成。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "osezushi",
+   "name_ja": "おせずし",
+   "name_romaji": "Osezushi",
+   "name_en": "Osezushi — pressed mackerel sushi from the Niikawa coast",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "富山県",
+   "origin_city": "魚津市",
+   "lat": 36.8228,
+   "lng": 137.4092,
+   "summary_ja": "焼いてほぐしたサバを甘酢で和え、酢飯と海苔とともに木枠で一晩押し固める。「押しずし」が訛った名とされ、魚津・黒部など新川地区の祭りや仏事のもてなし料理として作られてきた。",
+   "summary_en": "Grilled, flaked mackerel dressed in sweet vinegar is layered with sushi rice and nori and pressed overnight in a wooden mold — its name said to be a contraction of \"oshizushi,\" made for festivals and memorial gatherings along the Niikawa coast around Uozu and Kurobe.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_8_toyama.html",
+     "title": "おせずし 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "osezushi",
+     "to_slug": "kaga-oshizushi",
+     "relation_type": "対比",
+     "basis": "ともに石川・富山の海沿いに伝わる押し寿司の系統とされる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は魚津市、黒部市、入善町、朝日町の新川地区（複数市町）のため代表地として魚津市の座標を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shiroebi-no-kakiage",
+   "name_ja": "白えびのかき揚げ",
+   "name_romaji": "Shiroebi no Kakiage",
+   "name_en": "Shiroebi no kakiage — fritter of Toyama Bay's white shrimp",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "富山県",
+   "origin_city": "",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "富山湾でのみまとまった漁獲があるとされるシロエビを、タマネギやニンジンと衣で揚げる。火を通しても赤くならず、揚げたてはサクサクとした食感と上品な甘さが楽しめる名物のかき揚げ。",
+   "summary_en": "Glassy pink shrimp said to be commercially fished only in Toyama Bay are battered with onion and carrot and deep fried — unlike most shrimp, they keep their color when cooked, and the fritter is prized for a crisp bite and delicate sweetness.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_9_toyama.html",
+     "title": "白えびのかき揚げ 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shiroebi-no-kakiage",
+     "to_slug": "surimi-age",
+     "relation_type": "対比",
+     "basis": "ともに富山湾の魚介を使った揚げ物料理とされる"
+    }
+   ],
+   "tags": [],
+   "notes": "existing_slug=kakiage（かき揚げ、地域無し）はmatch_confidence=low。既存項目は汎用のかき揚げ、本項目は富山湾特産のシロエビを使う点で別物と判断し作成。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "toyama-konbumaki",
+   "name_ja": "昆布巻き",
+   "name_romaji": "Konbumaki",
+   "name_en": "Konbumaki — herring rolled in kelp, Toyama style",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "北前船が運んだ昆布とニシンを組み合わせ、甘く煮付ける正月のごちそう。厚みのある昆布はとろりと柔らかく、ニシン以外にイワシやホタルイカ、ブリなど旬の素材を巻くこともあるとされる。",
+   "summary_en": "Kelp and herring, both said to have arrived on Kitamae-bune trading ships, are rolled together and simmered sweet for New Year — the thick kelp turns silky soft, and sardine, firefly squid, or yellowtail sometimes stand in for the herring.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_10_toyama.html",
+     "title": "昆布巻き 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "toyama-konbumaki",
+     "to_slug": "nishin-no-konbumaki",
+     "relation_type": "兄弟",
+     "basis": "石川県の『にしんの昆布まき』と同じ北前船由来の昆布巻き料理とされる"
+    }
+   ],
+   "tags": [
+    "kelp",
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域は県内全域（広域）。座標は県庁所在地の富山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kuromame-okowa",
+   "name_ja": "黒豆おこわ",
+   "name_romaji": "Kuromame Okowa",
+   "name_en": "Kuromame okowa — sticky rice steamed with black soybeans",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "魚津市",
+   "lat": 36.8228,
+   "lng": 137.4092,
+   "summary_ja": "黒豆ともち米を蒸したおこわで、県東部では「みたま」とも呼ばれる。赤飯が火事を連想させるとして、葬式や法事など弔事の際に供えられ、仏前や引き出物として振る舞われてきたとされる。",
+   "summary_en": "Sticky rice steamed with black soybeans, also called \"mitama\" in the east of the prefecture — chosen over red-bean rice, said to evoke fire, for funerals and memorial services, offered at the altar or handed out as a parting gift.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_11_toyama.html",
+     "title": "黒豆おこわ／みたま 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kuromame-okowa",
+     "to_slug": "mitama",
+     "relation_type": "兄弟",
+     "basis": "石川県の『みたま』と同じ黒豆もち米おこわの系統とされる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "別名「みたま」はsummaryに記載。伝承地域は県東部（広域、黒部市宇奈月地区の『きびおこわ』も本文に言及）のため代表地として魚津市の座標を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "toyama-kobujime",
+   "name_ja": "昆布〆",
+   "name_romaji": "Kobujime",
+   "name_en": "Kobujime — raw fish cured between sheets of kelp, Toyama style",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "刺身にした魚を昆布で挟んで一晩寝かせる。冷蔵庫のない時代に水分を吸わせて保存性を高めた手法とされ、県民が「サス」と呼ぶカジキマグロのほか、タイやシロエビ、ホタルイカも使われる。",
+   "summary_en": "Sliced raw fish is sandwiched between sheets of kelp and left overnight — said to have begun as a way to draw out moisture and extend keeping time before refrigeration, most often with the marlin locally called \"sasu,\" but also sea bream, white shrimp, or firefly squid.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_12_toyama.html",
+     "title": "昆布〆 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "toyama-kobujime",
+     "to_slug": "sawara-no-kobujime",
+     "relation_type": "兄弟",
+     "basis": "出典に、石川県の『さわらの昆布じめ』と同様の伝統食が富山にも根づいており『サス』と呼ばれる、と示唆されている"
+    }
+   ],
+   "tags": [
+    "kelp_cured"
+   ],
+   "notes": "伝承地域は県内全域（広域）。座標は県庁所在地の富山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kurozukuri",
+   "name_ja": "黒づくり",
+   "name_romaji": "Kurozukuri",
+   "name_en": "Kurozukuri — squid fermented in its own ink",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "氷見市",
+   "lat": 36.8578,
+   "lng": 136.9861,
+   "summary_ja": "スルメイカの身とキモをイカスミで和え、冷蔵庫で熟成させる塩辛。加賀藩主が将軍家に献上したという記録が残るとされ、一般的な赤づくりより生臭さが少なくまろやかな塩味という。",
+   "summary_en": "Squid meat and liver are mixed with the squid's own ink and left to cure in the refrigerator — said to have once been presented to the shogunate by the Kaga domain's lord, and, compared with ordinary salted squid, milder in both fishiness and salt.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_13_toyama.html",
+     "title": "黒づくり 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kurozukuri",
+     "to_slug": "toyama-kobujime",
+     "relation_type": "対比",
+     "basis": "ともに富山湾の魚介を発酵・熟成させて保存性を高めた料理とされる"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "offal"
+   ],
+   "notes": "台帳のshelfはhomestyleだったが、イカスミで塩辛状に発酵・熟成させる保存食のためfermentedに変更。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yogoshi",
+   "name_ja": "よごし",
+   "name_romaji": "Yogoshi",
+   "name_en": "Yogoshi — greens and vegetables chopped and simmered with miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "砺波市",
+   "lat": 36.6503,
+   "lng": 136.9622,
+   "summary_ja": "ゆでた大根葉や里芋の葉などを細かく刻み、ごま油で炒めて味噌で味を調える。夜に仕込んで翌朝食べる「夜越し」が名の由来とされ、報恩講では畑のキャビアと呼ばれるほうきんの実を使う。",
+   "summary_en": "Boiled greens such as daikon leaves or taro leaves are chopped fine, pan-fried in sesame oil, and seasoned with miso — its name said to come from being made the night before and eaten the next morning, with houonko versions using the tiny, caviar-like seeds of broom grass.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_14_toyama.html",
+     "title": "よごし／ごま味噌和え 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yogoshi",
+     "to_slug": "hoonko-ryori",
+     "relation_type": "兄弟",
+     "basis": "出典に、ほうきんの実を使う『よごし』は親鸞聖人の命日の報恩講料理として決まって出てくる一品と明記されている"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "別名「ごま味噌和え」はsummaryに記載。伝承地域は砺波市などの西部地域のため砺波市の座標を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "osuwai",
+   "name_ja": "おすわい",
+   "name_romaji": "Osuwai",
+   "name_en": "Osuwai — daikon and carrot dressed in sweet vinegar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "千切りにした大根と人参を、油揚げとともに甘酢で和える。「お酢和え」が訛った名とされ、なますに近い一品。正月の重箱には紅白の彩りとして欠かせず、常備菜として作られる日常食でもある。",
+   "summary_en": "Julienned daikon and carrot are dressed in sweet vinegar with fried tofu — its name said to be a contraction of \"su-ae,\" or vinegar dressing, close in spirit to namasu. Its red and white colors make it a fixture of New Year's boxed meals, and it doubles as an everyday side.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_15_toyama.html",
+     "title": "おすわい／すばい 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "osuwai",
+     "to_slug": "su-zuki",
+     "relation_type": "兄弟",
+     "basis": "ともに富山で常備菜として作られる酢を効かせた野菜の和え物とされる"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "別名「すばい」はsummaryの言い回しに反映。伝承地域は県内全域（広域）。座標は県庁所在地の富山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "bai-no-nimono",
+   "name_ja": "ばいの煮もの",
+   "name_romaji": "Bai no Nimono",
+   "name_en": "Bai no nimono — whole whelk simmered in the shell",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "富山湾の深海にすむ巻貝バイを、殻ごと出汁で煮る。「めでたいことが倍になる」という語呂から祝いの席に登場するとされ、小ぶりなツバイは煮物、大ぶりなものは刺身で食べ分けられる。",
+   "summary_en": "Whelks from the deep waters of Toyama Bay are simmered whole in their shells — said to appear at celebrations thanks to a play on words suggesting doubled good fortune, with smaller whelks simmered and larger ones eaten raw.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_16_toyama.html",
+     "title": "ばいの煮もの 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "bai-no-nimono",
+     "to_slug": "sazaemeshi",
+     "relation_type": "対比",
+     "basis": "ともに漁港の祭りとともに食される石川・富山の貝料理とされる"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域は県内全域（広域、新湊・滑川・魚津・黒部・朝日で漁獲）。座標は県庁所在地の富山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yakitsuke",
+   "name_ja": "焼き付け",
+   "name_romaji": "Yakitsuke",
+   "name_en": "Yakitsuke — mugwort mochi dough griddled and finished with miso",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "もち粉によもぎを練り込み、大きな鉄鍋で薄く広げて焼き味噌ダレを塗る。昭和初期の食糧難の頃、出荷できないくず米の粉を使ったとされる素朴な農村食で、腹持ちがよく野良仕事の合間に食べられた。",
+   "summary_en": "Mochi flour kneaded with mugwort is spread thin on a large iron griddle and finished with a sweet miso glaze — said to have used unmarketable broken rice flour during the food shortages of the early Showa era, a filling snack eaten between stretches of farm work.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_17_toyama.html",
+     "title": "焼き付け 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yakitsuke",
+     "to_slug": "mikka-no-dangojiru",
+     "relation_type": "対比",
+     "basis": "ともに米粉やもち粉を使う富山の素朴な餅料理とされる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "burishabu",
+   "name_ja": "ぶりしゃぶ",
+   "name_romaji": "Burishabu",
+   "name_en": "Burishabu — yellowtail shabu-shabu",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "氷見市",
+   "lat": 36.8578,
+   "lng": 136.9861,
+   "summary_ja": "薄くそぎ切りにしたブリを昆布だしにさっとくぐらせて食べる。表面だけ火が入り中はレアな状態になるとされ、氷見漁港で揚がる「ひみ寒ぶり」を使ったものは特に贅沢な冬のご馳走とされる。",
+   "summary_en": "Thin slices of yellowtail are swished briefly through kelp broth, said to cook only the surface while leaving the center rare — versions using Himi's branded winter yellowtail are considered a particularly luxurious cold-weather treat.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_18_toyama.html",
+     "title": "ぶりしゃぶ 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "burishabu",
+     "to_slug": "toyama-buridaikon",
+     "relation_type": "兄弟",
+     "basis": "ともに氷見漁港のひみ寒ぶりを使う富山湾の代表的なブリ料理とされる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は県内全域だが、本文が氷見漁港の『ひみ寒ぶり』を名指ししているため氷見市の座標を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ika-to-satoimo-no-nimono",
+   "name_ja": "いかと里いもの煮もの",
+   "name_romaji": "Ika to Satoimo no Nimono",
+   "name_en": "Ika to satoimo no nimono — squid and taro simmered together",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "輪切りにしたスルメイカと皮をむいた里芋を、煮汁が少なくなるまでじっくり煮込む。富山では一年を通してイカが揚がるとされ、秋冬に収穫される里芋と合わせた冬の定番おかずとして親しまれている。",
+   "summary_en": "Rings of squid and peeled taro are simmered slowly until the broth reduces — Toyama is said to land squid year-round, and pairing it with taro harvested in autumn and winter has made this a standard cold-season side dish.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_19_toyama.html",
+     "title": "いかと里いもの煮もの 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ika-to-satoimo-no-nimono",
+     "to_slug": "kurozukuri",
+     "relation_type": "対比",
+     "basis": "ともに富山湾のスルメイカを使う家庭料理とされる"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "takenoko-no-misoni",
+   "name_ja": "たけのこの味噌煮",
+   "name_romaji": "Takenoko no Misoni",
+   "name_en": "Takenoko no misoni — bamboo shoot simmered in miso with kelp",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "射水市",
+   "lat": 36.7411,
+   "lng": 137.0708,
+   "summary_ja": "下ゆでしたたけのこを昆布とともに味噌で煮る春の惣菜。射水市黒河地区や高岡市西田地区がたけのこの産地として知られ、昆布のうま味を合わせるところに富山らしさが表れるとされる。",
+   "summary_en": "Parboiled bamboo shoot is simmered in miso with kelp — a spring dish from areas around Imizu and Takaoka known for bamboo, said to carry a distinctly Toyama touch in the way kelp's savor is folded into the miso.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_21_toyama.html",
+     "title": "たけのこの味噌煮 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "takenoko-no-misoni",
+     "to_slug": "takenoko-konbu",
+     "relation_type": "兄弟",
+     "basis": "ともに石川・富山のたけのこ産地に伝わる昆布・味噌仕立ての煮物とされる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域は県内全域だが、本文が射水市黒河地区・高岡市西田地区の2地域を産地として名指ししているため代表地として射水市の座標を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hoonko-ryori",
+   "name_ja": "報恩講料理",
+   "name_romaji": "Hoonko Ryori",
+   "name_en": "Hoonko ryori — the memorial feast for Jodo Shinshu's founder",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "南砺市",
+   "lat": 36.5375,
+   "lng": 136.9186,
+   "summary_ja": "親鸞聖人の命日に営む報恩講の膳に並ぶ料理の総称で、その年よく出来た野菜や山菜を普段用とは別にとっておく習わしがあるとされる。信仰の篤い南砺市の五箇山地区では、干し山菜や五箇山豆腐などで具だくさんの煮物が作られる。",
+   "summary_en": "A catch-all term for the dishes served at houonko, the memorial gathering held on the death anniversary of Jodo Shinshu's founder — the season's better vegetables and wild greens are said to be set aside for it apart from everyday use, with the devout Gokayama area of Nanto known for hearty stews of dried greens and local tofu.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_22_toyama.html",
+     "title": "報恩講料理 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hoonko-ryori",
+     "to_slug": "yogoshi",
+     "relation_type": "兄弟",
+     "basis": "出典に、ほうきんの実を使う『よごし』は報恩講料理の定番と明記されている"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は県内全域だが、本文で南砺市・五箇山地区が信仰の中心地として名指しされているため南砺市の座標を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "toyama-zoni",
+   "name_ja": "雑煮",
+   "name_romaji": "Zoni",
+   "name_en": "Zoni — New Year mochi soup, Toyama style",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "県東部では出世魚フクラギなど魚介と野菜を具だくさんに、西部の砺波地方では根つきの白ネギと昆布巻きかまぼこだけとシンプルに仕立てるなど、正月の雑煮も地域で大きく違うとされる。",
+   "summary_en": "New Year's mochi soup varies sharply across the prefecture — the east piles in yellowtail and vegetables, while the western Tonami area keeps it spare with root-on scallion and kelp-rolled fish cake, both said to lean on the same prized local fish cake.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_23_toyama.html",
+     "title": "雑煮 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "toyama-zoni",
+     "to_slug": "kobumaki-kamaboko",
+     "relation_type": "使用食材",
+     "basis": "既存アイテム「昆布巻きかまぼこ」が具材として使われると明記されている"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は県内全域で、東部・西部で具材が異なる旨notesに記載。座標は県庁所在地の富山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "myoga-zushi",
+   "name_ja": "みょうが寿司",
+   "name_romaji": "Myoga Zushi",
+   "name_en": "Myoga zushi — chirashi sushi with pink ginger flower buds",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "富山県",
+   "origin_city": "富山市",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "小佐波みょうがとマスのほぐし身を酢飯に混ぜ込む祭りのごちそう。報恩講や祭りのもてなし料理として伝わり、後年は笹に包んだ押し寿司タイプも生まれ、県内外で手軽に食べられるように。",
+   "summary_en": "Kosanami myoga — a local pink ginger flower bud — and flaked trout are mixed into sushi rice, a festival treat said to have been served at houonko and other celebrations; a later bamboo-wrapped pressed version made it easier to carry and share.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_24_toyama.html",
+     "title": "みょうが寿司 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "myoga-zushi",
+     "to_slug": "osezushi",
+     "relation_type": "対比",
+     "basis": "ともに富山各地に伝わる地域性のある寿司の系統とされる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shiroebi-somen",
+   "name_ja": "白えび素干だしのそうめん",
+   "name_romaji": "Shiroebi Boshi Dashi no Somen",
+   "name_en": "Shiroebi somen — wheat noodles in dried white shrimp broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "シロエビを素干しにしてとる出汁で、そうめんを味わう夏の一皿。生よりも長期保存できる素干しにすることで旬を過ぎても使えるとされ、砺波の大門素麺と合わせることも多い涼を呼ぶ料理。",
+   "summary_en": "White shrimp are sun-dried and simmered into a broth for chilled wheat noodles — drying is said to let the shrimp's season-bound flavor be used year-round, often paired with the hand-stretched somen from Tonami's Daimon district for a cooling summer dish.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_25_toyama.html",
+     "title": "白えび素干だしのそうめん 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shiroebi-somen",
+     "to_slug": "himi",
+     "relation_type": "対比",
+     "basis": "既存アイテム「氷見うどん」と同じ富山の麺文化に連なる料理とされる"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "notes": "伝承地域は県内全域（広域）。本文で大門素麺（砺波市大門地区）に言及があるがそうめん自体の産地であり、この料理自体は県内全域のためnotesに記載のみとし座標は富山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "surimi-age",
+   "name_ja": "すり身揚げ",
+   "name_romaji": "Surimi Age",
+   "name_en": "Surimi age — deep-fried fish paste fritters",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "富山県",
+   "origin_city": "",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "アジやニギスなど旬の魚のすり身に、すりおろした長芋や野菜を混ぜて揚げる。外はカラッと中はふわふわとした食感が特徴とされ、氷見では「ととぼち揚げ」とも呼ばれおでんの具にもなる。",
+   "summary_en": "Ground paste from seasonal fish such as horse mackerel is mixed with grated mountain yam and vegetables, then deep-fried — crisp outside and fluffy within, known in Himi as \"totobochi-age\" and sometimes dropped into oden.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_26_toyama.html",
+     "title": "すり身揚げ 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "surimi-age",
+     "to_slug": "shiroebi-no-kakiage",
+     "relation_type": "対比",
+     "basis": "ともに富山湾の魚介を使った揚げ物料理とされる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は県内全域（広域）。座標は県庁所在地の富山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "genge-no-misoshiru",
+   "name_ja": "げんげの味噌汁",
+   "name_romaji": "Genge no Misoshiru",
+   "name_en": "Genge no misoshiru — deep-sea eelpout miso soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "富山市",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "ゼラチン質に覆われた深海魚ゲンゲを、ぶつ切りにして味噌汁にする。甘エビ漁に混じって揚がる厄介者として扱われてきたが、身の美味しさが見直され漁村の外にも広まってきたとされる。",
+   "summary_en": "Eelpout, a deep-sea fish covered in a gelatinous layer, is cut into chunks and simmered into a miso soup — long treated as an unwanted bycatch of sweet shrimp fishing, its flavor has since been reappraised and spread beyond the fishing villages that first ate it.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_27_toyama.html",
+     "title": "げんげの味噌汁 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "genge-no-misoshiru",
+     "to_slug": "megisu-no-dangojiru",
+     "relation_type": "対比",
+     "basis": "ともに北陸の底びき網でとれる魚を使った味噌汁とされる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域は富山市、射水市、魚津市の複数市のため代表地として富山市の座標を使用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mikka-no-dangojiru",
+   "name_ja": "三日の団子汁",
+   "name_romaji": "Mikka no Dangojiru",
+   "name_en": "Mikka no dangojiru — rice-flour dumpling soup for new mothers",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "上新粉の団子とずいきを入れた味噌汁で、出産三日目の母親に食べさせる習わしとされる。母乳の出をよくし回復を助けるとされるずいきが使われ、団子汁自体は普段の家庭料理としても作られる。",
+   "summary_en": "A miso soup of rice-flour dumplings and taro stem, said to be traditionally fed to a mother on the third day after giving birth, the stem believed to aid recovery and milk supply — the dumpling soup itself is also made as an everyday family dish.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_28_toyama.html",
+     "title": "三日の団子汁 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mikka-no-dangojiru",
+     "to_slug": "yakitsuke",
+     "relation_type": "対比",
+     "basis": "ともに米粉やもち粉を使う富山の素朴な餅料理とされる"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "伝承地域は県内全域（広域）。座標は県庁所在地の富山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsuboni",
+   "name_ja": "つぼ煮",
+   "name_romaji": "Tsuboni",
+   "name_en": "Tsuboni — dried fern shoots simmered with root vegetables",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "立山町",
+   "lat": 36.6844,
+   "lng": 137.3244,
+   "summary_ja": "干して保存した山菜くごみを戻し、にんじんや里芋、油揚げとともに醤油だしで煮る。立山信仰の宿坊で振る舞われた精進料理が発祥とされ、蓋付きの朱塗りの椀「つぼ椀」に盛ったことが名の由来という。",
+   "summary_en": "Dried fern shoots called kugomi are rehydrated and simmered in soy-based dashi with carrot, taro, and fried tofu — said to have originated as a Buddhist vegetarian dish served at lodgings for Mount Tateyama pilgrims, named for the lidded lacquer bowl it was served in.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_29_toyama.html",
+     "title": "つぼ煮 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tsuboni",
+     "to_slug": "hoonko-ryori",
+     "relation_type": "対比",
+     "basis": "ともに富山の信仰行事を背景に伝わる精進由来の煮物とされる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "bekko",
+   "name_ja": "べっこう",
+   "name_romaji": "Bekko",
+   "name_en": "Bekko — soy-flavored agar jelly with swirled egg",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "富山県",
+   "origin_city": "",
+   "lat": 36.6953,
+   "lng": 137.2113,
+   "summary_ja": "煮溶かした寒天に醤油とみりんで味をつけ、卵を糸を引くように流し込んで固める。あめ色に卵がむら雲のように散る見た目が鼈甲のかんざしに似ることが名の由来とされ、県西部では「ゆべし」とも呼ぶ。",
+   "summary_en": "Melted agar is seasoned with soy sauce and mirin, then set with egg trailed in like threads — its amber color flecked with egg said to resemble a tortoiseshell hair ornament, giving the dish its name; in the west of the prefecture it goes by \"yubeshi\" instead.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_30_toyama.html",
+     "title": "べっこう／えべす 富山県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "bekko",
+     "to_slug": "ebisu",
+     "relation_type": "兄弟",
+     "basis": "出典に『旧加賀藩が置かれた富山県には「べっこう」の名で伝わっている』と、石川県側から明記されている"
+    }
+   ],
+   "tags": [
+    "egg",
+    "ceremonial"
+   ],
+   "notes": "別名「えべす」「ゆべし（県西部）」はsummaryに記載。伝承地域は県東部（広域）。座標は県庁所在地の富山市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: 37_5_toyama（かぶらずし, existing_slug=kaburazushi, high, 既存）/ 37_20_toyama（ます寿司, all-items-ja.txtのmasu-zushi「ますのすし」と同一料理と判断、existing_slugは台帳上は空欄だったがall-items-ja.txt突合で発見）。要判断で作成した行: 37_7_toyama（とろろ昆布のおにぎり, existing_slug=tororo-konbu, low）— 既存は昆布加工品そのもの、本項目はそれを使ったおにぎり料理のため別物と判断し作成。37_9_toyama（白えびのかき揚げ, existing_slug=kakiage, low）— 既存は汎用のかき揚げ、本項目は富山湾特産のシロエビを使う点で別物と判断し作成。棚を変えた行: 37_13_toyama（黒づくり）— 台帳shelf=homestyleを、イカスミで発酵・熟成させる塩辛のためfermentedに変更。座標の根拠: 伝承地域『県内全域』『県東部』等の広域は県庁所在地（富山市）または代表都市（県東部→魚津市）で近似し、notesに広域と明記。市町村や特定漁港が本文で名指しされた行はその座標を使用（一般知識による概算、ジオコーディングAPI不使用）。要判断: 昆布〆・昆布巻きは北海道の既存項目hokkaido-konbumaki（北海道）と同系統の料理だが、pref=北海道で由来（生産地）の物語が異なり、石川・富山側は北前船交易による受容地としての物語のため別項目として作成し、hokkaido-konbumaki／nishin-no-konbumaki間には『源流』関係を設定。黒豆おこわ（富山）とみたま（石川）、べっこう（富山）とえびす（石川）は出典本文で相互に言及される兄弟料理として両県作成。"
+}
