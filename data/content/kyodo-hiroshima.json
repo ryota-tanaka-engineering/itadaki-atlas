@@ -1,0 +1,1051 @@
+{
+ "items": [
+  {
+   "slug": "wani-no-sashimi",
+   "name_ja": "ワニの刺身",
+   "name_romaji": "Wani no Sashimi",
+   "name_en": "Wani no sashimi — thin-sliced mountain shark eaten with ginger soy sauce",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "",
+   "lat": 34.8058,
+   "lng": 132.8524,
+   "summary_ja": "中国地方の山間部で「ワニ」と呼ばれるサメを刺身にした一皿。海から遠い備北の地では日持ちするサメが重宝され、しょうがじょうゆで香りを抑えて食べる。秋祭りや正月に欠かせない一品と伝わる。",
+   "summary_en": "In Hiroshima's mountainous Bihoku area, small shark—locally called \"wani\"—is sliced thin and eaten raw with ginger and soy sauce. Far from the coast, the long-keeping fish once filled the gap where fresh seafood rarely reached, and it is said to still appear at autumn festivals and New Year.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_1_hiroshima.html",
+     "title": "ワニの刺身 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "wani-no-sashimi",
+     "to_slug": "gansu",
+     "relation_type": "使用食材",
+     "basis": "出典にワニを使った新商品「ワニのがんす」が明記されている"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は「備北地域の三次市、庄原市」の2市のため広域扱い。代表として三次市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hiroshima-uzumi",
+   "name_ja": "うずみ",
+   "name_romaji": "Uzumi",
+   "name_en": "Uzumi — vegetables and seafood hidden beneath rice, ladled with broth",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "福山市",
+   "lat": 34.4858,
+   "lng": 133.3625,
+   "summary_ja": "里芋やえび、鯛などをだしで煮て椀に入れ、上からご飯を盛って隠す福山の料理。江戸時代、贅沢を控えるため具をご飯の下に埋めたのが始まりと伝わる、秋の実りを祝う一皿である。",
+   "summary_en": "Simmered taro, shrimp, and sea bream sit in a bowl hidden under a mound of rice in this Fukuyama dish. It is said to date to the Edo period, when diners tucked good ingredients beneath plain rice to appear modest, and it later became a way to mark the autumn harvest.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_2_hiroshima.html",
+     "title": "うずみ 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hiroshima-uzumi",
+     "to_slug": "gyohan",
+     "relation_type": "対比",
+     "basis": "どちらも広島の海の幸をご飯に添える料理だが、うずみは具を下に隠し、魚飯は上に飾る点で異なる"
+    },
+    {
+     "from_slug": "hiroshima-uzumi",
+     "to_slug": "uzumi",
+     "relation_type": "対比",
+     "basis": "和歌山県の既存「うずみ」と同名だが、広島は里芋・えび・鯛などの具をだしで煮て隠す点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hassun",
+   "name_ja": "八寸",
+   "name_romaji": "Hassun",
+   "name_en": "Hassun — a mixed simmered dish of chicken, fish trim, and root vegetables",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "",
+   "lat": 34.3346,
+   "lng": 132.5601,
+   "summary_ja": "安芸門徒の多い地域で、祭りや法事に魚屋を招いて出た「あら」と野菜を煮合わせたのが始まりという煮物。祝儀は器を朱に具を奇数に、不祝儀は黒の器に偶数と、盛り方に細かな決まりが伝わる。",
+   "summary_en": "A simmered dish of chicken, fish trimmings, and root vegetables that began, it is said, when a fish seller was invited to cook for gatherings of Jodo Shinshu households. Custom dictates odd numbers of ingredients in a red bowl for celebrations, even numbers in black for funerals.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_3_hiroshima.html",
+     "title": "八寸 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hassun",
+     "to_slug": "nigome",
+     "relation_type": "対比",
+     "basis": "出典に、精進料理で小豆を入れる「煮ごめ」と、魚介や鶏肉を入れる「八寸」の違いが明記されている"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "chicken"
+   ],
+   "notes": "伝承地域は熊野町・安芸高田市の2町市。広域として熊野町の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kaki-no-dotenabe",
+   "name_ja": "かきの土手鍋",
+   "name_romaji": "Kaki no Dotenabe",
+   "name_en": "Kaki no dotenabe — oyster hot pot with a miso levee around the rim",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "",
+   "lat": 34.3853,
+   "lng": 132.4553,
+   "summary_ja": "土鍋のふちに赤白の味噌を土手のように塗り、崩しながら味を調える広島湾の牡蠣鍋。潮の流れと川の栄養が交わる湾で育つ身の大きな牡蠣を、冬の味覚として一般家庭でも飲食店でも楽しんでいる。",
+   "summary_en": "Red and white miso are spread like an embankment around the rim of a clay pot, to be crumbled in bit by bit as the broth simmers with plump Hiroshima Bay oysters. Calm currents and river nutrients flowing into the bay are said to give the oysters their size and depth of flavor.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_4_hiroshima.html",
+     "title": "かきの土手鍋 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kaki-no-dotenabe",
+     "to_slug": "kaki-zoni",
+     "relation_type": "兄弟",
+     "basis": "どちらも広島湾の牡蠣を使う冬の郷土料理という同じ食材系統"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域は「広島市、江田島市、宮島、呉、音戸地方など」と広域。代表として広島市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "wakegi-no-nuta",
+   "name_ja": "わけぎのぬた",
+   "name_romaji": "Wakegi no Nuta",
+   "name_en": "Wakegi no nuta — bunching onion dressed in sweet white miso and vinegar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "尾道市",
+   "lat": 34.4089,
+   "lng": 133.205,
+   "summary_ja": "くせがなく甘みのあるわけぎを白みそ、砂糖、酢であえた一皿。球根が次々分かれて増える性質から子宝の縁起物とされ、産地として知られる尾道を中心に桃の節句に食べられてきたと伝わる。",
+   "summary_en": "Mild, sweet bunching onion is dressed with white miso, sugar, and vinegar. Because its bulb splits and multiplies on its own, the vegetable is treated as a symbol of fertility, and around Onomichi—a well-known producer—the dish is said to appear at the Girls' Festival in spring.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_5_hiroshima.html",
+     "title": "わけぎのぬた 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "wakegi-no-nuta",
+     "to_slug": "nuta",
+     "relation_type": "対比",
+     "basis": "山口県北浦地域の「ぬた」と同じ酢みそあえの系統だが、広島はわけぎ、山口はねぎとオバイケを使う点が異なる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域は尾道市・三原市・呉市の3市。わけぎ生産量全国一と明記される尾道市の座標を代表として使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mobiri",
+   "name_ja": "もぶり",
+   "name_romaji": "Mobiri",
+   "name_en": "Mobiri — rice mixed with simmered root vegetables and black beans",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "",
+   "lat": 34.2333,
+   "lng": 132.2167,
+   "summary_ja": "広島の方言「もぶる（混ぜる）」に由来する混ぜご飯。ごぼうやしいたけ、黒豆を炊き込み、農作業の合間や祝い事の際に大きなおむすびにして近所へ配る風習が大竹市などに伝わっている。",
+   "summary_en": "Named for the Hiroshima dialect word \"moburu\" (to mix), this rice is tossed with simmered burdock, shiitake, and black beans. In Otake and nearby towns it was formerly rolled into large rice balls and handed out at farm breaks and celebrations such as house-raisings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_6_hiroshima.html",
+     "title": "もぶり 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mobiri",
+     "to_slug": "hiroshima-uzumi",
+     "relation_type": "対比",
+     "basis": "どちらも広島の祝い事で食される米料理だが、もぶりは具を混ぜ込み、うずみは具を下に隠す点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は大竹市・呉市の2市。広域として大竹市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "bishu-nabe",
+   "name_ja": "美酒鍋",
+   "name_romaji": "Bishu Nabe",
+   "name_en": "Bishu nabe — sake-simmered chicken and pork hot pot of the brewers' town",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "東広島市",
+   "lat": 34.4267,
+   "lng": 132.7444,
+   "summary_ja": "鶏肉や砂ずり、豚肉を塩こしょうと日本酒だけで仕立てた鍋。銘醸地・西条の杜氏が酒造りの合間に食べたまかない料理が始まりで、利き酒の邪魔をしない薄味が特徴と伝わる。",
+   "summary_en": "Chicken, gizzard, and pork are simmered with nothing more than salt, pepper, and sake in this hot pot from Saijo, one of Japan's noted brewing towns. It is said to have begun as a simple meal cooked by sake brewers between batches, seasoned lightly so as not to dull their palate for tasting.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_8_hiroshima.html",
+     "title": "美酒鍋 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "bishu-nabe",
+     "to_slug": "kaki-no-dotenabe",
+     "relation_type": "対比",
+     "basis": "どちらも広島の鍋料理だが、美酒鍋は日本酒と塩こしょうの淡白な味付け、土手鍋は牡蠣と味噌のこくが軸になる"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "taimeshi",
+   "name_ja": "鯛めし",
+   "name_romaji": "Taimeshi",
+   "name_en": "Taimeshi — whole sea bream cooked into rice by Seto Inland Sea fishermen",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "福山市（鞆の浦）",
+   "lat": 34.3833,
+   "lng": 133.3792,
+   "summary_ja": "うろこと内臓を取った鯛を丸ごと釜に入れ、米と炊き込む瀬戸内の漁師料理。岩礁の多い海底と潮流が鯛の産卵に適し、約380年前に始まったという鞆の浦の鯛しばり網漁とともに伝わってきた。",
+   "summary_en": "A whole sea bream, scaled and gutted, is set into the pot and cooked together with the rice—a fisherman's dish from the Seto Inland Sea. The area's rocky seabed and currents suit bream spawning, and the dish is tied to the roughly 380-year-old tai-shibari net fishery of Tomonoura.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_9_hiroshima.html",
+     "title": "鯛めし 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "taimeshi",
+     "to_slug": "taimen",
+     "relation_type": "兄弟",
+     "basis": "どちらも瀬戸内海沿岸で丸ごとの鯛を使う広島の郷土料理という同じ食材系統"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は「福山市、尾道市、大崎上島町など瀬戸内海沿岸地域」と広域。本文が名指しする鞆の浦（福山市）の座標を代表として使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "taimen",
+   "name_ja": "鯛めん／鯛そうめん",
+   "name_romaji": "Taimen",
+   "name_en": "Taimen — somen noodles topped with a whole simmered sea bream",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "",
+   "lat": 34.3486,
+   "lng": 132.3306,
+   "summary_ja": "ゆでたそうめんに、しょうゆで薄く煮た鯛の姿煮を乗せる祝いの膳。鯛は「めでたい」、そうめんは「長く続く」に通じるとされ、棟上げや結婚式など瀬戸内の祝い事に欠かせないと伝わる。",
+   "summary_en": "A whole sea bream, lightly simmered in soy sauce, is laid atop boiled somen noodles for celebratory meals. The bream evokes the word \"medetai\" (auspicious) and the long noodle strands suggest lasting good fortune, making the dish a fixture at Seto Inland Sea weddings and house-raisings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_10_hiroshima.html",
+     "title": "鯛めん／鯛そうめん 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "taimen",
+     "to_slug": "taimeshi",
+     "relation_type": "兄弟",
+     "basis": "どちらも瀬戸内海沿岸で丸ごとの鯛を使う広島の郷土料理という同じ食材系統"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は「尾道市、廿日市市など瀬戸内海沿岸地域」と広域。嚴島神社の管弦祭との関連が明記される廿日市市の座標を代表として使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nigome",
+   "name_ja": "煮ごめ",
+   "name_romaji": "Nigome",
+   "name_en": "Nigome — a Jodo Shinshu memorial-day stew of azuki beans and vegetables",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "府中町",
+   "lat": 34.3903,
+   "lng": 132.5158,
+   "summary_ja": "大根やごぼうなど根菜を小豆とさいの目に切って煮る精進料理。親鸞聖人の命日「御逮夜」に作られ、肉や魚を使わず何度も煮返しながら3日間食べ継ぐと伝わる、安芸門徒の行事食。",
+   "summary_en": "Root vegetables such as daikon and burdock are diced small and simmered with azuki beans in this meatless dish. Traditionally cooked for Otanya, the eve of the founder Shinran's memorial day, it is reheated and eaten over three days without any meat or fish, a custom of the region's Jodo Shinshu households.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_11_hiroshima.html",
+     "title": "煮ごめ 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nigome",
+     "to_slug": "hassun",
+     "relation_type": "対比",
+     "basis": "出典に、精進料理で小豆を入れる「煮ごめ」と、魚介や鶏肉を入れる「八寸」の違いが明記されている"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "igisu-dofu",
+   "name_ja": "イギス豆腐",
+   "name_romaji": "Igisu Dofu",
+   "name_en": "Igisu dofu — a firm seaweed jelly set with soybean flour, no gelatin needed",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "",
+   "lat": 34.3967,
+   "lng": 133.0783,
+   "summary_ja": "イギスという赤い海藻を生大豆粉とともに煮溶かし、寒天のように自然に固める瀬戸内の一皿。酢みそやしょうが醤油であえ、盆や祭りに親戚が集まる際によく作られてきたと伝わる。",
+   "summary_en": "A red seaweed called igisu is simmered with raw soybean flour until it sets on its own into a firm, agar-like jelly. Served with vinegared miso or ginger soy sauce, it was often made in Setouchi coastal towns when relatives gathered for Obon or local festivals.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_12_hiroshima.html",
+     "title": "イギス豆腐 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "igisu-dofu",
+     "to_slug": "wakegi-no-nuta",
+     "relation_type": "対比",
+     "basis": "どちらも広島の海辺で酢みそやからし酢みそをまとわせる小鉢という同じ調理系統"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は「三原市、尾道市、大崎上島町、呉市など」と広域。代表として三原市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kuwai-no-amani",
+   "name_ja": "くわいの甘煮",
+   "name_romaji": "Kuwai no Amani",
+   "name_en": "Kuwai no amani — arrowhead tubers simmered sweet for New Year's",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "福山市",
+   "lat": 34.4858,
+   "lng": 133.3625,
+   "summary_ja": "鮮やかな藍色から「田んぼのサファイア」と呼ばれる青くわいを、だし汁と砂糖、くちなしの実で甘く煮る福山の一品。芽が伸びる姿から「芽が出る」縁起物として、おせちに欠かせないと伝わる。",
+   "summary_en": "Blue arrowhead tubers—their deep indigo skin earning them the nickname \"sapphire of the paddies\"—are simmered sweet in dashi, sugar, and gardenia fruit for color. Because a sprout pushes visibly from the tuber, it is treated as a wish for new beginnings and served in New Year's osechi trays.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_13_hiroshima.html",
+     "title": "くわいの甘煮 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kuwai-no-amani",
+     "to_slug": "kaki-zoni",
+     "relation_type": "対比",
+     "basis": "どちらも広島のお正月の食卓を彩る料理だが、くわいの甘煮はおせちの一品、かき雑煮は雑煮という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kinako-musubi",
+   "name_ja": "きなこむすび",
+   "name_romaji": "Kinako Musubi",
+   "name_en": "Kinako musubi — rice balls with pickled plum, dusted in toasted soy flour",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "北広島町",
+   "lat": 34.6267,
+   "lng": 132.5406,
+   "summary_ja": "梅干しや塩吹き昆布を包んだおむすびにきなこをまぶす、田植えの合間の一品。ユネスコ無形文化遺産「壬生の花田植」で今も振る舞われ、丸く握るのは秋の豊作への願いと伝わる。",
+   "summary_en": "Rice balls stuffed with pickled plum or salted kelp are dusted thickly in toasted soybean flour, eaten during breaks from rice planting. Still served at the Mibu no Hanataue festival, a UNESCO-listed rice-planting rite, the round shape is said to carry a wish for a bountiful autumn.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_14_hiroshima.html",
+     "title": "きなこむすび 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kinako-musubi",
+     "to_slug": "mobiri",
+     "relation_type": "対比",
+     "basis": "どちらも広島の農作業や祝い事で配られる米料理だが、きなこむすびは田植え行事、もぶりは建前などの祝い事に結びつく"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nebuto-no-karaage",
+   "name_ja": "ねぶとの唐揚げ",
+   "name_romaji": "Nebuto no Karaage",
+   "name_en": "Nebuto no karaage — deep-fried small cardinalfish from the Seto Inland Sea",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "広島県",
+   "origin_city": "福山市",
+   "lat": 34.4858,
+   "lng": 133.3625,
+   "summary_ja": "瀬戸内海でとれる3〜5センチほどのテンジクダイ「ねぶと」に片栗粉をまぶして揚げ、塩を振る福山の一皿。頭が硬く丸ごとは食べにくいため頭を落として揚げ、おやつや酒の肴に親しまれる。",
+   "summary_en": "Small cardinalfish called nebuto, just three to five centimeters long and caught in the Seto Inland Sea, are dusted with potato starch, deep-fried, and salted. Their heads are removed first since the bone there is too hard to eat, and the crisp result is a favorite snack for both children and drinkers.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_15_hiroshima.html",
+     "title": "ねぶとの唐揚げ 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nebuto-no-karaage",
+     "to_slug": "koiwashi-no-sashimi",
+     "relation_type": "対比",
+     "basis": "どちらも瀬戸内海でとれる小魚を使う福山・呉の郷土料理だが、ねぶとは揚げ物、小いわしは刺身と調理法が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kaku-zushi",
+   "name_ja": "角寿司",
+   "name_romaji": "Kaku Zushi",
+   "name_en": "Kaku zushi — box-pressed sushi layered with seasoned vegetables inside",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "広島県",
+   "origin_city": "",
+   "lat": 34.6267,
+   "lng": 132.5406,
+   "summary_ja": "四角い木型に酢飯と具を詰めて押す芸北地域の押し寿司。しめさばや錦糸卵を上に彩りよく並べ、中にはやや辛めに煮た野菜を仕込み、食べ進めると味の変化が楽しめると伝わる。",
+   "summary_en": "Vinegared rice and toppings are packed into a square wooden mold and pressed into shape in this dish from Hiroshima's Geihoku mountains. Colorful mackerel and egg crepe sit on top, while root vegetables simmered a little saltier hide inside, giving the flavor a shift partway through eating.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_16_hiroshima.html",
+     "title": "角寿司 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kaku-zushi",
+     "to_slug": "azuma",
+     "relation_type": "兄弟",
+     "basis": "どちらも広島でハレの日に作られる押し・握り系の郷土寿司という同じ系統"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は「広島市から北広島町、安芸高田市など芸北地域」と広域。代表として北広島町の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "koiwashi-no-sashimi",
+   "name_ja": "小いわしの刺身",
+   "name_romaji": "Koiwashi no Sashimi",
+   "name_en": "Koiwashi no sashimi — raw anchovy eaten with soy sauce and grated ginger",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "呉市",
+   "lat": 34.2492,
+   "lng": 132.5656,
+   "summary_ja": "広島湾のプランクトンで大きく育ったカタクチイワシを、しょうゆとおろししょうがで食べる呉の夏の味。鮮度が命の魚のため、水揚げが多い6〜8月にスーパーへ並ぶと家庭でさばいて食すと伝わる。",
+   "summary_en": "Anchovy that grow plump on Hiroshima Bay's rich plankton are eaten raw with soy sauce and grated ginger, a summer taste of Kure. Freshness is everything with this fish, so households traditionally clean and slice it themselves as soon as it appears in shops during its June-to-August peak.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_17_hiroshima.html",
+     "title": "小いわしの刺身 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "koiwashi-no-sashimi",
+     "to_slug": "nebuto-no-karaage",
+     "relation_type": "対比",
+     "basis": "どちらも瀬戸内海でとれる小魚を使う福山・呉の郷土料理だが、小いわしは刺身、ねぶとは揚げ物と調理法が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域「呉市音戸町、倉橋町」はいずれも呉市内の地区のため呉市として扱った",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hiroshima-takomeshi",
+   "name_ja": "たこめし",
+   "name_romaji": "Takomeshi",
+   "name_en": "Takomeshi — rice cooked with octopus, a fisherman's meal from Mihara",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "三原市",
+   "lat": 34.3967,
+   "lng": 133.0783,
+   "summary_ja": "漁師が船上でぶつ切りのたこを飯に炊き込んだのが始まりという三原の料理。速い潮流にもまれて足が太く締まる三原沖のたこを、ごぼうやにんじんとともにだしじょうゆでじっくり炊き込む。",
+   "summary_en": "Fishermen once chopped up freshly caught octopus and cooked it right into their rice on board—the origin, it is said, of this Mihara dish. Fast currents off Mihara give the octopus thick, taut legs, and the meat is simmered into rice with burdock and carrot in a soy-seasoned broth.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_18_hiroshima.html",
+     "title": "たこめし 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hiroshima-takomeshi",
+     "to_slug": "taimeshi",
+     "relation_type": "対比",
+     "basis": "どちらも瀬戸内の漁師が単一の魚介を米に炊き込む広島の郷土料理だが、主役がたこと鯛で異なる"
+    },
+    {
+     "from_slug": "hiroshima-takomeshi",
+     "to_slug": "takomeshi",
+     "relation_type": "対比",
+     "basis": "岡山県の既存「たこめし」と同名だが、広島は三原沖の締まったたこを使う点が特徴とされる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "既存slug「takomeshi」（岡山県）と同名のため slug を hiroshima-takomeshi に変更。伝承地域は「三原市、尾道市、福山市」と広域。たこ漁とブランド化が明記される三原市の座標を代表として使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "azuma",
+   "name_ja": "あずま",
+   "name_romaji": "Azuma",
+   "name_en": "Azuma — hand-formed sushi using vinegared okara in place of rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "広島県",
+   "origin_city": "",
+   "lat": 34.4089,
+   "lng": 133.205,
+   "summary_ja": "酢でしめたママカリを、酢飯の代わりに味付けしたおからで握る沿岸部の寿司。米が貴重だった時代、手に入りやすいおからで代用したのが始まりとされ、祭りや正月に振る舞われてきた。",
+   "summary_en": "Sardine-like mamakari, cured in vinegar, is pressed onto seasoned okara instead of vinegared rice in this coastal sushi. It is said to have begun as a way to stretch scarce rice by substituting the cheap, plentiful soy pulp, and was served at festivals and New Year's gatherings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_19_hiroshima.html",
+     "title": "あずま 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "azuma",
+     "to_slug": "kaku-zushi",
+     "relation_type": "兄弟",
+     "basis": "どちらも広島でハレの日に作られる押し・握り系の郷土寿司という同じ系統"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は「尾道市、福山市」の2市。代表として尾道市の座標を使用。台帳のshelfは homestyle だったが握り寿司の一種のため rice に修正し genre に sushi を付与",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kure-no-nikujaga",
+   "name_ja": "呉の肉じゃが",
+   "name_romaji": "Kure no Nikujaga",
+   "name_en": "Kure no nikujaga — meat-and-potato stew tied to the Imperial Navy's mess",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "呉市",
+   "lat": 34.2492,
+   "lng": 132.5656,
+   "summary_ja": "メークインと牛肉、糸こんにゃく、玉ねぎを甘辛く煮る呉の一皿。イギリス留学中のビーフシチューを艦上食に仕立てようとした東郷平八郎の逸話にちなみ、旧海軍の料理として伝わる。",
+   "summary_en": "Meakin potatoes, beef, shirataki noodles, and onion are simmered sweet and savory in this Kure dish. It traces back, by local account, to Admiral Togo Heihachiro's attempt to recreate the beef stew he ate while studying in Britain as a shipboard meal for the old Imperial Navy.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_20_hiroshima.html",
+     "title": "呉の肉じゃが 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kure-no-nikujaga",
+     "to_slug": "kure-yaki",
+     "relation_type": "対比",
+     "basis": "どちらも呉市発祥とされる郷土料理だが、肉じゃがは旧海軍の艦上食、呉焼きはお好み焼き系という由来が異なる"
+    }
+   ],
+   "tags": [
+    "beef"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ebamaki",
+   "name_ja": "江波巻き",
+   "name_romaji": "Ebamaki",
+   "name_en": "Ebamaki — nori rolls of rice and Hiroshima-na pickle for seaweed fishermen",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "広島市中区江波地区",
+   "lat": 34.3853,
+   "lng": 132.4553,
+   "summary_ja": "ご飯に広島菜漬けとかつおぶし、白ごまをあえ、焼きのりで巻いた江波地区ののり巻き。片手で漕ぎながら食べられるよう両端を閉じることもあり、のり漁師の船上食として広まったと伝わる。",
+   "summary_en": "Rice is tossed with Hiroshima-na pickle, bonito flakes, and sesame, then rolled in toasted nori—a roll from Hiroshima's Eba district, long known for seaweed cultivation. The ends are sometimes tucked shut so it can be eaten one-handed while rowing, a food born for nori fishermen working on the water.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_22_hiroshima.html",
+     "title": "江波巻き 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ebamaki",
+     "to_slug": "hiroshimana-zuke",
+     "relation_type": "使用食材",
+     "basis": "出典に、具として広島菜漬けを使うことが明記されている"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域「広島市中区江波地区」は町丁レベルのため広島市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gyohan",
+   "name_ja": "魚飯",
+   "name_romaji": "Gyohan",
+   "name_en": "Gyohan — flaked grilled fish and rice topped with a bone-based broth",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "竹原市",
+   "lat": 34.3383,
+   "lng": 132.9139,
+   "summary_ja": "焼いてほぐした白身魚と錦糸卵、えびなどをご飯に盛り、その骨でとっただしをかけて食べる竹原の料理。塩田で栄えた町の「浜旦那」がもてなしに用いた膳が、途絶えかけたのち文献で再現されたと伝わる。",
+   "summary_en": "Flaked grilled white fish, egg crepe, and shrimp are arranged over rice, then doused in a broth made from the fish's own bones—a dish from Takehara, a town once wealthy on salt production. Nearly lost, it was reconstructed decades later from an old newspaper clipping after salt farming ended.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_24_hiroshima.html",
+     "title": "魚飯 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gyohan",
+     "to_slug": "hiroshima-uzumi",
+     "relation_type": "対比",
+     "basis": "どちらも広島の海の幸をご飯に添える料理だが、魚飯は具とだしを上からかけ、うずみは具を下に隠す点で異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hiroshima-ohira",
+   "name_ja": "大平",
+   "name_romaji": "Ohira",
+   "name_en": "Ohira — a broth-rich simmered dish served in a wide shallow bowl",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "大竹市",
+   "lat": 34.2333,
+   "lng": 132.2167,
+   "summary_ja": "鶏肉と里芋、れんこんなどの根菜を乱切りにし、汁ごといただく大竹の煮物。大きく平たい椀に盛ることから名がつき、具の種類を奇数にして祭りや盆正月の縁起物として振る舞われてきたと伝わる。",
+   "summary_en": "Chicken and root vegetables such as taro and lotus root are cut into large chunks and simmered in a broth eaten right along with the dish, served in the wide, shallow bowl that gives it its name. An odd number of ingredients is kept for luck at festivals and New Year gatherings in Otake.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_25_hiroshima.html",
+     "title": "大平 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hiroshima-ohira",
+     "to_slug": "yamaguchi-ohira",
+     "relation_type": "対比",
+     "basis": "出典に、隣接する山口県岩国市にも同名の料理があると明記されている"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hiroshima-nina",
+   "name_ja": "煮菜",
+   "name_romaji": "Nina",
+   "name_en": "Nina — shredded daikon pan-simmered with fried tofu and dried sardine",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "福山市",
+   "lat": 34.4858,
+   "lng": 133.3625,
+   "summary_ja": "千切りにした大根を油揚げ、根深ねぎ、いりことしょうゆで炒り煮にする福山の日常菜。名に「煮」とあるが実際は炒め物に近く、食材の水分だけで仕上げるため手早く旨味が濃いと伝わる。",
+   "summary_en": "Shredded daikon is pan-cooked with fried tofu, leek, and dried sardine in soy sauce, using only the moisture the vegetables release—a quick, everyday Fukuyama side dish. Despite the name meaning \"simmered greens,\" it is closer to a stir-fry, prized by busy farm households for how fast it comes together.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_26_hiroshima.html",
+     "title": "煮菜 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hiroshima-nina",
+     "to_slug": "nina",
+     "relation_type": "対比",
+     "basis": "新潟県の「煮菜」と同名だが、新潟は野沢菜漬けが主役なのに対し、広島は大根の千切りを主に使う点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "既存slug「nina」（新潟県）と同名のため slug を hiroshima-nina に変更",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kaki-zoni",
+   "name_ja": "かき雑煮",
+   "name_romaji": "Kaki Zoni",
+   "name_en": "Kaki zoni — New Year's mochi soup built on Hiroshima Bay oysters",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "江田島市",
+   "lat": 34.2167,
+   "lng": 132.4667,
+   "summary_ja": "煮干しや昆布のすまし汁に丸もちと牡蠣、ぶりを入れる広島湾沿岸の雑煮。ぶりは年末に一尾さばいた残りを使う習慣があり、牡蠣は「福をかき寄せる」縁起物として正月に食されると伝わる。",
+   "summary_en": "Round mochi, oyster, and yellowtail go into a clear broth of dried sardine and kelp in this New Year's soup from around Hiroshima Bay. Yellowtail traditionally comes from the leftover half of a fish sliced for sashimi at year's end, while the oyster's name puns on \"raking in\" good fortune.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_27_hiroshima.html",
+     "title": "かき雑煮 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kaki-zoni",
+     "to_slug": "kaki-meshi",
+     "relation_type": "兄弟",
+     "basis": "どちらも広島湾の牡蠣を使う郷土料理という同じ食材系統"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は「安芸地方、江田島市」。本文で明記される江田島市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kaki-meshi",
+   "name_ja": "かき飯",
+   "name_romaji": "Kaki Meshi",
+   "name_en": "Kaki meshi — rice cooked with Hiroshima Bay oysters and root vegetables",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "江田島市",
+   "lat": 34.2167,
+   "lng": 132.4667,
+   "summary_ja": "酒でいりつけた牡蠣を、にんじんやごぼう、油揚げとともにだしで炊き込む江田島の炊き込みご飯。うまみをたっぷり蓄える12〜2月の牡蠣が特においしいとされ、駅弁としても親しまれている。",
+   "summary_en": "Oysters, seared briefly with sake, are cooked into rice together with carrot, burdock, and fried tofu in this dish from Etajima, an island known for oyster farming. The oysters are said to taste richest from December to February, when they store the most flavor-giving glycogen.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_28_hiroshima.html",
+     "title": "かき飯 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kaki-meshi",
+     "to_slug": "kaki-zoni",
+     "relation_type": "兄弟",
+     "basis": "どちらも広島湾の牡蠣を使う郷土料理という同じ食材系統"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "igamochi",
+   "name_ja": "いが餅",
+   "name_romaji": "Igamochi",
+   "name_en": "Igamochi — steamed rice-flour dumplings crowned with colored sticky rice",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "呉市",
+   "lat": 34.2492,
+   "lng": 132.5656,
+   "summary_ja": "米粉の皮で小豆あんを包み、ピンクや緑に染めたもち米の粒を乗せて蒸す呉の菓子。栗のいがに似ることが名の由来のひとつとされ、亀山神社の秋祭りの屋台で今も蒸したてが売られている。",
+   "summary_en": "Sweet azuki paste is wrapped in a rice-flour dough and topped with sticky rice grains dyed pink or green, then steamed—a confection from Kure. One story behind the name likens the studded top to a chestnut bur, and it is still sold hot off the steamer at festival stalls around Kameyama Shrine's autumn rites.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_29_hiroshima.html",
+     "title": "いが餅 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "igamochi",
+     "to_slug": "yamaguchi-kashiwamochi",
+     "relation_type": "対比",
+     "basis": "どちらも特定の年中行事に結びついた地域独自の餅菓子という点で対比できる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "anago-meshi",
+   "name_ja": "あなご飯",
+   "name_romaji": "Anago Meshi",
+   "name_en": "Anago meshi — grilled conger eel laid over broth-cooked rice at Miyajima",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "広島県",
+   "origin_city": "廿日市市宮島町",
+   "lat": 34.2969,
+   "lng": 132.32,
+   "summary_ja": "かば焼きにしたあなごをそぎ切りにし、だしで炊いたご飯に敷き詰める宮島の一皿。速い潮流にもまれて脂がのる「瀬戸のあなご」を使い、明治34年に宮島口駅の駅弁として売られたのが始まりと伝わる。",
+   "summary_en": "Conger eel, grilled kabayaki-style, is sliced and layered over rice cooked in dashi—a dish from Miyajima. It uses \"Seto anago,\" prized for the fat that fast currents help build into the fish, and is said to have begun in 1901 as a bento sold at Miyajimaguchi station.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_30_hiroshima.html",
+     "title": "あなご飯 広島県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "anago-meshi",
+     "to_slug": "kaki-meshi",
+     "relation_type": "対比",
+     "basis": "どちらも瀬戸内海の魚介を炊き込んだ広島の駅弁・名物ご飯という共通点がある"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: 42_7(お好み焼き)=既存hiroshima-okonomiyakiと重複のため作らず / 42_21(えび粉／巻き寿司)=existing_slug maki-zushi・match_confidence=highのため作らず / 42_23(広島菜漬のおにぎり／広島菜むすび)=genre_hint tsukemonoのため作らず（既存hiroshimana-zukeの派生食）。low判定の内訳: 42_15(ねぶとの唐揚げ, existing_slug=karaage)は瀬戸内の小魚テンジクダイの唐揚げで、システムのkaraage（汎用・県紐付けなし）とは別物と判断し作成。棚を変えた行: 42_19(あずま)は台帳shelf=homestyleだったが、酢飯代わりのおからで握る寿司の一種のため shelf=rice, genre=sushi に変更。座標の根拠: 伝承地域が複数市・広域表記の行は、本文で最も強く名指しされる市（生産量日本一・発祥地・中心地等）または地方の中心都市を代表座標として採用し、各itemのnotesに個別記載した。県全域と明記される行（42_該当なし、山口に多数）は原則県庁所在地を使用したが、本文が特定市を強調する場合はその市を優先した（例: chisha-namasu, kencho→下関市）。要判断: 42_26(煮菜)は新潟県の既存slug「nina」と同名だが大根主体で構成が別物のため hiroshima-nina として新規作成。42_25(大平)は山口県43_8と同名の郷土料理で、本文が互いの存在に言及しているため hiroshima-ohira / yamaguchi-ohira として対比関係を付与。"
+}

@@ -1,0 +1,1039 @@
+{
+ "items": [
+  {
+   "slug": "chisha-namasu",
+   "name_ja": "ちしゃなます",
+   "name_romaji": "Chisha Namasu",
+   "name_en": "Chisha namasu — crinkled lettuce tossed with vinegared miso and flaked fish",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "下関市",
+   "lat": 33.9578,
+   "lng": 130.9414,
+   "summary_ja": "下関の伝統野菜「かきちしゃ」をちぎり、酢みそやほぐした焼き魚、しらすであえる料理。関ヶ原の戦い後、困窮した毛利の人々が考案したと伝わり、「ちしゃもみ」の名でも親しまれている。",
+   "summary_en": "Kakichisha, an heirloom crinkled lettuce grown around Shimonoseki, is torn by hand and tossed with vinegared miso, flaked grilled fish, or whitebait. It is said to have been devised by the Mori domain's people after being impoverished by the Battle of Sekigahara, and is also known as \"chishamomi.\"",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_1_yamaguchi.html",
+     "title": "ちしゃなます 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "chisha-namasu",
+     "to_slug": "nuta",
+     "relation_type": "対比",
+     "basis": "どちらも酢みそであえる山口の惣菜だが、ちしゃなますは葉野菜、ぬたはねぎとオバイケが主役という違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域は「県全域、北浦地域」だが、本文が「下関の伝統野菜」と明記するため下関市を origin_city に採用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kencho",
+   "name_ja": "けんちょう",
+   "name_romaji": "Kencho",
+   "name_en": "Kencho — daikon, tofu, and carrot pan-simmered in a slightly sweet sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "下関市",
+   "lat": 33.9578,
+   "lng": 130.9414,
+   "summary_ja": "豆腐と大根、にんじんをしょうゆと砂糖でやや濃いめに煮る山口の日常菜。大鍋で作って何日も煮返して食べることが多く、由来は鎌倉・建長寺の精進料理にちなむ説が有力とされる。",
+   "summary_en": "Tofu, daikon, and carrot are pan-simmered in a slightly sweet-savory soy sauce, a daily side dish across Yamaguchi. It is often made in a big pot and reheated over several days, and the name is thought to trace to the vegetarian temple cooking of Kamakura's Kenchoji.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_2_yamaguchi.html",
+     "title": "けんちょう 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kencho",
+     "to_slug": "tsushima",
+     "relation_type": "対比",
+     "basis": "どちらも豆腐と根菜をしょうゆで仕立てる山口の常備菜だが、つしまは酢を効かせた白あえ風という違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は「県全域」だが、本文が「特に下関ではけんちょうが日常の料理」と明記するため下関市を origin_city に採用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yamaguchi-itokoni",
+   "name_ja": "いとこ煮",
+   "name_romaji": "Itoko Ni",
+   "name_en": "Itoko ni — sweet azuki beans with rice-flour dumplings in a clear broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 34.4084,
+   "lng": 131.4004,
+   "summary_ja": "甘く煮た小豆と白玉だんごを合わせる山口の行事食で、地域差が大きい。日本海側の「萩風いとこ煮」は昆布だしの澄んだ冷たい汁仕立てで、白玉は祝儀に紅、不祝儀に白と染め分けられると伝わる。",
+   "summary_en": "Sweetened azuki beans are paired with rice-flour dumplings in this Yamaguchi dish, its style shifting sharply by region. The Hagi-style version, from the Sea of Japan coast, is served cold in a clear kelp broth, its dumplings dyed red for celebrations and white for funerals.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_3_yamaguchi.html",
+     "title": "いとこ煮 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yamaguchi-itokoni",
+     "to_slug": "shiga-itokoni",
+     "relation_type": "対比",
+     "basis": "同じ「いとこ煮」の名を持つが、山口は小豆と白玉だんご、滋賀は小豆と里芋・かぼちゃを合わせる点で異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "既存slug「itokoni」（富山県）「shiga-itokoni」（滋賀県）と同名のため slug を yamaguchi-itokoni に変更。伝承地域は県全域のため代表的な「萩風いとこ煮」にちなみ萩市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "wakame-musubi",
+   "name_ja": "わかめむすび",
+   "name_romaji": "Wakame Musubi",
+   "name_en": "Wakame musubi — rice balls coated in dried, shredded wakame seaweed",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 34.4084,
+   "lng": 131.4004,
+   "summary_ja": "春に採れたわかめを海岸沿いに干し、刻んでおむすびにまぶす萩地域の一品。参勤交代の道中、長州の侍がご飯に刻みわかめをかけていたという逸話も残る、故郷の弁当の味と伝わる。",
+   "summary_en": "Wakame seaweed, harvested in spring and dried along the shore, is shredded and pressed over the outside of rice balls in this dish from the Hagi area. An old anecdote tells of a Choshu samurai sprinkling shredded wakame on his rice during the daimyo's procession to Edo, and it remains a beloved bento staple.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_4_yamaguchi.html",
+     "title": "わかめむすび 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "wakame-musubi",
+     "to_slug": "kinako-musubi",
+     "relation_type": "対比",
+     "basis": "どちらも農作業の合間に食べる素朴なおむすびだが、山口はわかめ、広島はきなこをまぶす点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は「萩地域、北浦地域、長門地域」と広域。代表として萩市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yamaguchi-chagayu",
+   "name_ja": "茶がゆ",
+   "name_romaji": "Chagayu",
+   "name_en": "Chagayu — rice porridge cooked in roasted bancha tea, sometimes with sweet potato",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "柳井市",
+   "lat": 33.9633,
+   "lng": 132.1017,
+   "summary_ja": "ほうじた番茶で米を炊いたかゆで、17世紀初頭に岩国藩主が米の節約のため奨励し、柳井や周防大島など県内に広まったと伝わる。さらりとした口当たりで、夏は冷やして食べることが多い。",
+   "summary_en": "Rice is cooked directly in roasted bancha tea for this porridge, said to have spread across Yamaguchi after the Iwakuni domain's lord encouraged it in the early 1600s as a way to stretch scarce rice. Light and easy to eat, it is often served chilled in summer.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_6_yamaguchi.html",
+     "title": "茶がゆ 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yamaguchi-chagayu",
+     "to_slug": "wakame-musubi",
+     "relation_type": "対比",
+     "basis": "どちらも山口の日常的な米料理だが、茶がゆは粥仕立て、わかめむすびは握り飯という違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "既存slug「chagayu」（三重県）と同名のため slug を yamaguchi-chagayu に変更。伝承地域は「柳井地区、周防大島地区、岩国地区、萩地区」と広域。広まりの起点として本文にある柳井市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsushima",
+   "name_ja": "つしま",
+   "name_romaji": "Tsushima",
+   "name_en": "Tsushima — cooked tofu tossed with vegetables in a sweet-vinegar dressing",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 34.0533,
+   "lng": 131.8058,
+   "summary_ja": "炒った豆腐に、だしで煮て下味をつけたにんじんやごぼう、干しえびをあえる周南地域の一皿。生ものを使わず日持ちすることから常備菜として重宝され、来客のもてなしにも用いられてきたと伝わる。",
+   "summary_en": "Pan-cooked tofu is tossed with carrot, burdock, and dried shrimp, each pre-simmered in dashi for flavor—a dish from the Shunan area. Made entirely from cooked ingredients, it keeps well and has long served as both an everyday side and a dish for welcoming guests.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_7_yamaguchi.html",
+     "title": "つしま 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tsushima",
+     "to_slug": "kencho",
+     "relation_type": "対比",
+     "basis": "どちらも豆腐と根菜をしょうゆで仕立てる山口の常備菜だが、つしまは酢を効かせた白あえ風という違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は「周南地域」と広域。中心市である周南市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yamaguchi-ohira",
+   "name_ja": "大平",
+   "name_romaji": "Ohira",
+   "name_en": "Ohira — Iwakuni's broth-rich chicken and root vegetable stew",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 34.1667,
+   "lng": 132.2167,
+   "summary_ja": "鶏肉と里芋、れんこんなどを汁多めに煮て、大きな塗り椀「大平」に盛る岩国地域の料理。冠婚葬祭で大人数に振る舞われ、押し寿司の「岩国寿司」と並ぶ祝いの一皿と伝わる。",
+   "summary_en": "Chicken and root vegetables such as taro and lotus root are simmered in a broth-rich stew and served in a large lacquered bowl called \"ohira,\" the dish's namesake, in the Iwakuni area. Served to crowds at weddings and funerals, it stands alongside the pressed sushi Iwakuni-zushi as an essential celebratory dish.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_8_yamaguchi.html",
+     "title": "大平 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yamaguchi-ohira",
+     "to_slug": "hiroshima-ohira",
+     "relation_type": "対比",
+     "basis": "出典に、隣接する広島県にも同名の料理があると明記されている"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は「岩国地域」と広域。中心市である岩国市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yamaguchi-noppei",
+   "name_ja": "のっぺい",
+   "name_romaji": "Noppei",
+   "name_en": "Noppei — root vegetables and chicken simmered with a light cornstarch thickening",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 34.4084,
+   "lng": 131.4004,
+   "summary_ja": "里芋やごぼう、れんこんなど冬の根菜を鶏肉とだしで煮て、片栗粉で軽くとろみをつける萩の一皿。仏事に出す際は鶏肉を抜きぎんなんを加えるなど、精進の作法が今も残ると伝わる。",
+   "summary_en": "Winter root vegetables such as taro, burdock, and lotus root are simmered with chicken in dashi, then lightly thickened with cornstarch—a dish from the castle town of Hagi. For Buddhist memorial meals the chicken is left out and ginkgo nuts added instead, a vegetarian custom still observed.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_9_yamaguchi.html",
+     "title": "のっぺい 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yamaguchi-noppei",
+     "to_slug": "noppei",
+     "relation_type": "対比",
+     "basis": "三重県の「のっぺい」と同名だが、萩は冬の根菜中心で片栗粉のとろみを効かせる点が特徴とされる"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "chicken"
+   ],
+   "notes": "既存slug「noppei」（三重県）と同名のため slug を yamaguchi-noppei に変更。伝承地域は「萩地域」と広域のため萩市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "unohana-kizushi",
+   "name_ja": "うの花きずし／唐ずし",
+   "name_romaji": "Unohana Kizushi",
+   "name_en": "Unohana kizushi — hand-formed sushi of vinegared sardine on seasoned okara",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 34.4084,
+   "lng": 131.4004,
+   "summary_ja": "酢飯の代わりに味付けしたおからを握り、酢でしめたイワシを巻きつける北浦地域の寿司。イワシもおからも安価に手に入ったことから保存食として重宝され、正月や婚礼のもてなし料理として伝わる。",
+   "summary_en": "Seasoned okara is pressed into shape in place of vinegared rice and wrapped in vinegar-cured sardine for this sushi from the Hokuura coast. Both sardine and soy pulp were cheap and plentiful, making the dish an easy keeper that also served as festive fare at New Year and weddings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_10_yamaguchi.html",
+     "title": "うの花きずし／唐ずし 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "unohana-kizushi",
+     "to_slug": "azuma",
+     "relation_type": "対比",
+     "basis": "どちらも酢飯の代わりにおからを使う握り寿司で、広島のあずま（ママカリ）と山口のうの花きずし（イワシ）という隣県での対比"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は「北浦地域」と広域。代表として萩市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kashiwa-wan",
+   "name_ja": "柏椀",
+   "name_romaji": "Kashiwa Wan",
+   "name_en": "Kashiwa wan — a clear chicken and shiitake soup served for formal occasions",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 34.1785,
+   "lng": 131.4737,
+   "summary_ja": "鶏肉（かしわ）としいたけを別々に煮て味を含ませ、冷ました汁を椀に注ぎ入れる山口のもてなし料理。彩りよく盛り付ける見た目の美しさから、冠婚葬祭で酒の膳に添えられてきたと伝わる。",
+   "summary_en": "Chicken—\"kashiwa\" in the dish's name—and shiitake are each simmered separately to absorb flavor, then set in a bowl and covered with a cooled broth. Prized for how elegantly it can be arranged, it has long accompanied the drinking course at Yamaguchi weddings and memorial gatherings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_11_yamaguchi.html",
+     "title": "柏椀 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kashiwa-wan",
+     "to_slug": "yamaguchi-noppei",
+     "relation_type": "対比",
+     "basis": "どちらも山口のもてなし料理だが、柏椀は澄まし仕立ての椀物、のっぺいはとろみのある煮物という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "chicken"
+   ],
+   "notes": "伝承地域は「長門、萩、山口市」と広域。県庁所在地である山口市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hasu-no-sanbai",
+   "name_ja": "はすのさんばい",
+   "name_romaji": "Hasu no Sanbai",
+   "name_en": "Hasu no sanbai — lotus root and carrot dressed in a three-part vinegar sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 34.1667,
+   "lng": 132.2167,
+   "summary_ja": "穴が9つあるのが特徴の岩国れんこんを、にんじんや白身魚とともに三杯酢であえる箸休め。名の由来は調味料の「三杯酢」からとも、田の神「さんばい」からとも言われ、正月や祝いの膳に添えられる。",
+   "summary_en": "Iwakuni lotus root, notable for having nine holes instead of the usual eight, is dressed with carrot and white fish in a three-part vinegar sauce as a palate cleanser. The name may come from the sanbaizu dressing itself, or from \"sanbai,\" a local word for the rice-field deity, and it appears at New Year and celebratory meals.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_12_yamaguchi.html",
+     "title": "はすのさんばい 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hasu-no-sanbai",
+     "to_slug": "yamaguchi-ohira",
+     "relation_type": "兄弟",
+     "basis": "出典に、岩国寿司・大平と合わせて「氏盛料理」と呼ばれるとの記載がある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は「岩国地域」と広域。中心市である岩国市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nuta",
+   "name_ja": "ぬた",
+   "name_romaji": "Nuta",
+   "name_en": "Nuta — leek and whale tail dressed in sweet white miso vinegar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 34.4084,
+   "lng": 131.4004,
+   "summary_ja": "ねぎとオバイケ（クジラの尾のスライス）を白みそと酢であえる北浦地域の一皿。江戸時代から捕鯨が盛んだったこの地域では鯨肉を余さず使う工夫が根付き、コリコリとした食感が親しまれてきたと伝わる。",
+   "summary_en": "Leek is dressed with obaike—sliced whale tail—in a sweet white-miso vinegar sauce, a dish from the Hokuura coast. Whaling has thrived here since the Edo period, and using every part of the catch became second nature, with the tail's crunchy, gelatinous texture prized in this dish.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_13_yamaguchi.html",
+     "title": "ぬた 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nuta",
+     "to_slug": "wakegi-no-nuta",
+     "relation_type": "対比",
+     "basis": "広島県の「わけぎのぬた」と同じ酢みそあえの系統だが、山口はねぎとオバイケ（鯨）を使う点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は「北浦地域」と広域。萩エリアでの呼び名（ねぎあえ）が本文にあるため萩市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gobo-maki",
+   "name_ja": "ごぼう巻き",
+   "name_romaji": "Gobomaki",
+   "name_en": "Gobomaki — burdock root skewered, wrapped in fish skin, and grilled",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": "nerimono",
+   "origin_pref": "山口県",
+   "origin_city": "萩市",
+   "lat": 34.4084,
+   "lng": 131.4004,
+   "summary_ja": "かまぼこ作りで残るエソの皮をごぼうに巻きつけ、たれにつけて焼く萩の一品。焼き抜きかまぼこの高級魚エソを使うため、水産加工会社がかまぼこと一緒に作ることが多く、祭りや花見の弁当に欠かせないと伝わる。",
+   "summary_en": "Lizardfish skin, a byproduct of making fish cakes, is wrapped around a skewer of burdock root and grilled with a basting sauce—a dish from Hagi. Because it uses lizardfish, prized for the region's grilled fish cakes, seafood processors often make the two together, and it is a fixture of festival and cherry-blossom bento.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_14_yamaguchi.html",
+     "title": "ごぼう巻き 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gobo-maki",
+     "to_slug": "shirayaki-kamaboko",
+     "relation_type": "使用食材",
+     "basis": "出典に、かまぼこ作りで生じるエソの皮を使うことが明記されている"
+    }
+   ],
+   "tags": [
+    "skewered"
+   ],
+   "notes": "台帳のshelfは homestyle だったが、串に刺して焼き上げる調理法のため grilled に修正。genre はかまぼこ加工品のため nerimono を付与",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yamaguchi-kashiwamochi",
+   "name_ja": "柏餅",
+   "name_romaji": "Kashiwa Mochi",
+   "name_en": "Kashiwa mochi wrapped in sarutoriibara leaves, a Boys' Day sweet",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 34.1785,
+   "lng": 131.4737,
+   "summary_ja": "上新粉と白玉粉の餅であんを包み、蒸す端午の節句の菓子。全国的にはかしわの葉で包むが、山口ではサルトリイバラの葉を使い、「ほてんどもち」など地域ごとの呼び名も多く残ると伝わる。",
+   "summary_en": "Rice-flour dough wraps sweet bean paste and is steamed for this Boys' Day confection, eaten across the country on May 5th. While most regions wrap it in oak leaves, Yamaguchi traditionally uses sarutoriibara (Chinese smilax) leaves instead, and the sweet carries many local names such as \"hotendo-mochi.\"",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_15_yamaguchi.html",
+     "title": "柏餅 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yamaguchi-kashiwamochi",
+     "to_slug": "kashiwa-mochi",
+     "relation_type": "対比",
+     "basis": "福井県の「柏餅」と同名の全国的な菓子だが、山口はかしわの葉ではなくサルトリイバラの葉で包む点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "既存slug「kashiwa-mochi」（福井県）と同名だが、包む葉がかしわではなくサルトリイバラという地域固有の違いがあるため yamaguchi-kashiwamochi として新規作成。伝承地域は県全域のため県庁所在地の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fuku-sashi",
+   "name_ja": "ふく刺し",
+   "name_romaji": "Fuku Sashi",
+   "name_en": "Fuku sashi — paper-thin pufferfish sashimi arranged in a chrysanthemum pattern",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 33.9578,
+   "lng": 130.9414,
+   "summary_ja": "透けるほど薄く切ったふぐの刺身を菊の花のように盛り付ける下関の一皿。福を呼ぶ意味で「ふぐ」を「ふく」と呼び、ポン酢と薬味で食す。明治21年、下関でのみふぐ食が解禁されたのが始まりと伝わる。",
+   "summary_en": "Pufferfish sashimi is sliced so thin it becomes translucent, then arranged in a chrysanthemum pattern in this Shimonoseki dish. Locals call the fish \"fuku,\" a homophone for good fortune, and eat it with citrus ponzu and scallion; the practice traces to 1888, when eating pufferfish was legalized in Yamaguchi alone.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_16_yamaguchi.html",
+     "title": "ふく刺し 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "fuku-sashi",
+     "to_slug": "fugu-no-karaage",
+     "relation_type": "兄弟",
+     "basis": "どちらも下関・萩地域のふぐを使う山口の郷土料理という同じ食材系統"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は「下関地域、萩地域」と広域。ふぐ食文化の中心地である下関市の座標を使用。台帳のshelfは homestyle だったが刺身のため raw に修正",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chicken-chicken-gobo",
+   "name_ja": "チキンチキンごぼう",
+   "name_romaji": "Chikin Chikin Gobo",
+   "name_en": "Chicken chicken gobo — bite-size fried chicken and burdock in a sweet soy glaze",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 34.1785,
+   "lng": 131.4737,
+   "summary_ja": "一口大の鶏の唐揚げと素揚げごぼうを甘辛いたれで絡める学校給食発の一皿。1995年ごろ、家庭のレシピを募って栄養教諭が考案したとされ、口ずさみやすい名前とともに県民食として広まったと伝わる。",
+   "summary_en": "Bite-size fried chicken and deep-fried burdock are tossed in a sweet soy glaze in this dish, born in Yamaguchi's school lunches. A nutrition teacher is said to have devised it around 1995 from recipes submitted by families, and its catchy, rhythmic name helped it spread into a statewide favorite.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_17_yamaguchi.html",
+     "title": "チキンチキンごぼう 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "chicken-chicken-gobo",
+     "to_slug": "nebuto-no-karaage",
+     "relation_type": "対比",
+     "basis": "どちらも瀬戸内側の郷土揚げ物だが、ねぶとの唐揚げは伝統的な小魚料理、チキンチキンごぼうは1990年代の給食発という違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は「全域」のため県庁所在地の座標を使用。台帳のshelfは homestyle だったが唐揚げのため fried に修正",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fugu-no-karaage",
+   "name_ja": "ふぐの唐揚げ",
+   "name_romaji": "Fugu no Karaage",
+   "name_en": "Fugu no karaage — deep-fried pufferfish, a homely counterpart to fugu sashimi",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 33.9578,
+   "lng": 130.9414,
+   "summary_ja": "しょうゆや酒で下味をつけたふぐを片栗粉で揚げる下関・萩の家庭料理。刺身や鍋には高級なトラフグが使われる一方、唐揚げには安価なシロサバフグが使われることが多いと伝わる。",
+   "summary_en": "Pufferfish, marinated in soy sauce and sake, is coated in potato starch and deep-fried—a homely dish from the Shimonoseki and Hagi areas. While pricier tiger pufferfish goes into sashimi and hot pot, the more affordable shirosabafugu species is the one most often fried this way.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_18_yamaguchi.html",
+     "title": "ふぐの唐揚げ 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "fugu-no-karaage",
+     "to_slug": "fuku-sashi",
+     "relation_type": "兄弟",
+     "basis": "どちらも下関・萩地域のふぐを使う山口の郷土料理という同じ食材系統"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は「下関地域、萩地域」と広域。ふぐ食文化の中心地である下関市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kujira-no-nanbanni",
+   "name_ja": "くじらの南蛮煮",
+   "name_romaji": "Kujira no Nanbanni",
+   "name_en": "Kujira no nanbanni — whale meat and skin simmered miso-style with chili",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 34.3711,
+   "lng": 131.1875,
+   "summary_ja": "クジラの赤身と皮を根菜とともに煮て、赤唐辛子と味噌で仕上げる長門・下関の一皿。長門は江戸時代から続く古い捕鯨の地で、繁栄をもたらしたクジラを弔う法要が今も営まれていると伝わる。",
+   "summary_en": "Whale meat and skin are simmered with root vegetables, finished with red chili and miso, in this dish from the Nagato and Shimonoseki area. Nagato has whaled since the Edo period, and the memorial rites still held there honor the whales that were said to have brought the town its prosperity.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_19_yamaguchi.html",
+     "title": "くじらの南蛮煮 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kujira-no-nanbanni",
+     "to_slug": "kujira-no-tatsutaage",
+     "relation_type": "兄弟",
+     "basis": "どちらも長門・下関地域の捕鯨文化に根ざす山口の鯨料理という同じ食材系統"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域は「長門市、下関市」の2市。捕鯨の中心地である長門市の座標を代表として使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gube-jiru",
+   "name_ja": "ぐべ汁",
+   "name_romaji": "Gube Jiru",
+   "name_en": "Gube jiru — a miso soup of limpets gathered from Mishima's rocky shore",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "萩市見島",
+   "lat": 34.7333,
+   "lng": 131.1167,
+   "summary_ja": "磯や防波堤につく直径2〜3センチの笠貝「ぐべ」を出汁と具にした味噌汁。萩港から北へ約45キロの離島・見島で、漁師のみならず沿岸の農家でも古くから食されてきたと伝わる。",
+   "summary_en": "Gube—small limpets, two to three centimeters across, gathered from rocky shores and breakwaters—are simmered into both the stock and the filling of this miso soup. It comes from Mishima, an island about 45 kilometers off Hagi's coast, where it was eaten not only by fishing families but by farming households near the shore.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_21_yamaguchi.html",
+     "title": "ぐべ汁 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gube-jiru",
+     "to_slug": "oyomesan-dangojiru",
+     "relation_type": "対比",
+     "basis": "どちらも山口の素朴な家庭の汁物だが、ぐべ汁は離島の貝の味噌汁、お嫁さん団子汁は内陸のすいとん風という違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oyomesan-dangojiru",
+   "name_ja": "お嫁さん団子汁",
+   "name_romaji": "Oyomesan Dangojiru",
+   "name_en": "Oyomesan dangojiru — wheat dumpling soup made for new mothers",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "田布施町",
+   "lat": 33.9667,
+   "lng": 132.05,
+   "summary_ja": "小麦粉の団子をあらかじめ茹でておき、根菜と白味噌の汁に合わせる田布施町の料理。出産をした「おごうさん（お嫁さん）」の母乳の出をよくする願いを込め、子の性別で団子の形を変える風習も伝わる。",
+   "summary_en": "Wheat-flour dumplings are boiled ahead of time and combined into a white-miso broth thick with root vegetables in this dish from Tabuse. Made for new mothers—called \"ogosan\" locally—with a wish for plentiful breast milk, the dumplings were once shaped differently depending on the baby's sex.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_22_yamaguchi.html",
+     "title": "お嫁さん団子汁 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "oyomesan-dangojiru",
+     "to_slug": "gube-jiru",
+     "relation_type": "対比",
+     "basis": "どちらも山口の素朴な家庭の汁物だが、お嫁さん団子汁は内陸のすいとん風、ぐべ汁は離島の貝の味噌汁という違いがある"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hasuimo-no-sunomono",
+   "name_ja": "はすいもの酢の物",
+   "name_romaji": "Hasuimo no Sunomono",
+   "name_en": "Hasuimo no sunomono — raw lotus-taro stem and grilled horse mackerel in vinegar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "萩市",
+   "lat": 34.4084,
+   "lng": 131.4004,
+   "summary_ja": "れんこんのように小さな穴があく葉柄野菜「はすいも」を生のまま薄切りにし、焼きほぐしたアジと合わせ酢であえる萩の夏の一皿。シャリシャリとした食感が涼を呼ぶと伝わる。",
+   "summary_en": "Hasuimo, a taro-family stem vegetable riddled with small holes like lotus root, is thinly sliced raw and dressed with vinegar alongside flaked grilled horse mackerel—a summer dish from Hagi. Eaten raw, the stem keeps a crisp, watery crunch said to bring relief from the heat.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_23_yamaguchi.html",
+     "title": "はすいもの酢の物 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hasuimo-no-sunomono",
+     "to_slug": "hasu-no-sanbai",
+     "relation_type": "対比",
+     "basis": "どちらも山口の「はす」の名を持つ酢の物だが、はすいもの酢の物は葉柄野菜、はすのさんばいはれんこんを使う点で異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "uni-meshi",
+   "name_ja": "うに飯",
+   "name_romaji": "Uni Meshi",
+   "name_en": "Uni meshi — sea urchin cooked whole into rice, a dish for honored guests",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "萩市",
+   "lat": 34.4084,
+   "lng": 131.4004,
+   "summary_ja": "生ウニと米を一緒に炊き込む萩沿岸の料理。海藻が豊富な萩沖のウニは甘みとこくに優れ高価なため、普段は食卓に上らず、大切な客人をもてなす際に振る舞われてきたと伝わる。",
+   "summary_en": "Raw sea urchin is cooked directly into the rice for this dish from the Hagi coast. Urchin from the seaweed-rich waters off Hagi is prized for its sweetness and richness, but its price keeps it off everyday tables—traditionally it was served only to honored guests.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_24_yamaguchi.html",
+     "title": "うに飯 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "uni-meshi",
+     "to_slug": "kaki-meshi",
+     "relation_type": "対比",
+     "basis": "どちらも瀬戸内・日本海側の高級な海の幸を炊き込むもてなしのご飯という共通点がある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は萩市（見島を中心とした萩エリア）",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "uiro",
+   "name_ja": "外郎",
+   "name_romaji": "Uiro",
+   "name_en": "Yamaguchi uiro — a bouncy warabi-starch confection unlike Nagoya's rice version",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "山口市",
+   "lat": 34.1785,
+   "lng": 131.4737,
+   "summary_ja": "ワラビ粉を使い、ぷるぷるとした弾力ともちもちとした食感を出す山口の外郎。名古屋の外郎が米粉主体で仕上げるのに対し、山口では室町時代から食べ継がれてきたとされ、独特のなめらかさが特徴とされる。",
+   "summary_en": "Bracken starch gives Yamaguchi's uiro its springy, almost jelly-like bounce, unlike the rice-flour version associated with Nagoya. Said to have been eaten in the region since the Muromachi period, it is prized locally for a smoothness residents describe with the word \"ottori.\"",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_25_yamaguchi.html",
+     "title": "外郎 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "uiro",
+     "to_slug": "yamaguchi-kashiwamochi",
+     "relation_type": "対比",
+     "basis": "どちらも山口の伝統的な和菓子だが、外郎はワラビ粉主体、柏餅は上新粉主体という原料の違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "全国的には名古屋の外郎（米粉主体）が知られるが、山口はワラビ粉を使う独自の製法のため slug は uiro のまま新規作成（現時点でシステム内に既存の同名slugなし）",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kabu-zoni",
+   "name_ja": "かぶ雑煮",
+   "name_romaji": "Kabu Zoni",
+   "name_en": "Kabu zoni — turnip and mochi in a clear soy broth for New Year's",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 34.4084,
+   "lng": 131.4004,
+   "summary_ja": "丸もちとかぶ、三つ葉を具にした澄まし仕立ての雑煮。焼かずに餅を入れるため汁にとろみがつくのが特徴で、細く結んだするめを加えて香りを添える地域もあると、萩地域を中心に伝わる。",
+   "summary_en": "Round mochi, turnip, and mitsuba herb go into a clear soy broth for this New Year's soup. The mochi is added unbaked, giving the broth a slight thickness, and some households tie in a knot of dried squid for aroma—a custom centered on the Hagi area.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_26_yamaguchi.html",
+     "title": "かぶ雑煮 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kabu-zoni",
+     "to_slug": "kaki-zoni",
+     "relation_type": "対比",
+     "basis": "どちらも各県のお正月を彩る雑煮だが、かぶ雑煮はかぶとすまし汁、かき雑煮（広島県）は牡蠣が主役という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は「県内全域」だが、本文が「萩市などを中心に」と明記するため萩市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kujira-no-tatsutaage",
+   "name_ja": "くじらの竜田揚げ",
+   "name_romaji": "Kujira no Tatsutaage",
+   "name_en": "Kujira no tatsutaage — whale meat marinated and fried, a former school-lunch staple",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 33.9578,
+   "lng": 130.9414,
+   "summary_ja": "しょうゆやみりん、しょうが汁に漬け込んだクジラの赤身を片栗粉で揚げる山口の一皿。戦後の学校給食の定番として広く親しまれ、下関や長門など捕鯨で栄えた地域では今も飲食店の逸品と伝わる。",
+   "summary_en": "Whale meat, marinated in soy sauce, mirin, and ginger juice, is coated in potato starch and fried in this Yamaguchi dish. It became a beloved staple of postwar school lunches nationwide, and in whaling towns like Shimonoseki and Nagato it remains a standout on restaurant menus.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_27_yamaguchi.html",
+     "title": "くじらの竜田揚げ 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kujira-no-tatsutaage",
+     "to_slug": "kujira-no-nanbanni",
+     "relation_type": "兄弟",
+     "basis": "どちらも長門・下関地域の捕鯨文化に根ざす山口の鯨料理という同じ食材系統"
+    }
+   ],
+   "tags": [],
+   "notes": "既存slug「tatsuta-age」（奈良県）とは別物（食材がクジラで異なる）のため kujira-no-tatsutaage を新規作成。伝承地域は「全域」だが、本文末尾で強調される下関市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "natsumikan-gashi",
+   "name_ja": "夏みかん菓子",
+   "name_romaji": "Natsumikan Gashi",
+   "name_en": "Natsumikan gashi — candied peel from the sour orange that saved a samurai town",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "萩市",
+   "lat": 34.4084,
+   "lng": 131.4004,
+   "summary_ja": "夏みかんの皮を丁寧にゆでこぼし、砂糖蜜で煮詰めてグラニュー糖をまぶす萩の菓子。藩庁移転で困窮した士族の屋敷跡に夏みかんの苗木を配ったことが栽培の始まりとされ、皮まで無駄にしない知恵から生まれたと伝わる。",
+   "summary_en": "Natsumikan citrus peel is boiled repeatedly to soften it, simmered in sugar syrup, and dusted with granulated sugar for this Hagi confection. Cultivation is said to have begun when a former official distributed saplings to impoverished samurai households after the domain's seat moved away, and the sweet grew from a wish to waste nothing, not even the peel.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_28_yamaguchi.html",
+     "title": "夏みかん菓子 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "natsumikan-gashi",
+     "to_slug": "uiro",
+     "relation_type": "対比",
+     "basis": "どちらも山口の伝統的なお茶菓子だが、夏みかん菓子は柑橘の皮の砂糖漬け、外郎はワラビ粉の蒸し菓子という違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yamaguchi-takenoko-no-misoni",
+   "name_ja": "筍の味噌煮",
+   "name_romaji": "Takenoko no Misoni",
+   "name_en": "Takenoko no misoni — bamboo shoot pan-simmered in miso until glossy",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "山口県",
+   "origin_city": "",
+   "lat": 34.1667,
+   "lng": 132.2167,
+   "summary_ja": "乱切りにしたたけのこを油で炒め、味噌と砂糖、しょうゆで汁気がなくなるまで煮詰める山口の春の一皿。岩国の名産として知られるたけのこを使い、家庭料理として親しまれてきたと伝わる。",
+   "summary_en": "Bamboo shoot, cut into large chunks, is pan-fried in oil, then simmered down with miso, sugar, and soy sauce until the liquid is nearly gone—a spring dish in Yamaguchi. It draws on bamboo shoots long known as a specialty of Iwakuni, and has long been a familiar dish on home tables.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/43_29_yamaguchi.html",
+     "title": "筍の味噌煮 山口県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yamaguchi-takenoko-no-misoni",
+     "to_slug": "hasu-no-sanbai",
+     "relation_type": "対比",
+     "basis": "どちらも岩国の名産野菜を使う山口の郷土料理だが、筍の味噌煮はたけのこ、はすのさんばいはれんこんが主役という違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "既存slug「takenoko-no-misoni」（富山県）と同名のため slug を yamaguchi-takenoko-no-misoni に変更。伝承地域は「全域」だが、本文が岩国の名産と明記するため岩国市の座標を使用",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: 43_5(岩国寿司)=existing_slug iwakuni-zushi・match_confidence=highのため作らず / 43_20(わかめの醤油漬け)=genre_hint tsukemonoのため作らず（魚介の醤油漬け等の例外規定は魚介対象であり、わかめ（海藻）の醤油漬けは通常の漬物の範疇と判断し例外を適用しなかった） / 43_30(瓦そば)=existing_slug kawara-soba・match_confidence=highのため作らず。low判定の内訳: 43_18(ふぐの唐揚げ, existing_slug=karaage)は下関・萩のシロサバフグの唐揚げで、システムのkaraage（汎用・県紐付けなし）とは別物と判断し作成。43_27(くじらの竜田揚げ, existing_slug=tatsuta-age)は奈良県の既存「たつた揚げ」とは食材（クジラ）が異なる別物と判断し kujira-no-tatsutaage として作成。棚を変えた行: 43_14(ごぼう巻き)は台帳shelf=homestyleだったが串に刺して焼く調理法のため shelf=grilled, genre=nerimono に変更。43_16(ふく刺し)は台帳shelf=homestyleだったが刺身のため shelf=raw に変更。43_17(チキンチキンごぼう)は台帳shelf=homestyleだったが唐揚げ主体のため shelf=fried, genre=fried に変更。座標の根拠: 伝承地域が「県全域」「地域」等の広域表記の行は、本文が特定市を強調していればその市（例: chisha-namasu, kencho→下関市/kabu-zoni, itokoni→萩市）を、特に強調が無ければ地方の中心都市または県庁所在地（山口市）を代表座標に採用し、各itemのnotesに個別記載した。要判断: 43_15(柏餅)は台帳のexisting_slug欄は空だったが、all-items-ja.txtに既存slug「kashiwa-mochi」（福井県）が同名で存在するのを発見。本文でサルトリイバラの葉を使う点（全国的なかしわ＝オークの葉と異なる）が明確な地域差のため、別物として yamaguchi-kashiwamochi を新規作成した。43_9(のっぺい)・43_3(いとこ煮)・43_25(外郎)も同様に、既存slug（noppei/三重, itokoni・shiga-itokoni/富山・滋賀, なし）との突合を行い、同名だが県が異なるため pref付きslugで新規作成（外郎は現時点で衝突なしのためuiroのまま）。43_8(大平)は広島県42_25と同名の郷土料理で、本文が互いの存在に言及しているため yamaguchi-ohira / hiroshima-ohira として対比関係を付与。"
+}
