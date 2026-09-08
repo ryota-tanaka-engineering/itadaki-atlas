@@ -1,0 +1,1130 @@
+{
+ "items": [
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=飛騨地方南部から中濃地域の広域のため郡上市を代表地点とした。",
+   "genre": "sushi",
+   "origin_city": "",
+   "slug": "houba-zushi",
+   "name_ja": "朴葉ずし",
+   "name_romaji": "Hobazushi",
+   "name_en": "Hobazushi — vinegared rice wrapped in magnolia leaves",
+   "shelf": "rice",
+   "origin_pref": "岐阜県",
+   "lat": 35.7333,
+   "lng": 136.9622,
+   "summary_ja": "朴の葉に酢飯と川魚の甘露煮や卵などをのせて包む初夏の郷土寿司。葉には殺菌・防カビ効果があるとされ、共同で行う田植え作業の携行食として、前日から作り置きできる便利さも重宝されてきたという。",
+   "summary_en": "Vinegared rice, topped with things like simmered river fish or egg, is wrapped in a magnolia leaf — an early-summer sushi of Gifu. The leaf is said to carry antibacterial properties, and its convenience — made the day before, no dishes to wash — suited the shared labor of rice planting.",
+   "sources": [
+    {
+     "title": "朴葉ずし 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_1_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "houba-zushi",
+     "to_slug": "houba-maki",
+     "relation_type": "対比",
+     "basis": "朴の葉を器や包みに使う点は共通するが、飛騨・中濃の朴葉ずしは田植え時期の携行寿司、木曽のほう葉巻きは端午の節句の祝い餅という違いがある"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=郡上市、下呂市、高山市南部の広域のため郡上市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "keichan",
+   "name_ja": "鶏ちゃん",
+   "name_romaji": "Keichan",
+   "name_en": "Keichan — chicken and cabbage stir-fried in a house-blend sauce",
+   "shelf": "homestyle",
+   "origin_pref": "岐阜県",
+   "lat": 35.7333,
+   "lng": 136.9622,
+   "summary_ja": "鶏肉とキャベツなどの野菜を、味噌や醤油ベースの特製だれで鉄板やジンギスカン鍋で焼く郡上市周辺の一品。卵を産まなくなった鶏を無駄なく食べたのが始まりと伝わり、味付けは店や家庭ごとに異なるという。",
+   "summary_en": "Chicken and cabbage and other vegetables are seared on a griddle or Genghis Khan pan in a house-made miso- or soy-based sauce — a dish of the Gujo area said to have started as a way to use hens once they stopped laying, seasoning varying by household and shop.",
+   "sources": [
+    {
+     "title": "鶏ちゃん 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_2_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "keichan",
+     "to_slug": "okumino-kojidori",
+     "relation_type": "対比",
+     "basis": "郡上市周辺の鶏肉料理という共通点があるが、鶏ちゃんは家庭やホルモン焼き店発祥の炒め物、奥美濃古地鶏は飼育された地鶏そのものという違いがある"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "miso",
+    "soy_sauce"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=東濃地域の広域のため恵那市を代表地点とした。塩蔵魚卵の「からすみ」とは別の米粉菓子。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "karasumi",
+   "name_ja": "からすみ",
+   "name_romaji": "Karasumi",
+   "name_en": "Karasumi — a steamed rice-flour sweet shaped like twin peaks",
+   "shelf": "sweets",
+   "origin_pref": "岐阜県",
+   "lat": 35.4489,
+   "lng": 137.4139,
+   "summary_ja": "練った米粉を木型に入れて蒸し、切り口が山のような二つの峰になる東濃地域の和菓子。海から遠いこの地域では高級珍味のからすみが貴重だったため、形の似たお菓子で代替したのが由来のひとつと伝わる。",
+   "summary_en": "Kneaded rice flour is pressed into a wooden mold and steamed until the cut cross-section forms twin peaks like a mountain — a confection of the Tono region. One account traces the name to a scarcity of the prized mullet-roe delicacy of the same name in this landlocked area, so a similarly shaped sweet stood in.",
+   "sources": [
+    {
+     "title": "からすみ 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_3_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "karasumi",
+     "to_slug": "kuri-kinton",
+     "relation_type": "対比",
+     "basis": "どちらも東濃地域で発展した米や栗を素材にした郷土菓子という共通点がある"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=木曽川流域の中濃地域、長良川流域の岐阜地域、揖斐川流域の西濃地域の広域のため岐阜市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "ayu-zosui",
+   "name_ja": "鮎ぞうすい",
+   "name_romaji": "Ayu Zosui",
+   "name_en": "Ayu zosui — grilled ayu simmered into a light rice porridge",
+   "shelf": "hotpot",
+   "origin_pref": "岐阜県",
+   "lat": 35.4233,
+   "lng": 136.7606,
+   "summary_ja": "香ばしく素焼きにした鮎を、ほぐしながらだし汁とご飯でさっと煮た岐阜県の川魚料理。漁で傷がつき市場に出しにくくなった鮎をおいしく食べる工夫が始まりとされ、鮎料理を出す食事処で締めの一品として供されることが多いという。",
+   "summary_en": "Ayu, grilled plain until fragrant, is flaked and briefly simmered with dashi and rice into a light porridge — a Gifu river-fish dish said to have begun as a way to use ayu too damaged from fishing to sell whole, often served as the closing course at restaurants specializing in ayu.",
+   "sources": [
+    {
+     "title": "鮎ぞうすい 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_4_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ayu-zosui",
+     "to_slug": "gifu-ayu-shioyaki",
+     "relation_type": "兄弟",
+     "basis": "鮎料理として塩焼きの締めに雑炊が出されることが多いと本文にある"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=東濃地域の広域のため恵那市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "hebo-meshi",
+   "name_ja": "へぼ飯",
+   "name_romaji": "Hebo Meshi",
+   "name_en": "Hebo meshi — rice mixed with sweet-simmered wasp larvae",
+   "shelf": "rice",
+   "origin_pref": "岐阜県",
+   "lat": 35.4489,
+   "lng": 137.4139,
+   "summary_ja": "地蜂とも呼ばれるクロスズメバチの幼虫「へぼ」を醤油と砂糖で炒め煮し、炊き上がったご飯に混ぜ込む恵那市周辺の郷土料理。江戸期の文献にも記述が残るとされ、貴重な動物性たんぱく源として食べ継がれてきたという。",
+   "summary_en": "The larvae of a ground-nesting wasp, called hebo, are simmered sweet in soy sauce and sugar, then folded through cooked rice — a dish of the Ena area with a record reaching back to Edo-period texts, long valued as a source of animal protein.",
+   "sources": [
+    {
+     "title": "へぼ飯 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_5_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hebo-meshi",
+     "to_slug": "gifu-gohei-mochi",
+     "relation_type": "兄弟",
+     "basis": "へぼ料理には甘露煮のほか「へぼ五平餅」もあると本文にある"
+    }
+   ],
+   "tags": [
+    "insect"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=北方町、岐阜市の2市町併記のためorigin_cityは空欄とし、岐阜市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "myoga-bochi",
+   "name_ja": "みょうがぼち",
+   "name_romaji": "Myogabochi",
+   "name_en": "Myogabochi — fava-bean paste wrapped in dough and steamed in a myoga leaf",
+   "shelf": "sweets",
+   "origin_pref": "岐阜県",
+   "lat": 35.4233,
+   "lng": 136.7606,
+   "summary_ja": "そら豆のあんを小麦粉の皮で包み、みょうがの葉で包んで蒸す北方町・岐阜市周辺の郷土菓子。かつては「田植えぼち」とも呼ばれ、農作業の合間、田んぼのあぜ道でおやつとして食べられていたという。",
+   "summary_en": "A fava-bean paste is wrapped in a wheat-flour dough, then steamed inside a myoga leaf — a confection of the Kitagata and Gifu City area, once also called 'rice-planting bochi' and eaten as a snack on paddy footpaths during breaks from farm work.",
+   "sources": [
+    {
+     "title": "みょうがぼち 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_6_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "myoga-bochi",
+     "to_slug": "houba-zushi",
+     "relation_type": "対比",
+     "basis": "殺菌効果のある葉で食べ物を包む岐阜県内の初夏の携行食という共通点があるが、みょうがぼちはみょうがの葉、朴葉ずしは朴の葉を使う違いがある"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "台帳のexisting_slug=narezushi（match_confidence=low）を確認したが、既存の「narezushi」は特定地域を持たない一般的ななれずしの解説項目であり、岐阜市の鮎を使った具体的な郷土料理として別物と判断し新規作成した。",
+   "genre": "sushi",
+   "origin_city": "岐阜市",
+   "slug": "ayu-narezushi",
+   "name_ja": "鮎なれずし",
+   "name_romaji": "Ayu Narezushi",
+   "name_en": "Ayu narezushi — salted ayu packed with rice and fermented for months",
+   "shelf": "rice",
+   "origin_pref": "岐阜県",
+   "lat": 35.4233,
+   "lng": 136.7606,
+   "summary_ja": "秋に川を下る子持ちの落ち鮎を塩漬けし、炊きたてのご飯を腹に詰めて桶で2ヶ月ほど乳酸発酵させる岐阜市のなれずし。長良川鵜飼で獲れた鮎を使った鮎鮓は江戸期に将軍家へ献上されたと伝わるという。",
+   "summary_en": "Ayu heading downriver to spawn in autumn, often carrying roe, are salted and stuffed with freshly cooked rice, then packed in a barrel to ferment for about two months — a narezushi of Gifu City said to have been made from fish caught at the Nagara River's cormorant fishery and once presented to the shogunate.",
+   "sources": [
+    {
+     "title": "鮎なれずし 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_7_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ayu-narezushi",
+     "to_slug": "narezushi",
+     "relation_type": "対比",
+     "basis": "発酵させた魚の保存食という手法は共通するが、鮎なれずしは長良川の鵜飼で獲れた落ち鮎を使う岐阜市の正月料理という違いがある"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=東濃地域、飛騨地域の広域のため中津川市を代表地点とした。長野県にも同名の郷土料理があるためslugに県名を冠した。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "gifu-gohei-mochi",
+   "name_ja": "五平餅",
+   "name_romaji": "Gohei Mochi",
+   "name_en": "Gohei mochi — skewered rice cakes glazed with walnut or sesame miso",
+   "shelf": "sweets",
+   "origin_pref": "岐阜県",
+   "lat": 35.4894,
+   "lng": 137.5006,
+   "summary_ja": "つぶした米を串に刺し、くるみや落花生入りのたれで炙り焼く東濃・飛騨地域の一品。中山道を境に北は醤油味、南は味噌味が多いとされ、新米の収穫祝いや客をもてなす日のご馳走として供されてきたという。",
+   "summary_en": "Crushed rice is skewered and grilled, then glazed with a walnut- or peanut-flecked sauce — a dish of the Tono and Hida areas where soy-based sauce dominates north of the old Nakasendo road and miso-based sauce south of it, traditionally served to celebrate the new rice harvest or to honor a guest.",
+   "sources": [
+    {
+     "title": "五平餅 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_8_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gifu-gohei-mochi",
+     "to_slug": "nagano-gohei-mochi",
+     "relation_type": "対比",
+     "basis": "中山道を境に北は団子形、南はわらじ形に分かれるとされ、長野・木曽地域の五平餅とは形やたれの地域差がある"
+    }
+   ],
+   "tags": [
+    "miso",
+    "soy_sauce",
+    "skewered"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=西濃地域の広域のため大垣市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "funa-miso",
+   "name_ja": "鮒味噌",
+   "name_romaji": "Funamiso",
+   "name_en": "Funamiso — crucian carp slow-simmered with soybeans in red miso",
+   "shelf": "homestyle",
+   "origin_pref": "岐阜県",
+   "lat": 35.3623,
+   "lng": 136.6161,
+   "summary_ja": "素焼きにした鮒を戻した大豆と時間をかけて煮て、豆味噌とざらめで仕上げる西濃地域の川魚料理。旨味の強い豆味噌が鮒特有の臭みを和らげるとされ、身がほろほろになるまで煮込んで冬の保存食とするという。",
+   "summary_en": "Crucian carp, first grilled plain, simmers for hours with rehydrated soybeans, then finishes in soybean miso and coarse sugar — a river-fish dish of the Seino region, where the miso's strong umami is said to soften the fish's characteristic edge, simmered until the flesh falls apart as a winter keeping food.",
+   "sources": [
+    {
+     "title": "鮒味噌 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_9_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "funa-miso",
+     "to_slug": "kobuna-no-kanroni",
+     "relation_type": "対比",
+     "basis": "どちらも淡水魚のフナを甘辛く煮て保存する郷土料理だが、岐阜は豆味噌で煮込み、長野・佐久は醤油と砂糖で甘露煮にする違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=飛騨・高山地域の広域のため高山市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "houba-miso",
+   "name_ja": "朴葉味噌",
+   "name_romaji": "Hoba Miso",
+   "name_en": "Hoba miso — miso grilled on a magnolia leaf with scallion and mushroom",
+   "shelf": "grilled",
+   "origin_pref": "岐阜県",
+   "lat": 36.1461,
+   "lng": 137.2521,
+   "summary_ja": "朴の葉にこうじ味噌をのせ、ねぎやしいたけを添えて炭火で焼く飛騨高山地域の一品。山仕事をする杣人が朴葉を皿代わりに味噌を焼いたのが始まりと伝わり、今では飛騨牛を添えて食べることもあるという。",
+   "summary_en": "Koji miso is spread on a magnolia leaf with scallion and shiitake and grilled over charcoal — a dish of the Hida-Takayama area said to have begun with woodsmen using the leaf as a makeshift plate, now sometimes topped with Hida beef.",
+   "sources": [
+    {
+     "title": "朴葉味噌 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_10_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "houba-miso",
+     "to_slug": "hida-gyu",
+     "relation_type": "使用食材",
+     "basis": "「今日では朴葉の上に乗せるのは味噌だけでなく、飛騨牛やキノコやネギなども一緒に食べる」と本文にある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=中濃地域、東濃地域、飛騨地域の広域のため郡上市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "otoshi-no-gottso",
+   "name_ja": "大歳のごっつぉ",
+   "name_romaji": "Otoshi no Gottso",
+   "name_en": "Otoshi no gottso — root vegetables simmered in a big pot for the year-end feast",
+   "shelf": "homestyle",
+   "origin_pref": "岐阜県",
+   "lat": 35.7333,
+   "lng": 136.9622,
+   "summary_ja": "大根や人参、里芋などの根菜と糸昆布を一度に大鍋で煮て、大晦日から正月三が日にかけて温め直しながら食べる岐阜県の年越し料理。糸昆布には「細く長く生きられるように」との願いが込められているという。",
+   "summary_en": "Root vegetables like daikon, carrot, and taro, along with shredded kelp, are simmered together in one big pot, then reheated and eaten from New Year's Eve through the first three days of the new year — a Gifu year-end dish where the kelp is said to carry a wish for a long, unbroken life.",
+   "sources": [
+    {
+     "title": "大歳のごっつぉ 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_11_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "otoshi-no-gottso",
+     "to_slug": "tsukemono-misoni",
+     "relation_type": "対比",
+     "basis": "どちらも大鍋で作り置き、何度も温め直して食べる岐阜の冬の常備煮込み料理という共通点がある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "台帳のexisting_slug=tekone-zushi（三重県、match_confidence=low）を確認したが、てこねずしはカツオの漬け丼、ねずしはマス・大根を麹で発酵させる飛騨のなれずしで全くの別物のため新規作成した。伝承地域=下呂市を中心とした飛騨地域、中濃地域の広域のため下呂市を代表地点とした。",
+   "genre": "sushi",
+   "origin_city": "",
+   "slug": "ne-zushi",
+   "name_ja": "ねずし",
+   "name_romaji": "Nezushi",
+   "name_en": "Nezushi — salted trout, daikon, and rice fermented with koji for New Year's",
+   "shelf": "rice",
+   "origin_pref": "岐阜県",
+   "lat": 35.8022,
+   "lng": 137.2436,
+   "summary_ja": "塩マスとだいこん、にんじんに麹を加えたご飯を混ぜ、半月から20日ほど寝かせて発酵させる飛騨地域のなれずし。「ねずしがないと正月が来た気がしない」といわれるほど、正月に欠かせない味だという。",
+   "summary_en": "Salted trout, daikon, and carrot are mixed with rice seasoned with koji and left to ferment for two to three weeks — a narezushi of the Hida region said to be so essential that, locally, it doesn't feel like New Year without it.",
+   "sources": [
+    {
+     "title": "ねずし 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_12_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ne-zushi",
+     "to_slug": "ayu-narezushi",
+     "relation_type": "対比",
+     "basis": "どちらも米と麹を使い発酵させる岐阜の「なれずし」系郷土料理だが、ねずしは飛騨地方の正月料理でマスや大根を使う点が鮎なれずしと異なる"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=西濃地域の広域のため大垣市を代表地点とした。",
+   "genre": "sushi",
+   "origin_city": "",
+   "slug": "moroko-zushi",
+   "name_ja": "もろこずし",
+   "name_romaji": "Morokozushi",
+   "name_en": "Morokozushi — a pressed sushi of vinegared rice and sweet-simmered moroko fish",
+   "shelf": "rice",
+   "origin_pref": "岐阜県",
+   "lat": 35.3623,
+   "lng": 136.6161,
+   "summary_ja": "酢飯の上に甘辛く煮たもろこという小さなコイ科の川魚を並べ、押し寿司にする西濃地域の一品。木曽三川に育まれた水郷地帯でとれる川魚を使った食文化のひとつで、正月や祭りのもてなし料理として作られてきたという。",
+   "summary_en": "Vinegared rice is topped with moroko, a small carp-family river fish simmered sweet, then pressed into a mold — a dish of the Seino region, part of a food culture built around fish from the waterways of the Kiso Three Rivers, traditionally made to serve guests at New Year's and festivals.",
+   "sources": [
+    {
+     "title": "もろこずし 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_13_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "moroko-zushi",
+     "to_slug": "funa-miso",
+     "relation_type": "兄弟",
+     "basis": "木曽三川流域の水郷地帯でとれるフナやもろこなど川魚を利用した食文化として本文で並列的に言及されている"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "既存slug「hokkaido-imomochi」（北海道、同名だがじゃがいもが主材料の別物）との衝突を避けるためslugをgifu-imomochiとした。伝承地域=中津川市恵北地区、中濃地域の広域のため中津川市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "gifu-imomochi",
+   "name_ja": "いももち",
+   "name_romaji": "Imomochi",
+   "name_en": "Imomochi — mashed rice and taro, grilled and dipped in ginger soy sauce",
+   "shelf": "homestyle",
+   "origin_pref": "岐阜県",
+   "lat": 35.4894,
+   "lng": 137.5006,
+   "summary_ja": "里芋と米を一緒に炊いてよくつぶし、丸めて串に刺し炭火で焼いて生姜醤油をつける中津川市周辺の一品。稲刈り後のくず米と里芋を合わせたのが始まりとも伝わり、米が不作の年の「かさ増し」だったともいう。",
+   "summary_en": "Taro and rice are cooked together, mashed smooth, shaped and skewered, then grilled over charcoal and dipped in ginger soy sauce — a dish of the Nakatsugawa area said to have begun with combining leftover broken rice from the harvest with sticky taro, or as a way to stretch rice in lean years.",
+   "sources": [
+    {
+     "title": "いももち 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_14_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gifu-imomochi",
+     "to_slug": "hokkaido-imomochi",
+     "relation_type": "対比",
+     "basis": "北海道のいももちはじゃがいもと片栗粉を焼いたものだが、岐阜のいももちは里芋と米を炊いてつぶすという違いがある"
+    }
+   ],
+   "tags": [
+    "skewered"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "",
+   "genre": null,
+   "origin_city": "羽島市",
+   "slug": "misogi-dango",
+   "name_ja": "みそぎだんご",
+   "name_romaji": "Misogi Dango",
+   "name_en": "Misogi dango — bean-paste dumplings glazed with a sweet miso sauce",
+   "shelf": "sweets",
+   "origin_pref": "岐阜県",
+   "lat": 35.3011,
+   "lng": 136.7011,
+   "summary_ja": "米粉の団子生地でこしあんを包み、串に刺して味噌だれを塗りながら焼く羽島市の菓子。昭和初期に菓子店が考案し、竹鼻八剣神社の「みそぎ神事」にちなんで名付けられたと伝わる、6月30日前後の風物詩という。",
+   "summary_en": "A rice-flour dough wraps sweet bean paste, gets skewered, and is grilled while basted with a sweet miso glaze — a confection of Hashima City devised at a local sweet shop in the early Showa era and named for the town's misogi purification rite, a seasonal sight around June 30.",
+   "sources": [
+    {
+     "title": "みそぎだんご 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_15_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "misogi-dango",
+     "to_slug": "hatsuuma-dango",
+     "relation_type": "対比",
+     "basis": "どちらも神事にちなんで作られる岐阜の団子菓子だが、みそぎだんごはみそぎ神事の厄払い、初午だんごは養蚕の豊作祈願という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "skewered"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "",
+   "genre": null,
+   "origin_city": "白川村",
+   "slug": "suttate-jiru",
+   "name_ja": "すったて汁",
+   "name_romaji": "Suttate Jiru",
+   "name_en": "Suttate jiru — a soup of ground boiled soybeans in soy sauce or miso",
+   "shelf": "hotpot",
+   "origin_pref": "岐阜県",
+   "lat": 36.2542,
+   "lng": 136.8994,
+   "summary_ja": "茹でた大豆をすり鉢でつぶし、醤油や味噌でのばして仕上げる白川村の汁物。豆腐づくりの過程から生まれたとされ、報恩講など人が集まる仏事のもてなしに供されてきたという。近年は飛騨牛を加えた鍋にも展開している。",
+   "summary_en": "Boiled soybeans are ground in a mortar and thinned with soy sauce or miso — a soup of Shirakawa village said to have emerged from the process of making tofu, traditionally served at gatherings like the hoonko Buddhist memorial rite, now also reworked into a hot pot with Hida beef added.",
+   "sources": [
+    {
+     "title": "すったて汁 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_16_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "suttate-jiru",
+     "to_slug": "hida-gyu",
+     "relation_type": "使用食材",
+     "basis": "ご当地牛の飛騨牛をプラスした「すったて鍋」が開発されたと本文にある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=中津川市を中心とした東濃地区とその周辺エリアのため中津川市を代表地点とした。おせち料理の栗きんとん（さつまいも入り）とは異なる、栗と砂糖だけのシンプルな東濃地域の和菓子。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "kuri-kinton",
+   "name_ja": "栗きんとん",
+   "name_romaji": "Kuri Kinton",
+   "name_en": "Kuri kinton — pure chestnut paste twisted into shape with a cloth",
+   "shelf": "sweets",
+   "origin_pref": "岐阜県",
+   "lat": 35.4894,
+   "lng": 137.5006,
+   "summary_ja": "蒸した栗の実を砂糖とだけ炊き上げ、湿らせた布巾で栗の形にしぼる中津川市周辺の和菓子。中山道の宿場町として茶の湯文化が栄えた土地で、菓子職人たちが特産の栗を競って仕立てたのが始まりと伝わるという。",
+   "summary_en": "Steamed chestnuts are simmered with nothing but sugar, then twisted by hand in a dampened cloth into the shape of the chestnut itself — a confection of the Nakatsugawa area, said to have emerged as sweet-makers in this old Nakasendo post town, steeped in tea-ceremony culture, competed to showcase the local chestnut.",
+   "sources": [
+    {
+     "title": "栗きんとん 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_17_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kuri-kinton",
+     "to_slug": "mizu-manju",
+     "relation_type": "対比",
+     "basis": "どちらも岐阜県内の特定の街で発展した和菓子文化を代表する一品という共通点がある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "",
+   "genre": null,
+   "origin_city": "大垣市",
+   "slug": "mizu-manju",
+   "name_ja": "水まんじゅう",
+   "name_romaji": "Mizu Manju",
+   "name_en": "Mizu manju — a cold, translucent bean-paste bun chilled in well water",
+   "shelf": "sweets",
+   "origin_pref": "岐阜県",
+   "lat": 35.3623,
+   "lng": 136.6161,
+   "summary_ja": "くず粉にわらび粉を混ぜて炊いた生地であんを包み、井戸水で冷やす大垣市の夏菓子。水の都と呼ばれる大垣の豊富な地下水を生かして明治期に考案されたとされ、菓子店の店頭で水槽に沈められる姿が夏の風物詩という。",
+   "summary_en": "Kudzu starch blended with bracken starch is cooked into a translucent dough, wrapped around bean paste, and chilled in well water — a summer confection of Ogaki City, said to have been devised in the Meiji era to make use of the 'city of water's' abundant groundwater, still a seasonal sight sunk in tanks at shop fronts.",
+   "sources": [
+    {
+     "title": "水まんじゅう 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_18_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mizu-manju",
+     "to_slug": "karasumi",
+     "relation_type": "対比",
+     "basis": "どちらも岐阜県内の特定の街で発展した米粉・でんぷん質の郷土菓子という共通点がある"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "genre_hintは空欄（tsukemonoではない）。単なる漬物ではなく、漬物を再加熱して食べる調理された一品のため作成対象とした。伝承地域=飛騨地域の広域のため高山市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "nita-kumoji",
+   "name_ja": "煮たくもじ",
+   "name_romaji": "Nita Kumoji",
+   "name_en": "Nita kumoji — sour leaf pickles simmered fresh with sesame oil",
+   "shelf": "fermented",
+   "origin_pref": "岐阜県",
+   "lat": 36.1461,
+   "lng": 137.2521,
+   "summary_ja": "塩抜きしたかぶの葉の漬物を油で炒め、醤油やみりんで水分がなくなるまで煮しめる飛騨地域の一品。春先に酸っぱくなった漬物を捨てずに食べ切る知恵から生まれたとされ、仕上げにごま油と白ごまを効かせるという。",
+   "summary_en": "Salt-leached turnip-leaf pickles are stir-fried in oil, then simmered down in soy sauce and mirin until the liquid is gone — a dish of the Hida region born from the wisdom of using up pickles that had turned sour by early spring, finished with a hit of sesame oil and seeds.",
+   "sources": [
+    {
+     "title": "煮たくもじ 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_19_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nita-kumoji",
+     "to_slug": "tsukemono-misoni",
+     "relation_type": "対比",
+     "basis": "どちらも冬に漬けた漬物を無駄なく煮て食べ切る飛騨・郡上の知恵料理という共通点がある"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "既存slug「kaki-namasu」（宮城県、同名の別料理）との衝突を避けるためslugをgifu-kaki-namasuとした。伝承地域=中濃地域、岐阜地域、西濃地域の広域のため岐阜市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "gifu-kaki-namasu",
+   "name_ja": "柿なます",
+   "name_romaji": "Kaki Namasu",
+   "name_en": "Kaki namasu — daikon and carrot dressed in vinegar with dried persimmon",
+   "shelf": "raw",
+   "origin_pref": "岐阜県",
+   "lat": 35.4233,
+   "lng": 136.7606,
+   "summary_ja": "細切りにした大根と人参を塩でしんなりさせ、甘く干した柿を割いて合わせる岐阜県の一品。柿の産地として知られる岐阜では堂上蜂屋柿など上質な干し柿が手に入り、正月料理として食されることが多いという。",
+   "summary_en": "Daikon and carrot, cut into thin strips and softened with salt, are tossed together with torn pieces of sweet dried persimmon — a dish of Gifu, a region known for its persimmons, where fine dried varieties like Dojo Hachiya persimmon are on hand, often served at New Year's.",
+   "sources": [
+    {
+     "title": "柿なます 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_21_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gifu-kaki-namasu",
+     "to_slug": "kaki-namasu",
+     "relation_type": "対比",
+     "basis": "宮城の柿なますとは異なり、岐阜の柿なますは富有柿や堂上蜂屋柿など県産の干し柿を使う点が特徴"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "",
+   "genre": null,
+   "origin_city": "山県市",
+   "slug": "akadatsu-no-subute",
+   "name_ja": "赤だつの酢ぶて",
+   "name_romaji": "Akadatsu no Subute",
+   "name_en": "Akadatsu no subute — red taro-stalk strips dressed in a sweet vinegar",
+   "shelf": "homestyle",
+   "origin_pref": "岐阜県",
+   "lat": 35.5211,
+   "lng": 136.7286,
+   "summary_ja": "里芋の赤紫色をした葉柄「赤だつ」の筋を取り、塩もみしてから合わせ酢で和える山県市の一品。石灰質のやせた土壌が芋の栽培に適した土地に伝わり、産後の体力回復を願って食べさせたとも言われている。",
+   "summary_en": "The red-purple leaf stalk of taro, called akadatsu, has its fibers removed and is salt-rubbed before being dressed in a sweetened vinegar — a dish of Yamagata City on land whose lime-poor, thin soil suited taro cultivation, once said to be fed to new mothers to aid recovery.",
+   "sources": [
+    {
+     "title": "赤だつの酢ぶて 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_22_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "akadatsu-no-subute",
+     "to_slug": "kuwanokimame-ni",
+     "relation_type": "対比",
+     "basis": "どちらも山県市周辺で伝わる、やせた土地から生まれた特産野菜の料理という共通点がある"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "",
+   "genre": null,
+   "origin_city": "岐阜市",
+   "slug": "senkokumame-kakimawashi",
+   "name_ja": "千石豆のかきまわし",
+   "name_romaji": "Senkokumame no Kakimawashi",
+   "name_en": "Senkokumame no kakimawashi — mixed rice with hyacinth beans and chicken",
+   "shelf": "rice",
+   "origin_pref": "岐阜県",
+   "lat": 35.4233,
+   "lng": 136.7606,
+   "summary_ja": "岐阜市南部で栽培される「千石豆」というふじまめを、鶏肉やごぼうと煮て炊いたご飯に混ぜ込む一品。混ぜご飯とは別に、具を煮てからかき混ぜる様子から「かきまわし」と呼ばれ、親戚が集まる時に振る舞われてきたという。",
+   "summary_en": "Senkoku beans, a hyacinth bean grown in southern Gifu City, are simmered with chicken and burdock, then folded through cooked rice — called kakimawashi, 'stirred around,' for the way the cooked filling gets mixed in, and traditionally served when relatives gather.",
+   "sources": [
+    {
+     "title": "千石豆のかきまわし 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_23_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "senkokumame-kakimawashi",
+     "to_slug": "ayu-narezushi",
+     "relation_type": "対比",
+     "basis": "どちらも岐阜市に伝わる、人が集まる機会に振る舞われてきた郷土料理という共通点がある"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=郡上市明宝寒水（かのみず）地区の集落単位のため、郡上市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "tsugi-jiru",
+   "name_ja": "つぎ汁",
+   "name_romaji": "Tsugi Jiru",
+   "name_en": "Tsugi jiru — a spicy chili and tofu broth ladled from a shared pot",
+   "shelf": "hotpot",
+   "origin_pref": "岐阜県",
+   "lat": 35.7333,
+   "lng": 136.9622,
+   "summary_ja": "から煎りした唐辛子と干椎茸のだしに、角切りの地豆腐を加えて醤油と砂糖で仕上げる郡上市明宝寒水地区のお吸い物。汁をつぎ回す専用の容器から「つぎ汁」と呼ばれ、報恩講や婚礼など人が集まる日に振る舞われるという。",
+   "summary_en": "Roasted chili and dried shiitake stock is simmered with cubed local tofu, then finished in soy sauce and sugar — a clear soup of the Kanomizu area of Meiho, Gujo City, named for the dedicated vessel used to ladle it round from person to person, served at the hoonko rite and weddings alike.",
+   "sources": [
+    {
+     "title": "つぎ汁 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_24_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tsugi-jiru",
+     "to_slug": "suttate-jiru",
+     "relation_type": "対比",
+     "basis": "どちらも報恩講など仏事で振る舞われる郡上市周辺の汁物だが、すったて汁はすりつぶした大豆、つぎ汁は唐辛子と豆腐を使う点で異なる"
+    }
+   ],
+   "tags": [
+    "spicy"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=白川村を中心とした飛騨地域、郡上市を中心とした中濃地域、岐阜地域の広域のため白川村を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "hatsuuma-dango",
+   "name_ja": "初午だんご",
+   "name_romaji": "Hatsuuma Dango",
+   "name_en": "Hatsuuma dango — rice-flour dumplings shaped like silkworm cocoons",
+   "shelf": "sweets",
+   "origin_pref": "岐阜県",
+   "lat": 36.2542,
+   "lng": 136.8994,
+   "summary_ja": "米粉を蒸して繭のかたちに丸めただんごを、2月最初の午の日に供える岐阜県内の養蚕地域の風習。繭が上質に多く育つよう願いを込めたとされ、白川村ではきなこや醤油、汁物に入れるなど地域によって食べ方が異なるという。",
+   "summary_en": "Rice-flour dumplings, steamed and shaped like silkworm cocoons, are offered on the first day of the horse in February — a custom of Gifu's silk-farming regions, carrying a wish for a good, plentiful cocoon harvest, eaten variously with soybean flour, soy sauce, or in soup depending on the area.",
+   "sources": [
+    {
+     "title": "初午だんご 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_25_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hatsuuma-dango",
+     "to_slug": "misogi-dango",
+     "relation_type": "対比",
+     "basis": "どちらも神事にちなんで作られる岐阜の団子菓子だが、初午だんごは養蚕の豊作祈願、みそぎだんごはみそぎ神事の厄払いという違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "genre_hintは空欄（tsukemonoではない）。単なる漬物ではなく、漬物を再加熱して食べる調理された一品のため作成対象とした。",
+   "genre": null,
+   "origin_city": "郡上市",
+   "slug": "tsukemono-misoni",
+   "name_ja": "漬物味噌煮",
+   "name_romaji": "Tsukemono Misoni",
+   "name_en": "Tsukemono misoni — cut pickled napa cabbage simmered in bean miso",
+   "shelf": "fermented",
+   "origin_pref": "岐阜県",
+   "lat": 35.7333,
+   "lng": 136.9622,
+   "summary_ja": "白菜の切り漬けを煮干しだしと郡上味噌の鍋で煮込む郡上市の一品。炭焼き小屋の作業者が鯖缶を器代わりに漬物を入れて食べたのが始まりと伝わり、酸味の出た古漬けほど味が良いとされるという。",
+   "summary_en": "Cut pickled napa cabbage simmers in a pot of dried-sardine stock and Gujo bean miso — a dish of Gujo City said to have begun with charcoal-kiln workers using an empty mackerel tin as a pot for their pickles, where the more soured the old pickle, the better it's said to taste.",
+   "sources": [
+    {
+     "title": "漬物味噌煮 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_26_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tsukemono-misoni",
+     "to_slug": "nita-kumoji",
+     "relation_type": "対比",
+     "basis": "どちらも冬に漬けた漬物を煮て食べ切る岐阜の知恵料理という共通点があるが、漬物味噌煮は白菜の切り漬けと味噌、煮たくもじはかぶの葉と醤油を使う違いがある"
+    }
+   ],
+   "tags": [
+    "miso",
+    "fermented"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "",
+   "genre": null,
+   "origin_city": "飛騨市",
+   "slug": "kanboshi-daikon-ni",
+   "name_ja": "寒干大根煮",
+   "name_romaji": "Kanboshi Daikon Ni",
+   "name_en": "Kanboshi daikon ni — freeze-dried daikon simmered in dashi and soy sauce",
+   "shelf": "homestyle",
+   "origin_pref": "岐阜県",
+   "lat": 36.3236,
+   "lng": 137.2967,
+   "summary_ja": "輪切りにした大根を茹でて串に刺し、氷点下の外気で凍結と乾燥を繰り返しながら1ヶ月ほどかけて飴色に仕上げる飛騨市山之村の特産品を、だし汁と醤油で煮る。標高850m超の「天空の里」で冬を越すための保存食という。",
+   "summary_en": "Daikon, sliced into rounds, boiled, and skewered, is left in sub-zero air to freeze and thaw over and over across about a month until it turns amber — a specialty of Yamanomura in Hida City, over 850 meters up in what's called the 'sky village,' simmered here in dashi and soy sauce as a way to see out winter.",
+   "sources": [
+    {
+     "title": "寒干大根煮 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_27_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kanboshi-daikon-ni",
+     "to_slug": "shimidaikon-otaue-nimono",
+     "relation_type": "対比",
+     "basis": "気温差を利用して大根を凍らせながら乾燥させる保存法は共通するが、飛騨市の寒干大根は8か月かけてつくる特産品、長野の凍み大根はお田植え料理として供される点が異なる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "",
+   "genre": null,
+   "origin_city": "山県市",
+   "slug": "kuwanokimame-ni",
+   "name_ja": "桑の木豆煮",
+   "name_romaji": "Kuwanokimame Ni",
+   "name_en": "Kuwanokimame ni — speckled heirloom beans simmered sweet in soy sauce",
+   "shelf": "homestyle",
+   "origin_pref": "岐阜県",
+   "lat": 35.5211,
+   "lng": 136.7286,
+   "summary_ja": "赤いかすり模様の入ったさやごと乾燥保存できる「桑の木豆」を、柔らかくなるまで茹でてから醤油と砂糖で煮る山県市美山地域の一品。養蚕が盛んだった頃、桑の木の根元に植えて風から豆を守っていたのが名の由来と伝わる。",
+   "summary_en": "Kuwanokimame, an heirloom bean speckled red and storable dried pod and all, is boiled tender before being simmered in soy sauce and sugar — a dish of the Miyama area of Yamagata City, named, it's said, for how the beans were planted at the base of mulberry trees to shelter them from wind during the region's silk-farming days.",
+   "sources": [
+    {
+     "title": "桑の木豆煮 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_28_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kuwanokimame-ni",
+     "to_slug": "akadatsu-no-subute",
+     "relation_type": "対比",
+     "basis": "どちらも山県市周辺で伝わる、やせた土地から生まれた特産野菜の料理という共通点がある"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "既存slug「komodofu」（茨城県、同名の別料理）との衝突を避けるためslugをgifu-komodofuとした。伝承地域=飛騨市、高山市を中心とした飛騨地域の広域のため高山市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "gifu-komodofu",
+   "name_ja": "こも豆腐",
+   "name_romaji": "Komodofu",
+   "name_en": "Komodofu — tofu boiled wrapped in a straw mat",
+   "shelf": "homestyle",
+   "origin_pref": "岐阜県",
+   "lat": 36.1461,
+   "lng": 137.2521,
+   "summary_ja": "軽く水切りした豆腐をわら製のむしろ「こも」で巻いて1時間ほど茹で、無数の気泡とわらの香りをまとわせる飛騨地域の一品。だし汁で煮ても型崩れしにくく、正月や仏事のもてなし料理として親しまれてきたという。",
+   "summary_en": "Lightly drained tofu is wrapped in a straw mat called komo and boiled for about an hour, taking on countless tiny air pockets and a hint of straw's scent — a dish of the Hida region that holds its shape well when simmered further in dashi, long served as a hospitality dish at New Year's and Buddhist rites.",
+   "sources": [
+    {
+     "title": "こも豆腐 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_29_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gifu-komodofu",
+     "to_slug": "komodofu",
+     "relation_type": "対比",
+     "basis": "茨城のこも豆腐とは異なり、飛騨のこも豆腐はわらで巻いて茹で、正月や仏事のおもてなし料理として供される"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "既存slug「gunma-ayu-shioyaki」（群馬県、同名の別料理）との衝突を避けるためslugをgifu-ayu-shioyakiとした。伝承地域=木曽川流域の中濃地域、長良川流域、揖斐川流域の西濃地域の広域のため岐阜市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "gifu-ayu-shioyaki",
+   "name_ja": "鮎の塩焼",
+   "name_romaji": "Ayu no Shioyaki",
+   "name_en": "Ayu no shioyaki — river-caught ayu salted and grilled whole",
+   "shelf": "grilled",
+   "origin_pref": "岐阜県",
+   "lat": 35.4233,
+   "lng": 136.7606,
+   "summary_ja": "鮎全体に塩をふり、ひれと尾に化粧塩をして炭火で両面を焼く岐阜県の鮎料理。1300年の歴史を持つ長良川鵜飼や、川をせき止めて魚を追い込む伝統漁法「ヤナ」で獲れた新鮮な鮎を使うのが特徴という。",
+   "summary_en": "Ayu are salted all over, given a decorative touch of salt on fin and tail, then grilled over charcoal on both sides — a river-fish dish of Gifu, said to draw on fish caught fresh at the 1,300-year-old Nagara River cormorant fishery or at the traditional yana weirs that channel fish into a catch.",
+   "sources": [
+    {
+     "title": "鮎の塩焼 岐阜県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_30_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gifu-ayu-shioyaki",
+     "to_slug": "gunma-ayu-shioyaki",
+     "relation_type": "対比",
+     "basis": "群馬の鮎の塩焼とは異なり、岐阜のものは長良川鵜飼や観光ヤナの文化と結びついている"
+    }
+   ],
+   "tags": [
+    "skewered"
+   ]
+  }
+ ],
+ "notes": "作らなかった行: 38_20_gifu（赤かぶ漬け, genre_hint=tsukemono、既存slug hida-akakabu-zuke（岐阜県）とも一致）。low判定の内訳: 38_7_gifu 鮎なれずし（existing_slug=narezushi, low）→既存narezushiは特定地域を持たない一般的な解説項目のため、岐阜市の具体的な郷土料理として別物と判断し新規作成。38_12_gifu ねずし（existing_slug=tekone-zushi, low）→てこねずし（三重、カツオの漬け丼）とは全くの別物（マス・大根を麹発酵させる飛騨の正月なれずし）と判断し新規作成。棚を変えた行: なし（台帳のshelf指定をすべて踏襲、または新規判断だが台帳の値と一致）。要判断: gifu-gohei-mochi / gifu-ayu-shioyaki / gifu-imomochi / gifu-kaki-namasu / gifu-komodofu は、同名または類似の郷土料理が既に他県で登録されている（長野・群馬・北海道・宮城・茨城）ため、slugに県名を冠して区別した。座標の根拠: 伝承地域が「〜地域」等の広域表記の場合は、本文中で最も具体的に触れられている市町村、または地域の中心都市を代表地点として一般知識で概算した（各itemのnotesに記載）。"
+}

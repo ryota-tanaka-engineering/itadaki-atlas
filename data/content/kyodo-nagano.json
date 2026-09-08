@@ -1,0 +1,967 @@
+{
+ "items": [
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=木曽地域、伊那地域、上伊那地域、下伊那地域の広域のため、木曽町を代表地点とした。岐阜県にも同名の郷土料理があるためslugに県名を冠した。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "nagano-gohei-mochi",
+   "name_ja": "五平餅",
+   "name_romaji": "Gohei Mochi",
+   "name_en": "Gohei mochi — skewered rice cakes glazed with walnut miso",
+   "shelf": "sweets",
+   "origin_pref": "長野県",
+   "lat": 35.8356,
+   "lng": 137.6828,
+   "summary_ja": "半つきにしたうるち米を串に刺し、炭火で炙ってからくるみ味噌のたれを絡めて焼く。木曽と伊那を結ぶ道沿いに伝わり、かつては祝い事やもてなしの日にだけ食べられたごちそうだったという。",
+   "summary_en": "Half-pounded rice is skewered, grilled over charcoal, and glazed with a walnut miso sauce — a dish carried along the route linking the Kiso and Ina valleys, once reserved for celebrations and honored guests.",
+   "sources": [
+    {
+     "title": "五平餅 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gohei_mochi_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nagano-gohei-mochi",
+     "to_slug": "shinshu-miso",
+     "relation_type": "使用食材",
+     "basis": "くるみ味噌ダレに信州味噌を使うと本文にある"
+    }
+   ],
+   "tags": [
+    "miso",
+    "skewered",
+    "ceremonial"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=木曽地域のため木曽町を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "houba-maki",
+   "name_ja": "ほう葉巻き",
+   "name_romaji": "Hoba Maki",
+   "name_en": "Hoba maki — sweet rice dumplings steamed in magnolia leaves",
+   "shelf": "sweets",
+   "origin_pref": "長野県",
+   "lat": 35.8356,
+   "lng": 137.6828,
+   "summary_ja": "熱湯でこねた米粉の生地であんを包み、朴の葉に包んで蒸す木曽地域の祝い餅。柏の木がない山あいでは代わりに朴の葉を使うようになったと伝わり、翌日の方が葉の香りが移って美味しいという。",
+   "summary_en": "Rice-flour dough kneaded with hot water wraps sweet bean paste, then steams inside a magnolia leaf — a Kiso festival mochi. With no oak trees in the mountains, magnolia stood in, and locals say the leaf's scent settles in best the next day.",
+   "sources": [
+    {
+     "title": "ほう葉巻き 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/houba_maki_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "houba-maki",
+     "to_slug": "houba-zushi",
+     "relation_type": "対比",
+     "basis": "朴の葉を器や包みに使う点は共通するが、木曽のほう葉巻きは端午の節句の祝い餅、飛騨・中濃のほおばずしは田植え時期の携行寿司という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "",
+   "genre": null,
+   "origin_city": "佐久市",
+   "slug": "kobuna-no-kanroni",
+   "name_ja": "小鮒の甘露煮",
+   "name_romaji": "Kobuna no Kanroni",
+   "name_en": "Kobuna no kanroni — small crucian carp simmered sweet in soy sauce",
+   "shelf": "homestyle",
+   "origin_pref": "長野県",
+   "lat": 36.2483,
+   "lng": 138.4767,
+   "summary_ja": "田んぼで稲と一緒に育てた小ぶりの鮒を、生きたまま鍋に入れ醤油と砂糖でじっくり煮詰める佐久地域の秋の味覚。骨まで柔らかく煮えたところをほかほかの新米と合わせて食べるという。",
+   "summary_en": "Small crucian carp raised alongside rice in paddy fields go into the pot live, simmered slowly in soy sauce and sugar until the bones soften — an autumn taste of the Saku region, eaten alongside freshly cooked new rice.",
+   "sources": [
+    {
+     "title": "小鮒の甘露煮 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kobunano_kanroni_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kobuna-no-kanroni",
+     "to_slug": "koi-no-kanroni",
+     "relation_type": "対比",
+     "basis": "淡水魚を甘露煮にする調理法は共通するが、佐久は鮒、福島は鯉を使う点が異なる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "既存slug「sasa-zushi」（新潟県、同名の別料理）との衝突を避けるためslugをnagano-sasa-zushiとした。",
+   "genre": "sushi",
+   "origin_city": "飯山市",
+   "slug": "nagano-sasa-zushi",
+   "name_ja": "笹ずし",
+   "name_romaji": "Sasazushi",
+   "name_en": "Sasazushi — vinegared rice and mountain vegetables on bamboo-grass leaves",
+   "shelf": "rice",
+   "origin_pref": "長野県",
+   "lat": 36.6767,
+   "lng": 138.3559,
+   "summary_ja": "笹の葉に酢飯を広げ、ぜんまいやしいたけなど山の幸をのせた飯山市の郷土寿司。川中島の合戦の折に上杉謙信の軍勢へふるまわれたのが始まりとも伝わり、地元では「謙信寿司」とも呼ばれるという。",
+   "summary_en": "Vinegared rice is spread on bamboo-grass leaves and topped with mountain vegetables like flowering fern and shiitake — a sushi of Iiyama City said to trace back to food served to Uesugi Kenshin's troops, still locally called kenshin-zushi.",
+   "sources": [
+    {
+     "title": "笹ずし 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sasa_zushi_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nagano-sasa-zushi",
+     "to_slug": "houba-zushi",
+     "relation_type": "対比",
+     "basis": "葉に酢飯をのせて手で食べる携行寿司という点は共通するが、笹ずしは笹の葉、朴葉ずしは朴の葉を使う違いがある"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=北信地域、中信地域の広域のため長野市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "yashouma",
+   "name_ja": "やしょうま",
+   "name_romaji": "Yashouma",
+   "name_en": "Yashouma — steamed rice-flour dumplings for the Buddha's memorial day",
+   "shelf": "homestyle",
+   "origin_pref": "長野県",
+   "lat": 36.6486,
+   "lng": 138.1947,
+   "summary_ja": "米粉を練って蒸し、青のりや黒豆を混ぜて棒状にのばした団子。2月15日の涅槃会に仏壇へ供える北信・中信地域の風習で、家や寺でつくったものを子どもたちがもらい歩いたと伝わる。",
+   "summary_en": "Rice flour is kneaded, steamed, and rolled into a log studded with green laver and black beans — a custom of northern and central Nagano for offering to Buddha on the February 15 memorial day, once handed out to children who went door to door.",
+   "sources": [
+    {
+     "title": "やしょうま 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yashouma_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yashouma",
+     "to_slug": "han-goroshi",
+     "relation_type": "対比",
+     "basis": "米や米粉を使い行事に合わせてつくる長野のハレの餅・団子という点は共通するが、やしょうまは涅槃会の供物、半ごろしは彼岸やお盆の食という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=県内全域だが、本文が伊那谷の昆虫食文化を中心に説明しているため伊那市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "inago-no-tsukudani",
+   "name_ja": "いなごの佃煮",
+   "name_romaji": "Inago no Tsukudani",
+   "name_en": "Inago no tsukudani — locusts simmered sweet and salty in soy sauce",
+   "shelf": "homestyle",
+   "origin_pref": "長野県",
+   "lat": 35.8355,
+   "lng": 137.9509,
+   "summary_ja": "稲刈りの時期に田んぼで捕まえたいなごを、醤油と砂糖で甘辛く煮詰めた保存食。伊那谷には古くから昆虫食の文化が根付いており、貴重な動物性たんぱく源として食べられてきたと伝わる。",
+   "summary_en": "Locusts caught in the paddies at rice-harvest time are simmered sweet and salty in soy sauce — a preserved food from the Ina Valley's long-standing tradition of eating insects as a valued source of animal protein.",
+   "sources": [
+    {
+     "title": "いなごの佃煮 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/inagono_tsuku_dani_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "inago-no-tsukudani",
+     "to_slug": "kobuna-no-kanroni",
+     "relation_type": "対比",
+     "basis": "どちらも動物性たんぱく源を佃煮・甘露煮にして保存する長野の郷土料理"
+    }
+   ],
+   "tags": [
+    "insect"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "shelfを台帳の raw から homestyle に変更。じゃがいもを生食するのではなく、油と酢でしっかり炒める調理法のため。",
+   "genre": null,
+   "origin_city": "飯山市",
+   "slug": "imo-namasu",
+   "name_ja": "いもなます",
+   "name_romaji": "Imonamasu",
+   "name_en": "Imonamasu — julienned potato stir-fried crisp with vinegar",
+   "shelf": "homestyle",
+   "origin_pref": "長野県",
+   "lat": 36.6767,
+   "lng": 138.3559,
+   "summary_ja": "千切りにしたじゃがいものでんぷんを念入りに洗い流し、油と酢でシャキシャキの食感に炒め上げる飯山市の一品。江戸時代から食べられてきたとされ、冠婚葬祭など人が集まる席にも大皿で振る舞われてきたという。",
+   "summary_en": "Julienned potato has its starch thoroughly rinsed away, then gets stir-fried in oil and vinegar until crisp — a dish of Iiyama City said to have been eaten since the Edo period and served on large plates at gatherings and ceremonies.",
+   "sources": [
+    {
+     "title": "いもなます 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/imo_namasu_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "imo-namasu",
+     "to_slug": "kaki-namasu",
+     "relation_type": "対比",
+     "basis": "酢で和える「なます」という調理法は共通するが、飯山は保存のきくじゃがいも、宮城は干し柿と大根を使う違いがある"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "既存slug「koikoku」（福島県、同名の別料理）との衝突を避けるためslugをnagano-koikokuとした。",
+   "genre": null,
+   "origin_city": "佐久市",
+   "slug": "nagano-koikoku",
+   "name_ja": "鯉こく",
+   "name_romaji": "Koikoku",
+   "name_en": "Koikoku — carp simmered whole in a hearty miso broth",
+   "shelf": "hotpot",
+   "origin_pref": "長野県",
+   "lat": 36.2483,
+   "lng": 138.4767,
+   "summary_ja": "筒切りにした鯉を味噌でじっくり煮込んだ佐久地域の正月料理。千曲川の冷たい流水で育つ「佐久鯉」は臭みが少なく、脂の乗った身から良い出汁が出るとされ、好みで粉山椒をかけて食べるという。",
+   "summary_en": "Carp cut into rounds simmers slowly in miso — a New Year dish of the Saku region. Raised in the cold flow of the Chikuma River, Saku carp is said to carry little of the fishy edge and give a rich stock from its well-marbled flesh, finished with a dash of sansho pepper.",
+   "sources": [
+    {
+     "title": "鯉こく 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/koikoku_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nagano-koikoku",
+     "to_slug": "koikoku",
+     "relation_type": "対比",
+     "basis": "同じ「鯉こく」の名を持つが、福島は会津地方、長野は千曲川で育つ佐久鯉を使う正月料理という違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=北信地域、南信地域（県内全域）の広域のため長野市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "shioika-no-sunomono",
+   "name_ja": "塩いかの酢の物",
+   "name_romaji": "Shioika no Sunomono",
+   "name_en": "Shioika no sunomono — salted squid dressed with cucumber and wakame",
+   "shelf": "homestyle",
+   "origin_pref": "長野県",
+   "lat": 36.6486,
+   "lng": 138.1947,
+   "summary_ja": "海のない信州へ「塩の道」を通って運ばれた塩丸いかを塩抜きし、きゅうりやわかめと酢で和える。冷蔵技術がなかった時代の貴重な海産物の保存食で、今も夏場の食卓によくのぼるという。",
+   "summary_en": "Salted squid, once carried inland along Shinshu's old salt road, is soaked to draw out the salt, then dressed with cucumber and wakame in vinegar — a preserved seafood from before refrigeration, still common on summer tables.",
+   "sources": [
+    {
+     "title": "塩いかの酢の物 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sioika_no_sunomono_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shioika-no-sunomono",
+     "to_slug": "nagano-ego",
+     "relation_type": "対比",
+     "basis": "どちらも「塩の道」を通じて海産物や海藻が信州へ運ばれ根づいた保存食という共通点がある"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=県内全域のため長野市を代表地点とした。",
+   "genre": "soba",
+   "origin_city": "",
+   "slug": "teuchi-soba",
+   "name_ja": "手打ちそば",
+   "name_romaji": "Teuchi Soba",
+   "name_en": "Teuchi soba — hand-cut buckwheat noodles from Japan's soba heartland",
+   "shelf": "noodles",
+   "origin_pref": "長野県",
+   "lat": 36.6486,
+   "lng": 138.1947,
+   "summary_ja": "米や麦が育ちにくい高冷地で栽培されてきたそば粉を、一本棒での丸伸ばしなど昔ながらの技法で打つ。標高700m前後の朝霧が霜からそばを守るとされ、戸隠や開田などそば処が県内に点在するという。",
+   "summary_en": "Buckwheat, long grown in Nagano's high, cool land where rice and wheat struggle, is rolled and cut by hand using old techniques like the single-pin round roll. Morning mist at around 700 meters is said to shield the plant from frost, and noted soba towns like Togakushi and Kaida dot the prefecture.",
+   "sources": [
+    {
+     "title": "手打ちそば 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/teuchi_soba_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "teuchi-soba",
+     "to_slug": "togakushi",
+     "relation_type": "対比",
+     "basis": "本文で「そば切り発祥の地」として戸隠そばなど地域色豊かな信州そばの一つに触れている"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "shelfを台帳の sweets から homestyle に変更。菓子ではなく味噌だれで食べる惣菜的な粉ものであるため。伝承地域=北信地域、東信地域の広域のため上田市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "kone-tsuke",
+   "name_ja": "こねつけ",
+   "name_romaji": "Konetsuke",
+   "name_en": "Konetsuke — leftover rice kneaded with wheat flour and pan-fried",
+   "shelf": "homestyle",
+   "origin_pref": "長野県",
+   "lat": 36.402,
+   "lng": 138.2489,
+   "summary_ja": "残りご飯に小麦粉を混ぜてこね、輪切りにして焼き、甘味噌や胡桃味噌のたれをからめる北信・東信地域の一品。戦国武将・真田幸村が出陣前に食したとの逸話が伝わる、米を無駄なく食べ切る生活の知恵から生まれた料理という。",
+   "summary_en": "Leftover rice is kneaded with wheat flour, sliced into rounds, pan-fried, and coated with a sweet miso or walnut-miso glaze — a dish of northern and eastern Nagano said to have been eaten by the warlord Sanada Yukimura before battle, born of the wisdom of using every last grain of rice.",
+   "sources": [
+    {
+     "title": "こねつけ 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kone_tsuke_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kone-tsuke",
+     "to_slug": "shinshu-miso",
+     "relation_type": "使用食材",
+     "basis": "甘味噌など味噌だれをからめて食べると本文にある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=北信地域の広域のため、レシピ提供元の飯山市を代表地点とした。既存slug「takenoko-jiru」（新潟県、同名の別料理）との衝突を避けるためslugをnagano-takenoko-jiruとした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "nagano-takenoko-jiru",
+   "name_ja": "たけのこ汁",
+   "name_romaji": "Takenoko Jiru",
+   "name_en": "Takenoko jiru — miso soup with mountain bamboo shoots and canned mackerel",
+   "shelf": "hotpot",
+   "origin_pref": "長野県",
+   "lat": 36.6767,
+   "lng": 138.3559,
+   "summary_ja": "初夏のわずかな時期にしか採れない根曲がり竹と、サバの水煮缶を合わせた北信地域の味噌汁。海のない信州ではサバ缶が重宝され、あっさりとした竹の子に油とコクを加える食べ方として定着したという。",
+   "summary_en": "A miso soup of northern Nagano pairing curved bamboo shoots, available only for a brief stretch of early summer, with canned mackerel — prized in landlocked Shinshu for adding richness to the shoot's mild flavor.",
+   "sources": [
+    {
+     "title": "たけのこ汁 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/takenoko_jiru_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nagano-takenoko-jiru",
+     "to_slug": "shinshu-miso",
+     "relation_type": "使用食材",
+     "basis": "仕上げに味噌を溶き入れると本文にある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "",
+   "genre": null,
+   "origin_city": "諏訪市",
+   "slug": "tenyose",
+   "name_ja": "天寄せ",
+   "name_romaji": "Tenyose",
+   "name_en": "Tenyose — agar set with somen noodles or egg, colored for the occasion",
+   "shelf": "homestyle",
+   "origin_pref": "長野県",
+   "lat": 36.0422,
+   "lng": 138.1256,
+   "summary_ja": "寒天液にそうめんや卵などを流し込んで固める諏訪地域の寄せもの。祝儀には紅、不祝儀には緑と色を使い分け、7年に一度の御柱祭のもてなし料理としても振る舞われてきたという。",
+   "summary_en": "Agar liquid is poured over somen noodles or egg and set firm — a molded dish of the Suwa region, colored red for celebrations and green for solemn occasions, served to guests at the once-every-seven-years Onbashira festival.",
+   "sources": [
+    {
+     "title": "天寄せ 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tenyose_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tenyose",
+     "to_slug": "yashouma",
+     "relation_type": "対比",
+     "basis": "どちらも行事に合わせて紅・緑など色を使い分ける長野の行事食という共通点がある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "shelfを台帳の sweets から homestyle に変更。味噌・醤油だれで食べる惣菜的な粉ものであるため。伝承地域=北信地域の広域のため長野市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "nira-senbei",
+   "name_ja": "にらせんべい",
+   "name_romaji": "Nira Senbei",
+   "name_en": "Nira senbei — a thin pan-fried wheat batter with chives and miso",
+   "shelf": "homestyle",
+   "origin_pref": "長野県",
+   "lat": 36.6486,
+   "lng": 138.1947,
+   "summary_ja": "小麦粉を水で溶いて刻んだにらを混ぜ、油をひいた鍋で薄く広げてカリカリに焼く北信地域のおやつ。米が貴重だった山間部で「粉もの」として日常の食事やおこびれを支えてきたという。",
+   "summary_en": "Wheat flour is thinned with water and mixed with chopped chives, then poured thin into an oiled pan and fried crisp — a snack of northern Nagano's mountain villages, where flour-based fare stood in for scarce rice at mealtimes and breaks.",
+   "sources": [
+    {
+     "title": "にらせんべい 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nira_senbei_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nira-senbei",
+     "to_slug": "kone-tsuke",
+     "relation_type": "対比",
+     "basis": "どちらも米の代用として小麦粉でつくる「粉もの」のおこびれ（間食）という共通点がある"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=諏訪地域、上伊那地域の広域のため諏訪市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "nota-mochi",
+   "name_ja": "のたもち",
+   "name_romaji": "Notamochi",
+   "name_en": "Notamochi — pounded rice topped with a sweet mashed edamame paste",
+   "shelf": "sweets",
+   "origin_pref": "長野県",
+   "lat": 36.0422,
+   "lng": 138.1256,
+   "summary_ja": "半つきにしたご飯に、すりつぶした枝豆へ砂糖と塩を加えた「のた」をのせる諏訪・上伊那地域の一品。宮城のずんだ餅に似るとされ、盆や彼岸など枝豆の実る夏の節目に各家庭でつくられてきたという。",
+   "summary_en": "Rice pounded halfway is topped with 'nota' — mashed edamame sweetened with sugar and salt — a dish of the Suwa and Kamiina areas said to resemble Miyagi's zunda mochi, traditionally made at home for Obon and the equinox as edamame comes into season.",
+   "sources": [
+    {
+     "title": "のたもち 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nota_mochi_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nota-mochi",
+     "to_slug": "han-goroshi",
+     "relation_type": "対比",
+     "basis": "どちらも半つきにした米に甘い衣をまとわせる長野の行事用の餅料理という共通点がある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=北信地域の広域のため長野市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "yatara",
+   "name_ja": "やたら",
+   "name_romaji": "Yatara",
+   "name_en": "Yatara — chopped summer vegetables and pickles tossed over rice",
+   "shelf": "homestyle",
+   "origin_pref": "長野県",
+   "lat": 36.6486,
+   "lng": 138.1947,
+   "summary_ja": "きゅうりやなす、辛味の効いたぼたんこしょうなどの夏野菜と大根の味噌漬けを細かく刻んで混ぜ合わせ、温かいご飯にかける北信地域の常備菜。とにかく何でも刻んで混ぜることから「やたら」と呼ばれるという。",
+   "summary_en": "Cucumber, eggplant, the sharp local chili called botankosho, and miso-pickled daikon are all chopped fine and mixed together, then spooned over hot rice — a staple of northern Nagano said to be named yatara, 'haphazardly,' for how freely anything gets thrown in.",
+   "sources": [
+    {
+     "title": "やたら 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yatara_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yatara",
+     "to_slug": "shioika-no-sunomono",
+     "relation_type": "対比",
+     "basis": "どちらも夏の食欲不振対策として、刻んだ食材や漬物を和えて食べる信州の夏の一品という共通点がある"
+    }
+   ],
+   "tags": [
+    "spicy"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "既存slug「ego」（福島県、同一食材の別系統）との衝突を避けるためslugをnagano-egoとした。伝承地域=北信地域、中信地域（塩の道沿道）の広域のため長野市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "nagano-ego",
+   "name_ja": "えごの酢味噌あえ",
+   "name_romaji": "Ego no Sumisoae",
+   "name_en": "Ego no sumisoae — seaweed jelly sliced and dressed with mustard vinegar-miso",
+   "shelf": "homestyle",
+   "origin_pref": "長野県",
+   "lat": 36.6486,
+   "lng": 138.1947,
+   "summary_ja": "エゴ草という海藻を煮溶かして型で固め、刺身こんにゃくのように切って辛子酢味噌をつける。日本海側から行商人が「塩の道」を通じて運んだのが始まりとされ、盆や冠婚葬祭に欠かせない北信・中信地域の一品という。",
+   "summary_en": "Ego-gusa seaweed is simmered down, poured into a mold and set firm, then sliced like konnyaku sashimi and dipped in a mustard vinegar-miso. Said to have arrived via peddlers along the old salt road from the Sea of Japan coast, it's considered essential at Obon and family occasions in northern and central Nagano.",
+   "sources": [
+    {
+     "title": "えごの酢味噌あえ 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ego_no_sumisoae_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nagano-ego",
+     "to_slug": "ego",
+     "relation_type": "対比",
+     "basis": "同じエゴ草を煮溶かして固める製法だが、長野は塩の道経由で伝わりからし酢味噌で食べる点が、福島・西会津のからし醤油で食べる系統と異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=県内全域（特に長野市周辺、松本市）のため長野市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "gudakusan-miso-shiru",
+   "name_ja": "具だくさん味噌汁",
+   "name_romaji": "Gudakusan Miso Shiru",
+   "name_en": "Gudakusan miso shiru — a hearty miso soup packed with seasonal vegetables",
+   "shelf": "hotpot",
+   "origin_pref": "長野県",
+   "lat": 36.6486,
+   "lng": 138.1947,
+   "summary_ja": "大根や人参、ごぼうなど旬の根菜をたっぷり入れて煮る長野の日常の汁物。具だくさんにすることで味噌の使用量を抑えられるとされ、小麦粉の生地を落とす「すいとん」を加えて主食代わりにすることもあるという。",
+   "summary_en": "Root vegetables like daikon, carrot, and burdock go generously into this everyday miso soup of Nagano. Packing it with vegetables is said to allow less miso overall, and wheat dumplings are sometimes dropped in to make it a meal in itself.",
+   "sources": [
+    {
+     "title": "具だくさん味噌汁 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gu_dakusan_miso_shiru_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gudakusan-miso-shiru",
+     "to_slug": "shinshu-miso",
+     "relation_type": "使用食材",
+     "basis": "信州味噌を使った汁物であることが本文に明記されている"
+    }
+   ],
+   "tags": [
+    "miso"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=東信地域、上伊那地域の広域のため上田市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "sake-no-kasuni",
+   "name_ja": "鮭の粕煮",
+   "name_romaji": "Sake no Kasuni",
+   "name_en": "Sake no kasuni — salted salmon simmered in sake lees",
+   "shelf": "hotpot",
+   "origin_pref": "長野県",
+   "lat": 36.402,
+   "lng": 138.2489,
+   "summary_ja": "塩鮭を酒粕でとろりと煮込む東信・上伊那地域の年取り料理。長野県では東側でサケ、西側でブリを歳取り魚とする地域差があり、大晦日に大鍋でつくって正月三が日食べ継ぐという。",
+   "summary_en": "Salted salmon simmers slowly in sake lees until the broth turns rich and thick — a New Year's Eve dish of eastern Nagano and Kamiina, where salmon is the customary year-end fish in the east while yellowtail takes that role in the west, made in a big pot on New Year's Eve to eat through the holiday.",
+   "sources": [
+    {
+     "title": "鮭の粕煮 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sakeno_kasuni_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sake-no-kasuni",
+     "to_slug": "nagano-koikoku",
+     "relation_type": "対比",
+     "basis": "ともに正月の歳取り魚料理だが、東信・上伊那はサケ、佐久地域はコイを使うという長野県内の地域差を示す"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=県内全域のため長野市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "shimidaikon-otaue-nimono",
+   "name_ja": "凍み大根のお田植えの煮物",
+   "name_romaji": "Shimidaikon no Otaue no Nimono",
+   "name_en": "Shimidaikon no otaue no nimono — freeze-dried daikon simmered for the rice-planting feast",
+   "shelf": "homestyle",
+   "origin_pref": "長野県",
+   "lat": 36.6486,
+   "lng": 138.1947,
+   "summary_ja": "夜の凍結と昼の解凍を繰り返して干した凍み大根を、身欠きにしんや昆布と煮込む。手植えで田植えをしていた時代、その労をねぎらう「お田植え料理」として振る舞われた長野の一品という。",
+   "summary_en": "Daikon dried through repeated nightly freezing and daytime thawing simmers with herring and kelp — a dish once served in Nagano as part of the rice-planting feast, honoring the hard labor of transplanting seedlings by hand.",
+   "sources": [
+    {
+     "title": "凍み大根のお田植えの煮物 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shimi_daikon_no_otaue_no_nimono_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shimidaikon-otaue-nimono",
+     "to_slug": "shioika-no-sunomono",
+     "relation_type": "対比",
+     "basis": "身欠きニシンなど「塩の道」経由の乾物を使う点で共通する"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "shelfを台帳の homestyle から fermented に変更。麹で1ヶ月以上発酵させる食品のため。伝承地域=北信地域、中信地域の広域のため長野市を代表地点とした。別名「しょうゆの実」はsummaryに記載。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "shoyu-mame",
+   "name_ja": "しょうゆ豆",
+   "name_romaji": "Shoyu Mame",
+   "name_en": "Shoyu mame — koji-fermented soybeans steeped in raw soy sauce",
+   "shelf": "fermented",
+   "origin_pref": "長野県",
+   "lat": 36.6486,
+   "lng": 138.1947,
+   "summary_ja": "麹で発酵させた大豆に米麹を合わせ、生醤油に漬け込んで1ヶ月以上熟成させる北信・中信地域の発酵食品。「食べる醤油」ともいわれ、香川県のそら豆を使う同名の料理とは全く別物だという。",
+   "summary_en": "Soybeans fermented with koji are combined with rice koji, steeped in raw soy sauce, and aged over a month — a fermented food of northern and central Nagano sometimes called 'edible soy sauce,' entirely unrelated to the Kagawa dish of the same name made from fava beans.",
+   "sources": [
+    {
+     "title": "しょうゆ豆／しょうゆの実 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shouyu_mame_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shoyu-mame",
+     "to_slug": "hitashi-mame",
+     "relation_type": "対比",
+     "basis": "どちらも大豆を使う信州の家庭料理だが、しょうゆ豆は発酵させた「食べる醤油」、ひたし豆は青大豆をゆでてだし汁に浸した料理という違いがある"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "soy_sauce"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=東信地域の広域のため上田市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "han-goroshi",
+   "name_ja": "半ごろし",
+   "name_romaji": "Hangoroshi",
+   "name_en": "Hangoroshi — half-pounded rice rolled in sweet bean paste or soybean flour",
+   "shelf": "sweets",
+   "origin_pref": "長野県",
+   "lat": 36.402,
+   "lng": 138.2489,
+   "summary_ja": "すりこぎで半つぶしにした「半ごろし」のもち米に、あんやきなこをまぶす東信地域のぼたもち・おはぎ。春は「ぼたもち」、秋は「おはぎ」と呼び分けるが同じもので、農作業の合間の手間のかからない祝い菓子という。",
+   "summary_en": "Sticky rice, pounded only halfway to a texture called hangoroshi, is coated in sweet bean paste or roasted soybean flour — eastern Nagano's version of botamochi and ohagi, called one name in spring and the other in autumn, a festive sweet that busy farm households could put together quickly.",
+   "sources": [
+    {
+     "title": "半ごろし 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/han_goroshi_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "han-goroshi",
+     "to_slug": "nota-mochi",
+     "relation_type": "対比",
+     "basis": "どちらも半つきにした米に甘い衣をまとわせる長野の行事用の餅料理という共通点がある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ]
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=北信地域、東信地域の広域のため長野市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "hitashi-mame",
+   "name_ja": "ひたし豆",
+   "name_romaji": "Hitashi Mame",
+   "name_en": "Hitashi mame — boiled green soybeans steeped in a light dashi",
+   "shelf": "homestyle",
+   "origin_pref": "長野県",
+   "lat": 36.6486,
+   "lng": 138.1947,
+   "summary_ja": "青大豆を歯ごたえが残る程度にゆで、薄味のだし汁に浸す北信・東信地域の一品。馬の鞍のような模様をもつ「鞍掛豆」でもつくられ、数の子と合わせておせち料理にもなるという。",
+   "summary_en": "Green soybeans are boiled until still faintly crisp, then steeped in a lightly seasoned dashi — a dish of northern and eastern Nagano also made with the saddle-marked kurakake bean, sometimes paired with herring roe as part of New Year's osechi.",
+   "sources": [
+    {
+     "title": "ひたし豆 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hitashi_mame_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hitashi-mame",
+     "to_slug": "shoyu-mame",
+     "relation_type": "対比",
+     "basis": "どちらも大豆を使う信州の家庭料理だが、ひたし豆は青大豆をゆでてだし汁に浸した料理、しょうゆ豆は発酵させた「食べる醤油」という違いがある"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "伝承地域=北信地域（鬼無里地域）のため長野市を代表地点とした。",
+   "genre": null,
+   "origin_city": "",
+   "slug": "hoshi-kabocha-egoma-ae",
+   "name_ja": "干しかぼちゃのえごま和え",
+   "name_romaji": "Hoshikabocha no Egomaae",
+   "name_en": "Hoshikabocha no egomaae — sun-dried kabocha squash dressed in ground perilla",
+   "shelf": "homestyle",
+   "origin_pref": "長野県",
+   "lat": 36.6486,
+   "lng": 138.1947,
+   "summary_ja": "短冊切りにしたかぼちゃをからからになるまで天日に干し、水で戻してすったえごまで和える鬼無里地域の保存食。冬に腐りやすいかぼちゃを保存用に干す知恵から生まれ、煮物やおやきの具にも使われるという。",
+   "summary_en": "Kabocha squash, sliced into strips and sun-dried until brittle, is rehydrated and tossed in ground perilla seed — a preserved dish of the Kinasa area born from the need to keep squash, which spoils easily over winter, also used simmered or as filling for oyaki.",
+   "sources": [
+    {
+     "title": "干しかぼちゃのえごま和え 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hoshi_kabocha_no_egomaae_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hoshi-kabocha-egoma-ae",
+     "to_slug": "shimidaikon-otaue-nimono",
+     "relation_type": "対比",
+     "basis": "どちらも信州の寒冷な気候を生かした干し野菜・保存食文化を背景に持つ"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "type": "dish",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": "",
+   "notes": "台帳のexisting_slug=hoto（山梨県、match_confidence=low）を確認したが、味噌汁仕立てで食す一般的なほうとうとは異なり、七夕にあんやきなこをまぶして供える別の行事食のため新規作成。shelfを台帳の noodles から sweets に変更。",
+   "genre": null,
+   "origin_city": "松本市",
+   "slug": "tanabata-hoto",
+   "name_ja": "たなばたほうとう",
+   "name_romaji": "Tanabata Hoto",
+   "name_en": "Tanabata hoto — wide wheat noodles tossed sweet for the Star Festival",
+   "shelf": "sweets",
+   "origin_pref": "長野県",
+   "lat": 36.238,
+   "lng": 137.972,
+   "summary_ja": "練った小麦粉を太い麺に切って茹で、小豆あんやきなこ、ごまをまぶす松本地域の七夕料理。月遅れの8月7日、七夕人形とともに供えられ、汁物として食べる一般的なほうとうとは別の甘い行事菓子だという。",
+   "summary_en": "Wide wheat noodles, kneaded and cut by hand then boiled, are tossed sweet with red bean paste, roasted soybean flour, or sesame — a Star Festival dish of the Matsumoto area, offered alongside paper Tanabata dolls on the delayed date of August 7, distinct from the savory miso hoto eaten as a soup elsewhere.",
+   "sources": [
+    {
+     "title": "たなばたほうとう 長野県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tanabata_houtou_nagano.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tanabata-hoto",
+     "to_slug": "hoto",
+     "relation_type": "対比",
+     "basis": "同じ「ほうとう」の名を持つ幅広麺だが、松本地域では小豆あんやきなこをまぶした甘い七夕の行事食で、味噌仕立ての汁物として食べる一般的なほうとうとは調理法が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ]
+  }
+ ],
+ "notes": "作らなかった行: sunki_zuke_nagano（すんき漬け, genre_hint=tsukemono、既存slug sunki-zukeとも一致）/ nozawana_zuke_nagano（野沢菜漬, genre_hint=tsukemono、既存slug nozawana-zukeとも一致）/ oshibori_udon_nagano（おしぼりうどん, existing_slug=oshibori-udon, match_confidence=high）/ oyaki_nagano（おやき, 台帳のexisting_slugは空欄だがall-items-ja.txtに既存slug oyaki（長野県）が一致するため作成せず）。low判定の内訳: tanabata_houtou_nagano（existing_slug=hoto, low）→別物と判断し新規作成（味噌汁仕立ての一般的なほうとうと異なり、七夕にあんやきなこで供える甘い行事食のため）。棚を変えた行: imo_namasu_nagano（raw→homestyle、油と酢で炒める調理のため）/ kone_tsuke_nagano（sweets→homestyle、惣菜的な粉ものであるため）/ nira_senbei_nagano（sweets→homestyle、同上）/ shouyu_mame_nagano（homestyle→fermented、麹で1ヶ月以上発酵させるため）/ tanabata_houtou_nagano（noodles→sweets、あんやきなこをまぶす甘い行事菓子であるため）。要判断: nagano-ego（えごの酢味噌あえ）は台帳では既存slugに紐付けられていなかったが、all-items-ja.txtの既存項目「ego」（福島県、同一のエゴ草を使う類似料理）と概念が近いため、対比関係を張ったうえで別項目として新規作成した。座標の根拠: 伝承地域が「〜地域」等の広域表記の場合は、本文中で最も具体的に触れられている市町村、または地域の中心都市を代表地点として一般知識で概算した（各itemのnotesに記載）。"
+}
