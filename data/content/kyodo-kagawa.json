@@ -1,0 +1,1130 @@
+{
+ "items": [
+  {
+   "slug": "aji-no-sanbai",
+   "name_ja": "アジの三杯",
+   "name_romaji": "Aji no Sanbai",
+   "name_en": "Aji no sanbai — grilled horse mackerel steeped whole in three-part vinegar",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "焦げ目をつけて焼いたアジを、唐辛子や刻みしょうがを効かせた三杯酢に漬ける。酢が骨をやわらげ丸ごと食べられるようにする工夫で、小アジが出回る瀬戸内の夏祭りの酒肴として親しまれてきたという。",
+   "summary_en": "Aji (horse mackerel) is grilled until lightly charred, then steeped in a three-part vinegar dressing sharpened with chili and ginger. The vinegar is said to soften the bones enough to eat whole, and the dish has long served as a summer festival accompaniment to drinks around the Seto Inland Sea.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ajino_sanbai_kagawa.html",
+     "title": "アジの三杯 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "aji-no-sanbai",
+     "to_slug": "aji",
+     "relation_type": "使用食材",
+     "basis": "台帳のexisting_slug候補。素材のアジ（低confidence）とは別物の郷土料理だが、主食材としてアジを使う関係にある"
+    }
+   ],
+   "tags": [],
+   "notes": "existing_slug=aji（low）。ajiは魚そのもの(type=ingredient)で、三杯酢で食べる郷土料理とは別物と判断し作成。",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "anmochi-zoni",
+   "name_ja": "あんもち雑煮",
+   "name_romaji": "Anmochi Zoni",
+   "name_en": "Anmochi zoni — white miso zoni with a sweet red-bean-filled rice cake",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "煮干し出汁に大根と金時人参、あん入りの丸餅を煮て、最後に白味噌を溶き入れる正月の雑煮。江戸期に貴重だった砂糖を使い切る一年一度のごちそうとして始まったと伝わる。",
+   "summary_en": "A New Year zoni made by simmering daikon, kintoki carrot, and a round rice cake filled with sweet red bean paste in dried-sardine broth, finished with white miso. Said to have begun as a once-a-year treat using sugar, once a costly commodity in the Edo period.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/anmochi_zouni_kagawa.html",
+     "title": "あんもち雑煮 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "anmochi-zoni",
+     "to_slug": "teppai",
+     "relation_type": "兄弟",
+     "basis": "ともに讃岐の白味噌を用いる香川の郷土料理"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kagawa-barazushi",
+   "name_ja": "ばらずし",
+   "name_romaji": "Barazushi",
+   "name_en": "Kagawa barazushi — scattered sushi rice mixed with simmered vegetables and seafood",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "酢飯に里芋やごぼう、しいたけなどの具を混ぜ込み、サワラの酢じめや錦糸卵を彩りに添える。祭りや婚礼など人が集まるハレの日のごちそうとして各家庭でつくられてきたという。",
+   "summary_en": "Vinegared rice is mixed with simmered taro, burdock, and shiitake, then topped with vinegar-cured Spanish mackerel and shredded egg for color. Long made at home for festivals, weddings, and other gatherings as a celebratory dish.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/bara_zushi_kagawa.html",
+     "title": "ばらずし 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kagawa-barazushi",
+     "to_slug": "osaka-barazushi",
+     "relation_type": "対比",
+     "basis": "existing_slug候補(low)。名前は同じ「ばらずし」だが、大阪のばらずしとは別系統の香川の郷土料理と判断"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "existing_slug=okayama-barazushi（low）。名称は「岡山ばらずし」ではなく「ばらずし」で、大阪のosaka-barazushiと同名衝突のため香川固有として kagawa-barazushi で作成。宇多津町の甘い味付け版は本文の一例として要判断（伝承地域は県内全域のため広域扱い）。",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kagawa-dojou-jiru",
+   "name_ja": "どじょう汁",
+   "name_romaji": "Dojo Jiru",
+   "name_en": "Kagawa dojo jiru — loach and vegetable soup thickened with hand-cut wheat noodles",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.2891,
+   "lng": 133.7995,
+   "summary_ja": "ごぼうや里芋、打ち込み用のうどんとともにドジョウを煮込んだ夏バテ予防の汁物。田植え後、男たちがため池でとったドジョウを、集落の寄り合いで大釜で炊いて振る舞ってきたという。",
+   "summary_en": "Loach is simmered with burdock, taro, and hand-cut wheat noodles into a soup eaten to fend off summer fatigue. After rice planting, men once caught loach from irrigation ponds and cooked it in a communal cauldron to share at village gatherings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/dojou_jiru_kagawa.html",
+     "title": "どじょう汁 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kagawa-dojou-jiru",
+     "to_slug": "uchikomi-jiru",
+     "relation_type": "兄弟",
+     "basis": "ともに手打ちの小麦粉めんをだしで煮込む香川の汁物"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "all-items-ja.txtのdojou-jiru（栃木県）と同名。プレフィックスを付けkagawa-dojou-jiruとした。伝承地域は中讃地域および東讃地域の一部のため中讃の中心地・丸亀市を採用。",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ebi-miso-shiru",
+   "name_ja": "えびみそ汁",
+   "name_romaji": "Ebi Miso Jiru",
+   "name_en": "Ebi miso jiru — small Seto shrimp pureed into a white miso soup",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_city": "三豊市豊中町",
+   "lat": 34.2058,
+   "lng": 133.6725,
+   "summary_ja": "殻ごとすりつぶした小エビを米のとぎ汁でのばし、白味噌と豆腐を加えて煮る汁物。三豊市豊中町の宇賀神社で約300年続くどぶろく祭りに、神事の振る舞い料理として添えられてきたという。",
+   "summary_en": "Small shell-on shrimp are pureed with rice rinse water, then simmered with white miso and tofu. Served as part of the roughly 300-year-old sacred sake festival at Uga Shrine in Toyonaka, Mitoyo, where it has long accompanied the shrine's home-brewed doburoku.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ebi_miso_shiru_kagawa.html",
+     "title": "えびみそ汁 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ebi-miso-shiru",
+     "to_slug": "anmochi-zoni",
+     "relation_type": "兄弟",
+     "basis": "ともに讃岐の白味噌を用いる香川の郷土料理"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hage-dango",
+   "name_ja": "はげ団子",
+   "name_romaji": "Hage Dango",
+   "name_en": "Hage dango — new-wheat dumplings mottled with sweet red bean paste",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "収穫したての小麦粉でつくった団子を、小豆であんをまぶした素朴な菓子。梅雨明けの節目にあたる半夏生（7月2日ごろ）に農作業をねぎらってつくり、神仏に供えて家族で食べる。",
+   "summary_en": "Freshly milled new-wheat dumplings are coated in a simple red-bean paste. Traditionally made around Hangeshō, the early-July turning point when the rains break, as thanks for the season's farm work, and offered to household gods before the family eats.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hage_dango_kagawa.html",
+     "title": "はげ団子 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hage-dango",
+     "to_slug": "uzumaki-mochi",
+     "relation_type": "兄弟",
+     "basis": "ともに小麦粉やだんご粉を使う香川の郷土菓子"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "imotako",
+   "name_ja": "いもたこ",
+   "name_romaji": "Imotako",
+   "name_en": "Imotako — octopus and taro simmered together",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "瀬戸内海でとれるタコと里芋を、だしと調味料でともに煮付けたシンプルな一品。かつては正月や婚礼などのハレの日のごちそうだったが、今は日常の惣菜としてよくつくられるという。",
+   "summary_en": "Octopus from the Seto Inland Sea and taro are simmered together in a simple seasoned broth. Once reserved for New Year and wedding feasts, it is said to have become an everyday side dish today.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/imotako_kagawa.html",
+     "title": "いもたこ 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "imotako",
+     "to_slug": "wakegiae",
+     "relation_type": "兄弟",
+     "basis": "ともにタコを使う香川の惣菜"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iriko-meshi",
+   "name_ja": "いりこ飯",
+   "name_romaji": "Iriko Meshi",
+   "name_en": "Iriko meshi — rice cooked with dried sardine stock and root vegetables",
+   "shelf": "rice",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.1327,
+   "lng": 133.6494,
+   "summary_ja": "いりこ（煮干し）の頭でとった出汁で、身と人参、大根、里芋などを米と炊き込む。いりこの名産地・伊吹島を抱える西讃地域を中心に、季節を問わずつくられる日常食だという。",
+   "summary_en": "Rice is cooked with dried-sardine stock made from the fish heads, along with the sardine meat, carrot, daikon, and taro. An everyday dish centered on the Seiban region around Ibukijima, an island famed for producing this dried-sardine stock.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/iriko_meshi_kagawa.html",
+     "title": "いりこ飯 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "iriko-meshi",
+     "to_slug": "sanuki",
+     "relation_type": "使用食材",
+     "basis": "いりこ出汁は讃岐うどんにも欠かせない香川の代表的な出汁とされる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は西讃地域のため、西讃の中心地・観音寺市を採用。",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kagawa-kakimaze",
+   "name_ja": "かきまぜ",
+   "name_romaji": "Kakimaze",
+   "name_en": "Kagawa kakimaze — soy-seasoned mixed rice from Shodoshima",
+   "shelf": "rice",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.4903,
+   "lng": 134.1783,
+   "summary_ja": "たけのこや干しえび、油揚げなどを醤油で煮含め、炊き立てのごはんに混ぜ込む小豆島の郷土料理。醤油の一大産地である島らしく、集落の寄り合いなど大人数の場でふるまわれてきたという。",
+   "summary_en": "Bamboo shoot, dried shrimp, fried tofu, and other ingredients are simmered in soy sauce and folded into freshly cooked rice. A specialty of Shodoshima, an island long known for soy sauce production, traditionally served to large gatherings such as village meetings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kakimaze_kagawa.html",
+     "title": "かきまぜ 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kagawa-kakimaze",
+     "to_slug": "shodoshima-shoyu",
+     "relation_type": "使用食材",
+     "basis": "小豆島の醤油醸造で味付けする郷土料理として本文で説明されている"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "all-items-ja.txtのkakimaze（三重県）と同名。プレフィックスを付けkagawa-kakimazeとした。",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kankan-zushi",
+   "name_ja": "カンカンずし",
+   "name_romaji": "Kankan Zushi",
+   "name_en": "Kankan zushi — vinegar-cured mackerel pressed sushi from Sanuki",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_city": "さぬき市",
+   "lat": 34.3395,
+   "lng": 134.1972,
+   "summary_ja": "酢でしめたサワラをすし飯の上に並べ、木箱に詰めてくさびで押し固めた保存性の高いすし。さぬき市鴨部地域が発祥とされ、木槌で打ち込む音がカンカンと響くことから名がついたという。",
+   "summary_en": "Vinegar-cured Spanish mackerel is laid over sushi rice, packed into a wooden box, and pressed tight with wedges for a long shelf life. Said to originate in the Kamobe area of Sanuki City, its name comes from the kan-kan sound of the mallet driving the wedges home.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kankan_zushi_kagawa.html",
+     "title": "カンカンずし 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kankan-zushi",
+     "to_slug": "oshinuki-zushi",
+     "relation_type": "兄弟",
+     "basis": "ともにサワラを使う讃岐の押しずし・型ずし"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域は東讃地域だが、本文がさぬき市鴨部地域を発祥地として名指ししているためさぬき市の座標を採用。",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "konnyaku-no-hachihai",
+   "name_ja": "こんにゃくのはちはい",
+   "name_romaji": "Konnyaku no Hachihai",
+   "name_en": "Konnyaku no hachihai — konjac simmered in dashi, soy sauce, and sake",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "三角に薄切りしたこんにゃくを、里芋や干ししいたけとともに出汁で煮る。名の由来は、あっさりとした味に八杯おかわりした人がいたから、出汁と醤油と酒を八杯ずつ使うからなど諸説あるという。",
+   "summary_en": "Konjac sliced into thin triangles is simmered with taro and dried shiitake in dashi. The name's origin has several theories — that someone once had eight helpings of its light flavor, or that dashi, soy sauce, and sake are each measured out eight cups at a time.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/konnyaku_no_hachihai_kagawa.html",
+     "title": "こんにゃくのはちはい 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "konnyaku-no-hachihai",
+     "to_slug": "sawasawa",
+     "relation_type": "兄弟",
+     "basis": "本文が言及する、材料の似た香川のこんにゃく料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域は東讃地域、中讃地域のため広域扱いとし、県庁所在地の高松市を採用。",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kagawa-konnyaku-shiraae",
+   "name_ja": "こんにゃくの白あえ",
+   "name_romaji": "Konnyaku no Shiraae",
+   "name_en": "Kagawa konnyaku no shiraae — konjac dressed in sweet tofu-sesame miso",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "短冊に切って炒めたこんにゃくを、すりつぶした豆腐とごま、味噌を合わせた衣で和える。食物繊維の多いこんにゃくを、悪運を払い無病息災を願う節分に食べる家庭が多いという。",
+   "summary_en": "Konjac cut into strips and pan-fried is dressed in a paste of mashed tofu, sesame, and miso. Many households are said to eat this fiber-rich konjac dish on Setsubun, the seasonal turning-point believed to ward off misfortune for the year ahead.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/konnyaku_no_shiraae_kagawa.html",
+     "title": "こんにゃくの白あえ 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kagawa-konnyaku-shiraae",
+     "to_slug": "konnyaku-no-hachihai",
+     "relation_type": "兄弟",
+     "basis": "ともにこんにゃくを主役にする香川の郷土料理"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "all-slugs.txtのkonnyaku-no-shiraae（福島県「こんにゃくの白和え」）と同音のためkagawa-konnyaku-shiraaeとした。",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "manbano-kenchan",
+   "name_ja": "まんばのけんちゃん",
+   "name_romaji": "Manba no Kenchan",
+   "name_en": "Manba no kenchan — winter mustard greens stir-fried with tofu",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "霜にあたって甘みが増す冬の高菜「まんば」を煮干しと炒め、豆腐と油揚げを崩しながら加える。細切り野菜と豆腐を炒め合わせるけんちん料理がなまって「けんちゃん」と呼ばれるようになったという。",
+   "summary_en": "Manba, a winter mustard green that sweetens after frost, is stir-fried with dried sardines, then crumbled tofu and fried tofu are worked in. The name kenchan is said to be a local slurring of kenchin, a dish of shredded vegetables stir-fried with tofu.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/manbano_kenchan_kagawa.html",
+     "title": "まんばのけんちゃん 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "manbano-kenchan",
+     "to_slug": "iriko-meshi",
+     "relation_type": "兄弟",
+     "basis": "ともに讃岐のいりこ出汁を使う香川の郷土料理"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mossomeshi",
+   "name_ja": "もっそうめし",
+   "name_romaji": "Mossomeshi",
+   "name_en": "Mossomeshi — five-item rice pressed into a cylindrical mold",
+   "shelf": "rice",
+   "genre": null,
+   "origin_city": "三豊市",
+   "lat": 34.1662,
+   "lng": 133.697,
+   "summary_ja": "いりこや油揚げ、ごぼうなどを甘辛く煮て炊きたてのごはんに混ぜ、円柱形の型で押し抜く。修行僧の精進料理が起源とされ、三豊市では五穀豊穣を祈る百々手祭りの振る舞い飯として親しまれてきたという。",
+   "summary_en": "Dried sardine, fried tofu, and burdock simmered sweet and salty are mixed into freshly cooked rice, then pressed into a cylindrical mold. Said to trace back to a monk's ascetic meal, it has long been served in Mitoyo at the Momote archery festival held to pray for a good harvest.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mossou_meshi_kagawa.html",
+     "title": "もっそうめし 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mossomeshi",
+     "to_slug": "warigo-bento",
+     "relation_type": "兄弟",
+     "basis": "ともに祭礼で人が集まる場のために型に詰めて振る舞われる香川の飯料理"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kagawa-nasu-somen",
+   "name_ja": "なすそうめん",
+   "name_romaji": "Nasu Somen",
+   "name_en": "Kagawa nasu somen — eggplant and somen noodles simmered in dashi",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.2891,
+   "lng": 133.7995,
+   "summary_ja": "油で炒めたなすを油揚げや唐辛子とともにいりこ出汁で煮て、ゆでたそうめんを加える夏の家庭料理。小豆島特産のそうめんとなすを合わせやすいことから、手軽な主食として広く浸透しているという。",
+   "summary_en": "Eggplant pan-fried in oil is simmered with fried tofu and chili in dried-sardine dashi, then combined with boiled somen noodles for a summer home dish. Said to have spread widely as an easy staple, pairing well the somen noodles for which Shodoshima is known with locally grown eggplant.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nasu_soumen_kagawa.html",
+     "title": "なすそうめん 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kagawa-nasu-somen",
+     "to_slug": "shodoshima-somen",
+     "relation_type": "使用食材",
+     "basis": "小豆島特産のそうめんを用いると本文で説明されている"
+    }
+   ],
+   "tags": [],
+   "notes": "all-items-ja.txtのnasu-somen（石川県）と同名のためkagawa-nasu-somenとした。",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ochirashi-ame",
+   "name_ja": "おちらしあめ",
+   "name_romaji": "Ochirashi Ame",
+   "name_en": "Ochirashi ame — roasted barley candy pulled into sticks",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "はだか麦ともち米を煎って粉にした「おちらし」を水あめと砂糖で練り上げ、棒状にして切り分ける菓子。米の裏作として麦づくりが盛んな香川で、初夏の麦の収穫に合わせてつくられてきたという。",
+   "summary_en": "Ochirashi, a roasted flour made from hulless barley and glutinous rice, is kneaded with starch syrup and sugar, then shaped into sticks and cut. Made to mark the early-summer barley harvest in Kagawa, where barley has long been grown as a second crop after rice.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ochi_rashi_ame_kagawa.html",
+     "title": "おちらしあめ 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ochirashi-ame",
+     "to_slug": "hage-dango",
+     "relation_type": "兄弟",
+     "basis": "ともに麦を材料にする香川の郷土菓子"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oshinuki-zushi",
+   "name_ja": "押し抜きずし",
+   "name_romaji": "Oshinuki Zushi",
+   "name_en": "Oshinuki zushi — mold-pressed sushi topped with Spanish mackerel and fava bean",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "型に詰めたすし飯にサワラの切り身やそら豆、卵焼きを彩りよく並べて押し出す。春、脂の乗ったサワラを買って親類を招く「春祝魚」という讃岐の風習の主役として食べられてきたという。",
+   "summary_en": "Sushi rice packed into a mold is topped with slices of Spanish mackerel, fava bean, and rolled omelet before being pressed out. Said to be the centerpiece of harusanuo, a Sanuki custom of buying a whole spring mackerel and inviting relatives to share it.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/oshinuki_zushi_kagawa.html",
+     "title": "押し抜きずし 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "oshinuki-zushi",
+     "to_slug": "kankan-zushi",
+     "relation_type": "兄弟",
+     "basis": "ともにサワラを使う讃岐の押しずし・型ずし"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "satsuma",
+   "name_ja": "さつま",
+   "name_romaji": "Satsuma",
+   "name_en": "Satsuma — grilled white fish and roasted miso ladled over hot rice",
+   "shelf": "rice",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.1327,
+   "lng": 133.6494,
+   "summary_ja": "焼いた白身魚の身をほぐし、焦げ目をつけた味噌と魚の出汁でのばして熱々のごはんにかける郷土料理。九州から四国へ海岸沿いに伝わったとされ、香川では「讃岐さつま」とも呼ばれるという。",
+   "summary_en": "Flaked grilled white fish is combined with lightly toasted miso and fish stock, then poured over hot rice. Said to have traveled along the coast from Kyushu to Shikoku, it is also known in Kagawa as Sanuki satsuma.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/satsuma_kagawa.html",
+     "title": "さつま 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "satsuma",
+     "to_slug": "teppai",
+     "relation_type": "兄弟",
+     "basis": "ともに白味噌や地魚を使う讃岐の魚料理"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "existing_slug=satsuma-age（low）。さつま揚げ（練り物）とは異なる、白身魚をほぐし味噌だしでごはんにかける郷土料理と判断し作成。伝承地域は西讃地域の一部のため西讃の中心地・観音寺市を採用。",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sawasawa",
+   "name_ja": "さわさわ",
+   "name_romaji": "Sawasawa",
+   "name_en": "Sawasawa — konjac and sweet potato simmered into a thick soup",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "三豊市仁尾町",
+   "lat": 34.135,
+   "lng": 133.708,
+   "summary_ja": "こんにゃくを人参やごぼうとともに出汁で煮て、すりおろしたさつまいもでとろみをつける三豊市仁尾町の郷土料理。汁気の多いさらさらとした食感が名の由来とされ、法事などの際につくられてきたという。",
+   "summary_en": "Konjac is simmered in dashi with carrot and burdock, then thickened with grated sweet potato, in this dish from Nio, Mitoyo. Its name is said to come from the sara-sara texture of its brothy consistency, traditionally made for memorial services.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sawasawa_kagawa.html",
+     "title": "さわさわ 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sawasawa",
+     "to_slug": "konnyaku-no-hachihai",
+     "relation_type": "兄弟",
+     "basis": "本文が言及する、材料の似た香川のこんにゃく料理"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shima-no-chagayu",
+   "name_ja": "島の茶粥",
+   "name_romaji": "Shima no Chagayu",
+   "name_en": "Shima no chagayu — rice porridge simmered in bitter roasted tea",
+   "shelf": "rice",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.2891,
+   "lng": 133.7995,
+   "summary_ja": "碁石茶やほうじ茶を煮出した湯で米を煮込む粥。田んぼを持たない塩飽諸島の島々で、貴重な米を少なく食べ延ばすための朝食として、味付けをせずお茶の渋みだけで食べられてきたという。",
+   "summary_en": "Rice is simmered in water infused with goishicha or roasted tea into a porridge. On the rice-paddy-less islands of the Shiwaku archipelago, it is said to have served as breakfast that stretched scarce rice further, eaten unseasoned save for the tea's bitterness.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shima_no_chagayu_kagawa.html",
+     "title": "島の茶粥 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shima-no-chagayu",
+     "to_slug": "kagawa-nasu-somen",
+     "relation_type": "対比",
+     "basis": "ともに瀬戸内の島の暮らしから生まれた香川の日常食"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は志々島・高見島・佐柳島など塩飽諸島のため広域扱いとし、諸島への渡航拠点である丸亀市を採用。",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kagawa-shoyu-mame",
+   "name_ja": "しょうゆ豆",
+   "name_romaji": "Shoyu Mame",
+   "name_en": "Kagawa shoyu mame — roasted dried fava beans steeped in seasoned soy sauce",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "乾燥そら豆を煎ってから醤油、砂糖、唐辛子の調味液に漬け込む。煮豆と違い煎ってから漬けることで、噛むとポロッと崩れる食感になるという。香川の稲の裏作として栽培されるそら豆を使う保存食。",
+   "summary_en": "Dried fava beans are roasted, then steeped in a soy sauce, sugar, and chili liquid. Unlike simmered beans, roasting first is said to give a crumbly bite when chewed — a preserved food built on fava beans grown as a second crop after Kagawa's rice.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shouyu_mame_kagawa.html",
+     "title": "しょうゆ豆 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kagawa-shoyu-mame",
+     "to_slug": "shodoshima-shoyu",
+     "relation_type": "使用食材",
+     "basis": "発祥説の一つとして小豆島の醤油醸造との関わりが本文で語られている"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "souvenir_non_confection"
+   ],
+   "notes": "all-items-ja.txtのshoyu-mame（長野県）と同名のためkagawa-shoyu-mameとした。長野のしょうゆ豆は発酵させた大豆の練り物とされ、香川の乾燥そら豆を漬け込む菓子的な惣菜とは別物と判断。",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tai-somen",
+   "name_ja": "鯛そうめん",
+   "name_romaji": "Tai Somen",
+   "name_en": "Tai somen — a whole simmered sea bream served over somen noodles",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "塩でしめたタイを一匹丸ごと醤油と砂糖、酒で煮崩れないように煮込み、ゆでたそうめんとともに大皿に盛る婚礼料理。座卓ごと揺すりながら運ぶ讃岐伊勢音頭の演出とともに供されてきたという。",
+   "summary_en": "A whole salt-cured sea bream is simmered gently in soy sauce, sugar, and sake so it holds its shape, then served on a large platter with boiled somen noodles — a wedding-feast centerpiece traditionally carried in while the table is rocked to a Sanuki Ise Ondo tune.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tai_soumen_kagawa.html",
+     "title": "鯛そうめん 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tai-somen",
+     "to_slug": "kagawa-nasu-somen",
+     "relation_type": "兄弟",
+     "basis": "ともにそうめんを使う香川の郷土料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "takuan-no-kinpira",
+   "name_ja": "たくあんのきんぴら",
+   "name_romaji": "Takuan no Kinpira",
+   "name_en": "Takuan no kinpira — aged pickled daikon desalted and stir-fried",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "酸味の出た古漬けたくあんを水にさらして塩抜きし、油で炒めて赤唐辛子で仕上げる惣菜。冬にたくあんを大量に仕込む香川で、余さず食べ切る工夫として親しまれてきたという。",
+   "summary_en": "Aged pickled daikon that has developed a sour edge is soaked to remove salt, then stir-fried in oil and finished with red chili. Said to have taken hold in Kagawa, where households pickle large batches of daikon each winter, as a way to use every last piece.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/takuan_no_kinpira_kagawa.html",
+     "title": "たくあんのきんぴら 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "takuan-no-kinpira",
+     "to_slug": "sippoku-udon",
+     "relation_type": "兄弟",
+     "basis": "本文が「てっぱい」「しっぽくうどん」と並べて言及する、大根を使う讃岐の郷土料理"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "teppai",
+   "name_ja": "てっぱい",
+   "name_romaji": "Teppai",
+   "name_en": "Teppai — freshwater carp and daikon dressed in white miso vinegar",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "ため池でとれるフナを塩と酢でしめ、大根とともに讃岐の白味噌でつくった酢味噌で和える。フナを「鉄砲」と呼んだことから「鉄砲和え」がなまり「てっぱい」になったとされる冬の酒肴。",
+   "summary_en": "Crucian carp from irrigation ponds is cured in salt and vinegar, then dressed with daikon in a vinegared white miso from Sanuki. Said to derive its name from teppo-ae, an old term after teppo (gun), a local nickname for the carp — a winter dish served alongside sake.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/teppai_kagawa.html",
+     "title": "てっぱい 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "teppai",
+     "to_slug": "anmochi-zoni",
+     "relation_type": "兄弟",
+     "basis": "ともに讃岐の白味噌を用いる香川の郷土料理"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "toshiake-udon",
+   "name_ja": "年明けうどん",
+   "name_romaji": "Toshiake Udon",
+   "name_en": "Toshiake udon — white udon topped with red ingredients for the New Year",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "白いうどんに梅干しやイクラ、紅しょうがなど紅い食材を添え、1月15日までに食べる新しい麺食行事。さぬきうどん振興協議会が、太く長いうどんの縁起にちなんで広めた取り組みだという。",
+   "summary_en": "White udon is topped with red ingredients — pickled plum, salmon roe, red ginger, and more — and eaten by January 15th, a newer noodle custom. Started by a Sanuki udon promotion group, drawing on the old belief that thick, long noodles bring long life.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/toshiake_udon_kagawa.html",
+     "title": "年明けうどん 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "toshiake-udon",
+     "to_slug": "sanuki",
+     "relation_type": "使用食材",
+     "basis": "本文で讃岐うどんの歴史とともに紹介されている"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "uchikomi-jiru",
+   "name_ja": "打ち込み汁",
+   "name_romaji": "Uchikomi Jiru",
+   "name_en": "Uchikomi jiru — hand-cut wheat noodles simmered straight into a vegetable soup",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "塩を使わず小麦粉と水だけでこねた生地を切って、別ゆでせずそのまま大根や人参の出汁に入れて煮込む冬の汁物。うどんが身近な小麦どころ香川らしい、手早くつくれる農村の日常食だという。",
+   "summary_en": "Dough kneaded from just wheat flour and water, without salt, is cut and simmered straight into a dashi with daikon and carrot, without pre-boiling — a winter soup. Said to be a quick everyday dish from Kagawa, a wheat-growing region where udon is part of daily life.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/uchikomi_jiru_kagawa.html",
+     "title": "打ち込み汁 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "uchikomi-jiru",
+     "to_slug": "kagawa-dojou-jiru",
+     "relation_type": "兄弟",
+     "basis": "ともに手打ちの小麦粉めんをだしで煮込む香川の汁物"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "uzumaki-mochi",
+   "name_ja": "うずまきもち",
+   "name_romaji": "Uzumaki Mochi",
+   "name_en": "Uzumaki mochi — sweet red bean paste rolled inside a spiral of dumpling dough",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_city": "東かがわ市引田",
+   "lat": 34.2214,
+   "lng": 134.3231,
+   "summary_ja": "こしあんを蒸しただんご生地で巻き込み、断面が渦になるよう巻いた東かがわ市引田の郷土菓子。渦は鳴門の海を表すとされ、女児の初節句の雛飾りに、菱餅と同じように供えて食べられてきたという。",
+   "summary_en": "Steamed dumpling dough is rolled around sweet red bean paste so the cut cross-section forms a spiral, in this specialty of Hiketa, Higashikagawa. The spiral is said to represent the whirlpools of nearby Naruto, and the sweet has long been displayed and eaten at a baby girl's first Girls' Festival, alongside diamond-shaped rice cakes.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/uzumaki_mochi_kagawa.html",
+     "title": "うずまきもち 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "uzumaki-mochi",
+     "to_slug": "hage-dango",
+     "relation_type": "兄弟",
+     "basis": "ともに小麦粉やだんご粉を使う香川の郷土菓子"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "handheld"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "wakegiae",
+   "name_ja": "わけぎあえ",
+   "name_romaji": "Wakegiae",
+   "name_en": "Wakegiae — scallion and octopus dressed in vinegared white miso",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.3428,
+   "lng": 134.0466,
+   "summary_ja": "ゆでたわけぎとゆでダコを、白味噌に酢や辛子を合わせた衣で和える春の惣菜。子孫繁栄の縁起物として雛祭りの頃に食べられてきたとされ、白味噌の甘い衣から「ぬたあえ」とも呼ばれる。",
+   "summary_en": "Boiled scallion and boiled octopus are dressed in a paste of white miso, vinegar, and mustard for a spring side dish. Said to be eaten around the Girls' Festival as a symbol of a thriving family line, and also known as nuta-ae for its sweet miso dressing.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/wakegiae_kagawa.html",
+     "title": "わけぎあえ 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "wakegiae",
+     "to_slug": "imotako",
+     "relation_type": "兄弟",
+     "basis": "ともにタコを使う香川の惣菜"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "warigo-bento",
+   "name_ja": "わりご弁当",
+   "name_romaji": "Warigo Bento",
+   "name_en": "Warigo bento — a Shodoshima lunch box packed with molded rice and simmered vegetables",
+   "shelf": "rice",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.4903,
+   "lng": 134.1783,
+   "summary_ja": "専用の木枠で型抜きしたごはんと、こんにゃくやしいたけの煮しめを詰め合わせた小豆島の弁当。江戸時代から続く肥土山農村歌舞伎の演目の合間に、20個ほど持ち寄って分け合って食べるという。",
+   "summary_en": "A Shodoshima lunch box packs rice pressed in a dedicated wooden mold alongside simmered konjac, shiitake, and other vegetables. Around 20 boxes are said to be brought and shared between acts at the Hifuyama rural kabuki performance, an Edo-period tradition still held today.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/warigo_bentou_kagawa.html",
+     "title": "わりご弁当 香川県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "warigo-bento",
+     "to_slug": "kagawa-kakimaze",
+     "relation_type": "兄弟",
+     "basis": "ともに小豆島に伝わる香川の郷土料理"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "handheld"
+   ],
+   "notes": "伝承地域は小豆島地域のため、小豆島(土庄町)の座標を採用。",
+   "type": "dish",
+   "origin_pref": "香川県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": ""
+}

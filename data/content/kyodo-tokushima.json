@@ -1,0 +1,1005 @@
+{
+ "items": [
+  {
+   "slug": "sobagome-zosui",
+   "name_ja": "そば米雑炊",
+   "name_romaji": "Sobagome Zosui",
+   "name_en": "Sobagome zosui — buckwheat groats simmered like rice porridge with vegetables",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_city": "三好市",
+   "lat": 34.0189,
+   "lng": 133.8156,
+   "summary_ja": "そばの実を塩ゆでして殻をむき乾燥させた「そば米」を、鶏肉やこんにゃく、野菜のだしで煮込む雑炊。米が育ちにくい祖谷地方に逃れた平家の落人が、そばを栽培したことから生まれたと伝わる。",
+   "summary_en": "Buckwheat groats — boiled in salted water, hulled, and dried into what's called sobagome — are simmered with chicken, konjac, and vegetables into a porridge-like dish. Said to trace back to Heike clan survivors who took refuge in the rice-poor Iya valley and grew buckwheat there instead.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_1_tokushima.html",
+     "title": "そば米雑炊／そば米汁 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sobagome-zosui",
+     "to_slug": "iya",
+     "relation_type": "兄弟",
+     "basis": "ともに祖谷地方のそば文化に由来する徳島の郷土料理"
+    }
+   ],
+   "tags": [],
+   "notes": "別名「そば米汁」。棚をshelf=noodles→hotpotに変更（麺ではなくそばの実を米代わりに雑炊・汁物として食べる料理のため）。伝承地域は「三好市祖谷地域、県内全域」の両表記だが、本文が祖谷地方を発祥地として明記しているため三好市を採用。",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iri-meshi",
+   "name_ja": "いり飯",
+   "name_romaji": "Iri Meshi",
+   "name_en": "Iri meshi — dried baby sardine mixed into seasoned rice",
+   "shelf": "rice",
+   "genre": null,
+   "origin_city": "佐那河内村",
+   "lat": 33.9686,
+   "lng": 134.4189,
+   "summary_ja": "酢や醤油で味付けしたちりめんじゃこを、ちくわやしいたけ、こんにゃくとともにごはんに混ぜ込む。佐那河内村嵯峨地区で、用水路の手入れなど共同作業のねぎらいに出されてきた100年以上続く料理という。",
+   "summary_en": "Dried baby sardines seasoned with vinegar and soy sauce are mixed into rice along with fish cake, shiitake, and konjac. Said to have been served for over a century in the Saga district of Sanagochi as a thank-you meal after communal work like clearing irrigation channels.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_10_tokushima.html",
+     "title": "いり飯／いりこ飯 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "iri-meshi",
+     "to_slug": "tokushima-shima-somen",
+     "relation_type": "対比",
+     "basis": "ともに海の幸を活かした徳島の郷土料理"
+    }
+   ],
+   "tags": [],
+   "notes": "別名「いりこ飯」。「／」区切りのため主名は先頭のいり飯とした。",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kintoki-mame-barazushi",
+   "name_ja": "金時豆入りばら寿司",
+   "name_romaji": "Kintoki Mame Barazushi",
+   "name_en": "Kintoki mame barazushi — scattered sushi mixed with sweet kidney beans",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_city": "",
+   "lat": 34.0657,
+   "lng": 134.5593,
+   "summary_ja": "醤油と砂糖で甘めに煮た金時豆と、こんにゃくやにんじんなど旬の具材を酢飯に混ぜ込む。米が育ちにくかった徳島で、具をたっぷり加えてかさを増やす工夫から生まれたとされ、祭りや節句に振る舞われる。",
+   "summary_en": "Kintoki kidney beans simmered sweet in soy sauce and sugar are mixed into vinegared rice along with konjac, carrot, and other seasonal ingredients. Said to have arisen in Tokushima's rice-poor soil as a way to stretch rice with plentiful fillings, served at festivals and seasonal celebrations.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_11_tokushima.html",
+     "title": "金時豆入りばら寿司 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kintoki-mame-barazushi",
+     "to_slug": "kagawa-barazushi",
+     "relation_type": "対比",
+     "basis": "本文が「かきまぜ」「おすもじ」とも呼ばれると説明する、香川のばらずしと似た系統の寿司"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "uchigae-zoni",
+   "name_ja": "うちがえ雑煮",
+   "name_romaji": "Uchigae Zoni",
+   "name_en": "Uchigae zoni — a zoni made with firm stone tofu instead of rice cake",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_city": "三好市",
+   "lat": 34.0189,
+   "lng": 133.8156,
+   "summary_ja": "いりこだしのつゆに里芋を煮て、餅の代わりに硬く水気を絞った岩豆腐を重ねてのせる祖谷地方の雑煮。豆腐が重なる様子が武士の「打ち違え」に似ることから名がついたとされる正月のごちそう。",
+   "summary_en": "Taro is simmered in dried-sardine dashi, then topped not with rice cake but with firm, well-drained stone tofu stacked in layers, in this zoni from the Iya valley. Said to take its name from the way the stacked tofu resembles crossed swords, it is a New Year's dish of the mountain region.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_12_tokushima.html",
+     "title": "うちがえ雑煮 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "uchigae-zoni",
+     "to_slug": "iya",
+     "relation_type": "兄弟",
+     "basis": "ともに祖谷地方に伝わる徳島の郷土料理"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "soy_sauce"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "narae",
+   "name_ja": "ならえ",
+   "name_romaji": "Narae",
+   "name_en": "Narae — seven vegetables and fried tofu dressed in a sweet vinegar",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.0657,
+   "lng": 134.5593,
+   "summary_ja": "大根、にんじん、油揚げなど7つの食材を三杯酢で和える精進料理由来の一品。もとは奈良漬けが加わっていたことから「奈良和え」と呼んだのがなまったとされ、法事や彼岸に供されてきたという。",
+   "summary_en": "Seven ingredients — daikon, carrot, fried tofu, and more — are dressed in a three-part vinegar, a dish said to trace back to shojin temple cooking. Its name is thought to be a slurring of Nara-ae, from when Nara pickles were once part of the mix, and it has been served at memorial services and equinox observances.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_13_tokushima.html",
+     "title": "ならえ 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "narae",
+     "to_slug": "zukigashi",
+     "relation_type": "兄弟",
+     "basis": "ともに合わせ酢で和える徳島の副菜"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tokushima-yubeshi",
+   "name_ja": "ゆべし",
+   "name_romaji": "Yubeshi",
+   "name_en": "Yubeshi — yuzu peel simmered thick in sugar and soy sauce",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "那賀町",
+   "lat": 33.8386,
+   "lng": 134.2911,
+   "summary_ja": "ゆずの皮を刻み、砂糖と醤油でとろみが出るまで甘辛く煮詰める保存食。ゆず生産量が全国有数の那賀町相生地区では、11月ごろゆずが完熟する時期にじっくり仕込み、副食やお茶請けにするという。",
+   "summary_en": "Yuzu peel is chopped and simmered down sweet and salty in sugar and soy sauce until thick, into a preserved side dish. In the Aioi district of Naka Town, among the country's leading yuzu-growing areas, it is said to be slow-cooked when the fruit ripens around November, then eaten as a side dish or with tea.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_14_tokushima.html",
+     "title": "ゆべし 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tokushima-yubeshi",
+     "to_slug": "yuzukan",
+     "relation_type": "兄弟",
+     "basis": "ともに那賀町のゆずを使う徳島の郷土料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "souvenir_non_confection"
+   ],
+   "notes": "all-slugs.txtのyubeshi（岡山県「柚餅子」）と読みが同じためtokushima-yubeshiとした。伝承地域は那賀町（那賀川上流）、勝浦地方、上勝の複数表記だが、本文が那賀町相生地区を中心に説明しているため那賀町を採用。",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "omiisan",
+   "name_ja": "おみいさん",
+   "name_romaji": "Omiisan",
+   "name_en": "Omiisan — miso-seasoned rice porridge with daikon and taro",
+   "shelf": "rice",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.0657,
+   "lng": 134.5593,
+   "summary_ja": "いりこ出汁で煮た米に里芋や大根、大根の葉をたっぷり加え、味噌を溶かして仕上げる雑炊。米が貴重だった時代、冷や飯やみそ汁の残りを使い切る日常食として親しまれてきたとされる。",
+   "summary_en": "Rice simmered in dried-sardine dashi is loaded with taro, daikon, and daikon greens, then finished with dissolved miso, into a porridge. Said to have been an everyday dish in leaner times, made to use up leftover rice and miso soup without waste.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_15_tokushima.html",
+     "title": "おみいさん 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "omiisan",
+     "to_slug": "sobagome-zosui",
+     "relation_type": "兄弟",
+     "basis": "ともに米の代用食から生まれた徳島の雑炊"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chagome",
+   "name_ja": "茶ごめ",
+   "name_romaji": "Chagome",
+   "name_en": "Chagome — rice cooked sweet and brown with roasted fava beans",
+   "shelf": "rice",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.0657,
+   "lng": 134.5593,
+   "summary_ja": "煎ったそら豆とざらめ糖を米とともに炊き上げ、全体を茶色く仕上げたごはん。もとは武家の食事だったが、新しいそら豆が出回る時季に古いそら豆を消費する農家の料理として広まったとされる。",
+   "summary_en": "Roasted fava beans and coarse sugar are cooked together with rice, turning the whole pot a light brown. Once eaten in samurai households, it is said to have spread among farming families as a way to use up older fava beans just as the new season's crop came in.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_16_tokushima.html",
+     "title": "茶ごめ 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "chagome",
+     "to_slug": "awa-no-itokoni",
+     "relation_type": "兄弟",
+     "basis": "ともにそら豆や小豆の甘みを活かす徳島の郷土料理"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "denbu",
+   "name_ja": "でんぶ",
+   "name_romaji": "Denbu",
+   "name_en": "Denbu — kintoki beans and root vegetables simmered sweet and salty",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.0657,
+   "lng": 134.5593,
+   "summary_ja": "下ゆでした金時豆や黒豆を大根やごぼうなどの根菜と煮込み、醤油と砂糖で甘辛く仕上げる五目豆風の一品。「まめに働いて暮らせるように」との願いを込め、正月や棟上げ式などの祝い膳に加えられるという。",
+   "summary_en": "Parboiled kintoki or black beans are simmered with root vegetables like daikon and burdock, then finished sweet and salty in soy sauce and sugar. Said to be added to New Year and house-raising feasts as a wish for a hardworking, diligent life, playing on the word for beans, mame, which also means diligence.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_17_tokushima.html",
+     "title": "でんぶ 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "denbu",
+     "to_slug": "kintoki-mame-barazushi",
+     "relation_type": "兄弟",
+     "basis": "ともに金時豆を使う徳島の郷土料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yuzukan",
+   "name_ja": "ゆずかん",
+   "name_romaji": "Yuzukan",
+   "name_en": "Yuzukan — a refreshing yuzu jelly made with the whole fruit",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_city": "那賀町",
+   "lat": 33.8386,
+   "lng": 134.2911,
+   "summary_ja": "ゆずの果汁でつくるゼリーに、皮や実のスライスを加えたさっぱりとしたデザート。ゆず生産量の多い那賀町で、「ゆべし」など加工品が広がる中、近年おやつとして手軽につくられるようになったという。",
+   "summary_en": "A jelly made from yuzu juice is layered with slices of the peel and flesh for a refreshing dessert. Said to have become a popular casual treat in recent years in Naka Town, a major yuzu producer already known for preserved products like yubeshi.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_18_tokushima.html",
+     "title": "ゆずかん 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yuzukan",
+     "to_slug": "tokushima-yubeshi",
+     "relation_type": "兄弟",
+     "basis": "ともに那賀町のゆずを使う徳島の郷土料理"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ise-ebi-no-misoshiru",
+   "name_ja": "伊勢エビの味噌汁",
+   "name_romaji": "Ise Ebi no Misoshiru",
+   "name_en": "Ise ebi no misoshiru — spiny lobster simmered whole into a miso soup",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_city": "美波町",
+   "lat": 33.7264,
+   "lng": 134.5325,
+   "summary_ja": "ぶつ切りにした伊勢エビを水から煮出し、味噌を溶いて仕上げる家庭の汁物。ひげや足が取れて出荷できない「あがり」を活かした料理とされ、美波町では漁解禁の9月ごろ祭りで無料提供もされるという。",
+   "summary_en": "Spiny lobster cut into pieces is simmered from cold water, then finished with miso for a home-style soup. Said to make use of agari, lobsters that have lost a leg or whisker and can't be shipped, and served free at a September festival in Minami marking the start of the fishing season.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_19_tokushima.html",
+     "title": "伊勢エビの味噌汁 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ise-ebi-no-misoshiru",
+     "to_slug": "ebi-miso-shiru",
+     "relation_type": "対比",
+     "basis": "ともに瀬戸内・太平洋沿岸のエビを使う四国の味噌汁"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tokushima-imomochi",
+   "name_ja": "いももち",
+   "name_romaji": "Imomochi",
+   "name_en": "Tokushima imomochi — sweet potato dough wrapped around red bean paste",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.0657,
+   "lng": 134.5593,
+   "summary_ja": "ゆでたさつまいももち粉でペースト状にした生地であんを包み、きな粉をまぶす餅菓子。19世紀後半に鳴門にさつまいもが伝わって以降、手に入りやすい甘みとして各家庭で広まったとされる。",
+   "summary_en": "Boiled sweet potato is blended with glutinous rice flour into a paste, wrapped around red bean paste, and dusted with roasted soybean flour. Said to have spread widely once sweet potato reached Naruto in the late 19th century, offering an affordable sweetness for ordinary households.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_20_tokushima.html",
+     "title": "いももち 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tokushima-imomochi",
+     "to_slug": "hokkaido-imomochi",
+     "relation_type": "対比",
+     "basis": "同名の郷土菓子。徳島はさつまいも、北海道はじゃがいもを使う点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "handheld"
+   ],
+   "notes": "all-items-ja.txtのいももち（岐阜県gifu-imomochi、北海道hokkaido-imomochi）と同名のためtokushima-imomochiとした。",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tokushima-shima-somen",
+   "name_ja": "島そうめん",
+   "name_romaji": "Shima Somen",
+   "name_en": "Shima somen — somen noodles served in the broth of simmered sea bream",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_city": "牟岐町",
+   "lat": 33.6653,
+   "lng": 134.4227,
+   "summary_ja": "出羽島でとれるれんこ鯛を甘辛く煮付け、その煮汁をめんつゆ代わりにそうめんを食べる牟岐町の一品。祭りや婚礼、宴会に欠かせない料理とされ、煮汁まで無駄にしない工夫から生まれたという。",
+   "summary_en": "Renko sea bream caught off Deshima island is simmered sweet and salty, and the leftover broth is used in place of noodle dipping sauce for somen, in this dish from Mugi Town. Said to be indispensable at festivals, weddings, and banquets, born of a wish not to waste even the simmering liquid.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_21_tokushima.html",
+     "title": "島そうめん 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tokushima-shima-somen",
+     "to_slug": "handa-somen",
+     "relation_type": "兄弟",
+     "basis": "ともに徳島に伝わるそうめん料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "existing_slug=shodoshima-somen（low）。小豆島（香川県）のそうめんそのものではなく、牟岐町の出羽島で魚の煮汁を使う別の郷土料理と判断し、tokushima-shima-somenとして作成。",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "awa-no-itokoni",
+   "name_ja": "阿波のいとこ煮",
+   "name_romaji": "Awa no Itokoni",
+   "name_en": "Awa no itokoni — dried sweet potato slowly simmered with red beans",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.0657,
+   "lng": 134.5593,
+   "summary_ja": "一度ゆでてから干した「ゆで干し」のさつまいもを水で戻し、小豆と弱火で2時間ほど炊き合わせる。冬に乾物づくりが盛んな徳島らしく、うま味が凝縮した干し芋を使う体の温まる副菜とされる。",
+   "summary_en": "Sweet potato that has been boiled then dried — yude-boshi style — is rehydrated and simmered slowly with red beans for about two hours over low heat. Fitting for a region where drying vegetables is common in winter, it is said to be a warming side dish built on the concentrated flavor of dried sweet potato.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_22_tokushima.html",
+     "title": "阿波のいとこ煮 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "awa-no-itokoni",
+     "to_slug": "chagome",
+     "relation_type": "兄弟",
+     "basis": "ともにそら豆や小豆の甘みを活かす徳島の郷土料理"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tokushima-taimeshi",
+   "name_ja": "鯛めし",
+   "name_romaji": "Taimeshi",
+   "name_en": "Taimeshi — rice cooked with a whole sea bream caught off Naruto",
+   "shelf": "rice",
+   "genre": null,
+   "origin_city": "鳴門市",
+   "lat": 34.1733,
+   "lng": 134.6053,
+   "summary_ja": "鳴門海峡の渦潮にもまれ身が締まった「鳴門鯛」を丸ごと、あるいはぶつ切りにして米とともに炊き上げる。うま味を吸ったごはんとの相性が評判で、家庭より飲食店で通年提供されることが多いという。",
+   "summary_en": "Naruto tai, a sea bream firmed up by the whirlpools of the Naruto Strait, is cooked whole or in pieces together with rice. Prized for how the rice absorbs the fish's flavor, it is said to be served mainly at restaurants year-round rather than at home.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_23_tokushima.html",
+     "title": "鯛めし 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tokushima-taimeshi",
+     "to_slug": "ayu-rousui",
+     "relation_type": "対比",
+     "basis": "ともに川や海の魚を米とともに炊く・煮る徳島の飯料理"
+    }
+   ],
+   "tags": [],
+   "notes": "all-slugs.txtのtaimeshi（広島県「鯛めし」）と同名のためtokushima-taimeshiとした。伝承地域は県内全域と表記されるが、本文が終始「鳴門鯛」を主題に説明しているため鳴門市を採用。",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tokushima-shiromiso-zoni",
+   "name_ja": "白味噌雑煮",
+   "name_romaji": "Shiromiso Zoni",
+   "name_en": "Tokushima shiromiso zoni — a New Year zoni finished with sweet white miso",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.0657,
+   "lng": 134.5593,
+   "summary_ja": "煮干しと昆布のだしで大根や里芋を煮て、餅やかまぼこ、青菜を加え、白味噌を溶き入れる正月の雑煮。祖谷の「うちがえ雑煮」など徳島には個性豊かな雑煮が並ぶ中、広く食べられている型だという。",
+   "summary_en": "Daikon and taro are simmered in dried-sardine and kelp dashi, joined by rice cake, fish cake, and greens, then finished with dissolved white miso, for a New Year zoni. Said to be a widely eaten style among Tokushima's many distinct regional zoni, which also include the Iya valley's tofu-topped uchigae zoni.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_24_tokushima.html",
+     "title": "白味噌雑煮 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tokushima-shiromiso-zoni",
+     "to_slug": "uchigae-zoni",
+     "relation_type": "対比",
+     "basis": "本文で並べて紹介されている、徳島の異なる系統の雑煮"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "all-items-ja.txtのosaka-shiromiso-zoni（大阪府「白味噌雑煮」）と同名のためtokushima-shiromiso-zoniとした。",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsutsumi-meshi",
+   "name_ja": "包飯",
+   "name_romaji": "Tsutsumi Meshi",
+   "name_en": "Tsutsumi meshi — buckwheat porridge ladled over a bed of rice",
+   "shelf": "rice",
+   "genre": null,
+   "origin_city": "",
+   "lat": 33.9986,
+   "lng": 134.0958,
+   "summary_ja": "そば米雑炊とごはんを別々に炊き、ごはんの上にそば米雑炊をのせて混ぜて食べる。ごはんをそば米で「包む」ことからこの名がついたとされ、祖谷のそば米雑炊が里に伝わり生まれたといわれる。",
+   "summary_en": "Sobagome zosui and plain rice are cooked separately, then the porridge is ladled over the rice and mixed together before eating. Said to take its name from the rice being wrapped in buckwheat, thought to have evolved as the Iya valley's sobagome zosui spread down to the lowlands.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_25_tokushima.html",
+     "title": "包飯 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tsutsumi-meshi",
+     "to_slug": "sobagome-zosui",
+     "relation_type": "派生",
+     "basis": "祖谷のそば米雑炊が里に伝わり生まれたと本文で説明されている"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は県西部、阿波町、半田町、貞光町、つるぎ町の複数表記のため広域扱いとし、半田町・貞光町を含むつるぎ町を採用。",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "zukigashi",
+   "name_ja": "ずきがし",
+   "name_romaji": "Zukigashi",
+   "name_en": "Zukigashi — boiled taro stems dressed in a sweet-vinegar dressing",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.0657,
+   "lng": 134.5593,
+   "summary_ja": "里芋の一種ヤツガシラの葉柄「ずいき」をゆでて、砂糖や醤油、柚子酢を合わせた酢で和える。ゆでると黒ずむずいきが酢に触れて鮮やかな赤に変わり、しゃきしゃきとした食感を楽しむ一品という。",
+   "summary_en": "Zuiki — the stem of yatsugashira, a variety of taro — is boiled and dressed in a sweet vinegar mixed with soy sauce and yuzu vinegar. Said to be prized for its crisp texture, the stem turns a dull black when boiled but flushes a vivid red once dressed in vinegar.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_26_tokushima.html",
+     "title": "ずきがし 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "zukigashi",
+     "to_slug": "narae",
+     "relation_type": "兄弟",
+     "basis": "ともに合わせ酢で和える徳島の副菜"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ayu-rousui",
+   "name_ja": "鮎ろうすい",
+   "name_romaji": "Ayu Rosui",
+   "name_en": "Ayu rosui — a whole river-caught ayu simmered into a miso porridge",
+   "shelf": "rice",
+   "genre": null,
+   "origin_city": "勝浦町",
+   "lat": 33.9397,
+   "lng": 134.465,
+   "summary_ja": "鮎を丸ごと一本、なすやじゃがいもなどの夏野菜、ごはんとだしで煮込み、味噌で味付ける雑炊。「ろうすい」は雑炊がなまった呼び方とされ、清流・勝浦川で6月の鮎釣り解禁に合わせてつくられてきたという。",
+   "summary_en": "A whole river ayu is simmered with summer vegetables like eggplant and potato, rice, and dashi, then seasoned with miso, into a porridge-like dish. Rosui is said to be a local slurring of zosui, made to mark the June opening of ayu fishing season on the clear Katsuura River.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_27_tokushima.html",
+     "title": "鮎ろうすい 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ayu-rousui",
+     "to_slug": "sobagome-zosui",
+     "relation_type": "兄弟",
+     "basis": "ともに雑炊系の徳島の郷土料理"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "amego-no-hirarayaki",
+   "name_ja": "あめごのひらら焼き",
+   "name_romaji": "Amego no Hirarayaki",
+   "name_en": "Amego no hirarayaki — trout and vegetables grilled on a heated stone slab",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_city": "三好市",
+   "lat": 34.0189,
+   "lng": 133.8156,
+   "summary_ja": "平たい石をかまどで数時間熱し、味噌で土手をつくってあめごや岩豆腐、こんにゃくを焼く祖谷地方の野外料理。平石を「ひらら」と呼ぶことが名の由来とされ、来客をもてなす料理として親しまれてきたという。",
+   "summary_en": "A flat stone is heated over a hearth for hours, then a border of miso is built on it to grill amego trout, stone tofu, and konjac — an outdoor dish from the Iya valley. Its name comes from hirara, a local word for a flat stone, and it is said to have long served as a dish for entertaining guests.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_28_tokushima.html",
+     "title": "あめごのひらら焼き 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "amego-no-hirarayaki",
+     "to_slug": "iya",
+     "relation_type": "兄弟",
+     "basis": "ともに祖谷地方に伝わる徳島の郷土料理"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hota-yokan",
+   "name_ja": "ほたようかん",
+   "name_romaji": "Hota Yokan",
+   "name_en": "Hota yokan — a steamed brown sugar cake with a spongy, airy crumb",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.0657,
+   "lng": 134.5593,
+   "summary_ja": "黒糖を使った蒸しパン状の菓子で、もっちりとした食感とやさしい甘みが特徴。内部に空洞ができることを徳島の方言で「ほた」と呼ぶことから名がつき、昭和初期に駄菓子屋で売られ広まったとされる。",
+   "summary_en": "A steamed cake made with brown sugar, known for its chewy crumb and gentle sweetness. Named after hota, a local word for the hollow air pockets that form inside, it is said to have spread after being sold at penny-candy shops in the early Showa era.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_29_tokushima.html",
+     "title": "ほたようかん 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hota-yokan",
+     "to_slug": "awa-uiro",
+     "relation_type": "兄弟",
+     "basis": "ともに徳島で古くから親しまれる蒸し菓子"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iya-no-decomawashi",
+   "name_ja": "祖谷のでこまわし",
+   "name_romaji": "Iya no Decomawashi",
+   "name_en": "Iya no decomawashi — potato, tofu, and konjac skewered and grilled with miso",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_city": "三好市",
+   "lat": 34.0189,
+   "lng": 133.8156,
+   "summary_ja": "小ぶりのじゃがいも、そば団子、岩豆腐、丸こんにゃくを串に刺し、囲炉裏でぐるぐる回しながら味噌だれで焼く祖谷地方の郷土料理。串を回す様子が人形浄瑠璃の木偶人形に似ることから名がついたという。",
+   "summary_en": "Small potatoes, buckwheat dumplings, stone tofu, and whole konjac are skewered and grilled over a hearth with a miso glaze, turned round and round — a specialty of the Iya valley. Said to take its name from the way turning the skewer resembles the head-turning motion of a deku bunraku puppet.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_3_tokushima.html",
+     "title": "祖谷のでこまわし 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "iya-no-decomawashi",
+     "to_slug": "iya",
+     "relation_type": "使用食材",
+     "basis": "そば粉が盛んな祖谷そばの産地であることが本文で言及されている"
+    }
+   ],
+   "tags": [
+    "miso",
+    "skewered"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hasuimo-no-kuki-no-sunomono",
+   "name_ja": "はすいもの茎の酢の物",
+   "name_romaji": "Hasuimo no Kuki no Sunomono",
+   "name_en": "Hasuimo no kuki no sunomono — crisp taro stems dressed with tachiuo in sweet vinegar",
+   "shelf": "rice",
+   "genre": null,
+   "origin_city": "",
+   "lat": 33.9219,
+   "lng": 134.6592,
+   "summary_ja": "里芋の一種「はすいも」の茎を酢に漬けた太刀魚とともに、醤油や砂糖を加えた合わせ酢で和える。しゃきしゃきとした茎の食感とさっぱりとした味わいが特徴の、徳島県南部で親しまれる日常のおかずという。",
+   "summary_en": "The stem of hasuimo, a taro relative, is dressed together with vinegar-cured cutlassfish in a sweet vinegar seasoned with soy sauce and sugar. Known for its crisp stem texture and refreshing taste, it is said to be an everyday side dish favored in southern Tokushima.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_30_tokushima.html",
+     "title": "はすいもの茎の酢の物 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hasuimo-no-kuki-no-sunomono",
+     "to_slug": "zukigashi",
+     "relation_type": "対比",
+     "basis": "ともに里芋の茎を合わせ酢で和える徳島の副菜（ずいきとはすいもの違い）"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域は県南部のため広域扱いとし、県南部の中心地・阿南市を採用。",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shusse-imo",
+   "name_ja": "出世いも",
+   "name_romaji": "Shusse Imo",
+   "name_en": "Shusse imo — steamed taro or sweet potato wrapped around red bean paste",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_city": "海陽町",
+   "lat": 33.554,
+   "lng": 134.3852,
+   "summary_ja": "蒸した芋を円柱形に整え、こしあんで包んで輪切りにする菓子。米の代わりに芋を食べた海陽町で、おはぎの代用としてつくられ、いもが米のように「出世」したという縁起から名がついたとされる。",
+   "summary_en": "Steamed taro or sweet potato is shaped into a cylinder, wrapped in sweet red bean paste, and cut into rounds. Said to have been made in Kaiyo Town as a stand-in for ohagi rice cakes in a place where potato once replaced rice, its auspicious name reflects the potato's rise to the status of rice.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_6_tokushima.html",
+     "title": "出世いも 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shusse-imo",
+     "to_slug": "tokushima-imomochi",
+     "relation_type": "兄弟",
+     "basis": "ともにさつまいもを使う徳島の郷土菓子"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "awa-uiro",
+   "name_ja": "阿波ういろ",
+   "name_romaji": "Awa Uiro",
+   "name_en": "Awa uiro — a steamed red bean cake sweetened with Awa wasanbon sugar",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_city": "",
+   "lat": 34.0657,
+   "lng": 134.5593,
+   "summary_ja": "あんに上新粉や阿波和三盆などを加えて型に流し、蒸し上げるもちもちとした菓子。江戸期に阿波和三盆が完成した祝いにつくられ始めたとされ、名古屋や山口にも同系統のういろうがあるという。",
+   "summary_en": "Red bean paste mixed with rice flour and Awa wasanbon sugar is poured into a mold and steamed into a chewy cake. Said to have first been made to celebrate the completion of Awa wasanbon sugar in the Edo period, with related uiro cakes also found in Nagoya and Yamaguchi.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_7_tokushima.html",
+     "title": "阿波ういろ 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "awa-uiro",
+     "to_slug": "hota-yokan",
+     "relation_type": "兄弟",
+     "basis": "ともに徳島で古くから親しまれる蒸し菓子"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tokushima-han-goroshi",
+   "name_ja": "半ごろし",
+   "name_romaji": "Hangoroshi",
+   "name_en": "Tokushima han-goroshi — an ohagi-style rice cake mashed only halfway",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_city": "那賀町",
+   "lat": 33.8386,
+   "lng": 134.2911,
+   "summary_ja": "もち米とうるち米を炊き、米粒が残る程度に半分だけすりつぶしてあんを包む、おはぎに似た菓子。米をしっかりすりつぶす「みなごろし」に対し「半分だけ」の意味で「半ごろし」と呼ばれるという。",
+   "summary_en": "Glutinous and non-glutinous rice are cooked together, then mashed only halfway — leaving whole grains — before being wrapped around red bean paste, in this ohagi-like sweet. Named in contrast to minagoroshi, where the rice is mashed completely, han-goroshi meaning mashed only halfway.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_8_tokushima.html",
+     "title": "半ごろし 徳島県｜うちの郷土料理：農林水産省",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tokushima-han-goroshi",
+     "to_slug": "shusse-imo",
+     "relation_type": "対比",
+     "basis": "ともに那賀町周辺に伝わる、おはぎに似た徳島の郷土菓子"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "all-items-ja.txtのhan-goroshi（長野県）と同名のためtokushima-han-goroshiとした。",
+   "type": "dish",
+   "origin_pref": "徳島県",
+   "regions": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": ""
+}
