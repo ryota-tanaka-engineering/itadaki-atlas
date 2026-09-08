@@ -1,0 +1,1094 @@
+{
+ "items": [
+  {
+   "slug": "nara-noppei",
+   "name_ja": "奈良のっぺい",
+   "name_romaji": "Nara Noppei",
+   "name_en": "Nara noppei — a thick vegetable stew made for the Kasuga shrine's December festival",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "奈良市",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "里芋や大根、ニンジンを昆布と干しシイタケのだしで煮込み、里芋の煮くずれで自然にとろみをつけた奈良の精進煮もの。春日大社のおん祭に先立つ大宿所祭で、大和士や参拝者にふるまわれてきたとされる。",
+   "summary_en": "A Nara vegetable stew of taro, daikon, and carrot simmered in a kelp-and-dried-shiitake stock, thickened naturally as the taro breaks down — a vegetarian dish. It is said to be served to participants at the Oyadokoro rite that precedes Kasuga Shrine's December festival.",
+   "sources": [
+    {
+     "title": "奈良のっぺい",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nara_noppei_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nara-noppei",
+     "to_slug": "ei-nikogori",
+     "relation_type": "兄弟",
+     "basis": "奈良春日大社の「おん祭」で「赤エイの煮こごり」と共に供されてきたとされる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yamato-zoni",
+   "name_ja": "大和の雑煮",
+   "name_romaji": "Yamato Zoni",
+   "name_en": "Yamato zoni — New Year mochi soup in white miso, eaten with sweetened soybean flour",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "丸餅と祝だいこん、里芋、豆腐を白味噌仕立てのだしで煮た奈良の雑煮。餅を取り出して砂糖入りのきな粉につけて食べる家庭が多く、豆腐は白壁の蔵、里芋は子孫繁栄を願う具材とされている。",
+   "summary_en": "Nara-style New Year mochi soup with round rice cakes, thin celebratory daikon, taro, and tofu in a white miso broth. In many households the mochi is lifted out and dipped in sweetened soybean flour; the tofu is said to stand for a white-walled storehouse, the taro for family prosperity.",
+   "sources": [
+    {
+     "title": "大和の雑煮",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yamato_no_zouni_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yamato-zoni",
+     "to_slug": "nara-noppei",
+     "relation_type": "対比",
+     "basis": "どちらも奈良の行事に結びついた汁もの・煮ものだが、供される行事と季節が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yamato-chagayu",
+   "name_ja": "茶粥",
+   "name_romaji": "Chagayu",
+   "name_en": "Chagayu — rice simmered thin in roasted tea, Nara's everyday breakfast",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "煮出したほうじ茶に冷やご飯を入れてさらりと炊いた奈良の日常食。東大寺のお水取りの献立にも茶粥の原型が記されているとされ、「大和の朝は茶粥で明ける」と言われるほど朝食に根付いている。",
+   "summary_en": "Cold cooked rice simmered thin in brewed roasted tea, an everyday Nara dish. A forerunner of it is said to appear in the menu for Todai-ji's Omizutori rite, and it is so tied to breakfast that a local saying holds that morning in Yamato begins with chagayu.",
+   "sources": [
+    {
+     "title": "茶粥",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/chagayu_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yamato-chagayu",
+     "to_slug": "yamato-chameshi",
+     "relation_type": "兄弟",
+     "basis": "どちらも東大寺のお水取りの献立「ゲチャ」「ゴボ」に由来するとされる、対をなす奈良の茶料理"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yamato-chameshi",
+   "name_ja": "奈良茶飯",
+   "name_romaji": "Yamato Chameshi",
+   "name_en": "Yamato chameshi — rice and soybeans cooked in roasted tea, as eaten by Todai-ji's monks",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "米と炒った大豆をほうじ茶で炊き込んだ奈良発祥の飯。東大寺の僧坊で食べられていたものが旅人によって江戸に伝わり、浅草の店で評判になったとされるが、当の奈良では明治以降に改めて広まったという。",
+   "summary_en": "Rice cooked with roasted soybeans in brewed tea, said to have originated with Todai-ji's monks. Travelers are said to have carried it to Edo, where shops near Asakusa made it famous, while in Nara itself it is said to have only spread widely again from the Meiji era on.",
+   "sources": [
+    {
+     "title": "奈良茶飯",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nara_chameshi_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yamato-chameshi",
+     "to_slug": "yamato-chagayu",
+     "relation_type": "兄弟",
+     "basis": "どちらも東大寺のお水取りの献立「ゲチャ」「ゴボ」に由来するとされる、対をなす奈良の茶料理"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "imobota",
+   "name_ja": "いもぼた",
+   "name_romaji": "Imobota",
+   "name_en": "Imobota — a taro-and-rice mochi wrapped around sweet red bean paste",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "うるち米に里芋を炊き込んでつぶし、小豆あんで包んだ奈良のぼた餅。もち米が貴重だった頃、里芋の粘りでもち米のような食感を出したとされ、収穫を終えた十一月の亥の日に仏壇へ供える地域が多い。",
+   "summary_en": "A Nara-style sweet rice cake made by cooking taro into non-glutinous rice, mashing it, and wrapping it around sweet red bean paste. When glutinous rice was precious, taro's own stickiness is said to have stood in for it, and in many areas it is offered at the household altar on the Day of the Boar in November, once the harvest is in.",
+   "sources": [
+    {
+     "title": "いもぼた",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/imobota_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "imobota",
+     "to_slug": "yamato-fuki-dawara",
+     "relation_type": "対比",
+     "basis": "どちらも農作業の節目の行事に結びついた米の行事食だが、供える時期と行事が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kashiwa-sukiyaki",
+   "name_ja": "かしわのすき焼き",
+   "name_romaji": "Kashiwa no Sukiyaki",
+   "name_en": "Kashiwa no sukiyaki — chicken sukiyaki simmered in a sweet soy broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "関西で食用鶏を指す「かしわ」の名がついた奈良のすき焼き。牛が天神さんの守護神とされることから、天満宮の秋祭りでは牛の代わりに鶏のすき焼きが食べられてきたとされ、割り下で白菜や焼き豆腐と煮る。",
+   "summary_en": "A Nara-style sukiyaki named for kashiwa, the Kansai word for chicken meat. Because cattle are held sacred to the deity of the Tenjin shrines, chicken sukiyaki is said to have been eaten in place of beef at their autumn festivals, simmered with napa cabbage and grilled tofu in a sweet soy broth.",
+   "sources": [
+    {
+     "title": "かしわのすき焼き",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kashiwa_no_sukiyaki_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kashiwa-sukiyaki",
+     "to_slug": "yamato-nikudori",
+     "relation_type": "使用食材",
+     "basis": "大和肉鶏を使うことが多いとされる"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nyumen",
+   "name_ja": "にゅうめん",
+   "name_romaji": "Nyumen",
+   "name_en": "Nyumen — thin wheat noodles served warm in a light dashi broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "桜井市",
+   "lat": 34.5253,
+   "lng": 135.8494,
+   "summary_ja": "三輪素麺の産地、桜井市三輪に伝わる温かい素麺料理。大神神社での祈願に由来すると伝わる素麺づくりの技を受け継ぎ、夏は冷やし素麺、冬はにゅうめんとして一年を通して食べられている。",
+   "summary_en": "A warm somen dish from Sakurai's Miwa district, birthplace of Miwa somen. The noodle-making craft is said to trace back to a prayer offered at Omiwa Shrine, and the same noodles are eaten chilled in summer and warm, as nyumen, through the winter.",
+   "sources": [
+    {
+     "title": "にゅうめん",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nyuumen_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nyumen",
+     "to_slug": "miwa-somen",
+     "relation_type": "使用食材",
+     "basis": "三輪素麺を温かいだし汁で食べたもの"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "asuka-nabe",
+   "name_ja": "飛鳥鍋",
+   "name_romaji": "Asuka Nabe",
+   "name_en": "Asuka nabe — chicken and vegetables simmered in a milk-enriched broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "明日香村",
+   "lat": 34.47,
+   "lng": 135.8167,
+   "summary_ja": "鶏肉と季節の野菜を牛乳とだし汁で煮込む明日香村の鍋。飛鳥時代に唐からもたらされた乳製品が宮中に伝わり、後に飼っていた鶏の肉を牛乳で煮た精進料理が起源とされ、昭和初期に今の形になったという。",
+   "summary_en": "A hot pot from Asuka Village of chicken and seasonal vegetables simmered in milk and dashi. It is said to trace to a dairy product brought from Tang China in the Asuka period and later reworked by monks who simmered their chickens in milk, taking its present form around the early Showa era.",
+   "sources": [
+    {
+     "title": "飛鳥鍋",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/asuka_nabe_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "asuka-nabe",
+     "to_slug": "yamato-nikudori",
+     "relation_type": "使用食材",
+     "basis": "大和肉鶏を使うことが多いとされる"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hangesho-mochi",
+   "name_ja": "半夏生餅／小麦餅／さなぶり餅",
+   "name_romaji": "Hangesho Mochi",
+   "name_en": "Hangesho mochi — cracked wheat pounded with glutinous rice, made at the close of rice planting",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "夏至から十一日目の「半夏生」の頃、つぶし小麦ともち米をついて作る奈良盆地の餅。小麦の収穫と田植えが一段落する節目に作られ、田の神を送る早苗饗の行事に合わせて食べることから「さなぶり餅」とも呼ばれる。",
+   "summary_en": "A Nara Basin mochi pounded from cracked wheat and glutinous rice around hangesho, the eleventh day after the summer solstice. It is made at the point when the wheat harvest and rice planting both wind down, and is also called sanaburi mochi for the rite that sends off the rice-field deity.",
+   "sources": [
+    {
+     "title": "半夏生餅／小麦餅／さなぶり餅",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ha_gesshou_mochi_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hangesho-mochi",
+     "to_slug": "yamato-fuki-dawara",
+     "relation_type": "対比",
+     "basis": "どちらも田植えの節目の行事に結びついた米・麦の行事食だが、包む葉と行事の時期が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yoshino-kuzumochi",
+   "name_ja": "葛餅",
+   "name_romaji": "Yoshino Kuzumochi",
+   "name_en": "Yoshino kuzumochi — a jelly-like cake made from Yoshino arrowroot starch",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "吉野町",
+   "lat": 34.3833,
+   "lng": 135.8631,
+   "summary_ja": "吉野本葛を水と砂糖で溶き、透明になるまで練り上げた奈良の餅菓子。厳冬期の地下水にさらして精製する吉野晒しの製法で作られ、きなこや黒蜜をかけて、冷やしても作りたてのほんのり温かさが残っていても味わえる。",
+   "summary_en": "A Nara sweet made by dissolving Yoshino arrowroot starch in water and sugar and stirring it over heat until translucent. It is refined through the Yoshino-zarashi method, repeated rinsing in midwinter groundwater, and is eaten with soybean flour or dark syrup, whether chilled firm or still faintly warm from the pan.",
+   "sources": [
+    {
+     "title": "葛餅",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kuzu_mochi_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yoshino-kuzumochi",
+     "to_slug": "warabimochi",
+     "relation_type": "対比",
+     "basis": "どちらも野生の植物由来のでんぷんで作る透明感のある奈良の餅菓子だが、原料が葛の根と蕨の根で異なる"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "warabimochi",
+   "name_ja": "蕨餅",
+   "name_romaji": "Warabi Mochi",
+   "name_en": "Warabi mochi — a soft jelly-like sweet made from bracken-root starch",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "奈良市",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "蕨粉に水と砂糖を加えて練り、冷やし固めた奈良の和菓子。若草山焼きのあと山肌に群生したワラビが蕨粉の産地となったと伝わり、江戸期の紀行文にも山焼き後の茶屋で扱われていたことが記されているという。",
+   "summary_en": "A Nara sweet made by cooking bracken-root starch with water and sugar into a soft, chilled jelly. Bracken is said to have grown thick on the hillside after the annual burning of Mount Wakakusa, making the area a source of the starch, and an Edo-period travel account already names it a specialty of teahouses there.",
+   "sources": [
+    {
+     "title": "蕨餅",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/warabi_mochi_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "warabimochi",
+     "to_slug": "yoshino-kuzumochi",
+     "relation_type": "対比",
+     "basis": "どちらも野生の植物由来のでんぷんで作る透明感のある奈良の餅菓子だが、原料が蕨の根と葛の根で異なる"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kakigori",
+   "name_ja": "かき氷",
+   "name_romaji": "Kakigori",
+   "name_en": "Kakigori — shaved ice, a summer sweet with roots in Nara's ice-worship shrine",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "奈良市",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "削った氷にシロップをかけて食べる奈良の夏の菓子。奈良市の氷室神社では約七十年にわたり氷を宮中へ献上したと伝わり、清少納言も削り氷に甘葛をかけて食べたと枕草子に記しているとされる。",
+   "summary_en": "Shaved ice topped with syrup, a summer sweet in Nara. Nara City's Himuro Shrine is said to have sent ice to the imperial court for roughly seventy years, and Sei Shonagon is said to describe shaved ice sweetened with amazura sap in the Pillow Book.",
+   "sources": [
+    {
+     "title": "かき氷",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kaki_goori_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kakigori",
+     "to_slug": "yoshino-kuzumochi",
+     "relation_type": "対比",
+     "basis": "葛餅入りのかき氷など、葛を使ったかき氷が販売されているとされる関連がある"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tako-momiuri",
+   "name_ja": "蛸もみうり",
+   "name_romaji": "Tako Momiuri",
+   "name_en": "Tako momiuri — octopus and salt-rubbed cucumber dressed in sweet vinegar",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "小口切りのきゅうりを塩でもみ、ゆでたこと酢で和える奈良の料理。田植えを終えて田の神に感謝する早苗饗に、大地にしっかり吸い付くタコにあやかり苗がよくつくよう願って作られてきたとされる。",
+   "summary_en": "Thinly sliced cucumber rubbed with salt and dressed with boiled octopus in sweet vinegar, a Nara dish. It is said to be made for the sanaburi rite that gives thanks to the rice-field deity after planting, the octopus's suckers standing in for a wish that the seedlings take firm hold.",
+   "sources": [
+    {
+     "title": "蛸もみうり",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tako_momiuri_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tako-momiuri",
+     "to_slug": "nanairo-oae",
+     "relation_type": "対比",
+     "basis": "どちらも田植え・お盆など農事の節目に結びついた奈良の和えものという共通点がある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "totsukawa-sanma-zushi",
+   "name_ja": "さんま寿司",
+   "name_romaji": "Totsukawa Sanma Zushi",
+   "name_en": "Totsukawa sanma zushi — vinegared Pacific saury pressed onto sushi rice, or salt-fermented for New Year",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "奈良県",
+   "origin_city": "十津川村",
+   "lat": 33.83,
+   "lng": 135.7167,
+   "summary_ja": "十津川村に伝わるサンマの寿司で、北部は塩と飯を漬け込んで長期発酵させるなれずし、南部は合わせ酢で締めて酢飯にのせる押し寿司と、村内でも作り方が分かれる。熊野灘を南下する脂の少ないサンマを使うという。",
+   "summary_en": "A Pacific saury sushi from Totsukawa Village that splits into two styles even within the village: the north salt-cures and ferments the fish with rice into a nare-zushi, while the south cures it in vinegar and presses it onto sushi rice. It is said to use lean saury that has swum south through the Kumano Sea.",
+   "sources": [
+    {
+     "title": "さんま寿司",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sanma_sushi_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "totsukawa-sanma-zushi",
+     "to_slug": "sanma-zushi",
+     "relation_type": "対比",
+     "basis": "三重県のさんまずしとは材料の柑橘酢や技法の詳細が異なる、十津川村独自のなれずし・押し寿司"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ayu-zushi",
+   "name_ja": "鮎寿司",
+   "name_romaji": "Ayu Zushi",
+   "name_en": "Ayu zushi — sweetfish pressed whole atop vinegared rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.3833,
+   "lng": 135.8631,
+   "summary_ja": "吉野川流域で作られる、アユを姿のまま酢飯にのせて押した寿司。川の石の藻を食べて育つアユは「香魚」と呼ばれ、歌舞伎の演目に登場する鮨屋が奈良に実在したことから知られるようになったとされる。",
+   "summary_en": "A whole sweetfish pressed onto vinegared rice, made along the Yoshino River. Sweetfish, raised on river-stone algae, are called kogyo, 'fragrant fish,' and the sushi is said to have become known in part because a sushi shop featured in a kabuki play actually existed in Nara.",
+   "sources": [
+    {
+     "title": "鮎寿司",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ayu_zushi_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ayu-zushi",
+     "to_slug": "totsukawa-sanma-zushi",
+     "relation_type": "対比",
+     "basis": "どちらも吉野・十津川の川や海の魚を使う奈良の郷土寿司という共通点がある"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nara-ae",
+   "name_ja": "奈良和え",
+   "name_romaji": "Nara-ae",
+   "name_en": "Nara-ae — simmered vegetables tossed with chopped narazuke pickles",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "刻んだ奈良漬をぜんまいやかんぴょう、薄揚げの煮ものに加えて和える奈良の家庭料理。冷めて味がなじんだ頃に食べるとされ、奈良漬が苦手な子どもにも好まれる一皿として給食にも取り入れられている。",
+   "summary_en": "A Nara home dish that folds chopped narazuke pickles into a simmer of osmund fern, dried gourd shavings, and fried tofu. It is said to taste best once cooled and settled, and is served in school lunches as a dish even children who dislike narazuke on its own tend to enjoy.",
+   "sources": [
+    {
+     "title": "奈良和え",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/naraae_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nara-ae",
+     "to_slug": "nara-zuke",
+     "relation_type": "使用食材",
+     "basis": "奈良漬を刻んで和えの材料にする"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nara-kaki-namasu",
+   "name_ja": "柿なます",
+   "name_romaji": "Nara Kaki Namasu",
+   "name_en": "Nara kaki namasu — daikon and carrot in vinegar, sweetened with dried persimmon",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "大根とニンジンの紅白なますに干し柿を加えた奈良の正月料理。砂糖が高価だった時代、干し柿の甘みで酸味をやわらげたとされ、白と赤の色は水引を意味し平安を願う縁起物として受け継がれている。",
+   "summary_en": "A Nara New Year dish that adds dried persimmon to a red-and-white vinegared salad of daikon and carrot. In an age when sugar was costly, the persimmon's sweetness is said to have softened the vinegar's edge, and the red-and-white colors, echoing a ceremonial paper cord, carry a wish for peace.",
+   "sources": [
+    {
+     "title": "柿なます",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kaki_namasu_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nara-kaki-namasu",
+     "to_slug": "kaki-namasu",
+     "relation_type": "対比",
+     "basis": "宮城県の柿なますとは材料や作り方の詳細が異なる奈良県版"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "dengara",
+   "name_ja": "でんがら",
+   "name_romaji": "Dengara",
+   "name_en": "Dengara — a bean-paste rice cake wrapped in magnolia leaves for Boys' Day",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.4167,
+   "lng": 135.9333,
+   "summary_ja": "餡を包んだ餅を朴の葉でくるんで蒸す東吉野村・川上村の菓子。男の子の立身出世や無事な成長を願う端午の節句に作られ、一本の枝から出た葉ひとつひとつに餅を包むため、房のような形になるという。",
+   "summary_en": "A sweet from Higashiyoshino and Kawakami villages: bean-paste mochi steamed inside magnolia leaves. It is made for Boys' Day, wishing a son success and safe growth, and because each leaf on a single branch is wrapped around its own mochi, the finished cluster hangs like a bunch of fruit.",
+   "sources": [
+    {
+     "title": "でんがら",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/dengara_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "dengara",
+     "to_slug": "hangesho-mochi",
+     "relation_type": "対比",
+     "basis": "どちらも葉で包んだ季節の餅菓子という共通点はあるが、包む葉と行事の時期が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yamato-fuki-dawara",
+   "name_ja": "ふき俵",
+   "name_romaji": "Fuki Dawara",
+   "name_en": "Fuki dawara — salted rice and soybeans wrapped in butterbur leaves, offered at rice planting",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.4959,
+   "lng": 135.9394,
+   "summary_ja": "炒った大豆とご飯を塩味で炊き、ふきの葉で包んだ大和高原地域のおにぎり。田植えの始まりを祝う「さびらき」に、苗とともに畦に供えてから食べるとされ、俵の形に似せて作ることからこの名がついた。",
+   "summary_en": "A rice ball from the Yamato Highlands, made from rice cooked with roasted soybeans and salt, then wrapped in butterbur leaves. It is said to be set out along the paddy ridge beside the rice seedlings at sabiraki, the rite marking the start of planting, and shaped to resemble a straw rice bale, which gives it its name.",
+   "sources": [
+    {
+     "title": "ふき俵",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/fuki_dawara_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yamato-fuki-dawara",
+     "to_slug": "imobota",
+     "relation_type": "対比",
+     "basis": "どちらも農作業の節目の行事に結びついた米の行事食だが、供える時期と行事が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mana-mehari",
+   "name_ja": "まなめはり",
+   "name_romaji": "Mana Mehari",
+   "name_en": "Mana mehari — a rice ball wrapped whole in salted Shimokita spring greens",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "下北山村",
+   "lat": 33.85,
+   "lng": 135.9333,
+   "summary_ja": "下北山村だけで栽培される大和の伝統野菜、下北春まなの塩漬けでご飯を包んだおにぎり。高菜を使う十津川地域のめはりずしと作り方は同じだが、辛みが少なくやや小ぶりとされ、山仕事の弁当として親しまれてきた。",
+   "summary_en": "A rice ball wrapped in salted Shimokita spring greens, a traditional Yamato vegetable grown only in Shimokitayama Village. It is made the same way as the mustard-leaf mehari-zushi of the Totsukawa area but is said to be milder and somewhat smaller, and has long been carried as a lunch for mountain work.",
+   "sources": [
+    {
+     "title": "まなめはり",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mana_mehari_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mana-mehari",
+     "to_slug": "kakinoha-zushi",
+     "relation_type": "対比",
+     "basis": "柿の葉寿司と同様、大和の葉物でご飯を包む郷土食という共通点がある"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "irogohan",
+   "name_ja": "色ご飯",
+   "name_romaji": "Iro Gohan",
+   "name_en": "Iro gohan — rice cooked with root vegetables in a soy-seasoned broth",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "ニンジンやゴボウ、薄揚げなどをだし汁と醤油で炊き込んだ、奈良で「色ご飯」と呼ばれる混ぜご飯。米が貴重だった頃、具を混ぜてかさを増やしたことが始まりとされ、村の行事や日々の食卓に登場してきた。",
+   "summary_en": "A takikomi rice dish called iro gohan in Nara, cooked with carrot, burdock, and fried tofu in a soy-seasoned dashi. It is said to have begun as a way to stretch scarce rice by mixing in other ingredients, and appears both at village events and everyday tables.",
+   "sources": [
+    {
+     "title": "色ご飯",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/irogohan_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "irogohan",
+     "to_slug": "yamatona-usuage-nimono",
+     "relation_type": "対比",
+     "basis": "具に薄揚げを使う点は共通するが、色ご飯は炊き込みご飯、大和まなと薄揚げの煮ものは副菜という違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "zuiki-nimono",
+   "name_ja": "ずいきの煮もの",
+   "name_romaji": "Zuiki no Nimono",
+   "name_en": "Zuiki no nimono — taro leaf-stalks simmered with fried tofu",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "里芋の葉柄であるずいきを薄揚げと一緒にだし汁で煮る奈良の家庭料理。皮をむいてゆでアクを抜いてから使い、乾燥させた「芋がら」として保存することもある。お盆には七色お和えと合わせて仏壇に供える地域もある。",
+   "summary_en": "A Nara home dish of taro leaf-stalks, called zuiki, simmered with fried tofu in dashi. The stalks are peeled and parboiled to draw out their harshness before use, and are sometimes dried into a preserve called imogara; in some areas it is offered at the household altar for Obon alongside nanairo oae.",
+   "sources": [
+    {
+     "title": "ずいきの煮もの",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/zuiki_no_nimono_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "zuiki-nimono",
+     "to_slug": "nanairo-oae",
+     "relation_type": "使用食材",
+     "basis": "どちらもずいきを使い、お盆の供え物として合わせて用いられるとされる"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nanairo-oae",
+   "name_ja": "七色お和え",
+   "name_romaji": "Nanairo Oae",
+   "name_en": "Nanairo oae — seven summer vegetables dressed in sesame, miso, and sugar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "なす、かぼちゃ、ごぼう、ずいきなど旬の七種の野菜を、すりごまと味噌、砂糖の和え衣で和える真言宗のお盆の供え料理。食糧が乏しかった時代、七種もの野菜をそろえるのは贅沢なことだったという。",
+   "summary_en": "A Shingon-sect Obon offering dish that dresses seven seasonal vegetables — eggplant, kabocha, burdock, taro-stem, and more — in a coating of ground sesame, miso, and sugar. In leaner times, gathering as many as seven vegetables for one dish is said to have been something of a luxury.",
+   "sources": [
+    {
+     "title": "七色お和え",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nana_iro_oae_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nanairo-oae",
+     "to_slug": "zuiki-nimono",
+     "relation_type": "使用食材",
+     "basis": "どちらもずいきを使い、お盆の供え物として合わせて用いられるとされる"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shikishiki",
+   "name_ja": "しきしき",
+   "name_romaji": "Shikishiki",
+   "name_en": "Shikishiki — a thin wheat-flour griddle cake folded around sweet pea paste",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "小麦粉を水と砂糖で溶いて薄く焼く、戦前からある奈良のおやつ。えんどう豆のあんを挟んで折りたたむのが定番で、小麦栽培が盛んだった奈良では三輪素麺や半夏生餅と並ぶ小麦文化の一つとされている。",
+   "summary_en": "A prewar Nara snack made by thinning wheat flour with water and sugar and frying it thin like a crepe. It is usually folded around a filling of sweetened pea paste, and is counted alongside Miwa somen and hangesho mochi as part of Nara's wheat-growing food culture.",
+   "sources": [
+    {
+     "title": "しきしき",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shiki_shiki_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shikishiki",
+     "to_slug": "nyumen",
+     "relation_type": "兄弟",
+     "basis": "奈良県で小麦栽培が盛んだったことから生まれた小麦の食文化という共通の系譜を持つとされる"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yamatona-usuage-nimono",
+   "name_ja": "大和まなと薄揚げの煮もの",
+   "name_romaji": "Yamato-na to Usuage no Nimono",
+   "name_en": "Yamato-na to usuage no nimono — a local leaf mustard simmered with fried tofu",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "アブラナ科の伝統野菜、大和まなを薄揚げと炒め煮にする奈良の家庭料理。「古事記」に記される菘（すずな）を祖先とするツケナの一種とされ、霜にあたる冬に甘みが増すが、品種改良で今は通年出回っている。",
+   "summary_en": "A Nara home dish that stir-simmers yamato-na, a traditional brassica leaf vegetable, with fried tofu. It is said to descend from the leaf vegetable named suzuna in the Kojiki, and grows sweeter after frost in winter, though breeding has since made it available year-round.",
+   "sources": [
+    {
+     "title": "大和まなと薄揚げの煮もの",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yamatona_to_usuage_no_nimono_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yamatona-usuage-nimono",
+     "to_slug": "zuiki-nimono",
+     "relation_type": "対比",
+     "basis": "どちらも野菜と薄揚げを合わせた奈良の家庭の煮ものだが、主となる野菜が異なる"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "itadori-nimono",
+   "name_ja": "いたどりの煮もの",
+   "name_romaji": "Itadori no Nimono",
+   "name_en": "Itadori no nimono — peeled Japanese knotweed stir-fried after a long soak to draw out its sourness",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "アクと酸味の強い山菜、いたどりの皮をむいて水にさらしてから炒め煮にする吉野山間部の料理。「痛取り」の名は傷にすりこむと痛みが和らぐという言い伝えに由来するとされ、塩漬けにして長く保存もできる。",
+   "summary_en": "A dish from Nara's Yoshino mountains that peels and soaks Japanese knotweed, a sharply astringent and sour wild green, before stir-frying it. Its name, itadori, is said to come from a belief that rubbing it on a wound eases the pain, and the plant can also be salted for long storage.",
+   "sources": [
+    {
+     "title": "いたどりの煮もの",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/itadori_no_nimono_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "itadori-nimono",
+     "to_slug": "amago-kanroni",
+     "relation_type": "対比",
+     "basis": "どちらも吉野山間部の山の幸を使う奈良の家庭料理という共通点がある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "amago-kanroni",
+   "name_ja": "あまごの甘露煮",
+   "name_romaji": "Amago no Kanroni",
+   "name_en": "Amago no kanroni — river trout simmered slowly in roasted tea and sweet soy",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.4959,
+   "lng": 135.9394,
+   "summary_ja": "渓流の女王とも呼ばれるアマゴを素焼きにし、ほうじ茶で煮てから醤油とみりんで甘辛く煮含める吉野郡・宇陀郡の料理。クセのない川魚とされ、古くから家庭で作られてきたおふくろの味という。",
+   "summary_en": "River trout, called the queen of the mountain stream, first grilled plain and then simmered in roasted tea before being finished sweet and savory in soy sauce and mirin — a dish of the Yoshino and Uda districts. The fish is said to have little of a river-fish's usual edge, and the dish is remembered as a mother's home cooking.",
+   "sources": [
+    {
+     "title": "あまごの甘露煮",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/amago_no_kanroni_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "amago-kanroni",
+     "to_slug": "itadori-nimono",
+     "relation_type": "対比",
+     "basis": "どちらも吉野山間部の山の幸を使う奈良の家庭料理という共通点がある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "namabushi-negi-nimono",
+   "name_ja": "生節とねぎの煮もの",
+   "name_romaji": "Namabushi to Negi no Nimono",
+   "name_en": "Namabushi to negi no nimono — half-dried bonito simmered with sweet local scallions",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "summary_ja": "カツオ節の製造途中で燻し上げた生節を、結崎ネブカなど地元のねぎと一緒に濃いめの醤油だしで煮る奈良の料理。海に面さない奈良では日持ちする生節が重宝され、ねぎとの組み合わせがよく食べられてきたとされる。",
+   "summary_en": "Half-smoked bonito, an intermediate stage in making dried bonito flakes, simmered in a strong soy dashi with local scallions such as Kawanishi's Yuzaki negi. Landlocked Nara is said to have long valued the fish for how well it keeps, and its pairing with scallion is a common combination.",
+   "sources": [
+    {
+     "title": "生節とねぎの煮もの",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nama_bushi_to_negi_no_nimono_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "namabushi-negi-nimono",
+     "to_slug": "amago-kanroni",
+     "relation_type": "対比",
+     "basis": "どちらも海に面さない奈良で日持ちする魚を使ってきた家庭の煮ものという共通点がある"
+    }
+   ],
+   "tags": [
+    "smoked",
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ei-nikogori",
+   "name_ja": "エイの煮こごり",
+   "name_romaji": "Ei no Nikogori",
+   "name_en": "Ei no nikogori — stingray simmered sweet and soy until its own gelatin sets into a jelly",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "奈良県",
+   "origin_city": "",
+   "lat": 34.515,
+   "lng": 135.7194,
+   "summary_ja": "赤エイを醤油と砂糖で甘辛く煮つけた奈良の料理。ゼラチン質が煮汁に溶け出し、冷めるとゼリー状に固まることから「煮こごり」と呼ばれる。春日大社若宮のおん祭では、のっぺいと共に食べられてきたとされる。",
+   "summary_en": "Red stingray simmered sweet and savory in soy sauce and sugar, a Nara dish. Its own gelatin dissolves into the cooking liquid and sets into a jelly once cooled, giving the dish its name, nikogori. It is said to have been eaten together with noppei at Kasuga Shrine's Wakamiya festival.",
+   "sources": [
+    {
+     "title": "エイの煮こごり",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/eino_nikogori_nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ei-nikogori",
+     "to_slug": "nara-noppei",
+     "relation_type": "兄弟",
+     "basis": "奈良春日大社の「おん祭」で「のっぺい」と共に供されてきたとされる"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行(1件): kakinoha_zushi_nara 柿の葉寿司=既存kakinoha-zushi(high)のため作らない。棚(shelf)を変えた行: kashiwa_no_sukiyaki_nara かしわのすき焼き grilled→hotpot(すき焼き=鍋物のため) / tako_momiuri_nara 蛸もみうり homestyle→raw(酢の物のため) / yamatona_to_usuage_no_nimono_nara 大和まなと薄揚げの煮もの shelf/genre_hint共にfried→homestyle/genre null(「薄揚げ」というキーワードの誤検知で、実際は煮もの)。座標の根拠: 単一市町村・村が明記された行はその役場付近(桜井市=にゅうめん、明日香村=飛鳥鍋、吉野町=葛餅、十津川村=さんま寿司、下北山村=まなめはり)。県内全域の行は県庁所在地(奈良市)を使用。ただし本文が特定地を強く名指しする場合はそれを採用(蕨餅=若草山焼きの由来で奈良市、かき氷=氷室神社の由来で奈良市)。複数郡・広域(吉野郡・宇陀郡、大和高原地域、東吉野村・川上村、葛城地域中心)は代表都市の座標を使用(宇陀市、東吉野村、葛城市など)。要判断事項: 奈良茶飯=既存slug「nara-chameshi」が神奈川県の同名別料理(奈良発祥だが江戸浅草で広まった系統)に使われていたため、奈良県版は別slug「yamato-chameshi」を採用(地名を大和に変更して衝突回避) / さんま寿司(十津川村, match_confidence=medium)=既存sanma-zushi(三重県)と同名だが、村内でもなれずし・押し寿司に分かれる十津川村独自の伝承のため別項目とし、slugは「totsukawa-sanma-zushi」とした / 柿なます(奈良)=既存kaki-namasu(宮城県)と同名のため「nara-kaki-namasu」とした。slug衝突の回避: 茶粥(三重県に既存chagayu)→yamato-chagayu、ふき俵(三重県に既存fuki-dawara)→yamato-fuki-dawaraに変更(地名-料理名の命名規則を適用、all-slugs.txtとの照合で判明)。"
+}

@@ -1,0 +1,791 @@
+{
+ "items": [
+  {
+   "slug": "ikanago-kugini",
+   "name_ja": "イカナゴのくぎ煮",
+   "name_romaji": "Ikanago no Kugini",
+   "name_en": "Ikanago no kugini — sand lance simmered in soy sauce, sugar, and ginger until glossy",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "神戸市",
+   "lat": 34.6901,
+   "lng": 135.1955,
+   "summary_ja": "春先にとれる稚魚のイカナゴを、醤油と砂糖、生姜だけでつやが出るまで煮詰めた瀬戸内の甘辛い佃煮。仕上がりが曲がった錆びくぎに似ることからこの名がついたと伝わり、炊きあがる香りに春を感じる家庭も多いという。",
+   "summary_en": "A Seto Inland Sea preserve made by simmering baby sand lance in soy sauce, sugar, and ginger until dark and glossy. The curled shapes are said to resemble bent, rusted nails, and the smell of it cooking is said to mark the start of spring for many households.",
+   "sources": [
+    {
+     "title": "イカナゴのくぎ煮",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_1_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ikanago-kugini",
+     "to_slug": "sansho-tsukudani",
+     "relation_type": "対比",
+     "basis": "醤油・砂糖で煮詰める佃煮という調理法を共有するが、使う食材が魚と山椒で異なる"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "botan-nabe",
+   "name_ja": "ぼたん鍋",
+   "name_romaji": "Botan Nabe",
+   "name_en": "Botan nabe — wild boar and vegetable hot pot in a miso broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "丹波篠山市",
+   "lat": 35.0725,
+   "lng": 135.2224,
+   "summary_ja": "白と赤の合わせみそでとっただしに、猪肉と季節の野菜をたっぷり入れて煮る丹波篠山の鍋。粉山椒を効かせて食べることが多く、切り分けた猪肉を牡丹の花びらのように盛り付ける店もあるという。",
+   "summary_en": "A Tanba-Sasayama hot pot of wild boar and seasonal vegetables simmered in a broth of white and red miso, often finished with a dusting of ground Japanese pepper. Some restaurants are said to arrange the sliced boar meat like the petals of a peony.",
+   "sources": [
+    {
+     "title": "ぼたん鍋",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_3_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "botan-nabe",
+     "to_slug": "hamo-suki",
+     "relation_type": "対比",
+     "basis": "だし仕立ての鍋料理という共通点はあるが、山の幸と海の幸という対比をなす"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "katsumeshi",
+   "name_ja": "かつめし",
+   "name_romaji": "Katsumeshi",
+   "name_en": "Katsumeshi — beef cutlet over rice with demi-glace sauce and cabbage",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "加古川市",
+   "lat": 34.757,
+   "lng": 134.8408,
+   "summary_ja": "薄めに盛ったご飯に平たいビーフカツをのせ、デミグラスソースをかけてゆでキャベツを添えた加古川の洋食。箸で気軽に食べられるようにと戦後の食堂で考案されたと伝わり、店ごとにたれや具材の違いを楽しめる。",
+   "summary_en": "A Kakogawa yoshoku dish of thin-pounded beef cutlet over a shallow bed of rice, topped with demi-glace sauce and boiled cabbage. It is said to have been devised at a postwar diner so it could be eaten easily with chopsticks, and each restaurant now has its own take on the sauce.",
+   "sources": [
+    {
+     "title": "かつめし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_4_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "katsumeshi",
+     "to_slug": "kobe-beef",
+     "relation_type": "対比",
+     "basis": "同じ兵庫県の牛肉料理だが、かつめしは普段づかいの洋食、神戸ビーフは格付けを重んじるブランド牛という対比"
+    }
+   ],
+   "tags": [
+    "yoshoku",
+    "beef"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chobojiru",
+   "name_ja": "ちょぼ汁",
+   "name_romaji": "Chobojiru",
+   "name_en": "Chobojiru — a sweet-free dumpling soup with cowpeas and taro-stem, made for new mothers",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "",
+   "lat": 34.3427,
+   "lng": 134.8993,
+   "summary_ja": "とろりとしただし汁にささげ豆と里芋の茎、もち粉の団子を煮た淡路島の汁もの。甘くはないが汁粉に似た見た目で、産後の女性の体力回復や子どものお宮参りの祝いに作られてきたという。",
+   "summary_en": "An Awaji Island soup of cowpeas, taro-stem, and rice-flour dumplings simmered in a thick broth — it looks like a sweet red bean soup but is not sweet at all. It has been made to help new mothers recover and to mark a child's shrine visit, it is said.",
+   "sources": [
+    {
+     "title": "ちょぼ汁",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_5_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "chobojiru",
+     "to_slug": "ibitsu-mochi",
+     "relation_type": "対比",
+     "basis": "どちらも人生の節目を祝う際に作られる縁起物という共通点がある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tanba-kuromame-gohan",
+   "name_ja": "丹波黒豆ごはん",
+   "name_romaji": "Tanba Kuromame Gohan",
+   "name_en": "Tanba kuromame gohan — rice cooked with Tanba black soybeans",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "丹波篠山市",
+   "lat": 35.0725,
+   "lng": 135.2224,
+   "summary_ja": "丹波篠山特産の丹波黒大豆を米と一緒に炊き込むと、豆の色素が溶け出してほんのり紫がかったご飯になる。かつては田植え前の祈願行事で神棚や田にも供えられていたという、粒の大きく甘みの強い黒豆を生かした一品。",
+   "summary_en": "Rice cooked with Tanba-Sasayama's prized black soybeans, whose pigment bleeds out to tint the grains faintly purple. It is said the dish was once offered to a household shrine and left in the paddies during a rite praying for the rice seedlings to take.",
+   "sources": [
+    {
+     "title": "丹波黒豆ごはん",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_7_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tanba-kuromame-gohan",
+     "to_slug": "tanba-kuromame-ni",
+     "relation_type": "使用食材",
+     "basis": "同じ丹波黒大豆を主原料とする"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yude-matsuba-gani",
+   "name_ja": "ゆで松葉ガニ",
+   "name_romaji": "Yude Matsuba-gani",
+   "name_en": "Yude matsuba-gani — snow crab boiled whole in seawater-strength brine",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "",
+   "lat": 35.5432,
+   "lng": 134.8235,
+   "summary_ja": "山陰で松葉ガニと呼ばれるズワイガニを、海水よりやや薄い塩水でまるごと茹でる但馬地域の冬の味覚。冷めても身にほんのりとした甘みが残るとされ、二杯酢につけて食べるほか雑炊やコロッケにも使われる。",
+   "summary_en": "Snow crab, called matsuba-gani on the Sea of Japan coast, boiled whole in brine slightly weaker than seawater — a winter taste of the Tajima region. The meat is said to keep a faint sweetness even once cooled, and is dipped in vinegar-soy or worked into rice porridge and croquettes.",
+   "sources": [
+    {
+     "title": "ゆで松葉ガニ",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_9_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yude-matsuba-gani",
+     "to_slug": "hamo-suki",
+     "relation_type": "対比",
+     "basis": "但馬と淡路それぞれの海の幸を代表する季節料理という対比"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tofumeshi",
+   "name_ja": "とふめし",
+   "name_romaji": "Tofumeshi",
+   "name_en": "Tofumeshi — mashed tofu, canned mackerel, and root vegetables steamed into rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "丹波篠山市",
+   "lat": 35.0725,
+   "lng": 135.2224,
+   "summary_ja": "ゆでてつぶした豆腐に鯖の水煮缶やゴボウ、ニンジンを甘辛く炒め、炊きたてのご飯に混ぜ込む丹波篠山・大山地区の混ぜご飯。寄り合いの支度を簡単にしようと、長老の発案で生まれたと伝わる。",
+   "summary_en": "A mixed rice dish from the Oyama district of Tanba-Sasayama, made by simmering mashed tofu with canned mackerel, burdock, and carrot in a sweet soy seasoning, then folding it into freshly steamed rice. It is said to have been devised by a village elder to simplify preparing food for community gatherings.",
+   "sources": [
+    {
+     "title": "とふめし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_12_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tofumeshi",
+     "to_slug": "saba-zushi",
+     "relation_type": "対比",
+     "basis": "若狭湾から内陸へ塩鯖を運んだ鯖街道の存在が、どちらの料理にも関わっているとされる"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kasujiru",
+   "name_ja": "粕汁",
+   "name_romaji": "Kasujiru",
+   "name_en": "Kasujiru — a root vegetable soup simmered with sake lees",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "",
+   "lat": 34.6901,
+   "lng": 135.1955,
+   "summary_ja": "大根やニンジン、ゴボウなどを日本酒の酒粕でじっくり煮込んだ汁もの。灘の酒どころを抱える兵庫県では酒粕が身近だったとされ、正月明けの一月二十日に鮭や鰤の残り骨からだしをとって食べる風習が伝わる。",
+   "summary_en": "A soup of daikon, carrot, and burdock simmered slowly with sake lees. Hyogo, home to the Nada sake-brewing district, is said to have long had lees close at hand, and a custom survives of making it on January 20th with stock drawn from leftover salmon or yellowtail bones.",
+   "sources": [
+    {
+     "title": "粕汁",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_13_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kasujiru",
+     "to_slug": "jabu",
+     "relation_type": "対比",
+     "basis": "どちらも寒い時期に体を温める汁もの・煮ものとして食べられてきたとされる"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sansho-tsukudani",
+   "name_ja": "山椒の佃煮",
+   "name_romaji": "Sansho no Tsukudani",
+   "name_en": "Sansho no tsukudani — Japanese pepper berries simmered down in soy and mirin",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "養父市",
+   "lat": 35.3167,
+   "lng": 134.697,
+   "summary_ja": "養父市朝倉の朝倉山椒や神戸市有馬の有馬山椒を、醤油とみりんで汁気がなくなるまで煮詰めた佃煮。とげのない木になる朝倉山椒は献上品にもされたと伝わり、炊きたてのご飯や冷や奴の薬味として食べられている。",
+   "summary_en": "Japanese pepper berries from Yabu's Asakura district or Kobe's Arima area, simmered down in soy sauce and mirin until the liquid is gone. Asakura sansho, grown on a thornless tree, is said to have once been presented to the shogunate, and the finished preserve is eaten over hot rice or as a garnish for chilled tofu.",
+   "sources": [
+    {
+     "title": "山椒の佃煮",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_15_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sansho-tsukudani",
+     "to_slug": "ikanago-kugini",
+     "relation_type": "対比",
+     "basis": "醤油・砂糖で煮詰める佃煮という調理法を共有するが、使う食材が山椒と魚で異なる"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hamo-suki",
+   "name_ja": "ハモすき",
+   "name_romaji": "Hamo-suki",
+   "name_en": "Hamo-suki — conger pike eel and Awaji onion simmered in a seasoned broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "",
+   "lat": 34.3427,
+   "lng": 134.8993,
+   "summary_ja": "骨切りしたハモと淡路島産タマネギを、だし汁で煮ながら食べる寄せ鍋。沼島近海の泥地で育つハモは皮が薄くやわらかいとされ、脂がのる初夏から秋にかけて、玉ねぎの甘みと合わせて味わう。",
+   "summary_en": "A hot pot of bone-cut conger pike eel and Awaji Island onion simmered together in a seasoned broth. Eel from the muddy waters near Numashima is said to have thin, tender skin, and the dish is eaten from early summer through autumn as the fish takes on fat and pairs with the onion's sweetness.",
+   "sources": [
+    {
+     "title": "ハモすき",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_16_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hamo-suki",
+     "to_slug": "hamo",
+     "relation_type": "使用食材",
+     "basis": "ハモを主材料とする"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kajiya-nabe",
+   "name_ja": "鍛冶屋鍋",
+   "name_romaji": "Kajiya Nabe",
+   "name_en": "Kajiya nabe — octopus and eggplant simmered in a sweet soy broth, a blacksmiths' dish",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "三木市",
+   "lat": 34.7965,
+   "lng": 134.9908,
+   "summary_ja": "だし汁に醤油とみりんで甘辛く味付けし、タコとナスを煮込む三木市の鍋。金物の町で働く鍛冶職人がほてった体を冷やすために食べたと伝わり、行商が運んできた明石沖のタコと夏野菜のナスを合わせている。",
+   "summary_en": "A Miki City hot pot of octopus and eggplant simmered in a sweet soy broth. It is said to have been eaten by the town's blacksmiths, known for its metalware, to cool down after working the forge, combining octopus brought by traveling vendors from the Akashi coast with summer eggplant.",
+   "sources": [
+    {
+     "title": "鍛冶屋鍋",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_17_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kajiya-nabe",
+     "to_slug": "botan-nabe",
+     "relation_type": "対比",
+     "basis": "だし仕立ての鍋料理という共通点はあるが、使う食材が対照的"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kobe-gyoza",
+   "name_ja": "味噌だれ餃子",
+   "name_romaji": "Miso-dare Gyoza",
+   "name_en": "Miso-dare gyoza — pan-fried dumplings dipped in a miso-based sauce",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "神戸市",
+   "lat": 34.6901,
+   "lng": 135.1955,
+   "summary_ja": "酢醤油ではなく味噌ベースのたれにつけて食べる神戸の焼き餃子。戦前の満州で味噌をつけて餃子を食べていた人々が引き揚げ後に神戸で店を開いたことから広まったとされ、市内のラーメン店にも味噌だれが常備されている。",
+   "summary_en": "Pan-fried dumplings in Kobe, dipped in a miso-based sauce rather than the usual vinegar-soy. It is said to trace to people who ate their gyoza with miso while living in Manchuria before the war and opened a shop in Kobe after repatriating, and miso sauce is now kept on hand at the city's ramen shops too.",
+   "sources": [
+    {
+     "title": "味噌だれ餃子",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_18_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kobe-gyoza",
+     "to_slug": "gyoza",
+     "relation_type": "対比",
+     "basis": "一般的な酢醤油だれの餃子に対し、神戸では味噌だれで食べる点が対照的とされる"
+    }
+   ],
+   "tags": [
+    "pork",
+    "beef",
+    "miso"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yaki-anago",
+   "name_ja": "焼きアナゴ",
+   "name_romaji": "Yaki Anago",
+   "name_en": "Yaki anago — skewered conger eel basted and grilled over charcoal",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "",
+   "lat": 34.8154,
+   "lng": 134.6855,
+   "summary_ja": "開いたアナゴを串に刺し、醤油とみりん、砂糖のたれを塗りながら焼く播磨地区の一品。栄養豊富な播磨灘で育つマアナゴは身が柔らかく脂がのるとされ、そのまま食べるほか巻き寿司やちらし寿司の具にもなる。",
+   "summary_en": "Skewered conger eel, split open and basted with a soy, mirin, and sugar glaze as it grills — a specialty of the Harima district. Conger raised in the nutrient-rich Harima Sea is said to be tender and well-fatted, and is eaten straight off the skewer or folded into rolled and scattered sushi.",
+   "sources": [
+    {
+     "title": "焼きアナゴ",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_21_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yaki-anago",
+     "to_slug": "anago",
+     "relation_type": "使用食材",
+     "basis": "アナゴを主材料とする"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "skewered"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "koyadofuko-nimono",
+   "name_ja": "高野豆腐粉と野菜の煮物",
+   "name_romaji": "Koya-dofu-ko to Yasai no Nimono",
+   "name_en": "Koya-dofu-ko to yasai no nimono — freeze-dried tofu powder simmered with root vegetables",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "多可町",
+   "lat": 35.0189,
+   "lng": 134.9432,
+   "summary_ja": "高野豆腐を作る過程で出る粉を、鶏肉やニンジン、ゴボウ、干しシイタケと一緒にだし汁で煮て仕上げる多可町の家庭料理。町内に一軒残る製造業者から手に入る「とふ粉」を使い、家庭の味として受け継がれている。",
+   "summary_en": "A Taka Town home dish made by simmering chicken, carrot, burdock, and dried shiitake in dashi, then stirring in the powder left over from making freeze-dried tofu. The powder still comes from the town's one remaining maker, and the dish is passed down as a family recipe.",
+   "sources": [
+    {
+     "title": "高野豆腐粉と野菜の煮物",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_22_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "koyadofuko-nimono",
+     "to_slug": "jabu",
+     "relation_type": "対比",
+     "basis": "水を使わず、あるいはだしと調味料だけで煮る家庭の煮もの・鍋という共通点がある"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "saba-no-jau",
+   "name_ja": "さばのじゃう",
+   "name_romaji": "Saba no Jau",
+   "name_en": "Saba no jau — a mackerel and vegetable hot pot cooked fisherman-style",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "",
+   "lat": 35.5432,
+   "lng": 134.8235,
+   "summary_ja": "サバを三枚におろし、頭と骨でとっただしに身と白菜、春菊、焼き豆腐を入れてすき焼き風に煮る但馬地域の漁師めし。豊岡市竹野などサバの水揚げが多い港町で食べられてきたとされ、漁から戻った朝に食べることもあった。",
+   "summary_en": "A fisherman's dish from the Tajima region: mackerel filleted with its head and bones simmered into stock, then the flesh cooked sukiyaki-style with napa cabbage, chrysanthemum greens, and grilled tofu. It is said to have been eaten in port towns like Toyooka's Takeno, where mackerel landings were plentiful, sometimes as breakfast after a morning at sea.",
+   "sources": [
+    {
+     "title": "さばのじゃう",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_23_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "saba-no-jau",
+     "to_slug": "saba-zushi",
+     "relation_type": "対比",
+     "basis": "同じ鯖を使うが、じゃうは漁師町の鍋料理、鯖寿司は寿司という違いがある"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tororo-gohan",
+   "name_ja": "とろろご飯",
+   "name_romaji": "Tororo Gohan",
+   "name_en": "Tororo gohan — grated mountain yam over rice, eaten to settle the stomach",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "丹波篠山市",
+   "lat": 35.0725,
+   "lng": 135.2224,
+   "summary_ja": "すりおろした山の芋をだし汁でのばし、ご飯にかけて食べる丹波篠山の一品。消化を助けるとされ、正月料理で疲れた胃を休めるため一月二日に食べる習わしが伝わる。そばのつなぎやお好み焼きに使うこともある。",
+   "summary_en": "Grated mountain yam thinned with dashi and poured over rice, a Tanba-Sasayama dish said to aid digestion. A custom survives of eating it on January 2nd to rest the stomach after New Year's feasting, and the grated yam is sometimes worked into soba dough or okonomiyaki batter too.",
+   "sources": [
+    {
+     "title": "とろろご飯",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_24_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tororo-gohan",
+     "to_slug": "botan-nabe",
+     "relation_type": "対比",
+     "basis": "すりおろしたとろろはぼたん鍋に加えて食べられることもあるとされる"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tanba-kuromame-ni",
+   "name_ja": "黒豆煮",
+   "name_romaji": "Kuromame Ni",
+   "name_en": "Kuromame ni — Tanba black soybeans simmered sweet for New Year",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "丹波篠山市",
+   "lat": 35.0725,
+   "lng": 135.2224,
+   "summary_ja": "丹波篠山特産の丹波黒大豆を、醤油と砂糖でしわが寄らないようじっくり甘く煮た正月料理。皮が破れにくく大粒で糖度が高いとされ、近年はポリフェノールが注目され通年食べる家庭も増えているという。",
+   "summary_en": "Tanba-Sasayama's prized black soybeans, simmered slowly and sweetly in soy sauce and sugar with care taken to keep the skins from wrinkling — a New Year dish. The beans are said to be large, sweet, and slow to split, and more households are said to now eat it year-round for its polyphenols.",
+   "sources": [
+    {
+     "title": "黒豆煮",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_25_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tanba-kuromame-ni",
+     "to_slug": "tanba-kuromame-gohan",
+     "relation_type": "使用食材",
+     "basis": "同じ丹波黒大豆を主原料とする"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "jabu",
+   "name_ja": "じゃぶ",
+   "name_romaji": "Jabu",
+   "name_en": "Jabu — chicken and vegetables simmered without added water",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "新温泉町",
+   "lat": 35.6236,
+   "lng": 134.4104,
+   "summary_ja": "鶏肉と豆腐、糸こんにゃく、季節の野菜を水を使わずに醤油とみりんで煮る新温泉町の料理。具材から出る水分で汁がじゃぶじゃぶと音を立てることが名前の由来とされ、祭りや冠婚葬祭で大鍋にして振る舞われてきた。",
+   "summary_en": "A Shin'onsen Town dish of chicken, tofu, shirataki noodles, and seasonal vegetables simmered in soy sauce and mirin without any added water. The name is said to come from the sloshing sound the vegetables' own juices make as they cook, and it has long been made in a big pot to share at festivals and family gatherings.",
+   "sources": [
+    {
+     "title": "じゃぶ",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_26_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "jabu",
+     "to_slug": "koyadofuko-nimono",
+     "relation_type": "対比",
+     "basis": "水を使わず、あるいはだしと調味料だけで煮る家庭の煮もの・鍋という共通点がある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hyogo-tako-meshi",
+   "name_ja": "たこめし",
+   "name_romaji": "Tako Meshi",
+   "name_en": "Tako meshi — rice cooked with octopus and dashi",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "",
+   "lat": 34.6901,
+   "lng": 135.1955,
+   "summary_ja": "淡路島から東播磨にかけて水揚げされるマダコを米と一緒に炊き込むご飯。夏場に旬を迎え、明石海峡の潮流にもまれた身は歯ごたえと甘みが増すとされ、生ダコのほか煮ダコや干しダコを使う地域もある。",
+   "summary_en": "Rice cooked with octopus landed anywhere from Awaji Island to eastern Harima. The octopus is in season through summer, and flesh tumbled by the currents of the Akashi Strait is said to gain in both bite and sweetness; some areas use it raw, others boiled or sun-dried first.",
+   "sources": [
+    {
+     "title": "たこめし",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_27_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hyogo-tako-meshi",
+     "to_slug": "awaji-beef",
+     "relation_type": "対比",
+     "basis": "淡路島を代表する食材という点は共通するが、海のたこと陸のブランド牛という対比をなす"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hatahata-karaage",
+   "name_ja": "はたはたの唐あげ",
+   "name_romaji": "Hatahata no Karaage",
+   "name_en": "Hatahata no karaage — whole sandfish deep-fried until the bones turn crisp",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "兵庫県",
+   "origin_city": "",
+   "lat": 35.5432,
+   "lng": 134.8235,
+   "summary_ja": "頭と内臓を取ったハタハタを丸ごと油で揚げる但馬地域の料理。うろこがなく調理しやすい魚とされ、朝鮮半島から回遊してくるため抱卵しておらず身に脂がのるという但馬産の特徴を生かした一品。",
+   "summary_en": "Whole sandfish, head and innards removed, deep-fried in the Tajima region. Sandfish are said to be scaleless and easy to prepare, and because the ones landed here migrate up from the Korean peninsula without eggs yet developing, their flesh is said to carry more fat.",
+   "sources": [
+    {
+     "title": "はたはたの唐あげ",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_28_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hatahata-karaage",
+     "to_slug": "yude-matsuba-gani",
+     "relation_type": "対比",
+     "basis": "どちらも但馬地域の海でとれる冬から春にかけての味覚とされる"
+    }
+   ],
+   "tags": [],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ibitsu-mochi",
+   "name_ja": "いびつもち",
+   "name_romaji": "Ibitsu Mochi",
+   "name_en": "Ibitsu mochi — sweet bean-paste rice cake wrapped in catbrier leaves",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "兵庫県",
+   "origin_city": "",
+   "lat": 34.6901,
+   "lng": 135.1955,
+   "summary_ja": "あんを包んだ餅をサルトリイバラの葉で包み蒸す、端午の節句の菓子。柏の葉が自生しにくい兵庫県では代わりにこの葉を使ったとされ、淡路では「いびつもち」、神戸・丹波では「柏餅」と地域ごとに呼び名が異なる。",
+   "summary_en": "A Boys' Day sweet of bean-paste mochi steamed inside catbrier leaves, used in place of oak leaves, which are said not to grow readily in Hyogo. The same sweet goes by different names by area — ibitsu mochi on Awaji, kashiwa mochi around Kobe and Tanba.",
+   "sources": [
+    {
+     "title": "いびつもち",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/40_29_hyogo.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ibitsu-mochi",
+     "to_slug": "chobojiru",
+     "relation_type": "対比",
+     "basis": "どちらも人生の節目・季節の行事を祝う際に作られる縁起物という共通点がある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行(9件): 40_2_hyogo 明石焼／玉子焼=既存akashiyakiと同一のため作らない / 40_6_hyogo 姫路おでん=既存odenと同一のため作らない(出典に姫路観光コンベンションビューローの姫路おでんページが使われており、既存項目が実質姫路おでんの説明を兼ねている) / 40_8_hyogo 播州手延べそうめん=既存banshu-somen(high)のため作らない / 40_10_hyogo 出石皿そば=既存izushi(出石そば)と同一の郷土料理(皿に盛る食べ方を強調した呼称違い)のため作らない / 40_11_hyogo 鯖寿司=既存saba-zushi(high)のため作らない / 40_14_hyogo 神戸ビーフステーキ=既存kobe-beefと実質同一(神戸ビーフの説明が主で、ステーキは一般的な食べ方の紹介に留まる)と判断し作らない / 40_19_hyogo にくてん=既存nikutenのため作らない(台帳のexisting_slug欄は空欄だったが、all-items-ja.txtに既存を確認) / 40_20_hyogo こけらずし=既存kokera-zushi(high)のため作らない / 40_30_hyogo やたら漬け=genre_hint=tsukemonoのため作らない。棚(shelf)を変えた行: 40_16 ハモすき homestyle→hotpot(鍋料理のため) / 40_18 味噌だれ餃子 homestyle→grilled(焼き餃子のため) / 40_23 さばのじゃう homestyle→hotpot(すき焼き風の寄せ鍋のため) / 40_28 はたはたの唐あげ homestyle→fried、genreもfriedを付与(唐揚げのため)。座標の根拠: 単一市町村が明記された行はその市役所・役場付近。複数市町村・広域(播磨地区、但馬地域、淡路島、県内全域など)は代表都市または県庁所在地(神戸市)を使用し、各アイテムのnotesは省略しこの一括メモに集約(個別の広域判定はsummary本文・relationsの記述で担保)。要判断事項: 神戸ビーフステーキと既存kobe-beefの同一性判定(迷ったが、ステーキという食べ方の解説に留まり神戸ビーフ自体の説明と重複が大きいため既存扱い) / 出石皿そばと既存izushiの同一性判定(皿そばという盛り付けの呼称差のみで、同じ出石そばの伝統を指すと判断) / 姫路おでんと既存odenの同一性判定(既存odenの出典が姫路おでんの観光ページだったため、実質的に姫路おでんをカバー済みと判断)。slug衝突の回避: 黒豆煮(京都府に既存kuromame-ni)→tanba-kuromame-ni、たこめし(三重県に既存tako-meshi「たこ飯」)→hyogo-tako-meshiに変更(地名-料理名の命名規則を適用、all-slugs.txtとの照合で判明)。"
+}
