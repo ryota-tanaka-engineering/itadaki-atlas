@@ -1,0 +1,1012 @@
+{
+ "items": [
+  {
+   "slug": "keiran",
+   "name_ja": "けいらん",
+   "name_romaji": "Keiran",
+   "name_en": "Keiran — sweet red-bean mochi dumplings in a clear soy broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 41.2894,
+   "lng": 141.2183,
+   "summary_ja": "もち米粉の生地でこしあんを包み、卵形に整えてしいたけと昆布の澄まし汁に浮かべる。形が鶏卵に似ることから名がついたと伝わり、稲刈り後の「秋仕舞い」のもてなし料理として下北地方に受け継がれている。",
+   "summary_en": "Two egg-shaped mochi dumplings filled with sweet red-bean paste float in a clear shiitake-kelp broth, said to be named for their resemblance to hen's eggs and served at Shimokita's post-harvest gatherings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/keiran_aomori.html",
+     "title": "けいらん 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "keiran",
+     "to_slug": "kinkamochi",
+     "relation_type": "対比",
+     "basis": "同じく餡を包んだ祝い菓子だが、けいらんはだしに浮かべる澄まし汁仕立て、きんかもちは生地で包んで茹でる点が対照的"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kenojiru",
+   "name_ja": "けの汁",
+   "name_romaji": "Keno Jiru",
+   "name_en": "Keno jiru — a slow-simmered New Year root vegetable and bean soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.6031,
+   "lng": 140.464,
+   "summary_ja": "大根やごぼう、わらびなど根菜と山菜をさいの目に刻み、すりつぶした大豆とともに焼き干し出汁で煮込む。小正月に大鍋で仕込み、数日かけて温め直しながら食べる津軽地方の保存食である。",
+   "summary_en": "Diced daikon, burdock and fern shoots simmered with mashed soybeans in a smoky dried-fish broth — a Tsugaru dish traditionally made in a big pot for the Little New Year and reheated over several days.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kenojiru_aomori.html",
+     "title": "けの汁 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "kenojiru",
+     "to_slug": "aomori-hittsumi",
+     "relation_type": "対比",
+     "basis": "同じ青森の粉物・根菜汁だが、けの汁は津軽、ひっつみは南部と伝承地域が異なる"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "senbei-jiru",
+   "name_ja": "せんべい汁",
+   "name_romaji": "Senbei Jiru",
+   "name_en": "Senbei jiru — a soy-flavored hotpot with hard wheat crackers simmered soft",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "八戸市",
+   "lat": 40.5122,
+   "lng": 141.488,
+   "summary_ja": "南部せんべいを鶏だし醤油の鍋に割り入れ、ごぼうや凍み豆腐と煮込む。冷害で米が実りにくかった八戸で保存食のせんべいを鍋に使ったのが始まりとされ、汁を吸ってもちもちした食感が特徴。",
+   "summary_en": "Hard wheat crackers are broken into a chicken-and-soy broth with burdock and freeze-dried tofu until chewy — born in Hachinohe, where the crackers were a famine-proof staple long before they became hotpot fare.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/senbei_jiru_aomori.html",
+     "title": "せんべい汁 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "senbei-jiru",
+     "to_slug": "aomori-hittsumi",
+     "relation_type": "対比",
+     "basis": "出典によれば八戸市では「せんべい汁と人気を二分する」とされるひっつみと並ぶ看板の粉物汁物"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kaiyaki-miso",
+   "name_ja": "貝焼き味噌",
+   "name_romaji": "Kaiyaki Miso",
+   "name_en": "Kaiyaki miso — miso and egg simmered in a scallop shell over a fire",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.8244,
+   "lng": 140.74,
+   "summary_ja": "大きなホタテの貝殻を鍋代わりに、出汁と味噌を煮立て溶き卵でとじる漁師料理。下北・津軽の海辺に伝わり、下北では海藻や貝をたっぷり加える豪華な「味噌貝焼き」になる。",
+   "summary_en": "A large scallop shell is used as a pan to simmer broth and miso, finished with beaten egg — a fisherman's dish from Aomori's coast, richer with seaweed and shellfish in the Shimokita version.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kaiyaki_miso_aomori.html",
+     "title": "貝焼き味噌 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "miso",
+    "egg"
+   ],
+   "relations": [
+    {
+     "from_slug": "kaiyaki-miso",
+     "to_slug": "tsugaru-miso",
+     "relation_type": "使用食材",
+     "basis": "手づくりの赤味噌（津軽味噌）を溶き入れて仕立てる"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "jappa-jiru",
+   "name_ja": "鱈のじゃっぱ汁",
+   "name_romaji": "Tara no Jappa Jiru",
+   "name_en": "Jappa jiru — a whole-fish cod soup made from the parts usually discarded",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.6031,
+   "lng": 140.464,
+   "summary_ja": "「じゃっぱ」は津軽の方言で本来捨てる部位を指し、タラの頭や骨、内臓を大根やねぎと煮込む。正月にタラを一尾丸ごと買う風習があった津軽で、冬の漁から戻った体を温める汁として親しまれた。",
+   "summary_en": "\"Jappa\" means the cod parts usually thrown away — head, bones, innards — simmered with daikon and scallion, a warming winter soup from Tsugaru, where buying a whole cod for New Year was once the custom.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tarano_jyappa_jiru_aomori.html",
+     "title": "鱈のじゃっぱ汁 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "jappa-jiru",
+     "to_slug": "taranoko-ae",
+     "relation_type": "兄弟",
+     "basis": "出典に「身をとった後の頭や中骨…はじゃっぱ汁にして味わい、子は子和えにする」とあり、同じタラを分けて使う対の料理"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aomori-bekomochi",
+   "name_ja": "べこもち",
+   "name_romaji": "Bekomochi",
+   "name_en": "Bekomochi — a marbled steamed mochi cake for the boys' festival",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "大間町",
+   "lat": 41.5211,
+   "lng": 140.9122,
+   "summary_ja": "もち米粉とうるち米粉の生地を色付けし、棒状に組んで蒸すと切り口に模様が現れる。米が貴重だった下北地方で端午の節句のハレ食として食べられ、大間町を中心に柄が発展した。",
+   "summary_en": "Colored strips of glutinous and non-glutinous rice-flour dough are bundled and steamed so each slice reveals a pattern — a Boys' Day treat from rice-poor Shimokita, its designs elaborated around Oma town.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/beko_mochi_aomori.html",
+     "title": "べこもち 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "aomori-bekomochi",
+     "to_slug": "hoshimochi",
+     "relation_type": "対比",
+     "basis": "同じ津軽・下北のもち菓子だが、べこもちは端午の節句の生菓子、干し餅は極寒期の保存食という対照的な位置づけ"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aomori-mame-shitogi",
+   "name_ja": "豆しとぎ",
+   "name_romaji": "Mame Shitogi",
+   "name_en": "Mame shitogi — a soybean and rice-flour offering cake from Nanbu",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.5122,
+   "lng": 141.488,
+   "summary_ja": "煮て潰した青大豆に米粉と砂糖を混ぜてこね、かまぼこ形に成形して切り分ける。米の代わりに大豆でかさ増しした南部地方の生菓子で、山の神や農神への年取りの供え物として作られてきた。",
+   "summary_en": "Mashed boiled green soybeans are kneaded with rice flour and sugar into a log and sliced — a Nanbu-region sweet that stretched scarce rice with beans, once offered to the mountain and harvest gods.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mame_shitogi_aomori.html",
+     "title": "豆しとぎ 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "aomori-mame-shitogi",
+     "to_slug": "iwate-mame-shitogi",
+     "relation_type": "対比",
+     "basis": "同名の郷土料理が岩手県北にも伝わり、旧南部藩領で共有される豆しとぎ文化の青森側"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ichigoni",
+   "name_ja": "いちご煮",
+   "name_romaji": "Ichigoni",
+   "name_en": "Ichigoni — a delicate sea urchin and abalone clear soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.5122,
+   "lng": 141.488,
+   "summary_ja": "生ウニとアワビを水かだしでさっと煮て醤油少々で整え、青じそを添えるだけの潮の香り豊かな吸い物。乳白色の汁に浮くウニが野いちごのように見えることが名の由来とされ、祝い事の椀に用いられる。",
+   "summary_en": "Fresh sea urchin and abalone are barely simmered in dashi with a touch of soy sauce and shiso — the golden urchin adrift in the pale broth is said to resemble wild strawberries, hence the name, served at celebrations.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ichigoni_aomori.html",
+     "title": "いちご煮 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "ichigoni",
+     "to_slug": "mizu-hoya",
+     "relation_type": "対比",
+     "basis": "ともに太平洋岸の南部地方に伝わる海の幸中心の一品だが、いちご煮は高級な椀物、ミズとホヤの水物は夏の日常の和え物"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kinkamochi",
+   "name_ja": "きんかもち",
+   "name_romaji": "Kinkamochi",
+   "name_en": "Kinkamochi — a half-moon dumpling filled with walnut and miso caramel",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.5122,
+   "lng": 141.488,
+   "summary_ja": "小麦粉の皮でくるみと黒砂糖、味噌を練った餡を包み、半月形にして茹でる。黒砂糖が贅沢品だったことから「金貨餅」と呼ばれたと伝わる南部地方の郷土菓子で、盆や年取りの供え物にされた。",
+   "summary_en": "A wheat-dough half-moon parcel holds a filling of walnut, brown sugar and miso — said to be named \"gold coin cake\" for the once-precious brown sugar, offered at Obon and year-end in the Nanbu region.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kinka_mochi_aomori.html",
+     "title": "きんかもち 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "kinkamochi",
+     "to_slug": "iwate-kamamochi",
+     "relation_type": "対比",
+     "basis": "くるみ・黒砂糖・味噌の餡を生地で包む半月形の菓子という共通点を持つ岩手のかまもちと対比できる"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "taranoko-ae",
+   "name_ja": "たらの子和え",
+   "name_romaji": "Taranoko Ae",
+   "name_en": "Taranoko ae — cod roe tossed with root vegetables and konjac noodles",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.6031,
+   "lng": 140.464,
+   "summary_ja": "塩をしてほぐしたタラコを、下味をつけた大根や凍み豆腐、人参、糸こんにゃくと和える。正月にタラを丸ごと使い切る津軽の風習の中で、身は「じゃっぱ汁」に、子はこの和え物になった。",
+   "summary_en": "Salted, crumbled cod roe is tossed with seasoned daikon, freeze-dried tofu, carrot and konjac noodles — part of Tsugaru's tradition of using a whole New Year cod, with the roe set aside for this dish.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/taranoko_ae_aomori.html",
+     "title": "たらの子和え 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "taranoko-ae",
+     "to_slug": "jappa-jiru",
+     "relation_type": "兄弟",
+     "basis": "同じタラを頭・骨はじゃっぱ汁に、子は子和えにと分けて使う対の料理"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nasu-shiso-maki",
+   "name_ja": "なすの赤しそ巻き",
+   "name_romaji": "Nasu no Akajiso Maki",
+   "name_en": "Nasu no akajiso maki — miso-glazed eggplant wrapped in red shiso",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.6031,
+   "lng": 140.464,
+   "summary_ja": "棒状に切ったなすに甘辛い味噌だれをつけ、赤しその葉で巻いて両面を焼くだけの素朴な一皿。夏にどちらも大量に採れる津軽地方の日常のおかずで、味噌だれの配合は家ごとに異なり、冷やして食べても美味しいとされる。",
+   "summary_en": "Eggplant sticks are coated in a sweet-savory miso glaze, wrapped in red shiso leaves and pan-fried on both sides — a summer home dish from Tsugaru, where both ingredients come into season together.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nasuno_akasiso_maki_aomori.html",
+     "title": "なすの赤しそ巻き 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "miso"
+   ],
+   "relations": [
+    {
+     "from_slug": "nasu-shiso-maki",
+     "to_slug": "shiso-maki",
+     "relation_type": "対比",
+     "basis": "既存の宮城しそ巻き（味噌とくるみの餡をしそで包み揚げる菓子的な一品）とは異なり、こちらはなすを味噌だれとともに焼く惣菜"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "niaekko",
+   "name_ja": "煮あえっこ",
+   "name_romaji": "Niaekko",
+   "name_en": "Niaekko — root vegetables and tofu stir-fried and simmered dry",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 41.2894,
+   "lng": 141.2183,
+   "summary_ja": "大根や人参、わらびなど根菜と山菜を細く刻んで油で炒め、崩した豆腐を加えて汁気がなくなるまで煮る。冷害が多く保存食が発達した下北地方で、秋大根の収穫期に大量に仕込まれた。",
+   "summary_en": "Shredded daikon, carrot and preserved fern shoots are stir-fried with crumbled tofu until the liquid cooks away — a Shimokita dish born of frequent crop failures, made in bulk when autumn daikon came in.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/niaekko_aomori.html",
+     "title": "煮あえっこ 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "niaekko",
+     "to_slug": "kenojiru",
+     "relation_type": "対比",
+     "basis": "根菜・山菜を数日かけて食べ継ぐ保存性の高い家庭料理という点で津軽のけの汁と対をなす、下北の一品"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nerikomi",
+   "name_ja": "ねりこみ",
+   "name_romaji": "Nerikomi",
+   "name_en": "Nerikomi — a glossy, kudzu-thickened sweet vegetable stew",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "弘前市",
+   "lat": 40.6031,
+   "lng": 140.464,
+   "summary_ja": "季節の野菜やこんにゃくをだしで煮て、砂糖と塩で甘めに味付けし、くず粉でとろみをつける。弘前の禅寺で托鉢の野菜を寄せて作ったのが始まりと伝わり、慶弔の膳に添えられる。",
+   "summary_en": "Seasonal vegetables and konjac are simmered in dashi, sweetened with sugar and salt, and thickened with kudzu starch into a glossy stew — said to originate with alms vegetables at a Hirosaki temple, served at weddings and funerals.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nerikomi_aomori.html",
+     "title": "ねりこみ 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "nerikomi",
+     "to_slug": "ichinoseki-mochi-ryori",
+     "relation_type": "対比",
+     "basis": "ともに慶弔の膳に欠かせない儀礼色の強い一品という点で、岩手・一関の餅本膳文化と対比できる"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aomori-hittsumi",
+   "name_ja": "ひっつみ",
+   "name_romaji": "Hittsumi",
+   "name_en": "Hittsumi — hand-torn wheat dough simmered in a chicken and root vegetable soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.5122,
+   "lng": 141.488,
+   "summary_ja": "こねた小麦粉の生地を手でちぎって鶏だし醤油の汁に入れ、人参やごぼうとともに煮込む。旧南部藩領だった青森県南東部から岩手県北中部にかけて伝わり、米が不作の年の主食代わりとされた。",
+   "summary_en": "Hand-torn pieces of kneaded wheat dough are simmered in a chicken-and-soy broth with carrot and burdock — a dish from the old Nanbu domain spanning southeastern Aomori and northern Iwate, once a rice substitute in lean years.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hittsumi_aomori.html",
+     "title": "ひっつみ 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "aomori-hittsumi",
+     "to_slug": "iwate-hittsumi",
+     "relation_type": "兄弟",
+     "basis": "出典に「青森県南東部から岩手県北中部にかけて伝わる郷土料理」とあり、県境をまたぐ同じ料理"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hoshimochi",
+   "name_ja": "干し餅",
+   "name_romaji": "Hoshi Mochi",
+   "name_en": "Hoshi mochi — freeze-dried rice cake cured in the winter cold",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "五所川原市",
+   "lat": 40.8081,
+   "lng": 140.4581,
+   "summary_ja": "水を多めについた餅を切り、わらで編んで真冬に水にくぐらせては屋外で凍らせ、風干しにする。二ヵ月ほどかけて作る津軽地方の保存食で、五所川原市で特に盛んに作られてきた。",
+   "summary_en": "Rice cakes pounded with extra water are strung on straw, dipped in water and frozen outdoors through the depths of winter, then wind-dried over about two months — a Tsugaru preserve especially associated with Goshogawara.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hoshi_mochi_aomori.html",
+     "title": "干し餅 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "freeze_dried"
+   ],
+   "relations": [
+    {
+     "from_slug": "hoshimochi",
+     "to_slug": "aomori-bekomochi",
+     "relation_type": "対比",
+     "basis": "同じ津軽・下北のもち菓子でも、干し餅は極寒期の保存食、べこもちは端午の節句の生菓子と用途が対照的"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mizu-hoya",
+   "name_ja": "ミズとホヤの水物",
+   "name_romaji": "Mizu to Hoya no Mizumono",
+   "name_en": "Mizu to hoya no mizumono — wood nettle stem and sea pineapple in kelp dashi",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.6031,
+   "lng": 140.464,
+   "summary_ja": "山菜「ミズ」を茹でて冷やし、下処理したホヤと合わせて薄い昆布だしを注ぐだけの一品。「ホヤといったらミズ」という言い合いがあるほど相性がよいとされ、津軽の短い夏を告げる味である。",
+   "summary_en": "Blanched wood nettle stems are paired with cleaned sea pineapple in a light kelp dashi — locals say the two are inseparable, and together they mark the arrival of Tsugaru's short summer.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mizuto_hoyano_mizumono_aomori.html",
+     "title": "ミズとホヤの水物 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "mizu-hoya",
+     "to_slug": "mizu-tataki",
+     "relation_type": "対比",
+     "basis": "同じ「ミズ」を使うが、岩手・奥羽山系の「みずたたき（とろろ）」は味噌だれで叩いて食べる点が対照的"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sake-iizushi",
+   "name_ja": "鮭の飯ずし",
+   "name_romaji": "Sake no Iizushi",
+   "name_en": "Sake no iizushi — salted salmon and rice fermented together with koji",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.6031,
+   "lng": 140.464,
+   "summary_ja": "酢締めした塩サケと根曲がりだけ、もち米を笹の葉とともに幾重にも重ねて重石をかけ、数日かけて発酵させる。雪に閉ざされる津軽で保存食として育まれ、紅白の彩りから縁起物ともされる。",
+   "summary_en": "Vinegar-cured salted salmon, bamboo shoots and glutinous rice are layered with bamboo leaves under a weight and left to ferment for days — a Tsugaru preserve born of snowbound winters, its red and white colors read as auspicious.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sakeno_iizushi_aomori.html",
+     "title": "鮭の飯ずし 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "sake-iizushi",
+     "to_slug": "sushiko",
+     "relation_type": "兄弟",
+     "basis": "出典に「魚などに塩をまぶし、ごはんや麹と漬けこみ乳酸発酵させる郷土料理は飯ずしとよぶ」とあり、もち米だけを発酵させる「すしこ」と対の保存食"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsugaru-inari-zushi",
+   "name_ja": "いなりずし",
+   "name_romaji": "Tsugaru Inarizushi",
+   "name_en": "Tsugaru inarizushi — pink, sweet mochi-rice pockets colored with red ginger",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.6031,
+   "lng": 140.464,
+   "summary_ja": "刻んだ紅しょうがを混ぜたもち米をたっぷりの砂糖で甘く仕立て、甘辛く煮た油揚げに詰める。米どころとして栄えた津軽地方独特の一品で、酢飯の代わりにピンク色でもっちりした甘い飯が特徴。",
+   "summary_en": "Glutinous rice mixed with chopped red pickled ginger and sweetened heavily with sugar is packed into sweet-simmered fried tofu pouches — a distinctly pink, mochi-textured take on inarizushi from rice-rich Tsugaru.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/inari_zushi_aomori.html",
+     "title": "いなりずし 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "tsugaru-inari-zushi",
+     "to_slug": "inari-zushi",
+     "relation_type": "対比",
+     "basis": "酢飯ではなく紅しょうがともち米で甘くピンクに仕立てる点で一般的ないなり寿司と対比できる津軽独自の様式"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aomori-kakke",
+   "name_ja": "かっけ",
+   "name_romaji": "Kakke",
+   "name_en": "Kakke — triangles of buckwheat dough dipped in garlic miso",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.5122,
+   "lng": 141.488,
+   "summary_ja": "そば粉を薄くのばして三角形に切り、大根や豆腐とだしで煮てにんにく味噌をつけて食べる。南部藩がそば切りを禁じたため、切れ端を三角に整えて食べたのが始まりと伝わる南部地方の料理。",
+   "summary_en": "Thin buckwheat dough is cut into triangles, simmered with daikon and tofu, and dipped in garlic miso — said to have begun when the Nanbu domain banned fine-cut soba, leaving people to eat the offcuts instead.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kakke_aomori.html",
+     "title": "かっけ 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "aomori-kakke",
+     "to_slug": "soba-kakke",
+     "relation_type": "兄弟",
+     "basis": "南部藩によるそば切り禁止の逸話を共有する、岩手県北のそばかっけと同系の料理"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gapparamochi",
+   "name_ja": "がっぱらもち",
+   "name_romaji": "Gapparamochi",
+   "name_en": "Gapparamochi — a griddle cake made from leftover pounded rice",
+   "type": "dish",
+   "shelf": "griddle",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.6031,
+   "lng": 140.464,
+   "summary_ja": "冷ごはんや米粉を黒砂糖と黒ごまで甘く伸ばし、フライパンいっぱいに流して両面を焼く。米糊作りで出た「糊かす」を無駄にしないよう考案されたと伝わる津軽地方のおやつで、放射状に切り分けて食べる。",
+   "summary_en": "Leftover rice or rice flour is sweetened with brown sugar and black sesame, poured into a pan and pan-fried on both sides — a Tsugaru snack said to have started as a way to use up the dregs from making rice-starch glue.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gappara_mochi_aomori.html",
+     "title": "がっぱらもち 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "gapparamochi",
+     "to_slug": "goma-gohan",
+     "relation_type": "対比",
+     "basis": "ともに津軽で米や米粉を使った素朴なおやつ・行事食だが、がっぱらもちは焼き菓子、ごまご飯は蒸した色飯という違いがある"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "goma-gohan",
+   "name_ja": "ごまご飯",
+   "name_romaji": "Goma Gohan",
+   "name_en": "Goma gohan — glutinous rice steamed with roasted black sesame",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.6031,
+   "lng": 140.464,
+   "summary_ja": "よく炒ってすった黒ごまをもち米に混ぜて蒸し上げる、津軽地方の「色飯」のひとつ。真っ黒な見た目から仏事に供えられる一方、砂糖を加えて甘くし田植えや祭りに作る地域もある。",
+   "summary_en": "Roasted, ground black sesame is mixed into steamed glutinous rice — one of Tsugaru's \"colored rice\" dishes, its dark color offered at Buddhist rites, or sweetened with sugar for rice-planting and festival days.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/goma_gohan_aomori.html",
+     "title": "ごまご飯 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "goma-gohan",
+     "to_slug": "gapparamochi",
+     "relation_type": "対比",
+     "basis": "がっぱらもちと同じく津軽の米を生かしたおやつ・行事食"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "june-mochi",
+   "name_ja": "じゅね餅",
+   "name_romaji": "June Mochi",
+   "name_en": "June mochi — sliced rice cake dipped in a perilla seed and miso paste",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.5122,
+   "lng": 141.488,
+   "summary_ja": "炒って丁寧にすったえごま（じゅね）に味噌と砂糖を混ぜた餡を、薄く切って茹でた餅に絡めて食べる。雑穀文化が発達した南部地方のおやつで、囲炉裏端で子どもたちが焼いて食べる冬の風物詩だった。",
+   "summary_en": "Roasted, finely ground perilla seeds are mixed with miso and sugar into a paste for coating slices of boiled rice cake — a Nanbu-region treat once toasted by children around the hearth on winter evenings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/jyune_mochi_aomori.html",
+     "title": "じゅね餅 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "miso"
+   ],
+   "relations": [
+    {
+     "from_slug": "june-mochi",
+     "to_slug": "kinkamochi",
+     "relation_type": "対比",
+     "basis": "ともに南部地方の餅・生地に甘い餡を絡める冬のおやつだが、じゅね餅はえごま餡、きんかもちはくるみ黒砂糖味噌餡を包む点が異なる"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shoga-miso-oden",
+   "name_ja": "しょうが味噌おでん",
+   "name_romaji": "Shoga Miso Oden",
+   "name_en": "Shoga miso oden — oden served with a grated ginger and red miso sauce",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "青森市",
+   "lat": 40.8244,
+   "lng": 140.74,
+   "summary_ja": "煮たおでんに、赤味噌とみりん、だしを煮立てすりおろし生姜を混ぜたたれをかけて食べる。戦後の青函連絡船の屋台で客の体を温めようと出したのが始まりと伝わり、つぶ貝や大ぶりの練り物が具に入る。",
+   "summary_en": "Simmered oden is topped with a sauce of red miso, mirin, dashi and grated ginger — said to have begun at a postwar street stall warming travelers bound for the Aomori-Hakodate ferry, served with local whelk and oversized fish cakes.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shouga_misooden_aomori.html",
+     "title": "しょうが味噌おでん 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "miso"
+   ],
+   "relations": [
+    {
+     "from_slug": "shoga-miso-oden",
+     "to_slug": "tsugaru-miso",
+     "relation_type": "使用食材",
+     "basis": "たれの土台に赤味噌（津軽味噌）を使う"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sushiko",
+   "name_ja": "すしこ",
+   "name_romaji": "Sushiko",
+   "name_en": "Sushiko — glutinous rice fermented with pickled vegetables",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.8081,
+   "lng": 140.4581,
+   "summary_ja": "蒸したもち米に赤しそやキャベツ、きゅうりの古漬けを合わせて重石をかけ、乳酸発酵させる「ごはんの漬物」。津軽地方西北部の米どころで冬の保存食として育まれ、農作業の合間の栄養補給にもされた。",
+   "summary_en": "Steamed glutinous rice is mixed with red shiso, cabbage and aged pickled cucumber and left under a weight to lacto-ferment — a \"pickled rice\" from rice-rich northwestern Tsugaru, once a winter preserve and field-work snack.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sushiko_aomori.html",
+     "title": "すしこ 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "fermented"
+   ],
+   "relations": [
+    {
+     "from_slug": "sushiko",
+     "to_slug": "sake-iizushi",
+     "relation_type": "兄弟",
+     "basis": "出典で飯ずしと対で語られる、もち米だけを発酵させる保存食"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kyabetsu-masu-zuke",
+   "name_ja": "キャベツとマスの漬物",
+   "name_romaji": "Kyabetsu to Masu no Tsukemono",
+   "name_en": "Cabbage and trout pickle — a fish-and-vegetable preserve from inland Tsugaru",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.6031,
+   "lng": 140.464,
+   "summary_ja": "塩漬けにしたキャベツと、酢と酒で臭みを抜いたマスを甘酒だれで合わせ漬ける。海産物が乏しかった津軽内陸部で、保存のきく塩マスを余さず使う知恵から生まれた漬物である。",
+   "summary_en": "Salted cabbage is pickled together with trout that has been de-fished in vinegar and sake, dressed with a sweet amazake-based brine — born inland in Tsugaru, where seafood was scarce and preserved trout was used to the last scrap.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kyabetsu_to_masuno_tsuke_mono_aomori.html",
+     "title": "キャベツとマスの漬物 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "fermented"
+   ],
+   "relations": [
+    {
+     "from_slug": "kyabetsu-masu-zuke",
+     "to_slug": "same-sukume",
+     "relation_type": "対比",
+     "basis": "ともに魚を余さず使う津軽の始末料理。鮫のすくめはサメの頭、こちらはマスのアラを主に使う"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "same-sukume",
+   "name_ja": "鮫のすくめ",
+   "name_romaji": "Same no Sukume",
+   "name_en": "Same no sukume — shark head meat dressed with vinegar-miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.6031,
+   "lng": 140.464,
+   "summary_ja": "湯がいたサメの頭の身をほぐし、熱いうちに大根またはキャベツとともに酢味噌で和える。縄文期からサメ食が続く津軽地方で、頭まで余さず食べる知恵として正月料理に欠かせない一品となった。",
+   "summary_en": "Meat picked from a boiled shark head is dressed while still hot with vinegar-miso and daikon or cabbage — a Tsugaru dish rooted in a Jomon-era shark-eating tradition, an essential on the New Year table.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sameno_sukume_aomori.html",
+     "title": "鮫のすくめ 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "same-sukume",
+     "to_slug": "jappa-jiru",
+     "relation_type": "対比",
+     "basis": "ともに「捨てるところのない魚」を活かす津軽の正月料理"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aomori-kujira-jiru",
+   "name_ja": "くじら汁",
+   "name_romaji": "Kujira Jiru",
+   "name_en": "Kujira jiru — a hearty New Year soup of salted whale blubber and root vegetables",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "青森県",
+   "origin_city": "",
+   "lat": 40.5122,
+   "lng": 141.488,
+   "summary_ja": "塩漬けにしたクジラの脂身を湯通しして脂を落とし、大根や人参、じゃがいもとともに大鍋で煮込む。捕鯨基地があった八戸周辺に伝わる正月料理で、日を経るごとに味がなじむとされる。",
+   "summary_en": "Salted whale blubber is parboiled to render off excess fat, then simmered in a big pot with daikon, carrot and potato — a New Year dish from around Hachinohe's old whaling grounds, said to deepen in flavor over several days.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kujira_jiru_aomori.html",
+     "title": "くじら汁 青森県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "aomori-kujira-jiru",
+     "to_slug": "hachinohe",
+     "relation_type": "対比",
+     "basis": "同じ八戸市発祥だが、こちらは正月の郷土料理、八戸らーめんは戦後生まれのご当地グルメという対比"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: ika_menchi_aomori(イカメンチ)=all-items-ja.txtの既存slug ika-menchi(いかメンチ)と同一のため作らず。akakabu_no_senmai_zuke_aomori(赤かぶの千枚漬け)=genre_hint=tsukemonoかつ野菜のみの純粋な漬物で例外規定に該当しないため作らず。 / 棚を変えた行: nasuno_akasiso_maki_aomori(homestyle→grilled), kakke_aomori(homestyle→noodles)。 / 要判断: nasuno_akasiso_maki_aomori(existing_slug=shiso-maki,low)はなす主体の惣菜で宮城のしそ巻き(菓子的な保存食)と別物と判断し新規作成。shouga_misooden_aomori(existing_slug=oden,low)は青森市固有の生姜味噌だれ・具材を持つ別項目と判断し新規作成。inari_zushi_aomori(existing_slug=inari-zushi,medium)は酢飯を使わない津軽独自の甘いいなりずしのため別項目として新規作成。kyabetsu_to_masuno_tsuke_mono_aomori(genre_hint=tsukemono)はマス(魚)を主素材とする例外規定を適用し新規作成。kujira_jiru_aomori, aomori-mame-shitogi, aomori-hittsumiはHokkaido/Iwate側の既存・並行生成slugと衝突するためslugに地名を付けた。 / kaiyaki-miso: 伝承地域が下北地方・津軽地方の2地域にまたがるため origin_city は空欄、座標は県庁所在地（青森市）を仮の代表点とした（広域） / aomori-mame-shitogi: 岩手県にも同名「豆しとぎ」があるため slug を地名接頭にした / nasu-shiso-maki: existing_slug=shiso-maki（宮城, low）と比較。宮城のしそ巻きは味噌くるみ餡をしそで包み揚げる菓子的な保存食で、なすの赤しそ巻きとは食材・調理法とも別物と判断し新規作成 / aomori-hittsumi: 岩手県にも同名「ひっつみ」があるため slug を地名接頭にした / tsugaru-inari-zushi: existing_slug=inari-zushi（medium）と比較。既存項目は一般的ないなり寿司で、こちらは酢飯を使わず紅しょうがで甘くピンクに仕立てる津軽独自の様式のため別項目として新規作成し、slugに地名を付けた / aomori-kakke: 棚をhomestyle→noodlesに変更（岩手のそばかっけと同種の生地食であるため統一） / shoga-miso-oden: existing_slug=oden（low）と比較。生姜味噌だれをかける青森市固有の食べ方・具材（つぶ貝、大角天等）を持つ別項目と判断し新規作成 / sushiko: genre_hintは空欄（tsukemonoではない）でall-items-ja.txtにも該当なし。米の発酵保存食のためgenreはnullとした / kyabetsu-masu-zuke: genre_hint=tsukemonoだが、野菜のみの漬物ではなくマス（魚）を主素材とする保存食のため例外規定を適用し新規作成（棚はfermented、genreはnull） / aomori-kujira-jiru: 北海道のくじら汁（slug: kujira-jiru）と名前が重複するため slug に地名を付けた"
+}

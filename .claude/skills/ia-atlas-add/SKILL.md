@@ -77,6 +77,9 @@ npm run content:lint -- --strict
 
 投入前に格付け語（三大・一番・No.1・ランキング・受賞・認定）を grep し、あれば書き換えてから投入する（`ia-atlas-content` §1）。
 
+- **複数の束を同じ波で投入するとき**（県ブロックの部隊が互いのアイテムを参照する等）は、束をまたぐ関係が「参照先未投入」で relations 段だけ失敗する。全束を投入したあとに `npm run content:import -- --file <束> --skip-expand --only relations` を束ごとに流し直し、最後に `content:lint --strict` で行き止まりゼロを確認する
+- 部隊の生成物はキー名がぶれることがある（`type`/`note` → `relation_type`/`basis`、`null`）。投入前に `scratchpad/kyodo/normalize_tier1.py` 相当で正規化してから `--dry-run` にかける
+
 ## 4. 検品（差分ではなく導線で）
 
 1. `npm run test:e2e`。データ量で前提が変わるテスト（件数・同名リンク・URL）は**テスト側を直す**

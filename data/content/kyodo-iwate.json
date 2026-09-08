@@ -1,0 +1,1081 @@
+{
+ "items": [
+  {
+   "slug": "iwate-hittsumi",
+   "name_ja": "ひっつみ",
+   "name_romaji": "Hittsumi",
+   "name_en": "Hittsumi — hand-torn wheat dough simmered with chicken and root vegetables",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "",
+   "lat": 39.7036,
+   "lng": 141.1527,
+   "summary_ja": "小麦粉をこねて寝かせた生地を手でちぎり、鶏肉や根菜のだしで煮込む。「ひっつみ汁」とも呼ばれ、冷害で米が実りにくい北上川流域で発達した粉物文化を代表する料理として県内全域で作られる。",
+   "summary_en": "Hand-torn pieces of rested wheat dough are simmered in a chicken-and-root-vegetable broth — also called hittsumi-jiru, the signature dish of the Kitakami river valley's flour-based food culture, made across Iwate.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_1_iwate.html",
+     "title": "ひっつみ／ひっつみ汁 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "iwate-hittsumi",
+     "to_slug": "aomori-hittsumi",
+     "relation_type": "兄弟",
+     "basis": "旧南部藩領の青森県南東部から岩手県北中部にかけて共有される同じ料理"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kirisensho",
+   "name_ja": "きりせんしょ",
+   "name_romaji": "Kirisensho",
+   "name_en": "Kirisensho — a steamed rice-flour cake with walnut, sesame and soy glaze",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "",
+   "lat": 39.7036,
+   "lng": 141.1527,
+   "summary_ja": "米粉を蒸してくるみとごまを練り込み、醤油と砂糖で味付けして小判形や木の葉形に整える。県央の水田地帯で桃の節句の供え物や農作業の合間の「こびり」として親しまれてきた。",
+   "summary_en": "Steamed rice flour is kneaded with walnut and sesame, sweetened with soy sauce and sugar, and shaped into ovals or leaf forms — a snack from central Iwate's rice country, offered at the Girls' Festival or eaten during farm-work breaks.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_2_iwate.html",
+     "title": "きりせんしょ 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "kirisensho",
+     "to_slug": "hina-manju",
+     "relation_type": "兄弟",
+     "basis": "出典に「3月3日の桃の節句にはきりせんしょと共に供える」とあり、ひなまんじゅうと対で供えられる菓子"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mamebu-jiru",
+   "name_ja": "まめぶ汁",
+   "name_romaji": "Mamebu Jiru",
+   "name_en": "Mamebu jiru — a soy broth with walnut-filled wheat dumplings",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "久慈市",
+   "lat": 40.1911,
+   "lng": 141.7742,
+   "summary_ja": "煮干しと昆布のだしに、根菜や焼き豆腐、くるみを包んだ小麦粉団子「まめぶ」を入れて醤油味で煮込む。凶作が続いた久慈市山形町で麺の代用として生まれたと伝わり、冠婚葬祭の行事食となっている。",
+   "summary_en": "Wheat dumplings stuffed with walnut are simmered in a soy-flavored dried sardine and kelp broth with root vegetables and grilled tofu — said to have begun as a noodle substitute in famine-prone Kuji, now a dish for weddings and funerals.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_3_iwate.html",
+     "title": "まめぶ汁 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "mamebu-jiru",
+     "to_slug": "iwate-hittsumi",
+     "relation_type": "対比",
+     "basis": "同じ小麦粉の粉物汁物だが、ひっつみは生地を手でちぎるのに対し、まめぶ汁はくるみ入りの団子にする点が異なる"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iwate-ganzuki",
+   "name_ja": "がんづき",
+   "name_romaji": "Ganzuki",
+   "name_en": "Ganzuki — a steamed brown-sugar sponge cake studded with walnut and sesame",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "一関市",
+   "lat": 38.933,
+   "lng": 141.1279,
+   "summary_ja": "小麦粉に重曹と酢を加えて蒸し膨らませ、くるみやごまを散らした素朴な蒸し菓子。丸い形と表面のごまの並びが満月に向かう雁に見えることが名の由来とされ、県南地域を中心に農作業の合間のおやつとされてきた。",
+   "summary_en": "Wheat flour leavened with baking soda and vinegar is steamed into a rustic sponge studded with walnut and sesame — its round shape and sesame pattern likened to geese flying toward a full moon, a farm-break snack of southern Iwate.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_4_iwate.html",
+     "title": "がんづき 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "iwate-ganzuki",
+     "to_slug": "kirisensho",
+     "relation_type": "対比",
+     "basis": "ともに米粉・小麦粉を蒸してくるみやごまを加える県央〜県南の素朴な蒸し菓子"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sukikonbu-no-nimono",
+   "name_ja": "すき昆布の煮物",
+   "name_romaji": "Sukikonbu no Nimono",
+   "name_en": "Sukikonbu no nimono — shredded kelp simmered with mushroom and carrot",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "普代村",
+   "lat": 39.9058,
+   "lng": 141.9214,
+   "summary_ja": "若い昆布を茹でて細く切り乾燥させた「すき昆布」を水で戻し、にんじんや干ししいたけと醤油味で煮る。昭和44年頃に普代村で養殖と加工が始まり、県内全域の家庭料理として定着した保存食である。",
+   "summary_en": "Young kelp, boiled, shredded and dried into \"suki-konbu,\" is rehydrated and simmered with carrot and dried shiitake in soy sauce — a preserve that spread statewide after kelp farming began in Fudai village around 1969.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_5_iwate.html",
+     "title": "すき昆布の煮物 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "kelp"
+   ],
+   "relations": [
+    {
+     "from_slug": "sukikonbu-no-nimono",
+     "to_slug": "iwate-nishime",
+     "relation_type": "対比",
+     "basis": "ともに乾物・保存食を醤油味で煮る岩手の常備菜という点で共通する"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ichinoseki-mochi-ryori",
+   "name_ja": "伝統餅料理",
+   "name_romaji": "Dento Mochi Ryori",
+   "name_en": "Traditional mochi cuisine of Ichinoseki — dozens of toppings for a ceremonial rice-cake course",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "一関市",
+   "lat": 38.933,
+   "lng": 141.1279,
+   "summary_ja": "あんこやずんだ、くるみ、納豆、雑煮など約300通りの食べ方がある餅料理の総称。仙台藩の命で月2回餅を搗いた風習が根付き、一関では年60回以上餅を食べる「餅暦」と、儀礼作法に則る「餅本膳」が今も残る。",
+   "summary_en": "An umbrella term for some 300 ways of dressing mochi — sweet red bean, edamame paste, walnut, natto, zoni and more. A domain-era custom of pounding mochi twice a month left Ichinoseki with a \"mochi calendar\" of 60-plus occasions a year and a formal ceremonial mochi course still observed today.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_6_iwate.html",
+     "title": "伝統餅料理 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "ichinoseki-mochi-ryori",
+     "to_slug": "nerikomi",
+     "relation_type": "対比",
+     "basis": "ともに慶弔の膳に用いられる儀礼色の強い料理という点で、青森・弘前のねりこみと対比できる"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yanagi-batto",
+   "name_ja": "柳ばっと",
+   "name_romaji": "Yanagi Batto",
+   "name_en": "Yanagi batto — willow-leaf-shaped buckwheat dumplings in a savory broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "",
+   "lat": 40.2761,
+   "lng": 141.3011,
+   "summary_ja": "そば粉をこねて柳の葉形に整え、大根やにんじん、きのこを入れた醤油味やみそ味の汁で煮る。南部藩が細切りそばを禁じた時代に「これはそばではない」と言い抜けて食べたのが名の由来とされる県北の料理。",
+   "summary_en": "Buckwheat dough shaped like willow leaves is simmered in a soy- or miso-flavored broth with daikon, carrot and mushroom — said to be named for a loophole villagers used to keep eating soba after the Nanbu domain banned finely cut noodles.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_7_iwate.html",
+     "title": "柳ばっと 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "yanagi-batto",
+     "to_slug": "soba-kakke",
+     "relation_type": "兄弟",
+     "basis": "ともに南部藩によるそば切り禁止の逸話を持つ、県北で生まれたそば粉の代替食"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iwate-mame-shitogi",
+   "name_ja": "豆しとぎ",
+   "name_romaji": "Mame Shitogi",
+   "name_en": "Mame shitogi — a soybean and rice-flour offering cake from northern Iwate",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "",
+   "lat": 40.2761,
+   "lng": 141.3011,
+   "summary_ja": "煮た青大豆をすりつぶし、米粉と砂糖を混ぜてこね棒状に切る。米が乏しかった岩手県北で米粉を大豆でかさ増ししたと考えられ、大黒様や山の神への年取りの供え物として作られてきた。",
+   "summary_en": "Boiled green soybeans are mashed and kneaded with rice flour and sugar into a log and sliced — thought to stretch scarce rice flour with beans in rice-poor northern Iwate, once offered to the harvest and mountain gods.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_8_iwate.html",
+     "title": "豆しとぎ 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "iwate-mame-shitogi",
+     "to_slug": "aomori-mame-shitogi",
+     "relation_type": "対比",
+     "basis": "旧南部藩領で共有される豆しとぎ文化の岩手側。同名の料理が青森県南部地方にも伝わる"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kaho-dango",
+   "name_ja": "果報だんご",
+   "name_romaji": "Kaho Dango",
+   "name_en": "Kaho dango — rice dumplings with a lucky twig hidden inside, made for a December rite",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "",
+   "lat": 38.933,
+   "lng": 141.1279,
+   "summary_ja": "米粉の団子をいくつかに萩の木片を仕込んで小豆がゆに入れ、木片入りの団子に当たると幸運を呼ぶとされる。12月24日の「大師講」に神棚へ供える県南地域の行事菓子で、今も子ども会などで作られる。",
+   "summary_en": "Rice-flour dumplings — a few with a hidden bush-clover twig — are dropped into sweet red-bean porridge; finding the twig is said to bring luck. Offered on December 24th for the Daishi-ko rite in southern Iwate, still made at children's gatherings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_9_iwate.html",
+     "title": "果報だんご 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "kaho-dango",
+     "to_slug": "ichinoseki-mochi-ryori",
+     "relation_type": "対比",
+     "basis": "ともに県南地域の年中行事に結びついた米・餅の菓子文化"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iwate-nishime",
+   "name_ja": "煮しめ",
+   "name_romaji": "Nishime",
+   "name_en": "Nishime — a soy-simmered assembly of seared tofu, root vegetables and dried mountain greens",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "",
+   "lat": 39.7036,
+   "lng": 141.1527,
+   "summary_ja": "焼き目をつけた豆腐や人参、こんにゃく、山菜、身欠きにしんを醤油とだしで煮る。冠婚葬祭や正月、盆に県内全域で作られる持ち寄り料理で、内陸部と沿岸部で使う乾物・干し魚が異なる。",
+   "summary_en": "Seared tofu, carrot, konjac, dried mountain greens and herring are simmered together in soy-seasoned dashi — a potluck dish made statewide for weddings, funerals, New Year and Obon, with dried goods varying between inland and coastal Iwate.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_10_iwate.html",
+     "title": "煮しめ 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "iwate-nishime",
+     "to_slug": "sukikonbu-no-nimono",
+     "relation_type": "対比",
+     "basis": "ともに乾物・保存食を醤油味で煮る岩手の常備菜"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ocha-mochi",
+   "name_ja": "お茶もち",
+   "name_romaji": "Ocha Mochi",
+   "name_en": "Ocha mochi — flattened rice dumplings on a skewer, brushed with sweet walnut sauce",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "盛岡市",
+   "lat": 39.7036,
+   "lng": 141.1527,
+   "summary_ja": "うるち米粉の団子を数個串に刺して平らにつぶし、蒸してからくるみだれをつけて焼く。かつて囲炉裏であぶって食べた盛岡周辺の餅菓子で、名は形が軍配うちわに似ることに由来すると伝わる。",
+   "summary_en": "Rice-flour dumplings are skewered, flattened, steamed and grilled with a walnut glaze — a Morioka-area treat once toasted over the hearth, its name said to come from a resemblance to a war-fan shape.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_11_iwate.html",
+     "title": "お茶もち 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "ocha-mochi",
+     "to_slug": "kirisensho",
+     "relation_type": "対比",
+     "basis": "ともに県央地域でくるみと醤油・砂糖を使う串・型の米粉菓子"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hizu-namasu",
+   "name_ja": "氷頭なます",
+   "name_romaji": "Hizu Namasu",
+   "name_en": "Hizu namasu — vinegared salmon head cartilage with daikon and carrot",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "宮古市",
+   "lat": 39.6412,
+   "lng": 141.955,
+   "summary_ja": "鮭の頭の軟骨部分「氷頭」を薄くスライスし、塩をして酢でしめてから大根とにんじんのなますと和える。一尾からわずかしか取れない珍味とされ、宮古湾に鮭が遡上する三陸沿岸で正月料理として伝わる。",
+   "summary_en": "Thin slices of cartilage from a salmon's head — \"hizu\" — are salted, cured in vinegar and tossed with daikon and carrot namasu — a rare delicacy from just one small part of the fish, a New Year dish where salmon run up Miyako Bay.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_12_iwate.html",
+     "title": "氷頭なます 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "hizu-namasu",
+     "to_slug": "kurumi-zoni",
+     "relation_type": "対比",
+     "basis": "ともに三陸沿岸北部・宮古地方の正月膳に欠かせない一品"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "imonoko-jiru",
+   "name_ja": "いもの子汁",
+   "name_romaji": "Imo no Ko Jiru",
+   "name_en": "Imo no ko jiru — a taro, chicken and root vegetable soup shared outdoors in autumn",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "北上市",
+   "lat": 39.2911,
+   "lng": 141.1132,
+   "summary_ja": "秋に旬を迎えるさといもを鶏肉や豆腐、大根、にんじんとともに醤油味で煮込む。さといも栽培に適した北上川流域の秋の味覚で、川岸に集まって鍋を囲む「芋煮会」が今も北上市二子地区で受け継がれている。",
+   "summary_en": "Autumn taro is simmered with chicken, tofu, daikon and carrot in a soy broth — a fall favorite of the taro-growing Kitakami river valley, still enjoyed at riverside \"imoni-kai\" gatherings around Kitakami's Futako district.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_13_iwate.html",
+     "title": "いもの子汁 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "imonoko-jiru",
+     "to_slug": "iwate-kenchin-jiru",
+     "relation_type": "対比",
+     "basis": "ともに秋冬に県内で親しまれる根菜中心の汁物"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hecchoko-dango",
+   "name_ja": "へっちょこだんご",
+   "name_romaji": "Hecchoko Dango",
+   "name_en": "Hecchoko dango — dimpled millet dumplings simmered in sweet red-bean soup",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "",
+   "lat": 40.2761,
+   "lng": 141.3011,
+   "summary_ja": "たかきび粉やもちあわ粉など雑穀の団子の中央をへこませ、甘い小豆汁で煮る。「うきうきだんご」とも呼ばれ、収穫後の労をねぎらう「庭じまい」の行事食として、米が育ちにくい県北で作られてきた。",
+   "summary_en": "Dumplings of millet and sorghum flour, each dimpled in the center, are simmered in a sweet red-bean soup — also called \"ukiuki dango,\" a harvest-close treat from rice-poor northern Iwate where they float to the surface as they cook.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_14_iwate.html",
+     "title": "へっちょこだんご／うきうきだんご 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "hecchoko-dango",
+     "to_slug": "shidami-dango",
+     "relation_type": "対比",
+     "basis": "ともに凶作に備えた雑穀・木の実を使う県北の行事だんごで、こちらは雑穀、しだみだんごはどんぐりが素材"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iwate-kamamochi",
+   "name_ja": "かまもち",
+   "name_romaji": "Kamamochi",
+   "name_en": "Kamamochi — a half-moon dumpling filled with walnut, miso and brown sugar",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "",
+   "lat": 39.7036,
+   "lng": 141.1527,
+   "summary_ja": "小麦粉を熱湯でこねた生地に味噌と黒砂糖、くるみを練った餡をのせ、半月形に閉じて茹でる。県内全域で作られる素朴なおやつで、地域により「ひゅうず」「かまだんご」など呼び名が異なる。",
+   "summary_en": "Wheat dough kneaded with hot water is folded around a filling of miso, brown sugar and walnut into a half-moon and boiled — a simple treat made across Iwate under regional names like \"hyuzu\" or \"kamadango.\"",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_15_iwate.html",
+     "title": "かまもち 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "miso"
+   ],
+   "relations": [
+    {
+     "from_slug": "iwate-kamamochi",
+     "to_slug": "kinkamochi",
+     "relation_type": "対比",
+     "basis": "くるみ・黒砂糖・味噌の餡を生地で包む半月形の菓子という共通点を持つ青森のきんかもちと対比できる"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "soba-kakke",
+   "name_ja": "そばかっけ",
+   "name_romaji": "Soba Kakke",
+   "name_en": "Soba kakke — buckwheat dough triangles simmered and dipped in garlic miso",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "",
+   "lat": 40.2761,
+   "lng": 141.3011,
+   "summary_ja": "そば粉を薄くのばして三角形に切り、大根や豆腐のだしで軽く煮てにんにく味噌をつけて食べる。南部藩がそば切りを禁じていた時代からの伝承料理とされ、切れ端「かけら」が名の由来という説がある。",
+   "summary_en": "Thin buckwheat dough is cut into triangles, briefly simmered with daikon and tofu, and dipped in garlic miso — a dish said to date to when the Nanbu domain banned cut soba, its name possibly from \"kakera,\" meaning scrap.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_16_iwate.html",
+     "title": "そばかっけ 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "soba-kakke",
+     "to_slug": "aomori-kakke",
+     "relation_type": "兄弟",
+     "basis": "南部藩によるそば切り禁止の逸話を共有する、青森・南部地方のかっけと同系の料理"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hina-manju",
+   "name_ja": "ひなまんじゅう",
+   "name_romaji": "Hina Manju",
+   "name_en": "Hina manju — rice-dough buns shaped like flowers and rabbits for the Girls' Festival",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "花巻市",
+   "lat": 39.3897,
+   "lng": 141.133,
+   "summary_ja": "米粉の生地に食紅で色をつけ小豆あんを包み、木型や竹串で花や桃、うさぎなど30種以上の形に整える。花巻市大迫町のひな人形めぐりの風習とともに伝わり、桃の節句に「きりせんしょ」と共に供えられる。",
+   "summary_en": "Rice-flour dough tinted with food coloring is wrapped around red-bean paste and shaped into flowers, peaches or rabbits using wooden molds — tied to a doll-viewing custom in Hanamaki's Ohasama area, offered alongside kirisensho at the Girls' Festival.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_17_iwate.html",
+     "title": "ひなまんじゅう 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "hina-manju",
+     "to_slug": "kirisensho",
+     "relation_type": "兄弟",
+     "basis": "出典に「3月3日の桃の節句にはきりせんしょと共に供える」とある対の菓子"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sanma-surimi-jiru",
+   "name_ja": "さんまのすり身汁",
+   "name_romaji": "Sanma no Surimi Jiru",
+   "name_en": "Sanma surimi jiru — a soup of hand-ground Pacific saury fish balls",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "大船渡市",
+   "lat": 39.0703,
+   "lng": 141.7133,
+   "summary_ja": "おろしたさんまをすり鉢でよくすって味噌や卵で味付けし、団子にして大根やねぎ、豆腐と煮込む。本州一のさんま水揚げを誇る岩手の三陸沿岸で、漁獲が増えた約60年前から定番の家庭料理となった。",
+   "summary_en": "Ground Pacific saury, worked in a mortar with miso and egg, is shaped into balls and simmered with daikon, scallion and tofu — a Sanriku coast staple that took hold about 60 years ago as saury catches grew, in a region that leads Honshu in landings.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_18_iwate.html",
+     "title": "さんまのすり身汁 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "sanma-surimi-jiru",
+     "to_slug": "ofunato-sanma",
+     "relation_type": "対比",
+     "basis": "同じ大船渡のさんまを使うが、こちらはすり身の汁物、既存項目のさんまらーめんはご当地ラーメンという対比"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ukogi-horohoro",
+   "name_ja": "うこぎのほろほろ",
+   "name_romaji": "Ukogi no Horohoro",
+   "name_en": "Ukogi no horohoro — a savory topping of hedge-shrub greens, pickled daikon and walnut",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "盛岡市",
+   "lat": 39.7036,
+   "lng": 141.1527,
+   "summary_ja": "生垣にも使われる「うこぎ」の若芽を茹でて刻み、味噌漬け大根とくるみを合わせてふりかけ状にする。かつて凶作時の救荒食材だったうこぎを活かす盛岡周辺の春の料理で、ご飯にのせて食べる。",
+   "summary_en": "Blanched, chopped young shoots of the hedge shrub ukogi are mixed with miso-pickled daikon and walnut into a savory topping — a spring dish from around Morioka that makes use of a plant once relied on in famine years, eaten spooned over rice.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_19_iwate.html",
+     "title": "うこぎのほろほろ 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "ukogi-horohoro",
+     "to_slug": "kurumi-doufu",
+     "relation_type": "対比",
+     "basis": "ともにくるみを味の決め手に使う岩手の家庭料理"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "azuki-batto",
+   "name_ja": "小豆ばっとう",
+   "name_romaji": "Azuki Batto",
+   "name_en": "Azuki batto — wide wheat noodles served in a sweet red-bean broth",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "",
+   "lat": 39.2749,
+   "lng": 141.8853,
+   "summary_ja": "小麦粉を寝かせて幅広のうどん状に切り、ざらめで甘く煮た小豆汁に合わせる。建前や庭じまいの祝いに三陸沿岸地域で作られ、お盆の七日目に7回食べると無病息災とする風習も残る。",
+   "summary_en": "Rested wheat dough cut into wide noodle strips is served in a sugar-sweetened red-bean broth — made along the Sanriku coast for building-raising and harvest celebrations, with a custom of eating it seven times on the seventh day of Obon for good health.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_20_iwate.html",
+     "title": "小豆ばっとう 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "azuki-batto",
+     "to_slug": "yanagi-batto",
+     "relation_type": "対比",
+     "basis": "同じ「ばっと」系の小麦粉生地料理だが、柳ばっとは醤油・みそ味の惣菜、小豆ばっとうは甘い小豆汁仕立て"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tofu-dengaku",
+   "name_ja": "豆腐田楽",
+   "name_romaji": "Tofu Dengaku",
+   "name_en": "Tofu dengaku — firm tofu skewered and grilled over charcoal with garlic miso",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "",
+   "lat": 40.2761,
+   "lng": 141.3011,
+   "summary_ja": "硬めに仕立てた木綿豆腐を串に刺し炭火であぶって、にんにく味噌をつけて食べる。豆腐消費量の多い岩手県北で手作り豆腐文化とともに育ち、季節ごとにふきのとうや山椒を効かせた味噌も使われる。",
+   "summary_en": "Firm cotton tofu is skewered and grilled over charcoal, then dipped in garlic miso — grown out of northern Iwate's homemade-tofu culture in a prefecture with high tofu consumption, its miso seasoned seasonally with butterbur sprout or sansho.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_21_iwate.html",
+     "title": "豆腐田楽 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "miso"
+   ],
+   "relations": [
+    {
+     "from_slug": "tofu-dengaku",
+     "to_slug": "kurumi-doufu",
+     "relation_type": "対比",
+     "basis": "出典がともに触れる、岩手県の豆腐消費量の多さを背景に持つ料理同士"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "donko-jiru",
+   "name_ja": "どんこ汁",
+   "name_romaji": "Donko Jiru",
+   "name_en": "Donko jiru — a miso soup of a mild-fleshed rock cod, valued for its rich liver",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "大船渡市",
+   "lat": 39.0703,
+   "lng": 141.7133,
+   "summary_ja": "三陸沿岸で獲れる白身魚「どんこ」のぶつ切りと肝を大根やじゃがいもとともに味噌仕立てで煮込む。冬に脂がのる魚で、恵比寿講には尾頭付きで神前に供え豊漁を祈る習わしが気仙地方に残る。",
+   "summary_en": "Chunks of donko — a mild Sanriku rock cod prized for its rich liver — are simmered in miso with daikon and potato — fattiest in winter, and still offered whole at a fall Ebisu rite in the Kesen area to pray for a good catch.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_23_iwate.html",
+     "title": "どんこ汁 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "donko-jiru",
+     "to_slug": "ofunato-sanma",
+     "relation_type": "対比",
+     "basis": "同じ三陸沿岸の魚料理として、大船渡のさんま文化と並ぶ冬のどんこ汁"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iwate-kenchin-jiru",
+   "name_ja": "けんちん汁",
+   "name_romaji": "Kenchin Jiru",
+   "name_en": "Iwate-style kenchin jiru — root vegetables and crumbled tofu fried before simmering",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "",
+   "lat": 40.2761,
+   "lng": 141.3011,
+   "summary_ja": "にんじんや大根、ごぼうと硬めの豆腐を油でそぼろ状に炒めてから醤油だしで煮込む。発祥とされる神奈川など各地に伝わるけんちん汁だが、岩手では肉を使わず豆腐をよく炒めるのが特徴で、小正月の女性への労いに大量に作られた。",
+   "summary_en": "Carrot, daikon and burdock are fried with crumbled firm tofu until it turns granular, then simmered in soy dashi — kenchin jiru is made in several regions, but Iwate's version skips meat and fries the tofu hard, once made in bulk to spare women's labor at the Little New Year.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_24_iwate.html",
+     "title": "けんちん汁 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "iwate-kenchin-jiru",
+     "to_slug": "imonoko-jiru",
+     "relation_type": "対比",
+     "basis": "ともに岩手の根菜中心の汁物で、けんちん汁は油で炒めてから煮る点が特徴"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mizu-tataki",
+   "name_ja": "みずたたき（とろろ）",
+   "name_romaji": "Mizu Tataki (Tororo)",
+   "name_en": "Mizu tataki — pounded wood nettle stem dressed with miso and soy sauce",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "",
+   "lat": 39.7036,
+   "lng": 141.1527,
+   "summary_ja": "山菜「みず」の赤い根元を棒でたたき、包丁で粘りが出るまで刻んで味噌やみりん、醤油で和える。すりつぶせば「みずとろろ」とも呼ばれ、奥羽・北上山系の沢沿いで初夏に採れる山の幸を生かした料理。",
+   "summary_en": "The reddish base of the wood nettle \"mizu\" is pounded and chopped until it turns sticky, then dressed with miso, mirin and soy sauce — called \"mizu tororo\" when ground fine, an early-summer dish from the streamsides of Iwate's mountain ranges.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_25_iwate.html",
+     "title": "みずたたき（とろろ） 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "mizu-tataki",
+     "to_slug": "mizu-hoya",
+     "relation_type": "対比",
+     "basis": "同じ山菜「ミズ」を使うが、青森のミズとホヤの水物はホヤと合わせた夏の和え物、こちらは味噌だれで叩く一品"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hoya-sunomono",
+   "name_ja": "天然ほやの酢の物",
+   "name_romaji": "Tennen Hoya no Sunomono",
+   "name_en": "Wild sea pineapple in vinegar — a diver-harvested delicacy from the Sanriku coast",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "洋野町",
+   "lat": 40.3667,
+   "lng": 141.8069,
+   "summary_ja": "殻と内臓を取ったホヤをきゅうりとともに二杯酢で和えるだけの一皿。水深20〜30mの海底に生きる天然ホヤは、洋野町に伝わる伝統の潜水技術「南部潜り」の海女・海士が一つずつ手で採取する貴重な食材である。",
+   "summary_en": "Cleaned sea pineapple is dressed simply with cucumber in a two-part vinegar sauce — wild specimens live 20 to 30 meters down and are hand-harvested one by one by divers using \"Nanbu-kaduri,\" a century-old diving technique passed down in Hirono.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_26_iwate.html",
+     "title": "天然ほやの酢の物 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "hoya-sunomono",
+     "to_slug": "mizu-hoya",
+     "relation_type": "対比",
+     "basis": "同じホヤを使う青森の「ミズとホヤの水物」はミズと合わせるが、こちらはきゅうりと二杯酢で和える"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kurumi-doufu",
+   "name_ja": "くるみ豆腐",
+   "name_romaji": "Kurumi Tofu",
+   "name_en": "Kurumi tofu — a walnut and kudzu jelly served as a meat-free sashimi substitute",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "奥州市",
+   "lat": 39.1428,
+   "lng": 141.1275,
+   "summary_ja": "すって漉いたくるみに砂糖とくず粉を加えて練り、固めて刺身の代わりに切り分ける。奥州市江刺地方の精進料理で、味噌としょうが汁を合わせた甘めのたれをかけて食べる。地元でとれる鬼ぐるみを使う。",
+   "summary_en": "Ground, strained walnut is thickened with sugar and kudzu starch, set firm and sliced in place of raw fish — a shojin dish from Oshu's Esashi area, served with a sweet miso-and-ginger sauce, made with local \"oni-gurumi\" walnuts.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_27_iwate.html",
+     "title": "くるみ豆腐 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "kurumi-doufu",
+     "to_slug": "ocha-mochi",
+     "relation_type": "対比",
+     "basis": "ともにくるみだれ・くるみ豆腐を使う岩手のくるみ文化を代表する一品"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shidami-dango",
+   "name_ja": "しだみだんご",
+   "name_romaji": "Shidami Dango",
+   "name_en": "Shidami dango — dumplings made from leached, dried acorns",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "久慈市",
+   "lat": 40.1911,
+   "lng": 141.7742,
+   "summary_ja": "どんぐり（しだみ）を茹でて乾燥させ、木灰であく抜きしてつぶし、砂糖を加えて団子にする。凶作でも実る備蓄食料として県北・奥羽山系地域で重宝され、久慈地方の団体が今もレシピを伝えている。",
+   "summary_en": "Acorns are boiled, dried, leached with wood-ash lye and mashed, then sweetened into dumplings — once a famine-proof staple in northern Iwate's mountain districts, its recipe still kept alive by a preservation group around Kuji.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_28_iwate.html",
+     "title": "しだみだんご 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [],
+   "relations": [
+    {
+     "from_slug": "shidami-dango",
+     "to_slug": "hecchoko-dango",
+     "relation_type": "対比",
+     "basis": "ともに凶作に備えた雑穀・木の実を使う県北の行事だんご"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kurumi-zoni",
+   "name_ja": "くるみ雑煮",
+   "name_romaji": "Kurumi Zoni",
+   "name_en": "Kurumi zoni — New Year mochi soup served alongside a sweet walnut dipping sauce",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "宮古市",
+   "lat": 39.6412,
+   "lng": 141.955,
+   "summary_ja": "大根や人参、焼き豆腐を醤油だしで煮た雑煮に焼き餅を入れ、汁ごと食べるほか、別皿のくるみだれにつけて味を変えて楽しむ。米が育ちにくい沿岸部で餅を大切に味わう工夫として、宮古地方の正月に受け継がれる。",
+   "summary_en": "Grilled mochi sits in a soy-dashi zoni of daikon, carrot and grilled tofu, eaten both straight from the bowl and dipped in a separate sweet walnut sauce for a second flavor — a way of savoring scarce rice cake on the New Year table around Miyako.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_29_iwate.html",
+     "title": "くるみ雑煮 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "kurumi-zoni",
+     "to_slug": "hizu-namasu",
+     "relation_type": "対比",
+     "basis": "ともに宮古地方の正月膳を代表する一品"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nuppei-jiru",
+   "name_ja": "ぬっぺい汁",
+   "name_romaji": "Nuppei Jiru",
+   "name_en": "Nuppei jiru — a thickened tofu and mushroom soup for Buddhist observances",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "岩手県",
+   "origin_city": "",
+   "lat": 39.7036,
+   "lng": 141.1527,
+   "summary_ja": "豆腐と干ししいたけ、ねぎを醤油味の汁で煮て、すりおろした長芋でとろみをつける。片栗粉でとろみをつける同系の「八杯汁」もあり、県全域で冠婚葬祭や法事の精進料理として作られてきた。",
+   "summary_en": "Tofu, dried shiitake and scallion are simmered in a soy broth thickened with grated mountain yam — a close relative of \"hachihai-jiru,\" which uses potato starch instead, made statewide as a Buddhist meat-free dish for rites and ceremonies.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_30_iwate.html",
+     "title": "ぬっぺい汁／八杯汁 岩手県",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "tags": [
+    "ceremonial"
+   ],
+   "relations": [
+    {
+     "from_slug": "nuppei-jiru",
+     "to_slug": "tofu-dengaku",
+     "relation_type": "対比",
+     "basis": "ともに豆腐を主役に据えた岩手の精進料理・行事食"
+    }
+   ],
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: 28_22_iwate(うす焼き)=all-items-ja.txtの既存slug usu-yaki(うす焼き、岩手県)と同一のため作らず。 / 棚を変えた行: 28_7_iwate柳ばっと(homestyle→hotpot・汁物のため), 28_21_iwate豆腐田楽(homestyle→grilled・炭火串焼きのため), 28_26_iwate天然ほやの酢の物(homestyle→raw・生食のため)。 / 要判断: 28_4_iwate(がんづき)は宮城県にも同名の郷土菓子があると出典に明記されているため、将来の重複を避けslugに地名を付けた。28_1_iwate(ひっつみ)・28_8_iwate(豆しとぎ)は青森県側と同名のため両県ともslugに地名を付けた。28_24_iwate(けんちん汁)は発祥とされる神奈川など他県にも同名料理があるためslugに地名を付けた。28_6_iwate(伝統餅料理)はMAFF原題が単一料理名でなく約300通りの餅の食べ方の総称のため、「一関の餅本膳」文化として1項目に集約した。 / iwate-hittsumi: 名前が「ひっつみ／ひっつみ汁」と併記のため主名を「ひっつみ」とし別名はsummaryに記載。青森県にも同名料理があるためslugに地名を付けた / iwate-ganzuki: 岩手県以外に宮城県の郷土菓子でもあると出典にあるため、将来の重複を避けslugに地名を付けた / ichinoseki-mochi-ryori: MAFF原題は「伝統餅料理」で単一料理ではなく300通りの餅の食べ方の総称。一関の「餅本膳」文化として1項目にまとめた / iwate-mame-shitogi: 青森県にも同名「豆しとぎ」があるため slug を地名接頭にした / hecchoko-dango: 名前が「へっちょこだんご／うきうきだんご」と併記のため主名を「へっちょこだんご」とし別名はsummaryに記載 / tofu-dengaku: 棚をhomestyle→grilledに変更（串に刺して炭火であぶる調理法が明確なため） / iwate-kenchin-jiru: 神奈川などの他県にも同名の郷土料理があるため、混同を避けslugに地名を付けた / hoya-sunomono: 棚をhomestyle→rawに変更（加熱せず生のホヤを酢で和える調理法のため） / nuppei-jiru: 名前が「ぬっぺい汁／八杯汁」と併記のため主名を「ぬっぺい汁」とし別名（八杯汁）はsummaryに記載"
+}
