@@ -1,0 +1,908 @@
+{
+ "items": [
+  {
+   "slug": "jako-gouko",
+   "name_ja": "じゃこごうこ",
+   "name_romaji": "Jako Gouko",
+   "name_en": "Jako gouko — old pickled Senshu mizunasu simmered with tiny dried shrimp",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "",
+   "lat": 34.4634,
+   "lng": 135.3723,
+   "summary_ja": "ぬか床で数ヶ月漬け込んだ泉州水なすの古漬けを塩抜きし、海老じゃことともにだし・醤油で炊く常備菜。「じゃこ」は小海老、「こうこ」は漬物を指す泉州の言葉で、じゃこなすとも呼ばれるという。",
+   "summary_en": "Old-pickled Senshu mizunasu eggplant, aged for months in a rice-bran bed, is desalted and simmered in dashi and soy sauce with tiny dried shrimp — an everyday side. In local speech jako means the shrimp and gouko means pickles, and the dish is said to go by jako-nasu as well.",
+   "sources": [
+    {
+     "title": "じゃこごうこ 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_2_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "jako-gouko",
+     "to_slug": "goyori-mame",
+     "relation_type": "兄弟",
+     "basis": "ともに大阪湾でとれる小魚・小海老の乾物を大豆や野菜と炊き合わせる大阪の常備菜"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "fermented"
+   ],
+   "notes": "台帳genre_hint欄は空欄だが、原料が漬物の古漬けであるため一見tsukemono該当に見える。ただし本品自体はじゃこと炊き合わせた惣菜でありall-items-ja.txtに同名項目が無いため作成対象とした。伝承地域=泉州地域のため中心都市の岸和田市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "osaka-barazushi",
+   "name_ja": "ばらずし",
+   "name_romaji": "Osaka Barazushi",
+   "name_en": "Osaka barazushi — a scattered sushi with vegetables and dried shiitake mixed into the rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "大阪府",
+   "origin_city": "",
+   "lat": 34.6937,
+   "lng": 135.5023,
+   "summary_ja": "ちりめんじゃこや高野豆腐、れんこん、干ししいたけなどを刻んですし飯に混ぜ込み、錦糸卵を散らす大阪の家庭寿司。関東の「ちらしずし」が具をのせるのに対し、関西では具を飯に混ぜ込む点が異なるとされる。",
+   "summary_en": "Dried baby sardines, freeze-dried tofu, lotus root, and dried shiitake are chopped and mixed right into the sushi rice, then topped with shredded egg — a home-style sushi of Osaka. Where Kanto's chirashizushi lays ingredients on top, the Kansai style is said to fold them into the rice itself.",
+   "sources": [
+    {
+     "title": "ばらずし 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_3_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "osaka-barazushi",
+     "to_slug": "tango-barazushi",
+     "relation_type": "対比",
+     "basis": "ともに「ばらずし」と呼ばれるが、大阪は具材を刻んですし飯に混ぜ込む五目ずし、丹後はサバのおぼろをすし飯の上に散らす押し寿司"
+    }
+   ],
+   "tags": [
+    "egg",
+    "ceremonial"
+   ],
+   "notes": "台帳のexisting_slug=okayama-barazushi(low)を確認。本文は岡山発祥説（質素倹約への反発）に触れつつも、大阪独自の「具をすし飯に混ぜ込む」スタイルと「翌日は蒸しずしにする」食習慣を明記しているため別物と判断し作成。伝承地域=大阪府内全域のため大阪市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kujira-harihari-nabe",
+   "name_ja": "鯨のハリハリ鍋",
+   "name_romaji": "Kujira no Harihari Nabe",
+   "name_en": "Kujira no harihari nabe — whale meat and mizuna hot pot",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "大阪市",
+   "lat": 34.6656,
+   "lng": 135.5058,
+   "summary_ja": "かつお節などの出汁に醤油を合わせた鍋に、水菜と鯨肉をたっぷり入れて煮る冬の鍋。水菜を噛む「ハリハリ」という音が名の由来とされ、大阪・千日前で1967年に創業した鯨料理店が発祥と伝わる。",
+   "summary_en": "Whale meat and plenty of mizuna simmer in a soy-seasoned bonito dashi — a winter hot pot. The dish's name is said to come from the crisp 'hari-hari' sound of biting into the mizuna, and it traces to a whale-meat restaurant founded in Osaka's Sennichimae in 1967.",
+   "sources": [
+    {
+     "title": "鯨のハリハリ鍋 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_4_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kujira-harihari-nabe",
+     "to_slug": "semba-jiru",
+     "relation_type": "対比",
+     "basis": "ともに大阪の始末の料理・下町の鍋物文化に連なるが、ハリハリ鍋は鯨肉と水菜の鍋、船場汁は塩鯖のあらと大根の潮汁"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=大阪府内全域だが、本文が発祥店の所在地として千日前（大阪市中央区）を明記しているため、その座標を採用しorigin_cityは大阪市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "battera",
+   "name_ja": "バッテラ",
+   "name_romaji": "Battera",
+   "name_en": "Battera — vinegared mackerel pressed sushi wrapped in kelp",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "大阪府",
+   "origin_city": "大阪市",
+   "lat": 34.6829,
+   "lng": 135.5019,
+   "summary_ja": "薄切りの〆鯖と白板昆布を木枠で押し固める箱寿司。南船場の「寿司常」が明治24年に考案し、当初使ったコノシロの寿司の形が小舟に似ていたことからポルトガル語で小舟を意味する名がついたと伝わる。",
+   "summary_en": "Thin slices of vinegared mackerel and white kelp sheet are pressed together in a wooden mold. A sushi shop in Minami-Senba is said to have devised it in 1891, naming it after the Portuguese word for a small boat because the original version, made with konoshiro, resembled one.",
+   "sources": [
+    {
+     "title": "バッテラ 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_5_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "battera",
+     "to_slug": "hako-zushi",
+     "relation_type": "派生",
+     "basis": "バッテラは明治期に大阪で考案された箱寿司の一種で、当初はコノシロ、のちに鯖を使う四角い押し寿司として定着した"
+    }
+   ],
+   "tags": [
+    "kelp_cured"
+   ],
+   "notes": "伝承地域=大阪府内全域だが、本文が発祥店の所在地として南船場を明記しているため、その座標を採用しorigin_cityは大阪市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "goyori-mame",
+   "name_ja": "ごより豆",
+   "name_romaji": "Goyori Mame",
+   "name_en": "Goyori mame — soybeans simmered with sun-dried leftover small fish",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "",
+   "lat": 34.4634,
+   "lng": 135.3723,
+   "summary_ja": "大阪湾でとれた小魚・えびを天日干しした「ごより」と大豆を、みりんや醤油で甘辛く炊く常備菜。売り物にならず後に残った雑魚を指す「後寄り」が名の由来とされ、河内地域では「じゃこ豆」と呼ばれる。",
+   "summary_en": "Goyori, small fish and shrimp from Osaka Bay left over after sun-drying and sold, are simmered with soybeans in mirin and soy sauce — an everyday side dish. The name is said to come from 'those left over,' and in the Kawachi area the dish goes by jako-mame instead.",
+   "sources": [
+    {
+     "title": "ごより豆/じゃこ豆 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_6_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "goyori-mame",
+     "to_slug": "jako-gouko",
+     "relation_type": "兄弟",
+     "basis": "ともに大阪湾でとれる小魚・小海老の乾物を大豆や野菜と炊き合わせる大阪の常備菜"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "name_ja: 台帳の「ごより豆/じゃこ豆」から主名をごより豆とした。伝承地域=泉州地域～河内地域のため先頭の泉州地域の中心都市・岸和田市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "osaka-shiromiso-zoni",
+   "name_ja": "白味噌雑煮",
+   "name_romaji": "Osaka Shiromiso Zoni",
+   "name_en": "Osaka shiromiso zoni — round mochi in a white miso soup with root vegetables",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "",
+   "lat": 34.6937,
+   "lng": 135.5023,
+   "summary_ja": "丸餅と輪切りの大根・人参、里芋を白味噌汁で仕立てる正月の雑煮。丸い具材には円満の願いが込められ、元日は白味噌、二日目は醤油仕立てに変える家庭も多く、「飽きない」大阪らしい風習と語られる。",
+   "summary_en": "Round mochi simmers with sliced daikon, carrot, and taro in a white miso soup for New Year's. The round-cut vegetables are said to carry wishes for harmony, and many households switch to a soy-based soup on the second day — a custom framed as fitting for a city that prizes never growing 'bored.'",
+   "sources": [
+    {
+     "title": "白味噌雑煮 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_7_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "osaka-shiromiso-zoni",
+     "to_slug": "kyoto-shiromiso-zoni",
+     "relation_type": "対比",
+     "basis": "ともに白味噌仕立ての雑煮だが、大阪は里芋・人参を、京都は頭芋・大根を具に使う点が異なる"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=大阪府内全域のため大阪市を代表点とした。同名の雑煮が京都府にも別項目としてあるためslugを<地名>-<料理名>とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "akaneko",
+   "name_ja": "あかねこ",
+   "name_romaji": "Akaneko",
+   "name_en": "Akaneko — sticky rice and wheat mochi dusted with sweet soybean flour for the mid-summer rite",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "",
+   "lat": 34.6267,
+   "lng": 135.6001,
+   "summary_ja": "蒸したもち米と小麦粉をついた餅に砂糖ときな粉をまぶす「半夏生もち」。田植えを終えた感謝と豊作祈願で食べられ、皮ごと挽いた小麦粉で餅が褐色になり、猫の丸い背中に似ることから名がついたと伝わる。",
+   "summary_en": "Steamed sticky rice pounded with wheat flour is dusted with sugar and soybean flour — also called hangesho mochi, for the rite marking the end of rice planting. The whole-ground wheat flour once left the mochi brownish, said to resemble a cat's round back and give the dish its name.",
+   "sources": [
+    {
+     "title": "あかねこ 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_8_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "akaneko",
+     "to_slug": "osaka-decchi-yokan",
+     "relation_type": "対比",
+     "basis": "ともに大阪の農閑期・年中行事にまつわる素朴な餅菓子だが、あかねこは半夏生の田植え祝い、丁稚ようかんは冬の菓子"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "棚(shelf)を台帳のhomestyleからsweetsに変更した。もち米と小麦粉をついた餅に砂糖ときな粉をまぶす菓子であるため。伝承地域=中河内～南河内のため代表都市として八尾市を採用（先頭の中河内地域の中心都市）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hansuke-dofu",
+   "name_ja": "半助豆腐",
+   "name_romaji": "Hansuke Dofu",
+   "name_en": "Hansuke dofu — grilled eel heads simmered with tofu and green onion",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "大阪市",
+   "lat": 34.6937,
+   "lng": 135.5023,
+   "summary_ja": "蒲焼きのたれが染みた鰻の頭「半助」を、焼き豆腐や葉ねぎとだし汁で煮込む大阪の惣菜。安価だった鰻の頭を無駄なく使い切る「始末の料理」の精神を映す一品で、落語「遊山船」にも登場するという。",
+   "summary_en": "Hansuke, grilled eel heads left over from making unagi kabayaki and rich with its glaze, simmer with grilled tofu and green onion in dashi — an Osaka home dish. It is said to embody the city's frugal 'shimatsu' spirit of using every part, and even appears in the rakugo tale Yusan-bune.",
+   "sources": [
+    {
+     "title": "半助豆腐 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_9_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hansuke-dofu",
+     "to_slug": "hamokawa-zakuzaku",
+     "relation_type": "兄弟",
+     "basis": "ともに主材料の余った部位（鰻の頭・鱧の皮）を使い切る大阪の「始末の料理」"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=大阪市内（単一）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "wakagobo-itameni",
+   "name_ja": "若ごぼうの炒め煮",
+   "name_romaji": "Wakagobo no Itameni",
+   "name_en": "Wakagobo no itameni — Yao's leaf burdock stir-simmered with fried tofu",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "八尾市",
+   "lat": 34.6267,
+   "lng": 135.6001,
+   "summary_ja": "根も茎も葉も食べられる八尾市特産の葉ごぼう「若ごぼう」を、油揚げとさっと炒めてだし・醤油で煮る。早春に収穫される春告げ野菜で、江戸時代から名産として栽培が広まったと伝わる。",
+   "summary_en": "Wakagobo, a leaf burdock specialty of Yao whose root, stalk, and leaves are all eaten, is quickly stir-fried with fried tofu and simmered in dashi and soy sauce. Harvested in early spring as a herald of the season, it is said to have spread as a local specialty since the Edo period.",
+   "sources": [
+    {
+     "title": "若ごぼうの炒め煮 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_10_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "wakagobo-itameni",
+     "to_slug": "beni-zuiki-taitan",
+     "relation_type": "兄弟",
+     "basis": "ともに大阪の伝統野菜（若ごぼう・紅ずいき）を油揚げと炊き合わせる家庭のおかず"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=河内地域（八尾市、単一）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hamokawa-zakuzaku",
+   "name_ja": "鱧皮ザクザク",
+   "name_romaji": "Hamokawa Zakuzaku",
+   "name_en": "Hamokawa zakuzaku — grilled pike-conger skin and cucumber in sweet vinegar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "大阪市",
+   "lat": 34.6937,
+   "lng": 135.5023,
+   "summary_ja": "かまぼこ用にハモの身をこそぎ取った後に残る皮を炙り、きゅうりと甘酢で和える夏の酢の物。名前の「ザクザク」はきゅうりを切る音とも食べる音ともいわれ、天神祭の食卓に並ぶ大阪の始末料理という。",
+   "summary_en": "The skin left over after pike-conger flesh is scraped away for kamaboko is lightly grilled, then tossed with cucumber in sweet vinegar — a summer dish. Its 'zaku-zaku' name is said to echo either the sound of slicing the cucumber or of eating it, and it appears on tables during Tenjin Matsuri.",
+   "sources": [
+    {
+     "title": "鱧皮ザクザク 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_11_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hamokawa-zakuzaku",
+     "to_slug": "hansuke-dofu",
+     "relation_type": "兄弟",
+     "basis": "ともに主材料の余った部位（鱧の皮・鰻の頭）を使い切る大阪の「始末の料理」"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "notes": "伝承地域=大阪市（単一）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kurumi-mochi",
+   "name_ja": "くるみ餅",
+   "name_romaji": "Kurumi Mochi",
+   "name_en": "Kurumi mochi — mochi wrapped in a sweet green soybean paste, a Sakai confection",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "堺市",
+   "lat": 34.5733,
+   "lng": 135.483,
+   "summary_ja": "枝豆や青大豆をすりつぶしたうぐいす色の餡で餅を「くるんで」つくる堺の銘菓。クルミは使わない。海外貿易で栄えた戦国期の堺で生まれ、茶人・千利休の街らしく茶菓子として親しまれてきたという。",
+   "summary_en": "Mochi is wrapped, or 'kurunde,' in a pale green paste of ground edamame or green soybeans — a confection of Sakai despite the name suggesting walnuts, which it does not contain. Born in Sakai's trading heyday, it is said to have long served as a tea sweet in the hometown of tea master Sen no Rikyu.",
+   "sources": [
+    {
+     "title": "くるみ餅 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_12_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kurumi-mochi",
+     "to_slug": "osaka-sakura-mochi",
+     "relation_type": "対比",
+     "basis": "ともに大阪の代表的な餅菓子だが、くるみ餅は枝豆餡で餅をくるむ堺の茶菓子、桜餅は道明寺粉の餅であんを包む春の菓子"
+    }
+   ],
+   "tags": [
+    "meal_ender"
+   ],
+   "notes": "伝承地域=泉州地方（堺市、単一）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ehomaki",
+   "name_ja": "恵方巻き",
+   "name_romaji": "Ehomaki",
+   "name_en": "Ehomaki — a thick sushi roll eaten whole while facing the year's lucky direction",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "大阪府",
+   "origin_city": "",
+   "lat": 34.6937,
+   "lng": 135.5023,
+   "summary_ja": "節分の日、その年の縁起の良い方角「恵方」を向いて無言で丸かぶりする太巻き寿司。起源は定かでないが、花街の遊びや大阪・船場の商家が商売繁盛を願っておこなったなど諸説が伝わっている。",
+   "summary_en": "A thick sushi roll eaten whole and in silence while facing the year's auspicious direction on Setsubun, the last day of winter. Its origin is not settled, but theories passed down include a game among the geisha quarters and a prayer for prosperity by Osaka's Semba merchant houses.",
+   "sources": [
+    {
+     "title": "恵方巻き／巻きずし 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_13_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ehomaki",
+     "to_slug": "maki-zushi",
+     "relation_type": "派生",
+     "basis": "恵方巻きは節分に無言で丸かぶりする太巻き寿司で、巻き寿司そのものに大阪発祥説を含む複数の由来説が伝わる"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "egg"
+   ],
+   "notes": "台帳のexisting_slug=maki-zushi(medium)を確認。巻き寿司自体は既存だが、節分に恵方を向いて無言で丸かぶりするという行事食としての性格が明確に異なるため別項目として作成。本文にある「1970年代のり業界の販売促進」「1990年代のコンビニ普及」という全国への普及史は、ブリーフの禁止事項（普及史を書かない）に従いsummaryから除外した。伝承地域=船場、大阪府内全域だが起源は複数説あるため広域の大阪市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "semba-jiru",
+   "name_ja": "船場汁",
+   "name_romaji": "Semba Jiru",
+   "name_en": "Semba jiru — a clear soup of salted mackerel bones and daikon",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "大阪市",
+   "lat": 34.6829,
+   "lng": 135.5019,
+   "summary_ja": "塩鯖のあらと大根を昆布出汁で煮て塩で味をととのえる潮汁。「船場煮」とも呼ばれ、奉公人を多く抱えた問屋街・船場の質素な商家料理として、魚の身をとった後のあらまで無駄なく使ったと伝わる。",
+   "summary_en": "Salted mackerel bones and daikon simmer in kelp dashi, seasoned simply with salt — a clear soup also called semba-ni. It is said to descend from the frugal fare of Semba's wholesale merchant houses, which fed many live-in workers and let nothing of the fish go to waste.",
+   "sources": [
+    {
+     "title": "船場汁 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_16_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "semba-jiru",
+     "to_slug": "kujira-harihari-nabe",
+     "relation_type": "対比",
+     "basis": "ともに大阪の始末の料理・下町の鍋物文化に連なるが、船場汁は塩鯖のあらと大根の潮汁、ハリハリ鍋は鯨肉と水菜の鍋"
+    }
+   ],
+   "tags": [
+    "kelp"
+   ],
+   "notes": "伝承地域=大阪市（単一、本文も船場を明記）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "osaka-decchi-yokan",
+   "name_ja": "丁稚ようかん",
+   "name_romaji": "Decchi Yokan",
+   "name_en": "Osaka decchi yokan — a lightly-sweetened kanten yokan made with thread agar",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "",
+   "lat": 34.7815,
+   "lng": 135.4694,
+   "summary_ja": "北摂地域特産の糸寒天でこしあんを固める、砂糖控えめの羊羹。練り羊羹より煮詰めが甘く一人前に満たないことから丁稚に見立てた説と、丁稚が里帰りの土産にしたという説があり、冬限定でつくられてきた。",
+   "summary_en": "Sweet red bean paste is set with thread agar from the Hokusetsu area into a lightly sugared yokan. One theory ties its name to an apprentice, or decchi, not fully 'boiled down' like proper neri-yokan; another says apprentices carried it home as a gift. It is said to be made only in winter.",
+   "sources": [
+    {
+     "title": "丁稚ようかん 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_18_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "osaka-decchi-yokan",
+     "to_slug": "decchi-yokan",
+     "relation_type": "対比",
+     "basis": "同じ「でっち羊かん」の系譜だが、大阪・北摂は糸寒天でつくる寒天羊羹、福井のものは製法が異なる"
+    }
+   ],
+   "tags": [
+    "meal_ender"
+   ],
+   "notes": "台帳にexisting_slug記載は無いが、all-items-ja.txtに同音の既存item「decchi-yokan」（でっち羊かん、福井県）があるため、既存zoni系スラグの命名慣例に合わせslugをosaka-decchi-yokanとした。伝承地域=北摂地域のため代表都市として豊中市を採用（北摂8市町のうち地理的に中央寄り。単一の行政中心地は無いため要判断）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "renkon-mochi",
+   "name_ja": "蓮根餅",
+   "name_romaji": "Renkon Mochi",
+   "name_en": "Renkon mochi — lotus root stuffed with red-and-white sticky rice and steamed",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "門真市",
+   "lat": 34.7377,
+   "lng": 135.5847,
+   "summary_ja": "門真特産の蓮根「門真蓮根」の穴に紅白のもち米を詰めて蒸す、祝いの日の一品。穴が開いていることから「将来を見通せる」縁起物とされ、輪切りにしてきな粉やあんこ、からし醤油などで食べるという。",
+   "summary_en": "Red and white sticky rice is packed into the holes of Kadoma renkon, a local lotus root, and steamed — a dish for celebrations. The root's holes are said to make it a lucky charm for 'seeing what lies ahead,' and slices are eaten with soybean flour, sweet bean paste, or mustard soy sauce.",
+   "sources": [
+    {
+     "title": "蓮根餅 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_19_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "renkon-mochi",
+     "to_slug": "osaka-shiromiso-zoni",
+     "relation_type": "対比",
+     "basis": "ともに縁起を担ぐ大阪の正月・祝いの料理だが、蓮根餅は紅白のもち米を詰めた蒸し菓子、白味噌雑煮は白味噌の汁物"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=門真市（単一）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gaccho-karaage",
+   "name_ja": "がっちょの唐揚げ",
+   "name_romaji": "Gaccho no Karaage",
+   "name_en": "Gaccho no karaage — deep-fried Osaka Bay dragonet, bones and all",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "大阪府",
+   "origin_city": "",
+   "lat": 34.4634,
+   "lng": 135.3723,
+   "summary_ja": "大阪湾でよくとれる体長10〜20cmほどの小魚「がっちょ」（ネズミゴチなど）を松葉おろしにして片栗粉をまぶし揚げる。骨まで丸ごと食べられ、昔からおやつや酒肴として親しまれてきた泉州の特産という。",
+   "summary_en": "Gaccho, small fish of about 10-20cm from Osaka Bay including dragonet species, are filleted matsuba-style, dusted in potato starch, and deep-fried whole, bones included. Long enjoyed as a snack or with drinks, they are said to be a specialty of the Senshu coast.",
+   "sources": [
+    {
+     "title": "がっちょの唐揚げ 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_21_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gaccho-karaage",
+     "to_slug": "hamo-nabe",
+     "relation_type": "対比",
+     "basis": "ともに大阪湾でとれる魚を使う泉州地域の郷土料理だが、がっちょは唐揚げ、ハモは玉ねぎ・じゃがいもと炊く鍋物に仕立てる"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "台帳のexisting_slug=karaage(low)を確認。既存karaageは一般的な唐揚げ（鶏肉等）と見られ、がっちょ（ネズミゴチ等の大阪湾の小魚）は使用食材が明確に異なるため別物と判断し作成。伝承地域=泉州地域のため中心都市の岸和田市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "odamaki-mushi",
+   "name_ja": "小田巻き蒸し",
+   "name_romaji": "Odamaki Mushi",
+   "name_en": "Odamaki mushi — udon noodles submerged in a large savory egg custard",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "大阪市",
+   "lat": 34.6829,
+   "lng": 135.5019,
+   "summary_ja": "うどんを具にした大ぶりの茶碗蒸しで、大阪発祥とされる。麻糸を巻いた「苧環（おだまき）」にうどんが見立てられて名がついたとされ、卵が貴重だった時代、船場の商家でハレの日のご馳走とされたという。",
+   "summary_en": "Udon noodles are submerged in a generous savory egg custard, a dish said to have originated in Osaka. Its name is said to liken the coiled noodles to odamaki, a spool of wound thread, and it was once treated as a celebratory feast in Semba's merchant houses when eggs were still a luxury.",
+   "sources": [
+    {
+     "title": "小田巻き蒸し 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_22_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "odamaki-mushi",
+     "to_slug": "ehomaki",
+     "relation_type": "対比",
+     "basis": "ともに大阪・船場の商家文化に結びつく行事性のある料理だが、小田巻き蒸しは冠婚葬祭の茶碗蒸し、恵方巻きは節分の巻き寿司"
+    }
+   ],
+   "tags": [
+    "egg",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=大阪市（単一、本文も船場を明記）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "dote-yaki",
+   "name_ja": "どて焼き",
+   "name_romaji": "Dote Yaki",
+   "name_en": "Dote yaki — beef tendon slow-simmered in a bank of miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "大阪市",
+   "lat": 34.6524,
+   "lng": 135.5064,
+   "summary_ja": "下茹でした牛すじを、鍋のふちに土手のように盛った味噌とみりんで長時間煮込む。甘辛く濃厚な味わいが酒によく合い、新世界エリアに提供店が多い大阪の下町グルメとして親しまれているという。",
+   "summary_en": "Parboiled beef tendon simmers for a long time against a bank of miso and mirin piled around the pan's edge like a levee, or dote. Rich and sweet-savory, it pairs well with drinks and is said to be a beloved downtown Osaka food, with many shops concentrated in the Shinsekai district.",
+   "sources": [
+    {
+     "title": "どて焼き 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_23_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "dote-yaki",
+     "to_slug": "hansuke-dofu",
+     "relation_type": "兄弟",
+     "basis": "ともに安価な部位をじっくり煮込んで活かす大阪の下町の惣菜・酒肴"
+    }
+   ],
+   "tags": [
+    "miso",
+    "beef"
+   ],
+   "notes": "棚(shelf)を台帳のgrilledからhomestyleに変更した。料理名に「焼き」とあるが、実際は牛すじを味噌とみりんで長時間煮込む料理であるため。伝承地域=大阪市内（単一）だが、本文が集積地として新世界エリアを名指ししているためその座標を採用した。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hamo-nabe",
+   "name_ja": "ハモ鍋",
+   "name_romaji": "Hamo Nabe",
+   "name_en": "Hamo nabe — pike conger simmered with onion and potato, Senshu-style",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "",
+   "lat": 34.4634,
+   "lng": 135.3723,
+   "summary_ja": "骨切りしたハモを、頭と骨でとった出汁に玉ねぎ・じゃがいもを合わせて煮る鍋。日本における玉ねぎ栽培発祥の地とされる泉州地域ならではの一品で、泉州玉ねぎの甘みが淡白なハモとよく合うという。",
+   "summary_en": "Pike conger, bone-cut for its many fine bones, simmers in a broth made from its own head and bones, together with onion and potato. Said to be distinctive to the Senshu area, reputed birthplace of Japanese onion cultivation, its onions' sweetness is said to suit the mild fish well.",
+   "sources": [
+    {
+     "title": "ハモ鍋 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_24_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hamo-nabe",
+     "to_slug": "hamo-yakimono",
+     "relation_type": "対比",
+     "basis": "同じハモを使うが、大阪泉州は玉ねぎ・じゃがいもと炊く鍋物、京都は照り焼きなどの焼き物に仕立てる"
+    }
+   ],
+   "tags": [],
+   "notes": "台帳のexisting_slug=hamo(low)を確認。既存hamoはハモという魚そのもの（食材項目）と見られ、本項目は玉ねぎ・じゃがいもと炊く泉州流の鍋料理という別の型（dish）のため作成。伝承地域=泉州地域のため中心都市の岸和田市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "beni-zuiki-taitan",
+   "name_ja": "紅ずいきと油揚げの炊いたん",
+   "name_romaji": "Beni-zuiki to Aburaage no Taitan",
+   "name_en": "Beni-zuiki no taitan — red taro leaf-stalks simmered with fried tofu",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "",
+   "lat": 34.4634,
+   "lng": 135.3723,
+   "summary_ja": "背丈2mにもなる赤褐色のずいき「紅ずいき」を酢水でアク抜きし、油揚げと出汁・醤油で煮含める夏のおばんざい。スポンジ状の断面が味をよく含み、大阪府の「なにわ特産品」にも選ばれているという。",
+   "summary_en": "Beni-zuiki, reddish taro leaf-stalks that can grow to 2 meters tall, is soaked in vinegared water to remove its bitterness, then simmered with fried tofu in dashi and soy sauce — a summer obanzai dish. Its spongy cross-section is said to soak up flavor well, and it has been named a Naniwa specialty product.",
+   "sources": [
+    {
+     "title": "紅ずいきと油揚げの炊いたん 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_25_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "beni-zuiki-taitan",
+     "to_slug": "wakagobo-itameni",
+     "relation_type": "兄弟",
+     "basis": "ともに大阪の伝統野菜（紅ずいき・若ごぼう）を油揚げと炊き合わせる家庭のおかず"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "棚(shelf)を台帳のfriedからhomestyleに変更した。「油揚げ」の語から自動判定されたとみられるが、実際は油揚げと紅ずいきをだし・醤油で煮含める料理であるため。伝承地域=泉州地域、南河内地域のため先頭の泉州地域の中心都市・岸和田市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "osaka-sakura-mochi",
+   "name_ja": "桜餅",
+   "name_romaji": "Osaka Sakura Mochi",
+   "name_en": "Osaka sakura mochi — sweet bean paste wrapped in a Domyoji rice-flour mochi",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "藤井寺市",
+   "lat": 34.5713,
+   "lng": 135.5967,
+   "summary_ja": "つぶつぶとした道明寺粉の餅であんを包み、塩漬けの桜の葉で巻く春の菓子。道明寺粉は千年以上前に藤井寺市の道明寺で保存食としてつくられたのが始まりとされ、関東のクレープ状の桜餅とは製法が異なる。",
+   "summary_en": "Sweet bean paste is wrapped in a coarse-grained mochi made from domyoji rice flour, then bound with a salted cherry leaf — a springtime confection. Domyoji flour is said to have first been made over a thousand years ago as a preserved food at Domyoji temple in Fujiidera, giving a texture unlike Kanto's crepe-style sakura mochi.",
+   "sources": [
+    {
+     "title": "桜餅 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_26_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "osaka-sakura-mochi",
+     "to_slug": "sakura-mochi",
+     "relation_type": "対比",
+     "basis": "関西の桜餅は道明寺粉のつぶつぶとした餅であんを包むのに対し、関東の桜餅（東京都、既存）はクレープ状の生地であんを巻く"
+    }
+   ],
+   "tags": [
+    "meal_ender"
+   ],
+   "notes": "台帳にexisting_slug記載は無いが、all-items-ja.txtに同名の既存item「sakura-mochi」（桜もち、東京都＝関東風）があるため、道明寺粉を使う関西風であることを明確にすべくslugをosaka-sakura-mochiとした。伝承地域=大阪府内全域だが、本文が道明寺粉の発祥地として藤井寺市を明記しているためその座標を採用した。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "osaka-shirona-karashiae",
+   "name_ja": "大阪しろ菜の辛子和え",
+   "name_romaji": "Osaka Shirona no Karashi-ae",
+   "name_en": "Osaka shirona no karashi-ae — Osaka's white-stemmed green dressed with hot mustard",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大阪府",
+   "origin_city": "大阪市",
+   "lat": 34.6928,
+   "lng": 135.5183,
+   "summary_ja": "白菜と体菜の交雑から生まれたとされる大阪しろ菜を茹で、油揚げととき辛子・醤油で和える。かつて天満橋付近で盛んに栽培されたため「天満菜」とも呼ばれ、クセのないあっさりした味わいが持ち味という。",
+   "summary_en": "Osaka shirona, a green said to have arisen from a cross of napa cabbage and tatsai, is boiled and dressed with fried tofu, hot mustard, and soy sauce. Once grown heavily near Temmabashi and so also called temma-na, it is said to carry a mild, clean flavor free of any harsh edge.",
+   "sources": [
+    {
+     "title": "大阪しろ菜の辛子和え 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_27_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "osaka-shirona-karashiae",
+     "to_slug": "mibuna-karashiae",
+     "relation_type": "対比",
+     "basis": "ともに辛子で和える関西の葉物野菜料理だが、大阪しろ菜の辛子和えは油揚げを合わせ、壬生菜のからし和えはすりごまで和える"
+    }
+   ],
+   "tags": [
+    "spicy",
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=大阪市（単一）だが、本文が主産地として天満橋付近を明記しているためその座標を採用した。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "beni-shoga-ten",
+   "name_ja": "紅しょうが天",
+   "name_romaji": "Beni Shoga Ten",
+   "name_en": "Beni shoga ten — deep-fried red pickled ginger",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "大阪府",
+   "origin_city": "",
+   "lat": 34.6937,
+   "lng": 135.5023,
+   "summary_ja": "梅酢に漬けた紅しょうがの薄切りに衣をつけて揚げる天ぷら。梅酢の酸味としょうがの辛みが酒によく合い、昭和15年発表の織田作之助『夫婦善哉』にも一銭天ぷらとして登場するほど古くからの大阪庶民の味という。",
+   "summary_en": "Thin slices of red ginger, pickled in plum vinegar, are battered and deep-fried. The plum vinegar's tang and the ginger's bite are said to suit drinks well, and the fritter appears as a one-sen tempura in Sakunosuke Oda's 1940 novella 'Meoto Zenzai,' evidence of how long it has fed ordinary Osakans.",
+   "sources": [
+    {
+     "title": "紅しょうが天 大阪府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_30_osaka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "beni-shoga-ten",
+     "to_slug": "gaccho-karaage",
+     "relation_type": "対比",
+     "basis": "ともに大阪の日常的な揚げ物・酒肴だが、紅しょうが天は紅しょうがの天ぷら、がっちょの唐揚げは大阪湾の小魚の唐揚げ"
+    }
+   ],
+   "tags": [
+    "spicy",
+    "handheld"
+   ],
+   "notes": "伝承地域=大阪府内全域のため大阪市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "件数: 30行中、作った23件／既存で作らなかった7件（39_1_osaka=泉州水なすの浅漬［genre_hint=tsukemono、野菜の漬物で例外規定に該当せず除外］、39_15_osaka=たこ焼き［既存slug takoyaki、high一致］、39_17_osaka=きつねうどん［既存slug kitsune-udon、high一致］、39_20_osaka=お好み焼き［要判断で除外、下記参照］、39_28_osaka=串カツ［既存slug kushikatsu、high一致］、39_29_osaka=大阪漬［genre_hint=tsukemono、大根・かぶ・昆布の野菜漬物で例外規定に該当せず除外］、39_14_osaka=大阪寿司［要判断で除外、下記参照］）／low判定は3件（39_3_osaka ばらずし: existing_slug=okayama-barazushi。本文が岡山発祥説に触れつつも大阪独自の「具をすし飯に混ぜ込む」スタイルと「翌日は蒸しずし」という食習慣を明記するため別物と判断し作成／39_21_osaka がっちょの唐揚げ: existing_slug=karaage。既存karaageは一般的な唐揚げと見られ、がっちょは大阪湾特有の小魚のため別物と判断し作成／39_24_osaka ハモ鍋: existing_slug=hamo。既存hamoは魚そのもの（食材）と見られ、ハモ鍋は玉ねぎ・じゃがいもと炊く泉州流の鍋料理という別の型のため作成）。\n棚(shelf)を変えた行: akaneko（homestyle→sweets、もち米と小麦粉の餅に砂糖・きな粉をまぶす菓子のため）／dote-yaki（grilled→homestyle、名前に「焼き」とあるが実際は味噌とみりんで長時間煮込む料理のため）／beni-zuiki-taitan（fried→homestyle、「油揚げ」の語で自動判定されたとみられるが実際はだし・醤油で煮含める料理のため）。\n座標の根拠: 伝承地域が単一市町村の行はその市区町村を採用（wakagobo-itameni=八尾市、kurumi-mochi=堺市、renkon-mochi=門真市、hansuke-dofu, hamokawa-zakuzaku, odamaki-mushi[本文が船場を明記するため船場座標], dote-yaki[本文が新世界エリアを明記するためその座標], osaka-shirona-karashiae[本文が天満橋付近を明記するためその座標]=大阪市）。「大阪府内全域」は大阪市（府庁所在地に相当する中心都市）を代表点とした（osaka-barazushi, osaka-shiromiso-zoni, ehomaki, beni-shoga-ten）。本文が特定地点を名指しする行はそちらを優先した（kujira-harihari-nabe=千日前［発祥店の所在地］、battera=南船場［発祥店の所在地］、semba-jiru=船場、osaka-sakura-mochi=藤井寺市［道明寺粉の発祥地たる道明寺の所在地。伝承地域欄は大阪府内全域］）。複数地域の並記で本文に単一地名が無い行は先頭に挙げられた地域の中心都市を採用した（jako-gouko, gaccho-karaage, hamo-nabe=岸和田市［泉州地域］、goyori-mame, beni-zuiki-taitan=岸和田市［泉州地域～河内地域／泉州地域、南河内地域いずれも泉州が先頭］、akaneko=八尾市［中河内～南河内で中河内が先頭］、osaka-decchi-yokan=豊中市［北摂地域。単一の行政中心地が無いため地理的中心寄りの市を選定、要判断］）。\n要判断: (1) 39_20_osaka お好み焼きは、genre_hintも既存slug指定も無いが、all-items-ja.txtに既存item「okonomiyaki」（お好み焼き、pref欄空欄）があり、広島の「hiroshima-okonomiyaki」と対比される無印記の一般項目＝関西風お好み焼きの代表格をすでに指すと解釈し、大阪版を別途作成しなかった。(2) 39_14_osaka 大阪寿司は、本文が「箱寿司のことを大阪寿司と呼ぶこともある」と明記し、箱寿司の発祥譚（明治期・船場の吉野寿司）もそのまま繰り返しているため、既存項目hako-zushi（大阪府）と内容が実質的に重複すると判断し作成しなかった。ただしhako-zushiの実際の記述内容は参照できないため、この判断は推測に基づく要確認事項である。(3) osaka-decchi-yokanとosaka-sakura-mochiは、台帳のexisting_slug欄には記載が無かったが、all-items-ja.txtの日本語名突合で他県の既存項目（福井のでっち羊かん、東京の桜もち）と同名衝突を検出したため、zoni系の命名慣例に倣いosaka-接頭辞で作成した。この処理の要否・要否基準はブリーフに明記が無いため要確認。"
+}

@@ -1,0 +1,984 @@
+{
+ "items": [
+  {
+   "slug": "kuromame-ni",
+   "name_ja": "黒豆煮",
+   "name_romaji": "Kuromame Ni",
+   "name_en": "Kuromame ni — Tanba black soybeans slow-simmered in soy sauce and sugar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "南丹市",
+   "lat": 35.0997,
+   "lng": 135.4633,
+   "summary_ja": "丹波地域でとれる大粒の黒大豆を、砂糖と醤油でふっくらと煮る。艶やかな黒光りは長寿と健康の願いを込めた正月おせちの定番で、栽培に半年かかることから「苦労豆」とも呼ばれてきたという。",
+   "summary_en": "Large black soybeans from the Tanba area are slow-simmered in soy sauce and sugar until glossy and plump. A New Year's osechi staple said to carry wishes for health and long life, the bean is also called 'kuro dai zu' — nicknamed the 'hardship bean' for its half-year growing season.",
+   "sources": [
+    {
+     "title": "黒豆煮 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kuromameni_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kuromame-ni",
+     "to_slug": "korogaki-namasu",
+     "relation_type": "兄弟",
+     "basis": "ともに正月のおせち料理に用いられる、丹波・宇治田原地域の保存性の高い秋の実り（黒豆・古老柿）を活かした京都の縁起料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=南丹・中丹・丹後地域の広域だが、本文が「京丹波町や南丹市などの丹波地域を主な産地とする」と南丹市を具体的に名指ししているためそこを代表地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "takenoko-kinome-ae",
+   "name_ja": "たけのこの木の芽和え",
+   "name_romaji": "Takenoko no Kinome-ae",
+   "name_en": "Takenoko no kinome-ae — bamboo shoots dressed with white miso and sansho leaf",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "",
+   "lat": 35.0116,
+   "lng": 135.7681,
+   "summary_ja": "京都式軟化栽培でえぐみを抑えたたけのこを、山椒の若葉「木の芽」をすり込んだ白味噌だれで和える。春の訪れを告げる一品として、木の芽和えといえばたけのこが浮かぶほど親しまれているという。",
+   "summary_en": "Bamboo shoots grown by Kyoto's shading method, prized for their mild flavor, are dressed in a white-miso sauce ground with young sansho leaves called kinome. Said to be so tied to the vegetable that the name 'kinome-ae' alone brings bamboo shoots to mind, it announces spring's arrival.",
+   "sources": [
+    {
+     "title": "たけのこの木の芽和え 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/takenokonokinomeae_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "takenoko-kinome-ae",
+     "to_slug": "kamonasu-dengaku",
+     "relation_type": "兄弟",
+     "basis": "ともに白味噌だれで仕立てる京都の野菜料理で、木の芽和えはたけのこに、田楽は賀茂なすに合わせる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=山城地域、京都市。座標は京都市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "manganji-togarashi-jako-taitan",
+   "name_ja": "万願寺とうがらしとじゃこの炊いたん",
+   "name_romaji": "Manganji Togarashi to Jako no Taitan",
+   "name_en": "Manganji togarashi to jako no taitan — sweet Kyoto peppers simmered with dried baby sardines",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "",
+   "lat": 35.2966,
+   "lng": 135.1256,
+   "summary_ja": "肉厚で辛みのない京野菜「万願寺とうがらし」を、じゃこと出汁・醤油でじっくり炊く夏のおばんざい。舞鶴市万願寺地区で伏見とうがらしとカリフォルニア・ワンダーが自然交雑して生まれたと伝わる。",
+   "summary_en": "Thick-fleshed, mild Manganji peppers, a Kyoto heirloom vegetable, are simmered slowly with dried baby sardines in dashi and soy sauce — a summer obanzai dish. The pepper is said to have arisen from a natural cross between Fushimi togarashi and a California pepper in Maizuru's Manganji district.",
+   "sources": [
+    {
+     "title": "万願寺とうがらしとじゃこの炊いたん 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/manganzitougarashitojakonotaitan_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "manganji-togarashi-jako-taitan",
+     "to_slug": "zuiki-taitan",
+     "relation_type": "兄弟",
+     "basis": "ともに出汁と醤油でじっくり炊く「炊いたん」と呼ばれる京都の野菜おかず"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=中丹地域、京都市。本文が発祥地として名指しする舞鶴市（中丹地域）を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kyoto-shiromiso-zoni",
+   "name_ja": "白味噌の雑煮",
+   "name_romaji": "Kyoto Shiromiso Zoni",
+   "name_en": "Kyoto shiromiso zoni — a white miso mochi soup with taro and daikon for New Year's",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "",
+   "lat": 35.0116,
+   "lng": 135.7681,
+   "summary_ja": "丸餅と頭芋、大根を、平安京発祥ともいわれる白味噌でのばした汁で仕立てる正月の雑煮。丸餅は円満、頭芋は立身出世、大根は円満長寿を願う具材とされ、金時人参を添える家庭もあるという。",
+   "summary_en": "Round mochi, kashira-imo taro, and daikon simmer in a broth loosened with white miso — said to date to Heian-era Kyoto — for New Year's zoni. The round mochi wishes for harmony, the taro for success, the daikon for a long, round life, and some households add red kintoki carrot too.",
+   "sources": [
+    {
+     "title": "白味噌の雑煮 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shiromisonozoni_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kyoto-shiromiso-zoni",
+     "to_slug": "osaka-shiromiso-zoni",
+     "relation_type": "対比",
+     "basis": "ともに白味噌仕立ての雑煮だが、京都は頭芋・大根を、大阪は里芋・人参を具に使う点が異なる"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=府内全域のため京都市を代表点とした。同名の雑煮が大阪府にも別項目としてあるためslugを<地名>-<料理名>とした（既存zoni系スラグの命名慣例に合わせた）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tango-barazushi",
+   "name_ja": "丹後ばらずし",
+   "name_romaji": "Tango Barazushi",
+   "name_en": "Tango barazushi — a layered mackerel sushi from the Tango peninsula",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "京都府",
+   "origin_city": "",
+   "lat": 35.535,
+   "lng": 135.1944,
+   "summary_ja": "焼いてほぐしたサバのおぼろを木箱「まつぶた」に敷いたすし飯に散らし、錦糸卵や紅しょうがを彩りよくのせる丹後半島の押し寿司。地元では「ばらずし」と呼ばれ、祭りや祝いの席の定番になっているという。",
+   "summary_en": "Grilled, flaked mackerel is scattered over sushi rice packed in a shallow wooden box called a matsubuta, then topped colorfully with shredded egg and pickled ginger — a pressed sushi from the Tango peninsula. Known locally simply as barazushi, it is said to be a fixture of festivals and celebrations.",
+   "sources": [
+    {
+     "title": "ばらずし 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/barazushi_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tango-barazushi",
+     "to_slug": "saba-zushi",
+     "relation_type": "兄弟",
+     "basis": "ともに鯖街道でとれたサバを加工して食べる丹後・京都の郷土寿司"
+    }
+   ],
+   "tags": [
+    "egg",
+    "ceremonial"
+   ],
+   "notes": "台帳のexisting_slug=okayama-barazushi(low)を確認。本文は岡山発祥説に触れず、若狭湾のサバと鯖街道に由来する丹後独自の由来を語り、正式名称も「丹後ばらずし」と明記されるため別物と判断し作成。同音の岡山ばら寿司・大阪ばらずしと区別するため、slugとname_jaを正式名称の「丹後ばらずし」とした（ledger名は「ばらずし」）。伝承地域=丹後地域のため中心都市の宮津市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kigosho",
+   "name_ja": "きごしょう",
+   "name_romaji": "Kigosho",
+   "name_en": "Kigosho — the young leaves and pods of Fushimi togarashi peppers, simmered in soy sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "京都市",
+   "lat": 35.0116,
+   "lng": 135.7681,
+   "summary_ja": "辛みのない京野菜「伏見とうがらし」の若葉と小さな実を、醤油や酒で炒め煮にする常備菜。ほのかな唐辛子の風味と独特の苦みがあり、ごはんのお供や酒の肴として夏に親しまれているという。",
+   "summary_en": "The young leaves and small pods of Fushimi togarashi, a mild Kyoto heirloom pepper, are stir-simmered in soy sauce and sake into a everyday side dish. With a faint peppery aroma and distinctive bitterness, it is said to be enjoyed in summer over rice or alongside sake.",
+   "sources": [
+    {
+     "title": "きごしょう 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kigosho_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kigosho",
+     "to_slug": "sansho-ha-tsukudani",
+     "relation_type": "兄弟",
+     "basis": "ともに京都で親しまれる葉野菜（伏見とうがらしの葉・山椒の葉）を醤油で炊く佃煮風の常備菜"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=京都市（単一）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "uji-kintoki",
+   "name_ja": "宇治金時",
+   "name_romaji": "Uji Kintoki",
+   "name_en": "Uji kintoki — shaved ice topped with sweet red beans and Uji matcha syrup",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "宇治市",
+   "lat": 34.8845,
+   "lng": 135.7996,
+   "summary_ja": "かき氷に小倉あんと宇治抹茶のシロップをかけた夏の甘味。宇治茶は栄西禅師が伝えた茶の種から栽培が始まったとされ、江戸中期に確立した「宇治製法」で全国に知られる高級茶になったという。",
+   "summary_en": "Shaved ice is topped with sweet ogura red-bean paste and a syrup of matcha from Uji — a summer treat. Uji tea is said to trace to seeds brought by the monk Eisai, and the Edo-era 'Uji method' of processing later made it a prized tea known across Japan.",
+   "sources": [
+    {
+     "title": "宇治金時 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ujikintoki_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "uji-kintoki",
+     "to_slug": "minazuki",
+     "relation_type": "対比",
+     "basis": "ともに京都の暑気払いにまつわる菓子だが、宇治金時は抹茶シロップのかき氷、水無月はういろうと小豆の蒸し菓子"
+    }
+   ],
+   "tags": [
+    "meal_ender"
+   ],
+   "notes": "伝承地域=京都市、山城地域だが、本文が宇治茶・宇治市を中心に語るためそこを代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "minazuki",
+   "name_ja": "水無月",
+   "name_romaji": "Minazuki",
+   "name_en": "Minazuki — a triangular ういろう cake topped with sweet red beans for the summer purification rite",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "",
+   "lat": 35.0116,
+   "lng": 135.7681,
+   "summary_ja": "白いういろうに小豆をのせ、三角形に切り分ける京都の郷土菓子。6月30日の神事「夏越しの祓」で無病息災を願って食べられ、三角は暑気払いの氷を、小豆の赤は邪気払いを表すと伝わる。",
+   "summary_en": "White uiro rice cake topped with sweet red beans and cut into triangles — a Kyoto confection eaten on June 30th for the Nagoshi no Harae purification rite, wishing off illness for the second half of the year. The triangle is said to recall summer ice, the beans' red to ward off misfortune.",
+   "sources": [
+    {
+     "title": "水無月 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/minazuki_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "minazuki",
+     "to_slug": "uji-kintoki",
+     "relation_type": "対比",
+     "basis": "ともに京都の暑気払いにまつわる菓子だが、水無月はういろうと小豆の蒸し菓子、宇治金時は抹茶シロップのかき氷"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "meal_ender"
+   ],
+   "notes": "伝承地域=府内全域のため京都市を代表点とした。本文は起源として京都市北区西賀茂の氷室伝承も語るが、行事自体は府内全域でおこなわれるため広域のままとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mibuna-karashiae",
+   "name_ja": "壬生菜のからし和え",
+   "name_romaji": "Mibuna no Karashi-ae",
+   "name_en": "Mibuna no karashi-ae — Kyoto mustard greens dressed with hot mustard and sesame",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "京都市",
+   "lat": 35.0116,
+   "lng": 135.7681,
+   "summary_ja": "京都市壬生地区発祥の京野菜「壬生菜」を茹でて刻み、すりごまと練り辛子で和える。みず菜と同じ仲間だがぴりっとした辛みと苦味があり、千枚漬けのそえ物としても知られているという。",
+   "summary_en": "Mibuna, a Kyoto heirloom green from the city's Mibu district and a relative of mizuna, is boiled, chopped, and dressed with ground sesame and hot mustard. Sharper and more bitter than mizuna, it is said to be known too as the customary garnish for senmai-zuke turnip pickles.",
+   "sources": [
+    {
+     "title": "壬生菜のからし和え 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mibunanokarashiae_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mibuna-karashiae",
+     "to_slug": "senmai-zuke",
+     "relation_type": "兄弟",
+     "basis": "壬生菜は京漬物「千枚漬け」のそえ物として添えられてきた京都の葉物野菜"
+    }
+   ],
+   "tags": [
+    "spicy"
+   ],
+   "notes": "伝承地域=京都市（単一）。本文は主産地を南丹市日吉町とも記すが、伝承地域欄の京都市を優先した。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "matsutake-gohan",
+   "name_ja": "松茸ごはん",
+   "name_romaji": "Matsutake Gohan",
+   "name_en": "Matsutake gohan — rice cooked with prized Tanba matsutake mushrooms",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "南丹市",
+   "lat": 35.0997,
+   "lng": 135.4633,
+   "summary_ja": "香り高い「丹波マツタケ」を薄く切り、米と昆布出汁で炊き込むごはん。松林の荒廃で戦前より生産量が大きく減り、いまは高級食材として料亭や割烹で秋の一皿として供されることが多いという。",
+   "summary_en": "Fragrant Tanba matsutake mushrooms are sliced thin and cooked into rice with kelp dashi. With pine forests declining and yields far below prewar levels, the mushroom has become a costly delicacy said to appear as an autumn dish mostly at ryotei and traditional restaurants today.",
+   "sources": [
+    {
+     "title": "松茸ごはん 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/matsutakegohan_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "matsutake-gohan",
+     "to_slug": "kuri-gohan",
+     "relation_type": "兄弟",
+     "basis": "ともに丹波地域でとれる秋の実り（松茸・栗）を米と炊き込む京都の季節ごはん"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=南丹・中丹・丹後地域の広域だが、本文が「南丹地域の南丹市、中丹地域の綾部市や福知山市」と南丹市を先頭に具体的に名指ししているためそこを代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kyoto-furofuki-daikon",
+   "name_ja": "ふろふき大根",
+   "name_romaji": "Furofuki Daikon",
+   "name_en": "Furofuki daikon — Kyoto's giant Shogoin turnip-shaped daikon, simmered and topped with miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "",
+   "lat": 35.0116,
+   "lng": 135.7681,
+   "summary_ja": "煮崩れしにくく甘みの強い京野菜「聖護院だいこん」を、昆布出汁でとろりと柔らかく煮る冬の一皿。白味噌や柚子味噌をつけて食べ、旬の12月には府内各地の寺院で無病息災を祈る「大根焚き」もおこなわれる。",
+   "summary_en": "Shogoin daikon, a giant round Kyoto turnip prized for its sweetness and resistance to falling apart, simmers in kelp dashi until meltingly soft — a winter dish eaten with white or yuzu miso. In its December peak season, temples across the prefecture hold daikon-boiling rites for good health.",
+   "sources": [
+    {
+     "title": "ふろふき大根 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/furofukidaikon_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kyoto-furofuki-daikon",
+     "to_slug": "saikyo-miso",
+     "relation_type": "使用食材",
+     "basis": "ふろふき大根は白味噌（西京味噌）だれをつけて食べる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "台帳にexisting_slug記載は無いが、all-items-ja.txtに同名の既存item「furofuki-daikon」（ふろふき大根、愛知県）があるため衝突を回避しslugをkyoto-furofuki-daikonとした。京都は聖護院だいこんという固有の京野菜を使う点で愛知の品種と異なるとみられる。伝承地域=京都府全域のため京都市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hamo-yakimono",
+   "name_ja": "はもの焼き物",
+   "name_romaji": "Hamo no Yakimono",
+   "name_en": "Hamo no yakimono — grilled pike conger, a fixture of Kyoto's Gion Festival table",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "京都市",
+   "lat": 35.0116,
+   "lng": 135.7681,
+   "summary_ja": "小骨の多いハモに熟練の「骨切り」を施し、醤油だれの照り焼きや塩焼きにする京料理。生きたまま京都まで運べる生命力の強さから内陸の京都に根づいたとされ、「はも祭り」とも呼ばれる祇園祭の行事食でもある。",
+   "summary_en": "Pike conger, riddled with fine bones, is scored with the skilled honekiri cut and then grilled — teriyaki-glazed or salted — in Kyoto cuisine. Said to have taken root in landlocked Kyoto because the hardy fish could be carried in alive, it is also a festival food for Gion Matsuri, nicknamed the 'hamo festival.'",
+   "sources": [
+    {
+     "title": "はもの焼き物 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hamonoyakimono_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hamo-yakimono",
+     "to_slug": "hamo-nabe",
+     "relation_type": "対比",
+     "basis": "同じハモを使うが、京都は照り焼きなどの焼き物に、大阪泉州は玉ねぎ・じゃがいもと炊く鍋物に仕立てる"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=京都市、中丹地域、丹後地域。本文の記述（祇園祭・京料理）が京都市中心のためそこを代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "taikabura",
+   "name_ja": "鯛蕪",
+   "name_romaji": "Taikabura",
+   "name_en": "Taikabura — sea bream simmered with giant Shogoin turnip",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "京都市",
+   "lat": 35.0116,
+   "lng": 135.7681,
+   "summary_ja": "国内最大級の京野菜「聖護院かぶ」とタイのあらを出汁で炊き合わせる冬の京料理。旬の食材同士を組み合わせる「であいもん」の代表格で、天保年間に千枚漬けが知れ渡ってから聖護院かぶの栽培が広まったと伝わる。",
+   "summary_en": "Shogoin turnip, among Japan's largest, simmers with sea bream trimmings in dashi — a winter Kyoto dish and a classic 'deaimon,' the pairing of two in-season ingredients. Cultivation of the turnip is said to have spread after senmai-zuke pickles made from it became widely known in the Tenpo era.",
+   "sources": [
+    {
+     "title": "鯛蕪／聖護院かぶと鯛の煮物 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/taikabura_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "taikabura",
+     "to_slug": "senmai-zuke",
+     "relation_type": "対比",
+     "basis": "ともに聖護院かぶを使うが、千枚漬けは漬物、鯛蕪はタイと炊き合わせる煮物に仕立てる"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "name_ja: 台帳の「鯛蕪／聖護院かぶと鯛の煮物」から主名を鯛蕪とした。別名はsummaryに反映せずsources titleに残した。伝承地域=京都市（単一）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nishin-nasu",
+   "name_ja": "にしん茄子",
+   "name_romaji": "Nishin Nasu",
+   "name_en": "Nishin nasu — dried herring simmered with eggplant",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "",
+   "lat": 35.0116,
+   "lng": 135.7681,
+   "summary_ja": "北前船で北海道から運ばれた干物「身欠きニシン」を、脂の染みやすいなすと炊き合わせる京都の「であいもん」。米のとぎ汁で戻してから数時間かけて煮含める手間を要し、鯛蕪などと並ぶ代表例とされる。",
+   "summary_en": "Migaki-nishin, dried herring once brought from Hokkaido by the kitamae-bune trading ships, simmers with eggplant that readily soaks up its richness — a Kyoto 'deaimon.' Rehydrated in rice-rinse water and simmered for hours, it is named alongside taikabura as a classic of the pairing.",
+   "sources": [
+    {
+     "title": "にしん茄子／茄子とにしんの炊いたん 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nishinnasu_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nishin-nasu",
+     "to_slug": "taikabura",
+     "relation_type": "兄弟",
+     "basis": "ともに旬の食材同士を組み合わせる京料理の「であいもん」の代表例として本文に並記されている"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "name_ja: 台帳の「にしん茄子／茄子とにしんの炊いたん」から主名をにしん茄子とした。伝承地域=府内全域のため京都市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nikudofu",
+   "name_ja": "肉豆腐",
+   "name_romaji": "Nikudofu",
+   "name_en": "Nikudofu — beef and tofu simmered sukiyaki-style with Kujo green onion",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "京都市",
+   "lat": 35.0116,
+   "lng": 135.7681,
+   "summary_ja": "牛肉と木綿豆腐を割り下で煮て、京の伝統野菜「九条ねぎ」を加えるすき焼き風の一皿。九条ねぎは伏見稲荷神社建立の際に植えられたのが発祥とも伝わり、軟水でつくる京都の豆腐と好相性とされる。",
+   "summary_en": "Beef and firm tofu simmer in a sweet soy broth, finished with Kujo green onion, a Kyoto heirloom variety said to trace to plantings made when Fushimi Inari Shrine was founded — a sukiyaki-style dish. Kyoto's soft water is said to make tofu that pairs especially well with it.",
+   "sources": [
+    {
+     "title": "肉豆腐 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nikudofu_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nikudofu",
+     "to_slug": "kyoto-niku",
+     "relation_type": "使用食材",
+     "basis": "肉豆腐には京都府内産のブランド牛「京都肉」などの牛肉が使われる"
+    }
+   ],
+   "tags": [
+    "beef",
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=京都市（単一）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "takenoko-fuki-taitan",
+   "name_ja": "たけのことふき・生節の炊いたん",
+   "name_romaji": "Takenoko to Fuki, Namabushi no Taitan",
+   "name_en": "Takenoko to fuki no taitan — bamboo shoots and butterbur simmered with lightly smoked bonito",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "長岡京市",
+   "lat": 34.9247,
+   "lng": 135.6997,
+   "summary_ja": "たけのことふきを、一度だけ燻したカツオの加工品「生節」と一緒に出汁で炊く、海から遠い京都ならではのおばんざい。たけのこの旬と生節の流通時期が重なることから、春の家庭料理として親しまれているという。",
+   "summary_en": "Bamboo shoots and butterbur simmer in dashi with namabushi, bonito that has been smoked just once rather than fully cured — a home dish born of landlocked Kyoto's distance from the sea. Bamboo season and namabushi's availability coincide, making it a familiar spring dish, it is said.",
+   "sources": [
+    {
+     "title": "たけのことふき・生節の炊いたん 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/takenokotofuki_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "takenoko-fuki-taitan",
+     "to_slug": "ebiimo-bodara-taitan",
+     "relation_type": "兄弟",
+     "basis": "ともに乾物の魚介（生節・棒だら）と野菜を合わせて炊く京都の「炊いたん」"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "smoked"
+   ],
+   "notes": "伝承地域=中丹地域、丹後地域だが、本文が「たけのこの産地として有名」な長岡京市（乙訓地域）を一貫して名指ししているため、そちらを代表点として採用した（伝承地域欄との齟齬は要判断）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "korogaki-namasu",
+   "name_ja": "古老柿なます",
+   "name_romaji": "Korogaki Namasu",
+   "name_en": "Korogaki namasu — vinegared daikon and carrot with Ujitawara's rolled dried persimmon",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "宇治田原町",
+   "lat": 34.8395,
+   "lng": 135.8451,
+   "summary_ja": "宇治田原町特産の干し柿「古老柿」を細かく割いて、塩もみした大根と人参を酢で和える正月料理。棚に並べて干す独特の製法から名がついたとされ、素朴な甘みが縁起物として神棚にも供えられるという。",
+   "summary_en": "Korogaki, a specialty dried persimmon from Ujitawara made by racking rather than hanging, is torn into pieces and tossed with vinegared daikon and carrot for New Year's. Its name is said to come from that unusual drying method, and its gentle sweetness sees it offered on household shrines too.",
+   "sources": [
+    {
+     "title": "古老柿なます 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/korokakinamasu_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "korogaki-namasu",
+     "to_slug": "kuromame-ni",
+     "relation_type": "兄弟",
+     "basis": "ともに正月のおせち料理に用いられる、丹波・宇治田原地域の保存性の高い秋の実り（黒豆・古老柿）を活かした京都の縁起料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=山城地域だが、本文が特産地として宇治田原町を明記しているためそこを代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "zuiki-taitan",
+   "name_ja": "ずいきの炊いたん",
+   "name_romaji": "Zuiki no Taitan",
+   "name_en": "Zuiki no taitan — taro leaf-stalks simmered in a sweet soy broth",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "",
+   "lat": 35.2966,
+   "lng": 135.1256,
+   "summary_ja": "里芋の葉柄「ずいき」を下ゆでし、醤油だれで煮て水溶き片栗粉でとろみをつける夏のおばんざい。北野天満宮の秋祭り「ずいき祭り」でも神輿の屋根に使われ、出産後の食養生の一品としても伝わる。",
+   "summary_en": "Zuiki, the leaf-stalks of taro, are parboiled and simmered in a sweet soy broth thickened with potato starch — a summer obanzai dish. The stalks also roof the portable shrine at Kitano Tenmangu's autumn Zuiki Matsuri, and are said to be traditionally eaten by new mothers after childbirth.",
+   "sources": [
+    {
+     "title": "ずいきの炊いたん 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/zuikinotaitan_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "zuiki-taitan",
+     "to_slug": "manganji-togarashi-jako-taitan",
+     "relation_type": "兄弟",
+     "basis": "ともに出汁と醤油でじっくり炊く「炊いたん」と呼ばれる京都の野菜おかず"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=中丹地域、丹後地域だが、本文の中心的なエピソード（北野天満宮のずいき祭り）が京都市のため、そちらの座標を採用した（伝承地域欄との齟齬は要判断）。origin_cityは伝承地域欄を優先し空欄とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ebiimo-bodara-taitan",
+   "name_ja": "えびいもと棒だらの炊いたん",
+   "name_romaji": "Ebiimo to Bodara no Taitan",
+   "name_en": "Ebiimo to bodara no taitan — Kyoto's striped ebi-imo taro simmered with dried cod",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "",
+   "lat": 35.0116,
+   "lng": 135.7681,
+   "summary_ja": "エビのような縞模様が特徴の京野菜「えびいも」と、北海道産のマダラを干した「棒だら」を炊き合わせる。棒だらのゼラチン質がえびいもの煮崩れを防ぎ、えびいものアクが棒だらを柔らかくする「であいもん」。",
+   "summary_en": "Ebi-imo, a striped Kyoto heirloom taro named for its shrimp-like ridges, simmers together with bodara, cod dried in Hokkaido. Gelatin from the dried cod is said to keep the taro from falling apart, while the taro's bitterness softens the cod — a textbook 'deaimon' pairing.",
+   "sources": [
+    {
+     "title": "えびいもと棒だらの炊いたん 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ebiimotobodaranotaitan_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ebiimo-bodara-taitan",
+     "to_slug": "takenoko-fuki-taitan",
+     "relation_type": "兄弟",
+     "basis": "ともに乾物の魚介（生節・棒だら）と野菜を合わせて炊く京都の「炊いたん」"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=京都市、中丹地域、丹後地域の広域のため京都市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sansho-ha-tsukudani",
+   "name_ja": "山椒の葉の佃煮",
+   "name_romaji": "Sansho no Ha no Tsukudani",
+   "name_en": "Sansho no ha no tsukudani — sansho leaves simmered in soy sauce with dried baby sardines",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "京都市",
+   "lat": 35.0116,
+   "lng": 135.7681,
+   "summary_ja": "京都の山あいに自生する山椒の若葉と花を、ちりめんじゃこと酒・薄口醤油で水分が飛ぶまで炒め煮る。熱湯をまわしかけて色を鮮やかにし、おにぎりやお茶漬け、うどんの薬味など幅広く使われるという。",
+   "summary_en": "Young sansho leaves and blossoms, gathered from Kyoto's hilly backcountry, are stir-simmered with dried baby sardines in sake and light soy sauce until the liquid cooks off. A scald of hot water first brightens their green, and the result is said to garnish everything from rice balls to udon.",
+   "sources": [
+    {
+     "title": "山椒の葉の佃煮 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sanshonohanotsukudani_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sansho-ha-tsukudani",
+     "to_slug": "kigosho",
+     "relation_type": "兄弟",
+     "basis": "ともに京都で親しまれる葉野菜（山椒の葉・伏見とうがらしの葉）を醤油で炊く佃煮風の常備菜"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=京都市（単一）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kamonasu-dengaku",
+   "name_ja": "賀茂なすの田楽",
+   "name_romaji": "Kamonasu Dengaku",
+   "name_en": "Kamonasu dengaku — Kyoto's round eggplant, pan-fried and topped with sweet miso",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "京都市",
+   "lat": 35.0116,
+   "lng": 135.7681,
+   "summary_ja": "直径10cmを超え「なすの女王」とも呼ばれる京野菜「賀茂なす」を輪切りにして油でじっくり焼き、酒・みりん・砂糖で煮詰めた田楽味噌をのせる。上賀茂の扇状地で古くから育てられてきたと伝わる。",
+   "summary_en": "Kamonasu, a round Kyoto heirloom eggplant over 10cm across sometimes called the 'queen of eggplants,' is sliced and pan-fried in plenty of oil, then topped with a sweet miso reduced with sake and mirin. It is said to have long been grown on the alluvial fan of Kamigamo.",
+   "sources": [
+    {
+     "title": "賀茂なすの田楽 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kamonasunodengaku_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kamonasu-dengaku",
+     "to_slug": "takenoko-kinome-ae",
+     "relation_type": "兄弟",
+     "basis": "ともに白味噌だれで仕立てる京都の野菜料理で、田楽は賀茂なすに、木の芽和えはたけのこに合わせる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=京都市（単一）。棚(shelf)を台帳のhomestyleからgrilledに変更した。多めの油でじっくり焼いてから味噌をのせ、仕上げに軽くあぶる調理法のため。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ohagi",
+   "name_ja": "おはぎ",
+   "name_romaji": "Ohagi",
+   "name_en": "Ohagi — rice pounded coarse and wrapped in sweet red bean paste for the equinox",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "",
+   "lat": 35.0116,
+   "lng": 135.7681,
+   "summary_ja": "つぶ状に残した蒸しもち米を丸め、小豆あんやきなこで包む彼岸のお供え菓子。京都は「丹波大納言小豆」の名産地で、大粒で皮が破れにくいこの小豆を使ったおはぎが和菓子店でも供されているという。",
+   "summary_en": "Coarsely pounded sticky rice is rolled and wrapped in sweet red bean paste or soybean flour — an offering sweet for the spring and autumn equinoxes. Kyoto is known for tanba dainagon azuki, a large red bean whose skin resists splitting, and confectioners are said to feature it in their ohagi.",
+   "sources": [
+    {
+     "title": "おはぎ 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ohagi_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ohagi",
+     "to_slug": "natto-mochi",
+     "relation_type": "兄弟",
+     "basis": "ともにもち米ベースの京都の行事菓子で、彼岸と正月それぞれの年中行事に結びつく"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "meal_ender"
+   ],
+   "notes": "伝承地域=府内全域のため京都市を代表点とした。おはぎは全国的な菓子だが、本文が丹波大納言小豆という京都固有の産物との結びつきを語るため作成対象とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "natto-mochi",
+   "name_ja": "納豆餅",
+   "name_romaji": "Natto Mochi",
+   "name_en": "Natto mochi — mochi filled with or wrapped around fermented soybeans",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "",
+   "lat": 35.2015,
+   "lng": 135.5764,
+   "summary_ja": "納豆を餅につき込むか、餅で包んできなこをまぶして食べる京北地区の正月料理。常照皇寺で献上された煮豆が糸を引いたのが始まりと伝わり、戊辰戦争を戦った山国隊の携行食にもなったという。",
+   "summary_en": "Fermented soybeans are either pounded right into the mochi or wrapped inside it, then dusted with soybean flour — a New Year's dish of the Keihoku district. It is said to trace to fermented beans offered at Josho-koji temple, and later became travel food for the Yamaguni Corps in the Boshin War.",
+   "sources": [
+    {
+     "title": "納豆餅 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nattomochi_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "natto-mochi",
+     "to_slug": "kibi-mochi",
+     "relation_type": "兄弟",
+     "basis": "ともに京都の山間部に伝わる年末年始の餅料理"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=京都市、南丹地域。本文が発祥地として名指しする京都市右京区京北地区の座標を採用し、origin_cityは行政区分に合わせ京都市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kibi-mochi",
+   "name_ja": "きび餅・あわ餅・とち餅",
+   "name_romaji": "Kibi Mochi, Awa Mochi, Tochi Mochi",
+   "name_en": "Kibi mochi — mochi made with millet, foxtail millet, or horse chestnut instead of rice alone",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "",
+   "lat": 35.0147,
+   "lng": 135.5747,
+   "summary_ja": "米が十分にとれない丹波の山間部で、きびやあわ、とちの実ともち米をついてつくってきた雑穀餅。かつては主食代わりだったが、いまは素朴な風味が見直され、年末年始の餅として和菓子店でも売られている。",
+   "summary_en": "In the mountain villages of Tanba, where rice alone was hard to grow, mochi has long been pounded with millet, foxtail millet, or horse chestnuts mixed into the sticky rice. Once a stand-in for a rice-scarce staple, its rustic flavor is now valued again and sold by confectioners at year's end.",
+   "sources": [
+    {
+     "title": "きび餅・あわ餅・とち餅 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kibimochi_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kibi-mochi",
+     "to_slug": "natto-mochi",
+     "relation_type": "兄弟",
+     "basis": "ともに京都の山間部に伝わる年末年始の餅料理"
+    }
+   ],
+   "tags": [],
+   "notes": "name_ja: 台帳の「きび餅・あわ餅・とち餅」は3つの並記総称のため主名をきび餅としつつ、名称全体をname_jaに残した。伝承地域=南丹地域、中丹地域のため先頭の南丹地域の中心都市・亀岡市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kuri-gohan",
+   "name_ja": "栗ごはん",
+   "name_romaji": "Kuri Gohan",
+   "name_en": "Kuri gohan — rice cooked with sweet Tanba chestnuts and a touch of salt",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "京都府",
+   "origin_city": "",
+   "lat": 35.2966,
+   "lng": 135.1256,
+   "summary_ja": "大粒で甘みの強い「丹波くり」を米と塩少々で炊き込む秋のごはん。栗は劣化が早いため落下後すぐの調理が肝心とされ、平安時代から貴族に献上されてきたと伝わる丹波の名産を存分に味わう一品。",
+   "summary_en": "Large, sweet Tanba chestnuts are cooked into rice with a touch of salt for an autumn dish. Because the chestnuts spoil quickly once fallen, cooking them right away is said to matter — a way to savor a Tanba specialty said to have been offered to Heian-era nobles.",
+   "sources": [
+    {
+     "title": "栗ごはん 京都府 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kurigohan_kyoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kuri-gohan",
+     "to_slug": "matsutake-gohan",
+     "relation_type": "兄弟",
+     "basis": "ともに丹波地域でとれる秋の実り（栗・松茸）を米と炊き込む京都の季節ごはん"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=中丹地域、南丹地域のため先頭の中丹地域の中心都市・福知山市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "件数: 30行中、作った25件／既存で作らなかった5件（semmaizuke_kyoto=既存slug senmai-zuke、shibazuke_kyoto=既存slug shiba-zuke、sugukizuke_kyoto=既存slug suguki-zuke、sabazushi_kyoto=既存slug saba-zushi[台帳のexisting_slug欄は空だがall-items-ja.txtの日本語名で一致確認]、heshiko_kyoto=要判断で除外[下記参照]）／low判定は1件（barazushi_kyoto: existing_slug=okayama-barazushi。本文が岡山発祥説に触れず、若狭湾のサバと鯖街道に由来する丹後独自の由来・正式名称「丹後ばらずし」を語るため別物と判断し作成）。\n棚(shelf)を変えた行: kamonasu-dengaku（homestyle→grilled、油でじっくり焼いてから味噌をのせ仕上げにあぶる調理法のため）。\n座標の根拠: 伝承地域が単一市町村の行はその市区町村を採用（kigosho, uji-kintoki[山城地域と併記だが本文が宇治市を中心に語るため], mibuna-karashiae, hamo-yakimono[中丹・丹後と併記だが本文の中心が京都市], taikabura, nishin-nasu[府内全域と併記], nikudofu, ebiimo-bodara-taitan[京都市・中丹・丹後と併記], sansho-ha-tsukudani, kamonasu-dengaku=京都市。korogaki-namasu=山城地域だが本文が宇治田原町を特産地と明記）。「府内全域」「京都府全域」は京都市（府庁所在地）を代表点とした（kyoto-shiromiso-zoni, minazuki, furofuki-daikon, ohagi）。複数地方の併記で本文が単一市町村を強く名指しする行はそちらを優先した（kuromame-ni, matsutake-gohan=南丹市［南丹・中丹・丹後の3地域併記だが本文が先頭に南丹市を具体名指し］、takenoko-fuki-taitan=長岡京市［中丹・丹後と伝承地域欄にあるが本文が一貫して長岡京市の産地史を語るため優先。齟齬は要判断］、zuiki-taitan=京都市［中丹・丹後と伝承地域欄にあるが本文の中心話題が北野天満宮のずいき祭りのため優先。齟齬は要判断、origin_cityは伝承地域欄を尊重し空欄］、natto-mochi=京都市右京区京北地区の座標［京都市・南丹地域と併記だが本文の発祥譚がすべて京北地区］）。複数地方が並記され本文に単一地名の言及がない行は先頭に挙げられた地方の中心都市を代表点とした（kibi-mochi=亀岡市［南丹地域が先頭］、kuri-gohan=福知山市［中丹地域が先頭］）。\n要判断: (1) heshiko_kyoto（へしこ）はgenre_hint欄が空欄でtsukemono判定に引っかからなかったが、all-items-ja.txtに同名の既存item「heshiko」（福井県、サバのぬか漬けという同一の保存食コンセプト）が既に存在するため、ブリーフの「魚介の保存食は既存になければ作ってよい」という例外規定を逆読みし、既存にある以上は作らない判断とした。京都（丹後）と福井（若狭）は地理的に隣接し同じサバ保存食文化圏であるため、地域が違っても同一コンセプトの重複と見なした。(2) takenoko-fuki-taitanとzuiki-taitanは、伝承地域欄（中丹・丹後）と本文の主要な地名言及（長岡京市／京都市）が食い違っており、本文の具体性を優先する判断がここでも妥当かは要確認。(3) tango-barazushiはname_jaを台帳の「ばらずし」から本文の正式名称「丹後ばらずし」に変更した。ledgerの表記を優先すべきか、正式名称を優先すべきかは要判断。"
+}
