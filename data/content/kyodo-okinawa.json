@@ -1,0 +1,1100 @@
+{
+ "items": [
+  {
+   "slug": "nakami-jiru",
+   "name_ja": "中身汁",
+   "name_romaji": "Nakami Jiru",
+   "name_en": "Nakami jiru — a clear soup of well-cleaned pork intestine and stomach",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "豚の大腸・小腸・胃を、おからや小麦粉でもみ洗いし、ゆでこぼしを重ねて脂と臭みを丁寧に取り除いてから、かつおと豚のだしですまし汁に仕立てる。祝いや法事の膳としても親しまれ、内臓料理とは思えない澄んだ味わいが持ち味とされる。",
+   "summary_en": "Pork large and small intestine and stomach are scrubbed with tofu lees or flour and boiled down again and again to strip away fat and any trace of gaminess, then finished as a clear soup in bonito-and-pork broth. Served at celebrations and memorial meals, its clean flavor belies its offal base.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_1_okinawa.html",
+     "title": "中身汁 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nakami-jiru",
+     "to_slug": "mimiga",
+     "relation_type": "兄弟",
+     "basis": "出典本文が「鳴き声以外は全て食べ尽くす」という沖縄の豚食文化を共通の背景として説明しており、部位を余さず食べる料理として耳の料理ミミガーと関係づけた。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "offal",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kuubu-irichii",
+   "name_ja": "クーブイリチー",
+   "name_romaji": "Kuubu Irichii",
+   "name_en": "Kuubu irichii — shredded kelp fried and simmered sweet-salty with pork",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "千切りにした昆布を豚だしと醤油、砂糖でこってりと炒め煮にする。「昆布」と「よろこぶ」の語呂合わせから祝いの席に欠かせない料理とされ、豚の三枚肉やかまぼこと合わせて味を含ませる手間が旨みを深める。",
+   "summary_en": "Shredded kelp is fried then simmered down in pork stock, soy sauce, and sugar until richly sweet-salty. Its name puns on kobu (kelp) and yorokobu (to rejoice), making it a fixture at celebrations, its flavor deepened by simmering in with pork belly and kamaboko.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_2_okinawa.html",
+     "title": "クーブイリチー 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kuubu-irichii",
+     "to_slug": "ashi-tibichi",
+     "relation_type": "使用食材",
+     "basis": "どちらも昆布を煮こんで使う沖縄の料理だが、クーブイリチーは昆布を主役に炒め煮にし、足ティビチは豚足の煮込みに昆布を添える対照的な使い方をする。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "kelp",
+    "soy_sauce",
+    "ceremonial",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "inamuduchi",
+   "name_ja": "イナムドゥチ",
+   "name_romaji": "Inamuduchi",
+   "name_en": "Inamuduchi — pork and konjac in a thick, sweet miso soup, once made with boar",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "かつてイノシシで作った汁物が、入手しづらくなり豚肉に置き換わったことから「イノシシもどき」と呼ばれる。こんにゃくや高級な沖縄独自のかまぼこを甘めの味噌でとろりと仕立て、旧正月や卒業式などの祝いの膳を彩る。",
+   "summary_en": "Once made with wild boar, it took its name — 'boar impostor' — after pork replaced the harder-to-find meat. Konjac and Okinawa's own steamed fish cake are simmered into a thick, sweet miso broth, brightening celebratory tables at Lunar New Year and graduation ceremonies alike.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_3_okinawa.html",
+     "title": "イナムドゥチ 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "inamuduchi",
+     "to_slug": "kuuri-jishi",
+     "relation_type": "対比",
+     "basis": "どちらも那覇・首里に伝わる祝い膳の汁物だが、イナムドゥチは甘味噌でとろみをつけ、クーリジシは卵でとじる対照的な仕立て。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "miso",
+    "ceremonial",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kufa-juushii",
+   "name_ja": "クファジューシー",
+   "name_romaji": "Kufa Juushii",
+   "name_en": "Kufa juushii — firm-cooked pork-stock rice for festivals and rites",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "豚だしで米を炊きこむ、しっかりとした歯ごたえの沖縄の炊き込みご飯。行事や祝いの日に欠かせないハレの料理で、盆の精霊迎えには葉ショウガ、冬至には田芋を加えるなど、季節ごとに姿を変える。",
+   "summary_en": "Rice cooked firm in pork stock, its bite pronounced — one of two forms of Okinawan juushii, the other soft and porridge-like. Reserved for festivals and celebrations, it changes with the season: ginger leaf at Obon's spirit-welcoming, taro at the winter solstice.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_4_okinawa.html",
+     "title": "クファジューシー 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kufa-juushii",
+     "to_slug": "yafara-juushii",
+     "relation_type": "兄弟",
+     "basis": "出典本文が、硬く炊く「クファ(堅い)ジューシー」と軟らかく仕立てる「ヤファラ(軟らかい)ジューシー」を対になる形式として説明している。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "ceremonial",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "soomin-tashaa",
+   "name_ja": "ソーミンタシャー",
+   "name_romaji": "Soomin Tashaa",
+   "name_en": "Soomin tashaa — somen stir-fried fast with salt and soy, no tofu involved",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "ゆでたそうめんを強火で手早く炒め、塩と醤油だけでシンプルに仕上げる沖縄の家庭料理。豆腐を使わないため「そうめんチャンプルー」と呼ぶのは実は誤りとされ、台風で外出できない日の食事としても重宝されてきた。",
+   "summary_en": "Boiled somen is stir-fried fast over high heat and seasoned simply with salt and soy sauce. Since it contains no tofu, calling it 'somen champuru' is technically a misnomer — and stocked-up dry somen made this a reliable meal on days when a typhoon kept everyone indoors.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_5_okinawa.html",
+     "title": "ソーミンタシャー 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "soomin-tashaa",
+     "to_slug": "aburazomen",
+     "relation_type": "対比",
+     "basis": "出典本文が「そうめんチャンプルー」という誤称を明確に否定しており、実際にだし汁を加えて炒める鹿児島の油ゾーメンとは、汁気の有無で対照的な仕立てになる。"
+    }
+   ],
+   "tags": [
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "rafutee",
+   "name_ja": "ラフテー",
+   "name_romaji": "Rafutee",
+   "name_en": "Rafute — pork belly simmered slow in sugar, soy sauce, and awamori",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "皮つきの豚三枚肉を、砂糖と醤油、泡盛でとろけるまで気長に煮こむ。かつては暑い沖縄の保存食として濃い味付けだったが、時代とともに薄味へと変わり、法事や客膳に欠かせない料理として今に伝わる。",
+   "summary_en": "Skin-on pork belly is simmered low and slow in sugar, soy sauce, and awamori until it yields at a touch. Once a heavily seasoned preserved food suited to Okinawa's heat, the flavor has grown milder over time into a dish reserved for memorial services and formal guest meals.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_6_okinawa.html",
+     "title": "ラフテー 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "rafutee",
+     "to_slug": "ashi-tibichi",
+     "relation_type": "兄弟",
+     "basis": "出典本文がともに「豚に始まり豚に終わる」琉球料理の代表格として、三枚肉のラフテーと豚足の足ティビチを同じ豚食文化の系譜で紹介している。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "soy_sauce",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "taanmu-dingaku",
+   "name_ja": "ターンムディンガク",
+   "name_romaji": "Taanmu Dingaku",
+   "name_en": "Taanmu dingaku — Okinawan taro worked sweet into a dessert-like paste",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "沖縄特産の田芋を甘く練り上げた、脂っこい豚肉料理の後に添えるデザート的な一品。親芋の周りに子芋が育つことから子孫繁栄の縁起物とされ、正月やお盆など祝いの席に欠かせない食材として扱われる。",
+   "summary_en": "Okinawa's own taro, sweetened and worked into a smooth paste — often served after a rich pork course, almost as dessert. Because young corms grow in a ring around the parent, taro is read as a sign of descendants flourishing, making it essential at New Year and Obon.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_7_okinawa.html",
+     "title": "ターンムディンガク 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "taanmu-dingaku",
+     "to_slug": "kufa-juushii",
+     "relation_type": "対比",
+     "basis": "どちらも田芋を使う祝いの料理だが、ターンムディンガクは甘く練ったデザート的な一品、クファジューシーの一種トゥンジージューシーは田芋を炊きこむ主食と対照的。"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "saataa-andaagii",
+   "name_ja": "サーターアンダーギー",
+   "name_romaji": "Saataa Andaagii",
+   "name_en": "Saataa andaagii — deep-fried dough that blooms open like a flower",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "小麦粉と卵、砂糖の生地を油で揚げると片側が割れ、チューリップのような形に開く沖縄の揚げ菓子。中国菓子の流れを汲むとされ、祝いの行事に振る舞われる琉球菓子として県内で最も親しまれている。",
+   "summary_en": "A wheat, egg, and sugar dough deep-fried until one side splits open into a shape like a blooming tulip. Thought to descend from Chinese confectionery, it's served at celebratory occasions as a piece of Ryukyu confectionery and remains the most familiar sweet in the islands.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_8_okinawa.html",
+     "title": "サーターアンダーギー 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "saataa-andaagii",
+     "to_slug": "kaasaa-muuchii",
+     "relation_type": "兄弟",
+     "basis": "どちらも祝いや行事に振る舞われる琉球菓子で、出典本文がともに中国と和の菓子文化が入り混じって生まれたと説明している。"
+    }
+   ],
+   "tags": [
+    "chinese_derived",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kaasaa-muuchii",
+   "name_ja": "カーサームーチー",
+   "name_romaji": "Kaasaa Muuchii",
+   "name_en": "Kaasaa muuchii — leaf-wrapped mochi steamed for a midwinter ward-off-evil rite",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "もち粉の生地を月桃の葉で包んで蒸した餅で、旧暦12月8日に厄払いとして仏前に供えられる。鬼を退治した妹の伝承が名の由来とされ、蒸し汁を家の周りにまいて葉を戸口に吊るす厄除けの風習が今も残る。",
+   "summary_en": "Rice-flour mochi wrapped in shell ginger leaf and steamed, offered to household gods on the eighth day of the twelfth lunar month to ward off misfortune. The name is said to trace to a folktale of a sister who defeated an ogre, and the leaves are still hung at doorways for protection.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_9_okinawa.html",
+     "title": "カーサームーチー 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kaasaa-muuchii",
+     "to_slug": "akumaki",
+     "relation_type": "対比",
+     "basis": "どちらも植物の葉で包んで蒸す行事用の餅菓子だが、カーサームーチーは月桃の葉で厄払いの供物、あくまきは孟宗竹の皮で灰汁煮の保存食と対照的。"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sooki-jiru",
+   "name_ja": "ソーキ汁",
+   "name_romaji": "Sooki Jiru",
+   "name_en": "Sooki jiru — pork ribs simmered to the bone in a plain clear broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "骨から肉がほろりと外れるまでじっくり煮た豚のあばら肉を、すまし仕立てのお汁でシンプルに味わう。麺にのせた「ソーキそば」は県外でも人気だが、県内ではむしろこのソーキ汁のほうが日常の味として親しまれている。",
+   "summary_en": "Pork ribs are simmered slow until the meat falls from the bone, then savored plain in a clear broth. Soki soba, the noodle version, is the one known outside Okinawa, but within the prefecture this unadorned soup is the more everyday, homier form.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_10_okinawa.html",
+     "title": "ソーキ汁 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sooki-jiru",
+     "to_slug": "soki-soba",
+     "relation_type": "対比",
+     "basis": "出典本文が「ソーキそばが県内外では人気だが、県内ではソーキ汁のほうがポピュラー」と明記しており、同じソーキ骨を麺にのせるか汁のみにするかで対比される。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gooyaa-chanpuruu",
+   "name_ja": "ゴーヤーチャンプルー",
+   "name_romaji": "Gooyaa Chanpuruu",
+   "name_en": "Goya champuru — bitter melon stir-fried with firm tofu and egg",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "苦味のあるゴーヤーを、しっかりとした沖縄豆腐や卵と炒め合わせる。豆腐が入ってはじめて「チャンプルー」と呼べるとされ、夏の暑さで落ちる食欲とビタミンCの摂取を同時に支える一皿として、季節を問わず食卓に上る。",
+   "summary_en": "Bitter goya is stir-fried together with Okinawa's firm tofu and egg. A dish only earns the name champuru once tofu is in it, and this one has long served double duty — coaxing back a summer-flagged appetite while delivering vitamin C, now eaten year-round.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_11_okinawa.html",
+     "title": "ゴーヤーチャンプルー 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gooyaa-chanpuruu",
+     "to_slug": "soomin-tashaa",
+     "relation_type": "対比",
+     "basis": "出典本文が、豆腐が入るものだけを「チャンプルー」と呼ぶと明記しており、豆腐を使わない「タシヤー」のソーミンタシャーと対比される。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "egg",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ika-sumi-jiru",
+   "name_ja": "イカスミ汁",
+   "name_romaji": "Ika Sumi Jiru",
+   "name_en": "Ika sumi jiru — squid and its ink simmered black with pork and bitter greens",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "アオリイカの身と墨を、脂の少ない豚肉やニガナと煮こんだ真っ黒な汁物。食べると口の中まで黒くなるが、イカ墨特有の甘みとコクに苦菜のほろ苦さが重なる「アジクーター」な味わいで、健康食としても重宝されてきた。",
+   "summary_en": "Bigfin reef squid meat and ink are simmered with lean pork and bitter greens into a soup black enough to stain the mouth. The ink's own sweetness and depth meet the greens' bitterness in a flavor Okinawans call ajikuutaa, and it's long been valued as a restorative food.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_12_okinawa.html",
+     "title": "イカスミ汁 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ika-sumi-jiru",
+     "to_slug": "mizuikanomadajiru",
+     "relation_type": "対比",
+     "basis": "ともにイカの墨を使う汁物だが、イカスミ汁は白イカの墨とニガナを塩・醤油で仕立て、ミズイカのマダ汁は墨袋ごと味噌汁に入れる鹿児島・奄美の仕立てと対照的。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ninjin-shirishirii",
+   "name_ja": "人参シリシリー",
+   "name_romaji": "Ninjin Shirishirii",
+   "name_en": "Ninjin shirishirii — shredded carrot stir-fried and bound with egg",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "専用のおろし器でせん切りにした人参を炒め、溶き卵でとじる沖縄の常備菜。「シリシリー」とはすりおろす音を表す方言で、常備の食材だけで手早くつくれる彩りの良さから、子どもから大人まで日常的に親しまれている。",
+   "summary_en": "Carrot shredded on a purpose-made grater is stir-fried and bound with beaten egg. Shirishirii is Okinawan dialect for the sound of grating, and the dish — quick, colorful, built from pantry staples — is an everyday favorite across generations.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_13_okinawa.html",
+     "title": "人参シリシリー 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ninjin-shirishirii",
+     "to_slug": "gooyaa-chanpuruu",
+     "relation_type": "兄弟",
+     "basis": "どちらも卵でとじる沖縄の日常的な家庭常備菜として、同じ炒めものの系譜にある。"
+    }
+   ],
+   "tags": [
+    "egg",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "minudaru",
+   "name_ja": "ミヌダル",
+   "name_romaji": "Minudaru",
+   "name_en": "Minudaru — pork loin steamed in a black sesame paste until nearly black",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "豚のロース肉を黒ゴマだれに漬けこんで蒸し上げる、見た目の黒さから「黒肉」とも呼ばれる料理。脂が落ちるため見た目より軽い味わいで、冷めても味が変わりにくく、東道盆と呼ばれる祝いの前菜盛りの一品として供される。",
+   "summary_en": "Pork loin is steeped in a black-sesame paste and steamed until the color turns almost black, earning it the nickname 'black meat.' Steaming renders out the fat for a lighter taste than it looks, and it keeps well cold, making it a fixture among the assorted appetizers of formal Ryukyu banquets.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_14_okinawa.html",
+     "title": "ミヌダル 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "minudaru",
+     "to_slug": "jiimaami-doofu",
+     "relation_type": "対比",
+     "basis": "どちらも王朝時代から伝わる沖縄の格式ある一品だが、ミヌダルは黒ゴマだれで蒸す豚肉料理、ジーマーミ豆腐は落花生を練り上げる精進料理と対照的。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "ceremonial",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "naabeeraa-nbushii",
+   "name_ja": "ナーベーラーンブシー",
+   "name_romaji": "Naabeeraa Nbushii",
+   "name_en": "Naabeeraa nbushii — young loofah simmered thick with miso pork belly",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "南風原町",
+   "lat": 26.1922,
+   "lng": 127.7286,
+   "summary_ja": "若く柔らかいへちまを、味噌を絡めた豚の三枚肉と炒め煮にする。じっくり火を通すととろりと甘い煮汁が出るのが決め手とされ、鹿児島のへちま汁とは違い、そうめんを使わず具材そのものの甘みを味噌で引き立てる。",
+   "summary_en": "Young, tender loofah is simmered together with pork belly worked in miso. The trick is letting it cook slow enough to release its own sweet, syrupy liquid — unlike Kagoshima's hechima jiru, this version skips the somen and lets miso bring out the loofah's own sweetness instead.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_16_okinawa.html",
+     "title": "ナーベーラーンブシー 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "naabeeraa-nbushii",
+     "to_slug": "hechimajiru",
+     "relation_type": "対比",
+     "basis": "どちらもへちまを使う料理だが、ナーベーラーンブシーは味噌で炒め煮にする南風原町中心の一皿、鹿児島のへちま汁はそうめんにかける汁物と対照的。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "miso",
+    "ryukyu"
+   ],
+   "notes": "伝承地域は県内全域だが、出典本文が南風原町を「日本屈指の産地」と名指ししているため南風原町の座標を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chimu-shinji",
+   "name_ja": "チムシンジ",
+   "name_romaji": "Chimu Shinji",
+   "name_en": "Chimu shinji — pork liver simmered like a tonic for a tired body",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "豚レバーと黄色い島にんじんを煎じるように煮こむ、体調がすぐれない時のための滋養食。食事がそのまま薬になるという「クスイムン」の考え方に基づく料理で、貧血気味の時や風邪をひいた時によくつくられてきた。",
+   "summary_en": "Pork liver and a native yellow carrot are simmered down almost like a medicinal decoction, meant for days the body needs support. It follows the kusuimun idea that food itself can be medicine, and is traditionally made for anemia or when someone's caught a cold.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_17_okinawa.html",
+     "title": "チムシンジ 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "chimu-shinji",
+     "to_slug": "ashi-tibichi",
+     "relation_type": "兄弟",
+     "basis": "出典本文がそれぞれ「クスイムン」「以類補類」という、食事を薬とみなす沖縄の共通した考え方を根拠として説明している。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "offal",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "jiimaami-doofu",
+   "name_ja": "ジーマーミ豆腐",
+   "name_romaji": "Jiimaami Doofu",
+   "name_en": "Jiimaami doofu — peanut milk set firm like sesame tofu",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "落花生の絞り汁と芋くずを練り上げてつくる、ごま豆腐に似た沖縄の料理。強いこしととろけるような口当たりが同居し、高たんぱくで栄養価が高いことから、かつては法事や祝い事の精進料理として重宝されてきた。",
+   "summary_en": "Peanut milk and sweet-potato starch are worked together into something resembling sesame tofu, its strong body and melting texture sitting side by side. High in protein, it was once reserved as a vegetarian dish for memorial services and celebrations, a delicacy of its own.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_18_okinawa.html",
+     "title": "ジーマーミ豆腐 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "jiimaami-doofu",
+     "to_slug": "minudaru",
+     "relation_type": "対比",
+     "basis": "ともに王朝時代からの格式ある一品として並べて紹介した(minudaru側と相互参照)。"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ashi-tibichi",
+   "name_ja": "足ティビチ",
+   "name_romaji": "Ashi Tibichi",
+   "name_en": "Ashi tibichi — pig's trotters simmered for hours with kelp and daikon",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "豚足を昆布や大根とともに、骨がすっと抜けるほどやわらかくなるまで長時間煮こむ。「弱った部位と同じ部位を食べる」という以類補類の考え方から、脚に不調のある人や年配者、美容を気づかう人に好まれてきたとされる。",
+   "summary_en": "Pig's trotters are simmered for hours with kelp and daikon until the bone slides free on its own. Rooted in the belief that eating a body part heals the same part in the eater, it's traditionally favored by older people, anyone with trouble in the legs, or those minding their skin.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_19_okinawa.html",
+     "title": "足ティビチ 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ashi-tibichi",
+     "to_slug": "chii-irichii",
+     "relation_type": "兄弟",
+     "basis": "出典本文がそれぞれ「以類補類」の思想を根拠に挙げており、足ティビチと血イリチーは同じ食養生思想に連なる料理として関係づけた。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "kelp",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mozuku-don",
+   "name_ja": "もずく丼",
+   "name_romaji": "Mozuku Don",
+   "name_en": "Mozuku don — stir-fried pork and mozuku seaweed spooned over rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "donburi",
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "豚ひき肉ともずくを炒め合わせ、しょうがの搾り汁で海藻特有の香りを抑えてご飯にのせる。学校給食で親しまれたことから県内で広く知られるようになり、生産量のほとんどを担う沖縄県ならではのどんぶりとして定着した。",
+   "summary_en": "Ground pork and mozuku seaweed are stir-fried together, ginger juice taming the seaweed's characteristic smell, then spooned over rice. It caught on through school lunches and has become a rice bowl distinctly tied to Okinawa, which grows nearly all of Japan's cultivated mozuku.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_21_okinawa.html",
+     "title": "もずく丼 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mozuku-don",
+     "to_slug": "mozuku",
+     "relation_type": "使用食材",
+     "basis": "既存項目mozuku(もずく、海藻そのもの)を主素材として使い、ご飯にのせる丼料理に仕立てた派生形のため使用食材の関係とした。"
+    }
+   ],
+   "tags": [
+    "ryukyu"
+   ],
+   "notes": "existing_slug=mozuku(low)。既存mozuku項目は海藻そのものの食材項目で、三杯酢や天ぷらとしての利用は既に説明済みだが、本項目はご飯にのせる丼料理という別形態のため作成。genre_hintは空欄だが名前に「丼」を含むためgenre=donburiを付与。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kuuri-jishi",
+   "name_ja": "クーリジシ",
+   "name_romaji": "Kuuri Jishi",
+   "name_en": "Kuuri jishi — a clear pork soup finished with egg poured like falling snow",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "那覇市",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "豚の三枚肉やトウガン、ゴボウを吸い物仕立てにし、仕上げに溶き卵をそっと流し入れる。椀の中で広がる卵が雪のように見えることから「氷肉」の名がついたと伝わり、かつては卵が貴重だった時代、お盆の供え料理として作られていた。",
+   "summary_en": "Pork belly, winter melon, and burdock are set in a clear broth, finished with beaten egg poured gently over the surface. The name means 'ice meat,' said to come from how the egg spreads like snow across the bowl — once made as an Obon offering, back when eggs were still precious.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_22_okinawa.html",
+     "title": "クーリジシ 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kuuri-jishi",
+     "to_slug": "inamuduchi",
+     "relation_type": "対比",
+     "basis": "どちらも那覇・首里に伝わる祝い膳の汁物で、クーリジシは卵でとじ、イナムドゥチは甘味噌でとろみをつける対照的な仕立て。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "egg",
+    "ceremonial",
+    "ryukyu"
+   ],
+   "notes": "伝承地域が「那覇、首里など」と具体名のため那覇市の座標を採用(首里は那覇市の一地区)。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nmukuji-puttoruu",
+   "name_ja": "ンムクジプットゥルー",
+   "name_romaji": "Nmukuji Puttoruu",
+   "name_en": "Nmukuji puttoruu — sweet-potato starch worked glossy in a hot pan",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "さつまいものでんぷんを水で溶いて味噌で味つけし、油をひいたフライパンでのり状になるまで練り炒める。台風の多い沖縄では非常食としても作られてきたといい、砂糖を加えればおやつにもなる素朴な一品。",
+   "summary_en": "Sweet-potato starch is thinned with water, seasoned with miso, and worked in an oiled pan until it turns glossy and paste-like. In typhoon-prone Okinawa it's also served as an emergency food, and swapping in sugar turns the same simple dish into a snack.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_24_okinawa.html",
+     "title": "ンムクジプットゥルー 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nmukuji-puttoruu",
+     "to_slug": "karaimonettabo",
+     "relation_type": "対比",
+     "basis": "どちらもさつまいも由来の素材を使う南方の郷土料理だが、ンムクジプットゥルーは芋くずを練った惣菜・非常食、からいもねったぼは芋を丸ごと餅に練りこんだ祝い菓子と対照的。"
+    }
+   ],
+   "tags": [
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yafara-juushii",
+   "name_ja": "ヤファラジューシー",
+   "name_romaji": "Yafara Juushii",
+   "name_en": "Yafara juushii — a soft, brothy rice porridge for an off day",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "だしをたっぷり効かせ、水分を多めにして炊く沖縄の雑炊風ご飯。しっかり炊き上げるクファジューシーに対し、日常の体調がすぐれない時にも食べやすいやわらかな仕立てで、よもぎや芋の葉を加える家庭も多い。",
+   "summary_en": "A softer, wetter cousin of kufa juushii, cooked porridge-style with plenty of broth. Where the firmer version is festival food, this one is gentle enough to eat on an off day, and many households stir in mugwort or sweet-potato leaf.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_25_okinawa.html",
+     "title": "ヤファラジューシー 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yafara-juushii",
+     "to_slug": "kufa-juushii",
+     "relation_type": "兄弟",
+     "basis": "出典本文が硬さの違いで対になる「クファ(堅い)ジューシー」「ヤファラ(軟らかい)ジューシー」として明記している。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ushi-jiru",
+   "name_ja": "牛汁",
+   "name_romaji": "Ushi Jiru",
+   "name_en": "Ushi jiru — a rare beef soup in pork country, paired with island carrot",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "名護市",
+   "lat": 26.5911,
+   "lng": 127.9773,
+   "summary_ja": "豚肉文化の沖縄では珍しい牛肉の汁物で、冬に出回る島にんじんのチデークニを合わせてつくる。風邪予防や滋養強壮のための料理とされ、名護市安和の「牛御願」など一部地域の伝統行事にも供え物として登場する。",
+   "summary_en": "A rare beef dish in pork-centered Okinawa, paired with chidee-kuni, an island carrot that comes into season in winter. Eaten as a guard against colds and for general vigor, it also appears as an offering in local traditions such as Nago's Ushi-nuganu rite.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_26_okinawa.html",
+     "title": "牛汁 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ushi-jiru",
+     "to_slug": "hiijaa-jiru",
+     "relation_type": "対比",
+     "basis": "どちらも豚肉中心の沖縄では珍しい肉を使う汁物で、牛汁は冬の滋養食、ヒージャー汁は祝いの席の振る舞い料理と食習の機会が対照的。"
+    }
+   ],
+   "tags": [
+    "beef",
+    "ryukyu"
+   ],
+   "notes": "伝承地域は県内全域だが、出典本文が名護市安和の伝統行事「牛御願」を名指ししているため名護市の座標を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iiyachi",
+   "name_ja": "イーヤチ",
+   "name_romaji": "Iiyachi",
+   "name_en": "Iiyachi — leaf-wrapped millet mochi carried through a harvest festival",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "竹富島",
+   "lat": 24.3319,
+   "lng": 124.0851,
+   "summary_ja": "もち米に粟や小豆を混ぜて大鍋で炊き、練り上げて芭蕉の葉で包んで蒸す竹富島の保存食。豊作を祈る種子取祭の間、祭事に追われて調理する時間がないため、すぐ食べられる携行食として用意されてきたと伝わる。",
+   "summary_en": "Mochi rice mixed with millet and red beans, cooked in a large pot, worked smooth, then wrapped in banana leaf and steamed — a keeping food from Taketomi Island. Made to eat on the go during the harvest-prayer Tanadui festival, when there's no time to cook amid the rites.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_27_okinawa.html",
+     "title": "イーヤチ 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "iiyachi",
+     "to_slug": "akumaki",
+     "relation_type": "対比",
+     "basis": "どちらも植物の葉に包んで長時間の行事に備える保存食だが、イーヤチは芭蕉の葉で包む竹富島の種子取祭の携行食、あくまきは孟宗竹の皮で包む鹿児島の端午の節句の菓子と対照的。"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iragimun",
+   "name_ja": "イラギムン",
+   "name_romaji": "Iragimun",
+   "name_en": "Iragimun — green papaya simmered lightly in home-made miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "石垣市",
+   "lat": 24.3448,
+   "lng": 124.1572,
+   "summary_ja": "熟す前の青いパパイヤを、豚肉や豆腐、昆布とともに手作りの味噌でさらりと和え煮にする八重山の家庭料理。パパイヤは煮ると大根に似た食感になるといい、産後の授乳期を支える食材としても親しまれてきた。",
+   "summary_en": "Unripe green papaya is simmered lightly with pork, tofu, and kelp in home-made miso — a household dish from the Yaeyama Islands. Cooked papaya is said to take on a texture close to daikon, and it's also been valued as food to support new mothers after childbirth.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_28_okinawa.html",
+     "title": "イラギムン 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "iragimun",
+     "to_slug": "naabeeraa-nbushii",
+     "relation_type": "兄弟",
+     "basis": "どちらも家庭の手作り味噌で野菜を和え煮にする沖縄の料理で、イラギムンは八重山の青パパイヤ、ナーベーラーンブシーは本島南部のへちまを使う。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "miso",
+    "ryukyu"
+   ],
+   "notes": "伝承地域「離島地域（八重山）」は広域のため、中心地の石垣市で近似。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hiijaa-jiru",
+   "name_ja": "ヒージャー汁",
+   "name_romaji": "Hiijaa Jiru",
+   "name_en": "Hiijaa jiru — goat simmered long with mugwort and bitter greens",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "ヤギの肉や内臓を大鍋でじっくり煮こみ、香りの強いよもぎや苦菜を加えて塩味で仕上げる。独特の風味は好みが分かれるとされるが、棟上げや新築祝いなど大勢が集まる祝いの席で振る舞われてきた料理である。",
+   "summary_en": "Goat meat and offal are simmered slow in a large pot, finished with pungent mugwort, bitter greens, and salt alone. Its distinctive flavor is said to divide opinion, yet it remains a dish served at celebrations that draw a crowd, like a house's ridge-raising or a new-build's completion.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_29_okinawa.html",
+     "title": "ヒージャー汁 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hiijaa-jiru",
+     "to_slug": "ushi-jiru",
+     "relation_type": "対比",
+     "basis": "牛汁の項目を参照(相互参照)。"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "chii-irichii",
+   "name_ja": "血イリチー",
+   "name_romaji": "Chii Irichii",
+   "name_en": "Chii irichii — pork blood stir-simmered with meat and vegetables",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "沖縄県",
+   "origin_city": "",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "summary_ja": "豚の血に、豚肉やにんじん、きくらげなどを加えて炒め煮にする沖縄独特の料理。不調のある部位と同じ部位を食べて補うという以類補類の考えから貧血予防の薬効も期待され、旧正月前や法事の供え物として振る舞われてきた。",
+   "summary_en": "Pork blood is worked with pork meat, carrot, and wood-ear mushroom into a distinctive stir-simmered dish. Rooted in the same eat-what-ails-you logic as ashi tibichi, it was thought to guard against anemia, and it's traditionally offered before Lunar New Year and at memorial services.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_30_okinawa.html",
+     "title": "血イリチー 沖縄県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "chii-irichii",
+     "to_slug": "ashi-tibichi",
+     "relation_type": "兄弟",
+     "basis": "足ティビチの項目を参照(相互参照、以類補類の思想を共有)。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "offal",
+    "ceremonial",
+    "ryukyu"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: 47_20_okinawa(沖縄そば, existing_slug=naha-soba, high, 既存) / 47_23_okinawa(ヒラヤーチー, existing_slug空欄だが既存slug hirayachi「ヒラヤーチー」と完全一致のため既存と判断し作らず) / 47_15_okinawa(ミミガーさしみ, existing_slug=mimiga, low判定→既存mimigaのbody_jaが酢の物・和え物として薄切りにする調理法まで既に詳述しており、ミミガーさしみと実質同一料理と判断し作らず)。low判定の内訳: 47_15(ミミガーさしみ)は上記の理由で作らず。47_21(もずく丼, existing_slug=mozuku, low)は、既存mozukuが海藻の食材項目であるのに対し、本項目はご飯にのせる丼料理という別形態のため別物と判断し作成(slug: mozuku-don)。棚を変えた行: なし(台帳のshelfをすべて踏襲)。genreを付与した行: mozuku-don(もずく丼)は台帳genre_hint空欄だが、名前に「丼」を含むため自明としてgenre=donburiを付与。座標の根拠: 「県内全域」は県庁所在地の那覇市で近似。naabeeraa-nbushii(ナーベーラーンブシー)は出典本文が南風原町を「日本屈指の産地」と名指ししているため南風原町を採用。ushi-jiru(牛汁)は出典本文が名護市安和の伝統行事「牛御願」を名指ししているため名護市を採用。kuuri-jishi(クーリジシ)は伝承地域が「那覇、首里など」と具体的なため那覇市を採用(首里は那覇市の一地区)。iiyachi(イーヤチ)は伝承地域が竹富島そのものと単一のため竹富島の座標を採用。iragimun(イラギムン)は伝承地域が「離島地域（八重山）」の広域表記のため中心地の石垣市で近似、notesに広域と明記。要判断: mozuku-don(もずく丼)は既存mozuku(low)と別物と判断して作成した。ashi-tibichi・chii-irichii・chimu-shinjiの3項目は、出典本文がそれぞれ「以類補類」「クスイムン」という沖縄独自の食養生思想を明記しているため、この思想を共有する兄弟関係として相互に関係づけた。"
+}

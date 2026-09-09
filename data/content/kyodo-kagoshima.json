@@ -1,0 +1,927 @@
+{
+ "items": [
+  {
+   "slug": "satsumaebizoni",
+   "name_ja": "さつまえび雑煮",
+   "name_romaji": "Satsuma Ebi Zoni",
+   "name_en": "Satsuma ebi zoni — New Year mochi soup topped with a shrimp bigger than the bowl",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "出水市",
+   "lat": 32.0961,
+   "lng": 130.3606,
+   "summary_ja": "椀からはみ出すほど大きな焼きエビをのせた正月の雑煮。出水沖で伝統漁法によって獲られたエビを炭火で焼き、島津家に献上していた名残と伝わり、薩摩地域では冬の風物詩として軒先に焼きエビが吊るされる。",
+   "summary_en": "A New Year mochi soup topped with a grilled shrimp so large it hangs over the bowl's rim. It's said to descend from shrimp caught off Izumi by traditional net-fishing, charcoal-grilled and once presented to the Shimazu clan; grilled shrimp still hang outside dried-goods shops there each winter.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/satsumaebizoni_kagoshima.html",
+     "title": "さつまえび雑煮 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "satsumaebizoni",
+     "to_slug": "buri-zoni",
+     "relation_type": "対比",
+     "basis": "どちらも正月の雑煮に地元で獲れる魚介を丸ごと近い形でのせる点で対比される。さつまえび雑煮は薩摩藩への献上に由来するエビ、ブリ雑煮は出世魚のブリを使う。"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "keihan",
+   "name_ja": "鶏飯",
+   "name_romaji": "Keihan",
+   "name_en": "Keihan — shredded chicken and toppings over rice with chicken broth poured tableside",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "",
+   "lat": 28.3775,
+   "lng": 129.4933,
+   "summary_ja": "白ごはんにほぐし鶏や錦糸卵、パパイヤの味噌漬けをのせ、鶏ガラスープを注いでさらさらとかきこむ奄美地域の料理。薩摩藩の役人をもてなす膳として生まれたと伝わり、当初はスープなしの炊き込みご飯だったという。",
+   "summary_en": "Shredded chicken, thread-thin egg, and papaya pickled in miso are laid over rice, then chicken broth is poured over the top to eat briskly. Said to have begun as a dish to entertain Satsuma-domain officials in Amami, it started out without the broth, as a chicken-mixed rice.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/keihan_kagoshima.html",
+     "title": "鶏飯 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "keihan",
+     "to_slug": "aburazomen",
+     "relation_type": "兄弟",
+     "basis": "出典本文で「油ゾーメン」のだしに鶏飯と同様の鶏スープを使うことがあると明記されており、同じ奄美地域の鶏だし文化を共有する料理として関係づけた。"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "ceremonial"
+   ],
+   "notes": "広域(奄美地域)のため中心地の奄美市で近似。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "satsumajiru",
+   "name_ja": "さつま汁",
+   "name_romaji": "Satsuma Jiru",
+   "name_en": "Satsuma jiru — a chicken-and-vegetable miso soup rooted in cockfighting tradition",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "鹿児島市",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "鶏肉やごぼう、里芋を煮こんだ具だくさんの味噌汁。薩摩武士が士風高揚のためおこなった闘鶏で、負けた鶏をその場でしめて野菜と煮たのが始まりと伝わり、鶏をよく食べる鹿児島の食文化を今に伝える。",
+   "summary_en": "A hearty miso soup thick with chicken, burdock, and taro. It's said to trace back to Satsuma-domain cockfighting, where the losing bird was slaughtered on the spot and simmered with vegetables by the samurai who kept it — an early mark of Kagoshima's enduring taste for chicken.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/satsumajiru_kagoshima.html",
+     "title": "さつま汁 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "satsumajiru",
+     "to_slug": "satsuma-jidori",
+     "relation_type": "使用食材",
+     "basis": "出典本文が、闘鶏用に飼われた薩摩鶏を原種とする薩摩地鶏など「かごしま地鶏」の系譜と、さつま汁を含む鶏料理文化を結びつけて説明している。"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "miso"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kagoshima-buridaikon",
+   "name_ja": "ぶり大根",
+   "name_romaji": "Buri Daikon",
+   "name_en": "Kagoshima buri daikon — yellowtail and daikon simmered together, built on farmed buri",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "養殖ブリと大根を炊き合わせた冬の定番料理。内湾でブリの稚魚モジャコがよくとれる鹿児島県はブリの養殖が盛んで、身が締まり煮崩れしにくい特産の桜島大根を合わせると味がいっそう深まるとされる。",
+   "summary_en": "Farmed yellowtail and daikon simmered together, a winter standard from Japan's top producer of farmed buri. Using the prefecture's own Sakurajima daikon — dense-fleshed and slow to fall apart — is said to deepen the dish further.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/buridaikon_kagoshima.html",
+     "title": "ぶり大根 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kagoshima-buridaikon",
+     "to_slug": "toyama-buridaikon",
+     "relation_type": "対比",
+     "basis": "同じ「ぶり大根」の名を持つが、富山は天然の寒ブリの水揚げに由来する物語、鹿児島は養殖ブリの生産量日本一という物語で、産地の性格が対照的。"
+    }
+   ],
+   "tags": [],
+   "notes": "台帳のshelf=homestyleを維持。全国に同名の富山・石川の項目があるため<地名>-<料理名>のslugにした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "miki",
+   "name_ja": "みき",
+   "name_romaji": "Miki",
+   "name_en": "Miki — a lightly sour, lactic-fermented rice-and-sweet-potato drink from Amami",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "",
+   "lat": 28.3775,
+   "lng": 129.4933,
+   "summary_ja": "米粉とさつまいも、砂糖を発酵させた乳酸菌飲料。祭事で神に捧げる口噛み酒を起源とすると伝わり、できたては甘く、日が経つほど酸味が増していく変化も奄美地域では好まれている。",
+   "summary_en": "A lactic-fermented drink made from rice flour, sweet potato, and sugar, said to descend from kuchikami-zake once offered to the gods at harvest festivals. It's sweet fresh, but grows more sour by the day — and in Amami, that sourness is often the more prized stage.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/miki_kagoshima.html",
+     "title": "みき 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "miki",
+     "to_slug": "keihan",
+     "relation_type": "対比",
+     "basis": "ともに奄美地域を代表する食だが、みきは神事に由来する発酵飲料、鶏飯は藩の役人をもてなす膳に由来する食事という対照的な成り立ちを持つ。"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "沖縄県でも麦を使う同名の飲み物があるが、台帳・ledgerに沖縄側の項目が無いため関係先として作成せず。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mizuikanomadajiru",
+   "name_ja": "ミズイカのマダ汁",
+   "name_romaji": "Mizuika no Mada Jiru",
+   "name_en": "Mizuika no mada jiru — miso soup thickened black with squid ink and its liver sac",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "",
+   "lat": 28.3775,
+   "lng": 129.4933,
+   "summary_ja": "アオリイカ（ミズイカ）の身と墨袋（マダ）を味噌汁に溶き入れる奄美地域の汁物。イカ墨のまろやかな甘みとコクが持ち味で、マダはのぼせや血圧を下げる薬としても買い求められてきたという。",
+   "summary_en": "A miso soup from Amami where bigfin reef squid meat and its ink sac are stirred straight into the broth. The ink lends a mellow sweetness and depth, and the sac itself has long been bought as a remedy said to ease flushing and high blood pressure.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mizuikanomadajiru_kagoshima.html",
+     "title": "ミズイカのマダ汁 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mizuikanomadajiru",
+     "to_slug": "kibinago",
+     "relation_type": "対比",
+     "basis": "どちらも奄美・鹿児島近海で水揚げされる魚介を鮮度優先で食べる料理だが、キビナゴは手開きの刺身、ミズイカは墨ごと汁にする対照的な扱い。"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "buta-hone-yasai",
+   "name_ja": "豚骨野菜",
+   "name_romaji": "Buta Hone Yasai",
+   "name_en": "Buta hone yasai — bone-in pork and island vegetables simmered for New Year's Eve",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "",
+   "lat": 28.3775,
+   "lng": 129.4933,
+   "summary_ja": "大きく切った骨付き豚肉とツワブキ、大根、里芋の在来種コシャマンを大鍋で煮こむ、奄美地域の大晦日に欠かせない料理。別名ウァンフィネヤッセといい、島豚を余さず食べ尽くす知恵の一皿とされる。",
+   "summary_en": "Bone-in pork cut into big chunks is simmered in a large pot with tsuwabuki, daikon, and koshaman taro — an Amami dish essential to New Year's Eve, also called wanfineyasse. It's regarded as a wisdom born of using every part of the island's own black pigs.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/butahoneyasai_kagoshima.html",
+     "title": "豚骨野菜 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "buta-hone-yasai",
+     "to_slug": "sangon",
+     "relation_type": "兄弟",
+     "basis": "出典本文が「豚骨野菜を大晦日に食べ、翌1月1日は三献で新年を迎える」と、両者を一続きの年越し行事として明記している。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "ceremonial"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sangon",
+   "name_ja": "三献",
+   "name_romaji": "Sangon",
+   "name_en": "Sangon — a three-course New Year's ritual meal of soup, sashimi, and soup, cup by cup",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "",
+   "lat": 28.3775,
+   "lng": 129.4933,
+   "summary_ja": "赤椀の吸い物、刺身、黒椀の吸い物を順に食べ、間ごとに家族で焼酎を酌み交わす奄美地域の正月儀礼。室町時代の本膳料理に連なるとされ、いまも奄美では正月行事として根づいている。",
+   "summary_en": "A New Year ritual from Amami: a red-lacquer soup, sashimi, then a black-lacquer soup, eaten in order with a cup of shochu passed round the family between each course. It traces to the honzen banquet style of the Muromachi period, and in Amami the custom still holds.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sangon_kagoshima.html",
+     "title": "三献 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sangon",
+     "to_slug": "buta-hone-yasai",
+     "relation_type": "兄弟",
+     "basis": "大晦日の豚骨野菜から続く元日の儀礼食として出典本文で結びつけられている。"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aburazomen",
+   "name_ja": "油ゾーメン",
+   "name_romaji": "Abura Zomen",
+   "name_en": "Abura zomen — somen fried with pork and a splash of broth until the oil turns silky",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "yakisoba",
+   "origin_pref": "鹿児島県",
+   "origin_city": "",
+   "lat": 28.3775,
+   "lng": 129.4933,
+   "summary_ja": "豚肉とそうめんをだし汁ごと炒め、油と出汁を乳化させてまとわせる奄美地域の一皿。小麦を育てない奄美でそうめんが根づいた経緯は定かでないが、八月踊りなど人が集まる行事に欠かせない。",
+   "summary_en": "Pork and somen are fried together with a splash of broth, the oil and stock emulsifying into a silky coat on the noodles. Just how somen took root in wheat-free Amami isn't clear, but the dish is a fixture whenever people gather, not least for the August Dance festival.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/aburazomen_kagoshima.html",
+     "title": "油ゾーメン 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "aburazomen",
+     "to_slug": "keihan",
+     "relation_type": "兄弟",
+     "basis": "出典本文で「油ゾーメン」に鶏飯と同様の鶏スープを使うことがあると明記されている。"
+    }
+   ],
+   "tags": [
+    "pork"
+   ],
+   "notes": "genre_hintは空欄。そうめんを炒めてソース状に仕上げる点が焼きそば的なため、名前と分類から自明としてgenre=yakisobaを付与。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fukuregashi",
+   "name_ja": "ふくれ菓子",
+   "name_romaji": "Fukure Gashi",
+   "name_en": "Fukure gashi — baking-soda-leavened black-sugar cake, steamed until it puffs up",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "鹿児島市",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "小麦粉と重曹、黒糖を混ぜて蒸す郷土菓子で、重曹でふっくら膨らむことからソーダ菓子とも呼ばれる。薩摩藩が奄美・琉球の黒糖生産を独占した歴史を背景に、黒糖菓子として鹿児島に根づいた。",
+   "summary_en": "Wheat flour, baking soda, and black sugar are mixed and steamed into a cake that puffs up from the soda, earning it the nickname soda-gashi. It took root in Kagoshima against the backdrop of the Satsuma domain's monopoly on Amami and Ryukyu black-sugar production.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/fukuregashi_kagoshima.html",
+     "title": "ふくれ菓子 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fukuregashi",
+     "to_slug": "kokuto",
+     "relation_type": "使用食材",
+     "basis": "出典本文が、薩摩藩による黒糖独占の歴史を背景にふくれ菓子が生まれたと明記している。"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shirokuma",
+   "name_ja": "白熊",
+   "name_romaji": "Shirokuma",
+   "name_en": "Shirokuma — shaved ice under condensed milk, ringed with fruit and red bean",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "鹿児島市",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "削り氷に練乳をかけ、チェリーやみかん、小豆を色とりどりにのせた鹿児島発祥の氷菓。上から見た姿が白熊に似ることからこの名がついたと伝わり、夏の鹿児島を象徴する一品として親しまれている。",
+   "summary_en": "Shaved ice under condensed milk, ringed with cherries, mandarin, and red bean in bright color. The name is said to come from how the toppings look, seen from above, like a polar bear's face — and it's become a summer emblem of Kagoshima.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shirokuma_kagoshima.html",
+     "title": "白熊 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shirokuma",
+     "to_slug": "fukuregashi",
+     "relation_type": "対比",
+     "basis": "どちらも鹿児島の菓子文化を代表するが、白熊は戦後生まれの氷菓、ふくれ菓子は江戸期の黒糖文化に由来する蒸し菓子と成り立ちが対照的。"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hechimajiru",
+   "name_ja": "へちま汁",
+   "name_romaji": "Hechima Jiru",
+   "name_en": "Hechima jiru — young loofah simmered in barley miso, ladled over a bowl of somen",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "鹿児島市",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "若いへちまを麦味噌の汁で煮て、ゆでたそうめんにかけて食べる鹿児島の夏の料理。とろりとした食感と自然な甘みが麦味噌の甘さと重なり、お盆の精進料理としても欠かせない一椀である。",
+   "summary_en": "Young loofah is simmered in a barley-miso broth and ladled over boiled somen — a Kagoshima summer dish. Its silky texture and natural sweetness echo the miso's own sweetness, and the bowl also has a place in the vegetarian dishes served at Obon.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hechimajiru_kagoshima.html",
+     "title": "へちま汁 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hechimajiru",
+     "to_slug": "aburazomen",
+     "relation_type": "対比",
+     "basis": "どちらもそうめんを使う鹿児島の料理だが、へちま汁は麦味噌汁にそうめんを沈める汁物、油ゾーメンはそうめんそのものを油とだしで炒める対照的な調理法。"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "butajiru",
+   "name_ja": "豚汁",
+   "name_romaji": "Buta Jiru",
+   "name_en": "Buta jiru — pork and root vegetables in a sweet, low-salt barley-miso broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "鹿児島市",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "豚肉と大根、里芋などを煮こむ味噌汁で、飼育頭数の多い鹿児島の豚と、麹が多く甘みの強い麦味噌を合わせてつくる。冬に体を温める一椀として、家庭でも給食でも広く親しまれている。",
+   "summary_en": "Pork simmered with daikon, taro, and other roots in a miso broth, built on Kagoshima's own pork — the prefecture raises more hogs than any other — paired with a barley miso high in koji and correspondingly sweet. A warming bowl for winter, common at home and in school lunches alike.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/butajiru_kagoshima.html",
+     "title": "豚汁 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "butajiru",
+     "to_slug": "tonkotsu",
+     "relation_type": "兄弟",
+     "basis": "出典本文がともに麦味噌と鹿児島の豚肉を使う料理として、豚骨・豚味噌と並べて豚汁を紹介している。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "miso"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "satsumasumoji",
+   "name_ja": "さつますもじ",
+   "name_romaji": "Satsuma Sumoji",
+   "name_en": "Satsuma sumoji — a colorful vinegared-rice sushi for spring celebrations, mixed by hand",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "鹿児島県",
+   "origin_city": "鹿児島市",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "宮中の女房言葉「すもじ」に由来するちらしずし。地酒の灰持酒を手にひたし、その手で合わせ酢のごはんと具材を豪快に混ぜてつくる庶民のすしで、雛祭りなど春の祝いに欠かせない。",
+   "summary_en": "A chirashi-style sushi whose name comes from sumoji, a court-lady term for sushi. The rice, dressed with vinegar, is mixed by hand dipped in a local unpasteurized sake — a commoner's sushi, unlike its fancier cousin sakezushi, and a fixture of spring celebrations like Hinamatsuri.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/satsumasumoji_kagoshima.html",
+     "title": "さつますもじ 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "satsumasumoji",
+     "to_slug": "sakezushi",
+     "relation_type": "対比",
+     "basis": "出典本文が、酒ずしは殿様や上流武士の豪華な料理、さつますもじは身近な食材でつくる庶民のすしとして両者を対比して説明している。"
+    }
+   ],
+   "tags": [],
+   "notes": "台帳genre_hintは空欄だが、出典に「鹿児島県ではちらしずしのことをすもじという」と明記され合わせ酢のごはんを使うため、genre=sushiを付与。shelfはrice(台帳どおり)を維持。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kashamochi",
+   "name_ja": "かしゃもち",
+   "name_romaji": "Kasha Mochi",
+   "name_en": "Kasha mochi — mugwort mochi wrapped in a broad, fragrant leaf and steamed",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "",
+   "lat": 28.3775,
+   "lng": 129.4933,
+   "summary_ja": "よもぎとさつまいも、黒糖を練った餅を、殺菌効果があるとされるクマタケランの葉で包んで蒸す奄美地域の菓子。葉の芳香が餅に移り、身近な素材だけでつくる先人の知恵が詰まっている。",
+   "summary_en": "Mugwort, sweet potato, and black sugar are kneaded into mochi and wrapped in a broad-leafed ginger-family plant said to have antibacterial properties, then steamed. The leaf's scent seeps into the mochi — a sweet built entirely from what Amami had close at hand.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kashamochi_kagoshima.html",
+     "title": "かしゃもち 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kashamochi",
+     "to_slug": "kokuto",
+     "relation_type": "使用食材",
+     "basis": "生地に黒糖を練り込む点で、鹿児島県の黒糖文化に連なる菓子として関係づけた。"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "getanha",
+   "name_ja": "げたんは",
+   "name_romaji": "Getanha",
+   "name_en": "Getanha — a triangular black-sugar cake, its surface dipped glossy in syrup",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "霧島市",
+   "lat": 31.7333,
+   "lng": 130.7667,
+   "summary_ja": "小麦粉と重曹の生地を黒糖で焼き、三角に切って黒糖蜜にくぐらせる菓子。米の集荷地だった横川町で客をもてなすお茶うけとして生まれ、泥に汚れた下駄の歯に見た目が似ることからこの名がついたと伝わる。",
+   "summary_en": "A wheat-and-soda dough baked with black sugar, cut into triangles, and dipped glossy in black-sugar syrup. It's said to have begun as a teatime treat for visitors to Yokogawa, once a rice-collection town, its name likening the shape to a mud-caked wooden clog's teeth.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/getanha_kagoshima.html",
+     "title": "げたんは 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "getanha",
+     "to_slug": "kokuto",
+     "relation_type": "使用食材",
+     "basis": "生地とコーティングの両方に黒糖を使う菓子であり、鹿児島県の黒糖文化に連なる。"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "karukan",
+   "name_ja": "かるかん",
+   "name_romaji": "Karukan",
+   "name_en": "Karukan — a featherlight steamed cake of grated mountain yam, once served only to lords",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "鹿児島市",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "すりおろした自然薯とかるかん粉を蒸し上げる、蒸す前より軽くなることから「軽羹」と書かれる鹿児島の銘菓。薩摩藩主が江戸から招いた菓子職人が考案したと伝わり、当初は大名家だけの菓子だった。",
+   "summary_en": "Grated mountain yam and rice flour are steamed into a cake so light it's named with characters meaning 'light yokan' — steaming leaves it lighter than the raw batter. Said to have been devised by a confectioner the Satsuma lord brought from Edo, it was once a treat reserved for the ruling family alone.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/karukan_kagoshima.html",
+     "title": "かるかん 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "karukan",
+     "to_slug": "getanha",
+     "relation_type": "対比",
+     "basis": "どちらも江戸期に生まれた鹿児島の菓子だが、かるかんは大名家の献上菓子、げたんはは米の集荷地でのもてなし菓子と、生まれた場が対照的。"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "karaimonettabo",
+   "name_ja": "からいもねったぼ",
+   "name_romaji": "Karaimo Nettabo",
+   "name_en": "Karaimo nettabo — freshly pounded mochi kneaded with steamed sweet potato",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "鹿児島市",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "つきたての餅に蒸したさつまいもを練りこみ、きなこと砂糖をまぶして食べる鹿児島の餅菓子。台風に強く痩せた土地でも育つさつまいもが根づいた歴史を背景に、年末年始の餅つきに欠かせない一品となった。",
+   "summary_en": "Freshly pounded mochi is kneaded together with steamed sweet potato, then dusted with soy flour and sugar. It grew out of sweet potato's deep roots here — a crop that shrugs off typhoons and thin soil — and became a fixture of year-end mochi-pounding.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/karaimonettabo_kagoshima.html",
+     "title": "からいもねったぼ 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "karaimonettabo",
+     "to_slug": "karaimogohan",
+     "relation_type": "兄弟",
+     "basis": "ともに鹿児島の特産であるさつまいも(からいも)を使う郷土料理として、出典本文がさつまいも文化の一環として並べて紹介している。"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "karaimogohan",
+   "name_ja": "からいもごはん",
+   "name_romaji": "Karaimo Gohan",
+   "name_en": "Karaimo gohan — sweet potato cubes cooked right into the rice, a taste of autumn",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "鹿児島市",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "角切りのさつまいもを米と一緒に炊きこむ、鹿児島の特産であるさつまいもの甘みを生かした一品。収穫期の9月から11月に多くつくられ、塩をひとつまみ加えると甘さが引き立つとされる。",
+   "summary_en": "Cubed sweet potato is cooked right into the rice, built on a crop Kagoshima grows more of than anywhere else in Japan. It's made most often from September to November as the harvest comes in, and a pinch of salt is said to bring the sweetness forward.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/karaimogohan_kagoshima.html",
+     "title": "からいもごはん 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "karaimogohan",
+     "to_slug": "karaimonettabo",
+     "relation_type": "兄弟",
+     "basis": "ともにさつまいも(からいも)を使う鹿児島の郷土料理として出典本文が同じ文脈で紹介している。"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "jambomochi",
+   "name_ja": "じゃんぼ餅",
+   "name_romaji": "Janbo Mochi",
+   "name_en": "Janbo mochi — two skewers through soft mochi, glazed in a thick soy-sugar sauce",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "鹿児島市",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "つきたての餅に竹串を2本刺し、とろみのある砂糖醤油ダレをかける鹿児島市磯地域の郷土菓子。南北朝時代、谷山城で懐良親王をもてなした逸話に由来すると伝わり、「両棒」と書いて「じゃんぼ」と読む。",
+   "summary_en": "Fresh mochi threaded on two bamboo skewers, glazed with a thick soy-and-sugar sauce — a specialty of Kagoshima City's Iso district. Its name, written with characters for 'two poles,' is said to trace to an episode of hospitality shown to a visiting prince at Taniyama Castle in the fourteenth century.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/jambomochi_kagoshima.html",
+     "title": "じゃんぼ餅 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "jambomochi",
+     "to_slug": "akumaki",
+     "relation_type": "対比",
+     "basis": "どちらも鹿児島の餅菓子だが、じゃんぼ餅は串に刺してタレをかける手軽なもてなし菓子、あくまきは灰汁で長時間煮る保存食と、成り立ちが対照的。"
+    }
+   ],
+   "tags": [
+    "skewered",
+    "handheld"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "akumaki",
+   "name_ja": "あくまき",
+   "name_romaji": "Akumaki",
+   "name_en": "Akumaki — mochi rice steeped in wood-ash lye, wrapped in bamboo sheath, boiled for hours",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "鹿児島市",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "灰汁に浸したもち米を孟宗竹の皮で包み、灰汁水で数時間煮こむ端午の節句の餅菓子。西郷隆盛も戦陣食として食べたと伝わり、灰汁のアルカリ性が雑菌の繁殖を抑え、高温多湿の鹿児島で長期保存を可能にした。",
+   "summary_en": "Mochi rice steeped in wood-ash lye is wrapped in bamboo sheath and boiled for hours in more lye water — a Boys' Festival sweet said to have fed Saigo Takamori's troops in the field. The lye's alkalinity holds bacteria back, letting it keep for days in Kagoshima's heat and humidity.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/akumaki_kagoshima.html",
+     "title": "あくまき 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "akumaki",
+     "to_slug": "jambomochi",
+     "relation_type": "対比",
+     "basis": "どちらも鹿児島の餅菓子だが、あくまきは灰汁で長時間煮る保存食、じゃんぼ餅は串に刺してすぐ食べるもてなし菓子と対照的。"
+    }
+   ],
+   "tags": [],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "butamiso",
+   "name_ja": "豚味噌",
+   "name_romaji": "Buta Miso",
+   "name_en": "Buta miso — pork and miso pounded together into a keeping paste, spooned onto rice",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "鹿児島市",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "ゆでた豚肉を味噌や砂糖と混ぜ合わせてつくる常備菜。奄美地域では落花生やカツオ節も加える。年に一度しめる島豚を余さず食べるため、保存のきく料理として塩漬けなどとともに生まれたと伝わる。",
+   "summary_en": "Boiled pork is pounded together with miso and sugar into a keeping paste, with peanuts and bonito flakes added in Amami versions. It's said to have grown out of the need to use every part of the one pig a household slaughtered each year, alongside salting and other preserved forms.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/butamiso_kagoshima.html",
+     "title": "豚味噌 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "butamiso",
+     "to_slug": "buta-hone-yasai",
+     "relation_type": "兄弟",
+     "basis": "出典本文が、年越し料理の豚骨野菜のほか、保存がきく豚味噌や塩漬けにして島豚を余さず食べたと明記している。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "miso",
+    "fermented"
+   ],
+   "notes": "",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tonkotsu",
+   "name_ja": "豚骨",
+   "name_romaji": "Tonkotsu",
+   "name_en": "Tonkotsu — spare ribs seared, doused in shochu, then simmered in miso and black sugar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "鹿児島市",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "骨付きあばら肉を焼いてから芋焼酎で炒りつけ、麦味噌と黒砂糖でじっくり煮こむ鹿児島の料理。薩摩武士の野外料理が始まりと伝わり、西郷隆盛の好物でもあったという。焼酎が臭みを消し身を柔らかくする。",
+   "summary_en": "Bone-in spare ribs are seared, doused with sweet-potato shochu, then slow-simmered in barley miso and black sugar. Said to have started as an outdoor dish cooked by Satsuma samurai — and a favorite of Saigo Takamori's — the shochu is said to cut any gaminess and soften the meat.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tonkotsu_kagoshima.html",
+     "title": "豚骨 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tonkotsu",
+     "to_slug": "butajiru",
+     "relation_type": "兄弟",
+     "basis": "出典本文がともに麦味噌と鹿児島の豚肉を使う料理として、豚汁・豚味噌と並べて紹介している。"
+    }
+   ],
+   "tags": [
+    "pork",
+    "miso"
+   ],
+   "notes": "「豚骨」は鹿児島ラーメンのスープ系統(既存slug kagoshima)とは別物(骨付きあばら肉の煮込み料理)。同名の一般語のため将来の衝突に留意。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "torisashi",
+   "name_ja": "鶏刺し",
+   "name_romaji": "Torisashi",
+   "name_en": "Torisashi — lightly seared chicken sliced thin and dipped in soy sauce, raw at the core",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "鹿児島県",
+   "origin_city": "鹿児島市",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "summary_ja": "刺身用の鶏肉をあぶって薄く削ぎ切りにし、青じそやおろししょうがを添えて醤油でいただく。闘鶏で負けた鶏をしめて食べた文化に連なると伝わり、県独自の生食加工基準を満たした鶏肉だけが流通している。",
+   "summary_en": "Sashimi-grade chicken is lightly seared, sliced thin, and dipped in soy sauce with shiso and grated ginger. It's said to descend from a culture of eating cockfighting's losing birds, and today only chicken meeting the prefecture's own raw-poultry safety standard is sold this way.",
+   "sources": [
+    {
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/torisashi_kagoshima.html",
+     "title": "鶏刺し 鹿児島県｜うちの郷土料理",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "torisashi",
+     "to_slug": "satsumajiru",
+     "relation_type": "兄弟",
+     "basis": "出典本文が「鶏刺し」「さつま汁」「鶏飯」などを、闘鶏に由来する鹿児島の鶏食文化として同じ系譜で紹介している。"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ],
+   "notes": "台帳shelf=homestyleを、生の鶏肉をあぶって刺身状で食べる料理のためrawに変更。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: gane_kagoshima(がね, existing_slug=gane, high, 既存) / kokuto_kagoshima(黒糖, existing_slug=kokuto, high, 既存) / sakezushi_kagoshima(酒ずし, existing_slug=sakezushi, high, 既存) / tsukeage_kagoshima(つけあげ, existing_slugは台帳上空欄だが、all-items-ja.txtのsatsuma-age「さつま揚げ」と同一料理と判断。鹿児島方言名の違いのみで作らず) / papaiyazuke_kagoshima(パパイヤ漬け, genre_hint=tsukemonoのため作らず。魚介の保存食の例外規定には該当しない野菜漬物のため) / kibinagonosashimi_kagoshima(きびなごの刺身, existing_slugは空欄だが、既存slug kibinago(キビナゴ)のbody_jaが手開き刺身・菊花造りまで既に詳述しており重複と判断し作らず)。棚を変えた行: torisashi_kagoshima(鶏刺し)を台帳homestyleから、生の鶏肉を刺身状で食べる料理のためrawに変更。座標の根拠: 「県内全域」は県庁所在地の鹿児島市で近似。「奄美地域」は中心地の奄美市で近似(keihan/miki/mizuikanomadajiru/butahoneyasai/sangon/aburazomen/kashamochi)。satsumaebizoni_kagoshimaは伝承地域が「薩摩半島」の広域表記だが、本文が焼きエビの産地として出水市を名指ししているため出水市の座標を採用。getanha_kagoshimaは本文が横川町(現・霧島市)を名指ししているため霧島市の座標を採用。jambomochi_kagoshimaは伝承地域が鹿児島市(単一市)のため鹿児島市を採用。要判断: satsumasumoji_kagoshima(さつますもじ)は台帳genre_hintが空欄だが、出典に「鹿児島県ではちらしずしのことをすもじという」と明記され合わせ酢のごはんを使うため、名前と分類から自明としてgenre=sushiを付与した(shelfはrice=台帳どおり)。aburazomen_kagoshima(油ゾーメン)も同様にgenre_hint空欄だが、そうめんを油とだしで炒めて仕上げる調理法が焼きそば的なためgenre=yakisobaを付与。kagoshima-buridaikonは、既存のishikawa-buridaikon/toyama-buridaikonと同名のため<地名>-<料理名>のslugにした。tonkotsu_kagoshima(豚骨)は骨付きあばら肉の煮込み料理で、既存の鹿児島ラーメン(slug: kagoshima)の豚骨スープとは別物。「豚骨」という語の一般名詞性が高く、将来他県の豚骨系料理項目とのslug衝突に留意されたい。"
+}
