@@ -1,0 +1,1137 @@
+{
+ "items": [
+  {
+   "slug": "sorakitamochi",
+   "name_ja": "そらきたもち",
+   "name_romaji": "Sorakitamochi",
+   "name_en": "Sorakitamochi — sweet potato and wheat-dough mochi from Himeshima island",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "姫島村",
+   "lat": 33.7167,
+   "lng": 131.6683,
+   "summary_ja": "ゆでたさつまいもを潰して皮とあんに分け、皮には強力粉を練りこんで包み、きなこをまぶす姫島の菓子。蒸さずにすぐ作れることから「そらきた（＝すぐ来た）」の名がついたと伝わる、来客時のもてなし菓子。",
+   "summary_en": "Boiled sweet potato is split into a flour-kneaded wrapper and a sugared filling, then dusted with kinako — a Himeshima island sweet said to be named for how quickly it comes together for a sudden guest, with no steaming step needed.",
+   "sources": [
+    {
+     "title": "そらきたもち 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sorakitamochi_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sorakitamochi",
+     "to_slug": "tai-men",
+     "relation_type": "対比",
+     "basis": "ともに姫島に伝わる郷土食だが、そらきたもちは急な来客用の日常のおやつ、鯛麺は婚礼など晴れの日の麺料理という違いがある"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "origin_city: 伝承地域=姫島村（単一自治体）を採用。lat/lngは姫島村役場付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oita-jiriyaki",
+   "name_ja": "じり焼き",
+   "name_romaji": "Jiriyaki",
+   "name_en": "Jiriyaki — thin griddled wheat crepe rolled around black sugar or pumpkin filling",
+   "type": "dish",
+   "shelf": "griddle",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "豊後大野市",
+   "lat": 32.9975,
+   "lng": 131.5511,
+   "summary_ja": "地粉を水で溶いた生地をクレープのように薄く焼き、砕いた黒砂糖やかぼちゃのあんを巻いて食べる豊後大野市の菓子。生地が緩い（方言で「じりい」）ことが名の由来とも言われ、農作業の合間のおやつとして親しまれてきた。",
+   "summary_en": "Local wheat flour thinned with water is griddled crepe-thin, then rolled around crushed black sugar or a pumpkin filling — a Bungo-Ono snack whose name may come from the dialect word for a loose, runny batter, once eaten between spells of farm work.",
+   "sources": [
+    {
+     "title": "じり焼き 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/jiriyaki_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "oita-jiriyaki",
+     "to_slug": "koneri",
+     "relation_type": "対比",
+     "basis": "ともに豊後大野市に伝わる家庭の惣菜・おやつで、じり焼きは小麦粉を薄く焼く菓子、こねりは野菜に小麦粉でとろみをつける惣菜という違いがある"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "shelf: 台帳はgrilled（キーワード「焼き」由来）だが、実態は鉄板で薄く焼くクレープ状の菓子のためgriddleに変更。origin_city: 伝承地域=豊後大野市。lat/lngは豊後大野市役所（三重町）付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kirasumameshi",
+   "name_ja": "きらすまめし",
+   "name_romaji": "Kirasumameshi",
+   "name_en": "Kirasumameshi — Usuki's soy-marinated sashimi tossed with fresh okara",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "臼杵市",
+   "lat": 33.1256,
+   "lng": 131.8058,
+   "summary_ja": "刺身を醤油だれに漬け、大豆の搾りかす「きらす（おから）」をまぶして食べる臼杵市の料理。倹約令が続いた旧臼杵藩で、残り物の刺身をかさ増しする知恵から生まれたと伝わり、仕上げにかぼすを絞る。",
+   "summary_en": "Sashimi is steeped in a soy-based marinade, then tossed with fresh okara — called kirasu in the local dialect — to stretch the fish further; said to have taken shape under Usuki domain's austerity edicts, finished with a squeeze of kabosu citrus.",
+   "sources": [
+    {
+     "title": "きらすまめし 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kirasumameshi_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kirasumameshi",
+     "to_slug": "ohan",
+     "relation_type": "対比",
+     "basis": "臼杵市の郷土料理として黄飯・茶台ずしと並んで語られる一皿で、きらすまめしは通年の日常食、黄飯は冬の行事食という違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=臼杵市。lat/lngは臼杵市役所付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ryukyu",
+   "name_ja": "りゅうきゅう",
+   "name_romaji": "Ryukyu",
+   "name_en": "Ryukyu — Oita's soy, sesame, and ginger-dressed raw fish",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "",
+   "lat": 32.9603,
+   "lng": 131.8996,
+   "summary_ja": "旬の魚の刺身を醤油、酒、みりん、ごま、しょうがのたれで和える大分の郷土料理。漁師のまかない飯や保存食として南部沿岸から広まったとされ、名の由来は沖縄の漁師との交流説など諸説が伝わる。",
+   "summary_en": "Sashimi of the season's catch is tossed in a dressing of soy sauce, sake, mirin, sesame, and ginger — an Oita dish said to have spread from the southern coast as a fisherman's meal and keeping food, its name linked in local lore to a possible Okinawan connection, though the story is not settled.",
+   "sources": [
+    {
+     "title": "りゅうきゅう 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ryukyu_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ryukyu",
+     "to_slug": "hyuga-don",
+     "relation_type": "対比",
+     "basis": "ひゅうが丼の由来説明の中で名指しで比較される料理で、りゅうきゅうは刺身をごま醤油だれで和えるのに対し、ひゅうが丼は同様のたれに卵黄を加えて丼にする違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=南部沿岸部（広域）のため空欄とし、代表地点として南部沿岸の中心都市である佐伯市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "dango-jiru",
+   "name_ja": "だんご汁",
+   "name_romaji": "Dango-jiru",
+   "name_en": "Dango-jiru — hand-stretched wheat noodles simmered in miso soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "",
+   "lat": 33.2382,
+   "lng": 131.6126,
+   "summary_ja": "小麦粉をこねて薄い帯状に伸ばした「だんご」を、根菜やしいたけと共に麦味噌仕立ての汁で煮込む大分の日常食。米づくりに適さない台地が多く粉食文化が根づいた大分ならではの一椀で、うどんより強いコシが持ち味。",
+   "summary_en": "Wheat dough kneaded and stretched into flat ribbons is simmered with root vegetables and shiitake in a barley-miso broth — an everyday Oita dish born of the prefecture's flour-based food culture, where poor rice land pushed wheat to the fore; the ribbons keep a firmer bite than udon.",
+   "sources": [
+    {
+     "title": "だんご汁 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/dangojiru_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "dango-jiru",
+     "to_slug": "hocho",
+     "relation_type": "対比",
+     "basis": "ともに大分の小麦粉文化を代表する麺料理で、だんご汁は汁に入れる幅広の平麺、鮑腸は2m以上に手延べしてつけ汁で食べる違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域=県内全域のため空欄。lat/lngは県庁所在地の大分市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "aji-no-maruzushi",
+   "name_ja": "あじの丸ずし",
+   "name_romaji": "Aji no Maruzushi",
+   "name_en": "Aji no maruzushi — whole horse mackerel cured and rolled with shiso around vinegared rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "大分県",
+   "origin_city": "佐伯市",
+   "lat": 32.9603,
+   "lng": 131.8996,
+   "summary_ja": "梅酢でしめたアジを丸ごと開き、酢飯を包んで赤しそで巻いた佐伯市の祝いずし。骨や内臓を丁寧に取り除く手間のかかる仕事で、豊後水道の脂ののったアジが手に入る土地ならではの一品とされる。",
+   "summary_en": "A whole horse mackerel, cured in plum vinegar and opened flat, is wrapped around vinegared rice and rolled in red shiso leaf — a celebratory sushi from Saiki, painstaking to prepare, built on the rich mackerel landed from the Bungo Channel.",
+   "sources": [
+    {
+     "title": "あじの丸ずし 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ajinomaruzushi_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "aji-no-maruzushi",
+     "to_slug": "mosso-zushi",
+     "relation_type": "対比",
+     "basis": "ともに大分に伝わる祝い事の押しずし系郷土料理だが、あじの丸ずしはアジを丸ごと使う巻きずし、物相ずしは木枠で押し固める押しずしという違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=佐伯市米水津。旧町名のため市域代表点として佐伯市役所を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "atama-ryori",
+   "name_ja": "頭料理",
+   "name_romaji": "Atama Ryori",
+   "name_en": "Atama ryori — large fish served whole, head to fin, with a citrus dipping sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "竹田市",
+   "lat": 32.9761,
+   "lng": 131.4028,
+   "summary_ja": "アラやクエなど大型魚のえら、あご、内臓まで余さず湯びきして大皿に盛る竹田市の料理。海から遠い内陸の竹田で、貴重な魚を無駄なく味わうために生まれたとされ、三杯酢やかぼすのたれでいただく。",
+   "summary_en": "Gills, jaw, and innards of a large fish like grouper are quickly parboiled along with the flesh and piled onto a single platter — a dish from inland Taketa, far from the sea, said to have grown from a wish to waste nothing of a rare catch, served with a citrus dipping sauce.",
+   "sources": [
+    {
+     "title": "頭料理 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/atamaryori_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "atama-ryori",
+     "to_slug": "oita-aimaze",
+     "relation_type": "対比",
+     "basis": "ともに竹田市に伝わる祝い事のもてなし料理で、頭料理は大型魚を丸ごと使い、あいまぜは野菜と豆腐を和える違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "offal"
+   ],
+   "notes": "origin_city: 伝承地域=竹田市。lat/lngは竹田市役所付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gomadashi",
+   "name_ja": "ごまだし",
+   "name_romaji": "Gomadashi",
+   "name_en": "Gomadashi — grilled fish and sesame paste stirred into udon broth",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "佐伯市",
+   "lat": 32.9603,
+   "lng": 131.8996,
+   "summary_ja": "焼いたエソをほぐし、すりごま、みりん、醤油と合わせてつくる佐伯市の調味料。うどんにのせる「ごまだしうどん」が定番で、大量に水揚げされた魚を無駄なく活かす工夫から生まれたと伝わる。",
+   "summary_en": "Grilled lizardfish is flaked and blended with ground sesame, mirin, and soy sauce into a paste — a Saiki seasoning best known stirred into udon as gomadashi-udon, said to have grown from a way of putting a heavy catch to good use.",
+   "sources": [
+    {
+     "title": "ごまだし 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gomadashi_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gomadashi",
+     "to_slug": "kujaku",
+     "relation_type": "対比",
+     "basis": "ともに佐伯市に伝わる魚のすり身・加工品の郷土料理で、ごまだしは日常の調味料、くじゃくは祝いの席の一品という違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=佐伯市。lat/lngは佐伯市役所付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ayu-uruka",
+   "name_ja": "あゆうるか",
+   "name_romaji": "Ayu Uruka",
+   "name_en": "Ayu uruka — fermented ayu (sweetfish) innards, salted and aged into a savory paste",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "",
+   "lat": 33.3214,
+   "lng": 130.9411,
+   "summary_ja": "アユの身や内臓を刻んで塩を加え、1週間ほど発酵・熟成させる大分の塩辛。三隈川や大野川など清流の恵みを保存するために生まれたとされ、内臓だけを使う「にがうるか」は独特の苦味が持ち味。",
+   "summary_en": "Ayu (sweetfish) flesh or innards are minced with salt and left to ferment for about a week — an Oita salted delicacy said to have begun as a way to keep the clean river's seasonal catch; the innards-only version, nigauruka, carries a distinctive bitterness.",
+   "sources": [
+    {
+     "title": "あゆうるか 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ayuuruka_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ayu-uruka",
+     "to_slug": "hita-yakisoba",
+     "relation_type": "対比",
+     "basis": "ともに三隈川流域の日田市に伝わる名物で、あゆうるかは川魚を発酵させた塩辛、日田やきそばは戦後に広まった焼きそばという違いがある"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "offal"
+   ],
+   "notes": "origin_city: 伝承地域=三隈川、大野川流域（複数河川・広域）のため空欄。lat/lngは三隈川が流れる日田市役所を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kujaku",
+   "name_ja": "くじゃく",
+   "name_romaji": "Kujaku",
+   "name_en": "Kujaku — dyed egg wrapped in colored fish surimi, sliced to show a peacock-feather pattern",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "佐伯市",
+   "lat": 32.7597,
+   "lng": 131.8501,
+   "summary_ja": "赤く着色したゆで卵を緑に染めた白身魚のすり身で包み、蒸すか揚げてつくる佐伯市蒲江の料理。輪切りにした断面がくじゃくの羽の模様に見えることが名の由来で、正月や祝い事の彩りとして食べられてきた。",
+   "summary_en": "A hard-boiled egg dyed red is wrapped in white-fish surimi colored green, then steamed or fried — a Kamae (Saiki) dish named for how its sliced cross-section echoes a peacock feather, brought out for New Year's and other celebrations.",
+   "sources": [
+    {
+     "title": "くじゃく 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kujaku_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kujaku",
+     "to_slug": "gomadashi",
+     "relation_type": "対比",
+     "basis": "ともに佐伯市に伝わる魚のすり身料理で、くじゃくは卵を包んで彩りよく仕立てる祝いの品、ごまだしはうどんにのせる日常の調味料という違いがある"
+    }
+   ],
+   "tags": [
+    "egg",
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=佐伯市蒲江地区。lat/lngは蒲江地区（旧蒲江町）の中心地点を概算で採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yuzu-kawani",
+   "name_ja": "ゆずの皮煮",
+   "name_romaji": "Yuzu no Kawani",
+   "name_en": "Yuzu no kawani — candied yuzu peel simmered slowly in sugar",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "日田市",
+   "lat": 33.3214,
+   "lng": 130.9411,
+   "summary_ja": "厚めの柚子の皮をゆでこぼしてえぐみを抜き、砂糖でじっくり煮含める日田市の保存食。柚子の産地として知られる大分で、お茶うけやお節料理の一品として、庭先の柚子を使う家庭にいまも親しまれている。",
+   "summary_en": "Thick yuzu peel is boiled and drained to soften its bitterness, then simmered slowly in sugar until it glazes — a Hita keeping-food from citrus-rich Oita, enjoyed alongside tea or as one dish in a New Year's spread.",
+   "sources": [
+    {
+     "title": "ゆずの皮煮 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yuzunokawani_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yuzu-kawani",
+     "to_slug": "yuzu-kosho",
+     "relation_type": "使用食材",
+     "basis": "ともに大分特産の柚子を使う加工食品で、皮を甘く煮るか、種と唐辛子で薬味に仕立てるかが違う"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=日田市、玖珠町、竹田市（複数自治体）のうち、本文で柚子の産地として最も詳しく紹介される日田市を代表点として採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oita-aimaze",
+   "name_ja": "あいまぜ",
+   "name_romaji": "Oita Aimaze",
+   "name_en": "Oita aimaze — mashed tofu tossed with simmered mountain vegetables and dried radish",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "竹田市",
+   "lat": 32.9761,
+   "lng": 131.4028,
+   "summary_ja": "ぜんまいや干ししいたけ、切り干し大根を出汁と醤油で煮て、すった豆腐と和える竹田市の料理。冠婚葬祭のもてなし御膳に欠かせない一皿とされ、白和えに似るが具だくさんなのが特徴。",
+   "summary_en": "Bracken fern, dried shiitake, and shredded dried radish are simmered in dashi and soy sauce, then tossed with mashed tofu — a Taketa dish once essential to the formal spread at weddings and funerals, resembling shira-ae but heavier with vegetables.",
+   "sources": [
+    {
+     "title": "あいまぜ 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/aimaze_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "oita-aimaze",
+     "to_slug": "koneri",
+     "relation_type": "対比",
+     "basis": "ともに大分の家庭料理で豆腐や小麦粉を使う和え物・とろみ料理だが、あいまぜは冠婚葬祭のもてなし料理、こねりは夏の日常のおかずという違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "name_ja「あいまぜ」は三重県・鳥取県にも同名の料理があるが、本文によれば別物（なますやごま酢和え）とのこと。all-items-ja.txtの既存slug aimaze（石川県）・mie-aimaze（三重県）と同名重複のためslugをoita-aimazeとした。origin_city: 伝承地域=竹田市。lat/lngは竹田市役所付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "koneri",
+   "name_ja": "こねり",
+   "name_romaji": "Koneri",
+   "name_en": "Koneri — summer eggplant and bitter melon simmered in miso and thickened with wheat flour",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "豊後大野市",
+   "lat": 32.9975,
+   "lng": 131.5511,
+   "summary_ja": "なすとにがうりを油で炒め、出汁で溶いた味噌で煮て、小麦粉でとろみをつける豊後大野市の夏の惣菜。野菜から出る栄養を汁ごと閉じ込められる工夫とされ、小麦粉をこねて仕上げることが名の由来と伝わる。",
+   "summary_en": "Eggplant and bitter melon are stir-fried, simmered in dashi-thinned miso, then thickened with wheat flour — a summer side dish from Bungo-Ono said to trap the vegetables' nutrients in the sauce, its name coming from the kneaded flour used to finish it.",
+   "sources": [
+    {
+     "title": "こねり 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/koneri_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "koneri",
+     "to_slug": "oita-jiriyaki",
+     "relation_type": "対比",
+     "basis": "ともに豊後大野市の家庭の味で、こねりは夏野菜を味噌でとろみ煮にする惣菜、じり焼きは小麦粉を薄く焼く菓子という違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域=豊後大野市。lat/lngは豊後大野市役所（三重町）付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oita-sakemanju",
+   "name_ja": "酒まんじゅう",
+   "name_romaji": "Oita Sakemanju",
+   "name_en": "Oita sakemanju — steamed bun leavened with fermented rice-koji yeast, filled with sweet red bean paste",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "竹田市",
+   "lat": 32.9761,
+   "lng": 131.4028,
+   "summary_ja": "炊いた米と米麹でつくった酵母液を小麦粉に加えて発酵させ、小倉あんを包んで蒸す竹田市・豊後大野市の郷土菓子。麹の発酵だけで生地をふくらませるのが特徴で、種を代々受け継ぐ家もあったと伝わる。",
+   "summary_en": "A yeast starter made from steamed rice and rice koji leavens a wheat dough wrapped around sweet red bean paste and steamed — a sweet from Taketa and Bungo-Ono raised purely by koji fermentation, its starter once handed down within a family from batch to batch.",
+   "sources": [
+    {
+     "title": "酒まんじゅう 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sakemanju_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "oita-sakemanju",
+     "to_slug": "yudemochi",
+     "relation_type": "対比",
+     "basis": "ともに竹田市・豊後大野市周辺に伝わる小麦粉の郷土菓子で、酒まんじゅうは麹で発酵させて蒸すのに対し、ゆでもちは発酵させずにゆでる違いがある"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "name_ja「酒まんじゅう」はall-items-ja.txtの既存slug sake-manju（神奈川県）と同名のためslugをoita-sakemanjuとした。origin_city: 伝承地域=竹田市・豊後大野市（2自治体）のため、本文で先に挙げられる竹田市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yudemochi",
+   "name_ja": "ゆでもち",
+   "name_romaji": "Yudemochi",
+   "name_en": "Yudemochi — flat disc of wheat dough wrapped around red bean paste and boiled",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "竹田市",
+   "lat": 32.9761,
+   "lng": 131.4028,
+   "summary_ja": "小麦粉の生地で小豆あんを包み、平たい円盤状に薄くのばして熱湯でゆでる竹田市・豊後大野市の菓子。薄くのばすほど早く火が通り、あんの透ける見た目は他県には少ないとされる、農作業の合間の間食。",
+   "summary_en": "Wheat dough wrapped around sweet red bean paste is rolled into a thin, flat disc and boiled in hot water — a sweet from Taketa and Bungo-Ono, thin enough that the filling shows through and rare in this form elsewhere in Japan, once eaten between spells of farm work.",
+   "sources": [
+    {
+     "title": "ゆでもち 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yudemochi_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yudemochi",
+     "to_slug": "ishigaki-mochi",
+     "relation_type": "対比",
+     "basis": "ともに大分の小麦粉を使った郷土菓子で、ゆでもちは薄くのばしてゆでるあん入り餅、石垣もちはさつまいもを混ぜて蒸す餅という違いがある"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "origin_city: 伝承地域=竹田市・豊後大野市（2自治体）のため、本文の記載順に合わせ竹田市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ishigaki-mochi",
+   "name_ja": "石垣もち",
+   "name_romaji": "Ishigaki Mochi",
+   "name_en": "Ishigaki mochi — steamed cake of mashed sweet potato kneaded with wheat flour",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "",
+   "lat": 33.2382,
+   "lng": 131.6126,
+   "summary_ja": "小さく切ったさつまいもに小麦粉と水を加えてこね、丸めて蒸しあげる大分県の郷土菓子。見た目が石垣のようにゴツゴツしていることが名の由来とされ、農作業の合間のおやつとして県内一円に広まった。",
+   "summary_en": "Cut sweet potato is kneaded with wheat flour and water, shaped, and steamed — an Oita sweet said to be named for its rough, stone-wall-like surface, once shared as a between-chores snack across the prefecture.",
+   "sources": [
+    {
+     "title": "石垣もち 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ishigakimochi_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ishigaki-mochi",
+     "to_slug": "yaseuma",
+     "relation_type": "対比",
+     "basis": "ともに大分の粉食文化を代表するおやつで、石垣もちはさつまいもを混ぜて蒸す餅、やせうまは小麦粉だけの生地をゆでてきなこをまぶす違いがある"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "origin_city: 伝承地域=県内全域のため空欄。lat/lngは県庁所在地の大分市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tai-men",
+   "name_ja": "鯛麺",
+   "name_romaji": "Tai Men",
+   "name_en": "Tai men — a whole simmered sea bream served over a bowl of udon noodles",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "姫島村",
+   "lat": 33.7167,
+   "lng": 131.6683,
+   "summary_ja": "塩焼きしたタイをだし汁で煮て、その出汁でゆがいたうどんの上に丸ごとのせる姫島の祝い料理。タイがつがいで寄り添う魚であることから婚礼の席の縁起物とされ、「鯛麺」と「対面」の語呂も重ねられていると伝わる。",
+   "summary_en": "A whole sea bream, lightly salt-grilled then simmered in dashi, is set atop udon noodles boiled in that same broth — a Himeshima wedding dish, the bream chosen as a symbol of a lasting pair, its name also playing on a homophone for a couple's first meeting.",
+   "sources": [
+    {
+     "title": "鯛麺 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/taimen_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tai-men",
+     "to_slug": "sorakitamochi",
+     "relation_type": "対比",
+     "basis": "ともに姫島に伝わる郷土食で、鯛麺は婚礼など晴れの日の麺料理、そらきたもちは急な来客用の日常のおやつという違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=姫島村。lat/lngは姫島村役場付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kenchan",
+   "name_ja": "けんちゃん",
+   "name_romaji": "Kenchan",
+   "name_en": "Kenchan — a hearty root-vegetable and tofu soup, Oita's version of kenchin-jiru",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "国東市",
+   "lat": 33.5433,
+   "lng": 131.7364,
+   "summary_ja": "大根、里芋、人参などの根菜と豆腐を油揚げやこんにゃくと共に煮る国東市の汁物。鎌倉・建長寺の精進料理「建長汁」が各地に伝わり訛ったものとされ、汁を少なめにすれば煮物としても食べられる。",
+   "summary_en": "Root vegetables — daikon, taro, carrot — and tofu are simmered with fried tofu and konjac — a Kunisaki soup said to descend from kenchin-jiru, the temple dish traced to Kamakura's Kenchoji, its broth reduced to turn it into more of a simmered dish.",
+   "sources": [
+    {
+     "title": "けんちゃん 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kenchan_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kenchan",
+     "to_slug": "niwatori-jiru",
+     "relation_type": "対比",
+     "basis": "ともに大分の根菜と出汁を使う汁物で、けんちゃんは豆腐や根菜が主役の精進由来の汁、鶏汁は鶏ガラの出汁を効かせる違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "genre: maff_categoryに「麺料理」を含みうどんを入れる地域もあるが、料理名自体は汁物のためgenreはnull（udonは付けない）とした。origin_city: 伝承地域=国東市。lat/lngは国東市役所付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gan-jiru",
+   "name_ja": "がん汁",
+   "name_romaji": "Gan-jiru",
+   "name_en": "Gan-jiru — river crab ground whole and simmered into a savory soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "宇佐市",
+   "lat": 33.5461,
+   "lng": 131.3467,
+   "summary_ja": "生きたモクズガニ（ツガニ）を殻ごとすりつぶし、こして塩や醤油で仕立てる宇佐市の汁物。加熱するとタンパク質がふわふわと固まり、高菜を入れて旨味を集める食べ方が伝わる、川の恵みを丸ごと使う一椀。",
+   "summary_en": "A live mitten crab is ground shell and all, strained, and simmered into a broth seasoned with salt or soy sauce — a Usa dish in which the protein sets into soft curds as it heats, often gathered with mustard greens added to draw out more flavor.",
+   "sources": [
+    {
+     "title": "がん汁 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ganjiru_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gan-jiru",
+     "to_slug": "amimeshi",
+     "relation_type": "対比",
+     "basis": "ともに宇佐市周辺の川・海の幸を活かす郷土料理で、がん汁は川で獲れるツガニを丸ごとすりつぶした汁物、あみめしは豊前海の干しアミを使う飯料理という違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=宇佐市域。lat/lngは宇佐市役所付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "niwatori-jiru",
+   "name_ja": "鶏汁",
+   "name_romaji": "Niwatori-jiru",
+   "name_en": "Niwatori-jiru — a clear soup made from the whole chicken carcass and offcuts",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "豊後大野市",
+   "lat": 32.9975,
+   "lng": 131.5511,
+   "summary_ja": "鶏がらでとった出汁に、鶏肉やごぼう、しいたけ、長ねぎを加えて仕立てる豊後大野地方の汁物。「鶏めし」をつくる際に余った身や内臓を使うことも多く、鶏めしと対でつくられてきた鶏肉消費量日本有数の大分らしい一椀。",
+   "summary_en": "Chicken bones simmered into a clear broth are joined by chicken meat, burdock root, shiitake, and leek — a Bungo-Ono soup often made from the offcuts and innards left over when cooking torimeshi, the two dishes long paired in a prefecture known for eating more chicken than almost anywhere else in Japan.",
+   "sources": [
+    {
+     "title": "鶏汁 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/niwatorijiru_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "niwatori-jiru",
+     "to_slug": "oita-torimeshi",
+     "relation_type": "兄弟",
+     "basis": "鶏めしをつくる際に余った身や内臓を鶏汁に使うことも多く、両者はセットでつくられてきたと本文に伝わる"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ],
+   "notes": "origin_city: 伝承地域=豊後大野地方（地方単位）のため、その中心自治体である豊後大野市役所を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "taraosa",
+   "name_ja": "たらおさ",
+   "name_romaji": "Taraosa",
+   "name_en": "Taraosa — wind-dried cod gills and stomach, simmered soft for an Obon dish",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "日田市",
+   "lat": 33.3214,
+   "lng": 130.9411,
+   "summary_ja": "タラのエラと胃を寒風にさらして乾燥させた乾物を、水で戻して醤油や砂糖で甘辛く煮つける日田・玖珠地方の料理。タラのとれない内陸で海の幸を味わうため、北海道稚内から仕入れる干物がお盆に欠かせない一品になった。",
+   "summary_en": "Cod gills and stomach, wind-dried over winter, are soaked soft and simmered sweet-savory in soy sauce and sugar — a dish from inland Hita and Kusu, where cod itself is never caught; the dried fish is shipped down from Wakkanai in Hokkaido and became indispensable at Obon.",
+   "sources": [
+    {
+     "title": "たらおさ 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/taraosa_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "taraosa",
+     "to_slug": "hita-yakisoba",
+     "relation_type": "対比",
+     "basis": "ともに日田地方の名物で、たらおさは北海道から仕入れる乾物を戻して煮るお盆の料理、日田やきそばは戦後に広まった焼きそばという違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=日田・玖珠地方（地方単位）のため、その中心都市である日田市役所を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mosso-zushi",
+   "name_ja": "物相ずし",
+   "name_romaji": "Mosso-zushi",
+   "name_en": "Mosso-zushi — pressed sushi molded in a square wooden box, topped with white fish",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "大分県",
+   "origin_city": "中津市",
+   "lat": 33.5992,
+   "lng": 131.1861,
+   "summary_ja": "人参やごぼう、干ししいたけを煮込んで混ぜた酢飯を、木製の正方形の型「物相」に詰めて押しかためる中津市・宇佐市の祝いずし。米が貴重だった時代に皆へ等分するための型だったと伝わり、仕上げに白身魚を添える。",
+   "summary_en": "Vinegared rice mixed with simmered carrot, burdock, and dried shiitake is packed into a square wooden mold called mosso and pressed firm — a festival sushi from Nakatsu and Usa said to have used the mold to portion out rice equally in leaner times, finished with a slice of white fish.",
+   "sources": [
+    {
+     "title": "物相ずし 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mossozushi_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mosso-zushi",
+     "to_slug": "okata-zushi",
+     "relation_type": "対比",
+     "basis": "ともに大分市周辺の郷土料理紹介で名指しで並べられる押しずしの系統で、物相ずしは木枠で押し固め、お方ずしは俵状に握る違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=中津市、宇佐市（2自治体）のため、本文の記載順に合わせ中津市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "okata-zushi",
+   "name_ja": "お方ずし",
+   "name_romaji": "Okata-zushi",
+   "name_en": "Okata-zushi — rice balls of sweetened rice, seasoned mackerel, and simmered kidney beans",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "大分県",
+   "origin_city": "大分市",
+   "lat": 33.2382,
+   "lng": 131.6126,
+   "summary_ja": "酢飯に焼きほぐしたアジと甘く煮たうずら豆を混ぜ、俵状に握る大分市竹中地区のすし。庄屋（お方）が農繁期を前に小作人をねぎらう「地獄入り」という行事で振る舞ったのがはじまりと伝わる。",
+   "summary_en": "Vinegared rice is mixed with flaked grilled horse mackerel and sweet simmered kidney beans, then shaped into oblong rice balls — a sushi from the Chikunaka district of Oita City said to have begun as a village headman's treat for tenant farmers before the hard labor of the growing season began.",
+   "sources": [
+    {
+     "title": "お方ずし 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/okatazushi_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "okata-zushi",
+     "to_slug": "mosso-zushi",
+     "relation_type": "対比",
+     "basis": "ともに大分市周辺の郷土料理紹介で名指しで並べられる押しずしの系統で、お方ずしは俵状に握る、物相ずしは木枠で押し固める違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=大分市竹中地区。lat/lngは大分市役所付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "amimeshi",
+   "name_ja": "あみめし",
+   "name_romaji": "Amimeshi",
+   "name_en": "Amimeshi — tsukudani-style dried krill folded into steamed rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "中津市",
+   "lat": 33.5992,
+   "lng": 131.1861,
+   "summary_ja": "みりんや醤油、しょうがで甘辛く煮付けたアミの佃煮を、炊きたてのごはんに混ぜ込む宇佐市・中津市・豊後高田市域の料理。豊前海の干潟で秋から冬に水揚げされるアミを活かす、県北地域の人気料理の一つ。",
+   "summary_en": "Krill simmered sweet-savory in mirin, soy sauce, and ginger is folded into freshly steamed rice — a dish from the Usa, Nakatsu, and Bungotakada coast, where krill are hauled from the Buzen Sea tideflats each autumn and winter; a favorite of the northern Oita coast.",
+   "sources": [
+    {
+     "title": "あみめし 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/amimeshi_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "amimeshi",
+     "to_slug": "oita-torimeshi",
+     "relation_type": "対比",
+     "basis": "郷土料理教室では鶏めしと並ぶ北部地域の人気メニューとされ、あみめしは干しアミを使う飯料理、鶏めしは鶏肉を炊き込む飯料理という違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=宇佐市・中津市・豊後高田市域（3自治体にまたがる豊前海沿岸）のため、代表点として中津市役所を採用（広域）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ohan",
+   "name_ja": "黄飯",
+   "name_romaji": "Ohan",
+   "name_en": "Ohan — rice steamed golden with gardenia fruit, served with a savory vegetable topping",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "臼杵市",
+   "lat": 33.1256,
+   "lng": 131.8058,
+   "summary_ja": "くちなしの実で染めた水で米を炊き、白身魚や豆腐、大根を煮た「かやく」を添える臼杵市の郷土料理。倹約令の続いた旧臼杵藩で贅沢な赤飯の代わりに考案されたと伝わり、大晦日に仕込んだかやくを三が日温め直して食べる。",
+   "summary_en": "Rice is steamed in water tinted golden with gardenia fruit and topped with kayaku, a simmer of white fish, tofu, and daikon — a dish from Usuki said to have been devised as a stand-in for extravagant red rice under the domain's austerity edicts, the kayaku made in bulk on New Year's Eve and reheated through the first days of the year.",
+   "sources": [
+    {
+     "title": "黄飯と黄飯かやく 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ohantoohankayaku_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ohan",
+     "to_slug": "kirasumameshi",
+     "relation_type": "対比",
+     "basis": "『黄飯』や『茶台ずし』と並ぶ臼杵市の郷土料理として本文で紹介される一皿で、黄飯は冬の行事食、きらすまめしは通年の日常食という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "name_jaは「黄飯と黄飯かやく」（ごはんと添え物のセット表記）だったため、主となる「黄飯」を主名としスラッグをohanとし、添え物「黄飯かやく」はsummaryで説明した。origin_city: 伝承地域=臼杵市。lat/lngは臼杵市役所付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oita-torimeshi",
+   "name_ja": "鶏めし",
+   "name_romaji": "Oita Torimeshi",
+   "name_en": "Oita torimeshi — rice cooked or mixed with simmered chicken, burdock, and carrot",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "",
+   "lat": 33.2382,
+   "lng": 131.6126,
+   "summary_ja": "鶏肉とごぼう、人参などを炊き込む、または煮込んで炊きたてのごはんに混ぜる大分の飯料理。卵を産まなくなった親鶏を使うのが本来の姿とされ、猟師が客をもてなすために野鳥でつくったのが起源との説も伝わる。",
+   "summary_en": "Chicken, burdock, and carrot are either cooked into the rice or simmered separately and folded through it once steamed — an Oita rice dish traditionally made from a hen past laying, with one account tracing its roots to a hunter's dish of wild fowl served to guests.",
+   "sources": [
+    {
+     "title": "鶏めし 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/torimeshi_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "oita-torimeshi",
+     "to_slug": "niwatori-jiru",
+     "relation_type": "兄弟",
+     "basis": "鶏めしをつくる際に余った身や内臓を鶏汁に使うことも多く、両者はセットでつくられてきたと本文に伝わる"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ],
+   "notes": "name_ja「鶏めし」はall-items-ja.txtの既存slug gunma-torimeshi（群馬県）と同名かつ、同じ束の宮崎県「とりめし」とも読みが重複するため、slugをoita-torimeshiとした。origin_city: 伝承地域=県内全域のため空欄。lat/lngは県庁所在地の大分市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hyuga-don",
+   "name_ja": "ひゅうが丼",
+   "name_romaji": "Hyuga-don",
+   "name_en": "Hyuga-don — raw tuna marinated in an egg-yolk soy sauce, served over rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "donburi",
+   "origin_pref": "大分県",
+   "origin_city": "津久見市",
+   "lat": 33.0781,
+   "lng": 131.8617,
+   "summary_ja": "マグロの赤身を、すりごまと卵黄を効かせた甘めの醤油だれに漬け、熱いごはんにのせる津久見市保戸島の漁師飯。船上で火を使わずすぐ食べられるようにと考案されたと伝わり、地域によっては「りゅうきゅう丼」とも呼ばれる。",
+   "summary_en": "Lean tuna is steeped in a sweetened soy sauce dressing thick with ground sesame and egg yolk, then piled over hot rice — a fisherman's meal from Hotojima island off Tsukumi, said to have been devised for a quick bite on deck with no fire needed; in some places it goes by ryukyu-don instead.",
+   "sources": [
+    {
+     "title": "ひゅうが丼 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hyugadon_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hyuga-don",
+     "to_slug": "ryukyu",
+     "relation_type": "対比",
+     "basis": "本文で名指しで比較される料理で、ひゅうが丼はごま醤油だれに卵黄を加えて丼にするのに対し、りゅうきゅうは卵黄を使わずそのまま刺身を和える違いがある"
+    }
+   ],
+   "tags": [
+    "egg",
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=津久見市（保戸島）。lat/lngは津久見市役所付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yaseuma",
+   "name_ja": "やせうま",
+   "name_romaji": "Yaseuma",
+   "name_en": "Yaseuma — boiled flat wheat-dough noodles dusted with sweetened soybean flour",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "由布市",
+   "lat": 33.2064,
+   "lng": 131.5453,
+   "summary_ja": "練った小麦粉を薄く長くのばしてゆで、きなこと砂糖をまぶす大分の郷土菓子。由布市古野が発祥地とされ、乳母が若君に食べさせたという言い伝えから名がついたとも伝わる、だんご汁と並ぶ大分の粉食文化の代表格。",
+   "summary_en": "Wheat dough is stretched thin and long by hand, boiled, then dusted with sweetened soybean flour — an Oita sweet said to trace back to Furuno in Yufu City, its name linked to a nursemaid's tale of feeding a hungry young lord; a companion, alongside dango-jiru, to the prefecture's flour-based food culture.",
+   "sources": [
+    {
+     "title": "やせうま 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yaseuma_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yaseuma",
+     "to_slug": "dango-jiru",
+     "relation_type": "対比",
+     "basis": "本文で『だんご汁と同様に大分で親しまれている郷土料理』と並べて語られる一皿で、やせうまは生地をゆでてきなこをまぶす菓子、だんご汁は味噌汁に入れる料理という違いがある"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "origin_city: 伝承地域=県内全域だが、本文で発祥地として古野（大分県由布市）が名指しされているためorigin_cityを由布市とした。lat/lngは由布市役所（挾間庁舎）付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hocho",
+   "name_ja": "鮑腸",
+   "name_romaji": "Hocho",
+   "name_en": "Hocho — wheat noodles hand-stretched to over two meters, eaten dipped in broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "大分県",
+   "origin_city": "大分市",
+   "lat": 33.1197,
+   "lng": 131.5876,
+   "summary_ja": "小麦粉を練って2m以上に手延べしたうどん状の麺を、しいたけやいりこの出汁に薬味を効かせたつけ汁でいただく大分市戸次地区の麺料理。武将・大友宗麟がアワビの腸に見立てたのが名の由来と伝わる。",
+   "summary_en": "Wheat dough is hand-stretched into noodles over two meters long, then dipped into a broth of shiitake and dried sardine seasoned with condiments — a noodle dish from the Betsuji district of Oita City, its name said to come from warlord Otomo Sorin likening the strands to abalone intestine.",
+   "sources": [
+    {
+     "title": "鮑腸 大分県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hocho_oita.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hocho",
+     "to_slug": "tai-men",
+     "relation_type": "対比",
+     "basis": "ともに大分に伝わる歴史あるうどん系郷土料理で、鮑腸は手延べした2m超の麺をつけ汁で食べる日常の麺、鯛麺は婚礼で鯛をのせる晴れの日の料理という違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域=大分市戸次地区、大野川流域。大分市内の一地区のためorigin_cityは大分市とし、lat/lngは戸次地区の座標を概算で採用した。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行（既存・高確信）: toriten_oita（とり天）=既存slug tori-ten(high)のため作らず。作らなかった行（既存・低確信だが判定して除外）: なし（mehikari_no_karaage・ochano_tenpuraはMIYAZAKI側の行、こちらはOITA県分に低確信行なし）。genre_hint=tsukemonoで作らなかった行: なし（Oita分にtsukemono行なし）。棚を変えた行: jiriyaki_oita（grilled→griddle、鉄板で薄く焼くクレープ状の菓子のため）。座標の根拠: 単一自治体が明記された行はその役場・市役所を採用（sorakitamochi/taimen=姫島村、aimaze/atamaryori/sakemanju/yudemochi=竹田市、jiriyaki/koneri/niwatorijiru=豊後大野市 等）。複数自治体・広域の行は、本文中で最も詳しく語られる/先に挙げられる自治体を代表点とした（amimeshi・mossozushi=中津市、yuzunokawani・taraosa・ayuuruka=日田市、ryukyu=佐伯市、dangojiru・ishigakimochi・torimeshi=大分市）。県内全域だが本文が発祥地を名指しする行はその市町村を採用（yaseuma=由布市古野）。要判断: aimaze_oitaはall-items-ja.txtに石川県aimaze・三重県mie-aimazeと同名の「あいまぜ」が既存だが、大分県のものは別物（本文に別物である旨の記載あり）と判断しoita-aimazeとして新規作成。sakemanju_oitaは神奈川県sake-manjuと同名のためoita-sakemanjuとした。torimeshi_oitaは群馬県gunma-torimeshiと同名、かつ同一納品の宮崎県「とりめし」とも読みが重複するためoita-torimeshiとした。ohantoohankayaku_oitaは「黄飯と黄飯かやく」という主菜＋添え物のセット表記のため、名前は主菜「黄飯」を採用しslugをohanとした（添え物は summary で説明）。jiriyaki_oitaはall-items-ja.txtに群馬県の同名料理（konamono.json収録のjiriyaki＝じりやき）が既存のため、slugをoita-jiriyakiとした。"
+}

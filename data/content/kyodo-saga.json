@@ -1,0 +1,937 @@
+{
+ "items": [
+  {
+   "slug": "funankogui",
+   "name_ja": "ふなんこぐい",
+   "name_romaji": "Funankogui",
+   "name_en": "Funankogui — whole crucian carp wrapped in kelp and slow-simmered with root vegetables",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "鹿島市",
+   "lat": 33.1256,
+   "lng": 130.1096,
+   "summary_ja": "昆布で巻いたフナをダイコンなどと大鍋でじっくり煮込み、姿のまま骨まで柔らかく仕上げる。有明海の漁が乏しい冬のたんぱく源として重宝され、鹿島市では恵比寿様への正月の供え物にもなるという。",
+   "summary_en": "Crucian carp, wrapped whole in kelp, simmers for hours with daikon and other roots until even the bones turn soft — a winter protein source from the lean season on the Ariake Sea, and in Kashima, an offering to the god of good fortune at New Year.",
+   "sources": [
+    {
+     "title": "ふなんこぐい 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_1_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "funankogui",
+     "to_slug": "suko-zushi",
+     "relation_type": "対比",
+     "basis": "ともに佐賀のハレの日に結びつく料理だが、ふなんこぐいは正月・二十日正月に恵比寿へ供える鮒料理、須古ずしは秋祭りの押し寿司という違いがある"
+    }
+   ],
+   "tags": [
+    "kelp",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=「鹿島市、全域」。発祥・恵比寿信仰と結びつく記述が鹿島市に集中するためorigin_city=鹿島市とし、県内全域でも食べられる点はsummaryに含めた。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ika-no-kakeae",
+   "name_ja": "いかのかけ和え",
+   "name_romaji": "Ika no Kakeae",
+   "name_en": "Ika no kakeae — squid and root vegetables tossed in a ground sesame and vinegar-miso dressing",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "",
+   "lat": 33.2494,
+   "lng": 130.2988,
+   "summary_ja": "イカと大根、人参をすりごま入りの酢味噌で和える。魚介とダイコンを合わせるこの手の料理は各地にあるが、佐賀では「かけ和え」と呼び、秋祭りには脂ののったサバを使うこともあるという。",
+   "summary_en": "Squid, daikon, and carrot are tossed in a vinegared miso dressing thick with ground sesame — a style of dish found across Japan, but called 'kakeae' in Saga, where fatty mackerel sometimes stands in for squid at autumn festivals.",
+   "sources": [
+    {
+     "title": "いかのかけ和え 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_2_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ika-no-kakeae",
+     "to_slug": "oyogoshi",
+     "relation_type": "対比",
+     "basis": "ともに佐賀の家庭でよくつくられる和え物だが、かけ和えは魚介と大根の酢味噌和え、およごしは里芋の白和え風という違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=県内全域（広域）のためorigin_cityは空欄、座標は県庁所在地の佐賀市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "niimoji",
+   "name_ja": "にいもじ",
+   "name_romaji": "Niimoji",
+   "name_en": "Niimoji — taro stem pickled tart and chilled for summer",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "",
+   "lat": 33.2494,
+   "lng": 130.2988,
+   "summary_ja": "ミズイモの茎の皮をむき、二杯酢や三杯酢に漬けて食感を残すよう手早く煮る。夏の暑さで食欲が落ちる頃に冷やして食べられ、家庭ごとに酸味や甘みの加減が違う「我が家の味」だという。",
+   "summary_en": "Peeled taro stem is briefly simmered in a two- or three-part vinegar mix, kept crisp, and chilled — eaten when summer heat dulls the appetite, with each household said to keep its own balance of sour and sweet.",
+   "sources": [
+    {
+     "title": "にいもじ 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_3_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "niimoji",
+     "to_slug": "hoshigaki-namasu",
+     "relation_type": "対比",
+     "basis": "ともに酢を使った佐賀の和え物だが、にいもじは夏のミズイモの酢の物、干し柿なますは冬の干し柿と大根の酢の物という季節の対照がある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=県内全域（広域）のためorigin_cityは空欄、座標は県庁所在地の佐賀市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "saga-dabu",
+   "name_ja": "だぶ",
+   "name_romaji": "Dabu",
+   "name_en": "Dabu — chicken and root vegetables simmered thin and watery for a gathering",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "唐津市",
+   "lat": 33.4903,
+   "lng": 130.1364,
+   "summary_ja": "煮くずれしにくい具材を水多めで「ざぶざぶ」に仕立てることが名の由来とされる、冠婚葬祭のもてなし汁。福岡県にもまたがって伝わり、慶事と弔事で具材の切り方や味付けを変えるという。",
+   "summary_en": "Root vegetables that hold their shape are simmered thin and watery — 'zabu-zabu', the source of the name, it's said — for weddings and funerals alike. Known across the border in Fukuoka too, with the cutting and seasoning changed for celebration or mourning.",
+   "sources": [
+    {
+     "title": "だぶ 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_4_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "saga-dabu",
+     "to_slug": "nigui",
+     "relation_type": "兄弟",
+     "basis": "出典に「佐賀県から福岡県にまたがって伝承されている」とあり、福岡・筑豊地方の「にぐい」と同系統の料理とされる"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=浜玉町、唐津市。浜玉町は2005年に唐津市へ編入された地区のためorigin_city=唐津市とし、座標は浜玉地区に近い地点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ochagai",
+   "name_ja": "お茶がい／茶がゆ",
+   "name_romaji": "Ochagai",
+   "name_en": "Ochagai — rice porridge simmered in brewed tea instead of water",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "",
+   "lat": 33.2494,
+   "lng": 130.2988,
+   "summary_ja": "番茶で炊いたおかゆで、幕末に佐賀藩が財政難から出した倹約令をきっかけに生まれたと伝わる。茶の作用で粘り気の少ないさらりとした味わいになり、使用人を多く抱えた商家の朝食だったという。",
+   "summary_en": "Rice porridge is simmered not in water but brewed tea — said to have begun with an austerity order from the cash-strapped Saga domain in its final years. The tea leaves it thin and light, and it's said to have fed the many live-in staff of merchant houses.",
+   "sources": [
+    {
+     "title": "お茶がい／茶がゆ 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_5_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ochagai",
+     "to_slug": "kuri-okowa",
+     "relation_type": "対比",
+     "basis": "ともに佐賀の米を使う一皿だが、お茶がいは倹約から生まれた日常の茶粥、栗おこわは祭りや祝いのもち米という対照をなす"
+    }
+   ],
+   "tags": [],
+   "notes": "name_jaは「／」併記のため主名「お茶がい」を先頭に採用、別名「茶がゆ」はname_jaに残しsummaryでも言及。伝承地域=佐賀市・小城市・神埼市（複数）のためorigin_cityは空欄、座標は県庁所在地の佐賀市。本文で強調される嬉野は伝承地域欄に無いためorigin_cityには採用せず。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "noppe-jiru",
+   "name_ja": "のっぺ汁",
+   "name_romaji": "Noppe Jiru",
+   "name_en": "Noppe jiru — a root vegetable soup thickened with starch",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "",
+   "lat": 33.2494,
+   "lng": 130.2988,
+   "summary_ja": "サトイモやごぼうなどの根菜を、片栗粉でとろみをつけた醤油や塩の汁で煮る。冬に体を温める日常の一杯だが、祝いには鶏肉、法事には肉を抜いて花麩を入れるなど行事で具が変わるという。",
+   "summary_en": "Root vegetables like taro and burdock simmer in a soy or salt broth thickened with starch — a warming winter soup for everyday, though chicken goes in for celebrations and meat is left out, wheat gluten added, for memorial services.",
+   "sources": [
+    {
+     "title": "のっぺ汁 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_7_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "noppe-jiru",
+     "to_slug": "tsunki-dagojiru",
+     "relation_type": "対比",
+     "basis": "ともに佐賀の根菜たっぷりの汁物だが、のっぺ汁は片栗粉でとろみをつけ、つんきーだご汁は小麦粉だんごを入れる点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=県内全域（広域）のためorigin_cityは空欄、座標は県庁所在地の佐賀市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nigomi",
+   "name_ja": "煮ごみ",
+   "name_romaji": "Nigomi",
+   "name_en": "Nigomi — chicken, chestnut, and red bean simmered with root vegetables for an autumn shrine festival",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "伊万里市",
+   "lat": 33.2669,
+   "lng": 129.8888,
+   "summary_ja": "鶏肉やレンコン、ゴボウなどの根菜を小豆や栗とともに醤油と砂糖で煮含める。伊万里くんちの供日料理として「栗おこわ」と対で欠かせない一皿とされ、祭り前夜にまとめて仕込むという。",
+   "summary_en": "Chicken and root vegetables — lotus root, burdock — simmer with red bean and chestnut in a sweet soy glaze. Paired with chestnut rice as an essential offering at the Imari-kunchi shrine festival, and said to be made in bulk the night before.",
+   "sources": [
+    {
+     "title": "煮ごみ 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_8_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nigomi",
+     "to_slug": "kuri-okowa",
+     "relation_type": "兄弟",
+     "basis": "出典に「供日料理には『栗おこわ』と『煮ごみ』が欠かせない」とあり、伊万里くんちで対になって出される料理"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=県内全域（広域）だが、本文が伊万里市伊万里町の伊万里くんちを発祥として明記するためorigin_city=伊万里市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "saga-gameni",
+   "name_ja": "がめ煮",
+   "name_romaji": "Gameni",
+   "name_en": "Gameni — chicken and root vegetables simmered together for festivals and New Year",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "",
+   "lat": 33.2494,
+   "lng": 130.2988,
+   "summary_ja": "根菜と鶏肉を炒めてから醤油や砂糖で煮含める、佐賀のくんちや正月に欠かせない一皿。全国的には筑前煮とも呼ばれ、豊臣秀吉の朝鮮出兵の際にすっぽんを煮たことが起源と伝わる。",
+   "summary_en": "Root vegetables and chicken are stir-fried, then simmered in soy and sugar for Saga's autumn shrine festivals and New Year. Known elsewhere as chikuzen-ni, its origin is traced to soldiers said to have simmered soft-shell turtle during a 16th-century invasion of Korea.",
+   "sources": [
+    {
+     "title": "がめ煮 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_9_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "saga-gameni",
+     "to_slug": "fukuoka-gameni",
+     "relation_type": "兄弟",
+     "basis": "両出典とも豊臣秀吉の朝鮮出兵時にすっぽん（がめ）を野菜と煮たことを起源として挙げる、同名・同系統の料理"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=県内全域（広域）のためorigin_cityは空欄、座標は県庁所在地の佐賀市。福岡県にも同名の行があり、slugは地名を付けて区別した。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mutsugoro-kabayaki",
+   "name_ja": "むつごろうの蒲焼",
+   "name_romaji": "Mutsugoro no Kabayaki",
+   "name_en": "Mutsugoro no kabayaki — a mudskipper unique to the Ariake Sea, skewered live and glazed sweet",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "",
+   "lat": 33.1509,
+   "lng": 130.1877,
+   "summary_ja": "有明海にしかいないムツゴロウを生きたまま串に刺して素焼きにし、砂糖醤油でじっくり煮からめる。干潮で現れる干潟の泥にすむ珍魚で、5月から8月ごろの求愛期に旬を迎えるという。",
+   "summary_en": "A mudskipper found only in the Ariake Sea is skewered live, grilled plain, then simmered slowly in a sweet soy glaze — a fish of the tidal flats that appear at low tide, at its best around its May-to-August courtship season.",
+   "sources": [
+    {
+     "title": "むつごろうの蒲焼 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_10_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mutsugoro-kabayaki",
+     "to_slug": "warasubo-miso-jiru",
+     "relation_type": "対比",
+     "basis": "ともに有明海だけに生息する珍魚を使う佐賀の郷土料理だが、ムツゴロウは串焼きの蒲焼、ワラスボは味噌汁という違いがある"
+    }
+   ],
+   "tags": [
+    "skewered"
+   ],
+   "notes": "伝承地域=有明海沿岸地域（広域）のためorigin_cityは空欄、座標は代表地点の白石町。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yude-dago",
+   "name_ja": "ゆでだご",
+   "name_romaji": "Yude Dago",
+   "name_en": "Yude dago — boiled wheat dough dumplings dusted with brown sugar",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "武雄市",
+   "lat": 33.1928,
+   "lng": 130.0161,
+   "summary_ja": "小麦粉をこねて平たくのばし、ゆでてから黒砂糖をまぶす素朴なおやつ。米麦の二毛作が盛んな佐賀では自家製の小麦粉が常備され、農作業の合間や祭りで振る舞われてきたと伝わる。",
+   "summary_en": "Wheat dough, kneaded and flattened, is boiled and then dusted with brown sugar — a plain snack from a region where double-cropped wheat kept flour on hand at home, eaten between farm chores or handed out at festivals.",
+   "sources": [
+    {
+     "title": "ゆでだご 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_11_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yude-dago",
+     "to_slug": "tsunki-dagojiru",
+     "relation_type": "対比",
+     "basis": "同じ小麦粉だんごの佐賀の郷土料理だが、ゆでだごはゆでて黒砂糖をかけるおやつ、つんきーだご汁は野菜と煮る汁物という違いがある"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "伝承地域=県内全域（広域）だが、本文が「武雄地区では田植え時の休憩でよく食べられていた」と具体的に触れるためorigin_city=武雄市とした（要判断）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "oyogoshi",
+   "name_ja": "およごし",
+   "name_romaji": "Oyogoshi",
+   "name_en": "Oyogoshi — vegetables and mashed taro tossed together like a white-dressed salad",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "",
+   "lat": 33.2494,
+   "lng": 130.2988,
+   "summary_ja": "サトイモをすりつぶし、ゴマや味噌とともに野菜と和える白和え風の一皿。約230年前の集落火災で焼け残った野草を和えて食べたことに由来すると伝わり、豆腐の代わりに里芋を使うようになったという。",
+   "summary_en": "Mashed taro is mixed with sesame and miso, then tossed with vegetables like a tofu-based white salad, minus the tofu — said to trace back some 230 years to a village fire, when survivors ate whatever wild greens they could gather and dress.",
+   "sources": [
+    {
+     "title": "およごし 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_12_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "oyogoshi",
+     "to_slug": "ika-no-kakeae",
+     "relation_type": "対比",
+     "basis": "ともに佐賀の家庭でよくつくられる和え物だが、およごしは里芋の白和え風、かけ和えは魚介と大根の酢味噌和えという違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=県内全域（広域）。本文の「伊福集落」の所在市町村を出典から特定できなかったためorigin_cityは空欄のまま、座標は県庁所在地の佐賀市とした（要判断）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsunki-dagojiru",
+   "name_ja": "つんきーだご汁",
+   "name_romaji": "Tsunki Dago Jiru",
+   "name_en": "Tsunki dago jiru — hand-torn wheat dumplings simmered with seasonal vegetables",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "武雄市",
+   "lat": 33.1928,
+   "lng": 130.0161,
+   "summary_ja": "小麦粉をこねただんごを手でちぎって野菜と煮込み、味噌や醤油で仕立てる汁物。武雄弁で「ちぎる」を意味する「つんきー」が名の由来とされ、米が乏しかった頃は主食代わりだったという。",
+   "summary_en": "Wheat dough dumplings, torn by hand, simmer with seasonal vegetables in a miso or soy broth — the name said to come from a local word meaning 'to tear', and once eaten in place of rice when it was scarce.",
+   "sources": [
+    {
+     "title": "つんきーだご汁 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_13_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tsunki-dagojiru",
+     "to_slug": "buzen-kabocha-dangojiru",
+     "relation_type": "対比",
+     "basis": "ともに九州の小麦粉だんご汁だが、つんきーだご汁は野菜だしの塩味、かぼちゃのだんご汁は三毛門かぼちゃの甘みが主役という違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=県内全域（広域）だが、本文が「つんきー」を武雄弁と明記するためorigin_city=武雄市とした（要判断）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "go-dofu",
+   "name_ja": "呉豆腐のごま醤油かけ",
+   "name_romaji": "Go Dofu",
+   "name_en": "Go-dofu — a soft, glossy tofu set with kudzu starch instead of nigari, topped with sesame-soy",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "有田町",
+   "lat": 33.1997,
+   "lng": 129.8969,
+   "summary_ja": "豆乳に葛やでんぷんを加えて固める、有田町に伝わる独特の豆腐。にがりで固める通常の豆腐よりも柔らかくつやがあり、ごま醤油をかけて副菜に、黒蜜やきな粉でスイーツにもなるという。",
+   "summary_en": "Soy milk is set not with nigari but kudzu starch, giving this Arita specialty a softer, glossier bite than ordinary tofu — served with sesame-soy as a side, or with black sugar syrup and soybean flour as a dessert.",
+   "sources": [
+    {
+     "title": "呉豆腐のごま醤油かけ 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_14_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "go-dofu",
+     "to_slug": "yukino-tsuyu",
+     "relation_type": "対比",
+     "basis": "ともに有田町の郷土料理だが、呉豆腐は葛でかためた豆乳のごま醤油かけ、ゆきのつゆは窯焚きの夜食の味噌汁という違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=有田町（単一）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yukino-tsuyu",
+   "name_ja": "ゆきのつゆ",
+   "name_romaji": "Yukino Tsuyu",
+   "name_en": "Yukino tsuyu — grated daikon and grilled mochi in a miso broth, once a kiln-firing night's meal",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "有田町",
+   "lat": 33.1997,
+   "lng": 129.8969,
+   "summary_ja": "鬼おろしで粗くおろした大根と、香ばしく焼いた餅を味噌汁に落とす。有田焼の窯元が一晩がかりの窯焚きの合間に食べた夜食とされ、今は大晦日の「有田碗灯」で振る舞われているという。",
+   "summary_en": "Coarsely grated daikon and toasted mochi are dropped into a miso soup — said to have fed Arita-ware potters through an all-night kiln firing, and now served at the New Year's Eve lantern festival held at the town's shrine.",
+   "sources": [
+    {
+     "title": "ゆきのつゆ 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_15_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yukino-tsuyu",
+     "to_slug": "go-dofu",
+     "relation_type": "対比",
+     "basis": "ともに有田町の郷土料理だが、ゆきのつゆは窯焚きの夜食の味噌汁、呉豆腐は葛でかためた豆乳のごま醤油かけという違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=有田町（単一）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "saga-kuchizoko-nitsuke",
+   "name_ja": "くちぞこの煮つけ",
+   "name_romaji": "Kuchizoko no Nitsuke",
+   "name_en": "Kuchizoko no nitsuke — sole from the Ariake Sea simmered in a seasoned broth",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "",
+   "lat": 33.1509,
+   "lng": 130.1877,
+   "summary_ja": "有明海の舌平目を「くちぞこ」と呼び、醤油や酒で甘辛く煮つける。靴底のような平たい姿から名がついたとされ、皮の黒い「クロシタ」の方が身が締まり値も高いとされるという。",
+   "summary_en": "Sole from the Ariake Sea, called 'kuchizoko' for its flat, shoe-sole shape, is simmered sweet and salty in soy and sake — the darker-skinned variety said to have firmer flesh and fetch a higher price.",
+   "sources": [
+    {
+     "title": "くちぞこの煮つけ 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_16_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "saga-kuchizoko-nitsuke",
+     "to_slug": "fukuoka-kuchizoko-nitsuke",
+     "relation_type": "兄弟",
+     "basis": "同じ有明海の舌平目を指す方言名「くつぞこ／くちぞこ」で、有明海沿岸を挟んで福岡・佐賀両県に伝わる同じ料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=有明海沿岸（広域）のためorigin_cityは空欄、座標は代表地点の白石町。福岡県に同名の「くつぞこの煮つけ」があるためslugに地名を付けて区別した。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kuri-okowa",
+   "name_ja": "栗おこわ",
+   "name_romaji": "Kuri Okowa",
+   "name_en": "Kuri okowa — glutinous rice steamed with chestnut and red bean for autumn shrine festivals",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "",
+   "lat": 33.2494,
+   "lng": 130.2988,
+   "summary_ja": "もち米に小豆と栗をのせて蒸し上げるおこわ。神前には円錐形に盛って供えることもあり、佐賀県各地の秋祭り「くんち」では客をもてなす土産として欠かせない一品と伝わる。",
+   "summary_en": "Glutinous rice is steamed with red bean and chestnut on top — sometimes shaped into a cone for shrine offerings, and said to be an essential gift for guests at the autumn 'kunchi' festivals held across Saga.",
+   "sources": [
+    {
+     "title": "栗おこわ 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_17_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kuri-okowa",
+     "to_slug": "nigomi",
+     "relation_type": "兄弟",
+     "basis": "出典に「供日料理には『栗おこわ』と『煮ごみ』が欠かせない」とあり、伊万里くんちで対になって出される料理"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=県内全域（広域）。本文は伊万里・塩田・有田など複数の地域を並記し一つに絞れないためorigin_cityは空欄、座標は県庁所在地の佐賀市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hoshigaki-namasu",
+   "name_ja": "干し柿なます",
+   "name_romaji": "Hoshigaki Namasu",
+   "name_en": "Hoshigaki namasu — dried persimmon and daikon tossed in a citrus vinegar",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "佐賀市",
+   "lat": 33.3103,
+   "lng": 130.3287,
+   "summary_ja": "千切りにしたダイコンと干し柿を、酢とゆずの搾り汁、醤油で和える。軒先に渋柿を吊るす「柿のれん」が秋の風物詩となる佐賀市大和町松梅地区で、正月のおせちに添えられるという。",
+   "summary_en": "Julienned daikon and dried persimmon are tossed with vinegar, yuzu juice, and soy — from Saga's Matsubai district, where curtains of drying persimmons hanging under the eaves mark the fall, and this dish is said to appear alongside New Year's osechi.",
+   "sources": [
+    {
+     "title": "干し柿なます 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_18_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hoshigaki-namasu",
+     "to_slug": "niimoji",
+     "relation_type": "対比",
+     "basis": "ともに酢を使った佐賀の和え物だが、干し柿なますは冬の干し柿と大根の酢の物、にいもじは夏のミズイモの酢の物という季節の対照がある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=佐賀市大和町松梅地区（単一・具体的）。大和町は2005年に佐賀市へ編入された地区のためorigin_city=佐賀市、座標は大和町付近とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsugani-meshi",
+   "name_ja": "つがにめし",
+   "name_romaji": "Tsugani Meshi",
+   "name_en": "Tsugani meshi — freshwater crab cooked into the rice pot whole",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "唐津市",
+   "lat": 33.4519,
+   "lng": 130.1206,
+   "summary_ja": "ツガニ（モクズガニ）を米と一緒に炊き込み、カニの風味をご飯に染み込ませる。産卵で川を下る9月から12月に味がのるとされ、鶏をさばくより手軽だったため人が集まる祝い事で重宝されたという。",
+   "summary_en": "Freshwater mitten crab is cooked whole into the rice pot, its flavor soaking through — best from September to December, when the crabs head downriver to spawn, and once favored for gatherings as an easier alternative to butchering a chicken.",
+   "sources": [
+    {
+     "title": "つがにめし 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_19_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tsugani-meshi",
+     "to_slug": "kuri-okowa",
+     "relation_type": "対比",
+     "basis": "ともに佐賀の炊き込み・おこわ系の飯料理だが、つがにめしは川ガニを炊き込み、栗おこわはもち米に栗と小豆をのせて蒸すという違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=県内全域（広域）だが、本文が唐津市七山の玉島川を「特に有名」と明記するためorigin_city=唐津市とした（要判断）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shappa-no-nitsuke",
+   "name_ja": "しゃっぱの煮つけ",
+   "name_romaji": "Shappa no Nitsuke",
+   "name_en": "Shappa no nitsuke — mantis shrimp simmered in soy, once dismissed as a nuisance catch",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "",
+   "lat": 33.1509,
+   "lng": 130.1877,
+   "summary_ja": "有明海でとれるシャコを佐賀では「しゃっぱ」と呼び、醤油だしでじっくり炊く。クルマエビ漁の網にかかる邪魔者として扱われることもあったが、エビに似た旨みがあり夏の味覚として親しまれているという。",
+   "summary_en": "Mantis shrimp from the Ariake Sea, called 'shappa' in Saga, are simmered slowly in a soy broth — once treated as a nuisance catch tangled in the prawn nets, but prized for a sweetness close to shrimp, and welcomed as a summer flavor.",
+   "sources": [
+    {
+     "title": "しゃっぱの煮つけ 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_20_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shappa-no-nitsuke",
+     "to_slug": "saga-kuchizoko-nitsuke",
+     "relation_type": "対比",
+     "basis": "ともに有明海の魚介を醤油だしで煮る佐賀の惣菜だが、しゃっぱは甲殻類、くちぞこは魚という違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=有明海（広域）のためorigin_cityは空欄、座標は代表地点の白石町。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "warasubo-miso-jiru",
+   "name_ja": "わらすぼのみそ汁",
+   "name_romaji": "Warasubo no Miso Jiru",
+   "name_en": "Warasubo no miso jiru — a fearsome-looking mudflat fish found only in the Ariake Sea, in a miso soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "",
+   "lat": 33.1509,
+   "lng": 130.1877,
+   "summary_ja": "有明海だけに生息するワラスボを味噌汁に仕立てる。目が退化し鋭い歯をむき出した独特の姿から地元でも恐れられる魚だが、干潟の泥に育つ分だけ旨みが強いとされ、味噌汁のほか煮つけにもするという。",
+   "summary_en": "A mudflat fish found only in the Ariake Sea, with sharp bared teeth and eyes gone vestigial, goes into a miso soup — feared for its look even by locals, but said to carry a strong flavor from the mud it grows in, also simmered as a stew.",
+   "sources": [
+    {
+     "title": "わらすぼのみそ汁 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_21_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "warasubo-miso-jiru",
+     "to_slug": "mutsugoro-kabayaki",
+     "relation_type": "対比",
+     "basis": "ともに有明海だけに生息する珍魚を使う佐賀の郷土料理だが、ワラスボは味噌汁、ムツゴロウは串焼きの蒲焼という違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=有明地域（広域）のためorigin_cityは空欄、座標は代表地点の白石町。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ara-no-sugatani",
+   "name_ja": "あらの姿煮",
+   "name_romaji": "Ara no Sugatani",
+   "name_en": "Ara no sugatani — a whole grouper, ten kilos or more, simmered for a shrine festival showpiece",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "唐津市",
+   "lat": 33.4497,
+   "lng": 129.9694,
+   "summary_ja": "10kgほどにもなるアラ（クエ）を丸ごと大鍋で1日がかりで煮込む。唐津くんちで留守を守る女性たちが客をもてなす「くんち料理」の目玉とされ、戦後、見栄えを競って始まったと伝わる。",
+   "summary_en": "A grouper weighing ten kilos or more is simmered whole in a giant pot over the better part of a day — the showpiece of the hospitality dishes women prepare for guests during the Karatsu-kunchi festival, said to have started as a postwar display of one-upmanship.",
+   "sources": [
+    {
+     "title": "あらの姿煮 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_22_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ara-no-sugatani",
+     "to_slug": "nigomi",
+     "relation_type": "対比",
+     "basis": "ともに佐賀の秋のくんち料理だが、あらの姿煮は唐津くんちの見栄えを競う大魚の丸煮、煮ごみは伊万里くんちの根菜の煮物という違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=唐津市（単一）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "futsu-mochi",
+   "name_ja": "ふつもち",
+   "name_romaji": "Futsu Mochi",
+   "name_en": "Futsu mochi — mugwort mochi filled with sweet bean paste",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "",
+   "lat": 33.2494,
+   "lng": 130.2988,
+   "summary_ja": "つきたての餅にゆでたよもぎを練り込み、あんこを包む。全国で桃の節句に菱餅を供えるのに対し、佐賀ではこの「ふつ餅」を供える地域があり、春の訪れを告げるおやつでもあるという。",
+   "summary_en": "Pounded mochi is worked through with boiled mugwort and wrapped around sweet bean paste — where much of Japan offers diamond-shaped rice cakes at the Doll Festival, parts of Saga offer this mugwort mochi instead, and it doubles as a snack marking spring's arrival.",
+   "sources": [
+    {
+     "title": "ふつもち 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_23_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "futsu-mochi",
+     "to_slug": "yude-dago",
+     "relation_type": "対比",
+     "basis": "ともに佐賀のもち米・小麦粉を使った素朴なおやつだが、ふつ餅はよもぎ入りの供え餅、ゆでだごはゆでてから黒砂糖をかけるだんごという違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "handheld"
+   ],
+   "notes": "伝承地域=県内全域（広域）のためorigin_cityは空欄、座標は県庁所在地の佐賀市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "okomoji-abura-itame",
+   "name_ja": "おこもじの油炒め",
+   "name_romaji": "Okomoji no Abura Itame",
+   "name_en": "Okomoji no abura itame — old salted mustard greens desalted and stir-fried in sesame oil",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "",
+   "lat": 33.2494,
+   "lng": 130.2988,
+   "summary_ja": "塩漬けの高菜を一晩水で塩抜きし、刻んでごま油で炒めて醤油と砂糖で味つける。古くなった漬物を美味しく食べ切る工夫から生まれたとされ、塩分を抑えられる家庭のソウルフードという。",
+   "summary_en": "Salt-pickled mustard greens are soaked overnight to draw out the salt, then chopped and stir-fried in sesame oil with soy and sugar — said to have arisen as a way to use up aging pickles, and lower in salt for it, a household staple in Saga.",
+   "sources": [
+    {
+     "title": "おこもじの油炒め 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_24_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "okomoji-abura-itame",
+     "to_slug": "takana-zuke",
+     "relation_type": "対比",
+     "basis": "高菜漬けそのものではなく、古漬けを塩抜きして油で炒め直した佐賀の日常のおかずという違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=県内全域（広域）のためorigin_cityは空欄、座標は県庁所在地の佐賀市。genre_hintはtsukemonoではないが高菜の古漬けを使うため確認: 漬物そのものではなく炒め物のため、既存の除外対象（漬物）には当たらないと判断し新規作成。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kanzaki-somen",
+   "name_ja": "冷やしそうめん",
+   "name_romaji": "Kanzaki Somen",
+   "name_en": "Kanzaki somen — hand-stretched wheat noodles from Kanzaki, chilled and dipped",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "佐賀県",
+   "origin_city": "神埼市",
+   "lat": 33.3269,
+   "lng": 130.3986,
+   "summary_ja": "神埼特産の手延べそうめんを氷水でしめ、コシとつるりとした喉ごしを楽しむ。約380年前、諸国を巡っていた僧が病に倒れた際、看病した行商人に製法を伝えたのが始まりと伝わる。",
+   "summary_en": "Hand-stretched somen noodles from Kanzaki are chilled in ice water for a firm bite and smooth slide — said to trace back some 380 years to a traveling monk who, falling ill, taught the noodle-making craft to the peddler who nursed him.",
+   "sources": [
+    {
+     "title": "冷やしそうめん 佐賀県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/45_25_saga.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kanzaki-somen",
+     "to_slug": "saga",
+     "relation_type": "対比",
+     "basis": "ともに佐賀の麺料理だが、佐賀ラーメンは豚骨醤油の中華麺、神埼そうめんは小麦を極細に手延べした乾麺という違いがある"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "notes": "台帳のname_ja「冷やしそうめん」を尊重しname_jaはそのままとしたが、本文の主題は神埼特産の手延べそうめん（神埼そうめん）のため、slugとname_romaji/name_enは神埼そうめんを採用した（要判断）。伝承地域=神埼市（単一）。genreは「そうめん」がルール上の自動判定リストに無いためnullとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: 45_6_saga(須古ずし)=all-items-ja.txtの既存slug suko-zushi（須古ずし、佐賀県、match_confidence=high）のため作らず。 / 棚を変えた行: なし（台帳のshelfをそのまま踏襲）。 / 要判断: saga-dabu(だぶ)の伝承地域「浜玉町、唐津市」は浜玉町が2005年に唐津市へ編入された地区のため実質単一の唐津市と判断。nigomi・tsugani-meshi・yude-dago・tsunki-dagojiruは伝承地域が『県内全域』だが、本文が伊万里市・唐津市七山・武雄地区など特定の地名を明記しているため、そちらをorigin_cityに採用した。oyogoshiの本文にある『伊福集落』は所在市町村を出典から特定できず、origin_cityは空欄のままとした。hoshigaki-namasu(伝承地域=佐賀市大和町松梅地区)・kanzaki-somen(冷やしそうめん、実質は神埼そうめんが主題)はそれぞれ座標・slug選定で本文の記述を優先した。saga-kuchizoko-nitsuke・fukuoka-kuchizoko-nitsukeは有明海を挟む同一料理のためslugに地名を付けて相互にrelationsで結んだ。"
+}

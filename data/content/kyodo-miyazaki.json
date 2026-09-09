@@ -1,0 +1,1050 @@
+{
+ "items": [
+  {
+   "slug": "toshitori-zen",
+   "name_ja": "歳とり膳",
+   "name_romaji": "Toshitori-zen",
+   "name_en": "Toshitori-zen — the New Year's Eve feast set out for the year's incoming kami",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "",
+   "lat": 31.9111,
+   "lng": 131.4239,
+   "summary_ja": "大晦日の夜、歳神様への感謝と新年への願いをこめて家族で囲む宮崎の膳。沿岸部ではタイ、山間部では塩イワシなど「歳とり魚」を主役に、煮しめや白和え、なますが並び、正月三が日はその残りを静かに食べ継ぐ。",
+   "summary_en": "On New Year's Eve, a family gathers around a set meal offered in thanks to the departing year's kami and in hope for the new one — a 'year-taking fish' at its center, sea bream on the coast or salted sardine in the mountains, alongside simmered vegetables, tofu salad, and pickled namasu, the leftovers quietly eaten through the first days of January.",
+   "sources": [
+    {
+     "title": "歳とり膳／年取り膳／年越し料理 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/toshi_torizen_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "toshitori-zen",
+     "to_slug": "miyazaki-nishime",
+     "relation_type": "兄弟",
+     "basis": "歳とり膳の献立として煮しめが並ぶと本文に記載があり、正月料理として一緒に語られる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "name_jaは「歳とり膳／年取り膳／年越し料理」の並記のため先頭の「歳とり膳」を主名とし、別名はsummaryで言及。origin_city: 伝承地域=北部地域、中部地域など（広域）のため空欄。lat/lngは県庁所在地の宮崎市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "miyazaki-nishime",
+   "name_ja": "煮しめ",
+   "name_romaji": "Miyazaki Nishime",
+   "name_en": "Miyazaki nishime — root vegetables and konjac simmered slowly until the broth is gone",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "",
+   "lat": 31.9111,
+   "lng": 131.4239,
+   "summary_ja": "しいたけや里芋、たけのこ、こんにゃくなどを醤油とみりんでじっくり煮つめ、汁を残さず仕上げる宮崎の惣菜。正月のおせちや高千穂の神楽奉納に欠かせない一品で、地域ごとに出汁の素材や具材が異なる。",
+   "summary_en": "Shiitake, taro, bamboo shoot, and konjac are simmered slowly in soy sauce and mirin until the broth cooks away entirely — a Miyazaki side dish essential to New Year's osechi and to the all-night kagura dance offerings in Takachiho, its broth base and fillings shifting from one district to the next.",
+   "sources": [
+    {
+     "title": "煮しめ 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nishime_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "miyazaki-nishime",
+     "to_slug": "toshitori-zen",
+     "relation_type": "兄弟",
+     "basis": "歳とり膳の献立として煮しめが並ぶと本文に記載があり、正月料理として一緒に語られる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "name_ja「煮しめ」はall-items-ja.txtに岩手県iwate-nishime・栃木県nishimeなど同名の既存項目があるためslugをmiyazaki-nishimeとした。origin_city: 伝承地域=宮崎県内全域のため空欄。lat/lngは県庁所在地の宮崎市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sakana-zushi",
+   "name_ja": "魚ずし",
+   "name_romaji": "Sakana-zushi",
+   "name_en": "Sakana-zushi — whole mackerel or horse mackerel cured in vinegar over hand-shaped rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "宮崎県",
+   "origin_city": "門川町",
+   "lat": 32.4711,
+   "lng": 131.6489,
+   "summary_ja": "サバやアジを背開きにして塩でしめ、酢に漬け込んでからすし飯にのせる宮崎沿岸部の姿ずし。天領地だった門川町の名物として知られ、四国から伝わったとの説もある冬祭りのごちそう。",
+   "summary_en": "Mackerel or horse mackerel is butterflied, salted, then cured in vinegar before being set over hand-shaped rice — a whole-fish sushi from the Miyazaki coast, best known in Kadogawa, a former shogunate domain, and said by some to have crossed over from Shikoku; a winter-festival treat.",
+   "sources": [
+    {
+     "title": "魚ずし 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sakana_zushi_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sakana-zushi",
+     "to_slug": "nanatoko-zushi",
+     "relation_type": "対比",
+     "basis": "ともに宮崎で「ずし」と呼ばれる郷土料理だが、魚ずしはサバやアジの姿ずし、七とこずしは七草を炊きこんだ雑炊という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "name_jaはledgerの「魚料理ずし」ではなく、詳細ページの正式名称「魚ずし」を採用。origin_city: 伝承地域=宮崎県北（沿岸部）だが、本文で門川町が名物として名指しされているため門川町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "futatabi-dango",
+   "name_ja": "ふたたびだんご",
+   "name_romaji": "Futatabi Dango",
+   "name_en": "Futatabi dango — mugwort dumplings kneaded twice for an extra-soft, fluffy texture",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "延岡市",
+   "lat": 32.5781,
+   "lng": 131.6606,
+   "summary_ja": "だんご粉を練って蒸し、摘みたてのよもぎを加えてもう一度つき直す延岡市のおやつ。通常一度きりの練りを「再び」おこなうことが名の由来で、あんを包んできな粉をまぶすと、若草色のやわらかな団子になる。",
+   "summary_en": "Dumpling flour is kneaded, steamed with freshly picked mugwort folded in, then pounded a second time — a Nobeoka treat named for that unusual second working of the dough, wrapped around sweet bean paste and dusted with soybean flour into a soft, pale-green dumpling.",
+   "sources": [
+    {
+     "title": "ふたたびだんご 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/futatabi_dango_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "futatabi-dango",
+     "to_slug": "iriko-mochi",
+     "relation_type": "対比",
+     "basis": "ともに宮崎の餅粉・だんご粉を使う郷土菓子で、ふたたびだんごはよもぎを練り込む蒸し団子、いりこもちは炒った餅米粉を練り上げる棒状の菓子という違いがある"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "origin_city: 伝承地域=県北部（沿岸部）だが、本文で延岡市が発祥地として詳しく語られるため延岡市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mehikari-no-karaage",
+   "name_ja": "めひかりの唐揚げ",
+   "name_romaji": "Mehikari no Karaage",
+   "name_en": "Mehikari no karaage — deep-fried greeneye, bones and all, from the waters off Nobeoka",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "宮崎県",
+   "origin_city": "延岡市",
+   "lat": 32.5781,
+   "lng": 131.6606,
+   "summary_ja": "延岡市沖の日向灘、水深300m前後でとれる小魚メヒカリを、骨ごとまるごと揚げる料理。かつては雑魚扱いだったが、淡白な身とふんわりした食感を地元の料理人が引き出し、いまや延岡の名物になった。",
+   "summary_en": "Mehikari — a small, big-eyed greeneye hauled up from around 300 meters deep in the Hyuga Sea off Nobeoka — is fried whole, bones included. Once treated as a throwaway catch, its mild flesh and soft texture were drawn out by local cooks and it has since become a Nobeoka specialty.",
+   "sources": [
+    {
+     "title": "めひかりの唐揚げ 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mehikari_no_karaage_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mehikari-no-karaage",
+     "to_slug": "karaage",
+     "relation_type": "対比",
+     "basis": "台帳のexisting_slug候補（karaage）は唐揚げという調理法一般を指す既存項目だが、めひかりの唐揚げは延岡沖でとれる特定の魚を骨ごと揚げる点で別物と判断し新規作成した"
+    }
+   ],
+   "tags": [],
+   "notes": "existing_slug=karaage（low確信）と比較。karaageは唐揚げという調理法全般を扱う既存項目（伝承地域なし）で、めひかりの唐揚げは延岡沖の特定魚を使う郷土料理のため、ブリーフの『ニシン漬けとニシン』の例に準じ別物と判断し新規作成。slugは他県の『<魚>-no-karaage』命名（koi-no-karaage・fugu-no-karaage等）に合わせた。origin_city: 伝承地域=県北地方（沿岸部）、延岡市の記載があるため延岡市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nadoufu",
+   "name_ja": "菜豆腐",
+   "name_romaji": "Nadofu",
+   "name_en": "Nadofu — tofu curdled together with seasonal wild greens or flowers",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "椎葉村",
+   "lat": 32.4667,
+   "lng": 131.2667,
+   "summary_ja": "大豆を煮てにがりで固める工程に、季節の菜の花や三つ葉、平家かぶの葉を混ぜ込む椎葉村の豆腐。豆腐の色や滋養を補うと同時に、貴重な大豆をやせた土地でも育つ青菜で節約する知恵だったと伝わる。",
+   "summary_en": "As soybeans are simmered and set with nigari, seasonal greens — rapeseed blossom, mitsuba, or the leaves of the local Heike turnip — are folded straight into the curd — a Shiiba village tofu that both colors and nourishes the block while stretching scarce soybeans with greens that grow even on poor mountain soil.",
+   "sources": [
+    {
+     "title": "菜豆腐 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nadoufu_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nadoufu",
+     "to_slug": "somage",
+     "relation_type": "対比",
+     "basis": "ともに椎葉村に伝わる山間部の郷土料理で、菜豆腐は青菜を混ぜ込む豆腐、そまげは煮干し出汁のそばがきという違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=県北地方（山間部）だが、本文が椎葉村を中心に語るため椎葉村を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kappo-dori",
+   "name_ja": "かっぽ鶏",
+   "name_romaji": "Kappo-dori",
+   "name_en": "Kappo-dori — chicken and vegetables slow-cooked inside a length of green bamboo",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "高千穂町",
+   "lat": 32.7061,
+   "lng": 131.3081,
+   "summary_ja": "青竹の節をくり抜いた筒に下味をつけた地鶏や野菜を詰め、竹ごと火にかけて蒸し焼きにする高千穂町の料理。竹から出る香りとエキスがまろやかな味わいを生み、竹筒に地元焼酎を入れた「かっぽ酒」と共に楽しまれる。",
+   "summary_en": "Chicken and vegetables, lightly seasoned, are packed into a length of green bamboo with its joints hollowed out, then steam-cooked over a fire, bamboo and all — a Takachiho dish whose aroma and natural extract mellow the flavor, traditionally enjoyed alongside kappo-zake, local shochu warmed in its own bamboo tube.",
+   "sources": [
+    {
+     "title": "かっぽ鶏 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kappo_dori_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kappo-dori",
+     "to_slug": "miyazaki-jitokko",
+     "relation_type": "使用食材",
+     "basis": "かっぽ鶏には宮崎の地鶏（本文では地頭鶏の系統にあたる地鶏）が使われる"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ],
+   "notes": "origin_city: 伝承地域=県北地方（山間部）だが、本文が高千穂町を中心に語るため高千穂町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "somage",
+   "name_ja": "そまげ",
+   "name_romaji": "Somage",
+   "name_en": "Somage — a buckwheat porridge, its dumplings stirred straight into a vegetable soup",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "椎葉村",
+   "lat": 32.4667,
+   "lng": 131.2667,
+   "summary_ja": "煮干し出汁で大根や人参を煮た汁に、そば粉を混ぜ込んでだんご状にする椎葉村の郷土料理。「そま」はそば、「げ」はおかゆを指す方言とされ、固くなったら囲炉裏で焼いて食べたと伝わる、米を節約するための一杯。",
+   "summary_en": "Buckwheat flour is stirred into a broth of daikon and carrot simmered with dried sardine until it forms soft dumplings — a Shiiba village dish whose name is said to combine the local words for buckwheat and porridge; once it hardened, it was grilled over the irori hearth, a way of stretching scarce rice.",
+   "sources": [
+    {
+     "title": "そまげ 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/somage_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "somage",
+     "to_slug": "nadoufu",
+     "relation_type": "対比",
+     "basis": "ともに椎葉村に伝わる山間部の郷土料理で、そまげは煮干し出汁のそばがき、菜豆腐は青菜を混ぜ込む豆腐という違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域=県北地方（山間部）だが、本文が椎葉村を中心に語るため椎葉村を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hie-zushi",
+   "name_ja": "稗ずーしー",
+   "name_romaji": "Hie-zushi",
+   "name_en": "Hie-zushi — millet and wild boar simmered into a porridge for the long winter",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "椎葉村",
+   "lat": 32.4667,
+   "lng": 131.2667,
+   "summary_ja": "猪の骨付き肉を湯がいた出汁に、米や稗、野菜を入れて炊く椎葉村の雑炊。縄文以前から食べられてきたとされる雑穀・稗を使い、猪をさばいた際には村中に振る舞われる冬の栄養源として伝わってきた。",
+   "summary_en": "Wild boar bones are simmered into a broth, then rice, millet, and vegetables are added and cooked down into a porridge — a Shiiba village dish built on millet, a grain said to have been eaten in Japan since before rice farming; whenever a boar was dressed, the porridge it made was shared around the whole village to see out the long winter.",
+   "sources": [
+    {
+     "title": "稗ずーしー／稗がゆ 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hie_zushii_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hie-zushi",
+     "to_slug": "somage",
+     "relation_type": "対比",
+     "basis": "ともに椎葉村に伝わる雑穀を使う郷土料理で、稗ずーしーは猪の出汁で稗を炊く雑炊、そまげはそば粉のだんご入り汁という違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "name_ja「稗ずーしー／稗がゆ」のうち先頭の「稗ずーしー」を主名とし、別名「稗がゆ」はsummaryで言及。origin_city: 伝承地域=宮崎県北部（山間部）だが、本文が椎葉村を中心に語るため椎葉村を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "toukibi-meshi",
+   "name_ja": "とうきびめし",
+   "name_romaji": "Toukibi Meshi",
+   "name_en": "Toukibi meshi — rice cooked with cracked, wind-dried corn kernels",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "高千穂町",
+   "lat": 32.7061,
+   "lng": 131.3081,
+   "summary_ja": "軒下で寒風にさらして乾燥させたとうもろこしを踏み臼でひき割りにし、米に混ぜて炊く高千穂地方の飯。米が貴重だった時代にかさ増しの役目を果たしたとされ、冷めると囲炉裏で焼いて食べたと伝わる。",
+   "summary_en": "Corn, dried under the eaves through the winter wind, is cracked in a foot-powered mortar and cooked into the rice — a dish from the Takachiho area said to have stretched scarce rice further; once cold, it was grilled over the hearth fire to bring it back.",
+   "sources": [
+    {
+     "title": "とうきびめし 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/toukibi_meshi_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "toukibi-meshi",
+     "to_slug": "kappo-dori",
+     "relation_type": "対比",
+     "basis": "ともに高千穂町周辺に伝わる山間部の郷土料理で、とうきびめしはとうもろこしを混ぜて炊く飯、かっぽ鶏は竹筒で蒸し焼きにする鶏料理という違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域=県北地方（山間部）だが、本文が高千穂町・五ケ瀬町・日之影町を挙げるため、代表点として高千穂町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "miyazaki-hiyajiru",
+   "name_ja": "冷や汁",
+   "name_romaji": "Miyazaki Hiyajiru",
+   "name_en": "Miyazaki hiyajiru — grilled fish and miso ground together, chilled, and poured over barley rice",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "",
+   "lat": 31.9111,
+   "lng": 131.4239,
+   "summary_ja": "焼いた魚と味噌をすり鉢でまぜ合わせ、香ばしく炙ってから出汁でのばして冷やす宮崎の即席汁。夏の農作業の合間に手早く栄養を摂る知恵として広まったとされ、麦飯にかけてきゅうりを添えていただく。",
+   "summary_en": "Grilled fish is ground together with miso, toasted fragrant over charcoal, then thinned with dashi and chilled — an instant Miyazaki soup said to have spread as a quick way to eat well during heavy summer farm work, poured over barley rice and topped with sliced cucumber.",
+   "sources": [
+    {
+     "title": "冷や汁 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hiyajiru_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "miyazaki-hiyajiru",
+     "to_slug": "zabu-jiru",
+     "relation_type": "対比",
+     "basis": "ともに宮崎の日常の汁物だが、冷や汁は夏に食べる冷たい即席汁、ざぶ汁は根菜をざぶざぶ煮る温かい汁という違いがある"
+    }
+   ],
+   "tags": [
+    "miso",
+    "cold_served"
+   ],
+   "notes": "name_ja「冷や汁」はall-items-ja.txtに埼玉県hiyajiru・山形県yonezawa-hiyajiruなど同名の既存項目があるためslugをmiyazaki-hiyajiruとした。origin_city: 伝承地域=県央地方（広域）のため空欄。lat/lngは県庁所在地の宮崎市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nuta-imo",
+   "name_ja": "ぬた芋",
+   "name_romaji": "Nuta-imo",
+   "name_en": "Nuta-imo — boiled taro dressed in a sweet sesame-miso sauce",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "",
+   "lat": 31.9111,
+   "lng": 131.4239,
+   "summary_ja": "皮ごとゆでた里芋をすりごま、味噌、砂糖、みりんで和える宮崎の惣菜。里芋の角がとれてとろみが増すのが持ち味で、小さな「おちこ」芋を無駄なく使う先人の知恵から生まれたと伝わる。",
+   "summary_en": "Taro, boiled in its skin, is dressed in a sauce of ground sesame, miso, sugar, and mirin — a Miyazaki side dish that thickens as the taro's edges soften into the sauce, said to have grown from a way of using up small taro too little to serve any other way.",
+   "sources": [
+    {
+     "title": "ぬた芋 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nutaimo_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nuta-imo",
+     "to_slug": "seri-no-yogoshi",
+     "relation_type": "対比",
+     "basis": "ともに宮崎の家庭料理で味噌や胡麻を使う和え物だが、ぬた芋は里芋を使い、せりのよごしはせりと豆腐を使う違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域=県央地方のため空欄。lat/lngは県庁所在地の宮崎市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ocha-no-ha-tempura",
+   "name_ja": "お茶の葉天ぷら",
+   "name_romaji": "Ocha no Ha Tempura",
+   "name_en": "Ocha no ha tempura — new tea leaves battered and fried, salted straight from the oil",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "宮崎県",
+   "origin_city": "日向市",
+   "lat": 32.4239,
+   "lng": 131.6206,
+   "summary_ja": "摘みたての新茶の若葉に薄く衣をつけてさっと揚げ、塩を振っていただく宮崎の初夏の料理。日照時間の長い宮崎は茶どころとして知られ、新茶の時期にしか味わえない地元ならではの一品とされる。",
+   "summary_en": "Freshly picked new tea leaves are dipped in a thin batter, fried quickly, and salted straight from the oil — an early-summer dish from sun-drenched, tea-growing Miyazaki, a taste available only for the brief window when the first tea leaves come in.",
+   "sources": [
+    {
+     "title": "お茶の葉天ぷら 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ochano_tenpura_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ocha-no-ha-tempura",
+     "to_slug": "tempura",
+     "relation_type": "対比",
+     "basis": "台帳のexisting_slug候補（tempura）は天ぷらという調理法一般を指す既存項目だが、お茶の葉天ぷらは新茶の葉という特定の食材を揚げる点で別物と判断し新規作成した"
+    }
+   ],
+   "tags": [],
+   "notes": "existing_slug=tempura（low確信）と比較。tempuraは天ぷらという調理法全般を扱う既存項目（伝承地域なし）で、お茶の葉天ぷらは宮崎特産の新茶の葉を揚げる郷土料理のため別物と判断し新規作成。slugは他県の『<食材>-no-tempura』命名（kogyo-no-tempura・namazu-no-tempura等）に合わせた。origin_city: 伝承地域=日向市、都城市、串間市、川南町、高千穂町、五ヶ瀬町など（広域・複数自治体）のため、本文の記載順で最初に挙がる日向市を代表点とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "zabu-jiru",
+   "name_ja": "ざぶ汁",
+   "name_romaji": "Zabu-jiru",
+   "name_en": "Zabu-jiru — root vegetables simmered together in a soy-seasoned soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "都農町",
+   "lat": 32.1017,
+   "lng": 131.5525,
+   "summary_ja": "人参、ごぼう、じゃがいも、大根、かぼちゃなどを炒めていりこと昆布の出汁で煮る都農町の汁物。野菜を「ざぶざぶ」煮ることが名の由来とされ、手に入りやすい根菜でつくる宮崎の日常の家庭料理。",
+   "summary_en": "Carrot, burdock, potato, daikon, and pumpkin are stir-fried, then simmered in a dashi of dried sardine and kelp — a Tsuno town soup named for the zabu-zabu sound of vegetables boiling away, built from whatever root vegetables are on hand, an everyday dish in Miyazaki homes.",
+   "sources": [
+    {
+     "title": "ざぶ汁 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/zabujiru_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "zabu-jiru",
+     "to_slug": "miyazaki-hiyajiru",
+     "relation_type": "対比",
+     "basis": "ともに宮崎の日常の汁物だが、ざぶ汁は根菜をざぶざぶ煮る温かい汁、冷や汁は夏に食べる冷たい即席汁という違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=県央地方東部だが、本文が都農町を中心に語るため都農町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "miyazaki-torimeshi",
+   "name_ja": "とりめし",
+   "name_romaji": "Miyazaki Torimeshi",
+   "name_en": "Miyazaki torimeshi — rice cooked with chicken, burdock, and carrot, a farmhand's field meal",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "新富町",
+   "lat": 32.0664,
+   "lng": 131.4794,
+   "summary_ja": "細く切った鶏肉とごぼう、人参、しいたけを炒めて出汁で煮つけ、米と一緒に炊きあげる宮崎の飯料理。稲刈りや畑仕事の合間におにぎりとして食べられてきた農家飯で、新富町では「春日ずし」の別名でも知られる。",
+   "summary_en": "Thinly sliced chicken, burdock, carrot, and shiitake are stir-fried and simmered in dashi, then cooked into the rice — a Miyazaki farmhand's meal once carried into the fields as rice balls during harvest, known in Shintomi town by another name, Kasuga-zushi.",
+   "sources": [
+    {
+     "title": "とりめし 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tori_meshi_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "miyazaki-torimeshi",
+     "to_slug": "chikin-nanban",
+     "relation_type": "対比",
+     "basis": "ともに宮崎を代表する鶏肉料理だが、とりめしは鶏を炊き込むごはん、チキン南蛮は揚げた鶏に甘酢だれをかける違いがある"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ],
+   "notes": "name_ja「とりめし」はall-items-ja.txtに北海道bibai-torimeshiなど類似の既存項目があり、同じ束の大分県「鶏めし」とも読みが重複するためslugをmiyazaki-torimeshiとした。origin_city: 伝承地域=県内全域、新富町の両方の記載があるため、より具体的な新富町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hyuga-kabocha-nimono",
+   "name_ja": "日向黒皮かぼちゃの煮物",
+   "name_romaji": "Hyuga Kurokawa Kabocha no Nimono",
+   "name_en": "Hyuga kurokawa kabocha no nimono — black-skinned pumpkin simmered soft in a light soy broth",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "宮崎市",
+   "lat": 31.9111,
+   "lng": 131.4239,
+   "summary_ja": "宮崎市発祥の伝統野菜「日向黒皮かぼちゃ」を大きめに切り、砂糖と薄口醤油でコトコト煮る料理。西洋かぼちゃよりさっぱりとして甘みは控えめだが煮崩れしにくく、皮まで美味しく食べられるのが持ち味。",
+   "summary_en": "Hyuga kurokawa kabocha, a black-skinned heirloom pumpkin first grown in Miyazaki City, is cut into large chunks and simmered slowly in sugar and light soy sauce — lighter and less sweet than a Western pumpkin, but it holds its shape well and its skin is good to eat too.",
+   "sources": [
+    {
+     "title": "日向黒皮かぼちゃの煮物 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hyuuga_kuro_kabocha_no_nimono_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hyuga-kabocha-nimono",
+     "to_slug": "nuta-imo",
+     "relation_type": "対比",
+     "basis": "ともに宮崎の野菜の煮物・和え物で、日向黒皮かぼちゃの煮物はかぼちゃを甘辛く煮るのに対し、ぬた芋は里芋を胡麻味噌で和える違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=宮崎市。lat/lngは宮崎市役所付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "renkon-surinagashi-jiru",
+   "name_ja": "れんこんのすり流し汁",
+   "name_romaji": "Renkon Surinagashi-jiru",
+   "name_en": "Renkon surinagashi-jiru — grated lotus root thickening a miso soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "新富町",
+   "lat": 32.0664,
+   "lng": 131.4794,
+   "summary_ja": "水沼神社の池でとれる糸引きれんこんをすりおろし、油揚げと共に出汁と味噌でのばす新富町の汁物。江戸期に高鍋藩主が大和かられんこんを取り寄せたのが始まりと伝わり、真冬に泥田で掘り出す重労働の恵み。",
+   "summary_en": "Lotus root known for its sticky, thread-drawing texture, grown in the pond by Minuma Shrine, is grated into a miso soup with fried tofu — a Shintomi town dish said to trace back to a feudal lord who brought lotus root in from Yamato in the Edo period, the fruit of a hard midwinter harvest dug from frozen mud.",
+   "sources": [
+    {
+     "title": "れんこんのすり流し汁／れんこんのごりごり汁 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/renkonno_suri_nagashi_jiru_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "renkon-surinagashi-jiru",
+     "to_slug": "zabu-jiru",
+     "relation_type": "対比",
+     "basis": "ともに宮崎の味噌仕立ての汁物で、れんこんのすり流し汁はれんこんをすりおろしてとろみをつけ、ざぶ汁は根菜を大きめに煮る違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域=県央地方だが、本文・情報提供元（新富町通史）から新富町（水沼神社）が舞台と判断し新富町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iriko-mochi",
+   "name_ja": "いりこもち",
+   "name_romaji": "Iriko Mochi",
+   "name_en": "Iriko mochi — a bar of soft mochi made from parched, ground glutinous rice",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "",
+   "lat": 31.9111,
+   "lng": 131.4239,
+   "summary_ja": "もち米を炒って粉にした「いり粉」を水飴で練り上げ、寝かせてから棒状に切る宮崎の菓子。江戸期に薩摩藩から伝わった節句菓子とされ、子どもの成長を願って近所に配る風習があったと伝わる。",
+   "summary_en": "Glutinous rice is parched and ground into iriko flour, then kneaded with starch syrup, rested, and cut into bars — a Miyazaki sweet said to have arrived from the Satsuma domain as a festival treat, once handed out to neighbors to wish for a child's healthy growth.",
+   "sources": [
+    {
+     "title": "いりこもち 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/iriko_mochi_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "iriko-mochi",
+     "to_slug": "futatabi-dango",
+     "relation_type": "対比",
+     "basis": "ともに宮崎の餅粉・だんご粉を使う郷土菓子で、いりこもちは炒った餅米粉を練り上げる棒状の菓子、ふたたびだんごはよもぎを練り込む蒸し団子という違いがある"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "origin_city: 伝承地域=宮崎県全域のため空欄。lat/lngは県庁所在地の宮崎市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "jidori-no-miso-korobakashi",
+   "name_ja": "地鶏の味噌ころばかし",
+   "name_romaji": "Jidori no Miso Korobakashi",
+   "name_en": "Jidori no miso korobakashi — jidori chicken rolled in a dry miso glaze in the pan",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "小林市",
+   "lat": 32.0,
+   "lng": 130.9667,
+   "summary_ja": "地鶏を水を使わずに焦がさないよう鍋で煮転がし、味噌をからめる小林市周辺の家庭料理。「ころばかし」は鍋の中で煮転がすことを指す県西地方の方言で、家庭ごとに具材や味付けが異なる。",
+   "summary_en": "Jidori chicken is rolled around a dry pan with no added water, coaxed with a miso glaze without letting it catch — a home-cooked dish from around Kobayashi City, its name a western-Miyazaki dialect word for tumbling food in a pot as it cooks, the mix of vegetables and seasoning varying from house to house.",
+   "sources": [
+    {
+     "title": "地鶏の味噌ころばかし 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/jidori_no_miso_koro_bakashi_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "jidori-no-miso-korobakashi",
+     "to_slug": "miyazaki-jitokko",
+     "relation_type": "使用食材",
+     "basis": "地鶏の味噌ころばかしには宮崎の地鶏（地頭鶏の系統）が使われる"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域=県西地方（小林市）のため小林市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "su-no-shui",
+   "name_ja": "酢のしゅい",
+   "name_romaji": "Su no Shui",
+   "name_en": "Su no shui — grated daikon and sardine simmered in a hot vinegar-soy broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "都城市",
+   "lat": 31.7203,
+   "lng": 131.0603,
+   "summary_ja": "おろした大根とイワシを酢と醤油で煮る宮崎県西地方の温かい汁物。「しゅい」は方言で汁のことを指し、体を温める冬の料理として餅つきの際にも食べられてきた、都城の在来大根を活かす一品。",
+   "summary_en": "Grated daikon and sardine are simmered together in a broth of vinegar and soy sauce — a warm winter soup from western Miyazaki, its name using the local dialect word for broth, traditionally served alongside mochi-pounding and built on a daikon variety native to Miyakonojo.",
+   "sources": [
+    {
+     "title": "酢のしゅい 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/suno_shui_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "su-no-shui",
+     "to_slug": "miyazaki-hiyajiru",
+     "relation_type": "対比",
+     "basis": "ともに酢や発酵の力を使う宮崎の汁物だが、酢のしゅいは大根とイワシを煮る温かい冬の汁、冷や汁は焼き味噌をのばす冷たい夏の汁という違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=県西地方だが、本文で都城市の在来大根（蓑原大根）が使われるとの記載から都城市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "seri-no-yogoshi",
+   "name_ja": "せりのよごし",
+   "name_romaji": "Seri no Yogoshi",
+   "name_en": "Seri no yogoshi — blanched water dropwort dressed with tofu, sesame, and miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "",
+   "lat": 31.9111,
+   "lng": 131.4239,
+   "summary_ja": "ゆでて刻んだせりを、豆腐と胡麻、味噌、砂糖をすった衣で和える宮崎の白和え。すり鉢を汚しながらつくることから「よごし」と呼ばれ、精進料理として法事や仏事にも手づくりされてきた。",
+   "summary_en": "Blanched, chopped water dropwort is tossed in a dressing of ground tofu, sesame, miso, and sugar — a Miyazaki-style shira-ae named yogoshi, for how the mortar gets 'dirtied' in the making, long prepared by hand as a meat-free dish for memorial services.",
+   "sources": [
+    {
+     "title": "せりのよごし 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/serino_yogoshi_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "seri-no-yogoshi",
+     "to_slug": "nuta-imo",
+     "relation_type": "対比",
+     "basis": "ともに宮崎の家庭料理で味噌や胡麻を使う和え物だが、せりのよごしはせりと豆腐を使い、ぬた芋は里芋を使う違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域=宮崎県内各地のため空欄。lat/lngは県庁所在地の宮崎市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nanatoko-zushi",
+   "name_ja": "七とこずし",
+   "name_romaji": "Nanatoko-zushi",
+   "name_en": "Nanatoko-zushi — a rice porridge of seven greens, gathered from seven neighboring homes",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "宮崎県",
+   "origin_city": "都城市",
+   "lat": 31.7203,
+   "lng": 131.0603,
+   "summary_ja": "大根や人参、せりなど七草と丸もちを煮込んだ雑炊を、近所の7軒からもらい集めて食べる旧島津藩都城地方の行事食。数え7歳の子どもが晴れ着で7軒を回る「ななとこさんの日」に食べられ、いまも神社での七草参りに名残が伝わる。",
+   "summary_en": "A porridge of seven greens — daikon, carrot, water dropwort among them — and round mochi, gathered one bowl at a time from seven neighboring houses, eaten in the old Miyakonojo domain of the Shimazu clan. A seven-year-old child, dressed for the occasion, once made the rounds on Nanatoko-san no Hi; the custom lives on in a shrine visit for seven herbs.",
+   "sources": [
+    {
+     "title": "七とこずし 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nanatoko_zushi_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nanatoko-zushi",
+     "to_slug": "hie-zushi",
+     "relation_type": "対比",
+     "basis": "ともに宮崎で「ずし」と呼ばれる雑炊料理だが、七とこずしは七草と丸もちを使う都城地方の行事食、稗ずーしーは猪の出汁で稗を炊く椎葉村の日常食という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域は都城市・宮崎市・日南町・高千穂町・延岡市・日向市と広域だが、本文が『旧島津藩の都城地方に伝わる行事食』と発祥を明記しているため都城市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "meno-mochi-arare",
+   "name_ja": "めの餅あられ",
+   "name_romaji": "Meno Mochi Arare",
+   "name_en": "Meno mochi arare — small-New-Year rice offerings later fried into crackers",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "小林市",
+   "lat": 32.0,
+   "lng": 130.9667,
+   "summary_ja": "小正月に紅白や黄・緑に色づけた餅を榎の枝に刺して飾る「めの餅」を、1月30日頃に外して油で揚げてつくる南九州のあられ。繭の豊産を祈る「繭の餅」が語源とされ、五穀豊穣や厄払いの願いがこめられている。",
+   "summary_en": "Small rice-cake offerings — dyed red-and-white, yellow, and green — are skewered onto an elm branch for Little New Year in a display called meno mochi; around January 30th they come down and are fried into crackers. The name is said to trace to a wish for a bountiful silkworm harvest, carrying hopes for good crops and warding off misfortune.",
+   "sources": [
+    {
+     "title": "めの餅あられ 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/meno_mochi_arare_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "meno-mochi-arare",
+     "to_slug": "iriko-mochi",
+     "relation_type": "対比",
+     "basis": "ともに宮崎の餅を使った菓子で、めの餅あられは小正月の飾り餅を後で揚げてあられにするのに対し、いりこもちは炒った餅米粉を練り上げてつくる違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域=西諸県郡（高原町、小林市）、椎葉村と複数地域にまたがるため、代表点として西諸県郡の中心である小林市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "obiten",
+   "name_ja": "おび天",
+   "name_romaji": "Obiten",
+   "name_en": "Obiten — deep-fried fish cake bound with tofu and sweetened with brown sugar",
+   "type": "dish",
+   "shelf": "processed",
+   "genre": "nerimono",
+   "origin_pref": "宮崎県",
+   "origin_city": "日南市",
+   "lat": 31.6067,
+   "lng": 131.3733,
+   "summary_ja": "イワシやアジなどの近海魚をすり身にして豆腐と合わせ、味噌や黒砂糖で味付けして揚げる日南市飫肥の練り物。江戸期の飫肥藩で考え出されたとされ、薩摩揚げに似るが豆腐入りでふわりとやわらかいのが持ち味。",
+   "summary_en": "Sardine, horse mackerel, and other coastal fish are ground into surimi, mixed with tofu, seasoned with miso and brown sugar, and deep-fried — a fish cake from the Obi district of Nichinan, said to have been devised under the Edo-era Obi domain; it resembles satsuma-age but stays softer and fluffier for the tofu folded in.",
+   "sources": [
+    {
+     "title": "おび天 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/obiten_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "obiten",
+     "to_slug": "kanimaki-jiru",
+     "relation_type": "対比",
+     "basis": "ともに日南市に伝わる郷土料理で、おび天は飫肥地区の魚のすり身の揚げ物、かに巻き汁は北郷・酒谷地域の川ガニの汁物という違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "shelf: 台帳はhomestyleだが、本文に『魚肉練り製品。揚げかまぼこに分類される』と明記されているためnerimono.jsonの他項目に合わせshelfをprocessed、genreをnerimonoに変更。origin_city: 伝承地域=飫肥地区。日南市の一地区のためorigin_cityは日南市とし、lat/lngは飫肥城下付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kanimaki-jiru",
+   "name_ja": "かに巻き汁",
+   "name_romaji": "Kanimaki-jiru",
+   "name_en": "Kanimaki-jiru — mitten crab ground fine and folded into a miso broth",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "日南市",
+   "lat": 31.6039,
+   "lng": 131.3781,
+   "summary_ja": "生きた山太郎ガニ（モクズガニ）を甲羅ごとすりつぶし、水と味噌を加えて漉した汁を弱火にかける日南市北郷町の秋の汁物。加熱するとタンパク質がおぼろ豆腐のように固まり、カニの旨味を余さず味わえる。",
+   "summary_en": "A live yamataro crab — a mitten crab known locally by this name — is ground shell and all, mixed with water and miso, strained, then simmered gently — an autumn soup from the Kitago area of Nichinan City, the protein setting into soft curds like silken tofu as it heats, capturing every bit of the crab's flavor.",
+   "sources": [
+    {
+     "title": "かに巻き汁 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kanimaki_jiru_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kanimaki-jiru",
+     "to_slug": "obiten",
+     "relation_type": "対比",
+     "basis": "ともに日南市に伝わる郷土料理で、かに巻き汁は北郷・酒谷地域の川ガニの汁物、おび天は飫肥地区の魚のすり身の揚げ物という違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域=北郷町、日南市北郷・酒谷地域。北郷町は日南市に合併済みのため origin_city は日南市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nerikuri",
+   "name_ja": "ねりくり",
+   "name_romaji": "Nerikuri",
+   "name_en": "Nerikuri — pounded sweet potato and mochi, rolled in sweetened soybean flour",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "都城市",
+   "lat": 31.7203,
+   "lng": 131.0603,
+   "summary_ja": "蒸した甘藷（さつまいも）と餅をすり鉢でついて丸め、きな粉をまぶす都城市の菓子。正月の餅つきの最後の一臼に煮た甘藷を加えてつくったのがはじまりとされ、「ねりくり」は宮崎弁で「つきまぜる」の意という。",
+   "summary_en": "Steamed sweet potato and mochi are pounded together in a mortar, shaped, and rolled in sweetened soybean flour — a Miyakonojo sweet said to have begun as the last batch of a New Year's mochi-pounding session, with simmered sweet potato worked in; nerikuri is Miyazaki dialect for pounding and mixing together.",
+   "sources": [
+    {
+     "title": "ねりくり／ねったぼ／芋もち 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nerikuri_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nerikuri",
+     "to_slug": "gane",
+     "relation_type": "使用食材",
+     "basis": "ともに宮崎で甘藷（さつまいも）を使う郷土料理で、ねりくりは餅と合わせてつく菓子、がねはかき揚げにする惣菜という違いがある"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "別名「ねったぼ／ねったくり／からいも餅」はsummaryで言及。origin_city: 伝承地域=都城市。lat/lngは都城市役所付近。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsuwabuki-no-aburaitame",
+   "name_ja": "つわぶきの油炒め",
+   "name_romaji": "Tsuwabuki no Aburaitame",
+   "name_en": "Tsuwabuki no aburaitame — bitter greens simmered soft with fried tofu, soy, and sugar",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "宮崎県",
+   "origin_city": "宮崎市",
+   "lat": 31.9111,
+   "lng": 131.4239,
+   "summary_ja": "アク抜きしたつわぶきを塩ゆでし、油揚げと共に炒めて醤油と砂糖で味付けする日南地方の惣菜。ふきに似るが常緑で一年中葉をつけ、宮崎県南部の海岸線に自生する春の食材として親しまれている。",
+   "summary_en": "Tsuwabuki, its bitterness drawn out and blanched in salted water, is stir-fried with fried tofu and seasoned with soy sauce and sugar — a side dish from the Nichinan area; the plant resembles fuki but stays evergreen year-round, gathered wild along the southern Miyazaki coastline each spring.",
+   "sources": [
+    {
+     "title": "つわぶきの油炒め 宮崎県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tsuwa_buki_no_abura_itame_miyazaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tsuwabuki-no-aburaitame",
+     "to_slug": "seri-no-yogoshi",
+     "relation_type": "対比",
+     "basis": "ともに宮崎の山菜・野菜を使う副菜で、つわぶきの油炒めは油揚げと炒めて醤油で仕上げ、せりのよごしは豆腐と胡麻で和える違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域=宮崎市・都城市・日南市（3市）のため、本文の記載順で最初に挙がる宮崎市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行（既存・高確信）: chikin_nanban_miyazaki（チキン南蛮）=既存slug chikin-nanban(high)、gane_miyazaki（がね）=既存slug gane(high)のため作らず。genre_hint=tsukemonoで作らなかった行: sengiri_daikonno_madaka_zuke_miyazaki（千切り大根のまだか漬け）=野菜の漬物でtsukemonoジャンル投入済みのため作らず。低確信行の要判断（作成）: mehikari_no_karaage_miyazaki=既存slug karaage(low)と比較。karaageは唐揚げという調理法一般の既存項目で、めひかりの唐揚げは延岡沖の特定魚を骨ごと揚げる郷土料理のため別物と判断し新規作成（mehikari-no-karaage）。ochano_tenpura_miyazaki=既存slug tempura(low)と比較。tempuraは天ぷらという調理法一般の既存項目で、お茶の葉天ぷらは宮崎特産の新茶の葉を揚げる郷土料理のため別物と判断し新規作成（ocha-no-ha-tempura）。棚を変えた行: obiten_miyazaki（homestyle→processed、genre nullからnerimonoへ。本文に『魚肉練り製品。揚げかまぼこに分類される』と明記されているため、既存のnerimono.json項目のshelf=processedに合わせた）。座標の根拠: 単一自治体が明記された行はその役場・市役所を採用（futatabi_dango/mehikari_no_karaage=延岡市、kappo_dori/toukibi_meshi=高千穂町、nadoufu/somage/hie_zushii=椎葉村、jidori_no_miso_koro_bakashi/meno_mochi_arare=小林市、su_no_shui/nanatoko_zushi/nerikuri=都城市、zabujiru=都農町、renkonno_suri_nagashi_jiru/tori_meshi=新富町、obiten/kanimaki_jiru=日南市、sakana_zushi=門川町 等）。県内全域・広域の行は県庁所在地の宮崎市を代表点とした（toshi_torizen、nishime、hiyajiru、nutaimo、iriko_mochi、serino_yogoshi）。複数自治体を列挙する行は本文の記載順・詳述度で代表点を選んだ（ochano_tenpura=日向市、tsuwa_buki_no_abura_itame=宮崎市）。要判断: tori_meshi_miyazakiは北海道bibai-torimeshiと類似、かつ同一納品の大分県「鶏めし」と読みが重複するためmiyazaki-torimeshiとした。nishime_miyazakiは岩手県iwate-nishime・栃木県nishimeと同名のためmiyazaki-nishimeとした。hiyajiru_miyazakiは埼玉県hiyajiru・山形県yonezawa-hiyajiruと同名のためmiyazaki-hiyajiruとした。sakana_zushi_miyazakiはledgerのname_ja『魚料理ずし』ではなく、詳細ページの正式名称『魚ずし』をname_jaとして採用した。"
+}

@@ -1,0 +1,1049 @@
+{
+ "items": [
+  {
+   "slug": "nukamiso-daki",
+   "name_ja": "ぬかみそ炊き",
+   "name_romaji": "Nukamiso Daki",
+   "name_en": "Nukamiso daki — sardine or mackerel simmered in an aged rice-bran pickling paste",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "北九州市",
+   "lat": 33.8835,
+   "lng": 130.8752,
+   "summary_ja": "イワシやサバを醤油だしで煮て、代々受け継がれてきたぬか床を溶き入れとろ火で炊く。青魚特有の臭みがぬか床の旨味に変わり、北九州の旧家では嫁ぐ娘に床を分け継がせてきたと伝わる。",
+   "summary_en": "Sardine or mackerel simmers in a soy broth until a family's aged rice-bran pickling bed is stirred in — the fish's oiliness softens into the bed's savor, in a Kitakyushu tradition where the bed itself was once passed to a daughter as she married out.",
+   "sources": [
+    {
+     "title": "ぬかみそ炊き 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nukamiso_daki_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nukamiso-daki",
+     "to_slug": "hakata-gomasaba",
+     "relation_type": "対比",
+     "basis": "ともに北九州・博多で青魚（サバ）を生かす加工法だが、ぬかみそ炊きはぬか床で煮込み、胡麻鯖は生のまま和える点が対照的"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "伝承地域=北九州市（単一）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fukuoka-gameni",
+   "name_ja": "がめ煮",
+   "name_romaji": "Gameni",
+   "name_en": "Gameni — chicken and root vegetables simmered together, Fukuoka's own take on chikuzen-ni",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "",
+   "lat": 33.5904,
+   "lng": 130.4017,
+   "summary_ja": "鶏肉とごぼう、れんこん、たけのこを炒めてから煮含める、正月や祝い事に欠かせない一皿。県外では筑前煮とも呼ばれるが、骨つき肉を使うことがある点で仕立てが異なると伝わる。",
+   "summary_en": "Chicken and root vegetables — burdock, lotus root, bamboo shoot — are stir-fried, then simmered down for New Year and celebrations. Known elsewhere as chikuzen-ni, this Fukuoka version is said to sometimes keep the bone in.",
+   "sources": [
+    {
+     "title": "がめ煮 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gameni_gukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fukuoka-gameni",
+     "to_slug": "saga-gameni",
+     "relation_type": "兄弟",
+     "basis": "両出典とも豊臣秀吉の朝鮮出兵時にすっぽん（がめ）を野菜と煮たことを起源として挙げる、同名・同系統の料理"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=福岡県全域（広域）のため origin_city は空欄、座標は県庁所在地の福岡市。佐賀県にも同名の行があり、slug は地名を付けて区別した。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hakata-zoni",
+   "name_ja": "博多雑煮",
+   "name_romaji": "Hakata Zoni",
+   "name_en": "Hakata zoni — a New Year mochi soup built around yellowtail and a leafy green called katsuo-na",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "福岡市",
+   "lat": 33.5904,
+   "lng": 130.4017,
+   "summary_ja": "焼きアゴのだしにブリと丸餅、かつお菜などを合わせた博多の正月雑煮。出世魚のブリを添えるのは縁起かつぎとされ、来客の多い商家では具を串に刺して仕込んでおいたという。",
+   "summary_en": "Grilled flying-fish stock carries yellowtail, round mochi, and a bitter green called katsuo-na — Hakata's New Year soup. Yellowtail, a fish that changes names as it grows, is said to be added for luck, and busy merchant households once pre-skewered the ingredients for quick serving.",
+   "sources": [
+    {
+     "title": "博多雑煮 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hakata_zouni_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hakata-zoni",
+     "to_slug": "mizutaki",
+     "relation_type": "対比",
+     "basis": "ともに博多を代表するハレの日の一皿だが、雑煮はブリだしの正月料理、水炊きは鶏だしの通年の祝い鍋という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=博多地区（福岡市博多区）のため origin_city=福岡市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mizutaki",
+   "name_ja": "若鶏の水炊き",
+   "name_romaji": "Mizutaki",
+   "name_en": "Mizutaki — bone-in chicken simmered into a milky broth and dipped in ponzu",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "",
+   "lat": 33.5904,
+   "lng": 130.4017,
+   "summary_ja": "骨つきの若鶏を野菜とともにじっくり煮て白濁したスープをポン酢でいただく鍋。長崎に伝わった南蛮の鶏スープが博多で和洋折衷され、祭りの直会でも欠かせない一品になったと伝わる。",
+   "summary_en": "Bone-in chicken and vegetables simmer slowly into a milky broth, eaten with a citrus-soy dip — said to have taken shape in Hakata from a foreign chicken soup that first landed in Nagasaki, and now inseparable from the closing feast of the city's summer festival.",
+   "sources": [
+    {
+     "title": "若鶏の水炊き 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/wakadori_no_mizutaki_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mizutaki",
+     "to_slug": "hakata-jidori",
+     "relation_type": "使用食材",
+     "basis": "出典に「福岡県の郷土料理である筑前煮や水炊きをもっと美味しくしよう」という発想から誕生した地鶏とあり、はかた地どりが使われる"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ],
+   "notes": "伝承地域=福岡地方（広域）のため origin_city は空欄、座標は代表地点の福岡市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "okyuto",
+   "name_ja": "おきゅうと",
+   "name_romaji": "Okyuto",
+   "name_en": "Okyuto — a firm seaweed jelly sliced thin and dressed with vinegar-soy",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "福岡市",
+   "lat": 33.5904,
+   "lng": 130.4017,
+   "summary_ja": "エゴノリを煮溶かして固めた海藻ゼリーを薄く切り、酢醤油などで食べる。戦前までは毎朝売り歩く「おきゅうと売り」がいたほど、博多の朝食に欠かせない存在だったと伝わる。",
+   "summary_en": "Egonori seaweed is boiled down and set into a firm jelly, sliced thin and dressed with vinegar-soy — once so central to Hakata mornings that vendors are said to have sold it door to door before the war.",
+   "sources": [
+    {
+     "title": "おきゅうと 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/oquto_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "okyuto",
+     "to_slug": "hakata-gomasaba",
+     "relation_type": "対比",
+     "basis": "ともに火を通さずに仕立てる博多の日常食だが、おきゅうとは海藻ゼリー、胡麻鯖は生魚という素材の違いがある"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "notes": "伝承地域=福岡市（単一）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kashiwa-meshi",
+   "name_ja": "かしわめし",
+   "name_romaji": "Kashiwa Meshi",
+   "name_en": "Kashiwa meshi — rice mixed with simmered chicken and burdock",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "",
+   "lat": 33.5904,
+   "lng": 130.4017,
+   "summary_ja": "鶏肉とごぼうなどを煮た具を炊きたてのご飯に混ぜ込む、九州で鶏肉を「かしわ」と呼ぶことに由来する家庭料理。冷めても美味しいことから駅弁としても長く親しまれてきたという。",
+   "summary_en": "Chicken and burdock, simmered together, are mixed into freshly cooked rice — named for the Kyushu word 'kashiwa' for chicken. Said to taste just as good cold, it has long traveled as a station bento.",
+   "sources": [
+    {
+     "title": "かしわめし 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kashiwa_meshi_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kashiwa-meshi",
+     "to_slug": "hakata-jidori",
+     "relation_type": "使用食材",
+     "basis": "出典に「かしわめしに使われる鶏肉は、福岡県の地鶏であるはかた地どりが多く」とある"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ],
+   "notes": "伝承地域=県内全域（広域）のため origin_city は空欄、座標は県庁所在地の福岡市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "achara-zuke",
+   "name_ja": "あちゃら漬け",
+   "name_romaji": "Achara Zuke",
+   "name_en": "Achara zuke — summer vegetables in a sweet-and-sour pickle spiced with chili",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "",
+   "lat": 33.5904,
+   "lng": 130.4017,
+   "summary_ja": "白瓜やなす、れんこんなど夏野菜を赤唐辛子入りの甘酢に漬ける。博多湾の南蛮貿易で伝わったポルトガル語「アチャール」が語源とされ、お盆に客をもてなす縁起物の奇数野菜を使うという。",
+   "summary_en": "White melon, eggplant, and lotus root are pickled in a sweet vinegar spiked with red chili — the name is said to trace to the Portuguese 'achar', carried in through Hakata Bay's old trade, and an odd number of vegetables is used for Obon hospitality.",
+   "sources": [
+    {
+     "title": "あちゃら漬け 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/acyara_zuke_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "achara-zuke",
+     "to_slug": "takana-zuke",
+     "relation_type": "対比",
+     "basis": "ともに福岡の漬物だが、あちゃら漬けは南蛮貿易由来の即席甘酢漬け、高菜漬けは乳酸発酵させる長期の塩漬けという違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=福岡地方（広域）のため origin_city は空欄、座標は代表地点の福岡市。genre_hint=tsukemonoだが、既存slug takana-zukeとは別物（酢の物系の即席漬けで発酵漬物ではない）と判断し新規作成。棚は台帳のfermented(要判断)のままとしたが、実質は甘酢の当座漬け。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hakata-gomasaba",
+   "name_ja": "博多の胡麻鯖",
+   "name_romaji": "Hakata no Gomasaba",
+   "name_en": "Goma saba — thin-sliced raw mackerel dressed with sesame and soy",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "福岡市",
+   "lat": 33.5904,
+   "lng": 130.4017,
+   "summary_ja": "薄く切った生サバをすりごまと醤油、みりんで和える。傷みやすいサバを生で食べる習慣は珍しいとされるが、新鮮な魚が揚がる博多では古くから親しまれ、茶漬けにもして食べるという。",
+   "summary_en": "Thin-sliced raw mackerel is tossed with ground sesame, soy, and mirin — an unusual way to eat a fish that spoils fast, but one long practiced in Hakata's fresh-catch waters, sometimes poured over rice as a tea-soaked dish.",
+   "sources": [
+    {
+     "title": "博多の胡麻鯖 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hakatano_gomasaba_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hakata-gomasaba",
+     "to_slug": "nukamiso-daki",
+     "relation_type": "対比",
+     "basis": "ともに北九州・博多で青魚を生かす一皿だが、胡麻鯖は生のまま和え、ぬかみそ炊きはぬか床で煮込む点が対照的"
+    }
+   ],
+   "tags": [],
+   "notes": "台帳の棚はhomestyleだが、生の刺身を和える生食のためrawに変更。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nigui",
+   "name_ja": "にぐい",
+   "name_romaji": "Nigui",
+   "name_en": "Nigui — a broth-heavy simmered dish eaten first as soup, then again as a stew",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "",
+   "lat": 33.6064,
+   "lng": 131.1097,
+   "summary_ja": "里芋やれんこんなど奇数の具材を細かく切り、だし汁たっぷりで煮る豊前地域の料理。汁物として一度、汁気が減った後に煮物としてもう一度食べることから「二度食う」が名の由来と伝わる。",
+   "summary_en": "Taro, lotus root, and other ingredients — always an odd number of them — are cut small and simmered in a broth-heavy pot from the Buzen area. Eaten once as a soup and again once the liquid reduces, its name is said to come from 'eating it twice'.",
+   "sources": [
+    {
+     "title": "にぐい 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nigui_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nigui",
+     "to_slug": "saga-dabu",
+     "relation_type": "兄弟",
+     "basis": "出典に「筑豊地方では『だぶ』とも呼ばれており」とあり、佐賀県から福岡県にまたがって伝わる同系統の料理とされる"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=豊前地域（広域）のため origin_city は空欄、座標は代表地点の豊前市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "buzen-kabocha-dangojiru",
+   "name_ja": "かぼちゃのだんご汁",
+   "name_romaji": "Kabocha no Dango Jiru",
+   "name_en": "Kabocha no dango jiru — wheat dumplings torn into a pumpkin and dried-sardine soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "豊前市",
+   "lat": 33.6064,
+   "lng": 131.1097,
+   "summary_ja": "豊前市三毛門産の大玉かぼちゃをとろとろに煮て、練った小麦粉をちぎり入れる汁物。約450年前にポルトガル伝来という三毛門かぼちゃは、食べ物が乏しかった時代の命をつなぐ味だったという。",
+   "summary_en": "A giant local pumpkin from Buzen's Mikkado district is simmered soft, then torn wheat dumplings are dropped in — the pumpkin, said to trace some 450 years back to Portuguese traders, was once a lifeline in leaner years.",
+   "sources": [
+    {
+     "title": "かぼちゃのだんご汁 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kabocya_no_dango_jiru_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "buzen-kabocha-dangojiru",
+     "to_slug": "tsunki-dagojiru",
+     "relation_type": "対比",
+     "basis": "ともに九州の小麦粉だんご汁だが、こちらは三毛門かぼちゃの甘みが主役、つんきーだご汁は野菜だしの塩味という違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=豊前市（単一）。slugは主要食材の三毛門かぼちゃではなく地名（豊前）を用いた。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "abutte-kamo",
+   "name_ja": "あぶってかも",
+   "name_romaji": "Abutte Kamo",
+   "name_en": "Abutte kamo — small damselfish salted overnight and grilled whole",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "福岡市",
+   "lat": 33.5904,
+   "lng": 130.4017,
+   "summary_ja": "スズメダイに塩をまぶして一晩おき、鱗も内臓も除かずに炙る。小骨が多く敬遠されがちな魚だが、明治期の博多湾で大量に獲れた際に塩をふって焼いてみたのが始まりと伝わる。",
+   "summary_en": "Small damselfish are salted overnight, then grilled whole, scales and innards left on — a bony fish often passed over elsewhere, but said to have caught on in Hakata Bay after a Meiji-era glut led someone to salt and grill the excess.",
+   "sources": [
+    {
+     "title": "あぶってかも 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/abute_kamo_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "abutte-kamo",
+     "to_slug": "nousaba",
+     "relation_type": "対比",
+     "basis": "ともに玄界灘沿岸の福岡で塩を使い日持ちさせる魚料理だが、あぶってかもは塩をして炙る、のうさばは天日干しして漬け込む点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=福岡市（単一）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "gamenoha-manju",
+   "name_ja": "がめの葉饅頭",
+   "name_romaji": "Gamenoha Manju",
+   "name_en": "Gamenoha manju — sweet bean-paste dumplings steamed inside a wild sarsaparilla leaf",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "",
+   "lat": 33.8835,
+   "lng": 130.8752,
+   "summary_ja": "上新粉の生地でこし餡を包み、亀の甲羅に似た「がめの葉」（サルトリイバラ）で挟んで蒸す。福岡にはかしわの葉が自生しないため、端午の節句の代用として根づいたと伝わる。",
+   "summary_en": "Sweet bean paste is wrapped in rice-flour dough and steamed between leaves of wild sarsaparilla, nicknamed 'turtle-shell leaf' for its shape — said to have taken root as a stand-in for oak leaves, which don't grow wild in Fukuoka, for the Boys' Festival.",
+   "sources": [
+    {
+     "title": "がめの葉饅頭 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/gamenoha_manjyu_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "gamenoha-manju",
+     "to_slug": "mitori-manju",
+     "relation_type": "対比",
+     "basis": "ともに福岡県北部の蒸し菓子だが、がめの葉饅頭は端午の節句にサンキラの葉で包み、みとり饅頭はお盆に重曹で膨らませる点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "handheld"
+   ],
+   "notes": "伝承地域=福岡県北部（広域）のため origin_city は空欄、座標は代表地点の北九州市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "imo-manju",
+   "name_ja": "いも饅頭",
+   "name_romaji": "Imo Manju",
+   "name_en": "Imo manju — a whole taro wrapped in wheat dough and steamed",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "八女市",
+   "lat": 33.2124,
+   "lng": 130.5619,
+   "summary_ja": "皮をむいた里芋を丸ごと小麦粉の皮で包んで蒸す、矢部川上流の八女市奥地に伝わるおやつ。夕食までのつなぎやご飯代わりに食べられ、冬は焼き網であぶって熱々を頬張ったという。",
+   "summary_en": "A whole peeled taro is wrapped in wheat dough and steamed — a snack from the upper Yabe River villages of Yame, once eaten to bridge the wait for dinner or in place of rice, grilled hot over a net fire in winter.",
+   "sources": [
+    {
+     "title": "いも饅頭 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/imo_manjyu_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "imo-manju",
+     "to_slug": "yama-konnyaku-sashimi",
+     "relation_type": "対比",
+     "basis": "ともに八女市奥地の山あいで育つ芋類を生かす一皿だが、いも饅頭は里芋を小麦粉で包んで蒸し、山ごんにゃくの刺身は生のまま食べる点が異なる"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "伝承地域=八女市（単一）。全国に類似の「いも饅頭」があるがall-items-ja.txtに既存slugなし。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "su-mochi",
+   "name_ja": "酢もち",
+   "name_romaji": "Su Mochi",
+   "name_en": "Su mochi — freshly pounded New Year mochi torn by hand into grated daikon and citrus",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "",
+   "lat": 33.6064,
+   "lng": 131.1097,
+   "summary_ja": "正月の最後についた餅を片栗粉をつけずに手でちぎり、大根おろしとだいだいの搾り汁、醤油を合わせたたれと和える。豊前地域では正月前の餅つきの締めくくりに皆で食べる風習だという。",
+   "summary_en": "The last batch of New Year mochi pounding is torn by hand — no starch dusting — and tossed with grated daikon, bitter-orange juice, and soy. In the Buzen area, it's said to be shared out as the pounding session's finale.",
+   "sources": [
+    {
+     "title": "酢もち 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/sumochi_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "su-mochi",
+     "to_slug": "beta-mochi",
+     "relation_type": "対比",
+     "basis": "ともに豊前地域の餅・粉物のおやつだが、酢もちは正月の餅を大根おろしで和え、べたもちは小麦粉の生地をきな粉であえる点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=豊前地域（広域）のため origin_city は空欄、座標は代表地点の豊前市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "senbuki-mage",
+   "name_ja": "せんぶきまげ",
+   "name_romaji": "Senbuki Mage",
+   "name_en": "Senbuki mage — blanched Welsh onion folded and dressed with mustard-vinegar-miso, alongside river snails",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "",
+   "lat": 33.6455,
+   "lng": 130.6912,
+   "summary_ja": "福岡でわけぎを指す「せんぶき」をゆでて折り曲げ、タニシと酢味噌で和える。3月3日のひな節句に欠かせない筑豊地区の一皿で、寒くなる「たにし寒」の頃がタニシの旬だという。",
+   "summary_en": "Welsh onion, called 'senbuki' locally, is blanched and folded, then dressed with vinegared miso alongside river snails — a dish for the Hinamatsuri doll festival in the Chikuho area, timed to a late-winter cold snap said to be the snails' season.",
+   "sources": [
+    {
+     "title": "せんぶきまげ 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/senbuki_mage_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "senbuki-mage",
+     "to_slug": "achara-zuke",
+     "relation_type": "対比",
+     "basis": "ともに酢味噌・甘酢で野菜を和える福岡の行事食だが、せんぶきまげはひな節句のタニシ添え、あちゃら漬けはお盆の夏野菜漬けという違いがある"
+    }
+   ],
+   "tags": [
+    "miso",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=筑豊地区（広域）のため origin_city は空欄、座標は代表地点の飯塚市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fukuoka-tori-sukiyaki",
+   "name_ja": "鶏肉のすき焼き",
+   "name_romaji": "Toriniku no Sukiyaki",
+   "name_en": "Toriniku no sukiyaki — a whole chicken, offal included, simmered sweet and salty in a pot",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "",
+   "lat": 33.8039,
+   "lng": 130.5414,
+   "summary_ja": "鶏を一羽まるごと、もつも一緒に大皿に盛り、白菜や春菊とともに砂糖と醤油の濃い味で煮る。江戸期の飢饉を機に養鶏が盛んになった糟屋郡から宗像市一帯に伝わる寄合の鍋料理という。",
+   "summary_en": "A whole chicken, offal included, is piled onto a platter with napa cabbage and chrysanthemum greens and simmered in a bold sugar-and-soy broth — a gathering-day hot pot from the Kasuya-to-Munakata area, where poultry-raising is said to have taken off after an Edo-era famine.",
+   "sources": [
+    {
+     "title": "鶏肉のすき焼き 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/toriniku_no_sukiyaki_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fukuoka-tori-sukiyaki",
+     "to_slug": "kurume-yakitori",
+     "relation_type": "対比",
+     "basis": "ともに福岡県の鶏肉を主役にした郷土食だが、久留米焼きとりは炭火の串焼き、鶏肉のすき焼きは大皿を囲む鍋料理という対照をなす"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "offal"
+   ],
+   "notes": "台帳のexisting_slug=sukiyaki(low)。一般的な牛肉のすき焼きとは異なり、骨付き鶏ともつを使う糟屋郡〜宗像市固有の鍋料理のため既存sukiyakiとは別物と判断し新規作成（要判断）。棚も台帳のgrilled（キーワード誤検出）から、実際は鍋で煮る料理のためhotpotに変更。伝承地域=糟屋郡から宗像市一帯（広域）のためorigin_cityは空欄、座標代表地点は宗像市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "touhei-nabe",
+   "name_ja": "とうへい鍋",
+   "name_romaji": "Tohei Nabe",
+   "name_en": "Touhei nabe — a miso hot pot built from a giant conger eel once thrown back for being unprofitable",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "宗像市",
+   "lat": 33.897,
+   "lng": 130.649,
+   "summary_ja": "クロアナゴ（トウヘイ）の骨からとった出汁でキャベツなどの野菜を味噌仕立てで煮込む。小骨が多く捨てられていた魚を漁師が鍋にしたのが始まりで、宗像市大島だけに伝わる料理という。",
+   "summary_en": "Bones from a giant conger eel called touhei flavor a miso broth for cabbage and other vegetables — said to have begun when fishermen potted a fish too bony to sell, and now kept alive only on Oshima island off Munakata.",
+   "sources": [
+    {
+     "title": "とうへい鍋 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/touhei_nabe_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "touhei-nabe",
+     "to_slug": "yanagawa-dojo-nabe",
+     "relation_type": "対比",
+     "basis": "ともに他ではあまり食べない一種類の川魚・海魚に絞った福岡の鍋料理だが、とうへい鍋は宗像大島のクロアナゴ、柳川なべは柳川のドジョウという違いがある"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "伝承地域=宗像市大島地区（単一・具体的）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nousaba",
+   "name_ja": "のうさば",
+   "name_romaji": "Nosaba",
+   "name_en": "Nousaba — sun-dried shark cured in a New Year marinade",
+   "type": "dish",
+   "shelf": "fermented",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "宗像市",
+   "lat": 33.8168,
+   "lng": 130.5266,
+   "summary_ja": "ホシザメを開いて数週間天日干しにし、正月前に調味液へ漬け込む。数の子が手に入らなかった頃の代用品ともいわれ、鐘崎地域では「鐘崎数の子」の別名で正月のおせちに欠かせないという。",
+   "summary_en": "Star-spotted smooth-hound shark is opened up, sun-dried for weeks, then steeped in a seasoned marinade before New Year — said to have once stood in for herring roe when it was scarce, and still known in Kanezaki as 'Kanezaki herring roe'.",
+   "sources": [
+    {
+     "title": "のうさば 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nousaba_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nousaba",
+     "to_slug": "touhei-nabe",
+     "relation_type": "対比",
+     "basis": "ともに宗像市周辺の玄界灘の魚を生かす郷土料理だが、のうさばは天日干しして漬け込む保存食、とうへい鍋は鍋料理という違いがある"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ],
+   "notes": "伝承地域=鐘崎地域（宗像市の一地区）のためorigin_city=宗像市とした。台帳の棚homestyleから、天日干し後に調味液へ漬け込む保存食のためfermentedに変更。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "mitori-manju",
+   "name_ja": "みとり饅頭",
+   "name_romaji": "Mitori Manju",
+   "name_en": "Mitori manju — steamed buns leavened with baking soda and filled with summer red bean",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "北九州市",
+   "lat": 33.8835,
+   "lng": 130.8752,
+   "summary_ja": "重曹を加えてふっくらと蒸し上げるまんじゅうで、独特の香りとほのかな苦みが持ち味。夏にとれる「みとり豆」の餡を包み、北九州地域ではお盆に仏様へ供えてきたと伝わる。",
+   "summary_en": "Baking soda puffs these steamed buns up round, giving them a faint bitter edge — filled with paste from a summer-harvested bean called mitori, and said to be offered to ancestors at Obon in the Kitakyushu area.",
+   "sources": [
+    {
+     "title": "みとり饅頭 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/mitori_manjyu_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mitori-manju",
+     "to_slug": "gamenoha-manju",
+     "relation_type": "対比",
+     "basis": "ともに福岡県北部の蒸し菓子だが、みとり饅頭はお盆に重曹で膨らませ、がめの葉饅頭は端午の節句にサンキラの葉で包む点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "handheld"
+   ],
+   "notes": "伝承地域=北九州地域のためorigin_city=北九州市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "amagi-kawatake",
+   "name_ja": "あまぎのかわたけ",
+   "name_romaji": "Amagi no Kawatake",
+   "name_en": "Kawatake — a rare freshwater algae found only in one small river, dressed in sweet vinegar",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "朝倉市",
+   "lat": 33.4056,
+   "lng": 130.7003,
+   "summary_ja": "朝倉市の黄金川だけで採れる天然の淡水海苔を、三杯酢や甘酢で和えて食べる。江戸時代には将軍への献上品だったと伝わる希少な食材で、現在は絶滅危惧種として保全活動が続くという。",
+   "summary_en": "A rare wild freshwater algae, found only in the Kogane River in Asakura, is dressed with sweet or three-flavor vinegar — said to have once been presented to the shogun, and now conservation efforts continue as it's listed as endangered.",
+   "sources": [
+    {
+     "title": "あまぎのかわたけ 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/akagi_no_kawatake_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "amagi-kawatake",
+     "to_slug": "yama-konnyaku-sashimi",
+     "relation_type": "対比",
+     "basis": "ともに酢の物・酢味噌で食べる福岡の希少な地場食材だが、かわたけは朝倉の淡水海苔、山ごんにゃくは八女の山の芋という違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=朝倉市（単一）。maff_id=akagi_no_kawatake_fukuokaだがname_jaは「あまぎのかわたけ」（甘木・朝倉地域）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "fukuoka-kuchizoko-nitsuke",
+   "name_ja": "くつぞこの煮つけ",
+   "name_romaji": "Kutsuzoko no Nitsuke",
+   "name_en": "Kutsuzoko no nitsuke — sole simmered in a seasoned broth, named for its shoe-sole shape",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "",
+   "lat": 33.1667,
+   "lng": 130.4,
+   "summary_ja": "有明海でとれる舌平目を「くつぞこ」と呼び、醤油だしでふっくらと煮つける。靴底に似た平たい体つきが名の由来とされ、地元では黒っぽい「クロシタ」を上物として区別しているという。",
+   "summary_en": "Sole caught in the Ariake Sea, called 'kutsuzoko' — shoe-sole — for its flat shape, is simmered soft in a soy broth. Locals are said to prize the darker-skinned variety as the finer catch.",
+   "sources": [
+    {
+     "title": "くつぞこの煮つけ 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kutuzoko_no_nituke_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fukuoka-kuchizoko-nitsuke",
+     "to_slug": "saga-kuchizoko-nitsuke",
+     "relation_type": "兄弟",
+     "basis": "同じ有明海の舌平目を指す方言名「くつぞこ／くちぞこ」で、有明海沿岸を挟んで福岡・佐賀両県に伝わる同じ料理"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "伝承地域=有明海沿岸地域（広域）のためorigin_cityは空欄、座標は代表地点の柳川市。佐賀県に同名の「くちぞこの煮つけ」があるためslugに地名を付けて区別した。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ebi-zakko",
+   "name_ja": "えびざっこ",
+   "name_romaji": "Ebi Zakko",
+   "name_en": "Ebi zakko — a mix of small shrimp simmered in sweet soy, the broth then used to cook somen",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "",
+   "lat": 33.6064,
+   "lng": 131.1097,
+   "summary_ja": "アカエビやサルエビなど数種の小型エビを甘めの醤油でさっと煮て、残った煮汁でそうめんを煮込む。豊前海でまとめて水揚げされる雑多なエビを新鮮なうちに味わう漁師の料理という。",
+   "summary_en": "Several kinds of small shrimp are quickly simmered in sweetened soy, and the leftover broth then cooks somen noodles — a fisherman's way of using up the mixed catch of small shrimp hauled from the Buzen Sea while it's still fresh.",
+   "sources": [
+    {
+     "title": "えびざっこ 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ebi_zatuko_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ebi-zakko",
+     "to_slug": "buzen-kabocha-dangojiru",
+     "relation_type": "対比",
+     "basis": "ともに豊前地域の郷土料理だが、えびざっこは豊前海の小エビ、だんご汁は三毛門かぼちゃという素材の違いがある"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=豊前地域（広域）のためorigin_cityは空欄、座標は代表地点の豊前市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "beta-mochi",
+   "name_ja": "べたもち",
+   "name_romaji": "Beta Mochi",
+   "name_en": "Beta mochi — a flattened wheat-flour cake dusted with kinako or draped in sweet red bean",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "",
+   "lat": 33.6064,
+   "lng": 131.1097,
+   "summary_ja": "小麦粉の生地を平たい形にのばして蒸し、きな粉や小豆の粒あんをかけて食べる。豊前海でとれる舌平目「ベタ」の扁平な姿に見立てて名付けられたとされ、田植え後の祝いに欠かせないという。",
+   "summary_en": "Wheat dough is flattened, steamed, and topped with soybean flour or sweet red bean paste — named, it's said, for its resemblance to a flat local sole called 'beta', and tied to the feast marking the end of rice planting.",
+   "sources": [
+    {
+     "title": "べたもち 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/beta_mochi_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "beta-mochi",
+     "to_slug": "su-mochi",
+     "relation_type": "対比",
+     "basis": "ともに豊前地域の粉物・餅菓子だが、べたもちは小麦粉生地をきな粉で食べ、酢もちは正月の餅を大根おろしで和える点が異なる"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "伝承地域=豊前地区（広域）のためorigin_cityは空欄、座標は代表地点の豊前市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yanagawa-dojo-nabe",
+   "name_ja": "柳川なべ",
+   "name_romaji": "Yanagawa Nabe",
+   "name_en": "Yanagawa nabe — loach and burdock simmered in a pot and finished with beaten egg",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "柳川市",
+   "lat": 33.1667,
+   "lng": 130.4,
+   "summary_ja": "下ごしらえしたドジョウをごぼうとともに土鍋で煮て、溶き卵でとじる。掘割の水郷として知られる柳川市に伝わる一皿で、同じ名で知られる東京の鍋料理とは別に、地元では独自の一品として親しまれているという。",
+   "summary_en": "Loach, carefully cleaned, simmers with burdock in a clay pot and is finished with beaten egg — a dish of Yanagawa, the canal city, kept locally as its own even though a Tokyo hot pot shares the same name.",
+   "sources": [
+    {
+     "title": "柳川なべ 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yanagawa_nabe_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yanagawa-dojo-nabe",
+     "to_slug": "touhei-nabe",
+     "relation_type": "対比",
+     "basis": "ともに一種類の水の生き物に絞った福岡の郷土鍋だが、柳川なべは柳川のドジョウ、とうへい鍋は宗像大島のクロアナゴという違いがある"
+    }
+   ],
+   "tags": [
+    "egg"
+   ],
+   "notes": "伝承地域=筑後地方（柳川市）と具体的なためorigin_city=柳川市。all-items-ja.txtに既存slug yanagawa-nabe（柳川鍋・東京都）があり同名のため衝突。出典は東京の「どぜう鍋」とは別物と明記するが東京の柳川鍋には言及がなく、名称の由来は諸説あるため要判断としてslugをyanagawa-dojo-nabeに変え、summaryでも断定を避けた。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yama-konnyaku-sashimi",
+   "name_ja": "やまごんにゃくの刺身",
+   "name_romaji": "Yama Konnyaku no Sashimi",
+   "name_en": "Yama konnyaku sashimi — mountain-grown konjac sliced raw and dipped in wasabi-soy or vinegar-miso",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "八女市",
+   "lat": 33.2124,
+   "lng": 130.5619,
+   "summary_ja": "こんにゃく芋から直接つくった、風味と弾力の強い「山ごんにゃく」を刺身のように切り、わさび醤油や酢味噌で食べる。八女市北部の山間地で3〜4年かけて育てた芋を使うという。",
+   "summary_en": "Konjac made straight from the tuber, prized for its firm bite and stronger flavor than the powdered kind, is sliced like sashimi and dipped in wasabi-soy or vinegared miso — grown over three to four years in the mountains of northern Yame.",
+   "sources": [
+    {
+     "title": "やまごんにゃくの刺身 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yama_gonnyaku_no_sashimi_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yama-konnyaku-sashimi",
+     "to_slug": "imo-manju",
+     "relation_type": "対比",
+     "basis": "ともに八女市奥地の山あいで育つ芋類を生かす一皿だが、山ごんにゃくの刺身は生のまま食べ、いも饅頭は里芋を小麦粉で包んで蒸す点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "伝承地域=筑後地域（八女市）と具体的なためorigin_city=八女市。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "etsu-no-nanbanzuke",
+   "name_ja": "エツの南蛮漬け",
+   "name_romaji": "Etsu no Nanban Zuke",
+   "name_en": "Etsu no nanban zuke — a fried river fish found only at one estuary, marinated sweet and sour",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": null,
+   "origin_pref": "福岡県",
+   "origin_city": "大川市",
+   "lat": 33.1994,
+   "lng": 130.3583,
+   "summary_ja": "筑後川河口域にしか生息しない幻の魚エツを唐揚げにし、南蛮酢に漬け込む。5月から7月の解禁期にしか漁ができない魚で、一般的なアジの南蛮漬けとは使う魚も漁の背景も異なるという。",
+   "summary_en": "Etsu — a fish found nowhere but the Chikugo River estuary — is fried and steeped in a sweet-and-sour marinade. Caught only during a short open season from May to July, it sets this dish apart from the more common mackerel or horse-mackerel version of nanban-zuke.",
+   "sources": [
+    {
+     "title": "エツの南蛮漬け 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/etsuno_nanban_zuke_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "etsu-no-nanbanzuke",
+     "to_slug": "nanban-zuke",
+     "relation_type": "対比",
+     "basis": "一般的な南蛮漬けは小魚（アジ等）を揚げて甘酢に漬けるが、こちらは筑後川河口域だけに生息する幻の魚エツを使う点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "台帳のexisting_slug=nanban-zuke(low)。エツは筑後川河口にしかいない希少な固有種で、一般的な南蛮漬けとは魚も背景も別物と判断し新規作成（要判断、ブリーフの『ニシン漬けとニシン』の例に準じる）。genre_hint=tsukemonoだが、揚げた魚を甘酢に漬ける調理法で漬物ジャンルの野菜漬けとは異なり、ブリーフの『魚介の保存食は例外』規定に準じて作成。台帳の棚fermentedは実態（唐揚げを甘酢に漬ける）に合わせfriedへ変更。伝承地域=筑後地区（広域）だが本文が大川市の夏の風物詩と明記するためorigin_city=大川市とした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kamasu-zushi",
+   "name_ja": "かます寿司",
+   "name_romaji": "Kamasu Zushi",
+   "name_en": "Kamasu zushi — salt-cured barracuda pressed around vinegared rice for an autumn shrine festival",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "福岡県",
+   "origin_city": "久留米市",
+   "lat": 33.3192,
+   "lng": 130.5081,
+   "summary_ja": "塩じめしたカマスを甘酢につけ、すし飯を詰めて成形する。久留米の高良山くんちの参道で栗入り赤飯とともに売られてきたとされ、奉納に使う叺（かます）と魚の語呂合わせが名の由来という。",
+   "summary_en": "Salt-cured barracuda is steeped in sweet vinegar and pressed around sushi rice — long sold alongside chestnut rice along the approach to Kurume's Kora-san shrine festival, its name said to play on a straw sack called 'kamasu', once filled with rice for offering.",
+   "sources": [
+    {
+     "title": "かます寿司 福岡県 | うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kamasu_sushi_fukuoka.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kamasu-zushi",
+     "to_slug": "suko-zushi",
+     "relation_type": "対比",
+     "basis": "ともに秋祭りに欠かせない酢飯の郷土寿司だが、須古ずしは佐賀・白石地方の祭礼寿司、かます寿司は久留米・高良山くんちで食べるカマスの押し寿司という違いがある"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "伝承地域=筑後地域（久留米市）と具体的なためorigin_city=久留米市。genre_hint=sushiのためgenre=sushiとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "作らなかった行: funayaki_fukuoka(ふなやき)=all-items-ja.txtの既存slug funayaki（ふなやき、pref空欄）と名称完全一致のため作らず。setakano_takana_zuke_fukuoka(瀬高の高菜漬け)=genre_hint=tsukemonoかつall-items-ja.txtの既存slug takana-zuke（高菜漬け）と名称一致のため作らず。yuzu_gosyo_fukuoka(ゆずごしょう)=all-items-ja.txtの既存slug yuzu-kosho（柚子胡椒、大分県）と名称完全一致のため作らず（調味料としては複数県にまたがり主張されるが同一の食品と判断）。 / 棚を変えた行: hakata_gomasaba(homestyle→raw、生の刺身を和えるため), toriniku_no_sukiyaki_fukuoka(grilled→hotpot、大皿を鍋で煮る料理のため), nousaba_fukuoka(homestyle→fermented、天日干し後に調味液へ漬け込む保存食のため), etsuno_nanban_zuke_fukuoka(fermented→fried、唐揚げを甘酢に漬ける調理法のため)。 / 要判断: toriniku_no_sukiyaki_fukuoka(existing_slug=sukiyaki,low)は一般的な牛肉のすき焼きと異なり、骨付き鶏ともつを使う糟屋郡〜宗像市固有の鍋料理のため別物と判断し新規作成。etsuno_nanban_zuke_fukuoka(existing_slug=nanban-zuke,low)は筑後川河口域だけに生息する幻の魚エツを使う点で一般的なアジ等の南蛮漬けと別物と判断し新規作成（genre_hint=tsukemonoだが魚介の保存食の例外規定を適用）。yanagawa-dojo-nabe(柳川なべ)はall-items-ja.txtに同名の既存slug yanagawa-nabe（柳川鍋、東京都）があり衝突。出典は東京の『どぜう鍋』とは別物と明記するが柳川鍋への直接の言及はなく、名称の由来（柳川地名か東京の店名か）は諸説あるためslugをyanagawa-dojo-nabeとし、summaryでも断定を避けた。kamasu_sushi_fukuokaはgenre_hint=sushiのためgenre=sushiとした。"
+}
