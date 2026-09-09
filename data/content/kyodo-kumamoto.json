@@ -1,0 +1,939 @@
+{
+ "items": [
+  {
+   "slug": "karashi-renkon",
+   "name_ja": "からし蓮根",
+   "name_romaji": "Karashi Renkon",
+   "name_en": "Karashi renkon — deep-fried lotus root stuffed with mustard miso",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "",
+   "lat": 32.8032,
+   "lng": 130.7079,
+   "summary_ja": "茹でた蓮根の穴に辛子味噌を詰め、衣をつけて揚げた惣菜。ピリッとした辛味とシャキシャキした食感が特徴で、細川家の秘伝として伝わったという由来を持つとされる。輪切りにすると家紋に似た穴が並ぶ。",
+   "summary_en": "Boiled lotus root is packed with mustard miso, coated in batter, and deep-fried into a crunchy, sharp side dish said to have once been a closely guarded recipe of the Hosokawa clan; sliced, its holes echo the family crest.",
+   "sources": [
+    {
+     "title": "からし蓮根 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/karashi_renkon_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "karashi-renkon",
+     "to_slug": "renkon-hasami-age",
+     "relation_type": "対比",
+     "basis": "同じ蓮根を衣で包んで揚げる料理だが、からし蓮根は穴に辛子味噌を詰めるのに対し、れんこんのはさみ揚げ（茨城県）は輪切りにした蓮根で具を挟む"
+    }
+   ],
+   "tags": [
+    "miso",
+    "spicy"
+   ],
+   "notes": "shelfをhomestyleからfriedに修正（衣をつけて油で揚げる調理法のため）。origin_city: 伝承地域「熊本地域」は熊本市を中心とする広域のため空欄とし、lat/lngは熊本市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "dagojiru",
+   "name_ja": "だご汁",
+   "name_romaji": "Dagojiru",
+   "name_en": "Dagojiru — hand-torn wheat dumplings simmered in a root-vegetable miso soup",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "",
+   "lat": 32.8032,
+   "lng": 130.7079,
+   "summary_ja": "小麦粉の生地を手で延ばしちぎった団子を、里芋やごぼうなど季節の野菜と味噌や醤油で煮込んだ汁もの。「だご」は熊本弁でだんごの意味で、農作業の合間の食事として親しまれてきたという。",
+   "summary_en": "Wheat-flour dough is torn by hand into dumplings and simmered with seasonal root vegetables in a miso or soy broth. \"Dago\" is Kumamoto dialect for dumpling, and the dish is said to have long fed farmers between fieldwork.",
+   "sources": [
+    {
+     "title": "だご汁 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/dagojiru_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "dagojiru",
+     "to_slug": "battou-jiru",
+     "relation_type": "対比",
+     "basis": "小麦粉の生地をちぎって汁に入れる同系の料理だが、だご汁は熊本弁で「だんご」を意味し、栃木のばっとう汁・だんご汁（すいとん）とは地域も呼び名の由来も異なる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域「熊本県内全域」のため空欄とし、lat/lngは県庁所在地の熊本市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yakiayu-no-kanroni",
+   "name_ja": "焼鮎の甘露煮",
+   "name_romaji": "Yaki Ayu no Kanroni",
+   "name_en": "Yaki ayu no kanroni — charcoal-grilled ayu simmered sweet in soy",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "",
+   "lat": 32.2103,
+   "lng": 130.7581,
+   "summary_ja": "産卵のため川を下る落ちアユを串に刺して炭火で焼き、甘めの醤油だれでじっくり煮含めた保存食。球磨川の急流と清流で育ったアユは骨まで柔らかく食べられるという。冷めてもそのまま美味とされる。",
+   "summary_en": "Ayu heading downstream to spawn are skewered and charcoal-grilled, then slow-simmered in a sweet soy glaze into a preserved dish. Raised in the swift, clear Kuma River, the fish are said to soften enough to eat bones and all, even cold.",
+   "sources": [
+    {
+     "title": "焼鮎の甘露煮 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yakiayu_no_kanroni_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yakiayu-no-kanroni",
+     "to_slug": "ayu",
+     "relation_type": "使用食材",
+     "basis": "球磨川流域で獲れるアユを主材料とする"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域「人吉・球磨地域、八代地域」は複数地域にまたがるため空欄とし、lat/lngは球磨川流域の中心都市である人吉市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ikinari-dango",
+   "name_ja": "いきなり団子",
+   "name_romaji": "Ikinari Dango",
+   "name_en": "Ikinari dango — steamed dumpling wrapping sweet potato and sweet bean paste",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "菊池市",
+   "lat": 32.9758,
+   "lng": 130.8189,
+   "summary_ja": "輪切りにしたさつまいもとあんを小麦粉の生地で包んで蒸したおやつ。「いきなり」は熊本弁で「手早く」の意で、来客時にすぐ出せる菓子として親しまれてきたという。出来たての温かいうちに食べる。",
+   "summary_en": "Slices of sweet potato and sweet bean paste are wrapped in a wheat dough and steamed into a snack. \"Ikinari\" means \"quickly\" in Kumamoto dialect, said to reflect how fast it could be made for a visiting guest, best eaten warm.",
+   "sources": [
+    {
+     "title": "いきなり団子 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ikinari_dango_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ikinari-dango",
+     "to_slug": "koppa-mochi",
+     "relation_type": "対比",
+     "basis": "ともに熊本のさつまいもを使うおやつだが、いきなり団子は生のさつまいもを生地で包んで蒸すのに対し、こっぱもち（天草地域）は干したさつまいもをもち米と合わせてつくる"
+    }
+   ],
+   "tags": [
+    "handheld",
+    "street_food"
+   ],
+   "notes": "origin_city: 伝承地域は「菊池地域」のため菊池市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "amakusa-ganeage",
+   "name_ja": "がね揚げ",
+   "name_romaji": "Gane-age",
+   "name_en": "Gane-age — julienned sweet potato fried into a crab-leg shape",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "熊本県",
+   "origin_city": "天草市",
+   "lat": 32.4581,
+   "lng": 130.1911,
+   "summary_ja": "拍子切りにしたさつまいもをしょうが入りの甘めの衣にくぐらせ、油で揚げた惣菜。天草の方言で「がね」はカニの意味で、揚げた形がカニの足に似ることから名付けられたという。精進料理としても使われる。",
+   "summary_en": "Sweet potato cut into batons is coated in a ginger-sweetened batter and deep-fried. \"Gane\" is Amakusa dialect for crab, said to describe the shape of the fried strands, and the dish also serves as a vegetarian offering at Buddhist services.",
+   "sources": [
+    {
+     "title": "がね揚げ 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/ganeage_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "amakusa-ganeage",
+     "to_slug": "gane",
+     "relation_type": "対比",
+     "basis": "同じ「がね」の名を持つさつまいもの揚げ物だが、天草のがね揚げは仏事の精進料理として始まったとされ、鹿児島県のがねとは由来や地域が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "existing_slug=gane（鹿児島県、match_confidence=low）と比較。名称は似るが伝承地域が異なり（天草地域）、由来（仏事の精進料理）も異なる別物と判断し作成。slugは同名衝突を避けamakusa-ganeageとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nankan-age-makizushi",
+   "name_ja": "南関あげ巻き寿司",
+   "name_romaji": "Nankan-age Makizushi",
+   "name_en": "Nankan-age makizushi — sushi rolled in sweet-simmered fried tofu skin instead of nori",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "熊本県",
+   "origin_city": "南関町",
+   "lat": 32.9967,
+   "lng": 130.5667,
+   "summary_ja": "海苔の代わりに、甘辛く煮た薄い油揚げ「南関あげ」で酢飯と具材を巻いた寿司。南関あげは二度揚げして水分を抜いた保存性の高い油揚げで、出汁がよく出ることから汁物にも重宝されるという。",
+   "summary_en": "Vinegared rice and fillings are rolled not in nori but in nankan-age, a thin fried tofu skin simmered sweet and salty. Twice-fried to remove moisture for long keeping, nankan-age is also prized for the rich broth it releases in soups.",
+   "sources": [
+    {
+     "title": "南関あげ巻き寿司 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nankan_ageno_maki_zushi_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nankan-age-makizushi",
+     "to_slug": "konoshiro-sugata-zushi",
+     "relation_type": "対比",
+     "basis": "ともに熊本県の祝い事に欠かせないご当地寿司だが、南関あげ巻き寿司は油揚げで巻く巻き寿司、このしろの姿寿司（八代地域）は魚を丸ごと使う姿寿司で、技法が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "handheld"
+   ],
+   "notes": "existing_slug=maki-zushi（pref空欄・match_confidence=low）と比較。南関あげという特産の油揚げを海苔代わりに使う南関町固有の寿司で、一般的な巻き寿司とは別物と判断し作成。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsubon-jiru",
+   "name_ja": "つぼん汁",
+   "name_romaji": "Tsubonjiru",
+   "name_en": "Tsubonjiru — a clear soy-seasoned soup of chicken, kamaboko, and root vegetables served in odd numbers",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "人吉市",
+   "lat": 32.2103,
+   "lng": 130.7581,
+   "summary_ja": "鶏肉やかまぼこ、里芋やごぼうなど根菜を小さく刻み、いりこ出汁と醤油で仕立てた汁もの。人吉球磨地域の秋祭りの会席膳が起源とされ、具材は7種や9種など奇数で揃えるならわしがあるという。",
+   "summary_en": "Chicken, kamaboko, and root vegetables like taro and burdock are cut small and simmered in a soy-seasoned sardine broth. Said to originate in autumn-festival banquet trays of the Hitoyoshi-Kuma area, its ingredients are traditionally kept to an odd number.",
+   "sources": [
+    {
+     "title": "つぼん汁 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tsubon_jiru_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tsubon-jiru",
+     "to_slug": "tsubojiru",
+     "relation_type": "対比",
+     "basis": "ともに「つぼ（壺）」に由来する名を持つ汁ものだが、つぼん汁（人吉球磨地域）は祝い事に鶏肉やかまぼこを使う会席の汁、つぼ汁（長崎県西海市雪浦地区）は法事の精進料理で肉魚を使わない点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域「人吉球磨地域」は広域のため空欄とし、lat/lngは中心行事の青井阿蘇神社がある人吉市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "konoshiro-sugata-zushi",
+   "name_ja": "このしろの姿寿司",
+   "name_romaji": "Konoshiro no Sugatazushi",
+   "name_en": "Konoshiro no sugatazushi — whole vinegar-cured konoshiro stuffed with sushi rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "熊本県",
+   "origin_city": "",
+   "lat": 32.5069,
+   "lng": 130.6033,
+   "summary_ja": "背開きにしたコノシロを甘酢で締め、腹に棒状の酢飯を詰めて頭と尾を立てて盛る祝い寿司。八代海沿岸に江戸時代から伝わるとされ、鮮度が落ちやすいコノシロを酢で締めて日持ちさせる知恵という。",
+   "summary_en": "Konoshiro herring, split along the back and cured in sweet vinegar, is stuffed with a log of sushi rice and plated head and tail upright — a festive sushi said to date to the Edo period along the Yatsushiro Sea, the vinegar cure a way to keep fast-spoiling fish.",
+   "sources": [
+    {
+     "title": "このしろの姿寿司 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kono_shirono_sugata_zushi_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "konoshiro-sugata-zushi",
+     "to_slug": "omura-zushi",
+     "relation_type": "対比",
+     "basis": "ともに祝い事に欠かせない九州の郷土寿司だが、このしろの姿寿司はコノシロを丸ごと使う姿寿司、大村寿司（長崎県）は木枠で押す押し寿司で技法が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域「八代地域」は八代市を中心とする広域のため空欄とし、lat/lngは八代市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kumamoto-basashi",
+   "name_ja": "馬刺し",
+   "name_romaji": "Basashi",
+   "name_en": "Basashi — thinly sliced raw horse meat dipped in sweet soy sauce",
+   "type": "dish",
+   "shelf": "raw",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "熊本市",
+   "lat": 32.8032,
+   "lng": 130.7079,
+   "summary_ja": "薄く切った生の馬肉を、たまねぎやしょうがなどの薬味とともに甘口醤油で食べる熊本の名物。加藤清正が朝鮮出兵中に軍馬を食べたのが始まりとされ、阿蘇地域では戦後の食糧難で広まったという。",
+   "summary_en": "Thin slices of raw horse meat are eaten with grated ginger, onion, and sweet soy sauce — a Kumamoto specialty said to trace back to Kato Kiyomasa eating his own war horses during a Korean campaign, later spreading around Aso in the postwar food shortage.",
+   "sources": [
+    {
+     "title": "馬刺し 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/basashi_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kumamoto-basashi",
+     "to_slug": "baniku-soba",
+     "relation_type": "対比",
+     "basis": "ともに熊本の馬肉料理だが、馬刺しは生のまま薬味と醤油で食べるのに対し、馬肉蕎麦は蕎麦の具として煮込んだ馬肉を使う"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "shelfをhomestyleからrawに修正（生の馬肉をそのまま食べる料理のため）。existing_slug該当なし（basashi=福島県、yamanashi-basashi=山梨県はいずれも別県）のため、slugをkumamoto-basashiとした。origin_city: 伝承地域「熊本市、阿蘇地域」のうち代表地点として熊本市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "butaae",
+   "name_ja": "ぶたあえ",
+   "name_romaji": "Butaae",
+   "name_en": "Butaae — octopus and eggplant stir-fried in sweet miso, named for the pork it once stood in for",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "天草市",
+   "lat": 32.4581,
+   "lng": 130.1911,
+   "summary_ja": "茹でタコとなすを甘辛い麦味噌で炒め合わせた天草の家庭料理。かつて手に入りにくかった豚肉の代わりに、地元で獲れるマダコを使ったのが始まりとされ、名前だけ「豚和え」として残ったという。",
+   "summary_en": "Boiled octopus and eggplant are stir-fried in a sweet, spicy barley miso — an Amakusa home dish said to have begun as a stand-in for pork, once hard to come by, using the local octopus instead while keeping the old name, \"pork mix.\"",
+   "sources": [
+    {
+     "title": "ぶたあえ 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/butaae_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "butaae",
+     "to_slug": "amakusa-tako-meshi",
+     "relation_type": "対比",
+     "basis": "ともに天草特産のマダコを使う料理だが、ぶたあえは生きたタコを茹でてなすと炒めるのに対し、たこ飯は天日干しにした干しダコをもどして炊き込む"
+    }
+   ],
+   "tags": [
+    "miso",
+    "pork"
+   ],
+   "notes": "origin_city: 伝承地域「天草地域」を天草市とみなし採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "makigaki",
+   "name_ja": "巻柿",
+   "name_romaji": "Makigaki",
+   "name_en": "Makigaki — dried persimmons layered, rolled in bamboo bark, and bound with straw rope",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "",
+   "lat": 32.6472,
+   "lng": 130.6614,
+   "summary_ja": "渋柿を天日干しにした干し柿の軸を切って開き、十数個を重ねて竹の皮で包み、藁縄でぐるぐると巻き上げた保存菓子。「福をかき寄せる」の意で年末の贈答や正月の縁起物として需要があるという。",
+   "summary_en": "Sun-dried persimmons are split, layered a dozen or so at a time, wrapped in bamboo bark, and bound tightly with straw rope into a keepable sweet. Its name evokes \"gathering good fortune,\" and it is said to be sought as a year-end gift and New Year charm.",
+   "sources": [
+    {
+     "title": "巻柿 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/makigaki_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "makigaki",
+     "to_slug": "korogaki",
+     "relation_type": "対比",
+     "basis": "ともに渋柿を干してつくる保存食だが、巻柿は干し柿を重ねて竹の皮と藁縄で巻き上げるのに対し、枯露柿（山梨県）は一つずつ丸ごと干し上げる"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域「宇城地域、上益城郡山都町」は複数地域のため空欄とし、lat/lngは干し柿の産地として本文で先に挙げられる宇城市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "maze-meshi",
+   "name_ja": "まぜ飯",
+   "name_romaji": "Mazemeshi",
+   "name_en": "Mazegohan — chicken, burdock, and shiitake simmered sweet-savory and folded into hot rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "嘉島町",
+   "lat": 32.7381,
+   "lng": 130.7794,
+   "summary_ja": "鶏肉やごぼう、干ししいたけなどを細かく刻んで醤油と砂糖で炒め煮し、炊き立てのごはんに混ぜ込む具飯。嘉島町の六嘉神社の秋の例大祭では、鶏肉の代わりに馬肉を使う家庭もあるという。",
+   "summary_en": "Chicken, burdock, and dried shiitake are cut fine, simmered sweet in soy, and folded into freshly cooked rice. At the autumn festival of Rokka Shrine in Kashima, some households are said to use horse meat instead of chicken.",
+   "sources": [
+    {
+     "title": "まぜ飯 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/maze_meshi_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "maze-meshi",
+     "to_slug": "amakusa-tako-meshi",
+     "relation_type": "対比",
+     "basis": "ともに熊本県の混ぜご飯だが、まぜ飯は鶏肉や根菜を使うのに対し、たこ飯（天草地域）は干しダコを主役にする"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域「熊本県内全域」は広域だが、本文が六嘉神社の秋祭りを具体例として名指ししているため、その所在地である嘉島町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "amakusa-tako-meshi",
+   "name_ja": "たこ飯",
+   "name_romaji": "Tako Meshi",
+   "name_en": "Amakusa tako meshi — rice cooked or mixed with rehydrated sun-dried octopus",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "天草市",
+   "lat": 32.4581,
+   "lng": 130.1911,
+   "summary_ja": "天日干しにした「干しダコ」を水でもどして刻み、ごぼうや人参と炊き込む、または後から混ぜるご飯。旨味が凝縮した干しダコを使うことが多く、天草市有明町の夏の風物詩とされる干しダコ干しの光景で知られる。",
+   "summary_en": "Sun-dried octopus is rehydrated, chopped, and either cooked into rice with burdock and carrot or mixed in afterward — a dish that leans on the concentrated flavor of dried octopus, known for the summer sight of octopus hung out to dry in Amakusa's Ariake.",
+   "sources": [
+    {
+     "title": "たこ飯 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tako_meshi_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "amakusa-tako-meshi",
+     "to_slug": "tako-meshi",
+     "relation_type": "対比",
+     "basis": "同じ「たこ飯」の名を持つが、天草のたこ飯は天日干しした干しダコをもどして使うのに対し、三重県のたこ飯は生のタコを使う点が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "existing_slug該当なし（tako-meshi=三重県、himakajima-takomeshi=愛知県はいずれも別県）。同名衝突のためslugをamakusa-tako-meshiとした。origin_city: 伝承地域「天草地域」を天草市とみなし採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kasuyose",
+   "name_ja": "かすよせ",
+   "name_romaji": "Kasuyose",
+   "name_en": "Kasuyose — coarsely ground soybeans stewed with root vegetables and chicken into rice",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "山都町",
+   "lat": 32.7936,
+   "lng": 131.0864,
+   "summary_ja": "一晩水に浸した大豆を粗く砕き、里芋やにんじん、鶏肉と一緒に米を加えてとろっと煮込んだ料理。山都町で祝い事や祭りの際につくられてきたとされ、主食にもおかずにもおやつにもなるという。",
+   "summary_en": "Soybeans soaked overnight and coarsely crushed are simmered down with taro, carrot, chicken, and rice into a thick stew — said to have been made in Yamato for festivals and celebrations, serving as a main dish, side, or even a snack.",
+   "sources": [
+    {
+     "title": "かすよせ 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kasuyose_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kasuyose",
+     "to_slug": "tsubon-jiru",
+     "relation_type": "対比",
+     "basis": "ともに熊本県の祝い事に登場する料理だが、かすよせ（上益城地域）は大豆と根菜を煮込んだとろみのある一品、つぼん汁（人吉球磨地域）は具だくさんの汁ものである点が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域「上益城地域」は広域だが、本文が「主に山都町で」と名指ししているため山都町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "koppa-mochi",
+   "name_ja": "こっぱもち",
+   "name_romaji": "Koppa Mochi",
+   "name_en": "Koppa mochi — sun-dried sweet potato pounded together with steamed mochi rice",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "天草市",
+   "lat": 32.4581,
+   "lng": 130.1911,
+   "summary_ja": "輪切りにして茹でたさつまいもを天日干しにした「こっぱ」を、蒸したもち米と砂糖であわせてつく餅。米の収穫が少ない天草で保存食として各家庭でつくられ、正月用のおやつとして重宝されてきたという。",
+   "summary_en": "Sweet potato is boiled, sliced, and sun-dried into \"koppa,\" then pounded together with steamed glutinous rice and sugar into a mochi. Made at home as a keeping food in rice-poor Amakusa, it is said to have been prized as a New Year treat.",
+   "sources": [
+    {
+     "title": "こっぱもち 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/koppa_mochi_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "koppa-mochi",
+     "to_slug": "ikinari-dango",
+     "relation_type": "対比",
+     "basis": "ともに熊本のさつまいもを使うおやつだが、こっぱもちは干したさつまいもをもち米と合わせてつくのに対し、いきなり団子は生のさつまいもを生地で包んで蒸す"
+    }
+   ],
+   "tags": [
+    "handheld"
+   ],
+   "notes": "origin_city: 伝承地域「天草地域」を天草市とみなし採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "shaku-tempura",
+   "name_ja": "シャクの天ぷら",
+   "name_romaji": "Shaku no Tempura",
+   "name_en": "Shaku no tempura — deep-fried mud shrimp eaten whole, shell and all",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "熊本県",
+   "origin_city": "",
+   "lat": 32.5069,
+   "lng": 130.6033,
+   "summary_ja": "干潟の深い巣穴にすむシャク（アナジャコ）に衣をつけ、殻ごとからりと揚げた夏の珍味。鮮度落ちが早く熊本県外にはほとんど流通せず、身も殻も内臓も食べられ濃い味わいが特徴とされる。",
+   "summary_en": "Shaku, a mud shrimp burrowing deep in tidal flats, is battered and deep-fried shell and all — a summer delicacy that spoils fast enough to rarely leave Kumamoto, eaten whole, shell, meat, and innards, for its intensely rich flavor.",
+   "sources": [
+    {
+     "title": "シャクの天ぷら 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/shakuno_tenpura_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shaku-tempura",
+     "to_slug": "tempura",
+     "relation_type": "対比",
+     "basis": "衣をつけて揚げる点は同じだが、シャクの天ぷらはアナジャコを殻ごと丸揚げする熊本独自の郷土料理で、一般的な天ぷらとは食材も食べ方も異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "existing_slug=tempura（pref空欄・match_confidence=low）と比較。アナジャコを殻ごと揚げる熊本固有の郷土料理で一般的な天ぷらとは別物と判断し作成。origin_city: 伝承地域「八代、荒尾、玉名地区」は複数地域のため空欄とし、lat/lngは本文で最も詳しく触れられる八代市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "amakusa-tai-somen",
+   "name_ja": "鯛そうめん",
+   "name_romaji": "Tai Somen",
+   "name_en": "Amakusa tai somen — somen noodles simmered in the broth of a whole simmered sea bream",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "",
+   "lat": 32.4581,
+   "lng": 130.1911,
+   "summary_ja": "タイの頭や中骨を煮た「あら炊き」の煮汁でそうめんを煮て食べる祝い料理。そうめんを使うのは特産地・島原の食文化の影響とされる。山都町馬見原では鯛を丸ごと姿煮にする「鯛めん」として伝わるという。",
+   "summary_en": "Somen noodles are simmered in the broth of sea bream head and bones cooked down whole — a celebratory dish said to reflect the influence of nearby Shimabara's somen tradition. In Yamato's Mamihara, a version called \"taimen\" simmers the whole fish instead.",
+   "sources": [
+    {
+     "title": "鯛そうめん 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tai_soumen_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "amakusa-tai-somen",
+     "to_slug": "shimabara-somen",
+     "relation_type": "使用食材",
+     "basis": "そうめんを使うのは特産地・島原の食文化に影響を受けたと本文で推測されている"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "existing_slug該当なし（tai-somen=香川県は別県）。同名衝突のためslugをamakusa-tai-somenとした。origin_city: 伝承地域「天草地域、上益城地域（山都町馬見原）」は2系統の異なる料理を含む広域のため空欄とし、lat/lngは主要な伝承地である天草市役所付近を採用。山都町馬見原の「鯛めん」は別系統である旨をnotesに記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yama-surume-no-kinpira",
+   "name_ja": "山するめのきんぴら",
+   "name_romaji": "Yama Surume no Kinpira",
+   "name_en": "Yama surume no kinpira — sun-dried bamboo shoot strips stir-simmered sweet in soy",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "球磨町",
+   "lat": 32.2764,
+   "lng": 130.8535,
+   "summary_ja": "ゆでたたけのこを天日干しにした「山するめ」を水でもどし、千切りにして醤油や砂糖で炒め煮する料理。乾燥したたけのこがスルメに似て見えることが名の由来とされ、生とは違う食感が楽しめるという。",
+   "summary_en": "Boiled bamboo shoots sun-dried into \"yama surume\" (mountain dried squid) are rehydrated, cut into strips, and stir-simmered in soy and sugar. The name is said to come from how the dried shoots resemble dried squid, offering a texture unlike fresh bamboo.",
+   "sources": [
+    {
+     "title": "山するめのきんぴら 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yama_surume_no_kinpira_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yama-surume-no-kinpira",
+     "to_slug": "kinpira",
+     "relation_type": "対比",
+     "basis": "きんぴら仕立てにする点は同じだが、山するめのきんぴらは天日干ししたたけのこを使う熊本の保存食で、一般的なきんぴらとは食材が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域「人吉・球磨、阿蘇地域など」は広域のため空欄とし、lat/lngは本文が農繁期・祭りの精進料理として名指しする球磨郡球磨町を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "taipiien",
+   "name_ja": "太平燕",
+   "name_romaji": "Taipiien",
+   "name_en": "Taipiien — a Chinese-style glass noodle soup topped with a deep-fried hard-boiled egg",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "熊本市",
+   "lat": 32.8032,
+   "lng": 130.7079,
+   "summary_ja": "春雨を主役に、豚肉やエビ、野菜を炒めて煮込んだ中華風スープに、揚げたゆで卵をのせた麺料理。中国福建省の祝い料理がルーツとされ、明治後期に長崎経由で熊本に伝わった華僑の味という。",
+   "summary_en": "Glass noodles anchor a Chinese-style soup of stir-fried pork, shrimp, and vegetables, topped with a deep-fried hard-boiled egg. Said to trace back to a festive Fujian dish, brought by Chinese immigrants via Nagasaki in the late Meiji era.",
+   "sources": [
+    {
+     "title": "太平燕 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/taipiien_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "taipiien",
+     "to_slug": "kumamoto",
+     "relation_type": "対比",
+     "basis": "熊本を代表する中華系麺料理どうしだが、太平燕は春雨の中華スープに揚げ卵をのせたもので、ラーメン店でも提供されるほど別物として親しまれているという"
+    }
+   ],
+   "tags": [
+    "chinese_derived",
+    "egg"
+   ],
+   "notes": "origin_city: 伝承地域「熊本県内中部」は広域のため空欄とし、lat/lngは県庁所在地の熊本市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tojiko-mame",
+   "name_ja": "とじこ豆",
+   "name_romaji": "Tojiko Mame",
+   "name_en": "Tojiko mame — roasted soybeans bound in a sweet wheat-flour dough and steamed in bamboo bark",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "山鹿市",
+   "lat": 33.0128,
+   "lng": 130.6942,
+   "summary_ja": "炒った大豆を砂糖水で煮て小麦粉を加えて練り、竹の皮に包んで蒸した素朴な菓子。「甘い生地で大豆をとじこめた」ことが名の由来とされ、山鹿市菊鹿地区では年末に必ずつくられてきたという。",
+   "summary_en": "Roasted soybeans are simmered in sugar water, bound with wheat flour, wrapped in bamboo bark, and steamed into a simple sweet — its name said to mean \"beans sealed in sweet dough,\" traditionally made every year-end in Yamaga's Kikuka district.",
+   "sources": [
+    {
+     "title": "とじこ豆 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/tojiko_mame_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tojiko-mame",
+     "to_slug": "kumamoto-yubeshi",
+     "relation_type": "対比",
+     "basis": "ともに熊本の年末年始に登場する素朴な郷土菓子だが、とじこ豆は大豆を甘い小麦粉生地で包んで蒸すのに対し、柚餅子（菊池地域）はもち米に柚子と味噌を練り込んでつくる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域「山鹿地域、菊池地域」は複数地域のため空欄とし、lat/lngは本文で具体的に菊鹿地区が挙げられる山鹿市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "itimonji-no-guruguru",
+   "name_ja": "一文字のぐるぐる",
+   "name_romaji": "Ichimonji no Guruguru",
+   "name_en": "Ichimonji no guruguru — blanched leek greens coiled around their own white stalk",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "",
+   "lat": 32.8032,
+   "lng": 130.7079,
+   "summary_ja": "さっと茹でた一文字（わけぎ）の白根を軸に青い葉をぐるぐる巻きつけ、酢味噌や辛味噌をかけて食べる酒肴。肥後藩の倹約令の時代に考案された安価なつまみとされ、白根の膨らみが熊本の一文字の特徴という。",
+   "summary_en": "The white base of blanched wakegi (a bunching-onion relative) is used as a spool for its own green leaves to coil around, then served with sweet or spicy vinegar-miso — said to have been devised as a cheap drinking snack during a Higo domain austerity edict.",
+   "sources": [
+    {
+     "title": "一文字のぐるぐる 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/itimonji_no_guruguru_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "itimonji-no-guruguru",
+     "to_slug": "gunma-neginuta",
+     "relation_type": "対比",
+     "basis": "ともにねぎの仲間を酢味噌で和える料理だが、一文字のぐるぐるは白根に葉を巻きつけて一口大に仕立てるのに対し、群馬のねぎぬたはぬた和えにして食べる"
+    }
+   ],
+   "tags": [
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域「熊本県内全域」のため空欄とし、lat/lngは県庁所在地の熊本市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "jyabara-daikon-no-nimono",
+   "name_ja": "蛇腹大根（房切り大根）の煮物",
+   "name_romaji": "Jabara Daikon no Nimono",
+   "name_en": "Jabara daikon no nimono — accordion-cut dried daikon simmered with vegetables",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "南阿蘇村",
+   "lat": 32.8791,
+   "lng": 130.9967,
+   "summary_ja": "大根に切れ目を入れて蛇腹状に伸ばし、冬の冷たい風で干し上げた保存食を戻して煮る料理。南阿蘇地域の冬の風物詩とされ、干すことで旨味と栄養が凝縮し、パリっとした独特の食感になるという。",
+   "summary_en": "Daikon is scored and stretched into an accordion shape, then dried in the cold winter wind of southern Aso into a keeping food — said to be a seasonal sight there — before being rehydrated and simmered, its dried texture crisp and its flavor concentrated.",
+   "sources": [
+    {
+     "title": "蛇腹大根（房切り大根）の煮物 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/jyabara_daikon_no_nimono_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "jyabara-daikon-no-nimono",
+     "to_slug": "hoshi-daikon-no-nishime",
+     "relation_type": "対比",
+     "basis": "ともに干し大根を戻して煮る料理だが、蛇腹大根は切れ目を入れて蛇腹状に伸ばしてから干す独特の切り方をするのに対し、島根県の干し大根の煮しめは短冊状に切って干す"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域「南阿蘇地域」を南阿蘇村とみなし採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hone-kajiri",
+   "name_ja": "骨かじり",
+   "name_romaji": "Hone Kajiri",
+   "name_en": "Hone kajiri — bone-in wild boar or pork simmered for hours and eaten by hand",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "湯前町",
+   "lat": 32.1719,
+   "lng": 130.9897,
+   "summary_ja": "猪や豚の骨付き肉を水から3時間ほどじっくり煮込み、塩だけで味付けする料理。骨の髄まで吸って楽しむことからこの名がついたとされ、猟師料理がもとになったという奥球磨地域の宴会料理。",
+   "summary_en": "Bone-in wild boar or pork is simmered from cold water for about three hours and seasoned with nothing but salt — named, it is said, for how everyone sucks the marrow from the bone, a banquet dish in Oku-Kuma said to trace back to hunters' cooking.",
+   "sources": [
+    {
+     "title": "骨かじり 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hone_kajiri_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hone-kajiri",
+     "to_slug": "kumamoto-basashi",
+     "relation_type": "対比",
+     "basis": "ともに熊本の獣肉を用いた郷土料理だが、骨かじりは猪や豚の骨付き肉を長時間煮込んで食べるのに対し、馬刺しは馬肉を生のまま薄切りで食べる"
+    }
+   ],
+   "tags": [
+    "pork"
+   ],
+   "notes": "origin_city: 伝承地域「上球磨地域」は広域だが、本文が具体的に湯前町・多良木町・水上村を挙げており、温泉レストランでの提供が触れられる湯前町を代表地点として採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kumamoto-yubeshi",
+   "name_ja": "柚餅子",
+   "name_romaji": "Yubeshi",
+   "name_en": "Kumamoto yubeshi — glutinous rice pounded with miso and yuzu, steamed in bamboo bark",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "熊本県",
+   "origin_city": "",
+   "lat": 32.9758,
+   "lng": 130.8189,
+   "summary_ja": "もち米に柚子と味噌、砂糖を練り込み、竹の皮に包んで蒸した餅菓子。菊池地域では兵糧が起源とされる銘菓として伝わる一方、人吉・球磨地域には柚子の器に具を詰めて干す全く別の柚餅子があるという。",
+   "summary_en": "Glutinous rice is pounded with yuzu, miso, and sugar, wrapped in bamboo bark, and steamed into a mochi sweet. In Kikuchi it survives as a confection said to trace to wartime provisions, while Hitoyoshi-Kuma keeps an entirely different version, stuffed inside a hollowed yuzu and air-dried.",
+   "sources": [
+    {
+     "title": "柚餅子 熊本県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/yubeshi_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kumamoto-yubeshi",
+     "to_slug": "yubeshi",
+     "relation_type": "対比",
+     "basis": "同じ「柚餅子」の名を持つ和菓子だが、熊本（菊池地域）は竹の皮に包んで蒸すもち米の菓子であるのに対し、岡山県の柚餅子は製法が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "existing_slug該当なし（yubeshi=岡山県は別県）。同名衝突のためslugをkumamoto-yubeshiとした。origin_city: 伝承地域「菊池地域、人吉・球磨地域」は由来の異なる2系統を含む広域のため空欄とし、lat/lngは現在の銘菓として確立している菊池市役所付近を採用。人吉球磨地域には別系統の柚餅子がある旨summary/notesに記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "採否内訳: 台帳29行中、作った24件／既存で作らなかった1件（baniku_soba_kumamoto: existing_slug=baniku-soba, match_confidence=highの完全一致）／genre_hint=tsukemonoで除外4件（aso_takana_zuke, akado_zuke, kanzuke はいずれも野菜の一般的な漬物で既存の漬物ジャンルの範疇と判断。toufuno_misozuke_kumamoto（豆腐の味噌漬け）はブリーフ例示の「魚介の醤油漬け・松前漬け・飯寿司」のような非漬物ジャンルの保存食に近い性質を持つが、優先順位「tsukemonoヒントなら作らない＞例外規定」に従い作らなかった。他県担当（北海道）が同様のケースで同じ優先順位を採用し要判断として記録していたため、fleet内の一貫性を優先した＝要判断）。\nmatch_confidence=lowの判定内訳: ganeage_kumamoto（→別物・作成、鹿児島のganeとは伝承地域・由来が異なる）、nankan_ageno_maki_zushi_kumamoto（→別物・作成、既存maki-zushiは南関あげを使わない汎用巻き寿司）、shakuno_tenpura_kumamoto（→別物・作成、既存tempuraは殻ごと揚げるアナジャコ天ぷらではない）。\n棚(shelf)を変えた行: karashi_renkon_kumamoto（homestyle→fried、衣をつけて油で揚げる調理のため）／basashi_kumamoto（homestyle→raw、生の馬肉をそのまま食べる料理のため）。\n座標の根拠: 単一自治体が明記された行（nankan_ageno_maki_zushi=南関町）はその役場付近。広域・複数地域の行はnotesに個別記載のとおり、本文で名指しされた市町村・地方の中心都市を代表地点とした。「熊本県内全域」表記の行（dagojiru, itimonji_no_guruguru）は県庁所在地の熊本市を採用。座標値はNominatim等のジオコーディングAPIが使えなかったため、一般的な地理知識による概算（4桁だが実測ではない）。\n要判断: (1) toufuno_misozuke_kumamotoの不採用是非（上記参照、ブリーフの例示規定とtsukemono除外規則が同一行で衝突）。(2) yubeshi_kumamotoは菊池地域と人吉球磨地域で由来・製法が全く異なる2系統の「柚餅子」を一つのMAFF項目が束ねているため、summaryで両論併記し、座標は現在の銘菓として確立している菊池市を採用したが、本来2アイテムに分割すべきか要判断。(3) amakusa-tai-somenも同様に天草の「鯛そうめん」と山都町馬見原の「鯛めん」という別由来の2系統を束ねている。(4) sara-udon, jigoku-dakiは名前に「うどん」を含むがgenreはudonに分類せずnullとした（実際の調理法・食べ方が典型的なうどんと異なるため）。"
+}

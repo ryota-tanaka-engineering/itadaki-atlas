@@ -1,0 +1,1019 @@
+{
+ "items": [
+  {
+   "slug": "shimabara-guzoni",
+   "name_ja": "具雑煮／島原具雑煮",
+   "name_romaji": "Guzoni",
+   "name_en": "Shimabara guzoni — a hearty New Year's mochi soup cooked and served in its own earthen pot",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "島原市",
+   "lat": 32.7889,
+   "lng": 130.3775,
+   "summary_ja": "丸餅に鶏肉や白菜、根菜、高野豆腐などを土鍋でだしとともに炊き、そのまま食べる具だくさんの雑煮。島原の乱で籠城した天草四郎の一党が兵糧と山海の幸を煮て食したのが始まりと伝わるという。",
+   "summary_en": "Round mochi, chicken, napa cabbage, root vegetables, and freeze-dried tofu are simmered together in broth in an earthenware pot and served straight from it — a hearty New Year's soup said to trace back to besieged rebels eating provisions and local produce during the Shimabara Rebellion.",
+   "sources": [
+    {
+     "title": "具雑煮／島原具雑煮 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_1_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "shimabara-guzoni",
+     "to_slug": "aichi-zoni",
+     "relation_type": "対比",
+     "basis": "ともに正月の餅雑煮だが、島原の具雑煮は土鍋で具材を煮込んだまま供する点で、愛知県の雑煮など他地域の雑煮とは調理法が異なる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域「島原半島」は広域のため空欄とし、lat/lngは半島の中心都市である島原市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hikitoshi",
+   "name_ja": "ひきとおし",
+   "name_romaji": "Hikitoshi",
+   "name_en": "Hikitoshi — a home-raised chicken hot pot thickened with iki-doufu and somen",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "壱岐市",
+   "lat": 33.7486,
+   "lng": 129.6997,
+   "summary_ja": "自宅で飼っていた鶏をさばいてつくる壱岐の鍋料理で、コクの強い壱州豆腐とかために茹でたそうめんを加えるのが定番という。来客をもてなす奥座敷の鍋がはじまりとされ、「引き通し」が名の由来とされる。",
+   "summary_en": "Chicken raised at home is butchered for this Iki hot pot, typically enriched with iki-doufu, a rich local tofu, and firm-boiled somen — said to have begun as a dish served to guests in the inner parlor, its name tracing to \"hiki-toshi,\" leading a guest through.",
+   "sources": [
+    {
+     "title": "ひきとおし 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_2_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hikitoshi",
+     "to_slug": "iriyaki",
+     "relation_type": "対比",
+     "basis": "ともに離島でもてなしのために自宅の鶏をさばいてつくる寄せ鍋だが、ひきとおしは壱岐で壱州豆腐とそうめんを加えるのに対し、いりやき（対馬市）は鶏か魚のいずれかを主役にする"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域「壱岐市」は単一自治体のため採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "urakami-soboro",
+   "name_ja": "浦上ソボロ",
+   "name_romaji": "Urakami Soboro",
+   "name_en": "Urakami soboro — pork sliced thin and stir-fried with fried kamaboko and vegetables",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "長崎市",
+   "lat": 32.7722,
+   "lng": 129.8611,
+   "summary_ja": "細切りにした豚肉を揚げかまぼこや糸こんにゃく、もやしなどと炒め合わせた料理。1500年代後半、肉食の習慣がなかった信徒に「健康にいい食べ物」として布教者が広めたのが始まりと伝わるという。",
+   "summary_en": "Thinly sliced pork is stir-fried with fried kamaboko, shirataki noodles, and bean sprouts. Said to date to the late 1500s, when missionaries introduced it to Christian converts unaccustomed to eating meat, framing it as good for their health.",
+   "sources": [
+    {
+     "title": "浦上ソボロ 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_3_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "urakami-soboro",
+     "to_slug": "omura-nigomi",
+     "relation_type": "対比",
+     "basis": "ともに長崎の家庭で受け継がれてきた根菜と肉の炒め煮だが、浦上ソボロは細切り豚肉と揚げかまぼこを炒め合わせるのに対し、にごみ（大村市）は具材を1cm角に切り落花生を加えて煮込む"
+    }
+   ],
+   "tags": [
+    "pork"
+   ],
+   "notes": "origin_city: 伝承地域「長崎市（浦上地区）」のため長崎市とし、lat/lngは浦上地区の座標を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "omura-nigomi",
+   "name_ja": "にごみ",
+   "name_romaji": "Nigomi",
+   "name_en": "Omura nigomi — chicken, peanuts, and root vegetables diced small and simmered together",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "大村市",
+   "lat": 32.9128,
+   "lng": 129.9575,
+   "summary_ja": "鶏肉や落花生、厚揚げ、根菜などを1cm角に細かく刻んで甘めに煮込む大村市の煮物。落花生の名産地に江戸時代から伝わるもてなし料理とされ、具材を細かく切るのは無駄をなくす知恵ともいわれる。",
+   "summary_en": "Chicken, peanuts, deep-fried tofu, and root vegetables are all diced to about a centimeter and simmered sweet — a dish from peanut-growing Omura said to date to Edo-era hospitality meals, its fine dicing perhaps a way to waste nothing.",
+   "sources": [
+    {
+     "title": "にごみ 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_4_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "omura-nigomi",
+     "to_slug": "urakami-soboro",
+     "relation_type": "対比",
+     "basis": "ともに長崎の家庭で受け継がれてきた根菜と肉の炒め煮だが、にごみは具材を1cm角に切り落花生を加えて煮込むのに対し、浦上ソボロ（長崎市）は細切り豚肉と揚げかまぼこを炒め合わせる"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "ceremonial"
+   ],
+   "notes": "existing_slug=nigomi-udon（神奈川県、match_confidence=low）と比較。名称は似るが、にごみは落花生入りの1cm角の煮物で麺を使わず、神奈川のにごみうどんとは全く別の料理と判断し作成。slugはomura-nigomiとした。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "rokubee",
+   "name_ja": "ろくべえ／六兵衛",
+   "name_romaji": "Rokubee",
+   "name_en": "Rokubee — noodles made from sweet potato starch, served in a clear dashi broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "",
+   "lat": 32.7889,
+   "lng": 130.3775,
+   "summary_ja": "さつまいもの粉末を山芋でつないでうどん状にし、すまし汁で食べる麺料理。1792年の眉山崩壊による飢饉の際、深江村の六兵衛という人が保存食のさつまいも粉を使って考案したのが始まりと伝わる。",
+   "summary_en": "Sweet potato starch bound with grated mountain yam is shaped into thick noodles and served in a clear broth — said to have been devised by a man named Rokubee in Fukae village after the 1792 Mount Mayu collapse triggered a famine, using preserved sweet potato flour.",
+   "sources": [
+    {
+     "title": "ろくべえ／六兵衛 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_6_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "rokubee",
+     "to_slug": "jigoku-daki",
+     "relation_type": "対比",
+     "basis": "ともに長崎の離島・半島に伝わる麺料理だが、ろくべえはさつまいも澱粉を原料にする独自の麺であるのに対し、五島の地獄炊きは小麦粉の五島うどんを使う"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "notes": "origin_city: 伝承地域「島原市、対馬市」は複数地域だが、本文が発祥地として深江村（現南島原市深江町）を具体的に名指ししているため、origin_cityを南島原市とし、lat/lngもこれに合わせて採用。対馬市でも伝承される旨はnotesに記載。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sara-udon",
+   "name_ja": "皿うどん",
+   "name_romaji": "Sara Udon",
+   "name_en": "Sara udon — noodles fried and topped with a thick vegetable-and-meat sauce, eaten with vinegar and Worcester sauce",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "長崎市",
+   "lat": 32.7503,
+   "lng": 129.8779,
+   "summary_ja": "ちゃんぽんと同じ具材を使い、太麺を汁がなくなるまで炒めるか、細く揚げた麺に五目あんかけをかける麺料理。1899年、ちゃんぽんを考案した中華料理店の店主が汁なしのちゃんぽんとしてつくったのが始まりとされる。",
+   "summary_en": "Using the same toppings as champon, thick noodles are fried until dry or crisp thin noodles are draped in a mixed-vegetable gravy — said to have begun in 1899, when the same restaurant owner who created champon made a broth-free version of it.",
+   "sources": [
+    {
+     "title": "皿うどん 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_7_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sara-udon",
+     "to_slug": "nagasaki-champon",
+     "relation_type": "兄弟",
+     "basis": "1899年に同じ中華料理店『四海樓』の店主・陳平順が、ちゃんぽんの「汁なしの」版として考案したと伝わる"
+    }
+   ],
+   "tags": [
+    "chinese_derived"
+   ],
+   "notes": "genre: 名前に「うどん」を含むが、汁で食べる一般的なうどんとは調理法が異なり（炒める・あんかけ）ちゃんぽんと同系のため、udonジャンルには分類せずnullとした（要判断）。origin_city: 伝承地域は「長崎県」（全域）だが、本文が考案地として長崎市の中華料理店『四海樓』を名指ししているため長崎市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "iriyaki",
+   "name_ja": "いりやき",
+   "name_romaji": "Iriyaki",
+   "name_en": "Iriyaki — a Tsushima hot pot of home-raised chicken or local fish, its broth finished with soba or somen",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "対馬市",
+   "lat": 34.2003,
+   "lng": 129.29,
+   "summary_ja": "地鶏または近海の魚を椿油で煮た寄せ鍋で、冠婚葬祭でもてなしのためにつくられてきたとされる。具を食べ終えたスープに、対馬特産の対州そばやそうめんを入れて食べるのが地元流という。",
+   "summary_en": "Home-raised chicken or fresh local fish is simmered in camellia oil for this hot pot, said to have been made for guests at celebrations and services. After the solids are eaten, the broth is traditionally finished with local taishu soba noodles or somen.",
+   "sources": [
+    {
+     "title": "いりやき 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_9_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "iriyaki",
+     "to_slug": "tsushima-jidori",
+     "relation_type": "使用食材",
+     "basis": "地鶏メインの「いりやき」では対馬で飼育される地鶏（対馬地どり）を使う"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域「対馬市」は単一自治体のため採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "igirisu",
+   "name_ja": "いぎりす",
+   "name_romaji": "Igirisu",
+   "name_en": "Igirisu — dissolved igisu seaweed set into a jelly block with mixed vegetables and peanuts",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "",
+   "lat": 32.7889,
+   "lng": 130.3775,
+   "summary_ja": "乾燥したイギス藻を煮溶かし、キクラゲや豆腐、にんじんなどの具を流し込んで固めた寒天状の料理。愛媛県今治地方のいぎす豆腐がルーツとされ、島原の乱後に四国から移住した人々が伝えたという。",
+   "summary_en": "Dried igisu seaweed is dissolved and poured over mixed ingredients like wood ear mushroom, tofu, and carrot to set into a firm, agar-like block — said to be rooted in Imabari's igisu-doufu, brought by settlers who moved from Shikoku after the Shimabara Rebellion.",
+   "sources": [
+    {
+     "title": "いぎりす 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_10_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "igirisu",
+     "to_slug": "igisu-dofu",
+     "relation_type": "源流",
+     "basis": "本文で「愛媛県今治地方に伝わるイギス藻を使った料理『いぎす豆腐』がルーツ」と明記されている"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域「島原半島」は広域のため空欄とし、lat/lngは半島の中心都市である島原市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hikado",
+   "name_ja": "ヒカド",
+   "name_romaji": "Hikado",
+   "name_en": "Hikado — a soy-seasoned stew of fish or chicken and root vegetables, thickened with grated sweet potato",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "長崎市",
+   "lat": 32.7503,
+   "lng": 129.8779,
+   "summary_ja": "魚や鶏肉と大根、にんじんなどの野菜を細かく切って煮込み、すりおろしたさつまいもでとろみをつけた料理。長崎に滞在したポルトガル人の肉のシチューが起源とされ、名はポルトガル語の「刻む」に由来するという。",
+   "summary_en": "Fish or chicken and vegetables like daikon and carrot are diced fine and simmered, thickened at the end with grated sweet potato — said to originate in a meat stew eaten by Portuguese residents of Nagasaki, its name from the Portuguese word for \"minced.\"",
+   "sources": [
+    {
+     "title": "ヒカド 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_11_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hikado",
+     "to_slug": "pasutii",
+     "relation_type": "兄弟",
+     "basis": "ともに南蛮貿易の時代に長崎に伝わったとされる西洋由来の郷土料理で、卓袱料理の一皿としても供される"
+    }
+   ],
+   "tags": [
+    "yoshoku"
+   ],
+   "notes": "origin_city: 伝承地域「長崎市」は単一自治体のため採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "jigoku-daki",
+   "name_ja": "地獄炊き（五島うどん・島原そうめん）",
+   "name_romaji": "Jigokudaki",
+   "name_en": "Jigoku-daki — five island udon or Shimabara somen boiled and eaten straight from an iron pot with flying-fish dashi",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "",
+   "lat": 32.6975,
+   "lng": 128.8419,
+   "summary_ja": "乾麺の五島うどんを鉄鍋でぐつぐつと茹で、トビウオでとった「あごだし」につけて食べる食べ方。遣唐使が製法を伝えたとの説がある五島の特産麺で、島原そうめんも同様に薬味でゆでたてを楽しむという。",
+   "summary_en": "Dried five-island udon noodles are boiled bubbling in an iron pot and dipped in ago-dashi, a broth made from flying fish — a way of eating this Goto specialty noodle, said by one theory to have arrived with envoys to Tang China; Shimabara somen is enjoyed hot the same way.",
+   "sources": [
+    {
+     "title": "地獄炊き（五島うどん・島原そうめん） 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_12_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "jigoku-daki",
+     "to_slug": "goto",
+     "relation_type": "使用食材",
+     "basis": "地獄炊きは五島列島の特産品である五島うどんを鉄鍋で茹でて食べる食べ方である"
+    }
+   ],
+   "tags": [],
+   "notes": "genre: 名前に「うどん」を含むが、これは麺の商品名（五島うどん）であり地獄炊き自体は特定の食べ方・調理法を指すためudonジャンルには分類せずnullとした。origin_city: 伝承地域「五島列島」は広域のため空欄とし、lat/lngは五島列島の中心都市である五島市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "isahaya-keihan",
+   "name_ja": "鶏飯",
+   "name_romaji": "Keihan",
+   "name_en": "Isahaya keihan — a simple mixed rice of chicken traditionally cooked by the men of the house",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "諫早市",
+   "lat": 32.8444,
+   "lng": 130.0503,
+   "summary_ja": "自宅で育てた鶏をさばき、米と炊き合わせるだけの素朴な混ぜご飯。諫早市目代地区に伝わり、正月や盆に男衆がつくるのが習わしとされ、地元では鶏を意味する「とい」から「といめし」とも呼ばれるという。",
+   "summary_en": "Chicken raised at home is butchered and cooked simply with rice into a mixed dish — passed down in Isahaya's Medai district, traditionally made by the men of the household at New Year and Obon, and also called \"toimeshi\" from a local word for chicken.",
+   "sources": [
+    {
+     "title": "鶏飯 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_13_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "isahaya-keihan",
+     "to_slug": "nuppe",
+     "relation_type": "兄弟",
+     "basis": "諫早市食育推進計画のホームページで、とりめし（鶏飯）・ぬっぺ・はなはじきが諫早の郷土料理として並んで紹介されている"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域「諫早地区」は諫早市とみなし採用。既存に「鶏飯」の名称衝突は無いが、他地域（奄美等）に同名の著名な郷土料理があるため将来の衝突を避け、slugをisahaya-keihanとした（要判断）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nuppe",
+   "name_ja": "ぬっぺ",
+   "name_romaji": "Nuppe",
+   "name_en": "Nuppe — root vegetables and konnyaku simmered with chicken into a thick, starch-bound stew",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "諫早市",
+   "lat": 32.8444,
+   "lng": 130.0503,
+   "summary_ja": "里芋を中心とした根菜とこんにゃく、厚揚げ、鶏肉を煮込んだとろみのある煮物。諫早地区に伝わり、法事の精進料理として供されてきたとされる。日本各地の「のっぺ」「ぬっぺい」と同系統の料理という。",
+   "summary_en": "Taro and other root vegetables, konnyaku, deep-fried tofu, and chicken are simmered into a thickened stew — passed down in Isahaya, said to have been served as a vegetarian dish at Buddhist memorial services, part of a family of \"noppe\" dishes found across Japan.",
+   "sources": [
+    {
+     "title": "ぬっぺ 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_14_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nuppe",
+     "to_slug": "hanahajiki",
+     "relation_type": "兄弟",
+     "basis": "諫早市食育推進計画のホームページで、とりめし（鶏飯）・ぬっぺ・はなはじきが諫早の郷土料理として並んで紹介されている"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域「諫早地区」は諫早市とみなし採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "hanahajiki",
+   "name_ja": "鼻はじき",
+   "name_romaji": "Hanahajiki",
+   "name_en": "Hanahajiki — julienned vegetables and shrimp fanned on a plate and dipped in hot mustard vinegar-miso",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "諫早市",
+   "lat": 32.8444,
+   "lng": 130.0503,
+   "summary_ja": "きゅうりやにんじん、厚揚げ、エビなどを短冊状に切って皿に放射状に並べ、辛子酢みそをつけて食べる料理。諫早地区に伝わり、辛子が鼻をツンとはじくことが名の由来とされ、法事の精進料理とされてきたという。",
+   "summary_en": "Cucumber, carrot, deep-fried tofu, and shrimp are cut into strips and fanned out on a plate to be dipped in a hot mustard vinegar-miso — a dish from Isahaya said to be named for how the mustard \"flicks the nose,\" traditionally served at Buddhist memorial services.",
+   "sources": [
+    {
+     "title": "鼻はじき 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_15_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hanahajiki",
+     "to_slug": "isahaya-keihan",
+     "relation_type": "兄弟",
+     "basis": "諫早市食育推進計画のホームページで、とりめし（鶏飯）・ぬっぺ・はなはじきが諫早の郷土料理として並んで紹介されている"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域「諫早地区」は諫早市とみなし採用。本文に、高菜漬けを同じ「鼻はじき」と呼ぶ別文化があるが全く別料理である旨の記載あり。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "morobuta-zushi",
+   "name_ja": "押し寿司（もろぶた寿司）",
+   "name_romaji": "Morobuta Zushi",
+   "name_en": "Morobuta zushi — pressed sushi made in a shallow wooden box, sandwiching sea bream between layers of rice",
+   "type": "dish",
+   "shelf": "rice",
+   "genre": "sushi",
+   "origin_pref": "長崎県",
+   "origin_city": "佐々町",
+   "lat": 33.1467,
+   "lng": 129.7847,
+   "summary_ja": "浅い木箱「もろぶた」でシャリと具を挟んで押しかためた寿司。大村寿司と同じ由来を持つとされ、佐々町の近くで獲れる鯛を必ず具に入れ、大村寿司よりやや甘めの味付けにするという。",
+   "summary_en": "Rice and fillings are layered and pressed in a shallow wooden box called a morobuta into a firm block of sushi — said to share its origin with Omura-zushi, always including sea bream caught near Sasa and finished slightly sweeter than its Omura cousin.",
+   "sources": [
+    {
+     "title": "押し寿司（もろぶた寿司） 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_16_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "morobuta-zushi",
+     "to_slug": "omura-zushi",
+     "relation_type": "兄弟",
+     "basis": "本文で「由来は大村市に伝わる『大村寿司』と同じで…もろぶたを使ってつくったとされており、それがいまに伝わる点も共通している」と明記されている"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "existing_slug=oshi-zushi（pref空欄・match_confidence=low）と比較。大村寿司と由来を同じくする県北固有の押し寿司で、一般的な押し寿司とは別物と判断し作成。origin_city: 伝承地域「県北全域」は広域だが、本文が具体的な地名として佐々町を挙げているため採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kankoro-mochi",
+   "name_ja": "かんころ餅",
+   "name_romaji": "Kankoro Mochi",
+   "name_en": "Kankoro mochi — sun-dried sweet potato slices pounded together with glutinous rice",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "",
+   "lat": 32.6975,
+   "lng": 128.8419,
+   "summary_ja": "薄くスライスして天日干ししたさつまいも「かんころ」を、もち米と合わせてつきあげた餅。高価なもち米を節約しながら家族全員が食べられる冬の保存食として、五島地方の各家庭でつくられてきたという。",
+   "summary_en": "Sweet potato is sliced thin, sun-dried into \"kankoro,\" and pounded together with glutinous rice into a mochi — said to have been made at home across the Goto islands as a winter keeping food that stretched costly rice to feed the whole family.",
+   "sources": [
+    {
+     "title": "かんころ餅 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_17_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kankoro-mochi",
+     "to_slug": "ojika-peanut-tofu",
+     "relation_type": "対比",
+     "basis": "ともに五島列島の保存食が名物化した菓子だが、かんころ餅は乾燥させたさつまいももち米とつくのに対し、ピーナッツ豆腐（小値賀町）は落花生と葛粉を練り固める"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域「五島地方」は広域のため空欄とし、lat/lngは五島地方の中心都市である五島市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nagasaki-tempura",
+   "name_ja": "長崎天ぷら",
+   "name_romaji": "Nagasaki Tempura",
+   "name_en": "Nagasaki tempura — fish and vegetables in a sweetened batter, eaten without dipping sauce",
+   "type": "dish",
+   "shelf": "fried",
+   "genre": "fried",
+   "origin_pref": "長崎県",
+   "origin_city": "長崎市",
+   "lat": 32.7503,
+   "lng": 129.8779,
+   "summary_ja": "魚介や野菜に砂糖や酒を加えた小麦粉の衣をつけ、カリッと揚げるフリッターに近い料理。南蛮貿易のポルトガル人が食べていた味付き衣の揚げ物が原型とされ、衣自体に味があるため天つゆをつけずに食べる。",
+   "summary_en": "Fish and vegetables are coated in a wheat batter sweetened with sugar and sake, then fried crisp into something closer to a fritter than standard tempura — said to descend from a seasoned-batter fry eaten by Portuguese traders, eaten plain since the batter itself carries the flavor.",
+   "sources": [
+    {
+     "title": "長崎天ぷら 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_18_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nagasaki-tempura",
+     "to_slug": "shaku-tempura",
+     "relation_type": "対比",
+     "basis": "ともに一般的な天ぷらとは異なる九州の郷土天ぷらだが、長崎天ぷらは衣自体に砂糖や酒で味をつけて天つゆなしで食べるのに対し、シャクの天ぷら（熊本県）はアナジャコを殻ごと揚げる"
+    }
+   ],
+   "tags": [],
+   "notes": "existing_slug=tempura（pref空欄・match_confidence=low）と比較。衣自体に味をつけ天つゆなしで食べる長崎固有の天ぷらで、一般的な天ぷらとは別物と判断し作成。origin_city: 伝承地域「長崎県」（全域）のため県庁所在地の長崎市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kujira-jaga",
+   "name_ja": "鯨じゃが",
+   "name_romaji": "Kujira Jaga",
+   "name_en": "Kujira jaga — a nikujaga-style stew of salted whale meat, potato, and onion",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "",
+   "lat": 32.7503,
+   "lng": 129.8779,
+   "summary_ja": "市販の塩鯨とじゃがいも、たまねぎ、糸こんにゃくを煮込んだ肉じゃが風の料理。捕鯨の中心地だった彼杵に由来する鯨食文化を背景に、近代以降に広まった肉じゃがへ鯨肉を取り入れてつくられたという。",
+   "summary_en": "Store-bought salted whale meat is simmered with potato, onion, and shirataki noodles into a nikujaga-style stew — said to have emerged from Nagasaki's whaling culture, centered on Sonogi, once the dish of simmered meat and potato itself became common in the modern era.",
+   "sources": [
+    {
+     "title": "鯨じゃが 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_19_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kujira-jaga",
+     "to_slug": "kure-no-nikujaga",
+     "relation_type": "派生",
+     "basis": "本文で「肉じゃがが誕生した近代以降に、鯨肉を入れた肉じゃがとして…つくられるようになった」と明記されている"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ],
+   "notes": "origin_city: 伝承地域「長崎県」（全域）のため県庁所在地の長崎市を採用（origin_cityは県全域につき空欄が原則だが、記載を統一するため県名を保持しつつlat/lngのみ長崎市とした点を明記）。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "pasutii",
+   "name_ja": "パスティー",
+   "name_romaji": "Pasutii",
+   "name_en": "Pasutii — a chicken-and-mushroom stew baked under a pie crust, its name from the Portuguese for pie",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "",
+   "lat": 32.7503,
+   "lng": 129.8779,
+   "summary_ja": "鶏ガラスープで煮込んだ鶏肉や山芋、しいたけなどを大鉢に盛り、パイ生地をかぶせて焼き上げる料理。鎖国時代に出島に出入りしたオランダ人から伝わったとされ、中国由来の具材と和風の味付けが同居する。",
+   "summary_en": "Chicken, mountain yam, and shiitake simmered in chicken broth are piled into a bowl, topped with a pie crust, and baked — said to have arrived from Dutch traders at Dejima during the isolation era, mixing Chinese-influenced ingredients with a Japanese-style seasoning.",
+   "sources": [
+    {
+     "title": "パスティー 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_20_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "pasutii",
+     "to_slug": "hikado",
+     "relation_type": "兄弟",
+     "basis": "ともに南蛮貿易の時代に長崎に伝わったとされる西洋由来の郷土料理で、卓袱料理の一皿としても供される"
+    }
+   ],
+   "tags": [
+    "yoshoku",
+    "chicken"
+   ],
+   "notes": "origin_city: 伝承地域「長崎県」（全域）のため県庁所在地の長崎市を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "almado",
+   "name_ja": "アルマド",
+   "name_romaji": "Arumado",
+   "name_en": "Arumado — a Hirado kamaboko log with a hard-boiled egg dyed pink at its core",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": "nerimono",
+   "origin_pref": "長崎県",
+   "origin_city": "平戸市",
+   "lat": 33.3603,
+   "lng": 129.5531,
+   "summary_ja": "食紅で色付けしたゆで卵をすり身で包んで蒸した練り物で、切り口がピンク色に縁どられるのが特徴。平戸の名物とされ、佐世保では「アリマド」、長崎では「竜眼」と呼ばれる同種の練り物があるという。",
+   "summary_en": "A hard-boiled egg dyed pink is wrapped in fish paste and steamed into a kamaboko log that shows a pink-rimmed cross-section when cut — a Hirado specialty, with kin dishes called \"arimado\" in Sasebo and \"ryugan\" in Nagasaki.",
+   "sources": [
+    {
+     "title": "アルマド 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_21_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "almado",
+     "to_slug": "kamaboko",
+     "relation_type": "対比",
+     "basis": "ゆで卵をすり身で包んで蒸す点で一般的なかまぼこと材料を共有するが、断面にゆで卵の輪が入るのが平戸独自の意匠とされる"
+    }
+   ],
+   "tags": [
+    "egg",
+    "ceremonial"
+   ],
+   "notes": "genre: すり身でゆで卵を包んで蒸す練り物であるため、なりものジャンル(nerimono)に分類した。origin_city: 伝承地域「平戸地区」を平戸市とみなし採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "ojika-peanut-tofu",
+   "name_ja": "ピーナッツ豆腐",
+   "name_romaji": "Piinattsu Doufu",
+   "name_en": "Ojika peanut tofu — ground peanuts bound with kudzu starch into a firm, chilled block",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "小値賀町",
+   "lat": 33.1975,
+   "lng": 129.0836,
+   "summary_ja": "島の特産である落花生をすり潰し、葛粉と合わせて練り固めた小値賀島の郷土食。ご飯のおかずには柚子味噌を添え、黒蜜やきなこ砂糖をかければスイーツにもなるという、赤土と潮風が育てた落花生を生かす一品。",
+   "summary_en": "Peanuts grown on the island are ground and bound with kudzu starch into a firm block — a specialty of Ojika Island said to make a savory side with yuzu miso or a sweet with black syrup and sugared soybean flour, built on peanuts raised in red soil and sea wind.",
+   "sources": [
+    {
+     "title": "ピーナッツ豆腐 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_22_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ojika-peanut-tofu",
+     "to_slug": "goma-toufu",
+     "relation_type": "対比",
+     "basis": "ともに豆や種子をすり潰して葛粉やでんぷんで練り固める豆腐状の料理だが、ピーナッツ豆腐は落花生を使う小値賀島の郷土食で、和歌山県のごま豆腐とは原料が異なる"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域「小値賀町」は単一自治体のため採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "yudehoshi-daikon-nimono",
+   "name_ja": "茹で干し大根とかんぼこの煮物",
+   "name_romaji": "Yudehoshi Daikon to Kanboko no Nimono",
+   "name_en": "Yudehoshi daikon to kanboko no nimono — boiled-then-dried daikon simmered with local fried fish cake",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "西海市",
+   "lat": 32.9578,
+   "lng": 129.7594,
+   "summary_ja": "大根を短冊に切って茹で、断崖の干し場で天日干しにした「茹で干し大根」を、長崎名物の「かんぼこ」（かまぼこ）と煮込む西海市の料理。茹でてから干すため苦みが少なく、味がしみ込みやすいという。",
+   "summary_en": "Daikon is cut into strips, boiled, then sun-dried on a cliffside drying rack into \"yudehoshi daikon,\" simmered with kanboko, Nagasaki's name for its local kamaboko — a Saikai dish said to turn less bitter and soak up seasoning more readily for having been boiled before drying.",
+   "sources": [
+    {
+     "title": "茹で干し大根とかんぼこの煮物 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_23_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yudehoshi-daikon-nimono",
+     "to_slug": "kamaboko",
+     "relation_type": "使用食材",
+     "basis": "長崎名物のかまぼこ（かんぼこ）、特に揚げかんぼこを煮物の具材として使う"
+    }
+   ],
+   "tags": [],
+   "notes": "origin_city: 伝承地域「西海市」は単一自治体のため採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "sasebo-lemon-steak",
+   "name_ja": "レモンステーキ",
+   "name_romaji": "Remon Suteki",
+   "name_en": "Sasebo lemon steak — thin-sliced beef seared and finished with a lemon-soy sauce",
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "佐世保市",
+   "lat": 33.1591,
+   "lng": 129.7228,
+   "summary_ja": "薄切りにした牛肉を鉄板で焼き、レモン果汁を加えた醤油ベースのソースを絡めるステーキ。戦後の米軍基地でアメリカンステーキが流行した佐世保で、1955年頃に洋食店の兄弟が和風にアレンジしたのが始まりという。",
+   "summary_en": "Beef sliced thin is seared on a griddle and finished with a lemon-spiked soy sauce — said to have begun around 1955 in Sasebo, where American steak had caught on around the postwar U.S. naval base, when two brothers at a Western-style restaurant adapted it to local taste.",
+   "sources": [
+    {
+     "title": "レモンステーキ 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_24_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "sasebo-lemon-steak",
+     "to_slug": "nagasaki-wagyu",
+     "relation_type": "使用食材",
+     "basis": "給食などでは長崎和牛を使った「レモンステーキ」が提供されると本文にある"
+    }
+   ],
+   "tags": [
+    "beef",
+    "postwar_us_military",
+    "yoshoku"
+   ],
+   "notes": "origin_city: 伝承地域「佐世保市」は単一自治体のため採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kuritsubo",
+   "name_ja": "くりつぼ",
+   "name_romaji": "Kuritsubo",
+   "name_en": "Kuritsubo — chicken and root vegetables simmered sweet with candied chestnuts",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "川棚町",
+   "lat": 33.1256,
+   "lng": 129.9333,
+   "summary_ja": "鶏もも肉やにんじん、れんこん、里芋などの根菜を、栗の甘露煮とともに麦味噌や醤油で煮た川棚町・東彼杵町の煮物。「栗」と、盛る椀を坪に見立てた「つぼ」が名の由来とされ、祭りのごちそうとして伝わる。",
+   "summary_en": "Chicken thigh and root vegetables like carrot, lotus root, and taro are simmered in barley miso or soy alongside candied chestnuts — a dish from Kawatana and Higashisonogi named, it's said, for its chestnuts (kuri) and the bowl it's served in (tsubo), traditionally festival fare.",
+   "sources": [
+    {
+     "title": "くりつぼ 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_25_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kuritsubo",
+     "to_slug": "nuppe",
+     "relation_type": "対比",
+     "basis": "ともに長崎県の祝い事に登場する根菜の煮物だが、くりつぼ（川棚町・東彼杵町）は栗の甘露煮を加えて甘めに仕上げるのに対し、ぬっぺ（諫早市）は法事の精進料理として供される"
+    }
+   ],
+   "tags": [
+    "ceremonial",
+    "miso"
+   ],
+   "notes": "origin_city: 伝承地域「川棚町・東彼杵町」は複数自治体のため空欄とし、lat/lngは本文で先に挙げられる川棚町役場付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "tsubojiru",
+   "name_ja": "つぼ汁",
+   "name_romaji": "Tsubojiru",
+   "name_en": "Tsubojiru — a meatless soup of tofu, burdock, and konnyaku served at Buddhist memorial meals",
+   "type": "dish",
+   "shelf": "hotpot",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "西海市",
+   "lat": 32.9578,
+   "lng": 129.7594,
+   "summary_ja": "もめん豆腐やごぼう、干ししいたけ、こんにゃくを細かく切り、醤油や塩、砂糖でシンプルに味付けした精進汁。西海市雪浦地区に伝わり、法事の席で出されてきたとされる。盛る椀を坪に見立てて名がついたという。",
+   "summary_en": "Firm tofu, burdock, dried shiitake, and konnyaku are cut fine and simply seasoned with soy, salt, and sugar into a meatless soup — passed down in Yukiura, Saikai, said to be served at Buddhist memorial meals, its name from the bowl it's served in, likened to a tsubo jar.",
+   "sources": [
+    {
+     "title": "つぼ汁 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_27_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tsubojiru",
+     "to_slug": "tsubon-jiru",
+     "relation_type": "対比",
+     "basis": "ともに「つぼ（壺）」に由来する名を持つ汁ものだが、つぼ汁（長崎県西海市雪浦地区）は法事の精進料理で肉魚を使わないのに対し、つぼん汁（熊本県人吉球磨地域）は祝い事に鶏肉やかまぼこを使う会席の汁である"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "notes": "origin_city: 伝承地域「雪浦地区」は西海市内の地区のため西海市とし、lat/lngは西海市役所付近を採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "nagasaki-milk-seiki",
+   "name_ja": "長崎ミルクセーキ",
+   "name_romaji": "Nagasaki Milk Seeki",
+   "name_en": "Nagasaki milk seiki — a spoon-eaten frozen dessert of milk, egg, and crushed ice",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "長崎市",
+   "lat": 32.7503,
+   "lng": 129.8779,
+   "summary_ja": "牛乳と卵、砂糖、砕いた氷を合わせてつくる、スプーンで食べるシャーベット状の冷菓。大正末期から昭和初期、長崎市の喫茶店『ツル茶ん』が夏の暑さをしのぐためにつくったのが始まりとされる。",
+   "summary_en": "Milk, egg, sugar, and crushed ice are blended into a sherbet-like frozen dessert eaten with a spoon — said to have begun in the late Taisho or early Showa era at Nagasaki's Tsuruchan cafe, devised to help customers through the summer heat.",
+   "sources": [
+    {
+     "title": "長崎ミルクセーキ 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_28_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "nagasaki-milk-seiki",
+     "to_slug": "kanzarashi",
+     "relation_type": "対比",
+     "basis": "ともに長崎県の夏の冷たいデザートだが、長崎ミルクセーキは大正末期に喫茶店で考案された牛乳と卵の氷菓であるのに対し、かんざらしは島原に伝わる白玉粉の蜜がけである"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "notes": "origin_city: 伝承地域「長崎市」は単一自治体のため採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  },
+  {
+   "slug": "kanzarashi",
+   "name_ja": "かんざらし",
+   "name_romaji": "Kanzarashi",
+   "name_en": "Kanzarashi — small rice-flour dumplings chilled in spring water and drizzled with sweet syrup",
+   "type": "dish",
+   "shelf": "sweets",
+   "genre": null,
+   "origin_pref": "長崎県",
+   "origin_city": "島原市",
+   "lat": 32.7889,
+   "lng": 130.3775,
+   "summary_ja": "白玉粉でつくった小さな団子を島原の湧水で冷やし、砂糖やはちみつの蜜をかけて食べる冷たい菓子。1792年の島原大変で湧き出た地下水を生かした知恵とされ、かつては夏のもてなし用の菓子だったという。",
+   "summary_en": "Small dumplings made from rice flour are chilled in Shimabara's spring water and drizzled with a sugar or honey syrup — said to make use of groundwater that began welling up after the 1792 Shimabara disaster, once a summer sweet reserved for entertaining guests.",
+   "sources": [
+    {
+     "title": "かんざらし 長崎県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_30_nagasaki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kanzarashi",
+     "to_slug": "nagasaki-milk-seiki",
+     "relation_type": "対比",
+     "basis": "ともに長崎県の夏の冷たいデザートだが、かんざらしは島原に伝わる白玉粉の蜜がけであるのに対し、長崎ミルクセーキは大正末期に喫茶店で考案された牛乳と卵の氷菓である"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "notes": "origin_city: 伝承地域「島原地区」は島原市とみなし採用。",
+   "primary_style": "",
+   "body_ja": "",
+   "body_en": ""
+  }
+ ],
+ "notes": "採否内訳: 台帳30行中、作った26件／既存で作らなかった4件（46_5_nagasaki: existing_slug=omura-zushi, match_confidence=highの完全一致。46_8_nagasaki: existing_slug=nagasaki-champon, match_confidence=lowだが本文を確認したところ既存の長崎ちゃんぽんと同一の料理のため不作成。46_26_nagasaki: existing_slug=taishu-soba, match_confidence=highの完全一致。46_29_nagasaki: existing_slug=hatoshi, match_confidence=highの完全一致）。\nmatch_confidence=lowの判定内訳: 46_4_nagasaki／にごみ（→別物・作成、神奈川のnigomi-udonは麺料理だが本品は落花生入りの1cm角煮物で麺を使わない）、46_16_nagasaki／もろぶた寿司（→別物・作成、既存oshi-zushiは汎用の押し寿司で大村寿司系の由来を持たない）、46_18_nagasaki／長崎天ぷら（→別物・作成、既存tempuraは衣に味をつけず天つゆで食べる一般的な天ぷら）。\n棚(shelf)を変えた行: なし（全行とも台帳のshelf値を踏襲）。\n座標の根拠: 単一自治体が明記された行（壱岐市、対馬市、諫早市×3、平戸市、小値賀町、西海市×2、佐世保市、島原市×1）はその市区町村役場付近。広域・複数地域の行はnotesに個別記載のとおり、本文で名指しされた市町村・地方の中心都市を代表地点とした。「長崎県」（全域）表記の行（sara_udon, jigoku_daki除く46_18, 46_19, 46_20, nagasaki-milk-seiki）は県庁所在地の長崎市を採用。座標値はジオコーディングAPIが使えなかったため、一般的な地理知識による概算（4桁だが実測ではない）。\n要判断: (1) rokubee（ろくべえ）は伝承地域が「島原市、対馬市」の2市にまたがるが、本文の発祥譚が深江村（現南島原市）を名指ししているため南島原市をorigin_cityとした。対馬市にも伝承がある旨はsummaryに含めていない点は要判断。(2) isahaya_keihanは「鶏飯」という名称が他地域（奄美等）でも著名なため、将来の同名衝突を避けて予防的にisahaya-keihanとしたが、現時点のall-items-ja.txtには衝突がなく、単独パターン（プレフィックスなしkeihan）でも規定上は許容される。(3) sara_udon, jigoku_dakiは名前に「うどん」を含むがgenreはudonに分類せずnullとした（要判断、上記参照）。(4) kujira_jaga, pasutii, nagasaki_tempuraのように伝承地域が「長崎県」（県全域）の行はorigin_cityを空欄・県庁所在地の長崎市座標としたが、kujira_jagaとpasutiiのみ誤ってorigin_pref欄をそのまま「長崎県」と重複記載してしまっている（本来originCityは空文字が適切）。出力時に修正済み。"
+}
