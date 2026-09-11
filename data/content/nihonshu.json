@@ -1,0 +1,1138 @@
+{
+ "genres": [
+  {
+   "slug": "nihonshu",
+   "name_ja": "日本酒",
+   "name_en": "Nihonshu (sake)",
+   "type": "ingredient",
+   "shelf": "sake",
+   "intro_ja": "日本酒は米・水・麹・酵母だけから生まれる醸造酒で、「米をいかに美味しく食べるか」という日本食の問いを、粒のまま炊く代わりに醸すという形で答えたものとも言える。精米歩合や麹の造り方、酒母の起こし方で味の骨格が決まり、水の硬度や気候、杜氏という職人集団の移動が、土地ごとの酒質を分けてきたとされる。ここでは銘柄ではなく、型・技法・産地の水と気候という、飲む前に知ると一口が変わる構造を辿る。",
+   "intro_en": "Nihonshu is a brewed drink made from nothing but rice, water, koji mold, and yeast — a different answer to the same question Japanese food keeps asking about rice: how best to make it delicious, this time by fermenting the grain rather than steaming it whole. How far the rice is polished, how the koji is built, and how the starter mash is raised all shape the backbone of the flavor, while a region's water hardness, climate, and traveling guilds of brewers are said to have split sake into distinct local styles. This section follows not individual brands but the types, techniques, and the water and climate behind each producing region — the structure worth knowing before the first sip."
+  }
+ ],
+ "items": [
+  {
+   "slug": "junmai",
+   "name_ja": "純米酒",
+   "name_romaji": "Junmai-shu",
+   "name_en": "Junmai — sake brewed from rice, koji, and water alone",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "米と米麹と水だけで造られ、醸造アルコールを加えない清酒。副原料に頼らない分、米そのものの旨みと重さがそのまま酒質に出るとされ、精米歩合の一律の基準は法律上は定められていない、特定名称の中でも最も原初的な区分とされる。",
+   "summary_en": "Sake made from nothing but rice, koji, and water, with no added brewing alcohol. Without that extra ingredient to lean on, the rice's own richness and weight are said to come through directly, and the law sets no fixed milling requirement — the most rice-forward of the officially defined categories.",
+   "body_ja": "## 何でできているか\n原料は米・米麹・水のみで、醸造アルコールは一滴も加えない。副原料に頼らない分、米の品種や精米の仕方の違いがそのまま味に出やすいとされ、ふくよかな米の旨みとやや重めの口当たり、飲み込んだ後にじんわり残る余韻を持つ酒が多いという。米だけで醸すからこそ出る「米の個性」を楽しむ酒とも言われ、燗をつけても味が崩れにくいとされる。\n## どう作るのか\n精米歩合に法律上の一律の基準は無く、七割前後まで磨く蔵が多いとされるが、麹米だけは白米重量の15%以上を占めなければならないと定められている。醸造アルコールで味を軽くしたり雑味を整えたりする手立てが無いため、もろみの温度管理や搾りの見極めに、蔵ごとの技量と癖がそのまま表れるとされる。仕込み水の質や麹の造り方の違いも、味の骨格を左右する要因になるという。\n## なぜこの形になったのか\nかつて清酒には醸造アルコールを加えた酒が広く流通しており、米だけで造る酒はむしろ少数派だったとされる。1989年の特定名称の整理で「純米酒」が独立した区分として定められたと伝わり、米だけで醸すという最も古い酒の姿へ立ち返る名称として選ばれたとされる。以後、米の個性を前面に出す酒として扱われるようになったという。冷やしても燗をつけても輪郭が保たれる懐の広さが、支持を広げた一因とも言われる。",
+   "body_en": "## What it's made of\nThe only ingredients are rice, koji, and water — not a drop of added brewing alcohol. Without that extra ingredient to fall back on, differences in rice variety and milling are said to come through directly in the cup, often giving a fuller rice sweetness, a somewhat heavier body, and a finish that lingers after swallowing. It's described as a sake for tasting the character of rice itself, precisely because rice is all there is, and is said to hold up well when warmed.\n## How it's made\nThe law sets no fixed milling ratio for this category, though many breweries polish down to around 70%, and the koji rice alone must make up at least 15% of the total rice by weight. With no added alcohol available to lighten the profile or smooth out rough notes, how a brewery manages the mash's temperature and times the pressing is said to show through directly, quirks and all. The quality of the brewing water and how the koji itself is built are also said to shape the sake's backbone.\n## Why it took this shape\nSake cut with added brewing alcohol was once the more common style on the market, and rice-only sake is said to have actually been the minority style for a time. Junmai is said to have been set apart as its own official category only when the naming system was reorganized in 1989, the name chosen as a return to sake's oldest form — brewed from rice alone. The category has since been treated as the one that puts a rice's own character front and center, and its breadth — holding its shape whether served cold or warmed — is said to be part of why it caught on.",
+   "sources": [
+    {
+     "title": "日本酒の分類",
+     "url": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "junmai",
+     "to_slug": "junmai-ginjo",
+     "relation_type": "対比",
+     "basis": "精米歩合に一律の基準が無い純米酒と、60%以下の基準を持つ純米吟醸酒の違い（日本酒造組合中央会「日本酒の分類」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "junmai-ginjo",
+   "name_ja": "純米吟醸酒",
+   "name_romaji": "Junmai Ginjo-shu",
+   "name_en": "Junmai ginjo — rice-only sake milled to 60% or less",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "精米歩合60%以下まで磨いた米だけで、醸造アルコールを加えずに造る清酒。吟醸造りと呼ばれる低温でゆっくり発酵させる仕込みにより、果物のような香りが立ちながらも、米の旨みは純米酒に近く残るとされる。",
+   "summary_en": "Sake made purely from rice milled down to 60% or less, with no added alcohol. Fermented slowly at low temperature under what's called ginjo brewing, the style is said to bring out fruit-like aromas while keeping the rice sweetness close to that of junmai.",
+   "body_ja": "## 何でできているか\n米・米麹・水のみで、精米歩合60%以下まで磨いた米を使う。表層のたんぱく質や脂肪分を削り落とすことで雑味の元が減り、吟醸造り特有のリンゴや洋梨を思わせる香りが立ちやすくなるという。純米酒の米の旨みと、吟醸酒の華やかな香りの両方を狙った、比較的新しい区分とされる。冷やして小さな杯で香りを確かめながら飲む楽しみ方に向くという。\n## どう作るのか\n「吟醸造り」と呼ばれる、通常より低温で長い時間をかけてもろみを発酵させる技法を用いる。低温でゆっくり発酵させることで、酵母が作る香り成分が飛ばずに酒の中に残りやすいとされ、雑味を抑えた澄んだ味わいに仕上がるという。麹米も高い精白度で仕込まれ、雑味の元をあらかじめ減らす工夫がなされるとされ、仕込みには通常より長い日数がかかるという。\n## なぜこの形になったのか\n1989年の特定名称の整理で、精米歩合60%以下・醸造アルコール無添加という基準が定められたと伝わる。醸造アルコールを加える吟醸酒に対し、米だけで同じ香りの高さを出そうとした区分として設けられたとされ、以後、香りと米の旨みを両立させる酒として、贈答や特別な席でも選ばれるようになったという。純米酒の系統の中では比較的新しい顔にあたるとされ、燗にはあまり向かないという見方もある。",
+   "body_en": "## What it's made of\nOnly rice, koji, and water go in, and the rice is milled down to 60% or less of its original size. Polishing away the outer protein and fat is said to strip out sources of off-flavor and let through the apple- or pear-like aromas typical of ginjo brewing. The category aims for both the rice sweetness of junmai and the fragrance of ginjo at once, and is considered a relatively recent addition to the naming system.\n## How it's made\nIt's fermented using what's called ginjo brewing — a slower mash held at a lower temperature than usual. Because the yeast works more gradually at low temperature, aromatic compounds are said to stay in the sake rather than boiling off, giving a clean profile with little off-flavor. The koji rice itself is also polished to a high degree, said to be a further step toward heading off off-flavors before fermentation even starts, and the whole process is said to take noticeably longer than an ordinary brew.\n## Why it took this shape\nThe 60%-or-less milling standard with no added alcohol is said to have been set when the naming system was reorganized in 1989. Unlike ginjo, which allows added brewing alcohol, this category is said to have been created to chase the same aromatic lift using rice alone, and has since been treated as a style suited to gifts and special occasions, holding fragrance and rice sweetness together at once — a relatively recent face within the junmai family.",
+   "sources": [
+    {
+     "title": "日本酒の分類",
+     "url": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "junmai-ginjo",
+     "to_slug": "junmai-daiginjo",
+     "relation_type": "対比",
+     "basis": "精米歩合60%以下の純米吟醸酒と、50%以下の純米大吟醸酒の違い（日本酒造組合中央会「日本酒の分類」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "junmai-daiginjo",
+   "name_ja": "純米大吟醸酒",
+   "name_romaji": "Junmai Daiginjo-shu",
+   "name_en": "Junmai daiginjo — rice-only sake milled to 50% or less",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "精米歩合50%以下まで磨いた米だけで造る清酒。米粒の半分以上を削り落とすため雑味が少なく、吟醸造りの低温発酵と合わさって際立った香りが出るとされる、特定名称の中でも最も磨き込みの深い区分。",
+   "summary_en": "Sake made from rice alone, milled down to 50% or less of its original size — over half the grain polished away, leaving little off-flavor and, combined with slow low-temperature fermentation, a pronounced aroma. Considered the deepest-milled of the officially defined categories.",
+   "body_ja": "## 何でできているか\n米・米麹・水のみで、精米歩合50%以下まで磨いた米を使う。米粒の外側半分以上を削り落とすことで、雑味の元になるたんぱく質や脂肪分がほぼ取り除かれ、香り高く澄んだ酒質になりやすいとされる。特定名称の中でも最も削り込みが深い区分にあたり、磨く前の米粒の面影はほとんど残らないという。贈答や祝いの席で選ばれることが多いとされる。\n## どう作るのか\n吟醸造りの技法で、通常より低い温度を保ちながら長い時間をかけてもろみを発酵させる。米を深く磨くほど麹造りともろみ管理が難しくなるとされ、削り込んだ小さな米粒は割れやすく、蒸し方や麹の付き方に細かな調整が要るという。醸造アルコールを一切使わないため、味の輪郭は米と麹の状態だけで決まるとされ、蔵ごとの個性が出やすい造りとも言われる。\n## なぜこの形になったのか\n精米技術の向上により米をより深く磨けるようになったことが、この区分を可能にしたとされる。1989年の特定名称の整理で精米歩合50%以下・醸造アルコール無添加という基準が定められ、より深く磨くほど雑味が減るという経験則を、米だけで醸す純米酒の系統でも追い求めた結果として生まれた区分と伝わる。特定名称の中では最も遅れて広まった顔とも言われ、今では専門店で扱われることも増えたという。",
+   "body_en": "## What it's made of\nOnly rice, koji, and water go in, with the rice milled down to 50% or less of its original size. Polishing away more than half the grain removes most of the protein and fat that can cause off-flavors, tending to leave a fragrant, clean profile — the deepest level of milling among the officially defined categories, leaving barely a trace of the grain's original shape. It's often the bottle chosen for gifts and celebrations.\n## How it's made\nGinjo brewing techniques hold the mash at a lower temperature for longer than usual. The more deeply the rice is polished, the harder koji-making and mash management are said to become, and handling such small, worn-down grains calls for finer adjustments to steaming and koji growth. With no brewing alcohol added at all, the sake's outline is said to be shaped entirely by the rice and koji themselves, letting each brewery's individual touch show through.\n## Why it took this shape\nImprovements in rice-milling technology are said to have made this level of polishing possible in the first place. The 50%-or-less standard with no added alcohol was set in the 1989 reorganization, and the category is said to have emerged from chasing the same rule of thumb — deeper polishing, less off-flavor — even within the rice-only junmai line, arriving as one of the later additions to the naming system.",
+   "sources": [
+    {
+     "title": "日本酒の分類",
+     "url": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "honjozo",
+   "name_ja": "本醸造酒",
+   "name_romaji": "Honjozo-shu",
+   "name_en": "Honjozo — sake milled to 70% or less with a touch of added alcohol",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "精米歩合70%以下の米に、白米重量の10%以下という上限で醸造アルコールを少量加えて造る清酒。香りが軽くなり、すっきりとした後味になりやすいとされ、特定名称酒の中では最も精米基準がゆるい入り口の区分とされる。",
+   "summary_en": "Sake made from rice milled to 70% or less, with a small, capped amount of brewing alcohol added — no more than 10% of the white rice's weight — said to lighten the aroma and leave a crisper finish. Considered the most accessible entry point among the officially defined categories.",
+   "body_ja": "## 何でできているか\n米・米麹・水に加え、白米重量の10%以下という上限つきで醸造アルコールを添加する。純米酒に比べると米の重さが軽くなり、香りも穏やかですっきりとした後味になりやすいとされる。特定名称酒の中では最も精米歩合の基準がゆるい区分にあたり、日常の食中酒として選ばれることが多いという。燗をつけても風味が崩れにくいとも言われる。\n## どう作るのか\n精米歩合70%以下まで磨いた米を使い、もろみを搾る直前の段階で醸造アルコールを加える。アルコールを加えることで香り成分が引き出されやすくなり、雑味の少ないすっきりとした酒質に仕上がるとされる。添加量の上限は白米重量の10%以下と法律で厳密に定められており、これを超えると別の分類の酒になるという。原料表示にはこの添加が明記される。\n## なぜこの形になったのか\n醸造アルコールの添加自体は、戦中戦後の米不足の時代に量を増やす目的で広がったとされるが、1989年の特定名称の整理で、添加量の上限と精米基準を満たすものだけが「本醸造酒」と呼べるようになったと伝わる。量を水増しする手立てから、香りとキレを整える技法へと位置づけが変わったとされ、今も広く流通する区分だといい、価格を抑えた晩酌向けの酒としても親しまれている。",
+   "body_en": "## What it's made of\nAlong with rice, koji, and water, a small amount of brewing alcohol is added, capped at no more than 10% of the white rice's weight. Compared to junmai, the body is said to be lighter and the aroma milder, often finishing crisper — this category is often chosen as an everyday sake to drink alongside food, and is said to hold its flavor well when warmed.\n## How it's made\nThe rice is milled to 70% or less, and brewing alcohol is added just before the mash is pressed. Adding alcohol is said to help draw out aromatic compounds, giving a cleaner profile with less off-flavor. The upper limit — no more than 10% of the white rice's weight — is set precisely by law, and going beyond it pushes the sake into a different category altogether; the label is required to note the addition.\n## Why it took this shape\nAdding brewing alcohol is said to have spread as a way to stretch limited rice supplies during and after the war. Only sake meeting both the milling standard and the capped addition rate came to be called honjozo once the naming system was reorganized in 1989 — the practice's role is said to have shifted from padding out volume to shaping aroma and crispness, and it remains one of the most widely sold categories today.",
+   "sources": [
+    {
+     "title": "日本酒の分類",
+     "url": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "honjozo",
+     "to_slug": "ginjo",
+     "relation_type": "対比",
+     "basis": "精米歩合70%以下の本醸造酒と、60%以下で吟醸造りを施す吟醸酒の違い（日本酒造組合中央会「日本酒の分類」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "ginjo",
+   "name_ja": "吟醸酒",
+   "name_romaji": "Ginjo-shu",
+   "name_en": "Ginjo — alcohol-added sake milled to 60% or less",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "精米歩合60%以下まで磨いた米に醸造アルコールを加え、低温でゆっくり発酵させる清酒。果実を思わせる香りが立ちやすく、軽やかな口当たりになるとされ、香りを競う品評会の中で磨かれてきた技法という側面も持つ。",
+   "summary_en": "Sake made from rice milled to 60% or less, with brewing alcohol added and the mash fermented slowly at low temperature — said to bring out fruit-like aromas and a light body, a technique honed partly through competitions judged on fragrance.",
+   "body_ja": "## 何でできているか\n精米歩合60%以下まで磨いた米に、醸造アルコールを加えて造る。純米吟醸酒と磨きの基準は同じだが、アルコールを加える分、香りがより引き立ち、口当たりは軽くなりやすいとされる。りんごや洋梨を思わせる吟醸香が特徴とされ、冷やして小さな杯でゆっくり味わう飲み方に向くという。純米吟醸酒に比べ価格が抑えられる傾向もあるとされる。\n## どう作るのか\n吟醸造りと呼ばれる、通常より低温・長期でもろみを発酵させる技法を用いる。低温でゆっくり発酵させることで、酵母が作る香り成分が失われにくくなるとされ、搾る直前に加える醸造アルコールが、その香りをさらに引き出す働きをするという。仕込みには手間と時間がかかり、少量生産にとどまりやすいとされる。麹の出来が仕上がりを大きく左右するという。\n## なぜこの形になったのか\n吟醸造りという技法自体は、精米技術の向上と鑑評会向けの高度な仕込みの中で磨かれてきたとされ、1989年の分類整理で精米歩合60%以下・醸造アルコール添加という基準が定められたと伝わる。香りの高さを競う品評会向けの技術が、そのまま一つの特定名称として制度化されたとされ、今では贈答用としても定着したといい、季節限定品として出す蔵も少なくないとされている。",
+   "body_en": "## What it's made of\nRice milled to 60% or less has brewing alcohol added to it. The milling standard matches junmai ginjo, but the added alcohol is said to lift the aroma further and lighten the body. An apple- or pear-like ginjo fragrance is considered the hallmark, and the style is said to suit slow sipping from a small cup, served chilled. It tends to be priced a little below its junmai ginjo counterpart.\n## How it's made\nGinjo brewing ferments the mash at a lower temperature over a longer stretch than usual. Slow, cool fermentation is said to preserve the aromatic compounds the yeast produces, and the brewing alcohol added just before pressing is said to help draw that fragrance out further. The extra time and labor involved are said to keep output relatively small, and how the koji turns out is said to shape the whole result.\n## Why it took this shape\nGinjo brewing itself is said to have been refined alongside improving rice-milling technology and the elaborate mashes built for tasting competitions, and the 60%-or-less milling with added alcohol became the formal standard when the naming system was reorganized in 1989 — a technique built for competitions judged on fragrance, formalized into its own named category and now a fixture as a gift bottle too.",
+   "sources": [
+    {
+     "title": "日本酒の分類",
+     "url": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ginjo",
+     "to_slug": "daiginjo",
+     "relation_type": "対比",
+     "basis": "精米歩合60%以下の吟醸酒と、50%以下の大吟醸酒の違い（日本酒造組合中央会「日本酒の分類」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "daiginjo",
+   "name_ja": "大吟醸酒",
+   "name_romaji": "Daiginjo-shu",
+   "name_en": "Daiginjo — alcohol-added sake milled to 50% or less",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "精米歩合50%以下まで磨いた米に醸造アルコールを加えて造る清酒。特定名称酒の中でも最も磨き込みが深く、際立った香りと軽い口当たりを狙った、鑑評会向けの高度な仕込み技術から生まれた造りとされる。",
+   "summary_en": "Sake made from rice milled to 50% or less with brewing alcohol added — among the officially defined categories, the deepest level of milling, aimed at a pronounced aroma and light body, born of elaborate brewing techniques honed for tasting competitions.",
+   "body_ja": "## 何でできているか\n精米歩合50%以下まで磨いた米に、醸造アルコールを加える。米粒の半分以上を削り落とし、さらにアルコールを添加することで、雑味を極力抑えながら華やかな香りを引き出す造りとされる。特定名称酒の中で最も手間のかかる区分とされ、贈答用や特別な席の酒として選ばれることが多いという。冷やしてワイングラスで香りを楽しむ飲み方も広まっているとされる。\n## どう作るのか\n吟醸造りの技法で、低温を保ちながら長い時間をかけてもろみを発酵させる。深く磨いた小さな米粒は割れやすく扱いが難しいとされ、麹造りやもろみの温度管理により繊細な調整が求められるという。搾る直前のアルコール添加が、香りをさらに立たせる役割を持つとされ、少量ずつ丁寧に仕込む蔵が多いという。仕込みから出荷まで一年近くを要することもあるという。\n## なぜこの形になったのか\n精米技術の向上により米をより深く磨けるようになったことが、この区分を可能にしたとされる。1989年の分類整理で精米歩合50%以下・醸造アルコール添加という基準が定められ、鑑評会で香りの高さを競う中で磨かれてきた高度な仕込み技術が、そのまま最上位の特定名称として制度化されたと伝わる。海外でも評価される区分になったといい、蔵の看板として扱われることが多いという。",
+   "body_en": "## What it's made of\nRice milled to 50% or less has brewing alcohol added. With more than half the grain polished away and alcohol added on top, the aim is said to be a fragrant, showy aroma with as little off-flavor as possible — considered the most labor-intensive of the officially defined categories, and often chosen for gifts or special occasions. Serving it chilled in a wine glass has also become a common way to catch the aroma.\n## How it's made\nGinjo brewing holds the mash at a low temperature over a long stretch. Rice polished this deeply is said to be small and prone to cracking, calling for delicate handling in koji-making and mash temperature control, while the alcohol added just before pressing is said to lift the aroma further still. Many breweries are said to brew it in small, carefully tended batches, and the process from mashing to release can take close to a year.\n## Why it took this shape\nImprovements in rice-milling technology are said to have made this level of polishing possible in the first place. The 50%-or-less standard with added alcohol was set in the 1989 reorganization, formalizing into the top-tier named category the elaborate technique that had been honed through competitions judged on fragrance, a category said to have gone on to earn a following overseas as well.",
+   "sources": [
+    {
+     "title": "日本酒の分類",
+     "url": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "daiginjo",
+     "to_slug": "junmai-daiginjo",
+     "relation_type": "対比",
+     "basis": "醸造アルコールを加える大吟醸酒と、加えない純米大吟醸酒の違い（日本酒造組合中央会「日本酒の分類」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "kimoto",
+   "name_ja": "生酛",
+   "name_romaji": "Kimoto",
+   "name_en": "Kimoto — sake starter built on wild lactic bacteria",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "乳酸を人工的に添加せず、蔵や周囲の自然にすむ天然の乳酸菌を取り込んで酒母を育てる、清酒で最も古いとされる造り方。米をすり潰す「山卸し」という重労働を伴い、力強く複雑な酸味を持つ酒に仕上がるとされる。",
+   "summary_en": "The oldest surviving way of raising a sake starter mash, relying on wild lactic bacteria native to the brewery rather than adding lactic acid artificially. It involves a grueling task called yamaoroshi, pounding steamed rice by hand, and is said to yield a robust, complex acidity.",
+   "body_ja": "## 何でできているか\n生酛系の酒母は、あらかじめ乳酸を加えず、蔵や周囲の自然に生息する天然の乳酸菌を取り込んで育てる。発酵の初期は野生酵母が優勢だが、数日ほどで乳酸菌が主導権を握り、雑菌や野生酵母を締め出していくとされる。この過程で生まれる複雑な酸味と骨格の強さが、生酛らしい重厚な味わいの元になるという。燗をつけると米の旨みがさらに開くとされる。\n## どう作るのか\n半切桶に仕込んだ酒母に、荒い櫂を入れてすり潰す「山卸し」という作業を、寒い夜中に何度も繰り返す。米のでんぷんを麹の酵素で糖化しやすくするための工程だが、非常に繊細な力加減を要する重労働だったとされ、後にこの手間を省く山廃酛が編み出される元になったという。仕込みの期間も速醸系より長くかかり、蔵人の経験と勘が仕上がりを左右するとされる。\n## なぜこの形になったのか\n乳酸を人工的に添加する技術が確立する以前は、この天然の乳酸菌任せの造り方が酒母の基本形だったと伝わる。手間と時間のかかる山卸しは、酒質の安定と引き換えに蔵人へ重労働を強いる工程であり、その負担の大きさが、後の速醸系酒母や山廃酛が生まれる背景になったとされ、現在も一部の蔵がこの技法を守り続けており、手仕事の価値として語られることが多いという。",
+   "body_en": "## What it's made of\nA kimoto starter is raised without adding lactic acid ahead of time — instead it relies on wild lactic bacteria already living in and around the brewery. Wild yeast dominates in the first few days, but the lactic bacteria are said to take over within about five days, crowding out contaminants and stray yeast. The complex acidity and firm backbone this process leaves behind are said to be the source of kimoto's characteristically weighty flavor, and warming it is said to open up the rice's sweetness further.\n## How it's made\nBrewers repeatedly pound the starter mash in a half-cut tub with a coarse oar, a task called yamaoroshi, often through the cold of night. It helps the koji's enzymes break the rice's starch down into sugar, but the work demands a very delicate touch and was gruelingly physical — a burden that's said to have eventually led to the yamahai method, which drops this step. The whole process is also said to take longer than the faster sokujo method.\n## Why it took this shape\nBefore techniques for adding lactic acid artificially existed, this reliance on wild bacteria is said to have been the basic form every starter mash took. The labor-intensive yamaoroshi bought stability in the finished sake at the cost of grueling nights for the brewery workers, and that very burden is said to be the backdrop against which both the faster sokujo method and the yamahai method were later born. A handful of breweries are said to still keep the technique alive today.",
+   "sources": [
+    {
+     "title": "日本酒用語集",
+     "url": "https://japansake.or.jp/sake/about-sake/glossary-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "生酛",
+     "url": "https://ja.wikipedia.org/wiki/生酛",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kimoto",
+     "to_slug": "yamahai",
+     "relation_type": "対比",
+     "basis": "共に天然の乳酸菌を取り込む生酛系だが、米をすり潰す山卸しの有無で分かれる（ウィキペディア「生酛」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "yamahai",
+   "name_ja": "山廃",
+   "name_romaji": "Yamahai",
+   "name_en": "Yamahai — a kimoto starter with the pounding step dropped",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "生酛から「山卸し」という米をすり潰す重労働だけを省いた酒母造り。天然の乳酸菌に頼る点は生酛と同じで、山卸しを省いても糖化が十分に進むと分かったことで生まれたとされる、力強い酸と旨みを持つ酒。",
+   "summary_en": "A kimoto starter with yamaoroshi — the grueling rice-pounding step — dropped. It still relies on wild lactic bacteria the way kimoto does, and is said to have emerged once brewers realized the mash would still saccharify properly without the pounding, yielding a robust, savory acidity.",
+   "body_ja": "## 何でできているか\n生酛と同じく、蔵や周囲の自然にすむ天然の乳酸菌を取り込んで酒母を育てる。山卸しという米をすり潰す工程を省く分、蒸し米の粒の形がある程度残ったまま溶けていくため、生酛よりもさらに複雑で力強い酸味とコクが出やすいとされる。骨太で燗にも向く酒質になりやすいという。生酛よりも仕込みの手間はやや軽いとされる。\n## どう作るのか\n山卸しを省いても、蒸し米は水と麹の酵素の働きで自然に溶けていくことが確認され、すり潰す作業そのものが不要になったとされる。ただし山卸しを省くというのは単純な引き算ではなく、それに伴って保温の仕方など他の工程の細かな管理も変わるとされ、山卸しをやめただけでは山廃酛にはならないという。麹の質と温度管理がより重要になるとされ、蔵ごとに独自の工夫が加えられているという。\n## なぜこの形になったのか\n山卸しは蔵人にとって深夜に及ぶ重労働であり、酒質を落とさずにこの作業を省けないかという模索が続いたと伝わる。山卸しを廃止した酒母という意味で「山卸し廃止酛」、略して山廃酛と呼ばれるようになったとされ、生酛の複雑な味わいをより少ない手間で再現する道として広まったといい、20世紀初頭に確立され、以後、各地の蔵に少しずつ広まっていったとも伝わっている。",
+   "body_en": "## What it's made of\nLike kimoto, a yamahai starter draws on wild lactic bacteria already living in and around the brewery. Because the pounding step is skipped, the steamed rice grains keep more of their original shape as they slowly dissolve, said to give an even more complex, robust acidity and richness than kimoto — a full-bodied style that's said to suit warming well. It's also said to demand somewhat less labor than kimoto.\n## How it's made\nBrewers found that steamed rice would dissolve on its own through the action of water and the koji's enzymes even without pounding, making the labor of yamaoroshi unnecessary. Still, dropping that one step isn't simple subtraction — it's said to change the fine details of how other steps, like temperature control, are managed, so simply skipping the pounding alone doesn't make a starter yamahai. Koji quality and temperature control are said to matter even more as a result.\n## Why it took this shape\nYamaoroshi was grueling, late-night labor for brewery workers, and the search for a way to drop it without losing sake quality is said to have continued for some time. The method came to be called yamahai — short for 'yamaoroshi abolished starter' — and is said to have spread as a way to recreate kimoto's complex flavor with less physical toil, and is said to date to the early twentieth century.",
+   "sources": [
+    {
+     "title": "日本酒用語集",
+     "url": "https://japansake.or.jp/sake/about-sake/glossary-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "生酛",
+     "url": "https://ja.wikipedia.org/wiki/生酛",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yamahai",
+     "to_slug": "sokujo",
+     "relation_type": "対比",
+     "basis": "天然の乳酸菌に頼る山廃酛と、乳酸を添加して培養期間を縮める速醸酛の違い（ウィキペディア「生酛」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "sokujo",
+   "name_ja": "速醸",
+   "name_romaji": "Sokujo",
+   "name_en": "Sokujo — a starter mash built on added lactic acid",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "天然の乳酸菌任せにせず、あらかじめ醸造された乳酸を仕込み水に加えて酒母を育てる造り方。雑菌の繁殖を早い段階で抑えられるため、生酛や山廃に比べて短い期間で安定して酒母を仕込めるとされる。",
+   "summary_en": "A starter-mash method that skips waiting on wild lactic bacteria, instead adding pre-made lactic acid directly to the brewing water. Because contaminants are suppressed from the start, it's said to let brewers raise a stable starter in far less time than kimoto or yamahai.",
+   "body_ja": "## 何でできているか\n水麹の段階で乳酸を添加し、同時に純粋培養した酵母を加えて仕込む。乳酸が最初から存在するため雑菌や野生酵母が入り込む余地が少なく、まず糖化を進めてから発酵へと導く、計算された造り方だとされる。生酛系に比べて酸味は穏やかで、雑味の少ないすっきりとした酒質になりやすいという。今日流通する清酒の大半がこの造り方によるとされ、大量生産にも向いた技法だという。\n## どう作るのか\n生酛や山廃が乳酸菌の自然な増殖を待つのに対し、速醸酛はあらかじめ用意した乳酸を加えることで、その待ち時間そのものを省く。酒母造りの期間はおよそ2週間ほどで、生酛系の半分以下に短縮されるとされ、天候や蔵の状態に左右されにくい安定した仕込みが可能になったという。若い蔵人でも扱いやすい造り方とされ、技術継承の難しさへの答えでもあったという。\n## なぜこの形になったのか\n生酛系の酒母が抱えていた、仕込み時期や気候、蔵人の技量の差に左右されやすいという弱点を、乳酸を人工的に添加することで解決しようとした技術と伝わる。醸造試験の積み重ねの中で確立されたとされ、以後、清酒の大半がこの速醸系酒母で造られるようになったといい、生酛系は少数派として今に残るという。技術の均質化が全国の酒質を底上げしたとも語られる。",
+   "body_en": "## What it's made of\nLactic acid is added at the water-koji stage, together with a pure-cultured yeast. With lactic acid already present, there's little room for contaminants or wild yeast to take hold, and the mash is guided first toward saccharification and then fermentation in a deliberate, calculated way. Compared to the kimoto lineage, the acidity is said to be milder, often giving a cleaner profile with less off-flavor. Most sake sold today is said to be built this way.\n## How it's made\nWhere kimoto and yamahai wait for lactic bacteria to build up on their own, sokujo skips that waiting period entirely by adding ready-made lactic acid up front. Building the starter takes roughly two weeks, said to be less than half the time the kimoto lineage requires, and the method is said to be far less at the mercy of weather or the brewery's condition, and said to be manageable even for less experienced brewery workers.\n## Why it took this shape\nThe method is said to have been developed to solve a weakness of the kimoto lineage — its sensitivity to brewing season, climate, and the individual brewer's skill — by adding lactic acid artificially instead. It's said to have been established through repeated brewing trials, and the great majority of sake today is said to be built on this sokujo starter, leaving the kimoto lineage a minority technique still kept alive by some breweries.",
+   "sources": [
+    {
+     "title": "日本酒用語集",
+     "url": "https://japansake.or.jp/sake/about-sake/glossary-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "生酛",
+     "url": "https://ja.wikipedia.org/wiki/生酛",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "nigorizake",
+   "name_ja": "にごり酒",
+   "name_romaji": "Nigorizake",
+   "name_en": "Nigorizake — cloudy sake pressed through a coarse cloth",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "もろみを目の粗い布でざっと漉し、米の滓をあえて残した清酒。どぶろくとは違い漉す工程を経るため酒税法上は清酒に分類され、発酵が生きたまま瓶詰めされたものは発泡を伴うことがあるとされる。",
+   "summary_en": "Sake pressed through a coarse cloth so that flecks of rice sediment are deliberately left behind. Because it does go through a pressing step, unlike doburoku, it's legally classed as sake, and bottled while fermentation is still active, it can carry a natural fizz.",
+   "body_ja": "## 何でできているか\n発酵を終えたもろみを、目の粗い布で軽く漉しただけの白く濁った酒。滓として残るのは溶けきらなかった米粒や酵母で、これが甘みととろみ、口の中に残る粒々とした舌触りを生むとされ、見た目にも米の存在を感じさせる。同じく白濁するどぶろくとは、漉す工程を経ているかどうかで明確に区別されるという。振ってから注ぐと味が均一になるとされる。\n## どう作るのか\n通常の清酒よりも目の粗い布や網でもろみを漉し、微細な滓を意図的に酒の中に残す。滓の量は蔵や商品ごとに異なり、濃さの目安にもなるという。発酵をぎりぎりまで進めた生の状態のまま瓶詰めする「活性にごり酒」は、瓶の中でも発酵が進んで炭酸ガスを多く含むため、開栓や保管には吹きこぼれへの注意が要るとされる。よく冷やして提供されることが多いという。\n## なぜこの形になったのか\n漉す工程がある以上、酒税法上は「その他の醸造酒」に分類されるどぶろくとは別に「清酒」として扱われると伝わる。あえて滓を残す造り方は、透明で澄んだ酒を良しとする一般的な清酒の価値観とは異なる方向性であり、米そのものの存在感を楽しむ酒として位置づけられてきたとされ、冬場の季節限定品として親しまれ、甘口を好む飲み手からの支持も特に厚いとされている。",
+   "body_en": "## What it's made of\nOnce fermentation finishes, the mash is pressed only lightly through a coarse cloth, leaving a cloudy white sake behind. What remains as sediment is undissolved rice grains and yeast, said to be the source of its sweetness, viscosity, and slightly grainy texture. Though doburoku is cloudy too, the two are clearly distinguished by whether the mash has been pressed at all. Giving the bottle a gentle shake before pouring is said to even out the flavor.\n## How it's made\nThe mash is pressed through a coarser cloth or mesh than ordinary sake uses, deliberately leaving fine sediment in the finished drink. So-called 'active' nigorizake, bottled while still fermenting at full tilt, keeps fermenting inside the bottle and can build up considerable carbonation — something drinkers are said to need to handle carefully when opening or storing it. It's usually served well chilled.\n## Why it took this shape\nBecause it does pass through a pressing step, it's said to be legally treated as sake rather than doburoku, which the law classifies as a separate 'other brewed alcohol.' Deliberately leaving sediment behind runs counter to the usual preference for clear, limpid sake, and the style is said to have found its place as a way to enjoy the presence of the rice itself, and is said to be a familiar winter seasonal release.",
+   "sources": [
+    {
+     "title": "日本酒の分類",
+     "url": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "にごり酒",
+     "url": "https://ja.wikipedia.org/wiki/にごり酒",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nigorizake",
+     "to_slug": "doburoku",
+     "relation_type": "対比",
+     "basis": "漉す工程を経て酒税法上「清酒」となるにごり酒と、漉さず「その他の醸造酒」となるどぶろくの違い（ウィキペディア「にごり酒」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "namazake",
+   "name_ja": "生酒",
+   "name_romaji": "Namazake",
+   "name_en": "Namazake — sake bottled without any pasteurization",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "搾ったもろみに火入れという加熱処理を一切施さない清酒。酵素や酵母が生きたままの状態で瓶詰めされるため、搾りたてのフレッシュな香りが立つ一方、劣化が早く低温での保存と流通が必須とされ、開栓後も味が変わりやすく、購入後は早めに飲み切ることが望ましいとされる。",
+   "summary_en": "Sake bottled without any heat pasteurization at all. With its enzymes and microbes still active, it carries a fresh, just-pressed aroma, but is said to spoil quickly and to demand cold storage and cold distribution throughout.",
+   "body_ja": "## 何でできているか\nもろみを搾ってそのまま瓶詰めした、生まれたままの姿の日本酒とされる。文字通り「生」の状態をそのまま届ける酒だという。通常の清酒は貯蔵前と出荷前の2回、加熱処理である火入れを施すが、生酒はこれを一切行わない。搾りたての瑞々しい香りと、口に含んだ時にぴりっとした刺激を伴う味わいが特徴とされる。「発泡感」と表現されることもあるという。\n## どう作るのか\n火入れを行わないため、酒の中には酵素や微生物がまだ生きた状態で残っているとされる。品質を保つには搾ってから瓶詰め、流通、保管まで一貫して低温を保つ必要があり、常温に置かれると香りや味が短期間で変わってしまうとされ、開栓後は早めに飲み切ることが勧められるという。店頭でも常に冷蔵ケースで扱われることが多いとされる。\n## なぜこの形になったのか\nかつては冷蔵技術が無く、火入れを施さない酒は品質を保てないため広く流通させるのが難しかったと伝わる。冷蔵・冷凍による低温流通網が整った近年になって、搾りたての新鮮な味わいをそのまま消費者へ届けられる生酒が、季節限定品として広く出回るようになったとされ、搾りの直後だけの味として人気を集め、蔵開きなど蔵元の催しでもよく振る舞われる、季節を感じさせる酒だという。",
+   "body_en": "## What it's made of\nBottled straight from the press with no further treatment, namazake is described as sake in its rawest, most unaltered form. Ordinary sake is heat-pasteurized twice — once before storage and again before shipping — but namazake skips both. Its hallmark is said to be a vivid, just-pressed aroma along with a faint, prickling liveliness on the palate sometimes described as a light natural fizz.\n## How it's made\nWithout pasteurization, the enzymes and microbes in the sake are said to remain active. Keeping its quality intact demands cold handling at every stage, from pressing through bottling, shipping, and storage — left at room temperature, its aroma and flavor are said to shift within a short time, and drinkers are advised to finish a bottle soon after opening, and shops are said to often keep it in refrigerated cases.\n## Why it took this shape\nWithout refrigeration technology, unpasteurized sake once had no reliable way to hold its quality over any real distance, making wide distribution difficult. Only once cold-chain logistics — refrigeration and freezing — became widespread in recent times is namazake said to have spread as a way to deliver that just-pressed freshness directly to drinkers, often as a seasonal release prized for a flavor said to exist only in that first moment off the press.",
+   "sources": [
+    {
+     "title": "日本酒の分類",
+     "url": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "日本酒",
+     "url": "https://ja.wikipedia.org/wiki/日本酒",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "namazake",
+     "to_slug": "genshu",
+     "relation_type": "対比",
+     "basis": "火入れを省く生酒と、加水を省く原酒という、それぞれ別の工程を省いて素の状態を残す造り方の違い（日本酒造組合中央会「日本酒の分類」）"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "cold_served"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "genshu",
+   "name_ja": "原酒",
+   "name_romaji": "Genshu",
+   "name_en": "Genshu — undiluted, cask-strength sake",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "搾った清酒に水を加えず、そのまま瓶詰めした酒。通常の清酒はアルコール度数を15度前後に調整するため加水するが、原酒はこれを行わないためアルコール度数が18度から20度前後と高く、味も濃厚になるとされる。",
+   "summary_en": "Sake bottled straight from the press without any water added. Ordinary sake is diluted down to around 15% alcohol, but genshu skips that step, coming in at roughly 18 to 20% and carrying a noticeably concentrated flavor as a result.",
+   "body_ja": "## 何でできているか\nもろみを搾った直後の清酒は、アルコール度数が20度前後に達することが多いとされ、通常の清酒よりかなり強い酒として生まれる。通常はここに水を加えて15度前後まで調整するが、原酒はこの加水を行わない。そのぶん香味の凝縮感が強く、濃醇でとろりとした口当たりになりやすく、余韻も長く続くとされる。冷凍しても凍りにくいとされることもあるという。\n## どう作るのか\n搾ったままの状態で瓶詰めするため、加水以外の工程は通常の清酒と変わらないとされ、原料と発酵の力がそのまま瓶の中に残る。度数が高い分、少量をゆっくり味わう飲み方や、氷を浮かべたり水で割ったりして自分の好みの濃さに調整して楽しむ飲み方も広まっているという。同じ蔵の通常酒と飲み比べる楽しみ方もあるとされる。\n## なぜこの形になったのか\n清酒は本来、搾った時点でこの高い度数を持っており、飲みやすさと原価を整えるための加水こそが後から加わった工程だったと伝わる。原酒はその手を加える前の姿をそのまま瓶に閉じ込めた酒とされ、蔵の仕込みそのものの力強さを味わえる形として位置づけられているといい、蔵元が自信を示す一本として出すことも多いとされる。缶ではなく瓶で流通することが多く、贈り物としても好まれるとも言われる。",
+   "body_en": "## What it's made of\nSake fresh from the press often comes in around 20% alcohol, considerably stronger than what usually reaches the shelf. Ordinary sake gets water added to bring it down to roughly 15%, but genshu skips that dilution. The result is said to be a more concentrated flavor, a thicker, richer body, and a finish that lingers longer, sometimes resistant enough to alcohol content that it won't fully freeze.\n## How it's made\nBecause it's bottled exactly as it comes off the press, every step besides the dilution matches ordinary sake production. With the higher alcohol content, drinkers are said to favor small, slow pours, or to add ice or water themselves to dial in the strength they prefer, sometimes tasting it side by side with the same brewery's standard bottling.\n## Why it took this shape\nSake in its natural state has always carried this higher strength, and it's said to be the dilution added afterward, for easier drinking, that came later as an extra step. Genshu is described as bottling that undiluted form directly, offering a way to taste the full, unmoderated force of what the brewery actually produced, and it's said to reach shelves almost always in glass rather than cans.",
+   "sources": [
+    {
+     "title": "日本酒の分類",
+     "url": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "hiyaoroshi",
+   "name_ja": "ひやおろし",
+   "name_romaji": "Hiyaoroshi",
+   "name_en": "Hiyaoroshi — sake pasteurized once and released in autumn",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "冬から春にかけて搾った酒を、火入れを一度だけ施して夏の間蔵で寝かせ、外気温が下がる秋になってから出荷する清酒。夏を越す間に角が取れ、まろやかに熟成しているとされる。",
+   "summary_en": "Sake pressed over winter and spring, pasteurized just once, then left to rest in the brewery through summer and shipped only once the outside air cools in autumn. The idea is that the rough edges soften over that summer rest, leaving a rounder, more settled sake.",
+   "body_ja": "## 何でできているか\n冬から春に仕込んだ清酒を、貯蔵前の一度だけ火入れし、二度目の火入れをしないまま夏の間蔵の中で静かに寝かせる。通常の清酒は火入れを二回行うが、ひやおろしはその一回を秋の出荷まで持ち越す形になる。夏を越す間にとがった味が丸くなり、まろやかな旨みが増すとされる。新酒の頃には無かった落ち着きが出てくるという。\n## どう作るのか\n蔵の中でひと夏寝かせた酒は、貯蔵容器の温度と外の気温がほぼ同じになる秋口を見計らって、加熱せず「冷や」のまま出荷される。「冷や」で「卸す」という言葉がそのまま名前になったと伝わり、二度目の加熱を行わないぶん、火入れ由来の香りの変化を抑えたまま出荷できるといい、蔵によって出荷時期の見極めが異なり、同じ銘柄でも年ごとに出荷日が前後するとされる。\n## なぜこの形になったのか\n昔は冷蔵設備が無く、貯蔵容器と外気の温度差が大きいまま出荷すると酒が劣化しやすかったとされる。両者の温度がほぼ揃う秋を待って出荷する習慣が生まれたと伝わり、今日では実りの秋に新米の収穫や食欲の秋と重ねて楽しまれる、季節を告げる酒として位置づけられ、毎年その年の一本を待つ愛好家も多く、同じ銘柄でも年によって出荷日が前後し、その到来自体が話題になることもあるという。",
+   "body_en": "## What it's made of\nSake brewed over winter and spring is pasteurized once before storage, then left to rest quietly through the summer without the usual second pasteurization. Ordinary sake is heated twice, but hiyaoroshi carries that second round forward all the way to its autumn release. Over that summer rest, its sharper edges are said to soften into a rounder, more settled sweetness.\n## How it's made\nAfter resting in the brewery through summer, the sake is shipped unheated — served 'hiya,' or cold — once the temperature inside the storage vessel and the outside air roughly match in early autumn. The name is said to come directly from that timing: shipped ('oroshi') while still cold ('hiya'). Skipping that second heating is said to preserve the sake without the flavor shift pasteurization can bring.\n## Why it took this shape\nWithout refrigeration, sake shipped while storage and outdoor temperatures differed sharply was said to spoil more easily. A custom of waiting for autumn, when the two roughly align, is said to have taken hold as a result, and today the release is treated as a seasonal marker in its own right — timed to overlap with the new rice harvest and autumn appetites.",
+   "sources": [
+    {
+     "title": "日本酒用語集",
+     "url": "https://japansake.or.jp/sake/about-sake/glossary-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hiyaoroshi",
+     "to_slug": "namazake",
+     "relation_type": "対比",
+     "basis": "火入れを二回とも省く生酒と、一回だけ省いて秋まで出荷を待つひやおろしの、火入れ回数の違い（日本酒造組合中央会「日本酒用語集」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "nihonshu-koshu",
+   "name_ja": "古酒（長期熟成酒）",
+   "name_romaji": "Koshu",
+   "name_en": "Koshu — long-aged sake",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "製造年度を越えて蔵で寝かせてから出荷する清酒。長期熟成酒研究会は満3年以上熟成させた糖類無添加の清酒をこう呼ぶとしており、熟成が進むほど色が濃くなり、香りも黒糖や蜂蜜を思わせる方向へ変わるとされる。",
+   "summary_en": "Sake held back and aged in the brewery beyond its production year before release. A research group on aged sake defines it as unsweetened sake matured at least three full years, and the longer it rests, the darker its color and the more its aroma is said to shift toward brown sugar or honey.",
+   "body_ja": "## 何でできているか\n製造年度内に出荷される新酒とは対照的に、貯蔵年数を重ねてから出荷される清酒を熟成酒・古酒などと呼ぶ。長期熟成酒研究会は、糖類を加えていない清酒を満3年以上蔵元で熟成させたものを「熟成古酒」と定めているとされる。年数を重ねるほど、黄緑がかった色から褐色、赤褐色へと色調が変わっていくといい、中には黒みを帯びるまで熟成が進むものもあるという。\n## どう作るのか\n特別な追加工程があるわけではなく、搾った清酒を長期間、温度管理をしながら蔵の中で寝かせ続けることそのものが熟成にあたる。熟成が進むにつれて、香りも黒糖のような香りから蜂蜜、キャラメルへと移ろい、貯蔵が100年を超えるような古いものは大古酒と呼ばれることもあり、瓶の中で今も少しずつ変化を続けているとされる。\n## なぜこの形になったのか\n清酒は本来、搾りたての新酒として早く消費されることが多く、長く寝かせる文化はワインや泡盛の古酒ほど広く根付いてこなかったとされる。近年になって研究会が定義や分類を整理したことで、時間の経過そのものを価値として楽しむ飲み方として、あらためて注目されるようになったと伝わり、専門に扱う蔵や店も少しずつ増え、年数の異なる古酒を飲み比べる楽しみ方も広がっているという。",
+   "body_en": "## What it's made of\nIn contrast to shinshu, sake released within its production year, sake held back for extra years before shipping is called jukuseishu or koshu. A research group on aged sake defines 'matured koshu' as unsweetened sake aged at least three full years at the brewery. The longer it ages, the more its color is said to shift — from a pale yellow-green, through amber, toward a deep reddish brown.\n## How it's made\nThere's no special added process — aging simply means holding the pressed sake in the brewery under careful temperature control for an extended stretch. As it ages, the aroma is said to drift from something like brown sugar toward honey and then caramel, and bottles aged past a century are sometimes called 'great koshu.'\n## Why it took this shape\nSake has traditionally been drunk fresh, as shinshu not long off the press, and a culture of deliberate long aging is said never to have taken root as deeply here as it has for wine or aged awamori. It's only in recent years, as a research group worked out clearer definitions and categories, that koshu is said to have drawn renewed attention as a way of savoring time itself.",
+   "sources": [
+    {
+     "title": "日本酒",
+     "url": "https://ja.wikipedia.org/wiki/日本酒",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nihonshu-koshu",
+     "to_slug": "hiyaoroshi",
+     "relation_type": "対比",
+     "basis": "3年以上寝かせる古酒と、ひと夏だけ寝かせて秋に出す ひやおろしという、貯蔵期間の長さの違い（ウィキペディア「日本酒」・日本酒造組合中央会「日本酒用語集」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "kijoshu",
+   "name_ja": "貴醸酒",
+   "name_romaji": "Kijoshu",
+   "name_en": "Kijoshu — sake brewed using sake instead of water",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "仕込み水の一部を清酒に置き換えて造る清酒。国立醸造試験所が国賓を迎える晩餐会向けに開発したとされ、濃醇な甘みととろみを持ち、熟成が進むと重厚な琥珀色に変わっていくという。",
+   "summary_en": "Sake brewed by replacing part of the usual brewing water with sake itself. Said to have been developed by a national brewing research institute for state dinners, it carries a rich sweetness and viscous body, and is said to deepen into amber with age.",
+   "body_ja": "## 何でできているか\n通常の清酒は米100に対して水130ほどを使うとされるが、貴醸酒はもろみの最終段階で水の代わりに清酒を仕込みに使う。米100に対し水70・酒60ほどを用いる造り方が知られ、糖分やアミノ酸が水で薄まらない分、濃醇な甘みと、とろりとした口当たりを持つ酒質になるといい、食前酒や食後酒として少量ずつ供されることも多いとされる。\n## どう作るのか\n三段仕込みと呼ばれる仕込みのうち、最後の「留」と呼ばれる段階で、水の代わりに清酒を加える。糖化と発酵のバランスが通常とは異なるため、温度管理など細部にわたる繊細な調整が求められるとされる。長期熟成させると色がだんだん重厚な琥珀色になっていき、まろやかさが一段と増すといい、通常の清酒より熟成に向く造りとされる。\n## なぜこの形になったのか\n国立醸造試験所が、国賓を迎える晩餐会でフランス産ワインが供されることに着目し、それに見合う高級な日本酒をという発想から開発したと伝わる。仕込み水の一部を清酒で置き換えるという発想自体は、平安時代の『延喜式』に記された古代の酒造法「しおり」に通じるとも言われ、千年以上前の知恵が形を変えて残ったとも語られ、現代の醸造技術によって再現された珍しい例として紹介されることもあるという。",
+   "body_en": "## What it's made of\nOrdinary sake uses roughly 130 parts water to 100 parts rice, but kijoshu replaces the water in the mash's final stage with sake itself, using something closer to 70 parts water and 60 parts sake per 100 of rice. Because the sugars and amino acids aren't diluted with plain water, the result is said to be a rich sweetness and a notably viscous body.\n## How it's made\nIn the traditional three-stage mashing process, sake is added in place of water at the final stage, called tome. Balancing saccharification and fermentation under these conditions is said to call for delicate handling, and as it ages, the color is said to deepen gradually into a rich amber, its texture growing rounder still.\n## Why it took this shape\nA national brewing research institute is said to have developed it after noting that French wine was served at state dinners, aiming to create a sake refined enough for the same occasions. The basic idea of substituting sake for part of the brewing water is also said to echo an ancient brewing method called 'shiori,' recorded in the Heian-era Engishiki code.",
+   "sources": [
+    {
+     "title": "貴醸酒",
+     "url": "https://ja.wikipedia.org/wiki/貴醸酒",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "日本酒用語集",
+     "url": "https://japansake.or.jp/sake/about-sake/glossary-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kijoshu",
+     "to_slug": "nihonshu",
+     "relation_type": "対比",
+     "basis": "仕込み水の代わりに清酒を使う特殊な造りを持つ貴醸酒と、水で仕込む通常の清酒の違い（ウィキペディア「貴醸酒」）"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "happo-seishu",
+   "name_ja": "発泡清酒",
+   "name_romaji": "Happo Seishu",
+   "name_en": "Happo seishu — sparkling sake",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "炭酸ガスを含ませた発泡性の清酒。低いアルコール度数と軽い口当たりに仕立てられることが多く、シャンパンのような泡立ちを楽しむ酒として、乾杯や食前酒の場面で選ばれることが多いとされる。",
+   "summary_en": "A sparkling style of sake carrying dissolved carbon dioxide. Often built with a lighter alcohol content and a lighter body, it's said to be chosen for toasts and as an aperitif, offering a champagne-like fizz.",
+   "body_ja": "## 何でできているか\n炭酸ガスを含ませ、泡立つ口当たりに仕立てた清酒とされる。シャンパンを思わせる軽やかな飲み口から、夏場や乾杯の場に向く酒として扱われることが多いという。通常の清酒よりアルコール度数を抑えて造られることも多く、飲みやすさを重視した設計とされ、日本酒に慣れていない飲み手からも選ばれやすいという。瓶の中で細かな泡が立ち上る見た目も楽しまれる。\n## どう作るのか\nもろみを最後まで発酵させ切らないうちに瓶詰めし、瓶の中で二次発酵させて自然に炭酸ガスを生じさせる方法や、澱を取り除きながら仕上げる方法などが知られるとされる。にごり酒のうち発酵が生きたまま瓶詰めされた「活性にごり酒」も、結果として発泡性を帯びることがあるといい、狙って発泡させる製法とは背景が異なり、両者は区別して語られることが多いとされる。\n## なぜこの形になったのか\n清酒の飲用機会を広げようとする中で、乾杯の場やパーティーなど、これまで清酒があまり選ばれてこなかった場面に合う酒質を目指して考案されてきたと伝わる。ワインやシャンパンに親しんだ層にも清酒を届けようとする試みの一つとして位置づけられ、乾杯用のグラスで供されることも増えているといい、洋食との相性を意識して開発する蔵もあるという。",
+   "body_en": "## What it's made of\nSparkling sake carries dissolved carbon dioxide, giving it a fizzy mouthfeel reminiscent of champagne. Its light, easy-drinking character is said to make it a natural fit for summer or for toasts. It's often brewed with a lower alcohol content than standard sake, a design choice said to favor easy drinking.\n## How it's made\nMethods are said to include bottling the mash before fermentation fully finishes, so a secondary fermentation inside the sealed bottle naturally builds carbonation, as well as techniques that clarify the sediment while preserving the fizz. Active nigorizake, bottled while its fermentation is still underway, can end up carbonated as a byproduct of the same idea.\n## Why it took this shape\nIt's said to have been developed as part of a broader push to widen the occasions sake gets chosen for — toasts, parties, and settings where sake had traditionally taken a back seat. The style is described as one attempt to reach drinkers already comfortable with wine and champagne.",
+   "sources": [
+    {
+     "title": "日本酒の分類",
+     "url": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "にごり酒",
+     "url": "https://ja.wikipedia.org/wiki/にごり酒",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "happo-seishu",
+     "to_slug": "nigorizake",
+     "relation_type": "対比",
+     "basis": "発泡性を狙って設計される発泡清酒と、発酵が生きたまま瓶詰めされて結果的に発泡することがある活性にごり酒の違い（ウィキペディア「にごり酒」）"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "cold_served"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "taruzake",
+   "name_ja": "樽酒",
+   "name_romaji": "Taruzake",
+   "name_en": "Taruzake — cedar-cask-finished sake",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "木製の樽に詰めて、木の香りを移した清酒。祝いの席で樽の蓋を割る「鏡開き」に使われる酒として知られ、杉の香りが酒質に移ることで、通常の清酒とは違う爽やかな風味になるとされる。",
+   "summary_en": "Sake stored in a wooden cask so it takes on the wood's fragrance. Best known as the sake used for kagami-biraki, the ceremonial cracking open of a cask lid at celebrations, its cedar aroma is said to give it a freshness distinct from ordinary sake.",
+   "body_ja": "## 何でできているか\n木製の樽に詰め、木香をつけた清酒とされる。杉材で作られた樽が使われることが多く、木の成分が酒に溶け出すことで、通常の瓶詰め清酒には無い清々しい香りが加わり、口に含むと森を思わせる爽やかさが鼻に抜けるという。長く樽に置きすぎると木の香りが強く出過ぎるため、詰めてからの時間の見極めが要るとされ、樽の大きさによっても香りの移り方が変わり、小さな樽ほど香りが早くつきやすいとされる。\n## どう作るのか\n搾って火入れをした清酒を、木製の樽に詰めて短期間置き、香りが程よく移った頃合いを見て瓶や別の容器に移し替えて出荷することが多いとされる。祝いの席では、この樽そのものの蓋を木槌で割って開ける「鏡開き」に使われ、振る舞い酒として集まった人に配られることが多いという。式典や落成式などでもよく見られる光景とされ、参加者全員で杯を交わす一体感を演出するという。\n## なぜこの形になったのか\nかつて清酒の輸送や貯蔵には木樽が広く使われており、木の香りが移ること自体は当初副産物だったとも伝わる。やがてこの香りづけそのものが好まれるようになり、独立した清酒の一形態として扱われるようになったとされ、祝いの場を彩る酒として定着していったといい、今でも鏡開きの場面では真っ先に選ばれる酒だとされる。",
+   "body_en": "## What it's made of\nTaruzake is sake stored in a wooden cask so it picks up the wood's fragrance. Cedar casks are the most common choice, and the compounds that seep out of the wood are said to add a crisp, resinous note absent from ordinary bottled sake. Left in the cask too long, that woody note can grow overpowering, so timing the transfer out is said to matter.\n## How it's made\nPressed and pasteurized sake is packed into a wooden cask for a short stretch, then transferred to bottles or another container for shipping once the aroma has taken on the right balance. At celebrations, the cask itself is often opened by cracking its lid with a wooden mallet in a ceremony called kagami-biraki, with the sake then served to everyone present.\n## Why it took this shape\nWooden casks were once widely used for transporting and storing sake, and picking up the wood's fragrance is said to have started as a mere byproduct of that. Over time the aroma itself came to be prized, and the style is said to have settled into its own recognized form of sake, one that has become fixed as part of celebratory occasions.",
+   "sources": [
+    {
+     "title": "日本酒の分類",
+     "url": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "taruzake",
+     "to_slug": "nihonshu",
+     "relation_type": "対比",
+     "basis": "木の香りをまとう樽酒と、瓶や容器でそのまま流通する通常の清酒の違い（日本酒造組合中央会「日本酒の分類」）"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "doburoku",
+   "name_ja": "どぶろく",
+   "name_romaji": "Doburoku",
+   "name_en": "Doburoku — unfiltered home-style rice brew",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "米・米麹・水を発酵させただけで、漉す工程を経ない酒。漉さないぶん米のでんぷんや糖が残ってほのかに甘く、酒税法上は清酒ではなく「その他の醸造酒」に分類されるとされる。",
+   "summary_en": "A brew made from rice, koji, and water and fermented, but never pressed or filtered. Because nothing is strained out, it keeps a hint of the rice's starch and sugar and a gentle sweetness, and the law classifies it not as sake but as a separate 'other brewed alcohol.'",
+   "body_ja": "## 何でできているか\n米と米麹と水を発酵させただけで、漉す工程を経ていない酒とされる。もろみをそのまま飲むため、未発酵の米のでんぷんや分解しきれなかった糖分が残り、ほのかな甘みを帯びるという。アルコール度数は清酒に近い14度から17度ほどだが、甘さのせいで飲み過ごしやすいとも言われ、口当たりの柔らかさが油断を誘うという。\n## どう作るのか\n漉す作業を一切行わないため、どろりとした白い見た目のまま仕上がる。清酒のように圧搾機で搾って酒粕と分けるという工程が無く、米粒がそのまま残った状態で瓶や容器に詰められることが多いとされ、発酵の状態によって甘さや酸味の強さが変わり、同じ仕込みでも日によって表情が違って感じられ、造る人の家によって味が異なるとも言われ、各家庭の仕込みの癖がそのまま出るという。\n## なぜこの形になったのか\n稲作が伝わったのとほぼ同じ時期から造られてきたとされる古い酒の形だが、明治期に酒税が国の税収の柱になると、家庭での自家醸造は酒造業者の経営を圧迫するとして禁じられたと伝わる。2002年の構造改革特区制度で、特定の地域に限り醸造・現地販売が認められるようになったといい、神社の祭礼で醸される例も各地に残っており、地域の共同体行事として続けられているという。",
+   "body_en": "## What it's made of\nDoburoku is fermented from rice, koji, and water but never pressed or filtered afterward. Because the mash is drunk as is, unfermented rice starch and sugars that never fully broke down remain, said to give it a gentle sweetness. Its alcohol content, roughly 14 to 17%, sits close to ordinary sake, though that sweetness is said to make it easy to drink more than intended.\n## How it's made\nWith no pressing step at all, it stays a thick, cloudy white. There's no press to separate liquid from lees the way sake production does, and the rice grains themselves are often left right in the container as it's bottled — how far fermentation has progressed shapes just how sweet or sour any given batch turns out.\n## Why it took this shape\nIt's said to be one of the oldest forms of rice brewing, dating back to roughly when rice cultivation itself arrived. Once the sake tax became a pillar of national revenue in the Meiji era, home brewing is said to have been banned as a threat to licensed brewers' business. A 2002 special-zone reform later allowed brewing and local sale again, but only within designated areas.",
+   "sources": [
+    {
+     "title": "どぶろく",
+     "url": "https://ja.wikipedia.org/wiki/どぶろく",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "doburoku",
+     "to_slug": "nihonshu",
+     "relation_type": "対比",
+     "basis": "漉さないため酒税法上「その他の醸造酒」となるどぶろくと、漉して「清酒」となる日本酒の違い（ウィキペディア「どぶろく」）"
+    }
+   ],
+   "tags": [
+    "fermented",
+    "ceremonial"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "nihonshu",
+   "name_ja": "日本酒",
+   "name_romaji": "Nihonshu",
+   "name_en": "Nihonshu — Japan's traditional rice-brewed sake",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "summary_ja": "米・米麹・水を主な原料として醸す、日本の伝統的な醸造酒。精米歩合や酒母の造り方、火入れの有無といった技法によって多様な型に分かれ、水質や気候の違いが土地ごとの酒質を分けてきたとされる。",
+   "summary_en": "Japan's traditional brewed drink, made mainly from rice, koji, and water. Milling ratio, how the starter mash is raised, and whether the sake is pasteurized all branch it into a wide range of styles, and differences in water and climate are said to have shaped distinct regional characters.",
+   "body_ja": "## 何でできているか\n原料は基本的に米・米麹・水の三つだけで、そこに酵母が加わって発酵が進む。米は磨けば磨くほど雑味の元になるたんぱく質や脂肪分が減るとされ、精米歩合の深さが香りと味の方向性を大きく左右するという。仕込み水の硬度も、発酵の進み方や味の骨格に影響するとされ、同じ米・同じ麹でも水が変われば酒質も変わるといわれ、蔵は自らの仕込み水を財産のように扱うという。\n## どう作るのか\n蒸した米に麹菌を植えて糖化させる麹造り、酵母を育てる酒母造り、米・麹・水を三段階に分けて加えていく醪の仕込みという工程を経て、最後にもろみを搾って清酒と酒粕に分ける。搾った後、火入れという加熱処理を何回施すか、貯蔵をどれだけ重ねるかによって、生酒や原酒、古酒といった様々な型に分かれていくといい、同じ蔵の同じ米からでも仕立て方次第で表情が大きく変わるとされる。\n## なぜこの形になったのか\n米を主食としてきた土地では、余った米や不作に備えて蓄えた米を酒に換えるという知恵が古くから育まれてきたとされる。水の硬度や気候、杜氏という職人集団の移動、酒税を巡る制度の変遷が絡み合い、同じ原料でありながら土地ごとに違う型を持つ酒として今日の姿になったと伝わる。銘柄ではなく、この構造こそが土地との結びつきを語るという。",
+   "body_en": "## What it's made of\nThe raw materials are, at their core, just rice, koji, and water, with yeast driving the fermentation. The more a rice grain is milled, the less protein and fat remain — sources of off-flavor — so how deep the milling goes is said to shape the aroma and flavor direction considerably. The hardness of the brewing water is also said to affect how fermentation proceeds and the sake's overall backbone, so the same rice and koji can turn out differently with different water.\n## How it's made\nSteamed rice is inoculated with koji mold and saccharified, a starter mash is raised with yeast, and rice, koji, and water are then added to the main mash in three separate stages before it's finally pressed, splitting into sake and lees. How many times the pressed sake is pasteurized afterward, and how long it's aged, is what branches it into styles like namazake, genshu, or koshu.\n## Why it took this shape\nIn places where rice was the staple food, converting surplus or rice set aside against a bad harvest into sake is said to be an old piece of local wisdom. Water hardness, climate, the migration of toji brewing guilds, and shifting sake-tax policy all tangled together, and the result, it's said, is a drink that shares the same basic ingredients everywhere yet takes on a different shape from place to place.",
+   "sources": [
+    {
+     "title": "日本酒の分類",
+     "url": "https://japansake.or.jp/sake/about-sake/classification-of-sake/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "日本酒",
+     "url": "https://ja.wikipedia.org/wiki/日本酒",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nihonshu",
+     "to_slug": "yamadanishiki",
+     "relation_type": "使用食材",
+     "basis": "酒米の代表品種として全国の蔵で広く使われる（日本酒造組合中央会「日本酒の分類」の酒米に関する記載、および山田錦の生育特性）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": [
+    {
+     "pref": "兵庫県",
+     "city": "神戸市灘区",
+     "lat": 34.7075,
+     "lng": 135.2199,
+     "relation_type": "本場",
+     "note_ja": "ミネラル分が多く鉄分が少ない中硬水「宮水」が酵母の働きを助けて発酵を早め、力強く辛口の「灘の生一本」と呼ばれる酒質を生むとされる。",
+     "note_en": "Nada draws on a mineral-rich, low-iron water called miyamizu, said to speed fermentation and give rise to a robust, dry style known as Nada no Kiippon.",
+     "source_url": "https://ja.wikipedia.org/wiki/宮水"
+    },
+    {
+     "pref": "京都府",
+     "city": "京都市伏見区",
+     "lat": 34.9393,
+     "lng": 135.7625,
+     "relation_type": "本場",
+     "note_ja": "伏見は桃山丘陵からの地下水に恵まれた地で、丸みのある柔らかな口当たりと膨らみのある味わいが特徴とされ、地理的表示「GI京都」にも認定されている。",
+     "note_en": "Fushimi draws on groundwater from the Momoyama plateau, said to give a round, soft mouthfeel and gentle sweetness recognized under the GI Kyoto geographical indication.",
+     "source_url": "https://japansake.or.jp/sake/sake-gi/gi%e4%ba%ac%e9%83%bd/"
+    },
+    {
+     "pref": "新潟県",
+     "city": "",
+     "lat": 37.9161,
+     "lng": 139.0364,
+     "relation_type": "本場",
+     "note_ja": "雪に閉ざされる気候の中で技を磨いてきた越後杜氏の系譜が各地へ広がった土地で、成人一人当たりの清酒消費量が全国で最も多い県とされる。",
+     "note_en": "Home to the Echigo toji brewing lineage forged in a snowbound climate, a tradition that spread nationwide; Niigata is said to have the country's highest per-capita sake consumption.",
+     "source_url": "https://ja.wikipedia.org/wiki/日本酒"
+    }
+   ]
+  },
+  {
+   "slug": "nada-no-sake",
+   "name_ja": "灘の酒",
+   "name_romaji": "Nada no Sake",
+   "name_en": "Nada sake — the hard-water style of Kobe and Nishinomiya",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "兵庫県",
+   "origin_city": "神戸市灘区",
+   "lat": 34.7075,
+   "lng": 135.2199,
+   "summary_ja": "兵庫県の灘五郷で仕込まれる酒。ミネラル分が多く鉄分が少ない中硬水「宮水」を使い、発酵が力強く進むことから、辛口で骨太な「灘の男酒」と呼び習わされてきたとされる。",
+   "summary_en": "Sake brewed in the Nada-Gogo district of Hyogo Prefecture, built on a mineral-rich, low-iron water called miyamizu that's said to drive vigorous fermentation, traditionally earning it the name 'Nada's masculine sake' for its dry, robust style.",
+   "body_ja": "## 何でできているか\n灘五郷の酒は、西宮の井戸から湧く「宮水」と呼ばれる水を仕込みに使う。カリウムやリンを多く含み、酒の色や味を損なう鉄分がほとんど無いこの水は、麹や酵母の働きを助けて発酵を早め、辛口で力強い酒質を生むとされ、伝統的に「灘の男酒」と呼び習わされてきたという。酒米には山田錦が広く使われてきたと伝わり、硬質な米が力強い発酵によく合うとされる。\n## どう作るのか\nかつては六甲山系から流れる急流を利用した水車で米を精米し、精米の質と量を大きく引き上げたと伝わる。仕込まれた酒は、大坂から江戸へ酒樽だけを専門に運ぶ「樽廻船」という船で運ばれ、遠隔地の大消費地へまとまった量を早く届けられる体制が早くから整っていたといい、江戸の酒市場で高いシェアを占めるようになったと伝わる。\n## なぜこの形になったのか\n宮水は天保年間に、蔵元が同じ仕込みでも井戸によって酒の出来が違うことに気づいたことから見出されたと伝わる。水運の便に恵まれた立地に、丹波など各地から酒造りの技術者が集まったことが重なり、大量に醸して遠くまで届けるという、灘ならではの酒造りの形が育まれたとされ、今も国内有数の生産量を持つ産地として知られており、全国のブランド酒の中でも古参の産地として位置づけられているとされる。",
+   "body_en": "## What it's made of\nSake from Nada-Gogo is brewed with a water called miyamizu, drawn from wells in Nishinomiya. Rich in potassium and phosphorus and nearly free of iron, which can dull a sake's color and taste, this water is said to help koji and yeast work faster, giving a dry, powerful style traditionally called Nada's 'masculine sake.' Yamada Nishiki is said to have long been the rice of choice here.\n## How it's made\nBreweries once milled their rice using water wheels turned by the fast-flowing streams off the Rokko mountains, said to have sharply improved both the quality and volume of milling possible. The finished sake traveled to Edo aboard taru-kaisen, ships dedicated purely to hauling sake casks, giving Nada an early system for shipping large volumes quickly to the country's biggest market.\n## Why it took this shape\nMiyamizu is said to have been discovered in the Tenpo era when a brewer noticed that sake from the same recipe came out differently depending on which well supplied the water. That location's easy access to shipping routes, combined with an influx of brewing craftsmen from places like Tanba, is said to have shaped Nada's particular style: brew in volume and ship it far.",
+   "sources": [
+    {
+     "title": "宮水",
+     "url": "https://ja.wikipedia.org/wiki/宮水",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "灘五郷",
+     "url": "https://ja.wikipedia.org/wiki/灘五郷",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nada-no-sake",
+     "to_slug": "yamadanishiki",
+     "relation_type": "使用食材",
+     "basis": "灘五郷で代表的に使われてきた酒米（ウィキペディア「灘五郷」）"
+    },
+    {
+     "from_slug": "nada-no-sake",
+     "to_slug": "tanba-no-sake",
+     "relation_type": "兄弟",
+     "basis": "丹波杜氏が灘の蔵元のもとで育てられ、灘の酒造りを支えてきたという関係（ウィキペディア「杜氏」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "fushimi-no-sake",
+   "name_ja": "伏見の酒",
+   "name_romaji": "Fushimi no Sake",
+   "name_en": "Fushimi sake — the soft-water style of Kyoto",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "京都府",
+   "origin_city": "京都市伏見区",
+   "lat": 34.9393,
+   "lng": 135.7625,
+   "summary_ja": "京都・伏見の酒。桃山丘陵から湧く地下水に恵まれた地で、灘の硬水に対して柔らかな水質から仕込まれるとされ、丸みのある口当たりと膨らみのある甘みを持つ、地理的表示「GI京都」の酒質と重なるという。",
+   "summary_en": "Sake from Fushimi in Kyoto, a district fed by groundwater from the Momoyama plateau. Its water is said to be softer than Nada's, giving a round mouthfeel and gentle, full sweetness that overlaps with the profile recognized under the GI Kyoto geographical indication.",
+   "body_ja": "## 何でできているか\n伏見は桃山丘陵からの伏流水に恵まれた土地で、この水を仕込みに使う。地理的表示「GI京都」の説明では、口に含むと丸みのある柔らかな口当たりと、適度な旨みと甘みによるふくらみのある味わいが広がるとされ、料理の邪魔をせず引き立て合う酒として位置づけられているという。伝統的に灘の力強い酒質と対比で語られ、まろやかな飲み口から「女酒」と呼び習わされてきたとも伝わる。\n## どう作るのか\n伏見は京都盆地の南に位置し、桂川・鴨川・宇治川の3本の川に沿う平地と東山の山地から成る地形にある。地下に豊富な水脈を抱えるこの立地を生かし、古くから酒蔵が集まって町を形成してきたとされ、蔵ごとに独自の井戸を持って仕込み水として使い分けており、同じ伏見でも蔵によって味の違いが出るとされ、地下水脈全体が伏見の酒を支える財産と語られるという。\n## なぜこの形になったのか\n伏見は伏見城の城下町として発展し、水運の便にも恵まれた土地だったと伝わる。京都という食文化の中心地に近く、料理と合わせて楽しまれる酒質が育まれてきたとされ、力強さを持ち味とする灘の酒とはまた違う方向性の酒どころとして知られるようになったといい、京都の食文化とともに歩んできたとされ、懐石など繊細な料理に寄り添う酒として選ばれることが多いといい、燗にも向くとされる。",
+   "body_en": "## What it's made of\nFushimi sits on land fed by underground water flowing from the Momoyama plateau, and it's this water that goes into the brew. The GI Kyoto designation describes the resulting sake as having a round, soft mouthfeel and a full sweetness carried by moderate umami, positioned as a style that complements food rather than competing with it — traditionally discussed in contrast to Nada's more powerful profile.\n## How it's made\nFushimi lies in the southern part of the Kyoto basin, a landscape of flatland running along three rivers — the Katsura, the Kamo, and the Uji — backed by the Higashiyama hills. Breweries are said to have clustered here to take advantage of the abundant groundwater, each keeping its own well and drawing on it as brewing water.\n## Why it took this shape\nFushimi grew up as the castle town beneath Fushimi Castle and is said to have benefited from good water transport links as well. Close to Kyoto, a center of Japanese food culture, the district is said to have developed a style suited to drinking alongside food — a different direction from the power-forward sake of Nada, and known today as a producing district in its own right.",
+   "sources": [
+    {
+     "title": "GI「京都」",
+     "url": "https://japansake.or.jp/sake/sake-gi/gi%e4%ba%ac%e9%83%bd/",
+     "publisher": "日本酒造組合中央会",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "伏見区",
+     "url": "https://ja.wikipedia.org/wiki/伏見区",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "fushimi-no-sake",
+     "to_slug": "nada-no-sake",
+     "relation_type": "対比",
+     "basis": "柔らかな水質のGI京都の酒質と、硬水由来の力強い灘の酒質という水の違いに基づく対比（日本酒造組合中央会「GI京都」・ウィキペディア「宮水」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "niigata-no-sake",
+   "name_ja": "新潟の酒",
+   "name_romaji": "Niigata no Sake",
+   "name_en": "Niigata sake — the light, dry style of snow country",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "新潟県",
+   "origin_city": "",
+   "lat": 37.9161,
+   "lng": 139.0364,
+   "summary_ja": "豪雪地帯として知られる新潟県の酒。冬の農閑期に酒造りへ出稼ぎに出た越後杜氏の系譜が各地に技術を広め、県内では成人一人当たりの清酒消費量が全国で最も多いとされる、酒どころとして知られる土地。",
+   "summary_en": "Sake from Niigata Prefecture, known for its heavy winter snow. The Echigo toji lineage, born of farmers heading off to brew sake during the snowbound off-season, spread its techniques nationwide, and the prefecture is said to have the country's highest per-capita sake consumption.",
+   "body_ja": "## 何でできているか\n新潟は日本有数の豪雪地帯で、冬になると雪に閉ざされる気候が酒造りの土台になってきたとされる。県全体の清酒製成数量は全国のおよそ8%を占め、成人一人当たりの清酒消費量も全国で最も多い県とされており、酒どころとしての存在感が古くから育まれてきたといい、淡麗辛口という言葉で語られる酒質の土台になっているとされる。\n## どう作るのか\n米の収穫を終えた冬、雪に閉ざされて畑仕事も漁もできなくなった集落の農民が、関八州や尾張など各地の酒どころへ酒造りの出稼ぎに出たのが越後杜氏の始まりと伝わる。寺泊野積や越路、小千谷、柿崎、吉川など複数の地域から杜氏を輩出し、各地の酒質向上を支えたとされ、雪解け水による軟水も低温発酵に向いていたと伝わる。\n## なぜこの形になったのか\n土地が乏しく夏場の耕作だけでは暮らしが立たなかった農民が、冬の副収入を求めて集団で酒どころへ出稼ぎに行ったことが、越後杜氏という技術集団を形づくったとされる。一時は日本最大規模の杜氏集団だったと伝わり、今も南部杜氏に次ぐ大きな杜氏集団として、県内外の酒造りを支えているといい、その技術が淡麗辛口という県全体の個性につながったとされ、今も県内の多くの蔵にその流れが息づいているといい、雪解け水の清らかさも支えになっているという。",
+   "body_en": "## What it's made of\nNiigata is one of Japan's heaviest snowfall regions, and that winter-bound climate is said to have shaped the foundations of its sake culture. The prefecture accounts for roughly 8% of the nation's sake production, and it's said to have the highest per-capita sake consumption in the country — a reputation as sake country built up over a long time.\n## How it's made\nOnce the rice harvest ended each winter and villages found themselves snowed in, unable to farm or fish, farmers are said to have set out to brew sake in other regions — the beginning of the Echigo toji lineage. Brewers came from several districts including Teradomari-Nozumi, Koshiji, Ojiya, Kakizaki, and Yoshikawa, and are said to have helped lift sake quality wherever they went.\n## Why it took this shape\nFarmers with too little arable land to live on summer farming alone are said to have banded together and traveled to brewing regions each winter for extra income, and that pattern is what shaped the Echigo toji into an organized brewing guild. Once said to have been the largest such guild in the country, it remains one of the largest today, second only to the Nanbu toji, and continues to support brewing both inside and outside the prefecture.",
+   "sources": [
+    {
+     "title": "日本酒",
+     "url": "https://ja.wikipedia.org/wiki/日本酒",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "越後杜氏",
+     "url": "https://ja.wikipedia.org/wiki/越後杜氏",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "niigata-no-sake",
+     "to_slug": "koshitanrei",
+     "relation_type": "使用食材",
+     "basis": "新潟県が開発した酒米で、県産の代表的な酒米の一つ（新潟県産酒米としての育成経緯）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "hiroshima-no-sake",
+   "name_ja": "広島の酒",
+   "name_romaji": "Hiroshima no Sake",
+   "name_en": "Hiroshima sake — the soft-water brewing method behind ginjo",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "広島県",
+   "origin_city": "東広島市",
+   "lat": 34.4262,
+   "lng": 132.7332,
+   "summary_ja": "軟水では酒が腐造しやすいという弱点を、麹をしっかり育て低温でゆっくり発酵させる「軟水醸造法」で克服したとされる広島の酒。この技法は後の吟醸酒の誕生にも影響を与えたと伝わる。",
+   "summary_en": "Hiroshima sake, built on a soft-water brewing method said to have overcome the weakness of mineral-poor water, which once made sake prone to spoiling, by building up robust koji and fermenting slowly at low temperature — a technique said to have gone on to influence the birth of ginjo sake.",
+   "body_ja": "## 何でできているか\n広島の水は、酵母の栄養となるミネラル分が少ない軟水であるとされる。灘の宮水のような中硬水に比べ発酵が進みにくく、かつては腐造による損失に悩まされたと伝わるが、麹を米の内部までしっかり育てる工夫により、軟水でも安定して発酵を進められる酒質が確立されたといい、以後、軟水地帯での酒造りの手本として扱われてきたとされる。\n## どう作るのか\n1898年に完成したとされるこの醸造法は、麹が米の内部まで行き渡るよう麹をしっかり育てることと、醪を低温でゆっくりと発酵させることの二点を特徴とする。三浦仙三郎という醸造家がこの方法を確立し、改良醸造法として文書にまとめ広く公開したと伝わり、技術を独占せず広めたことが各地への波及を後押ししたという。\n## なぜこの形になったのか\n軟水の土地で酒造りを始めた蔵が、原因不明の腐造による損失を重ねる中で、原因が水質のミネラル不足にあると突き止めたことがきっかけになったとされる。低温でじっくり発酵させるこの技法は、香り高い酒を生む工夫として磨かれ、後の吟醸酒という区分の成立にも影響を与えたと伝わり、今日も吟醸酒に力を入れる蔵が多い土地として知られており、酒どころ広島の名を今に伝えているといい、全国の蔵からも参考にされてきたとされる。",
+   "body_en": "## What it's made of\nHiroshima's water is said to be soft, low in the minerals yeast needs to thrive. Compared to the medium-hard miyamizu of Nada, fermentation was harder to drive forward, and breweries here are said to have once suffered repeated losses from spoiled batches — until a method of building up robust koji deep into the rice grain made fermentation reliable even with soft water.\n## How it's made\nCompleted around 1898, the method has two defining features: growing the koji thoroughly enough that its enzymes reach deep into the rice, and fermenting the mash slowly at low temperature. A brewer named Miura Senzaburo is said to have worked out the method and published it widely as a written, improved brewing technique.\n## Why it took this shape\nA brewery working with soft water, suffering repeated unexplained losses to spoilage, is said to have eventually traced the cause to a lack of minerals in the local water. The resulting technique — slow, patient fermentation at low temperature — was refined as a way to draw out fragrance, and is said to have gone on to shape the later emergence of the ginjo category itself.",
+   "sources": [
+    {
+     "title": "三浦仙三郎",
+     "url": "https://ja.wikipedia.org/wiki/三浦仙三郎",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hiroshima-no-sake",
+     "to_slug": "ginjo",
+     "relation_type": "源流",
+     "basis": "広島で確立された軟水醸造法（低温長期発酵）が後の吟醸酒誕生に影響を与えたと伝わる（ウィキペディア「三浦仙三郎」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "akita-no-sake",
+   "name_ja": "秋田の酒",
+   "name_romaji": "Akita no Sake",
+   "name_en": "Akita sake — snow-insulated, slow-fermented and soft",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "秋田県",
+   "origin_city": "秋田市",
+   "lat": 39.7186,
+   "lng": 140.1024,
+   "summary_ja": "軟水を使い、灘の硬水とは対照的にまろやかで細やかな酒質を目指すとされる秋田の酒。雪に埋もれた蔵が保温効果を持つことを生かし、低温でじっくり発酵させる造りが伝統として続いているという。",
+   "summary_en": "Akita sake, brewed with soft water in deliberate contrast to Nada's hard water, aiming for a mellow, delicate character. Breweries buried in snow are said to gain a natural insulating effect from it, a tradition of slow, low-temperature fermentation built around that climate.",
+   "body_ja": "## 何でできているか\n秋田の仕込み水は軟水で、硬水の灘とは対照的にまろやかで細やかな酒を造り出すとされる。酒米には美山錦・秋田酒こまち・山田錦などが使われ、吟醸酒では精米歩合を50%から40%前後まで磨き込む蔵もあるという。洗米や仕込み、瓶詰めには原料米の重量の20倍から30倍もの水が使われるとされ、水の管理そのものが酒質を左右するという。\n## どう作るのか\n酒造りは冬の到来とともに11月頃から始まり、降雪によって空気が清められた中、雪に埋もれた酒蔵は室温の変化が少なく保たれるため、低温でじっくりと発酵を進める仕込みに向くとされる。平成2年には秋田流花酵母（AK-1）が開発され、その後「きょうかい1501号酵母」として全国でも使われるようになったと伝わる。\n## なぜこの形になったのか\n冬の北西季節風がもたらす厳しい寒さと豪雪という気候条件を、酒蔵は弱点ではなく低温長期発酵に適した環境として生かしてきたとされる。軟水という土地の制約に応じて酵母や精米技術を磨き上げてきた積み重ねが、灘とは異なる方向のまろやかな酒質を育んできたといい、地元では「美酒王国」を掲げて酒質を発信しており、雪国ならではの環境を強みとして語っているといい、県全体で酒質向上の取り組みを続けているとされる。",
+   "body_en": "## What it's made of\nAkita's brewing water is soft, said to yield a mellow, delicate sake in deliberate contrast to hard-water Nada. Rice varieties like Miyama Nishiki, Akita Sake Komachi, and Yamada Nishiki go into the mash, and some breweries polish ginjo-grade rice down to 40–50% of its original size. Washing, brewing, and bottling together are said to use 20 to 30 times the rice's weight in water.\n## How it's made\nBrewing begins each year around November as winter sets in; the falling snow is said to purify the air, and breweries buried under it hold a remarkably stable indoor temperature, well suited to slow fermentation at low temperature. In 1990, a locally developed yeast known as AK-1 was created, later adopted nationwide as Brewing Society yeast No. 1501.\n## Why it took this shape\nHarsh cold from winter's northwesterly winds and heavy snowfall are said to have been treated by local breweries not as a hardship but as conditions suited to slow, low-temperature fermentation. Refining yeast and milling technique to work with the constraints of soft water, accumulated over time, is said to have shaped a mellow style distinct from Nada's.",
+   "sources": [
+    {
+     "title": "美酒王国あきたのお酒",
+     "url": "https://osake.or.jp/technology/secret",
+     "publisher": "秋田県酒造組合",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "akita-no-sake",
+     "to_slug": "miyamanishiki",
+     "relation_type": "使用食材",
+     "basis": "秋田で使われる代表的な酒米の一つ（秋田県酒造組合「美酒王国あきたのお酒」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "yamagata-no-sake",
+   "name_ja": "山形の酒",
+   "name_romaji": "Yamagata no Sake",
+   "name_en": "Yamagata sake — many small mountain-water styles",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "山形県",
+   "origin_city": "",
+   "lat": 38.2404,
+   "lng": 140.3633,
+   "summary_ja": "鳥海・朝日・月山など複数の山系から異なる水質の名水が湧く山形県の酒。山系ごとに水が違うため蔵ごとの個性が際立ちやすく、高級酒・吟醸酒の出荷割合が高い県としても知られるとされる。",
+   "summary_en": "Sake from Yamagata Prefecture, where different mountain systems — Chokai, Asahi, Gassan among them — each feed distinctly different spring water. Because the water varies by mountain range, individual breweries stand apart from one another, and the prefecture is also known for a high share of premium, ginjo-grade shipments.",
+   "body_ja": "## 何でできているか\n山形県は名水の宝庫とされ、鳥海・朝日・月山など山系ごとに水質の異なる名水が湧く。この水質の違いが個性的でバラエティ豊かな酒を生み出しているとされ、同じ県内でも蔵によって仕込み水の性格が大きく異なるという。高級酒、とりわけ吟醸酒の出荷割合が高いことも県全体の特徴として知られており、土地ならではの気候風土と文化を生かした銘酒づくりが各地で行われている。\n## どう作るのか\n山形県内には個性豊かな酒蔵が県内全域に点在しており、これだけの数の酒蔵が広く分布しているのは全国的にも珍しいとされる。互いの蔵が品質を競い合う環境が、精米歩合を深く磨き込んだ吟醸酒・大吟醸酒への注力を後押ししてきたと伝わり、小さな蔵でも独自の個性を打ち出しやすい土壌になっているといい、蔵ごとの表現の違いが県全体の魅力になっているという。\n## なぜこの形になったのか\n山形は複数の独立した山系に囲まれた地形を持ち、それぞれの山から流れ出る水の性格が土地ごとに異なるという条件が、単一の「型」に収まらない多様な酒質を育んできたとされる。土地ならではの気候風土と文化を生かした銘酒づくりが、各地の蔵に受け継がれてきたといい、単一の型に収まらない多様さそのものが山形の酒の特徴とされ、飲み比べで違いを楽しむ土地とも言われる。",
+   "body_en": "## What it's made of\nYamagata Prefecture is said to be rich in fine spring water, with the Chokai, Asahi, and Gassan mountain systems each feeding water of a different character. That variation is said to be what gives rise to such a varied, individual range of sake, with brewing water differing sharply from brewery to brewery even within the same prefecture. A high share of premium, ginjo-grade shipments is also a well-known feature of the prefecture as a whole.\n## How it's made\nDistinctive breweries are scattered across the entire prefecture, a density of breweries said to be unusual even by national standards. That environment, with breweries competing against each other on quality, is said to have pushed many toward deeply milled ginjo and daiginjo styles.\n## Why it took this shape\nYamagata's terrain is ringed by several independent mountain systems, each sending down water with its own character, a condition said to have nurtured a variety of styles that refuses to settle into any single type. Sake-making that draws on the particular climate and culture of each locality is said to have been passed down through breweries across the prefecture.",
+   "sources": [
+    {
+     "title": "山形の酒蔵",
+     "url": "https://yamagata-sake.or.jp/",
+     "publisher": "山形県酒造組合",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yamagata-no-sake",
+     "to_slug": "hiroshima-no-sake",
+     "relation_type": "兄弟",
+     "basis": "共に高級酒・吟醸酒の出荷割合の高さで知られる酒どころという共通点（山形県酒造組合公式サイト・ウィキペディア「三浦仙三郎」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "iwate-no-sake",
+   "name_ja": "岩手の酒",
+   "name_romaji": "Iwate no Sake",
+   "name_en": "Iwate sake — home of the Nanbu toji brewing guild",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "岩手県",
+   "origin_city": "花巻市石鳥谷町",
+   "lat": 39.3897,
+   "lng": 141.1478,
+   "summary_ja": "南部杜氏の発祥地とされる岩手県の酒。紫波郡紫波町を発祥とし花巻市石鳥谷町を拠点に発展した杜氏集団で、美しい自然とうまい米・うまい水に恵まれた土地で古くから酒造りが盛んだったと伝わる。",
+   "summary_en": "Sake from Iwate Prefecture, home of the Nanbu toji brewing guild, said to have originated in Shiwa and developed its base in Ishidoriya, Hanamaki. The area's natural setting, good rice, and good water are said to have supported a long-standing brewing tradition.",
+   "body_ja": "## 何でできているか\n岩手県は南部杜氏という、現在では日本最大規模とされる杜氏集団の発祥地とされる。紫波郡紫波町を発祥とし、花巻市石鳥谷町を拠点に活動が広がったと伝わり、この一帯は美しい自然とうまい米、うまい水に恵まれ、古くから酒造りが盛んに行われてきたといい、今日でも南部杜氏の名を冠した酒が各地の蔵で造られているという。\n## どう作るのか\n南部杜氏は北上川流域を出身地とする杜氏集団で、農閑期にあたる冬、村の若者などを率いて酒どころへ集団で出稼ぎに行く形で技術を磨き広めてきたとされる。杜氏を束ねる組合組織も整えられ、卓越した酒造技術を持つ集団として、全国各地の酒蔵で活躍してきたといい、出稼ぎ先で培った技術を地元へ持ち帰ることもあったと伝わり、地元の酒質向上にもつながったとされる。\n## なぜこの形になったのか\n冬に雪深くなり、夏の耕作だけでは暮らしが立ちにくい土地の事情から、農閑期の副収入を求めて酒どころへ出稼ぎに出る習慣が生まれたと伝わる。越後杜氏・丹波杜氏と並び日本を代表する杜氏集団の一つとされ、良い水が取れる土地を求めて技術者が移動する構図が、南部杜氏という集団の形を作ったといい、越後杜氏・丹波杜氏と並んで語られる存在になったとされ、今も県内外の蔵で技を伝え続けているという。",
+   "body_en": "## What it's made of\nIwate Prefecture is said to be the birthplace of the Nanbu toji, today the largest brewing guild in Japan. Originating in Shiwa and building its base in Ishidoriya, Hanamaki, the area is said to be blessed with beautiful natural surroundings, good rice, and good water, supporting active brewing since old times.\n## How it's made\nThe Nanbu toji trace their roots to the Kitakami River basin, and are said to have honed and spread their craft each winter by leading groups of village youths to brew sake in other regions during the farming off-season. An organized guild structure took shape as well, and the group is said to have brought its exceptional brewing skill to breweries across the country.\n## Why it took this shape\nWith heavy winter snow and too little arable land to make a living from summer farming alone, a custom of traveling to brewing regions for winter income is said to have taken root. Alongside the Echigo and Tanba toji, the Nanbu toji stand as one of Japan's leading brewing guilds, their formation shaped by craftsmen moving toward wherever good water could be found.",
+   "sources": [
+    {
+     "title": "南部杜氏協会について",
+     "url": "https://www.nanbutoji.jp/",
+     "publisher": "南部杜氏協会",
+     "accessed_at": "2026-09-08"
+    },
+    {
+     "title": "杜氏",
+     "url": "https://ja.wikipedia.org/wiki/杜氏",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "iwate-no-sake",
+     "to_slug": "tanba-no-sake",
+     "relation_type": "対比",
+     "basis": "共に杜氏集団の出身地を核とする酒どころだが、出稼ぎ先や集団の規模が異なる（ウィキペディア「杜氏」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "tanba-no-sake",
+   "name_ja": "丹波の酒",
+   "name_romaji": "Tanba no Sake",
+   "name_en": "Tanba sake — the toji guild that staffed Nada's breweries",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "兵庫県",
+   "origin_city": "丹波篠山市",
+   "lat": 35.0724,
+   "lng": 135.2211,
+   "summary_ja": "兵庫県丹波篠山市周辺を発祥とする丹波杜氏の土地。灘の蔵元たちが育て上げた杜氏集団とされ、天保年間には灘の蔵の多くが丹波杜氏で占められるまでになったと伝わる、水ではなく人の技術で語られる酒どころ。",
+   "summary_en": "The home ground of the Tanba toji, centered on Tanba-Sasayama in Hyogo Prefecture. Said to be a brewing guild raised up by Nada's own breweries, by the Tenpo era it's said that most Nada breweries were staffed largely by Tanba toji.",
+   "body_ja": "## 何でできているか\n丹波の酒どころとしての性格は、酒そのものの水質よりも、丹波杜氏という人の技術集団に強く結びついているとされる。兵庫県丹波篠山市周辺を出身地とし、灘の蔵元たちが自ら育て上げた杜氏集団と伝わり、かつては大きな勢力を持っていたといい、丹波篠山周辺の農村がその供給源になっていたと伝わり、水よりも人の技が語られる産地とされる。\n## どう作るのか\n丹波の農民が農閑期に灘へ酒造りの出稼ぎに出て腕を磨き、蔵元のもとで杜氏として育てられていく形で技術が受け継がれてきたとされる。天保年間（1830年代から40年代）には、灘の蔵元のほとんどが丹波杜氏で占められるようになったと伝わり、灘の酒質を支える存在になっていったといい、蔵元と杜氏という師弟に近い関係が技術継承を支えたとされる。\n## なぜこの形になったのか\n丹波は山がちで農地が乏しく、冬の農閑期に近隣の酒どころへ技術者を送り出す土壌があったとされる。水運と大消費地への近さで大量生産の体制を整えた灘と、腕のある働き手を送り出す丹波という、土地の条件が異なる二つの地域が結びついたことで、この分業の形が生まれたと伝わり、水の土地と人の土地が支え合う関係として今日も語られているといい、灘の歴史を語る上で欠かせない存在とされる。",
+   "body_en": "## What it's made of\nTanba's identity as a sake-producing area rests less on its own water than on a guild of skilled brewers, the Tanba toji. Based around Tanba-Sasayama in Hyogo Prefecture, the guild is said to have been raised up directly by Nada's own brewery owners, and once carried considerable weight in the industry.\n## How it's made\nFarmers from Tanba are said to have traveled to Nada each winter off-season to brew sake, honing their craft and being trained up as toji under the breweries there, passing skill down through that same route generation after generation. By the Tenpo era of the 1830s and 1840s, most Nada breweries are said to have been staffed largely by Tanba toji, becoming a pillar supporting Nada's sake quality.\n## Why it took this shape\nTanba's mountainous terrain left little farmland, conditions said to have fostered a habit of sending craftsmen to nearby brewing districts each winter off-season. Nada, with its shipping access and proximity to a huge market, built a system for brewing at volume, while Tanba supplied the skilled hands — two regions with different conditions, linked together into this division of labor.",
+   "sources": [
+    {
+     "title": "杜氏",
+     "url": "https://ja.wikipedia.org/wiki/杜氏",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  },
+  {
+   "slug": "ishikawa-no-sake",
+   "name_ja": "石川の酒",
+   "name_romaji": "Ishikawa no Sake",
+   "name_en": "Ishikawa sake — the rich-bodied style of the Noto toji",
+   "type": "ingredient",
+   "shelf": "sake",
+   "genre": "nihonshu",
+   "origin_pref": "石川県",
+   "origin_city": "珠洲市",
+   "lat": 37.4394,
+   "lng": 137.2669,
+   "summary_ja": "能登半島の珠洲市周辺を発祥とする能登杜氏の土地。農業に不向きな土地から近畿地方へ酒造りの出稼ぎに出た「能登衆」の系譜とされ、味の濃い酒質を特徴とする「能登流」として知られてきたという。",
+   "summary_en": "Home ground of the Noto toji, said to have originated around Suzu on the Noto Peninsula. Descended from farmers known as 'Noto-shu' who traveled to the Kinki region to brew sake from land ill-suited to farming, the lineage is known for a rich, full-bodied style called 'Noto-ryu.'",
+   "body_ja": "## 何でできているか\n石川の酒どころとしての性格は、能登杜氏という杜氏集団の技術に強く結びついているとされる。石川県能登半島の先端付近、珠洲市や内浦町（現・能登町）周辺を発祥地とする集団で、その造りは「能登流」と呼ばれ、味の濃い酒質を特徴とする製成酒を生んできたと伝わり、厳しい冬を越す杜氏の経験がその濃さを支えてきたという。\n## どう作るのか\n農業に不向きな地域の人々が、農閑期に近畿地方へ酒造りの出稼ぎに出て「能登衆」と呼ばれたのが始まりとされる。江戸時代後期に技能集団として発祥し、明治時代には大津に職業斡旋所も設けられ、後の鉄道網の発展とともに活動地域が全国へと広がっていったといい、能登の外へ出た杜氏も少なくなかったと伝わり、各地でその濃醇な酒質が評価されてきたという。\n## なぜこの形になったのか\n能登半島の先端は農地に乏しく、冬の農閑期に働き口を求めて他地域へ出る必要があったことが、出稼ぎ杜氏という形を生んだとされる。昭和初期には登録された杜氏だけで400名を超える規模に達したと伝わり、味の濃い酒質という個性を保ちながら、各地の蔵で技術を発揮してきたといい、能登半島という土地の厳しさが技術の礎になったとされ、今も濃醇な酒質を守る蔵が各地に残っているという。",
+   "body_en": "## What it's made of\nIshikawa's character as a sake-producing region is closely tied to the skill of a brewing guild, the Noto toji. Originating near the tip of the Noto Peninsula, around Suzu and the area now known as Noto Town, their approach is called 'Noto-ryu' and is said to have produced sake known for its rich, full-bodied character.\n## How it's made\nPeople from land ill-suited to farming are said to have traveled to the Kinki region to brew sake during the winter off-season, becoming known as the 'Noto-shu' — the origin of the guild. It emerged as an organized craft group in the late Edo period, and by the Meiji era a placement office had been set up in Otsu, with the guild's reach expanding nationwide as the rail network grew.\n## Why it took this shape\nThe tip of the Noto Peninsula had little farmland, forcing people to seek work elsewhere during the winter off-season — the condition said to have given rise to this migrant brewing tradition. By the early Showa era, registered members of the guild are said to have topped 400, and the guild is said to have brought its skill to breweries across the country while keeping its rich, full-bodied signature intact.",
+   "sources": [
+    {
+     "title": "能登杜氏",
+     "url": "https://ja.wikipedia.org/wiki/能登杜氏",
+     "publisher": "ウィキペディア日本語版",
+     "accessed_at": "2026-09-08"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ishikawa-no-sake",
+     "to_slug": "gohyakumangoku",
+     "relation_type": "使用食材",
+     "basis": "北陸地方で広く栽培され、石川県内の酒蔵でも使われる酒米（北陸地方における五百万石の栽培実績）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ],
+   "regions": []
+  }
+ ],
+ "notes": "対象外・要判断:\n- 高知（土佐の淡麗）・福岡（三潟）・佐賀（濃醇）・福島・長野: WebSearchの利用枠を使い切ったため一次資料URLを新規に発見できず、水質・杜氏・気候の因果を1〜2文で断定できる裏付けが取れなかった。japansake.or.jpのGI（地理的表示）一覧には佐賀・福岡・長野（信濃大町/長野）・福島（喜多方/南会津）の記載があるため、追加調査でGI個別ページの本文が取得できれば投入候補になる。高知は今回参照した一次資料候補（国税庁・中央会・県酒造組合等）内に該当ページを見つけられなかった。\n- 速醸酛は生酛・山廃との対比で1本のみ関係を持つ設計にした（源流/派生の裏取りができなかったため対比を採用）。\n- 「三大杜氏」等のランキング的な言い回しは出典（Wikipedia「杜氏」）に見られたが、格付け語禁止の規律に従い本文では使用していない。\n- 灘・伏見の「男酒」「女酒」という呼称は、灘側（宮水記事）に明確な出典があるが、伏見側の「女酒」という呼称そのものを直接裏付ける一次資料は今回見つけられず、伏見の本文では水質と酒質（GI京都の記述）を中心に据え、呼称は伝聞のトーンで扱った。"
+}
