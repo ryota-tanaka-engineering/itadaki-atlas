@@ -10,6 +10,7 @@ export const GUIDE_KINDS = [
   "finding",
   "takeaway",
   "seasons",
+  "shopping",
 ] as const;
 
 export type GuideKind = (typeof GUIDE_KINDS)[number];

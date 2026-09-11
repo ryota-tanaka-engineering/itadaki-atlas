@@ -26,8 +26,14 @@
         }
       ],
       "links": [
-        { "kind": "genre", "slug": "ramen" },
-        { "kind": "shelf", "slug": "noodles" }
+        {
+          "kind": "genre",
+          "slug": "ramen"
+        },
+        {
+          "kind": "shelf",
+          "slug": "noodles"
+        }
       ]
     },
     {
@@ -55,7 +61,12 @@
           "accessed_at": "2026-09-08"
         }
       ],
-      "links": [{ "kind": "genre", "slug": "sushi" }]
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "sushi"
+        }
+      ]
     },
     {
       "slug": "cash-only",
@@ -82,7 +93,260 @@
           "accessed_at": "2026-09-08"
         }
       ],
-      "links": [{ "kind": "genre", "slug": "ramen" }]
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "ramen"
+        }
+      ]
+    },
+    {
+      "slug": "convenience-store-basics",
+      "kind": "shopping",
+      "sort_order": 10,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "コンビニの使い方",
+          "summary": "コンビニでおにぎりやホットスナックを選ぶときのコツ、コーヒーの買い方、現金・IC・タッチ決済での支払い、イートインやゴミの捨て方まで、初めて入る店でも慌てないための基本をまとめました。",
+          "body_md": "## おにぎりの選び方と包装の開け方\nコンビニのおにぎりは、フィルムの中で具とごはん・海苔が分かれて包まれている「パリッと系」の包装が主流なことが多いです。透明フィルムの端についた矢印や数字の順に引っ張ると、海苔がごはんに巻き付いた状態で開けられる仕組みになっていることが多いので、慌てず順番通りに引くのがコツです。具の種類は梅・鮭・ツナマヨ・昆布など定番のものから、季節限定の商品まで幅広く並びます。\n\n## サンドイッチ・パン\nサンドイッチや調理パンの棚には、卵・ハムなどの定番から、地域や季節で変わる商品まで並びます。消費期限が近いものを手前に並べる店が多いとされますが、奥から選んでも問題ありません。\n\n## ホットスナック\nレジ横やカウンター内の温かい食品棚には、揚げ物やホットスナックが並び、注文するとその場で紙袋や容器に入れてもらえることが多いです。指差しや商品名を紙に書いて渡すだけでも通じることが多いです。\n\n## レジ横のおでんと肉まん\n冬場を中心に、レジ横でおでんや肉まんを扱う店があります。おでんは具ごとに選んで容器に入れてもらう形式が多く、辛子の要否を聞かれることもあります。\n\n## イートイン\n店内に飲食スペース（イートインコーナー）がある店舗では、購入した商品をその場で食べられることが多いです。設置状況は店舗によって異なるため、利用したい場合は入店時に確認すると安心です。\n\n## コーヒーの買い方\nセルフ式のドリップコーヒー機を置く店が多く、レジで代金を払ってからカップを受け取り、自分で機械にセットして淹れる流れが一般的です。サイズやアイス・ホットのボタンを間違えないよう、機械の表示を確認するとよいでしょう。\n\n## 支払い方法\n現金のほか、交通系ICカードやクレジットカードのタッチ決済、各種コード決済に対応する店が増えています。対応する決済手段はレジ横のステッカーで確認できることが多いです。\n\n## ゴミの捨て方\n店内で購入した商品のゴミは、店頭のゴミ箱に分別して捨てられることが多いですが、他で買ったものや大量のゴミの持ち込みは断られる場合があります。\n\n## 24時間の使いどころ\n24時間営業の店舗は、深夜早朝の食事や、ATM・トイレを借りたいときに頼れる存在です。ただし24時間営業ではない店舗も増えているため、看板や貼り紙で営業時間を確認すると安心です。\n\n## 関係する食べもの\nおにぎりの具に興味がある方は「ご飯のお供」、練り物系のホットスナックが気になる方は「練り物」も参考にしてください。"
+        },
+        "en": {
+          "title": "How to use a convenience store",
+          "summary": "A quick guide to choosing rice balls and hot snacks, buying coffee, paying by cash, IC card, or tap payment, using the eat-in corner, and sorting your trash — the basics for a first visit.",
+          "body_md": "## Choosing and opening a rice ball (onigiri)\nConvenience store onigiri are often wrapped so the seaweed (nori), filling, and rice stay separate until you open them. Pulling the tabs in the order marked by the arrows or numbers on the film usually wraps the nori around the rice as you open it, so it helps to follow the sequence rather than tearing at random. Fillings range from classics like pickled plum, salmon, and tuna mayo to seasonal specials.\n\n## Sandwiches and bread\nThe sandwich and bakery shelves usually carry standards like egg and ham alongside regional or seasonal items. Some stores stock items closer to their best-by date toward the front, but ones further back are fine too.\n\n## Hot snacks\nNear the register or in a warmer case, you'll often find fried snacks and hot food you can order on the spot; staff usually hand it over in a bag or container. Pointing at what you want, or showing a written name, is often enough to communicate.\n\n## Oden and steamed buns by the register\nMany stores sell oden (a simmered dish) and steamed buns (nikuman) near the register, especially in colder months. For oden, you typically choose items one by one into a container, and staff may ask if you want mustard.\n\n## Eating in (eat-in corners)\nSome stores have a small eat-in area where you can eat what you bought on the spot. Whether one is available varies by store, so it's worth checking when you walk in if you plan to eat there.\n\n## Buying coffee\nMany stores have self-serve drip coffee machines: you usually pay at the register first, take the cup, then brew it yourself at the machine. Double-check the size and hot/iced buttons on the display before starting.\n\n## Paying\nCash, tap payment with transit IC cards or credit cards, and various QR or app payment methods are increasingly accepted. Stickers near the register usually show which methods a store takes.\n\n## Throwing away trash\nTrash from what you bought there can usually be sorted into the bins near the entrance, though stores may decline trash from elsewhere or in large amounts.\n\n## When 24-hour stores come in handy\nStores open around the clock are useful for a late-night or early-morning meal, or for using an ATM or restroom. Not every store keeps 24-hour hours these days, so it's worth checking the posted hours.\n\n## Related foods\nIf the onigiri fillings caught your interest, see \"Gohan no Otomo\" (rice companions); for the fish-paste hot snacks, see \"Nerimono.\""
+        }
+      },
+      "sources": [
+        {
+          "title": "コンビニエンスストア統計データ",
+          "url": "https://www.jfa-fc.or.jp/particle/320.html",
+          "publisher": "一般社団法人日本フランチャイズチェーン協会",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "日本政府観光局（JNTO）公式サイト",
+          "url": "https://www.jnto.go.jp/en/",
+          "publisher": "日本政府観光局",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "nerimono"
+        },
+        {
+          "kind": "shelf",
+          "slug": "rice"
+        },
+        {
+          "kind": "tag",
+          "slug": "handheld"
+        }
+      ]
+    },
+    {
+      "slug": "supermarket-basics",
+      "kind": "shopping",
+      "sort_order": 11,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "スーパーの使い方",
+          "summary": "惣菜や刺身、パック寿司の選び方から値引きシールが貼られる時間帯の目安、量り売りの利用法、レジでの会計と袋詰めの流れ、試食のマナーまで、地元のスーパーを楽しむための基本をまとめました。",
+          "body_md": "## 惣菜・刺身・パック寿司\nスーパーの総菜コーナーには、煮物や揚げ物などの惣菜のほか、刺身の盛り合わせやパック詰めの寿司が並びます。パッケージに製造時刻や消費期限が記載されていることが多いので、購入前に確認すると安心です。\n\n## 値引きシールの時間帯\n消費期限が近づいた惣菜や刺身には、割引シールが貼られることがあります。貼られる時間帯は店によってさまざまで、夕方以降にまとめて貼る店もあれば、複数回に分けて値下げ幅を広げていく店もあるとされます。狙って行っても、必ず手に入るとは限らない点は留意が必要です。\n\n## 地元スーパーだけの名物\n地域のスーパーには、その土地の食文化を反映した総菜や商品が並ぶことがあります。全国チェーンでは見かけない味付けや商品名に出会えるのも、地元スーパーを覗く楽しみの一つです。\n\n## 量り売り\n惣菜やお菓子の一部は、好きな量を選んでパックに詰める量り売り形式の店もあります。トングや専用の袋が用意されていることが多いので、備え付けの道具を使うのがマナーです。\n\n## レジの流れとカゴ・袋\n多くのスーパーでは、買い物カゴの中身をレジで会計したあと、別の台で自分の袋に詰め替える「セルフ袋詰め」の流れが一般的です。レジ袋は有料のことが多く、必要な場合は会計時に伝えます。\n\n## 試食\n試食コーナーが設けられている店もあり、気軽に試せることが多いですが、購入を前提としないマナーとして、食べ過ぎない・使った爪楊枝は所定の容器に戻すなどの配慮が喜ばれます。\n\n## 関係する食べもの\nパック寿司に興味のある方は「寿司」、惣菜の漬物が気になる方は「漬物」も参考にしてください。"
+        },
+        "en": {
+          "title": "How to shop at a supermarket",
+          "summary": "How to choose prepared foods, sashimi, and packaged sushi, when discount stickers tend to appear, region-only specialties, buying by weight, the checkout and bagging flow, and sampling etiquette at a local supermarket.",
+          "body_md": "## Prepared foods, sashimi, and packaged sushi\nSupermarket deli counters carry simmered and fried prepared dishes alongside sashimi platters and packaged sushi. Packaging often shows a prepared time and a best-by date, worth checking before you buy.\n\n## When discount stickers tend to appear\nItems nearing their best-by date, including prepared foods and sashimi, sometimes get a discount sticker. Timing varies a lot by store — some mark everything down at once in the evening, others lower the price in stages — so there's no guarantee of finding a markdown even if you time a visit for it.\n\n## Region-only specialties\nLocal supermarkets sometimes carry prepared foods and products that reflect the area's food culture — flavors and items you won't find at national chains — and browsing them is part of the fun of a local supermarket.\n\n## Buying by weight\nSome prepared foods and sweets are sold by weight: you fill a container or bag with as much as you want. Using the tongs and bags provided is the expected way to serve yourself.\n\n## Checkout and bagging\nAt many supermarkets, you pay for your basket's contents at the register, then move to a separate counter to pack your own bag — a \"self-bagging\" flow. Bags usually cost extra, so mention if you need one when paying.\n\n## Sampling\nSome stores set up sample counters. It's usually fine to try a bite, but taking more than a taste, or leaving a used toothpick somewhere other than the tray provided, is the kind of small thing staff notice.\n\n## Related foods\nIf packaged sushi interests you, see \"Sushi\"; for pickled sides, see \"Tsukemono.\""
+        }
+      },
+      "sources": [
+        {
+          "title": "一般社団法人全国スーパーマーケット協会",
+          "url": "https://www.super.or.jp/",
+          "publisher": "一般社団法人全国スーパーマーケット協会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "sushi"
+        },
+        {
+          "kind": "genre",
+          "slug": "tsukemono"
+        },
+        {
+          "kind": "shelf",
+          "slug": "homestyle"
+        },
+        {
+          "kind": "shelf",
+          "slug": "seafood"
+        }
+      ]
+    },
+    {
+      "slug": "depachika-basics",
+      "kind": "shopping",
+      "sort_order": 12,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "デパ地下の使い方",
+          "summary": "百貨店の地下食品売り場（デパ地下）で惣菜や弁当、手土産の和菓子を選ぶときのコツ、試食のマナー、閉店前の値引きの目安、保冷剤や包装の頼み方、フロアの歩き方までをまとめました。",
+          "body_md": "## 惣菜と弁当\nデパ地下には、有名店の惣菜やお弁当が数多く並びます。量り売りの惣菜もあれば、パック詰めのものもあり、少量から購入できる店も多いです。\n\n## 和菓子の手土産と日持ち\n手土産用の和菓子は、日持ちの目安が箱や説明書きに記載されていることが多いです。持ち歩く時間や渡す相手の予定に合わせて、日持ちする商品を選ぶと安心です。生菓子は当日から数日、焼き菓子は比較的長く日持ちする傾向がありますが、商品ごとに差があるため、購入時に確認するのが確実です。\n\n## 試食\n和菓子や惣菜の一部では試食ができることがあります。スーパー同様、気軽に試せますが、購入前提のマナーとして食べ過ぎない配慮が喜ばれます。\n\n## 閉店前の値引き\n惣菜や弁当は、閉店時間が近づくと値引きされることがあります。時間帯は店や曜日によって異なり、必ず手に入るとは限りません。\n\n## 包装と保冷剤\n持ち帰りに時間がかかる場合は、保冷剤や保冷バッグをお願いできることが多いです。刺身や生菓子など傷みやすいものを購入する際は、レジで一声かけると対応してもらえることが多いです。\n\n## フロアの歩き方\nデパ地下は通路が狭く混雑しやすいため、大きな荷物は入口のロッカーに預けたり、ベビーカーは専用の動線を使うなど、店内の案内表示に従うとスムーズです。\n\n## 関係する食べもの\n和菓子の日持ちが気になる方は「練り物」や「漬物」、和菓子以外の贈り物向けの品も参考にしてください。"
+        },
+        "en": {
+          "title": "How to shop in a depachika (department store food hall)",
+          "summary": "A guide to browsing prepared foods and bento, choosing wagashi as a gift with a good shelf life, sampling etiquette, end-of-day discounts, asking for cold packs and wrapping, and finding your way around a depachika floor.",
+          "body_md": "## Prepared foods and bento\nDepachika floors are lined with prepared dishes and bento boxes from well-known shops, sold both by weight and pre-packed. Many counters let you buy in small quantities.\n\n## Wagashi as a gift, and how long it keeps\nGift-boxed Japanese sweets (wagashi) usually list how long they keep, on the box or an insert. It helps to match your choice to how long you'll be carrying it and when the recipient will eat it — fresh sweets (namagashi) often keep for a day or a few days, while baked sweets tend to last longer, though this varies by item, so it's worth checking at the counter.\n\n## Sampling\nSome wagashi and prepared-food counters offer samples. As in supermarkets, it's fine to try a bite, but taking more than a taste is generally frowned on.\n\n## Discounts before closing\nPrepared foods and bento are sometimes discounted as closing time approaches. The timing varies by store and day, and there's no guarantee your target item will still be there.\n\n## Cold packs and wrapping\nIf you'll be carrying food for a while before eating it, staff can often add an ice pack or a cooler bag on request — worth mentioning at the register, especially for sashimi or fresh sweets.\n\n## Finding your way around the floor\nDepachika aisles can get narrow and crowded. Following the signage for luggage lockers near the entrance or stroller routes usually makes moving around easier.\n\n## Related foods\nIf wagashi's shelf life interests you, see \"Nerimono\" and \"Tsukemono,\" or browse non-confection souvenirs for other gift ideas."
+        }
+      },
+      "sources": [
+        {
+          "title": "日本百貨店協会",
+          "url": "https://www.depart.or.jp/",
+          "publisher": "一般社団法人日本百貨店協会",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "THE DEPA-CHIKA BOOKLET",
+          "url": "https://jsto.or.jp/wp-content/uploads/THE-DEPA-CHIKA-BOOKLET-en.pdf",
+          "publisher": "一般社団法人ジャパンショッピングツーリズム協会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "tsukemono"
+        },
+        {
+          "kind": "genre",
+          "slug": "nerimono"
+        },
+        {
+          "kind": "shelf",
+          "slug": "confections"
+        },
+        {
+          "kind": "shelf",
+          "slug": "sweets"
+        },
+        {
+          "kind": "tag",
+          "slug": "souvenir_non_confection"
+        }
+      ]
+    },
+    {
+      "slug": "ekiben-and-station-food",
+      "kind": "shopping",
+      "sort_order": 13,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "駅ナカと駅弁",
+          "summary": "駅弁が買える場所と売り切れやすい時間帯の目安、車内で食べるときの作法、駅そば・立ち食い店の使い方、駅構内で買えるお土産まで、駅を拠点にした食事と買い物の基本をまとめました。",
+          "body_md": "## 駅弁が買える場所と時間帯\n駅弁は、新幹線や主要駅の改札内外にある売店、ホーム上のワゴン販売などで購入できることが多いです。人気の駅弁は昼前後や夕方に売り切れることがあるため、確実に買いたい場合は早めの時間を選ぶか、事前予約ができる駅弁を探すのも一つの方法です。駅弁を製造・販売できるのは業界団体に加盟した事業者に限られるといい、駅の売店ごとに扱う種類や数が異なります。\n\n## 車内で食べる作法\n新幹線や特急列車の座席では、駅弁を含む飲食が広く受け入れられていますが、匂いの強い食品は周囲への配慮から避けられることもあります。座席のテーブルを使い、食べ終えた容器はゴミ袋にまとめて持ち帰るか、車内のゴミ箱に捨てるのが一般的です。普通列車やロングシート車両では、混雑時の飲食を控える人も多いとされ、車両の状況を見て判断すると安心です。\n\n## 駅そば・立ち食い\n改札内外には、立ち食いスタイルのそば・うどん店があることが多く、短時間でさっと食事を済ませたいときに便利です。券売機で先に食券を買う店が多く、番号や品名を伝えて受け取ります。立ったまま食べる形式のため、荷物は足元やフックに置くスペースが用意されていることもあります。\n\n## 駅構内の土産\n駅構内には、地域の名物を集めた土産物店が入っていることが多く、旅の最後に立ち寄るのに便利です。賞味期限や持ち帰り時間を確認してから選ぶと安心です。改札内でしか買えない限定商品を扱う店もあるため、乗車前に立ち寄りたい場合は改札の内外どちらの店かを確認しておくとよいでしょう。\n\n## 関係する食べもの\n駅弁の具材に興味がある方は「丼物」「寿司」、立ち食いそばが気になる方は「そば」も参考にしてください。"
+        },
+        "en": {
+          "title": "Station food and ekiben (station bento)",
+          "summary": "Where and when to find ekiben (station bento) before it sells out, etiquette for eating on board, how standing soba and udon stalls work, and where to find souvenirs sold inside the station.",
+          "body_md": "## Where and when to buy ekiben\nEkiben are often sold at kiosks inside and outside the ticket gates of shinkansen and major stations, as well as from carts on the platform. Popular ones can sell out around midday or in the evening, so buying earlier — or looking for ones that take advance orders — helps if you have your heart set on a particular one. Only sellers registered with the industry association are said to be allowed to make and sell them, and which varieties a given kiosk carries differs from station to station.\n\n## Eating on board\nEating ekiben at your seat on a shinkansen or limited express is widely accepted, though strong-smelling food is sometimes avoided out of consideration for other passengers. Using the seat-back tray table and taking your trash with you, or using the bin on board, is the usual approach. On local trains or cars with long bench-style seating, many passengers hold off on eating when it's crowded, so it helps to read the car before you start.\n\n## Standing soba and udon stalls\nStalls in or near the ticket gates often serve soba or udon standing up, handy for a quick meal between trains. Many use a ticket machine — you buy a ticket first, then hand it over along with the number or name of what you ordered. Since you eat standing, some stalls provide a spot at your feet or a hook for bags.\n\n## Souvenirs inside the station\nStations often have a shop gathering local specialties, convenient for a last stop before you leave. Checking the best-by date and how long you'll be traveling before choosing is worth doing. Some items are only sold inside the ticket gates, so if you want to grab one before boarding, it's worth checking whether the shop is inside or outside the gates.\n\n## Related foods\nIf the ekiben fillings interest you, see \"Donburi\" and \"Sushi\"; for the standing noodle stalls, see \"Soba.\""
+        }
+      },
+      "sources": [
+        {
+          "title": "日本鉄道構内営業中央会とは？-概要",
+          "url": "http://www.ekiben.or.jp/main/about/index.html",
+          "publisher": "一般社団法人日本鉄道構内営業中央会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "donburi"
+        },
+        {
+          "kind": "genre",
+          "slug": "soba"
+        },
+        {
+          "kind": "genre",
+          "slug": "sushi"
+        },
+        {
+          "kind": "shelf",
+          "slug": "rice"
+        }
+      ]
+    },
+    {
+      "slug": "michinoeki-and-markets",
+      "kind": "shopping",
+      "sort_order": 14,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "道の駅・直売所・市場の使い方",
+          "summary": "産地に近い場所で食材を買う楽しみ方、朝市や魚市場を見学・利用するときの目安、直売所で旬を見分けるコツ、道の駅で出会えるご当地食まで、現地で食材を買うための基本をまとめました。",
+          "body_md": "## 産地で買う\n産地に近い場所で売られる食材は、その日の朝に水揚げ・収穫されたものが並ぶことが多く、鮮度の良さが魅力とされます。ただし天候や漁の状況によって品揃えが変わるため、目当ての品が必ずあるとは限りません。値段も市況によって日々変わるため、「安い」と感じるかどうかは訪れた日次第という面もあります。\n\n## 朝市と魚市場の見学と買い方\n豊洲市場のように、一般の来場者にも見学エリアを開いている市場があります。見学できる時間帯やエリアは市場ごとに決められているため、訪れる前に公式サイトで確認すると安心です。仲卸業者向けの売り場に立ち入る際は、買い付けの意思を伝えると通してもらえることがあるとされますが、一般来場者は見学エリアにとどめるのが基本です。近江町市場のように、観光客も日常的に買い物できる市場もあり、こちらは通常の商店街に近い感覚で利用できることが多いです。朝どれの魚介をその場で味わえる飲食店を併設する市場も多く、買い物と合わせて楽しめます。\n\n## 直売所の旬\n農家や漁協が運営する直売所では、その季節の野菜や果物が中心に並びます。並ぶ品目は時期によって大きく変わるため、「今の旬」を知る手がかりとしても使えます。朝の早い時間に品揃えが充実し、午後には人気の品が売り切れていることもあるとされます。\n\n## 道の駅のご当地食\n道の駅には、地元の食材を使った弁当や軽食、加工品を扱う売店が併設されていることが多いです。ドライブの休憩がてら、その土地ならではの一品に出会えることも道の駅の楽しみとされます。施設によっては産直コーナーやフードコートを兼ねる場合もあり、立ち寄り方は一様ではありません。\n\n## 関係する食べもの\n魚介に興味がある方は「魚」「貝・甲殻類・イカタコ」、海鮮丼が気になる方は「丼物」も参考にしてください。"
+        },
+        "en": {
+          "title": "Roadside stations, direct-sale stands, and markets",
+          "summary": "How to enjoy buying food near where it's produced, visiting and shopping at morning markets and fish markets, what to expect at farm stands, and finding local food at roadside stations (michi-no-eki).",
+          "body_md": "## Buying near the source\nFood sold close to where it's caught or grown is often landed or harvested that same morning, which is part of the appeal. Availability shifts with the weather and the catch, though, so there's no guarantee a specific item will be on hand. Prices move with the day's market conditions too, so whether something feels like a bargain can depend on the day you visit.\n\n## Visiting and shopping at morning markets and fish markets\nSome markets, like Tokyo's Toyosu Market, open a visitor area to the general public. Hours and areas open to visitors are set by each market, so it's worth checking the official site before you go. Areas meant for wholesalers sometimes let in visitors who say they're there to buy, but staying within the designated visitor area is the general rule for casual visitors. Other markets, like Omicho Market in Kanazawa, function more like an everyday shopping street that tourists and locals browse together. Many markets also have restaurants on site serving the morning's catch, so shopping and eating often go hand in hand.\n\n## What's in season at direct-sale stands\nStands run by farmers or fishing cooperatives mostly stock what's in season, so the shelves are also a quick way to see what's currently at its best. Selection tends to be fullest early in the day, and popular items are sometimes gone by the afternoon.\n\n## Local food at roadside stations\nMichi-no-eki (roadside stations) often have a shop selling bento, snacks, and processed goods made from local ingredients — a good excuse to stop and try something specific to the area during a drive. Some also combine a direct-sale corner with a food court, so what you'll find varies from station to station.\n\n## Related foods\nIf seafood interests you, see \"Fish\" and \"Shellfish and cephalopods\"; for seafood rice bowls, see \"Donburi.\""
+        }
+      },
+      "sources": [
+        {
+          "title": "道の駅 公式ホームページ 全国「道の駅」連絡会",
+          "url": "https://www.michi-no-eki.jp/",
+          "publisher": "一般社団法人全国「道の駅」連絡会",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "見学エリア案内 | ザ・豊洲市場【公式】",
+          "url": "https://www.toyosu-market.or.jp/tour-area/",
+          "publisher": "ザ・豊洲市場",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "近江町市場",
+          "url": "https://ohmicho-ichiba.com/",
+          "publisher": "近江町市場商店街振興組合",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "fish"
+        },
+        {
+          "kind": "genre",
+          "slug": "shellfish"
+        },
+        {
+          "kind": "genre",
+          "slug": "donburi"
+        },
+        {
+          "kind": "shelf",
+          "slug": "vegetables"
+        },
+        {
+          "kind": "shelf",
+          "slug": "fruits"
+        }
+      ]
     }
   ]
 }

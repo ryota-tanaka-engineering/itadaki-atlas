@@ -30,9 +30,16 @@ export const guideSourceSchema = z.object({
   accessed_at: z.string().trim().min(1).optional(),
 });
 
+// タグの slug はアンダースコアを含む（例 souvenir_non_confection）ので、link 側だけ緩める
+const linkSlugSchema = z
+  .string()
+  .trim()
+  .min(1, "必須")
+  .regex(/^[a-z0-9_-]+$/, "英小文字・数字・ハイフン・アンダースコアのみ");
+
 export const guideLinkSchema = z.object({
   kind: z.enum(["genre", "shelf", "tag"]),
-  slug: slugSchema,
+  slug: linkSlugSchema,
 });
 
 export const guideSchema = z.object({

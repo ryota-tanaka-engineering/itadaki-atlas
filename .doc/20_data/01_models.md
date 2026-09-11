@@ -187,7 +187,7 @@ erDiagram
 | カラム（guides） | 型 | 内容 |
 | :--- | :--- | :--- |
 | `slug` | text | UNIQUE。`^[a-z0-9-]+$` |
-| `kind` | text | `ordering`（注文）\| `paying`（支払い）\| `manners`（マナー）\| `finding`（店の見つけ方）\| `takeaway`（持ち帰り・土産）\| `seasons`（季節・時間） |
+| `kind` | text | `ordering`（注文）\| `paying`（支払い）\| `manners`（マナー）\| `finding`（店の見つけ方）\| `takeaway`（持ち帰り・土産）\| `seasons`（季節・時間）\| `shopping`（買う場所: コンビニ・スーパー・デパ地下・駅ナカ・市場。2026-09-12 追加） |
 | `sort_order` | integer | kind内の並び順 |
 | `status` | text | `draft` \| `published`（既定 `draft`。anon は `published` のみ select） |
 
