@@ -1,0 +1,994 @@
+{
+ "genres": [
+  {
+   "slug": "gohan-no-otomo",
+   "name_ja": "ご飯のお供",
+   "name_en": "Gohan no otomo (rice companions)",
+   "type": "dish",
+   "shelf": "homestyle",
+   "intro_ja": "白いご飯だけでどこまで箸が進むか、という勝負がこの棚にはあるように見える。塩気を効かせるもの、旨味で押すもの、とろみや歯ざわりで変化をつけるもの——考え方はさまざまだが、どれも主役の米ではなく脇役として存在する点は共通している。乾物や漬け込みで日持ちを稼ぐ知恵、朝の食卓を数分で整える手早さ、港から内陸へ運ぶ流通の工夫。米という土台があってはじめて生まれた道具立てが、ここには並んでいる。",
+   "intro_en": "How far can plain white rice carry a meal on its own? This shelf reads like it is built around that question. Some items push with salt, others with umami, others with a change of texture — the strategies differ, but each one plays a supporting role to the rice itself. Drying and salting for shelf life, a few minutes to pull together a fast breakfast, the logistics of moving preserved food from port to inland table: the whole shelf exists because rice needed the help."
+  }
+ ],
+ "tags": [],
+ "items": [
+  {
+   "slug": "mentaiko",
+   "name_ja": "明太子",
+   "name_romaji": "Mentaiko",
+   "name_en": "Mentaiko — chili-marinated pollock roe",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "たらこを唐辛子だれに漬け込んだ加工品で、粒のはじける食感と塩気・辛味が白飯によく合うとされる。博多で戦後に広まったと伝わり、贈答用から家庭用まで幅広く流通している。",
+   "summary_en": "Pollock roe cured in a chili marinade, its popping texture and heat said to pair naturally with plain rice. It's said to have spread from postwar Hakata and today ranges from gift boxes to everyday packs.",
+   "body_ja": "## 何でできているか\nすけとうだらの卵巣（たらこ）を唐辛子と旨味調味料を効かせた漬け液に漬け込んだものが辛子明太子である。粒がぷちぷちとはじける食感と、じわりと効いてくる辛味、塩気の強さが特徴で、少量でも白飯を何杯も進ませる力を持つとされる。漬け液の配合は製造元ごとに異なり、辛さや旨味の方向性に幅がある。辛さの度合いも甘口から辛口まで幅があり、好みに応じて選べる商品構成になっているという。断面には赤く染まった卵の粒が詰まっており、そのまま白飯にのせるほか、パスタや卵焼きの具材として使われることもある。\n## どう作るのか\n塩漬けにしたたらこを、唐辛子・昆布や鰹の旨味だし・酒などを合わせた調味液に数日漬け込んで作られる。漬け込みの温度と時間で辛味の入り方が変わるとされ、各メーカーが配合を工夫している。パックのまま冷蔵・冷凍で流通し、切り分けてそのままご飯にのせたり、焼いて香ばしさを足したりして食べられる。漬け込みが終わったものはひと腹ずつ薄皮のままパックされ、食べる直前に切り分けるのが一般的とされる。冷凍すれば長く保存できるため、贈答用の箱詰めから家庭用の小分けパックまで商品形態は幅広い。\n## なぜこの形になったのか\n博多の「ふくや」が1949年に明太子の製造・販売を始めたのが、今日広まっている辛子明太子の起こりとされる。博多は釜山との定期航路を持つ港町で、朝鮮半島の食文化に触れる機会が多かった土地だという。戦後まもない食料事情のなかで、たらこを唐辛子で漬け込む加工が博多の名物として根づいていったと伝わる。博多自体はすけとうだらの主な漁場ではなく、卵の多くは北海道や海外からの原料に頼っているとされるが、加工と味付けの技術が博多に集積したことで、原料の産地とは別に土地の名物として広まっていったという。",
+   "body_en": "## What it's made of\nKarashi mentaiko is pollock roe (tarako) cured in a brine spiked with chili and umami seasoning. The eggs pop between the teeth, and a slow-building heat and heavy salt make even a small portion enough to push through several bowls of rice. Every maker mixes its own brine, so the balance of heat and umami varies from brand to brand.\n## How it's made\nSalted tarako is steeped for several days in a marinade of chili, kelp or bonito dashi, and sake. The temperature and length of the soak are said to shape how deep the heat sinks in, and each producer guards its own recipe. Sold chilled or frozen in the pack, it's sliced straight onto rice or grilled first for extra aroma.\n## Why it took this shape\nThe version widely eaten today is said to trace to 1949, when a Hakata shop called Fukuya began making and selling karashi mentaiko. Hakata was a port with a regular ferry line to Busan, a place said to have had frequent contact with Korean food culture. In the lean years just after the war, curing tarako in chili is said to have taken root there as a local specialty.",
+   "sources": [
+    {
+     "title": "会社沿革｜味の明太子ふくや",
+     "url": "https://www.fukuya.com/company/history/",
+     "publisher": "株式会社ふくや",
+     "accessed_at": "2026-09-10"
+    },
+    {
+     "title": "沿革｜明太子のかねふく",
+     "url": "https://www.kanefuku.co.jp/history/",
+     "publisher": "株式会社かねふく",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "福岡県",
+     "city": "福岡市博多区",
+     "lat": 33.5926,
+     "lng": 130.4088,
+     "relation_type": "本場",
+     "note_ja": "1948年に「ふくや」が創業し、翌1949年にこの地で辛子明太子の製造・販売を始めたのが今日の明太子の起こりとされる。",
+     "note_en": "Fukuya was founded here in 1948, and the following year began making and selling karashi mentaiko — said to be the origin of the mentaiko eaten today.",
+     "source_url": "https://www.fukuya.com/company/history/"
+    },
+    {
+     "pref": "福岡県",
+     "city": "福岡市東区",
+     "lat": 33.6089,
+     "lng": 130.4203,
+     "relation_type": "本場",
+     "note_ja": "博多港に近いこの一帯には「かねふく」など明太子メーカーの本社・工場が集まり、冷凍原料の輸入から製造までを担う一大生産集積地になっているという。",
+     "note_en": "Close to Hakata Port, this district is home to the headquarters and factories of makers like Kanefuku, forming a production cluster that handles everything from importing frozen roe to finished mentaiko.",
+     "source_url": "https://www.kanefuku.co.jp/history/"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "tarako",
+     "relation_type": "派生",
+     "basis": "唐辛子調味液に漬け込んだたらこの加工品とされる"
+    }
+   ],
+   "tags": [
+    "spicy",
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "tarako",
+   "name_ja": "たらこ",
+   "name_romaji": "Tarako",
+   "name_en": "Tarako — salted pollock roe",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "すけとうだらの卵巣を塩漬けにした加工品で、辛子明太子のもとになった素材でもある。ほのかな塩気と粒のはじける食感を活かし、焼いてもそのままでも白飯に添えられる、和食全般で使われる定番の食材とされる。",
+   "summary_en": "Walleye pollock roe cured in salt alone — the base ingredient behind karashi mentaiko. Its mild saltiness and popping texture come through whether eaten raw or grilled, alongside rice.",
+   "body_ja": "## 何でできているか\nすけとうだらの卵巣を塩だけで漬けたものがたらこである。辛子明太子のような辛味はなく、卵本来の塩気と旨味、粒がぷちぷちとはじける食感がそのまま前面に出る。焼くと表面が香ばしくなり身が締まるため、生のまま食べる場合と焼いて食べる場合とで味わいが変わるとされる。別名「赤いダイヤ」とも呼ばれ、おにぎりの具やお茶漬けの具、いかと和えて酒の肴にするなど、和食全般で幅広く使われる食材とされる。\n## どう作るのか\n漁獲後すぐに卵巣を取り出し、卵の膜を破らないよう丁寧に塩水に漬け込んで熟成させる。塩加減と漬け込み時間の管理が味を左右するとされ、産地や業者ごとに製法が受け継がれている。パックのまま冷蔵・冷凍で流通し、切り分けてご飯にのせたり、焼いて弁当のおかずにしたりして食べられる。加工前の卵をあえて「生たらこ」と呼び分け、塩漬け後の非加熱のものと区別することもあるという。\n## なぜこの形になったのか\n江戸時代前期にはすでに「鱈の子は北国より出る名物也」と記された記録が残るという。明治期に北海道でまだら漁が振るわず、代わってすけとうだら漁が発展したことで卵の加工が広まったと伝わる。福岡ではこの塩漬けのたらこ自体を「明太子」と呼び、辛子で漬けたものとは呼び分けているといい、土産物として広まった辛子明太子の略称が全国に定着するうちに、明太子といえば辛いものを指す用法が一般化していったとされる。",
+   "body_en": "## What it's made of\nTarako is pollock roe cured in salt alone — no chili, unlike its spicy cousin karashi mentaiko. What comes through is the egg's own saltiness and umami, and the same popping texture between the teeth. Grilled, the surface turns fragrant and the roe firms up, so raw and grilled versions are said to taste noticeably different.\n## How it's made\nThe roe sac is removed from the fish soon after catching and carefully cured in brine without tearing the delicate membrane. How the salt and curing time are managed is said to shape the flavor, and each producer and region keeps its own method. Sold chilled or frozen, it's sliced onto rice or grilled as a side for a bento.\n## Why it took this shape\nA record from the early Edo period is said to already describe pollock roe as 'a specialty that comes from the northern provinces.' In the Meiji era, when true-cod fishing in Hokkaido declined and walleye pollock fishing grew in its place, processing the roe is said to have spread accordingly. In Fukuoka, this plain salted roe is itself called mentaiko, kept distinct from the chili-cured version.",
+   "sources": [
+    {
+     "title": "たらこ",
+     "url": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%82%89%E3%81%93",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "北海道",
+     "city": "白老町（虎杖浜）",
+     "lat": 42.5686,
+     "lng": 141.3597,
+     "relation_type": "名産地",
+     "note_ja": "日本屈指のたらこ加工地とされ、「虎杖浜たらこ」は地域団体商標として登録されているという。",
+     "note_en": "Considered one of Japan's leading tarako-processing areas, the name 'Kojohama tarako' is registered as a regional collective trademark.",
+     "source_url": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%82%89%E3%81%93"
+    },
+    {
+     "pref": "宮城県",
+     "city": "石巻市",
+     "lat": 38.4342,
+     "lng": 141.3033,
+     "relation_type": "名産地",
+     "note_ja": "遠洋漁業の基地である石巻漁港周辺に水産加工品業者が多数立地し、かつてはたらこ加工生産量日本一の町だったとされる。",
+     "note_en": "Around Ishinomaki's fishing port, a base for deep-sea fishing, many seafood processors clustered — the town was once said to lead Japan in tarako output.",
+     "source_url": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%82%89%E3%81%93"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "sujiko",
+     "relation_type": "対比",
+     "basis": "同じ魚卵の加工品でも、鱈の卵と鮭の卵で粒の大きさと味付けが違う"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "nori-no-tsukudani",
+   "name_ja": "海苔の佃煮",
+   "name_romaji": "Nori no Tsukudani",
+   "name_en": "Nori tsukudani — nori simmered dark in soy sauce",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "刻んだ海苔を醤油とみりんで汁気がなくなるまで煮詰めた保存食で、とろりとした照りと磯の香りが特徴とされる。少量でご飯によく絡み、瓶詰めにして常温で長く常備できる、佃煮の中でも定番の型のひとつという。",
+   "summary_en": "Chopped nori simmered down slick in soy sauce and mirin, said to carry a glossy sheen and strong sea aroma. A small spoonful clings to rice, and jarred, it keeps for a long time.",
+   "body_ja": "## 何でできているか\n生海苔や板海苔の切れ端を醤油、みりん、砂糖でとろりと煮詰めたものが海苔の佃煮である。汁気がなくなるまで煮詰めることで海苔同士がまとまり、箸でつまむとご飯にしっとりと絡みつく。磯の香りと醤油の甘辛さが層になって感じられるのが持ち味とされる。とろみのある食感は熱いご飯に混ぜ込んでも風味が飛びにくく、おにぎりの具や卵焼きの下味としても使われることがあるという。\n## どう作るのか\n刻んだ海苔を鍋に入れ、醤油・みりん・砂糖・水を加えて弱火でじっくり煮詰める。焦げやすいため終盤はへらで絶えず混ぜながら、汁気がとろりとするまで煮詰めるのが基本とされる。出来上がったものは瓶や真空パックに詰めて保存され、常温でも長く持つ常備菜として扱われる。海苔の風味を飛ばさないよう煮詰めすぎないことも仕上がりを左右する要点だという。\n## なぜこの形になったのか\n佃煮そのものは、白魚や貝など小さな魚介を醤油で煮詰めて日持ちさせる加工として東京・佃島周辺で広まったと伝わる。板海苔の生産地に近い東京湾岸では、切れ端や規格外の海苔を無駄にしない加工としても佃煮の手法が使われてきたとされ、海苔の佃煮はその応用のひとつとして定着していったという。魚介そのものを使わずとも同じ保存の考え方が海藻に転用できた点が、佃煮という加工法の広がりを物語っているとも言える。",
+   "body_en": "## What it's made of\nNori tsukudani is fresh or sheet nori simmered down slick with soy sauce, mirin, and sugar. Boiling off the liquid draws the shreds together into a dark, glossy mass that clings to rice the moment chopsticks lift it. The layered taste — sea-mineral nori under the sweet-salty pull of soy — is what carries it.\n## How it's made\nChopped nori goes into a pot with soy sauce, mirin, sugar, and water, then simmers low and slow. It scorches easily, so toward the end it's stirred constantly with a spatula until the liquid turns thick and glossy. The finished tsukudani is packed into jars or vacuum bags and keeps at room temperature as a pantry standby.\n## Why it took this shape\nTsukudani itself is said to have spread from the Tsukuda-jima area of Tokyo, where small seafood like whitebait and shellfish was simmered in soy sauce to keep it from spoiling. Along the Tokyo Bay coastline, near nori-producing areas, the same method is said to have been used on nori scraps and off-grade sheets that would otherwise go to waste — and nori tsukudani is said to have taken hold as one such adaptation.",
+   "sources": [
+    {
+     "title": "佃煮 東京都｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_25_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "tsukudani",
+     "relation_type": "兄弟",
+     "basis": "醤油とみりんで煮詰める同じ手法を海苔に用いる"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "ajitsuke-nori",
+   "name_ja": "味付け海苔",
+   "name_romaji": "Ajitsuke Nori",
+   "name_en": "Ajitsuke nori — sweet-soy seasoned toasted nori",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "東京都",
+   "origin_city": "中央区（日本橋）",
+   "lat": 35.6852,
+   "lng": 139.7745,
+   "primary_style": "",
+   "summary_ja": "板海苔に醤油と砂糖ベースの味付けをして焼き上げた加工品で、明治期に京都行幸の土産として考案されたと伝わる。パリパリとした食感の中で味と香りが一気に広がり、とくに関西でよく使われる海苔の型という。",
+   "summary_en": "Sheet nori brushed with a soy-and-sugar seasoning and toasted crisp, said to have been devised as a gift for an imperial visit to Kyoto in the Meiji era. Its snap gives way to a burst of flavor and aroma.",
+   "body_ja": "## 何でできているか\n板海苔に醤油と砂糖を主とした調味液を塗って焼き上げたものが味付け海苔である。加熱乾燥されているためパリパリとした食感を保つが、口に入れると唾液で調味料が溶け出し、海苔の香りと甘辛い味が一気に広がる。無地の焼き海苔よりも小さくカットされ、数枚まとめて包装されることが多い。関西ではコンビニのおにぎりも含めて味付け海苔が主流とされ、首都圏の焼き海苔中心の使われ方とは対照的だという。\n## どう作るのか\n板海苔の表面に醤油ベースの調味液を刷毛などで塗り、乾燥・加熱して仕上げる。調味液は醤油と砂糖を軸に各社が独自の配合を持つとされ、味の濃さや甘みの強さに違いが出る。湿気を吸うと海苔同士が貼りつきやすくなるため、食べる直前に開封するのが基本とされる。ロール式の味付け機が開発されたことで大量生産が可能になり、コストを抑えた供給ができるようになったとも伝わる。\n## なぜこの形になったのか\n1869年、山本海苔店の2代目・山本德治郎が明治天皇の京都行幸の土産として発明したのが始まりと伝わる。海苔の産地から遠い土地では品質が落ちた海苔しか届かず評判が悪かったため、風味を補い保存性も高める工夫として味付けが広まったとされ、とりわけ産地から遠い関西で定着していったという。3代目德治郎の代には海外への輸出も進められ、味付け海苔という加工の形そのものが広く知られるようになったと伝わる。",
+   "body_en": "## What it's made of\nAjitsuke nori is sheet nori brushed with a soy-and-sugar seasoning and dried until crisp. Heat-drying keeps it snappy, but the moment it hits the tongue, saliva dissolves the seasoning and the nori's aroma opens up alongside a sweet-salty hit. It's usually cut smaller than plain toasted nori and packaged in small stacked sets.\n## How it's made\nA soy-based seasoning liquid is brushed onto sheet nori, which is then dried and heat-finished. Each maker is said to keep its own soy-and-sugar ratio, so the intensity of salt and sweetness varies by brand. Because it draws moisture and the sheets stick together once opened, it's meant to be unwrapped just before eating.\n## Why it took this shape\nThe story goes that in 1869, Yamamoto Tokuzaemon II of the Yamamoto Nori shop invented it as a gift for Emperor Meiji's visit to Kyoto. Nori shipped far from its production areas is said to have arrived in poor shape and sold badly on reputation alone — so seasoning it, both to mask the lost freshness and to extend its keeping power, is said to have caught on, especially in the Kansai region.",
+   "sources": [
+    {
+     "title": "味付け海苔",
+     "url": "https://ja.wikipedia.org/wiki/%E5%91%B3%E4%BB%98%E3%81%91%E6%B5%B7%E8%8B%94",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "nori",
+     "relation_type": "派生",
+     "basis": "板海苔に醤油ベースの味付けをして加工したもの"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "natto",
+   "name_ja": "納豆",
+   "name_romaji": "Natto",
+   "name_en": "Natto — fermented soybeans",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "蒸した大豆を納豆菌で発酵させた保存食で、糸引きの粘りと独特の香りが特徴とされる。関東以北で古くから親しまれ、水戸や仙台など複数の産地がそれぞれの型を伝えている。",
+   "summary_en": "Steamed soybeans fermented with natto bacteria, known for their sticky threads and distinctive aroma. Long popular across Kanto and points north, with producing areas like Mito and Sendai each carrying their own version.",
+   "body_ja": "## 何でできているか\n蒸した大豆を納豆菌で発酵させたものが納豆である。箸でかき混ぜるとねばねばとした糸を引き、豆本来の甘みに発酵由来の独特の香りが重なる。粒の大きさは大粒から小粒までさまざまで、産地や品種によって好まれる粒の大きさに違いがあるとされる。経木や藁づとに包んだもの、干して乾燥させた干し納豆など、地域によって見た目や食感の異なる型が伝わっているのも特徴という。\n## どう作るのか\n蒸した大豆に納豆菌を散布して容器に詰め、温度と湿度を管理した室でじっくり発酵させたのち、冷却・熟成させて仕上げる。工程自体は単純だが、発酵から熟成までの温度管理が出来を大きく左右するとされる。藁づとに包んで発酵させる昔ながらの製法も一部で受け継がれている。切り干し大根を混ぜて塩漬けにするそぼろ納豆のように、地域ごとに保存性を高めた食べ方も伝わっているという。\n## なぜこの形になったのか\n雪深い米作地帯で藁と煮豆が出会ったことがきっかけと考えられており、魚や野菜が乏しい時期のたんぱく源として関東以北で広く食べられてきたと伝わる。水戸では小粒の早生大豆が醤油や味噌の加工に向かず納豆に回されたとされ、明治期の鉄道開通で駅売り土産となって産地として知られるようになったという。西日本では魚介が手に入りやすかったことなどから食べる習慣が根づかなかったとも考えられている。",
+   "body_en": "## What it's made of\nNatto is steamed soybeans fermented with natto bacteria. Stir it with chopsticks and it pulls into sticky threads, the beans' own sweetness layered under a distinctive fermented aroma. Bean size ranges from large to small, and different regions and varieties are said to favor different sizes.\n## How it's made\nNatto bacteria is sprayed onto steamed soybeans, packed into containers, and left to ferment slowly in a temperature- and humidity-controlled room before cooling and aging. The process itself is simple, but the temperature control through fermentation and aging is said to matter most. In a few places, the old method of fermenting the beans wrapped in rice straw is still kept alive.\n## Why it took this shape\nIt's thought to have begun when boiled soybeans met rice straw in the snow country's rice-growing regions, and it's said to have spread widely across Kanto and points north as a protein source in seasons short on fish and vegetables. In Mito, small early-ripening soybeans unsuited to soy sauce or miso are said to have gone into natto instead, and once the railway arrived in the Meiji era, it's said to have become a station souvenir that made the city's name as a producing area.",
+   "sources": [
+    {
+     "title": "納豆（なっとう）茨城県｜にっぽん伝統食図鑑",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/natto_ibaraki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-10"
+    },
+    {
+     "title": "納豆（なっとう）宮城県｜にっぽん伝統食図鑑",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/nattou_miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "茨城県",
+     "city": "水戸市",
+     "lat": 36.3418,
+     "lng": 140.4468,
+     "relation_type": "本場",
+     "note_ja": "早生大豆は粒が小さく醤油・味噌の加工には向かなかったため納豆に回されたとされ、1889年の鉄道開通で駅売り土産となったことが産地として広まる契機になったという。",
+     "note_en": "Small early-ripening soybeans, ill-suited to soy sauce or miso, are said to have gone into natto instead, and the town's fame as a producing area is said to trace to 1889, when the railway arrived and natto became a platform souvenir.",
+     "source_url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/natto_ibaraki.html"
+    },
+    {
+     "pref": "宮城県",
+     "city": "仙台市",
+     "lat": 38.2682,
+     "lng": 140.8694,
+     "relation_type": "本場",
+     "note_ja": "宮城県は大豆作付面積が北海道に次ぐ全国2位とされ、1920年に仙台で純粋培養した納豆菌による近代的な製法が確立されたことから、大豆生産と製法両面で産地として知られてきたという。",
+     "note_en": "Miyagi is said to have the second-largest soybean acreage in Japan after Hokkaido, and in 1920 a modern method using pure-cultured natto bacteria was established in Sendai — giving the region a reputation built on both raw soybeans and production technique.",
+     "source_url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/nattou_miyagi.html"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "hikiwari-natto",
+     "relation_type": "派生",
+     "basis": "大豆を砕いてから発酵させた挽き割りタイプ"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "hikiwari-natto",
+   "name_ja": "挽き割り納豆",
+   "name_romaji": "Hikiwari Natto",
+   "name_en": "Hikiwari natto — crushed, skinned soybeans fermented into natto",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "大豆を砕いて表皮を除いてから発酵させる納豆の型で、丸大豆納豆よりなめらかな舌触りを持つとされる。青森・秋田・岩手などで江戸時代以前から作られてきたと伝わる、糸引き納豆の中の一つの型である。",
+   "summary_en": "A style of natto made from soybeans crushed and skinned before fermenting, said to feel smoother on the tongue than whole-bean natto. It's said to have been made in Aomori, Akita, and Iwate since before the Edo period.",
+   "body_ja": "## 何でできているか\n大豆を炒って粗く砕き、表皮を取り除いてから発酵させたものが挽き割り納豆である。丸ごと発酵させる丸大豆納豆と比べて粒の表面積が大きいため粘りが強く出やすく、舌触りがなめらかになるとされる。表皮がない分、口当たりが軽く感じられるという声もあり、粒の食感をあまり好まない人にも受け入れられやすい型だという。\n## どう作るのか\n大豆を炒ってから粗く挽き割り、表皮を除いた状態で煮て、納豆菌を加えて発酵させる。丸大豆よりも小さく砕かれているため発酵が進みやすいとされ、短時間で仕上がる点も特徴という。汁物に入れたり、ご飯に混ぜたりと、粒のまま食べるよりも和える料理に使われやすく、納豆汁の具材や、練り物のつなぎとして使われることもあるという。\n## なぜこの形になったのか\n青森・秋田・岩手などで江戸時代以前から作られていたと伝わる型で、山形県米沢地方には挽き割り納豆に麹と塩を加えて樽で熟成させる「五斗納豆」という郷土食も残るという。丸大豆を挽き割ることで発酵の均一さや保存のしやすさを高める工夫として、寒冷な地域で広まっていったと考えられている。現在は塩分を抑えた「雪割納豆」の名でも販売されており、丸大豆納豆とは別の商品棚に並ぶ独立した型として扱われることが多いという。",
+   "body_en": "## What it's made of\nHikiwari natto starts with soybeans that are roasted, coarsely crushed, and stripped of their skins before fermenting. With more surface area exposed than whole-bean natto, it tends to turn stickier and feels smoother on the tongue — some say the missing skins even make it feel lighter in the mouth.\n## How it's made\nRoasted soybeans are coarsely crushed, skinned, boiled, then fermented with natto bacteria. Being smaller than whole beans, they're said to ferment faster, which also shortens the process. It's used less often eaten whole and more often mixed into soup or stirred straight into rice.\n## Why it took this shape\nThis type is said to have been made in Aomori, Akita, and Iwate since before the Edo period, and Yamagata's Yonezawa region still keeps a local food called goto-natto, made by packing hikiwari natto with koji and salt into a barrel to age. Crushing whole soybeans, it's thought, was a way to even out fermentation and improve keeping — a refinement that took hold in the region's cold climate.",
+   "sources": [
+    {
+     "title": "糸引き納豆にはどんな種類がありますか？｜納豆百科事典",
+     "url": "https://www.natto.or.jp/hyakka/ped_natto08.html",
+     "publisher": "全国納豆協同組合連合会",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "soboro-natto",
+     "relation_type": "兄弟",
+     "basis": "どちらも大豆や具材を加工して食感を変えた納豆の食べ方の型"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "sake-flake",
+   "name_ja": "鮭フレーク（焼き鮭ほぐし）",
+   "name_romaji": "Sake Flake",
+   "name_en": "Sake flake — flaked grilled salmon",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "焼いた鮭の身をほぐして作る保存食で、瓶やパウチに詰めて常備される。骨や皮を除いた食べやすさから、ご飯に混ぜたりのせたりして手軽に使われる、忙しい朝にも重宝される一品とされる。",
+   "summary_en": "Grilled salmon flesh flaked apart and kept jarred or pouched on the shelf. With the bones and skin already removed, it's an easy way to top or mix into rice.",
+   "body_ja": "## 何でできているか\n焼くか蒸すかした鮭の身を骨と皮を除いてほぐしたものが鮭フレークである。塩気は控えめから強めまで商品によって幅があり、そのままご飯にのせても、混ぜご飯やおにぎりの具にしても使える汎用性の高さが持ち味とされる。ほろほろとした身のほぐれ方が食感の中心になり、子どもや高齢者にも食べやすい骨のない形として重宝されているという。\n## どう作るのか\n塩を振った鮭を焼くか蒸すかしたのち、骨と皮を丁寧に取り除きながら手や機械でほぐしていく。瓶詰めやレトルトパウチに詰めて加熱殺菌することで常温保存できる商品として流通しており、開封後は冷蔵で保存して早めに食べ切ることが勧められている。塩鮭を使うか生の鮭を使うかで塩気の強さが変わり、商品ごとに味の方向性が分かれるという。\n## なぜこの形になったのか\n鮭を焼いたり干したりして保存する加工は、鮭漁が盛んな北海道などで古くから行われてきたと伝わる。骨や皮を取り除いてほぐす形は、瓶詰め・缶詰技術の普及とともに広まった比較的新しい加工とされ、骨を気にせず食べられる手軽さが弁当やおにぎりの具として重宝される理由になっているという。冷蔵庫の普及以前から根づいていた鮭の保存文化が、現代の加工食品として姿を変えたものとも言える。",
+   "body_en": "## What it's made of\nSake flake is grilled or steamed salmon, boned, skinned, and flaked apart by hand or machine. Saltiness ranges from mild to assertive depending on the brand, and its real strength is versatility — spooned straight onto rice, folded into mixed rice, or packed into a rice ball. The soft, crumbly way the flesh comes apart is the texture that defines it.\n## How it's made\nSalted salmon is grilled or steamed, then carefully boned and skinned before being flaked apart. Packed into jars or retort pouches and heat-sterilized, it's sold shelf-stable; once opened, it's meant to be refrigerated and eaten before long.\n## Why it took this shape\nGrilling or drying salmon for preservation is said to go back a long way in salmon-fishing regions like Hokkaido. Boning and flaking it into this form is thought to be a comparatively recent step, one that spread alongside jarred and canned food technology — and not having to pick out bones is said to be exactly why it's become a bento and rice-ball staple.",
+   "sources": [
+    {
+     "title": "鮭とば（さけとば）北海道｜にっぽん伝統食図鑑",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/saketoba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "sake-salmon",
+     "relation_type": "使用食材",
+     "basis": "焼いた鮭の身を主原料として使う"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "ika-no-shiokara",
+   "name_ja": "いかの塩辛",
+   "name_romaji": "Ika no Shiokara",
+   "name_en": "Ika no shiokara — salted, fermented squid",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "いかの身とわたを塩で漬け込んで発酵させた珍味で、強い塩気の中に旨味が凝縮されているとされる。製法によって赤作り・白作り・黒作りなどの型があり、地域や好みに応じて選び分けられているという。",
+   "summary_en": "Squid flesh and innards salted together and left to ferment, its heavy salt said to hold concentrated umami. Depending on the method, there are named types like aka-zukuri, shiro-zukuri, and kuro-zukuri.",
+   "body_ja": "## 何でできているか\nいかの身を細切りにし、わた（内臓）と塩を加えて漬け込み発酵させたものがいかの塩辛である。強い塩気の奥からいか本来の甘みとわたのコクがにじみ出るのが持ち味とされる。製法によって「赤作り」「白作り」「黒作り」の3種があり、味わいや色合いに違いが出るという。赤作りはいかの切り身にわたと塩を加えて熟成させたもので、最も流通量が多い型とされる。\n## どう作るのか\n新鮮ないかを身とわたに分け、身は細切りにしてわたと塩を加えてよく和える。冷蔵庫で数日から数週間かけて熟成させることで、わたの酵素の働きにより旨味と粘りが増していくとされる。皮を剥いだ身を使う白作り、いか墨を加える黒作りなど、地域や製法によって味の方向性が変わるという。近年は塩分を抑えた製品も増え、以前より軽い塩気のものも流通しているとされる。\n## なぜこの形になったのか\n新鮮な魚介に恵まれた地域で、身と内臓を余さず塩漬けにして保存する知恵から生まれたと考えられている。似た加工に酒盗があるが、内臓だけを使う酒盗に対し、塩辛は身と内臓の両方を使う点で異なるとされる。冷蔵技術のない時代、豊富な水揚げを長く食べつなぐための工夫として各地に根づいていったと伝わる。地域ごとに作り方が枝分かれしたのも、それぞれの土地で手に入りやすい塩加減や熟成期間を追い求めた結果だとも考えられている。",
+   "body_en": "## What it's made of\nIka no shiokara is squid flesh sliced thin, mixed with its innards and salt, and left to ferment. Under the heavy salt, the squid's own sweetness and the richness of the innards are said to seep through. Depending on the method, there are three named types — aka-zukuri, shiro-zukuri, and kuro-zukuri — each said to differ in flavor and color.\n## How it's made\nFresh squid is separated into flesh and innards; the flesh is sliced thin and mixed well with the innards and salt. Left to age in the refrigerator for days to weeks, enzymes from the innards are said to build up both umami and stickiness over that time. Shiro-zukuri uses skinned flesh, kuro-zukuri adds squid ink — the method and region are said to steer the flavor in different directions.\n## Why it took this shape\nIt's thought to have grown out of a preservation instinct in seafood-rich regions — salting flesh and innards together so nothing from the catch went to waste. A similar product, shuto, is said to differ in using only the innards, where shiokara uses both flesh and innards. Before refrigeration, it's said to have taken root region by region as a way to keep eating a heavy catch long after it came in.",
+   "sources": [
+    {
+     "title": "塩辛（しおから）宮城県｜にっぽん伝統食図鑑",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/siokara.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "sakana-no-shiokara",
+     "relation_type": "兄弟",
+     "basis": "いかを主素材にする塩辛と魚を主素材にする塩辛、同じ塩辛でも素材が違う"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "saba-no-shiokara",
+   "name_ja": "鯖の塩辛",
+   "name_romaji": "Saba no Shiokara",
+   "name_en": "Saba no shiokara — salted, fermented mackerel",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "島根県",
+   "origin_city": "松江市美保関町",
+   "lat": 35.561,
+   "lng": 133.326,
+   "primary_style": "",
+   "summary_ja": "頭を落とした鯖を内臓ごと塩漬けにして発酵させた島根・美保関の珍味で、強い塩気の中に旨味が増していくとされる。かつては傷みやすい鯖を長く保存する漁師の知恵だったという。",
+   "summary_en": "Beheaded mackerel, salted with the innards still in and left to ferment — a specialty of Mihonoseki, Shimane, its salt said to give way to deepening umami. It's said to have started as a fisherman's way to keep mackerel, a fish famous for spoiling fast.",
+   "body_ja": "## 何でできているか\n頭を落とした真鯖を内臓ごと輪切りにし、塩漬けにして発酵させたものが鯖の塩辛である。強い塩気の奥に鯖の脂と旨味が凝縮された味わいで、そのまま少量をご飯にのせるほか、酒の肴としても親しまれているという。半年ほど熟成が進むと身が柔らかくなり、塩辛さの中に旨味が増してくるとされる。近年ではパスタやサラダに使うアレンジも紹介されており、アンチョビのような調味料としても扱われているという。\n## どう作るのか\n1〜4月ごろの脂の少ない真鯖を選び、頭を落として内臓ごと長年継ぎ足してきた塩辛のたれに漬け込む。最初の2か月は数日おきに棒でかき混ぜ、その後は冷蔵庫でじっくりと熟成させる。半年ほど経つと発酵が進んで身がとろりとした状態になり、塩辛さの中に旨味が増してくるとされる。長年継ぎ足しているたれを使うことで、その家や店ならではの風味が育っていくという。\n## なぜこの形になったのか\n島根県松江市美保関町は日本海と中海に囲まれた古くからの漁師町で、鯖の塩辛はこの地に伝わる庶民の味とされる。「鯖の生き腐れ」と言われるほど傷みやすい鯖を、冷蔵庫のない時代に加工・保存し、遠くへ運んだり自宅で食べつないだりするための知恵として各家庭で作られてきたと伝わる。松江市はさばの消費量が全国有数とされ、身近な魚を無駄なく食べ切る土地の食習慣が背景にあると考えられている。",
+   "body_en": "## What it's made of\nSaba no shiokara is beheaded mackerel, sliced into rounds with the innards still in, salted and left to ferment. Under the heavy salt sits concentrated mackerel fat and umami — a spoonful goes on rice, and it's also kept as a companion to sake. Left to age around half a year, the flesh softens and the umami deepens under the salt.\n## How it's made\nLean mackerel caught around January to April is beheaded and packed, innards and all, into a shiokara marinade kept going for years. For the first two months it's stirred with a pole every few days; after that it ages slowly in the refrigerator. By around six months, fermentation has turned the flesh soft and rich, the salt now carrying real umami underneath.\n## Why it took this shape\nMihonoseki, in Matsue, Shimane, is an old fishing town ringed by the Sea of Japan and Lake Nakaumi, and saba no shiokara is said to be a common food passed down there. Mackerel is famous for spoiling almost as it's caught, and before refrigeration, salting and fermenting it this way is said to have let households process and keep the catch, whether to carry it off or eat it slowly at home.",
+   "sources": [
+    {
+     "title": "さばの塩辛（さばのしおから）島根県｜にっぽん伝統食図鑑",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/sabano_siokara.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "ika-no-shiokara",
+     "relation_type": "対比",
+     "basis": "鯖を使う塩辛といかを使う塩辛、同じ塩辛でも素材と質感が違う"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "nametake",
+   "name_ja": "なめたけ",
+   "name_romaji": "Nametake",
+   "name_en": "Nametake — enoki mushrooms simmered in soy sauce",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "瓶栽培したえのきたけを醤油・酒・みりんでとろみが出るまで煮詰めた加工品で、しんなりとした歯ざわりと甘辛い味付けが特徴とされる。大根おろしと和えてご飯に添えられることも多い。",
+   "summary_en": "Enoki mushrooms, grown in bottles and simmered in soy sauce, sake, and mirin until thick, known for a soft bite under a sweet-salty finish. It's often mixed with grated daikon before eating.",
+   "body_ja": "## 何でできているか\nえのきたけを醤油・酒・みりんでとろみがつくまで煮詰めたものがなめたけである。きのこ特有のしんなりとした歯ざわりと、煮汁がまとわりつくとろみ、甘辛い醤油味が一体となっているのが特徴とされる。瓶詰めやパック入りで売られ、大根おろしと和えて食べられることも多い。加賀太きゅうりのような夏野菜と和える食べ方も一部の地域に伝わっているという。\n## どう作るのか\n瓶やビニールで軸ごと栽培したえのきたけを収穫し、醤油・酒・みりんを合わせた煮汁でとろみが出るまで煮詰めて仕上げる。加熱と味付けを同時に行うことで日持ちが良くなるとされ、瓶詰めやレトルトパックに詰められて常温流通する商品も多い。とろみの強さや甘辛さの配合はメーカーごとに異なり、そのまま食べるかご飯や豆腐に和えるかで好まれる濃さも変わるという。\n## なぜこの形になったのか\nえのきたけは日本でもっとも多く生産されるきのことされ、瓶栽培による大量生産が可能になったことで加工用の原料としても安定的に流通するようになったと伝わる。生のままでは日持ちしないきのこを醤油で煮詰めて瓶詰めにする加工は、常備菜としての手軽さを求めるなかで広まっていったと考えられている。加工用えのきの価格変動が業界の話題になるほど、なめたけ生産は原料供給と密接に結びついているという。",
+   "body_en": "## What it's made of\nNametake is enoki mushrooms simmered in soy sauce, sake, and mirin until the liquid turns thick and glossy. What defines it is that combination — the soft give of the mushroom, the syrupy sauce clinging to every strand, and a sweet-salty soy finish. Sold in jars or packs, it's often mixed with grated daikon before eating.\n## How it's made\nEnoki mushrooms, grown stem and all in bottles or bags, are harvested and simmered in a mix of soy sauce, sake, and mirin until the liquid thickens. Cooking and seasoning it in one step is said to extend its keeping quality, and much of it ends up jarred or retort-packed for shelf-stable sale.\n## Why it took this shape\nEnoki is said to be the most widely produced mushroom in Japan, and bottle cultivation made mass production possible, which in turn is said to have given processors a steady supply of raw material. Simmering a mushroom that spoils quickly when raw down in soy sauce and jarring it is thought to have caught on as a way to keep a quick, ready-made side always on hand.",
+   "sources": [
+    {
+     "title": "エノキタケ",
+     "url": "https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%8E%E3%82%AD%E3%82%BF%E3%82%B1",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "konbu-no-tsukudani",
+     "relation_type": "兄弟",
+     "basis": "醤油でとろみが出るまで煮詰める製法が共通する"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "tororo",
+   "name_ja": "とろろ",
+   "name_romaji": "Tororo",
+   "name_en": "Tororo — grated mountain yam",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "生の山芋や長芋をすりおろした加工で、すりおろすほどに強い粘りが出るのが持ち味とされる。だしや味噌でのばして汁物にしたり、麦飯にそのままかけたりして食べられる、飯がよく進む一品という。",
+   "summary_en": "Fresh mountain yam or nagaimo, grated fine — the more it's ground, the stickier it turns. Thinned with dashi or miso into a soup, or spooned straight over barley rice.",
+   "body_ja": "## 何でできているか\n生の山芋や長芋をすりおろしたものがとろろである。すりおろすことで芋の中の粘質物が溶け出し、糸を引くような強い粘りが生まれるとされる。芋そのものの淡い甘みに、だしや醤油の風味が重なることで味に奥行きが出る。生のまま食べても胃にもたれにくいとされる、数少ないでんぷん質の生食素材でもあり、加熱するととろみのある食感がふわふわとした軽さに変わるという。\n## どう作るのか\n皮をむいた山芋や長芋をすり鉢やおろし金でなめらかになるまですりおろし、さらにすり鉢で丁寧にすることでよりきめ細かい粘りに仕上げる。だしや醤油、あるいは味噌とだしでのばして汁物仕立てにしたり、そのまま麦飯にかけたりする。薬味には青のりが使われることが多いとされ、まぐろのぶつ切りにかけて山かけにする食べ方も広く知られている。\n## なぜこの形になったのか\n江戸時代、東海道丸子宿のとろろ汁が旅人の間で名物として知られ、松尾芭蕉の句や歌川広重の浮世絵にも描かれたと伝わる。とろろは飯がよく進むことから「言伝汁」の異称もあるという。長野県北信地方では節分にとろろ飯を何杯も食べる習慣が今も残るとされ、山芋の代わりに入手しやすい長芋が使われることも多いといい、地域ごとに異なる食べ方が伝わっている。",
+   "body_en": "## What it's made of\nTororo is fresh mountain yam or nagaimo, grated fine. Grating releases the yam's sticky compounds, and the result pulls into long, clinging threads. The yam's own faint sweetness deepens once dashi or soy sauce is worked in. It's also one of the few starchy foods said to sit easily on the stomach eaten raw.\n## How it's made\nPeeled yam is grated smooth with a grater or grinding bowl, then worked further in the bowl for an even finer stickiness. It's thinned with dashi, soy sauce, or miso and dashi into a soup, or simply spooned over barley rice. Shredded green nori is the aromatic most often used to finish it.\n## Why it took this shape\nIn the Edo period, the tororo soup of Mariko post town on the Tokaido road is said to have become famous among travelers, appearing in a Matsuo Basho poem and a Hiroshige print. Because it makes rice go down so easily, it's said to carry the old nickname 'kotozute-jiru' — the soup that speaks for itself. In Nagano's Hokushin region, the custom of eating bowl after bowl of tororo rice at the winter's turning point is said to continue today, with the way it's eaten differing from place to place.",
+   "sources": [
+    {
+     "title": "とろろ",
+     "url": "https://ja.wikipedia.org/wiki/%E3%81%A8%E3%82%8D%E3%82%8D",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "tororo-konbu",
+     "relation_type": "対比",
+     "basis": "すりおろした山芋の粘りと、削り出した昆布の粘り、同じとろみでも原料と食感が違う"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "furikake",
+   "name_ja": "ふりかけ",
+   "name_romaji": "Furikake",
+   "name_en": "Furikake — dry rice seasoning",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "魚の身や骨を細かくして味付けした乾いた振りかけで、大正期の熊本でカルシウム不足を補う工夫として考案されたと伝わる。今日では海苔・胡麻・削り節などを組み合わせた型が幅広く流通する。",
+   "summary_en": "A dry, seasoned mix of fish, nori, sesame, and the like sprinkled over rice, said to have been devised in Taisho-era Kumamoto as a way to make up for a calcium shortage. Today it comes in a wide range of combinations.",
+   "body_ja": "## 何でできているか\n魚や海苔、胡麻、削り節などを乾燥させて細かくし、味付けをしたものがふりかけである。水分がほとんどないためパラパラとした食感を保ち、熱いご飯にかけるとほのかに立ちのぼる香りとともに塩気や旨味が広がるとされる。具材の組み合わせによって甘辛いものから魚介の風味が強いものまで幅があり、地域ごとに定番とされる組み合わせも伝わっているという。\n## どう作るのか\n魚の身を骨ごと細かく砕いたものや、刻んだ海苔・炒った胡麻・削り節などを合わせ、醤油や砂糖で味付けしたのち乾燥させて仕上げる。水分を極力抜くことで常温での保存性を高めているとされ、袋や瓶に詰めて長期間流通する。ご飯にかけるほか、おにぎりの具やおかずの下味としても使われ、弁当箱の隅に忍ばせておくだけで彩りと栄養を足せる手軽さも重宝される理由だという。\n## なぜこの形になったのか\n1913年、熊本の薬剤師・吉丸末吉が食料不足とカルシウム不足を補うため、魚を骨ごと砕いて味付けし、ご飯にかけて食べる方法を考案したのが始まりと伝わる。誕生当初は近所に配る程度だったが評判が広まり、「御飯の友」として今日まで100年以上作り続けられているという。骨まで丸ごと食べられる工夫が、当時の栄養不足を補う実用品として広まった背景にあると考えられている。",
+   "body_en": "## What it's made of\nFurikake is fish, nori, sesame, bonito flakes, and the like, dried, finely broken down, and seasoned. With almost no moisture left, it stays loose and dry, and sprinkled over hot rice it releases a faint aroma along with a hit of salt and umami. Depending on the mix of ingredients, it ranges from sweet-salty to strongly fish-forward.\n## How it's made\nFish is crushed fine, bones and all, and combined with chopped nori, toasted sesame, or bonito flakes, seasoned with soy sauce and sugar, then dried. Driving out as much moisture as possible is said to be what gives it its shelf life, and it's packed into bags or jars for long-term sale. Beyond topping rice, it's also used to fill a rice ball or season a dish underneath.\n## Why it took this shape\nThe story goes that in 1913, a pharmacist in Kumamoto named Yoshimaru Suekichi, trying to make up for food and calcium shortages, came up with crushing fish bones and all, seasoning them, and sprinkling the result over rice. It started small enough to hand out to neighbors, but word spread, and under the name 'Gohan no Tomo' — a friend to rice — it's said to have been made continuously for more than a century since.",
+   "sources": [
+    {
+     "title": "会社概要｜ふりかけの御飯の友本舗",
+     "url": "https://www.gohannotomo.co.jp/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/",
+     "publisher": "株式会社フタバ",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "熊本県",
+     "city": "熊本市",
+     "lat": 32.7898,
+     "lng": 130.7417,
+     "relation_type": "名産地",
+     "note_ja": "1913年、熊本の薬剤師・吉丸末吉がカルシウム不足を補う工夫として「御飯の友」を考案したのがふりかけの始まりとされる。",
+     "note_en": "In 1913, a Kumamoto pharmacist named Yoshimaru Suekichi is said to have devised 'Gohan no Tomo' as a way to make up for a calcium shortage — the origin credited for furikake.",
+     "source_url": "https://www.gohannotomo.co.jp/%e4%bc%9a%e7%a4%be%e6%a6%82%e8%a6%81/"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "katsuobushi",
+     "relation_type": "使用食材",
+     "basis": "削り節を主原料の一つとして使う"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "tamago-kake-gohan",
+   "name_ja": "卵かけご飯",
+   "name_romaji": "Tamago Kake Gohan",
+   "name_en": "Tamago kake gohan — raw egg over rice",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "炊きたてのご飯に生卵を割り入れ、醤油などで味付けして食べる料理で、生卵を安全に食べられる衛生管理の行き届いた日本ならではの食べ方とされる。TKGの略称でも親しまれている。",
+   "summary_en": "Hot rice with a raw egg cracked over it and seasoned with soy sauce, said to be possible thanks to Japan's thorough egg-safety standards. Widely known by its nickname, TKG.",
+   "body_ja": "## 何でできているか\n熱いご飯に生卵を割り入れ、醤油やめんつゆなどで味付けしてかき混ぜたものが卵かけご飯である。卵黄のとろみがご飯の一粒一粒に絡み、醤油の塩気と合わさることで、卵本来の甘みと香りが引き立つとされる。専用の醤油も各地で開発されており、卵かけご飯だけを目当てにした専門店が開業した例もあるという。略して「TKG」とも呼ばれ、日本の朝食文化を象徴する一品として国外でも知られるようになってきたとされる。\n## どう作るのか\n炊きたての熱いご飯に生卵を割り入れ、好みで醤油やだし醤油をかけて手早くかき混ぜるだけで作られる。卵が新鮮であることと、生食できる衛生管理のもとで流通していることが前提になる。混ぜる加減で黄身のとろみとご飯の熱の伝わり方が変わり、好みが分かれるとされる。卵白と黄身を別々に扱ったり、複数個の卵を使い分けたりと、食べ方の幅を楽しむ人もいるという。\n## なぜこの形になったのか\n江戸後期の書物『素人包丁』（1805年）には卵かけご飯に似た「玉子飯」の記述があるといい、明治期には岸田吟香がこれを食べた明確な記録を残す最初期の人物とされる。日本は生卵を安全に食べられる衛生管理が整った珍しい国とされ、島根県雲南市では2005年から日本たまごかけごはんシンポジウムが開かれているという。この日にちなみ10月30日が「たまごかけごはんの日」として記念日登録されたとも伝わる。",
+   "body_en": "## What it's made of\nTamago kake gohan is hot rice with a raw egg cracked over it, seasoned with soy sauce or a noodle-dipping sauce and stirred through. The yolk's silkiness coats every grain, and against the soy sauce's saltiness the egg's own sweetness and aroma are said to come forward. Dedicated soy sauces for it have been developed in various regions.\n## How it's made\nIt comes together as simply as cracking a raw egg over hot, freshly cooked rice, adding soy sauce or a dashi-soy blend to taste, and stirring quickly. It depends on the egg being fresh and distributed under sanitation standards that make raw eating safe. How much it's stirred changes how the yolk's silkiness and the rice's heat come together, and preferences differ from person to person.\n## Why it took this shape\nA late-Edo book from 1805, Shiroto Hocho, is said to describe something close to it under the name 'tamago-meshi.' In the Meiji era, a man named Kishida Ginko is said to be among the earliest people on record to have eaten it. Japan is considered an unusual country where raw eggs can be eaten safely thanks to thorough sanitation, and Unnan City in Shimane has held a national tamago-kake-gohan symposium since 2005.",
+   "sources": [
+    {
+     "title": "卵かけご飯",
+     "url": "https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%BE%E3%81%94%E3%81%8B%E3%81%91%E3%81%94%E9%A3%AF",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "koikuchi-shoyu",
+     "relation_type": "使用食材",
+     "basis": "生卵とともにご飯にかける調味料として醤油を使う"
+    }
+   ],
+   "tags": [
+    "egg"
+   ]
+  },
+  {
+   "slug": "shoga-no-tsukudani",
+   "name_ja": "生姜の佃煮",
+   "name_romaji": "Shoga no Tsukudani",
+   "name_en": "Shoga no tsukudani — ginger simmered dark in soy sauce",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "細切りにした生姜を醤油とみりんで煮詰めた保存食で、ぴりっとした辛みと甘辛さが同居するのが持ち味とされる。箸休めとしてご飯に添えられるほか、佃煮の応用型のひとつという。",
+   "summary_en": "Sliced ginger simmered down in soy sauce and mirin, its sharp bite sitting alongside a sweet-salty finish. Served as a palate-refresher beside rice, and thought of as one branch of the tsukudani family.",
+   "body_ja": "## 何でできているか\n細切りやみじん切りにした生姜を醤油、みりん、砂糖でとろりと煮詰めたものが生姜の佃煮である。生姜特有のぴりっとした辛みと繊維質の歯ざわりが残り、そこに醤油の甘辛さが重なることで、少量でも箸が止まりにくい味わいになるとされる。ご飯にのせるだけでなく、冷奴や豆腐料理に添える薬味代わりとしても使われることがあり、脂の多い料理の箸休めとして添えられることもあるという。\n## どう作るのか\n生姜を薄切りやせん切りにし、醤油・みりん・砂糖を合わせた煮汁で汁気がなくなるまで煮詰める。生姜の繊維質が硬すぎないよう切り方や加熱時間を調整するのが要とされ、仕上げに鰹節を絡めるなど地域や家庭によって細部が異なるという。瓶詰めにして常温で保存されることが多く、辛みの強さは生姜の量や煮詰める時間で調整されるという。\n## なぜこの形になったのか\n小さな魚介を醤油で煮詰めて日持ちさせる佃煮の製法を、魚介以外の食材に応用したもののひとつと考えられている。生姜は古くから薬味・香辛料として重宝されてきた素材で、辛みが味の単調さを防ぐことから、佃煮の中でも箸休め的な位置づけとして広まっていったとされる。魚介の佃煮と並べて食べることで味の変化を楽しむ食べ方も伝わっているという。",
+   "body_en": "## What it's made of\nShoga no tsukudani is ginger, sliced or minced fine, simmered down slick in soy sauce, mirin, and sugar. The ginger's own sharp bite and fibrous texture survive the cooking, and layered under the soy sauce's sweet-salty pull, even a small bite is said to be hard to put the chopsticks down after.\n## How it's made\nGinger is sliced thin or julienned, then simmered in a mix of soy sauce, mirin, and sugar until the liquid is gone. Getting the cut and cooking time right so the fiber doesn't turn tough is said to be the key step, and details — like finishing it with a scatter of bonito flakes — vary by region and household. It's usually jarred and kept at room temperature.\n## Why it took this shape\nIt's thought to be one application of the tsukudani method — simmering small ingredients in soy sauce to keep them — extended beyond seafood to other foods. Ginger has long been prized as a pungent seasoning and garnish, and its bite is said to keep a meal from tasting one-note, which is thought to be why it settled into tsukudani's family as something eaten between other flavors, to reset the palate.",
+   "sources": [
+    {
+     "title": "佃煮 東京都｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_25_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "umeboshi",
+     "relation_type": "対比",
+     "basis": "どちらもご飯の脇に添える一品だが、生姜の佃煮は醤油で煮詰めた甘辛さ、梅干しは天日干しの酸味という保存の入り方が違う"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "chirimen-jako",
+   "name_ja": "ちりめんじゃこ",
+   "name_romaji": "Chirimen Jako",
+   "name_en": "Chirimen-jako — dried young sardines",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "いわし類の稚魚を塩ゆでして天日で干した乾物で、乾燥の度合いによってしらす干しなどと呼び分けられるという。西日本ではちりめんじゃこ、東日本ではしらす干しと呼ばれる場合が多いとされる。",
+   "summary_en": "Young sardine fry, boiled in salted water and sun-dried, with the name shifting according to how far the drying goes. Western Japan tends to call it chirimen-jako, eastern Japan shirasu-boshi.",
+   "body_ja": "## 何でできているか\nかたくちいわしなどの稚魚（しらす）を塩水で煮てから天日で干したものがちりめんじゃこである。乾燥の度合いによって、煮ただけの釜揚げしらすから、半乾きのしらす干し、しっかり乾いたちりめんじゃこまで段階があるとされる。カルシウムを多く含む食品としても知られ、噛むほどに塩気と旨味がにじむ。乾燥が進むほど塩気と旨味が凝縮され、日持ちも良くなるとされる。\n## どう作るのか\n漁獲後は傷みが早いため、水揚げ当日のうちに加工される。大釜で沸かした食塩水で稚魚を短時間煮たのち、目の細かい網に広げて天日でじっくり乾かす。乾かす時間はその日の天候や風で調整されるという。乾燥が浅いものはしらす干し、しっかり乾かしたものがちりめんじゃことして流通し、東日本ではしらす干し、西日本ではちりめんじゃこと呼ばれることが多いという。\n## なぜこの形になったのか\n小さな魚を平らに広げて干した様子が、しわの寄った絹織物の縮緬を広げたように見えることからこの名がついたとされる。主な産地は兵庫・静岡・大阪・高知など瀬戸内海や太平洋沿岸に広がっており、傷みやすい稚魚をその日のうちに加工して保存する漁師町の知恵が形になったものと考えられている。塩分の高いものが好まれた時代から、近年は減塩された商品も増えているという。",
+   "body_en": "## What it's made of\nChirimen-jako is young sardine fry, boiled briefly in salted water and then sun-dried. Depending on how far the drying goes, it ranges from freshly boiled kamaage-shirasu, through half-dried shirasu-boshi, to the firmly dried chirimen-jako. Known as a calcium-rich food, it carries a salt and umami that deepens with every bite.\n## How it's made\nBecause the fry spoil fast once caught, they're processed the same day they're landed. They're boiled briefly in salted water from a large kettle, then spread thin on fine-meshed netting to dry slowly in the sun — the drying time adjusted for that day's weather and wind. Lightly dried, it's sold as shirasu-boshi; dried firm, it becomes chirimen-jako.\n## Why it took this shape\nThe name is said to come from the way the tiny fish, spread flat to dry, resemble a length of crinkled chirimen silk. Major production areas stretch along the Seto Inland Sea and Pacific coast — Hyogo, Shizuoka, Osaka, Kochi among them — and the product is thought to reflect a fishing-town instinct: process a fry that spoils fast, the same day it's caught, into something that keeps.",
+   "sources": [
+    {
+     "title": "ちりめんじゃこ",
+     "url": "https://ja.wikipedia.org/wiki/%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E3%81%98%E3%82%83%E3%81%93",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "takuan",
+     "relation_type": "対比",
+     "basis": "小魚を干す保存法と大根を漬ける保存法、ともにご飯の定番だが保存の原理が違う"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "chirimen-sansho",
+   "name_ja": "ちりめん山椒",
+   "name_romaji": "Chirimen Sansho",
+   "name_en": "Chirimen sansho — dried sardines simmered with sansho pepper",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "京都府",
+   "origin_city": "京都市",
+   "lat": 35.0037,
+   "lng": 135.7745,
+   "primary_style": "",
+   "summary_ja": "ちりめんじゃこと実山椒を酒・醤油・みりんで甘辛く煮た京都の惣菜で、昭和半ばに宮川町の料理人が手土産として作り始めたと伝わる。山椒のぴりっとした香りが余韻に残る。",
+   "summary_en": "Chirimen-jako simmered sweet-salty with fresh sansho peppercorns in sake, soy sauce, and mirin — a Kyoto side dish said to have begun as a cook's gift in the mid-Showa era. The peppercorns leave a sharp, fragrant aftertaste.",
+   "body_ja": "## 何でできているか\nちりめんじゃこと実山椒を酒、醤油、みりん、だし汁で甘辛く煮たものがちりめん山椒である。じゃこの旨味と塩気に、実山椒のぴりっとした辛みと爽やかな香りが重なり、食べた後も舌に痺れるような余韻が残るとされる。店によって甘辛さの配合が異なり、味わいに幅があるという。京都の土産物店や飲食店の定番として、少量ずつ瓶詰めやパックで売られていることが多い。\n## どう作るのか\nちりめんじゃこを乾煎りし、実山椒とだし汁、酒、みりん、醤油を加えて汁気がなくなるまで煮詰める。実山椒は春先に収穫される青い実が使われるとされ、粒のまま加えることでぴりりとした食感と香りが立つ。土産物店や飲食店では店ごとに味付けを変えており、呼び方も「じゃこ山椒」など様々という。豆腐にのせてちりめん冷奴にするなど、アレンジレシピも知られている。\n## なぜこの形になったのか\n京都は海から遠く新鮮な魚を得にくいため、塩や醤油で加工して保存する習慣が古くからあったとされる。山椒は平安時代から薬として、室町時代以降は香辛料として使われてきたという。「ちりめん山椒」自体は昭和半ば、宮川町の料理人・晴間保雄が手土産として作り始めたのが始まりとされ、その後京都の名物として知られるようになったと伝わる。",
+   "body_en": "## What it's made of\nChirimen sansho is chirimen-jako and fresh sansho peppercorns simmered sweet-salty in sake, soy sauce, mirin, and dashi. The jako's umami and salt sit under the peppercorns' sharp bite and bright aroma, leaving what's said to be a faint tingling aftertaste on the tongue. The balance of sweet to salty differs from shop to shop.\n## How it's made\nChirimen-jako is dry-roasted, then simmered with fresh sansho peppercorns, dashi, sake, mirin, and soy sauce until the liquid is gone. The peppercorns used are said to be the green ones picked in early spring, added whole so their bite and fragrance stay intact. Souvenir shops and restaurants each season it differently, and it goes by other names too, like jako-sansho.\n## Why it took this shape\nKyoto sits far from the sea, and preserving food by salting or simmering it in soy sauce is said to be a long-standing habit there for that reason. Sansho pepper is said to have been used as medicine since the Heian period and as a spice from the Muromachi period on. Chirimen sansho itself is said to date only to the mid-Showa era, when a cook named Haruma Yasuo in Kyoto's Miyagawa-cho district began making it as a gift to hand out — and from there, it's said to have become known as a Kyoto specialty.",
+   "sources": [
+    {
+     "title": "ちりめん山椒（ちりめんさんしょう）京都府｜にっぽん伝統食図鑑",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/tirimen_sansyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "chirimen-jako",
+     "relation_type": "派生",
+     "basis": "ちりめんじゃこに実山椒を加えて甘辛く煮たもの"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "konbu-no-tsukudani",
+   "name_ja": "昆布の佃煮",
+   "name_romaji": "Konbu no Tsukudani",
+   "name_en": "Konbu no tsukudani — kelp simmered dark in soy sauce",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "細切りにした昆布を醤油とみりんで汁気がなくなるまで煮詰めた保存食で、とろりとした照りと昆布の旨味が凝縮されているとされる。佃煮の中でも定番の型のひとつで、家庭の常備菜として親しまれているという。",
+   "summary_en": "Shredded kelp simmered down slick in soy sauce and mirin, its glossy sheen said to concentrate the kelp's own umami. One of the standard forms within the tsukudani family.",
+   "body_ja": "## 何でできているか\n細切りやせん切りにした昆布を醤油、みりん、砂糖でとろりと煮詰めたものが昆布の佃煮である。昆布そのものが持つグルタミン酸由来の旨味に、醤油の塩気と甘みが加わることで、少量でもご飯が進む濃い味わいになるとされる。噛むとこりこりとした歯ごたえが残るのも特徴で、細切りの太さや厚みによって食感の印象も大きく変わるという。\n## どう作るのか\nだしを取ったあとの昆布や、細切り用に加工された昆布を、醤油・みりん・砂糖・水とともに弱火でじっくり煮詰める。焦げやすいため終盤は火加減を弱め、汁気がなくなりつやが出るまで煮詰めるのが基本とされる。瓶詰めにして常温で保存され、常備菜として長く食べられる。仕上げにごまやかつお節を絡めて風味を足す家庭も多いという。\n## なぜこの形になったのか\n佃煮は小さな魚介を醤油で煮詰めて保存する加工として東京・佃島周辺で広まったと伝わるが、昆布は乾物として全国に流通していたため、魚介以外の素材にも同じ製法が応用されていったと考えられている。だしを取った後の昆布を無駄にしない工夫としても、家庭や加工業者の双方で作られてきたとされる。乾物としての流通のしやすさが、佃煮の中でも定番の型のひとつとして広く根づいた理由のひとつとも言えるだろう。",
+   "body_en": "## What it's made of\nKonbu no tsukudani is shredded kelp simmered down slick in soy sauce, mirin, and sugar. The kelp's own glutamate-driven umami joins the soy sauce's salt and sweetness for a flavor concentrated enough that a small spoonful is said to carry a bowl of rice. A slight crunch remains with each bite.\n## How it's made\nKelp left over from making dashi, or kelp cut specifically for this, is simmered low and slow with soy sauce, mirin, sugar, and water. It scorches easily, so the heat is turned down toward the end and the kelp is cooked until the liquid is gone and it turns glossy. Jarred, it keeps at room temperature as a long-lasting pantry staple.\n## Why it took this shape\nTsukudani is said to have spread from the Tsukuda-jima area of Tokyo as a way to preserve small seafood by simmering it in soy sauce, but because kelp was already distributed nationwide as a dried good, the same method is thought to have been extended to it as well. It's also said to have been made, both at home and by processors, as a way to use up kelp left over after making dashi rather than throwing it out.",
+   "sources": [
+    {
+     "title": "佃煮 東京都｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_25_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "tororo-konbu",
+     "relation_type": "対比",
+     "basis": "醤油で煮詰める昆布の佃煮と、酢漬けにして削るとろろ昆布、同じ昆布でも加工が違う"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "kelp"
+   ]
+  },
+  {
+   "slug": "katsuobushi",
+   "name_ja": "鰹節",
+   "name_romaji": "Katsuobushi",
+   "name_en": "Katsuobushi — smoked, dried bonito",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "鰹を煮て燻し乾燥させた加工品で、削り節やおかかとしてご飯や料理に使われる。荒節・裸節・枯節と段階を経るごとに旨味が凝縮されていくとされ、和食のだし文化を支えてきた食材という。",
+   "summary_en": "Bonito boiled, smoked, and dried, shaved into flakes and eaten over rice or used to make dashi. Passing through the stages of arabushi, hadaka-bushi, and kare-bushi is said to concentrate its umami further at each step.",
+   "body_ja": "## 何でできているか\n鰹を煮熟していぶし乾燥させたものが鰹節である。表面を削って形を整えた「裸節」に、良質なカビを付けて水分をさらに抜いた「枯節」まで仕上げると、いっそう旨味が凝縮されるとされる。薄く削った削り節は「おかか」とも呼ばれ、熱いご飯にのせて醤油をたらすだけでも香りが立つ。だしをとった後の出がらしを佃煮にするなど、無駄なく使い切る工夫も伝わっているという。\n## どう作るのか\n鰹を煮熟したのち、堅木の薪でいぶして水分を減らし「荒節」に仕上げる。表面のタールや脂を削り取って裸節にし、そこにカビを噴霧しては天日で乾かす工程を繰り返して枯節にする。カビ付けを重ねるほど水分と脂が抜けて旨味が凝縮されるとされ、完成まで半年ほどかかることもあるという。カビ付けの回数によって枯節・本枯節などの呼び名が分かれるともいう。\n## なぜこの形になったのか\n1600年代半ば、紀州の甚太郎という人物が土佐国宇佐浦で燻製法を考案したのが起こりとされ、土佐の与市がこれを改良して現在に近い製法を完成させたと伝わる。その後伊豆などにも技術が伝わり各地に広がったとされる。現在は静岡県焼津市などが主要な生産地として知られており、遠洋漁業の基地としての立地が加工技術の集積を後押ししたと考えられている。",
+   "body_en": "## What it's made of\nKatsuobushi is bonito, boiled and then smoked dry. Shaved smooth into hadaka-bushi and then, in the finished stage, dusted with a beneficial mold and dried further into kare-bushi, its umami is said to concentrate with every stage. Shaved thin, it's also called okaka, and a scatter over hot rice with a splash of soy sauce is enough to send up its aroma.\n## How it's made\nBonito is boiled, then smoked over hardwood to reduce its moisture into arabushi. Its surface is shaved of tar and fat to make hadaka-bushi, which is then sprayed with mold and sun-dried, the cycle repeated to build kare-bushi. Each round of mold is said to draw out more moisture and fat, concentrating the umami further — the whole process can take around half a year to finish.\n## Why it took this shape\nThe smoking method is said to trace to the mid-1600s, credited to a man called Jintaro from Kishu, who is said to have begun it at Usa-ura in what's now Kochi Prefecture; a man named Yoichi from Tosa is said to have refined it into something close to today's method. From there, the technique is said to have spread on to places like Izu and beyond. Today, Yaizu in Shizuoka is known as one of the major production centers.",
+   "sources": [
+    {
+     "title": "かつお節について｜一般社団法人日本鰹節協会",
+     "url": "http://katsuobushi.or.jp/about.html",
+     "publisher": "一般社団法人日本鰹節協会",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "高知県",
+     "city": "土佐清水市",
+     "lat": 32.7797,
+     "lng": 132.9686,
+     "relation_type": "名産地",
+     "note_ja": "1600年代半ば、紀州の甚太郎がこの地の宇佐浦で鰹節の燻製法を考案し、土佐の与市が改良して現在に近い製法を完成させたと伝わる、鰹節製法発祥の地とされる。",
+     "note_en": "In the mid-1600s, a man from Kishu named Jintaro is said to have devised the smoking method here at Usa-ura, later refined by a local named Yoichi into something close to today's process — credited as the birthplace of katsuobushi-making.",
+     "source_url": "http://katsuobushi.or.jp/about.html"
+    },
+    {
+     "pref": "静岡県",
+     "city": "焼津市",
+     "lat": 34.8664,
+     "lng": 138.32,
+     "relation_type": "名産地",
+     "note_ja": "遠洋鰹漁の基地を持つ港町で、現在の鰹節生産の主要な集積地のひとつとされる。",
+     "note_en": "A port town with a deep-sea bonito fishing base, said to be one of the main hubs of katsuobushi production today.",
+     "source_url": "http://katsuobushi.or.jp/about.html"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "koikuchi-shoyu",
+     "relation_type": "対比",
+     "basis": "だしの旨味を担う鰹節と、味の決め手を担う醤油、和食の基本を支える役割が異なる"
+    }
+   ],
+   "tags": [
+    "smoked",
+    "fermented"
+   ]
+  },
+  {
+   "slug": "iwanori",
+   "name_ja": "岩のり",
+   "name_romaji": "Iwanori",
+   "name_en": "Iwanori — wild rock-grown nori",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "岩場に自生する天然の海苔で、養殖海苔より肉厚で磯の香りが強いとされる。十六島海苔や城崎海苔など地域ごとに呼び名の異なる型が伝わっている、希少価値の高い海藻という。",
+   "summary_en": "Wild seaweed gathered from coastal rock, said to run thicker and have a stronger sea aroma than farmed nori. Regional versions, each with its own name, include Uppurui-nori and Kinosaki-nori.",
+   "body_ja": "## 何でできているか\n岩場に自生する天然の海苔とその加工品を指すのが岩のりである。養殖海苔に比べて厚みがあり、素朴な仕上がりで、食感はやや硬く磯の香りが強いとされる。吸い物や味噌汁の具にするほか、洗ってそのまま乾かした素干し海苔として食べられることもあるという。養殖海苔に比べて生産量が少なく、近年は希少価値のある商品として見直されているとされる。\n## どう作るのか\n海面上に岩が現れる干潮時を狙って採取される。湿ったまま生海苔として摘み取る方法と、日干しになって岩に張り付いたところを削ぎ取る「ハギノリ」の方法があるとされる。採った海苔は板や簀の子に打ち付けて広げ、乾燥させて板海苔に加工するが、地域ごとに大きさや厚みが異なるという。波打ち際での採取は足元が滑りやすく、危険を伴う作業ともされる。\n## なぜこの形になったのか\n海苔の養殖技術が広まる以前は、生産・消費される海苔はすべて今でいう岩のりだったとされ、養殖海苔が普及して初めて「岩のり」という呼び分けが生まれたと考えられている。島根県出雲市の十六島海苔は古代から続く産地として知られ、兵庫県豊岡市の城崎海苔も城崎温泉の土産として江戸時代から知られてきたという。採取の権利が村の入会地として管理されてきた土地も少なくないとされる。",
+   "body_en": "## What it's made of\nIwanori refers to seaweed that grows wild on coastal rock, and the product made from it. Compared to farmed nori, it runs thicker and plainer in finish, with a slightly firmer bite and a stronger sea aroma, said to come through in a clear soup or a bowl of miso soup, or eaten as washed and simply sun-dried sheets.\n## How it's made\nIt's gathered at low tide, when the rock is exposed above the waterline. There are two methods: picking it fresh and still damp, or scraping off what's already sun-dried and stuck to the rock, called hagi-nori. What's gathered is beaten flat onto boards or slatted racks and dried into sheets, though the size and thickness are said to vary by region.\n## Why it took this shape\nBefore nori farming spread, all the seaweed produced and eaten is said to have been what's now called iwanori — the term itself is thought to have emerged only once farmed nori became common enough to need a name for the wild kind. Uppurui-nori, from Izumo in Shimane, is known as a production area with roots going back to antiquity, and Kinosaki-nori, from Toyooka in Hyogo, is said to have been known as a hot-spring-town souvenir since the Edo period.",
+   "sources": [
+    {
+     "title": "岩海苔",
+     "url": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E6%B5%B7%E8%8B%94",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "島根県",
+     "city": "出雲市（十六島）",
+     "lat": 35.465,
+     "lng": 132.98,
+     "relation_type": "名産地",
+     "note_ja": "十六島海苔は古代から続く岩のりの代表的産地とされ、12月から翌年2月にかけて滑り止めの地下足袋を履いた採り手が岩場から手作業で剥ぎ取るという。",
+     "note_en": "Uppurui-nori is said to be a leading iwanori production area with roots going back to antiquity; from December to February, gatherers in slip-resistant boots pick it off the rock by hand.",
+     "source_url": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E6%B5%B7%E8%8B%94"
+    },
+    {
+     "pref": "兵庫県",
+     "city": "豊岡市（城崎）",
+     "lat": 35.628,
+     "lng": 134.813,
+     "relation_type": "名産地",
+     "note_ja": "城崎海苔は城崎温泉の土産物として江戸時代から知られてきたとされる岩のりの産地という。",
+     "note_en": "Kinosaki-nori is said to be an iwanori-producing area known since the Edo period as a souvenir of Kinosaki Onsen.",
+     "source_url": "https://ja.wikipedia.org/wiki/%E5%B2%A9%E6%B5%B7%E8%8B%94"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "nori",
+     "relation_type": "兄弟",
+     "basis": "天然の岩のりと養殖の板海苔、同じ海藻でも育て方が違う"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "ikura-shoyu-zuke",
+   "name_ja": "いくら醤油漬け",
+   "name_romaji": "Ikura Shoyu-zuke",
+   "name_en": "Ikura shoyu-zuke — salmon roe marinated in soy sauce",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "北海道",
+   "origin_city": "",
+   "lat": 43.0642,
+   "lng": 141.3469,
+   "primary_style": "",
+   "summary_ja": "鮭の卵をほぐし、醤油だれに漬け込んだ北海道の郷土料理で、ぷちぷちとはじける食感とまろやかな旨味が特徴とされる。秋の鮭漁の時期に各家庭で仕込まれる、道内の食卓に根づいた一品という。",
+   "summary_en": "Salmon roe separated from the skein and steeped in a soy sauce marinade, a Hokkaido specialty known for its popping texture and mellow umami. Households are said to put up a batch each autumn during salmon season.",
+   "body_ja": "## 何でできているか\n鮭の卵巣（筋子）をほぐし、醤油と酒を合わせたたれに漬け込んだものがいくら醤油漬けである。ぷちぷちと弾ける食感とまろやかな甘み、醤油による程よい塩気が重なる味わいで、そのままご飯にのせるほか、親子丼や手巻き寿司の具にも使われるという。塩だけで漬ける塩漬けもあり、いくら本来の旨味と甘みをより強く感じられるとされ、家庭によって味付けの好みが分かれるという。\n## どう作るのか\n新鮮な生筋子を塩水の中で指の腹を使ってやさしくほぐし、醤油と酒を好みの分量で合わせたたれに漬け込んで冷蔵庫で一晩ほどなじませる。家庭によってはみりんやかつお出汁、昆布出汁を加えることもあるという。密封して冷凍すれば正月まで日持ちさせることもできるとされ、秋の鮭漁の時期に道内の多くの家庭で仕込まれる年中行事のような加工でもあるという。\n## なぜこの形になったのか\n平安時代の『延喜式』（905年）には鮭の加工品として筋子が食べられていた記録があるとされ、江戸時代の『本朝食鑑』（1697年）にも塩漬けの筋子をほぐして保存食にしていたとの記述があるという。当時は筋子といくらを区別する名称はなく、明治期にロシア語由来の「いくら」という呼び名が伝わってから今の形が定着していったと伝わる。",
+   "body_en": "## What it's made of\nIkura shoyu-zuke is salmon roe, separated from the skein and steeped in a soy-and-sake marinade. The eggs pop between the teeth with a mellow sweetness, and soy sauce's measured saltiness rounds it out — eaten straight on rice, but also used to top oyakodon or fill a hand-rolled sushi.\n## How it's made\nFresh salmon roe skein is gently worked apart in salted water with the pads of the fingers, then steeped in a soy sauce and sake marinade mixed to taste and left overnight in the refrigerator to take on flavor. Some households add mirin or bonito or kelp dashi. Sealed and frozen, it's said to keep through to New Year's.\n## Why it took this shape\nA record from the Engishiki (905) is said to already mention salmon roe eaten as a processed salmon product, and the 1697 text Honcho Shokkan is said to describe salted roe worked apart and kept as a preserved food. At the time, there's said to have been no separate word distinguishing the whole skein from loose eggs; only after the Meiji era, when the word ikura — borrowed from Russian — arrived, is the form eaten today said to have settled in.",
+   "sources": [
+    {
+     "title": "いくら醤油漬け（いくらしょうゆづけ）北海道｜にっぽん伝統食図鑑",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/ikurasyouyuzuke.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "sujiko",
+     "relation_type": "兄弟",
+     "basis": "同じ鮭の卵でも、ほぐして漬けるいくらと、卵巣のまま漬ける筋子という違いがある"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "sujiko",
+   "name_ja": "すじこ",
+   "name_romaji": "Sujiko",
+   "name_en": "Sujiko — salted salmon roe skein",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "鮭の卵を卵巣の膜ごと塩漬けにした加工品で、いくらのようにほぐさず粒がまとまっているのが特徴とされる。塩気の強さと卵がまとまった食感の違いがいくらとの見分け方になるという。",
+   "summary_en": "Salmon roe salted with the membrane still holding the eggs together, unlike ikura's loose beads. The stronger salt and the bound texture are said to be what tells it apart from ikura.",
+   "body_ja": "## 何でできているか\n鮭の卵巣を膜ごと塩漬けにしたものがすじこである。粒をほぐさず塊のまま漬け込むため、いくらのようにひと粒ずつ独立せず、膜でつながった状態のまとまりが特徴とされる。塩だけで漬けたものは塩気がしっかりと効き、卵の濃厚な旨味がそのまま伝わってくるという。切り分けた断面はつやのある赤い塊で、包丁の入れ方によって厚みを調整できるという。\n## どう作るのか\n新鮮な鮭の卵巣を膜を破らないよう丁寧に扱い、塩水または塩を直接すり込んで漬け込む。いくらのように卵をほぐす工程を経ないため、比較的手間が少ない加工とされる。切り分けてご飯にのせたり、ほぐしていくらに加工し直したりと、用途に応じて使い分けられるという。焼いて食べる焼きすじこという食べ方も一部で親しまれているという。\n## なぜこの形になったのか\n平安時代の記録にはすでに鮭の加工品として筋子が食べられていたとされ、江戸時代の書物にも塩漬けの筋子を保存食としていた記述が残るという。当時は筋子といくらを区別する言葉がなく、卵をほぐして粒状にする加工が広まったのは大正時代に入ってからと伝わり、それ以前の姿を今に伝えているのがすじこだとされる。手間の少なさから、家庭での加工にはすじこの方が扱いやすいとされることもあるという。",
+   "body_en": "## What it's made of\nSujiko is salmon roe, salted with the membrane still holding the eggs together. Because the eggs aren't worked apart, it doesn't come as separate beads the way ikura does — instead it holds together as a bound mass. Salted plain, its saltiness is more pronounced, and the roe's rich flavor comes through directly.\n## How it's made\nFresh salmon roe skein is handled carefully so the membrane doesn't tear, then cured in brine or with salt worked directly into it. Skipping the step of separating the eggs makes it, relatively speaking, less labor to produce. It's sliced and served on rice, or later worked apart and reprocessed into ikura, depending on what it's needed for.\n## Why it took this shape\nRecords from the Heian period are said to already show salmon roe eaten as a processed salmon product, and an Edo-period text is said to describe salted roe kept as a preserve. At the time, there's said to have been no word distinguishing the bound skein from loose eggs; separating the roe into individual beads is said to have only spread from the Taisho era on — and sujiko is said to preserve the earlier form, from before that split.",
+   "sources": [
+    {
+     "title": "いくら醤油漬け（いくらしょうゆづけ）北海道｜にっぽん伝統食図鑑",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/ikurasyouyuzuke.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "sake-salmon",
+     "relation_type": "使用食材",
+     "basis": "鮭の卵巣を主原料として使う"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "miso-shiru",
+   "name_ja": "味噌汁",
+   "name_romaji": "Miso Shiru",
+   "name_en": "Miso shiru — miso soup",
+   "type": "dish",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "だしに味噌を溶き入れた汁物で、具や味噌の種類は地域や家庭によって幅があるとされる。ご飯・漬物とともに食卓に並ぶ一汁の型として、日々の食事に組み込まれてきたという。",
+   "summary_en": "Dashi with miso stirred in, its ingredients and miso type said to vary by region and household. As the soup in a meal built around rice and pickles, it's said to have become a fixture of the daily table.",
+   "body_ja": "## 何でできているか\nかつお節や昆布などでとっただしに味噌を溶き入れたものが味噌汁である。味噌の種類は米味噌・麦味噌・豆味噌など地域によって異なり、塩気や甘み、香りの方向性もそれぞれ違うとされる。豆腐や油揚げ、季節の野菜など具材の組み合わせは家庭ごとに幅があり、同じ味噌汁でも味わいは一様ではないという。ご飯・漬物とともに並ぶことで、一汁三菜という食事の型の中心的な役割を担うとされる。\n## どう作るのか\nかつお節や昆布、煮干しなどでだしを取り、具材に火を通してから味噌を溶き入れて仕上げる。味噌は煮立てすぎると香りが飛ぶとされ、溶き入れたあとは沸騰させすぎないよう火加減を調整するのが基本という。地域や家庭によって味噌を合わせる配合や、だしの取り方に細かな違いが伝わっており、同じ具材でも味噌の種類次第で印象が大きく変わるという。\n## なぜこの形になったのか\nご飯・汁・漬物を基本に据える一汁三菜的な食事の型のなかで、味噌汁は汁物の定位置を担ってきたとされる。全国各地に地域色の強い味噌汁が伝わっており、具材やだしの取り方に土地の産物や気候が反映されているという。手早く作れて栄養も取れることから、朝の食卓を整える一品として定着してきたと考えられている。だしと味噌さえあれば具材を選ばない懐の広さも、日々の食卓に定着した理由のひとつだと考えられる。",
+   "body_en": "## What it's made of\nMiso soup is dashi — usually from bonito flakes or kelp — with miso stirred in. The miso itself varies by region: rice miso, barley miso, soybean miso, each with its own saltiness, sweetness, and aroma. What goes into it, tofu, fried tofu, whatever vegetable is in season, differs by household too, so the same name covers no single flavor.\n## How it's made\nDashi is drawn from bonito flakes, kelp, or dried sardines, the solid ingredients are cooked through, and miso is stirred in last. Miso is said to lose its aroma if boiled too hard, so the heat is kept in check once it's added rather than letting the pot return to a full boil. The miso blend and the way dashi is drawn both carry small differences from region to region and household to household.\n## Why it took this shape\nWithin a meal built around rice, soup, and pickles, miso soup is said to have held down the soup's place at the table. Strongly regional versions of it are found across the country, its ingredients and dashi said to reflect local produce and climate. Quick to make and nutritionally solid, it's thought to have settled in as the dish that pulls a morning table together.",
+   "sources": [
+    {
+     "title": "汁物｜うちの郷土料理：農林水産省",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/type/soup.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-10"
+    },
+    {
+     "title": "全国味噌工業協同組合連合会",
+     "url": "https://www.zenmi.jp/",
+     "publisher": "全国味噌工業協同組合連合会",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "katsuobushi",
+     "relation_type": "使用食材",
+     "basis": "だしに鰹節を使う"
+    }
+   ],
+   "tags": [
+    "miso"
+   ]
+  },
+  {
+   "slug": "goma-shio",
+   "name_ja": "ごま塩",
+   "name_romaji": "Goma Shio",
+   "name_en": "Goma-shio — roasted salt and sesame",
+   "type": "ingredient",
+   "shelf": "homestyle",
+   "genre": "gohan-no-otomo",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "summary_ja": "焼き塩と炒り胡麻を混ぜ合わせた調味料で、赤飯やおにぎりに振りかけて食べられる。塩とゴマの比重をそろえて均一に振り出せるよう工夫された市販品もある、素朴だが定番の薬味という。",
+   "summary_en": "Roasted salt mixed with toasted sesame, sprinkled over red rice or a rice ball. Some store-bought versions are made so the salt and sesame pour out evenly together.",
+   "body_ja": "## 何でできているか\n焼いた塩と炒った胡麻を混ぜ合わせたものがごま塩である。ぱらぱらとした乾いた質感で、口に含むと塩気とともに胡麻の香ばしさがふわりと広がるとされる。赤飯やおにぎりに振りかけるほか、ふりかけの代用として熱いご飯にそのままかけて食べられることもあるという。黒ゴマを使うことが多く、白い塩との対比が見た目のアクセントにもなっているとされる。\n## どう作るのか\n焙烙やフライパンで塩とゴマを炒り合わせて作られ、焼いた塩に黒ゴマを加えて炒る方法と、炒ったゴマに濃い塩水を加えて水分を飛ばす方法があるとされる。市販品では塩を顆粒状にしてゴマと比重をそろえ、振ったときに片方だけが出てこないよう工夫されているという。手作りする場合は塩とゴマと水を同じ分量で合わせるとよいとされている。\n## なぜこの形になったのか\n赤飯に彩りと塩気を添える組み合わせとして定着してきたとされ、白と黒の対比から「ごま塩頭」のように白髪混じりの髪を指す言い回しにも使われるという。ご飯にそのまま振りかけて食べる手軽さから、ふりかけが十分に普及する以前から家庭の常備品として使われてきたと考えられている。赤飯という行事食とともに広まったことも、日常に定着した背景のひとつにあると考えられている。",
+   "body_en": "## What it's made of\nGoma-shio is roasted salt mixed with toasted sesame seeds. Dry and loose in texture, it carries salt on the tongue alongside a soft burst of sesame's toasted aroma. Beyond its usual place on red rice or a rice ball, it's also sprinkled straight over hot rice as a stand-in for furikake.\n## How it's made\nIt's made by roasting salt and sesame together in a horoku pan or skillet — either roasting black sesame into already-roasted salt, or adding a strong brine to toasted sesame and cooking off the moisture. Store-bought versions granulate the salt so its density matches the sesame, meant to keep one from settling out and pouring first when the jar is shaken.\n## Why it took this shape\nIt's said to have settled in as the pairing that adds both color and salt to red rice, and the contrast of white salt against black sesame lends its name to the phrase for gray-streaked hair, goma-shio atama. Simple enough to just shake over hot rice, it's thought to have been a household staple even before furikake itself became widespread.",
+   "sources": [
+    {
+     "title": "胡麻塩",
+     "url": "https://ja.wikipedia.org/wiki/%E8%83%A1%E9%BA%BB%E5%A1%A9",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-10"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "furikake",
+     "relation_type": "兄弟",
+     "basis": "どちらも乾いた状態でご飯にふりかける薬味・調味料"
+    }
+   ],
+   "tags": []
+  }
+ ],
+ "regenre": [],
+ "notes": "対象外・要判断:\n- めふん（鮭の腎臓の塩辛、北海道）は当初候補にしていたが、MAFF一次資料で確認できず、代わりに一次資料が取れた「鯖の塩辛（島根県松江市美保関町）」を『塩辛の型』2件目として採用した。\n- しらす干しは当初ちりめんじゃことは別項目にする案だったが、一次資料（Wikipedia『ちりめんじゃこ』）が同一記事で乾燥度合いの違いとして説明しているため、ちりめんじゃこ1項目に統合し別項目化しなかった。\n- のりたま・ゆかり等の商品名ベースのふりかけ型は、単一企業の商品名に依拠するため対象外とし、『ふりかけ』の受け皿1件のみとした。\n- 味噌汁は全国区で地域色が強すぎるため、地域名産地の指定はせず図鑑枠（origin空欄）とした。\n- 漬物（梅干し・たくあん・ぬか漬け）は既存ジャンル tsukemono の umeboshi / takuan / nukazuke にrelations で結び、新規アイテムは作成していない。"
+}

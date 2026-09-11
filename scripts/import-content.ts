@@ -101,7 +101,8 @@ const httpsUrl = z
   .string()
   .trim()
   .url()
-  .refine((u) => u.startsWith("https://"), { message: "https 形式のURLのみ" });
+  // 業界団体の古いサイトには https が無いものがある（例 katsuobushi.or.jp）。出典は UI 非表示の内部検証データなので http も許す
+  .refine((u) => u.startsWith("https://") || u.startsWith("http://"), { message: "http(s) 形式のURLのみ" });
 
 const prefField = z
   .string()
