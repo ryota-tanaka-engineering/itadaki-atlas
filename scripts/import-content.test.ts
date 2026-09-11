@@ -128,10 +128,11 @@ describe("bundleSchema バリデーション", () => {
     expect(r.success).toBe(false);
   });
 
-  it("URL が https でないと弾く", () => {
-    const item = minimalItem({ sources: [{ title: "t", url: "http://example.com", accessed_at: "2026-09-07" }] });
-    const r = bundleSchema.safeParse({ items: [item] });
-    expect(r.success).toBe(false);
+  it("URL は http / https を許し、それ以外は弾く", () => {
+    const ok = minimalItem({ sources: [{ title: "t", url: "http://example.com", accessed_at: "2026-09-07" }] });
+    expect(bundleSchema.safeParse({ items: [ok] }).success).toBe(true);
+    const ng = minimalItem({ sources: [{ title: "t", url: "ftp://example.com", accessed_at: "2026-09-07" }] });
+    expect(bundleSchema.safeParse({ items: [ng] }).success).toBe(false);
   });
 
   it("items内でslugが重複すると弾く", () => {
