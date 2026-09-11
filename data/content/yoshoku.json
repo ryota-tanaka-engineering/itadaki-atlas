@@ -1,0 +1,1046 @@
+{
+  "genres": [
+    {
+      "slug": "yoshoku",
+      "name_ja": "洋食",
+      "name_en": "Yoshoku (Japanese Western-style dishes)",
+      "type": "dish",
+      "shelf": "homestyle",
+      "intro_ja": "洋食は、明治以降に西洋料理を日本人の舌と食卓に合わせて翻案した料理群である。ケチャップやデミグラスソースで米飯に馴染ませ、パン粉衣で箸でも食べやすくするなど、フォークとナイフの一皿を米と箸の食卓へ移し替える工夫が土地や店ごとに重ねられてきた。洋食屋の賄いから生まれたとされる型もあれば、喫茶店の軽食や宅配ピザのトッピングとして戦後に翻案が続いた型もある。中華料理が町中華として日本化したのと、根はよく似た物語だという。",
+      "intro_en": "Yoshoku is the family of dishes born from translating Western cooking into Japanese taste and tableware since the Meiji era. Ketchup and demi-glace sauce were worked in to suit rice, breadcrumb coatings made a cutlet easy to eat with chopsticks, and each restaurant and region kept adapting a fork-and-knife plate for a table set with rice and chopsticks. Some forms are said to have started as a cook's staff meal, while others kept being reinterpreted well into the postwar era, as a coffee-shop snack or a delivery-pizza topping. It's said to be much the same story as how Chinese cooking became machi-chuka, the neighborhood Chinese diner."
+    }
+  ],
+  "tags": [],
+  "items": [
+    {
+      "slug": "omurice",
+      "name_ja": "オムライス",
+      "name_romaji": "Omuraisu",
+      "name_en": "Omurice — ketchup-fried rice wrapped in a thin sheet of egg",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "ライス",
+      "summary_ja": "バターで炒めたケチャップライスを薄焼き卵で包んだ洋食。発祥は東京・銀座説と大阪説の両方があり、いずれも一人の常連客をもてなす賄いから生まれたと伝わる。卵の巻き方や仕上げのソースは店ごとに工夫が分かれるという。",
+      "summary_en": "Butter-fried ketchup rice wrapped in a thin sheet of egg. Both a Tokyo Ginza and an Osaka story claim the origin, each tracing back to a dish worked out for a regular customer.",
+      "body_ja": "## 何でできているか\n薄焼き卵の下から、ケチャップで炒めたバターライスが顔を出す。卵はとろりと半熟のまま巻く店もあれば、しっかり焼いてから被せる店もあり、割った瞬間の湯気と酸味の香りが食欲をそそる。具は鶏肉と玉ねぎが定番とされ、仕上げに追いケチャップやデミグラスソースをかけることも多い。米にはあらかじめバターと塩で下味をつけておく店が多く、卵とご飯それぞれの香りが層になって鼻を抜けていくという。\n## どう作るのか\n米飯をバターで炒め、ケチャップで味付けしてチキンライスを作るのが基本の型とされる。卵は溶いて薄く焼き、まだ半熟のうちにライスを包む。卵液に牛乳や出汁を加えてなめらかさを出す店、フライパンごと返して形を整える店など、卵の扱いに店ごとの工夫が重ねられてきたという。仕上げに皿の上でナイフを入れ、断面をとろりと開く演出をする店もある。\n## なぜこの形になったのか\n一説によると、東京・銀座では明治期の洋食店が常連客への賄いとしてオムレツとご飯を組み合わせたのが始まりといい、大阪では大正期、胃の弱い常連客のためにケチャップライスを卵で包んだのが由来と伝わる。どちらも一人の客をもてなす工夫から生まれたという点は共通しており、以来、洋食屋の看板料理として全国に広まっていったとされる。",
+      "body_en": "## What it's made of\nUnder a thin sheet of egg, butter-fried ketchup rice peeks through. Some shops wrap it around the rice while the egg is still soft and runny, others cook it through first and lay it over the top — either way, the steam and tang that rise when it's cut open are what draw people in. Chicken and onion are the standard filling, often finished with a drizzle of extra ketchup or demi-glace sauce, and the rice itself is usually seasoned with butter and salt before it ever meets the egg.\n## How it's made\nThe base is rice fried in butter and seasoned with ketchup to make chicken rice, the usual method goes. Egg is beaten and cooked into a thin sheet, then wrapped around the rice while still soft. Some kitchens add milk or dashi to the egg for smoothness, others flip the whole pan to shape it — each shop is said to have worked out its own way of handling the egg, and some finish by slicing the top open at the table so the soft egg spills out.\n## Why it took this shape\nOne account traces it to a Ginza, Tokyo yoshoku restaurant in the Meiji era, where a cook is said to have combined an omelet and rice as a staff meal for a regular customer. Another traces it to Osaka in the Taisho era, where a shop is said to have wrapped ketchup rice in egg for a regular with a weak stomach. Both stories share a cook working out something for one particular customer, and from there the dish is said to have spread as a signature yoshoku item nationwide.",
+      "sources": [
+        {
+          "title": "元祖オムライス",
+          "url": "https://www.hokkyokusei.online/origin",
+          "publisher": "北極星",
+          "accessed_at": "2026-09-09"
+        },
+        {
+          "title": "煉瓦亭",
+          "url": "https://www.ginza.jp/shop/894",
+          "publisher": "GINZA OFFICIAL（銀座公式ウェブサイト）",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [
+        {
+          "pref": "東京都",
+          "city": "中央区",
+          "lat": 35.6717,
+          "lng": 139.7622,
+          "relation_type": "本場",
+          "note_ja": "銀座では明治28年創業の洋食店が、カツレツなどのフライ料理とともにオムライスやハヤシライスも生み出し、日本で最初の洋食店と呼ばれるようになったと自らの沿革として伝えている。",
+          "note_en": "A Ginza restaurant founded in 1895 says in its own history that it developed omurice and hayashi rice alongside breaded fried dishes like katsuretsu, becoming known as Japan's first yoshoku restaurant.",
+          "source_url": "https://www.ginza.jp/shop/894"
+        },
+        {
+          "pref": "大阪府",
+          "city": "大阪市浪速区",
+          "lat": 34.6602,
+          "lng": 135.4931,
+          "relation_type": "本場",
+          "note_ja": "大阪では1925年、洋食店「パンヤの食堂」が胃の弱い常連客のためにケチャップライスを薄焼き卵で包んだのが由来と伝わり、その店の系譜が今もオムライス発祥を掲げて営業を続けている。",
+          "note_en": "In Osaka, a yoshoku diner is said to have wrapped ketchup rice in a thin egg sheet in 1925 for a regular customer with a weak stomach, and its successor still operates today under the banner of being where omurice began.",
+          "source_url": "https://www.hokkyokusei.online/origin"
+        }
+      ],
+      "relations": [
+        {
+          "to_slug": "hayashi-rice",
+          "relation_type": "兄弟",
+          "basis": "銀座の同じ洋食店が、創業当初にオムライスとハヤシライスを共に生み出したと自らの沿革で伝えているため"
+        }
+      ],
+      "tags": [
+        "egg",
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "hayashi-rice",
+      "name_ja": "ハヤシライス",
+      "name_romaji": "Hayashi Raisu",
+      "name_en": "Hayashi rice — sliced beef and onion in a demi-glace-style sauce over rice",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "東京都",
+      "origin_city": "中央区",
+      "lat": 35.6812,
+      "lng": 139.7745,
+      "primary_style": "ライス",
+      "summary_ja": "薄切り牛肉と玉ねぎをデミグラス風ソースで煮込み、ご飯にかける洋食。丸善創業者・早矢仕有的が友人に振る舞った料理が由来とされ、命名には諸説あるという。カレーライスと並んで語られることが多い一皿である。",
+      "summary_en": "Sliced beef and onion simmered in a demi-glace-style sauce, ladled over rice. Said to trace back to a dish Maruzen's founder Hayashi Yuteki served to visiting friends, though the naming itself has more than one story.",
+      "body_ja": "## 何でできているか\nとろみのついた茶色いソースが、白いご飯の縁からゆっくり染みていく。薄切りの牛肉と玉ねぎをじっくり煮込んだソースは、デミグラスソースに似た濃さを持ちながらもどこか家庭的な甘みがあり、福神漬けを添える店も多いという。ご飯にかけて食べる一皿は、カレーライスとよく並べて語られ、洋食屋の看板メニューとして今も残る店が各地にある。\n## どう作るのか\n薄切り牛肉と玉ねぎをバターで炒め、ドミグラス風のソースでとろみをつけて煮込むのが基本の型とされる。トマトの酸味を利かせる店、赤ワインでコクを出す店など配合は店ごとに分かれ、家庭では市販のルウを使うことも多い。仕上げに生クリームを落とす店もあり、白飯と別皿で出すか直接かけるかも店によって流儀が分かれるという。\n## なぜこの形になったのか\n一説によると、丸善の創業者・早矢仕有的が、訪ねてくる友人たちに手持ちの肉と野菜を煮込んでご飯とともに振る舞ったのが始まりといい、それが「早矢仕さんのライス」と呼ばれ、やがて「ハヤシライス」の名で街のレストランのメニューになったと伝わる。命名には諸説あり、英語のhashで煮込む意から来たという説も併せて語られる。",
+      "body_en": "## What it's made of\nA thickened brown sauce spreads slowly from the edge of a mound of white rice. Simmered for a long time with sliced beef and onion, the sauce carries a demi-glace-like richness with a homely sweetness underneath, and many shops serve it with a side of fukujinzuke pickles. Ladled over rice, it's often talked about alongside curry rice, and yoshoku restaurants that still keep it on the menu remain scattered across the country.\n## How it's made\nThe usual method is to fry sliced beef and onion in butter, then simmer them in a demi-glace-style sauce thickened to a coating consistency. Some kitchens lean into tomato's acidity, others build depth with red wine, and recipes vary shop to shop; many households use a packaged roux. Some places finish the dish with a splash of fresh cream, and whether the sauce is ladled directly onto the rice or served alongside it is also said to vary by shop.\n## Why it took this shape\nOne account traces it to Maruzen's founder, Hayashi Yuteki, who is said to have simmered whatever meat and vegetables he had on hand for visiting friends and served it with rice. The dish came to be called 'Hayashi-san's rice,' and eventually took the name hayashi rice on restaurant menus around town, though the naming itself is said to have more than one story, including a theory that it comes from the English word 'hash,' meaning to simmer chopped ingredients.",
+      "sources": [
+        {
+          "title": "9月8日は「ハヤシの日」",
+          "url": "https://corp.maruzenjunkudo.co.jp/pages/0908hayashi",
+          "publisher": "株式会社丸善ジュンク堂書店",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "curry-rice",
+          "relation_type": "対比",
+          "basis": "ともに明治期に西洋料理を翻案した、とろみのあるソースをご飯にかける洋食として編集上対比できるため。直接の由来関係を示す一次資料は確認できなかった"
+        }
+      ],
+      "tags": [
+        "beef",
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "doria",
+      "name_ja": "ドリア",
+      "name_romaji": "Doria",
+      "name_en": "Doria — butter rice and creamed shrimp baked under white sauce and cheese",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "神奈川県",
+      "origin_city": "横浜市",
+      "lat": 35.4437,
+      "lng": 139.648,
+      "primary_style": "ライス",
+      "summary_ja": "バターライスに海老のクリーム煮をのせ、ホワイトソースとチーズをかけて焼く洋食。横浜のホテルで、体調の悪い客のために即興で作られたのが始まりと伝わる。海老の代わりに鶏肉やきのこを使う店もある。",
+      "summary_en": "Butter rice topped with shrimp in cream, covered in white sauce and cheese and baked. Said to have been improvised at a Yokohama hotel for a guest who wasn't feeling well.",
+      "body_ja": "## 何でできているか\nグラタン皿の中で、バターライスと海老のクリーム煮がホワイトソースの下に隠れている。表面はチーズごとオーブンで焼き色がつくまで焼き上げられ、匙を入れるとチーズの糸とともに湯気が立つ。喉ごしの良さを狙った料理だといい、消化にやさしい取り合わせになっているという。海老の代わりに鶏肉やきのこを使う店もあり、具材の幅は広い。\n## どう作るのか\nバターライスを皿に敷き、海老をクリームで煮た具をのせ、グラタン用のホワイトソースをかけてチーズとともにオーブンで焼くのが基本の型とされる。ソースにとろみを持たせて具材を包み込み、表面だけを焦がすように焼くことで、内側はやわらかいまま仕上げるという工夫が重ねられてきた。土地や店によって仕上げ方に違いが出る一皿だという。\n## なぜこの形になったのか\n一説によると、1927年の開業当初、ホテルに滞在していた体調のすぐれない客から「喉ごしの良いものを」と頼まれた初代総料理長が、バターライスに海老のクリーム煮をのせ、グラタンソースとチーズをかけてオーブンで焼いた即興の一皿が始まりという。好評だったため正式なメニューとなり、今もシーフードドリアとして受け継がれていると伝わる。",
+      "body_en": "## What it's made of\nIn a gratin dish, butter rice and shrimp simmered in cream sit hidden beneath white sauce. The surface is baked with cheese until it browns, and a spoon pulls up cheese strings along with a rise of steam. It's said to have been meant as something easy to swallow, gentle enough on the stomach, and some shops use chicken or mushroom in place of shrimp.\n## How it's made\nThe usual method is to spread butter rice in a dish, top it with shrimp simmered in cream, cover it with a gratin-style white sauce, and bake it with cheese until browned. The sauce is kept thick enough to coat the ingredients, and the surface alone is baked to a char so the inside stays soft and the rice underneath keeps its shape.\n## Why it took this shape\nOne account traces it to the hotel's opening in 1927, when a guest staying there who wasn't feeling well asked for 'something easy to get down.' The head chef is said to have improvised on the spot, laying shrimp simmered in cream over butter rice, covering it in gratin sauce and cheese, and baking it. It reportedly proved popular enough to become a regular menu item, and is still served today as shrimp doria.",
+      "sources": [
+        {
+          "title": "発祥の伝統料理",
+          "url": "https://www.hotel-newgrand.co.jp/origin/",
+          "publisher": "ホテルニューグランド",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "napolitan",
+          "relation_type": "兄弟",
+          "basis": "同じホテルニューグランドの厨房が、それぞれ別の総料理長の代にドリアとナポリタンを生み出したと公式サイトで伝えているため"
+        }
+      ],
+      "tags": [
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "turkey-rice",
+      "name_ja": "トルコライス",
+      "name_romaji": "Toruko Raisu",
+      "name_en": "Turkey rice — pilaf, napolitan-style spaghetti, and a pork cutlet on one plate",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "長崎県",
+      "origin_city": "長崎市",
+      "lat": 32.7448,
+      "lng": 129.8737,
+      "primary_style": "ライス",
+      "summary_ja": "ピラフとナポリタン、とんかつを一皿に盛り合わせた長崎発祥の洋食。名前の由来には諸説あり、トルコの米料理説や三色の盛り付け説などが伝わる。盛り付けの配置は店ごとに個性が出るという。",
+      "summary_en": "Pilaf, napolitan-style spaghetti, and a pork cutlet plated together, a yoshoku dish from Nagasaki. Its name has several competing origin stories, from a Turkish rice dish to the plate's three colors.",
+      "body_ja": "## 何でできているか\n一枚の皿の上に、ケチャップ味のピラフとナポリタン風のスパゲッティ、とんかつが仲良く盛られている。米も麺も肉もそれぞれ別の一皿になりうる料理だが、ここでは一度に味わえるよう並んでいるのが特徴だという。ソースやカレー粉で香りづけされることも多く、彩りも賑やかな一皿になり、見た目の華やかさも喜ばれてきたとされる。\n## どう作るのか\nピラフ、スパゲッティ、カツをそれぞれ別に仕込み、一枚の皿に一緒に盛り付けるのが基本の型とされる。ピラフはケチャップやカレー粉で味付けし、スパゲッティはナポリタン風にケチャップで和え、カツは別に揚げて添える店が多いという。盛り付けの順序や配置は店によって違うとされ、店ごとの個性が出やすい一皿だという。\n## なぜこの形になったのか\n名前の由来には諸説あり、トルコの米料理「ピラウ」に由来するという説、かつて出していた店の名前にちなむという説、盛り付けの三色が「トリコロール」がなまったものという説、東西の料理を一皿に織り交ぜたことから地理的に中間に位置するトルコの名がついたという説などが伝わり、地元の観光サイトでもどれか一つに断定はしていない。",
+      "body_en": "## What it's made of\nOn a single plate, ketchup-flavored pilaf, napolitan-style spaghetti, and a pork cutlet sit side by side. Rice, noodles, and meat could each be a dish on their own, but here they're arranged so all three can be tasted in one sitting. Sauce or curry powder is often used for extra fragrance, making for a colorful plate that's also said to be prized for how it looks.\n## How it's made\nThe usual method is to prepare pilaf, spaghetti, and a cutlet separately, then plate all three together on one dish. Many shops season the pilaf with ketchup or curry powder, toss the spaghetti with ketchup in the napolitan style, and fry the cutlet on its own before adding it. The order and arrangement on the plate are said to vary by shop, giving each restaurant its own signature layout.\n## Why it took this shape\nThe name's origin has more than one story: that it comes from pilav, a Turkish rice dish; that it's named after a restaurant that once served it; that it's a corruption of 'tricolore,' referring to the plate's three colors; or that it was named for Turkey as a country that geographically sits between East and West, echoing a plate that weaves together dishes from both — and the city's own tourism site declines to settle on any single one.",
+      "sources": [
+        {
+          "title": "トルコライスの謎",
+          "url": "https://www.at-nagasaki.jp/gourmet/the-standerd-trivia/3016/index.html",
+          "publisher": "長崎市公式観光サイト travel nagasaki",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "napolitan",
+          "relation_type": "対比",
+          "basis": "トルコライスの定番の盛り合わせにナポリタン風のスパゲッティが含まれるとされ、同じ洋食パスタとして編集上対比できるため"
+        }
+      ],
+      "tags": [
+        "pork",
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "katsu-curry",
+      "name_ja": "カツカレー",
+      "name_romaji": "Katsu Karee",
+      "name_en": "Katsu curry — a fried pork cutlet served over curry rice",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "東京都",
+      "origin_city": "中央区",
+      "lat": 35.6698,
+      "lng": 139.7627,
+      "primary_style": "ライス",
+      "summary_ja": "カレーライスに揚げたてのカツレツをのせた洋食。昭和22年開業の銀座の洋食店が、自慢のカレーソースにカツを合わせたのが始まりと伝わる。福神漬けを添えるのが定番とされる。",
+      "summary_en": "A freshly fried cutlet laid over curry rice. Said to trace back to a Ginza restaurant that opened in 1947 and paired its own curry sauce with a fried cutlet.",
+      "body_ja": "## 何でできているか\nカレーソースの海に、揚げたてのカツレツが半分沈んでいる。衣はソースを吸って端からしっとりし、まだ油を含んだ中心はさくりとした食感を保つ。すりおろした野菜を煮込んだソースはとろみが強く、辛さの奥にやわらかな甘みがあるとされ、カツの脂を受け止めて一体の味に仕上げる。福神漬けやらっきょうを添える店も多い。\n## どう作るのか\nカレーソースを仕込み、別に揚げたカツレツをご飯にのせたソースにくぐらせるように盛るのが基本の型とされる。ソースは小麦粉を使わずすりおろした野菜でとろみを出す店もあり、二週間ほど寝かせて味をなじませる例もあるという。カツは提供の直前に揚げ、衣の食感を保つ工夫がされ、皿の上でカツを立てて盛る店もある。土地や店によって仕上げ方に違いが出る一皿だという。\n## なぜこの形になったのか\n一説によると、昭和22年に銀座で開業した洋食店が、当時「カルカッタ風カレー」と呼んでいた自慢のカレーソースにカツレツを合わせたのが始まりといい、今も同じ味を守りながら営業を続けている。カレーとカツを一皿で楽しみたいという声から生まれたとも伝わり、以来、街の洋食店の定番として広まっていったとされる。食べ手の好みに合わせて味を微調整する店も多いとされる。",
+      "body_en": "## What it's made of\nA freshly fried cutlet sits half-submerged in a sea of curry sauce. The breading soaks up sauce and turns moist at the edges while the still-oily center keeps its crisp bite. The sauce, made by simmering grated vegetables, is thick and is said to carry a soft sweetness beneath its spice, catching the cutlet's fat and pulling the whole plate together, often finished with a side of fukujinzuke or pickled shallot.\n## How it's made\nThe usual method is to prepare a curry sauce separately, fry a cutlet, and lay it over rice so it sits half-dipped in the sauce. Some shops thicken the sauce with grated vegetables rather than flour, and some let it rest for about two weeks to let the flavor settle. The cutlet is fried just before serving to keep its breading crisp, and some shops stand it upright when plating.\n## Why it took this shape\nOne account traces it to a yoshoku restaurant that opened in Ginza in 1947, which is said to have paired its prized curry sauce — then called 'Calcutta-style curry' — with a fried cutlet. The restaurant still operates today with the same recipe, and the dish is also said to have grown out of a wish to enjoy curry and a cutlet on a single plate, later spreading as a staple of neighborhood yoshoku diners.",
+      "sources": [
+        {
+          "title": "銀座スイスの創業と西洋料理",
+          "url": "https://ginza-swiss.com/regacy/",
+          "publisher": "銀座スイス",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "curry-rice",
+          "relation_type": "派生",
+          "basis": "銀座スイスが自らの沿革で、既存のカレーソースにカツレツを合わせて考案したと伝えているため、カレーライスからの派生とした"
+        }
+      ],
+      "tags": [
+        "pork",
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "omu-soba",
+      "name_ja": "オムそば",
+      "name_romaji": "Omu Soba",
+      "name_en": "Omu-soba — sauce yakisoba wrapped in a thin sheet of egg",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "大阪府",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "その他",
+      "summary_ja": "ソース焼きそばを薄焼き卵で包んだ大阪発祥のご当地グルメ。オムライスの卵でご飯を包む発想を、焼きそばに応用したのが始まりとされる。仕上げにマヨネーズを添える店も多い。",
+      "summary_en": "Sauce yakisoba wrapped in a thin sheet of egg, a local specialty from Osaka. Said to apply omurice's trick of wrapping rice in egg to yakisoba instead.",
+      "body_ja": "## 何でできているか\n薄焼き卵の下から、ソースの香りをまとった太麺の焼きそばがのぞく。オムライスのように焼きそばを卵でくるんだ大阪のご当地グルメだという。もちもちとコシのある熟成太麺と、卵のやわらかさの対比が特徴とされ、断面から立つソースの香りが食欲を刺激する。仕上げにマヨネーズや青のりを添える店も多い。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n太麺を具と炒め、ソースで味付けした焼きそばを作り、薄く焼いた卵で包むのが基本の型とされる。麺はしっかりコシを持たせるため熟成させた生地を使う店もあるといい、卵は破れないよう手早く巻く技術が求められる。仕上げにさらにソースやマヨネーズをかける店もあり、青のりや紅生姜を添える店もあるという。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、オムライスの卵でご飯を包む発想を、地元で親しまれてきたソース焼きそばに応用したのが始まりという。大阪では戦後まもなく開業した店が、創業当時から変わらない熟成太麺を使い続けており、麺そのものの個性が一皿の土台になっているとされ、地元の粉もの文化の広がりとともに親しまれてきたと伝わる。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。",
+      "body_en": "## What it's made of\nBeneath a thin sheet of egg, thick sauce-scented yakisoba noodles peek through. It's described as an Osaka specialty that wraps yakisoba in egg the way omurice wraps rice. The chewy, well-aged thick noodles set against the softness of the egg are said to be the point, and the smell of sauce that rises when it's cut open sharpens the appetite; many shops finish it with mayonnaise or green laver.\n## How it's made\nThe usual method is to stir-fry thick noodles with toppings, season them with sauce to make yakisoba, then wrap the finished noodles in a thin sheet of egg. Some shops use a dough aged to keep a firm bite in the noodle, and wrapping the egg without tearing it takes some skill. Some places finish it with extra sauce, mayonnaise, green laver, or pickled ginger.\n## Why it took this shape\nOne account traces it to applying omurice's idea of wrapping rice in egg to the sauce-based yakisoba already loved locally. In Osaka, a shop that opened shortly after the war has kept using the same aged thick noodle since its founding, and the character of that noodle itself is said to form the base of the dish, growing up alongside the city's broader konamono, flour-based griddle food culture.",
+      "sources": [
+        {
+          "title": "オムそば / 玉出焼そば",
+          "url": "https://botejyu.co.jp/flavor_omusoba/",
+          "publisher": "ぼてぢゅうグループ",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "omurice",
+          "relation_type": "兄弟",
+          "basis": "焼きそばを卵で包む調理法が「オムライスのように」と公式サイトで説明されており、同じ卵包みの技法を共有するため"
+        }
+      ],
+      "tags": [
+        "egg",
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "crab-cream-korokke",
+      "name_ja": "カニクリームコロッケ",
+      "name_romaji": "Kani Kuriimu Korokke",
+      "name_en": "Crab cream croquette — crabmeat in white sauce, breaded and fried",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "フライ",
+      "summary_ja": "蟹の身を混ぜたホワイトソースをパン粉で包んで揚げた洋食。1887年に伝わったクリームコロッケの系譜に連なり、ポテトコロッケとは1895年頃に別メニューへ分かれたとされる。洋食店の定番として受け継がれている。",
+      "summary_en": "Crabmeat folded into white sauce, breaded and deep-fried. Traced to the cream croquette that reached Japan in 1887, a line that is said to have split from the potato croquette into a separate menu item around 1895.",
+      "body_ja": "## 何でできているか\nパン粉衣を割ると、とろりとしたホワイトソースの中から蟹の身がほぐれ出てくる。ポテトコロッケの外はさくり、中はほくほくという食感とは対照的に、こちらは衣の中がとろけるクリーム状で、噛むと熱々のソースが流れ出す。蟹の風味が、バターの香るソースにのって広がるといい、猫舌には向かない熱さになるという。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n牛乳とバターで作ったホワイトソースに蟹の身をほぐして加え、冷やし固めてから小判形にまとめ、パン粉をつけて高温の油で短時間揚げるのが基本の型とされる。ソースが柔らかいぶん破裂しやすく、衣をしっかりつけて手早く揚げる技術が要るといい、成形後にしっかり冷やすことも重要な工程とされる。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、1887年に日本へ伝わった当初のクロケット（クリームコロッケ）が起点だといい、乳製品の加工が普及していなかったためポテトを使ったコロッケが別に広まったとされる。1895年頃には両者が別メニューとして扱われるようになり、蟹はこのクリーム系の系譜に連なる具材の一つといい、洋食店の定番として今に受け継がれている。",
+      "body_en": "## What it's made of\nBreak the breadcrumb crust open and crabmeat spills out of a runny white sauce. Where a potato croquette is crisp outside and soft and starchy within, this one is creamy all the way through the crust, and biting in sends out a rush of hot sauce. The crab's flavor is said to ride on the butter-scented sauce as it spreads, hot enough that it's worth letting it cool a moment first.\n## How it's made\nThe usual method is to fold crabmeat into a white sauce made with milk and butter, chill it until firm, shape it into ovals, coat it in breadcrumbs, and deep-fry it briefly at high heat. Because the sauce is so soft, it can burst if the coating isn't tight, so cooks need a quick hand to seal and fry it before that happens, and chilling the shaped ovals thoroughly beforehand is said to matter just as much.\n## Why it took this shape\nOne account traces it back to 1887, when croquette — cream croquette — first reached Japan; because dairy processing wasn't yet common, a separate potato-based croquette is said to have spread instead. By around 1895 the two had become distinct menu items, and crab is counted among the fillings that carry on the cream-based line, one still kept on the menu at yoshoku restaurants today.",
+      "sources": [
+        {
+          "title": "コロッケの歴史",
+          "url": "https://www.croquette.jp/whats/history",
+          "publisher": "一般社団法人日本コロッケ協会",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "korokke",
+          "relation_type": "兄弟",
+          "basis": "日本コロッケ協会の年表によれば、1887年伝来のクリームコロッケと1895年頃に別メニュー化したポテトコロッケ（コロッケ）は同じクロケットから分かれた系統であるため"
+        }
+      ],
+      "tags": [
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "ebi-fry",
+      "name_ja": "エビフライ",
+      "name_romaji": "Ebi Furai",
+      "name_en": "Ebi fry — breaded, deep-fried shrimp",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "フライ",
+      "summary_ja": "海老に衣をつけて揚げた洋食。カツレツの揚げ方を海老に応用したのが始まりとする説が有力とされ、名古屋名物として広まったのは戦後とされる。タルタルソースを添えるのが定番という。",
+      "summary_en": "Breaded, deep-fried shrimp. The leading theory traces it to applying the cutlet's breading method to shrimp, with its spread as a Nagoya specialty said to date only from after the war.",
+      "body_ja": "## 何でできているか\n尾を立てたまま真っ直ぐに揚げられた海老が、パン粉衣をまとって並ぶ。衣を噛むとザクッと音がして、中から海老のぷりっとした身が現れる。天ぷらの薄い衣とは違い、たっぷりの油でしっかり揚げる仕立てで、タルタルソースやウスターソースを添えて食べるのが定番という。キャベツの千切りを添える店も多い。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n海老の背わたを取って筋を切り、真っ直ぐな形になるよう下処理をしたあと、小麦粉・卵・パン粉の順に衣をつけて多めの油で揚げるのが基本の型とされる。カツレツと同じ揚げ方を海老に応用したものとされ、尾を立てて盛り付けることで見た目の華やかさも作られており、下処理の丁寧さが仕上がりを左右するという。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n諸説あるが、天ぷらよりも歴史の新しい揚げ物とされ、明治期から大正期にかけて西洋料理を日本人向けに翻案する動きの中で、パン粉をまとわせて揚げるカツレツの技法を海老に応用したのが始まりという説が有力とされる。名古屋の名物として広まったのは戦後のことで、発祥と名物化は別の出来事だと考えられている。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。",
+      "body_en": "## What it's made of\nShrimp fried straight with the tail left standing are lined up in their breadcrumb coats. Bite through the crust and it cracks audibly, revealing a plump, springy shrimp inside. Unlike tempura's thin batter, this is deep-fried in plenty of oil, and it's usually served with tartar sauce or Worcestershire-style sauce, often alongside shredded cabbage.\n## How it's made\nThe usual method is to devein the shrimp and score the underside so it fries straight, then coat it in flour, egg, and breadcrumbs in that order before deep-frying in a generous amount of oil. It's said to apply the same breading method used for cutlets to shrimp, and standing the tail up when plating adds to the presentation, with careful prep work said to shape the final result.\n## Why it took this shape\nAccounts vary, but this is thought to be a newer fried dish than tempura, and the theory with the most support traces it to the Meiji-to-Taisho-era movement to translate Western cooking for Japanese tables, where the breaded, deep-fried method used for cutlets is said to have been applied to shrimp. It's said to have spread as a Nagoya specialty only after the war, and its origin and its later fame as a local specialty are described as two separate stories.",
+      "sources": [
+        {
+          "title": "エビフライは名古屋名物じゃなかったかもしれない件",
+          "url": "https://yp-kyo.com/2026/05/01/ebi-fry-wakon-yosai-tokyo-origin/",
+          "publisher": "yp-kyo.com",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [
+        {
+          "pref": "愛知県",
+          "city": "名古屋市",
+          "lat": 35.1815,
+          "lng": 136.9066,
+          "relation_type": "名産地"
+        }
+      ],
+      "relations": [
+        {
+          "to_slug": "tempura",
+          "relation_type": "対比",
+          "basis": "同じ海老の揚げ物だが、天ぷらは水で溶いた薄い衣、エビフライは小麦粉・卵・パン粉の厚い衣と、技法の系統が異なるため"
+        }
+      ],
+      "tags": [
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "mille-feuille-katsu",
+      "name_ja": "ミルフィーユカツ",
+      "name_romaji": "Mirufiyu Katsu",
+      "name_en": "Mille-feuille katsu — layered thin pork slices, breaded and fried",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "フライ",
+      "summary_ja": "薄切り豚肉を幾重にも重ねて揚げたとんかつの派生形。一枚肉のとんかつに対し、少ない肉量で厚みと軽い食感を両立させる工夫として広まったとされる。断面の層が見た目の特徴になっている。",
+      "summary_en": "A tonkatsu variant made by layering thin pork slices before breading and frying. Said to have spread as a way to achieve both visual thickness and a light bite while using less meat than a single thick slab.",
+      "body_ja": "## 何でできているか\n薄切りにした豚肉を何枚も重ねてから揚げているため、断面には層が幾重にも重なって見える。一枚肉のとんかつのような厚みのある肉々しさとは違い、層と層の間に空気を含むぶん、噛むとサクサクとした軽い歯ざわりが続く。塩や大葉を層の間に挟む店もあるといい、断面の美しさも魅力の一つとされる。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n豚肉を薄切りにし、数枚を少しずつずらしながら重ねて一枚の塊のように成形したあと、小麦粉・卵・パン粉をつけて揚げるのが基本の型とされる。層をしっかり密着させて揚げている間にほどけないようにする工程が要となる。大葉やチーズを層の間に挟み込む店もあり、断面を見せる切り方で提供する店も多い。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、一枚の厚い豚肉を揚げるとんかつに対し、薄切り肉を層状に重ねることで、少ない量でも見た目の厚みと軽い食感を両立させる工夫として広まったという。層にすることで火の通りが均一になりやすく、家庭でも扱いやすいとされる点も普及を後押ししたと伝わり、洋食店のメニューにも定着していったという。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。",
+      "body_en": "## What it's made of\nBecause thin slices of pork are stacked several layers deep before frying, the cut surface shows layer upon layer. Unlike the dense, meaty bite of a single thick slab in tonkatsu, air trapped between the layers gives it a light, crisp texture that keeps going with each bite. Some shops tuck salt or shiso leaf between the layers, and the striped cut surface is often part of the appeal.\n## How it's made\nThe usual method is to slice pork thin, stack several slices with a slight offset so they form one block, then coat it in flour, egg, and breadcrumbs before frying. Keeping the layers pressed tightly together so they don't come apart during frying is the key step. Some shops slip shiso leaf or cheese between the layers, and many cut it to show off the layered cross-section when serving.\n## Why it took this shape\nOne account holds that, in contrast to tonkatsu's single thick slab, stacking thin slices into layers is said to have spread as a way to get both visual thickness and a lighter bite out of less meat. Layering also lets the heat pass through more evenly, which is said to have made it easier to handle at home too, helping it spread and settle onto yoshoku restaurant menus as well.",
+      "sources": [
+        {
+          "title": "ミルフィーユカツ",
+          "url": "https://ja.wikipedia.org/wiki/ミルフィーユカツ",
+          "publisher": "ウィキペディア",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "tonkatsu",
+          "relation_type": "派生",
+          "basis": "一枚肉を揚げるとんかつに対し、薄切り肉を層状に重ねて揚げる調理法の派生形であるため"
+        }
+      ],
+      "tags": [
+        "pork",
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "hamburg",
+      "name_ja": "ハンバーグ",
+      "name_romaji": "Hanbaagu",
+      "name_en": "Hamburg steak — a pan-fried patty of ground beef or beef and pork",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "肉",
+      "summary_ja": "挽き肉に玉ねぎとパン粉を加えて焼いた洋食。生の挽き肉に抵抗のあった食習慣に合わせ、しっかり火を通しボリュームを出す型に変化していったとされる。昭和以降、家庭の定番おかずとして定着した。",
+      "summary_en": "A pan-fried patty of ground meat mixed with onion and breadcrumbs. Said to have shifted toward a fully cooked, bulked-up style to suit a food culture wary of raw ground meat.",
+      "body_ja": "## 何でできているか\nナイフを入れると肉汁がじわりと染み出し、皿の上でデミグラスソースと混ざり合う。表面は香ばしく焼き固められているのに、中はふっくらとやわらかいという対照が特徴だという。牛肉だけでなく豚肉を合わせて焼く合い挽きの型も広く親しまれ、家庭の定番おかずとしても長く愛されてきた。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n牛肉や合い挽き肉に玉ねぎのみじん切り、パン粉、卵を加えてよく練り、小判形に成形して焼くのが基本の型とされる。空気を抜くように手のひらで叩きつけながら成形することで、焼いたときに肉汁が閉じ込められるという。仕上げにデミグラスソースや和風の大根おろしだれをかける店もあり、家庭ではケチャップとソースを合わせる例も多い。\n## なぜこの形になったのか\n一説によると、西洋料理のハンバーグステーキが明治期に日本へ紹介されたのち、生の挽き肉に抵抗のあった当時の食習慣に合わせて、しっかり火を通し玉ねぎやパン粉を加えてボリュームを出す型へと変化していったという。家庭でも作りやすい洋食として昭和以降に広く定着し、給食のメニューとしても親しまれてきたと伝わる。",
+      "body_en": "## What it's made of\nCut into it and juice seeps out, mixing into the demi-glace sauce on the plate. The contrast between a well-browned, fragrant crust and a soft, plump interior is said to be the point. Alongside beef-only versions, a mix of beef and pork is also widely favored, and it has long been a staple of home cooking.\n## How it's made\nThe usual method is to knead beef or a beef-pork mix with minced onion, breadcrumbs, and egg, shape it into an oval patty, and pan-fry or grill it. Slapping the patty between the palms while shaping is said to drive out air pockets so the juice stays sealed in during cooking. Some places finish it with demi-glace sauce or a Japanese-style grated-daikon sauce, and home cooks often mix ketchup with Worcestershire-style sauce instead.\n## Why it took this shape\nOne account holds that after Western hamburg steak was introduced to Japan in the Meiji era, it's said to have shifted, to suit a food culture wary of raw ground meat, toward a fully cooked style bulked up with onion and breadcrumbs. It's said to have taken firm hold from the Showa era on as an easy-to-make yoshoku dish for home cooking, and it also became a familiar item on school lunch menus.",
+      "sources": [
+        {
+          "title": "ハンバーグの歴史",
+          "url": "https://j-hamburg.org/history/",
+          "publisher": "一般社団法人日本ハンバーグ協会",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "tonkatsu",
+          "relation_type": "対比",
+          "basis": "ともに明治期に紹介された西洋の肉料理を、日本人の食習慣に合わせて翻案した洋食として編集上対比できるため"
+        }
+      ],
+      "tags": [
+        "beef",
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "beef-stew",
+      "name_ja": "ビーフシチュー",
+      "name_romaji": "Biifu Shichuu",
+      "name_en": "Beef stew — beef and root vegetables simmered in a demi-glace-style sauce",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "肉",
+      "summary_ja": "牛肉と根菜をデミグラス風ソースで煮込んだ洋食。明治期に東京の洋食店で高級料理として紹介されたのち、家庭向けルウの普及とともに食卓に定着したとされる。ホテルの名物料理として残る例も多い。",
+      "summary_en": "Beef and root vegetables simmered in a demi-glace-style sauce. Introduced as a high-end dish at Tokyo yoshoku restaurants in the Meiji era, it's said to have settled onto home tables as packaged roux spread.",
+      "body_ja": "## 何でできているか\nとろりと煮詰まった茶色いソースの中に、箸で切れるほどやわらかく煮込んだ牛肉と根菜が沈んでいる。長時間の煮込みで肉の繊維はほろほろとほどけ、にんじんや玉ねぎはソースの旨みを吸って輪郭を保ったまま煮崩れずに残っているという。パンにもご飯にも合う濃さに仕立てられ、ホテルの一皿として供されることも多い。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n牛肉の塊を香味野菜とともに赤ワインやデミグラスソースでじっくり煮込むのが基本の型とされる。長時間かけて煮ることで肉をやわらかくし、ソースにとろみと深みを出す。仕上げに生クリームやバターでこくを加える店もあるといい、数日かけて仕込む例も伝わる。食べ手の好みに合わせて味を微調整する店も多いとされる。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。\n## なぜこの形になったのか\n一説によると、明治期に東京の洋食店で高級なメニューとして紹介されたのち、昭和に入り学校給食で親しまれた「白いシチュー」が全国に広まる流れと並行して、家庭向けのルウが普及したことで牛肉を使った茶色いシチューも食卓に定着していったとされる。今もホテルの名物料理として残る例が各地にある。家庭の食卓と店の味とで、仕立て方が少しずつ異なるとも伝わる。",
+      "body_en": "## What it's made of\nIn a thick, reduced brown sauce sit beef and root vegetables cooked so soft they yield to chopsticks. Long simmering pulls the meat's fibers apart, while carrot and onion soak up the sauce's savor and hold their shape without falling apart. The sauce is built rich enough to go with either bread or rice, and it's often served as a hotel restaurant's signature dish.\n## How it's made\nThe usual method is to simmer a chunk of beef for a long time with aromatic vegetables in red wine or a demi-glace-style sauce. The long cooking time softens the meat and gives the sauce its thickness and depth. Some shops finish it with cream or butter for extra richness, and some are said to let it rest for several days before serving.\n## Why it took this shape\nOne account holds that after beef stew was introduced as a high-end item at Tokyo yoshoku restaurants in the Meiji era, it's said to have taken hold on home tables alongside the spread of packaged roux, running parallel to how 'white stew' became familiar nationwide through school lunches in the Showa era, and it remains a signature dish at hotel restaurants across the country.",
+      "sources": [
+        {
+          "title": "明治から現代までの「シチューの歴史」を振り返る",
+          "url": "https://housefoods.jp/data/stew/history/japan/index.html",
+          "publisher": "ハウス食品株式会社",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "hamburg",
+          "relation_type": "対比",
+          "basis": "ともに明治期に紹介された西洋の牛肉料理を日本の食卓向けに翻案した洋食として編集上対比できるため"
+        }
+      ],
+      "tags": [
+        "beef",
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "pork-chop",
+      "name_ja": "ポークチャップ",
+      "name_romaji": "Pooku Chappu",
+      "name_en": "Pork chap — a thick-cut pork loin in a ketchup-based demi-glace-style sauce",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "肉",
+      "summary_ja": "厚切り豚ロースにケチャップ風味のデミグラスソースを絡めた洋食。本場のマデラソースの代わりにケチャップを使う型が定着したとされ、北海道の各地に名店が残る。ボリュームの多さも特徴という。",
+      "summary_en": "A thick-cut pork loin coated in a ketchup-based demi-glace-style sauce. Ketchup is said to have taken the place of madeira sauce in the style that stuck, and well-known shops remain scattered across Hokkaido.",
+      "body_ja": "## 何でできているか\n厚切りの豚ロース肉が、ケチャップの酸味を利かせたデミグラス風ソースにたっぷりと絡む。本場のポークチョップが使うマデラソースとは違い、ケチャップの甘酸っぱさと玉ねぎの甘みが前面に出るのが特徴とされる。皿からはみ出すほどの厚みで供する店もあり、ボリュームも売りの一つという。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n厚切りにした豚ロース肉を焼き、あるいはオーブンでじっくり火を通したあと、ケチャップを使ったデミグラス風のソースをかけて仕上げるのが基本の型とされる。玉ねぎを甘くなるまで炒めてソースに加える店が多く、家庭料理として作られてきた歴史も長いといい、レストランごとに味付けの幅がある。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、本場アメリカのポークチョップが日本人の味覚に合わせて翻案される過程で、マデラソースの代わりにケチャップを使ったデミグラス風ソースが定着したという。発祥の店ははっきりしないが、家庭の味として親しまれてきた料理だとも伝わり、開拓の歴史を持つ北海道の各地に名店が残るという。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。",
+      "body_en": "## What it's made of\nA thick-cut pork loin is generously coated in a demi-glace-style sauce with a ketchup tang. Unlike the madeira sauce used for a classic pork chop, the sweet-and-sour pull of ketchup and the sweetness of onion are said to be the point here. Some shops serve a cut thick enough to spill over the edge of the plate, with generous portions part of the draw.\n## How it's made\nThe usual method is to sear or slow-roast a thick-cut pork loin, then finish it with a ketchup-based demi-glace-style sauce. Many shops cook onion down until sweet before adding it to the sauce, and the dish is said to have a long history as a home-cooked staple too, with the seasoning varying widely from one restaurant to the next.\n## Why it took this shape\nOne account holds that as the American pork chop was translated for Japanese taste, ketchup is said to have taken the place of madeira sauce in a demi-glace-style sauce that stuck. No single shop's origin is clear, but it's also said to have grown up as a home-cooking favorite, and well-known shops remain scattered across Hokkaido, a region with its own history of frontier settlement.",
+      "sources": [
+        {
+          "title": "北海道名物の「ポークチャップ」",
+          "url": "https://b-gurume.com/porkchap",
+          "publisher": "Bグルメ",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [
+        {
+          "pref": "北海道",
+          "city": "室蘭市",
+          "lat": 42.3153,
+          "lng": 140.9736,
+          "relation_type": "名産地"
+        }
+      ],
+      "relations": [
+        {
+          "to_slug": "beef-stew",
+          "relation_type": "対比",
+          "basis": "ともに本場の洋風ソースをケチャップやデミグラス風に置き換えて定着した肉料理として編集上対比できるため"
+        }
+      ],
+      "tags": [
+        "pork",
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "piccata",
+      "name_ja": "ピカタ",
+      "name_romaji": "Pikata",
+      "name_en": "Piccata — thin meat coated in flour and egg, pan-fried in butter",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "肉",
+      "summary_ja": "薄切り肉に小麦粉と卵の衣をつけてバターで焼いた洋食。パン粉を使うフライ料理とは別の、卵だけの軽い衣の系統として位置づけられてきたとされる。鶏肉や白身魚で作る店もある。",
+      "summary_en": "Thin meat coated in flour and beaten egg, then pan-fried in butter. Said to have settled in as a lighter, egg-only-coated line distinct from the breaded fried dishes of yoshoku cooking.",
+      "body_ja": "## 何でできているか\n小麦粉をまとわせた薄切り肉に、卵液の衣がふわりとかぶさっている。パン粉をつけて揚げるとんかつとは違い、卵だけの薄い衣がバターでこんがりと焼き固められ、噛むとふんわりとした軽さが残るという。粉チーズを卵液に混ぜて焼く店もあり、コクのある香りが立つ。鶏肉や豚肉のほか白身魚で作る店もある。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n薄く伸ばした肉に小麦粉をまぶし、溶き卵をくぐらせてからバターで両面を焼くのが基本の型とされる。パン粉は使わず卵液だけで衣を作るため、揚げるというより焼くに近い調理になるという。仕上げにレモンやケッパーを添え、酸味を効かせる店もあり、白ワインで香りをつける例も伝わる。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、イタリア料理のピカタが日本へ紹介されたのち、パン粉を使う洋食のフライ料理が定着していた土壌の中で、卵だけの軽い衣という別の系統として位置づけられていったという。とんかつほど重くなく、家庭でも手早く作れる一皿として親しまれ、洋食店のランチメニューにも定着してきたと伝わる。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。",
+      "body_en": "## What it's made of\nA thin slice of meat dusted in flour is draped in a light coating of beaten egg. Unlike tonkatsu's breadcrumb crust, here only the egg coating is pan-fried to a golden finish in butter, leaving a soft lightness with each bite, it's said. Some shops mix grated cheese into the egg before cooking, adding a rich aroma, and white fish is sometimes used in place of meat.\n## How it's made\nThe usual method is to dust a thinly pounded piece of meat with flour, dip it in beaten egg, and pan-fry both sides in butter. Because no breadcrumbs are used, the coating is made from egg alone, making the cooking closer to sauteing than deep-frying. Some shops finish it with lemon or capers for acidity, and a splash of white wine is sometimes added for fragrance.\n## Why it took this shape\nOne account holds that after Italian piccata was introduced to Japan, it's said to have settled in as a separate, lighter-coated line alongside the breaded fried dishes already established in yoshoku cooking. It's said to have been favored as a dish lighter than tonkatsu and quick enough to make at home, and it also became a lunchtime staple at yoshoku restaurants.",
+      "sources": [
+        {
+          "title": "ピカタ",
+          "url": "https://ja.wikipedia.org/wiki/ピカタ",
+          "publisher": "ウィキペディア",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "tonkatsu",
+          "relation_type": "対比",
+          "basis": "同じ肉に衣をつけて焼く・揚げる料理だが、とんかつはパン粉の厚い衣、ピカタは卵だけの薄い衣と、衣の系統が異なるため"
+        }
+      ],
+      "tags": [
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "roll-cabbage",
+      "name_ja": "ロールキャベツ",
+      "name_romaji": "Rooru Kyabetsu",
+      "name_en": "Roll cabbage — ground meat wrapped in cabbage leaves and simmered",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "肉",
+      "summary_ja": "ハンバーグと同じ挽き肉の種をキャベツで包んで煮込んだ洋食。少ない肉量でも満足感を出せる工夫として派生し、冬場の家庭料理として定着したとされる。スープごと味わう一皿という。",
+      "summary_en": "The same ground-meat filling used for hamburg steak, wrapped in cabbage leaves and simmered. Said to have branched off as a way to stretch a satisfying dish over less meat, and settled in as winter home cooking.",
+      "body_ja": "## 何でできているか\n湯通しでしんなりさせたキャベツの葉を割ると、中から挽き肉の種がこぼれ出す。ハンバーグと同じ挽き肉・玉ねぎ・パン粉の生地をキャベツで包んで煮込むため、肉汁はキャベツの葉に吸われ、葉ごと食べるとやわらかな甘みと肉の旨みが一緒に広がるという。スープごと味わう一皿として供されることが多い。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\nキャベツの葉を丸のまま茹でてやわらかくし、ハンバーグと同様に練った挽き肉の種を包んで爪楊枝などで留め、コンソメスープや洋風出汁でくたくたになるまで煮込むのが基本の型とされる。煮崩れを防ぐため、巻き終わりを下にして鍋に並べる店が多いといい、トマトソースで煮込む型も伝わる。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、挽き肉料理としてのハンバーグが家庭に広まる過程で、同じ種をキャベツで包んで煮込むことで、少ない肉量でも一皿の満足感を出せる工夫として派生していったという。煮込み料理として冬場の家庭料理に定着し、鍋物の代わりとして食卓に並ぶこともあると伝わる。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。",
+      "body_en": "## What it's made of\nBreak open a cabbage leaf softened by blanching and a filling of ground meat spills out. Because the same ground-meat, onion, and breadcrumb mixture used for hamburg steak is wrapped in cabbage and simmered, the meat's juice is said to soak into the leaf, so eating leaf and filling together brings a soft sweetness together with the meat's savor. It's often served together with its broth, soup-style.\n## How it's made\nThe usual method is to boil whole cabbage leaves until soft, wrap them around a kneaded ground-meat filling like the one used for hamburg steak, pin them shut with a toothpick, and simmer them in consomme or a Western-style stock until tender. Many shops set the wrapped side down in the pot to keep the rolls from falling apart, and a tomato-sauce version is also passed down.\n## Why it took this shape\nOne account holds that as hamburg steak spread as a ground-meat dish for the home table, wrapping the same filling in cabbage and simmering it is said to have branched off as a way to make a satisfying dish stretch further on less meat. It's also said to have settled in as a simmered dish for winter home cooking, sometimes standing in for a hot-pot meal at the table.",
+      "sources": [
+        {
+          "title": "ロールキャベツ",
+          "url": "https://ja.wikipedia.org/wiki/ロールキャベツ",
+          "publisher": "ウィキペディア",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "hamburg",
+          "relation_type": "兄弟",
+          "basis": "ハンバーグと同じ挽き肉・玉ねぎ・パン粉の種を使い、成形せずキャベツで包んで煮込む点だけが異なる調理法であるため"
+        }
+      ],
+      "tags": [
+        "pork",
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "gratin",
+      "name_ja": "グラタン",
+      "name_romaji": "Guratan",
+      "name_en": "Gratin — macaroni or meat in white sauce, baked with cheese",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "その他",
+      "summary_ja": "マカロニや鶏肉をホワイトソースで和え、チーズをのせて焼いた洋食。手に入りやすい具材を使う家庭向けの型として広まり、ドリアとは具材の違いで枝分かれしたとされる。学校給食にも取り入れられてきた。",
+      "summary_en": "Macaroni or chicken mixed with white sauce, topped with cheese and baked. Said to have spread as a home-style version built around easy-to-find fillings, branching off from doria mainly by what replaces the rice.",
+      "body_ja": "## 何でできているか\n耐熱皿の中で、マカロニや鶏肉、きのこがホワイトソースにとろりと包まれ、表面はチーズごと焦げ目がつくまで焼かれている。匙を入れると焦げたチーズがぱりっと割れ、その下からとろけるソースが溢れ出すという。具材を選ばず作れる懐の広さも特徴とされ、冬場の定番メニューとして親しまれてきた。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n牛乳とバター、小麦粉で作ったホワイトソースに、茹でたマカロニや炒めた具材を和え、耐熱皿に入れてチーズをのせオーブンで焼き色をつけるのが基本の型とされる。表面だけを香ばしく焼き上げ、中はソースのなめらかさを保ったまま仕上げるといい、具材の下処理を丁寧に行う店が多い。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、フランス料理のグラタンが西洋料理として日本へ紹介されたのち、パンよりご飯や麺に親しんできた食卓に合わせて、マカロニや鶏肉、コーンなど手に入りやすい具材を使う家庭向けの型として広まっていったという。同じホワイトソースを使うドリアとは具材の違いで枝分かれし、学校給食にも取り入れられてきたと伝わる。",
+      "body_en": "## What it's made of\nIn a heatproof dish, macaroni, chicken, or mushrooms sit wrapped in white sauce, the surface baked with cheese until it browns. Dig a spoon in and the browned cheese cracks with a snap, sauce spilling molten from beneath, it's said. Its flexibility with whatever filling is on hand is also said to be part of the appeal, and it's long been a winter table favorite.\n## How it's made\nThe usual method is to mix boiled macaroni or sauteed ingredients into a white sauce made from milk, butter, and flour, put it in a heatproof dish, top it with cheese, and bake it until browned. Only the surface is baked to a fragrant finish while the inside is kept smooth and saucy, and many kitchens take care in how the filling is prepped beforehand.\n## Why it took this shape\nOne account holds that after French gratin was introduced to Japan as Western cooking, it's said to have spread as a home-style version built around ingredients easy to find — macaroni, chicken, corn — for a table more used to rice and noodles than bread. It's said to have branched off from doria, which uses the same white sauce, mainly by what filling replaces the rice, and it later found its way onto school lunch menus too.",
+      "sources": [
+        {
+          "title": "発祥の伝統料理",
+          "url": "https://www.hotel-newgrand.co.jp/origin/",
+          "publisher": "ホテルニューグランド",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "doria",
+          "relation_type": "兄弟",
+          "basis": "同じホワイトソースとチーズ焼きの技法を使い、土台をご飯にすればドリア、マカロニや具材にすればグラタンとなる、同じ調理技法から分かれた料理であるため"
+        }
+      ],
+      "tags": [
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "japanese-pizza",
+      "name_ja": "ピザ",
+      "name_romaji": "Piza",
+      "name_en": "Japanese-style pizza — Italian pizza reworked with Japan-only toppings",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "ピザ",
+      "summary_ja": "トマトソースとチーズの骨格を保ちながら、甘辛い味やマヨネーズを使った日本独自のトッピングへと翻案されたピザ。1970年代以降、宅配ピザチェーンが主導して広まったとされる。家族向けの食事として定着している。",
+      "summary_en": "Pizza with its tomato-and-cheese base intact but reworked with Japan-only toppings built around sweet-savory flavors and mayonnaise. Said to have spread mainly through delivery-pizza chains from the 1970s on.",
+      "body_ja": "## 何でできているか\n厚みのある生地の上に、照り焼きチキンやコーン、マヨネーズ、明太子など、イタリアでは見かけない具材がのる。トマトソースとチーズという骨格は保ちながら、甘辛い醤油だれやマヨネーズの酸味を効かせるなど、味の組み立てそのものが翻案されているという。宅配ピザの主力メニューとして広まった型で、家族向けの一皿として食卓に定着している。\n## どう作るのか\n小麦粉の生地を発酵させて焼き上げる工程はイタリアのピザと共通するが、トッピングは日本の食卓に馴染む甘辛い味やマヨネーズを使った組み合わせが数多く考案されてきたとされる。宅配や店内飲み放題形式など、提供のされ方そのものも独自に発展してきたといい、家族向けの大きなサイズで売られることも多い。土地や店によって仕上げ方に違いが出る一皿だという。\n## なぜこの形になったのか\n一説によると、1973年に東京・赤坂へ日本初のピザ専門チェーンが上陸したのち、1987年に国内資本の宅配ピザチェーンが開業し、日本人の味覚に合わせた生地・ソース・チーズの配合とともに、世界に例のないトッピングを次々と考案していったという。米飯に合わせて育った洋食とは別の道をたどり、戦後になって独自の翻案が進んだ料理と言え、家庭に電話一本で届く食事としても定着したとされる。",
+      "body_en": "## What it's made of\nToppings rarely seen in Italy — teriyaki chicken, corn, mayonnaise, mentaiko — sit on a thick-crust dough. The tomato sauce and cheese base stays intact, but the whole flavor structure is said to have been reworked, with sweet-savory soy-based sauces and mayonnaise's tang worked in. It's the form that spread as the mainstay of Japan's delivery-pizza chains, settling in as a family meal ordered for the table.\n## How it's made\nFermenting and baking a wheat-flour dough is shared with Italian pizza, but the toppings are said to have branched into many combinations built around sweet-savory flavors and mayonnaise that suit a Japanese table. How it's served — delivery, or all-you-can-eat dine-in — is also said to have developed along its own path, often sized for sharing across a whole family.\n## Why it took this shape\nOne account holds that after Japan's first pizza-specialty chain landed in Akasaka, Tokyo, in 1973, a domestically capitalized delivery-pizza chain opened in 1987 and is said to have gone on developing dough, sauce, and cheese blends suited to Japanese taste, along with toppings found nowhere else in the world. It followed a different path from the yoshoku that grew up around rice, with its own postwar translation still underway, settling in as a meal that arrives with a single phone call.",
+      "sources": [
+        {
+          "title": "ヒストリー",
+          "url": "https://www.shakeys.jp/history/",
+          "publisher": "シェーキーズ",
+          "accessed_at": "2026-09-09"
+        },
+        {
+          "title": "ピザーラの理念",
+          "url": "https://www.four-seeds.co.jp/brand/pizzala",
+          "publisher": "株式会社フォーシーズ",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "napolitan",
+          "relation_type": "対比",
+          "basis": "ともにイタリア料理を日本人の味覚に合わせて翻案した洋食パスタ・ピザとして編集上対比できるため"
+        }
+      ],
+      "tags": [
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "teriyaki-chicken-pizza",
+      "name_ja": "照り焼きチキンピザ",
+      "name_romaji": "Teriyaki Chikin Piza",
+      "name_en": "Teriyaki chicken pizza — teriyaki chicken, mayonnaise, corn, and nori",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "東京都",
+      "origin_city": "豊島区",
+      "lat": 35.7212,
+      "lng": 139.7064,
+      "primary_style": "ピザ",
+      "summary_ja": "照り焼き味の鶏肉にマヨネーズとコーン、海苔をのせたピザ。1987年開業の国内資本の宅配ピザチェーンが、世界に先駆けて考案したトッピングの一つと伝わる。宅配ピザの定番として長く支持されている。",
+      "summary_en": "Pizza topped with teriyaki-glazed chicken, mayonnaise, corn, and nori. Said to trace to a domestically capitalized delivery-pizza chain founded in 1987, which describes it as a topping it developed before anyone else in the world.",
+      "body_ja": "## 何でできているか\n甘辛い照り焼きだれを絡めた鶏肉の上に、マヨネーズが線を描くように絞られ、コーンと刻み海苔が散らされている。トマトソースの酸味と照り焼きの甘辛さ、マヨネーズのコクが一枚の上で重なり合うのが特徴で、海外のピザにはまず見られない組み合わせだという。宅配ピザの定番として長く支持されてきた一枚でもある。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n生地にトマトソースを薄く塗り、甘辛い醤油だれで下味をつけた鶏肉とコーンをのせて焼き、焼き上がりにマヨネーズを線状に絞って刻み海苔を散らすのが基本の型とされる。マヨネーズは焼く前ではなく仕上げにかけることで、酸味と食感を保つ工夫がされているといい、鶏肉は照り焼きだれに漬け込んでから焼く店が多い。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、1987年に開業した国内資本の宅配ピザチェーンが、世界に先駆けて考案したトッピングの一つという。海外にはない具材だけを頼りに味を組み立てるほかなかったため、日本人が好む甘辛い味とマヨネーズという組み合わせに行き着いたと伝わり、以来定番メニューの一つとして長く支持されてきた。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。",
+      "body_en": "## What it's made of\nChicken coated in a sweet-savory teriyaki sauce sits under mayonnaise piped in lines, scattered with corn and shredded nori. The tomato sauce's acidity, the teriyaki's sweet-savory pull, and the mayonnaise's richness layer together on one pizza — a combination said to be found almost nowhere else in the world, and one that has remained a long-standing best-seller on delivery menus.\n## How it's made\nThe usual method is to spread a thin layer of tomato sauce on the dough, top it with chicken seasoned in a sweet-savory soy sauce and corn, bake it, then pipe mayonnaise in lines over the top and scatter shredded nori once it's out of the oven. Adding the mayonnaise after baking rather than before is said to preserve its tang and texture, and many shops marinate the chicken in teriyaki sauce before cooking it.\n## Why it took this shape\nOne account holds that a domestically capitalized delivery-pizza chain that opened in 1987 is said to be behind this topping, developed, by its own account, before any chain elsewhere in the world tried it. With no foreign template to draw on for the ingredients, it's said the chain landed on the sweet-savory flavor and mayonnaise combination Japanese diners favor, and it has stayed a mainstay of the menu ever since.",
+      "sources": [
+        {
+          "title": "ピザーラの理念",
+          "url": "https://www.four-seeds.co.jp/brand/pizzala",
+          "publisher": "株式会社フォーシーズ",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "japanese-pizza",
+          "relation_type": "派生",
+          "basis": "日本独自のトッピングとして考案された、日本型ピザの派生形の一つであるため"
+        }
+      ],
+      "tags": [
+        "chicken",
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "mentai-mayo-pizza",
+      "name_ja": "明太マヨピザ",
+      "name_romaji": "Mentai Mayo Piza",
+      "name_en": "Mentai mayo pizza — spicy cod roe and mayonnaise",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "ピザ",
+      "summary_ja": "辛子明太子とマヨネーズをのせたピザ。魚卵をそのまま食べたり麺に絡めたりしてきた食文化が、ピザのトッピングにも応用されていったとされる。宅配ピザの定番としても定着している。",
+      "summary_en": "Pizza topped with spicy cod roe and mayonnaise. Said to carry over a long habit of eating fish roe on its own or with noodles directly into a pizza topping.",
+      "body_ja": "## 何でできているか\n辛子明太子のつぶつぶが、とろけたチーズの間からのぞく。マヨネーズのコクが明太子の塩気と辛みをまろやかに包み、刻み海苔の香りが磯の風味を添えるという。生地はトマトソースを薄く塗るだけの店もあれば、マヨネーズソースを土台にする店もあり、辛さの効かせ方は店によって幅がある一枚である。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n生地にソースを塗り、ほぐした辛子明太子とマヨネーズをのせて焼くのが基本の型とされる。明太子は加熱で色や食感が変わりやすいため、焼き上がり後にのせる店と、焼く前からのせる店とに分かれるという。仕上げに刻み海苔や大葉を散らすことも多く、和のトッピングを重ねる工夫が凝らされている。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、日本ではマヨネーズを好んで使う食文化があり、明太子やたらこといった魚卵をそのまま食べたり麺に絡めたりしてきた蓄積が、ピザのトッピングにもそのまま応用されていったという。海外のピザにはまず見られない具材の組み合わせとされ、宅配ピザのメニューにも定番として並ぶようになった。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。",
+      "body_en": "## What it's made of\nFlecks of spicy cod roe peek out between pools of melted cheese. Mayonnaise's richness is said to round out the roe's saltiness and heat, while shredded nori adds a note of the sea. Some shops spread just a thin layer of tomato sauce on the dough, others build the whole pizza on a mayonnaise-based sauce, and how much heat comes through varies from one pizza to the next.\n## How it's made\nThe usual method is to spread sauce on the dough, top it with flaked mentaiko and mayonnaise, and bake it. Because mentaiko changes color and texture easily under heat, some shops add it after baking and others before, it's said. Shredded nori or shiso leaf is often scattered on top to finish, layering Japanese garnishes onto an Italian base.\n## Why it took this shape\nOne account holds that Japan's fondness for mayonnaise, combined with a long habit of eating fish roe like mentaiko and tarako on their own or tossed with noodles, is said to have carried over directly into pizza toppings. It's described as a combination rarely, if ever, found on pizza outside Japan, and it has since become a standard offering on delivery-pizza menus.",
+      "sources": [
+        {
+          "title": "日本のピザ",
+          "url": "https://ja.wikipedia.org/wiki/日本のピザ",
+          "publisher": "ウィキペディア",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "japanese-pizza",
+          "relation_type": "派生",
+          "basis": "魚卵とマヨネーズという日本独自の具材を使った、日本型ピザの派生形の一つであるため"
+        }
+      ],
+      "tags": [
+        "spicy",
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "corn-mayo-pizza",
+      "name_ja": "コーンマヨピザ",
+      "name_romaji": "Koon Mayo Piza",
+      "name_en": "Corn mayo pizza — corn and mayonnaise",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "ピザ",
+      "summary_ja": "コーンとマヨネーズをのせたピザ。世界的にありふれた食材でも、マヨネーズを好む食文化と合わさることで独自の一皿へ翻案されたとされる。ファミリー層にも親しまれてきた一枚という。",
+      "summary_en": "Pizza topped with corn and mayonnaise. Said to show how even globally ordinary ingredients get translated into something distinct once paired with Japan's fondness for mayonnaise.",
+      "body_ja": "## 何でできているか\n黄色いコーンの粒が、白いマヨネーズの線と絡み合いながらチーズの上に散らばっている。コーンの甘みとマヨネーズの酸味・コクが合わさり、ジャガイモやツナと組み合わされることも多い。アメリカではまず選ばれない具材だが、日本では定番の組み合わせとして定着しているといい、ファミリー層にも親しまれてきた。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n生地にトマトソースを塗り、茹でたコーンとマヨネーズをのせて焼くのが基本の型とされる。マヨネーズは焼く前にかけて焦げ目をつける店と、焼き上がり後に線状に絞る店とに分かれるという。ジャガイモやツナ、玉ねぎを加えて具だくさんに仕立てる店も多く、彩りの良さも重視されているとされる。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、マヨネーズを好んで使う食文化を持つ日本では、コーンやポテトといった世界的にありふれた食材でも、マヨネーズと合わせることで独自の一皿へと翻案されていったという。ファミリーレストランのメニューとして広まったのも普及を後押ししたと伝わり、子どもにも好まれる一枚として定着した。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。",
+      "body_en": "## What it's made of\nYellow corn kernels scatter over the cheese, tangled with lines of white mayonnaise. Corn's sweetness meets mayonnaise's tang and richness, and the pair is often joined by potato or tuna. It's a combination almost never chosen in the United States, but one that's said to have become a standard in Japan, popular with families and children alike.\n## How it's made\nThe usual method is to spread tomato sauce on the dough, top it with boiled corn and mayonnaise, and bake it. Some shops add the mayonnaise before baking so it browns, others pipe it on in lines after baking, it's said. Many shops load it further with potato, tuna, or onion, valuing the bright color it brings to the plate.\n## Why it took this shape\nOne account holds that in Japan, a food culture fond of mayonnaise, even globally ordinary ingredients like corn and potato are said to have been translated into a distinct pizza once paired with mayonnaise. Its spread through family-restaurant menus is also said to have helped it take hold, settling in as a favorite with children as well as adults.",
+      "sources": [
+        {
+          "title": "日本のピザ",
+          "url": "https://ja.wikipedia.org/wiki/日本のピザ",
+          "publisher": "ウィキペディア",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "japanese-pizza",
+          "relation_type": "派生",
+          "basis": "コーンとマヨネーズという、アメリカ本国ではまず選ばれない具材を使った日本型ピザの派生形の一つであるため"
+        }
+      ],
+      "tags": [
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "ebi-mayo-pizza",
+      "name_ja": "エビマヨピザ",
+      "name_romaji": "Ebi Mayo Piza",
+      "name_en": "Ebi mayo pizza — shrimp in mayonnaise sauce",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "東京都",
+      "origin_city": "豊島区",
+      "lat": 35.7212,
+      "lng": 139.7064,
+      "primary_style": "ピザ",
+      "summary_ja": "海老にマヨネーズソースを絡めたピザ。1987年開業の国内資本の宅配ピザチェーンが、テリヤキチキンと並んで世界に先駆けて考案したトッピングの一つと伝わる。看板トッピングの一つとして扱われてきたという。",
+      "summary_en": "Pizza topped with shrimp coated in mayonnaise sauce. Said to trace to the same domestically capitalized delivery-pizza chain founded in 1987, which describes it as a topping it developed before anyone else in the world, alongside teriyaki chicken.",
+      "body_ja": "## 何でできているか\nぷりっとした海老に、マヨネーズソースがたっぷりと絡む。中華の海老マヨをそのままピザにのせたような組み合わせで、マヨネーズのコクが海老の甘みを引き立てるという。トマトソースの代わりにマヨネーズベースのソースを使う店もあり、白っぽい見た目の一枚になることもあるという。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n生地に海老を並べ、マヨネーズソースをかけて焼くのが基本の型とされる。海老は加熱しすぎると縮んで硬くなるため、大きめに切るか下処理をした状態で使う店が多いという。仕上げにパセリや黒胡椒を振って彩りと香りを加える店もあり、チーズを控えめにして海老の味を立てる例も伝わる。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、1987年に開業した国内資本の宅配ピザチェーンが、テリヤキチキンやカレーと並んで世界に先駆けて考案したトッピングの一つという。海老とマヨネーズという中華料理でも親しまれた組み合わせを、ピザという別の器に移し替えたものと言え、以来看板トッピングの一つとして扱われてきたと伝わる。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。",
+      "body_en": "## What it's made of\nPlump shrimp are draped generously in mayonnaise sauce. It's a combination that reads almost like Chinese-style shrimp mayo laid onto a pizza, with mayonnaise's richness said to bring out the shrimp's sweetness. Some shops use a mayonnaise-based sauce in place of tomato sauce, giving the whole pizza a pale look rather than the usual red.\n## How it's made\nThe usual method is to arrange shrimp on the dough, coat them in mayonnaise sauce, and bake. Because shrimp shrinks and toughens if overcooked, many shops use larger pieces or pre-treat them before topping, it's said. Some finish it with parsley or black pepper for color and aroma, and some go light on the cheese to let the shrimp's flavor lead.\n## Why it took this shape\nOne account holds that a domestically capitalized delivery-pizza chain founded in 1987 developed this alongside teriyaki chicken and curry as toppings it says it created before any chain elsewhere in the world. Shrimp and mayonnaise, a pairing already familiar from Chinese-style cooking, is essentially carried over onto a different plate here, and it's said to have stood among the chain's flagship toppings ever since.",
+      "sources": [
+        {
+          "title": "ピザーラの理念",
+          "url": "https://www.four-seeds.co.jp/brand/pizzala",
+          "publisher": "株式会社フォーシーズ",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "japanese-pizza",
+          "relation_type": "派生",
+          "basis": "海老とマヨネーズという日本独自の具材を使った、日本型ピザの派生形の一つであるため"
+        }
+      ],
+      "tags": [
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "pizza-toast",
+      "name_ja": "ピザトースト",
+      "name_romaji": "Piza Toosuto",
+      "name_en": "Pizza toast — pizza toppings on thick-sliced bread",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "東京都",
+      "origin_city": "千代田区",
+      "lat": 35.6749,
+      "lng": 139.7638,
+      "primary_style": "ピザ",
+      "summary_ja": "厚切りパンにピザソースと具材、チーズをのせて焼いた喫茶店の定番。手間のかかるピザ生地の代わりにパンを使う発想から、昭和39年に考案されたと伝わる。トースターだけで作れる手軽さも支持されている。",
+      "summary_en": "A coffee-shop staple of pizza sauce, toppings, and cheese on thick-sliced bread. Said to have been created in 1964 out of the idea of standing bread in for labor-intensive pizza dough.",
+      "body_ja": "## 何でできているか\n厚切りのパンの上で、ピーマンやサラミ、玉ねぎがチーズに埋もれている。生地から発酵させるピザとは違い、パンそのものが土台になるため、外側はトーストらしいさくっとした食感を残しながら、中央はチーズがとろりと溶けているという対照が特徴とされる。喫茶店のモーニングや軽食の定番として親しまれてきた。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n厚切りのイギリスパンに特製のピザソースを塗り、ピーマン・サラミ・玉ねぎ・マッシュルームなどをのせ、チーズをたっぷりかけてオーブンで焼くのが基本の型とされる。生地を発酵させる手間がかからないぶん、家庭でも再現しやすい一皿になっているといい、トースターだけで作れる手軽さも支持されてきた。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、手間のかかるピザ生地の代わりにパンを使えないかという発想から、昭和39年に喫茶店の店主の妻が考案したのが始まりという。当時ピザそのものがまだ珍しかった時代に、身近な食パンで手軽に近い味を再現しようとした工夫から生まれ、以来全国の喫茶店の定番メニューとして広まっていったと伝わる。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。",
+      "body_en": "## What it's made of\nOn a thick slice of bread, green pepper, salami, and onion sit buried under cheese. Unlike a pizza built on fermented dough, the bread itself serves as the base, so the outside keeps a toast-like crunch while the center stays molten with cheese — a contrast said to define the dish, one long familiar as a coffee-shop breakfast or light meal.\n## How it's made\nThe usual method is to spread a house pizza sauce on a thick slice of English-style bread, top it with green pepper, salami, onion, and mushroom, cover it generously with cheese, and bake it. Skipping the labor of fermenting dough is said to make it an easy dish to recreate at home too, needing nothing more than a toaster oven.\n## Why it took this shape\nOne account traces it to 1964, when a coffee shop owner's wife is said to have come up with the idea of standing bread in for labor-intensive pizza dough. It's said to have grown out of a wish to recreate something close to pizza's flavor using ordinary sliced bread, at a time when pizza itself was still a rarity in Japan, and it's said to have spread from there as a staple on coffee-shop menus nationwide.",
+      "sources": [
+        {
+          "title": "ピザトースト発祥の店",
+          "url": "https://benisica.co.jp/",
+          "publisher": "珈琲館 紅鹿舎",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "japanese-pizza",
+          "relation_type": "派生",
+          "basis": "ピザ生地の代わりにパンを土台に使った、日本で考案されたピザの派生形であるため"
+        }
+      ],
+      "tags": [
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "tarako-spaghetti",
+      "name_ja": "たらこスパゲッティ",
+      "name_romaji": "Tarako Supagetti",
+      "name_en": "Tarako spaghetti — spaghetti tossed with salted cod roe and butter",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "東京都",
+      "origin_city": "渋谷区",
+      "lat": 35.658,
+      "lng": 139.6982,
+      "primary_style": "パスタ",
+      "summary_ja": "茹でたスパゲッティにたらことバターを絡めた和風パスタ。昭和28年開業のスパゲッティ専門店が和風スパゲッティという系統を生み出し、そこから枝分かれしたとされる。喫茶店の定番としても広まった。",
+      "summary_en": "Spaghetti tossed with salted cod roe and butter, a wafu-style pasta. Said to have branched off from the wafu supagetti line pioneered by a Tokyo spaghetti specialty shop that opened in 1953.",
+      "body_ja": "## 何でできているか\n茹でたスパゲッティに、ほぐしたたらこがバターとともに絡みつく。プチプチとした粒の食感と、バターのコクとたらこの塩気が一体になった味わいが特徴とされる。刻み海苔を散らして磯の香りを添える店が多く、洋食のパスタでありながらどこか和食に近い後味になるという。大葉を添えて香りを重ねる店も多い。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n茹でたスパゲッティをバターで和え、塩をほぐしたたらこと合わせるのが基本の型とされる。たらこは加熱しすぎると硬くパサつくため、火を通した麺の余熱だけで和える店が多いという。仕上げに刻み海苔やレモンを添える店もあり、隠し味に醤油を数滴垂らす例も伝わる。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、昭和28年に開業したスパゲッティ専門店が、当時まだ馴染みの薄かったイタリア料理を日本の食材で作り替えようと研究を重ね、和風スパゲッティという系統を生み出したのが始まりという。そこからたらこを使う型が枝分かれし、喫茶店のメニューとしても全国へ広まっていったと伝わる。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。",
+      "body_en": "## What it's made of\nBoiled spaghetti is tossed with flaked tarako and butter. The popping texture of the roe against butter's richness and the roe's saltiness are said to define the dish. Many shops finish it with shredded nori for a note of the sea, giving this yoshoku pasta a finish that leans surprisingly close to Japanese food, often with shiso leaf layered on for further aroma.\n## How it's made\nThe usual method is to toss boiled spaghetti with butter, then mix in salted, flaked tarako. Because tarako turns hard and dry if overcooked, many shops rely only on the residual heat of the cooked noodles to warm it through. Some finish the dish with shredded nori or a squeeze of lemon, and a few drops of soy sauce for a hidden savory note.\n## Why it took this shape\nOne account traces it to a spaghetti specialty shop that opened in 1953 and is said to have researched ways to remake Italian cooking, still unfamiliar in Japan at the time, using Japanese ingredients, giving rise to a whole line known as wafu supagetti. A version using tarako is said to have branched off from there and spread nationwide, becoming a coffee-shop staple along the way.",
+      "sources": [
+        {
+          "title": "壁の穴について",
+          "url": "https://www.kabenoana.com/",
+          "publisher": "壁の穴",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "napolitan",
+          "relation_type": "対比",
+          "basis": "ともにイタリアのパスタを日本の食材と味覚に合わせて翻案した洋食パスタとして編集上対比できるため。直接の由来関係を示す一次資料は確認できなかった"
+        }
+      ],
+      "tags": [
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "mentaiko-pasta",
+      "name_ja": "明太子パスタ",
+      "name_romaji": "Mentaiko Pasuta",
+      "name_en": "Mentaiko pasta — pasta tossed with spicy cod roe",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "パスタ",
+      "summary_ja": "辛子明太子をバターや醤油で和えたパスタ。たらこを使う和風スパゲッティが広まる中で、より辛みの強い型として枝分かれしたとされる。喫茶店や洋食店のメニューにも広く取り入れられてきた。",
+      "summary_en": "Pasta tossed with spicy cod roe in butter or soy sauce. Said to have branched off as a spicier version once wafu-style spaghetti using tarako had spread.",
+      "body_ja": "## 何でできているか\n橙色に染まった麺に、辛子明太子のつぶつぶが絡みつく。たらこスパゲッティのまろやかさとは違い、唐辛子の辛みがはっきりと感じられるのが特徴とされる。バターや醤油で香りづけし、大葉や刻み海苔を添えて薬味の香りを重ねる店が多いといい、辛さの強さは店ごとに幅がある。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n茹でた麺をバターや醤油で和え、ほぐした辛子明太子を加えるのが基本の型とされる。明太子は加熱で辛みと風味が飛びやすいため、火を止めてから和える店が多いという。生クリームを加えてまろやかに仕立てる店もあり、仕上げにバターをひとかけら追加する例も伝わる。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、たらこを使う和風スパゲッティが広まる中で、より辛みの強い辛子明太子を使う型が枝分かれして生まれたという。福岡で辛子明太子が名物として定着したことも、麺料理への応用を後押ししたと考えられており、喫茶店や洋食店のメニューにも広く取り入れられてきた。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。",
+      "body_en": "## What it's made of\nNoodles stained pale orange are laced with flecks of spicy cod roe. Unlike tarako spaghetti's mellow flavor, a clear chili heat is said to be the point here. Many shops add fragrance with butter or soy sauce and finish with shiso leaf or shredded nori for a layer of herbal aroma, and how much heat comes through varies from shop to shop.\n## How it's made\nThe usual method is to toss boiled noodles with butter or soy sauce, then mix in flaked mentaiko. Because heat strips away the roe's spice and aroma easily, many shops fold it in only after taking the pan off the heat. Some add fresh cream for a mellower finish, and a final pat of butter is said to round out the sauce.\n## Why it took this shape\nOne account holds that as wafu-style spaghetti using tarako spread, a spicier version using mentaiko is said to have branched off from it. Mentaiko's rise as a Fukuoka specialty is also thought to have helped push its use into noodle dishes, and it has since become a common item on coffee-shop and yoshoku restaurant menus alike.",
+      "sources": [
+        {
+          "title": "博多辛子明太子の歴史",
+          "url": "https://www.i-fukuoka.jp/gourmet/local-gr/mentaiko/rekishi.html",
+          "publisher": "福岡市・観光情報サイト i-fukuoka",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "tarako-spaghetti",
+          "relation_type": "兄弟",
+          "basis": "同じ魚卵を使う和風スパゲッティの系統から、たらこと辛子明太子という異なる魚卵で枝分かれした関係であるため"
+        }
+      ],
+      "tags": [
+        "spicy",
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "wafu-mushroom-pasta",
+      "name_ja": "和風きのこパスタ",
+      "name_romaji": "Wafuu Kinoko Pasuta",
+      "name_en": "Wafu mushroom pasta — pasta with mushrooms in a soy-butter sauce",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "パスタ",
+      "summary_ja": "きのこを醤油とバターで炒めて和えたパスタ。イタリア料理を日本の食材で作り替える和風スパゲッティの流れの中で、きのこと醤油の組み合わせが取り入れられたとされる。喫茶店の軽食としても親しまれてきた。",
+      "summary_en": "Pasta tossed with mushrooms sauteed in soy sauce and butter. Said to have been worked into the wafu supagetti movement of remaking Italian pasta with Japanese ingredients.",
+      "body_ja": "## 何でできているか\nしめじや舞茸が、醤油とバターの香りをまとって麺に絡む。オリーブオイルとにんにくを効かせるイタリアのきのこパスタとは違い、醤油の香ばしさと出汁のうまみが下地になっているのが特徴とされる。大葉や刻み海苔を添えて和の香りを重ねる店も多く、数種のきのこを合わせて香りに厚みを出すという。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n数種のきのこをバターで炒め、醤油や出汁で味を調えたソースに茹でた麺を絡めるのが基本の型とされる。きのこは水分を飛ばすようにしっかり炒めることで香りを立たせるという。仕上げに大葉や刻み海苔、七味唐辛子を添える店もあり、にんにくを軽く効かせる例も伝わる。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、イタリア料理のパスタを日本の食材と調味料で作り替える和風スパゲッティの流れの中で、きのこと醤油という和食に馴染みの深い組み合わせが取り入れられていったという。きのこの産地でもある日本ならではの応用とも言われ、喫茶店の軽食メニューにも定着してきたと伝わる。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。",
+      "body_en": "## What it's made of\nShimeji or maitake mushrooms cling to the noodles, carrying the scent of soy sauce and butter. Unlike an Italian mushroom pasta built on olive oil and garlic, the base here is said to be soy sauce's savory note and dashi's umami. Many shops add shiso leaf or shredded nori for a further layer of Japanese aroma, often mixing several kinds of mushroom for a fuller scent.\n## How it's made\nThe usual method is to saute a few kinds of mushroom in butter, season the pan with soy sauce or dashi into a sauce, and toss in boiled noodles. Mushrooms are said to be cooked hard enough to drive off moisture and bring out their aroma. Some shops finish with shiso leaf, shredded nori, or shichimi pepper, and a touch of garlic is sometimes worked in too.\n## Why it took this shape\nOne account holds that as Italian pasta was remade with Japanese ingredients and seasonings under the wafu supagetti banner, mushroom and soy sauce — a pairing deeply familiar in Japanese cooking — is said to have been worked in along the way. It's also described as a natural application in a country that grows a wide range of mushrooms, and it settled in as a light coffee-shop menu item too.",
+      "sources": [
+        {
+          "title": "壁の穴について",
+          "url": "https://www.kabenoana.com/",
+          "publisher": "壁の穴",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "tarako-spaghetti",
+          "relation_type": "兄弟",
+          "basis": "ともに和風スパゲッティという同じ系統から生まれた、異なる具材の型であるため"
+        }
+      ],
+      "tags": [
+        "soy_sauce",
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "natto-pasta",
+      "name_ja": "納豆パスタ",
+      "name_romaji": "Nattoo Pasuta",
+      "name_en": "Natto pasta — pasta tossed with fermented soybeans in soy sauce and butter",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "パスタ",
+      "summary_ja": "納豆を醤油とバターで和えたパスタ。和風スパゲッティが定着する中で、家庭に常備される納豆をそのまま応用したのが始まりとされる。喫茶店の軽食メニューにも取り入れられてきた。",
+      "summary_en": "Pasta tossed with natto in soy sauce and butter. Said to have started from applying natto, a staple already on hand in most households, once wafu-style spaghetti had taken hold.",
+      "body_ja": "## 何でできているか\n糸を引く納豆が、麺に絡んでとろりとした食感を加える。醤油とバターで和えられることが多く、納豆特有の粘りと発酵の香りが、洋食のパスタでありながら味噌汁のような親しみやすさを一皿にもたらすという。刻みねぎや刻み海苔を添える店が多く、好みで辛子を効かせる例も伝わる。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n茹でた麺を醤油とバターで和え、よく混ぜて粘りを出した納豆を絡めるのが基本の型とされる。納豆のたれや辛子をそのまま使う店もあり、家庭ごとに味付けの幅が広いという。仕上げに刻みねぎや卵黄をのせる店もあり、刻み海苔を散らして磯の香りを添える例も多い。食べ手の好みに合わせて味を微調整する店も多いとされる。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。\n## なぜこの形になったのか\n一説によると、和風スパゲッティが定着する中で、家庭に常備される納豆をそのまま応用したのが始まりという。好き嫌いの分かれる食材とされる納豆だが、麺と和えることで食べやすくなるとして家庭料理として親しまれ、喫茶店の軽食メニューにも取り入れられてきたと伝わる。家庭の食卓と店の味とで、仕立て方が少しずつ異なるとも伝わる。",
+      "body_en": "## What it's made of\nSticky, stringy natto clings to the noodles, adding a viscous texture. It's often tossed with soy sauce and butter, and natto's stickiness and fermented aroma are said to bring a miso-soup-like familiarity to what is otherwise a yoshoku pasta. Many shops finish it with chopped scallion or shredded nori, and a touch of mustard is added to taste.\n## How it's made\nThe usual method is to toss boiled noodles with soy sauce and butter, then mix in natto that's been stirred well to bring out its stickiness. Some shops use the seasoning packet or mustard that comes with the natto as is, and the range of seasoning is said to vary widely from household to household. Some finish it with chopped scallion, an egg yolk, or shredded nori for a further note of the sea.\n## Why it took this shape\nOne account holds that as wafu-style spaghetti took hold, using natto — a staple already kept in most households — directly is said to have been the starting point. Natto is a food people tend to either love or avoid, but tossing it with noodles is said to have made it easier to eat, and it's been embraced as a home-cooking favorite that also found its way onto coffee-shop menus.",
+      "sources": [
+        {
+          "title": "壁の穴について",
+          "url": "https://www.kabenoana.com/",
+          "publisher": "壁の穴",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "tarako-spaghetti",
+          "relation_type": "兄弟",
+          "basis": "ともに和風スパゲッティという同じ系統から生まれた、異なる具材の型であるため"
+        }
+      ],
+      "tags": [
+        "fermented",
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "chicken-rice",
+      "name_ja": "チキンライス",
+      "name_romaji": "Chikin Raisu",
+      "name_en": "Chicken rice — ketchup-fried rice with chicken and onion",
+      "type": "dish",
+      "shelf": "homestyle",
+      "genre": "yoshoku",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "ライス",
+      "summary_ja": "鶏肉と玉ねぎをケチャップで炒めたご飯。オムライスの中身として広まった炒めご飯が、卵で包まずそのまま一皿として供されるようになったのが始まりとされる。お子様ランチの定番でもある。",
+      "summary_en": "Rice fried with chicken, onion, and ketchup. Said to have started as omurice's filling before being served on its own, without the egg wrapper.",
+      "body_ja": "## 何でできているか\nバターで炒めたご飯の粒が、ケチャップの赤とともに湯気を立てる。鶏肉と玉ねぎ、時にグリンピースが彩りを添え、酸味と甘みの利いた味付けは子どもから大人まで親しみやすいという。オムライスの中身としてだけでなく、そのまま一皿で供されることも多く、お子様ランチの定番でもある。土地や店によって仕上げ方に違いが出る一皿だという。\n## どう作るのか\n米を炊くか、あるいは生米から鶏肉と玉ねぎと一緒にバターで炒め、ケチャップで味付けするのが基本の型とされる。具材を先に炒めてからご飯と合わせる店と、生米の段階から炊き込む店とに分かれるという。仕上げにパセリを散らすことが多く、旗を立てて子ども向けに盛り付ける店もある。食べ手の好みに合わせて味を微調整する店も多いとされる。\n## なぜこの形になったのか\n一説によると、オムライスの中身として広まったケチャップ味の炒めご飯が、卵で包まずそのまま一皿として供されるようになったのが始まりという。子ども向けの給食や弁当のおかずとして定着したことも、独立した一皿としての普及を後押しし、お子様ランチの定番にもなっていったと伝わる。洋食屋ごとに受け継がれてきた工夫がここにも表れているという。",
+      "body_en": "## What it's made of\nButter-fried rice grains rise in steam alongside ketchup's red. Chicken and onion, sometimes green peas, add color, and the sweet-and-sour seasoning is said to appeal to children and adults alike. Beyond serving as the filling for omurice, it's often plated on its own too, a fixture of the classic kids' lunch plate.\n## How it's made\nThe usual method is to either cook the rice first or fry raw rice together with chicken and onion in butter, then season it with ketchup. Some shops saute the filling first and mix it into cooked rice, others cook the rice and filling together from raw grains, it's said. Parsley is often scattered on top to finish, and some plate it with a small paper flag for children.\n## Why it took this shape\nOne account holds that the ketchup-fried rice that spread as omurice's filling is said to have started being served on its own, without being wrapped in egg. Its place in school lunches and bento boxes for children is also said to have helped it spread as a standalone dish in its own right, becoming a fixture of the classic kids' lunch plate along the way.",
+      "sources": [
+        {
+          "title": "元祖オムライス",
+          "url": "https://www.hokkyokusei.online/origin",
+          "publisher": "北極星",
+          "accessed_at": "2026-09-09"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "omurice",
+          "relation_type": "兄弟",
+          "basis": "オムライスの中身であるケチャップライスが、卵で包まずそのまま一皿として供されるようになった同じ生地の料理であるため"
+        }
+      ],
+      "tags": [
+        "chicken",
+        "yoshoku"
+      ]
+    }
+  ],
+  "regenre": [],
+  "chains": [],
+  "notes": ""
+}
