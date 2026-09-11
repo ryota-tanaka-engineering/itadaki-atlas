@@ -35,7 +35,7 @@ export type DailyPicks = {
  * 同じ結果になる。
  */
 export function pickDailyItems(items: BrowseItem[], today: Date, storyCount = 3): DailyPicks {
-  const pool = items.filter((i) => i.bodyExcerpt !== null);
+  const pool = items.filter((i) => i.hasBody);
   if (pool.length === 0) return { dish: null, stories: [] };
 
   const day = epochDay(today);

@@ -1,4 +1,5 @@
 import { createClient } from "@/lib/supabase/server";
+import { fetchAllRows } from "@/lib/supabase/fetchAll";
 
 import { pickGuideTranslation, type Locale } from "./i18n";
 import { GUIDE_KINDS, type GuideKind } from "./kinds";
@@ -34,14 +35,18 @@ function toSummary(
  */
 export async function fetchGuides(locale: Locale): Promise<GuideSummary[]> {
   const db = await createClient();
-  const { data, error } = await db
-    .from("guides")
-    .select("slug, kind, sort_order, guide_translations ( locale, title, summary )")
-    .order("kind")
-    .order("sort_order");
-  if (error) throw new Error(`fetchGuides failed: ${error.message}`);
+  const data = await fetchAllRows(
+    (from, to) =>
+      db
+        .from("guides")
+        .select("slug, kind, sort_order, guide_translations ( locale, title, summary )")
+        .order("kind")
+        .order("sort_order")
+        .range(from, to),
+    "fetchGuides",
+  );
 
-  return (data ?? [])
+  return data
     .map((g) => toSummary(g, (g.guide_translations ?? []) as TranslationRow[], locale))
     .filter((g): g is GuideSummary => g !== null);
 }
@@ -192,9 +197,11 @@ export async function fetchGuidesForItem(
 /** sitemap用。全ガイドのslug。 */
 export async function fetchAllGuideSlugs(): Promise<string[]> {
   const db = await createClient();
-  const { data, error } = await db.from("guides").select("slug").order("kind").order("sort_order");
-  if (error) throw new Error(`fetchAllGuideSlugs failed: ${error.message}`);
-  return (data ?? []).map((g) => g.slug);
+  const data = await fetchAllRows(
+    (from, to) => db.from("guides").select("slug").order("kind").order("sort_order").range(from, to),
+    "fetchAllGuideSlugs",
+  );
+  return data.map((g) => g.slug);
 }
 
 export { GUIDE_KINDS };

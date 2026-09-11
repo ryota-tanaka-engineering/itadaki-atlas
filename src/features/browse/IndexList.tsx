@@ -2,7 +2,7 @@
 
 import { useTranslations } from "next-intl";
 
-import type { MapItem, Locale } from "@/features/map/queries";
+import type { BrowseItem, Locale } from "@/features/map/queries";
 import { PIN_STROKE, styleColor } from "@/features/map/styles";
 import { useMasterLabels } from "@/features/map/labels";
 
@@ -43,7 +43,7 @@ function groupLabel(
  * 主要動線でもある（F-07）。
  */
 type Props = {
-  items: MapItem[];
+  items: BrowseItem[];
   axis: Axis;
   onAxisChange: (axis: Axis) => void;
   selectedSlug: string | null;

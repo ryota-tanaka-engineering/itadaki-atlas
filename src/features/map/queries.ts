@@ -1,4 +1,5 @@
 import { createClient } from "@/lib/supabase/server";
+import { fetchAllRows } from "@/lib/supabase/fetchAll";
 
 import type { PrimaryStyle } from "./styles";
 import { excerptChapterSentence, excerptFirstSentence } from "./markdown";
@@ -44,27 +45,41 @@ export type MapItem = {
  */
 export type MapPin = MapItem & { kind: "origin" | "honba"; lat: number; lng: number };
 
-/** ピン選択カードのタグバッジ用（作業パッケージ「トップページ改善」B節）。 */
-export type TagBadge = { slug: string; nameJa: string; nameEn: string };
-
 /**
- * トップのピン選択カード用データ（作業パッケージ「トップページ改善」B節）。
- * MapItem に、ViewDetail 前の判断材料（タグ・本文冒頭1文）を足しただけの型。
+ * トップの地図・索引・絞り込みが読む最小項目（実装部隊の報告「トップのHTMLが約1MB」
+ * 対応。2026-09 収録1,867件到達で顕在化）。
  *
- * bodyExcerpt はサーバー側（excerptFirstSentence）で本文Markdownの1章目冒頭の
- * 最初の1文だけを切り出したもの。全文は持たせない（150件×全文はペイロード過大）。
+ * MapItem を継承しない独自の薄い型にしている（summary を含まない）。旧 BrowseItem は
+ * summary / bodyExcerpt（1章冒頭1文） / bodyExcerptCh3（3章冒頭1文）を全件分持たせて
+ * おり、これが RSC ペイロードとして HTML に直接埋め込まれていた（1,000件で720KB、
+ * 全件なら1.5MB超）。この3つの本文由来の長い文字列は落とし、代わりに `hasBody`
+ * （「今日の一皿」「土地の物語から」の母集団判定に使う。dailyPicks.ts 参照）だけを持つ。
+ *
+ * 実際の抜粋・summary が要る箇所（ピン選択カード・「今日の一皿」・「土地の物語から」）は
+ * 選ばれた数件だけを `fetchItemExcerpts` で別途取る。タグの表示名（nameJa/nameEn）も
+ * 同じ理由で持たせず、`tagSlugs` から呼び出し側が `allTags`（/tags と同じ全件取得。
+ * 1回分で全アイテム共有できる）経由で引く（server-dedup-props: 同じ文字列をアイテム数
+ * 分重複させない）。
  */
-export type BrowseItem = MapItem & {
-  /** 最大3件（件数が多いアイテムは先頭3件のみ）。 */
-  tags: TagBadge[];
-  /** タグ絞り込み用の全タグslug（表示は tags の3件までだが、絞り込み判定は全件で行う。
-   * 作業パッケージ「トップ導線修正」A節）。 */
+export type BrowseItem = {
+  slug: string;
+  nameJa: string;
+  nameEn: string | null;
+  nameRomaji: string;
+  originPref: string | null;
+  originCity: string | null;
+  lat: number | null;
+  lng: number | null;
+  primaryStyle: PrimaryStyle | null;
+  itemType: "dish" | "ingredient";
+  genreSlug: string | null;
+  shelfSlug: string;
+  /** タグ絞り込み用の全タグslug（絞り込み判定は全件で行う。作業パッケージ「トップ導線修正」A節）。
+   * 表示名が要る箇所は allTags（TagWithCount）から引く。 */
   tagSlugs: string[];
-  /** 1章目「何でできているか」冒頭の1文。 */
-  bodyExcerpt: string | null;
-  /** 3章目「なぜこの形になったのか」冒頭の1文（トップ「土地の物語から」用。
-   * 作業パッケージ「トップページ情報モジュール」§4）。 */
-  bodyExcerptCh3: string | null;
+  /** 本文（body_md）を持つか。summary/bodyExcerpt 等の文字列本体は持たない
+   * （fetchItemExcerpts 参照）。 */
+  hasBody: boolean;
 };
 
 // ピン選択の一意キー（mapPinKey）は ./pinKey.ts に置く。
@@ -94,52 +109,44 @@ function pickTranslation<T extends { locale: string }>(translations: T[], locale
 }
 
 /**
- * トップの地図・索引・ピン選択カードが読む。ピン選択カードの判断材料
- * （タグ・本文冒頭1文。作業パッケージ「トップページ改善」B節）もここで合流させ、
- * 追加のDBラウンドトリップを増やさない。
+ * トップの地図・索引・絞り込みが読む。summary/本文は持たない（BrowseItem のdocコメント
+ * 参照）。dish_details.primary_style で系統凡例、food_item_tags.tag_slug でタグ絞り込みを
+ * まかなう（tags(slug,name_ja,name_en) への埋め込みJOINはもう不要）。
  */
 export async function fetchMapItems(locale: Locale = "ja"): Promise<BrowseItem[]> {
   const db = await createClient();
 
-  const { data, error } = await db
-    .from("food_items")
-    .select(
-      `slug, name_romaji, origin_pref, origin_city, lat, lng, type, shelf_slug,
-       genres ( slug ),
-       food_item_translations ( locale, name, summary, body_md ),
-       dish_details ( primary_style ),
-       food_item_tags ( tags ( slug, name_ja, name_en ) )`,
-    )
-    // 座標なし（部位・ネタ等）も含める（実装部隊の報告「トップで牛肉の部位等を選ぶと
-    // 0件」対応）。地図ピンにするかどうかは呼び出し側（BrowseShell）が lat != null で絞る。
-    .order("slug");
+  // PostgREST の既定上限（1,000行）を越えて全件を取る（実装部隊の報告
+  // 「トップで牛肉の部位を選ぶと30件のはずが19件」対応。fetchAllRows 参照）。
+  const data = await fetchAllRows(
+    (from, to) =>
+      db
+        .from("food_items")
+        .select(
+          `slug, name_romaji, origin_pref, origin_city, lat, lng, type, shelf_slug,
+           genres ( slug ),
+           food_item_translations ( locale, name, body_md ),
+           dish_details ( primary_style ),
+           food_item_tags ( tag_slug )`,
+        )
+        // 座標なし（部位・ネタ等）も含める（実装部隊の報告「トップで牛肉の部位等を選ぶと
+        // 0件」対応）。地図ピンにするかどうかは呼び出し側（BrowseShell）が lat != null で絞る。
+        .order("slug")
+        .range(from, to),
+    "fetchMapItems",
+  );
 
-  if (error) {
-    // 空配列で握りつぶさない。地図が空になった原因を追えなくなるため
-    // （ia-nextjs-standards のエラー可視化ルール）。
-    throw new Error(`fetchMapItems failed: ${error.message}`);
-  }
-
-  return (data ?? []).map((row) => {
+  return data.map((row) => {
     const translations = row.food_item_translations ?? [];
     const t = pickTranslation(translations, locale);
     const ja = translations.find((x) => x.locale === "ja");
     const en = translations.find((x) => x.locale === "en");
-    const tagRows = row.food_item_tags ?? [];
-    const allTags = tagRows
-      .map((tr) => toOne(tr.tags))
-      .filter((tag): tag is { slug: string; name_ja: string; name_en: string } => tag !== null)
-      .map((tag): TagBadge => ({ slug: tag.slug, nameJa: tag.name_ja, nameEn: tag.name_en }));
-    // 表示は件数が多い場合3個まで（作業パッケージ「トップページ改善」B節）。
-    // 絞り込み判定（作業パッケージ「トップ導線修正」A節）は全タグで行うため tagSlugs は切らない。
-    const tags = allTags.slice(0, 3);
 
     return {
       slug: row.slug,
       nameJa: ja?.name ?? row.name_romaji,
       nameEn: en?.name ?? null,
       nameRomaji: row.name_romaji,
-      summary: t?.summary ?? null,
       originPref: row.origin_pref,
       originCity: row.origin_city,
       lat: row.lat,
@@ -149,12 +156,49 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<BrowseItem[]
       itemType: row.type as "dish" | "ingredient",
       genreSlug: toOne(row.genres)?.slug ?? null,
       shelfSlug: row.shelf_slug,
-      tags,
-      tagSlugs: allTags.map((tag) => tag.slug),
-      bodyExcerpt: t?.body_md ? excerptFirstSentence(t.body_md) : null,
-      bodyExcerptCh3: t?.body_md ? excerptChapterSentence(t.body_md, 2) : null,
+      tagSlugs: (row.food_item_tags ?? []).map((tr) => tr.tag_slug),
+      hasBody: Boolean(t?.body_md),
     };
   });
+}
+
+export type ItemExcerpt = {
+  slug: string;
+  summary: string | null;
+  /** 1章目「何でできているか」冒頭の1文。 */
+  bodyExcerpt: string | null;
+  /** 3章目「なぜこの形になったのか」冒頭の1文（トップ「土地の物語から」用）。 */
+  bodyExcerptCh3: string | null;
+};
+
+/**
+ * ピン選択カード・「今日の一皿」・「土地の物語から」用。BrowseItem から落とした
+ * summary/bodyExcerpt/bodyExcerptCh3 を、選ばれた数件（daily picks は最大4件、
+ * ピン選択は1件）だけ別クエリで取る（作業指示「トップのHTMLが約1MB」対応）。
+ * 呼び出し件数が少数固定のため `.in()` に上限ページングは不要。
+ */
+export async function fetchItemExcerpts(slugs: string[], locale: Locale): Promise<Map<string, ItemExcerpt>> {
+  const map = new Map<string, ItemExcerpt>();
+  if (slugs.length === 0) return map;
+
+  const db = await createClient();
+  const { data, error } = await db
+    .from("food_items")
+    .select("slug, food_item_translations ( locale, name, summary, body_md )")
+    .in("slug", slugs);
+  if (error) throw new Error(`fetchItemExcerpts failed: ${error.message}`);
+
+  for (const row of data ?? []) {
+    const translations = row.food_item_translations ?? [];
+    const t = pickTranslation(translations, locale);
+    map.set(row.slug, {
+      slug: row.slug,
+      summary: t?.summary ?? null,
+      bodyExcerpt: t?.body_md ? excerptFirstSentence(t.body_md) : null,
+      bodyExcerptCh3: t?.body_md ? excerptChapterSentence(t.body_md, 2) : null,
+    });
+  }
+  return map;
 }
 
 /** 詳細ページが読む1件分。出典を含む。 */
@@ -357,14 +401,17 @@ export async function fetchPublishedPaths(): Promise<
   { genreSlug: string; slug: string }[]
 > {
   const db = await createClient();
-  const { data, error } = await db
-    .from("food_items")
-    .select("slug, shelf_slug, genres ( slug )")
-    .order("slug");
+  const data = await fetchAllRows(
+    (from, to) =>
+      db
+        .from("food_items")
+        .select("slug, shelf_slug, genres ( slug )")
+        .order("slug")
+        .range(from, to),
+    "fetchPublishedPaths",
+  );
 
-  if (error) throw new Error(`fetchPublishedPaths failed: ${error.message}`);
-
-  return (data ?? []).map((row) => ({
+  return data.map((row) => ({
     slug: row.slug,
     genreSlug: toOne(row.genres)?.slug ?? row.shelf_slug,
   }));
@@ -485,13 +532,19 @@ export async function fetchGenre(genreSlug: string): Promise<Genre | null> {
  */
 export async function fetchGenreItems(genreSlug: string, locale: Locale) {
   const db = await createClient();
-  const { data, error } = await db
-    .from("food_items")
-    .select(ITEM_SELECT_GENRE_INNER)
-    .eq("genres.slug", genreSlug)
-    .order("slug");
-  if (error) throw new Error(`fetchGenreItems failed: ${error.message}`);
-  return (data ?? []).map((r) => rowToItem(r, locale));
+  // 現状は1ジャンル最大110件だが、収録が進めば1,000件を超えうるため
+  // 迷わずページングする（作業指示「トップで牛肉の部位が19件」対応と同じ方針）。
+  const data = await fetchAllRows(
+    (from, to) =>
+      db
+        .from("food_items")
+        .select(ITEM_SELECT_GENRE_INNER)
+        .eq("genres.slug", genreSlug)
+        .order("slug")
+        .range(from, to),
+    "fetchGenreItems",
+  );
+  return data.map((r) => rowToItem(r, locale));
 }
 
 /**
@@ -558,16 +611,19 @@ export async function fetchItemsByPref(pref: string, locale: Locale) {
  */
 export async function fetchHonbaPins(locale: Locale = "ja"): Promise<MapPin[]> {
   const db = await createClient();
-  const { data, error } = await db
-    .from("food_item_regions")
-    .select(`pref, city, lat, lng, food_items!inner ( ${ITEM_SELECT} )`)
-    .eq("relation_type", "本場")
-    .not("lat", "is", null)
-    .order("pref");
+  const data = await fetchAllRows(
+    (from, to) =>
+      db
+        .from("food_item_regions")
+        .select(`pref, city, lat, lng, food_items!inner ( ${ITEM_SELECT} )`)
+        .eq("relation_type", "本場")
+        .not("lat", "is", null)
+        .order("pref")
+        .range(from, to),
+    "fetchHonbaPins",
+  );
 
-  if (error) throw new Error(`fetchHonbaPins failed: ${error.message}`);
-
-  return (data ?? [])
+  return data
     .map((row): MapPin | null => {
       const item = toOne(row.food_items as unknown as ItemRow | ItemRow[] | null);
       if (!item || row.lat == null || row.lng == null) return null;
@@ -617,19 +673,22 @@ type HonbaFoodItemRow = {
 
 export async function fetchHonbaGroups(): Promise<HonbaGroup[]> {
   const db = await createClient();
-  const { data, error } = await db
-    .from("food_item_regions")
-    .select(
-      `pref, city,
-       food_items!inner ( slug, name_romaji, shelf_slug, type, genres ( slug ), food_item_translations ( locale, name ) )`,
-    )
-    .eq("relation_type", "本場")
-    .order("pref");
-
-  if (error) throw new Error(`fetchHonbaGroups failed: ${error.message}`);
+  const data = await fetchAllRows(
+    (from, to) =>
+      db
+        .from("food_item_regions")
+        .select(
+          `pref, city,
+           food_items!inner ( slug, name_romaji, shelf_slug, type, genres ( slug ), food_item_translations ( locale, name ) )`,
+        )
+        .eq("relation_type", "本場")
+        .order("pref")
+        .range(from, to),
+    "fetchHonbaGroups",
+  );
 
   const groups = new Map<string, HonbaGroup>();
-  for (const row of data ?? []) {
+  for (const row of data) {
     const item = toOne(row.food_items as unknown as HonbaFoodItemRow | HonbaFoodItemRow[] | null);
     if (!item) continue;
 
@@ -660,17 +719,14 @@ export async function fetchHonbaGroups(): Promise<HonbaGroup[]> {
 export async function fetchPrefsWithItems(): Promise<string[]> {
   const db = await createClient();
   const [own, via] = await Promise.all([
-    db.from("food_items").select("origin_pref").not("origin_pref", "is", null),
-    db.from("food_item_regions").select("pref"),
+    fetchAllRows(
+      (from, to) =>
+        db.from("food_items").select("origin_pref").not("origin_pref", "is", null).range(from, to),
+      "fetchPrefsWithItems",
+    ),
+    fetchAllRows((from, to) => db.from("food_item_regions").select("pref").range(from, to), "fetchPrefsWithItems"),
   ]);
-  if (own.error) throw new Error(`fetchPrefsWithItems failed: ${own.error.message}`);
-  if (via.error) throw new Error(`fetchPrefsWithItems failed: ${via.error.message}`);
-  return [
-    ...new Set([
-      ...(own.data ?? []).map((r) => r.origin_pref as string),
-      ...(via.data ?? []).map((r) => r.pref as string),
-    ]),
-  ];
+  return [...new Set([...own.map((r) => r.origin_pref as string), ...via.map((r) => r.pref as string)])];
 }
 
 export type RelatedItem = {
@@ -845,19 +901,27 @@ export type ShelfGenre = Genre & { itemCount: number };
 /** 棚ページ「主要ジャンルのカード」用。この棚に属する genres と、それぞれの件数。 */
 export async function fetchShelfGenres(shelfSlug: string): Promise<ShelfGenre[]> {
   const db = await createClient();
-  const [{ data: genres, error: gErr }, { data: items, error: iErr }] = await Promise.all([
+  const [{ data: genres, error: gErr }, items] = await Promise.all([
     db
       .from("genres")
       .select("id, slug, name_ja, name_en, type, intro_ja, intro_en")
       .eq("shelf_slug", shelfSlug)
       .order("sort_order"),
-    db.from("food_items").select("genre_id").eq("shelf_slug", shelfSlug).not("genre_id", "is", null),
+    fetchAllRows(
+      (from, to) =>
+        db
+          .from("food_items")
+          .select("genre_id")
+          .eq("shelf_slug", shelfSlug)
+          .not("genre_id", "is", null)
+          .range(from, to),
+      "fetchShelfGenres",
+    ),
   ]);
   if (gErr) throw new Error(`fetchShelfGenres failed: ${gErr.message}`);
-  if (iErr) throw new Error(`fetchShelfGenres failed: ${iErr.message}`);
 
   const counts = new Map<string, number>();
-  for (const row of items ?? []) {
+  for (const row of items) {
     if (!row.genre_id) continue;
     counts.set(row.genre_id, (counts.get(row.genre_id) ?? 0) + 1);
   }
@@ -880,14 +944,20 @@ export async function fetchShelfGenres(shelfSlug: string): Promise<ShelfGenre[]>
  */
 export async function fetchShelfOtherItems(shelfSlug: string, locale: Locale) {
   const db = await createClient();
-  const { data, error } = await db
-    .from("food_items")
-    .select(ITEM_SELECT)
-    .eq("shelf_slug", shelfSlug)
-    .is("genre_id", null)
-    .order("slug");
-  if (error) throw new Error(`fetchShelfOtherItems failed: ${error.message}`);
-  return (data ?? []).map((r) => rowToItem(r, locale));
+  // 「その他」は棚単位で数百件規模まで育つ想定（CLAUDE.md「その他1127件」）のため
+  // 1,000件超えに備えてページングする。
+  const data = await fetchAllRows(
+    (from, to) =>
+      db
+        .from("food_items")
+        .select(ITEM_SELECT)
+        .eq("shelf_slug", shelfSlug)
+        .is("genre_id", null)
+        .order("slug")
+        .range(from, to),
+    "fetchShelfOtherItems",
+  );
+  return data.map((r) => rowToItem(r, locale));
 }
 
 // -----------------------------------------------------------------------------
@@ -926,19 +996,22 @@ export type TagWithCount = Tag & { itemCount: number };
 /** `/tags` 一覧と「近いタグ」チップが読む。件数は published アイテムへの付与数（RLS越し）。 */
 export async function fetchTagsWithCounts(): Promise<TagWithCount[]> {
   const db = await createClient();
-  const [{ data: tags, error: tErr }, { data: links, error: lErr }] = await Promise.all([
-    db.from("tags").select("slug, kind, name_ja, name_en, definition"),
-    db.from("food_item_tags").select("tag_slug"),
+  // food_item_tags は現状1,700件超（アイテム1,867件×平均複数タグ）で既に
+  // 既定上限1,000行を超えている。tags 側も収録増に備えてページングする。
+  const [tags, links] = await Promise.all([
+    fetchAllRows(
+      (from, to) => db.from("tags").select("slug, kind, name_ja, name_en, definition").range(from, to),
+      "fetchTagsWithCounts",
+    ),
+    fetchAllRows((from, to) => db.from("food_item_tags").select("tag_slug").range(from, to), "fetchTagsWithCounts"),
   ]);
-  if (tErr) throw new Error(`fetchTagsWithCounts failed: ${tErr.message}`);
-  if (lErr) throw new Error(`fetchTagsWithCounts failed: ${lErr.message}`);
 
   const counts = new Map<string, number>();
-  for (const row of links ?? []) {
+  for (const row of links) {
     counts.set(row.tag_slug, (counts.get(row.tag_slug) ?? 0) + 1);
   }
 
-  return (tags ?? [])
+  return tags
     .map((t) => ({
       slug: t.slug,
       kind: t.kind,
@@ -958,20 +1031,26 @@ export type TagItem = MapItem & { genreNameJa: string | null; genreNameEn: strin
  */
 export async function fetchTagItems(tagSlug: string, locale: Locale): Promise<TagItem[]> {
   const db = await createClient();
-  const { data, error } = await db
-    .from("food_item_tags")
-    .select(
-      `food_items!inner ( slug, name_romaji, origin_pref, origin_city, lat, lng, type, shelf_slug,
-         genres ( slug, name_ja, name_en ),
-         food_item_translations ( locale, name, summary ),
-         dish_details ( primary_style ) )`,
-    )
-    .eq("tag_slug", tagSlug);
-  if (error) throw new Error(`fetchTagItems failed: ${error.message}`);
+  // 現状は最大タグ（儀礼系）でも数百件だが、収録が進めば1,000件を超えうるため
+  // fetchGenreItems と同じ方針でページングする。
+  const data = await fetchAllRows(
+    (from, to) =>
+      db
+        .from("food_item_tags")
+        .select(
+          `food_items!inner ( slug, name_romaji, origin_pref, origin_city, lat, lng, type, shelf_slug,
+             genres ( slug, name_ja, name_en ),
+             food_item_translations ( locale, name, summary ),
+             dish_details ( primary_style ) )`,
+        )
+        .eq("tag_slug", tagSlug)
+        .range(from, to),
+    "fetchTagItems",
+  );
 
   type Row = ItemRow & { genres?: { slug: string; name_ja: string; name_en: string }[] | { slug: string; name_ja: string; name_en: string } | null };
 
-  return (data ?? [])
+  return data
     .map((row) => toOne(row.food_items as unknown as Row | Row[] | null))
     .filter((r): r is Row => r !== null)
     .map((r) => {
@@ -1094,16 +1173,20 @@ export async function fetchChainsForGenre(genreSlug: string): Promise<Chain[]> {
  */
 export async function fetchAllChains(): Promise<Chain[]> {
   const db = await createClient();
-  const { data, error } = await db
-    .from("chains")
-    .select(
-      `slug, name_ja, name_en, bridge_ja, bridge_en, sort_order,
-       chain_recommendations ( ${CHAIN_RECOMMENDATION_SELECT} )`,
-    )
-    .order("sort_order");
-  if (error) throw new Error(`fetchAllChains failed: ${error.message}`);
+  const data = await fetchAllRows(
+    (from, to) =>
+      db
+        .from("chains")
+        .select(
+          `slug, name_ja, name_en, bridge_ja, bridge_en, sort_order,
+           chain_recommendations ( ${CHAIN_RECOMMENDATION_SELECT} )`,
+        )
+        .order("sort_order")
+        .range(from, to),
+    "fetchAllChains",
+  );
 
-  return (data ?? []).map((c) => ({
+  return data.map((c) => ({
     slug: c.slug,
     nameJa: c.name_ja,
     nameEn: c.name_en,
@@ -1177,9 +1260,11 @@ export async function fetchOtherChainsInGenre(
 /** sitemap用。全チェーンのslug。 */
 export async function fetchAllChainSlugs(): Promise<string[]> {
   const db = await createClient();
-  const { data, error } = await db.from("chains").select("slug").order("sort_order");
-  if (error) throw new Error(`fetchAllChainSlugs failed: ${error.message}`);
-  return (data ?? []).map((c) => c.slug);
+  const data = await fetchAllRows(
+    (from, to) => db.from("chains").select("slug").order("sort_order").range(from, to),
+    "fetchAllChainSlugs",
+  );
+  return data.map((c) => c.slug);
 }
 
 // -----------------------------------------------------------------------------
@@ -1195,11 +1280,14 @@ export async function fetchAllChainSlugs(): Promise<string[]> {
  */
 export async function fetchPlaceNames(locale: "en" = "en"): Promise<PlaceNameMap> {
   const db = await createClient();
-  const { data, error } = await db.from("place_names").select("pref, city, name").eq("locale", locale);
-  if (error) throw new Error(`fetchPlaceNames failed: ${error.message}`);
+  const data = await fetchAllRows(
+    (from, to) =>
+      db.from("place_names").select("pref, city, name").eq("locale", locale).range(from, to),
+    "fetchPlaceNames",
+  );
 
   const map: PlaceNameMap = {};
-  for (const row of data ?? []) {
+  for (const row of data) {
     map[`${row.pref}::${row.city}`] = row.name;
   }
   return map;

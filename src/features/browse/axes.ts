@@ -1,4 +1,4 @@
-import type { MapItem } from "@/features/map/queries";
+import type { BrowseItem } from "@/features/map/queries";
 import { PRIMARY_STYLES } from "@/features/map/styles";
 import { prefectureOrder } from "@/lib/prefectures";
 
@@ -20,7 +20,7 @@ export const NO_REGION_KEY = "地域なし";
 export type Group = {
   key: string;
   label: string;
-  items: MapItem[];
+  items: BrowseItem[];
 };
 
 /**
@@ -61,12 +61,12 @@ export function kanaRomajiLabel(key: string): string | null {
   return row ? row.heads.map((h) => h.toUpperCase()).join("/") : null;
 }
 
-function byRomaji(a: MapItem, b: MapItem) {
+function byRomaji(a: BrowseItem, b: BrowseItem) {
   return a.nameRomaji.localeCompare(b.nameRomaji, "en");
 }
 
 /** 指定軸でグルーピングする。空のグループは返さない。 */
-export function groupBy(items: MapItem[], axis: Axis): Group[] {
+export function groupBy(items: BrowseItem[], axis: Axis): Group[] {
   if (axis === "kana") {
     const buckets = new Map<string, Group>();
     for (const item of items) {

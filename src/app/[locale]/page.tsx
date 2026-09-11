@@ -7,6 +7,7 @@ import {
   fetchGenres,
   fetchHonbaGroups,
   fetchHonbaPins,
+  fetchItemExcerpts,
   fetchMapItems,
   fetchPlaceNames,
   fetchPrefsWithItems,
@@ -53,10 +54,25 @@ export default async function Home({
   // 「今日の一皿」「土地の物語から」の日付選定はサーバー側で1回だけ確定させる
   // （dailyPicks.ts。ランキング・「おすすめ」ではない中立な順繰り）。同じ日時を使い回す。
   const today = new Date();
-  const { dish: dailyDish, stories: landStories } = pickDailyItems(items, today);
+  const { dish: dailyPick, stories: landStoryPicks } = pickDailyItems(items, today);
   // 「本場をたどる」も同じ流儀で日替わり順繰り選定する（本番レビュー「魚だけ？違和感しかない」対応）。
   // 見出し横の総数（honbaTotalCount）は選定前の全件数を使う。
   const honbaGroups = pickHonbaGroups(honbaGroupsAll, today);
+
+  // bodyExcerpt/bodyExcerptCh3 は items（BrowseItem）には無い（RSCペイロード削減。
+  // queries.ts の BrowseItem docコメント参照）。選定が確定した最大4件分だけ、
+  // ここで別途取って合流させる（実装部隊の報告「トップのHTMLが約1MB」対応）。
+  const excerptSlugs = [dailyPick?.slug, ...landStoryPicks.map((s) => s.slug)].filter(
+    (s): s is string => s !== undefined,
+  );
+  const excerpts = await fetchItemExcerpts(excerptSlugs, locale as Locale);
+  const dailyDish = dailyPick
+    ? { ...dailyPick, bodyExcerpt: excerpts.get(dailyPick.slug)?.bodyExcerpt ?? null }
+    : null;
+  const landStories = landStoryPicks.map((s) => ({
+    ...s,
+    bodyExcerptCh3: excerpts.get(s.slug)?.bodyExcerptCh3 ?? null,
+  }));
 
   return (
     <main>

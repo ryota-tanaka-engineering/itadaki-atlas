@@ -501,8 +501,10 @@ test.describe("二層構造（寿司×ネタ）", () => {
     const conn = page.locator("section:visible", { hasText: "この土地と、この素材" });
     await expect(conn.getByRole("link", { name: /大間町/ })).toBeVisible();
     await expect(conn.getByRole("link", { name: /焼津市/ })).toBeVisible();
-    // 代表ネタ関係の逆方向（ネタ側からはスタイルとして出る）
-    await expect(conn.getByRole("link", { name: /江戸前寿司/ })).toBeVisible();
+    // 代表ネタ関係の逆方向（ネタ側からはスタイルとして出る）。郷土料理拡張で
+    // 「江戸前寿司」という文字列が他アイテムの説明文にも現れるようになったため、
+    // 正規表現の部分一致ではなく href で絞る（1,867件時代対応）。
+    await expect(conn.locator('a[href="/ja/sushi-neta/edomae-zushi"]')).toBeVisible();
   });
 
   test("名産地のアイテムが地域ページにジャンル・層を跨いで合流する", async ({ page }) => {
@@ -685,12 +687,14 @@ test.describe("棚ページ + その他アイテムの到達経路（2026-08 デ
     await expect(page.getByRole("heading", { name: "主なジャンル" })).toBeVisible();
     await expect(page.getByRole("link", { name: /ラーメン/ }).first()).toBeVisible();
     await expect(page.getByRole("heading", { name: "まだ数の少ない仲間たち" })).toBeVisible();
-    await expect(page.getByRole("link", { name: /ほうとう/ })).toBeVisible();
+    // 郷土料理拡張で「小豆ほうとう」等の類似名も同じ棚に増えたため、正規表現の
+    // 部分一致ではなく href で「ほうとう」本体のリンクだけを絞る（1,867件時代対応）。
+    await expect(page.locator('a[href="/ja/noodles/hoto"]')).toBeVisible();
   });
 
   test("その他アイテムは棚slug経由で詳細ページに到達でき、つながりに同じ棚の仲間が出る", async ({ page }) => {
     await page.goto("/ja/noodles");
-    await page.getByRole("link", { name: /ほうとう/ }).click();
+    await page.locator('a[href="/ja/noodles/hoto"]').click();
     await expect(page).toHaveURL(/\/ja\/noodles\/hoto$/);
     await expect(page.getByRole("heading", { name: "ほうとう", level: 1 })).toBeVisible();
 
@@ -772,8 +776,10 @@ test.describe("タグページ（興味からさがす。2026-08 デザイン確
     await page.goto("/ja/tags");
     await expect(page.getByRole("heading", { name: "興味からさがす", level: 1 })).toBeVisible();
     await expect(page.getByRole("link", { name: /中華由来/ })).toBeVisible();
-    // 件数0のタグは出ない（2026-09 食材拡張で牛肉タグは付与済みになったため、恒常的に0件の昆虫食で検証）
-    await expect(page.getByRole("link", { name: "昆虫食" })).toHaveCount(0);
+    // 件数0のタグは出ない（2026-09 食材拡張で「昆虫食」タグはいなごの佃唐・へぼ飯等の投入で
+    // 付与済みになったため、収録1,867件時点で恒常的に0件の「汁なし」で検証する。
+    // 0件のタグは content:lint 実行時点の実データで再確認すること）
+    await expect(page.getByRole("link", { name: "汁なし" })).toHaveCount(0);
   });
 
   test("タグ詳細ページに該当アイテムと近いタグが出る", async ({ page }) => {
@@ -801,7 +807,7 @@ test.describe("タグページ（興味からさがす。2026-08 デザイン確
     const res = await request.get("/sitemap.xml");
     const xml = await res.text();
     expect(xml).toContain("/ja/tag/chinese_derived</loc>");
-    expect(xml).not.toContain("/ja/tag/insect</loc>");
+    expect(xml).not.toContain("/ja/tag/no_broth</loc>");
   });
 });
 

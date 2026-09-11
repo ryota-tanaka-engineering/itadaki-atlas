@@ -11,7 +11,9 @@ import type { BrowseItem, Locale } from "@/features/map/queries";
  */
 type Props = {
   heading: string;
-  items: BrowseItem[];
+  /** bodyExcerptCh3 は BrowseItem には無い（RSCペイロード削減）ため、選定後に
+   * サーバー側（page.tsx）が fetchItemExcerpts で合流させたものを渡す。 */
+  items: (BrowseItem & { bodyExcerptCh3: string | null })[];
   locale: Locale;
   detailLabel: string;
 };

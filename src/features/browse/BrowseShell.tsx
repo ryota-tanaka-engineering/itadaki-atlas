@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useEffect, useMemo, useRef, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Search } from "lucide-react";
 
@@ -17,12 +17,14 @@ import type {
   BrowseItem,
   Chain,
   HonbaGroup,
+  ItemExcerpt,
   MapPin,
   Genre,
   Locale,
   TagWithCount,
 } from "@/features/map/queries";
 
+import { fetchSelectedItemExcerpt } from "./actions";
 import { BottomSheet, snapOffset, type Snap } from "./BottomSheet";
 import { IndexList } from "./IndexList";
 import { TodayDishSection } from "./TodayDishSection";
@@ -96,10 +98,12 @@ export function BrowseShell({
   genres: Genre[];
   locale: Locale;
   /** トップ情報モジュール「今日の一皿」（2026-09）。日付選定はサーバー側（dailyPicks.ts）。
-   * 本文を持つアイテムが1件も無ければ null（モジュール自体を出さない）。 */
-  dailyDish: BrowseItem | null;
-  /** トップ情報モジュール「土地の物語から」（2026-09）。今日の一皿と重複しない最大3件。 */
-  landStories: BrowseItem[];
+   * 本文を持つアイテムが1件も無ければ null（モジュール自体を出さない）。bodyExcerpt は
+   * page.tsx が選定後に fetchItemExcerpts で合流させたもの（BrowseItem 自体は持たない）。 */
+  dailyDish: (BrowseItem & { bodyExcerpt: string | null }) | null;
+  /** トップ情報モジュール「土地の物語から」（2026-09）。今日の一皿と重複しない最大3件。
+   * bodyExcerptCh3 は page.tsx が合流させたもの。 */
+  landStories: (BrowseItem & { bodyExcerptCh3: string | null })[];
   /** トップ情報モジュール「本場をたどる」（2026-09）。日替わり順繰り選定（pickHonbaGroups）済みの
    * 最大6件（本番レビュー「魚だけ？違和感しかない」対応。page.tsx 参照）。 */
   honbaGroups: HonbaGroup[];
@@ -188,11 +192,15 @@ export function BrowseShell({
   // （本場を索引に重複表示しないため。作業パッケージ「本場ピン」§1）。
   // items には座標なし（部位・ネタ等）も含まれる（実装部隊の報告「トップで牛肉の部位等を
   // 選ぶと0件」対応）ため、地図ピンにする分だけ lat/lng != null で絞る。
+  // MapPin（MapItem由来）は summary を持つが、items（BrowseItem。RSCペイロード削減で
+  // summary を持たない。queries.ts の BrowseItem docコメント参照）にはその実体が無いため、
+  // ここでは null を明示する。実際の summary/bodyExcerpt はピン選択時に
+  // fetchSelectedItemExcerpt で別途取る（selectedExcerpt state 参照）。
   const mapPins = useMemo<MapPin[]>(
     () => [
       ...items
         .filter((i): i is BrowseItem & { lat: number; lng: number } => i.lat != null && i.lng != null)
-        .map((i): MapPin => ({ ...i, kind: "origin" })),
+        .map((i): MapPin => ({ ...i, summary: null, kind: "origin" })),
       ...honbaPins,
     ],
     [items, honbaPins],
@@ -203,13 +211,40 @@ export function BrowseShell({
     [mapPins, selectedSlug],
   );
 
-  // 選択が発祥ピンのときだけ、カード増強用のフルデータ（タグ・本文冒頭）を引く
-  // （本場ピンは items に含まれず、food_item_regions 由来の別データのため対象外。
-  // 作業パッケージ「トップページ改善」B節）。
+  // 選択が発祥ピンのときだけ、カード増強用のタグを引く（本場ピンは items に含まれず、
+  // food_item_regions 由来の別データのため対象外。作業パッケージ「トップページ改善」B節）。
   const selectedBrowseItem = useMemo(
     () => (selected && selected.kind === "origin" ? (items.find((i) => i.slug === selected.slug) ?? null) : null),
     [selected, items],
   );
+
+  // ピン選択カードの summary/bodyExcerpt（実装部隊の報告「トップのHTMLが約1MB」対応で
+  // BrowseItem 本体からは落とした。queries.ts 参照）。選択が変わるたびに1件だけ
+  // Server Action で取り、slug 単位にキャッシュして同じアイテムの再選択では呼ばない。
+  // 本場ピンは honbaPins が summary を既に持っているため対象外（selected.summary を使う）。
+  //
+  // 「取得中/取得済みslug」の重複排除だけ ref（エフェクト内でのみ参照。render中には
+  // 読まない。react-hooks/refs）で行い、実際の描画に使う値は useState で持つ。
+  // setState はフェッチ完了（.then。外部システムからの通知）でだけ呼ぶ
+  // （react-hooks/set-state-in-effect: エフェクト本体で直接 setState しない）。
+  const excerptRequestedRef = useRef(new Set<string>());
+  const [excerptBySlug, setExcerptBySlug] = useState<Map<string, ItemExcerpt | null>>(new Map());
+  useEffect(() => {
+    if (!selected || selected.kind !== "origin") return;
+    const slug = selected.slug;
+    if (excerptRequestedRef.current.has(slug)) return;
+    excerptRequestedRef.current.add(slug);
+    let cancelled = false;
+    fetchSelectedItemExcerpt({ slug, locale }).then((result) => {
+      if (cancelled) return;
+      setExcerptBySlug((prev) => new Map(prev).set(slug, result.ok ? result.data : null));
+    });
+    return () => {
+      cancelled = true;
+    };
+  }, [selected, locale]);
+  const selectedExcerpt =
+    selected && selected.kind === "origin" ? (excerptBySlug.get(selected.slug) ?? null) : null;
 
   // 「同じ系統をもっと」的な次の1件（作業パッケージ「トップページ改善」B節）。
   // 同ジャンル+同系統（無ければ同棚）でグループ化し、自分以外の先頭1件を割り当てる。
@@ -235,6 +270,26 @@ export function BrowseShell({
     return map;
   }, [items]);
   const nextRelated = selectedBrowseItem ? (nextRelatedMap.get(selectedBrowseItem.slug) ?? null) : null;
+
+  // ピン選択カードの summary。本場ピンは honbaPins が実データを持つのでそのまま使い、
+  // 発祥ピンは selectedExcerpt（fetchSelectedItemExcerpt で取得済み）から引く。
+  const selectedSummary = selected
+    ? selected.kind === "honba"
+      ? selected.summary
+      : (selectedExcerpt?.summary ?? null)
+    : null;
+  // slug→タグ名の解決用（ピン選択カードのタグバッジ用。BrowseItem は tagSlugs しか
+  // 持たない（RSCペイロード削減。queries.ts docコメント参照）ため、表示名は全アイテム
+  // 共通の allTags から引く。同じ文字列をアイテム数分重複させない）。
+  const tagBySlug = useMemo(
+    () => new Map<string, TagWithCount>(allTags.map((tg): [string, TagWithCount] => [tg.slug, tg])),
+    [allTags],
+  );
+  // ピン選択カードのタグバッジ（最大3件。表示名は tagBySlug 経由で allTags から解決する）。
+  const selectedTagBadges = (selectedBrowseItem?.tagSlugs ?? [])
+    .slice(0, 3)
+    .map((slug) => tagBySlug.get(slug))
+    .filter((tag): tag is TagWithCount => tag !== undefined);
 
   // 情報モジュール「本場をたどる」の表示用整形（作業パッケージ「トップページ情報モジュール」§2）。
   // 都市名はロケール表記（formatPrefCity）に、都道府県は PREF_SLUGS で地域ページへのリンクに変換する。
@@ -603,17 +658,17 @@ export function BrowseShell({
                 </div>
               </dl>
             )}
-            {selected.summary && <p className="text-sm leading-relaxed">{selected.summary}</p>}
+            {selectedSummary && <p className="text-sm leading-relaxed">{selectedSummary}</p>}
 
             {/* ViewDetail前の判断材料（作業パッケージ「トップページ改善」B節）。
                 本場ピンには対象データが無い（food_item_regions由来の別データのため）ので、
                 発祥ピン選択時（selectedBrowseItem がある時）だけ出す。 */}
-            {selectedBrowseItem && selectedBrowseItem.tags.length > 0 && (
+            {selectedBrowseItem && selectedTagBadges.length > 0 && (
               // タグバッジは絞り込みボタン（本番レビュー「タグとか選択しても意味なくなってる」対応）。
               // 押すとそのタグで絞り込み、シートはピークへ（handleSelectTag。詳細ページ側の
               // CoverTagChips は現状どおりリンクのまま。作業パッケージ「トップ導線修正」A-2節）。
               <ul aria-label={ti("tagsLabel")} className="flex flex-wrap gap-1.5">
-                {selectedBrowseItem.tags.map((tag) => (
+                {selectedTagBadges.map((tag) => (
                   <li key={tag.slug}>
                     <button
                       type="button"
@@ -626,9 +681,9 @@ export function BrowseShell({
                 ))}
               </ul>
             )}
-            {selectedBrowseItem?.bodyExcerpt && (
+            {selected.kind === "origin" && selectedExcerpt?.bodyExcerpt && (
               <p className="text-muted-foreground text-xs leading-relaxed">
-                {selectedBrowseItem.bodyExcerpt}
+                {selectedExcerpt.bodyExcerpt}
               </p>
             )}
             {nextRelated && (

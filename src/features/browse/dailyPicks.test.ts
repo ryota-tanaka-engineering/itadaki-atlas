@@ -10,7 +10,6 @@ function makeItem(slug: string, hasBody: boolean): BrowseItem {
     nameJa: `${slug}-ja`,
     nameEn: `${slug}-en`,
     nameRomaji: `${slug}-romaji`,
-    summary: null,
     originPref: null,
     originCity: null,
     lat: 0,
@@ -19,10 +18,8 @@ function makeItem(slug: string, hasBody: boolean): BrowseItem {
     itemType: "dish",
     genreSlug: "ramen",
     shelfSlug: "ramen",
-    tags: [],
     tagSlugs: [],
-    bodyExcerpt: hasBody ? `${slug}の一文。` : null,
-    bodyExcerptCh3: hasBody ? `${slug}の3章の一文。` : null,
+    hasBody,
   };
 }
 

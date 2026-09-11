@@ -14,7 +14,10 @@ import type { BrowseItem, Locale } from "@/features/map/queries";
  */
 type Props = {
   heading: string;
-  item: BrowseItem;
+  /** bodyExcerpt は BrowseItem には無い（RSCペイロード削減。queries.ts の BrowseItem
+   * docコメント参照）ため、選定後にサーバー側（page.tsx）が fetchItemExcerpts で
+   * 1件分だけ合流させたものを渡す。 */
+  item: BrowseItem & { bodyExcerpt: string | null };
   locale: Locale;
   originCaption: string;
   originLabel: string;
