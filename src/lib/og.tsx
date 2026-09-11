@@ -1,5 +1,4 @@
-import type { PrimaryStyle } from "@/features/map/styles";
-import { PIN_STROKE, STYLE_COLORS } from "@/features/map/styles";
+import { PIN_STROKE, styleColor } from "@/features/map/styles";
 
 /**
  * OGP共有カードの共通部品。
@@ -45,10 +44,10 @@ export function OgFrame({
   style,
   children,
 }: {
-  style?: PrimaryStyle | null;
+  style?: string | null;
   children: React.ReactNode;
 }) {
-  const accent = style ? STYLE_COLORS[style] : PIN_STROKE;
+  const accent = style ? styleColor(style) : PIN_STROKE;
   return (
     <div
       style={{

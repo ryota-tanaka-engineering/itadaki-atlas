@@ -769,6 +769,22 @@ test.describe("ジャンルページの新レイアウト（2026-08 デザイン
     await expect(page.getByRole("navigation", { name: "系統で選ぶ" })).toHaveCount(0);
     await expect(page.getByRole("link", { name: "焼き鳥の一覧を地図で見る" })).toBeVisible();
   });
+
+  // 2026-09: primary_style をラーメン専用の固定4系統からジャンルごとの自由テキストへ
+  // 一般化（.doc/20_data/01_models.md §3.5）。洋食（ピザ/パスタ/ライス/フライ/肉/その他）
+  // で系統チップが出て、クリックすると該当グループへ絞れることを確認する。
+  test("ラーメン以外のジャンルにも系統チップが出て絞れる（洋食=ピザ等）", async ({ page }) => {
+    await page.goto("/ja/yoshoku");
+    await expect(page.getByRole("heading", { name: "洋食", level: 1 })).toBeVisible();
+
+    const styleNav = page.getByRole("navigation", { name: "系統で選ぶ" });
+    await expect(styleNav).toBeVisible();
+    const pizzaChip = styleNav.getByRole("link", { name: /ピザ/ });
+    await expect(pizzaChip).toBeVisible();
+
+    await pizzaChip.click();
+    await expect(page.getByRole("heading", { name: /^ピザ/, level: 2 })).toBeVisible();
+  });
 });
 
 test.describe("タグページ（興味からさがす。2026-08 デザイン確定）", () => {

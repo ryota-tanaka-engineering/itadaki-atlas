@@ -9,7 +9,7 @@ import "maplibre-gl/dist/maplibre-gl.css";
 
 import type { MapPin } from "./queries";
 import { mapPinKey } from "./pinKey";
-import { PIN_BASE, PIN_STROKE, PRIMARY_STYLES, STYLE_COLORS, styleColor } from "./styles";
+import { PIN_BASE, PIN_STROKE, RAMEN_STYLES, RAMEN_STYLE_COLORS, styleColor } from "./styles";
 import { useMasterLabels } from "./labels";
 
 /**
@@ -685,12 +685,12 @@ export function MapView({
         <div className="bg-background/90 pointer-events-none absolute top-16 left-4 z-10 rounded-lg p-3 text-xs shadow-sm backdrop-blur">
           <p className="mb-2 font-semibold">{t("legend")}</p>
           <ul className="space-y-1">
-            {PRIMARY_STYLES.map((s) => (
+            {RAMEN_STYLES.map((s) => (
               <li key={s} className="flex items-center gap-2">
                 <span
                   aria-hidden
                   className="inline-block size-3 rounded-full border"
-                  style={{ backgroundColor: STYLE_COLORS[s], borderColor: PIN_STROKE }}
+                  style={{ backgroundColor: RAMEN_STYLE_COLORS[s], borderColor: PIN_STROKE }}
                 />
                 {label.style(s)}
               </li>

@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 import { OG_SIZE, OgFrame, ogFonts } from "@/lib/og";
-import { PIN_STROKE, PRIMARY_STYLES, STYLE_COLORS } from "@/features/map/styles";
+import { PIN_STROKE, RAMEN_STYLES, RAMEN_STYLE_COLORS } from "@/features/map/styles";
 import { createStaticClient } from "@/lib/supabase/static";
 
 export const size = OG_SIZE;
@@ -48,14 +48,14 @@ export default async function Image({ params }: { params: Promise<Params> }) {
           <div style={{ fontSize: 80, fontWeight: 700, lineHeight: 1.15 }}>{title}</div>
           <div style={{ fontSize: 40, color: "#7a6a58" }}>{subtitle}</div>
           <div style={{ display: "flex", gap: 12, marginTop: 32 }}>
-            {PRIMARY_STYLES.map((s) => (
+            {RAMEN_STYLES.map((s) => (
               <span
                 key={s}
                 style={{
                   width: 26,
                   height: 26,
                   borderRadius: 13,
-                  backgroundColor: STYLE_COLORS[s],
+                  backgroundColor: RAMEN_STYLE_COLORS[s],
                   border: `2px solid ${PIN_STROKE}`,
                 }}
               />

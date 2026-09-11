@@ -26,8 +26,6 @@ import { z } from "zod";
 // 都道府県マスタはアプリと共有する（二重に持たない）
 import { PREFECTURES } from "../src/lib/prefectures.ts";
 
-const PRIMARY_STYLES = ["醤油", "味噌", "塩", "豚骨", "その他"] as const;
-
 // -----------------------------------------------------------------------------
 // 行スキーマ
 // -----------------------------------------------------------------------------
@@ -61,12 +59,13 @@ const rowSchema = z
     origin_city: optionalText,
     lat: coordinate,
     lng: coordinate,
-    // ラーメン系ジャンル以外は系統を持たない（ジャンルごとの色体系は今後）
+    // 2026-09: ラーメン専用の固定4系統+その他から、ジャンルごとの自由テキストへ一般化
+    // （非空・20文字以内。DB側のCHECK制約と揃える。.doc/20_data/01_models.md §3.5）。
     primary_style: z
       .string()
       .transform((v) => v.trim())
       .transform((v) => (v === "" ? undefined : v))
-      .pipe(z.enum(PRIMARY_STYLES).optional())
+      .pipe(z.string().min(1).max(20).optional())
       .optional(),
     // dish(ご当地料理) | ingredient(部位・食材)。省略時は dish
     type: z

@@ -1,7 +1,6 @@
 import { createClient } from "@/lib/supabase/server";
 import { fetchAllRows } from "@/lib/supabase/fetchAll";
 
-import type { PrimaryStyle } from "./styles";
 import { excerptChapterSentence, excerptFirstSentence } from "./markdown";
 import type { PlaceNameMap } from "./placeNames";
 
@@ -24,7 +23,7 @@ export type MapItem = {
    * 座標が要る箇所は利用側で `lat != null` に絞る（MapPin 参照）。 */
   lat: number | null;
   lng: number | null;
-  primaryStyle: PrimaryStyle | null;
+  primaryStyle: string | null;
   /** 記号（CLAUDE.md「記号」節）: dish=●料理 / ingredient=■食材。地図ピンの形に使う。 */
   itemType: "dish" | "ingredient";
   /** 詳細ページへのリンク組み立て用（棚内「その他」= genre_id null のアイテムは null） */
@@ -70,7 +69,7 @@ export type BrowseItem = {
   originCity: string | null;
   lat: number | null;
   lng: number | null;
-  primaryStyle: PrimaryStyle | null;
+  primaryStyle: string | null;
   itemType: "dish" | "ingredient";
   genreSlug: string | null;
   shelfSlug: string;
@@ -152,7 +151,7 @@ export async function fetchMapItems(locale: Locale = "ja"): Promise<BrowseItem[]
       lat: row.lat,
       lng: row.lng,
       // PostgREST は 1:1 でも配列で返すため先頭を取る
-      primaryStyle: (toOne(row.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
+      primaryStyle: (toOne(row.dish_details)?.primary_style ?? null) as string | null,
       itemType: row.type as "dish" | "ingredient",
       genreSlug: toOne(row.genres)?.slug ?? null,
       shelfSlug: row.shelf_slug,
@@ -294,7 +293,7 @@ export async function fetchItemBySlug(
     originCity: data.origin_city,
     lat: data.lat,
     lng: data.lng,
-    primaryStyle: (toOne(data.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
+    primaryStyle: (toOne(data.dish_details)?.primary_style ?? null) as string | null,
     itemType: data.type as "dish" | "ingredient",
     genreSlug: genre?.slug ?? genreSlug,
     genreNameJa: genre?.name_ja ?? null,
@@ -368,7 +367,7 @@ export async function fetchItemByShelfSlug(
     originCity: data.origin_city,
     lat: data.lat,
     lng: data.lng,
-    primaryStyle: (toOne(data.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
+    primaryStyle: (toOne(data.dish_details)?.primary_style ?? null) as string | null,
     itemType: data.type as "dish" | "ingredient",
     genreSlug: null,
     genreNameJa: null,
@@ -455,7 +454,7 @@ function rowToItem(
     originCity: row.origin_city,
     lat: row.lat,
     lng: row.lng,
-    primaryStyle: (toOne(row.dish_details)?.primary_style ?? null) as PrimaryStyle | null,
+    primaryStyle: (toOne(row.dish_details)?.primary_style ?? null) as string | null,
     itemType: row.type as "dish" | "ingredient",
     genreSlug: toOne(row.genres ?? null)?.slug ?? null,
     shelfSlug: row.shelf_slug,
@@ -820,7 +819,7 @@ export async function fetchSamePref(slug: string, pref: string, locale: Locale, 
 export async function fetchStyleSiblings(
   genreSlug: string,
   slug: string,
-  primaryStyle: PrimaryStyle | null,
+  primaryStyle: string | null,
   locale: Locale,
   limit = 2,
 ) {

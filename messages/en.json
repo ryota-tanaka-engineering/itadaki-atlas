@@ -275,5 +275,17 @@
     "text": "With your consent, we use Google Analytics (cookies) to understand how the site is used. Everything works without it.",
     "accept": "Accept",
     "decline": "Decline"
+  },
+  "styleNames": {
+    "醤油": "Shoyu — soy sauce",
+    "味噌": "Miso",
+    "塩": "Shio — salt",
+    "豚骨": "Tonkotsu — pork bone",
+    "その他": "Other",
+    "ピザ": "Pizza",
+    "パスタ": "Pasta",
+    "ライス": "Rice dishes",
+    "フライ": "Fried",
+    "肉": "Meat"
   }
 }

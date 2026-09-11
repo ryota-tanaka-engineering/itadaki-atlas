@@ -70,7 +70,6 @@ const SCRIPTS_DIR = dirname(fileURLToPath(import.meta.url));
 const GENRE_TYPES = ["dish", "ingredient", "cut"] as const;
 const TAG_KINDS = ["味・特性", "素材", "調理", "形状・食べ方", "場面", "系譜"] as const;
 const ITEM_TYPES = ["dish", "ingredient"] as const;
-const PRIMARY_STYLES = ["醤油", "味噌", "塩", "豚骨", "その他"] as const;
 const ITEM_RELATION_TYPES = ["源流", "派生", "兄弟", "対比", "使用食材", "代表ネタ"] as const;
 const REGION_RELATION_TYPES = ["名産地", "本場"] as const;
 
@@ -215,7 +214,9 @@ const itemSchema = z
     origin_city: optionalTrimmed(),
     lat: optionalCoord(20, 46),
     lng: optionalCoord(122, 154),
-    primary_style: z.preprocess(emptyToUndefined, z.enum(PRIMARY_STYLES).optional()),
+    // 2026-09: ラーメン専用の固定4系統+その他から、ジャンルごとの自由テキストへ一般化
+    // （非空・20文字以内。DB側のCHECK制約と揃える。.doc/20_data/01_models.md §3.5）。
+    primary_style: z.preprocess(emptyToUndefined, z.string().trim().min(1).max(20).optional()),
     summary_ja: z.string().trim().min(1, "必須"),
     summary_en: z.string().trim().min(1, "必須"),
     body_ja: optionalRaw(),

@@ -140,6 +140,23 @@ describe("bundleSchema バリデーション", () => {
     expect(r.success).toBe(false);
   });
 
+  // 2026-09: primary_style をラーメン専用の固定4系統+その他から、ジャンルごとの
+  // 自由テキストへ一般化（.doc/20_data/01_models.md §3.5）。
+  it("items.primary_style はラーメンの4系統に限らず任意の値を許可する（洋食の系統等）", () => {
+    const r = bundleSchema.safeParse({ items: [minimalItem({ primary_style: "ピザ" })] });
+    expect(r.success).toBe(true);
+  });
+
+  it("items.primary_style が21文字以上だと弾く（DBのCHECK制約と揃える）", () => {
+    const r = bundleSchema.safeParse({ items: [minimalItem({ primary_style: "あ".repeat(21) })] });
+    expect(r.success).toBe(false);
+  });
+
+  it("items.primary_style は空文字列を値なし（undefined相当）として通す", () => {
+    const r = bundleSchema.safeParse({ items: [minimalItem({ primary_style: "" })] });
+    expect(r.success).toBe(true);
+  });
+
   it("genres.type に cut を許可する", () => {
     const r = bundleSchema.safeParse({
       genres: [{ slug: "beef-cuts", name_ja: "牛肉の部位", name_en: "Beef cuts", type: "cut", shelf: "meat" }],

@@ -1,7 +1,7 @@
 import { ImageResponse } from "next/og";
 
 import { OG_SIZE, OgFrame, ogFonts } from "@/lib/og";
-import { PIN_STROKE, STYLE_COLORS, type PrimaryStyle } from "@/features/map/styles";
+import { PIN_STROKE, styleColor } from "@/features/map/styles";
 import { createStaticClient } from "@/lib/supabase/static";
 
 export const size = OG_SIZE;
@@ -28,7 +28,7 @@ export default async function Image({ params }: { params: Promise<Params> }) {
   const nameJa = translations.find((t) => t.locale === "ja")?.name ?? data?.name_romaji ?? slug;
   const romaji = data?.name_romaji ?? "";
   const dd = data?.dish_details;
-  const style = ((Array.isArray(dd) ? dd[0] : dd)?.primary_style ?? null) as PrimaryStyle | null;
+  const style = ((Array.isArray(dd) ? dd[0] : dd)?.primary_style ?? null) as string | null;
   const origin = data?.origin_pref ? `${data.origin_pref}${data.origin_city ?? ""}` : "";
 
   const isJa = locale === "ja";
@@ -66,7 +66,7 @@ export default async function Image({ params }: { params: Promise<Params> }) {
                     width: 22,
                     height: 22,
                     borderRadius: 11,
-                    backgroundColor: STYLE_COLORS[style],
+                    backgroundColor: styleColor(style),
                     border: `2px solid ${PIN_STROKE}`,
                   }}
                 />

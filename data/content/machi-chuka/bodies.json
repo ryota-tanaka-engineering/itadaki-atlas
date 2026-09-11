@@ -1,0 +1,520 @@
+{
+  "items": [
+    {
+      "slug": "tenshinhan",
+      "body_ja": "## 何でできているか\n黄色い卵がふんわりとご飯を覆い、割ると中からほぐした蟹の身がこぼれる。上からかけるあんは醤油と酢、砂糖を合わせた甘酸っぱい味で、片栗粉のとろみが卵とご飯の間にゆっくり染み込んでいく。中国のかに玉「芙蓉蟹」は卵白だけを使う白い仕上げだが、天津飯の卵は全卵を使うため黄色く、この色の違いが本場との分かれ目になっているという。\n## どう作るのか\n溶いた卵に蟹の身やねぎを混ぜて半熟に焼き上げ、丼のご飯にすべらせるように乗せる。合わせておいた醤油・酢・砂糖のたれを鍋で温め、水溶き片栗粉でとろみをつけてから、卵の上からたっぷりとかける。あんの配合は店によって幅があり、関東では醤油の効いた透明に近いあん、関西では甘みの強い赤みがかったあんになる例が多いとされる。\n## なぜこの形になったのか\n一説によると、浅草の中国料理店で常連客の「早く食べられるものを」という求めに応え、かに玉をご飯に乗せて酢豚のあんを応用したのが始まりという。大阪では、天津から復員した人々が持ち帰った丼の記憶が下敷きになったとも伝わる。どちらも確証はないとされ、天津という地名だけが料理名に残った理由も、今なお定説がないという。",
+      "body_en": "## What it's made of\nA fluffy yellow omelette blankets the rice, and breaking it open spills out shredded crab meat. The sauce poured over the top is a sweet-tangy blend of soy sauce, vinegar, and sugar, its cornstarch thickness seeping slowly down between egg and rice. China's crab omelette, furong xie, is said to use only egg whites and comes out white; tenshinhan's whole-egg version turns yellow instead, and that color gap is said to mark the first split from the mainland dish.\n## How it's made\nBeaten egg is mixed with crab meat and scallion and cooked to a soft set, then slid onto a bowl of rice. A pre-mixed sauce of soy sauce, vinegar, and sugar is warmed and thickened with a cornstarch slurry, then poured generously over the egg. Sauces vary by shop — Kanto tends toward a clear, soy-forward glaze, Kansai toward a sweeter, reddish one, it's said.\n## Why it took this shape\nOne account holds it began at an Asakusa restaurant, where a regular's request for something quick led a cook to lay crab omelette over rice and apply a sweet-and-sour pork-style sauce to it. Another traces it to Osaka, where returnees from Tianjin are said to have carried back the memory of a rice bowl. Neither claim is confirmed, and even why the name keeps the place name Tianjin has no settled answer.",
+      "sources": [
+        {
+          "title": "天津飯の起源―定説を疑う―",
+          "url": "https://www.jstage.jst.go.jp/article/kjoho/3/1/3_52/_pdf",
+          "publisher": "日本国際情報学会『Kokusai-Joho』3巻1号",
+          "accessed_at": "2026-09-10"
+        },
+        {
+          "title": "天津飯は日本発祥！カニ玉との違いとは",
+          "url": "https://www.cookdoor.jp/chinese-food/dictionary/21228_china_028/",
+          "publisher": "Cookdoor",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tenshinhan",
+          "to_slug": "kani-tama",
+          "relation_type": "兄弟",
+          "basis": "天津飯はかに玉をご飯にのせて甘酢あんをかけた丼で、かに玉自体も単品のおかずとして食べられる、同じ卵料理から枝分かれした関係にあるとされる（かに玉との違いを扱った記事に基づく）"
+        }
+      ]
+    },
+    {
+      "slug": "hiyashi-chuka",
+      "body_ja": "## 何でできているか\n井桁に細く切った具が並ぶ丼は、まず彩りが目に飛び込んでくる。錦糸卵の黄色、ハムやきゅうりの赤と緑、上からかけた醤油と酢のたれが麺にまとわりつくと、喉ごしの良さに酸味が追いかけてくる。中国の涼拌麺が濃厚なごまだれで和えるのに対し、日本の冷やし中華はさっぱりとした酢醤油だれを張るという違いがあるとされる。\n## どう作るのか\n茹でた中華麺を冷水でしっかり締め、生水を使わない工夫として麺を扇いで冷ます型も伝わる。具は細切りにして彩りよく放射状や五色に盛り分け、醤油・酢・砂糖を合わせたたれを別立てで作って仕上げにかける。夏場の食欲を保つため、酸味と彩りを強めに設計する店が多いとされる。麺を締める水の温度や時間の違いも、口当たりの微妙な差を生むという。\n## なぜこの形になったのか\n一説によると、冷房のない時代の中国料理店は油っこく暑苦しいと敬遠されがちで、夏場の売上減が共通の悩みだったという。ある店は栄養バランスと酸味で食欲を保つ工夫として、別の店はそば屋の冷たい麺にヒントを得て、それぞれ独自に冷たい中華麺を考案したと伝わる。どちらの土地でも、暑さへの実用的な答えとして育った点は共通しているとされる。",
+      "body_en": "## What it's made of\nA bowl with shredded toppings laid out in neat rows catches the eye first. The yellow of the shredded egg, the red and green of ham and cucumber, and a soy-vinegar sauce clinging to the noodles bring a tartness that follows the smooth slurp of the noodles. Where China's liangban mian is tossed in a heavy sesame sauce, Japan's version is said to carry a lighter, tangier soy-vinegar dressing instead.\n## How it's made\nBoiled noodles are chilled firm in cold water; one telling has shops fanning the noodles instead, to avoid using raw water. Toppings are shredded and arranged in radial or five-color rows, and a separately made soy-vinegar-sugar sauce is poured on just before serving. Many shops are said to lean into sharper acidity and brighter color to keep appetites up through the summer heat.\n## Why it took this shape\nOne account holds that Chinese restaurants without air conditioning were shunned in summer as greasy and stifling, and falling summer sales was a shared problem. One shop is said to have answered it with a nutritionally balanced, tart noodle dish; another took its cue from a neighboring soba shop's cold noodles. Both, by different routes, are said to have arrived at their own version of a chilled Chinese noodle built as a practical answer to the heat.",
+      "sources": [
+        {
+          "title": "龍亭について（冷やし中華の由来）",
+          "url": "https://ryu-tei.jp/about/",
+          "publisher": "中国料理 龍亭",
+          "accessed_at": "2026-09-10"
+        },
+        {
+          "title": "冷やし中華発祥の店！神田神保町『揚子江菜館』の「五色涼拌麺」【下町の美味探訪7】",
+          "url": "https://serai.jp/gourmet/200096",
+          "publisher": "Serai.jp（小学館）",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "hiyashi-chuka",
+          "to_slug": "hokkaido-ramen",
+          "relation_type": "対比",
+          "basis": "同じ中華麺を使うが、冷やし中華は酢の効いたたれで冷やして食べる夏向けの型という対比をなす"
+        }
+      ]
+    },
+    {
+      "slug": "tanmen",
+      "body_ja": "## 何でできているか\n丼に鼻を近づけると、まず野菜を強火で炒めた香ばしさが立つ。もやしやキャベツ、にんじんはしんなりしながらも歯ごたえを残し、鶏がらの澄んだ塩味スープがその下に沈んでいる。醤油や味噌のラーメンに比べて色が薄く、野菜の甘みと豚肉の脂がスープの輪郭を作っているのが特徴とされる。もやしから出る水分がスープに溶け込むことで、味の輪郭がやわらぐ点も見逃せないという。\n## どう作るのか\nにんにくともやし、キャベツ、豚肉などを強火の中華鍋で手早く炒め、鶏がらか豚骨のスープを加えて塩で味を調える。白濁する程度まで煮立てて野菜の旨みを引き出すのが要とされ、炒める野菜の組み合わせや歯ごたえの残し方に店ごとの個性が出るという。強い火力を保てるかどうかが、家庭では再現しにくい理由の一つとされる。\n## なぜこの形になったのか\n一説によると、1955年に横浜で開業した中華料理店が、満州からの引き揚げ料理人が覚えた家庭の味を再現したのがタンメンの始まりと伝わる。同じ店が餃子も看板にしていたとされ、炒め野菜と塩味スープという組み合わせは、限られた食材を強火の中華鍋ひとつで仕立てる町の食堂の知恵として広まったと考えられている。餃子と並ぶ看板料理として、今も多くの店で受け継がれているという。",
+      "body_en": "## What it's made of\nLean in over the bowl and the first thing to hit is the smell of vegetables seared over high heat. Bean sprouts, cabbage, and carrot go limp but keep some bite, sitting over a clear, salted chicken broth. Paler than a soy or miso ramen, it's said to owe its character to the sweetness of the vegetables and the fat rendered from the pork.\n## How it's made\nGarlic, bean sprouts, cabbage, and pork are stir-fried fast in a hot wok, then a chicken or pork-bone broth is added and seasoned with salt. Boiling it hard enough to turn faintly cloudy is said to be the key to drawing out the vegetables' flavor, and the vegetable mix and how much bite is left in them mark each shop's own touch.\n## Why it took this shape\nOne account traces tanmen to a Chinese restaurant that opened in Yokohama in 1955, where a cook repatriated from Manchuria is said to have recreated a home-style dish he'd learned there. The same shop is said to have made gyoza its other signature, and the pairing of stir-fried vegetables with a salted broth is thought to have spread as the kind of dish a neighborhood diner could build from limited ingredients in a single hot wok.",
+      "sources": [
+        {
+          "title": "タンメン",
+          "url": "https://ja.wikipedia.org/wiki/タンメン",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tanmen",
+          "to_slug": "gyoza",
+          "relation_type": "兄弟",
+          "basis": "横浜で1955年に開業した中華料理店がタンメンと餃子を看板にしたと伝わり、同じ町中華食堂から生まれた組み合わせとして扱われることが多い（タンメンの記述に基づく）"
+        }
+      ]
+    },
+    {
+      "slug": "nira-reba-itame",
+      "body_ja": "## 何でできているか\nにらの青い香りがまず鼻を抜け、そのあとにレバー特有の風味が追いかけてくる。下味の醤油としょうがの香りが臭みを和らげ、オイスターソースのコクが全体をまとめる。もやしのしゃきしゃきとした歯ごたえが、とろりとしたレバーの舌触りに変化をつけているという。強火で仕上げることで水分が出すぎず、レバーの柔らかさを保てるとされる。\n## どう作るのか\n薄切りにしたレバーを水や牛乳にさらして血抜きし、醤油・酒・しょうがに漬け込んでから片栗粉をまぶして下ごしらえする。にらともやしを強火で手早く炒め、下味をつけたレバーを加えて一気に仕上げるのが臭みを出さないこつとされる。炒めすぎるとレバーが硬くなるため、火加減の見極めが店ごとの差になるという。下ごしらえの丁寧さが、そのまま臭みの少なさに直結するとされる。\n## なぜこの形になったのか\n一説によると、レバーの下処理と強い香味野菜を組み合わせる中国の家庭料理が、戦後にニラが一般家庭へ普及した1960年代以降、栄養補給を兼ねた定食メニューとして中華食堂や大衆食堂に取り入れられていったと考えられている。安価な部位を臭みなく食べさせる工夫が、白飯に合う濃い味付けとして定着したという。今も定食屋や中華食堂の壁メニューに欠かせない一品として残っているという。",
+      "body_en": "## What it's made of\nThe green scent of chives hits first, followed by liver's particular character. A soy-and-ginger marinade softens the gaminess, and oyster sauce ties the dish together with depth. Crisp bean sprouts are said to play off the liver's soft, yielding bite.\n## How it's made\nThinly sliced liver is soaked in water or milk to draw out blood, then marinated in soy sauce, sake, and ginger before being dusted with potato starch. Chives and bean sprouts are stir-fried fast over high heat, with the marinated liver added last for a quick finish — said to be the trick to keeping gaminess at bay. Overcooking toughens the liver, so judging the heat is where shops differ.\n## Why it took this shape\nOne account holds that a Chinese home dish pairing prepared liver with a pungent green vegetable was folded into Chinese diners and everyday eateries as a set-meal item once chives became common in Japanese households from the 1960s on, doubling as a way to get iron into the diet. Working the gaminess out of a cheap cut is thought to be behind the strong, rice-friendly seasoning that stuck.",
+      "sources": [
+        {
+          "title": "レバニラ？ニラレバ？正しいのはどっち！？",
+          "url": "https://www.cookdoor.jp/chinese-food/dictionary/21235_china_035/",
+          "publisher": "Cookdoor",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "nira-reba-itame",
+          "to_slug": "hoikoro",
+          "relation_type": "対比",
+          "basis": "ともに町中華の定食の看板だが、回鍋肉はキャベツ主体の甘辛炒め、ニラレバはレバーの下味とにらの香りを立てる炒めという別系統の調理設計を持つ"
+        }
+      ]
+    },
+    {
+      "slug": "chahan",
+      "body_ja": "## 何でできているか\n熱した中華鍋の中で、粒の立ったご飯が卵の黄色をまとって跳ねる。刻んだねぎのしゃきっとした食感と、豚肉やハムの塩気が合間に顔を出し、醤油を鍋肌にひとまわしした瞬間の香ばしさが仕上げの香りになる。米粒がべたつかずぱらりとほぐれているかどうかが、この一皿の出来を決めるとされる。湯気とともに立つ香ばしさが、食欲をさらに引き立てるという。\n## どう作るのか\n冷やご飯を高温の油でほぐしながら炒め、卵を絡めて粒立たせたあと、具材とねぎを加えて強火で一気に仕上げる。鍋を振って余分な水分を飛ばすのが要とされ、最後に鍋肌から醤油を垂らして香りをつける店が多いという。ラーメンや餃子と組み合わせた半量の「半チャーハン」というセットの食べ方も、日本の中華食堂に独自に根づいている。\n## なぜこの形になったのか\n一説によると、中国広東の炒飯が海鮮など多彩な具を使うのに対し、日本では戦後の食料事情の中で手に入りやすい卵やねぎ、豚肉に具材が絞られ、白飯を主役にした簡便な一皿として広まっていったという。ラーメン屋や食堂が手早く出せる主食として取り入れたことも、この形が全国に定着した理由の一つと考えられている。海鮮を多く使う本場の炒飯とは、その簡便さの方向性が異なるという。",
+      "body_en": "## What it's made of\nIn a hot wok, well-separated grains of rice jump and take on the yellow of egg. Chopped scallion adds a crisp bite, pork or ham brings salt, and a ring of soy sauce hissed against the hot pan gives the finishing aroma. Whether the grains stay loose and separate rather than clumping is said to decide how good the dish is.\n## How it's made\nCold rice is broken up and fried in hot oil, coated with egg until the grains separate, then finished fast over high heat with scallion and other ingredients. Tossing the pan to drive off excess moisture is said to be essential, and many shops finish with a ring of soy sauce along the pan's edge for aroma. Ordering a half portion, han-chahan, alongside ramen or gyoza is a set-meal habit that took root on its own at Japanese Chinese diners.\n## Why it took this shape\nOne account holds that where Cantonese fried rice uses a wide range of ingredients including seafood, postwar Japan narrowed the mix to whatever was easy to get — egg, scallion, pork — and it spread as a simple dish built around the rice itself. Ramen shops and diners adopting it as a quick main dish is also thought to be part of why this particular form took hold nationwide.",
+      "sources": [
+        {
+          "title": "炒飯",
+          "url": "https://ja.wikipedia.org/wiki/炒飯",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "chahan",
+          "to_slug": "chuka-don",
+          "relation_type": "対比",
+          "basis": "同じ白飯にのせる中華由来の料理だが、炒飯は汁気を飛ばしてぱらりと仕上げる型、中華丼はとろみのある餡をかける型という対比をなす"
+        }
+      ]
+    },
+    {
+      "slug": "subuta",
+      "body_ja": "## 何でできているか\n揚げた豚肉の衣はかりっと香ばしく、絡めた甘酢あんが表面をつやつやと覆う。一口かじると酸味が先に来て、続けてケチャップ由来の甘みと豚肉の脂のうまみが追いかけてくる。彩りに入るピーマンや玉ねぎのしゃきっとした食感が、とろみのあるあんに変化をつけているという。衣の厚みとあんの絡み具合のバランスが、店ごとの個性になっているという。\n## どう作るのか\n角切りにした豚肉に下味をつけて片栗粉をまぶし、油で二度揚げしてかりっと仕上げる。米酢とケチャップ、醤油を合わせた甘酢だれを片栗粉でとろみづけし、揚げた肉と炒めた野菜にからめて仕上げる。パイナップルを入れる店と入れない店に分かれ、家庭でも意見が割れる話題として語られることが多いという。二度揚げの温度差が、衣の食感を大きく左右するとされる。\n## なぜこの形になったのか\n一説によると、広東料理の古老肉には酢豚と違いパイナップルが使われることが多く、果物を料理に入れる発想が日本人になじみにくかったため、パイナップルを外した型が広まったとされる。かわりにケチャップで甘みと色をつける工夫が定着し、白飯によく合う濃い味付けとして中華食堂の定番になったと考えられている。果物を使うかどうかの論争は、今も食卓の話題として語り継がれているという。",
+      "body_en": "## What it's made of\nFried pork carries a crisp, fragrant coating, and the sweet-and-sour glaze leaves it glossy. The first bite brings tartness, then the sweetness of ketchup and the pork fat's savor follow. Crisp green pepper and onion are said to break up the thick glaze's texture.\n## How it's made\nCubed pork is marinated, dusted with potato starch, and double-fried until crisp. Rice vinegar, ketchup, and soy sauce are combined into a sauce thickened with a cornstarch slurry, then tossed with the fried pork and stir-fried vegetables. Shops split over whether to include pineapple, a question said to divide opinion at home tables too.\n## Why it took this shape\nOne account holds that Cantonese gulaorou often includes pineapple, unlike subuta, and that putting fruit into a savory dish didn't sit well with Japanese diners, so the pineapple was dropped. Ketchup is thought to have stepped in instead, adding sweetness and color, and the resulting strong, rice-friendly flavor settled into a diner staple.",
+      "sources": [
+        {
+          "title": "酢豚",
+          "url": "https://ja.wikipedia.org/wiki/酢豚",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "subuta",
+          "to_slug": "nikudango-amazu",
+          "relation_type": "兄弟",
+          "basis": "どちらも片栗粉でとろみをつけた甘酢あんをからめる料理で、酢豚は角切り肉、肉団子はひき肉を丸めた成形という違いを持つ"
+        }
+      ]
+    },
+    {
+      "slug": "ebi-chili",
+      "body_ja": "## 何でできているか\nつるりとしたえびの弾力を噛むと、まず赤いあんの甘みが広がり、そのあとに豆板醤のピリッとした辛さが控えめに追いかけてくる。ケチャップの色とコクがあんに厚みを与え、辛いだけの料理とは違う、白飯が進む甘辛さに仕立てられているという。赤いあんの照りが食欲をそそり、とろりとした口当たりがえびの弾力を引き立てるという。\n## どう作るのか\n下処理したえびを片栗粉をまぶして油通しし、にんにくとしょうが、豆板醤を炒めた香りにケチャップと鶏がらスープを合わせてあんを作る。えびを戻して手早くからめ、仕上げに溶き卵を落として口当たりをまろやかにする店もあるという。辛さの強い豆板醤を、ケチャップの甘みでどこまで和らげるかが店ごとの匙加減とされる。\n## なぜこの形になったのか\n一説によると、四川省出身の料理人が1958年ごろ東京で開いた店で、本場の「乾焼蝦仁」がかなり辛い料理だったのに対し、ケチャップや卵を加えて日本人の舌に合うよう作り替えたのが始まりと伝わる。辛味料理をそのまま出すのではなく、家庭の調味料に近いケチャップで橋渡しした工夫が、全国の中華食堂に広まる決め手になったと考えられている。",
+      "body_en": "## What it's made of\nThe shrimp's springy bite comes with the red sauce's sweetness first, doubanjiang's sharp heat trailing in afterward, kept mild. Ketchup gives the sauce its color and body, shaping a sweet-heat balance built to go with rice rather than heat for its own sake.\n## How it's made\nPrepped shrimp are dusted with potato starch and passed through hot oil, and a sauce is built from garlic, ginger, and doubanjiang fried fragrant, then combined with ketchup and chicken stock. The shrimp go back in for a quick toss, and some shops finish with beaten egg stirred in for a softer mouthfeel. How far ketchup's sweetness tones down the doubanjiang's heat is said to be each shop's own call.\n## Why it took this shape\nOne account holds that a chef born in Sichuan, at a restaurant he opened in Tokyo around 1958, reworked the region's ganshao xiaren — a considerably spicier dish in its original form — by adding ketchup and egg to suit Japanese taste. Bridging the gap with ketchup, a condiment already familiar in Japanese kitchens, rather than serving the dish as fiercely spicy as the original, is thought to be what let it spread to Chinese diners nationwide.",
+      "sources": [
+        {
+          "title": "四川飯店発祥！？エビチリの美味さの秘密",
+          "url": "https://note.com/sisen_hanten/n/n3abfed5259c2",
+          "publisher": "note（四川飯店）",
+          "accessed_at": "2026-09-10"
+        },
+        {
+          "title": "エビチリ・エビマヨは日本のお馴染み創作中華",
+          "url": "https://www.cookdoor.jp/chinese-food/dictionary/21226_china_026/",
+          "publisher": "Cookdoor",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "ebi-chili",
+          "to_slug": "ebi-mayo",
+          "relation_type": "兄弟",
+          "basis": "どちらも料理人が日本人向けに考案したとされる「創作中華」のえび料理で、片やケチャップベースの辛味あん、片やマヨネーズソースという違いを持つ"
+        }
+      ]
+    },
+    {
+      "slug": "ebi-mayo",
+      "body_ja": "## 何でできているか\n揚げたてのえびの衣はさくっと軽く、からめたソースはマヨネーズのコクと練乳のような甘みをまとう。かじるとまず甘みが先に立ち、そのあとにえび自体の弾力とかすかな塩気が追いかけてくる。中国の炒め物にはあまり見られない、洋風の甘いソースを合わせる組み合わせが際立っているという。衣の軽さとソースの甘さの対比が、この料理の持ち味とされる。\n## どう作るのか\nえびに衣をつけて油で揚げ、マヨネーズに練乳や砂糖、レモン汁などを合わせたソースを別に作って和える。揚げたてのタイミングでソースを絡めることで、衣のさくっとした食感を保つのがこつとされる。ソースの甘さや酸味の配合は店によって幅があり、テレビや料理番組を通じてレシピが広まった経緯もあるという。家庭で再現しやすい手順であることも、広まりを後押ししたとされる。\n## なぜこの形になったのか\n一説によると、1980年代に横浜中華街の老舗で働いていた広東料理人が、アメリカで食べたマヨネーズがけのえび料理に「あまりおいしくない」と感じ、広東料理の技法で作り直したのが始まりと伝わる。テレビでレシピが紹介されたことで、家庭でも作れる中華料理として急速に全国へ広まったと考えられている。本場の広東料理にはない、洋風の甘さを取り込む発想が独自の道を開いたという。",
+      "body_en": "## What it's made of\nFreshly fried shrimp keep a light, crisp coating, and the sauce clinging to them carries mayonnaise's richness with a condensed-milk sweetness. Sweetness comes first on the bite, then the shrimp's own springy bite and a faint salinity follow. Pairing a sweet, Western-style sauce with a stir-fried dish is rare in Chinese cooking, and that pairing is what stands out here.\n## How it's made\nShrimp are battered and fried, and a sauce made separately from mayonnaise, condensed milk, sugar, and lemon juice is tossed in. Coating the shrimp right after frying is said to be the trick to keeping the coating crisp. Sauces vary in sweetness and acidity by shop, and the recipe is said to have spread partly through television cooking programs.\n## Why it took this shape\nOne account holds that a Cantonese chef working at a long-established restaurant in Yokohama Chinatown in the 1980s found a mayonnaise-dressed shrimp dish he'd eaten in the United States 'not very good,' and remade it using Cantonese technique. Once the recipe was introduced on television, it's thought to have spread rapidly nationwide as a Chinese dish home cooks could make too.",
+      "sources": [
+        {
+          "title": "エビマヨ",
+          "url": "https://ja.wikipedia.org/wiki/エビマヨ",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-10"
+        },
+        {
+          "title": "【神奈川県】エビマヨの発祥の地と誕生秘話",
+          "url": "https://birth-place.com/mayo-shrimps/",
+          "publisher": "Birth-place.com",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "ebi-mayo",
+          "to_slug": "karaage",
+          "relation_type": "対比",
+          "basis": "どちらも揚げた具材にたれ・下味をからめる料理だが、から揚げは下味と衣の香ばしさで食べさせ、エビマヨはマヨネーズソースの絡め方で個性を出すという設計の違いを持つ"
+        }
+      ]
+    },
+    {
+      "slug": "mabo-dofu",
+      "body_ja": "## 何でできているか\n赤いあんの表面に、挽き肉の脂がところどころ浮く。ひとさじ口に運ぶと豆腐のなめらかさのあとに、豆板醤の辛さとみそに似た甜麺醤のコクが追いかけてくる。本場のように舌がしびれる花椒の辛さは控えめで、ご飯にかけても食べやすい辛さに調整されているという。挽き肉の脂と豆腐の水分のバランスが、あんの濃度を左右するとされる。\n## どう作るのか\n豆腐を賽の目に切って下茹でし、挽き肉を豆板醤とにんにく、しょうがで炒めてから醤油や八丁味噌などで味を調える。豆腐を加えて煮込み、水溶き片栗粉でとろみをつけて仕上げる。本場では花椒を効かせるところを唐辛子で辛さを出し、牛肉ではなく豚肉を使う型が日本では一般的とされる。仕上げに山椒を少量添えて本場の香りを補う店もあるという。\n## なぜこの形になったのか\n一説によると、四川省出身の料理人が日本人の食習慣に合わせ、花椒の代わりに唐辛子を、豆板醤や甜麺醤の一部を八丁味噌で代用して辛さを抑えたのが日本の麻婆豆腐の始まりと伝わる。その後、後継の料理人が牛肉を豚肉に置き換えたことも重なり、本場とは別の道をたどって定着したと考えられている。テレビの料理番組を通じて家庭にも広まり、合わせ調味料の定番にもなったという。",
+      "body_en": "## What it's made of\nFat from the ground meat pools here and there across the red sauce. A spoonful brings the tofu's smoothness first, then doubanjiang's heat and the miso-like depth of sweet bean paste. The tongue-numbing heat of Sichuan peppercorn that marks the original is toned down, adjusted to a level easy to eat over rice.\n## How it's made\nTofu is cubed and parboiled; ground meat is fried with doubanjiang, garlic, and ginger, then seasoned with soy sauce or Hatcho miso. The tofu goes in to simmer, and a cornstarch slurry finishes the thickening. Where the original leans on Sichuan peppercorn, the Japanese version is said to lean on chili for heat, and pork rather than beef is now the common choice.\n## Why it took this shape\nOne account holds that a chef born in Sichuan, adapting to Japanese eating habits, swapped chili for Sichuan peppercorn and substituted some of the doubanjiang and sweet bean paste with Hatcho miso to soften the heat — the start of Japan's mabo dofu. A later cook in that lineage is said to have swapped beef for pork as well, and the dish is thought to have settled into a form of its own, apart from the original.",
+      "sources": [
+        {
+          "title": "麻婆豆腐、回鍋肉、青椒肉絲…「四川料理の魂」",
+          "url": "https://www.pandaview.net/article/detail/9580d0ea-ebac-454e-a800-ecddbd6f6603",
+          "publisher": "PandaView",
+          "accessed_at": "2026-09-10"
+        },
+        {
+          "title": "四川飯店 ヒストリー",
+          "url": "https://www.sisen.jp/history/",
+          "publisher": "四川飯店",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "mabo-dofu",
+          "to_slug": "mabo-nasu",
+          "relation_type": "派生",
+          "basis": "麻婆茄子は、四川本来の魚香茄子とは別に、麻婆豆腐と同じ豆板醤・甜麺醤ベースの調味を茄子に応用して生まれたと複数の資料が指摘する"
+        }
+      ]
+    },
+    {
+      "slug": "mabo-nasu",
+      "body_ja": "## 何でできているか\n油を吸ってとろりと柔らかくなった茄子に、挽き肉のうまみを含んだ赤いあんがまとわりつく。ひと口噛むと茄子の甘みが先に感じられ、そのあとに豆板醤の辛さとみそに似た甜麺醤のコクが追いかけてくる。本場の魚香茄子のような泡辣椒由来の独特な香りはなく、麻婆豆腐に近い味の輪郭を持つという。茄子が油を吸うほどにコクが増す点も、この料理の魅力とされる。\n## どう作るのか\n茄子を油でしっかり揚げ焼きにして水分を抜き、別に炒めた挽き肉と豆板醤、甜麺醤のたれに合わせて煮からめる。片栗粉でとろみをつけ、茄子に味をよくしみ込ませるのがこつとされる。本場の魚香茄子が使う泡辣椒（唐辛子とふなの塩漬け）は用いず、麻婆豆腐と共通の調味料で仕立てる点が日本の型の特徴という。茄子を素揚げにするか揚げ焼きにするかでも、仕上がりの油量が変わるという。\n## なぜこの形になったのか\n一説によると、1980年代に合わせ調味料が食品会社から相次いで発売されたことで、家庭でも麻婆豆腐と同じ手順で作れる麻婆茄子が急速に広まったと伝わる。本場の魚風味を再現するより、なじみのある麻婆豆腐の味を茄子に応用するほうが日本の台所に受け入れられやすかったと考えられている。麻婆豆腐の弟分として、今も中華食堂の定番に名を連ねているという。",
+      "body_en": "## What it's made of\nEggplant, soft and glossy after soaking up oil, is coated in a red sauce carrying the savor of ground meat. The eggplant's sweetness comes first on the bite, then doubanjiang's heat and sweet bean paste's miso-like depth follow. It lacks the distinctive tang of pickled chili-and-fish that marks the original yuxiang qiezi, landing closer in flavor to mabo dofu instead.\n## How it's made\nEggplant is pan-fried hard enough to drive off moisture, then simmered in a separately fried sauce of ground meat, doubanjiang, and sweet bean paste. A cornstarch thickening and letting the eggplant fully take on the flavor are said to be the keys. Unlike yuxiang qiezi's pickled chili-and-fish base, the Japanese version shares its seasoning directly with mabo dofu.\n## Why it took this shape\nOne account holds that once food companies began releasing packaged seasoning mixes in the 1980s, mabo nasu — made at home by the same steps as mabo dofu — spread quickly. Applying the already-familiar flavor of mabo dofu to eggplant, rather than recreating the original's fish-forward taste, is thought to have been the easier fit for Japanese kitchens.",
+      "sources": [
+        {
+          "title": "麻婆茄子",
+          "url": "https://ja.wikipedia.org/wiki/麻婆茄子",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "mabo-nasu",
+          "to_slug": "subuta",
+          "relation_type": "対比",
+          "basis": "同じ甘辛いとろみあんを使うが、麻婆茄子は豆板醤・甜麺醤中心の四川系の味、酢豚はケチャップ中心の日本アレンジという系統の違いを持つ"
+        }
+      ]
+    },
+    {
+      "slug": "hoikoro",
+      "body_ja": "## 何でできているか\n強火で炒めたキャベツはしんなりしながらも歯ごたえを残し、豚肉の脂と甜麺醤の甘辛いたれが絡む。ひと口かじると味噌に似たコクが先に来て、そのあとに豆板醤のピリッとした辛さが追いかけてくる。本場のような葉ニンニクの独特な香りはなく、キャベツの甘みが全体を丸くまとめているという。強い火力で一気に炒めることが、水っぽくならない決め手とされる。\n## どう作るのか\n豚肉をゆでてから薄切りにし、油で炒めて脂を軽く落とす「回鍋」の下処理を経て、キャベツとともに甜麺醤・豆板醤で強火に炒め合わせる。本場では葉ニンニクを使うところを、日本では入手しやすいキャベツに置き換えるのが一般的とされ、キャベツの水分量によって仕上がりの食感が変わるという。下ゆでした豚肉を薄切りにする一手間が、脂っこさを抑えるとされる。\n## なぜこの形になったのか\n一説によると、四川省出身の料理人が、本場で使う葉ニンニクが日本では手に入りにくかったため、代わりに安価でいつでも手に入るキャベツを使って広めたのが日本の回鍋肉の始まりと伝わる。食材の制約を逆手に取った工夫が、そのまま定番の型として全国の中華食堂に定着したと考えられている。白飯との相性の良さが、家庭の献立にも取り入れられる理由になったという。",
+      "body_en": "## What it's made of\nCabbage stir-fried over high heat goes limp but keeps some bite, coated in pork fat and a sweet-savory sweet bean paste glaze. The first bite brings a miso-like depth, then doubanjiang's sharp heat follows. It lacks the original's distinctive garlic-stem aroma; cabbage's sweetness rounds the dish out instead.\n## How it's made\nPork is boiled, sliced thin, and lightly pan-fried to render some fat — the 'twice-cooked' step the dish is named for — then stir-fried hard with cabbage, sweet bean paste, and doubanjiang. Where the original calls for leafy garlic stems, cabbage is the common stand-in in Japan, and how much water the cabbage holds shapes the final texture.\n## Why it took this shape\nOne account holds that a chef from Sichuan, unable to easily source the leafy garlic stems used in the original, spread this dish in Japan using cabbage instead — cheap and always on hand. Turning a limited ingredient supply into a workaround is thought to be exactly what let this become a standard at Chinese diners nationwide.",
+      "sources": [
+        {
+          "title": "回鍋肉とは？四川伝統料理の魅力を解説",
+          "url": "https://chefrepi.com/magazine/culinary-dictionary/twice-cooked-pork-sichuan-vs-japanese-style/",
+          "publisher": "Chef Repi",
+          "accessed_at": "2026-09-10"
+        },
+        {
+          "title": "コクと甘み、そしてピリ辛の調和！四川の郷土料理回鍋肉",
+          "url": "https://www.cookdoor.jp/chinese-food/dictionary/21227_china_027/",
+          "publisher": "Cookdoor",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "hoikoro",
+          "to_slug": "chinjaoroosu",
+          "relation_type": "兄弟",
+          "basis": "ともに中国の郷土料理が、日本の中華食堂で牛肉やキャベツなど入手しやすい食材に置き換えられて定着したと複数の記事が指摘する"
+        }
+      ]
+    },
+    {
+      "slug": "chinjaoroosu",
+      "body_ja": "## 何でできているか\n細切りにされたピーマンとたけのこ、肉が皿の上で色よく並ぶ。噛むとピーマンのほろ苦さが先に立ち、そのあとにオイスターソースのコクと肉のうまみが追いかけてくる。中国では「肉」といえば豚肉を指すため本場は豚肉が基本とされるが、日本では牛肉を使う店が多いという違いがある。オイスターソースの香りが、細切りの具材全体をまとめ上げるという。\n## どう作るのか\n肉とたけのこ、ピーマンをそれぞれ細切りにそろえ、下味をつけた肉を片栗粉をまぶして油通ししてから、醤油・酒・オイスターソースで手早く炒め合わせる。食材の太さをそろえることが食感を均一にする決め手とされ、ピーマンの色味を保つために炒める時間を短くする店が多いという。下味の濃さと油通しの時間が、肉のやわらかさを左右するとされる。\n## なぜこの形になったのか\n一説によると、中国の郷土料理が日本に伝わる過程で、アメリカ式の中華料理の影響も受けながら、牛肉を使う型が広まっていったとされる。ピーマンやたけのこなど年間を通じて手に入りやすい食材を組み合わせたことも、全国の中華食堂で定番になった理由の一つと考えられている。牛肉を使う型は、アメリカ経由の中華料理の影響を映しているとも言われる。",
+      "body_en": "## What it's made of\nShredded green pepper, bamboo shoot, and meat sit in bright rows on the plate. The pepper's faint bitterness comes first on the bite, then oyster sauce's depth and the meat's savor follow. In Chinese, 'meat' alone means pork, so the original is said to use pork as its base — Japan more often uses beef instead.\n## How it's made\nMeat, bamboo shoot, and green pepper are each cut into matching shreds; the marinated meat is dusted with potato starch and passed through hot oil, then stir-fried fast with soy sauce, sake, and oyster sauce. Matching the thickness of each ingredient is said to be the key to even texture, and many shops keep the stir-fry brief to hold the pepper's color.\n## Why it took this shape\nOne account holds that as this regional Chinese dish reached Japan, it picked up some influence from American-style Chinese cooking along the way, and the beef version spread from there. Pairing it with ingredients available year-round, like green pepper and bamboo shoot, is also thought to be part of why it became a fixture at Chinese diners nationwide.",
+      "sources": [
+        {
+          "title": "青椒肉絲",
+          "url": "https://ja.wikipedia.org/wiki/青椒肉絲",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "chinjaoroosu",
+          "to_slug": "chahan",
+          "relation_type": "対比",
+          "basis": "中華料理店の定番だが、青椒肉絲は炒め物のおかず、炒飯は主食としての一皿という役割の違いを持つ"
+        }
+      ]
+    },
+    {
+      "slug": "kani-tama",
+      "body_ja": "## 何でできているか\n箸を入れるとふわりと崩れる卵の中から、ほぐした蟹の身と刻んだねぎがこぼれる。全卵を使うため断面は鮮やかな黄色で、中国の「芙蓉蟹」が卵白だけを使う白い仕上げとは対照的だという。かじると卵のやさしい甘みのあとに、蟹の風味とだしの効いたあんの塩気が追いかけてくる。ふんわりとした口当たりが、あんのとろみと重なり合って余韻を残すという。\n## どう作るのか\n溶いた卵に蟹の身とねぎ、しいたけなどを加え、油を引いた鍋で半熟を保ちながら大きく焼き上げる。醤油だしをベースにしたあんを別に作り、片栗粉でとろみをつけてから卵の上にかける。卵を焼きすぎず、ふんわりとした食感を保つ火加減が店の技量とされる。蟹の身をたっぷり使うか控えめにするかでも、店の個性が分かれるという。\n## なぜこの形になったのか\n一説によると、中国の卵料理書には戦前から蟹入りの卵料理が数多く記載されているが、卵白だけを使う「芙蓉蟹」が基本形だったという。日本では手間を省いて全卵を使う型が広まり、その黄色い卵をご飯にのせて甘酢あんをかける発想が、のちに天津飯へとつながったと考えられている。単品のおかずとしても、丼の具としても扱われる汎用性の高さが特徴という。",
+      "body_en": "## What it's made of\nChopsticks break the egg apart into a soft fold, spilling out shredded crab meat and chopped scallion. Made with whole egg, the cut face is a bright yellow, in contrast to China's furong xie, said to use only egg whites for a white finish. The bite brings the egg's gentle sweetness first, then crab and the salt of a dashi-based sauce follow.\n## How it's made\nBeaten egg is combined with crab meat, scallion, and shiitake, then cooked in an oiled pan, kept soft, and folded into a large shape. A soy-dashi sauce is made separately, thickened with cornstarch, and poured over the egg. Not overcooking the egg, to keep it soft, is said to be where a shop's skill shows.\n## Why it took this shape\nOne account holds that prewar Chinese cookbooks in Japan already listed many crab-and-egg dishes, with the whites-only furong xie as the standard form. In Japan, a simpler whole-egg version is said to have spread instead, and the idea of laying that yellow egg over rice with a sweet-and-sour sauce is thought to have later led to tenshinhan.",
+      "sources": [
+        {
+          "title": "天津飯の起源―定説を疑う―",
+          "url": "https://www.jstage.jst.go.jp/article/kjoho/3/1/3_52/_pdf",
+          "publisher": "日本国際情報学会『Kokusai-Joho』3巻1号",
+          "accessed_at": "2026-09-10"
+        },
+        {
+          "title": "天津飯は日本発祥！カニ玉との違いとは",
+          "url": "https://www.cookdoor.jp/chinese-food/dictionary/21228_china_028/",
+          "publisher": "Cookdoor",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kani-tama",
+          "to_slug": "chuka-don",
+          "relation_type": "対比",
+          "basis": "かに玉は単品のおかず、中華丼はあんをご飯にかけた丼という、同じ中華由来のあんかけ料理でも供し方が異なる"
+        }
+      ]
+    },
+    {
+      "slug": "harumaki",
+      "body_ja": "## 何でできているか\n揚げたての皮はぱりんと音を立てて割れ、中からたけのこのしゃきしゃきとした歯ごたえと、豚肉と椎茸の香りが立つ肉だねが現れる。皮が薄いぶん油の吸いは軽く、中国の厚めの皮を使う型に比べてさくっとした軽い食感に仕上がるとされる。噛むたびに響く音の軽さが、揚げたてであることを教えてくれるという。具から立ちのぼる湯気の香りも食欲をそそる要素とされる。\n## どう作るのか\n豚ひき肉やたけのこ、しいたけ、にんじんなどを細かく刻んで炒め、片栗粉でまとめた具を薄い皮で棒状に巻き、油で色よく揚げる。具の水分が多いと皮が破れやすいため、あらかじめ汁気を飛ばして炒めておくのがこつとされる。皮の厚みと巻き方の締め方で、店ごとの食感の違いが生まれるという。揚げ油の温度管理も、皮の色づきを左右する要素とされる。\n## なぜこの形になったのか\n一説によると、広東の点心である春巻きが日本に伝わる過程で、飲茶の一品というより酒の肴や弁当のおかずとして食べられるようになり、持ち運びやすく崩れにくい薄い皮の型が好まれるようになったと考えられている。餃子と同様、家庭や食堂の献立に取り入れられる中で、日本独自の軽い食感に整えられていったという。おせち料理の一品として扱われる地域もあると伝わる。",
+      "body_en": "## What it's made of\nA freshly fried wrapper snaps with a crisp sound, revealing bamboo shoot's crunch and a filling fragrant with pork and shiitake. The thin skin takes on less oil, said to give a lighter, crisper bite than the thicker wrapper used in China.\n## How it's made\nGround pork, bamboo shoot, shiitake, and carrot are chopped fine, stir-fried, bound with cornstarch, rolled into a thin wrapper, and fried to a rich color. Too much moisture in the filling tears the wrapper, so cooking off the liquid beforehand is said to be the trick. Wrapper thickness and how tightly it's rolled account for the texture differences between shops.\n## Why it took this shape\nOne account holds that as this Cantonese dim sum item reached Japan, it came to be eaten less as a yum cha course and more as a bar snack or bento side, favoring a thin wrapper that travels well and holds together. Folded into home and diner menus much like gyoza, it's thought to have been refined into its own light, crisp texture along the way.",
+      "sources": [
+        {
+          "title": "春巻き",
+          "url": "https://ja.wikipedia.org/wiki/春巻き",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "harumaki",
+          "to_slug": "gyoza",
+          "relation_type": "兄弟",
+          "basis": "どちらも中国の点心を起源に持ち、日本では皮を薄く仕立てて揚げる・焼くことで独自の香ばしい食感に整えられた点心料理として定着した"
+        }
+      ]
+    },
+    {
+      "slug": "nikudango-amazu",
+      "body_ja": "## 何でできているか\n一口大の団子はかりっと揚がった表面に、甘酢あんがつやつやと絡む。噛むとまず酢の酸味とケチャップの甘みが広がり、そのあとに挽き肉のうまみとしょうがの香りが追いかけてくる。中国の獅子頭のようなテニスボール大の蒸し団子とは違い、小ぶりで冷めても食べやすい型に整えられているという。一口で頬張れる大きさが、弁当のおかずとして重宝される理由とされる。\n## どう作るのか\n挽き肉にしょうがや玉ねぎ、片栗粉を加えて丸め、油で揚げて中までしっかり火を通す。米酢とケチャップ、醤油を合わせた甘酢だれを別に煮立て、水溶き片栗粉でとろみをつけてから揚げた団子にからめる。冷めても固くなりにくいよう、揚げすぎない火加減が求められるという。玉ねぎのみじん切りを加えることで、冷めても硬くなりにくくなるという。\n## なぜこの形になったのか\n一説によると、蒸して作る中国の大ぶりな肉団子に対し、日本では揚げてあんをからめる酢豚に近い調理法が好まれ、給食や弁当のおかずとして小ぶりに整えられていったと考えられている。食品会社が手軽な冷凍・レトルト製品として売り出したことも、家庭の定番として広まった一因という。運動会や遠足の弁当に欠かせない一品として親しまれてきたとされる。",
+      "body_en": "## What it's made of\nBite-size balls, fried to a crisp surface, are coated in a glossy sweet-and-sour glaze. Vinegar's tartness and ketchup's sweetness come first on the bite, then the ground meat's savor and ginger's aroma follow. Unlike China's tennis-ball-sized steamed lion's-head meatballs, these are small and stay easy to eat even cold.\n## How it's made\nGround pork is mixed with ginger, onion, and potato starch, rolled into balls, and deep-fried through. A separate sweet-and-sour sauce of rice vinegar, ketchup, and soy sauce is brought to a boil, thickened with a cornstarch slurry, and tossed with the fried balls. Not overfrying, so they stay soft even after cooling, is said to matter.\n## Why it took this shape\nOne account holds that in place of China's large steamed meatballs, Japan favored a fried, sauce-glazed method closer to subuta, and shaped it small for school lunches and bento boxes. Food companies selling it as an easy frozen or retort product is also thought to be part of why it became a household staple.",
+      "sources": [
+        {
+          "title": "肉団子",
+          "url": "https://ja.wikipedia.org/wiki/肉団子",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "nikudango-amazu",
+          "to_slug": "happosai",
+          "relation_type": "対比",
+          "basis": "同じ甘酢・とろみ系の中華由来料理だが、肉団子は揚げてからあんをからめる型、八宝菜は具材を炒め合わせてとろみをつける型という違いを持つ"
+        }
+      ]
+    },
+    {
+      "slug": "tantanmen",
+      "body_ja": "## 何でできているか\n丼に鼻を近づけると、ごまの香ばしさと辣油の刺激が先に立ち、そのあとに挽き肉そぼろの脂とうまみが追いかけてくる。中国の担担面が小さな碗に少量のたれを和えるだけの軽食であるのに対し、日本のものはスープがたっぷりと張られ、これ一杯で食事が完結する量に仕立てられているという。花椒を効かせる店とごまの香りを前面に出す店とで、印象が大きく変わるという。\n## どう作るのか\n炒めた挽き肉のそぼろに、ごまだれと辣油、醤油だしを合わせたスープを注ぎ、茹でた中華麺を沈める。本場の担担面が汁を持ち歩く必要のない和え麺として生まれたのに対し、日本では丼一杯のスープ麺として作り替えられ、ラー油の量やごまの配合で辛さと香りの強さを店ごとに調整するという。白ごまと黒ごまを合わせて香りに深みを出す店もあるとされる。\n## なぜこの形になったのか\n一説によると、四川省出身の料理人が日本人向けに改良した作り方を紹介したことで、汁なしの軽食だった担担面が、スープをたっぷり張った一杯の麺料理として各地に広まっていったと伝わる。天秤棒で売り歩くための「汁なし」という本場の制約が、日本では成り立たなくなったことも形を変えた理由の一つと考えられている。汁なしの本場の型を再現する店も近年は増えてきているという。",
+      "body_en": "## What it's made of\nLean in over the bowl and sesame's toasty aroma and chili oil's sting hit first, followed by the fat and savor of the minced pork topping. China's dandan noodles are a light snack, a small amount of sauce tossed in a small bowl; the Japanese version is said to come with a full measure of soup, built as a complete meal in one bowl.\n## How it's made\nA soup combining sesame sauce, chili oil, and a soy-based stock is poured over stir-fried minced pork, and boiled noodles are settled in. Where the original was a tossed, brothless dish born of not having to carry soup around, the Japanese version is rebuilt as a full bowl of soup noodles, with the balance of chili oil and sesame setting each shop's own level of heat and aroma.\n## Why it took this shape\nOne account holds that once a chef from Sichuan introduced a version reworked for Japanese taste, the originally brothless dandan noodles spread nationwide as a full bowl of soup noodles instead. The original's 'no broth' constraint, born of being carried and sold from a shoulder pole, is thought to no longer have applied in Japan — one reason the shape changed.",
+      "sources": [
+        {
+          "title": "担々麺",
+          "url": "https://ja.wikipedia.org/wiki/担々麺",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tantanmen",
+          "to_slug": "tanmen",
+          "relation_type": "対比",
+          "basis": "名前は似ているが別系統で、担々麺はごまと辣油をベースにした辛い挽き肉だれ、タンメンは塩味の澄んだ野菜スープという違いを持つ"
+        }
+      ]
+    },
+    {
+      "slug": "taiwan-mazesoba",
+      "body_ja": "## 何でできているか\n丼の中で、にんにくと唐辛子を効かせた台湾ミンチが麺にべったりとからみつく。真ん中にのった卵黄を崩すと辛さがまろやかになり、刻みねぎとニラの香りが鼻に抜ける。スープを張らないぶん、辛さと肉の脂の存在感がそのまま舌に届くという。混ぜるほどに味がまとまり、最後まで濃さが変わらないのも特徴とされる。鰹節の香りがふわりと立ち、全体の風味に奥行きを添えるという。\n## どう作るのか\nにんにくと唐辛子、鷹の爪をきかせた挽き肉だれ「台湾ミンチ」を別に炒め、茹でて水気をよく切った中華麺に直接からめる。卵黄と刻みねぎ、ニラ、鰹節などを盛り、食べる直前に大きく混ぜ合わせる。仕上げに残った麺とたれをご飯にかけて食べる「追い飯」までが一連の食べ方とされる。にんにくの量を選べる店も多く、好みに応じて辛さを調整できるという。\n## なぜこの形になったのか\n一説によると、名古屋の店主が名古屋発祥の台湾ラーメンを作ろうとして台湾ミンチを仕込んだものの、当時のスープに合わず断念しかけたところ、アルバイトの「茹でた麺にかけてみては」という一言がきっかけで生まれたと伝わる。廃棄寸前だった試作が、試行錯誤の末に汁なしの新しい麺料理として定着したという。今では全国に系列店が広がり、ご当地グルメとして定着しているという。",
+      "body_en": "## What it's made of\nIn the bowl, garlic-and-chili-laced Taiwan mince clings thick to the noodles. Breaking the egg yolk on top softens the heat, and chopped scallion and chives cut through with aroma. With no broth to dilute it, the heat and the meat's fat reach the tongue directly.\n## How it's made\nTaiwan mince — ground pork fried hard with garlic, chili, and dried red pepper — is made separately and tossed straight onto boiled noodles drained well of water. Egg yolk, chopped scallion, chives, and bonito flakes go on top, mixed together just before eating. Pouring the leftover noodles and sauce over a bowl of rice at the end, called 'oi-meshi,' is said to be part of the standard way to finish it.\n## Why it took this shape\nOne account holds that a Nagoya shop owner, trying to make Taiwan ramen — itself a Nagoya invention — prepared Taiwan mince that didn't work with the broth he had and was about to give up on it, when a part-time staffer suggested pouring it over boiled noodles instead. A batch on the verge of being thrown out is said to have become, after more trial and error, a new brothless noodle dish in its own right.",
+      "sources": [
+        {
+          "title": "台湾まぜそば",
+          "url": "https://ja.wikipedia.org/wiki/台湾まぜそば",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-10"
+        },
+        {
+          "title": "麺屋はなび高畑本店（元祖台湾まぜそば）新なごやめし総選挙 準グランプリ",
+          "url": "https://www.walkerplus.com/article/43377/",
+          "publisher": "Walkerplus",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "taiwan-mazesoba",
+          "to_slug": "taiwan-ramen",
+          "relation_type": "派生",
+          "basis": "名古屋発祥の台湾ラーメンを再現しようとして生まれた「台湾ミンチ」が起点になったと複数の記事が伝える"
+        }
+      ]
+    },
+    {
+      "slug": "chuka-soba-tokyo",
+      "body_ja": "## 何でできているか\n澄んだ醤油スープの表面に、脂の膜がうっすらと光る。すすると鶏や豚のだしの香りが先に来て、そのあとに醤油の塩気が輪郭を締める。太めの縮れ麺を使う店が多い今のラーメンに比べ、細くまっすぐな麺を合わせる型が多く、あっさりとした後味が残るという。脂の膜が薄いぶん、最後の一口まで味の輪郭がぼやけにくいという。\n## どう作るのか\n鶏がらや豚骨を長時間煮出しただしに、醤油だれを合わせて澄んだスープに仕立てる。麺は中華麺の製法にならいながらも、加水を控えて細く仕上げる型が多いとされる。チャーシューやメンマ、なるとといった具は少なめに、スープと麺の味わいを主役にする組み立てが特徴という。だしを引く時間の長さが、店ごとの香りの違いを生むとされる。\n## なぜこの形になったのか\n一説によると、1910年に浅草で創業した中国料理店が、庶民でも入りやすい価格でラーメンやワンタンを出し、東京の醤油ラーメンの草分けになったと伝わる。当時「中華そば」と呼ばれていた名残が今も一部の店に受け継がれ、その後各地で枝分かれしていったご当地ラーメンの源流の一つに位置づけられているという。今も「中華そば」の名を守る店が、当時の味わいを伝えているという。",
+      "body_en": "## What it's made of\nA thin film of fat catches the light on a clear soy-sauce broth. The slurp brings chicken-and-pork stock aroma first, soy sauce's salt sharpening the edges after. Compared to today's ramen, often built on thick curly noodles, this style leans toward thin, straight noodles and a cleaner finish.\n## How it's made\nA long-simmered chicken-and-pork-bone stock is combined with a soy-sauce tare into a clear broth. The noodles follow standard Chinese-noodle methods but are often made thin, with less water worked into the dough. Toppings — chashu, bamboo shoots, fish cake — are kept light, letting the broth and noodles carry the dish.\n## Why it took this shape\nOne account holds that a Chinese restaurant opened in Asakusa in 1910 served ramen and wonton at prices ordinary people could afford, becoming the pioneer of Tokyo's soy-sauce ramen. The name 'chuka soba,' used at the time, is said to survive at some shops today, and the style is placed as one root of the regional ramen styles that later branched out across the country.",
+      "sources": [
+        {
+          "title": "来々軒",
+          "url": "https://ja.wikipedia.org/wiki/来々軒",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "chuka-soba-tokyo",
+          "to_slug": "hokkaido-ramen",
+          "relation_type": "兄弟",
+          "basis": "来々軒（浅草、1910年創業）が『東京ラーメン・醤油ラーメンの草分け』とされ、全国のご当地ラーメンの源流の一つに位置づけられているという記述に基づく"
+        }
+      ]
+    },
+    {
+      "slug": "kanton-men",
+      "body_ja": "## 何でできているか\n麺の上にとろりとした餡がゆっくりと沈み込み、湯気とともに醤油とだしの香りが立つ。豚肉やたけのこ、白菜、うずらの卵などが層になっており、ひとすくいごとに違う具が現れる。あんの熱でスープが冷めにくく、最後まで熱いまま食べられるのも特徴とされる。とろみの強さが、麺とスープをひとつにまとめる役割を果たしているという。\n## どう作るのか\n豚肉と数種の野菜を強火で炒め、鶏がらスープと醤油、塩で味を調えてから水溶き片栗粉でとろみをつける。別に茹でておいたラーメンの麺にこの餡をかけて仕上げる。中華丼と同じ餡を使う店も多く、丼にするか麺にかけるかで名前が分かれているとされる。野菜の水分量によって、あんの濃度を都度調整する店もあるという。うずらの卵やいかを加えて具を豪華にする店もあると伝わる。\n## なぜこの形になったのか\n一説によると、中華丼や五目あんかけ焼きそばと同じく、とろみをつけた餡をかけるという型そのものが日本で独自に発展したもので、中国の広東省には広東麺に対応する料理は存在しないとされる。異国の地名を冠しながら実際には日本生まれという例は、中華料理の中でもいくつか見られるという。名前の由来をたどると、日本の中華食堂の想像力の豊かさが見えてくるという。",
+      "body_en": "## What it's made of\nA thick gravy settles slowly over the noodles, its steam carrying soy sauce and stock. Pork, bamboo shoot, napa cabbage, and quail egg sit layered through it, a different ingredient turning up with each spoonful. The gravy's heat is said to keep the dish hot down to the last bite.\n## How it's made\nPork and several vegetables are stir-fried over high heat, seasoned with chicken stock, soy sauce, and salt, then thickened with a cornstarch slurry. This gravy is poured over separately boiled ramen noodles. Many shops use the same gravy as chuka-don, the name simply splitting depending on whether it's served over rice or over noodles.\n## Why it took this shape\nOne account holds that, like chuka-don and gomoku ankake yakisoba, the thickened-gravy format itself developed independently in Japan, and no dish matching kanton men is said to exist in Guangdong. Carrying a foreign place name while actually being a Japanese invention is a pattern seen in a few other Chinese-derived dishes as well.",
+      "sources": [
+        {
+          "title": "八宝菜",
+          "url": "https://ja.wikipedia.org/wiki/八宝菜",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kanton-men",
+          "to_slug": "nagasaki-champon",
+          "relation_type": "対比",
+          "basis": "どちらも具だくさんの麺料理だが、広東麺は中国の広東省に対応する料理がなく日本で生まれたとされる点で、長崎で福建料理を土台に生まれたちゃんぽんとは成り立ちが異なる"
+        }
+      ]
+    },
+    {
+      "slug": "gomoku-ankake-yakisoba",
+      "body_ja": "## 何でできているか\n揚げ焼きにした麺は表面がぱりっと香ばしく、そこにとろみのある餡がかかるとじゅわりと音を立てて麺がしんなりし始める。かりっとした部分としんなりした部分が一皿の中に同居し、噛むごとに違う食感が代わる代わる現れるのが楽しみ方とされる。皿の縁に寄った麺ほど餡がよく染みるため、混ぜながら食べる楽しみもあるという。\n## どう作るのか\n茹でた麺を油できつね色に揚げ焼きにし、別に豚肉やえび、白菜、にんじんなどを炒めて鶏がらスープと醤油でとろみあんを作る。麺を皿に盛ってから餡をかけ、酢を添えて味の変化をつける店もあるという。麺の揚げ加減と餡の粘度のバランスが、店ごとの個性になっている。酢を効かせることで、脂っこさをさっぱりと感じさせる工夫もあるという。\n## なぜこの形になったのか\n一説によると、中華丼や広東麺と同じ餡かけの発想を、汁のある麺ではなく揚げた麺にかける形に応用したのが五目あんかけ焼きそばの始まりと考えられている。中国の広東省に対応する料理は見当たらないとされ、具材を炒めて餡にとじ込めるという日本の中華食堂の型が、麺の食感を変えながら枝分かれしていったとみられている。",
+      "body_en": "## What it's made of\nPan-fried noodles turn crisp and fragrant on the surface, and where the thick gravy lands, a soft hiss marks the noodles starting to go limp. Crisp patches sit alongside softened ones on the same plate, a different texture turning up bite to bite.\n## How it's made\nBoiled noodles are pan-fried in oil to a golden crisp, while pork, shrimp, napa cabbage, and carrot are stir-fried separately and thickened into a gravy with chicken stock and soy sauce. The gravy is poured over the plated noodles, and some shops offer vinegar on the side for a change of flavor. The balance between how crisp the noodles stay and how thick the gravy runs marks each shop's own style.\n## Why it took this shape\nOne account holds that the same thickened-gravy idea behind chuka-don and kanton men was applied here to fried noodles instead of soup noodles, and that's thought to be how this dish began. No matching dish is said to exist in Guangdong, and the Japanese-diner pattern of sealing stir-fried ingredients into a gravy is thought to have branched out across different noodle textures from there.",
+      "sources": [
+        {
+          "title": "八宝菜",
+          "url": "https://ja.wikipedia.org/wiki/八宝菜",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "gomoku-ankake-yakisoba",
+          "to_slug": "sara-udon",
+          "relation_type": "兄弟",
+          "basis": "どちらも炒めた麺にとろみのある五目あんをかける型で、細麺を揚げて仕立てる長崎の皿うどんと、太めの中華麺を揚げ焼きにする五目あんかけ焼きそばという、麺の違いで枝分かれしたとみられる"
+        }
+      ]
+    },
+    {
+      "slug": "chashu",
+      "body_ja": "## 何でできているか\n箸を入れるとほろりとほどける柔らかさで、断面には醤油だれの色がしっとりと染み込んでいる。焼き目の香ばしさよりも、長く煮込んだ肉の脂とだしの甘みが先に立つのが特徴とされる。中国の叉焼が炙り焼きの香ばしさで勝負するのとは、味の輪郭が違うという。とろけるような柔らかさが、噛むごとにスープの旨みと重なり合うという。\n## どう作るのか\n豚のばら肉やもも肉を巻いて形を整え、醤油や酒、砂糖を合わせただしでとろ火のまま長時間煮込む。煮汁がそのままラーメンのスープの一部に使われることも多く、煮る時間や火加減で肉の柔らかさが変わるとされる。表面をあぶって香ばしさを足す店もあるが、基本は煮込みで仕上げる型が主流という。煮込み時間が長いほど、肉の繊維がほどけて柔らかくなるとされる。\n## なぜこの形になったのか\n一説によると、中国式の叉焼が炙り焼きの窯を必要とするのに対し、日本のラーメン店では大きな鍋でスープと一緒に煮込むほうが手間も設備も少なく済んだため、煮豚の型が広まっていったと考えられている。スープの支度と具材の仕込みを一つの鍋でまかなえる合理性が、ラーメンの具として定着した理由の一つとされる。地域やラーメンの系統によって、バラ肉ともも肉を使い分ける店もあるという。",
+      "body_en": "## What it's made of\nChopsticks pull it apart with a soft give, the cut face soaked through with the color of a soy-based sauce. Rather than the fragrance of a seared surface, it's the fat and sweetness of long-simmered meat that comes first, a different flavor profile from China's char siu, built to show off the char of roasting.\n## How it's made\nPork belly or leg is rolled into shape and simmered low and slow in a stock of soy sauce, sake, and sugar. The braising liquid is often used as part of the ramen broth itself, and simmering time and heat are said to decide how tender the meat turns out. Some shops sear the surface afterward for extra fragrance, but simmering remains the standard method.\n## Why it took this shape\nOne account holds that where Chinese-style char siu needs a roasting oven, Japanese ramen shops found it took less effort and equipment to simmer the pork in the same large pot as the soup, and that's thought to be how the simmered style spread. Being able to handle the soup and the topping in a single pot is said to be one reason this became the standard way to prepare chashu.",
+      "sources": [
+        {
+          "title": "チャーシューと焼き豚の違いは\"調理法\"にあった｜煮豚・叉焼の境界線まで徹底解説",
+          "url": "https://ramenmogi.com/chashu-yakibuta-difference/",
+          "publisher": "ラーメンもぎたて",
+          "accessed_at": "2026-09-10"
+        },
+        {
+          "title": "チャーシューと焼豚は違う？今さら聞けないチャーシューの秘密",
+          "url": "https://news.yahoo.co.jp/expert/articles/a1e7d436944e37f03dc0219343443f1e2162d2e6",
+          "publisher": "Yahoo!ニュース エキスパート",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "chashu",
+          "to_slug": "hokkaido-ramen",
+          "relation_type": "対比",
+          "basis": "ラーメンの具として欠かせないチャーシューは、中国式の叉焼（炙り焼き）と違い、日本では醤油だれで煮る『煮豚』の型が一般化したとされる"
+        }
+      ]
+    },
+    {
+      "slug": "happosai",
+      "body_ja": "## 何でできているか\n皿の上に豚肉や白菜、にんじん、うずらの卵、いかなど、色とりどりの具材が並ぶ。ひとすくいごとに違う食感が代わる代わる現れ、鶏がらスープと醤油ベースのとろみあんが全体をまとめている。中国語の「八」は実際に八種類の具材を意味するとされるが、日本の八宝菜は具材の数を厳密には決めていないという。彩り豊かな具材の取り合わせそのものが、見た目の魅力になっているという。\n## どう作るのか\n豚肉と数種の野菜、海鮮を強火で手早く炒め、鶏がらスープと醤油、塩で味を調えてから水溶き片栗粉でとろみをつける。皿に盛って一品料理として出すほか、白飯にかければ中華丼になる、餡そのものが応用の利く仕立てとされる。具材の組み合わせは店や季節によって幅広く変わるという。うずらの卵の有無だけでも、店ごとの個性が表れるとされる。\n## なぜこの形になったのか\n一説によると、「八」が具体的な数を指す中国語の感覚に対し、日本では「五目」と同様に「具だくさん」という意味合いに変化し、決まった具材にこだわらない料理として広まったと考えられている。この餡をご飯にかける発想が独自に発展し、中華丼という別の丼料理を生み出す土台にもなったとされる。今も定食の一皿として、白飯とセットで供されることが多いという。",
+      "body_en": "## What it's made of\nA plate carries a colorful mix — pork, napa cabbage, carrot, quail egg, squid — a different texture turning up spoonful after spoonful, all held together by a chicken-and-soy gravy. In Chinese, 'eight' is said to mean literally eight ingredients, but Japan's happosai keeps no fixed count.\n## How it's made\nPork, several vegetables, and seafood are stir-fried fast over high heat, seasoned with chicken stock, soy sauce, and salt, then thickened with a cornstarch slurry. Served on a plate it's a standalone dish; poured over rice it becomes chuka-don — the same gravy adapts either way. The mix of ingredients is said to vary widely by shop and season.\n## Why it took this shape\nOne account holds that where Chinese 'eight' points to a specific count, in Japan the word drifted toward the looser sense of 'plenty,' much like gomoku, and the dish spread without any fixed ingredient list. The idea of pouring this same gravy over rice is thought to have developed on its own and become the basis for chuka-don, a separate rice-bowl dish.",
+      "sources": [
+        {
+          "title": "八宝菜",
+          "url": "https://ja.wikipedia.org/wiki/八宝菜",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "happosai",
+          "to_slug": "chuka-don",
+          "relation_type": "源流",
+          "basis": "中華丼は八宝菜とほぼ同じ調理法で、皿ではなく丼の飯にかけることを前提に汁気をやや多めに仕立てた料理とされ、中華丼自身の記述でも八宝菜との近さが述べられている"
+        }
+      ]
+    }
+  ]
+}

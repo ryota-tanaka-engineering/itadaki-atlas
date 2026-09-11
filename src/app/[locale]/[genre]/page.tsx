@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getTranslations, setRequestLocale } from "next-intl/server";
+import { getMessages, getTranslations, setRequestLocale } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
@@ -20,7 +20,7 @@ import {
 } from "@/features/map/queries";
 import { translateCityName } from "@/features/map/placeNames";
 import { ChainBridgeSection } from "@/features/map/ChainBridgeSection";
-import { PIN_STROKE, PRIMARY_STYLES, styleColor } from "@/features/map/styles";
+import { PIN_STROKE, styleColor } from "@/features/map/styles";
 import { localeAlternates } from "@/lib/seo";
 import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
@@ -99,14 +99,14 @@ export default async function GenreOrShelfPage({ params }: { params: Promise<Par
 
 async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string; locale: string }) {
   const t = await getTranslations("genre");
-  const ts = await getTranslations("style");
   const tp = await getTranslations("prefecture");
-  const [items, chains, placeNames] = await Promise.all([
+  const [items, chains, placeNames, messages] = await Promise.all([
     fetchGenreItems(genreSlug, locale as Locale),
     fetchChainsForGenre(genreSlug),
     // 市区町村名の他言語表記（一覧行の発祥表記用。実装部隊の報告「/en の本場・産地
     // チップに市区町村名が日本語のまま」対応）。ja では不要。
     locale === "en" ? fetchPlaceNames("en") : Promise.resolve({}),
+    getMessages(),
   ]);
   const geo = items.filter((i) => i.lat !== null);
   const nonGeo = items.filter((i) => i.lat === null);
@@ -114,12 +114,31 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
   const name = isJa ? g.nameJa : g.nameEn;
   const intro = isJa ? g.introJa : g.introEn;
 
-  // 系統ごとにグルーピング（存在する系統だけが出る）
-  const byStyle = PRIMARY_STYLES.map((style) => ({
+  // 系統名の表示ラベルを解決する（2026-09 系統の自由化: ジャンルごとに任意の値を
+  // 持てるため、固定の翻訳キー一覧を前提にできない）。
+  // 1. ja / en 共通: messages.style（旧ラーメン4系統+その他の訳語）に一致すればそれを使う
+  // 2. en のみ: messages.styleNames（ジャンルごとの系統の英語名。無ければ未訳）を見る
+  // 3. どちらにも無ければ入力値をそのまま表示する（ja はそもそも日本語なので実質これで足りる）
+  const styleDict = (messages.style ?? {}) as Record<string, string>;
+  const styleNamesDict = (messages.styleNames ?? {}) as Record<string, string>;
+  const translateStyle = (style: string): string =>
+    styleDict[style] ?? (locale === "en" ? styleNamesDict[style] : undefined) ?? style;
+
+  // 系統ごとにグルーピング（データに実際に現れる系統だけが出る。出現順）。
+  // 系統は発祥地の有無に関係なく付くので（洋食の「フライ」「肉」は全国区＝図鑑枠が多い）、
+  // 系統群は全アイテムから作り、図鑑には「系統も発祥地も持たない」ものだけを残す
+  const styleOrder: string[] = [];
+  for (const item of items) {
+    if (item.primaryStyle && !styleOrder.includes(item.primaryStyle)) {
+      styleOrder.push(item.primaryStyle);
+    }
+  }
+  const byStyle = styleOrder.map((style) => ({
     style,
-    items: geo.filter((i) => i.primaryStyle === style),
-  })).filter((grp) => grp.items.length > 0);
+    items: items.filter((i) => i.primaryStyle === style),
+  }));
   const unstyled = geo.filter((i) => !i.primaryStyle);
+  const nonGeoUnstyled = nonGeo.filter((i) => !i.primaryStyle);
   const groups = [...byStyle, ...(unstyled.length > 0 ? [{ style: null, items: unstyled }] : [])];
 
   return (
@@ -149,7 +168,7 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
                   className="inline-block size-2.5 rounded-full border"
                   style={{ backgroundColor: styleColor(grp.style), borderColor: PIN_STROKE }}
                 />
-                {ts(grp.style)}
+                {translateStyle(grp.style)}
                 <span className="text-muted-foreground">{grp.items.length}</span>
               </a>
             ))}
@@ -167,7 +186,7 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
                 />
               )}
               {/* 系統を持つジャンルでは「その他」、持たないジャンルでは「ご当地」と読ませる */}
-              {grp.style ? ts(grp.style) : byStyle.length > 0 ? t("otherStyles") : t("regional")}
+              {grp.style ? translateStyle(grp.style) : byStyle.length > 0 ? t("otherStyles") : t("regional")}
               <span className="text-muted-foreground text-sm font-normal">{grp.items.length}</span>
             </h2>
             <ul className="divide-border divide-y">
@@ -214,11 +233,11 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
         ))}
 
         {/* 図鑑: 発祥地の物語を持たないアイテム（部位・定番種）。データが入れば自動で現れる */}
-        {nonGeo.length > 0 && (
+        {nonGeoUnstyled.length > 0 && (
           <section className="mb-10">
             <h2 className="font-serif border-border mb-3 border-b pb-2 text-lg">{t("encyclopedia")}</h2>
             <ul className="divide-border grid grid-cols-2 divide-y">
-              {nonGeo.map((item) => (
+              {nonGeoUnstyled.map((item) => (
                 <li key={item.slug} className="odd:pr-2">
                   <Link
                     href={`/${genreSlug}/${item.slug}`}

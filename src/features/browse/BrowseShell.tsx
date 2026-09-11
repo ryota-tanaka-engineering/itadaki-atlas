@@ -402,7 +402,10 @@ export function BrowseShell({
     [mapPins, genreFilter, matchesTagFilter],
   );
   // 系統凡例は「ラーメン内部・単一ジャンル絞り込み時のみ」（CLAUDE.md「デザイン」節）。
-  const showStyleLegend = Boolean(genreFilter) && visiblePins.some((i) => i.primaryStyle !== null);
+  // 系統色の凡例（醤油・味噌・塩・豚骨）はラーメン内部だけの識別軸（CLAUDE.md「系統色」）。
+  // 他ジャンルの系統（洋食のピザ等）は色分けしないので凡例も出さない
+  const showStyleLegend =
+    genreFilter === "ramen" && visiblePins.some((i) => i.primaryStyle !== null);
 
   // ピンをタップしたら、地図を隠さないピーク位置でカードを見せる
   const handleSelectFromMap = useCallback((slug: string | null) => {

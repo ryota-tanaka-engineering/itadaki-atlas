@@ -110,7 +110,7 @@ erDiagram
 | カラム | 型 | フェーズ1 | 内容 |
 | :--- | :--- | :--- | :--- |
 | `food_item_id` | uuid | ✅ | PK / FK |
-| `primary_style` | text | **✅ 入力する** | 主系統（醤油 \| 味噌 \| 塩 \| 豚骨 \| その他）。単一選択 |
+| `primary_style` | text | **✅ 入力する** | 主系統。単一選択。値はジャンルごとに自由（2026-09〜。CHECK制約は「非空・20文字以内」のみ）。ラーメンは醤油/味噌/塩/豚骨/その他の4色をUI側（`src/features/map/styles.ts` の `RAMEN_STYLES`）で色分けする。他ジャンル（例: 洋食＝ピザ/パスタ/ライス/フライ/肉/その他）は系統名テキストのみで色分けは持たない |
 | `feature_tags` | — | スキーマのみ | 特徴タグ（複数可）。別テーブルで持つ |
 | `noodle_thickness` | — | スキーマのみ | 麺の太さ |
 | `noodle_curl` | — | スキーマのみ | 麺の縮れ |
@@ -187,15 +187,17 @@ erDiagram
 | カラム（guides） | 型 | 内容 |
 | :--- | :--- | :--- |
 | `slug` | text | UNIQUE。`^[a-z0-9-]+$` |
-| `kind` | text | `ordering`（注文）\| `paying`（支払い）\| `manners`（マナー）\| `finding`（店の見つけ方）\| `takeaway`（持ち帰り・土産）\| `seasons`（季節・時間）\| `shopping`（買う場所: コンビニ・スーパー・デパ地下・駅ナカ・市場。2026-09-12 追加） |
+| `kind` | text | `ordering`（注文）\| `paying`（支払い）\| `manners`（マナー）\| `finding`（店の見つけ方）\| `takeaway`（持ち帰り・土産）\| `seasons`（季節・時間）\| `shopping`（買う場所: コンビニ・スーパー・デパ地下・駅ナカ・市場。2026-09-12 追加）\| `food-town`（食の街: 横浜中華街・新大久保・鶴橋等）\| `market`（市場・朝市: 豊洲・近江町・函館朝市等）\| `festival`（祭り・フェス）\| `beer-garden`（ビアガーデン・屋上）\| `brewery-tour`（酒蔵・醸造所見学）\| `factory-tour`（工場見学・体験）（後6種は2026-09-12「体験と場所」で追加） |
 | `sort_order` | integer | kind内の並び順 |
 | `status` | text | `draft` \| `published`（既定 `draft`。anon は `published` のみ select） |
+| `pref` / `city` | text | **任意**（2026-09-12追加）。場所を持つガイド（`food-town`/`market`/`festival`/`beer-garden`/`brewery-tour`/`factory-tour`等）の都道府県・市区町村。読み物系ガイド（`ordering`等）は NULL |
+| `lat` / `lng` | double precision | **任意**（2026-09-12追加）。代表地点の座標。無ければ `PositionBand` は表示しない |
 
-`guide_translations`（PK: `guide_id, locale`）は `title` / `summary` / `body_md`（Markdown。見出しは自由）を持つ。翻訳が無いロケールは en → ja の順でフォールバックする（アプリ層。`../.doc/10_system/10_growth_infra.md` §3.3）。
+`guide_translations`（PK: `guide_id, locale`）は `title` / `summary` / `body_md`（Markdown。見出しは自由）に加え、`when_note`（**任意・2026-09-12追加**。開催・営業時期のメモ。多言語）を持つ。翻訳が無いロケールは en → ja の順でフォールバックする（アプリ層。`../.doc/10_system/10_growth_infra.md` §3.3）。`when_note` は具体的な日取りを書かず「例年5月」「通年」「定期的に開催されるので調べてみて」のように断定しない（CLAUDE.md 体験原則3・`ia-atlas-content` Skill §2の文体）。
 
 `guide_sources` は出典（内部検証用。**UI非表示**。`food_item_sources` と同じ方針）。
 
-`guide_links`（PK: `guide_id, target_kind, target_slug`）はガイドを食べものへ結びつける疎な参照（`target_kind` は `genre` \| `shelf` \| `tag`。FK制約なし。`chains.genre_slug` と同じ方針）。例: 「ラーメン屋は現金が多い」→ `genre` `ramen`。詳細ページ（`/[genre]/[slug]`）の「食べに行く前に」節は、アイテムの genre/shelf/tags から `guide_links` を逆引きして関連ガイドを出す。
+`guide_links`（PK: `guide_id, target_kind, target_slug`）はガイドを食べものへ結びつける疎な参照（`target_kind` は `genre` \| `shelf` \| `tag` \| `pref`（都道府県slug。2026-09-12追加）\| `item`（`food_items.slug`。2026-09-12追加）。FK制約なし。`chains.genre_slug` と同じ方針）。例: 「ラーメン屋は現金が多い」→ `genre` `ramen`。「近江町市場」→ `pref` `ishikawa` + `item` `<関連アイテムslug>`。詳細ページ（`/[genre]/[slug]`）の「食べに行く前に」節は、アイテムの genre/shelf/tags から `guide_links` を逆引きして関連ガイドを出す。場所を持つガイドの詳細ページは「関係する食べもの」に `item` リンク、県ページへの `pref` リンクを出す。県ページ（`/region/[pref]`）は `guide_links.pref` またはガイド自身の `pref` からその県の体験ガイドを逆引きする「この土地の食体験」節を持つ。
 
 投入は `data/guides.json` → `scripts/import-guides.ts`。
 
@@ -281,7 +283,7 @@ RLS ポリシーはテーブル作成と**同一コミット**に含める（Pla
 | `lat` / `lng` | 数値。NULL可だが、**片方だけの入力を禁止**する |
 | `lat` | 20〜46 の範囲（日本国内の妥当性チェック） |
 | `lng` | 122〜154 の範囲（同上） |
-| `primary_style` | 醤油 / 味噌 / 塩 / 豚骨 / その他 のいずれか |
+| `primary_style` | 非空・20文字以内の任意のテキスト（値の集合はジャンルごとに投入データが決める。DBのCHECK制約では列挙しない） |
 | `origin_pref` | 都道府県名マスタと一致すること |
 
 **三点セット（日本語名 — ローマ字 — 英訳）の欠けと、出典なしは投入を通さない。** この2つはブランドの機能要件であり、後から埋める運用にすると必ず抜ける（`.doc/00_concept/05_brand.md` §5）。
