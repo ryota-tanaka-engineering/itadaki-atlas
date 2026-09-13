@@ -5,12 +5,14 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { CoverHeader } from "@/components/CoverHeader";
 import { GUIDE_KINDS, fetchGuides, type GuideKind } from "@/features/guide/queries";
 import { localeAlternates } from "@/lib/seo";
+import type { Prefecture } from "@/lib/prefectures";
 
 /**
  * `/guide` 一覧（「食べに行く前に」ガイドの入口。CLAUDE.md「ページ型」節）。
  *
  * `/tags` と同じ方針: kind別にグルーピングし、1件も無いkindの見出しは出さない
- * （見出しだけあってリンクが1本も無い状態を作らない）。
+ * （見出しだけあってリンクが1本も無い状態を作らない）。GUIDE_KINDS に沿って自動で
+ * 小見出しが増減する（2026-09-12「体験と場所」6種別追加時もこのページの変更は不要だった）。
  */
 type Params = { locale: string };
 
@@ -29,6 +31,7 @@ export default async function GuidePage({ params }: { params: Promise<Params> })
   setRequestLocale(locale);
 
   const t = await getTranslations("guide");
+  const tp = await getTranslations("prefecture");
   const guides = await fetchGuides(locale as "ja" | "en");
 
   const groups = GUIDE_KINDS.map((kind: GuideKind) => ({
@@ -58,6 +61,19 @@ export default async function GuidePage({ params }: { params: Promise<Params> })
                     <span className="block font-medium">{g.title}</span>
                     {g.summary && (
                       <span className="text-muted-foreground block text-sm">{g.summary}</span>
+                    )}
+                    {/* 場所を持つガイド（食の街・市場・祭り等）は県・市と時期メモを小さく添える
+                        （2026-09-12「体験と場所」。CLAUDE.md体験原則3=土地との関係で言う） */}
+                    {(g.pref || g.whenNote) && (
+                      <span className="text-muted-foreground mt-1 flex flex-wrap gap-x-2 text-xs">
+                        {g.pref && (
+                          <span>
+                            {tp(g.pref as Prefecture)}
+                            {g.city ? ` ${g.city}` : ""}
+                          </span>
+                        )}
+                        {g.whenNote && <span>{g.whenNote}</span>}
+                      </span>
                     )}
                   </Link>
                 </li>

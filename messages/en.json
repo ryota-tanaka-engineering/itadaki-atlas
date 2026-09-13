@@ -155,6 +155,18 @@
     "豚骨": "Tonkotsu — pork bone",
     "その他": "Other"
   },
+  "styleNames": {
+    "醤油": "Shoyu — soy sauce",
+    "味噌": "Miso",
+    "塩": "Shio — salt",
+    "豚骨": "Tonkotsu — pork bone",
+    "その他": "Other",
+    "ピザ": "Pizza",
+    "パスタ": "Pasta",
+    "ライス": "Rice dishes",
+    "フライ": "Fried",
+    "肉": "Meat"
+  },
   "genre": {
     "title": "Kinds of {name}",
     "count": "{count} varieties",
@@ -180,7 +192,8 @@
       "preparation": "Prepared here",
       "honba": "Renowned here"
     },
-    "neighborsTitle": "Neighboring regions"
+    "neighborsTitle": "Neighboring regions",
+    "experiencesTitle": "Food experiences here"
   },
   "shelf": {
     "count": "{count} items",
@@ -231,12 +244,19 @@
       "finding": "Finding a Restaurant",
       "takeaway": "Takeaway & Souvenirs",
       "seasons": "Seasons & Timing",
-      "shopping": "Where to buy"
+      "shopping": "Where to buy",
+      "food-town": "Food towns",
+      "market": "Markets & morning markets",
+      "festival": "Festivals & fairs",
+      "beer-garden": "Beer gardens",
+      "brewery-tour": "Brewery tours",
+      "factory-tour": "Factory tours & workshops"
     },
     "relatedFoodHeading": "Related food",
     "otherGuidesHeading": "More guides",
     "nextKindLabel": "Next up — {kind}: {title}",
-    "correction": "Report a correction"
+    "correction": "Report a correction",
+    "whenNoteLabel": "Typical timing"
   },
   "relation": {
     "lineage": {
@@ -275,17 +295,5 @@
     "text": "With your consent, we use Google Analytics (cookies) to understand how the site is used. Everything works without it.",
     "accept": "Accept",
     "decline": "Decline"
-  },
-  "styleNames": {
-    "醤油": "Shoyu — soy sauce",
-    "味噌": "Miso",
-    "塩": "Shio — salt",
-    "豚骨": "Tonkotsu — pork bone",
-    "その他": "Other",
-    "ピザ": "Pizza",
-    "パスタ": "Pasta",
-    "ライス": "Rice dishes",
-    "フライ": "Fried",
-    "肉": "Meat"
   }
 }

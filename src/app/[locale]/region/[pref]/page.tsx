@@ -6,6 +6,7 @@ import { SiteFooter } from "@/components/SiteFooter";
 import { CoverHeader } from "@/components/CoverHeader";
 import { fetchItemsByPref, fetchShelves, fetchPrefsWithItems, type Locale } from "@/features/map/queries";
 import { PIN_STROKE, styleColor } from "@/features/map/styles";
+import { fetchGuidesForPref } from "@/features/guide/queries";
 import { localeAlternates } from "@/lib/seo";
 import { ADJACENT_PREFS, PREF_SLUGS, prefFromSlug } from "@/lib/prefectures";
 
@@ -59,9 +60,15 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
   const items = await fetchItemsByPref(pref, locale as Locale);
   if (items.length === 0) notFound();
 
-  const [shelves, prefsWithItems] = await Promise.all([fetchShelves(), fetchPrefsWithItems()]);
+  const [shelves, prefsWithItems, experiences] = await Promise.all([
+    fetchShelves(),
+    fetchPrefsWithItems(),
+    // この土地の食体験（食の街・市場・祭り・ビアガーデン・酒蔵/工場見学等。2026-09-12「体験と場所」）
+    fetchGuidesForPref(pref, locale as Locale),
+  ]);
 
   const t = await getTranslations("region");
+  const tg = await getTranslations("guide");
   const tp = await getTranslations("prefecture");
   const ts = await getTranslations("style");
   const trr = await getTranslations("regionRelation");
@@ -143,6 +150,32 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
             </ul>
           </section>
         ))}
+
+        {/* この土地の食体験（食の街・市場・祭り・ビアガーデン・酒蔵/工場見学等。0件なら節ごと出さない。
+            CLAUDE.md体験原則3=分類名ではなく土地との関係で言う） */}
+        {experiences.length > 0 && (
+          <section className="border-border mb-10 border-t pt-6">
+            <h2 className="font-serif mb-3 text-lg">{t("experiencesTitle")}</h2>
+            <ul className="divide-border divide-y">
+              {experiences.map((g) => (
+                <li key={g.slug}>
+                  <Link
+                    href={`/guide/${g.slug}`}
+                    className="hover:bg-muted/40 -mx-2 block rounded-md px-2 py-3 transition-colors"
+                  >
+                    <span className="flex flex-wrap items-baseline gap-2">
+                      <span className="font-medium">{g.title}</span>
+                      <span className="text-muted-foreground text-xs">{tg(`kind.${g.kind}`)}</span>
+                    </span>
+                    {g.whenNote && (
+                      <span className="text-muted-foreground mt-1 block text-xs">{g.whenNote}</span>
+                    )}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </section>
+        )}
 
         {/* 隣の土地へ（行き止まり禁止。掲載がある隣接県だけが並ぶ） */}
         {neighbors.length > 0 && (

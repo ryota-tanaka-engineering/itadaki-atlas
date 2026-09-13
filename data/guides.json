@@ -351,6 +351,586 @@
           "slug": "fruits"
         }
       ]
+    },
+    {
+      "slug": "yokohama-chinatown",
+      "kind": "food-town",
+      "sort_order": 1,
+      "status": "published",
+      "pref": "神奈川県",
+      "city": "横浜市",
+      "lat": 35.4437,
+      "lng": 139.6459,
+      "translations": {
+        "ja": {
+          "title": "横浜中華街",
+          "summary": "日本最大級とされる中華街で、150店以上の中国料理店・食材店が軒を連ねるとされます。食べ歩きから本格コースまで、店によって幅があります。",
+          "body_md": "## どんな場所か\n横浜港の開港とともに形成された中華街で、現在は150店以上の中国料理店・食材店・雑貨店が集まっているとされます。肉まん・小籠包・胡麻団子といった食べ歩きの点心から、円卓を囲む本格コースまで、店によって業態の幅が大きいのが特徴です。\n\n## 食べ方のこつ\n食べ歩き向けの点心は店頭で1個単位から買えることが多く、複数店を回って食べ比べるのも楽しみ方の一つとされます。一方、ランチ・ディナーでコースを頼む店では、事前予約が必要なことも多いようです。値段も店により幅があるため、店頭のメニューやコース表示を見て選ぶことが勧められています。\n\n## 定期的な催しについて\n旧正月（春節）の時期には獅子舞などの祝賀行事が行われることが多いとされます。時期は年によって変わるため、訪れる前に開催時期を調べてみることが勧められます。",
+          "when_note": "通年営業（定休日は店舗による）。旧正月（春節）の時期は行事で賑わうことが多いので、時期は事前に調べてみてください"
+        },
+        "en": {
+          "title": "Yokohama Chinatown",
+          "summary": "Said to be one of the largest Chinatowns in Japan, with more than 150 Chinese restaurants and food shops. Offerings range widely from street snacks to formal course meals.",
+          "body_md": "## What it is\nYokohama Chinatown grew up alongside the opening of Yokohama's port, and today is said to hold more than 150 Chinese restaurants, food shops, and general stores. It ranges from street-food dim sum — steamed buns, xiaolongbao, sesame balls — to formal round-table course meals, and the style varies a lot from shop to shop.\n\n## Tips for eating there\nStreet-food dim sum is often sold individually from shop counters, so trying a few different shops is one common way to enjoy the area. Sit-down course meals, on the other hand, often require a reservation. Prices vary by shop, so it helps to check the menu or course board before choosing.\n\n## About recurring events\nAround Lunar New Year, the neighborhood often holds celebrations that can include lion dances. The date shifts each year, so it's worth checking the timing before you go.",
+          "when_note": "Open year-round (closing days vary by shop). Especially lively around Lunar New Year — the date moves each year, so check ahead."
+        }
+      },
+      "sources": [
+        {
+          "title": "横浜中華街発展会協同組合 公式サイト",
+          "url": "https://www.chinatown.or.jp/",
+          "publisher": "横浜中華街発展会協同組合",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "pref",
+          "slug": "kanagawa"
+        },
+        {
+          "kind": "item",
+          "slug": "shumai"
+        },
+        {
+          "kind": "genre",
+          "slug": "machi-chuka"
+        }
+      ]
+    },
+    {
+      "slug": "omicho-market",
+      "kind": "market",
+      "sort_order": 1,
+      "status": "published",
+      "pref": "石川県",
+      "city": "金沢市",
+      "lat": 36.5701,
+      "lng": 136.6567,
+      "translations": {
+        "ja": {
+          "title": "近江町市場",
+          "summary": "金沢の中心部にある市場で、「金沢の台所」とも呼ばれます。鮮魚店・青果店など170ほどの店が集まっているとされます。",
+          "body_md": "## どんな場所か\n江戸時代から続くとされる金沢中心部の市場で、地元では「金沢の台所」と呼ばれることが多いようです。鮮魚店・青果店・精肉店・惣菜店など170ほどの店が集まっているとされ、地元客と観光客の両方が利用しています。\n\n## 買い方・食べ方\n鮮魚店の店頭では、その場で食べられる海鮮丼や串焼きを扱う店も多く、市場内で食べ歩きができます。量り売りや1尾単位での購入もでき、宿で調理できない場合は加工・発送を頼める店もあるようです。値段や品揃えはその日の水揚げ次第で変わるため、目当ての魚介が必ずあるとは限りません。\n\n## 訪れる時間帯\n早朝から開いている店が多く、午前中がもっとも活気があるとされます。午後は閉める店も出てくるため、余裕を持って訪れることが勧められます。",
+          "when_note": "通年営業（店舗ごとに定休日あり）。早朝〜午前中がもっとも活気があることが多いようです"
+        },
+        "en": {
+          "title": "Omicho Market",
+          "summary": "A market in central Kanazawa often called \"Kanazawa's kitchen,\" said to gather around 170 seafood, produce, and other food shops.",
+          "body_md": "## What it is\nA market in central Kanazawa said to date back to the Edo period, and often called \"Kanazawa's kitchen\" by locals. It's said to bring together around 170 shops — seafood, produce, meat, prepared foods — used by both residents and visitors.\n\n## How to shop and eat\nMany seafood stalls also sell ready-to-eat seafood bowls or grilled skewers at the counter, so it's possible to snack your way through the market. Items can often be bought by weight or individually, and some shops can process or ship fish for those without a kitchen at their lodging. What's available — and the price — depends on the day's catch, so a particular item isn't always guaranteed to be there.\n\n## When to visit\nMany shops open early, and mornings tend to be the liveliest time. Some shops start closing in the afternoon, so it helps to leave enough time when you visit.",
+          "when_note": "Open year-round (closing days vary by shop). Mornings tend to be the liveliest time to visit."
+        }
+      },
+      "sources": [
+        {
+          "title": "近江町市場商店街振興組合 公式サイト",
+          "url": "https://ohmicho-ichiba.com/",
+          "publisher": "近江町市場商店街振興組合",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "pref",
+          "slug": "ishikawa"
+        },
+        {
+          "kind": "item",
+          "slug": "jibuni"
+        }
+      ]
+    },
+    {
+      "slug": "spring-eating",
+      "kind": "seasons",
+      "sort_order": 20,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "春に出会う味覚",
+          "summary": "初鰹や筍、桜餅とお花見弁当、新茶、ふきのとうなどの山菜まで、例年春先から初夏にかけて魚屋や和菓子店、産地の直売所で出会いやすい食べものと、探すときのおおまかな時期の目安をまとめたガイドです。",
+          "body_md": "## 初鰹\n例年、春から初夏にかけて、太平洋側を北上する鰹の「初物」が魚屋や食堂に並び始めるとされます。脂は控えめで、さっぱりとした赤身を楽しむ食べ方が好まれる傾向があるといい、刺身やたたきとして扱われることが多いです。地域や漁の状況によって出回る時期は前後するため、確実に狙って行っても出会えるとは限りません。\n\n## 筍(たけのこ)\n春先から出回るたけのこは、掘りたてに近いほどえぐみが少なく、そのまま焼いたり煮物にしたりして楽しまれる食材とされます。産地の直売所や道の駅では、朝掘りをうたう品が並ぶことがありますが、天候によって収穫量が変わるため、品揃えは日によって差があります。\n\n## 桜餅とお花見弁当\n桜の開花時期に合わせて、和菓子店やスーパーの店頭には桜餅が並びやすくなるといわれます。関東風は焼いた皮で包む「長命寺」、関西風は道明寺粉を使う「道明寺」と、地域で作り方が分かれる傾向があるとされます。花見の場では、彩りよく詰めた弁当を持ち寄る習慣も広く見られます。\n\n## 新茶\n八十八夜(立春から数えておよそ88日目)の前後は、その年最初に摘まれた新茶が出回る時期の目安とされます。若い茶葉らしい香りの良さが特徴といわれますが、産地によって収穫時期に差があるため、時期は目安として考えるとよいでしょう。\n\n## ふきのとうなどの山菜\n雪解けの頃から、ふきのとうをはじめとする山菜が直売所や道の駅に並び始めることがあります。ほろ苦さを生かした天ぷらや和え物で楽しまれることが多いですが、天候や地域差が大きく、並ぶ時期・量は年によって変わります。\n\n## 関係する食べもの\n初鰹が気になる方は「魚」、桜餅が気になる方は「和菓子」、たけのこなど春野菜が気になる方は「野菜」も参考にしてください。"
+        },
+        "en": {
+          "title": "Foods to look for in spring",
+          "summary": "A guide to foods often seen in Japan around spring — early bonito, bamboo shoots, sakura mochi, hanami bento, new-season tea, and butterbur sprouts — with rough pointers for finding them.",
+          "body_md": "## Early bonito (hatsu-gatsuo)\nAround spring into early summer, the first bonito of the year moving north along the Pacific coast are said to start appearing at fish shops and eateries. The fat content tends to be lighter than the autumn catch, and the lean, refreshing flavor is often served as sashimi or seared tataki. Timing shifts by region and how the fishing season goes, so there's no guarantee of finding it on any particular visit.\n\n## Bamboo shoots (takenoko)\nBamboo shoots sold from early spring are said to have less bitterness the fresher they are, and are often grilled or simmered. Farm stands and roadside stations sometimes advertise shoots dug that same morning, though the harvest — and what's on the shelf — can vary a lot day to day depending on the weather.\n\n## Sakura mochi and hanami bento\nAround cherry blossom season, sakura mochi tends to appear at wagashi shops and supermarkets. The Kanto-style version (chomeiji) wraps the filling in a thin baked crepe, while the Kansai-style version (domyoji) uses a grainier rice-based dough — a difference said to follow region. Bringing a colorful bento to share under the blossoms is also a widespread custom.\n\n## New season's tea (shincha)\nAround the 88th day after the start of spring on the traditional calendar — a rough marker in late spring — the year's first-picked tea leaves, shincha, tend to come to market. It's often described as having a brighter aroma than tea picked later in the year, though the exact timing varies by growing region, so it's best treated as a guide rather than a fixed date.\n\n## Butterbur sprouts and other spring greens (sansai)\nAs the snow melts, butterbur sprouts (fukinotou) and other wild greens start showing up at farm stands and roadside stations. Their slight bitterness is often enjoyed in tempura or simple dressed dishes, but availability depends heavily on the weather and region, so both timing and quantity vary from year to year.\n\n## Related foods\nIf early bonito interests you, see \"Fish\"; for sakura mochi, see \"Wagashi\"; and for bamboo shoots and other spring vegetables, see \"Vegetables.\""
+        }
+      },
+      "sources": [
+        {
+          "title": "日本の年中行事と食「花見と桜餅」：農林水産省",
+          "url": "https://www.maff.go.jp/j/pr/aff/2604/event06.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "お花見の歴史とお花見弁当：農林水産省",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/culture/wagohan/articles/2303/spe15_02.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "日本茶業中央会",
+          "url": "https://www.nihon-cha.or.jp/",
+          "publisher": "一般社団法人日本茶業中央会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "fish"
+        },
+        {
+          "kind": "shelf",
+          "slug": "vegetables"
+        }
+      ]
+    },
+    {
+      "slug": "summer-eating",
+      "kind": "seasons",
+      "sort_order": 21,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "夏に出会う味覚",
+          "summary": "土用の丑の日に食べる鰻や、冷やし中華、そうめん、かき氷、枝豆とビール、鱧など、例年夏の時期に食堂や居酒屋、麺類店で出会いやすい食べものと、探すときのおおまかな目安をまとめたガイドです。",
+          "body_md": "## 土用の丑の日の鰻\n夏の土用(立秋前のおよそ18日間)にある「丑の日」には、鰻の蒲焼を食べる習慣が広く見られるとされます。夏バテ対策として栄養のある食べものをとる考え方が背景にあるといわれ、うなぎ専門店だけでなく、スーパーや弁当店でもこの時期にまとめて扱われる傾向があります。丑の日は年によって1回のこともあれば2回になることもあるといい、確実な日付は年ごとに確認するとよいでしょう。\n\n## 冷やし中華とそうめん\n気温が上がる時期になると、麺類を扱う店の店頭に冷やし中華やそうめんが並びやすくなるといわれます。冷やし中華は錦糸卵やハム、きゅうりなどを彩りよくのせる食べ方が一般的とされ、そうめんはつゆにつけて食べるほか、地域によって薬味や具材に違いがあるとされます。\n\n## かき氷\nかき氷は、氷を削って蜜をかけただけの素朴なものから、季節のフルーツや練乳を使ったものまで幅を持って提供されることが多い夏の甘味です。氷菓を扱う店は季節営業のところも多く、時期や営業日は店ごとに確認が必要です。\n\n## 枝豆とビール\n枝豆は夏場の居酒屋の定番として親しまれ、ビールと合わせて楽しまれることが多いとされます。塩ゆでにしてそのまま食べるのが一般的な食べ方です。\n\n## 鱧(はも)\n京都をはじめとする関西では、夏の魚として鱧が親しまれてきたといわれます。骨切りという細かい下処理を経て、湯引きや天ぷらなどで提供されることが多く、祇園祭の時期の食として語られることもあります。\n\n## 関係する食べもの\n冷やし中華のような一品が気になる方は「町中華」、鱧など夏の魚介に興味がある方は「魚」、そうめんなど麺が気になる方は「麺」、冷たくして食べる料理をもっと知りたい方は関連のタグも参考にしてください。"
+        },
+        "en": {
+          "title": "Foods to look for in summer",
+          "summary": "A guide to foods often seen in Japan around summer — eel on the Day of the Ox, hiyashi chuka, somen, shaved ice, edamame with beer, and hamo — with rough pointers for finding them.",
+          "body_md": "## Eel on the Day of the Ox (doyo no ushi)\nDuring the summer doyo period (roughly the 18 days before the start of autumn on the traditional calendar), a day called the \"Day of the Ox\" is widely associated with eating grilled eel (unagi kabayaki). The custom is often traced to the idea of eating something nutritious to fight summer fatigue, and around this time eel tends to be sold not only at specialty restaurants but also at supermarkets and bento shops. Depending on the year there can be one Day of the Ox or two, so it's worth checking the actual date each year rather than assuming.\n\n## Hiyashi chuka and somen\nAs temperatures rise, noodle shops tend to put hiyashi chuka (cold ramen-style noodles) and somen (thin wheat noodles) on the menu. Hiyashi chuka is usually served with colorful toppings like shredded egg, ham, and cucumber, while somen is dipped in a chilled sauce, with the garnishes and sides said to vary somewhat by region.\n\n## Shaved ice (kakigori)\nKakigori ranges from simple shaved ice with flavored syrup to versions topped with seasonal fruit or condensed milk, and it's a common summer treat. Many shops that serve it only open seasonally, so it's worth checking a shop's hours and season before heading out.\n\n## Edamame and beer\nEdamame (boiled young soybeans) is a summer izakaya staple, often paired with beer. It's usually served simply boiled and salted.\n\n## Hamo (pike conger)\nIn the Kansai region, especially Kyoto, hamo is said to have long been treasured as a summer fish. After a fine deboning process called honekiri, it's often served lightly blanched or as tempura, and is sometimes mentioned alongside the Gion Festival season.\n\n## Related foods\nIf dishes like hiyashi chuka interest you, see \"Machi-Chuka\" (neighborhood Chinese diners); for hamo and other summer seafood, see \"Fish\"; for somen and other noodles, see \"Noodles\"; and for more cold dishes, check the related tag."
+        }
+      },
+      "sources": [
+        {
+          "title": "「土用の丑の日」とうなぎ：農林水産省 aff（あふ）",
+          "url": "https://www.maff.go.jp/j/pr/aff/1907/spe1_01.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "冷やし中華 | 一般社団法人日本惣菜協会",
+          "url": "https://www.nsouzai-kyoukai.or.jp/chilled-ramen-with-toppings/",
+          "publisher": "一般社団法人日本惣菜協会",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "全国乾麺協同組合連合会",
+          "url": "https://www.kanmen.com/",
+          "publisher": "全国乾麺協同組合連合会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "machi-chuka"
+        },
+        {
+          "kind": "genre",
+          "slug": "fish"
+        },
+        {
+          "kind": "shelf",
+          "slug": "noodles"
+        },
+        {
+          "kind": "tag",
+          "slug": "cold_served"
+        }
+      ]
+    },
+    {
+      "slug": "autumn-eating",
+      "kind": "seasons",
+      "sort_order": 22,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "秋に出会う味覚",
+          "summary": "戻り鰹や秋刀魚、新米、松茸、栗、十五夜の月見団子など、例年秋の時期に魚屋や米穀店、和菓子店などで出会いやすい食べものと、探すときのおおまかな目安をまとめたガイドです。",
+          "body_md": "## 戻り鰹\n秋になると、北上した鰹が再び南下してくる「戻り鰹」が出回るとされます。初鰹に比べて脂がのっているといわれ、こってりとした味わいが好まれる傾向があります。海況によって漁の時期は変わるため、店頭に並ぶ時期は目安として捉えるとよいでしょう。\n\n## 秋刀魚\n秋刀魚は名前の通り秋を代表する魚とされ、脂がのった時期には塩焼きで食べる食べ方が広く親しまれています。年による水揚げの増減が話題になることも多く、出回る量や値段は年によって差があります。\n\n## 新米\nその年に収穫されたばかりの米は「新米」と呼ばれ、水分を多く含みつやのある炊き上がりが特徴といわれます。産地や品種によって出荷時期が異なるため、店頭に並ぶ時期には幅があります。\n\n## 松茸\n香りの強さで知られる松茸は、秋を代表する食材のひとつとされます。天然ものは収穫量が天候に左右されやすく、価格の変動も大きいといわれるため、時期や入手のしやすさは年によって変わります。\n\n## 栗と月見団子\n栗は焼き栗や栗ご飯、和菓子の材料として秋に親しまれる食材です。また、十五夜(中秋の名月)の頃には、丸めた団子を積んで供える月見団子の習慣が見られるとされ、地域によって団子の形や供え方に違いがあるといわれます。\n\n## 関係する食べもの\n新米が気になる方は「米の品種」、秋の魚介に興味がある方は「魚」、月見団子など和菓子が気になる方は「和菓子」、松茸などきのこが気になる方は「きのこ」も参考にしてください。"
+        },
+        "en": {
+          "title": "Foods to look for in autumn",
+          "summary": "A guide to foods often seen in Japan around autumn — returning bonito, Pacific saury, new-crop rice, matsutake, chestnuts, and tsukimi dango — with rough pointers for finding them.",
+          "body_md": "## Returning bonito (modori-gatsuo)\nIn autumn, the bonito that traveled north over summer are said to head south again, known as modori-gatsuo. Compared with the earlier spring catch, it's said to carry more fat, and a richer flavor is often preferred at this time of year. Because the timing depends on sea conditions, when it actually appears in shops is best treated as a rough guide.\n\n## Pacific saury (sanma)\nTrue to its name, sanma is considered a signature autumn fish, and grilling it simply with salt is a widely loved way to eat it once the fish has fattened up. Catch volumes are said to shift from year to year, so both availability and price can vary.\n\n## New-crop rice (shinmai)\nRice harvested that same year is called shinmai, said to cook up glossy and moist compared with rice held in storage longer. Shipping timing differs by growing region and variety, so it tends to appear on shelves over a spread of weeks rather than all at once.\n\n## Matsutake mushroom\nKnown for its strong aroma, matsutake is considered one of autumn's signature ingredients. Wild matsutake yields are said to be sensitive to weather, and prices can swing quite a bit as a result, so both timing and availability vary year to year.\n\n## Chestnuts and tsukimi dango\nChestnuts are enjoyed roasted, in chestnut rice, or as a wagashi ingredient through autumn. Around the night of the \"fifteenth night\" (jugoya, the traditional harvest moon), it's said to be customary to stack small rice dumplings, tsukimi dango, as an offering — with the shape and arrangement said to vary by region.\n\n## Related foods\nIf new-crop rice interests you, see \"Rice Varieties\"; for autumn seafood, see \"Fish\"; for tsukimi dango and other sweets, see \"Wagashi\"; and for matsutake and other mushrooms, see \"Mushrooms.\""
+        }
+      },
+      "sources": [
+        {
+          "title": "うちの郷土料理：農林水産省",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/index.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "日本の年中行事と食「十五夜とお月見団子」：農林水産省",
+          "url": "https://www.maff.go.jp/j/pr/aff/2510/event03.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "季節と和菓子 | 全国和菓子協会",
+          "url": "https://www.wagashi.or.jp/monogatari/ajiwai/kisetsu/",
+          "publisher": "一般社団法人全国和菓子協会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "rice-varieties"
+        },
+        {
+          "kind": "genre",
+          "slug": "fish"
+        },
+        {
+          "kind": "shelf",
+          "slug": "mushrooms"
+        }
+      ]
+    },
+    {
+      "slug": "winter-eating",
+      "kind": "seasons",
+      "sort_order": 23,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "冬に出会う味覚",
+          "summary": "鍋料理やふぐ、牡蠣、蟹、大晦日の年越しそば、お正月のおせちなど、例年冬の時期に食堂や鮮魚店、そば店などで出会いやすい食べものと、選び方のおおまかな目安をまとめたガイドです。",
+          "body_md": "## 鍋料理\n気温が下がる時期になると、食堂や居酒屋のメニューに鍋料理が増える傾向があるとされます。土地によって出汁や具材、味付けが異なり、寄せ鍋やもつ鍋、水炊きなど呼び方もさまざまです。家庭でも卓上コンロを使って囲む食べ方が広く親しまれています。\n\n## ふぐ\nふぐは冬を代表する高級食材のひとつとされ、刺身(てっさ)や鍋(てっちり)などで提供されることが多いです。調理には専門の資格が必要とされ、扱う店は限られる傾向があります。産地や漁の時期によって流通量は変わります。\n\n## 牡蠣\n「Rのつく月がおいしい」と語られることがある牡蠣は、冬に旬を迎える産地が多いとされます。生食用と加熱用で扱いが分かれており、店頭の表示を確認してから選ぶと安心です。産地によって旬の時期には幅があります。\n\n## 蟹\n蟹は冬の味覚として広く親しまれ、産地や種類によって旬の時期が異なるとされます。ゆで蟹や焼き蟹、鍋の具材として提供されることが多く、解禁時期は種類や漁場ごとに定められているといわれます。\n\n## 年越しそば\n大晦日にそばを食べる習慣は江戸時代から続くといわれ、細く長い見た目に長寿を願う意味や、切れやすい性質から一年の厄を断ち切る意味が込められているとされます。食べる時間帯に厳密な決まりはないとされますが、年をまたぐ前に食べ終える家庭が多いともいわれます。\n\n## おせち\nおせちは、お正月に食べる祝い料理として重箱に詰めて用意される料理とされます。一品ごとに縁起を担ぐ意味が込められているといわれ、地域や家庭によって内容には幅があります。\n\n## 関係する食べもの\n貝や甲殻類に興味がある方は「貝・甲殻類・イカタコ」、そばが気になる方は「そば」、鍋の具材を探している方は棚「鍋」も参考にしてください。"
+        },
+        "en": {
+          "title": "Foods to look for in winter",
+          "summary": "A guide to foods often seen in Japan around winter — nabe hot pot, fugu, oysters, crab, year-end soba, and osechi — with rough pointers for finding them.",
+          "body_md": "## Nabe (hot pot)\nAs temperatures drop, nabe hot pot dishes are said to appear more often on menus at eateries and izakaya. Broth, ingredients, and seasoning vary by region, and there are many named styles — yosenabe, motsunabe, mizutaki, and more. Gathering around a tabletop burner to share one is also a common way to eat it at home.\n\n## Fugu (pufferfish)\nFugu is considered one of winter's premium ingredients, often served as sashimi (tessa) or in a hot pot (tecchiri). Preparing it is said to require a specific license, so the shops that serve it tend to be limited. Supply shifts with the source region and fishing season.\n\n## Oysters\nSometimes described with the saying that oysters are best \"in months with an R,\" oysters are said to be in season through winter at many production areas. They're sold separately for raw eating and for cooking, so it's worth checking the label before choosing. Peak timing varies somewhat by region.\n\n## Crab\nCrab is a widely loved winter food, with peak season said to differ by region and species. It's commonly served boiled, grilled, or as a hot pot ingredient, and the start of the season is said to be set separately for each species and fishing ground.\n\n## Year-end soba (toshikoshi soba)\nThe custom of eating soba on New Year's Eve is said to date back to the Edo period, with the long, thin noodles linked to wishing for a long life, and their tendency to break easily linked to cutting away the past year's troubles. There's said to be no strict rule about what time to eat it, though many households finish before the new year begins.\n\n## Osechi\nOsechi is the set of celebratory dishes prepared for New Year, traditionally packed into tiered boxes (jubako). Each dish is said to carry its own auspicious meaning, and the exact lineup varies by region and household.\n\n## Related foods\nIf shellfish and crustaceans interest you, see \"Shellfish, Crustaceans, and Cephalopods\"; for soba, see \"Soba\"; and for hot pot ingredients, browse the \"Hot Pot\" shelf."
+        }
+      },
+      "sources": [
+        {
+          "title": "日本の年中行事と食「大晦日と年越しそば」：農林水産省",
+          "url": "https://www.maff.go.jp/j/pr/aff/2512/event04.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "お蕎麦を知って美味しい年越しそばを食べよう！：農林水産省",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/culture/wagohan/articles/2212/spe12_02.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "うちの郷土料理：農林水産省",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "shellfish"
+        },
+        {
+          "kind": "genre",
+          "slug": "soba"
+        },
+        {
+          "kind": "shelf",
+          "slug": "hotpot"
+        }
+      ]
+    },
+    {
+      "slug": "osechi-and-zoni",
+      "kind": "seasons",
+      "sort_order": 24,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "正月のおせちと雑煮",
+          "summary": "お正月のおせちを重箱に詰める意味や、角餅・丸餅、すまし仕立て・味噌仕立てなど地域で大きく分かれる雑煮の違い、1月7日の七草粥の習慣までを丁寧にまとめたガイドです。",
+          "body_md": "## 重箱に込められた意味\nおせちは、もともと季節の節目に神様へ供える料理だったとされ、今では主にお正月の祝い料理を指す言葉として使われています。重箱に詰めるのは「めでたさを重ねる」という意味が込められているといわれ、一の重、二の重と段ごとに詰める料理の傾向が語られることもありますが、家庭や地域によって詰め方には幅があります。地域によっては四段や五段で用意されることもあるとされ、五段目をあえて空にしておく「控えの重」という考え方が伝えられることもあります。\n\n## 雑煮の地域差\n雑煮は、正月に餅を入れた汁物として全国で食べられていますが、味付けや具材、餅の形には大きな地域差があるとされます。おおまかには、東日本では角餅としょうゆ仕立てのすまし汁、西日本では丸餅と白味噌仕立てが多いといわれますが、県境をまたいでも違いが見られたり、同じ地域でも家庭によって作り方が異なったりするため、一概には言えません。具材も、鶏肉や青菜を使う地域、あん餅を使う地域など幅があります。餅を焼いてから入れるか、そのまま煮て仕立てるかにも違いがあるとされ、同じ都道府県内でも地域ごとに作り方が変わると紹介されることがあります。\n\n## 七草粥\n1月7日の朝に七草粥を食べる習慣があるとされ、正月のごちそうで疲れた胃を休める意味が込められているといわれます。せり・なずな・ごぎょうなど七種の野草や野菜を刻んで入れるのが基本とされますが、地域や家庭によって使う具材が変わることもあります。\n\n## 関係する食べもの\n餅や米に興味がある方は「米」、行事にまつわる食べものをもっと知りたい方は関連のタグも参考にしてください。"
+        },
+        "en": {
+          "title": "Osechi and zoni for the New Year",
+          "summary": "A guide to the meaning behind osechi's tiered boxes, the regional differences in zoni (square vs. round mochi, clear vs. miso broth), and the nanakusa-gayu custom.",
+          "body_md": "## The meaning behind the tiered boxes\nOsechi is said to have originally been food offered to the gods at seasonal turning points, and today the word mainly refers to the celebratory dishes eaten at New Year. Packing them into tiered boxes (jubako) is said to carry the meaning of \"stacking up good fortune,\" and there's often talk of a set order for what goes in the first, second, and later tiers — though in practice the arrangement varies a good deal by household and region. Some regions are said to use four or five tiers, with the fifth sometimes deliberately left empty as a \"tier in reserve\" for future good fortune.\n\n## Regional differences in zoni\nZoni, a soup with mochi eaten at New Year, is common across Japan, but the seasoning, ingredients, and even the shape of the mochi are said to differ a lot by region. Broadly speaking, eastern Japan tends toward square mochi in a clear soy-based broth, while western Japan tends toward round mochi in a white miso broth — though the line isn't neat, with variation even within a single prefecture and from household to household. Ingredients range from chicken and greens in some areas to sweet red-bean mochi in others. Whether the mochi is grilled before it goes in or simmered as-is is said to differ too, and the recipe can change even within a single prefecture depending on the area.\n\n## Nanakusa-gayu (seven-herb rice porridge)\nOn the morning of January 7th, there's a custom of eating a rice porridge with seven herbs, said to give the stomach a rest after the New Year's feasting. The base is typically seven wild herbs and greens — seri, nazuna, gogyo, and others — finely chopped in, though which ones are used can vary by region and household.\n\n## Related foods\nIf mochi and rice interest you, see \"Rice\"; for more foods tied to seasonal events, check the related tag."
+        }
+      },
+      "sources": [
+        {
+          "title": "おせちは一年の幸を願う料理。おせちを知って作ってみよう！：農林水産省",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/culture/wagohan/articles/2212/spe12_03.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "全国のいろいろな雑煮：農林水産省",
+          "url": "https://www.maff.go.jp/j/pr/aff/2001/spe2_03.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "季節と餅：農林水産省",
+          "url": "https://www.maff.go.jp/j/pr/aff/2001/spe2_01.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "shelf",
+          "slug": "rice"
+        },
+        {
+          "kind": "tag",
+          "slug": "ceremonial"
+        }
+      ]
+    },
+    {
+      "slug": "setsubun",
+      "kind": "seasons",
+      "sort_order": 25,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "節分の恵方巻と豆まき",
+          "summary": "節分の日に恵方を向いて太巻きを丸かじりする恵方巻の食べ方とされる由来の一説、炒った福豆をまく豆まきの習慣、柊鰯を飾る地域の風習までを、初めての方にも丁寧にまとめたガイドです。",
+          "body_md": "## 恵方巻\n節分の日に、その年の恵方(縁起の良いとされる方角)を向いて太巻きを丸かじりする習慣が、近年広く見られるようになったとされます。由来には諸説あり、大阪の商人が商売繁盛を願って始めたという説が知られていますが、確立した起源は定まっていないともいわれます。食べ方としては、願い事を思い浮かべながら、話さずに一気に食べ切るのがよいとされることが多いですが、必ず守るべき決まりというわけではありません。近年は具材や太さもさまざまな恵方巻が並ぶ傾向があり、コンビニエンスストアやスーパーでも予約・販売が広く行われているとされます。恵方の方角はその年ごとに決まっているといわれ、毎年同じ方角とは限らないため、店頭の案内やパッケージの表示で確認するとよいでしょう。\n\n## 豆まきと福豆\n節分には、炒った大豆(福豆)を「鬼は外、福は内」のかけ声とともにまく豆まきの習慣も広く見られるとされます。まいた豆、または自分の年齢の数だけ豆を食べると健康を願えるといった言い伝えもありますが、地域や家庭によって作法には違いがあります。豆まきに使う豆は、地域によって炒った大豆ではなく殻付きの落花生が使われることもあるとされ、雪の多い地域では拾いやすいことなどが理由として語られます。いわしを焼いて食べたり、柊の枝と一緒に玄関先に飾ったりする「柊鰯」の習慣が残る地域もあるといわれます。\n\n## 関係する食べもの\n巻き寿司など寿司が気になる方は「寿司」、行事にまつわる食べものに興味がある方は関連のタグも参考にしてください。"
+        },
+        "en": {
+          "title": "Setsubun: ehomaki and lucky beans",
+          "summary": "A guide to ehomaki, the uncut sushi roll said to be eaten facing a lucky direction on Setsubun, and to mamemaki, the bean-throwing custom with roasted lucky beans.",
+          "body_md": "## Ehomaki\nOn Setsubun, there's a custom — said to have become widespread more recently — of eating an uncut sushi roll (ehomaki) while facing that year's \"lucky direction\" (eho). Its origin is told a few different ways; one well-known account traces it to Osaka merchants wishing for good business, though where it actually started isn't said to be firmly settled. The common way to eat it is to picture a wish and finish the roll in silence without stopping, though that's more of a custom than a fixed rule. These days ehomaki come in a wide range of fillings and thicknesses, and reserving or buying one at a convenience store or supermarket has become common too. The lucky direction itself is said to be set anew each year rather than staying fixed, so it's worth checking signage or the packaging for that year's direction.\n\n## Bean-throwing and lucky beans\nSetsubun is also widely associated with mamemaki, throwing roasted soybeans (fukumame) while calling out \"oni wa soto, fuku wa uchi\" (demons out, good fortune in). It's sometimes said that eating the beans you threw, or a number equal to your age, is meant to wish for good health, though the exact custom varies by household and region. In some areas, roasted soybeans are swapped for in-shell peanuts, reportedly because they're easier to find again in the snow where winters are heavy. In some areas, a custom called hiiragi-iwashi also survives, where a grilled sardine head is displayed with a holly branch at the entrance.\n\n## Related foods\nIf rolled sushi interests you, see \"Sushi\"; for more foods tied to seasonal events, check the related tag."
+        }
+      },
+      "sources": [
+        {
+          "title": "日本の年中行事と食「節分といわし料理」：農林水産省",
+          "url": "https://www.maff.go.jp/j/pr/aff/2602/event05.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "節分と恵方巻レシピ：農林水産省",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/culture/wagohan/articles/2301/spe13_04.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "全国すし商生活衛生同業組合連合会（全すし連）",
+          "url": "https://sushi-all-japan.com/",
+          "publisher": "全国すし商生活衛生同業組合連合会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "sushi"
+        },
+        {
+          "kind": "tag",
+          "slug": "ceremonial"
+        }
+      ]
+    },
+    {
+      "slug": "hinamatsuri-and-tango",
+      "kind": "seasons",
+      "sort_order": 26,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "雛祭りと端午の節句の食",
+          "summary": "3月3日の雛祭りに並ぶちらし寿司やひなあられ、5月5日の端午の節句に食べる柏餅とちまきなど、子どもの健やかな成長を願う行事食の由来と地域差をまとめたガイドです。",
+          "body_md": "## 雛祭り(3月3日)\n女の子の健やかな成長を願う雛祭りには、彩りのよいちらし寿司や、蛤のお吸い物が食卓に並ぶことが多いとされます。ちらし寿司の具材や盛り付けは地域や家庭によって幅があり、決まった形式があるわけではないといわれ、海老や菜の花など縁起の良い具材が選ばれる傾向があるとされます。また、桃色・白・緑の三色に色づけされたひなあられも、この時期の定番の菓子として親しまれています。関東と関西では味付けや粒の大きさに違いがあるともいわれます。あわせて白酒や、子ども向けに甘酒を用意する家庭もあるとされます。\n\n## 端午の節句(5月5日)\n男の子の成長を願う端午の節句には、柏餅やちまきを食べる習慣があるとされます。柏餅は、新しい葉が出るまで古い葉が落ちない柏の木にちなみ、「家系が絶えない」縁起を担いだ菓子といわれます。中身はこしあん・つぶあん・みそあんなど数種類が用意され、包む葉の向きで見分けられるようにしている店もあるといわれます。一方のちまきは、主に関西で親しまれてきたとされ、地域によってどちらが主流かに違いが見られます。菖蒲を用いた菖蒲湯の習慣とあわせて語られることもあり、当日は鯉のぼりや五月人形を飾る家庭も多いとされます。\n\n## 関係する食べもの\nちらし寿司が気になる方は「寿司」、柏餅やちまきなど和菓子に興味がある方は「和菓子」、行事にまつわる食べものをもっと知りたい方は関連のタグも参考にしてください。"
+        },
+        "en": {
+          "title": "Food for Hinamatsuri and Tango no Sekku",
+          "summary": "A guide to the chirashi sushi and hina-arare eaten at Hinamatsuri, and the kashiwa mochi and chimaki eaten at Tango no Sekku — festivals wishing for children's healthy growth.",
+          "body_md": "## Hinamatsuri (March 3rd)\nHinamatsuri, which wishes for girls' healthy growth, is often marked with a colorful chirashi sushi and clam (hamaguri) clear soup on the table. The toppings and presentation of the chirashi sushi vary a good deal by household and region, and there's no single fixed style, though auspicious ingredients like shrimp and rapeseed blossoms are said to be favored choices. Hina-arare, rice crackers colored in pink, white, and green, are also a familiar sweet for the season, with taste and grain size said to differ somewhat between the Kanto and Kansai regions. Some households also serve shirozake or, for children, amazake, a sweet, low- or non-alcoholic rice drink.\n\n## Tango no Sekku (May 5th)\nTango no Sekku, which wishes for boys' growth, is associated with eating kashiwa mochi and chimaki. Kashiwa mochi is said to take its meaning from the oak (kashiwa) tree, whose old leaves don't fall until new ones appear — read as a wish that the family line won't die out. Fillings typically come in a few varieties — smooth red bean, chunky red bean, and miso — and some shops fold the leaf a different way for each so customers can tell them apart. Chimaki, on the other hand, is said to be more closely associated with the Kansai region, so which one is more common can depend on where you are. The custom of a shobu-yu iris bath is sometimes mentioned alongside it, and many households also display koinobori carp streamers or gogatsu-ningyo dolls on the day.\n\n## Related foods\nIf chirashi sushi interests you, see \"Sushi\"; for kashiwa mochi and other wagashi, see \"Wagashi\"; and for more foods tied to seasonal events, check the related tag."
+        }
+      },
+      "sources": [
+        {
+          "title": "お家で祝うひなまつり！：農林水産省",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/culture/wagohan/articles/2302/spe14_03.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "季節と和菓子 | 全国和菓子協会",
+          "url": "https://www.wagashi.or.jp/monogatari/ajiwai/kisetsu/",
+          "publisher": "一般社団法人全国和菓子協会",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "うちの郷土料理：農林水産省",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/index.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "sushi"
+        },
+        {
+          "kind": "tag",
+          "slug": "ceremonial"
+        }
+      ]
+    },
+    {
+      "slug": "tanabata-and-festival-stalls",
+      "kind": "seasons",
+      "sort_order": 27,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "七夕とお祭りの屋台",
+          "summary": "7月7日の七夕に食べるそうめんの由来とされる話や、夏祭り・縁日で見かける焼きそば・たこ焼き・りんご飴・かき氷など、屋台の食べものと過ごし方の目安をまとめたガイドです。",
+          "body_md": "## 七夕とそうめん\n7月7日の七夕には、そうめんを食べる習慣があるといわれます。由来には諸説あり、そうめんの原型とされる菓子「索餅(さくべい)」を奈良時代に食べていたことに結びつける説や、白く細い麺を天の川に見立てる説などが語られますが、どれか一つに定まっているわけではないとされます。麺類業界ではこの日を「そうめんの日」として案内していることもあります。地域によっては、彩りよく刻んだ野菜を添えてそうめんを天の川に見立てる食べ方が紹介されることもあるといわれます。\n\n## お祭りの屋台\n夏を中心に各地で開かれるお祭りや縁日では、参道や境内に屋台が並ぶことが多いとされます。焼きそばやたこ焼きは定番として扱われることが多く、りんご飴やかき氷、わたあめなど甘いものを扱う屋台も広く見られます。りんご飴は赤く色付けした蜜を絡めたもので、飴の厚みや艶の出し方には屋台ごとに違いが見られるといわれます。屋台の種類や数はお祭りの規模によって差があり、毎年同じ屋台が出るとは限りません。\n\n## 屋台での過ごし方の目安\n屋台は現金のみで対応する店が多いといわれ、小銭を用意しておくと安心です。混雑する時間帯には提供に時間がかかることもあり、食べ歩きをする場合はゴミの持ち帰りや、歩きながらの飲食を控える配慮が求められる場面もあるとされます。\n\n## 関係する食べもの\nたこ焼きなど粉ものが気になる方は「粉もの」、焼きそばに興味がある方は「焼きそば」、屋台の食べものをもっと知りたい方は関連のタグも参考にしてください。"
+        },
+        "en": {
+          "title": "Tanabata and festival food stalls",
+          "summary": "A guide to the somen said to be eaten on Tanabata, and to festival-stall staples like yakisoba, takoyaki, candy apples, and shaved ice.",
+          "body_md": "## Tanabata and somen\nOn Tanabata, July 7th, there's said to be a custom of eating somen noodles. The origin is told a few ways — one traces it to sakubei, a twisted confection said to be somen's forerunner and eaten as far back as the Nara period; another likens the thin white noodles to the Milky Way — and no single account is said to be settled as the true one. The noodle industry sometimes promotes the day as \"Somen Day.\" In some areas, somen is served with finely cut, colorful vegetables arranged to suggest the Milky Way.\n\n## Festival food stalls\nAt summer festivals and temple or shrine fairs (ennichi) held around the country, stalls commonly line the approach path and grounds. Yakisoba (fried noodles) and takoyaki (octopus balls) are frequent staples, and stalls selling sweets like candy apples, shaved ice, and cotton candy are also widely seen. Candy apples are coated in a red-tinted syrup, and the thickness and shine of the coating are said to vary from stall to stall. The mix and number of stalls varies with the size of the festival, and the same stalls aren't guaranteed to return every year.\n\n## What to expect at a stall\nMany stalls are said to take cash only, so it helps to have small change ready. Service can be slow during busy hours, and if you're eating as you walk, it's worth being mindful about taking your trash with you and about eating while moving through crowds.\n\n## Related foods\nIf takoyaki and other flour-based foods interest you, see \"Konamono\"; for yakisoba, see \"Yakisoba\"; and for more street food, check the related tag."
+        }
+      },
+      "sources": [
+        {
+          "title": "七夕・そうめんの日｜全国乾麺協同組合連合会",
+          "url": "https://www.kanmen.com/topic/tanabata.html",
+          "publisher": "全国乾麺協同組合連合会",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "Japan National Tourism Organization",
+          "url": "https://www.japan.travel/en/",
+          "publisher": "Japan National Tourism Organization",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "yakisoba"
+        },
+        {
+          "kind": "genre",
+          "slug": "konamono"
+        },
+        {
+          "kind": "tag",
+          "slug": "street_food"
+        }
+      ]
+    },
+    {
+      "slug": "obon-and-tsukimi",
+      "kind": "seasons",
+      "sort_order": 28,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "お盆と十五夜の食",
+          "summary": "お盆に先祖の霊へ供えられる精進料理やそうめん、十五夜(中秋の名月)に供える月見団子など、夏から秋にかけての行事食の由来と地域による違いを丁寧にまとめたガイドです。",
+          "body_md": "## お盆の精進料理\nお盆は、先祖の霊を迎え供養する時期とされ、殺生を避ける仏教の考え方から、肉や魚を使わない精進料理が供えられる習慣があるといわれます。野菜や豆、海藻などを使い、素材の味を生かした料理が中心とされ、北海道の赤飯、京都のおばんざい、沖縄のゴーヤー料理など、地域の食文化と結びついた品が供えられる例もあるとされます。あわせてそうめんを供える、または食べる地域も見られるといい、そうめんが故人の霊を導く綱に見立てられるという説が理由のひとつとして語られることもあります。きゅうりとなすを使って馬や牛に見立てる「精霊馬」を作る風習も、お盆の時期にあわせて紹介されることがあります。\n\n## 十五夜と月見団子\n旧暦8月15日頃にあたる十五夜(中秋の名月)には、ススキを飾り、月見団子を供える習慣があるとされます。米粉などで作った白い団子を積み重ねて供えるのが一般的といわれ、里芋の収穫時期と重なることから「芋名月」とも呼ばれます。団子の数や積み方、供える場所には地域差があるとされます。十五夜からおよそ1か月後には「十三夜」と呼ばれる後の月見も行われるとされ、あわせて楽しむ地域もあるといわれます。\n\n## 関係する食べもの\n精進料理のような家庭的な料理に興味がある方は「家庭料理」、そうめんなど麺に興味がある方はあわせてご覧ください。行事にまつわる食べものをもっと知りたい方は関連のタグも参考にしてください。"
+        },
+        "en": {
+          "title": "Food for Obon and the harvest moon (tsukimi)",
+          "summary": "A guide to the meat-free shojin ryori and somen served at Obon, and the tsukimi dango offered on the night of the harvest moon.",
+          "body_md": "## Shojin ryori at Obon\nObon is a period said to be for welcoming and honoring ancestors' spirits, and reflecting the Buddhist principle of avoiding the taking of life, there's a custom of offering shojin ryori — dishes made without meat or fish. These are said to center on vegetables, beans, and seaweed, letting the ingredients' own flavor come through, and some regions tie the offering to local food culture, such as red rice in Hokkaido, obanzai home cooking in Kyoto, or bitter melon dishes in Okinawa. Some areas are also said to offer or eat somen around this time, with one account linking the noodles to a rope thought to guide ancestors' spirits. A custom of shaping cucumbers and eggplants into a horse and an ox, called shoryo-uma, is also often introduced around Obon.\n\n## Jugoya and tsukimi dango\nAround the 15th night of the eighth lunar month — jugoya, the harvest moon — there's a custom of displaying pampas grass and offering moon-viewing dumplings, tsukimi dango. Stacking small white dumplings made from rice flour is the common way to offer them, and because the timing overlaps with the taro harvest, the night is also called imo-meigetsu (\"taro moon\"). The number of dumplings, how they're stacked, and where they're offered are all said to vary by region. About a month after jugoya comes a second moon-viewing night called jusanya, which some regions mark as well.\n\n## Related foods\nIf home-style dishes like shojin ryori interest you, see \"Homestyle\"; and for more foods tied to seasonal events, check the related tag."
+        }
+      },
+      "sources": [
+        {
+          "title": "日本の年中行事と食「お盆と精進料理」：農林水産省",
+          "url": "https://www.maff.go.jp/j/pr/aff/2508/event02.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "日本の年中行事と食「十五夜とお月見団子」：農林水産省",
+          "url": "https://www.maff.go.jp/j/pr/aff/2510/event03.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "shelf",
+          "slug": "homestyle"
+        },
+        {
+          "kind": "tag",
+          "slug": "ceremonial"
+        }
+      ]
+    },
+    {
+      "slug": "toji-and-year-end",
+      "kind": "seasons",
+      "sort_order": 29,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "冬至と年末年始のならわし",
+          "summary": "冬至に食べるかぼちゃとゆず湯に入る習慣、大晦日に食べる年越しそば、年末の餅つきと1月11日頃の鏡開きなど、冬至から年始にかけてのならわしを丁寧にまとめたガイドです。",
+          "body_md": "## 冬至のかぼちゃとゆず湯\n一年で最も昼が短い冬至には、かぼちゃを食べ、ゆず湯に入る習慣が広く見られるとされます。かぼちゃは別名「なんきん」と呼ばれ、「ん」のつく食べものを食べると運がつくという言い伝えに結びつけて語られることが多いです。栄養のあるかぼちゃを食べて寒さに備える知恵ともいわれます。ゆず湯は、強い香りが邪気を払うとされることに由来するといわれ、江戸時代頃から広まった習慣とされます。\n\n## 年越しそば\n大晦日にそばを食べる習慣は江戸時代から続くとされ、細く長い見た目から長寿を願う意味や、切れやすい性質から一年の厄を断ち切る意味が込められているといわれます。食べる時間に厳密な決まりはないとされますが、年をまたぐ前に食べ終える家庭が多いともいわれます。\n\n## 餅つきと鏡開き\n年末には、餅をついて鏡餅を用意する習慣があるとされます。鏡餅は、三種の神器のひとつとされる鏡をかたどったものといわれ、年神様が宿るとされる縁起物として床の間などに飾られます。松の内が明けたのち、1月11日頃に「鏡開き」として鏡餅を下げ、木槌などで割って(刃物を使わないのが習わしとされます)、おしるこや雑煮にして食べる習慣が広く見られるといわれます。\n\n## 関係する食べもの\nそばに興味がある方は「そば」、餅や米が気になる方は「米」、行事にまつわる食べものをもっと知りたい方は関連のタグも参考にしてください。"
+        },
+        "en": {
+          "title": "Customs of the winter solstice and year-end",
+          "summary": "A guide to eating kabocha and taking a yuzu bath at the winter solstice, year-end soba, and the mochitsuki and kagami-biraki customs around New Year.",
+          "body_md": "## Kabocha and a yuzu bath at the winter solstice\nAt toji, the day with the shortest daylight of the year, there's a widespread custom of eating kabocha (pumpkin) and taking a bath with yuzu citrus floating in it. Kabocha is also called nankin, and eating foods whose names contain the syllable \"n\" is often linked to a saying about drawing good luck. It's also described as an old piece of wisdom — eating something nutritious to brace for the cold ahead. The yuzu bath is said to come from the idea that its strong scent wards off bad luck, a custom said to have spread from around the Edo period.\n\n## Year-end soba (toshikoshi soba)\nThe custom of eating soba on New Year's Eve is said to date to the Edo period, with the long, thin noodles read as a wish for a long life, and their tendency to break easily read as cutting away the past year's troubles. There's said to be no strict rule for what time to eat it, though many households finish before the new year arrives.\n\n## Mochitsuki and kagami-biraki\nAround year-end, there's a custom of pounding mochi (mochitsuki) to prepare kagami mochi. Kagami mochi is said to be shaped after the mirror, one of the three sacred treasures, and is displayed as a lucky charm — in a tokonoma alcove, for instance — believed to house the year's deity. After the New Year decorations come down, around January 11th, there's a widespread custom called kagami-biraki: taking the kagami mochi down and breaking it with a wooden mallet rather than a blade (said to be the custom, to avoid an unlucky association with cutting), then eating it in dishes like oshiruko or zoni.\n\n## Related foods\nIf soba interests you, see \"Soba\"; for mochi and rice, see \"Rice\"; and for more foods tied to seasonal events, check the related tag."
+        }
+      },
+      "sources": [
+        {
+          "title": "冬至：九州農政局",
+          "url": "https://www.maff.go.jp/kyusyu/syokuryou/syokubunka/attach/pdf/net-35.pdf",
+          "publisher": "農林水産省 九州農政局",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "日本の年中行事と食「大晦日と年越しそば」：農林水産省",
+          "url": "https://www.maff.go.jp/j/pr/aff/2512/event04.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        },
+        {
+          "title": "季節と餅：農林水産省",
+          "url": "https://www.maff.go.jp/j/pr/aff/2001/spe2_01.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "soba"
+        },
+        {
+          "kind": "shelf",
+          "slug": "rice"
+        },
+        {
+          "kind": "tag",
+          "slug": "ceremonial"
+        }
+      ]
     }
   ]
 }

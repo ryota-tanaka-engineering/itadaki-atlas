@@ -9,8 +9,14 @@
  * status（draft/published）はJSONの `status` フィールドで持つ（`--publish` 相当の
  * フラグは無い。CLAUDE.md「投入」節）。
  *
- * links（genre/shelf/tag への参照）は投入前に全件、参照先の存在を検証する。
+ * links（genre/shelf/tag/pref/item への参照。pref/item は2026-09-12「体験と場所」で追加）は
+ * 投入前に全件、参照先の存在を検証する。pref は src/lib/prefectures.ts の PREF_SLUGS、
+ * item は food_items.slug と突合する。
  * 1件でも欠けていたら何も書き込まずに落とす（黙って握りつぶさない。import-chains.ts と同じ方針）。
+ *
+ * 場所を持つガイド（food-town/market/festival/beer-garden/brewery-tour/factory-tour）は
+ * pref/city/lat/lng（guides）と when_note（guide_translations。開催・営業時期のメモ。
+ * 断定しない文体で「例年5月」「通年」等）を追加で持つ。読み物系ガイドはいずれも省略可。
  *
  * 使い方: node --env-file=.env.local scripts/import-guides.ts --file data/guides.json [--dry-run]
  *
@@ -22,6 +28,7 @@ import { readFileSync } from "node:fs";
 import { createClient } from "@supabase/supabase-js";
 
 import { guidesFileSchema, type GuideImportRow } from "../src/features/guide/schemas.ts";
+import { PREF_SLUGS } from "../src/lib/prefectures.ts";
 
 function parseArgs(argv: string[]) {
   const dryRun = argv.includes("--dry-run");
@@ -65,34 +72,55 @@ async function main() {
   }
   const db = createClient(url, key, { auth: { persistSession: false } });
 
-  // links の参照先（genre/shelf/tag）が実在するか、全件を事前に検証する。
+  // links の参照先（genre/shelf/tag/pref/item）が実在するか、全件を事前に検証する。
   // 1件でも欠けていたら何も書き込まずに落とす。
   const slugsOf = (kind: GuideImportRow["links"][number]["kind"]) =>
     [...new Set(guides.flatMap((g) => g.links.filter((l) => l.kind === kind).map((l) => l.slug)))];
   const genreSlugs = slugsOf("genre");
   const shelfSlugs = slugsOf("shelf");
   const tagSlugs = slugsOf("tag");
+  const prefSlugs = slugsOf("pref");
+  const itemSlugs = slugsOf("item");
 
-  const [{ data: genres, error: genresErr }, { data: shelves, error: shelvesErr }, { data: tags, error: tagsErr }] =
-    await Promise.all([
-      genreSlugs.length
-        ? db.from("genres").select("slug").in("slug", genreSlugs)
-        : Promise.resolve({ data: [] as { slug: string }[], error: null }),
-      shelfSlugs.length
-        ? db.from("shelves").select("slug").in("slug", shelfSlugs)
-        : Promise.resolve({ data: [] as { slug: string }[], error: null }),
-      tagSlugs.length
-        ? db.from("tags").select("slug").in("slug", tagSlugs)
-        : Promise.resolve({ data: [] as { slug: string }[], error: null }),
-    ]);
+  const [
+    { data: genres, error: genresErr },
+    { data: shelves, error: shelvesErr },
+    { data: tags, error: tagsErr },
+    { data: items, error: itemsErr },
+  ] = await Promise.all([
+    genreSlugs.length
+      ? db.from("genres").select("slug").in("slug", genreSlugs)
+      : Promise.resolve({ data: [] as { slug: string }[], error: null }),
+    shelfSlugs.length
+      ? db.from("shelves").select("slug").in("slug", shelfSlugs)
+      : Promise.resolve({ data: [] as { slug: string }[], error: null }),
+    tagSlugs.length
+      ? db.from("tags").select("slug").in("slug", tagSlugs)
+      : Promise.resolve({ data: [] as { slug: string }[], error: null }),
+    itemSlugs.length
+      ? db.from("food_items").select("slug").in("slug", itemSlugs)
+      : Promise.resolve({ data: [] as { slug: string }[], error: null }),
+  ]);
   if (genresErr) throw new Error(genresErr.message);
   if (shelvesErr) throw new Error(shelvesErr.message);
   if (tagsErr) throw new Error(tagsErr.message);
+  if (itemsErr) throw new Error(itemsErr.message);
+
+  // pref は都道府県マスタ（PREF_SLUGS）に対して検証する。DBテーブルを持たないため
+  // genre/shelf/tag/item と異なり静的集合との突合になる（src/lib/prefectures.ts が唯一の定義）
+  const validPrefSlugs = new Set(Object.values(PREF_SLUGS));
+  const prefMissing = prefSlugs.filter((s) => !validPrefSlugs.has(s));
+  if (prefMissing.length) {
+    console.error(`存在しない都道府県slug（guide_links pref）:\n  ${prefMissing.join("\n  ")}`);
+    process.exit(1);
+  }
 
   const existing = {
     genre: new Set((genres ?? []).map((x) => x.slug)),
     shelf: new Set((shelves ?? []).map((x) => x.slug)),
     tag: new Set((tags ?? []).map((x) => x.slug)),
+    pref: validPrefSlugs,
+    item: new Set((items ?? []).map((x) => x.slug)),
   };
   const missing = guides.flatMap((g) =>
     g.links
@@ -109,7 +137,16 @@ async function main() {
     const { data: guideRow, error: guideErr } = await db
       .from("guides")
       .upsert(
-        { slug: g.slug, kind: g.kind, sort_order: g.sort_order, status: g.status },
+        {
+          slug: g.slug,
+          kind: g.kind,
+          sort_order: g.sort_order,
+          status: g.status,
+          pref: g.pref ?? null,
+          city: g.city ?? null,
+          lat: g.lat ?? null,
+          lng: g.lng ?? null,
+        },
         { onConflict: "slug" },
       )
       .select("id")
@@ -131,6 +168,7 @@ async function main() {
       title: t.title,
       summary: t.summary ?? null,
       body_md: t.body_md ?? null,
+      when_note: t.when_note ?? null,
     }));
     const { error: insTrErr } = await db.from("guide_translations").insert(translationRows);
     if (insTrErr) {

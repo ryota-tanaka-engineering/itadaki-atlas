@@ -9,6 +9,9 @@ const g = (slug: string, kind: GuideSummary["kind"], sortOrder = 0): GuideSummar
   sortOrder,
   title: slug,
   summary: null,
+  pref: null,
+  city: null,
+  whenNote: null,
 });
 
 describe("pickOtherGuides", () => {

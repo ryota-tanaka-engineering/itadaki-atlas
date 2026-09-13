@@ -1205,4 +1205,50 @@ test.describe("食べに行く前にガイド（マナー・注文攻略・支�
     await guideLink.click();
     await expect(page.getByRole("heading", { name: "支払いは現金が多い店", level: 1 })).toBeVisible();
   });
+
+  test("体験と場所: /guide に食の街の小見出しとサンプルが出る", async ({ page }) => {
+    await page.goto("/ja/guide");
+    await expect(page.getByRole("heading", { name: "食べに行く前に", level: 1 })).toBeVisible();
+
+    const foodTownSection = page.locator("section", {
+      has: page.getByRole("heading", { name: "食の街" }),
+    });
+    const chinatownLink = foodTownSection.getByRole("link", { name: /横浜中華街/ });
+    await expect(chinatownLink).toBeVisible();
+    // カードに県・市・時期メモが小さく出る（分類名ではなく土地との関係で言う。体験原則3）
+    await expect(chinatownLink).toContainText("神奈川県");
+    await expect(chinatownLink).toContainText("横浜市");
+    await expect(chinatownLink).toContainText("旧正月");
+
+    const marketSection = page.locator("section", {
+      has: page.getByRole("heading", { name: "市場と朝市" }),
+    });
+    await expect(marketSection.getByRole("link", { name: /近江町市場/ })).toBeVisible();
+  });
+
+  test("体験と場所: 県ページ（石川）に食体験の節が出て近江町市場へ遷移できる", async ({ page }) => {
+    await page.goto("/ja/region/ishikawa");
+    await expect(page.getByRole("heading", { name: "石川県", level: 1 })).toBeVisible();
+
+    const experiences = page.locator("section", {
+      has: page.getByRole("heading", { name: "この土地の食体験" }),
+    });
+    await expect(experiences).toBeVisible();
+    const marketLink = experiences.getByRole("link", { name: /近江町市場/ });
+    await expect(marketLink).toBeVisible();
+    await expect(marketLink).toContainText("市場と朝市");
+
+    await marketLink.click();
+    await expect(page.getByRole("heading", { name: "近江町市場", level: 1 })).toBeVisible();
+    // 例年の時期（断定しない書き方。具体的な日取りではない）
+    await expect(page.getByText("例年の時期", { exact: false })).toBeVisible();
+
+    // 「関係する食べもの」に pref（石川県 → 県ページ）と item（じぶ煮 → アイテム詳細）が出る
+    const relatedSection = page.locator("section", { hasText: "関係する食べもの" });
+    await expect(relatedSection.getByRole("link", { name: "石川県" })).toBeVisible();
+    const jibuniLink = relatedSection.getByRole("link", { name: /じぶ煮/ });
+    await expect(jibuniLink).toBeVisible();
+    await jibuniLink.click();
+    await expect(page.getByRole("heading", { name: "じぶ煮", level: 1 })).toBeVisible();
+  });
 });

@@ -180,7 +180,8 @@
       "preparation": "この土地が仕込む",
       "honba": "この土地が本場"
     },
-    "neighborsTitle": "隣の土地へ"
+    "neighborsTitle": "隣の土地へ",
+    "experiencesTitle": "この土地の食体験"
   },
   "shelf": {
     "count": "{count}件",
@@ -231,12 +232,19 @@
       "finding": "店の見つけ方",
       "takeaway": "持ち帰り・土産",
       "seasons": "季節・時間",
-      "shopping": "買う場所"
+      "shopping": "買う場所",
+      "food-town": "食の街",
+      "market": "市場と朝市",
+      "festival": "祭りとフェス",
+      "beer-garden": "ビアガーデン",
+      "brewery-tour": "酒蔵・醸造所見学",
+      "factory-tour": "工場見学・体験"
     },
     "relatedFoodHeading": "関係する食べもの",
     "otherGuidesHeading": "他のガイド",
     "nextKindLabel": "次は「{kind}」: {title}",
-    "correction": "内容の訂正を送る"
+    "correction": "内容の訂正を送る",
+    "whenNoteLabel": "例年の時期"
   },
   "relation": {
     "lineage": {

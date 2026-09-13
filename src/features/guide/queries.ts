@@ -1,5 +1,9 @@
 import { createClient } from "@/lib/supabase/server";
 import { fetchAllRows } from "@/lib/supabase/fetchAll";
+import { prefFromSlug, PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
+
+import jaMessages from "../../../messages/ja.json";
+import enMessages from "../../../messages/en.json";
 
 import { pickGuideTranslation, type Locale } from "./i18n";
 import { GUIDE_KINDS, type GuideKind } from "./kinds";
@@ -11,10 +15,25 @@ export type { GuideKind } from "./kinds";
 export type { OtherGuides } from "./related";
 export type { GuideDetail, GuideLink, GuideSummary } from "./types";
 
-type TranslationRow = { locale: string; title: string; summary: string | null; body_md?: string | null };
+type TranslationRow = {
+  locale: string;
+  title: string;
+  summary: string | null;
+  body_md?: string | null;
+  when_note?: string | null;
+};
+type GuideRow = { slug: string; kind: string; sort_order: number; pref?: string | null; city?: string | null };
+
+// prefecture 表示名の辞書（messages/*.json の "prefecture" 名前空間。next-intl の
+// t() をサーバーコンポーネント外（このデータ層）から呼べないため、静的importで直接引く。
+// キーは PREFECTURES と同じ日本語名。ja は恒等・en は英訳（src/features/map/MapView.tsx 参照）
+const PREF_DISPLAY: Record<Locale, Record<string, string>> = {
+  ja: jaMessages.prefecture,
+  en: enMessages.prefecture,
+};
 
 function toSummary(
-  guide: { slug: string; kind: string; sort_order: number },
+  guide: GuideRow,
   translations: TranslationRow[],
   locale: Locale,
 ): GuideSummary | null {
@@ -26,6 +45,9 @@ function toSummary(
     sortOrder: guide.sort_order,
     title: t.title,
     summary: t.summary ?? null,
+    pref: guide.pref ?? null,
+    city: guide.city ?? null,
+    whenNote: t.when_note ?? null,
   };
 }
 
@@ -39,7 +61,7 @@ export async function fetchGuides(locale: Locale): Promise<GuideSummary[]> {
     (from, to) =>
       db
         .from("guides")
-        .select("slug, kind, sort_order, guide_translations ( locale, title, summary )")
+        .select("slug, kind, sort_order, pref, city, guide_translations ( locale, title, summary, when_note )")
         .order("kind")
         .order("sort_order")
         .range(from, to),
@@ -60,8 +82,8 @@ export async function fetchGuideBySlug(slug: string, locale: Locale): Promise<Gu
   const { data, error } = await db
     .from("guides")
     .select(
-      `slug, kind, sort_order,
-       guide_translations ( locale, title, summary, body_md ),
+      `slug, kind, sort_order, pref, city, lat, lng,
+       guide_translations ( locale, title, summary, body_md, when_note ),
        guide_links ( target_kind, target_slug )`,
     )
     .eq("slug", slug)
@@ -84,6 +106,11 @@ export async function fetchGuideBySlug(slug: string, locale: Locale): Promise<Gu
     title: t.title,
     summary: t.summary ?? null,
     bodyMd: t.body_md ?? null,
+    pref: data.pref ?? null,
+    city: data.city ?? null,
+    whenNote: t.when_note ?? null,
+    lat: data.lat ?? null,
+    lng: data.lng ?? null,
     links,
   };
 }
@@ -103,34 +130,132 @@ async function resolveGuideLinks(
   const genreSlugs = rawLinks.filter((l) => l.target_kind === "genre").map((l) => l.target_slug);
   const shelfSlugs = rawLinks.filter((l) => l.target_kind === "shelf").map((l) => l.target_slug);
   const tagSlugs = rawLinks.filter((l) => l.target_kind === "tag").map((l) => l.target_slug);
+  // pref/item は2026-09-12「体験と場所」で追加
+  const prefSlugs = rawLinks.filter((l) => l.target_kind === "pref").map((l) => l.target_slug);
+  const itemSlugs = rawLinks.filter((l) => l.target_kind === "item").map((l) => l.target_slug);
 
-  const names = new Map<string, { nameJa: string; nameEn: string }>();
+  const entries = new Map<string, { nameJa: string; nameEn: string; href: string }>();
   const keyOf = (kind: string, slug: string) => `${kind}:${slug}`;
 
   if (genreSlugs.length > 0) {
     const { data, error } = await db.from("genres").select("slug, name_ja, name_en").in("slug", genreSlugs);
     if (error) throw new Error(`resolveGuideLinks(genre) failed: ${error.message}`);
-    for (const g of data ?? []) names.set(keyOf("genre", g.slug), { nameJa: g.name_ja, nameEn: g.name_en });
+    for (const g of data ?? [])
+      entries.set(keyOf("genre", g.slug), { nameJa: g.name_ja, nameEn: g.name_en, href: `/${g.slug}` });
   }
   if (shelfSlugs.length > 0) {
     const { data, error } = await db.from("shelves").select("slug, name_ja, name_en").in("slug", shelfSlugs);
     if (error) throw new Error(`resolveGuideLinks(shelf) failed: ${error.message}`);
-    for (const s of data ?? []) names.set(keyOf("shelf", s.slug), { nameJa: s.name_ja, nameEn: s.name_en });
+    for (const s of data ?? [])
+      entries.set(keyOf("shelf", s.slug), { nameJa: s.name_ja, nameEn: s.name_en, href: `/${s.slug}` });
   }
   if (tagSlugs.length > 0) {
     const { data, error } = await db.from("tags").select("slug, name_ja, name_en").in("slug", tagSlugs);
     if (error) throw new Error(`resolveGuideLinks(tag) failed: ${error.message}`);
-    for (const tag of data ?? []) names.set(keyOf("tag", tag.slug), { nameJa: tag.name_ja, nameEn: tag.name_en });
+    for (const tag of data ?? [])
+      entries.set(keyOf("tag", tag.slug), { nameJa: tag.name_ja, nameEn: tag.name_en, href: `/tag/${tag.slug}` });
+  }
+  if (prefSlugs.length > 0) {
+    // 都道府県はDBテーブルを持たない静的マスタ（src/lib/prefectures.ts）。
+    // スラッグ→日本語名→表示名(messages/*.json の prefecture 辞書)で解決する
+    for (const slug of prefSlugs) {
+      const prefName = prefFromSlug(slug);
+      if (!prefName) continue;
+      entries.set(keyOf("pref", slug), {
+        nameJa: PREF_DISPLAY.ja[prefName] ?? prefName,
+        nameEn: PREF_DISPLAY.en[prefName] ?? prefName,
+        href: `/region/${slug}`,
+      });
+    }
+  }
+  if (itemSlugs.length > 0) {
+    const { data, error } = await db
+      .from("food_items")
+      .select("slug, name_romaji, shelf_slug, genres ( slug ), food_item_translations ( locale, name )")
+      .in("slug", itemSlugs);
+    if (error) throw new Error(`resolveGuideLinks(item) failed: ${error.message}`);
+    for (const item of data ?? []) {
+      const translations = (item.food_item_translations ?? []) as { locale: string; name: string }[];
+      const nameJa = translations.find((t) => t.locale === "ja")?.name ?? item.name_romaji;
+      const genre = Array.isArray(item.genres) ? item.genres[0] : item.genres;
+      // 英語表示は名前ではなくローマ字見出しにする方針（.doc/00_concept/05_brand.md §5。
+      // 詳細ページ [genre]/[slug]/page.tsx と同じ規約）。href はジャンルがあればジャンル配下、
+      // 無ければ棚内「その他」の到達経路（棚slug配下）を使う（同ページの resolveItem と同じ規約）
+      entries.set(keyOf("item", item.slug), {
+        nameJa,
+        nameEn: item.name_romaji,
+        href: `/${genre?.slug ?? item.shelf_slug}/${item.slug}`,
+      });
+    }
   }
 
   const links: GuideLink[] = [];
   for (const l of rawLinks) {
     const kind = l.target_kind as GuideLink["kind"];
-    const entry = names.get(keyOf(kind, l.target_slug));
+    const entry = entries.get(keyOf(kind, l.target_slug));
     if (!entry) continue;
-    links.push({ kind, slug: l.target_slug, name: locale === "ja" ? entry.nameJa : entry.nameEn });
+    links.push({
+      kind,
+      slug: l.target_slug,
+      name: locale === "ja" ? entry.nameJa : entry.nameEn,
+      href: entry.href,
+    });
   }
   return links;
+}
+
+/**
+ * 県ページ（`/region/[pref]`）「この土地の食体験」節用（逆引き）。
+ * `guide_links.target_kind='pref'`（スラッグで結ばれたもの）と、ガイド自身の `pref`列
+ * （日本語県名。food_items.origin_pref と同じ規約）の両方から、その県に紐づく
+ * 体験ガイド（食の街・市場・祭り・ビアガーデン・酒蔵見学・工場見学等）を集める。
+ * 1件も無ければ空配列（呼び出し側で節ごと非表示にする。CLAUDE.md 体験原則6）。
+ */
+export async function fetchGuidesForPref(
+  pref: Prefecture,
+  locale: Locale,
+  limit = 6,
+): Promise<GuideSummary[]> {
+  const prefSlug = PREF_SLUGS[pref];
+  const db = await createClient();
+
+  const [own, viaLinks] = await Promise.all([
+    db
+      .from("guides")
+      .select("slug, kind, sort_order, pref, city, guide_translations ( locale, title, summary, when_note )")
+      .eq("pref", pref)
+      .order("sort_order"),
+    db
+      .from("guide_links")
+      .select(
+        `guide_id,
+         guides!inner ( slug, kind, sort_order, pref, city, guide_translations ( locale, title, summary, when_note ) )`,
+      )
+      .eq("target_kind", "pref")
+      .eq("target_slug", prefSlug),
+  ]);
+  if (own.error) throw new Error(`fetchGuidesForPref failed: ${own.error.message}`);
+  if (viaLinks.error) throw new Error(`fetchGuidesForPref failed: ${viaLinks.error.message}`);
+
+  const seen = new Set<string>();
+  const guides: GuideSummary[] = [];
+  const tryAdd = (g: GuideRow, translations: TranslationRow[]) => {
+    if (seen.has(g.slug)) return;
+    const summary = toSummary(g, translations, locale);
+    if (!summary) return;
+    seen.add(g.slug);
+    guides.push(summary);
+  };
+
+  for (const g of own.data ?? []) tryAdd(g, (g.guide_translations ?? []) as TranslationRow[]);
+  for (const row of viaLinks.data ?? []) {
+    const g = Array.isArray(row.guides) ? row.guides[0] : row.guides;
+    if (!g) continue;
+    tryAdd(g, (g.guide_translations ?? []) as TranslationRow[]);
+  }
+
+  guides.sort((a, b) => a.sortOrder - b.sortOrder);
+  return guides.slice(0, limit);
 }
 
 /**
@@ -175,7 +300,7 @@ export async function fetchGuidesForItem(
     .from("guide_links")
     .select(
       `guide_id,
-       guides!inner ( slug, kind, sort_order, guide_translations ( locale, title, summary ) )`,
+       guides!inner ( slug, kind, sort_order, pref, city, guide_translations ( locale, title, summary, when_note ) )`,
     )
     .or(orParts.join(","));
   if (error) throw new Error(`fetchGuidesForItem failed: ${error.message}`);
