@@ -1,0 +1,1526 @@
+{
+  "genres": [
+    {
+      "slug": "wagashi",
+      "name_ja": "和菓子",
+      "name_en": "Wagashi (Japanese sweets)",
+      "type": "dish",
+      "shelf": "sweets",
+      "sort_order": 90,
+      "intro_ja": "小豆を煮た餡、蒸したり搗いたりした米、海藻から作る寒天、そして長らく貴重だった砂糖――限られた素材の組み合わせから、驚くほど多様な形が生まれてきた菓子の総称。茶の湯の点前に添える一品として磨かれてきた系統もあれば、節句や祭礼のたびに供えられてきた系統、街道の宿場や門前町で旅人に売られてきた系統もあるとされる。同じ餡と米でも、土地の気候や水、行事の暦が違えば、まったく違う菓子に育ってきたと言えそうだ。",
+      "intro_en": "Bean paste, steamed or pounded rice, agar made from seaweed, and sugar that was once a rare luxury — from this small set of ingredients an unusually wide range of shapes has emerged. Some lines were refined as accompaniments to the tea ceremony, others offered at seasonal festivals and rites, still others sold to travelers at post towns and temple gates. The same paste and rice, it seems, grew into very different sweets depending on a place's climate, water, and calendar of observances."
+    }
+  ],
+  "items": [
+    {
+      "slug": "daifuku",
+      "name_ja": "大福",
+      "name_romaji": "Daifuku",
+      "name_en": "Daifuku — a soft mochi pouch wrapped around sweet bean paste",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "餅・団子",
+      "summary_ja": "搗いた餅で餡を包んだ、もっとも基本的な形の一つ。江戸時代には塩気のある厚い餅菓子「腹太餅」が食べられており、これが小ぶりに改良されて「大福餅」と呼ばれるようになったと伝わる。",
+      "summary_en": "One of the most basic shapes in wagashi: pounded mochi wrapped around sweet bean paste. A thick, saltier mochi called \"harabuto-mochi\" is said to have been eaten in the Edo period, later shrinking into the handheld \"daifuku-mochi\" known today.",
+      "body_ja": "## 何でできているか\n搗いた餅で餡を包むだけの、いたって単純な構成。厚みのある餅の弾力と、なめらかな餡の甘さの対比が身上で、餅の薄さ・厚さや粒あん・こしあんの違いだけで印象がまるで変わる。イチゴや豆を練り込んだ変わり種も、この基本形の応用として広がってきたとされる。表面にまぶす粉には片栗粉が使われることが多く、手に取ったときに指にべたつかないための工夫とされる。\n## どう作るのか\n蒸したもち米を搗いて餅を作り、丸めて中央をくぼませてから餡を包み込み、とじ目を下にして仕上げる。餅が冷めて硬くなる前に手早く包む必要があり、餅と餡それぞれの温度と硬さの見極めが職人の腕とされる。打ち粉には片栗粉が使われることが多く、冷めると硬くなる餅を、その日のうちに食べきる生菓子として仕立てる工程でもあるという。\n## なぜこの形になったのか\n一説によると、江戸時代には塩味の効いた厚い餅にあんを詰めた「腹太餅」が食べられており、これが小ぶりに改良されて江戸中期以降に「大福餅」と呼ばれるようになったと伝わる。片手でつまめる大きさへの変化は、屋台や振り売りで手軽に売り買いされた庶民の菓子だったことと関係があるとされる。冷やして固めず、当日中に食べる柔らかさを保つ仕立ても、この庶民の菓子としての性格を今に伝えているという。",
+      "body_en": "## What it's made of\nThe construction is about as simple as wagashi gets: pounded mochi wrapped around sweet bean paste. The draw is the contrast between the mochi's chewy pull and the smooth sweetness of the paste inside, and even small shifts in mochi thickness or in the choice of chunky versus smooth paste change the whole character. Variants folded with strawberries or beans are said to have spread as extensions of this same basic form.\n## How it's made\nSteamed glutinous rice is pounded into mochi, shaped into a ball with a hollow at the center, filled with paste, and finished seam-side down. The wrapping has to happen quickly before the mochi cools and stiffens, and judging the temperature and firmness of both mochi and paste is said to be where a maker's skill shows. Potato starch is often used as the dusting flour.\n## Why it took this shape\nOne account holds that a thick, salted mochi called \"harabuto-mochi\" was eaten in the Edo period, and that it was scaled down into the smaller \"daifuku-mochi\" from the mid-Edo period onward. The shift toward a size that fits in one hand is said to be tied to its life as a common people's sweet, bought and sold quickly from stalls and street vendors.",
+      "sources": [
+        {
+          "title": "和菓子の由来",
+          "url": "https://www.wagashi.or.jp/monogatari/shiru/yurai/",
+          "publisher": "全国和菓子協会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "daifuku",
+          "to_slug": "anko",
+          "relation_type": "使用食材",
+          "basis": "搗いた餅で餡を包む構成そのものが定義的な特徴であるため"
+        }
+      ],
+      "tags": [
+        "handheld"
+      ]
+    },
+    {
+      "slug": "dango",
+      "name_ja": "団子",
+      "name_romaji": "Dango",
+      "name_en": "Dango — small balls of rice flour, steamed or grilled on a skewer",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "餅・団子",
+      "summary_ja": "米粉を練って丸め、蒸すか茹でるかして作る素朴な菓子。団子の原型は縄文時代までさかのぼるとされ、木の実の粉を水で練って丸めたものが始まりという説がある。行事や祭礼の供え物として各地に根づいてきたと伝わる。",
+      "summary_en": "A humble sweet of rice flour kneaded, shaped into balls, and steamed or boiled. Its prototype is said to date back to the Jomon period, when ground nuts and acorns were kneaded with water and rolled into balls — a form said to have taken root everywhere as an offering at festivals and rites.",
+      "body_ja": "## 何でできているか\nうるち米の粉を主に使い、水を加えて練った生地を丸めて蒸す、あるいは茹でるだけの構成。粉の種類や配合次第でもちもちとした弾力にも、しっとりとした歯切れにもなり、餡をまとわせるか、醤油だれを絡めるかで甘い菓子にも軽食にもなる。一串に何個刺すかも地域によって差があり、四つと五つが混在しているとされる。餅よりも小ぶりで、一口で頬張れる大きさに丸めるのが基本とされる。\n## どう作るのか\n米粉に湯や水を加えて耳たぶほどの硬さにこね、等分に丸めて串に刺し、蒸すか茹でるかして火を通す。仕上げに餡をからめたり、醤油と砂糖のたれを焦げ目がつくまで塗り重ねたりする。地域や店によって粉の配合や蒸し・茹での使い分けが分かれ、同じ丸い団子でも土地ごとに食感の狙いが違うという。たれをつけず素焼きのまま醤油だけで食べる素朴な型も各地に残っているという。\n## なぜこの形になったのか\n一説によると、団子の原型は縄文時代までさかのぼり、木の実の粉を水で練って丸めたものが始まりとされる。米が広く食べられるようになったのちも、丸めて火を通すという単純な工程は保存や携行のしやすさに向いており、行事や祭礼の供え物としても各地に根づいていったと伝わる。串に刺すという形自体が、携行と分け合いやすさの両方を満たす工夫だったとも考えられている。",
+      "body_en": "## What it's made of\nMostly non-glutinous rice flour, kneaded with water into a dough, rolled into balls, and either steamed or boiled — nothing more. Depending on the flour blend, the texture can land anywhere from a springy chew to a soft, tender bite, and coating it in sweet paste or a soy glaze turns the same ball into either a dessert or a light snack. It is typically rolled smaller than mochi, sized to fit comfortably in one bite.\n## How it's made\nRice flour is mixed with hot or cold water into a dough about as soft as an earlobe, divided into equal balls, skewered, and steamed or boiled through. It's then finished either coated in bean paste or repeatedly brushed with a soy-sugar glaze until lightly charred. The choice of flour blend and steaming versus boiling is said to vary by region and shop. A plain version eaten simply grilled with soy sauce, no glaze at all, is also said to survive in various regions.\n## Why it took this shape\nOne account traces the prototype of dango back to the Jomon period, when flour ground from nuts and acorns was kneaded with water and rolled into balls. Even after rice became widely eaten, the simple process of rolling and cooking suited storage and portability, and the sweet is said to have taken root everywhere as an offering at festivals and rites.",
+      "sources": [
+        {
+          "title": "和菓子の由来",
+          "url": "https://www.wagashi.or.jp/monogatari/shiru/yurai/",
+          "publisher": "全国和菓子協会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [
+        {
+          "pref": "京都府",
+          "city": "京都市左京区",
+          "lat": 35.0402,
+          "lng": 135.7729,
+          "relation_type": "本場",
+          "note_ja": "下鴨神社の御手洗池に湧く水泡を模して団子を作ったのが始まりと伝わり、串に刺した団子に厄除けの意味を込める文化が今も祭礼で続いている。",
+          "note_en": "The bubbles rising in Shimogamo Shrine's Mitarashi Pond are said to have inspired the skewered dango, and the ritual of eating them for protection from misfortune continues at the shrine's summer festival.",
+          "source_url": "https://www.shimogamo-jinja.or.jp/saiji/mitarashi"
+        },
+        {
+          "pref": "東京都",
+          "city": "文京区",
+          "lat": 35.7256,
+          "lng": 139.7631,
+          "relation_type": "本場",
+          "note_ja": "江戸期の地誌『御府内備考』に、この坂のそばで団子を売る茶店があったと記され、坂の名も団子屋にちなむと伝わるなど、江戸の串団子文化を今に伝える土地とされる。",
+          "note_en": "The Edo-period gazetteer Gofunai Bikou records a tea stall selling dango beside this slope, and the slope's name itself is said to derive from the dango shop — a place still associated with Edo's skewered-dango culture.",
+          "source_url": "https://b-kanko.jp/spot/384"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "dango",
+          "to_slug": "mitarashi-dango",
+          "relation_type": "派生",
+          "basis": "下鴨神社の御手洗池の水泡を模したという由来が出典で裏付けられる団子の一型"
+        },
+        {
+          "from_slug": "dango",
+          "to_slug": "sanshoku-dango",
+          "relation_type": "派生",
+          "basis": "白い団子に彩りを加えたのが始まりと伝わる、団子の色付け型"
+        }
+      ],
+      "tags": [
+        "skewered",
+        "handheld",
+        "ceremonial"
+      ]
+    },
+    {
+      "slug": "manju",
+      "name_ja": "饅頭",
+      "name_romaji": "Manju",
+      "name_en": "Manju — a bun of dough wrapped around sweet filling, steamed or baked",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "饅頭・焼き菓子",
+      "summary_ja": "小麦粉などの皮で餡を包み、蒸すか焼くかして作る菓子。中国から伝わった点心が起源とされ、肉食を避ける禅僧の食事にあわせて餡を詰める形に変わったと伝わる。蒸し饅頭と焼き饅頭に分かれ、無数の型を生んできたという。",
+      "summary_en": "A wrapper of wheat or other flour folded around sweet filling, then steamed or baked. It is said to trace back to a Chinese dumpling, reworked with bean paste in place of meat to suit the diet of Buddhist monks, and to have branched since into countless steamed and baked forms.",
+      "body_ja": "## 何でできているか\n小麦粉や米粉、山芋などで作った皮で、餡を包み込む構成が基本形。皮の配合と蒸すか焼くかの違いだけで、ふかふかとした蒸し饅頭にも、香ばしい焼き饅頭にもなる。酒種・麹・温泉の蒸気・すりおろした山芋など、皮に何を仕込むかで無数の型に枝分かれしてきたという。皮の厚みと餡の量の比率は店ごとに差があり、同じ饅頭でも印象を大きく左右するとされる。\n## どう作るのか\n皮の生地を練って餡を包み、蒸し器で蒸すか、鉄板や窯で焼くかして仕上げる。蒸し饅頭は皮に酒種や麹を加えて発酵させるものが多く、ふくらみとほのかな酸味が生まれる。焼き饅頭は皮に卵や黒糖を加え、表面に焦げ目をつけて香ばしさを出すことが多いとされる。蒸し器の火加減や蒸し時間の見極めは職人の経験に頼るところが大きく、季節や気温によっても加減を変えるという。\n## なぜこの形になったのか\n一説によると、中国から伝わった点心「饅頭」はもともと肉を詰めた料理で、肉食を避ける禅僧の食事作法にあわせて肉の代わりに小豆餡を詰めたものが日本の饅頭の原型になったと伝わる。皮に酒種を仕込む系統や、温泉地の蒸気を使う系統など、土地の醸造技術や資源に応じて型が分かれていったとされる。今日でも祝儀や仏事の引き出物として配られる饅頭が多いのは、この宗教的な由来と無縁ではないとされる。",
+      "body_en": "## What it's made of\nThe basic form is a wrapper — of wheat flour, rice flour, or grated mountain yam — folded around sweet filling. The blend of the wrapper dough and the choice of steaming versus baking is enough to turn the same idea into a fluffy steamed bun or a fragrant baked one. Fermented with sake lees, leavened with koji, steamed in a hot-spring's vapor, or bound with grated yam — the wrapper is said to have branched into countless local forms depending on what went into it. The ratio of wrapper thickness to filling volume differs from shop to shop, said to change the impression of the same manju considerably.\n## How it's made\nThe wrapper dough is kneaded around the filling, then either steamed or baked on a griddle or in an oven. Steamed versions often have sake lees or koji worked into the dough, which is said to give them their rise and a faint tang. Baked versions more often carry egg or brown sugar in the dough, browned on the surface for a toasted aroma. Judging the steamer's heat and timing relies heavily on a maker's experience, and is said to be adjusted by season and temperature.\n## Why it took this shape\nOne account holds that the Chinese dumpling this dish descends from was originally filled with meat, and that it was reworked with red bean paste in place of meat to suit the dietary rules of Buddhist monks — becoming the prototype of the Japanese manju. Lines built on sake-lees dough, or on the steam of a particular hot spring, are said to have branched off according to each region's fermenting know-how and local resources. That manju is still commonly handed out as a return gift at celebrations and memorial services is said to be no coincidence, given this religious origin.",
+      "sources": [
+        {
+          "title": "和菓子の種類",
+          "url": "https://www.wagashi.or.jp/monogatari/shiru/syurui/",
+          "publisher": "全国和菓子協会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "manju",
+          "to_slug": "onsen-manju",
+          "relation_type": "派生",
+          "basis": "温泉地の蒸気で仕上げる饅頭の型として、老舗の沿革で裏付けられる"
+        },
+        {
+          "from_slug": "manju",
+          "to_slug": "joyo-manju",
+          "relation_type": "派生",
+          "basis": "すりおろした山芋を皮に用いる饅頭の型として、老舗の沿革で裏付けられる"
+        }
+      ],
+      "tags": [
+        "ceremonial"
+      ]
+    },
+    {
+      "slug": "yokan",
+      "name_ja": "羊羹",
+      "name_romaji": "Yokan",
+      "name_en": "Yokan — a firm, sliceable block of sweet bean paste set with agar",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "羊羹・寒天",
+      "summary_ja": "餡を寒天で固め、切り分けて食べる菓子。中国から茶とともに伝わった羊肉入りの汁物「羹」が起源とされ、肉食を避ける精進料理として餡を用いる形に変わり、寒天の発見によって練り羊羹として完成したと伝わる。",
+      "summary_en": "Sweet bean paste set with agar into a firm block, sliced to eat. It is said to descend from a Chinese mutton soup called \"kan\" that arrived with tea, reworked into a meatless dish with bean paste for Buddhist cuisine, and completed as the sliceable \"neri-yokan\" once agar was discovered.",
+      "body_ja": "## 何でできているか\n餡と砂糖、寒天だけといういたってシンプルな組み合わせ。寒天の量と煮詰める時間の違いだけで、ぎっしりと詰まった練り羊羹にも、つるりと喉を通る水羊羹にもなる。栗や柚子などを練り込んだ型も、この基本形の延長線上にあるとされる。一棹の型に流して固め、切り分けて配る形式が定着したのも、贈答品としての性格と結びついているとされる。\n## どう作るのか\n餡に砂糖と水を加えて煮詰め、溶かした寒天を合わせてさらに練り上げ、型に流し込んで冷やし固める。練り上げる時間が長いほど水分が抜けて日持ちのする練り羊羹になり、寒天と水分を多めにすればなめらかな水羊羹になるという。寒天の量を変えるだけで硬さが大きく変わるため、練り羊羹と水羊羹の違いはこの配合にかかっているという。切り分けたときの断面の艶も、練り上げの丁寧さを映す目安とされる。\n## なぜこの形になったのか\n一説によると、羊羹はもともと中国から茶とともに伝わった羊肉入りの汁物「羹」がルーツで、肉食を避ける禅寺の食事にあわせて小麦粉や小豆で羊の姿を模したものに変わっていったと伝わる。江戸期に寒天の製法が広まると、汁物だった羊羹は固めて切り分けられる菓子へと形を変え、日持ちのする土産物として街道筋に定着していったとされる。",
+      "body_en": "## What it's made of\nThe combination is about as simple as it gets: bean paste, sugar, and agar. Varying only the amount of agar and the boiling time turns the same mixture into either a dense, long-keeping neri-yokan or a smooth, easy-swallowing mizu-yokan. Versions worked with chestnut or citrus are said to sit as extensions of this same basic form. Setting it in a single long mold and slicing it to share is said to be tied to its character as a gift.\n## How it's made\nBean paste is simmered down with sugar and water, combined with dissolved agar, worked further, then poured into a mold and chilled until set. The longer it is worked down, the more moisture leaves and the longer-keeping the neri-yokan becomes; more agar and water instead yields a smooth mizu-yokan. Because varying the amount of agar alone changes the firmness dramatically, the difference between neri-yokan and mizu-yokan is said to come down to this ratio. The sheen of a cut cross-section is also said to reflect how carefully it was worked down.\n## Why it took this shape\nOne account traces yokan back to a Chinese mutton soup called \"kan\" that arrived with tea, reworked with wheat flour or red beans shaped to resemble mutton to suit meatless Zen temple meals. Once agar-making spread in the Edo period, what had been a soup turned into a block that could be set and sliced, and it is said to have settled into post towns as a long-keeping souvenir.",
+      "sources": [
+        {
+          "title": "和菓子の由来",
+          "url": "https://www.wagashi.or.jp/monogatari/shiru/yurai/",
+          "publisher": "全国和菓子協会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [
+        {
+          "pref": "佐賀県",
+          "city": "小城市",
+          "lat": 33.2597,
+          "lng": 130.2178,
+          "relation_type": "本場",
+          "note_ja": "長崎街道沿いの城下町で、出島経由の砂糖が普及し天山山系の良水にも恵まれたことから、明治初期以降ここで練り羊羹づくりが盛んになったと伝わる。",
+          "note_en": "A castle town along the Nagasaki Kaido where sugar landed at Dejima spread widely and good water from the Tenzan mountains was plentiful; neri-yokan making is said to have flourished here from the early Meiji era.",
+          "source_url": "https://www.ogi-kankou.com/ogiyoukan"
+        },
+        {
+          "pref": "京都府",
+          "city": "京都市",
+          "lat": 35.0116,
+          "lng": 135.7681,
+          "relation_type": "本場",
+          "note_ja": "江戸期に寒天の製法が広まったのを受けて練り羊羹が生まれた地と伝わり、以来、茶席に添える菓子として練り上げる技術が磨かれてきたとされる。",
+          "note_en": "Said to be where neri-yokan was born once agar-making spread in the Edo period, and where the craft of working it down has since been refined as a sweet served alongside tea.",
+          "source_url": "https://www.wagashi.or.jp/monogatari/shiru/yurai/"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "yokan",
+          "to_slug": "neri-yokan",
+          "relation_type": "派生",
+          "basis": "寒天発見以降に確立した、じっくり練り上げる羊羹の型"
+        },
+        {
+          "from_slug": "yokan",
+          "to_slug": "mizu-yokan",
+          "relation_type": "派生",
+          "basis": "寒天と水分を多めにした、涼を感じさせる羊羹の型"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "slug": "mitarashi-dango",
+      "name_ja": "みたらし団子",
+      "name_romaji": "Mitarashi Dango",
+      "name_en": "Mitarashi dango — grilled rice dumplings glazed with a sweet soy sauce",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "京都府",
+      "origin_city": "京都市左京区",
+      "lat": 35.0402,
+      "lng": 135.7729,
+      "primary_style": "餅・団子",
+      "summary_ja": "焼き目をつけた団子に、醤油と砂糖の甘辛いたれをからめた串団子。下鴨神社の御手洗池に湧く水泡を模して作られたのが始まりと伝わり、境内の祭礼で厄除けとして食べられていたという。",
+      "summary_en": "Skewered dango with a light char, glazed in a sweet-savory soy sauce. Said to have begun as a shape modeled on the bubbles rising in Shimogamo Shrine's Mitarashi Pond, and once eaten at the shrine's rites for protection from misfortune.",
+      "body_ja": "## 何でできているか\n米粉の団子に、醤油と砂糖、片栗粉でとろみをつけたたれをからめただけの構成。団子そのものには味をつけず、たれの焦げた香ばしさと甘辛さで食べさせるのが身上で、串一本に刺す団子の数は五つとされることが多い。焼き目をつけるかどうかや、たれの濃さは店によって幅があり、下鴨神社の門前でも複数の系統が並んでいるとされる。\n## どう作るのか\n米粉を練って丸めた団子を茹でるか蒸すかして串に刺し、表面に軽く焼き目をつける。醤油と砂糖、水を煮詰めて片栗粉でとろみをつけたたれをかけ、さらにあぶって香ばしさを出してから供される。たれを二度塗りして照りを出す店もあれば、あっさりと一度だけかける店もあり、甘辛の加減は店ごとの流儀とされる。たれを煮詰めすぎると焦げやすいため、火から下ろす頃合いの見極めも欠かせないという。\n## なぜこの形になったのか\n一説によると、下鴨神社の御手洗池で清めの水をすくった際に浮かんだ水泡の様子を模して団子を作ったのが始まりと伝わる。串に五つ刺すのは人の五体を表すとも言われ、境内の祭礼で厄除けとして食べられていたものが、やがて門前の茶店で売られる菓子として定着していったとされる。門前で買い求めた団子を歩きながら食べる光景は、今も京都の観光の一場面として親しまれているとされる。",
+      "body_en": "## What it's made of\nJust rice-flour dango glazed with a sauce of soy sauce and sugar thickened with potato starch. The dango itself carries no flavor; the appeal sits entirely in the charred, sweet-savory glaze, and a skewer is said to usually carry five. Whether the surface is charred and how thick the glaze runs varies by shop, and several different lines are said to stand side by side even at Shimogamo Shrine's own gate.\n## How it's made\nDango kneaded from rice flour are boiled or steamed, skewered, and lightly charred on the surface. A sauce of soy sauce, sugar, and water thickened with potato starch is poured over them, and the skewer is grilled once more for a toasted aroma before serving. Some shops glaze twice for extra sheen, others just once for a lighter finish — the balance of sweet and savory is said to be each shop's own style. Simmering the glaze too long risks scorching it, so judging when to take it off the heat is also said to matter.\n## Why it took this shape\nOne account holds that the shape began as an imitation of the bubbles that rose when a purifying scoop of water was drawn from Shimogamo Shrine's Mitarashi Pond. Five dango to a skewer is also said to represent the five parts of the body, and what began as a rite of protection eaten within the shrine grounds is said to have settled into a sweet sold at the tea stalls by its gate. The sight of visitors eating dango bought at the temple gate while strolling is said to remain a familiar scene in Kyoto sightseeing today.",
+      "sources": [
+        {
+          "title": "みたらし祭（足つけ神事）のご案内",
+          "url": "https://www.shimogamo-jinja.or.jp/saiji/mitarashi",
+          "publisher": "下鴨神社（賀茂御祖神社）",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "mitarashi-dango",
+          "to_slug": "kushi-dango",
+          "relation_type": "対比",
+          "basis": "同じ串団子でも関東は一串4つ、下鴨は5つ刺しと伝わり、地域差を示す"
+        }
+      ],
+      "tags": [
+        "skewered",
+        "handheld",
+        "street_food"
+      ]
+    },
+    {
+      "slug": "kusa-mochi",
+      "name_ja": "草餅",
+      "name_romaji": "Kusamochi",
+      "name_en": "Kusamochi — mochi kneaded with mugwort, often filled with sweet bean paste",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "餅・団子",
+      "summary_ja": "よもぎを練り込んだ餅であんを包んだ、春先の菓子。もとは母子草を使ったとされ、のちに香りの強いよもぎに替わっていったという説がある。ひな祭りに供える地域が多いとされる。",
+      "summary_en": "Mochi kneaded with mugwort and often filled with sweet bean paste, a sweet of early spring. It is said to have first been made with cudweed before shifting to the more fragrant mugwort, and is offered at the Doll's Festival in many regions.",
+      "body_ja": "## 何でできているか\n芽吹いたばかりのよもぎをすりつぶして練り込んだ餅で、あんを包むか、そのまま切り分けて食べる。よもぎの青い香りと苦味が、甘い餡や砂糖の甘さとぶつかり合うのが持ち味とされる。よもぎの量を控えめにして色を薄くする店もあれば、濃い緑と強い香りを売りにする店もあり、好みが分かれるという。よもぎ特有の青臭さを和らげるため、重曹を加えて茹でる下処理をする作り手も多いという。\n## どう作るのか\n若いよもぎを茹でてすりつぶし、蒸したもち米に搗き込んで緑色の餅にする。あんを包んで丸めるか、のして切り分けて食べる。よもぎの育ち具合を待ってから作る土地もあるという。すり鉢で丹念にすりつぶすほど繊維が細かくなり、なめらかな餅に仕上がるとされ、手間のかかる工程とされる。餅とよもぎを搗き込む工程では、緑色が均一に回るまで力強くつくことが求められるとされる。\n## なぜこの形になったのか\n一説によると、もとは母子草を練り込んだ餅だったが、母と子を杵でつくのは縁起が悪いとされ、香りの強いよもぎに替わっていったと伝わる。邪気を払うとされるよもぎの薬効と、ひな祭りなど春の節句の暦が結びつき、春先だけの菓子として定着したとされる。あんを包まずきな粉だけで食べる素朴な形も伝わっており、家庭でも作られてきた菓子とされる。",
+      "body_en": "## What it's made of\nMochi kneaded with freshly sprouted mugwort, ground and worked into the rice, either wrapped around sweet bean paste or sliced plain. The draw is the clash between mugwort's grassy bitterness and the sweetness of the paste or sugar. Some shops use less mugwort for a paler color, others lean into a deep green and strong aroma — a matter of preference said to vary by shop. Many makers add baking soda while boiling the mugwort as a preliminary step to soften its grassy edge.\n## How it's made\nYoung mugwort is boiled, ground, and pounded into steamed glutinous rice to color the mochi green. It is then either wrapped around paste and shaped into balls, or rolled flat and cut into pieces. Some regions are said to wait for the mugwort to grow before making it. The more thoroughly the mugwort is ground in a mortar, the finer its fiber and the smoother the resulting mochi is said to become — a labor-intensive step. Pounding the mochi and mugwort together is said to require firm, thorough work until the green color spreads evenly.\n## Why it took this shape\nOne account holds that the mochi was originally kneaded with cudweed, but that pounding \"mother and child\" together with a pestle was considered inauspicious, so the more fragrant mugwort took its place. Mugwort's reputed power to ward off evil is said to have combined with the calendar of spring rites such as the Doll's Festival, settling this into a sweet made only in early spring. A plainer version eaten with just soybean flour and no paste inside is also said to survive, a sweet long made at home as well.",
+      "sources": [
+        {
+          "title": "草餅 栃木県｜うちの郷土料理",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_24_tochigi.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "kusa-mochi",
+          "to_slug": "kusamochi",
+          "relation_type": "対比",
+          "basis": "栃木県の草餅はひな節句に飾る地域習俗として既に登録されており、型そのものとは別枠で扱う"
+        }
+      ],
+      "tags": [
+        "ceremonial"
+      ]
+    },
+    {
+      "slug": "botamochi",
+      "name_ja": "おはぎ・ぼたもち",
+      "name_romaji": "Ohagi / Botamochi",
+      "name_en": "Ohagi / botamochi — lightly pounded rice coated in sweet bean paste",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "餅・団子",
+      "summary_ja": "軽く搗いた米粒にあんをまとわせた菓子。彼岸に供える習わしがあり、粒あんの小豆が点々と散る様子を萩の花に見立てて「おはぎ」、春は牡丹に見立てて「ぼたもち」と呼び分けたとされる。",
+      "summary_en": "Lightly pounded rice coated in sweet bean paste, offered at the equinox. The speckled look of chunky bean paste is said to have been likened to bush clover blossoms in autumn — hence \"ohagi\" — and to peonies in spring, giving \"botamochi.\"",
+      "body_ja": "## 何でできているか\nもち米とうるち米を混ぜて炊き、米粒の形が半分残る程度に軽く搗いたものに、餡やきな粉、すりごまをまとわせた菓子。餅のようにつきすぎないのが身上で、米粒の粒感そのものを食感として楽しむとされる。すりごまやずんだをまとわせる地域もあり、まとう粉や餡の種類の多さがこの菓子の懐の深さを物語っているという。俵形に握る際、手のひらを軽く湿らせておくと米粒がくっつきにくいという工夫も伝わる。\n## どう作るのか\n米を炊いて軽く潰し、俵形や丸形に握る。周りに粒あんやこしあん、きな粉、すりごまなどをまとわせて仕上げる。餡は季節によって粒あんとこしあんを使い分ける店もあるという。米を炊く際の水加減ひとつで、俵形にまとまる硬さが変わるため、炊き加減が仕上がりを左右するとされる。彼岸の時期以外にも、法事や来客のもてなしとして作られる家庭料理としての一面も持つとされる。\n## なぜこの形になったのか\n一説によると、粒あんの小豆の皮が点々と散る様子が、小さな萩の花が咲き乱れる姿に似ていることから「萩の餅」と呼ばれ、女官などの言葉遣いで「おはぎ」になったと伝わる。春の彼岸には牡丹の花に見立てて「ぼたもち」と呼び分ける習わしが各地に残っているとされる。春と秋で呼び名を変える習わしは、季節の花を菓子に映し込むという和菓子全体に通じる感覚の表れともされる。",
+      "body_en": "## What it's made of\nGlutinous and non-glutinous rice are cooked together and lightly pounded, leaving the grains half-intact, then coated in bean paste, roasted soybean flour, or ground sesame. The point is not to pound it into full mochi — the grainy texture of the rice itself is part of the appeal. Some regions coat it in ground sesame or mashed edamame instead, and the sheer variety of coatings is said to speak to how broadly this sweet has been adapted. Lightly wetting the palms before shaping the ovals is said to be a known trick to keep the rice grains from sticking.\n## How it's made\nRice is cooked and lightly crushed, then shaped into ovals or balls by hand. The outside is coated in chunky or smooth bean paste, soybean flour, or ground sesame; some shops are said to switch between chunky and smooth paste by season. The water ratio used to cook the rice alone changes how firmly it holds its oval shape, and is said to be what determines the final texture. Beyond the equinox, it is also said to be made at home for memorial gatherings and for entertaining guests.\n## Why it took this shape\nOne account holds that the speckled look of chunky bean paste's red bean skins was likened to bush clover in bloom, giving the name \"hagi no mochi,\" which court women's speech softened into \"ohagi.\" At the spring equinox the same sweet is said to be called \"botamochi\" instead, likened to peony blossoms — a naming custom said to survive in many regions. The custom of switching names between spring and autumn is said to reflect a sensibility common across wagashi generally: mapping a season's flowers onto a sweet.",
+      "sources": [
+        {
+          "title": "和菓子の由来",
+          "url": "https://www.wagashi.or.jp/monogatari/shiru/yurai/",
+          "publisher": "全国和菓子協会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "botamochi",
+          "to_slug": "ohagi",
+          "relation_type": "対比",
+          "basis": "京都府の地域アイテムとして既に登録されているおはぎとは別に、型としての呼び分けを扱う"
+        }
+      ],
+      "tags": [
+        "ceremonial"
+      ]
+    },
+    {
+      "slug": "warabi-mochi",
+      "name_ja": "わらび餅",
+      "name_romaji": "Warabimochi",
+      "name_en": "Warabimochi — a jelly-like sweet made from bracken starch",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "餅・団子",
+      "summary_ja": "わらびの根から採れるでんぷんを水と砂糖で練り上げ、冷やし固めた菓子。わらび粉は採取と精製に手間がかかるため古くから高価な食材とされ、きな粉や黒蜜をかけて食べるという。",
+      "summary_en": "Starch extracted from bracken root, simmered with water and sugar and chilled until set. Bracken starch has long been a costly ingredient due to the labor of gathering and refining it, and the sweet is typically topped with roasted soybean flour or dark syrup.",
+      "body_ja": "## 何でできているか\nわらびの地下茎から採れるでんぷん、水、砂糖のみというごく単純な構成。透明感のあるぷるぷるとした食感が身上で、きな粉や黒蜜をまとわせて食べることが多いとされる。本物のわらび粉は採取量が少なく高価なため、じゃがいもやさつまいものでんぷんを混ぜた廉価な製品も広く流通しているという。鍋の中で急速に透明になっていく様子が仕上がりの合図とされ、そこから手早く型に移すという。\n## どう作るのか\nわらび粉を水で溶き、砂糖を加えて鍋で火にかけながら練り、半透明になるまで炊き上げてから冷やし固める。粘りが強く焦げつきやすいため、火加減とかき混ぜ続ける根気が要るという。練り上げる際に鍋肌にこびりつきやすいため、木べらで底からしっかりかき混ぜ続ける根気のいる作業とされる。涼を感じさせる菓子として、氷を浮かべた器に盛って供する店も多いとされる。\n## なぜこの形になったのか\n一説によると、わらびの根からでんぷんを採る技術と、それを冷やし固めて食べる工夫が結びついて生まれたとされる。わらび粉は採取に手間がかかる希少な食材だったため、行事や来客のもてなしに使われる菓子として扱われてきたと伝わる。冷蔵すると硬くなり風味が落ちるため、作りたてをその日のうちに食べるのが本来の楽しみ方とされる。",
+      "body_en": "## What it's made of\nJust starch from bracken rhizomes, water, and sugar — about as simple as it gets. The draw is a translucent, quivering texture, most often eaten dusted with roasted soybean flour or drizzled with dark syrup. Genuine bracken starch is scarce and costly to gather, so cheaper versions blended with potato or sweet potato starch are also said to circulate widely. The mixture turning translucent quickly in the pot is said to be the signal it's ready, at which point it's moved swiftly into a mold.\n## How it's made\nBracken starch is dissolved in water, mixed with sugar, and worked over heat in a pot until it turns translucent, then chilled until set. The mixture is sticky and prone to scorching, so it is said to demand careful heat control and constant stirring. The mixture tends to stick to the bottom of the pot while it's worked, so scraping and stirring continuously with a wooden spatula is said to demand real patience. As a sweet meant to feel cool, many shops are said to serve it in a bowl with ice.\n## Why it took this shape\nOne account holds that the technique of extracting starch from bracken roots combined with the idea of chilling it into a set sweet. Because bracken starch was a scarce ingredient requiring laborious gathering, it is said to have been treated as a sweet reserved for rites and for entertaining guests. Refrigeration hardens it and dulls the flavor, so eating it fresh on the day it's made is said to be the proper way to enjoy it.",
+      "sources": [
+        {
+          "title": "わらびもち｜にっぽん伝統食図鑑",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/warabimoti.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "warabi-mochi",
+          "to_slug": "warabimochi",
+          "relation_type": "対比",
+          "basis": "奈良県の地域アイテムとして既に登録されている蕨餅とは別に、全国区の型を扱う"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "slug": "kuzukiri",
+      "name_ja": "葛切り",
+      "name_romaji": "Kuzukiri",
+      "name_en": "Kuzukiri — noodle-like strips of kudzu starch jelly",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "羊羹・寒天",
+      "summary_ja": "葛粉を水に溶いて型に流し、加熱して固めたのち麺状に細く切った菓子。黒蜜をかけて食べることが多く、葛餅と同じ葛粉から作られながら、食感と食べ方が対照的な型とされる。",
+      "summary_en": "Kudzu starch dissolved in water, poured into a mold, heated until set, then cut into thin noodle-like strips. Usually eaten with dark syrup, it shares its raw material with kuzumochi but is worked into a contrasting texture and way of eating.",
+      "body_ja": "## 何でできているか\n葛粉と水だけといういたって単純な材料構成。透明でつるりとした喉ごしと、麺のように細く切られた見た目が身上で、黒蜜をかけて冷たいまま食べることが多いとされる。葛粉100パーセントで作るものほど価格が高く、でんぷんを混ぜた廉価な製品と食感で区別されるとされる。透明度の高さがそのまま品質の目安とされ、白く濁ったものは精製が甘いとみなされるという。\n## どう作るのか\n葛粉を水で溶いて薄く型に流し、湯せんや直火で加熱して固める。透明になったら冷水にとって冷まし、麺のように細く切り分けてから、氷水に浮かべて供されることが多いという。型に流す生地の薄さが仕上がりの太さを左右し、薄いほど繊細な麺状に仕上がるという。氷を浮かべた器で供されることが多く、目でも涼を感じさせる盛り付けが工夫されているとされる。\n## なぜこの形になったのか\n一説によると、葛粉を溶いて固める製法自体は葛餅と共通するが、薄く延ばして麺状に切るという工夫が加わることで、涼を感じさせる夏向きの菓子として発展していったと伝わる。透明な見た目と細い形が、暑い盛りの喉ごしのよさを演出する仕立てとされる。料亭の甘味として供される機会も多く、季節を問わず楽しめる涼菓として茶懐石にも取り入れられてきたとされる。",
+      "body_en": "## What it's made of\nAs simple as it gets: kudzu starch and water. The draw is a clear, smooth, slippery texture and noodle-thin strips, typically served cold with dark syrup poured over. Versions made from 100 percent kudzu starch command a higher price, and are said to be distinguished by texture from cheaper products blended with other starches. A high degree of clarity is said to be a direct measure of quality, with a cloudy white result seen as under-refined.\n## How it's made\nKudzu starch dissolved in water is poured thinly into a mold and set by heating in a water bath or over direct flame. Once translucent it is cooled in cold water, cut into thin noodle-like strips, and often served floating in ice water. How thinly the mixture is poured into the mold determines the final thickness of the strips, with a thinner pour said to yield a more delicate noodle. It is often served in a bowl with ice, the presentation said to be arranged so the eye, too, senses the coolness.\n## Why it took this shape\nOne account holds that while the base technique of dissolving and setting kudzu starch is shared with kuzumochi, rolling it thin and cutting it into noodle-like strips developed it into a summer sweet meant to feel cool. The clear look and thin cut are said to be a deliberate way of making the sweet slip pleasantly down the throat in the heat. It is often served as a sweet at traditional restaurants, and is said to have found a place in tea-kaiseki cuisine as a refreshing treat regardless of season.",
+      "sources": [
+        {
+          "title": "くず餅、わらび餅、くずきりの違いとは？",
+          "url": "https://mi-journey.jp/foodie/89466/",
+          "publisher": "三越伊勢丹の食メディア FOODIE",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "kuzukiri",
+          "to_slug": "kuzumochi",
+          "relation_type": "兄弟",
+          "basis": "同じ葛粉を水に溶いて固める製法から、麺状に切るか塊のまま食べるかで分かれた型"
+        }
+      ],
+      "tags": [
+        "cold_served"
+      ]
+    },
+    {
+      "slug": "kuzumochi",
+      "name_ja": "葛餅",
+      "name_romaji": "Kuzumochi",
+      "name_en": "Kuzumochi — a heavy, translucent jelly-mochi made from kudzu starch",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "羊羹・寒天",
+      "summary_ja": "葛粉を水と砂糖で溶かし、透明になるまで練り上げた餅状の菓子。厳冬期の地下水にさらして精製する「吉野晒し」という製法が知られ、きな粉や黒蜜をかけて食べることが多いとされる。",
+      "summary_en": "Kudzu starch dissolved in water and sugar, worked until translucent and set into a soft, jelly-like mochi. Known for a refining method called \"Yoshino-zarashi,\" using icy winter groundwater, it is typically topped with roasted soybean flour or dark syrup.",
+      "body_ja": "## 何でできているか\n葛粉と水、砂糖だけといういたって単純な材料構成。とろりと重みのある透明な生地が身上で、わらび餅より粘りが強く、しっかりとした弾力が残るとされる。関東では小麦でんぷんを発酵させた別種の菓子を同じ名で呼ぶこともあり、葛粉を使う関西の型とは製法がまったく異なるとされる。葛粉は本葛と呼ばれる純粋なものほど高価で、でんぷんを混ぜた廉価な代用品と区別されるという。\n## どう作るのか\n葛粉を水で溶き、砂糖を加えて鍋で練りながら加熱し、透明になるまで火を通してから型に流して冷やし固める。葛粉は厳冬期の地下水にさらして不純物を沈める「吉野晒し」と呼ばれる精製法で作られることが知られている。加熱の途中で焦げつきやすいため、絶えずかき混ぜながら透明度を見極める経験が要るという。透明感の強さが職人の腕を示すとされ、加熱時間の見極めが仕上がりを大きく左右するという。\n## なぜこの形になったのか\n一説によると、葛の根からでんぷんを採る技術がわらび餅と共通し、精製した葛粉を水で溶いて固めるという工夫から生まれたと伝わる。寒冷な地下水にさらして精製する手間のかかる工程が、冬場の限られた時期にしか作れない希少な菓子としての位置づけを支えてきたとされる。冷やしすぎるとでんぷんが白く戻って硬くなるため、常温に近い状態で供されることが多いとされる。",
+      "body_en": "## What it's made of\nJust kudzu starch, water, and sugar. The draw is a heavy, translucent dough with more pull and a firmer body than warabimochi. In Kanto, a different sweet made from fermented wheat starch is sometimes called by the same name, its method said to be entirely unlike the kudzu-based version common in Kansai. Pure kudzu starch, called \"honkuzu,\" commands a higher price and is said to be distinguished from cheaper substitutes blended with other starches.\n## How it's made\nKudzu starch is dissolved in water, mixed with sugar, and worked over heat in a pot until translucent, then poured into a mold and chilled until set. The starch itself is known for a refining method called \"Yoshino-zarashi,\" soaked in icy groundwater through the depths of winter to let impurities settle out. The mixture scorches easily partway through cooking, so continuous stirring while judging the degree of translucency is said to require real experience. A strong degree of clarity is said to mark a maker's skill, with the timing of the heating step said to weigh heavily on the result.\n## Why it took this shape\nOne account holds that the technique of extracting starch from kudzu root shares its roots with warabimochi, and that the idea of dissolving refined kudzu starch in water and setting it developed from there. The labor of refining it in cold groundwater is said to have kept it a scarce sweet, made only within a narrow winter window. Chilling it too much causes the starch to turn cloudy and firm up again, so it is often served closer to room temperature.",
+      "sources": [
+        {
+          "title": "くず餅、わらび餅、くずきりの違いとは？",
+          "url": "https://mi-journey.jp/foodie/89466/",
+          "publisher": "三越伊勢丹の食メディア FOODIE",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "kuzumochi",
+          "to_slug": "yoshino-kuzumochi",
+          "relation_type": "対比",
+          "basis": "奈良県吉野町の地域アイテムとして既に登録されている葛餅とは別に、全国区の型を扱う"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "slug": "dorayaki",
+      "name_ja": "どら焼き",
+      "name_romaji": "Dorayaki",
+      "name_en": "Dorayaki — two small pancakes sandwiching sweet bean paste",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "饅頭・焼き菓子",
+      "summary_ja": "カステラ生地に似た小さな丸い焼き皮二枚で餡を挟んだ菓子。打楽器の銅鑼に形が似ていることから名がついたとされるが由来には諸説あり、丸く厚みのある今の形が定着したのは大正期からと伝わる。",
+      "summary_en": "Two small round pancakes, similar to castella batter, sandwiching sweet bean paste. The name is said to come from its resemblance to a dora gong, though accounts differ, and the thick, round form known today is said to have settled in only from the Taisho era.",
+      "body_ja": "## 何でできているか\n小麦粉と卵、砂糖を合わせたカステラに似た生地を丸く焼き、二枚一組にして粒あんを挟むだけの構成。生地のふんわりとした甘さと、挟んだ餡の重みのある甘さが層になって伝わるのが身上とされる。皮の厚みや餡の量は店ごとに個性が出やすく、二枚の皮の焼きムラの少なさが職人の技量とされることもあるという。皮を二枚焼く際、色味と大きさをそろえるのに手間がかかるとされ、修行の第一歩とも言われる。\n## どう作るのか\n小麦粉に卵、砂糖、みりんなどを合わせた生地を鉄板に丸く流し、両面に焼き色をつけて小さな円形に焼き上げる。二枚を餡ではさみ、生地のしっとり感が保たれるよう時間をおいてから包装することが多いという。生地に蜂蜜を加える店もあり、しっとり感を長く保つ工夫として広まっているとされる。焼きたてを食べるか、一晩おいて生地に餡の水分がなじんでから食べるかで好みが分かれるという。\n## なぜこの形になったのか\n一説によると、名前は打楽器の銅鑼に形が似ていることに由来すると伝わるが、確たる史料はなく諸説あるという。江戸初期は生地であんを包む四角い形だったとされ、二枚の生地で挟む丸い形が広まったのは大正期以降とされる。漫画やアニメの人気キャラクターが好んで食べる菓子として描かれたことも、全国的な知名度を後押ししたとの見方がある。",
+      "body_en": "## What it's made of\nA castella-like batter of wheat flour, egg, and sugar is baked into small round pancakes, two of which sandwich a layer of chunky bean paste — nothing more. The draw is the way the batter's soft sweetness and the paste's denser sweetness read as two distinct layers. The thickness of the batter disc and the amount of paste vary widely by shop, and evenness in the browning of the two discs is sometimes said to mark a maker's skill. Matching the color and size of the two baked discs is said to take real effort, often cited as a first step in a confectioner's training.\n## How it's made\nA batter of wheat flour, egg, sugar, and mirin is poured in rounds onto a griddle and browned on both sides into small discs. Two are sandwiched around bean paste, and the sweet is often left to rest before wrapping so the batter's moistness settles in. Some shops add honey to the batter, said to be a way of keeping the moist texture from drying out for longer. Preference is said to split between eating it fresh off the griddle and letting it rest overnight so the batter absorbs moisture from the paste.\n## Why it took this shape\nOne account holds that the name comes from a resemblance to the dora gong, though no firm historical record backs this and other stories exist. Early Edo-period versions are said to have been square, wrapping the paste inside folded batter; the round, two-disc sandwich known today is said to have spread only from the Taisho era. Its depiction as a favorite sweet of a well-known cartoon character is also said, in one view, to have helped push its nationwide recognition.",
+      "sources": [
+        {
+          "title": "うさぎや【台東区・上野広小路】東京三大どら焼きに数えられる、出来立てほど美味しさ増す極上「どらやき」",
+          "url": "https://www.tokyo-np.co.jp/article/285453",
+          "publisher": "東京新聞デジタル",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "dorayaki",
+          "to_slug": "imagawayaki",
+          "relation_type": "兄弟",
+          "basis": "同じ小麦粉の焼き生地であんを包む、鉄板焼きの菓子という共通点"
+        }
+      ],
+      "tags": [
+        "handheld",
+        "street_food"
+      ]
+    },
+    {
+      "slug": "imagawayaki",
+      "name_ja": "今川焼き・大判焼き",
+      "name_romaji": "Imagawayaki / Obanyaki",
+      "name_en": "Imagawayaki / obanyaki — round batter cakes baked in a mold and filled with sweet bean paste",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "饅頭・焼き菓子",
+      "summary_ja": "円形の型に生地を流し込み、あんを挟んで焼き上げる菓子。江戸の今川橋近くの店で売り出されたのが名の由来という説があり、1777年刊の江戸の刊行物にすでに名が見えるとされる。",
+      "summary_en": "Batter poured into round molds, filled with sweet bean paste, and baked closed. One account traces the name to a shop that sold it near Edo's Imagawa Bridge, and the name is said to already appear in an Edo-period publication from 1777.",
+      "body_ja": "## 何でできているか\n小麦粉と卵、砂糖を合わせた生地であんを挟み、円形の型で両面を焼き固めた菓子。表面はカリッと香ばしく、中はふっくらとした生地とあんの甘さが詰まっているのが身上とされる。餡の代わりにクリームや餅を詰めた変わり種も広がり、円形の型さえあれば中身は自由という懐の深さがあるとされる。型に油をなじませる加減ひとつで生地の剥がれやすさが変わり、これも修練の要る工程とされる。\n## どう作るのか\n水で溶いた生地を丸い専用の型に流し込み、あんをのせてもう片方の生地をかぶせ、両面から焼いて閉じる。近年はカスタードや果物あんなど餡以外の変わり種も広がっているという。鉄板の温度管理ひとつで皮の厚みや焼き色が変わるため、店ごとの味の違いはこの火加減に表れるという。縁日や祭りの屋台で焼きたてを売る光景は、今も各地の年中行事に欠かせない一幕とされる。\n## なぜこの形になったのか\n一説によると、江戸中期の安永年間、今川橋付近の店が桶狭間合戦にちなんで「今川焼き」と名付けて売り出し評判を呼んだことが名の由来とされ、1777年刊行の書物にはすでにこの名が記されているという。地域によっては「大判焼き」「回転焼き」など呼び名が分かれ、全国レベルでは大判焼きの呼称が優勢とする調査もあるとされる。",
+      "body_en": "## What it's made of\nA wheat-flour, egg, and sugar batter sandwiches sweet bean paste, baked between the two halves of a round mold until set. The draw is a crisp, browned surface around a soft interior packed with batter and paste. Variants filled with cream or mochi instead of bean paste have also spread, reflecting a flexibility said to come from the fact that only the round mold itself is fixed. How well the mold is seasoned with oil alone changes how easily the batter releases, said to be another step that takes practice.\n## How it's made\nBatter thinned with water is poured into a dedicated round mold, topped with bean paste, covered with more batter, and baked closed from both sides. Custard and fruit fillings are said to have spread more recently alongside the classic bean paste. Managing the griddle's heat alone changes the batter's thickness and browning, and differences in flavor between shops are said to show up in this heat control. The sight of it baked fresh at festival stalls is said to remain an indispensable scene at seasonal events across the country.\n## Why it took this shape\nOne account holds that a shop near Edo's Imagawa Bridge in the mid-Edo Anei era named it \"Imagawayaki\" after the Battle of Okehazama to draw attention, and that the name already appears in a book published in 1777. The sweet is said to go by different names in different regions — \"obanyaki,\" \"kaitenyaki\" — with one survey suggesting \"obanyaki\" is the more common name nationwide.",
+      "sources": [
+        {
+          "title": "今川焼き／いまがわやき",
+          "url": "https://gogen-yurai.jp/imagawayaki/",
+          "publisher": "語源由来辞典",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "imagawayaki",
+          "to_slug": "taiyaki",
+          "relation_type": "源流",
+          "basis": "今川焼きの生地と製法を鯛の形の型に置き換えたのがたい焼きの始まりと伝わる"
+        }
+      ],
+      "tags": [
+        "handheld",
+        "street_food"
+      ]
+    },
+    {
+      "slug": "taiyaki",
+      "name_ja": "鯛焼き",
+      "name_romaji": "Taiyaki",
+      "name_en": "Taiyaki — a fish-shaped batter cake filled with sweet bean paste",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "饅頭・焼き菓子",
+      "summary_ja": "今川焼きの生地を鯛の形の型で焼いた菓子。明治後期、今川焼きの生地をめでたい魚の形にして焼く工夫が編み出されたのが始まりと伝わり、一匹ずつ焼く一丁焼きの店も今なお残るとされる。",
+      "summary_en": "Imagawayaki batter baked in a fish-shaped mold. Said to have emerged in the late Meiji era when someone reworked imagawayaki's batter into the shape of an auspicious fish, and some shops are said to still bake one at a time in single molds.",
+      "body_ja": "## 何でできているか\n今川焼きと同じ小麦粉主体の生地であんを挟み、鯛の姿を模した金属の型で焼き固めた菓子。頭からしっぽまで生地とあんが行き渡るよう、型のすみずみまで生地を流し込むのが職人の技とされる。尾の先まであんを行き渡らせる店もあれば、頭に餡を寄せる店もあり、食べ始める向きの好みが議論になることもあるという。尾の先までパリッと焼き上げるには型全体に均等に火を通す必要があり、経験がものを言うとされる。\n## どう作るのか\n鯛の形をした二枚一組の金型に生地を流し込み、あんをのせてもう片方をかぶせて挟み、両面を焼いて閉じる。一つの型で一匹ずつ焼く一丁焼きと、連なった型で一度に何匹も焼く連式があるという。天然物と呼ばれる一丁焼きは焼き上がりに時間がかかる分、皮の香ばしさが際立つとされ、連式との違いが好まれる理由とされる。焼き型自体を修理しながら何十年も使い続ける店もあり、型そのものに味の記憶が宿るとも語られる。\n## なぜこの形になったのか\n一説によると、明治後期に今川焼きの生地を、縁起のよい魚とされる鯛の形にして焼く方法が編み出されたのが始まりと伝わる。丸い焼き菓子をめでたい魚の姿に変えるという工夫が評判を呼び、庶民の手に届く値段のごちそうとして広まっていったとされる。頭から食べるか尾から食べるかという他愛のない議論が、今も話題として語り継がれているという。",
+      "body_en": "## What it's made of\nThe same wheat-flour-based batter as imagawayaki sandwiches sweet bean paste, baked in a metal mold shaped like a tai (sea bream). Filling the mold evenly from head to tail with batter and paste is said to be where a maker's skill shows. Some shops pack paste all the way to the tip of the tail, others concentrate it near the head — a difference said to fuel debate over which end to eat first. Baking the tail crisp all the way to its tip requires even heat across the whole mold, said to be where experience counts.\n## How it's made\nBatter is poured into a two-piece fish-shaped mold, topped with bean paste, closed with the other half, and baked on both sides. Some shops bake one fish at a time in a single mold; others use a chained mold that bakes several at once. The single-mold style, sometimes called \"natural,\" takes longer to bake, said to give the batter a more pronounced toasted aroma — one reason it's favored over the chained-mold style. Some shops are said to keep repairing and using the same mold for decades, with the mold itself said to carry a memory of the flavor.\n## Why it took this shape\nOne account holds that in the late Meiji era, someone reworked imagawayaki's batter into the shape of the tai, a fish long considered auspicious in Japan. Turning a round baked cake into the form of a celebratory fish is said to have drawn attention, and the sweet spread as an affordable treat within reach of ordinary people. The lighthearted debate over whether to eat it head-first or tail-first is said to still be passed around as a topic of conversation.",
+      "sources": [
+        {
+          "title": "浪花家総本店【港区・麻布十番】あんこを究め続けて113年。庶民のおやつであり続ける“たい焼きの金字塔”",
+          "url": "https://www.tokyo-np.co.jp/article/185997",
+          "publisher": "東京新聞デジタル",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "taiyaki",
+          "to_slug": "anko",
+          "relation_type": "使用食材",
+          "basis": "生地で挟む中身の大部分を占める餡"
+        }
+      ],
+      "tags": [
+        "handheld",
+        "street_food"
+      ]
+    },
+    {
+      "slug": "onsen-manju",
+      "name_ja": "温泉饅頭",
+      "name_romaji": "Onsen Manju",
+      "name_en": "Onsen manju — a steamed bun colored and flavored to suit a hot-spring resort",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "群馬県",
+      "origin_city": "渋川市",
+      "lat": 36.4958,
+      "lng": 138.9236,
+      "primary_style": "饅頭・焼き菓子",
+      "summary_ja": "黒糖などで茶色く色づけた皮で餡を包み蒸した饅頭。伊香保温泉の湯の花まんじゅうが元祖の一つとされ、温泉の湯の色を映したような焼き色が特徴で、各地の温泉地で土産として広まったと伝わる。",
+      "summary_en": "A steamed bun with a wrapper darkened with brown sugar, wrapped around sweet bean paste. The \"yunohana manju\" of Ikaho Onsen is said to be one of its originators, its brown color echoing the hue of the hot spring's water, and it is said to have spread as a souvenir across hot-spring resorts nationwide.",
+      "body_ja": "## 何でできているか\n黒糖や上白糖で色づけた蒸し饅頭の皮で、こしあんを包んだ構成。皮の色が薄茶色をしているのが特徴で、温泉の湯の色や温泉地らしさを演出する狙いがあるとされる。酒種を使わず重曹だけで膨らませる簡便な製法も広がり、短時間で大量に作れることが土産物としての普及を後押ししたという。茶色の濃さは黒糖の配合量で決まり、色の濃淡そのものが店の個性として語られることもあるという。\n## どう作るのか\n黒糖を溶かした生地に酒種や膨張剤を加えて発酵・膨張させ、餡を包んで蒸し上げる。温泉地では実際に温泉の蒸気を利用して蒸す製法をとる店もあると伝わる。竹皮や経木で包んで蒸したての温かさを保つ売り方も伝わり、旅先で温泉気分を持ち帰る演出とされている。温泉地の売店では蒸したてを湯気ごと売る店もあり、旅情を演出する売り方として親しまれているとされる。\n## なぜこの形になったのか\n一説によると、明治43年に伊香保温泉で菓子職人が温泉地の名物として考案した湯の花まんじゅうが元祖の一つとされる。昭和期に皇室へ献上されたことが評判を呼び、以後、各地の温泉地が同様の色づけした饅頭を土産物として作るようになったと伝わる。土産物として持ち帰る場合は個別包装され、日持ちを考慮した加工が施されることが多いという。",
+      "body_en": "## What it's made of\nA steamed bun wrapper colored with brown or refined sugar, wrapped around smooth bean paste. The wrapper's light brown color is its signature feature, said to be meant to evoke the hue of hot-spring water and the feel of a spa resort. A simpler method using baking soda instead of sake lees has also spread, and being quick to make in large batches is said to have helped its spread as a souvenir. The depth of the brown color is determined by how much brown sugar goes into the mix, and the shade itself is sometimes said to become a shop's signature.\n## How it's made\nDough colored with brown sugar is leavened with sake lees or a raising agent and left to rise, then wrapped around paste and steamed. Some resorts are said to steam it with actual vapor drawn from the hot spring itself. Wrapping it in bamboo bark or thin wood shavings to keep it warm fresh from the steamer is also a known way of selling it, said to carry home a taste of the hot-spring visit. Some resort shops sell it steaming hot straight from the steamer, a way of selling it said to be loved for evoking the mood of travel.\n## Why it took this shape\nOne account holds that a confectioner at Ikaho Onsen devised \"yunohana manju\" in 1910 as a specialty of the resort, one of the sweet's originators. Its presentation to the imperial family in the Showa era is said to have drawn wide attention, after which hot-spring resorts elsewhere are said to have begun making similarly colored manju as souvenirs. Versions taken home as souvenirs are individually wrapped, often processed with shelf life in mind.",
+      "sources": [
+        {
+          "title": "勝月堂の歴史",
+          "url": "https://www.shougetsudo.net/history.php",
+          "publisher": "勝月堂（伊香保温泉）",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "onsen-manju",
+          "to_slug": "sake-manju",
+          "relation_type": "対比",
+          "basis": "同じ饅頭の型でも、皮の発酵に酒種を主とするか黒糖の色づけを主とするかで対照的"
+        }
+      ],
+      "tags": [
+        "ceremonial"
+      ]
+    },
+    {
+      "slug": "joyo-manju",
+      "name_ja": "薯蕷饅頭",
+      "name_romaji": "Joyo Manju",
+      "name_en": "Joyo manju — a manju with a wrapper leavened using grated mountain yam",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "饅頭・焼き菓子",
+      "summary_ja": "すりおろした山芋を皮に練り込んで蒸す饅頭。もとは身分の高い者だけが口にできたことから「上用」の字が当てられたとされ、饅頭のなかでも技量が表れる型として祝儀・仏事に用いられるという。",
+      "summary_en": "A manju whose wrapper is kneaded with grated mountain yam before steaming. Once eaten only by people of high status, it is said to have taken the characters for \"upper use,\" and is treated as a type that reveals a maker's skill, used for both celebrations and memorial services.",
+      "body_ja": "## 何でできているか\nすりおろした山芋に米粉と砂糖を合わせた皮で、こしあんを包んだ蒸し饅頭。皮に山芋を使うことでふわりと軽い口あたりになり、ほのかな自然な甘みが加わるのが身上とされる。紅白に染め分けて祝い事に使う型もあり、白は慶事、紅白の対は結納など、色の使い分けに意味が込められているとされる。山芋の質と摺り加減が皮の口あたりを決めるとされ、この一手間が価格差にも直結するという。\n## どう作るのか\n山芋をすりおろして米粉と砂糖を合わせ、皮の生地を練り上げる。こしあんを包んで蒸し上げると、皮がふっくらと膨らみ、表面に細かなひび模様が入ることが多いという。皮だけで店の技量がわかるとも言われる。蒸し上がりのひび模様は自然にできるものとされ、あえて均一にしすぎないことを良しとする流儀もあるという。重厚な木箱に詰めて贈る慣わしもあり、菓子そのものより贈答の作法として扱われる側面もあるという。\n## なぜこの形になったのか\n一説によると、山芋を使う饅頭は奈良時代に起源を持ち、当初は身分の高い者への献上品として扱われたことから「上用」の字が当てられたと伝わる。単純な材料構成だからこそ職人の技量の差がそのまま皮の出来に表れるとされ、祝儀や仏事など改まった場に用いられる饅頭の型として定着したという。蒸し上がった直後は柔らかすぎるため、ある程度冷ましてから箱に詰めるのが基本とされる。",
+      "body_en": "## What it's made of\nA steamed manju whose wrapper combines grated mountain yam, rice flour, and sugar around smooth bean paste. The yam in the wrapper is said to give it a light, airy bite and a faint natural sweetness of its own. Versions dyed red and white for celebrations are also known, the color choices said to carry meaning — white for auspicious events, a red-and-white pair for betrothal gifts. The quality of the yam and how finely it's grated are said to determine the wrapper's mouthfeel, this one extra step said to be reflected directly in price.\n## How it's made\nGrated mountain yam is mixed with rice flour and sugar and worked into a wrapper dough. Wrapped around smooth bean paste and steamed, the wrapper puffs up and often develops fine cracks on its surface — said to be where a shop's skill shows through. The cracked surface that appears after steaming is said to form naturally, and some traditions are said to favor not smoothing it into perfect uniformity. A custom of packing it into a formal wooden box as a gift is also known, treated as much as an act of etiquette as a sweet in its own right.\n## Why it took this shape\nOne account traces manju made with mountain yam back to the Nara period, when it is said to have been offered to people of high rank, earning it characters that read as \"for upper use.\" Because the ingredient list is so simple, differences in a maker's skill are said to show directly in how the wrapper turns out, and it is said to have settled into the manju used at formal occasions such as celebrations and memorial services. Straight out of the steamer it is too soft to handle, so letting it cool somewhat before boxing is said to be standard.",
+      "sources": [
+        {
+          "title": "薯蕷饅頭（じょうよまんじゅう）",
+          "url": "https://morihachi-shop.com/contents/1947/",
+          "publisher": "森八",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "joyo-manju",
+          "to_slug": "onsen-manju",
+          "relation_type": "兄弟",
+          "basis": "同じ饅頭の受け皿から、皮の仕込み方で枝分かれした型どうし"
+        }
+      ],
+      "tags": [
+        "ceremonial"
+      ]
+    },
+    {
+      "slug": "kasutera",
+      "name_ja": "カステラ",
+      "name_romaji": "Kasutera",
+      "name_en": "Kasutera — a tall, dense sponge cake introduced from Portugal via Nagasaki",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "長崎県",
+      "origin_city": "長崎市",
+      "lat": 32.7503,
+      "lng": 129.8779,
+      "primary_style": "饅頭・焼き菓子",
+      "summary_ja": "小麦粉と卵、砂糖と水飴だけで作る厚みのあるスポンジ状の焼き菓子。16世紀にポルトガルから長崎へ伝わった南蛮菓子が起源とされ、長崎の菓子職人が日本人の味覚に合わせて作り替えていったと伝わる。",
+      "summary_en": "A tall, dense sponge cake made from just wheat flour, egg, sugar, and starch syrup. Said to descend from a nanban confection brought to Nagasaki from Portugal in the 16th century, later reworked by Nagasaki's confectioners to suit Japanese taste.",
+      "body_ja": "## 何でできているか\n小麦粉、卵、砂糖、水飴という四つの材料だけで作られる、厚みのあるしっとりとしたスポンジ状の焼き菓子。底にざらめ糖を沈めて食感の違いを出すのが長崎風の特徴とされる。五三焼と呼ばれる卵の黄身を増やした高級な型もあり、きめ細かく重い生地に仕上がるとされる。木枠の側面に生地がわずかに焦げつくことで独特の風味が生まれるとも言われ、あえて木枠にこだわる店も多いという。\n## どう作るのか\n卵と砂糖を泡立て、小麦粉と水飴を合わせて生地を作り、木枠に流し込んでじっくりと焼き上げる。焼き上がった生地は逆さにして冷まし、気泡を均一にととのえてから切り分けるという。水飴を加えることでしっとりとした食感が長く保たれるとされる。焼き加減の見極めは長年の経験に頼るところが大きく、木枠の中央まで均一に火を通す技術が職人の腕とされる。底のざらめ糖のじゃりっとした食感を残すか溶かしきるかも店によって流儀が分かれるとされる。\n## なぜこの形になったのか\n一説によると、16世紀にポルトガル人が長崎に伝えた南蛮菓子が起源とされ、当初のものとは配合や製法が異なる独自の焼き菓子として長崎の菓子職人が作り替えていったと伝わる。木枠で高さを出して焼く製法は、パンに似た南蛮菓子を、日本人の好む甘く柔らかい菓子へ仕立て直す工夫の跡とされる。長崎では今も出島に近い旧市街に老舗が軒を連ね、贈答用の一棹売りが定番として続いているという。",
+      "body_en": "## What it's made of\nA tall, moist sponge cake made from just four ingredients: wheat flour, egg, sugar, and starch syrup. Settling coarse sugar at the base for a contrasting texture is said to be the signature of the Nagasaki style. A richer version called \"goshoyaki,\" made with a higher ratio of egg yolk, is also known, said to yield a finer-grained, denser batter. A slight scorching of the batter against the wooden frame's sides is also said to lend a distinctive flavor, and many shops are said to insist on wooden frames for this reason.\n## How it's made\nEgg and sugar are whipped, combined with flour and starch syrup into a batter, poured into a wooden frame, and baked slowly through. The baked cake is cooled upside down to even out its air bubbles before being sliced. The starch syrup is said to be what keeps the texture moist for a long time. Judging the right amount of baking relies heavily on years of experience, and evenly cooking all the way to the center of the wooden frame is said to be where a maker's skill shows. Whether the coarse sugar at the base is left with a gritty crunch or fully melted is also said to differ by shop tradition.\n## Why it took this shape\nOne account traces the cake to a nanban confection Portuguese traders brought to Nagasaki in the 16th century, reworked by Nagasaki's confectioners into its own distinct baked form with a different mix and method from the original. Baking it tall in a wooden frame is said to mark the effort of turning a bread-like nanban sweet into something soft and sweet enough for Japanese taste. In Nagasaki, long-established shops still line the old town near Dejima today, and selling a full uncut loaf as a formal gift is said to remain standard.",
+      "sources": [
+        {
+          "title": "長崎カステラの歴史",
+          "url": "https://shooken.com/history/",
+          "publisher": "カステラ元祖 松翁軒",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "kasutera",
+          "to_slug": "konpeito",
+          "relation_type": "兄弟",
+          "basis": "16世紀にポルトガルから伝わった南蛮菓子という共通の出自を持つ"
+        }
+      ],
+      "tags": [
+        "handheld"
+      ]
+    },
+    {
+      "slug": "yatsuhashi",
+      "name_ja": "八ツ橋",
+      "name_romaji": "Yatsuhashi",
+      "name_en": "Yatsuhashi — a thin, hard-baked rice cracker curved like a koto bridge",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "京都府",
+      "origin_city": "京都市左京区",
+      "lat": 35.0177,
+      "lng": 135.7822,
+      "primary_style": "干菓子",
+      "summary_ja": "米粉に砂糖とシナモンを合わせて薄く焼き、反らせて固めた干菓子。箏の名手・八橋検校にちなみ、琴の形を模して作られたのが始まりと伝わり、聖護院の門前で売られたのが起こりとされる。",
+      "summary_en": "A thin, hard-baked cracker of rice flour, sugar, and cinnamon, curved while still warm and left to harden. Named for the koto virtuoso Yatsuhashi Kengyo and shaped to resemble the instrument's bridge, it is said to have first been sold at the gate of Shogo-in temple.",
+      "body_ja": "## 何でできているか\n米粉に砂糖とニッキ（シナモン）を混ぜて蒸し、薄く伸ばして焼き上げた干菓子。パリッと硬い歯ごたえとニッキの清涼感が身上で、生地を反らせて焼くことで琴のような緩やかな曲線をつけている。ニッキの香りを強めに立てた型と、控えめにして米の風味を活かす型があり、好みで選ばれているとされる。生地を伸ばす厚みが均一でないと焼きムラができるため、麺棒の扱いにも熟練が要るという。\n## どう作るのか\n米粉を蒸して砂糖とニッキを練り込み、薄い帯状にのして焼く。焼き上がった生地がまだ温かく柔らかいうちに、木型などで反らせて曲線をつけ、そのまま冷まして固める。反らせる角度がきつすぎると割れやすく、緩やかな曲線に仕上げるための温度と力加減が職人の勘とされる。パリッとした硬さが命とされ、湿気を避けるための乾燥剤入りの個包装が一般的になっているという。\n## なぜこの形になったのか\n一説によると、近世筝曲の基礎を築いた箏曲家・八橋検校の没後、その墓所に近い聖護院の茶店で、琴の形に似せた干菓子を「八ツ橋」と名付けて売り出したのが始まりと伝わる。反らせた薄い形は、琴の胴に張られた糸を支える橋の曲線を写し取ったものとされる。京都土産の定番として、硬い八ツ橋と生八ツ橋の両方を詰め合わせて売る店が多いとされる。",
+      "body_en": "## What it's made of\nA hard, crisp cracker of rice flour steamed with sugar and cinnamon, rolled thin and baked. The draw is its brittle snap and cinnamon's cool bite, curved while still warm into a gentle arc that echoes a koto's bridge. Versions leaning heavily into the cinnamon aroma and milder ones that let the rice flavor show through both exist, said to be chosen by preference. Uneven thickness when rolling the dough leads to uneven baking, so handling the rolling pin is also said to demand skill.\n## How it's made\nSteamed rice flour is kneaded with sugar and cinnamon, rolled into a thin strip, and baked. While the baked strip is still warm and pliable, it is curved over a wooden mold and left to cool and harden into its final shape. Too sharp a curve and it cracks, so judging the right temperature and pressure for a gentle bend is said to come down to a maker's feel. Its crisp hardness is said to be everything, and individually wrapped packs with a desiccant have become common to keep out humidity.\n## Why it took this shape\nOne account holds that after the death of Yatsuhashi Kengyo, a koto virtuoso credited with laying the groundwork for early-modern koto music, a tea stall near his grave at Shogo-in temple began selling a cracker shaped to resemble the instrument, naming it \"Yatsuhashi.\" The thin, curved shape is said to trace the line of the bridge that supports a koto's strings. As a standard Kyoto souvenir, many shops are said to sell both the hard-baked and soft versions together in one box.",
+      "sources": [
+        {
+          "title": "聖護院八ッ橋について",
+          "url": "https://shogoin.co.jp/yatsuhashi/",
+          "publisher": "聖護院八ッ橋総本店",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "yatsuhashi",
+          "to_slug": "nama-yatsuhashi",
+          "relation_type": "兄弟",
+          "basis": "同じ聖護院の八ツ橋から、硬く焼き上げるか生地のまま蒸すかで分かれた型"
+        }
+      ],
+      "tags": [
+        "handheld"
+      ]
+    },
+    {
+      "slug": "nama-yatsuhashi",
+      "name_ja": "生八ツ橋",
+      "name_romaji": "Nama Yatsuhashi",
+      "name_en": "Nama yatsuhashi — a soft, unbaked version of yatsuhashi, often folded around sweet filling",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "京都府",
+      "origin_city": "京都市左京区",
+      "lat": 35.0177,
+      "lng": 135.7822,
+      "primary_style": "その他",
+      "summary_ja": "八ツ橋の生地を焼かずに蒸したまま仕立てた、もちもちとした半生菓子。餡を包んで三角形に折るものが定着し、昭和35年の茶会で供されたことが京菓子として広まる契機になったと伝わる。",
+      "summary_en": "The same yatsuhashi dough left unbaked and steamed instead, giving a soft, chewy sweet. Folded triangular versions filled with bean paste became the standard, and a 1960 tea gathering is said to have been the occasion that spread it as a Kyoto confection.",
+      "body_ja": "## 何でできているか\n八ツ橋と同じ米粉、砂糖、ニッキの生地を、焼かずに蒸しただけの半生菓子。もちもちと柔らかい食感とニッキの香りが身上で、こしあんを包んで三角形に折った形が定番として広まっているという。こしあんのほか栗あんや抹茶あんを包む型も広がり、餡の種類の多さが選ぶ楽しみを生んでいるとされる。生地は乾燥に弱く硬くなりやすいため、個別に薄いフィルムで包んでしっとり感を保つ工夫がされているという。\n## どう作るのか\n米粉に砂糖とニッキを混ぜて蒸し、薄い正方形にのばす。焼かずに柔らかいまま使うのが硬い八ツ橋との違いで、あんをのせて対角線で折りたたみ、三角形に仕立てる。抹茶や果物風味の変わり生地も広がっているとされる。三角に折らずそのまま巻いて食べる略式の食べ方も知られ、切り分けずに手で持って食べられる手軽さも支持されているという。\n## なぜこの形になったのか\n一説によると、生地を焼かず蒸したまま食べる形自体は古くからあったが、京菓子として広く浸透したのは昭和に入ってからで、昭和35年の祇園祭前日に催された茶会で振る舞われたことがきっかけになったと伝わる。焼かない分やわらかく餡と馴染みやすいことが、あんを包む三角形という今の定番に結びついたとされる。三角に折る際、角をきれいに合わせるのは意外と難しく、手早さと丁寧さの両立が求められるとされる。",
+      "body_en": "## What it's made of\nThe same rice flour, sugar, and cinnamon dough as yatsuhashi, left unbaked and simply steamed — a soft, semi-fresh sweet. The draw is its chewy, pliable texture and cinnamon aroma; folding it around smooth bean paste into a triangle has become the standard form. Versions filled with chestnut or matcha paste, not just smooth red bean, have also spread, the variety of fillings said to add to the fun of choosing. The dough is prone to drying out and stiffening, so wrapping each piece individually in a thin film is said to be a way of preserving its softness.\n## How it's made\nRice flour is steamed with sugar and cinnamon and rolled into a thin square. Unlike the hard-baked yatsuhashi, it stays soft and unbaked; bean paste is placed on it and the square is folded along the diagonal into a triangle. Matcha- and fruit-flavored versions of the dough are said to have spread as well. An informal way of eating it rolled instead of folded into a triangle is also known, its ease of eating by hand without cutting said to be part of its appeal.\n## Why it took this shape\nOne account holds that eating the dough steamed and unbaked is an old practice, but that it only took hold widely as a Kyoto confection from the Showa era, said to have been prompted by its serving at a tea gathering the day before the Gion Festival in 1960. Because the unbaked dough stays soft and blends easily with the paste inside, it is said to have settled into the folded triangle known today. Folding it neatly into a triangle with crisp corners is said to be trickier than it looks, demanding both speed and care.",
+      "sources": [
+        {
+          "title": "聖護院八ッ橋について",
+          "url": "https://shogoin.co.jp/yatsuhashi/",
+          "publisher": "聖護院八ッ橋総本店",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "nama-yatsuhashi",
+          "to_slug": "anko",
+          "relation_type": "使用食材",
+          "basis": "折りたたんだ生地の中に包むこしあん"
+        }
+      ],
+      "tags": [
+        "handheld"
+      ]
+    },
+    {
+      "slug": "kibidango",
+      "name_ja": "きびだんご",
+      "name_romaji": "Kibidango",
+      "name_en": "Kibidango — a soft mochi confection associated with the Momotaro legend of Okayama",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "岡山県",
+      "origin_city": "岡山市",
+      "lat": 34.6551,
+      "lng": 133.9195,
+      "primary_style": "餅・団子",
+      "summary_ja": "求肥に似たもちもちとした食感の一口菓子。かつて黍の粉で作る素朴な団子だったものが、江戸期以降に茶席向けの菓子へ改良されたと伝わり、桃太郎伝説と結びついて土産菓子として知られるようになったという。",
+      "summary_en": "A bite-sized, mochi-like confection with a soft, chewy texture. Once a simple dango made from millet flour, it is said to have been refined into a tea-ceremony sweet from the Edo period onward, later becoming known as a souvenir through its association with the Momotaro legend.",
+      "body_ja": "## 何でできているか\n餅粉や求肥に砂糖と水飴を加えて練った、もちもちとした一口大の菓子。もとは黍（きび）の粉を使った素朴な団子だったが、今は求肥に近いなめらかな生地で作られることが多いとされる。岡山県内では今も黍の粉を使う昔ながらの製法を守る店が残り、求肥仕立てのものと食べ比べられているという。湿度や気温によって生地の硬さが変わるため、季節ごとに配合を微調整する店もあるという。\n## どう作るのか\nもち粉に砂糖と水飴を加えて練り上げ、求肥に近い状態にしてから小さく切り分ける。きな粉をまぶすなど、昔ながらの黍団子の風合いを残す仕立て方も伝わっているという。餅とりこ粉をまぶして包装するのが一般的で、個包装のまま日持ちさせられる点が土産物として重宝されているとされる。岡山駅の売店や土産物店では、パッケージに桃太郎の絵柄を添えるのが定番の意匠となっているとされる。\n## なぜこの形になったのか\n一説によると、黍の粉を蒸して作る団子は日常の食べ物として古くから作られており、江戸から明治にかけて茶席にも用いられる菓子へと工夫が重ねられていったと伝わる。材料の「きび」と、旧国名「吉備」の響きが結びつき、桃太郎伝説の鬼退治の携行食として語られるようになったことが、土産菓子としての広まりを後押ししたとされる。",
+      "body_en": "## What it's made of\nA bite-sized, chewy confection of mochi flour or gyuhi kneaded with sugar and starch syrup. Once a simple dango made from millet flour, it is said to be made today mostly with a smoother gyuhi-like dough. Some shops within Okayama Prefecture are said to still keep to the old method using millet flour, offered alongside the smoother gyuhi-style version for comparison. Humidity and temperature change the dough's firmness, so some shops are said to fine-tune the mix by season.\n## How it's made\nMochi flour is kneaded with sugar and starch syrup into something close to gyuhi, then cut into small pieces. Some versions are still finished with roasted soybean flour to keep the texture of the old millet dango alive. Dusting it with mochi starch before individually wrapping is standard, and its ability to keep well in individual packages is said to make it convenient as a souvenir. At Okayama Station's shops and souvenir stores, packaging illustrated with the Momotaro legend is said to have become the standard design.\n## Why it took this shape\nOne account holds that dango steamed from millet flour was long made as an everyday food, refined from the Edo into the Meiji era into a sweet also served at tea gatherings. The word \"kibi\" (millet) echoing the old provincial name \"Kibi,\" and its telling as the provisions Momotaro carried to defeat the ogres, is said to have helped push its spread as a souvenir sweet.",
+      "sources": [
+        {
+          "title": "岡山に残る桃太郎伝説と結びつき、今や、この地を代表する菓子『きびだんご』",
+          "url": "https://www.okayama-kanko.jp/feature/made_in_okayama/07",
+          "publisher": "岡山観光WEB（岡山県観光連盟）",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "kibidango",
+          "to_slug": "dango",
+          "relation_type": "兄弟",
+          "basis": "黍の粉で作る団子という素朴な原型を共有する"
+        }
+      ],
+      "tags": [
+        "handheld"
+      ]
+    },
+    {
+      "slug": "neri-yokan",
+      "name_ja": "練り羊羹",
+      "name_romaji": "Neri Yokan",
+      "name_en": "Neri yokan — a dense, firmly set, long-keeping form of yokan",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "羊羹・寒天",
+      "summary_ja": "餡と砂糖、寒天を長く練り上げて水分を飛ばし、ぎっしりと詰まった密度に仕上げる羊羹の型。江戸期に寒天が発見されたことで生まれたとされ、日持ちがよく土産物として街道筋に広まったと伝わる。",
+      "summary_en": "A style of yokan worked down for a long time until moisture leaves and the paste sets into a dense, tightly packed block. Said to have emerged once agar was discovered in the Edo period, it kept well and is said to have spread along post roads as a travel souvenir.",
+      "body_ja": "## 何でできているか\n餡、砂糖、寒天という羊羹共通の材料を、長く煮詰めて水分を飛ばした密度の高い構成。糖度がおおむね七割前後に達するとされ、この高い糖度と水分の少なさが日持ちのよさを支えているという。練り上げる鍋を火にかけたまま木べらで休みなく混ぜ続ける工程は重労働とされ、経験の浅い職人には任せにくい作業だという。練り上げる際に鍋底が焦げつくと風味を損なうため、絶えず底からかき混ぜる根気が要るという。\n## どう作るのか\n餡に砂糖を加えて煮詰め、溶かした寒天を合わせてさらに練り続ける。練る時間が長いほど水分が抜けて粘りが強まり、型に流して冷やし固めると、切り分けても形が崩れない密度に仕上がるとされる。栗や柚子、小豆以外の豆を使った変わり羊羹も、この練り上げる工程を土台にした応用型として広がっているとされる。型に流してから完全に冷え固まるまで一晩かかることも多く、翌日まで待って切り分けるとされる。\n## なぜこの形になったのか\n一説によると、江戸期に寒天の製法が広まったことで、それまで蒸して作られていた羊羹が、固めて切り分けられる菓子へと変わっていったと伝わる。長く練って水分を減らす工夫は、保存性を高めて遠方まで運べるようにする狙いと結びついており、街道の土産物として各地に定着したとされる。竹の皮で包んで持ち運ぶ慣わしも各地に残り、長距離を運んでも崩れにくい丈夫さが評価されてきたという。",
+      "body_en": "## What it's made of\nThe same materials common to all yokan — bean paste, sugar, and agar — simmered down for a long time until moisture leaves, yielding a dense, tightly packed block. Sugar content is said to reach roughly 70 percent, and it is this high sugar level combined with low moisture that is said to give it its long shelf life. Standing over the pot and stirring without pause while it's worked down is said to be physically demanding, a task not easily entrusted to a less experienced maker. Scorching the bottom of the pot while working it down spoils the flavor, so continuous stirring from the base is said to demand patience.\n## How it's made\nBean paste is simmered with sugar, combined with dissolved agar, and worked down further. The longer it is worked, the more moisture leaves and the firmer it becomes; poured into a mold and chilled, it sets into a block dense enough to hold its shape when sliced. Variants using chestnut, citrus, or beans other than red beans are also said to have spread as applications built on this same working-down process. It often takes overnight for the mold to fully cool and set, and slicing is said to wait until the next day.\n## Why it took this shape\nOne account holds that once agar-making spread in the Edo period, yokan — until then a steamed dish — turned into a sweet that could be set and sliced. Working it down for a long time to reduce moisture is said to be tied to the aim of making it keep well enough to travel far, and it is said to have settled into a souvenir sold along post roads nationwide. The custom of wrapping it in bamboo bark for carrying also survives in various places, its sturdiness over long journeys said to be valued.",
+      "sources": [
+        {
+          "title": "和菓子の由来",
+          "url": "https://www.wagashi.or.jp/monogatari/shiru/yurai/",
+          "publisher": "全国和菓子協会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "neri-yokan",
+          "to_slug": "osaka-decchi-yokan",
+          "relation_type": "対比",
+          "basis": "練り羊羹より煮詰めが甘く一人前に満たない量で丁稚に見立てたと伝わる丁稚羊羹とは、練り上げの度合いで対照的"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "slug": "mizu-yokan",
+      "name_ja": "水羊羹",
+      "name_romaji": "Mizu Yokan",
+      "name_en": "Mizu yokan — a lighter, more translucent yokan with a higher water content",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "羊羹・寒天",
+      "summary_ja": "寒天と糖度を抑え、水分を多くしてなめらかに仕上げた羊羹の型。練り羊羹に比べて日持ちが短いため、かつては涼しい時期に作られてきたとされ、今は夏の涼菓としても親しまれているという。",
+      "summary_en": "A style of yokan with less agar and sugar and more water, giving a smooth, light texture. It keeps for a shorter time than neri-yokan and was once said to be made mainly in cooler months, though today it is also enjoyed as a cooling summer treat.",
+      "body_ja": "## 何でできているか\n練り羊羹と同じ餡・砂糖・寒天の組み合わせながら、糖度はおよそ三割ほどにとどめ、水分を多く残した構成。つるりとなめらかな喉ごしと、あっさりとした甘さが身上とされる。竹の皮や竹筒に流し込んで固める仕立てもあり、涼しげな見た目そのものが夏向きの演出として好まれているという。冷蔵庫がなかった時代は井戸水で冷やして食べる工夫がされていたと伝わる。\n## どう作るのか\n餡に砂糖と水を加え、練り羊羹より短い時間で仕上げ、寒天と水分を多めに合わせて型に流し込む。練り込みが浅い分、崩れやすく日持ちも短いため、冷やして早めに食べきる菓子とされる。正月の贈答品として作られる地域もあり、必ずしも夏だけの菓子ではなく、冬の土産としても根づいているとされる。缶や紙パックに詰めて売られる簡便な形式も広まり、家庭で手軽に冷やして食べられるようになったという。\n## なぜこの形になったのか\n一説によると、練り羊羹よりも安価な手土産として、餡の使用量を抑え水分を増やした簡易な羊羹が求められたことが始まりとされる。糖度が低く傷みやすいため、かつては気温の下がる時期にだけ作られていたと伝わり、今日では冷やして食べる夏向きの菓子として親しまれているという。正月に食べる福井県のように、季節を問わない贈答の菓子として根づいている土地もあるとされる。",
+      "body_en": "## What it's made of\nThe same bean paste, sugar, and agar as neri-yokan, but sugar content held to around 30 percent and more water left in the mix. The draw is a smooth, slippery texture and a lighter sweetness. Versions set in bamboo bark or bamboo tubes are also known, their cool appearance itself said to be favored as a summer presentation. Before refrigerators, it is said to have been cooled in well water as a matter of course.\n## How it's made\nBean paste is combined with sugar and water and worked for a shorter time than neri-yokan, then mixed with more agar and water before being poured into a mold. Because it is worked less, it holds its shape less firmly and keeps for a shorter time, meant to be chilled and eaten soon after making. In some regions it is made as a New Year's gift, showing it isn't strictly a summer sweet — it is also said to be rooted as a winter souvenir. Convenient forms packed in cans or paper cartons have also spread, making it easy to chill and eat at home.\n## Why it took this shape\nOne account holds that it began as a cheaper alternative to neri-yokan as a gift, using less bean paste and more water. Because its lower sugar content makes it spoil more easily, it is said to have once been made only in cooler months, and is enjoyed today as a chilled summer sweet. In places like Fukui Prefecture, where it is eaten at New Year's, it is said to have taken root as a gift sweet regardless of season.",
+      "sources": [
+        {
+          "title": "和菓子の由来",
+          "url": "https://www.wagashi.or.jp/monogatari/shiru/yurai/",
+          "publisher": "全国和菓子協会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "mizu-yokan",
+          "to_slug": "shiga-decchi-yokan",
+          "relation_type": "対比",
+          "basis": "水分の多さで寒天に頼る水羊羹に対し、寒天が乏しい土地では小麦粉でつないだ丁稚羊羹が育ったという対照"
+        }
+      ],
+      "tags": [
+        "cold_served"
+      ]
+    },
+    {
+      "slug": "monaka",
+      "name_ja": "最中",
+      "name_romaji": "Monaka",
+      "name_en": "Monaka — crisp wafer shells filled with sweet bean paste",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "その他",
+      "summary_ja": "もち米から作るパリッとした皮であんを挟んだ菓子。平安時代の和歌集に見える「最中の月」という表現に由来するとされ、丸い皮が満月に見立てられたことが名の起こりと伝わる。",
+      "summary_en": "Crisp wafer shells made from glutinous rice, sandwiching sweet bean paste. Said to take its name from the phrase \"mochizuki no monaka\" — the midst of the full moon — in a Heian-era poetry anthology, its round wafer likened to the moon itself.",
+      "body_ja": "## 何でできているか\nもち米を薄く焼き上げた、軽くてパリッとした皮であんを挟むだけの構成。皮と餡を別々に売り、食べる直前に挟む形式も多く、皮のサクサク感を保つ工夫とされる。求肥や栗、季節の果物を餡に加えた変わり種も多く、皮の形を動物や花にかたどる意匠遊びも広がっているという。皮の表面に細かな凹凸模様をつけることで、餡との接着が良くなり食感にも変化が出るという。\n## どう作るのか\nもち米を蒸して薄く延ばし、型に入れて高温で一気に焼き上げて皮を作る。焼き上がった皮を二枚合わせ、間に粒あんやこしあん、求肥を挟んで仕上げる。皮の模様には店の屋号や季節の意匠が彫られることが多いという。焼き上げる温度と時間の見極めひとつで皮の厚みと香ばしさが変わり、店ごとの皮だけを食べ比べる楽しみもあるとされる。祝い事に合わせて紅白の皮を組み合わせる意匠も伝わっているという。\n## なぜこの形になったのか\n一説によると、平安時代の歌集『拾遺和歌集』にある「最中の月」という一節にちなみ、丸く白い餅菓子が満月に見立てられたのが名の由来と伝わる。皮とあんを分けて売る工夫は、湿気で皮がしなびるのを避け、パリッとした食感を客の手元まで保つための対策とされる。皮とあんを別売りにする方式は、今もデパートの和菓子売り場などで見られる工夫とされる。",
+      "body_en": "## What it's made of\nJust thin, crisp wafer shells made from glutinous rice, sandwiching bean paste — nothing more. Selling the shell and paste separately, to be assembled just before eating, is common, said to be a way of keeping the shell's crispness intact. Many variants add gyuhi, chestnut, or seasonal fruit to the paste, and shells molded into the shapes of animals or flowers are also said to have spread as a playful design element. Fine textured patterns pressed into the shell's surface are said to help the paste adhere and add variation to the bite.\n## How it's made\nGlutinous rice is steamed, rolled thin, pressed into a mold, and baked quickly at high heat into a wafer shell. Two shells are joined around chunky or smooth bean paste, sometimes with gyuhi added. The shells are often stamped with a shop's crest or a seasonal design. Judging the baking temperature and time alone changes the shell's thickness and toastiness, and comparing shells alone between shops is said to be its own way of enjoying monaka. Pairing red and white shells for celebratory occasions is also a known design.\n## Why it took this shape\nOne account traces the name to a phrase, \"mochizuki no monaka\" — the midst of the full moon — found in the Heian-era poetry anthology Shui Wakashu, with the round, pale sweet likened to the moon itself. Selling the shell separately from the paste is said to be a measure against humidity softening the wafer, keeping its crisp bite intact until it reaches the customer. Selling the shell and paste separately is a device still seen today at department store wagashi counters.",
+      "sources": [
+        {
+          "title": "和菓子の由来",
+          "url": "https://www.wagashi.or.jp/monogatari/shiru/yurai/",
+          "publisher": "全国和菓子協会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "monaka",
+          "to_slug": "anko",
+          "relation_type": "使用食材",
+          "basis": "皮の間に挟む主要な中身"
+        }
+      ],
+      "tags": [
+        "handheld"
+      ]
+    },
+    {
+      "slug": "kintsuba",
+      "name_ja": "きんつば",
+      "name_romaji": "Kintsuba",
+      "name_en": "Kintsuba — a block of set bean paste coated thinly in batter and pan-fried",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "大阪府",
+      "origin_city": "大阪市",
+      "lat": 34.6937,
+      "lng": 135.5023,
+      "primary_style": "饅頭・焼き菓子",
+      "summary_ja": "寒天で固めた餡に薄く小麦粉の衣をつけて鉄板で焼く菓子。大阪で生まれた当初は「銀鍔」と呼ばれ、江戸に伝わって小麦粉の焼き色が金色に見えることから「きんつば」と呼ばれるようになったと伝わる。",
+      "summary_en": "A block of agar-set bean paste dipped thinly in batter and pan-fried on each face. Born in Osaka as \"ginTsuba\" (silver sword-guard), it is said to have been renamed \"kintsuba\" (gold) once it reached Edo, where the flour coating browned to a golden color.",
+      "body_ja": "## 何でできているか\n寒天で四角く固めた粒あんに、薄い小麦粉の衣をまとわせて焼くだけの構成。餡そのものの味が主役で、衣は焼き色と香ばしさを添える役目にとどまるのが身上とされる。四角形のほか、丸形や俵形に仕立てる店もあり、切り分けやすさよりも見た目を優先した型も広がっているとされる。衣をつける前の餡の水分量が多すぎると焼いたときに崩れやすく、寒天の配合がここでも重要になるという。\n## どう作るのか\n粒あんに寒天を混ぜて四角く固め、食べやすい大きさに切り分ける。切った餡の面に薄く小麦粉の水溶き衣をつけ、鉄板で各面を焼いて焦げ目をつける。衣は薄いほど餡の存在感が際立つという。餡に栗や大納言小豆を加えた高級な型もあり、粒の大きさや食感の違いを楽しむ食べ比べもされているという。四面すべてに均一な焼き色をつけるのは手間がかかり、鉄板の上でこまめに向きを変える作業が要るとされる。\n## なぜこの形になったのか\n一説によると、大阪で刀の鍔に見立てた丸い菓子が「銀鍔」として売られていたのが始まりとされ、江戸に伝わった際に小麦粉の焼き色が金色に見えることから「金より銀が上」との洒落で「きんつば」と呼び名が変わったと伝わる。丸形から四角形への変化は、餡を寒天で固めて切り分けやすくする工夫と結びついているとされる。",
+      "body_en": "## What it's made of\nSquare-cut, agar-set chunky bean paste dipped in a thin wheat-flour batter and pan-fried — nothing more. The bean paste itself is the point; the batter's only job is to add a browned surface and toasted aroma. Beyond the square, some shops shape it round or oval instead, said to reflect a choice favoring appearance over ease of cutting. Too much moisture in the paste before dipping makes it prone to falling apart when fried, so the agar ratio is said to matter here as well.\n## How it's made\nChunky bean paste is mixed with agar, set into a block, and cut into bite-sized pieces. Each cut face is dipped in a thin flour-and-water batter and browned on a griddle. The thinner the batter, the more the paste itself stands out. Versions with chestnut or large-grain azuki mixed into the paste are also known, said to invite comparisons of bean size and texture. Browning all four faces evenly takes real effort, said to require frequently turning the piece on the griddle.\n## Why it took this shape\nOne account holds that it began in Osaka as a round sweet sold as \"gintsuba,\" likened to a sword's guard, and that when it reached Edo the flour coating's golden-brown color prompted a play on words — gold outranking silver — renaming it \"kintsuba.\" The shift from round to square is said to be tied to setting the paste in agar for easier cutting.",
+      "sources": [
+        {
+          "title": "和菓子の由来",
+          "url": "https://www.wagashi.or.jp/monogatari/shiru/yurai/",
+          "publisher": "全国和菓子協会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "kintsuba",
+          "to_slug": "anko",
+          "relation_type": "使用食材",
+          "basis": "衣の内側を占める寒天で固めた粒あん"
+        }
+      ],
+      "tags": [
+        "handheld"
+      ]
+    },
+    {
+      "slug": "rakugan",
+      "name_ja": "落雁",
+      "name_romaji": "Rakugan",
+      "name_en": "Rakugan — a dry, pressed sweet of sugar and grain flour, molded into shape",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "干菓子",
+      "summary_ja": "穀物の粉に砂糖と少量の水を混ぜ、木型に押し固めて乾かした干菓子。中国伝来の菓子「軟落甘」が由来とする説などがあり、口に入れるとほろりと崩れる食感と、木型の意匠の美しさが身上とされる。",
+      "summary_en": "A dry, pressed sweet of grain flour and sugar bound with a touch of water, packed into a wooden mold and dried. One account traces the name to a Chinese confection called \"nanraku-kan\"; the draw is a texture that crumbles softly in the mouth and the beauty of the mold's carved design.",
+      "body_ja": "## 何でできているか\nみじん粉などの穀物の粉に、砂糖と少量の水だけを加えて練った、水分のほとんどないそぼろ状の生地。木型に強く押し込んで形を作り、型から抜いてそのまま乾かして仕上げるのが身上とされる。型に押し込む力加減がわずかに違うだけで、口に入れたときの崩れ方が変わるため、練習を要する技術とされる。型から抜く瞬間に力を入れすぎると崩れるため、繊細な力加減が求められる工程とされる。\n## どう作るのか\n穀物の粉と砂糖を細かい粒状になるよう手早く混ぜ合わせ、木型に押し詰めて成形する。型から抜いたあと、数日かけて自然乾燥させて水分を飛ばす。型の彫刻には四季の花や吉祥文様が用いられることが多いという。神仏への供物として用いられることも多く、型の意匠に鶴亀や松竹梅など縁起物の文様が選ばれる理由にもなっているという。\n## なぜこの形になったのか\n一説によると、中国から伝わった「軟落甘」という菓子が由来とされる説や、帝への献上の際に賜った銘によるとする説など諸説あると伝わる。水分をほとんど残さず乾かし固める製法は、長期保存に向いた干菓子として、贈答や茶席の菓子器に用いられてきたことと結びついているとされる。四季折々の意匠を町の菓子屋が競い合ってきたことが、地域ごとの型の意匠の豊かさにつながっているという。",
+      "body_en": "## What it's made of\nA nearly dry, crumbly dough of grain flour bound with just sugar and a touch of water. It is pressed firmly into a wooden mold to take its shape, then turned out and left to dry. Even a slight difference in how firmly the dough is pressed into the mold changes how it crumbles in the mouth, said to be a skill that takes practice to master. Applying too much force the moment it's turned out of the mold causes it to crumble, said to demand a delicate touch.\n## How it's made\nGrain flour and sugar are quickly mixed into a fine, crumbly texture, packed tightly into a wooden mold, and shaped. Once turned out, it is left to air-dry naturally over several days. The molds are often carved with seasonal flowers or auspicious motifs. It is often used as an offering to deities and ancestors, said to be part of why mold designs favor auspicious motifs like cranes, turtles, or pine and bamboo.\n## Why it took this shape\nOne account traces the name to a Chinese confection called \"nanraku-kan\"; another holds the name came from a title bestowed at an imperial offering. Accounts differ on which is correct. Drying it nearly free of moisture is said to be tied to its role as a long-keeping dry sweet, suited to gifts and to the sweet trays used at tea gatherings. Confectioners in each town competing over seasonal designs is said to be part of why mold designs vary so richly by region.",
+      "sources": [
+        {
+          "title": "和菓子の由来",
+          "url": "https://www.wagashi.or.jp/monogatari/shiru/yurai/",
+          "publisher": "全国和菓子協会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "rakugan",
+          "to_slug": "wasanbon",
+          "relation_type": "使用食材",
+          "basis": "きめ細かい落雁の代表的な原料として使われる和三盆糖"
+        }
+      ],
+      "tags": [
+        "ceremonial"
+      ]
+    },
+    {
+      "slug": "konpeito",
+      "name_ja": "金平糖",
+      "name_romaji": "Konpeito",
+      "name_en": "Konpeito — small sugar candies studded with tiny nubs",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "干菓子",
+      "summary_ja": "砂糖の蜜をイラの実などの核にかけ続けて育てる、突起のある小さな球形の干菓子。16世紀にポルトガルから伝わった南蛮菓子の一つとされ、ポルトガル語で糖菓を意味する言葉が名の由来と伝わる。",
+      "summary_en": "Tiny, spiky candy balls grown by repeatedly coating a seed core in sugar syrup. One of the nanban confections said to have arrived from Portugal in the 16th century, its name is said to derive from the Portuguese word for candy, \"confeito.\"",
+      "body_ja": "## 何でできているか\n芥子の実やイラの実などを核にして、砂糖の蜜を少しずつかけながら回転させ、球の表面に角のような突起を育てていく干菓子。均一な角を出すには長い日数と根気が要るとされる。突起の数や大きさを均一にそろえるのは難しく、職人が蜜の量と釜の傾きを絶えず調整しながら仕上げるとされる。均一な角を出すには数週間かかることもあり、気候や湿度によって仕上がりが左右されるという。\n## どう作るのか\n回転する釜のなかで核を転がしながら、煮詰めた蜜を数日にわたり少しずつかけ続ける。蜜が乾いては固まる過程を繰り返すことで、球の表面に自然と角状の突起が育っていくという。儀式用の引き出物や贈答品として用いられることも多く、小さな瓶に詰めて配る習わしが今も残っているという。透明な瓶に詰めて色とりどりに並べる売り方が定着し、見た目の華やかさも人気を支えているとされる。\n## なぜこの形になったのか\n一説によると、16世紀にカステラなどとともにポルトガルから伝えられた南蛮菓子の一つとされ、ポルトガル語で糖菓を意味する「コンフェイト」が名の由来と伝わる。核に蜜をかけ続けるという製法そのものが、規則正しい突起を生む結果になったとされ、偶然と手間が生んだ形とされる。南蛮貿易の窓口だった長崎で今も製法を伝える老舗があり、当時の技術がほぼそのまま残っているという。",
+      "body_en": "## What it's made of\nA seed core — poppy seed or similar — rolled while syrup is added little by little, growing horn-like nubs across the ball's surface over many days. Getting the nubs even and regular is said to take patience and a long stretch of time. Keeping the number and size of the nubs even is difficult, said to require a maker constantly adjusting the amount of syrup and the tilt of the pan. Getting even nubs can take several weeks, and the result is said to be affected by climate and humidity.\n## How it's made\nThe core is tumbled in a rotating pan while simmered syrup is added in small amounts over several days. The repeated drying and hardening of each coat of syrup is said to naturally grow the horn-like nubs across the surface. It is often used as a return gift at rites and ceremonies, and the custom of packing it into small bottles to hand out is said to survive today. Selling it packed in clear glass bottles, arranged in a range of colors, has become standard, its visual appeal said to support its popularity.\n## Why it took this shape\nOne account holds it was among the nanban confections brought from Portugal in the 16th century alongside kasutera, its name said to derive from the Portuguese word for candy, \"confeito.\" The method itself — coating a core in syrup again and again — is said to be what produced the regular, spiky nubs, a shape born as much from the process as from design. A long-established shop in Nagasaki, once a gateway for trade with Portugal, is said to still pass down the method largely unchanged from that era.",
+      "sources": [
+        {
+          "title": "金平糖が出来る仕組み－金平糖の語源・由来・なぜ角が出来るの？",
+          "url": "https://www.sasakiseika.co.jp/f/konpeito",
+          "publisher": "佐々木製菓",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "konpeito",
+          "to_slug": "rakugan",
+          "relation_type": "兄弟",
+          "basis": "水分をほとんど残さず日持ちさせる干菓子という共通点"
+        }
+      ],
+      "tags": [
+        "ceremonial"
+      ]
+    },
+    {
+      "slug": "karinto",
+      "name_ja": "かりんとう",
+      "name_romaji": "Karinto",
+      "name_en": "Karinto — crunchy fried dough sticks coated in a sugar glaze",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "干菓子",
+      "summary_ja": "小麦粉の生地を棒状にして揚げ、砂糖の蜜をからめたカリカリとした菓子。江戸中期の上菓子ブームのなかで生まれたとされ、深川あたりで天秤棒に担いで売り歩いたのが庶民に広まる始まりと伝わる。",
+      "summary_en": "Sticks of wheat-flour dough deep-fried and coated in a sugar glaze, crunchy through and through. Said to have emerged amid an Edo-period boom in refined confections, it is said to have first reached ordinary people when vendors carried it through the Fukagawa district on shoulder poles.",
+      "body_ja": "## 何でできているか\n小麦粉に砂糖と水を加えて練った生地を棒状にし、油で揚げてから砂糖の蜜をからめただけの構成。芯まで火が通ったカリッとした歯ごたえと、表面の蜜の甘さが層になっているのが身上とされる。生地に黒糖やごまを練り込む変わり種も広がり、太さや形も店によって細切りから太めの棒状までさまざまとされる。生地に黒糖を練り込むか、揚げたあとに蜜をからめるかで色と香りの出方が異なるという。\n## どう作るのか\n小麦粉の生地を細い棒状に伸ばし、低温からじっくりと油で揚げて芯まで火を通す。揚げたてに煮詰めた砂糖蜜をからめ、黒糖を使えば黒く、白砂糖を使えば白く仕上がるという。揚げる油の温度が高すぎると芯まで火が通らず、低すぎると油を吸いすぎるため、火加減の見極めが要となるという。揚げたては香ばしいが、時間をおいて蜜がなじんでからのほうが好みという食べ手も多いとされる。\n## なぜこの形になったのか\n一説によると、江戸初期から中期にかけて京菓子に対抗する形で上菓子作りが盛んになるなか、かりんとうもその流れで生まれたと伝わる。江戸中期以降は深川あたりで天秤棒に担いで売り歩く行商が現れ、庶民の手に届く駄菓子として広まっていったとされる。駄菓子屋の量り売りで親しまれてきた歴史もあり、庶民的な菓子としての性格が今も色濃く残っているという。",
+      "body_en": "## What it's made of\nSticks of wheat-flour dough kneaded with sugar and water, deep-fried, then coated in a boiled sugar glaze — nothing more. The draw is a crunch that runs all the way through, layered under the sweetness of the glaze on the surface. Variants with brown sugar or sesame kneaded into the dough have also spread, and thickness and shape are said to range from thin strips to thick sticks by shop. Whether brown sugar is kneaded into the dough or glazed on after frying is said to change how the color and aroma come through.\n## How it's made\nDough is rolled into thin sticks and fried slowly from a low temperature so the heat reaches the core. Fresh from the oil, the sticks are coated in a simmered sugar syrup — brown sugar for a dark finish, white sugar for a pale one. Too high an oil temperature and the core doesn't cook through; too low and it soaks up too much oil — judging the right heat is said to be the crux of the process. Fresh from the fryer it's fragrant, but many eaters are said to prefer it after the glaze has had time to settle in.\n## Why it took this shape\nOne account holds that karinto emerged amid a boom in refined confections in Edo from the early to mid-Edo period, made to rival the sweets of Kyoto. From the mid-Edo period on, vendors are said to have carried it through the Fukagawa district on shoulder poles, spreading it as an affordable treat within reach of ordinary people. It also has a history of being sold by weight at penny-candy shops, its character as an everyday people's sweet said to remain strong today.",
+      "sources": [
+        {
+          "title": "かりんとうと砂糖",
+          "url": "https://www.alic.go.jp/joho-s/joho07_000051.html",
+          "publisher": "農畜産業振興機構（alic）",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "karinto",
+          "to_slug": "kokuto",
+          "relation_type": "使用食材",
+          "basis": "黒く仕上げる系統で表面にからめる黒糖の蜜"
+        }
+      ],
+      "tags": [
+        "handheld",
+        "street_food"
+      ]
+    },
+    {
+      "slug": "senbei",
+      "name_ja": "煎餅",
+      "name_romaji": "Senbei",
+      "name_en": "Senbei — thin rice crackers baked or grilled until crisp",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "干菓子",
+      "summary_ja": "うるち米の粉を蒸して薄く延ばし、焼いて乾かした米菓。同じもち米のおかき・あられに対し、原料の米の違いで区別されるとされ、醤油や塩などで味付けする素朴な型が各地に根づいているという。",
+      "summary_en": "A rice cracker made from steamed, thinly rolled non-glutinous rice flour, baked until crisp and dry. Distinguished from okaki and arare — both made from glutinous rice — mainly by this difference in rice, and seasoned simply with soy sauce or salt in forms rooted across the country.",
+      "body_ja": "## 何でできているか\nうるち米の粉を蒸して薄く延ばした生地を焼いて乾かしただけの構成。パリッと硬い歯ごたえと、焼き目の香ばしさが身上で、醤油だれを塗って炙るか、塩や砂糖で味付けするかで大きく風味が変わる。草加せんべいのように地名を冠した型が各地にあり、水や米の違いが土地ごとの味の差になっていると語られる。醤油の種類や塗る回数で風味の濃淡が大きく変わり、店ごとのたれが看板になっていることも多いという。\n## どう作るのか\nうるち米を粉にして蒸し、薄い円形にのばして乾燥させ、炭火や鉄板でじっくりと焼き上げる。焼き上がりに醤油だれを塗って再度あぶることで、表面に香ばしい焼き色と照りをつけるという。硬さや厚みは地域によって好みが分かれ、薄くパリッとしたものから、厚みがあり噛みごたえのあるものまで幅があるという。炭火で炙ると遠赤外線でむらなく火が通るとされ、今も炭火焼きにこだわる店が残っているという。\n## なぜこの形になったのか\n一説によると、おかき・あられがもち米から作られるのに対し、煎餅はうるち米を使う点で区別されてきたと伝わる。うるち米は粘りが少なく薄く延ばしやすいため、平たく薄い形が定着し、醤油や塩で味付けする軽食としての性格を強めていったとされる。醤油味のほか、砂糖をからめた甘口や唐辛子を効かせた辛口など、味の幅は年々広がっているとされる。",
+      "body_en": "## What it's made of\nSteamed, non-glutinous rice flour rolled thin, then baked and dried until crisp — nothing more. The draw is a hard, brittle snap and the toasted aroma of its browned surface, its flavor shifting widely depending on whether it's brushed with soy glaze or seasoned with salt or sugar. Types named for their locality, such as Soka senbei, exist across the country, with differences in local water and rice said to account for regional taste. The type of soy sauce and how many times it's brushed on changes the flavor's depth considerably, and a shop's own glaze is often said to become its calling card.\n## How it's made\nNon-glutinous rice is milled, steamed, rolled into thin rounds, dried, and slowly baked over charcoal or on a griddle. Brushing it with a soy glaze and grilling it once more is said to be what gives the surface its toasted color and sheen. Preferred hardness and thickness are said to vary by region, ranging from thin and crisp to thick and chewy. Grilling over charcoal is said to cook it evenly via infrared heat, and shops still insisting on charcoal grilling are said to remain today.\n## Why it took this shape\nOne account holds that senbei has long been distinguished from okaki and arare by its rice: non-glutinous instead of glutinous. Non-glutinous rice has less stickiness and rolls out thin more easily, which is said to have settled it into a flat, thin shape and pushed it toward a savory, snack-like character seasoned with soy sauce or salt. Beyond the classic soy flavor, sweet versions glazed with sugar and spicy chili-laced ones are said to have broadened the range year by year.",
+      "sources": [
+        {
+          "title": "米菓を知る",
+          "url": "https://hokuetu.co.jp/beika/",
+          "publisher": "株式会社北越",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "senbei",
+          "to_slug": "okaki",
+          "relation_type": "兄弟",
+          "basis": "うるち米ともち米という原料米の違いで分かれた米菓の型"
+        }
+      ],
+      "tags": [
+        "handheld"
+      ]
+    },
+    {
+      "slug": "okaki",
+      "name_ja": "おかき",
+      "name_romaji": "Okaki",
+      "name_en": "Okaki — larger pieces of glutinous rice cracker, baked or fried until crisp",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "干菓子",
+      "summary_ja": "もち米を蒸して固めた餅を割り、焼くか揚げるかして作る米菓。鏡餅を手や槌で割って食べたのが始まりとされ、刃物を使わず欠いたことから「おかき」と呼ばれるようになったと伝わる。",
+      "summary_en": "A rice cracker made by breaking pounded glutinous rice mochi into pieces and baking or frying them crisp. Said to have begun with breaking a kagami mochi by hand or mallet to eat, the name \"okaki\" is said to come from breaking it without a blade.",
+      "body_ja": "## 何でできているか\nもち米を蒸して搗いた餅を乾燥させ、割って焼くか揚げるかした米菓。あられより一片が大きいのが特徴とされ、醤油や海苔、塩など味付けの幅が広いのも身上とされる。醤油、青のり、ごま、ざらめ砂糖など味付けの幅が広く、一袋に数種の味を詰め合わせる売り方も広まっているとされる。餅を切る際の厚みのばらつきが焼き上がりの食感差につながり、均一に切る技術も職人の腕とされる。\n## どう作るのか\n搗いた餅を薄く切って乾燥させ、割れやすくしてから小片に砕く。炭火やオーブンでじっくり焼くか、油で揚げてから醤油や塩で味付けする。乾燥のさせ方で歯ごたえが変わるという。餅を切る厚みで食感が変わり、厚めに切れば噛みごたえが増し、薄めに切ればより軽い食感になるという。揚げる場合と焼く場合とで油の香りの有無が変わり、好みが分かれる分かれ道になっているという。\n## なぜこの形になったのか\n一説によると、正月に供えた鏡餅を刃物で切ると縁起が悪いとされ、手や槌で割って食べたのが始まりと伝わる。刃物を使わず「欠く」ことから室町時代の宮中女性の言葉で「おかき」と呼ばれるようになったとされ、割れ方によって不揃いな大きさになる点が今も特徴として残っているという。正月の鏡開きに合わせて売り出す季節商品として扱う店も多く、年明けの縁起物という側面も残るとされる。",
+      "body_en": "## What it's made of\nPounded glutinous rice mochi, dried, broken into pieces, and baked or fried until crisp. It is generally distinguished from arare by being cut or broken into larger pieces, and takes a wide range of seasonings — soy sauce, seaweed, salt. Seasonings range widely — soy sauce, green laver, sesame, coarse sugar — and selling several flavors together in one bag is also said to have spread. Unevenness in how thickly the mochi is sliced carries through to differences in the baked texture, and slicing it evenly is said to be part of a maker's skill.\n## How it's made\nPounded mochi is sliced thin and dried until brittle, then broken into pieces. These are slowly baked over charcoal or in an oven, or fried in oil, then seasoned with soy sauce or salt. How the mochi is dried is said to change the final crunch. The thickness the mochi is cut to changes the texture — thicker cuts give a heartier chew, thinner cuts a lighter bite. Whether it's fried or baked changes whether the oil's aroma comes through, said to be a fork in the road where preference splits.\n## Why it took this shape\nOne account holds that cutting the New Year's kagami mochi with a blade was considered inauspicious, so it was broken by hand or mallet instead. Breaking it without a blade — \"kaku\" — is said to have given rise to the name \"okaki\" through the speech of Muromachi-era court women, and the uneven size that comes from breaking rather than cutting is said to remain a feature today. Many shops are said to sell it as a seasonal item timed to New Year's kagami-biraki, retaining a side of it as an auspicious New Year's food.",
+      "sources": [
+        {
+          "title": "米菓を知る",
+          "url": "https://hokuetu.co.jp/beika/",
+          "publisher": "株式会社北越",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "okaki",
+          "to_slug": "arare",
+          "relation_type": "兄弟",
+          "basis": "同じもち米の餅を割って作る米菓で、片の大きさの違いで分かれた型"
+        }
+      ],
+      "tags": [
+        "handheld"
+      ]
+    },
+    {
+      "slug": "arare",
+      "name_ja": "あられ",
+      "name_romaji": "Arare",
+      "name_en": "Arare — small, bite-sized pieces of glutinous rice cracker",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "干菓子",
+      "summary_ja": "もち米の餅を細かく刻んで焼くか揚げるかした、一口サイズの米菓。鍋で炒る音や跳ねる様子が空から降るあられに似ていることが名の由来とされ、宮中の歯固めの儀式と結びつく説もあるという。",
+      "summary_en": "Tiny, bite-sized pieces of glutinous rice cracker, baked or fried. The name is said to come from the sound and motion of the pieces popping in the pan, resembling hail falling from the sky, and one account ties it to a court tooth-hardening ritual.",
+      "body_ja": "## 何でできているか\nもち米の餅を細かく刻んで焼くか揚げるかした、指先ほどの小さな米菓。一片が小さい分、火が通りやすく短時間で香ばしく仕上がるのが身上で、醤油や塩、海苔など味付けの種類も豊富とされる。桜色や海老風味など彩りや香りをつけた変わり種も多く、雛祭りに供える小さなあられ菓子もこの系統とされる。醤油をからめる工程は焦げやすく、短時間で全体にむらなく絡める手早さが求められるという。\n## どう作るのか\n乾燥させた餅を包丁で細かく刻み、鍋で炒るか油で揚げて火を通す。跳ねながら膨らむ様子を見ながら火加減を調整し、仕上げに醤油や塩をまぶすという。醤油をからめて炒る系統と、砂糖蜜で甘く仕上げる系統に大きく分かれ、菓子寄りか酒の肴寄りかで味わいが変わるという。正月のほか、桃の節句のひなあられのように行事菓子として食べられる場面も多いとされる。\n## なぜこの形になったのか\n一説によると、鍋で炒る際に跳ねる音や様子が、空から降るあられに似ていることが名の由来とされる。平安時代の宮中で正月に鏡餅を砕いて食べた「歯固め」の儀式に由来するという説もあり、細かく砕く工程そのものが、縁起の良い正月行事と結びついてきたと伝わる。醤油味と甘味を一袋に詰め合わせる売り方も広まり、一度に食べ比べられる手軽さが好まれているという。",
+      "body_en": "## What it's made of\nTiny, fingertip-sized pieces of glutinous rice cracker, baked or fried. Being small, the pieces cook through quickly and toast up fast, and take a wide range of seasonings — soy sauce, salt, seaweed. Many variants add color or flavor — a pink cherry-blossom tint, a shrimp aroma — and the tiny arare sweets offered at the Doll's Festival are said to belong to this same lineage. The soy-glazing step scorches easily, said to demand quick, even work to coat every piece without burning.\n## How it's made\nDried mochi is cut into small pieces with a knife, then roasted in a pan or fried in oil. The heat is adjusted while watching the pieces pop and puff, finished with a coating of soy sauce or salt. It broadly splits into a soy-sauce-roasted savory line and a sugar-glazed sweet line, the two said to sit closer to a snack or to a confection respectively. Beyond New Year's, it is also often eaten as a festival sweet, as with the hina-arare of the Doll's Festival.\n## Why it took this shape\nOne account holds that the name comes from the sound and motion of the pieces popping in the pan, resembling hail falling from the sky. Another traces it to a Heian-era court ritual of breaking up kagami mochi at New Year's to harden the teeth for the year ahead — the very act of breaking it into small pieces tied, in this telling, to an auspicious New Year's rite. Selling savory and sweet versions together in one bag has also spread, the ease of comparing both at once said to be well liked.",
+      "sources": [
+        {
+          "title": "米菓を知る",
+          "url": "https://hokuetu.co.jp/beika/",
+          "publisher": "株式会社北越",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "arare",
+          "to_slug": "senbei",
+          "relation_type": "兄弟",
+          "basis": "同じ米菓でも原料がもち米かうるち米かで分かれた型"
+        }
+      ],
+      "tags": [
+        "handheld",
+        "ceremonial"
+      ]
+    },
+    {
+      "slug": "zenzai",
+      "name_ja": "ぜんざい",
+      "name_romaji": "Zenzai",
+      "name_en": "Zenzai — a bowl of sweet red beans, thick and only lightly soupy, with mochi",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "島根県",
+      "origin_city": "出雲市",
+      "lat": 35.3667,
+      "lng": 132.7625,
+      "primary_style": "その他",
+      "summary_ja": "小豆を甘く煮て餅を沈めた汁物。出雲地方の神在祭で振る舞われた「神在餅」がなまって「ぜんざい」になったとする説があり、関東と関西で汁気やあんの粒・こしの定義が入れ替わるとされる。",
+      "summary_en": "A bowl of sweetened red beans with mochi. One account traces \"zenzai\" to \"jinzai-mochi,\" served at Izumo's Kamiari festival, its name slurred into \"zenzai\"; the definition of the dish is said to flip between chunky and smooth, thick and soupy, in Kanto versus Kansai.",
+      "body_ja": "## 何でできているか\n小豆を砂糖でじっくり煮て、汁気を残しつつも粒が立つように仕上げ、焼いた餅や白玉を沈めた温かい菓子。関西では粒あんの汁気が少なめのものを指し、関東では汁気のある粒あん仕立てを指すなど、地域で定義が異なるとされる。出雲地方では小豆の粒を大切にした汁気の少ない仕立てが今も守られ、発祥の地としての誇りが製法に表れているという。\n## どう作るのか\n小豆を柔らかく煮てから砂糖を加え、粒の形を残したまま甘く仕上げる。椀に注ぎ、焼き目をつけた餅や白玉を沈めて供する。塩をひとつまみ加えて甘さを引き立てる仕立てもあるという。焼いた餅の香ばしさと、煮た小豆のとろりとした甘さの対比を楽しむ食べ方が定番とされる。塩を効かせて甘さを引き締める仕立ては、出雲地方の伝統的な味付けとして今も守られているという。\n## なぜこの形になったのか\n一説によると、出雲地方で旧暦十月に催される神在祭で振る舞われた「神在餅」が出雲弁で「じんざい」となり、それが京都に伝わって「ぜんざい」になったと伝わる。関東と関西で粒あん・こしあん、汁気の多寡の呼び分けが逆転しているのは、この言葉が各地に伝わる過程で土地ごとに定義が独自に定まっていったためとされる。寒い季節の甘味として、今も各地の甘味処で定番の位置を占めているとされる。",
+      "body_en": "## What it's made of\nRed beans simmered slowly in sugar until sweet, kept chunky rather than smooth, served warm with grilled mochi or rice dumplings sunk in the bowl. In Kansai it typically means a chunky, only lightly soupy bean dish; in Kanto the same word can mean a soupier chunky version — the definitions are said to differ by region. In the Izumo region, a version keeping the beans whole with little broth is said to still be preserved today, the local pride in being the sweet's origin showing through in the method.\n## How it's made\nRed beans are simmered until soft, then sweetened with sugar while keeping their shape intact. The mixture is ladled into a bowl over grilled mochi or rice dumplings. A pinch of salt is sometimes added to sharpen the sweetness. The contrast between the toasted aroma of grilled mochi and the thick, sweet simmered beans is said to be the standard way it's enjoyed. A style that sharpens the sweetness with a firm hand of salt is said to still be preserved as Izumo's traditional seasoning.\n## Why it took this shape\nOne account traces the name to \"jinzai-mochi,\" served at Izumo's Kamiari festival held in the tenth lunar month, its name slurred in the local dialect into \"jinzai\" and then, once carried to Kyoto, into \"zenzai.\" The way Kanto and Kansai swap which term means chunky versus smooth, soupy versus thick, is said to reflect each region settling on its own definition as the word spread. As a cold-season treat, it is said to still hold a standard place on the menu at sweets shops nationwide.",
+      "sources": [
+        {
+          "title": "関西のぜんざい、関東ではおしるこ 呼び方なぜ違う",
+          "url": "https://www.nikkei.com/article/DGXNASJB0702P_X01C13A1AA1P00/",
+          "publisher": "日本経済新聞",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "zenzai",
+          "to_slug": "oshiruko",
+          "relation_type": "対比",
+          "basis": "関東と関西で粒あん・こしあんや汁気の定義が入れ替わる、地域差の象徴的なペア"
+        }
+      ],
+      "tags": [
+        "meal_ender"
+      ]
+    },
+    {
+      "slug": "oshiruko",
+      "name_ja": "おしるこ",
+      "name_romaji": "Oshiruko",
+      "name_en": "Oshiruko — a soupier bowl of sweet red bean broth with mochi",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "その他",
+      "summary_ja": "小豆をこして作った汁気の多い餡に、餅や白玉を沈めた温かい菓子。関西ではこしあんの汁物を指すのに対し、関東では汁気のある小豆の菓子全般を指すなど、ぜんざいとの呼び分けが地域で異なるとされる。",
+      "summary_en": "A soupier, sweetened red-bean broth, strained smooth, with mochi or rice dumplings sunk in the bowl. In Kansai it specifically means a smooth-paste soup, while in Kanto the word can cover sweet red-bean dishes more broadly — the line drawn against zenzai is said to shift by region.",
+      "body_ja": "## 何でできているか\n小豆を柔らかく煮てからこして皮を取り除き、砂糖を加えて汁気を残したまま仕上げた餡に、焼いた餅や白玉を沈めた温かい菓子。関西ではこのこしあん仕立てを指すのが基本とされる。こしあんを裏ごしする際の目の細かさで舌触りが変わり、なめらかさを競う職人技がここに表れるとされる。こす作業に手間がかかるため、店によってはあえて粒を少し残す簡略化した仕立てもあるという。\n## どう作るのか\n小豆を煮てからざるでこし、皮と実を分けてなめらかな餡にする。砂糖を加えて汁気のある状態に仕上げ、椀に注いで餅や白玉を浮かべる。仕上げに塩を少量加えることもあるという。餅の代わりに白玉やかき餅を沈める食べ方もあり、具材の違いが店ごとの個性になっているという。缶入りやレトルトの製品も広まり、家庭で手軽に温めて食べられる定番の冬の甘味になっているとされる。\n## なぜこの形になったのか\n一説によると、汁気の多い小豆の菓子は各地で古くから作られてきたが、こしあんの汁物を「おしるこ」、粒あんの汁物を「ぜんざい」と呼び分ける習わしは関西で定まったとされる。関東では汁気があれば粒あんでも「おしるこ」と呼ぶなど、同じ言葉でも指す範囲が地域で異なる点が今も残っているという。寒い時期の甘味処や和菓子店の定番メニューとして、今も多くの店で提供され続けているという。",
+      "body_en": "## What it's made of\nRed beans simmered soft, strained to remove the skins, sweetened, and left soupy, with grilled mochi or rice dumplings sunk into the bowl. In Kansai this smooth-paste version is what the word specifically refers to. The fineness of the sieve used to strain the paste changes the mouthfeel, said to be where a maker's craft in pursuing smoothness shows. Because straining takes real effort, some shops are said to simplify the process by leaving in a bit of texture on purpose.\n## How it's made\nRed beans are simmered and then strained through a sieve to separate skin from pulp, yielding a smooth paste. Sugar is added and the mixture kept soupy, ladled into a bowl with mochi or rice dumplings floated on top. A pinch of salt is sometimes added at the end. Rice dumplings or crisp rice crackers are sometimes sunk in instead of mochi, the choice of add-in said to become each shop's own signature. Canned and retort-pouch versions have also spread, making it a standard winter treat easily warmed up at home.\n## Why it took this shape\nOne account holds that soupy red-bean sweets have long been made across the country, but that the custom of calling the smooth-paste version \"oshiruko\" and the chunky-paste version \"zenzai\" settled into place in Kansai. In Kanto, by contrast, \"oshiruko\" can cover even a chunky, soupy version — the same word still carrying a different range of meaning by region. It is said to remain a staple menu item at sweets shops and wagashi stores through the cold months, still served widely today.",
+      "sources": [
+        {
+          "title": "関西のぜんざい、関東ではおしるこ 呼び方なぜ違う",
+          "url": "https://www.nikkei.com/article/DGXNASJB0702P_X01C13A1AA1P00/",
+          "publisher": "日本経済新聞",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "oshiruko",
+          "to_slug": "anko",
+          "relation_type": "使用食材",
+          "basis": "汁の主体をなす、こして作った小豆の餡"
+        }
+      ],
+      "tags": [
+        "meal_ender"
+      ]
+    },
+    {
+      "slug": "anmitsu",
+      "name_ja": "あんみつ",
+      "name_romaji": "Anmitsu",
+      "name_en": "Anmitsu — cubes of agar jelly with fruit, beans, and bean paste in syrup",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "東京都",
+      "origin_city": "中央区",
+      "lat": 35.6717,
+      "lng": 139.765,
+      "primary_style": "羊羹・寒天",
+      "summary_ja": "賽の目に切った寒天に、赤えんどう豆や餡、黒蜜をのせた甘味。もとは蜜と豆だけの「みつ豆」に、昭和初期の銀座の甘味処が自家製の餡をのせたのが始まりと伝わり、和菓子と喫茶文化が交わった型とされる。",
+      "summary_en": "Cubes of agar jelly topped with red peas, sweet bean paste, and dark syrup. Said to have begun when a Ginza sweets shop in the early Showa era added its own bean paste to the simpler \"mitsumame\" — jelly and peas in syrup — marking a point where wagashi met café culture.",
+      "body_ja": "## 何でできているか\n賽の目に切った寒天、茹でた赤えんどう豆、こしあん、求肥や果物を器に盛り合わせ、黒蜜や白蜜をかけて食べる甘味。寒天のつるりとした食感と、餡のねっとりとした甘さが層をなすのが身上とされる。求肥や白玉、フルーツを追加する変わり種が広がり、盛り合わせる具材の組み合わせそのものが店の個性になっているという。寒天は海藻から作られるため磯の香りがわずかに残ることもあり、これが風味の個性になっているという。\n## どう作るのか\n寒天を煮溶かして型に流し、冷やし固めてから賽の目に切る。器に寒天、豆、餡、求肥や果物を盛り合わせ、食べる直前に黒蜜をかけて味をなじませる。具材の組み合わせは店によって幅があるという。赤えんどう豆の煮加減ひとつで皮の硬さと風味が変わり、豆だけを目当てに通う客もいるとされる。フルーツあんみつなど、缶詰の果物を盛り合わせに加えた昭和期の変わり種も広く定着しているとされる。\n## なぜこの形になったのか\n一説によると、寒天と赤えんどう豆に蜜をかけただけの「みつ豆」が先にあり、昭和五年に銀座の甘味処が自家製のこしあんをのせて売り出したのが「あんみつ」の始まりと伝わる。餡をのせるという一工夫が加わったことで、涼を取る甘味と、餡を味わう和菓子の両方の性格を併せ持つ菓子になったとされる。甘味処の看板商品として、季節の果物を替えながら通年提供する店も多いとされる。",
+      "body_en": "## What it's made of\nCubes of agar jelly, boiled red peas, smooth bean paste, and gyuhi or fruit arranged in a bowl, topped with dark or light syrup. The draw is the layering of the jelly's smooth slip against the dense sweetness of the bean paste. Variants adding gyuhi, rice dumplings, or fruit have spread widely, and the specific combination of toppings arranged in the bowl is said to become each shop's own identity. Because agar comes from seaweed, a faint trace of its aroma sometimes remains, said to become part of the flavor's character.\n## How it's made\nAgar is dissolved by boiling, poured into a mold, chilled until set, and cut into cubes. The jelly, peas, bean paste, and gyuhi or fruit are arranged in a bowl, and dark syrup is poured over just before eating so the flavors settle together. The mix of toppings is said to vary widely by shop. How the red peas are simmered alone changes their skin's firmness and flavor, and some customers are said to visit specifically for the beans. Showa-era variants such as \"fruit anmitsu,\" adding canned fruit to the mix, are also said to have become widely established.\n## Why it took this shape\nOne account holds that \"mitsumame\" — agar jelly and red peas in syrup, nothing more — came first, and that a Ginza sweets shop began adding its own smooth bean paste in 1930, giving rise to \"anmitsu.\" That one addition of bean paste is said to have given the sweet a dual character: a cooling treat and a proper wagashi built around paste, at once. Many sweets shops are said to offer it year-round as a signature item, rotating in seasonal fruit.",
+      "sources": [
+        {
+          "title": "若松のご紹介",
+          "url": "http://ginza-wakamatsu.co.jp/about/",
+          "publisher": "銀座若松",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "anmitsu",
+          "to_slug": "zenzai",
+          "relation_type": "兄弟",
+          "basis": "どちらも小豆の餡を主役にした甘味という共通点を持つ"
+        }
+      ],
+      "tags": [
+        "cold_served"
+      ]
+    },
+    {
+      "slug": "nerikiri",
+      "name_ja": "練り切り",
+      "name_romaji": "Nerikiri",
+      "name_en": "Nerikiri — a soft, moldable bean-paste sweet worked into seasonal shapes",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "",
+      "origin_city": "",
+      "lat": "",
+      "lng": "",
+      "primary_style": "その他",
+      "summary_ja": "白あんに求肥や山芋などのつなぎを練り込み、四季の花や風物を模して仕立てる上生菓子。手や道具だけで形を作るため職人の技量が直に表れるとされ、茶席で二、三日のうちに食べる生菓子として扱われている。",
+      "summary_en": "White bean paste worked with gyuhi or grated yam as a binder, then shaped by hand into seasonal motifs — flowers, leaves, scenery. Since the shape is formed purely by hand and simple tools, it is said to show a maker's skill directly, and is treated as a fresh sweet meant to be eaten within a couple of days.",
+      "body_ja": "## 何でできているか\n白あんに求肥やすりおろした山芋などのつなぎを加えて練り上げた、柔らかく成形しやすい生地が基本。この生地に食用色素で淡く色をつけ、四季の花や葉、風物を模して仕上げるのが身上とされる。春は桜や梅、夏は朝顔や金魚、秋は紅葉や菊など、季節ごとに意匠がまったく異なるのがこの菓子の特徴とされる。練り込む山芋の量を控えめにするか多めにするかで、なめらかさと口どけの軽さが変わるという。\n## どう作るのか\n白あんを裏ごしして滑らかにし、つなぎを加えて練り上げる。色をつけた生地を手やへら、三角棒などの道具だけで少しずつ形作り、花びらの重なりや葉脈などの細部を表現する。中には餡を包み込むことが多いという。色をぼかしながら重ねるグラデーションの技法もあり、一つの花びらに複数の色を溶け込ませる高度な細工が見られるという。\n## なぜこの形になったのか\n一説によると、白あんにつなぎを加えて自在に成形できるようにした生地は、茶の湯の点前に季節感を添える菓子として発達してきたと伝わる。型を使わず手作業だけで仕立てるからこそ、季節の一瞬をとらえた意匠が可能になり、職人の技量がそのまま菓子の出来として表れるとされる。茶席の主菓子として、その日のためだけに一点物として仕立てられることもある特別な位置づけとされる。",
+      "body_en": "## What it's made of\nWhite bean paste worked with gyuhi or grated mountain yam as a binder into a soft, moldable dough. This dough, tinted lightly with food coloring, is shaped by hand into seasonal motifs — flowers, leaves, scenes of the moment. Spring brings cherry blossoms or plum, summer morning glories or goldfish, autumn maple leaves or chrysanthemums — an entirely different design each season is said to define this sweet. Whether more or less grated yam is worked into the paste changes both its smoothness and how lightly it melts in the mouth.\n## How it's made\nWhite bean paste is strained smooth and worked with a binder into dough. The colored dough is shaped bit by bit using only the hands and simple tools — spatulas, triangular picks — to render details like overlapping petals or leaf veins. Bean paste is often wrapped inside as filling. A gradation technique blending colors as they're layered is also used, said to allow multiple shades to melt into a single petal in advanced work.\n## Why it took this shape\nOne account holds that dough made moldable by adding a binder to white bean paste developed as a sweet meant to bring a sense of season to the tea ceremony. Because it is shaped entirely by hand without a mold, it is said to allow designs that capture a fleeting moment of the season, with a maker's skill showing directly in the finished piece. As the principal sweet at a tea gathering, it is sometimes made as a one-off piece for that day alone, said to hold a special standing among wagashi.",
+      "sources": [
+        {
+          "title": "和菓子の種類",
+          "url": "https://www.wagashi.or.jp/monogatari/shiru/syurui/",
+          "publisher": "全国和菓子協会",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "nerikiri",
+          "to_slug": "anko",
+          "relation_type": "使用食材",
+          "basis": "生地または包み込む中身として使われる白あん・小豆あん"
+        }
+      ],
+      "tags": [
+        "ceremonial"
+      ]
+    },
+    {
+      "slug": "suhama",
+      "name_ja": "州浜",
+      "name_romaji": "Suhama",
+      "name_en": "Suhama — a dense, kneaded dry sweet of roasted soybean flour and sugar",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "京都府",
+      "origin_city": "京都市",
+      "lat": 35.0116,
+      "lng": 135.7681,
+      "primary_style": "干菓子",
+      "summary_ja": "大豆などの粉に水飴を加えて練り上げた干菓子。切り口の模様が海辺の州浜紋に似ていることから名がついたと伝わり、鎌倉時代の京都で考案されたという説があるほろほろとした食感の型とされる。",
+      "summary_en": "A dry sweet of soybean flour worked with starch syrup into a dense, kneaded block. Said to be named for its cut cross-section resembling the \"suhama\" sandbar crest motif, one account traces its invention to Kyoto in the Kamakura period.",
+      "body_ja": "## 何でできているか\n大豆やえんどう豆などを炒って挽いた粉に、水飴を加えて練り上げただけの構成。棒状や小さな型に成形して乾かし、口に入れるとほろりと崩れる独特の食感が身上とされる。大豆を使った黄州浜、青えんどうを使った青州浜など、豆の種類で色と呼び名を変える型も伝わっているとされる。焼いた豆と生の豆を使い分けることで香ばしさの度合いが変わり、店ごとの配合が味の決め手になるという。\n## どう作るのか\n炒った豆を細かく挽いて粉にし、水飴を少しずつ加えながら練り上げて生地をまとめる。棒状にのすか木型で抜くかして成形し、切り分けて仕上げる。豆の種類や配合で風味と色合いが変わるという。練り上げがゆるいと形が崩れ、硬すぎるとひび割れるため、水飴の量の見極めが職人の勘に委ねられているという。練り上げてすぐは柔らかく成形しやすいが、時間が経つと締まって切りにくくなるため手早さが要るとされる。\n## なぜこの形になったのか\n一説によると、鎌倉時代の京都で考案されたと伝わり、練り上げた生地を切った際の縞模様が、海辺に緩やかに曲がって続く州浜の地形を描いた「州浜紋」に似ていたことから名がついたとされる。数百年にわたり同じ製法を守り続けてきた専門の菓子屋が京都に伝わってきたという。素朴な見た目と味わいから、茶道の稽古で使われる控えめな干菓子としても親しまれているという。",
+      "body_en": "## What it's made of\nRoasted soybean or pea flour worked with starch syrup into a dense dough — nothing more. Shaped into sticks or pressed into small molds and dried, the draw is a texture that crumbles softly the moment it's bitten into. Types distinguished by bean and named for their color are also known — a yellow suhama made from soybeans, a green one from peas. Using roasted versus raw beans changes the degree of toastiness, and each shop's own blend is said to be what decides the flavor.\n## How it's made\nRoasted beans are ground fine into flour, then worked with starch syrup added little by little until the dough comes together. It is rolled into sticks or pressed into wooden molds, then sliced to finish. The type and blend of beans is said to shift both flavor and color. Too loose a knead and the shape collapses; too firm and it cracks — judging the right amount of starch syrup is said to rest on a maker's feel. Freshly kneaded it is soft and easy to shape, but it firms up over time and becomes harder to cut, so working quickly is said to matter.\n## Why it took this shape\nOne account traces its invention to Kyoto in the Kamakura period, its name said to come from the striped pattern left when the kneaded dough is sliced, resembling the \"suhama\" crest depicting a sandbar's gentle curve along the shore. A specialist confectionery said to have kept the same method for centuries has carried it down in Kyoto. With its plain look and flavor, it is also said to be favored as an unassuming dry sweet used in tea-ceremony practice.",
+      "sources": [
+        {
+          "title": "すはまを残したいという気持ちで引き継いだお店。360年の歴史があるすはま作りに挑戦した若き店主",
+          "url": "https://relay.town/magazine/suhamaya/",
+          "publisher": "relay Magazine",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "suhama",
+          "to_slug": "rakugan",
+          "relation_type": "兄弟",
+          "basis": "水分の少ない粉物を型や成形で固める、干菓子どうしの共通点"
+        }
+      ],
+      "tags": [
+        "ceremonial"
+      ]
+    },
+    {
+      "slug": "sanshoku-dango",
+      "name_ja": "三色団子",
+      "name_romaji": "Sanshoku Dango",
+      "name_en": "Sanshoku dango — three-colored dango skewered in pink, white, and green",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "京都府",
+      "origin_city": "京都市伏見区",
+      "lat": 34.9515,
+      "lng": 135.8225,
+      "primary_style": "餅・団子",
+      "summary_ja": "桃色・白・緑の三色を一串に並べた団子。安土桃山時代、京都の醍醐寺で催された花見の席で、豊臣秀吉が女性も楽しめる彩りの団子を考案させたのが始まりという説が伝わる型とされる。",
+      "summary_en": "Dango in pink, white, and green skewered together on one stick. One account traces it to a flower-viewing party held at Kyoto's Daigo-ji temple in the Azuchi-Momoyama period, where Toyotomi Hideyoshi is said to have had colorful dango made for the women in attendance.",
+      "body_ja": "## 何でできているか\n桃色・白・緑に色づけた団子を一串に三つ並べただけの構成。桃色は桜、白はそのままの米の色、緑はよもぎや抹茶で色づけることが多く、餡やたれをつけずに団子そのものの色と食感を楽しむ型とされる。花見団子とも呼ばれ、桜の開花期に限らず一年を通して春らしさを演出する菓子として親しまれているという。三色の配色や順番に厳密な決まりはなく、店によって並べ方に個性が出るとされる。\n## どう作るのか\n米粉の生地を三等分し、桃色は食紅や桜の風味、緑はよもぎや抹茶を練り込んで色をつける。それぞれ丸めて茹でるか蒸すかし、一串に桃色・白・緑の順に刺して仕上げる。三色それぞれの生地を同じ硬さに仕上げないと串に刺したときに形が乱れるため、地味だが手間のかかる下ごしらえとされる。蒸し時間が三色でわずかに異なることもあり、同時に仕上げるための段取りが職人の腕とされる。\n## なぜこの形になったのか\n一説によると、安土桃山時代に豊臣秀吉が京都の醍醐寺で催した花見の席で、それまでの白い団子に醤油をかけただけのものより、女性も楽しめる彩り豊かな団子をと考案させたのが始まりと伝わる。三色は桜の花・雪・若葉の芽吹きなど、春から夏への移ろいを表しているとする説もあるという。花見の席で配りやすい串刺しの形は、大人数で手軽に分け合える工夫とも語られている。",
+      "body_en": "## What it's made of\nThree dango, colored pink, white, and green, skewered together — nothing more. Pink is often flavored with cherry blossom, white left as plain rice, and green colored with mugwort or matcha; the point is the color and texture of the dango itself, without paste or glaze. Also called \"hanami dango\" (blossom-viewing dango), it is said to be enjoyed year-round, not only during cherry blossom season, as a sweet that evokes a spring feeling. There is no strict rule fixing the order or exact shades of the three colors, and the arrangement is said to vary by shop's own taste.\n## How it's made\nRice-flour dough is divided into three, with pink tinted by food coloring or cherry-blossom flavoring and green worked with mugwort or matcha. Each portion is rolled into balls and boiled or steamed, then skewered together in the order pink, white, green. Unless all three colored doughs are worked to the same firmness, the shapes shift once skewered together — an unglamorous but painstaking step in preparation. Steaming time can differ slightly between the three colors, and timing them to finish together is said to be where a maker's skill shows.\n## Why it took this shape\nOne account holds that at a flower-viewing party held by Toyotomi Hideyoshi at Kyoto's Daigo-ji temple in the Azuchi-Momoyama period, he had colorful dango devised for the women present, in place of the plain white dango glazed with soy sauce that had been standard until then. The three colors are also said, in one telling, to represent the passage from spring to summer — cherry blossoms, snow, and fresh green leaves. The skewered form, easy to hand around at a flower-viewing party, is also said to be a device for sharing easily among a crowd.",
+      "sources": [
+        {
+          "title": "三色団子の由来！【ピンク、白、緑】それぞれの色の意味や味の違いを解説！",
+          "url": "https://www.nihon-kashi.ac.jp/campuslife/blog/1049/",
+          "publisher": "日本菓子専門学校",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "sanshoku-dango",
+          "to_slug": "mitarashi-dango",
+          "relation_type": "兄弟",
+          "basis": "同じ団子の受け皿から、味付けではなく彩りで枝分かれした型"
+        }
+      ],
+      "tags": [
+        "skewered",
+        "ceremonial"
+      ]
+    },
+    {
+      "slug": "kaminari-okoshi",
+      "name_ja": "雷おこし",
+      "name_romaji": "Kaminari Okoshi",
+      "name_en": "Kaminari okoshi — puffed rice and peanuts pressed into a bar with sugar syrup",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "東京都",
+      "origin_city": "台東区",
+      "lat": 35.7148,
+      "lng": 139.7967,
+      "primary_style": "干菓子",
+      "summary_ja": "蒸して乾燥させた米を炒って膨らませ、水飴や砂糖で固めた干菓子。寛政七年に浅草寺の雷門が再建された際、名物として売り出されたのが始まりと伝わり、浅草の門前菓子として定着したとされる。",
+      "summary_en": "Puffed, roasted rice bound with starch syrup and sugar into a bar. Said to have first been sold as a specialty when Sensoji Temple's Thunder Gate was rebuilt in 1795, it is said to have settled in as a confection of the temple's approach.",
+      "body_ja": "## 何でできているか\n蒸して乾燥させた米を炒って膨らませたポン菓子状の粒に、水飴と砂糖を煮詰めた蜜を絡めて板状に固めた干菓子。落花生やごまを加えることも多く、サクサクとした軽い歯ごたえが身上とされる。落花生の量や蜜の甘さの配合は店ごとに異なり、軽い口あたりを追求する店と、ずっしりとした食べごたえを狙う店に分かれるという。浅草寺の参道に軒を連ねる老舗が、今もこの名物を焼き続けているという。\n## どう作るのか\n乾燥させた米を高温で炒って一気に膨らませ、煮詰めた水飴と砂糖の蜜を絡める。落花生などを混ぜ込みながら型に押し込んで板状に成形し、冷めて固まったところで切り分ける。小分けにした個包装が浅草の定番土産として定着し、参拝のついでに買い求める客が今も絶えないとされる。膨らませる米の粒の大きさをそろえるのが難しく、均一な食感を出すための下準備が肝心だという。\n## なぜこの形になったのか\n一説によると、寛政七年に浅草寺の雷門が再建された際、その名にちなんで「雷おこし」と名付けて売り出したのが始まりと伝わる。「起こし」の音が「家を起こす」「名を起こす」に通じる縁起物として、門前で参拝客に売られる土産菓子として定着していったとされる。雷門の提灯を模した包装で売られることも多く、土産物としての物語性も人気を支えているとされる。",
+      "body_en": "## What it's made of\nDried rice, roasted and puffed like popped grain, bound in a syrup of boiled starch syrup and sugar and pressed into a bar. Peanuts or sesame are often mixed in, and the draw is a light, crisp snap. The ratio of peanuts to syrup sweetness differs by shop, said to split between those pursuing a lighter bite and those aiming for a heartier one. Long-established shops lining the approach to Sensoji Temple are said to still bake this specialty today.\n## How it's made\nDried rice is roasted at high heat until it puffs, then coated in a boiled syrup of starch syrup and sugar. Mixed with peanuts or other add-ins, it is pressed into a mold to form a bar, then sliced once cooled and set. Individually wrapped small packs have settled in as a standard Asakusa souvenir, and visitors are said to still pick them up on their way from the temple. Keeping the puffed rice grains an even size is difficult, and careful preparation for a consistent texture is said to be essential.\n## Why it took this shape\nOne account holds that when Sensoji Temple's Thunder Gate (Kaminarimon) was rebuilt in 1795, a sweet was named \"kaminari okoshi\" after the gate and sold as a specialty. The word \"okoshi\" (to raise, to found) is said to carry an auspicious echo of \"raising a household\" or \"making a name,\" and the sweet is said to have settled in as a souvenir sold to visitors at the temple gate. It is often sold in packaging modeled on the Kaminarimon lantern, its storytelling as a souvenir said to support its popularity too.",
+      "sources": [
+        {
+          "title": "和菓子「おこし」の起源",
+          "url": "https://www.dwc.doshisha.ac.jp/research/faculty_column/17944",
+          "publisher": "同志社女子大学",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "kaminari-okoshi",
+          "to_slug": "iwa-okoshi",
+          "relation_type": "兄弟",
+          "basis": "膨らませた米を蜜で固める同じ製法から、東京と大阪で分かれて育った型"
+        }
+      ],
+      "tags": [
+        "handheld",
+        "street_food",
+        "ceremonial"
+      ]
+    },
+    {
+      "slug": "iwa-okoshi",
+      "name_ja": "岩おこし",
+      "name_romaji": "Iwa Okoshi",
+      "name_en": "Iwa okoshi — a harder, denser puffed-rice bar sweetened with brown sugar",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "大阪府",
+      "origin_city": "大阪市",
+      "lat": 34.6685,
+      "lng": 135.5023,
+      "primary_style": "干菓子",
+      "summary_ja": "膨らませた米に黒砂糖などを加え、岩のように硬く板状に固めた干菓子。大阪道頓堀の粟おこしを改良し、米と黒砂糖を使って硬い歯ざわりに仕立てたのが始まりと伝わり、その硬さが評判を呼んだとされる。",
+      "summary_en": "Puffed rice bound with brown sugar into a hard, rock-like bar. Said to have begun as an improvement on Dotonbori's awa okoshi (made from millet), using rice and brown sugar for a much harder bite that drew attention for its firmness.",
+      "body_ja": "## 何でできているか\n膨らませた米に黒砂糖や水飴を煮詰めた蜜を絡め、板状にぎゅっと押し固めた干菓子。雷おこしよりも硬く締まった歯ざわりが特徴で、黒砂糖のコクのある甘さが持ち味とされる。黒砂糖の配合が濃いほど色が濃く風味も強くなり、砂糖の質そのものが店の看板になっているとされる。道頓堀という繁華街で育った菓子だけに、芝居見物の合間に手軽に食べられる土産として広まったという。\n## どう作るのか\n膨らませた米に、煮詰めた黒砂糖と水飴の蜜を絡め、型に強く押し込んで板状に成形する。しっかりと押し固めることで、岩のように硬く割れる食感に仕上がるという。硬さのあまり歯が心配になるという声も冗談交じりに語られるほどで、しっかり噛んで味わう菓子として知られているという。固さのぶん日持ちがよく、遠方への土産として重宝されてきた歴史があるとされる。\n## なぜこの形になったのか\n一説によると、もとは粟を原料にした「粟おこし」が道頓堀で売られていたが、これを改良し米と黒砂糖を用いて硬く固めたものが「岩おこし」と呼ばれるようになったと伝わる。硬い歯ざわりが評判を呼んだことが名の由来とされ、大阪の名物菓子として広まっていったという。大阪弁で威勢よく売り歩いた行商の掛け声が、今も菓子のイメージと結びついているという。",
+      "body_en": "## What it's made of\nPuffed rice bound in a syrup of boiled brown sugar and starch syrup, pressed hard into a bar. The draw is a bite noticeably harder and denser than kaminari okoshi's, carrying the deep sweetness of brown sugar. The more brown sugar in the mix, the darker the color and stronger the flavor, and the quality of the sugar itself is said to become a shop's calling card. Having grown up in the bustling Dotonbori district, it is said to have spread as a souvenir easily eaten between acts of a theater performance.\n## How it's made\nPuffed rice is coated in a boiled syrup of brown sugar and starch syrup, then pressed firmly into a mold to form a bar. The firm pressing is what gives it a rock-hard, cracking bite. Its hardness is joked about as tough enough to worry your teeth, and it is known as a sweet meant to be chewed firmly and savored. Its hardness also means it keeps well, said to have a history of being valued as a souvenir carried long distances.\n## Why it took this shape\nOne account holds that \"awa okoshi,\" made from millet, was originally sold in Dotonbori, and that a harder version made with rice and brown sugar instead came to be called \"iwa okoshi\" — \"rock okoshi.\" The name is said to come from the reputation its hard bite earned, and it spread as a specialty sweet of Osaka. The lively calls of Osaka-dialect street vendors who once sold it are said to still be tied to the sweet's image today.",
+      "sources": [
+        {
+          "title": "和菓子「おこし」の起源",
+          "url": "https://www.dwc.doshisha.ac.jp/research/faculty_column/17944",
+          "publisher": "同志社女子大学",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "iwa-okoshi",
+          "to_slug": "senbei",
+          "relation_type": "兄弟",
+          "basis": "米を主原料に硬く焼き固める・押し固める干菓子という共通点"
+        }
+      ],
+      "tags": [
+        "handheld",
+        "ceremonial"
+      ]
+    },
+    {
+      "slug": "nanbu-senbei",
+      "name_ja": "南部せんべい",
+      "name_romaji": "Nanbu Senbei",
+      "name_en": "Nanbu senbei — a thick, plain wheat-flour cracker baked in a round iron mold",
+      "type": "dish",
+      "shelf": "sweets",
+      "genre": "wagashi",
+      "origin_pref": "青森県",
+      "origin_city": "八戸市",
+      "lat": 40.5122,
+      "lng": 141.4883,
+      "primary_style": "干菓子",
+      "summary_ja": "小麦粉に塩と水を加え、丸い鉄型で焼いた厚みのある煎餅。冷害の多かった南部地方で米に頼らない保存食として各家庭で焼かれてきたと伝わり、青森・岩手の両県にまたがる郷土の味とされる。",
+      "summary_en": "A thick, plain cracker of wheat flour, salt, and water, baked in a round iron mold. Said to have been baked at home across the old Nanbu domain — a region often hit by cold-weather crop failures — as a keeping food that didn't rely on rice, it is claimed as a local staple by both Aomori and Iwate prefectures.",
+      "body_ja": "## 何でできているか\n小麦粉に塩と水を混ぜただけの生地を、丸い鉄製の型に挟んで焼いた厚みのある煎餅。うるち米を使う一般的な煎餅と違い、そば粉や大麦から広がった雑穀の煎餅としての性格を残しているとされる。落花生やごまを丸ごと練り込んだ「ピーナッツせんべい」は南部せんべいの代表的な変わり種として広く親しまれているという。焼き型には家紋や屋号を彫り込むこともあり、家庭で使われる型に個性が表れていたと伝わる。\n## どう作るのか\n小麦粉に塩水を加えてこね、丸い鉄型に薄く広げて両面から挟み、じっくりと焼き上げる。無地のまま食べるほか、ごまや落花生を練り込んだ変わり種も広がっているという。割れた欠片を揚げたり砕いて菓子に加工したりと、無駄なく食べきる工夫も郷土色として語り継がれているとされる。鍋料理に割り入れて食べる「せんべい汁」のように、菓子ではなく食事として使われる型もあるという。\n## なぜこの形になったのか\n一説によると、南部藩の領内では冷害で米が不作になることが多く、そばや大麦、のちに小麦を主原料にした素朴な煎餅が、各家庭で保存食として焼かれてきたと伝わる。藩主の居城が三戸から盛岡へ移った歴史とともに、青森・岩手の両県にまたがって焼き継がれてきた郷土の型とされる。素朴な塩味のまま食べ継がれてきた歴史があり、冷害の記憶と結びついた郷土の味とされる。",
+      "body_en": "## What it's made of\nJust wheat flour, salt, and water pressed between a round iron mold and baked into a thick cracker. Unlike the more common non-glutinous rice senbei, it is said to keep the character of a grain cracker rooted in buckwheat and barley. \"Peanut senbei,\" kneaded with whole peanuts, is said to be a well-loved variant that has become one of nanbu senbei's most representative forms. Molds were sometimes carved with a family crest or shop name, said to reflect the individuality of each household's own mold.\n## How it's made\nWheat flour is kneaded with salted water, spread thin into a round iron mold, pressed shut, and baked slowly through. It is eaten plain, and versions worked with sesame or peanuts are said to have spread as well. Frying broken pieces or grinding them into other sweets so nothing goes to waste is also said to be passed down as part of the region's food culture. Some forms are eaten not as a sweet but as food, as with \"senbei-jiru,\" where it's broken into a hot pot.\n## Why it took this shape\nOne account holds that the old Nanbu domain often suffered cold-weather crop failures that left rice in short supply, so a plain cracker made from buckwheat, barley, and later wheat was baked at home as a keeping food. Following the history of the domain's seat moving from Sannohe to Morioka, it is said to have been baked on both sides of what are now Aomori and Iwate prefectures, as a shared local staple. It has a history of being eaten plain and salted much as it always was, a local flavor said to be tied to the memory of past crop failures.",
+      "sources": [
+        {
+          "title": "南部せんべいの巖手屋とは？",
+          "url": "https://iwateya-shop.jp/iwateya-history",
+          "publisher": "巖手屋",
+          "accessed_at": "2026-09-12"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "nanbu-senbei",
+          "to_slug": "senbei",
+          "relation_type": "対比",
+          "basis": "うるち米ではなく小麦粉を主原料とする、米菓の煎餅とは対照的な原料構成"
+        }
+      ],
+      "tags": [
+        "handheld"
+      ]
+    }
+  ],
+  "notes": "対象外: 「栗きんとん」「かき氷」は担当リストに挙げられていたが、既存 data/content に同名slug（kuri-kinton=岐阜, kakigori=奈良）がすでに投入済みのため新規作成せず見送った（slug衝突）。「ういろう」「ずんだ餅」「南部せんべい」は既存slug確認の指示どおり確認し、uiro（既存）は見送り、南部せんべいは既存に無かったため新規作成（nanbu-senbei）。要判断: 型としての「酒饅頭」は既存 sake-manju（神奈川県、地域アイテム）とslugが衝突するため型としては独立させず、manju側の派生関係やonsen-manjuとの対比関係の言及に留めた（型の酒饅頭が別途必要であれば、地域アイテムと別スラッグでの新規採否をオーケストレーターに要判断として渡す）。八ツ橋は「硬焼き（yatsuhashi）」と「生八ツ橋（nama-yatsuhashi）」を別アイテムとして立てた（ブリーフ原文は1項目相当の書き方だったが、型として明確に食感・製法が異なるため2件に分割）。「干菓子」は総称語で3章立てが難しいため、実在の具体的な型「州浜（suhama）」を代わりに採用した。裏が取れず書けなかった内容: どら焼き・今川焼き・かりんとうの発祥には確たる一次史料がなく諸説併記にとどめた（本文にも「確たる史料はなく」等を明記）。"
+}
