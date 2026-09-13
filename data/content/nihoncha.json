@@ -1,0 +1,1209 @@
+{
+ "genres": [
+  {
+   "slug": "nihoncha",
+   "name_ja": "日本茶",
+   "name_en": "Nihoncha (Japanese tea)",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "intro_ja": "日本茶は、茶葉を蒸して発酵を止める製法を軸に育ってきたとされ、中国由来の釜炒り製法が主流だった時代から、江戸期以降は蒸し製が広く定着したと伝わる。日光を遮って育てる被覆栽培は玉露や碾茶のような旨みの濃い茶を生み、山間の霧や盆地の気候は産地ごとの個性を分けてきたという。摘み残した硬い葉や茎を無駄にしない番茶の系譜には、暮らしの中でお茶を飲み継いできた知恵も見えるとされる。",
+   "intro_en": "Japanese tea is said to have grown up around one defining choice: steaming the leaf to halt oxidation, a departure from the pan-firing method that arrived from China and once dominated, with steamed processing said to have taken hold widely from the Edo period on. Shading the bushes from sunlight — the technique behind gyokuro and tencha — is said to concentrate umami, while the fog of mountain valleys and the climate of each basin are said to have split the tea into distinct regional characters. And in the lineage of bancha, tea made from the coarser leaves and stems left after the fine picking, there's a thread of everyday wisdom in not letting anything go to waste."
+  }
+ ],
+ "items": [
+  {
+   "slug": "sencha",
+   "name_ja": "煎茶",
+   "name_romaji": "Sencha",
+   "name_en": "Sencha — Japan's everyday unshaded green tea",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "緑茶",
+   "summary_ja": "茶畑を覆わずに育てた新芽を蒸し、揉んで乾かす、日本茶の最も基本的な製法で作られる緑茶。全国の生産量の大半を占めるとされ、爽やかな香りとほどよい渋みのバランスが特徴という。",
+   "summary_en": "Green tea made from young leaves grown without shading, steamed and rolled dry in what's considered the most basic Japanese tea process. It's said to account for the bulk of the country's tea production, prized for a balance of fresh aroma and gentle astringency.",
+   "body_ja": "## 何でできているか\nチャノキの新芽を、覆いをかけずに日光を浴びたまま育てて摘む。蒸して発酵を止め、揉みながら乾かすという工程は日本茶の基本形とされ、渋みのもとになるカテキンと、旨みのもとになるアミノ酸のバランスが、被覆栽培の玉露などと違う爽やかな味わいを生むという。全国の茶生産量の大半を占めるとされ、日本茶といえばまず煎茶を指すことが多いという。淹れた際の水色は明るい黄緑色になりやすいとされ、鼻に抜ける青々しい香りと、飲み込んだ後にすっと消える渋みの軽さが持ち味とされる。\n## どう作るのか\n摘んだ生葉をまず蒸気で蒸して発酵（酸化）を止め、その後何度も揉みながら熱で乾かして針のような形に整える。蒸す時間の長さで味が変わるとされ、通常より長く蒸す深蒸し煎茶という派生も生まれたという。仕上げ加工では大きさや部位でふるい分けられ、茎や粉、芽先はそれぞれ別のお茶として扱われるという。蒸し時間はおよそ30〜40秒が目安とされ、この長さより短いと浅蒸し、長いと深蒸しに近づくといわれる。\n## なぜこの形になったのか\n覆いをかけずに育てる無被覆栽培は、玉露や碾茶のような手間のかかる被覆栽培に比べて扱いやすく、江戸期以降各地に広まったと伝わる。宇治田原で考案されたとされる青製煎茶製法が今日の緑茶づくりの基礎になったと伝わり、量産に向くこの製法が、日常に飲む茶としての煎茶の地位を築いたとされる。淹れる際は70〜80度程度の湯を目安に短時間で注ぐと渋みと旨みのバランスが取りやすいとされ、この扱いやすさも日常茶としての広がりを後押ししたという。",
+   "body_en": "## What it's made of\nYoung buds of the tea plant, grown without any shading and left to take in full sunlight before picking. Steaming to halt oxidation, then rolling and drying, is treated as the basic template for Japanese tea, and the balance between catechins (the source of astringency) and amino acids (the source of umami) is said to give sencha a fresher character than shaded teas like gyokuro. It's said to make up the bulk of the country's tea output, and 'Japanese tea' most often means sencha first. The brewed liquor tends toward a bright yellow-green, and a grassy aroma rising through the nose alongside a light astringency that fades quickly after swallowing is said to be its signature.\n## How it's made\nFresh leaf is steamed to stop oxidation, then repeatedly rolled while being dried with heat, shaping it into fine needles. Steaming time is said to change the flavor, and a variant steamed far longer — fukamushi sencha — grew out of that. In finishing, the leaf is sifted by size and part, with stems, powder, and bud tips each handled as their own separate teas. Steaming time is typically around 30 to 40 seconds as a rough guide, with a shorter steam edging toward asa-mushi (light steaming) and a longer one toward fukamushi (deep steaming).\n## Why it took this shape\nGrowing tea without shading is said to be far easier to manage than the labor-intensive shaded cultivation behind gyokuro or tencha, and it's said to have spread widely from the Edo period on. The aosei sencha method said to have been devised in Ujitawara is credited as the foundation of today's green tea making, and this process, well suited to mass production, is said to have secured sencha's place as the tea of everyday life. Brewing with water around 70-80°C as a guide, poured briefly, is said to make it easy to balance astringency and umami, and this ease of handling is said to have helped it spread as an everyday tea.",
+   "sources": [
+    {
+     "title": "お茶の種類",
+     "url": "https://ujicha.or.jp/knowledge/kinds/",
+     "publisher": "京都府茶業会議所",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "味わいや香りもさまざまなお茶の種類",
+     "url": "https://www.maff.go.jp/j/pr/aff/2204/spe1_03.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "京都府",
+     "city": "宇治市",
+     "lat": 34.8845,
+     "lng": 135.7996,
+     "relation_type": "本場",
+     "note_ja": "覆下栽培という独自の被覆技術を育てた地で、宇治茶として煎茶・玉露・抹茶いずれの産地としても知られてきたとされる。",
+     "note_en": "Home of the shading technique called ooshita saibai, known as a production area for sencha, gyokuro, and matcha alike under the Uji tea name.",
+     "source_url": "https://ujicha.or.jp/knowledge/history/"
+    },
+    {
+     "pref": "静岡県",
+     "city": "",
+     "lat": 34.9756,
+     "lng": 138.3828,
+     "relation_type": "本場",
+     "note_ja": "牧之原台地の大茶園から川根の山間の霧深い茶園まで産地が幅広く、全国有数の生産量を持つ茶所とされる。",
+     "note_en": "Ranging from the vast flatland plantations of the Makinohara plateau to the misty mountain gardens of Kawane, the prefecture is said to be one of the country's largest tea producers.",
+     "source_url": "https://shizuoka-cha.com/index.php/ocha/sanchi/"
+    },
+    {
+     "pref": "福岡県",
+     "city": "八女市",
+     "lat": 33.2118,
+     "lng": 130.5631,
+     "relation_type": "本場",
+     "note_ja": "稲わらを使う伝統的な被覆栽培を続け、全国茶品評会で長年上位の評価を得てきた高級茶の産地として知られるという。",
+     "note_en": "Continues traditional straw-shaded cultivation and is known as a producer of premium tea that has placed highly in national tea competitions for many years.",
+     "source_url": "https://fukuoka-yamecha.jp/whats/"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sencha",
+     "to_slug": "yokan",
+     "relation_type": "対比",
+     "basis": "爽やかな渋みを持つ煎茶と、しっかりした甘さの羊羹は、渋みと甘みの対照を楽しむ茶と菓子の定番の取り合わせとされる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "fukamushi-sencha",
+   "name_ja": "深蒸し煎茶",
+   "name_romaji": "Fukamushi Sencha",
+   "name_en": "Fukamushi sencha — sencha steamed for extra long",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "緑茶",
+   "summary_ja": "煎茶よりも長く蒸すことで茶葉が細かく崩れ、渋みを抑えたまろやかで濃い緑色の茶になるとされる製法。茶葉が小さいぶん湯に溶け出しやすく、とろりとした口当たりになるという。",
+   "summary_en": "A method of steaming the leaf far longer than ordinary sencha, said to break the leaf down finely and mellow its astringency into a deep green, richer-bodied tea. With smaller leaf fragments, more dissolves into the water, giving a notably smooth mouthfeel.",
+   "body_ja": "## 何でできているか\n原料は煎茶と同じチャノキの新芽だが、蒸す時間を通常の2〜3倍程度に延ばして仕上げる。長く蒸すことで葉の組織が壊れやすくなり、茶葉は細かい粉状に近づくとされる。この細かさゆえに湯に溶け出す成分が多く、渋みを抑えたまろやかな旨みと、濃い緑色の水色になりやすいという。茶殻も細かくなるため、湯に注ぐとやや粉っぽい沈殿が見えることがあり、これが深蒸しの目印ともいわれる。\n## どう作るのか\n生葉を蒸す工程だけを煎茶より長く取り、その後の揉み・乾燥は通常の煎茶と同じ工程をたどる。蒸し時間が長いぶん茶葉が柔らかくなり、仕上げの揉み工程で葉が砕けやすくなるとされ、茶殻も普通の煎茶より細かくなるという。淹れる際は茶葉が沈みやすく、短い蒸らし時間でも味が出やすいとされる。蒸し時間はおよそ60〜120秒が目安とされ、煎茶の倍以上をかけることで葉の組織を崩すという。淹れる際は湯温をやや低めの70度前後にすると、粉っぽさによる過度な渋みを抑えやすいとされる。\n## なぜこの形になったのか\n日照の強い平坦地で育つ茶葉は葉肉が厚く渋みが出やすいとされ、蒸し時間を延ばして渋みを抑える工夫が広まったと伝わる。静岡県内の大規模な茶産地を中心に定着していったとされ、まろやかで飲みやすい味わいが日常茶として支持を広げた一因ともいわれる。牧之原台地のように霧の少ない日照の強い土地で育つ茶葉ほど、この蒸し時間を延ばす工夫が重宝されてきたと伝わる。",
+   "body_en": "## What it's made of\nThe same young buds used for ordinary sencha, but steamed roughly two to three times longer. The longer steam is said to break down the leaf's structure, leaving it closer to a fine powder. Because of this fineness, more compounds dissolve into the water, tending toward a mellower umami with less astringency and a deep green liquor. The spent leaf also comes out fine, so a slightly powdery sediment can appear when it's poured, said to be a telltale sign of fukamushi tea.\n## How it's made\nOnly the steaming step is extended beyond ordinary sencha; rolling and drying follow the same process. The longer steam softens the leaf, said to make it break apart more easily during the final rolling, leaving finer spent leaves than regular sencha too. Because the fragments are small, they tend to sink readily, and flavor comes through even with a short steep. Steaming time runs roughly 60 to 120 seconds as a guide, more than twice as long as ordinary sencha, said to break down the leaf's structure. Brewing at a slightly cooler water temperature, around 70°C, is said to help keep the powdery fragments from turning overly astringent.\n## Why it took this shape\nLeaf grown on sun-drenched flatland like the Makinohara plateau is said to have thicker flesh and more astringency, and extending the steam to tame that bitterness is said to have spread as a workaround. It's said to have taken hold especially in Shizuoka's large-scale tea districts, and its mellow, easy-drinking character is said to be one reason it caught on as an everyday tea. Leaf grown on sun-drenched, less foggy terrain like the Makinohara plateau is said to be exactly where extending the steam this way has proven most useful.",
+   "sources": [
+    {
+     "title": "お茶の種類",
+     "url": "https://ujicha.or.jp/knowledge/kinds/",
+     "publisher": "京都府茶業会議所",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "静岡県の茶産地",
+     "url": "https://shizuoka-cha.com/index.php/ocha/sanchi/",
+     "publisher": "静岡県茶業会議所",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "fukamushi-sencha",
+     "to_slug": "sencha",
+     "relation_type": "派生",
+     "basis": "通常の煎茶よりも蒸し時間を大幅に延ばして仕上げる派生製法（京都府茶業会議所「お茶の種類」）"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "gyokuro",
+   "name_ja": "玉露",
+   "name_romaji": "Gyokuro",
+   "name_en": "Gyokuro — tea shaded before harvest for a mellow umami",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "緑茶",
+   "summary_ja": "摘み取り前の約20日間、茶畑を覆いで遮光して育てた新芽で作る高級茶。日光を遮ることで渋み成分が抑えられ、旨み成分のアミノ酸が葉に多く残るとされ、海苔のような香りと濃い旨みが特徴という。",
+   "summary_en": "A premium tea made from buds shaded from sunlight for around 20 days before picking. Blocking the light is said to suppress astringent compounds while letting amino acids build up in the leaf, giving a seaweed-like aroma and concentrated umami.",
+   "body_ja": "## 何でできているか\n摘み取り前の約20日間、茶畑をよしずや寒冷紗で覆って直射日光を遮って育てた新芽を使う。光合成が抑えられることで渋み成分のカテキンが少なくなり、旨み成分のテアニンがそのまま葉に残りやすいとされる。覆いをかけた茶に共通する海苔にも似た独特の香り（覆い香）を持つといい、まろやかで濃い旨みが特徴という。淹れた水色は透明感のある淡い緑色で、渋みはほとんど感じられず、口に含むとだし汁を思わせる濃厚な旨みが広がるとされる。\n## どう作るのか\n被覆栽培という手間をかけたあと、蒸して発酵を止め、煎茶と同じように揉みながら乾かして仕上げる。手間のかかる被覆期間の長さと、繊細な茶葉の管理が必要とされ、煎茶に比べて手間と時間がかかる高級茶とされる。低めの温度（50〜60度程度）でじっくり淹れると、甘みと旨みが引き立つといわれる。被覆期間はよしず棚と稲わらを重ねる二段階で行われることが多く、日数は品種や気候により前後するという。\n## なぜこの形になったのか\n16世紀末、宇治で覆いをかけて茶畑を育てる覆下栽培という技法が生まれ、宇治だけに許された特別な栽培法として広まったと伝わる。江戸時代末には、この覆下栽培の葉を煎茶と同じ製法で仕上げる玉露が作られるようになったとされ、被覆栽培の到達点として高級茶の地位を築いたという。宇治は山に囲まれた盆地状の地形で朝霧が立ちやすく、この湿った空気も被覆と同じように直射日光を和らげる役割を果たしてきたと伝わる。",
+   "body_en": "## What it's made of\nBuds grown under reed screens or shade cloth that block direct sunlight for about 20 days before picking. With photosynthesis suppressed, catechins (the astringent compounds) are said to decrease while theanine (the umami compound) stays in the leaf. Shaded teas share a seaweed-like aroma known as ooika, and gyokuro is known for a mellow, concentrated umami. The brewed liquor is said to be a clear, pale green with almost no astringency, filling the mouth with a concentrated umami reminiscent of dashi broth.\n## How it's made\nAfter the labor-intensive shaded cultivation, the leaf is steamed to stop oxidation, then rolled and dried the same way as sencha. The long shading period and delicate leaf management are said to make gyokuro more costly and time-consuming than sencha. Brewed slowly at a lower temperature (around 50-60°C), its sweetness and umami are said to come through most. The shading is often applied in two stages — first a reed-mat frame, then a layer of rice straw on top — with the exact number of days said to shift depending on cultivar and weather.\n## Why it took this shape\nIn the late 16th century, a shading technique called ooshita saibai — covering the tea garden — is said to have emerged in Uji and spread as a method permitted only there. By the end of the Edo period, gyokuro — leaf from this shaded cultivation finished the same way as sencha — is said to have been created, arriving as the high point of shaded growing and establishing its place as a premium tea. Uji sits in a basin ringed by mountains where morning fog is said to form readily, and this humid air is said to have played a role much like shading in softening direct sunlight.",
+   "sources": [
+    {
+     "title": "お茶の種類",
+     "url": "https://ujicha.or.jp/knowledge/kinds/",
+     "publisher": "京都府茶業会議所",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "宇治茶の歴史と文化",
+     "url": "https://ujicha.or.jp/knowledge/history/",
+     "publisher": "京都府茶業会議所",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gyokuro",
+     "to_slug": "kabusecha",
+     "relation_type": "対比",
+     "basis": "被覆期間の長さ（玉露は20日程度、かぶせ茶は7日程度）の違い（京都府茶業会議所「お茶の種類」）"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "kabusecha",
+   "name_ja": "かぶせ茶",
+   "name_romaji": "Kabusecha",
+   "name_en": "Kabusecha — briefly shaded tea between sencha and gyokuro",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "緑茶",
+   "summary_ja": "摘み取り前の約1週間、茶畑にわらや寒冷紗を直接かぶせて遮光する、玉露と煎茶の中間にあたる茶。玉露ほど長く覆わないため、玉露の旨みと煎茶の爽やかな渋みを併せ持つ味わいになるとされる。",
+   "summary_en": "Tea shaded for about a week before picking by draping straw or netting directly over the bushes — a style that sits between gyokuro and sencha. Because the shading period is shorter than gyokuro's, it's said to carry gyokuro's umami alongside sencha's brighter astringency.",
+   "body_ja": "## 何でできているか\n摘み取り前の7日程度、わらや寒冷紗を茶畑に直接かぶせて日光を遮って育てた新芽を使う。玉露のように棚を組んで覆うのではなく茶樹に直接かぶせる簡易な被覆で、期間も玉露の20日程度より短いとされる。玉露の覆い香と旨みをいくらか持ちながら、煎茶に近い爽やかな渋みも残るという中間的な味わいになるという。水色は玉露ほど淡くなく煎茶ほど濃くもない中間の緑色になりやすく、渋みと旨みの両方をほどよく感じられる味わいとされる。\n## どう作るのか\n短期間の被覆栽培のあと、蒸して発酵を止め、煎茶と同じ工程で揉んで乾かす。被覆期間の長さで玉露寄りにも煎茶寄りにも仕上がるとされ、淹れる湯の温度によって甘みと渋みの出方が変わり、ぬるめの湯では甘みが、熱い湯では渋みが引き立つといわれる。被覆に使う寒冷紗の色や厚みでも遮光の度合いが変わるとされ、淹れる際は70度前後の湯を目安にすると甘みが出やすいという。\n## なぜこの形になったのか\n玉露のような本格的な覆下栽培は棚を組む手間と時間がかかるとされ、より手軽に旨みのある茶を作る工夫として、茶樹に直接覆いをかける簡易な被覆法が広まったと伝わる。玉露と煎茶それぞれの良さを手頃な手間で両立させる茶として位置づけられているという。三重県の北勢地域のように、大きな山を持たず平野に近い土地でも導入しやすい被覆法だったことが、産地を広げた一因とされる。",
+   "body_en": "## What it's made of\nBuds shaded for around 7 days before picking by draping straw or netting directly over the bushes, rather than building a frame. The period is shorter than gyokuro's roughly 20 days, giving a style said to carry some of gyokuro's shaded aroma and umami while keeping sencha's brighter astringency — a flavor that sits between the two. Its liquor color tends to fall between gyokuro's pale hue and sencha's deeper green, said to carry a balanced mix of both astringency and umami.\n## How it's made\nAfter the brief shading, the leaf is steamed to stop oxidation and rolled and dried the same way as sencha. The length of shading is said to push the result closer to gyokuro or closer to sencha, and water temperature is said to shift the balance of sweetness and astringency — cooler water drawing out sweetness, hotter water sharper notes. The color and thickness of the netting used for shading is said to affect how much light is blocked, and brewing with water around 70°C as a guide is said to draw out more sweetness.\n## Why it took this shape\nFull shaded cultivation like gyokuro's is said to require the labor of building a frame, and a simpler method — draping cover directly over the bushes — is said to have spread as a way to make an umami-rich tea with less effort. It's positioned as a tea that captures the strengths of both gyokuro and sencha at a more modest cost. Being a shading method that's easy to adopt even on flatter land without major mountains, as in Mie's Hokusei area, is said to be one reason it spread to new producing regions.",
+   "sources": [
+    {
+     "title": "お茶の種類",
+     "url": "https://ujicha.or.jp/knowledge/kinds/",
+     "publisher": "京都府茶業会議所",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kabusecha",
+     "to_slug": "sencha",
+     "relation_type": "対比",
+     "basis": "覆いをかける期間の有無・長さによる違い（京都府茶業会議所「お茶の種類」）"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "matcha",
+   "name_ja": "抹茶",
+   "name_romaji": "Matcha",
+   "name_en": "Matcha — stone-ground powdered tea from shaded leaf",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "抹茶・粉茶",
+   "summary_ja": "覆いをかけて育てた新芽を蒸してそのまま乾かした碾茶を、茶臼で微粉末にした茶。茶葉ごと飲むため栄養や旨みを丸ごと摂れるとされ、茶の湯の点前で使われる格式高い茶としても知られる。",
+   "summary_en": "Tea made by stone-grinding tencha — shaded leaves that are steamed and dried without rolling — into a fine powder. Because the whole leaf is consumed rather than steeped and discarded, it's said to carry its full nutrients and umami, and it's also the tea used in the formal tea ceremony.",
+   "body_ja": "## 何でできているか\n原料は碾茶と呼ばれる、覆いをかけて育てた新芽を揉まずに蒸し乾かした茶。これを茶臼などで微粉末に挽いたものが抹茶とされる。茶葉を漉さず粉のまま丸ごと飲むため、湯に溶け出す成分だけを飲む煎茶などとは違い、栄養分や旨みをそのまま摂れるとされる。鮮やかな緑色と、濃厚な旨みが特徴という。点てた際の色は鮮やかな深緑で、青海苔にも似た香りが立ち、口当たりはとろりと濃く、後味に強い甘みが残るとされる。\n## どう作るのか\n碾茶と同じく被覆栽培で育てた新芽を蒸して乾かし、葉脈や茎を取り除いた葉肉部分だけを茶臼で時間をかけて挽く。石臼でゆっくり挽くことで熱が上がりにくく、香りや色が保たれるとされる。挽きたてはとりわけ香りが立つといわれ、茶筅で点てて泡立てて飲むのが茶の湯での伝統的な飲み方とされる。挽く際の茶臼の回転はゆっくりで、1時間かけても数十グラムしか挽けないとされ、これが手間のかかる理由の一つという。\n## なぜこの形になったのか\n覆下栽培という宇治発祥の技法が磨かれる中で碾茶が生まれ、これを粉に挽いて飲む抹茶という形が茶の湯の広まりとともに定着していったと伝わる。碾茶の主産地は近年、宇治だけでなく愛知や鹿児島にも広がったとされ、世界的な抹茶需要の高まりの中で生産地が変化しつつあるという。宇治が寺社との結びつきの中で茶の湯の文化を育てたのに対し、近年は平坦地を持つ産地が量産に向く碾茶づくりで存在感を強めているという。",
+   "body_en": "## What it's made of\nThe raw material is tencha — shaded new buds steamed and dried without rolling. Ground into a fine powder in a stone mill, this becomes matcha. Because the powder itself is drunk whole rather than steeped and strained, unlike sencha where only what dissolves into the water is consumed, matcha is said to deliver its full nutrients and umami. Its vivid green color and concentrated umami are its signature. Whisked matcha is said to take on a vivid deep green, release an aroma close to green laver, and leave a thick, rich mouthfeel with a strong sweetness lingering after.\n## How it's made\nShaded new buds are steamed and dried the same way as tencha, then the leaf flesh — with veins and stems removed — is ground slowly in a stone mill. Slow grinding keeps the temperature from rising, said to preserve aroma and color. Freshly ground matcha is said to be especially fragrant, and whisking it into a froth with a bamboo whisk is the traditional way it's drunk in the tea ceremony. The stone mill turns slowly, said to grind only a few dozen grams even over a full hour — one reason the process is so labor-intensive.\n## Why it took this shape\nAs the shaded cultivation technique said to have originated in Uji was refined, tencha emerged, and grinding it into a powder to drink as matcha is said to have taken hold alongside the spread of the tea ceremony. In recent years the main tencha-producing areas are said to have expanded beyond Uji to Aichi and Kagoshima, with producing regions shifting amid rising global demand for matcha. Where Uji nurtured the tea ceremony's culture through its ties to temples and shrines, regions with flatland suited to mass tencha production are said to be gaining ground in recent years.",
+   "sources": [
+    {
+     "title": "お茶の種類",
+     "url": "https://ujicha.or.jp/knowledge/kinds/",
+     "publisher": "京都府茶業会議所",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "宇治茶の歴史と文化",
+     "url": "https://ujicha.or.jp/knowledge/history/",
+     "publisher": "京都府茶業会議所",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "京都府",
+     "city": "宇治市",
+     "lat": 34.8845,
+     "lng": 135.7996,
+     "relation_type": "本場",
+     "note_ja": "覆下栽培から玉露や碾茶が育てられ、幕末以降その碾茶を挽く抹茶の産地としても知られるようになったと伝わる。",
+     "note_en": "Gyokuro and tencha grew out of ooshita saibai shaded cultivation there, and from the late Edo period the area is said to have also become known as a matcha-producing region grinding that tencha.",
+     "source_url": "https://ujicha.or.jp/knowledge/history/"
+    },
+    {
+     "pref": "愛知県",
+     "city": "西尾市",
+     "lat": 34.8578,
+     "lng": 137.0489,
+     "relation_type": "本場",
+     "note_ja": "碾茶の生産量で愛知県内の8割以上を占め、抹茶に限定した地域ブランドとして全国で初めて認定された産地とされる。",
+     "note_en": "Accounts for over 80% of Aichi Prefecture's tencha output, and is said to be the first region nationwide registered as a regional brand specifically for matcha.",
+     "source_url": "https://www.city.nishio.aichi.jp/sportskanko/kanko/1005620/1001475/1002604.html"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "matcha",
+     "to_slug": "tencha",
+     "relation_type": "派生",
+     "basis": "碾茶を茶臼で微粉末にすると抹茶になる（京都府茶業会議所「お茶の種類」）"
+    },
+    {
+     "from_slug": "matcha",
+     "to_slug": "daifuku",
+     "relation_type": "対比",
+     "basis": "抹茶を点てる喫茶文化と、餡を求肥や餅で包む大福のような和菓子は、茶席や日常で共に供されることが多い組み合わせとされる"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ]
+  },
+  {
+   "slug": "tencha",
+   "name_ja": "碾茶",
+   "name_romaji": "Tencha",
+   "name_en": "Tencha — unrolled shaded leaf, the raw material for matcha",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "抹茶・粉茶",
+   "summary_ja": "覆いをかけて育てた新芽を、揉まずに蒸してそのまま乾かした茶で、抹茶の原料になる。揉む工程がないため葉の形がそのまま残り、渋みが少なく、磯の香りに似た強い旨みを持つとされる。",
+   "summary_en": "Shaded new leaves that are steamed and dried without rolling — the raw material for matcha. Skipping the rolling step leaves the leaf shape intact, and it's said to carry little astringency but a strong, sea-like umami.",
+   "body_ja": "## 何でできているか\n玉露などと同じく覆いをかけて育てた新芽を使うが、蒸したあと揉む工程を行わずにそのまま乾燥させる点が煎茶や玉露と違うとされる。揉まないため茶葉は板状のまま残り、これを砕いて葉脈や茎を取り除いたものが碾茶とされる。磯の香りに似た独特の香りと、渋みの少ない濃い旨みを持つという。板状のまま乾かした葉は艶やかな濃緑色を保ち、砕く前の状態でも磯の香りがはっきりと感じられるとされる。\n## どう作るのか\n被覆栽培で育てた新芽を蒸して発酵を止めたあと、揉まずに碾茶炉と呼ばれる専用の乾燥機でそのまま乾かす。乾燥後、葉脈や茎を取り除く工程を経て、茶臼で挽くと抹茶になるとされる。揉む手間がないぶん製法は単純に見えるが、被覆と乾燥の管理に高い技術が要るという。碾茶炉での乾燥は100度前後の熱風を通すのが目安とされ、揉まない分、煎茶より短い時間で仕上がるという。\n## なぜこの形になったのか\n煎茶の揉み工程は茶葉の水分を抜いて保存性を高める意味も持つとされるが、粉にして飲む抹茶では葉の形を保つ必要がなく、揉まずに乾かす碾茶という製法が独立して発達したと伝わる。近年は宇治だけでなく愛知県西尾市や鹿児島県でも生産が拡大し、抹茶需要の高まりを支えているという。宇治や西尾のような盆地・平野の穏やかな気候が、被覆と乾燥という繊細な管理を安定して続けやすくしてきたと伝わる。",
+   "body_en": "## What it's made of\nLike gyokuro, tencha uses shaded new buds, but unlike sencha or gyokuro it skips rolling entirely after steaming and is dried as-is. Without rolling, the leaf stays flat and sheet-like; crushed and stripped of veins and stems, this becomes tencha. It's said to carry a distinctive aroma close to that of seaweed, along with little astringency and a deep umami. Dried flat and unrolled, the leaf keeps a glossy deep green, and even before crushing it's said to carry a distinct seaweed-like aroma.\n## How it's made\nShaded new buds are steamed to stop oxidation, then dried as-is in a dedicated kiln called a tencharo, with no rolling step. After drying, veins and stems are removed, and grinding the result in a stone mill produces matcha. Skipping the rolling looks simple, but managing the shading and drying is said to demand considerable skill. Drying in the tencha kiln is said to use hot air around 100°C as a guide, and because there's no rolling step, it's said to finish in less time than sencha.\n## Why it took this shape\nSencha's rolling step is said to also serve to draw out moisture and improve storage, but matcha, drunk as a powder, has no need to preserve the leaf's shape — and tencha, dried without rolling, is said to have developed as its own distinct process. In recent years production is said to have expanded beyond Uji to Nishio in Aichi Prefecture and to Kagoshima, supporting rising demand for matcha. The mild climate of basins and plains like Uji's and Nishio's is said to have made it easier to keep up the delicate management shading and drying demand.",
+   "sources": [
+    {
+     "title": "お茶の種類",
+     "url": "https://ujicha.or.jp/knowledge/kinds/",
+     "publisher": "京都府茶業会議所",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "鹿児島茶業について",
+     "url": "https://kagoshima-cha.or.jp/knowledge/kagoshima-chagyo/",
+     "publisher": "鹿児島県茶生産協会",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tencha",
+     "to_slug": "gyokuro",
+     "relation_type": "対比",
+     "basis": "同じ被覆栽培から、揉むか揉まないかで分かれる（京都府茶業会議所「お茶の種類」）"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ]
+  },
+  {
+   "slug": "tamaryokucha",
+   "name_ja": "玉緑茶（グリ茶）",
+   "name_romaji": "Tamaryokucha",
+   "name_en": "Tamaryokucha — curled 'guricha' green tea",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "緑茶",
+   "summary_ja": "仕上げの工程で茶葉をまっすぐ伸ばす作業を省き、勾玉のように丸まった形に仕上げる緑茶。「グリ茶」とも呼ばれ、蒸気で蒸す蒸し製と、鉄釜で炒る釜炒り製の2種類があるとされる。",
+   "summary_en": "A green tea that skips the final leaf-straightening step, left curled up in a shape likened to a comma-shaped bead — also called guricha. It's said to come in two forms: steamed, and pan-fired in an iron kettle.",
+   "body_ja": "## 何でできているか\n煎茶と同じチャノキの葉を使うが、仕上げの最終工程で行う「精揉」という茶葉をまっすぐ伸ばす作業を省くとされる。そのため茶葉は針状にならず、勾玉のように丸く縮れた形に仕上がり、この形から「グリ茶」とも呼ばれるという。蒸気で加熱する蒸し製と、鉄釜で炒って加熱する釜炒り製の2系統があるとされる。水色はやや黄色みを帯びた緑色になりやすく、蒸し製は青々しい香り、釜炒り製は香ばしい釜香がそれぞれ立つとされる。\n## どう作るのか\n蒸し製玉緑茶は煎茶と同じく蒸気で蒸して発酵を止め、釜炒り製は生葉を高温の鉄釜で直接炒って発酵を止めるとされる。どちらも精揉の工程を経ないまま乾燥させるため丸みを帯びた形になるという。蒸し製はさわやかな香りとコクのある旨みが、釜炒り製は釜で炒った香ばしい「釜香」が特徴とされる。釜炒り製は300度前後に熱した釜を目安に手早く炒るとされ、火が通りすぎると香りが飛んでしまうため見極めが要るという。\n## なぜこの形になったのか\n釜炒り製法はもともと中国から伝わった製茶法とされ、九州の一部地域で長く受け継がれてきたと伝わる。精揉を省く分、煎茶に比べて仕上げの手間が少なく済むともいわれ、佐賀県嬉野市など特定の産地でこの丸い形状の茶が主力として作り続けられてきたという。嬉野のような山あいの霧深い土地では、湿った空気が釜炒りの香りを引き立てると語られることもあるという。",
+   "body_en": "## What it's made of\nThe same tea leaf used for sencha, but the final rolling step called seijyu — which straightens the leaf — is said to be skipped. Left uncurled into needles, the leaf ends up curled into a shape likened to a magatama bead, giving the tea its nickname guricha. It's said to come in two lines: steamed, and pan-fired in an iron kettle. Its liquor tends toward a slightly yellow-tinged green, with steamed versions carrying a grassy aroma and pan-fired versions the toasty kamaka aroma.\n## How it's made\nSteamed tamaryokucha stops oxidation with steam, just like sencha, while pan-fired tamaryokucha stops it by roasting the raw leaf directly in a hot iron kettle. Both skip the final straightening and dry with the curl intact. Steamed versions are said to carry a fresh aroma and rich umami, while pan-fired versions carry a toasty aroma from the kettle known as kamaka. Pan-fired versions are roasted quickly in a kettle heated to around 300°C as a guide, and overdoing the heat is said to burn off the aroma, so timing matters.\n## Why it took this shape\nThe pan-firing method is said to have originally arrived from China, and to have been carried on for a long time in parts of Kyushu. Skipping the straightening step is also said to save some finishing labor compared to sencha, and specific producing areas such as Ureshino in Saga Prefecture are said to have kept making this curled style as their main product. In misty mountain terrain like Ureshino's, the humid air is sometimes said to bring out the pan-fired aroma even more.",
+   "sources": [
+    {
+     "title": "うれしの茶の特徴",
+     "url": "https://www.city.ureshino.lg.jp/kanko/ureshinocha/_19851/_20110.html",
+     "publisher": "嬉野市",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "tamaryokucha",
+     "to_slug": "sencha",
+     "relation_type": "対比",
+     "basis": "仕上げの最終工程「精揉」を行わないため勾玉状になる点が煎茶と違う（嬉野市「うれしの茶の特徴」）"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "bancha",
+   "name_ja": "番茶",
+   "name_romaji": "Bancha",
+   "name_en": "Bancha — everyday tea from later-picked, coarser leaves",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "発酵茶・番茶",
+   "summary_ja": "一番茶を摘んだあとの遅い時期の葉や、大きく育った硬めの葉を使って作る、日常的に飲まれてきた緑茶。若い葉を使う煎茶に比べて渋みや苦みが少なく、価格も手頃な茶として親しまれてきたとされる。",
+   "summary_en": "Green tea made from later-picked leaves or larger, tougher leaves left over after the prized first flush — an everyday tea. Compared to sencha's young leaves, it's said to carry less astringency and bitterness, and has long been valued as an affordable, everyday drink.",
+   "body_ja": "## 何でできているか\n一番茶に使うような若く柔らかい新芽ではなく、夏以降に育った硬めの葉や大きな葉を原料にするとされる。製法自体は煎茶と同じく蒸して揉んで乾かす不発酵の緑茶だが、葉が硬い分渋みの元になる成分が少なく、あっさりとした味わいになりやすいという。カフェインも比較的少ないとされ、日常的に飲む茶として親しまれてきたという。水色は煎茶より淡く黄色みが強いとされ、口当たりは軽く、渋みも控えめなためごくごくと飲みやすい茶とされる。\n## どう作るのか\n遅い時期に摘んだ葉や、仕立て直しで刈り取った葉を、煎茶と同様に蒸して発酵を止めたあと揉んで乾かす。地域によっては専用の製法を持つ独自の番茶も存在し、京都の京番茶や徳島の阿波晩茶のように、天日干しや発酵を組み合わせた独自の系統に分かれていったとされる。淹れる際は熱湯に近い90度前後を目安にしっかり注ぐと味が出やすいとされ、長く煮出しても渋くなりにくいという。\n## なぜこの形になったのか\n上質な新芽を優先して摘み取る一番茶・二番茶の陰で、硬くなった葉や余った葉を無駄にしない工夫として番茶が生まれたと伝わる。もともと「日常のお茶」を指す言葉だったともいわれ、家庭で気軽に飲む茶としての位置づけが、地域ごとの独自製法を育てる土壌になったという。硬い葉は繊維質が多く火や湯が通りにくいとされ、しっかりした熱を加える淹れ方が各地で自然と定着していったと伝わる。",
+   "body_en": "## What it's made of\nRather than the young, tender buds used for the first flush, bancha is said to use tougher, larger leaves grown from summer onward. The process itself is the same unfermented green-tea method as sencha — steamed, rolled, dried — but with tougher leaf there's less of the compound behind astringency, tending toward a lighter flavor. It's said to be relatively low in caffeine too, and has long been valued as an everyday tea. Its liquor tends to be lighter and more yellow than sencha's, with a light mouthfeel and restrained astringency said to make it an easy tea to drink in quantity.\n## How it's made\nLeaves picked later in the season, or cut back during pruning, are steamed to stop oxidation and then rolled and dried just like sencha. Some regions have their own distinct bancha processes, branching into their own lineages that combine sun-drying or fermentation, as with Kyoto's kyo-bancha or Tokushima's awa bancha. Brewing with water close to boiling, around 90°C as a guide, is said to draw out flavor well, and it resists turning bitter even when steeped for a long time.\n## Why it took this shape\nBancha is said to have arisen as a way to avoid wasting toughened or leftover leaves, in the shadow of the prized first and second flushes reserved for finer tea. The word is also said to have originally just meant 'everyday tea,' and that role as a casual home drink is said to have been the soil in which each region's own distinct process grew. Tougher leaf is said to be fibrous and slow to let heat or water through, and brewing it with firm heat is said to have settled in naturally across regions as a result.",
+   "sources": [
+    {
+     "title": "味わいや香りもさまざまなお茶の種類",
+     "url": "https://www.maff.go.jp/j/pr/aff/2204/spe1_03.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "bancha",
+     "to_slug": "sencha",
+     "relation_type": "対比",
+     "basis": "一番茶の若い葉を使う煎茶に対し、遅い時期に育った硬い葉や茎を使うのが番茶（農林水産省「お茶の種類」）"
+    },
+    {
+     "from_slug": "bancha",
+     "to_slug": "mizu-yokan",
+     "relation_type": "対比",
+     "basis": "軽い味わいの番茶と、冷やして食べる水羊羹は、夏場に好まれる茶と菓子の組み合わせの一つとされる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "hojicha",
+   "name_ja": "ほうじ茶",
+   "name_romaji": "Hojicha",
+   "name_en": "Hojicha — roasted green tea",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "緑茶",
+   "summary_ja": "煎茶や番茶、茎茶などを強い火で焙じて作る茶。焙じることでカテキンなどの苦み成分が減り、香ばしい香りとすっきりした後味になるとされ、カフェインも比較的少ないという。",
+   "summary_en": "Tea made by roasting sencha, bancha, or stem tea over high heat. Roasting is said to reduce bitter compounds like catechins, giving a toasty aroma and a clean finish, along with relatively low caffeine.",
+   "body_ja": "## 何でできているか\n原料は新しく仕込む茶葉ではなく、すでに仕上がった煎茶や番茶、茎茶などとされる。これを200度前後の強い火で狐色になるまで焙じることで、苦みや渋みのもとになる成分が熱により変化し、香ばしい香りが立つという。焙じることでカフェインの一部が飛ぶともいわれ、他の緑茶に比べて口当たりが軽くなるとされる。水色は赤みを帯びた茶色になり、緑茶特有の青みは消えて、香ばしさの奥にほのかな甘みを感じるとされる。\n## どう作るのか\n仕上がった茶葉を専用の焙煎機やほうろくで強火にかけ、茶葉の色が緑色から茶色く変わるまで一気に焙じる。焙じすぎると苦みが出るため、香りが立った瞬間にすぐ冷ますという見極めが必要とされる。原料に何を使うかで風味が変わり、茎茶を焙じたものは特に香りが柔らかいといわれる。焙じる温度はおよそ200度前後を目安とし、数分ほどで一気に仕上げるとされ、火を止めるタイミングの見極めが職人の勘に頼るという。\n## なぜこの形になったのか\n在庫として残った茶葉や、味が落ちた古い茶葉を活かす工夫として焙じる技法が広まったと伝わる。渋みが抑えられ苦手な人でも飲みやすくなることから、食後や来客時など幅広い場面で供される茶として定着していったとされる。焙じることで生まれる香ばしさは、素材が古くなったことを隠すだけでなく、食後の口をさっぱりさせる役割も果たしてきたとされる。",
+   "body_en": "## What it's made of\nThe raw material isn't freshly picked leaf but already-finished sencha, bancha, or stem tea. Roasting it over high heat around 200°C until it turns a fox-brown color is said to transform the compounds behind bitterness and astringency, releasing a toasty aroma. Roasting is also said to drive off some caffeine, leaving a lighter mouthfeel than other green teas. Its liquor turns a reddish brown, losing green tea's grassy edge, and a faint sweetness is said to linger beneath the toasty aroma.\n## How it's made\nFinished leaf is roasted over high heat in a dedicated roaster or hooroku pan until its color shifts from green to brown. Over-roasting brings out bitterness, so judging the moment the aroma peaks and cooling it immediately is said to matter. Flavor varies with what leaf is used, and hojicha roasted from stem tea is said to be especially soft in aroma. Roasting temperature runs around 200°C as a guide, finished in just a few minutes, with the moment to pull it off the heat said to rely on the roaster's own feel.\n## Why it took this shape\nRoasting is said to have spread as a way to make use of leftover stock or leaf that had lost its freshness. With its astringency toned down and easier to drink even for those who find green tea harsh, it's said to have settled in as a tea served in a wide range of settings, from after meals to when guests visit. The toastiness that roasting brings is said to have served not just to mask leaf past its freshest, but also to clear the palate after a meal.",
+   "sources": [
+    {
+     "title": "味わいや香りもさまざまなお茶の種類",
+     "url": "https://www.maff.go.jp/j/pr/aff/2204/spe1_03.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "お茶の種類",
+     "url": "https://ujicha.or.jp/knowledge/kinds/",
+     "publisher": "京都府茶業会議所",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "hojicha",
+     "to_slug": "bancha",
+     "relation_type": "派生",
+     "basis": "番茶や煎茶を強火で焙じたものがほうじ茶（農林水産省「お茶の種類」）"
+    },
+    {
+     "from_slug": "hojicha",
+     "to_slug": "dango",
+     "relation_type": "対比",
+     "basis": "香ばしいほうじ茶と、みたらしや餡をまとう団子は、渋み穏やかな茶と甘い菓子の定番の組み合わせとして供されることが多いとされる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "genmaicha",
+   "name_ja": "玄米茶",
+   "name_romaji": "Genmaicha",
+   "name_en": "Genmaicha — green tea blended with roasted rice",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "緑茶",
+   "summary_ja": "水に浸して蒸した米を炒り、番茶や煎茶とほぼ同量ずつ混ぜ合わせて作る茶。炒り米の香ばしさとお茶の爽やかさが合わさり、カフェインが控えめですっきりとした味わいになるとされる。",
+   "summary_en": "Tea made by mixing roasted, steamed rice at roughly equal parts with bancha or sencha. The toasty aroma of the roasted rice meets the tea's freshness, said to give a light, relatively low-caffeine cup.",
+   "body_ja": "## 何でできているか\n水に浸してから蒸した米を炒って玄米（炒り米）にし、これを煎茶や番茶とほぼ同量ずつ合わせて作るとされる。炒った米の香ばしい香りがお茶の香りに重なり、茶葉の割合が減る分カフェインも他の緑茶より控えめになるという。すっきりとした後味で、食事と合わせやすい茶として飲まれてきたとされる。米の白さと茶葉の緑が混ざった見た目が特徴で、水色は煎茶よりやや薄く、炒り米の香ばしさが先に鼻に届くとされる。\n## どう作るのか\n米を一定時間水に浸したあと蒸し、これを炒って香ばしさを出してから、仕上がった番茶や煎茶と混ぜ合わせる。米の炒り加減で香りの強さが変わるとされ、炒り過ぎると焦げ臭が出るため火加減の見極めが必要だという。茶葉と米粒が混ざったまま淹れるのが一般的とされる。米を炒る温度はおよそ200度前後を目安とされ、表面に軽く焦げ目がつくくらいまで炒ると香ばしさが際立つという。\n## なぜこの形になったのか\n量が少なくなった茶葉のかさ増しとして、また余った米を無駄にしない工夫として、茶に炒り米を混ぜる飲み方が生まれたと伝わる。米という日本の主食と茶を組み合わせたことで、香ばしく親しみやすい味わいが日常の食卓に定着していったとされる。米どころとしての土地の余剰米を活かす工夫が、茶葉の生産地に限らず各地で玄米茶を根づかせた一因とも伝わる。",
+   "body_en": "## What it's made of\nRice soaked in water, steamed, then roasted, and blended at roughly equal parts with sencha or bancha. The roasted rice's toasty aroma layers over the tea's own, and with less tea leaf in the mix, caffeine is said to run lower than other green teas. It's said to have been drunk as a light, food-friendly tea. Its look — white rice grains mixed among green tea leaves — is distinctive, the liquor a bit lighter than sencha's, with the roasted rice's aroma said to reach the nose first.\n## How it's made\nRice is soaked for a set time, steamed, then roasted for aroma before being blended with finished bancha or sencha. How dark the rice is roasted is said to change the strength of the aroma, and over-roasting brings a burnt smell, so judging the heat is said to matter. It's typically brewed with the tea leaf and rice grains still mixed together. The rice is roasted at around 200°C as a guide, and roasting until the surface takes on a light char is said to bring out the toastiness most.\n## Why it took this shape\nMixing roasted rice into tea is said to have arisen partly to stretch a dwindling supply of tea leaf, and partly as a way not to waste leftover rice. Combining rice, Japan's staple grain, with tea is said to have given genmaicha a toasty, approachable flavor that settled into the everyday table. Making use of a rice-growing region's surplus grain is said to be one reason genmaicha took root well beyond tea-producing areas themselves.",
+   "sources": [
+    {
+     "title": "味わいや香りもさまざまなお茶の種類",
+     "url": "https://www.maff.go.jp/j/pr/aff/2204/spe1_03.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "genmaicha",
+     "to_slug": "bancha",
+     "relation_type": "派生",
+     "basis": "番茶や煎茶に炒った米を加えたものが玄米茶（農林水産省「お茶の種類」）"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "kyo-bancha",
+   "name_ja": "京番茶",
+   "name_romaji": "Kyo-bancha",
+   "name_en": "Kyo-bancha — Kyoto's sun-dried, smoke-roasted bancha",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "京都府",
+   "origin_city": "",
+   "lat": 35.0116,
+   "lng": 135.7681,
+   "primary_style": "発酵茶・番茶",
+   "summary_ja": "玉露や碾茶用に摘み取った後に残る大きな葉や茎を、蒸してから天日で干し、強い火で焙じて作る京都独自の番茶。焚き火のような煙たさとほのかな甘みを持ち、大きな薬缶で沸かして飲まれてきたとされる。",
+   "summary_en": "A Kyoto-specific bancha made from the large leaves and stems left over after picking for gyokuro and tencha — steamed, sun-dried, then roasted over high heat. Said to carry a smoky, bonfire-like aroma and a faint sweetness, traditionally boiled in a large kettle.",
+   "body_ja": "## 何でできているか\n玉露や碾茶に使う上質な新芽を摘み取ったあとに残る、大きく硬い葉や茎を原料にするとされる。蒸したあと揉まずに天日で干し、強い火で焙じて仕上げるため、他の番茶よりも焦げ茶色に近い見た目になるという。落ち葉のような外見と、焚き火を思わせる煙たい香りが特徴で、渋みや苦みは少なく軽い味わいとされる。焙じた葉は黒褐色に近く、湯を注ぐと薄い琥珀色の水色になり、煙たさの奥にほのかな甘さが感じられるとされる。\n## どう作るのか\n収穫した葉を蒸して発酵を止めたあと、揉む工程を経ずにそのまま天日で乾燥させ、その後強火で香ばしく焙じる。揉まないため茶葉の組織が壊れにくく成分が出にくいとされ、通常の緑茶よりも高い温度でしっかり煮出すようにいれるのが向くといわれる。京都の家庭では大きな薬缶でまとめて煮出す飲み方が伝わってきたとされる。煮出す際は沸騰した湯を目安に数分置くとされ、薬缶ごと火にかけて煮立たせる淹れ方も家庭には残っているという。\n## なぜこの形になったのか\n「番茶」がもともと日常のお茶を指す言葉だったのに対し、地名の「京」を冠して呼ばれるようになった独自の系統とされる。玉露や碾茶という高級茶づくりの副産物である硬い葉を活かす工夫が、京都で独自の天日干し・焙煎という製法に発展していったと伝わる。京都は寺社が多く茶を大量に消費する土地柄だったとされ、高級茶の副産物を余さず飲み切る文化がここで育ったと伝わる。",
+   "body_en": "## What it's made of\nThe raw material is said to be the large, tough leaves and stems left over after picking the fine new buds used for gyokuro and tencha. Steamed, then sun-dried without rolling, and finished with a strong roast, it's said to end up a darker brown than other bancha. Its fallen-leaf look and smoky, bonfire-like aroma are distinctive, with a light flavor and little astringency or bitterness. The roasted leaf is nearly blackish brown, turning a pale amber liquor once brewed, with a faint sweetness said to sit beneath the smokiness.\n## How it's made\nHarvested leaf is steamed to stop oxidation, then dried in the sun as-is without rolling, before being roasted over high heat for its aroma. Because it isn't rolled, the leaf structure is said to resist breaking down, so it's said to suit brewing at a higher temperature and a longer boil than ordinary green tea. In Kyoto households, boiling a large batch in a big kettle is said to be the traditional way to drink it. It's typically steeped in boiling water for a few minutes as a guide, and some households are said to still simmer it kettle and all directly over the flame.\n## Why it took this shape\nWhile 'bancha' originally just meant everyday tea, this is said to be a distinct lineage that came to carry the place-name 'Kyo' in front of it. Making use of the tough leaves left over from premium gyokuro and tencha production is said to have developed into Kyoto's own sun-drying and roasting process. Kyoto, dense with temples and shrines, is said to have long been a place of heavy tea consumption, and a culture of drinking every last part of premium tea's byproduct is said to have grown up there.",
+   "sources": [
+    {
+     "title": "お茶の種類",
+     "url": "https://ujicha.or.jp/knowledge/kinds/",
+     "publisher": "京都府茶業会議所",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kyo-bancha",
+     "to_slug": "bancha",
+     "relation_type": "対比",
+     "basis": "天日干し後に強火で焙じるという京都独自の製法を持つ点で一般の番茶と違う（京都府茶業会議所「お茶の種類」）"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "awa-bancha",
+   "name_ja": "阿波晩茶",
+   "name_romaji": "Awa Bancha",
+   "name_en": "Awa bancha — Tokushima's lactic-fermented post-fermented tea",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "徳島県",
+   "origin_city": "那賀町・上勝町",
+   "lat": 34.0908,
+   "lng": 134.3467,
+   "primary_style": "発酵茶・番茶",
+   "summary_ja": "徳島県那賀町・上勝町に伝わる、乳酸菌で発酵させる後発酵茶。夏以降に摘んだ硬めの葉を茹でて木桶に漬け込み、10日から2週間ほど乳酸発酵させたあと天日で干して作られ、爽やかな酸味を持つとされる。",
+   "summary_en": "A post-fermented tea from Naka and Kamikatsu towns in Tokushima, fermented by lactic acid bacteria. Coarser leaves picked from midsummer on are boiled, packed into wooden barrels, fermented for roughly 10 days to two weeks, then sun-dried — said to give a refreshing sourness.",
+   "body_ja": "## 何でできているか\n緑茶が発酵を止めて作られるのに対し、阿波晩茶は乳酸菌によってあえて発酵させる「後発酵茶」の一つとされる。7月以降に摘んだ硬めの葉を茹でてから木桶に漬け込み、10日から2週間ほど発酵させ、天日で乾燥させて仕上げるという。乳酸発酵ならではの爽やかな酸味を持ち、緑茶とは全く異なる風味になるとされる。発酵後の茶葉は赤みを帯びた褐色になり、湯に入れると澄んだ赤茶色の水色になるとされ、梅干しにも似た酸味が特徴という。\n## どう作るのか\n摘んだ葉を大鍋で茹でたあと、専用の道具ですり潰しながら木桶に詰め、重石をして漬け込む。使う木桶や漬け込む日数、葉をすり潰す時間は農家ごとに異なるとされ、同じ阿波晩茶でも作り手によって酸味や風味に違いが出るという。発酵後は筵などに広げて天日で乾燥させ、保存性を高めるとされる。漬け込みの目安はおよそ10日から2週間とされ、気温の高い時期ほど発酵が早く進むため、天候を見ながら引き上げるという。\n## なぜこの形になったのか\n400年余り受け継がれてきたと伝わる製法で、乳酸発酵によって長期保存に耐える茶を作る、山間地の暮らしの知恵の一つとされる。乳酸発酵茶としては高知県の碁石茶などと並び、全国でも数少ない後発酵茶の系統として、地域ごとの家庭の技として受け継がれてきたという。那賀町・上勝町一帯は急峻な山あいで田畑が乏しく、日持ちする保存食としての茶づくりが暮らしに根づいてきたと伝わる。",
+   "body_en": "## What it's made of\nWhile green tea is made by stopping oxidation, awa bancha is deliberately fermented by lactic acid bacteria — one of Japan's few 'post-fermented' teas. Coarser leaves picked from July on are boiled, then packed into wooden barrels, fermented for roughly 10 days to two weeks, and finished by sun-drying. It's said to carry a refreshing sourness unique to lactic fermentation, a flavor entirely unlike green tea. After fermentation the leaf turns a reddish brown, brewing into a clear reddish liquor said to carry a sourness reminiscent of pickled plum.\n## How it's made\nPicked leaves are boiled in a large pot, then packed into wooden barrels while being crushed with dedicated tools, and weighted down to ferment. The barrel used, the number of days fermented, and how long the leaves are crushed are all said to vary by farming household, so sourness and flavor differ from maker to maker even within awa bancha. After fermentation, the leaves are spread on mats and sun-dried to improve their keeping quality. Soaking runs roughly 10 days to two weeks as a guide, with fermentation moving faster in warmer weather, so timing the pull depends on watching the conditions.\n## Why it took this shape\nSaid to have been handed down for over 400 years, the method is considered a piece of mountain-village wisdom — using lactic fermentation to make a tea that holds up to long storage. Alongside Kochi's goishicha, it stands as one of the country's few lactic-fermented tea lineages, passed down as a household craft specific to its region. The steep mountain terrain around Naka and Kamikatsu leaves little farmland, and making a tea that keeps well is said to have taken root as part of daily life there.",
+   "sources": [
+    {
+     "title": "上勝阿波晩茶協会について",
+     "url": "https://www.kamikatsuawabanchakyokai.com/",
+     "publisher": "上勝阿波晩茶協会",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "awa-bancha",
+     "to_slug": "kyo-bancha",
+     "relation_type": "対比",
+     "basis": "同じ「番茶」を名乗るが、不発酵で天日干し・焙煎する京番茶に対し、阿波晩茶は乳酸発酵を経る後発酵茶という違い（上勝阿波晩茶協会）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "goishicha",
+   "name_ja": "碁石茶",
+   "name_romaji": "Goishicha",
+   "name_en": "Goishicha — Kochi's twice-fermented, go-stone-shaped tea",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "高知県",
+   "origin_city": "大豊町",
+   "lat": 33.7625,
+   "lng": 133.7325,
+   "primary_style": "発酵茶・番茶",
+   "summary_ja": "高知県大豊町に伝わる、カビ付けと乳酸発酵という二段階の発酵を経て作られる後発酵茶。四角く切った茶葉を天日で干した見た目が碁石に似ることからその名がついたとされ、甘酸っぱい独特の風味を持つという。",
+   "summary_en": "A post-fermented tea from Otoyo, Kochi Prefecture, made through two stages of fermentation — an aerobic mold fermentation followed by a lactic acid soak. Named for its square-cut, sun-dried pieces said to resemble go stones, it carries a distinctive sweet-and-sour flavor.",
+   "body_ja": "## 何でできているか\n蒸した茶葉にカビを付けて発酵させる一次発酵と、木桶に漬け込んで乳酸発酵させる二次発酵という、二段階の発酵を経て作られる後発酵茶とされる。四角く切って天日に干した茶葉の見た目が碁石に似ていることが名前の由来と伝わる。緑茶とは違う甘酸っぱい風味と、独特の香りを持つという。四角い茶葉は黒褐色で、湯に入れると赤みを帯びた水色になり、酸味と共にほのかな甘みも感じられるとされる。\n## どう作るのか\n枝ごと蒸した茶葉を筵に広げてカビを付け、数日かけて一次発酵させたあと、茶葉だけを取り出して木樽に漬け込み、重石をして数週間ほど二次発酵させる。発酵が終わると茶葉を四角く切り分け、天日で乾燥させて仕上げるとされる。二段階の発酵を経ることで、他の後発酵茶よりも発酵度が高いといわれる。一次発酵はおよそ1週間、二次発酵は2〜3週間が目安とされ、合わせて1か月ほどをかけて仕上げる手間のかかる茶という。\n## なぜこの形になったのか\n山間の土地で長期保存できる茶を作る工夫として、400年ほど前から作り続けられてきたと伝わる。かつては塩と交換する交易品として、瀬戸内海側の地域にも運ばれていたとされ、保存性と交易の必要が、この手間のかかる二段階発酵の製法を今日まで残す一因になったという。大豊町は吉野川上流の山間にあり、平地が乏しいぶん、塩と交換できる茶という交易品の価値が暮らしを支えてきたとされる。",
+   "body_en": "## What it's made of\nSaid to be made through two stages of fermentation — an aerobic mold fermentation on steamed leaf, followed by a lactic acid soak packed into wooden barrels — goishicha is one of Japan's post-fermented teas. Its name is said to come from the resemblance of its square-cut, sun-dried pieces to go stones. It carries a sweet-and-sour flavor and a distinctive aroma quite unlike green tea. The square pieces are a blackish brown, brewing into a reddish liquor said to carry a faint sweetness alongside its sourness.\n## How it's made\nLeaf steamed on the branch is spread on straw mats to grow mold over several days in a first fermentation, then the leaf alone is packed into wooden barrels, weighted down, and left to ferment again for several weeks. Once fermentation ends, the leaf is cut into squares and sun-dried to finish. Going through two separate fermentations is said to leave it more deeply fermented than other post-fermented teas. The first fermentation runs about a week and the second two to three weeks as a guide, together taking roughly a month to finish — a labor-intensive tea.\n## Why it took this shape\nSaid to have been made for around 400 years as a way to produce a tea that keeps for a long time in this mountain terrain, it was once said to have been carried as a trade good exchanged for salt, reaching areas along the Seto Inland Sea. The need for both storability and trade is said to be part of why this labor-intensive, two-stage fermentation process survives today. Otoyo sits in the mountains along the upper Yoshino River, with little flat farmland, and the value of tea as a trade good exchangeable for salt is said to have supported life there.",
+   "sources": [
+    {
+     "title": "碁石茶（ごいしちゃ）",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/goisitya.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "製造法",
+     "url": "https://goishicha.jp/method/",
+     "publisher": "碁石茶協同組合",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "goishicha",
+     "to_slug": "awa-bancha",
+     "relation_type": "対比",
+     "basis": "共に乳酸発酵する後発酵茶だが、碁石茶はカビ付け発酵と桶漬け発酵の二段階を経る点が異なる（農林水産省「碁石茶」・碁石茶協同組合「製造法」）"
+    }
+   ],
+   "tags": [
+    "fermented"
+   ]
+  },
+  {
+   "slug": "kamairicha",
+   "name_ja": "釜炒り茶",
+   "name_romaji": "Kamairicha",
+   "name_en": "Kamairicha — pan-fired green tea",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "緑茶",
+   "summary_ja": "生葉を蒸さずに、高温に熱した鉄釜で直接炒って発酵を止める、中国伝来とされる製法で作る緑茶。蒸し製の茶とは違う「釜香」と呼ばれる香ばしい香りを持ち、九州の一部地域で作り続けられてきたとされる。",
+   "summary_en": "Green tea made by pan-firing the fresh leaf directly in a hot iron kettle rather than steaming it — a method said to trace back to China. It carries a distinctive toasty aroma known as kamaka, and has continued to be made in parts of Kyushu.",
+   "body_ja": "## 何でできているか\n日本茶の多くが蒸気で蒸して発酵を止めるのに対し、釜炒り茶は生葉を高温に熱した鉄釜で直接炒ることで発酵を止めるとされる。この製法は中国から伝わったとされ、蒸し製のような青々しい香りではなく、釜で炒ったことで生まれる「釜香」と呼ばれる香ばしい香りを持つという。水色もやや黄色みを帯びるとされる。釜で炒った葉は黄色みの強い水色になりやすく、青みのある香りではなく香ばしい釜香が鼻を抜けるとされる。\n## どう作るのか\n生葉を鉄釜に入れ、高温を保ちながら絶えず手やかき混ぜ機で動かして均一に熱を通す。蒸気を使わないため釜の温度管理が味を大きく左右するとされ、炒りすぎれば焦げ、火が弱ければ発酵が進みすぎるという。その後は煎茶などと同じく揉みながら乾燥させて仕上げるとされる。釜の温度はおよそ200〜300度が目安とされ、生葉を入れた瞬間の高い音と煙で発酵が止まったと判断するという。\n## なぜこの形になったのか\n蒸す製法が全国に広まる以前、日本に伝わった製茶法はもともと中国式の釜炒りだったとされる。蒸し製への切り替えが各地で進む中、九州の一部地域では釜炒りの技術と道具がそのまま受け継がれ、地域独自の製法として今日まで残ってきたという。九州は大陸に近く、中国式の製茶技術がまず伝わった土地とされ、山あいの小規模な茶畑でも道具を揃えやすかったと伝わる。",
+   "body_en": "## What it's made of\nWhile most Japanese tea stops oxidation by steaming, kamairicha stops it by pan-firing the fresh leaf directly in a hot iron kettle. This method is said to have arrived from China, and rather than steamed tea's grassy aroma, it carries a toasty aroma known as kamaka, born from the roasting. Its liquor is also said to take on a slight yellow tinge. Pan-fired leaf tends toward a liquor with a strong yellow tinge, and rather than a grassy note it's the toasty kamaka aroma that comes through the nose.\n## How it's made\nFresh leaf goes into an iron kettle kept at high heat and is kept constantly moving by hand or by machine to heat it evenly. Without steam, managing the kettle's temperature is said to matter a great deal for the flavor — too hot and it scorches, too weak and oxidation runs too far. Afterward it's rolled and dried the same way as sencha to finish. Kettle temperature runs roughly 200-300°C as a guide, and the loud crackle and puff of steam the moment fresh leaf hits the metal is said to signal that oxidation has stopped.\n## Why it took this shape\nBefore steaming spread nationwide, the tea-making method that first reached Japan is said to have been the Chinese-style pan-firing. As steaming took over region by region, the pan-firing technique and its tools are said to have been carried on unchanged in parts of Kyushu, remaining as a distinct local method to this day. Kyushu, close to the continent, is said to be where Chinese-style tea processing first arrived, and even small mountain tea gardens are said to have found it easy to gather the necessary tools.",
+   "sources": [
+    {
+     "title": "味わいや香りもさまざまなお茶の種類",
+     "url": "https://www.maff.go.jp/j/pr/aff/2204/spe1_03.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kamairicha",
+     "to_slug": "tamaryokucha",
+     "relation_type": "派生",
+     "basis": "玉緑茶のうち鉄釜で炒って仕上げるものを釜炒り製玉緑茶と呼ぶ（嬉野市「うれしの茶の特徴」）"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "kukicha",
+   "name_ja": "茎茶（かりがね）",
+   "name_romaji": "Kukicha (Karigane)",
+   "name_en": "Kukicha — stem tea, prized as karigane from gyokuro",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "緑茶",
+   "summary_ja": "煎茶や玉露を仕上げる工程でふるい分けられる、茎や葉柄を集めて作る茶。とくに玉露や高級煎茶から出た茎を「かりがね」と呼ぶとされ、渋みが少なく甘みのある軽い味わいが特徴という。",
+   "summary_en": "Tea made from the stems and leaf stalks sifted out while finishing sencha or gyokuro. Stems from gyokuro or premium sencha in particular are called karigane, said to give a light, sweet cup with little astringency.",
+   "body_ja": "## 何でできているか\n煎茶や玉露を仕上げる際、ふるいや選別機で葉と茎を分ける工程で出る、茎や葉柄の部分を集めて作るとされる。とくに玉露や高級な煎茶から出た茎は「かりがね」あるいは「雁ヶ音」と呼ばれ、上質な茎茶として扱われるという。葉の部分より渋み成分が少なく、旨み成分のテアニンを多く含むとされ、あっさりとした甘みのある味わいになるという。水色は葉茶よりも淡い黄緑色になりやすく、青みの強い渋みは少なく、すっとした軽やかな後味が残るとされる。\n## どう作るのか\n荒茶を仕上げ加工する段階で、篩と箕を使いながら形のある茶葉とそれ以外を何段階にも分けていく。この過程で葉から分離された茎の部分だけを集めたものが茎茶とされ、原料となる茶葉の等級によって茎茶自体の等級も分かれるという。淹れる際は葉茶よりもやや高めの湯温でも渋みが出にくいとされる。淹れる際は80度前後の湯を目安にやや長めに浸すと、茎特有の甘みが引き出しやすいとされる。\n## なぜこの形になったのか\n煎茶や玉露は茶葉の形や色の均一さが評価される茶とされ、仕上げの工程で茎の部分を取り除く必要があったと伝わる。分離された茎を廃棄せず別の茶として活かす工夫が茎茶という一つの種類を生み、とりわけ玉露の茎は「かりがね」として珍重されるようになったという。宇治のような玉露の主産地では上質な茎が多く出るとされ、これが「かりがね」として特に珍重される土地の条件になったという。",
+   "body_en": "## What it's made of\nMade from the stems and leaf stalks separated out when sencha or gyokuro is sifted apart from its leaf during finishing. Stems from gyokuro or premium sencha in particular are called karigane, treated as a finer grade of stem tea. It's said to carry less astringent compound than the leaf portion and more theanine, the umami compound, giving a light, sweet flavor. Its liquor tends toward a lighter yellow-green than leaf tea, with little of the sharp grassy astringency, leaving a light, clean finish.\n## How it's made\nDuring the finishing of raw tea, sieves and winnowing baskets separate shaped leaf from everything else in several stages. Stem tea is what's collected from the stem portion split off from the leaf in this process, and its own grade is said to track the grade of the leaf it came from. It's said to resist bitterness even at a somewhat higher water temperature than leaf tea. Brewing with water around 80°C as a guide, steeped a bit longer than usual, is said to draw out the stem's particular sweetness.\n## Why it took this shape\nSencha and gyokuro are teas valued for the uniformity of their leaf shape and color, and the stem portion is said to have needed removing during finishing. Making use of that separated stem as its own tea rather than discarding it is said to have given rise to stem tea as its own category, with gyokuro's stems in particular coming to be prized as karigane. Major gyokuro regions like Uji are said to yield an especially fine grade of stem, said to be the local condition behind why karigane in particular is so prized.",
+   "sources": [
+    {
+     "title": "荒茶と仕上げ茶について深く知る（その1）",
+     "url": "https://tokyo-cha.or.jp/article/aracha-shiagecha-001.html",
+     "publisher": "東京都茶協同組合",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kukicha",
+     "to_slug": "mecha",
+     "relation_type": "対比",
+     "basis": "同じ仕上げ加工の出物でも、茎や葉柄を集めた茎茶と、芽先を集めた芽茶とで違う（東京都茶協同組合「荒茶と仕上げ茶について深く知る」）"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "konacha",
+   "name_ja": "粉茶",
+   "name_romaji": "Konacha",
+   "name_en": "Konacha — fine powdered tea, the sushi counter's agari",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "抹茶・粉茶",
+   "summary_ja": "煎茶や玉露を仕上げる際にふるい分けられる、粉状になった細かい部分を集めて作る茶。湯に溶け出しやすく、すぐに濃い味と香りが出ることから、寿司屋の「あがり」としてよく使われるとされる。",
+   "summary_en": "Tea made from the fine, powder-like fragments sifted out while finishing sencha or gyokuro. Because it dissolves quickly in hot water and releases flavor and aroma fast, it's often used as the agari served at sushi counters.",
+   "body_ja": "## 何でできているか\n煎茶や玉露を仕上げる工程で、篩によって選り分けられる粉状の細かい部分を集めて作られるとされる。茶葉の粒が小さいため湯に浸る面積が広く、短い時間で色や香り、旨みが出やすいという。玉露の粉茶は特に濃厚な旨みを持つとされ、江戸前寿司の店で出される「あがり」として使われることが多いとされる。細かい粒ゆえに水色は濃く出やすく、渋みよりも旨みが前面に出て、後味はすっきりと短く消えるとされる。\n## どう作るのか\n荒茶を仕上げる際、篩を何段階も通して葉の大きさごとに分けていく過程で、最も細かい粉状の部分がまとまって取り出される。粒が細かい分抽出が早いため、通常の煎茶よりも短い浸出時間・やや低めの湯温でいれるのが向くとされる。すぐに濃い色と味が出るため、大量に手早く提供する飲食店で重宝されてきたという。淹れる際は70度前後の湯を目安に短時間で注ぐのが向くとされ、長く置くと苦みが出やすいため手早さが求められるという。\n## なぜこの形になったのか\n仕上げの過程で必ず出る粉状の部分を廃棄せず活用する工夫として、粉茶という商品が生まれたと伝わる。すぐに濃く出るという特性が、客の入れ替わりが早い寿司屋の需要と合い、「あがり」の定番として定着していったとされる。客の回転が速い江戸前寿司の店ほど、すぐに濃く出て手早く出せる粉茶の特性が重宝されてきたと伝わり、湯呑みの熱さも接客の合図になったという。",
+   "body_en": "## What it's made of\nMade by collecting the fine, powder-like fragments sifted out while finishing sencha or gyokuro. Because the particles are so small, more surface area touches the water, letting color, aroma, and umami come out fast. Konacha made from gyokuro is said to carry an especially concentrated umami, and it's often the tea used as the agari served at Edo-style sushi counters. Because the particles are so fine, the liquor tends to come out strong, with umami more prominent than astringency, and a finish said to fade quickly.\n## How it's made\nWhile finishing raw tea, leaf is passed through sieves in several stages to sort it by size, and the finest, powder-like fragments are collected together. Because the particles are fine, extraction is fast, so a shorter steep and somewhat cooler water than ordinary sencha is said to suit it. Its quick color and flavor have made it valued at restaurants that need to serve many customers fast. Brewing with water around 70°C as a guide, poured quickly, is said to suit it best, since sitting too long tends to bring out bitterness.\n## Why it took this shape\nKonacha is said to have emerged as a way to make use of the powder that's inevitably produced during finishing, rather than discard it. Its quick, strong extraction matched the needs of sushi counters with fast customer turnover, and it's said to have settled in as the standard agari. Sushi counters with fast customer turnover are said to have especially valued konacha's ability to brew strong and fast, with even the heat of the cup said to serve as a cue in service.",
+   "sources": [
+    {
+     "title": "荒茶と仕上げ茶について深く知る（その1）",
+     "url": "https://tokyo-cha.or.jp/article/aracha-shiagecha-001.html",
+     "publisher": "東京都茶協同組合",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "konacha",
+     "to_slug": "matcha",
+     "relation_type": "対比",
+     "basis": "共に粉状の茶だが、碾茶を石臼で挽く抹茶と、仕上げ加工のふるい分けで出る粉を集める粉茶とでは原料も製法も異なる（東京都茶協同組合ほか）"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "mecha",
+   "name_ja": "芽茶",
+   "name_romaji": "Mecha",
+   "name_en": "Mecha — tea made from curled bud tips",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "緑茶",
+   "summary_ja": "煎茶や玉露を仕上げる工程でふるい分けられる、丸まった芽先の部分を集めて作る茶。小さくよじれた形で、湯に浸ると開きながら濃い旨みと香りを出すとされる、量の少ない出物という。",
+   "summary_en": "Tea made from the tightly curled bud tips sifted out while finishing sencha or gyokuro. Small and twisted in shape, the leaves are said to unfurl in hot water and release a concentrated umami and aroma — a relatively scarce byproduct.",
+   "body_ja": "## 何でできているか\n煎茶や玉露を仕上げる際、ふるい分けの工程で選り分けられる、丸くよじれた芽先の部分を集めて作られるとされる。若い芽先だけを集めているため旨み成分が多く含まれるといわれ、茶葉の量に対して芽先の割合はもともと少ないため、まとまった量を集めにくい出物とされる。小さく詰まった芽先は濃い緑色を保ち、湯に入れるとゆっくり開きながら濃厚な旨みと甘い香りを放つとされる。\n## どう作るのか\n荒茶を仕上げる工程の篩分けで、葉の形のあるものと芽先を選別し、丸まった芽の部分だけを集める。小さく詰まった形をしているため湯の中でゆっくり開き、開ききるまで旨みが持続して出やすいとされる。煎茶よりもやや長めに蒸らすと味が引き出しやすいといわれる。淹れる際は60〜70度程度の低めの湯を目安にすると、渋みを抑えつつ甘みを引き出しやすいとされる。\n## なぜこの形になったのか\n仕上げ加工の過程で本茶（形の整った茶葉）とは別に選り分けられる出物の一つとして、芽茶という区分が生まれたと伝わる。量が少ないぶん希少とされ、旨みの強い部分を無駄にせず活かす工夫が、出物を独立した商品として扱う文化を育てたという。玉露のように被覆栽培された茶畑ほど旨みの強い芽先が育つとされ、上質な産地ほど良い芽茶が出やすいという。",
+   "body_en": "## What it's made of\nSaid to be made by collecting the tightly curled bud tips sorted out during the sieving stage of finishing sencha or gyokuro. Because only young bud tips are gathered, they're said to carry a high concentration of umami compounds, and since bud tips naturally make up only a small share of the leaf, mecha is a byproduct that's hard to collect in bulk. The small, tightly curled bud tips keep a deep green color, and are said to slowly unfurl in hot water while releasing a concentrated umami and sweet aroma.\n## How it's made\nDuring the sieving stage of finishing raw tea, shaped leaf is separated from bud tips, and only the curled bud portion is collected. Because the pieces are small and tightly wound, they're said to unfurl slowly in hot water, releasing umami steadily as they open. A slightly longer steep than sencha is said to draw out more flavor. Brewing with a cooler water temperature, around 60-70°C as a guide, is said to hold back astringency while drawing out sweetness.\n## Why it took this shape\nMecha is said to have emerged as one of the categories sorted out apart from hon-cha (the main, well-shaped leaf) during finishing. Being scarce, it's treated as a rarer grade, and the effort to make use of this umami-rich portion rather than waste it is said to have nurtured a culture of treating finishing byproducts as their own separate products. Tea gardens under shaded cultivation, as for gyokuro, are said to grow bud tips with a stronger umami, so finer producing regions tend to yield finer mecha.",
+   "sources": [
+    {
+     "title": "荒茶と仕上げ茶について深く知る（その1）",
+     "url": "https://tokyo-cha.or.jp/article/aracha-shiagecha-001.html",
+     "publisher": "東京都茶協同組合",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mecha",
+     "to_slug": "konacha",
+     "relation_type": "対比",
+     "basis": "共に仕上げ加工の出物だが、芽先を集めた芽茶と、粉状の部分を集めた粉茶とで違う（東京都茶協同組合「荒茶と仕上げ茶について深く知る」）"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "mugicha",
+   "name_ja": "麦茶",
+   "name_romaji": "Mugicha",
+   "name_en": "Mugicha — roasted barley tea, not made from tea leaves",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "その他",
+   "summary_ja": "大麦を焙煎して煮出す、チャノキの葉を使わない飲み物。江戸時代には焙煎した挽き割り大麦を煮出す「麦湯」として庶民に親しまれ、昭和以降は冷やして飲む夏の定番として広まったとされる。",
+   "summary_en": "A drink brewed from roasted barley — not made from the tea plant at all. In the Edo period, a roasted cracked-barley infusion called mugiyu was popular among commoners, and from the Showa era on it's said to have spread as a chilled summer staple.",
+   "body_ja": "## 何でできているか\n原料はチャノキの葉ではなく大麦で、焙煎した麦を煮出して作る飲み物とされる。「茶」と名がつくものの茶葉を一切使わないため、カフェインを含まない点が緑茶との大きな違いという。香ばしい香りと、ほんのりとした甘みが特徴とされ、渋みやカフェインを避けたい場面でも飲みやすい飲み物とされる。焙煎した麦の水色は琥珀色に近く、渋みやカフェインの刺激がないぶん、香ばしさと軽い甘みだけが際立つとされる。\n## どう作るのか\n大麦の粒を皮ごと、あるいは挽き割りにしたものを強火でじっくり焙煎し、香ばしさを引き出す。これを水から煮出すか、熱湯を注いで抽出するとされる。焙煎の度合いで香りの濃さが変わり、深く煎るほど香ばしさが増すという。冷やして飲む場合は煮出したあと急冷することが多いとされる。煮出す際は水から10分前後を目安に沸かすとされ、長く煮すぎると焦げたような苦みが出るため加減が要るという。\n## なぜこの形になったのか\n平安時代にはすでに麦を煎じた飲み物があったと伝わり、江戸時代中期には焙煎した挽き割り大麦を煮出す「麦湯」が町なかで売られる庶民の飲み物として広まったという。昭和30年代の冷蔵庫の普及とともに冷やして飲む習慣が生まれ、麦茶という呼び名とともに夏の定番として定着したとされる。米や麦を多く作る土地ほど、余った麦を焙煎して飲む習慣が根づきやすかったと伝わる。",
+   "body_en": "## What it's made of\nThe raw material is barley, not tea leaf — mugicha is a drink brewed by boiling roasted barley. Though it carries the word 'cha' (tea) in its name, it uses no tea leaf at all, and containing no caffeine is a key difference from green tea. It's said to have a toasty aroma and a faint sweetness, an easy drink for moments when astringency or caffeine aren't wanted. Roasted barley brews into a liquor close to amber, and without any astringency or caffeine edge, only the toastiness and a light sweetness are said to stand out.\n## How it's made\nWhole or cracked barley grains are roasted slowly over high heat to draw out their toastiness, then either boiled from cold water or steeped in boiling water. The depth of roast is said to change the strength of the aroma, with a darker roast giving more toastiness. When served chilled, it's often boiled and then rapidly cooled. Boiled from cold water for roughly 10 minutes as a guide, boiling it too long is said to bring out a scorched bitterness, so timing matters.\n## Why it took this shape\nA barley infusion is said to have already existed in the Heian period, and by the mid-Edo period a roasted, cracked-barley brew called mugiyu is said to have spread as a common drink sold around town. With refrigerators spreading in the 1950s-60s, the habit of drinking it chilled is said to have taken hold, and it settled in as a summer staple under the name mugicha. Regions that grew a lot of rice and barley are said to have been where the habit of roasting surplus barley to drink took root most readily.",
+   "sources": [
+    {
+     "title": "麦茶の歴史",
+     "url": "https://www.mugicya.or.jp/history/",
+     "publisher": "全国麦茶工業協同組合",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "mugicha",
+     "to_slug": "sencha",
+     "relation_type": "対比",
+     "basis": "大麦を焙煎したもので、チャノキの葉を使う煎茶とは原料が異なる（全国麦茶工業協同組合「麦茶の歴史」）"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "konbucha",
+   "name_ja": "昆布茶",
+   "name_romaji": "Konbucha",
+   "name_en": "Konbucha — kelp infusion drunk as a festive tea",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": null,
+   "lng": null,
+   "primary_style": "その他",
+   "summary_ja": "刻んだり粉末にした昆布を湯で溶かして飲む、チャノキを一切使わない飲み物。「昆布」が「よろこぶ」に通じるとされ、正月や婚礼など祝いの席で供されることが多いという、茶葉不使用の「茶」。",
+   "summary_en": "A drink made by dissolving finely chopped or powdered kelp in hot water — again, nothing to do with the tea plant. Because kombu (kelp) echoes the word yorokobu (to rejoice), it's often served on festive occasions like New Year's or weddings.",
+   "body_ja": "## 何でできているか\n原料は昆布で、茶葉は使わない飲み物とされる。刻んだり粉末にした昆布を湯に溶かして飲み、昆布のうま味成分と、製品によっては加えられた塩や調味料の味が合わさるという。「茶」と呼ばれてはいるものの、緑茶とは原料も製法も全く異なる飲み物とされる。湯に溶かすと薄茶色の水色になり、昆布そのものの磯の香りと塩味が前面に出る、緑茶とは全く異なる飲み口とされ、とろみを感じるほど濃いめに作る家庭もあるという。\n## どう作るのか\n乾燥させた昆布を細かく刻むか、粉末にまで加工し、湯に溶かして飲む。塩や砂糖、梅などを加えた製品も多いとされ、単独で飲むほか、料理の下味や調味料として使われることもあるという。昆布の等級や産地によって風味が変わるとされる。溶かす際は70度前後の湯を目安にすると塩分が急に立たず、まろやかに仕上がるとされる。\n## なぜこの形になったのか\n昆布は北前船の航路によって北海道から日本海沿岸、大阪、さらには琉球まで運ばれた交易品だったと伝わり、各地で昆布を使う食文化が根付く土台になったという。「昆布」の響きが「よろこぶ」に通じることから、めでたい席で飲む縁起物として扱われるようになったとされる。北前船が寄港した港町ほど昆布の入手が容易だったとされ、その土地ごとに祝いの飲み物として定着していったという。",
+   "body_en": "## What it's made of\nThe raw material is kelp, with no tea leaf involved at all. Finely chopped or powdered kelp is dissolved in hot water and drunk, combining kelp's own umami with whatever salt or seasoning a given product adds. Though it's called 'cha' (tea), it's said to be an entirely different drink from green tea in both raw material and method. Dissolved in hot water it turns a pale brown, with kelp's own sea aroma and saltiness up front — a mouthfeel quite unlike green tea, and some households are said to make it strong enough to feel a slight thickness.\n## How it's made\nDried kelp is finely chopped or ground into powder, then dissolved in hot water to drink. Many products add salt, sugar, or pickled plum, and beyond drinking it alone, it's also said to be used to season dishes. Flavor is said to vary with the kelp's grade and growing region. Dissolving it in water around 70°C as a guide is said to keep the saltiness from hitting too sharply, giving a milder result.\n## Why it took this shape\nKelp is said to have been a trade good carried by the Kitamae-bune shipping route from Hokkaido along the Sea of Japan coast to Osaka and on to the Ryukyu Kingdom, laying the groundwork for kelp-based food cultures to take root in each region it passed through. Because the sound of 'kombu' echoes the word 'yorokobu' (to rejoice), it's said to have come to be treated as an auspicious drink served on celebratory occasions. Port towns visited by the Kitamae-bune ships are said to have had the easiest access to kelp, and it's said to have settled in as a celebratory drink in each of them.",
+   "sources": [
+    {
+     "title": "もっと知りたいこんぶの歴史",
+     "url": "https://www.gyoren.or.jp/konbu/rekishi.html",
+     "publisher": "北海道ぎょれん",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "昆布の歴史",
+     "url": "https://kombu.or.jp/power/history",
+     "publisher": "日本昆布協会",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "konbucha",
+     "to_slug": "mugicha",
+     "relation_type": "対比",
+     "basis": "共に「茶」と呼ばれ飲まれるが、原料は昆布であり、チャノキともムギとも異なる（北海道ぎょれん・日本昆布協会）"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "uji-cha",
+   "name_ja": "宇治茶",
+   "name_romaji": "Uji-cha",
+   "name_en": "Uji-cha — Kyoto's shaded-cultivation tea region",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "京都府",
+   "origin_city": "宇治市",
+   "lat": 34.8845,
+   "lng": 135.7996,
+   "primary_style": "産地",
+   "summary_ja": "鎌倉時代に茶が伝わって以来の歴史を持つとされる京都の茶産地。16世紀末に覆下栽培という独自の被覆技法が生まれ、玉露や抹茶の原料となる碾茶を育てる産地として知られてきたという。",
+   "summary_en": "A Kyoto tea-producing region with a history said to trace back to tea's arrival in the Kamakura period. In the late 16th century, a unique shading method known as ooshita saibai was developed there, and the area became known for growing the tencha behind gyokuro and matcha.",
+   "body_ja": "## 何でできているか\n鎌倉時代初期に中国から茶が伝わり、宇治を中心にその製法が磨かれてきたと伝わる。16世紀末、茶畑をよしずや藁で覆う覆下栽培という技法が生まれ、これが宇治だけに許された特別な栽培法として広まったという。覆下栽培は旨み成分を増やす効果があるとされ、玉露や抹茶の原料である碾茶を育てるのに向いた技法とされる。碾茶や玉露は淡く澄んだ緑の水色に濃厚な旨みを持ち、渋みの少なさが被覆栽培という土地の技術をそのまま映すとされる。\n## どう作るのか\n覆下栽培により育てた新芽から、揉まずに乾かす碾茶、そこから挽く抹茶、煎茶と同じ工程で仕上げる玉露と、複数の高級茶が作られてきたとされる。江戸時代末には玉露の製法が確立したと伝わり、覆下栽培という一つの技法から複数の茶の種類が枝分かれしてきた産地といえるという。宇治川沿いの丘陵地には平等院に代表される寺社が点在し、茶の湯を通じて茶づくりの需要を支えてきたと伝わる。\n## なぜこの形になったのか\n京都という都に近く、寺社との結びつきの中で茶の湯の文化が育ったことが、手間のかかる高級茶づくりを支えたと伝わる。覆いをかけるという手間を惜しまない栽培法が許され、磨かれ続けたことで、「宇治茶」の名は玉露・抹茶・煎茶いずれの産地としても知られるようになったという。山に囲まれた盆地状の地形は朝霧が立ちやすく、この湿った空気と覆いの技術が重なって、旨みの濃い茶を育ててきたとされる。",
+   "body_en": "## What it's made of\nTea is said to have arrived from China in the early Kamakura period, and its processing is said to have been refined around Uji ever since. In the late 16th century, a technique called ooshita saibai — covering the tea garden with reed screens or straw — is said to have emerged and spread as a method permitted only in Uji. Shaded cultivation is said to boost umami compounds, and it's a technique well suited to growing the tencha behind gyokuro and matcha. Tencha and gyokuro from the area are said to carry a pale, clear green liquor with concentrated umami and little astringency, the shading technique itself reflected directly in the cup.\n## How it's made\nFrom new buds grown under shaded cultivation, several premium teas are said to have been produced: tencha, dried without rolling; matcha, ground from it; and gyokuro, finished the same way as sencha. Gyokuro's method is said to have been established by the end of the Edo period, making Uji a region where several tea types branched out from a single technique, shaded cultivation. Temples and shrines such as Byodoin dot the hills along the Uji River, said to have supported demand for tea-making through the tea ceremony.\n## Why it took this shape\nBeing close to the capital of Kyoto, and the tea ceremony culture that grew up alongside its temples and shrines, is said to have supported the labor of making such demanding premium teas. Being permitted to use — and continuing to refine — a growing method that spares no effort in shading is said to be why the name Uji-cha came to be known as a producing area for gyokuro, matcha, and sencha alike. The basin-like terrain ringed by mountains is said to favor morning fog, and this humid air layering with the shading technique is said to have nurtured tea with concentrated umami.",
+   "sources": [
+    {
+     "title": "宇治茶の歴史と文化",
+     "url": "https://ujicha.or.jp/knowledge/history/",
+     "publisher": "京都府茶業会議所",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "uji-cha",
+     "to_slug": "gyokuro",
+     "relation_type": "派生",
+     "basis": "覆下栽培という宇治発祥の技法が磨かれ、幕末に玉露が生まれたと伝わる（京都府茶業会議所「宇治茶の歴史と文化」）"
+    },
+    {
+     "from_slug": "uji-cha",
+     "to_slug": "ujitawara-cha",
+     "relation_type": "兄弟",
+     "basis": "共に宇治茶の産地内にありながら、覆下栽培による玉露・抹茶を育てた宇治と、無被覆の煎茶を生んだ宇治田原とで担った役割が異なる（京都府茶業会議所・宇治田原町観光情報サイト）"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "ujitawara-cha",
+   "name_ja": "宇治田原",
+   "name_romaji": "Ujitawara",
+   "name_en": "Ujitawara — birthplace of the modern green tea method",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "京都府",
+   "origin_city": "綴喜郡宇治田原町",
+   "lat": 34.8286,
+   "lng": 135.8264,
+   "primary_style": "産地",
+   "summary_ja": "1738年、永谷宗円が青製煎茶製法を考案したと伝わる、宇治茶の産地内にある茶どころ。蒸して揉んで乾かすという現在の緑茶づくりの基礎を築いた地として「日本緑茶発祥の地」ともいわれる。",
+   "summary_en": "A tea-producing area within the Uji tea region where, in 1738, Nagatani Soen is said to have devised the aosei sencha method. Credited with laying the groundwork for today's green tea processing, the town is sometimes called the birthplace of Japanese green tea.",
+   "body_ja": "## 何でできているか\n京都府南部、宇治田原町湯屋谷で、1738年に永谷宗円という茶農家が新しい製茶法を考案したと伝わる。それまでの茶と違い、新芽を蒸してから焙炉の上で手で揉み、乾燥させるという工程を経ることで、鮮やかな緑色と、まろやかな味わいの茶ができるようになったという。この製法は青製煎茶製法と呼ばれるとされる。永谷宗円生家は今も湯屋谷の山あいに残り、当時使われた焙炉の跡から、手揉みの工程を伝える場として語られてきたとされる。\n## どう作るのか\n蒸す・揉む・乾かすという3つの工程を組み合わせたこの製法は、当時としては画期的だったと伝わる。永谷宗円はこの技術を江戸の茶商へ伝え、全国へと広まっていったとされる。今日の煎茶づくりの基本工程は、この宇治田原で生まれた製法をもとにしているといわれる。焙炉の上で茶葉を揉む作業はおよそ半日がかりとされ、力加減と温度の調整を同時に行う繊細な手仕事だったと伝わる。\n## なぜこの形になったのか\n宇治という高級茶の産地の中にありながら、より手軽に量産できる緑茶を作る必要があったことが、新しい製法を生む土壌になったと伝わる。永谷宗円の生家は今も残り、日本緑茶発祥の地として語られているという。宇治田原は山に囲まれた谷あいの集落で、平地が乏しいぶん、量産に向く簡便な製法を編み出す必要があったとも語られる。",
+   "body_en": "## What it's made of\nIn Yuyadani, Ujitawara, in southern Kyoto Prefecture, a tea farmer named Nagatani Soen is said to have devised a new processing method in 1738. Unlike the tea made before it, steaming the new buds, then hand-rolling them over a hoiro drying frame, and drying them, is said to have produced a tea with a vivid green color and a mellow flavor. This method is said to be called aosei sencha. Nagatani Soen's birthplace still stands in the mountain valley of Yuyadani, its old hoiro drying frame said to be spoken of as a place that keeps the memory of the hand-rolling process alive.\n## How it's made\nCombining the three steps of steaming, rolling, and drying is said to have been groundbreaking for its time. Nagatani Soen is said to have passed the technique to tea merchants in Edo, from where it spread nationwide. The basic process behind sencha making today is said to trace back to this method born in Ujitawara. Rolling the leaf by hand over the hoiro frame is said to have taken roughly half a day, a delicate task balancing pressure and heat at the same time.\n## Why it took this shape\nBeing situated within Uji, a region known for premium tea, while still needing a way to make green tea more easily and at greater volume, is said to have been the soil that produced this new method. Nagatani Soen's birthplace still stands today, spoken of as the birthplace of Japanese green tea. Ujitawara is a settlement in a mountain-ringed valley with little flat farmland, and the need to devise a simpler method suited to volume production is also said to have driven the innovation.",
+   "sources": [
+    {
+     "title": "お茶の歴史",
+     "url": "https://ujitawara-kyoto.com/tea-history/",
+     "publisher": "宇治田原町観光情報サイト",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ujitawara-cha",
+     "to_slug": "sencha",
+     "relation_type": "派生",
+     "basis": "宇治田原の永谷宗円が1738年に考案した青製煎茶製法が、今日の緑茶製法の礎になったと伝わる（宇治田原町観光情報サイト「お茶の歴史」）"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "shizuoka-cha",
+   "name_ja": "静岡茶",
+   "name_romaji": "Shizuoka-cha",
+   "name_en": "Shizuoka-cha — a prefecture of contrasting tea landscapes",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "静岡県",
+   "origin_city": "",
+   "lat": 34.9756,
+   "lng": 138.3828,
+   "primary_style": "産地",
+   "summary_ja": "牧之原台地の広大な平坦地から、川根や本山のような山あいの茶園まで、性格の異なる産地が県内に混在する茶どころ。全国有数の生産量を持つ産地として知られてきたとされる。",
+   "summary_en": "A tea-producing prefecture where distinctly different growing areas coexist — from the vast flatlands of the Makinohara plateau to mountain gardens like Kawane and Honyama. It's said to be one of the country's largest tea-producing regions.",
+   "body_ja": "## 何でできているか\n県内には性格の異なる複数の茶産地があるとされる。大井川西岸に広がる牧之原台地は明治初期に開拓された平坦な大茶園で、国内最大級の茶産地という。一方、大井川上流に沿う川根の茶畑は山間の斜面にあり、やわらかな朝霧に包まれる立地とされる。静岡市を流れる安倍川流域の本山も、上流域の良質な茶で知られるという。産地ごとに水色や香りの印象が違うとされ、牧之原の茶は力強い渋みを、川根の茶は霧に育まれたまろやかさを持つといわれる。\n## どう作るのか\n牧之原のような平坦地では機械化された大規模な栽培が行われ、川根や本山のような山間地では急斜面での手間のかかる栽培が続けられてきたとされる。産地によって蒸す時間を長くする深蒸し系の製法が好まれることもあり、同じ静岡県内でも地形に応じて茶づくりの工夫が分かれてきたという。川根では大井川の川霧が茶畑を包む時間帯があるとされ、この湿度が茶葉の渋みを和らげる一因になっているという。\n## なぜこの形になったのか\n大井川や安倍川という複数の水系が県内を流れ、それぞれの上流に山間の茶産地を、下流に平坦な大茶園を育んできたと伝わる。地形の異なる複数の産地を抱えることが、単一の型に収まらない静岡茶の多様さを生んできたとされる。東海道が通り江戸・大坂という大消費地に近かったことも、大量の茶を作り運ぶ産地として発展した一因と伝わる。",
+   "body_en": "## What it's made of\nThe prefecture is said to hold several tea-producing areas, each with its own character. The Makinohara plateau, spreading across the west bank of the Oi River, is a flat, vast tea garden opened up in the early Meiji era, said to be one of the country's largest. By contrast, the tea gardens of Kawane, along the upper Oi River, sit on mountain slopes said to be wrapped in soft morning fog. Honyama, along the Abe River running through Shizuoka City, is also known for fine tea grown in its upper reaches. The liquor's color and aroma are said to differ by district, with Makinohara's tea carrying a stronger astringency and Kawane's a mellowness said to come from the mist it grows in.\n## How it's made\nFlatland areas like Makinohara are said to favor large-scale, mechanized cultivation, while mountainous areas like Kawane and Honyama are said to have kept up labor-intensive growing on steep slopes. Some producing areas favor a deep-steamed style with longer steaming times, and even within the same prefecture, tea-making has split into different approaches depending on the terrain. In Kawane, mist off the Oi River is said to wrap the tea gardens for stretches of the day, and this humidity is said to be one reason the leaf's astringency softens.\n## Why it took this shape\nSeveral river systems, including the Oi and the Abe, are said to run through the prefecture, nurturing mountain tea districts upstream and flat, vast plantations downstream. Holding several producing areas of such different terrain is said to be what gives Shizuoka tea a diversity that refuses to settle into a single type. Sitting along the Tokaido road and close to the major consumer markets of Edo and Osaka is also said to be part of why the region developed into one built for producing and shipping tea at volume.",
+   "sources": [
+    {
+     "title": "静岡県の茶産地",
+     "url": "https://shizuoka-cha.com/index.php/ocha/sanchi/",
+     "publisher": "静岡県茶業会議所",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "茶ガイド（令和6年茶種別生産実績）",
+     "url": "https://www.zennoh.or.jp/bu/nousan/tea/dekiru03.htm",
+     "publisher": "全国茶生産団体連合会",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "shizuoka-cha",
+     "to_slug": "sencha",
+     "relation_type": "対比",
+     "basis": "煎茶のなかでも、牧之原台地のような平坦な大茶園と、川根のような山間の霧深い茶園とが混在する産地という違い（静岡県茶業会議所「静岡県の茶産地」）"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "yame-cha",
+   "name_ja": "八女茶",
+   "name_romaji": "Yame-cha",
+   "name_en": "Yame-cha — Fukuoka's straw-shaded gyokuro region",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "福岡県",
+   "origin_city": "八女市",
+   "lat": 33.2118,
+   "lng": 130.5631,
+   "primary_style": "産地",
+   "summary_ja": "約600年前、明から持ち帰られた茶の技法が伝わったとされる福岡県の茶どころ。山間部の黒木町・上陽町・星野村では稲わらを使う伝統的な被覆栽培が続けられ、玉露の産地として知られてきたという。",
+   "summary_en": "A Fukuoka tea region said to trace back roughly 600 years to a tea-making technique brought home from Ming China. In the mountain districts of Kurogi, Joyo, and Hoshino, traditional straw-shaded cultivation continues, and the area is known as a gyokuro-producing region.",
+   "body_ja": "## 何でできているか\n1423年、禅僧の栄林周瑞が明国から持ち帰った茶の種子と製茶技法を、筑後国の庄屋・松尾太郎五郎久家に伝えたのが始まりとされる。八女市の山間部にあたる黒木町・上陽町・星野村では、今も稲わらを使った昔ながらの被覆栽培が続けられ、玉露の産地として知られてきたという。甘くコクのある旨みの強い味わいが特徴とされる。被覆した葉は濃い緑色を保ち、湯に入れると覆い香とともに濃厚な旨みが広がり、渋みはほとんど感じられないとされる。\n## どう作るのか\n収量よりも質を重んじる「芽重型」と呼ばれる栽培方法と、深く蒸す製法を組み合わせて仕上げるとされる。玉露づくりでは、稲わらを使う伝統的な被覆栽培の技術が受け継がれ、全国茶品評会で長年にわたり上位の評価を得てきたという。稲わらでの被覆はよしずより光を細かく調整しやすいとされ、日数はおよそ2週間前後が目安といわれる。\n## なぜこの形になったのか\n1925年、地域ごとにばらばらだった茶の呼び名と製法を「八女茶」の名にまとめる動きがあったと伝わる。山間部という被覆栽培に適した地形と、質を優先する栽培方針が結びつき、高級茶の産地としての地位を築いてきたとされる。黒木町・上陽町・星野村は矢部川上流の山あいにあり、霧が立ちやすい谷筋の地形が被覆栽培との相性を良くしてきたと伝わる。",
+   "body_en": "## What it's made of\nIn 1423, a Zen monk named Eirin Shuzui is said to have brought tea seeds and processing techniques back from Ming China and passed them to Matsuo Tarogoro Hisaie, a village headman in Chikugo province — the region's origin story. In the mountain districts of Kurogi, Joyo, and Hoshino within Yame City, traditional straw-shaded cultivation is said to continue today, and the area is known as a gyokuro-producing region, prized for a sweet, rich, strongly umami flavor. Shaded leaf keeps a deep green color, and in the cup it's said to release a concentrated umami alongside the shaded aroma, with almost no astringency.\n## How it's made\nA growing method called megaju-gata, which favors quality over yield, is said to be combined with deep-steaming to finish the tea. For gyokuro in particular, the traditional straw-shaded cultivation technique is said to have been passed down, earning top evaluations at national tea competitions for many years. Straw shading is said to allow finer control of light than reed screens, with the shading period running roughly two weeks as a guide.\n## Why it took this shape\nIn 1925, a move to consolidate the region's scattered tea names and processes under the single name Yame-cha is said to have taken place. The combination of mountain terrain suited to shaded cultivation and a quality-first growing policy is said to have built the area's standing as a premium tea region. Kurogi, Joyo, and Hoshino sit in the mountains along the upper Yabe River, and valley terrain prone to fog is said to have made the land well suited to shaded cultivation.",
+   "sources": [
+    {
+     "title": "八女茶の特徴・歴史",
+     "url": "https://fukuoka-yamecha.jp/whats/",
+     "publisher": "福岡県茶業振興推進協議会",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "yame-cha",
+     "to_slug": "uji-cha",
+     "relation_type": "対比",
+     "basis": "共に高級玉露の産地とされるが、八女は稲わらを使う伝統被覆栽培、宇治は覆下栽培という異なる被覆技法を持つ（福岡県茶業振興推進協議会・京都府茶業会議所）"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "kagoshima-cha",
+   "name_ja": "鹿児島茶",
+   "name_romaji": "Kagoshima-cha",
+   "name_en": "Kagoshima-cha — Japan's top producer by volume, multi-cultivar",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "鹿児島県",
+   "origin_city": "南九州市（知覧・頴娃）",
+   "lat": 31.3775,
+   "lng": 130.4331,
+   "primary_style": "産地",
+   "summary_ja": "荒茶の生産量で全国一とされる鹿児島県の茶どころ。全国では「やぶきた」という単一品種が主流だが、鹿児島では多様な品種が栽培され、産地ごとの個性や需要に応じた茶づくりが行われているという。",
+   "summary_en": "A Kagoshima tea region said to lead the country in raw tea (aracha) production. While the yabukita cultivar dominates nationwide, Kagoshima grows a wider range of varieties, said to allow tea-making tailored to different regions and demands.",
+   "body_ja": "## 何でできているか\n南九州市の知覧・頴娃地区を中心とした、日本有数の茶産地とされる。全国では「やぶきた」という品種が約7割を占めるのに対し、鹿児島県ではその割合が3割程度にとどまり、さまざまな品種が栽培されているという。温暖な気候を活かし、早い時期から新茶を出荷できることも特徴とされる。早い時期に出る新茶は若々しい香りとさっぱりした渋みを持つとされ、品種による味の違いも他産地より幅があるという。\n## どう作るのか\n広い平坦地を活かした大規模な機械化栽培が主流とされ、品種ごとに摘採時期をずらすことで年間を通じた生産が可能になっているという。荒茶の生産量では全国一とされ、品種の多さを活かして煎茶からかぶせ茶、碾茶まで幅広い種類の茶を生産している産地とされる。知覧・頴娃一帯は開聞岳のふもとに広がる平坦な茶園が多く、機械で摘採しやすい地形が大規模化を後押ししてきたとされる。\n## なぜこの形になったのか\n温暖な気候と広い平坦地という地形条件が、大規模な機械化栽培に向いていたと伝わる。単一品種に頼らず多様な品種を育ててきたことが、消費者の好みや需要の変化に応じて生産の幅を広げる土台になったとされる。火山灰土壌のシラス台地は水はけが良く、根が深く張りやすいとされ、茶の栽培に適した土地条件の一つとして挙げられてきたという。",
+   "body_en": "## What it's made of\nCentered on the Chiran and Ei districts of Minamikyushu City, this is said to be one of Japan's leading tea regions. While the yabukita cultivar accounts for roughly 70% of tea nationwide, its share in Kagoshima is said to stay around 30%, with a wide range of other varieties grown instead. The mild climate is also said to let the region ship new-season tea earlier than most. Early-season new tea is said to carry a youthful aroma and light astringency, and the range of flavor across cultivars is said to be wider than in other regions.\n## How it's made\nLarge-scale, mechanized cultivation making the most of wide flatland is said to be the norm, with picking times staggered by cultivar to keep production going year-round. The prefecture is said to lead the country in raw tea (aracha) output, and its variety of cultivars lets it produce everything from sencha to kabusecha to tencha. The Chiran and Ei area holds many flat tea gardens at the foot of Mount Kaimon, and terrain suited to mechanical picking is said to have driven the shift to large-scale cultivation.\n## Why it took this shape\nA mild climate paired with wide flatland is said to have suited large-scale mechanized cultivation. Growing a diversity of cultivars instead of relying on a single one is said to have become the foundation for adapting production to shifting consumer tastes and demand. The volcanic-ash Shirasu plateau is said to drain well and let roots grow deep, cited as one of the land conditions well suited to tea cultivation.",
+   "sources": [
+    {
+     "title": "鹿児島茶業について",
+     "url": "https://kagoshima-cha.or.jp/knowledge/kagoshima-chagyo/",
+     "publisher": "鹿児島県茶生産協会",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kagoshima-cha",
+     "to_slug": "shizuoka-cha",
+     "relation_type": "対比",
+     "basis": "共に生産量で全国上位を争う二大産地だが、鹿児島は多品種栽培、静岡は牧之原などの大規模平坦地という違う個性を持つ（鹿児島県茶生産協会・静岡県茶業会議所）"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "kagoshima-tencha",
+   "name_ja": "鹿児島の碾茶",
+   "name_romaji": "Kagoshima no Tencha",
+   "name_en": "Kagoshima tencha — the newly leading matcha-material region",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "鹿児島県",
+   "origin_city": "",
+   "lat": 31.5966,
+   "lng": 130.5571,
+   "primary_style": "産地",
+   "summary_ja": "抹茶の原料となる碾茶の生産量で、近年全国一になったとされる鹿児島県の茶。世界的な抹茶需要の高まりを背景に生産が急拡大し、伝統的な産地とされてきた宇治や愛知と並ぶ存在になってきたという。",
+   "summary_en": "Kagoshima's tencha — the raw material for matcha — is said to have recently overtaken every other prefecture in production. Output has expanded rapidly amid rising global demand for matcha, putting Kagoshima alongside the long-established producing areas of Uji and Aichi.",
+   "body_ja": "## 何でできているか\n碾茶とは抹茶に挽く前の、揉まずに乾かした茶葉のことで、鹿児島県ではこの碾茶の生産量が拡大し、全国一の生産量になったと伝わる。伝統的に碾茶といえば宇治や愛知県西尾市が知られてきたが、鹿児島の碾茶は鮮やかな色とアミノ酸の豊富さが特徴とされ、近年海外を含む抹茶需要を支える主要な産地になっているという。碾茶の水色は鮮やかな緑で、被覆による覆い香とともに、アミノ酸由来とされる濃い甘みのある旨みが特徴とされる。\n## どう作るのか\n南九州市などの広い平坦地を活かし、機械化された大規模な被覆栽培で碾茶用の茶葉を育てているとされる。もともと煎茶やかぶせ茶を主力としてきた産地だが、抹茶ブームを受けて碾茶への転作が進んだと伝わり、生産量をここ10年ほどで大きく伸ばしてきたという。被覆はネットを使う方式が中心で、宇治のようなよしず棚に比べ広い面積を一度に覆いやすいとされる。\n## なぜこの形になったのか\n世界的な抹茶需要の高まりが、広い平坦地と温暖な気候を持つ鹿児島の生産拡大を後押ししたとされる。伝統的な被覆栽培の技術を持つ宇治や西尾に対し、大規模生産に向いた地形を武器に新興の碾茶産地として台頭してきたと伝わる。広い平坦地を活かした大規模栽培が、被覆資材を一気に張る作業とも相性が良く、生産拡大を後押ししたと伝わる。",
+   "body_en": "## What it's made of\nTencha is leaf dried without rolling, before it's ground into matcha, and Kagoshima's tencha output is said to have expanded to become the largest of any prefecture. Uji and Nishio in Aichi have traditionally been the names most associated with tencha, but Kagoshima's is said to stand out for its vivid color and rich amino acid content, and has become a major producer supporting matcha demand both at home and abroad. Kagoshima's tencha brews into a vivid green liquor, carrying the shaded aroma alongside a rich, amino-acid-driven sweetness in its umami.\n## How it's made\nMaking the most of wide flatland in areas like Minamikyushu City, the region is said to grow tencha leaf under mechanized, large-scale shaded cultivation. Originally a region built on sencha and kabusecha, it's said to have shifted increasingly toward tencha amid the matcha boom, expanding output sharply over roughly the past decade. Shading is centered on netting rather than the reed-frame method used in Uji, said to make it easier to cover a wide area at once.\n## Why it took this shape\nRising global demand for matcha is said to have driven Kagoshima's expansion, backed by its wide flatland and mild climate. Set against Uji's and Nishio's traditional shaded-cultivation expertise, Kagoshima is said to have risen as a new tencha region built on terrain suited to production at scale. Large-scale cultivation making the most of wide flatland is said to suit the work of laying shading material over broad stretches at once, helping drive the region's expansion.",
+   "sources": [
+    {
+     "title": "鹿児島茶業について",
+     "url": "https://kagoshima-cha.or.jp/knowledge/kagoshima-chagyo/",
+     "publisher": "鹿児島県茶生産協会",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kagoshima-tencha",
+     "to_slug": "kagoshima-cha",
+     "relation_type": "兄弟",
+     "basis": "同じ鹿児島県内の茶業だが、碾茶は近年の抹茶ブームで急拡大した顔という違いを持つ（鹿児島県茶生産協会「鹿児島茶業について」）"
+    },
+    {
+     "from_slug": "kagoshima-tencha",
+     "to_slug": "tencha",
+     "relation_type": "対比",
+     "basis": "碾茶という型の中で、伝統的な宇治・愛知に対し、近年生産量で全国一に躍り出た新興産地という対比（鹿児島県茶生産協会「鹿児島茶業について」）"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "nishio-matcha",
+   "name_ja": "西尾の抹茶",
+   "name_romaji": "Nishio no Matcha",
+   "name_en": "Nishio matcha — Aichi's registered matcha brand region",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "愛知県",
+   "origin_city": "西尾市",
+   "lat": 34.8578,
+   "lng": 137.0489,
+   "primary_style": "産地",
+   "summary_ja": "全国生産の約2割を占めるとされる、愛知県西尾市の抹茶。碾茶の生産は明治以降に本格化したと伝わり、2009年には「西尾の抹茶」が抹茶に限定した地域ブランドとして全国で初めて認定されたという。",
+   "summary_en": "Matcha from Nishio, Aichi Prefecture, said to account for roughly a fifth of national production. Tencha production is said to have taken off in earnest from the Meiji era, and in 2009 'Nishio no Matcha' became the first tea-industry regional brand registered specifically for matcha.",
+   "body_ja": "## 何でできているか\n西尾市は碾茶の生産量で愛知県内の8割以上を占めるとされ、県全体では全国で有数の生産量を誇る抹茶どころという。西尾市と隣接する安城市を合わせて約150ヘクタールの茶園があり、年間約400トンの碾茶を生産、これは全国生産量の約2割にあたるとされる。西尾の碾茶は艶やかな濃緑色を保ち、覆い香と穏やかな甘みを持つ抹茶に仕上がるとされ、粒子の細かさと色の均一さも評価されるという。\n## どう作るのか\n覆いをかけて育てた新芽を揉まずに乾かして碾茶にする工程は、宇治などの伝統産地と同じ被覆栽培に基づくとされる。生産が本格化したのは明治に入ってからで、大正後期以降てん茶生産が地域の中心になり、昭和10年前後には県内でも高い生産水準に達したと伝わる。矢作川流域の平坦地に茶園が広がり、機械化された被覆・摘採が生産量を支えてきたとされる。\n## なぜこの形になったのか\n碾茶づくりに適した気候と土壌条件が明治以降の生産拡大を後押ししたとされる。2009年2月20日、「西尾の抹茶」が地域団体商標に認定され、これは茶の分野で抹茶に限定した地域ブランドとしては全国で初めてだったと伝わる。矢作川がもたらす肥沃な土壌と平坦な地形が、碾茶づくりに必要な均質な茶葉を大量に育てる条件になったと伝わり、明治以降の生産拡大を後押ししたという。",
+   "body_en": "## What it's made of\nNishio is said to account for over 80% of tencha production within Aichi Prefecture, and the prefecture as a whole is a leading matcha-producing area nationally. Nishio and neighboring Anjo together hold roughly 150 hectares of tea gardens, producing about 400 tons of tencha a year, said to be around a fifth of the national total. Nishio's tencha keeps a glossy deep green, said to finish into matcha with a shaded aroma and gentle sweetness, its fineness of particle and evenness of color also noted.\n## How it's made\nThe process of growing shaded new buds and drying them without rolling into tencha is said to rest on the same shaded cultivation used in traditional regions like Uji. Production is said to have taken off in earnest from the Meiji era, with tencha becoming the area's central product from the late Taisho era, reaching a leading production level within the prefecture by around 1935. Tea gardens spread across the flatland along the Yahagi River, with mechanized shading and picking said to support the region's output.\n## Why it took this shape\nClimate and soil conditions suited to tencha-making are said to have driven the expansion from the Meiji era on. On February 20, 2009, 'Nishio no Matcha' was registered as a regional collective trademark — said to be the first regional tea brand registered nationwide specifically for matcha. The fertile soil and flat terrain shaped by the Yahagi River are said to have provided the conditions for growing the uniform leaf tencha-making needs at volume, driving the region's expansion from the Meiji era on.",
+   "sources": [
+    {
+     "title": "西尾の抹茶・お茶",
+     "url": "https://www.city.nishio.aichi.jp/sportskanko/kanko/1005620/1001475/1002604.html",
+     "publisher": "西尾市",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "nishio-matcha",
+     "to_slug": "matcha",
+     "relation_type": "対比",
+     "basis": "宇治のような被覆栽培の長い伝統に対し、明治以降に本格化した新興の抹茶産地という違い（西尾市「西尾の抹茶・お茶」）"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "sayama-cha",
+   "name_ja": "狭山茶",
+   "name_romaji": "Sayama-cha",
+   "name_en": "Sayama-cha — 'the taste settled by Sayama'",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "埼玉県",
+   "origin_city": "",
+   "lat": 35.8354,
+   "lng": 139.3914,
+   "primary_style": "産地",
+   "summary_ja": "「色は静岡、香りは宇治よ、味は狭山でとどめさす」と歌われてきたとされる埼玉県の茶どころ。狭山火入れと呼ばれる独自の仕上げの焙煎技術により、甘く濃厚な味わいの茶に仕上げるという。",
+   "summary_en": "A Saitama tea-growing region celebrated in the old saying 'color from Shizuoka, fragrance from Uji, taste settled by Sayama.' A distinctive finishing roast called Sayama-biire is said to give the tea a sweet, rich flavor.",
+   "body_ja": "## 何でできているか\n入間市・所沢市・狭山市を中心とした狭山丘陵一帯で栽培される茶とされる。冷涼な気候の中でじっくり育った茶葉は肉厚になりやすいと伝わり、「色は静岡、香りは宇治よ、味は狭山でとどめさす」という言い習わしで、味の濃さが評価されてきたという。肉厚な茶葉は蒸しても縮みにくく、水色は濃い緑、火入れによる香ばしさと甘みが煎茶よりはっきりと感じられるとされる。\n## どう作るのか\n仕上げの工程で「狭山火入れ」と呼ばれる独自の焙煎を加えることが特徴とされる。しっかりと火を入れて乾燥させることで保存性を高めると同時に、香ばしさと甘みを引き出すとされ、この仕上げの技術こそが狭山茶の味を決めるとも言われる。狭山火入れは低めの温度で長めに時間をかけるのが目安とされ、香りを飛ばさずじっくり乾かす技術という。\n## なぜこの形になったのか\n他の主要産地に比べて北に位置し、冬の寒さが厳しい狭山丘陵という気候条件が、葉肉の厚い茶葉を育ててきたと伝わる。厳しい気候を、しっかりとした火入れで補うという仕上げの工夫が、狭山茶ならではの濃い味わいを作り上げてきたとされる。狭山丘陵は関東平野の中でも標高がやや高く、冬の霜や寒風にさらされる分、葉が厚く育つと語られてきたといい、この気候の厳しさが独自の火入れ技術を磨く土壌にもなったとされる。",
+   "body_en": "## What it's made of\nGrown across the Sayama hills centered on Iruma, Tokorozawa, and Sayama cities, this tea is said to develop thick leaf flesh from growing slowly in a cool climate. Its depth of flavor has long been praised in the saying 'color from Shizuoka, fragrance from Uji, taste settled by Sayama.' The thick leaf resists shrinking even when steamed, brewing into a deep green liquor where the toastiness and sweetness from the finishing roast come through more clearly than in ordinary sencha.\n## How it's made\nA distinctive finishing roast called Sayama-biire is said to be the defining step. Applying a firm heat to dry the leaf thoroughly is said to both improve storage and draw out toastiness and sweetness, and this finishing technique is said to be what really decides Sayama tea's flavor. Sayama-biire is said to use a lower temperature over a longer stretch as a guide, a technique for drying the leaf slowly without driving off its aroma.\n## Why it took this shape\nSituated farther north than the other major producing regions, the Sayama hills' harsh winter cold is said to have nurtured leaf with thicker flesh. Compensating for that harsh climate with a firm finishing roast is said to be what built Sayama tea's distinctively rich flavor. The Sayama hills sit at a somewhat higher elevation within the Kanto plain, and being exposed to winter frost and cold winds is said to be why the leaf grows thick — a harshness of climate also said to have been the soil in which the area's distinctive finishing-roast technique was honed.",
+   "sources": [
+    {
+     "title": "狭山茶のはなし",
+     "url": "https://www.pref.saitama.lg.jp/b0914/hanasi/index.html",
+     "publisher": "埼玉県",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "sayama-cha",
+     "to_slug": "shizuoka-cha",
+     "relation_type": "対比",
+     "basis": "「色は静岡、香りは宇治よ、味は狭山でとどめさす」という言い習わしに見る、産地ごとの個性の違い（埼玉県「狭山茶のはなし」）"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "ise-cha",
+   "name_ja": "伊勢茶",
+   "name_romaji": "Ise-cha",
+   "name_en": "Ise-cha — Mie's top producer of kabusecha",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "三重県",
+   "origin_city": "",
+   "lat": 34.9654,
+   "lng": 136.6245,
+   "primary_style": "産地",
+   "summary_ja": "茶の栽培面積・生産量ともに全国有数とされる三重県の茶どころ。なかでも北勢地域を中心に作られるかぶせ茶は生産量全国一とされ、うまみと甘みの豊かな味わいが特徴という。",
+   "summary_en": "A Mie Prefecture tea region said to rank among the country's largest in both growing area and production. Kabusecha in particular, centered on the northern Hokusei area, is said to lead the nation in output, prized for its rich umami and sweetness.",
+   "body_ja": "## 何でできているか\n四日市市・鈴鹿市・亀山市・いなべ市を中心とする北勢地域では、直射日光を一定期間さえぎって育てるかぶせ茶が主流とされる。三重県はかぶせ茶の生産量で全国一とされ、鮮やかな緑色とまろやかな飲み口が特徴という。県全体では茶の栽培面積・生産量ともに全国で上位の産地とされる。かぶせ茶の水色は鮮やかな緑で、覆い香とまろやかな甘みを持ち、煎茶に近い爽やかな後味も残るとされる。\n## どう作るのか\n煎茶と同じ蒸し製の工程を経るが、摘み取り前に一定期間の被覆を加えることでかぶせ茶に仕上げるとされる。覆いをかける期間や資材は産地ごとに工夫され、旨みと甘みを引き出しつつ、煎茶に近い爽やかさも残す仕上げが目指されているという。被覆期間はおよそ1週間前後を目安とし、鈴鹿山脈からの伏流水が豊富な土地柄が栽培を支えてきたとされる。\n## なぜこの形になったのか\n京都や静岡といった伝統的な大産地に隣接する立地でありながら、かぶせ茶という特定の型に力を入れることで独自の存在感を確立してきたと伝わる。北勢地域の気候と土壌がかぶせ茶の栽培に適していたことが、全国一の生産量につながったとされる。北勢地域は鈴鹿山脈と伊勢湾の間に広がる平野で、山からの水と海に近い温暖な気候がかぶせ茶づくりに適した条件になったという。",
+   "body_en": "## What it's made of\nIn the Hokusei area centered on Yokkaichi, Suzuka, Kameyama, and Inabe cities, kabusecha — shaded from direct sunlight for a set period before picking — is said to be the mainstay. Mie is said to lead the country in kabusecha production, known for a vivid green color and mellow taste, and the prefecture as a whole ranks among the largest nationally in both growing area and output. Ise's kabusecha brews into a vivid green liquor, carrying the shaded aroma and a mellow sweetness while keeping a refreshing finish closer to sencha.\n## How it's made\nThe tea goes through the same steaming process as sencha, but is finished as kabusecha by adding a set period of shading before picking. The length of shading and the materials used are said to vary by producing area, aiming to draw out umami and sweetness while keeping some of sencha's brightness. Shading runs roughly a week as a guide, and the area's abundant groundwater flowing down from the Suzuka mountains is said to have supported cultivation.\n## Why it took this shape\nSituated near the traditional major regions of Kyoto and Shizuoka, Mie is said to have built its own distinct standing by focusing on kabusecha specifically. The Hokusei area's climate and soil being well suited to kabusecha cultivation is said to be what led to its position as the nation's top producer. The Hokusei area is a plain stretching between the Suzuka mountains and Ise Bay, and water from the mountains together with a mild, sea-adjacent climate are said to have made it well suited to kabusecha.",
+   "sources": [
+    {
+     "title": "伊勢茶の振興",
+     "url": "https://www.pref.mie.lg.jp/NOUSAN/HP/77019045892.htm",
+     "publisher": "三重県",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "三重県 伊勢茶（いせちゃ）",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/ise_tya.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ise-cha",
+     "to_slug": "sayama-cha",
+     "relation_type": "対比",
+     "basis": "共に「三大茶」に数えられることがあるが、伊勢はかぶせ茶の生産量日本一、狭山は狭山火入れという仕上げの技という違う個性を持つ（三重県・埼玉県）"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ]
+  },
+  {
+   "slug": "ureshino-cha",
+   "name_ja": "嬉野茶",
+   "name_romaji": "Ureshino-cha",
+   "name_en": "Ureshino-cha — home of curled tamaryokucha",
+   "type": "ingredient",
+   "shelf": "drinks",
+   "genre": "nihoncha",
+   "origin_pref": "佐賀県",
+   "origin_city": "嬉野市",
+   "lat": 33.1256,
+   "lng": 129.9989,
+   "primary_style": "産地",
+   "summary_ja": "勾玉のように丸まった玉緑茶（グリ茶）の産地として知られる佐賀県の茶どころ。県南西部の山あいに位置し、霧深く昼夜の寒暖差がある気候が、茶の栽培に適した土地とされてきたという。",
+   "summary_en": "A Saga tea region known for producing tamaryokucha — the comma-shaped guricha style. Located in gently rolling mountains in the prefecture's southwest, its fog and day-night temperature swings are said to have long suited tea cultivation.",
+   "body_ja": "## 何でできているか\n佐賀県南西部の山あいに位置する嬉野市を中心に作られる茶で、丸みを帯びた勾玉状の玉緑茶（グリ茶）の産地として知られてきたとされる。なだらかな山間で霧深く、昼夜の温度差や日照量の条件が、茶の栽培に適した地域とされるという。丸まった茶葉が急須の中でゆっくり開きながら旨みを出すとされる。湯に入れるとゆっくり開く丸い茶葉から、さわやかな香りとコクのある旨みがじわりと広がるとされ、蒸し製・釜炒り製で香りの立ち方が異なるという。\n## どう作るのか\n蒸気で加熱する蒸し製と、鉄釜で炒る釜炒り製の両方の玉緑茶が作られてきたと伝わる。精揉の工程を行わないため丸い形に仕上がり、この形が急須の中でゆっくり開くことで、うま味をじっくり引き出す飲み方に向くとされる。蒸し製は煎茶と同程度の蒸気で加熱するとされ、釜炒り製は300度近い釜を目安に手早く炒って仕上げるという。\n## なぜこの形になったのか\n釜炒り製法が中国から伝わったとされる九州において、嬉野はその技術が定着した産地の一つとされる。霧深い山間の気候と、古くからの釜炒りの技術が結びつき、他地域とは異なる丸い形の茶を主力とする産地になってきたという。嬉野は多良岳山系に囲まれた盆地状の土地で、川霧が立ちやすく、この気候が釜炒りの技術とともに独自の茶を育ててきたと伝わる。",
+   "body_en": "## What it's made of\nCentered on Ureshino City in the mountains of southwestern Saga Prefecture, this region is known for producing the curled, comma-shaped tamaryokucha, or guricha. Its gently rolling mountains, dense fog, and day-night temperature swings and sunlight conditions are said to have long suited tea cultivation. The curled leaves are said to unfurl slowly in the teapot, releasing umami as they open. The curled leaf unfurls slowly in hot water, said to release a fresh aroma and rich umami gradually, with steamed and pan-fired versions differing in how the aroma comes through.\n## How it's made\nBoth steamed and pan-fired tamaryokucha are said to have been made here. Skipping the final straightening step leaves the round shape, said to suit a style of drinking where the leaf unfurls slowly in the pot, drawing out umami gradually. Steamed versions are said to use about the same steam heat as sencha, while pan-fired versions are roasted quickly in a kettle near 300°C as a guide.\n## Why it took this shape\nIn Kyushu, where pan-firing is said to have arrived from China, Ureshino is considered one of the areas where that technique took hold. The combination of a foggy mountain climate and long-standing pan-firing skill is said to have made it a region built around this rounded style of tea, distinct from other areas. Ureshino sits in basin-like terrain ringed by the Tara mountain range, said to favor river mist, and this climate together with pan-firing skill is said to have nurtured a tea distinct to the area.",
+   "sources": [
+    {
+     "title": "お茶・うれしの茶（嬉野茶）",
+     "url": "http://jasaga.or.jp/agriculture/nousanbutsu/ureshino_cha",
+     "publisher": "JAさが",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "うれしの茶の特徴",
+     "url": "https://www.city.ureshino.lg.jp/kanko/ureshinocha/_19851/_20110.html",
+     "publisher": "嬉野市",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "ureshino-cha",
+     "to_slug": "kamairicha",
+     "relation_type": "対比",
+     "basis": "嬉野は蒸し製・釜炒り製の両方の玉緑茶を産する茶処だが、多くは蒸し製という違い（嬉野市「うれしの茶の特徴」）"
+    }
+   ],
+   "tags": [
+    "souvenir_non_confection"
+   ]
+  }
+ ],
+ "notes": "対象外・要判断:\n- 静岡県内の掛川・川根・本山は別アイテム化せず shizuoka-cha の本文中で地域差として扱った（静岡県茶業会議所の産地紹介ページに基づくが、それぞれを独立アイテムにするだけの一次資料上の因果の掘り下げが今回の枠では追い切れなかったため）。\n- 昆布茶（konbucha）は日本茶業中央会等の一次資料が見つからず、北海道ぎょれん・日本昆布協会という昆布側の業界団体を出典にした。茶ではなく昆布の飲み物という位置づけを本文で明示している。\n- 茎茶・粉茶・芽茶は東京都茶協同組合の仕上げ加工の記事を出典にした。全国茶生産団体連合会サイトにも産地別生産統計（令和6年）があり、追加調査で個別品目の生産量比較に使える可能性がある。"
+}
