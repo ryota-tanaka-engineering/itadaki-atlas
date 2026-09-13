@@ -1,0 +1,1184 @@
+{
+  "total": 185,
+  "existing": [
+    {
+      "name_ja": "札幌ラーメン",
+      "pref": "北海道",
+      "slug": "sapporo",
+      "matched_existing_name": "札幌ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "旭川ラーメン",
+      "pref": "北海道",
+      "slug": "asahikawa",
+      "matched_existing_name": "旭川ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "函館ラーメン",
+      "pref": "北海道",
+      "slug": "hakodate",
+      "matched_existing_name": "函館ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "釧路ラーメン",
+      "pref": "北海道",
+      "slug": "kushiro",
+      "matched_existing_name": "釧路ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "カレーラーメン",
+      "pref": "北海道",
+      "slug": "muroran-curry",
+      "matched_existing_name": "室蘭カレーラーメン",
+      "matched_via": "地名ゆれ(室蘭カレーラーメン)"
+    },
+    {
+      "name_ja": "津軽中華そば",
+      "pref": "青森県",
+      "slug": "tsugaru",
+      "matched_existing_name": "津軽ラーメン",
+      "matched_via": "同一視(既存名=津軽ラーメン、県内唯一候補)"
+    },
+    {
+      "name_ja": "味噌カレー牛乳ラーメン",
+      "pref": "青森県",
+      "slug": "miso-curry-milk",
+      "matched_existing_name": "味噌カレー牛乳ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "つゆやきそば",
+      "pref": "青森県",
+      "slug": "kuroishi-tsuyu-yakisoba",
+      "matched_existing_name": "黒石つゆやきそば",
+      "matched_via": "地名ゆれ(黒石つゆやきそば)"
+    },
+    {
+      "name_ja": "八戸ラーメン",
+      "pref": "青森県",
+      "slug": "hachinohe",
+      "matched_existing_name": "八戸らーめん",
+      "matched_via": "表記ゆれ(八戸らーめん)"
+    },
+    {
+      "name_ja": "宮古ラーメン",
+      "pref": "岩手県",
+      "slug": "miyako",
+      "matched_existing_name": "宮古ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "大船渡さんまラーメン",
+      "pref": "岩手県",
+      "slug": "ofunato-sanma",
+      "matched_existing_name": "大船渡さんまらーめん",
+      "matched_via": "表記ゆれ(大船渡さんまらーめん)"
+    },
+    {
+      "name_ja": "じゃじゃ麺",
+      "pref": "岩手県",
+      "slug": "jajamen",
+      "matched_existing_name": "盛岡じゃじゃ麺",
+      "matched_via": "地名ゆれ(盛岡じゃじゃ麺)"
+    },
+    {
+      "name_ja": "盛岡冷麺",
+      "pref": "岩手県",
+      "slug": "morioka-reimen",
+      "matched_existing_name": "盛岡冷麺",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "十文字ラーメン",
+      "pref": "秋田県",
+      "slug": "jumonji",
+      "matched_existing_name": "十文字中華そば",
+      "matched_via": "表記ゆれ(十文字中華そば)"
+    },
+    {
+      "name_ja": "辛味噌ラーメン",
+      "pref": "宮城県",
+      "slug": "sendai-karamiso",
+      "matched_existing_name": "仙台辛味噌ラーメン",
+      "matched_via": "地名ゆれ(仙台辛味噌ラーメン)"
+    },
+    {
+      "name_ja": "冷やしラーメン",
+      "pref": "山形県",
+      "slug": "yamagata-hiyashi",
+      "matched_existing_name": "冷やしラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "酒田ラーメン",
+      "pref": "山形県",
+      "slug": "sakata",
+      "matched_existing_name": "酒田ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "とりもつラーメン",
+      "pref": "山形県",
+      "slug": "shinjo-torimotsu",
+      "matched_existing_name": "とりもつラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "米沢ラーメン",
+      "pref": "山形県",
+      "slug": "yonezawa",
+      "matched_existing_name": "米沢ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "喜多方ラーメン",
+      "pref": "福島県",
+      "slug": "kitakata",
+      "matched_existing_name": "喜多方ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "白河ラーメン",
+      "pref": "福島県",
+      "slug": "shirakawa",
+      "matched_existing_name": "白河ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "郡山ブラックラーメン",
+      "pref": "福島県",
+      "slug": "koriyama-black",
+      "matched_existing_name": "郡山ブラック",
+      "matched_via": "表記ゆれ(郡山ブラック)"
+    },
+    {
+      "name_ja": "長岡生姜醤油ラーメン",
+      "pref": "新潟県",
+      "slug": "nagaoka-shoga",
+      "matched_existing_name": "長岡生姜醤油ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "燕背脂ラーメン",
+      "pref": "新潟県",
+      "slug": "tsubame-seabura",
+      "matched_existing_name": "燕背脂ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "三条カレーラーメン",
+      "pref": "新潟県",
+      "slug": "sanjo-curry",
+      "matched_existing_name": "三条カレーラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "富山ブラックラーメン",
+      "pref": "富山県",
+      "slug": "toyama-black",
+      "matched_existing_name": "富山ブラック",
+      "matched_via": "表記ゆれ(富山ブラック)"
+    },
+    {
+      "name_ja": "敦賀ラーメン",
+      "pref": "福井県",
+      "slug": "tsuruga",
+      "matched_existing_name": "敦賀ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "安養寺ラーメン",
+      "pref": "長野県",
+      "slug": "anyoji",
+      "matched_existing_name": "安養寺ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "ローメン",
+      "pref": "長野県",
+      "slug": "ina-romen",
+      "matched_existing_name": "伊那ローメン",
+      "matched_via": "地名ゆれ(伊那ローメン)"
+    },
+    {
+      "name_ja": "高山ラーメン",
+      "pref": "岐阜県",
+      "slug": "takayama",
+      "matched_existing_name": "高山ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "富士つけナポリタン",
+      "pref": "静岡県",
+      "slug": "tsuke-napolitan",
+      "matched_existing_name": "つけナポリタン",
+      "matched_via": "地名ゆれ(つけナポリタン)"
+    },
+    {
+      "name_ja": "台湾ラーメン",
+      "pref": "愛知県",
+      "slug": "taiwan-ramen",
+      "matched_existing_name": "台湾ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "台湾まぜそば",
+      "pref": "愛知県",
+      "slug": "taiwan-mazesoba",
+      "matched_existing_name": "台湾まぜそば",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "スタミナラーメン",
+      "pref": "茨城県",
+      "slug": "hitachinaka-stamina",
+      "matched_existing_name": "スタミナラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "下館ラーメン",
+      "pref": "茨城県",
+      "slug": "shimodate",
+      "matched_existing_name": "下館ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "佐野ラーメン",
+      "pref": "栃木県",
+      "slug": "sano",
+      "matched_existing_name": "佐野ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "スープ入り焼きそば",
+      "pref": "栃木県",
+      "slug": "soup-yakisoba",
+      "matched_existing_name": "スープ入り焼きそば",
+      "matched_via": "exact(既に別ジャンルで収録済み)"
+    },
+    {
+      "name_ja": "藤岡ラーメン",
+      "pref": "群馬県",
+      "slug": "fujioka",
+      "matched_existing_name": "藤岡ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "竹岡式ラーメン",
+      "pref": "千葉県",
+      "slug": "takeoka",
+      "matched_existing_name": "竹岡式ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "勝浦タンタンメン",
+      "pref": "千葉県",
+      "slug": "katsuura-tantan",
+      "matched_existing_name": "勝浦タンタンメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "小見川カレー焼きそば",
+      "pref": "千葉県",
+      "slug": "omigawa-curry-yakisoba",
+      "matched_existing_name": "小見川カレー焼きそば",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "東京ラーメン",
+      "pref": "東京都",
+      "slug": "tokyo",
+      "matched_existing_name": "東京ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "八王子ラーメン",
+      "pref": "東京都",
+      "slug": "hachioji",
+      "matched_existing_name": "八王子ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "サンマーメン",
+      "pref": "神奈川県",
+      "slug": "sanmamen",
+      "matched_existing_name": "サンマーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "ニュータンタンメン",
+      "pref": "神奈川県",
+      "slug": "kawasaki-new-tantan",
+      "matched_existing_name": "ニュータンタンメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "鳥取牛骨ラーメン",
+      "pref": "鳥取県",
+      "slug": "tottori-gyukotsu",
+      "matched_existing_name": "鳥取牛骨ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "笠岡ラーメン",
+      "pref": "岡山県",
+      "slug": "kasaoka",
+      "matched_existing_name": "笠岡ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "広島ラーメン",
+      "pref": "広島県",
+      "slug": "hiroshima",
+      "matched_existing_name": "広島ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "尾道ラーメン",
+      "pref": "広島県",
+      "slug": "onomichi",
+      "matched_existing_name": "尾道ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "呉冷麺",
+      "pref": "広島県",
+      "slug": "kure-reimen",
+      "matched_existing_name": "呉冷麺",
+      "matched_via": "exact(既に別ジャンルで収録済み)"
+    },
+    {
+      "name_ja": "徳島ラーメン",
+      "pref": "徳島県",
+      "slug": "tokushima",
+      "matched_existing_name": "徳島ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "八幡浜ちゃんぽん",
+      "pref": "愛媛県",
+      "slug": "yawatahama-champon",
+      "matched_existing_name": "八幡浜ちゃんぽん",
+      "matched_via": "exact(既に別ジャンルで収録済み)"
+    },
+    {
+      "name_ja": "須崎鍋焼きラーメン",
+      "pref": "高知県",
+      "slug": "nabeyaki-susaki",
+      "matched_existing_name": "鍋焼きラーメン",
+      "matched_via": "地名ゆれ(鍋焼きラーメン)"
+    },
+    {
+      "name_ja": "博多ラーメン",
+      "pref": "福岡県",
+      "slug": "hakata",
+      "matched_existing_name": "博多ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "久留米ラーメン",
+      "pref": "福岡県",
+      "slug": "kurume",
+      "matched_existing_name": "久留米ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "戸畑ちゃんぽん",
+      "pref": "福岡県",
+      "slug": "tobata-champon",
+      "matched_existing_name": "戸畑ちゃんぽん",
+      "matched_via": "exact(既に別ジャンルで収録済み)"
+    },
+    {
+      "name_ja": "佐賀ラーメン",
+      "pref": "佐賀県",
+      "slug": "saga",
+      "matched_existing_name": "佐賀ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "長崎ちゃんぽん",
+      "pref": "長崎県",
+      "slug": "nagasaki-champon",
+      "matched_existing_name": "長崎ちゃんぽん",
+      "matched_via": "exact(既に別ジャンルで収録済み)"
+    },
+    {
+      "name_ja": "熊本ラーメン",
+      "pref": "熊本県",
+      "slug": "kumamoto",
+      "matched_existing_name": "熊本ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "太平燕",
+      "pref": "熊本県",
+      "slug": "taipiien",
+      "matched_existing_name": "太平燕",
+      "matched_via": "exact(既に別ジャンルで収録済み)"
+    },
+    {
+      "name_ja": "別府冷麺",
+      "pref": "大分県",
+      "slug": "beppu-reimen",
+      "matched_existing_name": "別府冷麺",
+      "matched_via": "exact(既に別ジャンルで収録済み)"
+    },
+    {
+      "name_ja": "宮崎ラーメン",
+      "pref": "宮崎県",
+      "slug": "miyazaki",
+      "matched_existing_name": "宮崎ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "鹿児島ラーメン",
+      "pref": "鹿児島県",
+      "slug": "kagoshima",
+      "matched_existing_name": "鹿児島ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "沖縄そば",
+      "pref": "沖縄県",
+      "slug": "naha-soba",
+      "matched_existing_name": "沖縄そば",
+      "matched_via": "exact(既に別ジャンルで収録済み)"
+    },
+    {
+      "name_ja": "京都ラーメン",
+      "pref": "京都府",
+      "slug": "kyoto",
+      "matched_existing_name": "京都ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "高井田系ラーメン",
+      "pref": "大阪府",
+      "slug": "takaida",
+      "matched_existing_name": "高井田ラーメン",
+      "matched_via": "表記ゆれ(高井田ラーメン、「系」の有無)"
+    },
+    {
+      "name_ja": "播州ラーメン",
+      "pref": "兵庫県",
+      "slug": "banshu",
+      "matched_existing_name": "播州ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "天理ラーメン",
+      "pref": "奈良県",
+      "slug": "tenri",
+      "matched_existing_name": "天理ラーメン",
+      "matched_via": "exact"
+    },
+    {
+      "name_ja": "和歌山ラーメン",
+      "pref": "和歌山県",
+      "slug": "wakayama",
+      "matched_existing_name": "和歌山ラーメン",
+      "matched_via": "exact"
+    }
+  ],
+  "missing": [
+    {
+      "name_ja": "上川ラーメン",
+      "pref": "北海道",
+      "city_hint": "上川町",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "天ぷらラーメン",
+      "pref": "北海道",
+      "city_hint": "",
+      "style_hint": "天ぷらをのせたラーメン(苫小牧・室蘭周辺など)"
+    },
+    {
+      "name_ja": "中標津ミルキーラーメン",
+      "pref": "北海道",
+      "city_hint": "中標津町",
+      "style_hint": "牛乳・生クリームを使ったミルキーな塩ラーメン"
+    },
+    {
+      "name_ja": "オホーツク干貝柱ラーメン",
+      "pref": "北海道",
+      "city_hint": "オホーツク海沿岸(紋別・網走周辺)",
+      "style_hint": "干し貝柱だしのラーメン"
+    },
+    {
+      "name_ja": "旭川ホルメン",
+      "pref": "北海道",
+      "city_hint": "旭川市",
+      "style_hint": "ホルモンを使った旭川のご当地麺"
+    },
+    {
+      "name_ja": "ガタタンラーメン",
+      "pref": "北海道",
+      "city_hint": "深川市",
+      "style_hint": "片栗粉でとろみをつけた中華風スープのラーメン"
+    },
+    {
+      "name_ja": "稚内ラーメン",
+      "pref": "北海道",
+      "city_hint": "稚内市",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "利尻ラーメン",
+      "pref": "北海道",
+      "city_hint": "利尻島",
+      "style_hint": "利尻昆布だしの塩ラーメン"
+    },
+    {
+      "name_ja": "濃厚津軽煮干しラーメン",
+      "pref": "青森県",
+      "city_hint": "津軽地方",
+      "style_hint": "煮干し(にぼし)を効かせた濃厚系ラーメン"
+    },
+    {
+      "name_ja": "しじみラーメン",
+      "pref": "青森県",
+      "city_hint": "十三湖周辺",
+      "style_hint": "しじみだしのラーメン"
+    },
+    {
+      "name_ja": "釜石ラーメン",
+      "pref": "岩手県",
+      "city_hint": "釜石市",
+      "style_hint": "細ちぢれ麺のあっさり系ラーメン"
+    },
+    {
+      "name_ja": "五穀ラーメン",
+      "pref": "岩手県",
+      "city_hint": "",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "三陸磯ラーメン",
+      "pref": "岩手県",
+      "city_hint": "三陸沿岸",
+      "style_hint": "磯の海産物を使った醤油ラーメン"
+    },
+    {
+      "name_ja": "江戸系ラーメン",
+      "pref": "秋田県",
+      "city_hint": "横手市周辺",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "稲庭中華そば",
+      "pref": "秋田県",
+      "city_hint": "湯沢市稲庭周辺",
+      "style_hint": "稲庭うどんの技法を応用した中華そば"
+    },
+    {
+      "name_ja": "かつラーメン",
+      "pref": "秋田県",
+      "city_hint": "",
+      "style_hint": "とんかつをのせたラーメン"
+    },
+    {
+      "name_ja": "秋田天ぷら中華",
+      "pref": "秋田県",
+      "city_hint": "",
+      "style_hint": "天ぷらをのせた中華そば"
+    },
+    {
+      "name_ja": "からみそラーメン",
+      "pref": "山形県",
+      "city_hint": "",
+      "style_hint": "辛味噌ベースのラーメン"
+    },
+    {
+      "name_ja": "鳥中華",
+      "pref": "山形県",
+      "city_hint": "山形市周辺",
+      "style_hint": "そば店発祥、鶏がらだしの中華そば"
+    },
+    {
+      "name_ja": "鶴岡節系ラーメン",
+      "pref": "山形県",
+      "city_hint": "鶴岡市",
+      "style_hint": "鶏節・魚節を効かせた醤油ラーメン(あつみ・我隨など)"
+    },
+    {
+      "name_ja": "馬肉チャーシューラーメン",
+      "pref": "山形県",
+      "city_hint": "河北町周辺",
+      "style_hint": "馬肉をチャーシュー代わりに使う山形の醤油ラーメン"
+    },
+    {
+      "name_ja": "肉中華",
+      "pref": "山形県",
+      "city_hint": "",
+      "style_hint": "牛肉を具材にした山形の中華そば"
+    },
+    {
+      "name_ja": "会津ラーメン",
+      "pref": "福島県",
+      "city_hint": "会津若松市",
+      "style_hint": "手打ち・平打ち縮れ麺の醤油ラーメン"
+    },
+    {
+      "name_ja": "奥州郡山とんこつラーメン",
+      "pref": "福島県",
+      "city_hint": "郡山市",
+      "style_hint": "とんこつ系ラーメン"
+    },
+    {
+      "name_ja": "会津野沢宿味噌ラーメン",
+      "pref": "福島県",
+      "city_hint": "会津・野沢宿(西会津町)",
+      "style_hint": "味噌ラーメン"
+    },
+    {
+      "name_ja": "福島鶏白湯",
+      "pref": "福島県",
+      "city_hint": "福島市周辺",
+      "style_hint": "鶏白湯スープのラーメン"
+    },
+    {
+      "name_ja": "新潟あっさり醤油ラーメン",
+      "pref": "新潟県",
+      "city_hint": "新潟市周辺",
+      "style_hint": "あっさり醤油のラーメン"
+    },
+    {
+      "name_ja": "新潟濃厚味噌ラーメン",
+      "pref": "新潟県",
+      "city_hint": "新潟市周辺",
+      "style_hint": "濃厚味噌ラーメン"
+    },
+    {
+      "name_ja": "三条っ子ラーメン",
+      "pref": "新潟県",
+      "city_hint": "三条市",
+      "style_hint": "三条カレーラーメンと並ぶご当地系"
+    },
+    {
+      "name_ja": "見附へそラーメン",
+      "pref": "新潟県",
+      "city_hint": "見附市",
+      "style_hint": "見附の郷土菓子「へそ大根」にちなむご当地ラーメン"
+    },
+    {
+      "name_ja": "上越とん汁ラーメン",
+      "pref": "新潟県",
+      "city_hint": "上越市",
+      "style_hint": "豚汁風の具沢山ラーメン"
+    },
+    {
+      "name_ja": "もつラーメン",
+      "pref": "新潟県",
+      "city_hint": "新潟県",
+      "style_hint": "もつを使ったラーメン"
+    },
+    {
+      "name_ja": "冷丼",
+      "pref": "新潟県",
+      "city_hint": "新潟県中越地方",
+      "style_hint": "冷やし中華丼系のご当地グルメ"
+    },
+    {
+      "name_ja": "上越味噌ラーメン",
+      "pref": "新潟県",
+      "city_hint": "上越市",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "麻婆ラーメン",
+      "pref": "新潟県",
+      "city_hint": "新潟県",
+      "style_hint": "麻婆豆腐風ラーメン"
+    },
+    {
+      "name_ja": "上越雪むろ酒かすラーメン",
+      "pref": "新潟県",
+      "city_hint": "上越市",
+      "style_hint": "雪室貯蔵の酒粕を使った味噌ラーメン"
+    },
+    {
+      "name_ja": "入善ブラウンラーメン",
+      "pref": "富山県",
+      "city_hint": "入善町",
+      "style_hint": "富山ブラックの対となる薄口醤油ラーメン"
+    },
+    {
+      "name_ja": "高岡グリーンラーメン",
+      "pref": "富山県",
+      "city_hint": "高岡市",
+      "style_hint": "ニラなど青野菜を効かせたラーメン"
+    },
+    {
+      "name_ja": "おやべホワイトラーメン",
+      "pref": "富山県",
+      "city_hint": "小矢部市",
+      "style_hint": "白味噌ベースの白いラーメン"
+    },
+    {
+      "name_ja": "UFOラーメン",
+      "pref": "石川県",
+      "city_hint": "羽咋市周辺",
+      "style_hint": "UFO関連で町おこしのご当地ラーメン"
+    },
+    {
+      "name_ja": "加賀味噌ラーメン",
+      "pref": "石川県",
+      "city_hint": "加賀地方",
+      "style_hint": "味噌ラーメン"
+    },
+    {
+      "name_ja": "たけふ駅前中華そば",
+      "pref": "福井県",
+      "city_hint": "越前市(武生)",
+      "style_hint": "2025年NEW掲載"
+    },
+    {
+      "name_ja": "平打ちタンメン",
+      "pref": "山梨県",
+      "city_hint": "",
+      "style_hint": "平打ち麺のタンメン"
+    },
+    {
+      "name_ja": "甲州地どりラーメン",
+      "pref": "山梨県",
+      "city_hint": "",
+      "style_hint": "甲州地どりを使ったラーメン"
+    },
+    {
+      "name_ja": "やまなし源水ラーメン",
+      "pref": "山梨県",
+      "city_hint": "",
+      "style_hint": "富士山の伏流水を使ったラーメン"
+    },
+    {
+      "name_ja": "王様中華そば",
+      "pref": "長野県",
+      "city_hint": "",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "信州味噌ラーメン",
+      "pref": "長野県",
+      "city_hint": "長野県",
+      "style_hint": "信州味噌を使ったラーメン"
+    },
+    {
+      "name_ja": "神岡ラーメン",
+      "pref": "岐阜県",
+      "city_hint": "飛騨市神岡町",
+      "style_hint": "高山ラーメンに似た細ちぢれ麺の醤油ラーメン"
+    },
+    {
+      "name_ja": "溶き味噌ラーメン",
+      "pref": "静岡県",
+      "city_hint": "静岡市周辺",
+      "style_hint": "味噌を溶き入れるスタイルのラーメン"
+    },
+    {
+      "name_ja": "清水もつカレーラーメン",
+      "pref": "静岡県",
+      "city_hint": "静岡市清水区",
+      "style_hint": "もつとカレー風味のラーメン"
+    },
+    {
+      "name_ja": "志太系ラーメン",
+      "pref": "静岡県",
+      "city_hint": "藤枝市・焼津市周辺",
+      "style_hint": "豚骨清湯の醤油ラーメン"
+    },
+    {
+      "name_ja": "好来系ラーメン",
+      "pref": "愛知県",
+      "city_hint": "名古屋市",
+      "style_hint": "台湾ラーメン発祥店系列のとんこつ醤油ラーメン"
+    },
+    {
+      "name_ja": "ベトコンラーメン",
+      "pref": "愛知県",
+      "city_hint": "一宮市周辺",
+      "style_hint": "ニンニク・もやし・唐辛子の効いたスタミナラーメン"
+    },
+    {
+      "name_ja": "玉子とじラーメン",
+      "pref": "愛知県",
+      "city_hint": "愛知県三河地方",
+      "style_hint": "卵でとじたあんかけ風ラーメン"
+    },
+    {
+      "name_ja": "亀山ラーメン",
+      "pref": "三重県",
+      "city_hint": "亀山市",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "水戸藩ラーメン",
+      "pref": "茨城県",
+      "city_hint": "水戸市",
+      "style_hint": "黄門様ゆかりを謳うご当地ラーメン"
+    },
+    {
+      "name_ja": "豆腐味噌ラーメン",
+      "pref": "茨城県",
+      "city_hint": "",
+      "style_hint": "豆腐を使った味噌ラーメン"
+    },
+    {
+      "name_ja": "夕顔ラーメン",
+      "pref": "栃木県",
+      "city_hint": "鹿沼市周辺",
+      "style_hint": "夕顔(かんぴょうの原料)を具材にしたラーメン"
+    },
+    {
+      "name_ja": "東毛手延べラーメン",
+      "pref": "群馬県",
+      "city_hint": "群馬県東毛地域",
+      "style_hint": "手延べ麺を使ったラーメン"
+    },
+    {
+      "name_ja": "アリランラーメン",
+      "pref": "千葉県",
+      "city_hint": "",
+      "style_hint": "韓国風の辛味ラーメン"
+    },
+    {
+      "name_ja": "船橋ソースラーメン",
+      "pref": "千葉県",
+      "city_hint": "船橋市",
+      "style_hint": "ソース味のラーメン"
+    },
+    {
+      "name_ja": "もばらーめん",
+      "pref": "千葉県",
+      "city_hint": "茂原市",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "ホワイトガウラーメン",
+      "pref": "千葉県",
+      "city_hint": "",
+      "style_hint": "白湯系ラーメン"
+    },
+    {
+      "name_ja": "スタミナラーメン",
+      "pref": "埼玉県",
+      "city_hint": "",
+      "style_hint": "野菜あんかけのスタミナラーメン"
+    },
+    {
+      "name_ja": "豆腐ラーメン",
+      "pref": "埼玉県",
+      "city_hint": "",
+      "style_hint": "豆腐を使ったラーメン"
+    },
+    {
+      "name_ja": "酒粕味噌ラーメン",
+      "pref": "埼玉県",
+      "city_hint": "",
+      "style_hint": "酒粕を効かせた味噌ラーメン"
+    },
+    {
+      "name_ja": "茶ラーメン",
+      "pref": "埼玉県",
+      "city_hint": "狭山市周辺",
+      "style_hint": "狭山茶を練り込んだ麺のラーメン"
+    },
+    {
+      "name_ja": "荻窪ラーメン",
+      "pref": "東京都",
+      "city_hint": "東京都杉並区荻窪",
+      "style_hint": "醤油ラーメンの名店集積地"
+    },
+    {
+      "name_ja": "油そば",
+      "pref": "東京都",
+      "city_hint": "東京都武蔵野市周辺",
+      "style_hint": "スープを張らず油だれで和える麺"
+    },
+    {
+      "name_ja": "つけ麺",
+      "pref": "東京都",
+      "city_hint": "東京都",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "背脂ラーメン",
+      "pref": "東京都",
+      "city_hint": "東京都",
+      "style_hint": "背脂チャッチャ系ラーメン"
+    },
+    {
+      "name_ja": "家系ラーメン",
+      "pref": "神奈川県",
+      "city_hint": "横浜市",
+      "style_hint": "豚骨醤油+鶏油の濃厚ラーメン"
+    },
+    {
+      "name_ja": "平塚系タンメン",
+      "pref": "神奈川県",
+      "city_hint": "平塚市",
+      "style_hint": "野菜たっぷりの塩・醤油タンメン"
+    },
+    {
+      "name_ja": "小田原系ラーメン",
+      "pref": "神奈川県",
+      "city_hint": "小田原市",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "三崎まぐろラーメン",
+      "pref": "神奈川県",
+      "city_hint": "三浦市三崎",
+      "style_hint": "まぐろだしを使ったラーメン"
+    },
+    {
+      "name_ja": "小田原タンタン麺",
+      "pref": "神奈川県",
+      "city_hint": "小田原市",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "神奈川淡麗系",
+      "pref": "神奈川県",
+      "city_hint": "",
+      "style_hint": "淡麗系スープのラーメン"
+    },
+    {
+      "name_ja": "アホーメン",
+      "pref": "神奈川県",
+      "city_hint": "",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "素ラーメン",
+      "pref": "鳥取県",
+      "city_hint": "鳥取県",
+      "style_hint": "シンプルな中華そば"
+    },
+    {
+      "name_ja": "しじみラーメン",
+      "pref": "島根県",
+      "city_hint": "宍道湖周辺",
+      "style_hint": "しじみだしのラーメン"
+    },
+    {
+      "name_ja": "松江ラーメン",
+      "pref": "島根県",
+      "city_hint": "松江市",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "岡山ラーメン",
+      "pref": "岡山県",
+      "city_hint": "岡山市",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "トンカツラーメン",
+      "pref": "岡山県",
+      "city_hint": "岡山県",
+      "style_hint": "とんかつをのせたラーメン"
+    },
+    {
+      "name_ja": "新見ラーメン",
+      "pref": "岡山県",
+      "city_hint": "新見市",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "広島つけ麺",
+      "pref": "広島県",
+      "city_hint": "広島市",
+      "style_hint": "辛味だれのつけ麺"
+    },
+    {
+      "name_ja": "汁無し担々麺",
+      "pref": "広島県",
+      "city_hint": "広島市",
+      "style_hint": "汁なし坦々麺"
+    },
+    {
+      "name_ja": "広島牡蠣ラーメン",
+      "pref": "広島県",
+      "city_hint": "広島県",
+      "style_hint": "牡蠣だしを使ったラーメン(2025年NEW)"
+    },
+    {
+      "name_ja": "宇部ラーメン",
+      "pref": "山口県",
+      "city_hint": "宇部市",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "下松牛骨ラーメン",
+      "pref": "山口県",
+      "city_hint": "下松市",
+      "style_hint": "牛骨スープの醤油ラーメン"
+    },
+    {
+      "name_ja": "瀬戸内ラーメンいりこそば",
+      "pref": "山口県",
+      "city_hint": "",
+      "style_hint": "煮干し(いりこ)だしのラーメン"
+    },
+    {
+      "name_ja": "松山瓢系ラーメン",
+      "pref": "愛媛県",
+      "city_hint": "松山市",
+      "style_hint": "豚骨醤油の「瓢箪(ひさご)」系ラーメン"
+    },
+    {
+      "name_ja": "今治ラーメン",
+      "pref": "愛媛県",
+      "city_hint": "今治市",
+      "style_hint": "極細麺のとんこつ醤油ラーメン"
+    },
+    {
+      "name_ja": "みそカツラーメン",
+      "pref": "高知県",
+      "city_hint": "",
+      "style_hint": "味噌カツ風味のラーメン"
+    },
+    {
+      "name_ja": "中日そば",
+      "pref": "高知県",
+      "city_hint": "高知県中西部",
+      "style_hint": "中華そば系の郷土麺"
+    },
+    {
+      "name_ja": "長浜ラーメン",
+      "pref": "福岡県",
+      "city_hint": "福岡市長浜",
+      "style_hint": "博多とんこつラーメンのルーツ、極細麺豚骨"
+    },
+    {
+      "name_ja": "焼きラーメン",
+      "pref": "福岡県",
+      "city_hint": "北九州市小倉",
+      "style_hint": "焼きそば風の炒めラーメン"
+    },
+    {
+      "name_ja": "ちゃんらー",
+      "pref": "福岡県",
+      "city_hint": "北九州市",
+      "style_hint": "ちゃんぽんとラーメンの中間的なご当地麺"
+    },
+    {
+      "name_ja": "マジェンバ",
+      "pref": "佐賀県",
+      "city_hint": "佐賀県",
+      "style_hint": "太麺・野菜たっぷりの中華そば"
+    },
+    {
+      "name_ja": "あごだしラーメン",
+      "pref": "長崎県",
+      "city_hint": "長崎県",
+      "style_hint": "飛魚(あご)だしのラーメン"
+    },
+    {
+      "name_ja": "玉名ラーメン",
+      "pref": "熊本県",
+      "city_hint": "玉名市",
+      "style_hint": "久留米系から派生した豚骨ラーメン"
+    },
+    {
+      "name_ja": "佐伯ラーメン",
+      "pref": "大分県",
+      "city_hint": "佐伯市",
+      "style_hint": "極細麺のあっさり醤油ラーメン"
+    },
+    {
+      "name_ja": "宮崎辛麺",
+      "pref": "宮崎県",
+      "city_hint": "宮崎県",
+      "style_hint": "唐辛子と極細春雨のピリ辛ラーメン"
+    },
+    {
+      "name_ja": "串木野まぐろラーメン",
+      "pref": "鹿児島県",
+      "city_hint": "いちき串木野市",
+      "style_hint": "まぐろだしを使ったラーメン"
+    },
+    {
+      "name_ja": "枕崎かつおラーメン",
+      "pref": "鹿児島県",
+      "city_hint": "枕崎市",
+      "style_hint": "鰹節だしを効かせたラーメン"
+    },
+    {
+      "name_ja": "ちゅら塩ラーメン",
+      "pref": "沖縄県",
+      "city_hint": "沖縄県",
+      "style_hint": "沖縄の塩を使った塩ラーメン"
+    },
+    {
+      "name_ja": "京風ラーメン",
+      "pref": "京都府",
+      "city_hint": "京都市",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "キーシマ",
+      "pref": "京都府",
+      "city_hint": "京都府",
+      "style_hint": "背脂の効いた濃厚醤油ラーメン"
+    },
+    {
+      "name_ja": "大阪ライト豚骨",
+      "pref": "大阪府",
+      "city_hint": "大阪府",
+      "style_hint": "あっさり系豚骨ラーメン"
+    },
+    {
+      "name_ja": "神戸ラーメン",
+      "pref": "兵庫県",
+      "city_hint": "神戸市",
+      "style_hint": ""
+    },
+    {
+      "name_ja": "えきそば",
+      "pref": "兵庫県",
+      "city_hint": "兵庫県(姫路駅等)",
+      "style_hint": "和風だしに中華麺を合わせた立ち食いそば"
+    },
+    {
+      "name_ja": "播州赤穂塩ラーメン",
+      "pref": "兵庫県",
+      "city_hint": "赤穂市",
+      "style_hint": "赤穂の塩を使った塩ラーメン"
+    }
+  ],
+  "other_genre_gaps": [
+    {
+      "name_ja": "山陰ちゃんぽん",
+      "pref": "島根県・鳥取県",
+      "reason": "ちゃんぽん/冷麺/焼きそば/太平燕等、スープ+中華麺のラーメンに該当しない別ジャンルで、かつ既存DBにも未収録"
+    },
+    {
+      "name_ja": "佐賀ちゃんぽん",
+      "pref": "佐賀県",
+      "reason": "ちゃんぽん/冷麺/焼きそば/太平燕等、スープ+中華麺のラーメンに該当しない別ジャンルで、かつ既存DBにも未収録"
+    },
+    {
+      "name_ja": "天草ちゃんぽん",
+      "pref": "熊本県",
+      "reason": "ちゃんぽん/冷麺/焼きそば/太平燕等、スープ+中華麺のラーメンに該当しない別ジャンルで、かつ既存DBにも未収録"
+    },
+    {
+      "name_ja": "尼崎あんかけちゃんぽん",
+      "pref": "兵庫県",
+      "reason": "ちゃんぽん/冷麺/焼きそば/太平燕等、スープ+中華麺のラーメンに該当しない別ジャンルで、かつ既存DBにも未収録"
+    },
+    {
+      "name_ja": "近江ちゃんぽん",
+      "pref": "滋賀県",
+      "reason": "ちゃんぽん/冷麺/焼きそば/太平燕等、スープ+中華麺のラーメンに該当しない別ジャンルで、かつ既存DBにも未収録"
+    }
+  ],
+  "notes": "出典: 一般社団法人日本ラーメン協会「日本ご当地ラーメン一覧」2025年版ポスター(https://ramen-kyokai.jp/gotouchi_ramen_map/poster_2025.pdf, 2025/7/11現在・185種類掲載)。PDFはテキストがアウトライン化され抽出不可のため、pdftoppmで300dpiラスタライズ後、都道府県ブロック単位でクロップし目視転記(転記総数185がポスター公称値・ブロック別内訳(北海道13/東北35/中部40/関東35/中国四国25/九州沖縄24/関西13)ともに一致することを検算済み)。既存突合は /scratchpad/all-items-ja.txt (slug|name_ja|pref, 約2000件・ジャンル問わず全DB既存アイテム) 相手に、まず正規化+あいまい一致を機械実行したが、既存DB内の地名なし汎用名(「ラーメン」北海道、「中華そば」東京都、「タンメン」神奈川県 等)への誤マッチが多発したため、全185件を目視で1件ずつ再照合し、完全一致・表記ゆれ一致(ひらがな/カタカナ、地名の有無、「系」の有無等)のみを existing として確定した(EXISTING_MATCHES にハードコード)。ラーメン(スープ+中華麺)に該当しないちゃんぽん・冷麺・焼きそば・太平燕等は、既にDBに収録済みのもの(戸畑ちゃんぽん・長崎ちゃんぽん・呉冷麺・別府冷麺・沖縄そば・太平燕・スープ入り焼きそば等)は existing、未収録のもの(山陰ちゃんぽん・佐賀ちゃんぽん・天草ちゃんぽん・尼崎あんかけちゃんぽん・近江ちゃんぽん)は other_genre_gaps に分離。「山陰ちゃんぽん」はポスター上「島根県・鳥取県」の2県表記のため pref をそのまま保持。city_hint/style_hint は一般知識によるbest-effort付与で、確証が無い項目は空欄のまま。"
+}
