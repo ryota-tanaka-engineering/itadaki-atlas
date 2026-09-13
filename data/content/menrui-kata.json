@@ -1,0 +1,1260 @@
+{
+ "genres": [
+  {
+   "slug": "soba",
+   "name_ja": "そば",
+   "name_en": "Soba",
+   "type": "dish",
+   "shelf": "noodles",
+   "sort_order": 6,
+   "intro_ja": "そばには二つの型がある。ひとつは出雲そばの挽きぐるみ、戸隠そばのぼっち盛りのように、産地と結びついた「地域の型」。もうひとつは、そば粉と小麦粉の配合（十割・二八）、挽き方（更科・田舎）、江戸の藪・砂場・更科という店の系統、もり・ざる・かけといった食べ方の違いという、土地を問わない「打ち方と食べ方の型」である。同じ十割でも産地によって呼び名も盛り付けも変わり、同じ二八でも系統によって粉の挽き方や香りの出し方が違うというように、二つの型は互いに重なり合っている。ここでは後者の、粉の配合・挽き方・系統・食べ方という構造を辿る。",
+   "intro_en": "Soba has two kinds of shape. One is the regional type, tied to a place — Izumo's whole-milled flour, Togakushi's small round bundles. The other is the type of grinding and eating, unbound by geography: the ratio of buckwheat to wheat flour (juwari, nihachi), how the flour is milled (sarashina, inaka), the Edo lineages of Yabu, Sunaba, and Sarashina, and how the noodle is served — mori, zaru, kake. The two overlap: the same juwari noodle carries a different name and plating from region to region, and the same nihachi ratio smells and mills differently depending on which lineage made it. This section follows the second kind of shape — ratio, milling, lineage, and manner of eating."
+  },
+  {
+   "slug": "udon",
+   "name_ja": "うどん",
+   "name_en": "Udon",
+   "type": "dish",
+   "shelf": "noodles",
+   "sort_order": 5,
+   "intro_ja": "うどんにも同じく二つの型がある。讃岐うどんの強いコシ、稲庭うどんの手延べ乾麺のように、産地と結びついた「地域の型」。そして、手で打つか延ばすかという製法、釜揚げ・釜玉・ぶっかけ・かけといっただしとの合わせ方、カレーや肉、力もちをのせる食べ方という、土地を問わない「打ち方と食べ方の型」である。ゆでたてを水で締めるか、そのまま丼へ移すかという一手間の違いだけで、麺の食感も名前も変わる。ここでは後者の、打ち方とだしとの合わせ方という構造を、ご当地のうどんとあわせて辿る。",
+   "intro_en": "Udon carries the same two kinds of shape. One is the regional type — Sanuki's firm bite, Inaniwa's hand-stretched dried noodle. The other is the type of technique and manner of eating, unbound by place: whether the dough is hand-kneaded or hand-stretched, how it meets the broth — kama-age, kama-tama, bukkake, kake — and what gets piled on top, from curry to beef to grilled mochi. Whether the boiled noodle is rinsed in cold water or moved straight into its bowl changes both its texture and its name. This section follows the second kind of shape — technique and how the noodle meets its broth — alongside the regional udon."
+  }
+ ],
+ "items": [
+  {
+   "slug": "juwari-soba",
+   "name_ja": "十割そば",
+   "name_romaji": "Juwari Soba",
+   "name_en": "Juwari soba — soba noodles made from 100% buckwheat flour, with no wheat binder",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "そば粉と水だけで打ち、小麦粉などのつなぎを一切使わないそば。生粉打ちそばとも呼ばれる。生地がまとまりにくく切れやすいぶん打ち手の技術が問われるが、そば本来の香りと風味が薄まらずに出るとされる。",
+   "summary_en": "Soba made from buckwheat flour and water alone, with no wheat flour or other binder added. Also called kikouchi-soba, the dough is fragile and prone to breaking, which demands real skill from the maker, but it is said to let buckwheat's own aroma and flavor come through undiluted.",
+   "body_ja": "## 何でできているか\n材料はそば粉と水だけで、小麦粉のグルテンという骨格を借りない。生地はぽろぽろとほどけやすく、まとめる感覚だけが頼りになるとされる。噛むとまず立つのはそばの実そのものの香りと、かすかな苦みを含んだ風味で、つなぎに丸め込まれていない分だけ味が薄まらずそのまま届くという。喉ごしよりも、噛みしめて香りを味わう食感に近いと語られることが多い。\n\n## どう作るのか\nそば粉に水を少しずつ加えてこね、生地を延ばして包丁で細く切る。つなぎがない分、水回しと延ばしの加減がそのまま仕上がりを左右するとされ、打ち手の技量が味に直結するという。茹で時間も短く、湯から上げる呼吸が難しいと語られる。江戸時代には、こうした手間のかかる生粉打ちが「生蕎麦」の看板として、むしろ質の高さを誇る売り文句に使われていたとされる。\n\n## なぜこの形になったのか\nそばに小麦粉をつなぎとして加える工夫が広まったのは元禄期以降とされ、それ以前のそばはもともと十割が当たり前だったという。つなぎ入りのそばが主流になった背景には、当時のそば粉の品質を安定させる狙いがあったとも伝わる。近年になって十割そばを掲げる店が増えている理由は、製粉技術そのものが向上し、つなぎなしでも安定して打てる粉が手に入りやすくなったことにあるとされる。",
+   "body_en": "## What it's made of\nThe only ingredients are buckwheat flour and water — no wheat flour lending its gluten as scaffolding. The dough is said to crumble easily, leaving the maker's touch as the only thing holding it together. What comes through first on the bite is buckwheat's own aroma, carrying a faint bitterness, arriving undiluted because nothing else has been kneaded in. People often describe it as a noodle to chew and savor for its scent, more than one to simply slide down the throat.\n\n## How it's made\nWater is worked into buckwheat flour a little at a time, kneaded, rolled out, and cut fine with a knife. With no binder, how the water is mixed in and how the dough is rolled are said to decide the result outright, so the outcome rides entirely on the maker's skill. Boiling time is short, and lifting the noodles out at the right moment is said to be difficult. In the Edo period, this labor-intensive, binder-free style was marketed under the name kisoba — a sign meant to boast of quality, not apologize for difficulty.\n\n## Why it took this shape\nAdding wheat flour as a binder is said to have spread only from the Genroku era onward; before that, soba without any binder was simply the norm. One account holds that binder came into fashion partly to steady out the quality of buckwheat flour at the time. The recent rise in shops advertising juwari soba is said to owe less to changing taste than to milling technology itself improving, making flour reliable enough to hold together without a binder at all.",
+   "sources": [
+    {
+     "title": "十割 | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/number/05/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "福島県",
+     "city": "喜多方市山都町",
+     "lat": 37.5478,
+     "lng": 139.7511,
+     "relation_type": "本場",
+     "note_ja": "つなぎを使わない十割そばを、飯豊山からの伏流水と冷涼な気候というそば栽培に適した土地条件のもとで打ち続けてきたとされる産地であるため。",
+     "note_en": "The area is said to have kept making unbound, 100%-buckwheat soba, favored by cold-spring water off Mt. Iide and a cool climate suited to growing buckwheat.",
+     "source_url": "https://www.city.kitakata.fukushima.jp/soshiki/sangyo-y/31433.html"
+    },
+    {
+     "pref": "福島県",
+     "city": "檜枝岐村",
+     "lat": 36.9528,
+     "lng": 139.2811,
+     "relation_type": "本場",
+     "note_ja": "つなぎを一切使わない十割の生地を、布を裁つように重ねて切る「裁ちそば」という独自の技法で受け継いできたとされる産地であるため。",
+     "note_en": "The village is said to preserve a unique method, tachi-soba, in which unbound, all-buckwheat dough is layered and cut as if cutting cloth.",
+     "source_url": "http://www.vill.hinoemata.lg.jp/sangyo/shinko/000094.html"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "nihachi-soba",
+     "relation_type": "対比",
+     "basis": "つなぎを使うか使わないかという配合の有無で対になる、そば粉と小麦粉の配合を語るうえでの基本的な対比"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "nihachi-soba",
+   "name_ja": "二八そば",
+   "name_romaji": "Nihachi Soba",
+   "name_en": "Nihachi soba — soba noodles mixed at a roughly 8:2 ratio of buckwheat to wheat flour",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "そば粉八割・小麦粉二割の配合、あるいは「江戸流のそば」を指すとされる呼び名。享保年間にそば史に登場したとされるが、二八の由来には代価説と配合説があり、いまも結論は出ていないという。",
+   "summary_en": "A name said to denote either a roughly 8:2 ratio of buckwheat to wheat flour, or simply \"Edo-style soba\" more broadly. It is said to have entered soba's written history in the Kyoho era, though accounts differ on whether the name comes from the blend ratio or from an old noodle price, and no settled answer exists.",
+   "body_ja": "## 何でできているか\nそば粉八割に小麦粉二割を合わせた配合とされる。小麦粉のグルテンが生地をつなぎ、十割よりも扱いやすく切れにくい生地になるという。喉ごしのよさとそばの香りとのバランスが取れた配合として、そば屋の標準的な品書きに使われてきたとされる。つなぎの分量が少ないぶん、そば粉の風味は残しつつ、麺としてのまとまりも両立できる落としどころとして選ばれてきたと語られる。\n\n## どう作るのか\nそば粉と小麦粉を八対二の割合で合わせ、水を加えてこね、延ばして細く切る。つなぎのおかげで生地がまとまりやすく、十割に比べて打ちやすいとされる一方、配合の数え方には「内二」と「外二」の二通りがあり、そば粉十に対して小麦粉二を外側から足すか、そば粉八に対して二を数えるかで、同じ二八でも計算の道筋が違うという。\n\n## なぜこの形になったのか\n「二八」の由来をめぐっては江戸時代から議論が続いているとされる。一つは、江戸後期にそば一杯が十六文だった時期があり、掛け算の「二八十六」にかけた代価説。もう一つは配合そのものを示すという説である。ただし享保年間のそばの値段は七、八文だったとされ、代価説には時期のずれがあるという。配合割合説が実際に機能したのは、そばの値段が十六文を超えた慶応年間以降とされる。",
+   "body_en": "## What it's made of\nThe blend is said to run roughly eight parts buckwheat flour to two parts wheat flour. The wheat's gluten binds the dough, making it easier to handle and less prone to breaking than a binder-free noodle. This balance of a smooth bite against buckwheat's aroma is said to have made it the standard listing on a soba shop's menu.\n\n## How it's made\nBuckwheat and wheat flour are combined at roughly an 8-to-2 ratio, worked with water, rolled out, and cut fine. The binder is said to make the dough easier to hold together than a 100%-buckwheat one. Even so, the ratio is counted two different ways — uchi-ni, folding the two parts of wheat flour into the eight of buckwheat, or soto-ni, adding two parts wheat flour on top of a full ten of buckwheat — so the same name nihachi can arrive at the noodle by two different arithmetics.\n\n## Why it took this shape\nThe origin of the name nihachi is said to have been debated since the Edo period. One account ties it to a price theory: soba once cost sixteen mon a bowl in the late Edo period, and two-times-eight makes sixteen in the multiplication tables children learned. Another holds it simply names the blend ratio. The timing is against the price theory, though — in the Kyoho era, soba is said to have cost only seven or eight mon — and the ratio theory is said to have only taken hold once soba's price passed sixteen mon, in the Keio era.",
+   "sources": [
+    {
+     "title": "二八そば | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/number/02/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    },
+    {
+     "title": "外一、外二、内二、二八そば(二八蕎麦)、蕎麦と小麦粉の割合を解説",
+     "url": "https://nihon-soba.jp/hozonkai/2020/09/18/10199/",
+     "publisher": "日本蕎麦保存会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "東京都",
+     "city": "千代田区神田",
+     "lat": 35.6969,
+     "lng": 139.7695,
+     "relation_type": "本場",
+     "note_ja": "江戸前そばの御三家の一つ「藪」の総本家が明治13年の創業以来のれんを掲げる土地で、そば粉八割・小麦粉二割の二八を伝統としてきたとされるため。",
+     "note_en": "The neighborhood is home to the founding shop of the Yabu lineage, one of Edo's three great soba houses, open since 1880 and said to have kept an 8:2 ratio as tradition.",
+     "source_url": "https://visit-chiyoda.tokyo/app/spot/detail/382"
+    },
+    {
+     "pref": "東京都",
+     "city": "港区虎ノ門",
+     "lat": 35.6698,
+     "lng": 139.7495,
+     "relation_type": "本場",
+     "note_ja": "江戸前そばの御三家の一つ「砂場」の暖簾を明治5年の創業以来伝える土地で、同じ江戸流の二八そばの系譜に連なる老舗があるため。",
+     "note_en": "The area holds a shop carrying the Sunaba lineage's name since its 1872 founding, part of the same Edo-style soba tradition as nihachi.",
+     "source_url": "https://www.toranomon-sunaba.com/history/"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "hikigurumi",
+     "relation_type": "対比",
+     "basis": "小麦粉をつなぎに使い喉ごしを整えた二八に対し、挽きぐるみはそばの実を殻ごと挽いた粗い粉をそのまま使う対極的な考え方であるため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "sotoni",
+   "name_ja": "外二",
+   "name_romaji": "Sotoni",
+   "name_en": "Sotoni — a way of counting the nihachi ratio by adding wheat flour on top of a full measure of buckwheat",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "二八そばの配合の数え方の一つ。そば粉十に対して小麦粉二を外側から足す考え方で、そば粉八・小麦粉二を最初から合わせる「内二」と区別される。同じ二八でも、打ち場での計算のしやすさが選び分けの理由とされる。",
+   "summary_en": "One of two ways of counting the nihachi ratio: sotoni adds two parts wheat flour on top of a full ten parts buckwheat flour, as distinct from uchini, which starts from eight parts buckwheat and two parts wheat. Both are called nihachi, and which one a shop uses is said to come down to which arithmetic is easier at the workbench.",
+   "body_ja": "## 何でできているか\n中身はそば粉と小麦粉で、見た目や味は内二の二八そばと大きく変わらないとされる。違うのは数え方で、そば粉十割をまず基準に置き、そこへ小麦粉二割を外から足すという考え方をとる。仕上がりの生地はやはり小麦粉のグルテンで多少つながりやすくなるといい、口当たりも標準的な二八そばに近いと語られる。呼び名だけを聞くと別の配合を思い浮かべがちだが、そば粉と小麦粉の比率そのものは変わらないという。\n\n## どう作るのか\n打ち場では、そば粉の量をまず十として量り、そこに小麦粉を二割分だけ追加する形で計量する。そば粉八・小麦粉二を最初から合わせて量る「内二」に比べ、そば粉の量を基準にしたまま小麦粉を足し引きしやすいため、状況に応じて配合を微調整する場面で計算がやりやすいとされる。天候や粉の乾き具合が変わっても、基準となるそば粉の量さえ動かさなければ済むという実務上の利点があるといわれる。\n\n## なぜこの形になったのか\n江戸時代から「二八」の意味をめぐる考証が続いてきたなかで、同じ二割の小麦粉でも、どこを基準に量るかで内二・外二という二つの流儀が生まれたとされる。そば粉の質や乾燥具合は季節や産地で変わるため、まずそば粉の分量を固定し、そこへ小麦粉を足すという外二の考え方は、打ち手が現場で配合を調整しやすい実務的な理由から広まったといわれる。",
+   "body_en": "## What it's made of\nThe ingredients are the same buckwheat and wheat flour as uchini nihachi, and the look and taste are said to differ little. What sets it apart is the arithmetic: buckwheat flour is measured out first as a full ten parts, and two parts of wheat flour are then added on top of that base. The dough still binds a little more easily thanks to the wheat's gluten.\n\n## How it's made\nAt the workbench, the buckwheat flour is weighed out first as the full measure, then two parts of wheat flour are added on top of it. Compared with uchini, which weighs eight parts buckwheat and two parts wheat together as a single fixed measure from the start, sotoni is said to make it easier to nudge the wheat-flour amount up or down while keeping the buckwheat measure untouched, handy when adjusting the blend on the fly.\n\n## Why it took this shape\nDebate over what nihachi actually means has run since the Edo period, and even with the same one-fifth of wheat flour, two customs — uchini and sotoni — are said to have grown out of disagreement over which ingredient to measure first. Because buckwheat flour's quality and dryness shift with season and source, fixing its amount first and adding wheat flour on top is said to have spread for the practical reason that it lets a maker adjust the blend by hand, right at the workbench.",
+   "sources": [
+    {
+     "title": "外一、外二、内二、二八そば(二八蕎麦)、蕎麦と小麦粉の割合を解説",
+     "url": "https://nihon-soba.jp/hozonkai/2020/09/18/10199/",
+     "publisher": "日本蕎麦保存会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "nihachi-soba",
+     "relation_type": "兄弟",
+     "basis": "同じそば粉八割・小麦粉二割という配合を、どちらを基準に量るかという数え方だけが違う内二・外二の間柄であるため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "sarashina-soba",
+   "name_ja": "更科そば",
+   "name_romaji": "Sarashina Soba",
+   "name_en": "Sarashina soba — pale, refined noodles milled from the buckwheat grain's innermost starch",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "そばの実の中心部だけを挽いた白い「更科粉（一番粉）」で打つそば。甘皮や殻を含まないため色が薄く、そばともそうめんとも違う独特の舌触りになるとされる。江戸中期の文献に初めて登場した高級な粉だという。",
+   "summary_en": "Soba made from sarashina flour, milled only from the pale starch at the center of the buckwheat grain, with none of the darker husk or bran mixed in. The result is noodles pale enough to look almost white, with a texture said to sit somewhere between ordinary soba and somen. The flour is said to have first appeared in mid-Edo-era writing as a luxury product.",
+   "body_ja": "## 何でできているか\n材料は一番粉とも呼ばれる更科粉で、そばの実を挽いたときに最初に出てくる、殻や甘皮を含まない中心部のでんぷん質だけを使うとされる。色は白く、香りも味も黒っぽいそばに比べて穏やかで、代わりに舌に残るなめらかさが際立つという。噛んだときの手応えはそうめんにもそばにも似ておらず、独特の舌触りだと語られる。変わりそばの色を鮮やかに映す下地としても選ばれてきたとされる。\n\n## どう作るのか\nそばの実を段階的に挽き分け、最初に出てくる純度の高い中心部の粉だけをより分けて使う。殻ごと挽く挽きぐるみとは正反対の工程で、白い粉を得るには高度な製粉技術が要るとされる。文化年間の随筆にも、この白いそば粉の珍しさが書き残されているという。粉の白さそのものが、当時としては贅沢な品質の証でもあったと伝わる。\n\n## なぜこの形になったのか\n「更科」という名は、寛政元年（1789年）に信州出身の初代が江戸麻布永坂町に「信州更科蕎麦所 布屋太兵衛」の看板を掲げたことに始まるとされる。白いそばはそれ以前から「雪巻蕎麦」などと呼ばれ存在していたが、いつから「更科」の名で色の白さを表すようになったのかは判然としないという。信州そばの集散地だった地名「更級」に、領主保科家から許されたという「科」の字を当てたとも伝わる。",
+   "body_en": "## What it's made of\nThe flour is sarashina-ko, also called ichiban-ko, or \"first flour\" — only the pale starch at the very center of the milled buckwheat grain, with none of the husk or bran folded in. Where a darker soba carries a stronger aroma and taste, sarashina soba is said to trade those for a smoothness that lingers on the tongue instead. The bite is said to feel like neither ordinary soba nor somen, but something of its own.\n\n## How it's made\nThe grain is milled in stages, and only the purest flour that emerges first — from the very center — is set aside for use. It is the opposite process from hikigurumi, which mills the whole grain including its husk, and producing a flour this white is said to demand considerable skill. An essayist writing in the Bunka era is said to have already remarked on how rare such pale soba flour was.\n\n## Why it took this shape\nThe name sarashina is said to trace to 1789, when a man from Shinshu hung a sign reading \"Shinshu Sarashina Soba Shop, Nunoya Tahei\" in Azabu Nagasaka-cho, Edo. Pale soba is said to have existed even earlier, known by names like yukimaki-soba, and it is unclear just when the name sarashina came to stand for that whiteness. One account holds the name combines Sarashina, a district known as a hub for Shinshu buckwheat, with the character \"-shina,\" granted by the local Hoshina clan.",
+   "sources": [
+    {
+     "title": "さらしなそば | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/zatsugaku/18/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    },
+    {
+     "title": "更科堀井について",
+     "url": "https://www.sarashina-horii.com/about/",
+     "publisher": "総本家 更科堀井",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "hikigurumi",
+     "relation_type": "対比",
+     "basis": "そばの実の中心部だけを挽く更科と、殻ごとまるごと挽く挽きぐるみは、同じそば粉でも挽き方の対極に位置するため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "inaka-soba",
+   "name_ja": "田舎そば",
+   "name_romaji": "Inaka Soba",
+   "name_en": "Inaka soba — thick, dark buckwheat noodles carrying a strong, rustic flavor",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "更科そばの対極に位置づけられる、太めで黒っぽくそばらしい味わいの濃いそば。「山家そば」とも呼ばれ、江戸風のそばに対する地方・農山村のそばという意味合いを持つとされる。幕末の江戸にも同名の店があったという。",
+   "summary_en": "Placed at the opposite end of the spectrum from sarashina soba, inaka soba is thick, dark, and carries a strong buckwheat flavor. Also called yamaga-soba, the name is said to have marked it as rural or mountain-village soba, set against the more refined Edo style. A shop by the same name is said to have existed in Edo itself in the closing years of the shogunate.",
+   "body_ja": "## 何でできているか\nそばの実を粗めに挽いた黒っぽい粉を使い、更科そばの対極に位置づけられるとされる。色は濃く、麺は太め。噛むとそばの実そのものの土くさい香りと苦みが立ち、更科の上品な白さとは対照的な、そばらしい味の濃さが持ち味だという。並そばはこの両者のちょうど中間に位置するとされ、田舎そばはその濃い側の端に立つ型だといえる。\n\n## どう作るのか\n殻に近い部分まで含めて挽いた粗めの粉を使い、太めに切って仕上げる。上品な白さを狙う更科と違い、そばの実の風味をそのまま前面に出す挽き方・打ち方が選ばれるとされる。同じ考え方の粗挽きそばは「馬方そば」とも呼ばれ、江戸末期の四谷の店の挽きぐるみそばが語源になったとも伝わる。見た目の黒さがそのまま風味の濃さを示す目印になっているという。\n\n## なぜこの形になったのか\n「田舎そば」という言葉がいつごろから使われ始めたのかは判然としないとされるが、幕末の江戸には「回向院田舎そば」という店が実在したことが、当時の日記に記されているという。江戸風の洗練されたそばに対して、地方や農山村で食べられてきた素朴なそばという意味合いで、都市と地方という土地の対比そのものが名前に写し取られたと語られる。",
+   "body_en": "## What it's made of\nInaka soba is milled from a coarser, darker flour and is said to sit at the opposite end of the spectrum from sarashina soba. The color runs dark and the noodle thick. The bite carries buckwheat's own earthy aroma and bitterness upfront, a strong, rustic flavor set against sarashina's refined pallor. Ordinary soba is said to fall somewhere between the two.\n\n## How it's made\nThe grain is milled coarsely, closer to the husk, and cut thick. Where sarashina aims for a pale refinement, inaka's milling and cutting are chosen instead to push buckwheat's own flavor to the front. A noodle of the same coarse-milled idea is also called umakata-soba, a name said to trace to a whole-grain soba served at a shop in Yotsuya toward the end of the Edo period.\n\n## Why it took this shape\nJust when the term inaka-soba came into use is said to be unclear, but a shop called \"Ekoin Inaka-soba\" is recorded as having existed in Edo near the end of the shogunate, noted in a diary from the period. Set against the more refined Edo style, the name is said to have marked a plainer soba eaten in the countryside and mountain villages — the contrast between city and country written straight into the noodle's name.",
+   "sources": [
+    {
+     "title": "田舎そば | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/zatsugaku/41/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "sarashina-soba",
+     "relation_type": "対比",
+     "basis": "出典で「さらしなそばの対極に位置づけられる」と明言される、粗挽きの黒いそばと精白した更科粉の対比"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "hikigurumi",
+   "name_ja": "挽きぐるみ",
+   "name_romaji": "Hikigurumi",
+   "name_en": "Hikigurumi — soba flour milled from the whole grain, husk and all",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "そばの実を、一番粉・二番粉といった段階に取り分けずまるごと挽く製法、またはその粉で打ったそば。殻に近い部分まで挽き込むため色が濃く、香りが強く出るとされる。更科粉とは対極の考え方の粉になるという。",
+   "summary_en": "Soba flour milled from the whole buckwheat grain — husk and all — without separating it into first-flour, second-flour, and so on by stage. Because it grinds in flour close to the husk, the color runs dark and the aroma comes through strong, sitting at the opposite end of the spectrum from sarashina flour.",
+   "body_ja": "## 何でできているか\nそばの実を丸ごと挽いた粉で、殻に近い部分の色素や香り成分もそのまま粉に混ざり込むとされる。色は黒っぽく、香りは強い。一番粉だけを取り分ける挽き方に比べ、そばの実がもともと持っている風味をあますところなく粉にできるとされ、粉の歩留まりもよくなるという。段階を踏んで取り分ける手間を省ける分、実を無駄にしない挽き方でもあるといわれる。\n\n## どう作るのか\n製粉の際、一番粉・二番粉・三番粉と段階を追って粉を取り分ける工程を踏まず、実をそのまま挽き込む。分けて挽くよりも工程は単純だが、殻由来の色と香りが強く出るぶん、つなぎとの相性や水回しの加減を粉の状態に合わせて見極める必要があるとされる。挽いた粉の粒度がそろいにくいことも、打ち手が腕の見せどころとする理由の一つだという。\n\n## なぜこの形になったのか\n段階ごとに粉を取り分けて白い一番粉だけをより分ける製粉は手間と技術を要するとされ、実をまるごと挽く挽きぐるみは、より簡便でそばの実を無駄にしない挽き方として各地に根づいたと語られる。出雲そばのように、実を殻ごと挽く挽きぐるみが土地の看板そのものになった例もあり、粉の挽き方という製法が、そのまま地域の顔になったとされる。",
+   "body_en": "## What it's made of\nThe flour is milled from the whole buckwheat grain, and the pigment and aroma compounds near the husk are said to grind in along with it. The color runs dark, the aroma strong. Compared with milling that sets aside only the palest first flour, hikigurumi is said to capture the grain's full flavor without waste, and to yield more flour per grain besides.\n\n## How it's made\nThe grain goes straight into the mill without being separated in stages into first, second, and third flour. The process is simpler than staged milling, but because the husk's color and aroma come through strongly, the maker is said to need to judge how much water to work in and how well a binder will take, based on the flour's particular condition that day.\n\n## Why it took this shape\nMilling in stages to set aside only the palest first flour is said to demand time and skill, and hikigurumi — milling the whole grain at once — is said to have taken root in various places as a simpler method that wastes none of the grain. Izumo soba is one example where this whole-grain milling became the region's own signature, the milling method itself turning into the face of a place.",
+   "sources": [
+    {
+     "title": "一番粉 | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/number/04/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "izumo",
+     "relation_type": "対比",
+     "basis": "挽きぐるみは土地を問わない製法概念だが、出雲そばはこの製法そのものを土地の看板とした代表例であるため、製法の一般型と地域での結実という対比で結ぶ"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "yabu-kei",
+   "name_ja": "藪系",
+   "name_romaji": "Yabu-kei",
+   "name_en": "The Yabu lineage — one of Edo's three great soba schools, known for a sharp, aromatic bite",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "江戸から続くそば屋の系統の一つ。幕末に東京・根津の団子坂にあった「蔦屋」が周りを竹やぶに囲まれていたことから「藪そば」と通称され、それが屋号として定着したとされる。二八の配合を基本とするという。",
+   "summary_en": "One of the three great soba lineages of Edo. In the closing years of the shogunate, a shop called Tsutaya, near Nezu's Dango-zaka slope, was surrounded by a bamboo thicket — yabu — and came to be known by that nickname, which is said to have settled into its shop name. The lineage is said to work from a base nihachi ratio.",
+   "body_ja": "## 何でできているか\n藪の系統のそばは、そば粉八割前後・小麦粉一、二割という二八に近い配合で打たれ、二番粉や三番粉を混ぜることで香りを鮮烈に立たせるとされる。つゆも辛口で、そばの香りに負けない濃さを持つといわれる。緑がかった麺の色も特徴とされ、他の系統との違いが見た目にも分かりやすいという。この色と香りの強さこそが、藪を名乗る店に共通する最大の目印だとされる。\n\n## どう作るのか\n香りの強い粉を選んで配合し、つゆは辛口に仕立てて麺の風味とぶつけるように合わせるとされる。暖簾分けという形で弟子や親戚筋に技術と屋号が受け継がれ、各地の「藪」を名乗る店に製法と味の系統が広がっていったという。屋号は同じでも、店ごとに配合やつゆの辛さに微妙な差が出ることも珍しくないと語られる。それぞれの店が独自の工夫を積み重ねてきた結果ともいえる。\n\n## なぜこの形になったのか\n屋号の由来は、幕末に根津の団子坂にあった蔦屋という店の周りが竹やぶに囲まれていたことだとされる。もとは通称だった「藪そば」がそのまま店名として定着し、その後、暖簾分けを重ねて江戸・東京各地に広がったと伝わる。神田の「かんだやぶそば」は明治13年創業で、藪の総本家とされ、百年以上変わらぬ味と技を伝えていると語られる。",
+   "body_en": "## What it's made of\nSoba in the Yabu lineage is said to be mixed at roughly the nihachi ratio, around eight parts buckwheat to one or two parts wheat flour, blending in second- and third-milled flour to bring out a sharp, pronounced aroma. Its dipping sauce is said to run strong and salty, matched to stand up against the noodle's own scent, and the noodles themselves are said to carry a faint greenish tint.\n\n## How it's made\nFlour chosen for its strong aroma is blended in, and the sauce is built strong and salty on purpose, made to meet the noodle's flavor head-on rather than sit behind it. Technique and shop name passed down through a practice called noren-wake — handing the name to disciples and relatives who opened their own branches — spreading the lineage's method and taste to shops carrying the Yabu name across the city.\n\n## Why it took this shape\nThe name is said to trace to a shop called Tsutaya near Nezu's Dango-zaka slope in the closing years of the shogunate, surrounded by a bamboo thicket, or yabu. What began as a nickname is said to have settled into the shop's actual name, later spreading across Edo and Tokyo through repeated noren-wake branching. Kanda's own \"Kanda Yabusoba,\" open since 1880, is regarded as the head house of the lineage.",
+   "sources": [
+    {
+     "title": "かんだやぶそば（スポット紹介）",
+     "url": "https://visit-chiyoda.tokyo/app/spot/detail/382",
+     "publisher": "千代田区観光協会公式サイト Visit Chiyoda",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "sunaba-kei",
+     "relation_type": "対比",
+     "basis": "同じ幕末から明治にかけて江戸で並び立った系統でありながら、藪は辛口のつゆと強い香りを、砂場は細く長い喉ごしを持ち味とする対比の関係にあるため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "sunaba-kei",
+   "name_ja": "砂場系",
+   "name_romaji": "Sunaba-kei",
+   "name_en": "The Sunaba lineage — an Edo soba school whose roots are said to trace back to Osaka",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "江戸から続くそば屋の系統の一つ。名の由来は天正11年（1583年）、大坂城築城の資材置き場「砂場」にあったそば屋にさかのぼるとされる。徳川の世になって江戸へ移り、細く長くつながる喉ごしを持ち味とする系統として広まったという。",
+   "summary_en": "One of Edo's three great soba lineages. Its name is said to trace back to 1583, to a soba shop standing at a construction-supply yard called Sunaba during the building of Osaka Castle. The lineage is said to have moved to Edo once the Tokugawa took power, becoming known for a thin, long, smoothly sliding noodle.",
+   "body_ja": "## 何でできているか\n砂場の系統のそばも二八に近い配合とされ、細く長くつながる喉ごしのよさが持ち味とされる。店によっては、ざるを卵水でこねた粉、もりを水だけでこねた粉というように、提供するそばの種類で粉の仕立てを使い分けるところもあるという。麺線の細さが、香りの強い藪との違いとしてよく語られ、見た目にも別系統だと分かるという。\n\n## どう作るのか\n細く均一な麺線に仕上がるよう、生地の水回しと延ばしにとくに気を配るとされる。江戸に移った当初から続く暖簾分けの仕組みによって、砂場の名を掲げる店が各地に増え、技術とつゆの仕立てが受け継がれてきたという。同じ砂場を名乗る店でも、卵水を使うかどうかなど細部の仕立ては店によって異なるといわれ、それぞれが独自色を保っている。\n\n## なぜこの形になったのか\n名の由来は、豊臣秀吉が大坂城を築いた天正11年（1583年）ごろ、資材置き場だった「砂場」の周辺にそば屋があったことにさかのぼるとされる。徳川の世になり江戸へ移った系統は、明治5年創業の虎ノ門大坂屋砂場など、江戸で最も長い暖簾の一つとして続いてきたと伝わる。大坂生まれの系統が江戸で育ったという成り立ちそのものが、名の由来として語り継がれている。",
+   "body_en": "## What it's made of\nSoba in the Sunaba lineage is also said to run close to the nihachi ratio, prized for a thin, long noodle that slides smoothly down the throat. Some shops are said to vary how the dough is worked depending on the dish — kneading the flour for zaru with egg water, for instance, and the flour for mori with plain water alone.\n\n## How it's made\nParticular care is said to go into working the water in and rolling the dough out, aimed at a thin, even noodle strand throughout. Through a system of noren-wake branching that has continued since the lineage moved to Edo, shops carrying the Sunaba name spread across the city, passing down both technique and how the dipping sauce is built.\n\n## Why it took this shape\nThe name is said to trace back to around 1583, when Toyotomi Hideyoshi was building Osaka Castle, to a soba shop standing near a construction-supply yard called Sunaba. Once the Tokugawa took power, the lineage is said to have moved to Edo, continuing there as one of the city's longest-running names — including Toranomon Osakaya Sunaba, open since 1872. The story of a lineage born in Osaka and raised in Edo is passed down as the very reason behind its name.",
+   "sources": [
+    {
+     "title": "砂場の歴史",
+     "url": "https://www.toranomon-sunaba.com/history/",
+     "publisher": "虎ノ門 大坂屋 砂場",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "sarashina-kei",
+     "relation_type": "対比",
+     "basis": "同じ江戸三大そばに数えられながら、砂場は喉ごしのよさ、更科は粉の白さと繊細な香りをそれぞれ持ち味とする対比の関係にあるため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "sarashina-kei",
+   "name_ja": "更科系",
+   "name_romaji": "Sarashina-kei",
+   "name_en": "The Sarashina lineage — the Edo soba school built on pale, refined sarashina flour",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "江戸から続くそば屋の系統の一つ。寛政元年（1789年）、信州出身の初代が江戸麻布永坂町に「信州更科蕎麦所 布屋太兵衛」の看板を掲げたのが始まりとされる。白いさらしなそばと、彩り豊かな変わりそばを看板商品としてきたという。",
+   "summary_en": "One of Edo's three great soba lineages. It is said to trace back to 1789, when a man from Shinshu hung a sign reading \"Shinshu Sarashina Soba Shop, Nunoya Tahei\" in Azabu Nagasaka-cho, Edo. The lineage is said to have built its name on pale sarashina soba alongside colorful kawari-soba.",
+   "body_ja": "## 何でできているか\n更科系の看板は、そばの実の中心部だけを挽いた白い更科粉で打つ白いそばと、そこへ茶や柚子などを練り込んだ彩り豊かな変わりそばの二本柱とされる。白い生地は色が入りやすく、変わりそばの下地として好都合だったという。藪の香り、砂場の喉ごしに対して、更科は色の白さで独自の立ち位置を築いたと語られ、見た目の対比だけでも三系統の違いが伝わるという。\n\n## どう作るのか\nそばの実を段階的に挽き分け、もっとも純度の高い中心部の粉だけを取り分けて使う。系統としての技術は、江戸麻布の店から暖簾分けを重ねて広がり、白い粉を安定して挽き出す製粉の技術と、そこに色や香りを添える変わりそばの意匠が受け継がれてきたとされる。白さを保つための粉の管理には、とくに神経を使うといわれる。\n\n## なぜこの形になったのか\n「更科」の名は、信州出身の初代が領主保科家から「科」の字を許され、信州そばの集散地だった「更級」の音と組み合わせたことに由来すると伝わる。寛政元年に麻布永坂町で開業した店は明治期に皇后や宮家へも出前を届けるほどの評判を得て、各地に暖簾分けの「更科」が広がる礎になったとされる。廃業と再興を経て、今も麻布十番にその名を掲げる店が続いているという。",
+   "body_en": "## What it's made of\nThe Sarashina lineage's signature rests on two pillars: pale soba made from sarashina flour, milled only from the buckwheat grain's very center, and colorful kawari-soba, made by kneading in tea, yuzu, and the like. The pale dough is said to have taken color especially well, making it a convenient base for those flavored variations.\n\n## How it's made\nThe grain is milled in stages, and only the purest flour from its very center is set aside for use. The lineage's technique is said to have spread from its Azabu shop in Edo through repeated noren-wake branching, carrying forward both the milling skill needed to draw out pale flour reliably and the craft of coloring and flavoring it into kawari-soba.\n\n## Why it took this shape\nThe name Sarashina is said to trace to the lineage's founder, a man from Shinshu granted the character \"-shina\" by the local Hoshina clan, which he combined with the sound of Sarashina, a district known as a hub for Shinshu buckwheat. The shop that opened in Azabu Nagasaka-cho in 1789 is said to have grown famous enough by the Meiji era to deliver to the empress and imperial households, laying the groundwork for Sarashina-branded shops to spread through noren-wake elsewhere.",
+   "sources": [
+    {
+     "title": "更科堀井について",
+     "url": "https://www.sarashina-horii.com/about/",
+     "publisher": "総本家 更科堀井",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "sarashina-soba",
+     "relation_type": "派生",
+     "basis": "更科系の店の系譜が、そばの実の中心部だけを挽いた白い更科粉を使う更科そばという製法・製品そのものを生み出し広めたとされるため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "kawari-soba",
+   "name_ja": "変わりそば",
+   "name_romaji": "Kawari Soba",
+   "name_en": "Kawari-soba — soba dough flavored or colored with a second ingredient kneaded in",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "そば粉の生地に茶や卵、山菜など別の材料を練り込んで香りや色を添えたそば。色が鮮やかなものはとくに「色物」と呼んで区別するという。江戸時代の玉子蕎麦切りが最も古い例とされ、文化文政期に遊び心のあるそばとして広まった。",
+   "summary_en": "Soba whose dough has a second ingredient — tea, egg, wild greens, and the like — kneaded in for color or aroma. Noodles with especially vivid color are singled out and called irimono. The oldest known example is said to be tamago-sobakiri, an egg noodle from the Edo period, and the practice is said to have flourished as a playful variation during the Bunka-Bunsei era.",
+   "body_ja": "## 何でできているか\n基本のそば生地に、茶や卵、山菜の絞り汁といった別の材料を練り込んだそばとされる。練り込む材料によって色も香りも変わり、見た目にも楽しめるものはとくに「色物」と呼ばれ区別されるという。必ずしも美味しさそのものを目的にしたものばかりではないとも語られ、そば本来の味わいとは別の軸で楽しむ、趣味性の強い食べ方として位置づけられてきたという。\n\n## どう作るのか\nそば粉の生地を作る段階で、色や香りのもとになる材料をすりつぶすなどして練り込む。白く精製された更科粉の生地は色が入りやすいため、変わりそばの下地として選ばれることが多かったとされる。彩りを均一に出すための配合の加減が、打ち手の工夫のしどころだったといい、季節や行事に合わせて材料を変える店もあるという。\n\n## なぜこの形になったのか\n江戸時代の記録に残る最も古い変わりそばは「玉子蕎麦切」とされる。料理文化が爛熟した文化文政期（1804〜30年）には、柚子切りや茶そば、よもぎ切りなど、さまざまな変わりそばが考案されたとされ、この頃には実用よりも「遊びのそば」として楽しまれていたことがうかがえるという。白い更科粉の普及が、こうした色物の広がりを技術面で後押ししたとも語られる。",
+   "body_en": "## What it's made of\nKawari-soba starts from ordinary soba dough with a second ingredient kneaded in — tea, egg, or the pressed juice of wild greens, among others. The color and aroma shift with whatever is added, and noodles striking enough to look at are singled out and called irimono. Not every variation is said to have been made purely for taste.\n\n## How it's made\nWhatever lends the color or aroma — ground or pressed — is worked into the dough while it is being made. The pale, refined dough of sarashina flour is said to have taken color especially well, which is why it was often chosen as the base for kawari-soba. Getting that color to come through evenly is said to have been where a maker's skill showed.\n\n## Why it took this shape\nThe oldest kawari-soba on record from the Edo period is said to be tamago-sobakiri, an egg noodle. During the Bunka-Bunsei era (1804–30), when food culture reached a kind of maturity, varieties such as yuzu-flavored, green tea, and mugwort noodles are said to have been devised one after another — evidence, it is said, that by this point kawari-soba was enjoyed less for practical reasons than simply for play.",
+   "sources": [
+    {
+     "title": "変わりそば | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/zatsugaku/33/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "sarashina-soba",
+     "relation_type": "派生",
+     "basis": "色が入りやすい白い更科粉の生地を下地として、そこに色や香りを練り込む形で変わりそばが広まったとされるため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "cha-soba",
+   "name_ja": "茶そば",
+   "name_romaji": "Cha Soba",
+   "name_en": "Cha-soba — soba noodles kneaded with powdered green tea",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "そば粉の生地に抹茶や粉末の緑茶を練り込んだ変わりそば。うっすらとした緑色と茶葉の香りが加わる。文化文政期（1804〜30年）に柚子切りなどと並んで考案された、遊び心のあるそばの一つとされる。",
+   "summary_en": "A kawari-soba made by kneading powdered green tea, often matcha, into the buckwheat dough. It takes on a faint green tint along with tea's own aroma. It is said to be one of the playful noodle variations devised during the Bunka-Bunsei era (1804–30), alongside yuzu-flavored soba.",
+   "body_ja": "## 何でできているか\nそば粉の生地に抹茶や粉茶を練り込んだそばで、色はうっすらとした緑、香りは茶葉のものがそばの香りに重なるとされる。白い更科粉を下地にすると茶の緑がとくに映えるといわれ、見た目の涼しさも好まれる理由の一つとされる。夏場に冷たいもりで出す店が多いのも、この涼しげな色合いによるところが大きいといい、見た目の印象がそのまま季節感につながっているとされる。\n\n## どう作るのか\nそば粉の生地を作る段階で、抹茶や粉末の緑茶を水や粉と一緒に練り込む。色ムラが出やすいため、均一に色が入るよう粉と茶をよく混ぜ合わせる加減が求められるとされる。白い更科粉の生地を使う店が多いのも、発色のよさを狙ってのことだという。茶の量を誤ると苦みが強く出すぎるため、風味とのバランスも打ち手の判断に委ねられる。\n\n## なぜこの形になったのか\n茶そばは、江戸の料理文化が爛熟した文化文政期に、柚子切りやよもぎ切りと並んで考案された変わりそばの一つとされる。彩りが鮮やかな「色物」として、遊び心のあるそばの代表格に数えられてきたといい、実用よりも目と鼻で楽しむ側面が強かったと語られる。緑茶という身近な材料を使う手軽さも、広まった理由の一つと考えられる。",
+   "body_en": "## What it's made of\nThe dough is kneaded with matcha or powdered green tea, taking on a faint green color while the tea's own aroma layers over buckwheat's. Using pale sarashina flour as the base is said to make the green show up especially well, and that visual coolness is one reason the noodle is favored.\n\n## How it's made\nMatcha or powdered green tea is worked into the dough alongside the water and flour while it is being made. Because the color is prone to streaking, getting it to come through evenly is said to take care in how thoroughly the tea and flour are blended. Many shops use pale sarashina flour as their base for the same reason — it lets the color show up cleanly.\n\n## Why it took this shape\nCha-soba is said to be one of the kawari-soba variations devised during the Bunka-Bunsei era, when Edo's food culture reached a kind of maturity, alongside yuzu-flavored and mugwort noodles. Counted among the vividly colored irimono, it is said to rank as one of the more playful noodle variations — enjoyed, it is said, as much by eye and nose as by taste.",
+   "sources": [
+    {
+     "title": "変わりそば | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/zatsugaku/33/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kawari-soba",
+     "relation_type": "派生",
+     "basis": "出典が変わりそばの実例として柚子切りと並べて名指しする、文化文政期に考案された色物の一つであるため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "yuzukiri",
+   "name_ja": "柚子切り",
+   "name_romaji": "Yuzukiri",
+   "name_en": "Yuzukiri — soba noodles kneaded with grated yuzu peel for a citrus aroma",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "そば粉の生地に柚子の皮をすりおろして練り込んだ変わりそば。柚子の香りがそばの香りに重なるのが持ち味とされる。文化文政期（1804〜30年）に茶そばなどと並んで考案された、遊び心のあるそばの一つという。",
+   "summary_en": "A kawari-soba made by grating yuzu citrus peel into the buckwheat dough. The fruit's aroma is said to layer over buckwheat's own scent as the noodle's main appeal. It is said to be one of the playful variations devised during the Bunka-Bunsei era (1804–30), alongside cha-soba.",
+   "body_ja": "## 何でできているか\nそば粉の生地に柚子の皮をすりおろして練り込んだそばとされる。かじると柑橘特有の香りがふわりと立ち、そば本来の香りと重なり合うのが持ち味だという。冬場の柚子の出回る時期に合わせて出す店が多いとされ、季節限定の品書きとして扱われることも多いという。もりで供されることが多く、冷たい麺のほうが香りが引き立つとも語られる。\n\n## どう作るのか\n柚子の皮の表面だけを薄くすりおろし、白い部分の苦みを避けて香りの強い黄色い皮だけを生地に練り込むとされる。皮を入れすぎると苦みが立つため、香りと苦みのぎりぎりを見極める加減が求められるという。茶そばのように色で見せるのではなく、鼻に抜ける香りで楽しませる工夫だといえ、皮をおろすタイミングも香りを左右するとされる。\n\n## なぜこの形になったのか\n柚子切りは、江戸の料理文化が爛熟した文化文政期に、茶そばやよもぎ切りと並んで考案された変わりそばの一つとされる。季節の柑橘を練り込むという工夫は、冬に旬を迎える柚子の香りを楽しむ遊び心から生まれたと語られ、彩りよりも香りを主眼に置いた色物とされる。旬の素材を取り入れる姿勢は、変わりそば全体に共通する発想だという。",
+   "body_en": "## What it's made of\nThe dough is made by grating yuzu citrus peel into the buckwheat, so that biting into the noodle releases a burst of citrus aroma layered over buckwheat's own scent. Many shops are said to serve it in winter, when yuzu itself is in season.\n\n## How it's made\nOnly the thin, outer, aromatic yellow layer of the yuzu peel is grated in, avoiding the bitter white pith beneath, and worked into the dough. Adding too much peel is said to bring out bitterness, so judging exactly how much to add — enough for aroma, not bitterness — is said to take a careful hand.\n\n## Why it took this shape\nYuzukiri is said to be one of the kawari-soba variations devised during the Bunka-Bunsei era, when Edo's food culture reached a kind of maturity, alongside cha-soba and mugwort noodles. Kneading in a seasonal citrus is said to have grown out of a playful wish to enjoy yuzu's aroma, in season through winter — an irimono built around scent more than color.",
+   "sources": [
+    {
+     "title": "変わりそば | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/zatsugaku/33/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kawari-soba",
+     "relation_type": "派生",
+     "basis": "出典が変わりそばの実例として茶そばと並べて名指しする、文化文政期に考案された色物の一つであるため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "mori-zaru-soba",
+   "name_ja": "もりそばとざるそば",
+   "name_romaji": "Mori Soba and Zaru Soba",
+   "name_en": "Mori soba and zaru soba — cold soba dipped in sauce, plain or crowned with nori",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "茹でて冷水で締めたそばをつゆにつけて食べる、冷たいそばの基本形。「もり」はつゆをかけずつける食べ方を区別する呼び名として広まり、「ざる」はそれより古く、竹ざるに盛ったことに由来するとされる。今は海苔の有無が主な違いという。",
+   "summary_en": "The basic cold soba: noodles boiled and rinsed in cold water, then dipped in sauce. \"Mori\" is said to have spread as a name distinguishing the dip-and-eat style from pouring sauce directly over the noodles, while \"zaru,\" older still, is said to trace to noodles served on a bamboo strainer. Today the main difference is said to come down to whether nori is sprinkled on top.",
+   "body_ja": "## 何でできているか\n茹でたそばを冷水でしめ、つゆにつけて食べる冷たいそばとされる。「もり」と「ざる」で中身が大きく違うわけではなく、器と海苔の有無が主な違いだという。もともと「ざる」に海苔をかけるようになったのは明治以後とされ、当時は専用の「ざる汁」を使っていたとも伝わる。冷水で締める工程そのものが、かけそばとの最大の違いになっている。\n\n## どう作るのか\n茹で上がったそばを冷水でよく締め、水気を切って器に盛る。もりは通常のつゆに、ざるは今も別立てのつゆを用意する店があるとされるが、現在は海苔をかけるかどうかだけを違いとする店が多いという。器も、もりは深い器、ざるは竹や木のざるを使うことが多いとされ、見た目の違いがそのまま呼び名の違いになっているといえ、注文する側も器を見ればどちらかすぐに分かるという。\n\n## なぜこの形になったのか\n江戸の元禄期、つゆを直接かける「ぶっかけ」が流行すると、それと区別するために、つゆにつけて食べる従来の食べ方を「もり」と呼ぶようになったとされる。一方「ざる」はもりより古く、元禄期の深川洲崎にあった「伊勢屋」が竹ざるに盛って評判を呼んだのが元祖とされ、享保20年（1735年）には江戸の名物そばとして紹介されていたという。",
+   "body_en": "## What it's made of\nIt is cold soba: noodles boiled, then rinsed firm in cold water and dipped in sauce. Mori and zaru are said not to differ much in substance — the main difference lies in the serving vessel and whether nori is sprinkled on top. Nori is said to have only started appearing on zaru soba from the Meiji era onward, when shops are said to have used a dedicated zaru sauce.\n\n## How it's made\nBoiled noodles are rinsed firm in cold water, drained, and plated. Some shops are said to still prepare a separate sauce for zaru, but today the main distinction for most shops is said to simply be whether nori goes on top. Mori is typically served in a deep bowl, zaru on a bamboo or wooden strainer, it is said.\n\n## Why it took this shape\nIn Edo's Genroku era, when pouring sauce directly over the noodles — bukkake — came into fashion, the older dip-and-eat style is said to have picked up the name mori to distinguish it. Zaru, older still, is said to trace to a shop called Iseya in Fukagawa Susaki during the Genroku era, whose noodles served on a bamboo strainer won it fame, and by 1735 it was already introduced as one of Edo's celebrated soba.",
+   "sources": [
+    {
+     "title": "もりそば | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/zatsugaku/05/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kake-soba",
+     "relation_type": "対比",
+     "basis": "つゆにつけて食べるもり・ざると、つゆを直接注ぐかけは、江戸元禄期に「ぶっかけ」の流行を機に区別された対になる食べ方であるため"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "primary_style": ""
+  },
+  {
+   "slug": "kake-soba",
+   "name_ja": "かけそば",
+   "name_romaji": "Kake Soba",
+   "name_en": "Kake soba — hot soba served directly in a bowl of broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "茹でたそばに直接つゆを注いで食べる、種物の基本形。室町期の文献にはつゆをつけずに直接かける食べ方への戒めが見られ、これが「ぶっかけ」の始まりとされる。江戸後期には男性的な食べ方として広まったという。",
+   "summary_en": "Hot soba with broth poured directly over it, forming the base for every topped variety. A Muromachi-era text is said to warn against pouring sauce straight onto the noodles rather than dipping, which is taken as evidence that the practice — the root of what became bukkake — already existed. By the late Edo period, it is said to have spread as a more masculine way of eating soba.",
+   "body_ja": "## 何でできているか\n茹でたそばに、温かいつゆをそのまま注いだものとされる。もり・ざるのようにつゆにつけず、麺とつゆが最初から一体になっているのが特徴で、鴨南蛮や天ぷらそばなど、具材をのせるすべての「種物」はこのかけそばを土台にしているという。もっとも簡素な一杯でありながら、そば屋の実力がそのまま出る品とも語られ、値段の安さから庶民の日常食としても親しまれてきたという。\n\n## どう作るのか\n茹でたそばを湯切りし、丼に盛ってから温かいつゆを直接かける。もり・ざるのように水で締める工程を踏まず、茹でたての熱をそのまま生かすとされる。つゆにはしょうゆやみりんが使われ、だしとの合わせ方が店ごとの持ち味になるという。具をのせずつゆと麺だけで勝負する分、だしの引き方がそのまま味の差になるといわれる。\n\n## なぜこの形になったのか\n元禄5年（1692年）の女性向け作法書には、そばに直接つゆをかけて食べるのは男性的な食べ方だとして戒める記述があるとされ、逆にいえば当時すでにそうした食べ方があったことがうかがえるという。もりのようにつゆにつける作法が先にあり、そこから直接かける食べ方が枝分かれして「かけ」になったと語られる。江戸後期になって、この食べ方が広く受け入れられていったとされる。",
+   "body_en": "## What it's made of\nIt is boiled soba with hot broth poured directly over it. Unlike mori or zaru, where the noodle is dipped into a separate sauce, the noodle and broth are joined from the start, and every topped variation — kamo-nanban, tenpura-soba, and the rest — is said to build on this base.\n\n## How it's made\nThe noodles are boiled, drained, plated in a bowl, and hot broth is poured straight over them. There is no rinsing in cold water as with mori or zaru, letting the noodle keep the heat from boiling. The broth itself is built from soy sauce and mirin, and how it is balanced against the dashi is said to be where each shop's character shows.\n\n## Why it took this shape\nA 1692 etiquette guide aimed at women is said to warn against pouring sauce directly onto soba as a masculine habit — evidence, read the other way, that the practice already existed by then. The dip-to-eat manner of mori is said to have come first, with the direct-pour style branching off from it to become kake.",
+   "sources": [
+    {
+     "title": "そばの食べ方 | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/zatsugaku/27/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "hon-mirin",
+     "relation_type": "使用食材",
+     "basis": "かけそばのつゆはしょうゆとみりんを合わせて仕立てるとされるため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "kamo-nanban",
+   "name_ja": "鴨南蛮",
+   "name_romaji": "Kamo Nanban",
+   "name_en": "Kamo nanban — hot soba topped with duck meat and scallion",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "かけそばに鴨肉とねぎをのせた種物。文化年間（1804〜18年）、江戸馬喰町の「笹屋」が最初に商品化したというのが定説とされる。「南蛮」はねぎを好んだ南方の人々を指す江戸時代の呼び名に由来するという。",
+   "summary_en": "Kake soba topped with duck meat and scallion. The going account credits Sasaya, a soba shop at Bakurocho in Edo, with first putting it on the menu during the Bunka era (1804–18). \"Nanban\" is said to derive from an Edo-era term for southerners, reputed to favor scallion in their cooking.",
+   "body_ja": "## 何でできているか\nかけそばに、鴨肉と焼いたねぎをのせた種物とされる。鴨の脂がつゆに溶け出し、コクのある一杯になるという。かつては鶏肉を使うことも多かったが、合鴨肉が手に入りやすくなったことで、鴨を使う店が増えているとされる。寒い季節にとくに人気が高まる品書きだといい、体が温まる一杯として長く親しまれてきたとされ、今では一年を通して出す店も少なくないという。\n\n## どう作るのか\nかけそばのつゆに鴨肉の脂を生かし、焼き目をつけたねぎを加えて仕立てるとされる。江戸末期には真鴨ではなくアヒルや雁の肉が使われることもあったと伝わり、当時から手に入る鳥肉に応じて中身が変わる、融通の利く種物だったとうかがえる。ねぎを焼くことで香ばしさを加える一手間も欠かせないとされ、脂と香ばしさのバランスが仕上がりを左右するという。\n\n## なぜこの形になったのか\n鴨南蛮を最初に商品化したのは、文化年間に江戸馬喰町橋詰にあった「笹屋」というそば屋というのが定説とされる。「南蛮」は古代中国由来の蔑称が転じ、江戸時代には南方の人々やポルトガル人を指したとされ、彼らがねぎを好んだことから、ねぎを使う料理を「南蛮」と呼ぶようになったと伝わる。今では季節を問わず一年中出す店も多いという。",
+   "body_en": "## What it's made of\nIt is kake soba topped with duck meat and grilled scallion. The duck's fat is said to melt into the broth, giving the bowl real richness. Chicken was once common in its place, but as farmed duck has grown easier to source, more shops are said to be using duck itself.\n\n## How it's made\nThe kake soba broth draws on the duck's own fat, finished with scallion given a light char. Toward the end of the Edo period, domestic duck or goose is said to have stood in for wild mallard, suggesting the dish adapted to whatever fowl was on hand at the time — a flexible kind of topping from the start.\n\n## Why it took this shape\nThe dish's first commercial appearance is credited, by the going account, to Sasaya, a soba shop at the Bakurocho bridgehead in Edo, during the Bunka era. \"Nanban,\" a term with roots in an old Chinese slur, came in the Edo period to mean southerners or the Portuguese, and because they were said to favor scallion, dishes built around it came to carry the name nanban.",
+   "sources": [
+    {
+     "title": "鴨南蛮 | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/zatsugaku/11/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kake-soba",
+     "relation_type": "対比",
+     "basis": "つゆだけのかけそばに対し、鴨肉とねぎという具材を加えた種物という対になる関係であるため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "tororo-soba",
+   "name_ja": "とろろそば",
+   "name_romaji": "Tororo Soba",
+   "name_en": "Tororo soba — cold soba topped with grated mountain yam",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "すりおろした山の芋をもり汁でのばしたとろろをかけて食べるそば。江戸時代の『蕎麦全書』（1751年）には、山の芋をつなぎとして使う工夫も紹介されている。冷たいそばが本筋とされ、温めると粘りが弱まるという。",
+   "summary_en": "Soba topped with grated mountain yam thinned with mori-style dipping sauce into a smooth tororo. A mid-18th-century text is said to describe mountain yam being worked into the dough itself as a binder. The dish is said to be built around cold noodles, since heat is said to weaken the yam's characteristic stickiness.",
+   "body_ja": "## 何でできているか\nすりおろした山の芋を、もり汁でのばしたとろろをかけたそばとされる。とろりとした粘りが麺にからみ、喉ごしが一段となめらかになるという。そば屋の品書きでは「山かけそば」の名で親しまれ、種物の定番の一つとされる。うずらの卵を落として供する店も多いとされ、彩りと栄養の両面から添えられるといい、黄身を割って絡めて食べるのも定番だという。\n\n## どう作るのか\n山の芋をすりおろし、もり汁でちょうどよい濃さにのばしてとろろを作り、冷たいそばにかけて仕上げるとされる。温かいそばにすると芋特有の粘着力が弱まってしまうため、冷たいそばが本筋といわれる。江戸時代の『蕎麦全書』（寛延4年・1751年）には、粘りけがあって練りやすく、後味もさっぱりする長芋をつなぎとして使う手法もすでに紹介されているという。\n\n## なぜこの形になったのか\n江戸時代の農山村では、栽培していなくても山野に自生する山の芋が手軽に手に入り、つなぎとしての働きにも優れていたことから、手頃な材料として重宝されたとされる。そこから、つなぎとしてだけでなく、とろろ汁そのものをかけて食べる種物へと発展したと考えられ、山の芋という身近な食材の使い道の広がりを映しているという。",
+   "body_en": "## What it's made of\nThe dish is soba topped with tororo — grated mountain yam thinned with mori-style dipping sauce. Its thick stickiness clings to the noodle, said to make the texture smoother still. On a soba shop's menu it goes by yamakake-soba, one of the standard topped varieties.\n\n## How it's made\nMountain yam is grated and thinned with mori sauce to the right consistency, then poured over cold soba. Warming the noodle is said to weaken the yam's own stickiness, so cold soba is said to be the proper base for it. A mid-18th-century text, the Soba Zensho of 1751, is said to already describe using nagaimo, a variety prized for being moist and easy to work as well as clean-tasting, kneaded straight into the dough as a binder.\n\n## Why it took this shape\nIn Edo-period farming and mountain villages, mountain yam growing wild needed no cultivation and was easy to come by, and its binding power made it a handy material besides, it is said. From there, its use is thought to have grown beyond binder alone into a topping poured straight over the noodle as tororo — a spread in use that traces the yam's own reach as an everyday ingredient.",
+   "sources": [
+    {
+     "title": "そばと山の芋 | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/zatsugaku/48/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kake-soba",
+     "relation_type": "対比",
+     "basis": "つゆだけのかけそばに対し、とろろという具材をのせて温かくも冷たくも供される種物という対になる関係であるため"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "primary_style": ""
+  },
+  {
+   "slug": "tenpura-soba",
+   "name_ja": "天ぷらそば",
+   "name_romaji": "Tenpura Soba",
+   "name_en": "Tenpura soba — hot soba topped with deep-fried shrimp or other tempura",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "かけそばに天ぷらをのせた種物。文政10年（1827年）の川柳に詠まれており、少なくともそれ以前からそば屋で売られていたとされる。江戸時代は芝海老の天ぷらが主流で、昭和以降は車海老が主流になったという。",
+   "summary_en": "Kake soba topped with deep-fried tempura. A senryu poem from 1827 is said to mention it, evidence that it was already sold at soba shops by then at the latest. In the Edo period, shiba shrimp was the standard tempura used, giving way to kuruma prawn from the Showa era onward, it is said.",
+   "body_ja": "## 何でできているか\nかけそばに天ぷらをのせた種物とされる。江戸時代の記録『守貞謾稿』によれば、江戸前の海でとれる芝海老を三、四尾ほど油で揚げたものが定番だったという。衣がつゆを吸って崩れる食感の変化も、天ぷらそばならではの楽しみとされる。今もそば屋の看板品書きの一つに数えられているとされ、揚げたてを供する店の手際が味の決め手になるという。\n\n## どう作るのか\nかけそばのつゆに、揚げたての天ぷらをそのままのせて仕上げる。衣がつゆを吸ってふやけるのを味わう食べ方が本来とされ、天ぷらを別皿で添える店もあるという。あられや花巻、しっぽく、玉子とじなど、天ぷら以外の種物も江戸時代から存在したが、天ぷらそばほどの人気には至らなかったとされる。衣の厚みや揚げ加減も、店ごとの個性が出る部分だという。\n\n## なぜこの形になったのか\n文政10年（1827年）の川柳に「沢蔵主天麩羅蕎麦が御意に入り」と詠まれており、少なくともそれ以前からそば屋で天ぷらそばが売られていたことがうかがえるという。当時は東京湾でとれる芝海老が使われたが、昭和以降に芝海老の漁獲が激減したことから、車海老が主流の具材になったと伝わる。海の恵みの移り変わりが、そのまま一杯の中身に表れているといえる。",
+   "body_en": "## What it's made of\nIt is kake soba topped with deep-fried tempura. According to the Edo-period record Morisada Manko, the standard was three or four shiba shrimp, caught in Edo Bay, fried in oil. Watching the batter soak up the broth and soften is said to be part of the dish's particular pleasure.\n\n## How it's made\nFreshly fried tempura is set right on top of the kake soba broth. Letting the batter soak and soften in the broth is said to be the proper way to eat it, though some shops serve the tempura on a separate plate instead. Other toppings — arare, hanamaki, shippoku, a folded egg — existed in the Edo period too, but none of them are said to have matched tempura soba's popularity.\n\n## Why it took this shape\nA senryu poem from 1827 mentions it by name, suggesting tempura soba was already sold at soba shops by then at the latest. Shiba shrimp from Tokyo Bay was the ingredient of choice at the time, but as its catch collapsed from the Showa era onward, kuruma prawn is said to have taken over as the standard.",
+   "sources": [
+    {
+     "title": "天ぷらそば | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/zatsugaku/32/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kake-soba",
+     "relation_type": "対比",
+     "basis": "つゆだけのかけそばに対し、天ぷらという具材をのせた種物という対になる関係であるため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "sobagaki",
+   "name_ja": "そばがき",
+   "name_romaji": "Sobagaki",
+   "name_en": "Sobagaki — a thick paste of buckwheat flour and hot water, eaten by the spoonful",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "そば粉を熱湯で練った、麺にしないそばの食べ方。醤油やわさび、つゆなどをつけてそのまま食べる。麺の形に切る「そば切り」が広まる以前は、そばといえばこの練った形が主流だったと語られる。",
+   "summary_en": "Soba flour kneaded with hot water into a thick paste, eaten without ever being cut into noodle strands, dipped in soy sauce, wasabi, or broth. Before soba-kiri, the technique of cutting the dough into thin noodles, spread widely, this kneaded form is said to have been the standard way buckwheat was eaten.",
+   "body_ja": "## 何でできているか\nそば粉を熱湯で手早く練った、餅のようにまとまりのある塊とされる。麺のように細く切らず、練った塊のままを箸やスプーンですくって食べる。噛むとまずそばの実そのものの香りが立ち、もちっとした弾力のある食感が続くという。つゆをかけずそのまま食べることも多く、そば粉の味を直接確かめられる一品とされ、酒の肴として頼まれることも少なくないという。\n\n## どう作るのか\n鍋にそば粉と熱湯を入れ、だまにならないよう手早くかき混ぜて練り上げるとされる。練り加減がそのまま食感を左右し、しっかり練るほど弾力が出るという。醤油をたらすだけで食べることもあれば、わさびを添えたり、つゆにつけたりと、食べ方は幅広いとされる。手早く練り上げる技術が求められるため、店によって仕上がりの差が出やすいともいわれる。\n\n## なぜこの形になったのか\nそばの実を麺の形に切って食べる「そば切り」が広まったのは、そばの歴史のなかでも比較的新しい食べ方とされ、それ以前はそば粉を練って食べるそばがきが主流だったと語られる。麺に切る手間がいらないぶん、より素朴で古くからの食べ方として今も残り、そば通が最初に頼む一品ともいわれる。粉そのものの質がごまかしようもなく出るため、その店の実力を測る品ともされる。",
+   "body_en": "## What it's made of\nSobagaki is soba flour kneaded quickly with hot water into a cohesive, mochi-like lump. Rather than being cut fine into noodle strands, the paste is scooped up whole with chopsticks or a spoon. The bite brings buckwheat's own aroma forward first, followed by a springy, mochi-like chew.\n\n## How it's made\nSoba flour and hot water go into a pot and are stirred quickly, worked to keep lumps from forming, until the paste comes together. How thoroughly it is kneaded is said to decide the texture directly, with more kneading bringing more spring. Some eat it with nothing but a splash of soy sauce; others add wasabi or dip it in broth — the ways of eating it are said to run wide.\n\n## Why it took this shape\nCutting buckwheat dough into noodle strands — soba-kiri — is said to be a relatively recent development in soba's history, and before it spread, kneading the flour into sobagaki is said to have been the standard way of eating buckwheat. Needing no noodle-cutting step, it survives today as the plainer, older form, and is said to be the first thing a soba enthusiast orders at a shop.",
+   "sources": [
+    {
+     "title": "手打ちそば | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/zatsugaku/13/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "juwari-soba",
+     "relation_type": "対比",
+     "basis": "そば粉を麺に切らず練って食べるそばがきと、細く切って食べる十割そばは、そばの実の食べ方としての対比の関係にあるため"
+    }
+   ],
+   "tags": [
+    "no_broth"
+   ],
+   "primary_style": ""
+  },
+  {
+   "slug": "sobayu",
+   "name_ja": "そば湯",
+   "name_romaji": "Sobayu",
+   "name_en": "Sobayu — the hot water soba is boiled in, drunk with leftover dipping sauce after the meal",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "もりそばを食べ終えたあと、残ったつゆに加えて飲む、そばの茹で汁。信州で始まった風習が江戸中期の寛延（1748〜51年）ごろに江戸へ広まったとされる。そばのタンパク質の約半分が溶け出ているという。",
+   "summary_en": "The hot water soba noodles were boiled in, poured into the leftover dipping sauce and drunk once the meal is finished. The custom is said to have started in Shinshu and spread to Edo around the Kanen era (1748–51) in the mid-Edo period. Roughly half of soba's protein is said to dissolve into this water.",
+   "body_ja": "## 何でできているか\nそばを茹でた湯そのものが正体で、白く濁ってとろみを帯びているとされる。もりそばを食べ終えた後、残ったつゆに注いで飲むのが基本の楽しみ方だという。そばのタンパク質の約半分は水に溶けやすい性質を持つとされ、そば湯にはこの旨味成分が豊富に溶け出しているという。栄養を余さず取り込める飲み方として語られることも多い。\n\n## どう作るのか\nそばを茹でた後の湯をそのまま器に移し、食後に残ったつゆへ好みの濃さで注いで飲むとされる。つゆを加えず、そば湯だけを飲む楽しみ方もあるという。うどんや冷麦の茹で汁は同じようには飲まれないとされ、そば湯だけがこの風習として根づいたと語られる。つゆを入れすぎると塩分の摂りすぎになるという注意も、現代ではよく語られるという。\n\n## なぜこの形になったのか\nそば湯を飲む風習はまず信州で始まり、江戸時代中期の寛延（1748〜51年）ごろに江戸へ広まったとされる。広まった理由としては、そのまま飲んでおいしいという単純な理由に加え、空腹を紛らわせる実用的な側面もあったといわれる。もりそばを食べ終えたあとの満足感を締めくくる、一連の食べ方の最後の一手とされる。",
+   "body_en": "## What it's made of\nIt is simply the water soba was boiled in, turned cloudy white and faintly thick. The standard way to enjoy it is to pour it into whatever dipping sauce is left after finishing a plate of mori soba. Roughly half of soba's protein is said to be water-soluble, so sobayu is said to carry a good share of the noodle's own savoriness dissolved into it.\n\n## How it's made\nThe water soba was boiled in is poured straight into a cup, then added to the leftover dipping sauce at whatever strength suits the drinker. Some are said to prefer it plain, with no sauce added at all. The boiling water from udon or hiyamugi is not treated the same way, and sobayu alone is said to have taken root as this particular custom.\n\n## Why it took this shape\nThe custom of drinking sobayu is said to have begun in Shinshu, spreading to Edo around the Kanen era (1748–51) in the mid-Edo period. Beyond the simple reason that it tastes good on its own, it is said to have also served the practical purpose of taking the edge off hunger. It is described as the final move in a full sitting of mori soba, closing out the meal's satisfaction.",
+   "sources": [
+    {
+     "title": "そば湯 | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/zatsugaku/01/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "mori-zaru-soba",
+     "relation_type": "派生",
+     "basis": "もりそばを食べ終えた後の茹で汁を、残ったつゆに加えて飲むという食後の習慣として派生した飲み方であるため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "toshikoshi-soba",
+   "name_ja": "年越しそば",
+   "name_romaji": "Toshikoshi Soba",
+   "name_en": "Toshikoshi soba — soba eaten on New Year's Eve, a custom tied to the turning year",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "soba",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "大晦日の夜に食べる習慣のそば。「年取りそば」「大年そば」とも呼ばれる。細く長く伸びる形から長寿や家運の発展を願う説、切れやすさから一年の苦労を断ち切る説など、由来には複数の説があるとされる。",
+   "summary_en": "Soba eaten on the night of New Year's Eve, also called toshitori-soba or omisoka-soba. Accounts of its origin vary — one ties the noodle's long, thin shape to a wish for long life and lasting fortune, another to the way soba snaps easily, said to cut off a year's hardships.",
+   "body_ja": "## 何でできているか\n大晦日の夜に食べる、年越しの行事食とされるそばである。中身自体はふだんのかけそばやもりそばと変わらないとされ、特別な材料を使うわけではないという。食べる日と時間が大晦日の夜に決まっているという点が、他のそばとの一番の違いだとされる。「年取りそば」「大年そば」という別名も、同じ夜の行事食であることを示している。\n\n## どう作るのか\nとくに定まった作り方があるわけではなく、かけそばやもりそばなど、家庭や店ごとに好みの形で用意されるとされる。関東ではえびの天ぷらをのせる家庭も多いなど、具材は地域や家庭の習わしに委ねられているという。大晦日のうちに食べ終えることが習わしとされ、年をまたいで残さないという言い伝えもあるという。家族そろって夜に食べるという時間そのものが、作法の一部になっているといえる。\n\n## なぜこの形になったのか\n由来には複数の説があるとされる。そばが細く長く伸びることから長寿や家運の発展を願う縁起説、そばが切れやすいことから一年の苦労や借金を断ち切る厄払い説、金箔職人がそば粉で金粉を集めたことにちなむ金運説などが伝わる。江戸時代中期には一般的な習慣として定着していたと考えられており、俳人服部嵐雪の句にもそれをうかがわせる表現が残っているという。",
+   "body_en": "## What it's made of\nIt is soba eaten as a New Year's Eve custom, on the night the calendar turns. The noodle itself is said to be no different from an everyday bowl of kake or mori soba, with nothing special in the ingredients. What sets it apart is simply that the day and the hour it is eaten are fixed to New Year's Eve.\n\n## How it's made\nThere is no set way to prepare it — households and shops are said to serve it however they normally would, as kake or mori soba. In the Kanto region, many households are said to top it with shrimp tempura, though the toppings are otherwise left to local and family custom. Custom holds that the bowl should be finished before the year turns, with a saying that none of it should be left to carry into the new year.\n\n## Why it took this shape\nSeveral accounts of its origin are said to circulate. One reads good fortune into the noodle's long, thin shape, a wish for a long life and a lasting household. Another reads the noodle's tendency to snap as a way of cutting off a year's hardships and debts, warding off misfortune. A third ties it to gold-leaf artisans once using soba flour to gather stray gold dust, a wish for good fortune with money. The custom is thought to have already taken hold widely by the mid-Edo period.",
+   "sources": [
+    {
+     "title": "年越しそば | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/zatsugaku/21/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kake-soba",
+     "relation_type": "対比",
+     "basis": "ふだんのかけそばと中身は変わらないが、大晦日の夜という決まった時に食べる行事食である点で対になる関係であるため"
+    }
+   ],
+   "tags": [
+    "ceremonial"
+   ],
+   "primary_style": ""
+  },
+  {
+   "slug": "teuchi-udon",
+   "name_ja": "手打ちうどん",
+   "name_romaji": "Teuchi Udon",
+   "name_en": "Teuchi udon — udon dough kneaded, trodden, and cut by hand",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "小麦粉に塩水を加えて練り、足で踏んで生地を鍛え、包丁で切るうどん。踏み・延ばし・折りたたみを繰り返すことでグルテンの網目構造が育ち、強いコシと弾力が生まれるとされる。生麺として供されるのが基本という。",
+   "summary_en": "Udon whose dough is kneaded from wheat flour and salt water, trodden underfoot to build strength, then cut by hand with a knife. Repeating the cycle of treading, rolling, and folding is said to develop the gluten network that gives the noodle its firm bite and spring. It is served as a fresh, uncooked-and-boiled noodle at its base.",
+   "body_ja": "## 何でできているか\n小麦粉と塩水だけで作る生地とされ、そこに麺の骨格となるグルテンの網目を育てる工程が加わる。踏んで延ばして折りたたむ作業を繰り返すことで、水分が粉全体に行き渡り、グルテンが鍛えられて強いコシと弾力が生まれるとされる。切りたて・茹でたての生麺として供されるのが本来の形だという。乾麺として保存する手延べとは対照的に、作ったその日のうちに食べきることが前提になっている。\n\n## どう作るのか\n小麦粉に塩水を混ぜてよくこね、生地を足で踏む。踏んで延ばし、折りたたんでまた踏むという工程を七回ほど繰り返してコシを引き出すとされ、その後生地を寝かせて熟成させてから、均一な厚さに延ばし、包丁で切って仕上げる。この足踏みという体重を使った作業が、機械には出しにくい弾力を生むといわれ、踏む回数や力加減は打ち手の経験によって微妙に変わるという。\n\n## なぜこの形になったのか\n手で踏み、延ばし、切るという工程そのものが、うどんという小麦粉の麺の基本形を作ってきたとされる。讃岐をはじめとする各地の手打ちうどんの産地では、この工程を丁寧に踏むことが強いコシを生む条件として語り継がれてきたといい、機械製麺が普及した今も、手打ちを掲げる店が各地に残っている。手間のかかる工程そのものが、味の裏付けとして語られることも多いという。",
+   "body_en": "## What it's made of\nThe dough is made from nothing but wheat flour and salt water, with a process added on top to develop the gluten network that gives the noodle its backbone. Repeating the cycle of treading, rolling, and folding is said to work water evenly through the flour and strengthen the gluten, producing a firm bite and real spring. Served freshly cut and freshly boiled is said to be its proper form.\n\n## How it's made\nWheat flour is mixed with salt water and kneaded well, then the dough is trodden underfoot. The cycle of treading, rolling out, folding, and treading again is repeated some seven times to build up the noodle's chew, after which the dough rests to mature before being rolled to an even thickness and cut with a knife. This treading, done with the maker's own body weight, is said to produce a spring machines struggle to replicate.\n\n## Why it took this shape\nThe process itself — treading by foot, rolling, cutting by hand — is said to have shaped the basic form of udon as a wheat noodle. Across Sanuki and the other udon-producing regions, treading the dough carefully is passed down as the condition for a firm bite, and shops advertising teuchi udon remain scattered across the country even now that machine-milled noodles have spread widely.",
+   "sources": [
+    {
+     "title": "うどんの生地踏みが持つ重要な意味とは？強いコシを生み出す秘密",
+     "url": "https://sakaedaudon.jp/archives/554",
+     "publisher": "うどんスタンダード",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "sanuki",
+     "relation_type": "対比",
+     "basis": "手打ちは土地を問わない製法の型で、讃岐うどんはその製法が根づいた地域の型であるため、製法の一般型と地域での結実という対比で結ぶ"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "tenobe-udon",
+   "name_ja": "手延べうどん",
+   "name_romaji": "Tenobe Udon",
+   "name_en": "Tenobe udon — a hand-stretched dried noodle, twisted and pulled thin instead of cut",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "生地に食用油やでん粉を塗って撚りをかけながら引き延ばし、乾燥させて作る乾麺のうどん。包丁で切る手打ちと違い、麺線の断面が丸くなめらかな喉ごしになるとされる。製法の途中に熟成の工程を挟むことが日本農林規格で定められているという。",
+   "summary_en": "A dried noodle made by coating the dough in edible oil or starch and stretching it thin while twisting it, then drying it, rather than cutting it with a knife as teuchi does. The twisting is said to leave the noodle's cross-section rounded, giving it a notably smooth slide down the throat. Japan's agricultural standard is said to require a resting, maturing stage partway through the process.",
+   "body_ja": "## 何でできているか\n小麦粉に食塩水を加えて練った生地に、食用油やでん粉を塗って撚りをかけながら引き延ばし、乾燥させた麺とされる。包丁で切る手打ちと違って麺線の断面が丸くなるため、つるりとした喉ごしが際立つという。乾麺として保存が利くのも特徴とされ、贈答品として扱われることも多いといい、産地ごとに独自の箱や包装で売られているという。\n\n## どう作るのか\n生地に食用油やでん粉を薄く塗り、撚りをかけながら少しずつ引き延ばしていく。日本農林規格（JAS）では、この製麺の工程の途中に熟成をはさむことが手延べ干しめんの条件として定められているとされ、時間をかけて生地を寝かせることで、少ない力で細く長く延ばせるようになるという。天候に合わせて乾燥の時間を調整する加減も、経験がものをいう部分とされる。\n\n## なぜこの形になったのか\n生地を切るのではなく引き延ばすという工程は、手で押しつぶさずに麺を細くできる方法として各地に根づいたとされる。稲庭うどんのように、この製法自体が土地の看板になった例もあり、切る手打ちと延ばす手延べという二つの技法が、同じ小麦粉の麺でもまったく違う食感を生み出してきたと語られる。乾燥させて日持ちさせられることも、各地に広まった理由の一つと考えられる。",
+   "body_en": "## What it's made of\nDough kneaded from wheat flour and salt water is coated with edible oil or starch and stretched thin while being twisted, then dried. Because the noodle is stretched and twisted rather than cut with a knife as in teuchi udon, its cross-section stays rounded, said to give it a notably smooth slide. Being dried also means it keeps well.\n\n## How it's made\nA thin coat of edible oil or starch is worked over the dough, which is then stretched a little at a time while being twisted. Japan's agricultural standard for hand-stretched dried noodles is said to require a resting, maturing stage partway through the process, and letting the dough rest is said to be what allows it to be pulled thin and long without much force.\n\n## Why it took this shape\nStretching the dough instead of cutting it is said to have taken root in various places as a way to thin the noodle without pressing it flat by hand. Inaniwa udon is one example where this technique itself became a region's own signature, and the two techniques — cutting in teuchi, stretching in tenobe — are said to produce entirely different textures from the very same wheat dough.",
+   "sources": [
+    {
+     "title": "手延べ干しめんの日本農林規格",
+     "url": "https://www.kanmen.com/standard/02_hmjas.pdf",
+     "publisher": "全国乾麺協同組合連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "inaniwa",
+     "relation_type": "対比",
+     "basis": "手延べは土地を問わない製法の型で、稲庭うどんはその製法が根づいた地域の型であるため、製法の一般型と地域での結実という対比で結ぶ"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "kake-udon",
+   "name_ja": "かけうどん",
+   "name_romaji": "Kake Udon",
+   "name_en": "Kake udon — the most basic bowl, hot broth poured over reheated noodles",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "茹でた麺を一度冷水で締め、温め直してだしをかける、もっとも基本的なうどん。いりこや鰹の効いただしは店ごとに違うとされ、ねぎや天かすといった軽い薬味だけをのせるのが定番という。",
+   "summary_en": "The most basic udon of all: noodles boiled, chilled once in cold water, then reheated and covered in broth. The dashi flavor is said to vary shop by shop, built on dried sardine or bonito, and the standard toppings are light ones — scallion, crunchy tempura scraps, little more.",
+   "body_ja": "## 何でできているか\n茹でた麺を一度冷水で締め、あらためて温め直してだしをかけたものとされる。だしの風味が店ごとの個性になるとされ、いりこ出汁や鰹出汁など、地域や店によって味の方向が分かれるという。ねぎや天かすといった軽い薬味だけをのせるのが定番の形だとされ、値段の手頃さから日常的に食べられてきたといい、朝食代わりに食べる客も多いという。\n\n## どう作るのか\n茹でた麺をいったん冷水で締めてから、湯にくぐらせて温め直し、丼に盛っただしをかけて仕上げるとされる。麺とだしの両方の質がそのまま器に出るため、具材で味を足さない分、素材の実力が問われる一杯だといわれる。温め直す湯の温度や時間も、店によって微妙に違うとされ、これが同じレシピでも味の差になって表れるという。\n\n## なぜこの形になったのか\nつけて食べるざるやぶっかけに対し、だしをそのままかけて食べるかけうどんは、もっとも簡素な食べ方として各地で広く定着してきたとされる。シンプルな構成だからこそ、麺のコシとだしの香りという、うどんの基本の型がそのまま試される一杯として位置づけられてきたという。地域ごとのだしの違いを比べる入り口としてもよく語られる。",
+   "body_en": "## What it's made of\nKake udon is noodles boiled, chilled once in cold water, then reheated and covered in broth. The broth's flavor is said to be where each shop's character shows, built variously on dried-sardine or bonito dashi depending on region and shop. Light toppings — scallion, crunchy tempura scraps — are said to be the standard, with little else added.\n\n## How it's made\nBoiled noodles are chilled once in cold water, then dipped back into hot water to reheat before being plated and covered in broth. Because both noodle and broth show through directly with nothing added to mask them, it is said to be a bowl that puts the maker's basic skill on full display.\n\n## Why it took this shape\nSet against zaru or bukkake, where the noodle is dipped into sauce, kake udon — broth poured straight over the noodle — is said to have settled in widely as the simplest way of eating it. Precisely because the construction is so plain, it is said to be treated as the bowl that tests udon's most basic elements: a noodle's bite and a broth's aroma, with nothing to hide behind.",
+   "sources": [
+    {
+     "title": "おさえておきたい主なメニュー｜讃岐うどん",
+     "url": "https://www.my-kagawa.jp/udon/feature/sanukiudon/mainmenu",
+     "publisher": "香川県観光協会公式サイト うどん県旅ネット",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "zaru-udon",
+     "relation_type": "対比",
+     "basis": "だしを直接かけるかけうどんと、つゆにつけて食べるざるうどんは、だしとの合わせ方が対になる基本的な食べ方であるため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "zaru-udon",
+   "name_ja": "ざるうどん",
+   "name_romaji": "Zaru Udon",
+   "name_en": "Zaru udon — noodles chilled in water and served on a bamboo strainer, dipped in sauce",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "茹でた麺を冷水で締め、ざるなどの器に盛って濃いめのつけだしにつけて食べるうどん。薬味には生姜やねぎ、ごまを添えることが多いとされる。かけうどんに対する冷たいうどんの基本形の一つという。",
+   "summary_en": "Udon boiled and chilled in cold water, served on a bamboo strainer or similar vessel, and dipped into a concentrated sauce. Ginger, scallion, and sesame are said to be the common condiments. It stands as one of the basic cold-udon forms, set against hot kake udon.",
+   "body_ja": "## 何でできているか\n茹でて冷水でしっかり締めた麺を、ざるなどの器に盛ったものとされる。つけだしは温かいかけうどんの汁より濃いめに仕立てられ、生姜やねぎ、ごまといった薬味とともに供されることが多いという。締めた麺の張りのある食感が持ち味とされ、のどごしのよさも大きな魅力とされ、噛んだ瞬間の弾力を楽しむ食べ物とも語られる。\n\n## どう作るのか\n茹で上がった麺を冷水でよく洗い、締めてから器に盛る。つけだしはかけうどんの汁よりも濃く仕立て、麺を少量ずつつけて食べる形が基本とされる。夏場に食欲が落ちても食べやすいことから、暑い季節にとくに好まれるとされ、薬味を替えて味の変化を楽しむ食べ方も定着しているといい、つけだしを飲み干す客も少なくないという。\n\n## なぜこの形になったのか\n茹でた麺を水で締めてから供するという工程は、コシを保ったまま冷たく食べるための工夫として各地で広まったとされる。だしをそのままかけるかけうどんと違い、つけだしにつけて食べる形をとることで、濃い味と麺そのものの食感を両方楽しめる一杯として位置づけられてきたという。器を竹ざるにする慣習も、水切れをよくする実用上の理由から根づいたとされる。",
+   "body_en": "## What it's made of\nZaru udon is noodles boiled and chilled firm in cold water, served on a bamboo strainer or similar vessel. The dipping sauce is said to be built stronger than a hot kake udon broth, typically served alongside ginger, scallion, and sesame. The taut bite of the chilled noodle is said to be its main appeal.\n\n## How it's made\nBoiled noodles are rinsed well and chilled in cold water before being plated. The dipping sauce is built stronger than a kake udon broth, and the basic way of eating is to dip small portions of noodle into it. Being easy to eat even when appetite fades in the heat is said to make it especially popular in summer.\n\n## Why it took this shape\nChilling boiled noodles in water before serving them is said to have spread widely as a way to keep the noodle's bite while eating it cold. Unlike kake udon, where broth is poured directly over the noodle, dipping into a concentrated sauce is said to let both the strong flavor and the noodle's own texture come through at once.",
+   "sources": [
+    {
+     "title": "おさえておきたい主なメニュー｜讃岐うどん",
+     "url": "https://www.my-kagawa.jp/udon/feature/sanukiudon/mainmenu",
+     "publisher": "香川県観光協会公式サイト うどん県旅ネット",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "bukkake-udon",
+     "relation_type": "対比",
+     "basis": "薄めのつけだしにつけて食べるざると、濃いめのだしを直接かけるぶっかけは、同じ冷たいうどんでもだしとの合わせ方が対になる関係であるため"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "primary_style": ""
+  },
+  {
+   "slug": "bukkake-udon",
+   "name_ja": "ぶっかけうどん",
+   "name_romaji": "Bukkake Udon",
+   "name_en": "Bukkake udon — chilled noodles doused in a concentrated sauce, tossed with the toppings",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "茹でた麺を冷水で締め、濃いめのつけだしを直接ぶっかけて食べるうどん。ねぎや大根おろしをのせ、具材ごと大胆にかき混ぜて食べるのが定番とされる。温かいだしを使う温ぶっかけの形もあるという。",
+   "summary_en": "Udon boiled and chilled in cold water, then doused directly with a concentrated sauce. Scallion and grated daikon go on top, and mixing everything together boldly is said to be the standard way of eating it. A hot version, using warm broth instead, is also said to exist.",
+   "body_ja": "## 何でできているか\n茹でて冷水で締めた麺に、濃いめに仕立てたつけだしを直接かけたものとされる。ざるのようにつゆに浸すのではなく、麺の上から直接だしを注ぐ点が違いだという。ねぎや大根おろしといった薬味とともに大胆に混ぜ合わせて食べるのが定番とされ、具だくさんに仕立てる店も多いといい、天かすや揚げ玉を添える店もあるという。\n\n## どう作るのか\n茹で上がった麺を冷水でよく締め、器に盛った上から濃縮しただしを直接かける。ねぎや大根おろしなどの薬味を添え、箸で大きくかき混ぜて全体にだしをなじませてから食べるとされる。温めただしを使う「温ぶっかけ」という形もあり、温冷どちらの仕立ても選べるといい、季節に応じて使い分ける店も多く、天候によって注文を変える客も少なくないという。\n\n## なぜこの形になったのか\nつゆにつけて食べるざるうどんに対し、だしを麺に直接かけて混ぜるぶっかけは、濃い味を麺全体にまとわせて一気に食べられる形として広まったとされる。釜揚げのように茹でたてをそのまま使う場合と違い、必ず冷水で締める工程を挟むことが、ぶっかけの型を保つ条件とされている。だしを濃く仕立てる工夫は、麺全体に味を行き渡らせるための実用的な理由からとされる。",
+   "body_en": "## What it's made of\nBukkake udon is noodles boiled and chilled in cold water, then doused directly with a concentrated sauce. Unlike zaru, where the noodle is dipped into sauce, here the sauce is poured straight over the noodle from above. Tossing everything together boldly with scallion and grated daikon on top is said to be the standard way of eating it.\n\n## How it's made\nBoiled noodles are rinsed firm in cold water, plated, and doused directly with concentrated sauce. Condiments such as scallion and grated daikon go on top, and the whole bowl is said to be mixed together with chopsticks so the sauce coats every strand before eating. A warm version, using heated broth instead, is also said to exist, giving a choice of hot or cold.\n\n## Why it took this shape\nSet against zaru udon, where the noodle is dipped into sauce, bukkake — sauce poured directly over the noodle and mixed through — is said to have spread as a way to coat the whole bowl in strong flavor and eat it in one go. Unlike kama-age, which uses the noodle straight from boiling, chilling it in cold water first is said to be the condition that keeps bukkake its own distinct form.",
+   "sources": [
+    {
+     "title": "おさえておきたい主なメニュー｜讃岐うどん",
+     "url": "https://www.my-kagawa.jp/udon/feature/sanukiudon/mainmenu",
+     "publisher": "香川県観光協会公式サイト うどん県旅ネット",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kamaage-udon",
+     "relation_type": "対比",
+     "basis": "冷水で締めてからだしをかけるぶっかけと、茹でたてを締めずそのまま供する釜揚げは、麺を締めるか締めないかで対になる関係であるため"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "primary_style": ""
+  },
+  {
+   "slug": "kamaage-udon",
+   "name_ja": "釜揚げうどん",
+   "name_romaji": "Kamaage Udon",
+   "name_en": "Kamaage udon — noodles moved from the pot to the bowl without ever being rinsed",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "釜で茹で上がった麺を、水で締めずにゆで汁ごと器へ移して食べるうどん。冷水で締めないぶんふんわりとした食感になるとされ、つけだしに少しずつつけながら食べるのが定番という。",
+   "summary_en": "Udon moved straight from the pot to the bowl, boiling water and all, without ever being rinsed in cold water. Skipping that chill is said to leave the noodle soft and fluffy, and dipping it a little at a time into a separate sauce is said to be the standard way of eating it.",
+   "body_ja": "## 何でできているか\n釜で茹で上がった麺を、冷水で締めずにゆで汁ごと器に移したものとされる。締める工程を踏まないため、麺は柔らかくふんわりとした食感になるという。ざるやぶっかけのような張りのある食感とは対照的な、もちっとした温かい口当たりが持ち味とされ、湯気とともに立つ香りも楽しみの一つといい、寒い時期にとくに好まれるという。\n\n## どう作るのか\n釜で茹でた麺を、湯を切らずにそのまま器へ移す。つけだしは別の器に用意し、麺を少しずつ取ってつけながら食べるとされる。締めていない麺は時間が経つとふやけやすいため、茹でたてをすぐに出す店では、この一手間を省いた分だけ提供の速さが持ち味になるという。ゆで汁ごと供することで、麺の甘みがより感じやすくなるとも語られる。\n\n## なぜこの形になったのか\n冷水で締める工程を省くことで、茹でたての熱と柔らかさをそのまま生かせるとされ、締める手間がかからない分、茹で上がってすぐに出せるという実用的な利点もあったと考えられる。ざるやぶっかけが冷たい食感を追求したのに対し、釜揚げは茹でたての状態そのものを味わう食べ方として、対照的な位置づけを保ってきたという。",
+   "body_en": "## What it's made of\nKamaage udon is noodles moved from the pot to the bowl, boiling water and all, without ever being rinsed in cold water. Skipping that step is said to leave the noodle soft and fluffy. Where zaru or bukkake prize a taut, chilled bite, kamaage's appeal is said to be its warm, mochi-like softness instead.\n\n## How it's made\nNoodles boiled in the pot are moved straight to the bowl, water and all, with no draining or rinsing. A separate dipping sauce is set alongside, and the noodle is taken a little at a time and dipped before eating. Because an unrinsed noodle is said to soften further as time passes, serving it the moment it is done boiling is said to be part of the point.\n\n## Why it took this shape\nSkipping the cold-water rinse is said to keep the noodle's fresh-boiled heat and softness intact, and it is thought to have carried the practical advantage of letting a bowl go out the moment it finishes boiling, with no extra step. Where zaru and bukkake chase a chilled bite, kamaage is said to hold the opposite position — tasting the noodle in the very state it left the pot.",
+   "sources": [
+    {
+     "title": "おさえておきたい主なメニュー｜讃岐うどん",
+     "url": "https://www.my-kagawa.jp/udon/feature/sanukiudon/mainmenu",
+     "publisher": "香川県観光協会公式サイト うどん県旅ネット",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kamatama-udon",
+     "relation_type": "対比",
+     "basis": "つけだしに麺をつけて食べる釜揚げと、卵と醤油を絡めて食べる釜玉は、ともに締めない茹でたての麺を使いながら仕立て方が対になる関係であるため"
+    }
+   ],
+   "tags": [
+    "egg"
+   ],
+   "primary_style": ""
+  },
+  {
+   "slug": "kamatama-udon",
+   "name_ja": "釜玉うどん",
+   "name_romaji": "Kamatama Udon",
+   "name_en": "Kamatama udon — hot noodles straight from the pot, tossed with a raw egg and soy sauce",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "釜で茹で上がった麺を水で締めずに器へ移し、生卵と醤油を絡めて食べるうどん。混ぜると熱々の麺に卵がとろりとからみ、香りとコクが立つとされる。釜揚げに卵と醤油を加えた食べ方として広まったという。",
+   "summary_en": "Noodles moved straight from the pot to the bowl, unrinsed, and tossed with a raw egg and soy sauce. Mixing it together is said to coat the piping-hot noodles in a silky egg, bringing out both aroma and richness. It is said to have spread as kamaage udon with egg and soy sauce added.",
+   "body_ja": "## 何でできているか\n釜で茹で上がった麺を水で締めずに器に移し、生卵と醤油をからめたものとされる。麺の熱で卵が半分ほど火を通り、とろりとした半熟の状態で麺にまとわりつくという。混ぜたときに立つ卵と醤油の香ばしい香りが持ち味とされ、シンプルな見た目に反して奥深い一杯とされ、卵かけご飯に通じる素朴さがあるとも語られ、忙しい朝にもさっと作れる手軽さが好まれているという。\n\n## どう作るのか\n釜から上げたての熱い麺を、湯を切って器に盛り、生卵を割り入れて醤油をかけ、手早く混ぜ合わせるとされる。麺が冷めないうちに手早く仕上げることが求められ、卵が麺の熱でほどよく固まる加減を見極めるのが腕の見せどころだという。だし醤油を使う店もあり、味の仕立てに違いが出るとされ、卵の鮮度が味を大きく左右するともいわれる。\n\n## なぜこの形になったのか\nつけだしにつけて食べる釜揚げに対し、卵と醤油を直接からめる釜玉は、つけだしを別に用意する手間を省いた、より手軽な食べ方として広まったとされる。茹でたての熱をそのまま生かす釜揚げの発想を土台に、卵という一素材を加えるだけで別の一杯に仕立て直した工夫だといえる。忙しい時間帯でも手早く出せることも、広まった理由の一つとされる。",
+   "body_en": "## What it's made of\nKamatama udon is noodles moved straight from the pot to the bowl, unrinsed, tossed with a raw egg and soy sauce. The noodle's own heat is said to half-cook the egg, leaving it soft and silky as it coats the strands. The aroma the egg and soy sauce give off once mixed is said to be the dish's main appeal.\n\n## How it's made\nHot noodles fresh from the pot are drained and plated, a raw egg cracked over them, soy sauce added, and the whole bowl mixed together quickly. Working fast before the noodle cools is said to matter, and judging exactly how much the egg firms up from the noodle's own heat is said to be where a maker's skill shows.\n\n## Why it took this shape\nSet against kamaage, where the noodle is dipped into a separately prepared sauce, kamatama — tossing the noodle with egg and soy sauce directly — is said to have spread as a quicker way of eating that skips preparing a separate dip. Building on kamaage's idea of using the noodle's own fresh-boiled heat, adding just one more ingredient, the egg, is said to have turned it into a different bowl altogether.",
+   "sources": [
+    {
+     "title": "おさえておきたい主なメニュー｜讃岐うどん",
+     "url": "https://www.my-kagawa.jp/udon/feature/sanukiudon/mainmenu",
+     "publisher": "香川県観光協会公式サイト うどん県旅ネット",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "koikuchi-shoyu",
+     "relation_type": "使用食材",
+     "basis": "釜玉うどんは生卵とともに醤油を直接からめて仕立てるとされるため"
+    }
+   ],
+   "tags": [
+    "egg"
+   ],
+   "primary_style": ""
+  },
+  {
+   "slug": "niku-udon",
+   "name_ja": "肉うどん",
+   "name_romaji": "Niku Udon",
+   "name_en": "Niku udon — kake udon topped with sweet-and-savory simmered beef",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "かけうどんに甘辛く味付けした牛肉をのせたうどん。だしの効いたつゆに、しっかり煮込んだ牛肉の旨みが溶け出すとされる。地域によっては牛すじや牛ほほ肉を使うなど、使う部位や味付けに違いがあるという。",
+   "summary_en": "Kake udon topped with beef simmered in a sweet-savory seasoning. The beef's own savoriness is said to melt into the dashi-based broth. Which cut is used and how it is seasoned is said to vary by region — some areas favor beef tendon or cheek meat instead of thin-sliced beef.",
+   "body_ja": "## 何でできているか\nかけうどんに、甘辛く煮た牛肉をのせたものとされる。牛肉の脂と甘辛い煮汁がだしに溶け出し、コクのある一杯になるという。地域によっては牛すじや牛ほほ肉をじっくり煮込んだものを使うこともあり、部位や煮込み方に土地の個性が出るとされ、同じ名でも中身が大きく違うことがあるといい、旅先で食べ比べる楽しみもあるとされる。\n\n## どう作るのか\n牛肉を醤油と砂糖などで甘辛く煮て、かけうどんのつゆとだしにのせるとされる。牛すじやほほ肉を使う場合は、柔らかくなるまでじっくり時間をかけて煮込むという。仕上げにしょうがを添える店もあり、脂のコクをさっぱりとまとめる工夫とされ、煮汁の甘辛さの加減が店ごとの味を分けるといい、煮込む時間の長さも部位によって変わるという。\n\n## なぜこの形になったのか\nかけうどんという素朴な土台に、腹持ちのよい牛肉をのせるという工夫は、だしの風味だけでは物足りないときに具材で満足感を足すという発想から広まったと考えられる。地域ごとに手に入りやすい部位や味付けが異なることが、同じ「肉うどん」でも土地によって中身が変わる理由になっているという。素朴なだしに濃い味の具をぶつける組み合わせが、幅広く好まれてきたと考えられる。",
+   "body_en": "## What it's made of\nNiku udon is kake udon topped with beef simmered in a sweet-savory seasoning. The beef's fat and its sweet-savory simmering liquid are said to melt into the dashi, giving the bowl real richness. Some regions use beef tendon or cheek meat, slow-simmered instead, giving the dish a different regional cast depending on the cut and how long it is cooked.\n\n## How it's made\nBeef is simmered in soy sauce and sugar until sweet and savory, then set atop kake udon's broth and dashi. Where tendon or cheek meat is used, it is said to be simmered slowly until tender. Some shops finish the bowl with ginger, said to cut through the richness of the fat.\n\n## Why it took this shape\nTopping the plain base of kake udon with hearty beef is thought to have spread from the idea that dashi alone sometimes needs a heartier topping to satisfy. Which cut is easy to come by, and how it gets seasoned, is said to differ from place to place — the reason the same name, niku udon, can mean a different bowl depending on where it is served.",
+   "sources": [
+    {
+     "title": "おさえておきたい主なメニュー｜讃岐うどん",
+     "url": "https://www.my-kagawa.jp/udon/feature/sanukiudon/mainmenu",
+     "publisher": "香川県観光協会公式サイト うどん県旅ネット",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kake-udon",
+     "relation_type": "派生",
+     "basis": "香川県観光協会の説明が、かけうどんに甘辛い牛肉をのせた形として肉うどんを位置づけているため"
+    }
+   ],
+   "tags": [
+    "beef"
+   ],
+   "primary_style": ""
+  },
+  {
+   "slug": "curry-udon",
+   "name_ja": "カレーうどん",
+   "name_romaji": "Curry Udon",
+   "name_en": "Curry udon — dashi and curry combined into a broth poured over hot noodles",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "だしとカレーを合わせたつゆを熱々の麺にかけたうどん。西洋から伝わったカレー粉を、和風のだしと組み合わせて仕立てるとされる。とろみのあるつゆが麺によくからみ、汁が飛びやすいことから食べ方にもひと工夫いるという。",
+   "summary_en": "Udon covered in a broth that combines dashi with curry. It is said to bring Western curry powder together with Japanese-style dashi. The thickened broth is said to cling well to the noodle, though it is prone to splashing, calling for a bit of care in how it is eaten.",
+   "body_ja": "## 何でできているか\nだしとカレーを合わせたつゆを、湯で温めた麺にかけたものとされる。カレー粉のスパイスの香りと、だしのうまみが重なり合うのが持ち味だという。片栗粉などでとろみをつけることが多く、つゆが麺によくからむとされ、体が温まる一杯として寒い季節にも好まれるといい、子どもにも食べやすい辛さに調整する店も多いという。\n\n## どう作るのか\nだしをカレー粉やカレールウと合わせて煮込み、とろみをつけてから、湯で温めた熱々の麺にかけて仕上げるとされる。とろみのあるつゆは飛び散りやすいため、器を傾けたりすすったりする際に注意が必要だと語られ、食べ方そのものに独特の作法が生まれているという。だしの配合次第で和風にも洋風にも寄せられる懐の深さがあるとされる。\n\n## なぜこの形になったのか\n西洋から伝わったカレーという食材を、だしをとって食べる和風のうどんに組み合わせるという発想は、洋食が日本の食卓に取り入れられていく明治期以降の流れの中で育まれたと考えられる。カレーライスやカレーパンと並び、カレーという洋食由来の味を和食の器に落とし込んだ一例とされる。だしとの相性のよさが、この組み合わせを定番として定着させたと考えられる。",
+   "body_en": "## What it's made of\nCurry udon is noodles reheated in hot water, covered in a broth that combines dashi with curry. Curry powder's spice aroma layering over dashi's savoriness is said to be the appeal. The broth is often thickened with starch, said to help it cling well to the noodle.\n\n## How it's made\nDashi is simmered together with curry powder or curry roux, thickened, then poured over noodles reheated in hot water. The thickened broth is said to splash easily, calling for some care in how the bowl is tilted or the noodle slurped — a particular manner of eating has grown up around the dish because of it.\n\n## Why it took this shape\nPairing curry, brought in from the West, with udon, a dashi-based noodle rooted in Japanese cooking, is thought to have grown out of the broader Meiji-era current of Western dishes finding their way onto Japanese tables. Alongside curry rice and curry bread, it stands as one example of a Western-derived flavor poured into a Japanese noodle bowl.",
+   "sources": [
+    {
+     "title": "おさえておきたい主なメニュー｜讃岐うどん",
+     "url": "https://www.my-kagawa.jp/udon/feature/sanukiudon/mainmenu",
+     "publisher": "香川県観光協会公式サイト うどん県旅ネット",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kake-udon",
+     "relation_type": "派生",
+     "basis": "香川県観光協会の説明が、だしと合わせたカレーを熱い麺にかけた形としてカレーうどんを位置づけているため"
+    }
+   ],
+   "tags": [
+    "spicy",
+    "yoshoku"
+   ],
+   "primary_style": ""
+  },
+  {
+   "slug": "nabeyaki-udon",
+   "name_ja": "鍋焼きうどん",
+   "name_romaji": "Nabeyaki Udon",
+   "name_en": "Nabeyaki udon — udon simmered and served bubbling in its own small earthen pot",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "一人前用の小さな土鍋でうどんを煮込み、そのまま食卓に出すうどん。元治2年（1865年）初演の芝居の台詞に記録が残るとされ、大坂の屋台から明治6、7年ごろ東京へ伝わったという。冬場に人気のうどんとされる。",
+   "summary_en": "Udon simmered in a small, individual earthen pot and brought to the table still cooking. It is said to be recorded in the dialogue of a play first performed in 1865, spreading from Osaka's street stalls to Tokyo around 1873 or 1874. It is said to be especially popular in winter.",
+   "body_ja": "## 何でできているか\n一人前用の小さな土鍋にうどんと具材を入れ、煮込んだまま食卓に出すものとされる。土鍋が熱を保つため、食べ終わるまで冷めにくいという。卵や天ぷら、鶏肉、かまぼこなど具だくさんに仕立てられることが多いとされ、一杯で満足できるボリュームがあるといい、家庭でも作られる定番の献立の一つとされ、鍋ごと運ばれる見た目のごちそう感も好まれているという。\n\n## どう作るのか\n小ぶりの土鍋にだしと麺を入れて煮込み、卵や具材を加えてそのまま火にかけた状態で供するとされる。土鍋ごと食卓に運ばれるため、最後の一口まで熱々のまま食べられるという。この調理法を発展させたものが、大阪の「うどんすき」や東京の「よせ鍋」になったとも語られ、一人前の鍋という形式そのものが後世に影響を残したといえる。\n\n## なぜこの形になったのか\n記録に残る最古とされるのは、明治維新の3年前、元治2年（1865年）初演の芝居の台詞とされ、当時は大坂で屋台の夜売りとして流行していたという。東京に伝わったのは明治6、7年ごろとされ、それまで屋台を出していた夜そば売りが、鍋焼きうどんの登場によってたちまち姿を消したと伝わる。冬の寒さをしのぐ一杯として、季節の風物詩のように語られてきたという。",
+   "body_en": "## What it's made of\nNabeyaki udon is noodles and toppings simmered in a small, individual earthen pot and brought to the table still cooking. Because the pot holds its heat, the bowl is said to stay hot until the last bite. Egg, tempura, chicken, and fish cake are said to be common, often piled on generously.\n\n## How it's made\nDashi and noodles are simmered in a small earthen pot, egg and other toppings added, and the whole thing served still over heat. Carried to the table pot and all, it is said to stay piping hot down to the final bite. This method, taken further, is said to have grown into Osaka's udon-suki and Tokyo's yose-nabe.\n\n## Why it took this shape\nThe earliest known record is said to be a line of dialogue from a play first performed in 1865, three years before the Meiji Restoration, when the dish was already popular as a nighttime street-stall item in Osaka. It is said to have reached Tokyo around 1873 or 1874, where the late-night soba vendors who had worked the streets before it are said to have disappeared almost overnight once nabeyaki udon arrived.",
+   "sources": [
+    {
+     "title": "鍋焼きうどん | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/zatsugaku/10/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kake-udon",
+     "relation_type": "対比",
+     "basis": "丼でそのまま出すかけうどんに対し、土鍋で煮込んだまま食卓に出す鍋焼きは、供し方そのものが対になる関係であるため"
+    }
+   ],
+   "tags": [
+    "egg"
+   ],
+   "primary_style": ""
+  },
+  {
+   "slug": "tenpura-udon",
+   "name_ja": "天ぷらうどん",
+   "name_romaji": "Tenpura Udon",
+   "name_en": "Tenpura udon — hot udon topped with deep-fried shrimp or other tempura",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "かけうどんに天ぷらをのせたうどん。えび天が定番の具材とされ、江戸時代からそば屋の種物として天ぷらをのせる食べ方が広まったのと同じ流れが、うどんにも及んだと考えられている。",
+   "summary_en": "Kake udon topped with deep-fried tempura, typically shrimp. The same Edo-period custom of topping noodles with tempura, which spread through soba shops, is thought to have carried over to udon as well.",
+   "body_ja": "## 何でできているか\nかけうどんに天ぷらをのせたものとされる。えびの天ぷらが定番の具材で、揚げたての衣がだしを吸って少しずつふやけていく食感の変化も楽しみの一つとされる。彩りよく花のように揚がった衣が、讃岐うどんなどの丼を華やかに見せるといい、見た目の満足感も大きいとされ、写真映えする品書きとしても語られることがあるという。\n\n## どう作るのか\nかけうどんのだしに、揚げたての天ぷらをそのままのせて供するとされる。天ぷらを別皿に添える店もあり、つゆに浸す加減を食べる側が選べるようにする工夫もあるという。衣の厚みや揚げ油の質が、店ごとの個性を分ける要素とされ、揚げたてを出すタイミングにも気が配られるといい、注文が入ってから揚げる店もあるという。\n\n## なぜこの形になったのか\nそば屋の種物として天ぷらをのせる食べ方は江戸時代から記録があるとされ、同じ小麦粉の麺であるうどんにも、天ぷらをのせるという発想がそのまま広まったと考えられている。だしの効いた丼に、海老の香ばしさと衣の食感を足すことで、素朴なかけうどんに満足感を加える型として定着したという。そばとうどんの双方で並び立つ品書きになったことが、この食べ方の広がりを物語っている。",
+   "body_en": "## What it's made of\nTenpura udon is kake udon topped with deep-fried tempura, typically shrimp. The freshly fried batter soaking up the broth and softening bit by bit is said to be part of the pleasure, and the tempura's flower-like shape is said to give a bowl of Sanuki udon and the like a striking look.\n\n## How it's made\nFreshly fried tempura is set directly on top of a bowl of kake udon's broth. Some shops serve the tempura on a separate plate instead, letting the diner decide how much to let it soak. The thickness of the batter and the quality of the frying oil are said to be where each shop's character shows.\n\n## Why it took this shape\nTopping a noodle with tempura is recorded at soba shops from the Edo period onward, and the same idea is thought to have carried over just as directly to udon, a noodle made from the same wheat flour. Adding shrimp's aroma and the batter's texture to a dashi-rich bowl is said to have settled in as a way of giving plain kake udon more to satisfy.",
+   "sources": [
+    {
+     "title": "天ぷらそば | そばの散歩道",
+     "url": "https://nichimen.or.jp/know/zatsugaku/32/",
+     "publisher": "日本麺類業団体連合会",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "tenpura-soba",
+     "relation_type": "兄弟",
+     "basis": "そばの種物として広まった天ぷらをのせる食べ方が、同じ小麦粉の麺であるうどんにも展開した、同じ発想の兄弟にあたる食べ方であるため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  },
+  {
+   "slug": "hiyashi-udon",
+   "name_ja": "冷やしうどん",
+   "name_romaji": "Hiyashi Udon",
+   "name_en": "Hiyashi udon — a general name for cold udon dishes eaten to beat the summer heat",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "ざるやぶっかけ、生じょうゆといった冷たい食べ方をまとめて指す呼び名。冷水で締めた麺に、常温のだしよりも濃いめに仕立てただしや薬味を合わせるのが基本とされる。夏場に食が進みやすい食べ方として好まれるという。",
+   "summary_en": "A general name covering the various cold ways of eating udon — zaru, bukkake, and noodles simply doused in raw soy sauce among them. The basic form is said to pair chilled noodles with a sauce built stronger than a room-temperature one, along with condiments. It is said to be favored for going down easily in summer's heat.",
+   "body_ja": "## 何でできているか\nざるやぶっかけ、生じょうゆうどんなど、冷たく仕立てただしや調味料で食べるうどんをまとめて指す呼び名とされる。冷たい料理は温かい料理よりも味を感じにくくなるとされ、だしはやや濃いめに仕立てるのが基本だという。のどごしのよさが夏場にとくに好まれる理由とされ、水分補給を兼ねた食べ方としても語られ、家庭の食卓にも定番として並ぶという。\n\n## どう作るのか\n茹でた麺を冷水でしっかり締め、濃いめのだしやしょうゆをかけて、薬味とともに食べるとされる。しょうゆ・みりん・だしをおおむね1対1対8の割合で合わせるのが目安とされ、そこにねぎやみょうが、生姜といった薬味を添えて仕上げるという。トマトや氷を添える現代風の工夫も見られるとされ、家庭ごとに好みの薬味の組み合わせがあるという。\n\n## なぜこの形になったのか\n高温多湿な夏場に食欲が落ちても食べやすいよう、冷たく締めただしと麺を組み合わせる工夫が各地で広まったと考えられている。ざるやぶっかけといった個別の食べ方をまとめて「冷やし」と呼ぶ習慣は、夏という季節そのものがうどんの食べ方を分けてきたことを映しているという。暑さの厳しい土地ほど、この冷たい食べ方が発達してきたとも考えられる。",
+   "body_en": "## What it's made of\nHiyashi udon is a general term covering udon eaten with chilled sauce or seasoning — zaru, bukkake, and noodles simply doused in raw soy sauce among them. Cold food is said to dull the palate compared with hot, so the sauce is typically built a little stronger. The smooth, cool slide of the noodle is said to be what makes it especially popular in summer.\n\n## How it's made\nBoiled noodles are chilled firm in cold water, then covered in a stronger dashi or soy sauce and eaten with condiments. A rough guide of one part soy sauce to one part mirin to eight parts dashi is often cited, finished with scallion, myoga, or ginger.\n\n## Why it took this shape\nPairing chilled noodles with a chilled sauce, easy to eat even when appetite fades in the hot, humid summer, is thought to have spread widely as a practical solution. Lumping zaru, bukkake, and the rest together under the single name hiyashi is said to reflect how the season itself, more than any one recipe, has shaped the many ways udon gets eaten cold.",
+   "sources": [
+    {
+     "title": "おさえておきたい主なメニュー｜讃岐うどん",
+     "url": "https://www.my-kagawa.jp/udon/feature/sanukiudon/mainmenu",
+     "publisher": "香川県観光協会公式サイト うどん県旅ネット",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "zaru-udon",
+     "relation_type": "対比",
+     "basis": "冷やしうどんは冷たい食べ方全般を指す総称で、ざるうどんはそのうち器と盛り付けが定まった具体的な一形態であるため、総称と個別の型という対比で結ぶ"
+    }
+   ],
+   "tags": [
+    "cold_served"
+   ],
+   "primary_style": ""
+  },
+  {
+   "slug": "chikara-udon",
+   "name_ja": "力うどん",
+   "name_romaji": "Chikara Udon",
+   "name_en": "Chikara udon — kake udon topped with a piece of grilled mochi",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "udon",
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "summary_ja": "かけうどんに焼き餅をのせたうどん。餅は米飯よりもカロリーが高く「力が出る」食べ物とされてきたことが名の由来と伝わる。近畿地方では餅を指す女房言葉「おかちん」から「かちんうどん」とも呼ばれるという。",
+   "summary_en": "Kake udon topped with a piece of grilled mochi. The name is said to trace to mochi's reputation as a food that \"gives you strength,\" carrying more calories than plain rice. In the Kinki region it is also called kachin udon, from okachin, an old courtly word for mochi.",
+   "body_ja": "## 何でできているか\nかけうどんに、こんがり焼いた餅をのせたものとされる。餅がだしを吸ってやわらかくなり、麺とはまた違うもちもちとした食感が加わるという。米飯よりもカロリーが高い餅を使うことから「力が出る」食べ物として名付けられたと伝わり、体力を使う仕事の合間に食べられてきたとも語られ、受験や試合の前に験担ぎで食べる人もいるという。\n\n## どう作るのか\n餅を香ばしく焼き、かけうどんのだしの中に加えて供するとされる。餅がだしを吸って柔らかくなりすぎないよう、供するタイミングを見極めるのが工夫の一つだという。近畿地方では「かちんうどん」「かっちんうどん」とも呼ばれ、餅を指す女房言葉「おかちん」に由来するとされる。焼き加減によって香ばしさと柔らかさのバランスが変わるとされる。\n\n## なぜこの形になったのか\n餅は古くから力の出る食べ物と考えられてきたとされ、その縁起をうどんに重ねたのが名の由来と伝わる。全国農業協同組合連合会は、うどんの日とおもちの日の間にあたる8月21日を「みんなで食べよう力うどんの日」と定め、もち米で作る餅の食文化を受け継ぐ機会として位置づけているという。うどんとそばの両方に餅を合わせる文化が、同じ発想として根づいてきたことがうかがえる。",
+   "body_en": "## What it's made of\nChikara udon is kake udon topped with a piece of mochi, grilled until fragrant. The mochi soaks up the broth and softens, adding a chewy texture distinct from the noodle itself. Its higher calorie count compared with plain rice is said to be behind the name, which reads roughly as \"strength udon.\"\n\n## How it's made\nMochi is grilled until fragrant, then added to a bowl of kake udon's broth. Timing when it goes in is said to matter, since letting it soak too long in the broth softens it past the point of interest. In the Kinki region it also goes by kachin udon, said to derive from okachin, an old courtly word for mochi.\n\n## Why it took this shape\nMochi has long been thought of as a food that gives strength, and that association is said to be behind the udon's name. The National Federation of Agricultural Cooperative Associations has designated August 21 — falling between Udon Day and Mochi Day — as a day to eat chikara udon and soba together, positioned as an occasion to keep mochi's food culture alive.",
+   "sources": [
+    {
+     "title": "８月２１日を「みんなで食べよう力うどんの日」、１０月９日を「みんなで食べよう力そばの日」として記念日登録！",
+     "url": "https://www.zennoh.or.jp/press/release/2025/106202.html",
+     "publisher": "全国農業協同組合連合会（JA全農）",
+     "accessed_at": "2026-09-12"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kake-udon",
+     "relation_type": "派生",
+     "basis": "JA全農の告知が、うどんに餅を加えて食べる食文化としてうどんの日の枠組みの中に力うどんを位置づけているため"
+    }
+   ],
+   "tags": [],
+   "primary_style": ""
+  }
+ ]
+}
