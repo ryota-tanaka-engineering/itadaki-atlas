@@ -1,0 +1,538 @@
+{
+ "items": [
+  {
+   "slug": "akita-edokei",
+   "name_ja": "江戸系ラーメン",
+   "name_romaji": "Edokei Ramen",
+   "name_en": "Edokei Ramen — soy ramen crowned with a dissolving chili miso",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "秋田県",
+   "origin_city": "秋田市",
+   "lat": 39.7186,
+   "lng": 140.1024,
+   "primary_style": "醤油",
+   "summary_ja": "醤油ラーメンの表面に、ニラとニンニクを効かせた真っ赤な辛味噌がひとかたまり乗る。溶かしながら食べ進めるうち、あっさりした一杯が少しずつ濃く辛く変わっていく秋田市のご当地ラーメン。",
+   "summary_en": "A soy ramen topped with a knob of bright red chili miso built on garlic and garlic chives. Stirred in gradually as you eat, it turns a mild bowl steadily richer and spicier — a specialty of Akita City.",
+   "body_ja": "## 何でできているか\n澄んだ醤油スープの中央に丸くのっているのは、ニラとニンニク、唐辛子を練り合わせた真っ赤な辛味噌。最初のひと口はスープだけの穏やかな醤油味だが、箸で辛味噌を崩して溶かしていくと、にんにくの香りと辛みが少しずつ広がり、同じ丼が食べ進めるほど別の顔を見せる。チャーシューとメンマ、刻みねぎといったシンプルな具が、変化していくスープの土台を支えている。\n\n## どう作るのか\nスープと辛味噌は別々に仕込まれる。醤油だれとあっさりした出汁を合わせたスープに対し、辛味噌はニラ・ニンニク・唐辛子・味噌を練り合わせて炒め、辛味と香りを凝縮したタレとして丼の中央に乗せる。最初から混ぜずに別立てで提供する構成そのものが、一杯の中で味の移り変わりを起こす仕掛けになっている。どこまで溶かすかは食べる側に委ねられ、店によって辛味噌の配合や辛さも変わる。\n\n## なぜこの形になったのか\n名前の由来は、この一杯を出してきた「大江戸」「小江戸」「仲江戸」といった店名だという。スタミナのつく辛味噌を後から溶かして味を変えられる形式は、同じ一杯を最後まで飽きずに食べさせる工夫として広まったと考えられている。秋田市内では昭和の時代からこの系統の店が営業してきたとされ、後がけで味を変化させる食べ方そのものが、辛味噌ラーメンという枠の中でも土地の個性として残った。",
+   "body_en": "## What it's made of\nAt the center of the clear soy broth sits a round knob of bright red chili miso, worked from garlic chives, garlic, and chili pepper. The first sip is a mild, plain soy flavor, but as you break the miso apart with your chopsticks and let it dissolve, garlic and heat spread through the bowl a little at a time — the same bowl wears a different face the further you eat into it. Simple toppings — char siu, bamboo shoots, chopped scallion — hold up the shifting broth underneath.\n\n## How it's made\nThe broth and the chili miso are prepared separately. A mild stock finished with soy tare forms the base, while the chili miso is garlic chives, garlic, chili, and miso worked together and sautéed into a tare concentrated with heat and aroma, set whole in the center of the bowl. Serving the two unmixed from the start is exactly what sets the flavor shifting mid-bowl. How much you dissolve is left to the eater, and the chili miso's blend and heat vary shop to shop.\n\n## Why it took this shape\nThe name is said to come from the shops that have served this bowl — Ōedo, Koedo, Nakaedo. A format where a stamina-building chili miso is stirred in after the fact, changing the flavor as you go, is thought to have spread as a way to keep the same bowl interesting to the last bite. Shops of this lineage are said to have operated in Akita City since the Shōwa era, and the after-mixed way of eating itself became this locale's signature within the wider world of chili-miso ramen.",
+   "sources": [
+    {
+     "title": "日本ご当地ラーメン総覧vol.6",
+     "url": "https://www.nippon-ramen-fc.org/archives/biblio/b0006",
+     "publisher": "日本ラーメンファンクラブ",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "十文字ラーメン（秋田県）｜ご当地ラーメン探訪",
+     "url": "https://ra-fes.com/gotouchi/archives/314",
+     "publisher": "ラーメンフェス（ご当地ラーメン探訪）",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "秋田の江戸系ラーメン完全ガイド：ニラ辛薬味が決め手の隠れた名店",
+     "url": "https://menma825.com/ooedo-akita/",
+     "publisher": "めんま825",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "jumonji",
+     "relation_type": "対比",
+     "basis": "同じ秋田県のご当地ラーメンだが、十文字は焼干しと鰹節の澄んだ醤油スープ、江戸系は後がけの辛味噌で味を変える食べ方に特徴があり、系譜が異なる"
+    }
+   ],
+   "tags": [
+    "spicy",
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "inaniwa-chuka",
+   "name_ja": "稲庭中華そば",
+   "name_romaji": "Inaniwa Chuka Soba",
+   "name_en": "Inaniwa Chuka Soba — dried noodles made with the Inaniwa udon technique",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "秋田県",
+   "origin_city": "湯沢市稲庭町",
+   "lat": 39.205,
+   "lng": 140.44,
+   "primary_style": "醤油",
+   "summary_ja": "稲庭うどんと同じ手綯い延ばしの製法で作った乾麺の中華そば。比内地鶏と魚介のだしに醤油だれを合わせたスープに、つるりとした喉ごしの麺がよく合う、秋田県湯沢市稲庭発の一杯。",
+   "summary_en": "A dried-noodle ramen made with the same hand-stretched, air-dried technique as Inaniwa udon. Slick, silky noodles carry a soy broth built on Hinai chicken and seafood dashi — a bowl from Inaniwa in Yuzawa City, Akita.",
+   "body_ja": "## 何でできているか\n使う麺は生ではなく乾麺。国産小麦の生地を熟成させながら少しずつ細く延ばし、天日と室内で二日がかりで乾かす、稲庭うどんと同じ手間をかけて作られる。ゆでたては表面がつるりと滑らかで、中はコシの残る独特の食感になる。比内地鶏と魚介を合わせただしに醤油だれを効かせたスープは澄んだ琥珀色で、乾麺特有の締まった喉ごしとよく合う。\n\n## どう作るのか\nうどんを打つときと同じく、生地を綱状に延ばしては休ませる工程を何度も繰り返し、極細の麺に仕上げる。生地を切り出すのではなく延ばして乾かす製法のため、太さを均一に保つのに手間がかかる。だしは比内地鶏の旨みと魚介の香りを二段仕立てで引き出し、地元の醤油蔵の醤油で味を決める。乾麺の保存性を生かし、遠方への土産物としても持ち帰りやすい一杯に仕立てられている。\n\n## なぜこの形になったのか\n湯沢市稲庭の集落は、350年余りにわたって稲庭うどんを作り続けてきた産地。その手延べ・乾燥の技術を持つ職人が、うどんではなく中華麺にこの製法を応用したのが稲庭中華そばのはじまりとされる。乾麺という土地の技術資産があったからこそ、生麺が主流のラーメンの世界でも乾麺仕立ての一杯が成立した。地場産業の技法を隣接ジャンルにそのまま応用した例といえる。",
+   "body_en": "## What it's made of\nThe noodles here aren't fresh — they're dried. A dough of domestic wheat flour is stretched, thinner and thinner as it rests and matures, then air-dried over two days outdoors and in, the same labor that goes into Inaniwa udon. Boiled, the surface turns slick and smooth while the inside keeps a distinctive chew. The broth — Hinai chicken and seafood dashi finished with soy tare — runs clear amber, and its tight, clean finish suits the dried noodle well.\n\n## How it's made\nAs with udon-making, the dough is stretched into a rope and rested, over and over, until it narrows into very thin strands — a process that takes far more care to keep even than simply cutting noodles from a sheet, since it's stretched and dried rather than sliced. The broth draws out Hinai chicken's richness and seafood's aroma in two separate stages, finished with soy from a local brewery. The dried noodle's shelf life also makes this bowl easy to carry home as a souvenir from afar.\n\n## Why it took this shape\nThe Inaniwa district of Yuzawa City has produced Inaniwa udon for over 350 years. Craftsmen who held that hand-stretching, air-drying technique are said to have applied it not to udon but to Chinese-style noodles, giving rise to Inaniwa chuka soba. Because the region already held this technical asset in dried noodles, a dried-noodle bowl could take hold even within a ramen world dominated by fresh noodles — a case of a local trade's technique carried straight into a neighboring genre.",
+   "sources": [
+    {
+     "title": "稲庭中華そば｜秋田「稲庭うどん」の伝統製法で作られたラーメン",
+     "url": "https://serai.jp/gourmet/289387",
+     "publisher": "サライ.jp（小学館）",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "佐藤養悦本舗『稲庭中華そば』",
+     "url": "https://1728udon.com/ina_chuka.html",
+     "publisher": "佐藤養悦本舗",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "inaniwa",
+     "relation_type": "派生",
+     "basis": "稲庭うどんの手綯い延ばし・乾燥の製法をそのまま中華麺に応用して作られている"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "chicken"
+   ]
+  },
+  {
+   "slug": "kosaka-katsu-ramen",
+   "name_ja": "かつラーメン",
+   "name_romaji": "Katsu Ramen",
+   "name_en": "Katsu Ramen — a whole pork cutlet set on soy ramen",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "秋田県",
+   "origin_city": "鹿角郡小坂町",
+   "lat": 40.3236,
+   "lng": 140.7802,
+   "primary_style": "醤油",
+   "summary_ja": "醤油ラーメンの上に、卵でとじたとんかつを丸ごと一枚乗せる。カツ丼とラーメンを一度に味わいたいという発想から生まれたという、秋田県小坂町のボリューム満点の一杯。",
+   "summary_en": "A whole pork cutlet, often bound with egg, set right on top of a soy ramen. Said to have started from wanting katsudon and ramen at once — a hearty bowl from Kosaka, Akita.",
+   "body_ja": "## 何でできているか\n丼の主役は、醤油ラーメンの上に堂々と乗る一枚のとんかつ。揚げたてのカツを卵でふんわりとじたものを丸ごと乗せる店が多く、下のラーメンはくどくならないよう、あっさりした醤油スープに仕立てられている。麺をすすったあとにカツを頬張り、卵の甘みと衣の食感を楽しむという、ラーメンとカツ丼のいいとこ取りのような一杯になっている。\n\n## どう作るのか\nベースになるのは町の食堂で出す普通の醤油ラーメン。そこにとんかつ専用の下ごしらえと揚げの工程が加わる。カツをそのまま乗せる店もあれば、溶き卵でとじてから乗せる店もあり、家庭や店ごとにレシピの幅がある。一つの丼の中でラーメンとカツ丼という別々の料理を両立させるため、スープの塩味や麺の量とのバランスを取りながら仕上げるのがこの一杯の勘どころとされる。\n\n## なぜこの形になったのか\n一説によると、約40年前、小坂町で毎年開かれる七夕祭りの山車作りに携わった人たちが、ラーメンもカツ丼も両方食べたいと言い出したのが始まりという。当初は店の裏メニューだったものが口コミで評判を呼び、町の名物として定着した。特別な素材ではなく、身近にあるカツ丼とラーメンを一つの丼にまとめてしまうという発想そのものが、この一杯の成り立ちを物語っている。",
+   "body_en": "## What it's made of\nThe star of the bowl is a whole pork cutlet, set right on top of a soy ramen. Many shops serve it freshly fried and bound softly with egg, whole; the ramen underneath is kept light and plain in soy broth so it doesn't turn heavy. You slurp the noodles, then bite into the cutlet, taking in the egg's sweetness and the batter's texture — a bowl that grabs the best of both ramen and katsudon at once.\n\n## How it's made\nThe base is an ordinary soy ramen served at the town's diners, onto which a whole separate process of breading and frying a cutlet is added. Some shops set the cutlet on as is; others bind it first with beaten egg — the recipe varies household to household, shop to shop. Getting two separate dishes, ramen and katsudon, to work together in one bowl means balancing the broth's saltiness and the noodle portion against the cutlet, and that balance is said to be where this bowl's craft lies.\n\n## Why it took this shape\nAbout 40 years ago, the story goes, people building floats for Kosaka's annual Tanabata festival said they wanted both ramen and katsudon at once, and that's said to be how this began. What started as an off-menu item at one shop spread by word of mouth and settled in as the town's specialty. Rather than reaching for anything special, the idea of folding two familiar dishes — katsudon and ramen — into a single bowl is itself what this bowl is built on.",
+   "sources": [
+    {
+     "title": "こさかまちかつらーめん（令和5年度文化庁認定「100年フード」）",
+     "url": "https://www.town.kosaka.akita.jp/machinososhiki/kankosangyoka/kankoshokohan/3/syoku/1760.html",
+     "publisher": "秋田県小坂町",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "小坂名物「かつらーめん」、食べ歩き！",
+     "url": "https://nanmoda.jp/2019/12/8722/",
+     "publisher": "なんも大学",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "akita-tempura-chuka",
+     "relation_type": "対比",
+     "basis": "どちらも秋田県内の揚げ物をトッピングする醤油ラーメンだが、かつラーメンはとんかつを丸ごと乗せ、天ぷら中華は天ぷらの衣をスープに溶かして仕立てる点で違う"
+    }
+   ],
+   "tags": [
+    "pork",
+    "egg",
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "akita-tempura-chuka",
+   "name_ja": "秋田天ぷら中華",
+   "name_romaji": "Akita Tempura Chuka",
+   "name_en": "Akita Tempura Chuka — soy ramen floated with a disc of tempura batter",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "秋田県",
+   "origin_city": "南秋田郡五城目町",
+   "lat": 39.9425,
+   "lng": 140.3897,
+   "primary_style": "醤油",
+   "summary_ja": "天ぷらの衣を円く固めて揚げたものを、醤油ラーメンの上にそのまま浮かべる。溶け出した油でスープにコクが増していく、秋田市周辺の五城目町・大仙市に残るご当地の食べ方。",
+   "summary_en": "A round disc of fried tempura batter floated whole on a soy ramen. As it soaks, the broth gains richness from the oil — a local way of eating that survives around Gojōme and Daisen near Akita City.",
+   "body_ja": "## 何でできているか\n丼の表面に浮かぶのは、衣だけを丸く固めて揚げた天ぷら。具のない、あるいはごくわずかな天ぷらの衣そのものが主役で、揚げたてを醤油ラーメンの上にそのまま乗せる。時間が経つにつれて衣が少しずつスープを吸って柔らかくなり、揚げ油のコクがだしに溶け出していく。麺をすすったあとに衣をふやかして食べる、時間差で二度おいしい一杯になっている。\n\n## どう作るのか\n天ぷらは食堂の厨房で注文が入るたびに揚げることが多く、油をたっぷり吸った衣が熱いままスープに投入される。ベースの醤油スープ自体は比較的あっさりとした中華そばで、天ぷらを乗せることを前提に濃すぎない味に調整されている。衣を先に食べるか、スープにふやかしてから食べるかは客の好みに任され、揚げたての香ばしさと、ふやけたあとのとろみのある食感の両方が楽しめるように仕立てられている。\n\n## なぜこの形になったのか\n発祥の経緯は定かではないが、秋田市の北隣の五城目町と南隣の大仙市大曲に、この天ぷら中華を出す食堂が今も数軒ずつ残っている。天ぷらを揚げる食堂文化と中華そばを出す食堂文化が同じ町の中で重なり、両方を一つの丼に乗せてしまうという簡便な発想が根づいたのではないかと考えられている。特別な素材を使わず、揚げ物と中華そばという身近な組み合わせで一杯を成立させている点は、この土地らしい合理性の表れとも読める。",
+   "body_en": "## What it's made of\nFloating on the surface of the bowl is a disc of fried tempura batter, little or no filling inside — the batter itself is the point, set on the soy ramen fresh from the fryer. As time passes it soaks up broth and softens, and the frying oil's richness melts into the stock. Slurp the noodles first, then let the batter soften — this bowl rewards you twice, at two different moments.\n\n## How it's made\nThe tempura is often fried to order in the diner's own kitchen, dropped into the broth still hot and heavy with oil. The base soy broth itself is a relatively plain chuka soba, tuned not too strong on the assumption that the tempura will be added on top. Whether you eat the batter first or let it soften in the broth is left to you — the bowl is built so both the fresh-fried crunch and the soaked, syrupy texture afterward can be enjoyed.\n\n## Why it took this shape\nJust how this began isn't clear, but a handful of diners in Gojōme, just north of Akita City, and in Ōmagari in Daisen City to the south, still serve this tempura chuka today. Where a diner culture built around frying tempura overlapped with one built around chuka soba in the same small towns, the simple idea of setting both on one bowl seems to have taken root. Building a bowl from nothing more special than fried batter and chuka soba, two things already close at hand, reads as a kind of local practicality.",
+   "sources": [
+    {
+     "title": "100年後に残したい名店vol.17",
+     "url": "https://www.nippon-ramen-fc.org/archives/remain/r0017",
+     "publisher": "日本ラーメンファンクラブ",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "【秋田県大仙市】大仙最古の食堂？花火通り商店街の老舗食堂『大来軒』",
+     "url": "https://note.com/kaneyan_akita/n/na9389b9d11e4",
+     "publisher": "note",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "tempura",
+     "relation_type": "使用食材",
+     "basis": "天ぷらの衣をそのままラーメンのトッピングとして使う"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "tori-chuka",
+   "name_ja": "鳥中華",
+   "name_romaji": "Tori Chuka",
+   "name_en": "Tori Chuka — Chinese noodles served in soba broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "山形県",
+   "origin_city": "天童市",
+   "lat": 38.3567,
+   "lng": 140.373,
+   "primary_style": "醤油",
+   "summary_ja": "そば屋のまかないから生まれた、そばつゆで食べる中華麺。鶏肉と天かす、海苔をのせて黒こしょうを効かせる、山形県天童市発祥の「そば屋のラーメン」。",
+   "summary_en": "Chinese-style noodles served in soba broth — born as staff food at a soba shop. Chicken, tenkasu, and nori on top, black pepper for edge: a \"soba shop's ramen\" from Tendo, Yamagata.",
+   "body_ja": "## 何でできているか\nどんぶりの中身はラーメンの麺なのに、スープはそば屋の和風つゆ。鰹節や昆布でとっただしに、そば屋ならではの醤油だれを合わせた澄んだスープに、鶏肉と天かす、刻み海苔をのせる。天かすは時間とともに油をスープに溶かし出し、ラーメンでいう背脂のような役割を果たす。仕上げに効かせる黒こしょうが、和風のだしにぴりっとした輪郭を与える。\n\n## どう作るのか\nそば屋の厨房にすでにある道具と材料だけで作れるのがこの一杯の特徴。そばつゆと同じだしをベースに、そばの代わりに中華麺をゆでて合わせる。具材も鶏肉・天かす・海苔と、そば屋の他のメニューでも使うものを転用している。新しい設備や仕入れを増やさず、店にあるものの組み合わせだけで一品を仕立てるという作り方そのものが、まかない発祥という成り立ちをよく表している。\n\n## なぜこの形になったのか\n発祥は天童市の老舗そば店とされ、もともとは従業員のまかない料理だったという。そばつゆが余ったときに、あり合わせの中華麺を合わせて食べていたのがはじまりと伝わる。そば屋が中華麺を扱うこと自体は珍しくないが、それをそばつゆで食べるという逆転の発想がまかないの中から生まれ、評判を呼んで正式なメニューに格上げされたと考えられている。",
+   "body_en": "## What it's made of\nThe bowl holds ramen noodles, but the broth is a soba shop's own dashi. A clear stock of bonito flake and kelp, finished with the soy tare a soba shop already keeps on hand, carries chicken, tenkasu (fried batter bits), and shredded nori. Over time the tenkasu bleeds its oil into the broth, playing a role much like back fat does in ramen. A finishing crack of black pepper gives the otherwise gentle, Japanese-style dashi a sharper edge.\n\n## How it's made\nWhat sets this bowl apart is that it can be made entirely from what a soba kitchen already has on hand. The same dashi used for soba broth forms the base, with Chinese-style noodles boiled and swapped in for soba. Even the toppings — chicken, tenkasu, nori — are things the shop already uses on other menu items. Building a dish purely by recombining what's already there, without adding new equipment or new sourcing, is exactly what shows through from its start as staff food.\n\n## Why it took this shape\nThe dish is said to have originated at a long-established soba shop in Tendo City, first as food the staff ate themselves. When soba broth was left over, the story goes, they'd toss in whatever Chinese-style noodles were on hand and eat that instead. Soba shops carrying Chinese-style noodles isn't unusual on its own, but eating them in soba broth was the inverted idea that grew out of staff food here, and it's thought to have won enough of a following to be promoted to the regular menu.",
+   "sources": [
+    {
+     "title": "鶏とそばつゆがしみじみ美味しい山形のラーメン「鳥中華」の作り方",
+     "url": "https://www.hotpepper.jp/mesitsu/entry/tae-mikubo/2023-00825",
+     "publisher": "メシ通（リクルート）",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "山形県発祥 鳥中華",
+     "url": "https://www.hoshinet.co.jp/recipe/detail.cgi?id=133",
+     "publisher": "星野物産株式会社",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "元祖鳥中華｜手打ち 水車生そば",
+     "url": "https://suisyasoba.com/",
+     "publisher": "水車生そば",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "yamagata-hiyashi",
+     "relation_type": "対比",
+     "basis": "同じ山形県の名物麺だが、鳥中華はそば屋発祥の温かい和風だしの中華麺、冷やしラーメンは中華そば店発祥の冷たい一杯という違いがある"
+    }
+   ],
+   "tags": [
+    "chicken",
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "tsuruoka-bushikei",
+   "name_ja": "鶴岡節系ラーメン",
+   "name_romaji": "Tsuruoka Bushikei Ramen",
+   "name_en": "Tsuruoka Bushikei Ramen — soy ramen layered with dried-fish stock",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "山形県",
+   "origin_city": "鶴岡市",
+   "lat": 38.7274,
+   "lng": 139.8266,
+   "primary_style": "醤油",
+   "summary_ja": "鰹節や宗田節、飛魚節を効かせただしに、豚骨や鶏ガラを合わせて作る醤油スープ。複数の節を使い分けることでだしに奥行きを持たせる、庄内浜の乾物文化が息づく山形県鶴岡市周辺の醤油ラーメンの系統。",
+   "summary_en": "A soy broth that layers dried-fish stock — bonito, sōda-bushi, flying fish — over a pork- or chicken-bone base. A soy ramen lineage from around Tsuruoka, Yamagata, carrying the Shōnai coast's dried-goods culture.",
+   "body_ja": "## 何でできているか\nスープの奥に潜むのは、鰹節や宗田節、飛魚節といった魚の乾物の香り。動物系のだしに、これらの節をブレンドしただしを合わせ、醤油だれでまとめた琥珀色のスープに仕上げる店が鶴岡市とその周辺には複数ある。単純な魚介豚骨ではなく、複数の節を使い分けることでだしに厚みと奥行きを持たせるのがこの系統の特徴とされる。中太のちぢれ麺がスープをよく持ち上げる。\n\n## どう作るのか\n豚骨や鶏ガラをベースの出汁として長時間炊く一方で、鰹節・宗田節・飛魚節など数種類の節を別立てで煮出し、両者を合わせてから醤油だれで味を決める。節の種類や配合、抽出時間は店ごとに異なり、同じ「節系」と呼ばれていても一杯ごとに輪郭が違う。動物系と魚系の二本立てでだしを組むという構成そのものが、この系統に共通する骨格になっている。\n\n## なぜこの形になったのか\n庄内浜は飛魚漁などが盛んな土地で、節や乾物を作る文化が古くから根づいてきたとされる。海に面した鶴岡の食文化の中で、身近にあった魚の乾物を動物系だしと組み合わせてラーメンに仕立てる店が増え、節系と呼ばれる一群を形づくっていったと考えられている。魚介だしを単体で立たせず、豚骨や鶏ガラと合わせて厚みを出す発想は、乾物文化が根付く庄内らしい組み合わせ方とも読める。",
+   "body_en": "## What it's made of\nBeneath the surface of the broth lingers the aroma of dried fish — bonito, sōda-bushi, flying fish. Several shops in and around Tsuruoka City layer a stock blended from these dried flakes over an animal-based stock, finished with soy tare into an amber broth. Rather than a simple seafood-and-pork-bone mix, this lineage is said to build depth by working several different dried flakes at once. Medium-thick wavy noodles carry the broth well.\n\n## How it's made\nPork bone or chicken frame simmers for hours as the base stock, while several kinds of dried flake — bonito, sōda-bushi, flying fish among them — are steeped separately; the two are combined and finished with soy tare. The mix of flakes, their ratio, and how long they're steeped vary from shop to shop, so even bowls that share the label 'bushikei' carry a different edge each time. Building the stock on two tracks at once, animal and fish, is the shared backbone across this lineage.\n\n## Why it took this shape\nThe Shōnai coast has long been a center of flying-fish fishing, and a culture of making dried flakes and preserved goods is said to run deep here. Within Tsuruoka's food culture, facing the sea, more shops are thought to have combined the dried fish already close at hand with animal-based stock to build a ramen, gradually forming the group now called bushikei. Rather than letting seafood stock stand alone, layering it onto pork bone or chicken frame for extra weight reads as a combination true to Shōnai's dried-goods culture.",
+   "sources": [
+    {
+     "title": "酒田・鶴岡・湯野浜・温海のラーメン屋",
+     "url": "https://www.cocolocala.jp/yamagata/d29/spots/restaurant/ramen",
+     "publisher": "こころから",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "中華そば 河畔",
+     "url": "https://atsumi-spa.or.jp/shop/insyokuten/kahan/",
+     "publisher": "あつみ観光協会",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "sakata",
+     "relation_type": "対比",
+     "basis": "同じ庄内地方の醤油ラーメンだが、酒田ラーメンは自家製麺と鶏ガラ・魚介だしの直球の醤油味、鶴岡の節系は複数の節を動物系だしに重ねる点で異なる"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "nagai-baniku-chashu",
+   "name_ja": "馬肉チャーシューラーメン",
+   "name_romaji": "Baniku Chashu Ramen",
+   "name_en": "Baniku Chashu Ramen — soy ramen topped with horse meat char siu",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "山形県",
+   "origin_city": "長井市",
+   "lat": 38.1231,
+   "lng": 140.0086,
+   "primary_style": "醤油",
+   "summary_ja": "豚肉ではなく馬肉をじっくり煮込んだチャーシューを乗せる、山形県長井市の醤油ラーメン。かつて馬とともに生きた土地の記憶を、丼の上に一枚の肉として残している。",
+   "summary_en": "Char siu simmered not from pork but from horse meat, set on a soy ramen in Nagai City, Yamagata. A slice of meat on the bowl carries the memory of a place once bound up with horses.",
+   "body_ja": "## 何でできているか\nチャーシューの正体は豚ではなく馬。脂の少ない赤身の馬肉を醤油だれでじっくり煮込み、薄切りにして乗せる。淡白な見た目に反して味はしっかりしみ込んでおり、噛むとほろりとほどけるような柔らかさがある。スープは細めのストレート麺によく絡む、濃いめの醤油ベース。脂ののった豚チャーシューとは違う、あっさりとした後味の肉が一杯の輪郭を作っている。\n\n## どう作るのか\n下ごしらえの中心は馬肉を煮る工程。醤油だれと合わせただしでアクを取りながら時間をかけて煮込み、余分な脂を落としつつ肉に味をしみ込ませる。ベースのラーメン自体は町の食堂で出す普通の醤油ラーメンで、細めのストレート麺を合わせる店が多い。豚肉のチャーシューを煮る手順をそのまま馬肉に置き換えるかたちで仕込まれており、素材だけが土地の事情に合わせて変わっているのがこの一杯の作り方といえる。\n\n## なぜこの形になったのか\n長井は置賜地方の中でも古くから馬とともに暮らしてきた土地で、昭和初期には草競馬場も作られたとされる。馬肉が身近な食材として手に入りやすかった環境が、豚肉の代わりに馬肉をチャーシューに使うという発想の土台になったと考えられている。町では「ながい馬肉の日」も制定されており、丼の上の一枚の肉が、かつて馬と共にあった土地の暮らしを今に伝えている。",
+   "body_en": "## What it's made of\nThe char siu here isn't pork — it's horse. Lean, low-fat horse meat is simmered slowly in soy tare, then sliced thin and set on top. Plain as it looks, the flavor runs all the way through, and it gives softly at the bite. The broth is a fairly strong soy base that clings well to thin straight noodles. Meat that finishes cleaner than fatty pork char siu shapes this bowl's whole character.\n\n## How it's made\nThe core of the prep is simmering the horse meat — skimmed slowly in a soy-based stock over time, shedding excess fat as the flavor works its way in. The ramen underneath is an ordinary soy ramen of the kind served at the town's diners, usually paired with thin straight noodles. It's built by swapping horse meat straight into the same process normally used to simmer pork char siu — only the ingredient shifts to match what the place has on hand.\n\n## Why it took this shape\nNagai, within the wider Okitama region, has long lived alongside horses; a rough-and-ready racetrack is said to have gone up here in the early Shōwa era. Horse meat being an easy, familiar ingredient to get hold of is thought to be the ground this idea grew from — using horse instead of pork for the char siu. The town has even set 'Nagai Horse Meat Day,' and this one slice of meat on the bowl still carries forward a way of life once lived alongside horses.",
+   "sources": [
+    {
+     "title": "馬肉ラーメン｜観光スポット（長井市・置賜地方）",
+     "url": "https://yamagatakanko.com/attractions/detail_13821.html",
+     "publisher": "やまがたへの旅（山形県公式観光サイト）",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "長井市には、馬肉という地域の歴史と文化が息づく",
+     "url": "https://bongheiberg.yamagata.jp/banikuramen-nagai/",
+     "publisher": "やまがたグルメ",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "akayu-karamiso",
+     "relation_type": "対比",
+     "basis": "同じ山形県置賜地方のご当地ラーメンだが、赤湯は辛味噌を後がけする味の変化が特徴で、長井は馬肉チャーシューという素材そのものに土地の歴史が表れている"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "kahoku-niku-chuka",
+   "name_ja": "肉中華",
+   "name_romaji": "Niku Chuka",
+   "name_en": "Niku Chuka — chilled Chinese noodles in sweet-salty hen tare",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "山形県",
+   "origin_city": "西村山郡河北町",
+   "lat": 38.4494,
+   "lng": 140.2853,
+   "primary_style": "醤油",
+   "summary_ja": "冷たい肉そばのタレに中華麺を合わせた、山形県河北町の一杯。親鶏の旨みを凝縮した甘じょっぱいタレを、真冬でも冷たいまま楽しむのがこの土地の流儀。",
+   "summary_en": "Chinese-style noodles dressed in the same tare as cold niku-soba, from Kahoku, Yamagata. A sweet-salty sauce built on old hen, served chilled even in the dead of winter — the local way.",
+   "body_ja": "## 何でできているか\n主役はそばではなく、親鶏——卵を産み終えた老いた鶏——の旨みを凝縮した甘じょっぱいタレ。このタレを、そばの代わりに中華麺にかけたのが肉中華で、硬めに茹でた親鶏のチャーシューと刻みねぎがのる。タレは冷やして提供されることが多く、真冬でも冷たい一杯を好んで注文する人が多いというのが河北町らしいところ。中華麺のコシと、冷たいタレの甘じょっぱさが噛むほどに馴染んでいく。\n\n## どう作るのか\nベースになるのは、そばの町・河北町に伝わる冷たい肉そばのタレ作り。親鶏の旨みをじっくり引き出しただしに、甘じょっぱい味つけを合わせ、そのタレを一度冷やしてから使う。麺を田舎そばではなく中華麺に替えるだけで、同じタレと具材の構成をそのまま転用できるのがこの一杯の骨格になっている。コシの強い中華麺を選ぶことで、冷たいタレをまとわせても伸びにくく仕上げている。\n\n## なぜこの形になったのか\n一説によると、戦前にそば屋が居酒屋を兼ねていた頃、馬肉の煮込みを肴に酒を飲み、残ったタレをそばにかけて締めたのが肉そばの起源という。戦争で馬が手に入りにくくなると、どこの家にもいた親鶏がタレの主役に代わったと伝わる。そばの代わりに中華麺を使う肉中華は、この肉そば文化が広がる中で生まれた派生形とされ、河北町では今もそばと並ぶ定番として食べられている。",
+   "body_en": "## What it's made of\nThe star here isn't the noodle — it's a sweet-salty tare built on the richness of oyadori, hens past their egg-laying years. Niku chuka is that same tare poured over Chinese-style noodles instead of soba, topped with firmly boiled hen char siu and chopped scallion. The tare is usually served chilled, and it's a very Kahoku thing that people order it cold even in the depths of winter. The noodle's chew and the tare's sweet-salty pull come together more with every bite.\n\n## How it's made\nThe base is the cold niku-soba tare passed down in Kahoku, a town built around soba. A stock drawn slowly from old hen is finished sweet and salty, then chilled before use. Simply swapping the noodle from rustic soba to Chinese-style noodles, while carrying the same tare and toppings straight across, is the whole backbone of this dish. A firm-chewing Chinese noodle is chosen so it holds up under the chilled tare without going soft.\n\n## Why it took this shape\nThe story goes that before the war, when soba shops doubled as drinking spots, people would drink over simmered horse meat and finish with soba dressed in what tare was left — said to be the origin of niku-soba. When horse grew hard to come by during the war, the old hen every household kept is said to have taken over as the tare's centerpiece. Niku chuka, using Chinese-style noodles instead of soba, is thought to be an offshoot born as this niku-soba culture spread, and in Kahoku it's still eaten today as a staple alongside soba itself.",
+   "sources": [
+    {
+     "title": "冷たい肉そば／雛とべに花の里・河北町",
+     "url": "https://www.town.kahoku.yamagata.jp/soshiki/shoko/kankousinkou/3341/672.html",
+     "publisher": "山形県河北町",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "冷たい肉そば",
+     "url": "https://benibananosato.com/gourmet/%E5%86%B7%E3%81%9F%E3%81%84%E8%82%89%E3%81%9D%E3%81%B0/",
+     "publisher": "河北町観光なび",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "yamagata-hiyashi",
+     "relation_type": "対比",
+     "basis": "どちらも冷たい状態で食べる山形県の麺だが、冷やしラーメンは冷製スープにこだわる中華そば店の系統、肉中華は親鶏の甘じょっぱいタレを冷やしてかけるそば由来の系統という違いがある"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ]
+  },
+  {
+   "slug": "aizu",
+   "name_ja": "会津ラーメン",
+   "name_romaji": "Aizu Ramen",
+   "name_en": "Aizu Ramen — flat, curly hand-pulled noodles in clear soy broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "福島県",
+   "origin_city": "会津若松市",
+   "lat": 37.4936,
+   "lng": 139.9298,
+   "primary_style": "醤油",
+   "summary_ja": "手打ちの平打ち太麺と、澄んだ醤油スープ。会津若松市の食堂が横浜で覚えた味を持ち帰ったのがはじまりとされる、喜多方とは別に育った会津地方のもう一つの中華そば。",
+   "summary_en": "Flat, thick hand-made noodles in a clear soy broth. Said to trace back to a Aizuwakamatsu diner owner bringing home a taste learned in Yokohama — a second soy ramen lineage that grew up apart from Kitakata's, in the same Aizu region.",
+   "body_ja": "## 何でできているか\n丼の中で目を引くのは、平打ちで太く縮れた麺。会津若松市と喜多方市に製麺所が集まっており、店によっては自家製の手打ち麺を使う。スープは澄んだ醤油味を基本に、豚骨で厚みを出す店、煮干しで和風に寄せる店など幅が広く、チャーシューとねぎ、メンマというシンプルな具でまとめる。同じ会津地方でも喜多方のこってりした醤油とは違う、店ごとの個性が残っている。\n\n## どう作るのか\n麺は喉ごしを重視した平打ちの手もみ麺で、かん水の効かせ方や太さの調整に各店の工夫が出る。スープは豚骨や鶏がらをベースに、醤油だれで味を決めるのが基本の骨格だが、味噌ベースの「味噌タンメン」を看板にする店もあり、野菜やもやし、肉をたっぷり加えて仕立てる。喜多方ラーメンほど一つの型に収斂せず、店ごとに麺とスープの組み合わせを試している段階が今も続いている。\n\n## なぜこの形になったのか\n一説によると、会津若松市の食堂の店主が大正から昭和初期にかけて横浜で覚えた中華そばの味を地元に持ち帰ったのが始まりという。当初は豚肉を使うことに抵抗を示す人もいたというが、評判が広がるにつれて地域に根づいた。喜多方が源来軒を起点に一つの型へ収斂していったのに対し、会津若松では複数の系統が並び立ったまま今に至っているとされる。",
+   "body_en": "## What it's made of\nWhat catches the eye in the bowl is the noodle — flat, thick, and curly. Noodle-makers cluster in Aizuwakamatsu and Kitakata, and some shops use their own hand-made noodles. The broth runs a clear soy base, though the range is wide — some shops add pork bone for weight, others lean Japanese-style with dried sardine — pulled together with simple toppings of char siu, scallion, and bamboo shoots. Even within the same Aizu region, each shop keeps a character distinct from Kitakata's heavier soy.\n\n## How it's made\nThe noodle is a flat, hand-kneaded style built for a smooth slide down the throat, and how much alkaline water goes in, and how thick it's cut, shows each shop's own touch. The broth is typically pork bone or chicken frame finished with soy tare, though some shops build their name on a miso-based 'miso tanmen,' loaded with vegetables, bean sprouts, and meat. Rather than converging on a single type the way Kitakata ramen has, Aizuwakamatsu still seems to be in an ongoing stage of shops each trying their own noodle-and-broth combination.\n\n## Why it took this shape\nThe story goes that a diner owner in Aizuwakamatsu brought home a taste for Chinese-style noodles learned in Yokohama sometime between the Taishō era and early Shōwa. Some people are said to have balked at the use of pork at first, but as word spread, it took root locally. Where Kitakata converged on a single type starting from the shop Genraiken, Aizuwakamatsu is said to have several lineages standing side by side to this day.",
+   "sources": [
+    {
+     "title": "会津ラーメンの由来",
+     "url": "https://aizumonogatari.com/history/5612.html",
+     "publisher": "歴史逍遥「しばえもん」",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "会津若松観光ナビ グルメ",
+     "url": "https://www.aizukanko.com/gourmet",
+     "publisher": "会津若松観光ビューロー",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "kitakata",
+     "relation_type": "兄弟",
+     "basis": "どちらも会津地方の醤油ラーメンで手打ちの太麺という系譜を共有するが、会津若松は横浜から持ち帰った味を起点に複数の系統が並び立ち、喜多方は源来軒を起点に一つの型へ収斂した点が異なる"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "pork"
+   ]
+  },
+  {
+   "slug": "koriyama-tonkotsu",
+   "name_ja": "奥州郡山とんこつラーメン",
+   "name_romaji": "Oshu Koriyama Tonkotsu Ramen",
+   "name_en": "Koriyama Tonkotsu Ramen — a Kurume-taught pork-bone bowl in Fukushima",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "福島県",
+   "origin_city": "郡山市",
+   "lat": 37.4004,
+   "lng": 140.3597,
+   "primary_style": "豚骨",
+   "summary_ja": "白く濁った豚骨スープの、福島県郡山市のご当地ラーメン。姉妹都市である九州・久留米市から製法を学んで生まれた、明治の開拓移民の縁が今もどんぶりの中に残る一杯。",
+   "summary_en": "A pork-bone ramen from Koriyama City, Fukushima. Learned from sister-city Kurume, it's a bowl that still carries the bond forged by Meiji-era settlers.",
+   "body_ja": "## 何でできているか\n白く濁った豚骨スープに、細めのストレート麺を合わせる。九州の豚骨ラーメンと同じ骨格を持ちながら、店によって臭みを抑えた食べやすい味に調整されているのが特徴とされる。チャーシューと紅しょうが、刻みねぎといった、九州の豚骨ラーメンでおなじみの具が丼を彩る。同じ福島県内の喜多方の澄んだ醤油、郡山ブラックの黒い醤油とはまったく違う白濁したスープが、郡山のもう一つの顔になっている。\n\n## どう作るのか\n豚骨を長時間炊き込んでとろみのある白濁スープに仕立てる工程は、久留米の製法をそのまま持ち込んだもの。有志の店主たちが本場久留米に足を運んで技術を学び、地元の水と好みに合わせて味を調整しながら独自の一杯に仕立て直してきたとされる。全国的なご当地ラーメンの流行の中で、郡山にもう一つの個性を作ろうという動きから、豚骨という選択肢が具体的な製法とともに導入された。\n\n## なぜこの形になったのか\n郡山市と福岡県久留米市が姉妹都市であることが、豚骨を選んだ理由の核にある。さらにさかのぼれば、明治期の安積原野開拓で九州から移住した人々の中に久留米藩出身者が多く含まれ、郡山市内に「久留米町」という地名が今も残るほど縁が深い。醤油の喜多方や郡山ブラックと並ぶ「もう一つの福島ラーメン」を作ろうとしたとき、歴史的な縁のある久留米の豚骨が選ばれたのは自然な流れだったといえる。",
+   "body_en": "## What it's made of\nA cloudy white pork-bone broth carries thin, straight noodles. It shares the same backbone as Kyushu's tonkotsu ramen, though shops here are said to tune down the funk for an easier-to-eat bowl. Char siu, red pickled ginger, and chopped scallion — toppings familiar from Kyushu tonkotsu — fill out the bowl. A cloudy white broth entirely unlike Kitakata's clear soy or Koriyama Black's dark soy, both from the same Fukushima, gives Koriyama a second face.\n\n## How it's made\nSimmering pork bones for hours into a thick, cloudy white broth is a process carried straight over from Kurume's method. Shop owners who took the idea on are said to have traveled to Kurume itself to learn the technique, then refit it into their own bowl to suit local water and taste. Amid the nationwide boom in local ramen styles, the choice of pork bone — brought in with its actual method attached — came out of a push to give Koriyama a second identity of its own.\n\n## Why it took this shape\nAt the core of why pork bone was chosen is that Koriyama City and Kurume City in Fukuoka are sister cities. Trace it back further and it runs deeper still: among the settlers who moved from Kyushu during the Meiji-era Asaka wilderness reclamation were many from the former Kurume domain, close enough a tie that a 'Kurume-chō' neighborhood name survives in Koriyama today. When the city set out to build 'another Fukushima ramen' alongside soy-based Kitakata and Koriyama Black, reaching for Kurume's tonkotsu, with its historical tie already in place, was a natural direction to take.",
+   "sources": [
+    {
+     "title": "福島県・郡山市で、とんこつラーメンの町起こし",
+     "url": "https://ina.under.jp/kooriyama.html",
+     "publisher": "個人サイト「いなうんだ」",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "福島県郡山市のご当地ラーメン「豚骨ラーメン」を食す！おススメ",
+     "url": "https://skyticket.jp/guide/188344/",
+     "publisher": "skyticket",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "kurume",
+     "relation_type": "派生",
+     "basis": "郡山市と久留米市の姉妹都市提携を機に、有志の店主が久留米で豚骨ラーメンの製法を学んで持ち帰った"
+    }
+   ],
+   "tags": [
+    "pork"
+   ]
+  },
+  {
+   "slug": "nozawa-miso",
+   "name_ja": "会津野沢宿味噌ラーメン",
+   "name_romaji": "Aizu Nozawa-juku Miso Ramen",
+   "name_en": "Aizu Nozawa-juku Miso Ramen — hearty ground-meat-and-vegetable miso broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "福島県",
+   "origin_city": "耶麻郡西会津町",
+   "lat": 37.7761,
+   "lng": 139.6161,
+   "primary_style": "味噌",
+   "summary_ja": "ひき肉とたっぷりの野菜をじっくり煮込んだ、コクのある濃厚な味噌ラーメン。新潟との県境に位置する、雪深い西会津町の宿場町・野沢に30年以上受け継がれてきた一杯。",
+   "summary_en": "A rich miso ramen built on ground meat and plenty of vegetables, simmered down for body. A bowl that has held on for over 30 years in Nozawa, a post-town in snowy Nishiaizu, on the Niigata border.",
+   "body_ja": "## 何でできているか\n丼を満たすのは、ひき肉と刻んだ野菜をたっぷり煮込んだ濃厚な味噌スープ。単に味噌を溶いただけではなく、肉と野菜の旨みをじっくり煮出してコクを重ねているのが特徴とされる。中太のちぢれ麺がスープをよくからめ取り、具だくさんで食べ応えのある一杯に仕上がる。町の数軒の店がそれぞれの配合で味を競い合っており、同じ「野沢宿味噌ラーメン」でも店によって辛さや甘さの印象が変わる。\n\n## どう作るのか\nひき肉と野菜を炒めてから味噌だれと合わせ、長めに煮込んで旨みを引き出すのが基本の工程。野菜の分量や種類、味噌の配合は店ごとに工夫され、「会津野沢宿味噌ラーメン会」という地元の店主たちの集まりが情報を共有しながら、それぞれの店の一杯を磨いてきたとされる。特別な高級食材を使わず、ひき肉と野菜という手近な材料を丁寧に煮込むことに重心を置いた作り方になっている。\n\n## なぜこの形になったのか\n西会津町は新潟県境に近く、雪の深さで知られる土地。野沢はかつて会津西街道の宿場町として旅人が行き交った集落でもある。冷え込みの厳しい雪国で、ひき肉と野菜をたっぷり煮込んだ濃厚な味噌スープが好まれ、30年以上にわたって町の食堂に受け継がれてきたと考えられている。人口一万人に満たない小さな町に十数軒の店が集まっていること自体、この一杯が土地の暮らしに根づいている証といえる。",
+   "body_en": "## What it's made of\nThe bowl is filled with a thick miso broth built on ground meat and plenty of chopped vegetables, simmered down together. Rather than simply dissolving miso into stock, this lineage is said to draw out the meat and vegetables' own richness over a long simmer, layering flavor on flavor. Medium-thick wavy noodles pick up the broth well, and the bowl comes out hearty and loaded with toppings. A handful of shops in town compete with their own blends, so even under the same name 'Nozawa-juku Miso Ramen,' the impression of heat or sweetness shifts shop to shop.\n\n## How it's made\nThe basic process is to sauté ground meat and vegetables, combine them with a miso tare, and simmer it all longer to draw out the flavor. The amount and kinds of vegetables, and the miso blend, are each shop's own doing, and a local group of shop owners called the Aizu Nozawa-juku Miso Ramen Association is said to have shared notes and sharpened each shop's own bowl over time. Rather than reaching for costly special ingredients, the weight here falls on simmering ground meat and vegetables — plain, close-at-hand things — with care.\n\n## Why it took this shape\nNishiaizu sits near the Niigata border, known for its deep snow. Nozawa was once a post-town on the Aizu-Nishi highway, a settlement travelers passed through. In a snow country with harsh cold, a thick miso broth built from ground meat and plenty of vegetables is thought to have found favor and been carried forward at the town's diners for more than 30 years. That a dozen-odd shops cluster in a town of under ten thousand people is itself a sign of how deeply this bowl has taken root in local life.",
+   "sources": [
+    {
+     "title": "会津野澤宿味噌ラーメン",
+     "url": "https://www.town.nishiaizu.fukushima.jp/site/kanko/811.html",
+     "publisher": "西会津町",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "会津野沢宿味噌ラーメン",
+     "url": "https://www.tif.ne.jp/jp/entry/article.html?spot=5838",
+     "publisher": "福島県観光物産交流協会「ふくしまの旅」",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "aizu-yamajio",
+     "relation_type": "対比",
+     "basis": "同じ福島県会津地方の個性派ラーメンだが、山塩ラーメンは温泉水から作る山塩の塩味、野沢宿は肉と野菜を煮込んだ濃厚な味噌味という違いがある"
+    }
+   ],
+   "tags": [
+    "miso",
+    "pork"
+   ]
+  },
+  {
+   "slug": "fukushima-toripaitan",
+   "name_ja": "福島鶏白湯",
+   "name_romaji": "Fukushima Tori Paitan",
+   "name_en": "Fukushima Tori Paitan — chicken broth from the prefecture's three brand hens",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "福島県",
+   "origin_city": "福島市",
+   "lat": 37.7608,
+   "lng": 140.4747,
+   "primary_style": "塩",
+   "summary_ja": "会津地鶏・川俣シャモ・伊達鶏、福島県産の地鶏だけを使った白濁スープ。震災後の風評に抗おうと、5店の店主が力を合わせて作り上げた比較的新しいご当地ラーメン。",
+   "summary_en": "A cloudy chicken broth built only on Fukushima's three brand hens — Aizu Jidori, Kawamata Shamo, and Date-dori. A relatively young local ramen, created by five shop owners banding together against post-disaster rumor damage.",
+   "body_ja": "## 何でできているか\n黄金色に輝く白湯スープの正体は、会津地鶏・川俣シャモ・伊達鶏という福島県産の三種の地鶏のみ。豚骨や魚介に頼らず、鶏だけを長時間炊き込んで乳化させた、こってりとした塩ベースのスープに仕立てる。具材にもチャーシューや野菜など県産の食材を使う決まりがあり、麺は濃厚なスープにしっかり絡む細麺が主流。見た目のこってり感に反して、臭みのない澄んだ後味が特徴とされる。\n\n## どう作るのか\n福島県産の地鶏だけを使うこと、県産の食材を具材に生かすことという二つの取り決めを、参加する店同士で共有しているのがこの一杯の骨格。豚骨のような濃厚さを鶏だけで出すため、骨や皮を長時間強火で炊いて脂とコラーゲンを乳化させ、白く濁った状態に仕上げる。複数の店が同じ原則のもとで別々に味を作り込んでいるため、同じ「福島鶏白湯」でも一杯ごとに塩加減や香りの強さが微妙に異なる。\n\n## なぜこの形になったのか\n2013年の夏、東日本大震災から2年が過ぎてもなお風評被害に苦しんでいた福島の食品業界を支えようと、県内5軒のラーメン店の店主が集まって考え出したのが始まりとされる。喜多方や白河に並ぶ「第三の福島ラーメン」を、福島県産の鶏という分かりやすい旗印のもとに作ろうという狙いがあったという。特定の一軒の発祥ではなく、複数店が同時に取り組んで広めていった点が、この一杯の成り立ちの特徴になっている。",
+   "body_en": "## What it's made of\nThe golden-glowing paitan broth is built from nothing but three Fukushima brand hens: Aizu Jidori, Kawamata Shamo, and Date-dori. With no pork bone or seafood in the mix, the chicken alone is simmered for hours and emulsified into a thick, salt-based broth. Toppings also follow a rule of using Fukushima-grown ingredients, from char siu to vegetables, and thin noodles that cling well to the heavy broth are the norm. For all its richness on the surface, the finish is said to be clean, with no gamey edge.\n\n## How it's made\nThe backbone of this bowl is two rules shared among the participating shops: use only Fukushima-raised chicken, and build the toppings from Fukushima ingredients. To get pork-bone-level richness from chicken alone, bones and skin are boiled hard for hours until the fat and collagen emulsify into a cloudy white broth. Because several shops each work out their own flavor under the same principle, even bowls sharing the name 'Fukushima Tori Paitan' differ slightly, shop to shop, in salt level and aroma.\n\n## Why it took this shape\nIn the summer of 2013, two years after the Great East Japan Earthquake, with Fukushima's food industry still suffering from rumor-driven damage, five ramen shop owners in the prefecture are said to have banded together and come up with this as a way to support it. The aim, it's said, was to build a 'third Fukushima ramen' alongside Kitakata and Shirakawa, under the clear banner of Fukushima-raised chicken. Rather than tracing to one shop's origin, this bowl's story is marked by several shops taking it on and spreading it at the same time.",
+   "sources": [
+    {
+     "title": "ラーメン新鋭、福島鶏白湯",
+     "url": "https://www.nikkei.com/article/DGXKZO05257700W6A720C1NZ1P01/",
+     "publisher": "日本経済新聞",
+     "accessed_at": "2026-09-13"
+    },
+    {
+     "title": "「福島県の鶏白湯の名店」5選",
+     "url": "https://nlab.itmedia.co.jp/research/articles/3126920/",
+     "publisher": "ねとらぼ",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "date-dori",
+     "relation_type": "使用食材",
+     "basis": "伊達鶏のガラを白湯スープのだしに使う"
+    },
+    {
+     "to_slug": "kawamata-shamo",
+     "relation_type": "使用食材",
+     "basis": "川俣シャモのガラを白湯スープのだしに使う"
+    },
+    {
+     "to_slug": "aizu-jidori",
+     "relation_type": "使用食材",
+     "basis": "会津地鶏のガラを白湯スープのだしに使う"
+    }
+   ],
+   "tags": [
+    "chicken"
+   ]
+  }
+ ],
+ "notes": "対象外: 「からみそラーメン」(山形県、台帳missing・city_hint空欄・style_hint「辛味噌ベースのラーメン」) は、日本ラーメン協会「日本ご当地ラーメン一覧2025」の山形県欄にある項目だが、調査の結果、既存アイテム akayu-karamiso（赤湯辛味噌ラーメン、山形県南陽市、昭和33年創業「龍上海」発祥。ラーメンにスープを持ち帰り味噌を溶いて食べたのが起源）と同一の料理と判断した。山形県の『からみそラーメン』はこの赤湯が唯一の代表格であり、台帳のmissingエントリは既存収録済みアイテムの重複記載とみて対象外とした。よって本ブロックの投入件数は台帳13件のうち12件。\n裏が取れず薄いまま書いた箇所: 鶴岡節系ラーメンと会津野沢宿味噌ラーメンは、なぜその形になったかの一次資料が乏しく、庄内浜の飛魚漁業文化・西会津の豪雪と宿場町という一般的な地理知識で構造的理由を補って執筆した（店単位の直接的な由来記事は見つからなかった）。会津ラーメンの由来（横浜で覚えた味を持ち帰った三角屋食堂起源説）は個人の郷土史サイト（aizumonogatari.com）が出典で、会津若松観光ビューロー公式では未確認。奥州郡山とんこつラーメンの久留米との姉妹都市・安積開拓の経緯も個人サイト（ina.under.jp）が主出典。馬肉チャーシューラーメンは台帳のcity_hintが「河北町周辺」だったが、一次資料を確認したところ本場は長井市（置賜地方、新来軒・かめや・馬肉支那そばまる久等、「ながい馬肉の日」制定）であり、河北町は牛肉ではなく親鶏を使う『肉中華』（別項目として作成）の本場だったため、origin_cityを長井市に修正した。"
+}
