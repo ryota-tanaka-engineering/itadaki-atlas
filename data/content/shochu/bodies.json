@@ -1,0 +1,605 @@
+{
+  "items": [
+    {
+      "slug": "imo-jochu",
+      "body_ja": "## 何でできているか\n主原料はさつまいもで、蒸したうえで米麹または麦麹とともに仕込む。中でも黄金千貫という品種はでんぷんの含有量が他の品種より2〜3割多いとされ、香りと甘みのバランスが良い芋焼酎になるとして広く使われているという。使う麹が黒麹か白麹か黄麹かでも輪郭は変わり、ふかし芋を思わせる甘い香りと、飲み込んだ後にじんわり残る厚みのある甘みが持ち味とされる。\n## どう作るのか\nまず米麹または麦麹と水だけで一次もろみを仕込んで酵母を増やし、そこに蒸してつぶしたさつまいもを加えて二次もろみとする二段仕込みが基本とされる。さつまいもは傷みやすく収穫後すぐに使う必要があるため、仕込みは秋から冬にかけての限られた季節に集中するという。発酵を終えたもろみは単式蒸留機で一度だけ蒸留され、原料由来の香味がそのまま残る。\n## なぜこの形になったのか\nさつまいもは江戸期に琉球を経て九州へ伝わったとされ、水はけが良く水田に向かないシラス台地のような土地でもよく育ったことから、鹿児島・宮崎を中心に飢饉に備える救荒作物として広まったと伝わる。日照りや台風で米の収量が安定しない土地で、身近に手に入る芋を蒸留酒に仕立てて長く保存できるようにしたことが、今の芋焼酎の形につながったとされる。",
+      "body_en": "## What it's made of\nThe main raw material is sweet potato, steamed and mashed together with rice or barley koji. The Koganesengan variety in particular is said to hold 20 to 30 percent more starch than other varieties, and is widely used for producing an imo-jochu with a good balance of aroma and sweetness. Whether the koji is black, white, or yellow also shapes the outline of the flavor, and a sweet, steamed-potato aroma with a thick sweetness that lingers after swallowing are said to be its defining traits.\n## How it's made\nA first mash is built from rice or barley koji and water alone to build up yeast, then steamed and mashed sweet potato is added to form the second mash — a two-stage process said to be the basic method. Because sweet potatoes spoil quickly and must be used soon after harvest, production is said to concentrate into the narrow window of autumn and winter. Once fermentation is finished, the mash is run through a single-distillation still just once, leaving the raw material's own flavor intact.\n## Why it took this shape\nSweet potato is said to have reached Kyushu by way of the Ryukyu Kingdom during the Edo period, and because it grew well even on well-drained shirasu volcanic-ash plateaus unsuited to paddies, it's said to have spread as a famine-relief crop especially around Kagoshima and Miyazaki. In land where drought and typhoons made rice yields unreliable, turning a root vegetable that was close at hand into a distilled spirit that kept for a long time is said to be how imo-jochu came to take its present shape.",
+      "sources": [
+        {
+          "title": "芋焼酎に使われる「芋」ってどんな芋？主な種類・特徴をご紹介",
+          "url": "https://guide.honkakushochu-awamori.jp/types-of-potatoes-used-for-imo-shochu/",
+          "publisher": "日本酒造組合中央会",
+          "accessed_at": "2026-09-13"
+        },
+        {
+          "title": "サツマイモの伝来－前田利右衛門と青木昆陽－",
+          "url": "https://www.maff.go.jp/kyusyu/seibibu/kokuei/13/pdf/satumaimonodennrai.pdf",
+          "publisher": "農林水産省九州農政局",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "imo-jochu",
+          "to_slug": "awamori",
+          "relation_type": "対比",
+          "basis": "さつまいもと米麹(黄麹・黒麹・白麹)を使う芋焼酎と、タイ米と黒麹を全麹仕込みにする泡盛という原料・麹系統の違い（日本酒造組合中央会「泡盛は本格焼酎とどう違う？」）"
+        }
+      ]
+    },
+    {
+      "slug": "mugi-jochu",
+      "body_ja": "## 何でできているか\n主原料は大麦で、麹には米麹または大麦そのものを使った麦麹が使われる。米や芋に比べて雑味の元になる成分が少ないとされ、香ばしく炒った麦のような香りと、クセの少ないすっきりした軽やかな飲み口を持つ焼酎が多いという。麹の種類や常圧・減圧どちらの蒸留法を選ぶかによって、同じ大麦を使っていても味の幅は大きく変わるとされる。全国的に食中酒として親しまれていることでも知られており、飲み方の幅広さも支持されているという。\n## どう作るのか\n大麦を精麦したうえで蒸すか炒ってから米麹または麦麹と合わせて一次もろみを仕込み、酵母を十分に増やしたところへさらに蒸した大麦を加える二次仕込みで発酵を進めるとされる。伝統的な壱岐の製法では、大麦2に対して米麹1というおおよその比率が用いられてきたと伝わり、単式蒸留機で一度だけ蒸留してから、原酒を貯蔵・調合する工程を経て瓶詰めされる。\n## なぜこの形になったのか\n平地が多く水田に向かない土地だった壱岐で、16世紀ごろに中国大陸から伝わった蒸留技術と島の気候が結びつき、大麦を使う蒸留酒が生まれたとされ、麦焼酎発祥の地と伝わる。昭和になって大分県の蔵元が麦だけを原料とする麦100%焼酎を開発したことで、香りが穏やかで飲みやすい麦焼酎という新しいスタイルが全国に広まったとされる。",
+      "body_en": "## What it's made of\nThe main raw material is barley, with the koji made from rice or from malted barley itself. Compared to rice or sweet potato, it's said to carry fewer of the compounds that create off-flavors, and many mugi-jochu have a toasty, roasted-grain aroma with a clean, light finish and little of the raw material's rougher edge. Depending on the koji used and whether atmospheric or reduced-pressure distillation is chosen, the flavor can range widely even from the same barley base. It's also known to be widely enjoyed nationwide as a spirit to drink alongside meals, valued for how many ways it can be served.\n## How it's made\nMilled barley is steamed or roasted, then combined with rice or barley koji to build a first mash, with more steamed barley added for a second-stage fermentation. The traditional Iki method is said to use a rough ratio of two parts barley to one part rice koji, and after a single pass through a single-distillation still, the spirit is aged and blended before bottling.\n## Why it took this shape\nOn Iki, a largely flat island ill-suited to paddy fields, distillation technology said to have arrived from mainland China around the 16th century is said to have combined with the island's climate to produce a barley-based spirit, remembered as the birthplace of mugi-jochu. In the Showa era, a brewery in Oita developed an all-barley shochu using nothing but malted barley, and this milder, easy-drinking new style is said to have then spread nationwide.",
+      "sources": [
+        {
+          "title": "壱岐焼酎とは",
+          "url": "https://ikishochu.org/iki-distilled-spirits/",
+          "publisher": "壱岐酒造協同組合",
+          "accessed_at": "2026-09-13"
+        },
+        {
+          "title": "第14回 麦焼酎大国「大分」誕生の物語",
+          "url": "https://www.honkakushochu-awamori.jp/shochu-column/column/meguri/meg_14.html",
+          "publisher": "日本酒造組合中央会",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "mugi-jochu",
+          "to_slug": "kome-jochu",
+          "relation_type": "対比",
+          "basis": "大麦を主原料にする麦焼酎と、米だけを原料にする米焼酎という原料の違い（日本酒造組合中央会「焼酎・泡盛の分類」）"
+        }
+      ]
+    },
+    {
+      "slug": "kome-jochu",
+      "body_ja": "## 何でできているか\n原料は米と米麹のみで、副原料を加えないのが基本とされる。日本酒と同じ米を原料にしながら発酵させたもろみを蒸留する酒であるため、日本酒ほど強くはないものの米由来のほのかな甘みや旨みを感じさせつつ、雑味の少ない軽やかな酒質になりやすいという。精米の度合いや使う麹菌が黒麹か白麹かによっても、香りの華やかさや口当たりの重さが変わるとされる。\n## どう作るのか\n米麹と水で一次もろみを仕込んで酵母を育て、そこへ蒸した白米を加えて二次もろみとする二段仕込みが基本とされる。麹には黒麹や白麹が使われることが多く、球磨地方の蔵元は九州山地に降った雨が育む球磨川水系の地下水を仕込み水に使うと伝わる。発酵を終えたもろみは単式蒸留機で一度だけ蒸留され、原料の風味をそのまま残す。\n## なぜこの形になったのか\n熊本県南部の球磨地方は九州でも有数の水田単作地帯で、その米を使った焼酎造りは日本酒よりも早くから行われてきたとされる。険しい九州山地に囲まれ流通が限られていた盆地の中で、収穫した米を地元で蒸留酒に仕立てて長く楽しむ文化が育まれたとされ、地理的表示「球磨」として今もその産地との結びつきが認められている。米づくりが難しい土地の作物というよりも、あくまで米どころならではの焼酎として発展してきたと伝わる。",
+      "body_en": "## What it's made of\nThe raw materials are rice and rice koji alone, with no other ingredients added, said to be the basic rule. Because it distills a mash fermented from the same raw material sake is brewed from, it's said to give a faint rice sweetness and umami — milder than sake's own — combined with a light body carrying few off-flavors. The degree of milling and whether the koji mold used is black or white are said to shape both how showy the aroma becomes and how heavy the mouthfeel is.\n## How it's made\nA first mash is built from rice koji and water to raise up the yeast, then steamed white rice is added to form a second mash — a two-stage process said to be the basic method. Black or white koji are commonly used, and breweries in the Kuma district are said to draw their brewing water from groundwater in the Kuma river system, fed by rain falling on the Kyushu mountains. Once fermentation ends, the mash passes through a single-distillation still just once, leaving the raw material's flavor intact.\n## Why it took this shape\nThe Kuma district in southern Kumamoto is one of Kyushu's leading paddy-monoculture regions, and shochu made from that rice is said to have been distilled even earlier than sake was brewed there. In a basin ringed by steep mountains where distribution was limited, a culture of distilling the local rice harvest into a spirit that kept well is said to have taken root, and that tie to the land is still recognized today under the GI 'Kuma' designation. It's said to have developed not as a spirit born of land ill-suited to rice, but precisely because the region excelled at growing it.",
+      "sources": [
+        {
+          "title": "球磨焼酎とは",
+          "url": "https://kumashochu.or.jp/wp/kumashochu/",
+          "publisher": "球磨焼酎酒造組合",
+          "accessed_at": "2026-09-13"
+        },
+        {
+          "title": "別紙 地理的表示「球磨」生産基準",
+          "url": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/200316_besshi01.htm",
+          "publisher": "国税庁",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "kokuto-jochu",
+      "body_ja": "## 何でできているか\n原料はサトウキビの搾り汁を煮詰めて作る黒糖と、米麹である。黒糖そのものを煮詰めた甘さではなく、いったん米麹で発酵させてから蒸留するため、コクのある甘い香りは残りつつも後味はすっきりとして甘ったるくならないとされる。ラム酒に例えられることもあるが、糖蜜をそのまま発酵させるラム酒とは異なり、米麹の力を借りて糖化と発酵を進める点が大きく違うという。\n## どう作るのか\nまず米麹と水で一次もろみを仕込んで酵母を育て、そこへ溶かした黒糖を加える二次仕込みで発酵を進めるとされる。米麹を使うことが酒税法上の焼酎として扱われる条件になっており、この条件を満たさず黒糖だけを発酵させて蒸留すればスピリッツという別の酒類に区分されるという。発酵を終えたもろみは単式蒸留機で一度だけ蒸留される。\n## なぜこの形になったのか\n1953年に奄美群島が日本へ復帰した際、酒税に関する暫定措置として、米麹を使うことを条件に黒糖を原料とする蒸留酒を焼酎として扱うことが認められたと伝わる。この特例は今も奄美群島の酒蔵に限って適用されているとされ、黒糖焼酎は法律上この島々でしか造ることが許されていない、珍しい焼酎という形になったという。この特例があることで、奄美の蔵元は独自の酒文化を今なお守り続けることができているとされる。",
+      "body_en": "## What it's made of\nThe raw materials are black sugar, made by boiling down pressed sugarcane juice, and rice koji. Rather than the straightforward sweetness of boiled-down black sugar, it's first fermented with rice koji before distilling, so a rich, sweet aroma is said to remain while the finish stays clean rather than cloying. It's sometimes compared to rum, but unlike rum, which ferments molasses directly, kokuto-jochu is said to rely on rice koji to carry out both saccharification and fermentation, a key difference.\n## How it's made\nA first mash is built from rice koji and water to raise up the yeast, then dissolved black sugar is added for a second-stage fermentation. Using rice koji is the condition that lets it be treated as shochu under the liquor tax law; fermenting and distilling black sugar alone without meeting that condition would place it in the separate category of spirits instead. Once fermentation ends, the mash passes through a single-distillation still just once.\n## Why it took this shape\nWhen the Amami Islands reverted to Japan in 1953, an interim liquor-tax measure is said to have permitted a black-sugar-based distilled spirit to be treated as shochu, on condition that rice koji be used. That special provision is said to still apply only to the Amami Islands today, which is how kokuto-jochu is said to have come to take the unusual shape of a shochu that, by law, can be made nowhere else. This special provision is said to let Amami's breweries keep their own distinct drinking culture alive to this day.",
+      "sources": [
+        {
+          "title": "奄美黒糖焼酎について",
+          "url": "https://lento.co.jp/about/kokutoshochu/",
+          "publisher": "奄美大島開運酒造",
+          "accessed_at": "2026-09-13"
+        },
+        {
+          "title": "鹿児島県酒造組合奄美支部・奄美大島酒造協同組合について",
+          "url": "https://www.kokuchu.com/ka_amami.html",
+          "publisher": "鹿児島県酒造組合奄美支部・奄美大島酒造協同組合",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kokuto-jochu",
+          "to_slug": "kokuto",
+          "relation_type": "使用食材",
+          "basis": "サトウキビから作る黒糖を主原料として使用する（奄美大島酒造協同組合「奄美黒糖焼酎について」）"
+        }
+      ]
+    },
+    {
+      "slug": "soba-jochu",
+      "body_ja": "## 何でできているか\n主原料はそばの実で、これに米麹や麦麹を合わせて仕込む。そばがきやそば湯を思わせる香ばしい香りと、やさしい甘みを持つとされ、麦焼酎に近い軽さがありながらそば特有の風味が加わった、他の型にはない個性を持つ酒質になるという。そばの実は脂質を多く含むため、酸化やえぐみを抑える扱いに麦や米とは異なる工夫が要るとされる。\n## どう作るのか\n米麹または麦麹と水で一次もろみを仕込み、そこへそばの実を砕いて加える二次仕込みで発酵を進めるとされる。開発にあたっては麦焼酎の製法を土台に、そばの実をどこまで細かく砕き、どう仕込めば香りを引き出せるかが数年にわたり試行錯誤されたと伝わる。発酵を終えたもろみは単式蒸留機に一度だけかけられ、そば由来の香りを残すよう仕上げられるという。\n## なぜこの形になったのか\n宮崎県北部の高千穂・五ヶ瀬地方は山間の寒冷な気候ゆえに古くからそばの産地として知られていたとされる。1973年、この地に蔵を構える蔵元が地元特産のそばを焼酎の原料にできないかと考え、3年ほどの試行錯誤を経てそば焼酎を開発したと伝わる。地元の畑作物を蒸留酒に仕立てた、比較的新しい型として広まったという。現在も高千穂・五ヶ瀬地方の蔵元が、この製法と地元産のそばを大切に受け継いでいるとされる。",
+      "body_en": "## What it's made of\nThe main raw material is buckwheat groats, mashed together with rice or barley koji. It's said to carry a toasty aroma reminiscent of sobagaki or soba-yu, along with a gentle sweetness, giving a body close to mugi-jochu's lightness but layered with buckwheat's own character — a distinct profile unlike any other type. Because buckwheat groats are high in fat, handling them to hold back oxidation and bitterness is said to call for different care than barley or rice.\n## How it's made\nA first mash is built from rice or barley koji and water, then crushed buckwheat groats are added for a second-stage fermentation. In developing the style, the brewery is said to have built on barley-shochu methods while spending several years working through trial and error over how finely to crush the buckwheat and how to mash it to bring out its aroma. Once fermentation ends, the mash passes through a single-distillation still just once.\n## Why it took this shape\nThe Takachiho-Gokase area in northern Miyazaki, with its cold mountain climate, is said to have long been known as a buckwheat-growing region. In 1973, a brewery based there is said to have wondered whether the local buckwheat could be turned into shochu, and after roughly three years of trial and error, developed soba-jochu. It's said to have spread as a relatively new style built from a local field crop. Breweries in the Takachiho-Gokase area are said to still carefully carry on this method and the local buckwheat it depends on.",
+      "sources": [
+        {
+          "title": "そば雲海ブランドサイト",
+          "url": "https://www.unkai.jp/brand/soba/",
+          "publisher": "雲海酒造",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "soba-jochu",
+          "to_slug": "mugi-jochu",
+          "relation_type": "派生",
+          "basis": "1973年に雲海酒造が麦焼酎の製法を土台に開発したと伝わる（雲海酒造「そば雲海ブランドサイト」）"
+        }
+      ]
+    },
+    {
+      "slug": "awamori",
+      "body_ja": "## 何でできているか\n原料はタイ米と黒麹だけで、日本酒や多くの焼酎のように米麹と掛け米を分けず、米のすべてを黒麹にしてから仕込む全麹仕込みが特徴とされる。黒麹が生み出すクエン酸のおかげで独特の芳醇な香りと、しっかりした酒質を持つとされ、蒸留直後は60度前後にもなる原酒を43度以下まで割り水して仕上げるのが一般的だという。3年以上寝かせた古酒はさらに芳香が増すとされる。\n## どう作るのか\n蒸したタイ米に黒麹菌を繁殖させて米麹を作り、そこに水と酵母を加えて一気にもろみを仕込む一次仕込みのみで、日本酒や多くの焼酎にある二次仕込みは行わないとされる。気温の高い沖縄では発酵の進みが早く、もろみの温度管理が特に重要とされる。発酵を終えたもろみは単式蒸留機で一度だけ蒸留され、その後の貯蔵年数によって古酒(クース)として扱われる酒質へと育っていく。\n## なぜこの形になったのか\n15世紀ごろ、中国・東南アジアと交易していた琉球王国にシャム(タイ)の蒸留技術が伝わり、泡盛の原型ができたとされる。高温多湿な気候の中でクエン酸を多く生む黒麹を選んだことで、もろみの腐敗を防ぎながら長期保存できる酒質が育まれたとされる。王府の管理下で首里三箇に限って製造が許され、今も地理的表示「琉球泡盛」として沖縄県内での製造が守られているという。",
+      "body_en": "## What it's made of\nThe raw materials are Thai rice and black koji alone. Unlike sake or most shochu, which split the rice into koji rice and steamed rice added separately, awamori turns every grain of rice into black koji first — a method called zen-koji-jikomi. The citric acid the black koji produces is said to give it a distinctively rich aroma and a firm body; the raw spirit can come off the still at around 60 proof and is typically cut with water down to 43 percent or below. Kusu aged three years or more is said to grow even more fragrant.\n## How it's made\nSteamed Thai rice is cultured with black koji mold to make the koji, then water and yeast are added to build the mash in a single stage — awamori is said to skip the second-stage mashing found in sake and most shochu. Okinawa's heat pushes fermentation along quickly, making close control of the mash's temperature especially important. Once fermentation ends, the mash passes through a single-distillation still just once, and depending on how long it's then aged, it can grow into the style handled as kusu.\n## Why it took this shape\nAround the 15th century, distillation technology from Siam is said to have reached the Ryukyu Kingdom through its trade with China and Southeast Asia, giving rise to awamori's original form. Choosing black koji, which produces abundant citric acid, is said to have kept the mash from spoiling in the hot, humid climate while allowing a spirit that kept for the long term. Production is said to have been restricted to Shuri Sanka under the royal government's direct control, and today it's protected as production within Okinawa Prefecture under the GI 'Ryukyu Awamori' designation.",
+      "sources": [
+        {
+          "title": "泡盛は本格焼酎とどう違う？原料や沖縄の歴史とのつながりを知ろう",
+          "url": "https://guide.honkakushochu-awamori.jp/difference-awamori-and-shochu/",
+          "publisher": "日本酒造組合中央会",
+          "accessed_at": "2026-09-13"
+        },
+        {
+          "title": "泡盛とは",
+          "url": "https://okinawa-awamori.or.jp/awamori/knowledge/what/",
+          "publisher": "沖縄県酒造組合",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "awamori-kusu",
+      "body_ja": "## 何でできているか\n古酒(クース)は新たに原料を加えるものではなく、泡盛そのものを3年以上寝かせることで育つ酒質を指すとされる。貯蔵年数が長くなるほどアルコールのとげとげしさが取れて丸みのある口当たりになり、バニラや干し果実を思わせる芳香が強まっていくという。度数はほとんど変わらないまま、香りと口当たりだけが静かに深まっていく点が持ち味とされる。\n## どう作るのか\n蒸留した泡盛をかめや甕、タンクに移して寝かせるのが基本で、伝統的には「仕次ぎ」と呼ばれる技法により、一番古い甕から少し酒を汲み出しては、それより新しい甕の酒を注ぎ足して満たしていくという。こうして甕の系列全体を少しずつ循環させることで、香りの均一さを保ちながら百年単位で古酒の質を保ち続けてきた蔵もあると伝わる。\n## なぜこの形になったのか\n泡盛は元来アルコール度数が高く保存に向く酒質だったため、琉球王国の時代から各家庭や蔵で長期貯蔵する文化が育ったとされる。高温多湿な気候でも甕の中でゆっくり熟成が進むことが知られ、貯蔵年数そのものを一族や蔵の財産として代々受け継いでいく仕次ぎの技法が、泡盛ならではの熟成文化として長く定着してきたとされる。現在も家庭や蔵で古酒を大切に育てていく文化が、世代を超えて受け継がれているとされる。",
+      "body_en": "## What it's made of\nKusu isn't made by adding new ingredients; it's the name for the character awamori itself develops after resting three years or more. The longer it's aged, the more the alcohol's rough edge is said to soften into a rounder mouthfeel, with a fragrance recalling vanilla or dried fruit growing stronger over time — its hallmark being that the proof stays largely unchanged while only the aroma and texture quietly deepen.\n## How it's made\nDistilled awamori is transferred into earthenware jars or tanks to rest, and traditionally, a technique called shitsugi is used: a little spirit is drawn from the oldest jar, which is then topped up from a slightly younger jar, and so on down the line. Cycling the whole chain of jars this way little by little is said to have let some breweries keep a kusu's character consistent and alive across a hundred years or more.\n## Why it took this shape\nBecause awamori was originally high enough in alcohol to keep well, a culture of long-term storage in homes and breweries is said to have taken root as far back as the Ryukyu Kingdom. Aging is known to proceed slowly inside earthenware jars even in a hot, humid climate, and the shitsugi technique — treating years of storage itself as an asset passed down through a family or brewery — is said to have become awamori's own distinct aging culture. The culture of carefully raising kusu at home or in breweries is said to be carried on across generations.",
+      "sources": [
+        {
+          "title": "泡盛とは",
+          "url": "https://okinawa-awamori.or.jp/awamori/knowledge/what/",
+          "publisher": "沖縄県酒造組合",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "awamori-kusu",
+          "to_slug": "awamori",
+          "relation_type": "派生",
+          "basis": "泡盛を3年以上貯蔵したものを古酒(クース)と呼ぶ（沖縄県酒造組合「泡盛とは」）"
+        }
+      ]
+    },
+    {
+      "slug": "korui-shochu",
+      "body_ja": "## 何でできているか\n原料はさとうきび由来の糖蜜やとうもろこしなど、比較的安価に大量入手できるでんぷん質や糖質が使われることが多いとされる。連続式蒸留機で高純度に蒸留するため、原料由来の香りや雑味がほとんど残らず、無色透明でクセの少ない味わいになるという。単体で飲まれるよりも、レモンやウーロン茶など割り材と合わせて飲まれることが多いとされる。\n## どう作るのか\n酵母で発酵させたもろみを、複数の蒸留塔を連ねた連続式蒸留機に通し、蒸留と精製を連続的に繰り返すことで高純度のアルコールを取り出すとされる。酒税法上はアルコール分36度未満と定められており、一度しか蒸留できない単式蒸留機による焼酎に比べて、設備を大型化しやすくはるかに大量生産に向いた製法だとされ、効率よく生産できるという。\n## なぜこの形になったのか\n連続式蒸留機は19世紀に欧州で発展した技術で、日本には明治から大正にかけて導入されたと伝わる。1949年の酒税法改正で単式蒸留の焼酎と区別して「甲類」という呼称が定められ、2006年の法改正で「連続式蒸留しょうちゅう」という名称に改められたとされる。大量生産に向くこの製法が、手頃な価格の酒として家庭に広まったという。現在では酎ハイの土台として、幅広い世代に日常的に親しまれるようになっているとされる。",
+      "body_en": "## What it's made of\nThe raw materials are often relatively cheap, bulk-available starches or sugars, such as sugarcane molasses or corn, said to be commonly used. Because a continuous still distills to a high degree of purity, little of the raw material's own aroma or off-flavors is said to remain, giving a nearly colorless, mild-tasting spirit. It's said to be drunk mixed with other ingredients far more often than on its own.\n## How it's made\nMash fermented with yeast is passed through a continuous still made of linked distillation columns, where distillation and refining repeat continuously to extract high-purity alcohol, it's said. The liquor tax law sets it at under 36 percent alcohol, and the method is said to suit large-scale production better than the single-distillation method used for other shochu.\n## Why it took this shape\nThe continuous still is a technology developed in Europe during the 19th century, said to have been introduced to Japan between the Meiji and Taisho eras. A 1949 revision of the liquor tax law is said to have set the name 'korui' to distinguish it from single-distillation shochu, later renamed 'continuous-distillation shochu' in a 2006 revision. Suited to mass production, this method is said to have spread into households as an affordable everyday spirit. Today it's said to be enjoyed as an everyday drink across generations, mainly as the base for chu-hai cocktails.",
+      "sources": [
+        {
+          "title": "焼酎に関するもの",
+          "url": "https://www.nta.go.jp/about/organization/tokyo/sake/abc/abc-shochu.htm",
+          "publisher": "東京国税局",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "otsurui-shochu",
+      "body_ja": "## 何でできているか\n芋・麦・米・黒糖・そばなど、原料によって香味が大きく異なるのが特徴とされる。単式蒸留機は連続式蒸留機に比べて構造が単純なため、もろみに含まれる原料由来の香気成分がそのまま蒸留酒に移りやすく、原料そのものの個性がはっきり感じられる、輪郭の濃い酒質になりやすいという。使う麹や蒸留法の違いも、この個性の幅をさらに広げているとされる。\n## どう作るのか\n原料と麹で仕込んだもろみを、単式蒸留機で一度だけ蒸留するのが基本とされる。酒税法上はアルコール分45度以下と定められており、常圧・減圧いずれの蒸留法を選ぶかや、使う麹の種類によって、同じ原料でも仕上がりの香味は大きく変わるという。蒸留後は原酒をタンクや甕、樽で一定期間寝かせ、調合や割り水の工程を経て瓶詰めされる。貯蔵にかめや樽を用いる蔵もあり、それぞれの容器が仕上がりに独自の個性を添えているという。\n## なぜこの形になったのか\nかつては「乙類焼酎」という呼び方しか無かったが、1958年ごろから鹿児島の蔵元が伝統製法の焼酎を独自に「本格焼酎」と呼び始め、地道に広める取り組みを重ねたと伝わる。この呼称は1962年に大蔵省令で正式な表示として認められたとされる。原料の風味を残す単式蒸留の伝統的な製法を、品質を保証する言葉として区別する動きが広まったという。",
+      "body_en": "## What it's made of\nIts flavor varies widely by raw material — sweet potato, barley, rice, black sugar, buckwheat, and more, each said to give a very different character. A single-distillation still has a simpler structure than a continuous one, so the aromatic compounds from the raw material are said to carry over easily into the finished spirit, giving a body with a bold outline where the raw material's own personality comes through clearly.\n## How it's made\nA mash built from the raw material and koji is run through a single-distillation still just once, said to be the basic method. The liquor tax law sets it at 45 percent alcohol or below, and depending on whether atmospheric or reduced-pressure distillation is chosen, and which koji is used, the finished flavor can vary widely even from the same raw material. After distillation, the raw spirit is rested, then blended and cut with water before bottling. Some breweries use jars or casks for aging, each vessel said to add its own distinct character to the finished spirit.\n## Why it took this shape\nIt was once known only as 'otsurui shochu,' but around 1958 a Kagoshima brewery is said to have begun calling its traditionally made shochu 'honkaku shochu' on its own, steadily working to spread the term. That name is said to have been formally recognized in a Ministry of Finance ordinance in 1962. A movement to set apart the traditional single-distillation method that preserves the raw material's flavor, using a name that vouched for its quality, is said to have then spread.",
+      "sources": [
+        {
+          "title": "「本格焼酎」は、ただの分類ではない。焼酎に人生をかけた男の誇りだ。",
+          "url": "https://www.kirishima.co.jp/chronicle/episode/history/000695.html",
+          "publisher": "霧島酒造",
+          "accessed_at": "2026-09-13"
+        },
+        {
+          "title": "焼酎・泡盛の分類",
+          "url": "https://www.honkakushochu-awamori.jp/about-shochu-and-awamori/classification-of-shochu-and-awamori/",
+          "publisher": "日本酒造組合中央会",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "otsurui-shochu",
+          "to_slug": "koji-no-chigai",
+          "relation_type": "使用食材",
+          "basis": "単式蒸留焼酎(本格焼酎)造りの土台は、黒麹・白麹・黄麹のいずれかで麹を仕込むことにある（日本酒造組合中央会「焼酎・泡盛の分類」）"
+        },
+        {
+          "from_slug": "otsurui-shochu",
+          "to_slug": "nihonshu",
+          "relation_type": "対比",
+          "basis": "米・麹・水を発酵させるだけの醸造酒である日本酒と、そのもろみをさらに単式蒸留機にかける蒸留酒である本格焼酎という酒質の違い（日本酒造組合中央会「焼酎・泡盛の分類」）"
+        }
+      ]
+    },
+    {
+      "slug": "koji-no-chigai",
+      "body_ja": "## 何でできているか\n黄麹は日本酒や味噌、醤油にも使われてきた古くからの麹で、クエン酸をほとんど生成しないとされる。黒麹は大量のクエン酸を生み出し、もろみの腐敗を防ぎながら力強くコクのある酒質を生むという。白麹は黒麹が自然に突然変異して白い胞子を持つようになったものと伝わり、黒麹よりもややまろやかですっきりした酒質になりやすいとされる。\n## どう作るのか\n蒸した米や麦に、選んだ麹菌の胞子を振りかけて麹室で繁殖させ、米麹や麦麹を作るとされる。黒麹は胞子が黒っぽく、作業をする蔵人の手や道具、蔵の壁までも黒く染めやすいため清掃に手間がかかり扱いにくいとされ、こうした扱いやすさの違いから、現在では管理のしやすい白麹を主に使う蔵が多いとされ、黒麹は伝統的な酒質を守りたい一部の蔵元によって受け継がれているという。\n## なぜこの形になったのか\n黒麹は1910年ごろ、沖縄の泡盛用の麹から鹿児島の研究者によって取り出されたと伝わり、高温多湿な南九州や沖縄でもろみが腐敗しにくくなったことから焼酎・泡盛造りに一気に広まったとされる。その後見つかった白麹は、黒麹に近い酒質を扱いやすい形で得られる麹として、九州各地の蔵元に急速に普及していったという。麹の選び方は、蔵ごとの個性を最も色濃く映し出す最初の分かれ道になっているとされている。",
+      "body_en": "## What it's made of\nYellow koji is the old mold long used in sake, miso, and soy sauce, said to produce almost no citric acid. Black koji generates abundant citric acid, said to prevent the mash from spoiling while giving a powerful, rich body. White koji is said to have arisen as a natural mutation of black koji that came to carry white spores, tending to produce a somewhat softer, cleaner style than its parent.\n## How it's made\nSpores of the chosen koji mold are dusted onto steamed rice or barley and cultured in a koji room to grow rice or barley koji, it's said. Black koji's dark spores are said to easily stain a brewer's hands, tools, and even the brewery's walls black, making it harder to work with, and this difference in handling is said to be why most breweries today mainly use white koji.\n## Why it took this shape\nBlack koji is said to have been isolated around 1910 by a Kagoshima researcher from the mold used for Okinawan awamori, and because it kept the mash from spoiling even in the hot, humid climate of southern Kyushu and Okinawa, it's said to have spread rapidly into shochu and awamori production. White koji, discovered afterward, is said to have then spread quickly among breweries across Kyushu as a mold offering a similar spirit in an easier-to-handle form. The choice of koji is said to be the first fork in the road that most strongly reflects each brewery's own character.",
+      "sources": [
+        {
+          "title": "芋焼酎づくりに使われる「黒麹」「白麹」「黄麹」について",
+          "url": "https://akarui-nouson.jp/koji_used_in_shochu/",
+          "publisher": "明るい農村（大和桜酒造）",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "jouatsu-genatsu-jouryu",
+      "body_ja": "## 何でできているか\n常圧蒸留のもろみは90度から100度近くまで加熱されるため、原料由来の香気成分が幅広く引き出され、コクと香りの濃い、どっしりとした酒質になりやすいとされる。減圧蒸留は気圧を下げることで沸点が40度から50度ほどまで下がり、雑味の少ない、すっきりとした軽やかでフルーティーな香りの酒質になりやすいという。\n## どう作るのか\n常圧蒸留では蒸留機内の圧力を外気のままにして加熱するのに対し、減圧蒸留では蒸留機内の空気をポンプで抜いて気圧を下げてから加熱するとされる。低い温度で蒸留できる分、原料由来の重い香気成分が出にくく、燃料も節約しやすいともいわれ、どちらを選ぶかは蔵元の方針や造りたい酒質、原料の種類によって使い分けられるという。\n## なぜこの形になったのか\n常圧蒸留は焼酎造り本来の伝統的な方法とされ、原料の個性を色濃く残す骨太な酒質が九州で長く親しまれてきたという。減圧蒸留は昭和の中頃以降に技術として広まったとされ、香りが穏やかですっきりした酒質が九州以外の幅広い層にも受け入れられやすいとして、新しい飲みやすい焼酎を生み出す手段として広まったと伝わる。両方をブレンドすることで、双方の長所を併せ持つ酒質を目指す蔵元も少なくないとされ、選択の幅を広げているという。",
+      "body_en": "## What it's made of\nIn atmospheric distillation, the mash is heated to nearly 90 to 100 degrees Celsius, said to draw out a wide range of aromatic compounds from the raw material and give a heavy, richly flavored body. Reduced-pressure distillation lowers the boiling point to around 40 to 50 degrees by reducing the pressure inside the still, said to give a clean, light body with fewer off-flavors and a fruitier aroma.\n## How it's made\nIn atmospheric distillation, the still is heated with its internal pressure left at ordinary air pressure, while in reduced-pressure distillation, a pump first draws air out of the still to lower the pressure before heating begins, it's said. Distilling at a lower temperature is also said to hold back heavier aromatic compounds from the raw material and to save fuel, and which method a brewery chooses is said to depend on its philosophy and the style of spirit it wants to produce.\n## Why it took this shape\nAtmospheric distillation is said to be shochu-making's original, traditional method, long valued across Kyushu for a bold body that keeps the raw material's character front and center. Reduced-pressure distillation is said to have spread as a technology from around the middle of the Showa era onward, and its mild, clean profile is said to have been embraced widely beyond Kyushu as a way to create a new, easier-drinking style of shochu. Quite a few breweries are said to blend both methods together, aiming for a spirit that carries the strengths of each and widens the range of choice.",
+      "sources": [
+        {
+          "title": "「常圧蒸留」と「減圧蒸留」の違いは？焼酎の味や香りはどう変わる？",
+          "url": "https://style.iichiko.co.jp/attraction/20220805/0154/",
+          "publisher": "三和酒類",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "jouatsu-genatsu-jouryu",
+          "to_slug": "korui-shochu",
+          "relation_type": "対比",
+          "basis": "連続式蒸留機で繰り返し蒸留する甲類焼酎に対し、単式蒸留機で常圧・減圧いずれかを選んで一度だけ蒸留するのが乙類(本格焼酎)という蒸留法の違い（日本酒造組合中央会「焼酎・泡盛の分類」）"
+        }
+      ]
+    },
+    {
+      "slug": "maewari",
+      "body_ja": "## 何でできているか\n前割りは、本格焼酎(乙類)と水をあらかじめ合わせておくだけで、新たな原料は加えない飲み方とされる。焼酎と水をただ割ってすぐ飲むのに比べ、数日から数週間寝かせることで角の取れたまろやかな口当たりになり、香りも落ち着いて感じられるという。同じ酒でも寝かせる時間の長さによって、口当たりの印象が変わるとされる。特別な道具は要らず、徳利やペットボトルでも手軽に試せる飲み方として親しまれているとされている。\n## どう作るのか\n焼酎と水を好みの比率で徳利やボトルに合わせ、冷暗所で数日から数週間置いておくのが基本とされる。分子同士がなじむまでに時間がかかるとされ、宴席の直前に仕込んでおくことで、来客にすぐ提供できるようにする知恵として使われてきたという。お湯割りや水割り、ロックはこの前割りをその場で手早く行う簡易版として語られることが多い。\n## なぜこの形になったのか\n宴会や冠婚葬祭など大勢が一度に集まる場が多い九州で、その場で一杯ずつ割るより先に仕込んでおくほうが効率よくもてなせるとして広まったと伝わる。まろやかになるという副次的な効果が経験的に知られるようになり、単なる手間ではなく味わいそのものを高める飲み方として、宴席以外の日常でも今なお広く親しまれているという。",
+      "body_en": "## What it's made of\nMaewari is simply honkaku shochu mixed with water ahead of time, with no new ingredients added, it's said. Compared to mixing shochu with water and drinking it right away, resting it for days to weeks is said to soften its sharp edges into a mellow mouthfeel and let the aroma settle down. The same spirit is said to come across differently depending on how long it's been left to rest. It's said to need no special equipment and to be enjoyed as a style easily tried with nothing more than a jug or a plastic bottle.\n## How it's made\nShochu and water are combined in a preferred ratio in a jug or bottle and left in a cool, dark place for days to weeks, said to be the basic method. Because it's said to take time for the molecules to meld together, preparing it ahead of a gathering became a practical trick for serving guests immediately once they arrived. Oyuwari, mizuwari, and on-the-rocks are often discussed as quick, on-the-spot versions of this same idea.\n## Why it took this shape\nIn Kyushu, where banquets and ceremonial gatherings often bring many people together at once, mixing drinks ahead of time rather than one glass at a time is said to have spread as a more efficient way to entertain guests. The mellowing effect this happened to produce became widely known through experience, and it's said to remain a favored way of drinking today for how it enhances the flavor itself.",
+      "sources": [
+        {
+          "title": "前割り(まえわり)",
+          "url": "https://www.shochu.jp/dic/07ma/mae-wari.htm",
+          "publisher": "本格焼酎の楽しみ",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "maewari",
+          "to_slug": "otsurui-shochu",
+          "relation_type": "使用食材",
+          "basis": "本格焼酎(乙類)を水であらかじめ割って寝かせる飲み方（「本格焼酎の楽しみ」前割り解説）"
+        }
+      ]
+    },
+    {
+      "slug": "kame-tsubo-jikomi",
+      "body_ja": "## 何でできているか\nかめ壺仕込みでは、ステンレスタンクではなく陶器の甕をもろみの発酵容器として使う。甕の壁には目に見えない小さな気孔があり、そこから緩やかに空気が出入りすることで、もろみが自然な対流を伴いながら発酵していくとされる。長く使い込まれた甕には気孔に微生物が住み着くとされ、蔵ごとに異なる複雑な香味の芋焼酎を生むと語られている。\n## どう作るのか\n甕は口を上にした状態で床に半分ほど埋め込んで使われることが多いとされる。地中に埋まっている部分が多いほど、外気温の変化を受けにくく、もろみの温度が一年を通して一定に保たれやすいという利点があるとされる。一次仕込み・二次仕込みのいずれか、あるいは両方に甕を用いる蔵もあり、仕込み方は蔵ごとに異なるという。甕の内側にはうっすらと酒石が付着していくとされ、これも複雑な風味の一部になっているという。\n## なぜこの形になったのか\nステンレスタンクが普及する以前、焼酎造りには陶器の甕を使うのが当たり前だったとされる。空調設備が乏しかった時代、地中に埋めた甕が持つ保温性と気孔による自然な通気性が、安定した発酵を支える工夫として重宝されたと伝わる。効率を優先する蔵がタンクに切り替えていく中でも、この技法を守り続ける蔵元があるという。",
+      "body_en": "## What it's made of\nIn kame-tsubo jikomi, an earthenware jar rather than a stainless steel tank serves as the fermentation vessel for the mash. The jar's walls carry invisible micro-pores that let air move in and out gently, said to let fermentation proceed with a natural convection of its own. Jars used for many years are said to harbor microbes in those pores, said to give the resulting imo-jochu a more complex flavor.\n## How it's made\nJars are often set mouth-up and buried roughly halfway into the floor, it's said. The more of the jar sits underground, the less it's affected by swings in outside temperature, said to be an advantage that helps keep the mash at a steady temperature. Some breweries use jars for the first mash, the second, or both, and the exact method is said to differ from brewery to brewery. A thin layer of tartrate is said to build up inside the jar over the years, becoming part of the mash's complex flavor.\n## Why it took this shape\nBefore stainless steel tanks became common, using earthenware jars for shochu-making is said to have simply been the norm. In an era with little climate-control equipment, a buried jar's heat retention and the natural ventilation from its pores are said to have been prized as a way of supporting stable fermentation. Even as breweries favoring efficiency switched to tanks, some are said to have kept this technique alive.",
+      "sources": [
+        {
+          "title": "『かめ』と『焼酎』のおいしくてふか〜い関係",
+          "url": "https://www.hamadasyuzou.co.jp/denbee/column/post_8.html",
+          "publisher": "濵田酒造",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kame-tsubo-jikomi",
+          "to_slug": "kashi-daru-jukusei",
+          "relation_type": "対比",
+          "basis": "発酵に使う陶器の甕と、貯蔵に使う樫樽という、和と洋それぞれの容器がもたらす香味の違い（濵田酒造「『かめ』と『焼酎』のおいしくてふか〜い関係」ほか）"
+        }
+      ]
+    },
+    {
+      "slug": "kashi-daru-jukusei",
+      "body_ja": "## 何でできているか\n樫樽で貯蔵された焼酎は、無色透明の原酒とは異なり、樽材から溶け出す成分によって琥珀色に色づき、バニラや木の香りを思わせる甘やかな風味が加わるとされる。原料由来の香りに樽由来の香りが重なることで、ウイスキーにも通じる奥行きのある味わいになるといい、単なる無色の蒸留酒とは違う、飲み口の柔らかい個性が生まれるという。\n## どう作るのか\n蒸留した原酒を樫の木で作った樽に詰め、数年単位で貯蔵して熟成させるのが基本とされる。木の内部を焦がした樽を使うかどうかでも香りの出方が変わるという。国税庁の通達では、着色度が一定の吸光度を超えると焼酎として扱えなくなる規制があるとされ、色づき具合を見ながら貯蔵年数や加水のタイミングを慎重に調整する必要があるという。同じ樽でも使う回数を重ねるごとに、色や香りの出方が徐々に穏やかになっていくとされる。\n## なぜこの形になったのか\nウイスキーの熟成技法を参考に、焼酎にも樽由来の香りと色を取り入れようとする試みが昭和後期以降に広まったとされる。単式蒸留機による原料の風味を残す焼酎の個性に、樽熟成という新しい層を重ねることで、従来の無色透明なイメージとは異なる洋風の味わいを持つ焼酎が、時代の嗜好の変化とともに生まれ、定着してきたと伝わる。",
+      "body_en": "## What it's made of\nShochu aged in oak casks, unlike the colorless raw spirit, is said to take on an amber color from compounds leaching out of the wood, along with a sweet character recalling vanilla and timber. Layering the cask's own aroma over the raw material's is said to give a depth of flavor that echoes whisky, a character quite unlike a plain, colorless distilled spirit, with a softer mouthfeel.\n## How it's made\nThe distilled raw spirit is filled into casks made of oak and aged over a period of years, said to be the basic method. Whether the inside of the cask has been charred is also said to change how the aroma develops. A National Tax Agency directive is said to bar spirits from being sold as shochu once their coloring passes a set absorbance threshold, meaning breweries have to watch the color closely and carefully adjust aging time or water content along the way. Even the same cask is said to impart color and aroma more gently each time it's reused for a new batch.\n## Why it took this shape\nDrawing on whisky's aging techniques, an effort to bring cask-derived aroma and color into shochu is said to have spread from the later Showa era onward. Layering this new dimension of cask aging onto shochu's existing character — a spirit whose single distillation keeps the raw material's flavor intact — is said to have produced a style with a Western-leaning profile quite different from the traditional colorless image of shochu.",
+      "sources": [
+        {
+          "title": "焼酎に関するもの",
+          "url": "https://www.nta.go.jp/about/organization/tokyo/sake/abc/abc-shochu.htm",
+          "publisher": "東京国税局",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "slug": "kasutori-shochu",
+      "body_ja": "## 何でできているか\n原料は清酒を搾った後に残る酒粕で、米そのものを使う米焼酎とは原料の出発点が異なるとされる。酒粕にはすでに発酵で生まれた香味成分が豊富に含まれているため、蒸留すると独特の香ばしい穀物香とやや焦げたような風味が出るとされ、米焼酎とはまた違った、荒々しくも個性の強い酒質になるという。清酒の副産物を無駄なく生かす酒とも言われる。\n## どう作るのか\n伝統的な製法では、酒粕に籾殻を混ぜて隙間を作り、蒸気が全体に通りやすくしたうえで蒸す「せいろ式」と呼ばれる甑を使った方法が古くから用いられてきたと伝わる。現代では単式蒸留機を使う蔵も多いとされる。酒粕は搾りたての生の状態で使うことが望ましいとされ、清酒の仕込みが一段落する時期に合わせて短期間に集中して造られるという。\n## なぜこの形になったのか\n粕取り焼酎は北部九州の福岡・佐賀を中心に、江戸期の早い時代には既に造られていたと伝わる。米づくりが盛んな稲作地帯では、田植えを終えた5月ごろに豊作を祈る「早苗饗(さなぶり)」という祭りが古くから開かれ、そこで振る舞われる酒として代々親しまれてきたことから、地元では「早苗饗焼酎」とも呼ばれてきたという。現在は手間のかかるこの製法を続ける蔵元が減り、伝統を守る貴重な存在になっているとされる。",
+      "body_en": "## What it's made of\nThe raw material is sake lees, the solids left behind after pressing sake, a very different starting point from the whole rice grain used in kome-jochu. Because the lees already carry an abundance of flavor compounds built up during sake fermentation, distilling them is said to give a distinctively toasty, grainy aroma with a faintly scorched edge — a bolder, more assertive character than ordinary rice shochu, often described as a spirit that makes full use of a sake byproduct.\n## How it's made\nThe traditional method is said to have mixed rice husks into the lees to open up air channels so steam could pass through evenly, using a steamer-style still called seiro-shiki since early times. Many breweries today are said to use a conventional single-distillation still instead. The lees are best used fresh, right after pressing, it's said, so production is said to concentrate into a short window around the point when sake brewing winds down for the season.\n## Why it took this shape\nKasutori shochu is said to have already been made in the early Edo period, centered on Fukuoka and Saga in northern Kyushu. In areas devoted to rice farming, a festival called sanaburi was held around May after rice planting finished, to pray for a good harvest, and the shochu served there is said to have become beloved enough that locals also came to call it 'sanaburi shochu.' Fewer breweries continue this labor-intensive method today, and it's said to have become a rare, tradition-preserving spirit.",
+      "sources": [
+        {
+          "title": "第23回：粕取り焼酎",
+          "url": "https://www.honkakushochu-awamori.jp/shochu-column/column/knowledge/23.html",
+          "publisher": "日本酒造組合中央会",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kasutori-shochu",
+          "to_slug": "kome-jochu",
+          "relation_type": "対比",
+          "basis": "米粒そのものを原料にする米焼酎に対し、清酒を搾った後の酒粕を原料にする点が異なる（日本酒造組合中央会「粕取り焼酎」）"
+        }
+      ]
+    },
+    {
+      "slug": "satsuma-shochu",
+      "body_ja": "## 何でできているか\n原料は鹿児島県産のさつまいもと水に限られ、他県産の芋を使ったものはこの名を名乗れないとされる。さつまいも由来の華やかで芳醇な香りと、甘く濃厚な味わいが特徴とされ、県内80を超える蔵元がそれぞれの黄金千貫や紫芋などの品種、黒麹や白麹の選び方によって個性を競い合っているとされ、同じ薩摩焼酎でも蔵ごとに輪郭が大きく異なるという。\n## どう作るのか\n鹿児島県内で栽培・収穫されたさつまいもを原料に、県内で製麹・仕込み・蒸留・容器詰めまでの全工程を行うことが地理的表示「薩摩」の条件とされる。単式蒸留機による蒸留に限られ、県内であっても奄美市・大島郡は黒糖焼酎の産地として別枠で扱われており、この地理的表示の対象地域からは明確に除かれているとされている。貯蔵にかめや樽を使う蔵もあり、それぞれの容器と工夫が個性を打ち出しているとされる。\n## なぜこの形になったのか\n水はけの良いシラス台地が広く分布する鹿児島は、江戸期からさつまいも栽培が盛んで、米が育ちにくい土地でも実る芋を蒸留酒に仕立てる文化が育まれてきたとされる。この土地と原料の結びつきが国際的にも認められ、2005年に世界貿易機関のTRIPS協定に基づく地理的表示として「薩摩」の産地呼称が保護されるようになったと伝わる。",
+      "body_en": "## What it's made of\nThe raw materials are restricted to sweet potatoes and water from Kagoshima Prefecture; potatoes from other prefectures disqualify the name. It's said to carry a showy, rich aroma from the sweet potato along with a sweet, concentrated flavor, and more than 80 breweries in the prefecture are said to compete on their own choices of variety — Koganesengan, purple sweet potato, and others — and whether to use black or white koji.\n## How it's made\nSweet potatoes grown and harvested within Kagoshima Prefecture must go through koji-making, mashing, distillation, and bottling entirely within the prefecture to meet the conditions of the GI 'Satsuma' designation, it's said. Distillation is restricted to single-distillation stills, and even within the prefecture, Amami City and Oshima District are treated separately as the region for kokuto-jochu and excluded from this geographical indication's designated area. Some breweries age it in jars or casks, each vessel and technique said to bring out its own distinct character.\n## Why it took this shape\nKagoshima, broadly covered in well-drained shirasu volcanic-ash plateaus, is said to have grown sweet potatoes vigorously since the Edo period, nurturing a culture of turning a crop that thrived even where rice struggled into a distilled spirit. This tie between the land and its raw material is said to have gained international recognition in 2005, when the name 'Satsuma' was protected as a geographical indication under the WTO's TRIPS agreement.",
+      "sources": [
+        {
+          "title": "別紙 地理的表示「薩摩」生産基準",
+          "url": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/241220_kitakata_besshi01.htm",
+          "publisher": "国税庁",
+          "accessed_at": "2026-09-13"
+        },
+        {
+          "title": "鹿児島県酒造組合について",
+          "url": "https://www.honkakushochu.or.jp/about/",
+          "publisher": "鹿児島県酒造組合",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "satsuma-shochu",
+          "to_slug": "imo-jochu",
+          "relation_type": "派生",
+          "basis": "鹿児島県産さつまいもを用い、県内で単式蒸留・容器詰めまで行った芋焼酎だけが地理的表示「薩摩」を名乗れる（国税庁「地理的表示『薩摩』生産基準」）"
+        }
+      ]
+    },
+    {
+      "slug": "kuma-shochu",
+      "body_ja": "## 何でできているか\n原料は米のみで、球磨郡または人吉市の地下水を仕込み水に使うことが条件とされる。九州山地に降った雨がもたらす地下水は軟らかく、米由来のほのかな甘みを引き出しながら雑味の少ない酒質を生むとされ、27の蔵元がそれぞれ200を超える銘柄を持ち、微妙な味わいの違いを競い合っているとされ、地域ぐるみで銘柄の幅を支えているという。\n## どう作るのか\n米麹で仕込んだもろみに蒸した白米を加える二段仕込みを基本とし、球磨郡または人吉市の地下水を使って、同地域内で製麹から蒸留・容器詰めまでの全工程を行うことが地理的表示「球磨」の条件とされる。単式蒸留機による蒸留が求められ、たとえ同じ熊本県内であっても地域外での瓶詰めは明確に認められていないとされている。貯蔵年数や蒸留法の違いによっても、各銘柄の個性がはっきりと分かれてくるとされる。\n## なぜこの形になったのか\n九州山地に囲まれ水田単作地帯として知られる球磨地方では、江戸期から地元で収穫した米を使った焼酎造りが盛んだったとされる。険しい山に囲まれ流通が限られていたことが、かえって地域内で完結する独自の焼酎文化を育んだといい、1995年に国税庁の地理的表示産地指定を受け、その土地との結びつきが公的に認められたと伝わる。",
+      "body_en": "## What it's made of\nThe only raw material is rice, and using groundwater from the Kuma district or Hitoyoshi City as the brewing water is a condition of the designation. Groundwater fed by rain falling on the Kyushu mountains is said to be soft, drawing out a faint rice sweetness while keeping off-flavors to a minimum, and 27 breweries are said to together hold more than 200 brands, each competing on its own take on the flavor.\n## How it's made\nA mash built from rice koji has steamed white rice added in a two-stage process, and using groundwater from the Kuma district or Hitoyoshi City while carrying out every step from koji-making through distillation and bottling within that same area is the condition for the GI 'Kuma' designation, it's said. Distillation must use a single-distillation still, and bottling outside that area isn't permitted, even elsewhere within Kumamoto Prefecture. Differences in aging time and distillation method are also said to clearly set each brand's character apart from the rest.\n## Why it took this shape\nThe Kuma district, ringed by the Kyushu mountains and known as a region of paddy monoculture, is said to have taken up shochu-making with locally harvested rice as early as the Edo period. Being hemmed in by steep mountains with limited distribution is said to have, if anything, nurtured a shochu culture that was self-contained within the region, and in 1995 the National Tax Agency's GI designation is said to have formally recognized that tie to the land.",
+      "sources": [
+        {
+          "title": "球磨焼酎とは",
+          "url": "https://kumashochu.or.jp/wp/kumashochu/",
+          "publisher": "球磨焼酎酒造組合",
+          "accessed_at": "2026-09-13"
+        },
+        {
+          "title": "別紙 地理的表示「球磨」生産基準",
+          "url": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/200316_besshi01.htm",
+          "publisher": "国税庁",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kuma-shochu",
+          "to_slug": "kome-jochu",
+          "relation_type": "派生",
+          "basis": "球磨郡・人吉市の地下水で仕込み、同地域内で蒸留・容器詰めまで行った米焼酎だけが地理的表示「球磨」を名乗れる（球磨焼酎酒造組合「球磨焼酎とは」）"
+        }
+      ]
+    },
+    {
+      "slug": "iki-shochu",
+      "body_ja": "## 何でできているか\n原料は大麦と米麹で、壱岐島内の水を仕込み水に使うことが条件とされる。大麦の香ばしい香りに、米麹由来のほのかな甘みと旨みが重なる、麦だけを使う麦100%焼酎とはまた違ったふくらみのある酒質になるとされ、7つの蔵元がそれぞれの配合や熟成年数の工夫によって、実に細やかな個性を丁寧に出し合っているとされる。近年は減圧蒸留を取り入れ、より軽やかな酒質を目指す蔵元も少しずつ増えてきているとされている。\n## どう作るのか\n伝統的な壱岐の製法では、大麦2に対して米麹1というおおよその比率でもろみを仕込むと伝わり、島内の水を使い、製麹・仕込み・蒸留・容器詰めまでの全工程をひとつながりで行うことが地理的表示「壱岐」の条件とされている。単式蒸留機による蒸留が主流で、常圧蒸留によるどっしりとした厚みのある酒質が多いとされている。\n## なぜこの形になったのか\n平地が多く水田に向かない壱岐島で、16世紀ごろに中国大陸から伝わった蒸留技術と島の気候が結びつき、大麦を使う蒸留酒が生まれたとされる。年貢として米を納める必要があった一方、大麦は自家用に残しやすかったことから、大麦に米麹を組み合わせる製法が育まれたと伝わり、麦焼酎発祥の地として今もその技術が受け継がれているという。",
+      "body_en": "## What it's made of\nThe raw materials are barley and rice koji, and using water from Iki Island itself as the brewing water is a condition of the designation. Barley's toasty aroma layers with a faint sweetness and umami from the rice koji, giving a rounder body than an all-barley mugi-jochu, and the island's seven breweries are said to bring out their own character through blending ratios and aging. In recent years, more breweries are also said to be gradually adopting reduced-pressure distillation to aim for a lighter style.\n## How it's made\nThe traditional Iki method is said to build the mash at a rough ratio of two parts barley to one part rice koji, and carrying out every step from koji-making through mashing, distillation, and bottling on the island itself is the condition for the GI 'Iki' designation, it's said. Single-distillation stills are the mainstream choice, and atmospheric distillation is said to give many of them a heavy, substantial body.\n## Why it took this shape\nOn Iki, a largely flat island ill-suited to paddy fields, distillation technology said to have arrived from mainland China around the 16th century is said to have combined with the island's climate to produce a barley-based spirit. Because rice had to be handed over as tax while barley was easier to keep for home use, a method pairing barley with rice koji is said to have taken root, and as the birthplace of mugi-jochu, that technique is said to be still passed down there today.",
+      "sources": [
+        {
+          "title": "壱岐焼酎とは",
+          "url": "https://ikishochu.org/iki-distilled-spirits/",
+          "publisher": "壱岐酒造協同組合",
+          "accessed_at": "2026-09-13"
+        },
+        {
+          "title": "別紙 地理的表示「壱岐」生産基準",
+          "url": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/241129_itami_besshi01.htm",
+          "publisher": "国税庁",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "iki-shochu",
+          "to_slug": "mugi-jochu",
+          "relation_type": "派生",
+          "basis": "16世紀ごろ壱岐島で生まれたとされる麦焼酎発祥の地で、大麦2・米麹1のおおよその比率で仕込む伝統的な製法を今に伝える（壱岐酒造協同組合「壱岐焼酎とは」）"
+        }
+      ]
+    },
+    {
+      "slug": "ryukyu-awamori",
+      "body_ja": "## 何でできているか\n原料はタイ米に限られ、黒麹によって米のすべてを麹にする全麹仕込みが条件とされる。黒麹が生むクエン酸のおかげで高温多湿な気候でも発酵が安定し、力強く芳醇な香りを持つ酒質になるとされ、43度以下まで割り水して仕上げられる。3年以上貯蔵した古酒(クース)へと丁寧に育てていく文化も、この地理的表示と一体のものとして語られることが多いという。\n## どう作るのか\n蒸したタイ米に黒麹菌を繁殖させて全量を米麹にしたうえで、水と酵母を加えて一段仕込みでもろみを仕込むとされる。沖縄県内で製麹から仕込み、単式蒸留機による蒸留、割り水、容器詰めまでの全工程を一貫して行うことが地理的表示「琉球泡盛」の条件とされており、県外での瓶詰め作業は法律上、一切認められていないとされる。気温や湿度の管理には、各蔵元が長年の経験に基づく細やかな工夫を凝らしているとされる。\n## なぜこの形になったのか\n15世紀ごろ、中国・東南アジアと盛んに交易していた琉球王国にシャムの蒸留技術が伝わり、タイ米と黒麹を使う泡盛の原型ができたとされる。高温多湿な沖縄の気候の中で育まれたこの製法と土地との結びつきが、2004年に地理的表示として正式に認められ、県内一貫生産という形で今もなお大切に丁寧に守り続けられているという。",
+      "body_en": "## What it's made of\nThe raw material is restricted to Thai rice, and turning all of it into koji with black koji mold under the zen-koji-jikomi method is a condition of the designation. The citric acid black koji produces is said to keep fermentation stable even in the hot, humid climate, giving a powerful, richly aromatic spirit. The culture of carefully aging it three years or more into kusu is also often said to be discussed as part and parcel of this GI designation.\n## How it's made\nSteamed Thai rice is fully cultured into koji with black koji mold, then water and yeast are added to build the mash in a single stage, it's said. Carrying out every step — koji-making, mashing, single-distillation, and bottling — within Okinawa Prefecture is the condition for the GI 'Ryukyu Awamori' designation, and bottling outside the prefecture is said to not be permitted. Managing temperature and humidity closely is said to draw on each brewery's own hard-won experience over the years.\n## Why it took this shape\nAround the 15th century, distillation technology from Siam is said to have reached the Ryukyu Kingdom through its trade with China and Southeast Asia, giving rise to the original form of awamori built on Thai rice and black koji. This method, forged in Okinawa's hot, humid climate, and its tie to the land are said to have been formally recognized as a geographical indication in 2004, still protected today through production that stays entirely within the prefecture.",
+      "sources": [
+        {
+          "title": "別紙 地理的表示「琉球泡盛」生産基準",
+          "url": "https://www.nta.go.jp/taxes/sake/hyoji/chiri/210630_nagano_besshi01.htm",
+          "publisher": "国税庁",
+          "accessed_at": "2026-09-13"
+        },
+        {
+          "title": "泡盛とは",
+          "url": "https://okinawa-awamori.or.jp/awamori/knowledge/what/",
+          "publisher": "沖縄県酒造組合",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "ryukyu-awamori",
+          "to_slug": "awamori",
+          "relation_type": "派生",
+          "basis": "タイ米・黒麹による全麹仕込みで、沖縄県内での仕込み・蒸留・容器詰めを満たす泡盛だけが地理的表示「琉球泡盛」を名乗れる（国税庁「地理的表示『琉球泡盛』生産基準」）"
+        }
+      ]
+    },
+    {
+      "slug": "oita-mugi-jochu",
+      "body_ja": "## 何でできているか\n原料は大麦と麦麹のみで、米麹を使う壱岐の伝統的な製法とは異なり、米をまったく使わない麦100%焼酎という点が最大の特徴とされる。香ばしい麦の香りを持ちながらクセが少なく、水や炭酸で割っても味が崩れにくいすっきりとした酒質になるとされ、和食にも洋食にもよく合う食中酒として全国で広く親しまれているという。食中酒として和食にも洋食にも合わせやすいことでも広く知られており、根強い人気を保っているという。\n## どう作るのか\n大麦を原料に、麦麹で一次もろみを仕込み、酵母をしっかり増やしたうえでさらに蒸した大麦を加える二次仕込みで発酵を進めるとされる。減圧蒸留を採用する蔵が多いとされ、低い温度でじっくり時間をかけて蒸留することで、香りが穏やかですっきりとした軽やかな酒質に仕上げているという。原酒は貯蔵・調合を経て瓶詰めされる。\n## なぜこの形になったのか\n1973年、大分県の蔵元が業界で初めて麦だけを原料とする麦100%焼酎を開発し、翌1974年に発売したと伝わる。1979年には県知事が提唱した一村一品運動とも結びつき、香りが穏やかで飲みやすいこのスタイルが全国的な麦焼酎ブームを一気に牽引し、大分の名を麦焼酎の産地として広く世の中に知らしめることになったとされる。",
+      "body_en": "## What it's made of\nThe raw materials are barley and barley koji alone; unlike Iki's traditional method, which uses rice koji, using no rice whatsoever to make a mugi 100 percent shochu is said to be its single defining trait. It carries a toasty barley aroma with little rough character, said to hold its flavor well even cut with water or soda, and is said to be favored nationwide as an everyday spirit to drink alongside meals. It's also widely known for pairing easily with both Japanese and Western meals as a drink to accompany food, keeping its steady popularity.\n## How it's made\nA first mash is built from barley and barley koji, and once the yeast has grown sufficiently, more steamed barley is added for a second-stage fermentation, it's said. Many breweries are said to use reduced-pressure distillation, taking their time distilling slowly at a lower temperature to finish with a mild, clean, light body. The raw spirit is then aged, blended, and bottled.\n## Why it took this shape\nIn 1973, an Oita brewery is said to have been the first in the industry to develop a mugi 100 percent shochu using nothing but barley, releasing it the following year in 1974. In 1979 it's said to have linked up with the prefectural governor's One Village, One Product movement, and this mild, easy-drinking style is said to have swiftly driven a nationwide barley-shochu boom, putting Oita's name firmly on the map as a barley-shochu region.",
+      "sources": [
+        {
+          "title": "第14回 麦焼酎大国「大分」誕生の物語",
+          "url": "https://www.honkakushochu-awamori.jp/shochu-column/column/meguri/meg_14.html",
+          "publisher": "日本酒造組合中央会",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "oita-mugi-jochu",
+          "to_slug": "mugi-jochu",
+          "relation_type": "派生",
+          "basis": "1973年に大分県の蔵元が業界で初めて麦100%焼酎を開発したと伝わる（日本酒造組合中央会「麦焼酎大国『大分』誕生の物語」）"
+        },
+        {
+          "from_slug": "oita-mugi-jochu",
+          "to_slug": "iki-shochu",
+          "relation_type": "対比",
+          "basis": "大麦2・米麹1の伝統的な比率を守る壱岐焼酎と、米をまったく使わない麦100%という大分の現代的スタイルという原料構成の違い（壱岐酒造協同組合「壱岐焼酎とは」・日本酒造組合中央会「麦焼酎大国『大分』誕生の物語」）"
+        }
+      ]
+    },
+    {
+      "slug": "miyazaki-imo-jochu",
+      "body_ja": "## 何でできているか\n原料は鹿児島と同じくさつまいもで、中心となるのは黄金千貫だが、でんぷん質が多く香りに特徴があるとされるジョイホワイトなど、宮崎県内で育成された品種を使う蔵元もあるという。同じさつまいもでも、栽培される土地の気候や土壌によって甘みや香りの出方に違いが生まれるとされ、黒麹・白麹の選び方も酒質の幅を広げているという。\n## どう作るのか\n米麹または麦麹で一次もろみを仕込み、蒸してつぶしたさつまいもを加える二次仕込みで発酵を進めるのは、鹿児島の芋焼酎と基本的なところで共通しているとされる。宮崎県内には北部の山間地から南部の温暖な平野部まで幅広い気候があり、蔵ごとに仕込み水の選び方や発酵中の温度管理をきめ細かく工夫しているとされている。蔵によって蒸留法や貯蔵期間を変え、それぞれの個性を丁寧に打ち出しているとされる。\n## なぜこの形になったのか\nさつまいもは江戸期に鹿児島と同様のルートで宮崎にも伝わり、水はけの良い台地でよく育ったことから、米づくりに向かない土地の作物として定着したと伝わる。鹿児島に隣接する土地柄から同じ原料・製法を土台にしながらも、独自の品種改良や気候への適応を重ねて、宮崎ならではの芋焼酎の個性が長い年月をかけて育まれてきたとされる。",
+      "body_en": "## What it's made of\nThe raw material is sweet potato, as in Kagoshima, with Koganesengan remaining the mainstay, though some breweries use varieties bred within Miyazaki itself, such as Joy White, said to be higher in starch and distinctive in aroma. Even the same sweet potato variety is said to develop different sweetness and aroma depending on the climate and soil where it's grown, and the choice between black and white koji is said to widen the range further still.\n## How it's made\nBuilding a first mash from rice or barley koji, then adding steamed, mashed sweet potato for a second-stage fermentation, is said to be shared with Kagoshima's imo-jochu. Miyazaki spans a range of climates, from mountainous terrain in the north to warm lowland plains in the south, and breweries are said to fine-tune their choice of brewing water and fermentation temperatures carefully to match. Breweries are said to vary their distillation method and aging period carefully to bring out their own character.\n## Why it took this shape\nSweet potato is said to have reached Miyazaki by a route similar to Kagoshima's during the Edo period, and because it grew well on well-drained plateaus, it's said to have taken root as a crop suited to land ill-suited to rice. Sharing the same raw material and basic method as its neighbor Kagoshima, Miyazaki is said to have built its own distinct imo-jochu character over the long years through further breeding work and adaptation to local climate.",
+      "sources": [
+        {
+          "title": "芋焼酎に使われる「芋」ってどんな芋？主な種類・特徴をご紹介",
+          "url": "https://guide.honkakushochu-awamori.jp/types-of-potatoes-used-for-imo-shochu/",
+          "publisher": "日本酒造組合中央会",
+          "accessed_at": "2026-09-13"
+        },
+        {
+          "title": "南の酒便り",
+          "url": "http://www.miyazaki-sake.or.jp/",
+          "publisher": "宮崎県酒造組合",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "miyazaki-imo-jochu",
+          "to_slug": "satsuma-shochu",
+          "relation_type": "兄弟",
+          "basis": "隣接する鹿児島・宮崎の両県にまたがって栽培される黄金千貫を主原料とする点は共通するが、地理的表示「薩摩」の対象地域は鹿児島県内に限られる（日本酒造組合中央会「芋焼酎に使われる『芋』」・国税庁「地理的表示『薩摩』生産基準」）"
+        }
+      ]
+    },
+    {
+      "slug": "amami-kokuto-shochu",
+      "body_ja": "## 何でできているか\n原料はサトウキビから作る黒糖と米麹で、鹿児島県のうち奄美群島の蔵元だけが、この組み合わせで焼酎を造ることを法律上認められているとされる。サトウキビ栽培が盛んなこの島々ならではのコクのある甘い香りを持ちながら、米麹による発酵と蒸留を経て後味はすっきりとまとまるとされ、ラム酒とはまるで違う個性を持つという。黒糖の質や煮詰め方の違いによっても、香りの出方が蔵ごとに微妙に変わってくるとされている。\n## どう作るのか\n米麹と水で一次もろみを仕込んで酵母をしっかり育て、そこへゆっくりと溶かした黒糖を加える二次仕込みで発酵を丁寧に進めていくとされる。米麹を使うことが酒税法上の特例条件になっており、この条件を満たさなければ焼酎ではなくスピリッツという別の酒類として扱われることになるという。発酵後は単式蒸留機で一度だけ蒸留される。\n## なぜこの形になったのか\n1953年、奄美群島が日本へ返還された際、酒税に関する暫定措置として、米麹を使うことを条件に黒糖を原料とする蒸留酒を焼酎として扱うことが認められたと伝わる。この特例が今も大島税務署管内の奄美群島だけに適用されているため、黒糖焼酎は法律上この島々でしか造れない、全国でも珍しい焼酎という形になったという。",
+      "body_en": "## What it's made of\nThe raw materials are black sugar made from sugarcane and rice koji, and only breweries in the Amami Islands within Kagoshima Prefecture are said to be permitted to make shochu from this combination. It's said to carry a rich, sweet aroma distinctive to islands where sugarcane cultivation thrives, while fermentation with rice koji and subsequent distillation are said to pull the finish back to a clean close, giving it a character quite unlike rum. The quality of the black sugar and how it's boiled down are also said to subtly change the aroma from brewery to brewery.\n## How it's made\nA first mash is built from rice koji and water to raise up the yeast, then dissolved black sugar is added for a second-stage fermentation, it's said. Using rice koji is the special liquor-tax condition; without meeting it, the spirit would end up classed as spirits rather than shochu. Once fermentation ends, the mash passes through a single-distillation still just once.\n## Why it took this shape\nWhen the Amami Islands were returned to Japan in 1953, an interim liquor-tax measure is said to have permitted a black-sugar-based distilled spirit to be treated as shochu, on condition that rice koji be used. That special provision is said to still apply only to the Amami Islands under the jurisdiction of the Oshima tax office today, which is why kokuto-jochu is said to have taken the shape of a rare shochu that, by law, can be made nowhere else in the country.",
+      "sources": [
+        {
+          "title": "奄美黒糖焼酎について",
+          "url": "https://lento.co.jp/about/kokutoshochu/",
+          "publisher": "奄美大島開運酒造",
+          "accessed_at": "2026-09-13"
+        },
+        {
+          "title": "黒糖焼酎／鹿児島県奄美市",
+          "url": "https://www.city.amami.lg.jp/kanko/tokusan/shochu.html",
+          "publisher": "奄美市",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "amami-kokuto-shochu",
+          "to_slug": "kokuto-jochu",
+          "relation_type": "派生",
+          "basis": "米麹を使うことを条件に、酒税法の特例で奄美群島の蔵元だけに製造が許可されている（奄美大島開運酒造「奄美黒糖焼酎について」）"
+        }
+      ]
+    },
+    {
+      "slug": "izu-shoto-shochu",
+      "body_ja": "## 何でできているか\n原料はさつまいもで、鹿児島や宮崎の芋焼酎と同じ系統だが、麹に米麹ではなく麦麹を使うことが多いとされる。米が乏しかった島では、軽く運びやすい押し麦を水で戻して麹に使ったと伝わり、さつまいもの甘みに麦麹由来のほのかな香ばしさが重なる、九州の芋焼酎とはまた違った独自の酒質になるという。麹の選び方が島ごとの個性にもつながっているとされる。\n## どう作るのか\n麦麹で一次もろみを仕込み、酵母を育てたうえで蒸してつぶしたさつまいもを加える二次仕込みで発酵を進めるとされる。現在も八丈島に4つの蔵元があるとされ、芋・麦・芋麦ブレンドなど蔵ごとに個性のある焼酎を造っているという。水資源に恵まれた島の湧き水が、そのまま仕込み水として大切に使われ続けているとされている。\n## なぜこの形になったのか\n江戸期の伊豆諸島では、貴重な米を使った酒造りは神事や祝儀ごと以外では固く禁じられていたとされる。1853年、密貿易の罪で八丈島に流された薩摩藩ゆかりの商人が、島の人々が飲んでいた粗末などぶろくを見かねて、故郷から蒸留器とさつまいもの苗をわざわざ取り寄せ、島民に焼酎造りを丁寧に伝授したと伝わっている。この歴史は今も島の酒造りの由来として、蔵元やガイドの間で大切に語り継がれているとされる。",
+      "body_en": "## What it's made of\nThe raw material is sweet potato, part of the same lineage as Kagoshima or Miyazaki imo-jochu, but barley koji rather than rice koji is said to be more commonly used. On islands where rice was scarce, lightweight, easy-to-ship pearl barley is said to have been rehydrated and used as koji instead, giving a distinctive body where sweet potato's sweetness layers with a faint toastiness from the barley koji, quite unlike Kyushu's own imo-jochu. The choice of koji is also said to shape each island's own character.\n## How it's made\nA first mash is built from barley koji, then steamed, mashed sweet potato is added for a second-stage fermentation, it's said. Hachijojima is said to still have four breweries today, each said to produce its own character of shochu — sweet potato, barley, or a blend of the two — and the island's abundant spring water is said to be carefully treasured and used as its own brewing water.\n## Why it took this shape\nIn the Izu Islands during the Edo period, brewing sake from precious rice is said to have been banned outside of religious rites and celebrations. In 1853, a merchant with ties to the Satsuma domain, exiled to Hachijojima for smuggling, is said to have taken pity on the crude doburoku the islanders were drinking and sent for a still and sweet potato seedlings from his homeland, carefully teaching the islanders how shochu was made. This history is said to still be carefully passed down today, by breweries and guides alike, as the island's origin story.",
+      "sources": [
+        {
+          "title": "島の水から生まれるこの風味。八丈島の島酒",
+          "url": "https://www.hachijo.gr.jp/specials/shochu/",
+          "publisher": "八丈島観光協会",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "izu-shoto-shochu",
+          "to_slug": "imo-jochu",
+          "relation_type": "派生",
+          "basis": "1853年、薩摩から流された人物が蒸留器とさつまいもの苗を伝えたことが起源とされる（八丈島観光協会「島の水から生まれるこの風味。八丈島の島酒」）"
+        }
+      ]
+    },
+    {
+      "slug": "tanegashima-imo-jochu",
+      "body_ja": "## 何でできているか\n原料はさつまいもで、鹿児島県本土の芋焼酎と原料・製法の骨格は共通するとされる。温暖な海洋性気候と水はけの良い土壌が、さつまいも栽培に適した環境を作り出しているといわれ、島の蔵元が育てる品種や麹の選び方によって、それぞれ異なる香味を持つ酒質になるという。米づくりに向かない土地柄も本土の芋焼酎と共通する背景とされる。\n## どう作るのか\n米麹または麦麹で一次もろみを仕込み、蒸してつぶしたさつまいもを加える二次仕込みで発酵を進めるのは、鹿児島本土の芋焼酎と同じ基本形とされる。単式蒸留機で一度だけ蒸留され、島内で長く大切に受け継がれてきた製法をそのまま守りながら、それぞれの蔵がわずかな配合の違いや独自の熟成方法を絶えず工夫しているという。貯蔵の期間や方法によっても、それぞれの蔵が持つ個性が色濃く現れてくるとされる。\n## なぜこの形になったのか\n種子島は、元禄11年(1698年)に当時の島主が琉球王国から甘藷を譲り受けたと伝わる、甘藷伝来の地のひとつとされ、鉄砲伝来の地としても広く知られている。水はけの良い土地で米づくりが難しかった種子島でも、この芋がよく育ったことから、身近な原料を蒸留酒に仕立てる文化がこの島でも同じように育まれてきたと伝わる。",
+      "body_en": "## What it's made of\nThe raw material is sweet potato, sharing the same basic raw material and method as imo-jochu from the Kagoshima mainland, it's said. A warm maritime climate and well-drained soil are said to create an environment well suited to growing sweet potato, and the varieties each island brewery cultivates, along with its choice of koji, are said to give each its own distinct character. Land unsuited to rice-growing is also said to be a background shared with the mainland's imo-jochu.\n## How it's made\nBuilding a first mash from rice or barley koji, then adding steamed, mashed sweet potato for a second-stage fermentation, is said to follow the same basic form as imo-jochu from the Kagoshima mainland. It's distilled once through a single-distillation still, and each brewery is said to work its own small differences in blend ratio and approach to aging while preserving a method long handed down on the island. The length and method of aging are also said to strongly bring out each brewery's own distinct character.\n## Why it took this shape\nTanegashima is said to be one of the places where sweet potato first arrived, according to an account that the island's lord received it from the Ryukyu Kingdom in 1698, and it's also widely known as the island where firearms first reached Japan. Even on Tanegashima, where the well-drained land made rice-growing difficult, this crop is said to have thrived, and a culture of turning a familiar raw material into a distilled spirit is said to have taken root there just as it did elsewhere.",
+      "sources": [
+        {
+          "title": "さつまいもの歴史 - 甘藷栽培",
+          "url": "https://www.furusato-tanegashima.net/kansyo/kansyo-saibai.html",
+          "publisher": "種子島観光協会",
+          "accessed_at": "2026-09-13"
+        },
+        {
+          "title": "サツマイモの伝来－前田利右衛門と青木昆陽－",
+          "url": "https://www.maff.go.jp/kyusyu/seibibu/kokuei/13/pdf/satumaimonodennrai.pdf",
+          "publisher": "農林水産省九州農政局",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tanegashima-imo-jochu",
+          "to_slug": "satsuma-shochu",
+          "relation_type": "派生",
+          "basis": "種子島は奄美市・大島郡には含まれない鹿児島県内の島であり、地理的表示「薩摩」の対象地域に含まれる（国税庁「地理的表示『薩摩』生産基準」）"
+        }
+      ]
+    },
+    {
+      "slug": "hanazake",
+      "body_ja": "## 何でできているか\n原料はタイ米と黒麹で、造り方そのものは泡盛と変わらないとされる。違いは蒸留直後の初留、つまりもっとも高濃度な部分だけをそのまま瓶詰めする点にあるといい、60度前後という高いアルコール分と、蒸留したての荒々しくも澄んだ香りを持つ、通常の泡盛とは大きく一線を画す、実に個性の強い酒質になっているとされている。\n## どう作るのか\n蒸したタイ米に黒麹菌を繁殖させて全麹仕込みのもろみを造り、単式蒸留機で蒸留するところまでは通常の泡盛と共通するとされる。通常の泡盛は蒸留後に43度以下まで割り水するのに対し、花酒は初留部分を割り水せずそのまま瓶詰めするため、酒税法上は泡盛ではなく「スピリッツ」という別の区分に分類されることになるという。生産量がごく限られており、島外へ流通する量はわずかだとされ、入手しにくい酒でもあるという。\n## なぜこの形になったのか\nかつて台湾との行き来が盛んだった与那国島には、台湾の酒文化の影響を受けた独自の蒸留技術が伝わったとされる。高濃度のアルコールは祭事や消毒など特別な用途にも使われてきたと伝わり、与那国島だけの例外的な酒として今もなお伝統的に大切に受け継がれ続けており、島の暮らしと文化に今も深く固く結びついているという。",
+      "body_en": "## What it's made of\nThe raw materials are Thai rice and black koji, and the method itself is said to be no different from awamori. The difference lies in bottling only the first distillate — the highest-proof portion that comes off the still first — straight, without cutting it, giving a spirit around 60 percent alcohol with the raw, clear aroma of something fresh off the still, a bold character quite apart from ordinary awamori.\n## How it's made\nSteamed Thai rice is cultured with black koji mold to build a mash under the zen-koji-jikomi method, then run through a single-distillation still, just as with ordinary awamori, it's said. While ordinary awamori is cut with water down to 43 percent or below after distillation, hanazake is bottled from the first distillate without any cutting, which is why it ends up falling under the separate category of 'spirits' rather than awamori under the liquor tax law. Production is said to be very limited, with only a small amount reaching the market beyond the island, making it hard to find.\n## Why it took this shape\nYonaguni, which once had lively ties to Taiwan, is said to have received its own distillation technology influenced by Taiwanese drinking culture. High-proof alcohol is said to have also served special purposes such as rituals and disinfection, and it's said to be still traditionally and carefully passed down today as a spirit unique to Yonaguni, tightly bound up with the island's daily life and culture.",
+      "sources": [
+        {
+          "title": "花酒与那国ハナザケヨナグニ",
+          "url": "https://okinawa-awamori.or.jp/products/835/",
+          "publisher": "沖縄県酒造組合",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "hanazake",
+          "to_slug": "awamori",
+          "relation_type": "派生",
+          "basis": "原料・製法は泡盛と同じだが、初留を割り水せず瓶詰めするため度数が泡盛の上限を超え、酒税法上は「スピリッツ」として区別される（沖縄県酒造組合「花酒与那国」）"
+        }
+      ]
+    },
+    {
+      "slug": "chouki-chozo-shochu",
+      "body_ja": "## 何でできているか\n新たに原料を加えるものではなく、焼酎を貯蔵し続けることで育つ酒質を「長期貯蔵」という表示によって示す仕組みとされる。長く寝かせることでアルコールの角が取れてまろやかになり、原料由来の香りに熟成による深みが加わるとされ、通常の焼酎とは異なる落ち着いた味わいになるといい、貯蔵年数そのものが価値として語られるようになるという。\n## どう作るのか\n単式蒸留機で蒸留した原酒を、タンクや甕、樽で3年以上大切に貯蔵し、その貯蔵酒を全体の50%以上使ってブレンドすることが「長期貯蔵」と表示するための条件とされる。泡盛の場合は基準がまったく異なり、3年以上貯蔵した泡盛を指して「古酒(クース)」と呼ぶ独自の表示ルールが、これとは別に細かく定められているという。\n## なぜこの形になったのか\n焼酎は本来、蒸留したてでもそのまま美味しく飲める酒質であるため、貯蔵年数をきちんと表示するための明確な基準が求められるようになったとされる。同じ蒸留酒でも焼酎と泡盛とで熟成文化の歴史や呼び方が大きく異なることを踏まえ、それぞれに応じた表示基準が国税庁によって別々に丁寧に定められ、今に至るまで運用されてきたと伝わる。この表示があることで、消費者は貯蔵年数を目安のひとつとして選べるようになったとされる。",
+      "body_en": "## What it's made of\nRather than adding a new ingredient, this is a system for signaling, through the label 'choki chozo' (long-aged), the character a shochu develops simply by continuing to be stored. Long aging is said to soften alcohol's sharp edge into a mellow character and add a depth from maturation on top of the raw material's own aroma, giving a calmer flavor than ordinary shochu, with the years of storage itself coming to be spoken of as a value.\n## How it's made\nRaw spirit distilled through a single-distillation still is carefully stored in a tank, jar, or cask for three years or longer, and blending so that spirit makes up at least 50 percent of the total is the condition for the 'choki chozo' label, it's said. Awamori follows an entirely different standard, with its own separate, more detailed labeling rule that reserves the term kusu for awamori stored three years or longer.\n## Why it took this shape\nBecause shochu is, by nature, a spirit that can be drunk straight off the still and still taste good, a clear standard for labeling how long it's been stored is said to have become necessary. Recognizing that shochu and awamori, though both distilled spirits, carry very different histories of aging culture and different names for it, the National Tax Agency is said to have carefully set separate labeling standards suited to each. Thanks to this label, consumers are said to now be able to use aging time as one guide when choosing a bottle.",
+      "sources": [
+        {
+          "title": "本格焼酎用語辞典「長期貯蔵」って何？",
+          "url": "https://www.hamadasyuzou.co.jp/denbee/column/post_128.html",
+          "publisher": "濵田酒造",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "chouki-chozo-shochu",
+          "to_slug": "awamori-kusu",
+          "relation_type": "対比",
+          "basis": "焼酎(泡盛を除く)は3年以上貯蔵した原酒を総量の50%以上使えば「長期貯蔵」と表示できるのに対し、泡盛は3年以上貯蔵したものを「古酒(クース)」と呼ぶという、表示基準の違い（濵田酒造「本格焼酎用語辞典『長期貯蔵』って何？」）"
+        }
+      ]
+    }
+  ]
+}

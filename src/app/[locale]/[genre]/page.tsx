@@ -33,6 +33,10 @@ import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
  */
 type Params = { locale: string; genre: string };
 
+// ISR（`revalidate = 300`）。全件系クエリ（fetchGenreItems等）を持つため
+// トップと同じ対応。詳細: `.doc/10_system/02_infrastructure.md` §1「ISRキャッシュ」。
+export const revalidate = 300;
+
 export async function generateMetadata({ params }: { params: Promise<Params> }) {
   const { locale, genre } = await params;
 

@@ -1,4 +1,9 @@
-import { createClient } from "@/lib/supabase/server";
+// cookieを使わない読み取り専用クライアント（@/lib/supabase/static）を使う。
+// このファイルは読み取り専用（write操作なし）であり、`@/lib/supabase/server`の
+// `cookies()`呼び出しはNext.jsを自動的に動的レンダリングへ固定してしまうため、
+// トップ・ジャンル・県ページの`export const revalidate`（ISR）が効かなくなる
+// （2026-09、本番TTFB改善対応。詳細: `.doc/10_system/02_infrastructure.md` §1「ISRキャッシュ」）。
+import { createStaticClient as createClient } from "@/lib/supabase/static";
 import { fetchAllRows } from "@/lib/supabase/fetchAll";
 
 import { excerptChapterSentence, excerptFirstSentence } from "./markdown";

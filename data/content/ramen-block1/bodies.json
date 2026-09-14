@@ -1,0 +1,289 @@
+{
+  "items": [
+    {
+      "slug": "kamikawa",
+      "body_ja": "## 何でできているか\n白く炊いた豚骨スープが看板で、透明感よりも骨の甘みと厚みを前に出す。仕上げの味つけは味噌や塩を掲げる店が多く、醤油の二段スープを主流とする旭川ラーメンとは別の骨組みを選んでいる。麺はコシのある中太が中心で、濃いめのスープをしっかり受け止める。汁を飲み干したくなるほど、水そのものの味がまず立つのがこの町のラーメンの特徴とされる。\n## どう作るのか\n豚骨を長時間じっくり炊き出し、白濁するまで煮出してから、店ごとに味噌や塩のタレを合わせて一杯に仕立てる。仕込み水には大雪山からの伏流水を使う店が多く、スープも麺も同じ水系でまとめる作り方が土地の誇りになっている。他所から来た醤油の型をなぞるのではなく、手元にある水と骨で組み立てる発想が根にあり、店ごとの工夫がそのまま味の違いに表れる。\n## なぜこの形になったのか\n上川町は石狩川の最上流にあり、大雪山からの清らかな水に恵まれた土地。1989年発足の地元の会が「おいしい水の町」を掲げてラーメンを盛り立てたと伝わる。旭川という大きな隣人を持ちながら、水と骨だしという土地の資源で独自色を出した結果が、この一杯に表れている。観光の呼び水としてラーメンを掲げた小さな町の選択が、そのまま食文化として根づいた例といえる。",
+      "body_en": "## What it's made of\nA milky white pork-bone broth is the calling card, favoring the sweetness and body of the bones over clarity. Most shops finish it with a miso or salt tare, a different backbone from Asahikawa's soy double-soup next door. Medium-thick, firm noodles are built to stand up to the richer broth.\n## How it's made\nPork bones are simmered for hours until the broth turns cloudy white, then finished shop by shop with miso or salt tare. Many kitchens draw their water from Mount Taisetsu's meltwater, using the same water system for both broth and noodles — a point of local pride.\n## Why it took this shape\nKamikawa sits at the headwaters of the Ishikari River, fed by clean water off Mount Taisetsu. A local association founded in 1989 is said to have championed the town under the banner of Japan's best ramen water. Living beside the larger neighbor of Asahikawa, the town built its own identity on water and bone broth rather than soy.",
+      "sources": [
+        {
+          "title": "上川ラーメン | feel道北 道北エリア絶景ガイド",
+          "url": "https://northern-hokkaido.jp/eat/258/",
+          "publisher": "feel道北",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kamikawa",
+          "to_slug": "asahikawa",
+          "relation_type": "対比",
+          "basis": "旭川ラーメンの影響を受けつつ、醤油の二段スープではなく豚骨だしと味噌・塩のタレを主体とする点が対照的"
+        }
+      ]
+    },
+    {
+      "slug": "iwanai-tempura",
+      "body_ja": "## 何でできているか\n鶏ガラや鰹節でとった出汁に、塩または醤油であっさり味つけしたスープが土台。そこに揚げたての海老天を1〜2本のせるのが最大の目印で、麺は緩めに縮れた中細麺が使われる。天ぷらの衣がスープを吸って崩れていく変化も、この一杯の楽しみ方のひとつで、子どもの頃から親しんだ味として地元では語られることが多い。派手さより素朴さを大事にする町の食卓を映した一杯といえる。\n## どう作るのか\n鶏ガラと鰹だしをあっさりめにとり、塩または醤油でととのえる。仕上げに海老を揚げたてのままのせるため、注文が入ってから天ぷらを揚げる店が多い。かつては芝海老などのかき揚げが主流だったが、1980年代ごろからエビ天そのものをのせる形が広まったという。スープの味つけや衣の厚みは店ごとに個性があり、食べ比べる楽しみもある。\n## なぜこの形になったのか\n岩内町は後志の漁師町で、そば店で天ぷらそばが親しまれていた土地。1940年ごろ、そば店「福井庵」で常連客が天ぷらそばの天ぷらをラーメンに入れてほしいと頼んだのがきっかけとされる。そばの具をラーメンに転用するという小さな思いつきが、世代を超えて地元で受け継がれる名物になったと伝わり、今も町内の食堂ごとに受け継がれている。",
+      "body_en": "## What it's made of\nThe base is a light broth of chicken bones and bonito, finished with salt or soy sauce. What marks the bowl is one or two pieces of freshly fried shrimp tempura on top, paired with loosely curled, medium-thin noodles. Part of the pleasure is watching the batter soften as it soaks up the broth.\n## How it's made\nChicken and bonito stock is kept light, then seasoned with salt or soy sauce. Because the shrimp is fried to order, many shops don't start the tempura until an order comes in. Mixed-vegetable fritters were once more common, but from around the 1980s a single piece of shrimp tempura became the standard topping.\n## Why it took this shape\nIwanai is a fishing town in the Shiribeshi region where tempura soba was already a local favorite. Around 1940, a regular at the soba shop Fukuian is said to have asked for the tempura from his tempura soba to be dropped into ramen instead. That small request, borrowed from a neighboring noodle dish, grew into a name the town has kept.",
+      "sources": [
+        {
+          "title": "後志のご当地グルメ",
+          "url": "https://www.shiribeshi.pref.hokkaido.lg.jp/ss/srk/kankou/kankou/167185.html",
+          "publisher": "後志総合振興局",
+          "accessed_at": "2026-09-13"
+        },
+        {
+          "title": "天ぷらラーメン",
+          "url": "https://ja.wikipedia.org/wiki/天ぷらラーメン",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "iwanai-tempura",
+          "to_slug": "tenpura-soba",
+          "relation_type": "派生",
+          "basis": "そば店の天ぷらそばの天ぷらをラーメンに転用したのが由来"
+        }
+      ]
+    },
+    {
+      "slug": "nakashibetsu-milky",
+      "body_ja": "## 何でできているか\nスープに中標津産の牛乳を100cc以上加えることだけが決まりで、味つけは味噌をベースにする店が多いものの自由。牛乳のコクとまろやかさが、味噌やコショウの効いたスープに丸みを添える。名称は店ごとの工夫にかかわらず「中標津ミルキーラーメン」で統一されており、味の幅広さそのものが個性になっていて、食べ比べを楽しむ客も多いという。\n## どう作るのか\n味噌だれや香辛料でベースを組んだスープに、規定量以上の地元牛乳を仕上げに加えて煮立てすぎないようにまとめる。牛乳を入れるタイミングや配合は店ごとに違い、四川味噌のように辛味を効かせた変わり種を出す店もある。牛乳が分離しないよう火加減を見極めるのが、どの店にも共通する腕の見せどころとされ、店主の裁量が味の決め手になる。\n## なぜこの形になったのか\n中標津町は根釧台地の酪農地帯で、生乳の生産量が需要を上回った時期があった。2006年ごろ、余った生乳が廃棄されたという報道をきっかけに、地元の牛乳をもっと消費してもらおうと考案されたのがこのラーメンとされる。味より先に「牛乳を使う」という条件が決まっているのは、酪農を支える町ならではのそうした経緯を映している。",
+      "body_en": "## What it's made of\nThe only fixed rule is at least 100cc of Nakashibetsu milk stirred into the broth; seasoning is left open, though miso bases are common. The milk's richness rounds off the sharper edges of the miso and pepper. Whatever a shop does with it, the name stays the same: Nakashibetsu Milky Ramen.\n## How it's made\nA miso or spice-based broth is built first, then finished with the required amount of local milk, kept off a hard boil so it doesn't split. The timing and ratio vary by shop, and some go further with a spiced Sichuan-style miso version.\n## Why it took this shape\nNakashibetsu sits on the dairy plains of the Konsen region, and at one point local milk production outran demand. Around 2006, news that surplus raw milk was being discarded is said to have prompted the town to invent a ramen built around drinking more of it. That the rule is 'use the milk' rather than any particular flavor reflects exactly where the dish came from.",
+      "sources": [
+        {
+          "title": "中標津ミルキーラーメン",
+          "url": "https://ja.wikipedia.org/wiki/中標津ミルキーラーメン",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "nakashibetsu-milky",
+          "to_slug": "miso-curry-milk",
+          "relation_type": "対比",
+          "basis": "どちらも牛乳を使う北海道・青森のご当地ラーメンだが、牛乳消費拡大が目的の中標津と、味噌・カレー・牛乳を組み合わせた青森市とでは動機が異なる"
+        }
+      ]
+    },
+    {
+      "slug": "okhotsk-kaibashira",
+      "body_ja": "## 何でできているか\n透き通った金色の塩スープに、蒸し戻したオホーツク産の干し貝柱をまるごと一個のせるのが決まり。スープにはオホーツク海の自然塩と天然のホタテエキスを使い、麺にはオホーツク産の小麦を使う中華麺があてられる。仕上げにホタテや鮭、根昆布を使った専用の薬味を添える店もあり、味の変化も楽しめる、レア度の高いご当地ラーメンとされる。\n## どう作るのか\n干し貝柱を時間をかけて蒸し戻し、崩さずにまるごとトッピングできる状態にととのえる。スープは自然塩とホタテのエキスを合わせて塩味に仕立て、貝柱の風味を消さないように薄めにまとめる。麺・具・調味という各要素にオホーツク産であることが条件として定められており、産地の縛りそのものがこの一杯の骨格になっている。\n## なぜこの形になったのか\nオホーツク海沿岸はホタテの水揚げが多い一方、干し貝柱としての消費はあまり知られていなかった土地。2009年、地元の魅力を知ってもらう目的で旅行情報誌と沿岸の自治体が共同で開発したのがこのラーメンとされる。産地の食材だけで一杯を組み立てるという条件そのものが、地域を挙げて売り出す狙いを映しており、8つの自治体が名を連ねる企画になっている。",
+      "body_en": "## What it's made of\nA whole rehydrated dried scallop sits on a clear, golden salt broth — that's the fixed rule. The broth draws on natural sea salt and scallop extract from the Okhotsk Sea, and the noodles use wheat grown along the same coast. Some shops add a condiment built from scallop, salmon and root kelp.\n## How it's made\nDried scallops are slowly rehydrated until they can be set whole on top without falling apart. The broth combines natural salt with scallop extract, kept light so it doesn't bury the scallop's own flavor. Noodles, topping and seasoning are all bound by the same rule: everything has to come from the Okhotsk coast.\n## Why it took this shape\nScallops are landed in volume along the Okhotsk coast, but dried scallops themselves were not well known outside the region. In 2009, a travel magazine and the coastal municipalities are said to have jointly developed this ramen to introduce the local product. Building a bowl entirely from local ingredients was itself the point — a shared push by the coast to promote its own coastline.",
+      "sources": [
+        {
+          "title": "スープを飲み干す旨さ！3つの味が楽しめる「オホーツク干貝柱塩ラーメン」",
+          "url": "https://hokkaidolikers.com/archives/31259",
+          "publisher": "北海道Likers",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "okhotsk-kaibashira",
+          "to_slug": "hotate",
+          "relation_type": "使用食材",
+          "basis": "オホーツク産の干し貝柱をまるごとトッピングに使う"
+        }
+      ]
+    },
+    {
+      "slug": "asahikawa-horumen",
+      "body_ja": "## 何でできているか\n旭川ラーメンの醤油だれのスープに、豚ホルモンをのせたのが基本形。ホルモンは下処理でくさみを抜いてあるので、生の内臓特有の匂いは控えめ。各店のチャーシューの煮汁や豚骨スープ、生醤油で煮込んで仕立てるため、店によって味の輪郭が少しずつ違う。醤油ラーメンの型を保ったまま、具材だけを大胆に置き換えた一杯といえる。\n## どう作るのか\n豚の内臓を丁寧に下処理してくさみを抜いたあと、各店のチャーシュー煮汁や豚骨スープ、生醤油でじっくり煮込む。旭川ラーメンの醤油だれと魚介だしを合わせたスープにこのホルモンをのせ、既存の醤油ラーメンの型にホルモンを組み込む形で一杯にまとめる。麺は旭川らしい中細の縮れ麺がそのまま使われることが多く、新しい具材にも違和感なくなじむ。\n## なぜこの形になったのか\n旭川は明治末期から養豚業が盛んで、豚骨を煮出す醤油ラーメンの文化と、戦後の食糧難の中で内臓を無駄にせず食べるホルモン文化が、同じ町で別々に育ってきた。旭川の醤油醸造と食肉加工、両方の技術が育っていた土地だからこそ、二つのソウルフードを一杯にまとめる発想が生まれたとされ、2010年代に新しいご当地グルメとして形になった。",
+      "body_en": "## What it's made of\nThe basic form is Asahikawa's soy-tare broth topped with pork offal. Because the offal is prepped to strip out its rawer smell, the usual pungency of organ meat stays in the background. Each shop simmers it in its own char siu braising liquid, pork-bone stock and raw soy sauce, so the flavor shifts slightly from one kitchen to the next.\n## How it's made\nPork offal is carefully cleaned to remove its odor, then simmered slowly in a shop's own char siu braising liquid, pork-bone stock and raw soy sauce. That offal goes on top of Asahikawa's familiar soy-and-seafood broth, folding the new topping into an existing soy ramen rather than inventing a new soup.\n## Why it took this shape\nAsahikawa had a thriving hog-raising industry from the late Meiji era, which fed a soy ramen culture built on simmered pork bones. Separately, postwar food shortages pushed the city toward a culture of eating offal rather than wasting it. With both soy brewing and meat processing well established in one city, combining its two soul foods into a single bowl was, in a sense, a local inevitability.",
+      "sources": [
+        {
+          "title": "旭川しょうゆホルメンについて",
+          "url": "https://horumen.jp/about/",
+          "publisher": "旭川しょうゆホルメン",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "asahikawa-horumen",
+          "to_slug": "asahikawa",
+          "relation_type": "派生",
+          "basis": "旭川の醤油ラーメンにホルモンを組み合わせて考案されたご当地グルメ"
+        }
+      ]
+    },
+    {
+      "slug": "ashibetsu-gatatan",
+      "body_ja": "## 何でできているか\nあっさりとした塩味のスープに片栗粉でとろみをつけ、野菜・肉・魚介・山菜など多くの具を煮込むのが土台。仕上げに溶き玉子をふんわりと流し入れる。もともと麺を入れない汁料理だったガタタンに、麺を合わせたのがこのラーメン。油が少なく、最後まで胃にもたれにくいのが長所とされ、具の多さがそのまま満足感につながる。\n## どう作るのか\n小麦粉を水で練った塊「ガーダ」（店により片栗粉や上新粉で代える）に、野菜・肉・魚介・山菜などの具をたっぷり合わせて煮込み、片栗粉でとろみをつける。仕上げに溶き玉子を流し入れてから麺にかけて食べさせる。ガーダを入れない店もあり、家庭や店ごとに具材の配合が少しずつ違うのも特徴になっていて、同じ名前でも一杯ごとに表情が変わる。\n## なぜこの形になったのか\n戦後、満州から芦別に引き揚げた村井豊後之亮氏が、中華料理店「幸楽」で「含多湯」の字をあてた汁料理として供したのが始まりと伝わる。小麦粉の塊「ガーダ」という中華圏の食文化と、寒い芦別の食卓に合う具だくさんのとろみ汁が結びつき、後に麺と合わせてラーメンとして定着し、町だけで受け継がれてきた名物になった。",
+      "body_en": "## What it's made of\nThe base is a light salt broth thickened with potato starch and packed with vegetables, meat, seafood and wild greens, finished with a soft stream of beaten egg. Gatatan itself was originally a soup eaten without noodles; this version adds ramen noodles to it. Low in oil, it's known for sitting easy on the stomach.\n## How it's made\nWheat flour worked with water into small lumps called gaada (some shops substitute potato starch or rice flour) are simmered together with a heap of vegetables, meat, seafood and wild greens, then thickened with potato starch. Beaten egg is streamed in at the end before the whole soup is ladled over noodles. Some shops skip the gaada altogether, so the mix varies from kitchen to kitchen.\n## Why it took this shape\nThe story goes that after the war, a man named Toyonojo Murai, repatriated to Ashibetsu from Manchuria, served this soup at a Chinese restaurant called Koraku under the characters for 'gan-ta-tang'. The Chinese tradition of flour dumplings called gaada met a hearty, thickened soup suited to Ashibetsu's cold table, and noodles were folded in later to make it ramen.",
+      "sources": [
+        {
+          "title": "ガタタン",
+          "url": "https://go-to-ashibetsu.com/gatatan",
+          "publisher": "芦別観光協会",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "ashibetsu-gatatan",
+          "to_slug": "sapporo",
+          "relation_type": "対比",
+          "basis": "同じ北海道のご当地ラーメンだが、味噌のコクを立てる札幌に対し、ガタタンは片栗粉でとろみをつけたあっさり塩味という違い"
+        }
+      ]
+    },
+    {
+      "slug": "wakkanai",
+      "body_ja": "## 何でできているか\n利尻昆布と豚骨からとるWスープが軸で、表面をラードで覆って冷めにくくしてある。塩・醤油どちらも供されるが、地元では澄んだ塩スープの人気が高い。具はチャーシュー・ねぎ・メンマ・なるとに加え、ラーメンでは珍しい麩が入るのが目印で、最北の港町らしい飾らない構成になっており、最後まで熱々のまま食べきれるよう仕立てられている。\n## どう作るのか\n利尻昆布でとった出汁と豚骨スープを合わせてWスープに仕立て、表面をラードで覆って熱を逃がさないようにする。麩はスープを吸うと風味が変わるため、食べ進むうちに味の輪郭が変化していく。縮れ麺はこの二層のだしをよく持ち上げ、最後の一口までスープの熱を保つ工夫が随所にあり、器の底までぬくもりが長く残るよう作られている。\n## なぜこの形になったのか\n稚内は三方を海に囲まれた漁師町で、厳寒の気候から冷めにくいスープが求められた。近海で揚がる利尻昆布と、内陸から運ばれる豚骨を組み合わせたWスープと、表面を覆うラードは、どちらも寒さへの工夫として読める。麩を具に使う発想も、限られた食材を生かす土地の知恵から生まれたとされ、厳しい気候と真正面から向き合う一杯になっている。",
+      "body_en": "## What it's made of\nA double stock of rishiri kelp and pork bone forms the backbone, capped with lard so it doesn't cool. Both salt and soy versions are served, but locally the clear salt broth is the favorite. Alongside the usual char siu, scallion, bamboo shoot and fish cake, the bowl carries an unusual topping: wheat gluten cake.\n## How it's made\nKelp stock and pork-bone broth are combined into a double stock, then sealed under a layer of lard to hold the heat. Because the gluten cake changes character as it soaks up broth, the flavor shifts as the bowl is eaten. Wavy noodles are built to carry both layers of stock at once.\n## Why it took this shape\nWakkanai is a fishing town wrapped on three sides by the sea, where the severe cold called for a broth that wouldn't lose its heat. The double stock — kelp from nearby waters, pork bone carried in from inland — and the lard sealing the surface both read as answers to the cold. Even the gluten-cake topping is said to reflect a local habit of making the most of what was on hand.",
+      "sources": [
+        {
+          "title": "稚内ラーメン",
+          "url": "https://www.north-hokkaido.com/feature/detail_35.html",
+          "publisher": "きた・北海道DMO",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "wakkanai",
+          "to_slug": "rishiri-konbu",
+          "relation_type": "使用食材",
+          "basis": "利尻昆布と豚骨のWスープに利尻昆布を使う"
+        }
+      ]
+    },
+    {
+      "slug": "rishiri",
+      "body_ja": "## 何でできているか\n利尻昆布からとった出汁が主役で、味つけは最小限の塩にとどめる。「昆布の味が一番わかりやすいから」という理由で塩スープが選ばれており、麺そのものに利尻昆布を練り込んで昆布色に仕上げる店もある。スープも麺も、昆布の風味を邪魔しない作りが徹底されており、飲み干した後にも昆布の余韻が長く残る一杯とされ、香りだけで産地がわかるとも言われる。\n## どう作るのか\n利尻昆布をじっくり水出しまたは煮出しして濃い昆布だしをとり、塩で最低限ととのえる。麺には製麺時に利尻昆布を練り込み、色と香りの両方に昆布を映し込む店もある。具はシンプルにまとめ、昆布の風味を引き立てる方向で全体を組み立てるのがこの一杯の流儀になっていて、余計な要素を足さないことが逆に個性になっている。\n## なぜこの形になったのか\n利尻島は火山の島で、その恵みを浴びて育つ利尻昆布は千年ともいわれる歴史を持ち、かつては宮廷儀式や茶道でも使われた高級食材だった。地元の漁業協同組合がこの昆布の価値をラーメンという身近な形で伝えようとした結果、だしも麺も昆布で貫く一杯になったとされ、島の看板食材をそのまま器に映す試みとなり、観光の土産としても定着している。",
+      "body_en": "## What it's made of\nStock drawn from rishiri kelp is the whole point, seasoned with the barest amount of salt. Salt is chosen, by the logic that 'kelp's flavor comes through most clearly that way,' and some shops knead kelp straight into the noodles, tinting them kelp-brown. Both broth and noodles are built so nothing gets in the kelp's way.\n## How it's made\nRishiri kelp is steeped or simmered slowly into a concentrated stock, then seasoned with only as much salt as needed. Some shops work kelp into the noodle dough itself, carrying its color and aroma into the noodles as well as the broth. Toppings stay simple, arranged to let the kelp lead.\n## Why it took this shape\nRishiri is a volcanic island, and the kelp that grows in its waters carries a history said to stretch back a thousand years, once prized enough for court ceremony and the tea room. The local fishery cooperative is said to have built this ramen to carry that kelp's value into something as everyday as a bowl of noodles — stock and noodles alike built entirely around it.",
+      "sources": [
+        {
+          "title": "利尻昆布ラーメン",
+          "url": "https://rishiri-gyokyo.or.jp/r-ramen/",
+          "publisher": "利尻漁業協同組合",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "rishiri",
+          "to_slug": "rishiri-konbu",
+          "relation_type": "使用食材",
+          "basis": "出汁だけでなく麺にも利尻昆布を練り込む"
+        }
+      ]
+    },
+    {
+      "slug": "tsugaru-noukou",
+      "body_ja": "## 何でできているか\n煮干しだしに豚骨などの動物系だしを合わせた、厚みのある醤油スープが土台。もとの津軽ラーメンが煮干しだけのあっさり系だったのに対し、この濃厚版は煮干しの香りを残しながら動物系のコクを加えている。麺は中太のちぢれ麺と合わせる店が多く、スープの重さにしっかり負けない太さが選ばれ、最後の一滴まで濃度が崩れない。\n## どう作るのか\n煮干しをじっくり煮出して香りの強いだしをとり、そこに豚骨など動物系のだしを合わせて醤油だれでととのえる。煮干しの配合や動物系だしとの比率は店ごとに違い、あっさりから濃厚までの幅を各店が競うように作り込んでおり、同じ「津軽」でも一杯ごとに輪郭が変わるほど作り手の個性がはっきり表れる作り方になっている。\n## なぜこの形になったのか\n陸奥湾でアジやイワシがよく獲れる津軽地方では、味噌汁やそばつゆにも煮干しだしを使う家庭文化が根づいていた。この日常の煮干しだしが中華そばにも応用されたのが津軽ラーメンの起源とされ、2000年代以降はそこに動物系だしを重ねる濃厚な作り方が広まり、「新津軽ラーメン」とも呼ばれるようになったと伝わっている。",
+      "body_en": "## What it's made of\nThe base is a heavier soy broth that pairs dried-sardine stock with an animal-based stock such as pork bone. Where the original Tsugaru ramen ran light on niboshi alone, this version keeps the sardine's aroma while adding the body of bone broth. Medium-thick, curly noodles are the usual match.\n## How it's made\nDried sardines are simmered slowly into a strongly aromatic stock, then combined with an animal-based stock such as pork bone and seasoned with soy tare. The ratio of niboshi to bone broth differs from shop to shop, each one tuning its own place on the scale from light to rich.\n## Why it took this shape\nIn the Tsugaru region, where horse mackerel and sardines are landed in Mutsu Bay, households routinely used dried-sardine stock in everything from miso soup to soba broth. That everyday habit is said to be the root of Tsugaru ramen, applied to Chinese-style noodles. From the 2000s on, shops began layering animal-based stock on top of it, giving rise to what's sometimes called the 'new Tsugaru ramen.'",
+      "sources": [
+        {
+          "title": "津軽煮干しラーメン",
+          "url": "https://aomori-tourism.com/feature/detail_223.html",
+          "publisher": "青森県観光連盟（Amazing AOMORI）",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tsugaru-noukou",
+          "to_slug": "tsugaru",
+          "relation_type": "派生",
+          "basis": "2000年代以降、煮干しだけのあっさり系だった津軽ラーメンに動物系だしを重ねた濃厚版として広まった"
+        }
+      ]
+    },
+    {
+      "slug": "juusanko-shijimi",
+      "body_ja": "## 何でできているか\n塩ベースのスープに、十三湖でとれるヤマトシジミのだしがたっぷり効いている。トッピングにもシジミの身がそのまま盛られ、殻ごと添える店もある。貝のうまみと塩スープの澄んだ味わいが重なり合う、あっさりとした一杯で、最後の一滴まで貝の香りが続き、器を持ち上げて飲み干す客も多いといい、体が温まる冬の一杯としても親しまれる。\n## どう作るのか\n十三湖産のヤマトシジミをじっくり煮出してだしをとり、塩でととのえてスープに仕立てる。だしをとったシジミの身はそのままトッピングとしても使われ、スープと具の両方でシジミを味わえるように作られている。麺は塩スープの軽さに合う細めが選ばれることが多く、貝のだしをまっすぐ受け止める仕立てになっていて、余韻の長さが特徴とされる。\n## なぜこの形になったのか\n十三湖は白神山地から流れる岩木川と日本海が混じり合う汽水湖で、この海水と淡水が交わる環境がヤマトシジミの生育に適し、全国有数の産地となった。湖畔のドライブインが元祖としてしじみラーメンを考案し、そのレシピが近隣の食堂にも伝わって、それぞれが独自の一杯を育ててきたとされ、湖の恵みがそのまま丼に映されている。",
+      "body_en": "## What it's made of\nA salt-based broth carries a heavy dose of Yamato clam stock from Lake Jusan. Whole clams are piled on top too, sometimes still in the shell. The clams' savoriness layers over the clean taste of the salt broth for a light, straightforward bowl.\n## How it's made\nYamato clams from Lake Jusan are simmered slowly to draw out their stock, then seasoned with salt to build the broth. The clams used for the stock are kept and served as the topping too, so the shellfish shows up in both the soup and the bowl. Thin noodles are the usual match for the broth's lightness.\n## Why it took this shape\nLake Jusan is a brackish lake where the Iwaki River, flowing down from the Shirakami Mountains, meets the Sea of Japan. That mix of fresh and salt water suits Yamato clams so well that the lake became one of the country's leading clam grounds. A drive-in on the lakeshore is said to have first devised the shijimi ramen, and the recipe spread to nearby diners, each raising its own version of the dish.",
+      "sources": [
+        {
+          "title": "十三湖のしじみ",
+          "url": "https://www.umai-aomori.jp/local-cuisine/detail_106.html",
+          "publisher": "青森県（うまい青森）",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "juusanko-shijimi",
+          "to_slug": "shijimi",
+          "relation_type": "使用食材",
+          "basis": "十三湖産ヤマトシジミのだしとトッピングを使う"
+        }
+      ]
+    },
+    {
+      "slug": "kamaishi",
+      "body_ja": "## 何でできているか\n琥珀色に澄んだ醤油スープと、極細の縮れ麺が組み合わさる一杯。あっさりとした味わいで、こってり系とは対照的な軽さがある。麺はゆで時間が短く済むように作られており、待たされることの少ないラーメンとして親しまれている。具はチャーシューやメンマなど手堅い顔ぶれでまとめられ、スープの透明感を邪魔しないよう控えめに盛られる。\n## どう作るのか\n醤油だれと魚介や豚骨の出汁を合わせて澄んだ色に仕立て、脂を強く残さないようあっさりまとめる。麺は極細に仕上げることで茹で時間を短縮し、客を待たせない工夫がされている。具はチャーシューやメンマなど、スープの軽さを邪魔しない構成にとどめる店が多く、澄んだ色を保つことにも普段から気が配られており、雑味を残さない仕立てが徹底されている。\n## なぜこの形になったのか\n釜石は製鉄所を中心に発展した港町で、働く人たちが短い休憩時間ですぐに食べられるラーメンが求められた。極細麺の早茹で仕立ては、そうした忙しい労働の合間の食事という土地の事情から生まれたとされる。三陸の港町らしい、待たせないための軽さが一杯の形を決めており、今も昼どきの回転の速さにその名残が表れている。",
+      "body_en": "## What it's made of\nA clear, amber soy broth pairs with very thin, wavy noodles — light in a way that stands apart from richer, heavier styles. The noodles are made to cook quickly, and the bowl is known locally as ramen that doesn't keep anyone waiting.\n## How it's made\nSoy tare is combined with a seafood or pork-bone stock and kept clear, avoiding a heavy layer of fat. Noodles are cut extra thin so they boil fast, sparing customers a long wait. Toppings like char siu and bamboo shoot are kept modest, so as not to weigh down the broth's lightness.\n## Why it took this shape\nKamaishi grew up as a port town built around its steelworks, where workers needed a ramen they could eat and finish within a short break. The thin, fast-cooking noodles are said to answer exactly that need — a meal squeezed into a busy shift. That refusal to keep anyone waiting, typical of a Sanriku port town, shaped the bowl itself.",
+      "sources": [
+        {
+          "title": "釜石ラーメン",
+          "url": "https://kamaishi-kankou.jp/gourmet/kamaishiramen/",
+          "publisher": "釜石観光物産協会",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kamaishi",
+          "to_slug": "miyako",
+          "relation_type": "兄弟",
+          "basis": "同じ三陸沿岸で育った極細麺・あっさり醤油系のご当地ラーメン仲間"
+        }
+      ]
+    },
+    {
+      "slug": "ninohe-gokoku",
+      "body_ja": "## 何でできているか\nこの一杯の主役はスープではなく麺。ひえ・あわ・たかきび・アマランサスという地元産の雑穀4種に小麦を加えた五穀麺が特徴で、通常の中華麺よりも粒感や香ばしさが残る。スープの味つけは店によって幅があり、麺の個性を引き立てる形で組み合わされ、食べ進むほどに雑穀の香りが鼻に抜ける一杯になっていて、噛むほど風味が増す。\n## どう作るのか\nひえ・あわ・たかきび・アマランサスをそれぞれ粉にひき、小麦粉と合わせて生地をまとめてから麺に仕立てる。雑穀の配合や挽き方は作り手によって差があり、通常の中華麺よりも色や食感に個性が出やすい。市内のラーメン店や食堂ごとに、この麺をどう活かすかでスープの組み合わせを工夫しており、通販でも扱われるほど広まっている。\n## なぜこの形になったのか\n二戸市を含む岩手県北部の内陸は、冷涼な気候から米作りに向かず、古くからひえやあわなどの雑穀が栽培されてきた土地。過疎化や高齢化に悩む地域で雑穀を町おこしの核にしようという取り組みの中から、雑穀を粉にして麺そのものに練り込むという発想が生まれ、五穀ラーメンとして形になったとされ、地域振興の一例として知られる。",
+      "body_en": "## What it's made of\nIn this bowl, the noodle takes the lead over the broth. The defining feature is a five-grain noodle: foxtail millet, proso millet, sorghum and amaranth grown locally, kneaded together with wheat. It carries more texture and toasted aroma than an ordinary Chinese noodle. Broth seasoning varies from shop to shop, generally built to let the noodle stand out.\n## How it's made\nFoxtail millet, proso millet, sorghum and amaranth are each milled into flour, combined with wheat flour into a dough, and shaped into noodles. The ratio of grains and how finely they're milled differ by maker, giving the noodles more variation in color and texture than standard ramen noodles. Shops and diners around the city each work out their own broth to match.\n## Why it took this shape\nThe cool inland north of Iwate, including Ninohe, was never well suited to rice, and minor grains such as foxtail and proso millet have been grown there since long ago. Amid efforts to make those grains a centerpiece of revival in a region facing depopulation and an aging population, the idea of milling them straight into noodle dough took hold, and this five-grain ramen is what came of it.",
+      "sources": [
+        {
+          "title": "五穀ラーメン（二戸市）",
+          "url": "https://www.nippon-ramen-fc.org/archives/biblio/b0005",
+          "publisher": "日本ご当地ラーメン総覧",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "ninohe-gokoku",
+          "to_slug": "miyako",
+          "relation_type": "対比",
+          "basis": "同じ岩手県のご当地ラーメンだが、三陸沿岸の煮干し出汁が主役の宮古に対し、内陸の二戸は雑穀麺そのものが主役という対照"
+        }
+      ]
+    },
+    {
+      "slug": "otsuchi-iso",
+      "body_ja": "## 何でできているか\n数種の海藻と鰹節からとった和風だしに、ほんのりと醤油を効かせたあっさりスープが土台。そこにワカメやフノリ、マツモといった三陸の海藻と、ホタテ・エビ・イカ・カニなど海の幸をたっぷり盛る。さっぱりとしていながらコクがあり、具だくさんで食べごたえのある一杯に仕上がっていて、老若男女に受け入れられやすい味という。\n## どう作るのか\n鰹節と数種の海藻で和風のだしをとり、醤油をほんのりと効かせてあっさりめのスープに仕立てる。ワカメ・フノリ・マツモなど三陸で採れる海藻と、ホタテやエビ、イカ、カニといった魚介をたっぷりのせて、麺は昔ながらのやわらかめのものを合わせる。具の多さがそのままこの一杯の顔になっており、盛りつけからして三陸の海を思わせる。\n## なぜこの形になったのか\n大槌町は三陸海岸に面した漁師町で、昭和44年ごろ、国道沿いのドライブイン「吉里吉里ドライブイン」が地元でとれる海藻と魚介を活かしたラーメンとして考案したのが始まりとされる。海の恵みがすぐそばにある土地だからこそ、具材をそのまま盛り込む発想がラーメンという型に落とし込まれ、今では三陸沿岸一帯で食べられる料理に育った。",
+      "body_en": "## What it's made of\nThe base is a light broth of Japanese-style dashi — bonito and a few kinds of seaweed — touched with just a little soy sauce. On top goes a heap of Sanriku seaweeds like wakame, funori and matsumo, along with scallop, shrimp, squid and crab. It reads as light yet full-flavored, and generous enough to be a meal on its own.\n## How it's made\nBonito and several seaweeds are simmered into a Japanese-style stock, lightly seasoned with soy sauce for a delicate broth. Wakame, funori and matsumo gathered along the Sanriku coast go on top along with scallop, shrimp, squid and crab, paired with old-fashioned, softer noodles.\n## Why it took this shape\nOtsuchi is a fishing town facing the Sanriku coast, and the dish is said to have started around 1969 at a roadside diner called Kirikiri Drive-in, which built a ramen around the seaweed and seafood landed nearby. In a place where the sea's bounty was always close at hand, putting it straight into a bowl of ramen was a natural step, and the dish has since spread along the whole Sanriku coastline.",
+      "sources": [
+        {
+          "title": "磯ラーメン",
+          "url": "https://www.kirikiri.co.jp/kirikiri/ramen.html",
+          "publisher": "吉里吉里ドライブイン",
+          "accessed_at": "2026-09-13"
+        },
+        {
+          "title": "三陸磯ラーメン発祥のまち",
+          "url": "https://www.town.otsuchi.iwate.jp/gyosei/docs/374261.html",
+          "publisher": "大槌町",
+          "accessed_at": "2026-09-13"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "otsuchi-iso",
+          "to_slug": "ofunato-sanma",
+          "relation_type": "兄弟",
+          "basis": "同じ三陸沿岸で地元の海産物を出汁や具に活かすご当地ラーメン仲間"
+        }
+      ]
+    }
+  ]
+}

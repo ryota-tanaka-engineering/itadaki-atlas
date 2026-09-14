@@ -14,6 +14,7 @@ Itadaki Atlas のインフラ構成・コスト試算・スケールトリガー
 | ホスティング | **Cloudflare Workers**（OpenNext 経由） | Platform §1 の「最初から動的（SSR / API / DB）」経路。Supabase からのデータ取得・問い合わせフォーム・`next-intl` の middleware があるため静的 export では成立しない |
 | DB | **Supabase**（Free から開始・東京 `ap-northeast-1`） | Platform 固定スタック |
 | 地図タイル | **Cloudflare R2**（Protomaps / PMTiles 形式） | 本プロダクト固有。§2 参照 |
+| ISRキャッシュ | **Cloudflare R2**（`itadaki-atlas-next-cache`。regional cache併用） | 2026-09、本番トップの初期応答2.4秒（毎リクエストSupabase全件取得）対応。トップ・ジャンル・県ページに`revalidate=300`のISRを導入し、OpenNext Cloudflareの再検証結果をR2に永続化する（`open-next.config.ts`）。無くても各ページは動く（動的フォールバック）ためポータビリティ規約上の動作要件ではない |
 | ドメイン | `itadakiatlas.com`（**Cloudflare Registrar**） | Platform §4（gTLD は Cloudflare Registrar、原価販売） |
 | メール | Cloudflare Email Routing（受信転送） | Platform §4。事業者問い合わせフォームの通知先 |
 
@@ -107,7 +108,7 @@ Platform §3 のポータビリティ実装ルールの適用状況。
 
 | 依存対象 | ロックイン度 | 移行時の扱い |
 | :--- | :--- | :--- |
-| **R2** | 低 | S3 互換 API で実装する（Platform §3 ルール2）。エンドポイント差し替えのみで S3 へ移行可能 |
+| **R2**（地図タイル・ISRキャッシュ） | 低 | S3 互換 API で実装する（Platform §3 ルール2）。エンドポイント差し替えのみで S3 へ移行可能。ISRキャッシュ用バケット（`itadaki-atlas-next-cache`）は無くても各ページが動的フォールバックで動くため、キャッシュ最適化であって動作要件ではない |
 | **PMTiles ファイル** | **なし** | 単なる静的ファイル。S3 へコピーすれば移行完了。形式はオープン仕様 |
 | **MapLibre GL JS / Protomaps** | **なし** | いずれも OSS。Mapbox のような商用ライセンス制約を持たない |
 | **OpenNext** | 低 | ビルド時アダプタ。AWS アダプタ（Lambda + CloudFront）へ差し替え可能（Platform §2） |

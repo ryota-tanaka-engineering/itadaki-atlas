@@ -1,4 +1,7 @@
-import { createClient } from "@/lib/supabase/server";
+// cookieを使わない読み取り専用クライアント。理由は src/features/map/queries.ts と同じ
+// （県ページの`export const revalidate`＝ISRを効かせるため。cookies()呼び出しは
+// Next.jsを動的レンダリングへ固定してしまう）。
+import { createStaticClient as createClient } from "@/lib/supabase/static";
 import { fetchAllRows } from "@/lib/supabase/fetchAll";
 import { prefFromSlug, PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 

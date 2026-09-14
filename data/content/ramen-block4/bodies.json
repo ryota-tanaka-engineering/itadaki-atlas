@@ -1,0 +1,424 @@
+{
+  "items": [
+    {
+      "slug": "hakui-ufo",
+      "body_ja": "## 何でできているか\n醤油だれの利いたスープはほのかな甘みがあり、そこに炒め野菜と麺、そして丼ごとに趣向を凝らしたトッピングが重なる。店によっては空飛ぶ円盤をかたどったかまぼこを浮かべ、丼を覗き込むと確かに一枚のUFOが着陸しているように見える。参加する飲食店はすし店から洋食店、お好み焼き店まで幅広く、それぞれの持ち場でUFOを描くため、同じ名前でも店ごとに違う一杯に出会える。見た目の遊び心が先に立つが、スープ自体はしっかりとしたコクを残す。\n## どう作るのか\n鶏がらや豚骨をベースにした醤油スープに、炒め野菜をたっぷりのせる作り方は一般的な中華そばと大きく変わらない。違うのはトッピングの発想で、UFOの形に抜いたかまぼこや具材を丼の中心に置くことで、羽咋という土地の物語を皿の上に持ち込んでいる。参加する店は地域おこしのグルメ推進団体のもとに集まり、すし店や洋食店、お好み焼き店までそれぞれの持ち味でUFOを表現する。丼をひとめぐりするだけで、羽咋の食の幅広さが伝わってくる。\n## なぜこの形になったのか\n羽咋市は「UFOのまち」を掲げ、宇宙科学を紹介する施設を核に町おこしを続けてきたとされる。UFOの町・羽咋の由来を探るという趣旨の展示が今も市内にあるほど、この土地はUFOという物語を大切にしてきたという。地域の飲食店でつくる推進団体がこの土地の物語を食に翻訳しようとした結果、丼の中に着陸するUFOが生まれたと考えられる。ラーメンという身近な器を選んだのは、誰もが気軽に町の物語を味わえるようにするためだったのだろう。",
+      "body_en": "## What it's made of\nA shoyu-based broth carries a faint sweetness, topped with stir-fried vegetables, noodles, and a garnish each shop dresses up in its own way. Some float a kamaboko slice cut into a flying-saucer shape, so peering into the bowl really does feel like spotting a landed UFO. Participating shops range from sushi counters to Western-style diners and okonomiyaki spots, each rendering the UFO in its own idiom, so the same name can mean a very different bowl from shop to shop. The playful look comes first, but the broth itself still holds real body.\n## How it's made\nBuilding a shoyu soup on chicken or pork bone and piling on stir-fried vegetables isn't far from an ordinary chuka soba. What differs is the topping: a saucer-cut kamaboko or garnish placed at the center of the bowl carries Hakui's own story onto the plate. Participating shops gather under a local grassroots gourmet-promotion group, ranging from sushi counters to Western-style diners and okonomiyaki spots, each rendering the UFO in its own idiom. Working through even a handful of bowls shows just how wide Hakui's food scene really is.\n## Why it took this shape\nHakui has long billed itself as a UFO town, built in part around a space-science facility. An exhibit inviting visitors to trace the origins of \"Hakui, the UFO town\" still stands in the city today, a sign of how seriously the town has held onto that story. A local association of restaurants is said to have set out to translate that town story into food, and a saucer landing in a ramen bowl was the result. Choosing ramen as the vessel made the town's story something anyone could taste without ceremony.",
+      "sources": [
+        {
+          "title": "はくいUFOグルメ",
+          "url": "https://gourmet-ishikawa.com/category/gourmet/hakuiufo/",
+          "publisher": "いしかわ地域おこしご当地グルメ推進協議会",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "コスモアイル羽咋",
+          "url": "https://www.city.hakui.lg.jp/soshiki/kyouikuiinkai/shougaigakusyuka/6/kosumoairu/2495.html",
+          "publisher": "羽咋市",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "hakui-ufo",
+          "to_slug": "kaga-miso",
+          "relation_type": "対比",
+          "basis": "ともに石川県のご当地ラーメンだが、UFOラーメンは観光ブランディング主導、加賀味噌ラーメンは地場の発酵食文化主導という対照的な成り立ちを持つ"
+        }
+      ]
+    },
+    {
+      "slug": "kaga-miso",
+      "body_ja": "## 何でできているか\n甘みの強い赤味噌がまず舌に触れ、そのあとから動物系のだしの厚みが追いかけてくる。加賀味噌は米麹の比率が高く、一般的な辛口の赤味噌に比べて塩角が立ちにくいとされ、塩辛さで押すのではなく甘みと発酵由来のコクを重ねて濃厚さをつくる。仕上げの脂がスープに甘さの余韻を残し、最後の一口まで角の少ないまろやかさが続く。地元では味噌汁の延長として親しまれてきた味わいだという。\n## どう作るのか\n豚骨や鶏がらでとっただしに、米こうじを多く使い長期間熟成させた加賀味噌を溶き入れて仕上げる。加賀味噌そのものは、白山からの水に恵まれた石川の風土の中で木の樽を使い時間をかけてつくられる発酵食品で、その甘みと旨みがそのままラーメンの下地になる。動物系の脂と合わせることで、単独の味噌汁とは違う厚みが生まれ、丼全体に一体感が出る。\n## なぜこの形になったのか\n加賀味噌は加賀藩の時代から長きにわたり、保存のきく食品として地域に根づいてきたと伝わる。寒冷な北陸で発酵食品が発達した土地の生活習慣が、昭和後期に広がった味噌ラーメンの流れと交わり、地元の味噌をそのまま看板にする一杯が生まれたと考えられる。金沢を中心に加賀地方一帯で親しまれ、地元の味噌蔵の仕事がそのまま一杯の個性になっている。",
+      "body_en": "## What it's made of\nA sweet red miso hits the tongue first, followed by the body of an animal-based stock. Kaga miso uses a high proportion of rice koji, said to leave it with less of the sharp saltiness common in drier red miso, so richness builds through sweetness and fermented umami rather than salt. A finishing touch of fat leaves a lingering sweetness in the broth, and that gentle roundness carries through to the last sip.\n## How it's made\nKaga miso, aged over time in wooden barrels using water fed by Mount Haku, is stirred into a pork- or chicken-bone stock to finish the bowl. Its sweetness and umami become the base of the ramen almost unchanged, and combining it with animal fat gives it a body that a plain miso soup wouldn't have, pulling the whole bowl together.\n## Why it took this shape\nKaga miso is said to have taken root in the region as a keeping food ever since the days of the Kaga domain. Hokuriku's cold climate favored fermented foods long before ramen arrived, and when that habit met the miso-ramen wave of the late Showa era, a bowl built straight on the local miso followed. It's loved across Kanazawa and the wider Kaga region today, with the work of local miso breweries showing through directly in the bowl.",
+      "sources": [
+        {
+          "title": "加賀味噌ラーメン｜全国ご当地ラーメン一覧",
+          "url": "https://cookpit.jp/local-ramen-guide/gotochi-list/kagamisoramen/",
+          "publisher": "クックピット株式会社",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "加賀味噌食品工業協業組合",
+          "url": "https://kagamiso.or.jp/",
+          "publisher": "加賀味噌食品工業協業組合",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kaga-miso",
+          "to_slug": "shinshu-miso-ramen",
+          "relation_type": "対比",
+          "basis": "ともに地元産の米麹主体の味噌を看板にした味噌ラーメンだが、加賀味噌は甘口傾向、信州味噌は木桶で長期熟成させる天然醸造という製法の対比がある"
+        }
+      ]
+    },
+    {
+      "slug": "takefu-chukasoba",
+      "body_ja": "## 何でできているか\nまず目を引くのは透き通った黄金色のスープで、そこに青ねぎとかまぼこ、ハムが浮かぶ。飾らない見た目のとおり味わいもすっきりとしていて、それでいて奥に深みが残る。麺をすすると、昔ながらの中華そばという言葉がそのまま似合う、ほっとする優しさに行き当たる。派手さのない一杯だからこそ、毎日でも食べ飽きない懐かしさがある。\n## どう作るのか\n旧武生市の駅前一帯では、時代がラーメンという呼び方に流れていく中でも「中華そば」という名前と透明感のあるスープの作り方を守り続けてきた店が多いとされる。JR武生駅から自転車で行き来できる範囲という条件がつくほど、駅前という場所そのものがこの一杯の輪郭を決めている。にごりを出さずに澄んだスープに仕立てる手間を惜しまない点も、この一帯の店に共通しているという。\n## なぜこの形になったのか\n戦後、駅前に中華そばの店が集まり、名前も味も大きくは変えないまま代を重ねてきたと伝わる。地元の有志が名称と味を残そうと活動を続けているのも、駅前という小さな範囲に息づく味を守りたいという思いの表れと考えられる。地元出身の絵本作家がこの活動に絵を寄せているという逸話も、町の人がこの一杯を身近に感じてきた証と言えるだろう。派手な宣伝をせずとも、駅前という立地そのものが自然と常連を呼び続けてきたのかもしれない。",
+      "body_en": "## What it's made of\nWhat catches the eye first is a clear, golden broth, with scallions, kamaboko, and ham floating on top. The look is unadorned, and so is the flavor — clean up front, with depth held in reserve underneath. Slurp the noodles and you land on a gentle, comforting taste that the words \"old-fashioned chuka soba\" fit exactly, plain enough that it never tires the palate even eaten daily.\n## How it's made\nAround the old Takefu Station, many shops are said to have kept both the name \"chuka soba\" and a way of building a clear broth even as the rest of the country drifted toward calling the dish ramen. The area is even loosely defined as anywhere reachable by bicycle from JR Takefu Station — the station front itself shapes the outline of this bowl, and shops there are said to share a common effort to keep the broth clear rather than cloudy.\n## Why it took this shape\nChuka soba shops are said to have clustered around the station front after the war, carrying the name and the taste forward largely unchanged through the generations. Local volunteers keep working to preserve that name and flavor today, and a local picture-book illustrator is said to have lent art to that effort, a sign of how close this bowl still sits to the town's own sense of itself.",
+      "sources": [
+        {
+          "title": "たけふ駅前中華そば",
+          "url": "https://www.city.echizen.lg.jp/office/060/050/chuukasoba.html",
+          "publisher": "越前市",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "たけふ駅前中華そばとは",
+          "url": "https://chuka-soba.jimdofree.com/%E3%81%9F%E3%81%91%E3%81%B5%E9%A7%85%E5%89%8D%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0/",
+          "publisher": "温盛一杯中華Men's",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "takefu-chukasoba",
+          "to_slug": "tsuruga",
+          "relation_type": "対比",
+          "basis": "ともに福井県のご当地ラーメンだが、敦賀ラーメンは港町の夜の屋台文化から育ったのに対し、たけふ駅前中華そばは駅前の「中華そば」という呼び名と透明なスープを守り続けてきた点が対照的"
+        }
+      ]
+    },
+    {
+      "slug": "hirauchi-tanmen",
+      "body_ja": "## 何でできているか\nフェットチーネのように幅のある平打ち麺がまず存在感を放ち、あっさりとした塩味のスープをまとって口に運ばれる。もやしや豚肉、白菜、ねぎといった野菜がどっさりとのり、麺と野菜を交互にすすっているうちに丼の中身がみるみる減っていく食べごたえがある。太い麺が汁を含んでふくらむため、最後まで食感が単調にならない。\n## どう作るのか\n塩ベースの澄んだスープに、豚肉と野菜をたっぷり炒め合わせたタンメンを仕立てる工程自体は珍しくない。この一杯ならではの持ち味は麺で、通常の中華麺より幅を広く打った平打ち麺を合わせることで、スープと野菜の旨みを麺の表面にしっかり絡め取る仕立てになっている。麺の断面が広いぶん、噛むごとに小麦そのものの風味も感じやすく、スープを飲み干したあとも満足感が長く続くという。\n## なぜこの形になったのか\n甲府市内の一軒の中華料理店が生み出したとされるこの平打ち麺のタンメンは、代を経て山梨県内の複数の店に受け継がれてきた。野菜をたっぷり摂れる一杯として親しまれてきた背景には、麺そのものを主役に据えることでスープと具材の一体感を強めようとした工夫があったと考えられる。麺の形を変えるという一点だけで、見慣れたタンメンに新しい輪郭を与えた例と言える。",
+      "body_en": "## What it's made of\nWide, flat noodles that could pass for fettucine announce themselves first, carried in a light salt broth. Bean sprouts, pork, napa cabbage, and scallion pile on generously, and alternating bites of noodle and vegetable make the bowl empty faster than its size suggests, the thick noodles swelling with broth so the texture never turns monotonous.\n## How it's made\nBuilding a tanmen on a clear salt broth with stir-fried pork and vegetables isn't unusual on its own. What sets this bowl apart is the noodle: cut noticeably wider than an ordinary Chinese noodle, it catches the broth and vegetables' flavor across its broader surface, and the wider cross-section is said to let the wheat's own flavor come through with every bite.\n## Why it took this shape\nThis flat-noodle tanmen is said to have originated at a single Chinese restaurant in Kofu and been carried forward by several shops across Yamanashi since. Behind its reputation as a vegetable-heavy bowl seems to lie a deliberate choice to make the noodle itself the star, so broth and toppings would cling to it as one — a single change to the noodle's shape giving a familiar tanmen an entirely new outline.",
+      "sources": [
+        {
+          "title": "平打ちタンメン",
+          "url": "https://gotochiramen.shop/%E5%B9%B3%E6%89%93%E3%81%A1%E3%82%BF%E3%83%B3%E3%83%A1%E3%83%B3/",
+          "publisher": "全国ご当地ラーメン店一覧",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "山梨のタンメンといえば「福吉」",
+          "url": "https://yamanashilocal.jp/gourmet/1350/",
+          "publisher": "ナシロー｜やまなしローカルつーしん",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "hirauchi-tanmen",
+          "to_slug": "yamanashi-gensui",
+          "relation_type": "兄弟",
+          "basis": "ともに山梨県のご当地ラーメンとして日本ラーメン協会の一覧に並び、県内の複数店が受け継ぐ点で共通する"
+        }
+      ]
+    },
+    {
+      "slug": "koshu-jidori",
+      "body_ja": "## 何でできているか\n山梨のブランド地鶏「甲州地どり」のガラからとったスープに、淡水魚の煮干しをベースにしたかえしを合わせる。鶏の旨みと魚介の香りが層になって重なり、仕上げにドライトマトや地どりのソーセージ、海苔とねぎがのる。一口ごとに違う食材の顔が見えるのが特徴とされ、具材を食べ進めるたびに味の重心が移っていく。彩りの鮮やかさも、この一杯を印象づける要素になっている。\n## どう作るのか\n甲州地どりのガラをじっくり炊いてとった動物系のだしと、県産の淡水魚からとった魚介系のかえしを組み合わせて仕上げる。県産のドライトマトや地どりのソーセージをのせるなど、山梨で採れる食材をひとつの丼に集める作り方そのものが、この一杯の骨組みになっている。曜日ごとに追加のトッピングを変える店もあり、通うたびに違う組み合わせを楽しめるという。\n## なぜこの形になったのか\n山梨県内のラーメン店でつくる団体が、県の水と食材を生かした新しいご当地ラーメンをつくろうと掲げた取り組みの中から生まれたとされる。地鶏という具体的な地場食材を主役にすえることで、水だけでなく山梨の畜産や農業ともつながる一杯を目指した結果と考えられる。ひとつの枠組みの中で店ごとに異なる主役食材を選ぶ試みの、地鶏を選んだ例と言える。",
+      "body_en": "## What it's made of\nBroth drawn from the bones of Koshu jidori, Yamanashi's branded free-range chicken, meets a tare based on dried freshwater fish. Chicken umami and fish aroma layer on top of each other, finished with local dried tomato, jidori sausage, nori, and scallion — each bite is said to reveal a different local ingredient, shifting the center of the flavor as you work through the bowl.\n## How it's made\nAn animal stock simmered slowly from Koshu jidori bones is paired with a seafood-based tare drawn from prefectural freshwater fish. Topping the bowl with local dried tomato and jidori sausage is itself the point: gathering ingredients grown across Yamanashi into a single bowl is what gives this ramen its frame, and some shops even vary the extra topping by day of the week.\n## Why it took this shape\nThis bowl is said to have grown out of an effort by a group of Yamanashi ramen shops to build a new local ramen around the prefecture's water and ingredients. Putting a specific local ingredient, free-range chicken, at the center seems aimed at connecting the bowl not just to water but to Yamanashi's livestock and farming as well — one shop's answer, within a shared framework, to the question of which local ingredient should carry the bowl.",
+      "sources": [
+        {
+          "title": "甲州地どり市場",
+          "url": "https://www.yamanashirramen.com/portfolio/items/koshujidori",
+          "publisher": "山梨ご当地ラーメン協会",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "やまなし源水ラーメン",
+          "url": "https://www.yamanashirramen.com/gensuiramen",
+          "publisher": "山梨ご当地ラーメン協会",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "koshu-jidori",
+          "to_slug": "yamanashi-gensui",
+          "relation_type": "派生",
+          "basis": "山梨ご当地ラーメン協会が2023年に始めた「やまなし源水ラーメン」の枠組みの中で、甲州地どりを主役に据えた一軒が独自に仕立てた一杯であることが同協会のサイト上の分類（portfolio/items）から確認できる"
+        }
+      ]
+    },
+    {
+      "slug": "yamanashi-gensui",
+      "body_ja": "## 何でできているか\n盆地からわき出る軟水は、ほのかな甘みを持つとされる。その水をスープにも麺にも使い、淡水魚と地鶏を合わせたWスープに、県内で打たれた細麺を合わせる。仕上げには県産の食材を最低ひとつ添えるという決まりがあり、丼のどこかに必ず山梨の産地が顔を出す。水そのものの軽やかさが、スープ全体の後味を決めているという。丼を持ち上げたときの軽さも、この水の性格を映しているように感じられる。\n## どう作るのか\n名水として知られる盆地由来の軟水をスープと製麺の両方に使い、淡水魚の煮干しと地鶏のガラを組み合わせた清湯スープに仕立てる。麺は県内製造の細めの番手を選び、淡麗なスープの輪郭を壊さないようにする。県産ブランド魚のあらを生かすなど、無駄を出さない工夫も条件に含まれており、水と食材の両方に土地の視点が通っている。\n## なぜこの形になったのか\n山梨県のラーメン店でつくる団体が、県の食料自給率や環境への配慮といった課題と水産業・農業の振興を結びつけようと考え、県民の日にあわせてこの枠組みを立ち上げたとされる。水という土地の資源を軸に据えることで、店ごとに違う一杯でも山梨という一つの物語でつながるようにした試みと言える。店の数だけ具材の組み合わせがあっても、水という一点だけは揺らがない。",
+      "body_en": "## What it's made of\nSoft water welling up from the basin is said to carry a faint sweetness of its own. That water goes into both the broth and the noodles, paired with a dual soup of freshwater fish and free-range chicken, plus thin noodles milled within the prefecture. A rule requires at least one prefectural ingredient on top, so a piece of Yamanashi always shows up somewhere in the bowl, and the water's own lightness is said to set the tone for the broth's aftertaste.\n## How it's made\nThe basin's soft water, known as some of the region's best, goes into both broth and noodle-making, combined with a clear soup built from dried freshwater fish and free-range chicken bones. Noodles are cut thin and milled locally so as not to overwhelm the broth's delicate outline. Using the trimmings of branded local fish so nothing goes to waste is also part of the framework's conditions, so a local viewpoint runs through both the water and the ingredients.\n## Why it took this shape\nA group of Yamanashi ramen shops is said to have launched this framework on Prefectural Citizens' Day, hoping to link the prefecture's food self-sufficiency and environmental concerns with its fishing and farming industries. Centering everything on water, a resource tied to the land itself, was a way to let bowls that differ shop to shop still share a single Yamanashi story — however many combinations of toppings exist, the water itself never changes.",
+      "sources": [
+        {
+          "title": "やまなし源水ラーメン",
+          "url": "https://www.yamanashirramen.com/gensuiramen",
+          "publisher": "山梨ご当地ラーメン協会",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "yamanashi-gensui",
+          "to_slug": "osama-chukasoba",
+          "relation_type": "対比",
+          "basis": "ともに地元の団体が主導してつくり上げた比較的新しいご当地ラーメンだが、やまなし源水ラーメンは水という土地の資源を軸にした新規の枠組み、王様中華そばはかつての人気店の一杯を再現する形をとる点が対照的"
+        }
+      ]
+    },
+    {
+      "slug": "osama-chukasoba",
+      "body_ja": "## 何でできているか\nまず立つのは黒こしょうの香りで、そのあとにねぎの甘みが追いかけてくる。ねぎは熱を加えることで角が取れて甘くなるとされ、この甘みと黒こしょうの刺激が組み合わさることで、一度食べたら忘れにくい後味になる。かつて長野市内にあった評判の店の一杯を思わせる、どこか懐かしい佇まいの中華そばである。具材を飾りすぎない引き算の組み立ても印象に残る。\n## どう作るのか\n長野市内にあった老舗の看板メニューを、地元の店主たちでつくる会が聞き取りや試作を重ねて再現したとされる。ねぎに火を通して甘みを引き出す工程と、仕上げに黒こしょうをしっかりときかせる工程が、この一杯の骨格を支えている。派手な具材に頼らず、香りと甘みの対比だけで印象を残す組み立てになっており、記憶をたどる作業そのものが調理の一部だったという。\n## なぜこの形になったのか\n一度は姿を消した店の味を惜しむ声があり、地元のラーメン店主たちがその記憶をたどって復刻させたと伝わる。長野県と長野市が後押しする形で受け継がれてきた背景には、一軒の店の記憶を町全体の食文化として残そうとする意図があったと考えられる。個人の思い出だった味を、複数の店が分担して支える仕組みに変えた点も特徴的である。ひとつの町が失われかけた味を惜しみ、手を取り合って取り戻した例と言えるだろう。",
+      "body_en": "## What it's made of\nBlack pepper announces itself first, followed by the sweetness of scallion. Heat is said to take the edge off scallion and bring out its sweetness, and that pairing with the bite of black pepper makes for an aftertaste hard to forget once tasted. There's something nostalgic about this chuka soba, evoking the bowl a once-loved Nagano City shop used to serve, built without over-dressing the toppings.\n## How it's made\nA group of local shop owners is said to have recreated a defunct, beloved Nagano City restaurant's signature dish through interviews and trial batches. Cooking the scallion until its sweetness comes forward, then finishing with a firm hit of black pepper, form the backbone of this bowl — built to leave an impression through aroma and sweetness alone, without flashy toppings, the act of tracing a memory becoming part of the cooking itself.\n## Why it took this shape\nVoices mourning the loss of a shuttered shop's flavor are said to have led local ramen owners to trace that memory back and bring it to life again. Backed by both Nagano Prefecture and Nagano City, the dish seems to carry an intent to preserve one shop's memory as part of the whole city's food culture, turning what was once one person's recollection into something several shops now share the work of keeping alive.",
+      "sources": [
+        {
+          "title": "王様中華そば",
+          "url": "https://shinshu-ramenhaku.com/p2-6/",
+          "publisher": "信州ラーメン博実行委員会・信州麺友会",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "osama-chukasoba",
+          "to_slug": "anyoji",
+          "relation_type": "対比",
+          "basis": "ともに長野県のご当地ラーメンだが、安養寺ラーメンは地場みそのルーツを追う系統、王様中華そばはかつての人気店の一杯を再現する系統という別方向を持つ"
+        }
+      ]
+    },
+    {
+      "slug": "shinshu-miso-ramen",
+      "body_ja": "## 何でできているか\n山吹色に澄んだ信州味噌の香りが湯気とともに立ちのぼり、そこに動物系のだしのコクが重なる。丼を覗き込んだ瞬間から、味噌の存在感がはっきりと伝わってくる。米こうじと大豆、塩だけを原料にしながら、木桶で長い時間をかけて自然に熟成させた味噌は、色の濃さのわりに角の少ない味わいになるとされ、スープにまろやかな厚みを与える。すするほどに発酵由来の旨みが舌の奥に残っていく。\n## どう作るのか\n長野県内で造られる信州味噌をたれの軸に据え、豚骨や鶏がらのスープに溶き入れて仕上げる。信州味噌そのものは杉の木桶で長い時間をかけて自然の気候に合わせてゆっくり熟成させる天然醸造でつくられるとされ、その手間のかかる発酵の工程が、そのままラーメンのコクの土台になっている。仕上げの脂の量や薬味は店によって加減が異なるという。\n## なぜこの形になったのか\n長野県は山々からの澄んだ雪解け水と良質な地下水に恵まれ、県内には百を超える味噌蔵が今も味噌づくりを続けているとされる。味噌が暮らしに深く根づいたこの土地で、地元の味噌をそのままラーメンに落とし込む一杯が育っていったのは、ごく自然な流れだったと考えられる。味噌汁の延長線上にラーメンがあると考えれば、この結びつきにも納得がいく。",
+      "body_en": "## What it's made of\nThe steam carries the scent of clear, golden-amber Shinshu miso, layered over the body of an animal-based stock. Made from nothing but rice koji, soybeans, and salt, then aged slowly in cedar tubs, this miso is said to carry less sharpness than its deep color might suggest, giving the broth a mellow richness that lingers on the tongue with every sip.\n## How it's made\nShinshu miso, brewed within Nagano Prefecture, forms the backbone of the tare, stirred into a pork- or chicken-bone broth. The miso itself is naturally fermented, aged slowly in cedar tubs to match the region's climate over a long stretch of time — and that painstaking fermentation becomes the foundation of the ramen's own richness, with the amount of finishing fat and garnish left to each shop's own judgment.\n## Why it took this shape\nNagano is fed by clear snowmelt off its mountains and good groundwater, and more than a hundred miso breweries are said to still be at work across the prefecture. In a place where miso-making runs this deep into daily life, a bowl built straight on the local miso seems to have grown almost as a matter of course — an extension of the miso soup already on the table, if you think of it that way.",
+      "sources": [
+        {
+          "title": "信州味噌工業協同組合連合会",
+          "url": "https://shinshu-miso.or.jp/",
+          "publisher": "信州味噌工業協同組合連合会",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "信州味噌について",
+          "url": "https://www.ginza-nagano.jp/blogs/lifestyle/60319",
+          "publisher": "銀座NAGANO（長野県）",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "shinshu-miso-ramen",
+          "to_slug": "shinshu-miso",
+          "relation_type": "使用食材",
+          "basis": "たれの主原料として信州味噌（長野県）を使う"
+        }
+      ]
+    },
+    {
+      "slug": "kamioka",
+      "body_ja": "## 何でできているか\nまず驚くのはだしの正体で、高山の中華そばが鶏がらを使うのに対し、神岡では牛骨からとったスープを使うとされる。注文を受けてから丼の中でたれとスープを合わせる作り方も特徴で、あらかじめ煮込んで一体化させる高山とは違う、素朴で薄口の中華そばに仕上がる。見た目は似ていても、口に含むとだしの出どころの違いがはっきりと分かる。同じ飛騨の中華そばでも、峠ひとつ隔てるだけで別の一杯になる好例である。\n## どう作るのか\n牛骨をじっくり煮出してとっただしを、注文のたびに丼の中でたれと合わせて一杯に仕立てる。スープとたれを鍋の中で先に煮込んでしまう高山ラーメンとは組み立ての順番そのものが異なり、この違いが神岡ならではの薄口で軽やかな味わいを生んでいるとされる。仕込みの手間を丼の中の一手に集約する、簡素だが理にかなった作り方である。\n## なぜこの形になったのか\n神岡町はかつて神岡鉱山で栄えた町で、この中華そばは鉱山で働く人たちに親しまれながら独自の進化を遂げてきたと伝わる。近隣の高山がラーメンブームに乗って濃厚化していく流れとは距離を置き、働く人の日々の食事として親しまれてきた薄口の味わいを保ち続けてきたと考えられる。観光地化した高山とは異なる歩みを、静かに続けてきた町の味と言える。",
+      "body_en": "## What it's made of\nThe surprise here is the stock itself: where Takayama's chuka soba runs on chicken bone, Kamioka's is said to use beef bone instead. The tare and broth are also combined in the bowl only after an order comes in, rather than pre-simmered together as in Takayama, yielding a plainer, lighter chuka soba whose difference in stock becomes obvious the moment it hits the tongue.\n## How it's made\nBeef bones are simmered slowly for stock, then combined with the tare in the bowl itself each time an order comes in. That's the opposite sequence from Takayama ramen, where broth and tare are simmered together beforehand in the pot — and that difference is said to be what gives Kamioka's version its distinctively light, easy character, a simple but sensible method that concentrates all the prep work into one final step in the bowl.\n## Why it took this shape\nKamioka once thrived around the Kamioka mine, and this chuka soba is said to have evolved on its own path while workers there kept coming back for it. Even as neighboring Takayama grew richer and heavier riding the national ramen boom, Kamioka is thought to have kept its distance and held onto the light, everyday bowl its working population had come to rely on, a quieter path than the more tourist-facing Takayama took.",
+      "sources": [
+        {
+          "title": "飛騨神岡Ｂ級グルメ｜飛騨神岡ラーメン",
+          "url": "https://panoramahida.iza-yoi.net/hidakamiokaaji.html",
+          "publisher": "Panorama飛騨",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "麺屋 遥",
+          "url": "https://www.hida-kankou.jp/product/943",
+          "publisher": "飛騨市役所まちづくり観光課",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kamioka",
+          "to_slug": "takayama",
+          "relation_type": "対比",
+          "basis": "高山ラーメンが鶏がらスープをタレと共に煮込んで仕立てるのに対し、神岡ラーメンは牛骨スープを使い、注文後に丼の中でタレと合わせる作り方をとる点が対照的"
+        }
+      ]
+    },
+    {
+      "slug": "tokimiso",
+      "body_ja": "## 何でできているか\n澄んだ塩味のスープをまず一口すすると、鶏と豚のだしのあっさりとした輪郭が広がる。そこに卓上の自家製味噌を溶き入れると、味わいは一転して力強いコクに変わる。同じ丼で二つの表情を味わえるのがこの一杯の持ち味で、削り節をふればさらに三つ目の顔をのぞかせるとされる。味の変化を自分の手で起こせる点が、ほかのラーメンにはない楽しみになっている。\n## どう作るのか\n鶏と豚をベースにしただしで、そのまま飲んでも成立するあっさりとした塩スープに仕立てる。そこへ自家製の味噌を客が自分の手で溶き入れることで、はじめて一杯が完成する仕組みになっている。細麺は味噌をよく絡め取る太さに整えられ、味の変化を麺までしっかり受け止める。味噌を溶く量やタイミングも客に委ねられているという。\n## なぜこの形になったのか\n清水区という限られた範囲で生まれ育ってきたとされるこの食べ方は、一杯の中で味の変化を楽しんでもらおうという工夫から生まれたと考えられる。地元の店が「静岡といえば溶き味噌」と言われることを目指しているとおり、一つの丼で二度の満足を届けようとする姿勢がこの形をつくったと言える。完成された一杯ではなく、客が仕上げに加わる一杯という発想が根にある。丼を渡された瞬間はまだ完成前だという捉え方が、この一帯ならではと言える。",
+      "body_en": "## What it's made of\nThe first sip of the clear salt broth reveals a light, easy stock built from chicken and pork. Stir in the house-made miso sitting on the table, and the flavor flips to a bold richness. Tasting two different characters in the same bowl is the whole point, and a scattering of bonito flakes is said to reveal a third face on top of that, letting the diner set off the change of flavor with their own hands.\n## How it's made\nA chicken-and-pork stock is built light enough in salt to be drunk on its own. It's only complete once the customer stirs in house-made miso by hand at the table. The thin noodles are cut to a thickness that catches the miso well, carrying the shift in flavor all the way through to the last bite, with how much miso to stir in, and when, left up to each diner.\n## Why it took this shape\nThis way of eating is said to have grown up specifically within Shimizu Ward, born from a wish to let diners enjoy a change of flavor within a single bowl. As the local shop pursuing this style puts it, the aim is for people to say \"Shizuoka means tokimiso\" — and that drive to deliver two satisfactions from one bowl seems to be what shaped it, less a finished dish than one the customer helps complete.",
+      "sources": [
+        {
+          "title": "静岡といえば溶き味噌 一度で二度美味しいラーメン",
+          "url": "https://www.at-s.com/life/article/ats/1860412.html",
+          "publisher": "静岡新聞SBS(アットエス)",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tokimiso",
+          "to_slug": "shimizu-motsu-curry",
+          "relation_type": "兄弟",
+          "basis": "ともに静岡市清水区で育ったご当地グルメで、地域の飲食店文化の中から生まれた点が共通する"
+        }
+      ]
+    },
+    {
+      "slug": "shimizu-motsu-curry",
+      "body_ja": "## 何でできているか\nとろみのあるカレーの香りの中に、よく煮込まれたもつの食感が沈んでいる。ラーメンの上に汁ごとのせることで、カレーの重さと麺の軽さが釣り合っている。大腸だけを使う店もあれば小腸や胃袋を合わせる店もあり、ごぼうやこんにゃくを加える店もあるなど、同じ名前でも丼ごとに表情が違う。カレーの色も黒っぽいものから白っぽいものまで幅があるとされ、香辛料の配合が店の個性をそのまま映し出している。\n## どう作るのか\n内臓肉を下ごしらえしてから時間をかけて煮込み、カレー粉で香りづけをして仕立てる。もとは酒のつまみとして考え出された煮込み料理で、それをラーメンの上にのせることで、つまみと一杯の食事の境目をまたぐ一品になっている。店ごとに配合や具材を変えながら独自の味に育ててきたとされ、煮込み系や鍋系など仕立て方にも幅があるという。\n## なぜこの形になったのか\n清水駅前の店の初代が、満州で覚えたカレーの知識と、名古屋のどて煮を思わせる煮込み方を組み合わせて考え出したと伝わる。戦後の復興期に酒場のつまみとして少しずつ広まり、清水という港町の食堂文化の中で定番の一品として根づいていったと考えられる。異なる土地の記憶が重なり合って一つの料理に落ち着いた例と言えるだろう。",
+      "body_en": "## What it's made of\nWell-simmered offal sits beneath the aroma of a thickened curry. Some shops use only large intestine, others mix in small intestine or tripe, and some add burdock root or konnyaku — the same name covers quite different bowls depending on where you order it. Curry color is said to range from nearly black to pale white, the spice blend itself standing in for each shop's own character.\n## How it's made\nOffal is prepped and then simmered for a long stretch, seasoned with curry powder as it goes. Originally devised as a dish to accompany drinks, laying it over ramen bridges the line between a bar snack and a full bowl of noodles — each shop said to have grown its own version by varying the blend and ingredients, with styles ranging from a dry simmer to something closer to a hot pot.\n## Why it took this shape\nThe founder of a shop near Shimizu Station is said to have combined curry know-how learned in Manchuria with a simmering method reminiscent of Nagoya's dote-ni. It spread gradually as a bar snack during the postwar recovery years, taking root as a fixture within the eating-house culture of the port town of Shimizu, memories of two very different places settling into a single dish.",
+      "sources": [
+        {
+          "title": "清水もつカレー",
+          "url": "https://www.tnc.ne.jp/special/gotouchi/curry/",
+          "publisher": "TOKAIネットワーククラブ",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "清水もつカレー",
+          "url": "https://shizuoka.mytabi.net/shizuoka/archives/shimizumotsucurry.php?vmode=pcmode",
+          "publisher": "マイ旅しずおか",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "shimizu-motsu-curry",
+          "to_slug": "shida-kei",
+          "relation_type": "対比",
+          "basis": "ともに静岡県中部のご当地ラーメンだが、清水もつカレーラーメンは港町清水の酒場文化に由来し、志太系ラーメンは茶どころ志太の朝食文化に由来する点が対照的"
+        }
+      ]
+    },
+    {
+      "slug": "shida-kei",
+      "body_ja": "## 何でできているか\n脂を極限まで取り除いたすっきりとした鰹だしが、醤油の香りとともに立ちのぼる。豚骨を使いながらも清湯に仕立てるため、見た目は澄んでいて軽やかだが、すすってみると鰹の旨みがじわりと奥から追いかけてくる。温かい一杯と冷たい一杯をセットで頼む食べ方も、この系統ならではとされる。重さを感じさせない仕立てが、この系統に共通する印象を残す。\n## どう作るのか\n豚骨を清湯に炊き上げ、鰹だしと醤油だれを合わせて仕立てる。志太地域では大正時代創業とされる店を手本にする店が多く、その店を基準にする系列であることから「志太系」と呼ばれてきたという。温かいラーメンと冷やしラーメンを一緒に出す組み合わせ方も、手本となった店の流儀を受け継いだものとされ、注文の仕方そのものが系統の証にもなっている。\n## なぜこの形になったのか\n藤枝から焼津にかけての志太地域は茶どころとして知られ、茶摘みの最盛期には夜明け前から働く生産者や商人が早朝の食事を必要としたと伝わる。軽く食べられる清湯のラーメンが根づいた背景には、早朝でも重すぎずに腹を満たせる一杯を求めた茶産業の暮らしのリズムがあったと考えられる。茶畑の仕事の速さが、そのまま麺をすする速さにも重なっているのかもしれない。土地の産業が一杯の重さそのものを決めてきたとも言える。",
+      "body_en": "## What it's made of\nA clean bonito dashi, with the fat trimmed to a minimum, rises together with the scent of shoyu. Built on pork bone but clarified rather than clouded, it looks clear and light, yet the bonito's umami quietly catches up from underneath as you slurp. Ordering a hot bowl and a cold bowl together is also said to be characteristic of this lineage, a build that never lets itself feel heavy.\n## How it's made\nPork bone is simmered into a clear broth, then combined with bonito dashi and a shoyu tare. Many shops across the Shida area are said to model themselves after one dating to the Taisho era, and it's from serving as that benchmark that the name Shida-kei, or \"Shida lineage,\" is said to come. Serving a hot and a cold ramen side by side is also said to carry on the model shop's own custom, so even the way one orders becomes a mark of the lineage.\n## Why it took this shape\nThe Shida area, spanning Fujieda to Yaizu, is known as tea country, and during the peak of the tea harvest, growers and merchants working before dawn are said to have needed an early meal. A light, clear-broth ramen taking root here seems tied to the rhythm of a tea industry that needed a bowl filling enough for early morning but not too heavy to work through, the brisk pace of the tea fields perhaps echoed in the pace of slurping the noodles.",
+      "sources": [
+        {
+          "title": "まる泰商店｜志太系ラーメン",
+          "url": "https://fujieera.com/all/gourmet/10159/",
+          "publisher": "ふじえ〜ら（藤枝江﨑新聞店）",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "藤枝の朝ラー文化と志太系ラーメン",
+          "url": "https://ramen-rotas.com/column/gotouti/137",
+          "publisher": "らーめんロータス",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "朝ラーメン",
+          "url": "https://ja.wikipedia.org/wiki/%E6%9C%9D%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "shida-kei",
+          "to_slug": "fujieda-asa",
+          "relation_type": "対比",
+          "basis": "同じ藤枝の朝食ラーメン文化を指すが、志太系は大正創業とされる店の系統を指す呼び方、藤枝朝ラーメンは温かい一杯と冷たい一杯をセットで頼む食べ方の総称という視点の違いがある"
+        }
+      ]
+    },
+    {
+      "slug": "korai-kei",
+      "body_ja": "## 何でできているか\n白く濁ったスープの見た目とは裏腹に、口に含むと驚くほどあっさりとしている。鶏がらに少量の豚骨、たっぷりの玉ねぎとにんじん、にんにく、そしてきしめんにも使われるムロアジの魚介だしが溶け合い、ファンのあいだでは薬膳スープとも呼ばれるという。もっちりとした中太の中華麺がそのスープをよく持ち上げ、飲み干したくなる軽さが後を引く。\n## どう作るのか\n寸胴でじっくり煮込むスープには、鶏がらと少量の豚骨、大量の野菜とにんにく、乾物の魚介だしを合わせ、六時間以上かけて炊き上げる。メニューは松・竹・寿という独自の名で分けられ、それぞれメンマや焼き豚の量が変わる。枝分かれした各店が、この基本の骨格を守りながら少しずつ独自の色を加えており、同じ系列でも一杯ごとに個性がにじむ。\n## なぜこの形になったのか\n名古屋市千種区で創業したという一軒の店で、寸胴を高温のまま長く煮込んでしまったことがきっかけでこの白濁したあっさりスープが生まれたと伝わる。狙って生まれた味ではなく、いわば偶然の産物を店の個性としてそのまま育てていった結果、のちに多くの店に受け継がれる味になったと考えられる。失敗をやり直さずに受け入れた判断が、この系列の出発点だったと言える。偶然の一杯が半世紀近くにわたって受け継がれてきたことになる。",
+      "body_en": "## What it's made of\nDespite its cloudy, milky look, the broth is surprisingly light once it hits the tongue. Chicken bone, a little pork bone, generous onion and carrot, garlic, and a dried muroaji fish stock — the same fish used in kishimen — all melt together into what fans are said to call a medicinal soup. Chewy, medium-thick Chinese noodles carry that broth well, leaving a lightness behind that makes you want to drain the bowl.\n## How it's made\nA stockpot simmers chicken bone with a little pork bone, a large amount of vegetables and garlic, and a dried-fish stock for over six hours. The menu is divided under its own names, matsu, take, and kotobuki, each varying the amount of menma or roast pork. Shops that later branched from the original are said to keep this basic frame while adding their own touches, so each bowl within the same lineage still carries its own personality.\n## Why it took this shape\nAt a single shop said to have been founded in Chikusa, Nagoya, simmering a stockpot too long at too high a heat is said to be what first produced this cloudy, light broth. Rather than a flavor arrived at by design, what seems to have happened is an accident nurtured into house style, later carried forward by the many shops that grew from it — a decision to keep a mistake rather than start over became this lineage's starting point.",
+      "sources": [
+        {
+          "title": "好来系ラーメンの由来",
+          "url": "https://www.nippon-ramen-fc.org/archives/reader/r0009",
+          "publisher": "日本ラーメンファンクラブ",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "好来系ラーメン",
+          "url": "https://www.tabemaro.jp/gourmet/koraikeiramen/",
+          "publisher": "tabemaro編集部",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "korai-kei",
+          "to_slug": "taiwan-ramen",
+          "relation_type": "対比",
+          "basis": "ともに名古屋発祥で個性の強い醤油ラーメンだが、好来系は魚介だしを効かせた一軒からの枝分かれという成り立ち、台湾ラーメンは唐辛子で辛さを立てる別系統の店から生まれた点が対照的"
+        }
+      ]
+    },
+    {
+      "slug": "betokon",
+      "body_ja": "## 何でできているか\n大ぶりのにんにくとにら、たっぷりのもやしが山になり、一味の赤がそこに散る。鶏がらでとったスープに、香味野菜を炒めた具材をのせるだけの組み立てだが、にんにくの香りと辛みが強く前に出るため、食べ終わる頃には額に汗がにじむほどの力強さがあるとされる。具材同士がぶつかり合うことで、単純な組み合わせ以上の刺激が生まれている。\n## どう作るのか\n鶏がらのスープに、にんにく、にら、もやしをどっさりと炒め合わせてのせ、一味で辛みを加えて仕上げる。もとは店の調理担当が求めに応じてまかないとしてつくったのが始まりとされ、簡素な調理法の中に満州仕込みの中華の記憶が重なっている。炒める火加減ひとつで香りの立ち方が変わるため、店ごとの手加減がそのまま個性になるという。\n## なぜこの形になったのか\n一宮市で店を開いた初代は、かつて満州で覚えた中国料理の記憶を持っていたとされる。客から愛称で呼ばれるようになったのがそのまま名前になったと伝わり、繊維業が盛んだった土地で働く人たちのスタミナ源として、にんにくと唐辛子を効かせた一杯が求められたことがこの形を後押ししたと考えられる。呼び名が先に広まり、あとから正式な名前として定着した珍しい経緯を持つ。土地の産業と個人の記憶が重なって一杯の輪郭を決めた例と言える。",
+      "body_en": "## What it's made of\nBig cloves of garlic and chives pile up with a mountain of bean sprouts, flecked with red chili powder. It's a simple build — chicken-bone broth topped with stir-fried aromatics — but the garlic's aroma and heat push forward so strongly that by the time you finish the bowl, you're said to be breaking a sweat, the toppings clashing against each other for a kick stronger than their simple combination suggests.\n## How it's made\nGarlic, chives, and bean sprouts are stir-fried together and piled onto a chicken-bone broth, finished with a dusting of chili powder for heat. It's said to have begun as a staff meal, cooked at a kitchen worker's request, and traces of Manchurian-learned Chinese cooking carry through the otherwise simple method, with the exact heat of the stir-fry said to shift the aroma and mark each shop's own hand.\n## Why it took this shape\nThe founder who opened a shop in Ichinomiya is said to have carried memories of Chinese cooking learned in Manchuria. The name is said to come directly from a nickname customers started using, and in a textile town whose workers needed a source of stamina, demand for a bowl built on garlic and chili seems to have pushed this dish into shape — an unusual case where the nickname spread first and only later became the dish's official name.",
+      "sources": [
+        {
+          "title": "ベトコンラーメンの由来",
+          "url": "http://www.k-betokon.com/yurai/",
+          "publisher": "べトコンラーメン専門店",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "ベトコンラーメン",
+          "url": "https://aichi.mytabi.net/viet-cong-ramen.php",
+          "publisher": "マイ旅あいち",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "betokon",
+          "to_slug": "korai-kei",
+          "relation_type": "対比",
+          "basis": "ともに愛知県で個性を確立したラーメンだが、ベトコンラーメンは満州からの引き揚げ者が考えたにんにくと唐辛子のスタミナ料理、好来系ラーメンは名古屋の一軒の煮込み過ぎから生まれた魚介だしのラーメンという別の成り立ちを持つ"
+        }
+      ]
+    },
+    {
+      "slug": "tamagotoji",
+      "body_ja": "## 何でできているか\n澄んだスープの表面に、とろりとした溶き卵の膜が広がっている。スープの熱だけでちょうどよく火が通った卵は、箸で持ち上げるとふわりと揺れるやわらかさを保ったまま麺に絡みつく。まろやかさの奥に、長時間煮込んだだしのコクがしっかりと残っているのが特徴とされる。卵の膜を割った瞬間に立ちのぼる湯気の香りも、この一杯ならではの楽しみである。\n## どう作るのか\n三河鶏がらや豚骨といった素材を毎日十時間以上煮込んでだしをとり、そこに溶き卵を流し入れて仕上げる。卵は別で火を通すのではなく、スープの熱でそのまま半熟に仕立てるため、とろみと柔らかさが両立する。特注の極細麺を合わせることで、卵をまとったスープが麺の隅々まで行き渡るようにしている。卵を入れる量とタイミングの見極めが職人の腕の見せどころという。\n## なぜこの形になったのか\n名古屋市中村区で屋台から始まった店が、実店舗に移った際の試行錯誤の中でこの卵とじの仕立てにたどり着いたと伝わる。中村区は名古屋駅にも近く行き交う人の多い土地で、すぐに食べられて体が温まる一杯として、卵でまろやかにする工夫が根づいていったと考えられる。屋台時代の手早さと実店舗の丁寧さが、卵とじという形の中で両立している。移転という節目が、試行錯誤の末に新しい一杯を生む契機になったと言えるだろう。",
+      "body_en": "## What it's made of\nA thin, glossy film of beaten egg spreads across the surface of a clear broth. Cooked to just the right softness by the broth's own heat alone, the egg still wobbles gently when lifted with chopsticks and clings to the noodles. Underneath the mellowness, the depth of a long-simmered stock is said to remain firmly intact, and the waft of steam released the moment the egg film breaks is its own small pleasure.\n## How it's made\nMikawa chicken bone and pork bone are simmered for stock over ten hours daily, then beaten egg is poured in to finish. Rather than cooking the egg separately, it's set to a soft curd by the broth's heat alone, so silkiness and softness coexist. Pairing it with custom-cut, extra-thin noodles lets the egg-laced broth reach every strand, and judging exactly how much egg to add, and when, is said to be where a cook's skill shows.\n## Why it took this shape\nA shop that began as a food stall in Nakamura, Nagoya, is said to have arrived at this egg-finished style through trial and error after moving into a proper storefront. Nakamura sits close to Nagoya Station, a busy crossing point for travelers, and the trick of softening the bowl with egg seems to have taken root there as a meal that warms you quickly, the stall days' speed and the storefront's care meeting in this one dish.",
+      "sources": [
+        {
+          "title": "玉子とじラーメン",
+          "url": "https://www.tabemaro.jp/gourmet/tamagotojiramen/",
+          "publisher": "tabemaro編集部",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "萬珍軒",
+          "url": "https://manchinken.com/",
+          "publisher": "萬珍軒",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tamagotoji",
+          "to_slug": "taiwan-ramen",
+          "relation_type": "対比",
+          "basis": "ともに名古屋発祥のラーメンだが、台湾ラーメンは唐辛子で刺激を立てる方向に振り、玉子とじラーメンは溶き卵でまろやかさを加える方向に振っている点が対照的"
+        }
+      ]
+    },
+    {
+      "slug": "kameyama",
+      "body_ja": "## 何でできているか\n牛骨からとっただしに、赤味噌と豆味噌、麦味噌という三種の味噌が溶け合い、単一の味噌では出せない層のある味わいをつくっている。そこに県産小麦「ニシノカオリ」から打った太めの麺が沈み、はなびらたけやはたけしめじ、ひらたけといった地元産のきのこが彩りを添える。ひと口ごとに味噌の甘みと苦みが入れ替わり立ち替わり顔を出す。三重県内の産物だけで丼ひとつが完結している点も見どころである。\n## どう作るのか\n牛骨をじっくり煮出したエキスをベースに、赤味噌・豆味噌・麦味噌をブレンドしたタレを合わせてスープに仕立てる。麺は三重県産小麦のニシノカオリを使った太麺で、汁をしっかり受け止める。地元産のきのこ三種をトッピングに使うなど、三重県内の素材をひとつの丼に集める組み立てになっており、味噌の配合比は店によって微妙に異なるという。\n## なぜこの形になったのか\n三重県は赤味噌・豆味噌・麦味噌それぞれの味噌文化が隣り合う土地とされ、その境目にある亀山でこれらを一つの丼にまとめたことが、単一の味噌に頼らないブレンドスープにつながったと考えられる。市内の飲食店でつくる会が力を合わせ、地元の小麦やきのこもあわせて使うことで、亀山という土地全体を一杯に映し出そうとしたと言える。",
+      "body_en": "## What it's made of\nRed, mame, and mugi miso all dissolve into a beef-bone stock, building a layered flavor no single miso could produce alone. Thick noodles milled from the prefecture's Nishinokaori wheat sit beneath it, colored further by local mushrooms — hanabiratake, hatake-shimeji, and hiratake — the miso's sweetness and bitterness trading places from one mouthful to the next.\n## How it's made\nAn extract simmered slowly from beef bone forms the base, combined with a tare blending red, mame, and mugi miso. The noodles are thick-cut from Mie-grown Nishinokaori wheat, sturdy enough to hold the broth. Topping it with three kinds of local mushroom is part of a build that gathers ingredients from across Mie into one bowl, and the exact ratio of the three miso is said to vary slightly from shop to shop.\n## Why it took this shape\nMie is said to sit where the region's red-, mame-, and mugi-miso cultures meet, and gathering all three into one bowl in Kameyama, near that boundary, seems to be what led to a blended soup unwilling to rely on just one. Local restaurants banding together, and folding in local wheat and mushrooms besides, appear to be an attempt to let one bowl reflect the whole of Kameyama.",
+      "sources": [
+        {
+          "title": "亀山ラーメン",
+          "url": "https://www.kankomie.or.jp/spot/22227",
+          "publisher": "公益社団法人 三重県観光連盟",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "亀山ラーメン",
+          "url": "https://mie.mytabi.net/kameyama-ramen.php",
+          "publisher": "マイ旅みえ",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kameyama",
+          "to_slug": "hatcho-miso",
+          "relation_type": "使用食材",
+          "basis": "赤味噌・豆味噌・麦味噌をブレンドするタレのうち豆味噌は、東海地方の豆味噌文化を代表する八丁味噌（愛知県）と同じ系統の味噌にあたる"
+        }
+      ]
+    }
+  ]
+}

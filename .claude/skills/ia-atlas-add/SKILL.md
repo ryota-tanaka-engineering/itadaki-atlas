@@ -92,7 +92,7 @@ npm run content:lint -- --strict
 ```bash
 # 本番 DB へ同じ束を投入（フォアグラウンドで。supabase CLI はバックグラウンドだと固まる）
 bash scripts/prod-env.sh node scripts/import-content.ts --file data/content/<name>.json --skip-expand
-# コードに触れていなければデプロイ不要（ページは動的描画）。触れていれば
+# コードに触れていなければデプロイ不要（トップ・一覧・県ページは ISR 5分、詳細は動的描画）。触れていれば
 bash scripts/deploy-prod.sh
 git add data/content/<name>.json data/content/<name>/ data/genres.csv data/tags.json data/chains.json CLAUDE.md
 git commit   # メッセージ: feat(content): <何を何件> 。本番投入済みなら本文に明記

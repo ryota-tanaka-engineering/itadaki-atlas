@@ -19,12 +19,21 @@
 			"binding": "WORKER_SELF_REFERENCE",
 			"service": "itadaki-atlas"
 		}
+	],
+	"r2_buckets": [
+		{
+			// ISR（`export const revalidate`）の再検証結果を永続化するキャッシュ専用バケット。
+			// バインディング名は @opennextjs/cloudflare の r2-incremental-cache 実装が
+			// 固定で読む名前（NEXT_INC_CACHE_R2_BUCKET）。open-next.config.ts 参照。
+			// なくても各ページは動く（キャッシュミス時はオンデマンドで再取得するだけ）ため、
+			// ポータビリティ規約（Workers固有ストレージを動作要件にしない）には抵触しない。
+			"binding": "NEXT_INC_CACHE_R2_BUCKET",
+			"bucket_name": "itadaki-atlas-next-cache"
+		}
 	]
-	// 意図的に省略: r2_buckets / kv_namespaces / d1_databases / durable_objects
-	// ポータビリティ規約（`.doc/10_system/02_infrastructure.md` §5）に従い、
-	// Workers固有ストレージをアプリの動作要件にしない。
+	// 意図的に省略: kv_namespaces / d1_databases / durable_objects
 	//
-	// 地図タイル用のR2バケットもここにバインドしない。ブラウザが HTTP Range で
-	// 直接読む静的ファイル置き場であり、Worker を経由しないため。
-	// 詳細: `.doc/10_system/02_infrastructure.md` §2
+	// 地図タイル用のR2バケット（itadaki-atlas-tiles）はここにバインドしない。
+	// ブラウザが HTTP Range で直接読む静的ファイル置き場であり、Worker を
+	// 経由しないため。詳細: `.doc/10_system/02_infrastructure.md` §2
 }

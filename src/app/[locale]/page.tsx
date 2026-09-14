@@ -21,6 +21,13 @@ import {
 // 2026-08 デザイン確定: ジャンルチップと言語切替はトップ専用の浮遊要素ではなく、
 // 共通ヘッダー（言語切替）とボトムシート内「種類からさがす」カード（ジャンル一覧）に
 // 統合された（.claude/agents 経由の指示書 §2, §4）。
+//
+// 2026-09: ISR（`revalidate = 300`）。本番トップが毎リクエストでSupabaseから
+// 全件（約2,100件）取得し初期応答2.4秒だった対応。データ投入は5〜10分の遅延を
+// 許容できる更新頻度（`dailyPicks`も通算日基準で5〜10分の再検証で問題ない）。
+// 詳細: `.doc/10_system/02_infrastructure.md` §1「ISRキャッシュ」。
+export const revalidate = 300;
+
 export default async function Home({
   params,
 }: {
