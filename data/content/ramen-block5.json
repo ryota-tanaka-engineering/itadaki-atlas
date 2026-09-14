@@ -1,0 +1,491 @@
+{
+  "items": [
+    {
+      "slug": "mito-han",
+      "name_ja": "水戸藩ラーメン",
+      "name_romaji": "Mito-han Ramen",
+      "name_en": "Mito-han Ramen — a noodle soup revived from a 17th-century record tied to lord Tokugawa Mitsukuni",
+      "type": "dish",
+      "shelf": "noodles",
+      "genre": "ramen",
+      "origin_pref": "茨城県",
+      "origin_city": "水戸市",
+      "lat": 36.3418,
+      "lng": 140.4468,
+      "primary_style": "醤油",
+      "summary_ja": "江戸時代に水戸藩主が食べたと伝わる汁麺を、平成に入って地元の製麺業者が再現した水戸市のご当地ラーメン。レンコン粉を練り込んだ麺と、五辛と呼ばれる薬味の組み合わせが特徴で、あっさりした醤油スープに漢方由来の発想が重なっている。",
+      "summary_en": "A noodle soup said to have been eaten by Mito's 17th-century lord and revived by a local noodle maker in the 1990s. Kneaded with lotus-root flour, the pale brown, black-flecked noodles sit in a light soy broth topped with a five-herb garnish drawn from Chinese medicine.",
+      "body_ja": "## 何でできているか\n茶色く黒い点が散った麺は、小麦粉にレンコンの粉を練り込んで作られる。すすると麺の合間から土の香りがふっとよぎり、ふつうの中華麺とは違う喉ごしになる。仕上げにのるのはニラ・ラッキョウ・ネギ・ニンニク・ショウガをそろえた五辛と呼ばれる薬味で、肉としいたけが必ず添えられる。スープはあっさりとした醤油仕立てで、具よりも先に薬味の香りが鼻を突き、食べ進めるうちに麺の土の香りへと移っていく。\n## どう作るのか\n基本は中華麺と同じ製法だが、練り込む粉にレンコンを加える点だけが違う。五辛は漢方医学の考えにもとづく組み合わせとされ、肉としいたけの取り合わせも陰陽五行の思想を映しているという。当時の記録には作り方の細部までは残っておらず、粉の配合や薬味の分量は平成に入ってから地元の製麺業者が試作を重ねて決めたと伝わる。今では県内数軒の飲食店で味わえるほか、土産用の乾麺としても販売されている。\n## なぜこの形になったのか\n一説によると、水戸藩主・徳川光圀は明から亡命した儒学者に学び、外国の文化も進んで取り入れていたという。学んだ相手は日本の食文化にも通じていたとされ、麺を食べる習慣もその交流の中で伝わった可能性があると考えられている。1697年には隠居所で来客に汁麺をふるまった記録が残ると伝わる。300年近く後、バブル崩壊後の町おこしとして地元業者がこの記録を掘り起こし、レンコンと五辛という土地の記憶を麺の形に結び直した。",
+      "body_en": "## What it's made of\nThe noodles are speckled brown, kneaded from wheat flour cut with lotus-root flour. A faint earthy scent drifts up between slurps, giving a mouthfeel unlike ordinary Chinese noodles. The bowl is finished with a five-herb garnish — chives, rakkyo, scallion, garlic, and ginger — always paired with meat and shiitake mushroom, set in a light soy broth where the herbs' aroma hits the nose first, giving way as you eat to the noodle's own earthy scent.\n## How it's made\nThe dough follows an ordinary Chinese-noodle method, differing only in the lotus-root flour worked into it. The five-herb combination is said to follow Chinese medical thinking, and pairing meat with shiitake is said to echo yin-yang and five-elements cosmology. No detailed method survives in the old record, so the flour ratio and herb quantities are said to have been worked out through trial by a local noodle maker once the 1990s revival began. Today it's served at a handful of restaurants around the prefecture and sold as a dried souvenir noodle as well.\n## Why it took this shape\nOne account holds that Mito's lord Tokugawa Mitsukuni studied under a Chinese scholar living in exile and was quick to adopt foreign customs. That scholar is said to have known Japanese food culture as well, raising the possibility that the noodle-eating habit passed through their exchange. A record is said to survive of him serving a noodle soup to guests at his retirement villa in 1697. Nearly three centuries later, in the wake of the bubble economy's collapse, a local maker dug up that record and tied the memory of lotus root and five herbs back into a bowl of noodles.",
+      "sources": [
+        {
+          "title": "水戸藩らーめん",
+          "url": "https://ja.wikipedia.org/wiki/水戸藩らーめん",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "水戸藩ラーメン",
+          "url": "https://ibaraki.mytabi.net/mito-han-ramen.php",
+          "publisher": "いばらき観光マイタビ",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "to_slug": "ogura-renkon",
+          "relation_type": "使用食材",
+          "basis": "麺に練り込むレンコン粉の由来食材。茨城県はレンコンの一大産地とされる"
+        }
+      ],
+      "tags": [
+        "soy_sauce"
+      ]
+    },
+    {
+      "slug": "hitachiomiya",
+      "name_ja": "豆腐みそラーメン",
+      "name_romaji": "Toufu Miso Ramen",
+      "name_en": "Toufu Miso Ramen — a miso broth built around chunks of tofu and scallion from Hitachiomiya",
+      "type": "dish",
+      "shelf": "noodles",
+      "genre": "ramen",
+      "origin_pref": "茨城県",
+      "origin_city": "常陸大宮市",
+      "lat": 36.5372,
+      "lng": 140.4116,
+      "primary_style": "味噌",
+      "summary_ja": "常陸大宮市の老舗中華料理店が、豆腐とネギの味噌汁の美味しさをそのままラーメンに移したと伝わる一杯。赤味噌と白味噌を合わせた汁に、ざく切りの木綿豆腐と長ネギだけをのせる。具材を絞った分、味噌の配合そのものが味の決め手になる。",
+      "summary_en": "A long-running Chinese restaurant in Hitachiomiya is said to have carried the flavor of a tofu-and-scallion miso soup straight into a bowl of ramen. Red and white miso blend into the broth, topped with nothing but chunks of firm tofu and scallion, so the miso blend alone carries the flavor.",
+      "body_ja": "## 何でできているか\n丼に張るのは赤味噌と白味噌を合わせたスープで、赤味噌のコクと白味噌の甘みが層になって舌に届く。具はざく切りにした木綿豆腐と長ネギだけ。豆腐は崩れにくいよう固めのものを選び、角の立った切り口がスープをよくまとう。麺は自家製の細麺で、豆腐の口当たりを邪魔しないよう控えめに仕立てられている。丼をのぞくと、まるで味噌汁の器をそのまま大きくしたような見た目で、湯気の立ち方まで家庭の食卓を思わせる。\n## どう作るのか\n豚ひき肉と鶏・豚のだしを合わせた地に、赤味噌と白味噌を店ごとの配合でブレンドする。豆腐は水切りしてから大きめの角切りにし、煮崩れる直前で丼に沈める。味噌の配合は季節によって微調整されるとされ、豆腐とネギという具の少なさが、逆にスープの仕込みの差をそのまま味の違いに変える作り方になっている。提供する店はわずかにとどまるといい、それぞれが自分の配合を守り続けている。\n## なぜこの形になったのか\n一説によると、先代の店主が「豆腐とネギの味噌汁がうまいなら、ラーメンに入れても同じはずだ」と考えたのが始まりという。茨城県北部の内陸に位置する常陸大宮の食卓で親しまれてきた味噌汁の組み立てを、そのまま丼に移した発想で、30年以上前から地元の一軒がこの形を守り続けていると伝わる。海から離れた内陸の町で、身近な食材だけを使って一杯を仕立てた工夫の跡ともいえる。",
+      "body_en": "## What it's made of\nThe broth blends red and white miso, the red miso's depth arriving first and the white miso's sweetness settling in behind it, layer by layer. The only toppings are roughly cut cubes of firm tofu and scallion. The tofu is cut firm so it holds its shape, its sharp edges catching the broth. The noodles are house-made and thin, kept modest so as not to crowd the tofu's texture. Peer into the bowl and it looks like an oversized cup of miso soup, right down to the way the steam rises, evoking a family table.\n## How it's made\nGround pork and a chicken-and-pork stock form the base, into which each shop blends its own ratio of red and white miso. The tofu is drained, cut into large cubes, and lowered into the bowl just before it would start to fall apart. The miso blend is said to be adjusted by season, and with so few toppings, differences in how each shop builds its broth show up directly in the taste. Only a handful of shops are said to still serve it, each holding to its own blend.\n## Why it took this shape\nOne account holds that a previous owner reasoned that if tofu-and-scallion miso soup tasted good, it should taste just as good in ramen. Landlocked in northern Ibaraki, Hitachiomiya has long favored this miso soup at the table, and the idea is said to be simply that combination carried straight into a bowl — one local shop has kept the recipe for more than thirty years. It reads as a town far from the sea working with whatever was close at hand.",
+      "sources": [
+        {
+          "title": "茨城県「豆腐みそラーメン」とは？：30年の歴史が生んだ絶滅危惧種グルメ",
+          "url": "https://shop.onlyone-marumen.com/豆腐みそラーメン/",
+          "publisher": "マルメン製麺所",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "茨城の自慢のご当地ラーメン",
+          "url": "https://www.ibarakiguide.jp/gourmet/ramen.html",
+          "publisher": "観光いばらき（茨城県観光物産協会）",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "to_slug": "kome-miso",
+          "relation_type": "使用食材",
+          "basis": "赤味噌・白味噌を合わせたスープのベースになる味噌"
+        }
+      ],
+      "tags": [
+        "miso"
+      ]
+    },
+    {
+      "slug": "tochigi-yugao",
+      "name_ja": "夕顔ラーメン",
+      "name_romaji": "Yugao Ramen",
+      "name_en": "Yugao Ramen — noodles kneaded with powdered bottle gourd, the raw material for kanpyo",
+      "type": "dish",
+      "shelf": "noodles",
+      "genre": "ramen",
+      "origin_pref": "栃木県",
+      "origin_city": "栃木市",
+      "lat": 36.3841,
+      "lng": 139.73,
+      "primary_style": "その他",
+      "summary_ja": "国内有数のかんぴょう産地・栃木市で、原料の夕顔の実を粉にして麺へ練り込んだご当地ラーメン。かんぴょうと同じ実から作られる麺はつるりとした喉ごしが持ち味で、スープの味つけは担担麺風や塩味など店ごとに幅がある。",
+      "summary_en": "In Tochigi City, one of Japan's leading kanpyo-producing areas, the yugao gourd that kanpyo is made from is ground into flour and kneaded into ramen noodles. The noodle carries a smooth, slippery bite, while the broth ranges from tantanmen-style to a light salt base depending on the shop.",
+      "body_ja": "## 何でできているか\n主役は麺そのもの。夕顔の実を粉にして小麦粉に練り込んであり、すすると喉の通りが軽く、つるつるとした中にわずかな弾みが残る。かんぴょうと同じ夕顔の実から作られているとは思えないほど、色も香りも控えめで、麺だけを味わっても飽きが来ない食感に仕上がっている。スープや具材は店ごとの裁量に委ねられ、担担麺仕立てやニラをきかせた一杯など幅がある。\n## どう作るのか\nかんぴょうの原料になる夕顔の実を乾燥させて粉にし、通常の中華麺の生地に混ぜ込んで打つ。加工の工程はかんぴょう作りと共通する部分が多いといい、地元の製麺所がこの粉を扱えるようになったことで麺としての商品化が実現したとされる。栃木市内の夕顔ラーメン会に加盟する十数店舗が、それぞれ自分の店のスープに合わせて麺を仕立てている。\n## なぜこの形になったのか\n栃木県は国内のかんぴょう生産の多くを担うとされ、栃木市周辺はその主産地にあたる。かんぴょうそのものはかんぴょう巻きなどですでに広く使われてきたが、原料の夕顔をもっと生かせないかという発想から、実を粉にして麺に使う道が探られたと伝わる。干して細く削る従来の加工とは別の道を探った結果ともいえ、畑で採れる実そのものを丸ごと生かす工夫として受け止められている。地場の農産物を新しい使い道に開いた例のひとつといえる。",
+      "body_en": "## What it's made of\nThe noodle is the star. Ground yugao — bottle gourd — flour is kneaded into the wheat dough, giving a light, slippery bite with a faint springiness. Despite coming from the same gourd as kanpyo, the color and aroma stay understated, so the noodle holds its own without tiring the palate. Broth and toppings are left to each shop's discretion, ranging from a tantanmen-style bowl to one built around chives.\n## How it's made\nThe yugao gourd that becomes kanpyo is dried and ground into flour, then worked into an ordinary Chinese-noodle dough. The processing is said to overlap heavily with kanpyo production, and it was local noodle makers learning to handle this flour that made the noodle commercially viable. A dozen-odd shops belonging to Tochigi City's Yugao Ramen Association each pair the noodle with their own broth.\n## Why it took this shape\nTochigi Prefecture is said to account for much of Japan's kanpyo production, with the area around Tochigi City at its center. Kanpyo itself was already widely used, in dishes like kanpyo maki, but the idea is said to have grown from wanting to put the raw gourd itself to further use — grinding it into flour for noodles. It takes a different path from the usual drying-and-shaving process, using the whole fruit from the field rather than shaving it into strips. It stands as one example of a local crop opened up to a new use.",
+      "sources": [
+        {
+          "title": "とちぎLOVE",
+          "url": "https://www.berry.co.jp/tochigi/love/?date=1368975600",
+          "publisher": "エフエム栃木",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "夕顔ラーメン取材記事",
+          "url": "https://travel.watch.impress.co.jp/docs/news/tabirepo/1054166.html",
+          "publisher": "Travel Watch（Impress Watch）",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "to_slug": "kanpyo",
+          "relation_type": "使用食材",
+          "basis": "麺に使う夕顔の実の粉は、かんぴょうと同じ夕顔から作られる"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "slug": "tomo-tenobe",
+      "name_ja": "東毛手延べラーメン",
+      "name_romaji": "Tomo Tenobe Ramen",
+      "name_en": "Tomo Tenobe Ramen — hand-pulled noodles from eastern Gunma's Tomo district",
+      "type": "dish",
+      "shelf": "noodles",
+      "genre": "ramen",
+      "origin_pref": "群馬県",
+      "origin_city": "太田市",
+      "lat": 36.2914,
+      "lng": 139.3756,
+      "primary_style": "醤油",
+      "summary_ja": "群馬県東部・東毛地域に伝わる、そうめんのように手で延ばして作る中華麺のラーメン。太田市の一軒が元祖とされ、コシの強さより喉ごしのよさを追う麺と、のっぺりとしたあっさり醤油スープが組み合わさる。",
+      "summary_en": "A ramen from Gunma's Tomo district in the east of the prefecture, its noodles pulled by hand like somen rather than cut. A shop in Ota City is said to be the original, pairing a noodle prized for its slip over its bite with a flat, old-fashioned, light soy broth.",
+      "body_ja": "## 何でできているか\n麺は手延べ製法による平打ちの中太麺で、いわゆるコシの強さはほとんど感じない。その代わりに喉ごしがよく、にゅるんとした独特の口当たりが残る。すすった瞬間に感じるのは弾力ではなく、なめらかに喉を滑り落ちていく感覚で、噛むというより飲むに近い食べ方を誘う麺だという。スープは一世代前を思わせるのっぺりとしたあっさり醤油味で、生姜がきいている。麺の存在感がまず先に来て、スープはそれを受け止める役に回るような一杯になっている。\n## どう作るのか\n生地を手で左右に引きながら延ばしていく製法は、機械で切り出す中華麺とは仕込みの手間がまるで違う。太さや厚みが職人の手加減で決まるため、店ごとに口当たりの差が出やすい。一玉を延ばすのに要する時間は機械打ちの比ではなく、天候や生地の状態を見ながら力加減を変える必要があるという。かつては弟子が独立して店を構える形で広がったとされるが、職人の高齢化とともに担い手は減り、今も手延べを続ける店はわずかになっている。\n## なぜこの形になったのか\n一説によると、群馬県東部の東毛地域では、太田市・桐生市・館林市にまたがる形で手延べ麺を使う地ラーメンが根づいていたという。太田市の一軒が元祖と言われ、そこから技術を受け継いだ店が周辺に広がったと伝わる。機械化が進んだ戦後の製麺業の中で、あえて手作業を選び続けた店の系譜が、東毛という土地の一角に残った例といえる。同じ群馬県内でも西部の藤岡ラーメンとは別の系譜として、手作業の製麺だけが今に残っている。",
+      "body_en": "## What it's made of\nThe flat, medium-thick noodle is hand-pulled, and firmness in the usual sense is barely there. In its place comes a slippery, almost gliding texture — closer to something you drink than something you chew. The broth is a flat, old-fashioned light soy, seasoned with ginger. The noodle takes the lead here, with the broth playing a supporting role.\n## How it's made\nPulling the dough by hand, working it side to side, takes a completely different kind of labor from cutting machine-made Chinese noodles. Thickness and width are set by the maker's touch, so the feel varies shop to shop. Stretching a single portion takes far longer than machine work, and the maker is said to adjust the pull with each day's weather and dough condition. The style is said to have spread as apprentices struck out on their own, but as those makers have aged, the number of shops still hand-pulling has dwindled to just a few.\n## Why it took this shape\nOne account holds that hand-pulled noodle ramen took root across Gunma's eastern Tomo district, spanning Ota, Kiryu, and Tatebayashi cities. A shop in Ota is said to be the original, with the technique passed down to shops nearby. Amid the postwar mechanization of noodle-making, this lineage of shops that kept choosing hand work by hand is thought to survive as one corner of the Tomo district. Distinct from Fujioka Ramen in the prefecture's west, only this hand-worked noodle-making survives from that eastern lineage today.",
+      "sources": [
+        {
+          "title": "東毛手延べラーメン",
+          "url": "https://noodlehack.com/東毛手延べラーメン/",
+          "publisher": "ご当地麺を食べよう（個人ブログ）",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "東毛手延",
+          "url": "https://papekichi.way-nifty.com/blog/2011/12/post-9b0b.html",
+          "publisher": "擂り粉木日記（個人ブログ）",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "to_slug": "fujioka",
+          "relation_type": "対比",
+          "basis": "同じ群馬県のご当地ラーメンだが、藤岡ラーメンは群馬県西部、東毛手延べラーメンは群馬県東部と発祥地域が異なり、手延べ製法かどうかも異なる"
+        }
+      ],
+      "tags": [
+        "soy_sauce"
+      ]
+    },
+    {
+      "slug": "arirang",
+      "name_ja": "アリランラーメン",
+      "name_romaji": "Arirang Ramen",
+      "name_en": "Arirang Ramen — a soy ramen named for a mountain pass in a Korean folk song",
+      "type": "dish",
+      "shelf": "noodles",
+      "genre": "ramen",
+      "origin_pref": "千葉県",
+      "origin_city": "長生郡長柄町",
+      "lat": 35.4406,
+      "lng": 140.238,
+      "primary_style": "醤油",
+      "summary_ja": "千葉県長柄町の峠にある一軒から始まったと伝わるラーメン。朝鮮半島の伝説の峠にちなんで名づけられたといい、たっぷりの玉ねぎと豚肉の甘みが溶け込んだ醤油スープに、自家製ラー油とすりおろしニンニクでコクと辛みを重ねる。",
+      "summary_en": "A soy ramen said to have started at a single restaurant on a mountain pass in Chiba's Nagara. Named, it's said, for the legendary Arirang Pass of Korean folklore, its soy broth carries the sweetness of onion and pork, layered with house-made chili oil and grated garlic for depth and heat.",
+      "body_ja": "## 何でできているか\nたっぷりの玉ねぎと豚肉の甘みが溶け込んだ醤油味のスープに、自家製のラー油とすりおろしニンニクがコクと辛みを重ねる。すすると玉ねぎの甘さがまず来て、そのあとニラとにんにくの香りが追いかけてくる。一杯食べ終えるころには額に汗がにじむ辛さになり、峠を越えられるほどのスタミナがつくラーメンという触れ込みにふさわしい、食べ応えの強い組み立てになっている。\n## どう作るのか\n玉ねぎをベースに、ニラ・にんにく・豚肉・ネギを独自の配合で炒め合わせ、醤油だれとラー油でピリ辛の味つけに仕上げる。作り方は発祥の食堂から一族が受け継いだ製法によるとされ、のれん分けした店でも大枠の味は保たれている。通信販売や土産用の商品も作られており、店で食べる以外の形でも味が持ち出せるようになっている。\n## なぜこの形になったのか\n一説によると、発祥の店が山あいの峠道に位置していたことから、朝鮮半島の伝説の峠「アリラン峠」を越えられるようなスタミナがつくラーメンという意味で名づけられたという。千葉県の内陸、長柄町の山あいという立地そのものが、辛さとスタミナを売りにする一杯を生む土壌になったと考えられる。峠を行き交う人に力をつけてもらいたいという、立地に根ざした素朴な願いが、そのまま名前と味の両方に映り込んだ例といえる。",
+      "body_en": "## What it's made of\nA soy broth carrying the sweetness of plenty of onion and pork is layered with house-made chili oil and grated garlic for depth and heat. On the first slurp the onion's sweetness arrives, then chives and garlic chase in behind it. By the last bite a light sweat has usually broken out — a hearty, substantial bowl that lives up to its billing as a ramen with enough stamina to carry you over a mountain pass.\n## How it's made\nOnion forms the base, stir-fried together with chives, garlic, pork, and scallion in a proprietary blend, finished spicy with soy tare and chili oil. The method is said to have been passed down within the family that runs the founding restaurant, and the broad strokes of the flavor hold even at branch shops. It's also sold by mail order and as a souvenir pack, so the taste travels beyond the restaurant itself.\n## Why it took this shape\nOne account holds that because the founding restaurant sat along a mountain pass road, it was named for the legendary Arirang Pass of Korean folklore — a ramen with enough stamina to cross it. The inland, hilly setting of Nagara in Chiba is itself thought to be the soil that grew a bowl built to sell on spice and stamina. A simple wish rooted in the setting itself — to give travelers on the pass some strength — is thought to show through in both the name and the flavor.",
+      "sources": [
+        {
+          "title": "アリランラーメン",
+          "url": "https://ja.wikipedia.org/wiki/アリランラーメン",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "ご当地ラーメン特集",
+          "url": "https://maruchiba.jp/gourmet/feature/detail_83.html",
+          "publisher": "ちば観光ナビ（千葉県公式観光サイト）",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "to_slug": "katsuura-tantan",
+          "relation_type": "対比",
+          "basis": "同じ千葉県のピリ辛系ご当地ラーメンだが、発祥地・具材・辛みの付け方が異なる"
+        }
+      ],
+      "tags": [
+        "spicy",
+        "pork",
+        "soy_sauce"
+      ]
+    },
+    {
+      "slug": "funabashi",
+      "name_ja": "船橋ソースラーメン",
+      "name_romaji": "Funabashi Sauce Ramen",
+      "name_en": "Funabashi Sauce Ramen — a ramen built on Worcestershire sauce instead of soy",
+      "type": "dish",
+      "shelf": "noodles",
+      "genre": "ramen",
+      "origin_pref": "千葉県",
+      "origin_city": "船橋市",
+      "lat": 35.6947,
+      "lng": 139.9825,
+      "primary_style": "その他",
+      "summary_ja": "船橋市の商店街にあった中華料理店で生まれたと伝わる、ウスターソースを土台にしたラーメン。黒っぽいスープは酸味と甘みとしょっぱさのバランスで仕立てられ、青のりや紅しょうがが焼きそばの記憶を漂わせる。",
+      "summary_en": "Said to have been born at a Chinese restaurant in a Funabashi shopping street, this ramen builds its broth on Worcestershire sauce. The dark broth is balanced for sourness, sweetness, and salt, finished with green laver and red pickled ginger that recall yakisoba.",
+      "body_ja": "## 何でできているか\nスープはウスターソースを軸に組み立てられ、色は黒っぽく、口に含むと酸味と甘み、しょっぱさが順に押し寄せる。仕上げに青のりと紅しょうがが添えられることが多く、見た目も香りも焼きそばを思わせる。中華麺を使いながら醤油の気配がほとんどなく、スープをすするたびにソース焼きそばの記憶が呼び起こされるような一杯になっている。\n## どう作るのか\nウスターソースだけでは角が立ちすぎるため、店ごとに別の調味料を加えて酸味と甘み、しょっぱさのバランスを整える。もとは大盛りの焼きそばを求める常連客の声に応えて生まれた汁ありの一杯とされ、麺は焼きそばにも使うものを流用する店が多い。つけ麺の形で出す店もあり、焼きそばとラーメンの境界に立つ作り方が今も続いている。\n## なぜこの形になったのか\n一説によると、1945年ごろ京成船橋駅そばの商店街にあった中華料理店で、常連客から「汁ありの焼きそばが食べたい」と求められたのが始まりという。高度経済成長期を境に提供する店は減っていったが、後年になって地元の有志が声をかけ、当時の味を知る店をたどり直す動きが起きたと伝わる。戦後の商店街で生まれた即興の一杯が、時代を経て再び掘り起こされた経緯そのものが、この味の記憶をつなぎ直す作業だったといえる。",
+      "body_en": "## What it's made of\nThe broth is built around Worcestershire sauce, dark in color, delivering sourness, sweetness, and salt in that order on the tongue. It's usually finished with green laver and red pickled ginger, so it looks and smells like yakisoba. Made with Chinese noodles yet carrying almost no trace of soy, it's a bowl that calls yakisoba to mind with every slurp.\n## How it's made\nWorcestershire sauce alone comes on too sharp, so each shop blends in other seasonings to balance the sourness, sweetness, and salt. It's said to have begun as a soupy version of yakisoba, made to answer regular customers asking for a large yakisoba with broth, and many shops still use the same noodle they use for yakisoba. Some serve it tsukemen-style, keeping the dish standing at the border between yakisoba and ramen.\n## Why it took this shape\nOne account holds that around 1945, at a Chinese restaurant in a shopping street near Keisei-Funabashi Station, regulars asked for a soupy version of their favorite yakisoba, and that request became this ramen. The number of shops serving it fell off through the postwar boom years, but later local volunteers are said to have reached out and traced the dish back through shops that still remembered the original taste. An improvised bowl born in a postwar shopping street, rediscovered decades later — the recovery itself became a way of reconnecting with that lost flavor.",
+      "sources": [
+        {
+          "title": "船橋ソースラーメン",
+          "url": "https://ja.wikipedia.org/wiki/船橋ソースラーメン",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "to_slug": "tokyo",
+          "relation_type": "対比",
+          "basis": "同じ関東の中華そばの系譜にありながら、東京ラーメンの醤油だれをウスターソースに置き換えた点が対照的"
+        }
+      ],
+      "tags": [
+        "yoshoku"
+      ]
+    },
+    {
+      "slug": "mobara",
+      "name_ja": "もばらーめん",
+      "name_romaji": "Mobara-men",
+      "name_en": "Mobara-men — ramen piled with pork belly, its name a pun on Mobara and pork belly",
+      "type": "dish",
+      "shelf": "noodles",
+      "genre": "ramen",
+      "origin_pref": "千葉県",
+      "origin_city": "茂原市",
+      "lat": 35.4256,
+      "lng": 140.2884,
+      "primary_style": "その他",
+      "summary_ja": "「もりもりのバラ肉ラーメン」を略したという茂原市のご当地ラーメン。豚バラ肉をたっぷりのせるのが共通点で、スープの系統や具材は店ごとに異なり、茂原・長生地域で採れた野菜を使う申し合わせだけが揃っている。",
+      "summary_en": "A local ramen from Mobara City said to shorten a phrase for a ramen piled high with pork belly. The one constant is the mountain of pork belly; broth style and toppings vary by shop, tied together only by an agreement to use vegetables grown around Mobara and Chosei.",
+      "body_ja": "## 何でできているか\n丼を覆うのはたっぷりと盛られた豚バラ肉で、脂の甘みと肉そのものの厚みがまず目に入る。スープは店によって幅があり、にんにくを効かせた味噌や醤油の一杯もあれば、ラー油の香りを重ねたものもある。共通しているのは豚バラ肉の量と、長生ネギや白子玉ねぎなど茂原・長生地域産の野菜を使うという申し合わせで、店によっては盛りの量を何段階かに選べるようになっている。\n## どう作るのか\n名前は「もりもりのバラ肉ラーメン」を略した言葉で、茂原とバラ肉を重ねた呼び名だという。2010年、地元のラーメン店グループの二号店で、茂原のご当地ラーメンとして考案されたと伝わる。一軒の思いつきから始まった呼び名だったが、その後複数の店が同じ名前のもとに加わり、緩やかな集まりへと育っていったという。野菜は茂原・長生地域で採れたものを使うという申し合わせがあり、スープの作り方は各店の裁量に委ねられている。\n## なぜこの形になったのか\n一説によると、茂原という地名の響きと、名物にしたい豚バラ肉の「バラ」を重ねる言葉遊びから名前が決まり、そこから味の中身が固まっていったという。スープの系統をひとつに絞らず、豚バラ肉の量と地元産野菜という二点だけを揃えたことで、複数の店が参加しやすい緩やかなご当地グルメとして育ったと考えられる。決め事を最小限にとどめたことが、かえって新しい店の参入を後押ししたとも考えられる。",
+      "body_en": "## What it's made of\nThe bowl is covered in a generous pile of pork belly, its fat's sweetness and the meat's own thickness catching the eye first. Broth varies widely by shop — some build a garlic-forward miso or soy broth, others layer in the aroma of chili oil. What stays constant is the amount of pork belly and an agreement to use vegetables like Chosei scallion and Shirako onion grown around Mobara and Chosei, with some shops letting you choose from several portion sizes.\n## How it's made\nThe name is said to shorten a phrase meaning \"a mountain of pork belly ramen,\" playing on the sound of Mobara against bara for belly meat. It's said to have been devised in 2010 at the second branch of a local ramen group, as Mobara's own local ramen. What began as one shop's idea for a name later drew other shops under the same banner, growing into a loose collective. There's an agreed rule that vegetables should come from around Mobara and Chosei, while the broth itself is left to each shop's judgment.\n## Why it took this shape\nOne account holds that the name came first, born from wordplay pairing the sound of Mobara with the pork belly meant to be its selling point, and the substance of the dish grew from there. By fixing on just two shared points — the amount of pork belly and locally grown vegetables — rather than a single broth style, the dish is thought to have grown into a loose local specialty that several shops could easily join. Keeping the rules to a minimum is thought to have made it easier for new shops to join in.",
+      "sources": [
+        {
+          "title": "もばらーめん",
+          "url": "https://ja.wikipedia.org/wiki/もばらーめん",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "茂原ラーメン特集｜もばら旅日和",
+          "url": "https://www.mobara-kankou.com/special/mobaramen/",
+          "publisher": "茂原市観光協会",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "to_slug": "katsuura-tantan",
+          "relation_type": "対比",
+          "basis": "同じ千葉県のご当地ラーメンだが、もばらーめんは豚バラ肉の盛り、勝浦タンタンメンはラー油の辛さが看板という違いがある"
+        }
+      ],
+      "tags": [
+        "pork"
+      ]
+    },
+    {
+      "slug": "sodegaura",
+      "name_ja": "ホワイトガウラーメン",
+      "name_romaji": "White Gaura Ramen",
+      "name_en": "White Gaura Ramen — a milk-based white broth from Sodegaura's dairy country",
+      "type": "dish",
+      "shelf": "noodles",
+      "genre": "ramen",
+      "origin_pref": "千葉県",
+      "origin_city": "袖ケ浦市",
+      "lat": 35.4436,
+      "lng": 139.9463,
+      "primary_style": "その他",
+      "summary_ja": "酪農が盛んな袖ケ浦市で生まれた、牛乳を使う白いスープのラーメン。生姜を効かせて乳の匂いを抑えてあり、名前の「ガウラ」は袖ケ浦市を指す造語で、市のマスコットの名前でもある。",
+      "summary_en": "Born in Sodegaura, a city known for dairy farming, this ramen runs on a white broth made with milk. Ginger tempers the milk's smell, and the name Gaura is a coined word for Sodegaura that also names the city's mascot.",
+      "body_ja": "## 何でできているか\nスープは牛乳をベースにした白濁色で、見た目はポタージュに近い。生姜がしっかり効いており、口に含んだ瞬間は乳の甘みが先に立ち、そのあとに生姜の辛みが鼻へ抜けていく。中華麺を使うラーメンでありながら、乳製品の丸みが前面に出る点がほかの地域のラーメンとは一線を画している。スプーンですくうとろみのある口当たりは、ラーメンというよりシチューに近い印象すら与え、丼を覆う白い色そのものが名前の由来になっている。\n## どう作るのか\n牛乳を煮詰めすぎず、生姜をすりおろして加えることで乳特有の匂いを和らげる。袖ケ浦市は酪農が盛んな土地として知られ、地元の中華料理店の店主がその牛乳を生かせないかと考えたのが始まりという。牛乳の分量や煮詰め方は店ごとに違うといい、乳の甘みと生姜の辛みのバランスをどう取るかが仕立ての腕の見せどころとされている。名前の「ホワイト」は牛乳の白さ、「ガウラ」は袖ケ浦市を指す造語で、市のマスコットの名前でもある。\n## なぜこの形になったのか\n一説によると、2011年ごろ、地元の中華料理店が地域おこしの一環として牛乳を使ったラーメンを考案したのが始まりという。東京湾に面しながら酪農地帯でもある袖ケ浦という土地の二面性が、海産物ではなく牛乳をラーメンに結びつける発想を後押ししたと考えられる。海に面した町でありながら、あえて内陸の畜産資源に目を向けた選択が、ほかにはない白いラーメンを生む結果になったといえる。",
+      "body_en": "## What it's made of\nThe broth is a milk-based, cloudy white, closer in look to a potage than a ramen broth. Ginger is worked in firmly, so the milk's sweetness arrives first and the ginger's bite follows up through the nose. Built on Chinese noodles yet led by the roundness of dairy, it stands apart from ramen from most other regions. Scooped with a spoon, its thick texture feels closer to stew than ramen, and that white color filling the bowl is exactly where the name comes from.\n## How it's made\nThe milk is kept from boiling down too far, and grated ginger is added to soften its characteristic smell. Sodegaura is known as a dairy-farming area, and the idea is said to have started with a local Chinese restaurant owner wondering how to put that milk to use. The amount of milk and how far it's reduced are said to differ shop to shop, with balancing the milk's sweetness against the ginger's bite said to be where a cook's skill shows. \"White\" in the name points to the milk's color, and \"Gaura\" is a coined word for Sodegaura that also serves as the city mascot's name.\n## Why it took this shape\nOne account holds that around 2011, a local Chinese restaurant devised a milk-based ramen as part of a local revitalization effort. Sitting on Tokyo Bay while also being dairy country, Sodegaura's double character is thought to have pushed the idea toward milk rather than seafood as the thing to build a ramen around. Despite facing the water, the choice to look inland toward dairy farming instead is what produced a white ramen unlike any other.",
+      "sources": [
+        {
+          "title": "ホワイトガウラーメン",
+          "url": "https://ja.wikipedia.org/wiki/ホワイトガウラーメン",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "ご当地ラーメン特集",
+          "url": "https://maruchiba.jp/gourmet/feature/detail_83.html",
+          "publisher": "ちば観光ナビ（千葉県公式観光サイト）",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "to_slug": "arirang",
+          "relation_type": "対比",
+          "basis": "同じ千葉県のご当地ラーメンだが、乳製品を生かした穏やかな白いスープと、玉ねぎと唐辛子を効かせた辛いスープとで方向性が対照的"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "slug": "omiya-stamina",
+      "name_ja": "スタミナラーメン",
+      "name_romaji": "Sutamina Ramen",
+      "name_en": "Sutamina Ramen — soy ramen crowned with a spicy garlic-ginger meat and vegetable sauce, born in Omiya",
+      "type": "dish",
+      "shelf": "noodles",
+      "genre": "ramen",
+      "origin_pref": "埼玉県",
+      "origin_city": "さいたま市大宮区",
+      "lat": 35.9066,
+      "lng": 139.6238,
+      "primary_style": "醤油",
+      "summary_ja": "大宮駅西口の食堂で生まれたとされる、辛味あんかけをのせた醤油ラーメン。豚ひき肉とニラ、玉ねぎをにんにくと生姜で炒め、醤油と豆板醤、片栗粉でとろみをつけた餡が中細麺にかかる。",
+      "summary_en": "Said to have been born at a diner by Omiya Station's west exit, this is a soy ramen crowned with a spicy meat-and-vegetable sauce. Ground pork, chives, and onion are stir-fried with garlic and ginger, then finished with soy sauce, doubanjiang, and a potato-starch thickener.",
+      "body_ja": "## 何でできているか\n土台になるのは中細麺の醤油ラーメンで、そこに豚ひき肉とニラ、玉ねぎをにんにくと生姜で炒め合わせた餡がたっぷりとかかる。醤油と豆板醤で味を決め、片栗粉でとろみをつけた餡は、具の少ない麻婆豆腐から豆腐を抜いたような見た目と辛さを持つ。麺とスープと餡、三つの層が別々の温度と食感で重なっている。餡の熱がスープにゆっくり溶け出していくため、食べ進めるうちに一杯全体の辛さと香りが少しずつ増していくのも特徴とされる。\n## どう作るのか\n出汁は鶏ガラ・豚骨・野菜を使った醤油清湯で、あっさりとした軽めの仕立てになっている。そこに別立てで作った餡をのせる二段構えの仕立てで、餡はにんにくと生姜をしっかり効かせてから、ひき肉と野菜を強火で炒め、醤油と豆板醤で辛みをつけ、片栗粉でとろみを出す。ライスにかけたスタカレーや、あんかけチャーハンといった派生形も同じ餡を使って作られている。\n## なぜこの形になったのか\n一説によると、1970年代半ば、大宮駅西口前の食堂で麻婆麺をもとにした試行錯誤の末に生まれたという。あっさりした醤油スープにピリ辛の餡をのせる組み合わせは「豆腐抜きの麻婆豆腐をラーメンに」という発想からと伝わる。鉄道の結節点として人が行き交う大宮という土地で、手早く食べられて力がつく一杯として広まった経緯が、名前の「スタミナ」に表れている。",
+      "body_en": "## What it's made of\nThe base is an ordinary thin-noodle soy ramen, generously topped with a sauce of ground pork, chives, and onion stir-fried with garlic and ginger. Seasoned with soy sauce and doubanjiang and thickened with potato starch, the sauce looks and bites like mapo tofu with the tofu left out. Noodle, broth, and sauce sit in three layers, each at its own temperature and texture. As the sauce's heat slowly bleeds into the broth, the whole bowl is said to grow a little spicier and more fragrant the further you eat.\n## How it's made\nThe stock is a light soy consommé made from chicken bones, pork bones, and vegetables, kept deliberately mild. Onto it goes a separately made sauce, a two-part construction: the sauce is built by working garlic and ginger hard, then stir-frying ground meat and vegetables over high heat before finishing with soy sauce and doubanjiang for heat and potato starch for body. The same sauce also turns up on rice as \"stamina curry\" and folded into fried rice.\n## Why it took this shape\nOne account holds that it was born in the mid-1970s at a diner in front of Omiya Station's west exit, worked out through trial and error starting from mapo noodles. The pairing of a mild soy broth with a spicy sauce is said to have grown from the idea of putting mapo tofu, minus the tofu, onto ramen. In Omiya, a railway junction where people are always passing through, the bowl's spread as something quick to eat that gives you strength is reflected in the \"stamina\" of its name.",
+      "sources": [
+        {
+          "title": "スタミナラーメン (埼玉)",
+          "url": "https://ja.wikipedia.org/wiki/スタミナラーメン_(埼玉)",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "埼玉スタミナラーメン完全ガイド｜歴史・9店舗・レシピ",
+          "url": "https://shop.onlyone-marumen.com/%E5%9F%BC%E7%8E%89%E3%82%B9%E3%82%BF%E3%83%9F%E3%83%8A%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3%E5%AE%8C%E5%85%A8%E3%82%AC%E3%82%A4%E3%83%89%EF%BD%9C%E6%AD%B4%E5%8F%B2%E3%83%BB9%E5%BA%97%E8%88%97%E3%83%BB/",
+          "publisher": "マルメン製麺所",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "to_slug": "hitachinaka-stamina",
+          "relation_type": "対比",
+          "basis": "同じ「スタミナラーメン」の名を持つが、埼玉のものは醤油だれの豆板醤あんかけ、茨城のものは冷めた太麺に甘辛あんをかける形で、発祥地も作り方も別系統とされる"
+        }
+      ],
+      "tags": [
+        "soy_sauce",
+        "spicy",
+        "pork"
+      ]
+    },
+    {
+      "slug": "iwatsuki-tofu",
+      "name_ja": "豆腐ラーメン",
+      "name_romaji": "Toufu Ramen",
+      "name_en": "Toufu Ramen — a gentle soy broth topped with tofu and minced pork from Iwatsuki",
+      "type": "dish",
+      "shelf": "noodles",
+      "genre": "ramen",
+      "origin_pref": "埼玉県",
+      "origin_city": "さいたま市岩槻区",
+      "lat": 35.9509,
+      "lng": 139.6931,
+      "primary_style": "醤油",
+      "summary_ja": "岩槻城址公園の食堂で、まかない料理から生まれたとされる豆腐ラーメン。鶏がらのあっさり醤油スープに、豆腐と豚ひき肉を合わせた餡がとろりとかかり、辛味を抑えたやさしい味に仕立てられている。",
+      "summary_en": "Said to have started as a cook's staff meal at a restaurant in Iwatsuki Castle Ruins Park, this tofu ramen sits in a light chicken-based soy broth, topped with a gently thickened sauce of tofu and ground pork, kept mild rather than spicy.",
+      "body_ja": "## 何でできているか\n鶏がらベースのあっさりとした醤油スープに、ひし形に切った絹ごし豆腐と豚ひき肉を醤油で合わせた餡がとろりとかかる。豆腐は崩れにくいよう特注で切られ、とろとろとした舌ざわりを保ったまま丼に沈む。豆板醤は使わず、ラー油もごく控えめで、麻婆豆腐のような辛さはほとんど感じない。麺は中太から中細のちぢれ麺で、わかめとネギが彩りを添える。\n## どう作るのか\n特注の絹ごし豆腐をひし形に切り、煮崩れる直前で餡に加える。餡は豆腐と豚ひき肉を醤油ベースでまとめ、辛みをつけずに仕上げるのが決め手とされる。辛みを抑える判断は、子どもから年配の客まで幅広く食べてもらいたいという当初からの狙いに沿ったものだったとされる。発祥の食堂では、まかない料理として作られていた一品を店の創業者が試食し、そのまま商品化を決めたと伝わる。当初は「豆腐そば」と呼ばれていたという。\n## なぜこの形になったのか\n一説によると、1970年、岩槻城址公園内の食堂で働いていた中華担当の料理人が、自分のまかないとして作っていた豆腐料理を一杯のラーメンに仕立て直したのが始まりという。まかないという店の裏側の食事が、そのまま看板メニューへ昇格した経緯は、この店の食堂文化の懐の深さを物語っているとも言える。城下町として発展した岩槻の食堂文化の中で、素朴な思いつきがそのまま何十年も続く一杯に育った例といえる。",
+      "body_en": "## What it's made of\nA light, chicken-based soy broth is topped with a glossy sauce of diamond-cut silken tofu and ground pork bound in soy. The tofu is cut to a custom order so it holds together, settling into the bowl with a soft, slippery texture intact. No doubanjiang is used, and chili oil appears only for a trace of aroma, so it carries almost none of mapo tofu's heat. The noodle is a medium to medium-thin curly one, with wakame and scallion for color.\n## How it's made\nCustom-order silken tofu is cut into diamonds and added to the sauce just before it would fall apart. The sauce binds tofu and ground pork in a soy base, and keeping it mild rather than spicy is said to be the key decision — one said to follow the original aim of making a bowl that children and elderly diners alike could enjoy. At the founding restaurant, the dish is said to have started as a staff meal one of the cooks made for himself, until the restaurant's founder tasted it and decided to put it on the menu — originally under the name \"tofu soba.\"\n## Why it took this shape\nOne account holds that in 1970, a cook handling the Chinese-food side of a restaurant inside Iwatsuki Castle Ruins Park reworked a tofu dish he'd been making for his own staff meal into a bowl of ramen. That a meal meant for the kitchen staff rose straight to the signature dish says something about how open this restaurant's food culture was. Within the diner culture of Iwatsuki, a town that grew up around its castle, a simple, offhand idea is said to have grown into a bowl that has lasted for decades.",
+      "sources": [
+        {
+          "title": "豆腐ラーメン",
+          "url": "https://ja.wikipedia.org/wiki/豆腐ラーメン",
+          "publisher": "Wikipedia",
+          "accessed_at": "2026-09-15"
+        },
+        {
+          "title": "消滅寸前！埼玉・岩槻の幻の名物「豆腐ラーメン」はなぜ50年も愛されているのか",
+          "url": "https://shop.onlyone-marumen.com/豆腐ラーメン/",
+          "publisher": "マルメン製麺所",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "to_slug": "hitachiomiya",
+          "relation_type": "対比",
+          "basis": "どちらも豆腐を主役にしたご当地ラーメンだが、埼玉のものは醤油スープに豚ひき肉入りの豆腐餡、茨城のものは味噌スープに豆腐とネギのみと、系統も具材も異なる"
+        }
+      ],
+      "tags": [
+        "soy_sauce",
+        "pork"
+      ]
+    },
+    {
+      "slug": "ageo-sakekasu",
+      "name_ja": "酒粕味噌ラーメン",
+      "name_romaji": "Sakekasu Miso Ramen",
+      "name_en": "Sakekasu Miso Ramen — a miso broth enriched with sake lees from an Ageo brewery",
+      "type": "dish",
+      "shelf": "noodles",
+      "genre": "ramen",
+      "origin_pref": "埼玉県",
+      "origin_city": "上尾市",
+      "lat": 35.9755,
+      "lng": 139.5934,
+      "primary_style": "味噌",
+      "summary_ja": "上尾市の老舗酒蔵が造る酒粕を、地元の中華料理店の味噌スープに溶かし込んだ冬季限定のラーメン。酒粕のコクと風味が味噌のうまみに重なり、寒い時期に体を温めるまろやかな後味を残す。",
+      "summary_en": "A winter-only ramen from Ageo City, where sake lees from a long-running local brewery are worked into a Chinese restaurant's miso broth. The lees' depth and aroma layer over the miso's savoriness, leaving a mellow finish that warms the body in the cold months.",
+      "body_ja": "## 何でできているか\n店それぞれの味噌スープに酒粕を溶かし込んであり、口に含むと味噌の塩気の奥から酒粕特有の甘い香りとコクが立ちのぼる。仕込みの段階でアルコール分はとばしてあるため、香りは残るものの飲み口は軽い。湯気とともに立ちのぼる香りは日本酒の蔵をのぞいたときのそれに近く、ラーメンでありながら酒どころの気配を漂わせている。味噌単体よりも輪郭がやわらぎ、後味に酒粕らしい上品な甘みが残るのが特徴とされる。\n## どう作るのか\n地元の酒蔵が搾ったあとに残る酒粕を、各店が自慢の味噌スープに合わせて溶き入れる。酒粕の量や溶かし方は店ごとに違うといい、味噌の配合との相性を探りながら仕立てられている。搾りたての酒粕は年により風味が変わるといい、その年ごとの出来を見ながら味噌との配合を微調整する店もあるとされる。11月から3月ごろまでの期間限定で提供され、寒い時期に合わせて体を温める一杯として位置づけられている。\n## なぜこの形になったのか\n一説によると、上尾市に100年以上続く酒蔵が搾りたての酒粕を持つことに目をつけ、地元の商工会議所と中華料理店が組んで商品化を進めたのが始まりという。酒粕は本来なら副産物として扱われがちな存在で、それを主役の一つに引き上げた点に、地元の資源を無駄にしない工夫がうかがえる。酒どころとしての土地の資源を、ラーメンという日常の一杯に落とし込んだ発想が、この組み合わせを生んだと考えられる。",
+      "body_en": "## What it's made of\nEach shop's own miso broth has sake lees worked into it, so beneath the miso's saltiness rises the lees' distinctive sweet aroma and depth. The alcohol is cooked off during preparation, so the scent remains while the broth drinks light. The aroma rising with the steam is close to what you'd catch peeking into a sake brewery — a ramen that still carries a trace of sake country about it. Against plain miso, the edges soften, and what's said to linger is a refined sweetness particular to sake lees.\n## How it's made\nSake lees left over after a local brewery presses its sake are worked by each shop into its own prized miso broth. The amount of lees and how they're dissolved in are said to differ shop to shop, worked out through trial against each broth's own miso blend. Freshly pressed lees are said to vary in character year to year, and some shops are said to fine-tune the miso blend against that year's batch. It's served only from around November to March, positioned as a bowl to warm the body through the cold months.\n## Why it took this shape\nOne account holds that it began when a brewery with more than a century of history in Ageo was found to have fresh-pressed sake lees on hand, and the local chamber of commerce and Chinese restaurants teamed up to turn that into a product. Sake lees are usually treated as a byproduct, and elevating them into one of the bowl's leading players speaks to a determination not to let a local resource go to waste. Putting a sake town's own resource into an everyday bowl of ramen is thought to be the idea that produced this pairing.",
+      "sources": [
+        {
+          "title": "あげお酒粕味噌らーめん",
+          "url": "https://www.ageocci.or.jp/sakekasu/",
+          "publisher": "上尾商工会議所",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "to_slug": "kome-miso",
+          "relation_type": "使用食材",
+          "basis": "酒粕を溶かし込むベースになる味噌スープの味噌"
+        }
+      ],
+      "tags": [
+        "miso",
+        "fermented"
+      ]
+    },
+    {
+      "slug": "tsurugashima-cha",
+      "name_ja": "茶らーめん",
+      "name_romaji": "Cha Ramen",
+      "name_en": "Cha Ramen — noodles kneaded with Sayama tea from Tsurugashima",
+      "type": "dish",
+      "shelf": "noodles",
+      "genre": "ramen",
+      "origin_pref": "埼玉県",
+      "origin_city": "鶴ヶ島市",
+      "lat": 35.9505,
+      "lng": 139.4025,
+      "primary_style": "塩",
+      "summary_ja": "狭山茶の産地・鶴ヶ島市で、茶葉の粉末を麺に練り込んだご当地ラーメン。淡い緑色の麺は噛んだ瞬間に茶の香りが立ち、渋みを抑えた塩味や薄口醤油のスープがその香りを引き立てる。",
+      "summary_en": "In Tsurugashima, a Sayama tea-growing area, powdered tea leaf is kneaded into the noodles for this local ramen. The pale green noodle releases the scent of tea the moment you bite in, set off by a light, low-tannin salt or thin-soy broth.",
+      "body_ja": "## 何でできているか\n麺は狭山茶の粉末を小麦粉に混ぜて打たれており、淡い緑色をしている。すすると渋みよりも先に茶葉の香ばしさがふわりと鼻に抜け、噛みしめるとほのかな旨みが残る。スープは麺の香りを邪魔しないよう、濃厚な豚骨は避けられ、塩味や薄口醤油をベースにした軽めの仕立てが選ばれることが多い。具はチャーシューやメンマ、ネギなど比較的簡素にまとめられている。\n## どう作るのか\n茶葉を粉末にしてから小麦粉に混ぜ込み、通常の中華麺と同じ工程で打つ。渋みが強く出すぎないよう配合を調整するのが難しいところとされ、店によっては仕上げに柚子の皮や刻んだ茶葉を添えて香りを重ねる。地元の茶業者と飲食店が結びつく形で作られており、単独の一軒に限らず複数の店がそれぞれ独自の配合で提供している。\n## なぜこの形になったのか\n一説によると、地域特産の狭山茶をもっと日常の食に取り入れられないかという考えから、麺に直接練り込む方法が探られたのが始まりという。茶葉を飲むだけでなく麺として食べる形に変えたことで、産地の外へも持ち出しやすい土産物としての顔を持つようになったとされる。茶葉の生産地としての鶴ヶ島という土地の資源を、飲むものだけでなく食べるものに広げた例で、蕎麦の世界にすでにある茶そばと同じ発想を中華麺に応用した形といえる。",
+      "body_en": "## What it's made of\nThe noodle is worked from wheat flour mixed with powdered Sayama tea, giving it a pale green color. What reaches the nose first on a slurp isn't bitterness but the toasty scent of the tea leaf, with a faint savoriness lingering after each bite. So as not to fight the noodle's aroma, rich pork-bone broth is avoided; a lighter salt or thin-soy base is more often chosen. Toppings stay simple — char siu, menma, and scallion.\n## How it's made\nTea leaves are ground to powder and worked into wheat flour, then made into noodles by the same process as ordinary Chinese noodles. Keeping the bitterness from coming through too strongly is said to be the hard part of getting the blend right, and some shops finish the bowl with yuzu peel or chopped tea leaf layered on top for extra aroma. The dish grew out of ties between local tea growers and restaurants, so rather than one single shop, several each serve their own take.\n## Why it took this shape\nOne account holds that it began with wanting to work Sayama tea, the area's local specialty, further into everyday eating, leading to the idea of kneading it straight into the noodle. Turning tea leaf into something eaten rather than only drunk is said to have given it a second life as a souvenir that travels beyond the growing area. It stands as an example of putting Tsurugashima's identity as a tea-growing area to use in something eaten as well as drunk — the same idea already found in cha-soba, here applied to Chinese noodles instead.",
+      "sources": [
+        {
+          "title": "「茶ラーメン」＠鶴ヶ島市",
+          "url": "https://ramen.gokigen-life.com/2026/02/14/post-17063/",
+          "publisher": "ご機嫌なラーメン食道（個人ブログ）",
+          "accessed_at": "2026-09-15"
+        }
+      ],
+      "relations": [
+        {
+          "to_slug": "cha-soba",
+          "relation_type": "兄弟",
+          "basis": "茶葉を麺に練り込むという同じ着想の親戚で、蕎麦と中華麺というジャンルが異なる"
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "notes": "台帳: /Users/tanakaryouta/workspace/ia-miracolo/itadaki-atlas/data/ledgers/ramen-kyokai-master.json の missing のうち、担当ブロック（茨城県・栃木県・群馬県・千葉県・埼玉県）に該当する12件すべてを収録。対象外にしたものはなし。\n\n台帳の city_hint 修正点:\n- 夕顔ラーメン: 台帳は「鹿沼市周辺」だが、出典（FM栃木・Travel Watch）によれば栃木市内13店舗の夕顔ラーメン会が中心で、実際の主産地・提供地は栃木市。origin_cityは栃木市とした。\n- スタミナラーメン(埼玉): 台帳はcity_hint空欄。Wikipedia disambiguationおよびマルメン製麺所の記事により、発祥は大宮駅西口（さいたま市大宮区）の「漫々亭」（1976年頃）と確認。\n- 豆腐ラーメン(埼玉): 台帳はcity_hint空欄。Wikipedia「豆腐ラーメン」記事により、発祥は岩槻城址公園内の食堂（さいたま市岩槻区、1970年）と確認。\n- 酒粕味噌ラーメン: 台帳はcity_hint空欄。上尾商工会議所の公式ページにより上尾市と確認。\n- 茶らーめん: 台帳は「狭山市周辺」だが、Wikipedia「ご当地ラーメン」記事の表および個人ブログの記事により、実際の発祥・提供地は鶴ヶ島市（狭山茶の産地）。origin_cityは鶴ヶ島市とした。\n\n出典についての付記:\n- 東毛手延べラーメン（群馬県）と茶らーめん（埼玉県鶴ヶ島市）は、自治体・観光協会・商工会議所等の公式ページを探したが、ラーメンそのものに直接言及する公式ページが見つからなかった。東毛手延べラーメンは「ご当地麺を食べよう」（個人ブログ）と「擂り粉木日記」（個人ブログ）、茶らーめんは「ご機嫌なラーメン食道」（個人ブログ）を出典として使用。鶴ヶ島市茶業協会（tsurucha.jp）・鶴ヶ島市商工会（turugasima.or.jp）等の公式ページは確認したが、狭山茶そのものの説明にとどまり茶らーめんへの言及はなかったため採用を見送った。\n- 船橋ソースラーメンとスタミナラーメン(埼玉大宮)は、自治体・観光協会レベルの公式ページが見つからず、Wikipedia（脚注に産経新聞・日本経済新聞等の一次報道あり）をメイン出典とした。スタミナラーメンはマルメン製麺所の記事で補強。\n- 概要・本文で使用した出典にWikipediaを含む項目（水戸藩ラーメン・アリランラーメン・船橋ソースラーメン・もばらーめん・ホワイトガウラーメン・スタミナラーメン・豆腐ラーメン）は、可能な範囲で自治体公式サイト（観光いばらき、ちば観光ナビ、茂原市観光協会等）や商工会議所ページで裏取り・補強した。\n\n格付け語について:\n- 出典には「4大ご当地ラーメンに認定」（豆腐みそラーメン）「埼玉B級ご当地グルメ王決定戦で2度優勝」（豆腐ラーメン）「袖-1グランプリ優勝」（ホワイトガウラーメン）等の記述があったが、格付け・受賞に類する情報のため本文・概要には一切反映していない。"
+}
