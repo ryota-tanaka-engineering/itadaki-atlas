@@ -9,19 +9,19 @@
      "url": "https://www.kasaoka-kankou.jp/ramen",
      "title": "笠岡ラーメン",
      "publisher": "笠岡観光WEB（一般社団法人笠岡市観光協会）",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://www.hotpepper.jp/mesitsu/entry/yousuke-asano/2019-00064",
      "title": "あえてカシワ＝老鶏を使う『笠岡ラーメン』に全国のラヲタが熱い視線を送る理由",
      "publisher": "メシ通（リクルート）",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://dancyu.jp/read/2020_00002813.html",
      "title": "ご当地ラーメンの絶滅危惧種？笠岡ラーメンを初体験！",
      "publisher": "dancyu（プレジデント社）",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     }
    ],
    "relations": [
@@ -42,19 +42,19 @@
      "url": "https://katsutan.jp/",
      "title": "勝浦タンタンメン企業組合 公式サイト",
      "publisher": "勝浦タンタンメン企業組合",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://maruchiba.jp/gourmet/feature/detail_148.html",
      "title": "勝浦タンタンメンとは？定義や歴史",
      "publisher": "ちば観光ナビ（千葉県公式観光サイト）",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://www.katsuura-kankou.net/eat/",
      "title": "食べる",
      "publisher": "勝浦市観光協会",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     }
    ],
    "relations": [
@@ -75,19 +75,19 @@
      "url": "https://new-tantan.jp/concept/",
      "title": "ニュータンタンメンとは",
      "publisher": "元祖ニュータンタンメン本舗（株式会社みなもと）",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://www.hotpepper.jp/mesitsu/entry/kekkojin/18-00052",
      "title": "川崎で独自進化した『ニュータンタンメン』が全国に向け進撃中",
      "publisher": "メシ通（リクルート）",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://www.kanaloco.jp/news/life/article-984175.html",
      "title": "ニュータンタンメンのカップ麺 川崎市との限定コラボ登場",
      "publisher": "カナロコ（神奈川新聞）",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     }
    ],
    "relations": [
@@ -141,19 +141,19 @@
      "url": "https://www.kanko-koriyama.gr.jp/assets/files/pamphlet/33.pdf",
      "title": "郡山ブラック手帖",
      "publisher": "一般社団法人郡山市観光協会",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://www.kanko-koriyama.gr.jp/tourism/detail3-1-319.html",
      "title": "【ラーメン】郡山ブラック",
      "publisher": "一般社団法人郡山市観光協会",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://www.bunka.go.jp/seisaku/shokubunka/foodculture/hyakunenfood/jirei/list_fukushima.html",
      "title": "福島県 地方別100年フード一覧",
      "publisher": "文化庁",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     }
    ],
    "relations": []
@@ -233,13 +233,13 @@
      "url": "https://www.kushiro-ramen.com/history",
      "title": "釧路ラーメンの歴史",
      "publisher": "釧路ラーメン麺遊会",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://www.visit-hokkaido.jp/spot/detail_12823.html",
      "title": "釧路ラーメン",
      "publisher": "【公式】北海道の観光・旅行情報サイト HOKKAIDO LOVE!",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     }
    ],
    "relations": [
@@ -280,13 +280,13 @@
      "url": "https://aomori-tourism.com/feature/detail_205.html",
      "title": "青森市民のソウルフード「味噌カレー牛乳ラーメン」",
      "publisher": "【公式】青森県観光情報サイト Amazing AOMORI",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://aomori-tourism.com/spot/detail_1904.html",
      "title": "味噌カレー牛乳ラーメン",
      "publisher": "【公式】青森県観光情報サイト Amazing AOMORI",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     }
    ],
    "relations": []
@@ -300,13 +300,13 @@
      "url": "https://kankou385.jp/spots/tarahuku/",
      "title": "多良福",
      "publisher": "宮古観光文化交流協会",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://kankou385.jp/kankoumap/",
      "title": "三陸宮古ラーメンマップ",
      "publisher": "宮古観光文化交流協会",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     }
    ],
    "relations": []
@@ -320,13 +320,13 @@
      "url": "https://www.miyazaki-city.tourism.or.jp/feature/miyazaki_noodle",
      "title": "宮崎の麺特集｜辛麺・トマト麺・宮崎ラーメン・お土産麺まで",
      "publisher": "【公式】宮崎市観光サイト",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://www.kanko-miyazaki.jp/gourmet/men",
      "title": "宮崎県の「麺」特集",
      "publisher": "宮崎県公式観光サイト「みやざき観光ナビ」",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     }
    ],
    "relations": []
@@ -340,19 +340,19 @@
      "url": "http://muro-kanko.com/eat-buy/curry_ramen.html",
      "title": "室蘭カレーラーメン",
      "publisher": "おっと！むろらん（室蘭観光推進連絡会議）",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://www.muroran-curryramen.com/?page_id=455",
      "title": "室蘭カレーラーメンとは？",
      "publisher": "室蘭カレーラーメンの会",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://www.city.muroran.lg.jp/faq/detail.html?content=165",
      "title": "室蘭カレーラーメンを食べられるお店を教えてください",
      "publisher": "室蘭市",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     }
    ],
    "relations": []
@@ -366,19 +366,19 @@
      "url": "https://sta2020.com/susaki_gourmet/nabeyaki_ra-men/",
      "title": "須崎名物 鍋焼きラーメン",
      "publisher": "須崎市観光協会",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://shikoku-tourism.com/feature/nabeyakiramen/nabeyakiramen",
      "title": "高知県須崎市で生まれたソウルフード！「鍋焼きラーメン」の魅力",
      "publisher": "【公式】ツーリズム四国",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     },
     {
      "url": "https://www.raumen.co.jp/shop/taniguchi.html",
      "title": "高知・須崎「谷口食堂」",
      "publisher": "新横浜ラーメン博物館",
-     "status_checked": 200
+     "accessed_at": "2026-09-02"
     }
    ],
    "relations": []
