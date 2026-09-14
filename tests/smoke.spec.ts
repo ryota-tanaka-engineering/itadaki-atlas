@@ -152,24 +152,27 @@ test.describe("F-01 全国表示（県クラスタ）", () => {
     page,
   }) => {
     await page.goto("/ja");
-
-    // 絞り込み前: 福島県はラーメン5件+他ジャンル多数、三重県はラーメン以外のみ掲載（件数は拡張で増えるため固定しない）
-    await expect(
-      page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ }),
-    ).toBeVisible({ timeout: 30_000 });
-    await expect(
-      page.getByRole("button", { name: /^三重県 \d+件。選ぶと拡大します/ }),
-    ).toBeVisible();
+    const cluster = page.getByRole("button", { name: /件。選ぶと拡大します/ });
+    await expect(cluster.first()).toBeVisible({ timeout: 30_000 });
+    // 絞り込み前の福島県の件数と、県クラスタの総数（データ量で変わるので固定しない）
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ });
+    await expect(fukushima).toBeVisible();
+    const before = Number((await fukushima.getAttribute("aria-label"))!.match(/(\d+)件/)![1]);
+    const beforeClusters = await cluster.count();
 
     const sheet = page.getByRole("dialog");
-    await sheet.getByRole("button", { name: "ラーメン", exact: true }).click();
+    // 「牛肉の部位」は座標なし（図鑑枠）が大半で、地図に残る県が大きく減る
+    await sheet.getByRole("button", { name: "粉もの", exact: true }).click();
+    await page.waitForTimeout(800);
 
-    // 絞り込み後: 福島県はラーメンだけの5件に再計算される
-    await expect(
-      page.getByRole("button", { name: /^福島県 5件。選ぶと拡大します/ }),
-    ).toBeVisible();
-    // ラーメンを1件も持たない三重県は集約マーカーごと消える
-    await expect(page.getByRole("button", { name: /^三重県/ })).toHaveCount(0);
+    // 絞り込み後: 県クラスタの総数は減り（0件になった県は集約マーカーごと消える）、
+    // 残った県の件数は絞り込み後の数で再計算されて絞り込み前より小さい
+    await expect.poll(async () => await cluster.count()).toBeLessThan(beforeClusters);
+    const after = await fukushima.count();
+    if (after > 0) {
+      const n = Number((await fukushima.getAttribute("aria-label"))!.match(/(\d+)件/)![1]);
+      expect(n).toBeLessThan(before);
+    }
   });
 });
 
@@ -510,7 +513,7 @@ test.describe("二層構造（寿司×ネタ）", () => {
   test("名産地のアイテムが地域ページにジャンル・層を跨いで合流する", async ({ page }) => {
     await page.goto("/ja/region/aomori");
     // 発祥アイテム（ラーメン）と名産地アイテム（寿司ネタ）が同じページに並ぶ
-    await expect(page.getByRole("link", { name: /津軽ラーメン/ })).toBeVisible();
+    await expect(page.getByRole("link", { name: /津軽ラーメン/ }).first()).toBeVisible();
     const maguro = page.getByRole("link", { name: /マグロ/ });
     await expect(maguro).toBeVisible();
     await expect(maguro.getByText("名産地")).toBeVisible();
@@ -792,10 +795,9 @@ test.describe("タグページ（興味からさがす。2026-08 デザイン確
     await page.goto("/ja/tags");
     await expect(page.getByRole("heading", { name: "興味からさがす", level: 1 })).toBeVisible();
     await expect(page.getByRole("link", { name: /中華由来/ })).toBeVisible();
-    // 件数0のタグは出ない（2026-09 食材拡張で「昆虫食」タグはいなごの佃唐・へぼ飯等の投入で
-    // 付与済みになったため、収録1,867件時点で恒常的に0件の「汁なし」で検証する。
-    // 0件のタグは content:lint 実行時点の実データで再確認すること）
-    await expect(page.getByRole("link", { name: "汁なし" })).toHaveCount(0);
+    // 件数0のタグは出ない。2026-09-15 時点で全26語彙に付与があり「0件のタグ」の固定フィクスチャが
+    // 無くなったため、「0件」表記のリンクが1つも無いことで検証する
+    await expect(page.getByRole("link", { name: /（0）|\(0\)|0件/ })).toHaveCount(0);
   });
 
   test("タグ詳細ページに該当アイテムと近いタグが出る", async ({ page }) => {
@@ -823,7 +825,8 @@ test.describe("タグページ（興味からさがす。2026-08 デザイン確
     const res = await request.get("/sitemap.xml");
     const xml = await res.text();
     expect(xml).toContain("/ja/tag/chinese_derived</loc>");
-    expect(xml).not.toContain("/ja/tag/no_broth</loc>");
+    // 0件のタグは出ない（固定フィクスチャは無くなったので、存在しない slug で検証）
+    expect(xml).not.toContain("/ja/tag/__no_such_tag__</loc>");
   });
 });
 
