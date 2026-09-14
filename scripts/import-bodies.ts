@@ -127,8 +127,11 @@ async function main() {
       }
     }
 
+    // 出典は「置き換え」で扱う（差し替え時に旧出典＝Wikipedia 等が残らないよう、先に全削除）
+    if (it.sources.length > 0) {
+      await db.from("food_item_sources").delete().eq("food_item_id", foodItemId);
+    }
     for (const s of it.sources) {
-      await db.from("food_item_sources").delete().eq("food_item_id", foodItemId).eq("url", s.url);
       const { error: se } = await db.from("food_item_sources").insert({
         food_item_id: foodItemId,
         title: s.title,
