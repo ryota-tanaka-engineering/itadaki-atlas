@@ -1,389 +1,383 @@
 {
-  "items": [
+ "items": [
+  {
+   "slug": "ogikubo",
+   "name_ja": "荻窪ラーメン",
+   "name_romaji": "Ogikubo Ramen",
+   "name_en": "Ogikubo Ramen — a clear soy sauce ramen from a Tokyo shop row",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "東京都",
+   "origin_city": "杉並区荻窪",
+   "lat": 35.7043,
+   "lng": 139.6199,
+   "primary_style": "醤油",
+   "summary_ja": "鰹節や煮干しの和風だしに濃口醤油だれを合わせた、澄んだ琥珀色のスープが特徴。そば屋からの転業組が多かったといい、和風だしの技術がそのままラーメンに持ち込まれたと伝わる。中細のまっすぐな麺が軽やかにスープを持ち上げる。",
+   "summary_en": "A clear amber broth built on bonito and dried-sardine dashi with dark soy sauce tare, said to trace back to soba shops that switched trades and carried their stock-making straight into ramen, lifted by straight, medium-thin noodles.",
+   "body_ja": "## 何でできているか\n鰹節と煮干しをきかせた和風だしに、濃口醤油だれを合わせた琥珀色の澄んだスープが基本になっている。動物系の脂はごく控えめで、ひと口含むと魚介の香りが鼻へ抜ける。中細のまっすぐな麺はコシを保ちながらもすっと喉を通り、スープの透明感を壊さない。チャーシュー、メンマ、ナルト、刻みネギとシンプルな具がのり、引き算の効いた一杯にまとまっている。\n\n## どう作るのか\nそば屋から商売替えした店が多かったからだという説があり、かつお節や昆布でだしを引く和風の技術が、そのままラーメンのスープ作りに持ち込まれたと伝わる。動物系のガラよりも魚介の乾物にたよるため、ぐらぐら長時間煮込むよりも雑味を出さないよう火加減を抑えて引く店が多いという。麺も自家製で細めに仕立て、澄んだスープに合わせて茹で加減を短くする店が多いとされる。\n\n## なぜこの形になったのか\n青梅街道沿いというかつての街道筋に、そば屋出身の店が並んで根を張ったことが、この澄んだ和風スープの背景にあると言われる。同じ通りに個性の違う店がひしめいたことで、互いに一杯の完成度を磨き合う土壌が生まれたとも語られる。魚介と醤油という素朴な組み合わせが今も守られているのは、土地に染みついたそば屋の手仕事が土台にあるからだと読める。",
+   "body_en": "## What it's made of\nThe broth is built on bonito and dried-sardine dashi finished with a dark soy sauce tare, coming out a clear amber with almost no visible animal fat — the first thing you notice is seafood aroma rather than richness. Straight, medium-thin noodles keep their bite while sliding through easily, never clouding the broth's clarity. Toppings stay spare: char siu, bamboo shoot, fish cake, and scallion, each bowl built by subtraction rather than addition.\n\n## How it's made\nMany of the shops are said to have started out as soba restaurants, and the Japanese dashi technique — drawing stock from bonito flake and kelp — is said to have carried straight over into ramen-making. Because the broth leans on dried seafood rather than animal bone, cooks are said to hold the flame low rather than boil hard, so the stock doesn't turn cloudy. Noodles are typically house-made and cut thin, boiled briefly to match the clear broth.\n\n## Why it took this shape\nThe clear, Japanese-style broth is said to trace back to former soba shops that put down roots side by side along the old Ome Kaido road. With shops of different character crowded onto the same street, they are said to have sharpened each other's bowls by proximity. That the plain pairing of seafood and soy sauce still holds today reads as a legacy of the soba-maker's hand that the neighborhood never quite let go of.",
+   "sources": [
     {
-      "slug": "ogikubo",
-      "name_ja": "荻窪ラーメン",
-      "name_romaji": "Ogikubo Ramen",
-      "name_en": "Ogikubo Ramen — a clear soy sauce ramen from a Tokyo shop row",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "東京都",
-      "origin_city": "杉並区荻窪",
-      "lat": 35.7043,
-      "lng": 139.6199,
-      "primary_style": "醤油",
-      "summary_ja": "鰹節や煮干しの和風だしに濃口醤油だれを合わせた、澄んだ琥珀色のスープが特徴。そば屋からの転業組が多かったといい、和風だしの技術がそのままラーメンに持ち込まれたと伝わる。中細のまっすぐな麺が軽やかにスープを持ち上げる。",
-      "summary_en": "A clear amber broth built on bonito and dried-sardine dashi with dark soy sauce tare, said to trace back to soba shops that switched trades and carried their stock-making straight into ramen, lifted by straight, medium-thin noodles.",
-      "body_ja": "## 何でできているか\n鰹節と煮干しをきかせた和風だしに、濃口醤油だれを合わせた琥珀色の澄んだスープが基本になっている。動物系の脂はごく控えめで、ひと口含むと魚介の香りが鼻へ抜ける。中細のまっすぐな麺はコシを保ちながらもすっと喉を通り、スープの透明感を壊さない。チャーシュー、メンマ、ナルト、刻みネギとシンプルな具がのり、引き算の効いた一杯にまとまっている。\n\n## どう作るのか\nそば屋から商売替えした店が多かったからだという説があり、かつお節や昆布でだしを引く和風の技術が、そのままラーメンのスープ作りに持ち込まれたと伝わる。動物系のガラよりも魚介の乾物にたよるため、ぐらぐら長時間煮込むよりも雑味を出さないよう火加減を抑えて引く店が多いという。麺も自家製で細めに仕立て、澄んだスープに合わせて茹で加減を短くする店が多いとされる。\n\n## なぜこの形になったのか\n青梅街道沿いというかつての街道筋に、そば屋出身の店が並んで根を張ったことが、この澄んだ和風スープの背景にあると言われる。同じ通りに個性の違う店がひしめいたことで、互いに一杯の完成度を磨き合う土壌が生まれたとも語られる。魚介と醤油という素朴な組み合わせが今も守られているのは、土地に染みついたそば屋の手仕事が土台にあるからだと読める。",
-      "body_en": "## What it's made of\nThe broth is built on bonito and dried-sardine dashi finished with a dark soy sauce tare, coming out a clear amber with almost no visible animal fat — the first thing you notice is seafood aroma rather than richness. Straight, medium-thin noodles keep their bite while sliding through easily, never clouding the broth's clarity. Toppings stay spare: char siu, bamboo shoot, fish cake, and scallion, each bowl built by subtraction rather than addition.\n\n## How it's made\nMany of the shops are said to have started out as soba restaurants, and the Japanese dashi technique — drawing stock from bonito flake and kelp — is said to have carried straight over into ramen-making. Because the broth leans on dried seafood rather than animal bone, cooks are said to hold the flame low rather than boil hard, so the stock doesn't turn cloudy. Noodles are typically house-made and cut thin, boiled briefly to match the clear broth.\n\n## Why it took this shape\nThe clear, Japanese-style broth is said to trace back to former soba shops that put down roots side by side along the old Ome Kaido road. With shops of different character crowded onto the same street, they are said to have sharpened each other's bowls by proximity. That the plain pairing of seafood and soy sauce still holds today reads as a legacy of the soba-maker's hand that the neighborhood never quite let go of.",
-      "sources": [
-        {
-          "title": "杉並区のラーメン店紹介",
-          "url": "https://www.suginamigaku.org/corner/gourmet/ramen/",
-          "publisher": "すぎなみ学倶楽部（杉並区公式情報サイト）",
-          "accessed_at": "2026-09-13"
-        },
-        {
-          "title": "荻窪ラーメン",
-          "url": "https://ja.wikipedia.org/wiki/荻窪ラーメン",
-          "publisher": "Wikipedia（最終手段）",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "koikuchi-shoyu",
-          "relation_type": "使用食材",
-          "basis": "和風だしに濃口醤油だれを合わせる"
-        }
-      ],
-      "tags": [
-        "soy_sauce"
-      ]
-    },
-    {
-      "slug": "aburasoba",
-      "name_ja": "油そば",
-      "name_romaji": "Abura Soba",
-      "name_en": "Abura Soba — noodles tossed in oil and soy sauce, no broth",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "東京都",
-      "origin_city": "武蔵野市",
-      "lat": 35.7043,
-      "lng": 139.5703,
-      "primary_style": "その他",
-      "summary_ja": "スープを張らず、丼の底にためた醤油だれとごま油を麺にからめて食べる。武蔵野地区の店が昭和30年代に売り出したのが始まりと伝わり、酢とラー油を足して味を変えながら食べ進める。",
-      "summary_en": "No broth is poured at all — noodles are tossed in a soy-and-sesame-oil tare pooled at the bottom of the bowl, said to have started at shops in the Musashino area in the late 1950s, with vinegar and chili oil stirred in partway through.",
-      "body_ja": "## 何でできているか\n丼の底には醤油だれとごま油だけがたまっていて、スープは一滴も張らない。そこへ熱い麺を投入し、よく混ぜて絡めて食べる。刻みねぎ、メンマ、チャーシュー、温泉卵などをのせ、途中で酢とラー油を足すと、脂っぽさが軽くなり別の一杯のように味が変わる。麺はやや太めの中太麺を使う店が多く、たれをしっかり持ち上げる。\n\n## どう作るのか\nスープを一切引かないぶん、たれの配合がそのまま味の骨格になるという。醤油、ごま油、化学調味料や香味油を店ごとの比率で合わせ、そこに湯切りしたての熱い麺を加えて手早く和えるのが基本の作り方と伝わる。スープを炊く手間がかからないため、屋台や小さな店でも出しやすい一杯として広まったとも語られる。仕込みに大きな鍋も長い煮込み時間もいらないぶん、開業のハードルが低かったことも広がりを後押ししたという。\n\n## なぜこの形になったのか\n武蔵野地区の学生街や住宅街で、昭和30年代前半に売り出されたのが始まりという説がある。のびてしまったラーメンを何とか食べやすくする工夫や、中国の拌麺（バンミエン）を参考にしたという説など、由来は一つに定まっていない。いずれにせよ、スープを炊かずに安く早く出せるという実利が、油そばという形を後押ししたと読める。",
-      "body_en": "## What it's made of\nThe bowl holds only soy sauce tare and sesame oil pooled at the bottom — no broth is poured in at all. Hot noodles go straight in and get tossed thoroughly to coat. Scallion, bamboo shoot, char siu, and a hot-spring egg are typical toppings, and stirring in vinegar and chili oil partway through lightens the richness and makes the bowl taste almost like a second dish. Many shops use slightly thick, medium noodles built to carry the tare.\n\n## How it's made\nBecause no broth is simmered at all, the tare's ratio is said to be the entire backbone of the flavor. Soy sauce, sesame oil, and a shop's own blend of seasoning or flavored oil are mixed, then hot, freshly drained noodles are tossed in quickly to coat — the basic method, as it's told. Skipping the broth-making step meant the dish could be served from small stalls and shops without much overhead, which is said to have helped it spread.\n\n## Why it took this shape\nOne account places its start in the student and residential streets of the Musashino area in the late 1950s. Stories differ on the trigger — some say it began as a fix for ramen noodles gone soft and overcooked, others point to Chinese ban mian as the model — and no single origin has settled. Either way, the practical appeal of a bowl that needs no simmered broth, cheap and quick to serve, reads as what pushed abura soba into this shape.",
-      "sources": [
-        {
-          "title": "油そば",
-          "url": "https://ja.wikipedia.org/wiki/油そば",
-          "publisher": "Wikipedia（最終手段。自治体・組合等の一次資料が確認できず）",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "koikuchi-shoyu",
-          "relation_type": "使用食材",
-          "basis": "醤油だれとごま油を麺にからめる"
-        }
-      ],
-      "tags": [
-        "no_broth",
-        "soy_sauce"
-      ]
-    },
-    {
-      "slug": "tsukemen",
-      "name_ja": "つけ麺",
-      "name_romaji": "Tsukemen",
-      "name_en": "Tsukemen — thick noodles dipped in a concentrated broth",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "東京都",
-      "origin_city": "中野区",
-      "lat": 35.7075,
-      "lng": 139.665,
-      "primary_style": "醤油",
-      "summary_ja": "太く弾力のある麺を、酸味と甘みをきかせた濃い醤油だれのつけ汁にくぐらせて食べる。中野の大勝軒で賄い料理として生まれ、麺を大盛りにして見栄えよく出したのが始まりと伝わる。",
-      "summary_en": "Thick, springy noodles are dipped into a concentrated soy sauce sauce built on sweetness and acidity, said to have started as staff-meal food at a shop in Nakano before being served to customers as an oversized, showy portion.",
-      "body_ja": "## 何でできているか\n麺とつけ汁が別々の器で出てくる。麺は太くもちもちとした弾力があり、冷水でしめてあるので歯ごたえが強い。つけ汁は醤油だれに動物系や魚介のだしを合わせた濃い味で、酢と砂糖の酸味と甘みがきいている。麺を汁にくぐらせて一気にすすると、濃い味と冷たい麺のコントラストが際立つ。仕上げに割りスープを注いで飲み干す店も多い。\n\n## どう作るのか\n修業先で余った麺をスープと醤油にひたして食べていた賄い料理が土台になったという。独立した店でこれを客に出したところ好評で、正式なメニューに仕立てたと伝わる。冷やし中華の甘酸っぱさを参考に、つけ汁を酢と砂糖で調味し、麺の量をラーメンより多めにして見栄えを良くしたともいう。麺を大盛りにできるのも、スープを丼いっぱいに張らずに済むこの形だからこそという。\n\n## なぜこの形になったのか\n残った麺を汁にひたして食べるという、修業中のまかない食から生まれたという説が広く語られている。客に出す料理として磨かれる過程で、麺の量や弾力、つけ汁の濃さが誇張され、ラーメンとは別の食べ方として独立していったと読める。麺とつけ汁を分けるという単純な発想が、濃さと量というラーメンにはない軸を生んだ形といえる。",
-      "body_en": "## What it's made of\nThe noodles and dipping broth arrive in separate bowls. The noodles are thick and springy, rinsed in cold water for extra bite. The dipping broth is a concentrated soy sauce base built on animal and seafood stock, seasoned with vinegar and sugar for a sweet-sour edge. Dipping the cold noodles into the hot, concentrated broth and slurping them down creates a sharp contrast between the two. Many shops finish by pouring a diluting broth into the leftover tare to drink.\n\n## How it's made\nThe dish is said to have grown out of a staff meal — leftover noodles dipped in leftover broth and soy sauce during an apprenticeship. Once a shop's owner served this to customers and it caught on, it's said to have been formalized into a proper menu item. Taking a cue from the sweet-and-sour flavor of cold Chinese noodles, the dipping broth was seasoned with vinegar and sugar, and the noodle portion was made larger than a regular bowl of ramen for visual impact — a portion made possible precisely because the broth doesn't have to fill the whole bowl.\n\n## Why it took this shape\nThe widely told account traces it back to a staff meal during apprenticeship — noodles left over from the day, dipped into leftover broth and soy sauce. As it was refined into a dish served to paying customers, the noodle portion, the chew, and the broth's concentration are all said to have been pushed further, until the dish split off as something distinct from ramen. Separating the noodles from the broth — a simple idea — opened up an axis of richness and volume that ordinary ramen doesn't have.",
-      "sources": [
-        {
-          "title": "つけ麺",
-          "url": "https://ja.wikipedia.org/wiki/つけ麺",
-          "publisher": "Wikipedia（最終手段。発祥店の公式サイトが確認できず）",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "koikuchi-shoyu",
-          "relation_type": "使用食材",
-          "basis": "つけ汁は濃口醤油だれが土台"
-        }
-      ],
-      "tags": [
-        "soy_sauce"
-      ]
-    },
-    {
-      "slug": "seabura-chatcha",
-      "name_ja": "背脂ラーメン",
-      "name_romaji": "Seabura Ramen",
-      "name_en": "Seabura Ramen — soy ramen finished with a shower of pork back fat",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "東京都",
-      "origin_city": "",
-      "lat": "",
-      "lng": "",
-      "primary_style": "醤油",
-      "summary_ja": "醤油ラーメンのスープに刻んだ豚の背脂を細かく振りかけ、丼を最後まで熱く保つ。2000年前後の東京で広まったスタイルで、環状七号線沿いの店々が競い合う中で磨かれたと語られる。",
-      "summary_en": "Soy sauce ramen finished with a shower of minced pork back fat that keeps the bowl steaming hot to the last bite, a style said to have taken hold in Tokyo around the turn of the millennium as shops along the Kan-nana ring road competed with each other.",
-      "body_ja": "## 何でできているか\n醤油だれのスープの表面に、刻んだ豚の背脂がびっしりと浮かぶ。脂が蓋のように熱を閉じ込めるため、湯気が立ったまま丼が冷めにくい。麺をすすると脂のコクがまず舌に触れ、そのあとに醤油だれと動物系だしの旨みが追いかけてくる。背脂の量や粒の大きさは店によって振れ幅が大きく、細かく刻んで溶けやすくする店もあれば、粒を残して食感を出す店もあるという。\n\n## どう作るのか\n豚骨や鶏ガラでとった濃いめのだしに醤油だれを合わせ、仕上げに刻んだ背脂を振りかけるのが基本の作り方と伝わる。背脂は別に湯通しして臭みを抜いてから使う店が多いという。スープ自体の温度に加えて、脂の膜で保温するという二段構えの熱さが特徴で、猫舌には食べ進めるのが難しいほど熱いまま出す店もあるとされる。背脂の粒度を店ごとに調整することで、同じ醤油ラーメンでも脂の主張の強さを変えているとも語られる。\n\n## なぜこの形になったのか\n2000年前後の東京で、醤油ラーメンのスープに背脂を浮かべるスタイルが流行したと伝わる。環状七号線沿いに個性の強いラーメン店がひしめき、互いに濃さやインパクトを競い合った時期と重なるという。脂で丼を熱く保つという発想は、寒さ対策というよりも、湯気と香りで食欲を刺激する見た目の演出として磨かれていったと読める。",
-      "body_en": "## What it's made of\nThe surface of a soy sauce broth is covered edge to edge with minced pork back fat. The fat acts like a lid, trapping heat so the bowl stays steaming long after it's served. The richness of the fat hits the tongue first as you slurp the noodles, followed by the savor of the soy tare and animal stock underneath. How much fat goes on, and how finely it's minced, varies widely by shop — some mince it fine so it melts in, others leave it coarse for texture.\n\n## How it's made\nThe basic method, as it's told, is to build a rich pork-bone or chicken-bone stock, season it with soy tare, and finish with a scattering of minced back fat. Many shops are said to blanch the fat separately first to strip out any off odor before using it. On top of the broth's own heat, the fat forms a second, insulating layer — some shops are said to serve it hot enough that even a patient eater struggles to keep up.\n\n## Why it took this shape\nThe style of scattering back fat over soy sauce ramen is said to have caught on in Tokyo around the turn of the millennium. That period is said to overlap with a stretch when strongly individual ramen shops crowded along the Kan-nana ring road, pushing each other toward richer, more forceful bowls. Keeping the bowl hot with a layer of fat reads less as a defense against the cold than as a staged bit of theater — steam and aroma built to stir the appetite before the first bite.",
-      "sources": [
-        {
-          "title": "ご当地ラーメン",
-          "url": "https://ja.wikipedia.org/wiki/ご当地ラーメン",
-          "publisher": "Wikipedia（最終手段。発祥地・発祥店を特定できる自治体・組合資料が確認できず）",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "koikuchi-shoyu",
-          "relation_type": "使用食材",
-          "basis": "醤油だれのスープに背脂を振りかける"
-        }
-      ],
-      "tags": [
-        "soy_sauce",
-        "pork"
-      ]
-    },
-    {
-      "slug": "iekei",
-      "name_ja": "家系ラーメン",
-      "name_romaji": "Iekei Ramen",
-      "name_en": "Iekei Ramen — Yokohama's pork-bone soy ramen finished with chicken fat",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "神奈川県",
-      "origin_city": "横浜市磯子区",
-      "lat": 35.3839,
-      "lng": 139.6303,
-      "primary_style": "豚骨",
-      "summary_ja": "豚骨と鶏ガラを長時間炊いたスープに濃口醤油だれと鶏油を合わせ、太くて短めの麺、ほうれん草と海苔をのせる。1974年に横浜・新杉田で創業した店が源流とされ、工場地帯の働き手の間で広まったと伝わる。",
-      "summary_en": "Pork bone and chicken carcass simmered long and finished with a dark soy tare and chicken fat, paired with thick, short noodles, spinach, and nori — traced to a shop that opened in 1974 in Yokohama's Shinsugita district and is said to have spread among workers in the surrounding industrial zone.",
-      "body_ja": "## 何でできているか\n豚骨と鶏ガラを長く炊いたコク深いスープに、濃口醤油だれと鶏油を合わせる。鶏油が表面を覆うため、見た目以上に熱がこもり、最後まで熱々のまま食べ進められる。麺は太くて短めのストレート麺で、スープをよくまとう。具はチャーシュー、ほうれん草、四角い海苔が定番で、麺の硬さやスープの濃さ、鶏油の量を客が細かく注文できるのも特徴とされる。\n\n## どう作るのか\n宮大工や理容師見習い、長距離トラック運転手など、さまざまな職を経てラーメン店を開いた店主が、東京のラーメン店で3年ほど修業したのちに開業したと伝わる。「九州の豚骨と東京の醤油を合わせたらうまいのではないか」という着想から生まれたという。豚骨と鶏ガラを別々にじっくり炊き、濃口醤油だれと合わせて仕上げるのが基本の作り方とされる。\n\n## なぜこの形になったのか\n創業の地は石川島播磨重工業（現IHI）をはじめとする工場が密集する京浜工業地帯の沿道にあり、そこで働く工場労働者やトラック運転手の間で評判を呼んで広まったと伝わる。体を使う仕事の合間に手早く高カロリーの一杯を食べたいという需要が、濃厚なスープと太い麺、注文でカスタマイズできる仕組みを後押ししたと読める。",
-      "body_en": "## What it's made of\nA deep, long-simmered stock of pork bone and chicken carcass is finished with a dark soy sauce tare and chicken fat. The chicken fat sits over the surface, trapping more heat than the bowl looks like it should hold, so it stays scalding to the last mouthful. The noodles are thick, short, and straight, built to carry the broth. Char siu, spinach, and square sheets of nori are the standard toppings, and customers are known for being able to dial in noodle firmness, broth richness, and the amount of chicken fat to order.\n\n## How it's made\nThe founder is said to have worked as a temple carpenter's apprentice, a barber's trainee, and a long-haul truck driver before training for about three years at a ramen shop in Tokyo and opening his own. The idea, as it's told, was that Kyushu-style pork bone and Tokyo-style soy sauce might taste good combined. The basic method is said to be simmering pork bone and chicken carcass separately and at length, then finishing with the dark soy tare.\n\n## Why it took this shape\nThe shop opened along a stretch of the Keihin industrial belt dense with factories, including what is now IHI, and is said to have built its reputation among the factory workers and truck drivers working there. A demand for a quick, high-calorie bowl to eat between shifts of physical labor reads as what pushed the style toward a rich broth, thick noodles, and a build-to-order system that lets a worker tune the bowl to how hungry, or how rushed, he is.",
-      "sources": [
-        {
-          "title": "「家系総本山」とは",
-          "url": "http://ieke1.com/source/yosimuraya/toha.html",
-          "publisher": "家系総本山 吉村家（公式サイト）",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "koikuchi-shoyu",
-          "relation_type": "使用食材",
-          "basis": "とんこつ・鶏ガラだしに濃口醤油だれを合わせる"
-        },
-        {
-          "to_slug": "yokohama",
-          "relation_type": "兄弟",
-          "basis": "ともに横浜発のラーメンだが系統が異なる"
-        }
-      ],
-      "tags": [
-        "pork",
-        "soy_sauce",
-        "chicken"
-      ]
-    },
-    {
-      "slug": "hiratsuka-tanmen",
-      "name_ja": "平塚系タンメン",
-      "name_romaji": "Hiratsuka-kei Tanmen",
-      "name_en": "Hiratsuka Tanmen — a clear, vinegar-edged vegetable noodle soup",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "神奈川県",
-      "origin_city": "平塚市",
-      "lat": 35.3229,
-      "lng": 139.3417,
-      "primary_style": "塩",
-      "summary_ja": "透き通った塩味のスープにほのかな酸味をきかせ、わかめと刻み玉ねぎをのせる。神奈川に一般的なとろみの強いタンメンとは違い、さらりとした汁が特徴で、平塚の中華店で親しまれてきたと伝わる。",
-      "summary_en": "A clear, salt-based broth carries a faint edge of acidity, topped with wakame seaweed and chopped onion — a thinner, less thickened bowl than the typical Kanagawa tanmen, said to have taken root among Chinese-style diners in Hiratsuka.",
-      "body_ja": "## 何でできているか\n透き通った塩味のスープに、かすかな酸味がきいているのが際立った特徴で、神奈川で広く見られるとろみの強いタンメンとは口当たりがまるで違う。具はわかめと刻み玉ねぎという簡素な組み合わせが定番で、野菜あんかけをどっさりのせる一般的なタンメンとは一線を画す。麺は中細のちぢれ麺を使う店が多く、さらりとしたスープによく合う。\n\n## どう作るのか\n鶏ガラや豚ガラでとった澄んだスープに塩だれを合わせ、仕上げに酢を少量加えて酸味を出すのが基本という。とろみをつけずに仕上げることで、あんかけタンメンよりも軽く、飲み干しやすい一杯になると伝わる。わかめと玉ねぎという火を通さなくても提供できる具材を選ぶことで、注文を受けてから手早く出せる仕組みになっているとも語られる。\n\n## なぜこの形になったのか\n平塚市内の中華食堂で、地元の常連客に向けて出され続けてきた一杯だといい、特定の一軒の看板料理というより、街の中華店に共通する味として根づいたと伝わる。とろみをつけずさらりと仕上げる作り方が、日常の食事として毎日でも食べやすい軽さを生み、地元の食卓に定着していった背景として読める。重たいあんかけを避けたことが、結果として長く飽きずに通える一杯を残したとも語られる。",
-      "body_en": "## What it's made of\nThe clear, salt-based broth carries a faint acidity, which is what sets it apart from the thick, starch-bound tanmen common elsewhere in Kanagawa. The toppings are a plain pairing of wakame seaweed and chopped onion, a world away from the heap of stir-fried vegetables in a typical tanmen. Many shops use medium-thin, wavy noodles suited to the thin, clear broth.\n\n## How it's made\nThe basic method is said to be a clear chicken- or pork-bone stock finished with a salt tare, with a small amount of vinegar stirred in at the end for acidity. Leaving out the starch thickening is said to make the bowl lighter and easier to drink down than an ankake-style tanmen. Choosing toppings like wakame and onion that need no extra cooking is also said to let a shop turn an order around quickly.\n\n## Why it took this shape\nThe bowl is said to have been served to regular, local customers at Chinese-style diners around Hiratsuka for years, taking root less as one shop's signature dish than as a flavor shared across the town's Chinese eateries. Leaving out the starch and keeping the broth thin reads as what gave the bowl the everyday lightness that let it settle into local tables as something ordinary enough to eat any day of the week.",
-      "sources": [
-        {
-          "title": "ご当地ラーメン",
-          "url": "https://ja.wikipedia.org/wiki/ご当地ラーメン",
-          "publisher": "Wikipedia（最終手段。平塚市観光協会サイトに専用記事は未確認）",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "tanmen",
-          "relation_type": "派生",
-          "basis": "神奈川の一般的なタンメンから分かれた地域版"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "slug": "odawara",
-      "name_ja": "小田原系ラーメン",
-      "name_romaji": "Odawara-kei Ramen",
-      "name_en": "Odawara Ramen — dark soy ramen with flat, curly noodles and rolled wontons",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "神奈川県",
-      "origin_city": "小田原市",
-      "lat": 35.256,
-      "lng": 139.1522,
-      "primary_style": "醤油",
-      "summary_ja": "色の濃い醤油スープに、平打ちの縮れ麺を合わせる。具に細長く巻いたワンタンをのせる店が多いのが特徴で、城下町として栄えた小田原の中華食堂に、一軒ではなく街の味として根づいてきた一杯と伝わる。",
-      "summary_en": "A dark, strongly seasoned soy sauce broth paired with flat, curly noodles, often topped with slim, rolled wontons — a bowl said to have taken root at Chinese-style diners in this old castle town.",
-      "body_ja": "## 何でできているか\n色の濃い醤油スープはしっかりとした塩味とコクを持ち、ひと口すすると醤油だれの香ばしさが立つ。麺は平たく縮れた形で、スープをよく持ち上げるのが特徴とされる。具には細長く巻いたワンタンをのせる店が多く、皮のつるりとした食感と挽肉の旨みが濃いスープとよく合う。チャーシューやメンマを添えるだけの簡素な構成でまとめる店が多いという。\n\n## どう作るのか\n豚骨や鶏ガラのだしに濃口醤油だれをしっかり効かせ、色も味も濃く仕上げるのが基本の作り方と伝わる。麺は平打ちで縮れをつけて自家製する店が多いとされ、太すぎず細すぎない幅に仕立てることで、濃いスープにも負けない食感を出しているという。ワンタンは皮を細長く巻いて茹でることで、通常の四角いワンタンとは違う見た目と食感に仕立てられると語られる。\n\n## なぜこの形になったのか\n城下町として古くから商業が栄えた小田原の中華食堂で、常連客に向けて濃い味の一杯が出され続けてきたと伝わる。特定の一軒の看板というより、街の食堂に共通する味として広く根づいてきたという。細長いワンタンという独自の仕立ても、一軒の工夫が近隣の店にも伝わり、いつしか土地の型として定着したものと読める。街道と港を抱えて人の行き来が多かった土地柄が、濃い味を好む食文化を育てたとも語られる。",
-      "body_en": "## What it's made of\nThe broth runs dark, carrying a firm saltiness and depth, with the aroma of the soy tare rising on the first sip. The noodles are flat and curly, said to be shaped specifically to carry the thick broth well. Many shops top the bowl with slim, rolled wontons, their smooth skin and savory ground-meat filling playing well against the strong broth. Char siu and bamboo shoot round out an otherwise simple bowl.\n\n## How it's made\nThe basic method is said to be a pork-bone or chicken-bone stock pushed hard with a dark soy tare, aiming for a broth strong in both color and flavor. Many shops are said to make their own flat, curly noodles, cut to a width that's neither too thick nor too thin so it can stand up to the heavy broth. The wontons are said to be rolled into a long, slim shape before boiling, giving them a different look and bite from the usual square wonton.\n\n## Why it took this shape\nIn Odawara, a castle town with a long commercial history, the strongly flavored bowl is said to have been served to regular customers at Chinese-style diners across town rather than as one shop's signature. The slim, rolled wonton reads as one shop's own touch that spread to its neighbors over time until it settled in as the land's own shape.",
-      "sources": [
-        {
-          "title": "ご当地ラーメン",
-          "url": "https://ja.wikipedia.org/wiki/ご当地ラーメン",
-          "publisher": "Wikipedia（最終手段。小田原市観光協会サイトに専用記事は未確認）",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "koikuchi-shoyu",
-          "relation_type": "使用食材",
-          "basis": "色の濃い醤油だれをしっかり効かせたスープ"
-        }
-      ],
-      "tags": [
-        "soy_sauce"
-      ]
-    },
-    {
-      "slug": "misaki-maguro",
-      "name_ja": "三崎まぐろラーメン",
-      "name_romaji": "Misaki Maguro Ramen",
-      "name_en": "Misaki Tuna Ramen — soy ramen built on a maguro-based broth",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "神奈川県",
-      "origin_city": "三浦市三崎",
-      "lat": 35.1385,
-      "lng": 139.6114,
-      "primary_style": "醤油",
-      "summary_ja": "遠洋まぐろ漁の水揚げ基地である三崎港で、まぐろのアラや骨からとっただしを使ったスープを醤油で仕立てたラーメン。港の食堂で50年近く出され続けてきた一杯もあると伝わる。",
-      "summary_en": "In Misaki Port, a landing base for offshore tuna boats, a soy sauce ramen is built on a broth drawn from tuna trimmings and bone — a bowl said to have been served for decades at diners along the port.",
-      "body_ja": "## 何でできているか\nスープにまぐろのアラや骨からとっただしを使うのが最大の特徴で、豚骨や鶏ガラだけのラーメンとは違う独特の風味がある。醤油だれで味を整えてあり、魚のだしと醤油の組み合わせが港町らしい一杯にまとまっている。具にまぐろを使う店もあり、フカヒレラーメンなど同じ港で揚がる素材を使った派生の一杯も並んで出されているという。\n\n## どう作るのか\n水揚げされたまぐろを加工する過程で出るアラや骨を、スープのだしとして活用するのが基本の作り方と伝わる。魚のだしは臭みが出やすいため、香味野菜や香辛料でくせを抑えながら炊く工夫がされているという。醤油だれで輪郭をはっきりさせることで、だしの個性を生かしつつ食べやすい一杯に仕立てているとされる。水揚げの状況によって仕入れられるアラの量が変わるため、その日ごとにだしの濃さが微妙に違うとも語られる。\n\n## なぜこの形になったのか\n三崎港は遠洋まぐろ漁船の水揚げ基地として知られ、まぐろの加工にともなって生まれるアラや骨が、港の食堂にとって身近な食材だったことがこの一杯の背景にあると伝わる。50年近くにわたって同じ味を守り続けてきた食堂もあるといい、遠洋漁業という港の生業がそのままラーメンの形に落とし込まれたと読める。豚骨や鶏ガラを仕入れるよりも、港に揚がる素材を使うほうが理にかなっていたとも語られる。",
-      "body_en": "## What it's made of\nThe defining feature is a broth drawn from tuna trimmings and bone, giving it a flavor distinct from ramen built purely on pork or chicken bone. The broth is rounded out with a soy sauce tare, and the combination of fish stock and soy sauce reads as distinctly a port town's bowl. Some shops also use tuna as a topping, and a shark-fin ramen made from the same port's catch is said to be served alongside it at some counters.\n\n## How it's made\nThe basic method is said to be putting the trimmings and bone left over from processing landed tuna to use as the broth's stock. Because fish stock can carry a strong off-flavor, aromatics and spices are said to be worked in to keep it in check while it simmers. Rounding the broth out with a soy sauce tare is said to sharpen its edges, keeping the stock's distinct character while making the bowl easy to eat.\n\n## Why it took this shape\nMisaki Port is known as a landing base for offshore tuna fishing boats, and the trimmings and bone left over from processing the catch are said to have been a stock ingredient close at hand for the diners along the port. Some of those diners are said to have kept the same recipe for nearly fifty years — the offshore fishing trade itself, read straight into the shape of a bowl of ramen.",
-      "sources": [
-        {
-          "title": "港楽亭",
-          "url": "https://miura-info.ne.jp/gourmet-misaki/gourmet-18/",
-          "publisher": "みうら観光ガイド（三浦市観光協会公式）",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "maguro",
-          "relation_type": "使用食材",
-          "basis": "まぐろのアラ・骨をスープのだしに使う"
-        }
-      ],
-      "tags": [
-        "soy_sauce"
-      ]
-    },
-    {
-      "slug": "odawara-tantan",
-      "name_ja": "小田原タンタン麺",
-      "name_romaji": "Odawara Tantanmen",
-      "name_en": "Odawara Tantanmen — a thick, sweet-spicy ankake tantanmen",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "神奈川県",
-      "origin_city": "小田原市上曽我",
-      "lat": 35.2969,
-      "lng": 139.123,
-      "primary_style": "その他",
-      "summary_ja": "挽肉やザーサイ、にんにく、豆板醤を合わせた、とろみの強い甘辛あんかけスープの担々麺。1975年に小田原市上曽我で生まれたと伝わり、一般的な担々麺よりも濃く甘みのきいた味が特徴。",
-      "summary_en": "A tantanmen with a thick, sweet-and-spicy ankake-style sauce built on ground pork, pickled mustard greens, garlic, and doubanjiang, said to have originated in 1975 in Kamisoga, Odawara, with a heavier, sweeter profile than standard tantanmen.",
-      "body_ja": "## 何でできているか\nスープにはとろみが強くついていて、丼を傾けてもゆっくりとしか動かない。挽肉、ザーサイ、にんにく、豆板醤を合わせた甘辛い味つけで、辛さよりも甘みとコクが先に立つのが一般的な担々麺との違いとされる。あんかけ状のスープが麺にしっかりからみつくため、最後の一本まで濃い味を保ったまま食べ進められる。表面を覆うあんが湯気を閉じ込めるので、丼も冷めにくいという。\n\n## どう作るのか\n挽肉をにんにくと豆板醤で炒めて香りを立て、ザーサイを加えてから片栗粉でとろみをつけたスープに仕立てるのが基本という。甘みを強めに効かせることで、辛味だけが際立つ一般的な担々麺とは違う、まろやかな辛甘のバランスに仕上げているとされる。とろみが強い分、麺にはコシのあるものを合わせ、あんの重さに負けないようにしているという。\n\n## なぜこの形になったのか\n1975年、小田原市上曽我で生まれたと伝わるこの一杯は、担々麺という中華の一皿を、甘辛いあんかけという和風の調理法に寄せて再構成したものと読める。同じ関東で生まれたご当地担々麺として、ラー油の辛さを前面に出す千葉の勝浦タンタンメンとしばしば並び称されるが、辛さより甘みととろみで攻める点で対照的な一杯になっている。",
-      "body_en": "## What it's made of\nThe broth carries a heavy thickening, moving only slowly even when the bowl is tilted. Ground pork, pickled mustard greens, garlic, and doubanjiang are combined into a sweet-and-spicy seasoning where sweetness and depth lead ahead of heat — the point where it diverges from standard tantanmen. Because the thick, ankake-style sauce clings tightly to the noodles, the bowl holds its strong flavor down to the last strand.\n\n## How it's made\nThe basic method is said to be frying ground pork with garlic and doubanjiang to build aroma, adding pickled mustard greens, then thickening the broth with a potato-starch slurry. Leaning the seasoning toward sweetness is said to give the bowl a milder, rounder balance of heat and sweetness than a standard tantanmen, where chili heat tends to dominate. Because the sauce is so thick, the noodles used are said to have firm bite, so they hold up against the weight of the sauce.\n\n## Why it took this shape\nThe bowl is said to have originated in 1975 in Kamisoga, part of Odawara, reworking tantanmen — a Chinese dish — into something closer to a Japanese-style thick sauce over noodles. As a regional tantanmen born in the same Kanto region, it's often mentioned alongside Chiba's Katsuura Tantanmen, which pushes chili-oil heat to the front — a contrast to Odawara's own bowl, which leads with sweetness and body instead of heat.",
-      "sources": [
-        {
-          "title": "坦々麺",
-          "url": "https://ja.wikipedia.org/wiki/坦々麺",
-          "publisher": "Wikipedia（最終手段。原出典は書籍『ラーメン王国神奈川2011』西東社）",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "katsuura-tantan",
-          "relation_type": "兄弟",
-          "basis": "ともに関東発のご当地担々麺として並び称される"
-        }
-      ],
-      "tags": [
-        "spicy",
-        "pork"
-      ]
-    },
-    {
-      "slug": "kanagawa-tanrei",
-      "name_ja": "神奈川淡麗系",
-      "name_romaji": "Kanagawa Tanrei-kei",
-      "name_en": "Kanagawa Tanrei-kei — a light, clear soy ramen built on thin noodles",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "神奈川県",
-      "origin_city": "",
-      "lat": "",
-      "lng": "",
-      "primary_style": "醤油",
-      "summary_ja": "あっさりとした醤油味の澄んだスープに、細めの麺を合わせる。脂を強く効かせた家系ラーメンとしばしば対比され、同じ神奈川で育った、濃さとは正反対の極として語られる系統。",
-      "summary_en": "A light, clear soy sauce broth paired with thin noodles, often set up in contrast to the heavily fatted iekei style as the other pole of Kanagawa's ramen culture.",
-      "body_ja": "## 何でできているか\n澄んだ醤油スープはあっさりとした味わいで、脂はごく控えめに抑えられている。細めのまっすぐな麺を合わせる店が多く、スープの軽さと麺の繊細さが釣り合うように仕立てられているという。家系ラーメンのようにカスタマイズの幅を売りにするのではなく、スープと麺の完成度そのものを味わわせる方向でまとめる店が多いとされる。\n\n## どう作るのか\n動物系や魚介系のだしを丁寧に炊き、雑味や脂をできるだけ取り除いてから醤油だれを合わせるのが基本の作り方と伝わる。だしの澄み具合を保つため、強火で長時間煮込むよりも火加減を抑えて炊く店が多いという。麺も細く繊細に仕立てることで、あっさりしたスープに負けない存在感を持たせているとされる。脂を落とす手間のぶん、だしそのものの質がそのまま味に出るともいう。\n\n## なぜこの形になったのか\n濃厚な豚骨醤油と鶏油で知られる家系ラーメンが神奈川のラーメン文化の一方の極を担う中で、それとは対照的にあっさりとした一杯を追求する動きが並行して育ってきたと読める。同じ土地で濃さと軽さという正反対の方向が磨かれてきたことが、神奈川のラーメンの幅を広げてきたと語られる。一つの型に寄らず両極を残したことが、この土地のラーメン文化の厚みにつながったとも読める。",
-      "body_en": "## What it's made of\nThe clear soy sauce broth is light in flavor, with fat kept to a bare minimum. Many shops pair it with thin, straight noodles, matched so the broth's lightness and the noodles' delicacy stay in balance. Rather than selling customization the way iekei shops do, many of these shops are said to focus instead on the sheer finish of the broth and noodles themselves.\n\n## How it's made\nThe basic method is said to be simmering animal or seafood stock carefully, skimming off as much off-flavor and fat as possible, before finishing with a soy sauce tare. To keep the stock clear, many shops are said to hold the flame low rather than boiling hard for a long stretch. The noodles, too, are cut thin and delicate, giving them presence enough to stand up against so light a broth.\n\n## Why it took this shape\nWhile the rich pork-bone soy and chicken-fat iekei style has come to stand for one pole of Kanagawa's ramen culture, a parallel pursuit of the opposite — a light, clear bowl — reads as having grown up alongside it. That the same region has sharpened both richness and lightness as opposite directions is said to be part of what has widened Kanagawa's ramen culture as a whole.",
-      "sources": [
-        {
-          "title": "ご当地ラーメン",
-          "url": "https://ja.wikipedia.org/wiki/ご当地ラーメン",
-          "publisher": "Wikipedia（最終手段。単一店舗に限らない様式のため自治体資料は未確認）",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "iekei",
-          "relation_type": "対比",
-          "basis": "同じ神奈川発でも家系の濃厚さとは対照的なあっさり系として語られる"
-        }
-      ],
-      "tags": [
-        "soy_sauce"
-      ]
+     "title": "杉並区のラーメン店紹介",
+     "url": "https://www.suginamigaku.org/corner/gourmet/ramen/",
+     "publisher": "すぎなみ学倶楽部（杉並区公式情報サイト）",
+     "accessed_at": "2026-09-15"
     }
-  ],
-  "notes": "対象外: アホーメン（神奈川県）。日本ラーメン協会「日本ご当地ラーメン一覧」ポスターに掲載があり台帳のmissingに含まれるが、由来・地域・特徴を確認できる二次資料が検索で見つからず（Bing/Yahoo検索でも無関係な結果しか得られなかった）、断定的な記述を作れないため今回は見送った。要判断として保留。\n出典について: 東京都4件・神奈川県6件のうち、自治体・観光協会等の一次〜準一次資料で直接裏取りできたのは 荻窪ラーメン（すぎなみ学倶楽部）、家系ラーメン（吉村家公式サイト ieke1.com）、三崎まぐろラーメン（三浦市観光協会公式サイト）の3件。残り6件（油そば・つけ麺・背脂ラーメン・平塚系タンメン・小田原系ラーメン・小田原タンタン麺・神奈川淡麗系）は、自治体・観光協会・組合等のサイト内検索やBing/Yahoo検索で一次資料を探したが見つからず、Wikipediaを最終手段として使用した（各itemのsourcesにその旨を明記）。特に小田原タンタン麺のWikipedia記述の原出典は書籍『ラーメン王国神奈川2011』（西東社）でURLなし。\n小田原系ラーメンと小田原タンタン麺は台帳に別項目として立っているため別itemとして作成した（前者は濃口醤油の平打ち麺＋ワンタン、後者はとろみの強い甘辛担々麺で、由来・特徴とも別物）。\n途中経過: セッション中断（利用枠上限）でscratchpad配下の作業ファイルが一度消失し、再構築した。台帳(data/ledgers/ramen-kyokai-master.json)と共有参照ファイル(all-items-ja.txt / all-slugs.txt / existing-relation-pairs.txt)は復旧していたためそのまま使用。to_slug存在チェックはこれに加え、リポジトリdata/配下の実データ(csv/json計約2200 slug)からも突合して二重確認した。"
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "koikuchi-shoyu",
+     "relation_type": "使用食材",
+     "basis": "和風だしに濃口醤油だれを合わせる"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "aburasoba",
+   "name_ja": "油そば",
+   "name_romaji": "Abura Soba",
+   "name_en": "Abura Soba — noodles tossed in oil and soy sauce, no broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "東京都",
+   "origin_city": "武蔵野市",
+   "lat": 35.7043,
+   "lng": 139.5703,
+   "primary_style": "その他",
+   "summary_ja": "スープを張らず、丼の底にためた醤油だれとごま油を麺にからめて食べる。武蔵野地区の店が昭和30年代に売り出したのが始まりと伝わり、酢とラー油を足して味を変えながら食べ進める。",
+   "summary_en": "No broth is poured at all — noodles are tossed in a soy-and-sesame-oil tare pooled at the bottom of the bowl, said to have started at shops in the Musashino area in the late 1950s, with vinegar and chili oil stirred in partway through.",
+   "body_ja": "## 何でできているか\n丼の底には醤油だれとごま油だけがたまっていて、スープは一滴も張らない。そこへ熱い麺を投入し、よく混ぜて絡めて食べる。刻みねぎ、メンマ、チャーシュー、温泉卵などをのせ、途中で酢とラー油を足すと、脂っぽさが軽くなり別の一杯のように味が変わる。麺はやや太めの中太麺を使う店が多く、たれをしっかり持ち上げる。\n\n## どう作るのか\nスープを一切引かないぶん、たれの配合がそのまま味の骨格になるという。醤油、ごま油、化学調味料や香味油を店ごとの比率で合わせ、そこに湯切りしたての熱い麺を加えて手早く和えるのが基本の作り方と伝わる。スープを炊く手間がかからないため、屋台や小さな店でも出しやすい一杯として広まったとも語られる。仕込みに大きな鍋も長い煮込み時間もいらないぶん、開業のハードルが低かったことも広がりを後押ししたという。\n\n## なぜこの形になったのか\n武蔵野地区の学生街や住宅街で、昭和30年代前半に売り出されたのが始まりという説がある。のびてしまったラーメンを何とか食べやすくする工夫や、中国の拌麺（バンミエン）を参考にしたという説など、由来は一つに定まっていない。いずれにせよ、スープを炊かずに安く早く出せるという実利が、油そばという形を後押ししたと読める。",
+   "body_en": "## What it's made of\nThe bowl holds only soy sauce tare and sesame oil pooled at the bottom — no broth is poured in at all. Hot noodles go straight in and get tossed thoroughly to coat. Scallion, bamboo shoot, char siu, and a hot-spring egg are typical toppings, and stirring in vinegar and chili oil partway through lightens the richness and makes the bowl taste almost like a second dish. Many shops use slightly thick, medium noodles built to carry the tare.\n\n## How it's made\nBecause no broth is simmered at all, the tare's ratio is said to be the entire backbone of the flavor. Soy sauce, sesame oil, and a shop's own blend of seasoning or flavored oil are mixed, then hot, freshly drained noodles are tossed in quickly to coat — the basic method, as it's told. Skipping the broth-making step meant the dish could be served from small stalls and shops without much overhead, which is said to have helped it spread.\n\n## Why it took this shape\nOne account places its start in the student and residential streets of the Musashino area in the late 1950s. Stories differ on the trigger — some say it began as a fix for ramen noodles gone soft and overcooked, others point to Chinese ban mian as the model — and no single origin has settled. Either way, the practical appeal of a bowl that needs no simmered broth, cheap and quick to serve, reads as what pushed abura soba into this shape.",
+   "sources": [
+    {
+     "title": "油そば",
+     "url": "https://ja.wikipedia.org/wiki/油そば",
+     "publisher": "Wikipedia（最終手段。自治体・組合等の一次資料が確認できず）",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "koikuchi-shoyu",
+     "relation_type": "使用食材",
+     "basis": "醤油だれとごま油を麺にからめる"
+    }
+   ],
+   "tags": [
+    "no_broth",
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "tsukemen",
+   "name_ja": "つけ麺",
+   "name_romaji": "Tsukemen",
+   "name_en": "Tsukemen — thick noodles dipped in a concentrated broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "東京都",
+   "origin_city": "中野区",
+   "lat": 35.7075,
+   "lng": 139.665,
+   "primary_style": "醤油",
+   "summary_ja": "太く弾力のある麺を、酸味と甘みをきかせた濃い醤油だれのつけ汁にくぐらせて食べる。中野の大勝軒で賄い料理として生まれ、麺を大盛りにして見栄えよく出したのが始まりと伝わる。",
+   "summary_en": "Thick, springy noodles are dipped into a concentrated soy sauce sauce built on sweetness and acidity, said to have started as staff-meal food at a shop in Nakano before being served to customers as an oversized, showy portion.",
+   "body_ja": "## 何でできているか\n麺とつけ汁が別々の器で出てくる。麺は太くもちもちとした弾力があり、冷水でしめてあるので歯ごたえが強い。つけ汁は醤油だれに動物系や魚介のだしを合わせた濃い味で、酢と砂糖の酸味と甘みがきいている。麺を汁にくぐらせて一気にすすると、濃い味と冷たい麺のコントラストが際立つ。仕上げに割りスープを注いで飲み干す店も多い。\n\n## どう作るのか\n修業先で余った麺をスープと醤油にひたして食べていた賄い料理が土台になったという。独立した店でこれを客に出したところ好評で、正式なメニューに仕立てたと伝わる。冷やし中華の甘酸っぱさを参考に、つけ汁を酢と砂糖で調味し、麺の量をラーメンより多めにして見栄えを良くしたともいう。麺を大盛りにできるのも、スープを丼いっぱいに張らずに済むこの形だからこそという。\n\n## なぜこの形になったのか\n残った麺を汁にひたして食べるという、修業中のまかない食から生まれたという説が広く語られている。客に出す料理として磨かれる過程で、麺の量や弾力、つけ汁の濃さが誇張され、ラーメンとは別の食べ方として独立していったと読める。麺とつけ汁を分けるという単純な発想が、濃さと量というラーメンにはない軸を生んだ形といえる。",
+   "body_en": "## What it's made of\nThe noodles and dipping broth arrive in separate bowls. The noodles are thick and springy, rinsed in cold water for extra bite. The dipping broth is a concentrated soy sauce base built on animal and seafood stock, seasoned with vinegar and sugar for a sweet-sour edge. Dipping the cold noodles into the hot, concentrated broth and slurping them down creates a sharp contrast between the two. Many shops finish by pouring a diluting broth into the leftover tare to drink.\n\n## How it's made\nThe dish is said to have grown out of a staff meal — leftover noodles dipped in leftover broth and soy sauce during an apprenticeship. Once a shop's owner served this to customers and it caught on, it's said to have been formalized into a proper menu item. Taking a cue from the sweet-and-sour flavor of cold Chinese noodles, the dipping broth was seasoned with vinegar and sugar, and the noodle portion was made larger than a regular bowl of ramen for visual impact — a portion made possible precisely because the broth doesn't have to fill the whole bowl.\n\n## Why it took this shape\nThe widely told account traces it back to a staff meal during apprenticeship — noodles left over from the day, dipped into leftover broth and soy sauce. As it was refined into a dish served to paying customers, the noodle portion, the chew, and the broth's concentration are all said to have been pushed further, until the dish split off as something distinct from ramen. Separating the noodles from the broth — a simple idea — opened up an axis of richness and volume that ordinary ramen doesn't have.",
+   "sources": [
+    {
+     "title": "大勝軒の歴史",
+     "url": "https://taisho-ken.tokyo/history/",
+     "publisher": "お茶の水、大勝軒",
+     "accessed_at": "2026-09-15"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "koikuchi-shoyu",
+     "relation_type": "使用食材",
+     "basis": "つけ汁は濃口醤油だれが土台"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "seabura-chatcha",
+   "name_ja": "背脂ラーメン",
+   "name_romaji": "Seabura Ramen",
+   "name_en": "Seabura Ramen — soy ramen finished with a shower of pork back fat",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "東京都",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "醤油",
+   "summary_ja": "醤油ラーメンのスープに刻んだ豚の背脂を細かく振りかけ、丼を最後まで熱く保つ。1980年代後半の東京で広まったスタイルで、環状七号線沿いの店々が競い合う中で磨かれたと語られる。",
+   "summary_en": "Soy sauce ramen finished with a shower of minced pork back fat that keeps the bowl steaming hot to the last bite, a style said to have taken hold in Tokyo around the turn of the millennium as shops along the Kan-nana ring road competed with each other.",
+   "body_ja": "## 何でできているか\n醤油だれのスープの表面に、刻んだ豚の背脂がびっしりと浮かぶ。脂が蓋のように熱を閉じ込めるため、湯気が立ったまま丼が冷めにくい。麺をすすると脂のコクがまず舌に触れ、そのあとに醤油だれと動物系だしの旨みが追いかけてくる。背脂の量や粒の大きさは店によって振れ幅が大きく、細かく刻んで溶けやすくする店もあれば、粒を残して食感を出す店もあるという。\n\n## どう作るのか\n豚骨や鶏ガラでとった濃いめのだしに醤油だれを合わせ、仕上げに刻んだ背脂を振りかけるのが基本の作り方と伝わる。背脂は別に湯通しして臭みを抜いてから使う店が多いという。スープ自体の温度に加えて、脂の膜で保温するという二段構えの熱さが特徴で、猫舌には食べ進めるのが難しいほど熱いまま出す店もあるとされる。背脂の粒度を店ごとに調整することで、同じ醤油ラーメンでも脂の主張の強さを変えているとも語られる。\n\n## なぜこの形になったのか\n1980年代後半の東京で、「環七ラーメン戦争」と呼ばれた競争のなかで、醤油ラーメンのスープに背脂を浮かべるスタイルが磨かれたと伝わる。環状七号線沿いに個性の強いラーメン店がひしめき、互いに濃さやインパクトを競い合った時期と重なるという。脂で丼を熱く保つという発想は、寒さ対策というよりも、湯気と香りで食欲を刺激する見た目の演出として磨かれていったと読める。",
+   "body_en": "## What it's made of\nThe surface of a soy sauce broth is covered edge to edge with minced pork back fat. The fat acts like a lid, trapping heat so the bowl stays steaming long after it's served. The richness of the fat hits the tongue first as you slurp the noodles, followed by the savor of the soy tare and animal stock underneath. How much fat goes on, and how finely it's minced, varies widely by shop — some mince it fine so it melts in, others leave it coarse for texture.\n\n## How it's made\nThe basic method, as it's told, is to build a rich pork-bone or chicken-bone stock, season it with soy tare, and finish with a scattering of minced back fat. Many shops are said to blanch the fat separately first to strip out any off odor before using it. On top of the broth's own heat, the fat forms a second, insulating layer — some shops are said to serve it hot enough that even a patient eater struggles to keep up.\n\n## Why it took this shape\nThe style of scattering back fat over soy sauce ramen is said to have been honed in Tokyo in the late 1980s, amid what came to be called the Kan-nana Ramen Wars. That period saw strongly individual ramen shops crowd along the Kan-nana ring road, pushing each other toward richer, more forceful bowls. Keeping the bowl hot with a layer of fat reads less as a defense against the cold than as a staged bit of theater — steam and aroma built to stir the appetite before the first bite.",
+   "sources": [
+    {
+     "title": "環七ラーメン戦争を勝ち抜いた\"背脂醤油とんこつ\"の老舗 ラー博「あの銘店をもう一度\"94年組\"」第2弾は環七「野方ホープ1994」",
+     "url": "https://www.raumen.co.jp/information/news_001622.html",
+     "publisher": "新横浜ラーメン博物館",
+     "accessed_at": "2026-09-15"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "koikuchi-shoyu",
+     "relation_type": "使用食材",
+     "basis": "醤油だれのスープに背脂を振りかける"
+    }
+   ],
+   "tags": [
+    "soy_sauce",
+    "pork"
+   ]
+  },
+  {
+   "slug": "iekei",
+   "name_ja": "家系ラーメン",
+   "name_romaji": "Iekei Ramen",
+   "name_en": "Iekei Ramen — Yokohama's pork-bone soy ramen finished with chicken fat",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "神奈川県",
+   "origin_city": "横浜市磯子区",
+   "lat": 35.3839,
+   "lng": 139.6303,
+   "primary_style": "豚骨",
+   "summary_ja": "豚骨と鶏ガラを長時間炊いたスープに濃口醤油だれと鶏油を合わせ、太くて短めの麺、ほうれん草と海苔をのせる。1974年に横浜・新杉田で創業した店が源流とされ、工場地帯の働き手の間で広まったと伝わる。",
+   "summary_en": "Pork bone and chicken carcass simmered long and finished with a dark soy tare and chicken fat, paired with thick, short noodles, spinach, and nori — traced to a shop that opened in 1974 in Yokohama's Shinsugita district and is said to have spread among workers in the surrounding industrial zone.",
+   "body_ja": "## 何でできているか\n豚骨と鶏ガラを長く炊いたコク深いスープに、濃口醤油だれと鶏油を合わせる。鶏油が表面を覆うため、見た目以上に熱がこもり、最後まで熱々のまま食べ進められる。麺は太くて短めのストレート麺で、スープをよくまとう。具はチャーシュー、ほうれん草、四角い海苔が定番で、麺の硬さやスープの濃さ、鶏油の量を客が細かく注文できるのも特徴とされる。\n\n## どう作るのか\n宮大工や理容師見習い、長距離トラック運転手など、さまざまな職を経てラーメン店を開いた店主が、東京のラーメン店で3年ほど修業したのちに開業したと伝わる。「九州の豚骨と東京の醤油を合わせたらうまいのではないか」という着想から生まれたという。豚骨と鶏ガラを別々にじっくり炊き、濃口醤油だれと合わせて仕上げるのが基本の作り方とされる。\n\n## なぜこの形になったのか\n創業の地は石川島播磨重工業（現IHI）をはじめとする工場が密集する京浜工業地帯の沿道にあり、そこで働く工場労働者やトラック運転手の間で評判を呼んで広まったと伝わる。体を使う仕事の合間に手早く高カロリーの一杯を食べたいという需要が、濃厚なスープと太い麺、注文でカスタマイズできる仕組みを後押ししたと読める。",
+   "body_en": "## What it's made of\nA deep, long-simmered stock of pork bone and chicken carcass is finished with a dark soy sauce tare and chicken fat. The chicken fat sits over the surface, trapping more heat than the bowl looks like it should hold, so it stays scalding to the last mouthful. The noodles are thick, short, and straight, built to carry the broth. Char siu, spinach, and square sheets of nori are the standard toppings, and customers are known for being able to dial in noodle firmness, broth richness, and the amount of chicken fat to order.\n\n## How it's made\nThe founder is said to have worked as a temple carpenter's apprentice, a barber's trainee, and a long-haul truck driver before training for about three years at a ramen shop in Tokyo and opening his own. The idea, as it's told, was that Kyushu-style pork bone and Tokyo-style soy sauce might taste good combined. The basic method is said to be simmering pork bone and chicken carcass separately and at length, then finishing with the dark soy tare.\n\n## Why it took this shape\nThe shop opened along a stretch of the Keihin industrial belt dense with factories, including what is now IHI, and is said to have built its reputation among the factory workers and truck drivers working there. A demand for a quick, high-calorie bowl to eat between shifts of physical labor reads as what pushed the style toward a rich broth, thick noodles, and a build-to-order system that lets a worker tune the bowl to how hungry, or how rushed, he is.",
+   "sources": [
+    {
+     "title": "「家系総本山」とは",
+     "url": "http://ieke1.com/source/yosimuraya/toha.html",
+     "publisher": "家系総本山 吉村家（公式サイト）",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "koikuchi-shoyu",
+     "relation_type": "使用食材",
+     "basis": "とんこつ・鶏ガラだしに濃口醤油だれを合わせる"
+    },
+    {
+     "to_slug": "yokohama",
+     "relation_type": "兄弟",
+     "basis": "ともに横浜発のラーメンだが系統が異なる"
+    }
+   ],
+   "tags": [
+    "pork",
+    "soy_sauce",
+    "chicken"
+   ]
+  },
+  {
+   "slug": "hiratsuka-tanmen",
+   "name_ja": "平塚系タンメン",
+   "name_romaji": "Hiratsuka-kei Tanmen",
+   "name_en": "Hiratsuka Tanmen — a clear, vinegar-edged vegetable noodle soup",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "神奈川県",
+   "origin_city": "平塚市",
+   "lat": 35.3229,
+   "lng": 139.3417,
+   "primary_style": "塩",
+   "summary_ja": "透き通った塩味のスープにほのかな酸味をきかせ、わかめと刻み玉ねぎをのせる。神奈川に一般的なとろみの強いタンメンとは違い、さらりとした汁が特徴で、平塚の中華店で親しまれてきたと伝わる。",
+   "summary_en": "A clear, salt-based broth carries a faint edge of acidity, topped with wakame seaweed and chopped onion — a thinner, less thickened bowl than the typical Kanagawa tanmen, said to have taken root among Chinese-style diners in Hiratsuka.",
+   "body_ja": "## 何でできているか\n透き通った塩味のスープに、かすかな酸味がきいているのが際立った特徴で、神奈川で広く見られるとろみの強いタンメンとは口当たりがまるで違う。具はわかめと刻み玉ねぎという簡素な組み合わせが定番で、野菜あんかけをどっさりのせる一般的なタンメンとは一線を画す。麺は中細のちぢれ麺を使う店が多く、さらりとしたスープによく合う。\n\n## どう作るのか\n鶏ガラや豚ガラでとった澄んだスープに塩だれを合わせ、仕上げに酢を少量加えて酸味を出すのが基本という。とろみをつけずに仕上げることで、あんかけタンメンよりも軽く、飲み干しやすい一杯になると伝わる。わかめと玉ねぎという火を通さなくても提供できる具材を選ぶことで、注文を受けてから手早く出せる仕組みになっているとも語られる。\n\n## なぜこの形になったのか\n平塚市内の中華食堂で、地元の常連客に向けて出され続けてきた一杯だといい、特定の一軒の看板料理というより、街の中華店に共通する味として根づいたと伝わる。とろみをつけずさらりと仕上げる作り方が、日常の食事として毎日でも食べやすい軽さを生み、地元の食卓に定着していった背景として読める。重たいあんかけを避けたことが、結果として長く飽きずに通える一杯を残したとも語られる。",
+   "body_en": "## What it's made of\nThe clear, salt-based broth carries a faint acidity, which is what sets it apart from the thick, starch-bound tanmen common elsewhere in Kanagawa. The toppings are a plain pairing of wakame seaweed and chopped onion, a world away from the heap of stir-fried vegetables in a typical tanmen. Many shops use medium-thin, wavy noodles suited to the thin, clear broth.\n\n## How it's made\nThe basic method is said to be a clear chicken- or pork-bone stock finished with a salt tare, with a small amount of vinegar stirred in at the end for acidity. Leaving out the starch thickening is said to make the bowl lighter and easier to drink down than an ankake-style tanmen. Choosing toppings like wakame and onion that need no extra cooking is also said to let a shop turn an order around quickly.\n\n## Why it took this shape\nThe bowl is said to have been served to regular, local customers at Chinese-style diners around Hiratsuka for years, taking root less as one shop's signature dish than as a flavor shared across the town's Chinese eateries. Leaving out the starch and keeping the broth thin reads as what gave the bowl the everyday lightness that let it settle into local tables as something ordinary enough to eat any day of the week.",
+   "sources": [
+    {
+     "title": "ご当地ラーメン",
+     "url": "https://ja.wikipedia.org/wiki/ご当地ラーメン",
+     "publisher": "Wikipedia（最終手段。平塚市観光協会サイトに専用記事は未確認）",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "tanmen",
+     "relation_type": "派生",
+     "basis": "神奈川の一般的なタンメンから分かれた地域版"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "odawara",
+   "name_ja": "小田原系ラーメン",
+   "name_romaji": "Odawara-kei Ramen",
+   "name_en": "Odawara Ramen — dark soy ramen with flat, curly noodles and rolled wontons",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "神奈川県",
+   "origin_city": "小田原市",
+   "lat": 35.256,
+   "lng": 139.1522,
+   "primary_style": "醤油",
+   "summary_ja": "色の濃い醤油スープに、平打ちの縮れ麺を合わせる。具に細長く巻いたワンタンをのせる店が多いのが特徴で、城下町として栄えた小田原の中華食堂に、一軒ではなく街の味として根づいてきた一杯と伝わる。",
+   "summary_en": "A dark, strongly seasoned soy sauce broth paired with flat, curly noodles, often topped with slim, rolled wontons — a bowl said to have taken root at Chinese-style diners in this old castle town.",
+   "body_ja": "## 何でできているか\n色の濃い醤油スープはしっかりとした塩味とコクを持ち、ひと口すすると醤油だれの香ばしさが立つ。麺は平たく縮れた形で、スープをよく持ち上げるのが特徴とされる。具には細長く巻いたワンタンをのせる店が多く、皮のつるりとした食感と挽肉の旨みが濃いスープとよく合う。チャーシューやメンマを添えるだけの簡素な構成でまとめる店が多いという。\n\n## どう作るのか\n豚骨や鶏ガラのだしに濃口醤油だれをしっかり効かせ、色も味も濃く仕上げるのが基本の作り方と伝わる。麺は平打ちで縮れをつけて自家製する店が多いとされ、太すぎず細すぎない幅に仕立てることで、濃いスープにも負けない食感を出しているという。ワンタンは皮を細長く巻いて茹でることで、通常の四角いワンタンとは違う見た目と食感に仕立てられると語られる。\n\n## なぜこの形になったのか\n城下町として古くから商業が栄えた小田原の中華食堂で、常連客に向けて濃い味の一杯が出され続けてきたと伝わる。特定の一軒の看板というより、街の食堂に共通する味として広く根づいてきたという。細長いワンタンという独自の仕立ても、一軒の工夫が近隣の店にも伝わり、いつしか土地の型として定着したものと読める。街道と港を抱えて人の行き来が多かった土地柄が、濃い味を好む食文化を育てたとも語られる。",
+   "body_en": "## What it's made of\nThe broth runs dark, carrying a firm saltiness and depth, with the aroma of the soy tare rising on the first sip. The noodles are flat and curly, said to be shaped specifically to carry the thick broth well. Many shops top the bowl with slim, rolled wontons, their smooth skin and savory ground-meat filling playing well against the strong broth. Char siu and bamboo shoot round out an otherwise simple bowl.\n\n## How it's made\nThe basic method is said to be a pork-bone or chicken-bone stock pushed hard with a dark soy tare, aiming for a broth strong in both color and flavor. Many shops are said to make their own flat, curly noodles, cut to a width that's neither too thick nor too thin so it can stand up to the heavy broth. The wontons are said to be rolled into a long, slim shape before boiling, giving them a different look and bite from the usual square wonton.\n\n## Why it took this shape\nIn Odawara, a castle town with a long commercial history, the strongly flavored bowl is said to have been served to regular customers at Chinese-style diners across town rather than as one shop's signature. The slim, rolled wonton reads as one shop's own touch that spread to its neighbors over time until it settled in as the land's own shape.",
+   "sources": [
+    {
+     "title": "ご当地ラーメン",
+     "url": "https://ja.wikipedia.org/wiki/ご当地ラーメン",
+     "publisher": "Wikipedia（最終手段。小田原市観光協会サイトに専用記事は未確認）",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "koikuchi-shoyu",
+     "relation_type": "使用食材",
+     "basis": "色の濃い醤油だれをしっかり効かせたスープ"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "misaki-maguro",
+   "name_ja": "三崎まぐろラーメン",
+   "name_romaji": "Misaki Maguro Ramen",
+   "name_en": "Misaki Tuna Ramen — soy ramen built on a maguro-based broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "神奈川県",
+   "origin_city": "三浦市三崎",
+   "lat": 35.1385,
+   "lng": 139.6114,
+   "primary_style": "醤油",
+   "summary_ja": "遠洋まぐろ漁の水揚げ基地である三崎港で、まぐろのアラや骨からとっただしを使ったスープを醤油で仕立てたラーメン。港の食堂で50年近く出され続けてきた一杯もあると伝わる。",
+   "summary_en": "In Misaki Port, a landing base for offshore tuna boats, a soy sauce ramen is built on a broth drawn from tuna trimmings and bone — a bowl said to have been served for decades at diners along the port.",
+   "body_ja": "## 何でできているか\nスープにまぐろのアラや骨からとっただしを使うのが最大の特徴で、豚骨や鶏ガラだけのラーメンとは違う独特の風味がある。醤油だれで味を整えてあり、魚のだしと醤油の組み合わせが港町らしい一杯にまとまっている。具にまぐろを使う店もあり、フカヒレラーメンなど同じ港で揚がる素材を使った派生の一杯も並んで出されているという。\n\n## どう作るのか\n水揚げされたまぐろを加工する過程で出るアラや骨を、スープのだしとして活用するのが基本の作り方と伝わる。魚のだしは臭みが出やすいため、香味野菜や香辛料でくせを抑えながら炊く工夫がされているという。醤油だれで輪郭をはっきりさせることで、だしの個性を生かしつつ食べやすい一杯に仕立てているとされる。水揚げの状況によって仕入れられるアラの量が変わるため、その日ごとにだしの濃さが微妙に違うとも語られる。\n\n## なぜこの形になったのか\n三崎港は遠洋まぐろ漁船の水揚げ基地として知られ、まぐろの加工にともなって生まれるアラや骨が、港の食堂にとって身近な食材だったことがこの一杯の背景にあると伝わる。50年近くにわたって同じ味を守り続けてきた食堂もあるといい、遠洋漁業という港の生業がそのままラーメンの形に落とし込まれたと読める。豚骨や鶏ガラを仕入れるよりも、港に揚がる素材を使うほうが理にかなっていたとも語られる。",
+   "body_en": "## What it's made of\nThe defining feature is a broth drawn from tuna trimmings and bone, giving it a flavor distinct from ramen built purely on pork or chicken bone. The broth is rounded out with a soy sauce tare, and the combination of fish stock and soy sauce reads as distinctly a port town's bowl. Some shops also use tuna as a topping, and a shark-fin ramen made from the same port's catch is said to be served alongside it at some counters.\n\n## How it's made\nThe basic method is said to be putting the trimmings and bone left over from processing landed tuna to use as the broth's stock. Because fish stock can carry a strong off-flavor, aromatics and spices are said to be worked in to keep it in check while it simmers. Rounding the broth out with a soy sauce tare is said to sharpen its edges, keeping the stock's distinct character while making the bowl easy to eat.\n\n## Why it took this shape\nMisaki Port is known as a landing base for offshore tuna fishing boats, and the trimmings and bone left over from processing the catch are said to have been a stock ingredient close at hand for the diners along the port. Some of those diners are said to have kept the same recipe for nearly fifty years — the offshore fishing trade itself, read straight into the shape of a bowl of ramen.",
+   "sources": [
+    {
+     "title": "港楽亭",
+     "url": "https://miura-info.ne.jp/gourmet-misaki/gourmet-18/",
+     "publisher": "みうら観光ガイド（三浦市観光協会公式）",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "maguro",
+     "relation_type": "使用食材",
+     "basis": "まぐろのアラ・骨をスープのだしに使う"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "odawara-tantan",
+   "name_ja": "小田原タンタン麺",
+   "name_romaji": "Odawara Tantanmen",
+   "name_en": "Odawara Tantanmen — a thick, sweet-spicy ankake tantanmen",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "神奈川県",
+   "origin_city": "小田原市上曽我",
+   "lat": 35.2969,
+   "lng": 139.123,
+   "primary_style": "その他",
+   "summary_ja": "挽肉やザーサイ、にんにく、豆板醤を合わせた、とろみの強い甘辛あんかけスープの担々麺。1975年に小田原市上曽我で生まれたと伝わり、一般的な担々麺よりも濃く甘みのきいた味が特徴。",
+   "summary_en": "A tantanmen with a thick, sweet-and-spicy ankake-style sauce built on ground pork, pickled mustard greens, garlic, and doubanjiang, said to have originated in 1975 in Kamisoga, Odawara, with a heavier, sweeter profile than standard tantanmen.",
+   "body_ja": "## 何でできているか\nスープにはとろみが強くついていて、丼を傾けてもゆっくりとしか動かない。挽肉、ザーサイ、にんにく、豆板醤を合わせた甘辛い味つけで、辛さよりも甘みとコクが先に立つのが一般的な担々麺との違いとされる。あんかけ状のスープが麺にしっかりからみつくため、最後の一本まで濃い味を保ったまま食べ進められる。表面を覆うあんが湯気を閉じ込めるので、丼も冷めにくいという。\n\n## どう作るのか\n挽肉をにんにくと豆板醤で炒めて香りを立て、ザーサイを加えてから片栗粉でとろみをつけたスープに仕立てるのが基本という。甘みを強めに効かせることで、辛味だけが際立つ一般的な担々麺とは違う、まろやかな辛甘のバランスに仕上げているとされる。とろみが強い分、麺にはコシのあるものを合わせ、あんの重さに負けないようにしているという。\n\n## なぜこの形になったのか\n1975年、小田原市上曽我で生まれたと伝わるこの一杯は、担々麺という中華の一皿を、甘辛いあんかけという和風の調理法に寄せて再構成したものと読める。同じ関東で生まれたご当地担々麺として、ラー油の辛さを前面に出す千葉の勝浦タンタンメンとしばしば並び称されるが、辛さより甘みととろみで攻める点で対照的な一杯になっている。",
+   "body_en": "## What it's made of\nThe broth carries a heavy thickening, moving only slowly even when the bowl is tilted. Ground pork, pickled mustard greens, garlic, and doubanjiang are combined into a sweet-and-spicy seasoning where sweetness and depth lead ahead of heat — the point where it diverges from standard tantanmen. Because the thick, ankake-style sauce clings tightly to the noodles, the bowl holds its strong flavor down to the last strand.\n\n## How it's made\nThe basic method is said to be frying ground pork with garlic and doubanjiang to build aroma, adding pickled mustard greens, then thickening the broth with a potato-starch slurry. Leaning the seasoning toward sweetness is said to give the bowl a milder, rounder balance of heat and sweetness than a standard tantanmen, where chili heat tends to dominate. Because the sauce is so thick, the noodles used are said to have firm bite, so they hold up against the weight of the sauce.\n\n## Why it took this shape\nThe bowl is said to have originated in 1975 in Kamisoga, part of Odawara, reworking tantanmen — a Chinese dish — into something closer to a Japanese-style thick sauce over noodles. As a regional tantanmen born in the same Kanto region, it's often mentioned alongside Chiba's Katsuura Tantanmen, which pushes chili-oil heat to the front — a contrast to Odawara's own bowl, which leads with sweetness and body instead of heat.",
+   "sources": [
+    {
+     "title": "小田原タンタン麺 発祥の店 中華四川",
+     "url": "https://shisenodawara.jimdofree.com/",
+     "publisher": "中華四川（小田原タンタン麺発祥の店・公式サイト）",
+     "accessed_at": "2026-09-15"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "katsuura-tantan",
+     "relation_type": "兄弟",
+     "basis": "ともに関東発のご当地担々麺として並び称される"
+    }
+   ],
+   "tags": [
+    "spicy",
+    "pork"
+   ]
+  },
+  {
+   "slug": "kanagawa-tanrei",
+   "name_ja": "神奈川淡麗系",
+   "name_romaji": "Kanagawa Tanrei-kei",
+   "name_en": "Kanagawa Tanrei-kei — a light, clear soy ramen built on thin noodles",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "神奈川県",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "醤油",
+   "summary_ja": "あっさりとした醤油味の澄んだスープに、細めの麺を合わせる。脂を強く効かせた家系ラーメンとしばしば対比され、同じ神奈川で育った、濃さとは正反対の極として語られる系統。",
+   "summary_en": "A light, clear soy sauce broth paired with thin noodles, often set up in contrast to the heavily fatted iekei style as the other pole of Kanagawa's ramen culture.",
+   "body_ja": "## 何でできているか\n澄んだ醤油スープはあっさりとした味わいで、脂はごく控えめに抑えられている。細めのまっすぐな麺を合わせる店が多く、スープの軽さと麺の繊細さが釣り合うように仕立てられているという。家系ラーメンのようにカスタマイズの幅を売りにするのではなく、スープと麺の完成度そのものを味わわせる方向でまとめる店が多いとされる。\n\n## どう作るのか\n動物系や魚介系のだしを丁寧に炊き、雑味や脂をできるだけ取り除いてから醤油だれを合わせるのが基本の作り方と伝わる。だしの澄み具合を保つため、強火で長時間煮込むよりも火加減を抑えて炊く店が多いという。麺も細く繊細に仕立てることで、あっさりしたスープに負けない存在感を持たせているとされる。脂を落とす手間のぶん、だしそのものの質がそのまま味に出るともいう。\n\n## なぜこの形になったのか\n濃厚な豚骨醤油と鶏油で知られる家系ラーメンが神奈川のラーメン文化の一方の極を担う中で、それとは対照的にあっさりとした一杯を追求する動きが並行して育ってきたと読める。同じ土地で濃さと軽さという正反対の方向が磨かれてきたことが、神奈川のラーメンの幅を広げてきたと語られる。一つの型に寄らず両極を残したことが、この土地のラーメン文化の厚みにつながったとも読める。",
+   "body_en": "## What it's made of\nThe clear soy sauce broth is light in flavor, with fat kept to a bare minimum. Many shops pair it with thin, straight noodles, matched so the broth's lightness and the noodles' delicacy stay in balance. Rather than selling customization the way iekei shops do, many of these shops are said to focus instead on the sheer finish of the broth and noodles themselves.\n\n## How it's made\nThe basic method is said to be simmering animal or seafood stock carefully, skimming off as much off-flavor and fat as possible, before finishing with a soy sauce tare. To keep the stock clear, many shops are said to hold the flame low rather than boiling hard for a long stretch. The noodles, too, are cut thin and delicate, giving them presence enough to stand up against so light a broth.\n\n## Why it took this shape\nWhile the rich pork-bone soy and chicken-fat iekei style has come to stand for one pole of Kanagawa's ramen culture, a parallel pursuit of the opposite — a light, clear bowl — reads as having grown up alongside it. That the same region has sharpened both richness and lightness as opposite directions is said to be part of what has widened Kanagawa's ramen culture as a whole.",
+   "sources": [
+    {
+     "title": "ご当地ラーメン",
+     "url": "https://ja.wikipedia.org/wiki/ご当地ラーメン",
+     "publisher": "Wikipedia（最終手段。単一店舗に限らない様式のため自治体資料は未確認）",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "iekei",
+     "relation_type": "対比",
+     "basis": "同じ神奈川発でも家系の濃厚さとは対照的なあっさり系として語られる"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ]
+  }
+ ],
+ "notes": "対象外: アホーメン（神奈川県）。日本ラーメン協会「日本ご当地ラーメン一覧」ポスターに掲載があり台帳のmissingに含まれるが、由来・地域・特徴を確認できる二次資料が検索で見つからず（Bing/Yahoo検索でも無関係な結果しか得られなかった）、断定的な記述を作れないため今回は見送った。要判断として保留。\n出典について: 東京都4件・神奈川県6件のうち、自治体・観光協会等の一次〜準一次資料で直接裏取りできたのは 荻窪ラーメン（すぎなみ学倶楽部）、家系ラーメン（吉村家公式サイト ieke1.com）、三崎まぐろラーメン（三浦市観光協会公式サイト）の3件。残り6件（油そば・つけ麺・背脂ラーメン・平塚系タンメン・小田原系ラーメン・小田原タンタン麺・神奈川淡麗系）は、自治体・観光協会・組合等のサイト内検索やBing/Yahoo検索で一次資料を探したが見つからず、Wikipediaを最終手段として使用した（各itemのsourcesにその旨を明記）。特に小田原タンタン麺のWikipedia記述の原出典は書籍『ラーメン王国神奈川2011』（西東社）でURLなし。\n小田原系ラーメンと小田原タンタン麺は台帳に別項目として立っているため別itemとして作成した（前者は濃口醤油の平打ち麺＋ワンタン、後者はとろみの強い甘辛担々麺で、由来・特徴とも別物）。\n途中経過: セッション中断（利用枠上限）でscratchpad配下の作業ファイルが一度消失し、再構築した。台帳(data/ledgers/ramen-kyokai-master.json)と共有参照ファイル(all-items-ja.txt / all-slugs.txt / existing-relation-pairs.txt)は復旧していたためそのまま使用。to_slug存在チェックはこれに加え、リポジトリdata/配下の実データ(csv/json計約2200 slug)からも突合して二重確認した。"
 }

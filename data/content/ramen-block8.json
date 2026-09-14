@@ -1,461 +1,455 @@
 {
-  "items": [
+ "items": [
+  {
+   "slug": "nagahama",
+   "name_ja": "長浜ラーメン",
+   "name_romaji": "Nagahama Ramen",
+   "name_en": "Nagahama Ramen — the fish-market bowl behind Hakata's thin noodle",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "福岡県",
+   "origin_city": "福岡市中央区長浜",
+   "lat": 33.5975,
+   "lng": 130.3956,
+   "primary_style": "豚骨",
+   "summary_ja": "福岡市の鮮魚市場そばで育った豚骨ラーメン。1952年開業の「元祖長浜屋」が濃厚な白濁スープを打ち出したと伝わり、博多の極細麺・替え玉文化のもとになったとされる一杯。",
+   "summary_en": "A pork-bone ramen that grew up beside Fukuoka's fish market. The 1952 shop Ganso Nagahamaya is said to have pushed the broth toward a thick, cloudy white, and the style is often named as a root of Hakata's ultra-thin noodle and kaedama refill culture.",
+   "body_ja": "## 何でできているか\n骨から出る乳白色のスープと、驚くほど細いストレート麺が軸になる。競りの合間に手早くかき込める一杯として育ったため、麺は茹で時間が短くて済む細さになっており、スープは短時間で骨の旨みを引き出す濃さを狙う。具はチャーシューとネギ、紅生姜程度の簡素な構成で、麺そのものと熱いスープの一体感を邪魔しない。麺だけを足す替え玉の作法も、この一杯の輪郭を語るうえで欠かせない要素になっている。\n## どう作るのか\n豚骨を強火で長く炊き、白く濁るまで乳化させてから、極細麺をごく短時間だけ茹でて合わせる。一説によると、1952年に元祖長浜屋が長崎ちゃんぽんの白濁スープをヒントに、トンコツスープをより濃厚に仕立てたという。麺だけを注文し足す「替え玉」の仕組みも、この地区の食べ方から広がったと語られている。麺の硬さやスープの濃さを客の好みで細かく指定できる点も、この一帯で磨かれた作法とされる。\n## なぜこの形になったのか\n長浜は鮮魚市場で働く人たちの町で、仲買人たちには競りの合間の短い休憩しかなかった。すぐ茹だって、すぐ食べ終えられる一杯が求められたことが、極細麺と手早い提供という形を生んだと伝わる。博多の中心部からやや離れた市場町で磨かれた実務的な一杯が、のちに博多ラーメンとして広く知られる型の土台になったとされている。",
+   "body_en": "## What it's made of\nA milky white pork-bone broth pairs with startlingly thin, straight noodles. Built for eating fast between auctions, the noodles are thin enough to cook in seconds, while the broth is brewed strong enough to draw out bone flavor in a short time. Toppings stay spare — chashu, scallion, red pickled ginger — so nothing competes with the noodle-and-broth combination itself. Ordering extra noodles alone, kaedama, is part of how this bowl is eaten.\n## How it's made\nPork bones are boiled hard and long until the broth emulsifies into cloudy white, then the ultra-thin noodles are boiled only briefly before joining it. One account holds that in 1952 the shop Ganso Nagahamaya, taking a cue from the milky broth of Nagasaki champon, pushed its tonkotsu broth toward a richer, thicker style. The custom of ordering extra noodles alone — kaedama — is also said to have spread from how this district ate. Diners can specify noodle firmness and broth richness in fine detail, a habit said to have been honed here.\n## Why it took this shape\nNagahama was a fish-market district, and the brokers working it had only short breaks between auctions. A bowl that cooked fast and finished fast is said to have driven the noodle toward extreme thinness and the whole meal toward quick service. A practical bowl honed in a market town slightly apart from central Hakata is said to have become the base for what later came to be known widely as Hakata ramen.",
+   "sources": [
     {
-      "slug": "nagahama",
-      "name_ja": "長浜ラーメン",
-      "name_romaji": "Nagahama Ramen",
-      "name_en": "Nagahama Ramen — the fish-market bowl behind Hakata's thin noodle",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "福岡県",
-      "origin_city": "福岡市中央区長浜",
-      "lat": 33.5975,
-      "lng": 130.3956,
-      "primary_style": "豚骨",
-      "summary_ja": "福岡市の鮮魚市場そばで育った豚骨ラーメン。1954年開業の「元祖長浜屋」が濃厚な白濁スープを打ち出したと伝わり、博多の極細麺・替え玉文化のもとになったとされる一杯。",
-      "summary_en": "A pork-bone ramen that grew up beside Fukuoka's fish market. The 1954 shop Ganso Nagahamaya is said to have pushed the broth toward a thick, cloudy white, and the style is often named as a root of Hakata's ultra-thin noodle and kaedama refill culture.",
-      "body_ja": "## 何でできているか\n骨から出る乳白色のスープと、驚くほど細いストレート麺が軸になる。競りの合間に手早くかき込める一杯として育ったため、麺は茹で時間が短くて済む細さになっており、スープは短時間で骨の旨みを引き出す濃さを狙う。具はチャーシューとネギ、紅生姜程度の簡素な構成で、麺そのものと熱いスープの一体感を邪魔しない。麺だけを足す替え玉の作法も、この一杯の輪郭を語るうえで欠かせない要素になっている。\n## どう作るのか\n豚骨を強火で長く炊き、白く濁るまで乳化させてから、極細麺をごく短時間だけ茹でて合わせる。一説によると、1954年に元祖長浜屋が長崎ちゃんぽんの白濁スープをヒントに、トンコツスープをより濃厚に仕立てたという。麺だけを注文し足す「替え玉」の仕組みも、この地区の食べ方から広がったと語られている。麺の硬さやスープの濃さを客の好みで細かく指定できる点も、この一帯で磨かれた作法とされる。\n## なぜこの形になったのか\n長浜は鮮魚市場で働く人たちの町で、仲買人たちには競りの合間の短い休憩しかなかった。すぐ茹だって、すぐ食べ終えられる一杯が求められたことが、極細麺と手早い提供という形を生んだと伝わる。博多の中心部からやや離れた市場町で磨かれた実務的な一杯が、のちに博多ラーメンとして広く知られる型の土台になったとされている。",
-      "body_en": "## What it's made of\nA milky white pork-bone broth pairs with startlingly thin, straight noodles. Built for eating fast between auctions, the noodles are thin enough to cook in seconds, while the broth is brewed strong enough to draw out bone flavor in a short time. Toppings stay spare — chashu, scallion, red pickled ginger — so nothing competes with the noodle-and-broth combination itself. Ordering extra noodles alone, kaedama, is part of how this bowl is eaten.\n## How it's made\nPork bones are boiled hard and long until the broth emulsifies into cloudy white, then the ultra-thin noodles are boiled only briefly before joining it. One account holds that in 1954 the shop Ganso Nagahamaya, taking a cue from the milky broth of Nagasaki champon, pushed its tonkotsu broth toward a richer, thicker style. The custom of ordering extra noodles alone — kaedama — is also said to have spread from how this district ate. Diners can specify noodle firmness and broth richness in fine detail, a habit said to have been honed here.\n## Why it took this shape\nNagahama was a fish-market district, and the brokers working it had only short breaks between auctions. A bowl that cooked fast and finished fast is said to have driven the noodle toward extreme thinness and the whole meal toward quick service. A practical bowl honed in a market town slightly apart from central Hakata is said to have become the base for what later came to be known widely as Hakata ramen.",
-      "sources": [
-        {
-          "title": "ご当地ラーメン",
-          "url": "https://ja.wikipedia.org/wiki/ご当地ラーメン",
-          "publisher": "Wikipedia",
-          "accessed_at": "2026-09-13"
-        },
-        {
-          "title": "博多ラーメン（「長浜ラーメン」参照先）",
-          "url": "https://ja.wikipedia.org/wiki/長浜ラーメン",
-          "publisher": "Wikipedia",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "hakata",
-          "relation_type": "対比",
-          "basis": "どちらも福岡市の豚骨ラーメンだが、長浜は鮮魚市場発の極細麺・急ぎ食べの一杯として育ち、博多ラーメンとは別の由来譚を持つとされる"
-        }
-      ],
-      "tags": [
-        "pork"
-      ]
-    },
-    {
-      "slug": "yaki-ramen",
-      "name_ja": "焼きラーメン",
-      "name_romaji": "Yaki Ramen",
-      "name_en": "Yaki Ramen — pork-bone ramen noodles grilled with sauce on an iron plate",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "福岡県",
-      "origin_city": "福岡市中央区天神",
-      "lat": 33.5926,
-      "lng": 130.3987,
-      "primary_style": "豚骨",
-      "summary_ja": "茹でたラーメンの麺に豚骨スープと特製ソースを絡め、鉄板で焼き上げる一皿。1968年創業の天神の屋台「小金ちゃん」が生んだとされ、酒の締めや肴として食べられてきた。",
-      "summary_en": "Boiled ramen noodles tossed with pork-bone broth and a house sauce, then seared on an iron plate. Credited to Kokin-chan, a food stall founded in 1968 in Fukuoka's Tenjin district, and eaten both as a late-night dish and a drinking companion.",
-      "body_ja": "## 何でできているか\n見た目は焼きそばに近いが、使う麺は中華麺ではなくラーメンの麺そのもの。茹でた麺を豚骨スープと特製のソースで和え、キャベツやもやしと一緒に鉄板でしっかり焼き付ける。仕上げに青ねぎや紅生姜、時に生卵を落とす店もあり、香ばしい焦げの香りとソースの甘辛さ、豚骨のコクが同時に来る。汁物のラーメンとは違い、箸だけで最後まで食べ進められる一皿でもある。\n## どう作るのか\n屋台や小さな店の鉄板で、茹で麺と豚骨スープ、ソースを手早く炒め合わせ、水分を飛ばしながら麺の表面に焦げ目をつける。一説によると、1968年に天神で屋台「小金ちゃん」を始めた店主が、熱いスープを飲みづらい夏場の客のために、ラーメンの麺とスープを鉄板で焼く食べ方を考えたという。店ごとにソースの配合や麺の焼き加減が異なり、それぞれの持ち味になっている。\n## なぜこの形になったのか\n屋台は狭く、夜遅くまで酒を飲む客が多い場所だった。汁物のラーメンをそのまま出すより、ソースで香ばしく焼き上げたほうが、ビールや焼酎と一緒に箸が進む。暑い時季でも食べやすい一皿を、という屋台ならではの工夫が、ラーメンの麺を鉄板料理に転じさせたと伝わっている。締めの一杯としてだけでなく、酒の肴としても親しまれてきた背景がある。",
-      "body_en": "## What it's made of\nIt looks close to yakisoba, but the noodles are genuine ramen noodles rather than the springier yakisoba kind. Boiled noodles are tossed with pork-bone broth and a house sauce, then seared hard on an iron plate with cabbage and bean sprouts. Some shops finish it with scallion, red pickled ginger, or a raw egg, so the char, the sweet-savory sauce, and the pork-bone depth all arrive at once. Unlike ramen in broth, it can be eaten start to finish with chopsticks alone.\n## How it's made\nAt a stall or small shop, boiled noodles, pork-bone broth, and sauce are stir-fried fast on an iron plate, letting the liquid cook off as the noodle surface picks up a char. One account holds that in 1968 the owner of the Tenjin stall Kokin-chan devised this iron-plate treatment for ramen noodles and broth for summer customers who found the hot soup hard to drink. Sauce blends and how hard the noodles are seared vary shop by shop, giving each its own signature.\n## Why it took this shape\nFood stalls were cramped, late-night places full of drinkers. Searing the noodles with sauce until fragrant suited a glass of beer or shochu better than serving them in broth as usual. A stall-born workaround for a dish that stayed appetizing even in the heat is said to have turned ramen noodles into a griddle dish, one prized both as a closing course and as a companion to drinking.",
-      "sources": [
-        {
-          "title": "焼きラーメン",
-          "url": "https://ja.wikipedia.org/wiki/焼きラーメン",
-          "publisher": "Wikipedia",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "hakata",
-          "relation_type": "派生",
-          "basis": "屋台で余った博多とんこつラーメンの麺とスープを鉄板で焼き直す食べ方として生まれたとされる"
-        }
-      ],
-      "tags": [
-        "pork"
-      ]
-    },
-    {
-      "slug": "chanraa",
-      "name_ja": "ちゃんらー",
-      "name_romaji": "Chanraa",
-      "name_en": "Chanraa — chanpon noodles dropped into a Japanese-style broth",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "福岡県",
-      "origin_city": "北九州市門司区",
-      "lat": 33.9461,
-      "lng": 130.9614,
-      "primary_style": "その他",
-      "summary_ja": "北九州市門司区の食堂で生まれたとされる麺料理。ちゃんぽん麺をいりこだしのうどん風つゆに入れた一杯で、長崎ちゃんぽんを食べたいが小遣いが足りない生徒のために考えられたと伝わる。",
-      "summary_en": "A noodle dish said to have started at a diner in Moji, Kitakyushu. Chanpon-style noodles go into a Japanese dried-sardine broth closer to udon than to the original pork-and-seafood soup, devised, it's said, for a student who wanted Nagasaki champon but couldn't afford it.",
-      "body_ja": "## 何でできているか\n麺は長崎ちゃんぽんと同じ太い中華麺を使うが、スープはいりこ（煮干し）でとった和風だしで、うどんつゆに近い。具はもやしとキャベツというごく簡素な構成が原型で、現在は豚肉を加える店もある。名前は「ちゃんぽん」と「ラーメン」を混ぜたような響きから来ているとされ、見た目はちゃんぽんに近いのに口に含むと和風の出汁が広がる意外性がある。\n## どう作るのか\nいりこを効かせた和風だしを仕立て、そこに太めのちゃんぽん麺を入れて煮る。一説によると、門司区の食堂「清美食堂」で、長崎から引っ越してきた女子中学生が「ちゃんぽんを食べたいがお小遣いが足りない」と話したのを聞いた店主が、安く作れる和風だしとちゃんぽん麺を組み合わせて出したのが始まりという。具はもやしとキャベツを炒めずにそのまま加えるだけの簡便さも特徴とされる。\n## なぜこの形になったのか\n門司港は長崎方面との行き来が多い港町で、ちゃんぽんの味を知る人が集まっていた。本場の豚肉や魚介をふんだんに使うちゃんぽんは値が張るため、身近な和風だしともやし・キャベツで代用したことが、この折衷的な一杯を生んだと伝わっている。2016年には東九州自動車道の開通を記念したコラボ弁当が九州エリアで販売され、地域の名物として広く知られるきっかけにもなった。",
-      "body_en": "## What it's made of\nThe noodles are the same thick style used in Nagasaki champon, but the broth is a Japanese dried-sardine stock closer to udon soup than to champon's original pork-and-seafood base. The original toppings were simple — bean sprouts and cabbage — though some shops today add pork. The name is said to echo a blend of champon and ramen, and the dish carries a small surprise: it looks like champon but tastes of a Japanese broth.\n## How it's made\nA dried-sardine-forward Japanese broth is prepared, and the thick champon-style noodles are simmered in it. One account traces it to Moji's Kiyomi Shokudo, where the owner heard a junior-high student who had moved from Nagasaki say she wanted champon but couldn't afford it, and answered with an affordable dish combining a Japanese broth and champon noodles. Simply adding raw bean sprouts and cabbage without stir-frying them first is also part of the dish's simplicity.\n## Why it took this shape\nMoji was a port town with heavy traffic to and from the Nagasaki area, so people who knew the taste of champon were close at hand. Real champon, loaded with pork and seafood, cost more to make, and substituting an everyday Japanese broth with bean sprouts and cabbage is said to have produced this hybrid bowl. In 2016 a tie-in bento sold across Kyushu to mark a new expressway opening is said to have helped carry the dish's name further afield.",
-      "sources": [
-        {
-          "title": "ちゃんらー",
-          "url": "https://ja.wikipedia.org/wiki/ちゃんらー",
-          "publisher": "Wikipedia",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "nagasaki-champon",
-          "relation_type": "対比",
-          "basis": "同じちゃんぽん麺を使うが、長崎ちゃんぽんの豚肉・魚介出汁ではなく、いりこの和風だしを使う点が対照的"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "slug": "majenba",
-      "name_ja": "マジェンバ",
-      "name_romaji": "Majenba",
-      "name_en": "Majenba — Ogi's mix-it-yourself noodles under a sweet-spicy sauce",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "佐賀県",
-      "origin_city": "小城市",
-      "lat": 33.2725,
-      "lng": 130.227,
-      "primary_style": "その他",
-      "summary_ja": "佐賀県小城市で2011年に考案された混ぜ麺。名前は「混ぜてください」を意味する佐賀弁「混ぜんば」から来ており、小城産の食材を乗せた麺を甘辛いタレとよく混ぜて食べる。",
-      "summary_en": "A mix-it-yourself noodle dish devised in Ogi, Saga Prefecture in 2011. The name comes from the local dialect majenba, meaning roughly please mix it, and diners stir noodles topped with Ogi-grown ingredients into a sweet-spicy sauce.",
-      "body_ja": "## 何でできているか\n汁のない混ぜ麺で、麺は中華麺、パスタ、うどんなど店によってさまざま。共通しているのは全店で使う甘辛い「マジェンバのたれ」で、これを小城産の野菜や肉などのトッピングごと麺とよく混ぜてから食べる。厳密な決まりが少なく、店ごとのアレンジが前提になっている一皿で、食べる側もどの店の一杯かによって印象が変わる楽しみがある。\n## どう作るのか\n茹でた麺に小城の食材を使ったトッピングをのせ、共通のタレを回しかけてよく混ぜ合わせる。一説によると、小城羊羹や鯉料理で知られる小城市がさらなる知名度向上を狙って2011年に考案したとされ、名前は「混ぜて」を意味する佐賀弁「混ぜんば」に由来するという。2016年からはたれ自体も市販され、家庭でも同じ味を再現できるようになった。\n## なぜこの形になったのか\n麺の種類やスープの型を固定しなかったのは、既存のラーメン屋やうどん屋がそれぞれ自分の得意な麺でこの企画に参加できるようにするためだったと伝わる。統一されているのは「地元産の食材をのせて、共通のたれで混ぜる」という食べ方の型だけで、それが町おこしの一皿としての柔軟さにつながっているとされる。2019年時点で小城駅・牛津駅周辺を中心に約10軒が提供していた。",
-      "body_en": "## What it's made of\nThis is a brothless mix-it-yourself noodle dish; the noodles themselves vary by shop — Chinese-style, pasta, even udon. What every shop shares is a common sweet-spicy majenba sauce, poured over noodles topped with Ogi-grown vegetables or meat and stirred together before eating. Few rules are fixed, and shop-by-shop variation is built into the concept, so the bowl's character shifts with where it's ordered.\n## How it's made\nBoiled noodles are topped with Ogi-sourced ingredients, doused in the shared sauce, and mixed thoroughly. One account holds that Ogi — already known for its yokan sweets and carp dishes — devised the dish in 2011 to raise its profile further, naming it after majenba, a local dialect phrase meaning please mix it. Since 2016 the sauce itself has also been sold retail, letting the same flavor be made at home.\n## Why it took this shape\nLeaving the noodle type and broth style unfixed is said to have let existing ramen and udon shops around town join the project each with their own noodle. The only constant is the format itself — local ingredients on top, mixed with a shared sauce — a flexibility said to serve the dish's purpose as a town-promotion project. As of 2019 around ten shops near Ogi and Ushizu stations were said to be serving it.",
-      "sources": [
-        {
-          "title": "マジェンバ",
-          "url": "https://ja.wikipedia.org/wiki/マジェンバ",
-          "publisher": "Wikipedia",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "saga",
-          "relation_type": "対比",
-          "basis": "同じ佐賀県の麺だが、佐賀ラーメンがスープ麺であるのに対し、マジェンバはタレで混ぜて食べる汁なし麺という点で対照的"
-        }
-      ],
-      "tags": [
-        "no_broth"
-      ]
-    },
-    {
-      "slug": "hirado-ago",
-      "name_ja": "あごだしラーメン",
-      "name_romaji": "Agodashi Ramen",
-      "name_en": "Agodashi Ramen — flying-fish stock from the islands off Hirado",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "長崎県",
-      "origin_city": "平戸市生月町",
-      "lat": 33.3567,
-      "lng": 129.4326,
-      "primary_style": "醤油",
-      "summary_ja": "長崎県平戸市の生月島を発祥とするラーメン。あご（飛魚）の焼き干しでとった出汁を軸にした醤油ベースのスープで、あごだし文化が根づく長崎県内の広い地域で食べられている。",
-      "summary_en": "A ramen said to have started on Ikitsuki island off Hirado, Nagasaki Prefecture. A soy-based broth built on grilled and dried flying-fish stock, eaten across a wider stretch of Nagasaki where agodashi is part of everyday cooking.",
-      "body_ja": "## 何でできているか\nあご（トビウオ）を焼いて干した焼きあごから引いた出汁が土台の、醤油仕立てのスープ。魚介の香りは強いが脂は少なく、後味はすっきりとしている。麺は中細のストレートが多く、あっさりしたスープをまとってするすると食べ進められる。骨太な豚骨系とは異なる方向性を狙った一杯として語られることが多く、具もチャーシューより魚介系の練り物を添える店が目立つ。\n## どう作るのか\n焼きあごをじっくり煮出して出汁をとり、醤油だれと合わせてスープに仕立てる。トビウオが多く獲れる平戸市生月島発祥とされ、あごだし発祥地であるこの一帯では、もともと雑煮やうどんつゆにもあごだしを使う習慣があり、その延長でラーメンにも用いられるようになったと伝わる。焼く工程を挟むことで、生の魚だしにはない香ばしさが加わるのも特徴とされる。\n## なぜこの形になったのか\n生月島を含む平戸周辺はトビウオ漁が盛んな土地で、正月の雑煮など日常の出汁にあごを使う文化が根づいていた。豚骨の濃厚なスープが主流の九州にあって、身近にある魚のだしを生かした軽やかな一杯を作ろうとしたことが、あごだしラーメンという形につながったとされている。長崎県内の広い範囲で似た発想の一杯が作られているのも、この食文化の根の深さを物語っている。",
-      "body_en": "## What it's made of\nA soy-based broth built on stock from ago — flying fish that's grilled, then dried. Seafood aroma runs strong while fat stays low, leaving a clean finish. Medium-thin straight noodles are common, built to carry the lighter broth easily. It's often described as deliberately taking a different direction from the region's heavier pork-bone bowls.\n## How it's made\nGrilled dried flying fish is simmered at length for stock, then combined with a soy tare. The dish is said to trace to Ikitsuki island off Hirado, an area rich in flying-fish catches; agodashi was already used in New Year's zoni and udon broth locally, and that habit is said to have carried over into ramen. Grilling the fish before drying is said to add a roasted note that a raw fish stock wouldn't have.\n## Why it took this shape\nThe waters around Hirado, Ikitsuki included, have long supported flying-fish fishing, and using ago for everyday stock — including New Year's zoni — is rooted here. Amid a Kyushu ramen scene dominated by rich pork-bone broths, reaching for a fish stock already close at hand is said to have produced this lighter bowl.",
-      "sources": [
-        {
-          "title": "あごだし",
-          "url": "https://ja.wikipedia.org/wiki/あごだし",
-          "publisher": "Wikipedia",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "tobiuo",
-          "relation_type": "使用食材",
-          "basis": "焼きあご（トビウオ）を煮出した出汁がスープの土台になる"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "slug": "tamana",
-      "name_ja": "玉名ラーメン",
-      "name_romaji": "Tamana Ramen",
-      "name_en": "Tamana Ramen — the Kurume-lineage bowl that fed Kumamoto's founders",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "熊本県",
-      "origin_city": "玉名市",
-      "lat": 32.9421,
-      "lng": 130.5773,
-      "primary_style": "豚骨",
-      "summary_ja": "熊本県玉名市のご当地ラーメン。1952年に久留米の名店「三九」が旧国鉄高瀬駅前に出店したのが始まりとされ、この味に感銘を受けた人々が後の熊本ラーメンの代表店を興したと伝わる。",
-      "summary_en": "A pork-bone ramen from Tamana, Kumamoto Prefecture. Said to trace to 1952, when the Kurume shop Sanku opened a branch near the old Takase station, and to have inspired the founders of Kumamoto ramen's leading shops after tasting it there.",
-      "body_ja": "## 何でできているか\n濃厚な豚骨スープと中細のストレート麺が軸で、仕上げに焦がしにんにくを効かせるのが定番。焦がしにんにくの量は客の好みで調整されることが多く、香ばしさと後を引くコクが特徴とされる。作り方は店ごとに幅があり、玉名という土地の名の下で緩やかにまとまっている一杯で、久留米系と熊本系の中間的な性格を持つとも語られる。\n## どう作るのか\n豚骨をじっくり炊いて濃いスープを仕立て、焦がしにんにくの香油を別に用意して仕上げに加える。一説によると、1952年に久留米ラーメンの名店「三九」が玉名市の旧国鉄高瀬駅前に支店を出したのが始まりで、この店の味が評判となり、後の熊本ラーメンの基礎になったと語られている。海苔養殖で働く人たちが温かい一杯を求めたことも、店が根づく後押しになったと伝わる。\n## なぜこの形になったのか\n玉名は海苔養殖などの働き手が多い土地で、温かく食べごたえのある一杯が求められた。熊本市から三九を訪れた人々がその味に感銘を受け、のちに熊本の代表的なラーメン店を興したとされ、玉名で磨かれた久留米系の味が熊本ラーメンのルーツの一つに数えられる理由になっている。街道と鉄道の結節点だった立地も、この味が広く伝わった背景として語られる。",
-      "body_en": "## What it's made of\nA thick pork-bone broth with medium-thin straight noodles is the base, finished with browned garlic oil as standard practice. The amount of browned garlic is often adjusted to the diner's taste, and its aroma and lingering depth are the dish's signature. Preparation varies by shop, loosely unified under the Tamana name, and it's sometimes described as sitting between the Kurume and Kumamoto lineages.\n## How it's made\nPork bones are simmered long for a thick broth, with browned garlic oil prepared separately and added at the finish. One account traces the dish to 1952, when Sanku — a well-known Kurume ramen shop — opened a branch near Tamana's old Takase station; the shop's flavor is said to have become well known and to have laid the groundwork for what later became Kumamoto ramen. Workers in the local nori-farming trade wanting a hot meal are also said to have helped the shop take root.\n## Why it took this shape\nTamana was a town with many laborers, nori farming among them, who wanted a hot, filling bowl. People who traveled from Kumamoto city to try Sanku are said to have been impressed by its flavor and later opened Kumamoto's leading ramen shops — one reason the Kurume-lineage taste honed in Tamana is counted among the roots of Kumamoto ramen.",
-      "sources": [
-        {
-          "title": "玉名ラーメン",
-          "url": "https://ja.wikipedia.org/wiki/玉名ラーメン",
-          "publisher": "Wikipedia",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "kurume",
-          "relation_type": "派生",
-          "basis": "久留米の名店「三九」が玉名に出した支店の味が玉名ラーメンの始まりとされる"
-        },
-        {
-          "to_slug": "kumamoto",
-          "relation_type": "源流",
-          "basis": "玉名の三九の味に感銘を受けた人々が、後の熊本ラーメンの代表店を興したと伝わる"
-        }
-      ],
-      "tags": [
-        "pork"
-      ]
-    },
-    {
-      "slug": "saiki",
-      "name_ja": "佐伯ラーメン",
-      "name_romaji": "Saiki Ramen",
-      "name_en": "Saiki Ramen — a salty, garlicky bowl built for port and shipyard workers",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "大分県",
-      "origin_city": "佐伯市",
-      "lat": 32.9601,
-      "lng": 131.8987,
-      "primary_style": "醤油",
-      "summary_ja": "大分県佐伯市のご当地ラーメン。醤油豚骨系のスープに柔らかい麺、強めの塩気とにんにくパウダー・黒コショウが特徴で、漁業と造船業が盛んな土地の労働者に向いた一杯とされる。",
-      "summary_en": "A ramen from Saiki, Oita Prefecture. A soy-and-pork-bone broth with soft noodles, notably salty and heavy on garlic powder and black pepper — a bowl said to suit workers in a town built on fishing and shipbuilding.",
-      "body_ja": "## 何でできているか\n醤油と豚骨を合わせたスープに、柔らかめに茹でた麺が入る。店によっては豚骨と地元産いりこだしのダブルスープも使う。塩気の強さ、油分の多さ、にんにくパウダーと黒コショウの多用、控えめなスープの量というのが、この土地のラーメンを見分ける目安になっている。チャーシューやもやしなど具は簡素で、味の濃さそのものが主役になる一杯とされる。\n## どう作るのか\n醤油だれに豚骨や地元のいりこだしを合わせ、麺は硬めではなく柔らかく茹でるのが定番。一説によると、漁業と造船業で肉体労働者が多かった佐伯の土地柄が、汗をかいた体に染みる塩気の強い一杯を育てたとされ、大分市や宮崎のラーメンとは異なる独特の路線として語られている。にんにくパウダーと黒コショウを惜しみなくふる点も、他地域との違いとして挙げられる。\n## なぜこの形になったのか\n佐伯は漁港と造船所を抱え、力仕事のあとに手早く塩分と油分を補給できる食事が求められた土地だった。にんにくと黒コショウを効かせて食欲を刺激し、麺を柔らかくして食べやすくするという工夫が積み重なった結果、独特な塩辛さを持つ佐伯ラーメンの形になったと伝わっている。他地域の味付けに寄せず、自分たちの働き方に合わせて調整を重ねてきた土地の食事とも言える。",
-      "body_en": "## What it's made of\nA soy-and-pork-bone broth carries softly boiled noodles. Some shops run a double broth of pork bone and local dried-sardine stock. Strong saltiness, a heavy oil slick, generous garlic powder and black pepper, and a modest broth volume are the marks locals use to identify the style. Toppings stay simple — chashu, bean sprouts — leaving the sheer intensity of flavor as the main event.\n## How it's made\nA soy tare is combined with pork-bone or local dried-sardine stock, and the noodles are boiled soft rather than firm as standard practice. One account holds that Saiki's character as a fishing and shipbuilding town, full of manual laborers, nurtured a strongly salted bowl meant to replenish a sweating body — described as running a course distinct from the ramen of nearby Oita city or Miyazaki. A generous hand with garlic powder and black pepper is also cited as setting it apart from its neighbors.\n## Why it took this shape\nSaiki, home to a fishing port and shipyards, needed a meal that could restore salt and fat quickly after heavy labor. Leaning on garlic and black pepper to stimulate appetite, and softening the noodles for easy eating, are said to have accumulated into the distinctly salty form Saiki ramen now takes.",
-      "sources": [
-        {
-          "title": "佐伯ラーメン",
-          "url": "https://ja.wikipedia.org/wiki/佐伯ラーメン",
-          "publisher": "Wikipedia",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "miyazaki",
-          "relation_type": "対比",
-          "basis": "大分市や宮崎のラーメンとは異なる独特の路線と評されるほど塩気と油分が強い"
-        }
-      ],
-      "tags": [
-        "pork",
-        "soy_sauce"
-      ]
-    },
-    {
-      "slug": "karamen",
-      "name_ja": "宮崎辛麺",
-      "name_romaji": "Karamen",
-      "name_en": "Karamen — Nobeoka's fiery noodle in a chili-red broth",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "宮崎県",
-      "origin_city": "延岡市",
-      "lat": 32.5781,
-      "lng": 131.6602,
-      "primary_style": "その他",
-      "summary_ja": "宮崎県延岡市発祥の激辛麺料理。1987年、居酒屋のサイドメニューとして生まれたとされ、小麦粉とそば粉から作るコシの強い麺を、唐辛子で真っ赤に染めたスープで食べる。",
-      "summary_en": "A fiery noodle dish that started in Nobeoka, Miyazaki Prefecture. Said to have begun in 1987 as a side dish at an izakaya, with a firm noodle made from wheat and buckwheat flour served in a broth dyed deep red with chili.",
-      "body_ja": "## 何でできているか\n真っ赤な激辛スープと、コンニャクに例えられるほどコシの強い麺が特徴。麺には小麦粉とそば粉が使われ、卵や挽肉、ニンニク、唐辛子、ニラが基本の具材になる。好みでチーズやトマトを加える食べ方も広まっており、辛さと強いコシの両方を楽しむ一杯として語られる。見た目の赤さに反して、旨みと酸味も感じられる複雑な味わいだと言われる。\n## どう作るのか\n唐辛子を効かせたスープを仕立て、独自のコシを持つ麺を合わせて、卵や挽肉、ニンニク、ニラをのせる。一説によると、1987年に延岡市内の居酒屋で酒のあとのサイドメニューとして考案されたのが始まりで、その店のものは今も「元祖辛麺」と呼ばれているという。辛さの度合いを店ごとに調整できることも、広く受け入れられた理由のひとつとされる。\n## なぜこの形になったのか\n居酒屋で飲んだあとの締めとして出されたため、酔った体でも刺激を感じられる強い辛さと、食べ応えのある強いコシの麺が求められたと伝わる。宮崎の他のラーメンとは別の系統として育ち、テレビ番組で紹介されたことをきっかけに全国に知られるようになったとされている。締めの一皿から始まったという出自が、他の宮崎の麺とは違う立ち位置を作っている。",
-      "body_en": "## What it's made of\nA deep red, fiercely spicy broth pairs with a noodle so firm it's been compared to konnyaku. The noodle is made from wheat and buckwheat flour, with egg, minced meat, garlic, chili, and chives as the standard toppings. Adding cheese or tomato to taste has also become common, and the dish is often described as offering both heat and a distinctively firm bite.\n## How it's made\nA chili-forward broth is prepared and combined with the distinctively firm noodle, topped with egg, minced meat, garlic, and chives. One account traces it to 1987, when an izakaya in Nobeoka devised it as a late-night side dish after drinking; that shop's version is still called the original karamen. Shops adjusting the heat level to taste is also cited as part of why the dish spread so widely.\n## Why it took this shape\nServed as a way to close out a night of drinking, the dish is said to have needed enough heat to register on a dulled palate and a noodle firm enough to feel substantial. Karamen grew as a lineage apart from Miyazaki's other ramen, and a television feature is said to have carried it to national attention.",
-      "sources": [
-        {
-          "title": "辛麺",
-          "url": "https://ja.wikipedia.org/wiki/辛麺",
-          "publisher": "Wikipedia",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "miyazaki",
-          "relation_type": "対比",
-          "basis": "同じ宮崎県の麺だが、宮崎ラーメンが一般的なスープ麺であるのに対し、辛麺は唐辛子で赤く染めた激辛スープと専用の強いコシの麺を使う別系統として育った"
-        }
-      ],
-      "tags": [
-        "spicy"
-      ]
-    },
-    {
-      "slug": "kushikino",
-      "name_ja": "串木野まぐろラーメン",
-      "name_romaji": "Kushikino Maguro Ramen",
-      "name_en": "Kushikino Tuna Ramen — a port town's answer built on raw tuna",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "鹿児島県",
-      "origin_city": "いちき串木野市",
-      "lat": 31.7167,
-      "lng": 130.2667,
-      "primary_style": "醤油",
-      "summary_ja": "遠洋まぐろ漁の基地だった鹿児島県串木野港にちなむご当地ラーメン。2000年頃、地元の飲食業者らが町おこしのために開発したとされ、チャーシューの代わりに生まぐろの漬けをのせるのが特徴。",
-      "summary_en": "A ramen named for Kushikino port in Kagoshima, once a base for offshore tuna fishing. Said to have been developed around 2000 by local restaurateurs and a food trade group as a town-promotion dish, topped with marinated raw tuna in place of chashu.",
-      "body_ja": "## 何でできているか\nまぐろの頭とにんにく・しょうがを煮出した出汁に、カツオと昆布の白だしを合わせた醤油ベースのスープ。中細のちぢれ麺を使い、最大の特徴はチャーシューの代わりにのせる生まぐろの漬け。熱いスープに触れて色や食感が変わっていく様子も含めて食べる一杯とされる。好みでワサビを溶かして味の変化を楽しむ人もおり、一杯の中で味の展開を楽しめる構成になっている。\n## どう作るのか\nまぐろの頭部とにんにく・しょうがでとった出汁に、カツオ・昆布の白だしをブレンドして醤油スープに仕立てる。一説によると、遠洋まぐろ漁の基地として栄えた串木野港の漁業が衰退したことを受け、2000年頃から地元の飲食店主や食品会社、飲食業組合が集まって町のPRのために開発したという。2013年時点で市内6軒がそれぞれの工夫を凝らして提供していたと伝わる。\n## なぜこの形になったのか\n串木野はかつてまぐろの水揚げで栄えた港町で、漁業の衰退後もその記憶を生かした名物が求められた。手元にある豊富なまぐろを、チャーシューの代わりに漬けとして使うという発想が、この港町ならではの一杯を形づくったとされている。豚骨が主流の九州にあって、あえて魚を主役に据えた点に、町の再起への意志が読み取れるとも語られる。",
-      "body_en": "## What it's made of\nStock from tuna heads simmered with garlic and ginger meets a bonito-and-kelp white dashi in a soy-based broth. Medium-thin curly noodles carry it, but the defining touch is marinated raw tuna in place of chashu — part of the appeal is watching its color and texture shift as it meets the hot broth. Some diners stir in a touch of wasabi to shift the flavor further.\n## How it's made\nStock from tuna heads, garlic, and ginger is blended with a bonito-and-kelp white dashi to build a soy broth. One account holds that as Kushikino's offshore tuna fishing declined, local restaurant owners, food companies, and a trade association came together around 2000 to develop the dish as a way to promote the town. As of 2013, six shops in the city are said to have been serving their own versions of it.\n## Why it took this shape\nKushikino was once a port that thrived on tuna landings, and after fishing declined, a specialty that kept that memory alive was wanted. Using the tuna still close at hand as a marinated topping in place of chashu is said to have shaped this port town's particular bowl.",
-      "sources": [
-        {
-          "title": "串木野まぐろラーメン",
-          "url": "https://ja.wikipedia.org/wiki/串木野まぐろラーメン",
-          "publisher": "Wikipedia",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "makurazaki",
-          "relation_type": "兄弟",
-          "basis": "どちらも鹿児島県の漁業資源を生かして2000年代に町おこしとして開発された、魚だし主体のご当地ラーメン"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "slug": "makurazaki",
-      "name_ja": "枕崎かつおラーメン",
-      "name_romaji": "Makurazaki Katsuo Ramen",
-      "name_en": "Makurazaki Bonito Ramen — a katsuobushi town's take on ramen",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "鹿児島県",
-      "origin_city": "枕崎市",
-      "lat": 31.2726,
-      "lng": 130.2987,
-      "primary_style": "塩",
-      "summary_ja": "鰹節の産地として知られる鹿児島県枕崎市のご当地ラーメン。2008年度の地域資源プロジェクトで開発されたとされ、枕崎産の本枯節を主体としたあっさりスープに、鰹を使った具を合わせる。",
-      "summary_en": "A ramen from Makurazaki, Kagoshima Prefecture, a town known for producing katsuobushi. Developed, it's said, through a 2008 regional-resource project, built on a light broth centered on locally made hon-karebushi bonito flakes with bonito-based toppings.",
-      "body_ja": "## 何でできているか\n枕崎産の本枯節を主体としたあっさりスープが軸で、昆布や野菜、鰹の頭部（ビンタ）からとった出汁も重ねて使う。DHA入りの麺を使う店もあり、具にはカツオのヅケや竜田揚げ、天ぷらなど、鰹を異なる調理法で楽しめるよう工夫が凝らされている。豚骨とは対照的な澄んだ味わいが持ち味とされ、一杯の中で鰹の様々な表情に出会える構成になっている。\n## どう作るのか\n本枯節をはじめとする鰹の出汁を何層にも重ねてスープを仕立て、具として鰹を漬けや揚げ物など複数の形で使い分ける。一説によると、2008年度に中小企業庁の地域資源プロジェクトとして、枕崎商工会議所が市内の事業所に委託して試作品を作り、地元出身の料理人の指導を受けて商品化されたという。2017年時点で市内3店舗が扱っていたと伝わる。\n## なぜこの形になったのか\n枕崎は鰹節の一大産地として知られてきた町で、豚骨が主流の九州のラーメン地図の中で、地場の鰹をどう生かすかが課題だったと伝わる。あっさりとした鰹だしのスープに、様々な調理法の鰹を具として添えるという形が、鰹節の町らしいラーメンとして選ばれたとされている。地域資源プロジェクトという公的な枠組みから生まれた点も、この一杯の出自を特徴づけている。",
-      "body_en": "## What it's made of\nA light broth centered on locally made hon-karebushi bonito flakes is the base, layered with additional stock from kelp, vegetables, and simmered bonito heads. Some shops use noodles enriched with DHA, and toppings — marinated bonito, deep-fried bonito, bonito tempura — are chosen to showcase the fish prepared several different ways. A clear, clean profile sets it apart from the region's pork-bone bowls.\n## How it's made\nSeveral layers of bonito-based stock, hon-karebushi among them, build the broth, while bonito itself appears as toppings in multiple forms — marinated, fried, or in tempura. One account holds that the dish was developed through a 2008 regional-resource project run by Japan's Small and Medium Enterprise Agency, with the Makurazaki Chamber of Commerce commissioning trial versions from local businesses and refining them under the guidance of a chef from the town. As of 2017, three shops in the city are said to have carried it.\n## Why it took this shape\nMakurazaki has long been known as a major katsuobushi-producing town, and within a Kyushu ramen landscape dominated by pork bone, how to put the local bonito to use is said to have been the real question. A light bonito-stock broth paired with bonito served several different ways is said to have been chosen as a ramen fitting for a katsuobushi town.",
-      "sources": [
-        {
-          "title": "かつおラーメン",
-          "url": "https://ja.wikipedia.org/wiki/かつおラーメン",
-          "publisher": "Wikipedia",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "kagoshima",
-          "relation_type": "対比",
-          "basis": "豚骨主体の鹿児島ラーメンに対し、鰹だし中心のあっさりスープという点で対照的"
-        }
-      ],
-      "tags": []
-    },
-    {
-      "slug": "kyofu",
-      "name_ja": "京風ラーメン",
-      "name_romaji": "Kyofu Ramen",
-      "name_en": "Kyofu Ramen — a soft-spoken bowl built to echo Kyoto cuisine",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "京都府",
-      "origin_city": "京都市",
-      "lat": 35.0037,
-      "lng": 135.7688,
-      "primary_style": "醤油",
-      "summary_ja": "京料理のイメージを重ねた京都のラーメン系統。1976年開業の「京都あかさたな」を端緒に、和風だしで細麺、薄味の醤油スープというスタイルが広まったが、濃厚志向の京都ラーメンとは別物とされる。",
-      "summary_en": "A Kyoto ramen lineage styled after the city's refined cuisine. Traced to the 1976 opening of Kyoto Akasatana, it favored a Japanese-style dashi, thin noodles, and a lightly seasoned soy broth — a style regarded as distinct from Kyoto's more typically rich ramen.",
-      "body_ja": "## 何でできているか\n和風だしをベースにした薄味の醤油スープに、細めの麺を合わせるのが基本形。京都の街のイメージに寄せて、上品であっさりとした味わいを狙っている点が、鶏ガラや豚骨でこってりと仕立てる京都ラーメンの主流とは異なる。具も湯葉や九条ねぎなど、京都らしい食材を添える店があり、見た目からして濃厚系とは一線を画す一杯として語られてきた。\n## どう作るのか\n和風だしに薄めの醤油だれを合わせ、細麺を短めに茹でて盛る。一説によると、1976年に四条河原町の阪急百貨店に「京都あかさたな」が開業したのが端緒とされ、京都らしい上品な一杯として一時ブームになった。しかし京都出身のエッセイストらは、これを「京都っぽいイメージを模しただけ」で、地元では京都ラーメンとして認めていないと指摘してきたと伝わる。\n## なぜこの形になったのか\n観光客が思い描く「京都らしい上品な味」に応えるために、あえて濃厚さを避け、和風だしと薄味を選んだ系統だったとされる。地元で根づいた濃厚系の京都ラーメンとは別の需要から生まれたためか、京風ラーメンを掲げる店の多くは閉店し、2020年代には全国でも数店舗を残すのみになったと語られている。観光地としての京都像と、地元で愛される味との間にあったずれを映す例とも言える。",
-      "body_en": "## What it's made of\nA lightly seasoned soy broth built on Japanese-style dashi, paired with thin noodles, forms the basic template. Aiming for an elegant, mild flavor that matches an outside image of Kyoto sets it apart from the richer chicken- or pork-bone-based mainstream of Kyoto ramen. Some shops add yuba tofu skin or Kujo scallion as toppings, visually distancing the bowl from its richer counterpart from the first glance.\n## How it's made\nA thin soy tare is combined with a Japanese dashi, and thin noodles are boiled briefly and plated. One account traces the style to the 1976 opening of Kyoto Akasatana in the Hankyu department store at Shijo-Kawaramachi, which briefly became a boom as an elegantly Kyoto-styled bowl. Essayists from Kyoto, however, are said to have called it merely an imitation of a Kyoto image, one that locals never recognized as genuine Kyoto ramen.\n## Why it took this shape\nThe style is said to have deliberately avoided richness in favor of a Japanese dashi and light seasoning, answering visitors' idea of an elegant Kyoto flavor rather than the richer style rooted locally. Perhaps because it answered a different demand from the rich Kyoto ramen that took hold in the city, most shops flying the kyofu name are said to have closed, leaving only a handful nationwide by the 2020s.",
-      "sources": [
-        {
-          "title": "京都ラーメン",
-          "url": "https://ja.wikipedia.org/wiki/京都ラーメン",
-          "publisher": "Wikipedia",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [],
-      "relations": [
-        {
-          "to_slug": "kyoto",
-          "relation_type": "対比",
-          "basis": "こってり濃厚が主流の京都ラーメンに対し、和風だし・薄味を選んだ別系統として生まれ、地元では京都ラーメンと区別されてきた"
-        }
-      ],
-      "tags": [
-        "soy_sauce"
-      ]
-    },
-    {
-      "slug": "himeji",
-      "name_ja": "えきそば",
-      "name_romaji": "Ekisoba",
-      "name_en": "Ekisoba — Himeji Station's Chinese noodles in a Japanese broth",
-      "type": "dish",
-      "shelf": "noodles",
-      "genre": "ramen",
-      "origin_pref": "兵庫県",
-      "origin_city": "姫路市",
-      "lat": 34.8154,
-      "lng": 134.6854,
-      "primary_style": "その他",
-      "summary_ja": "1949年に姫路駅で生まれたとされる立ち食い麺。戦後の小麦不足からそば粉とこんにゃく粉の麺で始まり、かんすい入りの中華麺に発展。和風だしに中華麺を合わせる型で、京都市では「キーシマ」とも呼ばれる。",
-      "summary_en": "A standing-noodle dish said to have started at Himeji Station in 1949. Born from postwar wheat shortages as a buckwheat-and-konjac-flour noodle, it evolved into a kansui-based Chinese-style noodle set in a Japanese broth — known in Kyoto by the alternate name kiishima.",
-      "body_ja": "## 何でできているか\nそば・うどん用の和風だしに、黄色いかん水入りの中華麺を入れるという組み合わせが軸。麺自体は「黄そば」とも呼ばれ、コシのある中華麺と和風だしの取り合わせが独特の食感と香りを生む。京都市内では同じ系統の麺が「キーシマ」という別名で親しまれており、駅弁売り場や立ち食いのスタイルもあわせて広く知られている。\n## どう作るのか\n和風の出汁つゆを用意し、かん水入りの中華麺を茹でて合わせる。一説によると、1949年に姫路駅で、駅弁を手がけるまねき食品が、小麦粉が入手しづらかった戦後の食料事情の中でそば粉とこんにゃく粉を混ぜた麺を開発したのが始まりで、その後かんすい入りの独自の中華麺へと発展したという。同年10月19日に「えきそば」の名がついたと伝わる。\n## なぜこの形になったのか\n冷蔵庫が普及していない時代、日持ちのする麺が求められたことが、そば粉とこんにゃく粉という組み合わせを選ばせたとされる。安価で腹持ちがよく、味のバランスも取りやすかったことから、学食や大衆食堂へと広がり、近畿地方の日常食として定着したと語られている。駅の立ち食いという業態が、忙しい乗り換え客の需要と合致したことも定着を後押ししたとされる。",
-      "body_en": "## What it's made of\nThe core pairing is a Japanese dashi broth meant for soba or udon with yellow, kansui-based Chinese-style noodles set into it. The noodle itself is also called kiisoba — yellow soba — and the combination of a firm Chinese noodle with a Japanese broth produces a distinctive texture and aroma. In Kyoto, the same lineage of noodle goes by the alternate name kiishima, and the dish is widely known through its ekiben-stand, standing-noodle style of service.\n## How it's made\nA Japanese dashi broth is prepared, and kansui-based Chinese-style noodles are boiled and set into it. One account traces it to 1949 at Himeji Station, where the ekiben maker Maneki Foods developed a noodle blending buckwheat and konjac flour amid postwar wheat shortages, later evolving it into its own kansui-based Chinese-style noodle. The dish is said to have been named ekisoba on October 19 that year.\n## Why it took this shape\nIn an era before refrigerators were common, a noodle that kept well is said to have driven the choice of buckwheat and konjac flour. Cheap, filling, and easy to balance in flavor, the dish is said to have spread into school cafeterias and everyday diners, settling in as a staple across the Kansai region.",
-      "sources": [
-        {
-          "title": "えきそば",
-          "url": "https://ja.wikipedia.org/wiki/えきそば",
-          "publisher": "Wikipedia",
-          "accessed_at": "2026-09-13"
-        }
-      ],
-      "regions": [
-        {
-          "pref": "京都府",
-          "city": "京都市",
-          "lat": 35.0116,
-          "lng": 135.7681,
-          "relation_type": "名産地",
-          "note_ja": "同じ系統の麺が「キーシマ」という別名で親しまれている",
-          "note_en": "The same noodle lineage is known here by the alternate name kiishima"
-        }
-      ],
-      "relations": [
-        {
-          "to_slug": "kyoto",
-          "relation_type": "対比",
-          "basis": "同じ京都府内でも食べられるが、和風だしに中華麺を合わせるえきそば（キーシマ）は、こってり系が主流の京都ラーメンとは別系統の麺料理"
-        }
-      ],
-      "tags": []
+     "title": "元祖長浜屋 公式サイト",
+     "url": "https://www.ganso-nagahamaya.com/",
+     "publisher": "元祖長浜屋",
+     "accessed_at": "2026-09-15"
     }
-  ],
-  "notes": "対象外/要判断: (1) ちゅら塩ラーメン(沖縄県) — 一次資料(Wikipedia「沖縄のラーメン文化」)では2015年に東洋水産が「琉球麺侍」監修で発売したカップ麺『沖縄ちゅら塩らーめん』が実体で、単一企業の商品であり複数店舗が展開する町のご当地ラーメンとしての裏付けが取れず、採否基準の単一企業商品の除外により対象外。(2) 大阪ライト豚骨(大阪府) — 日本ラーメン協会の一覧に名前は載っているが、由来・発祥・製法を裏づける自治体/観光協会/振興会の一次資料もWikipedia記述も見つからず(Web検索は本セッションの上限に到達、Google/Bing/Yahoo/DuckDuckGo/Mojeek/Ecosiaのスクレイピングも不可)、本文3章を書けるだけの裏が取れなかったため対象外。(3) 神戸ラーメン(兵庫県) — Wikipedia「ラーメン」に神戸などの港町の中華街(南京町)で提供された南京そばがラーメン史の始まりの一つとされるとの一文はあるが、神戸ラーメン単体の由来・特徴を扱う一次資料が見つからず、この一文だけで500〜750字の本文3章を書くと推測が混じるため対象外。(4) 播州赤穂塩ラーメン(兵庫県) — 赤穂市のWikipedia記事に特産品として名前は載っており実在は確認できたが、製法・由来を裏づける一次資料が見つからず(既存アイテムako-shioの出典である兵庫県観光サイトdetail_59.htmlにもラーメンへの言及なし)、対象外。(5) キーシマ(京都府) — Wikipedia「えきそば」に、姫路駅発祥のえきそば(黄そば)が京都市では「キーシマ」と呼ばれる別称であるとの記述があり、採否基準の表記ゆれ・別称の統合ルールに従い、独立アイテムを起こさずえきそば(slug: himeji)のregionsに京都府を追加する形で統合した。この結果、台帳missingの17件のうち13件を処理し(1件はえきそばへ統合、4件を対象外)、12アイテムを新規に作成した。焼きラーメンの発祥地は台帳のcity_hint(北九州市小倉)が一般知識によるbest-effort推定だったのに対し、一次資料(Wikipedia「焼きラーメン」)は福岡市天神の屋台「小金ちゃん」(1968年)を発祥としており、出典に従い天神を採用した。"
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "hakata",
+     "relation_type": "対比",
+     "basis": "どちらも福岡市の豚骨ラーメンだが、長浜は鮮魚市場発の極細麺・急ぎ食べの一杯として育ち、博多ラーメンとは別の由来譚を持つとされる"
+    }
+   ],
+   "tags": [
+    "pork"
+   ]
+  },
+  {
+   "slug": "yaki-ramen",
+   "name_ja": "焼きラーメン",
+   "name_romaji": "Yaki Ramen",
+   "name_en": "Yaki Ramen — pork-bone ramen noodles grilled with sauce on an iron plate",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "福岡県",
+   "origin_city": "福岡市中央区天神",
+   "lat": 33.5926,
+   "lng": 130.3987,
+   "primary_style": "豚骨",
+   "summary_ja": "茹でたラーメンの麺に豚骨スープと特製ソースを絡め、鉄板で焼き上げる一皿。1968年創業の天神の屋台「小金ちゃん」が生んだとされ、酒の締めや肴として食べられてきた。",
+   "summary_en": "Boiled ramen noodles tossed with pork-bone broth and a house sauce, then seared on an iron plate. Credited to Kokin-chan, a food stall founded in 1968 in Fukuoka's Tenjin district, and eaten both as a late-night dish and a drinking companion.",
+   "body_ja": "## 何でできているか\n見た目は焼きそばに近いが、使う麺は中華麺ではなくラーメンの麺そのもの。茹でた麺を豚骨スープと特製のソースで和え、キャベツやもやしと一緒に鉄板でしっかり焼き付ける。仕上げに青ねぎや紅生姜、時に生卵を落とす店もあり、香ばしい焦げの香りとソースの甘辛さ、豚骨のコクが同時に来る。汁物のラーメンとは違い、箸だけで最後まで食べ進められる一皿でもある。\n## どう作るのか\n屋台や小さな店の鉄板で、茹で麺と豚骨スープ、ソースを手早く炒め合わせ、水分を飛ばしながら麺の表面に焦げ目をつける。一説によると、1968年に天神で屋台「小金ちゃん」を始めた店主が、熱いスープを飲みづらい夏場の客のために、ラーメンの麺とスープを鉄板で焼く食べ方を考えたという。店ごとにソースの配合や麺の焼き加減が異なり、それぞれの持ち味になっている。\n## なぜこの形になったのか\n屋台は狭く、夜遅くまで酒を飲む客が多い場所だった。汁物のラーメンをそのまま出すより、ソースで香ばしく焼き上げたほうが、ビールや焼酎と一緒に箸が進む。暑い時季でも食べやすい一皿を、という屋台ならではの工夫が、ラーメンの麺を鉄板料理に転じさせたと伝わっている。締めの一杯としてだけでなく、酒の肴としても親しまれてきた背景がある。",
+   "body_en": "## What it's made of\nIt looks close to yakisoba, but the noodles are genuine ramen noodles rather than the springier yakisoba kind. Boiled noodles are tossed with pork-bone broth and a house sauce, then seared hard on an iron plate with cabbage and bean sprouts. Some shops finish it with scallion, red pickled ginger, or a raw egg, so the char, the sweet-savory sauce, and the pork-bone depth all arrive at once. Unlike ramen in broth, it can be eaten start to finish with chopsticks alone.\n## How it's made\nAt a stall or small shop, boiled noodles, pork-bone broth, and sauce are stir-fried fast on an iron plate, letting the liquid cook off as the noodle surface picks up a char. One account holds that in 1968 the owner of the Tenjin stall Kokin-chan devised this iron-plate treatment for ramen noodles and broth for summer customers who found the hot soup hard to drink. Sauce blends and how hard the noodles are seared vary shop by shop, giving each its own signature.\n## Why it took this shape\nFood stalls were cramped, late-night places full of drinkers. Searing the noodles with sauce until fragrant suited a glass of beer or shochu better than serving them in broth as usual. A stall-born workaround for a dish that stayed appetizing even in the heat is said to have turned ramen noodles into a griddle dish, one prized both as a closing course and as a companion to drinking.",
+   "sources": [
+    {
+     "title": "小金ちゃん",
+     "url": "https://yokanavi.com/spots/122526",
+     "publisher": "福岡市観光情報サイト よかなび",
+     "accessed_at": "2026-09-15"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "hakata",
+     "relation_type": "派生",
+     "basis": "屋台で余った博多とんこつラーメンの麺とスープを鉄板で焼き直す食べ方として生まれたとされる"
+    }
+   ],
+   "tags": [
+    "pork"
+   ]
+  },
+  {
+   "slug": "chanraa",
+   "name_ja": "ちゃんらー",
+   "name_romaji": "Chanraa",
+   "name_en": "Chanraa — chanpon noodles dropped into a Japanese-style broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "福岡県",
+   "origin_city": "北九州市門司区",
+   "lat": 33.9461,
+   "lng": 130.9614,
+   "primary_style": "その他",
+   "summary_ja": "北九州市門司区の食堂で生まれたとされる麺料理。ちゃんぽん麺をいりこだしのうどん風つゆに入れた一杯で、長崎ちゃんぽんを食べたいが小遣いが足りない生徒のために考えられたと伝わる。",
+   "summary_en": "A noodle dish said to have started at a diner in Moji, Kitakyushu. Chanpon-style noodles go into a Japanese dried-sardine broth closer to udon than to the original pork-and-seafood soup, devised, it's said, for a student who wanted Nagasaki champon but couldn't afford it.",
+   "body_ja": "## 何でできているか\n麺は長崎ちゃんぽんと同じ太い中華麺を使うが、スープはいりこ（煮干し）でとった和風だしで、うどんつゆに近い。具はもやしとキャベツというごく簡素な構成が原型で、現在は豚肉を加える店もある。名前は「ちゃんぽん」と「ラーメン」を混ぜたような響きから来ているとされ、見た目はちゃんぽんに近いのに口に含むと和風の出汁が広がる意外性がある。\n## どう作るのか\nいりこを効かせた和風だしを仕立て、そこに太めのちゃんぽん麺を入れて煮る。一説によると、門司区の食堂「清美食堂」で、長崎から引っ越してきた女子中学生が「ちゃんぽんを食べたいがお小遣いが足りない」と話したのを聞いた店主が、安く作れる和風だしとちゃんぽん麺を組み合わせて出したのが始まりという。具はもやしとキャベツを炒めずにそのまま加えるだけの簡便さも特徴とされる。\n## なぜこの形になったのか\n門司港は長崎方面との行き来が多い港町で、ちゃんぽんの味を知る人が集まっていた。本場の豚肉や魚介をふんだんに使うちゃんぽんは値が張るため、身近な和風だしともやし・キャベツで代用したことが、この折衷的な一杯を生んだと伝わっている。2016年には東九州自動車道の開通を記念したコラボ弁当が九州エリアで販売され、地域の名物として広く知られるきっかけにもなった。",
+   "body_en": "## What it's made of\nThe noodles are the same thick style used in Nagasaki champon, but the broth is a Japanese dried-sardine stock closer to udon soup than to champon's original pork-and-seafood base. The original toppings were simple — bean sprouts and cabbage — though some shops today add pork. The name is said to echo a blend of champon and ramen, and the dish carries a small surprise: it looks like champon but tastes of a Japanese broth.\n## How it's made\nA dried-sardine-forward Japanese broth is prepared, and the thick champon-style noodles are simmered in it. One account traces it to Moji's Kiyomi Shokudo, where the owner heard a junior-high student who had moved from Nagasaki say she wanted champon but couldn't afford it, and answered with an affordable dish combining a Japanese broth and champon noodles. Simply adding raw bean sprouts and cabbage without stir-frying them first is also part of the dish's simplicity.\n## Why it took this shape\nMoji was a port town with heavy traffic to and from the Nagasaki area, so people who knew the taste of champon were close at hand. Real champon, loaded with pork and seafood, cost more to make, and substituting an everyday Japanese broth with bean sprouts and cabbage is said to have produced this hybrid bowl. In 2016 a tie-in bento sold across Kyushu to mark a new expressway opening is said to have helped carry the dish's name further afield.",
+   "sources": [
+    {
+     "title": "ちゃんらー",
+     "url": "https://ja.wikipedia.org/wiki/ちゃんらー",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "nagasaki-champon",
+     "relation_type": "対比",
+     "basis": "同じちゃんぽん麺を使うが、長崎ちゃんぽんの豚肉・魚介出汁ではなく、いりこの和風だしを使う点が対照的"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "majenba",
+   "name_ja": "マジェンバ",
+   "name_romaji": "Majenba",
+   "name_en": "Majenba — Ogi's mix-it-yourself noodles under a sweet-spicy sauce",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "佐賀県",
+   "origin_city": "小城市",
+   "lat": 33.2725,
+   "lng": 130.227,
+   "primary_style": "その他",
+   "summary_ja": "佐賀県小城市で2011年に考案された混ぜ麺。名前は「混ぜてください」を意味する佐賀弁「混ぜんば」から来ており、小城産の食材を乗せた麺を甘辛いタレとよく混ぜて食べる。",
+   "summary_en": "A mix-it-yourself noodle dish devised in Ogi, Saga Prefecture in 2011. The name comes from the local dialect majenba, meaning roughly please mix it, and diners stir noodles topped with Ogi-grown ingredients into a sweet-spicy sauce.",
+   "body_ja": "## 何でできているか\n汁のない混ぜ麺で、麺は中華麺、パスタ、うどんなど店によってさまざま。共通しているのは全店で使う甘辛い「マジェンバのたれ」で、これを小城産の野菜や肉などのトッピングごと麺とよく混ぜてから食べる。厳密な決まりが少なく、店ごとのアレンジが前提になっている一皿で、食べる側もどの店の一杯かによって印象が変わる楽しみがある。\n## どう作るのか\n茹でた麺に小城の食材を使ったトッピングをのせ、共通のタレを回しかけてよく混ぜ合わせる。一説によると、小城羊羹や鯉料理で知られる小城市がさらなる知名度向上を狙って2011年に考案したとされ、名前は「混ぜて」を意味する佐賀弁「混ぜんば」に由来するという。2016年からはたれ自体も市販され、家庭でも同じ味を再現できるようになった。\n## なぜこの形になったのか\n麺の種類やスープの型を固定しなかったのは、既存のラーメン屋やうどん屋がそれぞれ自分の得意な麺でこの企画に参加できるようにするためだったと伝わる。統一されているのは「地元産の食材をのせて、共通のたれで混ぜる」という食べ方の型だけで、それが町おこしの一皿としての柔軟さにつながっているとされる。2019年時点で小城駅・牛津駅周辺を中心に約10軒が提供していた。",
+   "body_en": "## What it's made of\nThis is a brothless mix-it-yourself noodle dish; the noodles themselves vary by shop — Chinese-style, pasta, even udon. What every shop shares is a common sweet-spicy majenba sauce, poured over noodles topped with Ogi-grown vegetables or meat and stirred together before eating. Few rules are fixed, and shop-by-shop variation is built into the concept, so the bowl's character shifts with where it's ordered.\n## How it's made\nBoiled noodles are topped with Ogi-sourced ingredients, doused in the shared sauce, and mixed thoroughly. One account holds that Ogi — already known for its yokan sweets and carp dishes — devised the dish in 2011 to raise its profile further, naming it after majenba, a local dialect phrase meaning please mix it. Since 2016 the sauce itself has also been sold retail, letting the same flavor be made at home.\n## Why it took this shape\nLeaving the noodle type and broth style unfixed is said to have let existing ramen and udon shops around town join the project each with their own noodle. The only constant is the format itself — local ingredients on top, mixed with a shared sauce — a flexibility said to serve the dish's purpose as a town-promotion project. As of 2019 around ten shops near Ogi and Ushizu stations were said to be serving it.",
+   "sources": [
+    {
+     "title": "マジェンバ",
+     "url": "https://ja.wikipedia.org/wiki/マジェンバ",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "saga",
+     "relation_type": "対比",
+     "basis": "同じ佐賀県の麺だが、佐賀ラーメンがスープ麺であるのに対し、マジェンバはタレで混ぜて食べる汁なし麺という点で対照的"
+    }
+   ],
+   "tags": [
+    "no_broth"
+   ]
+  },
+  {
+   "slug": "hirado-ago",
+   "name_ja": "あごだしラーメン",
+   "name_romaji": "Agodashi Ramen",
+   "name_en": "Agodashi Ramen — flying-fish stock from the islands off Hirado",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "長崎県",
+   "origin_city": "平戸市生月町",
+   "lat": 33.3567,
+   "lng": 129.4326,
+   "primary_style": "醤油",
+   "summary_ja": "長崎県平戸市の生月島を発祥とするラーメン。あご（飛魚）の焼き干しでとった出汁を軸にした醤油ベースのスープで、あごだし文化が根づく長崎県内の広い地域で食べられている。",
+   "summary_en": "A ramen said to have started on Ikitsuki island off Hirado, Nagasaki Prefecture. A soy-based broth built on grilled and dried flying-fish stock, eaten across a wider stretch of Nagasaki where agodashi is part of everyday cooking.",
+   "body_ja": "## 何でできているか\nあご（トビウオ）を焼いて干した焼きあごから引いた出汁が土台の、醤油仕立てのスープ。魚介の香りは強いが脂は少なく、後味はすっきりとしている。麺は中細のストレートが多く、あっさりしたスープをまとってするすると食べ進められる。骨太な豚骨系とは異なる方向性を狙った一杯として語られることが多く、具もチャーシューより魚介系の練り物を添える店が目立つ。\n## どう作るのか\n焼きあごをじっくり煮出して出汁をとり、醤油だれと合わせてスープに仕立てる。トビウオが多く獲れる平戸市生月島発祥とされ、あごだし発祥地であるこの一帯では、もともと雑煮やうどんつゆにもあごだしを使う習慣があり、その延長でラーメンにも用いられるようになったと伝わる。焼く工程を挟むことで、生の魚だしにはない香ばしさが加わるのも特徴とされる。\n## なぜこの形になったのか\n生月島を含む平戸周辺はトビウオ漁が盛んな土地で、正月の雑煮など日常の出汁にあごを使う文化が根づいていた。豚骨の濃厚なスープが主流の九州にあって、身近にある魚のだしを生かした軽やかな一杯を作ろうとしたことが、あごだしラーメンという形につながったとされている。長崎県内の広い範囲で似た発想の一杯が作られているのも、この食文化の根の深さを物語っている。",
+   "body_en": "## What it's made of\nA soy-based broth built on stock from ago — flying fish that's grilled, then dried. Seafood aroma runs strong while fat stays low, leaving a clean finish. Medium-thin straight noodles are common, built to carry the lighter broth easily. It's often described as deliberately taking a different direction from the region's heavier pork-bone bowls.\n## How it's made\nGrilled dried flying fish is simmered at length for stock, then combined with a soy tare. The dish is said to trace to Ikitsuki island off Hirado, an area rich in flying-fish catches; agodashi was already used in New Year's zoni and udon broth locally, and that habit is said to have carried over into ramen. Grilling the fish before drying is said to add a roasted note that a raw fish stock wouldn't have.\n## Why it took this shape\nThe waters around Hirado, Ikitsuki included, have long supported flying-fish fishing, and using ago for everyday stock — including New Year's zoni — is rooted here. Amid a Kyushu ramen scene dominated by rich pork-bone broths, reaching for a fish stock already close at hand is said to have produced this lighter bowl.",
+   "sources": [
+    {
+     "title": "あごだし",
+     "url": "https://ja.wikipedia.org/wiki/あごだし",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "tobiuo",
+     "relation_type": "使用食材",
+     "basis": "焼きあご（トビウオ）を煮出した出汁がスープの土台になる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "tamana",
+   "name_ja": "玉名ラーメン",
+   "name_romaji": "Tamana Ramen",
+   "name_en": "Tamana Ramen — the Kurume-lineage bowl that fed Kumamoto's founders",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "熊本県",
+   "origin_city": "玉名市",
+   "lat": 32.9421,
+   "lng": 130.5773,
+   "primary_style": "豚骨",
+   "summary_ja": "熊本県玉名市のご当地ラーメン。1952年に久留米の名店「三九」が旧国鉄高瀬駅前に出店したのが始まりとされ、この味に感銘を受けた人々が後の熊本ラーメンの代表店を興したと伝わる。",
+   "summary_en": "A pork-bone ramen from Tamana, Kumamoto Prefecture. Said to trace to 1952, when the Kurume shop Sanku opened a branch near the old Takase station, and to have inspired the founders of Kumamoto ramen's leading shops after tasting it there.",
+   "body_ja": "## 何でできているか\n濃厚な豚骨スープと中細のストレート麺が軸で、仕上げに焦がしにんにくを効かせるのが定番。焦がしにんにくの量は客の好みで調整されることが多く、香ばしさと後を引くコクが特徴とされる。作り方は店ごとに幅があり、玉名という土地の名の下で緩やかにまとまっている一杯で、久留米系と熊本系の中間的な性格を持つとも語られる。\n## どう作るのか\n豚骨をじっくり炊いて濃いスープを仕立て、焦がしにんにくの香油を別に用意して仕上げに加える。一説によると、1952年に久留米ラーメンの名店「三九」が玉名市の旧国鉄高瀬駅前に支店を出したのが始まりで、この店の味が評判となり、後の熊本ラーメンの基礎になったと語られている。海苔養殖で働く人たちが温かい一杯を求めたことも、店が根づく後押しになったと伝わる。\n## なぜこの形になったのか\n玉名は海苔養殖などの働き手が多い土地で、温かく食べごたえのある一杯が求められた。熊本市から三九を訪れた人々がその味に感銘を受け、のちに熊本の代表的なラーメン店を興したとされ、玉名で磨かれた久留米系の味が熊本ラーメンのルーツの一つに数えられる理由になっている。街道と鉄道の結節点だった立地も、この味が広く伝わった背景として語られる。",
+   "body_en": "## What it's made of\nA thick pork-bone broth with medium-thin straight noodles is the base, finished with browned garlic oil as standard practice. The amount of browned garlic is often adjusted to the diner's taste, and its aroma and lingering depth are the dish's signature. Preparation varies by shop, loosely unified under the Tamana name, and it's sometimes described as sitting between the Kurume and Kumamoto lineages.\n## How it's made\nPork bones are simmered long for a thick broth, with browned garlic oil prepared separately and added at the finish. One account traces the dish to 1952, when Sanku — a well-known Kurume ramen shop — opened a branch near Tamana's old Takase station; the shop's flavor is said to have become well known and to have laid the groundwork for what later became Kumamoto ramen. Workers in the local nori-farming trade wanting a hot meal are also said to have helped the shop take root.\n## Why it took this shape\nTamana was a town with many laborers, nori farming among them, who wanted a hot, filling bowl. People who traveled from Kumamoto city to try Sanku are said to have been impressed by its flavor and later opened Kumamoto's leading ramen shops — one reason the Kurume-lineage taste honed in Tamana is counted among the roots of Kumamoto ramen.",
+   "sources": [
+    {
+     "title": "玉名ラーメン",
+     "url": "https://ja.wikipedia.org/wiki/玉名ラーメン",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kurume",
+     "relation_type": "派生",
+     "basis": "久留米の名店「三九」が玉名に出した支店の味が玉名ラーメンの始まりとされる"
+    },
+    {
+     "to_slug": "kumamoto",
+     "relation_type": "源流",
+     "basis": "玉名の三九の味に感銘を受けた人々が、後の熊本ラーメンの代表店を興したと伝わる"
+    }
+   ],
+   "tags": [
+    "pork"
+   ]
+  },
+  {
+   "slug": "saiki",
+   "name_ja": "佐伯ラーメン",
+   "name_romaji": "Saiki Ramen",
+   "name_en": "Saiki Ramen — a salty, garlicky bowl built for port and shipyard workers",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "大分県",
+   "origin_city": "佐伯市",
+   "lat": 32.9601,
+   "lng": 131.8987,
+   "primary_style": "醤油",
+   "summary_ja": "大分県佐伯市のご当地ラーメン。醤油豚骨系のスープに柔らかい麺、強めの塩気とにんにくパウダー・黒コショウが特徴で、漁業と造船業が盛んな土地の労働者に向いた一杯とされる。",
+   "summary_en": "A ramen from Saiki, Oita Prefecture. A soy-and-pork-bone broth with soft noodles, notably salty and heavy on garlic powder and black pepper — a bowl said to suit workers in a town built on fishing and shipbuilding.",
+   "body_ja": "## 何でできているか\n醤油と豚骨を合わせたスープに、柔らかめに茹でた麺が入る。店によっては豚骨と地元産いりこだしのダブルスープも使う。塩気の強さ、油分の多さ、にんにくパウダーと黒コショウの多用、控えめなスープの量というのが、この土地のラーメンを見分ける目安になっている。チャーシューやもやしなど具は簡素で、味の濃さそのものが主役になる一杯とされる。\n## どう作るのか\n醤油だれに豚骨や地元のいりこだしを合わせ、麺は硬めではなく柔らかく茹でるのが定番。一説によると、漁業と造船業で肉体労働者が多かった佐伯の土地柄が、汗をかいた体に染みる塩気の強い一杯を育てたとされ、大分市や宮崎のラーメンとは異なる独特の路線として語られている。にんにくパウダーと黒コショウを惜しみなくふる点も、他地域との違いとして挙げられる。\n## なぜこの形になったのか\n佐伯は漁港と造船所を抱え、力仕事のあとに手早く塩分と油分を補給できる食事が求められた土地だった。にんにくと黒コショウを効かせて食欲を刺激し、麺を柔らかくして食べやすくするという工夫が積み重なった結果、独特な塩辛さを持つ佐伯ラーメンの形になったと伝わっている。他地域の味付けに寄せず、自分たちの働き方に合わせて調整を重ねてきた土地の食事とも言える。",
+   "body_en": "## What it's made of\nA soy-and-pork-bone broth carries softly boiled noodles. Some shops run a double broth of pork bone and local dried-sardine stock. Strong saltiness, a heavy oil slick, generous garlic powder and black pepper, and a modest broth volume are the marks locals use to identify the style. Toppings stay simple — chashu, bean sprouts — leaving the sheer intensity of flavor as the main event.\n## How it's made\nA soy tare is combined with pork-bone or local dried-sardine stock, and the noodles are boiled soft rather than firm as standard practice. One account holds that Saiki's character as a fishing and shipbuilding town, full of manual laborers, nurtured a strongly salted bowl meant to replenish a sweating body — described as running a course distinct from the ramen of nearby Oita city or Miyazaki. A generous hand with garlic powder and black pepper is also cited as setting it apart from its neighbors.\n## Why it took this shape\nSaiki, home to a fishing port and shipyards, needed a meal that could restore salt and fat quickly after heavy labor. Leaning on garlic and black pepper to stimulate appetite, and softening the noodles for easy eating, are said to have accumulated into the distinctly salty form Saiki ramen now takes.",
+   "sources": [
+    {
+     "title": "大分が誇るご当地ラーメン！地元で愛される佐伯ラーメン５選",
+     "url": "https://edit.pref.oita.jp/series/local-gourmet/3102/",
+     "publisher": "edit Oita（大分県公式サイト）",
+     "accessed_at": "2026-09-15"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "miyazaki",
+     "relation_type": "対比",
+     "basis": "大分市や宮崎のラーメンとは異なる独特の路線と評されるほど塩気と油分が強い"
+    }
+   ],
+   "tags": [
+    "pork",
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "karamen",
+   "name_ja": "宮崎辛麺",
+   "name_romaji": "Karamen",
+   "name_en": "Karamen — Nobeoka's fiery noodle in a chili-red broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "宮崎県",
+   "origin_city": "延岡市",
+   "lat": 32.5781,
+   "lng": 131.6602,
+   "primary_style": "その他",
+   "summary_ja": "宮崎県延岡市発祥の激辛麺料理。1987年、居酒屋のサイドメニューとして生まれたとされ、小麦粉とそば粉から作るコシの強い麺を、唐辛子で真っ赤に染めたスープで食べる。",
+   "summary_en": "A fiery noodle dish that started in Nobeoka, Miyazaki Prefecture. Said to have begun in 1987 as a side dish at an izakaya, with a firm noodle made from wheat and buckwheat flour served in a broth dyed deep red with chili.",
+   "body_ja": "## 何でできているか\n真っ赤な激辛スープと、コンニャクに例えられるほどコシの強い麺が特徴。麺には小麦粉とそば粉が使われ、卵や挽肉、ニンニク、唐辛子、ニラが基本の具材になる。好みでチーズやトマトを加える食べ方も広まっており、辛さと強いコシの両方を楽しむ一杯として語られる。見た目の赤さに反して、旨みと酸味も感じられる複雑な味わいだと言われる。\n## どう作るのか\n唐辛子を効かせたスープを仕立て、独自のコシを持つ麺を合わせて、卵や挽肉、ニンニク、ニラをのせる。一説によると、1987年に延岡市内の居酒屋で酒のあとのサイドメニューとして考案されたのが始まりで、その店のものは今も「元祖辛麺」と呼ばれているという。辛さの度合いを店ごとに調整できることも、広く受け入れられた理由のひとつとされる。\n## なぜこの形になったのか\n居酒屋で飲んだあとの締めとして出されたため、酔った体でも刺激を感じられる強い辛さと、食べ応えのある強いコシの麺が求められたと伝わる。宮崎の他のラーメンとは別の系統として育ち、テレビ番組で紹介されたことをきっかけに全国に知られるようになったとされている。締めの一皿から始まったという出自が、他の宮崎の麺とは違う立ち位置を作っている。",
+   "body_en": "## What it's made of\nA deep red, fiercely spicy broth pairs with a noodle so firm it's been compared to konnyaku. The noodle is made from wheat and buckwheat flour, with egg, minced meat, garlic, chili, and chives as the standard toppings. Adding cheese or tomato to taste has also become common, and the dish is often described as offering both heat and a distinctively firm bite.\n## How it's made\nA chili-forward broth is prepared and combined with the distinctively firm noodle, topped with egg, minced meat, garlic, and chives. One account traces it to 1987, when an izakaya in Nobeoka devised it as a late-night side dish after drinking; that shop's version is still called the original karamen. Shops adjusting the heat level to taste is also cited as part of why the dish spread so widely.\n## Why it took this shape\nServed as a way to close out a night of drinking, the dish is said to have needed enough heat to register on a dulled palate and a noodle firm enough to feel substantial. Karamen grew as a lineage apart from Miyazaki's other ramen, and a television feature is said to have carried it to national attention.",
+   "sources": [
+    {
+     "title": "辛麺",
+     "url": "https://ja.wikipedia.org/wiki/辛麺",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "miyazaki",
+     "relation_type": "対比",
+     "basis": "同じ宮崎県の麺だが、宮崎ラーメンが一般的なスープ麺であるのに対し、辛麺は唐辛子で赤く染めた激辛スープと専用の強いコシの麺を使う別系統として育った"
+    }
+   ],
+   "tags": [
+    "spicy"
+   ]
+  },
+  {
+   "slug": "kushikino",
+   "name_ja": "串木野まぐろラーメン",
+   "name_romaji": "Kushikino Maguro Ramen",
+   "name_en": "Kushikino Tuna Ramen — a port town's answer built on raw tuna",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "鹿児島県",
+   "origin_city": "いちき串木野市",
+   "lat": 31.7167,
+   "lng": 130.2667,
+   "primary_style": "醤油",
+   "summary_ja": "遠洋まぐろ漁の基地だった鹿児島県串木野港にちなむご当地ラーメン。2000年頃、地元の飲食業者らが町おこしのために開発したとされ、チャーシューの代わりに生まぐろの漬けをのせるのが特徴。",
+   "summary_en": "A ramen named for Kushikino port in Kagoshima, once a base for offshore tuna fishing. Said to have been developed around 2000 by local restaurateurs and a food trade group as a town-promotion dish, topped with marinated raw tuna in place of chashu.",
+   "body_ja": "## 何でできているか\nまぐろの頭とにんにく・しょうがを煮出した出汁に、カツオと昆布の白だしを合わせた醤油ベースのスープ。中細のちぢれ麺を使い、最大の特徴はチャーシューの代わりにのせる生まぐろの漬け。熱いスープに触れて色や食感が変わっていく様子も含めて食べる一杯とされる。好みでワサビを溶かして味の変化を楽しむ人もおり、一杯の中で味の展開を楽しめる構成になっている。\n## どう作るのか\nまぐろの頭部とにんにく・しょうがでとった出汁に、カツオ・昆布の白だしをブレンドして醤油スープに仕立てる。一説によると、遠洋まぐろ漁の基地として栄えた串木野港の漁業が衰退したことを受け、2000年頃から地元の飲食店主や食品会社、飲食業組合が集まって町のPRのために開発したという。2013年時点で市内6軒がそれぞれの工夫を凝らして提供していたと伝わる。\n## なぜこの形になったのか\n串木野はかつてまぐろの水揚げで栄えた港町で、漁業の衰退後もその記憶を生かした名物が求められた。手元にある豊富なまぐろを、チャーシューの代わりに漬けとして使うという発想が、この港町ならではの一杯を形づくったとされている。豚骨が主流の九州にあって、あえて魚を主役に据えた点に、町の再起への意志が読み取れるとも語られる。",
+   "body_en": "## What it's made of\nStock from tuna heads simmered with garlic and ginger meets a bonito-and-kelp white dashi in a soy-based broth. Medium-thin curly noodles carry it, but the defining touch is marinated raw tuna in place of chashu — part of the appeal is watching its color and texture shift as it meets the hot broth. Some diners stir in a touch of wasabi to shift the flavor further.\n## How it's made\nStock from tuna heads, garlic, and ginger is blended with a bonito-and-kelp white dashi to build a soy broth. One account holds that as Kushikino's offshore tuna fishing declined, local restaurant owners, food companies, and a trade association came together around 2000 to develop the dish as a way to promote the town. As of 2013, six shops in the city are said to have been serving their own versions of it.\n## Why it took this shape\nKushikino was once a port that thrived on tuna landings, and after fishing declined, a specialty that kept that memory alive was wanted. Using the tuna still close at hand as a marinated topping in place of chashu is said to have shaped this port town's particular bowl.",
+   "sources": [
+    {
+     "title": "串木野まぐろラーメン",
+     "url": "https://ja.wikipedia.org/wiki/串木野まぐろラーメン",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "makurazaki",
+     "relation_type": "兄弟",
+     "basis": "どちらも鹿児島県の漁業資源を生かして2000年代に町おこしとして開発された、魚だし主体のご当地ラーメン"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "makurazaki",
+   "name_ja": "枕崎かつおラーメン",
+   "name_romaji": "Makurazaki Katsuo Ramen",
+   "name_en": "Makurazaki Bonito Ramen — a katsuobushi town's take on ramen",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "鹿児島県",
+   "origin_city": "枕崎市",
+   "lat": 31.2726,
+   "lng": 130.2987,
+   "primary_style": "塩",
+   "summary_ja": "鰹節の産地として知られる鹿児島県枕崎市のご当地ラーメン。2008年度の地域資源プロジェクトで開発されたとされ、枕崎産の本枯節を主体としたあっさりスープに、鰹を使った具を合わせる。",
+   "summary_en": "A ramen from Makurazaki, Kagoshima Prefecture, a town known for producing katsuobushi. Developed, it's said, through a 2008 regional-resource project, built on a light broth centered on locally made hon-karebushi bonito flakes with bonito-based toppings.",
+   "body_ja": "## 何でできているか\n枕崎産の本枯節を主体としたあっさりスープが軸で、昆布や野菜、鰹の頭部（ビンタ）からとった出汁も重ねて使う。DHA入りの麺を使う店もあり、具にはカツオのヅケや竜田揚げ、天ぷらなど、鰹を異なる調理法で楽しめるよう工夫が凝らされている。豚骨とは対照的な澄んだ味わいが持ち味とされ、一杯の中で鰹の様々な表情に出会える構成になっている。\n## どう作るのか\n本枯節をはじめとする鰹の出汁を何層にも重ねてスープを仕立て、具として鰹を漬けや揚げ物など複数の形で使い分ける。一説によると、2008年度に中小企業庁の地域資源プロジェクトとして、枕崎商工会議所が市内の事業所に委託して試作品を作り、地元出身の料理人の指導を受けて商品化されたという。2017年時点で市内3店舗が扱っていたと伝わる。\n## なぜこの形になったのか\n枕崎は鰹節の一大産地として知られてきた町で、豚骨が主流の九州のラーメン地図の中で、地場の鰹をどう生かすかが課題だったと伝わる。あっさりとした鰹だしのスープに、様々な調理法の鰹を具として添えるという形が、鰹節の町らしいラーメンとして選ばれたとされている。地域資源プロジェクトという公的な枠組みから生まれた点も、この一杯の出自を特徴づけている。",
+   "body_en": "## What it's made of\nA light broth centered on locally made hon-karebushi bonito flakes is the base, layered with additional stock from kelp, vegetables, and simmered bonito heads. Some shops use noodles enriched with DHA, and toppings — marinated bonito, deep-fried bonito, bonito tempura — are chosen to showcase the fish prepared several different ways. A clear, clean profile sets it apart from the region's pork-bone bowls.\n## How it's made\nSeveral layers of bonito-based stock, hon-karebushi among them, build the broth, while bonito itself appears as toppings in multiple forms — marinated, fried, or in tempura. One account holds that the dish was developed through a 2008 regional-resource project run by Japan's Small and Medium Enterprise Agency, with the Makurazaki Chamber of Commerce commissioning trial versions from local businesses and refining them under the guidance of a chef from the town. As of 2017, three shops in the city are said to have carried it.\n## Why it took this shape\nMakurazaki has long been known as a major katsuobushi-producing town, and within a Kyushu ramen landscape dominated by pork bone, how to put the local bonito to use is said to have been the real question. A light bonito-stock broth paired with bonito served several different ways is said to have been chosen as a ramen fitting for a katsuobushi town.",
+   "sources": [
+    {
+     "title": "かつおラーメン",
+     "url": "https://ja.wikipedia.org/wiki/かつおラーメン",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kagoshima",
+     "relation_type": "対比",
+     "basis": "豚骨主体の鹿児島ラーメンに対し、鰹だし中心のあっさりスープという点で対照的"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "kyofu",
+   "name_ja": "京風ラーメン",
+   "name_romaji": "Kyofu Ramen",
+   "name_en": "Kyofu Ramen — a soft-spoken bowl built to echo Kyoto cuisine",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "京都府",
+   "origin_city": "京都市",
+   "lat": 35.0037,
+   "lng": 135.7688,
+   "primary_style": "醤油",
+   "summary_ja": "京料理のイメージを重ねた京都のラーメン系統。1976年開業の「京都あかさたな」を端緒に、和風だしで細麺、薄味の醤油スープというスタイルが広まったが、濃厚志向の京都ラーメンとは別物とされる。",
+   "summary_en": "A Kyoto ramen lineage styled after the city's refined cuisine. Traced to the 1976 opening of Kyoto Akasatana, it favored a Japanese-style dashi, thin noodles, and a lightly seasoned soy broth — a style regarded as distinct from Kyoto's more typically rich ramen.",
+   "body_ja": "## 何でできているか\n和風だしをベースにした薄味の醤油スープに、細めの麺を合わせるのが基本形。京都の街のイメージに寄せて、上品であっさりとした味わいを狙っている点が、鶏ガラや豚骨でこってりと仕立てる京都ラーメンの主流とは異なる。具も湯葉や九条ねぎなど、京都らしい食材を添える店があり、見た目からして濃厚系とは一線を画す一杯として語られてきた。\n## どう作るのか\n和風だしに薄めの醤油だれを合わせ、細麺を短めに茹でて盛る。一説によると、1976年に四条河原町の阪急百貨店に「京都あかさたな」が開業したのが端緒とされ、京都らしい上品な一杯として一時ブームになった。しかし京都出身のエッセイストらは、これを「京都っぽいイメージを模しただけ」で、地元では京都ラーメンとして認めていないと指摘してきたと伝わる。\n## なぜこの形になったのか\n観光客が思い描く「京都らしい上品な味」に応えるために、あえて濃厚さを避け、和風だしと薄味を選んだ系統だったとされる。地元で根づいた濃厚系の京都ラーメンとは別の需要から生まれたためか、京風ラーメンを掲げる店の多くは閉店し、2020年代には全国でも数店舗を残すのみになったと語られている。観光地としての京都像と、地元で愛される味との間にあったずれを映す例とも言える。",
+   "body_en": "## What it's made of\nA lightly seasoned soy broth built on Japanese-style dashi, paired with thin noodles, forms the basic template. Aiming for an elegant, mild flavor that matches an outside image of Kyoto sets it apart from the richer chicken- or pork-bone-based mainstream of Kyoto ramen. Some shops add yuba tofu skin or Kujo scallion as toppings, visually distancing the bowl from its richer counterpart from the first glance.\n## How it's made\nA thin soy tare is combined with a Japanese dashi, and thin noodles are boiled briefly and plated. One account traces the style to the 1976 opening of Kyoto Akasatana in the Hankyu department store at Shijo-Kawaramachi, which briefly became a boom as an elegantly Kyoto-styled bowl. Essayists from Kyoto, however, are said to have called it merely an imitation of a Kyoto image, one that locals never recognized as genuine Kyoto ramen.\n## Why it took this shape\nThe style is said to have deliberately avoided richness in favor of a Japanese dashi and light seasoning, answering visitors' idea of an elegant Kyoto flavor rather than the richer style rooted locally. Perhaps because it answered a different demand from the rich Kyoto ramen that took hold in the city, most shops flying the kyofu name are said to have closed, leaving only a handful nationwide by the 2020s.",
+   "sources": [
+    {
+     "title": "京都ラーメン",
+     "url": "https://ja.wikipedia.org/wiki/京都ラーメン",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kyoto",
+     "relation_type": "対比",
+     "basis": "こってり濃厚が主流の京都ラーメンに対し、和風だし・薄味を選んだ別系統として生まれ、地元では京都ラーメンと区別されてきた"
+    }
+   ],
+   "tags": [
+    "soy_sauce"
+   ]
+  },
+  {
+   "slug": "himeji",
+   "name_ja": "えきそば",
+   "name_romaji": "Ekisoba",
+   "name_en": "Ekisoba — Himeji Station's Chinese noodles in a Japanese broth",
+   "type": "dish",
+   "shelf": "noodles",
+   "genre": "ramen",
+   "origin_pref": "兵庫県",
+   "origin_city": "姫路市",
+   "lat": 34.8154,
+   "lng": 134.6854,
+   "primary_style": "その他",
+   "summary_ja": "1949年に姫路駅で生まれたとされる立ち食い麺。戦後の小麦不足からそば粉とこんにゃく粉の麺で始まり、かんすい入りの中華麺に発展。和風だしに中華麺を合わせる型で、京都市では「キーシマ」とも呼ばれる。",
+   "summary_en": "A standing-noodle dish said to have started at Himeji Station in 1949. Born from postwar wheat shortages as a buckwheat-and-konjac-flour noodle, it evolved into a kansui-based Chinese-style noodle set in a Japanese broth — known in Kyoto by the alternate name kiishima.",
+   "body_ja": "## 何でできているか\nそば・うどん用の和風だしに、黄色いかん水入りの中華麺を入れるという組み合わせが軸。麺自体は「黄そば」とも呼ばれ、コシのある中華麺と和風だしの取り合わせが独特の食感と香りを生む。京都市内では同じ系統の麺が「キーシマ」という別名で親しまれており、駅弁売り場や立ち食いのスタイルもあわせて広く知られている。\n## どう作るのか\n和風の出汁つゆを用意し、かん水入りの中華麺を茹でて合わせる。一説によると、1949年に姫路駅で、駅弁を手がけるまねき食品が、小麦粉が入手しづらかった戦後の食料事情の中でそば粉とこんにゃく粉を混ぜた麺を開発したのが始まりで、その後かんすい入りの独自の中華麺へと発展したという。同年10月19日に「えきそば」の名がついたと伝わる。\n## なぜこの形になったのか\n冷蔵庫が普及していない時代、日持ちのする麺が求められたことが、そば粉とこんにゃく粉という組み合わせを選ばせたとされる。安価で腹持ちがよく、味のバランスも取りやすかったことから、学食や大衆食堂へと広がり、近畿地方の日常食として定着したと語られている。駅の立ち食いという業態が、忙しい乗り換え客の需要と合致したことも定着を後押ししたとされる。",
+   "body_en": "## What it's made of\nThe core pairing is a Japanese dashi broth meant for soba or udon with yellow, kansui-based Chinese-style noodles set into it. The noodle itself is also called kiisoba — yellow soba — and the combination of a firm Chinese noodle with a Japanese broth produces a distinctive texture and aroma. In Kyoto, the same lineage of noodle goes by the alternate name kiishima, and the dish is widely known through its ekiben-stand, standing-noodle style of service.\n## How it's made\nA Japanese dashi broth is prepared, and kansui-based Chinese-style noodles are boiled and set into it. One account traces it to 1949 at Himeji Station, where the ekiben maker Maneki Foods developed a noodle blending buckwheat and konjac flour amid postwar wheat shortages, later evolving it into its own kansui-based Chinese-style noodle. The dish is said to have been named ekisoba on October 19 that year.\n## Why it took this shape\nIn an era before refrigerators were common, a noodle that kept well is said to have driven the choice of buckwheat and konjac flour. Cheap, filling, and easy to balance in flavor, the dish is said to have spread into school cafeterias and everyday diners, settling in as a staple across the Kansai region.",
+   "sources": [
+    {
+     "title": "えきそば",
+     "url": "https://ja.wikipedia.org/wiki/えきそば",
+     "publisher": "Wikipedia",
+     "accessed_at": "2026-09-13"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "京都府",
+     "city": "京都市",
+     "lat": 35.0116,
+     "lng": 135.7681,
+     "relation_type": "名産地",
+     "note_ja": "同じ系統の麺が「キーシマ」という別名で親しまれている",
+     "note_en": "The same noodle lineage is known here by the alternate name kiishima"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "kyoto",
+     "relation_type": "対比",
+     "basis": "同じ京都府内でも食べられるが、和風だしに中華麺を合わせるえきそば（キーシマ）は、こってり系が主流の京都ラーメンとは別系統の麺料理"
+    }
+   ],
+   "tags": []
+  }
+ ],
+ "notes": "対象外/要判断: (1) ちゅら塩ラーメン(沖縄県) — 一次資料(Wikipedia「沖縄のラーメン文化」)では2015年に東洋水産が「琉球麺侍」監修で発売したカップ麺『沖縄ちゅら塩らーめん』が実体で、単一企業の商品であり複数店舗が展開する町のご当地ラーメンとしての裏付けが取れず、採否基準の単一企業商品の除外により対象外。(2) 大阪ライト豚骨(大阪府) — 日本ラーメン協会の一覧に名前は載っているが、由来・発祥・製法を裏づける自治体/観光協会/振興会の一次資料もWikipedia記述も見つからず(Web検索は本セッションの上限に到達、Google/Bing/Yahoo/DuckDuckGo/Mojeek/Ecosiaのスクレイピングも不可)、本文3章を書けるだけの裏が取れなかったため対象外。(3) 神戸ラーメン(兵庫県) — Wikipedia「ラーメン」に神戸などの港町の中華街(南京町)で提供された南京そばがラーメン史の始まりの一つとされるとの一文はあるが、神戸ラーメン単体の由来・特徴を扱う一次資料が見つからず、この一文だけで500〜750字の本文3章を書くと推測が混じるため対象外。(4) 播州赤穂塩ラーメン(兵庫県) — 赤穂市のWikipedia記事に特産品として名前は載っており実在は確認できたが、製法・由来を裏づける一次資料が見つからず(既存アイテムako-shioの出典である兵庫県観光サイトdetail_59.htmlにもラーメンへの言及なし)、対象外。(5) キーシマ(京都府) — Wikipedia「えきそば」に、姫路駅発祥のえきそば(黄そば)が京都市では「キーシマ」と呼ばれる別称であるとの記述があり、採否基準の表記ゆれ・別称の統合ルールに従い、独立アイテムを起こさずえきそば(slug: himeji)のregionsに京都府を追加する形で統合した。この結果、台帳missingの17件のうち13件を処理し(1件はえきそばへ統合、4件を対象外)、12アイテムを新規に作成した。焼きラーメンの発祥地は台帳のcity_hint(北九州市小倉)が一般知識によるbest-effort推定だったのに対し、一次資料(Wikipedia「焼きラーメン」)は福岡市天神の屋台「小金ちゃん」(1968年)を発祥としており、出典に従い天神を採用した。"
 }
