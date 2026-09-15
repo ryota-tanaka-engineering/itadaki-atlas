@@ -25,5 +25,5 @@ REF=xzkvvdldovgbuutttmzj
 export NEXT_PUBLIC_SUPABASE_URL="https://${REF}.supabase.co"
 export SUPABASE_SERVICE_ROLE_KEY=$(perl -e 'alarm 60; exec @ARGV' npx supabase projects api-keys --project-ref "$REF" -o json | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{const j=JSON.parse(s.slice(s.indexOf('['))); console.log(j.find(x=>x.name==='service_role').api_key);})")
 [ -n "$SUPABASE_SERVICE_ROLE_KEY" ] && echo "key ok" || { echo "key EMPTY"; exit 1; }
-for n in "$@"; do echo "== prod $n"; node scripts/import-content.ts --file data/content/$n.json --skip-expand 2>&1 | grep -E "^完了: [0-9]+/[0-9]+$|✗ import" | tail -2; done
+for n in "$@"; do echo "== prod $n"; node scripts/import-content.ts --file data/content/$n.json --skip-expand 2>&1 | grep -E "^完了: [0-9]+/[0-9]+$|✗" | tail -5; done
 echo "== prod lint"; node scripts/content-lint.ts 2>&1 | grep -E "^対象|✗|E項目"

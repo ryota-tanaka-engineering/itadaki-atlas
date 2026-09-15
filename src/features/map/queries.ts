@@ -796,10 +796,19 @@ export async function fetchRelated(slug: string, locale: Locale): Promise<Relate
     };
   };
 
+  // 対称な関係（contrast / sibling）は部隊の生成物が A→B と B→A の両方を持つことがあり、
+  // そのままだと同じ相手が2回並ぶ（React の key 重複警告の原因）。相手×種別で1件に畳む
+  const seen = new Set<string>();
   return [
     ...(asFrom.data ?? []).map((r) => mapRow(r, false)),
     ...(asTo.data ?? []).map((r) => mapRow(r, true)),
-  ].filter((x): x is RelatedItem => x !== null);
+  ].filter((x): x is RelatedItem => {
+    if (x === null) return false;
+    const key = `${x.relationType}:${x.slug}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
 }
 
 /** 同じ県の他アイテム。データを足すだけで双方向に増える、コストゼロの回遊。 */
