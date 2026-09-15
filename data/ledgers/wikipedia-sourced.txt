@@ -5,14 +5,8 @@ fermented-seasonings|kome-miso|米味噌||https://ja.wikipedia.org/wiki/味噌
 fermented-seasonings|kyushu-mugi-miso|九州麦味噌||https://ja.wikipedia.org/wiki/麦味噌
 fermented-seasonings|mame-miso|豆味噌||https://ja.wikipedia.org/wiki/味噌
 fermented-seasonings|mugi-miso|麦味噌||https://ja.wikipedia.org/wiki/麦味噌
-gohan-no-otomo|ajitsuke-nori|味付け海苔|東京都 中央区（日本橋）|https://ja.wikipedia.org/wiki/%E5%91%B3%E4%BB%98%E3%81%91%E6%B5%B7%E8%8B%94
-gohan-no-otomo|chirimen-jako|ちりめんじゃこ||https://ja.wikipedia.org/wiki/%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E3%81%98%E3%82%83%E3%81%93
-gohan-no-otomo|goma-shio|ごま塩||https://ja.wikipedia.org/wiki/%E8%83%A1%E9%BA%BB%E5%A1%A9
-gohan-no-otomo|iwanori|岩のり||https://ja.wikipedia.org/wiki/%E5%B2%A9%E6%B5%B7%E8%8B%94
 gohan-no-otomo|nametake|なめたけ||https://ja.wikipedia.org/wiki/%E3%82%A8%E3%83%8E%E3%82%AD%E3%82%BF%E3%82%B1
 gohan-no-otomo|tamago-kake-gohan|卵かけご飯||https://ja.wikipedia.org/wiki/%E3%81%9F%E3%81%BE%E3%81%94%E3%81%8B%E3%81%91%E3%81%94%E9%A3%AF
-gohan-no-otomo|tarako|たらこ||https://ja.wikipedia.org/wiki/%E3%81%9F%E3%82%89%E3%81%93
-gohan-no-otomo|tororo|とろろ||https://ja.wikipedia.org/wiki/%E3%81%A8%E3%82%8D%E3%82%8D
 machi-chuka|chahan|炒飯||https://ja.wikipedia.org/wiki/炒飯
 machi-chuka|chinjaoroosu|青椒肉絲||https://ja.wikipedia.org/wiki/青椒肉絲
 machi-chuka|ebi-mayo|エビマヨ|神奈川県 横浜市|https://ja.wikipedia.org/wiki/エビマヨ
@@ -25,23 +19,8 @@ machi-chuka|nikudango-amazu|肉団子の甘酢あん||https://ja.wikipedia.org/w
 machi-chuka|subuta|酢豚||https://ja.wikipedia.org/wiki/酢豚
 machi-chuka|tantanmen|担々麺||https://ja.wikipedia.org/wiki/担々麺
 nerimono|itawasa|板わさ||https://ja.wikipedia.org/wiki/板わさ
-nihonshu|doburoku|どぶろく||https://ja.wikipedia.org/wiki/どぶろく
-nihonshu|fushimi-no-sake|伏見の酒|京都府 京都市伏見区|https://ja.wikipedia.org/wiki/伏見区
-nihonshu|happo-seishu|発泡清酒||https://ja.wikipedia.org/wiki/にごり酒
-nihonshu|hiroshima-no-sake|広島の酒|広島県 東広島市|https://ja.wikipedia.org/wiki/三浦仙三郎
 nihonshu|ishikawa-no-sake|石川の酒|石川県 珠洲市|https://ja.wikipedia.org/wiki/能登杜氏
-nihonshu|iwate-no-sake|岩手の酒|岩手県 花巻市石鳥谷町|https://ja.wikipedia.org/wiki/杜氏
-nihonshu|kijoshu|貴醸酒||https://ja.wikipedia.org/wiki/貴醸酒
-nihonshu|kimoto|生酛||https://ja.wikipedia.org/wiki/生酛
-nihonshu|nada-no-sake|灘の酒|兵庫県 神戸市灘区|https://ja.wikipedia.org/wiki/宮水 https://ja.wikipedia.org/wiki/灘五郷
-nihonshu|namazake|生酒||https://ja.wikipedia.org/wiki/日本酒
-nihonshu|nigorizake|にごり酒||https://ja.wikipedia.org/wiki/にごり酒
-nihonshu|nihonshu-koshu|古酒（長期熟成酒）||https://ja.wikipedia.org/wiki/日本酒
-nihonshu|nihonshu|日本酒||https://ja.wikipedia.org/wiki/日本酒
-nihonshu|niigata-no-sake|新潟の酒|新潟県|https://ja.wikipedia.org/wiki/越後杜氏 https://ja.wikipedia.org/wiki/日本酒
-nihonshu|sokujo|速醸||https://ja.wikipedia.org/wiki/生酛
 nihonshu|tanba-no-sake|丹波の酒|兵庫県 丹波篠山市|https://ja.wikipedia.org/wiki/杜氏
-nihonshu|yamahai|山廃||https://ja.wikipedia.org/wiki/生酛
 ramen|aburasoba|油そば|東京都 武蔵野市|https://ja.wikipedia.org/wiki/油そば
 ramen|hiratsuka-tanmen|平塚系タンメン|神奈川県 平塚市|https://ja.wikipedia.org/wiki/ご当地ラーメン
 ramen|iwanai-tempura|天ぷらラーメン|北海道 岩内町|https://ja.wikipedia.org/wiki/天ぷらラーメン
@@ -53,9 +32,6 @@ rice-varieties|miyamanishiki|美山錦||https://ja.wikipedia.org/wiki/美山錦
 sushi-neta|kohada|コハダ||https://ja.wikipedia.org/wiki/コハダ
 sushi-neta|maguro|マグロ||https://ja.wikipedia.org/wiki/マグロ
 sushi|temaki-zushi|手巻き寿司||https://en.wikipedia.org/wiki/Temaki
-wagyu|hida-gyu|飛騨牛|岐阜県|https://ja.wikipedia.org/wiki/飛騨牛
-wagyu|kobe-beef|神戸ビーフ|兵庫県|https://ja.wikipedia.org/wiki/神戸ビーフ
-wagyu|maesawa-gyu|前沢牛|岩手県 奥州市|https://ja.wikipedia.org/wiki/前沢牛
 yakisoba|joshu-ota-yakisoba|上州太田焼きそば|群馬県 太田市|https://ja.wikipedia.org/wiki/太田焼きそば
 yoshoku|corn-mayo-pizza|コーンマヨピザ||https://ja.wikipedia.org/wiki/日本のピザ
 yoshoku|mentai-mayo-pizza|明太マヨピザ||https://ja.wikipedia.org/wiki/日本のピザ
