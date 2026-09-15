@@ -27,7 +27,7 @@
 ```
 
 ## 投入順と検証（スクリプトが行う）
-genres → tags → items（ジャンル／棚ごと）→ regenre → regions → item-tags → bodies（sources・relations 含む。3章見出しを機械検証）→ chains → content-lint。途中で失敗すれば段名を出して止まる。`--dry-run` は展開と検証のみ、`--only <段>` は再実行、`--skip-expand` は展開済みをそのまま投入（本番投入時に使う）。**束 JSON を編集したら（出典差し替え・本文加筆を含む）必ず一度  なしで流して中間ファイルを作り直す**。中間ファイル（ 等）は git 管理下にあり、古いまま  で本番に流すと編集前の内容が投入される（2026-09-15 に出典差し替え 3 束分が本番に届いていなかった）。
+genres → tags → items（ジャンル／棚ごと）→ regenre → regions → item-tags → bodies（sources・relations 含む。3章見出しを機械検証）→ chains → content-lint。途中で失敗すれば段名を出して止まる。`--dry-run` は展開と検証のみ、`--only <段>` は再実行、`--skip-expand` は展開済みをそのまま投入（本番投入時に使う）。**束 JSON を編集したら（出典差し替え・本文加筆を含む）必ず一度 `--skip-expand` なしで流して中間ファイルを作り直す**。中間ファイル（`data/content/<name>/bodies.json` 等）は git 管理下にあり、古いまま `--skip-expand` で本番に流すと編集前の内容が投入される（2026-09-15 に出典差し替え 3 束分が本番に届いていなかった）。
 
 ## 語彙
 - `regions[].relation_type`: 名産地 | 本場（本場は note_ja/note_en/source_url 必須。発祥は書かない）
