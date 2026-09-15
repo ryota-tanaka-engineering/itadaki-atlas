@@ -9,13 +9,7 @@
           "title": "杉並区のラーメン店紹介",
           "url": "https://www.suginamigaku.org/corner/gourmet/ramen/",
           "publisher": "すぎなみ学倶楽部（杉並区公式情報サイト）",
-          "accessed_at": "2026-09-13"
-        },
-        {
-          "title": "荻窪ラーメン",
-          "url": "https://ja.wikipedia.org/wiki/荻窪ラーメン",
-          "publisher": "Wikipedia（最終手段）",
-          "accessed_at": "2026-09-13"
+          "accessed_at": "2026-09-15"
         }
       ],
       "relations": [
@@ -54,10 +48,10 @@
       "body_en": "## What it's made of\nThe noodles and dipping broth arrive in separate bowls. The noodles are thick and springy, rinsed in cold water for extra bite. The dipping broth is a concentrated soy sauce base built on animal and seafood stock, seasoned with vinegar and sugar for a sweet-sour edge. Dipping the cold noodles into the hot, concentrated broth and slurping them down creates a sharp contrast between the two. Many shops finish by pouring a diluting broth into the leftover tare to drink.\n\n## How it's made\nThe dish is said to have grown out of a staff meal — leftover noodles dipped in leftover broth and soy sauce during an apprenticeship. Once a shop's owner served this to customers and it caught on, it's said to have been formalized into a proper menu item. Taking a cue from the sweet-and-sour flavor of cold Chinese noodles, the dipping broth was seasoned with vinegar and sugar, and the noodle portion was made larger than a regular bowl of ramen for visual impact — a portion made possible precisely because the broth doesn't have to fill the whole bowl.\n\n## Why it took this shape\nThe widely told account traces it back to a staff meal during apprenticeship — noodles left over from the day, dipped into leftover broth and soy sauce. As it was refined into a dish served to paying customers, the noodle portion, the chew, and the broth's concentration are all said to have been pushed further, until the dish split off as something distinct from ramen. Separating the noodles from the broth — a simple idea — opened up an axis of richness and volume that ordinary ramen doesn't have.",
       "sources": [
         {
-          "title": "つけ麺",
-          "url": "https://ja.wikipedia.org/wiki/つけ麺",
-          "publisher": "Wikipedia（最終手段。発祥店の公式サイトが確認できず）",
-          "accessed_at": "2026-09-13"
+          "title": "大勝軒の歴史",
+          "url": "https://taisho-ken.tokyo/history/",
+          "publisher": "お茶の水、大勝軒",
+          "accessed_at": "2026-09-15"
         }
       ],
       "relations": [
@@ -71,14 +65,14 @@
     },
     {
       "slug": "seabura-chatcha",
-      "body_ja": "## 何でできているか\n醤油だれのスープの表面に、刻んだ豚の背脂がびっしりと浮かぶ。脂が蓋のように熱を閉じ込めるため、湯気が立ったまま丼が冷めにくい。麺をすすると脂のコクがまず舌に触れ、そのあとに醤油だれと動物系だしの旨みが追いかけてくる。背脂の量や粒の大きさは店によって振れ幅が大きく、細かく刻んで溶けやすくする店もあれば、粒を残して食感を出す店もあるという。\n\n## どう作るのか\n豚骨や鶏ガラでとった濃いめのだしに醤油だれを合わせ、仕上げに刻んだ背脂を振りかけるのが基本の作り方と伝わる。背脂は別に湯通しして臭みを抜いてから使う店が多いという。スープ自体の温度に加えて、脂の膜で保温するという二段構えの熱さが特徴で、猫舌には食べ進めるのが難しいほど熱いまま出す店もあるとされる。背脂の粒度を店ごとに調整することで、同じ醤油ラーメンでも脂の主張の強さを変えているとも語られる。\n\n## なぜこの形になったのか\n2000年前後の東京で、醤油ラーメンのスープに背脂を浮かべるスタイルが流行したと伝わる。環状七号線沿いに個性の強いラーメン店がひしめき、互いに濃さやインパクトを競い合った時期と重なるという。脂で丼を熱く保つという発想は、寒さ対策というよりも、湯気と香りで食欲を刺激する見た目の演出として磨かれていったと読める。",
-      "body_en": "## What it's made of\nThe surface of a soy sauce broth is covered edge to edge with minced pork back fat. The fat acts like a lid, trapping heat so the bowl stays steaming long after it's served. The richness of the fat hits the tongue first as you slurp the noodles, followed by the savor of the soy tare and animal stock underneath. How much fat goes on, and how finely it's minced, varies widely by shop — some mince it fine so it melts in, others leave it coarse for texture.\n\n## How it's made\nThe basic method, as it's told, is to build a rich pork-bone or chicken-bone stock, season it with soy tare, and finish with a scattering of minced back fat. Many shops are said to blanch the fat separately first to strip out any off odor before using it. On top of the broth's own heat, the fat forms a second, insulating layer — some shops are said to serve it hot enough that even a patient eater struggles to keep up.\n\n## Why it took this shape\nThe style of scattering back fat over soy sauce ramen is said to have caught on in Tokyo around the turn of the millennium. That period is said to overlap with a stretch when strongly individual ramen shops crowded along the Kan-nana ring road, pushing each other toward richer, more forceful bowls. Keeping the bowl hot with a layer of fat reads less as a defense against the cold than as a staged bit of theater — steam and aroma built to stir the appetite before the first bite.",
+      "body_ja": "## 何でできているか\n醤油だれのスープの表面に、刻んだ豚の背脂がびっしりと浮かぶ。脂が蓋のように熱を閉じ込めるため、湯気が立ったまま丼が冷めにくい。麺をすすると脂のコクがまず舌に触れ、そのあとに醤油だれと動物系だしの旨みが追いかけてくる。背脂の量や粒の大きさは店によって振れ幅が大きく、細かく刻んで溶けやすくする店もあれば、粒を残して食感を出す店もあるという。\n\n## どう作るのか\n豚骨や鶏ガラでとった濃いめのだしに醤油だれを合わせ、仕上げに刻んだ背脂を振りかけるのが基本の作り方と伝わる。背脂は別に湯通しして臭みを抜いてから使う店が多いという。スープ自体の温度に加えて、脂の膜で保温するという二段構えの熱さが特徴で、猫舌には食べ進めるのが難しいほど熱いまま出す店もあるとされる。背脂の粒度を店ごとに調整することで、同じ醤油ラーメンでも脂の主張の強さを変えているとも語られる。\n\n## なぜこの形になったのか\n1980年代後半の東京で、「環七ラーメン戦争」と呼ばれた競争のなかで、醤油ラーメンのスープに背脂を浮かべるスタイルが磨かれたと伝わる。環状七号線沿いに個性の強いラーメン店がひしめき、互いに濃さやインパクトを競い合った時期と重なるという。脂で丼を熱く保つという発想は、寒さ対策というよりも、湯気と香りで食欲を刺激する見た目の演出として磨かれていったと読める。",
+      "body_en": "## What it's made of\nThe surface of a soy sauce broth is covered edge to edge with minced pork back fat. The fat acts like a lid, trapping heat so the bowl stays steaming long after it's served. The richness of the fat hits the tongue first as you slurp the noodles, followed by the savor of the soy tare and animal stock underneath. How much fat goes on, and how finely it's minced, varies widely by shop — some mince it fine so it melts in, others leave it coarse for texture.\n\n## How it's made\nThe basic method, as it's told, is to build a rich pork-bone or chicken-bone stock, season it with soy tare, and finish with a scattering of minced back fat. Many shops are said to blanch the fat separately first to strip out any off odor before using it. On top of the broth's own heat, the fat forms a second, insulating layer — some shops are said to serve it hot enough that even a patient eater struggles to keep up.\n\n## Why it took this shape\nThe style of scattering back fat over soy sauce ramen is said to have been honed in Tokyo in the late 1980s, amid what came to be called the Kan-nana Ramen Wars. That period saw strongly individual ramen shops crowd along the Kan-nana ring road, pushing each other toward richer, more forceful bowls. Keeping the bowl hot with a layer of fat reads less as a defense against the cold than as a staged bit of theater — steam and aroma built to stir the appetite before the first bite.",
       "sources": [
         {
-          "title": "ご当地ラーメン",
-          "url": "https://ja.wikipedia.org/wiki/ご当地ラーメン",
-          "publisher": "Wikipedia（最終手段。発祥地・発祥店を特定できる自治体・組合資料が確認できず）",
-          "accessed_at": "2026-09-13"
+          "title": "環七ラーメン戦争を勝ち抜いた\"背脂醤油とんこつ\"の老舗 ラー博「あの銘店をもう一度\"94年組\"」第2弾は環七「野方ホープ1994」",
+          "url": "https://www.raumen.co.jp/information/news_001622.html",
+          "publisher": "新横浜ラーメン博物館",
+          "accessed_at": "2026-09-15"
         }
       ],
       "relations": [
@@ -186,10 +180,10 @@
       "body_en": "## What it's made of\nThe broth carries a heavy thickening, moving only slowly even when the bowl is tilted. Ground pork, pickled mustard greens, garlic, and doubanjiang are combined into a sweet-and-spicy seasoning where sweetness and depth lead ahead of heat — the point where it diverges from standard tantanmen. Because the thick, ankake-style sauce clings tightly to the noodles, the bowl holds its strong flavor down to the last strand.\n\n## How it's made\nThe basic method is said to be frying ground pork with garlic and doubanjiang to build aroma, adding pickled mustard greens, then thickening the broth with a potato-starch slurry. Leaning the seasoning toward sweetness is said to give the bowl a milder, rounder balance of heat and sweetness than a standard tantanmen, where chili heat tends to dominate. Because the sauce is so thick, the noodles used are said to have firm bite, so they hold up against the weight of the sauce.\n\n## Why it took this shape\nThe bowl is said to have originated in 1975 in Kamisoga, part of Odawara, reworking tantanmen — a Chinese dish — into something closer to a Japanese-style thick sauce over noodles. As a regional tantanmen born in the same Kanto region, it's often mentioned alongside Chiba's Katsuura Tantanmen, which pushes chili-oil heat to the front — a contrast to Odawara's own bowl, which leads with sweetness and body instead of heat.",
       "sources": [
         {
-          "title": "坦々麺",
-          "url": "https://ja.wikipedia.org/wiki/坦々麺",
-          "publisher": "Wikipedia（最終手段。原出典は書籍『ラーメン王国神奈川2011』西東社）",
-          "accessed_at": "2026-09-13"
+          "title": "小田原タンタン麺 発祥の店 中華四川",
+          "url": "https://shisenodawara.jimdofree.com/",
+          "publisher": "中華四川（小田原タンタン麺発祥の店・公式サイト）",
+          "accessed_at": "2026-09-15"
         }
       ],
       "relations": [
@@ -207,10 +201,10 @@
       "body_en": "## What it's made of\nThe clear soy sauce broth is light in flavor, with fat kept to a bare minimum. Many shops pair it with thin, straight noodles, matched so the broth's lightness and the noodles' delicacy stay in balance. Rather than selling customization the way iekei shops do, many of these shops are said to focus instead on the sheer finish of the broth and noodles themselves.\n\n## How it's made\nThe basic method is said to be simmering animal or seafood stock carefully, skimming off as much off-flavor and fat as possible, before finishing with a soy sauce tare. To keep the stock clear, many shops are said to hold the flame low rather than boiling hard for a long stretch. The noodles, too, are cut thin and delicate, giving them presence enough to stand up against so light a broth.\n\n## Why it took this shape\nWhile the rich pork-bone soy and chicken-fat iekei style has come to stand for one pole of Kanagawa's ramen culture, a parallel pursuit of the opposite — a light, clear bowl — reads as having grown up alongside it. That the same region has sharpened both richness and lightness as opposite directions is said to be part of what has widened Kanagawa's ramen culture as a whole.",
       "sources": [
         {
-          "title": "ご当地ラーメン",
-          "url": "https://ja.wikipedia.org/wiki/ご当地ラーメン",
-          "publisher": "Wikipedia（最終手段。単一店舗に限らない様式のため自治体資料は未確認）",
-          "accessed_at": "2026-09-13"
+          "title": "コラム#2 淡麗系ラーメンの系譜",
+          "url": "https://note.com/ramenmuseum/n/n8a8d441edebe",
+          "publisher": "新横浜ラーメン博物館（公式note）",
+          "accessed_at": "2026-09-15"
         }
       ],
       "relations": [

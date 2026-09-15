@@ -92,6 +92,7 @@ npm run content:lint -- --strict
 ```bash
 # 本番 DB へ同じ束を投入（フォアグラウンドで。supabase CLI はバックグラウンドだと固まる）
 bash scripts/prod-env.sh node scripts/import-content.ts --file data/content/<name>.json --skip-expand
+# --skip-expand は「同じ束を直前にローカルへ（展開ありで）投入した」ときだけ。束を編集したあとにローカル投入を飛ばして本番へ流すと、古い中間ファイルが投入される
 # コードに触れていなければデプロイ不要（トップ・一覧・県ページは ISR 5分、詳細は動的描画）。触れていれば
 bash scripts/deploy-prod.sh
 git add data/content/<name>.json data/content/<name>/ data/genres.csv data/tags.json data/chains.json CLAUDE.md

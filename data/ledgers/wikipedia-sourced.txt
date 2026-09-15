@@ -1,90 +1,11 @@
--|aosa|アオサ||https://ja.wikipedia.org/wiki/アオサ
--|hidaka-konbu|日高昆布||https://ja.wikipedia.org/wiki/日高昆布
--|hijiki|ヒジキ||https://ja.wikipedia.org/wiki/ヒジキ
--|hon-mirin|本みりん||https://ja.wikipedia.org/wiki/みりん
--|ikanago-shoyu|いかなご醤油|香川県高松市|https://ja.wikipedia.org/wiki/いかなご醤油
--|iwagaki|岩牡蠣||https://ja.wikipedia.org/wiki/カキ_(貝)
--|magaki|真牡蠣||https://ja.wikipedia.org/wiki/カキ_(貝)
--|makonbu|真昆布||https://ja.wikipedia.org/wiki/マコンブ
--|miyako-soba|宮古そば|沖縄県宮古島市|https://ja.wikipedia.org/wiki/宮古そば
--|morioka-reimen|盛岡冷麺|岩手県盛岡市|https://ja.wikipedia.org/wiki/盛岡冷麺
--|mozuku|もずく||https://ja.wikipedia.org/wiki/モズク
--|nagasaki-champon|長崎ちゃんぽん|長崎県長崎市|https://ja.wikipedia.org/wiki/ちゃんぽん
--|nori|ノリ||https://ja.wikipedia.org/wiki/アマノリ
--|ponzu|ぽん酢||https://ja.wikipedia.org/wiki/ポン酢
--|rausu-konbu|羅臼昆布||https://ja.wikipedia.org/wiki/羅臼昆布
--|rishiri-konbu|利尻昆布||https://ja.wikipedia.org/wiki/利尻昆布
--|unagi-kabayaki|うなぎの蒲焼||https://ja.wikipedia.org/wiki/ウナギ
--|wakame|ワカメ||https://ja.wikipedia.org/wiki/ワカメ
--|yaeyama-soba|八重山そば|沖縄県石垣市|https://ja.wikipedia.org/wiki/八重山そば
--|yuzu-kosho|柚子胡椒|大分県日田市|https://ja.wikipedia.org/wiki/柚子胡椒
-donburi|chuka-don|中華丼||https://ja.wikipedia.org/wiki/中華丼
-donburi|kaisendon|海鮮丼||https://ja.wikipedia.org/wiki/%E6%B5%B7%E9%AE%AE%E4%B8%BC
+-|ikanago-shoyu|いかなご醤油|香川県 高松市|https://ja.wikipedia.org/wiki/いかなご醤油
 donburi|negitoro-don|ねぎとろ丼||https://ja.wikipedia.org/wiki/ねぎとろ
 donburi|tamago-don|玉子丼||https://ja.wikipedia.org/wiki/玉子丼
-donburi|tanindon|他人丼||https://ja.wikipedia.org/wiki/他人丼
-donburi|tekkadon|鉄火丼||https://ja.wikipedia.org/wiki/鉄火丼
 fermented-seasonings|kome-miso|米味噌||https://ja.wikipedia.org/wiki/味噌
 fermented-seasonings|kyushu-mugi-miso|九州麦味噌||https://ja.wikipedia.org/wiki/麦味噌
 fermented-seasonings|mame-miso|豆味噌||https://ja.wikipedia.org/wiki/味噌
 fermented-seasonings|mugi-miso|麦味噌||https://ja.wikipedia.org/wiki/麦味噌
-fish|ainame|アイナメ||https://ja.wikipedia.org/wiki/アイナメ
-fish|aji|アジ||https://ja.wikipedia.org/wiki/マアジ
-fish|amadai|アマダイ||https://ja.wikipedia.org/wiki/アマダイ
-fish|anko|アンコウ||https://ja.wikipedia.org/wiki/アンコウ
-fish|ayu|アユ||https://ja.wikipedia.org/wiki/アユ
-fish|buri|ブリ||https://ja.wikipedia.org/wiki/ブリ
-fish|dojo|ドジョウ||https://ja.wikipedia.org/wiki/ドジョウ
-fish|fugu-torafugu|トラフグ||https://ja.wikipedia.org/wiki/トラフグ
-fish|funa|フナ||https://ja.wikipedia.org/wiki/フナ
-fish|hamo|ハモ||https://ja.wikipedia.org/wiki/ハモ
-fish|hata|ハタ||https://ja.wikipedia.org/wiki/ハタ科
-fish|hatahata|ハタハタ||https://ja.wikipedia.org/wiki/ハタハタ
-fish|hiramasa|ヒラマサ||https://ja.wikipedia.org/wiki/ヒラマサ
-fish|hirame|ヒラメ||https://ja.wikipedia.org/wiki/ヒラメ
-fish|hobo|ホウボウ||https://ja.wikipedia.org/wiki/ホウボウ
-fish|hokke|ホッケ||https://ja.wikipedia.org/wiki/ホッケ
-fish|isaki|イサキ||https://ja.wikipedia.org/wiki/イサキ
-fish|iwana|イワナ||https://ja.wikipedia.org/wiki/イワナ
-fish|iwashi|イワシ||https://ja.wikipedia.org/wiki/マイワシ
-fish|kamasu|カマス||https://ja.wikipedia.org/wiki/カマス
-fish|kanpachi|カンパチ||https://ja.wikipedia.org/wiki/カンパチ
-fish|karei|カレイ||https://ja.wikipedia.org/wiki/カレイ
-fish|kasago|カサゴ||https://ja.wikipedia.org/wiki/カサゴ
-fish|katsuo|カツオ||https://ja.wikipedia.org/wiki/カツオ
-fish|kawahagi|カワハギ||https://ja.wikipedia.org/wiki/カワハギ
-fish|kibinago|キビナゴ||https://ja.wikipedia.org/wiki/キビナゴ
-fish|kinki-fish|キンキ||https://ja.wikipedia.org/wiki/キチジ
-fish|kinmedai|キンメダイ||https://ja.wikipedia.org/wiki/キンメダイ
-fish|kisu|キス||https://ja.wikipedia.org/wiki/シロギス
-fish|koi|コイ||https://ja.wikipedia.org/wiki/コイ
-fish|kue|クエ||https://ja.wikipedia.org/wiki/クエ
-fish|managatsuo|マナガツオ||https://ja.wikipedia.org/wiki/マナガツオ
-fish|mebaru|メバル||https://ja.wikipedia.org/wiki/メバル
-fish|mekajiki|メカジキ||https://ja.wikipedia.org/wiki/メカジキ
-fish|mutsugoro|ムツゴロウ||https://ja.wikipedia.org/wiki/ムツゴロウ
-fish|namazu|ナマズ||https://ja.wikipedia.org/wiki/ナマズ
-fish|nijimasu|ニジマス||https://ja.wikipedia.org/wiki/ニジマス
-fish|nishin|ニシン||https://ja.wikipedia.org/wiki/ニシン
-fish|nodoguro-akamutsu|ノドグロ||https://ja.wikipedia.org/wiki/アカムツ
-fish|saba|サバ||https://ja.wikipedia.org/wiki/サバ
-fish|sake-salmon|サケ||https://ja.wikipedia.org/wiki/サケ
-fish|sanma|サンマ||https://ja.wikipedia.org/wiki/サンマ
-fish|sawara|サワラ||https://ja.wikipedia.org/wiki/サワラ
-fish|shimaaji|シマアジ||https://ja.wikipedia.org/wiki/シマアジ
-fish|shirasu|シラス||https://ja.wikipedia.org/wiki/シラス
-fish|shirauo|シラウオ||https://ja.wikipedia.org/wiki/シラウオ
-fish|shishamo|シシャモ||https://ja.wikipedia.org/wiki/シシャモ
-fish|suzuki|スズキ||https://ja.wikipedia.org/wiki/スズキ
-fish|tachiuo|タチウオ||https://ja.wikipedia.org/wiki/タチウオ
-fish|tai-madai|マダイ||https://ja.wikipedia.org/wiki/マダイ
-fish|tara-madara|タラ||https://ja.wikipedia.org/wiki/マダラ
-fish|tobiuo|トビウオ||https://ja.wikipedia.org/wiki/トビウオ
-fish|unagi|ウナギ||https://ja.wikipedia.org/wiki/ウナギ
-fish|utsubo|ウツボ||https://ja.wikipedia.org/wiki/ウツボ
-fish|wakasagi|ワカサギ||https://ja.wikipedia.org/wiki/ワカサギ
-fish|yamame|ヤマメ||https://ja.wikipedia.org/wiki/ヤマメ
-gohan-no-otomo|ajitsuke-nori|味付け海苔|東京都中央区（日本橋）|https://ja.wikipedia.org/wiki/%E5%91%B3%E4%BB%98%E3%81%91%E6%B5%B7%E8%8B%94
+gohan-no-otomo|ajitsuke-nori|味付け海苔|東京都 中央区（日本橋）|https://ja.wikipedia.org/wiki/%E5%91%B3%E4%BB%98%E3%81%91%E6%B5%B7%E8%8B%94
 gohan-no-otomo|chirimen-jako|ちりめんじゃこ||https://ja.wikipedia.org/wiki/%E3%81%A1%E3%82%8A%E3%82%81%E3%82%93%E3%81%98%E3%82%83%E3%81%93
 gohan-no-otomo|goma-shio|ごま塩||https://ja.wikipedia.org/wiki/%E8%83%A1%E9%BA%BB%E5%A1%A9
 gohan-no-otomo|iwanori|岩のり||https://ja.wikipedia.org/wiki/%E5%B2%A9%E6%B5%B7%E8%8B%94
@@ -94,8 +15,7 @@ gohan-no-otomo|tarako|たらこ||https://ja.wikipedia.org/wiki/%E3%81%9F%E3%82%8
 gohan-no-otomo|tororo|とろろ||https://ja.wikipedia.org/wiki/%E3%81%A8%E3%82%8D%E3%82%8D
 machi-chuka|chahan|炒飯||https://ja.wikipedia.org/wiki/炒飯
 machi-chuka|chinjaoroosu|青椒肉絲||https://ja.wikipedia.org/wiki/青椒肉絲
-machi-chuka|chuka-soba-tokyo|中華そば|東京都台東区|https://ja.wikipedia.org/wiki/来々軒
-machi-chuka|ebi-mayo|エビマヨ|神奈川県横浜市|https://ja.wikipedia.org/wiki/エビマヨ
+machi-chuka|ebi-mayo|エビマヨ|神奈川県 横浜市|https://ja.wikipedia.org/wiki/エビマヨ
 machi-chuka|gomoku-ankake-yakisoba|五目あんかけ焼きそば||https://ja.wikipedia.org/wiki/八宝菜
 machi-chuka|happosai|八宝菜||https://ja.wikipedia.org/wiki/八宝菜
 machi-chuka|harumaki|春巻き||https://ja.wikipedia.org/wiki/春巻き
@@ -103,230 +23,40 @@ machi-chuka|kanton-men|広東麺||https://ja.wikipedia.org/wiki/八宝菜
 machi-chuka|mabo-nasu|麻婆茄子||https://ja.wikipedia.org/wiki/麻婆茄子
 machi-chuka|nikudango-amazu|肉団子の甘酢あん||https://ja.wikipedia.org/wiki/肉団子
 machi-chuka|subuta|酢豚||https://ja.wikipedia.org/wiki/酢豚
-machi-chuka|taiwan-mazesoba|台湾まぜそば|愛知県名古屋市|https://ja.wikipedia.org/wiki/台湾まぜそば
-machi-chuka|tanmen|タンメン|神奈川県横浜市|https://ja.wikipedia.org/wiki/タンメン
 machi-chuka|tantanmen|担々麺||https://ja.wikipedia.org/wiki/担々麺
-nerimono|ago-yaki|あご野焼き|島根県出雲市|https://ja.wikipedia.org/wiki/あご野焼き
-nerimono|chikuwa|ちくわ||https://ja.wikipedia.org/wiki/ちくわ https://ja.wikipedia.org/wiki/あご野焼き
-nerimono|datemaki|伊達巻||https://ja.wikipedia.org/wiki/伊達巻
-nerimono|gyoniku-sausage|魚肉ソーセージ|愛媛県|https://ja.wikipedia.org/wiki/魚肉ソーセージ
-nerimono|hanpen|はんぺん||https://ja.wikipedia.org/wiki/はんぺん
 nerimono|itawasa|板わさ||https://ja.wikipedia.org/wiki/板わさ
-nerimono|kamaboko|かまぼこ||https://ja.wikipedia.org/wiki/小田原市
-nerimono|kani-kamaboko|かに風味かまぼこ|石川県七尾市|https://ja.wikipedia.org/wiki/かに風味かまぼこ
-nerimono|kobumaki-kamaboko|昆布巻きかまぼこ|富山県|https://ja.wikipedia.org/wiki/昆布巻き https://ja.wikipedia.org/wiki/北前船
-nerimono|kuro-hanpen|黒はんぺん|静岡県静岡市|https://ja.wikipedia.org/wiki/はんぺん
-nerimono|narutomaki|なると|静岡県焼津市|https://ja.wikipedia.org/wiki/なると巻き
-nerimono|noyaki|野焼き|島根県出雲市|https://ja.wikipedia.org/wiki/あご野焼き https://ja.wikipedia.org/wiki/ちくわ
-nerimono|odawara-kamaboko|小田原かまぼこ|神奈川県小田原市|https://ja.wikipedia.org/wiki/小田原市
-nerimono|sasa-kamaboko|笹かまぼこ|宮城県仙台市|https://ja.wikipedia.org/wiki/蒲鉾
-nerimono|shirayaki-kamaboko|白焼蒲鉾|山口県|https://ja.wikipedia.org/wiki/蒲鉾
-nerimono|surimi|すり身|北海道|https://ja.wikipedia.org/wiki/すり身
-nerimono|tofu-chikuwa|とうふ竹輪|鳥取県鳥取市|https://ja.wikipedia.org/wiki/とうふちくわ
-nerimono|tsumire|つみれ||https://ja.wikipedia.org/wiki/つみれ
-nerimono|zaiku-kamaboko|細工かまぼこ|富山県|https://ja.wikipedia.org/wiki/蒲鉾
 nihonshu|doburoku|どぶろく||https://ja.wikipedia.org/wiki/どぶろく
-nihonshu|fushimi-no-sake|伏見の酒|京都府京都市伏見区|https://ja.wikipedia.org/wiki/伏見区
+nihonshu|fushimi-no-sake|伏見の酒|京都府 京都市伏見区|https://ja.wikipedia.org/wiki/伏見区
 nihonshu|happo-seishu|発泡清酒||https://ja.wikipedia.org/wiki/にごり酒
-nihonshu|hiroshima-no-sake|広島の酒|広島県東広島市|https://ja.wikipedia.org/wiki/三浦仙三郎
-nihonshu|ishikawa-no-sake|石川の酒|石川県珠洲市|https://ja.wikipedia.org/wiki/能登杜氏
-nihonshu|iwate-no-sake|岩手の酒|岩手県花巻市石鳥谷町|https://ja.wikipedia.org/wiki/杜氏
+nihonshu|hiroshima-no-sake|広島の酒|広島県 東広島市|https://ja.wikipedia.org/wiki/三浦仙三郎
+nihonshu|ishikawa-no-sake|石川の酒|石川県 珠洲市|https://ja.wikipedia.org/wiki/能登杜氏
+nihonshu|iwate-no-sake|岩手の酒|岩手県 花巻市石鳥谷町|https://ja.wikipedia.org/wiki/杜氏
 nihonshu|kijoshu|貴醸酒||https://ja.wikipedia.org/wiki/貴醸酒
 nihonshu|kimoto|生酛||https://ja.wikipedia.org/wiki/生酛
-nihonshu|nada-no-sake|灘の酒|兵庫県神戸市灘区|https://ja.wikipedia.org/wiki/宮水 https://ja.wikipedia.org/wiki/灘五郷
+nihonshu|nada-no-sake|灘の酒|兵庫県 神戸市灘区|https://ja.wikipedia.org/wiki/宮水 https://ja.wikipedia.org/wiki/灘五郷
 nihonshu|namazake|生酒||https://ja.wikipedia.org/wiki/日本酒
 nihonshu|nigorizake|にごり酒||https://ja.wikipedia.org/wiki/にごり酒
-nihonshu|nihonshu|日本酒||https://ja.wikipedia.org/wiki/日本酒 https://ja.wikipedia.org/wiki/宮水
 nihonshu|nihonshu-koshu|古酒（長期熟成酒）||https://ja.wikipedia.org/wiki/日本酒
-nihonshu|niigata-no-sake|新潟の酒|新潟県|https://ja.wikipedia.org/wiki/日本酒 https://ja.wikipedia.org/wiki/越後杜氏
+nihonshu|nihonshu|日本酒||https://ja.wikipedia.org/wiki/日本酒
+nihonshu|niigata-no-sake|新潟の酒|新潟県|https://ja.wikipedia.org/wiki/越後杜氏 https://ja.wikipedia.org/wiki/日本酒
 nihonshu|sokujo|速醸||https://ja.wikipedia.org/wiki/生酛
-nihonshu|tanba-no-sake|丹波の酒|兵庫県丹波篠山市|https://ja.wikipedia.org/wiki/杜氏
+nihonshu|tanba-no-sake|丹波の酒|兵庫県 丹波篠山市|https://ja.wikipedia.org/wiki/杜氏
 nihonshu|yamahai|山廃||https://ja.wikipedia.org/wiki/生酛
-ramen|aburasoba|油そば|東京都武蔵野市|https://ja.wikipedia.org/wiki/油そば
-ramen|aizu-yamajio|会津山塩ラーメン|福島県北塩原村|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|akayu-karamiso|赤湯辛味噌ラーメン|山形県南陽市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|arirang|アリランラーメン|千葉県長生郡長柄町|https://ja.wikipedia.org/wiki/アリランラーメン
-ramen|banshu|播州ラーメン|兵庫県西脇市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|chanraa|ちゃんらー|福岡県北九州市門司区|https://ja.wikipedia.org/wiki/ちゃんらー
-ramen|fujieda-asa|藤枝朝ラーメン|静岡県藤枝市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|fujioka|藤岡ラーメン|群馬県藤岡市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|funabashi|船橋ソースラーメン|千葉県船橋市|https://ja.wikipedia.org/wiki/船橋ソースラーメン
-ramen|hachinohe|八戸らーめん|青森県八戸市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|hachioji|八王子ラーメン|東京都八王子市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|himeji|えきそば|兵庫県姫路市|https://ja.wikipedia.org/wiki/えきそば
-ramen|hirado-ago|あごだしラーメン|長崎県平戸市生月町|https://ja.wikipedia.org/wiki/あごだし
-ramen|hiratsuka-tanmen|平塚系タンメン|神奈川県平塚市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|hitachinaka-stamina|スタミナラーメン|茨城県ひたちなか市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|iwatsuki-tofu|豆腐ラーメン|埼玉県さいたま市岩槻区|https://ja.wikipedia.org/wiki/豆腐ラーメン
-ramen|jumonji|十文字中華そば|秋田県横手市|https://ja.wikipedia.org/wiki/ご当地ラーメン https://ja.wikipedia.org/wiki/%E5%8D%81%E6%96%87%E5%AD%97%E4%B8%AD%E8%8F%AF%E3%81%9D%E3%81%B0
-ramen|kanagawa-tanrei|神奈川淡麗系|神奈川県|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|karamen|宮崎辛麺|宮崎県延岡市|https://ja.wikipedia.org/wiki/辛麺
-ramen|kasaoka|笠岡ラーメン|岡山県笠岡市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|katsuura-tantan|勝浦タンタンメン|千葉県勝浦市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|kawasaki-new-tantan|ニュータンタンメン|神奈川県川崎市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|koriyama-black|郡山ブラック|福島県郡山市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|kushikino|串木野まぐろラーメン|鹿児島県いちき串木野市|https://ja.wikipedia.org/wiki/串木野まぐろラーメン
-ramen|kushiro|釧路ラーメン|北海道釧路市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|kyofu|京風ラーメン|京都府京都市|https://ja.wikipedia.org/wiki/京都ラーメン
-ramen|majenba|マジェンバ|佐賀県小城市|https://ja.wikipedia.org/wiki/マジェンバ
-ramen|makurazaki|枕崎かつおラーメン|鹿児島県枕崎市|https://ja.wikipedia.org/wiki/かつおラーメン
-ramen|miso-curry-milk|味噌カレー牛乳ラーメン|青森県青森市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|mito-han|水戸藩ラーメン|茨城県水戸市|https://ja.wikipedia.org/wiki/水戸藩らーめん
-ramen|miyako|宮古ラーメン|岩手県宮古市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|miyazaki|宮崎ラーメン|宮崎県宮崎市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|mobara|もばらーめん|千葉県茂原市|https://ja.wikipedia.org/wiki/もばらーめん
-ramen|muroran-curry|室蘭カレーラーメン|北海道室蘭市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|nabeyaki-susaki|鍋焼きラーメン|高知県須崎市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|nagahama|長浜ラーメン|福岡県福岡市中央区長浜|https://ja.wikipedia.org/wiki/ご当地ラーメン https://ja.wikipedia.org/wiki/長浜ラーメン
-ramen|nagaoka-shoga|長岡生姜醤油ラーメン|新潟県長岡市|https://ja.wikipedia.org/wiki/ご当地ラーメン https://ja.wikipedia.org/wiki/長岡生姜醤油ラーメン
-ramen|nakashibetsu-milky|中標津ミルキーラーメン|北海道中標津町|https://ja.wikipedia.org/wiki/中標津ミルキーラーメン
-ramen|odawara|小田原系ラーメン|神奈川県小田原市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|odawara-tantan|小田原タンタン麺|神奈川県小田原市上曽我|https://ja.wikipedia.org/wiki/坦々麺
-ramen|ofunato-sanma|大船渡さんまらーめん|岩手県大船渡市|https://ja.wikipedia.org/wiki/大船渡さんまらーめん https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|ogikubo|荻窪ラーメン|東京都杉並区荻窪|https://ja.wikipedia.org/wiki/荻窪ラーメン
-ramen|omiya-stamina|スタミナラーメン|埼玉県さいたま市大宮区|https://ja.wikipedia.org/wiki/スタミナラーメン_(埼玉)
-ramen|onomichi|尾道ラーメン|広島県尾道市|https://ja.wikipedia.org/wiki/尾道ラーメン
-ramen|oyabe-white|おやべホワイトラーメン|富山県小矢部市|https://ja.wikipedia.org/wiki/おやべホワイトラーメン
-ramen|saga|佐賀ラーメン|佐賀県佐賀市|https://ja.wikipedia.org/wiki/ご当地ラーメン https://ja.wikipedia.org/wiki/佐賀ラーメン
-ramen|saiki|佐伯ラーメン|大分県佐伯市|https://ja.wikipedia.org/wiki/佐伯ラーメン
-ramen|sakata|酒田ラーメン|山形県酒田市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|sanjo-curry|三条カレーラーメン|新潟県三条市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|sanmamen|サンマーメン|神奈川県横浜市|https://ja.wikipedia.org/wiki/サンマーメン https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|seabura-chatcha|背脂ラーメン|東京都|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|shida-kei|志太系ラーメン|静岡県藤枝市|https://ja.wikipedia.org/wiki/%E6%9C%9D%E3%83%A9%E3%83%BC%E3%83%A1%E3%83%B3
-ramen|shimodate|下館ラーメン|茨城県筑西市|https://ja.wikipedia.org/wiki/ご当地ラーメン https://ja.wikipedia.org/wiki/下館ラーメン
-ramen|shinjo-torimotsu|とりもつラーメン|山形県新庄市|https://ja.wikipedia.org/wiki/ご当地ラーメン https://ja.wikipedia.org/wiki/とりもつラーメン
-ramen|shirakawa|白河ラーメン|福島県白河市|https://ja.wikipedia.org/wiki/白河ラーメン
-ramen|sodegaura|ホワイトガウラーメン|千葉県袖ケ浦市|https://ja.wikipedia.org/wiki/ホワイトガウラーメン
-ramen|taiwan-ramen|台湾ラーメン|愛知県名古屋市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|takaida|高井田ラーメン|大阪府東大阪市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|takaoka-green|高岡グリーンラーメン|富山県高岡市|https://ja.wikipedia.org/wiki/高岡グリーンラーメン
-ramen|takeoka|竹岡式ラーメン|千葉県富津市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|tamana|玉名ラーメン|熊本県玉名市|https://ja.wikipedia.org/wiki/玉名ラーメン
-ramen|tenri|天理ラーメン|奈良県天理市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|tottori-gyukotsu|鳥取牛骨ラーメン|鳥取県倉吉市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|toyama-black|富山ブラック|富山県富山市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|tsubame-seabura|燕背脂ラーメン|新潟県燕市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|tsugaru|津軽ラーメン|青森県弘前市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-ramen|tsukemen|つけ麺|東京都中野区|https://ja.wikipedia.org/wiki/つけ麺
-ramen|yaki-ramen|焼きラーメン|福岡県福岡市中央区天神|https://ja.wikipedia.org/wiki/焼きラーメン
-ramen|yamagata-hiyashi|冷やしラーメン|山形県山形市|https://ja.wikipedia.org/wiki/ご当地ラーメン
-rice-varieties|akamai|赤米||https://ja.wikipedia.org/wiki/赤米
-rice-varieties|akitakomachi|あきたこまち||https://ja.wikipedia.org/wiki/あきたこまち
-rice-varieties|date-masayume|だて正夢||https://ja.wikipedia.org/wiki/だて正夢
-rice-varieties|fufufu|富富富||https://ja.wikipedia.org/wiki/富富富
-rice-varieties|genkitsukushi|元気つくし||https://ja.wikipedia.org/wiki/元気つくし
-rice-varieties|ginga-no-shizuku|銀河のしずく||https://ja.wikipedia.org/wiki/銀河のしずく
+ramen|aburasoba|油そば|東京都 武蔵野市|https://ja.wikipedia.org/wiki/油そば
+ramen|hiratsuka-tanmen|平塚系タンメン|神奈川県 平塚市|https://ja.wikipedia.org/wiki/ご当地ラーメン
+ramen|iwanai-tempura|天ぷらラーメン|北海道 岩内町|https://ja.wikipedia.org/wiki/天ぷらラーメン
+ramen|nakashibetsu-milky|中標津ミルキーラーメン|北海道 中標津町|https://ja.wikipedia.org/wiki/中標津ミルキーラーメン
+ramen|odawara|小田原系ラーメン|神奈川県 小田原市|https://ja.wikipedia.org/wiki/ご当地ラーメン
+ramen|tamana|玉名ラーメン|熊本県 玉名市|https://ja.wikipedia.org/wiki/玉名ラーメン
 rice-varieties|gohyakumangoku|五百万石||https://ja.wikipedia.org/wiki/五百万石
-rice-varieties|haenuki|はえぬき||https://ja.wikipedia.org/wiki/はえぬき
-rice-varieties|himenomochi|ヒメノモチ||https://ja.wikipedia.org/wiki/ヒメノモチ
-rice-varieties|hinohikari|ヒノヒカリ||https://ja.wikipedia.org/wiki/ヒノヒカリ
-rice-varieties|hitomebore|ひとめぼれ||https://ja.wikipedia.org/wiki/ひとめぼれ
-rice-varieties|ichihomare|いちほまれ||https://ja.wikipedia.org/wiki/いちほまれ
-rice-varieties|iwai|祝||https://ja.wikipedia.org/wiki/祝_(米)
-rice-varieties|kamenoo|亀の尾||https://ja.wikipedia.org/wiki/亀の尾
-rice-varieties|kinumusume|きぬむすめ||https://ja.wikipedia.org/wiki/きぬむすめ
-rice-varieties|kirara397|きらら397||https://ja.wikipedia.org/wiki/きらら397
-rice-varieties|koganemochi|こがねもち||https://ja.wikipedia.org/wiki/こがねもち
-rice-varieties|koshihikari|コシヒカリ||https://ja.wikipedia.org/wiki/コシヒカリ
-rice-varieties|koshiibuki|こしいぶき||https://ja.wikipedia.org/wiki/こしいぶき
-rice-varieties|koshitanrei|越淡麗||https://ja.wikipedia.org/wiki/越淡麗
-rice-varieties|kuromai|黒米||https://ja.wikipedia.org/wiki/黒米
-rice-varieties|milky-queen|ミルキークイーン||https://ja.wikipedia.org/wiki/ミルキークイーン
 rice-varieties|miyamanishiki|美山錦||https://ja.wikipedia.org/wiki/美山錦
-rice-varieties|mori-no-kumasan|森のくまさん||https://ja.wikipedia.org/wiki/森のくまさん
-rice-varieties|nanatsuboshi|ななつぼし||https://ja.wikipedia.org/wiki/ななつぼし
-rice-varieties|niji-no-kirameki|にじのきらめき||https://ja.wikipedia.org/wiki/にじのきらめき
-rice-varieties|nikomaru|にこまる||https://ja.wikipedia.org/wiki/にこまる
-rice-varieties|omachi|雄町||https://ja.wikipedia.org/wiki/雄町
-rice-varieties|sagabiyori|さがびより||https://ja.wikipedia.org/wiki/さがびより
-rice-varieties|sasanishiki|ササニシキ||https://ja.wikipedia.org/wiki/ササニシキ
-rice-varieties|seiten-no-hekireki|青天の霹靂||https://ja.wikipedia.org/wiki/青天の霹靂
-rice-varieties|shinnosuke|新之助||https://ja.wikipedia.org/wiki/新之助_(米)
-rice-varieties|tsuyahime|つや姫||https://ja.wikipedia.org/wiki/つや姫
-rice-varieties|yamadanishiki|山田錦||https://ja.wikipedia.org/wiki/山田錦
-rice-varieties|yukiwakamaru|雪若丸||https://ja.wikipedia.org/wiki/雪若丸
-rice-varieties|yumepirika|ゆめぴりか||https://ja.wikipedia.org/wiki/ゆめぴりか
-rice-varieties|yumeshizuku|夢しずく||https://ja.wikipedia.org/wiki/夢しずく
-shellfish|akagai|赤貝||https://ja.wikipedia.org/wiki/アカガイ
-shellfish|ama-ebi|甘海老||https://ja.wikipedia.org/wiki/ホッコクアカエビ
-shellfish|aori-ika|アオリイカ||https://ja.wikipedia.org/wiki/アオリイカ
-shellfish|asari|アサリ||https://ja.wikipedia.org/wiki/アサリ
-shellfish|awabi|アワビ||https://ja.wikipedia.org/wiki/アワビ
-shellfish|bafun-uni|バフンウニ||https://ja.wikipedia.org/wiki/バフンウニ
-shellfish|bakagai|バカガイ||https://ja.wikipedia.org/wiki/バカガイ
-shellfish|botan-ebi|ボタン海老||https://ja.wikipedia.org/wiki/ボタンエビ
-shellfish|hamaguri|ハマグリ||https://ja.wikipedia.org/wiki/ハマグリ
-shellfish|hanasakigani|花咲ガニ||https://ja.wikipedia.org/wiki/ハナサキガニ
-shellfish|hokkigai|ホッキ貝||https://ja.wikipedia.org/wiki/ウバガイ
-shellfish|hotaru-ika|ホタルイカ||https://ja.wikipedia.org/wiki/ホタルイカ
-shellfish|hotate|ホタテ||https://ja.wikipedia.org/wiki/ホタテガイ
-shellfish|hoya|ホヤ||https://ja.wikipedia.org/wiki/マボヤ
-shellfish|iidako|イイダコ||https://ja.wikipedia.org/wiki/イイダコ
-shellfish|ise-ebi|伊勢海老||https://ja.wikipedia.org/wiki/イセエビ
-shellfish|kegani|毛ガニ||https://ja.wikipedia.org/wiki/ケガニ
-shellfish|kuruma-ebi|車海老||https://ja.wikipedia.org/wiki/クルマエビ
-shellfish|madako|マダコ||https://ja.wikipedia.org/wiki/マダコ
-shellfish|mirugai|ミル貝||https://ja.wikipedia.org/wiki/ミルクイ
-shellfish|mizudako|ミズダコ||https://ja.wikipedia.org/wiki/ミズダコ
-shellfish|murasaki-uni|ムラサキウニ||https://ja.wikipedia.org/wiki/ムラサキウニ
-shellfish|namako|ナマコ||https://ja.wikipedia.org/wiki/マナマコ
-shellfish|sakura-ebi|桜海老||https://ja.wikipedia.org/wiki/サクラエビ
-shellfish|sazae|サザエ||https://ja.wikipedia.org/wiki/サザエ
-shellfish|shako|シャコ||https://ja.wikipedia.org/wiki/シャコ
-shellfish|shijimi|シジミ||https://ja.wikipedia.org/wiki/シジミ
-shellfish|sumi-ika|コウイカ||https://ja.wikipedia.org/wiki/コウイカ
-shellfish|surume-ika|スルメイカ||https://ja.wikipedia.org/wiki/スルメイカ
-shellfish|tarabagani|タラバガニ||https://ja.wikipedia.org/wiki/タラバガニ
-shellfish|torigai|トリガイ||https://ja.wikipedia.org/wiki/トリガイ
-shellfish|tsubugai|ツブ貝||https://ja.wikipedia.org/wiki/エゾボラ
-shellfish|watarigani|ワタリガニ||https://ja.wikipedia.org/wiki/ガザミ
-shellfish|yari-ika|ヤリイカ||https://ja.wikipedia.org/wiki/ヤリイカ
-shellfish|zuwaigani|ズワイガニ||https://ja.wikipedia.org/wiki/ズワイガニ
-sushi|edomae-zushi|江戸前寿司|東京都|https://ja.wikipedia.org/wiki/江戸前寿司
-sushi|hako-zushi|箱寿司|大阪府大阪市|https://ja.wikipedia.org/wiki/箱寿司
-sushi|masu-zushi|ますのすし|富山県富山市|https://ja.wikipedia.org/wiki/ますのすし
-sushi|saba-zushi|鯖寿司|京都府京都市|https://ja.wikipedia.org/wiki/鯖寿司
-sushi|temaki-zushi|手巻き寿司||https://en.wikipedia.org/wiki/Temaki
-sushi-neta|akagai-nigiri|赤貝||https://ja.wikipedia.org/wiki/アカガイ
-sushi-neta|akami-zuke|赤身のヅケ||https://ja.wikipedia.org/wiki/握り寿司 https://ja.wikipedia.org/wiki/鮪
-sushi-neta|ama-ebi-nigiri|甘海老||https://ja.wikipedia.org/wiki/アマエビ
-sushi-neta|anago|アナゴ||https://ja.wikipedia.org/wiki/江戸前寿司
-sushi-neta|botan-ebi-nigiri|ボタン海老||https://ja.wikipedia.org/wiki/ボタンエビ
-sushi-neta|chutoro|中トロ||https://ja.wikipedia.org/wiki/鮪
-sushi-neta|engawa|エンガワ||https://ja.wikipedia.org/wiki/エンガワ https://ja.wikipedia.org/wiki/ヒラメ
-sushi-neta|hirame-kobujime|ヒラメの昆布締め||https://ja.wikipedia.org/wiki/ヒラメ https://ja.wikipedia.org/wiki/昆布締め
-sushi-neta|hotate-nigiri|ホタテ||https://ja.wikipedia.org/wiki/ホタテガイ
-sushi-neta|ika-kanokozukuri|イカの鹿の子造り||https://ja.wikipedia.org/wiki/アオリイカ https://ja.wikipedia.org/wiki/刺身
-sushi-neta|ikura-gunkan|イクラ軍艦||https://ja.wikipedia.org/wiki/イクラ https://ja.wikipedia.org/wiki/軍艦巻き
-sushi-neta|kanpyo|かんぴょう||https://ja.wikipedia.org/wiki/干瓢
-sushi-neta|kazunoko|数の子||https://ja.wikipedia.org/wiki/ニシン https://ja.wikipedia.org/wiki/数の子
-sushi-neta|kisu-kawashimo|キス（皮霜仕立て）||https://ja.wikipedia.org/wiki/刺身 https://ja.wikipedia.org/wiki/キス_(魚)
-sushi-neta|kohada|コハダ||https://ja.wikipedia.org/wiki/コハダ https://ja.wikipedia.org/wiki/江戸前寿司
-sushi-neta|kuruma-ebi-nigiri|車海老（茹で）||https://ja.wikipedia.org/wiki/クルマエビ
+sushi-neta|kohada|コハダ||https://ja.wikipedia.org/wiki/コハダ
 sushi-neta|maguro|マグロ||https://ja.wikipedia.org/wiki/マグロ
-sushi-neta|mirugai-nigiri|ミル貝||https://ja.wikipedia.org/wiki/ミルクイ
-sushi-neta|negitoro|ネギトロ（軍艦）||https://ja.wikipedia.org/wiki/軍艦巻き https://ja.wikipedia.org/wiki/鮪
-sushi-neta|ni-hamaguri|煮蛤||https://ja.wikipedia.org/wiki/握り寿司 https://ja.wikipedia.org/wiki/ハマグリ
-sushi-neta|otoro|大トロ||https://ja.wikipedia.org/wiki/鮪
-sushi-neta|sayori|サヨリ||https://ja.wikipedia.org/wiki/サヨリ
-sushi-neta|shime-saba|シメサバ||https://ja.wikipedia.org/wiki/握り寿司 https://ja.wikipedia.org/wiki/しめさば
-sushi-neta|shirako|白子||https://ja.wikipedia.org/wiki/白子_(精巣) https://ja.wikipedia.org/wiki/タラ
-sushi-neta|tako-sakurani|タコの桜煮||https://ja.wikipedia.org/wiki/握り寿司 https://ja.wikipedia.org/wiki/マダコ
-sushi-neta|tamago-nigiri|玉子（厚焼き・だし巻き）||https://ja.wikipedia.org/wiki/卵焼き https://ja.wikipedia.org/wiki/握り寿司
-sushi-neta|uni-gunkan|ウニ軍艦||https://ja.wikipedia.org/wiki/軍艦巻き https://ja.wikipedia.org/wiki/ウニ
+sushi|temaki-zushi|手巻き寿司||https://en.wikipedia.org/wiki/Temaki
 wagyu|hida-gyu|飛騨牛|岐阜県|https://ja.wikipedia.org/wiki/飛騨牛
 wagyu|kobe-beef|神戸ビーフ|兵庫県|https://ja.wikipedia.org/wiki/神戸ビーフ
-wagyu|maesawa-gyu|前沢牛|岩手県奥州市|https://ja.wikipedia.org/wiki/前沢牛
-wagyu|matsusaka-ushi|松阪牛|三重県松阪市|https://ja.wikipedia.org/wiki/松阪牛
-wagyu|miyazaki-gyu|宮崎牛|宮崎県|https://ja.wikipedia.org/wiki/宮崎牛
-wagyu|omi-gyu|近江牛|滋賀県|https://ja.wikipedia.org/wiki/近江牛
-wagyu|saga-gyu|佐賀牛|佐賀県|https://ja.wikipedia.org/wiki/佐賀牛
-wagyu|sendai-gyu|仙台牛|宮城県|https://ja.wikipedia.org/wiki/仙台牛
-wagyu|tajima-ushi|但馬牛|兵庫県|https://ja.wikipedia.org/wiki/但馬牛
-wagyu|yonezawa-gyu|米沢牛|山形県米沢市|https://ja.wikipedia.org/wiki/米沢牛
+wagyu|maesawa-gyu|前沢牛|岩手県 奥州市|https://ja.wikipedia.org/wiki/前沢牛
+yakisoba|joshu-ota-yakisoba|上州太田焼きそば|群馬県 太田市|https://ja.wikipedia.org/wiki/太田焼きそば
 yoshoku|corn-mayo-pizza|コーンマヨピザ||https://ja.wikipedia.org/wiki/日本のピザ
 yoshoku|mentai-mayo-pizza|明太マヨピザ||https://ja.wikipedia.org/wiki/日本のピザ
 yoshoku|mille-feuille-katsu|ミルフィーユカツ||https://ja.wikipedia.org/wiki/ミルフィーユカツ
-yoshoku|piccata|ピカタ||https://ja.wikipedia.org/wiki/ピカタ
-yoshoku|roll-cabbage|ロールキャベツ||https://ja.wikipedia.org/wiki/ロールキャベツ
