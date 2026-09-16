@@ -5,7 +5,8 @@
 set -u
 cd "$(dirname "$0")/../.."
 SP=$(ls -d /private/tmp/claude-501/-Users-tanakaryouta-workspace-ia-miracolo/*/scratchpad/content 2>/dev/null | head -1)
-for p in "$@"; do [ -f "$SP/tier2-$p.json" ] && cp "$SP/tier2-$p.json" data/bodies3/; done
+# scratchpad からの取り込みはリポジトリに無い県だけ（リポジトリ側で直した本文を上書きしない）
+for p in "$@"; do [ -f "$SP/tier2-$p.json" ] && [ ! -f "data/bodies3/tier2-$p.json" ] && cp "$SP/tier2-$p.json" data/bodies3/; done
 node data/ledgers/check-tier2.js "$@" || { echo "検査NG。投入しない"; exit 1; }
 echo "== local"
 for p in "$@"; do printf "%-10s" "$p"; node --env-file=.env.local scripts/import-bodies.ts --file "data/bodies3/tier2-$p.json" 2>&1 | grep -E "^完了|✗" | tail -3; done
