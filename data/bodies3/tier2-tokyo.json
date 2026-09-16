@@ -1,270 +1,270 @@
 {
-  "items": [
+ "items": [
+  {
+   "slug": "yanagawa-nabe",
+   "body_ja": "## 何でできているか\n開いたどじょうをごぼうと甘辛い割り下で煮て、溶き卵でふんわりとじた鍋料理とされる。丸ごと煮る「丸鍋」に対し、開いて骨を抜いてから卵でとじるため、淡白などじょうの身に卵のまろやかさが加わり、あっさりとした後味に仕上がる。ごぼうの香りが全体を引き締める、江戸前らしい粋な味わいだという評判が今に伝わっている。\n\n## どう作るのか\n泥抜きしたどじょうを酒の中で泳がせて臭みを抜き、塩でもみ洗いしてぬめりを取る。開いて骨を抜いたどじょうをささがきにしたごぼうとともに割り下で煮て、火が通ったら溶き卵を流し入れてとじる。仕上げにねぎや三つ葉を散らし、好みで山椒をかけて食べるのが昔からの定番とされ、今もその手順が丁寧に受け継がれている。\n\n## なぜこの形になったのか\n生きたどじょうを丸ごと煮る食べ方から、骨を抜いて食べやすくする工夫が生まれ、さらに卵でとじることで淡白な身に口当たりのよさが加わったと伝わる。獣肉食が禁じられた江戸時代、力のつく食材として親しまれたどじょうを、庶民が無理なく食べやすく味わうための知恵が形になったとされ、今の姿にしっかりと受け継がれている。",
+   "body_en": "## What it's made of\nLoach is split open and simmered with burdock root in a sweet-savory broth, then softly bound with beaten egg. Unlike the whole-loach hotpot, splitting and deboning the fish before binding it with egg is said to give the plain-tasting loach a mellow richness and a lighter finish. The aroma of burdock ties the dish together, a flavor said to carry the spirit of old Edo.\n\n## How it's made\nLoach that has been purged of mud is swum through sake to remove any off odor, then rubbed with salt and rinsed to take away its sliminess. The split, deboned loach is simmered in the sweet-savory broth together with shaved burdock, and once cooked through, beaten egg is poured in to bind it. Green onion and mitsuba are scattered on top, with sansho pepper added to taste — a finish said to have been handed down unchanged.\n\n## Why it took this shape\nFrom the practice of simmering live loach whole, the idea of splitting and deboning the fish for easier eating is said to have emerged, and binding it with egg is said to have added a gentler mouthfeel to the plain fish. In the Edo period, when eating meat from four-legged animals was forbidden, loach was prized as a food said to build strength, and this dish is said to embody the resourcefulness of townspeople finding an easy way to enjoy it, carried through to its present form.",
+   "sources": [
     {
-      "slug": "yanagawa-nabe",
-      "body_ja": "## 何でできているか\n開いたどじょうをごぼうと甘辛い割り下で煮て、溶き卵でふんわりとじた鍋料理とされる。丸ごと煮る「丸鍋」に対し、開いて骨を抜いてから卵でとじるため、淡白などじょうの身に卵のまろやかさが加わり、あっさりとした後味に仕上がる。ごぼうの香りが全体を引き締める、江戸前らしい粋な味わいだという評判が今に伝わっている。\n\n## どう作るのか\n泥抜きしたどじょうを酒の中で泳がせて臭みを抜き、塩でもみ洗いしてぬめりを取る。開いて骨を抜いたどじょうをささがきにしたごぼうとともに割り下で煮て、火が通ったら溶き卵を流し入れてとじる。仕上げにねぎや三つ葉を散らし、好みで山椒をかけて食べるのが昔からの定番とされ、今もその手順が丁寧に受け継がれている。\n\n## なぜこの形になったのか\n生きたどじょうを丸ごと煮る食べ方から、骨を抜いて食べやすくする工夫が生まれ、さらに卵でとじることで淡白な身に口当たりのよさが加わったと伝わる。獣肉食が禁じられた江戸時代、力のつく食材として親しまれたどじょうを、庶民が無理なく食べやすく味わうための知恵が形になったとされ、今の姿にしっかりと受け継がれている。",
-      "body_en": "## What it's made of\nLoach is split open and simmered with burdock root in a sweet-savory broth, then softly bound with beaten egg, or so it is said. Unlike the whole-loach hotpot, splitting and deboning the fish before binding it with egg is said to give the plain-tasting loach a mellow richness and a lighter finish. The aroma of burdock ties the dish together, a flavor said to carry the spirit of old Edo.\n\n## How it's made\nLoach that has been purged of mud is swum through sake to remove any off odor, then rubbed with salt and rinsed to take away its sliminess. The split, deboned loach is simmered in the sweet-savory broth together with shaved burdock, and once cooked through, beaten egg is poured in to bind it. Green onion and mitsuba are scattered on top, with sansho pepper added to taste — a finish said to have been handed down unchanged.\n\n## Why it took this shape\nFrom the practice of simmering live loach whole, the idea of splitting and deboning the fish for easier eating is said to have emerged, and binding it with egg is said to have added a gentler mouthfeel to the plain fish. In the Edo period, when eating meat from four-legged animals was forbidden, loach was prized as a food said to build strength, and this dish is said to embody the resourcefulness of townspeople finding an easy way to enjoy it, carried through to its present form.",
-      "sources": [
-        {
-          "title": "柳川鍋 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_4_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "kanpyo-maki",
-      "body_ja": "## 何でできているか\n水で戻したかんぴょうを甘辛く煮付け、酢飯と焼のりで巻いた巻きずしとされる。江戸前ずしの定番ネタのひとつで、のり巻きといえばかんぴょう巻きを指すほど親しまれてきたという。しんなりと煮含めたかんぴょうの甘辛さと、酢飯の酸味が調和した素朴な味わいが持ち味とされ、江戸前ならではの粋な一品として今も好まれている。\n\n## どう作るのか\n水で戻したかんぴょうを甘辛く煮付けて下ごしらえする。巻きすの上に焼のりを敷き、酢飯を薄く広げてから、煮付けたかんぴょうを芯にして巻き上げる。芯の具がくたっとしないよう、力加減を見ながら「の」の字に巻くのが職人の腕の見せどころだったとされ、今もその技が寿司職人のあいだで丁寧に受け継がれ、伝えられている。\n\n## なぜこの形になったのか\n品川から大森にかけてのり養殖が盛んになり、紙のように漉く製法が定着したことで、庶民でも焼のりを手に入れやすくなったと伝わる。あわせてかんぴょうを甘辛く煮て合わせる調理法が広まり、江戸前ずしの定番ネタとして根づいていったとされ、今もすし屋の一品として広く親しまれ、各家庭でも変わらずつくられ続けている。",
-      "body_en": "## What it's made of\nDried gourd shavings, rehydrated and simmered sweet and savory, are rolled with vinegared rice in nori, or so this sushi roll is described. It is said to be one of the standard items of Edo-style sushi, cherished so widely that \"nori roll\" once simply meant this one. The plain flavor, where the sweet-savory kanpyo meets the tartness of the vinegared rice, is said to be its defining charm, still favored today as a distinctly Edo dish.\n\n## How it's made\nDried gourd shavings are rehydrated in water and simmered sweet and savory as preparation. Toasted nori is laid on a bamboo mat and topped with a thin layer of vinegared rice, then the simmered kanpyo is placed as the core and rolled up. Rolling it into the traditional \"no\" shape while judging the pressure so the filling does not go limp is said to have been where a craftsman's skill showed, a technique still carefully passed down among sushi chefs today.\n\n## Why it took this shape\nNori farming flourished from Shinagawa through Omori, and a method of forming it into sheets like paper is said to have taken hold, making toasted nori easier for ordinary people to obtain. Alongside that, the method of simmering kanpyo sweet and savory to pair with it is said to have spread, taking root as a standard item of Edo-style sushi, and it remains widely loved at sushi shops and still made unchanged in households today.",
-      "sources": [
-        {
-          "title": "かんぴょう巻き 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_13_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "edo-zoni",
-      "body_ja": "## 何でできているか\n焼いた角餅に鶏肉や青菜、かまぼこなどの具材を添え、昆布とかつお節でとったすまし汁をかけた正月料理とされる。香ばしく焼いた餅の香りとすまし汁のうまみが調和し、ゆずの皮の香りが全体を引き締める。小松菜がほうれん草に変わるなど、家庭によって具材の顔ぶれが少しずつ異なるといわれ、正月の食卓を彩り続けている。\n\n## どう作るのか\n鶏肉や青菜、かまぼこなどの具材を食べやすい大きさに切ってそれぞれゆで、餅はオーブントースターなどで香ばしく焼いておく。器に焼いた餅とゆでた具材を盛りつけ、昆布とかつお節でとったすまし汁を注ぐ。仕上げにゆずの皮とみつばを添えて彩りと香りを加えるのが昔からの定番とされ、正月の朝に各家庭で受け継がれている。\n\n## なぜこの形になったのか\n元禄のころ、下総の野田や銚子で醤油の生産が盛んになり、濃口醤油を好んだ江戸っ子の嗜好と結びついてすまし汁の雑煮が定着したと伝わる。角餅は伸ばして切り分ける調理の手軽さから東日本に広まったとされ、味噌仕立てだった雑煮が醤油仕立てへ移り変わった背景にもなっているといい、京都の丸餅文化とは異なる道をたどったとされる。",
-      "body_en": "## What it's made of\nThis New Year's dish is said to place a grilled square rice cake alongside chicken, greens, and fish cake, then pour over a clear broth made from kelp and dried bonito. The toasted aroma of the rice cake harmonizes with the savor of the broth, and the scent of yuzu peel ties the bowl together. Ingredients vary a little by household — spinach standing in for komatsuna greens, for instance — and the dish is said to keep brightening the New Year's table.\n\n## How it's made\nChicken, greens, fish cake, and other ingredients are cut into bite-sized pieces and boiled separately, while the rice cake is toasted until fragrant in a toaster oven or similar. The toasted rice cake and boiled ingredients are arranged in a bowl and covered with the kelp-and-bonito broth. Yuzu peel and mitsuba are added last for color and aroma, a finish said to have long been the standard, carried on in households every New Year's morning.\n\n## Why it took this shape\nAround the Genroku era, soy sauce production flourished in Noda and Choshi in Shimosa province, and this dark, rich soy sauce, favored by Edo townspeople, is said to have combined with their taste to establish the clear-broth style of zoni. Square rice cakes are said to have spread through eastern Japan for the convenience of rolling out dough and cutting it into pieces, a shift said to lie behind the move from a miso-based zoni to a soy-sauce-based one, taking a different path from the round-rice-cake tradition of Kyoto.",
-      "sources": [
-        {
-          "title": "お雑煮（江戸雑煮） 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_7_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "shokkara-jiru",
-      "body_ja": "## 何でできているか\n小ぶりのムロアジをミンチにして塩を加え発酵させた「しょっから」に、あしたばや里芋など島でとれる野菜を加えて煮込んだ汁物とされる。発酵ならではの濃厚な旨みと独特の香りが、あしたばのほろ苦さと里芋のとろみによって和らげられ、島の恵みが凝縮した滋味深い一杯に仕上がるという評判が、島の暮らしの中で今も語り継がれている。\n\n## どう作るのか\n開いた新鮮なムロアジをミンチ状にし、塩を加えて一から二週間ほど置いて発酵させる。発酵させた「しょっから」をだし汁に入れ、あしたばや里芋など島でとれる具材とともに煮込む。発酵の進み具合によって塩気や香りの強さが変わるため、様子を見ながら加減して仕上げるのが家庭ごとのこつとされ、つくり手の経験がものをいう作業だという。\n\n## なぜこの形になったのか\n冷蔵の手段がなかった離島で、獲れたムロアジを長く保存するための知恵として発酵させる方法が根づいたと伝わる。発酵によって生まれる強い匂いと塩気を、島で採れるあしたばや里芋と組み合わせて和らげる工夫が加わり、島の暮らしに根ざした汁物として代々受け継がれてきたとされ、今も一部の家庭で大切に受け継がれている。",
-      "body_en": "## What it's made of\nThis soup is said to combine \"shokkara\" — minced scad mackerel salted and fermented — with island-grown vegetables such as ashitaba and taro. The deep umami and distinctive aroma unique to fermentation are said to be softened by the faint bitterness of ashitaba and the smooth thickness of taro, coming together into a deeply savory bowl that concentrates the island's bounty, a reputation still spoken of in island life today.\n\n## How it's made\nFresh scad mackerel is split open, minced, salted, and left to ferment for one to two weeks. The fermented \"shokkara\" is added to a pot of dashi along with island-grown ingredients such as ashitaba and taro and simmered together. Because the strength of the salt and aroma shifts with how far the fermentation has progressed, judging and adjusting as one goes is said to be each household's particular knack, a task that rewards experience.\n\n## Why it took this shape\nOn remote islands with no means of refrigeration, fermenting the caught scad mackerel is said to have taken root as a way to preserve it for the long term. Pairing the strong smell and saltiness that fermentation produces with island-grown ashitaba and taro to soften them is said to have been added as a further refinement, and this soup, rooted in island life, is said to have been carried down through generations, still cherished in some households today.",
-      "sources": [
-        {
-          "title": "しょっから汁 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_9_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "tamagoyaki",
-      "body_ja": "## 何でできているか\n卵にだし汁と砂糖を合わせて厚く焼き上げた料理とされる。関東では甘めに味つけし、少し焦げ目がつくほどしっかり焼き上げるのが特徴で、かつおだしのうまみが利いた濃い味わいと弾力のある食感になる。お弁当のおかずとしても長く親しまれてきたという、家庭になじみ深い一品として今も愛され続けている定番の惣菜だという。\n\n## どう作るのか\n卵にだし汁と砂糖を加えてよく溶きほぐし、卵焼き用の角型フライパンで何度かに分けて流し入れながら巻き、層にして厚く焼き上げる。焼き上がったら粗熱を取ってから食べやすい大きさに切り分けて食べるとされる。だしの量や甘さの加減は家庭によって少しずつ差があり、それぞれの味が受け継がれ、弁当箱に詰めやすい厚みに仕上げるのもこつとされる。\n\n## なぜこの形になったのか\n鶏肉や鶏卵の食用が長く禁じられていた時代を経て、江戸初期に禁が解かれると、だしを沸かした中に溶き卵を流し入れて蒸す「玉子ふわふわ」が江戸庶民のごちそうとして流行したと伝わる。これが玉子焼きの起源とされ、かつおだしの利いた濃い味わいへと発展していったとされ、今の厚焼き玉子の姿にしっかりと受け継がれている。",
-      "body_en": "## What it's made of\nEggs are combined with dashi and sugar and grilled into a thick layered roll, or so it is said. In the Kanto style it is seasoned on the sweet side and cooked firmly enough to pick up a little char, giving it a rich flavor carried by the umami of bonito dashi and a springy texture. Long loved as a lunchbox staple, it remains a familiar, everyday dish still cherished in households today.\n\n## How it's made\nEggs are beaten well with dashi and sugar, then poured in stages into a rectangular egg-pan and rolled, building up layer after layer into a thick roll. Once cooked, it is left to cool slightly before being sliced into bite-sized pieces, or so it is said. The amount of dashi and the level of sweetness vary a little from household to household, each carrying on its own flavor, and shaping it to a thickness that fits neatly into a lunchbox is also said to be a knack worth mastering.\n\n## Why it took this shape\nAfter a long era when eating chicken and eggs was forbidden, the ban was lifted in the early Edo period, and a dish called \"tamago fuwafuwa\" — beaten egg poured into boiling dashi and steamed — is said to have become a popular treat among Edo townspeople. This is said to be the origin of tamagoyaki, which is said to have then developed into the rich, bonito-dashi-forward flavor carried through to today's thick-rolled egg dish.",
-      "sources": [
-        {
-          "title": "玉子焼き 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_11_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "jisuke-imo-negi-miso",
-      "body_ja": "## 何でできているか\n治助芋という奥多摩特産の芋を蒸し、ねぎとかつお節を混ぜたねぎ味噌をつけて食べる料理とされる。白い皮と白い肉が特徴で、味は濃厚で粘りが強く、煮崩れしにくいという。粘りのあるみっちりとした食感とねぎ味噌の香ばしさが調和する、奥多摩の暮らしに根ざした一品だといわれ、日常のおかずとして今も親しまれ続けている。\n\n## どう作るのか\n治助芋は皮をむき、蒸す、煮る、焼くのいずれかで火を通してから、ねぎとかつお節を混ぜたねぎ味噌を添えて食べるとされる。冬には濡らした芋を屋外で一晩凍らせてから乾燥させ、粉にして芋団子をつくり、大豆と麦を炒って挽いた粉をまぶして食べることもあったといい、保存の知恵も同時に凝らされ、季節を問わず食べ継がれてきたとされる。\n\n## なぜこの形になったのか\n稲作に向かない奥多摩の土地で、馬鈴薯の一種である治助芋が100年以上前から栽培され、食糧が乏しい時代の副菜として暮らしを支えてきたと伝わる。客人をもてなす際にもいんげんや昆布と煮て振る舞う習慣があったとされ、地域の暮らしに密着した食材として世代を超えてしっかりと根づき、今も各家庭でつくられ続けているという。",
-      "body_en": "## What it's made of\nJisuke potatoes, a variety grown around Okutama, are steamed and served with a green-onion miso mixed with bonito flakes, or so it is said. They are known for white skin and white flesh, and the flavor is said to be rich and starchy, with a texture that holds up well without falling apart in cooking. The sticky, dense bite of the potato paired with the savory green-onion miso is said to be rooted in Okutama's daily life, still a familiar everyday side dish today.\n\n## How it's made\nJisuke potatoes are peeled and cooked through by steaming, boiling, or grilling, then served with a green-onion miso mixed with bonito flakes, or so it is said. In winter, dampened potatoes were left outdoors overnight to freeze, then dried and ground into flour to make potato dumplings, dusted with a roasted powder of soybean and wheat, a further method of preservation said to have let the potato be eaten year-round.\n\n## Why it took this shape\nOn land in Okutama unsuited to rice growing, jisuke potatoes — a variety of potato — have been cultivated for over a hundred years, said to have supported local diets as a side dish in times of food scarcity. They are also said to have been simmered with green beans or kelp to serve guests, and this potato is said to have taken firm root across generations as a food tightly woven into local life, still made in households today.",
-      "sources": [
-        {
-          "title": "治助芋のネギ味噌 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_14_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "shima-zushi",
-      "body_ja": "## 何でできているか\n醤油ベースのたれに漬けた魚を「ヅケ」にし、砂糖や塩、酢で調味した酢飯で握った八丈島の郷土料理とされる。わさびの代わりに練りがらしや、島とうがらしを漬け込んだ島とう醤油を使う島もあり、島ごとに少しずつ違う仕立てが残っているという、伊豆諸島ならではの独自のすしとして今もなお大切に長く語り継がれ続けている。\n\n## どう作るのか\n寿司だねを食べやすい大きさに切り、醤油、酒、みりんに漬け込んでヅケにする。砂糖と塩、酢で調味した酢飯で握って仕上げるとされる。甘酢しょうがや島のりを混ぜた酢飯にネタをのせ、ちらしずし風にして食べることもあるといい、家庭や店によって仕立てに細かな違いが見られるとされ、島ごとの個性が色濃く表れているという。\n\n## なぜこの形になったのか\n沖に船で出る際、魚の鮮度を保つ工夫としてたれに漬け込む方法が生まれたと伝わる。ワサビが手に入りにくかった島では、代わりに練りがらしや島とう醤油を使う独自の工夫が根づき、島ごとに異なる仕立てのすしとして発達していったとされ、今も島の暮らしの中で少しずつ形を変えながら大切に語り継がれ、守られ続けている。",
-      "body_en": "## What it's made of\nFish marinated in a soy-sauce-based sauce, called \"zuke,\" is pressed with rice seasoned with sugar, salt, and vinegar into this local dish of Hachijojima, or so it is described. In place of wasabi, some islands use hot mustard paste or a soy sauce infused with unripe island chili peppers, and slightly different versions are said to remain from island to island — a distinctly Izu Islands style of sushi still fondly told of today.\n\n## How it's made\nSushi toppings are cut into bite-sized pieces and marinated in soy sauce, sake, and mirin to make zuke. They are pressed onto rice seasoned with sugar, salt, and vinegar to finish, or so it is said. The topping is sometimes laid over rice mixed with sweet vinegared ginger and island nori for a chirashi-style presentation instead, and the style is said to vary in small ways from household to household or shop to shop, each island's character showing through.\n\n## Why it took this shape\nThe method of marinating fish in sauce is said to have arisen as a way to keep it fresh while out at sea in a boat. On islands where wasabi was hard to obtain, using hot mustard paste or island chili soy sauce instead is said to have taken root as a distinct workaround, and the sushi is said to have developed into varying styles from island to island, still carried on and protected today, changing form a little at a time within island life.",
-      "sources": [
-        {
-          "title": "島ずし 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_19_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "okutama-wasabi-tokyo-x-maki",
-      "body_ja": "## 何でできているか\n地元産の根わさびを刻んで豚肉で巻き、焼き上げてから醤油とみりんで味つけした料理とされる。多摩川の源流に近い清流で育つわさびの涼やかな辛みと、きめ細かくジューシーな豚肉の脂が合わさり、わさびを生のまますりおろすだけでは味わえない香ばしさが加わるという、比較的新しい食べ方として生まれ、奥多摩らしい一皿になったとされる。\n\n## どう作るのか\n根わさびを千切りにし、薄切りにした豚肉で巻く。フライパンに油を引いて火が通るまで焼き、仕上げに醤油とみりんを加えて味をからめる。好みの野菜を添えて皿に盛りつけるとされ、シンプルな手順ながらわさびと豚肉の香りが引き立つ、食べ応えのある焼き物に仕上がるといい、家庭でも手軽に試せる一品として広まっているという。\n\n## なぜこの形になったのか\nすりおろして生のまま食べるのが定番だったわさびを、日常で使った後に残る部分まで無駄なく生かしたいという思いから、刻んで加熱する調理法が考え出されたと伝わる。地元産の豚肉と組み合わせることで、地域の恵みを一皿にまとめた新しい郷土食になったとされ、各家庭でも少しずつつくられるようになり、もてなしの席にも並ぶようになったという。",
-      "body_en": "## What it's made of\nChopped local root wasabi is wrapped in pork, grilled, and seasoned with soy sauce and mirin, or so this dish is described. The cool sharpness of wasabi grown in clear streams near the headwaters of the Tama River meets the rich juiciness of a fine-grained pork, adding a savory depth not found when wasabi is simply grated and eaten raw — a relatively recent way of eating it, said to have become a dish distinctly of Okutama.\n\n## How it's made\nRoot wasabi is cut into thin strips and wrapped in thinly sliced pork. It is grilled in an oiled pan until cooked through, then finished by adding soy sauce and mirin to coat it in flavor. Served on a plate with vegetables of one's choosing, or so it is said, the simple steps yield a hearty grilled dish where the aromas of wasabi and pork stand out, said to have spread as something easily tried at home too.\n\n## Why it took this shape\nWasabi had traditionally been grated and eaten raw, and the method of chopping and cooking it is said to have been devised out of a wish to make full use of what remained after everyday grating, without letting any go to waste. Combining it with locally raised pork is said to have brought the region's bounty together on one plate as a new local dish, one said to have gradually spread into being made in individual households as well.",
-      "sources": [
-        {
-          "title": "おくたまワサビのTOKYO-X巻き 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_15_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "edo-soba",
-      "body_ja": "## 何でできているか\nそば粉につなぎと水を加えてこね、細長く切った麺料理とされる。つゆにつけて食べる「もりそば」と、温かいつゆをたっぷりかける「かけそば」の二通りがあり、ねぎや刻みのりなどの薬味を添えて味の変化を楽しむという。江戸っ子に好まれた、さっぱりとした食べ心地が身上とされ、今も日常食として広く親しまれ続けている。\n\n## どう作るのか\nそば粉につなぎと水を加えてこね、細長く切って麺に仕上げる。つゆにつけて食べる「もりそば」と、丼に入れて温かいつゆをたっぷりかける「かけそば」に大きく分かれる。ねぎや刻み海苔などの薬味を添えることで、風味の変化を楽しみながら食べるとされ、好みに応じて薬味の量を細かく加減しながらゆっくり味わうとされている。\n\n## なぜこの形になったのか\n気の短い江戸っ子の気質に、さっと手早く食べられるそばがよく合ったと伝わる。屋台から店構えの蕎麦屋まで広く親しまれ、健康によいとされたことから縁起物ともみなされ、月末や季節の変わり目に食べる習わしが根づいたとされる。大みそかの年越しそばの習慣も、その名残だといわれ続けているとされ、今もなお伝わっている。",
-      "body_en": "## What it's made of\nBuckwheat flour is kneaded with a binder and water, then cut into long thin noodles, or so this dish is described. There are two main styles — \"mori-soba,\" dipped into a sauce before eating, and \"kake-soba,\" served in a bowl with hot broth poured generously over — and green onion, shredded nori, and other garnishes are added to enjoy shifts in flavor. Its light, crisp eating quality, said to have suited the taste of Edo townspeople, remains widely loved today.\n\n## How it's made\nBuckwheat flour is kneaded with a binder and water, then cut into long, thin noodles. It falls broadly into two styles: \"mori-soba,\" dipped in a sauce, and \"kake-soba,\" served in a bowl topped generously with hot broth. Adding garnishes such as green onion and shredded nori is said to let one enjoy shifting notes of flavor while eating, adjusting the amount of garnish finely to taste and savoring it slowly, or so it is said.\n\n## Why it took this shape\nSoba, quick to eat, is said to have suited well the famously impatient temperament of Edo townspeople. Loved widely from street stalls to proper noodle shops, it was also considered good for health and so came to be seen as an auspicious food, said to have taken root as something eaten at the end of each month and at the turn of the seasons. The custom of eating soba on New Year's Eve is said to be a remnant of that practice, still carried on today.",
-      "sources": [
-        {
-          "title": "そば（江戸そば） 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_20_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "anago-zushi",
-      "body_ja": "## 何でできているか\n煮あなごをシャリにのせ、「ツメ」と呼ばれる煮詰めたたれを塗ったすしとされる。淡白でありながら上品なうまみを持つあなごの身と、甘辛いツメの香ばしさが酢飯と溶け合う。江戸前ずしの定番ネタのひとつとして、長く欠かせない存在であり続けてきたという、江戸前ならではの一品として今もなお広く長く親しまれ続けている。\n\n## どう作るのか\n塩と湯を使ってあなごの表面のぬめりをしっかり取り除き、臭みが出ないよう丁寧に処理する。酒、砂糖、醤油で弱火にかけて煮たのち、ネタの大きさに切る。頭と骨を煮出してとっただしに調味料を加えて煮詰め、ツメをつくり、握ったシャリにのせて塗って仕上げるとされ、手間のかかる工程をひとつずつ丁寧に積み重ねて完成させるとされる。\n\n## なぜこの形になったのか\n江戸時代の東京湾には複数の川から栄養豊かな水が流れ込み、あなごをはじめとする魚介が育つ好漁場だったと伝わる。鮮度が命とされるあなごのぬめりを取り、丁寧に煮てツメをつくり上げる一連の作業は、すし職人の技として磨かれ、代々の職人の手によって大切に受け継がれ続け、今の握りの形にまでしっかりと至っているとされる。",
-      "body_en": "## What it's made of\nSimmered conger eel is placed on vinegared rice and brushed with \"tsume,\" a reduced simmering sauce, or so this sushi is described. The eel's plain yet refined umami meets the sweet-savory richness of the tsume, melding with the rice. As one of the standard items of Edo-style sushi, it is said to have remained an indispensable dish, still widely and fondly enjoyed today as something distinctly of old Edo.\n\n## How it's made\nSalt and hot water are used to thoroughly remove the sliminess from the conger eel's surface, handled carefully to keep any off odor from developing. It is simmered gently in sake, sugar, and soy sauce, then cut to the size needed for a topping. The head and bones are simmered for stock, seasoned and reduced into the tsume sauce, and the finished eel is placed on hand-pressed rice and brushed with it — a labor-intensive process from start to finish.\n\n## Why it took this shape\nIn the Edo period, Tokyo Bay is said to have received nutrient-rich water from several rivers, making it a fine fishing ground where conger eel and other seafood thrived. Removing the sliminess from an eel where freshness is everything, simmering it with care, and building up the tsume sauce is said to be a sequence of tasks refined as a sushi chef's craft, carried on carefully from one generation of craftsmen to the next, arriving firmly at today's form of the roll.",
-      "sources": [
-        {
-          "title": "穴子寿司 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_18_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "kohada-no-awazuke",
-      "body_ja": "## 何でできているか\nコハダを塩でしめて酢に漬け、クチナシで黄色く染めた蒸し粟と交互に重ねて漬け込んだおせち料理とされる。酢の酸味と粟の甘み、しょうがや唐辛子の辛みが層になり、噛むほどに味わいが変化する。出世魚であるコハダを用いることから、正月料理として縁起を担ぐ意味合いも込められているといい、二の重を彩る一品として重宝されてきたという。\n\n## どう作るのか\nコハダの頭と内臓、骨を取り除き、塩でしめてから酢に漬ける。蒸した粟を冷まし、しょうがのみじん切りや輪切りの唐辛子を混ぜたものと、酢漬けにしたコハダを交互に容器へ重ねて漬け込む。数時間でも食べられるが、二、三日漬けると味がなじみ食べごろになるとされ、酢を強めにすると保存性も一段と高まるといわれている。\n\n## なぜこの形になったのか\n成長とともに呼び名が変わる出世魚のコハダを用いることで、正月料理にふさわしい縁起を担いだと伝わる。黄色く染めた粟と合わせるのは五穀豊穣を願う組み合わせとされ、重箱に詰めて日持ちさせるため、酢を強めに効かせて保存性を高める工夫も加えられているといい、年末年始の食卓を昔から今日までずっと支え続けてきたという。",
-      "body_en": "## What it's made of\nGizzard shad is salt-cured and vinegared, then layered alternately with steamed millet dyed yellow with gardenia fruit, or so this New Year's dish is described. The tartness of the vinegar, the sweetness of the millet, and the sharpness of ginger and chili build up in layers, shifting in flavor with every bite. Because gizzard shad is a fish that changes its name as it grows, using it is said to carry an auspicious meaning fitting for a New Year's dish, prized as an item that brightens the second tier of the osechi box.\n\n## How it's made\nThe head, innards, and bones of the gizzard shad are removed, and the fish is salt-cured before being pickled in vinegar. Steamed millet is cooled and mixed with minced ginger and sliced chili, then layered alternately in a container with the vinegared fish. It can be eaten after just a few hours, but resting it for two to three days is said to let the flavors settle, and using a stronger vinegar is said to further extend how well it keeps.\n\n## Why it took this shape\nUsing gizzard shad, a fish whose name changes as it grows, is said to have carried an auspicious meaning fitting for a New Year's dish. Pairing it with millet dyed yellow is said to represent a wish for a bountiful harvest of the five grains, and because it is packed into a tiered box meant to keep for days, using extra-strong vinegar to boost its keeping quality is also said to have been worked in, a dish said to have long supported the New Year's table through to today.",
-      "sources": [
-        {
-          "title": "こはだの粟漬け 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_21_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "imo-youkan",
-      "body_ja": "## 何でできているか\n蒸したさつまいもを練り上げて成型した、素朴な和菓子とされる。さつまいも本来の優しい甘さと、しっとりとした口当たりが持ち味で、練りようかんに比べて手に入りやすい材料でつくれるのが特徴だという。庶民が気軽に楽しめる甘味として親しまれてきたとされ、今も和菓子屋の定番のひとつとして変わらず長く並び続けている。\n\n## どう作るのか\n皮をむいたさつまいもを加熱してやわらかくし、温かいうちに大きな塊がなくなるまでよくつぶす。砂糖を加えてなめらかなペースト状に練り上げ、型に入れて成形する。ヘタに近い繊維質の強い部分は切り落としておくと、裏ごしがしやすくなるとされ、家庭でも比較的手軽につくれる素朴な菓子だと今も広く長く言われ続けている。\n\n## なぜこの形になったのか\n明治時代、高価だった練りようかんを庶民が口にする機会は少なかったと伝わる。浅草の芋問屋と菓子職人が、手近な食材であるさつまいもを使って代用となる和菓子をつくろうと試行錯誤を重ね、いもようかんが生まれたとされ、安価で親しみやすい菓子として庶民に歓迎され、江戸の下町にしっかりと深く定着していったという。",
-      "body_en": "## What it's made of\nSteamed sweet potato is worked into a paste and shaped into this simple confection, or so it is described. The gentle natural sweetness of the sweet potato and its moist texture are its defining traits, and it is said to be made from ingredients far easier to obtain than those of a traditional smooth-bean-paste yokan. Long loved as a sweet ordinary people could enjoy without much expense, it remains a standard item on wagashi shop shelves today.\n\n## How it's made\nPeeled sweet potato is heated until soft and mashed thoroughly while still warm, until no large lumps remain. Sugar is added and it is worked into a smooth paste, then set into a mold to take shape. Trimming off the fibrous, tough part near the stem end is said to make it easier to pass through a sieve, and it is said to remain, even now, a simple sweet that can be made fairly easily at home.\n\n## Why it took this shape\nIn the Meiji era, traditional smooth-bean-paste yokan was expensive, and ordinary people are said to have had few chances to taste it. A sweet-potato wholesaler and a confectioner in Asakusa are said to have worked through trial and error, using the readily available sweet potato to create a substitute sweet, and this is said to be how imo-yokan was born — a cheaper, more approachable confection that was welcomed by ordinary people and took firm root in the old downtown of Edo.",
-      "sources": [
-        {
-          "title": "いもようかん 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_23_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "sakura-mochi",
-      "body_ja": "## 何でできているか\n小麦粉の生地を薄く円形に焼き、こしあんを包んでから塩漬けの桜の葉で包んだ和菓子とされる。葉の塩気とほのかな香りが、あんのやさしい甘さを引き立てる。焼いた生地のもちもちとした食感と葉の風味が重なる、隅田堤の桜にちなんだ江戸生まれの菓子だといい、今も春の訪れを感じさせる味として世代を超えて広く親しまれている。\n\n## どう作るのか\n小豆を煮てこし、練ってあんをつくる。小麦粉や白玉粉を水で溶き、食紅でほのかな桜色に仕上げた生地をフライパンで楕円形に薄く焼き、その皮であんを包む。仕上げに塩漬けにした桜の葉で包み、葉を一緒に食べるか外して食べるかは好みが分かれるとされ、店によって葉の巻き方や枚数にも細かな違いが見られるといわれている。\n\n## なぜこの形になったのか\n隅田堤の桜の落ち葉を掃除していた男性が、葉を塩漬けにして餡入りの餅を包むことを思いついたのが始まりと伝わる。門前で売り出したところ花見客に大変喜ばれ、この地の名物として定着していったとされ、桜の名所という土地柄がそのまま菓子の形に表れているといい、江戸時代から続く味として今もなお変わらず伝わっている。",
-      "body_en": "## What it's made of\nA thin, round wheat-flour crepe is wrapped around sweet red bean paste, then wrapped again in a salt-cured cherry leaf, or so this confection is described. The leaf's saltiness and faint fragrance are said to set off the gentle sweetness of the paste. The chewy texture of the grilled crepe meets the flavor of the leaf in a sweet named for the cherry trees along the Sumida embankment, still enjoyed today as a taste that announces spring's arrival.\n\n## How it's made\nRed beans are simmered, strained, and worked into a smooth paste. Wheat flour or shiratamako is mixed with water and tinted a faint cherry-blossom pink with food coloring, then cooked thin and oval-shaped in a frying pan like a crepe, and this skin is wrapped around the paste. It is finished by wrapping it in a salt-cured cherry leaf, and whether to eat the leaf along with it or set it aside is said to be a matter of preference, with the way the leaf is wrapped and how many are used said to vary a little by shop.\n\n## Why it took this shape\nIt is said to trace back to a man who, while sweeping up fallen cherry leaves along the Sumida embankment, hit on the idea of salt-curing the leaves and wrapping them around a rice cake filled with bean paste. Selling it before the temple gate delighted the flower-viewing crowds, and it is said to have taken hold as a local specialty from there, the very identity of a cherry-blossom destination taking shape in a sweet — a flavor said to carry on from the Edo period to today.",
-      "sources": [
-        {
-          "title": "桜もち 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_22_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "negima-nabe",
-      "body_ja": "## 何でできているか\nまぐろのあらとねぎを醤油で煮込んだ、江戸生まれの庶民の鍋料理とされる。脂ののったまぐろの旨みがねぎに染み込み、シンプルな味つけながら満足感のある一椀になる。冷蔵の手段がなかった時代、傷みやすい脂身を無駄にしないための工夫から生まれたといわれ、江戸の庶民の暮らしに根ざした一皿として今もなお伝わり続けている。\n\n## どう作るのか\n土鍋に醤油と酒を入れ、冷たいうちにねぎを加えて火にかける。煮立ったらぶつ切りにしたまぐろを入れ、色が変わる程度にさっと煮るとされる。煮すぎると身が硬くなるため、まぐろは食べる直前に加えるのがこつで、春菊やきのこ、豆腐を加えることもあるといい、まぐろの脂が溶け出して汁全体にも深く豊かなこくが出るという。\n\n## なぜこの形になったのか\n江戸時代、脂の多い部分は傷みが早く保存に向かないため、客には出せない部位とされていたと伝わる。この脂身を無駄にせず食べるための工夫として、ねぎと一緒に醤油で煮込む方法が生まれたとされ、七輪の普及で鍋を囲んで食べるスタイルが広まった背景も重なっているといい、庶民の知恵から生まれた一品として今に伝わるという。",
-      "body_en": "## What it's made of\nFatty tuna trimmings and green onion are simmered together in soy sauce in this hotpot dish born in Edo among ordinary townspeople, or so it is described. The savor of the rich tuna soaks into the onion, making for a satisfying bowl despite its simple seasoning. Born, it is said, from a wish not to waste the fatty cuts that spoiled quickly in an age without refrigeration, it survives today as a dish rooted in the daily life of Edo's common people.\n\n## How it's made\nSoy sauce and sake are put in a clay pot along with the green onion while it's still cold, then set over heat. Once it boils, tuna cut into chunks is added and simmered briefly, just until the color changes, or so it is said. Overcooking toughens the meat, so the trick is said to be adding the tuna right before eating; chrysanthemum greens, mushrooms, or tofu are sometimes added too, and the tuna's fat is said to melt into the broth for a deep, rich flavor throughout.\n\n## Why it took this shape\nIn the Edo period, the fattier cuts of tuna spoiled quickly and did not keep well, and they are said to have been considered unfit to serve to guests. A method of not letting that fatty meat go to waste, by simmering it together with green onion in soy sauce, is said to have been born from that constraint, and the spread of the portable charcoal brazier, which let people gather around a small pot to eat, is also said to have contributed — a dish said to have grown out of the resourcefulness of ordinary people.",
-      "sources": [
-        {
-          "title": "ねぎま鍋 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_26_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "tsukudani",
-      "body_ja": "## 何でできているか\n白魚やのり、小エビ、貝類などを醤油やみりん、砂糖で甘辛く煮詰めた保存食とされる。濃い味つけが白いご飯によく合い、お茶漬けやおにぎりの具としても親しまれてきたという。素材によって食感や風味が異なり、魚介から農産物まで幅広い材料でつくられているとされ、遠方への贈答品としても古くから長く重宝されてきたという。\n\n## どう作るのか\n白魚やのり、小エビなどの具材と調味料を鍋に入れ、汁気がなくなるまでじっくり煮詰めるとされる。のりの佃煮をつくる際は、固まりにならないよう水でほぐすのがこつだという。細かくちぎって水に十分つけてふやかしておくと、むらなく煮詰められるとされ、焦げつかないよう火加減にも常に細やかに気を配り続けるとされる。\n\n## なぜこの形になったのか\n佃島に移住した漁師たちの暮らしの中で、魚を長く保存するために濃厚な調味料で煮詰める方法が根づいたと伝わる。紀州から伝わったたまり醤油を使う調理法と結びつき、貯蔵性の高い保存食として定着していったとされ、今も全国に知られる江戸の味として各家庭や専門店で今なお大切に長く受け継がれ守られ続けているという。",
-      "body_en": "## What it's made of\nWhitebait, nori, small shrimp, shellfish, and other ingredients are simmered down sweet and savory in soy sauce, mirin, and sugar into this preserved food, or so it is described. Its rich seasoning pairs well with plain white rice, and it is said to have long been loved as a topping for ochazuke or a filling for rice balls. Texture and flavor vary by ingredient, and it is said to be made from a wide range of materials, from seafood to farm produce, also valued as a gift sent over distance.\n\n## How it's made\nIngredients such as whitebait, nori, or small shrimp are put in a pot with seasonings and simmered slowly until the liquid is gone, or so it is said. When making nori tsukudani, the trick is said to be loosening the nori in water so it doesn't clump. Tearing it into small pieces and soaking it thoroughly in water beforehand is said to let it simmer down evenly, and the heat is said to require constant, careful attention so it does not scorch.\n\n## Why it took this shape\nAmong fishermen who settled on Tsukudajima, a method of simmering fish in concentrated seasoning to preserve it for the long term is said to have taken root as part of daily life. Combined with the method of using tamari soy sauce brought from the Kishu region, it is said to have become established as a highly keepable preserved food, and this taste of old Edo, known across the country today, is said to still be carefully carried on and protected in households and specialty shops alike.",
-      "sources": [
-        {
-          "title": "佃煮 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_25_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "chanko-nabe",
-      "body_ja": "## 何でできているか\n鶏肉や白菜、人参、ねぎ、豆腐など様々な具材をだし汁で煮込んだ、栄養価の高い鍋料理とされる。多彩な具材から出るだしが染み込み、簡単ながら滋味深い味わいになる。もともとは力士の体をつくるための料理だったと伝わり、一度に大量につくれる点も特徴だといい、今では一般の家庭でも日常的にごく気軽につくられている。\n\n## どう作るのか\nだし汁や鶏ガラでとったスープに、鶏肉と白菜、人参、ねぎなどの野菜、油揚げや豆腐を合わせて煮込むとされる。味つけは醤油や味噌など好みに応じて様々だという。具材を大きめに切ってじっくり煮込むことで、だしがよく染み込み、食べ応えのある一椀に仕上がるとされ、締めに雑炊やうどんを加えることも多いといわれている。\n\n## なぜこの形になったのか\n土俵で手をつくことが負けを連想させるとして、四足で歩く牛や豚の肉を避け、鶏肉を中心にした具材選びが縁起を担ぐ形で定着したと伝わる。大人数の力士の体を効率よくつくる必要から、様々な食材をひとつの鍋にまとめて煮込む形が生まれたとされ、厳しい稽古を終えた力士たちに今もなお長く大切に親しまれ続けてきたという。",
-      "body_en": "## What it's made of\nChicken, napa cabbage, carrot, green onion, tofu, and many other ingredients are simmered together in dashi in this nutrient-rich hotpot, or so it is described. The broth drawn from a wide range of ingredients soaks through everything, making for a dish that is simple yet deeply savory. Originally a dish meant to build sumo wrestlers' bodies, it is also said to be notable for how much can be made at once, and today it is said to be made casually in ordinary households as well.\n\n## How it's made\nChicken along with vegetables such as napa cabbage, carrot, and green onion, plus fried tofu and tofu, are combined and simmered in a broth of dashi or chicken bones, or so it is said. Seasoning varies to taste, with soy sauce or miso among the common choices. Cutting the ingredients into large pieces and simmering them slowly is said to let the broth soak in well for a hearty, satisfying bowl, often finished with rice porridge or noodles at the end.\n\n## Why it took this shape\nBecause touching the ground with one's hands evokes a loss in the ring, four-legged meats such as beef and pork are said to have been avoided, with chicken chosen instead as an auspicious ingredient — a custom said to have taken root that way. The need to build the bodies of many wrestlers efficiently is said to have given rise to the practice of simmering a wide range of ingredients together in one pot, long cherished by wrestlers after grueling practice sessions.",
-      "sources": [
-        {
-          "title": "ちゃんこ鍋 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_28_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "kinpira",
-      "body_ja": "## 何でできているか\nごぼうと人参を油で炒め、醤油や砂糖で甘辛く味つけし、唐辛子で辛みを効かせた炒め物とされる。ごぼうのしゃきしゃきとした歯ごたえと、ぴりっとした唐辛子の刺激が食欲をそそる。江戸時代に流行した浄瑠璃の勇ましい主人公にちなんで名づけられたと伝わる、庶民に長く親しまれてきた惣菜だといい、今も食卓に欠かせない一品とされている。\n\n## どう作るのか\n千切りまたはささがきにしたごぼうを油でよく炒め、砂糖や醤油などの調味料で味を調えてから、唐辛子を加えて辛みを効かせるとされる。ごぼうの皮には風味があるため、こするように優しく洗うのがよいという。濃いめの味つけにすることで、保存性が高まり、おせち料理や祝い事の膳にも古くから長く重宝されてきたとされている。\n\n## なぜこの形になったのか\n江戸時代に流行した古浄瑠璃の主人公「坂田金平」の力強さに、ごぼうの歯ごたえと唐辛子の辛さを重ねて名づけられたと伝わる。江戸東京野菜のひとつとして品種改良が重ねられたごぼうが定着したことも、この炒め物が庶民の惣菜として広まった背景になっているといい、今も各家庭の食卓で当たり前のように受け継がれ続けている。",
-      "body_en": "## What it's made of\nBurdock root and carrot are stir-fried in oil, seasoned sweet and savory with soy sauce and sugar, and given a sharp kick with chili pepper, or so this stir-fry is described. The crisp bite of burdock and the sting of chili are said to whet the appetite. It is said to take its name from a bold hero of a puppet-theater play popular in the Edo period, a side dish long loved by ordinary people that remains a fixture of the table today.\n\n## How it's made\nBurdock, julienned or shaved into thin strips, is stir-fried well in oil, seasoned with sugar, soy sauce, and other condiments, and finished with chili pepper for heat, or so it is said. Because the skin of burdock carries its own flavor, it is said to be best gently rubbed clean rather than peeled away. Seasoning it on the strong side is said to improve its keeping quality, which is why it has long been valued for osechi and celebratory meals.\n\n## Why it took this shape\nIt is said to have been named by likening the crunch of burdock and the bite of chili to the strength of \"Sakata Kinpira,\" the bold hero of an old puppet-theater play popular in the Edo period. The establishment of burdock as one of the Edo-Tokyo heirloom vegetables, refined through generations of breeding, is also said to lie behind how this stir-fry spread as an everyday dish, still handed down as a matter of course at family tables today.",
-      "sources": [
-        {
-          "title": "きんぴらごぼう 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_27_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "kushi-dango",
-      "body_ja": "## 何でできているか\n上新粉や白玉粉を丸めてゆでた団子を串に刺し、あんやみたらしだれ、きな粉などをからめた菓子とされる。もちもちとした団子の食感に、甘辛いたれや餡の風味が重なる。茶店や寺社の門前で売られてきた、日常のおやつとして江戸の庶民に長く親しまれてきたのだといい、今も変わらずどこでも気軽に手に入れられる菓子とされている。\n\n## どう作るのか\n上新粉と白玉粉を混ぜ、ぬるま湯を加えて塊をつぶしながらこね、耳たぶほどの固さにする。小さく分けて手のひらで丸め、たっぷりの湯でゆでてから串に刺すとされる。あんや砂糖醤油だれ、きな粉などをからめて仕上げ、好みの味で食べ分けるといい、家庭でも比較的手軽につくれる素朴な菓子だと今もなお広くよく言われている。\n\n## なぜこの形になったのか\n江戸時代、代金の四文銭を置かずに持ち帰る不正な客が増えたため、店主が団子の数を五つから四つに減らして串に刺すようになったという記録が今も残っている。これが関東で四つ刺しが定着した始まりと伝わり、関西では五つ刺しが主流のまま残ったとされ、今もその地域による違いが変わらずはっきりと見られ続けているという。",
-      "body_en": "## What it's made of\nDumplings made from rice flour and shiratamako, rolled and boiled, are skewered and coated with sweet bean paste, sweet soy glaze, roasted soybean flour, and the like, or so this sweet is described. The chewy texture of the dumplings meets the flavor of the sweet-savory glaze or paste. Sold at teahouses and before temple and shrine gates, it is said to have long been loved by ordinary Edo townspeople as an everyday snack, still easy to find anywhere today.\n\n## How it's made\nRice flour and shiratamako are mixed, and warm water is added while kneading and pressing out any lumps, until the dough is as soft as an earlobe. It is divided into small portions, rolled by hand, boiled in plenty of water, and then skewered, or so it is said. It is finished with sweet bean paste, sweet soy glaze, or roasted soybean flour, chosen to taste, and it is still often said to be a simple sweet that can be made fairly easily at home.\n\n## Why it took this shape\nIn the Edo period, a growing number of dishonest customers are said to have left without paying the four-mon coin and simply carried their dumplings away, so a record survives of a shopkeeper reducing the number per skewer from five to four to address it. This is said to be the origin of the four-dumpling skewer that took hold in the Kanto region, while the five-dumpling skewer is said to have remained standard in the Kansai region, a regional difference still clearly visible today.",
-      "sources": [
-        {
-          "title": "串団子 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_29_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "udo-no-sumiso-ae",
-      "body_ja": "## 何でできているか\n室と呼ばれる深い穴蔵で日光を遮って育てた白いうどを短冊切りにし、酢みそで和えた料理とされる。光が当たらずに育つためあくが少なく、繊維も柔らかい独自の食感が持ち味だという。うどならではのほろ苦さと酢みその酸味が調和した、江戸東京野菜を代表する一品とされ、春を告げる旬の初物として今も長く珍重されてきた。\n\n## どう作るのか\n厚めに皮をむいたうどを酢水につけて色止めし、短冊切りにしてから熱湯にくぐらせて冷やす。砂糖とみそをよく混ぜ、酢やみりんを加えて酢みそをつくり、うどと和えるとされる。うどは色が変わりやすいため、切ったらすぐに酢水へつけるのがこつだといい、余った皮も天ぷらやきんぴらにうまく活用できるとされているという。\n\n## なぜこの形になったのか\n深さ数メートルの穴蔵で日光を遮って育てる軟化栽培の技術が広まったことで、白く繊維の柔らかいうどが特産になったと伝わる。関東ローム層のしっかりとした土壌と、栽培に適した温度や湿度がそろっていたことも、この地域でうどづくりが盛んになった背景とされ、光の届かない狭い穴蔵での作業は手間のかかる仕事だったといわれている。",
-      "body_en": "## What it's made of\nWhite udo, grown in a deep pit called a \"muro\" shielded from sunlight, is cut into thin strips and dressed with vinegared miso, or so this dish is described. Growing without light is said to leave it with little bitterness and a tender fibrous texture that is its defining trait. The faint bitterness unique to udo balances with the tartness of the vinegared miso, making a dish said to represent the Edo-Tokyo heirloom vegetables, long prized as one of the season's first offerings heralding spring.\n\n## How it's made\nUdo, thickly peeled, is soaked in vinegared water to keep its color, cut into thin strips, then briefly blanched in hot water and cooled. Sugar and miso are mixed well, with vinegar and mirin added to make the vinegared miso dressing, which is then tossed with the udo, or so it is said. Because udo discolors quickly, the trick is said to be soaking it in vinegared water right after cutting, and the leftover peel is said to be put to good use in tempura or kinpira as well.\n\n## Why it took this shape\nThe spread of a forced-blanching technique — growing the plant in a pit several meters deep, shielded from sunlight — is said to be what made this white, tender-fibered udo a local specialty. The solid volcanic-ash soil of the region and temperatures and humidity well suited to cultivation are also said to lie behind why udo growing flourished here, and working within the narrow confines of the pit is said to have been a laborious task.",
-      "sources": [
-        {
-          "title": "うどの酢みそ和え 東京都",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_30_tokyo.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
+     "title": "柳川鍋 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_4_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
     }
-  ]
+   ],
+   "relations": []
+  },
+  {
+   "slug": "kanpyo-maki",
+   "body_ja": "## 何でできているか\n水で戻したかんぴょうを甘辛く煮付け、酢飯と焼のりで巻いた巻きずしとされる。江戸前ずしの定番ネタのひとつで、のり巻きといえばかんぴょう巻きを指すほど親しまれてきたという。しんなりと煮含めたかんぴょうの甘辛さと、酢飯の酸味が調和した素朴な味わいが持ち味とされ、江戸前ならではの粋な一品として今も好まれている。\n\n## どう作るのか\n水で戻したかんぴょうを甘辛く煮付けて下ごしらえする。巻きすの上に焼のりを敷き、酢飯を薄く広げてから、煮付けたかんぴょうを芯にして巻き上げる。芯の具がくたっとしないよう、力加減を見ながら「の」の字に巻くのが職人の腕の見せどころだったとされ、今もその技が寿司職人のあいだで丁寧に受け継がれ、伝えられている。\n\n## なぜこの形になったのか\n品川から大森にかけてのり養殖が盛んになり、紙のように漉く製法が定着したことで、庶民でも焼のりを手に入れやすくなったと伝わる。あわせてかんぴょうを甘辛く煮て合わせる調理法が広まり、江戸前ずしの定番ネタとして根づいていったとされ、今もすし屋の一品として広く親しまれ、各家庭でも変わらずつくられ続けている。",
+   "body_en": "## What it's made of\nDried gourd shavings, rehydrated and simmered sweet and savory, are rolled with vinegared rice in nori. It is said to be one of the standard items of Edo-style sushi, cherished so widely that \"nori roll\" once simply meant this one. The plain flavor, where the sweet-savory kanpyo meets the tartness of the vinegared rice, is said to be its defining charm, still favored today as a distinctly Edo dish.\n\n## How it's made\nDried gourd shavings are rehydrated in water and simmered sweet and savory as preparation. Toasted nori is laid on a bamboo mat and topped with a thin layer of vinegared rice, then the simmered kanpyo is placed as the core and rolled up. Rolling it into the traditional \"no\" shape while judging the pressure so the filling does not go limp is said to have been where a craftsman's skill showed, a technique still carefully passed down among sushi chefs today.\n\n## Why it took this shape\nNori farming flourished from Shinagawa through Omori, and a method of forming it into sheets like paper is said to have taken hold, making toasted nori easier for ordinary people to obtain. Alongside that, the method of simmering kanpyo sweet and savory to pair with it is said to have spread, taking root as a standard item of Edo-style sushi, and it remains widely loved at sushi shops and still made unchanged in households today.",
+   "sources": [
+    {
+     "title": "かんぴょう巻き 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_13_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "edo-zoni",
+   "body_ja": "## 何でできているか\n焼いた角餅に鶏肉や青菜、かまぼこなどの具材を添え、昆布とかつお節でとったすまし汁をかけた正月料理とされる。香ばしく焼いた餅の香りとすまし汁のうまみが調和し、ゆずの皮の香りが全体を引き締める。小松菜がほうれん草に変わるなど、家庭によって具材の顔ぶれが少しずつ異なるといわれ、正月の食卓を彩り続けている。\n\n## どう作るのか\n鶏肉や青菜、かまぼこなどの具材を食べやすい大きさに切ってそれぞれゆで、餅はオーブントースターなどで香ばしく焼いておく。器に焼いた餅とゆでた具材を盛りつけ、昆布とかつお節でとったすまし汁を注ぐ。仕上げにゆずの皮とみつばを添えて彩りと香りを加えるのが昔からの定番とされ、正月の朝に各家庭で受け継がれている。\n\n## なぜこの形になったのか\n元禄のころ、下総の野田や銚子で醤油の生産が盛んになり、濃口醤油を好んだ江戸っ子の嗜好と結びついてすまし汁の雑煮が定着したと伝わる。角餅は伸ばして切り分ける調理の手軽さから東日本に広まったとされ、味噌仕立てだった雑煮が醤油仕立てへ移り変わった背景にもなっているといい、京都の丸餅文化とは異なる道をたどったとされる。",
+   "body_en": "## What it's made of\nThis New Year's dish is said to place a grilled square rice cake alongside chicken, greens, and fish cake, then pour over a clear broth made from kelp and dried bonito. The toasted aroma of the rice cake harmonizes with the savor of the broth, and the scent of yuzu peel ties the bowl together. Ingredients vary a little by household — spinach standing in for komatsuna greens, for instance — and the dish is said to keep brightening the New Year's table.\n\n## How it's made\nChicken, greens, fish cake, and other ingredients are cut into bite-sized pieces and boiled separately, while the rice cake is toasted until fragrant in a toaster oven or similar. The toasted rice cake and boiled ingredients are arranged in a bowl and covered with the kelp-and-bonito broth. Yuzu peel and mitsuba are added last for color and aroma, a finish said to have long been the standard, carried on in households every New Year's morning.\n\n## Why it took this shape\nAround the Genroku era, soy sauce production flourished in Noda and Choshi in Shimosa province, and this dark, rich soy sauce, favored by Edo townspeople, is said to have combined with their taste to establish the clear-broth style of zoni. Square rice cakes are said to have spread through eastern Japan for the convenience of rolling out dough and cutting it into pieces, a shift said to lie behind the move from a miso-based zoni to a soy-sauce-based one, taking a different path from the round-rice-cake tradition of Kyoto.",
+   "sources": [
+    {
+     "title": "お雑煮（江戸雑煮） 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_7_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "shokkara-jiru",
+   "body_ja": "## 何でできているか\n小ぶりのムロアジをミンチにして塩を加え発酵させた「しょっから」に、あしたばや里芋など島でとれる野菜を加えて煮込んだ汁物とされる。発酵ならではの濃厚な旨みと独特の香りが、あしたばのほろ苦さと里芋のとろみによって和らげられ、島の恵みが凝縮した滋味深い一杯に仕上がるという評判が、島の暮らしの中で今も語り継がれている。\n\n## どう作るのか\n開いた新鮮なムロアジをミンチ状にし、塩を加えて一から二週間ほど置いて発酵させる。発酵させた「しょっから」をだし汁に入れ、あしたばや里芋など島でとれる具材とともに煮込む。発酵の進み具合によって塩気や香りの強さが変わるため、様子を見ながら加減して仕上げるのが家庭ごとのこつとされ、つくり手の経験がものをいう作業だという。\n\n## なぜこの形になったのか\n冷蔵の手段がなかった離島で、獲れたムロアジを長く保存するための知恵として発酵させる方法が根づいたと伝わる。発酵によって生まれる強い匂いと塩気を、島で採れるあしたばや里芋と組み合わせて和らげる工夫が加わり、島の暮らしに根ざした汁物として代々受け継がれてきたとされ、今も一部の家庭で大切に受け継がれている。",
+   "body_en": "## What it's made of\nThis soup is said to combine \"shokkara\" — minced scad mackerel salted and fermented — with island-grown vegetables such as ashitaba and taro. The deep umami and distinctive aroma unique to fermentation are said to be softened by the faint bitterness of ashitaba and the smooth thickness of taro, coming together into a deeply savory bowl that concentrates the island's bounty, a reputation still spoken of in island life today.\n\n## How it's made\nFresh scad mackerel is split open, minced, salted, and left to ferment for one to two weeks. The fermented \"shokkara\" is added to a pot of dashi along with island-grown ingredients such as ashitaba and taro and simmered together. Because the strength of the salt and aroma shifts with how far the fermentation has progressed, judging and adjusting as one goes is said to be each household's particular knack, a task that rewards experience.\n\n## Why it took this shape\nOn remote islands with no means of refrigeration, fermenting the caught scad mackerel is said to have taken root as a way to preserve it for the long term. Pairing the strong smell and saltiness that fermentation produces with island-grown ashitaba and taro to soften them is said to have been added as a further refinement, and this soup, rooted in island life, is said to have been carried down through generations, still cherished in some households today.",
+   "sources": [
+    {
+     "title": "しょっから汁 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_9_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "tamagoyaki",
+   "body_ja": "## 何でできているか\n卵にだし汁と砂糖を合わせて厚く焼き上げた料理とされる。関東では甘めに味つけし、少し焦げ目がつくほどしっかり焼き上げるのが特徴で、かつおだしのうまみが利いた濃い味わいと弾力のある食感になる。お弁当のおかずとしても長く親しまれてきたという、家庭になじみ深い一品として今も愛され続けている定番の惣菜だという。\n\n## どう作るのか\n卵にだし汁と砂糖を加えてよく溶きほぐし、卵焼き用の角型フライパンで何度かに分けて流し入れながら巻き、層にして厚く焼き上げる。焼き上がったら粗熱を取ってから食べやすい大きさに切り分けて食べるとされる。だしの量や甘さの加減は家庭によって少しずつ差があり、それぞれの味が受け継がれ、弁当箱に詰めやすい厚みに仕上げるのもこつとされる。\n\n## なぜこの形になったのか\n鶏肉や鶏卵の食用が長く禁じられていた時代を経て、江戸初期に禁が解かれると、だしを沸かした中に溶き卵を流し入れて蒸す「玉子ふわふわ」が江戸庶民のごちそうとして流行したと伝わる。これが玉子焼きの起源とされ、かつおだしの利いた濃い味わいへと発展していったとされ、今の厚焼き玉子の姿にしっかりと受け継がれている。",
+   "body_en": "## What it's made of\nEggs are combined with dashi and sugar and grilled into a thick layered roll. In the Kanto style it is seasoned on the sweet side and cooked firmly enough to pick up a little char, giving it a rich flavor carried by the umami of bonito dashi and a springy texture. Long loved as a lunchbox staple, it remains a familiar, everyday dish still cherished in households today.\n\n## How it's made\nEggs are beaten well with dashi and sugar, then poured in stages into a rectangular egg-pan and rolled, building up layer after layer into a thick roll. Once cooked, it is left to cool slightly before being sliced into bite-sized pieces. The amount of dashi and the level of sweetness vary a little from household to household, each carrying on its own flavor, and shaping it to a thickness that fits neatly into a lunchbox is also said to be a knack worth mastering.\n\n## Why it took this shape\nAfter a long era when eating chicken and eggs was forbidden, the ban was lifted in the early Edo period, and a dish called \"tamago fuwafuwa\" — beaten egg poured into boiling dashi and steamed — is said to have become a popular treat among Edo townspeople. This is said to be the origin of tamagoyaki, which is said to have then developed into the rich, bonito-dashi-forward flavor carried through to today's thick-rolled egg dish.",
+   "sources": [
+    {
+     "title": "玉子焼き 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_11_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "jisuke-imo-negi-miso",
+   "body_ja": "## 何でできているか\n治助芋という奥多摩特産の芋を蒸し、ねぎとかつお節を混ぜたねぎ味噌をつけて食べる料理とされる。白い皮と白い肉が特徴で、味は濃厚で粘りが強く、煮崩れしにくいという。粘りのあるみっちりとした食感とねぎ味噌の香ばしさが調和する、奥多摩の暮らしに根ざした一品だといわれ、日常のおかずとして今も親しまれ続けている。\n\n## どう作るのか\n治助芋は皮をむき、蒸す、煮る、焼くのいずれかで火を通してから、ねぎとかつお節を混ぜたねぎ味噌を添えて食べるとされる。冬には濡らした芋を屋外で一晩凍らせてから乾燥させ、粉にして芋団子をつくり、大豆と麦を炒って挽いた粉をまぶして食べることもあったといい、保存の知恵も同時に凝らされ、季節を問わず食べ継がれてきたとされる。\n\n## なぜこの形になったのか\n稲作に向かない奥多摩の土地で、馬鈴薯の一種である治助芋が100年以上前から栽培され、食糧が乏しい時代の副菜として暮らしを支えてきたと伝わる。客人をもてなす際にもいんげんや昆布と煮て振る舞う習慣があったとされ、地域の暮らしに密着した食材として世代を超えてしっかりと根づき、今も各家庭でつくられ続けているという。",
+   "body_en": "## What it's made of\nJisuke potatoes, a variety grown around Okutama, are steamed and served with a green-onion miso mixed with bonito flakes. They are known for white skin and white flesh, and the flavor is said to be rich and starchy, with a texture that holds up well without falling apart in cooking. The sticky, dense bite of the potato paired with the savory green-onion miso is said to be rooted in Okutama's daily life, still a familiar everyday side dish today.\n\n## How it's made\nJisuke potatoes are peeled and cooked through by steaming, boiling, or grilling, then served with a green-onion miso mixed with bonito flakes. In winter, dampened potatoes were left outdoors overnight to freeze, then dried and ground into flour to make potato dumplings, dusted with a roasted powder of soybean and wheat, a further method of preservation said to have let the potato be eaten year-round.\n\n## Why it took this shape\nOn land in Okutama unsuited to rice growing, jisuke potatoes — a variety of potato — have been cultivated for over a hundred years, said to have supported local diets as a side dish in times of food scarcity. They are also said to have been simmered with green beans or kelp to serve guests, and this potato is said to have taken firm root across generations as a food tightly woven into local life, still made in households today.",
+   "sources": [
+    {
+     "title": "治助芋のネギ味噌 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_14_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "shima-zushi",
+   "body_ja": "## 何でできているか\n醤油ベースのたれに漬けた魚を「ヅケ」にし、砂糖や塩、酢で調味した酢飯で握った八丈島の郷土料理とされる。わさびの代わりに練りがらしや、島とうがらしを漬け込んだ島とう醤油を使う島もあり、島ごとに少しずつ違う仕立てが残っているという、伊豆諸島ならではの独自のすしとして今もなお大切に長く語り継がれ続けている。\n\n## どう作るのか\n寿司だねを食べやすい大きさに切り、醤油、酒、みりんに漬け込んでヅケにする。砂糖と塩、酢で調味した酢飯で握って仕上げるとされる。甘酢しょうがや島のりを混ぜた酢飯にネタをのせ、ちらしずし風にして食べることもあるといい、家庭や店によって仕立てに細かな違いが見られるとされ、島ごとの個性が色濃く表れているという。\n\n## なぜこの形になったのか\n沖に船で出る際、魚の鮮度を保つ工夫としてたれに漬け込む方法が生まれたと伝わる。ワサビが手に入りにくかった島では、代わりに練りがらしや島とう醤油を使う独自の工夫が根づき、島ごとに異なる仕立てのすしとして発達していったとされ、今も島の暮らしの中で少しずつ形を変えながら大切に語り継がれ、守られ続けている。",
+   "body_en": "## What it's made of\nFish marinated in a soy-sauce-based sauce, called \"zuke,\" is pressed with rice seasoned with sugar, salt, and vinegar into this local dish of Hachijojima. In place of wasabi, some islands use hot mustard paste or a soy sauce infused with unripe island chili peppers, and slightly different versions are said to remain from island to island — a distinctly Izu Islands style of sushi still fondly told of today.\n\n## How it's made\nSushi toppings are cut into bite-sized pieces and marinated in soy sauce, sake, and mirin to make zuke. They are pressed onto rice seasoned with sugar, salt, and vinegar to finish. The topping is sometimes laid over rice mixed with sweet vinegared ginger and island nori for a chirashi-style presentation instead, and the style is said to vary in small ways from household to household or shop to shop, each island's character showing through.\n\n## Why it took this shape\nThe method of marinating fish in sauce is said to have arisen as a way to keep it fresh while out at sea in a boat. On islands where wasabi was hard to obtain, using hot mustard paste or island chili soy sauce instead is said to have taken root as a distinct workaround, and the sushi is said to have developed into varying styles from island to island, still carried on and protected today, changing form a little at a time within island life.",
+   "sources": [
+    {
+     "title": "島ずし 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_19_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "okutama-wasabi-tokyo-x-maki",
+   "body_ja": "## 何でできているか\n地元産の根わさびを刻んで豚肉で巻き、焼き上げてから醤油とみりんで味つけした料理とされる。多摩川の源流に近い清流で育つわさびの涼やかな辛みと、きめ細かくジューシーな豚肉の脂が合わさり、わさびを生のまますりおろすだけでは味わえない香ばしさが加わるという、比較的新しい食べ方として生まれ、奥多摩らしい一皿になったとされる。\n\n## どう作るのか\n根わさびを千切りにし、薄切りにした豚肉で巻く。フライパンに油を引いて火が通るまで焼き、仕上げに醤油とみりんを加えて味をからめる。好みの野菜を添えて皿に盛りつけるとされ、シンプルな手順ながらわさびと豚肉の香りが引き立つ、食べ応えのある焼き物に仕上がるといい、家庭でも手軽に試せる一品として広まっているという。\n\n## なぜこの形になったのか\nすりおろして生のまま食べるのが定番だったわさびを、日常で使った後に残る部分まで無駄なく生かしたいという思いから、刻んで加熱する調理法が考え出されたと伝わる。地元産の豚肉と組み合わせることで、地域の恵みを一皿にまとめた新しい郷土食になったとされ、各家庭でも少しずつつくられるようになり、もてなしの席にも並ぶようになったという。",
+   "body_en": "## What it's made of\nChopped local root wasabi is wrapped in pork, grilled, and seasoned with soy sauce and mirin. The cool sharpness of wasabi grown in clear streams near the headwaters of the Tama River meets the rich juiciness of a fine-grained pork, adding a savory depth not found when wasabi is simply grated and eaten raw — a relatively recent way of eating it, said to have become a dish distinctly of Okutama.\n\n## How it's made\nRoot wasabi is cut into thin strips and wrapped in thinly sliced pork. It is grilled in an oiled pan until cooked through, then finished by adding soy sauce and mirin to coat it in flavor. Served on a plate with vegetables of one's choosing, the simple steps yield a hearty grilled dish where the aromas of wasabi and pork stand out, said to have spread as something easily tried at home too.\n\n## Why it took this shape\nWasabi had traditionally been grated and eaten raw, and the method of chopping and cooking it is said to have been devised out of a wish to make full use of what remained after everyday grating, without letting any go to waste. Combining it with locally raised pork is said to have brought the region's bounty together on one plate as a new local dish, one said to have gradually spread into being made in individual households as well.",
+   "sources": [
+    {
+     "title": "おくたまワサビのTOKYO-X巻き 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_15_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "edo-soba",
+   "body_ja": "## 何でできているか\nそば粉につなぎと水を加えてこね、細長く切った麺料理とされる。つゆにつけて食べる「もりそば」と、温かいつゆをたっぷりかける「かけそば」の二通りがあり、ねぎや刻みのりなどの薬味を添えて味の変化を楽しむという。江戸っ子に好まれた、さっぱりとした食べ心地が身上とされ、今も日常食として広く親しまれ続けている。\n\n## どう作るのか\nそば粉につなぎと水を加えてこね、細長く切って麺に仕上げる。つゆにつけて食べる「もりそば」と、丼に入れて温かいつゆをたっぷりかける「かけそば」に大きく分かれる。ねぎや刻み海苔などの薬味を添えることで、風味の変化を楽しみながら食べるとされ、好みに応じて薬味の量を細かく加減しながらゆっくり味わうとされている。\n\n## なぜこの形になったのか\n気の短い江戸っ子の気質に、さっと手早く食べられるそばがよく合ったと伝わる。屋台から店構えの蕎麦屋まで広く親しまれ、健康によいとされたことから縁起物ともみなされ、月末や季節の変わり目に食べる習わしが根づいたとされる。大みそかの年越しそばの習慣も、その名残だといわれ続けているとされ、今もなお伝わっている。",
+   "body_en": "## What it's made of\nBuckwheat flour is kneaded with a binder and water, then cut into long thin noodles. There are two main styles — \"mori-soba,\" dipped into a sauce before eating, and \"kake-soba,\" served in a bowl with hot broth poured generously over — and green onion, shredded nori, and other garnishes are added to enjoy shifts in flavor. Its light, crisp eating quality, said to have suited the taste of Edo townspeople, remains widely loved today.\n\n## How it's made\nBuckwheat flour is kneaded with a binder and water, then cut into long, thin noodles. It falls broadly into two styles: \"mori-soba,\" dipped in a sauce, and \"kake-soba,\" served in a bowl topped generously with hot broth. Adding garnishes such as green onion and shredded nori is said to let one enjoy shifting notes of flavor while eating, adjusting the amount of garnish finely to taste and savoring it slowly.\n\n## Why it took this shape\nSoba, quick to eat, is said to have suited well the famously impatient temperament of Edo townspeople. Loved widely from street stalls to proper noodle shops, it was also considered good for health and so came to be seen as an auspicious food, said to have taken root as something eaten at the end of each month and at the turn of the seasons. The custom of eating soba on New Year's Eve is said to be a remnant of that practice, still carried on today.",
+   "sources": [
+    {
+     "title": "そば（江戸そば） 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_20_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "anago-zushi",
+   "body_ja": "## 何でできているか\n煮あなごをシャリにのせ、「ツメ」と呼ばれる煮詰めたたれを塗ったすしとされる。淡白でありながら上品なうまみを持つあなごの身と、甘辛いツメの香ばしさが酢飯と溶け合う。江戸前ずしの定番ネタのひとつとして、長く欠かせない存在であり続けてきたという、江戸前ならではの一品として今もなお広く長く親しまれ続けている。\n\n## どう作るのか\n塩と湯を使ってあなごの表面のぬめりをしっかり取り除き、臭みが出ないよう丁寧に処理する。酒、砂糖、醤油で弱火にかけて煮たのち、ネタの大きさに切る。頭と骨を煮出してとっただしに調味料を加えて煮詰め、ツメをつくり、握ったシャリにのせて塗って仕上げるとされ、手間のかかる工程をひとつずつ丁寧に積み重ねて完成させるとされる。\n\n## なぜこの形になったのか\n江戸時代の東京湾には複数の川から栄養豊かな水が流れ込み、あなごをはじめとする魚介が育つ好漁場だったと伝わる。鮮度が命とされるあなごのぬめりを取り、丁寧に煮てツメをつくり上げる一連の作業は、すし職人の技として磨かれ、代々の職人の手によって大切に受け継がれ続け、今の握りの形にまでしっかりと至っているとされる。",
+   "body_en": "## What it's made of\nSimmered conger eel is placed on vinegared rice and brushed with \"tsume,\" a reduced simmering sauce. The eel's plain yet refined umami meets the sweet-savory richness of the tsume, melding with the rice. As one of the standard items of Edo-style sushi, it is said to have remained an indispensable dish, still widely and fondly enjoyed today as something distinctly of old Edo.\n\n## How it's made\nSalt and hot water are used to thoroughly remove the sliminess from the conger eel's surface, handled carefully to keep any off odor from developing. It is simmered gently in sake, sugar, and soy sauce, then cut to the size needed for a topping. The head and bones are simmered for stock, seasoned and reduced into the tsume sauce, and the finished eel is placed on hand-pressed rice and brushed with it — a labor-intensive process from start to finish.\n\n## Why it took this shape\nIn the Edo period, Tokyo Bay is said to have received nutrient-rich water from several rivers, making it a fine fishing ground where conger eel and other seafood thrived. Removing the sliminess from an eel where freshness is everything, simmering it with care, and building up the tsume sauce is said to be a sequence of tasks refined as a sushi chef's craft, carried on carefully from one generation of craftsmen to the next, arriving firmly at today's form of the roll.",
+   "sources": [
+    {
+     "title": "穴子寿司 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_18_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "kohada-no-awazuke",
+   "body_ja": "## 何でできているか\nコハダを塩でしめて酢に漬け、クチナシで黄色く染めた蒸し粟と交互に重ねて漬け込んだおせち料理とされる。酢の酸味と粟の甘み、しょうがや唐辛子の辛みが層になり、噛むほどに味わいが変化する。出世魚であるコハダを用いることから、正月料理として縁起を担ぐ意味合いも込められているといい、二の重を彩る一品として重宝されてきたという。\n\n## どう作るのか\nコハダの頭と内臓、骨を取り除き、塩でしめてから酢に漬ける。蒸した粟を冷まし、しょうがのみじん切りや輪切りの唐辛子を混ぜたものと、酢漬けにしたコハダを交互に容器へ重ねて漬け込む。数時間でも食べられるが、二、三日漬けると味がなじみ食べごろになるとされ、酢を強めにすると保存性も一段と高まるといわれている。\n\n## なぜこの形になったのか\n成長とともに呼び名が変わる出世魚のコハダを用いることで、正月料理にふさわしい縁起を担いだと伝わる。黄色く染めた粟と合わせるのは五穀豊穣を願う組み合わせとされ、重箱に詰めて日持ちさせるため、酢を強めに効かせて保存性を高める工夫も加えられているといい、年末年始の食卓を昔から今日までずっと支え続けてきたという。",
+   "body_en": "## What it's made of\nGizzard shad is salt-cured and vinegared, then layered alternately with steamed millet dyed yellow with gardenia fruit. The tartness of the vinegar, the sweetness of the millet, and the sharpness of ginger and chili build up in layers, shifting in flavor with every bite. Because gizzard shad is a fish that changes its name as it grows, using it is said to carry an auspicious meaning fitting for a New Year's dish, prized as an item that brightens the second tier of the osechi box.\n\n## How it's made\nThe head, innards, and bones of the gizzard shad are removed, and the fish is salt-cured before being pickled in vinegar. Steamed millet is cooled and mixed with minced ginger and sliced chili, then layered alternately in a container with the vinegared fish. It can be eaten after just a few hours, but resting it for two to three days is said to let the flavors settle, and using a stronger vinegar is said to further extend how well it keeps.\n\n## Why it took this shape\nUsing gizzard shad, a fish whose name changes as it grows, is said to have carried an auspicious meaning fitting for a New Year's dish. Pairing it with millet dyed yellow is said to represent a wish for a bountiful harvest of the five grains, and because it is packed into a tiered box meant to keep for days, using extra-strong vinegar to boost its keeping quality is also said to have been worked in, a dish said to have long supported the New Year's table through to today.",
+   "sources": [
+    {
+     "title": "こはだの粟漬け 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_21_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "imo-youkan",
+   "body_ja": "## 何でできているか\n蒸したさつまいもを練り上げて成型した、素朴な和菓子とされる。さつまいも本来の優しい甘さと、しっとりとした口当たりが持ち味で、練りようかんに比べて手に入りやすい材料でつくれるのが特徴だという。庶民が気軽に楽しめる甘味として親しまれてきたとされ、今も和菓子屋の定番のひとつとして変わらず長く並び続けている。\n\n## どう作るのか\n皮をむいたさつまいもを加熱してやわらかくし、温かいうちに大きな塊がなくなるまでよくつぶす。砂糖を加えてなめらかなペースト状に練り上げ、型に入れて成形する。ヘタに近い繊維質の強い部分は切り落としておくと、裏ごしがしやすくなるとされ、家庭でも比較的手軽につくれる素朴な菓子だと今も広く長く言われ続けている。\n\n## なぜこの形になったのか\n明治時代、高価だった練りようかんを庶民が口にする機会は少なかったと伝わる。浅草の芋問屋と菓子職人が、手近な食材であるさつまいもを使って代用となる和菓子をつくろうと試行錯誤を重ね、いもようかんが生まれたとされ、安価で親しみやすい菓子として庶民に歓迎され、江戸の下町にしっかりと深く定着していったという。",
+   "body_en": "## What it's made of\nSteamed sweet potato is worked into a paste and shaped into this simple confection. The gentle natural sweetness of the sweet potato and its moist texture are its defining traits, and it is said to be made from ingredients far easier to obtain than those of a traditional smooth-bean-paste yokan. Long loved as a sweet ordinary people could enjoy without much expense, it remains a standard item on wagashi shop shelves today.\n\n## How it's made\nPeeled sweet potato is heated until soft and mashed thoroughly while still warm, until no large lumps remain. Sugar is added and it is worked into a smooth paste, then set into a mold to take shape. Trimming off the fibrous, tough part near the stem end is said to make it easier to pass through a sieve, and it is said to remain, even now, a simple sweet that can be made fairly easily at home.\n\n## Why it took this shape\nIn the Meiji era, traditional smooth-bean-paste yokan was expensive, and ordinary people are said to have had few chances to taste it. A sweet-potato wholesaler and a confectioner in Asakusa are said to have worked through trial and error, using the readily available sweet potato to create a substitute sweet, and this is said to be how imo-yokan was born — a cheaper, more approachable confection that was welcomed by ordinary people and took firm root in the old downtown of Edo.",
+   "sources": [
+    {
+     "title": "いもようかん 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_23_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "sakura-mochi",
+   "body_ja": "## 何でできているか\n小麦粉の生地を薄く円形に焼き、こしあんを包んでから塩漬けの桜の葉で包んだ和菓子とされる。葉の塩気とほのかな香りが、あんのやさしい甘さを引き立てる。焼いた生地のもちもちとした食感と葉の風味が重なる、隅田堤の桜にちなんだ江戸生まれの菓子だといい、今も春の訪れを感じさせる味として世代を超えて広く親しまれている。\n\n## どう作るのか\n小豆を煮てこし、練ってあんをつくる。小麦粉や白玉粉を水で溶き、食紅でほのかな桜色に仕上げた生地をフライパンで楕円形に薄く焼き、その皮であんを包む。仕上げに塩漬けにした桜の葉で包み、葉を一緒に食べるか外して食べるかは好みが分かれるとされ、店によって葉の巻き方や枚数にも細かな違いが見られるといわれている。\n\n## なぜこの形になったのか\n隅田堤の桜の落ち葉を掃除していた男性が、葉を塩漬けにして餡入りの餅を包むことを思いついたのが始まりと伝わる。門前で売り出したところ花見客に大変喜ばれ、この地の名物として定着していったとされ、桜の名所という土地柄がそのまま菓子の形に表れているといい、江戸時代から続く味として今もなお変わらず伝わっている。",
+   "body_en": "## What it's made of\nA thin, round wheat-flour crepe is wrapped around sweet red bean paste, then wrapped again in a salt-cured cherry leaf. The leaf's saltiness and faint fragrance are said to set off the gentle sweetness of the paste. The chewy texture of the grilled crepe meets the flavor of the leaf in a sweet named for the cherry trees along the Sumida embankment, still enjoyed today as a taste that announces spring's arrival.\n\n## How it's made\nRed beans are simmered, strained, and worked into a smooth paste. Wheat flour or shiratamako is mixed with water and tinted a faint cherry-blossom pink with food coloring, then cooked thin and oval-shaped in a frying pan like a crepe, and this skin is wrapped around the paste. It is finished by wrapping it in a salt-cured cherry leaf, and whether to eat the leaf along with it or set it aside is said to be a matter of preference, with the way the leaf is wrapped and how many are used said to vary a little by shop.\n\n## Why it took this shape\nIt is said to trace back to a man who, while sweeping up fallen cherry leaves along the Sumida embankment, hit on the idea of salt-curing the leaves and wrapping them around a rice cake filled with bean paste. Selling it before the temple gate delighted the flower-viewing crowds, and it is said to have taken hold as a local specialty from there, the very identity of a cherry-blossom destination taking shape in a sweet — a flavor said to carry on from the Edo period to today.",
+   "sources": [
+    {
+     "title": "桜もち 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_22_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "negima-nabe",
+   "body_ja": "## 何でできているか\nまぐろのあらとねぎを醤油で煮込んだ、江戸生まれの庶民の鍋料理とされる。脂ののったまぐろの旨みがねぎに染み込み、シンプルな味つけながら満足感のある一椀になる。冷蔵の手段がなかった時代、傷みやすい脂身を無駄にしないための工夫から生まれたといわれ、江戸の庶民の暮らしに根ざした一皿として今もなお伝わり続けている。\n\n## どう作るのか\n土鍋に醤油と酒を入れ、冷たいうちにねぎを加えて火にかける。煮立ったらぶつ切りにしたまぐろを入れ、色が変わる程度にさっと煮るとされる。煮すぎると身が硬くなるため、まぐろは食べる直前に加えるのがこつで、春菊やきのこ、豆腐を加えることもあるといい、まぐろの脂が溶け出して汁全体にも深く豊かなこくが出るという。\n\n## なぜこの形になったのか\n江戸時代、脂の多い部分は傷みが早く保存に向かないため、客には出せない部位とされていたと伝わる。この脂身を無駄にせず食べるための工夫として、ねぎと一緒に醤油で煮込む方法が生まれたとされ、七輪の普及で鍋を囲んで食べるスタイルが広まった背景も重なっているといい、庶民の知恵から生まれた一品として今に伝わるという。",
+   "body_en": "## What it's made of\nFatty tuna trimmings and green onion are simmered together in soy sauce in this hotpot dish born in Edo among ordinary townspeople. The savor of the rich tuna soaks into the onion, making for a satisfying bowl despite its simple seasoning. Born, it is said, from a wish not to waste the fatty cuts that spoiled quickly in an age without refrigeration, it survives today as a dish rooted in the daily life of Edo's common people.\n\n## How it's made\nSoy sauce and sake are put in a clay pot along with the green onion while it's still cold, then set over heat. Once it boils, tuna cut into chunks is added and simmered briefly, just until the color changes. Overcooking toughens the meat, so the trick is said to be adding the tuna right before eating; chrysanthemum greens, mushrooms, or tofu are sometimes added too, and the tuna's fat is said to melt into the broth for a deep, rich flavor throughout.\n\n## Why it took this shape\nIn the Edo period, the fattier cuts of tuna spoiled quickly and did not keep well, and they are said to have been considered unfit to serve to guests. A method of not letting that fatty meat go to waste, by simmering it together with green onion in soy sauce, is said to have been born from that constraint, and the spread of the portable charcoal brazier, which let people gather around a small pot to eat, is also said to have contributed — a dish said to have grown out of the resourcefulness of ordinary people.",
+   "sources": [
+    {
+     "title": "ねぎま鍋 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_26_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "tsukudani",
+   "body_ja": "## 何でできているか\n白魚やのり、小エビ、貝類などを醤油やみりん、砂糖で甘辛く煮詰めた保存食とされる。濃い味つけが白いご飯によく合い、お茶漬けやおにぎりの具としても親しまれてきたという。素材によって食感や風味が異なり、魚介から農産物まで幅広い材料でつくられているとされ、遠方への贈答品としても古くから長く重宝されてきたという。\n\n## どう作るのか\n白魚やのり、小エビなどの具材と調味料を鍋に入れ、汁気がなくなるまでじっくり煮詰めるとされる。のりの佃煮をつくる際は、固まりにならないよう水でほぐすのがこつだという。細かくちぎって水に十分つけてふやかしておくと、むらなく煮詰められるとされ、焦げつかないよう火加減にも常に細やかに気を配り続けるとされる。\n\n## なぜこの形になったのか\n佃島に移住した漁師たちの暮らしの中で、魚を長く保存するために濃厚な調味料で煮詰める方法が根づいたと伝わる。紀州から伝わったたまり醤油を使う調理法と結びつき、貯蔵性の高い保存食として定着していったとされ、今も全国に知られる江戸の味として各家庭や専門店で今なお大切に長く受け継がれ守られ続けているという。",
+   "body_en": "## What it's made of\nWhitebait, nori, small shrimp, shellfish, and other ingredients are simmered down sweet and savory in soy sauce, mirin, and sugar into this preserved food. Its rich seasoning pairs well with plain white rice, and it is said to have long been loved as a topping for ochazuke or a filling for rice balls. Texture and flavor vary by ingredient, and it is said to be made from a wide range of materials, from seafood to farm produce, also valued as a gift sent over distance.\n\n## How it's made\nIngredients such as whitebait, nori, or small shrimp are put in a pot with seasonings and simmered slowly until the liquid is gone. When making nori tsukudani, the trick is said to be loosening the nori in water so it doesn't clump. Tearing it into small pieces and soaking it thoroughly in water beforehand is said to let it simmer down evenly, and the heat is said to require constant, careful attention so it does not scorch.\n\n## Why it took this shape\nAmong fishermen who settled on Tsukudajima, a method of simmering fish in concentrated seasoning to preserve it for the long term is said to have taken root as part of daily life. Combined with the method of using tamari soy sauce brought from the Kishu region, it is said to have become established as a highly keepable preserved food, and this taste of old Edo, known across the country today, is said to still be carefully carried on and protected in households and specialty shops alike.",
+   "sources": [
+    {
+     "title": "佃煮 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_25_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "chanko-nabe",
+   "body_ja": "## 何でできているか\n鶏肉や白菜、人参、ねぎ、豆腐など様々な具材をだし汁で煮込んだ、栄養価の高い鍋料理とされる。多彩な具材から出るだしが染み込み、簡単ながら滋味深い味わいになる。もともとは力士の体をつくるための料理だったと伝わり、一度に大量につくれる点も特徴だといい、今では一般の家庭でも日常的にごく気軽につくられている。\n\n## どう作るのか\nだし汁や鶏ガラでとったスープに、鶏肉と白菜、人参、ねぎなどの野菜、油揚げや豆腐を合わせて煮込むとされる。味つけは醤油や味噌など好みに応じて様々だという。具材を大きめに切ってじっくり煮込むことで、だしがよく染み込み、食べ応えのある一椀に仕上がるとされ、締めに雑炊やうどんを加えることも多いといわれている。\n\n## なぜこの形になったのか\n土俵で手をつくことが負けを連想させるとして、四足で歩く牛や豚の肉を避け、鶏肉を中心にした具材選びが縁起を担ぐ形で定着したと伝わる。大人数の力士の体を効率よくつくる必要から、様々な食材をひとつの鍋にまとめて煮込む形が生まれたとされ、厳しい稽古を終えた力士たちに今もなお長く大切に親しまれ続けてきたという。",
+   "body_en": "## What it's made of\nChicken, napa cabbage, carrot, green onion, tofu, and many other ingredients are simmered together in dashi in this nutrient-rich hotpot. The broth drawn from a wide range of ingredients soaks through everything, making for a dish that is simple yet deeply savory. Originally a dish meant to build sumo wrestlers' bodies, it is also said to be notable for how much can be made at once, and today it is said to be made casually in ordinary households as well.\n\n## How it's made\nChicken along with vegetables such as napa cabbage, carrot, and green onion, plus fried tofu and tofu, are combined and simmered in a broth of dashi or chicken bones. Seasoning varies to taste, with soy sauce or miso among the common choices. Cutting the ingredients into large pieces and simmering them slowly is said to let the broth soak in well for a hearty, satisfying bowl, often finished with rice porridge or noodles at the end.\n\n## Why it took this shape\nBecause touching the ground with one's hands evokes a loss in the ring, four-legged meats such as beef and pork are said to have been avoided, with chicken chosen instead as an auspicious ingredient — a custom said to have taken root that way. The need to build the bodies of many wrestlers efficiently is said to have given rise to the practice of simmering a wide range of ingredients together in one pot, long cherished by wrestlers after grueling practice sessions.",
+   "sources": [
+    {
+     "title": "ちゃんこ鍋 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_28_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "kinpira",
+   "body_ja": "## 何でできているか\nごぼうと人参を油で炒め、醤油や砂糖で甘辛く味つけし、唐辛子で辛みを効かせた炒め物とされる。ごぼうのしゃきしゃきとした歯ごたえと、ぴりっとした唐辛子の刺激が食欲をそそる。江戸時代に流行した浄瑠璃の勇ましい主人公にちなんで名づけられたと伝わる、庶民に長く親しまれてきた惣菜だといい、今も食卓に欠かせない一品とされている。\n\n## どう作るのか\n千切りまたはささがきにしたごぼうを油でよく炒め、砂糖や醤油などの調味料で味を調えてから、唐辛子を加えて辛みを効かせるとされる。ごぼうの皮には風味があるため、こするように優しく洗うのがよいという。濃いめの味つけにすることで、保存性が高まり、おせち料理や祝い事の膳にも古くから長く重宝されてきたとされている。\n\n## なぜこの形になったのか\n江戸時代に流行した古浄瑠璃の主人公「坂田金平」の力強さに、ごぼうの歯ごたえと唐辛子の辛さを重ねて名づけられたと伝わる。江戸東京野菜のひとつとして品種改良が重ねられたごぼうが定着したことも、この炒め物が庶民の惣菜として広まった背景になっているといい、今も各家庭の食卓で当たり前のように受け継がれ続けている。",
+   "body_en": "## What it's made of\nBurdock root and carrot are stir-fried in oil, seasoned sweet and savory with soy sauce and sugar, and given a sharp kick with chili pepper. The crisp bite of burdock and the sting of chili are said to whet the appetite. It is said to take its name from a bold hero of a puppet-theater play popular in the Edo period, a side dish long loved by ordinary people that remains a fixture of the table today.\n\n## How it's made\nBurdock, julienned or shaved into thin strips, is stir-fried well in oil, seasoned with sugar, soy sauce, and other condiments, and finished with chili pepper for heat. Because the skin of burdock carries its own flavor, it is said to be best gently rubbed clean rather than peeled away. Seasoning it on the strong side is said to improve its keeping quality, which is why it has long been valued for osechi and celebratory meals.\n\n## Why it took this shape\nIt is said to have been named by likening the crunch of burdock and the bite of chili to the strength of \"Sakata Kinpira,\" the bold hero of an old puppet-theater play popular in the Edo period. The establishment of burdock as one of the Edo-Tokyo heirloom vegetables, refined through generations of breeding, is also said to lie behind how this stir-fry spread as an everyday dish, still handed down as a matter of course at family tables today.",
+   "sources": [
+    {
+     "title": "きんぴらごぼう 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_27_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "kushi-dango",
+   "body_ja": "## 何でできているか\n上新粉や白玉粉を丸めてゆでた団子を串に刺し、あんやみたらしだれ、きな粉などをからめた菓子とされる。もちもちとした団子の食感に、甘辛いたれや餡の風味が重なる。茶店や寺社の門前で売られてきた、日常のおやつとして江戸の庶民に長く親しまれてきたのだといい、今も変わらずどこでも気軽に手に入れられる菓子とされている。\n\n## どう作るのか\n上新粉と白玉粉を混ぜ、ぬるま湯を加えて塊をつぶしながらこね、耳たぶほどの固さにする。小さく分けて手のひらで丸め、たっぷりの湯でゆでてから串に刺すとされる。あんや砂糖醤油だれ、きな粉などをからめて仕上げ、好みの味で食べ分けるといい、家庭でも比較的手軽につくれる素朴な菓子だと今もなお広くよく言われている。\n\n## なぜこの形になったのか\n江戸時代、代金の四文銭を置かずに持ち帰る不正な客が増えたため、店主が団子の数を五つから四つに減らして串に刺すようになったという記録が今も残っている。これが関東で四つ刺しが定着した始まりと伝わり、関西では五つ刺しが主流のまま残ったとされ、今もその地域による違いが変わらずはっきりと見られ続けているという。",
+   "body_en": "## What it's made of\nDumplings made from rice flour and shiratamako, rolled and boiled, are skewered and coated with sweet bean paste, sweet soy glaze, roasted soybean flour, and the like. The chewy texture of the dumplings meets the flavor of the sweet-savory glaze or paste. Sold at teahouses and before temple and shrine gates, it is said to have long been loved by ordinary Edo townspeople as an everyday snack, still easy to find anywhere today.\n\n## How it's made\nRice flour and shiratamako are mixed, and warm water is added while kneading and pressing out any lumps, until the dough is as soft as an earlobe. It is divided into small portions, rolled by hand, boiled in plenty of water, and then skewered. It is finished with sweet bean paste, sweet soy glaze, or roasted soybean flour, chosen to taste, and it is still often said to be a simple sweet that can be made fairly easily at home.\n\n## Why it took this shape\nIn the Edo period, a growing number of dishonest customers are said to have left without paying the four-mon coin and simply carried their dumplings away, so a record survives of a shopkeeper reducing the number per skewer from five to four to address it. This is said to be the origin of the four-dumpling skewer that took hold in the Kanto region, while the five-dumpling skewer is said to have remained standard in the Kansai region, a regional difference still clearly visible today.",
+   "sources": [
+    {
+     "title": "串団子 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_29_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "udo-no-sumiso-ae",
+   "body_ja": "## 何でできているか\n室と呼ばれる深い穴蔵で日光を遮って育てた白いうどを短冊切りにし、酢みそで和えた料理とされる。光が当たらずに育つためあくが少なく、繊維も柔らかい独自の食感が持ち味だという。うどならではのほろ苦さと酢みその酸味が調和した、江戸東京野菜を代表する一品とされ、春を告げる旬の初物として今も長く珍重されてきた。\n\n## どう作るのか\n厚めに皮をむいたうどを酢水につけて色止めし、短冊切りにしてから熱湯にくぐらせて冷やす。砂糖とみそをよく混ぜ、酢やみりんを加えて酢みそをつくり、うどと和えるとされる。うどは色が変わりやすいため、切ったらすぐに酢水へつけるのがこつだといい、余った皮も天ぷらやきんぴらにうまく活用できるとされているという。\n\n## なぜこの形になったのか\n深さ数メートルの穴蔵で日光を遮って育てる軟化栽培の技術が広まったことで、白く繊維の柔らかいうどが特産になったと伝わる。関東ローム層のしっかりとした土壌と、栽培に適した温度や湿度がそろっていたことも、この地域でうどづくりが盛んになった背景とされ、光の届かない狭い穴蔵での作業は手間のかかる仕事だったといわれている。",
+   "body_en": "## What it's made of\nWhite udo, grown in a deep pit called a \"muro\" shielded from sunlight, is cut into thin strips and dressed with vinegared miso. Growing without light is said to leave it with little bitterness and a tender fibrous texture that is its defining trait. The faint bitterness unique to udo balances with the tartness of the vinegared miso, making a dish said to represent the Edo-Tokyo heirloom vegetables, long prized as one of the season's first offerings heralding spring.\n\n## How it's made\nUdo, thickly peeled, is soaked in vinegared water to keep its color, cut into thin strips, then briefly blanched in hot water and cooled. Sugar and miso are mixed well, with vinegar and mirin added to make the vinegared miso dressing, which is then tossed with the udo. Because udo discolors quickly, the trick is said to be soaking it in vinegared water right after cutting, and the leftover peel is said to be put to good use in tempura or kinpira as well.\n\n## Why it took this shape\nThe spread of a forced-blanching technique — growing the plant in a pit several meters deep, shielded from sunlight — is said to be what made this white, tender-fibered udo a local specialty. The solid volcanic-ash soil of the region and temperatures and humidity well suited to cultivation are also said to lie behind why udo growing flourished here, and working within the narrow confines of the pit is said to have been a laborious task.",
+   "sources": [
+    {
+     "title": "うどの酢みそ和え 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_30_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  }
+ ]
 }
