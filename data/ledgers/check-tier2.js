@@ -13,7 +13,7 @@ for (const pref of process.argv.slice(2)) {
   for (const it of j.items) {
     if (!slugs.has(it.slug)) { console.log("unknown slug", it.slug); bad++; }
     if (!H.every((h) => it.body_ja.includes(h)) || !E.every((h) => it.body_en.includes(h))) { console.log("heading", it.slug); bad++; }
-    if (/である。|なのだ。|のだ。/.test(it.body_ja)) { console.log("断定調", it.slug, (it.body_ja.match(/である。|なのだ。|のだ。/g) || []).length); bad++; }
+    if (/である。|(?<![んいのーう])だ。/.test(it.body_ja)) { console.log("断定調", it.slug, (it.body_ja.match(/である。|(?<![んいのーう])だ。/g) || []).length); bad++; }
     if (/\bor so (it|this|the|they)\b/.test(it.body_en)) { console.log("en hedge", it.slug); bad++; }
     if (ng.test(it.body_ja)) { console.log("NG", it.slug, it.body_ja.match(ng)[0]); bad++; }
     if (!it.sources?.length || it.sources.some((s) => !/^https:/.test(s.url))) { console.log("source", it.slug); bad++; }

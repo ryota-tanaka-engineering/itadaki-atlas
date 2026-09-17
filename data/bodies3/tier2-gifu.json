@@ -1,410 +1,410 @@
 {
-  "items": [
+ "items": [
+  {
+   "slug": "houba-zushi",
+   "body_ja": "## 何でできているか\n朴の木の大きな葉で酢飯を包んだ初夏の一品で、葉をほどくとほのかな木の香りが立ちのぼり、酢の効いた飯の爽やかさと、包み込んだ鯖や鮭の酢漬け、彩りの錦糸卵が口の中でひとつにまとまるという。葉に殺菌作用があるとされ、蒸し暑い季節でも安心して持ち歩ける携帯食だったと伝わり、田植えなど農作業の休みのごちそうとして親しまれてきたそうだ。\n## どう作るのか\n酢飯の上に酢締めした川魚や鮭、きゃらぶきの煮物、錦糸卵など彩り豊かな具をのせ、朴の葉で半分に畳んだり四角く包んだりするという。もとは塩鮭を酢で締め、その酢で酢飯をつくり鮭をのせただけの簡素なものだったと伝わる。葉の包み方や具材は地域や家庭でさまざまで、東濃地域では七、八種の具をのせる家庭も多いそうだ。\n## なぜこの形になったのか\n伝承地域の家々には決まって朴の木が植えられており、葉に含まれる成分に抗菌・防カビ効果があるとされ、高温多湿で食品が傷みやすい田植えの時期に重宝されたという。近所同士が総出で助け合う共同作業の際、前日から仕込め食器も要らないこのすしが、昼食として振る舞われたと伝わり、飛騨と東濃で味付けの好みが分かれるのも興味深いそうだ。",
+   "body_en": "## What it's made of\nVinegared rice wrapped in the broad leaf of a magnolia tree, an early-summer dish, so unwrapping it releases a faint woody scent, and the rice's clean tang meets vinegar-cured mackerel or salmon and a scatter of colorful egg strands in one mouthful. The leaf is said to carry antibacterial properties, making it a food that could be carried safely through the humid season.\n## How it's made\nVinegar-cured river fish or salmon, simmered bamboo shoots, and threads of egg go over the vinegared rice, which is then folded in half or wrapped square in a magnolia leaf. The earliest version is said to have been simpler still — just salted salmon cured in vinegar, the same vinegar used for the rice, with salmon laid on top. How it's wrapped and what goes inside is said to vary by household and district.\n## Why it took this shape\nHouseholds across the region are said to have always kept a magnolia tree on hand, since compounds in the leaf are said to fight bacteria and mold — a real advantage during the hot, humid rice-planting season when food spoils fast. Made the day before and needing no dishes to eat, it's said to have been served as the midday meal during the mutual-aid labor of communal rice planting.",
+   "sources": [
     {
-      "slug": "houba-zushi",
-      "body_ja": "## 何でできているか\n朴の木の大きな葉で酢飯を包んだ初夏の一品で、葉をほどくとほのかな木の香りが立ちのぼり、酢の効いた飯の爽やかさと、包み込んだ鯖や鮭の酢漬け、彩りの錦糸卵が口の中でひとつにまとまるという。葉に殺菌作用があるとされ、蒸し暑い季節でも安心して持ち歩ける携帯食だったと伝わり、田植えなど農作業の休みのごちそうとして親しまれてきたそうだ。\n## どう作るのか\n酢飯の上に酢締めした川魚や鮭、きゃらぶきの煮物、錦糸卵など彩り豊かな具をのせ、朴の葉で半分に畳んだり四角く包んだりするという。もとは塩鮭を酢で締め、その酢で酢飯をつくり鮭をのせただけの簡素なものだったと伝わる。葉の包み方や具材は地域や家庭でさまざまで、東濃地域では七、八種の具をのせる家庭も多いそうだ。\n## なぜこの形になったのか\n伝承地域の家々には決まって朴の木が植えられており、葉に含まれる成分に抗菌・防カビ効果があるとされ、高温多湿で食品が傷みやすい田植えの時期に重宝されたという。近所同士が総出で助け合う共同作業の際、前日から仕込め食器も要らないこのすしが、昼食として振る舞われたと伝わり、飛騨と東濃で味付けの好みが分かれるのも興味深いそうだ。",
-      "body_en": "## What it's made of\nVinegared rice wrapped in the broad leaf of a magnolia tree, an early-summer dish, so unwrapping it releases a faint woody scent, and the rice's clean tang meets vinegar-cured mackerel or salmon and a scatter of colorful egg strands in one mouthful. The leaf is said to carry antibacterial properties, making it a food that could be carried safely through the humid season.\n## How it's made\nVinegar-cured river fish or salmon, simmered bamboo shoots, and threads of egg go over the vinegared rice, which is then folded in half or wrapped square in a magnolia leaf. The earliest version is said to have been simpler still — just salted salmon cured in vinegar, the same vinegar used for the rice, with salmon laid on top. How it's wrapped and what goes inside is said to vary by household and district.\n## Why it took this shape\nHouseholds across the region are said to have always kept a magnolia tree on hand, since compounds in the leaf are said to fight bacteria and mold — a real advantage during the hot, humid rice-planting season when food spoils fast. Made the day before and needing no dishes to eat, it's said to have been served as the midday meal during the mutual-aid labor of communal rice planting.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：朴葉ずし 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_1_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "keichan",
-      "body_ja": "## 何でできているか\n鶏肉とキャベツや玉ねぎを味噌や醤油ベースのたれで絡め、鉄板で焼きながら食べる料理で、たれの香ばしさとともに肉の脂がじゅっと弾ける音、野菜の甘みが焼けていく香りが食欲をそそるという。味噌味、醤油味、塩味と土地や店によって味わいが分かれ、焼き方も豪快だと伝わり、名前の由来にも諸説あるところが土地の面白さだそうだ。\n## どう作るのか\n鶏肉とキャベツやもやし、季節の野菜を特製のたれに絡め、鉄板やジンギスカン鍋のような専用の器具で焼きながら食べるという。味付けは味噌、醤油、塩など地域や家庭、店によって異なり、それぞれのこだわりのたれを楽しめるのが持ち味だそうだ。市販のたれに漬け込んだものも農産物直売所などで売られ、家庭でも手軽に味わえると伝わる。\n## なぜこの形になったのか\n各家庭で飼っていた鶏が卵を産まなくなったあと、貴重なたんぱく源として食したのが始まりと伝えられ、特別な日のごちそうだったという。岐阜県の一部地方で食べられていたジンギスカンを真似てつくられたのが始まりともいわれ、精肉店や居酒屋が独自にたれを改良して地域色豊かに育ち、郡上市などでは観光資源にもなっているとされる。",
-      "body_en": "## What it's made of\nChicken tossed with cabbage and onion in a miso- or soy-based sauce, then grilled on a hot plate, so the sauce's savory char, the crackle of fat hitting the metal, and the sweet smell of vegetables browning all pull together into something that's said to make you hungrier the longer it cooks. Miso, soy, or salt versions are said to split by region and shop, each cooked with its own bold style.\n## How it's made\nChicken along with cabbage, bean sprouts, and seasonal vegetables is tossed in a house-made sauce and grilled on a flat griddle or a dome-shaped pan borrowed from Jingisukan-style lamb grilling. Seasoning — miso, soy, or salt — is said to vary by household, district, and shop, and trying each place's own sauce is said to be part of the appeal. Pre-marinated chicken is also sold ready to cook.\n## Why it took this shape\nThe dish is said to trace back to using chickens once they'd stopped laying eggs — a precious source of protein at the time, and a treat reserved for special occasions. It's also said to have started as a local take on Jingisukan lamb, which was eaten in part of Gifu, with butcher shops and bars later developing their own sauces into distinct regional styles.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：鶏ちゃん 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_2_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "karasumi",
-      "body_ja": "## 何でできているか\n米粉と砂糖を練って蒸し上げた和菓子で、切った断面が富士山のような山型に仕上がるのが特徴だという。しっとりとした米粉の生地は控えめな甘さで、蒸したての湯気とともにほのかな米の香りが立つと伝わる。白色が定番だが黒糖やよもぎ、くるみを練り込んだ色とりどりのものもあり、山の頂が二つあるのが一般的で、素朴な口当たりが持ち味だそうだ。\n## どう作るのか\n米粉に砂糖を練り込んで棒状にし、専用の木型に入れて型を外し、十五分から三十分ほど蒸し上げるという。白いものが基本だが、黒糖を使ったり、よもぎやくるみ、ごま、あずきを生地に混ぜ込んだりと、家庭や店によってさまざまなバリエーションがあると伝わり、まれに山が三つになるものもあり、色や香りの組み合わせを楽しめるそうだ。\n## なぜこの形になったのか\n東濃地域で桃の節句に合わせてつくられるようになったとされ、山の頂上をかたどった形には、わが子が幸せになるよう願う思いが込められているという。海から遠いこの地域では、高級珍味のからすみが貴重だったため、形の似た菓子で代用したのが名の由来という説のほか、中国・唐時代の文鎮とすずりを兼ねた道具に似ているからという説も伝わっている。",
-      "body_en": "## What it's made of\nA steamed sweet made by kneading rice flour with sugar, known for the way its sliced cross-section forms a peak shaped like Mount Fuji. The moist rice-flour dough carries a restrained sweetness, and a faint rice aroma is said to rise with the steam right off the pot. White is standard, but versions kneaded with brown sugar, mugwort, or walnut are said to add their own color.\n## How it's made\nRice flour kneaded with sugar is shaped into a bar, pressed into a dedicated wooden mold, then released and steamed for fifteen to thirty minutes. White is the base version, but households and shops are said to vary it with brown sugar, mugwort, walnut, sesame, or red bean worked into the dough.\n## Why it took this shape\nThe sweet is said to have taken shape in the Tono region as a treat for the Doll's Festival, its double-peaked form said to carry a wish that a child grow up happy, modeled after a mountain. One account traces its name to a fish-roe delicacy of the same name, said to have been substituted with this confection in a region too far from the sea to easily get the real thing.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：からすみ 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_3_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "ayu-zosui",
-      "body_ja": "## 何でできているか\n素焼きで香ばしく焼いた鮎を、だしとご飯でさっと煮た雑炊で、鮎の独特の香りとうまみが出汁に溶け出し、さらりとした口当たりの中に凝縮した旨みが広がるという。鮎料理をひとしきり楽しんだ後の締めの一品として供されることが多く、食欲のないときにもさらりと食べやすい一皿として、昔から長く親しまれていると伝わっている。\n## どう作るのか\nはらわたを抜いて素焼きにした鮎と、水でぬめりをとったご飯、だし汁をすべて鍋に入れてさっと煮て、味を調えるという。冷やご飯の利用法としても重宝されてきたそうだ。木曽川や長良川、揖斐川の流域にある観光やなをはじめ、鮎料理を出す飲食店で締めの一品として味わえると伝わり、コシヒカリを使った土産物も商品化されているという。\n## なぜこの形になったのか\n漁の際に傷ついてそのままでは市場に出しにくくなった鮎を、無駄にせず美味しく食べる方法として生まれたとされる。清流の多い岐阜県では夏の鮎漁が盛んで、夏の蒸し暑さで食欲が落ちたときにも、雑炊にすることで食べやすくなる工夫が土地に根づき、伝統漁法の簗漁でとれた新鮮な鮎が余さず生かされる仕組みが根づいているという。",
-      "body_en": "## What it's made of\nA rice porridge made by quickly simmering plainly grilled ayu, or sweetfish, in dashi and rice, so the fish's distinctive aroma and richness dissolve into the broth, leaving a light, brothy dish with concentrated flavor underneath. It's said to be served often as the last course after a meal built around other ayu dishes.\n## How it's made\nAyu with the innards removed are grilled plain, then simmered briefly in a pot together with rice that's been rinsed of its stickiness and a dashi broth, seasoned to taste. It's said to have also served as a good use for leftover cold rice. It's often the finishing dish at riverside weir restaurants along the Kiso, Nagara, and Ibi rivers where ayu dishes are served.\n## Why it took this shape\nThe dish is said to have grown out of a way to make good use of ayu that came out of the nets too damaged to sell as they were. Gifu's many clear rivers support heavy ayu fishing through summer, and turning the fish into a light porridge is said to have become a way to keep eating well even when the summer heat dulled the appetite.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：鮎ぞうすい 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_4_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "hebo-meshi",
-      "body_ja": "## 何でできているか\nクロスズメバチの幼虫、へぼを甘辛く煮た甘露煮をご飯に混ぜ込んだ料理で、噛むと香ばしい幼虫の食感と醤油、砂糖のこくのある甘辛さがじんわり広がるという。高たんぱくで滋養に富み、大切な客をもてなす特別なごちそうとして扱われてきたと伝わり、恵那市を中心とした周辺地域の家庭に代々受け継がれてきた土地の味だそうだ。\n## どう作るのか\n巣から取り出したへぼを砂糖や醤油、酒で甘辛く煮付けて甘露煮をつくり、それを米や醤油とともに炊き込んでへぼ飯に仕上げるという。甘露煮のまま食べるほか、たれにすり込んで五平餅にする食べ方も代表的だそうだ。幼虫だけでなく成虫を乾煎りして食べる地域もあり、初夏に小さな巣を捕獲して飼育してから中身を取り出す方法も伝わる。\n## なぜこの形になったのか\n海から離れた東濃地域では、へぼが貴重なたんぱく源として住民の健康を支えてきたとされ、江戸時代の書物にもすでに食べる習慣が記されているという。信州から奥三河にかけての山間地域に共通する食文化で、秘伝として代々受け継がれてきたごちそうだと伝わり、家々に伝わる甘露煮の味付けにもそれぞれ細やかな違いがあるという。",
-      "body_en": "## What it's made of\nA dish of rice mixed through with sweet-simmered larvae of the ground-nesting wasp called hebo, so a toasty, chewy bite of larvae meets a rich, sweet-savory depth of soy sauce and sugar. High in protein and considered deeply nourishing, it's said to have been treated as a special dish reserved for honored guests.\n## How it's made\nLarvae taken from the nest are simmered sweet and savory in sugar, soy sauce, and sake to make a glaze, which is then cooked together with rice and soy sauce into hebo rice. Eating the glazed larvae on their own, or working them into the sauce for grilled rice skewers, are both said to be classic ways to eat them. In some districts the adult wasps are said to be dry-roasted and eaten too.\n## Why it took this shape\nIn the Tono region, far from the sea, hebo is said to have supported residents' health as a valued source of protein, and a text from the Edo period already records the custom of eating it. It's said to be a food culture shared across the mountainous stretch from Shinshu to Oku-Mikawa, handed down as a treasured, almost secretive dish through generations.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：へぼ飯 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_5_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "myoga-bochi",
-      "body_ja": "## 何でできているか\nそら豆であんをつくり、小麦粉の皮で包んでみょうがの葉で蒸した素朴な郷土菓子で、葉をほどくとみょうがのさわやかな香りがふわりと立ち、皮のもちっとした食感とそら豆あんのほくほくした甘みが重なるという。田植えの合間のおやつとして親しまれてきたと伝わり、かつては「田植えぼち」「野休みぼち」とも呼ばれていたそうだ。\n## どう作るのか\n水に浸したそら豆をやわらかく煮て砂糖を加えあんをつくり、小麦粉に水と砂糖、塩を加えて練った皮でくるみ、丸く形を整えてみょうがの葉で包んで蒸すという。皮には小麦粉だけでなく米粉を混ぜる地域もあり、早い時期の葉ほど香りがよいと伝わり、みょうがの葉が出回る六月から十月ごろまで各家庭でつくられているそうだ。\n## なぜこの形になったのか\nみょうがの葉には殺菌効果があるとされ、食品が傷みやすい初夏から夏にかけての携帯食に適していたという。冷蔵庫のない時代、農作業の合間にあぜ道でおやつとして食べるための知恵として育ち、鉄分やたんぱく質を含むそら豆のあんが疲れを癒やす役割も果たしてきたと、この地域では今も長く語り継がれているとされている。",
-      "body_en": "## What it's made of\nFava bean paste wrapped in a wheat-flour skin and steamed inside a myoga ginger leaf, so unwrapping it releases myoga's cool, sharp fragrance, and the skin's chewy pull meets the bean paste's mealy sweetness. It's said to have been a treasured snack eaten during breaks in rice-planting work.\n## How it's made\nFava beans soaked in water are simmered soft and sweetened into a paste, then wrapped in a skin kneaded from wheat flour, water, sugar, and salt, shaped round, wrapped in a myoga leaf, and steamed. Some districts are said to mix rice flour into the skin as well, and leaves picked earlier in the season are said to carry the best fragrance.\n## Why it took this shape\nMyoga leaves are said to carry an antibacterial quality, suiting them to food carried around during the early-summer-to-summer stretch when things spoil fast. Before refrigeration, the snack is said to have grown as something to eat on a straw mat along a rice paddy during a break from fieldwork, with the fava bean paste's iron and protein said to help ease the day's fatigue.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：みょうがぼち 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_6_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "ayu-narezushi",
-      "body_ja": "## 何でできているか\n塩漬けした鮎の腹に炊きたてのご飯を詰め、二カ月ほど漬け込んで発酵させたなれずしで、噛むと酸味の効いた独特の香りとともに、鮎の身がまろやかに熟れた旨みがじんわりと広がるという。卵を抱えた雌の鮎を使うと、内臓のうまみが加わってより丸みのある味わいになると伝わり、鵜匠の家では今も正月に配られているそうだ。\n## どう作るのか\n九月ごろに獲れる落ち鮎を開き、塩とともに二カ月ほど漬け込んでから塩抜きし、鮎の腹に炊きたてのご飯を詰めるという。木桶に三、四段重ねて並べ、竹皮を敷いてふたに石の重しをのせ、乳酸菌の力を借りて自然発酵させるそうだ。熟成が終われば一年を通して味わえ、オスの鮎を使うことが多いと伝わる。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。\n## なぜこの形になったのか\n岐阜市を流れる長良川には千三百年以上の歴史を持つとされる鵜飼があり、そこで獲れた鮎が塩と米のみで発酵食品へと姿を変える技術が古くから受け継がれてきたという。獲れる時期が限られる川魚を保存し、冬の貴重なたんぱく源として蓄える知恵が、この発酵の形を育んだとされ、江戸時代には将軍家への献上品にもなったと伝わる。",
-      "body_en": "## What it's made of\nSalted ayu stuffed with freshly cooked rice and left to ferment in a barrel for about two months, so each bite carries a distinctive sour tang alongside the fish's flesh, mellowed and deepened by the slow cure. Female fish carrying roe are said to add extra richness from the roe itself, rounding the flavor out further.\n## How it's made\nAyu caught heading downstream in autumn are butterflied, cured in salt for about two months, then desalted before their bellies are packed with freshly cooked rice. Stacked three or four layers deep in a wooden barrel lined with bamboo bark and weighted with a stone, the fish are left to ferment naturally with the help of lactic acid bacteria. Once cured, it's said to keep and be enjoyed year-round.\n## Why it took this shape\nThe Nagara River running through Gifu City is said to carry over 1,300 years of history with its cormorant fishing, and the technique of turning the ayu it yields into a fermented food using nothing but salt and rice is said to have been handed down from those same old days. Preserving a river fish with a short season, and stretching it into a precious winter protein source, is said to be what shaped this style of fermentation.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：鮎なれずし 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_7_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "gifu-gohei-mochi",
-      "body_ja": "## 何でできているか\n米をつぶして串に巻きつけ、味噌や醤油だれを塗って焼いた素朴な料理で、炭火にあぶられたたれの香ばしい匂いが先に立ち、噛むとご飯粒の食感とくるみや落花生の香ばしさがたれの甘辛さと絡み合うという。わらじ形や団子形など地域によって姿が異なるのも面白く、中山道を境に味の系統も分かれると伝わる。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。\n## どう作るのか\nつぶした米を平たく丸めて串に巻きつけ、味噌味、醤油味、両方を合わせたたれのいずれかを塗って炭火でじっくり焼くという。隠し味にはくるみや落花生を使うのが一般的だが、東濃地域ではへぼをすり込む地域もあり、つくる人ごとに独自の味があると伝わり、中山道の北側は醤油味、南側は味噌味が多いそうだ。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。\n## なぜこの形になったのか\n木曽地域の木こりたちが、木材の伐採で出た木片に飯を握りつけてたき火で焼き、味噌をつけて食べたのが始まりとされる。山仕事の無事を祈って神様に捧げる習わしが根づき、やがて新米の収穫祝いや祭事の場で食べる行事食へと形を変え、東濃から飛騨にかけて広まり、客人をもてなすごちそうにもなったとされる。そうした背景が、この料理を今に伝える支えになってきたとされる。",
-      "body_en": "## What it's made of\nMashed rice pressed onto a skewer and grilled with a brushed-on miso or soy glaze, so the char of the glaze over charcoal hits first, and each bite mixes the texture of rice grains with the toasty note of walnut or peanut worked into the sweet-savory glaze. Shapes are said to vary by region, from a flattened oval to a round dumpling, which is part of the fun.\n## How it's made\nMashed rice is pressed flat and wrapped around a skewer, brushed with miso, soy, or a blend of both, then grilled slowly over charcoal. Walnut or peanut is the usual secret ingredient in the glaze, though parts of the Tono region are said to work in ground wasp larvae instead, and each cook is said to bring their own particular touch.\n## Why it took this shape\nThe dish is said to trace back to woodcutters in the Kiso area, who pressed rice onto scrap wood left over from felling and grilled it over a campfire, brushed with miso. A custom of offering it to the mountain gods for safe work is said to have taken root, which later turned into a festival food eaten to celebrate the new rice harvest, spreading from Tono into the Hida region.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：五平餅 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_8_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "funa-miso",
-      "body_ja": "## 何でできているか\n素焼きにした鮒を大豆や豆味噌、ざらめとともに時間をかけて煮込んだ料理で、骨までやわらかくなるまで煮詰めた身はほろほろと崩れ、味噌の濃厚なこくと大豆の甘みが川魚特有の風味を包み込むという。豆味噌の力強い香りが鮒の臭みを和らげ、冬の食卓を彩る保存食として親しまれてきたと伝わる。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。\n## どう作るのか\nはらわたとうろこを取った鮒を素焼きにし、水で戻した大豆とともに時間をかけて煮て、ざらめや豆味噌、酒を加えてさらに煮込むという。身がほろほろになり骨までやわらかくなったら食べごろだそうだ。冬の保存食として十一月ごろから仕込まれ、寒い時期に少しずつ食べ継ぐと伝わる。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n木曽三川の流域である西濃地域は、豊富な川魚に恵まれた土地とされ、鮒やなまず、もろこなどを加工して保存する食文化が育ったという。東海地方特有の豆味噌はたんぱく質やうま味成分を多く含み、加熱すると魚の臭みを和らげる働きがあるとされ、鮒との相性のよさから県外の三重や愛知でも食べられていると伝わる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
-      "body_en": "## What it's made of\nPlainly grilled crucian carp simmered slowly with soybeans, soybean miso, and coarse sugar, so by the time the bones have gone soft the flesh falls apart tender, and the miso's deep richness and the soybeans' sweetness wrap around the river fish's particular flavor. The soybean miso's bold aroma is said to soften whatever gaminess the fish carries.\n## How it's made\nCrucian carp, gutted and scaled, are grilled plain, then simmered a long while with soaked soybeans before coarse sugar, soybean miso, and sake are added to simmer further. It's said to be ready once the flesh falls apart and the bones have gone soft. Prepared as a winter preserve, it's said to be eaten little by little through the cold months.\n## Why it took this shape\nThe Seino region, fed by the Kiso Three Rivers, is said to have been rich in river fish, and a food culture of processing and preserving crucian carp, catfish, and other small fish is said to have grown up there. Soybean miso, distinctive to the Tokai region, is rich in protein and umami and is said to soften a fish's gaminess when heated — a good enough match with crucian carp that it's said to have become the standard pairing.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：鮒味噌 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_9_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "houba-miso",
-      "body_ja": "## 何でできているか\n朴の葉の上に自家製の麹味噌をのせて焼く料理で、焼けるにつれて味噌の香ばしい匂いと朴葉のほのかな木の香りが混ざり合い、ぐつぐつと煮立つ味噌の熱々のこくがご飯にも酒の肴にもよく合うという。今日では飛騨牛やきのこ、ねぎを一緒にのせる食べ方も広まり、土産物としても人気だと伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。\n## どう作るのか\n秋に茶色く色づいて落ちた朴の葉を集めて冬まで保存しておき、その葉の上に味噌をのせて炭火やホットプレートで焼きながら食べるという。今ではきのこやねぎ、飛騨牛などを一緒にのせて焼くことも多いそうだ。朴葉は抗菌作用があり、味噌に葉の香りが移って美味しくなると伝わり、フライパンでも代用できるという。手間のかかる工程だが、今も惜しまず続けられているという。\n## なぜこの形になったのか\n林業が盛んだった飛騨地域で、山仕事をする杣人たちが朴葉を皿代わりに使い、山で味噌を焼いて食べたのが始まりとされる。冬の寒さが厳しく食材が凍るほどの土地柄から、囲炉裏の火で漬物や味噌を温めながら食べる習わしが根づき、それが一般家庭にも広まり、土産物として売られるようにもなったとされる。こうした経緯は、地域の暮らしの記憶として語り継がれているそうだ。",
-      "body_en": "## What it's made of\nA dish of homemade koji miso grilled right on a magnolia leaf, so as it cooks, the miso's savory aroma mixes with the leaf's faint woodiness, and the bubbling, deeply savory miso pairs equally well with rice or a drink. Today it's also said to be common to grill Hida beef, mushrooms, or scallion on the same leaf alongside the miso.\n## How it's made\nMagnolia leaves that have browned and fallen in autumn are gathered and kept through to winter, then miso is spooned onto a leaf and grilled over charcoal or a hot plate. Mushrooms, scallion, and Hida beef are commonly grilled alongside the miso too. The leaf is said to carry antibacterial properties, and its scent is said to seep into the miso as it cooks.\n## Why it took this shape\nThe dish is said to trace back to woodworkers in the Hida region, once known for forestry, who used magnolia leaves as makeshift plates and grilled miso over a fire in the mountains. Winters there were harsh enough to freeze food solid, which is said to have led to a custom of warming pickles and miso over the hearth fire — a habit said to have later spread into ordinary households.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：朴葉味噌 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_10_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "otoshi-no-gottso",
-      "body_ja": "## 何でできているか\n大根や人参、里芋などの根菜と糸昆布、豆腐をだしで煮込んだ年越しの一品で、大鍋でつくり何度も温め直すため、煮込むほどに根菜の甘みとだしのこくが深くしみ込んでいくという。どの地域でも糸昆布が欠かせず、細く長い形が長寿を願う縁起物とされ、家庭ごとに具材の切り方が異なると伝わる。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。\n## どう作るのか\n大根や人参、里芋、あく抜きしたごぼうやこんにゃく、煮干し、豆腐、水で戻した糸昆布などをだしと調味料で煮込むという。大晦日に大鍋でつくり、正月三が日のあいだ何度も煮返して食べるそうだ。地域によっては焼いた煙が悪いことを払うとされるいわしの丸干しを添えることもあり、呼び名も土地ごとに違うと伝わる。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。\n## なぜこの形になったのか\n正月は台所の道具を休ませ家族もゆっくり過ごせるようにと、大鍋にたくさんつくって温め直しながら食べる形が定着したとされる。おせち料理がなかった時代、この煮物こそがごちそうで、一年を無事に過ごせた感謝と新年の豊作を願う気持ちを込めて神仏に供えられ、今も年末年始に欠かせない料理だと伝わる。その土地ならではの事情が、今の形を静かに支えてきたと伝わる。",
-      "body_en": "## What it's made of\nRoot vegetables like daikon, carrot, and taro simmered in dashi with shredded kelp and tofu, a dish for seeing out the old year, so cooked in one big pot and reheated again and again, the vegetables' sweetness and the broth's richness are said to only deepen with each round. Every district is said to include shredded kelp without fail, its long thin strands said to carry a wish for a long life.\n## How it's made\nDaikon, carrot, taro, bitterness-drawn burdock and konnyaku, dried sardines, tofu, and rehydrated shredded kelp are all simmered together in dashi and seasoning. It's said to be made in one big pot on New Year's Eve and reheated repeatedly through the first three days of the new year. Some districts are said to add dried whole sardines too, believing the smoke from grilling them wards off bad luck.\n## Why it took this shape\nThe custom of making a big potful and reheating it through New Year's is said to have settled in as a way to let the kitchen, and the whole family, rest during the holiday. In an era before osechi New Year dishes existed, this simmered dish is said to have been the feast itself, offered to the gods and Buddha as thanks for the past year and a wish for a good harvest in the next.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：大歳のごっつぉ 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_11_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "ne-zushi",
-      "body_ja": "## 何でできているか\n麹を混ぜたご飯に塩マスや大根、人参を合わせて二十日ほど寝かせて発酵させたなれずしで、噛むと発酵ずし特有の風味の中に甘酸っぱさが感じられ、ほかの発酵ずしに比べてまろやかで食べやすいという。「寝かせてつくる」という意味の漢字があてられるほど、時間が味をつくり出すと伝わっている。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。\n## どう作るのか\n骨を取り小口切りにした塩マスと、塩でもんだ大根や人参を、麹を混ぜた少し冷ましたご飯とすべて混ぜ合わせ、二週間から二十日ほど漬け込んで発酵させるという。気温や材料によって発酵具合が変わるため、同じ人がつくっても毎回少しずつ味わいが違うのも楽しみで、マスの代わりに鯖を使う家庭もあると伝わっている。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。\n## なぜこの形になったのか\n冬の厳しい寒さで新鮮な野菜や食料が不足した飛騨地方では、漬ける、干す、発酵させるなど多彩な保存食文化が根づいたとされる。正月のごちそうとしてどの家庭でも欠かせない存在になり、「ねずしがないと正月が来た気がしない」と言われるほど、暮らしの節目に深く根づいてきたと伝わる。そうした背景が、この料理を今に伝える支えになってきたとされる。",
-      "body_en": "## What it's made of\nA fermented sushi made by mixing rice worked with koji together with salted trout, daikon, and carrot and letting it rest for about twenty days, so each bite carries a fermented tang balanced with a sweet-sour edge, said to be milder and easier to eat than other fermented sushi. The characters used for its name literally mean 'sleeping sushi,' a nod to how much time shapes its flavor.\n## How it's made\nBoned, bite-sized pieces of salted trout and salted daikon and carrot are all mixed into rice that's been worked with koji and left to cool slightly, then packed down to ferment for two to twenty days. How far it ferments is said to shift with the temperature and the ingredients on hand, so even the same cook is said to get a slightly different result each time — part of the appeal.\n## Why it took this shape\nIn the Hida region, where harsh winters left fresh vegetables and food scarce, a rich culture of pickling, drying, and fermenting food is said to have taken root. The dish became such an essential part of the New Year's feast in every household that people are said to still claim it doesn't feel like New Year's without it.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：ねずし 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_12_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "moroko-zushi",
-      "body_ja": "## 何でできているか\n酢飯の上に甘辛く煮た小魚のもろこを並べ、寿司箱で押し固めた押しずしで、酢飯の酸味の奥からもろこの甘辛い煮汁の味がじんわりとにじみ出るという。コイ科の淡水魚らしい淡白な身に、しょうがの香りを効かせた煮汁がよく絡むと伝わる。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。\n## どう作るのか\n酒と昆布を入れて炊いた米に調味料を合わせて酢飯をつくり、湿らせた寿司箱にハランを敷いて、酢飯ともろこの甘辛煮を交互に重ねて重石をするという。二、三時間おいてから切り分けるそうだ。もろこは砂糖、醤油、酒、しょうがであめ色になるまで煮詰めると伝わる。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n木曽三川に育まれた西濃地域は、土地基盤整備が進む前は網の目のような水郷地帯で、もろこやふな、うなぎなど多くの川魚が獲れたとされる。もてなし料理として重宝されたが、漁獲量の減少とともに川魚離れが進み、特別な日の懐かしい料理として食べ継がれているという。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
-      "body_en": "## What it's made of\nA pressed sushi topped with sweet-simmered moroko, a small carp-family fish, laid over vinegared rice and pressed in a wooden mold, so the rice's tang gives way to the fish's sweet-savory simmer seeping through. The fish's mild, freshwater flavor is said to carry the ginger-scented sauce well.\n## How it's made\nRice cooked with sake and kelp is seasoned into vinegared rice, layered with sweetly simmered moroko in a dampened wooden sushi mold lined with sasanqua leaf, then pressed under weight for two to three hours before being sliced. The moroko itself is simmered in sugar, soy sauce, sake, and ginger until it turns a deep amber color.\n## Why it took this shape\nThe Seino region, shaped by the Kiso Three Rivers, is said to have been a maze of waterways before land reorganization, rich in river fish like moroko, crucian carp, and eel. Once prized as a dish for entertaining guests, it's said to have faded as catches declined and people turned away from river fish, surviving now as a nostalgic dish for special occasions.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：もろこずし 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_13_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "gifu-imomochi",
-      "body_ja": "## 何でできているか\n里芋と米を一緒に炊いてつぶし、丸めて焼いた素朴な一品で、里芋のねっとりとした粘りともちもちした食感が合わさり、しょうが醤油の香りが食欲をそそるという。焼きたての香ばしさと里芋のほのかな甘みが噛むほどに広がると伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。\n## どう作るのか\n里芋とお米を一緒に炊き上げてつぶし、一つひとつ丁寧に丸めて、そのまま食べるか両面をこんがり焼くという。しょうが醤油をつけるのが定番だが、ねぎ味噌をつける地域もあり、春はみょうがの葉、秋はかぶらの葉に包んで焼く楽しみ方も伝わる。手間のかかる工程だが、今も惜しまず続けられているという。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。\n## なぜこの形になったのか\n稲刈りで出たくず米と、粘り気の強い里芋を合わせてつくったのが始まりという説や、米が不作の年にかさ増しのため里芋を加えたのが始まりという説が伝わる。気候に左右されず収穫できる里芋を活用する、米が貴重だった時代の知恵から生まれた料理だとされる。こうした経緯は、地域の暮らしの記憶として語り継がれているそうだ。",
-      "body_en": "## What it's made of\nTaro and rice cooked together, mashed, shaped, and grilled — a plain dish where the taro's sticky pull meets the mochi-like chew of the rice, with ginger and soy sauce lifting the aroma. Fresh off the grill, its toasty char and the taro's faint sweetness are said to spread with every bite.\n## How it's made\nTaro and rice are cooked together, mashed, and carefully shaped into small cakes by hand, then eaten as is or grilled crisp on both sides. Ginger and soy sauce is the standard dip, though some districts use scallion miso instead, and it's said to be wrapped and grilled in a myoga leaf in spring or a turnip leaf in autumn.\n## Why it took this shape\nOne account traces the dish to combining broken rice left over from the harvest with sticky taro; another says taro was added to bulk out rice in years when the crop failed. Either way, it's said to have grown out of putting taro — a crop less at the mercy of the weather — to use in an era when rice itself was precious.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：いももち 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_14_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "misogi-dango",
-      "body_ja": "## 何でできているか\n米粉の生地でこしあんを包んだ団子を串に刺し、味噌と砂糖のたれを塗って焼いた羽島市の菓子で、田楽のように塗られたたれの香ばしさと、中から出てくるこしあんの上品な甘さが対照的だという。焼き目のついた表面のごまの香りも後を引くと伝わる。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。\n## どう作るのか\n米粉の団子生地でこしあんを包み、二個ずつ串に刺して焼き、味噌と砂糖でつくったたれを両面に田楽風に塗って、ごまをふりかけてもう一度焼くという。毎年六月三十日の神事に合わせて竹鼻の商店街や屋台で販売されると伝わる。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。\n## なぜこの形になったのか\n竹鼻八剣神社で毎年六月三十日に行われる「みそぎ神事」にちなみ、当初は別名でつくられていた味噌つけ団子に神事の名がつけられたとされる。この団子を食べると一年前半の穢れが払われ、残り半年を元気に過ごせるという言い伝えが土地に根づいたという。その土地ならではの事情が、今の形を静かに支えてきたと伝わる。そうした背景が、この料理を今に伝える支えになってきたとされる。",
-      "body_en": "## What it's made of\nRice-flour dumplings filled with smooth red bean paste, skewered and brushed with a miso-and-sugar glaze before grilling, a sweet from Hashima City, so the glaze's savory char plays against the refined sweetness of the paste hidden inside. A scatter of sesame on the charred surface is said to linger on the palate.\n## How it's made\nRice-flour dough is wrapped around smooth red bean paste, skewered two to a stick, grilled, then brushed on both sides with a miso-and-sugar glaze in a style borrowed from grilled tofu skewers, finished with a scatter of sesame and grilled once more. It's said to be sold at shops and stalls in the Takehana shopping street each year around June 30, tied to the local purification ritual.\n## Why it took this shape\nThe dish is said to take its name from the Misogi Shinji purification ritual held every June 30 at Takehana Yatsurugi Shrine, its earlier version — originally sold under a different name — later renamed to match the rite. A belief took hold that eating this dumpling washes away the first half of the year's impurities, letting you spend the second half in good health.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：みそぎだんご 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_15_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "suttate-jiru",
-      "body_ja": "## 何でできているか\n茹でた大豆をすり鉢ですりつぶし、味噌や醤油でのばした汁もので、大豆の粒感が消えるまですりつぶされたなめらかな口当たりに、豆の甘みとこくがじんわりと広がるという。合掌造りで知られる白川村に伝わる祝い事の汁として親しまれてきたと伝わる。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。\n## どう作るのか\n一晩水に浸けた大豆を少しかために茹で、すり鉢やミキサーでなめらかにすりつぶし、鍋に移して醤油で味をつけ、沸騰する直前まで火を通すという。味噌を使う場合もあると伝わる。近年はこれを鍋料理にアレンジした「すったて鍋」も人気だそうだ。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n山深い白川村では、やせた土地でも育つ大豆が貴重なたんぱく源として盛んに栽培され、味噌や豆腐をつくる過程でこの汁が生まれたとされる。夏場は傷みやすいため、秋から春先にかけての祝い事や報恩講といったハレの場で食されてきたと伝わる。そうした背景が、この料理を今に伝える支えになってきたとされる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
-      "body_en": "## What it's made of\nA soup made by grinding boiled soybeans smooth in a mortar and thinning the paste with miso or soy sauce, so the beans, ground until no grain remains, leave a silky texture with the beans' sweetness and depth spreading through it. It's said to be treasured in Shirakawa Village, known for its thatched-roof houses, as a soup for celebrations.\n## How it's made\nSoybeans soaked overnight are boiled until just short of fully soft, ground smooth in a mortar or blender, then moved to a pot, seasoned with soy sauce, and heated just short of boiling. Miso is sometimes used instead, it's said. In recent years, a hot-pot version called 'suttate nabe' is also said to have become popular.\n## Why it took this shape\nIn the mountain-locked Shirakawa Village, soybeans — a crop that grows even in poor soil — are said to have been widely cultivated as a valued protein source, and this soup is said to have been born out of the process of making miso and tofu from them. Since it spoils quickly in summer, it's said to have been eaten at celebrations and the Hoonko memorial from autumn through early spring.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：すったて汁 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_16_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "kuri-kinton",
-      "body_ja": "## 何でできているか\n蒸した栗を砂糖とともに練り上げ、布巾で栗の形にしぼり上げた素朴な和菓子で、噛むと栗本来のほくほくした食感と自然な甘みがそのまま広がるという。おせちの栗きんとんとは異なり、栗の風味を存分に味わえる仕立てだと伝わる。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。\n## どう作るのか\n生の栗を茹でて中身を取り出し、砂糖と塩を加えて温めてなじませ、鍋に入れて弱火でよく練るという。練り上がったものを水で湿らせた布巾でしぼり、布目の模様をつけて形を整えるそうだ。店ごとに味わいや食感が異なり、食べ比べを楽しめると伝わる。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n中津川市は中山道の宿場町として発展し、独自の茶の湯文化が花開いたとされ、お茶に合う菓子を求めて菓子職人が腕を競い合ったという。県内有数の栗の産地でもあったことから、山栗を茹でたり焼いたりする素朴な食べ方が、やがてこの上品な菓子へと形を変えたとされる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
-      "body_en": "## What it's made of\nSteamed chestnuts worked with sugar and squeezed into shape inside a cloth, a plain traditional sweet, so each bite carries the chestnut's own mealy texture and natural sweetness with nothing else in the way. Unlike the sweeter New Year's version of the same name, it's said to be built to let the chestnut's flavor speak for itself.\n## How it's made\nFresh chestnuts are boiled and the flesh scooped out, then warmed through with sugar and a pinch of salt and worked slowly over low heat in a pot. Once worked smooth, it's squeezed inside a damp cloth to take on a chestnut's ridged shape. Flavor and texture are said to vary shop by shop, making comparison part of the fun.\n## Why it took this shape\nNakatsugawa developed as a post town on the old Nakasendo road, and a distinctive tea-ceremony culture is said to have flourished there, with confectioners competing to make sweets that paired well with tea. Being also one of the prefecture's major chestnut-growing areas, a plain habit of boiling or roasting wild chestnuts is said to have gradually turned into this refined sweet.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：栗きんとん 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_17_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "mizu-manju",
-      "body_ja": "## 何でできているか\nくず粉とわらび粉でつくった生地であんを包み、冷たい地下水で冷やした夏の菓子で、口に入れるとつるんとした喉ごしのあとに、もちもちとした生地の弾力とこしあんの上品な甘さがふわりと広がるという。井戸水で冷やされた姿が水の都の夏を告げると伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。\n## どう作るのか\nくず粉にわらび粉を混ぜて柔らかく炊き上げた生地でこしあんを包み、陶器のおちょこに流し入れて蒸し、冷たい地下水に浸けて固めるという。くず粉だけでは水に溶けやすく冷やすと硬くなるため、水に強いわらび粉を加えるようになったと伝わる。手間のかかる工程だが、今も惜しまず続けられているという。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。\n## なぜこの形になったのか\n水の都と呼ばれる大垣には豊富な地下水があり、各家庭で野菜や果物を冷やす「井戸舟」が冷蔵庫代わりに使われていたとされる。その水を生かした夏向けの冷たい菓子をと考案されたのがこの水まんじゅうで、菓子店の店頭に並ぶ姿が夏の風物詩になったという。こうした経緯は、地域の暮らしの記憶として語り継がれているそうだ。",
-      "body_en": "## What it's made of\nSmooth red bean paste wrapped in a dough of kudzu and bracken starch, chilled in cold groundwater — a summer sweet, so it slips down smoothly at first, then gives way to a chewy dough and the paste's refined sweetness. Chilled in well water at a shop counter, it's said to signal summer's arrival in this 'city of water.'\n## How it's made\nKudzu starch mixed with bracken starch is cooked soft into a dough, wrapped around smooth red bean paste, poured into a small ceramic cup, steamed, then chilled in cold groundwater to set. Kudzu alone dissolves too easily in water and turns hard when chilled, which is said to be why bracken starch, more resistant to water, was worked in instead.\n## Why it took this shape\nOgaki, known as the 'city of water,' is said to sit on abundant groundwater, and households there are said to have once used 'ido-bune' cooling wells to chill vegetables and fruit in place of a refrigerator. This sweet is said to have been devised to make the most of that water for a cold summer treat, and the sight of it chilling in shop windows is said to have become a marker of summer in the city.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：水まんじゅう 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_18_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "nita-kumoji",
-      "body_ja": "## 何でできているか\n塩抜きした古漬けの菜っ葉を油で炒めて煮た一品で、古漬け特有のすっぱみが油とごま油の香ばしさに包まれ、強火で仕上げた歯切れのよい食感が心地よいという。ご飯にもよく合う、質素ながら滋味深い惣菜だと伝わる。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。\n## どう作るのか\n塩漬けしたかぶの葉などを水洗いして塩抜きし、三センチほどに切って油で炒め、調味料を合わせて水分がなくなるまで煮るという。仕上げにごま油と白ごまを加えて強火で仕上げると伝わる。漬物として食べたあとに、さらに煮て食べ切る工夫だそうだ。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。\n## なぜこの形になったのか\n「くもじ」は平安時代の宮中で漬物を指した言葉に由来するとされ、冬に漬けた菜っ葉が春に酸っぱくなったものを捨てず煮て食べる、食材を無駄にしない先人の知恵から生まれたという。食料が乏しかった時代、漬物を最後まで食べ尽くす工夫が土地に根づいたと伝わる。その土地ならではの事情が、今の形を静かに支えてきたと伝わる。",
-      "body_en": "## What it's made of\nDesalted, aged pickled greens stir-fried in oil then simmered, so the pickle's tartness is wrapped in the toastiness of oil and sesame oil, finished over high heat for a crisp, satisfying bite. It's said to be a plain but deeply flavorful side dish that goes well with rice.\n## How it's made\nSalted turnip greens or similar pickled leaves are rinsed to remove the salt, cut into roughly three-centimeter pieces, stir-fried in oil, then simmered in seasoning until the liquid is gone. Sesame oil and white sesame are added at the end over high heat to finish. It's said to be a way of eating the pickle twice — first as is, then simmered once it's turned sour.\n## Why it took this shape\nThe word 'kumoji' is said to trace back to court language for pickles used in the Heian period, and the dish itself is said to have grown from a habit of simmering rather than discarding greens pickled in winter once they'd turned sour by spring — a way of not wasting food. In an era when food was scarce, using a pickle down to its last bite is said to have taken root as local practice.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：煮たくもじ 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_19_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "gifu-kaki-namasu",
-      "body_ja": "## 何でできているか\n大根と人参の酢の物に、甘い干し柿を割いて加えた一品で、酢の効いたさっぱりした酸味のなかに、干し柿の凝縮した甘みがふいに顔を出すという。冬の食卓に彩りを添える、優しい甘さの箸休めだと伝わる。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。\n## どう作るのか\n大根と人参は塩をふってしんなりさせ、固くしぼって水気を切ってから砂糖と酢の調味料と和えるという。食べる直前に細かく割いた干し柿を加えて仕上げるそうだ。地域によっては正月料理に欠かせない一品とされていると伝わる。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n全国有数の柿の産地とされる岐阜県では、甘柿の富有柿のほか、朝廷への献上の歴史を持つ干し柿など、質の高い柿が育つとされる。新鮮な野菜や果物が乏しい冬場に、干し柿の甘みがビタミンなどの栄養補給として重宝されたことが、この料理を育んだという。そうした背景が、この料理を今に伝える支えになってきたとされる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
-      "body_en": "## What it's made of\nA vinegared salad of daikon and carrot with shreds of sweet dried persimmon mixed in, so a clean vinegar tang gives way now and then to the persimmon's concentrated sweetness. It's said to be a gently sweet palate cleanser that adds color to a winter table.\n## How it's made\nDaikon and carrot are salted until they soften, squeezed dry, then dressed in sugar and vinegar. Finely shredded dried persimmon is added just before serving. In some districts it's said to be an essential dish for the New Year's table.\n## Why it took this shape\nGifu is said to be one of Japan's leading persimmon-growing regions, producing both the sweet Fuyu variety and dried persimmons with a history of being offered to the imperial court. In winter, when fresh vegetables and fruit were scarce, the dried persimmon's sweetness is said to have served as a valued source of vitamins — a role said to have shaped this dish.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：柿なます 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_21_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "akadatsu-no-subute",
-      "body_ja": "## 何でできているか\n里芋の赤い葉柄、赤だつを合わせ酢で和えた一品で、噛むとしゃきしゃきとした独特の歯ごたえのあとに、酢の酸味がすっと鼻に抜けるという。鮮やかな赤紫色が食卓に彩りを添えると伝わる。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。\n## どう作るのか\n赤だつは筋を取って塩でもみ、アクを抜いてから短冊切りにし、合わせ酢と和えるという。炒ってから酢と和える酢炒りにしたり、重しをのせて酢に漬け込んだりと、いろいろな食べ方があると伝わる。干して冬の保存食にする家庭もあるそうだ。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。手間のかかる工程だが、今も惜しまず続けられているという。\n## なぜこの形になったのか\n山県市北部は平地が少なく米がとれない地域だが、石灰質のやせた土壌が芋の栽培に適していたとされ、里芋の茎である赤だつが貴重な食材として親しまれたという。産婦の体力回復を願って食べさせたという言い伝えもあり、暮らしに根づいた食材だったと伝わる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
-      "body_en": "## What it's made of\nThe red-tinged leaf stalks of taro, called akadatsu, dressed in mixed vinegar, so a distinctly crisp bite gives way to a clean vinegar tang up the nose. Its vivid reddish-purple color is said to bring a splash of color to the table.\n## How it's made\nThe stringy fibers are removed from the stalks, which are then salted to draw out bitterness, cut into strips, and dressed in mixed vinegar. It's said to be eaten other ways too — stir-fried before being dressed in vinegar, or weighted down and cured in vinegar over time. Some households are said to dry it for winter storage.\n## Why it took this shape\nThe northern part of Yamagata City has little flat land for rice, but its poor, lime-rich soil is said to have suited taro well, making the plant's red stalk a valued ingredient locally. A folk belief holds that eating it helps a new mother recover her strength and her milk supply — a sign of how deeply it's said to be woven into daily life there.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：赤だつの酢ぶて 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_22_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "senkokumame-kakimawashi",
-      "body_ja": "## 何でできているか\n千石豆という珍しいふじまめと鶏肉、根菜を煮て炊いたご飯に混ぜ込んだ料理で、噛むと千石豆の独特の香りと風味が広がり、鶏の旨みが染みた根菜の甘みと絡み合うという。親戚が集まる席を彩る混ぜご飯だと伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。\n## どう作るのか\n筋を取った千石豆を下ゆでしてから、鶏肉やごぼう、人参とともに煮て味をつけ、炊いたご飯に混ぜ合わせるという。煮た具をあとから混ぜることから「かきまわし」と呼ばれ、最初から具と米を炊き込む混ぜごはんとは区別されると伝わる。手間のかかる工程だが、今も惜しまず続けられているという。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。\n## なぜこの形になったのか\n岐阜市南部で明治時代から栽培される千石豆は、さやの形が千石船に似ることからその名がついたとされ、高温や病気に強く多くの実をつけたという。祭りや行事で親戚が集まる際にふるまう料理として、この地域ならではの豆を使う形が根づいたとされる。こうした経緯は、地域の暮らしの記憶として語り継がれているそうだ。その土地ならではの事情が、今の形を静かに支えてきたと伝わる。",
-      "body_en": "## What it's made of\nA rare heirloom bean called senkoku-mame, its pods said to resemble old cargo ships, simmered with chicken and root vegetables and mixed through cooked rice, so the bean's distinctive aroma spreads with each bite, tangled with the sweetness of root vegetables soaked in chicken's richness. It's said to be a mixed rice dish that brightens a table when relatives gather.\n## How it's made\nStringed senkoku-mame beans are parboiled, then simmered with chicken, burdock, and carrot until seasoned, and mixed into cooked rice. Because the simmered ingredients are stirred in after the rice is already cooked, it's called 'kakimawashi,' or 'stirred around' — distinct from a takikomi rice dish where everything cooks together from the start, it's said.\n## Why it took this shape\nSenkoku-mame has been grown in southern Gifu City since the Meiji era, its pods said to resemble the shape of old thousand-koku cargo ships — the source of its name — and known for tolerating heat and disease while bearing heavily. Serving a dish built around this local bean at festivals and family gatherings is said to be how this style of mixed rice took root in the area.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：千石豆のかきまわし 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_23_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "tsugi-jiru",
-      "body_ja": "## 何でできているか\n唐辛子の辛みと砂糖の甘み、角切りの豆腐が入った珍しいお吸い物で、干ししいたけのだしに唐辛子のぴりっとした刺激が効き、豆腐のかたい歯ごたえが心地よいという。この地区だけで味わえる独特の一杯だと伝わる。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。\n## どう作るのか\nたっぷりの唐辛子をから煎りして風味を出し、干ししいたけなどのだしと丁寧に煮出し、小さく角切りにした地元の豆腐を加え、醤油や砂糖で味を整えるという。汁が薄まらないようかたい豆腐を使うのがコツだそうだ。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。\n## なぜこの形になったのか\n明宝寒水地区の寺院で毎年十月に行われる報恩講の際、参拝者に振る舞われてきたとされる。専用の容器から一本の箸を使って汁を注ぎ分ける独特の作法が名の由来ともいわれ、結婚式や葬儀など人が集まる特別な日に受け継がれてきた料理だという。その土地ならではの事情が、今の形を静かに支えてきたと伝わる。そうした背景が、この料理を今に伝える支えになってきたとされる。",
-      "body_en": "## What it's made of\nA rare clear soup carrying chili heat and sugar's sweetness alongside cubes of tofu, so a shiitake-based broth meets chili's sharp bite, with the tofu's firm texture rounding things out. It's said to be a soup found only in this one district.\n## How it's made\nA generous amount of chili pepper is dry-roasted to bring out its flavor, then carefully simmered with a broth made from dried shiitake and similar ingredients, before small cubes of firm local tofu go in, seasoned with soy sauce and sugar. Using firm tofu, it's said, is the trick to keeping the broth from thinning out.\n## Why it took this shape\nThe soup is said to have been served to worshippers at the annual Hoonko memorial held every October at a temple in the Meiho Kanomizu district. Its name is said to come from the distinctive custom of ladling it out one bowl at a time from a special vessel using a single chopstick, and it's said to have been handed down as a dish for weddings, funerals, and other occasions when people gather.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：つぎ汁 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_24_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "hatsuuma-dango",
-      "body_ja": "## 何でできているか\n米粉を練って繭のような形に整えて蒸した団子で、噛むともちっとした米粉の弾力の奥にほのかな甘みが感じられるという。きな粉をまぶしたり焼いて醤油をつけたりと、シンプルな生地だからこそ食べ方に幅が出ると伝わる。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。\n## どう作るのか\n米粉を耳たぶくらいの硬さになるまで練り、一口大の繭のような形に整えて蒸すという。きな粉をまぶす、焼いて醤油をつける、すまし汁やぜんざいに入れるなど地域によって食べ方はさまざまで、きびやそば粉を使う地域もあると伝わる。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n自給自足の暮らしの中で貴重な現金収入源だった養蚕が盛んだった地域では、二月の初午の日に、繭が上質で多く採れるよう願って繭の形の団子を神様に供えたのが始まりとされる。白川村では豊蚕を願う祭りとともに、この団子を供える習わしが根づいたという。そうした背景が、この料理を今に伝える支えになってきたとされる。",
-      "body_en": "## What it's made of\nRice flour kneaded and shaped like a silkworm cocoon, then steamed, so a chewy, mochi-like bite of rice flour carries a faint sweetness underneath. Made from such a plain dough, it's said to take on a wide range of flavors depending on how it's finished.\n## How it's made\nRice flour is kneaded to an earlobe-soft consistency, shaped into bite-sized cocoon shapes, and steamed. It's said to be eaten coated in roasted soybean flour, grilled with soy sauce, or dropped into a clear soup or sweet red bean soup depending on the district, with some areas said to use millet or buckwheat flour instead of rice.\n## Why it took this shape\nIn districts where sericulture once served as a vital source of cash income within an otherwise self-sufficient way of life, the custom is said to have begun with offering cocoon-shaped dumplings to the gods on the first Horse Day of February, wishing for a plentiful, high-quality silk cocoon harvest. In Shirakawa Village, this offering is said to have taken root alongside a festival praying for a good sericulture year.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：初午だんご 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_25_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "tsukemono-misoni",
-      "body_ja": "## 何でできているか\n酸味の出た白菜の古漬けを、煮干しだしと豆味噌の鍋で煮込んだ料理で、古漬け特有のすっぱみが味噌のこくに溶け込み、噛むと発酵した白菜のうまみがじんわりと広がるという。ご飯との相性が抜群だと伝わる。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。\n## どう作るのか\n白菜の切り漬けを水で塩抜きし、季節の野菜とともに鍋に入れ、赤味噌や酒、砂糖、みりんと一緒に煮詰めるという。酸っぱいくらいの古漬けのほうが味がよいとされ、最近は肉を加えるアレンジも多いそうだ。余ったら材料を足して煮返せると伝わる。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n炭焼き小屋で働く人々が鯖缶を器代わりにして白菜漬けを煮て食べたのが始まりと伝えられ、農作業と家事に追われる母親が小さな鍋で手早くつくれる惣菜として広まったという。寒く食材の乏しい冬場に、漬物を余さず活かす知恵として土地に根づいたとされる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
-      "body_en": "## What it's made of\nAged, sour pickled napa cabbage simmered in a pot of dried sardine broth and soybean miso, so the pickle's tartness melts into the miso's richness, and the fermented cabbage's savor spreads with each spoonful. It's said to go extremely well with rice.\n## How it's made\nSliced pickled napa cabbage is rinsed to remove some salt, added to a pot with seasonal vegetables, and simmered down with red miso, sake, sugar, and mirin. A pickle sour enough to bite back is said to make for better flavor, and adding meat is said to be a common modern twist. Leftovers are said to be topped up and reheated as needed.\n## Why it took this shape\nThe dish is said to trace back to charcoal workers who used empty mackerel-tin cans as bowls to simmer pickled cabbage in their mountain huts, and it's said to have spread as a quick dish a busy mother, pulled between farm work and housework, could throw together in a small pot. It's said to have taken root as a way to make full use of pickles through the cold, lean months of winter.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：漬物味噌煮 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_26_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "kanboshi-daikon-ni",
-      "body_ja": "## 何でできているか\n飴色に乾燥させた寒干大根をだし汁と醤油でじっくり煮た料理で、噛むと凝縮された大根の自然な甘みと、干すことで増したこりこりとした独特の歯ごたえが広がるという。素干しの大根とはまるで違う滋味深さがあると伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。\n## どう作るのか\n掘り出した大根を水洗いして輪切りにし、茹でてから串に刺して軒先で乾燥させ、凍結と融解を繰り返して約一カ月かけて飴色に仕上げた寒干大根を、お湯かぬるま湯で戻すという。戻した大根とだし汁をひと煮立ちさせ、醤油で味を整えて二十分ほど煮込むそうだ。手間のかかる工程だが、今も惜しまず続けられているという。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。\n## なぜこの形になったのか\n飛騨市神岡町山之村は標高八百五十から千メートルの「天空の里」と呼ばれ、かつては深い雪のため冬の約五カ月は孤立していたとされる。氷点下まで冷え込む厳しい冬を乗り切るための保存食として、大根を凍らせては溶かす乾燥法が先人の知恵から生まれたという。こうした経緯は、地域の暮らしの記憶として語り継がれているそうだ。",
-      "body_en": "## What it's made of\nAmber-colored dried daikon simmered slowly in dashi and soy sauce, so each bite carries the daikon's concentrated natural sweetness alongside a distinctive chewy bite that only deepens through the drying process. It's said to carry a depth of flavor entirely different from a plainly dried radish.\n## How it's made\nHarvested daikon is washed, sliced into rounds, boiled, skewered, and hung to dry under the eaves, freezing and thawing repeatedly over about a month until it turns amber — the dried daikon is then rehydrated in hot or lukewarm water. It's brought to a boil once with dashi, seasoned with soy sauce, and simmered for about twenty minutes.\n## Why it took this shape\nYamanomura, in Hida City's Kamioka district, sits at 850 to 1,000 meters and is known as a 'village in the sky,' said to have once been cut off by deep snow for about five months of the year. Freezing and thawing daikon repeatedly to dry it is said to be a preservation technique born of the ancestral wisdom needed to survive such a harsh, below-freezing winter.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：寒干大根煮 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_27_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "kuwanokimame-ni",
-      "body_ja": "## 何でできているか\n桑の木豆というインゲン豆の一種を醤油と砂糖で煮た料理で、噛むとほっくりとした豆の食感の奥から、醤油の香ばしさとじんわりした甘みが広がるという。完熟すると豆に赤いかすり模様が入るのが特徴だと伝わる。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。\n## どう作るのか\n桑の木豆を向きをそろえて鍋に並べ、水を入れて串が通るくらいまで弱火で一時間ほど茹でるという。先に調味料を入れると豆がかたくなるため、柔らかくなってから醤油や砂糖を加え、汁気がなくなるまで煮るのがコツだと伝わる。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。\n## なぜこの形になったのか\n山県市美山地域は明治から大正にかけて養蚕が盛んで、蚕の餌となる桑の木が多く植えられていたとされる。台風で桑の木が倒れないよう根元に豆を植え、ツルをからませて支えにしたことから「桑の木豆」と呼ばれるようになったという。その土地ならではの事情が、今の形を静かに支えてきたと伝わる。そうした背景が、この料理を今に伝える支えになってきたとされる。",
-      "body_en": "## What it's made of\nA bean called kuwanoki-mame, a variety of kidney bean, simmered in soy sauce and sugar, so a mealy bean texture gives way to soy sauce's savory depth and a gentle sweetness underneath. Fully ripened, the bean is said to develop a distinctive red mottled pattern on its skin.\n## How it's made\nThe beans are lined up facing the same direction in a pot, covered with water, and simmered on low heat for about an hour until a skewer passes through easily. Adding seasoning too early is said to toughen the beans, so soy sauce and sugar go in only once they've softened, simmered further until the liquid is gone.\n## Why it took this shape\nThe Miyama area of Yamagata City is said to have thrived on sericulture from the Meiji through Taisho eras, with mulberry trees — food for silkworms — planted widely. The beans were planted at the base of those trees so their vines could climb and brace the trunks against typhoon winds, which is said to be how they came to be named for the mulberry tree itself.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：桑の木豆煮 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_28_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "gifu-komodofu",
-      "body_ja": "## 何でできているか\nわらのむしろ「こも」で豆腐を巻いて茹でた料理で、表面に無数の気泡ができ、そこにわらの香りがしみ込んで独特の風味になるという。だしで煮込むと気泡に味がよくしみ込み、口に含むとじゅわっと旨みがあふれると伝わる。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。\n## どう作るのか\n軽く水切りした豆腐を適当な大きさに切り、こもで巻いて一時間ほど茹で、表面にすが立ったら取り出すという。醤油や砂糖で味付けしただし汁で煮て仕上げるそうだ。単品で煮るほか、山菜と一緒に煮ても美味しいと伝わる。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n家庭で豆腐をつくった際に余った分を、農家に身近にあったわらのむしろで巻いたのが始まりとされる。盆や正月など人が集まる機会に振る舞われることが多く、表面の気泡が出汁を含みやすいという実用性が、この形を土地に根づかせたという。そうした背景が、この料理を今に伝える支えになってきたとされる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
-      "body_en": "## What it's made of\nTofu wrapped in a straw mat called 'komo' and boiled, so the surface fills with countless tiny air pockets that soak up the straw's aroma into a distinctive flavor. Simmered in dashi, those air pockets are said to take on the broth's seasoning deeply, releasing a rush of savor with each bite.\n## How it's made\nLightly drained tofu is cut into pieces, wrapped in a straw mat, boiled for about an hour, and taken out once its surface has filled with air pockets. It's then finished by simmering in a dashi seasoned with soy sauce and sugar. It's said to be simmered on its own, or together with wild mountain vegetables for extra flavor.\n## Why it took this shape\nThe dish is said to have started as a way to wrap leftover tofu from a household's own tofu-making in the straw mats that were close at hand on any farm. Often served when people gather for Obon or New Year's, it's said that the practical way the surface's air pockets soak up broth is what let this particular shape take root locally.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：こも豆腐 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_29_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
-    },
-    {
-      "slug": "gifu-ayu-shioyaki",
-      "body_ja": "## 何でできているか\n串に刺した鮎に塩をふって炭火でじっくり焼く鮎料理の王道で、炭火の香ばしさとともに、余分な水分が落ちて凝縮した身の旨みと皮のぱりっとした食感が際立つという。尾やひれにまぶす化粧塩の白さが見た目の美しさを引き立てると伝わる。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。\n## どう作るのか\n鮎全体に軽く塩をふって五、六分ほどおき、焦げやすいひれと尾に化粧塩をしてから両面をじっくり焼くという。脂ののった七、八月ごろの成魚が向くとされるが、八月以降の卵を抱えた子持ち鮎も美味しいと伝わる。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。手間のかかる工程だが、今も惜しまず続けられているという。\n## なぜこの形になったのか\n木曽川、長良川、揖斐川など清流の多い岐阜県では、千三百年の歴史を持つとされる鵜飼や、川をせき止めて魚を誘い込む「ヤナ」という伝統漁法が受け継がれてきたという。清流と伝統漁法に支えられた新鮮な鮎の豊かさが、シンプルな塩焼きという食べ方を土地に根づかせたとされる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
-      "body_en": "## What it's made of\nSkewered ayu salted and slow-grilled over charcoal, the classic way to eat this river fish, so charcoal's smokiness meets the concentrated richness of flesh that's lost its excess moisture, with the skin turning satisfyingly crisp. A dusting of white finishing salt on the tail and fins is said to sharpen its visual appeal too.\n## How it's made\nThe whole fish is lightly salted and left to sit for five or six minutes, with extra salt pressed onto the fins and tail — parts prone to burning — before both sides are grilled slowly. Fatty adult fish from around July and August are said to be best suited to this, though roe-bearing fish from August onward are said to be just as good.\n## Why it took this shape\nGifu's many clear rivers — the Kiso, Nagara, and Ibi — are said to have supported cormorant fishing with over 1,300 years of history, alongside 'yana,' a traditional method of damming part of a river to funnel fish into a trap. That abundance of fresh ayu, sustained by clear water and old fishing methods, is said to be what let this simple salt-grilling style take root as the standard way to eat it.",
-      "sources": [
-        {
-          "title": "うちの郷土料理：鮎の塩焼 岐阜県",
-          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_30_gifu.html",
-          "publisher": "農林水産省",
-          "accessed_at": "2026-09-17"
-        }
-      ],
-      "relations": []
+     "title": "うちの郷土料理：朴葉ずし 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_1_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
     }
-  ]
+   ],
+   "relations": []
+  },
+  {
+   "slug": "keichan",
+   "body_ja": "## 何でできているか\n鶏肉とキャベツや玉ねぎを味噌や醤油ベースのたれで絡め、鉄板で焼きながら食べる料理で、たれの香ばしさとともに肉の脂がじゅっと弾ける音、野菜の甘みが焼けていく香りが食欲をそそるという。味噌味、醤油味、塩味と土地や店によって味わいが分かれ、焼き方も豪快だと伝わり、名前の由来にも諸説あるところが土地の面白さだそうだ。\n## どう作るのか\n鶏肉とキャベツやもやし、季節の野菜を特製のたれに絡め、鉄板やジンギスカン鍋のような専用の器具で焼きながら食べるという。味付けは味噌、醤油、塩など地域や家庭、店によって異なり、それぞれのこだわりのたれを楽しめるのが持ち味だそうだ。市販のたれに漬け込んだものも農産物直売所などで売られ、家庭でも手軽に味わえると伝わる。\n## なぜこの形になったのか\n各家庭で飼っていた鶏が卵を産まなくなったあと、貴重なたんぱく源として食したのが始まりと伝えられ、特別な日のごちそうだったという。岐阜県の一部地方で食べられていたジンギスカンを真似てつくられたのが始まりともいわれ、精肉店や居酒屋が独自にたれを改良して地域色豊かに育ち、郡上市などでは観光資源にもなっているとされる。",
+   "body_en": "## What it's made of\nChicken tossed with cabbage and onion in a miso- or soy-based sauce, then grilled on a hot plate, so the sauce's savory char, the crackle of fat hitting the metal, and the sweet smell of vegetables browning all pull together into something that's said to make you hungrier the longer it cooks. Miso, soy, or salt versions are said to split by region and shop, each cooked with its own bold style.\n## How it's made\nChicken along with cabbage, bean sprouts, and seasonal vegetables is tossed in a house-made sauce and grilled on a flat griddle or a dome-shaped pan borrowed from Jingisukan-style lamb grilling. Seasoning — miso, soy, or salt — is said to vary by household, district, and shop, and trying each place's own sauce is said to be part of the appeal. Pre-marinated chicken is also sold ready to cook.\n## Why it took this shape\nThe dish is said to trace back to using chickens once they'd stopped laying eggs — a precious source of protein at the time, and a treat reserved for special occasions. It's also said to have started as a local take on Jingisukan lamb, which was eaten in part of Gifu, with butcher shops and bars later developing their own sauces into distinct regional styles.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：鶏ちゃん 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_2_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "karasumi",
+   "body_ja": "## 何でできているか\n米粉と砂糖を練って蒸し上げた和菓子で、切った断面が富士山のような山型に仕上がるのが特徴だという。しっとりとした米粉の生地は控えめな甘さで、蒸したての湯気とともにほのかな米の香りが立つと伝わる。白色が定番だが黒糖やよもぎ、くるみを練り込んだ色とりどりのものもあり、山の頂が二つあるのが一般的で、素朴な口当たりが持ち味だそうだ。\n## どう作るのか\n米粉に砂糖を練り込んで棒状にし、専用の木型に入れて型を外し、十五分から三十分ほど蒸し上げるという。白いものが基本だが、黒糖を使ったり、よもぎやくるみ、ごま、あずきを生地に混ぜ込んだりと、家庭や店によってさまざまなバリエーションがあると伝わり、まれに山が三つになるものもあり、色や香りの組み合わせを楽しめるそうだ。\n## なぜこの形になったのか\n東濃地域で桃の節句に合わせてつくられるようになったとされ、山の頂上をかたどった形には、わが子が幸せになるよう願う思いが込められているという。海から遠いこの地域では、高級珍味のからすみが貴重だったため、形の似た菓子で代用したのが名の由来という説のほか、中国・唐時代の文鎮とすずりを兼ねた道具に似ているからという説も伝わっている。",
+   "body_en": "## What it's made of\nA steamed sweet made by kneading rice flour with sugar, known for the way its sliced cross-section forms a peak shaped like Mount Fuji. The moist rice-flour dough carries a restrained sweetness, and a faint rice aroma is said to rise with the steam right off the pot. White is standard, but versions kneaded with brown sugar, mugwort, or walnut are said to add their own color.\n## How it's made\nRice flour kneaded with sugar is shaped into a bar, pressed into a dedicated wooden mold, then released and steamed for fifteen to thirty minutes. White is the base version, but households and shops are said to vary it with brown sugar, mugwort, walnut, sesame, or red bean worked into the dough.\n## Why it took this shape\nThe sweet is said to have taken shape in the Tono region as a treat for the Doll's Festival, its double-peaked form said to carry a wish that a child grow up happy, modeled after a mountain. One account traces its name to a fish-roe delicacy of the same name, said to have been substituted with this confection in a region too far from the sea to easily get the real thing.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：からすみ 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_3_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "ayu-zosui",
+   "body_ja": "## 何でできているか\n素焼きで香ばしく焼いた鮎を、だしとご飯でさっと煮た雑炊で、鮎の独特の香りとうまみが出汁に溶け出し、さらりとした口当たりの中に凝縮した旨みが広がるという。鮎料理をひとしきり楽しんだ後の締めの一品として供されることが多く、食欲のないときにもさらりと食べやすい一皿として、昔から長く親しまれていると伝わっている。\n## どう作るのか\nはらわたを抜いて素焼きにした鮎と、水でぬめりをとったご飯、だし汁をすべて鍋に入れてさっと煮て、味を調えるという。冷やご飯の利用法としても重宝されてきたそうだ。木曽川や長良川、揖斐川の流域にある観光やなをはじめ、鮎料理を出す飲食店で締めの一品として味わえると伝わり、コシヒカリを使った土産物も商品化されているという。\n## なぜこの形になったのか\n漁の際に傷ついてそのままでは市場に出しにくくなった鮎を、無駄にせず美味しく食べる方法として生まれたとされる。清流の多い岐阜県では夏の鮎漁が盛んで、夏の蒸し暑さで食欲が落ちたときにも、雑炊にすることで食べやすくなる工夫が土地に根づき、伝統漁法の簗漁でとれた新鮮な鮎が余さず生かされる仕組みが根づいているという。",
+   "body_en": "## What it's made of\nA rice porridge made by quickly simmering plainly grilled ayu, or sweetfish, in dashi and rice, so the fish's distinctive aroma and richness dissolve into the broth, leaving a light, brothy dish with concentrated flavor underneath. It's said to be served often as the last course after a meal built around other ayu dishes.\n## How it's made\nAyu with the innards removed are grilled plain, then simmered briefly in a pot together with rice that's been rinsed of its stickiness and a dashi broth, seasoned to taste. It's said to have also served as a good use for leftover cold rice. It's often the finishing dish at riverside weir restaurants along the Kiso, Nagara, and Ibi rivers where ayu dishes are served.\n## Why it took this shape\nThe dish is said to have grown out of a way to make good use of ayu that came out of the nets too damaged to sell as they were. Gifu's many clear rivers support heavy ayu fishing through summer, and turning the fish into a light porridge is said to have become a way to keep eating well even when the summer heat dulled the appetite.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：鮎ぞうすい 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_4_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "hebo-meshi",
+   "body_ja": "## 何でできているか\nクロスズメバチの幼虫、へぼを甘辛く煮た甘露煮をご飯に混ぜ込んだ料理で、噛むと香ばしい幼虫の食感と醤油、砂糖のこくのある甘辛さがじんわり広がるという。高たんぱくで滋養に富み、大切な客をもてなす特別なごちそうとして扱われてきたと伝わり、恵那市を中心とした周辺地域の家庭に代々受け継がれてきた土地の味だそうだ。\n## どう作るのか\n巣から取り出したへぼを砂糖や醤油、酒で甘辛く煮付けて甘露煮をつくり、それを米や醤油とともに炊き込んでへぼ飯に仕上げるという。甘露煮のまま食べるほか、たれにすり込んで五平餅にする食べ方も代表的だそうだ。幼虫だけでなく成虫を乾煎りして食べる地域もあり、初夏に小さな巣を捕獲して飼育してから中身を取り出す方法も伝わる。\n## なぜこの形になったのか\n海から離れた東濃地域では、へぼが貴重なたんぱく源として住民の健康を支えてきたとされ、江戸時代の書物にもすでに食べる習慣が記されているという。信州から奥三河にかけての山間地域に共通する食文化で、秘伝として代々受け継がれてきたごちそうだと伝わり、家々に伝わる甘露煮の味付けにもそれぞれ細やかな違いがあるという。",
+   "body_en": "## What it's made of\nA dish of rice mixed through with sweet-simmered larvae of the ground-nesting wasp called hebo, so a toasty, chewy bite of larvae meets a rich, sweet-savory depth of soy sauce and sugar. High in protein and considered deeply nourishing, it's said to have been treated as a special dish reserved for honored guests.\n## How it's made\nLarvae taken from the nest are simmered sweet and savory in sugar, soy sauce, and sake to make a glaze, which is then cooked together with rice and soy sauce into hebo rice. Eating the glazed larvae on their own, or working them into the sauce for grilled rice skewers, are both said to be classic ways to eat them. In some districts the adult wasps are said to be dry-roasted and eaten too.\n## Why it took this shape\nIn the Tono region, far from the sea, hebo is said to have supported residents' health as a valued source of protein, and a text from the Edo period already records the custom of eating it. It's said to be a food culture shared across the mountainous stretch from Shinshu to Oku-Mikawa, handed down as a treasured, almost secretive dish through generations.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：へぼ飯 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_5_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "myoga-bochi",
+   "body_ja": "## 何でできているか\nそら豆であんをつくり、小麦粉の皮で包んでみょうがの葉で蒸した素朴な郷土菓子で、葉をほどくとみょうがのさわやかな香りがふわりと立ち、皮のもちっとした食感とそら豆あんのほくほくした甘みが重なるという。田植えの合間のおやつとして親しまれてきたと伝わり、かつては「田植えぼち」「野休みぼち」とも呼ばれていたそうだ。\n## どう作るのか\n水に浸したそら豆をやわらかく煮て砂糖を加えあんをつくり、小麦粉に水と砂糖、塩を加えて練った皮でくるみ、丸く形を整えてみょうがの葉で包んで蒸すという。皮には小麦粉だけでなく米粉を混ぜる地域もあり、早い時期の葉ほど香りがよいと伝わり、みょうがの葉が出回る六月から十月ごろまで各家庭でつくられているそうだ。\n## なぜこの形になったのか\nみょうがの葉には殺菌効果があるとされ、食品が傷みやすい初夏から夏にかけての携帯食に適していたという。冷蔵庫のない時代、農作業の合間にあぜ道でおやつとして食べるための知恵として育ち、鉄分やたんぱく質を含むそら豆のあんが疲れを癒やす役割も果たしてきたと、この地域では今も長く語り継がれているとされている。",
+   "body_en": "## What it's made of\nFava bean paste wrapped in a wheat-flour skin and steamed inside a myoga ginger leaf, so unwrapping it releases myoga's cool, sharp fragrance, and the skin's chewy pull meets the bean paste's mealy sweetness. It's said to have been a treasured snack eaten during breaks in rice-planting work.\n## How it's made\nFava beans soaked in water are simmered soft and sweetened into a paste, then wrapped in a skin kneaded from wheat flour, water, sugar, and salt, shaped round, wrapped in a myoga leaf, and steamed. Some districts are said to mix rice flour into the skin as well, and leaves picked earlier in the season are said to carry the best fragrance.\n## Why it took this shape\nMyoga leaves are said to carry an antibacterial quality, suiting them to food carried around during the early-summer-to-summer stretch when things spoil fast. Before refrigeration, the snack is said to have grown as something to eat on a straw mat along a rice paddy during a break from fieldwork, with the fava bean paste's iron and protein said to help ease the day's fatigue.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：みょうがぼち 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_6_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "ayu-narezushi",
+   "body_ja": "## 何でできているか\n塩漬けした鮎の腹に炊きたてのご飯を詰め、二カ月ほど漬け込んで発酵させたなれずしで、噛むと酸味の効いた独特の香りとともに、鮎の身がまろやかに熟れた旨みがじんわりと広がるという。卵を抱えた雌の鮎を使うと、内臓のうまみが加わってより丸みのある味わいになると伝わり、鵜匠の家では今も正月に配られているそうだ。\n## どう作るのか\n九月ごろに獲れる落ち鮎を開き、塩とともに二カ月ほど漬け込んでから塩抜きし、鮎の腹に炊きたてのご飯を詰めるという。木桶に三、四段重ねて並べ、竹皮を敷いてふたに石の重しをのせ、乳酸菌の力を借りて自然発酵させるそうだ。熟成が終われば一年を通して味わえ、オスの鮎を使うことが多いと伝わる。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。\n## なぜこの形になったのか\n岐阜市を流れる長良川には千三百年以上の歴史を持つとされる鵜飼があり、そこで獲れた鮎が塩と米のみで発酵食品へと姿を変える技術が古くから受け継がれてきたという。獲れる時期が限られる川魚を保存し、冬の貴重なたんぱく源として蓄える知恵が、この発酵の形を育んだとされ、江戸時代には将軍家への献上品にもなったと伝わる。",
+   "body_en": "## What it's made of\nSalted ayu stuffed with freshly cooked rice and left to ferment in a barrel for about two months, so each bite carries a distinctive sour tang alongside the fish's flesh, mellowed and deepened by the slow cure. Female fish carrying roe are said to add extra richness from the roe itself, rounding the flavor out further.\n## How it's made\nAyu caught heading downstream in autumn are butterflied, cured in salt for about two months, then desalted before their bellies are packed with freshly cooked rice. Stacked three or four layers deep in a wooden barrel lined with bamboo bark and weighted with a stone, the fish are left to ferment naturally with the help of lactic acid bacteria. Once cured, it's said to keep and be enjoyed year-round.\n## Why it took this shape\nThe Nagara River running through Gifu City is said to carry over 1,300 years of history with its cormorant fishing, and the technique of turning the ayu it yields into a fermented food using nothing but salt and rice is said to have been handed down from those same old days. Preserving a river fish with a short season, and stretching it into a precious winter protein source, is said to be what shaped this style of fermentation.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：鮎なれずし 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_7_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "gifu-gohei-mochi",
+   "body_ja": "## 何でできているか\n米をつぶして串に巻きつけ、味噌や醤油だれを塗って焼いた素朴な料理で、炭火にあぶられたたれの香ばしい匂いが先に立ち、噛むとご飯粒の食感とくるみや落花生の香ばしさがたれの甘辛さと絡み合うという。わらじ形や団子形など地域によって姿が異なるのも面白く、中山道を境に味の系統も分かれると伝わる。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。\n## どう作るのか\nつぶした米を平たく丸めて串に巻きつけ、味噌味、醤油味、両方を合わせたたれのいずれかを塗って炭火でじっくり焼くという。隠し味にはくるみや落花生を使うのが一般的だが、東濃地域ではへぼをすり込む地域もあり、つくる人ごとに独自の味があると伝わり、中山道の北側は醤油味、南側は味噌味が多いそうだ。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。\n## なぜこの形になったのか\n木曽地域の木こりたちが、木材の伐採で出た木片に飯を握りつけてたき火で焼き、味噌をつけて食べたのが始まりとされる。山仕事の無事を祈って神様に捧げる習わしが根づき、やがて新米の収穫祝いや祭事の場で食べる行事食へと形を変え、東濃から飛騨にかけて広まり、客人をもてなすごちそうにもなったとされる。そうした背景が、この料理を今に伝える支えになってきたとされる。",
+   "body_en": "## What it's made of\nMashed rice pressed onto a skewer and grilled with a brushed-on miso or soy glaze, so the char of the glaze over charcoal hits first, and each bite mixes the texture of rice grains with the toasty note of walnut or peanut worked into the sweet-savory glaze. Shapes are said to vary by region, from a flattened oval to a round dumpling, which is part of the fun.\n## How it's made\nMashed rice is pressed flat and wrapped around a skewer, brushed with miso, soy, or a blend of both, then grilled slowly over charcoal. Walnut or peanut is the usual secret ingredient in the glaze, though parts of the Tono region are said to work in ground wasp larvae instead, and each cook is said to bring their own particular touch.\n## Why it took this shape\nThe dish is said to trace back to woodcutters in the Kiso area, who pressed rice onto scrap wood left over from felling and grilled it over a campfire, brushed with miso. A custom of offering it to the mountain gods for safe work is said to have taken root, which later turned into a festival food eaten to celebrate the new rice harvest, spreading from Tono into the Hida region.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：五平餅 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_8_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "funa-miso",
+   "body_ja": "## 何でできているか\n素焼きにした鮒を大豆や豆味噌、ざらめとともに時間をかけて煮込んだ料理で、骨までやわらかくなるまで煮詰めた身はほろほろと崩れ、味噌の濃厚なこくと大豆の甘みが川魚特有の風味を包み込むという。豆味噌の力強い香りが鮒の臭みを和らげ、冬の食卓を彩る保存食として親しまれてきたと伝わる。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。\n## どう作るのか\nはらわたとうろこを取った鮒を素焼きにし、水で戻した大豆とともに時間をかけて煮て、ざらめや豆味噌、酒を加えてさらに煮込むという。身がほろほろになり骨までやわらかくなったら食べごろだそうだ。冬の保存食として十一月ごろから仕込まれ、寒い時期に少しずつ食べ継ぐと伝わる。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n木曽三川の流域である西濃地域は、豊富な川魚に恵まれた土地とされ、鮒やなまず、もろこなどを加工して保存する食文化が育ったという。東海地方特有の豆味噌はたんぱく質やうま味成分を多く含み、加熱すると魚の臭みを和らげる働きがあるとされ、鮒との相性のよさから県外の三重や愛知でも食べられていると伝わる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
+   "body_en": "## What it's made of\nPlainly grilled crucian carp simmered slowly with soybeans, soybean miso, and coarse sugar, so by the time the bones have gone soft the flesh falls apart tender, and the miso's deep richness and the soybeans' sweetness wrap around the river fish's particular flavor. The soybean miso's bold aroma is said to soften whatever gaminess the fish carries.\n## How it's made\nCrucian carp, gutted and scaled, are grilled plain, then simmered a long while with soaked soybeans before coarse sugar, soybean miso, and sake are added to simmer further. It's said to be ready once the flesh falls apart and the bones have gone soft. Prepared as a winter preserve, it's said to be eaten little by little through the cold months.\n## Why it took this shape\nThe Seino region, fed by the Kiso Three Rivers, is said to have been rich in river fish, and a food culture of processing and preserving crucian carp, catfish, and other small fish is said to have grown up there. Soybean miso, distinctive to the Tokai region, is rich in protein and umami and is said to soften a fish's gaminess when heated — a good enough match with crucian carp that it's said to have become the standard pairing.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：鮒味噌 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_9_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "houba-miso",
+   "body_ja": "## 何でできているか\n朴の葉の上に自家製の麹味噌をのせて焼く料理で、焼けるにつれて味噌の香ばしい匂いと朴葉のほのかな木の香りが混ざり合い、ぐつぐつと煮立つ味噌の熱々のこくがご飯にも酒の肴にもよく合うという。今日では飛騨牛やきのこ、ねぎを一緒にのせる食べ方も広まり、土産物としても人気だと伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。\n## どう作るのか\n秋に茶色く色づいて落ちた朴の葉を集めて冬まで保存しておき、その葉の上に味噌をのせて炭火やホットプレートで焼きながら食べるという。今ではきのこやねぎ、飛騨牛などを一緒にのせて焼くことも多いそうだ。朴葉は抗菌作用があり、味噌に葉の香りが移って美味しくなると伝わり、フライパンでも代用できるという。手間のかかる工程だが、今も惜しまず続けられているという。\n## なぜこの形になったのか\n林業が盛んだった飛騨地域で、山仕事をする杣人たちが朴葉を皿代わりに使い、山で味噌を焼いて食べたのが始まりとされる。冬の寒さが厳しく食材が凍るほどの土地柄から、囲炉裏の火で漬物や味噌を温めながら食べる習わしが根づき、それが一般家庭にも広まり、土産物として売られるようにもなったとされる。こうした経緯は、地域の暮らしの記憶として語り継がれているそうだ。",
+   "body_en": "## What it's made of\nA dish of homemade koji miso grilled right on a magnolia leaf, so as it cooks, the miso's savory aroma mixes with the leaf's faint woodiness, and the bubbling, deeply savory miso pairs equally well with rice or a drink. Today it's also said to be common to grill Hida beef, mushrooms, or scallion on the same leaf alongside the miso.\n## How it's made\nMagnolia leaves that have browned and fallen in autumn are gathered and kept through to winter, then miso is spooned onto a leaf and grilled over charcoal or a hot plate. Mushrooms, scallion, and Hida beef are commonly grilled alongside the miso too. The leaf is said to carry antibacterial properties, and its scent is said to seep into the miso as it cooks.\n## Why it took this shape\nThe dish is said to trace back to woodworkers in the Hida region, once known for forestry, who used magnolia leaves as makeshift plates and grilled miso over a fire in the mountains. Winters there were harsh enough to freeze food solid, which is said to have led to a custom of warming pickles and miso over the hearth fire — a habit said to have later spread into ordinary households.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：朴葉味噌 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_10_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "otoshi-no-gottso",
+   "body_ja": "## 何でできているか\n大根や人参、里芋などの根菜と糸昆布、豆腐をだしで煮込んだ年越しの一品で、大鍋でつくり何度も温め直すため、煮込むほどに根菜の甘みとだしのこくが深くしみ込んでいくという。どの地域でも糸昆布が欠かせず、細く長い形が長寿を願う縁起物とされ、家庭ごとに具材の切り方が異なると伝わる。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。\n## どう作るのか\n大根や人参、里芋、あく抜きしたごぼうやこんにゃく、煮干し、豆腐、水で戻した糸昆布などをだしと調味料で煮込むという。大晦日に大鍋でつくり、正月三が日のあいだ何度も煮返して食べるそうだ。地域によっては焼いた煙が悪いことを払うとされるいわしの丸干しを添えることもあり、呼び名も土地ごとに違うと伝わる。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。\n## なぜこの形になったのか\n正月は台所の道具を休ませ家族もゆっくり過ごせるようにと、大鍋にたくさんつくって温め直しながら食べる形が定着したとされる。おせち料理がなかった時代、この煮物こそがごちそうで、一年を無事に過ごせた感謝と新年の豊作を願う気持ちを込めて神仏に供えられ、今も年末年始に欠かせない料理だと伝わる。その土地ならではの事情が、今の形を静かに支えてきたと伝わる。",
+   "body_en": "## What it's made of\nRoot vegetables like daikon, carrot, and taro simmered in dashi with shredded kelp and tofu, a dish for seeing out the old year, so cooked in one big pot and reheated again and again, the vegetables' sweetness and the broth's richness are said to only deepen with each round. Every district is said to include shredded kelp without fail, its long thin strands said to carry a wish for a long life.\n## How it's made\nDaikon, carrot, taro, bitterness-drawn burdock and konnyaku, dried sardines, tofu, and rehydrated shredded kelp are all simmered together in dashi and seasoning. It's said to be made in one big pot on New Year's Eve and reheated repeatedly through the first three days of the new year. Some districts are said to add dried whole sardines too, believing the smoke from grilling them wards off bad luck.\n## Why it took this shape\nThe custom of making a big potful and reheating it through New Year's is said to have settled in as a way to let the kitchen, and the whole family, rest during the holiday. In an era before osechi New Year dishes existed, this simmered dish is said to have been the feast itself, offered to the gods and Buddha as thanks for the past year and a wish for a good harvest in the next.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：大歳のごっつぉ 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_11_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "ne-zushi",
+   "body_ja": "## 何でできているか\n麹を混ぜたご飯に塩マスや大根、人参を合わせて二十日ほど寝かせて発酵させたなれずしで、噛むと発酵ずし特有の風味の中に甘酸っぱさが感じられ、ほかの発酵ずしに比べてまろやかで食べやすいという。「寝かせてつくる」という意味の漢字があてられるほど、時間が味をつくり出すと伝わっている。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。\n## どう作るのか\n骨を取り小口切りにした塩マスと、塩でもんだ大根や人参を、麹を混ぜた少し冷ましたご飯とすべて混ぜ合わせ、二週間から二十日ほど漬け込んで発酵させるという。気温や材料によって発酵具合が変わるため、同じ人がつくっても毎回少しずつ味わいが違うのも楽しみで、マスの代わりに鯖を使う家庭もあると伝わっている。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。\n## なぜこの形になったのか\n冬の厳しい寒さで新鮮な野菜や食料が不足した飛騨地方では、漬ける、干す、発酵させるなど多彩な保存食文化が根づいたとされる。正月のごちそうとしてどの家庭でも欠かせない存在になり、「ねずしがないと正月が来た気がしない」と言われるほど、暮らしの節目に深く根づいてきたと伝わる。そうした背景が、この料理を今に伝える支えになってきたとされる。",
+   "body_en": "## What it's made of\nA fermented sushi made by mixing rice worked with koji together with salted trout, daikon, and carrot and letting it rest for about twenty days, so each bite carries a fermented tang balanced with a sweet-sour edge, said to be milder and easier to eat than other fermented sushi. The characters used for its name literally mean 'sleeping sushi,' a nod to how much time shapes its flavor.\n## How it's made\nBoned, bite-sized pieces of salted trout and salted daikon and carrot are all mixed into rice that's been worked with koji and left to cool slightly, then packed down to ferment for two to twenty days. How far it ferments is said to shift with the temperature and the ingredients on hand, so even the same cook is said to get a slightly different result each time — part of the appeal.\n## Why it took this shape\nIn the Hida region, where harsh winters left fresh vegetables and food scarce, a rich culture of pickling, drying, and fermenting food is said to have taken root. The dish became such an essential part of the New Year's feast in every household that people are said to still claim it doesn't feel like New Year's without it.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：ねずし 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_12_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "moroko-zushi",
+   "body_ja": "## 何でできているか\n酢飯の上に甘辛く煮た小魚のもろこを並べ、寿司箱で押し固めた押しずしで、酢飯の酸味の奥からもろこの甘辛い煮汁の味がじんわりとにじみ出るという。コイ科の淡水魚らしい淡白な身に、しょうがの香りを効かせた煮汁がよく絡むと伝わる。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。\n## どう作るのか\n酒と昆布を入れて炊いた米に調味料を合わせて酢飯をつくり、湿らせた寿司箱にハランを敷いて、酢飯ともろこの甘辛煮を交互に重ねて重石をするという。二、三時間おいてから切り分けるそうだ。もろこは砂糖、醤油、酒、しょうがであめ色になるまで煮詰めると伝わる。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n木曽三川に育まれた西濃地域は、土地基盤整備が進む前は網の目のような水郷地帯で、もろこやふな、うなぎなど多くの川魚が獲れたとされる。もてなし料理として重宝されたが、漁獲量の減少とともに川魚離れが進み、特別な日の懐かしい料理として食べ継がれているという。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
+   "body_en": "## What it's made of\nA pressed sushi topped with sweet-simmered moroko, a small carp-family fish, laid over vinegared rice and pressed in a wooden mold, so the rice's tang gives way to the fish's sweet-savory simmer seeping through. The fish's mild, freshwater flavor is said to carry the ginger-scented sauce well.\n## How it's made\nRice cooked with sake and kelp is seasoned into vinegared rice, layered with sweetly simmered moroko in a dampened wooden sushi mold lined with sasanqua leaf, then pressed under weight for two to three hours before being sliced. The moroko itself is simmered in sugar, soy sauce, sake, and ginger until it turns a deep amber color.\n## Why it took this shape\nThe Seino region, shaped by the Kiso Three Rivers, is said to have been a maze of waterways before land reorganization, rich in river fish like moroko, crucian carp, and eel. Once prized as a dish for entertaining guests, it's said to have faded as catches declined and people turned away from river fish, surviving now as a nostalgic dish for special occasions.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：もろこずし 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_13_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "gifu-imomochi",
+   "body_ja": "## 何でできているか\n里芋と米を一緒に炊いてつぶし、丸めて焼いた素朴な一品で、里芋のねっとりとした粘りともちもちした食感が合わさり、しょうが醤油の香りが食欲をそそるという。焼きたての香ばしさと里芋のほのかな甘みが噛むほどに広がると伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。\n## どう作るのか\n里芋とお米を一緒に炊き上げてつぶし、一つひとつ丁寧に丸めて、そのまま食べるか両面をこんがり焼くという。しょうが醤油をつけるのが定番だが、ねぎ味噌をつける地域もあり、春はみょうがの葉、秋はかぶらの葉に包んで焼く楽しみ方も伝わる。手間のかかる工程だが、今も惜しまず続けられているという。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。\n## なぜこの形になったのか\n稲刈りで出たくず米と、粘り気の強い里芋を合わせてつくったのが始まりという説や、米が不作の年にかさ増しのため里芋を加えたのが始まりという説が伝わる。気候に左右されず収穫できる里芋を活用する、米が貴重だった時代の知恵から生まれた料理だとされる。こうした経緯は、地域の暮らしの記憶として語り継がれているそうだ。",
+   "body_en": "## What it's made of\nTaro and rice cooked together, mashed, shaped, and grilled — a plain dish where the taro's sticky pull meets the mochi-like chew of the rice, with ginger and soy sauce lifting the aroma. Fresh off the grill, its toasty char and the taro's faint sweetness are said to spread with every bite.\n## How it's made\nTaro and rice are cooked together, mashed, and carefully shaped into small cakes by hand, then eaten as is or grilled crisp on both sides. Ginger and soy sauce is the standard dip, though some districts use scallion miso instead, and it's said to be wrapped and grilled in a myoga leaf in spring or a turnip leaf in autumn.\n## Why it took this shape\nOne account traces the dish to combining broken rice left over from the harvest with sticky taro; another says taro was added to bulk out rice in years when the crop failed. Either way, it's said to have grown out of putting taro — a crop less at the mercy of the weather — to use in an era when rice itself was precious.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：いももち 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_14_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "misogi-dango",
+   "body_ja": "## 何でできているか\n米粉の生地でこしあんを包んだ団子を串に刺し、味噌と砂糖のたれを塗って焼いた羽島市の菓子で、田楽のように塗られたたれの香ばしさと、中から出てくるこしあんの上品な甘さが対照的だという。焼き目のついた表面のごまの香りも後を引くと伝わる。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。\n## どう作るのか\n米粉の団子生地でこしあんを包み、二個ずつ串に刺して焼き、味噌と砂糖でつくったたれを両面に田楽風に塗って、ごまをふりかけてもう一度焼くという。毎年六月三十日の神事に合わせて竹鼻の商店街や屋台で販売されると伝わる。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。\n## なぜこの形になったのか\n竹鼻八剣神社で毎年六月三十日に行われる「みそぎ神事」にちなみ、当初は別名でつくられていた味噌つけ団子に神事の名がつけられたとされる。この団子を食べると一年前半の穢れが払われ、残り半年を元気に過ごせるという言い伝えが土地に根づいたという。その土地ならではの事情が、今の形を静かに支えてきたと伝わる。そうした背景が、この料理を今に伝える支えになってきたとされる。",
+   "body_en": "## What it's made of\nRice-flour dumplings filled with smooth red bean paste, skewered and brushed with a miso-and-sugar glaze before grilling, a sweet from Hashima City, so the glaze's savory char plays against the refined sweetness of the paste hidden inside. A scatter of sesame on the charred surface is said to linger on the palate.\n## How it's made\nRice-flour dough is wrapped around smooth red bean paste, skewered two to a stick, grilled, then brushed on both sides with a miso-and-sugar glaze in a style borrowed from grilled tofu skewers, finished with a scatter of sesame and grilled once more. It's said to be sold at shops and stalls in the Takehana shopping street each year around June 30, tied to the local purification ritual.\n## Why it took this shape\nThe dish is said to take its name from the Misogi Shinji purification ritual held every June 30 at Takehana Yatsurugi Shrine, its earlier version — originally sold under a different name — later renamed to match the rite. A belief took hold that eating this dumpling washes away the first half of the year's impurities, letting you spend the second half in good health.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：みそぎだんご 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_15_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "suttate-jiru",
+   "body_ja": "## 何でできているか\n茹でた大豆をすり鉢ですりつぶし、味噌や醤油でのばした汁もので、大豆の粒感が消えるまですりつぶされたなめらかな口当たりに、豆の甘みとこくがじんわりと広がるという。合掌造りで知られる白川村に伝わる祝い事の汁として親しまれてきたと伝わる。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。\n## どう作るのか\n一晩水に浸けた大豆を少しかために茹で、すり鉢やミキサーでなめらかにすりつぶし、鍋に移して醤油で味をつけ、沸騰する直前まで火を通すという。味噌を使う場合もあると伝わる。近年はこれを鍋料理にアレンジした「すったて鍋」も人気だそうだ。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n山深い白川村では、やせた土地でも育つ大豆が貴重なたんぱく源として盛んに栽培され、味噌や豆腐をつくる過程でこの汁が生まれたとされる。夏場は傷みやすいため、秋から春先にかけての祝い事や報恩講といったハレの場で食されてきたと伝わる。そうした背景が、この料理を今に伝える支えになってきたとされる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
+   "body_en": "## What it's made of\nA soup made by grinding boiled soybeans smooth in a mortar and thinning the paste with miso or soy sauce, so the beans, ground until no grain remains, leave a silky texture with the beans' sweetness and depth spreading through it. It's said to be treasured in Shirakawa Village, known for its thatched-roof houses, as a soup for celebrations.\n## How it's made\nSoybeans soaked overnight are boiled until just short of fully soft, ground smooth in a mortar or blender, then moved to a pot, seasoned with soy sauce, and heated just short of boiling. Miso is sometimes used instead, it's said. In recent years, a hot-pot version called 'suttate nabe' is also said to have become popular.\n## Why it took this shape\nIn the mountain-locked Shirakawa Village, soybeans — a crop that grows even in poor soil — are said to have been widely cultivated as a valued protein source, and this soup is said to have been born out of the process of making miso and tofu from them. Since it spoils quickly in summer, it's said to have been eaten at celebrations and the Hoonko memorial from autumn through early spring.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：すったて汁 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_16_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "kuri-kinton",
+   "body_ja": "## 何でできているか\n蒸した栗を砂糖とともに練り上げ、布巾で栗の形にしぼり上げた素朴な和菓子で、噛むと栗本来のほくほくした食感と自然な甘みがそのまま広がるという。おせちの栗きんとんとは異なり、栗の風味を存分に味わえる仕立てだと伝わる。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。\n## どう作るのか\n生の栗を茹でて中身を取り出し、砂糖と塩を加えて温めてなじませ、鍋に入れて弱火でよく練るという。練り上がったものを水で湿らせた布巾でしぼり、布目の模様をつけて形を整えるそうだ。店ごとに味わいや食感が異なり、食べ比べを楽しめると伝わる。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n中津川市は中山道の宿場町として発展し、独自の茶の湯文化が花開いたとされ、お茶に合う菓子を求めて菓子職人が腕を競い合ったという。県内有数の栗の産地でもあったことから、山栗を茹でたり焼いたりする素朴な食べ方が、やがてこの上品な菓子へと形を変えたとされる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
+   "body_en": "## What it's made of\nSteamed chestnuts worked with sugar and squeezed into shape inside a cloth, a plain traditional sweet, so each bite carries the chestnut's own mealy texture and natural sweetness with nothing else in the way. Unlike the sweeter New Year's version of the same name, it's said to be built to let the chestnut's flavor speak for itself.\n## How it's made\nFresh chestnuts are boiled and the flesh scooped out, then warmed through with sugar and a pinch of salt and worked slowly over low heat in a pot. Once worked smooth, it's squeezed inside a damp cloth to take on a chestnut's ridged shape. Flavor and texture are said to vary shop by shop, making comparison part of the fun.\n## Why it took this shape\nNakatsugawa developed as a post town on the old Nakasendo road, and a distinctive tea-ceremony culture is said to have flourished there, with confectioners competing to make sweets that paired well with tea. Being also one of the prefecture's major chestnut-growing areas, a plain habit of boiling or roasting wild chestnuts is said to have gradually turned into this refined sweet.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：栗きんとん 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_17_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "mizu-manju",
+   "body_ja": "## 何でできているか\nくず粉とわらび粉でつくった生地であんを包み、冷たい地下水で冷やした夏の菓子で、口に入れるとつるんとした喉ごしのあとに、もちもちとした生地の弾力とこしあんの上品な甘さがふわりと広がるという。井戸水で冷やされた姿が水の都の夏を告げると伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。\n## どう作るのか\nくず粉にわらび粉を混ぜて柔らかく炊き上げた生地でこしあんを包み、陶器のおちょこに流し入れて蒸し、冷たい地下水に浸けて固めるという。くず粉だけでは水に溶けやすく冷やすと硬くなるため、水に強いわらび粉を加えるようになったと伝わる。手間のかかる工程だが、今も惜しまず続けられているという。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。\n## なぜこの形になったのか\n水の都と呼ばれる大垣には豊富な地下水があり、各家庭で野菜や果物を冷やす「井戸舟」が冷蔵庫代わりに使われていたとされる。その水を生かした夏向けの冷たい菓子をと考案されたのがこの水まんじゅうで、菓子店の店頭に並ぶ姿が夏の風物詩になったという。こうした経緯は、地域の暮らしの記憶として語り継がれているそうだ。",
+   "body_en": "## What it's made of\nSmooth red bean paste wrapped in a dough of kudzu and bracken starch, chilled in cold groundwater — a summer sweet, so it slips down smoothly at first, then gives way to a chewy dough and the paste's refined sweetness. Chilled in well water at a shop counter, it's said to signal summer's arrival in this 'city of water.'\n## How it's made\nKudzu starch mixed with bracken starch is cooked soft into a dough, wrapped around smooth red bean paste, poured into a small ceramic cup, steamed, then chilled in cold groundwater to set. Kudzu alone dissolves too easily in water and turns hard when chilled, which is said to be why bracken starch, more resistant to water, was worked in instead.\n## Why it took this shape\nOgaki, known as the 'city of water,' is said to sit on abundant groundwater, and households there are said to have once used 'ido-bune' cooling wells to chill vegetables and fruit in place of a refrigerator. This sweet is said to have been devised to make the most of that water for a cold summer treat, and the sight of it chilling in shop windows is said to have become a marker of summer in the city.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：水まんじゅう 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_18_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "nita-kumoji",
+   "body_ja": "## 何でできているか\n塩抜きした古漬けの菜っ葉を油で炒めて煮た一品で、古漬け特有のすっぱみが油とごま油の香ばしさに包まれ、強火で仕上げた歯切れのよい食感が心地よいという。ご飯にもよく合う、質素ながら滋味深い惣菜だと伝わる。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。\n## どう作るのか\n塩漬けしたかぶの葉などを水洗いして塩抜きし、三センチほどに切って油で炒め、調味料を合わせて水分がなくなるまで煮るという。仕上げにごま油と白ごまを加えて強火で仕上げると伝わる。漬物として食べたあとに、さらに煮て食べ切る工夫だそうだ。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。\n## なぜこの形になったのか\n「くもじ」は平安時代の宮中で漬物を指した言葉に由来するとされ、冬に漬けた菜っ葉が春に酸っぱくなったものを捨てず煮て食べる、食材を無駄にしない先人の知恵から生まれたという。食料が乏しかった時代、漬物を最後まで食べ尽くす工夫が土地に根づいたと伝わる。その土地ならではの事情が、今の形を静かに支えてきたと伝わる。",
+   "body_en": "## What it's made of\nDesalted, aged pickled greens stir-fried in oil then simmered, so the pickle's tartness is wrapped in the toastiness of oil and sesame oil, finished over high heat for a crisp, satisfying bite. It's said to be a plain but deeply flavorful side dish that goes well with rice.\n## How it's made\nSalted turnip greens or similar pickled leaves are rinsed to remove the salt, cut into roughly three-centimeter pieces, stir-fried in oil, then simmered in seasoning until the liquid is gone. Sesame oil and white sesame are added at the end over high heat to finish. It's said to be a way of eating the pickle twice — first as is, then simmered once it's turned sour.\n## Why it took this shape\nThe word 'kumoji' is said to trace back to court language for pickles used in the Heian period, and the dish itself is said to have grown from a habit of simmering rather than discarding greens pickled in winter once they'd turned sour by spring — a way of not wasting food. In an era when food was scarce, using a pickle down to its last bite is said to have taken root as local practice.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：煮たくもじ 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_19_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "gifu-kaki-namasu",
+   "body_ja": "## 何でできているか\n大根と人参の酢の物に、甘い干し柿を割いて加えた一品で、酢の効いたさっぱりした酸味のなかに、干し柿の凝縮した甘みがふいに顔を出すという。冬の食卓に彩りを添える、優しい甘さの箸休めだと伝わる。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。\n## どう作るのか\n大根と人参は塩をふってしんなりさせ、固くしぼって水気を切ってから砂糖と酢の調味料と和えるという。食べる直前に細かく割いた干し柿を加えて仕上げるそうだ。地域によっては正月料理に欠かせない一品とされていると伝わる。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n全国有数の柿の産地とされる岐阜県では、甘柿の富有柿のほか、朝廷への献上の歴史を持つ干し柿など、質の高い柿が育つとされる。新鮮な野菜や果物が乏しい冬場に、干し柿の甘みがビタミンなどの栄養補給として重宝されたことが、この料理を育んだという。そうした背景が、この料理を今に伝える支えになってきたとされる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
+   "body_en": "## What it's made of\nA vinegared salad of daikon and carrot with shreds of sweet dried persimmon mixed in, so a clean vinegar tang gives way now and then to the persimmon's concentrated sweetness. It's said to be a gently sweet palate cleanser that adds color to a winter table.\n## How it's made\nDaikon and carrot are salted until they soften, squeezed dry, then dressed in sugar and vinegar. Finely shredded dried persimmon is added just before serving. In some districts it's said to be an essential dish for the New Year's table.\n## Why it took this shape\nGifu is said to be one of Japan's leading persimmon-growing regions, producing both the sweet Fuyu variety and dried persimmons with a history of being offered to the imperial court. In winter, when fresh vegetables and fruit were scarce, the dried persimmon's sweetness is said to have served as a valued source of vitamins — a role said to have shaped this dish.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：柿なます 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_21_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "akadatsu-no-subute",
+   "body_ja": "## 何でできているか\n里芋の赤い葉柄、赤だつを合わせ酢で和えた一品で、噛むとしゃきしゃきとした独特の歯ごたえのあとに、酢の酸味がすっと鼻に抜けるという。鮮やかな赤紫色が食卓に彩りを添えると伝わる。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。\n## どう作るのか\n赤だつは筋を取って塩でもみ、アクを抜いてから短冊切りにし、合わせ酢と和えるという。炒ってから酢と和える酢炒りにしたり、重しをのせて酢に漬け込んだりと、いろいろな食べ方があると伝わる。干して冬の保存食にする家庭もあるそうだ。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。手間のかかる工程だが、今も惜しまず続けられているという。\n## なぜこの形になったのか\n山県市北部は平地が少なく米がとれない地域だが、石灰質のやせた土壌が芋の栽培に適していたとされ、里芋の茎である赤だつが貴重な食材として親しまれたという。産婦の体力回復を願って食べさせたという言い伝えもあり、暮らしに根づいた食材だったと伝わる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
+   "body_en": "## What it's made of\nThe red-tinged leaf stalks of taro, called akadatsu, dressed in mixed vinegar, so a distinctly crisp bite gives way to a clean vinegar tang up the nose. Its vivid reddish-purple color is said to bring a splash of color to the table.\n## How it's made\nThe stringy fibers are removed from the stalks, which are then salted to draw out bitterness, cut into strips, and dressed in mixed vinegar. It's said to be eaten other ways too — stir-fried before being dressed in vinegar, or weighted down and cured in vinegar over time. Some households are said to dry it for winter storage.\n## Why it took this shape\nThe northern part of Yamagata City has little flat land for rice, but its poor, lime-rich soil is said to have suited taro well, making the plant's red stalk a valued ingredient locally. A folk belief holds that eating it helps a new mother recover her strength and her milk supply — a sign of how deeply it's said to be woven into daily life there.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：赤だつの酢ぶて 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_22_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "senkokumame-kakimawashi",
+   "body_ja": "## 何でできているか\n千石豆という珍しいふじまめと鶏肉、根菜を煮て炊いたご飯に混ぜ込んだ料理で、噛むと千石豆の独特の香りと風味が広がり、鶏の旨みが染みた根菜の甘みと絡み合うという。親戚が集まる席を彩る混ぜご飯だと伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。\n## どう作るのか\n筋を取った千石豆を下ゆでしてから、鶏肉やごぼう、人参とともに煮て味をつけ、炊いたご飯に混ぜ合わせるという。煮た具をあとから混ぜることから「かきまわし」と呼ばれ、最初から具と米を炊き込む混ぜごはんとは区別されると伝わる。手間のかかる工程だが、今も惜しまず続けられているという。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。\n## なぜこの形になったのか\n岐阜市南部で明治時代から栽培される千石豆は、さやの形が千石船に似ることからその名がついたとされ、高温や病気に強く多くの実をつけたという。祭りや行事で親戚が集まる際にふるまう料理として、この地域ならではの豆を使う形が根づいたとされる。こうした経緯は、地域の暮らしの記憶として語り継がれているそうだ。その土地ならではの事情が、今の形を静かに支えてきたと伝わる。",
+   "body_en": "## What it's made of\nA rare heirloom bean called senkoku-mame, its pods said to resemble old cargo ships, simmered with chicken and root vegetables and mixed through cooked rice, so the bean's distinctive aroma spreads with each bite, tangled with the sweetness of root vegetables soaked in chicken's richness. It's said to be a mixed rice dish that brightens a table when relatives gather.\n## How it's made\nStringed senkoku-mame beans are parboiled, then simmered with chicken, burdock, and carrot until seasoned, and mixed into cooked rice. Because the simmered ingredients are stirred in after the rice is already cooked, it's called 'kakimawashi,' or 'stirred around' — distinct from a takikomi rice dish where everything cooks together from the start, it's said.\n## Why it took this shape\nSenkoku-mame has been grown in southern Gifu City since the Meiji era, its pods said to resemble the shape of old thousand-koku cargo ships — the source of its name — and known for tolerating heat and disease while bearing heavily. Serving a dish built around this local bean at festivals and family gatherings is said to be how this style of mixed rice took root in the area.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：千石豆のかきまわし 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_23_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "tsugi-jiru",
+   "body_ja": "## 何でできているか\n唐辛子の辛みと砂糖の甘み、角切りの豆腐が入った珍しいお吸い物で、干ししいたけのだしに唐辛子のぴりっとした刺激が効き、豆腐のかたい歯ごたえが心地よいという。この地区だけで味わえる独特の一杯だと伝わる。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。\n## どう作るのか\nたっぷりの唐辛子をから煎りして風味を出し、干ししいたけなどのだしと丁寧に煮出し、小さく角切りにした地元の豆腐を加え、醤油や砂糖で味を整えるという。汁が薄まらないようかたい豆腐を使うのがコツだそうだ。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。\n## なぜこの形になったのか\n明宝寒水地区の寺院で毎年十月に行われる報恩講の際、参拝者に振る舞われてきたとされる。専用の容器から一本の箸を使って汁を注ぎ分ける独特の作法が名の由来ともいわれ、結婚式や葬儀など人が集まる特別な日に受け継がれてきた料理だという。その土地ならではの事情が、今の形を静かに支えてきたと伝わる。そうした背景が、この料理を今に伝える支えになってきたとされる。",
+   "body_en": "## What it's made of\nA rare clear soup carrying chili heat and sugar's sweetness alongside cubes of tofu, so a shiitake-based broth meets chili's sharp bite, with the tofu's firm texture rounding things out. It's said to be a soup found only in this one district.\n## How it's made\nA generous amount of chili pepper is dry-roasted to bring out its flavor, then carefully simmered with a broth made from dried shiitake and similar ingredients, before small cubes of firm local tofu go in, seasoned with soy sauce and sugar. Using firm tofu, it's said, is the trick to keeping the broth from thinning out.\n## Why it took this shape\nThe soup is said to have been served to worshippers at the annual Hoonko memorial held every October at a temple in the Meiho Kanomizu district. Its name is said to come from the distinctive custom of ladling it out one bowl at a time from a special vessel using a single chopstick, and it's said to have been handed down as a dish for weddings, funerals, and other occasions when people gather.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：つぎ汁 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_24_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "hatsuuma-dango",
+   "body_ja": "## 何でできているか\n米粉を練って繭のような形に整えて蒸した団子で、噛むともちっとした米粉の弾力の奥にほのかな甘みが感じられるという。きな粉をまぶしたり焼いて醤油をつけたりと、シンプルな生地だからこそ食べ方に幅が出ると伝わる。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。\n## どう作るのか\n米粉を耳たぶくらいの硬さになるまで練り、一口大の繭のような形に整えて蒸すという。きな粉をまぶす、焼いて醤油をつける、すまし汁やぜんざいに入れるなど地域によって食べ方はさまざまで、きびやそば粉を使う地域もあると伝わる。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n自給自足の暮らしの中で貴重な現金収入源だった養蚕が盛んだった地域では、二月の初午の日に、繭が上質で多く採れるよう願って繭の形の団子を神様に供えたのが始まりとされる。白川村では豊蚕を願う祭りとともに、この団子を供える習わしが根づいたという。そうした背景が、この料理を今に伝える支えになってきたとされる。",
+   "body_en": "## What it's made of\nRice flour kneaded and shaped like a silkworm cocoon, then steamed, so a chewy, mochi-like bite of rice flour carries a faint sweetness underneath. Made from such a plain dough, it's said to take on a wide range of flavors depending on how it's finished.\n## How it's made\nRice flour is kneaded to an earlobe-soft consistency, shaped into bite-sized cocoon shapes, and steamed. It's said to be eaten coated in roasted soybean flour, grilled with soy sauce, or dropped into a clear soup or sweet red bean soup depending on the district, with some areas said to use millet or buckwheat flour instead of rice.\n## Why it took this shape\nIn districts where sericulture once served as a vital source of cash income within an otherwise self-sufficient way of life, the custom is said to have begun with offering cocoon-shaped dumplings to the gods on the first Horse Day of February, wishing for a plentiful, high-quality silk cocoon harvest. In Shirakawa Village, this offering is said to have taken root alongside a festival praying for a good sericulture year.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：初午だんご 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_25_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "tsukemono-misoni",
+   "body_ja": "## 何でできているか\n酸味の出た白菜の古漬けを、煮干しだしと豆味噌の鍋で煮込んだ料理で、古漬け特有のすっぱみが味噌のこくに溶け込み、噛むと発酵した白菜のうまみがじんわりと広がるという。ご飯との相性が抜群だと伝わる。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。\n## どう作るのか\n白菜の切り漬けを水で塩抜きし、季節の野菜とともに鍋に入れ、赤味噌や酒、砂糖、みりんと一緒に煮詰めるという。酸っぱいくらいの古漬けのほうが味がよいとされ、最近は肉を加えるアレンジも多いそうだ。余ったら材料を足して煮返せると伝わる。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n炭焼き小屋で働く人々が鯖缶を器代わりにして白菜漬けを煮て食べたのが始まりと伝えられ、農作業と家事に追われる母親が小さな鍋で手早くつくれる惣菜として広まったという。寒く食材の乏しい冬場に、漬物を余さず活かす知恵として土地に根づいたとされる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
+   "body_en": "## What it's made of\nAged, sour pickled napa cabbage simmered in a pot of dried sardine broth and soybean miso, so the pickle's tartness melts into the miso's richness, and the fermented cabbage's savor spreads with each spoonful. It's said to go extremely well with rice.\n## How it's made\nSliced pickled napa cabbage is rinsed to remove some salt, added to a pot with seasonal vegetables, and simmered down with red miso, sake, sugar, and mirin. A pickle sour enough to bite back is said to make for better flavor, and adding meat is said to be a common modern twist. Leftovers are said to be topped up and reheated as needed.\n## Why it took this shape\nThe dish is said to trace back to charcoal workers who used empty mackerel-tin cans as bowls to simmer pickled cabbage in their mountain huts, and it's said to have spread as a quick dish a busy mother, pulled between farm work and housework, could throw together in a small pot. It's said to have taken root as a way to make full use of pickles through the cold, lean months of winter.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：漬物味噌煮 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_26_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "kanboshi-daikon-ni",
+   "body_ja": "## 何でできているか\n飴色に乾燥させた寒干大根をだし汁と醤油でじっくり煮た料理で、噛むと凝縮された大根の自然な甘みと、干すことで増したこりこりとした独特の歯ごたえが広がるという。素干しの大根とはまるで違う滋味深さがあると伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。\n## どう作るのか\n掘り出した大根を水洗いして輪切りにし、茹でてから串に刺して軒先で乾燥させ、凍結と融解を繰り返して約一カ月かけて飴色に仕上げた寒干大根を、お湯かぬるま湯で戻すという。戻した大根とだし汁をひと煮立ちさせ、醤油で味を整えて二十分ほど煮込むそうだ。手間のかかる工程だが、今も惜しまず続けられているという。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。\n## なぜこの形になったのか\n飛騨市神岡町山之村は標高八百五十から千メートルの「天空の里」と呼ばれ、かつては深い雪のため冬の約五カ月は孤立していたとされる。氷点下まで冷え込む厳しい冬を乗り切るための保存食として、大根を凍らせては溶かす乾燥法が先人の知恵から生まれたという。こうした経緯は、地域の暮らしの記憶として語り継がれているそうだ。",
+   "body_en": "## What it's made of\nAmber-colored dried daikon simmered slowly in dashi and soy sauce, so each bite carries the daikon's concentrated natural sweetness alongside a distinctive chewy bite that only deepens through the drying process. It's said to carry a depth of flavor entirely different from a plainly dried radish.\n## How it's made\nHarvested daikon is washed, sliced into rounds, boiled, skewered, and hung to dry under the eaves, freezing and thawing repeatedly over about a month until it turns amber — the dried daikon is then rehydrated in hot or lukewarm water. It's brought to a boil once with dashi, seasoned with soy sauce, and simmered for about twenty minutes.\n## Why it took this shape\nYamanomura, in Hida City's Kamioka district, sits at 850 to 1,000 meters and is known as a 'village in the sky,' said to have once been cut off by deep snow for about five months of the year. Freezing and thawing daikon repeatedly to dry it is said to be a preservation technique born of the ancestral wisdom needed to survive such a harsh, below-freezing winter.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：寒干大根煮 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_27_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "kuwanokimame-ni",
+   "body_ja": "## 何でできているか\n桑の木豆というインゲン豆の一種を醤油と砂糖で煮た料理で、噛むとほっくりとした豆の食感の奥から、醤油の香ばしさとじんわりした甘みが広がるという。完熟すると豆に赤いかすり模様が入るのが特徴だと伝わる。味わいの奥行きは、仕込みにかける手間のぶんだけ増すのだという。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。\n## どう作るのか\n桑の木豆を向きをそろえて鍋に並べ、水を入れて串が通るくらいまで弱火で一時間ほど茹でるという。先に調味料を入れると豆がかたくなるため、柔らかくなってから醤油や砂糖を加え、汁気がなくなるまで煮るのがコツだと伝わる。手順そのものは単純でも、仕上がりには家庭ごとの癖が出るといわれる。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。\n## なぜこの形になったのか\n山県市美山地域は明治から大正にかけて養蚕が盛んで、蚕の餌となる桑の木が多く植えられていたとされる。台風で桑の木が倒れないよう根元に豆を植え、ツルをからませて支えにしたことから「桑の木豆」と呼ばれるようになったという。その土地ならではの事情が、今の形を静かに支えてきたと伝わる。そうした背景が、この料理を今に伝える支えになってきたとされる。",
+   "body_en": "## What it's made of\nA bean called kuwanoki-mame, a variety of kidney bean, simmered in soy sauce and sugar, so a mealy bean texture gives way to soy sauce's savory depth and a gentle sweetness underneath. Fully ripened, the bean is said to develop a distinctive red mottled pattern on its skin.\n## How it's made\nThe beans are lined up facing the same direction in a pot, covered with water, and simmered on low heat for about an hour until a skewer passes through easily. Adding seasoning too early is said to toughen the beans, so soy sauce and sugar go in only once they've softened, simmered further until the liquid is gone.\n## Why it took this shape\nThe Miyama area of Yamagata City is said to have thrived on sericulture from the Meiji through Taisho eras, with mulberry trees — food for silkworms — planted widely. The beans were planted at the base of those trees so their vines could climb and brace the trunks against typhoon winds, which is said to be how they came to be named for the mulberry tree itself.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：桑の木豆煮 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_28_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "gifu-komodofu",
+   "body_ja": "## 何でできているか\nわらのむしろ「こも」で豆腐を巻いて茹でた料理で、表面に無数の気泡ができ、そこにわらの香りがしみ込んで独特の風味になるという。だしで煮込むと気泡に味がよくしみ込み、口に含むとじゅわっと旨みがあふれると伝わる。そうした細かな違いも含めて、今も家庭ごとに受け継がれている味だという。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。\n## どう作るのか\n軽く水切りした豆腐を適当な大きさに切り、こもで巻いて一時間ほど茹で、表面にすが立ったら取り出すという。醤油や砂糖で味付けしただし汁で煮て仕上げるそうだ。単品で煮るほか、山菜と一緒に煮ても美味しいと伝わる。こうした工程は今も大きく変わらず、代々そのまま受け継がれているそうだ。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。\n## なぜこの形になったのか\n家庭で豆腐をつくった際に余った分を、農家に身近にあったわらのむしろで巻いたのが始まりとされる。盆や正月など人が集まる機会に振る舞われることが多く、表面の気泡が出汁を含みやすいという実用性が、この形を土地に根づかせたという。そうした背景が、この料理を今に伝える支えになってきたとされる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
+   "body_en": "## What it's made of\nTofu wrapped in a straw mat called 'komo' and boiled, so the surface fills with countless tiny air pockets that soak up the straw's aroma into a distinctive flavor. Simmered in dashi, those air pockets are said to take on the broth's seasoning deeply, releasing a rush of savor with each bite.\n## How it's made\nLightly drained tofu is cut into pieces, wrapped in a straw mat, boiled for about an hour, and taken out once its surface has filled with air pockets. It's then finished by simmering in a dashi seasoned with soy sauce and sugar. It's said to be simmered on its own, or together with wild mountain vegetables for extra flavor.\n## Why it took this shape\nThe dish is said to have started as a way to wrap leftover tofu from a household's own tofu-making in the straw mats that were close at hand on any farm. Often served when people gather for Obon or New Year's, it's said that the practical way the surface's air pockets soak up broth is what let this particular shape take root locally.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：こも豆腐 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_29_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  },
+  {
+   "slug": "gifu-ayu-shioyaki",
+   "body_ja": "## 何でできているか\n串に刺した鮎に塩をふって炭火でじっくり焼く鮎料理の王道で、炭火の香ばしさとともに、余分な水分が落ちて凝縮した身の旨みと皮のぱりっとした食感が際立つという。尾やひれにまぶす化粧塩の白さが見た目の美しさを引き立てると伝わる。こうした持ち味は、地域や家庭によって少しずつ表情を変えるとも伝わる。素朴な見た目に反して、食べ手の記憶に残る個性を持つ一皿だと伝わっている。\n## どう作るのか\n鮎全体に軽く塩をふって五、六分ほどおき、焦げやすいひれと尾に化粧塩をしてから両面をじっくり焼くという。脂ののった七、八月ごろの成魚が向くとされるが、八月以降の卵を抱えた子持ち鮎も美味しいと伝わる。つくり方の細部は地域差があり、それぞれの土地の流儀が息づいていると伝わる。手間のかかる工程だが、今も惜しまず続けられているという。\n## なぜこの形になったのか\n木曽川、長良川、揖斐川など清流の多い岐阜県では、千三百年の歴史を持つとされる鵜飼や、川をせき止めて魚を誘い込む「ヤナ」という伝統漁法が受け継がれてきたという。清流と伝統漁法に支えられた新鮮な鮎の豊かさが、シンプルな塩焼きという食べ方を土地に根づかせたとされる。暮らしの必要から生まれた工夫が、そのまま土地の味として定着したという。",
+   "body_en": "## What it's made of\nSkewered ayu salted and slow-grilled over charcoal, the classic way to eat this river fish, so charcoal's smokiness meets the concentrated richness of flesh that's lost its excess moisture, with the skin turning satisfyingly crisp. A dusting of white finishing salt on the tail and fins is said to sharpen its visual appeal too.\n## How it's made\nThe whole fish is lightly salted and left to sit for five or six minutes, with extra salt pressed onto the fins and tail — parts prone to burning — before both sides are grilled slowly. Fatty adult fish from around July and August are said to be best suited to this, though roe-bearing fish from August onward are said to be just as good.\n## Why it took this shape\nGifu's many clear rivers — the Kiso, Nagara, and Ibi — are said to have supported cormorant fishing with over 1,300 years of history, alongside 'yana,' a traditional method of damming part of a river to funnel fish into a trap. That abundance of fresh ayu, sustained by clear water and old fishing methods, is said to be what let this simple salt-grilling style take root as the standard way to eat it.",
+   "sources": [
+    {
+     "title": "うちの郷土料理：鮎の塩焼 岐阜県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/38_30_gifu.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-09-17"
+    }
+   ],
+   "relations": []
+  }
+ ]
 }
