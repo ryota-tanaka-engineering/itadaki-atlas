@@ -60,7 +60,7 @@
 | ドメイン `itadakiatlas.com` / Sentry / GitHub自動デプロイ（CF_DEPLOY_ENABLED） | **未設定**（ドメイン取得後に SITE_URL 設定・R2カスタムドメイン化・workers.dev 無効化をまとめて行う） |
 | マーク（ロゴ） | **未決**（暫定=三つ紋。ブランドページの3案から選定待ち） |
 
-次の作業候補: /security-review（本格公開前に必須）、独自ドメイン化一式（itadakiatlas.com 取得待ち）、計測IDの設定、`ia-atlas-deploy` Skill 作成、ラーメン協会一覧との差分109件（scratchpad/ramen-master）、とんかつ/天ぷら/焼肉の本場複数化、Wikipedia 出典の残り38件（`data/ledgers/wikipedia-sourced.txt`。前の部隊が一次資料を見つけられなかったもの）の差し替え、寿司ジャンルの系統（郷土/型/現代/ネタ）付与、鶏の部位図の線画改善。
+次の作業候補: /security-review（本格公開前に必須）、独自ドメイン化一式（itadakiatlas.com 取得待ち）、計測IDの設定、`ia-atlas-deploy` Skill 作成、ラーメン協会一覧との差分109件（scratchpad/ramen-master）、とんかつ/天ぷら/焼肉の本場複数化、寿司ジャンルの系統（郷土/型/現代/ネタ）付与、鶏の部位図の線画改善。
 
 ## 意図的な制約（勝手に外さない）
 
