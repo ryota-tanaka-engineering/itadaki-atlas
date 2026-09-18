@@ -8,6 +8,7 @@ SP=$(ls -d /private/tmp/claude-501/-Users-tanakaryouta-workspace-ia-miracolo/*/s
 # scratchpad からの取り込みはリポジトリに無い県だけ（リポジトリ側で直した本文を上書きしない）
 for p in "$@"; do [ -f "$SP/tier2-$p.json" ] && [ ! -f "data/bodies3/tier2-$p.json" ] && cp "$SP/tier2-$p.json" data/bodies3/; done
 node data/ledgers/check-tier2.js "$@" || { echo "検査NG。投入しない"; exit 1; }
+docker ps --format "{{.Names}}" | grep -q "^supabase_db_itadaki-atlas$" || { echo "ローカル supabase が停止中。npx supabase start してから再実行"; exit 1; }
 echo "== local"
 for p in "$@"; do printf "%-10s" "$p"; node --env-file=.env.local scripts/import-bodies.ts --file "data/bodies3/tier2-$p.json" 2>&1 | grep -E "^完了|✗" | tail -3; done
 REF=xzkvvdldovgbuutttmzj
