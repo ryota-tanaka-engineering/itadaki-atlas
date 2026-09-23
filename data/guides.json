@@ -1854,6 +1854,156 @@
           "slug": "sushi"
         }
       ]
+    },
+    {
+      "slug": "bussanten-basics",
+      "kind": "shopping",
+      "sort_order": 15,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "物産展の楽しみ方",
+          "summary": "物産展で何が並ぶか、開催の探し方、混み方や整理券、日持ちと持ち帰りのコツ、旅の前後での楽しみ方までをまとめました。",
+          "body_md": "## 物産展とは\n物産展は、百貨店や駅ビルの催事場で開かれる、都道府県や地方単位の食と工芸を集めた催しです。北海道展や九州展のように地域名を冠したものが多く、会期は数日から一週間程度が一般的とされています。普段は現地に行かないと出会えない味を、旅行の前後にまとめて試せる場として親しまれているようです。\n\n## 何が並ぶか\n実演販売の弁当や海鮮丼、その場で焼く肉まんや揚げ物、地方の銘菓や地酒、漆器や工芸品まで扱う品はさまざまとされています。行列ができる人気店は、初日や週末の開店直後に売り切れることもあるといいます。\n\n## 開催の探し方\nどの百貨店で何展が開かれているかは、各百貨店の公式サイトの催事カレンダーで確認できることが多いです。同じ地域の物産展が複数の店舗を巡回することもあるため、旅の日程に合わせて探すと見つけやすいとされています。\n\n## 混み方と整理券\n人気の実演コーナーでは、開店前から列ができたり整理券が配られたりすることがあるといいます。ゆっくり選びたい場合は、開店直後や平日を避けた時間帯を選ぶのも一つの方法とされています。\n\n## 日持ちと持ち帰り\n実演惣菜や生ものは当日中の消費を勧められることが多く、常温で日持ちする菓子や乾物は旅の荷物に向くとされています。保冷が必要な品は、購入時に持ち帰り時間を伝えると対応してもらえることがあります。\n\n## 関係する食べもの\n物産展でよく扱われる「和菓子」や「日本酒」、地方の「漬物」も参考にしてください。"
+        },
+        "en": {
+          "title": "Enjoying a bussanten (regional products fair)",
+          "summary": "A guide to what's sold at a bussanten (regional products fair), how to find one, when it gets crowded, shelf life and taking food home, and how to fit one around a trip.",
+          "body_md": "## What a bussanten is\nA bussanten (regional products fair) is an event held in a department store or station-building event hall, gathering food and crafts from a single prefecture or region. Many are named after the region itself, such as a \"Hokkaido Fair\" or \"Kyushu Fair,\" and are said to typically run anywhere from a few days to about a week. They're a popular way to sample flavors you'd otherwise only find on the road, either before or after a trip there.\n\n## What's on offer\nExpect live-cooked bento and seafood rice bowls, meat buns and fried snacks made to order, regional sweets and sake, and sometimes lacquerware or other crafts. Popular counters can sell out shortly after opening on the first day or a weekend.\n\n## Finding one\nWhich department store is running which fair is usually listed on that store's own events calendar online. The same regional fair often tours several stores in turn, so it's worth checking around your travel dates.\n\n## Crowds and numbered tickets\nPopular live-cooking counters may draw a line before opening, or hand out numbered tickets. If you'd rather browse at ease, arriving right at opening or avoiding weekends is said to help.\n\n## Shelf life and taking food home\nFreshly cooked dishes and raw items are usually best eaten the same day, while sweets and dried goods that keep at room temperature travel better. For anything needing to stay cold, it helps to mention how long you'll be carrying it when you pay.\n\n## Related foods\nSee \"Wagashi,\" \"Nihonshu,\" and regional \"Tsukemono\" — foods that often turn up at these fairs."
+        }
+      },
+      "sources": [
+        {
+          "title": "全国百貨店売上高概況（2026年7月分）",
+          "url": "https://www.depart.or.jp/press_release/files/NL2607.pdf",
+          "publisher": "一般社団法人日本百貨店協会",
+          "accessed_at": "2026-09-24"
+        },
+        {
+          "title": "日本百貨店協会",
+          "url": "https://www.depart.or.jp/",
+          "publisher": "一般社団法人日本百貨店協会",
+          "accessed_at": "2026-09-24"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "wagashi"
+        },
+        {
+          "kind": "genre",
+          "slug": "nihonshu"
+        },
+        {
+          "kind": "genre",
+          "slug": "tsukemono"
+        },
+        {
+          "kind": "shelf",
+          "slug": "confections"
+        },
+        {
+          "kind": "tag",
+          "slug": "souvenir_non_confection"
+        }
+      ]
+    },
+    {
+      "slug": "antenna-shop-basics",
+      "kind": "shopping",
+      "sort_order": 16,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "アンテナショップの使い方",
+          "summary": "アンテナショップで買えるもの、食堂やイートインの有無、観光案内を兼ねること、銀座・有楽町の店舗の集まり方、旅の下見や土産探しへの使い方をまとめました。",
+          "body_md": "## アンテナショップとは\nアンテナショップは、都道府県や市町村が自ら運営、または関連団体に委託して東京や大阪などに置く物産販売店です。都市部で地元の知名度を高める目的で開かれており、観光案内所を兼ねる店も多いとされています。\n\n## 何が買えるか\n地元のスーパーに並ぶような普段の食品や調味料、菓子、地酒などが中心で、物産展のような期間限定の実演というよりは、その土地の日常の味を年間を通じて扱っている点が特徴とされています。高知県の「まるごと高知」や沖縄県の「銀座わした」のように、県産品を一か所に集めた店が銀座・有楽町の周辺にあります。\n\n## イートインと観光案内\n一部の店舗では、県産の食材を使った定食や郷土料理を提供する食堂を兼ねており、旅行前に現地の味を確かめる場としても使われているようです。観光パンフレットの配布や移住・特産品の相談窓口を兼ねる店もあります。\n\n## 銀座・有楽町に集まる立地\n銀座・有楽町・日本橋のあたりには複数のアンテナショップが集まっており、徒歩で回りやすいとされています。同じビル内に複数県の店が入っていることもあるようです。\n\n## 旅への活かし方\nこれから訪れる土地の下見として商品や資料を見ておくのも一つの方法ですし、帰国前の最後の土産探しとして立ち寄るのにも向いているとされています。\n\n## 関係する食べもの\nアンテナショップでよく扱われる「日本酒」や「漬物」、土産向けの品も参考にしてください。"
+        },
+        "en": {
+          "title": "How to use an antenna shop",
+          "summary": "A guide to what's sold at an antenna shop, its restaurant or eat-in counters, its tourist-information role, the cluster of shops around Ginza and Yurakucho, and how to use one before a trip or for last-minute souvenirs.",
+          "body_md": "## What an antenna shop is\nAn antenna shop is a store a prefecture or municipality runs itself, or through an affiliated body, in cities like Tokyo or Osaka to sell its local products. They're generally opened to raise the region's profile in the big cities, and many double as a tourist information point.\n\n## What you can buy\nThe shelves lean toward everyday food you'd find in a local supermarket back home — seasonings, snacks, regional sake — rather than the limited-run, live-cooked items of a regional fair. The draw is said to be everyday flavors of a place, available year-round rather than for just a few days. Shops like Kochi's Marugoto Kochi or Okinawa's Ginza Washita gather a prefecture's products under one roof in the Ginza–Yurakucho area.\n\n## Dining and tourist information\nSome shops run a small restaurant or set-meal counter serving local ingredients, which can double as a way to sample a region's food before you go there. Many also hand out tourist pamphlets or field questions about the area.\n\n## Clustered around Ginza and Yurakucho\nA number of antenna shops sit within walking distance of each other around Ginza, Yurakucho, and Nihombashi, and it's said a single building sometimes houses shops for more than one prefecture.\n\n## Using one on your trip\nBrowsing the shelves and pamphlets ahead of a visit is one way to use these shops, and stopping by for a last round of souvenirs before flying home works just as well.\n\n## Related foods\nSee \"Nihonshu\" and regional \"Tsukemono,\" along with the non-confectionery souvenirs these shops often carry."
+        }
+      },
+      "sources": [
+        {
+          "title": "わしたショップ",
+          "url": "https://washita.co.jp/",
+          "publisher": "株式会社沖縄県物産公社",
+          "accessed_at": "2026-09-24"
+        },
+        {
+          "title": "まるごと高知",
+          "url": "https://www.marugotokochi.com/",
+          "publisher": "一般財団法人高知県地産外商公社",
+          "accessed_at": "2026-09-24"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "nihonshu"
+        },
+        {
+          "kind": "genre",
+          "slug": "tsukemono"
+        },
+        {
+          "kind": "shelf",
+          "slug": "sake"
+        },
+        {
+          "kind": "tag",
+          "slug": "souvenir_non_confection"
+        }
+      ]
+    },
+    {
+      "slug": "soraben-and-airport-food",
+      "kind": "shopping",
+      "sort_order": 17,
+      "status": "published",
+      "translations": {
+        "ja": {
+          "title": "空弁と空港の食事",
+          "summary": "空弁の意味と駅弁との違い、保安検査の前後どちらで買うか、機内で食べるときの配慮、空港の飲食店、帰国前に買える食品土産の注意点をまとめました。",
+          "body_md": "## 空弁とは\n空弁は、空港内の売店で売られる弁当の呼び名です。駅弁が鉄道の駅を拠点に発展してきたのに対し、空弁は空港の旅客施設で買う弁当を指し、機内で食べることを想定した味付けや容器の工夫がされていることが多いとされています。\n\n## 保安検査の前後どちらで買うか\n空弁は保安検査を通った先のエリアで売られていることが多く、検査後に搭乗前の待ち時間で選ぶ形が一般的とされています。検査前のエリアで買った弁当を機内に持ち込めるかどうかは航空会社や便によって異なるため、案内表示や店員に確認すると安心です。\n\n## 機内で食べる配慮\n座席で食べる際は、匂いの強いおかずを避けたり、機内サービスの時間を待ってから食べたりする配慮がされることもあるようです。ふたを閉じられる容器を選ぶと、匂いや汁漏れの心配が少ないとされています。\n\n## 空港の飲食店\n保安検査後の一般エリアには、その土地ならではの料理を出す飲食店が入っていることが多いです。羽田・新千歳・福岡などの空港では、地元の食材を使ったメニューを掲げる店が並ぶことがあるといいます（ラウンジ専用の飲食施設は対象外です）。\n\n## 帰国前に買える食品土産\n液体物や生ものは国際線の保安検査で機内持ち込みの制限を受けることがあり、国土交通省は容器の容量などの制限を案内しています。持ち帰る場合は保冷や賞味期限を確認し、預け荷物に入れられるかどうかも合わせて考えると安心です。\n\n## 関係する食べもの\n空弁の具材に興味がある方は「寿司」や「丼物」も参考にしてください。"
+        },
+        "en": {
+          "title": "Soraben and airport dining",
+          "summary": "A guide to what soraben means and how it differs from ekiben, whether to buy before or after security, etiquette for eating on board, airport restaurants, and things to check before buying food souvenirs to take home.",
+          "body_md": "## What soraben is\nSoraben is the name for bento sold at airport shops. Where ekiben grew up around train stations, soraben refers to bento bought inside an airport's passenger terminal, often seasoned and packaged with eating on board in mind.\n\n## Before or after security\nSoraben are usually sold past the security checkpoint, so the typical pattern is to pick one up during the wait before boarding. Whether a bento bought before security can be carried on board varies by airline and flight, so it's worth checking the signage or asking staff.\n\n## Eating on board\nAt your seat, some travelers avoid strong-smelling items or wait until after the in-flight service before eating, out of consideration for those nearby. A container with a lid that seals well is said to help with both smell and spills.\n\n## Airport restaurants\nThe general area beyond security often has restaurants serving dishes tied to the local area — at airports like Haneda, New Chitose, or Fukuoka, for instance, some shops lean on regional ingredients for their menu (this doesn't include lounge-only dining, which is a separate case).\n\n## Food souvenirs before flying out\nLiquids and fresh items can run into carry-on restrictions at international security checkpoints — Japan's transport ministry publishes rules on container size for these. If you're taking food home, it helps to check how well it keeps cold and its best-by date, and whether it needs to go in checked luggage instead.\n\n## Related foods\nIf the fillings interest you, see \"Sushi\" and \"Donburi.\""
+        }
+      },
+      "sources": [
+        {
+          "title": "国際線の航空機客室内への液体物持込制限について",
+          "url": "https://www.mlit.go.jp/koku/15_bf_000006.html",
+          "publisher": "国土交通省",
+          "accessed_at": "2026-09-24"
+        },
+        {
+          "title": "羽田空港 レストラン＆ショップ",
+          "url": "https://tokyo-haneda.com/shop_and_dine/search_r.html",
+          "publisher": "日本空港ビルデング株式会社・東京国際空港ターミナル株式会社",
+          "accessed_at": "2026-09-24"
+        }
+      ],
+      "links": [
+        {
+          "kind": "genre",
+          "slug": "sushi"
+        },
+        {
+          "kind": "genre",
+          "slug": "donburi"
+        },
+        {
+          "kind": "shelf",
+          "slug": "rice"
+        }
+      ]
     }
   ]
 }
