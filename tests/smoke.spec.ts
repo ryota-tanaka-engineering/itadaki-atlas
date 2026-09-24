@@ -1220,6 +1220,92 @@ test.describe("県クラスタのタップ = 県の絞り込み（PREF_FILTER_IM
     await expect(pageLink).toBeVisible();
     await expect(pageLink).toHaveAttribute("href", "/en/region/fukushima");
   });
+
+  test("県の一行文脈に代表の名前が3件まで添えられ、4件目以降は「ほか」でまとめる", async ({ page }) => {
+    // 体験検品フォローアップ§3「件数の内訳だけでは『これは何か』が伝わらない」対応。
+    // 福島県は「生まれた料理」が3件を超えるため「ほか」が付くことを確認する。
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶとこの県に絞り込みます/ });
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+    await tapPrefCluster(fukushima);
+
+    await expect(sheet.getByText(/生まれた料理 \d+件（/)).toBeVisible();
+    // 代表名が「、」区切りで複数並び、4件目以降は「ほか）」でまとめられる
+    await expect(sheet.getByText("ほか）")).toBeVisible();
+  });
+
+  test("ジャンル×県の併用時、ジャンル総論の下に県の一行文脈も出る", async ({ page }) => {
+    // 体験検品フォローアップ§4「直下の説明がジャンル総論だけで県側の文脈が無い」対応。
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+    await sheet.getByRole("button", { name: "ラーメン", exact: true }).click();
+
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶとこの県に絞り込みます/ });
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+    await tapPrefCluster(fukushima);
+
+    await expect(sheet.getByRole("heading", { name: /福島県 × ラーメン/ })).toBeVisible();
+    // ジャンル総論（ラーメンの説明文）とその下の県の一行文脈の両方が見える
+    await expect(sheet.getByText(/ラーメンは中華麺を/)).toBeVisible();
+    await expect(sheet.getByText(/生まれた料理/)).toBeVisible();
+  });
+
+  test("手で地図を縮小して全国表示に戻すと、地図もクラスタ表示・フル高さに戻り「全国に戻る」ボタンが消える（SP 390x844）", async ({
+    page,
+  }) => {
+    // 体験検品「手で地図を縮小して全国表示に戻したとき地図側が取り残される」対応。
+    // 原因: MapView の lastFitRef が「全国に戻る」ボタン/resetToJapanSignal 経由でしか
+    // 全国へ更新されず、手動ズームアウト後に compact 変化の再フィットが古い県ターゲットへ
+    // 戻っていた（zoomend の evaluate() で isClusterView=true になったときも lastFitRef を
+    // 更新するよう修正）。
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/ja");
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶとこの県に絞り込みます/ });
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+    await tapPrefCluster(fukushima);
+    await expect(page.getByRole("button", { name: "全国に戻る" })).toBeVisible();
+
+    const map = page.locator(".maplibregl-map");
+    await expect(async () => {
+      const h = (await map.boundingBox())?.height ?? 0;
+      expect(h).toBeLessThan(400);
+    }).toPass({ timeout: 5_000 });
+
+    // 手動でズームアウト（マップにフォーカスしてキーボードの「-」でズームレベルを下げる。
+    // 閾値=5、県選択後は7〜9付近なので余裕を持って多めに押す）
+    await map.click({ position: { x: 195, y: 200 } });
+    for (let i = 0; i < 20; i++) {
+      await page.keyboard.press("-");
+      await page.waitForTimeout(150);
+    }
+
+    // 地図がフル高さに戻り、「全国に戻る」ボタンが消え、県クラスタが再び選べる
+    await expect(async () => {
+      const h = (await map.boundingBox())?.height ?? 0;
+      expect(h).toBeGreaterThan(700);
+    }).toPass({ timeout: 5_000 });
+    await expect(page.getByRole("button", { name: "全国に戻る" })).toHaveCount(0);
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+  });
+});
+
+test.describe("地図のズームコントロール（体験検品「PCでズームボタンが押せない」対応）", () => {
+  test("PC 1440幅で、県選択中でもズーム－ボタンがヘッダー・「全国に戻る」ボタンの裏に隠れずクリックできる", async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto("/ja");
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶとこの県に絞り込みます/ });
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+    await tapPrefCluster(fukushima);
+    await expect(page.getByRole("button", { name: "全国に戻る" })).toBeVisible();
+
+    // actionability チェック（visible/enabled/stable かつ他要素に遮られていない）付きの
+    // click が通ること自体が「ヘッダー・全国に戻るボタンの裏に隠れていない」ことの検証になる
+    await page.getByRole("button", { name: "Zoom out" }).click();
+    await page.getByRole("button", { name: "Zoom in" }).click();
+  });
 });
 
 test.describe("食べに行く前にガイド（マナー・注文攻略・支払い等の実用ページ）", () => {

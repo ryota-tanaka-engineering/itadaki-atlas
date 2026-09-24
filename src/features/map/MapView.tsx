@@ -455,6 +455,19 @@ export function MapView({
 
     const evaluate = () => {
       const clusterView = map.getZoom() < CLUSTER_ZOOM_THRESHOLD;
+      // 手動のピンチズーム/ホイールでクラスタ表示まで戻ったときも lastFitRef を
+      // 全国へ更新する（体験検品「手で地図を縮小して全国表示に戻したとき地図側が
+      // 取り残される」対応）。flyToJapan（「全国に戻る」ボタン・resetToJapanSignal）
+      // 経由でしか更新されていなかったため、手動ズームアウト後に compact が変化して
+      // resize+再フィットが走ると、古い県ターゲット（lastFitRef.current の kind="pref"）
+      // へ fitBounds してしまい、せっかくのズームアウトを巻き戻して
+      // 「compact=true に戻る→個別ピンに戻る→全国に戻るボタンが再度出る」の
+      // 無限にフラップする状態になっていた。実際のズームが閾値を下回った時点で
+      // 「今は全国表示」という事実を lastFitRef にも反映させれば、以降の
+      // resize+再フィットは常に fitJapan を呼ぶようになり整合する。
+      if (clusterView) {
+        lastFitRef.current = { kind: "japan" };
+      }
       setIsClusterView((prev) => (prev === clusterView ? prev : clusterView));
       onClusterViewChangeRef.current?.(clusterView);
     };
@@ -706,7 +719,13 @@ export function MapView({
 
       {/* 個別ピン表示中（=県が画面の主対象になる縮尺）のみ、全国表示へ戻る導線を出す
           （2026-09 全国表示の作り直し。集約マーカータップでもピンチズームでも
-          同じ規則で切り替わるため、isClusterView の実測値だけを見る）。 */}
+          同じ規則で切り替わるため、isClusterView の実測値だけを見る）。
+          top-40（160px）は MapLibre 純正のズーム＋／－コントロール（globals.css
+          `.maplibregl-map .maplibregl-ctrl-top-right` でヘッダー分下げた分、
+          実測で SP=56px〜124px・PC=70px〜138px を占有）の下に確実にクリアする
+          値（体験検品「全国に戻るボタンがズームボタンに重なって押せない」対応。
+          top-20 のままだと両方 top-right アンカーで重なり、ズームボタンの
+          pointer-events を奪っていた）。 */}
       {!isClusterView && (
         <button
           type="button"
@@ -715,7 +734,7 @@ export function MapView({
             // 全国へ戻る＝県絞り込みの解除でもある（PREF_FILTER_IMPL_BRIEF.md 設計2）。
             onPrefClearRef.current?.();
           }}
-          className="bg-background/90 absolute top-20 right-4 z-10 rounded-lg px-3 py-2 text-xs shadow-sm backdrop-blur"
+          className="bg-background/90 absolute top-40 right-4 z-10 rounded-lg px-3 py-2 text-xs shadow-sm backdrop-blur"
         >
           {t("backToNational")}
         </button>

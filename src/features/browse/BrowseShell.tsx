@@ -34,7 +34,7 @@ import { HonbaTrailSection, type HonbaDisplayGroup } from "./HonbaTrailSection";
 import { LandStoriesSection } from "./LandStoriesSection";
 import { AboutBlurbSection } from "./AboutBlurbSection";
 import type { Axis } from "./axes";
-import { countPrefContext } from "./prefContext";
+import { countPrefContext, type PrefContextGroup } from "./prefContext";
 
 /**
  * タグチップの標準寸法（本番レビュー「タグも小さくてみづらい」対応）。
@@ -441,6 +441,24 @@ export function BrowseShell({
     () => (prefFilter ? countPrefContext(visibleItems, shelves) : null),
     [prefFilter, visibleItems, shelves],
   );
+  // 1群分の文言を組み立てる（体験検品フォローアップ§3「件数の内訳だけでは
+  // 『これは何か』が伝わらない」対応）。代表（先頭最大3件。ランキングにしない）を
+  // 括弧で添える。件数が代表数を超える場合だけ「ほか」を足す。
+  const buildPrefContextLine = useCallback(
+    (
+      key: "prefContextDish" | "prefContextIngredient" | "prefContextPrep",
+      group: PrefContextGroup,
+    ): string | null => {
+      if (group.count === 0) return null;
+      const names = group.representatives.map((r) => (locale === "ja" ? r.nameJa : r.nameRomaji));
+      if (names.length === 0) return t(key, { count: group.count });
+      const hasMore = group.count > names.length;
+      const joined = names.join(locale === "ja" ? "、" : ", ");
+      const withMore = hasMore ? `${joined}${locale === "ja" ? " " : ", "}${t("prefContextMore")}` : joined;
+      return `${t(key, { count: group.count })}${t("prefContextExamples", { names: withMore })}`;
+    },
+    [locale, t],
+  );
   const filteredPrefLabel = useMemo(
     () => (prefFilter ? (label.prefecture(prefFilter) ?? prefFilter) : null),
     [prefFilter, label],
@@ -693,41 +711,11 @@ export function BrowseShell({
                   {t("filterClearAll")}
                 </button>
               </div>
-              {/* 県の一行文脈＋「この土地のページへ」リンク（体験原則2「選択の直後に必ず
-                  文脈を出す」。PREF_FILTER_IMPL_BRIEF.md 設計4）。県には DB の総論が無いため
-                  visibleItems から機械的に数えた3群（0件の群は出さない）。 */}
-              {prefFilter && prefContextCounts && (
-                <div className="mt-1.5 space-y-1.5">
-                  {(() => {
-                    const parts = [
-                      prefContextCounts.dish > 0
-                        ? t("prefContextDish", { count: prefContextCounts.dish })
-                        : null,
-                      prefContextCounts.ingredient > 0
-                        ? t("prefContextIngredient", { count: prefContextCounts.ingredient })
-                        : null,
-                      prefContextCounts.preparation > 0
-                        ? t("prefContextPrep", { count: prefContextCounts.preparation })
-                        : null,
-                    ].filter((s): s is string => s !== null);
-                    if (parts.length === 0) return null;
-                    return (
-                      <p className="text-sm leading-relaxed">
-                        {parts.join(locale === "ja" ? "・" : " / ")}
-                      </p>
-                    );
-                  })()}
-                  <Link
-                    href={`/region/${PREF_SLUGS[prefFilter as Prefecture]}`}
-                    className={buttonVariants({ variant: "outline", size: "sm" })}
-                  >
-                    {t("prefPageLink")}
-                  </Link>
-                </div>
-              )}
               {/* ジャンル絞り込み中の総論（本番レビュー「和牛一覧の説明文みたいなのは
                   表示必要なのでは」対応）。タグのみの絞り込みには対応する総論が無いため
-                  現状維持。ジャンル+タグ併用時もジャンルの総論を出す。 */}
+                  現状維持。ジャンル+タグ併用時もジャンルの総論を出す。
+                  県が同時に絞り込み中でも、ジャンル総論を優先してこちらを先に出す
+                  （PREF_FILTER_IMPL_BRIEF.md 設計4。県の一行文脈は直下に続けて出す）。 */}
               {filteredGenre &&
                 (() => {
                   const genreIntro = locale === "ja" ? filteredGenre.introJa : filteredGenre.introEn;
@@ -753,6 +741,34 @@ export function BrowseShell({
                     </div>
                   );
                 })()}
+              {/* 県の一行文脈＋「この土地のページへ」リンク（体験原則2「選択の直後に必ず
+                  文脈を出す」。PREF_FILTER_IMPL_BRIEF.md 設計4、体験検品フォローアップ§3・4）。
+                  県には DB の総論が無いため visibleItems から機械的に数えた3群（0件の群は
+                  出さない）に、各群の代表（先頭最大3件・ランキングにしない）の名前を添える。
+                  ジャンル絞り込みと同時のときもここに出す（上のジャンル総論の下に続く）。 */}
+              {prefFilter && prefContextCounts && (
+                <div className="mt-1.5 space-y-1.5">
+                  {(() => {
+                    const parts = [
+                      buildPrefContextLine("prefContextDish", prefContextCounts.dish),
+                      buildPrefContextLine("prefContextIngredient", prefContextCounts.ingredient),
+                      buildPrefContextLine("prefContextPrep", prefContextCounts.preparation),
+                    ].filter((s): s is string => s !== null);
+                    if (parts.length === 0) return null;
+                    return (
+                      <p className="text-sm leading-relaxed">
+                        {parts.join(locale === "ja" ? "・" : " / ")}
+                      </p>
+                    );
+                  })()}
+                  <Link
+                    href={`/region/${PREF_SLUGS[prefFilter as Prefecture]}`}
+                    className={buttonVariants({ variant: "outline", size: "sm" })}
+                  >
+                    {t("prefPageLink")}
+                  </Link>
+                </div>
+              )}
               {/* タグ絞り込み中の定義（実装部隊の報告「タグ絞り込み中に文脈が無い」対応）。
                   ジャンル総論と同じ見た目だが line-clamp なしで1〜2行（tags.definition は短文）。
                   definition は日本語のみのカラムのため /en では出さない（多言語正規化は後日対応。

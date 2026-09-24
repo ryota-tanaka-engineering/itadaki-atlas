@@ -50,6 +50,8 @@
     "prefContextDish": "● {count} born here",
     "prefContextIngredient": "■ {count} raised here",
     "prefContextPrep": "◆ {count} prepared here",
+    "prefContextExamples": "({names})",
+    "prefContextMore": "and more",
     "prefPageLink": "See this prefecture's page",
     "clusterAriaLabel": "{pref} — {count} items. Select to filter by this prefecture",
     "pinAriaLabel": "{name} ({prefCity}, {style})",

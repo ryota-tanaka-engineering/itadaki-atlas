@@ -50,6 +50,8 @@
     "prefContextDish": "●生まれた料理 {count}件",
     "prefContextIngredient": "■育てる食材 {count}件",
     "prefContextPrep": "◆仕込む {count}件",
+    "prefContextExamples": "（{names}）",
+    "prefContextMore": "ほか",
     "prefPageLink": "この土地のページへ",
     "clusterAriaLabel": "{pref} {count}件。選ぶとこの県に絞り込みます",
     "pinAriaLabel": "{name}（{prefCity}・{style}）",
