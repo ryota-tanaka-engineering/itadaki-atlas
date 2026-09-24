@@ -18,6 +18,8 @@ const eslintConfig = defineConfig([
     // Supabase CLI の生成物（ローカルスタックの一時ファイル）
     "supabase/.temp/**",
     "supabase/.branches/**",
+    // 部隊運用の台帳・投入補助スクリプト（アプリのソースではない）
+    "data/ledgers/**",
   ]),
 ]);
 
