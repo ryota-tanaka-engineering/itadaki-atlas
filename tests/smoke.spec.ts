@@ -1255,3 +1255,69 @@ test.describe("食べに行く前にガイド（マナー・注文攻略・支�
     await expect(page.getByRole("heading", { name: "じぶ煮", level: 1 })).toBeVisible();
   });
 });
+
+test.describe("場面（2026-09-24）", () => {
+  test("/ja/guide に「場面からさがす」とラーメン屋チップが出る", async ({ page }) => {
+    await page.goto("/ja/guide");
+    await expect(page.getByRole("heading", { name: "食べに行く前に", level: 1 })).toBeVisible();
+
+    const scenesSection = page.locator("section", {
+      has: page.getByRole("heading", { name: "場面からさがす" }),
+    });
+    await expect(scenesSection).toBeVisible();
+    const ramenShopLink = scenesSection.getByRole("link", { name: "ラーメン屋" });
+    await expect(ramenShopLink).toBeVisible();
+
+    await ramenShopLink.click();
+    await expect(page.getByRole("heading", { name: "ラーメン屋", level: 1 })).toBeVisible();
+  });
+
+  test("/ja/guide/scene/ramen-shop に券売機ガイドとラーメンのジャンルチップが出る", async ({ page }) => {
+    await page.goto("/ja/guide/scene/ramen-shop");
+    await expect(page.getByRole("heading", { name: "ラーメン屋", level: 1 })).toBeVisible();
+
+    const orderingSection = page.locator("section", { has: page.getByRole("heading", { name: "注文" }) });
+    await expect(orderingSection.getByRole("link", { name: /券売機の読み方/ })).toBeVisible();
+
+    const foodsSection = page.locator("section", {
+      has: page.getByRole("heading", { name: "この場面の食べもの" }),
+    });
+    const ramenGenreLink = foodsSection.getByRole("link", { name: "ラーメン" });
+    await expect(ramenGenreLink).toBeVisible();
+    await ramenGenreLink.click();
+    await expect(page.getByRole("heading", { name: "ラーメン", level: 1 })).toBeVisible();
+  });
+
+  test("/ja/ramen に「食べに行く前に」とラーメン屋チップが出る", async ({ page }) => {
+    await page.goto("/ja/ramen");
+    await expect(page.getByRole("heading", { name: "ラーメン", level: 1 })).toBeVisible();
+
+    const beforeYouGoSection = page.locator("section", {
+      has: page.getByRole("heading", { name: "食べに行く前に" }),
+    });
+    await expect(beforeYouGoSection).toBeVisible();
+    const ramenShopLink = beforeYouGoSection.getByRole("link", { name: "ラーメン屋" });
+    await expect(ramenShopLink).toBeVisible();
+
+    await ramenShopLink.click();
+    await expect(page.getByRole("heading", { name: "ラーメン屋", level: 1 })).toBeVisible();
+  });
+
+  test("/en/guide/scene/ramen-shop が英語で表示される", async ({ page }) => {
+    await page.goto("/en/guide/scene/ramen-shop");
+    await expect(page.getByRole("heading", { name: "Ramen shops", level: 1 })).toBeVisible();
+
+    const orderingSection = page.locator("section", { has: page.getByRole("heading", { name: "Ordering" }) });
+    await expect(orderingSection.getByRole("link", { name: /How to read a ticket machine/ })).toBeVisible();
+
+    const foodsSection = page.locator("section", {
+      has: page.getByRole("heading", { name: "Foods you'll meet here" }),
+    });
+    await expect(foodsSection.getByRole("link", { name: "Ramen" })).toBeVisible();
+
+    const otherScenesSection = page.locator("section", {
+      has: page.getByRole("heading", { name: "Other scenes" }),
+    });
+    await expect(otherScenesSection.getByRole("link", { name: "Soba & udon shops" })).toBeVisible();
+  });
+});

@@ -45,9 +45,10 @@ const linkSlugSchema = z
 // pref/item は2026-09-12「体験と場所」で追加。pref は src/lib/prefectures.ts の
 // PREF_SLUGS の値（都道府県マスタにDBテーブルが無いため、存在検証は import 側で
 // PREF_SLUGS 集合との突合で行う）。item は food_items.slug（既存 genre/shelf/tag と
-// 同じくDBに存在検証を委ねる）
+// 同じくDBに存在検証を委ねる）。scene は2026-09-24「場面」で追加。GUIDE_SCENES
+// （コード定数。DBテーブルを持たない）の slug 集合との突合で存在検証する（pref と同じ流儀）
 export const guideLinkSchema = z.object({
-  kind: z.enum(["genre", "shelf", "tag", "pref", "item"]),
+  kind: z.enum(["genre", "shelf", "tag", "pref", "item", "scene"]),
   slug: linkSlugSchema,
 });
 

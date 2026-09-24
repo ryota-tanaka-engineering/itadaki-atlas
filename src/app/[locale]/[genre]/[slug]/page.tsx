@@ -24,7 +24,7 @@ import { ItemConnections, type ConnectionCard, type RegionPill } from "@/feature
 import { CutDiagram } from "@/features/map/CutDiagram";
 import { speciesForGenre } from "@/features/map/cutDiagramData";
 import { LineageTree, type LineageNode } from "@/features/map/LineageTree";
-import { fetchGuidesForItem } from "@/features/guide/queries";
+import { fetchGuidesForItem, GUIDE_SCENES } from "@/features/guide/queries";
 import { localeAlternates } from "@/lib/seo";
 import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
@@ -100,6 +100,12 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
   // 名前つき関係で既に出ているアイテムは同県リストから外す（重複表示を避ける）
   const relatedSlugs = new Set(related.map((r) => r.slug));
   const samePref = samePrefAll.filter((r) => !relatedSlugs.has(r.slug));
+
+  // この item の genreSlug を含む場面（2026-09-24「場面」。GUIDE_SCENES はコード定数
+  // なのでDB問い合わせ不要）。「食べに行く前に」節のガイド一覧の下に追加する
+  const itemScenes = item.genreSlug
+    ? GUIDE_SCENES.filter((s) => (s.genres as readonly string[]).includes(item.genreSlug as string))
+    : [];
 
   // 英訳は「名前」ではなく説明訳なので、英語表示でも見出しはローマ字にする
   // （.doc/00_concept/05_brand.md §5）。説明訳は副題として添える。
@@ -316,6 +322,22 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
                     </li>
                   ))}
                 </ul>
+
+                {/* この場面で（2026-09-24「場面」。場面が無ければ出さない） */}
+                {itemScenes.length > 0 && (
+                  <ul className="mt-3 flex flex-wrap gap-2">
+                    {itemScenes.map((s) => (
+                      <li key={s.slug}>
+                        <Link
+                          href={`/guide/scene/${s.slug}`}
+                          className="border-border hover:bg-muted/50 inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm"
+                        >
+                          {tg(`scene.${s.slug}`)}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </section>
             )}
 

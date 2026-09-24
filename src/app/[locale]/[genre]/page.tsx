@@ -21,6 +21,7 @@ import {
 import { translateCityName } from "@/features/map/placeNames";
 import { ChainBridgeSection } from "@/features/map/ChainBridgeSection";
 import { PIN_STROKE, styleColor } from "@/features/map/styles";
+import { GUIDE_SCENES, fetchGuidesForItem } from "@/features/guide/queries";
 import { localeAlternates } from "@/lib/seo";
 import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
@@ -104,14 +105,20 @@ export default async function GenreOrShelfPage({ params }: { params: Promise<Par
 async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string; locale: string }) {
   const t = await getTranslations("genre");
   const tp = await getTranslations("prefecture");
-  const [items, chains, placeNames, messages] = await Promise.all([
+  const tg = await getTranslations("guide");
+  const [items, chains, placeNames, messages, beforeYouGoGuides] = await Promise.all([
     fetchGenreItems(genreSlug, locale as Locale),
     fetchChainsForGenre(genreSlug),
     // 市区町村名の他言語表記（一覧行の発祥表記用。実装部隊の報告「/en の本場・産地
     // チップに市区町村名が日本語のまま」対応）。ja では不要。
     locale === "en" ? fetchPlaceNames("en") : Promise.resolve({}),
     getMessages(),
+    // 「食べに行く前に」（2026-09-24「場面」）。genre/shelfのいずれかにguide_linksで
+    // 結ばれたガイドを逆引きする（詳細ページ [genre]/[slug]/page.tsx と同じ関数）
+    fetchGuidesForItem({ genreSlug, shelfSlug: g.shelfSlug, tagSlugs: [] }, locale as "ja" | "en"),
   ]);
+  // この genre を含む場面（GUIDE_SCENES はコード定数なのでDB問い合わせ不要）
+  const genreScenes = GUIDE_SCENES.filter((s) => (s.genres as readonly string[]).includes(genreSlug));
   const geo = items.filter((i) => i.lat !== null);
   const nonGeo = items.filter((i) => i.lat === null);
   const isJa = locale === "ja";
@@ -278,6 +285,45 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
             {t("mapCta", { name })}
           </Link>
         </p>
+
+        {/* 食べに行く前に（2026-09-24「場面」）。この genre を含む場面のチップ＋
+            この genre に紐づくガイドの上位3件。どちらも0件なら節ごと出さない */}
+        {(genreScenes.length > 0 || beforeYouGoGuides.length > 0) && (
+          <section className="border-border mb-10 border-t pt-6">
+            <h2 className="mb-3 text-sm font-semibold">{t("beforeYouGoHeading")}</h2>
+            {genreScenes.length > 0 && (
+              <ul className="mb-3 flex flex-wrap gap-2">
+                {genreScenes.map((s) => (
+                  <li key={s.slug}>
+                    <Link
+                      href={`/guide/scene/${s.slug}`}
+                      className="border-border hover:bg-muted/50 inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm"
+                    >
+                      {tg(`scene.${s.slug}`)}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
+            {beforeYouGoGuides.length > 0 && (
+              <ul className="space-y-2">
+                {beforeYouGoGuides.map((guide) => (
+                  <li key={guide.slug}>
+                    <Link
+                      href={`/guide/${guide.slug}`}
+                      className="border-border hover:bg-muted/50 block rounded-lg border p-3"
+                    >
+                      <span className="block font-medium">{guide.title}</span>
+                      {guide.summary && (
+                        <span className="text-muted-foreground block text-xs">{guide.summary}</span>
+                      )}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            )}
+          </section>
+        )}
 
         {/* チェーンから、ご当地へ（chains.genre_slug が一致するチェーンがあるジャンルのみ） */}
         <ChainBridgeSection
