@@ -33,6 +33,18 @@
         {
           "kind": "shelf",
           "slug": "noodles"
+        },
+        {
+          "kind": "scene",
+          "slug": "ramen-shop"
+        },
+        {
+          "kind": "scene",
+          "slug": "soba-udon-shop"
+        },
+        {
+          "kind": "scene",
+          "slug": "teishoku-shokudo"
         }
       ]
     },
@@ -65,6 +77,22 @@
         {
           "kind": "genre",
           "slug": "sushi"
+        },
+        {
+          "kind": "scene",
+          "slug": "ramen-shop"
+        },
+        {
+          "kind": "scene",
+          "slug": "sushi-restaurant"
+        },
+        {
+          "kind": "scene",
+          "slug": "izakaya"
+        },
+        {
+          "kind": "scene",
+          "slug": "teishoku-shokudo"
         }
       ]
     },
@@ -97,6 +125,26 @@
         {
           "kind": "genre",
           "slug": "ramen"
+        },
+        {
+          "kind": "scene",
+          "slug": "ramen-shop"
+        },
+        {
+          "kind": "scene",
+          "slug": "soba-udon-shop"
+        },
+        {
+          "kind": "scene",
+          "slug": "sushi-restaurant"
+        },
+        {
+          "kind": "scene",
+          "slug": "izakaya"
+        },
+        {
+          "kind": "scene",
+          "slug": "teishoku-shokudo"
         }
       ]
     },
@@ -147,6 +195,10 @@
         {
           "kind": "tag",
           "slug": "handheld"
+        },
+        {
+          "kind": "scene",
+          "slug": "konbini-super"
         }
       ]
     },
@@ -191,6 +243,10 @@
         {
           "kind": "shelf",
           "slug": "seafood"
+        },
+        {
+          "kind": "scene",
+          "slug": "konbini-super"
         }
       ]
     },
@@ -245,6 +301,10 @@
         {
           "kind": "tag",
           "slug": "souvenir_non_confection"
+        },
+        {
+          "kind": "scene",
+          "slug": "depachika-bussanten"
         }
       ]
     },
@@ -289,6 +349,10 @@
         {
           "kind": "shelf",
           "slug": "rice"
+        },
+        {
+          "kind": "scene",
+          "slug": "station-airport"
         }
       ]
     },
@@ -349,6 +413,10 @@
         {
           "kind": "shelf",
           "slug": "fruits"
+        },
+        {
+          "kind": "scene",
+          "slug": "market"
         }
       ]
     },
@@ -437,6 +505,10 @@
         {
           "kind": "item",
           "slug": "jibuni"
+        },
+        {
+          "kind": "scene",
+          "slug": "market"
         }
       ]
     },
@@ -835,6 +907,10 @@
         {
           "kind": "tag",
           "slug": "street_food"
+        },
+        {
+          "kind": "scene",
+          "slug": "festival-yatai"
         }
       ]
     },
@@ -1225,6 +1301,10 @@
         {
           "kind": "item",
           "slug": "maguro"
+        },
+        {
+          "kind": "scene",
+          "slug": "market"
         }
       ]
     },
@@ -1267,6 +1347,10 @@
         {
           "kind": "item",
           "slug": "kaisendon"
+        },
+        {
+          "kind": "scene",
+          "slug": "market"
         }
       ]
     },
@@ -1309,6 +1393,10 @@
         {
           "kind": "item",
           "slug": "ikura-don"
+        },
+        {
+          "kind": "scene",
+          "slug": "market"
         }
       ]
     },
@@ -1355,6 +1443,10 @@
         {
           "kind": "item",
           "slug": "uni-gunkan"
+        },
+        {
+          "kind": "scene",
+          "slug": "market"
         }
       ]
     },
@@ -1393,6 +1485,10 @@
         {
           "kind": "pref",
           "slug": "ishikawa"
+        },
+        {
+          "kind": "scene",
+          "slug": "market"
         }
       ]
     },
@@ -1435,6 +1531,10 @@
         {
           "kind": "item",
           "slug": "tamagoyaki"
+        },
+        {
+          "kind": "scene",
+          "slug": "market"
         }
       ]
     },
@@ -1473,6 +1573,10 @@
         {
           "kind": "pref",
           "slug": "tokyo"
+        },
+        {
+          "kind": "scene",
+          "slug": "festival-yatai"
         }
       ]
     },
@@ -1503,7 +1607,12 @@
           "accessed_at": "2026-09-13"
         }
       ],
-      "links": []
+      "links": [
+        {
+          "kind": "scene",
+          "slug": "festival-yatai"
+        }
+      ]
     },
     {
       "slug": "matsuri-food-stalls",
@@ -1546,6 +1655,10 @@
         {
           "kind": "item",
           "slug": "takoyaki"
+        },
+        {
+          "kind": "scene",
+          "slug": "festival-yatai"
         }
       ]
     },
@@ -1580,6 +1693,10 @@
         {
           "kind": "genre",
           "slug": "ramen"
+        },
+        {
+          "kind": "scene",
+          "slug": "festival-yatai"
         }
       ]
     },
@@ -1614,6 +1731,10 @@
         {
           "kind": "genre",
           "slug": "rice-varieties"
+        },
+        {
+          "kind": "scene",
+          "slug": "festival-yatai"
         }
       ]
     },
@@ -1644,7 +1765,12 @@
           "accessed_at": "2026-09-13"
         }
       ],
-      "links": []
+      "links": [
+        {
+          "kind": "scene",
+          "slug": "festival-yatai"
+        }
+      ]
     },
     {
       "slug": "beer-hall-craft-beer-festival",
@@ -1673,7 +1799,12 @@
           "accessed_at": "2026-09-13"
         }
       ],
-      "links": []
+      "links": [
+        {
+          "kind": "scene",
+          "slug": "festival-yatai"
+        }
+      ]
     },
     {
       "slug": "nada-gogo-brewery-tour",
@@ -1714,6 +1845,10 @@
         {
           "kind": "genre",
           "slug": "nihonshu"
+        },
+        {
+          "kind": "scene",
+          "slug": "brewery-factory"
         }
       ]
     },
@@ -1756,6 +1891,10 @@
         {
           "kind": "genre",
           "slug": "nihonshu"
+        },
+        {
+          "kind": "scene",
+          "slug": "brewery-factory"
         }
       ]
     },
@@ -1786,7 +1925,12 @@
           "accessed_at": "2026-09-13"
         }
       ],
-      "links": []
+      "links": [
+        {
+          "kind": "scene",
+          "slug": "brewery-factory"
+        }
+      ]
     },
     {
       "slug": "food-factory-tour",
@@ -1815,7 +1959,12 @@
           "accessed_at": "2026-09-13"
         }
       ],
-      "links": []
+      "links": [
+        {
+          "kind": "scene",
+          "slug": "brewery-factory"
+        }
+      ]
     },
     {
       "slug": "japanese-cooking-experience",
@@ -1852,6 +2001,10 @@
         {
           "kind": "genre",
           "slug": "sushi"
+        },
+        {
+          "kind": "scene",
+          "slug": "brewery-factory"
         }
       ]
     },
@@ -1906,6 +2059,10 @@
         {
           "kind": "tag",
           "slug": "souvenir_non_confection"
+        },
+        {
+          "kind": "scene",
+          "slug": "depachika-bussanten"
         }
       ]
     },
@@ -1956,6 +2113,10 @@
         {
           "kind": "tag",
           "slug": "souvenir_non_confection"
+        },
+        {
+          "kind": "scene",
+          "slug": "depachika-bussanten"
         }
       ]
     },
@@ -2002,6 +2163,10 @@
         {
           "kind": "shelf",
           "slug": "rice"
+        },
+        {
+          "kind": "scene",
+          "slug": "station-airport"
         }
       ]
     }

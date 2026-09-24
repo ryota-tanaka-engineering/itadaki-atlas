@@ -14,6 +14,7 @@ import {
   fetchTagsWithCounts,
   type Locale,
 } from "@/features/map/queries";
+import { fetchSceneCounts, GUIDE_SCENES } from "@/features/guide/queries";
 
 // データ取得はサーバー側（Platform 01_architecture.md §3）。
 // src/app は薄く保ち、ロジックは features に置く（ia-nextjs-standards）。
@@ -37,26 +38,32 @@ export default async function Home({
   setRequestLocale(locale);
 
   const t = await getTranslations("site");
-  const [items, genres, honbaPins, honbaGroupsAll, chains, prefs, tags, placeNames] = await Promise.all([
-    fetchMapItems(locale as Locale),
-    fetchGenres(),
-    // 本場ピン（2026-09）。発祥ピンとは別経路で取得し、地図側でだけ合流させる
-    // （索引・件数表記は従来どおり発祥のみ。BrowseShell 参照）。
-    fetchHonbaPins(locale as Locale),
-    // トップ情報モジュール「本場をたどる」用（2026-09）。地図ピンとは別に、
-    // アイテム単位で集約した本場データ（BrowseShell 参照）。全件はここでは絞らない
-    // （選定は下の pickHonbaGroups がサーバー側で行う）。
-    fetchHonbaGroups(),
-    // トップ情報モジュール「チェーンから、ご当地へ」用（2026-09）。ジャンル非依存の全チェーン。
-    fetchAllChains(),
-    // トップ情報モジュール「このサイトについて」の件数（DB実数）用。
-    fetchPrefsWithItems(),
-    // トップ「興味からさがす」カードのタグチップ用（件数はサーバー側で集計。/tags と同じクエリ）。
-    fetchTagsWithCounts(),
-    // 市区町村名の他言語表記（/en の本場・産地チップ用）。ja では不要なので空のまま
-    // （実装部隊の報告「/en の本場・産地チップに市区町村名が日本語のまま」対応）。
-    locale === "en" ? fetchPlaceNames("en") : Promise.resolve({}),
-  ]);
+  const [items, genres, honbaPins, honbaGroupsAll, chains, prefs, tags, placeNames, sceneCounts] =
+    await Promise.all([
+      fetchMapItems(locale as Locale),
+      fetchGenres(),
+      // 本場ピン（2026-09）。発祥ピンとは別経路で取得し、地図側でだけ合流させる
+      // （索引・件数表記は従来どおり発祥のみ。BrowseShell 参照）。
+      fetchHonbaPins(locale as Locale),
+      // トップ情報モジュール「本場をたどる」用（2026-09）。地図ピンとは別に、
+      // アイテム単位で集約した本場データ（BrowseShell 参照）。全件はここでは絞らない
+      // （選定は下の pickHonbaGroups がサーバー側で行う）。
+      fetchHonbaGroups(),
+      // トップ情報モジュール「チェーンから、ご当地へ」用（2026-09）。ジャンル非依存の全チェーン。
+      fetchAllChains(),
+      // トップ情報モジュール「このサイトについて」の件数（DB実数）用。
+      fetchPrefsWithItems(),
+      // トップ「興味からさがす」カードのタグチップ用（件数はサーバー側で集計。/tags と同じクエリ）。
+      fetchTagsWithCounts(),
+      // 市区町村名の他言語表記（/en の本場・産地チップ用）。ja では不要なので空のまま
+      // （実装部隊の報告「/en の本場・産地チップに市区町村名が日本語のまま」対応）。
+      locale === "en" ? fetchPlaceNames("en") : Promise.resolve({}),
+      // トップシート「食べに行く前に」カード用（2026-09-24。体験検品「SPにガイドへの
+      // 入口が無い」対応）。ISRを壊さないよう queries.ts 側で lib/supabase/static を使用
+      fetchSceneCounts(locale as "ja" | "en"),
+    ]);
+  // 件数>0の場面のみ（/guideの「場面からさがす」と同じ方針。行き止まり入口を作らない）
+  const guideScenes = GUIDE_SCENES.filter((s) => (sceneCounts[s.slug] ?? 0) > 0).map((s) => s.slug);
 
   // 「今日の一皿」「土地の物語から」の日付選定はサーバー側で1回だけ確定させる
   // （dailyPicks.ts。ランキング・「おすすめ」ではない中立な順繰り）。同じ日時を使い回す。
@@ -99,6 +106,7 @@ export default async function Home({
         siteCounts={{ items: items.length, prefs: prefs.length }}
         allTags={tags}
         placeNames={placeNames}
+        guideScenes={guideScenes}
       />
     </main>
   );

@@ -4,7 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CoverHeader } from "@/components/CoverHeader";
-import { fetchGuideBySlug, fetchOtherGuides } from "@/features/guide/queries";
+import { fetchGuideBySlug, fetchOtherGuides, fetchScenesForGuide } from "@/features/guide/queries";
 import { parseGuideMarkdown } from "@/features/guide/markdown";
 import { GuideBody } from "@/features/guide/GuideBody";
 import { PositionBand } from "@/features/map/PositionBand";
@@ -50,7 +50,10 @@ export default async function GuideDetailPage({ params }: { params: Promise<Para
 
   const t = await getTranslations("guide");
   const tp = await getTranslations("prefecture");
-  const { sameKind, nextKindFirst } = await fetchOtherGuides(guide.kind, guide.slug, locale as Locale);
+  const [{ sameKind, nextKindFirst }, sceneSlugs] = await Promise.all([
+    fetchOtherGuides(guide.kind, guide.slug, locale as Locale),
+    fetchScenesForGuide(guide.slug),
+  ]);
 
   const blocks = guide.bodyMd ? parseGuideMarkdown(guide.bodyMd) : [];
 
@@ -95,6 +98,25 @@ export default async function GuideDetailPage({ params }: { params: Promise<Para
                       className="border-border hover:bg-muted/50 inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm"
                     >
                       {link.name}
+                    </Link>
+                  </li>
+                ))}
+              </ul>
+            </section>
+          )}
+
+          {/* この場面で（2026-09-24「場面」。場面が無ければ出さない） */}
+          {sceneSlugs.length > 0 && (
+            <section className="border-border mt-8 border-t pt-6">
+              <h2 className="mb-3 text-sm font-semibold">{t("sceneHeading")}</h2>
+              <ul className="flex flex-wrap gap-2">
+                {sceneSlugs.map((sceneSlug) => (
+                  <li key={sceneSlug}>
+                    <Link
+                      href={`/guide/scene/${sceneSlug}`}
+                      className="border-border hover:bg-muted/50 inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm"
+                    >
+                      {t("sceneChip", { name: t(`scene.${sceneSlug}`) })}
                     </Link>
                   </li>
                 ))}

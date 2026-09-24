@@ -9,7 +9,7 @@ import {
   fetchShelves,
   fetchTagsWithCounts,
 } from "@/features/map/queries";
-import { fetchAllGuideSlugs } from "@/features/guide/queries";
+import { fetchAllGuideSlugs, fetchSceneCounts, GUIDE_SCENES } from "@/features/guide/queries";
 import { SITE_URL } from "@/lib/seo";
 import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
@@ -18,7 +18,7 @@ import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
  * ロケールごとにURLを並べ、alternates で言語版を相互に示す。
  */
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
-  const [paths, genres, prefs, shelves, tags, chainSlugs, guideSlugs] = await Promise.all([
+  const [paths, genres, prefs, shelves, tags, chainSlugs, guideSlugs, sceneCounts] = await Promise.all([
     fetchPublishedPaths(),
     fetchGenres(),
     fetchPrefsWithItems(),
@@ -26,6 +26,9 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     fetchTagsWithCounts(),
     fetchAllChainSlugs(),
     fetchAllGuideSlugs(),
+    // 場面ページ用（2026-09-24「場面」）。件数>0の場面だけ載せる（/guide 一覧と同じ方針。
+    // localeによる差はほぼ無い想定なのでtags/genresと同じく単一で取得する）
+    fetchSceneCounts("ja"),
   ]);
 
   const entry = (path: string): MetadataRoute.Sitemap[number][] =>
@@ -63,5 +66,8 @@ export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
     ...tags.filter((tg) => tg.itemCount > 0).flatMap((tg) => entry(`/tag/${tg.slug}`)),
     ...chainSlugs.flatMap((slug) => entry(`/chain/${slug}`)),
     ...guideSlugs.flatMap((slug) => entry(`/guide/${slug}`)),
+    ...GUIDE_SCENES.filter((s) => (sceneCounts[s.slug] ?? 0) > 0).flatMap((s) =>
+      entry(`/guide/scene/${s.slug}`),
+    ),
   ];
 }

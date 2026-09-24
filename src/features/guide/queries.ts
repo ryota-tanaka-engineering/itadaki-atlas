@@ -11,12 +11,14 @@ import enMessages from "../../../messages/en.json";
 import { pickGuideTranslation, type Locale } from "./i18n";
 import { GUIDE_KINDS, type GuideKind } from "./kinds";
 import { pickOtherGuides, type OtherGuides } from "./related";
+import { findGuideScene, GUIDE_SCENES } from "./scenes";
 import type { GuideDetail, GuideLink, GuideSummary } from "./types";
 
 export type { Locale } from "./i18n";
 export type { GuideKind } from "./kinds";
 export type { OtherGuides } from "./related";
 export type { GuideDetail, GuideLink, GuideSummary } from "./types";
+export type { GuideScene, GuideSceneSlug } from "./scenes";
 
 type TranslationRow = {
   locale: string;
@@ -322,6 +324,85 @@ export async function fetchGuidesForItem(
   return guides.slice(0, limit);
 }
 
+/**
+ * 場面ページ（`/guide/scene/[scene]`）用（逆引き）。guide_links の
+ * `target_kind='scene'` から、その場面に紐づくガイドを kind→sort_order 順で返す
+ * （呼び出し側でkind別にグルーピングする。`/guide` 一覧と同じ方針）。
+ * 場面のマスタは GUIDE_SCENES（コード定数）で持つため、slug自体の存在検証は
+ * 呼び出し側（ページ）が `findGuideScene` で行う。
+ */
+export async function fetchGuidesForScene(scene: string, locale: Locale): Promise<GuideSummary[]> {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("guide_links")
+    .select(
+      `guide_id,
+       guides!inner ( slug, kind, sort_order, pref, city, guide_translations ( locale, title, summary, when_note ) )`,
+    )
+    .eq("target_kind", "scene")
+    .eq("target_slug", scene);
+  if (error) throw new Error(`fetchGuidesForScene failed: ${error.message}`);
+
+  const seen = new Set<string>();
+  const guides: GuideSummary[] = [];
+  for (const row of data ?? []) {
+    const g = Array.isArray(row.guides) ? row.guides[0] : row.guides;
+    if (!g || seen.has(g.slug)) continue;
+    const summary = toSummary(g, (g.guide_translations ?? []) as TranslationRow[], locale);
+    if (!summary) continue;
+    seen.add(g.slug);
+    guides.push(summary);
+  }
+  guides.sort((a, b) => {
+    const kindOrder = GUIDE_KINDS.indexOf(a.kind) - GUIDE_KINDS.indexOf(b.kind);
+    return kindOrder !== 0 ? kindOrder : a.sortOrder - b.sortOrder;
+  });
+  return guides;
+}
+
+/**
+ * `/guide` 一覧の「場面からさがす」節用。場面ごとの紐づくガイド件数を返す
+ * （0件の場面はチップを出さない。CLAUDE.md体験原則6の裏側＝行き止まり入口を作らない）。
+ */
+export async function fetchSceneCounts(locale: Locale): Promise<Record<string, number>> {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("guide_links")
+    .select(`target_slug, guides!inner ( slug, guide_translations ( locale, title ) )`)
+    .eq("target_kind", "scene");
+  if (error) throw new Error(`fetchSceneCounts failed: ${error.message}`);
+
+  const seen = new Set<string>();
+  const counts: Record<string, number> = {};
+  for (const row of data ?? []) {
+    const g = Array.isArray(row.guides) ? row.guides[0] : row.guides;
+    if (!g) continue;
+    const t = pickGuideTranslation((g.guide_translations ?? []) as TranslationRow[], locale);
+    if (!t) continue;
+    const key = `${row.target_slug}:${g.slug}`;
+    if (seen.has(key)) continue;
+    seen.add(key);
+    counts[row.target_slug] = (counts[row.target_slug] ?? 0) + 1;
+  }
+  return counts;
+}
+
+/**
+ * ガイド詳細ページ（`/guide/[slug]`）「この場面で」チップ用（逆引き）。
+ * そのガイドに紐づく場面のslugを返す（ラベル・href の解決は GUIDE_SCENES + i18n を使う
+ * 呼び出し側の責務。pref/item と違いDBに名前を持たないため）。
+ */
+export async function fetchScenesForGuide(slug: string): Promise<string[]> {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("guide_links")
+    .select(`target_slug, guides!inner ( slug )`)
+    .eq("target_kind", "scene")
+    .eq("guides.slug", slug);
+  if (error) throw new Error(`fetchScenesForGuide failed: ${error.message}`);
+  return [...new Set((data ?? []).map((r) => r.target_slug))];
+}
+
 /** sitemap用。全ガイドのslug。 */
 export async function fetchAllGuideSlugs(): Promise<string[]> {
   const db = await createClient();
@@ -332,4 +413,4 @@ export async function fetchAllGuideSlugs(): Promise<string[]> {
   return data.map((g) => g.slug);
 }
 
-export { GUIDE_KINDS };
+export { findGuideScene, GUIDE_KINDS, GUIDE_SCENES };

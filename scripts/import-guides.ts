@@ -28,6 +28,7 @@ import { readFileSync } from "node:fs";
 import { createClient } from "@supabase/supabase-js";
 
 import { guidesFileSchema, type GuideImportRow } from "../src/features/guide/schemas.ts";
+import { GUIDE_SCENE_SLUGS } from "../src/features/guide/scenes.ts";
 import { PREF_SLUGS } from "../src/lib/prefectures.ts";
 
 function parseArgs(argv: string[]) {
@@ -72,7 +73,7 @@ async function main() {
   }
   const db = createClient(url, key, { auth: { persistSession: false } });
 
-  // links の参照先（genre/shelf/tag/pref/item）が実在するか、全件を事前に検証する。
+  // links の参照先（genre/shelf/tag/pref/item/scene）が実在するか、全件を事前に検証する。
   // 1件でも欠けていたら何も書き込まずに落とす。
   const slugsOf = (kind: GuideImportRow["links"][number]["kind"]) =>
     [...new Set(guides.flatMap((g) => g.links.filter((l) => l.kind === kind).map((l) => l.slug)))];
@@ -81,6 +82,7 @@ async function main() {
   const tagSlugs = slugsOf("tag");
   const prefSlugs = slugsOf("pref");
   const itemSlugs = slugsOf("item");
+  const sceneSlugs = slugsOf("scene");
 
   const [
     { data: genres, error: genresErr },
@@ -115,12 +117,21 @@ async function main() {
     process.exit(1);
   }
 
+  // scene も pref と同じく静的集合（GUIDE_SCENES。DBテーブルを持たない）との突合で検証する
+  const validSceneSlugs = new Set(GUIDE_SCENE_SLUGS as readonly string[]);
+  const sceneMissing = sceneSlugs.filter((s) => !validSceneSlugs.has(s));
+  if (sceneMissing.length) {
+    console.error(`存在しない場面slug（guide_links scene）:\n  ${sceneMissing.join("\n  ")}`);
+    process.exit(1);
+  }
+
   const existing = {
     genre: new Set((genres ?? []).map((x) => x.slug)),
     shelf: new Set((shelves ?? []).map((x) => x.slug)),
     tag: new Set((tags ?? []).map((x) => x.slug)),
     pref: validPrefSlugs,
     item: new Set((items ?? []).map((x) => x.slug)),
+    scene: validSceneSlugs,
   };
   const missing = guides.flatMap((g) =>
     g.links
