@@ -1,4 +1,4 @@
-// 郷土料理 Tier2 本文束の機械検査。使い方: node data/ledgers/check-tier2.js <pref>...（data/bodies3/tier2-<pref>.json を検査）
+// 郷土料理 Tier2 本文束の機械検査。使い方: node data/ledgers/check-tier2.cjs <pref>...（data/bodies3/tier2-<pref>.json を検査）
 const fs = require("fs");
 const ng = /三大|一番|日本一|No\.?1|受賞|認定|百選|遺産|記念日/;
 const H = ["## 何でできているか", "## どう作るのか", "## なぜこの形になったのか"];
