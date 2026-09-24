@@ -106,8 +106,16 @@
 }
 
 /* 地図右上の MapLibre 純正コントロール（NavigationControl）が
-   固定ヘッダーの下に隠れないよう、その分だけ下げる。 */
-.maplibregl-ctrl-top-right {
+   固定ヘッダーの下に隠れないよう、その分だけ下げる。
+   MapLibre 自身の CSS（maplibre-gl.css）も同じ単一クラスで `top: 0` を定義しており、
+   Next.js のCSSチャンク注入順（クライアントコンポーネントである MapView.tsx が
+   import するスタイルは、ルートレイアウトの globals.css より後に <head> へ入ることがある）
+   次第では詳細度が同点のこのルールが負けて、ズーム＋／−ボタンがヘッダー裏に隠れて
+   押せなくなる（体験検品「PCでズームボタンが押せない」対応。elementFromPoint で
+   ヘッダーが返っていた＝top:0のまま重なっていたことを実測で確認）。
+   .maplibregl-map を親に重ねた二重クラスにして詳細度を上げ、読み込み順に依存せず
+   必ずこちらが勝つようにする。 */
+.maplibregl-map .maplibregl-ctrl-top-right {
   top: calc(var(--header-height) + 0.5rem);
 }
 

@@ -184,6 +184,20 @@ type Props = {
    * map.resize() と再フィットを行う（BrowseShell 側のCSS transition完了を待つ）。
    */
   compact: boolean;
+  /**
+   * 県クラスタのタップで、地図の絞り込みだけでなくシート側も県の結果ビューに
+   * する（PREF_FILTER_IMPL_BRIEF.md 設計2）。flyToPrefecture の直後に呼ぶ。
+   */
+  onPrefSelect?: (pref: string) => void;
+  /** 「全国に戻る」ボタンで県絞り込みも解除する（同設計2）。flyToJapan の直後に呼ぶ。 */
+  onPrefClear?: () => void;
+  /**
+   * 親側の操作（絞り込み解除チップ・#place/#type ハッシュ遷移）で地図を全国表示へ
+   * 戻すためのシグナル（同設計3）。MapView は flyToJapan を外部に公開していないため、
+   * 値が変わるたびに useEffect で flyToJapan を呼ぶ数値プロップにする
+   * （既存の lastFitRef の流儀に合わせる）。
+   */
+  resetToJapanSignal?: number;
 };
 
 /** 県ごとの集約マーカー（2026-09 全国表示の作り直し）。位置はその県のピン群の重心。 */
@@ -202,6 +216,9 @@ export function MapView({
   showLegend,
   onClusterViewChange,
   compact,
+  onPrefSelect,
+  onPrefClear,
+  resetToJapanSignal,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -227,6 +244,15 @@ export function MapView({
   const onClusterViewChangeRef = useRef(onClusterViewChange);
   useEffect(() => {
     onClusterViewChangeRef.current = onClusterViewChange;
+  });
+  // onPrefSelect/onPrefClear も同じ理由でrefに逃がす（PREF_FILTER_IMPL_BRIEF.md 設計2）。
+  const onPrefSelectRef = useRef(onPrefSelect);
+  useEffect(() => {
+    onPrefSelectRef.current = onPrefSelect;
+  });
+  const onPrefClearRef = useRef(onPrefClear);
+  useEffect(() => {
+    onPrefClearRef.current = onPrefClear;
   });
   // WebGL コンテキスト喪失（実機での「触ってたら地図が消えた」報告への防御。
   // iOS Safari はメモリ圧迫時に WebGL コンテキストを強制破棄することがある）に遭遇したら
@@ -429,6 +455,19 @@ export function MapView({
 
     const evaluate = () => {
       const clusterView = map.getZoom() < CLUSTER_ZOOM_THRESHOLD;
+      // 手動のピンチズーム/ホイールでクラスタ表示まで戻ったときも lastFitRef を
+      // 全国へ更新する（体験検品「手で地図を縮小して全国表示に戻したとき地図側が
+      // 取り残される」対応）。flyToJapan（「全国に戻る」ボタン・resetToJapanSignal）
+      // 経由でしか更新されていなかったため、手動ズームアウト後に compact が変化して
+      // resize+再フィットが走ると、古い県ターゲット（lastFitRef.current の kind="pref"）
+      // へ fitBounds してしまい、せっかくのズームアウトを巻き戻して
+      // 「compact=true に戻る→個別ピンに戻る→全国に戻るボタンが再度出る」の
+      // 無限にフラップする状態になっていた。実際のズームが閾値を下回った時点で
+      // 「今は全国表示」という事実を lastFitRef にも反映させれば、以降の
+      // resize+再フィットは常に fitJapan を呼ぶようになり整合する。
+      if (clusterView) {
+        lastFitRef.current = { kind: "japan" };
+      }
       setIsClusterView((prev) => (prev === clusterView ? prev : clusterView));
       onClusterViewChangeRef.current?.(clusterView);
     };
@@ -478,6 +517,15 @@ export function MapView({
     lastFitRef.current = { kind: "japan" };
     fitJapan(map, bottomInsetRef.current, 600);
   }, []);
+
+  // 親側の操作（絞り込み解除チップ・#place/#type ハッシュ遷移）で地図を全国表示へ
+  // 戻す（PREF_FILTER_IMPL_BRIEF.md 設計3）。初回マウント時（シグナル未変化）は発火しない。
+  const resetSignalRef = useRef(resetToJapanSignal);
+  useEffect(() => {
+    if (resetToJapanSignal === undefined || resetSignalRef.current === resetToJapanSignal) return;
+    resetSignalRef.current = resetToJapanSignal;
+    flyToJapan();
+  }, [resetToJapanSignal, flyToJapan]);
 
   // ピン/集約マーカーの描画。選択状態も生成時に反映する。
   // ref に要素を溜めて後から書き換える設計は、レンダーと DOM の状態が二重管理になり
@@ -549,7 +597,11 @@ export function MapView({
         inner.style.borderColor = PIN_STROKE;
         inner.textContent = String(cluster.count);
         el.appendChild(inner);
-        el.addEventListener("click", () => flyToPrefecture(cluster.pref));
+        el.addEventListener("click", () => {
+          flyToPrefecture(cluster.pref);
+          // 県クラスタのタップは絞り込みでもある（PREF_FILTER_IMPL_BRIEF.md 設計2）。
+          onPrefSelectRef.current?.(cluster.pref);
+        });
 
         const { x, y } = points[i];
         markers.push(
@@ -667,12 +719,22 @@ export function MapView({
 
       {/* 個別ピン表示中（=県が画面の主対象になる縮尺）のみ、全国表示へ戻る導線を出す
           （2026-09 全国表示の作り直し。集約マーカータップでもピンチズームでも
-          同じ規則で切り替わるため、isClusterView の実測値だけを見る）。 */}
+          同じ規則で切り替わるため、isClusterView の実測値だけを見る）。
+          top-40（160px）は MapLibre 純正のズーム＋／－コントロール（globals.css
+          `.maplibregl-map .maplibregl-ctrl-top-right` でヘッダー分下げた分、
+          実測で SP=56px〜124px・PC=70px〜138px を占有）の下に確実にクリアする
+          値（体験検品「全国に戻るボタンがズームボタンに重なって押せない」対応。
+          top-20 のままだと両方 top-right アンカーで重なり、ズームボタンの
+          pointer-events を奪っていた）。 */}
       {!isClusterView && (
         <button
           type="button"
-          onClick={flyToJapan}
-          className="bg-background/90 absolute top-20 right-4 z-10 rounded-lg px-3 py-2 text-xs shadow-sm backdrop-blur"
+          onClick={() => {
+            flyToJapan();
+            // 全国へ戻る＝県絞り込みの解除でもある（PREF_FILTER_IMPL_BRIEF.md 設計2）。
+            onPrefClearRef.current?.();
+          }}
+          className="bg-background/90 absolute top-40 right-4 z-10 rounded-lg px-3 py-2 text-xs shadow-sm backdrop-blur"
         >
           {t("backToNational")}
         </button>
