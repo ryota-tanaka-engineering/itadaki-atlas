@@ -91,6 +91,7 @@ export function BrowseShell({
   siteCounts,
   allTags,
   placeNames,
+  guideScenes,
 }: {
   items: BrowseItem[];
   /** 本場ピン（2026-09）。索引には出さず、地図でのみ items と合流する。 */
@@ -118,11 +119,15 @@ export function BrowseShell({
   /** 市区町村名の他言語表記（/en 用。実装部隊の報告「/en の本場・産地チップに市区町村名が
    * 日本語のまま」対応）。ja では空オブジェクトでよい（formatPrefCity は ja では参照しない）。 */
   placeNames: PlaceNameMap;
+  /** トップシート「食べに行く前に」カード（2026-09-24。体験検品「SPにガイドへの入口が
+   * 無い」対応）のチップ用。件数>0の場面のslugのみ、GUIDE_SCENES順（page.tsxで絞り込み済み）。 */
+  guideScenes: string[];
 }) {
   const t = useTranslations("browse");
   const ti = useTranslations("item");
   const tRegion = useTranslations("regionRelation");
   const tGenre = useTranslations("genre");
+  const tg = useTranslations("guide");
   const label = useMasterLabels();
   // selectedSlug は origin ピン/索引選択では item.slug そのもの、
   // honba ピン選択では mapPinKey() が返す複合キー（同じ slug が複数都市を持つため）。
@@ -854,6 +859,37 @@ export function BrowseShell({
                   className="text-primary mt-1.5 inline-block text-xs underline underline-offset-2"
                 >
                   {t("tagAllLink")}
+                </Link>
+              </div>
+
+              {/* 食べに行く前に（2026-09-24。体験検品「ヘッダーの土地／種類／興味／ガイドが
+                  SPで hidden md:flex になっていて、トップのシートにもガイドへの入口が無い」
+                  対応）。場面チップ（件数>0のみ。行き止まり入口を作らない）+ ガイド一覧へのリンク。
+                  ここは /guide の「場面からさがす」と同じ一覧なので、場面名はそのまま
+                  （「{name}で」の形にするのはジャンル/アイテムのチップと並ぶ箇所だけ。
+                  messages/*.json guide.sceneChip コメント参照） */}
+              <div className="border-border bg-background col-span-2 rounded-2xl border p-2.5">
+                <div className="mb-1.5">
+                  <span className="text-sm font-semibold">{t("guideCardTitle")}</span>
+                </div>
+                {guideScenes.length > 0 ? (
+                  <ul className="flex flex-wrap gap-1.5">
+                    {guideScenes.map((slug) => (
+                      <li key={slug}>
+                        <Link href={`/guide/scene/${slug}`} className={TAG_CHIP_CLASS}>
+                          {tg(`scene.${slug}`)}
+                        </Link>
+                      </li>
+                    ))}
+                  </ul>
+                ) : (
+                  <p className="text-muted-foreground text-xs">{t("guideCardHint")}</p>
+                )}
+                <Link
+                  href="/guide"
+                  className="text-primary mt-1.5 inline-block text-xs underline underline-offset-2"
+                >
+                  {t("guideCardAllLink")}
                 </Link>
               </div>
             </div>

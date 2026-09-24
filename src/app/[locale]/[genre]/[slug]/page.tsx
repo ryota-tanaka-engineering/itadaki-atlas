@@ -332,7 +332,7 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
                           href={`/guide/scene/${s.slug}`}
                           className="border-border hover:bg-muted/50 inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm"
                         >
-                          {tg(`scene.${s.slug}`)}
+                          {tg("sceneChip", { name: tg(`scene.${s.slug}`) })}
                         </Link>
                       </li>
                     ))}

@@ -116,7 +116,7 @@ export default async function GuideDetailPage({ params }: { params: Promise<Para
                       href={`/guide/scene/${sceneSlug}`}
                       className="border-border hover:bg-muted/50 inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm"
                     >
-                      {t(`scene.${sceneSlug}`)}
+                      {t("sceneChip", { name: t(`scene.${sceneSlug}`) })}
                     </Link>
                   </li>
                 ))}

@@ -1296,7 +1296,8 @@ test.describe("場面（2026-09-24）", () => {
       has: page.getByRole("heading", { name: "食べに行く前に" }),
     });
     await expect(beforeYouGoSection).toBeVisible();
-    const ramenShopLink = beforeYouGoSection.getByRole("link", { name: "ラーメン屋" });
+    // 場面チップは「{name}で」の形（ジャンルチップ「ラーメン」と見た目が同じでも文言で区別する）
+    const ramenShopLink = beforeYouGoSection.getByRole("link", { name: "ラーメン屋で" });
     await expect(ramenShopLink).toBeVisible();
 
     await ramenShopLink.click();
@@ -1319,5 +1320,28 @@ test.describe("場面（2026-09-24）", () => {
       has: page.getByRole("heading", { name: "Other scenes" }),
     });
     await expect(otherScenesSection.getByRole("link", { name: "Soba & udon shops" })).toBeVisible();
+  });
+
+  test("/ja のトップシートに「食べに行く前に」カードとラーメン屋チップが出る（SP 390px）", async ({
+    page,
+  }) => {
+    // 体験検品「ヘッダーの土地/種類/興味/ガイドはSPでhidden md:flex、トップのシートにも
+    // ガイドへの入口が無い」対応。土地/種類/興味の3カードに続く4枚目のカードとして追加した。
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+
+    // peak/half は overflow-hidden で下側が隠れるため、full まで開く
+    const toggle = page.getByRole("button", { name: /シートを次の段階へ/ });
+    await toggle.click(); // peak -> half
+    await toggle.click(); // half -> full
+
+    await expect(sheet.getByText("食べに行く前に")).toBeVisible();
+    // トップの一覧チップは /guide の「場面からさがす」と同じ一覧なので場面名そのまま
+    const ramenShopLink = sheet.getByRole("link", { name: "ラーメン屋" });
+    await expect(ramenShopLink).toBeVisible();
+
+    await ramenShopLink.click();
+    await expect(page.getByRole("heading", { name: "ラーメン屋", level: 1 })).toBeVisible();
   });
 });
