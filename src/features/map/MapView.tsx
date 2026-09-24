@@ -184,6 +184,20 @@ type Props = {
    * map.resize() と再フィットを行う（BrowseShell 側のCSS transition完了を待つ）。
    */
   compact: boolean;
+  /**
+   * 県クラスタのタップで、地図の絞り込みだけでなくシート側も県の結果ビューに
+   * する（PREF_FILTER_IMPL_BRIEF.md 設計2）。flyToPrefecture の直後に呼ぶ。
+   */
+  onPrefSelect?: (pref: string) => void;
+  /** 「全国に戻る」ボタンで県絞り込みも解除する（同設計2）。flyToJapan の直後に呼ぶ。 */
+  onPrefClear?: () => void;
+  /**
+   * 親側の操作（絞り込み解除チップ・#place/#type ハッシュ遷移）で地図を全国表示へ
+   * 戻すためのシグナル（同設計3）。MapView は flyToJapan を外部に公開していないため、
+   * 値が変わるたびに useEffect で flyToJapan を呼ぶ数値プロップにする
+   * （既存の lastFitRef の流儀に合わせる）。
+   */
+  resetToJapanSignal?: number;
 };
 
 /** 県ごとの集約マーカー（2026-09 全国表示の作り直し）。位置はその県のピン群の重心。 */
@@ -202,6 +216,9 @@ export function MapView({
   showLegend,
   onClusterViewChange,
   compact,
+  onPrefSelect,
+  onPrefClear,
+  resetToJapanSignal,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -227,6 +244,15 @@ export function MapView({
   const onClusterViewChangeRef = useRef(onClusterViewChange);
   useEffect(() => {
     onClusterViewChangeRef.current = onClusterViewChange;
+  });
+  // onPrefSelect/onPrefClear も同じ理由でrefに逃がす（PREF_FILTER_IMPL_BRIEF.md 設計2）。
+  const onPrefSelectRef = useRef(onPrefSelect);
+  useEffect(() => {
+    onPrefSelectRef.current = onPrefSelect;
+  });
+  const onPrefClearRef = useRef(onPrefClear);
+  useEffect(() => {
+    onPrefClearRef.current = onPrefClear;
   });
   // WebGL コンテキスト喪失（実機での「触ってたら地図が消えた」報告への防御。
   // iOS Safari はメモリ圧迫時に WebGL コンテキストを強制破棄することがある）に遭遇したら
@@ -479,6 +505,15 @@ export function MapView({
     fitJapan(map, bottomInsetRef.current, 600);
   }, []);
 
+  // 親側の操作（絞り込み解除チップ・#place/#type ハッシュ遷移）で地図を全国表示へ
+  // 戻す（PREF_FILTER_IMPL_BRIEF.md 設計3）。初回マウント時（シグナル未変化）は発火しない。
+  const resetSignalRef = useRef(resetToJapanSignal);
+  useEffect(() => {
+    if (resetToJapanSignal === undefined || resetSignalRef.current === resetToJapanSignal) return;
+    resetSignalRef.current = resetToJapanSignal;
+    flyToJapan();
+  }, [resetToJapanSignal, flyToJapan]);
+
   // ピン/集約マーカーの描画。選択状態も生成時に反映する。
   // ref に要素を溜めて後から書き換える設計は、レンダーと DOM の状態が二重管理になり
   // ずれるため採らない（アイテム数が最大でも数百なので作り直しで足りる）。
@@ -549,7 +584,11 @@ export function MapView({
         inner.style.borderColor = PIN_STROKE;
         inner.textContent = String(cluster.count);
         el.appendChild(inner);
-        el.addEventListener("click", () => flyToPrefecture(cluster.pref));
+        el.addEventListener("click", () => {
+          flyToPrefecture(cluster.pref);
+          // 県クラスタのタップは絞り込みでもある（PREF_FILTER_IMPL_BRIEF.md 設計2）。
+          onPrefSelectRef.current?.(cluster.pref);
+        });
 
         const { x, y } = points[i];
         markers.push(
@@ -671,7 +710,11 @@ export function MapView({
       {!isClusterView && (
         <button
           type="button"
-          onClick={flyToJapan}
+          onClick={() => {
+            flyToJapan();
+            // 全国へ戻る＝県絞り込みの解除でもある（PREF_FILTER_IMPL_BRIEF.md 設計2）。
+            onPrefClearRef.current?.();
+          }}
           className="bg-background/90 absolute top-20 right-4 z-10 rounded-lg px-3 py-2 text-xs shadow-sm backdrop-blur"
         >
           {t("backToNational")}

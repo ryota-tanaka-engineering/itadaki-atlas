@@ -89,7 +89,7 @@ test.describe("F-07 アクセシビリティ", () => {
 
     // 低ズームは県クラスタ表示。福島県クラスタをタップして個別ピンに分解する
     // （地図の読み込み完了を待つ）。
-    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ });
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶとこの県に絞り込みます/ });
     await expect(fukushima).toBeVisible({ timeout: 30_000 });
     await tapPrefCluster(fukushima);
 
@@ -116,7 +116,7 @@ test.describe("F-01 全国表示（県クラスタ）", () => {
     await page.goto("/");
 
     // 掲載がある県は件数付きの集約マーカーで選べる（実データ地形の地図の上に乗る）
-    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ });
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶとこの県に絞り込みます/ });
     await expect(fukushima).toBeVisible({ timeout: 30_000 });
     await tapPrefCluster(fukushima);
 
@@ -132,13 +132,13 @@ test.describe("F-01 全国表示（県クラスタ）", () => {
     // 2026-09: 本場ピン（海鮮丼＝金沢）を地図に出す対応で、発祥ピンが0件の県も
     // 本場ピンがあれば選べるようになった（全県選択可能＝空白県ゼロ）。
     // 2026-09 食材拡張で石川は能登牛・能登豚等も加わり件数は増える（本場ピンだけでも選べる、が検証の趣旨）
-    const ishikawa = page.getByRole("button", { name: /^石川県 \d+件。選ぶと拡大します/ });
+    const ishikawa = page.getByRole("button", { name: /^石川県 \d+件。選ぶとこの県に絞り込みます/ });
     await expect(ishikawa).toBeVisible({ timeout: 30_000 });
   });
 
   test("本場: 石川県クラスタを選ぶと地図が拡大し海鮮丼の本場ピンが出る", async ({ page }) => {
     await page.goto("/");
-    const ishikawa = page.getByRole("button", { name: /^石川県 \d+件。選ぶと拡大します/ });
+    const ishikawa = page.getByRole("button", { name: /^石川県 \d+件。選ぶとこの県に絞り込みます/ });
     await expect(ishikawa).toBeVisible({ timeout: 30_000 });
     await tapPrefCluster(ishikawa);
 
@@ -152,10 +152,10 @@ test.describe("F-01 全国表示（県クラスタ）", () => {
     page,
   }) => {
     await page.goto("/ja");
-    const cluster = page.getByRole("button", { name: /件。選ぶと拡大します/ });
+    const cluster = page.getByRole("button", { name: /件。選ぶとこの県に絞り込みます/ });
     await expect(cluster.first()).toBeVisible({ timeout: 30_000 });
     // 絞り込み前の福島県の件数と、県クラスタの総数（データ量で変わるので固定しない）
-    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ });
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶとこの県に絞り込みます/ });
     await expect(fukushima).toBeVisible();
     const before = Number((await fukushima.getAttribute("aria-label"))!.match(/(\d+)件/)![1]);
     const beforeClusters = await cluster.count();
@@ -194,9 +194,14 @@ test.describe("トップ操作体系の作り直し（2026-09。本番体験レ�
 
     // 単一ジャンル絞り込み中は実座標地図で系統凡例が出る（ラーメン内部の識別軸。
     // 個別ピン表示に切り替わってはじめて出る既存仕様のため、県クラスタをタップして切り替える）
-    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ });
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶとこの県に絞り込みます/ });
     await tapPrefCluster(fukushima);
     await expect(page.getByText("醤油", { exact: true })).toBeVisible();
+
+    // 県クラスタのタップは県の絞り込みも兼ねる（PREF_FILTER_IMPL_BRIEF.md）。
+    // ここでは凡例確認のためだけにタップしたので、県の絞り込みだけを解除して
+    // ジャンル絞り込み単体の索引確認に戻す。
+    await page.getByRole("button", { name: "福島県の絞り込みを解除" }).click();
 
     // シートを開くと索引もジャンルに絞られている（焼き鳥は出ない）
     await page.getByRole("button", { name: /シートを次の段階へ/ }).click();
@@ -932,7 +937,7 @@ test.describe("トップページ改善（ピン選択カード。2026-09 本番
     // （喜多方ラーメンは fixture ピンと同座標で重なる。作業パッケージ「トップページ改善」参照）。
     await page.goto("/en");
 
-    const fukushima = page.getByRole("button", { name: /^Fukushima — \d+ items\. Select to zoom in/ });
+    const fukushima = page.getByRole("button", { name: /^Fukushima — \d+ items\. Select to filter by this prefecture/ });
     await expect(fukushima).toBeVisible({ timeout: 30_000 });
     await tapPrefCluster(fukushima);
 
@@ -975,7 +980,7 @@ test.describe("トップ導線修正（本番レビュー「タグとか選択�
 
     // 絞り込み前の福島県クラスタ件数を控える（郡山ブラックは中華由来タグを持つが、
     // 福島にはこのタグを持たないアイテム（そば・やきそば等）も含まれる）
-    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ });
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶとこの県に絞り込みます/ });
     await expect(fukushima).toBeVisible({ timeout: 30_000 });
     const beforeCount = parseCount((await fukushima.getAttribute("aria-label")) ?? "");
 
@@ -996,7 +1001,7 @@ test.describe("トップ導線修正（本番レビュー「タグとか選択�
     await expect(chip).toContainText(/中華由来\d+件/);
 
     // 福島県クラスタの件数が絞り込み後に減る（0件にはならない。郡山ブラック自身が該当する）
-    const fukushimaAfter = page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ });
+    const fukushimaAfter = page.getByRole("button", { name: /^福島県 \d+件。選ぶとこの県に絞り込みます/ });
     await expect(fukushimaAfter).toBeVisible({ timeout: 30_000 });
     const afterCount = parseCount((await fukushimaAfter.getAttribute("aria-label")) ?? "");
     expect(afterCount).toBeGreaterThan(0);
@@ -1005,7 +1010,7 @@ test.describe("トップ導線修正（本番レビュー「タグとか選択�
     // ✕で解除すると絞り込みが消え、件数が元に戻る
     await chip.click();
     await expect(chip).toHaveCount(0);
-    const fukushimaRestored = page.getByRole("button", { name: /^福島県 \d+件。選ぶと拡大します/ });
+    const fukushimaRestored = page.getByRole("button", { name: /^福島県 \d+件。選ぶとこの県に絞り込みます/ });
     await expect(fukushimaRestored).toBeVisible({ timeout: 30_000 });
     expect(parseCount((await fukushimaRestored.getAttribute("aria-label")) ?? "")).toBe(beforeCount);
   });
@@ -1162,6 +1167,58 @@ test.describe("地図のコンパクト化（本番レビュー「地図がフ�
       const h = (await map.boundingBox())?.height ?? 0;
       expect(h).toBeGreaterThan(700);
     }).toPass({ timeout: 5_000 });
+  });
+});
+
+test.describe("県クラスタのタップ = 県の絞り込み（PREF_FILTER_IMPL_BRIEF.md）", () => {
+  test("福島県クラスタをタップするとシート見出しが「福島県」になり、県の一行文脈と「この土地のページへ」リンクが出る。「絞り込みを解除」で見出しが総数に戻りクラスタ表示に戻る（SP 390x844）", async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶとこの県に絞り込みます/ });
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+    const totalCount = Number((await fukushima.getAttribute("aria-label"))!.match(/(\d+)件/)![1]);
+
+    await tapPrefCluster(fukushima);
+
+    // シート見出しが「福島県」になり、件数は総数より小さい（総数のままでは
+    // 「地図がその県へズームするだけでシートは変わらない」の再発になるため）
+    const heading = sheet.getByRole("heading", { name: /福島県/ });
+    await expect(heading).toBeVisible();
+    const headingCount = Number((await heading.textContent())!.match(/(\d+)件/)![1]);
+    expect(headingCount).toBeLessThan(totalCount);
+    expect(headingCount).toBeGreaterThan(0);
+
+    // 県の一行文脈（DBの総論が無いため機械的に数えた3群。少なくとも「生まれた料理」は出る）と、
+    // 「この土地のページへ」リンク（県ページへ。行き止まり禁止）が件数の下に出る
+    await expect(sheet.getByText(/生まれた料理/)).toBeVisible();
+    const pageLink = sheet.getByRole("link", { name: /この土地のページへ/ });
+    await expect(pageLink).toBeVisible();
+    await expect(pageLink).toHaveAttribute("href", "/ja/region/fukushima");
+
+    // 「絞り込みを解除」で総数表記に戻り、地図もクラスタ表示に戻る
+    await sheet.getByRole("button", { name: "絞り込みを解除" }).click();
+    await expect(sheet.getByRole("heading", { name: "福島県" })).toHaveCount(0);
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+  });
+
+  test("/en でも見出しが英語県名になり、ページリンクが英語になる", async ({ page }) => {
+    await page.goto("/en");
+    const sheet = page.getByRole("dialog");
+
+    const fukushima = page.getByRole("button", {
+      name: /^Fukushima — \d+ items\. Select to filter by this prefecture/,
+    });
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+    await tapPrefCluster(fukushima);
+
+    await expect(sheet.getByRole("heading", { name: /Fukushima/ })).toBeVisible();
+    const pageLink = sheet.getByRole("link", { name: /See this prefecture's page/ });
+    await expect(pageLink).toBeVisible();
+    await expect(pageLink).toHaveAttribute("href", "/en/region/fukushima");
   });
 });
 

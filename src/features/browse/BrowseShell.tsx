@@ -6,6 +6,7 @@ import { Search } from "lucide-react";
 
 import { Link } from "@/i18n/navigation";
 import { Input } from "@/components/ui/input";
+import { buttonVariants } from "@/components/ui/button";
 import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
 import { MapView } from "@/features/map/MapView";
@@ -21,6 +22,7 @@ import type {
   MapPin,
   Genre,
   Locale,
+  Shelf,
   TagWithCount,
 } from "@/features/map/queries";
 
@@ -32,6 +34,7 @@ import { HonbaTrailSection, type HonbaDisplayGroup } from "./HonbaTrailSection";
 import { LandStoriesSection } from "./LandStoriesSection";
 import { AboutBlurbSection } from "./AboutBlurbSection";
 import type { Axis } from "./axes";
+import { countPrefContext } from "./prefContext";
 
 /**
  * タグチップの標準寸法（本番レビュー「タグも小さくてみづらい」対応）。
@@ -92,6 +95,7 @@ export function BrowseShell({
   allTags,
   placeNames,
   guideScenes,
+  shelves,
 }: {
   items: BrowseItem[];
   /** 本場ピン（2026-09）。索引には出さず、地図でのみ items と合流する。 */
@@ -122,6 +126,8 @@ export function BrowseShell({
   /** トップシート「食べに行く前に」カード（2026-09-24。体験検品「SPにガイドへの入口が
    * 無い」対応）のチップ用。件数>0の場面のslugのみ、GUIDE_SCENES順（page.tsxで絞り込み済み）。 */
   guideScenes: string[];
+  /** 県絞り込みの一行文脈（prefContext.ts）用。region ページと同じ棚grp（dish/ingredient/preparation）。 */
+  shelves: Shelf[];
 }) {
   const t = useTranslations("browse");
   const ti = useTranslations("item");
@@ -151,6 +157,13 @@ export function BrowseShell({
   // 本番レビュー「地図がフルサイズのままで使いづらい」対応。個別ピン表示＝県へ
   // 選択・ズームした状態を指す。初期値は national=true（コンパクト化しない））。
   const [isClusterView, setIsClusterView] = useState(true);
+  // 県クラスタのタップを「県の絞り込み」として扱う（PREF_FILTER_IMPL_BRIEF.md）。
+  // origin_pref と同じ規約（都道府県の日本語名）を持つ。
+  const [prefFilter, setPrefFilter] = useState<string | null>(null);
+  // 親側の操作（絞り込み解除チップ・#place/#type ハッシュ遷移）で地図を全国表示へ
+  // 戻すためのシグナル（MapView は flyToJapan を外部に公開していないため、数値を
+  // 増やして伝える。同ファイル docコメント参照）。
+  const [resetToJapanSignal, setResetToJapanSignal] = useState(0);
 
   useEffect(() => {
     const update = () => {
@@ -168,7 +181,8 @@ export function BrowseShell({
   // シートを full まで開いてモジュール・索引を読んでいる間は、背後の地図がフルサイズの
   // ままだと隠れているだけで意味が無い（本番レビュー「地図外のエリアみてる時に地図が
   // ずっとフルサイズである必要あるの？」対応）。full 到達でも同じく縮める。
-  const compact = Boolean(genreFilter) || Boolean(tagFilter) || !isClusterView || snap === "full";
+  const compact =
+    Boolean(genreFilter) || Boolean(tagFilter) || Boolean(prefFilter) || !isClusterView || snap === "full";
   const mapHeight =
     compact && vh > 0 ? Math.round(vh * (isDesktop ? 0.45 : 0.38)) : null;
   const dockedHeight = mapHeight !== null ? vh - mapHeight : undefined;
@@ -184,6 +198,12 @@ export function BrowseShell({
       setTagFilter(null);
       setSelectedSlug(null);
       setSnap("full");
+      // 絞り込み中は3カードが非表示になるため、県絞り込みも解除し地図を全国へ戻す
+      // （PREF_FILTER_IMPL_BRIEF.md 設計3。地図とシートが食い違わないように）。
+      if (prefFilter) {
+        setPrefFilter(null);
+        setResetToJapanSignal((s) => s + 1);
+      }
       requestAnimationFrame(() => {
         document.getElementById(hash)?.scrollIntoView({ block: "start" });
       });
@@ -191,7 +211,7 @@ export function BrowseShell({
     handleHash();
     window.addEventListener("hashchange", handleHash);
     return () => window.removeEventListener("hashchange", handleHash);
-  }, []);
+  }, [prefFilter]);
 
   // 地図に渡す合流データ（発祥+本場）。索引・件数表記は items のまま
   // （本場を索引に重複表示しないため。作業パッケージ「本場ピン」§1）。
@@ -392,20 +412,46 @@ export function BrowseShell({
     (slug: string) => !tagFilter || (tagSlugsBySlug.get(slug) ?? []).includes(tagFilter),
     [tagFilter, tagSlugsBySlug],
   );
+  // 県絞り込み（prefFilter）は origin_pref と同じ規約の値で AND する。本場ピンは
+  // originPref がそのピンの所在地（本場の都市）を表すため（queries.ts MapPin docコメント）、
+  // 同じ条件でそのまま本場の県一致判定になる（PREF_FILTER_IMPL_BRIEF.md 設計1）。
   const visibleItems = useMemo(
     () =>
       items.filter(
-        (i) => (!genreFilter || i.genreSlug === genreFilter) && matchesTagFilter(i.slug),
+        (i) =>
+          (!genreFilter || i.genreSlug === genreFilter) &&
+          matchesTagFilter(i.slug) &&
+          (!prefFilter || i.originPref === prefFilter),
       ),
-    [items, genreFilter, matchesTagFilter],
+    [items, genreFilter, matchesTagFilter, prefFilter],
   );
   const visiblePins = useMemo(
     () =>
       mapPins.filter(
-        (i) => (!genreFilter || i.genreSlug === genreFilter) && matchesTagFilter(i.slug),
+        (i) =>
+          (!genreFilter || i.genreSlug === genreFilter) &&
+          matchesTagFilter(i.slug) &&
+          (!prefFilter || i.originPref === prefFilter),
       ),
-    [mapPins, genreFilter, matchesTagFilter],
+    [mapPins, genreFilter, matchesTagFilter, prefFilter],
   );
+  // 県の一行文脈（PREF_FILTER_IMPL_BRIEF.md 設計4）。visibleItems は既に
+  // origin_pref === prefFilter（+ジャンル/タグ）に絞られているため、そのまま数える。
+  const prefContextCounts = useMemo(
+    () => (prefFilter ? countPrefContext(visibleItems, shelves) : null),
+    [prefFilter, visibleItems, shelves],
+  );
+  const filteredPrefLabel = useMemo(
+    () => (prefFilter ? (label.prefecture(prefFilter) ?? prefFilter) : null),
+    [prefFilter, label],
+  );
+  // ジャンル/タグと県が同時に絞り込まれているときは「福島県 × ラーメン」のように併記する
+  // （ジャンル総論を優先する設計のため、genre/tagの結合はそのまま filterLabel を使い回す）。
+  const resultHeading = filteredPrefLabel
+    ? filterLabel
+      ? `${filteredPrefLabel} × ${filterLabel}`
+      : filteredPrefLabel
+    : filterLabel;
   // 系統凡例は「ラーメン内部・単一ジャンル絞り込み時のみ」（CLAUDE.md「デザイン」節）。
   // 系統色の凡例（醤油・味噌・塩・豚骨）はラーメン内部だけの識別軸（CLAUDE.md「系統色」）。
   // 他ジャンルの系統（洋食のピザ等）は色分けしないので凡例も出さない
@@ -452,14 +498,47 @@ export function BrowseShell({
     setTagFilter(null);
   }, []);
 
+  // 県クラスタのタップ（MapView の onPrefSelect）を「絞り込み」として扱う
+  // （PREF_FILTER_IMPL_BRIEF.md 設計3）。
+  const handleSelectPref = useCallback((pref: string) => {
+    setPrefFilter(pref);
+    setSelectedSlug(null);
+    setSnap("peak");
+  }, []);
+
+  // 「県のみ」の解除（絞り込みチップの✕）。地図は全国表示へ戻す（設計5）。
+  const handleClearPrefFilter = useCallback(() => {
+    setPrefFilter(null);
+    setResetToJapanSignal((s) => s + 1);
+  }, []);
+
+  // MapView の「全国に戻る」ボタン（onPrefClear）用。地図側が既に flyToJapan を
+  // 呼んでいるため、ここでは prefFilter を解除するだけで resetToJapanSignal は増やさない
+  // （二重に fitJapan を呼んでアニメーションが衝突するのを避ける）。
+  const handleMapPrefClear = useCallback(() => {
+    setPrefFilter(null);
+  }, []);
+
+  // 実測の isClusterView が変わるたびに呼ばれる（MapView の onClusterViewChange）。
+  // 手動で縮小してクラスタ表示に戻ったとき（isClusterView=true）も県絞り込みを解除し、
+  // 地図とシートが食い違わないようにする（設計2）。
+  const handleClusterViewChange = useCallback((clusterView: boolean) => {
+    setIsClusterView(clusterView);
+    if (clusterView) setPrefFilter(null);
+  }, []);
+
   // 絞り込み結果ビュー（シート先頭の結果ヘッダー）の「絞り込みを解除」。
-  // ジャンル・タグ両方が立っていても1回で両方解除する（本番レビュー
+  // ジャンル・タグ・県のいずれが立っていても1回で全て解除する（本番レビュー
   // 「タグ押しても本場を辿るとか出てるから全然絞り込めてるように見えない」対応）。
   const handleClearAllFilters = useCallback(() => {
     setGenreFilter(null);
     setTagFilter(null);
     setIntroExpanded(false);
-  }, []);
+    if (prefFilter) {
+      setPrefFilter(null);
+      setResetToJapanSignal((s) => s + 1);
+    }
+  }, [prefFilter]);
 
   // 地図を寄せる際の下端余白。シートに隠れない位置に選択地点を置く。
   const bottomInset = vh === 0 ? 0 : Math.max(0, vh - snapOffset(snap, vh));
@@ -485,15 +564,19 @@ export function BrowseShell({
           onSelect={handleSelectFromMap}
           bottomInset={compact ? 0 : bottomInset}
           showLegend={showStyleLegend}
-          onClusterViewChange={setIsClusterView}
+          onClusterViewChange={handleClusterViewChange}
           compact={compact}
+          onPrefSelect={handleSelectPref}
+          onPrefClear={handleMapPrefClear}
+          resetToJapanSignal={resetToJapanSignal}
         />
       </div>
 
       {/* 絞り込み中チップ（本番体験レビュー: 「押したら地図に反映されない」への対処）。
-          常に見える位置（地図上・z-10）に出す。ジャンル・タグ両方絞り込み中は2つ並ぶ
-          （作業パッケージ「トップ導線修正」A-4節）。件数はAND後の visibleItems（両方を満たす件数）。 */}
-      {(filteredGenre || filteredTag) && (
+          常に見える位置（地図上・z-10）に出す。ジャンル・タグ・県が同時に絞り込み中は
+          3つ並ぶ（作業パッケージ「トップ導線修正」A-4節・PREF_FILTER_IMPL_BRIEF.md 設計5）。
+          件数はAND後の visibleItems（全条件を満たす件数）。 */}
+      {(filteredGenre || filteredTag || prefFilter) && (
         <div className="pointer-events-none absolute inset-x-0 top-16 z-10 flex flex-wrap justify-center gap-2 px-4">
           {filteredGenre && (
             <button
@@ -535,6 +618,24 @@ export function BrowseShell({
               </span>
             </button>
           )}
+          {prefFilter && filteredPrefLabel && (
+            <button
+              type="button"
+              onClick={handleClearPrefFilter}
+              aria-label={t("prefFilterClear", { pref: filteredPrefLabel })}
+              className="border-border bg-background/95 text-foreground pointer-events-auto flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm shadow-sm backdrop-blur"
+            >
+              <span aria-hidden>
+                {filteredPrefLabel}
+                <span className="text-muted-foreground ml-1">
+                  {t("count", { count: visibleItems.length })}
+                </span>
+              </span>
+              <span aria-hidden className="text-muted-foreground">
+                ✕
+              </span>
+            </button>
+          )}
         </div>
       )}
 
@@ -566,14 +667,16 @@ export function BrowseShell({
                 )}
               </p>
             </div>
-          ) : filteredGenre || filteredTag ? (
+          ) : filteredGenre || filteredTag || prefFilter ? (
             // 絞り込み中はピーク位置の要約も結果ビューと同じ名前+件数にする（総数のまま
             // だと「絞り込めているように見えない」という指摘の再発になるため）。
             // 結果ヘッダーの「絞り込みを解除」もここに集約し、下の本文側では重複させない。
+            // 県絞り込み時は resultHeading（県名。ジャンル/タグ併用時は「福島県 × ラーメン」）
+            // を使う（PREF_FILTER_IMPL_BRIEF.md 設計4）。
             <div>
               <div className="flex items-center justify-between gap-2">
                 <h2 id="sheet-heading" className="text-base font-semibold">
-                  {filterLabel}
+                  {resultHeading}
                   <span className="text-muted-foreground ml-2 text-sm font-normal">
                     {t("count", { count: visibleItems.length })}
                   </span>
@@ -590,6 +693,38 @@ export function BrowseShell({
                   {t("filterClearAll")}
                 </button>
               </div>
+              {/* 県の一行文脈＋「この土地のページへ」リンク（体験原則2「選択の直後に必ず
+                  文脈を出す」。PREF_FILTER_IMPL_BRIEF.md 設計4）。県には DB の総論が無いため
+                  visibleItems から機械的に数えた3群（0件の群は出さない）。 */}
+              {prefFilter && prefContextCounts && (
+                <div className="mt-1.5 space-y-1.5">
+                  {(() => {
+                    const parts = [
+                      prefContextCounts.dish > 0
+                        ? t("prefContextDish", { count: prefContextCounts.dish })
+                        : null,
+                      prefContextCounts.ingredient > 0
+                        ? t("prefContextIngredient", { count: prefContextCounts.ingredient })
+                        : null,
+                      prefContextCounts.preparation > 0
+                        ? t("prefContextPrep", { count: prefContextCounts.preparation })
+                        : null,
+                    ].filter((s): s is string => s !== null);
+                    if (parts.length === 0) return null;
+                    return (
+                      <p className="text-sm leading-relaxed">
+                        {parts.join(locale === "ja" ? "・" : " / ")}
+                      </p>
+                    );
+                  })()}
+                  <Link
+                    href={`/region/${PREF_SLUGS[prefFilter as Prefecture]}`}
+                    className={buttonVariants({ variant: "outline", size: "sm" })}
+                  >
+                    {t("prefPageLink")}
+                  </Link>
+                </div>
+              )}
               {/* ジャンル絞り込み中の総論（本番レビュー「和牛一覧の説明文みたいなのは
                   表示必要なのでは」対応）。タグのみの絞り込みには対応する総論が無いため
                   現状維持。ジャンル+タグ併用時もジャンルの総論を出す。 */}
@@ -727,10 +862,11 @@ export function BrowseShell({
               </button>
             </div>
           </div>
-        ) : filteredGenre || filteredTag ? (
+        ) : filteredGenre || filteredTag || prefFilter ? (
           <div className="space-y-3">
             {/* 絞り込み結果ビュー（本番レビュー「タグ押しても本場を辿るとか出てるから
-                全然絞り込めてるように見えない」対応）。絞り込み中は3カード・情報モジュールを
+                全然絞り込めてるように見えない」対応。県絞り込みも同じビューを共有する。
+                PREF_FILTER_IMPL_BRIEF.md）。絞り込み中は3カード・情報モジュールを
                 隠し、絞り込み済み索引だけを見せる（結果ヘッダー＋解除はピーク側に集約済み。
                 常時表示のため本文側で重複させない）。解除で元の構成に戻る。 */}
             {filteredGenre && (

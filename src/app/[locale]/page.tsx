@@ -11,6 +11,7 @@ import {
   fetchMapItems,
   fetchPlaceNames,
   fetchPrefsWithItems,
+  fetchShelves,
   fetchTagsWithCounts,
   type Locale,
 } from "@/features/map/queries";
@@ -38,7 +39,7 @@ export default async function Home({
   setRequestLocale(locale);
 
   const t = await getTranslations("site");
-  const [items, genres, honbaPins, honbaGroupsAll, chains, prefs, tags, placeNames, sceneCounts] =
+  const [items, genres, honbaPins, honbaGroupsAll, chains, prefs, tags, placeNames, sceneCounts, shelves] =
     await Promise.all([
       fetchMapItems(locale as Locale),
       fetchGenres(),
@@ -61,6 +62,9 @@ export default async function Home({
       // トップシート「食べに行く前に」カード用（2026-09-24。体験検品「SPにガイドへの
       // 入口が無い」対応）。ISRを壊さないよう queries.ts 側で lib/supabase/static を使用
       fetchSceneCounts(locale as "ja" | "en"),
+      // 県絞り込みの一行文脈（prefContext.ts）用。region ページと同じ棚grp（dish/ingredient/preparation）。
+      // 28件のみで1,000件上限に掛からないためページングは不要（fetchShelves 参照）。
+      fetchShelves(),
     ]);
   // 件数>0の場面のみ（/guideの「場面からさがす」と同じ方針。行き止まり入口を作らない）
   const guideScenes = GUIDE_SCENES.filter((s) => (sceneCounts[s.slug] ?? 0) > 0).map((s) => s.slug);
@@ -107,6 +111,7 @@ export default async function Home({
         allTags={tags}
         placeNames={placeNames}
         guideScenes={guideScenes}
+        shelves={shelves}
       />
     </main>
   );
