@@ -216,32 +216,59 @@ export function BrowseShell({
     compact && vh > 0 ? Math.round(vh * (isDesktop ? 0.45 : 0.38)) : null;
   const dockedHeight = mapHeight !== null ? vh - mapHeight : undefined;
 
+  // 「土地からさがす」カード・「次の入口」の「土地の索引へ」・ヘッダー「土地」（#place）
+  // 共通の挙動（体験検品2026-09-26「土地の索引へを押すとシートがfullのまま地図が画面外」
+  // 対応）。絞り込みを解除し、シートを地図が見える段階（full以外）まで下げる。カードへの
+  // スクロールはしない（体験原則1「地図は主役」。地図を見せることが目的のため）。
+  const handleShowPlace = useCallback(() => {
+    setGenreFilter(null);
+    setTagFilter(null);
+    setSearchQuery("");
+    setSelectedSlug(null);
+    setSnap((prev) => (prev === "full" ? "half" : "peak"));
+    // 絞り込み中は3カードが非表示になるため、県絞り込みも解除し地図を全国へ戻す
+    // （PREF_FILTER_IMPL_BRIEF.md 設計3。地図とシートが食い違わないように）。
+    if (prefFilter) {
+      setPrefFilter(null);
+      setResetToJapanSignal((s) => s + 1);
+    }
+  }, [prefFilter]);
+
+  // ヘッダー「種類」（#type）・検索0件案内の「種類から探しなおす」共通の挙動
+  // （作業パッケージ「トップ導線修正」B節。体験検品2026-09-26で検索0件にも追加）。
+  // 絞り込みを解除し、シートを full まで開いて種類カード（id="type"）へスクロールする。
+  // place と違いこちらは索引・種類カードを読ませるのが目的のため、従来どおり full + スクロール。
+  const handleShowType = useCallback(() => {
+    setGenreFilter(null);
+    setTagFilter(null);
+    setSearchQuery("");
+    setSelectedSlug(null);
+    setSnap("full");
+    if (prefFilter) {
+      setPrefFilter(null);
+      setResetToJapanSignal((s) => s + 1);
+    }
+    requestAnimationFrame(() => {
+      document.getElementById("type")?.scrollIntoView({ block: "start" });
+    });
+  }, [prefFilter]);
+
   // ヘッダー「土地」「種類」（#place / #type）からの遷移に追従する（作業パッケージ
-  // 「トップ導線修正」B節）。シートを full まで開き、該当カード（id="place"/"type"）へ
-  // スクロールする。絞り込み中は3カードが非表示になるため、ハッシュ遷移は絞り込みも解除する。
+  // 「トップ導線修正」B節）。type は従来どおり該当カードへスクロール、place は地図を
+  // 見せる段階に留める（体験検品2026-09-26対応。上のhandleShowPlace/handleShowType参照）。
   useEffect(() => {
     const handleHash = () => {
       const hash = window.location.hash.replace("#", "");
-      if (hash !== "place" && hash !== "type") return;
-      setGenreFilter(null);
-      setTagFilter(null);
-      setSearchQuery("");
-      setSelectedSlug(null);
-      setSnap("full");
-      // 絞り込み中は3カードが非表示になるため、県絞り込みも解除し地図を全国へ戻す
-      // （PREF_FILTER_IMPL_BRIEF.md 設計3。地図とシートが食い違わないように）。
-      if (prefFilter) {
-        setPrefFilter(null);
-        setResetToJapanSignal((s) => s + 1);
+      if (hash === "place") {
+        handleShowPlace();
+      } else if (hash === "type") {
+        handleShowType();
       }
-      requestAnimationFrame(() => {
-        document.getElementById(hash)?.scrollIntoView({ block: "start" });
-      });
     };
     handleHash();
     window.addEventListener("hashchange", handleHash);
     return () => window.removeEventListener("hashchange", handleHash);
-  }, [prefFilter]);
+  }, [handleShowPlace, handleShowType]);
 
   // 地図に渡す合流データ（発祥+本場）。索引・件数表記は items のまま
   // （本場を索引に重複表示しないため。作業パッケージ「本場ピン」§1）。
@@ -806,9 +833,50 @@ export function BrowseShell({
                 </button>
               </div>
               {/* 検索0件の案内（体験原則6「行き止まりを作らない」対応）。上の
-                  「絞り込みを解除」で3カード（種類・興味・土地）に戻れる。 */}
+                  「絞り込みを解除」でも3カード（種類・興味・土地）に戻れるが、案内文だけでは
+                  SPでその先に進めない（体験検品2026-09-26対応）ため、3つの入口を直下に並べる。
+                  文言は3カードの見出し（entryTypeTitle等）と accessible name が衝突しないよう
+                  「〜から探しなおす」にする。ここも「絞り込みを解除」ボタンと同じく peak の
+                  クリックハンドラ（cycle）と競合しないよう伝播を止める。 */}
               {searchActive && visibleItems.length === 0 && (
-                <p className="text-muted-foreground mt-1.5 text-sm leading-relaxed">{t("searchEmpty")}</p>
+                <div className="mt-1.5 space-y-1.5">
+                  <p className="text-muted-foreground text-sm leading-relaxed">{t("searchEmpty")}</p>
+                  <ul className="flex flex-wrap gap-x-4 gap-y-1">
+                    <li>
+                      <button
+                        type="button"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleShowType();
+                        }}
+                        className="text-muted-foreground text-sm underline"
+                      >
+                        {t("searchEmptyType")}
+                      </button>
+                    </li>
+                    <li>
+                      <Link
+                        href="/tags"
+                        onClick={(e) => e.stopPropagation()}
+                        className="text-muted-foreground text-sm underline"
+                      >
+                        {t("searchEmptyInterest")}
+                      </Link>
+                    </li>
+                    <li>
+                      <button
+                        type="button"
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleShowPlace();
+                        }}
+                        className="text-muted-foreground text-sm underline"
+                      >
+                        {t("searchEmptyPlace")}
+                      </button>
+                    </li>
+                  </ul>
+                </div>
               )}
               {/* ジャンル絞り込み中の総論（本番レビュー「和牛一覧の説明文みたいなのは
                   表示必要なのでは」対応）。タグのみの絞り込みには対応する総論が無いため
@@ -1016,7 +1084,7 @@ export function BrowseShell({
               <button
                 id="place"
                 type="button"
-                onClick={() => setSnap("peak")}
+                onClick={handleShowPlace}
                 className="border-border bg-background hover:bg-muted/60 flex flex-col items-start gap-1 rounded-2xl border p-2.5 text-left transition-colors"
               >
                 <span
@@ -1217,6 +1285,7 @@ export function BrowseShell({
               aboutLabel={t("modules.nextEntries.about")}
               termsLabel={t("modules.nextEntries.terms")}
               privacyLabel={t("modules.nextEntries.privacy")}
+              onPlaceClick={handleShowPlace}
             />
           </div>
         )}
