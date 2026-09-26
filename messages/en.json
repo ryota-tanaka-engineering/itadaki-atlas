@@ -9,7 +9,9 @@
     "navPlace": "Place",
     "navType": "Type",
     "navInterest": "Interest",
-    "navGuide": "Guide"
+    "navGuide": "Guide",
+    "menuOpen": "Menu",
+    "menuClose": "Close"
   },
   "browse": {
     "index": "Index",
