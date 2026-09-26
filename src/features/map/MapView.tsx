@@ -9,7 +9,14 @@ import "maplibre-gl/dist/maplibre-gl.css";
 
 import type { MapPin } from "./queries";
 import { mapPinKey } from "./pinKey";
-import { PIN_BASE, PIN_STROKE, RAMEN_STYLES, RAMEN_STYLE_COLORS, styleColor } from "./styles";
+import {
+  PIN_BASE,
+  PIN_STROKE,
+  RAMEN_STYLES,
+  RAMEN_STYLE_COLORS,
+  styleColor,
+  localizedPlaceNameField,
+} from "./styles";
 import { useMasterLabels } from "./labels";
 
 /**
@@ -65,9 +72,40 @@ const ROAD_LINE_MIN_ZOOM = 10;
  * 同じものを使う（見え方の一貫性・ベンダ固有APIの直書き回避）。
  */
 export function buildAtlasLayers(lang: string = "ja") {
-  // 地名ラベルはロケールに追従させる（/en では英語ラベル。タイルの name:en 属性を参照し、
-  // 無い地名はローカル名にフォールバックする）。本番レビュー「英語にした時に地図が日本語」対応
-  return layers("protomaps", ATLAS_FLAVOR, { lang }).map((layer) => {
+  const rawLayers = layers("protomaps", ATLAS_FLAVOR, { lang });
+  // /en での地名ラベル言語不揃い対応（本番レビュー2026-09-24。styles.ts の
+  // localizedPlaceNameField 参照。ja は null が返り、@protomaps/basemaps 既定の
+  // get_multiline_name のままにする）。
+  const placeNameField = localizedPlaceNameField(lang);
+  const withLocalizedPlaceName = (layer: (typeof rawLayers)[number]): (typeof rawLayers)[number] => {
+    if (!placeNameField) return layer;
+    // 市・字・集落名（get_multiline_name 由来）はコアレス式に一律差し替え。
+    if (layer.id === "places_locality" || layer.id === "places_subplace") {
+      return {
+        ...layer,
+        layout: { ...layer.layout, "text-field": placeNameField },
+      } as unknown as (typeof rawLayers)[number];
+    }
+    // 都道府県名（["step", ["zoom"], <低ズームのref>, 6, <get_multiline_name>]）は
+    // 低ズーム側の ref:en フォールバックは既に英語優先のため、高ズーム側（インデックス4の
+    // 出力式。インデックス3は step のしきい値=6そのものなので書き換えない）だけ差し替える。
+    if (layer.id === "places_region") {
+      const layout = layer.layout as Record<string, unknown> | undefined;
+      const field = layout?.["text-field"];
+      if (Array.isArray(field) && field[0] === "step") {
+        const patched = [...field];
+        patched[4] = placeNameField;
+        return {
+          ...layer,
+          layout: { ...layer.layout, "text-field": patched },
+        } as unknown as (typeof rawLayers)[number];
+      }
+    }
+    // 国名（places_country）は get_country_name が既に name:en 優先のため対象外。
+    return layer;
+  };
+
+  return rawLayers.map((layer) => {
     // 道路・鉄道・橋・トンネル・経路番号シールドなど roads_* 系レイヤーを
     // 国土ズームで一律隠す（roads_labels_* 等は元々もっと高いズームでしか
     // 出ないため Math.max により実質変化しない）。
@@ -76,13 +114,13 @@ export function buildAtlasLayers(lang: string = "ja") {
     }
     // 地名ラベルは最小限に留める（国・都道府県・市までとし、字・POIは隠す）
     if (layer.id === "places_subplace" || layer.id === "pois") {
-      return { ...layer, minzoom: Math.max(layer.minzoom ?? 0, 12) };
+      return withLocalizedPlaceName({ ...layer, minzoom: Math.max(layer.minzoom ?? 0, 12) });
     }
     // 県分解前（集約マーカー表示）の縮尺では地名ラベルを出さない。この縮尺で
     // 残るのは大陸側の国名・都市名だけで、日本の位置表示のノイズになる。
     // 県へズームすると（=個別ピン表示と同時に）地名が現れる規則にする。
     if (layer.id.startsWith("places_")) {
-      return { ...layer, minzoom: Math.max(layer.minzoom ?? 0, 5) };
+      return withLocalizedPlaceName({ ...layer, minzoom: Math.max(layer.minzoom ?? 0, 5) });
     }
     return layer;
   });
@@ -472,8 +510,15 @@ export function MapView({
       onClusterViewChangeRef.current?.(clusterView);
     };
 
-    if (map.isStyleLoaded()) evaluate();
-    else map.once("load", evaluate);
+    // ズーム（map.getZoom()）はカメラの属性でスタイル/タイル読み込みと独立に
+    // コンストラクタ完了時点で確定しているため、'load' を待たず常に同期評価する
+    // （本番レビュー「ブラウザバック直後、地図のピンが最大3秒ほど空白になる」対応。
+    // 詳細ページへの遷移で MapView がアンマウントされ、戻ると map インスタンスが
+    // 一から作り直される。以前は isStyleLoaded()==false の間 isClusterView が
+    // 初期値 true のまま固定され、タイル読み込み完了（実測 t=468〜733ms）まで
+    // 個別ピンが1枚も描画されなかった。実測: map インスタンス生成直後(t=0ms)から
+    // map.getZoom() は既に正しい値だった）。
+    evaluate();
 
     map.on("zoomend", evaluate);
     return () => {
@@ -675,17 +720,22 @@ export function MapView({
     };
 
     const draw = () => {
+      // 2回目以降の呼び出し（idle後の再描画）で重複生成しないよう、先に前回分を破棄する。
+      for (const m of markers.splice(0, markers.length)) m.remove();
       if (isClusterView) drawClusters();
       else drawPins();
     };
 
-    // isStyleLoaded() は「初回スタイル読み込み」だけでなく、県クラスタのタップで
-    // 新しいタイル範囲を読み込んでいる間も一時的に false を返す。'load' はマップの
-    // 生涯で一度しか発火しないため、その場合に draw() が永久に呼ばれなくなる
-    // （個別ピンが1枚も出ない不具合の原因だった）。'idle' は読み込みのたびに
-    // 発火するため、初回・ズーム後の両方で安全に使える。
-    if (map.isStyleLoaded()) draw();
-    else map.once("idle", draw);
+    // マーカーは items と現在のカメラ位置（zoom/center。コンストラクタ完了時点で
+    // 確定済み）から即座に配置できるため、背景タイル・スタイルの読み込み完了を
+    // 待たずまず描画する（本番レビュー「ブラウザバック直後、地図のピンが最大3秒
+    // ほど空白になる」対応。以前は isStyleLoaded()==false の間ずっと draw() 自体が
+    // 呼ばれず、タイル読み込み完了（実測 t=468〜733ms）までピンが1枚も出なかった）。
+    // その後 'idle'（読み込み完了のたびに発火。県クラスタタップ後の新しいタイル範囲
+    // 読み込み中も一時的に isStyleLoaded()==false になるための保険）で1回だけ
+    // 再描画し、タイル確定後の状態と整合させる。
+    draw();
+    map.once("idle", draw);
 
     return () => {
       map.off("idle", draw);

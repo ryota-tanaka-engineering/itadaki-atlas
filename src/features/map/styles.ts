@@ -1,3 +1,5 @@
+import type { ExpressionSpecification } from "maplibre-gl";
+
 /**
  * ピン・系統色の定義（2026-08 デザイン確定。CLAUDE.md「デザイン」節が正典）。
  *
@@ -47,3 +49,27 @@ export function styleColor(style: string | null | undefined): string {
  * を使うこと。
  */
 export const PRIMARY_STYLES = [...RAMEN_STYLES, "その他"] as const;
+
+/**
+ * ベースマップ（Protomaps）の地名ラベルの `text-field` 式。/en で地名が日本語のまま
+ * 残る不揃い対応（体験検品 2026-09-24）。
+ *
+ * 原因: `@protomaps/basemaps` の `get_multiline_name()` は「ローカル名がクライアントで
+ * 描画可能なスクリプトか」を MapLibre の `is-supported-script` 式で判定してから
+ * `name:en` へフォールバックするが、この式の実体
+ * (`node_modules/maplibre-gl/dist/*.js` の `codePointRequiresComplexTextShaping`) は
+ * Devanagari/Tibetan/Khmer だけを「複雑」と見なし、漢字（Han）は対象外＝常に
+ * 「描画可能」と判定してしまう。そのため `script:"Han"` を持つ地物（新潟市・郡山市・
+ * 宇都宮市いずれも同一構造）は理論上ほぼ全て日本語のまま残り、英語表示は
+ * ラベル衝突・キャッシュ等の非決定要因でまれに成立するに過ぎない
+ * （実タイル `public/tiles/japan.pmtiles` の `places` レイヤーで実測。
+ * 新潟市・宇都宮市はどちらも `name:en` を持つが、有効だったキーは `name:en` のみで
+ * `name:latin` / `pgf:name:en` はどの地物にも無かった。無いキーを coalesce に混ぜても
+ * 害はないため、将来タイルが更新されて増えても安全なようそのまま残す）。
+ *
+ * ja では対処不要（`get_multiline_name` の既定ロジックのまま使う）。
+ */
+export function localizedPlaceNameField(lang: string): ExpressionSpecification | null {
+  if (lang !== "en") return null;
+  return ["coalesce", ["get", "name:en"], ["get", "name:latin"], ["get", "pgf:name:en"], ["get", "name"]];
+}
