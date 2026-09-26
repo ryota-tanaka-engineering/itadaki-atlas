@@ -440,6 +440,14 @@ export function MapView({
       // フィット先（全国 or 特定県。lastFitRef）へ、新しいコンテナサイズに
       // 合わせて再フィットする。
       const target = lastFitRef.current;
+      // 利用者が手で寄せた（ホイール・ピンチ・＋ボタン）結果としてクラスタ表示を抜け、
+      // それで compact になった場合は、寄せ直さない。lastFitRef は "japan" のままだが
+      // 実際のズームは閾値を超えており、ここで fitJapan すると拡大が取り消されて全国に
+      // 戻る→クラスタ表示→compact 解除→再フィット、と往復する（本番レビュー
+      // 2026-09-27「地図拡大するとピンの位置が元のまま」）。カメラは保ったまま矩形だけ直す。
+      if (target.kind === "japan" && map.getZoom() >= CLUSTER_ZOOM_THRESHOLD) {
+        return;
+      }
       if (target.kind === "japan") {
         // コンパクト時は共通ヘッダー（sticky・地図に重なる設計）が上端を覆うため、
         // 上パディングを広げて県クラスタがヘッダー裏に隠れてクリックできなくなるのを防ぐ

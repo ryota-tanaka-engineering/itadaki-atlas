@@ -1683,3 +1683,31 @@ test.describe("場面（2026-09-24）", () => {
     await expect(page.getByRole("heading", { name: "ラーメン屋", level: 1 })).toBeVisible();
   });
 });
+
+test.describe("手動ズーム（本番レビュー 2026-09-27「地図拡大するとピンの位置が元のまま」）", () => {
+  test("PC 1440幅で、地図をホイールで拡大して個別ピンまで寄ったあと、全国表示に引き戻されない", async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto("/ja");
+    const cluster = page.getByRole("button", { name: /件。選ぶとこの県に絞り込みます/ });
+    await expect(cluster.first()).toBeVisible({ timeout: 30_000 });
+    // 本州中央あたりでホイールズーム（閾値 5 を確実に超えるまで）
+    await page.mouse.move(720, 400);
+    for (let i = 0; i < 4; i++) {
+      await page.mouse.wheel(0, -400);
+      await page.waitForTimeout(150);
+    }
+    // 個別ピン（クラスタでない button）が出ること
+    await expect(cluster.first()).not.toBeVisible({ timeout: 10_000 });
+    const pin = page.locator("button.maplibregl-marker:not([aria-label*=\"選ぶとこの県\"])").first();
+    await expect(pin).toBeVisible({ timeout: 10_000 });
+    // 縮小処理（compact 化）が走る時間を十分に待っても、クラスタ表示に戻らない
+    await page.waitForTimeout(2_500);
+    await expect(cluster.first()).not.toBeVisible();
+    await expect(pin).toBeVisible();
+    // 「全国に戻る」で戻れる
+    await page.getByRole("button", { name: /全国に戻る/ }).click();
+    await expect(cluster.first()).toBeVisible({ timeout: 10_000 });
+  });
+});
