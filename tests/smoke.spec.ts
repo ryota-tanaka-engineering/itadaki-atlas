@@ -267,12 +267,13 @@ test.describe("トップ操作体系の作り直し（2026-09。本番体験レ�
 });
 
 test.describe("トップの検索窓（体験検品2026-09-24対応）", () => {
-  test("検索窓に「博多」と入れると見出しが検索結果になり件数が総数より小さく、博多ラーメンが索引に出る", async ({
+  test("検索窓に「はかた」と入れると見出しが検索結果になり件数が総数より小さく、博多ラーメンが索引に出る", async ({
     page,
   }) => {
     // 検索は名前（三点セット）・土地（県名・市名）に部分一致する（search.ts）。
-    // 「はかた」等のかな→漢字の読み変換は対象外（ひらがな⇄カタカナの相互一致のみ）
-    // のため、実データの表記に含まれる漢字「博多」で検証する。
+    // 読み仮名データは持たないが、全アイテムがnameRomajiを持つため、かな入力は
+    // ヘボン式ローマ字（kanaToRomaji。「はかた」→"hakata"）にも変換して一致させる
+    // ため、ひらがな「はかた」がnameRomaji "Hakata Ramen" 経由で博多ラーメンに一致する。
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/ja");
     const sheet = page.getByRole("dialog");
@@ -281,9 +282,9 @@ test.describe("トップの検索窓（体験検品2026-09-24対応）", () => {
     const totalText = await totalHeading.textContent();
     const totalCount = Number(totalText!.match(/(\d+)件/)![1]);
 
-    await page.getByPlaceholder("料理・食材・土地でさがす").fill("博多");
+    await page.getByPlaceholder("料理・食材・土地でさがす").fill("はかた");
 
-    const resultHeading = sheet.getByRole("heading", { name: /「博多」の検索/ });
+    const resultHeading = sheet.getByRole("heading", { name: /「はかた」の検索/ });
     await expect(resultHeading).toBeVisible();
     const resultText = await resultHeading.textContent();
     const resultCount = Number(resultText!.match(/(\d+)件/)![1]);
