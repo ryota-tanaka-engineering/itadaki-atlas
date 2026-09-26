@@ -87,7 +87,7 @@
         "privacy": "プライバシー"
       }
     },
-    "clusterWithHonbaAriaLabel": "{pref} {count}件（本場 {honba}件）。選ぶとこの県に絞り込みます",
+    "clusterWithHonbaAriaLabel": "{pref} {count}件。選ぶとこの県に絞り込みます（本場の料理 {honba}件もあります）",
     "clusterHonbaBadgeTitle": "この県が本場の料理 {count}件（生まれた土地は別）",
     "prefContextHonba": "○本場 {count}件"
   },
