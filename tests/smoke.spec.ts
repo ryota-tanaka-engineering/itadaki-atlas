@@ -312,7 +312,31 @@ test.describe("トップの検索窓（体験検品2026-09-24対応）", () => {
     await expect(sheet.getByText("種類からさがす")).toBeVisible();
   });
 
-  test("シート末尾に「次の入口」が出て /guide へ飛べる（SP 390x844）", async ({ page }) => {
+  test("検索0件から「種類から探しなおす」で種類カードに戻れる（SP 390x844。体験検品2026-09-26対応）", async ({
+    page,
+  }) => {
+    // 案内文だけでは先に進めなかった問題への対処。案内文の下の3つの入口ボタンのうち
+    // 「種類から探しなおす」は #type と同じ挙動（検索解除+シートfull+種類カードへスクロール）。
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+
+    await page.getByPlaceholder("料理・食材・土地でさがす").fill("存在しない架空の料理名ザザザ");
+    await expect(
+      sheet.getByText("見つかりませんでした。別の言葉か、種類・興味・土地から探せます"),
+    ).toBeVisible();
+
+    await sheet.getByRole("button", { name: "種類から探しなおす" }).click();
+
+    // 検索は解除され、シートはfullまで開いて種類カードが見える
+    await expect(page.getByPlaceholder("料理・食材・土地でさがす")).toHaveValue("");
+    await expect(page.getByRole("button", { name: /現在: full/ })).toBeVisible();
+    await expect(sheet.getByText("種類からさがす")).toBeVisible();
+  });
+
+  test("シート末尾に「次の入口」が出て、土地の索引へは地図が見える段階に戻り、/guide へ飛べる（SP 390x844）", async ({
+    page,
+  }) => {
     await page.setViewportSize({ width: 390, height: 844 });
     await page.goto("/ja");
     const sheet = page.getByRole("dialog");
@@ -324,8 +348,18 @@ test.describe("トップの検索窓（体験検品2026-09-24対応）", () => {
     const nextEntries = sheet.locator("section", { hasText: "次の入口" });
     await expect(nextEntries.getByRole("heading", { name: "次の入口" })).toBeVisible();
 
-    // 「次の入口」節のリンクは3カード等と同一文言を避けているため専用の文言で辿る
-    // （NextEntriesSection docコメント参照。guideCardTitle等の重複回避）。
+    // 「土地の索引へ」は/#placeへのハッシュ遷移ではなく、「土地からさがす」カードと
+    // 同じハンドラを呼ぶボタンになった（体験検品2026-09-26「シートがfullのまま
+    // 地図をタップする説明カードに着地し、肝心の地図が画面外」対応）。押すとシートは
+    // 地図が見える段階（half）へ下がり、3カード（土地からさがす）が見える。
+    await nextEntries.getByRole("button", { name: "土地の索引へ" }).click();
+    await expect(toggle).toHaveAttribute("aria-label", /現在: half/);
+    await expect(sheet.getByText("土地からさがす")).toBeVisible();
+
+    // シートを再度fullまで開き、「ガイドを読む」で/guideへ遷移できる
+    // （「次の入口」節のリンクは3カード等と同一文言を避けているため専用の文言で辿る。
+    // NextEntriesSection docコメント参照。guideCardTitle等の重複回避）。
+    await toggle.click();
     await nextEntries.getByRole("link", { name: "ガイドを読む" }).click();
     await expect(page).toHaveURL(/\/ja\/guide$/);
   });
