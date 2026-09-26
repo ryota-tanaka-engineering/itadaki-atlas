@@ -1,284 +1,3242 @@
 [
-  { "pref": "三重県", "city": "伊勢市", "en": "Ise" },
-  { "pref": "三重県", "city": "尾鷲市", "en": "Owase" },
-  { "pref": "三重県", "city": "志摩市", "en": "Shima" },
-  { "pref": "三重県", "city": "松阪市", "en": "Matsusaka" },
-  { "pref": "三重県", "city": "桑名市", "en": "Kuwana" },
-  { "pref": "三重県", "city": "熊野市", "en": "Kumano" },
-  { "pref": "三重県", "city": "鳥羽市", "en": "Toba" },
-  { "pref": "京都府", "city": "京丹後市", "en": "Kyotango" },
-  { "pref": "京都府", "city": "京都市", "en": "Kyoto" },
-  { "pref": "佐賀県", "city": "伊万里市", "en": "Imari" },
-  { "pref": "佐賀県", "city": "佐賀市", "en": "Saga" },
-  { "pref": "佐賀県", "city": "白石町", "en": "Shiroishi" },
-  { "pref": "佐賀県", "city": "鹿島市", "en": "Kashima" },
-  { "pref": "兵庫県", "city": "たつの市", "en": "Tatsuno" },
-  { "pref": "兵庫県", "city": "三木市", "en": "Miki" },
-  { "pref": "兵庫県", "city": "丹波篠山市", "en": "Tamba Sasayama" },
-  { "pref": "兵庫県", "city": "姫路市", "en": "Himeji" },
-  { "pref": "兵庫県", "city": "明石市", "en": "Akashi" },
-  { "pref": "兵庫県", "city": "淡路市", "en": "Awaji" },
-  { "pref": "兵庫県", "city": "神戸市長田区", "en": "Kobe (Nagata Ward)" },
-  { "pref": "兵庫県", "city": "西脇市", "en": "Nishiwaki" },
-  { "pref": "兵庫県", "city": "豊岡市", "en": "Toyooka" },
-  { "pref": "兵庫県", "city": "豊岡市出石町", "en": "Toyooka (Izushi)" },
-  { "pref": "兵庫県", "city": "赤穂市", "en": "Ako" },
-  { "pref": "兵庫県", "city": "香美町", "en": "Kami" },
-  { "pref": "北海道", "city": "むかわ町", "en": "Mukawa" },
-  { "pref": "北海道", "city": "中札内村", "en": "Nakasatsunai" },
-  { "pref": "北海道", "city": "函館市", "en": "Hakodate" },
-  { "pref": "北海道", "city": "利尻富士町", "en": "Rishirifuji" },
-  { "pref": "北海道", "city": "千歳市", "en": "Chitose" },
-  { "pref": "北海道", "city": "室蘭市", "en": "Muroran" },
-  { "pref": "北海道", "city": "寿都町", "en": "Suttsu" },
-  { "pref": "北海道", "city": "小樽市", "en": "Otaru" },
-  { "pref": "北海道", "city": "帯広市", "en": "Obihiro" },
-  { "pref": "北海道", "city": "平取町", "en": "Biratori" },
-  { "pref": "北海道", "city": "新ひだか町", "en": "Shinhidaka" },
-  { "pref": "北海道", "city": "新得町", "en": "Shintoku" },
-  { "pref": "北海道", "city": "旭川市", "en": "Asahikawa" },
-  { "pref": "北海道", "city": "札幌市", "en": "Sapporo" },
-  { "pref": "北海道", "city": "枝幸町", "en": "Esashi" },
-  { "pref": "北海道", "city": "根室市", "en": "Nemuro" },
-  { "pref": "北海道", "city": "森町", "en": "Mori" },
-  { "pref": "北海道", "city": "標津町", "en": "Shibetsu" },
-  { "pref": "北海道", "city": "江差町", "en": "Esashi" },
-  { "pref": "北海道", "city": "猿払村", "en": "Sarufutsu" },
-  { "pref": "北海道", "city": "白老町", "en": "Shiraoi" },
-  { "pref": "北海道", "city": "礼文町", "en": "Rebun" },
-  { "pref": "北海道", "city": "稚内市", "en": "Wakkanai" },
-  { "pref": "北海道", "city": "羅臼町", "en": "Rausu" },
-  { "pref": "北海道", "city": "美唄市", "en": "Bibai" },
-  { "pref": "北海道", "city": "苫小牧市", "en": "Tomakomai" },
-  { "pref": "北海道", "city": "釧路市", "en": "Kushiro" },
-  { "pref": "千葉県", "city": "勝浦市", "en": "Katsuura" },
-  { "pref": "千葉県", "city": "富津市", "en": "Futtsu" },
-  { "pref": "千葉県", "city": "成田市", "en": "Narita" },
-  { "pref": "千葉県", "city": "旭市", "en": "Asahi" },
-  { "pref": "千葉県", "city": "船橋市", "en": "Funabashi" },
-  { "pref": "千葉県", "city": "銚子市", "en": "Choshi" },
-  { "pref": "千葉県", "city": "館山市", "en": "Tateyama" },
-  { "pref": "千葉県", "city": "香取市小見川", "en": "Katori (Omigawa)" },
-  { "pref": "和歌山県", "city": "みなべ町", "en": "Minabe" },
-  { "pref": "和歌山県", "city": "串本町", "en": "Kushimoto" },
-  { "pref": "和歌山県", "city": "和歌山市", "en": "Wakayama" },
-  { "pref": "和歌山県", "city": "那智勝浦町", "en": "Nachikatsuura" },
-  { "pref": "埼玉県", "city": "加須市", "en": "Kazo" },
-  { "pref": "埼玉県", "city": "吉川市", "en": "Yoshikawa" },
-  { "pref": "埼玉県", "city": "東松山市", "en": "Higashimatsuyama" },
-  { "pref": "埼玉県", "city": "深谷市", "en": "Fukaya" },
-  { "pref": "大分県", "city": "中津市", "en": "Nakatsu" },
-  { "pref": "大分県", "city": "佐伯市", "en": "Saiki" },
-  { "pref": "大分県", "city": "別府市", "en": "Beppu" },
-  { "pref": "大分県", "city": "大分市", "en": "Oita" },
-  { "pref": "大分県", "city": "日田市", "en": "Hita" },
-  { "pref": "大分県", "city": "杵築市", "en": "Kitsuki" },
-  { "pref": "大分県", "city": "臼杵市", "en": "Usuki" },
-  { "pref": "大阪府", "city": "堺市", "en": "Sakai" },
-  { "pref": "大阪府", "city": "大阪市", "en": "Osaka" },
-  { "pref": "大阪府", "city": "東大阪市", "en": "Higashiosaka" },
-  { "pref": "奈良県", "city": "吉野郡下市町", "en": "Shimoichi" },
-  { "pref": "奈良県", "city": "天理市", "en": "Tenri" },
-  { "pref": "奈良県", "city": "奈良市", "en": "Nara" },
-  { "pref": "奈良県", "city": "桜井市", "en": "Sakurai" },
-  { "pref": "奈良県", "city": "生駒郡三郷町", "en": "Sango" },
-  { "pref": "宮城県", "city": "仙台市", "en": "Sendai" },
-  { "pref": "宮城県", "city": "名取市", "en": "Natori" },
-  { "pref": "宮城県", "city": "大崎市", "en": "Osaki" },
-  { "pref": "宮城県", "city": "女川町", "en": "Onagawa" },
-  { "pref": "宮城県", "city": "気仙沼市", "en": "Kesennuma" },
-  { "pref": "宮城県", "city": "石巻市", "en": "Ishinomaki" },
-  { "pref": "宮崎県", "city": "宮崎市", "en": "Miyazaki" },
-  { "pref": "宮崎県", "city": "川南町", "en": "Kawaminami" },
-  { "pref": "宮崎県", "city": "延岡市", "en": "Nobeoka" },
-  { "pref": "富山県", "city": "富山市", "en": "Toyama" },
-  { "pref": "富山県", "city": "氷見市", "en": "Himi" },
-  { "pref": "山口県", "city": "下関市", "en": "Shimonoseki" },
-  { "pref": "山口県", "city": "岩国市", "en": "Iwakuni" },
-  { "pref": "山口県", "city": "柳井市", "en": "Yanai" },
-  { "pref": "山口県", "city": "長門市", "en": "Nagato" },
-  { "pref": "山形県", "city": "南陽市", "en": "Nanyo" },
-  { "pref": "山形県", "city": "山形市", "en": "Yamagata" },
-  { "pref": "山形県", "city": "新庄市", "en": "Shinjo" },
-  { "pref": "山形県", "city": "村山市", "en": "Murayama" },
-  { "pref": "山形県", "city": "米沢市", "en": "Yonezawa" },
-  { "pref": "山形県", "city": "酒田市", "en": "Sakata" },
-  { "pref": "山形県", "city": "鶴岡市", "en": "Tsuruoka" },
-  { "pref": "山梨県", "city": "富士吉田市", "en": "Fujiyoshida" },
-  { "pref": "岐阜県", "city": "郡上市", "en": "Gujo" },
-  { "pref": "岐阜県", "city": "高山市", "en": "Takayama" },
-  { "pref": "岡山県", "city": "岡山市", "en": "Okayama" },
-  { "pref": "岡山県", "city": "新見市", "en": "Niimi" },
-  { "pref": "岡山県", "city": "津山市", "en": "Tsuyama" },
-  { "pref": "岡山県", "city": "瀬戸内市", "en": "Setouchi" },
-  { "pref": "岡山県", "city": "真庭市蒜山", "en": "Maniwa (Hiruzen)" },
-  { "pref": "岡山県", "city": "笠岡市", "en": "Kasaoka" },
-  { "pref": "岡山県", "city": "美作市", "en": "Mimasaka" },
-  { "pref": "岩手県", "city": "久慈市", "en": "Kuji" },
-  { "pref": "岩手県", "city": "大船渡市", "en": "Ofunato" },
-  { "pref": "岩手県", "city": "奥州市", "en": "Oshu" },
-  { "pref": "岩手県", "city": "宮古市", "en": "Miyako" },
-  { "pref": "岩手県", "city": "盛岡市", "en": "Morioka" },
-  { "pref": "岩手県", "city": "花巻市", "en": "Hanamaki" },
-  { "pref": "島根県", "city": "出雲市", "en": "Izumo" },
-  { "pref": "島根県", "city": "大田市", "en": "Oda" },
-  { "pref": "島根県", "city": "松江市", "en": "Matsue" },
-  { "pref": "島根県", "city": "浜田市", "en": "Hamada" },
-  { "pref": "広島県", "city": "呉市", "en": "Kure" },
-  { "pref": "広島県", "city": "尾道市", "en": "Onomichi" },
-  { "pref": "広島県", "city": "広島市", "en": "Hiroshima" },
-  { "pref": "広島県", "city": "東広島市", "en": "Higashihiroshima" },
-  { "pref": "徳島県", "city": "つるぎ町", "en": "Tsurugi" },
-  { "pref": "徳島県", "city": "三好市東祖谷", "en": "Miyoshi (Higashi-Iya)" },
-  { "pref": "徳島県", "city": "上板町", "en": "Kamiita" },
-  { "pref": "徳島県", "city": "徳島市", "en": "Tokushima" },
-  { "pref": "徳島県", "city": "阿波市", "en": "Awa" },
-  { "pref": "徳島県", "city": "鳴門市", "en": "Naruto" },
-  { "pref": "愛媛県", "city": "今治市", "en": "Imabari" },
-  { "pref": "愛媛県", "city": "八幡浜市", "en": "Yawatahama" },
-  { "pref": "愛媛県", "city": "宇和島市", "en": "Uwajima" },
-  { "pref": "愛媛県", "city": "愛南町", "en": "Ainan" },
-  { "pref": "愛媛県", "city": "松山市", "en": "Matsuyama" },
-  { "pref": "愛知県", "city": "一宮市", "en": "Ichinomiya" },
-  { "pref": "愛知県", "city": "半田市", "en": "Handa" },
-  { "pref": "愛知県", "city": "名古屋市", "en": "Nagoya" },
-  { "pref": "愛知県", "city": "岡崎市", "en": "Okazaki" },
-  { "pref": "愛知県", "city": "碧南市", "en": "Hekinan" },
-  { "pref": "愛知県", "city": "西尾市", "en": "Nishio" },
-  { "pref": "新潟県", "city": "三条市", "en": "Sanjo" },
-  { "pref": "新潟県", "city": "佐渡市", "en": "Sado" },
-  { "pref": "新潟県", "city": "南魚沼市", "en": "Minamiuonuma" },
-  { "pref": "新潟県", "city": "妙高市", "en": "Myoko" },
-  { "pref": "新潟県", "city": "小千谷市", "en": "Ojiya" },
-  { "pref": "新潟県", "city": "村上市", "en": "Murakami" },
-  { "pref": "新潟県", "city": "燕市", "en": "Tsubame" },
-  { "pref": "新潟県", "city": "糸魚川市", "en": "Itoigawa" },
-  { "pref": "新潟県", "city": "長岡市", "en": "Nagaoka" },
-  { "pref": "東京都", "city": "中央区", "en": "Chuo" },
-  { "pref": "東京都", "city": "八王子市", "en": "Hachioji" },
-  { "pref": "東京都", "city": "千代田区", "en": "Chiyoda" },
-  { "pref": "東京都", "city": "台東区", "en": "Taito" },
-  { "pref": "東京都", "city": "江東区", "en": "Koto" },
-  { "pref": "東京都", "city": "小平市（武蔵野台地）", "en": "Kodaira (Musashino Plateau)" },
-  { "pref": "東京都", "city": "西多摩郡奥多摩町", "en": "Okutama" },
-  { "pref": "東京都", "city": "調布市深大寺", "en": "Chofu (Jindaiji)" },
-  { "pref": "東京都", "city": "青梅市", "en": "Ome" },
-  { "pref": "栃木県", "city": "佐野市", "en": "Sano" },
-  { "pref": "栃木県", "city": "佐野市仙波町", "en": "Sano (Senba)" },
-  { "pref": "栃木県", "city": "宇都宮市", "en": "Utsunomiya" },
-  { "pref": "栃木県", "city": "那須塩原市塩原", "en": "Nasushiobara (Shiobara)" },
-  { "pref": "栃木県", "city": "鹿沼市", "en": "Kanuma" },
-  { "pref": "沖縄県", "city": "名護市", "en": "Nago" },
-  { "pref": "沖縄県", "city": "宮古島市", "en": "Miyakojima" },
-  { "pref": "沖縄県", "city": "恩納村", "en": "Onna" },
-  { "pref": "沖縄県", "city": "石垣市", "en": "Ishigaki" },
-  { "pref": "沖縄県", "city": "那覇市", "en": "Naha" },
-  { "pref": "滋賀県", "city": "大津市", "en": "Otsu" },
-  { "pref": "滋賀県", "city": "米原市", "en": "Maibara" },
-  { "pref": "滋賀県", "city": "近江八幡市", "en": "Omihachiman" },
-  { "pref": "熊本県", "city": "天草市", "en": "Amakusa" },
-  { "pref": "熊本県", "city": "熊本市", "en": "Kumamoto" },
-  { "pref": "熊本県", "city": "阿蘇市", "en": "Aso" },
-  { "pref": "石川県", "city": "七尾市", "en": "Nanao" },
-  { "pref": "石川県", "city": "加賀市", "en": "Kaga" },
-  { "pref": "石川県", "city": "珠洲市", "en": "Suzu" },
-  { "pref": "石川県", "city": "能登町", "en": "Noto" },
-  { "pref": "石川県", "city": "金沢市", "en": "Kanazawa" },
-  { "pref": "神奈川県", "city": "三浦市", "en": "Miura" },
-  { "pref": "神奈川県", "city": "小田原市", "en": "Odawara" },
-  { "pref": "神奈川県", "city": "川崎市", "en": "Kawasaki" },
-  { "pref": "神奈川県", "city": "横浜市", "en": "Yokohama" },
-  { "pref": "神奈川県", "city": "横須賀市", "en": "Yokosuka" },
-  { "pref": "神奈川県", "city": "相模原市緑区津久井", "en": "Sagamihara (Midori Ward, Tsukui)" },
-  { "pref": "神奈川県", "city": "藤沢市", "en": "Fujisawa" },
-  { "pref": "神奈川県", "city": "鎌倉市", "en": "Kamakura" },
-  { "pref": "福井県", "city": "坂井市", "en": "Sakai" },
-  { "pref": "福井県", "city": "小浜市", "en": "Obama" },
-  { "pref": "福井県", "city": "敦賀市", "en": "Tsuruga" },
-  { "pref": "福井県", "city": "福井市", "en": "Fukui" },
-  { "pref": "福井県", "city": "越前市", "en": "Echizen" },
-  { "pref": "福井県", "city": "越前町", "en": "Echizen" },
-  { "pref": "福岡県", "city": "久留米市", "en": "Kurume" },
-  { "pref": "福岡県", "city": "北九州市戸畑区", "en": "Kitakyushu (Tobata Ward)" },
-  { "pref": "福岡県", "city": "柳川市", "en": "Yanagawa" },
-  { "pref": "福岡県", "city": "福岡市", "en": "Fukuoka" },
-  { "pref": "福岡県", "city": "福岡市博多区", "en": "Fukuoka (Hakata Ward)" },
-  { "pref": "福島県", "city": "伊達市", "en": "Date" },
-  { "pref": "福島県", "city": "会津若松市", "en": "Aizuwakamatsu" },
-  { "pref": "福島県", "city": "北塩原村", "en": "Kitashiobara" },
-  { "pref": "福島県", "city": "喜多方市", "en": "Kitakata" },
-  { "pref": "福島県", "city": "喜多方市山都町", "en": "Kitakata (Yamato)" },
-  { "pref": "福島県", "city": "川俣町", "en": "Kawamata" },
-  { "pref": "福島県", "city": "檜枝岐村", "en": "Hinoemata" },
-  { "pref": "福島県", "city": "浪江町", "en": "Namie" },
-  { "pref": "福島県", "city": "白河市", "en": "Shirakawa" },
-  { "pref": "福島県", "city": "郡山市", "en": "Koriyama" },
-  { "pref": "秋田県", "city": "大仙市", "en": "Daisen" },
-  { "pref": "秋田県", "city": "大館市", "en": "Odate" },
-  { "pref": "秋田県", "city": "横手市", "en": "Yokote" },
-  { "pref": "秋田県", "city": "湯沢市稲庭町", "en": "Yuzawa (Inaniwa)" },
-  { "pref": "秋田県", "city": "男鹿市", "en": "Oga" },
-  { "pref": "群馬県", "city": "太田市", "en": "Ota" },
-  { "pref": "群馬県", "city": "桐生市", "en": "Kiryu" },
-  { "pref": "群馬県", "city": "渋川市伊香保町水沢", "en": "Shibukawa (Ikaho, Mizusawa)" },
-  { "pref": "群馬県", "city": "藤岡市", "en": "Fujioka" },
-  { "pref": "群馬県", "city": "館林市", "en": "Tatebayashi" },
-  { "pref": "茨城県", "city": "ひたちなか市", "en": "Hitachinaka" },
-  { "pref": "茨城県", "city": "ひたちなか市那珂湊", "en": "Hitachinaka (Nakaminato)" },
-  { "pref": "茨城県", "city": "土浦市", "en": "Tsuchiura" },
-  { "pref": "茨城県", "city": "大子町", "en": "Daigo" },
-  { "pref": "茨城県", "city": "大洗町", "en": "Oarai" },
-  { "pref": "茨城県", "city": "筑西市", "en": "Chikusei" },
-  { "pref": "茨城県", "city": "行方市", "en": "Namegata" },
-  { "pref": "茨城県", "city": "龍ケ崎市", "en": "Ryugasaki" },
-  { "pref": "長崎県", "city": "五島市", "en": "Goto" },
-  { "pref": "長崎県", "city": "南島原市", "en": "Minamishimabara" },
-  { "pref": "長崎県", "city": "南松浦郡新上五島町", "en": "Shinkamigoto" },
-  { "pref": "長崎県", "city": "大村市", "en": "Omura" },
-  { "pref": "長崎県", "city": "対馬市", "en": "Tsushima" },
-  { "pref": "長崎県", "city": "長崎市", "en": "Nagasaki" },
-  { "pref": "長崎県", "city": "雲仙市小浜町", "en": "Unzen (Obama)" },
-  { "pref": "長野県", "city": "上田市", "en": "Ueda" },
-  { "pref": "長野県", "city": "伊那市", "en": "Ina" },
-  { "pref": "長野県", "city": "佐久市", "en": "Saku" },
-  { "pref": "長野県", "city": "埴科郡坂城町", "en": "Sakaki" },
-  { "pref": "長野県", "city": "長野市", "en": "Nagano" },
-  { "pref": "長野県", "city": "長野市戸隠", "en": "Nagano (Togakushi)" },
-  { "pref": "長野県", "city": "飯山市富倉", "en": "Iiyama (Tomikura)" },
-  { "pref": "長野県", "city": "駒ヶ根市", "en": "Komagane" },
-  { "pref": "青森県", "city": "むつ市", "en": "Mutsu" },
-  { "pref": "青森県", "city": "五戸町", "en": "Gonohe" },
-  { "pref": "青森県", "city": "八戸市", "en": "Hachinohe" },
-  { "pref": "青森県", "city": "大間町", "en": "Oma" },
-  { "pref": "青森県", "city": "弘前市", "en": "Hirosaki" },
-  { "pref": "青森県", "city": "青森市", "en": "Aomori" },
-  { "pref": "青森県", "city": "黒石市", "en": "Kuroishi" },
-  { "pref": "静岡県", "city": "下田市", "en": "Shimoda" },
-  { "pref": "静岡県", "city": "富士宮市", "en": "Fujinomiya" },
-  { "pref": "静岡県", "city": "富士市", "en": "Fuji" },
-  { "pref": "静岡県", "city": "御殿場市", "en": "Gotemba" },
-  { "pref": "静岡県", "city": "沼津市", "en": "Numazu" },
-  { "pref": "静岡県", "city": "浜松市", "en": "Hamamatsu" },
-  { "pref": "静岡県", "city": "焼津市", "en": "Yaizu" },
-  { "pref": "静岡県", "city": "菊川市", "en": "Kikugawa" },
-  { "pref": "静岡県", "city": "藤枝市", "en": "Fujieda" },
-  { "pref": "静岡県", "city": "静岡市", "en": "Shizuoka" },
-  { "pref": "香川県", "city": "小豆島町", "en": "Shodoshima" },
-  { "pref": "香川県", "city": "東かがわ市", "en": "Higashikagawa" },
-  { "pref": "香川県", "city": "綾川町（滝宮）", "en": "Ayagawa (Takinomiya)" },
-  { "pref": "香川県", "city": "高松市", "en": "Takamatsu" },
-  { "pref": "高知県", "city": "吾川郡いの町", "en": "Ino" },
-  { "pref": "高知県", "city": "四万十市", "en": "Shimanto" },
-  { "pref": "高知県", "city": "大月町", "en": "Otsuki" },
-  { "pref": "高知県", "city": "須崎市", "en": "Susaki" },
-  { "pref": "高知県", "city": "高知市", "en": "Kochi" },
-  { "pref": "鳥取県", "city": "倉吉市", "en": "Kurayoshi" },
-  { "pref": "鳥取県", "city": "大山町", "en": "Daisen" },
-  { "pref": "鳥取県", "city": "米子市", "en": "Yonago" },
-  { "pref": "鳥取県", "city": "鳥取市", "en": "Tottori" },
-  { "pref": "鹿児島県", "city": "奄美市", "en": "Amami" },
-  { "pref": "鹿児島県", "city": "指宿市", "en": "Ibusuki" },
-  { "pref": "鹿児島県", "city": "薩摩川内市", "en": "Satsumasendai" },
-  { "pref": "鹿児島県", "city": "霧島市", "en": "Kirishima" },
-  { "pref": "鹿児島県", "city": "鹿児島市", "en": "Kagoshima" }
+ {
+  "pref": "三重県",
+  "city": "伊勢市",
+  "en": "Ise"
+ },
+ {
+  "pref": "三重県",
+  "city": "尾鷲市",
+  "en": "Owase"
+ },
+ {
+  "pref": "三重県",
+  "city": "志摩市",
+  "en": "Shima"
+ },
+ {
+  "pref": "三重県",
+  "city": "松阪市",
+  "en": "Matsusaka"
+ },
+ {
+  "pref": "三重県",
+  "city": "桑名市",
+  "en": "Kuwana"
+ },
+ {
+  "pref": "三重県",
+  "city": "熊野市",
+  "en": "Kumano"
+ },
+ {
+  "pref": "三重県",
+  "city": "鳥羽市",
+  "en": "Toba"
+ },
+ {
+  "pref": "京都府",
+  "city": "京丹後市",
+  "en": "Kyotango"
+ },
+ {
+  "pref": "京都府",
+  "city": "京都市",
+  "en": "Kyoto"
+ },
+ {
+  "pref": "佐賀県",
+  "city": "伊万里市",
+  "en": "Imari"
+ },
+ {
+  "pref": "佐賀県",
+  "city": "佐賀市",
+  "en": "Saga"
+ },
+ {
+  "pref": "佐賀県",
+  "city": "白石町",
+  "en": "Shiroishi"
+ },
+ {
+  "pref": "佐賀県",
+  "city": "鹿島市",
+  "en": "Kashima"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "たつの市",
+  "en": "Tatsuno"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "三木市",
+  "en": "Miki"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "丹波篠山市",
+  "en": "Tamba Sasayama"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "姫路市",
+  "en": "Himeji"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "明石市",
+  "en": "Akashi"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "淡路市",
+  "en": "Awaji"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "神戸市長田区",
+  "en": "Kobe (Nagata Ward)"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "西脇市",
+  "en": "Nishiwaki"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "豊岡市",
+  "en": "Toyooka"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "豊岡市出石町",
+  "en": "Toyooka (Izushi)"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "赤穂市",
+  "en": "Ako"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "香美町",
+  "en": "Kami"
+ },
+ {
+  "pref": "北海道",
+  "city": "むかわ町",
+  "en": "Mukawa"
+ },
+ {
+  "pref": "北海道",
+  "city": "中札内村",
+  "en": "Nakasatsunai"
+ },
+ {
+  "pref": "北海道",
+  "city": "函館市",
+  "en": "Hakodate"
+ },
+ {
+  "pref": "北海道",
+  "city": "利尻富士町",
+  "en": "Rishirifuji"
+ },
+ {
+  "pref": "北海道",
+  "city": "千歳市",
+  "en": "Chitose"
+ },
+ {
+  "pref": "北海道",
+  "city": "室蘭市",
+  "en": "Muroran"
+ },
+ {
+  "pref": "北海道",
+  "city": "寿都町",
+  "en": "Suttsu"
+ },
+ {
+  "pref": "北海道",
+  "city": "小樽市",
+  "en": "Otaru"
+ },
+ {
+  "pref": "北海道",
+  "city": "帯広市",
+  "en": "Obihiro"
+ },
+ {
+  "pref": "北海道",
+  "city": "平取町",
+  "en": "Biratori"
+ },
+ {
+  "pref": "北海道",
+  "city": "新ひだか町",
+  "en": "Shinhidaka"
+ },
+ {
+  "pref": "北海道",
+  "city": "新得町",
+  "en": "Shintoku"
+ },
+ {
+  "pref": "北海道",
+  "city": "旭川市",
+  "en": "Asahikawa"
+ },
+ {
+  "pref": "北海道",
+  "city": "札幌市",
+  "en": "Sapporo"
+ },
+ {
+  "pref": "北海道",
+  "city": "枝幸町",
+  "en": "Esashi"
+ },
+ {
+  "pref": "北海道",
+  "city": "根室市",
+  "en": "Nemuro"
+ },
+ {
+  "pref": "北海道",
+  "city": "森町",
+  "en": "Mori"
+ },
+ {
+  "pref": "北海道",
+  "city": "標津町",
+  "en": "Shibetsu"
+ },
+ {
+  "pref": "北海道",
+  "city": "江差町",
+  "en": "Esashi"
+ },
+ {
+  "pref": "北海道",
+  "city": "猿払村",
+  "en": "Sarufutsu"
+ },
+ {
+  "pref": "北海道",
+  "city": "白老町",
+  "en": "Shiraoi"
+ },
+ {
+  "pref": "北海道",
+  "city": "礼文町",
+  "en": "Rebun"
+ },
+ {
+  "pref": "北海道",
+  "city": "稚内市",
+  "en": "Wakkanai"
+ },
+ {
+  "pref": "北海道",
+  "city": "羅臼町",
+  "en": "Rausu"
+ },
+ {
+  "pref": "北海道",
+  "city": "美唄市",
+  "en": "Bibai"
+ },
+ {
+  "pref": "北海道",
+  "city": "苫小牧市",
+  "en": "Tomakomai"
+ },
+ {
+  "pref": "北海道",
+  "city": "釧路市",
+  "en": "Kushiro"
+ },
+ {
+  "pref": "千葉県",
+  "city": "勝浦市",
+  "en": "Katsuura"
+ },
+ {
+  "pref": "千葉県",
+  "city": "富津市",
+  "en": "Futtsu"
+ },
+ {
+  "pref": "千葉県",
+  "city": "成田市",
+  "en": "Narita"
+ },
+ {
+  "pref": "千葉県",
+  "city": "旭市",
+  "en": "Asahi"
+ },
+ {
+  "pref": "千葉県",
+  "city": "船橋市",
+  "en": "Funabashi"
+ },
+ {
+  "pref": "千葉県",
+  "city": "銚子市",
+  "en": "Choshi"
+ },
+ {
+  "pref": "千葉県",
+  "city": "館山市",
+  "en": "Tateyama"
+ },
+ {
+  "pref": "千葉県",
+  "city": "香取市小見川",
+  "en": "Katori (Omigawa)"
+ },
+ {
+  "pref": "和歌山県",
+  "city": "みなべ町",
+  "en": "Minabe"
+ },
+ {
+  "pref": "和歌山県",
+  "city": "串本町",
+  "en": "Kushimoto"
+ },
+ {
+  "pref": "和歌山県",
+  "city": "和歌山市",
+  "en": "Wakayama"
+ },
+ {
+  "pref": "和歌山県",
+  "city": "那智勝浦町",
+  "en": "Nachikatsuura"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "加須市",
+  "en": "Kazo"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "吉川市",
+  "en": "Yoshikawa"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "東松山市",
+  "en": "Higashimatsuyama"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "深谷市",
+  "en": "Fukaya"
+ },
+ {
+  "pref": "大分県",
+  "city": "中津市",
+  "en": "Nakatsu"
+ },
+ {
+  "pref": "大分県",
+  "city": "佐伯市",
+  "en": "Saiki"
+ },
+ {
+  "pref": "大分県",
+  "city": "別府市",
+  "en": "Beppu"
+ },
+ {
+  "pref": "大分県",
+  "city": "大分市",
+  "en": "Oita"
+ },
+ {
+  "pref": "大分県",
+  "city": "日田市",
+  "en": "Hita"
+ },
+ {
+  "pref": "大分県",
+  "city": "杵築市",
+  "en": "Kitsuki"
+ },
+ {
+  "pref": "大分県",
+  "city": "臼杵市",
+  "en": "Usuki"
+ },
+ {
+  "pref": "大阪府",
+  "city": "堺市",
+  "en": "Sakai"
+ },
+ {
+  "pref": "大阪府",
+  "city": "大阪市",
+  "en": "Osaka"
+ },
+ {
+  "pref": "大阪府",
+  "city": "東大阪市",
+  "en": "Higashiosaka"
+ },
+ {
+  "pref": "奈良県",
+  "city": "吉野郡下市町",
+  "en": "Shimoichi"
+ },
+ {
+  "pref": "奈良県",
+  "city": "天理市",
+  "en": "Tenri"
+ },
+ {
+  "pref": "奈良県",
+  "city": "奈良市",
+  "en": "Nara"
+ },
+ {
+  "pref": "奈良県",
+  "city": "桜井市",
+  "en": "Sakurai"
+ },
+ {
+  "pref": "奈良県",
+  "city": "生駒郡三郷町",
+  "en": "Sango"
+ },
+ {
+  "pref": "宮城県",
+  "city": "仙台市",
+  "en": "Sendai"
+ },
+ {
+  "pref": "宮城県",
+  "city": "名取市",
+  "en": "Natori"
+ },
+ {
+  "pref": "宮城県",
+  "city": "大崎市",
+  "en": "Osaki"
+ },
+ {
+  "pref": "宮城県",
+  "city": "女川町",
+  "en": "Onagawa"
+ },
+ {
+  "pref": "宮城県",
+  "city": "気仙沼市",
+  "en": "Kesennuma"
+ },
+ {
+  "pref": "宮城県",
+  "city": "石巻市",
+  "en": "Ishinomaki"
+ },
+ {
+  "pref": "宮崎県",
+  "city": "宮崎市",
+  "en": "Miyazaki"
+ },
+ {
+  "pref": "宮崎県",
+  "city": "川南町",
+  "en": "Kawaminami"
+ },
+ {
+  "pref": "宮崎県",
+  "city": "延岡市",
+  "en": "Nobeoka"
+ },
+ {
+  "pref": "富山県",
+  "city": "富山市",
+  "en": "Toyama"
+ },
+ {
+  "pref": "富山県",
+  "city": "氷見市",
+  "en": "Himi"
+ },
+ {
+  "pref": "山口県",
+  "city": "下関市",
+  "en": "Shimonoseki"
+ },
+ {
+  "pref": "山口県",
+  "city": "岩国市",
+  "en": "Iwakuni"
+ },
+ {
+  "pref": "山口県",
+  "city": "柳井市",
+  "en": "Yanai"
+ },
+ {
+  "pref": "山口県",
+  "city": "長門市",
+  "en": "Nagato"
+ },
+ {
+  "pref": "山形県",
+  "city": "南陽市",
+  "en": "Nanyo"
+ },
+ {
+  "pref": "山形県",
+  "city": "山形市",
+  "en": "Yamagata"
+ },
+ {
+  "pref": "山形県",
+  "city": "新庄市",
+  "en": "Shinjo"
+ },
+ {
+  "pref": "山形県",
+  "city": "村山市",
+  "en": "Murayama"
+ },
+ {
+  "pref": "山形県",
+  "city": "米沢市",
+  "en": "Yonezawa"
+ },
+ {
+  "pref": "山形県",
+  "city": "酒田市",
+  "en": "Sakata"
+ },
+ {
+  "pref": "山形県",
+  "city": "鶴岡市",
+  "en": "Tsuruoka"
+ },
+ {
+  "pref": "山梨県",
+  "city": "富士吉田市",
+  "en": "Fujiyoshida"
+ },
+ {
+  "pref": "岐阜県",
+  "city": "郡上市",
+  "en": "Gujo"
+ },
+ {
+  "pref": "岐阜県",
+  "city": "高山市",
+  "en": "Takayama"
+ },
+ {
+  "pref": "岡山県",
+  "city": "岡山市",
+  "en": "Okayama"
+ },
+ {
+  "pref": "岡山県",
+  "city": "新見市",
+  "en": "Niimi"
+ },
+ {
+  "pref": "岡山県",
+  "city": "津山市",
+  "en": "Tsuyama"
+ },
+ {
+  "pref": "岡山県",
+  "city": "瀬戸内市",
+  "en": "Setouchi"
+ },
+ {
+  "pref": "岡山県",
+  "city": "真庭市蒜山",
+  "en": "Maniwa (Hiruzen)"
+ },
+ {
+  "pref": "岡山県",
+  "city": "笠岡市",
+  "en": "Kasaoka"
+ },
+ {
+  "pref": "岡山県",
+  "city": "美作市",
+  "en": "Mimasaka"
+ },
+ {
+  "pref": "岩手県",
+  "city": "久慈市",
+  "en": "Kuji"
+ },
+ {
+  "pref": "岩手県",
+  "city": "大船渡市",
+  "en": "Ofunato"
+ },
+ {
+  "pref": "岩手県",
+  "city": "奥州市",
+  "en": "Oshu"
+ },
+ {
+  "pref": "岩手県",
+  "city": "宮古市",
+  "en": "Miyako"
+ },
+ {
+  "pref": "岩手県",
+  "city": "盛岡市",
+  "en": "Morioka"
+ },
+ {
+  "pref": "岩手県",
+  "city": "花巻市",
+  "en": "Hanamaki"
+ },
+ {
+  "pref": "島根県",
+  "city": "出雲市",
+  "en": "Izumo"
+ },
+ {
+  "pref": "島根県",
+  "city": "大田市",
+  "en": "Oda"
+ },
+ {
+  "pref": "島根県",
+  "city": "松江市",
+  "en": "Matsue"
+ },
+ {
+  "pref": "島根県",
+  "city": "浜田市",
+  "en": "Hamada"
+ },
+ {
+  "pref": "広島県",
+  "city": "呉市",
+  "en": "Kure"
+ },
+ {
+  "pref": "広島県",
+  "city": "尾道市",
+  "en": "Onomichi"
+ },
+ {
+  "pref": "広島県",
+  "city": "広島市",
+  "en": "Hiroshima"
+ },
+ {
+  "pref": "広島県",
+  "city": "東広島市",
+  "en": "Higashihiroshima"
+ },
+ {
+  "pref": "徳島県",
+  "city": "つるぎ町",
+  "en": "Tsurugi"
+ },
+ {
+  "pref": "徳島県",
+  "city": "三好市東祖谷",
+  "en": "Miyoshi (Higashi-Iya)"
+ },
+ {
+  "pref": "徳島県",
+  "city": "上板町",
+  "en": "Kamiita"
+ },
+ {
+  "pref": "徳島県",
+  "city": "徳島市",
+  "en": "Tokushima"
+ },
+ {
+  "pref": "徳島県",
+  "city": "阿波市",
+  "en": "Awa"
+ },
+ {
+  "pref": "徳島県",
+  "city": "鳴門市",
+  "en": "Naruto"
+ },
+ {
+  "pref": "愛媛県",
+  "city": "今治市",
+  "en": "Imabari"
+ },
+ {
+  "pref": "愛媛県",
+  "city": "八幡浜市",
+  "en": "Yawatahama"
+ },
+ {
+  "pref": "愛媛県",
+  "city": "宇和島市",
+  "en": "Uwajima"
+ },
+ {
+  "pref": "愛媛県",
+  "city": "愛南町",
+  "en": "Ainan"
+ },
+ {
+  "pref": "愛媛県",
+  "city": "松山市",
+  "en": "Matsuyama"
+ },
+ {
+  "pref": "愛知県",
+  "city": "一宮市",
+  "en": "Ichinomiya"
+ },
+ {
+  "pref": "愛知県",
+  "city": "半田市",
+  "en": "Handa"
+ },
+ {
+  "pref": "愛知県",
+  "city": "名古屋市",
+  "en": "Nagoya"
+ },
+ {
+  "pref": "愛知県",
+  "city": "岡崎市",
+  "en": "Okazaki"
+ },
+ {
+  "pref": "愛知県",
+  "city": "碧南市",
+  "en": "Hekinan"
+ },
+ {
+  "pref": "愛知県",
+  "city": "西尾市",
+  "en": "Nishio"
+ },
+ {
+  "pref": "新潟県",
+  "city": "三条市",
+  "en": "Sanjo"
+ },
+ {
+  "pref": "新潟県",
+  "city": "佐渡市",
+  "en": "Sado"
+ },
+ {
+  "pref": "新潟県",
+  "city": "南魚沼市",
+  "en": "Minamiuonuma"
+ },
+ {
+  "pref": "新潟県",
+  "city": "妙高市",
+  "en": "Myoko"
+ },
+ {
+  "pref": "新潟県",
+  "city": "小千谷市",
+  "en": "Ojiya"
+ },
+ {
+  "pref": "新潟県",
+  "city": "村上市",
+  "en": "Murakami"
+ },
+ {
+  "pref": "新潟県",
+  "city": "燕市",
+  "en": "Tsubame"
+ },
+ {
+  "pref": "新潟県",
+  "city": "糸魚川市",
+  "en": "Itoigawa"
+ },
+ {
+  "pref": "新潟県",
+  "city": "長岡市",
+  "en": "Nagaoka"
+ },
+ {
+  "pref": "東京都",
+  "city": "中央区",
+  "en": "Chuo"
+ },
+ {
+  "pref": "東京都",
+  "city": "八王子市",
+  "en": "Hachioji"
+ },
+ {
+  "pref": "東京都",
+  "city": "千代田区",
+  "en": "Chiyoda"
+ },
+ {
+  "pref": "東京都",
+  "city": "台東区",
+  "en": "Taito"
+ },
+ {
+  "pref": "東京都",
+  "city": "江東区",
+  "en": "Koto"
+ },
+ {
+  "pref": "東京都",
+  "city": "小平市（武蔵野台地）",
+  "en": "Kodaira (Musashino Plateau)"
+ },
+ {
+  "pref": "東京都",
+  "city": "西多摩郡奥多摩町",
+  "en": "Okutama"
+ },
+ {
+  "pref": "東京都",
+  "city": "調布市深大寺",
+  "en": "Chofu (Jindaiji)"
+ },
+ {
+  "pref": "東京都",
+  "city": "青梅市",
+  "en": "Ome"
+ },
+ {
+  "pref": "栃木県",
+  "city": "佐野市",
+  "en": "Sano"
+ },
+ {
+  "pref": "栃木県",
+  "city": "佐野市仙波町",
+  "en": "Sano (Senba)"
+ },
+ {
+  "pref": "栃木県",
+  "city": "宇都宮市",
+  "en": "Utsunomiya"
+ },
+ {
+  "pref": "栃木県",
+  "city": "那須塩原市塩原",
+  "en": "Nasushiobara (Shiobara)"
+ },
+ {
+  "pref": "栃木県",
+  "city": "鹿沼市",
+  "en": "Kanuma"
+ },
+ {
+  "pref": "沖縄県",
+  "city": "名護市",
+  "en": "Nago"
+ },
+ {
+  "pref": "沖縄県",
+  "city": "宮古島市",
+  "en": "Miyakojima"
+ },
+ {
+  "pref": "沖縄県",
+  "city": "恩納村",
+  "en": "Onna"
+ },
+ {
+  "pref": "沖縄県",
+  "city": "石垣市",
+  "en": "Ishigaki"
+ },
+ {
+  "pref": "沖縄県",
+  "city": "那覇市",
+  "en": "Naha"
+ },
+ {
+  "pref": "滋賀県",
+  "city": "大津市",
+  "en": "Otsu"
+ },
+ {
+  "pref": "滋賀県",
+  "city": "米原市",
+  "en": "Maibara"
+ },
+ {
+  "pref": "滋賀県",
+  "city": "近江八幡市",
+  "en": "Omihachiman"
+ },
+ {
+  "pref": "熊本県",
+  "city": "天草市",
+  "en": "Amakusa"
+ },
+ {
+  "pref": "熊本県",
+  "city": "熊本市",
+  "en": "Kumamoto"
+ },
+ {
+  "pref": "熊本県",
+  "city": "阿蘇市",
+  "en": "Aso"
+ },
+ {
+  "pref": "石川県",
+  "city": "七尾市",
+  "en": "Nanao"
+ },
+ {
+  "pref": "石川県",
+  "city": "加賀市",
+  "en": "Kaga"
+ },
+ {
+  "pref": "石川県",
+  "city": "珠洲市",
+  "en": "Suzu"
+ },
+ {
+  "pref": "石川県",
+  "city": "能登町",
+  "en": "Noto"
+ },
+ {
+  "pref": "石川県",
+  "city": "金沢市",
+  "en": "Kanazawa"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "三浦市",
+  "en": "Miura"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "小田原市",
+  "en": "Odawara"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "川崎市",
+  "en": "Kawasaki"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "横浜市",
+  "en": "Yokohama"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "横須賀市",
+  "en": "Yokosuka"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "相模原市緑区津久井",
+  "en": "Sagamihara (Midori Ward, Tsukui)"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "藤沢市",
+  "en": "Fujisawa"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "鎌倉市",
+  "en": "Kamakura"
+ },
+ {
+  "pref": "福井県",
+  "city": "坂井市",
+  "en": "Sakai"
+ },
+ {
+  "pref": "福井県",
+  "city": "小浜市",
+  "en": "Obama"
+ },
+ {
+  "pref": "福井県",
+  "city": "敦賀市",
+  "en": "Tsuruga"
+ },
+ {
+  "pref": "福井県",
+  "city": "福井市",
+  "en": "Fukui"
+ },
+ {
+  "pref": "福井県",
+  "city": "越前市",
+  "en": "Echizen"
+ },
+ {
+  "pref": "福井県",
+  "city": "越前町",
+  "en": "Echizen"
+ },
+ {
+  "pref": "福岡県",
+  "city": "久留米市",
+  "en": "Kurume"
+ },
+ {
+  "pref": "福岡県",
+  "city": "北九州市戸畑区",
+  "en": "Kitakyushu (Tobata Ward)"
+ },
+ {
+  "pref": "福岡県",
+  "city": "柳川市",
+  "en": "Yanagawa"
+ },
+ {
+  "pref": "福岡県",
+  "city": "福岡市",
+  "en": "Fukuoka"
+ },
+ {
+  "pref": "福岡県",
+  "city": "福岡市博多区",
+  "en": "Fukuoka (Hakata Ward)"
+ },
+ {
+  "pref": "福島県",
+  "city": "伊達市",
+  "en": "Date"
+ },
+ {
+  "pref": "福島県",
+  "city": "会津若松市",
+  "en": "Aizuwakamatsu"
+ },
+ {
+  "pref": "福島県",
+  "city": "北塩原村",
+  "en": "Kitashiobara"
+ },
+ {
+  "pref": "福島県",
+  "city": "喜多方市",
+  "en": "Kitakata"
+ },
+ {
+  "pref": "福島県",
+  "city": "喜多方市山都町",
+  "en": "Kitakata (Yamato)"
+ },
+ {
+  "pref": "福島県",
+  "city": "川俣町",
+  "en": "Kawamata"
+ },
+ {
+  "pref": "福島県",
+  "city": "檜枝岐村",
+  "en": "Hinoemata"
+ },
+ {
+  "pref": "福島県",
+  "city": "浪江町",
+  "en": "Namie"
+ },
+ {
+  "pref": "福島県",
+  "city": "白河市",
+  "en": "Shirakawa"
+ },
+ {
+  "pref": "福島県",
+  "city": "郡山市",
+  "en": "Koriyama"
+ },
+ {
+  "pref": "秋田県",
+  "city": "大仙市",
+  "en": "Daisen"
+ },
+ {
+  "pref": "秋田県",
+  "city": "大館市",
+  "en": "Odate"
+ },
+ {
+  "pref": "秋田県",
+  "city": "横手市",
+  "en": "Yokote"
+ },
+ {
+  "pref": "秋田県",
+  "city": "湯沢市稲庭町",
+  "en": "Yuzawa (Inaniwa)"
+ },
+ {
+  "pref": "秋田県",
+  "city": "男鹿市",
+  "en": "Oga"
+ },
+ {
+  "pref": "群馬県",
+  "city": "太田市",
+  "en": "Ota"
+ },
+ {
+  "pref": "群馬県",
+  "city": "桐生市",
+  "en": "Kiryu"
+ },
+ {
+  "pref": "群馬県",
+  "city": "渋川市伊香保町水沢",
+  "en": "Shibukawa (Ikaho, Mizusawa)"
+ },
+ {
+  "pref": "群馬県",
+  "city": "藤岡市",
+  "en": "Fujioka"
+ },
+ {
+  "pref": "群馬県",
+  "city": "館林市",
+  "en": "Tatebayashi"
+ },
+ {
+  "pref": "茨城県",
+  "city": "ひたちなか市",
+  "en": "Hitachinaka"
+ },
+ {
+  "pref": "茨城県",
+  "city": "ひたちなか市那珂湊",
+  "en": "Hitachinaka (Nakaminato)"
+ },
+ {
+  "pref": "茨城県",
+  "city": "土浦市",
+  "en": "Tsuchiura"
+ },
+ {
+  "pref": "茨城県",
+  "city": "大子町",
+  "en": "Daigo"
+ },
+ {
+  "pref": "茨城県",
+  "city": "大洗町",
+  "en": "Oarai"
+ },
+ {
+  "pref": "茨城県",
+  "city": "筑西市",
+  "en": "Chikusei"
+ },
+ {
+  "pref": "茨城県",
+  "city": "行方市",
+  "en": "Namegata"
+ },
+ {
+  "pref": "茨城県",
+  "city": "龍ケ崎市",
+  "en": "Ryugasaki"
+ },
+ {
+  "pref": "長崎県",
+  "city": "五島市",
+  "en": "Goto"
+ },
+ {
+  "pref": "長崎県",
+  "city": "南島原市",
+  "en": "Minamishimabara"
+ },
+ {
+  "pref": "長崎県",
+  "city": "南松浦郡新上五島町",
+  "en": "Shinkamigoto"
+ },
+ {
+  "pref": "長崎県",
+  "city": "大村市",
+  "en": "Omura"
+ },
+ {
+  "pref": "長崎県",
+  "city": "対馬市",
+  "en": "Tsushima"
+ },
+ {
+  "pref": "長崎県",
+  "city": "長崎市",
+  "en": "Nagasaki"
+ },
+ {
+  "pref": "長崎県",
+  "city": "雲仙市小浜町",
+  "en": "Unzen (Obama)"
+ },
+ {
+  "pref": "長野県",
+  "city": "上田市",
+  "en": "Ueda"
+ },
+ {
+  "pref": "長野県",
+  "city": "伊那市",
+  "en": "Ina"
+ },
+ {
+  "pref": "長野県",
+  "city": "佐久市",
+  "en": "Saku"
+ },
+ {
+  "pref": "長野県",
+  "city": "埴科郡坂城町",
+  "en": "Sakaki"
+ },
+ {
+  "pref": "長野県",
+  "city": "長野市",
+  "en": "Nagano"
+ },
+ {
+  "pref": "長野県",
+  "city": "長野市戸隠",
+  "en": "Nagano (Togakushi)"
+ },
+ {
+  "pref": "長野県",
+  "city": "飯山市富倉",
+  "en": "Iiyama (Tomikura)"
+ },
+ {
+  "pref": "長野県",
+  "city": "駒ヶ根市",
+  "en": "Komagane"
+ },
+ {
+  "pref": "青森県",
+  "city": "むつ市",
+  "en": "Mutsu"
+ },
+ {
+  "pref": "青森県",
+  "city": "五戸町",
+  "en": "Gonohe"
+ },
+ {
+  "pref": "青森県",
+  "city": "八戸市",
+  "en": "Hachinohe"
+ },
+ {
+  "pref": "青森県",
+  "city": "大間町",
+  "en": "Oma"
+ },
+ {
+  "pref": "青森県",
+  "city": "弘前市",
+  "en": "Hirosaki"
+ },
+ {
+  "pref": "青森県",
+  "city": "青森市",
+  "en": "Aomori"
+ },
+ {
+  "pref": "青森県",
+  "city": "黒石市",
+  "en": "Kuroishi"
+ },
+ {
+  "pref": "静岡県",
+  "city": "下田市",
+  "en": "Shimoda"
+ },
+ {
+  "pref": "静岡県",
+  "city": "富士宮市",
+  "en": "Fujinomiya"
+ },
+ {
+  "pref": "静岡県",
+  "city": "富士市",
+  "en": "Fuji"
+ },
+ {
+  "pref": "静岡県",
+  "city": "御殿場市",
+  "en": "Gotemba"
+ },
+ {
+  "pref": "静岡県",
+  "city": "沼津市",
+  "en": "Numazu"
+ },
+ {
+  "pref": "静岡県",
+  "city": "浜松市",
+  "en": "Hamamatsu"
+ },
+ {
+  "pref": "静岡県",
+  "city": "焼津市",
+  "en": "Yaizu"
+ },
+ {
+  "pref": "静岡県",
+  "city": "菊川市",
+  "en": "Kikugawa"
+ },
+ {
+  "pref": "静岡県",
+  "city": "藤枝市",
+  "en": "Fujieda"
+ },
+ {
+  "pref": "静岡県",
+  "city": "静岡市",
+  "en": "Shizuoka"
+ },
+ {
+  "pref": "香川県",
+  "city": "小豆島町",
+  "en": "Shodoshima"
+ },
+ {
+  "pref": "香川県",
+  "city": "東かがわ市",
+  "en": "Higashikagawa"
+ },
+ {
+  "pref": "香川県",
+  "city": "綾川町（滝宮）",
+  "en": "Ayagawa (Takinomiya)"
+ },
+ {
+  "pref": "香川県",
+  "city": "高松市",
+  "en": "Takamatsu"
+ },
+ {
+  "pref": "高知県",
+  "city": "吾川郡いの町",
+  "en": "Ino"
+ },
+ {
+  "pref": "高知県",
+  "city": "四万十市",
+  "en": "Shimanto"
+ },
+ {
+  "pref": "高知県",
+  "city": "大月町",
+  "en": "Otsuki"
+ },
+ {
+  "pref": "高知県",
+  "city": "須崎市",
+  "en": "Susaki"
+ },
+ {
+  "pref": "高知県",
+  "city": "高知市",
+  "en": "Kochi"
+ },
+ {
+  "pref": "鳥取県",
+  "city": "倉吉市",
+  "en": "Kurayoshi"
+ },
+ {
+  "pref": "鳥取県",
+  "city": "大山町",
+  "en": "Daisen"
+ },
+ {
+  "pref": "鳥取県",
+  "city": "米子市",
+  "en": "Yonago"
+ },
+ {
+  "pref": "鳥取県",
+  "city": "鳥取市",
+  "en": "Tottori"
+ },
+ {
+  "pref": "鹿児島県",
+  "city": "奄美市",
+  "en": "Amami"
+ },
+ {
+  "pref": "鹿児島県",
+  "city": "指宿市",
+  "en": "Ibusuki"
+ },
+ {
+  "pref": "鹿児島県",
+  "city": "薩摩川内市",
+  "en": "Satsumasendai"
+ },
+ {
+  "pref": "鹿児島県",
+  "city": "霧島市",
+  "en": "Kirishima"
+ },
+ {
+  "pref": "鹿児島県",
+  "city": "鹿児島市",
+  "en": "Kagoshima"
+ },
+ {
+  "pref": "三重県",
+  "city": "いなべ市",
+  "en": "Inabe"
+ },
+ {
+  "pref": "三重県",
+  "city": "中南勢地域（伊勢市周辺）",
+  "en": "Chunansei (around Ise)"
+ },
+ {
+  "pref": "三重県",
+  "city": "亀山市",
+  "en": "Kameyama"
+ },
+ {
+  "pref": "三重県",
+  "city": "伊賀市",
+  "en": "Iga"
+ },
+ {
+  "pref": "三重県",
+  "city": "大台町",
+  "en": "Odai"
+ },
+ {
+  "pref": "三重県",
+  "city": "朝日町",
+  "en": "Asahi"
+ },
+ {
+  "pref": "京都府",
+  "city": "亀岡市篠町",
+  "en": "Kameoka (Shino)"
+ },
+ {
+  "pref": "京都府",
+  "city": "京都市伏見区",
+  "en": "Kyoto (Fushimi Ward)"
+ },
+ {
+  "pref": "京都府",
+  "city": "京都市北区上賀茂",
+  "en": "Kyoto (Kamigamo, Kita Ward)"
+ },
+ {
+  "pref": "京都府",
+  "city": "京都市左京区",
+  "en": "Kyoto (Sakyo Ward)"
+ },
+ {
+  "pref": "京都府",
+  "city": "京都市左京区大原",
+  "en": "Kyoto (Ohara, Sakyo Ward)"
+ },
+ {
+  "pref": "京都府",
+  "city": "南丹市",
+  "en": "Nantan"
+ },
+ {
+  "pref": "京都府",
+  "city": "宇治市",
+  "en": "Uji"
+ },
+ {
+  "pref": "京都府",
+  "city": "宇治田原町",
+  "en": "Ujitawara"
+ },
+ {
+  "pref": "京都府",
+  "city": "綴喜郡宇治田原町",
+  "en": "Ujitawara"
+ },
+ {
+  "pref": "京都府",
+  "city": "長岡京市",
+  "en": "Nagaokakyo"
+ },
+ {
+  "pref": "佐賀県",
+  "city": "唐津市",
+  "en": "Karatsu"
+ },
+ {
+  "pref": "佐賀県",
+  "city": "嬉野市",
+  "en": "Ureshino"
+ },
+ {
+  "pref": "佐賀県",
+  "city": "小城市",
+  "en": "Ogi"
+ },
+ {
+  "pref": "佐賀県",
+  "city": "有田町",
+  "en": "Arita"
+ },
+ {
+  "pref": "佐賀県",
+  "city": "武雄市",
+  "en": "Takeo"
+ },
+ {
+  "pref": "佐賀県",
+  "city": "神埼市",
+  "en": "Kanzaki"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "加古川市",
+  "en": "Kakogawa"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "多可町",
+  "en": "Taka"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "新温泉町",
+  "en": "Shinonsen"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "神戸市",
+  "en": "Kobe"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "神戸市灘区",
+  "en": "Kobe (Nada Ward)"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "豊岡市（城崎）",
+  "en": "Toyooka (Kinosaki)"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "養父市",
+  "en": "Yabu"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "高砂市",
+  "en": "Takasago"
+ },
+ {
+  "pref": "北海道",
+  "city": "上川町",
+  "en": "Kamikawa"
+ },
+ {
+  "pref": "北海道",
+  "city": "中標津町",
+  "en": "Nakashibetsu"
+ },
+ {
+  "pref": "北海道",
+  "city": "利尻町",
+  "en": "Rishiri"
+ },
+ {
+  "pref": "北海道",
+  "city": "岩内町",
+  "en": "Iwanai"
+ },
+ {
+  "pref": "北海道",
+  "city": "松前郡松前町",
+  "en": "Matsumae"
+ },
+ {
+  "pref": "北海道",
+  "city": "白老町（虎杖浜）",
+  "en": "Shiraoi (Kojohama)"
+ },
+ {
+  "pref": "北海道",
+  "city": "芦別市",
+  "en": "Ashibetsu"
+ },
+ {
+  "pref": "千葉県",
+  "city": "九十九里町",
+  "en": "Kujukuri"
+ },
+ {
+  "pref": "千葉県",
+  "city": "八千代市",
+  "en": "Yachiyo"
+ },
+ {
+  "pref": "千葉県",
+  "city": "八街市",
+  "en": "Yachimata"
+ },
+ {
+  "pref": "千葉県",
+  "city": "南房総市",
+  "en": "Minamiboso"
+ },
+ {
+  "pref": "千葉県",
+  "city": "大多喜町",
+  "en": "Otaki"
+ },
+ {
+  "pref": "千葉県",
+  "city": "市原市",
+  "en": "Ichihara"
+ },
+ {
+  "pref": "千葉県",
+  "city": "東金市",
+  "en": "Togane"
+ },
+ {
+  "pref": "千葉県",
+  "city": "茂原市",
+  "en": "Mobara"
+ },
+ {
+  "pref": "千葉県",
+  "city": "袖ケ浦市",
+  "en": "Sodegaura"
+ },
+ {
+  "pref": "千葉県",
+  "city": "野田市",
+  "en": "Noda"
+ },
+ {
+  "pref": "千葉県",
+  "city": "長生郡長柄町",
+  "en": "Nagara"
+ },
+ {
+  "pref": "千葉県",
+  "city": "香取市",
+  "en": "Katori"
+ },
+ {
+  "pref": "和歌山県",
+  "city": "古座川町",
+  "en": "Kozagawa"
+ },
+ {
+  "pref": "和歌山県",
+  "city": "太地町",
+  "en": "Taiji"
+ },
+ {
+  "pref": "和歌山県",
+  "city": "有田川町",
+  "en": "Aridagawa"
+ },
+ {
+  "pref": "和歌山県",
+  "city": "有田市",
+  "en": "Arida"
+ },
+ {
+  "pref": "和歌山県",
+  "city": "橋本市",
+  "en": "Hashimoto"
+ },
+ {
+  "pref": "和歌山県",
+  "city": "田辺市",
+  "en": "Tanabe"
+ },
+ {
+  "pref": "和歌山県",
+  "city": "由良町",
+  "en": "Yura"
+ },
+ {
+  "pref": "和歌山県",
+  "city": "高野町",
+  "en": "Koya"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "さいたま市",
+  "en": "Saitama"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "さいたま市大宮区",
+  "en": "Saitama (Omiya Ward)"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "さいたま市岩槻区",
+  "en": "Saitama (Iwatsuki Ward)"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "上尾市",
+  "en": "Ageo"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "久喜市",
+  "en": "Kuki"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "寄居町",
+  "en": "Yorii"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "小鹿野町",
+  "en": "Ogano"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "川島町",
+  "en": "Kawajima"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "所沢市",
+  "en": "Tokorozawa"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "日高市",
+  "en": "Hidaka"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "本庄市",
+  "en": "Honjo"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "熊谷市",
+  "en": "Kumagaya"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "秩父市",
+  "en": "Chichibu"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "行田市",
+  "en": "Gyoda"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "越生町",
+  "en": "Ogose"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "鴻巣市",
+  "en": "Konosu"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "鶴ヶ島市",
+  "en": "Tsurugashima"
+ },
+ {
+  "pref": "大分県",
+  "city": "国東市",
+  "en": "Kunisaki"
+ },
+ {
+  "pref": "大分県",
+  "city": "姫島村",
+  "en": "Himeshima"
+ },
+ {
+  "pref": "大分県",
+  "city": "宇佐市",
+  "en": "Usa"
+ },
+ {
+  "pref": "大分県",
+  "city": "津久見市",
+  "en": "Tsukumi"
+ },
+ {
+  "pref": "大分県",
+  "city": "由布市",
+  "en": "Yufu"
+ },
+ {
+  "pref": "大分県",
+  "city": "竹田市",
+  "en": "Taketa"
+ },
+ {
+  "pref": "大分県",
+  "city": "豊後大野市",
+  "en": "Bungoono"
+ },
+ {
+  "pref": "大阪府",
+  "city": "八尾市",
+  "en": "Yao"
+ },
+ {
+  "pref": "大阪府",
+  "city": "大阪市中央区",
+  "en": "Osaka (Chuo Ward)"
+ },
+ {
+  "pref": "大阪府",
+  "city": "大阪市浪速区",
+  "en": "Osaka (Naniwa Ward)"
+ },
+ {
+  "pref": "大阪府",
+  "city": "藤井寺市",
+  "en": "Fujiidera"
+ },
+ {
+  "pref": "大阪府",
+  "city": "門真市",
+  "en": "Kadoma"
+ },
+ {
+  "pref": "奈良県",
+  "city": "下北山村",
+  "en": "Shimokitayama"
+ },
+ {
+  "pref": "奈良県",
+  "city": "十津川村",
+  "en": "Totsukawa"
+ },
+ {
+  "pref": "奈良県",
+  "city": "吉野町",
+  "en": "Yoshino"
+ },
+ {
+  "pref": "奈良県",
+  "city": "明日香村",
+  "en": "Asuka"
+ },
+ {
+  "pref": "宮城県",
+  "city": "丸森町",
+  "en": "Marumori"
+ },
+ {
+  "pref": "宮城県",
+  "city": "亘理町",
+  "en": "Watari"
+ },
+ {
+  "pref": "宮城県",
+  "city": "仙台市青葉区",
+  "en": "Sendai (Aoba Ward)"
+ },
+ {
+  "pref": "宮城県",
+  "city": "山元町",
+  "en": "Yamamoto"
+ },
+ {
+  "pref": "宮城県",
+  "city": "栗原市",
+  "en": "Kurihara"
+ },
+ {
+  "pref": "宮城県",
+  "city": "登米市",
+  "en": "Tome"
+ },
+ {
+  "pref": "宮崎県",
+  "city": "小林市",
+  "en": "Kobayashi"
+ },
+ {
+  "pref": "宮崎県",
+  "city": "新富町",
+  "en": "Shintomi"
+ },
+ {
+  "pref": "宮崎県",
+  "city": "日南市",
+  "en": "Nichinan"
+ },
+ {
+  "pref": "宮崎県",
+  "city": "日向市",
+  "en": "Hyuga"
+ },
+ {
+  "pref": "宮崎県",
+  "city": "椎葉村",
+  "en": "Shiiba"
+ },
+ {
+  "pref": "宮崎県",
+  "city": "西臼杵郡五ヶ瀬町",
+  "en": "Gokase"
+ },
+ {
+  "pref": "宮崎県",
+  "city": "都城市",
+  "en": "Miyakonojo"
+ },
+ {
+  "pref": "宮崎県",
+  "city": "都農町",
+  "en": "Tsuno"
+ },
+ {
+  "pref": "宮崎県",
+  "city": "門川町",
+  "en": "Kadogawa"
+ },
+ {
+  "pref": "宮崎県",
+  "city": "高千穂町",
+  "en": "Takachiho"
+ },
+ {
+  "pref": "富山県",
+  "city": "下新川郡入善町",
+  "en": "Nyuzen"
+ },
+ {
+  "pref": "富山県",
+  "city": "南砺市",
+  "en": "Nanto"
+ },
+ {
+  "pref": "富山県",
+  "city": "射水市",
+  "en": "Imizu"
+ },
+ {
+  "pref": "富山県",
+  "city": "小矢部市",
+  "en": "Oyabe"
+ },
+ {
+  "pref": "富山県",
+  "city": "朝日町",
+  "en": "Asahi"
+ },
+ {
+  "pref": "富山県",
+  "city": "滑川市",
+  "en": "Namerikawa"
+ },
+ {
+  "pref": "富山県",
+  "city": "砺波市",
+  "en": "Tonami"
+ },
+ {
+  "pref": "富山県",
+  "city": "立山町",
+  "en": "Tateyama"
+ },
+ {
+  "pref": "富山県",
+  "city": "高岡市",
+  "en": "Takaoka"
+ },
+ {
+  "pref": "富山県",
+  "city": "魚津市",
+  "en": "Uozu"
+ },
+ {
+  "pref": "山口県",
+  "city": "下松市",
+  "en": "Kudamatsu"
+ },
+ {
+  "pref": "山口県",
+  "city": "周防大島町",
+  "en": "Suo Oshima"
+ },
+ {
+  "pref": "山口県",
+  "city": "宇部市",
+  "en": "Ube"
+ },
+ {
+  "pref": "山口県",
+  "city": "山口市",
+  "en": "Yamaguchi"
+ },
+ {
+  "pref": "山口県",
+  "city": "田布施町",
+  "en": "Tabuse"
+ },
+ {
+  "pref": "山口県",
+  "city": "萩市",
+  "en": "Hagi"
+ },
+ {
+  "pref": "山口県",
+  "city": "萩市見島",
+  "en": "Hagi (Mishima)"
+ },
+ {
+  "pref": "山形県",
+  "city": "大江町",
+  "en": "Oe"
+ },
+ {
+  "pref": "山形県",
+  "city": "天童市",
+  "en": "Tendo"
+ },
+ {
+  "pref": "山形県",
+  "city": "村山地域・置賜地域",
+  "en": "Murayama and Okitama"
+ },
+ {
+  "pref": "山形県",
+  "city": "西村山郡河北町",
+  "en": "Kahoku"
+ },
+ {
+  "pref": "山形県",
+  "city": "長井市",
+  "en": "Nagai"
+ },
+ {
+  "pref": "山梨県",
+  "city": "上野原市",
+  "en": "Uenohara"
+ },
+ {
+  "pref": "山梨県",
+  "city": "北杜市",
+  "en": "Hokuto"
+ },
+ {
+  "pref": "山梨県",
+  "city": "南アルプス市",
+  "en": "Minami Alps"
+ },
+ {
+  "pref": "山梨県",
+  "city": "富士川町",
+  "en": "Fujikawa"
+ },
+ {
+  "pref": "山梨県",
+  "city": "富士河口湖町",
+  "en": "Fujikawaguchiko"
+ },
+ {
+  "pref": "山梨県",
+  "city": "山梨市",
+  "en": "Yamanashi"
+ },
+ {
+  "pref": "山梨県",
+  "city": "市川三郷町",
+  "en": "Ichikawamisato"
+ },
+ {
+  "pref": "山梨県",
+  "city": "早川町",
+  "en": "Hayakawa"
+ },
+ {
+  "pref": "山梨県",
+  "city": "甲州市",
+  "en": "Koshu"
+ },
+ {
+  "pref": "山梨県",
+  "city": "甲府市",
+  "en": "Kofu"
+ },
+ {
+  "pref": "山梨県",
+  "city": "身延町",
+  "en": "Minobu"
+ },
+ {
+  "pref": "岐阜県",
+  "city": "大垣市",
+  "en": "Ogaki"
+ },
+ {
+  "pref": "岐阜県",
+  "city": "山県市",
+  "en": "Yamagata"
+ },
+ {
+  "pref": "岐阜県",
+  "city": "岐阜市",
+  "en": "Gifu"
+ },
+ {
+  "pref": "岐阜県",
+  "city": "白川村",
+  "en": "Shirakawa"
+ },
+ {
+  "pref": "岐阜県",
+  "city": "羽島市",
+  "en": "Hashima"
+ },
+ {
+  "pref": "岐阜県",
+  "city": "飛騨市",
+  "en": "Hida"
+ },
+ {
+  "pref": "岐阜県",
+  "city": "高山市・飛騨市",
+  "en": "Takayama and Hida"
+ },
+ {
+  "pref": "岡山県",
+  "city": "井原市",
+  "en": "Ibara"
+ },
+ {
+  "pref": "岡山県",
+  "city": "倉敷市",
+  "en": "Kurashiki"
+ },
+ {
+  "pref": "岡山県",
+  "city": "備前市",
+  "en": "Bizen"
+ },
+ {
+  "pref": "岡山県",
+  "city": "吉備中央町",
+  "en": "Kibichuo"
+ },
+ {
+  "pref": "岡山県",
+  "city": "浅口市",
+  "en": "Asakuchi"
+ },
+ {
+  "pref": "岡山県",
+  "city": "真庭市",
+  "en": "Maniwa"
+ },
+ {
+  "pref": "岡山県",
+  "city": "高梁市",
+  "en": "Takahashi"
+ },
+ {
+  "pref": "岩手県",
+  "city": "一関市",
+  "en": "Ichinoseki"
+ },
+ {
+  "pref": "岩手県",
+  "city": "二戸市",
+  "en": "Ninohe"
+ },
+ {
+  "pref": "岩手県",
+  "city": "北上市",
+  "en": "Kitakami"
+ },
+ {
+  "pref": "岩手県",
+  "city": "大槌町",
+  "en": "Otsuchi"
+ },
+ {
+  "pref": "岩手県",
+  "city": "普代村",
+  "en": "Fudai"
+ },
+ {
+  "pref": "岩手県",
+  "city": "花巻市石鳥谷町",
+  "en": "Hanamaki (Ishidoriya)"
+ },
+ {
+  "pref": "岩手県",
+  "city": "釜石市",
+  "en": "Kamaishi"
+ },
+ {
+  "pref": "島根県",
+  "city": "出雲市（十六島）",
+  "en": "Izumo (Uppurui)"
+ },
+ {
+  "pref": "島根県",
+  "city": "安来市",
+  "en": "Yasugi"
+ },
+ {
+  "pref": "島根県",
+  "city": "松江市美保関町",
+  "en": "Matsue (Mihonoseki)"
+ },
+ {
+  "pref": "島根県",
+  "city": "津和野町",
+  "en": "Tsuwano"
+ },
+ {
+  "pref": "島根県",
+  "city": "隠岐の島町",
+  "en": "Okinoshima"
+ },
+ {
+  "pref": "島根県",
+  "city": "雲南市",
+  "en": "Unnan"
+ },
+ {
+  "pref": "広島県",
+  "city": "三原市",
+  "en": "Mihara"
+ },
+ {
+  "pref": "広島県",
+  "city": "三次市",
+  "en": "Miyoshi"
+ },
+ {
+  "pref": "広島県",
+  "city": "北広島町",
+  "en": "Kitahiroshima"
+ },
+ {
+  "pref": "広島県",
+  "city": "大竹市",
+  "en": "Otake"
+ },
+ {
+  "pref": "広島県",
+  "city": "尾道市（因島）",
+  "en": "Onomichi (Innoshima)"
+ },
+ {
+  "pref": "広島県",
+  "city": "広島市中区江波地区",
+  "en": "Hiroshima (Eba, Naka Ward)"
+ },
+ {
+  "pref": "広島県",
+  "city": "広島市安佐南区",
+  "en": "Hiroshima (Asaminami Ward)"
+ },
+ {
+  "pref": "広島県",
+  "city": "庄原市",
+  "en": "Shobara"
+ },
+ {
+  "pref": "広島県",
+  "city": "府中市",
+  "en": "Fuchu"
+ },
+ {
+  "pref": "広島県",
+  "city": "府中町",
+  "en": "Fuchu"
+ },
+ {
+  "pref": "広島県",
+  "city": "廿日市市宮島町",
+  "en": "Hatsukaichi (Miyajima)"
+ },
+ {
+  "pref": "広島県",
+  "city": "江田島市",
+  "en": "Etajima"
+ },
+ {
+  "pref": "広島県",
+  "city": "熊野町",
+  "en": "Kumano"
+ },
+ {
+  "pref": "広島県",
+  "city": "福山市",
+  "en": "Fukuyama"
+ },
+ {
+  "pref": "広島県",
+  "city": "福山市（鞆の浦）",
+  "en": "Fukuyama (Tomonoura)"
+ },
+ {
+  "pref": "広島県",
+  "city": "竹原市",
+  "en": "Takehara"
+ },
+ {
+  "pref": "徳島県",
+  "city": "三好市",
+  "en": "Miyoshi"
+ },
+ {
+  "pref": "徳島県",
+  "city": "佐那河内村",
+  "en": "Sanagochi"
+ },
+ {
+  "pref": "徳島県",
+  "city": "勝浦町",
+  "en": "Katsuura"
+ },
+ {
+  "pref": "徳島県",
+  "city": "海陽町",
+  "en": "Kaiyo"
+ },
+ {
+  "pref": "徳島県",
+  "city": "牟岐町",
+  "en": "Mugi"
+ },
+ {
+  "pref": "徳島県",
+  "city": "美波町",
+  "en": "Minami"
+ },
+ {
+  "pref": "徳島県",
+  "city": "那賀町",
+  "en": "Naka"
+ },
+ {
+  "pref": "徳島県",
+  "city": "那賀町・上勝町",
+  "en": "Naka and Kamikatsu"
+ },
+ {
+  "pref": "愛媛県",
+  "city": "伊方町",
+  "en": "Ikata"
+ },
+ {
+  "pref": "愛媛県",
+  "city": "大洲市",
+  "en": "Ozu"
+ },
+ {
+  "pref": "愛媛県",
+  "city": "新居浜市",
+  "en": "Niihama"
+ },
+ {
+  "pref": "愛媛県",
+  "city": "鬼北町",
+  "en": "Kihoku"
+ },
+ {
+  "pref": "愛知県",
+  "city": "丹羽郡扶桑町",
+  "en": "Fuso"
+ },
+ {
+  "pref": "愛知県",
+  "city": "南知多町日間賀島",
+  "en": "Minamichita (Himakajima)"
+ },
+ {
+  "pref": "愛知県",
+  "city": "名古屋市中村区",
+  "en": "Nagoya (Nakamura Ward)"
+ },
+ {
+  "pref": "愛知県",
+  "city": "名古屋市千種区",
+  "en": "Nagoya (Chikusa Ward)"
+ },
+ {
+  "pref": "愛知県",
+  "city": "愛西市",
+  "en": "Aisai"
+ },
+ {
+  "pref": "愛知県",
+  "city": "東海市",
+  "en": "Tokai"
+ },
+ {
+  "pref": "愛知県",
+  "city": "清須市",
+  "en": "Kiyosu"
+ },
+ {
+  "pref": "愛知県",
+  "city": "田原市",
+  "en": "Tahara"
+ },
+ {
+  "pref": "愛知県",
+  "city": "豊橋市",
+  "en": "Toyohashi"
+ },
+ {
+  "pref": "愛知県",
+  "city": "豊田市",
+  "en": "Toyota"
+ },
+ {
+  "pref": "愛知県",
+  "city": "高浜市",
+  "en": "Takahama"
+ },
+ {
+  "pref": "新潟県",
+  "city": "上越市",
+  "en": "Joetsu"
+ },
+ {
+  "pref": "新潟県",
+  "city": "五泉市",
+  "en": "Gosen"
+ },
+ {
+  "pref": "新潟県",
+  "city": "新潟市",
+  "en": "Niigata"
+ },
+ {
+  "pref": "新潟県",
+  "city": "見附市",
+  "en": "Mitsuke"
+ },
+ {
+  "pref": "新潟県",
+  "city": "阿賀町",
+  "en": "Aga"
+ },
+ {
+  "pref": "東京都",
+  "city": "中央区（日本橋）",
+  "en": "Chuo (Nihonbashi)"
+ },
+ {
+  "pref": "東京都",
+  "city": "中央区（月島）",
+  "en": "Chuo (Tsukishima)"
+ },
+ {
+  "pref": "東京都",
+  "city": "中央区日本橋",
+  "en": "Chuo (Nihonbashi)"
+ },
+ {
+  "pref": "東京都",
+  "city": "中野区",
+  "en": "Nakano"
+ },
+ {
+  "pref": "東京都",
+  "city": "八丈島",
+  "en": "Hachijo Island"
+ },
+ {
+  "pref": "東京都",
+  "city": "北区",
+  "en": "Kita"
+ },
+ {
+  "pref": "東京都",
+  "city": "千代田区神田",
+  "en": "Chiyoda (Kanda)"
+ },
+ {
+  "pref": "東京都",
+  "city": "奥多摩町",
+  "en": "Okutama"
+ },
+ {
+  "pref": "東京都",
+  "city": "文京区",
+  "en": "Bunkyo"
+ },
+ {
+  "pref": "東京都",
+  "city": "杉並区荻窪",
+  "en": "Suginami (Ogikubo)"
+ },
+ {
+  "pref": "東京都",
+  "city": "武蔵野市",
+  "en": "Musashino"
+ },
+ {
+  "pref": "東京都",
+  "city": "渋谷区",
+  "en": "Shibuya"
+ },
+ {
+  "pref": "東京都",
+  "city": "港区",
+  "en": "Minato"
+ },
+ {
+  "pref": "東京都",
+  "city": "港区虎ノ門",
+  "en": "Minato (Toranomon)"
+ },
+ {
+  "pref": "東京都",
+  "city": "練馬区",
+  "en": "Nerima"
+ },
+ {
+  "pref": "東京都",
+  "city": "葛飾区",
+  "en": "Katsushika"
+ },
+ {
+  "pref": "東京都",
+  "city": "豊島区",
+  "en": "Toshima"
+ },
+ {
+  "pref": "東京都",
+  "city": "墨田区",
+  "en": "Sumida"
+ },
+ {
+  "pref": "栃木県",
+  "city": "下野市",
+  "en": "Shimotsuke"
+ },
+ {
+  "pref": "栃木県",
+  "city": "大田原市",
+  "en": "Otawara"
+ },
+ {
+  "pref": "栃木県",
+  "city": "小山市",
+  "en": "Oyama"
+ },
+ {
+  "pref": "栃木県",
+  "city": "日光市",
+  "en": "Nikko"
+ },
+ {
+  "pref": "栃木県",
+  "city": "栃木市",
+  "en": "Tochigi"
+ },
+ {
+  "pref": "沖縄県",
+  "city": "八重山郡与那国町",
+  "en": "Yonaguni"
+ },
+ {
+  "pref": "沖縄県",
+  "city": "南風原町",
+  "en": "Haebaru"
+ },
+ {
+  "pref": "沖縄県",
+  "city": "竹富島",
+  "en": "Taketomi Island"
+ },
+ {
+  "pref": "沖縄県",
+  "city": "那覇市首里",
+  "en": "Naha (Shuri)"
+ },
+ {
+  "pref": "滋賀県",
+  "city": "東近江市",
+  "en": "Higashiomi"
+ },
+ {
+  "pref": "滋賀県",
+  "city": "甲賀市",
+  "en": "Koka"
+ },
+ {
+  "pref": "滋賀県",
+  "city": "高島市",
+  "en": "Takashima"
+ },
+ {
+  "pref": "熊本県",
+  "city": "人吉市",
+  "en": "Hitoyoshi"
+ },
+ {
+  "pref": "熊本県",
+  "city": "南関町",
+  "en": "Nankan"
+ },
+ {
+  "pref": "熊本県",
+  "city": "南阿蘇村",
+  "en": "Minamiaso"
+ },
+ {
+  "pref": "熊本県",
+  "city": "嘉島町",
+  "en": "Kashima"
+ },
+ {
+  "pref": "熊本県",
+  "city": "山都町",
+  "en": "Yamato"
+ },
+ {
+  "pref": "熊本県",
+  "city": "山鹿市",
+  "en": "Yamaga"
+ },
+ {
+  "pref": "熊本県",
+  "city": "湯前町",
+  "en": "Yunomae"
+ },
+ {
+  "pref": "熊本県",
+  "city": "玉名市",
+  "en": "Tamana"
+ },
+ {
+  "pref": "熊本県",
+  "city": "球磨町",
+  "en": "Kuma"
+ },
+ {
+  "pref": "熊本県",
+  "city": "菊池市",
+  "en": "Kikuchi"
+ },
+ {
+  "pref": "石川県",
+  "city": "穴水町",
+  "en": "Anamizu"
+ },
+ {
+  "pref": "石川県",
+  "city": "羽咋市",
+  "en": "Hakui"
+ },
+ {
+  "pref": "石川県",
+  "city": "輪島市",
+  "en": "Wajima"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "三浦市三崎",
+  "en": "Miura (Misaki)"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "伊勢原市",
+  "en": "Isehara"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "厚木市",
+  "en": "Atsugi"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "小田原市上曽我",
+  "en": "Odawara (Kamisoga)"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "平塚市",
+  "en": "Hiratsuka"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "横浜市磯子区",
+  "en": "Yokohama (Isogo Ward)"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "相模原市",
+  "en": "Sagamihara"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "箱根町",
+  "en": "Hakone"
+ },
+ {
+  "pref": "福井県",
+  "city": "あわら市",
+  "en": "Awara"
+ },
+ {
+  "pref": "福井県",
+  "city": "三方郡美浜町（若狭地域）",
+  "en": "Mihama (Wakasa)"
+ },
+ {
+  "pref": "福井県",
+  "city": "勝山市",
+  "en": "Katsuyama"
+ },
+ {
+  "pref": "福井県",
+  "city": "南越前町",
+  "en": "Minamiechizen"
+ },
+ {
+  "pref": "福井県",
+  "city": "大野市",
+  "en": "Ono"
+ },
+ {
+  "pref": "福井県",
+  "city": "永平寺町",
+  "en": "Eiheiji"
+ },
+ {
+  "pref": "福岡県",
+  "city": "みやま市瀬高町",
+  "en": "Miyama (Setaka)"
+ },
+ {
+  "pref": "福岡県",
+  "city": "八女市",
+  "en": "Yame"
+ },
+ {
+  "pref": "福岡県",
+  "city": "北九州市",
+  "en": "Kitakyushu"
+ },
+ {
+  "pref": "福岡県",
+  "city": "北九州市門司区",
+  "en": "Kitakyushu (Moji Ward)"
+ },
+ {
+  "pref": "福岡県",
+  "city": "大川市",
+  "en": "Okawa"
+ },
+ {
+  "pref": "福岡県",
+  "city": "宗像市",
+  "en": "Munakata"
+ },
+ {
+  "pref": "福岡県",
+  "city": "朝倉市",
+  "en": "Asakura"
+ },
+ {
+  "pref": "福岡県",
+  "city": "福岡市中央区天神",
+  "en": "Fukuoka (Tenjin, Chuo Ward)"
+ },
+ {
+  "pref": "福岡県",
+  "city": "福岡市中央区長浜",
+  "en": "Fukuoka (Nagahama, Chuo Ward)"
+ },
+ {
+  "pref": "福岡県",
+  "city": "福岡市東区",
+  "en": "Fukuoka (Higashi Ward)"
+ },
+ {
+  "pref": "福岡県",
+  "city": "豊前市",
+  "en": "Buzen"
+ },
+ {
+  "pref": "福島県",
+  "city": "いわき市",
+  "en": "Iwaki"
+ },
+ {
+  "pref": "福島県",
+  "city": "二本松市",
+  "en": "Nihonmatsu"
+ },
+ {
+  "pref": "福島県",
+  "city": "南会津町",
+  "en": "Minamiaizu"
+ },
+ {
+  "pref": "福島県",
+  "city": "古殿町",
+  "en": "Furudono"
+ },
+ {
+  "pref": "福島県",
+  "city": "只見町",
+  "en": "Tadami"
+ },
+ {
+  "pref": "福島県",
+  "city": "塙町",
+  "en": "Hanawa"
+ },
+ {
+  "pref": "福島県",
+  "city": "相馬市",
+  "en": "Soma"
+ },
+ {
+  "pref": "福島県",
+  "city": "福島市",
+  "en": "Fukushima"
+ },
+ {
+  "pref": "福島県",
+  "city": "耶麻郡西会津町",
+  "en": "Nishiaizu"
+ },
+ {
+  "pref": "福島県",
+  "city": "西会津町",
+  "en": "Nishiaizu"
+ },
+ {
+  "pref": "福島県",
+  "city": "鮫川村",
+  "en": "Samegawa"
+ },
+ {
+  "pref": "秋田県",
+  "city": "にかほ市",
+  "en": "Nikaho"
+ },
+ {
+  "pref": "秋田県",
+  "city": "三種町",
+  "en": "Mitane"
+ },
+ {
+  "pref": "秋田県",
+  "city": "南秋田郡五城目町",
+  "en": "Gojome"
+ },
+ {
+  "pref": "秋田県",
+  "city": "横手市ほか県内陸南部",
+  "en": "Yokote (southern inland Akita)"
+ },
+ {
+  "pref": "秋田県",
+  "city": "湯沢市",
+  "en": "Yuzawa"
+ },
+ {
+  "pref": "秋田県",
+  "city": "由利本荘市",
+  "en": "Yurihonjo"
+ },
+ {
+  "pref": "秋田県",
+  "city": "秋田市",
+  "en": "Akita"
+ },
+ {
+  "pref": "秋田県",
+  "city": "鹿角市",
+  "en": "Kazuno"
+ },
+ {
+  "pref": "秋田県",
+  "city": "鹿角郡小坂町",
+  "en": "Kosaka"
+ },
+ {
+  "pref": "群馬県",
+  "city": "上野村",
+  "en": "Ueno"
+ },
+ {
+  "pref": "群馬県",
+  "city": "中之条町",
+  "en": "Nakanojo"
+ },
+ {
+  "pref": "群馬県",
+  "city": "前橋市",
+  "en": "Maebashi"
+ },
+ {
+  "pref": "群馬県",
+  "city": "大泉町",
+  "en": "Oizumi"
+ },
+ {
+  "pref": "群馬県",
+  "city": "富岡市",
+  "en": "Tomioka"
+ },
+ {
+  "pref": "群馬県",
+  "city": "板倉町",
+  "en": "Itakura"
+ },
+ {
+  "pref": "群馬県",
+  "city": "渋川市",
+  "en": "Shibukawa"
+ },
+ {
+  "pref": "群馬県",
+  "city": "高崎市",
+  "en": "Takasaki"
+ },
+ {
+  "pref": "茨城県",
+  "city": "北茨城市",
+  "en": "Kitaibaraki"
+ },
+ {
+  "pref": "茨城県",
+  "city": "常陸大宮市",
+  "en": "Hitachiomiya"
+ },
+ {
+  "pref": "茨城県",
+  "city": "常陸太田市",
+  "en": "Hitachiota"
+ },
+ {
+  "pref": "茨城県",
+  "city": "水戸市",
+  "en": "Mito"
+ },
+ {
+  "pref": "茨城県",
+  "city": "笠間市",
+  "en": "Kasama"
+ },
+ {
+  "pref": "茨城県",
+  "city": "結城市",
+  "en": "Yuki"
+ },
+ {
+  "pref": "茨城県",
+  "city": "鉾田市",
+  "en": "Hokota"
+ },
+ {
+  "pref": "茨城県",
+  "city": "鹿嶋市",
+  "en": "Kashima"
+ },
+ {
+  "pref": "茨城県",
+  "city": "龍ヶ崎市",
+  "en": "Ryugasaki"
+ },
+ {
+  "pref": "長崎県",
+  "city": "佐々町",
+  "en": "Sasa"
+ },
+ {
+  "pref": "長崎県",
+  "city": "佐世保市",
+  "en": "Sasebo"
+ },
+ {
+  "pref": "長崎県",
+  "city": "壱岐市",
+  "en": "Iki"
+ },
+ {
+  "pref": "長崎県",
+  "city": "小値賀町",
+  "en": "Ojika"
+ },
+ {
+  "pref": "長崎県",
+  "city": "島原市",
+  "en": "Shimabara"
+ },
+ {
+  "pref": "長崎県",
+  "city": "川棚町",
+  "en": "Kawatana"
+ },
+ {
+  "pref": "長崎県",
+  "city": "平戸市",
+  "en": "Hirado"
+ },
+ {
+  "pref": "長崎県",
+  "city": "平戸市生月町",
+  "en": "Hirado (Ikitsuki)"
+ },
+ {
+  "pref": "長崎県",
+  "city": "西海市",
+  "en": "Saikai"
+ },
+ {
+  "pref": "長崎県",
+  "city": "諫早市",
+  "en": "Isahaya"
+ },
+ {
+  "pref": "長野県",
+  "city": "下高井郡野沢温泉村",
+  "en": "Nozawaonsen"
+ },
+ {
+  "pref": "長野県",
+  "city": "小川村",
+  "en": "Ogawa"
+ },
+ {
+  "pref": "長野県",
+  "city": "木曽地域（木曽町ほか）",
+  "en": "Kiso"
+ },
+ {
+  "pref": "長野県",
+  "city": "松本市",
+  "en": "Matsumoto"
+ },
+ {
+  "pref": "長野県",
+  "city": "諏訪市",
+  "en": "Suwa"
+ },
+ {
+  "pref": "長野県",
+  "city": "飯山市",
+  "en": "Iiyama"
+ },
+ {
+  "pref": "青森県",
+  "city": "五所川原市",
+  "en": "Goshogawara"
+ },
+ {
+  "pref": "静岡県",
+  "city": "三島市",
+  "en": "Mishima"
+ },
+ {
+  "pref": "静岡県",
+  "city": "伊東市",
+  "en": "Ito"
+ },
+ {
+  "pref": "静岡県",
+  "city": "吉田町",
+  "en": "Yoshida"
+ },
+ {
+  "pref": "静岡県",
+  "city": "御前崎市",
+  "en": "Omaezaki"
+ },
+ {
+  "pref": "静岡県",
+  "city": "東伊豆町",
+  "en": "Higashiizu"
+ },
+ {
+  "pref": "静岡県",
+  "city": "袋井市",
+  "en": "Fukuroi"
+ },
+ {
+  "pref": "静岡県",
+  "city": "静岡市清水区",
+  "en": "Shizuoka (Shimizu Ward)"
+ },
+ {
+  "pref": "静岡県",
+  "city": "静岡市清水区三保",
+  "en": "Shizuoka (Miho, Shimizu Ward)"
+ },
+ {
+  "pref": "静岡県",
+  "city": "静岡市清水区由比",
+  "en": "Shizuoka (Yui, Shimizu Ward)"
+ },
+ {
+  "pref": "静岡県",
+  "city": "静岡市葵区有東木",
+  "en": "Shizuoka (Utogi, Aoi Ward)"
+ },
+ {
+  "pref": "香川県",
+  "city": "さぬき市",
+  "en": "Sanuki"
+ },
+ {
+  "pref": "香川県",
+  "city": "三豊市",
+  "en": "Mitoyo"
+ },
+ {
+  "pref": "香川県",
+  "city": "三豊市仁尾町",
+  "en": "Mitoyo (Nio)"
+ },
+ {
+  "pref": "香川県",
+  "city": "三豊市豊中町",
+  "en": "Mitoyo (Toyonaka)"
+ },
+ {
+  "pref": "香川県",
+  "city": "東かがわ市引田",
+  "en": "Higashikagawa (Hiketa)"
+ },
+ {
+  "pref": "高知県",
+  "city": "伊野町",
+  "en": "Ino"
+ },
+ {
+  "pref": "高知県",
+  "city": "佐川町",
+  "en": "Sakawa"
+ },
+ {
+  "pref": "高知県",
+  "city": "南国市",
+  "en": "Nankoku"
+ },
+ {
+  "pref": "高知県",
+  "city": "土佐清水市",
+  "en": "Tosashimizu"
+ },
+ {
+  "pref": "高知県",
+  "city": "大豊町",
+  "en": "Otoyo"
+ },
+ {
+  "pref": "高知県",
+  "city": "安芸市",
+  "en": "Aki"
+ },
+ {
+  "pref": "高知県",
+  "city": "室戸市",
+  "en": "Muroto"
+ },
+ {
+  "pref": "高知県",
+  "city": "宿毛市",
+  "en": "Sukumo"
+ },
+ {
+  "pref": "高知県",
+  "city": "香南市",
+  "en": "Konan"
+ },
+ {
+  "pref": "鳥取県",
+  "city": "境港市",
+  "en": "Sakaiminato"
+ },
+ {
+  "pref": "鳥取県",
+  "city": "岩美町",
+  "en": "Iwami"
+ },
+ {
+  "pref": "鳥取県",
+  "city": "日南町",
+  "en": "Nichinan"
+ },
+ {
+  "pref": "鳥取県",
+  "city": "若桜町",
+  "en": "Wakasa"
+ },
+ {
+  "pref": "鳥取県",
+  "city": "鳥取市福部町",
+  "en": "Tottori (Fukube)"
+ },
+ {
+  "pref": "鹿児島県",
+  "city": "いちき串木野市",
+  "en": "Ichikikushikino"
+ },
+ {
+  "pref": "鹿児島県",
+  "city": "出水市",
+  "en": "Izumi"
+ },
+ {
+  "pref": "鹿児島県",
+  "city": "南九州市（知覧・頴娃）",
+  "en": "Minamikyushu (Chiran, Ei)"
+ },
+ {
+  "pref": "鹿児島県",
+  "city": "枕崎市",
+  "en": "Makurazaki"
+ },
+ {
+  "pref": "鹿児島県",
+  "city": "西之表市ほか(種子島)",
+  "en": "Nishinoomote (Tanegashima)"
+ }
 ]
