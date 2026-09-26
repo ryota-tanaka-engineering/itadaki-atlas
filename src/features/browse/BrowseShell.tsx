@@ -33,8 +33,13 @@ import { TodayDishSection } from "./TodayDishSection";
 import { HonbaTrailSection, type HonbaDisplayGroup } from "./HonbaTrailSection";
 import { LandStoriesSection } from "./LandStoriesSection";
 import { AboutBlurbSection } from "./AboutBlurbSection";
+import { NextEntriesSection } from "./NextEntriesSection";
 import type { Axis } from "./axes";
 import { countPrefContext, type PrefContextGroup } from "./prefContext";
+import { matchesSearchQuery, normalizeSearchText } from "./search";
+
+/** 検索入力の反映を遅らせる時間（作業パッケージ「トップ導線修正」A節）。 */
+const SEARCH_DEBOUNCE_MS = 200;
 
 /**
  * タグチップの標準寸法（本番レビュー「タグも小さくてみづらい」対応）。
@@ -153,6 +158,23 @@ export function BrowseShell({
   // タグ絞り込み（作業パッケージ「トップ導線修正」§1）。ジャンルと同じ流儀で地図・索引・
   // 県クラスタ件数を絞る。genreFilter と併用時は AND（visibleItems/visiblePins 参照）。
   const [tagFilter, setTagFilter] = useState<string | null>(null);
+  // 検索窓の絞り込み（体験検品2026-09-24「検索窓が押せそうに見えるのに無効」対応）。
+  // 入力欄の表示値は即時反映し（searchQuery）、絞り込みへの反映だけ200msデバウンスする
+  // （debouncedSearchQuery）。ジャンル・タグ・県と同じAND条件で visibleItems/visiblePins を絞る。
+  const [searchQuery, setSearchQuery] = useState("");
+  const [debouncedSearchQuery, setDebouncedSearchQuery] = useState("");
+  useEffect(() => {
+    const id = setTimeout(() => setDebouncedSearchQuery(searchQuery), SEARCH_DEBOUNCE_MS);
+    return () => clearTimeout(id);
+  }, [searchQuery]);
+  // 検索窓に入力したら、他の絞り込み（ジャンル・タグ）と同じ流儀でピーク位置に戻し、
+  // 選択中ピンを解除する（体験検品2026-09-24対応）。実際の絞り込みへの反映は
+  // debouncedSearchQuery 側（200msデバウンス）で行う。
+  const handleSearchChange = useCallback((value: string) => {
+    setSearchQuery(value);
+    setSelectedSlug(null);
+    setSnap("peak");
+  }, []);
   // 県クラスタ選択（MapView が zoomend から算出する isClusterView をそのまま持ち上げる。
   // 本番レビュー「地図がフルサイズのままで使いづらい」対応。個別ピン表示＝県へ
   // 選択・ズームした状態を指す。初期値は national=true（コンパクト化しない））。
@@ -181,8 +203,15 @@ export function BrowseShell({
   // シートを full まで開いてモジュール・索引を読んでいる間は、背後の地図がフルサイズの
   // ままだと隠れているだけで意味が無い（本番レビュー「地図外のエリアみてる時に地図が
   // ずっとフルサイズである必要あるの？」対応）。full 到達でも同じく縮める。
+  // 検索中（debouncedSearchQuery。空白だけの入力は絞り込み扱いにしない）も同じく縮める。
+  const searchActive = normalizeSearchText(debouncedSearchQuery) !== "";
   const compact =
-    Boolean(genreFilter) || Boolean(tagFilter) || Boolean(prefFilter) || !isClusterView || snap === "full";
+    Boolean(genreFilter) ||
+    Boolean(tagFilter) ||
+    Boolean(prefFilter) ||
+    searchActive ||
+    !isClusterView ||
+    snap === "full";
   const mapHeight =
     compact && vh > 0 ? Math.round(vh * (isDesktop ? 0.45 : 0.38)) : null;
   const dockedHeight = mapHeight !== null ? vh - mapHeight : undefined;
@@ -196,6 +225,7 @@ export function BrowseShell({
       if (hash !== "place" && hash !== "type") return;
       setGenreFilter(null);
       setTagFilter(null);
+      setSearchQuery("");
       setSelectedSlug(null);
       setSnap("full");
       // 絞り込み中は3カードが非表示になるため、県絞り込みも解除し地図を全国へ戻す
@@ -390,6 +420,24 @@ export function BrowseShell({
       })}
     </ul>
   );
+  // 検索入力欄（体験検品2026-09-24対応）。既定表示（3カード）・絞り込み結果ビューの
+  // 両方の先頭に同じ見た目で置き、結果ビューでも再検索できるようにする
+  // （作業パッケージ「トップ導線修正」A節「入力欄はシートの先頭のまま」）。
+  const searchInput = (
+    <div className="relative">
+      <Search
+        aria-hidden
+        className="text-muted-foreground pointer-events-none absolute top-1/2 left-2.5 size-4 -translate-y-1/2"
+      />
+      <Input
+        value={searchQuery}
+        onChange={(e) => handleSearchChange(e.target.value)}
+        placeholder={t("searchPlaceholder")}
+        aria-label={t("searchLabel")}
+        className="pl-8"
+      />
+    </div>
+  );
   // 絞り込み中の名前表示（ジャンル・タグ両方あるときは連結）。結果ビューの見出しと
   // ピーク位置の要約の両方で使う（本番レビュー「タグ押しても本場を辿るとか出てるから
   // 全然絞り込めてるように見えない」対応。ピーク側も総数のままだと矛盾して見えるため）。
@@ -412,6 +460,20 @@ export function BrowseShell({
     (slug: string) => !tagFilter || (tagSlugsBySlug.get(slug) ?? []).includes(tagFilter),
     [tagFilter, tagSlugsBySlug],
   );
+  // 検索窓の一致判定（体験検品2026-09-24対応。search.ts の純関数）。名前3種（三点セット）
+  // に加え、土地（県名・市名）でも一致するよう originPref/originCity も対象に入れる。
+  // MapPin は MapItem を継承するため、BrowseItem・MapPin のどちらもこれらのフィールドを
+  // 直接持つ（別途 slug→値のマップを用意する必要がない）。
+  const matchesSearchFilter = useCallback(
+    (i: {
+      nameJa: string;
+      nameEn: string | null;
+      nameRomaji: string;
+      originPref: string | null;
+      originCity: string | null;
+    }) => matchesSearchQuery(debouncedSearchQuery, i.nameJa, i.nameEn, i.nameRomaji, i.originPref, i.originCity),
+    [debouncedSearchQuery],
+  );
   // 県絞り込み（prefFilter）は origin_pref と同じ規約の値で AND する。本場ピンは
   // originPref がそのピンの所在地（本場の都市）を表すため（queries.ts MapPin docコメント）、
   // 同じ条件でそのまま本場の県一致判定になる（PREF_FILTER_IMPL_BRIEF.md 設計1）。
@@ -421,9 +483,10 @@ export function BrowseShell({
         (i) =>
           (!genreFilter || i.genreSlug === genreFilter) &&
           matchesTagFilter(i.slug) &&
-          (!prefFilter || i.originPref === prefFilter),
+          (!prefFilter || i.originPref === prefFilter) &&
+          matchesSearchFilter(i),
       ),
-    [items, genreFilter, matchesTagFilter, prefFilter],
+    [items, genreFilter, matchesTagFilter, prefFilter, matchesSearchFilter],
   );
   const visiblePins = useMemo(
     () =>
@@ -431,9 +494,10 @@ export function BrowseShell({
         (i) =>
           (!genreFilter || i.genreSlug === genreFilter) &&
           matchesTagFilter(i.slug) &&
-          (!prefFilter || i.originPref === prefFilter),
+          (!prefFilter || i.originPref === prefFilter) &&
+          matchesSearchFilter(i),
       ),
-    [mapPins, genreFilter, matchesTagFilter, prefFilter],
+    [mapPins, genreFilter, matchesTagFilter, prefFilter, matchesSearchFilter],
   );
   // 県の一行文脈（PREF_FILTER_IMPL_BRIEF.md 設計4）。visibleItems は既に
   // origin_pref === prefFilter（+ジャンル/タグ）に絞られているため、そのまま数える。
@@ -465,11 +529,16 @@ export function BrowseShell({
   );
   // ジャンル/タグと県が同時に絞り込まれているときは「福島県 × ラーメン」のように併記する
   // （ジャンル総論を優先する設計のため、genre/tagの結合はそのまま filterLabel を使い回す）。
-  const resultHeading = filteredPrefLabel
-    ? filterLabel
-      ? `${filteredPrefLabel} × ${filterLabel}`
-      : filteredPrefLabel
-    : filterLabel;
+  // 検索は独立した入口のため、検索中は見出しを検索専用の文言に切り替える
+  // （「「ラーメン」の検索 N件」。作業パッケージ「トップ導線修正」A節の指定文言）。
+  const searchDisplayQuery = debouncedSearchQuery.trim();
+  const resultHeading = searchActive
+    ? t("searchResultTitle", { query: searchDisplayQuery })
+    : filteredPrefLabel
+      ? filterLabel
+        ? `${filteredPrefLabel} × ${filterLabel}`
+        : filteredPrefLabel
+      : filterLabel;
   // 系統凡例は「ラーメン内部・単一ジャンル絞り込み時のみ」（CLAUDE.md「デザイン」節）。
   // 系統色の凡例（醤油・味噌・塩・豚骨）はラーメン内部だけの識別軸（CLAUDE.md「系統色」）。
   // 他ジャンルの系統（洋食のピザ等）は色分けしないので凡例も出さない
@@ -516,6 +585,11 @@ export function BrowseShell({
     setTagFilter(null);
   }, []);
 
+  // 検索チップの✕（検索だけを解除する）。
+  const handleClearSearchFilter = useCallback(() => {
+    setSearchQuery("");
+  }, []);
+
   // 県クラスタのタップ（MapView の onPrefSelect）を「絞り込み」として扱う
   // （PREF_FILTER_IMPL_BRIEF.md 設計3）。
   const handleSelectPref = useCallback((pref: string) => {
@@ -551,6 +625,7 @@ export function BrowseShell({
   const handleClearAllFilters = useCallback(() => {
     setGenreFilter(null);
     setTagFilter(null);
+    setSearchQuery("");
     setIntroExpanded(false);
     if (prefFilter) {
       setPrefFilter(null);
@@ -591,11 +666,29 @@ export function BrowseShell({
       </div>
 
       {/* 絞り込み中チップ（本番体験レビュー: 「押したら地図に反映されない」への対処）。
-          常に見える位置（地図上・z-10）に出す。ジャンル・タグ・県が同時に絞り込み中は
-          3つ並ぶ（作業パッケージ「トップ導線修正」A-4節・PREF_FILTER_IMPL_BRIEF.md 設計5）。
+          常に見える位置（地図上・z-10）に出す。ジャンル・タグ・県・検索が同時に絞り込み中は
+          並んで出る（作業パッケージ「トップ導線修正」A-4節・PREF_FILTER_IMPL_BRIEF.md 設計5）。
           件数はAND後の visibleItems（全条件を満たす件数）。 */}
-      {(filteredGenre || filteredTag || prefFilter) && (
+      {(filteredGenre || filteredTag || prefFilter || searchActive) && (
         <div className="pointer-events-none absolute inset-x-0 top-16 z-10 flex flex-wrap justify-center gap-2 px-4">
+          {searchActive && (
+            <button
+              type="button"
+              onClick={handleClearSearchFilter}
+              aria-label={t("searchFilterClear", { query: searchDisplayQuery })}
+              className="border-border bg-background/95 text-foreground pointer-events-auto flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm shadow-sm backdrop-blur"
+            >
+              <span aria-hidden>
+                {searchDisplayQuery}
+                <span className="text-muted-foreground ml-1">
+                  {t("count", { count: visibleItems.length })}
+                </span>
+              </span>
+              <span aria-hidden className="text-muted-foreground">
+                ✕
+              </span>
+            </button>
+          )}
           {filteredGenre && (
             <button
               type="button"
@@ -685,12 +778,13 @@ export function BrowseShell({
                 )}
               </p>
             </div>
-          ) : filteredGenre || filteredTag || prefFilter ? (
+          ) : filteredGenre || filteredTag || prefFilter || searchActive ? (
             // 絞り込み中はピーク位置の要約も結果ビューと同じ名前+件数にする（総数のまま
             // だと「絞り込めているように見えない」という指摘の再発になるため）。
             // 結果ヘッダーの「絞り込みを解除」もここに集約し、下の本文側では重複させない。
             // 県絞り込み時は resultHeading（県名。ジャンル/タグ併用時は「福島県 × ラーメン」）
-            // を使う（PREF_FILTER_IMPL_BRIEF.md 設計4）。
+            // を使う（PREF_FILTER_IMPL_BRIEF.md 設計4）。検索中は resultHeading が
+            // 検索専用の文言（「「ラーメン」の検索」）に切り替わる。
             <div>
               <div className="flex items-center justify-between gap-2">
                 <h2 id="sheet-heading" className="text-base font-semibold">
@@ -711,6 +805,11 @@ export function BrowseShell({
                   {t("filterClearAll")}
                 </button>
               </div>
+              {/* 検索0件の案内（体験原則6「行き止まりを作らない」対応）。上の
+                  「絞り込みを解除」で3カード（種類・興味・土地）に戻れる。 */}
+              {searchActive && visibleItems.length === 0 && (
+                <p className="text-muted-foreground mt-1.5 text-sm leading-relaxed">{t("searchEmpty")}</p>
+              )}
               {/* ジャンル絞り込み中の総論（本番レビュー「和牛一覧の説明文みたいなのは
                   表示必要なのでは」対応）。タグのみの絞り込みには対応する総論が無いため
                   現状維持。ジャンル+タグ併用時もジャンルの総論を出す。
@@ -878,13 +977,15 @@ export function BrowseShell({
               </button>
             </div>
           </div>
-        ) : filteredGenre || filteredTag || prefFilter ? (
+        ) : filteredGenre || filteredTag || prefFilter || searchActive ? (
           <div className="space-y-3">
             {/* 絞り込み結果ビュー（本番レビュー「タグ押しても本場を辿るとか出てるから
                 全然絞り込めてるように見えない」対応。県絞り込みも同じビューを共有する。
                 PREF_FILTER_IMPL_BRIEF.md）。絞り込み中は3カード・情報モジュールを
                 隠し、絞り込み済み索引だけを見せる（結果ヘッダー＋解除はピーク側に集約済み。
-                常時表示のため本文側で重複させない）。解除で元の構成に戻る。 */}
+                常時表示のため本文側で重複させない）。解除で元の構成に戻る。
+                検索入力欄は結果ビューでも先頭に残す（体験検品2026-09-24対応。再検索できるように）。 */}
+            {searchInput}
             {filteredGenre && (
               <Link
                 href={`/${filteredGenre.slug}`}
@@ -907,14 +1008,7 @@ export function BrowseShell({
           </div>
         ) : (
           <div className="space-y-4">
-            {/* 検索ボックス風の入口。実装はまだ無いので無効化した見た目に留める */}
-            <div className="relative">
-              <Search
-                aria-hidden
-                className="text-muted-foreground pointer-events-none absolute top-1/2 left-2.5 size-4 -translate-y-1/2"
-              />
-              <Input disabled placeholder={t("searchPlaceholder")} aria-label={t("searchLabel")} className="pl-8" />
-            </div>
+            {searchInput}
 
             {/* 3軸索引の入口（土地・種類・興味）。共通ヘッダーの「土地」「種類」（#place/#type）
                 からのスクロール先として id を付与する（作業パッケージ「トップ導線修正」B節）。 */}
@@ -1107,6 +1201,22 @@ export function BrowseShell({
               selectedSlug={selectedSlug}
               onSelect={handleSelectFromIndex}
               locale={locale}
+            />
+
+            {/* 次の入口（体験原則6「行き止まりを作らない」対応。体験検品2026-09-24
+                「五十音索引で終わり、次の入口が無い」への対処）。索引を読み切った人に
+                地図・索引以外の主要導線をまとめて見せる。
+                ラベルは3カード・ガイドカード・末尾のリンクと同一文言を再利用せず、専用の
+                文言（modules.nextEntries.*）にする（同じシート内に同一の accessible name を
+                持つリンクが重複するとスクリーンリーダー・E2Eの厳格一致で不明瞭になるため）。 */}
+            <NextEntriesSection
+              heading={t("modules.nextEntries.heading")}
+              guideLabel={t("modules.nextEntries.guide")}
+              interestLabel={t("modules.nextEntries.interest")}
+              placeLabel={t("modules.nextEntries.place")}
+              aboutLabel={t("modules.nextEntries.about")}
+              termsLabel={t("modules.nextEntries.terms")}
+              privacyLabel={t("modules.nextEntries.privacy")}
             />
           </div>
         )}

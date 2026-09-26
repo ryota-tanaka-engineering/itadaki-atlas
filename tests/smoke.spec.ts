@@ -266,6 +266,70 @@ test.describe("トップ操作体系の作り直し（2026-09。本番体験レ�
   });
 });
 
+test.describe("トップの検索窓（体験検品2026-09-24対応）", () => {
+  test("検索窓に「博多」と入れると見出しが検索結果になり件数が総数より小さく、博多ラーメンが索引に出る", async ({
+    page,
+  }) => {
+    // 検索は名前（三点セット）・土地（県名・市名）に部分一致する（search.ts）。
+    // 「はかた」等のかな→漢字の読み変換は対象外（ひらがな⇄カタカナの相互一致のみ）
+    // のため、実データの表記に含まれる漢字「博多」で検証する。
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+
+    const totalHeading = sheet.getByRole("heading", { name: /日本の食を、地図から/ });
+    const totalText = await totalHeading.textContent();
+    const totalCount = Number(totalText!.match(/(\d+)件/)![1]);
+
+    await page.getByPlaceholder("料理・食材・土地でさがす").fill("博多");
+
+    const resultHeading = sheet.getByRole("heading", { name: /「博多」の検索/ });
+    await expect(resultHeading).toBeVisible();
+    const resultText = await resultHeading.textContent();
+    const resultCount = Number(resultText!.match(/(\d+)件/)![1]);
+    expect(resultCount).toBeLessThan(totalCount);
+
+    // シートを開くと索引にも博多ラーメンが出る
+    await page.getByRole("button", { name: /シートを次の段階へ/ }).click();
+    await expect(sheet.getByRole("button", { name: /博多ラーメン/ })).toBeVisible();
+  });
+
+  test("存在しない語で0件の案内が出て、種類カードへ戻れる", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+
+    await page.getByPlaceholder("料理・食材・土地でさがす").fill("存在しない架空の料理名ザザザ");
+
+    await expect(
+      sheet.getByText("見つかりませんでした。別の言葉か、種類・興味・土地から探せます"),
+    ).toBeVisible();
+
+    // 「絞り込みを解除」で検索も解除され、3カード（種類・興味・土地）に戻れる
+    // （体験原則6「行き止まりを作らない」）。
+    await sheet.getByRole("button", { name: "絞り込みを解除" }).click();
+    await expect(sheet.getByText("種類からさがす")).toBeVisible();
+  });
+
+  test("シート末尾に「次の入口」が出て /guide へ飛べる（SP 390x844）", async ({ page }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+    const toggle = page.getByRole("button", { name: /シートを次の段階へ/ });
+    // peak → half → full（既存の About/情報モジュール到達テストと同じ2クリックの流儀）
+    await toggle.click();
+    await toggle.click();
+
+    const nextEntries = sheet.locator("section", { hasText: "次の入口" });
+    await expect(nextEntries.getByRole("heading", { name: "次の入口" })).toBeVisible();
+
+    // 「次の入口」節のリンクは3カード等と同一文言を避けているため専用の文言で辿る
+    // （NextEntriesSection docコメント参照。guideCardTitle等の重複回避）。
+    await nextEntries.getByRole("link", { name: "ガイドを読む" }).click();
+    await expect(page).toHaveURL(/\/ja\/guide$/);
+  });
+});
+
 test.describe("F-05 言語切り替え / F-08 SEO", () => {
   test("/ は既定ロケールへ送られ、自動言語判定によるリダイレクトはしない", async ({ page }) => {
     // Accept-Language が英語でも /ja に送られる（Platform 10_growth_infra.md §3.2）
