@@ -127,13 +127,19 @@ test.describe("F-01 全国表示（県クラスタ）", () => {
     await expect(fukushima).toBeVisible();
   });
 
-  test("本場ピン対応で、発祥ピンの無い石川県もクラスタとして選べる", async ({ page }) => {
+  test("本場: 発祥ピンもある石川県クラスタは通常表示のまま選べ、本場もあることを示す小さなバッジが付く", async ({
+    page,
+  }) => {
+    // 2026-09 食材拡張で石川は能登牛・能登豚等の発祥ピンも持つようになったため、
+    // 現在のデータでは「発祥ピンが0件で本場ピンだけ」の県には該当しない
+    // （CLUSTER_COUNT_IMPL_BRIEF.md 設計2のhonbaOnly分岐は buildPrefClusters の単体テスト
+    // prefClusters.test.ts でカバーする）。石川県は今も本場（海鮮丼・カレーライス・握り寿司）を
+    // 持つため、数字には混ぜず右上の中抜きバッジ（aria-hidden）で示すことだけ検証する。
     await page.goto("/");
-    // 2026-09: 本場ピン（海鮮丼＝金沢）を地図に出す対応で、発祥ピンが0件の県も
-    // 本場ピンがあれば選べるようになった（全県選択可能＝空白県ゼロ）。
-    // 2026-09 食材拡張で石川は能登牛・能登豚等も加わり件数は増える（本場ピンだけでも選べる、が検証の趣旨）
     const ishikawa = page.getByRole("button", { name: /^石川県 \d+件。選ぶとこの県に絞り込みます/ });
     await expect(ishikawa).toBeVisible({ timeout: 30_000 });
+    const badge = ishikawa.locator('span[aria-hidden="true"]');
+    await expect(badge).toHaveCount(1);
   });
 
   test("本場: 石川県クラスタを選ぶと地図が拡大し海鮮丼の本場ピンが出る", async ({ page }) => {
@@ -173,6 +179,25 @@ test.describe("F-01 全国表示（県クラスタ）", () => {
       const n = Number((await fukushima.getAttribute("aria-label"))!.match(/(\d+)件/)![1]);
       expect(n).toBeLessThan(before);
     }
+  });
+
+  test("福島県クラスタの数字とタップ後の見出しの件数が一致する", async ({ page }) => {
+    // 体験検品2026-09-26「シートの見出しは48件なのに県クラスタの数字は51」対応。
+    // クラスタの数字（その県で生まれた件数=origin）とシートの見出し件数
+    // （visibleItems=origin のみ）は同じ母集団を数えているため一致する
+    // （CLUSTER_COUNT_IMPL_BRIEF.md 設計1）。
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶとこの県に絞り込みます/ });
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+    const clusterCount = Number((await fukushima.getAttribute("aria-label"))!.match(/(\d+)件/)![1]);
+
+    await tapPrefCluster(fukushima);
+
+    const heading = sheet.getByRole("heading", { name: /福島県/ });
+    await expect(heading).toBeVisible();
+    const headingCount = Number((await heading.textContent())!.match(/(\d+)件/)![1]);
+    expect(headingCount).toBe(clusterCount);
   });
 });
 
@@ -293,6 +318,29 @@ test.describe("トップの検索窓（体験検品2026-09-24対応）", () => {
     // シートを開くと索引にも博多ラーメンが出る
     await page.getByRole("button", { name: /シートを次の段階へ/ }).click();
     await expect(sheet.getByRole("button", { name: /博多ラーメン/ })).toBeVisible();
+  });
+
+  test("「福島」で検索したときのクラスタの数字とシートの件数が一致する（SP 390x844）", async ({
+    page,
+  }) => {
+    // 体験検品2026-09-26「福島で検索すると、シートの見出しは48件なのに地図の県クラスタの
+    // 数字は51」対応。検索で県名に一致すると他県のクラスタは0件になって消え、福島県クラスタ
+    // だけが残る。その数字（origin のみ）とシートの検索結果件数（visibleItems=origin のみ）は
+    // 同じ母集団を数えているため一致する（CLUSTER_COUNT_IMPL_BRIEF.md 設計1）。
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/ja");
+    const sheet = page.getByRole("dialog");
+
+    await page.getByPlaceholder("料理・食材・土地でさがす").fill("福島");
+
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶとこの県に絞り込みます/ });
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+    const clusterCount = Number((await fukushima.getAttribute("aria-label"))!.match(/(\d+)件/)![1]);
+
+    const resultHeading = sheet.getByRole("heading", { name: /「福島」の検索/ });
+    await expect(resultHeading).toBeVisible();
+    const resultCount = Number((await resultHeading.textContent())!.match(/(\d+)件/)![1]);
+    expect(resultCount).toBe(clusterCount);
   });
 
   test("存在しない語で0件の案内が出て、種類カードへ戻れる", async ({ page }) => {
@@ -1283,12 +1331,13 @@ test.describe("県クラスタのタップ = 県の絞り込み（PREF_FILTER_IM
 
     await tapPrefCluster(fukushima);
 
-    // シート見出しが「福島県」になり、件数は総数より小さい（総数のままでは
-    // 「地図がその県へズームするだけでシートは変わらない」の再発になるため）
+    // シート見出しが「福島県」になり、件数はクラスタの数字と一致する
+    // （CLUSTER_COUNT_IMPL_BRIEF.md。クラスタの数字はその県で生まれた件数=origin のみを
+    // 数えるようにし、シートの件数（visibleItems=origin のみ）と数える母集団を揃えた）。
     const heading = sheet.getByRole("heading", { name: /福島県/ });
     await expect(heading).toBeVisible();
     const headingCount = Number((await heading.textContent())!.match(/(\d+)件/)![1]);
-    expect(headingCount).toBeLessThan(totalCount);
+    expect(headingCount).toBe(totalCount);
     expect(headingCount).toBeGreaterThan(0);
 
     // 県の一行文脈（DBの総論が無いため機械的に数えた3群。少なくとも「生まれた料理」は出る）と、

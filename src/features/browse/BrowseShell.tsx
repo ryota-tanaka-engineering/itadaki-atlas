@@ -532,6 +532,31 @@ export function BrowseShell({
     () => (prefFilter ? countPrefContext(visibleItems, shelves) : null),
     [prefFilter, visibleItems, shelves],
   );
+  // 本場だけの県（発祥ピンが0件。石川県等）は visibleItems が0件になる（CLUSTER_COUNT_IMPL_BRIEF.md
+  // 設計4）。行き止まりにしないため、この県の本場一覧を出す。honbaGroups プロップは
+  // トップ「本場をたどる」用の日替わり選定済み最大6件（page.tsx の pickHonbaGroups）で
+  // 県単位の全件表示には使えない（選定漏れがあると本場だけの県でも0件になりうる）ため、
+  // 既に絞り込み済みの visiblePins（本場ピンは originPref が「本場の所在地」を表す。
+  // queries.ts MapPin docコメント）から正確に組み立てる。
+  const prefOnlyHonbaGroups = useMemo<HonbaDisplayGroup[]>(() => {
+    if (!prefFilter) return [];
+    const bySlug = new Map<string, MapPin[]>();
+    for (const p of visiblePins) {
+      if (p.kind !== "honba") continue;
+      const list = bySlug.get(p.slug) ?? [];
+      list.push(p);
+      bySlug.set(p.slug, list);
+    }
+    return [...bySlug.entries()].map(([slug, pins]) => ({
+      slug,
+      name: locale === "ja" ? pins[0].nameJa : pins[0].nameRomaji,
+      cities: pins.map((p, i) => ({
+        key: `${p.originPref}-${p.originCity ?? i}`,
+        label: formatPrefCity(p.originPref, p.originCity, locale, label.prefecture, ti("unknown"), placeNames),
+        prefSlug: p.originPref ? (PREF_SLUGS[p.originPref as Prefecture] ?? null) : null,
+      })),
+    }));
+  }, [prefFilter, visiblePins, locale, label, ti, placeNames]);
   // 1群分の文言を組み立てる（体験検品フォローアップ§3「件数の内訳だけでは
   // 『これは何か』が伝わらない」対応）。代表（先頭最大3件。ランキングにしない）を
   // 括弧で添える。件数が代表数を超える場合だけ「ほか」を足す。
@@ -928,6 +953,17 @@ export function BrowseShell({
                       </p>
                     );
                   })()}
+                  {/* 本場だけの県（発祥ピンが0件）は visibleItems が0件のまま行き止まりに
+                      しない（体験原則6。CLUSTER_COUNT_IMPL_BRIEF.md 設計4）。既存の
+                      「本場を辿る」モジュール（HonbaTrailSection）をそのまま流用し、
+                      新しい見た目を作らない。 */}
+                  {visibleItems.length === 0 && prefOnlyHonbaGroups.length > 0 && (
+                    <HonbaTrailSection
+                      heading={t("prefHonbaOnlyHeading")}
+                      countLabel={t("count", { count: prefOnlyHonbaGroups.length })}
+                      groups={prefOnlyHonbaGroups}
+                    />
+                  )}
                   <Link
                     href={`/region/${PREF_SLUGS[prefFilter as Prefecture]}`}
                     className={buttonVariants({ variant: "outline", size: "sm" })}
