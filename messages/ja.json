@@ -26,7 +26,10 @@
     },
     "heroTitle": "日本の食を、地図から",
     "searchPlaceholder": "料理・食材・土地でさがす",
-    "searchLabel": "検索（近日対応）",
+    "searchLabel": "検索",
+    "searchResultTitle": "「{query}」の検索",
+    "searchEmpty": "見つかりませんでした。別の言葉か、種類・興味・土地から探せます",
+    "searchFilterClear": "「{query}」の検索を解除",
     "entryPlaceTitle": "土地からさがす",
     "entryPlaceHint": "地図をタップ、またはピンを選んで探せます",
     "entryTypeTitle": "種類からさがす",
@@ -66,7 +69,16 @@
       "landStories": "土地の物語から",
       "about": "このサイトについて",
       "aboutBody": "日本の食を、土地から読む地理データベース。{items}の食と{prefs}都道府県を、発祥・産地・本場のつながりでたどれます。",
-      "aboutCta": "編集方針を読む"
+      "aboutCta": "編集方針を読む",
+      "nextEntries": {
+        "heading": "次の入口",
+        "guide": "ガイドを読む",
+        "interest": "タグを見る",
+        "place": "土地の索引へ",
+        "about": "サイトの方針を読む",
+        "terms": "利用規約",
+        "privacy": "プライバシー"
+      }
     }
   },
   "item": {

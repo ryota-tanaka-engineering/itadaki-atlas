@@ -26,7 +26,10 @@
     },
     "heroTitle": "Japan's food, from the map",
     "searchPlaceholder": "Search by dish, ingredient, or place",
-    "searchLabel": "Search (coming soon)",
+    "searchLabel": "Search",
+    "searchResultTitle": "Search \"{query}\"",
+    "searchEmpty": "No matches. Try a different word, or browse by type, interest, or place.",
+    "searchFilterClear": "Clear the search for \"{query}\"",
     "entryPlaceTitle": "Browse by place",
     "entryPlaceHint": "Tap the map, or select a pin, to explore",
     "entryTypeTitle": "Browse by type",
@@ -66,7 +69,16 @@
       "landStories": "Stories from the land",
       "about": "About this atlas",
       "aboutBody": "A geographic database of Japanese food, read from the land. Trace {items} dishes and {prefs} prefectures through their origins, sources, and renowned places.",
-      "aboutCta": "Read our editorial policy"
+      "aboutCta": "Read our editorial policy",
+      "nextEntries": {
+        "heading": "More ways in",
+        "guide": "Read the guides",
+        "interest": "Browse tags",
+        "place": "Jump to places",
+        "about": "Read our policy",
+        "terms": "Terms",
+        "privacy": "Privacy"
+      }
     }
   },
   "item": {
