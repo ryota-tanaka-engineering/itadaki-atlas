@@ -9,7 +9,9 @@
     "navPlace": "土地",
     "navType": "種類",
     "navInterest": "興味",
-    "navGuide": "ガイド"
+    "navGuide": "ガイド",
+    "menuOpen": "メニュー",
+    "menuClose": "閉じる"
   },
   "browse": {
     "index": "索引",

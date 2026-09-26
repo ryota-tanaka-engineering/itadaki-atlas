@@ -833,6 +833,53 @@ test.describe("共通ヘッダー / 言語切替（2026-08 デザイン確定）
   });
 });
 
+test.describe("SPヘッダーのメニュー（本番体験レビュー2026-09-24/26「詳細ページ・ガイドから他の入口へ横移動できない」対応）", () => {
+  test("SP 390px でヘッダーのメニューを開くと 土地／種類／興味／ガイド が出て、ガイドを押すと /ja/guide へ遷移し、メニューが閉じている", async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    // 詳細ページ・ガイドからでも他の入口へ横移動できることを見る（トップ以外から開始）
+    await page.goto("/ja/about");
+    const header = page.getByRole("banner");
+
+    const menuButton = header.getByRole("button", { name: "メニュー" });
+    await expect(menuButton).toBeVisible();
+    await expect(menuButton).toHaveAttribute("aria-expanded", "false");
+
+    await menuButton.click();
+    const closeButton = header.getByRole("button", { name: "閉じる" });
+    await expect(closeButton).toHaveAttribute("aria-expanded", "true");
+
+    await expect(header.getByRole("link", { name: "土地" })).toBeVisible();
+    await expect(header.getByRole("link", { name: "種類" })).toBeVisible();
+    await expect(header.getByRole("link", { name: "興味" })).toBeVisible();
+    const guideLink = header.getByRole("link", { name: "ガイド" });
+    await expect(guideLink).toBeVisible();
+
+    await guideLink.click();
+    await page.waitForURL(/\/ja\/guide(\/|$)/);
+    expect(new URL(page.url()).pathname).toBe("/ja/guide");
+
+    // 遷移後もメニューは閉じている
+    await expect(header.getByRole("button", { name: "メニュー" })).toHaveAttribute(
+      "aria-expanded",
+      "false",
+    );
+  });
+
+  test("PC 1440px ではメニューボタンが無く、ナビが直接見える", async ({ page }) => {
+    await page.setViewportSize({ width: 1440, height: 900 });
+    await page.goto("/ja/about");
+    const header = page.getByRole("banner");
+
+    await expect(header.getByRole("button", { name: "メニュー" })).toBeHidden();
+    await expect(header.getByRole("link", { name: "土地" })).toBeVisible();
+    await expect(header.getByRole("link", { name: "種類" })).toBeVisible();
+    await expect(header.getByRole("link", { name: "興味" })).toBeVisible();
+    await expect(header.getByRole("link", { name: "ガイド" })).toBeVisible();
+  });
+});
+
 test.describe("棚ページ + その他アイテムの到達経路（2026-08 デザイン確定）", () => {
   // 富士宮やきそばは焼きそばジャンルへ昇格済み（その他ではなくなった）ため、麺棚に
   // 残る「その他」アイテム（ほうとう）に差し替える（実装部隊の報告「E2Eのデータドリフト」対応）。

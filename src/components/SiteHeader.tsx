@@ -2,6 +2,7 @@ import { getTranslations } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
 import { LanguageSwitcher } from "@/features/browse/LanguageSwitcher";
+import { MobileNav } from "@/components/MobileNav";
 
 /**
  * 共通ヘッダー（2026-08 デザイン確定。CLAUDE.md「デザイン」節が正典）。
@@ -43,7 +44,10 @@ export async function SiteHeader({ locale }: { locale: string }) {
           </Link>
         </nav>
 
-        <div className="shrink-0">
+        <div className="flex shrink-0 items-center gap-2">
+          {/* SP専用メニュー（本番レビュー: 詳細ページ/ガイドから他の入口へ横移動
+              できない問題への対応）。位置は言語切替の左。PCは内部でmd:hiddenする */}
+          <MobileNav />
           <LanguageSwitcher locale={locale} />
         </div>
       </div>
