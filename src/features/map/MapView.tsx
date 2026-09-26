@@ -18,6 +18,7 @@ import {
   localizedPlaceNameField,
 } from "./styles";
 import { useMasterLabels } from "./labels";
+import { buildPrefClusters, type PrefCluster } from "./prefClusters";
 
 /**
  * 地図トーン（CLAUDE.md「デザイン」節が正典。海 #efe8da・陸 #fffdf7・海岸線/境界 #c3b8a6）。
@@ -236,14 +237,6 @@ type Props = {
    * （既存の lastFitRef の流儀に合わせる）。
    */
   resetToJapanSignal?: number;
-};
-
-/** 県ごとの集約マーカー（2026-09 全国表示の作り直し）。位置はその県のピン群の重心。 */
-type PrefCluster = {
-  pref: string;
-  lat: number;
-  lng: number;
-  count: number;
 };
 
 export function MapView({
@@ -467,22 +460,9 @@ export function MapView({
   }, [compact, mapGeneration]);
 
   // 県クラスタ（発祥+本場の合流データから、県ごとの重心と件数を算出）。
+  // 数え方の純関数は prefClusters.ts に切り出す（CLUSTER_COUNT_IMPL_BRIEF.md 設計1）。
   // 県座標マスタは新設せず、ピン群の重心をその場で計算する（データ駆動。やらないこと参照）。
-  const prefClusters = useMemo<PrefCluster[]>(() => {
-    const byPref = new Map<string, MapPin[]>();
-    for (const item of items) {
-      if (!item.originPref) continue;
-      const list = byPref.get(item.originPref) ?? [];
-      list.push(item);
-      byPref.set(item.originPref, list);
-    }
-    return [...byPref.entries()].map(([pref, list]) => ({
-      pref,
-      lat: list.reduce((sum, i) => sum + i.lat, 0) / list.length,
-      lng: list.reduce((sum, i) => sum + i.lng, 0) / list.length,
-      count: list.length,
-    }));
-  }, [items]);
+  const prefClusters = useMemo<PrefCluster[]>(() => buildPrefClusters(items), [items]);
 
   // 実際の map の zoom を単一の真実の情報源にして isClusterView を切り替える。
   // クリック起点（集約マーカーのタップ）でもピンチズーム起点でも同じ規則で
@@ -622,26 +602,56 @@ export function MapView({
         // ja は messages/ja.json の prefecture 辞書が県名と同じ値を返すため、
         // 出力は従来（日本語決め打ち）と完全に同じ（既存E2E tests/smoke.spec.ts が検証）。
         const { t: clusterT, label: clusterLabel } = i18nRef.current;
+        const prefLabel = clusterLabel.prefecture(cluster.pref) ?? cluster.pref;
+        // 発祥ピンが1つも無く本場ピンだけの県（例: 石川県）。クラスタは残すが見た目・数字を
+        // 本場記号に合わせる（CLUSTER_COUNT_IMPL_BRIEF.md 設計2。体験原則3「土地との関係で言う」）。
+        const honbaOnly = cluster.count === 0 && cluster.honbaCount > 0;
         el.setAttribute(
           "aria-label",
-          clusterT("clusterAriaLabel", {
-            pref: clusterLabel.prefecture(cluster.pref) ?? cluster.pref,
-            count: cluster.count,
-          }),
+          honbaOnly
+            ? clusterT("clusterHonbaAriaLabel", { pref: prefLabel, count: cluster.honbaCount })
+            : clusterT("clusterAriaLabel", { pref: prefLabel, count: cluster.count }),
         );
         // 拡大などの transform 系の装飾は root（マーカー本体）に当てない。
         // Tailwind v4 の scale-* は独立プロパティ `scale` としてインライン transform の
         // 外側に乗算されるため、MapLibre の translate ごと拡大されてマーカーが
         // 原点からの距離×10%だけ飛ぶ（本番レビュー「ホバー/フォーカスで別の位置に
-        // 出現して押せない」の真因）。視覚は内側 span に持たせる。
-        el.className = "group size-7 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2";
+        // 出現して押せない」の真因）。視覚は内側 span に持たせる。position は本場バッジ
+        // （右上の中抜き丸）の絶対配置の基準にするため relative を付ける。
+        el.className =
+          "group relative size-7 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2";
         const inner = document.createElement("span");
-        inner.className =
-          "flex size-full items-center justify-center rounded-full border-2 text-xs font-semibold text-white transition-transform group-hover:scale-110";
-        inner.style.backgroundColor = PIN_BASE;
-        inner.style.borderColor = PIN_STROKE;
-        inner.textContent = String(cluster.count);
+        if (honbaOnly) {
+          // 中抜き（塗り=紙・リング=ブランド橙・外周輪郭=既存ピンと同じ細さ。
+          // CLAUDE.md「記号」節の○本場と同じ。数字は honbaCount）。
+          inner.className =
+            "flex size-full items-center justify-center rounded-full text-xs font-semibold transition-transform group-hover:scale-110";
+          inner.style.backgroundColor = "#fffdf7";
+          inner.style.border = `2px solid ${PIN_STROKE}`;
+          inner.style.boxShadow = `inset 0 0 0 3px ${PIN_BASE}`;
+          inner.style.color = PIN_STROKE;
+          inner.textContent = String(cluster.honbaCount);
+        } else {
+          inner.className =
+            "flex size-full items-center justify-center rounded-full border-2 text-xs font-semibold text-white transition-transform group-hover:scale-110";
+          inner.style.backgroundColor = PIN_BASE;
+          inner.style.borderColor = PIN_STROKE;
+          inner.textContent = String(cluster.count);
+        }
         el.appendChild(inner);
+
+        // 発祥ピンがあり、かつ本場もある県: 数字には含めず、右上に小さな中抜きの丸を
+        // 添えて「本場もある」ことを示す（体験原則5「本場は数字に混ぜない」。設計3）。
+        if (!honbaOnly && cluster.honbaCount > 0) {
+          const badge = document.createElement("span");
+          badge.setAttribute("aria-hidden", "true");
+          badge.className = "absolute -top-1 -right-1 block size-2 rounded-full";
+          badge.style.backgroundColor = "#fffdf7";
+          badge.style.border = `1.5px solid ${PIN_STROKE}`;
+          badge.style.boxShadow = `inset 0 0 0 1.5px ${PIN_BASE}`;
+          el.appendChild(badge);
+        }
+
         el.addEventListener("click", () => {
           flyToPrefecture(cluster.pref);
           // 県クラスタのタップは絞り込みでもある（PREF_FILTER_IMPL_BRIEF.md 設計2）。
