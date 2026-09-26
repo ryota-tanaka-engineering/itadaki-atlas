@@ -72,7 +72,7 @@ export function MobileNav() {
               ヘッダー(z-40)より上、パネルと同じz-50。パネルはDOM順で後ろに
               置くことで同z値でも視覚的に手前に重なる。 */}
           <div
-            className="fixed inset-0 z-50"
+            className="fixed inset-0 z-50 bg-[#5b4a37]/25"
             aria-hidden="true"
             onClick={() => setOpen(false)}
           />

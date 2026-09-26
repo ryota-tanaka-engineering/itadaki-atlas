@@ -610,7 +610,13 @@ export function MapView({
           "aria-label",
           honbaOnly
             ? clusterT("clusterHonbaAriaLabel", { pref: prefLabel, count: cluster.honbaCount })
-            : clusterT("clusterAriaLabel", { pref: prefLabel, count: cluster.count }),
+            : cluster.honbaCount > 0
+              ? clusterT("clusterWithHonbaAriaLabel", {
+                  pref: prefLabel,
+                  count: cluster.count,
+                  honba: cluster.honbaCount,
+                })
+              : clusterT("clusterAriaLabel", { pref: prefLabel, count: cluster.count }),
         );
         // 拡大などの transform 系の装飾は root（マーカー本体）に当てない。
         // Tailwind v4 の scale-* は独立プロパティ `scale` としてインライン transform の
@@ -645,6 +651,7 @@ export function MapView({
         if (!honbaOnly && cluster.honbaCount > 0) {
           const badge = document.createElement("span");
           badge.setAttribute("aria-hidden", "true");
+          badge.title = clusterT("clusterHonbaBadgeTitle", { count: cluster.honbaCount });
           badge.className = "absolute -top-1 -right-1 block size-2 rounded-full";
           badge.style.backgroundColor = "#fffdf7";
           badge.style.border = `1.5px solid ${PIN_STROKE}`;

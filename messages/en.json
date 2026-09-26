@@ -86,7 +86,10 @@
         "terms": "Terms",
         "privacy": "Privacy"
       }
-    }
+    },
+    "clusterWithHonbaAriaLabel": "{pref} — {count} items, plus {honba} at their best here. Select to filter by this prefecture",
+    "clusterHonbaBadgeTitle": "{count} specialties at their best here (born elsewhere)",
+    "prefContextHonba": "○ {count} at their best here"
   },
   "item": {
     "origin": "Origin",

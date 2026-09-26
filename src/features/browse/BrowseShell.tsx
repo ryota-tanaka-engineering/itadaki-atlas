@@ -528,6 +528,17 @@ export function BrowseShell({
   );
   // 県の一行文脈（PREF_FILTER_IMPL_BRIEF.md 設計4）。visibleItems は既に
   // origin_pref === prefFilter（+ジャンル/タグ）に絞られているため、そのまま数える。
+  // この県が本場の料理の数（○本場）。数字は発祥件数に混ぜず、一行文脈に「○本場 N件」で添える
+  // （体験検品 2026-09-26「本場の丸の意味を知る手段がない」対応）。
+  const prefHonbaCount = useMemo(
+    () =>
+      prefFilter
+        ? new Set(
+            mapPins.filter((p) => p.kind === "honba" && p.originPref === prefFilter).map((p) => p.slug),
+          ).size
+        : 0,
+    [prefFilter, mapPins],
+  );
   const prefContextCounts = useMemo(
     () => (prefFilter ? countPrefContext(visibleItems, shelves) : null),
     [prefFilter, visibleItems, shelves],
@@ -945,6 +956,7 @@ export function BrowseShell({
                       buildPrefContextLine("prefContextDish", prefContextCounts.dish),
                       buildPrefContextLine("prefContextIngredient", prefContextCounts.ingredient),
                       buildPrefContextLine("prefContextPrep", prefContextCounts.preparation),
+                      prefHonbaCount > 0 ? t("prefContextHonba", { count: prefHonbaCount }) : null,
                     ].filter((s): s is string => s !== null);
                     if (parts.length === 0) return null;
                     return (

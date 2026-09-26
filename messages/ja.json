@@ -86,7 +86,10 @@
         "terms": "利用規約",
         "privacy": "プライバシー"
       }
-    }
+    },
+    "clusterWithHonbaAriaLabel": "{pref} {count}件（本場 {honba}件）。選ぶとこの県に絞り込みます",
+    "clusterHonbaBadgeTitle": "この県が本場の料理 {count}件（生まれた土地は別）",
+    "prefContextHonba": "○本場 {count}件"
   },
   "item": {
     "origin": "発祥",
