@@ -1084,9 +1084,18 @@ test.describe("チェーンから、ご当地へ（チェーン橋渡し装置�
     ).toBeVisible();
   });
 
-  test("チェーンの無いジャンルにはセクションが出ない（寿司）", async ({ page }) => {
-    await page.goto("/ja/sushi");
+  test("チェーンの無いジャンルにはセクションが出ない（牛肉の部位）", async ({ page }) => {
+    // 2026-09-28 にチェーンを133件へ拡張し寿司にも入ったため、部位・ネタ（図鑑）のジャンルで検証する
+    await page.goto("/ja/beef-cuts");
     await expect(page.getByText("その味の、生まれた土地へ")).toHaveCount(0);
+  });
+
+  test("寿司・棚（鍋）にもチェーン橋渡しが出て、地域限定チェーンには県名のチップが付く", async ({ page }) => {
+    await page.goto("/ja/sushi");
+    await expect(page.getByText("その味の、生まれた土地へ")).toBeVisible();
+    await expect(page.getByText("石川県の地域限定").first()).toBeVisible();
+    await page.goto("/ja/hotpot");
+    await expect(page.getByText("その味の、生まれた土地へ")).toBeVisible();
   });
 });
 
