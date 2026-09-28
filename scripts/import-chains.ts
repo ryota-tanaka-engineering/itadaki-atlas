@@ -8,7 +8,9 @@
  *   既に持っており、リンクはアイテム（kind='item'）のみに絞る運用のため。
  * - recommend の kind='item' の slug が food_items に存在しない場合は
  *   投入せずエラーで落とす（黙って握りつぶさない）。
- * - genre_slug は省略時 'ramen'（初期データ互換）。2026-09 以降は各チェーンに明示（焼き鳥等）。pref_limited は全件 NULL（地域限定チェーン用の予約列）。
+ * - genre_slug は省略時 'ramen'（初期データ互換）。2026-09 以降は各チェーンに明示（焼き鳥等）。
+ *   棚ページにだけ属する料理（カレー・餃子・鍋・定食）のチェーンは shelf slug を genre_slug に入れる（棚ページも同じ列で引く）。
+ * - pref_limited は地域限定チェーンの都道府県名（2026-09-28 から投入。UI は「◯◯の地域限定」チップを出す）。
  * - 冪等: chains は slug で upsert。chain_recommendations は chain_id 単位で
  *   delete-then-insert し、並び順の変化にも追随する。
  *
@@ -46,6 +48,8 @@ const chainSchema = z.object({
   recommend: z.array(recommendSchema),
   source_url: z.string().trim().min(1).optional(),
   source_note: z.string().trim().min(1).optional(),
+  /** 地域限定チェーン（例: 静岡県のさわやか）。都道府県の日本語名。全国展開なら null / 省略。 */
+  pref_limited: z.string().trim().min(1).nullable().optional(),
 });
 
 const fileSchema = z.object({ chains: z.array(chainSchema) });
@@ -115,7 +119,7 @@ async function main() {
           bridge_ja: c.bridge_ja,
           bridge_en: c.bridge_en,
           genre_slug: c.genre_slug ?? "ramen",
-          pref_limited: null,
+          pref_limited: c.pref_limited ?? null,
           source_url: c.source_url ?? null,
           source_note: c.source_note ?? null,
           sort_order: idx,

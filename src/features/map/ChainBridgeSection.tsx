@@ -24,9 +24,11 @@ type Props = {
   intro: string;
   chains: Chain[];
   locale: string;
+  /** 地域限定チェーンのチップ文言（例: 「静岡県の地域限定」）。都道府県名の翻訳は呼び出し側（サーバー）で行う。 */
+  prefLimitedLabel?: (pref: string) => string;
 };
 
-export function ChainBridgeSection({ heading, intro, chains, locale }: Props) {
+export function ChainBridgeSection({ heading, intro, chains, locale, prefLimitedLabel }: Props) {
   if (chains.length === 0) return null;
   const isJa = locale === "ja";
 
@@ -44,6 +46,11 @@ export function ChainBridgeSection({ heading, intro, chains, locale }: Props) {
               <Link href={`/chain/${c.slug}`} className="hover:underline">
                 {isJa ? c.nameJa : c.nameEn}
               </Link>
+              {c.prefLimited && prefLimitedLabel && (
+                <span className="border-border text-muted-foreground ml-2 inline-block rounded-full border px-2 py-0.5 align-middle text-xs font-normal">
+                  {prefLimitedLabel(c.prefLimited)}
+                </span>
+              )}
             </p>
             <p className="text-muted-foreground mt-1 text-sm leading-relaxed">
               {isJa ? c.bridgeJa : c.bridgeEn}

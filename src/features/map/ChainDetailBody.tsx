@@ -19,6 +19,9 @@ type Props = {
   /** 創業の事実（founded_note）。日本語のみのカラムのため、呼び出し側が ja のみで渡す想定。 */
   founded: string | null;
   foundedLabel: string;
+  /** 地域限定チェーンの表示（例: 「静岡県の地域限定」）。全国展開なら null。 */
+  prefLimited?: string | null;
+  prefLimitedLabel?: string;
   recommendHeading: string;
   recommendItems: ConnectionCard[];
   otherChainsHeading: string;
@@ -33,6 +36,8 @@ export function ChainDetailBody({
   styleLabel,
   founded,
   foundedLabel,
+  prefLimited,
+  prefLimitedLabel,
   recommendHeading,
   recommendItems,
   otherChainsHeading,
@@ -44,7 +49,7 @@ export function ChainDetailBody({
     <div>
       <p className="mb-6 leading-relaxed">{bridge}</p>
 
-      {(style || founded) && (
+      {(style || founded || prefLimited) && (
         <dl className="mb-8 text-sm">
           {style && (
             <div className="flex gap-3 py-1">
@@ -56,6 +61,12 @@ export function ChainDetailBody({
             <div className="flex gap-3 py-1">
               <dt className="text-muted-foreground w-20 shrink-0">{foundedLabel}</dt>
               <dd>{founded}</dd>
+            </div>
+          )}
+          {prefLimited && (
+            <div className="flex gap-3 py-1">
+              <dt className="text-muted-foreground w-20 shrink-0">{prefLimitedLabel}</dt>
+              <dd>{prefLimited}</dd>
             </div>
           )}
         </dl>

@@ -264,7 +264,9 @@
     "recommendHeading": "If you like this flavor",
     "otherChainsHeading": "More chains",
     "genreLink": "All {name}",
-    "correction": "Report a correction"
+    "correction": "Report a correction",
+    "prefLimited": "Only in {pref}",
+    "area": "Where"
   },
   "guide": {
     "title": "Before You Go",

@@ -1,4 +1,6 @@
 import { notFound } from "next/navigation";
+
+import type { Prefecture } from "@/lib/prefectures";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { Link } from "@/i18n/navigation";
@@ -61,6 +63,8 @@ export default async function ChainPage({ params }: { params: Promise<Params> })
   const style = isJa ? chain.styleJa : chain.styleEn;
   // founded_note は日本語のみのカラム（英訳列が無い）。英語ページで日英混在にしないため ja のみで出す。
   const founded = isJa ? chain.foundedNote : null;
+  const tp = await getTranslations("prefecture");
+  const prefLimited = chain.prefLimited ? t("prefLimited", { pref: tp(chain.prefLimited as Prefecture) }) : null;
   const bridge = isJa ? chain.bridgeJa : chain.bridgeEn;
   const genreName = genre ? (isJa ? genre.nameJa : genre.nameEn) : null;
 
@@ -88,6 +92,8 @@ export default async function ChainPage({ params }: { params: Promise<Params> })
             styleLabel={t("style")}
             founded={founded}
             foundedLabel={t("founded")}
+            prefLimited={prefLimited}
+            prefLimitedLabel={t("area")}
             recommendHeading={t("recommendHeading")}
             recommendItems={recommendItems}
             otherChainsHeading={t("otherChainsHeading")}

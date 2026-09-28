@@ -252,7 +252,9 @@
     "recommendHeading": "この味が好きなら",
     "otherChainsHeading": "他のチェーンも見る",
     "genreLink": "{name}の一覧へ",
-    "correction": "内容の訂正を送る"
+    "correction": "内容の訂正を送る",
+    "prefLimited": "{pref}の地域限定",
+    "area": "展開"
   },
   "guide": {
     "title": "食べに行く前に",

@@ -16,6 +16,7 @@ const sampleChain: Chain = {
   slug: "ichiran",
   nameJa: "一蘭",
   nameEn: "Ichiran — tonkotsu ramen chain from Fukuoka",
+  prefLimited: null,
   bridgeJa: "一蘭の細麺・濃厚豚骨は、博多・久留米の屋台文化から広まった豚骨ラーメンの流れを汲むとされる。",
   bridgeEn:
     "Ichiran's thin noodles and rich tonkotsu broth are said to trace back to the street-stall tonkotsu culture of Hakata and Kurume.",

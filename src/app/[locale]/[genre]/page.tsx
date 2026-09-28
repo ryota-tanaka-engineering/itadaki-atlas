@@ -104,6 +104,7 @@ export default async function GenreOrShelfPage({ params }: { params: Promise<Par
 
 async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string; locale: string }) {
   const t = await getTranslations("genre");
+  const tc = await getTranslations("chain");
   const tp = await getTranslations("prefecture");
   const tg = await getTranslations("guide");
   const [items, chains, placeNames, messages, beforeYouGoGuides] = await Promise.all([
@@ -331,6 +332,7 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
           intro={t("chainsIntro")}
           chains={chains}
           locale={locale}
+          prefLimitedLabel={(pref) => tc("prefLimited", { pref: tp(pref as Prefecture) })}
         />
 
         {/* 地域から探す（この genre のデータがある県だけが自然に並ぶ） */}
@@ -380,11 +382,16 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
 
 async function ShelfView({ shelf, locale }: { shelf: Shelf; locale: string }) {
   const t = await getTranslations("shelf");
+  const tg = await getTranslations("genre");
+  const tc = await getTranslations("chain");
+  const tp = await getTranslations("prefecture");
   const isJa = locale === "ja";
-  const [genres, others, allShelves] = await Promise.all([
+  // 棚ページにだけ属する料理（カレー・餃子・鍋・定食）のチェーンは genre_slug に棚 slug を持つ
+  const [genres, others, allShelves, chains] = await Promise.all([
     fetchShelfGenres(shelf.slug),
     fetchShelfOtherItems(shelf.slug, locale as Locale),
     fetchShelves(),
+    fetchChainsForGenre(shelf.slug),
   ]);
 
   const totalCount = genres.reduce((sum, g) => sum + g.itemCount, 0) + others.length;
@@ -469,6 +476,15 @@ async function ShelfView({ shelf, locale }: { shelf: Shelf; locale: string }) {
             </ul>
           </section>
         )}
+
+        {/* チェーンから、ご当地へ（棚 slug を genre_slug に持つチェーンがあるときだけ） */}
+        <ChainBridgeSection
+          heading={tg("chainsHeading")}
+          intro={tg("chainsIntro")}
+          chains={chains}
+          locale={locale}
+          prefLimitedLabel={(pref) => tc("prefLimited", { pref: tp(pref as Prefecture) })}
+        />
 
         {/* 関連する他の棚（同じ grp）。行き止まり禁止 */}
         {relatedShelves.length > 0 && (

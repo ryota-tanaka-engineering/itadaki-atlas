@@ -1105,6 +1105,8 @@ export type Chain = {
   nameEn: string;
   bridgeJa: string;
   bridgeEn: string;
+  /** 地域限定チェーンの都道府県名（全国展開なら null）。ChainBridgeSection で「◯◯の地域限定」を添える。 */
+  prefLimited: string | null;
   recommendations: ChainRecommendation[];
 };
 
@@ -1161,7 +1163,7 @@ export async function fetchChainsForGenre(genreSlug: string): Promise<Chain[]> {
   const { data, error } = await db
     .from("chains")
     .select(
-      `slug, name_ja, name_en, bridge_ja, bridge_en, sort_order,
+      `slug, name_ja, name_en, bridge_ja, bridge_en, pref_limited, sort_order,
        chain_recommendations ( ${CHAIN_RECOMMENDATION_SELECT} )`,
     )
     .eq("genre_slug", genreSlug)
@@ -1174,6 +1176,7 @@ export async function fetchChainsForGenre(genreSlug: string): Promise<Chain[]> {
     nameEn: c.name_en,
     bridgeJa: c.bridge_ja,
     bridgeEn: c.bridge_en,
+    prefLimited: c.pref_limited ?? null,
     recommendations: mapChainRecommendations((c.chain_recommendations ?? []) as ChainRecRow[]),
   }));
 }
@@ -1191,7 +1194,7 @@ export async function fetchAllChains(): Promise<Chain[]> {
       db
         .from("chains")
         .select(
-          `slug, name_ja, name_en, bridge_ja, bridge_en, sort_order,
+          `slug, name_ja, name_en, bridge_ja, bridge_en, pref_limited, sort_order,
            chain_recommendations ( ${CHAIN_RECOMMENDATION_SELECT} )`,
         )
         .order("sort_order")
@@ -1205,6 +1208,7 @@ export async function fetchAllChains(): Promise<Chain[]> {
     nameEn: c.name_en,
     bridgeJa: c.bridge_ja,
     bridgeEn: c.bridge_en,
+    prefLimited: c.pref_limited ?? null,
     recommendations: mapChainRecommendations((c.chain_recommendations ?? []) as ChainRecRow[]),
   }));
 }
@@ -1227,7 +1231,7 @@ export async function fetchChainBySlug(slug: string): Promise<ChainDetail | null
   const { data, error } = await db
     .from("chains")
     .select(
-      `slug, name_ja, name_en, style_ja, style_en, founded_note, bridge_ja, bridge_en, genre_slug,
+      `slug, name_ja, name_en, style_ja, style_en, founded_note, bridge_ja, bridge_en, genre_slug, pref_limited,
        chain_recommendations ( ${CHAIN_RECOMMENDATION_SELECT} )`,
     )
     .eq("slug", slug)
@@ -1245,6 +1249,7 @@ export async function fetchChainBySlug(slug: string): Promise<ChainDetail | null
     bridgeJa: data.bridge_ja,
     bridgeEn: data.bridge_en,
     genreSlug: data.genre_slug,
+    prefLimited: data.pref_limited ?? null,
     recommendations: mapChainRecommendations((data.chain_recommendations ?? []) as ChainRecRow[]),
   };
 }
