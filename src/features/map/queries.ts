@@ -29,7 +29,7 @@ export type MapItem = {
   lat: number | null;
   lng: number | null;
   primaryStyle: string | null;
-  /** 記号（CLAUDE.md「記号」節）: dish=●料理 / ingredient=■食材。地図ピンの形に使う。 */
+  /** 記号（CLAUDE.md「記号」節）: 地図ピンは丸だけで、色は棚の群（groupColor）。type は 3層の軸として持つ。 */
   itemType: "dish" | "ingredient";
   /** 詳細ページへのリンク組み立て用（棚内「その他」= genre_id null のアイテムは null） */
   genreSlug: string | null;

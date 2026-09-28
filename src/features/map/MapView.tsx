@@ -744,8 +744,12 @@ export function MapView({
           // （醤油/味噌/塩/豚骨）は絞り込み時だけの上書きで、それ以外は群の色（groupColor）。
           // grp はピンの shelfSlug から引く（MapView は shelves を持たないため、
           // BrowseShell が組み立てた shelfGrpBySlug を prop で受け取る）。
+          // 系統色はラーメンで絞り込んでいる（凡例に系統4色が出ている）ときだけ。県絞り込み等で
+          // 凡例に無い色（塩の青）が混じらないようにする（CLAUDE.md「記号」節: 絞り込み時のみ上書き）。
           const isRamenStyle =
-            item.primaryStyle != null && (RAMEN_STYLES as readonly string[]).includes(item.primaryStyle);
+            showLegend &&
+            item.primaryStyle != null &&
+            (RAMEN_STYLES as readonly string[]).includes(item.primaryStyle);
           const fill = isRamenStyle
             ? styleColor(item.primaryStyle)
             : groupColor(shelfGrpBySlug[item.shelfSlug]);
@@ -804,6 +808,7 @@ export function MapView({
     flyToPrefecture,
     locale,
     shelfGrpBySlug,
+    showLegend,
   ]);
 
   // 選択地点への寄せ
