@@ -43,6 +43,29 @@ export function styleColor(style: string | null | undefined): string {
 }
 
 /**
+ * 群（shelves.grp）の色（2026-09「丸だけで色分け」決定。ユーザー「丸だけで色分けのがいい」）。
+ *
+ * 地図ピン・凡例・「土地／種類／興味」カード・地域ページの見出し記号など、群を色で
+ * 識別する箇所は必ずここを参照する（色の直書き禁止。CLAUDE.md「記号」節が正典）。
+ * 形はすべて丸に統一し、本場（○中抜き）だけが形で区別される特別枠のまま残る。
+ */
+export type ShelfGrp = "dish" | "ingredient" | "preparation";
+
+export const GROUP_COLORS: Record<ShelfGrp, string> = {
+  dish: PIN_BASE, // 生まれた料理（ブランド橙）
+  ingredient: "#e56000", // 育てる食材（濃）
+  preparation: "#ffc985", // 仕込む（淡。紙の上では PIN_STROKE の輪郭で締める）
+};
+
+/** 群の色。未知の値（データ不整合・本場等の第4群）はブランド橙にフォールバックする。 */
+export function groupColor(grp: string | null | undefined): string {
+  if (grp === "dish" || grp === "ingredient" || grp === "preparation") {
+    return GROUP_COLORS[grp];
+  }
+  return PIN_BASE;
+}
+
+/**
  * @deprecated 旧名（フェーズ1当時、系統がラーメンの4系統+その他に固定されていた頃の名前）。
  * `src/features/browse/axes.ts`（索引「系統」タブの並び順）が別部隊の編集対象につき
  * 触らずに残す後方互換エイリアス。色分けの参照には `RAMEN_STYLES` / `RAMEN_STYLE_COLORS`

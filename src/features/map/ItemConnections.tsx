@@ -1,4 +1,5 @@
 import { Link } from "@/i18n/navigation";
+import { GROUP_COLORS } from "./styles";
 
 /**
  * 詳細ページ「つながり」= 2軸の分岐点（CLAUDE.md「詳細ページの確定構造」4節）。
@@ -66,7 +67,8 @@ export function ItemConnections({
             id="connections-style-heading"
             className="mb-3 flex items-center gap-2 text-sm font-semibold"
           >
-            <span aria-hidden className="text-primary">
+            {/* 2026-09「丸だけで色分け」決定: 料理側（同じ系統を、もっと）は橙 */}
+            <span aria-hidden style={{ color: GROUP_COLORS.dish }}>
               ●
             </span>
             {styleTitle}
@@ -102,8 +104,9 @@ export function ItemConnections({
             id="connections-land-heading"
             className="mb-3 flex items-center gap-2 text-sm font-semibold"
           >
-            <span aria-hidden className="text-primary">
-              ■
+            {/* 2026-09「丸だけで色分け」決定: 食材側（この土地と、この素材）は濃 */}
+            <span aria-hidden style={{ color: GROUP_COLORS.ingredient }}>
+              ●
             </span>
             {landTitle}
           </h2>

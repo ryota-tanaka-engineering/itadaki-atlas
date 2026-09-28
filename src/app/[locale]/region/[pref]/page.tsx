@@ -5,7 +5,7 @@ import { Link } from "@/i18n/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CoverHeader } from "@/components/CoverHeader";
 import { fetchItemsByPref, fetchShelves, fetchPrefsWithItems, type Locale } from "@/features/map/queries";
-import { PIN_STROKE, styleColor } from "@/features/map/styles";
+import { PIN_STROKE, groupColor, styleColor } from "@/features/map/styles";
 import { fetchGuidesForPref } from "@/features/guide/queries";
 import { localeAlternates } from "@/lib/seo";
 import { ADJACENT_PREFS, PREF_SLUGS, prefFromSlug } from "@/lib/prefectures";
@@ -45,12 +45,13 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
 }
 
 // 本場（どこでも食べられるが、ここのは特別）は生まれた/育てる/仕込むのどれでもないため、
-// 棚カテゴリではなく第4の群に分ける。記号は3群の●■◆に混ぜない（形の識別を守る）。
+// 棚カテゴリではなく第4の群に分ける。記号は3群の●に混ぜない（本場だけ記号なし。
+// 2026-09「丸だけで色分け」決定で形はすべて丸になり、識別は色が主になった）。
 const GRP_ORDER = ["dish", "ingredient", "preparation", "honba"] as const;
 const GRP_SYMBOL: Record<(typeof GRP_ORDER)[number], string | null> = {
   dish: "●",
-  ingredient: "■",
-  preparation: "◆",
+  ingredient: "●",
+  preparation: "●",
   honba: null,
 };
 
@@ -101,7 +102,7 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
           <section key={group.grp} className="mb-10">
             <h2 className="font-serif border-border mb-3 flex items-center gap-2 border-b pb-2 text-lg">
               {GRP_SYMBOL[group.grp] && (
-                <span aria-hidden className="text-primary">
+                <span aria-hidden style={{ color: groupColor(group.grp) }}>
                   {GRP_SYMBOL[group.grp]}
                 </span>
               )}

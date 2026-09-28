@@ -201,6 +201,35 @@ test.describe("F-01 全国表示（県クラスタ）", () => {
   });
 });
 
+test.describe("地図ピンの色分け（2026-09「丸だけで色分け」決定。PIN_COLOR_IMPL_BRIEF.md）", () => {
+  test("県クラスタをタップして個別ピンになると凡例に『生まれた料理』『育てる食材』『仕込む』『本場』が出る（SP 390px）", async ({
+    page,
+  }) => {
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.goto("/ja");
+    const fukushima = page.getByRole("button", { name: /^福島県 \d+件。選ぶとこの県に絞り込みます/ });
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+    await tapPrefCluster(fukushima);
+
+    await expect(page.getByText("生まれた料理", { exact: true })).toBeVisible();
+    await expect(page.getByText("育てる食材", { exact: true })).toBeVisible();
+    await expect(page.getByText("仕込む", { exact: true })).toBeVisible();
+    await expect(page.getByText("本場", { exact: true })).toBeVisible();
+  });
+
+  test("/en では凡例が \"Born here\" 等の英語で出る", async ({ page }) => {
+    await page.goto("/en");
+    const fukushima = page.getByRole("button", { name: /^Fukushima —/ });
+    await expect(fukushima).toBeVisible({ timeout: 30_000 });
+    await tapPrefCluster(fukushima);
+
+    await expect(page.getByText("Born here", { exact: true })).toBeVisible();
+    await expect(page.getByText("Grown here", { exact: true })).toBeVisible();
+    await expect(page.getByText("Made here", { exact: true })).toBeVisible();
+    await expect(page.getByText("At its best here", { exact: true })).toBeVisible();
+  });
+});
+
 test.describe("トップ操作体系の作り直し（2026-09。本番体験レビュー対応）", () => {
   test("ジャンルをタップすると地図と索引がそのジャンルに絞り込まれ、チップの✕で解除できる", async ({
     page,

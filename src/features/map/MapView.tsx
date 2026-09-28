@@ -14,8 +14,11 @@ import {
   PIN_STROKE,
   RAMEN_STYLES,
   RAMEN_STYLE_COLORS,
+  GROUP_COLORS,
+  groupColor,
   styleColor,
   localizedPlaceNameField,
+  type ShelfGrp,
 } from "./styles";
 import { useMasterLabels } from "./labels";
 import { buildPrefClusters, type PrefCluster } from "./prefClusters";
@@ -209,8 +212,21 @@ type Props = {
   onSelect: (slug: string | null) => void;
   /** ボトムシートに隠れない位置に選択地点を寄せるための下端余白 */
   bottomInset: number;
-  /** 系統凡例の表示可否（ラーメン内部・単一ジャンル絞り込み時のみ。CLAUDE.md「デザイン」節）。 */
+  /**
+   * ラーメン系統の凡例（醤油/味噌/塩/豚骨）を追加で出すか（ラーメン内部・単一ジャンル
+   * 絞り込み時のみ。CLAUDE.md「デザイン」節）。
+   *
+   * 2026-09「丸だけで色分け」決定後は、群（生まれた料理／育てる食材／仕込む／本場）の
+   * 凡例は個別ピン表示（!isClusterView）のときに常に出るようになったため、この値は
+   * その下に続くラーメン系統の追加行だけを制御する。
+   */
   showLegend: boolean;
+  /**
+   * ピンの色分け用: shelfSlug → 群（dish/ingredient/preparation）。MapView は shelves を
+   * 持たないため、BrowseShell（shelves prop を既に持つ）が組み立てて渡す
+   * （src/features/browse/prefContext.ts の grpOfShelf と同じ引き方）。
+   */
+  shelfGrpBySlug: Record<string, ShelfGrp>;
   /**
    * 県クラスタ表示か個別ピン表示か（isClusterView の実測値）が変わるたびに呼ばれる
    * （本番レビュー「地図がフルサイズのままで使いづらい」対応。BrowseShell が地図の
@@ -245,6 +261,7 @@ export function MapView({
   onSelect,
   bottomInset,
   showLegend,
+  shelfGrpBySlug,
   onClusterViewChange,
   compact,
   onPrefSelect,
@@ -722,11 +739,18 @@ export function MapView({
           ringShadow = `inset 0 0 0 3px ${PIN_BASE}`;
           inner.style.boxShadow = ringShadow;
         } else {
-          // 記号（CLAUDE.md「記号」節）: dish=●（丸）/ ingredient=■（角）。
-          // 系統色はラーメン内部のみの識別軸で、それ以外は無地のブランド橙（PIN_BASE）。
-          const shape = item.itemType === "ingredient" ? "rounded-[3px]" : "rounded-full";
-          inner.className = `block size-full border-2 transition-transform group-hover:scale-125 ${shape}`;
-          inner.style.backgroundColor = styleColor(item.primaryStyle);
+          // 記号（CLAUDE.md「記号」節。2026-09「丸だけで色分け」決定）: 形はすべて丸で、
+          // 色で群（生まれた料理／育てる食材／仕込む）を識別する。ラーメン内部の系統色
+          // （醤油/味噌/塩/豚骨）は絞り込み時だけの上書きで、それ以外は群の色（groupColor）。
+          // grp はピンの shelfSlug から引く（MapView は shelves を持たないため、
+          // BrowseShell が組み立てた shelfGrpBySlug を prop で受け取る）。
+          const isRamenStyle =
+            item.primaryStyle != null && (RAMEN_STYLES as readonly string[]).includes(item.primaryStyle);
+          const fill = isRamenStyle
+            ? styleColor(item.primaryStyle)
+            : groupColor(shelfGrpBySlug[item.shelfSlug]);
+          inner.className = "block size-full rounded-full border-2 transition-transform group-hover:scale-125";
+          inner.style.backgroundColor = fill;
           inner.style.borderColor = PIN_STROKE;
         }
         if (key === selectedSlug) {
@@ -768,7 +792,19 @@ export function MapView({
     };
     // mapGeneration も依存に含め、WebGLコンテキスト喪失で地図を作り直した後もピンを再描画する。
     // locale はピンaria-labelの市名表記の要否（ja=含む/en=含まない）に使うため依存に含める。
-  }, [items, selectedSlug, onSelect, honbaLabel, mapGeneration, isClusterView, prefClusters, flyToPrefecture, locale]);
+    // shelfGrpBySlug はピンの色分け（groupColor）に使うため依存に含める。
+  }, [
+    items,
+    selectedSlug,
+    onSelect,
+    honbaLabel,
+    mapGeneration,
+    isClusterView,
+    prefClusters,
+    flyToPrefecture,
+    locale,
+    shelfGrpBySlug,
+  ]);
 
   // 選択地点への寄せ
   useEffect(() => {
@@ -815,24 +851,71 @@ export function MapView({
         </button>
       )}
 
-      {/* 凡例。単一ジャンル絞り込み中（=系統がラーメン内部の識別軸として意味を持つとき）のみ出す
-          （CLAUDE.md「デザイン」節。系統色はラーメン内部・単一ジャンル時のみの識別軸）。
-          色だけに依存させないため系統名を必ず併記する */}
-      {showLegend && (
-        <div className="bg-background/90 pointer-events-none absolute top-16 left-4 z-10 rounded-lg p-3 text-xs shadow-sm backdrop-blur">
-          <p className="mb-2 font-semibold">{t("legend")}</p>
+      {/* 凡例。個別ピン表示（!isClusterView）のときは常に群（生まれた料理／育てる食材／
+          仕込む／本場）の凡例を出す（2026-09「丸だけで色分け」決定。CLAUDE.md「記号」節）。
+          色だけに依存させないため語を必ず併記する。ラーメンで絞っているとき
+          （showLegend）は、その下に区切りを入れて系統4色（醤油/味噌/塩/豚骨。ラーメン
+          内部だけの識別軸）を続ける。 */}
+      {!isClusterView && (
+        <div className="bg-background/90 pointer-events-none absolute top-16 left-4 z-10 max-w-[9rem] rounded-lg p-3 text-xs shadow-sm backdrop-blur">
           <ul className="space-y-1">
-            {RAMEN_STYLES.map((s) => (
-              <li key={s} className="flex items-center gap-2">
-                <span
-                  aria-hidden
-                  className="inline-block size-3 rounded-full border"
-                  style={{ backgroundColor: RAMEN_STYLE_COLORS[s], borderColor: PIN_STROKE }}
-                />
-                {label.style(s)}
-              </li>
-            ))}
+            <li className="flex items-center gap-2">
+              <span
+                aria-hidden
+                className="inline-block size-3 shrink-0 rounded-full border"
+                style={{ backgroundColor: GROUP_COLORS.dish, borderColor: PIN_STROKE }}
+              />
+              {t("legendDish")}
+            </li>
+            <li className="flex items-center gap-2">
+              <span
+                aria-hidden
+                className="inline-block size-3 shrink-0 rounded-full border"
+                style={{ backgroundColor: GROUP_COLORS.ingredient, borderColor: PIN_STROKE }}
+              />
+              {t("legendIngredient")}
+            </li>
+            <li className="flex items-center gap-2">
+              <span
+                aria-hidden
+                className="inline-block size-3 shrink-0 rounded-full border"
+                style={{ backgroundColor: GROUP_COLORS.preparation, borderColor: PIN_STROKE }}
+              />
+              {t("legendPreparation")}
+            </li>
+            <li className="flex items-center gap-2">
+              {/* 本場は中抜き（塗り=紙・リング=ブランド橙・外周輪郭=既存ピンと同じ細さ）。
+                  ピン・県クラスタの本場記号と同じ描き方（CLAUDE.md「記号」節）。 */}
+              <span
+                aria-hidden
+                className="inline-block size-3 shrink-0 rounded-full"
+                style={{
+                  backgroundColor: "#fffdf7",
+                  border: `2px solid ${PIN_STROKE}`,
+                  boxShadow: `inset 0 0 0 2px ${PIN_BASE}`,
+                }}
+              />
+              {t("legendHonba")}
+            </li>
           </ul>
+          {showLegend && (
+            <>
+              <hr className="border-border my-2" />
+              <p className="mb-2 font-semibold">{t("legend")}</p>
+              <ul className="space-y-1">
+                {RAMEN_STYLES.map((s) => (
+                  <li key={s} className="flex items-center gap-2">
+                    <span
+                      aria-hidden
+                      className="inline-block size-3 shrink-0 rounded-full border"
+                      style={{ backgroundColor: RAMEN_STYLE_COLORS[s], borderColor: PIN_STROKE }}
+                    />
+                    {label.style(s)}
+                  </li>
+                ))}
+              </ul>
+            </>
+          )}
         </div>
       )}
     </div>
