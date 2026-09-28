@@ -14,6 +14,7 @@ import { mapPinKey } from "@/features/map/pinKey";
 import { useMasterLabels } from "@/features/map/labels";
 import { ChainBridgeSection } from "@/features/map/ChainBridgeSection";
 import { translateCityName, type PlaceNameMap } from "@/features/map/placeNames";
+import { GROUP_COLORS, PIN_STROKE, type ShelfGrp } from "@/features/map/styles";
 import type {
   BrowseItem,
   Chain,
@@ -543,6 +544,12 @@ export function BrowseShell({
     () => (prefFilter ? countPrefContext(visibleItems, shelves) : null),
     [prefFilter, visibleItems, shelves],
   );
+  /** 地図ピンの色分け用（PIN_COLOR_IMPL_BRIEF.md）。shelfSlug → 群（dish/ingredient/preparation）。
+   * prefContext.ts の grpOfShelf と同じ引き方。MapView は shelves を持たないためここで渡す。 */
+  const shelfGrpBySlug = useMemo<Record<string, ShelfGrp>>(
+    () => Object.fromEntries(shelves.map((s) => [s.slug, s.grp])),
+    [shelves],
+  );
   // 本場だけの県（発祥ピンが0件。石川県等）は visibleItems が0件になる（CLUSTER_COUNT_IMPL_BRIEF.md
   // 設計4）。行き止まりにしないため、この県の本場一覧を出す。honbaGroups プロップは
   // トップ「本場をたどる」用の日替わり選定済み最大6件（page.tsx の pickHonbaGroups）で
@@ -720,6 +727,7 @@ export function BrowseShell({
           onSelect={handleSelectFromMap}
           bottomInset={compact ? 0 : bottomInset}
           showLegend={showStyleLegend}
+          shelfGrpBySlug={shelfGrpBySlug}
           onClusterViewChange={handleClusterViewChange}
           compact={compact}
           onPrefSelect={handleSelectPref}
@@ -1137,7 +1145,8 @@ export function BrowseShell({
               >
                 <span
                   aria-hidden
-                  className="bg-primary text-primary-foreground flex size-5 items-center justify-center rounded-full text-[10px] leading-none"
+                  className="text-primary-foreground flex size-5 items-center justify-center rounded-full text-[10px] leading-none"
+                  style={{ backgroundColor: GROUP_COLORS.dish }}
                 >
                   ●
                 </span>
@@ -1149,9 +1158,10 @@ export function BrowseShell({
                 <div className="mb-1.5 flex items-center gap-1.5">
                   <span
                     aria-hidden
-                    className="bg-primary text-primary-foreground flex size-5 items-center justify-center rounded-[4px] text-[10px] leading-none"
+                    className="text-primary-foreground flex size-5 items-center justify-center rounded-full text-[10px] leading-none"
+                    style={{ backgroundColor: GROUP_COLORS.ingredient }}
                   >
-                    ■
+                    ●
                   </span>
                   <span className="text-sm font-semibold">{t("entryTypeTitle")}</span>
                 </div>
@@ -1189,9 +1199,14 @@ export function BrowseShell({
                 <div className="mb-1.5 flex items-center gap-1.5">
                   <span
                     aria-hidden
-                    className="bg-primary text-primary-foreground flex size-5 items-center justify-center rounded-[3px] text-[10px] leading-none"
+                    className="flex size-5 items-center justify-center rounded-full border text-[10px] leading-none"
+                    style={{
+                      backgroundColor: GROUP_COLORS.preparation,
+                      borderColor: PIN_STROKE,
+                      color: PIN_STROKE,
+                    }}
                   >
-                    ◆
+                    ●
                   </span>
                   <span className="text-sm font-semibold">{t("entryInterestTitle")}</span>
                 </div>

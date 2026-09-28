@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { localizedPlaceNameField, styleColor, PIN_BASE, RAMEN_STYLE_COLORS } from "./styles";
+import { localizedPlaceNameField, styleColor, groupColor, GROUP_COLORS, PIN_BASE, RAMEN_STYLE_COLORS } from "./styles";
 
 describe("localizedPlaceNameField", () => {
   it("ja では上書きしない（@protomaps/basemaps 既定の get_multiline_name を使う）", () => {
@@ -34,5 +34,19 @@ describe("styleColor（既存挙動の回帰確認）", () => {
     expect(styleColor("その他")).toBe(PIN_BASE);
     expect(styleColor(null)).toBe(PIN_BASE);
     expect(styleColor(undefined)).toBe(PIN_BASE);
+  });
+});
+
+describe("groupColor（2026-09「丸だけで色分け」決定）", () => {
+  it("dish/ingredient/preparationはそれぞれ専用色を返す", () => {
+    expect(groupColor("dish")).toBe(GROUP_COLORS.dish);
+    expect(groupColor("ingredient")).toBe(GROUP_COLORS.ingredient);
+    expect(groupColor("preparation")).toBe(GROUP_COLORS.preparation);
+  });
+
+  it("未知の値・null・undefinedはブランド橙（PIN_BASE）にフォールバックする", () => {
+    expect(groupColor("honba")).toBe(PIN_BASE);
+    expect(groupColor(null)).toBe(PIN_BASE);
+    expect(groupColor(undefined)).toBe(PIN_BASE);
   });
 });
