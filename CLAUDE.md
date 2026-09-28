@@ -48,7 +48,7 @@
 | `/[genre]/[slug]`（詳細: 橙カバー・位置帯・目次+章Markdown・つながり2軸。棚slug経由でその他も到達可） | ✅ |
 | `/region/[pref]`（●生まれた/■育てる/◆仕込むの3群 + 隣接県） | ✅ |
 | `/tags`・`/tag/[slug]`（タグ横断） | ✅ |
-| `/chain/[slug]`（チェーン独立ページ。SEO流入起点→ご当地へ橋渡し） | ✅ |
+| `/chain/[slug]`（チェーン独立ページ。SEO流入起点→ご当地へ橋渡し。133件・ジャンル/棚ごとに8〜12件、地域限定は `pref_limited`。棚ページにも出る） | ✅ |
 | `/guide`・`/guide/[slug]`・`/guide/scene/[scene]`（食べに行く前に: 話題（kind）×場面（scene）の2軸。場面はコード定数 `features/guide/scenes.ts`＋辞書ラベル、紐づけは `guide_links` の `scene`。トップ4枚目カード・ジャンルページ・料理詳細・ガイド詳細から場面へ相互遷移） | ✅ |
 | About/利用規約/プライバシー/問い合わせ（Supabase保存）・共通ヘッダー（PC はナビ直置き、SP は三つ紋のメニューボタン `components/MobileNav.tsx`）/フッター | ✅ |
 | OGP共有カード・i18n（/ja /en・hreflang・sitemap） | ✅ |
