@@ -446,6 +446,2806 @@
       "genre_slug": "yakitori",
       "source_url": "http://web.archive.org/web/20260621175240/https://sfpdining.jp/company/",
       "source_note": "運営会社公式サイト（sfpdining.jp/company/）のWayback Machineアーカイブ（2026-06-21取得分）。現行サイトは自動アクセスを403で拒否するため、アーカイブ経由で公式記載（創業年・場所）を確認。運営会社はSFPホールディングスから株式会社クリエイト・レストランツ・ホールディングスグループへ移行済み"
+    },
+    {
+      "slug": "machida-shoten",
+      "name_ja": "町田商店",
+      "name_en": "Machida Shoten — Yokohama-style \"iekei\" tonkotsu-shoyu ramen chain",
+      "genre_slug": "ramen",
+      "founded": "2008年1月・東京都町田市（创業者・田川翔が個人事業として创業。2009年12月に株式会社町田商店として法人化）",
+      "style_ja": "豚骨醒油・家系",
+      "style_en": "Tonkotsu-shoyu, iekei style",
+      "bridge_ja": "町田商店の太麦・豚骨醒油スープは、1974年以降に横浜で生まれたとされる家系ラーメンの技法を継いだ店主が全国に広げたものとされる。",
+      "bridge_en": "Machida Shoten's thick noodles and tonkotsu-shoyu broth are said to carry the technique of Yokohama's iekei ramen, said to have originated there from 1974 onward, spread nationwide by a chef trained in that lineage.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "iekei"
+        },
+        {
+          "kind": "item",
+          "slug": "yokohama"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.gift-group.co.jp/company/history",
+      "source_note": "株式会社ギフトホールディングス 公式サイト 沿革ページ"
+    },
+    {
+      "slug": "mokotanmen-nakamoto",
+      "name_ja": "蒙古タンメン中本",
+      "name_en": "Mokotanmen Nakamoto — Itabashi-born spicy miso tanmen chain",
+      "genre_slug": "ramen",
+      "founded": "1968年9月・東京都板橋区（「ボルシチの店 中本」として開業。2000年に「蒙古タンメン中本」として再出発。運営は株式会社誠フードサービス）",
+      "style_ja": "味噬・激辛タンメン",
+      "style_en": "Miso-based, spicy tanmen",
+      "bridge_ja": "蒙古タンメン中本の辛味噬スープは、関東各地に見られる、豚骨・鵜がらの中華そばに辛味噬や挽き肉を効かせたタンメン系統の流れを汲むとされる。",
+      "bridge_en": "Mokotanmen Nakamoto's spicy miso broth is said to trace back to the Kanto-region tanmen lineage, in which pork- or chicken-based Chinese noodle soups are finished with spicy miso and minced meat.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "hiratsuka-tanmen"
+        },
+        {
+          "kind": "item",
+          "slug": "katsuura-tantan"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.moukotanmen-nakamoto.com/3338-2/",
+      "source_note": "蒙古タンメン中本 公式サイト「創業物語」ページ"
+    },
+    {
+      "slug": "kairikiya",
+      "name_ja": "ラーメン魁力屋",
+      "name_en": "Ramen Kairikiya — Kyoto-style back-fat shoyu ramen chain",
+      "genre_slug": "ramen",
+      "founded": "2005年6月・京都府京都市左京区一乗寺（北白川店として開業）",
+      "style_ja": "醒油・背脂（京都系）",
+      "style_en": "Shoyu with back-fat, Kyoto style",
+      "bridge_ja": "魁力屋の背脂を効かせた醒油スープは、京都の一乗寺・北白川人辺で育まれたとされる、こってりとした京都系ラーメンの流れを汲むとされる。",
+      "bridge_en": "Kairikiya's shoyu broth finished with pork back-fat is said to carry the rich Kyoto-style ramen tradition said to have developed around the Ichijoji and Kitashirakawa areas of Kyoto.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "kyoto"
+        },
+        {
+          "kind": "item",
+          "slug": "kyofu"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.kairikiya.co.jp/about",
+      "source_note": "ラーメン魁力屋 ブランドサイト「ラーメン魁力屋とは」ページ"
+    },
+    {
+      "slug": "kagetsu-arashi",
+      "name_ja": "らあめん花月嵐",
+      "name_en": "Raamen Kagetsu Arashi — Hakata-inspired garlic tonkotsu ramen chain",
+      "genre_slug": "ramen",
+      "founded": "1994年6月8日・東京都（運営会社グロービート・ジャパン株式会社の設立年月日。杜並区高円寺での1号店開業時期は資料により差があり公式サイトに明記なし）",
+      "style_ja": "豚骨（博多系・にんにくげんこつ）",
+      "style_en": "Tonkotsu, Hakata-inspired with garlic",
+      "bridge_ja": "花月嵐のにんにくを効かせた豚骨スープは、博多・久留米で育まれた豚骨ラーメンの技法を汲むとされる。",
+      "bridge_en": "Kagetsu Arashi's garlic-forward tonkotsu broth is said to draw on the pork-bone ramen techniques nurtured in Hakata and Kurume.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "hakata"
+        },
+        {
+          "kind": "item",
+          "slug": "kurume"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.globeat.jp/company/",
+      "source_note": "グロービート・ジャパン株式会社 公式サイト 企業情報ページ"
+    },
+    {
+      "slug": "hachiban-ramen",
+      "name_ja": "8番らーめん",
+      "name_en": "Hachiban Ramen — vegetable-topped ramen chain from Ishikawa",
+      "genre_slug": "ramen",
+      "founded": "1967年2月11日・石川県加賀市（国邓8号線沿いに創業者・後藤鉄男が開業。運営は株式会社ハチバン）",
+      "style_ja": "塩・醒油（野菜たっぷり）",
+      "style_en": "Shio/shoyu with a mountain of stir-fried vegetables",
+      "bridge_ja": "8番らーめんの野菜をたっぷり乗せたラーメンは、北陸地方で親しまれてきた、キャベツなどの野菜をひやして乗せるラーメンの系統を全国・海外に広めたものとされる。",
+      "bridge_en": "Hachiban Ramen's noodles piled with stir-fried vegetables are said to have spread the Hokuriku-region style of topping ramen with cabbage and other stir-fried vegetables nationwide and abroad.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "hakui-ufo"
+        },
+        {
+          "kind": "item",
+          "slug": "takaoka-green"
+        }
+      ],
+      "pref_limited": "石川県",
+      "source_url": "https://www.hachiban.co.jp/corporate/history/",
+      "source_note": "株式会社ハチバン 公式サイト 沿革ページ"
+    },
+    {
+      "slug": "ajisen-ramen",
+      "name_ja": "味千拉麦（味千ラーメン）",
+      "name_en": "Ajisen Ramen — Kumamoto tonkotsu ramen chain with global reach",
+      "genre_slug": "ramen",
+      "founded": "1968年・熊本県熊本市（重光孝治が創業。運営は株式会社重光産業）",
+      "style_ja": "豚骨（熊本系・にんにく）",
+      "style_en": "Tonkotsu, Kumamoto style with garlic",
+      "bridge_ja": "味千ラーメンのにんにくを効かせた豚骨スープは、久留米から熊本へ伝わったとされる豚骨ラーメンに、にんにくを加えて仕上げた熊本ラーメンの系統を汲むとされる。",
+      "bridge_en": "Ajisen Ramen's garlic-laced tonkotsu broth is said to follow the Kumamoto ramen lineage, in which tonkotsu broth said to have traveled from Kurume to Kumamoto was finished with garlic.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "kumamoto"
+        },
+        {
+          "kind": "item",
+          "slug": "tamana"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.aji1000.co.jp/company/",
+      "source_note": "味千ラーメン（重光産業）公式サイト 会社案内ページ"
+    },
+    {
+      "slug": "rokurinsha",
+      "name_ja": "六厘舎",
+      "name_en": "Rokurinsha — Tokyo dipping-noodle (tsukemen) ramen chain",
+      "genre_slug": "ramen",
+      "founded": "2005年4月18日・東京都品川区大崎（運営は株式会社松富士食品）",
+      "style_ja": "つけ麦（魚介豚骨）",
+      "style_en": "Tsukemen, seafood-pork broth",
+      "bridge_ja": "六厘舎の濃厚な魚介豚骨つけ汁は、2000年代に東京で広まった、麦とスープを別々に提供するつけ麦という食べ方を全国に知らしめたとされる店の一つに挙げられる。",
+      "bridge_en": "Rokurinsha's thick seafood-and-pork dipping sauce is cited as one of the shops that helped spread tsukemen — noodles and broth served separately — which gained popularity in Tokyo in the 2000s, nationwide.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "tsukemen"
+        },
+        {
+          "kind": "item",
+          "slug": "tokyo"
+        }
+      ],
+      "pref_limited": "東京都",
+      "source_url": "https://mtfj.co.jp/",
+      "source_note": "株式会社松富士食品 公式サイト（六厘舎運営会社）"
+    },
+    {
+      "slug": "marugen-ramen",
+      "name_ja": "丸源ラーメン",
+      "name_en": "Marugen Ramen — shoyu-tonkotsu \"nikusoba\" chain from Aichi",
+      "genre_slug": "ramen",
+      "founded": "2001年6月・愛知県安城市（物語コーポレーションの新業態として1号店を開業）",
+      "style_ja": "醒油豚骨（肉そば）",
+      "style_en": "Shoyu-tonkotsu, known for \"nikusoba\" pork-topped ramen",
+      "bridge_ja": "丸源ラーメンの看板メニュー「肉そば」は、豚バラ肉を煙た醒油豚骨スープに麦を合わせるもので、東京の中華そばに連なる醒油ラーメンの系統に、東海地方発の具材アレンジを加えたものとされる。",
+      "bridge_en": "Marugen Ramen's signature \"nikusoba,\" pork belly simmered in a shoyu-tonkotsu broth over noodles, is said to add a Tokai-region topping arrangement to the shoyu ramen lineage descended from Tokyo's chuka soba.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "tokyo"
+        },
+        {
+          "kind": "item",
+          "slug": "hakata"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.monogatari.co.jp/company/history/",
+      "source_note": "株式会社物語コーポレーション 公式サイト 沿革ページ"
+    },
+    {
+      "slug": "fuji-soba",
+      "name_ja": "名代 富士そば",
+      "name_en": "Fuji Soba — 24-hour standing soba chain from Tokyo",
+      "genre_slug": "soba",
+      "founded": "1972年・東京都（创業者・丹道夫がダイタンフード株式会社を設立し、渋谷・新宿などで立ち食いそば業を開始）",
+      "style_ja": "立ち食いそば・関東風かえし",
+      "style_en": "Standing soba, Kanto-style dark broth",
+      "bridge_ja": "富士そばの濃口のつゆと立ち食いの業態は、江戸から続く、かえしを効かせた関東のそば文化を、駅前や繁華街で手早く食べられる形にして広めたものとされる。",
+      "bridge_en": "Fuji Soba's dark, strongly seasoned broth and stand-and-eat format are said to have adapted the Kanto-region soba tradition, built on Edo-period kaeshi seasoning, into a quick meal near stations and shopping streets.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "edo-soba"
+        },
+        {
+          "kind": "item",
+          "slug": "kake-soba"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://fujisoba.co.jp/company/",
+      "source_note": "名代 富士そば（ダイタングループ）公式サイト 会社情報ページ"
+    },
+    {
+      "slug": "yudetaro",
+      "name_ja": "ゆで太郎",
+      "name_en": "Yudetaro — self-serve soba chain known for made-to-order noodles",
+      "genre_slug": "soba",
+      "founded": "1994年10月・東京都大田区（信越食品株式会社が湊店で開業。2004年設立の株式会社ゆで太郎システムがFC展開を担う）",
+      "style_ja": "立ち食い・自家製麦（二八そば）",
+      "style_en": "Standing/self-serve soba with in-house \"nihachi\" (80% buckwheat) noodles",
+      "bridge_ja": "ゆで太郎の「挽きたて・打ちたて・茂でたて」を掛げる自家製麦は、江戸から続く二八そばの製法を、駅前の立ち食い業態でも守ろうとしたものとされる。",
+      "bridge_en": "Yudetaro's in-house noodle making, marketed as freshly milled, freshly made and freshly boiled, is said to be an attempt to preserve the Edo-era \"nihachi\" (80% buckwheat) soba-making method even in a standing, near-station format.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "edo-soba"
+        },
+        {
+          "kind": "item",
+          "slug": "nihachi-soba"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://yudetaro.jp/company_history/",
+      "source_note": "ゆで太郎システム 公式サイト 会社沿革ページ"
+    },
+    {
+      "slug": "komoro-soba",
+      "name_ja": "小諸そば",
+      "name_en": "Komoro Soba — Tokyo standing soba chain named after a Nagano town",
+      "genre_slug": "soba",
+      "founded": "1974年・東京都中央区京橋（運営会社「三ッ和」が第1号店を開店。三ッ和自体は1953年11月創業）",
+      "style_ja": "立ち食いそば・関東風",
+      "style_en": "Standing soba, Kanto style",
+      "bridge_ja": "小諸そばの店名は長野県小諸市に由来するが、店自体は東京で生まれた立ち食いそばであり、更科そばに代表される江戸のそば文化と、信州の産地名を結びつけて広めたものとされる。",
+      "bridge_en": "Although named after Komoro City in Nagano Prefecture, Komoro Soba itself originated as a Tokyo standing soba chain, said to link the Edo soba tradition represented by sarashina-style soba with the name of a Shinshu production area.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "sarashina-soba"
+        },
+        {
+          "kind": "item",
+          "slug": "edo-soba"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.k-mitsuwa.co.jp/business/komoro",
+      "source_note": "株式会社三ッ和 公式サイト「小諸そば」事業紹介ページ"
+    },
+    {
+      "slug": "hakone-soba",
+      "name_ja": "箱根そば",
+      "name_en": "Hakone Soba — Odakyu-line station soba chain",
+      "genre_slug": "soba",
+      "founded": "1965年8月・東京都新宿区（小田急電鉄が新宿駅地下1階に開業。現在は小田急レストランシステムが運営）",
+      "style_ja": "立ち食いそば・駅そば（関東風）",
+      "style_en": "Standing station soba, Kanto style",
+      "bridge_ja": "箱根そばの名は観光地・箱根に由来するが、店自体は新宿駅の駅そばとして生まれたもので、江戸から続く関東の立ち食いそば文化を沿線の駅で広めたものとされる。",
+      "bridge_en": "Named after the Hakone resort area, Hakone Soba itself began as a station soba stand at Shinjuku Station, said to have spread the Kanto-region standing soba tradition, rooted in the Edo era, to stations along the Odakyu line.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "edo-soba"
+        },
+        {
+          "kind": "item",
+          "slug": "tenpura-soba"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.odakyu-restaurant.jp/shop/hakonesoba/hakonesoba/",
+      "source_note": "小田急レストランシステム 公式サイト「箱根そば」店舗紹介ページ"
+    },
+    {
+      "slug": "irorian-kiraku",
+      "name_ja": "いろり庵きらく",
+      "name_en": "Irori-an Kiraku — JR East station soba chain with fresh noodles",
+      "genre_slug": "soba",
+      "founded": "2008年4月・東京都大田区（グランデュオ蕃田に1号店を開業。運営は株式会社JR東日本クロスステーション）",
+      "style_ja": "立ち食いそば・駅そば（生莓麦）",
+      "style_en": "Standing station soba made with fresh (uncooked-stock) noodles",
+      "bridge_ja": "いろり庵きらくの生莓麦とかき揚げは、江戸から続く関東の駅そば文化を、JR東日本の駅構内で自社製麦により今に伝えるものとされる。",
+      "bridge_en": "Irori-an Kiraku's fresh soba noodles and tempura fritters are said to carry the Kanto-region station soba tradition, rooted in the Edo era, into JR East station concourses through in-house noodle making.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "edo-soba"
+        },
+        {
+          "kind": "item",
+          "slug": "kamo-nanban"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000465.000082978.html",
+      "source_note": "株式会社JR東日本クロスステーション 公式プレスリリース（「いろり庵きらく15周年」キャンペーン。っ2008年開業に基づく）"
+    },
+    {
+      "slug": "sojibou",
+      "name_ja": "信州そば処 そじ坤",
+      "name_en": "Sojibou — sit-down Shinshu soba restaurant chain",
+      "genre_slug": "soba",
+      "founded": "運営会社「株式会社グルメ杓屋」の設立は1967年3月（うどん「杓屋」1号店は1971年11月・奈良県奈良市）。「そじ坤」ブランド単体の創業年・創業地は公式サイトに記載なし",
+      "style_ja": "信州そば・二八",
+      "style_en": "Shinshu (Nagano) style soba, nihachi blend",
+      "bridge_ja": "そじ坤の自家製麦は、信州で製粉されたそば粉を使う点で、戸隠をはじめとする信州そばの系統を、庄屋風の店構えとともに全国の商業施設へ広めたものとされる。",
+      "bridge_en": "Sojibou's in-house noodles, made from buckwheat flour milled in Shinshu (Nagano), are said to bring the Shinshu soba lineage represented by Togakushi soba, along with a farmhouse-style interior, to shopping facilities nationwide.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "togakushi"
+        },
+        {
+          "kind": "item",
+          "slug": "nihachi-soba"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://gourmet-kineya.co.jp/brands/sojibo/",
+      "source_note": "グルメ杓屋レストラン 公式サイト「そじ坤」ブランドページ"
+    },
+    {
+      "slug": "kazokutei",
+      "name_ja": "家族中",
+      "name_en": "Kazokutei — Osaka-based soba restaurant chain",
+      "genre_slug": "soba",
+      "founded": "1947年9月27日・大阪府（そば専門店として創業。1987年10月に甲南興業が吸収合併し現在の株式会社家族中となる）",
+      "style_ja": "そば（関西だし）",
+      "style_en": "Soba with a Kansai-style dashi broth",
+      "bridge_ja": "家族中のそばは、江戸で発達したそば文化を、昆布と薄口醒油を効かせた関西のだし文化に合わせて提供してきたものとされる。",
+      "bridge_en": "Kazokutei's soba is said to serve the soba tradition that developed in Edo with a broth adapted to the kelp- and light-shoyu-based dashi culture of the Kansai region.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "edo-soba"
+        },
+        {
+          "kind": "item",
+          "slug": "kake-soba"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://kazokutei.co.jp/",
+      "source_note": "株式会社家族中 公式サイト"
+    },
+    {
+      "slug": "yoshi-soba",
+      "name_ja": "吉そば",
+      "name_en": "Yoshi Soba — Tokyo standing soba chain",
+      "genre_slug": "soba",
+      "founded": "運営会社「株式会社ノア」の創立は1971年10月・東京都目黒区。「吉そば」1号店の開業年は公式サイトに記載なし",
+      "style_ja": "立ち食いそば・関東風",
+      "style_en": "Standing soba, Kanto style",
+      "bridge_ja": "吉そばの濃口のつゆは、江戸から続く関東のそば文化を、駅前の立ち食い業態で今に伝えるものとされる。",
+      "bridge_en": "Yoshi Soba's dark, strongly seasoned broth is said to carry the Kanto-region soba tradition, rooted in the Edo era, into a stand-and-eat format near stations.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "edo-soba"
+        },
+        {
+          "kind": "item",
+          "slug": "kake-soba"
+        }
+      ],
+      "pref_limited": "東京都",
+      "source_url": "https://www.yoshisoba.jp/company/",
+      "source_note": "吉そば 公式サイト 会社概要ページ"
+    },
+    {
+      "slug": "marugame-seimen",
+      "name_ja": "丸亀製麦",
+      "name_en": "Marugame Seimen — self-serve Sanuki-style udon chain",
+      "genre_slug": "udon",
+      "founded": "2000年11月・兵庫県加古川市（トリドール運営の1号店を開業）",
+      "style_ja": "讃岐系・セルフ",
+      "style_en": "Sanuki-style, self-serve",
+      "bridge_ja": "丸亀製麦の店内製麦と釜湯げは、讃岐の製麦所やセルフうどん店の形式を全国に広めたものとされる。",
+      "bridge_en": "Marugame Seimen's in-store noodle making and kamaage service are said to carry the format of Sanuki's noodle-shop and self-serve udon culture nationwide.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "sanuki"
+        },
+        {
+          "kind": "item",
+          "slug": "kamaage-udon"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.toridoll.com/company/history/",
+      "source_note": "トリドールホールディングス 公式サイト 沿革ページ"
+    },
+    {
+      "slug": "hanamaru-udon",
+      "name_ja": "はなまるうどん",
+      "name_en": "Hanamaru Udon — casual self-serve Sanuki udon chain",
+      "genre_slug": "udon",
+      "founded": "2000年5月・香川県高松市（木太店として创業者・前田英仁が開業）",
+      "style_ja": "讃岐系・セルフ",
+      "style_en": "Sanuki-style, self-serve",
+      "bridge_ja": "はなまるうどんのカジュアルな内装とセルフスタイルは、讃岐うどんの製麦所文化を、若い世代にも入りやすい形で全国へ広めたものとされる。",
+      "bridge_en": "Hanamaru Udon's casual interior and self-serve style are said to have brought Sanuki udon's noodle-shop culture nationwide in a format more approachable for younger customers.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "sanuki"
+        },
+        {
+          "kind": "item",
+          "slug": "bukkake-udon"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.hanamaruudon.com/company/outline.html",
+      "source_note": "讃岐うどんのはなまるうどん 公式サイト 概要・沿革ページ"
+    },
+    {
+      "slug": "maki-no-udon",
+      "name_ja": "牛のうどん",
+      "name_en": "Maki no Udon — soft-noodle udon chain from Fukuoka's Itoshima",
+      "genre_slug": "udon",
+      "founded": "1973年・福岡県糸島市（製麦所から発展したとされる。運営会社「株式会社釜湯げ牛のうどん」の設立は1976年。一号店の詳細な開業日は公式サイトに記載なし）",
+      "style_ja": "博多系・釜湯げ（やわらか麦）",
+      "style_en": "Hakata-area kamaage udon with very soft noodles",
+      "bridge_ja": "牛のうどんの長時間ゆでたやわらかい麦と甘口のだしは、博多うどんに連なる福岡・糸島地方のうどん文化の一系統とされる。",
+      "bridge_en": "Maki no Udon's noodles, boiled for a long time until very soft, and its sweeter dashi are considered one lineage of the udon culture in Fukuoka's Itoshima area, connected to Hakata udon.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "hakata-udon"
+        },
+        {
+          "kind": "item",
+          "slug": "goto"
+        }
+      ],
+      "pref_limited": "福岡県",
+      "source_url": "https://www.makinoudon.jp/",
+      "source_note": "釜湯げ牛のうどん 公式サイト"
+    },
+    {
+      "slug": "west-udon",
+      "name_ja": "ウエスト",
+      "name_en": "West — Fukuoka udon chain born as a roadside drive-in",
+      "genre_slug": "udon",
+      "founded": "1966年・福岡県宗像郡福間町（現・福津市）。運営は株式会社ウエスト",
+      "style_ja": "博多系（ドライブイン発祥）",
+      "style_en": "Hakata-area udon, originating as a roadside drive-in",
+      "bridge_ja": "ウエストのうどんは、ドライブインの複合飲食業態から生まれたもので、博多うどんに連なる福岡のやわらかい麦とだしの系統を、ロードサイドの形で広めたものとされる。",
+      "bridge_en": "West's udon grew out of a roadside drive-in food complex, said to have spread the Fukuoka lineage of soft noodles and dashi connected to Hakata udon in a roadside restaurant format.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "hakata-udon"
+        },
+        {
+          "kind": "item",
+          "slug": "kamaage-udon"
+        }
+      ],
+      "pref_limited": "福岡県",
+      "source_url": "https://www.shop-west.jp/west/",
+      "source_note": "ウエスト 公式サイト 店舗紹介ページ"
+    },
+    {
+      "slug": "sukesan-udon",
+      "name_ja": "資さんうどん",
+      "name_en": "Sukesan Udon — Kitakyushu udon chain known for gobo-ten topping",
+      "genre_slug": "udon",
+      "founded": "1976年1月・福岡県北九州市戸畑区一枝（创業者・大西章資が開業）",
+      "style_ja": "北九州系（ごぼ天）",
+      "style_en": "Kitakyushu-area udon, known for burdock-root tempura topping",
+      "bridge_ja": "資さんうどんのごぼ天うどんは、博多うどんに連なる福岡のやわらかい麦の系統に、北九州で好まれてきたごぼ天という具材を組み合わせたものとされる。",
+      "bridge_en": "Sukesan Udon's gobo-ten (burdock tempura) udon is said to pair the soft-noodle lineage connected to Hakata udon with a burdock-tempura topping long favored in the Kitakyushu area.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "hakata-udon"
+        },
+        {
+          "kind": "item",
+          "slug": "niku-udon"
+        }
+      ],
+      "pref_limited": "福岡県",
+      "source_url": "https://www.sukesanudon.com/history/",
+      "source_note": "資さんうどん 公式サイト「資さんうどんの歴史」ページ"
+    },
+    {
+      "slug": "kineya",
+      "name_ja": "杓屋",
+      "name_en": "Kineya — Japan's first self-styled hand-pounded udon chain",
+      "genre_slug": "udon",
+      "founded": "1971年11月・奈良県奈良市（実演手打ちうどん「杓屋」1号店を奈良ダイエー店として開業。運営は株式会社グルメ杓屋）",
+      "style_ja": "讃岐系・手打ち実演",
+      "style_en": "Sanuki-style, hand-pounded udon made in view of customers",
+      "bridge_ja": "杓屋の実演手打ちうどんは、創業者が香川に通って学んだ讃岐うどんの手打ち製法を、店内で実演する形で全国に広めたものとされる。",
+      "bridge_en": "Kineya's udon, hand-pounded in view of customers, is said to spread the Sanuki udon hand-pounding method that its founder learned by regularly traveling to Kagawa, nationwide, by demonstrating it in-store.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "sanuki"
+        },
+        {
+          "kind": "item",
+          "slug": "teuchi-udon"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.gourmet-kineya-hd.co.jp/company/",
+      "source_note": "株式会社グルメ杓屋 公式サイト 沿革ページ"
+    },
+    {
+      "slug": "yamada-udon",
+      "name_ja": "山田うどん食堂",
+      "name_en": "Yamada Udon Shokudo — Saitama comfort-food udon chain",
+      "genre_slug": "udon",
+      "founded": "1964年・埼玉県（製麦所直営のうどん店として開業。母体の有限会社山田製麦店は1953年9月設立）",
+      "style_ja": "武蔵野系・食堂",
+      "style_en": "Musashino-area udon served in a diner setting",
+      "bridge_ja": "山田うどんの太く弾力のある麦は、埼玉・北関東の農村部で食べられてきた、武蔵野うどんに連なる手打ちの太麦文化を、食堂形式で広めたものとされる。",
+      "bridge_en": "Yamada Udon's thick, chewy noodles are said to spread, in a diner format, the thick hand-made noodle culture connected to Musashino udon, long eaten in farming communities of Saitama and northern Kanto.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "saitama-udon"
+        },
+        {
+          "kind": "item",
+          "slug": "musashino"
+        }
+      ],
+      "pref_limited": "埼玉県",
+      "source_url": "https://www.yamada-udon.co.jp/company/overview",
+      "source_note": "山田うどんWeb（公式）会社概要ページ"
+    },
+    {
+      "slug": "iyo-seimen",
+      "name_ja": "伊予製麦",
+      "name_en": "Iyo Seimen — self-serve Sanuki udon chain",
+      "genre_slug": "udon",
+      "founded": "2015年4月1日・運営会社「株式会社伊予製麦」設立（創業地・1号店の詳細は公式サイトに記載なし）",
+      "style_ja": "讃岐系・セルフ",
+      "style_en": "Sanuki-style, self-serve",
+      "bridge_ja": "伊予製麦の店内製麦・釜湯げは、店名に「伊予」を掛げつつも、丸亀製麦などと同じく讃岐うどんのセルフスタイルを全国に広めた店の一つとされる。",
+      "bridge_en": "Iyo Seimen's in-store noodle making and kamaage service, despite the \"Iyo\" (old Ehime) name, is counted among the chains, alongside Marugame Seimen, that spread the self-serve Sanuki udon style nationwide.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "sanuki"
+        },
+        {
+          "kind": "item",
+          "slug": "kamaage-udon"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.iyoseimen.com/company/",
+      "source_note": "伊予製麦 公式サイト 会社案内ページ"
+    },
+    {
+      "slug": "tsurumaru-udon",
+      "name_ja": "つるまるうどん",
+      "name_en": "Tsurumaru Udon — self-serve Sanuki udon chain from Fujio Food System",
+      "genre_slug": "udon",
+      "founded": "運営は株式会社フジオフードシステム。「つるまるうどん」ブランドとしての創業年・1号店は公式サイトに記載なし",
+      "style_ja": "讃岐系・セルフ",
+      "style_en": "Sanuki-style, self-serve",
+      "bridge_ja": "つるまるうどんの店内製麦・セルフスタイルは、讃岐うどんの製麦所文化を、フードコートや路面店の形で全国に広めるものとされる。",
+      "bridge_en": "Tsurumaru Udon's in-store noodle making and self-serve style are said to bring Sanuki udon's noodle-shop culture nationwide through food-court and street-level locations.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "sanuki"
+        },
+        {
+          "kind": "item",
+          "slug": "zaru-udon"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.tsuru-maru.jp/",
+      "source_note": "つるまるうどん（株式会社フジオフードシステム）公式サイト"
+    },
+    {
+      "slug": "aji-no-mingei",
+      "name_ja": "味の民芸",
+      "name_en": "Aji no Mingei — hand-stretched udon restaurant chain from Okayama",
+      "genre_slug": "udon",
+      "founded": "1976年1月・岡山県（明星食品グループの新業態として1号店を開業。2014年よりサガミホールディングス備下）",
+      "style_ja": "手延べうどん・和食",
+      "style_en": "Hand-stretched (tenobe) udon served with Japanese-style dishes",
+      "bridge_ja": "味の民芸の手延べうどんは、氷見うどんなどに見られる、生地を細く引き延ばして作る手延べ製法のうどん系統を、和食メニューと合わせたファミリーレストランの形で全国に広めたものとされる。",
+      "bridge_en": "Aji no Mingei's hand-stretched udon is said to spread the tenobe (hand-stretched dough) udon lineage, also seen in Himi udon, nationwide in a family-restaurant format paired with Japanese-style dishes.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "tenobe-udon"
+        },
+        {
+          "kind": "item",
+          "slug": "himi"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000417.000031654.html",
+      "source_note": "株式会社サガミホールディングス 公式プレスリリース「創業50周年 味の民芸」（1976年1月・岡山県での1号店開業に基づく）"
+    },
+    {
+      "slug": "sushiro",
+      "name_ja": "スシロー",
+      "name_en": "Sushiro — nationwide kaiten-zushi (conveyor-belt sushi) chain",
+      "genre_slug": "sushi",
+      "founded": "1984年6月・大阪府豊中市（屋号「すし太郎」として1号店を出店。同年10月に法人設立。2000年12月に「株式会社あきんどスシロー」へ商号変更）",
+      "style_ja": "全国規模の回転寿司。均一価格帯の握りを中心とした大量出店型",
+      "style_en": "Nationwide kaiten-zushi chain built around uniform-priced nigiri and large-scale store rollout",
+      "bridge_ja": "スシローは大阪で生まれた回転寿司で、握り寿司という食べ方そのものを均一価格で全国に広めたチェーンの一つとされる。大阪はまた、押し寿司「バッテラ」など別系統の寿司文化を持つ土地でもある。",
+      "bridge_en": "Sushiro began in Osaka and is one of the chains said to have spread nigiri-zushi nationwide at uniform prices. Osaka is also home to a distinct sushi lineage of its own, the pressed mackerel sushi called battera.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "nigiri-zushi"
+        },
+        {
+          "kind": "item",
+          "slug": "battera"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.akindo-sushiro.co.jp/company/outline.php",
+      "source_note": "株式会社あきんどスシロー公式サイト 沿革ページ"
+    },
+    {
+      "slug": "kura-sushi",
+      "name_ja": "くら寿司",
+      "name_en": "Kura Sushi — nationwide kaiten-zushi chain known for additive-free policy",
+      "genre_slug": "sushi",
+      "founded": "1977年5月・大阪府堺市（持ち帰り寿司専門店として創業。1984年に回転寿司業態へ転換）",
+      "style_ja": "全国規模の回転寿司。化学調味料等の不使用を掲げる均一価格帯の握り",
+      "style_en": "Nationwide kaiten-zushi chain serving uniform-priced nigiri under a no-artificial-additive policy",
+      "bridge_ja": "くら寿司は大阪・堺の持ち帰り寿司店から回転寿司へ業態転換して全国へ広がったとされる。大阪には押し寿司「バッテラ」やちらし寿司の系統である「ばらずし」など、握りとは別の寿司文化もある。",
+      "bridge_en": "Kura Sushi grew from a takeout sushi shop in Sakai, Osaka into a nationwide kaiten-zushi chain. Osaka also carries its own sushi lineage distinct from nigiri, including the pressed battera and the scattered-style barazushi.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "nigiri-zushi"
+        },
+        {
+          "kind": "item",
+          "slug": "osaka-barazushi"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.kurasushi.co.jp/company/company/history.php",
+      "source_note": "くら寿司株式会社公式サイト 沿革ページ"
+    },
+    {
+      "slug": "hama-sushi",
+      "name_ja": "はま寿司",
+      "name_en": "Hama Sushi — nationwide kaiten-zushi chain operated by Zensho Group",
+      "genre_slug": "sushi",
+      "founded": "2002年10月・ゼンショー（現ゼンショーホールディングス）が回転寿司事業参入のため株式会社はま寿司を設立（1号店の所在地は公式沿革に記載なし）",
+      "style_ja": "全国規模の回転寿司。ゼンショーグループの大量調達・製造の仕組みを生かした均一価格帯の握り",
+      "style_en": "Nationwide kaiten-zushi chain leveraging Zensho Group's mass-procurement and production system for uniform-priced nigiri",
+      "bridge_ja": "はま寿司の「はま」は、ゼンショー発祥の地とされる横浜の「濱」に由来するとされる。江戸前寿司はもともと東京湾（江戸前）で獲れた魚を握った寿司を指し、横浜もその海域に連なる。",
+      "bridge_en": "Hama Sushi's name is said to reference \"hama\" (濱), evoking Yokohama, where Zensho traces its roots. Edomae-zushi originally referred to nigiri made from fish caught in Tokyo Bay, waters that Yokohama also shares.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "nigiri-zushi"
+        },
+        {
+          "kind": "item",
+          "slug": "edomae-zushi"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.zensho.co.jp/jp/company/history/2001.html",
+      "source_note": "ゼンショーホールディングス公式サイト 沿革ページ（2001-2010年）"
+    },
+    {
+      "slug": "kappa-sushi",
+      "name_ja": "かっぱ寿司",
+      "name_en": "Kappa Sushi — nationwide kaiten-zushi chain born in Nagano",
+      "genre_slug": "sushi",
+      "founded": "創業1973年8月（長野県長野市）、設立1981年11月21日（運営会社カッパ・クリエイト公式サイトの会社概要による。1号店の所在地は同ページに記載なし）",
+      "style_ja": "全国規模の回転寿司。水流でレーンを回す仕組みから名付けられたとされる均一価格帯の握り",
+      "style_en": "Nationwide kaiten-zushi chain, its name said to derive from an early water-driven conveyor system, serving uniform-priced nigiri",
+      "bridge_ja": "かっぱ寿司は長野で生まれた回転寿司とされる。長野には笹の葉で寿司飯を包む「笹ずし」という、握り寿司とは別系統の郷土寿司がある。",
+      "bridge_en": "Kappa Sushi is said to have started in Nagano. Nagano also has its own regional sushi tradition distinct from nigiri: sasa-zushi, sushi rice wrapped in bamboo grass leaves.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "nigiri-zushi"
+        },
+        {
+          "kind": "item",
+          "slug": "nagano-sasa-zushi"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.kappa-create.co.jp/company/profile.html",
+      "source_note": "カッパ・クリエイト株式会社公式サイト 会社概要ページ"
+    },
+    {
+      "slug": "uobei",
+      "name_ja": "魚べい",
+      "name_en": "Uobei — fully automated sushi chain with no rotating conveyor, run by Genki Global Dining Concepts",
+      "genre_slug": "sushi",
+      "founded": "2009年9月・「UOBEI川越店」（埼玉県川越市）を1号店として開業（運営元・元気寿司の後継会社である株式会社Genki Global Dining Concepts公式サイトの沿革による）",
+      "style_ja": "回転レーンを持たず、タッチパネル注文品を高速レーンで席まで届ける均一価格帯の握り",
+      "style_en": "Uniform-priced nigiri chain with no rotating belt — touch-panel orders arrive by high-speed lane instead",
+      "bridge_ja": "魚べいは、栃木県宇都宮市で生まれた元気寿司を母体とするブランドとされる。宇都宮を含む栃木県はかんぴょう（干瓢）の一大産地で、かんぴょう巻きはその代表的な使い道とされる。",
+      "bridge_en": "Uobei is a sister brand built on the foundation of Genki Sushi, which began in Utsunomiya, Tochigi. Tochigi is Japan's leading producer of dried gourd shavings (kanpyo), and the kanpyo maki roll is said to be its signature use.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "nigiri-zushi"
+        },
+        {
+          "kind": "item",
+          "slug": "kanpyo-maki"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.genki-gdc.co.jp/company/history/",
+      "source_note": "株式会社Genki Global Dining Concepts公式サイト 沿革ページ"
+    },
+    {
+      "slug": "genki-sushi",
+      "name_ja": "元気寿司",
+      "name_en": "Genki Sushi — kaiten-zushi chain born in Utsunomiya, Tochigi",
+      "genre_slug": "sushi",
+      "founded": "1968年12月・栃木県宇都宮市（東武宇都宮駅前に1号店を開業。1990年3月に社名を「GENKI SUSHI」へ変更）",
+      "style_ja": "職人による握りを回転レーンで提供する伝統的な回転寿司スタイル",
+      "style_en": "Traditional kaiten-zushi style with hand-formed nigiri served on a rotating conveyor",
+      "bridge_ja": "元気寿司は栃木県宇都宮市で生まれた回転寿司とされる。宇都宮を含む栃木県はかんぴょう（干瓢）の一大産地で、かんぴょう巻きはその代表的な使い道とされる。",
+      "bridge_en": "Genki Sushi began in Utsunomiya, Tochigi. Tochigi is Japan's leading producer of dried gourd shavings (kanpyo), and the kanpyo maki roll is said to be its signature use.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "nigiri-zushi"
+        },
+        {
+          "kind": "item",
+          "slug": "kanpyo-maki"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.genki-gdc.co.jp/company/history/",
+      "source_note": "株式会社Genki Global Dining Concepts公式サイト 沿革ページ"
+    },
+    {
+      "slug": "gatten-sushi",
+      "name_ja": "がってん寿司",
+      "name_en": "Gatten Sushi — \"gourmet\" kaiten-zushi chain born in Saitama",
+      "genre_slug": "sushi",
+      "founded": "1987年11月・埼玉県寄居町（元禄寿司のフランチャイズ1号店として開業。1995年にリニューアルし「がってん寿司」として独立）",
+      "style_ja": "100円均一とは異なる客単価帯で本格的な握りを提供する“グルメ回転寿司”",
+      "style_en": "\"Gourmet\" kaiten-zushi positioned above 100-yen chains, serving higher-grade nigiri at a higher price point",
+      "bridge_ja": "がってん寿司は埼玉県寄居町で元禄寿司のフランチャイズ店として始まり、その後独立したとされる。握り寿司自体は東京湾（江戸前）の魚を握った江戸前寿司の系統に連なる食べ方とされる。",
+      "bridge_en": "Gatten Sushi began as a Genroku Sushi franchise in Yorii, Saitama before becoming independent. Nigiri-zushi itself traces to Edomae-zushi, made from fish of Tokyo Bay.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "nigiri-zushi"
+        },
+        {
+          "kind": "item",
+          "slug": "edomae-zushi"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.rdcgroup.co.jp/company/history/",
+      "source_note": "株式会社アールディーシー（RDC）公式サイト 沿革ページ"
+    },
+    {
+      "slug": "nemuro-hanamaru",
+      "name_ja": "根室花まる",
+      "name_en": "Nemuro Hanamaru — kaiten-zushi chain born in Nemuro, Hokkaido",
+      "genre_slug": "sushi",
+      "founded": "1994年7月29日・北海道根室市花園町（「回転寿司花まる 根室店」として開業）",
+      "style_ja": "北海道根室発の、地元産の魚介にこだわる回転寿司。関東進出後は立ち食い形態の店舗も展開",
+      "style_en": "Kaiten-zushi chain from Nemuro, Hokkaido built around locally caught seafood; later expanded to Kanto with a standing-counter format",
+      "bridge_ja": "根室花まるは道東・根室で生まれた回転寿司とされる。北海道には、魚介を飯とともに漬け込んで発酵させる「飯寿司（いずし）」という、握り寿司とは別系統の郷土寿司がある。",
+      "bridge_en": "Nemuro Hanamaru began in Nemuro, on Hokkaido's eastern coast. Hokkaido also has its own sushi lineage distinct from nigiri: izushi, seafood fermented together with rice.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "nigiri-zushi"
+        },
+        {
+          "kind": "item",
+          "slug": "hokkaido-izushi"
+        }
+      ],
+      "pref_limited": "北海道",
+      "source_url": "https://www.sushi-hanamaru.com/company/about.html",
+      "source_note": "回転寿司 根室花まる公式サイト 会社概要ページ"
+    },
+    {
+      "slug": "kanazawa-maimon-sushi",
+      "name_ja": "金沢まいもん寿司",
+      "name_en": "Kanazawa Maimon Sushi — kaiten-zushi chain born in Kanazawa, Ishikawa",
+      "genre_slug": "sushi",
+      "founded": "1999年4月8日・石川県金沢市八日市（前経営会社から店舗を引き継いで開業。2000年4月に金沢駅西本店を開店）",
+      "style_ja": "石川・金沢発の、地元の魚を使う回転寿司。運営元代表は日本回転寿司協会初代会長",
+      "style_en": "Kaiten-zushi chain from Kanazawa, Ishikawa built around locally sourced fish",
+      "bridge_ja": "金沢まいもん寿司は石川県金沢市で生まれた回転寿司とされる。金沢には、ブリと蕪を米麹で漬け込んで発酵させる「かぶらずし」という、握り寿司とは別系統の郷土寿司がある。",
+      "bridge_en": "Kanazawa Maimon Sushi began in Kanazawa, Ishikawa. Kanazawa also has its own sushi lineage distinct from nigiri: kaburazushi, yellowtail and turnip fermented together with rice malt.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "nigiri-zushi"
+        },
+        {
+          "kind": "item",
+          "slug": "kaburazushi"
+        }
+      ],
+      "pref_limited": "石川県",
+      "source_url": "https://www.maimon-susi.com/about/",
+      "source_note": "金沢まいもん寿司公式サイト 会社概要ページ"
+    },
+    {
+      "slug": "sushi-zanmai",
+      "name_ja": "すしざんまい",
+      "name_en": "Sushi Zanmai — 24-hour standing/counter-style sushi chain from Tsukiji",
+      "genre_slug": "sushi",
+      "founded": "1985年9月・東京都中央区築地で「喜代村」創業。2001年4月18日にすしざんまい本店を築地に開業",
+      "style_ja": "築地・豊洲の魚河岸に根ざした、24時間営業のカウンター・立ち食い形態を含む寿司店チェーン",
+      "style_en": "Chain rooted in the Tsukiji/Toyosu fish market, offering 24-hour counter and standing-sushi formats",
+      "bridge_ja": "すしざんまいは東京・築地の魚河岸を拠点に広がった寿司店とされる。江戸前寿司はもともと東京湾（江戸前）で獲れた魚を握った寿司を指し、築地・豊洲の市場はその流通の拠点にあたる。",
+      "bridge_en": "Sushi Zanmai grew from a base in Tokyo's Tsukiji fish market. Edomae-zushi originally referred to nigiri made from fish caught in Tokyo Bay, and the Tsukiji/Toyosu markets have long been the hub of that trade.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "nigiri-zushi"
+        },
+        {
+          "kind": "item",
+          "slug": "edomae-zushi"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.kiyomura.co.jp/company",
+      "source_note": "株式会社喜代村公式サイト 会社概要ページ"
+    },
+    {
+      "slug": "yoshinoya",
+      "name_ja": "吉野家",
+      "name_en": "Yoshinoya — Japan's oldest nationwide gyudon (beef bowl) chain",
+      "genre_slug": "donburi",
+      "founded": "1899年（明治32年）・東京都日本橋（魚河岸で働く人向けの牛めし屋として創業）",
+      "style_ja": "煮た牛肉とタレを飯にのせる牛丼。均一メニューでの大量出店",
+      "style_en": "Gyudon chain serving simmered beef and sauce over rice, built on a focused menu and wide store network",
+      "bridge_ja": "吉野家は東京・日本橋の魚河岸で働く人々に向けた牛めし屋として始まり、牛丼という食べ方を広めたとされる。",
+      "bridge_en": "Yoshinoya began as a beef-rice shop serving workers at Tokyo's Nihonbashi fish market, and is said to have helped spread the gyudon format.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "gyudon"
+        },
+        {
+          "kind": "item",
+          "slug": "tanindon"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.yoshinoya.com/history/history-01/",
+      "source_note": "吉野家公式サイト「吉野家の歴史」創業期ページ"
+    },
+    {
+      "slug": "matsuya",
+      "name_ja": "松屋",
+      "name_en": "Matsuya — gyudon chain that began as a Chinese diner in Tokyo",
+      "genre_slug": "donburi",
+      "founded": "1966年6月16日・東京都練馬区羽沢（中華飯店「松屋」として開業。1968年7月に牛めし・焼肉定食店「松屋」江古田店を開業）",
+      "style_ja": "券売機での均一メニュー注文が特徴の牛めし（牛丼）チェーン",
+      "style_en": "Gyudon (beef-rice) chain known for its ticket-machine ordering and standardized menu",
+      "bridge_ja": "松屋はもともと東京・練馬で中華飯店として創業し、その後に牛めし・焼肉定食の店へ転換したとされる。中華丼は、その中華料理店としての出自と同じ系統の丼物にあたる。",
+      "bridge_en": "Matsuya began as a Chinese diner in Nerima, Tokyo before shifting to beef-rice and grilled-meat set meals. Chuka-don, a Chinese-style rice bowl, belongs to that same origin.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "gyudon"
+        },
+        {
+          "kind": "item",
+          "slug": "chuka-don"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.matsuyafoods-holdings.co.jp/company/history/",
+      "source_note": "松屋フーズホールディングス公式サイト 沿革ページ"
+    },
+    {
+      "slug": "sukiya",
+      "name_ja": "すき家",
+      "name_en": "Sukiya — nationwide gyudon chain operated by Zensho Group",
+      "genre_slug": "donburi",
+      "founded": "1982年6月・神奈川県横浜市鶴見区でゼンショー（現ゼンショーホールディングス）創業。同年11月にすき家1号店（生麦駅前店）を横浜市鶴見区に開業",
+      "style_ja": "ゼンショーグループの大量調達・製造の仕組みを生かした牛丼チェーン",
+      "style_en": "Gyudon chain leveraging Zensho Group's mass-procurement and production system",
+      "bridge_ja": "すき家は横浜・鶴見で生まれ、牛丼を全国に広めたチェーンの一つとされる。",
+      "bridge_en": "Sukiya began in Tsurumi, Yokohama, and is one of the chains said to have spread gyudon nationwide.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "gyudon"
+        },
+        {
+          "kind": "item",
+          "slug": "oyakodon"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://recruit.sukiya.jp/aboutus/history.html",
+      "source_note": "すき家 新卒採用サイト「すき家の歴史」ページ（運営：ゼンショーホールディングス）"
+    },
+    {
+      "slug": "nakau",
+      "name_ja": "なか卯",
+      "name_en": "Nakau — donburi and Kyoto-style udon chain known for oyakodon",
+      "genre_slug": "donburi",
+      "founded": "1969年10月・大阪府茨木市（手作りうどん店「なか卯茨木店」として1号店を開業）",
+      "style_ja": "親子丼と京風うどんを主力に、牛丼も提供する丼物チェーン",
+      "style_en": "Donburi and Kyoto-style udon chain known especially for oyakodon (chicken-and-egg rice bowl), also serving gyudon",
+      "bridge_ja": "なか卯は大阪府茨木市の手作りうどん店として始まり、親子丼をメニューの柱に育てたとされる。",
+      "bridge_en": "Nakau began as a hand-made udon shop in Ibaraki, Osaka, and is said to have built oyakodon into one of its signature dishes.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "oyakodon"
+        },
+        {
+          "kind": "item",
+          "slug": "gyudon"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.nakau.co.jp/jp/company/enkaku.html",
+      "source_note": "なか卯公式サイト 会社沿革ページ"
+    },
+    {
+      "slug": "tenya",
+      "name_ja": "てんや",
+      "name_en": "Tenya — tempura-rice-bowl (tendon) fast-food chain from Tokyo",
+      "genre_slug": "donburi",
+      "founded": "1989年9月・東京駅八重洲地下街（1号店を出店。運営はテンコーポレーション→現ロイヤルフードサービス）",
+      "style_ja": "独自開発のコンベア式フライヤーで揚げた天ぷらを低価格で提供する天丼専門店",
+      "style_en": "Tendon (tempura rice bowl) specialist chain serving tempura fried on a proprietary conveyor fryer at low prices",
+      "bridge_ja": "てんやは東京駅八重洲地下街で、天丼・天ぷらを手頃な価格のファストフードにすることを目指して始まったとされる。",
+      "bridge_en": "Tenya began in the underground shopping area of Tokyo Station, aiming to turn tendon and tempura into affordable fast food.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "tendon"
+        },
+        {
+          "kind": "item",
+          "slug": "ebiten"
+        },
+        {
+          "kind": "item",
+          "slug": "kakiage"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000281.000071323.html",
+      "source_note": "ロイヤルホールディングス公式プレスリリース（PR TIMES掲載。1989年9月の1号店出店を明記）"
+    },
+    {
+      "slug": "katsuya",
+      "name_ja": "かつや",
+      "name_en": "Katsuya — tonkatsu and katsudon fast-food chain",
+      "genre_slug": "donburi",
+      "founded": "1998年8月・神奈川県相模原市（「かつや相模大野店」を1号店として開業。運営会社アークランドサービスは1993年3月創業）",
+      "style_ja": "とんかつとカツ丼を中心に低価格で提供する専門チェーン",
+      "style_en": "Fast-food chain centered on tonkatsu and katsudon (tonkatsu rice bowl) at low prices",
+      "bridge_ja": "かつやは神奈川県相模原市で生まれたとんかつ専門チェーンとされ、卵とじのカツ丼はとんかつをそのまま丼にした食べ方にあたる。",
+      "bridge_en": "Katsuya began as a tonkatsu specialist chain in Sagamihara, Kanagawa. Katsudon, cutlet simmered with egg over rice, is essentially tonkatsu turned into a rice bowl.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "katsudon"
+        },
+        {
+          "kind": "item",
+          "slug": "tonkatsu"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.arclandservice.co.jp/company/overview/",
+      "source_note": "アークランドサービスホールディングス公式サイト 会社概要ページ"
+    },
+    {
+      "slug": "unatoto",
+      "name_ja": "名代 宇奈とと",
+      "name_en": "Nadai Unatoto — unadon (grilled eel rice bowl) fast-food chain",
+      "genre_slug": "donburi",
+      "founded": "運営会社G-FACTORY株式会社の設立は2003年5月20日（同社公式サイトによる）。「宇奈とと」ブランド自体の創業年・1号店の所在地は同社公式サイトに記載なし",
+      "style_ja": "うなぎの蒲焼を丼にした「うな丼」を専門に、テイクアウト・デリバリーを軸に低価格で提供するチェーン",
+      "style_en": "Fast-food chain specializing in unadon (grilled eel over rice), centered on takeout and delivery at low prices",
+      "bridge_ja": "宇奈ととはうなぎの蒲焼を丼にした「うな丼」を専門に展開するチェーンとされる。鉄火丼は同じく一種類の具を主役に据えた丼物として、うな丼と系統を共有する。",
+      "bridge_en": "Unatoto specializes in unadon, grilled eel served over rice. Tekkadon, tuna over rice, shares the same lineage of a rice bowl built around a single star ingredient.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "unadon"
+        },
+        {
+          "kind": "item",
+          "slug": "tekkadon"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://g-fac.jp/company/",
+      "source_note": "G-FACTORY株式会社公式サイト 企業情報ページ"
+    },
+    {
+      "slug": "tokyo-chikara-meshi",
+      "name_ja": "東京チカラめし",
+      "name_en": "Tokyo Chikarameshi — grilled (not simmered) beef rice bowl chain",
+      "genre_slug": "donburi",
+      "founded": "2011年・東京都豊島区池袋（「東京チカラめし」池袋西口店を1号店として開業。運営は株式会社三光マーケティングフーズ）",
+      "style_ja": "牛肉を煮込まず鉄板で焼いて盛る「焼き牛丼」。牛丼と同じ主材料を別の調理法で提供",
+      "style_en": "\"Grilled beef bowl\" chain that pan-sears beef rather than simmering it, using the same core ingredients as gyudon but a different cooking method",
+      "bridge_ja": "東京チカラめしは東京・池袋で生まれ、牛肉を煮込む一般的な牛丼とは異なり鉄板で焼いて提供する点が特徴とされる。肉を鉄板で焼いて丼にする調理法は、北海道・帯広で生まれた豚丼と同じ系統の焼き物丼にあたる。",
+      "bridge_en": "Tokyo Chikarameshi began in Ikebukuro, Tokyo, and is known for grilling its beef on a griddle rather than simmering it as most gyudon chains do. That grilled-meat-on-rice method places it in the same family as Obihiro's grilled pork bowl, born in Hokkaido.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "gyudon"
+        },
+        {
+          "kind": "item",
+          "slug": "obihiro-butadon"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.sankofoods.com/company/history/",
+      "source_note": "株式会社三光マーケティングフーズ公式サイト 沿革ページ"
+    },
+    {
+      "slug": "hakodate-kantaro",
+      "name_ja": "函館海鮮丼処 函太郎",
+      "name_en": "Hakodate Kaisendon-dokoro Kantaro — seafood rice bowl and kaiten-zushi chain from Hakodate",
+      "genre_slug": "donburi",
+      "founded": "1982年7月・北海道函館市（弁当屋「甚兵衛」として創業）。1998年に「グルメ回転ずし函太郎 宇賀浦本店」を函館市に開業",
+      "style_ja": "函館発の、地元の魚介を使った海鮮丼・回転寿司チェーン",
+      "style_en": "Seafood rice bowl and kaiten-zushi chain from Hakodate built around locally caught seafood",
+      "bridge_ja": "函太郎は北海道函館市の弁当屋を出発点に、海鮮丼と回転寿司を展開してきたとされる。いくら丼はその海鮮丼のうち、北海道で水揚げされる鮭の卵を主役にした一皿にあたる。",
+      "bridge_en": "Kantaro traces back to a bento shop in Hakodate, Hokkaido, and grew into a seafood-bowl and kaiten-zushi chain. Ikura-don, salmon roe over rice, is one such bowl built around a catch closely tied to Hokkaido.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "kaisendon"
+        },
+        {
+          "kind": "item",
+          "slug": "ikura-don"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://recruit.hk-r.jp/company/company.html",
+      "source_note": "株式会社エイチケイアール（函太郎運営会社）採用サイト 会社概要ページ"
+    },
+    {
+      "slug": "tsukiji-shokudo-genchan",
+      "name_ja": "築地食堂源ちゃん",
+      "name_en": "Tsukiji Shokudo Genchan — seafood-diner chain sourced from Tsukiji/Toyosu market",
+      "genre_slug": "donburi",
+      "founded": "2006年・株式会社サイプレスが展開する主力ブランドとして誕生（同社は1993年に居酒屋モデル1号店を東京都台東区元浅草で開業し、翌1994年に法人設立）",
+      "style_ja": "豊洲市場・産直ルートで仕入れた魚介を使う定食・丼物の食堂チェーン",
+      "style_en": "Diner chain serving set meals and rice bowls made from seafood sourced through the Toyosu market and direct routes",
+      "bridge_ja": "築地食堂源ちゃんは東京・築地／豊洲の市場流通を仕入れの軸とする食堂チェーンとされる。鉄火丼はその市場町で親しまれてきた、まぐろを主役にした丼にあたる。",
+      "bridge_en": "Tsukiji Shokudo Genchan is a diner chain built around seafood sourced through Tokyo's Tsukiji/Toyosu market. Tekkadon, tuna over rice, is a bowl long associated with that market district.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "kaisendon"
+        },
+        {
+          "kind": "item",
+          "slug": "tekkadon"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://cyp-saiyo.com/about/history/",
+      "source_note": "株式会社サイプレス採用サイト「サイプレスの歴史」ページ"
+    },
+    {
+      "slug": "tonkatsu-wako",
+      "name_ja": "とんかつ和幸",
+      "name_en": "Tonkatsu Wako — nationwide tonkatsu chain since 1958",
+      "genre_slug": "fried",
+      "founded": "1958年（昭和33年）創業（運営会社・和幸商事公式サイトによる。創業地は同ページに記載なし）",
+      "style_ja": "駅ビル・百貨店を中心に展開する、揚げたてを提供するとんかつ専門店",
+      "style_en": "Tonkatsu specialist chain centered on station buildings and department stores, serving freshly fried cutlets",
+      "bridge_ja": "とんかつ和幸は1958年創業のとんかつ専門店とされる。コロッケも同じ衣揚げの系統に連なる、明治以降に広まった洋食由来の揚げ物にあたる。",
+      "bridge_en": "Tonkatsu Wako has served breaded pork cutlets since 1958. Korokke, a breaded croquette, belongs to the same fried yoshoku (Western-influenced) food family that spread from the Meiji era onward.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "tonkatsu"
+        },
+        {
+          "kind": "item",
+          "slug": "korokke"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "http://www.wako-group.co.jp/recruit/president_message.html",
+      "source_note": "とんかつ和幸（和幸商事株式会社）公式サイト 社長挨拶ページ"
+    },
+    {
+      "slug": "tonkatsu-saboten",
+      "name_ja": "とんかつさぼてん",
+      "name_en": "Tonkatsu Saboten — nationwide tonkatsu chain operated by Green House Foods",
+      "genre_slug": "fried",
+      "founded": "1966年12月・東京都新宿区（とんかつ「さぼてん」新宿店を1号店として開業。運営元グリーンハウスは1947年創業の給食事業が起点）",
+      "style_ja": "百貨店・駅ビルを中心に展開する、揚げたてを提供するとんかつ専門店",
+      "style_en": "Tonkatsu specialist chain centered on department stores and station buildings, serving freshly fried cutlets",
+      "bridge_ja": "とんかつさぼてんは東京・新宿で生まれたとんかつ専門店とされる。カキフライも同じ衣揚げの系統に連なる、明治以降に広まった洋食由来の揚げ物にあたる。",
+      "bridge_en": "Tonkatsu Saboten began in Shinjuku, Tokyo. Kaki-fry (breaded fried oysters) belongs to the same fried yoshoku (Western-influenced) food family that spread from the Meiji era onward.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "tonkatsu"
+        },
+        {
+          "kind": "item",
+          "slug": "kaki-fry"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.greenhouse.co.jp/corporate/history/",
+      "source_note": "株式会社グリーンハウス公式サイト 沿革ページ"
+    },
+    {
+      "slug": "katsukura",
+      "name_ja": "かつくら",
+      "name_en": "Katsukura — tonkatsu chain born in Kyoto",
+      "genre_slug": "fried",
+      "founded": "1994年4月・京都市中京区（「かつくら四条店」を新業態1号店として開業。運営元フクナガは1930年創業）",
+      "style_ja": "京都発、胡麻をすってから食べる作法などで知られるとんかつ専門店",
+      "style_en": "Tonkatsu chain from Kyoto, known for touches such as hand-ground sesame served with the cutlet",
+      "bridge_ja": "かつくらは京都で生まれたとんかつ専門店とされる。コロッケも同じ衣揚げの系統に連なる、明治以降に広まった洋食由来の揚げ物にあたる。",
+      "bridge_en": "Katsukura began in Kyoto as a tonkatsu specialist. Korokke, a breaded croquette, belongs to the same fried yoshoku (Western-influenced) food family that spread from the Meiji era onward.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "tonkatsu"
+        },
+        {
+          "kind": "item",
+          "slug": "korokke"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.fukunaga-tf.com/corporate/history.html",
+      "source_note": "株式会社フクナガ公式サイト 沿革ページ"
+    },
+    {
+      "slug": "matsunoya",
+      "name_ja": "松のや",
+      "name_en": "Matsunoya — low-price tonkatsu specialist chain from Matsuya Foods",
+      "genre_slug": "fried",
+      "founded": "松屋フーズホールディングス公式沿革に、とんかつ専門店「松のや」として2016年10月に100店舗を達成したとの記載あり（ブランド自体の創業年・1号店の記載は同ページになし）",
+      "style_ja": "牛めしの松屋と同じ券売機システムで展開する、低価格帯のとんかつ専門店",
+      "style_en": "Low-price tonkatsu specialist chain run on the same ticket-machine system as gyudon chain Matsuya",
+      "bridge_ja": "松のやは、東京・練馬で牛めし・焼肉定食店として始まった松屋フーズグループが手がけるとんかつ専門店とされる。カツ丼はそのとんかつを丼にした食べ方にあたる。",
+      "bridge_en": "Matsunoya is the tonkatsu specialist brand of Matsuya Foods, whose group began as a beef-rice and grilled-meat diner in Nerima, Tokyo. Katsudon is that same cutlet served as a rice bowl.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "tonkatsu"
+        },
+        {
+          "kind": "item",
+          "slug": "katsudon"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.matsuyafoods-holdings.co.jp/company/history/",
+      "source_note": "松屋フーズホールディングス公式サイト 沿革ページ"
+    },
+    {
+      "slug": "karayama",
+      "name_ja": "からやま",
+      "name_en": "Karayama — karaage (fried chicken) specialist chain from Arcland Service",
+      "genre_slug": "fried",
+      "founded": "2014年12月19日・神奈川県相模原市（からあげ専門店「からやま」1号店を開業。運営はアークランドサービスホールディングス傘下）",
+      "style_ja": "定食・丼形式で提供するからあげ専門チェーン",
+      "style_en": "Karaage (Japanese fried chicken) specialist chain serving it as set meals and rice bowls",
+      "bridge_ja": "からやまは神奈川県相模原市で生まれたからあげ専門チェーンとされる。北海道にはザンギという、からあげとほぼ同じ調理法ながら別の名で呼ばれる郷土の唐揚げがある。",
+      "bridge_en": "Karayama began as a karaage specialist chain in Sagamihara, Kanagawa. Hokkaido has its own regional fried chicken called zangi, made much like karaage but known under a different name.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "karaage"
+        },
+        {
+          "kind": "item",
+          "slug": "zangi"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.arclandservice.co.jp/karayama/",
+      "source_note": "からやま（アークランドサービスホールディングス）公式サイト"
+    },
+    {
+      "slug": "karayoshi",
+      "name_ja": "から好し",
+      "name_en": "Karayoshi — karaage specialist brand attached to Gusto family restaurants",
+      "genre_slug": "fried",
+      "founded": "すかいらーくホールディングス公式プレスリリースに、から揚げ専門店「から好し」のガスト併設店舗が2021年1月時点で600店舗を突破したとの記載あり（ブランド創業年・1号店の記載は同リリースになし）",
+      "style_ja": "ガストに併設して展開するからあげ専門店",
+      "style_en": "Karaage specialist brand co-located inside Gusto family restaurants",
+      "bridge_ja": "から好しはすかいらーくグループが展開するからあげ専門店とされる。宮崎にはタルタルソースをかけたチキン南蛮という、からあげから派生した郷土の鶏料理がある。",
+      "bridge_en": "Karayoshi is a karaage specialist brand run by the Skylark Group. Miyazaki has its own regional chicken dish derived from karaage: chikin nanban, fried chicken topped with tartar sauce.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "karaage"
+        },
+        {
+          "kind": "item",
+          "slug": "chikin-nanban"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000121.000017486.html",
+      "source_note": "株式会社すかいらーくホールディングス公式プレスリリース（PR TIMES掲載）"
+    },
+    {
+      "slug": "torisho",
+      "name_ja": "鶏笑",
+      "name_en": "Torisho — karaage specialist franchise chain",
+      "genre_slug": "fried",
+      "founded": "運営会社・株式会社NIS公式サイトの会社概要による。全国約120店舗以上との記載あり（創業年・1号店の記載は同ページになし。埼玉県さいたま市浦和で2010年に1号店が開業したとする情報もあるが公式沿革では未確認）",
+      "style_ja": "フランチャイズ展開するからあげ専門店",
+      "style_en": "Franchise-driven karaage specialist chain",
+      "bridge_ja": "鶏笑はフランチャイズ形式で全国に広がったからあげ専門店とされる。愛媛にはにんにく・しょうがで下味をつけた骨なしのせんざんきという、からあげから派生した郷土の鶏料理がある。",
+      "bridge_en": "Torisho is a franchise-driven karaage specialist chain. Ehime has its own regional fried chicken derived from karaage: senzanki, boneless chicken marinated in garlic and ginger.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "karaage"
+        },
+        {
+          "kind": "item",
+          "slug": "senzanki"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://nis-torisho.com/company/",
+      "source_note": "からあげ専門店 鶏笑（株式会社NIS）公式サイト 会社概要ページ"
+    },
+    {
+      "slug": "souhonke-moriyama",
+      "name_ja": "中津からあげ 総本家もり山",
+      "name_en": "Nakatsu Karaage Souhonke Moriyama — multi-location karaage chain from Nakatsu, Oita",
+      "genre_slug": "fried",
+      "founded": "1970年（昭和45年）7月・大分県中津市（「森山からあげ店」として創業。現在の店名は「総本家もり山」）",
+      "style_ja": "大分県中津市発、下味をしっかりつけて揚げる「中津からあげ」を看板に全国へ出店するからあげ専門チェーン",
+      "style_en": "Karaage specialist chain from Nakatsu, Oita, built on \"Nakatsu karaage\" — fried chicken well marinated before frying — with locations now nationwide",
+      "bridge_ja": "総本家もり山は、からあげの町として知られる大分県中津市で生まれたからあげ専門店とされる。下味をしっかりつけてから粉をまとわせ揚げる点は、しょうゆと生姜だれで下味をつける竜田揚げとも通じる調理法とされる。",
+      "bridge_en": "Souhonke Moriyama began in Nakatsu, Oita, a town known for its karaage. Marinating the chicken well before dredging and frying echoes the method behind tatsuta-age, fried chicken marinated in soy sauce and ginger.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "karaage"
+        },
+        {
+          "kind": "item",
+          "slug": "tatsuta-age"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://souhonke-moriyama.com/%E4%B8%AD%E6%B4%A5%E3%81%8B%E3%82%89%E3%81%82%E3%81%92%E3%81%AE%E6%AD%B4%E5%8F%B2/",
+      "source_note": "中津からあげ総本家もり山公式サイト「中津からあげの歴史」ページ"
+    },
+    {
+      "slug": "tempura-makino",
+      "name_ja": "天ぷら定食まきの",
+      "name_en": "Tempura Teishoku Makino — freshly-fried tempura set-meal chain from Torikizoku's parent, Toridoll",
+      "genre_slug": "fried",
+      "founded": "2006年・兵庫県加古郡（播磨店を1号店として開業。運営は丸亀製麺と同じ株式会社トリドール）",
+      "style_ja": "客が食べる順に一品ずつ揚げたてを出す、関西中心のてんぷら定食専門店",
+      "style_en": "Tempura set-meal chain centered on Kansai, frying each piece to order in the sequence guests eat it",
+      "bridge_ja": "天ぷら定食まきのは兵庫で生まれ、揚げたての天ぷらを一品ずつ出す形式にこだわるチェーンとされる。えび天やかき揚げは、そのてんぷらのうち特によく食べられる定番の具にあたる。",
+      "bridge_en": "Tempura Teishoku Makino began in Hyogo and is known for insisting on serving each piece of tempura freshly fried. Ebiten (fried shrimp) and kakiage (mixed fritters) are among the most common tempura items it serves.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "tempura"
+        },
+        {
+          "kind": "item",
+          "slug": "ebiten"
+        },
+        {
+          "kind": "item",
+          "slug": "kakiage"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000003.000158425.html",
+      "source_note": "株式会社トリドールジャパン公式プレスリリース（PR TIMES掲載。新宿三井ビル店オープンの案内に沿革を記載）"
+    },
+    {
+      "slug": "kushikatsu-tanaka",
+      "name_ja": "串カツ田中",
+      "name_en": "Kushikatsu Tanaka — kushikatsu (fried skewer) izakaya chain from Tokyo",
+      "genre_slug": "fried",
+      "founded": "2008年12月・東京都世田谷区（直営1号店を開業）",
+      "style_ja": "大阪の串カツ屋のレシピを再現したという、串カツを主力にした大衆的な居酒屋チェーン",
+      "style_en": "Casual izakaya chain built around kushikatsu (breaded, deep-fried skewers), based on a recipe said to trace to an Osaka kushikatsu shop",
+      "bridge_ja": "串カツ田中は東京・世田谷で生まれた串カツ専門の居酒屋チェーンとされ、そのレシピは大阪・西成の串カツ屋のものを再現したとされる。とんかつも同じ衣揚げの系統に連なる、明治以降に広まった洋食由来の揚げ物にあたる。",
+      "bridge_en": "Kushikatsu Tanaka began in Setagaya, Tokyo, as a kushikatsu specialist izakaya chain, its recipe said to be modeled on a kushikatsu shop in Nishinari, Osaka. Tonkatsu belongs to the same fried yoshoku (Western-influenced) food family that spread from the Meiji era onward.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "kushikatsu"
+        },
+        {
+          "kind": "item",
+          "slug": "tonkatsu"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://unisia.co.jp/about/company/",
+      "source_note": "串カツ田中ホールディングス（現ユニシア）公式サイト 会社概要・沿革ページ"
+    },
+    {
+      "slug": "gyukaku",
+      "name_ja": "牛角",
+      "name_en": "Gyukaku — casual yakiniku chain nationwide",
+      "genre_slug": "wagyu",
+      "founded": "1996年1月・東京都世田谷区三軒茶屋（1号店。運営会社は現在の株式会社レインズインターナショナル）",
+      "style_ja": "大衆焼肉。カルビ・ハラミなど定番部位を手頃な価格で幅広く提供",
+      "style_en": "Casual yakiniku chain offering a wide range of staple cuts like kalbi and harami at accessible prices",
+      "bridge_ja": "牛角の大衆的な焼肉スタイルは、カルビ・ハラミなど定番部位を手頃な価格で楽しむ、焼肉の大衆化の流れを汲むとされる。",
+      "bridge_en": "Gyukaku's casual style reflects the broader trend of yakiniku becoming an everyday, affordable meal built around staple cuts like kalbi and harami.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "beef-short-rib"
+        },
+        {
+          "kind": "item",
+          "slug": "harami"
+        },
+        {
+          "kind": "item",
+          "slug": "gyutan"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.reins.co.jp/fc/brand/gyukaku/",
+      "source_note": "株式会社レインズインターナショナル公式サイト 牛角ブランド紹介ページ"
+    },
+    {
+      "slug": "yakiniku-king",
+      "name_ja": "焼肉きんぐ",
+      "name_en": "Yakiniku King — all-you-can-eat yakiniku chain",
+      "genre_slug": "wagyu",
+      "founded": "2007年3月・石川県野々市市（1号店。運営は株式会社物語コーポレーション）",
+      "style_ja": "食べ放題形式。カルビ・サーロイン・ハラミなど幅広い部位を食べ比べられる構成",
+      "style_en": "All-you-can-eat yakiniku with a wide range of cuts from kalbi to sirloin and harami",
+      "bridge_ja": "焼肉きんぐの食べ放題形式は、カルビ・サーロイン・ハラミなど幅広い部位を気兼ねなく食べ比べられる構成とされる。",
+      "bridge_en": "Yakiniku King's all-you-can-eat format is built around a wide range of cuts — from kalbi to sirloin and harami — meant for easy side-by-side tasting.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "beef-short-rib"
+        },
+        {
+          "kind": "item",
+          "slug": "sirloin"
+        },
+        {
+          "kind": "item",
+          "slug": "harami"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.monogatari.co.jp/company/history/",
+      "source_note": "株式会社物語コーポレーション公式サイト 沿革ページ（1号店の出店年月・所在地を明記）"
+    },
+    {
+      "slug": "anrakutei",
+      "name_ja": "安楽亭",
+      "name_en": "Anrakutei — casual yakiniku chain from Saitama",
+      "genre_slug": "wagyu",
+      "founded": "1978年（昭和53年）11月・埼玉県川口市（株式会社安楽亭設立。個人創業は1963年ともされるが公式沿革ページに記載なし）",
+      "style_ja": "大衆焼肉。関東地盤でカルビ・ハラミ・タンなど定番部位を中心に展開",
+      "style_en": "Casual yakiniku chain rooted in the Kanto region, centered on staple cuts like kalbi, harami and tongue",
+      "bridge_ja": "安楽亭の焼肉は、カルビ・ハラミ・タンなど定番部位を中心に、関東で育った大衆焼肉の系統に連なるとされる。",
+      "bridge_en": "Anrakutei's menu centers on staple cuts like kalbi, harami and tongue, part of the everyday yakiniku culture that grew across the Kanto region.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "beef-short-rib"
+        },
+        {
+          "kind": "item",
+          "slug": "harami"
+        },
+        {
+          "kind": "item",
+          "slug": "gyutan"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.anrakutei.co.jp/company/history.html",
+      "source_note": "株式会社安楽亭公式サイト 沿革ページ"
+    },
+    {
+      "slug": "amiyakitei",
+      "name_ja": "あみやき亭",
+      "name_en": "Amiyaki Tei — Tokai-region yakiniku chain known for domestic beef",
+      "genre_slug": "wagyu",
+      "founded": "1995年6月22日・愛知県春日井市（株式会社あみやき亭設立。1号店は同年7月に春日井市で開業）",
+      "style_ja": "国産牛にこだわる東海地盤の焼肉チェーン",
+      "style_en": "Tokai-region yakiniku chain built around domestic beef",
+      "bridge_ja": "あみやき亭は国産牛へのこだわりを掲げ、東海地方で育った焼肉チェーンの系統にあたり、三河牛など地元の銘柄牛ともつながりが深いとされる。",
+      "bridge_en": "Amiyaki Tei built its name on domestic beef and grew out of the Tokai region's yakiniku culture, with close ties to local wagyu brands like Mikawa beef.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "rib-roast"
+        },
+        {
+          "kind": "item",
+          "slug": "sirloin"
+        },
+        {
+          "kind": "item",
+          "slug": "mikawa-gyu"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://amiyakitei.co.jp/corporate/outline/",
+      "source_note": "株式会社あみやき亭公式サイト 企業情報・会社概要ページ（設立年月日・所在地を明記）"
+    },
+    {
+      "slug": "jojoen",
+      "name_ja": "叙々苑",
+      "name_en": "Jojoen — upscale yakiniku chain from Roppongi, Tokyo",
+      "genre_slug": "wagyu",
+      "founded": "1976年4月・東京都港区六本木（1号店。会社設立は1984年4月）",
+      "style_ja": "高級焼肉。タン塩を含む上質な部位を少量ずつ味わう構成",
+      "style_en": "Upscale yakiniku chain serving small portions of premium cuts, including salted tongue",
+      "bridge_ja": "叙々苑のタン塩は、焼肉店でタンをメニュー化する提供様式を広めたとされ、上質な部位を少量ずつ味わう高級焼肉の系統にあたる。",
+      "bridge_en": "Jojoen's salted tongue helped spread the practice of putting tongue on the yakiniku menu, and the restaurant sits within the upscale end of yakiniku built around small servings of premium cuts.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "gyutan"
+        },
+        {
+          "kind": "item",
+          "slug": "rib-roast"
+        },
+        {
+          "kind": "item",
+          "slug": "kobe-beef"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.jojoen.co.jp/corp/",
+      "source_note": "叙々苑公式サイト 沿革・会社情報ページ（創業年月・店舗数を明記。直営77店舗は北海道〜沖縄の広域展開）"
+    },
+    {
+      "slug": "yakiniku-like",
+      "name_ja": "焼肉ライク",
+      "name_en": "Yakiniku Like — one-person yakiniku fast-food chain",
+      "genre_slug": "wagyu",
+      "founded": "2018年8月・東京都港区新橋（1号店。1人1台の無煙ロースターを備えた一人焼肉業態）",
+      "style_ja": "一人焼肉のファストフード業態",
+      "style_en": "Fast-food-style yakiniku designed for solo diners, one smokeless grill per person",
+      "bridge_ja": "焼肉ライクは1人1台の無煙ロースターで、カルビ・ハラミなど定番部位を1人でも気軽に楽しめる構成にしたとされる。",
+      "bridge_en": "Yakiniku Like gives each diner a personal smokeless grill, making staple cuts like kalbi and harami easy to enjoy solo.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "beef-short-rib"
+        },
+        {
+          "kind": "item",
+          "slug": "harami"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://yakiniku-like.com/company.html",
+      "source_note": "焼肉ライク公式サイト 運営会社情報ページ"
+    },
+    {
+      "slug": "ikinari-steak",
+      "name_ja": "いきなり！ステーキ",
+      "name_en": "Ikinari Steak — stand-and-eat, pay-by-weight steak chain",
+      "genre_slug": "wagyu",
+      "founded": "2013年12月・東京都中央区銀座（1号店。運営は株式会社ペッパーフードサービス）",
+      "style_ja": "立ち食い・量り売りの厚切りステーキ業態",
+      "style_en": "Stand-and-eat steakhouse chain selling thick-cut steaks by weight",
+      "bridge_ja": "いきなり！ステーキは、立ち食い・量り売りという形式でサーロインやヒレなど厚切りステーキを気軽に楽しめるようにしたとされる。",
+      "bridge_en": "Ikinari Steak's stand-and-eat, pay-by-weight format made thick-cut steaks like sirloin and tenderloin an easy, casual order.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "sirloin"
+        },
+        {
+          "kind": "item",
+          "slug": "beef-tenderloin"
+        },
+        {
+          "kind": "item",
+          "slug": "rib-roast"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.pepper-fs.co.jp/corpinfo/history.php",
+      "source_note": "株式会社ペッパーフードサービス公式サイト 沿革ページ"
+    },
+    {
+      "slug": "bronco-billy",
+      "name_ja": "ブロンコビリー",
+      "name_en": "Bronco Billy — suburban steakhouse chain from Nagoya",
+      "genre_slug": "wagyu",
+      "founded": "1978年6月・愛知県名古屋市北区（ステーキハウス『ブロンコ』として創業。1983年12月に株式会社ブロンコへ法人改組）",
+      "style_ja": "和牛にこだわる郊外型ステーキハウス",
+      "style_en": "Suburban steakhouse chain built around wagyu",
+      "bridge_ja": "ブロンコビリーは和牛にこだわる郊外型ステーキハウスで、名古屋・東海地方の牛肉文化と地続きの味づくりとされる。",
+      "bridge_en": "Bronco Billy is a suburban steakhouse built around wagyu, rooted in the beef culture of Nagoya and the Tokai region.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "sirloin"
+        },
+        {
+          "kind": "item",
+          "slug": "rib-roast"
+        },
+        {
+          "kind": "item",
+          "slug": "mikawa-gyu"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.bronco.co.jp/corporate/about/history/",
+      "source_note": "株式会社ブロンコビリー公式サイト 沿革ページ"
+    },
+    {
+      "slug": "shabuyo",
+      "name_ja": "しゃぶ葉",
+      "name_en": "Shabu-Yo — all-you-can-eat shabu-shabu buffet chain",
+      "genre_slug": "hotpot",
+      "founded": "2007年5月・神奈川県横浜市（横浜店を1号店として開業。運営はすかいらーくグループ）",
+      "style_ja": "しゃぶしゃぶ食べ放題（ブッフェ）業態",
+      "style_en": "All-you-can-eat shabu-shabu buffet chain",
+      "bridge_ja": "しゃぶ葉のしゃぶしゃぶブッフェは、牛肉をすき焼きや牛鍋と同じ鍋料理の系統として気軽に楽しめる形にしたものとされる。",
+      "bridge_en": "Shabu-Yo's shabu-shabu buffet offers beef in the same hotpot lineage as sukiyaki and gyunabe, in an easy, all-you-can-eat format.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "sukiyaki"
+        },
+        {
+          "kind": "item",
+          "slug": "gyu-nabe"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://corp.skylark.co.jp/about/history/",
+      "source_note": "すかいらーくホールディングス公式サイト 歴史・沿革ページ（しゃぶ葉1号店の出店年月・所在地を明記）"
+    },
+    {
+      "slug": "kisoji",
+      "name_ja": "木曽路",
+      "name_en": "Kisoji — upscale shabu-shabu and sukiyaki chain from Nagoya",
+      "genre_slug": "hotpot",
+      "founded": "1966年9月・愛知県名古屋市中区南瓦町（民芸風しゃぶしゃぶ『木曽路』瓦町店を1号店として開業。運営会社の設立は1952年9月）",
+      "style_ja": "和牛を用いた高級しゃぶしゃぶ・すき焼き",
+      "style_en": "Upscale shabu-shabu and sukiyaki chain using wagyu",
+      "bridge_ja": "木曽路のしゃぶしゃぶ・すき焼きは、和牛を用いた鍋料理を家庭より少し特別な形で提供する、名古屋発の系統とされる。",
+      "bridge_en": "Kisoji's shabu-shabu and sukiyaki serve wagyu in a hotpot style that grew out of Nagoya, offering a slightly more special take on home-style nabe cooking.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "sukiyaki"
+        },
+        {
+          "kind": "item",
+          "slug": "gyu-nabe"
+        },
+        {
+          "kind": "item",
+          "slug": "mikawa-gyu"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.kisoji.co.jp/company/history.html",
+      "source_note": "株式会社木曽路公式サイト 沿革ページ（1966年昭和41年の瓦町店開業を明記）"
+    },
+    {
+      "slug": "onyasai",
+      "name_ja": "しゃぶしゃぶ温野菜",
+      "name_en": "Onyasai — casual shabu-shabu chain",
+      "genre_slug": "hotpot",
+      "founded": "2000年3月・東京都世田谷区経堂（1号店。運営は株式会社レインズインターナショナル）",
+      "style_ja": "気軽な価格帯で楽しめるしゃぶしゃぶチェーン",
+      "style_en": "Casual, affordable shabu-shabu chain",
+      "bridge_ja": "しゃぶしゃぶ温野菜は、しゃぶしゃぶをより気軽な価格帯で楽しめる業態にしたチェーンで、すき焼き・牛鍋と並ぶ牛肉鍋料理の系統にあたる。",
+      "bridge_en": "Onyasai brought shabu-shabu into a more affordable, casual price range, sitting within the same beef-hotpot lineage as sukiyaki and gyunabe.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "sukiyaki"
+        },
+        {
+          "kind": "item",
+          "slug": "gyu-nabe"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.reins.co.jp/fc/brand/onyasai/",
+      "source_note": "株式会社レインズインターナショナル公式サイト しゃぶしゃぶ温野菜ブランド紹介ページ（1号店の開業年月・所在地を明記）"
+    },
+    {
+      "slug": "tajimaya-shabu",
+      "name_ja": "しゃぶしゃぶ但馬屋",
+      "name_en": "Shabu-shabu Tajimaya — all-you-can-eat shabu-shabu, sukiyaki and yakiniku chain from Osaka",
+      "genre_slug": "hotpot",
+      "founded": "1970年4月・大阪府大阪市（屋号『藤屋』として創業。1996年に炭火焼肉『但馬屋』を開設し、1998年に法人化）",
+      "style_ja": "肉屋直営で、しゃぶしゃぶ・すき焼き・焼肉を食べ放題で提供",
+      "style_en": "Butcher-run all-you-can-eat chain serving shabu-shabu, sukiyaki and yakiniku",
+      "bridge_ja": "しゃぶしゃぶ但馬屋は、肉屋直営でしゃぶしゃぶ・すき焼き・焼肉を食べ放題にした形態で、関西の食べ放題焼肉・鍋文化に連なるとされる。",
+      "bridge_en": "Shabu-shabu Tajimaya, run directly by a butcher, offers shabu-shabu, sukiyaki and yakiniku all-you-can-eat — part of the Kansai region's all-you-can-eat hotpot and grill culture.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "sukiyaki"
+        },
+        {
+          "kind": "item",
+          "slug": "beef-short-rib"
+        }
+      ],
+      "pref_limited": "大阪府",
+      "source_url": "https://www.gyushin.co.jp/",
+      "source_note": "但馬屋運営会社・株式会社牛心公式サイト（創業年・沿革を掲載。現在は関西圏に8店舗展開のため地域限定チェーンとして扱う）"
+    },
+    {
+      "slug": "kanidoraku",
+      "name_ja": "かに道楽",
+      "name_en": "Kanidoraku — crab specialty restaurant chain from Osaka",
+      "genre_slug": "hotpot",
+      "founded": "1960年2月11日・鳥取県（山陰の魚介料理店『千石船』として創業。1962年2月1日に『かに道楽』道頓堀本店を大阪に開業）",
+      "style_ja": "カニ料理専門店。鍋・焼き物など各地のカニを様々な調理で提供",
+      "style_en": "Crab specialty restaurant chain serving regional crabs in hotpots and grilled preparations",
+      "bridge_ja": "かに道楽はカニ料理専門店で、ズワイガニ・タラバガニなど各地のカニを鍋や焼き物として提供する系統にあたる。",
+      "bridge_en": "Kanidoraku specializes in crab dishes, serving regional crabs like snow crab and king crab in hotpots and grilled preparations.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "zuwaigani"
+        },
+        {
+          "kind": "item",
+          "slug": "tarabagani"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://douraku.co.jp/company/history.html",
+      "source_note": "株式会社かに道楽公式サイト 企業の歩み（沿革）ページ"
+    },
+    {
+      "slug": "yamaya-motsunabe",
+      "name_ja": "博多もつ鍋やまや",
+      "name_en": "Hakata Motsunabe Yamaya — Hakata-style beef offal hotpot chain",
+      "genre_slug": "hotpot",
+      "founded": "2006年9月・東京都江東区東陽（『博多もつ鍋やまや』東陽店を1号店として開業。運営は株式会社やまやコミュニケーションズ）",
+      "style_ja": "牛の小腸・大腸を使った博多もつ鍋の専門チェーン",
+      "style_en": "Chain specializing in Hakata-style motsunabe made with beef small and large intestine",
+      "bridge_ja": "博多もつ鍋やまやは、牛の小腸・大腸を使った博多のもつ鍋を専門にするチェーンで、牛の内臓を活かす食文化の系統にあたる。",
+      "bridge_en": "Hakata Motsunabe Yamaya specializes in Hakata-style motsunabe made with beef small and large intestine, part of the food culture built around using beef offal.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "marucho"
+        },
+        {
+          "kind": "item",
+          "slug": "shimacho"
+        },
+        {
+          "kind": "item",
+          "slug": "gyu-nabe"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.yamaya.com/company/history/",
+      "source_note": "やまやコミュニケーションズ公式サイト 歴史・沿革ページ（もつ鍋やまや1号店の開業年月・所在地を明記）"
+    },
+    {
+      "slug": "ootoya",
+      "name_ja": "大戸屋",
+      "name_en": "Ootoya — home-style Japanese set-meal (teishoku) chain",
+      "genre_slug": "homestyle",
+      "founded": "1958年1月・東京都豊島区池袋（『大戸屋食堂』1号店。創業者は三森栄一）",
+      "style_ja": "手作りにこだわる和食定食チェーン",
+      "style_en": "Teishoku chain built on made-to-order, home-style cooking",
+      "bridge_ja": "大戸屋は手作りにこだわる定食チェーンで、焼き魚・煮魚やカレーなど家庭料理の系統を店で再現する形とされる。",
+      "bridge_en": "Ootoya is a teishoku chain built on made-to-order cooking, recreating home-style dishes like grilled and simmered fish and curry in a restaurant setting.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "curry-rice"
+        },
+        {
+          "kind": "item",
+          "slug": "yakisaba-no-nitsuke"
+        },
+        {
+          "kind": "item",
+          "slug": "nikudofu"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.ootoya.jp/corporate/history.html",
+      "source_note": "株式会社大戸屋ホールディングス公式サイト 沿革ページ"
+    },
+    {
+      "slug": "yayoiken",
+      "name_ja": "やよい軒",
+      "name_en": "Yayoiken — teishoku chain known for free rice refills",
+      "genre_slug": "homestyle",
+      "founded": "1989年12月・福岡市博多区（前身『めしや丼』1号店。2006年7月に屋号を『やよい軒』へ変更）",
+      "style_ja": "ご飯おかわり自由の定食チェーン",
+      "style_en": "Teishoku chain with free rice refills",
+      "bridge_ja": "やよい軒はご飯おかわり自由の定食チェーンで、家庭料理を手頃な価格で食べ比べられる系統とされる。",
+      "bridge_en": "Yayoiken is a teishoku chain with free rice refills, offering an accessible way to sample home-style Japanese dishes.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "curry-rice"
+        },
+        {
+          "kind": "item",
+          "slug": "nikudofu"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.plenus.co.jp/company/history.html",
+      "source_note": "株式会社プレナス公式サイト 沿革ページ（『めしや丼』1号店の開店年月・所在地、『やよい軒』への改称年月を明記）"
+    },
+    {
+      "slug": "maido-ookini-shokudo",
+      "name_ja": "まいどおおきに食堂",
+      "name_en": "Maido Ookini Shokudo — self-serve side-dish cafeteria chain from Osaka",
+      "genre_slug": "homestyle",
+      "founded": "1988年7月・大阪府大阪市（『森町食堂』1号店。運営は株式会社フジオフードシステム）",
+      "style_ja": "煮物・和え物などの惣菜を自分で選ぶセルフ形式の食堂",
+      "style_en": "Self-serve cafeteria chain where diners choose their own simmered and dressed side dishes",
+      "bridge_ja": "まいどおおきに食堂は、煮物や和え物など惣菜を自分で選ぶセルフ形式の食堂で、大阪の惣菜文化の系統にあたるとされる。",
+      "bridge_en": "Maido Ookini Shokudo lets diners choose their own simmered and dressed side dishes cafeteria-style, part of Osaka's home-style side-dish culture.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "nishime"
+        },
+        {
+          "kind": "item",
+          "slug": "kinpira"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.shokudo.jp/about/",
+      "source_note": "まいどおおきに食堂公式サイト（運営：株式会社フジオフードシステム）紹介ページ"
+    },
+    {
+      "slug": "machikadoya",
+      "name_ja": "街かど屋",
+      "name_en": "Machikadoya — donburi and teishoku fast-food chain",
+      "genre_slug": "homestyle",
+      "founded": "2005年1月・京都府京都市（既存の『ザめしや24』烏丸五条店を業態転換して街かど屋1号店とする。運営は株式会社ライフフーズ）",
+      "style_ja": "丼物・定食にメニューを絞ったファーストフード型の和風食堂",
+      "style_en": "Fast-food-style Japanese diner focused on rice bowls and teishoku",
+      "bridge_ja": "街かど屋は丼物・定食にメニューを絞ったファーストフード型の和風食堂で、家庭料理を短時間で食べられる系統とされる。",
+      "bridge_en": "Machikadoya is a fast-food-style Japanese diner focused on rice bowls and teishoku, offering home-style dishes quickly.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "nikudofu"
+        },
+        {
+          "kind": "item",
+          "slug": "curry-rice"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.meshiya.co.jp/ir/management/enkaku.html",
+      "source_note": "株式会社ライフフーズ公式サイト IR情報 沿革ページ（関西・中部地区中心に88店舗展開、九州進出等の記載あり）"
+    },
+    {
+      "slug": "miyamoto-munashi",
+      "name_ja": "宮本むなし",
+      "name_en": "Miyamoto Munashi — teishoku chain known for all-you-can-eat rice",
+      "genre_slug": "homestyle",
+      "founded": "2003年・兵庫県尼崎市（1号店とされる。運営会社は合併を経て現在M&Sフードサービス株式会社。公式サイトに1号店の詳細な開業日の記載なし）",
+      "style_ja": "ご飯食べ放題を掲げる定食チェーン",
+      "style_en": "Teishoku chain built around all-you-can-eat rice",
+      "bridge_ja": "宮本むなしはご飯食べ放題を掲げる定食チェーンで、手頃な価格で家庭料理を組み合わせて楽しめる系統とされる。",
+      "bridge_en": "Miyamoto Munashi is a teishoku chain built around all-you-can-eat rice, combining home-style dishes at an accessible price.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "curry-rice"
+        },
+        {
+          "kind": "item",
+          "slug": "nikudofu"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://m-munashi.com/pages/msf",
+      "source_note": "宮本むなし-M&Sフードサービス公式サイト 会社概要ページ"
+    },
+    {
+      "slug": "unagi-no-naruse",
+      "name_ja": "鰻の成瀬",
+      "name_en": "Unagi no Naruse — affordable eel (unagi) specialty chain",
+      "genre_slug": "homestyle",
+      "founded": "2022年9月・神奈川県横浜市（1号店。運営はフランチャイズビジネスインキュベーション株式会社）",
+      "style_ja": "低価格帯のうなぎ専門チェーン",
+      "style_en": "Affordable eel (unagi) specialty chain",
+      "bridge_ja": "鰻の成瀬は、うなぎを手頃な価格で専門的に提供するチェーンで、各地で育まれたうなぎ料理の系統に連なるとされる。",
+      "bridge_en": "Unagi no Naruse specializes in affordable eel, part of the broader tradition of unagi cooking that developed across the country.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "unagi"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://unagi-naruse.com/about",
+      "source_note": "鰻の成瀬公式サイト ブランド紹介ページ（運営：フランチャイズビジネスインキュベーション株式会社）"
+    },
+    {
+      "slug": "omusubi-gonbei",
+      "name_ja": "おむすび権米衛",
+      "name_en": "Omusubi Gonbei — hand-made onigiri specialty chain",
+      "genre_slug": "homestyle",
+      "founded": "1999年12月・東京都品川区大崎（『おむすび権米衛』1号店・大崎ニューシティ店。運営は株式会社イワイ）",
+      "style_ja": "契約栽培米を使い手作りでおにぎりを握る専門店",
+      "style_en": "Specialty chain hand-shaping onigiri from contract-grown rice",
+      "bridge_ja": "おむすび権米衛は契約栽培米を使い手作りでおにぎりを握るチェーンで、ご飯を主役にした軽食文化の系統にあたる。",
+      "bridge_en": "Omusubi Gonbei hand-shapes onigiri from contract-grown rice, part of the broader culture of rice-centered snacks.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "bakudan-onigiri"
+        },
+        {
+          "kind": "item",
+          "slug": "wakame-musubi"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.omusubi-gonbei.com/company/history/",
+      "source_note": "おむすび権米衛公式サイト 沿革ページ（1号店の開業年月・所在地を明記）"
+    },
+    {
+      "slug": "isomaru-suisan",
+      "name_ja": "磯丸水産",
+      "name_en": "Isomaru Suisan — seafood izakaya chain, some locations open 24 hours",
+      "genre_slug": "fish",
+      "founded": "2009年・東京都武蔵野市吉祥寺（1号店。運営は当初SFPホールディングスで、2026年7月に親会社クリエイト・レストランツ・ホールディングスへ吸収合併。公式沿革ページに開業月日の記載なし）",
+      "style_ja": "鮮魚・貝類を炭火焼きや刺身で提供する海鮮居酒屋。一部店舗は24時間営業",
+      "style_en": "Seafood izakaya chain serving charcoal-grilled and raw seafood, with some locations open 24 hours",
+      "bridge_ja": "磯丸水産は鮮魚・貝類を炭火焼きや刺身で提供する海鮮居酒屋で、各地の漁港と結びついた魚介の系統にあたるとされる。",
+      "bridge_en": "Isomaru Suisan serves grilled and raw seafood at an izakaya, part of the food culture tied to fishing ports around the country.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "katsuo"
+        },
+        {
+          "kind": "item",
+          "slug": "hotate"
+        },
+        {
+          "kind": "item",
+          "slug": "katsuo-no-tataki"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.createrestaurants.com/company/history/",
+      "source_note": "クリエイト・レストランツ・ホールディングス公式サイト 沿革ページ（磯丸水産を展開したSFPホールディングスの2026年グループ入りを明記。1号店の開業年は複数の報道で2009年・吉祥寺と確認）"
+    },
+    {
+      "slug": "sakanaya-dojo",
+      "name_ja": "さかなや道場",
+      "name_en": "Sakanaya Dojo — tuna and seafood izakaya chain with private rooms",
+      "genre_slug": "fish",
+      "founded": "2006年9月・東京都墨田区両国（1号店。運営はチムニー株式会社）",
+      "style_ja": "個室中心。マグロや旬の鮮魚を扱う居酒屋",
+      "style_en": "Private-room izakaya chain built around tuna and seasonal seafood",
+      "bridge_ja": "さかなや道場はマグロや旬の鮮魚を中心にした個室居酒屋で、産地と結びついた魚介料理の系統に連なるとされる。",
+      "bridge_en": "Sakanaya Dojo is a private-room izakaya built around tuna and seasonal seafood, part of the food culture tied to fishing regions.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "katsuo"
+        },
+        {
+          "kind": "item",
+          "slug": "hotate"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.chimney.co.jp/company/history/",
+      "source_note": "チムニー株式会社公式サイト 会社沿革ページ（さかなや道場1号店の開業年月・所在地を明記）"
+    },
+    {
+      "slug": "uokin",
+      "name_ja": "魚金",
+      "name_en": "Uokin — seafood-market-style izakaya chain from Shimbashi, Tokyo",
+      "genre_slug": "fish",
+      "founded": "1995年4月・東京都港区新橋（魚金本店。会社設立は1994年6月10日）",
+      "style_ja": "魚屋直営で、鮮魚を豪快な盛りの刺身・焼き魚で提供する居酒屋",
+      "style_en": "Fishmonger-run izakaya chain serving generously portioned sashimi and grilled fish",
+      "bridge_ja": "魚金は魚屋直営の居酒屋で、豪快な盛りの刺身や焼き魚が、産地と結びついた魚介料理の系統に連なるとされる。",
+      "bridge_en": "Uokin, run directly by a fishmonger, serves generously portioned sashimi and grilled fish tied to the seafood culture of its sourcing regions.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "saba"
+        },
+        {
+          "kind": "item",
+          "slug": "buri"
+        },
+        {
+          "kind": "item",
+          "slug": "katsuo-no-tataki"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://uokingroup.jp/pages/history",
+      "source_note": "株式会社魚金公式サイト 沿革・歴史ページ"
+    },
+    {
+      "slug": "hananomai",
+      "name_ja": "はなの舞",
+      "name_en": "Hananomai — sushi and seafood izakaya chain",
+      "genre_slug": "fish",
+      "founded": "1995年1月・東京都中央区京橋（1号店。運営はチムニー株式会社）",
+      "style_ja": "寿司と海鮮を中心にした居酒屋",
+      "style_en": "Izakaya chain centered on sushi and seafood",
+      "bridge_ja": "はなの舞は寿司と海鮮を中心にした居酒屋で、各地の漁港から届く鮮魚と結びついた食文化の系統にあたるとされる。",
+      "bridge_en": "Hananomai centers its menu on sushi and seafood, part of the food culture connected to fish landed at ports around the country.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "katsuo"
+        },
+        {
+          "kind": "item",
+          "slug": "hotate"
+        },
+        {
+          "kind": "item",
+          "slug": "hotaru-ika"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.chimney.co.jp/company/history/",
+      "source_note": "チムニー株式会社公式サイト 会社沿革ページ（はなの舞1号店の開業年月・所在地を明記）"
+    },
+    {
+      "slug": "saryo-tsujiri",
+      "name_ja": "茶寮都路里",
+      "name_en": "Saryo Tsujiri — Uji-matcha sweets café from Gion, Kyoto",
+      "genre_slug": "wagashi",
+      "founded": "1978年・京都府京都市東山区祇園（『祇園辻利』が営む甘味処として開業。祇園辻利自体の創業は1860年・宇治）",
+      "style_ja": "宇治抹茶を使った甘味処。パフェ・白玉など",
+      "style_en": "Sweets café built around Uji matcha, serving parfaits and shiratama sweets",
+      "bridge_ja": "茶寮都路里は宇治茶の老舗・祇園辻利が営む甘味処で、宇治の抹茶文化を店の形で伝えるものとされる。",
+      "bridge_en": "Saryo Tsujiri is a sweets café run by the long-established Uji tea merchant Gion Tsujiri, carrying Uji's matcha culture into a café format.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "matcha"
+        },
+        {
+          "kind": "item",
+          "slug": "uji-cha"
+        },
+        {
+          "kind": "item",
+          "slug": "kuzukiri"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.giontsujiri.co.jp/aboutus/history/",
+      "source_note": "祇園辻利・茶寮都路里公式サイト「私たちについて」歴史ページ"
+    },
+    {
+      "slug": "funabashiya",
+      "name_ja": "船橋屋",
+      "name_en": "Funabashiya — fermented kuzumochi specialty shop from Kameido, Tokyo",
+      "genre_slug": "wagashi",
+      "founded": "1805年（文化2年）・東京都江東区亀戸（亀戸天神のそばで創業）",
+      "style_ja": "発酵という製法によるくず餅の専門店",
+      "style_en": "Specialty shop known for fermented kuzumochi (starch cake)",
+      "bridge_ja": "船橋屋のくず餅は発酵という独自の製法によるもので、亀戸天神周辺で育まれた甘味の系統にあたるとされる。",
+      "bridge_en": "Funabashiya's kuzumochi uses a distinctive fermentation method, part of the sweets culture that grew up around Kameido Tenjin shrine.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "kuzumochi"
+        },
+        {
+          "kind": "item",
+          "slug": "warabi-mochi"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.funabashiya.co.jp/aboutus/history.php",
+      "source_note": "船橋屋公式サイト「船橋屋について」歴史ページ（創業年・創業地を明記）"
+    },
+    {
+      "slug": "nanas-green-tea",
+      "name_ja": "nana's green tea",
+      "name_en": "nana's green tea — matcha and Japanese tea café chain",
+      "genre_slug": "nihoncha",
+      "founded": "2001年3月・東京都目黒区自由が丘（グリーンティーカフェ1号店として開業。2006年6月に屋号を『nana's green tea』へ改称）",
+      "style_ja": "抹茶・日本茶をカフェメニューとして展開",
+      "style_en": "Café chain built around matcha and Japanese tea",
+      "bridge_ja": "nana's green teaは抹茶や日本茶をカフェメニューとして展開し、宇治をはじめとする各地の茶どころと結びついた喫茶文化の系統にあたるとされる。",
+      "bridge_en": "nana's green tea builds its café menu around matcha and Japanese tea, part of the tea-drinking culture tied to tea-growing regions like Uji.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "matcha"
+        },
+        {
+          "kind": "item",
+          "slug": "dango"
+        },
+        {
+          "kind": "item",
+          "slug": "dorayaki"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.nanasgreentea.com/pages/company",
+      "source_note": "nana's green tea公式サイト 会社概要ページ（1号店の開業年月・所在地、屋号改称の年月を明記）"
+    },
+    {
+      "slug": "toraya",
+      "name_ja": "とらや（虎屋）",
+      "name_en": "Toraya — centuries-old wagashi maker known for yokan",
+      "genre_slug": "wagashi",
+      "founded": "室町時代後期・京都（創業。後陽成天皇の御在位（1586〜1611年）より御所御用を務めたとされる。1869年の東京遷都にともない東京にも出店）",
+      "style_ja": "羊羹を代表とする和菓子の老舗",
+      "style_en": "Centuries-old wagashi maker best known for yokan (sweet bean jelly)",
+      "bridge_ja": "とらやの羊羹は、室町時代から続く京都・和菓子の系統を今に伝えるものとされる。",
+      "bridge_en": "Toraya's yokan carries forward a wagashi tradition in Kyoto that traces back to the Muromachi period.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "neri-yokan"
+        },
+        {
+          "kind": "item",
+          "slug": "mizu-yokan"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.toraya-group.co.jp/corporate/history",
+      "source_note": "株式会社虎屋公式サイト「とらやについて」歴史ページ"
+    },
+    {
+      "slug": "osaka-ohsho",
+      "name_ja": "大阪王将",
+      "name_en": "Osaka Ohsho — Osaka-born gyoza and machi-chuka chain",
+      "genre_slug": "machi-chuka",
+      "founded": "1977年8月・大阪府大阪市（大阪王将食品株式会社設立。1号店の創業年は参照した公式沿革に記載なし）",
+      "style_ja": "羽根つき餃子を看板にした町中華チェーン",
+      "style_en": "Machi-chuka chain built around wing-style pan-fried gyoza",
+      "bridge_ja": "大阪王将の羽根つき餃子は、大阪の町中華で親しまれてきた餃子と定食の組み合わせを全国に広めたものとされる。",
+      "bridge_en": "Osaka Ohsho's wing-style gyoza are said to have carried Osaka's machi-chuka gyoza-and-set-meal culture nationwide.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "gyoza"
+        },
+        {
+          "kind": "item",
+          "slug": "chahan"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.eat-and.jp/company/history/",
+      "source_note": "イートアンドホールディングス公式サイト 沿革ページ"
+    },
+    {
+      "slug": "bamiyan",
+      "name_ja": "バーミヤン",
+      "name_en": "Bamiyan — Skylark Group's family-style Chinese restaurant chain",
+      "genre_slug": "machi-chuka",
+      "founded": "1986年4月・東京都町田市（バーミヤン1号店・鶴川店。運営会社すかいらーくの設立は1962年）",
+      "style_ja": "ファミリーレストラン形式の町中華",
+      "style_en": "Machi-chuka-style Chinese menu served in a family-restaurant format",
+      "bridge_ja": "バーミヤンの定食・単品中華は、町の中華料理店の定番メニューをファミリーレストランの形式で全国に広めたものとされる。",
+      "bridge_en": "Bamiyan's set meals and à la carte Chinese dishes are said to bring standard machi-chuka menu items to a family-restaurant format nationwide.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "tanmen"
+        },
+        {
+          "kind": "item",
+          "slug": "ebi-chili"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://corp.skylark.co.jp/about/history/",
+      "source_note": "すかいらーくホールディングス公式サイト 沿革ページ"
+    },
+    {
+      "slug": "renge-shokudo-toshu",
+      "name_ja": "れんげ食堂Toshu",
+      "name_en": "Renge Shokudo Toshu — Tokyo's rebranded neighborhood Chinese diner chain",
+      "genre_slug": "machi-chuka",
+      "founded": "1966年9月・東京都世田谷区千歳船橋（有限会社東秀設立、同年10月に中華料理店「東秀」開店。2017年以降「れんげ食堂Toshu」へ順次改称）",
+      "style_ja": "下町の中華食堂・町中華",
+      "style_en": "Neighborhood Chinese diner (machi-chuka) style",
+      "bridge_ja": "れんげ食堂Toshuの前身「中華東秀」は、世田谷の町中華食堂として親しまれてきた味を受け継いでいるとされる。",
+      "bridge_en": "Renge Shokudo Toshu carries on the taste of its predecessor Chuka Toshu, a neighborhood Chinese diner rooted in Setagaya, Tokyo.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "gyoza"
+        },
+        {
+          "kind": "item",
+          "slug": "tanmen"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.toshu.co.jp/company/history",
+      "source_note": "オリジン東秀公式サイト「オリジン東秀のあゆみ」"
+    },
+    {
+      "slug": "gyoza-no-manshu",
+      "name_ja": "ぎょうざの満洲",
+      "name_en": "Gyoza no Manshu — Saitama's directly-operated gyoza chain",
+      "genre_slug": "machi-chuka",
+      "founded": "1964年・埼玉県所沢市緑町（「満洲里」として創業。1977年に「株式会社ぎょうざの満洲」へ改称）",
+      "style_ja": "全店直営・餃子中心の町中華",
+      "style_en": "All-directly-operated, gyoza-focused machi-chuka chain",
+      "bridge_ja": "ぎょうざの満洲の餃子は、埼玉県所沢で生まれた中華料理店の味を、全店直営のまま関東・関西に広げたものとされる。",
+      "bridge_en": "Gyoza no Manshu's dumplings are said to carry the taste born at a Chinese restaurant in Tokorozawa, Saitama, expanded while keeping every store directly operated.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "gyoza"
+        },
+        {
+          "kind": "item",
+          "slug": "chahan"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.mansyu.co.jp/company/",
+      "source_note": "ぎょうざの満洲公式サイト 会社概要"
+    },
+    {
+      "slug": "kotora-gyozabou",
+      "name_ja": "紅虎餃子房",
+      "name_en": "Kotora Gyozabou — Kiwa Corporation's casual Chinese bistro chain",
+      "genre_slug": "machi-chuka",
+      "founded": "1996年・（際コーポレーション設立は1990年12月。1号店の出店地は公式サイトに記載なし）",
+      "style_ja": "町中華の庶民的な料理をカジュアルに供する中華ビストロ",
+      "style_en": "Casual bistro-style presentation of everyday Chinese/machi-chuka dishes",
+      "bridge_ja": "紅虎餃子房は、町中華で親しまれてきた庶民的な中国料理を、気取らず食べられる形で提供することを掲げて生まれたとされる。",
+      "bridge_en": "Kotora Gyozabou was created to serve the everyday Chinese dishes long loved at machi-chuka diners in a casual, unpretentious way.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "gyoza"
+        },
+        {
+          "kind": "item",
+          "slug": "mabo-dofu"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://kiwa-group.co.jp/benitora_brand/",
+      "source_note": "際コーポレーション公式サイト ブランドページ"
+    },
+    {
+      "slug": "misen",
+      "name_ja": "味仙",
+      "name_en": "Misen — Nagoya Imaike's Chinese-Taiwanese restaurant, home of Taiwan Ramen",
+      "genre_slug": "machi-chuka",
+      "founded": "（創業年は確認できる公式ページに記載なし。名古屋市千種区今池の「味仙 今池本店」を起点とする）",
+      "style_ja": "台湾ラーメンを生んだ中国台湾料理店",
+      "style_en": "Chinese-Taiwanese restaurant said to have created Taiwan Ramen",
+      "bridge_ja": "味仙で考案されたと伝わる台湾ラーメンは、名古屋の町中華・中国料理店に広がった激辛アレンジ麺の系統を生んだとされる。",
+      "bridge_en": "Taiwan Ramen, said to have been created at Misen, is credited with starting a spicy noodle lineage that spread through Nagoya's Chinese restaurants.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "taiwan-mazesoba"
+        },
+        {
+          "kind": "item",
+          "slug": "tantanmen"
+        }
+      ],
+      "pref_limited": "愛知県",
+      "source_url": "https://www.misen.ne.jp/ramen",
+      "source_note": "味仙公式サイト 台湾ラーメンページ"
+    },
+    {
+      "slug": "utsunomiya-minmin",
+      "name_ja": "宇都宮みんみん",
+      "name_en": "Utsunomiya Minmin — Tochigi's long-established gyoza specialty chain",
+      "genre_slug": "machi-chuka",
+      "founded": "1958年・栃木県宇都宮市宮島町",
+      "style_ja": "宇都宮餃子を代表する餃子専門店",
+      "style_en": "Gyoza specialist representing Utsunomiya-style dumplings",
+      "bridge_ja": "宇都宮みんみんの餃子は、宇都宮が「餃子の街」として知られるようになる上で大きな役割を果たしたとされる。",
+      "bridge_en": "Utsunomiya Minmin's gyoza are said to have played a major part in Utsunomiya becoming known as a city associated with gyoza.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "gyoza"
+        },
+        {
+          "kind": "item",
+          "slug": "chahan"
+        }
+      ],
+      "pref_limited": "栃木県",
+      "source_url": "https://minmin.co.jp/minmin/index.html",
+      "source_note": "宇都宮みんみん公式サイト"
+    },
+    {
+      "slug": "gomihattin",
+      "name_ja": "五味八珍",
+      "name_en": "Gomihattin — Hamamatsu-born Chinese restaurant and gyoza chain",
+      "genre_slug": "machi-chuka",
+      "founded": "1970年・静岡県浜松市上島町（餃子のテイクアウト専門店として開業）",
+      "style_ja": "浜松餃子を看板にした中華レストランチェーン",
+      "style_en": "Chinese restaurant chain built around Hamamatsu-style gyoza",
+      "bridge_ja": "五味八珍の餃子は、浜松で育まれた「浜松餃子」の味を、静岡・愛知・山梨・神奈川の中華レストランへ広げたものとされる。",
+      "bridge_en": "Gomihattin's gyoza are said to carry the taste of Hamamatsu-style dumplings, grown in Hamamatsu and spread to Chinese restaurants across Shizuoka, Aichi, Yamanashi and Kanagawa.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "gyoza"
+        },
+        {
+          "kind": "item",
+          "slug": "subuta"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://gomihattin.co.jp/aboutus/",
+      "source_note": "五味八珍公式サイト 会社案内"
+    },
+    {
+      "slug": "gindaco",
+      "name_ja": "築地銀だこ",
+      "name_en": "Gindaco — nationwide takoyaki chain born in Gunma",
+      "genre_slug": "konamono",
+      "founded": "（築地銀だこ1号店の出店年・場所は確認できる公式ページに記載なし。運営会社ホットランドホールディングスの設立は1991年6月・東京都）",
+      "style_ja": "外はカリッと中はとろける皮のたこ焼きチェーン",
+      "style_en": "Takoyaki chain known for a crispy outside and molten-soft inside",
+      "bridge_ja": "築地銀だこは、大阪発祥のたこ焼きの食感と製法を独自に磨き上げ、全国・海外へ広めたとされる。",
+      "bridge_en": "Gindaco is said to have refined the texture and method of Osaka-born takoyaki and spread it nationwide and overseas.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "takoyaki"
+        },
+        {
+          "kind": "item",
+          "slug": "akashiyaki"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.gindaco.com/company/",
+      "source_note": "築地銀だこ公式サイト 会社概要"
+    },
+    {
+      "slug": "dotonbori-kukuru",
+      "name_ja": "たこ家道頓堀くくる",
+      "name_en": "Dotonbori Kukuru — Osaka's creative takoyaki chain",
+      "genre_slug": "konamono",
+      "founded": "1985年・大阪府大阪市（道頓堀に「タコヤキハウス・KUKURU」開業。運営会社 白ハト食品工業は1973年から明石焼を販売）",
+      "style_ja": "大阪ミナミ・道頓堀発の創作たこ焼き",
+      "style_en": "Creative takoyaki born in Dotonbori, Osaka's Minami district",
+      "bridge_ja": "くくるのたこ焼きは、大阪ミナミ・道頓堀のたこ焼き文化を、創作メニューとともに全国・海外へ広めたものとされる。",
+      "bridge_en": "Kukuru's takoyaki are said to carry Dotonbori's Minami-Osaka takoyaki culture nationwide and overseas, alongside creative menu variations.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "takoyaki"
+        },
+        {
+          "kind": "item",
+          "slug": "akashiyaki"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://dotonbori-kukuru.com/about/history/",
+      "source_note": "たこ家道頓堀くくる公式サイト 沿革ページ"
+    },
+    {
+      "slug": "wanaka",
+      "name_ja": "わなか",
+      "name_en": "Wanaka — Osaka Sennichimae's neighborhood takoyaki shop",
+      "genre_slug": "konamono",
+      "founded": "1986年・大阪府大阪市浪速区千日前（わなか千日前本店）",
+      "style_ja": "大阪ミナミ・千日前の地元派たこ焼き",
+      "style_en": "Neighborhood-rooted takoyaki from Sennichimae, Minami Osaka",
+      "bridge_ja": "わなかのたこ焼きは、大阪ミナミ・千日前で地元客に親しまれてきたたこ焼き文化を受け継いでいるとされる。",
+      "bridge_en": "Wanaka's takoyaki are said to carry on the takoyaki culture long loved by locals in Sennichimae, Minami Osaka.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "takoyaki"
+        },
+        {
+          "kind": "item",
+          "slug": "usu-yaki"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://takoyaki-wanaka.com/01_company.html",
+      "source_note": "たこ焼道楽わなか公式サイト 会社概要"
+    },
+    {
+      "slug": "dohtonbori",
+      "name_ja": "道とん堀",
+      "name_en": "Dohtonbori — nationwide okonomiyaki chain named after Osaka's Dotonbori",
+      "genre_slug": "konamono",
+      "founded": "1990年4月16日・（株式会社道とん堀設立。1号店の出店地は公式サイトに記載なし）",
+      "style_ja": "関西風お好み焼きの全国チェーン",
+      "style_en": "Kansai-style okonomiyaki served as a nationwide chain",
+      "bridge_ja": "道とん堀のお好み焼きは、大阪・道頓堀の名を店名に掲げ、関西風お好み焼きの食べ方を全国に広めたものとされる。",
+      "bridge_en": "Dohtonbori's okonomiyaki, named after Osaka's Dotonbori, is said to have spread the Kansai style of eating okonomiyaki nationwide.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "okonomiyaki"
+        },
+        {
+          "kind": "item",
+          "slug": "tarashi-yaki"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.dohtonbori.co.jp/corp/company.html",
+      "source_note": "株式会社道とん堀公式サイト 会社概要"
+    },
+    {
+      "slug": "chibo",
+      "name_ja": "千房",
+      "name_en": "Chibo — Osaka Sennichimae's okonomiyaki chain",
+      "genre_slug": "konamono",
+      "founded": "1973年・大阪府大阪市千日前",
+      "style_ja": "大阪・千日前発祥のお好み焼き",
+      "style_en": "Okonomiyaki born in Sennichimae, Osaka",
+      "bridge_ja": "千房のお好み焼きは、大阪・千日前で生まれた鉄板焼きの食文化を、国内外の店舗へ広げてきたとされる。",
+      "bridge_en": "Chibo's okonomiyaki is said to have carried the teppan-grilled food culture born in Sennichimae, Osaka, to stores across Japan and overseas.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "okonomiyaki"
+        },
+        {
+          "kind": "item",
+          "slug": "usu-yaki"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://chibo.co.jp/about/",
+      "source_note": "千房ホールディングス公式サイト"
+    },
+    {
+      "slug": "tsuruhashi-fugetsu",
+      "name_ja": "鶴橋風月",
+      "name_en": "Tsuruhashi Fugetsu — Osaka's Tsuruhashi-born okonomiyaki chain",
+      "genre_slug": "konamono",
+      "founded": "（風月の創業は第二次世界大戦直後・大阪府大阪市鶴橋。西暦の記載は公式ページになし。現運営会社イデアが経営権を取得したのは1989年）",
+      "style_ja": "大阪・鶴橋発祥のお好み焼き",
+      "style_en": "Okonomiyaki born in Tsuruhashi, Osaka",
+      "bridge_ja": "鶴橋風月のお好み焼きは、戦後の大阪・鶴橋で夫婦二人が始めた店の味を受け継いでいるとされる。",
+      "bridge_en": "Tsuruhashi Fugetsu's okonomiyaki is said to carry on the taste of a shop started by a couple in postwar Tsuruhashi, Osaka.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "okonomiyaki"
+        },
+        {
+          "kind": "item",
+          "slug": "tarashi-yaki"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://fugetsu.jp/?page_id=559",
+      "source_note": "鶴橋風月公式サイト「鶴橋風月の歴史」"
+    },
+    {
+      "slug": "botejyu",
+      "name_ja": "ぼてぢゅう",
+      "name_en": "Botejyu — Osaka's mayo-topped okonomiyaki chain",
+      "genre_slug": "konamono",
+      "founded": "1946年・大阪府大阪市玉出",
+      "style_ja": "マヨネーズがけ・モダン焼きで知られる大阪のお好み焼き",
+      "style_en": "Osaka okonomiyaki known for its mayonnaise topping and \"modan-yaki\" style",
+      "bridge_ja": "ぼてぢゅうのお好み焼きは、戦後の大阪・玉出で生まれ、マヨネーズをかける食べ方やモダン焼きを広めたとされる。",
+      "bridge_en": "Botejyu's okonomiyaki, born in postwar Osaka's Tamade, is said to have popularized topping okonomiyaki with mayonnaise and the \"modan-yaki\" noodle-okonomiyaki combination.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "okonomiyaki"
+        },
+        {
+          "kind": "item",
+          "slug": "usu-yaki"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://botejyu.co.jp/history1/",
+      "source_note": "ぼてぢゅう公式サイト 歴史ページ"
+    },
+    {
+      "slug": "monja-moheji",
+      "name_ja": "月島もんじゃ もへじ",
+      "name_en": "Tsukishima Monja Moheji — seafood-focused monja chain",
+      "genre_slug": "konamono",
+      "founded": "2015年7月・東京都中央区月島（運営会社 加納コーポレーション〈現KISSUI GROUP〉設立。もへじ月島本店の開業年は公式サイトに記載なし）",
+      "style_ja": "築地・豊洲の魚介仲卸直営の月島もんじゃ",
+      "style_en": "Tsukishima monjayaki run directly by a Tsukiji/Toyosu seafood wholesaler",
+      "bridge_ja": "もへじのもんじゃ焼きは、月島で育まれたもんじゃ文化を、魚介の仲卸直営という形で受け継いでいるとされる。",
+      "bridge_en": "Moheji's monjayaki is said to carry on Tsukishima's monja culture, run directly by a seafood wholesaler.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "monjayaki"
+        },
+        {
+          "kind": "item",
+          "slug": "okonomiyaki"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://kissuigroup.com/company/",
+      "source_note": "KISSUI GROUP（加納コーポレーション）公式サイト 会社概要"
+    },
+    {
+      "slug": "yakisoba-no-marusho",
+      "name_ja": "焼きそばのまるしょう",
+      "name_en": "Yakisoba no Marusho — Chiba's yakisoba specialty chain",
+      "genre_slug": "yakisoba",
+      "founded": "2011年8月8日・千葉県柏市豊四季（焼きそばのまるしょう豊四季本店）",
+      "style_ja": "自家製麺のソース焼きそば専門店",
+      "style_en": "Sauce yakisoba specialty shop with house-made noodles",
+      "bridge_ja": "焼きそばのまるしょうは、屋台や縁日の食べ物とされてきたソース焼きそばを、専門店の外食メニューとして育てているとされる。",
+      "bridge_en": "Yakisoba no Marusho is said to be building sauce yakisoba, long seen as street-stall food, into a proper restaurant specialty.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "sauce-yakisoba"
+        },
+        {
+          "kind": "item",
+          "slug": "shoyu-yakisoba"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://yakisobano-marusyo.com/company/",
+      "source_note": "焼きそばのまるしょう公式サイト 会社概要"
+    },
+    {
+      "slug": "nagata-honjoken",
+      "name_ja": "長田本庄軒",
+      "name_en": "Nagata Honjoken — Kobe's bokkake yakisoba specialty chain",
+      "genre_slug": "yakisoba",
+      "founded": "2006年・兵庫県神戸市（三宮センタープラザ店。運営会社トリドールホールディングス公式発表による）",
+      "style_ja": "神戸・長田のぼっかけ焼きそば専門店",
+      "style_en": "Specialty shop for Kobe Nagata-style \"bokkake\" yakisoba",
+      "bridge_ja": "長田本庄軒のぼっかけ焼きそばは、神戸市長田区の下町で親しまれてきた牛すじ煮込み「ぼっかけ」を焼きそばに合わせたものとされる。",
+      "bridge_en": "Nagata Honjoken's bokkake yakisoba is said to combine yakisoba with \"bokkake,\" a simmered beef tendon dish loved in the working-class Nagata district of Kobe.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "kobe-sobameshi"
+        },
+        {
+          "kind": "item",
+          "slug": "sauce-yakisoba"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000186.000028440.html",
+      "source_note": "トリドールホールディングス公式プレスリリース（長田本庄軒 メトロセンター西葛西店オープンのお知らせ）"
+    },
+    {
+      "slug": "sofuren",
+      "name_ja": "想夫恋",
+      "name_en": "Sofuren — Oita Hita's teppan yakisoba chain",
+      "genre_slug": "yakisoba",
+      "founded": "1957年（昭和32年）・大分県日田市淡窓町（創業者・角安親。1963年に三本松へ移転し三本松本店とする）",
+      "style_ja": "日田やきそば発祥の鉄板焼きそば専門店",
+      "style_en": "Teppan-grilled yakisoba specialty chain tied to the origin of Hita Yakisoba",
+      "bridge_ja": "想夫恋の焼きそばは、大分県日田市で生まれた「日田やきそば」を、フランチャイズ展開で全国に広めているとされる。",
+      "bridge_en": "Sofuren's yakisoba is said to be spreading \"Hita Yakisoba,\" born in Hita, Oita, nationwide through franchising.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "hita-yakisoba"
+        },
+        {
+          "kind": "item",
+          "slug": "sauce-yakisoba"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.sofuren.com/guidance",
+      "source_note": "想夫恋公式サイト 会社概要"
+    },
+    {
+      "slug": "bikkuri-donkey",
+      "name_ja": "びっくりドンキー",
+      "name_en": "Bikkuri Donkey — Aleph's hamburg steak family restaurant chain",
+      "genre_slug": "yoshoku",
+      "founded": "1968年12月15日・岩手県盛岡市（『ハンバーガーとサラダの店・べる』として創業。1987年に運営会社をアレフへ改称）",
+      "style_ja": "ハンバーグ専門の全国ファミリーレストランチェーン",
+      "style_en": "Nationwide family-restaurant chain specializing in hamburg steak",
+      "bridge_ja": "びっくりドンキーのハンバーグは、岩手県盛岡市の小さな洋食店から始まり、全国チェーンとして広まったハンバーグ文化の代表格とされる。",
+      "bridge_en": "Bikkuri Donkey's hamburg steak is said to represent how hamburg-steak dining, starting from a small Western-style eatery in Morioka, Iwate, spread as a nationwide chain.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "hamburg"
+        },
+        {
+          "kind": "item",
+          "slug": "curry-rice"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.aleph-inc.co.jp/company/history/",
+      "source_note": "株式会社アレフ公式サイト 沿革ページ"
+    },
+    {
+      "slug": "sawayaka",
+      "name_ja": "さわやか",
+      "name_en": "Sawayaka — Shizuoka's charcoal-grilled \"genkotsu\" hamburg chain",
+      "genre_slug": "yoshoku",
+      "founded": "1977年7月・静岡県菊川市（コーヒーショップさわやか 菊川本店。運営会社グリーン観光の設立は1976年9月）",
+      "style_ja": "牛肉100%・炭焼きの「げんこつハンバーグ」",
+      "style_en": "100% beef, charcoal-grilled \"genkotsu\" (fist-shaped) hamburg steak",
+      "bridge_ja": "さわやかの炭焼きハンバーグは、静岡県西部で生まれ、県内出店にこだわりながら支持を広げてきたとされる。",
+      "bridge_en": "Sawayaka's charcoal-grilled hamburg steak is said to have grown from western Shizuoka while deliberately keeping its stores within the prefecture.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "hamburg"
+        },
+        {
+          "kind": "item",
+          "slug": "hayashi-rice"
+        }
+      ],
+      "pref_limited": "静岡県",
+      "source_url": "https://corp.genkotsu-hb.com/history",
+      "source_note": "さわやか株式会社公式サイト 沿革ページ"
+    },
+    {
+      "slug": "steak-miya",
+      "name_ja": "ステーキ宮",
+      "name_en": "Steak Miya — Atom Corporation's Utsunomiya-born steak and hamburg chain",
+      "genre_slug": "yoshoku",
+      "founded": "1975年5月26日・栃木県宇都宮市",
+      "style_ja": "「宮のタレ」のステーキ・ハンバーグ専門店",
+      "style_en": "Steak and hamburg specialty chain known for its \"Miya sauce\"",
+      "bridge_ja": "ステーキ宮は、栃木県宇都宮市で「ステーキの大衆化」を掲げて創業し、自家製ハンバーグとともに全国へ広がったとされる。",
+      "bridge_en": "Steak Miya is said to have started in Utsunomiya, Tochigi, with a mission to make steak dining more accessible, spreading nationwide alongside its house-made hamburg steak.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "hamburg"
+        },
+        {
+          "kind": "item",
+          "slug": "beef-stew"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000401.000043111.html",
+      "source_note": "株式会社アトム公式プレスリリース（ステーキ宮50周年）"
+    },
+    {
+      "slug": "coco-ichibanya",
+      "name_ja": "カレーハウスCoCo壱番屋",
+      "name_en": "CoCo Ichibanya — nationwide curry rice chain from Aichi",
+      "genre_slug": "yoshoku",
+      "founded": "1978年1月・愛知県西春日井郡西枇杷島町（現・愛知県清須市）",
+      "style_ja": "ルー・具・辛さ・トッピングを選べるカレーライス専門店",
+      "style_en": "Curry rice specialty chain with selectable spice level, toppings and portions",
+      "bridge_ja": "CoCo壱番屋のカレーライスは、愛知県で生まれた1号店から、注文の細かい選択肢という仕組みとともに全国・海外へ広まったとされる。",
+      "bridge_en": "CoCo Ichibanya's curry rice is said to have spread from its first store in Aichi Prefecture nationwide and overseas, carrying its system of detailed order customization.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "curry-rice"
+        },
+        {
+          "kind": "item",
+          "slug": "katsu-curry"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.ichibanya.jp/company/history/",
+      "source_note": "株式会社壱番屋公式サイト 沿革ページ"
+    },
+    {
+      "slug": "gogo-curry",
+      "name_ja": "ゴーゴーカレー",
+      "name_en": "Go Go Curry — Kanazawa-curry-style chain based in Ishikawa",
+      "genre_slug": "yoshoku",
+      "founded": "2003年12月・石川県金沢市（運営会社設立。1号店の出店年・場所は参照した公式ページに記載なし）",
+      "style_ja": "ステンレス皿・キャベツ添えの金沢カレー",
+      "style_en": "Kanazawa-style curry served on a stainless steel plate with shredded cabbage",
+      "bridge_ja": "ゴーゴーカレーは、石川県金沢市発祥とされる「金沢カレー」の形式を、ステンレス皿とキャベツの盛り付けごと全国・海外へ広めているとされる。",
+      "bridge_en": "Go Go Curry is said to be spreading the format of \"Kanazawa curry,\" said to originate in Kanazawa, Ishikawa, complete with its stainless steel plate and shredded cabbage, nationwide and overseas.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "curry-rice"
+        },
+        {
+          "kind": "item",
+          "slug": "katsu-curry"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://gogocurry.com/en/pages/company",
+      "source_note": "ゴーゴーカレー公式通販サイト 会社概要"
+    },
+    {
+      "slug": "hinoya-curry",
+      "name_ja": "日乃屋カレー",
+      "name_en": "Hinoya Curry — Tokyo Yushima's soy-based curry chain",
+      "genre_slug": "yoshoku",
+      "founded": "2004年8月・東京都文京区湯島（運営会社 有限会社ノアランド設立。1号店の開業年は参照した公式ページに記載なし）",
+      "style_ja": "コクのある醤油ベースのカレーライス",
+      "style_en": "Rich, soy-sauce-based curry rice",
+      "bridge_ja": "日乃屋カレーは、東京・湯島の中華料理店の味を土台にしたカレーライスを、フランチャイズで全国に広げてきたとされる。",
+      "bridge_en": "Hinoya Curry's curry rice, said to be rooted in the taste of a Chinese restaurant in Tokyo's Yushima, has spread nationwide through franchising.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "curry-rice"
+        },
+        {
+          "kind": "item",
+          "slug": "katsu-curry"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://hinoya.jp/company/",
+      "source_note": "日乃屋カレー公式サイト 会社概要と歩み"
+    },
+    {
+      "slug": "joto-curry",
+      "name_ja": "上等カレー",
+      "name_en": "Joto Curry — Osaka's quick-serve curry rice chain",
+      "genre_slug": "yoshoku",
+      "founded": "1983年・大阪府大阪市（運営会社 得正株式会社設立。上等カレー江戸堀店の開業年は公式サイトに記載なし）",
+      "style_ja": "カツカレーライスが看板の大阪発カレー",
+      "style_en": "Osaka-born curry chain known for its katsu curry rice",
+      "bridge_ja": "上等カレーは、手打ちうどん店として始まった得正が、待たせずに出せるカレーライスに着目して育てたブランドとされる。",
+      "bridge_en": "Joto Curry is said to have grown out of Tokumasa, a hand-made udon shop, which turned to curry rice as a dish it could serve quickly without keeping customers waiting.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "curry-rice"
+        },
+        {
+          "kind": "item",
+          "slug": "katsu-curry"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.tokumasa.net/company",
+      "source_note": "得正株式会社公式サイト 会社概要"
+    },
+    {
+      "slug": "pomu-no-ki",
+      "name_ja": "ポムの樹",
+      "name_en": "Pomu no Ki — creative omurice specialty chain",
+      "genre_slug": "yoshoku",
+      "founded": "1990年4月16日・（株式会社ポムフード設立。1994年10月に創作オムライス「ポムの樹」の展開を開始）",
+      "style_ja": "50種類以上の創作オムライス専門店",
+      "style_en": "Creative omurice specialty chain with 50+ varieties",
+      "bridge_ja": "ポムの樹のオムライスは、喫茶店の洋食メニューだったオムライスを、専門店という形で全国に広めたものとされる。",
+      "bridge_en": "Pomu no Ki's omurice is said to have taken omurice, once a coffee-shop yoshoku staple, and spread it nationwide as a dedicated specialty format.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "omurice"
+        },
+        {
+          "kind": "item",
+          "slug": "doria"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.pomunoki.com/company/history.html",
+      "source_note": "ポムフードグループ公式サイト 沿革ページ"
+    },
+    {
+      "slug": "kitchen-jiro",
+      "name_ja": "キッチンジロー",
+      "name_en": "Kitchen Jiro — Tokyo's long-running Showa-era yoshoku diner chain",
+      "genre_slug": "yoshoku",
+      "founded": "1964年・（創業地は参照した公式ページに記載なし）",
+      "style_ja": "昭和の洋食定食を今に伝えるレストラン",
+      "style_en": "Diner-style yoshoku chain carrying on Showa-era set-meal cooking",
+      "bridge_ja": "キッチンジローの定食は、東京オリンピックの年に創業した洋食店の味を、ハンバーグなどの定番メニューとともに伝えてきたとされる。",
+      "bridge_en": "Kitchen Jiro's set meals are said to carry on the taste of a yoshoku restaurant founded the year of the Tokyo Olympics, centered on staples like hamburg steak.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "hamburg"
+        },
+        {
+          "kind": "item",
+          "slug": "omurice"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.kitchenjiro.co.jp/about/index.html",
+      "source_note": "株式会社キッチンジロー公式サイト「創業者の想い」"
+    },
+    {
+      "slug": "tsubame-grill",
+      "name_ja": "つばめグリル",
+      "name_en": "Tsubame Grill — Tokyo's veteran hamburg steak yoshoku chain",
+      "genre_slug": "yoshoku",
+      "founded": "1930年10月・東京都（新橋駅寄りで開業。特急列車「つばめ」にちなんで命名）",
+      "style_ja": "アルミホイル包みの「つばめ風ハンブルグステーキ」",
+      "style_en": "Yoshoku restaurant known for its foil-wrapped \"Tsubame-style\" hamburg steak",
+      "bridge_ja": "つばめグリルのハンブルグステーキは、新橋で創業した洋食店が、特急列車の名を掲げて育ててきた味とされる。",
+      "bridge_en": "Tsubame Grill's hamburg steak is said to be the taste nurtured by a yoshoku restaurant founded near Shimbashi, named after an express train.",
+      "recommend": [
+        {
+          "kind": "item",
+          "slug": "hamburg"
+        },
+        {
+          "kind": "item",
+          "slug": "roll-cabbage"
+        }
+      ],
+      "pref_limited": null,
+      "source_url": "https://www.tsubame-grill.co.jp/history/",
+      "source_note": "つばめグリル公式サイト「つばめグリルの歴史」"
     }
   ]
 }
