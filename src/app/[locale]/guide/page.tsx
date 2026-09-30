@@ -1,8 +1,9 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
-import { Link } from "@/i18n/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CoverHeader } from "@/components/CoverHeader";
+import { SectionHeading } from "@/components/SectionHeading";
+import { ArrowLink, LinkCloud } from "@/components/ui/text-link";
 import { GuideKindSections } from "@/features/guide/GuideKindSections";
 import { GUIDE_SCENES, fetchGuides, fetchSceneCounts } from "@/features/guide/queries";
 import { localeAlternates } from "@/lib/seo";
@@ -34,6 +35,7 @@ export default async function GuidePage({ params }: { params: Promise<Params> })
   setRequestLocale(locale);
 
   const t = await getTranslations("guide");
+  const th = await getTranslations("header");
   const [guides, sceneCounts] = await Promise.all([
     fetchGuides(locale as "ja" | "en"),
     fetchSceneCounts(locale as "ja" | "en"),
@@ -44,37 +46,29 @@ export default async function GuidePage({ params }: { params: Promise<Params> })
   return (
     <main className="mx-auto w-full max-w-2xl flex-1 py-8 md:max-w-3xl">
       <div className="px-4 md:px-0">
-        <CoverHeader title={t("title")} meta={t("description")} />
+        <CoverHeader eyebrow={th("navGuide")} title={t("title")} meta={t("description")} />
       </div>
 
-      <div className="px-4 pt-8 md:px-0">
-        {/* 場面からさがす（2026-09-24「場面」）。0件の場面は出さない */}
+      <div className="px-4 pt-stack md:px-0">
+        {/* 場面からさがす（2026-09-24「場面」）。0件の場面は出さない。
+            「次に進む入口」なのでカード枠に入れ、中は遷移リンクの流し組み */}
         {scenesWithGuides.length > 0 && (
-          <section className="mb-10">
-            <h2 className="font-serif border-border mb-3 border-b pb-2 text-lg">
-              {t("scenesHeading")}
-            </h2>
-            <ul className="flex flex-wrap gap-2">
-              {scenesWithGuides.map((s) => (
-                <li key={s.slug}>
-                  <Link
-                    href={`/guide/scene/${s.slug}`}
-                    className="border-border hover:bg-muted/50 inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm"
-                  >
-                    {t(`scene.${s.slug}`)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <section className="border-rule mb-section rounded-xl border px-4 pt-4 pb-3 md:px-5">
+            <SectionHeading className="mb-3">{t("scenesHeading")}</SectionHeading>
+            <LinkCloud
+              items={scenesWithGuides.map((s) => ({
+                key: s.slug,
+                href: `/guide/scene/${s.slug}`,
+                label: t(`scene.${s.slug}`),
+              }))}
+            />
           </section>
         )}
 
         <GuideKindSections guides={guides} />
 
-        <p className="mb-8">
-          <Link href="/" className="text-sm underline">
-            {t("backToFood")}
-          </Link>
+        <p className="mb-stack">
+          <ArrowLink href="/">{t("backToFood")}</ArrowLink>
         </p>
       </div>
 

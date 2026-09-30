@@ -1,4 +1,7 @@
 import { Link } from "@/i18n/navigation";
+import { RowList } from "@/components/RowList";
+import { ArrowLink } from "@/components/ui/text-link";
+
 import { GROUP_COLORS } from "./styles";
 
 /**
@@ -7,6 +10,10 @@ import { GROUP_COLORS } from "./styles";
  * ページの主役なので最下部の小リンク集にしない。データの組み立て（訳語・href）は
  * 呼び出し側（page.tsx）が済ませ、このコンポーネントは表示専用に留める
  * （SP本文内 / PCサイドバーの2箇所で描画される想定 — 詳細は ItemBody.tsx 参照）。
+ *
+ * 2026-09-30 デザイン刷新: 項目ごとのカード枠をやめ、罫線で区切った「名前＋一行」の行にする。
+ * 関係ラベル（対比／派生／源流／同じ○○県）は項目ごとに繰り返さず、同じラベルの項目を
+ * 1つの小見出し（濃橙の眉）の下にまとめる。並びは各ラベルが最初に現れた順を保つ。
  */
 export type ConnectionCard = {
   key: string;
@@ -42,6 +49,18 @@ type Props = {
   className?: string;
 };
 
+/** 同じ badge を持つカードを、最初に現れた順を保ってまとめる。badge なしは1群。 */
+function groupByBadge(cards: ConnectionCard[]): { badge: string | null; cards: ConnectionCard[] }[] {
+  const groups: { badge: string | null; cards: ConnectionCard[] }[] = [];
+  for (const card of cards) {
+    const badge = card.badge ?? null;
+    const found = groups.find((g) => g.badge === badge);
+    if (found) found.cards.push(card);
+    else groups.push({ badge, cards: [card] });
+  }
+  return groups;
+}
+
 export function ItemConnections({
   styleTitle,
   styleSiblings,
@@ -59,40 +78,28 @@ export function ItemConnections({
   const hasLandAxis = regions.length > 0 || landItems.length > 0 || regionPageHref;
   if (!hasStyleAxis && !hasLandAxis) return null;
 
+  const landGroups = groupByBadge(landItems);
+
   return (
     <div className={className}>
       {hasStyleAxis && (
-        <section aria-labelledby="connections-style-heading" className="mb-8">
+        <section aria-labelledby="connections-style-heading" className="mb-section">
           <h2
             id="connections-style-heading"
-            className="mb-3 flex items-center gap-2 text-sm font-semibold"
+            className="type-small border-rule-strong mb-1 flex items-center gap-2 border-b pb-2 font-semibold"
           >
             {/* 2026-09「丸だけで色分け」決定: 料理側（同じ系統を、もっと）は橙 */}
-            <span aria-hidden style={{ color: GROUP_COLORS.dish }}>
+            <span aria-hidden className="text-xs" style={{ color: GROUP_COLORS.dish }}>
               ●
             </span>
             {styleTitle}
           </h2>
-          {styleSiblings.length > 0 && (
-            <ul className="space-y-2">
-              {styleSiblings.map((c) => (
-                <li key={c.key}>
-                  <Link
-                    href={c.href}
-                    className="border-border hover:bg-muted/50 block rounded-lg border p-3"
-                  >
-                    <span className="block font-medium">{c.name}</span>
-                    {c.meta && <span className="text-muted-foreground block text-xs">{c.meta}</span>}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          )}
+          <RowList
+            rows={styleSiblings.map((c) => ({ key: c.key, href: c.href, title: c.name, meta: c.meta }))}
+          />
           {viewAllHref && viewAllLabel && (
-            <p className="mt-2">
-              <Link href={viewAllHref} className="text-brand-accent-dark text-sm underline">
-                {viewAllLabel}
-              </Link>
+            <p className="mt-3">
+              <ArrowLink href={viewAllHref}>{viewAllLabel}</ArrowLink>
             </p>
           )}
         </section>
@@ -102,67 +109,48 @@ export function ItemConnections({
         <section aria-labelledby="connections-land-heading">
           <h2
             id="connections-land-heading"
-            className="mb-3 flex items-center gap-2 text-sm font-semibold"
+            className="type-small border-rule-strong mb-1 flex items-center gap-2 border-b pb-2 font-semibold"
           >
             {/* 2026-09「丸だけで色分け」決定: 食材側（この土地と、この素材）は濃 */}
-            <span aria-hidden style={{ color: GROUP_COLORS.ingredient }}>
+            <span aria-hidden className="text-xs" style={{ color: GROUP_COLORS.ingredient }}>
               ●
             </span>
             {landTitle}
           </h2>
 
           {regions.length > 0 && regionsTitle && (
-            <div className="mb-3">
-              <h3 className="text-muted-foreground mb-1.5 text-xs font-semibold">{regionsTitle}</h3>
-              <ul className="flex flex-wrap gap-2">
+            <div className="mt-3 mb-4">
+              <h3 className="type-eyebrow mb-1">{regionsTitle}</h3>
+              <ul className="divide-rule divide-y">
                 {regions.map((r) => (
-                  <li key={r.key}>
-                    <Link
-                      href={r.href}
-                      className="bg-muted hover:bg-muted/70 inline-block rounded-full px-3 py-1 text-xs"
-                    >
-                      {r.label}
+                  <li key={r.key} className="py-2">
+                    <Link href={r.href} className="group type-small inline-flex items-baseline gap-1.5 font-semibold">
+                      <span className="link-underline">{r.label}</span>
+                      <span aria-hidden className="text-primary">
+                        →
+                      </span>
                     </Link>
+                    {/* 本場（「どこでも食べられるが、ここのは特別」）の構造的理由。データが入れば自動で現れる */}
+                    {r.note && <p className="type-note text-muted-foreground mt-0.5">{r.note}</p>}
                   </li>
                 ))}
               </ul>
-              {/* 本場（「どこでも食べられるが、ここのは特別」）の構造的理由。データが入れば自動で現れる */}
-              {regions.some((r) => r.note) && (
-                <ul className="mt-1.5 space-y-1">
-                  {regions
-                    .filter((r) => r.note)
-                    .map((r) => (
-                      <li key={`note-${r.key}`} className="text-muted-foreground text-xs">
-                        {r.note}
-                      </li>
-                    ))}
-                </ul>
-              )}
             </div>
           )}
 
-          {landItems.length > 0 && (
-            <ul className="space-y-2">
-              {landItems.map((c) => (
-                <li key={c.key}>
-                  <Link
-                    href={c.href}
-                    className="border-border hover:bg-muted/50 block rounded-lg border p-3"
-                  >
-                    {c.badge && <span className="text-muted-foreground block text-xs">{c.badge}</span>}
-                    <span className="block font-medium">{c.name}</span>
-                    {c.meta && <span className="text-muted-foreground block text-xs">{c.meta}</span>}
-                  </Link>
-                </li>
-              ))}
-            </ul>
-          )}
+          {landGroups.map((group) => (
+            <div key={group.badge ?? "-"} className="mt-3">
+              {group.badge && <h3 className="type-eyebrow mb-0.5">{group.badge}</h3>}
+              <RowList
+                metaLines={1}
+                rows={group.cards.map((c) => ({ key: c.key, href: c.href, title: c.name, meta: c.meta }))}
+              />
+            </div>
+          ))}
 
           {regionPageHref && regionPageLabel && (
-            <p className="mt-2">
-              <Link href={regionPageHref} className="text-brand-accent-dark text-sm underline">
-                {regionPageLabel}
-              </Link>
+            <p className="mt-3">
+              <ArrowLink href={regionPageHref}>{regionPageLabel}</ArrowLink>
             </p>
           )}
         </section>

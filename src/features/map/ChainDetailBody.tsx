@@ -1,4 +1,6 @@
-import { Link } from "@/i18n/navigation";
+import { RowList } from "@/components/RowList";
+import { SectionHeading } from "@/components/SectionHeading";
+import { ArrowLink, LinkCloud } from "@/components/ui/text-link";
 
 import type { ConnectionCard } from "./ItemConnections";
 
@@ -47,75 +49,59 @@ export function ChainDetailBody({
 }: Props) {
   return (
     <div>
-      <p className="mb-6 leading-relaxed">{bridge}</p>
+      {/* bridge文（橋渡しの一文）が主役。明朝の引き文として大きく置く */}
+      <p className="type-title text-foreground mb-stack max-w-prose">{bridge}</p>
 
       {(style || founded || prefLimited) && (
-        <dl className="mb-8 text-sm">
+        <dl className="border-rule divide-rule mb-section divide-y border-y">
           {style && (
-            <div className="flex gap-3 py-1">
-              <dt className="text-muted-foreground w-20 shrink-0">{styleLabel}</dt>
-              <dd>{style}</dd>
+            <div className="flex gap-4 py-2.5">
+              <dt className="type-label w-16 shrink-0 pt-0.5">{styleLabel}</dt>
+              <dd className="type-small">{style}</dd>
             </div>
           )}
           {founded && (
-            <div className="flex gap-3 py-1">
-              <dt className="text-muted-foreground w-20 shrink-0">{foundedLabel}</dt>
-              <dd>{founded}</dd>
+            <div className="flex gap-4 py-2.5">
+              <dt className="type-label w-16 shrink-0 pt-0.5">{foundedLabel}</dt>
+              <dd className="type-small">{founded}</dd>
             </div>
           )}
           {prefLimited && (
-            <div className="flex gap-3 py-1">
-              <dt className="text-muted-foreground w-20 shrink-0">{prefLimitedLabel}</dt>
-              <dd>{prefLimited}</dd>
+            <div className="flex gap-4 py-2.5">
+              <dt className="type-label w-16 shrink-0 pt-0.5">{prefLimitedLabel}</dt>
+              <dd className="type-small">{prefLimited}</dd>
             </div>
           )}
         </dl>
       )}
 
+      {/* 「この味が好きなら」＝ご当地へ進む入口。カード枠は1つにまとめ、中は罫線区切りの行 */}
       {recommendItems.length > 0 && (
-        <section aria-labelledby="chain-recommend-heading" className="mb-8">
-          <h2 id="chain-recommend-heading" className="mb-3 text-sm font-semibold">
+        <section
+          aria-labelledby="chain-recommend-heading"
+          className="border-rule mb-stack rounded-xl border px-4 pt-4 pb-1 md:px-5"
+        >
+          <SectionHeading id="chain-recommend-heading" variant="label" className="mb-1">
             {recommendHeading}
-          </h2>
-          <ul className="space-y-2">
-            {recommendItems.map((c) => (
-              <li key={c.key}>
-                <Link
-                  href={c.href}
-                  className="border-border hover:bg-muted/50 block rounded-lg border p-3"
-                >
-                  <span className="block font-medium">{c.name}</span>
-                  {c.meta && <span className="text-muted-foreground block text-xs">{c.meta}</span>}
-                </Link>
-              </li>
-            ))}
-          </ul>
+          </SectionHeading>
+          <RowList
+            rows={recommendItems.map((c) => ({ key: c.key, href: c.href, title: c.name, meta: c.meta }))}
+          />
         </section>
       )}
 
       {genreHref && genreLinkLabel && (
-        <p className="mb-8">
-          <Link href={genreHref} className="text-brand-accent-dark text-sm underline">
-            {genreLinkLabel}
-          </Link>
+        <p className="mb-section">
+          <ArrowLink href={genreHref}>{genreLinkLabel}</ArrowLink>
         </p>
       )}
 
       {otherChains.length > 0 && (
-        <section className="border-border mb-8 border-t pt-6">
-          <h2 className="mb-3 text-sm font-semibold">{otherChainsHeading}</h2>
-          <ul className="flex flex-wrap gap-2">
-            {otherChains.map((c) => (
-              <li key={c.slug}>
-                <Link
-                  href={`/chain/${c.slug}`}
-                  className="bg-muted text-muted-foreground hover:bg-muted/70 inline-block rounded-full px-3 py-1 text-xs"
-                >
-                  {c.name}
-                </Link>
-              </li>
-            ))}
-          </ul>
+        <section className="border-rule mb-stack border-t pt-stack">
+          <SectionHeading variant="label">{otherChainsHeading}</SectionHeading>
+          <LinkCloud
+            items={otherChains.map((c) => ({ key: c.slug, href: `/chain/${c.slug}`, label: c.name }))}
+          />
         </section>
       )}
     </div>

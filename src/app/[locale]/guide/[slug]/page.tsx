@@ -1,9 +1,12 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
-import { Link } from "@/i18n/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CoverHeader } from "@/components/CoverHeader";
+import { CorrectionLink } from "@/components/CorrectionLink";
+import { RowList } from "@/components/RowList";
+import { SectionHeading } from "@/components/SectionHeading";
+import { LinkCloud } from "@/components/ui/text-link";
 import { fetchGuideBySlug, fetchOtherGuides, fetchScenesForGuide } from "@/features/guide/queries";
 import { parseGuideMarkdown } from "@/features/guide/markdown";
 import { GuideBody } from "@/features/guide/GuideBody";
@@ -73,95 +76,74 @@ export default async function GuideDetailPage({ params }: { params: Promise<Para
 
       {/* 位置帯 + 例年の時期（場所を持つガイドのみ。カバー直下） */}
       {hasGeo && (
-        <div className="px-4 pt-6 md:px-0">
+        <div className="px-4 pt-stack md:px-0">
           <PositionBand lat={guide.lat as number} lng={guide.lng as number} label={placeLabel} />
           {guide.whenNote && (
-            <p className="text-muted-foreground mt-2 text-xs">
+            <p className="type-note text-muted-foreground mt-2">
               {t("whenNoteLabel")}: {guide.whenNote}
             </p>
           )}
         </div>
       )}
 
-      <div className="px-4 pt-8 md:px-0">
+      <div className="px-4 pt-section md:px-0">
         <article>
           <GuideBody blocks={blocks} />
 
           {guide.links.length > 0 && (
-            <section className="border-border mt-10 border-t pt-6">
-              <h2 className="mb-3 text-sm font-semibold">{t("relatedFoodHeading")}</h2>
-              <ul className="flex flex-wrap gap-2">
-                {guide.links.map((link) => (
-                  <li key={`${link.kind}-${link.slug}`}>
-                    <Link
-                      href={link.href}
-                      className="border-border hover:bg-muted/50 inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm"
-                    >
-                      {link.name}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+            <section className="border-rule mt-section border-t pt-stack">
+              <SectionHeading variant="label">{t("relatedFoodHeading")}</SectionHeading>
+              <LinkCloud
+                items={guide.links.map((link) => ({
+                  key: `${link.kind}-${link.slug}`,
+                  href: link.href,
+                  label: link.name,
+                }))}
+              />
             </section>
           )}
 
           {/* この場面で（2026-09-24「場面」。場面が無ければ出さない） */}
           {sceneSlugs.length > 0 && (
-            <section className="border-border mt-8 border-t pt-6">
-              <h2 className="mb-3 text-sm font-semibold">{t("sceneHeading")}</h2>
-              <ul className="flex flex-wrap gap-2">
-                {sceneSlugs.map((sceneSlug) => (
-                  <li key={sceneSlug}>
-                    <Link
-                      href={`/guide/scene/${sceneSlug}`}
-                      className="border-border hover:bg-muted/50 inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm"
-                    >
-                      {t("sceneChip", { name: t(`scene.${sceneSlug}`) })}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+            <section className="border-rule mt-stack border-t pt-stack">
+              <SectionHeading variant="label">{t("sceneHeading")}</SectionHeading>
+              <LinkCloud
+                items={sceneSlugs.map((sceneSlug) => ({
+                  key: sceneSlug,
+                  href: `/guide/scene/${sceneSlug}`,
+                  label: t("sceneChip", { name: t(`scene.${sceneSlug}`) }),
+                }))}
+              />
             </section>
           )}
 
           {hasOtherGuides && (
-            <section className="border-border mt-8 border-t pt-6">
-              <h2 className="mb-3 text-sm font-semibold">{t("otherGuidesHeading")}</h2>
-              <ul className="space-y-2">
-                {sameKind.map((g) => (
-                  <li key={g.slug}>
-                    <Link
-                      href={`/guide/${g.slug}`}
-                      className="border-border hover:bg-muted/50 block rounded-lg border p-3"
-                    >
-                      <span className="block font-medium">{g.title}</span>
-                    </Link>
-                  </li>
-                ))}
-                {nextKindFirst && (
-                  <li key={nextKindFirst.slug}>
-                    <Link
-                      href={`/guide/${nextKindFirst.slug}`}
-                      className="border-border hover:bg-muted/50 block rounded-lg border p-3"
-                    >
-                      <span className="block font-medium">
-                        {t("nextKindLabel", {
-                          kind: t(`kind.${nextKindFirst.kind}`),
-                          title: nextKindFirst.title,
-                        })}
-                      </span>
-                    </Link>
-                  </li>
-                )}
-              </ul>
+            // 「次に進む入口」（他のガイドへ）はカード枠にまとめ、中は罫線区切りの行
+            <section className="border-rule mt-stack rounded-xl border px-4 pt-4 pb-1 md:px-5">
+              <SectionHeading variant="label" className="mb-1">
+                {t("otherGuidesHeading")}
+              </SectionHeading>
+              <RowList
+                rows={[
+                  ...sameKind.map((g) => ({ key: g.slug, href: `/guide/${g.slug}`, title: g.title })),
+                  ...(nextKindFirst
+                    ? [
+                        {
+                          key: nextKindFirst.slug,
+                          href: `/guide/${nextKindFirst.slug}`,
+                          title: t("nextKindLabel", {
+                            kind: t(`kind.${nextKindFirst.kind}`),
+                            title: nextKindFirst.title,
+                          }),
+                        },
+                      ]
+                    : []),
+                ]}
+              />
             </section>
           )}
 
-          <p className="mt-10 text-center">
-            <Link href="/contact" className="text-brand-accent-dark text-xs underline">
-              {t("correction")}
-            </Link>
-          </p>
+          <CorrectionLink label={t("correction")} className="mt-section" />
         </article>
       </div>
 

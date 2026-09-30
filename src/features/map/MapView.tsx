@@ -166,10 +166,21 @@ const CLUSTER_ZOOM_THRESHOLD = 5;
  * 集約マーカー同士の重なり緩和（本番体験レビュー対応。2026-09）。
  *
  * SP390全国表示で本州中央のクラスタが団子状に重なり、件数が読めず下のクラスタが
- * タップできない問題への対処。マーカーは size-7（28px）なので、直径+数px の
- * 余白を持たせて確実に独立してタップできる間隔（px、画面座標）にする。
+ * タップできない問題への対処。直径+数px の余白を持たせて確実に独立してタップできる
+ * 間隔（px、画面座標）にする。
+ *
+ * 2026-09-30 デザイン刷新「県クラスタが重い（橙の丸の塊に見える）」: 丸を一回り小さく
+ * （通常 22px / 件数の多い県 26px の2段階）し、塗りは淡いクリーム＋橙の縁、数字は文字色の
+ * 小さめの数字にして地図に沈める。間隔も直径に合わせて詰める。
  */
-const CLUSTER_MIN_DIST = 32;
+const CLUSTER_SIZE_PX = 22;
+const CLUSTER_SIZE_LARGE_PX = 26;
+const CLUSTER_MIN_DIST = 27;
+/** 件数が中央値のこの倍率以上の県だけを大きい段にする（絞り込み中も相対で効く）。 */
+const CLUSTER_LARGE_RATIO = 1.25;
+/** クラスタの塗り（通常＝クリーム / 多い県＝淡）。ブランドの淡 #ffc985 とカバーのクリーム #ffe9cf */
+const CLUSTER_FILL = "#ffe9cf";
+const CLUSTER_FILL_LARGE = "#ffc985";
 
 /**
  * 全国表示へのフィット。シート（bottomInset）を避けた下余白は、
@@ -253,6 +264,12 @@ type Props = {
    * （既存の lastFitRef の流儀に合わせる）。
    */
   resetToJapanSignal?: number;
+  /**
+   * 親側の操作（トップ「土地からさがす」カードの県チップ）で、その県へ寄せるための
+   * シグナル。seq が変わるたびに flyToPrefecture(pref) を呼ぶ（resetToJapanSignal と同じ流儀）。
+   * 県の絞り込み（シート側）は親が既に済ませているため onPrefSelect は呼ばない。
+   */
+  focusPrefSignal?: { pref: string; seq: number } | null;
 };
 
 export function MapView({
@@ -267,6 +284,7 @@ export function MapView({
   onPrefSelect,
   onPrefClear,
   resetToJapanSignal,
+  focusPrefSignal,
 }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<maplibregl.Map | null>(null);
@@ -577,6 +595,14 @@ export function MapView({
     flyToJapan();
   }, [resetToJapanSignal, flyToJapan]);
 
+  // 親側の県チップで、その県へ寄せる（初回マウント時・seq 未変化では発火しない）。
+  const focusSeqRef = useRef(focusPrefSignal?.seq);
+  useEffect(() => {
+    if (!focusPrefSignal || focusSeqRef.current === focusPrefSignal.seq) return;
+    focusSeqRef.current = focusPrefSignal.seq;
+    flyToPrefecture(focusPrefSignal.pref);
+  }, [focusPrefSignal, flyToPrefecture]);
+
   // ピン/集約マーカーの描画。選択状態も生成時に反映する。
   // ref に要素を溜めて後から書き換える設計は、レンダーと DOM の状態が二重管理になり
   // ずれるため採らない（アイテム数が最大でも数百なので作り直しで足りる）。
@@ -587,6 +613,10 @@ export function MapView({
     const markers: maplibregl.Marker[] = [];
 
     const drawClusters = () => {
+      // 大きい段のしきい値（件数の中央値×倍率）。県が少ないときは段を分けない
+      const counts = prefClusters.map((c) => c.count).sort((a, b) => a - b);
+      const median = counts.length > 0 ? counts[Math.floor(counts.length / 2)] : 0;
+      const largeAt = counts.length >= 4 && median > 0 ? median * CLUSTER_LARGE_RATIO : Infinity;
       // 表示位置だけをずらす軽い重なり緩和（本番体験レビュー: 本州中央でクラスタが
       // 団子状に重なり、件数が読めず下のクラスタがタップできない問題への対処）。
       // 位置の「真実」は重心のまま（flyToPrefecture は items を originPref で
@@ -649,24 +679,29 @@ export function MapView({
         // 原点からの距離×10%だけ飛ぶ（本番レビュー「ホバー/フォーカスで別の位置に
         // 出現して押せない」の真因）。視覚は内側 span に持たせる。position は本場バッジ
         // （右上の中抜き丸）の絶対配置の基準にするため relative を付ける。
+        const large = cluster.count >= largeAt;
+        const sizePx = large ? CLUSTER_SIZE_LARGE_PX : CLUSTER_SIZE_PX;
         el.className =
-          "group relative size-7 cursor-pointer focus-visible:outline-2 focus-visible:outline-offset-2";
+          "group relative cursor-pointer rounded-full focus-visible:outline-2 focus-visible:outline-offset-2";
+        el.style.width = `${sizePx}px`;
+        el.style.height = `${sizePx}px`;
         const inner = document.createElement("span");
+        // 数字は文字色 #5b4a37 の小さめの等幅数字（白抜きの太字で主張させない）
+        inner.className =
+          "flex size-full items-center justify-center rounded-full font-semibold tabular-nums leading-none transition-transform group-hover:scale-110";
+        inner.style.fontSize = large ? "11px" : "10px";
+        inner.style.color = PIN_STROKE;
         if (honbaOnly) {
           // 中抜き（塗り=紙・リング=ブランド橙・外周輪郭=既存ピンと同じ細さ。
           // CLAUDE.md「記号」節の○本場と同じ。数字は honbaCount）。
-          inner.className =
-            "flex size-full items-center justify-center rounded-full text-xs font-semibold transition-transform group-hover:scale-110";
           inner.style.backgroundColor = "#fffdf7";
-          inner.style.border = `2px solid ${PIN_STROKE}`;
-          inner.style.boxShadow = `inset 0 0 0 3px ${PIN_BASE}`;
-          inner.style.color = PIN_STROKE;
+          inner.style.border = `1.5px solid ${PIN_STROKE}`;
+          inner.style.boxShadow = `inset 0 0 0 2.5px ${PIN_BASE}`;
           inner.textContent = String(cluster.honbaCount);
         } else {
-          inner.className =
-            "flex size-full items-center justify-center rounded-full border-2 text-xs font-semibold text-white transition-transform group-hover:scale-110";
-          inner.style.backgroundColor = PIN_BASE;
-          inner.style.borderColor = PIN_STROKE;
+          // 淡いクリーム（多い県は淡 #ffc985）＋橙の縁
+          inner.style.backgroundColor = large ? CLUSTER_FILL_LARGE : CLUSTER_FILL;
+          inner.style.border = `1.5px solid ${PIN_BASE}`;
           inner.textContent = String(cluster.count);
         }
         el.appendChild(inner);

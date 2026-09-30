@@ -1,13 +1,17 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
-import { Link } from "@/i18n/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CoverHeader } from "@/components/CoverHeader";
+import { IndexRow } from "@/components/IndexRow";
+import { SectionHeading } from "@/components/SectionHeading";
+import { LabelChip } from "@/components/ui/chip";
+import { ArrowLink, LinkCloud } from "@/components/ui/text-link";
 import { fetchItemsByPref, fetchShelves, fetchPrefsWithItems, type Locale } from "@/features/map/queries";
-import { PIN_STROKE, groupColor, styleColor } from "@/features/map/styles";
+import { PIN_BASE, PIN_STROKE, groupColor, styleColor } from "@/features/map/styles";
 import { fetchGuidesForPref } from "@/features/guide/queries";
 import { localeAlternates } from "@/lib/seo";
+import { englishGloss } from "@/lib/names";
 import { ADJACENT_PREFS, PREF_SLUGS, prefFromSlug } from "@/lib/prefectures";
 
 /**
@@ -77,6 +81,9 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
   const tp = await getTranslations("prefecture");
   const ts = await getTranslations("style");
   const trr = await getTranslations("regionRelation");
+  const th = await getTranslations("header");
+  // カバーの副題: もう一方の言語の県名（ja ページなら "Fukushima"）
+  const tpOther = await getTranslations({ locale: locale === "ja" ? "en" : "ja", namespace: "prefecture" });
   const name = tp(pref);
   const isJa = locale === "ja";
 
@@ -94,62 +101,66 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
   return (
     <main className="mx-auto w-full max-w-2xl flex-1 py-8 md:max-w-3xl">
       <div className="px-4 md:px-0">
-        <CoverHeader title={name} meta={t("count", { count: items.length })} />
+        <CoverHeader
+          eyebrow={th("navPlace")}
+          title={name}
+          subtitle={tpOther(pref)}
+          meta={t("count", { count: items.length })}
+        />
       </div>
 
-      <div className="px-4 pt-8 md:px-0">
+      <div className="px-4 pt-stack md:px-0">
         {groups.map((group) => (
-          <section key={group.grp} className="mb-10">
-            <h2 className="font-serif border-border mb-3 flex items-center gap-2 border-b pb-2 text-lg">
-              {GRP_SYMBOL[group.grp] && (
-                <span aria-hidden style={{ color: groupColor(group.grp) }}>
-                  {GRP_SYMBOL[group.grp]}
-                </span>
-              )}
+          <section key={group.grp} className="mb-section">
+            <SectionHeading
+              count={group.items.length}
+              mark={
+                GRP_SYMBOL[group.grp] ? (
+                  <span aria-hidden className="text-base" style={{ color: groupColor(group.grp) }}>
+                    {GRP_SYMBOL[group.grp]}
+                  </span>
+                ) : (
+                  // 本場は中抜きの○（CLAUDE.md「記号」節。地図の本場ピンと同じ形）
+                  <span
+                    aria-hidden
+                    className="inline-block size-3 shrink-0 rounded-full"
+                    style={{ border: `2.5px solid ${PIN_BASE}` }}
+                  />
+                )
+              }
+            >
               {t(`groupTitle.${group.grp}`)}
-              <span className="text-muted-foreground text-sm font-normal">{group.items.length}</span>
-            </h2>
-            <ul className="divide-border divide-y">
+            </SectionHeading>
+            <ul className="divide-rule divide-y">
               {group.items.map((item) => (
                 <li key={item.slug}>
-                  <Link
+                  <IndexRow
                     href={`/${item.genreSlug ?? item.shelfSlug}/${item.slug}`}
-                    className="hover:bg-muted/40 -mx-2 block rounded-md px-2 py-3 transition-colors"
-                  >
-                    <span className="flex items-center gap-2">
-                      {item.primaryStyle && (
-                        <span
-                          aria-hidden
-                          className="inline-block size-3 shrink-0 rounded-full border"
-                          style={{
-                            backgroundColor: styleColor(item.primaryStyle),
-                            borderColor: PIN_STROKE,
-                          }}
-                        />
-                      )}
-                      <span className="font-medium">{isJa ? item.nameJa : item.nameRomaji}</span>
-                      {item.primaryStyle && (
-                        <span className="text-muted-foreground text-xs">{ts(item.primaryStyle)}</span>
-                      )}
-                      {/* 発祥ではなく名産地等で結びつくアイテムの区別（本場は群見出しで分かるので重ねない） */}
-                      {item.regionRelation && item.regionRelation !== "本場" && (
-                        <span className="bg-muted text-muted-foreground rounded-full px-2 py-0.5 text-xs">
-                          {trr(item.regionRelation)}
-                        </span>
-                      )}
-                    </span>
-                    <span className="text-muted-foreground mt-1 block text-xs">
-                      {item.nameJa} — {item.nameRomaji}
-                      {item.nameEn ? ` — ${item.nameEn}` : ""}
-                    </span>
-                    {item.summary && <span className="mt-1 block text-sm">{item.summary}</span>}
-                    {/* 本場の構造的理由の一文。複数都市分は改行区切りで届く */}
-                    {(isJa ? item.regionNoteJa : item.regionNoteEn) && (
-                      <span className="text-muted-foreground mt-1 block text-xs whitespace-pre-line">
-                        {isJa ? item.regionNoteJa : item.regionNoteEn}
-                      </span>
-                    )}
-                  </Link>
+                    name={isJa ? item.nameJa : item.nameRomaji}
+                    // 三点セット: 1行目に名前＋もう一方の表記、英訳は重複を消して2行目に
+                    aside={isJa ? item.nameRomaji : item.nameJa}
+                    gloss={englishGloss(item.nameEn, item.nameRomaji)}
+                    summary={item.summary}
+                    dot={
+                      item.primaryStyle
+                        ? { color: styleColor(item.primaryStyle), stroke: PIN_STROKE }
+                        : null
+                    }
+                    labels={
+                      item.primaryStyle ||
+                      (item.regionRelation && item.regionRelation !== "本場") ? (
+                        <>
+                          {item.primaryStyle && <LabelChip>{ts(item.primaryStyle)}</LabelChip>}
+                          {/* 発祥ではなく名産地等で結びつくアイテムの区別（本場は群見出しで分かるので重ねない） */}
+                          {item.regionRelation && item.regionRelation !== "本場" && (
+                            <LabelChip>{trr(item.regionRelation)}</LabelChip>
+                          )}
+                        </>
+                      ) : null
+                    }
+                    // 本場の構造的理由の一文。複数都市分は改行区切りで届く
+                    note={isJa ? item.regionNoteJa : item.regionNoteEn}
+                  />
                 </li>
               ))}
             </ul>
@@ -159,23 +170,18 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
         {/* この土地の食体験（食の街・市場・祭り・ビアガーデン・酒蔵/工場見学等。0件なら節ごと出さない。
             CLAUDE.md体験原則3=分類名ではなく土地との関係で言う） */}
         {experiences.length > 0 && (
-          <section className="border-border mb-10 border-t pt-6">
-            <h2 className="font-serif mb-3 text-lg">{t("experiencesTitle")}</h2>
-            <ul className="divide-border divide-y">
+          // 「次に進む入口」（ガイドへ）はカード枠にまとめる
+          <section className="border-rule mb-section rounded-xl border px-4 pt-4 pb-1 md:px-5">
+            <SectionHeading className="mb-0">{t("experiencesTitle")}</SectionHeading>
+            <ul className="divide-rule divide-y">
               {experiences.map((g) => (
                 <li key={g.slug}>
-                  <Link
+                  <IndexRow
                     href={`/guide/${g.slug}`}
-                    className="hover:bg-muted/40 -mx-2 block rounded-md px-2 py-3 transition-colors"
-                  >
-                    <span className="flex flex-wrap items-baseline gap-2">
-                      <span className="font-medium">{g.title}</span>
-                      <span className="text-muted-foreground text-xs">{tg(`kind.${g.kind}`)}</span>
-                    </span>
-                    {g.whenNote && (
-                      <span className="text-muted-foreground mt-1 block text-xs">{g.whenNote}</span>
-                    )}
-                  </Link>
+                    name={g.title}
+                    summary={g.whenNote}
+                    labels={<LabelChip>{tg(`kind.${g.kind}`)}</LabelChip>}
+                  />
                 </li>
               ))}
             </ul>
@@ -184,27 +190,16 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
 
         {/* 隣の土地へ（行き止まり禁止。掲載がある隣接県だけが並ぶ） */}
         {neighbors.length > 0 && (
-          <section className="border-border mb-8 border-t pt-6">
-            <h2 className="mb-3 text-sm font-semibold">{t("neighborsTitle")}</h2>
-            <ul className="flex flex-wrap gap-2">
-              {neighbors.map((p) => (
-                <li key={p}>
-                  <Link
-                    href={`/region/${PREF_SLUGS[p]}`}
-                    className="bg-muted text-muted-foreground hover:bg-muted/70 inline-block rounded-full px-3 py-1 text-xs"
-                  >
-                    {tp(p)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <section className="border-rule mb-stack border-t pt-stack">
+            <SectionHeading variant="label">{t("neighborsTitle")}</SectionHeading>
+            <LinkCloud
+              items={neighbors.map((p) => ({ key: p, href: `/region/${PREF_SLUGS[p]}`, label: tp(p) }))}
+            />
           </section>
         )}
 
-        <p className="mb-8">
-          <Link href="/" className="text-sm underline">
-            {t("viewOnMap")}
-          </Link>
+        <p className="mb-stack">
+          <ArrowLink href="/">{t("viewOnMap")}</ArrowLink>
         </p>
       </div>
 

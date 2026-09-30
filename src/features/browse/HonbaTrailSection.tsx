@@ -1,3 +1,4 @@
+import { LabelChip } from "@/components/ui/chip";
 import { Link } from "@/i18n/navigation";
 
 /**
@@ -36,29 +37,27 @@ export function HonbaTrailSection({ heading, countLabel, groups }: Props) {
   if (groups.length === 0) return null;
 
   return (
-    <section aria-labelledby="honba-trail-heading" className="border-border mb-8 border-t pt-6">
-      <h2 id="honba-trail-heading" className="font-serif mb-2 text-lg">
+    <section aria-labelledby="honba-trail-heading" className="border-rule mb-stack border-t pt-stack">
+      <h2 id="honba-trail-heading" className="type-title mb-3">
         {heading}
-        <span className="text-muted-foreground ml-2 text-sm font-normal">{countLabel}</span>
+        <span className="type-caption text-muted-foreground ml-2 font-sans">{countLabel}</span>
       </h2>
       <ul className="space-y-3">
         {groups.map((g) => (
           <li key={g.slug}>
-            <p className="text-sm font-medium">{g.name}</p>
-            <ul className="mt-1 flex flex-wrap gap-1.5">
+            <p className="type-small font-semibold">{g.name}</p>
+            <ul className="mt-0.5 flex flex-wrap gap-x-3 gap-y-0.5">
               {g.cities.map((c) => (
                 <li key={c.key}>
                   {c.prefSlug ? (
                     <Link
                       href={`/region/${c.prefSlug}`}
-                      className="border-border bg-background text-muted-foreground hover:bg-muted/60 rounded-full border px-2 py-0.5 text-xs transition-colors"
+                      className="type-note text-muted-foreground hover:text-foreground link-underline"
                     >
                       {c.label}
                     </Link>
                   ) : (
-                    <span className="border-border bg-background text-muted-foreground rounded-full border px-2 py-0.5 text-xs">
-                      {c.label}
-                    </span>
+                    <LabelChip>{c.label}</LabelChip>
                   )}
                 </li>
               ))}

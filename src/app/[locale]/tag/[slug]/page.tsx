@@ -1,9 +1,12 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
-import { Link } from "@/i18n/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CoverHeader } from "@/components/CoverHeader";
+import { IndexRow } from "@/components/IndexRow";
+import { SectionHeading } from "@/components/SectionHeading";
+import { LabelChip } from "@/components/ui/chip";
+import { ArrowLink, LinkCloud } from "@/components/ui/text-link";
 import {
   fetchRelatedTags,
   fetchShelves,
@@ -12,6 +15,7 @@ import {
   type Locale,
 } from "@/features/map/queries";
 import { localeAlternates } from "@/lib/seo";
+import { englishGloss } from "@/lib/names";
 
 /**
  * タグ詳細ページ（`/tag/[slug]`）。
@@ -41,6 +45,7 @@ export default async function TagPage({ params }: { params: Promise<Params> }) {
   if (!tag) notFound();
 
   const t = await getTranslations("tag");
+  const th = await getTranslations("header");
   const isJa = locale === "ja";
 
   const [items, relatedTags, shelves] = await Promise.all([
@@ -55,32 +60,29 @@ export default async function TagPage({ params }: { params: Promise<Params> }) {
     <main className="mx-auto w-full max-w-2xl flex-1 py-8 md:max-w-3xl">
       <div className="px-4 md:px-0">
         <CoverHeader
+          eyebrow={th("navInterest")}
           title={isJa ? tag.nameJa : tag.nameEn}
           subtitle={isJa ? tag.nameEn : tag.nameJa}
           meta={`${tag.definition} ・ ${t("count", { count: items.length })}`}
         />
       </div>
 
-      <div className="px-4 pt-8 md:px-0">
-        <section className="mb-10">
-          <ul className="divide-border divide-y">
+      <div className="px-4 pt-stack md:px-0">
+        <section className="mb-section">
+          <ul className="divide-rule divide-y">
             {items.map((item) => {
               const breadcrumb = item.genreNameJa
                 ? `${shelfName.get(item.shelfSlug) ?? item.shelfSlug} ── ${isJa ? item.genreNameJa : item.genreNameEn}`
                 : (shelfName.get(item.shelfSlug) ?? item.shelfSlug);
               return (
                 <li key={item.slug}>
-                  <Link
+                  <IndexRow
                     href={`/${item.genreSlug ?? item.shelfSlug}/${item.slug}`}
-                    className="hover:bg-muted/40 -mx-2 block rounded-md px-2 py-3 transition-colors"
-                  >
-                    <span className="text-muted-foreground block text-xs">{breadcrumb}</span>
-                    <span className="block font-medium">{isJa ? item.nameJa : item.nameRomaji}</span>
-                    <span className="text-muted-foreground block text-xs">
-                      {item.nameJa} — {item.nameRomaji}
-                      {item.nameEn ? ` — ${item.nameEn}` : ""}
-                    </span>
-                  </Link>
+                    name={isJa ? item.nameJa : item.nameRomaji}
+                    aside={isJa ? item.nameRomaji : item.nameJa}
+                    gloss={englishGloss(item.nameEn, item.nameRomaji)}
+                    labels={<LabelChip>{breadcrumb}</LabelChip>}
+                  />
                 </li>
               );
             })}
@@ -88,28 +90,21 @@ export default async function TagPage({ params }: { params: Promise<Params> }) {
         </section>
 
         {relatedTags.length > 0 && (
-          <section className="border-border mb-8 border-t pt-6">
-            <h2 className="mb-3 text-sm font-semibold">{t("relatedTitle")}</h2>
-            <ul className="flex flex-wrap gap-2">
-              {relatedTags.map((rt) => (
-                <li key={rt.slug}>
-                  <Link
-                    href={`/tag/${rt.slug}`}
-                    className="bg-muted text-muted-foreground hover:bg-muted/70 inline-block rounded-full px-3 py-1 text-xs"
-                  >
-                    {isJa ? rt.nameJa : rt.nameEn}
-                    <span className="ml-1">{rt.itemCount}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <section className="border-rule mb-stack border-t pt-stack">
+            <SectionHeading variant="label">{t("relatedTitle")}</SectionHeading>
+            <LinkCloud
+              items={relatedTags.map((rt) => ({
+                key: rt.slug,
+                href: `/tag/${rt.slug}`,
+                label: isJa ? rt.nameJa : rt.nameEn,
+                count: rt.itemCount,
+              }))}
+            />
           </section>
         )}
 
-        <p className="mb-8">
-          <Link href="/tags" className="text-sm underline">
-            {t("allTagsLink")}
-          </Link>
+        <p className="mb-stack">
+          <ArrowLink href="/tags">{t("allTagsLink")}</ArrowLink>
         </p>
       </div>
 

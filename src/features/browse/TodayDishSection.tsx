@@ -1,4 +1,5 @@
-import { Link } from "@/i18n/navigation";
+import { LabelChip } from "@/components/ui/chip";
+import { ArrowLink } from "@/components/ui/text-link";
 
 import type { BrowseItem, Locale } from "@/features/map/queries";
 
@@ -26,23 +27,19 @@ type Props = {
 
 export function TodayDishSection({ heading, item, locale, originCaption, originLabel, detailLabel }: Props) {
   return (
-    <section aria-labelledby="today-dish-heading" className="border-border mb-8 border-t pt-6">
-      <h2 id="today-dish-heading" className="font-serif mb-2 text-lg">
+    <section aria-labelledby="today-dish-heading" className="border-rule mb-stack border-t pt-stack">
+      <h2 id="today-dish-heading" className="type-title mb-3">
         {heading}
       </h2>
-      <div className="border-border bg-background rounded-2xl border p-3">
-        <p className="font-medium">{locale === "ja" ? item.nameJa : item.nameRomaji}</p>
-        {item.bodyExcerpt && (
-          <p className="text-muted-foreground mt-1 text-sm leading-relaxed">{item.bodyExcerpt}</p>
-        )}
-        <div className="mt-2 flex flex-wrap items-center gap-2">
-          <span className="border-border bg-background text-muted-foreground rounded-full border px-2 py-0.5 text-xs">
+      <div className="border-primary border-l-[3px] pl-3">
+        <p className="type-heading">{locale === "ja" ? item.nameJa : item.nameRomaji}</p>
+        {item.bodyExcerpt && <p className="type-small text-muted-foreground mt-1">{item.bodyExcerpt}</p>}
+        <div className="mt-2 flex flex-wrap items-center gap-3">
+          <LabelChip>
             <span className="sr-only">{originCaption}: </span>
             {originLabel}
-          </span>
-          <Link href={`/${item.genreSlug ?? item.shelfSlug}/${item.slug}`} className="text-sm underline">
-            {detailLabel}
-          </Link>
+          </LabelChip>
+          <ArrowLink href={`/${item.genreSlug ?? item.shelfSlug}/${item.slug}`}>{detailLabel}</ArrowLink>
         </div>
       </div>
     </section>
