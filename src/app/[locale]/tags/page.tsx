@@ -6,6 +6,10 @@ import { CoverHeader } from "@/components/CoverHeader";
 import { fetchTagsWithCounts } from "@/features/map/queries";
 import { localeAlternates } from "@/lib/seo";
 
+// ISR: cookie を読まない static クライアントで取得しているため 5 分キャッシュにできる
+// （2026-09-30 本番で Cloudflare 1102「Worker exceeded resource limits」を観測。都度描画の CPU を減らす）
+export const revalidate = 300;
+
 /**
  * `/tags` 一覧（「興味からさがす」の入口。CLAUDE.md参照）。
  *

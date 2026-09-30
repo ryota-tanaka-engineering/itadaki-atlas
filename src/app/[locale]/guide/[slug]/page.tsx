@@ -11,6 +11,10 @@ import { PositionBand } from "@/features/map/PositionBand";
 import { localeAlternates } from "@/lib/seo";
 import type { Prefecture } from "@/lib/prefectures";
 
+// ISR: cookie を読まない static クライアントで取得しているため 5 分キャッシュにできる
+// （2026-09-30 本番で Cloudflare 1102「Worker exceeded resource limits」を観測。都度描画の CPU を減らす）
+export const revalidate = 300;
+
 /**
  * ガイド詳細ページ（`/guide/[slug]`。CLAUDE.md「ページ型」節）。
  *

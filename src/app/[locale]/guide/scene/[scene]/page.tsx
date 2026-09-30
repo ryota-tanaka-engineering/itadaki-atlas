@@ -9,6 +9,10 @@ import { findGuideScene, GUIDE_SCENES, fetchGuidesForScene } from "@/features/gu
 import { fetchGenres } from "@/features/map/queries";
 import { localeAlternates } from "@/lib/seo";
 
+// ISR: cookie を読まない static クライアントで取得しているため 5 分キャッシュにできる
+// （2026-09-30 本番で Cloudflare 1102「Worker exceeded resource limits」を観測。都度描画の CPU を減らす）
+export const revalidate = 300;
+
 /**
  * 場面ページ（`/guide/scene/[scene]`。2026-09-24「場面」。
  * data/ledgers/GUIDE_SCENES_IMPL_BRIEF.md §6）。

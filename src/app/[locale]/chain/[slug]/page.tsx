@@ -11,6 +11,10 @@ import { ChainDetailBody } from "@/features/map/ChainDetailBody";
 import type { ConnectionCard } from "@/features/map/ItemConnections";
 import { localeAlternates } from "@/lib/seo";
 
+// ISR: cookie を読まない static クライアントで取得しているため 5 分キャッシュにできる
+// （2026-09-30 本番で Cloudflare 1102「Worker exceeded resource limits」を観測。都度描画の CPU を減らす）
+export const revalidate = 300;
+
 /**
  * チェーン独立ページ（SEOの流入起点。/[genre]/[slug] のセクション表示とは別のURL）。
  *
