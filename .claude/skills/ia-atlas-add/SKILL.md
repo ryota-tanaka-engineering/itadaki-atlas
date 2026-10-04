@@ -49,6 +49,8 @@ description: itadaki-atlas に何かを追加するときの唯一の入口。�
 
 ## 2. 部隊を起動する（量産は `research-fleet` の規律で）
 
+- **部隊が Web に出られない環境**（クラウドセッション等）では、指示書に「確信のある安定した一次資料の URL だけを書き、深い階層を作らない。確信が無ければ上の階層のページを出典にして notes に明記」の規律を足し、投入前に手元で `node scripts/check-source-urls.ts <束>` を流す（SOY_BRIEF.md / VEGETABLES_BRIEF.md の「出典（Web 不可環境の規律）」節が見本）
+
 - 指示書は `references/fleet-brief.md` を**全文転記**し、`{{ }}` を埋める（部隊は会話文脈を持たない）。1 の答えを「構造」節に転記する
 - 部隊の出力は束 JSON 1本（形式は `references/content-json.md`）。**5件ごとに途中保存・一意なスクリプト名**（共有ディレクトリで `build.py` が上書きされた事故あり）
 - 起動前に `scratchpad` の `all-slugs.txt` / `existing-relation-pairs.txt` を DB から更新する（下記 3.0）
@@ -68,6 +70,8 @@ cp <scratchpad>/…/<name>.json data/content/<name>.json
 
 # 3.2 検証と展開だけ（DB に触らない）→ 展開された data/content/<name>/ を目視（name_en のカンマ、見出し）
 npm run content:import -- --file data/content/<name>.json --dry-run
+# 3.2.5 出典 URL の疎通（部隊が Web に出られない環境で書いた束は URL 未確認で届く。200 以外を直してから次へ）
+node scripts/check-source-urls.ts data/content/<name>.json
 
 # 3.3 ローカル投入（genres→tags→items→regenre→regions→item-tags→bodies→chains の順。途中で止まれば段名が出る）
 npm run content:import -- --file data/content/<name>.json
