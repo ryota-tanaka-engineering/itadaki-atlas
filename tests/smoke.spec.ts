@@ -513,6 +513,51 @@ test.describe("カバーの事実チップ（2026-09 本番体験レビュー「
   });
 });
 
+test.describe("詳細ページの情報を厚くする（2026-10。ユーザー「詳細の方に情報を厚くすべき」）", () => {
+  test("チェーンが推薦するアイテムの詳細に「全国で近い味に出会うなら」が出て、推薦リストに自分は含まれない", async ({ page }) => {
+    // 一蘭・一風堂などが博多ラーメンを推薦している（data/chains.json）。逆引きで詳細に出る
+    await page.goto("/ja/ramen/hakata");
+    const section = page.locator("section", { hasText: "全国で近い味に出会うなら" });
+    await expect(section.getByRole("heading", { name: "全国で近い味に出会うなら" })).toBeVisible();
+    await expect(section.getByRole("link", { name: "一蘭" })).toBeVisible();
+    await expect(section.locator('a[href="/ja/ramen/hakata"]')).toHaveCount(0);
+    // 久留米（一蘭の他の推薦先）へは渡れる
+    await expect(section.getByRole("link", { name: /久留米ラーメン/ }).first()).toBeVisible();
+  });
+
+  test("/en でも英語見出しでチェーン節が出る", async ({ page }) => {
+    await page.goto("/en/ramen/hakata");
+    await expect(page.getByRole("heading", { name: "Chains that trace back to this" })).toBeVisible();
+  });
+
+  test("どのチェーンにも推薦されていないアイテムにはチェーン節が出ない", async ({ page }) => {
+    await page.goto("/ja/ramen/zz-fixture-published-a");
+    await expect(page.getByRole("heading", { name: "全国で近い味に出会うなら" })).toHaveCount(0);
+  });
+
+  // 以下2本は data/howto/ramen-*.json の投入（scripts/import-howto.ts）後に通る。
+  // 投入前のDBでは 4章目・麺・濃さが無いため失敗する（ia-atlas-add Skill §3.5）。
+  test("4章目「どう食べるのか」が目次と本文に出る（howto 投入後）", async ({ page }) => {
+    await page.goto("/ja/ramen/sapporo");
+    const toc = page.locator("nav:visible", { hasText: "目次" });
+    const link = toc.getByRole("link", { name: /どう食べるのか/ });
+    await expect(link).toBeVisible();
+    await expect(link).toHaveAttribute("href", "#ch-4");
+    await expect(page.getByRole("heading", { name: "どう食べるのか", level: 2 })).toBeVisible();
+    await page.goto("/en/ramen/sapporo");
+    await expect(page.getByRole("heading", { name: "How to eat it", level: 2 })).toBeVisible();
+  });
+
+  test("カバーの事実チップに麺と濃さが出る（howto 投入後）", async ({ page }) => {
+    await page.goto("/ja/ramen/sapporo");
+    await expect(page.getByText(/^麺: /)).toBeVisible();
+    await expect(page.getByText(/^濃さ: /)).toBeVisible();
+    await page.goto("/en/ramen/sapporo");
+    await expect(page.getByText(/^Noodles: /)).toBeVisible();
+    await expect(page.getByText(/^Richness: /)).toBeVisible();
+  });
+});
+
 test.describe("データ駆動ページ（行を足すと増える機械）", () => {
   test("ジャンルページ: 系統別の一覧と三点セット", async ({ page }) => {
     await page.goto("/ja/ramen");

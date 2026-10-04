@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "slug": "hirauchi-tanmen",
+      "howto_ja": "野菜炒めをのせるタンメンの型なので、注文時に麺の量を選べる店が多く、野菜を増やせる店もある。卓上には胡椒と酢、ラー油が置かれていることが多いが顔ぶれは店による。まずはそのまま塩味のスープを確かめ、半ばで胡椒を振るか酢を少し垂らすと後味が軽くなる。\n\n幅の広い平打ち麺は汁を吸ってふくらむので、野菜と麺を交互に口へ運び、麺が伸びる前に食べ進めるのがよいとされる。丼が大きく食べごたえがあるため、昼の一杯として選ばれることが多い。",
+      "howto_en": "Tanmen is a stir-fried-vegetable bowl, so many shops let you pick a noodle portion, and some will pile on extra vegetables on request. Pepper, vinegar and chili oil (rayu) are the usual table companions, though every shop sets out its own. Taste the salt broth plain first, then try a shake of pepper or a few drops of vinegar halfway through to lighten the finish.\n\nThe wide, flat noodles swell as they drink up the broth, so alternate bites of noodle and vegetable and keep a steady pace rather than letting the bowl sit. It is a filling bowl, often chosen for lunch.",
+      "noodle_thickness": "太",
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺は平打ち（語彙に無い）のため curl は null。太さは本文「太い麺」から 太。"
+    },
+    {
+      "slug": "hiroshima",
+      "howto_ja": "豚骨醤油の型だが、替え玉を置く店と置かない店があるので、量が欲しければ大盛で頼むのが無難とされる。麺の硬さを指定できる店もあるが、固ゆでが基本なので、初めてはそのまま頼むと型が分かりやすい。\n\n卓上には胡椒と、店によってはおろしにんにくやラー油が置かれる。まろやかなスープなので最初は何も足さずに飲み、途中で胡椒を少し振ると輪郭が立つ。細麺は伸びやすいため、スープを一口味わったらすぐ麺に取りかかるとよい。日常の一杯として食べられてきた型で、ライスを添える客も多い。",
+      "howto_en": "This is a pork-bone soy bowl, but not every shop here offers kaedama — a refill of noodles — so if you want more, ordering a large portion (omori) is the safer bet. Some shops let you choose noodle firmness; the standard is already on the firm side, so a first bowl ordered plain shows the style clearly.\n\nPepper is the usual table condiment, with grated garlic or chili oil at some shops. Because the broth is mellow rather than heavy, drink it plain first and add a shake of pepper partway through to sharpen the edges. The thin noodles soften quickly, so move on to them soon after the first sip. It has long been an everyday bowl, and a side of rice is a common pairing.",
+      "noodle_thickness": "細",
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": ""
+    },
+    {
+      "slug": "hiroshima-kaki-ramen",
+      "howto_ja": "麺の量やのせる牡蠣の個数を選べる店があるので、初めてなら牡蠣は控えめから試し、気に入れば次に増やす頼み方ができる。レモンなど柑橘が添えられていたら、まずは絞らずにスープを飲んで牡蠣の甘みを確かめ、半ばで絞って後味を切り替えるのがよいとされる。\n\n卓上の薬味は胡椒程度の店が多く、牡蠣の香りを邪魔しないよう控えめに使う。細いストレート麺は伸びやすいので早めにすすり、牡蠣は最後に残さず途中で崩しながら食べるとスープに磯の香りが移る。牡蠣の身が太る冬場に食べに行く人が多いという。",
+      "howto_en": "Some shops let you choose the noodle portion and the number of oysters on top, so a first-timer can start small and order more next time if it suits. If a lemon wedge comes with it, drink the broth plain first to catch the oyster's sweetness, then squeeze partway through to change the finish.\n\nTable seasonings are usually limited to pepper, and a light hand keeps the oyster aroma intact. The thin straight noodles soften quickly, so start on them early; breaking into the oysters midway, rather than saving them for last, lets their briny flavor seep into the broth. Many people seek this bowl out in winter, when the oysters are at their plumpest.",
+      "noodle_thickness": "細",
+      "noodle_curl": "ストレート",
+      "richness": 2,
+      "notes": ""
+    },
+    {
+      "slug": "hiroshima-shirunashi-tantanmen",
+      "howto_ja": "注文時に辛さと痺れの段階を選べる店が多く、初めてなら中程度から始めると花椒の刺激がつかみやすい。温泉卵は最初からのる店も追加の店もある。供されたら食べる前に**20〜30回**かき混ぜ、底のたれを麺全体にまとわせるのがこの型の決まりごとで、混ぜが足りないと味が偏る。\n\n卓上には花椒や酢、ラー油が置かれる店が多く、痺れに慣れてきたら花椒を足し、酢を回しかけると後味が変わる。麺を食べ終えたあと、残ったたれにライスを入れる〆が定着している店もあるので、ライスを頼むか迷ったら店に聞くとよい。",
+      "howto_en": "Most shops let you pick a level of heat and of numbing spice (shibire); a mid-level order is a good first read on the Sichuan pepper. A soft onsen egg may come on top or be an add-on. Once the bowl arrives, stir it **20 to 30 times** before the first bite — the sauce sits at the bottom, and this style only comes together when every strand is coated.\n\nExtra Sichuan pepper, vinegar and chili oil are usually on the table; add pepper as your mouth adjusts, or a splash of vinegar to shift the finish. At many shops the custom is to finish by adding rice to the sauce left in the bowl, so ask whether rice is on offer when you order.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": null,
+      "notes": "汁なしのためスープ尺度（richness）に当てはまらず null。麺の記述も本文に無い。"
+    },
+    {
+      "slug": "hiroshima-tsukemen",
+      "howto_ja": "注文時に辛さの段階と麺の量を選べる店が多く、辛さは唐辛子の量で決まるので、初めてなら控えめから始めるのが無難とされる。麺は冷たく締めて出るのが基本で、温かい麺に替えられる店もある。\n\nキャベツなどの茹で野菜とゆで卵が別皿で添えられるので、麺、野菜、卵の順にたれへくぐらせながら行き来する。卓上の酢やラー油、ごまを途中で足して味を変えるのがこの型の楽しみ方で、酢を増やすと後味が軽くなる。食べ終えたらたれをスープで割る「麺湯」を頼める店がある。通年の店が多いが、暑い時期に選ぶ人が多い。",
+      "howto_en": "Most shops ask you to choose a spice level and a noodle portion; the heat comes from chili, so a mild level is the safe first order. Noodles come chilled by default, though some shops will serve them warm on request.\n\nBoiled cabbage and a boiled egg arrive on a side plate, and the usual rhythm is to dip noodles, then vegetables, then egg, going back and forth. Vinegar, chili oil and sesame on the table are there for adjusting the sauce midway — more vinegar lightens the finish. When the noodles are gone, some shops offer menyu, the dipping sauce thinned with hot soup, to round off the heat. It is served year-round, but many people reach for it in hot weather.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺の太さ・形は本文に記述なし。つけだれは醤油にラー油・酢を合わせた薄いたれのため 2 とした（要判断）。"
+    },
+    {
+      "slug": "hitachinaka-stamina",
+      "howto_ja": "注文時に「ホット」と「冷やし」のどちらかを選ぶのがこの型の基本で、名物とされるのは冷やし。冷たく締めた麺に熱いあんがかかるので、最初は温度差を楽しみ、あんが麺に馴染んでから全体を混ぜると味が落ち着く。ホットは汁があり、寒い時期に選ぶ人が多い。\n\n卓上には胡椒や酢、ラー油が置かれることが多く、甘辛いあんに酢を少し加えると後味が軽くなる。あんのとろみで最後まで冷めにくいが、冷やしは麺がくっつきやすいので早めにほぐして食べ進める。量が多めの店が多く、昼にしっかり食べたいときの一杯とされる。",
+      "howto_en": "The first choice at the counter is **hot or cold**: 'hot' comes with broth, while 'hiyashi' — the version the town is known for — pours the hot, sweet-spicy glaze over chilled noodles. Enjoy the temperature contrast at first, then stir once the glaze has settled onto the noodles. Hot is the cold-weather pick; hiyashi is what many order the rest of the year.\n\nPepper, vinegar and chili oil are commonly on the table, and a touch of vinegar lightens the sweet glaze toward the end. The thickened sauce keeps the bowl warm, but chilled noodles clump as they sit, so loosen them early and keep a steady pace. Portions tend to be generous, making it a bowl for a serious lunch.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": null,
+      "notes": "あんかけ（冷やしは汁なし）のためスープ尺度に当てはまらず null。麺の記述も本文に無い（各店独自）。"
+    },
+    {
+      "slug": "hitachiomiya",
+      "howto_ja": "具が豆腐と長ネギだけの型なので、まずはそのまま赤味噌と白味噌の配合を味わうのがよいとされ、ライスを添えると味噌汁の延長のように食べやすい。豆腐が熱いので、最初は箸で角を少し崩してスープごとすくい、味噌汁のように飲み進めると全体の輪郭がつかめる。\n\n卓上には胡椒や一味、ラー油が置かれる店もあるが、味噌のバランスが味の要なので、足すなら後半に少量が無難。細麺は豆腐より早く伸びるため、豆腐を残して先に麺を食べ、最後に豆腐とスープで締める順が食べやすい。家庭の味噌汁の延長として、昼の一杯に向く。",
+      "howto_en": "With nothing but tofu and scallion on top, this bowl is meant to be tasted plain first so the blend of red and white miso can speak; a side of rice turns it into something close to a miso-soup meal. The tofu holds heat, so break a corner off with chopsticks and scoop it up with broth, drinking it the way you would miso soup.\n\nPepper, chili powder or chili oil may be on the table, but the miso balance is the point, so add only a little, and late. The thin noodles soften faster than the tofu does, so eat the noodles first, leave the tofu for the end, and finish with tofu and broth together. It is an extension of the home table and suits a midday meal.",
+      "noodle_thickness": "細",
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "ラードの記述が無い味噌のため 3（要判断）。"
+    },
+    {
+      "slug": "iekei",
+      "howto_ja": "注文時に**麺の硬さ・味の濃さ・脂（鶏油）の量**を「硬め・濃いめ・多め」などの語で指定するのがこの型の習慣で、初めてなら全部「普通」で頼むと基準が分かる。ライスを合わせる客が多く、海苔をスープに浸してからライスに巻いて食べるのが定番とされる。\n\n卓上にはおろしにんにく、豆板醤、刻み生姜、酢、胡椒が並ぶことが多いが店による。まずそのまま食べ、半ばでにんにくや生姜を足して味を変えるのが通例。鶏油の膜で丼は最後まで熱いので、最初は少しずつ。ほうれん草はスープに沈めて柔らかくしてから食べる。",
+      "howto_en": "The ordering ritual here is to call three preferences — noodle firmness, broth strength and the amount of chicken fat (abura) — as 'katame, koime, oome' (firm, strong, extra) or 'futsuu' (regular) for each; all three regular on a first visit gives you the baseline. Rice is a common partner, and the classic move is to dip the sheet of nori in the broth and wrap it around a mouthful of rice.\n\nGrated garlic, doubanjiang, chopped ginger, vinegar and pepper usually line the counter, though it varies by shop. Eat the first half plain, then add garlic or ginger to shift the flavor. The film of chicken fat keeps the bowl piping hot, so take small sips at first, and let the spinach sink into the broth to soften before eating it.",
+      "noodle_thickness": "太",
+      "noodle_curl": "ストレート",
+      "richness": 4,
+      "notes": ""
+    },
+    {
+      "slug": "imabari-ramen",
+      "howto_ja": "小魚だしの淡い塩味なので、注文は麺の量を選ぶ程度で、味の濃さや脂の指定をする型ではない。島レモンが添えられていたら、まずは絞らずにスープを飲んで鯛やいりこの香りを確かめ、半ばで絞ると後味が軽くなる。\n\n卓上の薬味は胡椒や一味程度の店が多く、だしの香りを消さないよう少量にとどめる。多加水の細ちぢれ麺は伸びにくいが、淡いスープは冷めると香りが落ちるので、温かいうちに麺を食べ進める。すまきは早めに崩さず最後まで形を残すと食感の違いが楽しめる。短い休憩で食べられる軽さが持ち味で、昼に選ばれることが多い。",
+      "howto_en": "With a light salt broth drawn from small fish, there is little to specify beyond the noodle portion — this is not a bowl for calling firmness or richness. If a wedge of island lemon comes with it, drink the broth plain first to catch the sea bream and sardine, then squeeze it in halfway to lighten the finish.\n\nTable condiments are usually limited to pepper or chili powder, and a small amount keeps the dashi aroma intact. The springy curly noodles hold up well, but the delicate broth loses its scent as it cools, so keep moving while it is hot. Leave the sumaki fish cake whole until late for a change of texture. Its lightness suits a short lunch break.",
+      "noodle_thickness": "細",
+      "noodle_curl": "ちぢれ",
+      "richness": 1,
+      "notes": ""
+    },
+    {
+      "slug": "inaniwa-chuka",
+      "howto_ja": "乾麺を使う型なので、店で食べる場合は麺の硬さを指定するより、ゆで上がりのつるりとした喉ごしをそのまま味わうのがよいとされる。土産用の乾麺としても売られており、家で作るならゆで時間を守り、湯をよく切ってから澄んだスープに入れると表面の滑らかさが保てる。\n\n卓上には胡椒や七味が置かれることが多いが、比内地鶏と魚介の香りが軸なので、入れるなら後半に少量が無難。極細の麺は汁を吸って早く伸びるため、先に麺を食べ進め、スープは最後にゆっくり飲むのが向く。乾麺ゆえ季節を問わず、持ち帰って家で再現する人も多い。",
+      "howto_en": "Because the noodles are dried rather than fresh, there is little point in specifying firmness at a shop; the slick, springy texture straight from the boil is the whole idea. The noodles are also sold as a souvenir, and at home the keys are to keep to the stated boiling time and drain well before sliding them into the clear broth so the surface stays smooth.\n\nPepper or shichimi chili blend is often on the table, but Hinai chicken and seafood carry the aroma, so add a pinch late if at all. Very thin noodles drink up broth and soften fast, so eat them first and sip the broth at the end. It keeps in any season, and many people carry it home to recreate.",
+      "noodle_thickness": "極細",
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "手延べ乾麺は一般にストレートだが本文に明記が無いため curl は null。"
+    },
+    {
+      "slug": "iwanai-tempura",
+      "howto_ja": "注文時に塩か醤油かを選べる店が多く、海老天の本数を増やせる店もある。天ぷらは注文後に揚げる店が多いので、少し待つ心づもりで頼む。\n\n卓上は胡椒程度の店が多く、あっさりしたスープを崩さないよう控えめに使う。食べ方の要は海老天で、最初は衣がさくさくのうちに一本をかじり、残りはスープに沈めて衣が汁を吸って崩れていく変化を楽しむのがこの型の持ち味とされる。衣の油がスープに溶けて後半はコクが増すので、中細のちぢれ麺はその前に食べ進めるとよい。天ぷらそばの延長として、町の食堂で昼に食べられてきた型。",
+      "howto_en": "Many shops let you choose between salt and soy for the broth, and some will add extra shrimp tempura on request. The tempura is often fried to order, so expect a short wait.\n\nPepper is usually the only thing on the table, and a light touch keeps the clear broth clean. The shrimp is the point: bite into one piece while the batter is still crisp, then let the other sink and watch the coating soak up broth and soften — that change is part of the style. As the batter's oil melts into the soup the second half turns richer, so work through the thin wavy noodles before then. It descends from tempura soba and is eaten as an everyday lunch in the town's diners.",
+      "noodle_thickness": "中細",
+      "noodle_curl": "ちぢれ",
+      "richness": 2,
+      "notes": ""
+    },
+    {
+      "slug": "iwatsuki-tofu",
+      "howto_ja": "辛さを抑えた型なので、辛さの段階を選ぶ注文は基本的になく、麺の量を選ぶ程度。ライスを添えると豆腐とひき肉の餡がおかずになるので、一緒に頼む客も見られる。\n\n卓上にはラー油や酢、胡椒が置かれることが多く、辛さが欲しければラー油を途中で足すのがこの型での調整とされる。餡がスープの表面を覆って熱を閉じ込めるので、最初はスープと餡を少しずつすくい、ひし形の豆腐は箸で割らずに口へ運ぶと舌ざわりが残る。半ばで全体を軽く混ぜると餡が麺に絡み、後半の印象が変わる。公園の食堂生まれで、外出の合間の昼に向く。",
+      "howto_en": "Since the bowl is deliberately mild, there is no spice level to choose — usually just the noodle portion. A side of rice pairs well, as the tofu-and-pork sauce doubles as a topping for it.\n\nChili oil, vinegar and pepper are the usual table set, and adding chili oil midway is how you dial up the heat in this style. The thickened sauce seals in heat, so take small spoonfuls of broth and sauce at first, and carry the diamond-cut tofu to your mouth whole rather than breaking it, to keep its silky texture. A gentle stir halfway blends the sauce into the noodles and changes the second half. Born in a park restaurant, it is a lunchtime bowl for a day out.",
+      "noodle_thickness": null,
+      "noodle_curl": "ちぢれ",
+      "richness": 2,
+      "notes": "本文は「中太から中細のちぢれ麺」と幅があるため太さは null（要判断: 中細か中太のどちらかに寄せるなら中細）。"
+    },
+    {
+      "slug": "joetsu-miso",
+      "howto_ja": "白みそのまろやかな型で、注文は麺の量を選ぶ程度のことが多い。にんにくがすでに効いているので、初めてはそのままで頼む。\n\n卓上には胡椒や一味、おろしにんにくが置かれることが多いが店による。白みその甘さに飽きたら後半で一味を少し振ると引き締まる。もちもちの中太ちぢれ麺はスープをよく持ち上げるので、麺と一緒にスープを飲む形で進め、玉ねぎの甘みが溶けたスープは最後まで飲み干す人が多い。寒い時期に体を温める一杯として地元で選ばれてきた型で、昼夜どちらでも食べられる。",
+      "howto_en": "A mellow white-miso bowl with little to specify beyond the noodle portion. Garlic is already built into the broth, so order it plain the first time.\n\nPepper, chili powder and grated garlic are typical on the table, though it varies. If the white miso's sweetness starts to feel one-note, a pinch of chili late in the bowl tightens it up. The chewy, medium-thick wavy noodles lift plenty of broth, so eat them with a sip of soup each time; many people drink the onion-sweet broth to the bottom. Locals have long reached for it as a warming bowl in the cold months, and it works at lunch or dinner alike.",
+      "noodle_thickness": "中太",
+      "noodle_curl": "ちぢれ",
+      "richness": 3,
+      "notes": "ラードの記述が無い味噌のため 3（要判断）。"
+    },
+    {
+      "slug": "joetsu-sakekasu",
+      "howto_ja": "参加店ごとに味噌仕立て・つけ麺・タンメン仕立てなど形が違うので、注文の前にどの型かを店に確かめるのがこの企画の前提。麺の量や辛さの指定は型ごとに異なり、店の案内に従う。\n\n卓上の薬味も店によるが、酒かすの香りが持ち味なので、まずはそのまま飲んで熟成香を確かめ、薬味は後半に少量にとどめる。発酵食品や雪室野菜のトッピングは沈める前に一口ずつ味わうと、酒かすとの重なりが分かりやすい。酒かすはアルコール分が残る場合があり、運転前や子ども連れなら店で確認する。食べ比べる前提の企画とされる。",
+      "howto_en": "Each participating shop builds its own version — miso, tsukemen, tanmen-style — so the first step is to ask what form that shop's sake-kasu ramen takes. Portion and spice options follow whatever that style normally offers.\n\nTable condiments vary too, but sake lees are the point: drink the broth plain first to catch the mellow, aged aroma, and keep any additions small and late. Taste the fermented toppings and snow-cellar vegetables one by one before they sink, so you can tell how each layers over the sake kasu. Sake lees can retain some alcohol, so ask the shop if you are driving or ordering for children. The project is designed for comparing a few shops rather than settling on one.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": null,
+      "notes": "店ごとに系統が異なる企画物のため、麺・濃さとも null。"
+    }
+  ],
+  "notes": "全14件執筆。属性 null: hiroshima-shirunashi-tantanmen（汁なし・麺記述なし）、hitachinaka-stamina（あんかけ・麺記述なし）、joetsu-sakekasu（店ごとに系統が異なる）、hiroshima-tsukemen（麺記述なし）、iwatsuki-tofu（太さが中太〜中細と幅あり）。要判断: 味噌2件（hitachiomiya / joetsu-miso）はラード記述なしのため richness 3、hiroshima-tsukemen は薄い辛口醤油だれのため 2。Web で裏取りできないため、頼み方・卓上薬味は系統一般の作法の範囲で書き、固有の習慣は本文・概要にあるもの（家系の硬さ・濃さ・脂の指定、汁無し担々麺の20〜30回混ぜ、広島つけ麺の麺湯、スタミナのホット／冷やし、牡蠣ラーメンの個数選択）に限定した。"
+}

@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import {
+  fetchChainsForItem,
   fetchItemBySlug,
   fetchItemByShelfSlug,
   fetchPlaceNames,
@@ -13,6 +14,7 @@ import {
   fetchStyleSiblings,
   type Locale,
 } from "@/features/map/queries";
+import { ChainBridgeSection } from "@/features/map/ChainBridgeSection";
 import { translateCityName } from "@/features/map/placeNames";
 import { styleColor } from "@/features/map/styles";
 import { parseBodyMarkdown } from "@/features/map/markdown";
@@ -75,11 +77,13 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
   const tr = await getTranslations("relation");
   const trr = await getTranslations("regionRelation");
   const tg = await getTranslations("guide");
+  const tc = await getTranslations("chain");
+  const tn = await getTranslations("noodle");
   const isJa = locale === "ja";
 
   // 行き止まり禁止（回遊が価値の中核）。relations に行を足すと双方向で増え、
   // 同県リンクはデータを足すだけで自動で増える
-  const [related, samePrefAll, styleSiblings, beforeYouGoGuides, placeNames] = await Promise.all([
+  const [related, samePrefAll, styleSiblings, beforeYouGoGuides, placeNames, chainsForItem] = await Promise.all([
     fetchRelated(slug, locale as Locale),
     item.originPref
       ? fetchSamePref(slug, item.originPref, locale as Locale)
@@ -96,7 +100,15 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
     // 市区町村名の他言語表記（発祥チップ・本場チップ用。実装部隊の報告「/en の
     // 本場・産地チップに市区町村名が日本語のまま」対応）。ja では不要。
     locale === "en" ? fetchPlaceNames("en") : Promise.resolve({}),
+    // このアイテムを推薦している全国チェーン（2026-10「詳細ページの情報を厚くする」。
+    // 体験原則3「いまの広がり（全国のチェーン）」を詳細ページでも言う。無ければ節ごと出ない）
+    fetchChainsForItem(slug),
   ]);
+  // チェーンの推薦リストから自分自身を除く（「この味が好きなら→自分」は無意味）
+  const chainsNearby = chainsForItem.map((c) => ({
+    ...c,
+    recommendations: c.recommendations.filter((r) => r.slug !== slug),
+  }));
   // 名前つき関係で既に出ているアイテムは同県リストから外す（重複表示を避ける）
   const relatedSlugs = new Set(related.map((r) => r.slug));
   const samePref = samePrefAll.filter((r) => !relatedSlugs.has(r.slug));
@@ -144,6 +156,19 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
     coverFacts.push({ key: "style", label: ts(item.primaryStyle), dotColor: styleColor(item.primaryStyle) });
   }
   if (distanceLabel) coverFacts.push({ key: "distance", label: distanceLabel });
+  // 麺（太さ・形）と濃さ（2026-10。dish_details のフェーズ2属性。未投入なら出ない）。
+  // 値は日本語語彙で、表示名は messages `noodle` で引く（/en: medium-thick, wavy）
+  if (item.noodleThickness || item.noodleCurl) {
+    const parts = [item.noodleThickness, item.noodleCurl].filter((v): v is string => !!v).map((v) => tn(v));
+    coverFacts.push({ key: "noodle", label: `${t("noodle")}: ${parts.join(isJa ? "・" : ", ")}` });
+  }
+  if (item.richness != null && item.richness >= 1 && item.richness <= 5) {
+    coverFacts.push({
+      key: "richness",
+      label: `${t("richness")}: ${t("richnessValue", { level: t(`richnessLevel.${item.richness}`), value: item.richness })}`,
+      meter: { value: item.richness, max: 5 },
+    });
+  }
 
   const coverTags: CoverTag[] = item.tags.map((tag) => ({
     slug: tag.slug,
@@ -298,6 +323,17 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
             <BodyChapters chapters={chapters} />
 
             {/* 発祥・系統は事実チップとしてカバーへ移設済み（重複するため下部の属性欄は廃止） */}
+
+            {/* 全国で近い味に出会うなら（2026-10）: chain_recommendations でこのアイテムを推薦する
+                チェーンを逆引き。ジャンルページと同じ ChainBridgeSection（橋渡し文＋他の推薦先）。
+                推薦が無ければ節ごと出ない */}
+            <ChainBridgeSection
+              heading={t("chainsHeading")}
+              intro={t("chainsIntro")}
+              chains={chainsNearby}
+              locale={locale}
+              prefLimitedLabel={(pref) => tc("prefLimited", { pref: tp(pref as Prefecture) })}
+            />
 
             {/* 3.8 食べに行く前に（作業パッケージ「食べに行く前にガイド」）。
                 genre/shelf/tagsのいずれかにguide_linksで結ばれたガイドが無ければ節ごと出さない。

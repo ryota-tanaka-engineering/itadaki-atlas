@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "slug": "joetsu-tonjiru",
+      "howto_ja": "品書きでは単品のとん汁やとん汁定食と並ぶことが多く、麺入りを名前で選ぶ形になる。大盛やライスを添える客もいるという。卓上には七味や一味が置かれることが多く、半ばで振ると味噌の甘みが締まるが、何が置かれるかは店による。\n\n根菜が大きいまま沈むので、まず汁をひと口、次に具を箸で崩しながら麺と一緒にすすると甘みが均一に回る。味噌の汁は冷めにくいので、最初はゆっくり口に運ぶ。冬の昼どきに体を温める一杯として食べられることが多い。",
+      "howto_en": "On the menu it usually sits beside the shop's regular tonjiru (pork-and-vegetable miso soup) and tonjiru set meals, so you pick the noodle version by name. A larger portion or a side of rice is a common add-on. Shichimi or ichimi (chili pepper blends) are the usual table seasonings; a shake partway through tightens up the miso's sweetness, though what is on the table varies by shop. Start with a sip of broth, then break up the chunky root vegetables with your chopsticks and eat them together with the noodles so the sweetness spreads evenly. Miso soup holds its heat, so take the first mouthfuls slowly. It is mostly eaten as a warming lunch in the cold months.",
+      "noodle_thickness": "中太",
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "richness=3: 味噌＋豚肉の脂だが、ラードを重ねる記述なし。"
+    },
+    {
+      "slug": "jumonji",
+      "howto_ja": "品書きは「中華そば」で、並と大盛が基本。かんすいを控えた麺は軽いので大盛を頼む客も多いという。麺は伸びやすいとされるため、運ばれてきたら早めにすすり始めるのがよい。卓上には胡椒のほか七味や酢が置かれることがあるが店による。\n\nまずはだしの香りをそのまま味わい、麩が汁を吸ったころに崩して食べると口当たりが変わる。縮れ麺が和風だしをよく絡めるので、麺と汁を一緒にすすると持ち味が伝わる。軽い一杯なので、昼の軽食やおやつ代わりに食べられてきたという。",
+      "howto_en": "Order it as chuka soba; most shops offer a regular and a large size, and because the kansui-free noodles sit so lightly, going large is common. The soft noodles are said to lose their bite quickly, so start as soon as the bowl arrives. Pepper is the usual table seasoning, and some places also set out shichimi (chili) or vinegar, but this depends on the shop. Taste the broth plain first to catch the dried-fish and kelp aroma, then break up the fu (wheat-gluten puff) once it has soaked up soup for a change in texture. The wavy noodles hold the thin broth well, so slurp noodles and soup together. It is light enough to have been eaten as a snack between meals, and it still suits a quick, easy lunch.",
+      "noodle_thickness": "細",
+      "noodle_curl": "ちぢれ",
+      "richness": 1,
+      "notes": ""
+    },
+    {
+      "slug": "juusanko-shijimi",
+      "howto_ja": "卓上には胡椒や七味が置かれることが多いが、貝の香りが主役なので、まず何も足さずに汁をひと口飲むのがよいとされる。殻つきで出てくる店では、箸で身を外しながら食べ、殻は丼の縁や取り皿に寄せる。\n\n細めの麺は伸びやすいので先に麺を進め、貝の身は後にとっておくと最後まで味が続く。汁まで飲み干す客が多いといい、器を持ち上げて飲んでも咎められない一杯とされる。冬に体を温める一杯として、また湖畔を訪れた際の昼食として食べられることが多いが、薬味や盛り方は店による。",
+      "howto_en": "Pepper or shichimi (chili) are the usual table seasonings, but the clam aroma is the whole point, so taste the broth before adding anything. Where the clams come in their shells, pick the meat out with your chopsticks as you go and set the shells on the rim of the bowl or a side plate. The thin noodles soften quickly, so eat them first and save the clam meat for later, letting the flavour last to the end. Many people drink the broth down to the last drop, and lifting the bowl to do so is accepted here. It is eaten as a warming bowl in winter and as a lunch stop for visitors to the lakeshore, though seasonings and serving details vary by shop.",
+      "noodle_thickness": "細",
+      "noodle_curl": null,
+      "richness": 1,
+      "notes": ""
+    },
+    {
+      "slug": "kaga-miso",
+      "howto_ja": "味噌ラーメンの常で、味の濃さや脂の量を選べる店もあるが、甘みのある加賀味噌の持ち味を知るには、まず標準で頼むのがよいとされる。大盛やライスを添える客も多い。卓上には一味や七味、胡椒、おろしにんにくが置かれることが多いが店による。\n\n甘みと発酵のコクが主役なので、最初は何も足さずに汁を味わい、半ばで一味を少し振ると味が締まる。表面の脂で冷めにくいため、最初はゆっくり口に運ぶ。味噌汁の延長として親しまれてきた味で、冬の昼や夜に食べられることが多い。",
+      "howto_en": "As with many miso ramen, some shops let you adjust the strength of the tare or the amount of fat, but to understand the sweet, koji-heavy Kaga miso it is worth ordering it as it comes first. A larger portion or a side of rice is a common pairing. Table seasonings are typically ichimi or shichimi (chili), pepper and grated garlic, though this varies by shop. Since the sweetness and fermented depth are the point, taste the broth plain, then add a pinch of chili halfway through to sharpen it. The finishing fat keeps the soup hot, so go slowly at the start. Locals treat it as an extension of their everyday miso soup, and it is mostly eaten as a warming lunch or dinner in the colder months.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "麺の太さ・形は本文・概要に記述なし。richness は「仕上げの脂」の記述から3としたが、ラードを重ねる型なら4。要判断。"
+    },
+    {
+      "slug": "kagoshima",
+      "howto_ja": "かん水を使わない麺は柔らかく伸びやすいので、硬さの指定より、運ばれてきたら早めに食べ始めるのがよいとされる。量は大盛で調整する店が多い。卓上には紅生姜のほか胡椒やおろしにんにくが置かれることがあるが店による。\n\n温かいお茶と漬物が添えられる店があり、お茶で口を整え、漬物を箸休めにしながら食べる流れがこの土地の習慣として語られる。穏やかなスープなので、薬味は半ばから少しずつ足して変化をつける。昼どきの一杯として食べられることが多く、軽い口当たりなので汁を飲み干す客もいるという。",
+      "howto_en": "The kansui-free noodles are soft and soften further as they sit, so rather than specifying firmness, the key is to start eating as soon as the bowl lands. Portion size is usually handled with a large option. Beni-shoga (pickled red ginger), pepper and grated garlic are the common table items, but what is offered varies by shop. Some places bring hot tea and a small dish of pickles with the bowl; the local way is to clear the palate with the tea and use the pickles as a break between mouthfuls. Because the broth is gentle, hold off on seasonings until midway, then add a little at a time. It is mostly a lunchtime bowl, and the mild soup is light enough that some people finish it to the bottom.",
+      "noodle_thickness": "太",
+      "noodle_curl": "ストレート",
+      "richness": 3,
+      "notes": "richness=3: 「白く濁りきらない」「乳化を強めすぎず」の記述から軽めの白湯と判断。"
+    },
+    {
+      "slug": "kahoku-niku-chuka",
+      "howto_ja": "品書きでは冷たい肉そばと並ぶことが多く、麺を中華に替えた形が肉中華である。注文時に「冷たい」か「温かい」かを聞かれることがあり、土地の流儀は冬でも冷たい方とされるが、温かい仕立てを置く店もある。大盛を頼む客も多いという。\n\n卓上には七味や一味、胡椒が置かれることが多く、半ばで振ると甘じょっぱいタレが締まる。硬めの親鶏チャーシューは噛むほど味が出るので、麺の合間にゆっくり噛む。冷たいタレは麺が伸びにくく、急がずに食べられる。昼の一杯として食べられることが多いが、細部は店による。",
+      "howto_en": "It usually appears on the menu next to cold niku-soba; ask for niku-chuka to get the same tare on Chinese-style noodles. Some shops will ask whether you want it cold (tsumetai) or hot (atatakai). The local way is cold even in midwinter, but a warm version is often available. A large size is a common request. Shichimi or ichimi (chili) and pepper are the usual table seasonings; a shake midway through sharpens the sweet-salty tare. The firm old-hen chashu rewards slow chewing, so alternate it with the noodles. Because the tare is chilled, the noodles keep their bite and there is no need to rush. It is most often eaten as a lunch bowl, though details vary by shop.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 1,
+      "notes": "麺は「コシの強い中華麺」のみで太さ・形の記述なし。richness=1: 冷やし系。"
+    },
+    {
+      "slug": "kamaishi",
+      "howto_ja": "極細麺は茹で上がりが早い分だけ伸びるのも早いので、運ばれてきたらすぐにすするのがよいとされる。硬めの指定を受ける店もあるが、まずは標準で頼むのが無難という。大盛やチャーシュー増しが選択肢にあることが多い。卓上には胡椒や七味が置かれることが多く、にんにくを置く店もある。\n\nあっさりした醤油スープなので、最初は何も足さずに汁をひと口。半ばで胡椒を少し振ると香りが変わる。昼休みの短い時間に食べられてきた一杯で、今も昼どきに手早く食べる客が多いという。回転が速いので、長居せずに食べ切るのがこの土地らしい。",
+      "howto_en": "The ultra-thin noodles cook in moments and soften just as fast, so begin eating the instant the bowl arrives. Some shops take a request for firmer noodles, but ordering it as it comes is the safe first move. A large size or extra chashu is usually on offer. Pepper and shichimi (chili) are the standard table seasonings, and some places add garlic, though this varies. Because the soy broth is light, taste it plain first; a little pepper partway through shifts the aroma. This is a bowl shaped by short factory lunch breaks, and it is still mostly eaten quickly at midday. Shops turn over fast, so finishing without lingering is in keeping with the town's habit.",
+      "noodle_thickness": "極細",
+      "noodle_curl": "ちぢれ",
+      "richness": 2,
+      "notes": ""
+    },
+    {
+      "slug": "kameyama",
+      "howto_ja": "市内で出す店ごとに仕立てが違うので、同じ名前でも味噌の配合や具は店によると心得ておく。大盛やライスを添える客もいるという。卓上には七味や一味、胡椒が置かれることが多く、三種の味噌の甘みと苦みを知るため、最初は何も足さずに汁を飲むのがよいとされる。\n\n太麺は汁をよく持つので、麺と汁を一緒にすする。きのこは種類ごとに食感が違うので、麺の合間に一つずつ味わうと変化が出る。牛骨のだしは冷めると脂が固まりやすいので、途中で止めずに食べ進める。昼の一杯として食べられることが多い。",
+      "howto_en": "Shops that serve it each make their own version, so even under the same name the miso blend and toppings differ from place to place. A large portion or a side of rice is a common addition. Shichimi or ichimi (chili) and pepper are the usual table items; to catch the shifting sweetness and bitterness of the three misos, taste the broth before adding anything. The thick noodles hold plenty of soup, so slurp noodles and broth together. The three mushrooms each have a different texture, so try them one at a time between mouthfuls of noodles. Beef-bone broth tends to set as it cools, so keep eating rather than pausing. It is mostly eaten as a lunch bowl.",
+      "noodle_thickness": "太",
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "richness=3: 牛骨だし＋三種味噌。ラードを重ねる記述なし。"
+    },
+    {
+      "slug": "kamikawa",
+      "howto_ja": "同じ町の中でも味噌か塩かは店ごとに違うので、品書きの先頭にある仕立てを頼むと、その店の看板が分かる。濃いめのスープに合わせて大盛やライスを添える客も多いという。卓上には胡椒やおろしにんにく、一味が置かれることが多いが店による。\n\n白く炊いた豚骨は冷めにくく、口に膜が残る濃さなので、最初はゆっくり汁を飲み、水の甘みを確かめてから麺にかかる。コシのある中太麺は汁をよく持つので、麺と汁を一緒にすする。半ばでにんにくを少し足すと味が変わる。昼どきの一杯として食べられることが多い。",
+      "howto_en": "Which tare leads the bowl, miso or salt, varies from shop to shop within the town, so ordering whatever is listed first on the menu usually gets you that shop's signature. Given the rich broth, a large portion or a side of rice is common. Pepper, grated garlic and ichimi (chili) are the typical table seasonings, though this depends on the shop. The milky pork-bone soup holds its heat and leaves a film on the palate, so sip slowly at first and notice the sweetness of the water before starting on the noodles. The firm, medium-thick noodles carry a lot of broth, so slurp them together. A touch of garlic midway changes the bowl. It is mostly a lunchtime meal.",
+      "noodle_thickness": "中太",
+      "noodle_curl": null,
+      "richness": 4,
+      "notes": ""
+    },
+    {
+      "slug": "kamioka",
+      "howto_ja": "品書きでは「中華そば」として並ぶことが多く、並と大盛を基本に、チャーシュー増しなどを置く店もあるが店による。注文後に丼の中で仕立てるため、麺は運ばれた直後が食べごろで、早めにすするのがよいとされる。卓上には胡椒のほか七味が置かれることがある。\n\n薄口の牛骨だしは加えるものが少ないほど違いが分かるので、最初は何も足さずに汁をひと口。高山の中華そばと食べ比べる人もいるが、別の一杯として向き合うのがよい。働く人の日々の食事として続いてきたので、昼どきに手早く食べる客が多いという。",
+      "howto_en": "It is usually listed simply as chuka soba, with a regular and large size and, at some shops, extra chashu; options are few and vary by place. Because the soup is combined with the tare in the bowl only after you order, the noodles are at their peak the moment they arrive, so start right away. Pepper is the usual table seasoning, and some shops also set out shichimi (chili). The light beef-bone broth shows its character most clearly with nothing added, so taste it plain first. Visitors sometimes compare it with Takayama's chuka soba over the pass, but it is better met as its own bowl. It grew up as a working person's daily meal, and most people still eat it briskly at lunchtime.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺の記述なし。richness=2: 牛骨だが「薄口で軽やか」。"
+    },
+    {
+      "slug": "kanagawa-tanrei",
+      "howto_ja": "家系のように麺の硬さや味の濃さ、脂の量を細かく指定する習慣は薄く、店の仕立てのまま食べるのが基本とされる。品書きは醤油のほか塩を置く店が多く、味玉やチャーシュー増しが選択肢になる。卓上の調味料は少なめで、胡椒程度しか置かない店も多いという。\n\n細いストレート麺は伸びやすいので、運ばれてきたら汁をひと口飲んですぐ麺にかかる。脂が少ない分、何も足さずに食べ切るほうが持ち味が分かるとされる。濃い家系の対極として、昼や軽めの夕食に選ばれることが多いが、細部は店による。",
+      "howto_en": "Unlike iekei ramen, with its custom orders for noodle firmness, tare strength and fat, this style is generally eaten as the shop serves it. Menus often offer a salt (shio) version alongside the soy, with a seasoned egg or extra chashu as the main add-ons. Table seasonings are sparse; many shops put out little more than pepper. The thin straight noodles soften quickly, so take one sip of broth and go straight to the noodles. With so little fat in the soup, finishing the bowl without adding anything is said to be the way to understand it. Standing at the opposite pole from the heavy iekei bowls, it tends to be chosen for lunch or a lighter dinner, though the details vary by shop.",
+      "noodle_thickness": "細",
+      "noodle_curl": "ストレート",
+      "richness": 1,
+      "notes": ""
+    },
+    {
+      "slug": "karamen",
+      "howto_ja": "注文時に辛さの段階を選ぶのがこの型の決まりで、店ごとに段階の数や呼び方が違う。辛さは後から足せても引けないので、初めてなら中程度までに留めると麺の持ち味も分かるとされる。卓上には酢やラー油、追加の唐辛子が置かれることがあり、店による。\n\n卵と挽肉は最初に軽く崩して汁に混ぜると辛さが丸くなる。好みでチーズやトマトを足す食べ方も広まっており、辛さに慣れたら試す客もいる。飲んだあとの〆として生まれた一杯で、夜に食べられることが多いが、今は昼に出す店もある。",
+      "howto_en": "Choosing your heat level when you order is part of this dish; the number of steps and their names differ by shop. First-timers are advised to stay at or below the middle, since you can add heat later but cannot take it away, and a moderate level also lets the firm, buckwheat-blended noodles register. Vinegar, chili oil and extra chili sometimes sit on the table, depending on the shop. Break the egg and minced pork into the soup early; mixing them in rounds off the heat. Adding cheese or tomato is a widespread variation, and some people try it once they know the base. It began as a late-night finisher after drinks and is still often eaten in the evening, though lunch service is now common.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺は「コシの強い」のみで太さ・形の記述なし。richness=2 は暫定: スープの脂の記述がなく、唐辛子主体の清湯と仮定。null でもよい。要判断。"
+    },
+    {
+      "slug": "kasaoka",
+      "howto_ja": "品書きは「中華そば」で、並と大盛のほか、煮鶏を増す選択を置く店が多いという。鶏の脂が薄く浮く程度の軽いスープなので、硬さや濃さの指定は普通せず、店の仕立てのまま頼む。卓上には胡椒のほか、七味や酢が置かれることがあるが店による。\n\n中細のストレート麺は汁をまとって喉を通るので、まず汁をひと口、次に麺をすする。煮鶏は醤油で煮た分だけ味が濃いので、麺の合間に少しずつ食べると汁の軽さと釣り合う。青ネギは最初から混ぜず、半ばで崩すと香りが変わる。昼の一杯として食べられることが多い。",
+      "howto_en": "Ordered as chuka soba, with a regular and large size; many shops also let you add extra nidori (soy-simmered old hen) on top. The soup is light, with only a thin sheen of chicken fat, so firmness or strength requests are not the custom; take it as the shop makes it. Pepper is the standard table seasoning, and some places set out shichimi (chili) or vinegar, depending on the shop. The medium-thin straight noodles carry the broth as you slurp, so start with a sip of soup and then move to the noodles. The simmered chicken is more strongly seasoned than the soup, so eat it a piece at a time between noodles to keep the balance. Leave the green onion on top at first and stir it in midway for a shift in aroma. It is mostly a lunch bowl.",
+      "noodle_thickness": "中細",
+      "noodle_curl": "ストレート",
+      "richness": 2,
+      "notes": ""
+    },
+    {
+      "slug": "katsuura-tantan",
+      "howto_ja": "注文時に辛さの段階を選べる店が多く、ラー油の量で調整するという。初めてなら標準か控えめにしておくと玉ねぎの甘みが分かる。ごまや芝麻醤を使わないので、担担麺のつもりで頼まないこと。大盛やライス、半ライスを添える客も多いという。卓上には酢や追加のラー油、胡椒が置かれることがあるが店による。\n\n表面の油膜で汁は最後まで熱いので、最初は少しずつ口に運ぶ。玉ねぎと挽肉は底に沈むので、半ばで底から持ち上げて麺と絡める。汗をかく一杯で、冷えた体を温める冬の昼や港の仕事上がりに食べられることが多い。",
+      "howto_en": "Many shops let you choose a heat level when you order, adjusted through the amount of chili oil; first-timers do well with the standard or milder setting, which lets the onion's sweetness come through. Do not expect a sesame-based tantanmen, as there is no sesame paste here. A large portion, rice or half-rice is a common add-on. Vinegar, extra chili oil and pepper may be on the table, depending on the shop. The red film of oil keeps the broth scalding to the end, so take small sips at first. The onion and minced pork settle to the bottom, so midway through, lift them up from below and tangle them with the noodles. It is a bowl that makes you sweat, eaten most often on cold days, at lunch or after coming off the water.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "麺の記述なし。richness=3: 醤油清湯にラー油の油膜がしっかり乗る。"
+    }
+  ],
+  "notes": "麺の属性を null にしたもの: kaga-miso・kahoku-niku-chuka・kamioka・karamen・katsuura-tantan（本文・概要に太さ・形の記述なし）、joetsu-tonjiru・juusanko-shijimi・kameyama・kamikawa（太さのみ記述あり、形は null）。要判断: kaga-miso の richness（3か4）、karamen の richness（スープの脂の記述がなく暫定2）。"
+}

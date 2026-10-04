@@ -1,0 +1,131 @@
+{
+ "items": [
+  {
+   "slug": "suo-oshima-iriko-ramen",
+   "howto_ja": "いりこの香りを主役にした澄んだスープなので、まずは何も足さずにひと口すすってから麺に進みたい。動物系の脂がほとんど浮かないぶん冷めるのも早く、麺は休まず食べ進めるのが向く。卓上には胡椒や一味が置かれていることが多いが、せっかくの香りが隠れやすいため、入れるなら後半に少しずつが無難とされる。\n\n島の食堂で昼どきに食べる一杯で、飲み干しても重さが残りにくいスープとされる。麺の硬さや味の濃さの指定ができるかは店によるため、初めてなら基本のまま頼むのがよい。",
+   "howto_en": "The whole point of this bowl is the dried-sardine aroma, so take a sip of the clear broth before touching anything else. With almost no animal fat on the surface it cools faster than most ramen, so keep the noodles moving rather than pausing between bites. Pepper or ichimi (chili powder) usually sits on the table, but either one can mask the delicate iriko scent; if you want them, add a pinch late in the bowl. This is a lunchtime bowl at island diners, and the broth is light enough to finish to the last drop. Whether you can specify noodle firmness or seasoning varies by shop, so on a first visit simply order it as it comes.",
+   "noodle_thickness": null,
+   "noodle_curl": null,
+   "richness": 1,
+   "notes": "麺は本文に「中華麺」とのみ。太さ・形は null。"
+  },
+  {
+   "slug": "taiwan-ramen",
+   "howto_ja": "注文時に辛さの加減を選べる店が多く、辛いものが苦手なら控えめを頼む手がある。丼が来たら、底のもやしと上のひき肉あんをすぐに混ぜ切らず、上から少しずつ崩しながら食べ進めると、辛さが一杯のなかで段階的に広がる。にんにくが強いので、昼に食べるかどうかは午後の予定と相談したい。\n\n卓上の酢や胡椒を途中で足して辛さを和らげる人もいるが、置いてあるものは店による。ご飯や炒飯と一緒に頼む人が多く、夜の中華料理店や居酒屋で〆の一杯として出てくることも多いとされる。",
+   "howto_en": "Most shops let you choose how hot you want it when you order, so ask for a milder version if chili is not your thing. When the bowl arrives, resist stirring everything together at once: the bean sprouts sit at the bottom and the spicy minced pork on top, and breaking the mince in a little at a time lets the heat build gradually through the bowl. The garlic is strong, so a lunchtime bowl is a decision to make with the rest of your afternoon in mind. Some people add vinegar or pepper from the table partway through to soften the sting, though what is on the table varies by shop. It is often ordered with rice or fried rice, and in Nagoya it frequently shows up as the last bowl of a night out at a Chinese restaurant or izakaya.",
+   "noodle_thickness": "中太",
+   "noodle_curl": "ストレート",
+   "richness": 2,
+   "notes": "辛さの段階に固有の呼び名を持つ店があるが、店固有の語のため書いていない。"
+  },
+  {
+   "slug": "takaida",
+   "howto_ja": "極太麺は茹でに時間がかかるため、注文から出てくるまで少し待つことになる。麺の硬さの指定を受けるかは店によるので、まずは基本のまま。熱いうちは麺が汁を吸ってどんどん重くなるので、最初は麺から箸をつけ、スープは合間に少しずつ飲む方が最後まで食べ切りやすいとされる。\n\n濃口の醤油はご飯に合い、小ライスを添える人も多い。卓上は胡椒程度のことが多く、途中で味を変える薬味は少なめ。朝早くから開ける店が多い系統なので、朝食や昼前に食べる一杯として地元では親しまれているという。",
+   "howto_en": "The extra-thick noodles take a while to boil, so expect a short wait after ordering. Whether you can ask for firmer or softer noodles varies by shop; order it plain the first time. Once the bowl lands, the noodles keep soaking up broth and get heavier by the minute, so start on them right away and sip the soup in between rather than drinking it first. The dark, salty soy broth pairs naturally with rice, and many people add a small bowl on the side. Table condiments are usually limited to pepper; this is not a style built around changing the flavor halfway. Many shops in this lineage open early, and locals treat it as a breakfast or late-morning bowl as much as a lunch.",
+   "noodle_thickness": "極太",
+   "noodle_curl": "ストレート",
+   "richness": 2,
+   "notes": ""
+  },
+  {
+   "slug": "takaoka-green",
+   "howto_ja": "緑のスープは見た目ほど青臭くないので、まず何も足さずにスープと麺を一口ずつ。丼に添えられた辛みそは一度に溶かさず、途中で少しずつ溶き入れると、豚骨のまろやかさから辛みのある後半へと味を動かせる。ゆず胡椒で和えたチャーシューは、スープに沈める前に単体で味わうと香りがはっきり分かる。\n\n卓上の薬味は店ごとに異なるため、辛みそが足りなければ一味などを頼む形になる。学校給食にも出ているとされる土地の一杯で、家族連れで昼に食べる場面が自然。緑・高岡産ほうれん草・名称の条件を満たす店で出される。",
+   "howto_en": "The green broth is far less grassy than it looks, so try the soup and noodles before adding anything. The spicy miso that comes on the bowl is best stirred in gradually rather than all at once; that way the first half stays mild and creamy from the pork bones and the second half picks up heat. Taste the shredded chashu dressed with yuzu kosho (a citrus-chili paste) on its own before it sinks into the soup, because that is when its aroma is clearest. Table condiments differ from shop to shop, so if you want more heat, ask. Since it is said to be served even in school lunches, this is a comfortable bowl for a family lunch. It is served at shops that meet the three conditions: green color, Takaoka spinach, and the name itself.",
+   "noodle_thickness": "中太",
+   "noodle_curl": null,
+   "richness": 4,
+   "notes": "味付けは店の裁量とされるため濃さは店差あり。白濁豚骨ベースとして 4。"
+  },
+  {
+   "slug": "takayama",
+   "howto_ja": "極細の縮れ麺は伸びるのが早いので、届いたら写真より先に麺をすすりたい。スープは脂控えめで角のない醤油味のため、胡椒やにんにくを最初から入れると持ち味が隠れる。卓上に置かれているのは胡椒程度のことが多く、足すなら後半に。品書きでは「中華そば」と書かれている店もあり、呼び名が違っても同じ系統を指すことがある。\n\n軽い一杯なので朝市帰りの昼や、観光の合間でも重く残りにくい。麺の硬さの指定は店によるが、細麺ゆえに普通でも十分に早く仕上がる。",
+   "howto_en": "The ultra-thin, wavy noodles soften quickly, so start slurping as soon as the bowl arrives; photos can wait. The broth is light on fat and rounded in flavor, and pepper or garlic added at the start will bury exactly what makes it distinctive. Shops usually offer little more than pepper on the table anyway, so save it for the second half. On menus you may see it listed as chuka soba (an older name for ramen) rather than ramen; the name differs but the bowl is the same lineage. Because it is a light bowl, it sits comfortably as lunch after the morning market or as a stop between sights without weighing you down. Noodle-firmness requests depend on the shop, but with noodles this thin, the standard boil is already quick.",
+   "noodle_thickness": "極細",
+   "noodle_curl": "ちぢれ",
+   "richness": 2,
+   "notes": "「中華そば」表記は一般知識（本文には無い）。"
+  },
+  {
+   "slug": "takefu-chukasoba",
+   "howto_ja": "品書きには「ラーメン」ではなく「中華そば」とあることが多く、その名で頼むのがこの一帯の流儀とされる。黄金色の澄んだスープは、青ねぎ・かまぼこ・ハムという飾らない具のまま食べるのが基本で、卓上にあるのは胡椒程度のことが多い。味が薄く感じても、まずは最後まで何も足さずに通してみると、奥の深みが分かるとされる。\n\n駅前の食堂や中華料理店で昼に食べる一杯で、炒飯や丼物と組み合わせる人も多い。麺の硬さや濃さの細かな指定は店によるため、初めてなら標準のままで。",
+   "howto_en": "On menus here it usually appears as chuka soba (the old-fashioned name for ramen) rather than ramen, and ordering it by that name is part of the local style. The clear golden broth comes with nothing more than green onion, kamaboko (fish cake), and ham, and that is how it is meant to be eaten; pepper is usually the only thing on the table. If it tastes mild at first, resist the urge to add anything and keep going; the depth tends to reveal itself by the bottom of the bowl. It is a lunchtime bowl at diners and Chinese restaurants around the station, often paired with fried rice or a rice bowl. Whether you can request firmer noodles or a stronger broth varies by shop, so go with the standard bowl first.",
+   "noodle_thickness": null,
+   "noodle_curl": null,
+   "richness": 2,
+   "notes": "麺の記述が本文に無いため null。"
+  },
+  {
+   "slug": "takeoka",
+   "howto_ja": "大ぶりのチャーシューが主役なので、肉を増やした注文を受ける店が多いとされる。乾麺を使う店では麺が汁を吸って早めにやわらかくなるため、届いたら麺から先に。醤油の甘辛さがはっきりしているので、ご飯を添えて肉とスープで食べる人も多い。刻み玉ねぎを薬味に添える店が知られ、少しずつ混ぜると辛みと甘みが加わって味が変わるが、置き方は店による。\n\n仕込みが短い型なので提供は早く、漁師町らしく昼どきの食事として食べられてきた。胡椒は卓上にあることが多いが、濃い醤油の味を薄めないよう入れすぎには注意したい。",
+   "howto_en": "The large slabs of chashu are the main event, and many shops take orders for extra meat. Where dried noodles are used they soak up the broth and soften quickly, so start on the noodles as soon as the bowl arrives. The sweet-salty soy broth is bold enough that plenty of people order rice and eat the pork and soup over it. Some shops are known for a side of chopped raw onion; stirred in a little at a time it adds bite and sweetness and changes the bowl midway, though how it is offered varies. Because almost nothing is cooked to order, the bowl comes fast, and in this fishing town it has long been a quick lunchtime meal. Pepper is usually on the table, but go easy so as not to flatten the strong soy flavor.",
+   "noodle_thickness": null,
+   "noodle_curl": null,
+   "richness": 2,
+   "notes": "刻み玉ねぎは一般知識（本文には無い）。麺は乾麺の記述のみで太さ・形は null。"
+  },
+  {
+   "slug": "tamagotoji",
+   "howto_ja": "表面の卵の膜を一気に崩さず、箸で少しずつ割りながら麺を引き上げると、卵をまとった麺とまとわない麺の両方を味わえる。極細麺は伸びやすいうえ卵の熱でさらに柔らかくなるので、届いたら早めに食べ進めたい。卓上の胡椒は卵の上に少し振ると香りが立つが、入れすぎると卵のまろやかさを消すため控えめに。\n\n名古屋駅に近い土地で育った一杯で、短い時間で温まる食事として昼にも夜にも向く。麺の硬さや卵の量の指定ができるかは店によるため、まずは基本の一杯で。",
+   "howto_en": "Do not break the sheet of egg on the surface all at once. Pierce it a little at a time with your chopsticks as you lift the noodles, and you get both egg-coated strands and plain ones in the same bowl. The ultra-thin noodles soften quickly, and the warm egg softens them further, so start promptly. A light shake of table pepper over the egg brings out its aroma, but too much cancels the gentle richness that defines the bowl. This is a style that grew up near Nagoya Station as a quick, warming meal, and it suits lunch or a late dinner equally well. Whether you can ask for firmer noodles or more egg depends on the shop, so begin with the standard bowl.",
+   "noodle_thickness": "極細",
+   "noodle_curl": null,
+   "richness": 2,
+   "notes": ""
+  },
+  {
+   "slug": "tamana",
+   "howto_ja": "焦がしにんにくの量は客の好みで加減される型なので、注文時に「少なめ」「多め」と伝えられる店が多い。初めてなら標準で頼み、香ばしさの強さを確かめてから次に調整するとよい。中細のストレート麺は濃いスープに合わせて早めに食べ、硬さの指定や替え玉を受けるかは店による。\n\n卓上には紅生姜・辛子高菜・ごま・胡椒などが置かれていることが多く、まずはそのまま、半分ほど食べたところで紅生姜や高菜を足して味を変える食べ方が九州の豚骨では一般的とされる。濃いスープなのでご飯を合わせる人も多い。",
+   "howto_en": "The amount of mayu (black garlic oil, made by scorching garlic) is adjusted to taste, and many shops will take a request for less or more when you order. On a first visit go with the standard amount so you can gauge how strong the toasted note is, then adjust next time. The medium-thin straight noodles are meant to be eaten promptly in the heavy broth; whether you can choose firmness or order kaedama (a refill of noodles) depends on the shop. Pickled red ginger, spicy mustard greens, sesame, and pepper are commonly set on the table. The usual approach for Kyushu tonkotsu is to eat the first half as it comes and then add ginger or greens to shift the flavor. Many people order rice alongside the rich soup.",
+   "noodle_thickness": "中細",
+   "noodle_curl": "ストレート",
+   "richness": 4,
+   "notes": ""
+  },
+  {
+   "slug": "tenri",
+   "howto_ja": "山盛りの白菜が麺を覆っているので、まず野菜を少し崩して麺を引き出すところから始める。炒めた野菜の油とにんにく、唐辛子の辛みがスープに移っていくため、前半と後半で味が変わるのを楽しみたい。辛さや野菜の量を選べる店もあるが、受け方は店による。\n\n卓上の一味やにんにくで辛みを足す人もいるが、既に香りが強いので初めは控えめに。濃い醤油だれと油はご飯と相性がよく、ライスを添える人が多いとされる。夜遅くまで人が行き交う門前町で育った一杯で、〆の一杯として夜に食べる場面も似合う。",
+   "howto_en": "A mound of stir-fried napa cabbage covers the noodles, so begin by breaking into the vegetables and pulling the noodles out from underneath. As the oil, garlic, and chili from the stir-fry seep into the soy broth, the flavor shifts between the first half and the second, and that change is part of the bowl. Some shops let you choose the heat level or extra vegetables, but it varies. Chili powder or garlic on the table can push the heat further, though the bowl already carries plenty, so start modestly. The strong soy and oil make it a natural partner for rice, and many people order a bowl on the side. Born in a temple town where people are out late, it also works well as the last bowl of a night.",
+   "noodle_thickness": null,
+   "noodle_curl": null,
+   "richness": 3,
+   "notes": "麺の記述が本文に無いため null。"
+  },
+  {
+   "slug": "tochigi-yugao",
+   "howto_ja": "この型の主役は麺なので、スープの種類よりまず麺の喉ごしに注意を向けたい。担担麺風や塩味など味つけは店ごとに違い、同じ名前でも一杯の姿が大きく変わるため、品書きで「夕顔」の麺を使った品がどれかを確かめて頼む。最初の数口は薬味を足さず、つるりとした麺だけを噛んで、通常の中華麺との違いを確かめるのが向く。\n\n卓上の調味料はその店のスープ次第で、辛味や酢を足すかはスープの型に合わせる。栃木市内の加盟店で出される一杯で、昼の食事として立ち寄りやすいとされる。",
+   "howto_en": "The star here is the noodle itself, so pay attention to its slippery texture before you think about the soup. Seasoning varies widely from shop to shop, from tantan-style to plain salt, and the same name can mean a very different bowl, so check the menu for which dishes use the yugao (bottle gourd) noodles and order one of those. For the first few mouthfuls skip the condiments and chew the noodles on their own to notice how they differ from ordinary ramen noodles. What sits on the table depends on each shop's soup; add chili or vinegar according to the style you ordered. It is served at member shops around Tochigi city, and it makes an easy lunchtime stop.",
+   "noodle_thickness": null,
+   "noodle_curl": null,
+   "richness": null,
+   "notes": "スープは店ごとに型が異なる（担担麺風／塩）ため richness は判断不能で null。麺の太さ・形も本文に無し。"
+  },
+  {
+   "slug": "tochio-reidon",
+   "howto_ja": "品書きでは「冷丼」「冷や丼」と書かれていることが多く、ラーメン鉢ではなく丼で出てくる。夏だけ出す店と通年の店があるので、季節外れに訪ねるなら事前に確かめたい。氷を浮かべる店ではスープが薄まる前に食べ切るのが向き、冷たさで締まった麺のこしも早いうちほど楽しめる。\n\n薬味のからしは最初から溶かさず、半分ほど食べたところで少しずつ加えると味が締まる。坦々風にピリ辛く仕立てた店もあり、その場合は辛さの加減を聞いてから頼むとよい。冷たい汁は飲み干しやすいが、店によって濃さが違うため様子を見ながら。",
+   "howto_en": "On menus it usually appears as reidon or hiyadon (literally 'cold bowl'), and it comes in a rice bowl rather than a ramen bowl. Some shops serve it only in summer while others keep it year-round, so if you are visiting out of season it is worth checking ahead. Where ice is floated on top, finish before it waters the broth down; the firm bite the cold gives the noodles is also best early on. Leave the dab of karashi (Japanese mustard) alone at first and stir a little in once you are halfway through, which tightens the flavor. A few shops make a spicy tantan-style version; ask about the heat before ordering. The chilled broth goes down easily, but strength varies by shop, so pace yourself.",
+   "noodle_thickness": null,
+   "noodle_curl": null,
+   "richness": 1,
+   "notes": "冷やし系のため richness 1。麺は「中華麺」とのみ。"
+  },
+  {
+   "slug": "tokimiso",
+   "howto_ja": "丼が来た時点ではまだ完成前という考え方の一杯なので、まずは味噌を溶かず、あっさりした塩スープを数口飲む。その後、添えられた自家製味噌を箸やレンゲで少しずつ溶き入れると、同じ丼のまま味がコクのある味噌味に変わる。全部を一度に溶かすより、半分ほど食べた頃に入れる人が多いとされ、量とタイミングは客に委ねられている。\n\n削り節があれば味噌のあとに振ると三つ目の表情が出る。細麺は味噌をよく絡めるため、溶いたあとは早めに食べ進めたい。清水区の限られた範囲の店で出され、昼の食事として寄る場面が自然。",
+   "howto_en": "Think of the bowl as unfinished when it reaches you. Start by drinking a few sips of the light salt broth with nothing added. Then take the house miso served alongside and stir it in gradually with your chopsticks or spoon, and the same bowl turns into something deeper and heartier. Rather than dissolving it all at once, many people wait until they are about halfway through; the amount and timing are deliberately left to you. If dried bonito flakes are on the table, sprinkle them on after the miso for a third shift in flavor. The thin noodles pick up the miso readily, so keep eating steadily once you have stirred it in. It is served at a small cluster of shops in Shimizu ward, most naturally as a lunch stop.",
+   "noodle_thickness": "細",
+   "noodle_curl": null,
+   "richness": 2,
+   "notes": "味噌を溶く前は 1 相当のあっさり塩清湯。溶いた後も脂は乗らないため 2。"
+  },
+  {
+   "slug": "tokushima",
+   "howto_ja": "生卵は最初から入っているとは限らず、追加で頼む形の店が多いとされる。甘辛い豚バラの増量を受ける店も多い。ご飯と一緒に食べる前提の濃さなので、ライスを添え、豚バラと卵を崩しながらすき焼きのように食べると味が定まる。卵は一度に混ぜず、半分ほど食べたところで崩すと、前半の濃さと後半のまろやかさの両方を味わえる。\n\n卓上には胡椒や一味、にんにくなどが置かれていることが多いが、既に甘辛さが強いので足すなら少量から。麺は細めで濃いスープを吸いやすく、早めに食べ進めたい。昼夜を問わず食べられる一杯とされる。",
+   "howto_en": "The raw egg is not always included by default; at many shops you order it as an extra. Plenty of shops also take orders for extra sweet-simmered pork belly. The broth is built with rice in mind, so order a bowl, and eat the pork and egg over it the way you would sukiyaki. Do not stir the egg in right away: break it about halfway through, so you get the sharp, salty-sweet first half and the mellow, egg-softened second half in one bowl. Pepper, chili powder, and garlic are commonly on the table, but the broth is already assertive, so add only a pinch. The noodles are on the thin side and soak up the heavy soup quickly, so keep a steady pace. It is eaten at any time of day.",
+   "noodle_thickness": null,
+   "noodle_curl": null,
+   "richness": 4,
+   "notes": "本文は麺を「控えめな細さ」とだけ記しており語彙に当てはめにくいため null（一般には中細ストレートとされるが本文に無い）。"
+  }
+ ],
+ "notes": "tochigi-yugao: スープが店ごとに型違い（担担麺風／塩）で richness 判断不能。tokushima: 麺が「控えめな細さ」のみで太さ語彙に当てはめず null。takayama の「中華そば」表記・takeoka の刻み玉ねぎは本文外の一般知識（店によると断り書き済み）。"
+}

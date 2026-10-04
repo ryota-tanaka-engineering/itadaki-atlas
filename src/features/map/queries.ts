@@ -234,6 +234,13 @@ export type ItemDetail = MapItem & {
   regions: ItemRegion[];
   /** タグ一元語彙からの付与（.doc/20_data/01_models.md §3）。カバー内チップ表示用。 */
   tags: ItemTag[];
+  /** 麺の太さ・形・濃さ（dish_details のフェーズ2属性。2026-10 からラーメンで本格使用。
+   * 値は日本語語彙（極細…極太／ストレート・ちぢれ・手もみ）で、表示名は messages `noodle` で引く。
+   * 未投入は null でチップごと出さない。 */
+  noodleThickness: string | null;
+  noodleCurl: string | null;
+  /** あっさり(1)⇔こってり(5)。ジャンル内の相対尺度。 */
+  richness: number | null;
 };
 
 export type ItemTag = {
@@ -272,7 +279,7 @@ export async function fetchItemBySlug(
        food_item_sources ( title, url, publisher, accessed_at ),
        food_item_regions ( pref, city, relation_type, note_ja, note_en ),
        food_item_tags ( tags ( slug, name_ja, name_en ) ),
-       dish_details ( primary_style )`,
+       dish_details ( primary_style, noodle_thickness, noodle_curl, richness )`,
     )
     .eq("slug", slug)
     .eq("genres.slug", genreSlug)
@@ -321,6 +328,9 @@ export async function fetchItemBySlug(
       noteEn: r.note_en,
     })),
     tags: toItemTags(data.food_item_tags),
+    noodleThickness: toOne(data.dish_details)?.noodle_thickness ?? null,
+    noodleCurl: toOne(data.dish_details)?.noodle_curl ?? null,
+    richness: toOne(data.dish_details)?.richness ?? null,
   };
 }
 
@@ -346,7 +356,7 @@ export async function fetchItemByShelfSlug(
        food_item_sources ( title, url, publisher, accessed_at ),
        food_item_regions ( pref, city, relation_type, note_ja, note_en ),
        food_item_tags ( tags ( slug, name_ja, name_en ) ),
-       dish_details ( primary_style )`,
+       dish_details ( primary_style, noodle_thickness, noodle_curl, richness )`,
     )
     .eq("slug", slug)
     .eq("shelves.slug", shelfSlug)
@@ -395,6 +405,9 @@ export async function fetchItemByShelfSlug(
       noteEn: r.note_en,
     })),
     tags: toItemTags(data.food_item_tags),
+    noodleThickness: toOne(data.dish_details)?.noodle_thickness ?? null,
+    noodleCurl: toOne(data.dish_details)?.noodle_curl ?? null,
+    richness: toOne(data.dish_details)?.richness ?? null,
   };
 }
 
@@ -1203,6 +1216,47 @@ export async function fetchAllChains(): Promise<Chain[]> {
   );
 
   return data.map((c) => ({
+    slug: c.slug,
+    nameJa: c.name_ja,
+    nameEn: c.name_en,
+    bridgeJa: c.bridge_ja,
+    bridgeEn: c.bridge_en,
+    prefLimited: c.pref_limited ?? null,
+    recommendations: mapChainRecommendations((c.chain_recommendations ?? []) as ChainRecRow[]),
+  }));
+}
+
+/**
+ * 詳細ページ「全国で近い味に出会うなら」用（2026-10「詳細ページの情報を厚くする」）。
+ * chain_recommendations でこのアイテムを推薦しているチェーンを逆引きし、ジャンルページと
+ * 同じ ChainBridgeSection に渡せる形で返す（推薦リストには他のアイテムも含むので、
+ * 呼び出し側で自分自身を除く）。推薦が無ければ空配列（節ごと非表示。データ駆動）。
+ *
+ * 2段階で引く: (1) このアイテムの推薦行から chain_id を集め、(2) そのチェーンを
+ * 推薦リスト込みで取る。1クエリの `!inner` 絞り込みだと推薦リストが自分だけに
+ * 絞られてしまうため。
+ */
+export async function fetchChainsForItem(slug: string): Promise<Chain[]> {
+  const db = await createClient();
+  const { data: recs, error: recErr } = await db
+    .from("chain_recommendations")
+    .select("chain_id, food_items!inner ( slug )")
+    .eq("food_items.slug", slug);
+  if (recErr) throw new Error(`fetchChainsForItem (recommendations) failed: ${recErr.message}`);
+  const chainIds = [...new Set((recs ?? []).map((r) => r.chain_id))];
+  if (chainIds.length === 0) return [];
+
+  const { data, error } = await db
+    .from("chains")
+    .select(
+      `slug, name_ja, name_en, bridge_ja, bridge_en, pref_limited, sort_order,
+       chain_recommendations ( ${CHAIN_RECOMMENDATION_SELECT} )`,
+    )
+    .in("id", chainIds)
+    .order("sort_order");
+  if (error) throw new Error(`fetchChainsForItem failed: ${error.message}`);
+
+  return (data ?? []).map((c) => ({
     slug: c.slug,
     nameJa: c.name_ja,
     nameEn: c.name_en,

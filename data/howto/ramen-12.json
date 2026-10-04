@@ -1,0 +1,68 @@
+{
+  "items": [
+    {
+      "slug": "wakayama",
+      "howto_ja": "店では「中華そば」と頼むのが通りがよく、品書きもその名で出ていることが多い。あっさり寄りか煮詰めた濃厚寄りかは店ごとに決まっているので、選ぶのは店に入る前といえる。卓上の早寿司とゆで卵は自由に取ってよく、丼が来るまでに寿司をひとつ、途中で卵をむいて箸休めに、という流れが地元流とされる。食べた数は会計のときに自己申告する習わしなので、取った分は覚えておく。\n\n卓上の調味料は胡椒程度のことが多く、まずはそのまま味わいたい。寿司の酢の酸味がスープの脂を切るので、濃厚寄りの店ほど寿司を挟む意味が出てくる。",
+      "howto_en": "Ask for chuka soba and you'll be understood; menus often list it under that name rather than ramen. Each shop leans either lighter or long-simmered and rich, so the real choice is made when you pick the shop. The hayazushi (pressed mackerel sushi) and boiled eggs on the table are there to be taken freely: a piece of sushi while you wait, an egg peeled midway as a break from the broth, is the local rhythm. Keep count of what you take, since you report it yourself when paying. Tabletop seasoning is usually just pepper, and most people taste the broth as served before adding any. The vinegared sushi cuts through the fat, so the richer the shop's broth, the more sense a bite of sushi between slurps makes.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "麺の太さ・形は本文・概要に記述なし。濃さは本文が「あっさり」と「煮詰めて濃厚」に店が分かれるとしており、中間の3を置いた（濃厚寄りの店は4相当）。"
+    },
+    {
+      "slug": "wakkanai",
+      "howto_ja": "塩と醤油の両方を置く店が多く、地元では塩を選ぶ人が多いとされる。迷ったらまず塩がよい。表面をラードが覆っているため見た目より熱く、湯気が立たなくても油断しないこと。最初はれんげで少しずつ、縮れ麺は空気を含ませながらすする。\n\n目印の麩は早めに一口、残りはスープを吸わせてから、と二度に分けると味の変化がわかりやすいとされる。卓上は胡椒程度のことが多く、昆布の香りを生かすなら後半に少し足す程度にとどめたい。冬に食べる意味がいちばん大きい型といえる。",
+      "howto_en": "Most shops offer both salt and soy, and locals are said to lean toward salt; if in doubt, start there to taste the two layers of kelp and pork bone clearly. The lard sealing the surface makes the bowl far hotter than it looks, even when little steam rises, so take the first sips slowly with the spoon, and slurp the wavy noodles with some air to cool them. The fu (wheat gluten cake), the bowl's signature topping, is worth eating in two stages: one bite early, the rest after it has soaked up broth, so you can catch how the flavor shifts. Tabletop seasoning is typically limited to pepper; add a little late if at all, to keep the kelp aroma intact. This is a bowl built for cold weather, and it makes the most sense in winter.",
+      "noodle_thickness": null,
+      "noodle_curl": "ちぢれ",
+      "richness": 3,
+      "notes": "本文は「縮れ麺」のみで太さの記述なし。濃さは清湯（昆布＋豚骨）にラードで蓋をする構成から3。"
+    },
+    {
+      "slug": "yaki-ramen",
+      "howto_ja": "汁物ではなく鉄板の一皿なので、頼み方は焼きそばに近い。屋台や小さな店では酒と一緒に、または飲んだ後の締めとして注文されることが多く、昼より夜に意味のある型とされる。生卵や紅生姜を乗せる店があり、卵は熱いうちに崩して麺に絡めると、ソースの甘辛さがまろやかになる。\n\n鉄板皿のまま出てくる場合は焦げ目のついた底から食べ進めると香ばしさが続く。紅生姜は最初から混ぜず、途中で添えて味を切り替えるのがよいとされる。卓上の調味料は、まず食べてから足すか決めたい。",
+      "howto_en": "This is a griddled plate rather than a soup, so ordering it feels closer to yakisoba. At stalls and small shops it is usually ordered alongside drinks or as a late-night closer after drinking, and it belongs more to the evening than to lunch. Some shops add a raw egg or beni shoga (red pickled ginger); if an egg comes, break it while the noodles are still hot and toss it through to mellow the sweet-savory sauce. When it arrives on the iron plate, eating from the charred bottom up keeps the toasty flavor going. Save the pickled ginger for partway through rather than mixing it in at the start, so it works as a reset for the palate. Tabletop condiments vary by shop, but the sauce is already seasoned, so taste first before adding anything. Chopsticks alone are enough, which is part of why it suits a crowded stall.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": null,
+      "notes": "汁なしの鉄板料理のため richness は尺度に当てはまらず null。麺の太さ・形は本文に記述なし。"
+    },
+    {
+      "slug": "yamagata-hiyashi",
+      "howto_ja": "夏だけ出す店が多いとされるので、季節と品書きをまず確かめる。温かい醤油ラーメンと並んで「冷やし」と書かれていることが多く、その一語で通じる。氷が丼に浮かんで来るので、溶けて薄まる前に食べ切るのがこの一杯のコツとされる。\n\n最初は麺とスープだけで清涼感を確かめ、具は後から崩す。卓上の調味料は店によるが、冷やし中華のような酢の酸味は最初から入っていないので、まずそのまま味わってから胡椒や酢を少し足す人が多いとされる。盆地の暑い日に汗をかきながら食べる、夏の昼の一杯といえる。",
+      "howto_en": "Many shops put this on the menu only in summer, and year-round service is said to be the exception, so check the season and the menu first. It usually sits next to the hot soy ramen as hiyashi (chilled), and that single word is enough when ordering. Ice comes floating in the bowl, so the key is to finish before it melts and thins the broth; put chopsticks in before the camera. The cold-rinsed noodles are firm, so start with just noodles and broth to feel the chill, and break into the toppings afterward. Tabletop condiments vary by shop, but unlike hiyashi chuka (cold dressed noodles) there is no vinegar built into the broth, so most people taste it plain before adding a touch of pepper or vinegar. It is a lunchtime bowl for the basin's hottest days, eaten while sweating.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 1,
+      "notes": "麺の太さ・形は本文に記述なし。冷やし系は定義どおり1。通年提供の有無は店によるため「限られるとされる」の表現にとどめた。"
+    },
+    {
+      "slug": "yamanashi-gensui",
+      "howto_ja": "一つの店の一杯ではなく県内の参加店がそれぞれ出す枠組みなので、品書きに「源水」の名があるかを確かめて頼む。常時出すか期間を限るかは店によるとされる。具は店ごとに違うが、淡水魚と地鶏の清湯に細麺という骨格は共通なので、まずスープだけを一口飲み、軟水の軽い後味を確かめてから麺に移るとよい。\n\n細麺は伸びやすいので、具を眺めるより先に麺を進めたい。淡麗なスープは胡椒や油を足すとすぐ輪郭が消えるので、入れるなら最後の数口に限るのが無難とされる。県産食材が何かを聞くと店の意図が見えてくる。",
+      "howto_en": "This is a framework shared by participating shops across the prefecture rather than one shop's dish, so look for the word gensui (spring water) on the menu and order by that name. Whether it is served year-round or only for a period depends on the shop. Toppings differ from place to place, but the skeleton is the same: a clear broth of freshwater fish and free-range chicken with thin noodles. Start with a spoonful of broth on its own to catch the soft water's light finish before moving to the noodles. Thin noodles soften quickly, so eat them before lingering over the toppings. Tabletop condiments vary, but pepper or oil will blur a delicate broth almost at once; if you add any, keep it to the last few bites. Asking which local ingredient is on top tells you what that shop's version is about.",
+      "noodle_thickness": "細",
+      "noodle_curl": null,
+      "richness": 1,
+      "notes": "本文「細麺」から太さのみ取得、形は記述なし。濃さは「淡麗」「軽やか」の清湯（煮干＋鶏）から1としたが、鶏油の有無が本文にないため2の可能性あり。"
+    },
+    {
+      "slug": "yokohama",
+      "howto_ja": "注文時に麺の硬さ・味の濃さ・脂の量を「硬め・濃いめ・多め」のように指定できる店が多い。初めてなら全部「普通」が無難とされる。ライスを添える習慣が根づいており、海苔をスープに浸してライスを巻く食べ方が定番とされる。ほうれん草や海苔の増量を受ける店もある。\n\n卓上には刻み生姜・おろしにんにく・豆板醤・ごま・胡椒・酢が並ぶことが多い。脂の膜で熱いので最初は少しずつ、途中で生姜を入れると重さが切れ、終盤ににんにくや豆板醤で味を変えるのが一つの流れ。",
+      "howto_en": "Many shops let you set the noodle firmness, the strength of the tare, and the amount of fat when ordering, in phrases like katame (firm), koime (strong), oome (extra fat). On a first visit it is safest to take everything as standard and adjust next time. Rice on the side is a settled habit here: dip a sheet of nori in the broth and wrap it around a mouthful of rice. Some shops also take requests for extra spinach or nori. The table usually carries chopped ginger, grated garlic, doubanjiang chili paste, sesame, pepper and vinegar. The film of fat keeps the bowl very hot, so go slowly at first; a spoon of ginger partway through cuts the heaviness, and garlic or chili paste near the end turns it into a different bowl. It is a working meal, eaten at lunch or after a long day.",
+      "noodle_thickness": "太",
+      "noodle_curl": null,
+      "richness": 4,
+      "notes": "本文「太い麺」から太さのみ取得、形は記述なし。濃さは豚骨＋鶏ガラ醤油で表面に脂の膜が張る構成から4。"
+    },
+    {
+      "slug": "yonezawa",
+      "howto_ja": "あっさりとした醤油なので、店で選ぶことは少なく、頼み方は品書きの中華そばか醤油をそのまま。大盛やチャーシュー増しを受ける店は多いとされる。手もみの細い縮れ麺は伸びやすいので、来たらまず麺から箸をつけ、噛んだときの弾力が残るうちに進めたい。スープはひと口目に飲んで、麺を引き立てる軽さを確かめる。\n\n卓上は胡椒程度のことが多く、スープが軽いぶん入れすぎるとすぐ味が負けるので、終盤に少し振る程度がよいとされる。米沢牛を食べる前の軽い一杯として、あるいは朝や昼に選ばれることが多い型といえる。",
+      "howto_en": "With a light soy broth there is little to decide at the counter: order it as chuka soba or shoyu, whichever the menu uses. Many shops take requests for a larger portion or extra char siu. The hand-crimped thin noodles soften quickly, so start with the noodles the moment the bowl arrives and keep going while the springy bite is still there. Take one early sip of broth to notice how light it is, built to support the noodles rather than lead. Tabletop seasoning is usually just pepper, and because the broth is light, too much will swamp it; a small shake near the end is the usual approach. It is often chosen as a light bowl before a meal built around Yonezawa beef, or as a morning or midday bowl rather than a heavy late-night one.",
+      "noodle_thickness": "細",
+      "noodle_curl": "手もみ",
+      "richness": 2,
+      "notes": "本文「細く縮れた麺」「手もみで縮れ」から 細／手もみ。濃さはあっさり醤油清湯で2。"
+    }
+  ],
+  "notes": "7件すべて執筆。null にした属性: noodle_thickness 4件（wakayama / wakkanai / yaki-ramen / yamagata-hiyashi）、noodle_curl 5件（wakayama / yaki-ramen / yamagata-hiyashi / yamanashi-gensui / yokohama）、richness 1件（yaki-ramen＝汁なし鉄板料理で尺度外）。いずれも既存本文・概要に記述がないため推測で埋めていない。要判断: wakayama の richness は店が二分されるため3としたが4でも通る。yamanashi-gensui の richness は鶏油の有無が本文にないため1/2の境界。"
+}

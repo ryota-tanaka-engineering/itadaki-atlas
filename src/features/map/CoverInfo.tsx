@@ -25,9 +25,11 @@ export type CoverFact = {
   label: string;
   /** 系統チップのみ。系統色のドットを添える。 */
   dotColor?: string;
+  /** 濃さチップのみ（2026-10）。value/max の目盛りを ● ○ で添える（装飾。読み上げは label の数値が担う）。 */
+  meter?: { value: number; max: number };
 };
 
-/** 事実の帯: 発祥（県・市）/ 系統 / 東京からの距離。データが無い項目は呼び出し側で配列から外す。 */
+/** 事実の帯: 発祥（県・市）/ 系統 / 東京からの距離 / 麺 / 濃さ。データが無い項目は呼び出し側で配列から外す。 */
 export function CoverFactChips({ facts }: { facts: CoverFact[] }) {
   if (facts.length === 0) return null;
   return (
@@ -40,6 +42,12 @@ export function CoverFactChips({ facts }: { facts: CoverFact[] }) {
               className="inline-block size-2.5 rounded-full border"
               style={{ backgroundColor: f.dotColor, borderColor: "#fffdf7" }}
             />
+          )}
+          {f.meter && (
+            <span aria-hidden className="tracking-tight" data-testid="cover-meter">
+              {"●".repeat(Math.max(0, Math.min(f.meter.value, f.meter.max)))}
+              {"○".repeat(Math.max(0, f.meter.max - Math.min(f.meter.value, f.meter.max)))}
+            </span>
           )}
           {f.label}
         </li>

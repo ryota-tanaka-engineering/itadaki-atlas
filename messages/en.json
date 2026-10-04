@@ -128,7 +128,19 @@
       "speciesBeef": "Beef",
       "speciesPork": "Pork",
       "speciesChicken": "Chicken"
-    }
+    },
+    "noodle": "Noodles",
+    "richness": "Richness",
+    "richnessValue": "{level} ({value}/5)",
+    "richnessLevel": {
+      "1": "light",
+      "2": "fairly light",
+      "3": "medium",
+      "4": "fairly rich",
+      "5": "rich"
+    },
+    "chainsHeading": "Chains that trace back to this",
+    "chainsIntro": "Nationwide chains said to draw on this style. If you know one of them, you already know a little of this bowl."
   },
   "language": {
     "label": "Language",
@@ -371,5 +383,16 @@
     "text": "With your consent, we use Google Analytics (cookies) to understand how the site is used. Everything works without it.",
     "accept": "Accept",
     "decline": "Decline"
+  },
+  "noodle": {
+    "極細": "extra-thin",
+    "細": "thin",
+    "中細": "medium-thin",
+    "中太": "medium-thick",
+    "太": "thick",
+    "極太": "extra-thick",
+    "ストレート": "straight",
+    "ちぢれ": "wavy",
+    "手もみ": "hand-kneaded"
   }
 }

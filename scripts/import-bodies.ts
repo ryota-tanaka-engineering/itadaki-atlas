@@ -13,9 +13,9 @@ import { readFileSync } from "node:fs";
 import { createClient } from "@supabase/supabase-js";
 import { z } from "zod";
 
-// 章構成は ia-atlas-content Skill の3章固定。見出しが欠けたデータを黙って通さない
-const JA_CHAPTERS = ["## 何でできているか", "## どう作るのか", "## なぜこの形になったのか"];
-const EN_CHAPTERS = ["## What it's made of", "## How it's made", "## Why it took this shape"];
+// 章構成は ia-atlas-content Skill の3章固定 + 任意の4章目「どう食べるのか」（末尾のみ。
+// 2026-10 追加。scripts/lib/chapters.ts が正典）。見出しが欠けた・順が違うデータを黙って通さない
+import { validateChapters } from "./lib/chapters.ts";
 
 // CSVは編集用の日本語語彙、DBは4語彙（import-relations.ts と同じ変換）
 // 語彙の向き（ia-atlas-content Skill §3）: 「A → B 源流」= A は B の源流（親→子）、
@@ -33,11 +33,13 @@ const TYPE_TO_DB: Record<string, string> = {
 
 const itemSchema = z.object({
   slug: z.string().trim().min(1),
-  body_ja: z.string().refine((b) => JA_CHAPTERS.every((c) => b.includes(c)), {
-    message: "ja本文に3章の見出しが揃っていません",
+  body_ja: z.string().superRefine((b, ctx) => {
+    const problem = validateChapters(b, "ja");
+    if (problem) ctx.addIssue({ code: z.ZodIssueCode.custom, message: problem });
   }),
-  body_en: z.string().refine((b) => EN_CHAPTERS.every((c) => b.includes(c)), {
-    message: "en本文に3章の見出しが揃っていません",
+  body_en: z.string().superRefine((b, ctx) => {
+    const problem = validateChapters(b, "en");
+    if (problem) ctx.addIssue({ code: z.ZodIssueCode.custom, message: problem });
   }),
   sources: z
     .array(

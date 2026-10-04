@@ -73,7 +73,8 @@ erDiagram
 | `locale` | text | | `ja` \| `en`（将来 `zh-Hant` \| `ko`） |
 | `name` | text | NOT NULL | |
 | `summary` | text | | 一言説明 |
-| `history` | text | | 歴史（フェーズ2） |
+| `history` | text | | 歴史（フェーズ2。独立した歴史章を立てない方針のため未使用。`ia-atlas-content` §1） |
+| `body_md` | text | | 本文 Markdown。章構成は 3章固定 + 任意の4章目「どう食べるのか」（2026-10。`ia-atlas-content` §4.5、検証は `scripts/lib/chapters.ts`） |
 
 複合ユニーク `(food_item_id, locale)`。
 
@@ -112,12 +113,12 @@ erDiagram
 | `food_item_id` | uuid | ✅ | PK / FK |
 | `primary_style` | text | **✅ 入力する** | 主系統。単一選択。値はジャンルごとに自由（2026-09〜。CHECK制約は「非空・20文字以内」のみ）。ラーメンは醤油/味噌/塩/豚骨/その他の4色をUI側（`src/features/map/styles.ts` の `RAMEN_STYLES`）で色分けする。他ジャンル（例: 洋食＝ピザ/パスタ/ライス/フライ/肉/その他）は系統名テキストのみで色分けは持たない |
 | `feature_tags` | — | スキーマのみ | 特徴タグ（複数可）。別テーブルで持つ |
-| `noodle_thickness` | — | スキーマのみ | 麺の太さ |
-| `noodle_curl` | — | スキーマのみ | 麺の縮れ |
-| `richness` | — | スキーマのみ | あっさり⇔こってりの段階値 |
-| `originator_shop` | — | スキーマのみ | 元祖店 |
+| `noodle_thickness` | text | **✅ 2026-10〜（ラーメン）** | 麺の太さ。CHECK: 極細 / 細 / 中細 / 中太 / 太 / 極太（`20261004000000_dish_details_noodle_vocab.sql`）。不明は NULL |
+| `noodle_curl` | text | **✅ 2026-10〜（ラーメン）** | 麺の形。CHECK: ストレート / ちぢれ / 手もみ。不明は NULL |
+| `richness` | smallint | **✅ 2026-10〜（ラーメン）** | あっさり(1)⇔こってり(5)。ジャンル内の相対尺度（定義: `data/ledgers/HOWTO_BRIEF.md`）。不明は NULL |
+| `originator_shop` | — | スキーマのみ | 元祖店（中立な媒体としての表示方針が未決のため据え置き） |
 
-**フェーズ1で入力するのは `primary_style` のみ。** 他はスキーマだけ用意する。
+フェーズ1で入力したのは `primary_style` のみ。2026-10 の「詳細ページの情報を厚くする」で麺・濃さをラーメン全件に投入し（`scripts/import-howto.ts`）、詳細ページのカバーに事実チップとして出す（値は日本語語彙、英語表記は `messages/*.json` の `noodle`）。
 
 属性は読み物ではなく**フィルタとして機能する構造化タグ**として設計する（「こってり × 太麺だけ表示」を成立させるため）。
 

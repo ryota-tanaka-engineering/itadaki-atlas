@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "slug": "kawasaki-new-tantan",
+      "howto_ja": "注文時に辛さの段階を選べる店が多く、初めてなら中辛あたりから試すのが無難とされる。にんにくを抜いて頼める店もある。卓上には胡椒や酢、ラー油が置かれていることがあるが店によるので、まずは何も足さずに一口。途中で酢を少し回し入れると辛さが和らぎ、食べやすくなる。\n\n溶き卵が唐辛子の油を抱えてスープに広がっているので、麺と卵、ひき肉を一緒にすくって食べる。かき玉のとろみで最後まで熱いため、最初は少しずつ。ライスを置く店では、残ったスープにご飯を入れて食べ切る頼み方もよくあるとされる。",
+      "howto_en": "Most shops let you pick a heat level when you order; if it is your first bowl, something in the middle is a safe start, and some shops will leave the garlic out on request. Pepper, vinegar and chili oil are often on the table, though it varies by shop, so taste the bowl plain first. A splash of vinegar partway through softens the heat without dulling the broth. The egg holds the chili oil in suspension, so lift noodles, egg and ground pork together rather than fishing for one at a time, and go slowly at first: the egg-drop body keeps the soup scalding to the end. Where rice is offered, finishing by tipping the last of the soup over a bowl of rice is a common way to close.",
+      "noodle_thickness": "中太",
+      "noodle_curl": "ストレート",
+      "richness": 2,
+      "notes": ""
+    },
+    {
+      "slug": "kitakata",
+      "howto_ja": "朝から開く店が多く、「朝ラー」として朝食に食べる習慣がこの型の特徴とされる。注文は基本の中華そばを選ぶのが入口で、チャーシューを増やした一杯を用意する店もある。卓上は胡椒程度のことが多く店によるが、まずは何も足さずにスープと麺の持ち味を確かめたい。\n\n平打ちの太い縮れ麺はスープをよく持ち上げるので、丼を近づけて勢いよくすするのが向く。多加水麺は時間がたっても伸びにくいが、脂に頼らないあっさり型はスープが冷めやすいので、熱いうちに麺から食べ進めるのがよいとされる。胡椒を足すなら後半に少量。",
+      "howto_en": "Many shops open early, and eating a bowl for breakfast — asa-ra, literally morning ramen — is part of how this style is enjoyed, so arriving in the early hours is a natural way to try it. The basic chuka soba (plain soy ramen) is the entry point; some shops also offer a version piled with extra chashu. The table usually holds little more than pepper, which varies by shop, and the broth is light enough that it is worth tasting it as served before adding anything. The thick, flat, wavy noodles carry a lot of soup, so bring the bowl close and slurp with some energy. High-water noodles hold their texture, but a clear broth that does not lean on fat cools quickly, so start on the noodles while everything is hot, and keep pepper for the second half.",
+      "noodle_thickness": "太",
+      "noodle_curl": "ちぢれ",
+      "richness": 2,
+      "notes": ""
+    },
+    {
+      "slug": "korai-kei",
+      "howto_ja": "品書きは松・竹・寿といった独自の名で分かれ、メンマや焼き豚の量で選ぶ仕組みのことが多い。初めてなら基本の一杯から入り、量の多いものはそのあとに試すのが分かりやすい。卓上の調味料は店によって異なり、まずは何も足さずに、白濁した見た目と裏腹の軽さを確かめたい。\n\n野菜の甘みがだしに溶けているので、最初はスープだけを一口。中太の麺はもっちりして持ち上げがよく、途中で胡椒を少し振ると味が引き締まることがある。飲み干したくなる軽さが身上なので、スープまで味わうのがこの系列らしい食べ方とされる。",
+      "howto_en": "The menu is usually split under names of the shop's own — matsu, take and kotobuki — which differ mainly in how much menma (bamboo shoot) and roast pork come on top, so the plain bowl is the easiest way in, with the heavier versions for a second visit. Table condiments vary from shop to shop; it is worth tasting the broth untouched first, because the milky look sets up an expectation that the light taste then overturns. Take a spoonful of soup before anything else to catch the sweetness of the simmered vegetables, then move to the chewy medium-thick noodles, which carry the broth well. A pinch of pepper partway through can sharpen things. The soup is light enough to drink to the bottom, and doing so is very much in the spirit of this lineage.",
+      "noodle_thickness": "中太",
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "麺の形は本文に記述なし。richness は「白濁だがあっさり」（軽めの白湯）として 3"
+    },
+    {
+      "slug": "koriyama-black",
+      "howto_ja": "初めてなら基本の中華そばを選べば、黒いスープとまろやかな飲み口のギャップがそのまま味わえる。麺は店ごとに細麺から極太の手もみ麺まで違うため、太さを選べる店なら好みを伝える。卓上は胡椒や一味程度のことが多いが店によるので、まずは何も足さずに一口。\n\n見た目から塩辛さを構えてしまいがちだが口当たりは穏やかなので、スープを先にひとさじ飲んで印象を確かめてから麺に進むとよい。たまり醤油の香りは温かいうちに立つので、チャーシューやナルトを崩すのは後半にし、途中で胡椒を足して味を切り替える食べ方もある。",
+      "howto_en": "Order the standard chuka soba to get the full effect: a broth that looks like ink and drinks mild. Noodles differ widely between shops, from thin to very thick hand-crumpled strands, so if a shop offers a choice, say which you prefer. The table often holds pepper and perhaps ichimi (ground chili), though this varies, and the bowl is better met untouched at first. Because the colour sets you up to expect salt, take a spoonful of soup before the noodles to recalibrate; the saltiness is restrained and the tamari aroma is strongest while hot. Leave the chashu and naruto (the pink-swirl fish cake) intact until the second half, and add pepper then if you want to shift the taste for the last stretch.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺は本文に「店ごとに細麺から極太の手もみ麺までばらばら」とあるため太さ・形とも null"
+    },
+    {
+      "slug": "koriyama-tonkotsu",
+      "howto_ja": "九州の豚骨と同じ骨格なので、麺の硬さを聞かれたら「普通」か「かため」から試すと分かりやすい。細麺は伸びやすいため、量を増やすより替え玉で追う方が向くとされ、用意している店もある。卓上には紅生姜・ごま・にんにく・胡椒が揃うことが多いが、店による。\n\nまずは何も足さずにスープを一口。臭みを抑えた仕立てなので、豚骨が初めてでも入りやすい。途中から紅生姜を少量、次にごまを振り、最後ににんにくを足して味を段階的に変えていくのが豚骨では定番の流れ。替え玉を頼むならスープが残っているうちに。",
+      "howto_en": "The bowl follows the Kyushu pork-bone template, so if you are asked how firm you want the noodles, 'normal' or 'firm' (katame) is the usual starting point. The thin noodles soften fast, so it suits the style better to order kaedama — a refill of noodles into the remaining soup — than a large portion up front, and some shops offer it, though not all. Pickled red ginger (beni shoga), sesame, garlic and pepper are often on the table, varying by shop. Taste the broth plain first: it is made to be milder than many Kyushu bowls, so it is an easy entry even for a first tonkotsu. Then build in stages — a little red ginger, then sesame, then garlic near the end — so the bowl changes as you go, and ask for the refill while there is still soup to hold it.",
+      "noodle_thickness": "細",
+      "noodle_curl": "ストレート",
+      "richness": 4,
+      "notes": ""
+    },
+    {
+      "slug": "kosaka-katsu-ramen",
+      "howto_ja": "注文は一品で完結し、カツ丼とラーメンを別々に頼む必要はない。カツを卵でとじるかそのまま乗せるかは店ごとに決まっており、選べる店なら好みを伝える。卓上は胡椒や七味程度のことが多く店によるが、まずは何も足さずに食べ始めたい。\n\nカツを先に全部崩すと衣がスープを吸ってしまうので、麺と交互に少しずつ口に運ぶのが向く。卵の甘みがスープに溶け出して後半は味がやや変わるので、七味を振って引き締める人もいる。空腹のときに向く一杯で、スープを飲み干すより、カツと麺を食べ切る満足感を軸に味わうのがこの型らしい。",
+      "howto_en": "One order covers everything — there is no need to ask for katsudon and ramen separately. Whether the cutlet comes bound with egg or set on plain is usually fixed by the shop; where there is a choice, say which you want. The table tends to hold little beyond pepper or shichimi (seven-spice chili), so begin without adding anything. Resist breaking up the cutlet all at once, since the breading soaks up broth quickly; alternate between bites of katsu and mouthfuls of noodles instead. As the egg's sweetness leaks into the soup the taste softens in the second half, and some people shake on shichimi then to sharpen it. This is a filling bowl to come to hungry, and the satisfaction lies in finishing the cutlet and noodles rather than draining the soup.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺の太さ・形は本文・概要に記述なし"
+    },
+    {
+      "slug": "koshu-jidori",
+      "howto_ja": "注文は基本の一杯から入り、曜日ごとにトッピングが変わる店もあるため、その日の追加具材を聞いてみると違いが楽しめる。卓上の調味料は店によるが、鶏と淡水魚のだしは繊細なので、まずは何も足さずにスープを一口確かめたい。\n\nドライトマトや地どりソーセージなど具ごとに味の方向が違うため、一度に混ぜず、ひとつずつスープと合わせて味の移り変わりを追うのがこの一杯の食べ方とされる。鶏の澄んだスープは冷めると香りが落ちるので、麺は早めに。胡椒を足すなら、具を食べ終えた後半に少量がよい。",
+      "howto_en": "Start with the standard bowl; some shops rotate extra toppings by day of the week, so asking what is on that day is a good way to see the range. Table condiments vary by shop, and since the broth — free-range chicken layered with a freshwater-fish tare — is on the delicate side, taste it plain first. The toppings pull in different directions, from dried tomato to jidori (free-range chicken) sausage, so rather than stirring everything together, take them one at a time with a little soup and follow how the bowl's centre of gravity shifts. A clear chicken broth loses its aroma as it cools, so do not linger over the noodles. If you want pepper, a small amount late in the bowl, after the toppings are gone, works well.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺の太さ・形は本文・概要に記述なし"
+    },
+    {
+      "slug": "kudamatsu-gyukotsu-ramen",
+      "howto_ja": "注文は中華そばを基本に、食堂として始まった店の名残からいなり寿司を添える組み合わせが下松らしいとされ、置いている店なら一緒に頼むのが向く。卓上は胡椒程度のことが多く店によるが、牛骨の甘みは繊細なので、まずは何も足さずに一口。\n\n牛骨の脂は豚骨より軽いので、スープを先に飲んで甘さを確かめ、そのあとストレート麺をすする。細もやしは早めに食べると歯ざわりが残る。醤油の甘みに慣れてきた後半に胡椒を少し振ると味が締まる。いなり寿司は麺の合間にかじり、甘い酢飯と牛骨の甘みを交互に味わうのが地元の食べ方とされる。",
+      "howto_en": "Order the basic chuka soba, and if the shop offers inari-zushi (sweet fried-tofu pockets of sushi rice), take one alongside — the pairing is a holdover from shops that began as diners and is seen as the Kudamatsu way. Pepper is often the only thing on the table, though it varies. Beef-bone fat sits lighter than pork, so drink a spoonful first to find the sweetness, then move to the straight noodles. Eat the slim bean sprouts early while they still have snap. Once the sweet soy has settled in, a little pepper in the second half tightens the taste. Bite into the inari between mouthfuls of noodles, letting the sweet vinegared rice and the sweet beef broth trade places.",
+      "noodle_thickness": "中細",
+      "noodle_curl": "ストレート",
+      "richness": 2,
+      "notes": "本文は「中細から中太のストレート麺」と幅があるため、細い側の 中細 を採った。要判断なら null に"
+    },
+    {
+      "slug": "kumamoto",
+      "howto_ja": "麺の硬さを聞かれる店が多く、博多より太いぶん「普通」でも芯が残りにくいので、まず普通から試すとよい。替え玉を置く店もあるが店による。卓上には紅生姜・辛子高菜・にんにく・胡椒が並ぶことが多いが、これも店ごとに違う。\n\nマー油の香りが立つうちに、まず何も足さずにスープを一口。表面の黒い油を一度に混ぜ込まず、少しずつ麺に絡めると香ばしさが長く続く。キクラゲは早めに食べると歯ざわりが残る。後半に紅生姜や高菜を少し足すと豚骨の甘みが引き締まるが、マー油の香りが隠れるので控えめに。",
+      "howto_en": "Many shops ask how firm you want the noodles; since they run thicker than Hakata's, 'normal' already leaves a little bite, and that is the sensible first choice. Kaedama (a refill of noodles) exists at some shops but depends on the place. Pickled red ginger, spicy mustard greens (karashi takana), garlic and pepper are often on the table, though it varies. Taste the soup untouched while the ma-yu — the black burnt-garlic oil — is still fragrant. Do not stir the oil in all at once; let it coat the noodles a little at a time so the toasted aroma lasts. Eat the kikurage (wood-ear mushroom) early for its crunch. In the second half a little red ginger or takana sharpens the pork sweetness, but go easy, since both can bury the ma-yu.",
+      "noodle_thickness": "中太",
+      "noodle_curl": "ストレート",
+      "richness": 4,
+      "notes": ""
+    },
+    {
+      "slug": "kurume",
+      "howto_ja": "麺の硬さは「普通」「かため」「ばりかた」から選ぶことが多く、濃いスープには普通かかためが合うとされる。替え玉を置く店が多く、スープが濃いので薄まりを気にせず追える。卓上の紅生姜・ごま・にんにく・胡椒は店によるが、揃っていることが多い。\n\n脂の膜で丼が最後まで熱いので、最初は少しずつ。まず何も足さずに豚骨だけの甘みを確かめ、途中から紅生姜、次にごま、最後ににんにくと段階的に足すと一杯の中で味が動く。替え玉は硬めにして食感を変えるのも一つの手。重さのある型なので、空腹のときや夜の〆に向くとされる。",
+      "howto_en": "You will usually be asked how firm you want the noodles — futsu (normal), katame (firm) or barikata (very firm) — and normal or firm sits well in this heavy broth. Most shops offer kaedama (a refill of noodles), and the soup is dense enough that it hardly thins. Pickled red ginger, sesame, garlic and pepper are usually on the table, though it varies by shop. The fat on the surface keeps the bowl scalding to the end, so go slowly at first. Taste the broth plain to meet the pork sweetness on its own, then build: a little red ginger, then sesame, then garlic near the end, so the bowl shifts as you go. Ordering the refill firmer than the first round is a simple way to change the texture. This is a heavy bowl, suited to an empty stomach or a late-night finish.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 5,
+      "notes": "麺は本文に「博多や長浜よりやや太め」とだけあり語彙に当たらないため null。形も記述なし"
+    },
+    {
+      "slug": "kushikino",
+      "howto_ja": "注文は基本の一杯で、まぐろの漬けはチャーシューの代わりに最初から乗っている。わさびを添える店が多いとされ、途中でスープに溶かして味を変えるのがこの一杯らしい食べ方。ただし置き方や量は店による。\n\n漬けは熱いスープに触れると色と食感が変わっていくので、最初の一枚は生のまま、次は少しスープにくぐらせて、と変化を追って食べるとよい。全部を一度に沈めると火が通りすぎるため、麺の上に避けておくのが向く。魚介の澄んだスープは冷めると香りが落ちるので、ちぢれ麺は早めに。わさびは後半に少量ずつ。",
+      "howto_en": "Order the standard bowl; the marinated raw tuna comes on it from the start, in place of chashu. Many shops serve wasabi with it, and stirring a little into the soup partway through to change the taste is the characteristic way to eat this bowl — how much is offered, and where, varies by shop. The tuna changes colour and texture as the hot broth reaches it, so eat the first slice as it is, dip the next one briefly, and follow the shift rather than sinking everything at once, which overcooks it; resting the slices on top of the noodles keeps them in your control. The clear fish broth loses its aroma as it cools, so take the wavy noodles early, and add wasabi in small amounts in the second half.",
+      "noodle_thickness": "中細",
+      "noodle_curl": "ちぢれ",
+      "richness": 1,
+      "notes": "richness はまぐろ頭・白だしの醤油清湯で脂の記述がないため 1。にんにく・しょうがを煮出す分やや脂が出る可能性があり 2 も検討"
+    },
+    {
+      "slug": "kushiro",
+      "howto_ja": "朝から開く店もあり、港町の朝食として食べられてきた型なので、朝や〆の一杯に向く。注文は基本の醤油から入り、硬さを聞かれることは少ないとされる。卓上は胡椒程度のことが多く、店による。\n\n極細の縮れ麺は茹で時間が短いぶん伸びるのも早いので、運ばれてきたら具より先に麺をすすり始めるのがよい。あっさりした魚介だしのスープは、最初に一口飲んで軽さを確かめ、麺を食べ切ったあとに飲み干す。胡椒は後半に少量が向き、最初から振るとだしの香りが隠れる。丼を持ち上げて軽さごと味わうのがこの一杯の身上とされる。",
+      "howto_en": "Some shops open early, and this bowl has long been eaten as a port town's breakfast, so it suits a morning or a light late-night finish. Start with the basic soy bowl; being asked about noodle firmness is uncommon here. The table usually holds pepper and little else, though it varies. The very thin, crinkled noodles cook in moments and soften just as fast, so begin on the noodles the moment the bowl arrives, before the toppings. Take one spoonful of the fish-based broth first to register how light it is, then drink the rest once the noodles are gone. Pepper belongs in the second half, in small amounts — added at the start it covers the dashi. The whole point is the lightness, and the bowl rewards being met that way.",
+      "noodle_thickness": "極細",
+      "noodle_curl": "ちぢれ",
+      "richness": 1,
+      "notes": ""
+    },
+    {
+      "slug": "kyofu",
+      "howto_ja": "現在は掲げる店が少ないとされる系統なので、見つけたら基本の一杯をそのまま頼むのが入口。和風だしの薄味は、麺の硬さや味の濃さを指定するより、そのままの設計を味わう型とされる。卓上の調味料は店によるが、まずは何も足さずにスープを一口。\n\n細麺は短めに茹でて出されることが多く伸びやすいので早めにすすり、湯葉や九条ねぎなど京都らしい具は麺の合間に少しずつ。薄味のだしは冷めると輪郭がぼやけるため、熱いうちに。胡椒や七味を足すなら後半に少量にとどめ、だしの香りを消さないのがこの型に合うとされる。",
+      "howto_en": "Few shops still carry this style, so if you come across one, order the basic bowl as it is. With a lightly seasoned Japanese-style dashi, this is a bowl designed to be taken as served rather than tuned with firmness or strength requests. Table condiments vary by shop; taste the broth plain first. The thin noodles are often boiled on the short side and soften quickly, so start on them early, taking Kyoto-style toppings such as yuba (tofu skin) and Kujo green onion in small amounts between mouthfuls. A delicate dashi loses its outline as it cools, so do not let the bowl sit. If you reach for pepper or shichimi (seven-spice chili), keep it to a little in the second half, so the dashi's aroma stays in front.",
+      "noodle_thickness": "細",
+      "noodle_curl": null,
+      "richness": 1,
+      "notes": "麺の形は本文に記述なし"
+    },
+    {
+      "slug": "kyoto",
+      "howto_ja": "店によって鶏ガラを強く炊く型と背脂系に分かれるので、品書きでどちらかを確かめてから入るとよい。背脂系では脂の量を選べる店があり、初めてなら普通から。濃いスープをおかずに食べる「替えご飯」を置く店も多いとされ、空腹なら最初に頼んでおく。\n\n卓上は胡椒や一味、にんにくのことが多いが店による。背脂が膜になって熱いので最初は少しずつ、まず何も足さずに。中太麺は柔らかめなので、具と一緒に早めに。後半に一味を少し足すと脂の重さが切れ、ご飯をスープに浸して食べ切るのがこの街らしい食べ方とされる。",
+      "howto_en": "Shops divide into those that boil chicken bones hard and the seabura (back-fat) type, so check the sign or menu for which you are walking into. At back-fat shops you can often set the amount of fat — more or less — and 'normal' is the sensible first time. Many shops offer kae-gohan, a bowl of rice to eat alongside the strong soup, and if you are hungry it is worth ordering it from the start. Pepper, ichimi (ground chili) and garlic are common on the table, but this varies. The layer of fat keeps the bowl scalding, so go slowly at first and taste before adding anything. The medium-thick noodles are served soft, so take them early with the toppings. A little ichimi in the second half cuts through the fat, and finishing by dipping rice into the last of the soup is very much the local way.",
+      "noodle_thickness": "中太",
+      "noodle_curl": "ストレート",
+      "richness": 4,
+      "notes": "richness は背脂系（乳化）を基準に 4。鶏ガラ強炊きの伝統型は 3 相当で、店による振れ幅が大きい"
+    }
+  ],
+  "notes": "麺の属性を null にしたもの: koriyama-black（店ごとにばらばら）、kosaka-katsu-ramen・koshu-jidori（記述なし）、kurume（「博多よりやや太め」のみで語彙に当たらない）。形のみ null: korai-kei・kyofu。要判断: kudamatsu-gyukotsu-ramen の太さ（本文「中細から中太」→中細を採用）、kushikino の richness（1 か 2）、kyoto の richness（背脂系基準で 4）。"
+}

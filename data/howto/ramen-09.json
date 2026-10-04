@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "slug": "sanmamen",
+      "howto_ja": "熱々のあんが乗るため、最初の一口は麺を持ち上げてあんをよけ、冷ましながら少しずつ食べ進めるのが無難。あんはスープの熱を閉じ込めているので、見た目以上に熱いことが多い。\n\n卓上には酢と胡椒、ラー油を置く店が多く、途中で酢を少し回しかけるとあんの重さが軽くなり味が変わる。ただし置かれているものは店による。後半はあんをスープに溶かし込むととろみが薄まり、麺と絡みやすくなる。横浜の中華食堂や町中華で昼の定番として出ることが多く、ライスを添えてあんをかけながら食べる組み合わせも見かける。",
+      "howto_en": "The ankake — the thick, starchy vegetable sauce — traps the heat of the broth beneath it, so the bowl is hotter than it looks. Lift the noodles up through the sauce and take the first mouthfuls slowly. Tables often carry vinegar, white pepper and ra-yu (chili oil), though what is set out varies by shop; a splash of vinegar partway through lightens the sauce and gives the second half a different character. Later in the bowl, stirring the sauce down into the broth thins it so it clings to the noodles. Sanmamen is a lunchtime standard at Yokohama's Chinese diners, and a side of rice with some of the sauce spooned over it is a common pairing.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺の太さ・形は本文に記述なし。richness は醤油/塩の清湯に炒め油とあんが乗る型として 2"
+    },
+    {
+      "slug": "sano",
+      "howto_ja": "麺が平打ちでやわらかいので、硬さの指定を受ける店は少なく、そのままの茹で加減で出されることが多い。もちもちの麺は伸びにくいとされるが、スープが澄んで軽いぶん、麺を先にすすり、合間にスープを飲む流れが合う。\n\n卓上は胡椒程度のことが多く、置かれているものは店による。入れるなら後半に少量で、澄んだスープの輪郭を崩さないのが無難。大盛やチャーシュー増しを受ける店は多く、餃子を添える組み合わせも定番とされる。昼の食事として食べられることが多い一杯で、観光客も町の人も同じ店で同じものを頼む。",
+      "howto_en": "The flat, high-hydration noodles are soft by design, so few shops take requests for firmness; the bowl usually comes as the kitchen cooks it. The noodles are said to resist going limp, and since the broth is clear and light, a natural rhythm is to slurp the noodles first and sip the soup in between. Tables usually hold little more than pepper, though this varies by shop; if you add any, do it late and sparingly so the clean soy broth keeps its edge. Larger portions and extra chashu are common options, and gyoza on the side is a standard pairing. It is eaten mostly as a midday meal, by visitors and locals alike ordering the same bowl.",
+      "noodle_thickness": null,
+      "noodle_curl": "手もみ",
+      "richness": 2,
+      "notes": "麺は『平打ち・厚さ二ミリほど』で語彙（太さ）に該当しないため null。形は本文『手でもみ込んでちぢれを付け』から 手もみ"
+    },
+    {
+      "slug": "sapporo",
+      "howto_ja": "ラードの膜が湯気を閉じ込めているので、見た目ほど湯気が立たなくても丼は熱い。最初はレンゲでスープを少し取って温度を確かめ、麺は少しずつ持ち上げる。炒めた野菜と挽肉はスープに沈めながら麺と一緒にすすると、味噌のコクに甘みが重なる。\n\nバターやコーンを追加できる店もあるが、最初から入っているとは限らない。卓上は胡椒と一味、おろしにんにくを置く店が多く、後半に一味を少し足すと味噌の輪郭が立つ。冷える季節に体を温める一杯として食べられることが多く、炒めもやしの増量や麺の大盛を選べる店もある。",
+      "howto_en": "A film of lard seals the surface, so the bowl is far hotter than its modest steam suggests. Take a spoonful of broth first to gauge the heat, then lift the noodles a little at a time. Push the stir-fried vegetables and ground pork down into the soup and eat them with the noodles; their sweetness rides on the miso. Butter and corn can often be added, but they are extras at some shops, not part of the standard bowl. Tables usually hold pepper, ichimi (ground chili) and grated garlic; a pinch of chili late in the bowl sharpens the miso. It is a bowl people turn to in the cold months, and some shops let you choose extra bean sprouts or a larger portion of noodles.",
+      "noodle_thickness": "中太",
+      "noodle_curl": "ちぢれ",
+      "richness": 4,
+      "notes": "本文なし。概要『中太の縮れ麺』『表面をラードで覆う』から。richness は味噌にラードを重ねる型として 4"
+    },
+    {
+      "slug": "seabura-chatcha",
+      "howto_ja": "背脂の量を「少なめ・普通・多め」から選べる店が多く、初めてなら普通から入るのが無難。麺の硬さを指定できる店もあるが、店による。脂の膜が蓋になっているので丼は冷めにくく、最初の数口は湯気の少なさに油断せず少しずつ食べ進める。\n\n背脂は粒ごとレンゲで麺にのせるとコクが乗り、スープだけ飲むと醤油の輪郭がわかる。卓上には胡椒とおろしにんにくを置く店が多く、途中でにんにくを少し溶かすと脂の甘みが引き締まる。ごはんを頼んで背脂の浮いたスープを少しかける食べ方をする人もいる。夜遅くの一杯として広まった型でもある。",
+      "howto_en": "Many shops let you choose the amount of back fat — sukuname (less), futsu (regular) or oome (more) — and regular is the safe first order. Some also take requests for noodle firmness, but that varies. The layer of fat works as a lid, so the bowl stays hot long after it arrives; the thin steam is misleading, and the first mouthfuls are best taken slowly. Scoop the fat granules onto the noodles with the spoon for the full richness, then sip the broth alone to find the soy underneath. Tables often hold pepper and grated garlic; a little garlic stirred in midway tightens the sweetness of the fat. Some diners order rice and spoon the fat-flecked broth over it. The style also spread as a late-night bowl.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "麺の記述なし。richness は醤油清湯に背脂がしっかり乗る型として 3"
+    },
+    {
+      "slug": "sendai-karamiso",
+      "howto_ja": "辛味噌は最初から溶かさず、まず数口そのままの味噌スープを味わってから、レンゲの先で少しずつ崩し入れる食べ方が定着している。一度に全部溶かすと戻せないので、半分ほど残しておくと後半で辛さを調整できる。辛味噌を溶かした部分だけをレンゲで集めて麺に絡めると、一口ごとに辛さを変えられる。\n\n卓上に胡椒や一味を置く店もあるが、辛味噌そのものが薬味の役を担うので、まずはそちらで味を作るのが筋。辛味噌を多めに頼める店や辛さの段階を選べる店もあり、ごはんを添えて辛味噌を少しのせる組み合わせも見かける。",
+      "howto_en": "Do not stir the chili miso in right away. The settled way to eat this bowl is to taste a few mouthfuls of the plain miso broth first, then break small amounts of the karamiso (chili miso) off with the tip of the spoon and dissolve it gradually. Once it is all in there is no going back, so keeping about half in reserve leaves room to adjust the heat later. Gathering only the spicier patch of broth with the spoon and coating the noodles in it lets you change the heat bite by bite. Some shops set out pepper or ground chili as well, but the chili miso is the seasoning here, so start with that. Many shops will serve extra karamiso or offer heat levels, and a side of rice with a dab of it is a common pairing.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 4,
+      "notes": "麺の記述なし。richness は『濃厚な味噌スープ』の記述から 4（ラードの明記はなし、要判断）"
+    },
+    {
+      "slug": "shida-kei",
+      "howto_ja": "温かい一杯と冷たい一杯を一緒に頼み、温を先に、冷を後に食べる組み合わせがこの系統の流儀とされる。一杯だけでも構わないが、両方を並べて温度の違いを比べるのがこの型らしい楽しみ方。\n\n脂を抜いた清湯は軽く、一杯を食べ終えるのに時間がかからないため、朝から開く店で早い時間に食べる人もいる。卓上は胡椒程度のことが多く、置かれているものは店による。入れるなら後半に少量で、鰹の香りを消さないのが無難。冷たい一杯は温より味が締まって感じられることが多く、温の後に口が引き締まる順になっている。",
+      "howto_en": "The custom of this lineage is to order a hot bowl and a cold bowl together, eating the hot one first and the cold one after. Two bowls is a lot for one person, and a single bowl is fine, but setting both side by side to compare the temperatures is the way this style is meant to be enjoyed. With the fat trimmed away the clear broth is light and quick to finish, and some people eat it early in the morning at shops that open at that hour. Tables usually hold little more than pepper, though this varies by shop; add it late and sparingly so the bonito aroma stays intact. The cold bowl tends to taste tighter and sharper than the hot one, so the order leaves the palate clean at the end.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 1,
+      "notes": "麺の記述なし。richness は『脂を極限まで取り除いた清湯』の記述から 1"
+    },
+    {
+      "slug": "shijimi-ramen",
+      "howto_ja": "殻つきのしじみが丼に入って出てくる店では、まず身を外して食べ、殻は小皿や丼のふちにまとめておくと後半の麺がすすりやすい。身を別皿で添える店もあるので、出てきた形に合わせればよい。\n\nスープは貝の旨味が主役で脂がほとんど浮かないため、熱いうちに最初の一口をレンゲで飲み、貝の丸い味を確かめてから麺に移るのが合う。卓上は胡椒程度の店が多いが、置かれているものは店による。入れすぎると貝の香りが隠れるので、足すなら後半に少量が無難。出汁は飲み干しても重くなく、軽い食事として選ばれやすい一杯とされる。",
+      "howto_en": "Where the shijimi (small freshwater clams) come in the bowl still in their shells, pick the meat out first and gather the empty shells on a side plate or the rim of the bowl; it makes the noodles easier to slurp later on. Some shops serve the meat on a separate dish instead, so follow whatever form it arrives in. The clams carry the broth and almost no fat floats on top, so take the first spoonful while it is hot and register the round, mellow savor before moving to the noodles. Tables usually hold little more than pepper, though this varies by shop; too much hides the shellfish aroma, so add a little late if at all. The broth is light enough to drink to the bottom, and many people do, which makes it an easy choice for a lighter meal.",
+      "noodle_thickness": "中太",
+      "noodle_curl": "ちぢれ",
+      "richness": 1,
+      "notes": "本文『中太のちぢれ麺』から。richness は動物系に頼らない澄んだ塩清湯として 1"
+    },
+    {
+      "slug": "shimizu-motsu-curry",
+      "howto_ja": "もつカレーは汁ごと麺にのって出てくるので、最初はカレーとスープを混ぜずにそれぞれ味を確かめ、少しずつ合わせていくと変化がわかりやすい。柔らかいもつは箸でつまんで合間に食べる方が食べやすい。\n\n卓上には一味や七味、胡椒を置く店があり、途中で辛みを足す人もいるが、置かれているものは店による。もつカレー自体がもとは酒のつまみで、ラーメンとは別に単品で頼み、ごはんや酒と合わせる食べ方も残っている。昼の食事としても夜の〆としても出される一杯で、ごはんを添えて残ったカレーをかける組み合わせを勧める店もある。",
+      "howto_en": "The motsu curry — stewed offal in curry sauce — is ladled over the noodles, sauce and all. Rather than mixing everything at once, taste the curry side and the broth side separately first, then blend them little by little to follow how the flavor shifts. The offal is simmered soft and is easier to eat picked up with chopsticks between mouthfuls of noodles than slurped along with them. Some shops set out ichimi or shichimi (ground chili blends) and pepper for adding heat partway through, though what is on the table varies by shop. Motsu curry began as a drinking snack, and ordering it on its own with rice or a drink, separate from the ramen, is still done. The bowl is served as a lunch and as a late-night finisher alike, and some shops suggest a side of rice for the curry left at the bottom.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 4,
+      "notes": "麺の記述なし。richness はとろみのあるカレーがスープに乗る型として 4（豚骨乳化型ではないため要判断）"
+    },
+    {
+      "slug": "shimodate",
+      "howto_ja": "鶏のチャーシューは甘辛く煮てあるので、最初に崩さず、麺とスープを数口味わってから鶏肉に移ると、淡いスープとの対比がはっきりする。中細の縮れ麺は伸びにくいとされるが、締まった噛み心地を楽しむなら早めにすすり終えるのが無難。\n\n卓上は胡椒程度の店が多く、置かれているものは店による。入れるなら後半に少量で、鶏ガラの香りを消さない程度にとどめる。出前が日常だった町の型なので、今も出前に対応する店があるとされる。昼の定食代わりに食べられることが多く、ごはんや餃子を添える組み合わせを見かける。",
+      "howto_en": "The chicken chashu is simmered in a sweet-savory sauce, so leave it intact at first; a few mouthfuls of noodles and broth before turning to the meat makes the contrast with the light soup much clearer. The thin, wavy noodles are said to resist going soft, but if the firm, tight bite is the point, it is best to finish them without lingering. Tables usually hold little more than pepper, though this varies by shop; add it late and lightly so the chicken-bone aroma is not covered. This is a bowl from a town where delivery was part of daily life, and some shops are said to still deliver. It is eaten mostly as a midday meal in place of a set lunch, often with rice or gyoza on the side.",
+      "noodle_thickness": "中細",
+      "noodle_curl": "ちぢれ",
+      "richness": 2,
+      "notes": "本文『中細の縮れ麺』から。richness は鶏ガラの澄んだ醤油で脂が少ないため 2（1 とも読めるが鶏油の明記なし）"
+    },
+    {
+      "slug": "shinjo-torimotsu",
+      "howto_ja": "麺を数口すすってから鶏もつを口に運び、脂の旨みが残った舌にあっさりした醤油スープを重ねる、という往復が定番の食べ方とされる。もつは甘辛く煮てあるので、最初から全部スープに沈めると味が濃くなりすぎる。少しずつ崩しながら食べ進めると終盤までスープの淡さが保たれる。\n\nもつの量を増やせる店や、もつ煮込みだけを単品で頼める店もあるが、店による。卓上には胡椒のほか七味や一味を置く店があり、もつにだけ振って食べる人もいる。居酒屋のつまみと一杯が合わさった型なので、酒の後の〆にも昼の食事にもなる。",
+      "howto_en": "The settled rhythm is a back-and-forth: a few mouthfuls of noodles, then a piece of the chicken giblets, then the light soy broth over a tongue still coated with their richness. The giblets are braised sweet and savory, so pushing the whole mound into the soup at the start makes the bowl too heavy; break the pile down gradually and the broth keeps its lightness to the end. Some shops offer extra giblets, or the giblet stew on its own as a side, but that varies. Tables may hold shichimi or ichimi (chili blends) alongside pepper, and some people sprinkle it only on the giblets. Since the dish grew out of an izakaya pairing a snack with a bowl, it is eaten as a finisher after drinks as often as it is a midday meal.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺の記述なし。richness は『あっさりとした醤油スープ』から 2"
+    },
+    {
+      "slug": "shinshu-miso-ramen",
+      "howto_ja": "味噌の香りが主役なので、最初の一口はレンゲでスープだけを飲み、味噌の角のないコクを確かめてから麺に移るのが合う。脂の量や薬味の加減は店ごとに違い、脂少なめや野菜増しを受ける店もある。\n\n卓上には一味や胡椒、おろしにんにくを置く店が多く、後半に一味を少し足すと味噌の甘みが引き締まる。にんにくは味噌と相性がよいが、入れすぎると熟成味噌の香りが隠れるので、まずは少量から。信州の冬は冷えるため、体を温める昼や夜の一杯として食べられることが多く、ごはんを添えてスープを少しかける組み合わせも見かける。",
+      "howto_en": "The miso is the point, so start with a spoonful of broth on its own to register its mellow, rounded depth before moving to the noodles. The amount of finishing fat and garnish differs from shop to shop; some take requests for less fat or extra vegetables, but not all. Tables usually hold ichimi (ground chili), pepper and grated garlic. A pinch of chili late in the bowl tightens the miso's sweetness. Garlic pairs well with miso, but too much buries the aroma of the long-aged paste, so begin with a little. Nagano winters are cold, and this is a bowl eaten at lunch or dinner to warm up, often with a side of rice that gets a spoonful of the broth over it.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "麺の記述なし。richness は味噌＋動物系だがラードの明記がなく『仕上げの脂は店による』ため 3"
+    },
+    {
+      "slug": "shirakawa",
+      "howto_ja": "手打ちの麺は茹でたてをすぐに出す店が多く、硬さの指定を受けないことが一般的とされる。幅広の麺はスープを持ち上げる力が強いので、最初はスープを飲まずに麺だけをすすると、小麦の香りがはっきり分かる。\n\n大ぶりのチャーシューは枚数を増やせる店が多く、チャーシューメンとして品書きに載ることもある。卓上は胡椒程度のことが多く、置かれているものは店による。入れるなら後半に、澄んだスープの輪郭を保つ程度に。幅広な分だけ量が多く感じられるので、迷うなら大盛を避けるのが無難。昼の食事として食べられることが多い。",
+      "howto_en": "The hand-pulled noodles go straight from the boiling water to the bowl at most shops, and requests for firmness are generally not taken. The wide noodles lift a lot of broth with them, so slurping the noodles alone before sipping the soup lets the wheat aroma come through clearly. Extra slices of the large chashu are widely available, and a chashu-men (ramen with extra pork) often appears on the menu as its own item. Tables usually hold little more than pepper, though this varies by shop; add it late and sparingly to keep the clear broth intact. The high-hydration noodles are said to resist going limp, but their width makes the portion feel bigger than it is, so skipping the large size is sensible if you are unsure. It is mostly eaten as a midday meal.",
+      "noodle_thickness": "太",
+      "noodle_curl": "ちぢれ",
+      "richness": 2,
+      "notes": "本文『幅広で多加水の縮れ麺』『太めの麺』から 太/ちぢれ（平打ちのため太さは要判断）。richness は澄んだ醤油として 2"
+    },
+    {
+      "slug": "sodegaura",
+      "howto_ja": "牛乳のスープは見た目がポタージュに近く、レンゲですくって最初の一口を飲むと、乳の甘みと生姜の辛みの順がよく分かる。麺を持ち上げるととろみのあるスープがよく絡むので、すするより少しずつ口に運ぶ方が食べやすい。\n\n卓上は胡椒程度の店が多く、置かれているものは店による。乳のまろやかさに胡椒は合うが、入れすぎると生姜の香りが負けるので、後半に少量が無難。具の組み合わせは店ごとに違う。スープは冷めるととろみが増すので、熱いうちに食べ進める。袖ケ浦周辺の店で昼の一杯として出されることが多い型とされる。",
+      "howto_en": "The milk broth looks like a potage, and a first spoonful shows the order in which it unfolds: the sweetness of the milk, then the bite of ginger. The thick soup clings to the noodles when you lift them, so taking smaller mouthfuls works better than a long slurp. Tables usually hold little more than pepper, though this varies by shop. Pepper suits the roundness of milk, but too much overpowers the ginger, so a little late in the bowl is enough. Toppings differ from shop to shop, so it is worth checking the menu. The broth thickens as it cools, so keep moving while it is hot. It is served mostly as a lunchtime bowl at shops around Sodegaura.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 4,
+      "notes": "麺の記述なし。richness は牛乳ベースでとろみがあり口に膜が残る型として 4（乳化豚骨ではないため要判断）"
+    },
+    {
+      "slug": "su-ramen",
+      "howto_ja": "うどん出汁の軽いスープなので、まずレンゲでひと口飲み、いりこと昆布の香りを確かめてから麺に移ると、この一杯の性格が分かりやすい。脂の膜がほとんどないため冷めやすく、熱いうちに食べ進めるのが無難。\n\n卓上には食堂らしく七味や胡椒が置かれていることが多いが、店による。出汁の香りが細いので、入れるなら後半に少量で足りる。具は少なく、同じ食堂の丼物と一緒に頼む人もいる。重さがなく、昼の食事として食堂で食べる型で、酒の後の〆として選ばれることもある。軽さが身上なので、スープを最後まで飲みきる人が多い。",
+      "howto_en": "The broth is a light udon stock, so a first spoonful to register the dried sardine and kelp before touching the noodles tells you what the bowl is about. With almost no fat film on top it cools quickly, and it is best eaten while hot. As in most diners, shichimi (seven-spice chili) and pepper are usually on the table, though that varies by shop; the dashi aroma is delicate, so a little added late is plenty. Toppings are sparse, and some people order it alongside udon or a rice bowl from the same diner. It is a diner lunch with no heaviness to it, and is sometimes chosen as a finisher after drinks. Its whole point is that it sits light, so many people drink the broth to the last drop.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 1,
+      "notes": "麺の記述なし。richness は脂の膜がほとんど張らないうどん出汁として 1"
+    }
+  ],
+  "notes": "全14件執筆。sapporo は本文なしのため概要と系統の既知特徴から執筆。麺属性は本文・概要に記述がある4件（sapporo/shijimi-ramen/shimodate/shirakawa）と形のみの sano 以外は null。要判断: sano（平打ちの太さ語彙なし）、shirakawa（『太め』→太）、sendai-karamiso/shimizu-motsu-curry/sodegaura の richness（乳化豚骨型でない濃厚スープの当てはめ）。"
+}

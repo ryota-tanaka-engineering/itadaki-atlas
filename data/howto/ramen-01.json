@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "slug": "aburasoba",
+      "howto_ja": "まずは丼の底のたれを麺全体に行き渡らせるように、具を崩しながらよく混ぜる。混ぜが足りないと下に味が偏るので、持ち上げては落とすを繰り返すとよい。卓上には酢とラー油が置かれていることが多く、半分ほど食べたところで酢を一周、ラー油を少し足すと脂の重さが抜けて味が変わる。量は少しずつ、店の案内があればそれに従う。\n\n麺が主役なので大盛を選ぶ人も多いが、たれの量は変わらない店もあるため、まずは並で混ぜ具合を確かめるのが無難。温泉卵を頼める店では、最後に割って絡めると締めくくりがまろやかになる。",
+      "howto_en": "Before anything else, stir. The sauce sits at the bottom, so lift the noodles and let them fall a few times until everything is coated and the toppings are broken up. Most shops keep vinegar and chili oil (rayu) on the table; about halfway through, add a quick round of vinegar and a little chili oil, and the oiliness lifts so the bowl tastes like something new. Add them bit by bit, and follow the shop's suggested amounts if posted. Since the noodles are the whole point, a large portion (omori) is common, but the sauce may not scale with it, so a regular size is a safe first try. If a soft-cooked egg (onsen tamago) is offered, break it in near the end for a mellow finish.",
+      "noodle_thickness": "中太",
+      "noodle_curl": null,
+      "richness": null,
+      "notes": "スープを張らない型のため richness の尺度（スープの実体）が適用できず null。麺は本文「やや太めの中太麺」から中太、形は記述なし。"
+    },
+    {
+      "slug": "ageo-sakekasu",
+      "howto_ja": "提供は11月から3月ごろの冬季に限られ、出しているのは市内の中華料理店が中心で、各店の味噌ラーメンに酒粕を合わせた形なので、品書きでは冬限定の品として並ぶことが多い。アルコールはとばしてあるとされるが、香りが気になる人や子どもには一口確かめてから。\n\n最初は何も足さず、湯気と一緒に立つ酒粕の香りを味わう。卓上の胡椒や一味は味噌の甘みを打ち消しやすいので、足すなら後半に少しずつ。熱いうちに食べきるのが前提の一杯で、冷めると酒粕の甘みが重く感じられることがある。",
+      "howto_en": "This is a seasonal bowl: shops serve it only from about November through March, usually as a winter special at a local Chinese-style restaurant that works sake lees into its own miso ramen. The alcohol is said to be cooked off, but the aroma is unmistakable, so anyone sensitive to it, or ordering for a child, may want a first sip before committing. Start without adding anything; the sake-brewery scent that rises with the steam is the point. Pepper and chili flakes on the table tend to flatten the miso's sweetness, so hold off until the second half and go lightly. Eat it while hot: as it cools, the sweetness of the lees can start to feel heavy.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "麺の記述なし。richness は味噌スープ（ラードの記述なし・「飲み口は軽い」）から3。"
+    },
+    {
+      "slug": "aizu",
+      "howto_ja": "店によってスープの性格が違うので、豚骨で厚みを出す店か、煮干しで和風に寄せる店かを品書きや張り紙で見てから頼むと、期待とのずれが少ない。味噌タンメンを看板にする店では、そちらを頼む客も多い。\n\n平打ちの手もみ麺は幅も厚みも不揃いで、太い部分と薄い部分で食感が変わる。箸で少しずつ持ち上げ、スープを抱えた縮れをそのまま味わうのが向いている。澄んだ醤油なので、卓上の胡椒や七味は後半に少し。先に入れると麺の小麦の香りが隠れやすい。",
+      "howto_en": "Shops here differ more than the name suggests. Some deepen the clear soy broth with pork bones, others pull it toward a lighter dried-sardine (niboshi) style, so a glance at the menu or the wall before ordering helps set expectations. Where a shop makes miso tanmen (miso ramen piled with stir-fried vegetables) its signature, many regulars order that instead. The flat, hand-kneaded noodles are uneven on purpose: thick ridges and thin edges chew differently, and the curls hold broth. Lift a few strands at a time rather than a big bundle. Because the soy broth is clear, save the table pepper or shichimi (seven-spice) for the second half; added early, it hides the wheat aroma of the noodles.",
+      "noodle_thickness": "太",
+      "noodle_curl": "手もみ",
+      "richness": 2,
+      "notes": "本文「平打ちで太く縮れた麺」「平打ちの手もみ麺」。形は「縮れ」と「手もみ」の両記述があり、より具体的な手もみを採用（ちぢれでも可、要判断）。"
+    },
+    {
+      "slug": "aizu-yamajio",
+      "howto_ja": "塩の丸みが主役なので、最初の数口はスープだけを味わい、山塩の塩気が海の塩とどう違うかを確かめてから麺に進む。中細のちぢれ麺はスープをよく持ち上げるが、澄んだ塩だれは伸びた麺に負けやすいので、ゆっくり話しながらより、熱いうちに食べ進めるほうが向く。\n\n卓上の胡椒や七味は塩の繊細さを消しやすく、入れるなら最後の数口に少しずつ。北塩原村周辺の店では品書きに「山塩」の表記があることが多く、それが目印になる。替え玉や大盛を重ねるより、まず並で一度食べきるのが合う。",
+      "howto_en": "The point of this bowl is the salt itself, so take the first few sips of broth plain and notice how the mountain salt lands, rounder and with less edge than sea salt, before starting on the noodles. The medium-thin wavy noodles carry the broth well, but a delicate clear salt broth loses out to softened noodles quickly; this is a bowl to eat while hot rather than over a long chat. Table pepper or shichimi (seven-spice) can wipe out that subtlety, so if you add any, make it the last few mouthfuls. Around Kitashiobara, shops that use the local salt usually say so on the menu: look for 山塩 (yamajio, 'mountain salt') as the marker. Finish a regular size through to the end rather than reaching for extras.",
+      "noodle_thickness": "中細",
+      "noodle_curl": "ちぢれ",
+      "richness": 1,
+      "notes": "本文「中細のちぢれ麺」。richness は「澄んだ塩スープ」「あっさり」から1（脂の記述なし。2 とする判断もあり得る）。"
+    },
+    {
+      "slug": "akayu-karamiso",
+      "howto_ja": "中央の辛味噌はいきなり溶かさない。まずスープだけを一口、次に麺を少し食べてから、レンゲの先で辛味噌を少しずつ崩して溶かし、辛さが増していく段階を順に味わうのがこの一杯の作法とされる。辛いものが苦手なら、辛味噌を端に寄せて少量だけ溶かせばよく、全部溶かす必要はない。\n\n太い平打ちの手もみ麺は量があるので、大盛は量を確かめてから。卓上に胡椒や一味があっても、辛味噌そのものが調味料の役を担うため、足す前に辛味噌の溶け具合を先に決めるほうが味がぶれない。熱いうちに溶かし進める。",
+      "howto_en": "Don't stir the chili miso in right away. Taste the broth on its own first, eat a little of the noodles, then scrape a bit of the red knob off with the tip of your spoon and let it melt, then a bit more, so the bowl moves from mellow miso toward heat in stages. That gradual melting is considered the proper way to eat it. If spice isn't your thing, push the knob to one side and dissolve only a corner; nothing says you must finish it. The thick, flat, hand-kneaded noodles are substantial, so check the portion before asking for a large (omori). Pepper or chili flakes may be on the table, but the chili miso is already the seasoning, so decide how much of it to melt before reaching for anything else.",
+      "noodle_thickness": "太",
+      "noodle_curl": "手もみ",
+      "richness": 3,
+      "notes": "本文「太い平打ちの麺は一玉一玉手もみ」。richness は煮干し味噌スープ（ラードの記述なし）から3。"
+    },
+    {
+      "slug": "akita-edokei",
+      "howto_ja": "赤い辛味噌は最初から混ぜない。穏やかな醤油スープを一口味わってから、箸で辛味噌を少しずつ崩し、スープの色が赤みを帯びていく変化を順に追う。にんにくとニラの香りは溶かすほど強くなるので、人と会う前なら溶かす量を控えめにしておく手もある。辛さの加減は自分で決められ、全部溶かすかどうかは好み次第とされる。\n\n卓上の胡椒や酢は、辛味噌が溶けきった後半に少しだけ足すと重さが抜ける。店によって辛味噌の配合や辛さは違うため、初めての店では半分ほど溶かしたところで一度味を確かめるとよい。",
+      "howto_en": "Leave the red knob alone at first. Take a sip of the gentle soy broth, then break the chili miso up with your chopsticks a little at a time and watch the broth turn progressively redder. The garlic and garlic-chive aroma grows stronger the more you dissolve, so if you have somewhere to be afterward, melting only part of it is a reasonable choice; how far you go is up to you. Pepper or vinegar from the table work best as a small addition late in the bowl, once the miso is fully in, to cut the heaviness. Recipes and heat levels differ from shop to shop, so at an unfamiliar place, pause and taste when the knob is about half gone before deciding whether to melt the rest.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺の記述なし。richness は「澄んだ醤油スープ」「あっさりした出汁」から2（辛味噌を溶かすと上がるが、提供時の実体で判定）。"
+    },
+    {
+      "slug": "akita-tempura-chuka",
+      "howto_ja": "品書きでは「天ぷら中華」の名で出ることが多く、五城目町や大仙市大曲の食堂で見かける。注文ごとに揚げた衣が丼に浮かんで出てくるので、まずは衣が崩れないうちに端をかじり、揚げたての香ばしさを確かめる。そのあとは麺を先に食べ、衣にスープを吸わせておく。\n\n半分ほどで衣をレンゲで沈め、ふやけたとろみと油のコクが溶けたスープを後半に回すと、二段階で味が変わる。先に全部食べるか、ふやかしてから食べるかは好み次第とされる。油が溶けて後半は重くなるので、卓上の胡椒や酢を少し足すと食べ進めやすい。",
+      "howto_en": "On the menu it usually appears as tempura chuka (chuka being the old everyday word for ramen), at diners in Gojome and the Omagari district of Daisen. The disc of batter is fried to order and arrives floating, so first bite an edge while it is still crisp. Then eat the noodles and let the rest of the disc soak. Around the halfway point, press it under with your spoon: the softened batter turns pudding-like and its oil melts into the broth, giving the second half a richer, different character. Whether you eat it crisp or soaked is up to you. Since the broth grows heavier as the oil dissolves, a little table pepper or vinegar late on helps you finish.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺の記述なし。richness は「比較的あっさりとした中華そば」を基準に2（衣の油が溶けると上がる）。"
+    },
+    {
+      "slug": "anyoji",
+      "howto_ja": "佐久市内の加盟店が「安養寺ら～めん」の名で出しており、麺もスープの型も店ごとに違う。品書きにこの名があれば長期熟成の安養寺みそを使った一杯で、どの店でもまず味噌だれそのものの甘みを確かめるつもりでスープから口をつけるとよい。にんにくや唐辛子を加える店もあるので、辛さが気になる人は注文時に尋ねてみる。\n\n卓上の胡椒や一味は味噌の大豆の甘みを隠しやすく、足すなら後半に少しずつ。店ごとの個性を比べるのが楽しい型とされ、一軒で決めつけず、見た目も味も違う別の店の一杯を試すと、同じ味噌から広がる幅が分かる。",
+      "howto_en": "Participating shops around Saku serve it under the name Anyoji ra-men, and beyond the miso almost everything, from noodles to broth style to toppings, is each shop's own. Spotting the name on a menu tells you the bowl is built on long-aged Anyoji miso, so wherever you are, start with a sip of broth to catch the miso's soybean sweetness before anything else. Some shops add garlic or chili to their tare; if heat is a concern, ask when ordering. Table pepper and chili flakes tend to bury that soybean sweetness, so hold them for the second half and go lightly. This is a bowl made for comparing: one shop's version doesn't define it, and trying a second, visibly different one shows how far a single miso can stretch.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "麺・スープの型は店ごとに異なる（本文）。richness は味噌だれ主体を基準に3としたが、店差が大きく要判断。"
+    },
+    {
+      "slug": "arirang",
+      "howto_ja": "辛さを指定できるかは店によるので、品書きに表記があればそれに従い、なければ出てきたままを食べる。控えめから入り、卓上にラー油やにんにくがあれば後から足していくほうが、玉ねぎと豚肉の甘みを先に味わえる。にんにくは香りが強く残るので、量は少しずつ。\n\n炒めた具とスープを混ぜながら食べると甘みと辛みが均一になるが、具を先に食べてスープを残し、後半に辛さを上げる食べ方もある。汗をかく前提の一杯で、水やお茶を多めにとっておくとよい。土産用の商品もあるので、店で食べた味を持ち帰る人もいる。",
+      "howto_en": "Whether you can choose a heat level depends on the shop; if the menu lists one, follow it, and if not, take it as it comes. Going easy at first and adding chili oil (rayu) or grated garlic later, where they are on the table, lets you taste the onion-and-pork sweetness of the broth before the heat takes over. Garlic lingers, so add it in small amounts. Mixing the stir-fried toppings into the broth evens out sweet and spicy; eating the toppings first and saving the broth for a hotter second half is another way. This is a bowl that expects you to sweat, so keep water or tea close. Takeaway and mail-order versions exist for carrying the taste home.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "麺の記述なし。richness は醤油スープに炒め具材とラー油が重なる構成から3。"
+    },
+    {
+      "slug": "asahikawa",
+      "howto_ja": "表面のラードが湯気を閉じ込めているので、見た目より熱い。最初のひと口は少量ずつ、冷ますつもりでレンゲの縁から取る。低加水のちぢれ麺はスープを吸って伸びやすく、時間が経つほど丼の中で重くなるので、話し込む前に麺から食べ進める。\n\nラードの膜が最後まで熱を保つため、途中で休んでも冷めにくいが、麺の分だけは先に片づけておくのが安全。卓上の胡椒は後半、ラードの重さが気になり始めてから少し。焦がしラードの店では香ばしさが主役なので、入れすぎない。真冬に外から入って食べる一杯として語られることが多い。",
+      "howto_en": "The lard on top traps the steam, so the bowl is hotter than it looks; take the first sips in small amounts from the edge of the spoon, as if cooling it down. The low-moisture wavy noodles drink broth and soften quickly, growing heavier the longer they sit, so start on the noodles before settling into conversation. Because the lard film keeps the broth hot to the end, pausing is fine; it is the noodles, not the broth, that won't wait. Table pepper belongs in the second half, once the lard starts to feel heavy, and only a little. At shops that use browned lard, the toasty aroma is the point and shouldn't be covered. This is the bowl people describe coming in from a sub-zero street for.",
+      "noodle_thickness": null,
+      "noodle_curl": "ちぢれ",
+      "richness": 3,
+      "notes": "本文は「低加水のちぢれ麺」のみで太さの記述なし（asahikawa-horumen の本文には「旭川らしい中細の縮れ麺」とあり、中細と埋める判断もあり得る）。richness は豚骨＋魚介の醤油にラードが乗る構成から3。"
+    },
+    {
+      "slug": "asahikawa-horumen",
+      "howto_ja": "品書きでは「ホルメン」や「旭川ホルメン」の名で出ることが多い。具のホルモンは店ごとに煮汁や煮込み方が違い、豚骨で煮た店か生醤油で煮た店かで味の輪郭が変わる。まずはスープだけを一口、次にホルモンをかじって脂の甘みを確かめてから麺へ進む。\n\nホルモンの脂が溶けると後半のスープは重くなるので、卓上の胡椒や一味を少し足して切り替えるとよい。中細の縮れ麺は具を楽しんでいる間に重くなるため、麺とホルモンを交互に進める。2010年代に考案された型で出している店は限られ、事前に品書きを確かめる価値がある。",
+      "howto_en": "On menus it usually appears as horumen or Asahikawa horumen, and some shops treat it as a local specialty rather than part of their ramen list. The offal topping varies by shop, simmered in pork-bone broth, in the chashu braising liquid, or in raw soy sauce, and that decides the character of the bowl. Sip the broth first, then bite a piece of offal to gauge its sweetness and fat before starting on the noodles. As that fat melts into the broth the second half turns heavier, which is the moment for a touch of table pepper or chili flakes to reset. The medium-thin wavy noodles soften while you linger over the toppings, so alternate between noodles and offal. It's a 2010s invention, so only some shops carry it; worth checking the menu first.",
+      "noodle_thickness": "中細",
+      "noodle_curl": "ちぢれ",
+      "richness": 3,
+      "notes": "本文「旭川らしい中細の縮れ麺」。richness は旭川醤油の型（豚骨＋魚介）にホルモンの脂が加わる構成から3。"
+    },
+    {
+      "slug": "ashibetsu-gatatan",
+      "howto_ja": "品書きには麺なしの「ガタタン」と麺入りの「ガタタンラーメン」が並ぶことが多いので、注文時にどちらかをはっきり伝える。とろみのあるスープは熱が逃げにくく見た目以上に熱いので、最初はレンゲで具を少しずつ。溶き卵や野菜・肉・魚介が沈むため、底からすくって混ぜながら食べる。\n\nとろみが麺にまとわりつき、伸びるというより重くなるので、具と麺を交互に進める。油が少なく胃にもたれにくいとされ、昼でも夜でも食べやすい。卓上の胡椒や酢は後半に少し足すと重さが軽くなる。小麦粉の塊「ガーダ」が入るかは店による。",
+      "howto_en": "Menus often list both gatatan on its own (the soup, no noodles) and gatatan ramen, so say clearly which you want. A starch-thickened broth holds heat, and the bowl is hotter than it looks, so begin with small spoonfuls of the toppings. The egg ribbons, vegetables, meat and seafood settle, so scoop from the bottom and keep things mixed as you go. The thickened broth clings to the noodles, which grow heavy rather than simply soft, so alternate between noodles and toppings. With little oil, it's considered easy on the stomach at any hour. A touch of table pepper or vinegar late in the bowl lightens the thickness. Some shops add gāda, small lumps of wheat dough, and some don't; the menu usually says.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": null,
+      "notes": "麺の記述なし。richness は片栗粉のとろみが強い一方「油が少ない」ため、脂の量で決める尺度に当てはまらず null（脂基準なら1〜2、粘度基準なら高くなる。要判断）。"
+    },
+    {
+      "slug": "banshu",
+      "howto_ja": "甘さは店ごとに違い、魚介と鶏がらで甘みを出す店、野菜の甘みで仕立てる店など幅があるので、同じ名前でも一軒で決めつけない。まずはスープを一口、甘さの出どころを確かめてから麺へ。細めのちぢれ麺は伸びやすく、天候に合わせて茹で加減を変える店もあるというほど繊細なので、熱いうちに食べ進める。\n\n甘い醤油に卓上の胡椒や酢を最初から入れると甘みが隠れるので、足すなら後半に少し。甘さが苦手なら胡椒を早めに少し足すと輪郭が締まる。市内に何十軒も店があり、甘さの違う店を食べ比べるのがこの型の楽しみ方とされる。",
+      "howto_en": "The sweetness itself varies, drawn from seafood and chicken stock at some shops and from vegetables at others, so one bowl doesn't define the town. Take a sip first to place where the sweetness is coming from, then move to the noodles. The thin wavy noodles soften fast; some shops are said to adjust the boil to the day's weather, which tells you how little slack there is, so eat while hot. Pepper or vinegar from the table added at the start will bury the sweetness you came for, so if you want them, wait for the second half and keep it light. If sweet broth isn't your taste, a small early pinch of pepper tightens it up. With dozens of shops in Nishiwaki, comparing how differently each handles the sweetness is considered the real way to enjoy this style.",
+      "noodle_thickness": "細",
+      "noodle_curl": "ちぢれ",
+      "richness": 2,
+      "notes": "本文「細めのちぢれ麺が基本」。richness は甘い醤油清湯（脂の記述なし）から2。"
+    },
+    {
+      "slug": "betokon",
+      "howto_ja": "にんにくは大ぶりのまま入っているので、丸ごとかじるか、箸で潰してスープに溶かすかで辛さと香りの出方が変わる。潰すほど香りが前に出るため、人と会う前なら潰さずに残す手もある。辛さの加減は店によるので、品書きに表記があればそれに従う。\n\n山になったもやしとにらは、崩しながら麺と一緒にすすると鶏がらスープの軽さと具の刺激がつり合う。一味は丼にすでに振られていることが多いので、卓上から足す前に一口確かめる。にんにくの香りは翌日まで残りやすく、食べる日を選ぶ人もいる。",
+      "howto_en": "The garlic comes in big pieces, and how you treat it changes the bowl: bite a clove whole for a sharp hit, or crush it with your chopsticks into the broth to spread the aroma. The more you crush, the more it carries, so leaving the cloves intact is a sensible choice if you have company afterward. Heat levels depend on the shop; if the menu offers a choice, follow that. Break down the mound of bean sprouts and garlic chives and slurp them together with the noodles, so the light chicken broth balances the punch of the toppings. Chili flakes are usually already scattered on top, so taste before adding more from the table. This is a stamina bowl that expects to make you sweat, and the garlic tends to linger into the next day; some people pick their day accordingly.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺の記述なし。richness は鶏がら清湯に炒め具材の油が浮く構成から2。"
+    }
+  ],
+  "notes": "対象外なし（14件すべて記述）。要判断: aburasoba はスープを張らないため richness null。ashibetsu-gatatan はとろみ強・油少なめで尺度に合わず richness null。asahikawa は本文に麺の太さの記述がなく thickness null（asahikawa-horumen 本文の「旭川らしい中細の縮れ麺」から中細と埋めてもよい）。aizu の麺の形は本文に「縮れ」「手もみ」の両記述があり手もみを採用。麺の属性は本文に記述のない8件（ageo-sakekasu / akita-edokei / akita-tempura-chuka / anyoji / arirang / ashibetsu-gatatan / betokon / asahikawa の太さ）を null とした。固有の作法は既存本文（辛味噌を少しずつ溶かす・衣をふやかす・酢とラー油を途中で足す等）と系統の一般的作法の範囲で書き、裏取り不能な断定は避けた。"
+}

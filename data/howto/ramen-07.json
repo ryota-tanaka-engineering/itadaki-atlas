@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "slug": "nagahama",
+      "howto_ja": "注文時に麺の硬さを聞かれることが多く、「カタ」「バリカタ」のように硬めを指定する客が目立つ。極細麺は伸びやすいので、まず麺から早めに食べ進めるのがこの型の基本とされる。食べきる前に「替え玉」を頼むと麺だけが追加され、残したスープで二杯目を楽しめる。\n\n卓上には紅生姜・白ごま・辛子高菜・にんにく・胡椒が並ぶことが多く、一杯目はそのまま、替え玉から薬味を足して味を変える人が多い。替え玉でスープが薄まったら、卓上のたれで塩気を戻せる店もある。市場の町で育っただけに、朝や昼早くから開く店もある。",
+      "howto_en": "At the counter you will usually be asked how firm you want the noodles; many regulars answer kata (firm) or bari-kata (very firm). Because the ultra-thin noodles soften fast, start on them right away rather than sipping the broth first. Before you finish, order kaedama — a refill of noodles only, dropped into the broth you have left. Tables often carry red pickled ginger, sesame, spicy mustard greens (karashi takana), crushed garlic and pepper; a common rhythm is the first serving plain, then seasoning from the refill on. If the refill thins the soup, some shops keep a bottle of tare on the table to bring the salt back. Opening hours vary, but a few shops near the market open early for the morning crowd.",
+      "noodle_thickness": "極細",
+      "noodle_curl": "ストレート",
+      "richness": 4,
+      "notes": ""
+    },
+    {
+      "slug": "nagai-baniku-chashu",
+      "howto_ja": "町の食堂の醤油ラーメンなので、頼み方に特別な決まりはない。チャーシューを増やせる店もあるが、品書きは店による。馬肉のチャーシューは脂が少なく淡白なので、まず一枚をそのまま口に運び、肉の味を確かめてから麺にかかると豚との違いが分かりやすい。\n\n脂の少ない赤身なので、スープに浸しっぱなしにせず早めに食べるか、麺に巻いて一緒にすすると柔らかさを味わいやすい。卓上は胡椒と七味程度のことが多く、濃いめの醤油スープなので薬味は少量から。昼の食堂で食べる型で、ごはんを添える客も見られるという。",
+      "howto_en": "This is an everyday shoyu ramen from a town diner, so there is no special ordering ritual; some shops let you add extra chashu, but menus vary. The point of the bowl is the horse-meat chashu (baniku chashu): lean, lightly flavored and tender, so try a slice on its own before you start on the noodles to notice how it differs from pork. Because the meat carries little fat, eat it early or wrap it around a mouthful of noodles rather than leaving it to soak. Tables usually hold just pepper and shichimi, and the broth is already on the salty side, so go light. It is a lunchtime diner bowl, and a side of rice is a common pairing.",
+      "noodle_thickness": "細",
+      "noodle_curl": "ストレート",
+      "richness": 2,
+      "notes": ""
+    },
+    {
+      "slug": "nagaoka-shoga",
+      "howto_ja": "生姜の効き方が売りなので、注文で迷うことは少ない。大盛やチャーシュー増しのほか、生姜を増やせる店もあるが、品書きは店による。まずはスープを一口。生姜の辛みが喉を通って体が温まる感覚が、この一杯の入口になる。\n\nもちもちの中太麺はスープをよく含むので、箸を止めずに食べ進めるとよい。卓上には胡椒や一味が置かれることが多いが、生姜の香りを消さないよう最初は入れずに味わい、後半で足す人が多い。雪の日や冷えた夜に向く型で、昼夜どちらでも食べられる店が多い。",
+      "howto_en": "Ginger is the whole point, so ordering is simple: the usual large size or extra chashu, and some shops will add more ginger on request, though menus differ. Take a sip of the broth first — the ginger heat spreads down the throat and warms you from the inside, which is the bowl's opening move. The chewy medium-thick noodles soak up the broth, so keep eating steadily. Pepper and ichimi chili are often on the table, but most people hold off at first so the ginger aroma stays clean, adding them only toward the end. It is a bowl for snowy days and cold nights, and most shops serve it at both lunch and dinner.",
+      "noodle_thickness": "中太",
+      "noodle_curl": "ちぢれ",
+      "richness": 2,
+      "notes": ""
+    },
+    {
+      "slug": "nakashibetsu-milky",
+      "howto_ja": "頼み方は普通の味噌ラーメンと変わらない。ただし「牛乳を使う」ことだけが共通で、味つけは店ごとに違うため、同じ名前でも中身は別物という前提で選ぶとよい。辛い四川味噌仕立てを出す店もあるので、辛さが苦手なら注文前に確かめたい。\n\nまずスープを一口、牛乳のまろやかさと味噌のコクの重なりを確かめる。胡椒を効かせる店が多く、卓上の胡椒で辛みを足すのは後半から。牛乳が分離しない火加減で仕上げているので、長く置かず温かいうちに食べきるのがよいとされる。町で何軒か食べ比べる楽しみ方もある。",
+      "howto_en": "You order it like any miso ramen, but keep one thing in mind: the only rule is the local milk, and the seasoning is up to each shop. Two bowls with the same name can taste quite different, and a few shops serve a spicy Sichuan-miso version, so ask before ordering if heat is a concern. Begin with a spoonful of broth to catch how the milk rounds off the miso. Pepper is usually already in the bowl; add more from the table only in the second half. The soup is finished gently so the milk does not split, so eat it while it is warm rather than leaving it to sit. Since every shop does it differently, trying two or three around town is part of the appeal.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "麺の記述が本文・概要にないため麺属性は null。濃さは牛乳+味噌のまろやかな濁りを 3 としたが、味つけが店ごとに自由なので幅がある。"
+    },
+    {
+      "slug": "niigata-assari-shoyu",
+      "howto_ja": "飲んだあとの〆として育った一杯なので、普通盛りで頼む人が多い。大盛やチャーシュー麺を置く店もあるが、品書きは店による。極細のちぢれ麺はゆで上がりが早い分、伸びるのも早いとされ、運ばれてきたらまず麺から箸をつけるのがコツ。\n\nスープは澄んで脂も控えめなので、まず何も足さずに豚ガラと野菜の甘みを味わう。卓上は胡椒程度のことが多く、入れるなら後半に少量。具は上品に並ぶので、崩さずに一つずつ味わうと輪郭がはっきりする。夜遅くまで開く店が多いが、昼に食べても重くない型。",
+      "howto_en": "This bowl grew up as the last stop after a night of drinking, so most people order a regular size; some shops offer a large portion or a chashu-men, but menus vary. The ultra-thin, wavy noodles cook in moments and soften just as quickly, so start on the noodles as soon as the bowl arrives. The broth is clear and light on fat; taste it plain first to pick up the sweetness of pork bones and vegetables before adding anything. Pepper is usually all the table offers, and a small shake late in the bowl is enough. The toppings are arranged neatly, and eating them one at a time rather than stirring everything together keeps each flavor distinct. Many shops stay open late, but it is light enough for lunch too.",
+      "noodle_thickness": "極細",
+      "noodle_curl": "ちぢれ",
+      "richness": 2,
+      "notes": ""
+    },
+    {
+      "slug": "niigata-mabo",
+      "howto_ja": "汁ありと汁なしの両方を置く店があり、辛さの段階を選べる店もあるが、品書きは店による。ライスを添えて、残った餡をかけて食べきる食べ方も合う。\n\nとろみのついた餡は湯気を閉じ込めて冷めにくいので、最初は少しずつ口に運ぶ。箸で豆腐とひき肉を崩しながら麺に絡めると、山椒の辛さと甘辛い餡が混ざって味が落ち着く。卓上には酢・ラー油・花椒が置かれることが多く、途中で酢を少し足すと重さが和らいで後半も進む。寒い時期に体を温める一杯として食べられてきた型で、昼夜どちらでも出す店が多い。",
+      "howto_en": "Some shops serve it both with soup and dry (shiru-nashi), and some let you pick a spice level, though menus differ. A side of rice works well: spoon the leftover sauce over it at the end. The thick, starchy mapo layer traps the heat, so the bowl stays hot for a long time — take small mouthfuls at first. Break up the tofu and minced pork with your chopsticks and toss them through the noodles so the numbing heat and the sweet-savory sauce blend. Vinegar, chili oil and ground Sichuan pepper are usually on the table; a splash of vinegar midway lightens the richness and helps you finish. It is a cold-season bowl, eaten to warm up, and most shops serve it at lunch and dinner alike.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 5,
+      "notes": "本文は「餡の重さに負けない太さ」とのみで具体的な太さ・形の記述がないため麺属性は null。濃さはとろみ餡（つけ汁級の粘度）＋背脂・チーズを重ねる店もあることから 5。"
+    },
+    {
+      "slug": "niigata-noukou-miso",
+      "howto_ja": "丼が運ばれると、脇に割りスープの入った小さな器が添えられる。これがこの型の作法で、まずは何も足さずに濃厚なスープと太麺を数口。濃さが気になってきたら割りスープを少しずつ注ぎ、好みの濃さに落としながら食べ進める。最後に残ったスープを割って飲み干す人も多い。\n\n大盛やライスを置く店もあるが、品書きは店による。卓上にはにんにくや一味が置かれることが多く、味噌の重さに飽きたら少量ずつ。炒め野菜と背脂の甘みをスープに溶かし込みながら、太麺でしっかり持ち上げるのがコツとされる。昼でも夜でも食べられる型。",
+      "howto_en": "The bowl comes with a small side bowl of wari-soup — plain broth for thinning. That is the ritual here: eat the first few mouthfuls of thick miso soup and chewy thick noodles as they are, then, once the richness starts to weigh on you, pour in the dilution broth a little at a time until it sits where you like it. Many people thin the last of the soup and drink it to the bottom. Large portions and rice are available at some shops, though menus vary. Garlic and ichimi chili are often on the table; add them sparingly if the miso starts to feel heavy. Let the sweetness of the stir-fried vegetables and back fat melt into the soup and scoop it up with the thick noodles. It works at lunch or dinner alike.",
+      "noodle_thickness": "太",
+      "noodle_curl": null,
+      "richness": 5,
+      "notes": "麺は「もちもちとした太麺」のみで形の記述がないため noodle_curl は null。濃さは「とろりと重く」割りスープで薄める前提＋背脂を重ねる店があることから 5。"
+    },
+    {
+      "slug": "niimi-ramen",
+      "howto_ja": "猪肉は猟期に合わせて仕入れが変わるため、提供できる時期や店が限られることがある。確実に食べたいなら秋から冬にかけて訪ね、出しているかを店で確かめるとよい。醤油と味噌の二本立てにしている店もあり、品書きは店による。\n\nまずは猪のチャーシューを一枚、肉の旨味と脂の甘みを確かめてから麺にかかる。豚よりさっぱりしているので、スープに浸しすぎず早めに食べるのがよい。卓上は胡椒や一味程度のことが多く、猪の風味を消さないよう最初は入れずに。山あいの町の昼どきに食べる型。",
+      "howto_en": "Because the wild boar comes in with the hunting season, not every shop has it all year; the surest time to find it is autumn through winter, and it is worth asking whether it is on today. Some shops offer both a shoyu and a miso version, so check the menu. Start with a slice of the boar chashu (inoshishi chashu) on its own to notice the clean, slightly sweet flavor of the meat before you turn to the noodles. It is leaner than pork, so eat it early rather than letting it soak in the broth. Pepper and ichimi chili are usually all that sits on the table; hold off at first so the boar flavor stays clear. It is a lunchtime bowl in a mountain town.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": null,
+      "notes": "麺の記述が本文・概要にないため麺属性は null。スープも清湯か白濁かの記述がなく（猪骨の醤油、店により味噌）、濃さは判断できないため null。"
+    },
+    {
+      "slug": "ninohe-gokoku",
+      "howto_ja": "この一杯は麺が主役なので、スープの種類は店の品書きから選ぶ形になる。醤油か味噌かは店ごとに違い、同じ五穀麺でも組み合わせが変わるため、迷ったら店の基本の一杯を頼むのが分かりやすい。\n\n運ばれてきたら、まずスープに浸かりきる前の麺を一口、何もつけずに噛んでみる。雑穀の粒感と香ばしさが分かりやすく、噛むほど風味が増すのがこの麺の性格とされる。そのあとはスープに絡めて普通に食べ進めればよい。卓上は胡椒程度のことが多い。麺は通販でも扱われているので、家で好みのスープと合わせて食べる型でもある。",
+      "howto_en": "The noodles are the star here, so your main choice is the soup the shop pairs them with; shoyu or miso varies by shop, and the house's standard bowl is the easiest starting point. When the bowl arrives, lift a few strands before they soak and chew them plain. The grainy texture and toasty aroma of the millet and other grains come through clearly, and the flavor builds the longer you chew — that is the character of this noodle. After that, eat it as you would any ramen, letting the broth cling to the noodles. Tables usually offer little more than pepper. The noodles are also sold by mail order, so this is a style people also cook at home with a soup of their own choosing.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": null,
+      "notes": "麺の太さ・形の記述がないため麺属性は null。スープは「店によって幅がある」とのみで濃さは判断できないため null。"
+    },
+    {
+      "slug": "nozawa-miso",
+      "howto_ja": "町の食堂の一杯なので、頼み方は普通の味噌ラーメンと同じ。大盛やライスを置く店もあるが、品書きは店による。同じ名前でも店ごとに辛さや甘さが違うので、何軒か回って比べる楽しみ方もある。\n\nひき肉と刻み野菜がスープに沈んでいるので、最初はかき混ぜずに上澄みを一口、次に底から具を持ち上げて麺と一緒にすする。中太のちぢれ麺はスープをよく抱えるので、箸を止めずに食べ進めるのがよい。卓上は一味やにんにくが置かれることが多く、味噌のコクに飽きたら後半で少量ずつ。雪深い町の冬に向く型。",
+      "howto_en": "It is a diner bowl, so you order it like any miso ramen; a large size or a side of rice is on some menus, not all. Every shop makes it to its own recipe, so sweetness and heat differ from one to the next, and trying more than one is part of the fun. The minced pork and chopped vegetables settle into the broth, so take a sip from the top before stirring, then lift the solids up from the bottom with each mouthful of noodles. The medium-thick wavy noodles hold a lot of soup, so eat steadily rather than letting them sit. Ichimi chili and garlic are often on the table; add a little late in the bowl if the miso starts to feel heavy. It is a winter bowl in a snowy town.",
+      "noodle_thickness": "中太",
+      "noodle_curl": "ちぢれ",
+      "richness": 4,
+      "notes": "濃さはひき肉と野菜を煮込んだ濃厚味噌（ラードの記述なし）として 4。"
+    },
+    {
+      "slug": "nyuzen-brown",
+      "howto_ja": "頼み方は普通の味噌ラーメンと変わらず、特別な指定は要らない。色が濃いので身構えがちだが、味わいは優しく最後まで飲み干しやすい型なので、まずはそのまま一口。味噌のコクの奥からえびの旨みが追いかけてくるのを確かめる。\n\n海洋深層水を練り込んだ麺はしこしことした弾力があるので、よく噛んで食べる。卓上は胡椒程度のことが多く、えびの香りを消さないよう入れるなら後半に少量。富山ブラックと対になる名前なので、同じ旅で両方を食べて黒と茶の違いを比べる楽しみ方もある。昼夜どちらでも食べられる型。",
+      "howto_en": "Order it as you would any miso ramen; there is nothing special to specify. The color looks heavy, but the taste is gentler than it appears and the broth is easy to drink to the bottom, so start with a plain spoonful and wait for the shrimp flavor to come up behind the miso. The noodles, made with deep-sea water from Toyama Bay, have a firm, springy bite, so chew them properly rather than slurping them straight down. Tables usually offer only pepper; add a little late in the bowl if at all, so the shrimp aroma stays clear. The name is a deliberate counterpart to Toyama Black, and eating both on the same trip to compare black against brown is a natural way to enjoy it. It is served at lunch and dinner alike.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "麺は「しこしことした弾力」のみで太さ・形の記述がないため null。濃さは濁った味噌だが「味わいは優しく飲み干しやすい」とあるため 3。"
+    },
+    {
+      "slug": "odawara",
+      "howto_ja": "ワンタンが看板なので、品書きに「ワンタン麺」があれば、まずそれを選ぶのが入口になる。チャーシュー麺や大盛を置く店もあるが、品書きは店による。細長く巻いたワンタンは皮がつるりとして熱いので、最初は箸で持ち上げて湯気を逃がしてから口に運ぶ。\n\n平打ちの縮れ麺はスープをよく持ち上げるので、麺と一緒に濃い醤油を味わう。卓上は胡椒や酢が置かれることが多く、濃い味なので後半で酢を少し足して軽くする人もいる。街の中華食堂に根づいた型なので、昼夜どちらでも食べられる店が多い。",
+      "howto_en": "The rolled wonton is the signature, so if the menu lists a wantan-men, that is the bowl to start with; chashu-men and large sizes exist at some shops, but menus vary. The long, thin-rolled wontons have a slippery skin and hold heat, so lift one with chopsticks and let the steam escape before biting in. The flat, wavy noodles carry a lot of broth, so taste the dark, salty shoyu through the noodles rather than from the spoon. Pepper and vinegar are often on the table; because the broth is strong, some people add a touch of vinegar in the second half to lighten it. It is a bowl rooted in the town's Chinese diners, and most serve it at both lunch and dinner.",
+      "noodle_thickness": null,
+      "noodle_curl": "ちぢれ",
+      "richness": 2,
+      "notes": "麺は「平打ちの縮れ麺」「太すぎず細すぎない幅」とのみで、中細／中太のどちらとも断定できないため noodle_thickness は null（要判断: 中太に寄せるか）。濃さは色の濃い醤油清湯で脂の記述がないため 2。"
+    },
+    {
+      "slug": "odawara-tantan",
+      "howto_ja": "辛さの段階を選べる店もあるが、甘みととろみが先に立つ型なので、初めてなら基本の辛さで頼むと輪郭が分かりやすい。ライスを添えて、残った餡をかけて食べきる食べ方も合う。\n\n餡が表面を覆って湯気を閉じ込めているので、丼は長く熱いまま。最初はレンゲで餡を少しずつ口に運び、麺を持ち上げるときは餡をしっかり絡める。卓上は酢とラー油が置かれることが多く、途中で酢を少し足すと甘さが締まり、ラー油で辛さを足して味を変える人もいる。勝浦タンタンメンと食べ比べると、同じ名前でも方向が違うのが分かる。",
+      "howto_en": "Some shops let you choose a spice level, but since sweetness and thickness lead here rather than heat, the standard setting is the clearest introduction. Many people add a side of rice and spoon the leftover sauce over it to finish. The starchy sauce seals in the steam, so the bowl stays hot for a long time: start with small spoonfuls of the sauce, and when you lift the noodles, make sure they come up well coated. Vinegar and chili oil are usually on the table; a little vinegar midway tightens the sweetness, and chili oil lets you push the heat up if you want a change. Eaten alongside Chiba's Katsuura tantanmen on another day, it shows how two bowls with the same name head in opposite directions.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 5,
+      "notes": "麺は「コシのあるもの」のみで太さ・形の記述がないため null。濃さは「丼を傾けてもゆっくりとしか動かない」とろみ（つけ汁級の粘度）から 5。"
+    },
+    {
+      "slug": "ofunato-sanma",
+      "howto_ja": "店ごとに仕立てが大きく違うので、注文前に「さんまはどの形で乗るか」を確かめるとよい。焼いたさんまが一尾まるごと乗る店では、箸で身をほぐして骨を外しながら食べる。つみれや削り節の店では、そのまま麺と一緒にすすればよい。\n\nまずスープを一口、醤油にさんまの脂が溶けた甘みを確かめる。中太のちぢれ麺はスープをよく持ち上げるので、箸を止めずに。卓上は胡椒や七味が置かれることが多く、魚の香りを消さないよう入れるなら後半に少量。さんまの水揚げ期の秋に向く一杯だが、提供時期は店による。",
+      "howto_en": "Each shop builds this bowl differently, so it is worth asking before you order how the saury (sanma) will arrive. Where a whole grilled fish sits on top, use your chopsticks to flake the flesh off the bones as you go; where it comes as fish balls or shaved flakes, just eat it with the noodles. Begin with a sip of broth to catch the sweetness of the saury oil melted into the shoyu. The medium-thick wavy noodles carry the broth well, so keep a steady pace. Pepper and shichimi are often on the table; if you add any, do it late and lightly so the fish aroma stays clear. It suits the autumn landing season, though when it is served depends on the shop.",
+      "noodle_thickness": "中太",
+      "noodle_curl": "ちぢれ",
+      "richness": 2,
+      "notes": "麺は「中太のちぢれ麺を合わせる店が多く」から取ったが、本文に「麺の太さは各店の裁量」ともあるため代表値。濃さは醤油清湯にさんまの脂が溶ける程度として 2。"
+    }
+  ],
+  "notes": "対象外なし（14件すべて執筆）。要判断: odawara の noodle_thickness（本文は「平打ちで太すぎず細すぎない幅」のみ。中太に寄せるなら要指示）。niimi-ramen と ninohe-gokoku は richness を null（前者はスープが清湯か白濁か本文に記述なし、後者はスープが店ごとに自由）。麺属性 null の7件（nakashibetsu-milky / niigata-mabo / niimi-ramen / ninohe-gokoku / nyuzen-brown / odawara-tantan の両方、niigata-noukou-miso の curl、odawara の thickness）はいずれも本文・概要に記述がないため推測で埋めていない。Web 裏取り不可のため、頼み方・卓上は系統の一般作法の範囲にとどめ、店名・値段・格付け語は入れていない。"
+}

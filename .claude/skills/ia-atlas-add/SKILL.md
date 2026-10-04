@@ -20,6 +20,7 @@ description: itadaki-atlas に何かを追加するときの唯一の入口。�
 | 今の棚・型に無いもの（例: 日本酒・駅弁・土産・酒蔵） | カテゴリ追加 | 1（拡張版）→ 1.5 → 2 → 3 → 4 → 5 |
 | タグ語彙を足す | タグ追加 | 1.7 → 3 → 4 |
 | チェーン・本場・関係だけ足す | 結びつき追加 | 3 → 4（部隊不要なことが多い） |
+| 既存アイテムに4章目「どう食べるのか」と麺・濃さの属性を足す（詳細を厚くする） | 厚み追加 | 2（指示書は `data/ledgers/HOWTO_BRIEF.md`）→ 3.5 → 4 → 5 |
 
 ## 1. 構造の問い（部隊を起動する前に、全問に答えて指示書へ転記する）
 
@@ -39,7 +40,7 @@ description: itadaki-atlas に何かを追加するときの唯一の入口。�
 
 - **棚を足す**: `shelves` に行を足すマイグレーション（`supabase-migration` Skill）。既存棚で代替できるなら足さない（例: 日本酒→`sake`、駅弁→`rice` か `processed`、土産→`confections`/`processed`/`cured`。迷ったら棚は広く、ジャンルで狭く）
 - **列を足さない**: 酒蔵名・精米歩合・販売駅のような固有の事実は、まず本文（3章）と概要・タグ・`regions`（名産地/本場）・`sources` で持つ。**UI で絞り込みや並べ替えに使う必要が出たときだけ**列を足す（`.doc/20_data/01_models.md` を先に更新）
-- **章の読み替え**: 3章見出しは固定。カテゴリごとの読み替えを `ia-atlas-content` §2.4.5 に1行追加してから部隊を起動する（例: 日本酒=何でできているか＝米・水・酵母と味／どう作るのか＝醸造／なぜこの形＝水系と気候）
+- **章の読み替え**: 3章見出しは固定（任意の4章目「どう食べるのか」は末尾にだけ置ける。`ia-atlas-content` §4.5）。カテゴリごとの読み替えを `ia-atlas-content` §2.4.5 に1行追加してから部隊を起動する（例: 日本酒=何でできているか＝米・水・酵母と味／どう作るのか＝醸造／なぜこの形＝水系と気候）
 - **新しい表示型**: 図（部位図・系統図）や位置帯で足りないなら、`design-flow` で1枚作ってから `ia-builder` へ。体験原則に照らす
 
 ### 1.7 タグ追加
@@ -80,6 +81,20 @@ npm run content:lint -- --strict
 - **複数の束を同じ波で投入するとき**（県ブロックの部隊が互いのアイテムを参照する等）は、束をまたぐ関係が「参照先未投入」で relations 段だけ失敗する。全束を投入したあとに `npm run content:import -- --file <束> --skip-expand --only relations` を束ごとに流し直し、最後に `content:lint --strict` で行き止まりゼロを確認する
 - 部隊の生成物はキー名がぶれることがある（`type`/`note` → `relation_type`/`basis`、`null`）。投入前に `scratchpad/kyodo/normalize_tier1.py` 相当で正規化してから `--dry-run` にかける
 
+### 3.5 厚み追加（4章目「どう食べるのか」＋麺・濃さ）の投入
+
+```bash
+# 部隊の出力（見出し無しの howto_ja/howto_en + noodle_thickness/noodle_curl/richness）を保全する
+cp <scratchpad>/howto/out/<name>.json data/howto/<name>.json
+# 検証だけ（DB に触らない。語彙・見出し混入・格付け語を弾き、字数の目安から外れた件を △ で出す）
+node --env-file=.env.local scripts/import-howto.ts --file data/howto/<name>.json --dry-run
+# ローカル投入（既存3章の末尾に4章目を付ける＝再実行は差し替え。dish_details は null の列を触らない）
+node --env-file=.env.local scripts/import-howto.ts --file data/howto/<name>.json
+npm run content:lint   # △ W5 が4章目の件数
+```
+
+前提: マイグレーション `20261004000000_dish_details_noodle_vocab.sql`（語彙の CHECK 制約）を `npx supabase db push`／ローカルは `npx supabase migration up` で当ててから。本文（3章）が未投入のアイテムには付かない（Tier2 が先）。束をまとめて流すなら `bash data/ledgers/ingest-howto.sh <name>...`。
+
 ## 4. 検品（差分ではなく導線で）
 
 1. `npm run test:e2e`。データ量で前提が変わるテスト（件数・同名リンク・URL）は**テスト側を直す**
@@ -92,6 +107,8 @@ npm run content:lint -- --strict
 ```bash
 # 本番 DB へ同じ束を投入（フォアグラウンドで。supabase CLI はバックグラウンドだと固まる）
 bash scripts/prod-env.sh node scripts/import-content.ts --file data/content/<name>.json --skip-expand
+# 厚み追加（3.5）の本番投入は
+bash scripts/prod-env.sh node scripts/import-howto.ts --file data/howto/<name>.json
 # --skip-expand は「同じ束を直前にローカルへ（展開ありで）投入した」ときだけ。束を編集したあとにローカル投入を飛ばして本番へ流すと、古い中間ファイルが投入される
 # コードに触れていなければデプロイ不要（トップ・一覧・県ページは ISR 5分、詳細は動的描画）。触れていれば
 bash scripts/deploy-prod.sh

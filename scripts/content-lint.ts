@@ -10,6 +10,7 @@
  *   E6 ジャンル20件規則: 20件未満のジャンル（昇格の根拠を失っている）
  *   E7 総論欠落: genres.intro_ja/en が無いジャンル（全国区の受け皿）
  *   W1 本文（3章）未投入のアイテム数（Tier1のまま）: 集計のみ
+ *   W5 4章目「どう食べるのか」あり（ja/en 両方）のアイテム数: 集計のみ（2026-10 追加）
  *   W2 チェーンを1社も持たないジャンル（橋渡し未整備）
  *   W3 本場を1件も持たない棚（料理側の本場が未整備）
  *   W4 語彙外タグ（tags テーブルに無い slug）
@@ -18,6 +19,8 @@
  *   --strict: E項目が1件でもあれば exit 1（CI用）
  */
 import { createClient } from "@supabase/supabase-js";
+
+import { hasHowtoChapter } from "./lib/chapters.ts";
 
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const key = process.env.SUPABASE_SERVICE_ROLE_KEY;
@@ -67,6 +70,7 @@ async function main() {
   const tagSet = new Set(tags.map((t) => t.slug as string));
 
   let noBody = 0;
+  let withHowto = 0;
   for (const it of live) {
     const id = it.id as string, slug = it.slug as string;
     if (!linked.has(id)) push(E, "E1 行き止まり（関係0本）", slug);
@@ -76,6 +80,7 @@ async function main() {
     if (!ja?.summary || !en?.summary) push(E, "E3 概要欠落", slug);
     if (!srcCount.get(id)) push(E, "E4 出典欠落", slug);
     if (!ja?.body_md || !en?.body_md) noBody++;
+    if (hasHowtoChapter(ja?.body_md as string | null, "ja") && hasHowtoChapter(en?.body_md as string | null, "en")) withHowto++;
   }
   for (const r of regions) {
     if (r.relation_type === "本場" && (!r.note_ja || !r.note_en || r.lat == null))
@@ -96,10 +101,11 @@ async function main() {
   for (const s of dishShelves) if (!honbaShelves.has(s)) push(W, "W3 本場が1件も無い料理棚", s);
   for (const t of itemTags) if (!tagSet.has(t.tag_slug as string)) push(W, "W4 語彙外タグ", `${idToSlug.get(t.food_item_id as string)}:${t.tag_slug}`);
   W["W1 本文未投入（Tier1のまま）"] = [`${noBody}件 / ${live.length}件`];
+  W["W5 4章目「どう食べるのか」あり"] = [`${withHowto}件 / ${live.length}件`];
 
   console.log(`対象: ${live.length}件（published・fixture除く）`);
   for (const [k, v] of Object.entries(E)) console.log(`✗ ${k}: ${v.length}件  ${v.slice(0, 12).join(", ")}${v.length > 12 ? " …" : ""}`);
-  for (const [k, v] of Object.entries(W)) console.log(`△ ${k}: ${v.length === 1 && k.startsWith("W1") ? v[0] : v.length + "件  " + v.slice(0, 12).join(", ")}`);
+  for (const [k, v] of Object.entries(W)) console.log(`△ ${k}: ${v.length === 1 && (k.startsWith("W1") || k.startsWith("W5")) ? v[0] : v.length + "件  " + v.slice(0, 12).join(", ")}`);
   const errors = Object.values(E).reduce((a, b) => a + b.length, 0);
   console.log(errors ? `E合計 ${errors}件` : "E項目なし");
   if (strict && errors) process.exit(1);

@@ -1,5 +1,5 @@
-import { describe, expect, it, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { afterEach, describe, expect, it, vi } from "vitest";
+import { cleanup, render, screen } from "@testing-library/react";
 
 // next-intl の Link はロケール解決に Provider を要求するため、テストでは素の <a> に差し替える
 vi.mock("@/i18n/navigation", () => ({
@@ -11,6 +11,8 @@ vi.mock("@/i18n/navigation", () => ({
 }));
 
 import { CoverFactChips, CoverTagChips } from "./CoverInfo";
+
+afterEach(() => cleanup());
 
 describe("CoverFactChips（詳細ページカバーの事実チップ）", () => {
   it("factsが空なら何も描画しない", () => {
@@ -31,6 +33,21 @@ describe("CoverFactChips（詳細ページカバーの事実チップ）", () =>
     expect(screen.getByText("発祥: 北海道札幌市")).toBeInTheDocument();
     expect(screen.getByText("味噌")).toBeInTheDocument();
     expect(screen.getByText("東京から北へ約830km")).toBeInTheDocument();
+  });
+});
+
+describe("CoverFactChips 濃さの目盛り（2026-10 詳細ページの情報を厚くする）", () => {
+  it("meter があれば ● ○ の目盛りを装飾として添え、ラベルの数値で読み上げる", () => {
+    render(<CoverFactChips facts={[{ key: "richness", label: "濃さ: ややこってり（4/5）", meter: { value: 4, max: 5 } }]} />);
+    expect(screen.getByText("濃さ: ややこってり（4/5）")).toBeInTheDocument();
+    const meter = screen.getByTestId("cover-meter");
+    expect(meter).toHaveTextContent("●●●●○");
+    expect(meter).toHaveAttribute("aria-hidden", "true");
+  });
+
+  it("meter の値が範囲外でも目盛りは max 個に収まる", () => {
+    render(<CoverFactChips facts={[{ key: "r", label: "x", meter: { value: 9, max: 5 } }]} />);
+    expect(screen.getByTestId("cover-meter")).toHaveTextContent("●●●●●");
   });
 });
 

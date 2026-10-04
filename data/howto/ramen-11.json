@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "slug": "tokyo",
+      "howto_ja": "頼み方に特別な決まりは少なく、麺の硬さや味の濃さを聞かれない店も多い。大盛やチャーシュー増しが選べる程度のシンプルな型とされる。卓上には胡椒と酢、ラー油が置かれていることが多いが、店による。\n\n澄んだスープはだしの香りが芯なので、最初は何も足さずに一口飲んでから麺に移るとよい。細めの縮れ麺は伸びやすく、長く置かずに食べ進める。途中で胡椒を少し振ると醤油の輪郭が立ち、後半の味に変化がつく。昼の一杯にも、飲んだあとの〆にも向く、どの時間にも収まる型とされる。",
+      "howto_en": "Ordering is usually simple: many shops don't ask about noodle firmness or seasoning, and the choices tend to stop at a larger portion (omori) or extra char siu. Pepper, vinegar and chili oil (rayu) are often on the counter, though it varies by shop.\n\nThe clear broth is built on dashi, so try a spoonful before adding anything. The thin wavy noodles soften quickly, so don't let the bowl sit. A pinch of pepper halfway through sharpens the soy edge and gives the second half a different feel. It works equally well as a lunch bowl or as a late-night finisher after drinks.",
+      "noodle_thickness": "細",
+      "noodle_curl": "ちぢれ",
+      "richness": 2,
+      "notes": ""
+    },
+    {
+      "slug": "tomo-tenobe",
+      "howto_ja": "麺の硬さを指定する型ではない。手延べ麺はもともとコシを求めず、やわらかい喉ごしが持ち味なので、硬めを頼むより店の標準で受け取るのがよいとされる。大盛の有無や、卓上の胡椒・酢の有無は店による。\n\n噛むより飲むように、麺を長めにすすって口当たりを味わうのがこの麺の楽しみ方とされる。あっさりした醤油スープに生姜がきいているので、まずは何も足さず、途中で胡椒を少し振ると変化がつく。手延べは店ごとに太さや厚みが違うため、同じ名前でも一杯ごとの差を比べるのも面白い。",
+      "howto_en": "This isn't a bowl where you specify noodle firmness. Hand-pulled tenobe noodles are made to be soft and slippery rather than chewy, so it's better to take them the way the shop serves them instead of asking for katame (firm). Whether a large portion is offered, and what sits on the counter (usually pepper, sometimes vinegar), varies by shop.\n\nSlurp in long draws and let the noodles slide down; they're meant to be drunk more than chewed. The light soy broth carries ginger, so taste it plain first, then add a little pepper partway. Because each shop stretches by hand, thickness differs from bowl to bowl, and comparing them is part of the fun.",
+      "noodle_thickness": "中太",
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺の形: 手延べは語彙（ストレート/ちぢれ/手もみ）のどれにも当たらないため null。平打ちである旨は本文にあり"
+    },
+    {
+      "slug": "tonkatsu-ramen",
+      "howto_ja": "頼むときは、とんかつを丼に乗せて出すか別皿にするかを選べる店がある。一枚丸ごとが基本で、量が気になるなら麺の大盛は控えるのが無難。卓上の胡椒やソース、辛子は店によるが、とんかつ用にソースや辛子が置かれていることもある。\n\n食べ方に決まりはなく、とんかつを先に食べるか、スープに沈めて衣をやわらげるかは好み次第。衣がスープに溶けるほど味が濃くなり、色も変わっていくので、サクサクを残したいなら最初に半分、残りをスープで食べるという分け方もできる。腹を満たす昼や夕食向きの一杯とされる。",
+      "howto_en": "Some shops let you choose whether the pork cutlet comes in the bowl or on a side plate; one whole cutlet is standard, so think twice before adding a large noodle portion. Counter condiments vary, but pepper, tonkatsu sauce and mustard are sometimes set out for the cutlet itself.\n\nThere's no fixed way to eat it. Some start with the cutlet while it's crisp; others push it under the broth to soften the coating. The longer the breading soaks, the richer and cloudier the soup becomes, so a common approach is to eat half the cutlet crisp and let the rest melt into the bowl. It's a filling lunch or dinner bowl rather than a light one.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺の記述なし。richness はスープ本体（岡山の中華そば＝軽い醤油）で2。とんかつの脂が溶けると実際は重くなるが、定義表に沿いスープの実体で判断"
+    },
+    {
+      "slug": "tori-chuka",
+      "howto_ja": "そば屋のメニューにある型なので、注文はそば屋の流儀に近く、麺の硬さや味の濃さを聞かれないことが多い。温かいものが基本。黒こしょうは最初から振られていることが多く、卓上には七味や一味が置かれていることが多いが、店による。\n\n天かすは時間とともにスープに油を溶かすので、サクサクを楽しむなら早めに食べ、しっとりさせたいなら少し待つと味が変わる。和風のつゆは飲み干しやすい軽さで、途中で七味を足すと蕎麦に近い気分になる。そばを食べに入った店で、そばの代わりに一杯だけ頼む食べ方も自然な型とされる。",
+      "howto_en": "Since it lives on a soba-shop menu, ordering follows soba-shop habits more than ramen ones: hot is the default, and there's usually no asking about firmness or richness. Black pepper is typically already on the bowl, and shichimi (seven-spice chili) is the counter condiment you'll most often find, though it varies by shop.\n\nThe tenkasu (fried batter bits) release oil into the broth as they sit, so eat early if you want them crisp, or wait a minute if you prefer them soft and the soup a touch richer. The dashi-based broth is light enough to drink to the end, and a shake of shichimi partway turns it closer to a soba experience. Ordering it instead of soba at a soba shop is the natural setting.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺の太さ・形の記述なし（「中華麺」のみ）"
+    },
+    {
+      "slug": "tottori-gyukotsu",
+      "howto_ja": "頼み方は醤油ラーメンと変わらず、麺の硬さや脂の量を細かく指定する習慣は特にない。焼肉店で食後に出されることも多く、その場合は少量の〆の一杯として頼まれることが多い。卓上の胡椒や酢、にんにくは店による。\n\n牛骨の香ばしさがスープの芯なので、まずはそのまま数口。豚骨ほど脂が重くないので飲み進めやすく、途中で胡椒を振ると甘みの輪郭が引き締まる。昼夜を問わず日常食として食べられる型で、ラーメン専門店だけでなく食堂や焼肉店でも出会えるのがこの土地らしさとされる。",
+      "howto_en": "You order it like any soy-sauce ramen; there's no particular custom of specifying firmness or fat level. It also shows up on yakiniku (grilled meat) restaurant menus, where it's often taken as a small finishing bowl after the meat. Counter items such as pepper, vinegar or garlic vary by shop.\n\nThe roasted, slightly sweet beef-bone aroma is the heart of the broth, so take a few sips plain before touching the noodles. It's lighter than pork-bone soup and easy to drink through; a shake of pepper partway through tightens the sweetness. It's everyday food here, eaten at lunch or dinner, and found in diners and yakiniku shops as well as ramen specialists.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺の記述なし。スープは「澄んだ」「豚骨ほど脂っこくない」ため2"
+    },
+    {
+      "slug": "toyama-black",
+      "howto_ja": "白飯を一緒に頼むのが前提の型で、ライスを付けるかどうかを聞かれることが多い。塩気が強いため、初めてなら並盛とライスの組み合わせが無難とされる。卓上に胡椒が置かれていても、丼にはすでに粗挽き黒胡椒がたっぷり振られているので、足す前に一口確かめたい。\n\n最初にスープを数口飲んでから麺に移り、汁の塩気は白飯で受け止める。スープを飲み干す一杯ではなく、おかずとして麺とご飯を交互に食べる。極太麺は伸びにくいので、急がず胡椒の辛みと塩気の強さに慣れながら食べ進めるとよい。",
+      "howto_en": "This is a bowl built to go with rice, and many shops will ask whether you want a side of it; say yes the first time. Because the broth is intensely salty, a regular portion plus rice is the safer order. Coarse black pepper is already heaped on the bowl, so taste before reaching for the pepper shaker on the counter.\n\nTake a few sips of broth first, then alternate between noodles and rice, using the rice to absorb the salt. It's not a soup to drink to the bottom; treat the bowl more like a side dish for rice. The extra-thick noodles hold up well, so there's no need to rush. Settle into the pepper and salt rather than fighting them.",
+      "noodle_thickness": "極太",
+      "noodle_curl": "ストレート",
+      "richness": 2,
+      "notes": "要判断: 塩気は極めて強いが、本文に脂・乳化の記述がなく定義表（脂の実体）に沿うと2。「濃さ」を塩辛さで読む読者とは齟齬が出うる"
+    },
+    {
+      "slug": "tsubame-seabura",
+      "howto_ja": "背脂の量を「少なめ・普通・多め」から選べる店が多く、初めてなら普通から入るのが無難とされる。麺の硬さは指定しない店も多い。卓上には玉ねぎのみじん切りが置かれていることがあり、入れると脂の重さが和らぐ。胡椒や酢は店による。\n\n背脂の層が湯気を閉じ込めているので、見た目より熱い。最初の数口は少しずつ飲み、極太麺は伸びにくいのでゆっくり食べ進めて構わない。途中で玉ねぎや胡椒を足すと味が変わり、最後まで飽きずに食べられる。労働食として育った腹持ちのよい一杯なので、空腹の時間帯に向く。",
+      "howto_en": "Most shops let you choose the amount of back fat (less, regular or extra), and regular is the safe first order. Noodle firmness often isn't asked. Chopped raw onion is a common counter item here; adding some cuts through the fat. Pepper and vinegar vary by shop.\n\nThe layer of fat traps the heat, so the bowl is hotter than it looks: sip slowly at first. The extra-thick noodles don't soften quickly, so there's no need to hurry. Adding onion or pepper partway through changes the balance and keeps the second half interesting. Born as a workers' meal, it's a heavy, filling bowl better taken when genuinely hungry.",
+      "noodle_thickness": "極太",
+      "noodle_curl": null,
+      "richness": 4,
+      "notes": "麺の形の記述なし。richness: 清湯ベースだが背脂の層が厚く口に膜が残るため4（定義3と迷う）。刻み玉ねぎは本文外だがこの型で広く知られる卓上薬味として「店による」で記載"
+    },
+    {
+      "slug": "tsugaru",
+      "howto_ja": "頼むときの焦点は煮干しの濃さ。あっさりと濃厚の両方を置く店では、どちらかを選ぶ形になることが多く、初めてならあっさりから入ると煮干しの香りの基準がつかみやすい。卓上の一味や胡椒は店によるが、煮干しの香りを消さないよう最初は何も足さないのがよいとされる。\n\n細めの縮れ麺は伸びやすいので、スープを一口飲んだらすぐ麺に移る。朝から営業する店もあり、朝の一杯として食べられることもある型だが、これも店による。煮干しの風味が苦手でなければ、スープまで飲み干しやすい軽さがある。",
+      "howto_en": "The main decision when ordering is how strong you want the dried sardine (niboshi) flavor: shops that offer both a light and a heavy version usually have you pick one, and starting light gives you a baseline for the aroma. Chili powder and pepper may be on the counter, but it's better to leave the broth untouched at first so the niboshi comes through.\n\nThe thin wavy noodles soften fast, so move to them after a sip or two. Some shops open early and the bowl is eaten as a morning ramen, though that depends on the place. If you take to the fish flavor, the broth is light enough to finish to the last spoonful.",
+      "noodle_thickness": "細",
+      "noodle_curl": "ちぢれ",
+      "richness": 2,
+      "notes": "richness: 本文は「あっさり〜濃厚まで幅」。濃厚版は別アイテム（tsugaru-noukou）があるため、本項は基本のあっさり系として2"
+    },
+    {
+      "slug": "tsugaru-noukou",
+      "howto_ja": "あっさり系と濃厚系を並べる店では「濃厚」「こってり」と頼む形が多い。麺の硬さを選べる店もあるが、スープの重さに合わせた中太ちぢれ麺を店の標準で受け取るのがよいとされる。卓上の胡椒や一味、玉ねぎは店による。\n\n動物系のコクと煮干しの香りが重なるので、最初の数口は何も足さずに飲む。スープが麺によく絡み、最後まで濃度が落ちないため、途中で一味や刻み玉ねぎを足して重さを切ると食べやすい。ライスを合わせて汁をかけながら食べる客もいるが、これも店の置き方次第。空腹の時間に向く一杯とされる。",
+      "howto_en": "At shops that serve both the light and heavy versions, you simply ask for the noukou (rich) one. Some let you choose firmness, but the medium-thick wavy noodles are matched to the weight of the broth, so the shop's default is a good first choice. Pepper, chili powder and chopped onion vary by counter.\n\nPork-bone body and niboshi (dried sardine) aroma arrive together, so drink the first few spoonfuls plain. The broth clings to the noodles and stays thick to the last bite; a pinch of chili or some raw onion partway through cuts the heaviness. Some diners add a bowl of rice to catch the broth. It's a bowl for when you're properly hungry.",
+      "noodle_thickness": "中太",
+      "noodle_curl": "ちぢれ",
+      "richness": 4,
+      "notes": ""
+    },
+    {
+      "slug": "tsukemen",
+      "howto_ja": "麺の量を並・中・大から選ぶ店が多く、麺を多めに出す型なので初めてなら並で十分とされる。麺は冷水でしめた冷たい状態が基本で、温かい麺を頼める「あつもり」を置く店もある。卓上の酢や一味、胡椒は店による。\n\n麺をつけ汁に半分ほどくぐらせ、汁の濃さを麺の量で調整しながら食べる。つけ汁は酸味と甘みがきいた濃い味なので、最初は浸けすぎないほうがよい。麺を食べ終えたら、残ったつけ汁に「スープ割り」を頼んで薄め、飲み干すのが定番の締め方で、店によってはだしの種類を選べる。",
+      "howto_en": "Most shops offer the noodles in regular, medium or large; since the portion is already generous, regular is plenty for a first visit. Noodles come chilled by default, and some shops offer atsumori, a warm version. Vinegar, chili powder and pepper on the counter vary.\n\nDip about half of each mouthful into the sauce rather than drowning it: the broth is concentrated, tangy and sweet, and how much noodle you dip controls the strength. When the noodles are gone, ask for soup-wari, hot dashi poured into the leftover dipping sauce to thin it, and drink it down to finish. Some shops let you choose which dashi they use.",
+      "noodle_thickness": "太",
+      "noodle_curl": null,
+      "richness": 5,
+      "notes": "麺の形の記述なし。richness: 定義表の「つけ汁級の粘度」に沿い5。ただしこの型（酢と砂糖の醤油だれ）は粘度より酸味・甘みの濃さが主で、濃厚魚介豚骨つけ麺とは質が違う点は要判断"
+    },
+    {
+      "slug": "tsuruga",
+      "howto_ja": "屋台から育った型なので、頼み方は簡潔で、麺の硬さや味の濃さを細かく指定する習慣はない。大盛や具の追加は店による。卓上の胡椒、酢、にんにくは置かれていることが多いが、これも店による。\n\n鶏ガラと豚骨を合わせたスープは重すぎず、まずはそのままの濃さで数口飲んでから麺に移る。途中で胡椒や酢を少し足すと輪郭が変わる。夜に食べられることが多い型で、港町の深夜の一杯として知られてきた。昼に店で食べる場合も同じ一杯だが、屋台の時間帯に食べると由来が分かりやすいとされる。",
+      "howto_en": "A bowl that grew up on street stalls, so ordering is simple; there's no custom of specifying noodle firmness or seasoning. Larger portions and extra toppings depend on the shop, as do the counter condiments, usually pepper, vinegar and garlic.\n\nThe chicken-and-pork soy broth sits between light and heavy, so sip it as served before touching the medium-thick noodles, and add a little pepper or vinegar partway if you want a change. This is a bowl associated with night: it's long been a late-evening meal in a port town where people are on the move after dark. Daytime bowls are the same, but eating it under a stall's lights at night is the setting the style came from.",
+      "noodle_thickness": "中太",
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "麺の形の記述なし"
+    },
+    {
+      "slug": "tsurugashima-cha",
+      "howto_ja": "麺の硬さや味の濃さを細かく指定する型ではなく、店の仕立てで受け取るのが基本。塩と薄口醤油の両方を置く店もあり、茶の香りをはっきり感じたいなら塩を選ぶとよいとされる。卓上の胡椒や酢は店によるが、茶の香りが主役なので最初は何も足さない。\n\n麺を口に入れた瞬間の香りが芯になるため、スープより先に麺を一口すすり、茶葉の香ばしさを確かめてから全体に移る。柚子の皮や刻み茶葉が添えられている場合は、途中で混ぜると香りの層が変わる。土産用の麺としても売られるので、店で食べたあとに家で再現する流れもある。",
+      "howto_en": "This isn't a bowl where you tune firmness or richness; take it as the shop makes it. Where both a salt and a light soy version are offered, salt is the one that lets the tea come through most clearly. Pepper and vinegar may be on the counter, but leave the bowl plain at first, since the tea is the point.\n\nThe aroma peaks the moment you bite the noodles, so slurp a strand before tasting the soup, then move through the bowl. If yuzu peel or chopped tea leaves are added, stir them in partway for a second layer of scent. The noodles are also sold as a souvenir, so a common pattern is to try it in a shop, then cook it at home.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 2,
+      "notes": "麺の太さ・形の記述なし（茶葉練り込みのみ）。richness: 「塩味や薄口醤油の軽めの仕立て」だが脂の記述がなく、1か2で迷い2"
+    },
+    {
+      "slug": "tsuruoka-bushikei",
+      "howto_ja": "頼み方は醤油ラーメンの範囲で、麺の硬さや味の濃さを選べる店もあるが細かい指定の習慣はない。卓上の胡椒や一味、酢は店による。節の香りを確かめるため、最初は何も足さず数口飲むのがよいとされる。\n\n複数の節が重なった香りは温度が下がると変わるので、熱いうちに飲み進めると奥行きがわかりやすい。中太のちぢれ麺はスープをよく持ち上げるため、麺と一緒に汁が口に入る。途中で胡椒を少し振ると魚の香りの輪郭が立ち、味が切り替わる。昼の一杯として日常的に食べられている型とされる。",
+      "howto_en": "Ordering stays within soy-sauce ramen habits: some shops let you choose firmness or seasoning, but there's no particular custom of fine-tuning. Pepper, chili powder and vinegar vary by counter. To catch the layered aroma of the dried fish flakes (bushi), drink the first few spoonfuls untouched.\n\nThe blend of bonito, soda and flying-fish flakes shifts as the bowl cools, so keep moving while it's hot to get the depth. The medium-thick wavy noodles lift a lot of broth with each bite, so the dashi and noodles arrive together. A small shake of pepper partway sharpens the fish aroma and changes the second half. It's eaten as an everyday lunch bowl.",
+      "noodle_thickness": "中太",
+      "noodle_curl": "ちぢれ",
+      "richness": 3,
+      "notes": ""
+    },
+    {
+      "slug": "ube-ramen",
+      "howto_ja": "麺はやわらかめが基本の型なので、博多のように「硬め」「バリカタ」と頼む習慣は薄く、店の標準で受け取るのがよいとされる。替え玉やライスの有無は店による。卓上には紅生姜や胡椒、にんにくが置かれていることがあるが、これも店による。\n\n豚骨の強い香りが最初に来るので、苦手なら紅生姜や胡椒を早めに加えて和らげる。好きなら最初は何も足さず、茶色がかったスープの濃さを確かめてから麺に移る。やわらかい麺は時間とともにスープを吸うので、長く置かずに食べ進める。食べる時間は昼夜を問わない。",
+      "howto_en": "Soft noodles are the standard here, so the Hakata habit of asking for katame or barikata (extra firm) doesn't really apply; take the shop's default. Whether kaedama (a noodle refill) or rice is offered depends on the place, as do the counter items, typically pickled red ginger, pepper and garlic.\n\nThe strong pork-bone aroma hits first. If it's not your thing, add red ginger or pepper early to soften it; if it is, leave the bowl plain and taste the brown, heavy broth before the noodles. The soft noodles keep drinking up soup as they sit, so don't linger. It's eaten at any hour, lunch or dinner.",
+      "noodle_thickness": "中太",
+      "noodle_curl": null,
+      "richness": 4,
+      "notes": "麺の形の記述なし。richness: 茶濁するまで炊いた濃厚豚骨で4（背脂追加の記述がないため5にはしない）"
+    }
+  ],
+  "notes": "全14件執筆。属性 null の理由は各 notes 参照。要判断: toyama-black の richness（塩辛さは強いが脂の記述がなく定義表どおり2）、tsukemen の richness（定義表の『つけ汁級』に沿い5としたが、この型は粘度より酸味甘みの濃さ）、tsubame-seabura の richness（3か4）。卓上薬味は本文に無いものも系統の一般作法として『店による』で書いた（燕の刻み玉ねぎ、宇部の紅生姜など）。Web 未確認。"
+}

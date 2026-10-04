@@ -1,0 +1,131 @@
+{
+  "items": [
+    {
+      "slug": "ogikubo",
+      "howto_ja": "魚介の香りが立つ澄んだスープなので、まずは何も足さずにひと口すするのが向く。麺は中細のストレートで伸びが早めのため、丼が来たら早めに箸をつけたい。麺の硬さを聞かれることは少なく、店の茹で加減に任せる形が多い。\n\n卓上には胡椒と、店によっては酢やラー油が置かれる程度で、薬味は控えめにし、後半に胡椒をひと振りして香りを変える人が多い。ワンタンや味付け玉子を足した一杯を看板にする店もあるので、品書きの上の方を見てから選ぶとよい。",
+      "howto_en": "Because the broth is a clear, fish-forward soy soup, it rewards a first sip taken plain, before anything is added. The medium-thin straight noodles soften quickly, so it pays to start on them as soon as the bowl lands. Few shops ask how firm you want the noodles; the usual approach is to trust the house boil. Tabletop condiments are typically limited to pepper, sometimes vinegar or chili oil, and most regulars use them sparingly — a light shake of pepper partway through is enough to shift the aroma. Many shops along the row feature a wonton or seasoned-egg version as their signature, so it is worth glancing at the top of the menu before ordering.",
+      "noodle_thickness": "中細",
+      "noodle_curl": "ストレート",
+      "richness": 1,
+      "notes": "richness は本文「動物系の脂はごく控えめ」の澄んだ清湯に基づき 1。店により香味油を浮かせる場合は 2 相当"
+    },
+    {
+      "slug": "okayama-ramen",
+      "howto_ja": "店ごとに鶏がらだけのものから豚骨を合わせたものまで幅があるので、澄んだ醤油色か少し白濁しているかで一杯の方向をつかむとよい。品書きは中華そばらしく簡素で、チャーシュー増しや大盛を足す程度の選択が中心になる店が多い。\n\n卓上は胡椒が基本で、店によってはにんにくや酢が置かれる。中太のストレート麺はスープを拾いにくいぶん、丼を軽く回してから食べ始めると味がなじむ。まず素のまま味わい、後半に胡椒を加えて鶏がらの甘みの輪郭を変えるのが向く。市内に複数の系統が残るため、食べ比べにも向く一杯とされる。",
+      "howto_en": "Shops range from chicken-only broth to versions rounded out with pork bone, so the color of the soup — clear amber or faintly cloudy — is the quickest clue to what kind of bowl you are getting. Menus tend to be plain, in the manner of old-style chuka soba (Chinese-style noodle soup): extra char siu or a larger portion are usually the main choices. Pepper sits on most tables, with garlic or vinegar at some shops. The medium-thick straight noodles do not carry much broth on their own, so giving the bowl a gentle swirl before the first mouthful helps. Taste it plain first, then add pepper later to sharpen the sweetness of the chicken stock. With several lineages surviving around the city center, this is a bowl that suits comparing a few shops in one visit.",
+      "noodle_thickness": "中太",
+      "noodle_curl": "ストレート",
+      "richness": 2,
+      "notes": "richness は鶏がら醤油の清湯を基準に 2。豚骨を合わせて白濁させる店は 3 相当（本文に幅があると明記）"
+    },
+    {
+      "slug": "okhotsk-kaibashira",
+      "howto_ja": "貝柱のだしを味わう塩スープなので、最初は薬味を入れずにスープから口をつけ、次に麺へ進むのが向く。まるごとのった干し貝柱は最初から崩さず、半分ほど食べ進めたところで箸でほぐしてスープに散らすと、後半の味が濃くなる。\n\n店によってはホタテや鮭、根昆布を使った専用の薬味が添えられ、途中で加えて味を変える前提になっている。卓上の胡椒は貝の香りを隠しやすいので控えめがよいとされる。提供する店は沿岸の各町に点在し、数も多くないため、道中で見かけたときに食べる一杯と考えておくとよい。",
+      "howto_en": "This is a salt broth built to showcase scallop stock, so it is best approached soup first, with nothing added, before moving on to the noodles. The whole dried scallop on top is worth leaving intact at the start; break it apart with chopsticks about halfway through and let the shreds drift into the broth, and the second half of the bowl turns noticeably deeper. Some shops serve a dedicated condiment made from scallop, salmon, or kelp root, meant to be stirred in partway as a change of flavor. Tabletop pepper tends to mask the shellfish aroma, so go lightly. Shops offering the bowl are scattered along the coast and not numerous, so think of it as something to order when you come across it on the road.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 1,
+      "notes": "麺は本文に「オホーツク産小麦の中華麺」とあるのみで太さ・形の記述なし → null"
+    },
+    {
+      "slug": "omiya-stamina",
+      "howto_ja": "丼が来たら餡をすぐ混ぜず、まず餡とスープを分けたまま麺をすすり、途中で餡を崩して全体を混ぜると、辛さと香りの変化を二段で楽しめる。餡は熱を持っていて冷めにくいので、最初はゆっくり口に運ぶとよい。辛さの段階を選べる店や、餡の量を増やせる店もある。\n\n卓上には胡椒や酢、ラー油が置かれることが多く、酢を少し足すと餡の重さが和らぐとされる。餡をライスにかけたスタカレーを一緒に頼む人も多く、残ったスープにライスを入れる食べ方もよく見られる。駅前の食堂文化から広まった一杯で、昼どきに手早く食べる場面に向く。",
+      "howto_en": "When the bowl arrives, resist stirring right away. Take the first mouthfuls of noodles with the spicy sauce and the soup still separate, then break the sauce into the broth partway through — the heat and garlic aroma build in two stages. The starch-thickened topping holds its heat, so go slowly at first. Some shops let you choose a spice level or add extra sauce. Pepper, vinegar, and chili oil are common on the table, and a splash of vinegar is said to lighten the richness of the sauce. Many regulars order sutakare — the same sauce over rice — alongside, or finish by adding rice to the leftover broth. Born in station-front diners, it suits a quick, filling lunch.",
+      "noodle_thickness": "中細",
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "土台は軽い醤油清湯（2相当）だが、片栗粉でとろみをつけた挽肉餡が溶け込むため全体として 3 とした。要判断"
+    },
+    {
+      "slug": "onomichi",
+      "howto_ja": "背脂の粒が浮いた表面の見た目ほど重くはないので、まずはスープを薄い層ごとすくい、脂と出汁が溶け合う前の味を確かめるとよい。食べ進めるうちに粒が溶けてコクが増すので、後半に味が変わる前提で薬味は最初から入れない人が多い。背脂を増減できる店もあり、少なめも頼みやすい。\n\n卓上は胡椒が基本で、店によっては一味や酢が並ぶ。平打ちのちぢれ麺はスープを吸いやすく、時間を置くと重くなるため、ゆっくり味わうよりは温かいうちに食べ切る方が向く。ご飯ものを添える店も多く、昼の食堂として使われてきた一杯である。",
+      "howto_en": "The surface dotted with white back fat looks heavier than it tastes, so start by skimming a spoonful of the top layer to catch the broth before the fat has melted into it. The granules dissolve as you eat and the richness builds, which is why many people hold off on condiments until the second half. Some shops will adjust the amount of back fat, and asking for less is common. Pepper is the standard tabletop item, with chili powder or vinegar at some shops. The flat, wavy noodles soak up broth quickly and turn heavy if left sitting, so this is a bowl to finish while hot rather than linger over. Rice dishes are often on the menu alongside, reflecting its role as a working lunch in the port town.",
+      "noodle_thickness": "中細",
+      "noodle_curl": "ちぢれ",
+      "richness": 3,
+      "notes": "本文は「平打ちの中細ちぢれ麺」。平打ちは語彙にないため thickness=中細 / curl=ちぢれ とした"
+    },
+    {
+      "slug": "osama-chukasoba",
+      "howto_ja": "ねぎの甘みと黒こしょうの香りの対比が核になる一杯なので、卓上の胡椒を足す前に、まず仕上げの黒こしょうがきいた状態のまま味わうのが向く。ねぎは火が通って甘くなっているため、具として先に食べるより、麺と一緒に口に運ぶと甘みが伝わりやすい。\n\n復刻の会に加わる複数の店で出されており、看板や品書きに「王様」の名を掲げている店で頼める。店ごとに細部が少しずつ違うので、何軒か食べ比べる楽しみ方もある。飾りの少ない中華そばらしい一杯で、昼の軽い一食や、懐かしい味に浸りたいときに向く。",
+      "howto_en": "The bowl turns on the contrast between the sweetness of scalded green onion and the sharp aroma of black pepper, so taste it as served, with its finishing pepper, before reaching for the shaker on the table. The onion has been heated until mellow and sweet; rather than picking it out as a topping, lift it together with the noodles and the sweetness comes through more clearly. It is served at several shops that belong to the revival group, usually identified by the \"Osama\" name on the sign or menu, and details differ slightly from one to the next, which makes it a good candidate for trying more than one. A plain, unadorned chuka soba (old-style Chinese noodle soup), it suits a light lunch or a nostalgic mood.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": null,
+      "notes": "本文にスープの系統（だし・脂）も麺の太さ・形も記述がないため、三属性とも null。醤油清湯なら 2 相当と推測されるが推測で埋めない"
+    },
+    {
+      "slug": "otsuchi-iso",
+      "howto_ja": "海藻と魚介が山盛りになるので、具を先に少し食べて丼に余裕を作ってから麺をすするのが食べやすい。ワカメやマツモは熱で色が変わるため、丼が来たらまず海藻を軽くスープに沈め、香りが立ったところで口に運ぶとよい。麺はやわらかめが基本で、硬さを選ぶ習慣は薄い。\n\n卓上には胡椒や七味が置かれる程度で、だしの香りを生かすため最初は何も足さない人が多い。食べ進めてスープが海藻の風味を帯びてきたら、七味を少し振ると味が締まる。国道沿いのドライブインから広まった一杯で、三陸の海岸線をたどる道中の昼食に向く。",
+      "howto_en": "The bowl comes heaped with seaweed and shellfish, so eating a little of the topping first makes room to get at the noodles. Wakame and matsumo (a fine, hair-like coastal seaweed) change color in the heat; press them gently into the broth when the bowl arrives and eat them once the aroma rises. The noodles are generally served soft, and asking for a firmness is not customary. Tabletop condiments are usually limited to pepper and shichimi (seven-spice chili blend), and most people leave the first half untouched to keep the dashi clear. Once the broth has taken on the seaweed's flavor, a pinch of shichimi tightens it up. Spread from a roadside drive-in, it suits a lunch stop while following the Sanriku coast.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 1,
+      "notes": "麺は「昔ながらのやわらかめ」とのみ記述、太さ・形は不明 → null"
+    },
+    {
+      "slug": "oyabe-white",
+      "howto_ja": "上にのった肉みそはすぐに混ぜず、まず白いスープをそのまますすって豚骨の甘みを確かめてから、少しずつ崩して濃さを変えていくのが向く。全部溶かすと一気に味が変わるので、半分は残しておき、後半で加えると二つの味を楽しめる。\n\n卓上は胡椒や辛味だれが置かれることが多く、店によっては醤油だれを別添えで出すので、白さを保ちながら自分で塩気を足せる。細麺はスープを吸って伸びやすいため、肉みそを崩す前に麺を先に進めるとよい。市内の多くの店が出し、店ごとに小矢部産のトッピングが違うので、食べ歩きにも向く。",
+      "howto_en": "Hold off on stirring in the ground-pork miso. Sip the pale broth plain first to register the mellow sweetness of the pork bone, then crumble the topping in bit by bit to deepen it. Mixing everything at once changes the bowl in a single step, so leaving half of the miso for the second half gives you two distinct flavors. Pepper and a spicy sauce are commonly on the table, and some shops serve the soy tare on the side so you can add salt without clouding the white soup. The thin noodles absorb broth and soften fast, so make headway on them before breaking up the topping. Many shops across town serve it, each with a different Oyabe-grown topping, which makes it a good bowl for a short crawl.",
+      "noodle_thickness": "細",
+      "noodle_curl": null,
+      "richness": 4,
+      "notes": "本文「細麺が選ばれることが多い」→ 細。形は記述なし"
+    },
+    {
+      "slug": "rishiri",
+      "howto_ja": "昆布の風味を味わう一杯なので、卓上の胡椒やにんにくは最初は使わず、スープを先にひと口含んで余韻を確かめてから麺に進むのが向く。昆布を練り込んだ麺を出す店では、麺の香りも楽しむために早めにすするとよい。具は少ないので、具を足すより素のまま食べる方が持ち味が出る。\n\n飲み干した後も昆布の余韻が残る味とされ、スープを多めに残さず飲む人が多い。島の店で食べる一杯だが、土産用のセットとして持ち帰り、家庭で作る形でも定着している。船で島に渡る旅の途中、昼に軽く食べる場面に向く。",
+      "howto_en": "This bowl exists to let the kelp speak, so leave the tabletop pepper and garlic alone at first; sip the broth and notice how long the flavor lingers before you start on the noodles. At shops that knead Rishiri kelp into the noodles, eat them early so you catch their aroma while it is fresh. Toppings are deliberately few, and the bowl shows best eaten plain rather than loaded with extras. The kelp aftertaste is said to persist even after the last sip, and many people finish the soup rather than leaving it. It is a bowl to eat on the island itself, but it has also settled in as a take-home souvenir set cooked at home. It suits a light lunch on a trip across by ferry.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 1,
+      "notes": "麺は昆布練り込みの記述のみで太さ・形は不明 → null"
+    },
+    {
+      "slug": "saga",
+      "howto_ja": "丼の真ん中にのった生卵の黄身は最初から崩さず、まずそのままのスープをすすってまろやかさを確かめてから、好きなところで箸を入れて溶かし込むのが佐賀の流儀とされる。黄身を崩すとコクが一段深まるので、前半と後半で味を変える意識で食べるとよい。\n\n麺はやわらかめが基本で、硬さを指定する習慣は薄い。卓上には紅生姜やごま、胡椒が置かれることが多く、入れるなら黄身を溶かした後の後半に少量が向く。替え玉を置く店もあるが、久留米ほど定番ではないとされる。日常づかいの一杯として、昼どきに手早く食べる場面に向く。",
+      "howto_en": "The raw egg yolk in the center is meant to stay whole at first. Sip the broth as it is to register the mellow, easy-drinking pork bone, then break the yolk with your chopsticks whenever you like and let it melt in — that is said to be the Saga way. The richness deepens a step once the yolk goes in, so it helps to think of the bowl as having a before and an after. Noodles are served soft by default, and asking for a firmness is not much of a custom here. Pickled ginger, sesame, and pepper are often on the table; if you use them, a small amount after the yolk is in works best. Some shops offer kaedama (a refill of noodles), though it is less of a fixture than in Kurume. This is everyday ramen, suited to a quick lunch.",
+      "noodle_thickness": "中太",
+      "noodle_curl": "ストレート",
+      "richness": 3,
+      "notes": "本文「やや太めのストレート麺」→ 語彙上は 中太 とした（「太」ではない）。richness は「塩分と脂を控えめにした豚骨」で軽めの豚骨＝3"
+    },
+    {
+      "slug": "saiki",
+      "howto_ja": "塩気と油分が強い一杯なので、最初は薬味を足さずにすすり、味の濃さをつかんでから調整するのが向く。にんにくパウダーと黒コショウは店側で多めにふられていることが多く、卓上にも同じものが置かれているが、追加は後半で少しずつがよい。スープの量が控えめなため、麺とスープをバランスよく進めたい。\n\n麺はやわらかめが基本で、硬めを頼む習慣は薄い。味が濃い分、ライスを添えて食べる人が多く、汗をかいた後の一杯として地元で食べられてきた。他地域のラーメンの感覚で薄味を期待せず、濃さを前提に頼むとよい。",
+      "howto_en": "This is a salty, oily bowl, so taste it before adding anything and get a sense of how strong it is before adjusting. Garlic powder and black pepper usually go on generously in the kitchen, and the same two sit on most tables — add more a little at a time in the second half rather than at the start. The broth is served in a modest amount, so pace the noodles and soup together rather than finishing one first. Noodles come soft by default, and ordering them firm is not a local habit. Because the seasoning is strong, many people take rice alongside, and locally it has been eaten as the meal after a shift of sweaty work. Expect the intensity going in rather than the lighter seasoning of other regions' ramen.",
+      "noodle_thickness": null,
+      "noodle_curl": null,
+      "richness": 4,
+      "notes": "麺は「柔らかめ」のみで太さ・形は不明 → null。richness は「醤油豚骨・油分の多さ」から 4 としたが、乳化の程度は本文に無く 3 の可能性もある。要判断"
+    },
+    {
+      "slug": "sakata",
+      "howto_ja": "自家製麺が看板の土地なので、麺の量が多い店が珍しくなく、小盛や半量を置く店もある。食べ切れるか不安なら、頼む前に量を確かめておくとよい。加水率の高いちぢれ麺はつるりとした食感が持ち味で、後半はスープを吸って重くなるため、麺から先に進めるのが向く。\n\n卓上は胡椒程度で、魚介だしの香りを生かすために何も足さずに食べる人が多い。ワンタンめんを看板にする店も多いとされる。店ごとに麺の配合が違うため、何軒かはしごして食べ比べる楽しみ方が根づいており、港町をめぐる昼どきの一杯として向く。",
+      "howto_en": "House-made noodles are the point of pride here, and generous portions are common — some shops offer a small or half serving, so it is worth checking the size before ordering if you are unsure. The high-moisture wavy noodles have a slippery, springy texture that holds up well, but they do soak up broth and turn heavy toward the end, so work through the noodles before lingering on the soup. Tabletop condiments are usually just pepper, and most people eat the bowl plain to keep the dried-fish and flying-fish dashi aroma intact. Many shops feature a wonton version as their signature. Because each shop blends and rolls its noodles differently, visiting two or three in a row to compare has become a local pastime, and the bowl suits a lunch while wandering the harbor town.",
+      "noodle_thickness": "中細",
+      "noodle_curl": "ちぢれ",
+      "richness": 2,
+      "notes": ""
+    },
+    {
+      "slug": "sanjo-curry",
+      "howto_ja": "店によってスープ全体がカレー仕立てのものと、醤油ラーメンにカレーあんをのせたものに分かれるので、品書きでどちらの型か見てから頼むとよい。つけ麺仕立てや、夏場に冷やしで出す店もあり、季節で選択が変わる。生卵や炒め野菜をのせる店では、卵を途中で崩すととろみが和らぐ。\n\nとろみの強いスープは冷めにくいので、最初はゆっくり口に運びたい。卓上の胡椒や一味は、後半に加えて辛さを足す程度がよいとされる。残ったスープにライスを入れて食べ切る人も多い。家庭でも食堂でも食べられてきた、職人の町の昼の日常食である。",
+      "howto_en": "Shops split between bowls where the whole broth is curry and bowls where a curry sauce sits on top of a soy ramen, so a glance at the menu tells you which type you are ordering. Some serve it as tsukemen (dipping noodles) or chilled in summer, so the options shift with the season. Where a raw egg or stir-fried vegetables go on top, breaking the egg partway through loosens the thickness. The starchy curry soup holds heat for a long time, so take the first mouthfuls slowly. Pepper and chili powder on the table are best added late, to turn up the heat in the second half. Many people finish by adding rice to what is left in the bowl. Eaten at home and in diners alike, it is everyday food in a craftsman's town, most at home as a lunch.",
+      "noodle_thickness": "中太",
+      "noodle_curl": "ちぢれ",
+      "richness": 4,
+      "notes": "richness は脂ではなくカレーのとろみ（「糸を引くほどの濃度」）で 4 とした。尺度がスープの脂を前提にしているため要判断。あんかけ型・冷やし型は別値になりうる"
+    },
+    {
+      "slug": "sanjokko",
+      "howto_ja": "山盛りの長ねぎが丼を覆っているので、まずねぎを少しスープに沈めて辛みを和らげ、ねぎと麺を一緒にすするのが向く。ねぎの食感を残したいなら最初に、味噌にねぎの甘みを移したいなら後半まで待ってから崩すと、同じ一杯で違う味になる。\n\n辛口の味噌だれを別皿で添える店では、途中で少しずつ溶かして辛さを上げていく前提になっている。卓上の一味や胡椒は味噌の重さを締めるのに向くが、店による。参加する十店舗で味噌だれの配合が違うため、看板の名で頼める店を探して食べ比べる楽しみ方もある。",
+      "howto_en": "A mound of long green onion covers the bowl, so start by pressing some of it into the miso broth to take the edge off its bite, then lift onion and noodles together. Eaten early, the onion stays crisp; left until the second half, its sweetness seeps into the miso — the same bowl tastes different depending on when you break it down. At shops that serve a spicy miso tare on a side dish, the idea is to dissolve it in gradually and raise the heat as you go. Chili powder and pepper on the table help tighten the richness of the miso, though what is offered varies by shop. Each of the ten participating shops blends its tare differently, so seeking out the ones displaying the Sanjokko name and comparing them is part of the appeal.",
+      "noodle_thickness": "中太",
+      "noodle_curl": null,
+      "richness": 3,
+      "notes": "本文「中太麺」のみ → 形は null。richness は「コクのある味噌」でラードの記述がないため 3（ラードを重ねる店は 4 相当）"
+    }
+  ],
+  "notes": "対象外なし。属性 null の内訳: osama-chukasoba（スープ・麺とも本文に記述なし、3属性 null）／okhotsk-kaibashira・otsuchi-iso・rishiri・saiki（麺の太さ・形の記述なし）／omiya-stamina・oyabe-white・sanjokko（形の記述なし）。要判断: omiya-stamina（餡のとろみを含めて 3）、saiki（油分多めの醤油豚骨を 4、乳化の記述なし）、sanjo-curry（脂ではなくカレーのとろみで 4）、saga（「やや太め」を 中太 に丸めた）、onomichi（平打ちは語彙外のため 中細／ちぢれ のみ）"
+}
