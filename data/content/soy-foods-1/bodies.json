@@ -1,0 +1,472 @@
+{
+  "items": [
+    {
+      "slug": "tofu",
+      "body_ja": "## 何でできているか\n材料は大豆と水、そして凝固剤だけとされる。凝固剤は海水から塩を取った後に残るにがり（塩化マグネシウムが主成分）が古くからの型で、ほかに硫酸カルシウムを主とするすまし粉や、グルコノデルタラクトンが使われるという。味の実体は大豆の甘みと脂のこく、水のやわらかさで、にがりで固めると豆の香りが立ち、すまし粉ではなめらかで淡い仕上がりになりやすいとされる。噛むと最初に水が、次に豆の甘みが出てくる、その順番が豆腐の味わい方という。\n## どう作るのか\n大豆を一晩ほど水に浸し、水と一緒に細かく磨り砕いて「呉」にする。本土では呉を煮てから搾って豆乳とおからに分ける煮取り法が主流とされ、沖縄では搾ってから煮る生搾り法が受け継がれているという。熱い豆乳に凝固剤を打って寄せ、型箱に流して重しで水を抜けば木綿、濃い豆乳を型の中でそのまま固めれば絹ごし、寄せたものを型に入れず掬えば寄せ豆腐になるとされる。固めた豆腐を水に放って粗熱とにがりの苦みを抜く工程も、多くの豆腐屋で共通するという。\n## なぜこの形になったのか\n豆腐は中国から仏教とともに伝わったとする説が広く語られ、寺院の精進料理の中で技法が磨かれたと伝わる。肉を断つ食事で大豆のたんぱく質を取る方法として重宝され、門前町や城下町の豆腐屋から庶民へ広がったという。水を大量に使う仕込みであるため、良い地下水の湧く土地に豆腐の名所が集まるとされ、京都のような軟水の寺町ではやわらかく淡い豆腐が、雪深い山里では縄で縛って運べる硬い豆腐が、暑い沖縄では搾りたてを温かいまま売る豆腐が、それぞれの暮らしから形づくられたと考えられている。",
+      "body_en": "## What it's made of\nJust three things: soybeans, water, and a coagulant. The oldest form of coagulant is nigari — the magnesium-rich liquid left after salt is drawn from seawater — with calcium sulfate (sumashiko) and glucono-delta-lactone also used today. What you taste is the sweetness and gentle fat of the bean carried on soft water; nigari is said to bring the bean's aroma forward, while calcium sulfate tends toward a smoother, paler block. Bite in and water comes first, then the sweetness of the soybean — that order is how tofu is meant to be tasted.\n## How it's made\nSoybeans soak overnight, then are ground fine with water into a slurry called go. On the main islands the slurry is usually simmered before being pressed into soy milk and okara (the pulp), while Okinawa keeps the older practice of pressing first and simmering the milk afterward. A coagulant is stirred into the hot milk to form curds; ladled into a cloth-lined box and weighted, it becomes momen; set whole in the mold from richer milk, kinugoshi; scooped straight from the curding vat, yose-dofu. Most shops then float the finished blocks in cold water to cool them and draw off the bitterness of the nigari.\n## Why it took this shape\nTofu is widely said to have reached Japan from China together with Buddhism, with the craft refined in temple kitchens. As a way to take in soybean protein on a meatless diet it became indispensable, then spread from the tofu shops of temple-gate towns and castle towns to everyday tables. Because the work uses a great deal of water, tofu towns tend to sit on good groundwater. Soft-water temple cities like Kyoto are said to have shaped a tender, delicate block; snowbound mountain villages, a tofu firm enough to carry tied with rope; and hot Okinawa, a tofu sold warm straight from the press — each form answering a way of life.",
+      "sources": [
+        {
+          "title": "全国豆腐連合会",
+          "url": "https://www.zentoren.jp/",
+          "publisher": "全国豆腐連合会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 京都府",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/kyoto.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tofu",
+          "to_slug": "goma-toufu",
+          "relation_type": "対比",
+          "basis": "ごま豆腐は大豆を使わず、ごまと葛で固める「豆腐」の名を持つ別の食べもの"
+        },
+        {
+          "from_slug": "tofu",
+          "to_slug": "jiimaami-doofu",
+          "relation_type": "対比",
+          "basis": "ジーマーミ豆腐は落花生とでんぷんで固める沖縄の食べもので、大豆の豆腐とは原料が異なる"
+        },
+        {
+          "from_slug": "tofu",
+          "to_slug": "mame-miso",
+          "relation_type": "兄弟",
+          "basis": "同じ大豆を、固めるのではなく麹で発酵させた別の仕込み"
+        },
+        {
+          "from_slug": "tofu-dengaku",
+          "to_slug": "tofu",
+          "relation_type": "使用食材",
+          "basis": "水切りした豆腐を串に刺し味噌を塗って焼く料理"
+        },
+        {
+          "from_slug": "nikudofu",
+          "to_slug": "tofu",
+          "relation_type": "使用食材",
+          "basis": "京都の軟水でつくる豆腐を牛肉と割り下で煮る料理"
+        },
+        {
+          "from_slug": "oyama-tofu",
+          "to_slug": "tofu",
+          "relation_type": "使用食材",
+          "basis": "大山詣りの門前で振る舞われた豆腐料理の膳"
+        },
+        {
+          "from_slug": "mabo-dofu",
+          "to_slug": "tofu",
+          "relation_type": "使用食材",
+          "basis": "豆腐を主役にした町中華の定番"
+        }
+      ]
+    },
+    {
+      "slug": "momen-dofu",
+      "body_ja": "## 何でできているか\n大豆と水とにがりから成る点は絹ごしと同じだが、一度寄せた凝固物を崩して型に入れ、重しで水を抜くため、豆の味が濃く締まるとされる。表面には型箱に敷いた木綿布の織り目が転写され、それが名の由来という説が広く語られる。噛むとわずかに粒立った舌触りがあり、豆の甘みと青い香りが絹ごしよりはっきり出ると評される。水分が少ないぶん、たんぱく質やカルシウムの量は同じ重さの絹ごしより多くなる傾向があるという。\n## どう作るのか\n浸した大豆を磨り砕いて呉にし、煮て搾った豆乳を温かいうちににがりで寄せる。寄せた凝固物をいったん崩し、布を敷いた穴あきの型箱に移して、上から重しをかけて水を抜く。圧をかける時間と重さで硬さが変わるとされ、同じ木綿でも土地や店で締まり方に幅があるという。型から出した豆腐は水に放って冷まし、にがりの余分な苦みを抜いてから切り分けるのが一般的とされる。\n## なぜこの形になったのか\n絹ごしが広まる前、豆腐といえば水を抜いたこの形だったとされ、崩れにくく煮物や田楽、焼き豆腐に向く性質が、日常の惣菜から行事の膳まで用途を広げたと考えられている。水を抜くほど日持ちし運びやすくなるため、山間部では木綿をさらに締めた堅豆腐へ、保存のために凍らせる凍み豆腐へと派生していったと伝わる。関東では木綿が、関西では絹ごしが好まれやすいという語りもあるが、今日では全国どの店にも両方が並ぶのが普通という。",
+      "body_en": "## What it's made of\nSoybeans, water, and nigari (the magnesium-rich coagulant left after salt is drawn from seawater), the same as kinugoshi — but the curds are broken up, packed into a mold, and weighted so the water drains out, which is said to concentrate the bean flavor. The weave of the cotton cloth lining the mold prints onto the surface, and that cotton (momen) is the most commonly told origin of the name. The texture is faintly grainy on the tongue, and the sweetness and green aroma of the bean come through more clearly than in kinugoshi. With less water in it, momen tends to carry more protein and calcium than the same weight of kinugoshi.\n## How it's made\nSoaked beans are ground into a slurry, simmered, and pressed into soy milk, which is curded with nigari while hot. The curds are broken, ladled into a cloth-lined, perforated box, and pressed under a weight. How long and how heavily it is pressed decides the firmness, so momen from one region or shop can be noticeably tighter than another. Out of the mold, the block rests in cold water to cool and shed any lingering bitterness from the nigari before it is cut.\n## Why it took this shape\nBefore kinugoshi spread, tofu generally meant this pressed form, and its resistance to breaking apart suited it to simmered dishes, dengaku, and grilling — uses that carried it from everyday side dishes to festive tables. The more water is pressed out, the longer it keeps and the easier it travels, which is said to be how mountain regions pushed momen further into rock-hard kata-dofu and, for winter storage, into freeze-dried tofu. A saying has eastern Japan favoring momen and the west favoring kinugoshi, though today any shop stocks both.",
+      "sources": [
+        {
+          "title": "全国豆腐連合会",
+          "url": "https://www.zentoren.jp/",
+          "publisher": "全国豆腐連合会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "日本豆腐協会",
+          "url": "https://www.tofu-as.com/",
+          "publisher": "日本豆腐協会",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "momen-dofu",
+          "to_slug": "tofu",
+          "relation_type": "派生",
+          "basis": "豆腐の基本の型のひとつで、寄せた凝固物を崩して圧搾する仕上げ"
+        }
+      ]
+    },
+    {
+      "slug": "kinugoshi-dofu",
+      "body_ja": "## 何でできているか\n材料は木綿と同じ大豆・水・凝固剤だが、豆乳を濃くし、型の中で全体を一度に固めるため、きめが細かく水分の多い豆腐になるとされる。断面はつるりとして布目がなく、口に入れると崩れるように溶け、豆の甘みが淡く広がると評される。名は絹の布で漉したからではなく、なめらかさを絹にたとえたものという説が広く語られる。木綿より水分が多いため軽く、同じ重さならたんぱく質はやや少なめという。\n## どう作るのか\n呉を煮て搾った豆乳を木綿よりも濃く仕立て、いったん冷ますか温度を整えてから、凝固剤と一緒に穴のない型箱に流し込む。木綿のように崩したり重しをかけたりせず、静かに置いて全体を固めるため、豆乳の濃さと凝固剤の量、温度の見極めが仕上がりを決めるとされる。固まったら型ごと水に沈め、水中で型から外して切り分けるという。崩れやすいため、扱いにはより気を使う仕込みとされる。\n## なぜこの形になったのか\n絹ごしは木綿より後に広まった型とされ、豆乳を濃く搾れるようになったことや、型の中でそのまま固める技法が整ったことで成り立ったと考えられている。煮崩れしやすい反面、冷やしてそのまま食べる冷奴や、湯の中で温める湯豆腐では、豆腐そのものの口当たりが主役になるため、淡泊さを好む関西の食卓や料理屋で重宝されたと伝わる。今日では冷やした豆乳と凝固剤を容器に密封して固める充填豆腐も、この絹ごしの延長にある型という。",
+      "body_en": "## What it's made of\nThe same soybeans, water, and coagulant as momen, but the soy milk is made richer and the whole batch is set at once inside the mold, giving a fine-grained block with far more water held inside. The cut face is glossy and free of cloth marks; it dissolves on the tongue, releasing a faint bean sweetness. The name is widely said to compare the smoothness to silk (kinu), not to describe straining through silk. Holding more water, it is lighter than momen and a little lower in protein weight for weight.\n## How it's made\nThe soy milk is pressed richer than for momen, brought to the right temperature, then poured together with the coagulant into a solid-walled mold. Nothing is broken up or weighted; the block sets undisturbed, so the richness of the milk, the dose of coagulant, and the temperature decide everything. Once firm, the mold is lowered into water and the tofu released underwater before cutting. Because it breaks so easily, it is considered the more delicate of the two to handle.\n## Why it took this shape\nKinugoshi is thought to be the later of the two main forms, made possible once soy milk could be pressed richer and the technique of setting whole in the mold matured. It falls apart in a stew, but served cold as hiyayakko or warmed gently as yudofu its texture becomes the whole dish — which is said to be why it found favor in the lighter cooking of western Japan and in restaurant kitchens. Today's juten-dofu, chilled soy milk sealed with coagulant in its container and set by heating, is considered an extension of this form.",
+      "sources": [
+        {
+          "title": "全国豆腐連合会",
+          "url": "https://www.zentoren.jp/",
+          "publisher": "全国豆腐連合会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "日本豆腐協会",
+          "url": "https://www.tofu-as.com/",
+          "publisher": "日本豆腐協会",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kinugoshi-dofu",
+          "to_slug": "tofu",
+          "relation_type": "派生",
+          "basis": "豆腐の基本の型のひとつで、濃い豆乳を型の中でそのまま固める仕上げ"
+        },
+        {
+          "from_slug": "kinugoshi-dofu",
+          "to_slug": "momen-dofu",
+          "relation_type": "兄弟",
+          "basis": "同じ材料で、圧搾するか型のまま固めるかで分かれる二つの基本型"
+        },
+        {
+          "from_slug": "iwatsuki-tofu",
+          "to_slug": "kinugoshi-dofu",
+          "relation_type": "使用食材",
+          "basis": "ひし形に切った絹ごし豆腐を餡に合わせて載せるラーメン"
+        }
+      ]
+    },
+    {
+      "slug": "yose-dofu",
+      "body_ja": "## 何でできているか\n大豆・水・にがりは木綿や絹ごしと変わらないが、寄せた直後の凝固物をそのまま食べるため、豆腐の中で最も豆乳に近い味とされる。水に晒す工程がなく、豆の甘みと香り、にがりのかすかな塩気まで残るという。口に入れるとほろほろと崩れ、温かいうちは湯気とともに大豆の香りが立ち、冷やすとぷるりと締まると評される。ざるに盛って水を切ったものはざる豆腐、桶や椀に汲んだものは汲み上げ豆腐など、土地や店で呼び名が分かれるという。\n## どう作るのか\n煮て搾った熱い豆乳ににがりを打ち、静かに混ぜて凝固物を寄せる。木綿のように型箱で圧搾せず、絹ごしのように型で固めることもせず、寄せた塊を杓子で桶やざる、椀に掬い取って仕上げるとされる。ざるに盛れば自重で余分な水が落ち、桶に汲めば汁気を残したまま供される。にがりを打つ温度と混ぜ方で寄せ方が変わるため、職人の手加減がそのまま食感になる仕込みという。\n## なぜこの形になったのか\n型箱に入れて水を抜く前の段階をそのまま食べる形で、豆腐づくりの途中にある味を楽しむものと言われる。保存がきかないため、もとは豆腐屋の店先や作り手の家でしか味わえなかったとされ、搾りたての豆乳の香りを売りにする豆腐屋が出来たてを供する形で広まったと考えられている。沖縄のゆし豆腐も同じく固める前の寄せた豆腐を汁ごと食べる形で、土地ごとに同じ発想の豆腐があるという。",
+      "body_en": "## What it's made of\nSoybeans, water, and nigari, as in momen or kinugoshi — but because the curds are eaten the moment they form, this is the tofu closest in taste to soy milk itself. There is no cold-water soak, so the bean's sweetness and aroma, even the faint salinity of the nigari, all stay in. It crumbles softly in the mouth; warm, it releases the scent of soybeans with its steam, and chilled, it tightens to a tender wobble. Drained in a bamboo basket it is called zaru-dofu, ladled into a tub or bowl kumiage-dofu — the names shift by region and by shop.\n## How it's made\nNigari is stirred gently into hot, freshly pressed soy milk until curds gather. Rather than pressing them in a cloth-lined box like momen or setting them whole like kinugoshi, the curds are scooped with a ladle into a tub, basket, or bowl. In a basket the excess whey drips away under its own weight; in a tub it is served with some liquid still around it. The temperature of the milk and the way it is stirred decide how the curds gather, so the maker's touch becomes the texture.\n## Why it took this shape\nIt is tofu caught at the stage before the mold and the press — a way of tasting the process midway. Since it does not keep, it was once something only to be had at the tofu shop counter or in the maker's own kitchen, and it is thought to have spread as shops began offering it fresh to show off the aroma of just-pressed soy milk. Okinawa's yushi-dofu, soft curds eaten with their liquid before setting, is the same idea arrived at on its own island.",
+      "sources": [
+        {
+          "title": "全国豆腐連合会",
+          "url": "https://www.zentoren.jp/",
+          "publisher": "全国豆腐連合会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "日本豆腐協会",
+          "url": "https://www.tofu-as.com/",
+          "publisher": "日本豆腐協会",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "yose-dofu",
+          "to_slug": "tofu",
+          "relation_type": "派生",
+          "basis": "型に入れる前の寄せた段階をそのまま食べる豆腐の型"
+        },
+        {
+          "from_slug": "yose-dofu",
+          "to_slug": "kinugoshi-dofu",
+          "relation_type": "対比",
+          "basis": "どちらも圧搾しないが、型で固める絹ごしに対し寄せ豆腐は掬ったまま供する"
+        }
+      ]
+    },
+    {
+      "slug": "yaki-dofu",
+      "body_ja": "## 何でできているか\n中身はよく水を切った木綿豆腐で、表面に焦げ目がつくまで火を当てたものとされる。焼いた面はたんぱく質が固まって薄い皮のようになり、噛むと外は少し香ばしく、内側は木綿らしい締まった食感が残るという。焼いた香りが豆の青さを和らげ、だしや醤油の味を含みやすくなると評される。素材そのものの味より、煮汁をまとったときの旨さを狙った型という。\n## どう作るのか\n木綿豆腐を重しで十分に水切りしてから、金網に載せて直火であぶるか、バーナーで両面に焼き目をつける。昔は炭火で、今は専用の機械で焼く作り手が多いという。焼く前の水切りが浅いと焼き目がつく前に崩れるため、通常の木綿より硬めに仕上げた豆腐を使うのが一般的とされる。焼きたては熱いままでも食べられるが、多くは冷まして煮物用として売られるという。\n## なぜこの形になったのか\n豆腐は煮ると崩れやすく、長く火にかける煮物やすき焼きには向かない。表面を焼いて皮を作れば形が保たれ、煮汁を吸い込みやすくなるため、煮込む料理のための豆腐として定着したと考えられている。正月の雑煮やすき焼き、寺の精進料理の煮物など、晴れの日の膳に焼き豆腐が多く見られるのは、崩れずに盛れる見栄えのよさも理由とされる。各地の郷土料理に焼き豆腐が繰り返し登場するのは、この煮崩れしにくさが暮らしの中で重宝されてきた証とされる。",
+      "body_en": "## What it's made of\nInside it is well-drained momen tofu; outside, a surface held to the flame until it browns. The seared faces firm up into a thin skin, so each bite is faintly toasty on the outside with momen's dense texture underneath. The grilled aroma softens the bean's grassy edge and the skin takes on dashi or soy sauce readily — this is tofu designed less for its own flavor than for how it tastes carrying a broth.\n## How it's made\nMomen tofu is pressed under a weight until thoroughly drained, then laid on a wire rack over an open flame or seared on both sides with a burner. Charcoal was once the heat source; many makers now use purpose-built machines. If the tofu is not drained enough it falls apart before it browns, so a block firmer than ordinary momen is the usual starting point. It can be eaten hot off the grill, but most is cooled and sold for simmering.\n## Why it took this shape\nPlain tofu breaks up when boiled, which rules it out for long-simmered dishes and sukiyaki. Searing the surface into a skin keeps the block whole and makes it soak up the cooking liquid, and that is thought to be how yaki-dofu settled into its role as the tofu for stews. Its frequent place on festive tables — New Year's zoni, sukiyaki, temple vegetarian stews — is said to owe as much to how neatly it holds its shape when served. The way it turns up again and again in regional dishes is taken as evidence of how useful that sturdiness has been in everyday cooking.",
+      "sources": [
+        {
+          "title": "全国豆腐連合会",
+          "url": "https://www.zentoren.jp/",
+          "publisher": "全国豆腐連合会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 半助豆腐（大阪府）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/39_9_osaka.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "yaki-dofu",
+          "to_slug": "momen-dofu",
+          "relation_type": "派生",
+          "basis": "硬めに水切りした木綿豆腐の表面を焼いて仕上げる型"
+        },
+        {
+          "from_slug": "sukiyaki",
+          "to_slug": "yaki-dofu",
+          "relation_type": "使用食材",
+          "basis": "割り下で煮ても崩れない焼き豆腐がすき焼きの定番の具とされる"
+        },
+        {
+          "from_slug": "hansuke-dofu",
+          "to_slug": "yaki-dofu",
+          "relation_type": "使用食材",
+          "basis": "鰻の頭と焼き豆腐をだしで煮る大阪の惣菜"
+        },
+        {
+          "from_slug": "unagi-dofu",
+          "to_slug": "yaki-dofu",
+          "relation_type": "使用食材",
+          "basis": "宍道湖のうなぎと角切りの焼き豆腐を煮る松江の鍋"
+        }
+      ]
+    },
+    {
+      "slug": "gokayama-kata-dofu",
+      "body_ja": "## 何でできているか\n材料は大豆と水とにがりで、ふつうの木綿豆腐と変わらないとされる。違いは豆乳の濃さと圧搾の強さにあり、一丁がずっしり重く、指で押しても崩れず、縄で十字に縛って下げても形が保たれるほどの硬さという。噛むと弾力があり、水分が少ないぶん大豆の甘みと香りが濃く残ると評される。薄く切って刺身のように生姜醤油で食べる、厚く切って煮物に入れる、どちらの食べ方も土地に伝わるという。\n## どう作るのか\n大豆を浸して磨り砕き、煮て搾った豆乳を濃いめに仕立て、にがりで寄せる。寄せた凝固物を型箱に移し、通常の木綿よりはるかに重い重しを長くかけて水を抜くことで、締まった塊に仕上げるとされる。昔は各家で作られ、今は地区の作り手がこの硬さを守っているという。固く締めるため煮ても崩れにくく、長く火にかける煮物や鍋に向くとされる。\n## なぜこの形になったのか\n五箇山は冬に数メートルの雪が積もる山間で、集落どうしの行き来も容易ではなかったと伝わる。水を抜いた硬い豆腐は日持ちがよく、縄で縛って運べることから、山仕事や行事の際の携行食として重宝されたとする説が広く語られる。浄土真宗の信仰が篤い土地で、親鸞の命日に営む報恩講の精進の膳では、肉を使わない煮物のたんぱく源としてこの豆腐が中心に据えられてきたという。土地の雪と信仰が、豆腐をこの硬さにしたとされる。",
+      "body_en": "## What it's made of\nSoybeans, water, and nigari — nothing a standard momen block lacks. What differs is the richness of the milk and the force of the press: a single block is heavy in the hand, does not dent under a finger, and holds its shape even hung from a rope tied crosswise around it. It chews with a springy resistance, and with so little water left, the soybean's sweetness and aroma stay concentrated. Locals eat it two ways: sliced thin like sashimi with ginger and soy sauce, or cut thick into stews.\n## How it's made\nSoaked beans are ground, simmered, and pressed into a soy milk made richer than usual, then curded with nigari. The curds go into a mold under a weight far heavier than for ordinary momen and are pressed for much longer, until the block is dense and tight. Every household once made it; today a handful of makers in the district keep the firmness alive. Pressed this hard, it does not fall apart under long simmering, which suits the stews and hotpots it is used in.\n## Why it took this shape\nGokayama lies in mountains where winter snow piles several meters deep and travel between hamlets was once difficult. A tofu with its water pressed out keeps longer and can be carried tied with rope, and the common account is that it served as portable food for mountain work and for gatherings. This is also a district of deep Jodo Shinshu faith, and at the Hoonko memorial meal marking the death of the sect's founder Shinran, this tofu stood at the center of meatless stews as the main source of protein. Snow and faith together are said to have made the tofu this hard.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 報恩講料理（富山県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/37_22_toyama.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "南砺市観光協会",
+          "url": "https://www.tabi-nanto.jp/",
+          "publisher": "南砺市観光協会",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "gokayama-kata-dofu",
+          "to_slug": "tofu",
+          "relation_type": "派生",
+          "basis": "木綿豆腐をさらに強く圧搾して硬く仕上げた山間の型"
+        },
+        {
+          "from_slug": "gokayama-kata-dofu",
+          "to_slug": "shiramine-kata-dofu",
+          "relation_type": "兄弟",
+          "basis": "白山をはさんだ富山側と石川側で、同じく縄で縛れる硬さの堅豆腐が伝わる"
+        },
+        {
+          "from_slug": "hoonko-ryori",
+          "to_slug": "gokayama-kata-dofu",
+          "relation_type": "使用食材",
+          "basis": "報恩講の膳の煮物に五箇山豆腐が使われるとされる"
+        }
+      ]
+    },
+    {
+      "slug": "shiramine-kata-dofu",
+      "body_ja": "## 何でできているか\n大豆・水・にがりで作る木綿の一種とされるが、水分が少なく、ひと切れが重い。縄をかけて吊るせる硬さと言われ、箸で持ち上げても欠けないという。噛むと歯を押し返すような弾力があり、大豆の濃い甘みが後に残ると評される。薄く切って生姜醤油やからし醤油で刺身のように食べる、厚く切って味噌で煮る、燻して保存するなど、土地ではいくつもの食べ方が伝わるという。\n## どう作るのか\n大豆を浸して磨り砕き、煮て搾った豆乳を濃く仕立て、にがりで寄せた凝固物を型箱に入れる。ふつうの木綿の何倍もの重しをかけ、時間をかけて水を抜くことでこの硬さになるとされる。昔は各家の囲炉裏端で仕込まれ、今は白峰の作り手が同じ製法を守るという。硬いため煮込んでも形が残り、だしを吸ってなお豆の味がはっきりするとされる。\n## なぜこの形になったのか\n白峰は白山の麓の豪雪地帯で、かつては夏の間、山の奥の畑のそばに小屋を建てて住み込む出作りの暮らしが営まれていたと伝わる。日持ちがして縄で縛って運べる豆腐は、その暮らしのたんぱく源として理にかなっていたとする説が広く語られる。冬には雪に閉ざされ、保存のきく食べものが暮らしを支えたことも、豆腐を締める方向に働いたと考えられている。白山をはさんだ富山側の五箇山にも同じ硬さの豆腐が伝わり、山の暮らしが似た答えに至ったとされる。",
+      "body_en": "## What it's made of\nA variety of momen made from soybeans, water, and nigari, but with so little water left that a single slice is noticeably heavy. It is said to be firm enough to hang from a rope, and does not chip when lifted with chopsticks. The chew pushes back against the teeth, leaving a dense soybean sweetness behind. Locals eat it many ways: sliced thin like sashimi with ginger-and-soy or mustard-and-soy, cut thick and simmered in miso, or smoked for keeping.\n## How it's made\nSoaked beans are ground, simmered, and pressed into a rich soy milk, curded with nigari, and the curds packed into a mold. Under a weight several times that used for ordinary momen, and over a much longer press, the block reaches this hardness. It was once made at every household hearth; today Shiramine's makers follow the same method. Because it is so firm it keeps its shape through long simmering, drinking in dashi while the bean flavor stays clear.\n## Why it took this shape\nShiramine sits in the heavy-snow country at the foot of Mt. Hakusan, and families once spent each summer in huts built beside fields deep in the mountains — a way of life called dezukuri. A tofu that kept well and could be carried tied with rope made sense as the protein for that life, which is the account most often given. Winters sealed off by snow, when storable food sustained households, are also thought to have pushed the tofu toward firmness. Across the mountain on the Toyama side, Gokayama keeps a tofu of the same hardness, mountain life arriving at a similar answer.",
+      "sources": [
+        {
+          "title": "白山市",
+          "url": "https://www.city.hakusan.lg.jp/",
+          "publisher": "白山市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 石川県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/ishikawa.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "shiramine-kata-dofu",
+          "to_slug": "tofu",
+          "relation_type": "派生",
+          "basis": "木綿豆腐を強く圧搾して硬く仕上げた山間の型"
+        },
+        {
+          "from_slug": "shiramine-kata-dofu",
+          "to_slug": "momen-dofu",
+          "relation_type": "派生",
+          "basis": "木綿の製法を、重しと時間を増やして極端に締めたもの"
+        }
+      ]
+    },
+    {
+      "slug": "shima-dofu",
+      "body_ja": "## 何でできているか\n大豆と水に、にがりと塩を合わせた凝固剤で固めるとされ、本土の木綿よりはるかに硬く、一丁が1キロ近い大きさのものも珍しくないという。断面はきめが粗めで弾力があり、噛むと大豆の味が濃く、ほのかな塩気を感じると評される。水分が少ないため油で炒めても崩れず、豚肉やゴーヤーと合わせても豆腐の存在が消えないのが持ち味という。できたてを温かいまま食べると、湯気とともに豆の香りが立つとされる。\n## どう作るのか\n浸した大豆を磨り砕いた呉を、本土のように煮ずにまず布で搾って豆乳とおからに分け、それから豆乳を煮るという生搾り法で仕込むとされる。煮立った豆乳ににがりと塩水を加えて寄せ、型箱で強く圧して水を抜く。搾ってから煮るため泡が少なく、豆乳が澄むと言われる。固めた豆腐は水に晒さず、温かいまま店頭に並ぶことが多いという。食品衛生の基準上、温かいまま売る豆腐は例外的に認められていると伝わる。\n## なぜこの形になったのか\n沖縄の豆腐づくりが中国から直接伝わった系譜を持つとする説があり、生搾り法はその名残と考えられている。亜熱帯の暑さの中で水に晒して保存する本土の方法より、作ってすぐ売り切る形が理にかなっていたとされ、温かいまま売る習慣に結びついたという。豚肉や野菜と炒めるチャンプルーの料理法が日常の中心にあり、炒めても崩れない硬さと塩気が、その料理に合わせて定まったとする見方が語られる。",
+      "body_en": "## What it's made of\nSoybeans and water set with nigari and salt together, giving a block far firmer than mainland momen — a single piece near a kilogram is nothing unusual. The grain of the cut face is coarse and springy; the bean flavor is strong, with a faint saltiness behind it. With so little water in it, it holds its shape in hot oil and stays recognizably tofu next to pork and bitter melon. Eaten warm from the press, its steam carries the smell of fresh soybeans.\n## How it's made\nThe soaked, ground soybean slurry is wrapped in cloth and squeezed first — before any simmering — to separate soy milk from okara, and only then is the milk brought to the boil. This raw-press method (nama-shibori) is the reverse of mainland practice. Nigari and brine are stirred into the boiling milk to form curds, which are pressed hard in a mold. Because the slurry is pressed before cooking, there is less foam and the milk is said to run clearer. The finished blocks are not soaked in water but set out for sale still warm, an exception that food hygiene rules are said to allow specifically for this tofu.\n## Why it took this shape\nOne account holds that Okinawan tofu-making came directly from China, and the raw-press method is taken as a trace of that lineage. In subtropical heat, making it and selling it out the same day made more sense than the mainland habit of storing blocks in water, which is how the custom of selling it warm is thought to have arisen. Chanpuru — stir-fries of pork, vegetables, and tofu — sit at the center of everyday cooking here, and the firmness and saltiness are seen as having settled to fit that pan.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 ゴーヤーチャンプルー（沖縄県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_11_okinawa.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "沖縄県",
+          "url": "https://www.pref.okinawa.jp/",
+          "publisher": "沖縄県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "shima-dofu",
+          "to_slug": "tofu",
+          "relation_type": "派生",
+          "basis": "生搾り法と塩を加える凝固で沖縄独自に発達した硬い豆腐の型"
+        },
+        {
+          "from_slug": "gooyaa-chanpuruu",
+          "to_slug": "shima-dofu",
+          "relation_type": "使用食材",
+          "basis": "ゴーヤーと島豆腐、卵を炒め合わせる沖縄の家庭料理"
+        },
+        {
+          "from_slug": "naabeeraa-nbushii",
+          "to_slug": "shima-dofu",
+          "relation_type": "使用食材",
+          "basis": "へちまと豚肉を味噌で煮る料理に島豆腐をちぎって加える"
+        }
+      ]
+    },
+    {
+      "slug": "yushi-dofu",
+      "body_ja": "## 何でできているか\n大豆と水、にがりと塩から成り、島豆腐と同じ仕込みの途中にあるものとされる。型に入れて圧す前のゆるく寄せた凝固物を、ほの温かい汁とともに椀に汲んだ姿で、口に入れると雲のようにほどけ、豆乳の甘みとわずかな塩気が広がると評される。「ゆし」は寄せるという意味の沖縄の言葉からとする説が語られる。島豆腐の硬さと対照的に、豆腐の最もやわらかい顔という。\n## どう作るのか\n浸した大豆を磨り砕いた呉を、煮る前に布で搾って豆乳を取る生搾り法で豆乳を作り、煮立ったところへにがりと塩水を加えて静かに寄せる。寄せたものを型箱に移さず、汁ごと鍋や袋に汲んで仕上げるとされる。この先を型箱で圧せば島豆腐になるため、同じ作り手の店先に両方が並ぶことが多いという。食べる際は温め直し、塩や醤油で味を調え、ねぎや薬味を添えるのが一般的とされる。\n## なぜこの形になったのか\n豆腐を固める途中の状態を食べる発想は本土の寄せ豆腐と共通するが、沖縄では島豆腐づくりの一部として暮らしに根付き、朝の汁物として受け継がれたとされる。温かいまま豆腐を売る習慣があり、作りたてをすぐ食べる文化があったことが、保存のきかないこの形を日常に残したと考えられている。沖縄そばの上に載せる「ゆし豆腐そば」のように、麺や汁物と組み合わせて食べる形も各地に見られるという。",
+      "body_en": "## What it's made of\nSoybeans, water, nigari, and salt — the same batch that would become shima-dofu, caught midway. These are the loosely gathered curds before the mold and the press, ladled into a bowl with their warm liquid; they come apart like cloud in the mouth, releasing the sweetness of soy milk and a trace of salt. The name is said to come from an Okinawan word meaning 'to gather.' Set against the hardness of shima-dofu, this is tofu at its softest.\n## How it's made\nThe soaked, ground slurry is squeezed through cloth before simmering (the raw-press method), and the resulting milk is brought to the boil, where nigari and brine are stirred in gently until curds form. Instead of going into the mold, the curds are scooped with their liquid into a pot or bag. Press this same batch and it becomes shima-dofu, which is why one maker's counter often holds both. It is reheated to serve, seasoned with salt or soy sauce, and finished with scallions or other garnishes.\n## Why it took this shape\nEating tofu midway through setting is an idea shared with yose-dofu on the mainland, but in Okinawa it took root as a step inside shima-dofu making and was handed down as a morning soup. The custom of selling tofu warm and eating it the moment it is made is thought to be what kept this unstorable form part of daily life. Combinations with noodles and soup, like yushi-dofu soba with curds ladled over Okinawa soba, are found across the islands.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 沖縄県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/okinawa.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "沖縄県",
+          "url": "https://www.pref.okinawa.jp/",
+          "publisher": "沖縄県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "yushi-dofu",
+          "to_slug": "shima-dofu",
+          "relation_type": "兄弟",
+          "basis": "同じ仕込みで、型箱で圧す前と圧した後の二つの姿"
+        },
+        {
+          "from_slug": "yushi-dofu",
+          "to_slug": "yose-dofu",
+          "relation_type": "対比",
+          "basis": "固める前の寄せた豆腐を食べる同じ発想が、本土と沖縄で別々に続く"
+        },
+        {
+          "from_slug": "naha-soba",
+          "to_slug": "yushi-dofu",
+          "relation_type": "使用食材",
+          "basis": "沖縄そばにゆし豆腐を載せる「ゆし豆腐そば」の形が各地に見られるとされる"
+        }
+      ]
+    },
+    {
+      "slug": "iya-iwa-dofu",
+      "body_ja": "## 何でできているか\n大豆と水とにがりに塩を加えて仕込むとされ、ふつうの木綿の数倍の硬さと重さを持つという。縄で縛って肩に下げても崩れないことから石豆腐、岩豆腐と呼ばれると伝わる。噛むとぎゅっと詰まった弾力があり、塩気と大豆の濃い旨みが残ると評される。薄く切って醤油で刺身のように食べる、厚く切って煮る、串に刺して焼くなど、硬さを生かした食べ方が土地に残るという。\n## どう作るのか\n浸した大豆を磨り砕き、煮て搾った豆乳を濃く仕立て、にがりと塩で寄せる。寄せた凝固物を型箱に移し、通常よりはるかに重い石の重しをかけて長く水を抜くことでこの硬さになるとされる。塩を多めに使うのは、味付けと同時に日持ちをよくするためと考えられている。煮ても焼いても形が崩れないため、雑煮の餅代わりに重ねて盛ったり、串に刺して囲炉裏であぶったりする料理に使われるという。\n## なぜこの形になったのか\n祖谷は四国山地の奥深く、集落が急な斜面に点在する土地で、かつては物を運ぶにも人の背に頼る暮らしだったと伝わる。水を抜いて縄で縛れる豆腐は、こうした地形での運搬と保存に理にかなっていたとする説が広く語られる。正月のうちがえ雑煮では餅の代わりに岩豆腐を重ね、串焼きのでこまわしではじゃがいもやそば団子と一緒に刺すなど、土地の行事食と日常食の両方にこの硬さが組み込まれてきたとされる。",
+      "body_en": "## What it's made of\nSoybeans, water, nigari, and salt, pressed to several times the firmness and weight of ordinary momen. The nicknames 'stone tofu' and 'rock tofu' come from the fact that it can be tied with rope and slung over a shoulder without breaking. The chew is dense and springy, leaving salt and a concentrated soybean savor behind. Local ways of eating it all lean on that hardness: sliced thin with soy sauce like sashimi, cut thick and simmered, or skewered and grilled.\n## How it's made\nSoaked beans are ground, simmered, and pressed into a rich soy milk, which is curded with nigari and salt. The curds are packed into a mold under stone weights far heavier than usual and pressed for a long time until the block is this hard. The generous salt is thought to serve both for seasoning and for keeping. Because it holds its shape through boiling and grilling, it is stacked in place of mochi in the New Year's soup and threaded onto skewers to roast at the hearth.\n## Why it took this shape\nIya lies deep in the Shikoku mountains, its hamlets scattered across steep slopes, and goods were once carried on people's backs. A tofu with its water pressed out that could be bound with rope made sense for hauling and storing in that terrain, which is the account most often given. In the New Year's uchigae-zoni, slabs of iwa-dofu stand in for mochi; in dekomawashi, it is skewered alongside small potatoes and buckwheat dumplings — the hardness built into both the festive and the everyday food of the valley.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 うちがえ雑煮（徳島県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_12_tokushima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 祖谷のでこまわし（徳島県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/44_3_tokushima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "iya-iwa-dofu",
+          "to_slug": "tofu",
+          "relation_type": "派生",
+          "basis": "木綿豆腐を塩をきかせて強く圧搾した、祖谷の山里の型"
+        },
+        {
+          "from_slug": "iya-iwa-dofu",
+          "to_slug": "gokayama-kata-dofu",
+          "relation_type": "兄弟",
+          "basis": "山間の運搬と保存の必要から縄で縛れる硬さに至った堅豆腐どうし"
+        },
+        {
+          "from_slug": "uchigae-zoni",
+          "to_slug": "iya-iwa-dofu",
+          "relation_type": "使用食材",
+          "basis": "餅の代わりに岩豆腐を重ねて盛る祖谷の正月の雑煮"
+        },
+        {
+          "from_slug": "iya-no-decomawashi",
+          "to_slug": "iya-iwa-dofu",
+          "relation_type": "使用食材",
+          "basis": "じゃがいも・そば団子・こんにゃくと一緒に岩豆腐を串に刺して焼く"
+        },
+        {
+          "from_slug": "amego-no-hirarayaki",
+          "to_slug": "iya-iwa-dofu",
+          "relation_type": "使用食材",
+          "basis": "熱した平石の上で味噌の土手を作り、あめごと岩豆腐を焼く祖谷の野外料理"
+        }
+      ]
+    },
+    {
+      "slug": "tsuto-dofu",
+      "body_ja": "## 何でできているか\n中身は大豆・水・にがりで作る木綿豆腐で、それをわらを編んだ苞で包んで煮たものとされる。わらに締めつけられて水が抜け、表面にはわらの筋がくっきり残り、断面はきめの細かい締まった質感になるという。煮ている間にわらの香りがほのかに移り、豆腐にはない香ばしさが加わると評される。そのままよりも、だしで煮しめて味を含ませたときに持ち味が出る豆腐とされる。\n## どう作るのか\n木綿豆腐を適当な大きさに切り、わらを束ねて編んだ苞に入れて、両端をしばって包む。これを湯や薄い塩水で煮ることで、豆腐が締まって崩れにくくなるとされる。煮上がったら苞ごと冷まし、使うときにわらを外して切り分けるという。かつては各家で苞を編んで仕込んだと伝わり、今は豆腐屋が苞に入れた形で売ることが多いとされる。\n## なぜこの形になったのか\n冷蔵のない時代に、豆腐を長持ちさせ持ち運ぶための工夫としてわらで包んだのが始まりとする説が広く語られる。わらは稲作の土地ならどこにでもあり、包めば衝撃から守りながら水を抜けるため、煮しめのような長く火にかける料理に適した豆腐が得られたと考えられている。会津では身欠きにしんや里芋、昆布と一緒に煮るつゆ煮しめに欠かせず、冠婚葬祭や祭りの膳に出されてきたという。同じ発想の豆腐は茨城県にも伝わり、こも豆腐と呼ばれる似た形の豆腐が各地にあるとされる。",
+      "body_en": "## What it's made of\nAt its core is ordinary momen tofu — soybeans, water, nigari — wrapped in a sheath woven from rice straw and boiled. The straw squeezes water out as it cooks, leaving sharp ridges on the surface and a fine, tight grain inside. A faint scent of straw passes into the block during boiling, a toasty note plain tofu lacks. It is a tofu that shows its character less on its own than simmered in dashi until it has soaked up the flavor.\n## How it's made\nMomen tofu is cut to size and slipped into a sheath (tsuto) made by bundling and weaving straw, then tied at both ends. Boiled in water or light brine, the tofu tightens and becomes much harder to break. It cools in the sheath and is unwrapped and cut only when needed. Households once wove their own sheaths; today tofu shops mostly sell it already bound in straw.\n## Why it took this shape\nThe usual account is that it began as a way to keep tofu longer and carry it in the days before refrigeration. Straw was on hand anywhere rice was grown, and wrapping tofu in it both cushioned the block and pressed out water, yielding a tofu suited to long-simmered dishes like nishime. In Aizu it is essential to tsuyu-nishime, cooked with dried herring, taro, and kelp, and has been served at weddings, funerals, and festivals. Ibaraki has a tofu of the same name born of the same idea, and straw-wrapped komo-dofu of similar form turns up in several regions.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 つゆ煮しめ（福島県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_11_fukushima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tsuto-dofu",
+          "to_slug": "momen-dofu",
+          "relation_type": "派生",
+          "basis": "木綿豆腐をわらの苞で包んで煮締めた保存向きの型"
+        },
+        {
+          "from_slug": "tsuyu-nishime",
+          "to_slug": "tsuto-dofu",
+          "relation_type": "使用食材",
+          "basis": "つと豆腐と身欠きにしん、里芋、昆布をだしで煮る南会津の煮しめ"
+        },
+        {
+          "from_slug": "tsuto-dofu",
+          "to_slug": "komodofu",
+          "relation_type": "対比",
+          "basis": "茨城のこも豆腐も豆腐をわらで包んで煮る同じ発想の形とされる"
+        }
+      ]
+    },
+    {
+      "slug": "juten-dofu",
+      "body_ja": "## 何でできているか\n大豆・水・凝固剤から成る点は他の豆腐と同じで、凝固剤には熱で働くグルコノデルタラクトンやにがりが使われるという。容器の中で固めるため型箱の布目はなく、角まできっちり詰まった均一な塊になるとされる。食感は絹ごしよりさらに均質でぷるりとしており、豆の香りは穏やかと評される。水に晒さないため豆乳の成分が抜けにくく、甘みが残りやすいという見方もある。\n## どう作るのか\n煮て搾った豆乳を一度冷やし、凝固剤を混ぜてから容器に充填して密封する。これを湯の中で加熱すると容器の中で豆乳が固まり、そのまま冷やして製品になるとされる。型箱に流して固めて切り分け、水に放つ従来の工程と違い、固めた後に人の手も水も触れないため、雑菌が入りにくく日持ちが長いという。容器の形がそのまま豆腐の形になるため、丸や細長い形のものもあるとされる。\n## なぜこの形になったのか\n豆腐は作った日のうちに食べるものとされてきたが、スーパーなどで広く流通させるには日持ちと輸送への強さが必要で、戦後に機械化とともに広まった製法と考えられている。冷やした豆乳を密封してから固める工夫は、流通の形が豆腐の形を変えた例とされる。手作りの豆腐屋の味とは別物とする声もある一方で、家庭に豆腐を常備できるようにした型として、今日の日常の豆腐の多くを支えているという。",
+      "body_en": "## What it's made of\nSoybeans, water, and coagulant like any other tofu; the coagulant is often glucono-delta-lactone, which acts under heat, or nigari. Set inside the container, it carries no cloth marks and fills every corner as a uniform block. The texture is even smoother and more jelly-like than kinugoshi, with a gentler bean aroma. Because it is never soaked in water, some say more of the soy milk's sweetness stays in.\n## How it's made\nSoy milk is simmered, pressed, and chilled; coagulant is mixed in, and the liquid is filled into containers and sealed. The sealed packs are heated in hot water, which sets the milk inside, and then cooled into the finished product. Unlike the traditional route of setting in a mold, cutting, and floating in water, neither hands nor water touch the tofu after it sets, so fewer microbes get in and it keeps much longer. The container is the mold, which is why round or elongated versions exist.\n## Why it took this shape\nTofu was long something eaten the day it was made, but distributing it through supermarkets demanded shelf life and resistance to transport, and this method is thought to have spread with mechanization after the war. Sealing chilled soy milk before setting it is a case of distribution reshaping the food. Some hold it apart from the taste of a handmade tofu shop, yet as the form that let households keep tofu on hand, it underpins much of everyday tofu today.",
+      "sources": [
+        {
+          "title": "全国豆腐連合会",
+          "url": "https://www.zentoren.jp/",
+          "publisher": "全国豆腐連合会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "日本豆腐協会",
+          "url": "https://www.tofu-as.com/",
+          "publisher": "日本豆腐協会",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "juten-dofu",
+          "to_slug": "kinugoshi-dofu",
+          "relation_type": "派生",
+          "basis": "型箱で固める絹ごしの発想を、密封容器の中で固める形に置き換えたもの"
+        }
+      ]
+    }
+  ]
+}

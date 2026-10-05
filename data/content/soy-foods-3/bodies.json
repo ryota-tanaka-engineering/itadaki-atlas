@@ -1,0 +1,358 @@
+{
+  "items": [
+    {
+      "slug": "mito-natto",
+      "body_ja": "## 何でできているか\n原料は小粒の大豆と納豆菌、それだけとされる。粒が小さい分、一粒ごとの皮が薄く、箸でかき混ぜると細かく絡み合う糸が立ちやすいという。藁づとに包んだものは藁の青い香りがほのかに移り、豆の甘みと発酵の香りに草の匂いが重なるとされる。経木や紙の包みで売られるものもあり、見た目の型は包みによって分かれるが、いずれも小粒の糸引き納豆である点は共通するという。\n## どう作るのか\n大豆を一晩水に浸して蒸し、納豆菌を付けて藁づとや容器に詰める。藁づとの場合はもともと藁そのものに棲む菌を頼りに発酵させたと伝わり、現在は多くが純粋培養した納豆菌を散布し、温度を管理した室で発酵させるとされる。藁の筒に詰めると蒸気が逃げにくく、豆の表面が乾かないまま発酵が進むため、しっとりとした粒に仕上がりやすいという。\n## なぜこの形になったのか\n水戸周辺で育つ早生の小粒大豆は、醤油や味噌の仕込みには小さすぎて向かなかったため納豆に回されたと伝わる。明治期に鉄道が開通すると駅で藁づとの納豆が土産として売られるようになり、土地の名が納豆と結びついたとされる。藁づとという包みは保存容器と発酵の場をひとつにした道具であり、米作地帯で手に入りやすい藁があったからこそ生まれた形という。",
+      "body_en": "## What it's made of\nSmall soybeans and natto bacteria, and nothing else, by most accounts. Because the beans are small, each skin is thin, and stirring with chopsticks is said to raise fine, tightly tangled threads. Natto wrapped in a warazuto — a bundle of rice straw — picks up a faint green scent of straw, so the bean's sweetness and the fermentation aroma carry a hint of grass. Versions sold in kyogi (thin wood sheets) or paper look different on the outside, but all share the same small-bean, sticky-thread character.\n## How it's made\nSoybeans are soaked overnight and steamed, inoculated with natto bacteria, and packed into straw bundles or containers. Straw-wrapped natto is said to have once relied on bacteria living in the straw itself; today most producers spray pure-cultured natto bacteria and ferment in temperature-controlled rooms. Packed inside a straw tube, steam escapes slowly and the bean surfaces stay moist as fermentation proceeds, which is said to yield a softer, more supple bean.\n## Why it took this shape\nEarly-ripening soybeans grown around Mito are said to have been too small for soy sauce and miso making, so they were turned into natto. When the railway reached the town in the Meiji era, straw-bundled natto is said to have been sold on station platforms as a souvenir, tying the town's name to natto. The straw bundle served as both storage container and fermentation chamber, a form that could only emerge in rice country where straw was always at hand.",
+      "sources": [
+        {
+          "title": "水戸納豆 茨城県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/natto_ibaraki.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "全国納豆協同組合連合会",
+          "url": "https://www.natto.or.jp/",
+          "publisher": "全国納豆協同組合連合会",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "mito-natto",
+          "to_slug": "natto",
+          "relation_type": "派生",
+          "basis": "糸引き納豆の中の、水戸の小粒大豆と藁づとに結びついた一つの型とされる"
+        },
+        {
+          "from_slug": "soboro-natto",
+          "to_slug": "mito-natto",
+          "relation_type": "使用食材",
+          "basis": "そぼろ納豆は水戸の小粒納豆に割り干し大根を混ぜて漬け込んだ保存食とされる"
+        }
+      ]
+    },
+    {
+      "slug": "hoshi-natto",
+      "body_ja": "## 何でできているか\n糸引き納豆と塩、好みで青のりや唐辛子を混ぜたものが基本とされる。乾かすことで粘りの糸は粒の表面で固まり、見た目は茶色く縮んだ豆の粒になる。口に入れると最初はこりっと硬く、噛むうちに唾液で戻って納豆の香りと塩気が広がるとされる。水分が抜けている分、香りは生の納豆よりおだやかで、納豆が苦手な人でも手が伸びやすいという声もある。\n## どう作るのか\n発酵を終えた納豆に塩を加えて混ぜ、ざるや網に広げて天日や乾燥機で水分を飛ばす。塩をまぶすのは粒同士がくっつくのを防ぎ、保存性を高めるためとされる。寒風の吹く冬場に干すのが本来の作り方と伝わり、乾いた粒は常温で長く持つという。そのまま食べるほか、湯や茶を注いで戻し、ご飯や汁の具として使う食べ方もあるとされる。\n## なぜこの形になったのか\n納豆は発酵が進み続けるため日持ちが短く、藁づとのまま遠くへ持ち運ぶのは難しかったとされる。干して塩を効かせることで保存と携行を可能にした形で、農作業の合間の食べものや旅の土産として広まったと伝わる。水戸周辺で小粒納豆の生産が盛んだったことが、余った納豆を無駄にしない加工として干し納豆を根づかせたと考えられている。",
+      "body_en": "## What it's made of\nSticky natto and salt, sometimes with aonori seaweed flakes or chili mixed in. Drying sets the sticky threads on the surface of each bean, leaving small, brown, shrunken grains. In the mouth they're hard and crunchy at first, then soften with saliva as the natto aroma and salt come forward. With the moisture gone, the smell is milder than fresh natto, and it's said to win over people who normally avoid it.\n## How it's made\nFully fermented natto is mixed with salt, spread on trays or mesh, and dried in the sun or in a dryer. The salt is said to keep the beans from clumping and to extend shelf life. Drying in the cold winter wind is said to be the traditional way, and the finished beans keep at room temperature for a long time. Besides eating them straight, people pour hot water or tea over them to soften them for rice or soup.\n## Why it took this shape\nNatto keeps fermenting, so it spoils quickly, and carrying it far in a straw bundle was difficult. Drying and salting made it both storable and portable, and it is said to have spread as a field snack and a travel souvenir. With small-bean natto produced in volume around Mito, drying is thought to have taken root as a way to use up what would otherwise go to waste.",
+      "sources": [
+        {
+          "title": "全国納豆協同組合連合会",
+          "url": "https://www.natto.or.jp/",
+          "publisher": "全国納豆協同組合連合会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "水戸納豆 茨城県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/natto_ibaraki.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "hoshi-natto",
+          "to_slug": "mito-natto",
+          "relation_type": "派生",
+          "basis": "水戸周辺の小粒糸引き納豆を塩と乾燥で保存用にした形とされる"
+        },
+        {
+          "from_slug": "hoshi-natto",
+          "to_slug": "hama-natto",
+          "relation_type": "対比",
+          "basis": "同じ乾いた納豆でも、糸引き納豆を干したものと麹と塩で熟成させる塩辛納豆は別系統とされる"
+        }
+      ]
+    },
+    {
+      "slug": "hama-natto",
+      "body_ja": "## 何でできているか\n原料は大豆と麹、塩、仕上げに加える生姜などの香辛料とされる。糸引き納豆とは違い、麹菌の力で大豆のたんぱく質を分解し、塩水で熟成させる仕込みで、粒は黒褐色でしわが寄り、噛むと味噌か醤油の実を食べているような塩気と深い旨みが広がるという。そのまま一粒ずつ茶請けにしたり、刻んで料理の調味に使ったりするとされ、保存のきく常備の食べものとして扱われてきたという。\n## どう作るのか\n蒸した大豆に麹菌を付けて豆麹を作り、塩水に漬けて数か月から一年ほど熟成させると伝わる。熟成後に取り出して天日で干し、生姜などを加えて仕上げるとされる。発酵と塩漬けと乾燥という三つの工程を経るため、糸引き納豆より格段に日持ちするという。熟成の間に豆の表面が黒く変わり、味噌のような香りが立ってくるとされる。\n## なぜこの形になったのか\n浜名湖畔の寺で作られた納豆が起源と伝わり、地名から浜名納豆、のちに浜納豆と呼ばれるようになったとされる。中国から僧侶が伝えた豆豉の製法が元にあるという説があり、寺の精進の食として、また保存食として受け継がれたと考えられている。塩と乾燥で長く保つ性質は、東海道を行き来する旅の携行食や贈答にも向いたと伝わる。",
+      "body_en": "## What it's made of\nSoybeans, koji (the mold culture used for miso and sake), salt, and a finishing touch of spice such as ginger. Unlike sticky natto, the beans' protein is broken down by koji mold and aged in brine; the beans turn blackish-brown and wrinkled, and biting one releases the salt and depth of flavor of eating the solids from miso or soy sauce. They're nibbled one at a time with tea or chopped as a seasoning, and have long been treated as a pantry staple that keeps.\n## How it's made\nSteamed soybeans are inoculated with koji mold to make bean koji, then steeped in brine for several months to about a year. After aging, the beans are taken out, sun-dried, and finished with ginger or other spices. Because they pass through fermentation, salting, and drying, they keep far longer than sticky natto. During aging the surface darkens and a miso-like aroma is said to rise.\n## Why it took this shape\nThe origin is traced to natto made at a temple on the shore of Lake Hamana; it was called Hamana natto after the place, later shortened to Hama natto. One account holds that the method descends from Chinese douchi (fermented black beans) brought by monks, and it is thought to have been passed down as temple vegetarian food and as a preserved food. Its salt-and-drying longevity suited travelers on the Tokaido road and made it a fitting gift.",
+      "sources": [
+        {
+          "title": "にっぽん伝統食図鑑",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/index.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "全国納豆協同組合連合会",
+          "url": "https://www.natto.or.jp/",
+          "publisher": "全国納豆協同組合連合会",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "hama-natto",
+          "to_slug": "tera-natto",
+          "relation_type": "派生",
+          "basis": "寺納豆（塩辛納豆）の系譜に属する浜松の型とされる"
+        },
+        {
+          "from_slug": "hama-natto",
+          "to_slug": "daitokuji-natto",
+          "relation_type": "兄弟",
+          "basis": "どちらも麹と塩で熟成させる塩辛納豆で、浜松と京都それぞれの寺で受け継がれてきたとされる"
+        }
+      ]
+    },
+    {
+      "slug": "daitokuji-natto",
+      "body_ja": "## 何でできているか\n大豆と大麦の麹、塩と水だけで作られるとされ、糸引き納豆とは製法も味も別物とされる。粒は黒く乾いてしわが深く、口に含むと塩気が先に立ち、噛むうちに豆の分解が進んだ濃い旨みと微かな苦みが追いかけてくるという。一粒を茶と合わせて少しずつ味わう食べものとされ、茶席の菓子に刻んで混ぜたり、料理の隠し味にしたりする使い方も伝わる。\n## どう作るのか\n蒸した大豆に大麦の粉を混ぜて麹菌を付け、豆麹を作る。これを塩水と合わせて桶に仕込み、夏の間、日中は天日にさらしながら毎日かき混ぜ、水分を飛ばしつつ発酵を進めると伝わる。仕込みは梅雨明けの暑い時期に行い、秋まで干して仕上げるとされる。かき混ぜと乾燥を繰り返す手仕事が、粒の黒さと締まった食感を作るという。\n## なぜこの形になったのか\n禅寺の修行僧の保存食として、中国から伝わった製法をもとに寺で作られてきたと伝わる。大徳寺の門前で作り続けられてきたことから寺の名で呼ばれ、精進の暮らしの中で貴重なたんぱく源と塩分の補給を兼ねたと考えられている。京都の夏の強い日差しと湿気を乾燥と発酵に生かす仕込みであり、年に一度の夏仕込みという時季の制約が、長く保つ乾いた粒という形を定めたとされる。",
+      "body_en": "## What it's made of\nSoybeans, barley koji, salt, and water — nothing more — and in both method and taste it's a different thing from sticky natto. The beans are black, dry, and deeply wrinkled; salt hits first, then as you chew, a dense savor from the broken-down bean and a faint bitterness follow. It's meant to be savored one bean at a time with tea, and is also chopped into tea-ceremony sweets or used as a hidden seasoning in cooking.\n## How it's made\nSteamed soybeans are dusted with barley flour and inoculated with koji mold to make bean koji. This is mixed with brine in tubs, and through the summer the beans are stirred daily while exposed to the sun by day, driving off moisture as fermentation proceeds. Work begins in the heat after the rainy season and the beans are dried into autumn. The repeated stirring and drying by hand is what gives the beans their blackness and firm bite.\n## Why it took this shape\nIt is said to have been made at temples as a preserved food for Zen monks in training, based on a method brought from China. Made continuously at the gate of Daitokuji, it took the temple's name, and in a vegetarian way of life it is thought to have supplied both scarce protein and salt. The process turns Kyoto's fierce summer sun and humidity to the work of drying and fermenting, and the constraint of a single summer batch each year is said to have fixed its form as a dry bean that keeps.",
+      "sources": [
+        {
+          "title": "全国納豆協同組合連合会",
+          "url": "https://www.natto.or.jp/",
+          "publisher": "全国納豆協同組合連合会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "にっぽん伝統食図鑑",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/index.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "daitokuji-natto",
+          "to_slug": "tera-natto",
+          "relation_type": "派生",
+          "basis": "寺納豆（塩辛納豆）の系譜に属する京都の型とされる"
+        }
+      ]
+    },
+    {
+      "slug": "tera-natto",
+      "body_ja": "## 何でできているか\n大豆と麹、塩、水を基本に、仕上げに生姜や山椒を加える土地もあるとされる。納豆菌で発酵させる糸引き納豆とは菌も工程も異なり、麹菌と塩によってゆっくり分解が進むため、粒は黒く締まり、味は味噌や醤油の原点のように濃く塩辛いという。一粒で茶や酒が進むとされ、刻んで和え物や炒め物の調味にも使われるという。\n## どう作るのか\n蒸した大豆に麹菌を付けて豆麹を作り、塩水に漬けて熟成させる。寺や土地によって、桶の中で日に当てながら毎日かき混ぜて水分を飛ばす方法と、塩水に長く漬けてから取り出して干す方法があるとされる。いずれも最後は天日で乾かし、常温で長く保てる乾いた粒に仕上げるという。熟成の長さや塩の強さ、仕上げの香辛料が土地ごとの個性を分けると伝わる。\n## なぜこの形になったのか\n中国で古くから作られてきた豆豉に連なる製法が、僧侶の往来を通じて日本の寺に伝わったとする説が有力とされる。肉や魚を避ける精進の暮らしで、たんぱく質と塩分を同時に補える保存食として寺が作り続け、門前の町に製法が広がったと考えられている。糸引き納豆が東日本の農家の暮らしから生まれたとされるのに対し、寺納豆は寺と街道の町に点々と残る、もうひとつの納豆の系譜という。",
+      "body_en": "## What it's made of\nSoybeans, koji, salt, and water as the base, with ginger or sansho pepper added at the finish in some places. The mold and the process both differ from sticky natto, which relies on natto bacteria: here koji mold and salt break the beans down slowly, so they turn black and firm, and the taste is dense and salty, like the origin point of miso or soy sauce. A single bean carries tea or sake, and chopped, it seasons dressed vegetables and stir-fries.\n## How it's made\nSteamed soybeans are inoculated with koji mold to make bean koji, then aged in brine. Depending on the temple or region, the beans are either stirred daily in open tubs in the sun to drive off moisture, or steeped in brine for a long time and then taken out to dry. Either way they finish sun-dried into firm grains that keep at room temperature. The length of aging, the strength of the salt, and the finishing spice distinguish one region's version from another.\n## Why it took this shape\nThe leading account holds that a method descended from Chinese douchi (fermented black beans) reached Japanese temples through the travels of monks. In a vegetarian life that avoided meat and fish, temples kept making it as a preserved food supplying protein and salt at once, and the method spread to the towns outside their gates. Where sticky natto is said to have grown out of farmhouse life in eastern Japan, temple natto survives as a second lineage, scattered among temples and old highway towns.",
+      "sources": [
+        {
+          "title": "全国納豆協同組合連合会",
+          "url": "https://www.natto.or.jp/",
+          "publisher": "全国納豆協同組合連合会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "にっぽん伝統食図鑑",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/index.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tera-natto",
+          "to_slug": "natto",
+          "relation_type": "対比",
+          "basis": "納豆菌で糸を引かせる糸引き納豆とは菌も工程も異なる、塩と麹で熟成させる別系統の納豆とされる"
+        },
+        {
+          "from_slug": "tera-natto",
+          "to_slug": "mame-miso",
+          "relation_type": "兄弟",
+          "basis": "どちらも大豆に麹を付けて塩で熟成させる仕込みで、豆麹を液や粒のまま残す点が違うとされる"
+        }
+      ]
+    },
+    {
+      "slug": "tonyu",
+      "body_ja": "## 何でできているか\n大豆と水だけでできた乳白色の液体で、大豆のたんぱく質と脂質が水の中に細かく散った状態とされる。口当たりはさらりとして、ほのかな甘みと大豆特有の青い香りを持つという。濃さは用途で変わり、豆腐屋が固める前の豆乳は飲用のものより濃く、表面に膜が張るほどとされる。飲用には大豆と水だけの無調整豆乳と、糖や油脂を加えて飲みやすくした調製豆乳があり、日本の規格で区別されているという。\n## どう作るのか\n大豆を一晩水に浸して戻し、水を加えながら磨り潰して「呉」と呼ばれるどろりとした液にする。これを煮てから布で搾ると、液が豆乳、残りがおからになる。先に煮てから搾る方法と、生の呉を搾ってから煮る方法があり、豆腐の仕上がりや香りに差が出るとされる。煮る工程で大豆の酵素の働きが止まり、青臭さの元が抑えられるという。飲用の豆乳は脱臭や加熱殺菌の工程をさらに重ねるとされる。\n## なぜこの形になったのか\n豆乳は豆腐づくりの途中にできる液であり、日本では長く「飲むもの」というより豆腐や湯葉の素として扱われてきたとされる。大豆を丸ごと煮て食べるより消化しやすく、たんぱく質を液体で摂れる点が、精進料理の中で豆腐とともに重んじられた理由と考えられている。飲みものとしての豆乳が広く並ぶようになったのは比較的新しいとされ、青臭さを抑える製法の工夫がその背景にあるという。",
+      "body_en": "## What it's made of\nA milky liquid made of nothing but soybeans and water, with the bean's protein and fat finely dispersed through it. It's light on the tongue, faintly sweet, with the green, beany aroma peculiar to soy. Its thickness depends on the purpose: the soy milk a tofu maker sets into curd is richer than the drinking kind, thick enough to form a skin on its surface. For drinking, Japanese standards distinguish mucho-sei tonyu (soybeans and water only) from chosei tonyu, adjusted with sugar or oil to make it easier to drink.\n## How it's made\nSoybeans are soaked overnight, then ground with added water into a thick slurry called go. Simmering it and pressing it through cloth separates the liquid, soy milk, from the solids, okara. Whether the slurry is cooked before pressing or pressed raw and then cooked is a choice that's said to change the finish and aroma of the resulting tofu. Cooking halts the bean's enzymes, taming the source of the grassy smell; soy milk for drinking goes through further deodorizing and heat sterilization.\n## Why it took this shape\nSoy milk is a stage in making tofu, and in Japan it was long treated less as a drink than as the raw material for tofu and yuba. Easier to digest than whole simmered beans and delivering protein in liquid form, it is thought to have been valued alongside tofu in Buddhist vegetarian cooking. Soy milk as an everyday drink on shop shelves is a relatively recent development, said to rest on processing techniques that suppress the grassy note.",
+      "sources": [
+        {
+          "title": "全国豆腐連合会",
+          "url": "https://www.zentoren.jp/",
+          "publisher": "全国豆腐連合会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "日本豆乳協会",
+          "url": "https://www.tounyu.jp/",
+          "publisher": "日本豆乳協会",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tonyu",
+          "to_slug": "tofu",
+          "relation_type": "源流",
+          "basis": "豆腐は豆乳ににがりなどの凝固剤を加えて固めたものとされる"
+        },
+        {
+          "from_slug": "tonyu",
+          "to_slug": "yuba",
+          "relation_type": "源流",
+          "basis": "湯葉は豆乳を静かに加熱して表面に張る膜を引き上げたものとされる"
+        }
+      ]
+    },
+    {
+      "slug": "okara",
+      "body_ja": "## 何でできているか\n大豆を磨り潰して煮た呉から豆乳を搾った残りで、大豆の繊維と薄皮、搾りきれなかったたんぱく質や脂質が含まれるとされる。白くぽろぽろとした粒状で、それ自体の味は淡く、だしや油を吸って初めて料理の味になるという。白く細かい見た目を初夏に咲く卯の花に重ねて「卯の花」と呼び、西日本や九州では「きらす」とも言うと伝わる。\n## どう作るのか\n豆腐屋で豆乳を搾る工程の副産物として毎日生まれ、それ自体を作るというより、できたものをどう使うかが土地の知恵とされる。だしと油で炒り煮にする卯の花煮が広く知られ、酢や塩と合わせて鰯を漬ける卯の花漬け、醤油だれの刺身にまぶすきらすまめしなど、水分の多い食べものを受け止めて日持ちを延ばす使い方が各地に残るという。足が早いため、乾かして粉にしてから使う方法も伝わる。\n## なぜこの形になったのか\n豆腐づくりでは使った大豆の重さに近い量のおからが出るとされ、無駄にしない暮らしが各地の料理を育てたと考えられている。たんぱく質の多くが豆乳側に移るため栄養は豆腐より少ないとされるが、繊維が多く腹持ちがよいため、米や魚を節約する助けになったと伝わる。「おから」の語が「空（から）」に通じるのを嫌って卯の花と言い換えたとする説もあり、副産物に名を与えて食卓に上げてきた歴史が形になっているという。",
+      "body_en": "## What it's made of\nWhat remains after soy milk is pressed from the cooked bean slurry: fiber, skins, and whatever protein and fat the press couldn't extract. It's white and crumbly, and nearly tasteless on its own; it becomes food only once it drinks in dashi or oil. Its fine white look was likened to the unohana (deutzia) that blooms in early summer, hence that name, while in western Japan and Kyushu it's called kirasu.\n## How it's made\nIt appears every day as a byproduct at the tofu shop, so the craft lies less in making it than in what each region does with it. Unohana-ni, simmered with dashi and oil, is the widely known dish; unohana-zuke cures sardines in okara mixed with vinegar and salt, and kirasumameshi tosses soy-marinated sashimi in it. In each case the pulp absorbs moisture from a perishable food and stretches its life. Because it spoils fast, drying it into a powder for later use is another old method.\n## Why it took this shape\nTofu making yields okara in an amount close to the weight of the beans used, and a frugal way of life is thought to have turned that surplus into regional dishes. Most of the protein goes into the soy milk, so okara is less nourishing than tofu, but it's high in fiber and filling, and is said to have helped stretch rice and fish. One account says the name unohana arose to avoid 'okara,' which sounds like kara, 'empty' — a history of giving a byproduct a name worthy of the table.",
+      "sources": [
+        {
+          "title": "全国豆腐連合会",
+          "url": "https://www.zentoren.jp/",
+          "publisher": "全国豆腐連合会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "きらすまめし 大分県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/kirasumameshi_oita.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "okara",
+          "to_slug": "tonyu",
+          "relation_type": "派生",
+          "basis": "呉から豆乳を搾った残りの固形分とされる"
+        },
+        {
+          "from_slug": "kirasumameshi",
+          "to_slug": "okara",
+          "relation_type": "使用食材",
+          "basis": "醤油だれに漬けた刺身にきらす（おから）をまぶす臼杵の料理とされる"
+        },
+        {
+          "from_slug": "iwashi-no-unohana-zuke",
+          "to_slug": "okara",
+          "relation_type": "使用食材",
+          "basis": "酢と塩で締めた鰯をおからに漬ける北茨城の保存食とされる"
+        },
+        {
+          "from_slug": "chiba-iwashi-no-unohana-zuke",
+          "to_slug": "okara",
+          "relation_type": "使用食材",
+          "basis": "酢締めの鰯をおからで漬ける千葉の保存食とされる"
+        }
+      ]
+    },
+    {
+      "slug": "kinako",
+      "body_ja": "## 何でできているか\n大豆を炒って皮ごと、あるいは皮を除いて細かく挽いた粉で、炒ることで大豆の青臭さが消え、香ばしい香りと軽い甘みが立つとされる。黄大豆から挽いた黄色いものが基本で、青大豆を使うと淡い緑色のうぐいすきな粉、黒大豆なら黒豆きな粉になるという。粉そのものは口の水分を奪うほど乾いているため、砂糖や塩と合わせ、餅や団子など水気のあるものにまぶして食べるのが通例とされる。\n## どう作るのか\n乾いた大豆を焦がさないように炒り、冷ましてから石臼や粉砕機で挽いてふるう。炒りの深さで色と香りが変わり、浅く炒ると豆の甘み、深く炒ると香ばしさが前に出るとされる。挽きたては香りが強く、時間とともに油分が酸化して香りが抜けるため、小分けにして使い切ることが勧められるという。砂糖を混ぜておく土産の形や、きな粉を水飴で固める棒菓子も各地にあると伝わる。\n## なぜこの形になったのか\n大豆を粉にして保存するのは、米や麦の粉と同じく、乾いた粉なら長く持ち、必要な分だけ使える知恵とされる。炒って粉にすると煮豆より手早く食べられ、餅や団子にまぶすだけでたんぱく質を補えるため、農作業の合間の食や行事の菓子に広く使われたと考えられている。安倍川もちのような街道の名物や、きなこむすびのような地域の握り飯の形は、きな粉が日常の粉であった名残という。",
+      "body_en": "## What it's made of\nSoybeans roasted and finely ground, with or without the skins. Roasting drives off the beany smell and brings out a toasty aroma and light sweetness. Yellow soybeans give the standard yellow flour; green soybeans make pale green uguisu kinako, and black soybeans make kuromame kinako. The powder itself is dry enough to pull the moisture from your mouth, so it's mixed with sugar or salt and dusted over moist things like mochi and dango.\n## How it's made\nDried soybeans are roasted carefully to avoid scorching, cooled, then milled in a stone mill or grinder and sifted. The depth of roast sets the color and aroma: a light roast brings the bean's sweetness forward, a deep roast its toastiness. Freshly milled kinako is at its most fragrant, and because the oils oxidize and the aroma fades over time, buying small and using it up is the usual advice. Pre-sweetened souvenir packs and stick candies of kinako bound with starch syrup are found in many regions.\n## Why it took this shape\nGrinding soybeans into flour is the same logic as rice or wheat flour: a dry powder keeps, and you take only what you need. Roasted and milled, soybeans could be eaten faster than simmered beans, and a dusting over mochi or dango added protein, so kinako is thought to have served widely as a field snack and a festival sweet. Highway specialties like Abekawa mochi and regional rice balls like kinako musubi are traces of kinako's place as an everyday flour.",
+      "sources": [
+        {
+          "title": "安倍川もち 静岡県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/36_18_shizuoka.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "きなこむすび 広島県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/42_14_hiroshima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kinako",
+          "to_slug": "okara",
+          "relation_type": "対比",
+          "basis": "同じ大豆でも、丸ごと炒って挽く粉と、豆乳を搾った残りの繊維という対照的な加工とされる"
+        },
+        {
+          "from_slug": "abekawa-mochi",
+          "to_slug": "kinako",
+          "relation_type": "使用食材",
+          "basis": "つきたての餅に砂糖入りのきな粉をまぶす静岡の名物とされる"
+        },
+        {
+          "from_slug": "kinako-musubi",
+          "to_slug": "kinako",
+          "relation_type": "使用食材",
+          "basis": "握り飯にきな粉をまぶす広島北部の食とされる"
+        },
+        {
+          "from_slug": "warabi-mochi",
+          "to_slug": "kinako",
+          "relation_type": "使用食材",
+          "basis": "わらび餅にはきな粉をまぶして食べる型が広く伝わる"
+        }
+      ]
+    },
+    {
+      "slug": "tofu-yo",
+      "body_ja": "## 何でできているか\n島豆腐と紅麹、米麹、泡盛、塩が材料とされる。豆腐の水分が抜けて麹の酵素でたんぱく質が分解され、ねっとりとして舌の上で溶ける質感になるという。泡盛の香りと麹の甘み、塩気が重なり、濃厚な旨みの中にほのかな酒の刺激が残るとされる。小さな角切りを楊枝や箸の先で少しずつ削るように食べるのが作法とされ、一片で泡盛が進む肴として扱われてきたという。\n## どう作るのか\n島豆腐を角切りにして風通しのよい場所で干し、表面を乾かして水分を抜く。紅麹と米麹を泡盛と塩で溶いた漬け床に豆腐を沈め、数か月かけて熟成させると伝わる。紅麹が豆腐を赤く染め、麹の力でたんぱく質がゆっくり分解されるという。泡盛の度数が雑菌を抑えつつ発酵を進めるとされ、床の塩の加減と熟成の時季が仕上がりを左右すると伝わる。\n## なぜこの形になったのか\n中国の腐乳に連なる食べものとされ、琉球王朝の時代に大陸との交流を通じて伝わり、首里の士族の間で泡盛を使う独自の仕込みに変わったと伝わる。暑く湿った気候で豆腐を長く保つには、乾燥と塩と酒の力を重ねる必要があり、島豆腐の固さと泡盛という土地の酒があったからこそ生まれた形と考えられている。王府の保存食から、今は泡盛の肴や土産として受け継がれているという。",
+      "body_en": "## What it's made of\nShima-dofu (Okinawa's firm island tofu), beni-koji (red koji mold), rice koji, awamori (the island's rice spirit), and salt. As the tofu gives up its water and the koji enzymes break down its protein, it turns dense and melts on the tongue. The aroma of awamori, the sweetness of koji, and salt layer over a rich savor with a faint alcoholic bite at the end. It's eaten by shaving a small cube little by little with a toothpick or the tips of chopsticks, and one piece is said to carry a glass of awamori.\n## How it's made\nIsland tofu is cut into cubes and air-dried in a breezy spot until the surface is dry and the water is drawn out. The cubes are sunk into a bed of red koji and rice koji dissolved in awamori and salt, and aged for several months. The red koji dyes the tofu crimson while the koji slowly breaks down its protein; the strength of the awamori is said to hold spoilage bacteria at bay as fermentation proceeds, and the salt level of the bed and the season of aging decide the result.\n## Why it took this shape\nIt's considered a relative of Chinese furu (fermented bean curd), said to have arrived through the Ryukyu Kingdom's exchanges with the mainland and to have been reworked by Shuri's samurai families into a method built on awamori. Keeping tofu in a hot, humid climate required stacking the powers of drying, salt, and alcohol, and the form is thought to be possible only because of the firmness of island tofu and the local spirit. From a preserved food of the royal court, it survives today as a companion to awamori and a souvenir.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 沖縄県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/okinawa.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tofu-yo",
+          "to_slug": "tofu",
+          "relation_type": "派生",
+          "basis": "固く作った島豆腐を麹と泡盛の床で発酵させた保存の型とされる"
+        },
+        {
+          "from_slug": "tofu-yo",
+          "to_slug": "awamori",
+          "relation_type": "使用食材",
+          "basis": "紅麹と米麹を泡盛で溶いた漬け床で熟成させるとされる"
+        },
+        {
+          "from_slug": "tofu-yo",
+          "to_slug": "tofu-no-misozuke",
+          "relation_type": "兄弟",
+          "basis": "どちらも豆腐を麹や味噌の床で長く熟成させ、チーズに例えられる質感に変える保存食とされる"
+        }
+      ]
+    },
+    {
+      "slug": "tofu-no-misozuke",
+      "body_ja": "## 何でできているか\n固めの豆腐と味噌、味噌を伸ばす酒やみりんが材料とされる。漬けている間に豆腐の水分が味噌側へ移り、味噌の塩と麹の酵素が豆腐のたんぱく質を分解して、色はべっこう色に、質感はねっとりと締まるという。口に含むと味噌の香りが先に立ち、噛むほどに豆腐とは思えない濃い旨みが残るとされ、薄く切って酒の肴やご飯のおかずにするという。雲丹に似た舌触りから「山うに」と称して売られることもあると伝わる。\n## どう作るのか\n豆腐を布で包んで重石をかけ、水分をしっかり抜いて固く締める。表面を軽く乾かしてから、酒やみりんで伸ばした味噌にガーゼごと包んで漬け込み、涼しい場所で数か月から半年ほど熟成させると伝わる。水切りが甘いと味噌が水っぽくなり傷みやすいため、固い豆腐を使うことが肝要とされる。漬け床の味噌は土地の麦味噌や合わせ味噌が使われることが多いという。\n## なぜこの形になったのか\n熊本の山深い集落では、海の魚はもちろん豆腐も日常には手に入りにくく、祝い事で作った豆腐を長く持たせる工夫が味噌漬けを生んだと伝わる。平家の落人が隠れ住んだと伝わる五木村や、山都町の矢部地方などに受け継がれ、冷蔵の無い時代に味噌の塩と麹で豆腐を守る知恵だったと考えられている。固く作る山の豆腐と、各家で仕込む味噌があったからこそ成り立つ保存食という。",
+      "body_en": "## What it's made of\nFirm tofu, miso, and a little sake or mirin to loosen the miso. As it cures, the tofu's water migrates into the miso while the salt and koji enzymes break down the tofu's protein, turning it amber and tightening it into something dense and sticky. The miso aroma comes first, and chewing leaves a depth of flavor hard to credit to tofu. It's sliced thin for sake or to eat with rice, and because its texture recalls sea urchin, it's sometimes sold under the nickname yama-uni, 'mountain urchin.'\n## How it's made\nTofu is wrapped in cloth and weighted to press out as much water as possible, then lightly air-dried. Still in its gauze, it's buried in miso loosened with sake or mirin and left in a cool place for several months to half a year. If the pressing is half-hearted the miso turns watery and the tofu spoils, so starting with firm tofu is essential. The curing bed is usually the local barley miso or a blended miso.\n## Why it took this shape\nIn Kumamoto's deep mountain settlements, not just sea fish but even tofu was hard to come by day to day, and the miso cure is said to have arisen as a way to keep tofu made for celebrations. Handed down in Itsuki village, where fugitives of the Heike clan are said to have hidden, and in the Yabe district of Yamato town, it is thought to have been a way of guarding tofu with miso's salt and koji before refrigeration. It's a preserved food that could exist only where firm mountain tofu met the miso that each household made.",
+      "sources": [
+        {
+          "title": "豆腐の味噌漬け 熊本県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/toufuno_misozuke_kumamoto.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 熊本県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/kumamoto.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tofu-no-misozuke",
+          "to_slug": "tofu",
+          "relation_type": "派生",
+          "basis": "固く水を切った豆腐を味噌の床で熟成させた保存の型とされる"
+        },
+        {
+          "from_slug": "tofu-no-misozuke",
+          "to_slug": "tofu-no-umezuzuke",
+          "relation_type": "兄弟",
+          "basis": "どちらも豆腐を漬け床で長持ちさせる山の保存食で、熊本は味噌、高知は梅酢を使うとされる"
+        },
+        {
+          "from_slug": "tofu-no-misozuke",
+          "to_slug": "kyushu-mugi-miso",
+          "relation_type": "使用食材",
+          "basis": "漬け床には土地の麦味噌が使われることが多いとされる"
+        }
+      ]
+    }
+  ]
+}

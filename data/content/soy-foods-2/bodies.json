@@ -1,0 +1,337 @@
+{
+  "items": [
+    {
+      "slug": "aburaage",
+      "body_ja": "## 何でできているか\n大豆・水・にがりで固めた豆腐と、揚げ油でできている。ただし普通の木綿豆腐をそのまま揚げるのではなく、油揚げ用に水分を強く抜き、膨らみやすいように凝固を調えた専用の生地を使うとされる。揚がった表皮は香ばしくきつね色で、中は細かな気泡の層になっているため、だしや煮汁をよく吸うという。関西の薄揚げ、京都の大判で薄い揚げ、北陸や東北の厚手の揚げなど、同じ名で呼びながら厚みも大きさも土地で違うとされる。\n## どう作るのか\n豆腐の生地を薄く切り、まず低めの温度の油でゆっくり揚げて生地を伸ばし、次に高温の油へ移して表面を固める二度揚げが基本とされる。低温の段階で生地が数倍に膨らみ、高温で皮が張ることで中が空洞の袋状になるという。使う前に熱湯をかけて油を抜くと味が入りやすく、袋状に開けばいなり寿司の皮に、刻めば味噌汁の実や炊き込みご飯の具になる。\n## なぜこの形になったのか\n豆腐は日持ちがしないが、揚げて水分を減らすと持ちがよくなり、油の旨みも加わって精進料理の中で肉の代わりの満足感を担ったとされる。寺院や浄土真宗の報恩講の膳で揚げが多用されたことが、福井や北陸で厚手の揚げが根づいた背景と伝わる。一方で、だしを含ませる京都や大阪の麺や煮物は薄く大判の揚げを求め、土地の料理に合わせて厚みが分かれていったという。",
+      "body_en": "## What it's made of\nTofu — soybeans, water and a coagulant such as nigari (the magnesium-rich liquid left after salt is drawn from seawater) — plus frying oil. Ordinary momen tofu is not simply dropped in the fryer, though: makers are said to prepare a dedicated curd, pressed hard to drive out water and set so that it will expand. The fried skin turns golden and nutty, while the inside becomes a lattice of fine bubbles that soaks up dashi and simmering liquid. Kansai's usuage, Kyoto's large thin sheets and the thick slabs of Hokuriku and Tohoku all share the name while differing in size and thickness.\n## How it's made\nThe curd is sliced thin and fried twice. A first bath in moderately hot oil lets the slice stretch and swell to several times its size; a second bath in hotter oil sets the skin, leaving a hollow pouch. Before cooking, a pour of boiling water over the sheet draws out excess oil so seasoning can enter. Opened into a pocket it becomes the wrapper for inari sushi; cut into strips it goes into miso soup and seasoned rice.\n## Why it took this shape\nFresh tofu spoils fast, but frying drives out water, extends its life and adds the richness of oil, which is said to be why fried tofu stood in for meat on the temple table. In Fukui and across Hokuriku, the ho-onko memorial meals of Jodo Shinshu temples are said to have leaned heavily on thick fried tofu, embedding it in household cooking. In Kyoto and Osaka, by contrast, noodle broths and simmered dishes wanted a thin, wide sheet that drinks up dashi, so the thickness is said to have diverged with the dishes each place cooked.",
+      "sources": [
+        {
+          "title": "豆腐の種類と加工品",
+          "url": "https://www.zentoren.jp/",
+          "publisher": "全国豆腐連合会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "厚揚げの煮たの（福井県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/atsuage_nitano_fukui.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "aburaage",
+          "to_slug": "tofu",
+          "relation_type": "派生",
+          "basis": "豆腐の生地を薄く切って二度揚げした加工品で、豆腐から派生する"
+        },
+        {
+          "from_slug": "aburaage",
+          "to_slug": "ganmodoki",
+          "relation_type": "兄弟",
+          "basis": "ともに豆腐を揚げた加工品だが、油揚げは薄切りを膨らませ、がんもどきは崩した豆腐に野菜を混ぜて丸める"
+        },
+        {
+          "from_slug": "kitsune-udon",
+          "to_slug": "aburaage",
+          "relation_type": "使用食材",
+          "basis": "甘辛く煮含めた油揚げをうどんにのせる"
+        },
+        {
+          "from_slug": "inari-zushi",
+          "to_slug": "aburaage",
+          "relation_type": "使用食材",
+          "basis": "袋状に開いて煮た油揚げに酢飯を詰める"
+        },
+        {
+          "from_slug": "yamatona-usuage-nimono",
+          "to_slug": "aburaage",
+          "relation_type": "使用食材",
+          "basis": "薄揚げ（油揚げ）を大和まなとともに煮る"
+        }
+      ]
+    },
+    {
+      "slug": "atsuage",
+      "body_ja": "## 何でできているか\n大豆・水・凝固剤で固めた木綿豆腐を、厚みのあるまま揚げてできている。油揚げが中まで揚げ切って空洞にするのに対し、厚揚げは外側だけに揚げ皮をまとい、中は白い豆腐の層が残る。皮は香ばしく歯ごたえがあり、中はふわりとした豆腐の食感と大豆の甘みが残るとされる。中が生のままという意味で生揚げとも呼ばれ、地域や店によって三角や長方形など形も厚みもさまざまという。\n## どう作るのか\n水切りした木綿豆腐を厚く切り、高温の油で表面がきつね色になるまで揚げる。油揚げのように低温で膨らませる工程は踏まず、中まで火を通さないのが特徴とされる。使うときは熱湯をかけるか湯通しして油を抜き、だしと醤油で煮含めたり、網で焼いておろし生姜と醤油を添えたりする。福井では十文字の切り目を入れて甘辛く煮た厚揚げが日常の惣菜として親しまれていると伝わる。\n## なぜこの形になったのか\n豆腐そのものの量感を残しながら、揚げ皮で崩れにくく日持ちをよくした形と考えられている。精進料理の膳では肉に代わる主菜の役を担ったとされ、浄土真宗の報恩講の膳に厚揚げが並んだことが、福井や北陸で分厚い揚げが暮らしに根づいた一因と伝わる。煮崩れしにくく煮汁を抱えやすいという扱いやすさが、おでんや煮物の定番に押し上げたともいわれる。",
+      "body_en": "## What it's made of\nFirm momen tofu — soybeans, water and a coagulant — fried as a thick slab. Where aburaage is fried through until hollow, atsuage wears only a fried skin on the outside and keeps a layer of white tofu within. The skin is toasty and chewy; the center stays soft, with the sweetness of the bean intact. The alternate name nama-age, roughly 'raw-fried', points to that uncooked heart. Shapes run from triangles to rectangles depending on the maker and region.\n## How it's made\nPressed momen tofu is cut thick and fried in hot oil until the surface turns golden. There is no low-temperature stage to puff it as with aburaage, and the inside is deliberately left uncooked. Before use, a pour of boiling water or a quick blanch removes surface oil; it is then simmered in dashi and soy sauce, or grilled and served with grated ginger and soy sauce. In Fukui, slabs scored with a cross and simmered sweet-salty are said to be an everyday side dish.\n## Why it took this shape\nIt is thought of as a way to keep the substance of a whole block of tofu while making it sturdier and longer-lasting under a fried skin. On the temple table it is said to have played the main dish in place of meat, and its place on the ho-onko memorial meals of Jodo Shinshu temples is said to be one reason thick fried tofu became part of daily life in Fukui and Hokuriku. Because it holds together in the pot and soaks up broth, it is also said to have become a fixture of oden and simmered dishes.",
+      "sources": [
+        {
+          "title": "豆腐の種類と加工品",
+          "url": "https://www.zentoren.jp/",
+          "publisher": "全国豆腐連合会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "厚揚げの煮たの（福井県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/atsuage_nitano_fukui.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "atsuage",
+          "to_slug": "tofu",
+          "relation_type": "派生",
+          "basis": "木綿豆腐を厚切りのまま表面だけ揚げた加工品で、豆腐から派生する"
+        },
+        {
+          "from_slug": "atsuage",
+          "to_slug": "aburaage",
+          "relation_type": "兄弟",
+          "basis": "同じ豆腐の揚げ物だが、油揚げは薄切りを中まで揚げ切り、厚揚げは厚切りの表面だけを揚げる"
+        },
+        {
+          "from_slug": "atsuage-nita",
+          "to_slug": "atsuage",
+          "relation_type": "使用食材",
+          "basis": "分厚い厚揚げを甘辛く煮含める福井の惣菜"
+        }
+      ]
+    },
+    {
+      "slug": "tochio-aburaage",
+      "body_ja": "## 何でできているか\n大豆・水・にがりで固めた豆腐を、一般の油揚げの数倍ともいわれる大きさと厚みに切って揚げたものでできている。長辺が二十センチ前後、厚みが三センチほどに達する一枚もあるとされ、油揚げというより厚揚げに近い見た目ながら、中まで揚げ切ってあるため切ると全体が気泡の層になっているという。皮は香ばしく、中はだしを含みやすいふっくらした層で、大豆の甘みが残ると伝わる。\n## どう作るのか\n専用に固く仕込んだ豆腐を大きく厚く切り、まず低めの温度の油でじっくり揚げて生地を伸ばし、次に高温の油で皮を張らせる二度揚げを行うとされる。揚げ上がりを金串に刺して立て、余分な油を落とす光景が栃尾の揚げ屋の名物とされる。地元では網で焼いて刻みねぎと削り節をのせ醤油をかけるか、切り目に味噌やねぎを挟んで焼く食べ方が親しまれているという。\n## なぜこの形になったのか\n栃尾は守門岳の麓の谷あいの町で、火伏せの神として知られる秋葉神社の門前に参拝客が集まったとされる。その参拝客や馬市に集う人々に手軽な一品として供するため、一枚で満足できる大きな揚げが作られたという説が伝わる。串に刺して油を切る手法も、多くの客にまとめて揚げ上げる門前の商いから生まれたと考えられており、雪深い土地で豆腐を日持ちさせる知恵とも重なるとされる。",
+      "body_en": "## What it's made of\nTofu set with nigari, cut several times larger and thicker than a standard sheet before frying. Some pieces are said to reach about twenty centimeters on the long side and three centimeters thick. It looks more like atsuage than aburaage, but it is fried all the way through, so a cut face shows a honeycomb of bubbles from edge to edge. The skin is toasty; the interior is a soft, absorbent layer that is said to keep the sweetness of the bean.\n## How it's made\nA firm, purpose-made curd is cut large and thick, fried slowly in moderately hot oil so the piece stretches, then moved to hotter oil to set the skin. Fresh from the fryer, each sheet is speared on a metal skewer and stood upright to shed excess oil, a sight said to be the signature of Tochio's fry shops. Locals grill it on a wire rack and top it with chopped green onion, dried bonito flakes and soy sauce, or slit it and tuck miso and onion inside before grilling.\n## Why it took this shape\nTochio sits in a valley at the foot of Mount Sumon, and pilgrims are said to have gathered at the gate of Akiba Shrine, revered for protection against fire. One account holds that the big sheets were made so that a pilgrim or a visitor to the horse market could be satisfied with a single piece in hand. The skewer-draining method is also thought to have grown from the need to fry for crowds at a temple gate, and the whole practice overlaps with the snow-country habit of making tofu last.",
+      "sources": [
+        {
+          "title": "栃尾観光協会",
+          "url": "https://tochiokankou.jp/",
+          "publisher": "栃尾観光協会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "長岡市公式サイト",
+          "url": "https://www.city.nagaoka.niigata.jp/",
+          "publisher": "長岡市",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tochio-aburaage",
+          "to_slug": "aburaage",
+          "relation_type": "派生",
+          "basis": "油揚げの一型で、大判で厚く中まで揚げ切る栃尾地区の仕立て"
+        },
+        {
+          "from_slug": "tochio-aburaage",
+          "to_slug": "atsuage",
+          "relation_type": "対比",
+          "basis": "見た目は厚揚げに近い厚みだが、栃尾の揚げは中まで揚げ切って気泡の層にする"
+        }
+      ]
+    },
+    {
+      "slug": "nankan-age",
+      "body_ja": "## 何でできているか\n大豆・水・凝固剤で固めた豆腐を強く圧して水気を抜き、薄く大判に切って揚げたものでできている。一辺が二、三十センチにもなる一枚は乾いて軽く、指で割れるほどパリパリとしているという。普通の油揚げのような湿り気がなく、袋に入れて冷暗所に置けば日持ちするとされる。煮汁を吸うと一転してふっくらと柔らかくなり、噛むとじゅわりと汁があふれる食感に変わると伝わる。\n## どう作るのか\n豆腐を重石や圧搾で水分を限界まで絞ってから、低温と高温の油で二度揚げして芯まで乾かすように仕上げるとされる。使うときは熱湯で油を抜き、だし・醤油・砂糖で煮含めるか、味噌汁や煮物にそのまま割り入れる。煮るほどに揚げからも旨みが出るとして出汁あげとも呼ばれ、甘辛く煮て開いた一枚で酢飯と具を巻く巻き寿司は、南関で巻き寿司といえばこれと言われるほど親しまれているという。\n## なぜこの形になったのか\n江戸時代に四国の伊予（松山）から製法が伝わったという説が南関町に伝わる。日光の当たらない冷暗所で長く保存できる揚げは、冷蔵のない時代に大豆のたんぱく質を蓄える手段として重宝されたと考えられている。保存のために乾かすという工夫が、結果として煮汁をよく吸う独特の食感を生み、海苔の代わりに巻く発想や味噌汁の具としての定着につながったとされる。",
+      "body_en": "## What it's made of\nTofu pressed hard to drive out as much water as possible, then cut into large thin sheets and fried. A single piece can run twenty to thirty centimeters a side yet weighs almost nothing and snaps under a finger. Lacking the moist interior of ordinary aburaage, it is said to keep for weeks in a bag in a cool dark place. In simmering liquid it transforms, swelling soft and releasing a gush of broth when bitten.\n## How it's made\nThe curd is weighted or pressed to the limit, then fried twice, in cooler and hotter oil, until it is dry to the core. Before cooking, boiling water strips the surface oil; the sheet is then simmered in dashi, soy sauce and sugar, or simply broken into miso soup and stews. Because the sheet itself gives up savor the longer it cooks, locals also call it dashi-age, 'broth sheet'. Simmered sweet-salty, opened flat and wrapped around sushi rice and fillings, it makes the roll that Nankan is said to mean when it says makizushi.\n## Why it took this shape\nLocal tradition holds that the method arrived in the Edo period from Iyo, today's Matsuyama in Shikoku. A fried tofu that keeps for a long time out of sunlight is thought to have been prized as a way to store soybean protein before refrigeration. Drying for the sake of preservation happened to produce a sheet that drinks up simmering liquid, which is said to have led to the idea of using it instead of nori and to its fixed place in the miso soup pot.",
+      "sources": [
+        {
+          "title": "南関あげ巻き寿司（熊本県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nankan_ageno_maki_zushi_kumamoto.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "南関町公式サイト",
+          "url": "https://www.town.nankan.lg.jp/",
+          "publisher": "南関町",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "nankan-age",
+          "to_slug": "aburaage",
+          "relation_type": "派生",
+          "basis": "油揚げの一型で、水分を強く抜いて乾いた保存向きの仕立てにした南関町の揚げ"
+        },
+        {
+          "from_slug": "nankan-age-makizushi",
+          "to_slug": "nankan-age",
+          "relation_type": "使用食材",
+          "basis": "甘辛く煮た南関あげを海苔の代わりに巻き寿司の皮に使う"
+        }
+      ]
+    },
+    {
+      "slug": "koya-dofu",
+      "body_ja": "## 何でできているか\n大豆・水・凝固剤で固めた堅めの豆腐を、凍らせて乾かしたものでできている。凍ると豆腐の中の水が氷の結晶になり、たんぱく質の網目が押し広げられて、乾くとスポンジのような無数の穴が残るとされる。乾いた状態は軽く硬く、水で戻すと数倍に膨らみ、噛むとだしがじゅわりとあふれる独特の食感になるという。表記は高野豆腐・凍り豆腐・凍み豆腐と土地で分かれるが、同じ原理の食べものとされる。\n## どう作るのか\n切った豆腐を凍らせ、凍ったまま低温で一定期間寝かせて組織を締めてから、解凍して水気を絞り、乾燥させる。信州や東北では冬の夜の冷え込みで凍らせ、藁で編んで軒先に吊るし、寒風と日差しで乾かす凍み豆腐が農家の冬仕事だったと伝わる。現在、工場では冷凍庫と熱風乾燥で作り、戻しやすくするために膨軟剤を加えるものが多いという。使うときはぬるま湯で戻して絞り、だしと薄口醤油、みりんで含め煮にする。\n## なぜこの形になったのか\n高野山では、冬に戸外に置いた豆腐が凍ってしまったことから精進料理の保存食として工夫されたという伝承がある。信州や東北では、豆腐が凍る土地の寒さを逆手に取って冬のたんぱく源を蓄えたと考えられている。寺院や宿坊が伝えた製法と、寒冷な内陸の農家の冬仕事が重なり、乾物として街道や行商で運ばれたことで全国の煮物やお節の定番になったとされる。",
+      "body_en": "## What it's made of\nFirm tofu — soybeans, water and a coagulant — that has been frozen and dried. When the block freezes, the water inside forms ice crystals that push the protein network apart, so once dried it is left riddled with tiny pores like a sponge. Dry, it is light and hard; soaked, it swells several times over and releases a flood of broth when bitten. The names differ by region — koya-dofu, kori-dofu ('frozen tofu'), shimi-dofu — but the principle is the same.\n## How it's made\nCut tofu is frozen, held frozen at low temperature for a period so the structure tightens, then thawed, pressed and dried. In Shinshu and Tohoku, farm families are said to have let blocks freeze on winter nights, braided them into straw ropes and hung them under the eaves to dry in wind and sun, a job of the cold months. Factories today use freezers and warm-air drying, and many add a softening agent so the pieces rehydrate easily. To cook, soak in warm water, squeeze and simmer gently in dashi with light soy sauce and mirin.\n## Why it took this shape\nOn Mount Koya, a tale tells of tofu left outside in winter that froze, and of monks turning the accident into a storable food for their vegetarian table. In the cold interior of Shinshu and Tohoku, the same freezing that ruins fresh tofu is thought to have been harnessed to bank protein for the winter. Temple lodgings passed on the method, inland farmhouses made it winter work, and as a dried good it traveled along highways and with peddlers, which is said to be how it became a fixture of simmered dishes and New Year meals across the country.",
+      "sources": [
+        {
+          "title": "豆腐の種類と加工品",
+          "url": "https://www.zentoren.jp/",
+          "publisher": "全国豆腐連合会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "凍豆腐の卵とじ（福島県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/30_19_fukushima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "koya-dofu",
+          "to_slug": "tofu",
+          "relation_type": "派生",
+          "basis": "豆腐を凍らせて乾かした保存食で、豆腐から派生する"
+        },
+        {
+          "from_slug": "shimidofu-no-tamagotoji",
+          "to_slug": "koya-dofu",
+          "relation_type": "使用食材",
+          "basis": "福島の凍豆腐を戻して炒め煮にし卵でとじる"
+        },
+        {
+          "from_slug": "koyadofuko-nimono",
+          "to_slug": "koya-dofu",
+          "relation_type": "使用食材",
+          "basis": "高野豆腐を粉にしたものを野菜と煮る"
+        },
+        {
+          "from_slug": "koya-dofu",
+          "to_slug": "shimikonnyaku",
+          "relation_type": "対比",
+          "basis": "同じ凍みの技法で乾かすが、豆腐とこんにゃくという別の素材で対をなす"
+        }
+      ]
+    },
+    {
+      "slug": "yuba",
+      "body_ja": "## 何でできているか\n大豆と水だけでできている。豆腐のように凝固剤で固めるのではなく、豆乳を温めると表面に張るたんぱく質と脂質の膜をそのまますくい上げたものとされる。生湯葉はとろりと柔らかく、口に入れると大豆の甘みと香りが広がるという。乾かした干し湯葉は紙のように軽く、戻して煮ると吸い物や煮物にこくを与えるとされる。一枚ずつ引き上げる薄いものから、二つ折りにして厚みを出したものまで、引き方で食感が変わるという。\n## どう作るのか\n大豆を一晩水に浸し、磨り潰して煮て布で漉し、豆乳を作る。これを浅く広い鍋に張って焦がさない火加減で温めると、表面に膜ができるので、竹串や細い棒で端から持ち上げて引き上げる。一枚引くとまた次の膜が張り、鍋の豆乳が薄くなるまで繰り返すとされる。引き上げたままを生湯葉、巻いて棒状にしたものや平らに干したものを干し湯葉と呼び、揚げてから煮含める地域もある。\n## なぜこの形になったのか\n中国から留学僧が精進料理の素材として持ち帰ったという伝承があり、肉や魚を断つ僧の膳で大豆のたんぱく質を取る工夫として広まったとされる。京都の禅寺や日光山、身延山など修行の場の門前に湯葉屋が集まったのは、寺院の需要と、豆乳の味を左右する良い水に恵まれたことが重なったためと考えられている。生で日持ちしない膜を干して保存したことが、乾物として全国に運ばれる道を開いたという。",
+      "body_en": "## What it's made of\nNothing but soybeans and water. Where tofu is set with a coagulant, yuba is simply the film of protein and fat that forms on the surface of warm soy milk, lifted off whole. Fresh yuba is soft and almost custard-like, releasing the sweetness and aroma of the bean as it melts in the mouth. Dried yuba is as light as paper and, once rehydrated and simmered, is said to lend body to clear soups and stews. How the sheet is lifted — a single thin layer or folded double for thickness — changes the texture.\n## How it's made\nSoybeans are soaked overnight, ground, cooked and strained through cloth to make soy milk. This is poured into a shallow, wide pan and kept just below a simmer so it never scorches; as a skin forms, a bamboo skewer or thin rod lifts it from one edge. Another skin forms beneath, and the process repeats until the milk in the pan runs thin. Lifted and served as is, it is nama-yuba, fresh yuba; rolled into rods or dried flat it becomes hoshi-yuba, dried yuba, which some regions fry before simmering.\n## Why it took this shape\nTradition holds that monks studying in China brought it home as an ingredient for shojin ryori, the vegetarian cuisine of the temples, and that it spread as a way for those who ate no meat or fish to take in soybean protein. Yuba makers are thought to have clustered at the gates of Kyoto's Zen temples, Mount Nikko and Mount Minobu because temple demand coincided with good water, which decides the taste of the soy milk. Drying a skin that would not keep fresh opened the way for yuba to travel the country as a dried good.",
+      "sources": [
+        {
+          "title": "生湯葉（山梨県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/nama_yuba_yama_nashi.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "揚げまき湯波の煮物（栃木県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_16_tochigi.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "yuba",
+          "to_slug": "tofu",
+          "relation_type": "兄弟",
+          "basis": "同じ豆乳から作るが、豆腐は凝固剤で固め、湯葉は加熱した表面の膜を引き上げる"
+        },
+        {
+          "from_slug": "nama-yuba",
+          "to_slug": "yuba",
+          "relation_type": "使用食材",
+          "basis": "身延町の生湯葉は引き上げたままの湯葉をわさび醤油で食べる"
+        }
+      ]
+    },
+    {
+      "slug": "nikko-yuba",
+      "body_ja": "## 何でできているか\n大豆と水から作った豆乳の膜でできている。日光の湯波は、鍋の表面に張った膜を中央で二つに折り重ねるように引き上げる二枚引きとされ、一枚引きの京都の湯葉より厚く、噛みごたえと大豆の濃い味が残るという。生湯波のほか、巻いて乾かした巻き湯波、それを輪切りにして揚げた揚げ巻き湯波、平らに干した干し湯波があり、乾いたものは煮含めるとだしを含んで膨らむとされる。\n## どう作るのか\n豆乳を浅い鍋に張って静かに温め、表面の膜を竹の棒で引き上げる。二枚引きでは膜を折り畳んで重ねるため、厚みのある一枚になるという。生のまま出すものは引き上げてすぐ冷やし、巻き湯波は何枚もの膜を棒状に巻いて乾かす。揚げ巻き湯波は乾いた巻き湯波を輪切りにして油で揚げたもので、家庭ではだしと醤油・みりん・砂糖で時間をかけて煮含め、ほうれん草などの青みを添えて食べると伝わる。\n## なぜこの形になったのか\n日光山の修行僧の精進料理として伝わり、日光東照宮の例大祭の供え膳に使われるなど、社寺の暮らしとともに根づいたとされる。参拝客に供する門前の食として広まり、肉や魚を使わずに満足感を出すために厚みのある二枚引きが好まれたという説が伝わる。山間で冬が長い土地では乾かして保存する知恵が欠かせず、巻いて干す、揚げて日持ちさせるといった形が家庭の煮物の定番につながったと考えられている。",
+      "body_en": "## What it's made of\nThe skin of soy milk made from beans and water. In Nikko the skin is raised by folding it in half over itself as it comes off the pan, a method called nimai-biki, 'double lift', which leaves the sheet thicker than Kyoto's single-lift yuba, with more chew and a deeper bean flavor. Besides fresh yuba, there is maki-yuba, sheets rolled into rods and dried; agemaki-yuba, those rods sliced into rounds and fried; and flat dried sheets, all of which swell with dashi when simmered.\n## How it's made\nSoy milk is poured into a shallow pan and warmed gently; a bamboo rod lifts the skin from the surface. In the double-lift method the skin is folded as it rises, so a single piece has real body. Fresh yuba is chilled right after lifting; for maki-yuba, many skins are wound around a rod and dried. Agemaki-yuba is dried maki-yuba cut into rounds and deep-fried, and at home it is simmered slowly in dashi with soy sauce, mirin and sugar, then served with a green such as spinach.\n## Why it took this shape\nYuba is said to have reached Nikko as food for the monks of Mount Nikko, and to have become part of shrine and temple life, appearing on the offering trays of the Toshogu Shrine's grand festival. One account holds that the thicker double-lifted sheet was favored because it gives a meatless meal substance. In a mountain town with long winters, drying for storage was indispensable, and rolling, drying and frying are thought to be how yuba settled into the everyday simmered dishes of local homes.",
+      "sources": [
+        {
+          "title": "揚げまき湯波の煮物（栃木県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_16_tochigi.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "日光市公式サイト",
+          "url": "https://www.city.nikko.lg.jp/",
+          "publisher": "日光市",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "nikko-yuba",
+          "to_slug": "yuba",
+          "relation_type": "派生",
+          "basis": "湯葉の一型で、二つ折りに引き上げて厚みを出す日光の仕立て"
+        },
+        {
+          "from_slug": "agemaki-yuba-no-nimono",
+          "to_slug": "nikko-yuba",
+          "relation_type": "使用食材",
+          "basis": "日光の巻き湯波を揚げた揚げまき湯波を煮含める"
+        }
+      ]
+    },
+    {
+      "slug": "kyo-yuba",
+      "body_ja": "## 何でできているか\n大豆と水から作った豆乳の膜でできている。京都の湯葉は膜を一枚ずつ薄く引く一枚引きが基本とされ、薄く均一で、口に入れるとなめらかに溶けるような舌ざわりになるという。膜が固まりきる前の豆乳ごとすくう汲み上げ湯葉はとろりとして、豆乳に近い甘みが残るとされる。乾かした干し湯葉は平らなもの、細く巻いたものがあり、戻して炊くと京料理の煮物や吸い物に大豆のこくを添えるという。\n## どう作るのか\n大豆を浸して磨り、煮て漉した豆乳を浅く広い鍋に張り、沸かさない火加減で温める。表面に張った膜を竹の棒で一枚ずつ丁寧に引き上げ、生湯葉はそのまま、干し湯葉は竹に掛けて乾かす。汲み上げ湯葉は膜になりきらない豆乳の表層を器にすくい取るとされる。良い湯葉には豆乳の味を損なわない軟水が要るとされ、京都の井戸水や地下水が仕事を支えてきたと伝わる。\n## なぜこの形になったのか\n中国から留学僧が持ち帰ったという伝承があり、京都では禅寺の精進料理の素材として受け継がれてきたとされる。肉や魚を断つ膳で大豆のたんぱく質を取る工夫として、薄く上品に仕立てた湯葉が寺の献立に組み込まれ、門前や寺町に湯葉屋が集まったという。茶の湯や宴席の料理と結びついて懐石や精進料理の一品に磨かれていったことが、薄く繊細な一枚引きという京都の型を形づくったと考えられている。",
+      "body_en": "## What it's made of\nThe skin of soy milk made from beans and water. Kyoto's yuba is lifted one thin layer at a time, ichimai-biki, giving a sheet that is even and fine and melts smoothly on the tongue. Kumiage-yuba, scooped from the pan together with some of the milk before the skin fully sets, is spoonable and keeps a sweetness close to soy milk itself. Dried yuba comes flat or in slender rolls; rehydrated and simmered, it brings the richness of the bean to Kyoto's simmered dishes and clear soups.\n## How it's made\nBeans are soaked, ground, cooked and strained into soy milk, which is poured into a shallow, wide pan and kept below a boil. The skin that forms is lifted with a bamboo rod one careful sheet at a time; fresh yuba is served as is, dried yuba is hung on bamboo to dry. For kumiage-yuba the barely-set surface is ladled into a bowl with the milk beneath it. Good yuba is said to require soft water that does not dull the milk's flavor, and Kyoto's wells and groundwater are said to have sustained the craft.\n## Why it took this shape\nTradition says monks returning from China brought yuba, and in Kyoto it was handed down as an ingredient of the Zen temples' vegetarian cuisine. As a way to take in soybean protein on a table without meat or fish, a thin, refined yuba is said to have entered the temple repertoire, and yuba workshops gathered at temple gates and in the temple districts. Its ties to tea ceremony and banquet cooking, where it was polished into a dish of kaiseki and shojin ryori, are thought to have shaped Kyoto's signature: a single delicate sheet.",
+      "sources": [
+        {
+          "title": "京都市観光協会",
+          "url": "https://ja.kyoto.travel/",
+          "publisher": "京都市観光協会",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "京豆腐（農林水産省 伝統食品）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/traditional-foods/menu/kyo_dohu.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kyo-yuba",
+          "to_slug": "yuba",
+          "relation_type": "派生",
+          "basis": "湯葉の一型で、一枚ずつ薄く引き上げる京都の仕立て"
+        },
+        {
+          "from_slug": "kyo-yuba",
+          "to_slug": "nikko-yuba",
+          "relation_type": "対比",
+          "basis": "京都は一枚引きで薄く、日光は二枚引きで厚い。同じ湯葉の東西の型として対をなす"
+        }
+      ]
+    },
+    {
+      "slug": "hoshi-yuba",
+      "body_ja": "## 何でできているか\n大豆と水から作った豆乳の膜を乾かしたものでできている。水分が抜けて紙のように軽く、乾いたままでは割れやすいが、戻すとしなやかさが戻り、生湯葉より歯ごたえのある食感になるという。だしを含ませると大豆のこくと油分がにじみ出て、吸い物や煮物に深みを加えるとされる。平湯葉、巻き湯葉、結び湯葉、京都の小巻や日光の揚げ巻きなど、形は産地と用途で分かれる。\n## どう作るのか\n引き上げた膜を竹や紐に掛けて風を通し、形を整えながら乾かす。平らに干せば平湯葉、何枚も棒状に巻いてから干せば巻き湯波になり、乾いた巻きを切って油で揚げる地域もある。使うときはぬるま湯に数分浸して戻し、水気を切ってから、だしと薄口醤油、みりんで静かに煮含める。戻しすぎると崩れるとされ、吸い物には戻した平湯葉を結んだり、煮物には巻きを輪切りにして使うという。\n## なぜこの形になったのか\n生湯葉はその日のうちに味が落ちる食べものとされ、寺院の台所で膜を干して蓄えたことが始まりと伝わる。干せば軽く嵩も減り、精進料理の出汁の素材として法要や行事の膳に使え、乾物として街道や行商で遠くまで運べたことが、京都や日光の門前から各地へ広まる道になったと考えられている。戻して煮含めるという使い方が、吸い物や煮物の一品として京料理や郷土料理に残ったとされる。",
+      "body_en": "## What it's made of\nThe skin of soy milk, dried. With the water gone it is as light as paper and snaps easily, but soaking restores its suppleness and leaves it chewier than fresh yuba. Once it takes on dashi, the richness and oil of the bean seep out, lending depth to clear soups and stews. The forms vary by place and purpose: flat hira-yuba, rolled maki-yuba, little tied knots, Kyoto's slender komaki rolls and Nikko's fried agemaki.\n## How it's made\nFreshly lifted skins are hung on bamboo or string where air can pass, shaped as they dry. Dried flat they become hira-yuba; wound in layers around a rod and then dried they become maki-yuba, which some regions slice and deep-fry. To use, soak a few minutes in warm water, drain and simmer gently in dashi with light soy sauce and mirin. Oversoaking is said to make it fall apart, so for soups a softened flat sheet is tied into a knot, and for stews a roll is cut into rounds.\n## Why it took this shape\nFresh yuba is said to lose its flavor within the day, and drying the skins to keep them is said to have begun in temple kitchens. Dried, it was light and compact, served as a dashi ingredient for memorial services and festival meals, and could travel far along highways and with peddlers, which is thought to be how it spread from the temple gates of Kyoto and Nikko to the rest of the country. Rehydrating and simmering it is the use that remains in Kyoto cooking and regional dishes today.",
+      "sources": [
+        {
+          "title": "揚げまき湯波の煮物（栃木県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/31_16_tochigi.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "豆腐の種類と加工品",
+          "url": "https://www.zentoren.jp/",
+          "publisher": "全国豆腐連合会",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "hoshi-yuba",
+          "to_slug": "yuba",
+          "relation_type": "派生",
+          "basis": "引き上げた湯葉を乾かして保存できるようにした加工品で、湯葉から派生する"
+        },
+        {
+          "from_slug": "hoshi-yuba",
+          "to_slug": "nama-yuba",
+          "relation_type": "対比",
+          "basis": "同じ湯葉だが、生のまま食べる身延の生湯葉と、乾かして戻して煮る干し湯葉で対をなす"
+        }
+      ]
+    }
+  ]
+}
