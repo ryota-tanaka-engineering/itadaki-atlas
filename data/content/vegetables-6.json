@@ -1,0 +1,513 @@
+{
+ "genres": [],
+ "items": [
+  {
+   "slug": "yamato-mana",
+   "name_ja": "大和まな",
+   "name_romaji": "Yamato-mana",
+   "name_en": "Yamato-mana — Nara's soft heirloom winter greens that sweeten after frost",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "奈良県",
+   "origin_city": "奈良市",
+   "lat": 34.6851,
+   "lng": 135.8049,
+   "primary_style": "",
+   "summary_ja": "奈良盆地で古くから作られてきたとされるアブラナ科の菜。葉はやや丸く茎はしなやかで、霜にあたる冬に甘みが増すといわれ、薄揚げと炊く煮ものや雑煮の青みとして使われてきたという。",
+   "summary_en": "A brassica green said to have been grown in the Nara basin since early times. Its rounded leaves and pliant stems are said to turn sweeter after winter frost, and it has long been simmered with fried tofu or used as the green in New Year soup.",
+   "body_ja": "## 何でできているか\nアブラナ科ツケナ類の葉もので、丸みを帯びた濃い緑の葉と、細く柔らかな葉柄をもつ。小松菜に似た姿だが、葉の縁がゆるく波打ち、茎がしなやかで折れにくいとされる。生のままかじるとかすかな辛みと青い香りがあり、火を通すと甘みが前に出て、口の中でほどけるように柔らかくなるという。霜にあたった冬のものほど糖が増して甘いといわれ、奈良ではこの季節の大和まなを薄揚げと炊いて食べるのが定番とされる。\n## どう作るのか\n奈良盆地の畑で、秋に種をまき、冬から早春にかけて収穫するのが本来の作型とされる。在来の菜であるため、農家が自家採種で種をつないできたと伝わり、株ごとに葉の形が少しずつ違うという。霜にあてて甘みを引き出すため、収穫を急がず寒さを待つ畑もあるとされる。台所では根元の土をよく洗い、さっと湯がいて水に取り、ざく切りにして油揚げとだしで炊き合わせるか、おひたしや雑煮の青みにするという。改良された品種もあり、現在は春や夏にも出回るとされる。\n## なぜこの形になったのか\n一説に「古事記」に記される菘（すずな）の系譜につながるツケナの一種とされ、奈良盆地では長く冬の青菜として作り続けられてきたと伝わる。盆地は冬の冷え込みが強く、霜にあたって甘くなるこの菜は、寒さを味方にできる作物だったとみられる。寺社の多い土地柄から精進の献立に葉ものが欠かせず、油揚げと炊く食べ方が家庭にも根づいたという説もある。奈良県は古くからの品目を「大和野菜」として挙げており、大和まなはその一つとして名前が残っている。",
+   "body_en": "## What it's made of\nA leafy green of the tsukena group of brassicas, with rounded, deep-green leaves on thin, supple stalks. It looks something like komatsuna, but the leaf edges ripple gently and the stems bend rather than snap. Raw, it carries a faint bite and a grassy scent; cooked, the sweetness comes forward and the leaves soften until they almost melt. Plants that have stood through frost are said to be the sweetest, and in Nara the winter crop is classically simmered with usuage — thin fried tofu.\n## How it's made\nIn the fields of the Nara basin it is traditionally sown in autumn and harvested from winter into early spring. As a landrace, it has been kept going by farmers saving their own seed, so leaf shape is said to vary a little from plant to plant. Some growers hold off harvest to let the cold deepen the sweetness. In the kitchen the roots are washed free of soil, the leaves blanched briefly and cooled in water, then cut and simmered in dashi with fried tofu, or served as ohitashi or as the green in zoni, the New Year soup. Improved strains now also appear in spring and summer.\n## Why it took this shape\nOne account links it to the suzuna — turnip greens — mentioned in the Kojiki chronicle, and it is said to have been grown as the basin's winter green for a very long time. Nara's winters are sharply cold, and a leaf that turns sweet after frost would have made an ally of that cold. Another view holds that the many temples around Nara kept leafy greens central to vegetarian cooking, and the habit of simmering them with fried tofu spread to home kitchens. Nara Prefecture lists its older crops as \"Yamato vegetables\", and Yamato-mana is one of the names that survives there.",
+   "sources": [
+    {
+     "title": "うちの郷土料理 奈良県の郷土料理一覧",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "奈良県公式サイト",
+     "url": "https://www.pref.nara.jp/",
+     "publisher": "奈良県",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "yamatona-usuage-nimono",
+     "to_slug": "yamato-mana",
+     "relation_type": "使用食材",
+     "basis": "大和まなと薄揚げの煮ものは、大和まなを薄揚げと炊き合わせる奈良の家庭料理とされる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "yamato-maru-nasu",
+   "name_ja": "大和丸なす",
+   "name_romaji": "Yamato maru-nasu",
+   "name_en": "Yamato maru-nasu — Nara's glossy round eggplant that holds its shape when cooked",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "奈良県",
+   "origin_city": "大和郡山市",
+   "lat": 34.6495,
+   "lng": 135.7828,
+   "primary_style": "",
+   "summary_ja": "奈良県大和郡山市や斑鳩町の周辺で作られてきたとされる丸なす。黒紫の皮に光沢があり、ヘタに鋭いとげをもつ。肉質が締まって煮崩れしにくいとされ、田楽や煮物に向くという。",
+   "summary_en": "A round eggplant said to have been grown around Yamatokoriyama and Ikaruga in Nara. Its glossy black-purple skin sits under a calyx with sharp spines, and the dense flesh is said to hold together in cooking, suiting it to miso-glazed dengaku and simmered dishes.",
+   "body_ja": "## 何でできているか\n手のひらに収まる球形のなすで、果皮は深い黒紫色に艶があり、ヘタには鋭いとげが立つ。切ると白い果肉が詰まって密度が高く、水分の多い長なすに比べて手に重みを感じるという。加熱しても形がくずれにくく、田楽にすると表面は香ばしく、中はねっとりと甘く仕上がるとされる。油との相性がよく、揚げ出しや煮物にしても煮汁を含みながら身がほどけない点が持ち味といわれる。\n## どう作るのか\n春に苗を植え、初夏から秋にかけて収穫するのが一般的とされる。実が重いため枝が折れないよう支柱で支え、肥料と水を切らさずに育てるという。ヘタのとげが鋭いので収穫は手袋をして一つずつはさみで切り取るとされ、果皮の艶が落ちないうちに出荷するのがよいとされる。在来種として農家が種を採り継いできたと伝わり、現在は大和郡山市や斑鳩町、奈良市の一部で栽培が続いているという。台所では縦に切って田楽や揚げ物にするか、丸ごと煮含める。\n## なぜこの形になったのか\n大和郡山市周辺で古くから作られてきたと伝わるが、いつ頃からかははっきりしない。奈良盆地の夏は蒸し暑く、水田のあいだの畑でなすがよく育つ環境にあったとみられる。丸く締まった実は煮物や田楽で形を保ちやすく、盆や祭りの膳に向いたという説がある。長なすが市場の主流になるにつれ数は減ったとされるが、奈良県が「大和野菜」として挙げたことで産地が保たれていると伝わる。同じ近畿の丸なすとして、和歌山の湯浅なすや京都の賀茂なすと姿が重なる。",
+   "body_en": "## What it's made of\nA ball-shaped eggplant that fits in the palm, with deep black-purple skin that shines and a calyx bristling with sharp spines. Cut open, the white flesh is packed tight, and the fruit feels heavier in the hand than a watery long eggplant. It keeps its shape under heat: as dengaku — grilled and glazed with miso — the surface chars fragrant while the inside turns sticky and sweet. It takes well to oil, and even deep-fried in broth or simmered it soaks up the liquid without falling apart.\n## How it's made\nSeedlings go into the ground in spring and the fruit is picked from early summer into autumn. Because each fruit is heavy, the branches are staked so they do not break, and water and feed are kept steady. The spines on the calyx are sharp enough that harvest is done with gloves, cutting each fruit off with scissors, and growers prefer to ship it while the skin still shines. As a landrace it has been kept by farmers saving seed, and cultivation is said to continue in parts of Yamatokoriyama, Ikaruga and Nara city. In the kitchen it is halved for dengaku or frying, or simmered whole until tender.\n## Why it took this shape\nIt is said to have been grown around Yamatokoriyama since early times, though just when is unclear. Summers in the Nara basin are hot and humid, and the vegetable plots between the paddies seem to have suited eggplant well. One view holds that a round, firm fruit that keeps its shape in simmering and dengaku was well matched to the dishes of Obon and festivals. Numbers are said to have fallen as long eggplants took over the market, but the prefecture's listing of it as a \"Yamato vegetable\" is credited with keeping the growing area alive. Among the round eggplants of the Kinki region, it echoes the Yuasa nasu of Wakayama and the Kamo nasu of Kyoto.",
+   "sources": [
+    {
+     "title": "うちの郷土料理 奈良県の郷土料理一覧",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/nara.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "奈良県公式サイト",
+     "url": "https://www.pref.nara.jp/",
+     "publisher": "奈良県",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "yuasa-nasu",
+     "relation_type": "兄弟",
+     "basis": "大和丸なすと湯浅なすは、いずれも近畿の在来の大型丸なすとされ、田楽や煮物に向く肉質が共通する"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "yuasa-nasu",
+   "name_ja": "湯浅なす",
+   "name_romaji": "Yuasa nasu",
+   "name_en": "Yuasa nasu — Wakayama's oversized, thin-skinned round eggplant revived from saved seed",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "和歌山県",
+   "origin_city": "湯浅町",
+   "lat": 34.0313,
+   "lng": 135.1762,
+   "primary_style": "",
+   "summary_ja": "和歌山県湯浅町に伝わる大ぶりの丸なす。皮が薄く果肉が柔らかく、火を通すととろけるように仕上がるという。金山寺味噌の具として作られていたと伝わり、一度は姿を消しかけたものが農家の種から復活したとされる。",
+   "summary_en": "A large round eggplant handed down in Yuasa, Wakayama. Thin-skinned and soft-fleshed, it is said to melt when cooked. Tradition holds it was grown as a filling for kinzanji miso, and after nearly vanishing it was revived from seed kept by local farmers.",
+   "body_ja": "## 何でできているか\n一つが大人のこぶしより大きく育つ丸なすで、大きいものは500グラムを超えるという。果皮は紫黒色で薄く、果肉はきめが細かく柔らかいとされる。焼いたり煮たりすると身がとろりと崩れ、甘みと水気が口に広がるのが持ち味といわれる。皮が薄いぶん日持ちはしにくいとされ、産地のそばで食べる野菜という性格が強い。田楽や焼きなす、煮浸しのほか、味噌に漬け込む具材としても使われてきたと伝わる。\n## どう作るのか\n早春に種をまいて苗を育て、春の終わりに畑へ植え、夏から秋にかけて収穫するのが一般的とされる。実が大きく重いため、枝を支柱で支え、水を切らさないよう管理するという。在来種のため、農家が実を熟させて種を採り、翌年につないできたと伝わる。市場向けの長なすに押されて栽培が途絶えかけたが、自家採種を続けていた家の種をもとに湯浅町で栽培が復活したとされる。台所では厚く切って焼くか、丸ごと煮含めると持ち味が出るという。\n## なぜこの形になったのか\n湯浅町は醤油や金山寺味噌の醸造で知られた町で、味噌に漬け込むなすやうりを身近な畑で作る必要があったとみられる。湯浅湾に面した温暖な気候と、山田川沿いの畑が大きななすを育てたという説がある。皮が薄く柔らかい性質は、遠くへ運ぶ市場向きではなく、町の中で食べ切る野菜として残った結果ともいわれる。大型の丸なすという姿は、奈良の大和丸なすや京都の賀茂なすと同じ近畿の系譜に連なるとされるが、互いの由来関係ははっきりしない。",
+   "body_en": "## What it's made of\nA round eggplant that grows larger than an adult's fist, with the biggest fruits said to pass 500 grams. The purple-black skin is thin and the flesh fine-grained and soft. Grilled or simmered, the flesh collapses into something almost creamy, releasing sweetness and juice. The thin skin means it does not keep well, so it has the character of a vegetable eaten close to where it grows. It has been used for dengaku (miso-glazed grilling), yakinasu (whole-grilled eggplant), simmered dishes, and, tradition says, as a vegetable to bury in miso.\n## How it's made\nSeed is sown in early spring, the seedlings planted out in late spring, and the fruit harvested from summer into autumn. Because the fruit is large and heavy, the branches are staked and the plants kept well watered. As a landrace, farmers have let fruit ripen fully to save seed for the following year. Cultivation nearly died out under pressure from the long eggplants the markets wanted, but it is said to have been revived in Yuasa from seed that one household had kept saving. In the kitchen it shows best cut thick and grilled, or simmered whole until it yields.\n## Why it took this shape\nYuasa is a town known for brewing soy sauce and kinzanji miso — a chunky miso with vegetables fermented into it — and it seems the eggplants and gourds for that miso needed to be grown close at hand. One view credits the mild climate on Yuasa Bay and the fields along the Yamada River with producing such large fruit. Its thin, soft skin is also said to be why it stayed a town vegetable eaten locally rather than a market crop shipped far. Its shape places it in the same Kinki family of big round eggplants as Nara's Yamato maru-nasu and Kyoto's Kamo nasu, though how the three relate is not clear.",
+   "sources": [
+    {
+     "title": "うちの郷土料理 和歌山県の郷土料理一覧",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/wakayama.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "和歌山県公式サイト",
+     "url": "https://www.pref.wakayama.lg.jp/",
+     "publisher": "和歌山県",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kishu-usui",
+     "relation_type": "対比",
+     "basis": "同じ和歌山でも、湯浅湾沿いの夏の丸なすと紀の川流域で春に穫る豆とでは、季節と土地が対になる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "kishu-usui",
+   "name_ja": "紀州うすい",
+   "name_romaji": "Kishu usui",
+   "name_en": "Kishu usui — Wakayama's plump spring shelling peas for mame-gohan",
+   "type": "ingredient",
+   "shelf": "tubers",
+   "genre": null,
+   "origin_pref": "和歌山県",
+   "origin_city": "紀の川市",
+   "lat": 34.2653,
+   "lng": 135.3694,
+   "primary_style": "",
+   "summary_ja": "和歌山県北部で広く作られる実えんどう。さやから出した豆は大粒でほくほくし、青臭さが少ないとされる。春に出回り、塩だけで炊く豆ご飯の豆として親しまれてきたという。",
+   "summary_en": "Shelling peas grown widely across northern Wakayama. The peas are plump and floury with little grassiness, and in spring they are the pea of choice for mame-gohan, rice cooked with peas and nothing but salt.",
+   "body_ja": "## 何でできているか\nさやをむいて中の豆を食べる実えんどうで、豆は淡い緑色の大粒、ゆでるとほくほくとした食感と穏やかな甘みがあるとされる。グリーンピースに比べて青臭さが少なく、皮が口に残りにくいといわれる。さやは薄く、収穫したての豆は米と炊くだけで香りが立つという。和歌山では春先の豆ご飯に欠かせない豆とされ、「紀州うすい」の名で出荷される。えんどうの品種「うすいえんどう」の和歌山産を指す呼び名とされる。\n## どう作るのか\n秋に種をまき、冬を畑で越して春に収穫する作型が基本とされる。寒さに強い一方で湿気を嫌うため、水はけのよい畑に支柱やネットを立て、つるをはわせて育てるという。さやがふくらみ、豆の形が外から分かる頃に収穫し、むきたてを出荷するのがよいとされる。ハウス栽培では冬から出回り、露地ものは4月から5月が盛りという。家庭ではむいた豆を米に加えて塩だけで炊き、豆の色が残るうちに食べる豆ご飯にするのが定番とされる。\n## なぜこの形になったのか\nうすいえんどうの名は、一説に大阪の碓井地区で栽培されていた豆に由来するとされ、それが隣接する和歌山の紀の川流域に広まったと伝わる。紀北は冬の日照が多く温暖で、豆を畑で越冬させて春に早く出せる土地だったとみられる。大阪の市場に近かったことも産地が育った理由の一つという説がある。和歌山県は全国の生産量の大半を占めるとされ、米が乏しくなる春先に豆でかさを増した豆ご飯の習慣が、産地としての姿を支えてきたと伝わる。",
+   "body_en": "## What it's made of\nA shelling pea, eaten for the seeds inside the pod. The peas are large and pale green, and when boiled they turn floury with a gentle sweetness. Compared with ordinary green peas they carry less grassy smell, and the skins are said not to linger in the mouth. The pods are thin, and freshly shelled peas need only be cooked with rice for the aroma to rise. In Wakayama they are the pea of early-spring mame-gohan, and they ship under the name Kishu usui — Kishu being the old name for the province. The name denotes Wakayama-grown usui endo, a pea variety.\n## How it's made\nThe basic pattern is to sow in autumn, overwinter the plants in the field and harvest in spring. The plants tolerate cold but dislike damp, so they are grown on stakes or netting in well-drained fields. Pods are picked once they have swelled enough that the peas show through, and they are shipped freshly shelled. Greenhouse crops appear from winter, and open-field peas peak in April and May. At home the shelled peas go into the rice pot with salt alone, and the dish is eaten while the peas are still green.\n## Why it took this shape\nOne account traces the name usui to a pea once grown in the Usui district of Osaka, which is said to have spread into the neighbouring Kinokawa valley of Wakayama. Northern Wakayama is mild with plenty of winter sun, a place where peas could overwinter in the field and come to market early in spring. Being close to the Osaka market is also given as a reason the growing area took hold. Wakayama is said to account for most of Japan's crop, and the old habit of stretching scarce rice with peas in early spring is said to have underpinned its place as a pea-growing region.",
+   "sources": [
+    {
+     "title": "うちの郷土料理 和歌山県の郷土料理一覧",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/wakayama.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "和歌山県公式サイト",
+     "url": "https://www.pref.wakayama.lg.jp/",
+     "publisher": "和歌山県",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "mame-gohan",
+     "to_slug": "kishu-usui",
+     "relation_type": "使用食材",
+     "basis": "和歌山の豆ご飯は収穫期のうすいえんどうを炊き込むとされ、紀州うすいはその和歌山産の呼び名とされる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "tottori-sakyu-rakkyo",
+   "name_ja": "鳥取砂丘らっきょう",
+   "name_romaji": "Tottori sakyu rakkyo",
+   "name_en": "Tottori sakyu rakkyo — crisp white rakkyo bulbs from the sand-dune fields of Tottori",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "鳥取県",
+   "origin_city": "鳥取市",
+   "lat": 35.539,
+   "lng": 134.272,
+   "primary_style": "",
+   "summary_ja": "鳥取砂丘に続く福部町の砂地で作られるらっきょう。色が白く身が締まり、歯ざわりが際立つとされる。参勤交代の際に持ち帰られたのが始まりと伝わり、地理的表示（GI）保護制度に登録されている。",
+   "summary_en": "Rakkyo — a small pickling allium — grown in the sandy fields of Fukube beside the Tottori dunes. The bulbs are white, tight and markedly crunchy. Tradition says the crop began with bulbs brought back from Edo on a daimyo's journey, and it is now registered under Japan's Geographical Indication scheme.",
+   "body_ja": "## 何でできているか\nらっきょうの鱗茎で、砂地で育つため肌が白く、ひと粒が締まって小ぶりに揃うとされる。生で噛むと強い辛みと香りがあり、甘酢に漬けると辛みが抜けて、シャキシャキとした歯ざわりだけが残るという。水分が少なく繊維が密なため、漬けても食感が長く保たれるのが持ち味とされる。鳥取では甘酢漬けのほか、塩漬けや醤油漬け、刻んで薬味にする食べ方もあるという。\n## どう作るのか\n夏の終わりに種球を砂地に植え付け、秋に紫の花を咲かせたのち、翌年の初夏に掘り上げるのが基本とされる。砂丘の砂は養分が少なく乾きやすいため、スプリンクラーで水をまきながら育てるという。収穫後は根と茎を一つずつ切り落とす「根切り」の作業があり、産地では家族総出の手仕事として続いてきたと伝わる。砂を洗い落として塩漬けにし、甘酢に漬け替えて数週間おくと、らっきょう漬けになるという。\n## なぜこの形になったのか\n一説に、江戸時代の参勤交代の折に江戸から持ち帰った種球を砂地に植えたのが始まりと伝わる。鳥取砂丘の周辺は砂が深く、ほかの作物が育ちにくい土地だったが、らっきょうは乾きと貧しい土に強く、砂の中で締まった球をつけたとみられる。大正期以降、砂丘地の開拓とともに栽培が広がったという。砂で育つゆえの白さと硬さが、漬物にして遠くへ運ぶ産品に向いたとされ、「鳥取砂丘らっきょう」の名で地理的表示保護制度に登録されている。",
+   "body_en": "## What it's made of\nThe bulb of rakkyo, a small allium related to the shallot. Grown in sand, the skin comes out white and the bulbs small, tight and even. Raw, it bites with a sharp pungency and smell; pickled in sweetened vinegar the heat falls away and what remains is a clean, loud crunch. With little water and dense fibre, the bulbs are said to hold that crunch long after pickling. In Tottori they are eaten in sweet vinegar, but also salt-pickled, soy-pickled, or chopped as a condiment.\n## How it's made\nSeed bulbs are set into the sand at the end of summer, flower purple in autumn, and are dug the following early summer. Dune sand is poor and dries quickly, so the fields are irrigated by sprinkler. After harvest comes nekiri, trimming the root and stem of every bulb by hand, work the growing families have long done together. The bulbs are washed free of sand, salted, then moved into sweet vinegar for a few weeks to become rakkyo-zuke, the finished pickle.\n## Why it took this shape\nOne account holds that it began when seed bulbs brought back from Edo on the domain lord's alternate-attendance journey were planted in the sand. The land around the Tottori dunes is deep sand where little else would grow, but rakkyo tolerates drought and lean soil, and in sand it set firm, compact bulbs. From the Taisho era, as the dune land was opened up, the crop is said to have spread. The whiteness and firmness that come from sand suited a product pickled and shipped far away, and the name Tottori sakyu rakkyo is registered under the Geographical Indication scheme.",
+   "sources": [
+    {
+     "title": "地理的表示（GI）保護制度 登録産品一覧",
+     "url": "https://www.maff.go.jp/j/shokusan/gi_act/register/",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 鳥取県の郷土料理一覧",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/tottori.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "rakkyou-zuke",
+     "to_slug": "tottori-sakyu-rakkyo",
+     "relation_type": "使用食材",
+     "basis": "らっきょう漬けは鳥取砂丘周辺のらっきょうを塩漬けのうえ甘酢に漬ける名産とされる"
+    }
+   ],
+   "tags": [
+    "spicy"
+   ]
+  },
+  {
+   "slug": "tottori-sakyu-nagaimo",
+   "name_ja": "砂丘ながいも",
+   "name_romaji": "Sakyu nagaimo",
+   "name_en": "Sakyu nagaimo — straight, white, sticky yam dug from Tottori's coastal sand",
+   "type": "ingredient",
+   "shelf": "tubers",
+   "genre": null,
+   "origin_pref": "鳥取県",
+   "origin_city": "北栄町",
+   "lat": 35.494,
+   "lng": 133.764,
+   "primary_style": "",
+   "summary_ja": "鳥取県の北条砂丘など日本海沿いの砂地で作られるながいも。砂の中で真っすぐに伸び、肌が白く粘りが強いとされる。砂地ゆえに掘り上げやすく、傷の少ない芋になるという。",
+   "summary_en": "Nagaimo — a long Chinese yam — grown in the sandy soils along Tottori's Sea of Japan coast, such as the Hojo dunes. It grows straight in the sand, with a white skin and a strong, sticky grate, and the sand lets it be dug with few scars.",
+   "body_ja": "## 何でできているか\n細長い円筒形のながいもで、砂地で育つため表面が白くなめらかで、曲がりや傷が少ないとされる。すりおろすと粘りが強く、箸で持ち上がるほどになるという。味は淡く、ほのかな甘みと土の香りがあり、生のまま千切りや短冊にすると、シャキシャキとした歯ざわりが楽しめるとされる。火を通すとほくほくと変わり、麦とろや磯辺揚げ、お好み焼きのつなぎにも使われるという。県が育成した短く太い品種も出回っているとされる。\n## どう作るのか\n春に種芋を植え、夏につるを支柱に伸ばし、晩秋から初冬に掘り上げるのが基本とされる。芋は地中に1メートル近く伸びるため、粘土質の畑では掘るのに手間がかかるが、砂地なら深く掘り返しても芋が折れにくいという。砂は水はけがよく乾きやすいので、スプリンクラーで水を補いながら育てるとされる。収穫した芋は砂を落とし、傷をつけないよう箱に並べて出荷するという。家庭では皮をむいてすりおろすか、生のまま切って酢や醤油で食べることが多いとされる。\n## なぜこの形になったのか\n鳥取県の日本海沿いには、季節風が運んだ砂が積もった砂丘地が点在する。かつては作物が育ちにくい土地だったが、戦後に灌漑が整えられ、砂地でも育つらっきょうやながいもが選ばれて畑になったと伝わる。砂の中では根が抵抗なく伸びるため、真っすぐで白い芋ができ、掘り上げの際にも傷みにくいとされる。他の産地で手間がかかる収穫の作業が砂地では軽くなり、それが産地として定着した理由の一つという説がある。",
+   "body_en": "## What it's made of\nA long, cylindrical yam with a smooth white skin, straight and little scarred because it grows in sand. Grated, it turns so sticky it can be lifted with chopsticks. The taste is mild, with a faint sweetness and an earthy scent, and cut raw into matchsticks or batons it eats with a crisp crunch. Cooked, it turns floury, and it goes into mugitoro (grated yam over barley rice), isobe-age (nori-wrapped fritters), and the batter of okonomiyaki. A shorter, thicker variety bred by the prefecture is also on the market.\n## How it's made\nSeed tubers are planted in spring, the vines trained up supports through summer, and the yams dug from late autumn into early winter. The tuber reaches nearly a metre down; in clay fields that makes digging a chore, but in sand it can be dug deep without snapping. Sand drains fast and dries quickly, so the crop is watered by sprinkler. The yams are brushed free of sand and laid carefully in boxes so the skin is not marked. At home they are peeled and grated, or sliced raw and eaten with vinegar or soy sauce.\n## Why it took this shape\nAlong Tottori's Sea of Japan coast lie stretches of dune built up by sand carried on the seasonal winds. Once land where little would grow, it is said to have been turned into fields after the war when irrigation was laid on, and crops that thrive in sand — rakkyo and nagaimo — were chosen for it. In sand the root meets no resistance, so the yam grows straight and white, and it comes out of the ground with few wounds. The harvest that is heavy labour elsewhere is lighter in sand, and that is given as one reason the crop settled here.",
+   "sources": [
+    {
+     "title": "うちの郷土料理 鳥取県の郷土料理一覧",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/tottori.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "鳥取県公式サイト",
+     "url": "https://www.pref.tottori.lg.jp/",
+     "publisher": "鳥取県",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "tottori-sakyu-rakkyo",
+     "to_slug": "tottori-sakyu-nagaimo",
+     "relation_type": "対比",
+     "basis": "どちらも鳥取の砂丘地で育つ根もので、らっきょうは漬物にして締まりを、ながいもは真っすぐな姿と粘りを砂から得ているとされる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "tsuda-kabu",
+   "name_ja": "津田かぶ",
+   "name_romaji": "Tsuda kabu",
+   "name_en": "Tsuda kabu — Matsue's curved, purple-shouldered turnip, sun-dried and pickled in rice bran",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "島根県",
+   "origin_city": "松江市",
+   "lat": 35.4681,
+   "lng": 133.0484,
+   "primary_style": "",
+   "summary_ja": "松江市の津田地区で作られてきたとされるかぶ。日に当たった上半分が赤紫、土の中の下半分が白く、勾玉のようにゆるく曲がった姿をもつ。秋に収穫して天日に干し、糠と塩で漬ける津田かぶ漬けが松江の冬の味とされる。",
+   "summary_en": "A turnip said to have been grown in the Tsuda district of Matsue. The upper half, exposed to the sun, turns red-purple while the half below ground stays white, and the root bends gently like a magatama bead. Harvested in autumn, sun-dried and pickled in rice bran and salt, it becomes tsuda-kabu-zuke, a winter taste of Matsue.",
+   "body_ja": "## 何でできているか\n細長く、途中でゆるく曲がった根をもつかぶで、日に当たった上半分は赤紫、土の中にあった下半分は白い。この二色と曲がりから、出雲の勾玉にたとえられることもあるという。肉質は締まって緻密で、生では辛みと歯ごたえがあり、漬けると辛みがほどよく残りながら甘みが出るとされる。葉も柔らかく、かぶと一緒に漬けて食べるという。松江では天日に干してから糠と塩で漬けた津田かぶ漬けが冬の食卓に並ぶとされる。\n## どう作るのか\n八月の終わりから九月にかけて種をまき、十一月から十二月にかけて収穫するのが本来の作型とされる。根が地面から立ち上がるように育つため、日に当たる部分だけが色づき、二色の姿になるという。収穫したかぶは葉をつけたまま束ね、軒先や田に組んだ竿に掛けて数日干す。しんなりしたところで糠と塩、好みで唐辛子を加えて漬け込み、数週間で食べ頃になるとされる。漬けたものは薄く切ってそのまま、あるいは刻んで茶漬けにするという。\n## なぜこの形になったのか\n一説に、江戸時代に近江の日野菜の種が松江に持ち込まれ、城下の東にあたる津田の地で育てられたのが始まりと伝わる。日野菜もまた細長く上部が赤紫に色づくかぶであり、その系譜が松江の土で曲がった形に落ち着いたとみられる。宍道湖と中海にはさまれた松江は冬の湿り気が強く、保存のために干してから漬ける習いが根づいたという。市街地の広がりで畑は津田から郊外へ移ったとされるが、名前は土地の記憶として残っている。",
+   "body_en": "## What it's made of\nA slender kabu — a Japanese turnip — whose root bends gently partway down. The upper half, which stands above the soil in the sun, turns red-purple; the lower half, hidden in the ground, stays white. The two colours and the curve have earned it comparisons to the magatama, the comma-shaped beads of ancient Izumo. The flesh is firm and fine-grained: raw, it is peppery and crunchy; pickled, the heat softens and a sweetness comes through. The leaves are tender too and go into the pickle with the root. In Matsue, tsuda-kabu-zuke — the root sun-dried, then pickled in rice bran and salt — is a fixture of the winter table.\n## How it's made\nSeed is sown from the end of August into September and the roots are pulled from November into December. Because the root rises up out of the ground as it grows, only the exposed part colours, giving the two-tone look. The turnips are bundled with their leaves on and hung from the eaves or from poles set up in the fields to dry for several days. Once they have gone limp they are packed down with rice bran, salt and, if liked, dried chilli, and are ready after a few weeks. The pickle is sliced thin and eaten as it is, or chopped over rice with hot tea.\n## Why it took this shape\nOne account holds that seed of hinona, the long red-shouldered turnip of Omi near Lake Biwa, was brought to Matsue in the Edo period and grown at Tsuda, east of the castle town. Hinona shares the slender shape and purple top, and that line seems to have settled into its bent form in Matsue soil. Matsue sits between Lake Shinji and the Nakaumi lagoon, and its winters are damp; drying the roots before pickling is said to have taken hold as a way of keeping them. As the city spread, the fields moved out from Tsuda to the suburbs, but the name keeps the place.",
+   "sources": [
+    {
+     "title": "うちの郷土料理 島根県の郷土料理一覧",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/shimane.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "松江市公式サイト",
+     "url": "https://www.city.matsue.lg.jp/",
+     "publisher": "松江市",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "shussai-shoga",
+     "relation_type": "対比",
+     "basis": "同じ島根でも、松江の城下で干して漬けるかぶと、斐伊川の砂地で育つ薬味のしょうがとでは、土地と使い方が対になる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "shussai-shoga",
+   "name_ja": "出西しょうが",
+   "name_romaji": "Shussai shoga",
+   "name_en": "Shussai shoga — fine-fibred, fragrant ginger said to grow true only in one corner of Izumo",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "島根県",
+   "origin_city": "出雲市",
+   "lat": 35.3845,
+   "lng": 132.8325,
+   "primary_style": "",
+   "summary_ja": "出雲市斐川町の出西地区で作られてきた小ぶりのしょうが。繊維が少なく香りが高く、辛みがまろやかとされる。斐伊川が運んだ砂まじりの土と相性がよく、他の土地に移すと同じ味にならないと伝わる。",
+   "summary_en": "A small-rooted ginger grown in the Shussai district of Hikawa, Izumo. Low in fibre, high in fragrance and gentle in its heat, it is said to suit the sandy soil laid down by the Hii River so well that the same seed planted elsewhere does not taste the same.",
+   "body_ja": "## 何でできているか\n手のひらに収まるほどの小ぶりな根しょうがで、皮は薄い黄みを帯び、切り口はきめが細かい。繊維が少なく、すりおろしても筋が残りにくいとされる。香りは立ちやすく、辛みは鋭さよりも甘みを伴った穏やかさが前に出るという。薬味としてそばや冷奴に添えるほか、甘酢漬け、佃煮、砂糖をまぶしたしょうが糖など、保存の形にして冬まで持たせる使い方が出雲には伝わるとされる。\n## どう作るのか\n春に種しょうがを植え、夏の間は乾きすぎないよう水と敷きわらで守り、秋に葉が色づく頃に掘り上げるのが基本とされる。出西の畑は斐伊川が運んだ砂まじりの土で、水はけと保水の釣り合いがよいという。掘った根は土を落として風に当て、薬味にはそのまま、漬けるときは薄く切って塩をし、甘酢に落とすとされる。種しょうがは農家が自家用に取り分けて翌年につなぐと伝わる。\n## なぜこの形になったのか\n出西しょうがは、同じ種を隣の集落に植えても出西で育てたときの味や香りにならないと伝わり、その理由を斐伊川の砂と地下水に求める見方がある。斐伊川は上流の花崗岩が崩れた砂を運び、幾度も流れを変えた川で、出西の一帯にはその砂が厚く積もったとされる。古くからこの地で作られてきたとされ、土地に縛られた作物だからこそ、地名がそのまま名前になって残っている。",
+   "body_en": "## What it's made of\nA root ginger small enough to sit in the palm, with a pale yellowish skin and a fine, close grain when cut. It has little fibre, so even grated it leaves few strings. The fragrance rises easily, and the heat is gentle and faintly sweet rather than sharp. In Izumo it is used as a condiment for soba and chilled tofu, and also put up for winter as a sweet vinegar pickle, as tsukudani simmered in soy sauce, or as shoga-to — slices coated in sugar.\n## How it's made\nSeed ginger is planted in spring, kept from drying out through summer with water and a mulch of straw, and dug in autumn when the leaves begin to colour. The fields of Shussai lie on sandy soil carried down by the Hii River, which is said to drain well while still holding moisture. The roots are brushed free of soil and aired, then used fresh as a condiment or sliced thin, salted and dropped into sweet vinegar. Farmers are said to set aside their own seed ginger each year for the next planting.\n## Why it took this shape\nThe story told of Shussai shoga is that the same seed planted in a neighbouring hamlet will not give the same taste or scent, and one view traces this to the Hii River's sand and the groundwater beneath it. The river carries sand weathered from granite upstream and has changed course many times, and the land around Shussai is said to lie on a deep bed of it. Ginger has been grown here for a long time by all accounts, and because the crop is bound to its ground, the place name became the name of the ginger.",
+   "sources": [
+    {
+     "title": "うちの郷土料理 島根県の郷土料理一覧",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/shimane.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "出雲市公式サイト",
+     "url": "https://www.city.izumo.shimane.jp/",
+     "publisher": "出雲市",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "shouga-meshi",
+     "relation_type": "対比",
+     "basis": "どちらも川が運んだ砂地で育つしょうがだが、和歌山のしょうが飯は紀の川沿いの新しょうがを米と炊き込み、出西では薬味や甘酢漬けにして使うとされる"
+    }
+   ],
+   "tags": [
+    "spicy"
+   ]
+  },
+  {
+   "slug": "okayama-ki-nira",
+   "name_ja": "黄ニラ",
+   "name_romaji": "Ki-nira",
+   "name_en": "Ki-nira — Okayama's pale, tender garlic chives grown in the dark under cover",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "岡山県",
+   "origin_city": "岡山市",
+   "lat": 34.6551,
+   "lng": 133.9195,
+   "primary_style": "",
+   "summary_ja": "岡山市や赤磐市で作られる黄色いニラ。刈り取ったあとの株に光を遮る覆いをかけ、日に当てずに伸ばした葉で、繊維が柔らかく香りが穏やかで、ほのかな甘みがあるとされる。おひたしや酢の物、卵とじに使われるという。",
+   "summary_en": "Yellow garlic chives grown around Okayama city and Akaiwa. After the plants are cut back, the stubs are covered to keep out light, and the new leaves come up pale, tender, mild in scent and faintly sweet. They go into ohitashi, vinegared dishes and egg dishes.",
+   "body_ja": "## 何でできているか\n淡い黄色からクリーム色をした細長い葉で、普通のニラと同じ株から育つが、光を遮って伸ばすため葉が緑にならない。葉は薄く柔らかく、生でも筋が気にならないとされる。香りは緑のニラより穏やかで、噛むとほのかな甘みがあるという。熱に弱いので、さっと湯に通すおひたしや酢の物、卵とじ、汁の浮き実のように、火を通しすぎない料理に向くとされる。岡山では黄ニラを彩りにのせたばらずしも見かけるという。\n## どう作るのか\n畑で育てたニラの株を地際で刈り取り、その上に光を通さないシートや覆いをかぶせ、暗いまま新しい葉を伸ばさせるとされる。日に当たらないので葉は黄色いまま伸び、二、三週間ほどで収穫するという。暗い中で伸びた葉は折れやすく、一本ずつ手で収穫して束ねる手間のかかる仕事と伝わる。株は年に何度も刈り取れるため年間を通して出回るが、寒さで甘みが乗る冬から春が旬とされる。使う直前に軽く洗い、湯通しは数秒にとどめるのがよいという。\n## なぜこの形になったのか\n一説に、明治の頃に岡山市の北部でニラの株に覆いがかぶさったまま芽が伸び、黄色く柔らかな葉になったことから栽培が始まったと伝わる。岡山平野は晴れの日が多く冬も比較的温暖で、覆いの下で株を休ませずに育てやすかったとみられる。手間がかかるわりに傷みやすく遠くへ送りにくいため、産地が広がらず岡山に残ったという見方もある。岡山県は岡山市や赤磐市を主産地として、黄ニラを県を代表する野菜の一つに挙げている。",
+   "body_en": "## What it's made of\nLong, narrow leaves of pale yellow to cream, from the same plant as ordinary nira — garlic chives — but grown without light, so the leaves never turn green. They are thin and tender, with no stringiness even raw. The scent is milder than green nira and there is a faint sweetness when chewed. They do not stand up to heat, so they suit dishes that cook them barely or not at all: ohitashi (blanched and dressed), vinegared salads, eggs, or a few strands floated on soup. In Okayama they are also laid over barazushi, the local scattered sushi, for colour.\n## How it's made\nNira plants grown in the open field are cut back to the ground, and light-proof sheets or covers are set over the stubs so the new leaves grow in darkness. Without sunlight the leaves stay yellow, and they are harvested after two or three weeks. Leaves grown in the dark snap easily, so they are picked and bundled one by one by hand, slow work by all accounts. Each plant can be cut several times a year, so ki-nira is on sale year-round, though the cold of winter into spring is said to bring out the most sweetness. Rinse lightly just before use and keep any blanching to a few seconds.\n## Why it took this shape\nOne account holds that it began in the Meiji era, when nira on a farm north of Okayama city sprouted under something that had covered the plants, and the pale, soft leaves that came up were worth keeping. The Okayama plain has many clear days and mild winters, which would have made it easy to keep the covered plants in continuous growth. The crop is laborious, bruises easily and travels poorly, which is offered as one reason it never spread far beyond Okayama. The prefecture names Okayama city and Akaiwa as the main growing areas and counts ki-nira among its representative vegetables.",
+   "sources": [
+    {
+     "title": "うちの郷土料理 岡山県の郷土料理一覧",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/okayama.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "岡山県公式サイト",
+     "url": "https://www.pref.okayama.jp/",
+     "publisher": "岡山県",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ki-nira-ohitashi",
+     "to_slug": "okayama-ki-nira",
+     "relation_type": "使用食材",
+     "basis": "黄ニラのおひたしは岡山特産の黄ニラを塩ゆでしてごま油や醤油で和えた家庭料理とされる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "tsurajima-gobo",
+   "name_ja": "連島ごぼう",
+   "name_romaji": "Tsurajima gobo",
+   "name_en": "Tsurajima gobo — pale, tender burdock root from the river sand of Kurashiki",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "岡山県",
+   "origin_city": "倉敷市",
+   "lat": 34.566,
+   "lng": 133.736,
+   "primary_style": "",
+   "summary_ja": "倉敷市連島町で作られるごぼう。高梁川が運んだ砂まじりの土で育ち、肌が白く、やわらかく、アクが少ないとされる。春に掘る若いごぼうは香りがよく、生でも食べられるほどという。",
+   "summary_en": "Gobo — burdock root — grown in Tsurajima, Kurashiki, on sandy soil laid down by the Takahashi River. The skin is pale, the flesh tender and low in bitterness, and the young roots dug in spring are fragrant enough to eat raw.",
+   "body_ja": "## 何でできているか\n太さのそろった細めの根で、肌は淡い褐色からほとんど白に近く、切り口も白いとされる。砂地で育つため繊維が細かく、火を通すとほくっと柔らかく、アクが少ないので水にさらす時間も短くてすむという。香りは土の匂いよりも甘い香りが前に出るとされ、春に掘る若いごぼうはサラダのように生で食べる人もいると伝わる。きんぴらや天ぷら、煮しめ、ささがきにして卵でとじる柳川風など、ごぼうの料理の幅がそのまま使えるという。\n## どう作るのか\n秋に種をまいて冬を越させ、春に掘り上げる作型と、春にまいて秋から冬に掘る作型があるとされる。連島の畑は砂まじりの軽い土で、根がまっすぐ深く伸び、掘るときも折れにくいという。収穫は機械で畝の脇を深く掘り、根を一本ずつ引き抜いて土を落とし、洗わずに出荷することが多いとされる。家庭では皮をこそげず、たわしで洗ってささがきや斜め切りにし、短く水にさらして使うのがよいという。\n## なぜこの形になったのか\n連島はかつて瀬戸内海に浮かぶ島だったと伝わり、高梁川が運んだ砂と、江戸期以降の干拓によって陸続きになったとされる。その砂まじりの土は水はけがよく、深く根を伸ばすごぼうに向いていたという。畑が平らで掘りやすかったことも、手間のかかるごぼうの産地として続いた理由の一つとみられる。倉敷の農協が連島ごぼうの名で出荷し、岡山県内では春の野菜として知られていると伝わる。",
+   "body_en": "## What it's made of\nA slender root of even thickness, its skin pale brown to almost white, and white again when cut. Grown in sand, the fibre is fine; cooked, it turns soft and floury, and with little of the usual bitterness it needs only a short soak in water. The scent leans sweet rather than earthy, and the young roots dug in spring are said to be eaten raw like a salad vegetable by some. It takes every burdock dish as it is: kinpira (stir-fried with soy and sugar), tempura, simmered nishime, or shaved and set in egg in the yanagawa style.\n## How it's made\nThere are two cropping patterns: sown in autumn, overwintered and dug in spring, or sown in spring and dug from autumn into winter. The fields of Tsurajima are light, sandy soil, so the root runs straight and deep and seldom snaps when lifted. A machine cuts deep along the side of the ridge, the roots are pulled one by one, shaken free of soil and usually shipped unwashed. At home, do not scrape the skin; scrub with a brush, shave or slice on the bias, and soak only briefly.\n## Why it took this shape\nTsurajima is said to have once been an island in the Seto Inland Sea, joined to the mainland by sand carried down the Takahashi River and by reclamation from the Edo period onward. That sandy ground drains well and suited a root that drives deep. Flat fields that are easy to dig are given as another reason a laborious crop like burdock stayed here. The Kurashiki farming cooperative ships it under the Tsurajima gobo name, and within Okayama it is known as a spring vegetable.",
+   "sources": [
+    {
+     "title": "うちの郷土料理 岡山県の郷土料理一覧",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/okayama.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "倉敷市公式サイト",
+     "url": "https://www.city.kurashiki.okayama.jp/",
+     "publisher": "倉敷市",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "tottori-sakyu-nagaimo",
+     "relation_type": "対比",
+     "basis": "どちらも砂地で真っすぐに伸びる根ものだが、連島は高梁川が運んだ川砂の干拓地、鳥取は季節風が積んだ砂丘という成り立ちが対になる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "hiroshima-na",
+   "name_ja": "広島菜",
+   "name_romaji": "Hiroshima-na",
+   "name_en": "Hiroshima-na — broad-stemmed brassica from the Ota River delta, grown almost entirely for pickling",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "広島県",
+   "origin_city": "広島市安佐南区",
+   "lat": 34.4795,
+   "lng": 132.4194,
+   "primary_style": "",
+   "summary_ja": "広島市安佐南区川内の太田川の中州で作られてきたアブラナ科の菜。白く平たい茎と大きな葉をもち、繊維が少なく歯切れがよいとされる。ほとんどが広島菜漬けにされ、霜にあたるとかすかな辛みが増すという。",
+   "summary_en": "A brassica green grown on the river islands of the Ota in Kawauchi, Asaminami ward, Hiroshima. It has flat white stems and large leaves, little fibre and a clean snap. Nearly the whole crop becomes hiroshimana-zuke, the salt pickle, and frost is said to sharpen its faint peppery edge.",
+   "body_ja": "## 何でできているか\n白菜に近い仲間とされるアブラナ科の菜で、株は大きく、一株で二、三キロになるものもあるという。茎は白く平たく幅広で「平茎」とも呼ばれ、葉は濃い緑で大きく広がる。繊維が少なく、噛むとさくりと歯切れがよく、わずかな辛みがあるとされる。霜にあたるとその辛みと甘みが増すという。生のまま食べることは少なく、ほとんどが塩で漬けた広島菜漬けにされ、刻んでおにぎりに巻いたり、雑煮の青みにしたりすると伝わる。\n## どう作るのか\n九月に種をまき、秋の間に株を太らせ、十二月に収穫するのが本来の作型とされる。太田川の中州にある川内の畑は、川が運んだ土が深く水はけがよく、大きな株に育つという。収穫した株は根元を切って運び、漬物屋や農家が塩で下漬けしたうえで本漬けにするとされる。浅漬けは数日で食べ、古漬けは長く置いて茶漬けにするという。家庭では漬けたものを三、四センチに切り、しょうゆを少し落として食べると伝わる。\n## なぜこの形になったのか\n一説に、江戸時代の参勤交代の際に京都から種が持ち帰られ、太田川の中州で育てられたのが始まりと伝わり、京都の壬生菜を祖とする見方もある。川内は川にはさまれて水に恵まれ、冬の冷え込みで菜が締まる土地だったという。株が大きく生で持ち歩きにくいため、漬けて食べる形が定着したとみられる。広島菜という名は昭和の初めに定められたとされ、年配の人は今も京菜と呼ぶことがあるという。",
+   "body_en": "## What it's made of\nA brassica close to hakusai — Chinese cabbage — that grows into a large head, some plants reaching two or three kilograms. The stems are white, flat and broad, which gives it the nickname hira-guki, \"flat stem\", and the leaves are deep green and spreading. There is little fibre, so it snaps cleanly between the teeth, with a slight peppery edge that frost is said to heighten along with the sweetness. It is rarely eaten fresh: almost all of it is salted into hiroshimana-zuke, then chopped to wrap rice balls or dropped into zoni, the New Year soup, as its green.\n## How it's made\nSeed goes in during September, the heads fill out through autumn and are cut in December. The fields of Kawauchi sit on river islands in the Ota, on deep, well-drained soil the river laid down, which is said to grow the largest heads. The cut heads are trimmed at the base and taken to pickle makers or salted at the farm, first in a light brine and then in the main pickle. The young pickle is eaten within days; the aged one is kept longer and served over rice with hot tea. At home it is cut into three- or four-centimetre lengths with a few drops of soy sauce.\n## Why it took this shape\nOne account holds that seed was brought back from Kyoto on the domain lord's alternate-attendance journey in the Edo period and grown on the Ota's islands, and some trace the plant to Kyoto's mibuna. Kawauchi, hemmed in by river channels, had water in plenty and winters cold enough to firm the leaves. A head this large is awkward to carry fresh, which seems to be why pickling became the way it was eaten. The name Hiroshima-na was fixed in the early Showa years, and older people are said still to call it kyona, \"Kyoto greens\".",
+   "sources": [
+    {
+     "title": "うちの郷土料理 広島県の郷土料理一覧",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/hiroshima.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "広島市公式サイト",
+     "url": "https://www.city.hiroshima.lg.jp/",
+     "publisher": "広島市",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hiroshimana-zuke",
+     "to_slug": "hiroshima-na",
+     "relation_type": "使用食材",
+     "basis": "広島菜漬けは太田川の中州で育てた広島菜を塩で漬けた漬物とされる"
+    },
+    {
+     "to_slug": "yamato-mana",
+     "relation_type": "対比",
+     "basis": "どちらも近畿・中国地方の冬のツケナ類だが、広島菜は大きな株をほぼ漬物にし、大和まなは薄揚げと炊く煮ものに使う点が対になる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "kannon-negi",
+   "name_ja": "観音ねぎ",
+   "name_romaji": "Kannon negi",
+   "name_en": "Kannon negi — Hiroshima's soft, sweet green leaf onion from the Ota River delta",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "広島県",
+   "origin_city": "広島市西区",
+   "lat": 34.3927,
+   "lng": 132.4344,
+   "primary_style": "",
+   "summary_ja": "広島市西区の観音地区で作られてきた葉ねぎ。葉が柔らかく折れにくく、内側のぬめりと甘みが強いとされる。刻んでお好み焼きやうどん、牡蠣料理の薬味として広島の食卓で使われてきたという。",
+   "summary_en": "A green leaf onion grown in the Kannon district of Nishi ward, Hiroshima. The leaves are soft and bend without breaking, with a slippery inner sap and pronounced sweetness. Chopped, it has long been the garnish on okonomiyaki, udon and oyster dishes in Hiroshima.",
+   "body_ja": "## 何でできているか\n白い部分が短く、緑の葉を食べる葉ねぎで、葉は細めで柔らかく、曲げても折れにくいとされる。刻むと内側のぬめりが多く、生では香りと辛みが立つが、火を通すと甘みが前に出るという。薬味として刻んでお好み焼きやうどんに散らすほか、ぬたや牡蠣の鍋にも使われると伝わる。冬の霜にあたったものほど柔らかく甘いとされ、広島では年間を通して出回るが、旬は冬とされる。\n## どう作るのか\n種をまいて苗を育て、畑に植え替えてから二、三か月で収穫するとされ、時期をずらして何度も植えるため途切れずに出荷できるという。観音地区をはじめ、広島市の太田川が運んだ砂まじりの土は根が張りやすく、葉が柔らかく育つとされる。収穫は株ごと抜き取り、根元の土と外葉を落として束ねる。台所では小口切りにして薬味に、長めに切って炒め物や鍋に入れるのがよいと伝わる。\n## なぜこの形になったのか\n一説に、明治の頃に広島市の西に広がる観音の低地で葉ねぎの栽培が始まり、土地の名がそのままねぎの名になったと伝わる。太田川の河口に広がる三角州は砂と泥が混じった軽い土で、根もの野菜と葉もの野菜の両方が育ちやすかったという。市街地の広がりで畑は観音から郊外へ移ったとされるが、広島市の農協が観音ねぎの名で出荷を続けている。薬味として刻む葉ねぎが広島の食卓に根づいた背景には、お好み焼きや牡蠣など薬味を多く使う料理があるとみられる。",
+   "body_en": "## What it's made of\nA leaf onion — short on the white part, long on the green — with thin, soft leaves that bend rather than snap. Chopped, it gives off plenty of slippery inner sap; raw, the scent and bite stand out, but heat brings the sweetness forward. It is scattered as a garnish over okonomiyaki and udon, and also goes into nuta (a miso-vinegar dressing) and oyster hotpots. Leaves that have stood through winter frost are said to be the softest and sweetest, and though it is on sale all year in Hiroshima, winter counts as its season.\n## How it's made\nSeedlings are raised from seed, set out in the field and cut two or three months later; plantings are staggered so the supply never breaks. Around Kannon and across Hiroshima city, the sandy soil laid down by the Ota River is said to let the roots spread and the leaves grow tender. The plants are pulled whole, the soil and outer leaves stripped from the base, and bundled. In the kitchen, slice into thin rounds for a garnish, or cut longer for stir-fries and hotpots.\n## Why it took this shape\nOne account holds that leaf-onion growing began in the Meiji era on the low ground of Kannon, west of Hiroshima's centre, and that the district's name simply became the onion's. The delta at the mouth of the Ota is light soil of mixed sand and silt, good for root and leaf vegetables alike. As the city grew the fields moved out from Kannon to the outskirts, but the Hiroshima city cooperative still ships under the Kannon negi name. A chopped green onion found its place on Hiroshima tables, it seems, because the local cooking — okonomiyaki, oysters — leans so heavily on garnish.",
+   "sources": [
+    {
+     "title": "うちの郷土料理 広島県の郷土料理一覧",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/hiroshima.html",
+     "publisher": "農林水産省「うちの郷土料理」",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "広島市公式サイト",
+     "url": "https://www.city.hiroshima.lg.jp/",
+     "publisher": "広島市",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "hiroshima-na",
+     "relation_type": "対比",
+     "basis": "どちらも広島市の太田川デルタで育つ葉ものだが、広島菜は大きな株を漬けて食べ、観音ねぎは刻んで薬味にする点が対になる"
+    }
+   ],
+   "tags": []
+  }
+ ],
+ "notes": "veg-6（奈良・和歌山・鳥取・島根・岡山・広島）。genres[] は書かない。全12件。\n【Web 不可環境の出典】全件、農林水産省「うちの郷土料理」の県一覧ページ（area/<pref>.html）＋都道府県・市の公式サイトのトップ、らっきょうのみ GI 登録産品一覧を併記。深い階層の URL は一切書いていない。要確認: 全 slug の出典は一覧ページ・トップページ（個別ページではない）。市公式トップ（松江市・出雲市・倉敷市・広島市）は確信度中（ドメインは一般的な自治体形式だが疎通未確認）。\n【既存との結び】yamatona-usuage-nimono→yamato-mana、mame-gohan→kishu-usui、rakkyou-zuke→tottori-sakyu-rakkyo、ki-nira-ohitashi→okayama-ki-nira、hiroshimana-zuke（漬物）→hiroshima-na はいずれも「使用食材」。指示にあった hiroshima-nina（煮菜）は既存データでは「千切り大根を油揚げ・ねぎ・いりこで炒り煮にする福山の菜」で広島菜は使わないため結んでいない（要判断: 煮菜に広島菜を使う地域があれば追加）。\n【伝承・要判断】津田かぶ＝近江の日野菜の種が江戸期に松江へ持ち込まれた説（一説として記述。持ち込んだ人物は書いていない）。出西しょうが＝「出西以外では同じ味にならない」は地元で広く語られる伝承として記述。黄ニラ＝明治期に岡山市北部で偶然見つかった説（一説として記述）。観音ねぎ＝明治期に観音地区で始まった説。観音ねぎと九条ねぎの系統関係は確証がないため書いていない。広島菜の「昭和の初めに名が定められた」は既存 hiroshimana-zuke 本文（昭和8年）に合わせた。紀州うすい＝実えんどう（豆）のため shelf=tubers / genre=null。砂丘ながいも＝いも類のため tubers / null。\n【対象外（候補名のみ）】果物: 奈良=柿（富有・刀根早生）、和歌山=有田みかん・南高梅・あんぽ柿、鳥取=二十世紀梨・大栄すいか、島根=西条柿・ぶどう、岡山=白桃・マスカット・ピオーネ、広島=レモン・みかん・はっさく。きのこ・山菜: 鳥取=原木しいたけ、島根=わらび・ぜんまい、広島=まつたけ（世羅・庄原）。\n【絞った残り候補】奈良（大和野菜）=宇陀金ごぼう・祝だいこん・筒井れんこん・片平あかね・結崎ネブカ・大和きくな・ひもとうがらし・紫とうがらし・大和いも（tubers）。和歌山=紀州の伝統野菜の他候補は確信が持てず湯浅なす1件＋うすいえんどう（tubers）。鳥取=ねばりっこ（県育成品種、本文で触れた）・大山ブロッコリー・白ねぎ。島根=赤名の在来かぶ・隠岐の在来野菜（確信なし）。岡山=千両なす・万成（確信なし）・清水白桃は果物。広島（広島市の伝統野菜）=祇園パセリ・矢賀ちしゃ・笹木三月子大根・広島赤丸（確信なし）。\n【関係】新規同士: yamato-maru-nasu→yuasa-nasu 兄弟、yuasa-nasu→kishu-usui 対比、tottori-sakyu-rakkyo→tottori-sakyu-nagaimo 対比、tsuda-kabu→shussai-shoga 対比、tsurajima-gobo→tottori-sakyu-nagaimo 対比、hiroshima-na→yamato-mana 対比、kannon-negi→hiroshima-na 対比。既存へ: shussai-shoga→shouga-meshi 対比（和歌山の紀の川の砂地のしょうが飯と、斐伊川の砂地の出西しょうが）。他ブロックの日野菜（hinona）・壬生菜・九条ねぎには参照していない（オーケストレーターが投入後に tsuda-kabu→hinona 派生／兄弟、hiroshima-na→mibuna の関係を足すか要判断）。"
+}

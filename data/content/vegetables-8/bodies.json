@@ -1,0 +1,415 @@
+{
+  "items": [
+    {
+      "slug": "onnayama-daikon",
+      "body_ja": "## 何でできているか\n赤紫の皮をむくと、芯まで真っ白な肉が現れる。重さは数キロに育つ大型の大根で、肉質は緻密で水分が多く、生でかじると辛味よりも甘みが先に立つという。煮ると皮の色が煮汁に溶け出し、淡い紅に染まるのが目印とされる。繊維が細かいため火が通りやすく、煮崩れしにくいとも言われる。葉も柔らかく、炒め物や漬物に使われてきたと伝わる。\n## どう作るのか\n種は夏の終わりから秋のはじめに播き、冬の寒さに当ててから収穫するという。多久市西多久町の女山地区の畑で、地元の生産者が自家採種を重ねて系統を保ってきたとされる。収穫は年明けの寒い時期が中心で、おでんや煮物、なます、漬物にして食べられるという。皮の色を生かすなら皮ごと煮るのがよいとされ、紅に染まった煮汁ごと器に盛る家もあると伝わる。\n## なぜこの形になったのか\n多久は唐津と佐賀平野を結ぶ山あいの街道筋にあり、女山地区は山の麓の畑作地だったとされる。大型で貯蔵がきく大根は、冬を越す保存の野菜として重宝されたと伝わる。江戸期には多久の領主に献上されていたという話も残るが、裏付けは一様ではない。市場向けの大根に押されて一時は栽培がほぼ途絶えたとされ、地元の生産者が種を受け継いで復活させたことで、今も冬の多久の味として続いているという。",
+      "body_en": "## What it's made of\nPeel away the reddish-purple skin and the flesh beneath is white to the core. It is a big radish, growing to several kilograms, with dense, juicy flesh; bitten raw, sweetness is said to come before any sharpness. Simmered, the color of the skin bleeds into the broth and dyes it a pale pink, which is taken as its signature. The fine grain is said to cook through quickly while holding its shape. The leaves are tender too and have gone into stir-fries and pickles.\n## How it's made\nSeed goes into the ground in late summer or early autumn, and the roots are harvested after taking the winter cold. In the Onnayama district of Nishitaku, local growers are said to have kept the line alive by saving their own seed year after year. Harvest centers on the cold weeks after the new year, and the radish is eaten in oden, in simmered dishes, in namasu (a vinegared salad) and as pickles. To keep the color, it is cooked with the skin on, and some households are said to serve it in its pink-tinged broth.\n## Why it took this shape\nTaku sits in the hills along the old road between Karatsu and the Saga plain, and Onnayama was a farming district at the foot of the mountains. A large radish that stores well was valued as a vegetable to carry a household through winter. A story survives that it was presented to the lords of Taku in the Edo period, though the evidence is not uniform. Pushed aside by market radishes, cultivation is said to have nearly died out, and local growers passing down the seed brought it back, so that it remains a winter taste of Taku today.",
+      "sources": [
+        {
+          "title": "多久市公式サイト",
+          "url": "https://www.city.taku.lg.jp/",
+          "publisher": "多久市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 佐賀県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/saga.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "onnayama-daikon",
+          "to_slug": "sakurajima-daikon",
+          "relation_type": "兄弟",
+          "basis": "どちらも九州の火山・山地の麓で育てられてきた数キロに育つ大型の在来大根で、煮崩れしにくく冬の煮物に向くとされる"
+        }
+      ]
+    },
+    {
+      "slug": "saga-tamanegi",
+      "body_ja": "## 何でできているか\n春先に出回る早生のたまねぎは、皮が薄く、切ると水がにじむほどみずみずしいという。辛味は穏やかで、薄切りを水にさらさずそのまま食べても甘みが立つとされる。夏以降に出回る中生・晩生のものは締まりが良く、貯蔵して秋冬まで使われるという。有明海の干拓地の土は粘土質で重く、ゆっくり水と養分を抱えるため、球が大きく甘く育ちやすいと説明されることが多い。\n## どう作るのか\n秋に苗を育て、稲刈りの終わった水田に植え付けるという。冬を畑で越し、極早生は3月ごろから、早生は4〜5月に収穫されるとされる。粘土質の土は乾くと固くなるため、畝を高くして水はけを保つ工夫がされてきたと伝わる。収穫したたまねぎは葉をつけたまま畑で乾かし、貯蔵用は吊るして風に当てるという。白石町をはじめ、杵島・佐賀平野の南部一帯が主な産地とされる。\n## なぜこの形になったのか\n佐賀平野の南は、江戸期から続く有明海の干拓で広がった低地で、米作りの土地だったとされる。戦後、冬の田を遊ばせない裏作としてたまねぎが広まったと伝わり、重い粘土質の土と温暖な冬がこれに合ったという。北の産地の貯蔵分が尽きる春から初夏に、佐賀の新たまねぎが出回るという季節の役割も、産地が育った理由の一つとされる。平野の畑の多くが同じ景色に見えるのは、米とたまねぎの二毛作が続いているためだという。",
+      "body_en": "## What it's made of\nThe early onions that appear in spring have thin skins and are so juicy that cutting them leaves the board wet. Their bite is gentle, and thin slices are said to taste sweet without soaking in water. Mid- and late-season onions that come later are firmer and are stored for use into autumn and winter. The reclaimed land along the Ariake Sea is heavy clay that holds water and nutrients slowly, which is the usual explanation for why the bulbs grow large and sweet.\n## How it's made\nSeedlings are raised in autumn and planted into paddies once the rice is cut. They stand in the field through winter; the earliest varieties come up from around March, and early ones in April and May. Because clay sets hard as it dries, growers are said to have built high ridges to keep the drainage working. After harvest the onions are left to dry in the field with their leaves on, and those for storage are hung up in the wind. The main growing districts are Shiroishi and the southern Saga plain around it.\n## Why it took this shape\nThe south of the Saga plain is low land created by reclamation of the Ariake Sea that goes back to the Edo period, and it was rice country. After the war, onions are said to have spread as a second crop so that paddies would not sit idle in winter, and the heavy clay and mild winters suited them. Their timing also helped: Saga's new onions reach markets in spring and early summer, when stocks from the northern growing areas are running out. If the fields of the plain look alike, it is because this rotation of rice and onions continues.",
+      "sources": [
+        {
+          "title": "白石町公式サイト",
+          "url": "https://www.town.shiroishi.lg.jp/",
+          "publisher": "白石町",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "JAさが",
+          "url": "https://www.jasaga.or.jp/",
+          "publisher": "佐賀県農業協同組合",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "saga-tamanegi",
+          "to_slug": "nagasaki-jagaimo",
+          "relation_type": "対比",
+          "basis": "どちらも九州西岸で春に出回る土の野菜で、佐賀のたまねぎは干拓地の水田の裏作、長崎のじゃがいもは半島の斜面の畑で育つ"
+        }
+      ]
+    },
+    {
+      "slug": "unzen-kobu-takana",
+      "body_ja": "## 何でできているか\n見た目は大ぶりの高菜だが、葉柄の付け根にこぶのようなふくらみがつくのが他の高菜との違いとされる。このこぶは繊維が少なく、かじるとみずみずしく甘いという。葉は高菜らしい辛味があるものの穏やかで、生のままサラダにする人もいると伝わる。葉はやや縮れ、冬の寒さに当たると色が濃くなるという。こぶの部分は炒め物にすると歯ごたえが残り、漬物にすると浅漬けでも深い味になるとされる。\n## どう作るのか\n種は秋に播き、冬から春にかけて収穫するという。雲仙岳の北麓にあたる吾妻町の畑で、生産者が自家採種を続けて種を守ってきたとされる。こぶ高菜は交雑しやすいため、他のアブラナ科の花期と重ならないよう採種には気を遣うと伝わる。食べ方は塩漬けが基本で、新漬けのさっぱりした味と、時間をおいた古漬けの酸味の両方が楽しまれるという。こぶを薄切りにして油で炒め、ちりめんじゃこと合わせる家庭料理もあるとされる。\n## なぜこの形になったのか\n高菜は中国から九州に伝わったとされ、各地で土地に合わせた系統に分かれたという。こぶ高菜の由来は、中国からもたらされた株が雲仙の土地で変わったという説と、別の菜と交わって生まれたという説があり、定まっていない。島原半島の北側は雲仙岳の火山性の土と有明海からの風を受ける畑作地で、冬でも温暖なため葉物が育てやすかったとされる。市場向きの高菜に置き換わって栽培は一時ほぼ途絶えたが、地元の農家がわずかに残った種から育て直し、今は雲仙市の伝統野菜として受け継がれているという。",
+      "body_en": "## What it's made of\nAt a glance it is a large takana, but what sets it apart is the knob that swells at the base of each leaf stalk. The knob has little fiber and, bitten into, is juicy and sweet. The leaves carry the gentle bite typical of mustard greens, mild enough that some people eat them raw in salads. The leaves crinkle slightly and darken in color once winter cold arrives. Stir-fried, the knobs keep their crunch; pickled, they are said to develop depth even in a quick salt cure.\n## How it's made\nSeed is sown in autumn and the plants are harvested from winter into spring. In the fields of Azuma, on the northern foot of Mount Unzen, growers have kept the strain going by saving their own seed. Because kobu-takana crosses easily with other brassicas, seed-saving is said to be timed so that its flowering does not overlap theirs. Salt-pickling is the basic preparation, enjoyed both fresh and lightly cured and as an older, sourer pickle. A home dish of thinly sliced knobs stir-fried in oil with chirimen-jako (tiny dried sardines) is also known.\n## Why it took this shape\nTakana is said to have come to Kyushu from China and to have split into local strains suited to each place. The origin of kobu-takana is unsettled: one account has a Chinese stock changing in Unzen's soil, another has it arising from a cross with a different green. The northern side of the Shimabara Peninsula is farmland of volcanic soil from Mount Unzen, open to winds off the Ariake Sea, and mild enough in winter for leafy crops. Replaced by market takana, it nearly vanished from cultivation, until local farmers regrew it from the little seed that remained; it is now passed on as a traditional vegetable of Unzen.",
+      "sources": [
+        {
+          "title": "雲仙市公式サイト",
+          "url": "https://www.city.unzen.nagasaki.jp/",
+          "publisher": "雲仙市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 長崎県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/nagasaki.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "unzen-kobu-takana",
+          "to_slug": "aso-takana",
+          "relation_type": "兄弟",
+          "basis": "どちらも中国から九州に伝わったとされる高菜が土地ごとの在来の系統に分かれたもので、こぶの有無と茎の太さが対照をなす"
+        }
+      ]
+    },
+    {
+      "slug": "nagasaki-hakusai",
+      "body_ja": "## 何でできているか\n株は結球せず、葉が外へ開いたまま育つ。葉面は細かく縮れ、中心は淡い黄緑で、外葉は濃い緑になるという。繊維が柔らかく、さっと煮ただけでくたりと甘くなるのが持ち味とされ、鍋や雑煮に入れると汁を吸ってやさしい味になるという。生のまま刻めば歯ざわりは軽く、漬物にも向くと伝わる。見た目は山東菜に近く、いわゆる結球白菜とは別の姿をしている。\n## どう作るのか\n種は秋に播き、冬の寒さの中で育てて年末に収穫するという。長崎市内や近郊の畑で、正月に合わせて作る生産者が多いとされる。葉が柔らかく傷みやすいため、遠くへ運ぶより地元で売り切る野菜だったと伝わる。正月の雑煮には、ほかの具とともに一株分の葉を長いまま入れる家があるとされ、縁起をかついで切らずに使う話も伝わる。普段の食卓では煮びたしや炒め物にされるという。\n## なぜこの形になったのか\n長崎は江戸期に中国との交易の窓口で、唐人屋敷には多くの中国人が暮らしていたとされる。そこから伝わった結球しない白菜が町の畑に根づき、唐人菜と呼ばれるようになったと伝わる。結球する白菜が全国に広まったのは明治以降とされ、長崎では一足早く中国系の葉菜が入り、正月の料理に組み込まれていたという。温暖な長崎の冬は葉物の栽培に向き、港町で正月を祝う家々の需要が、この菜を年末の作物として残したとされる。",
+      "body_en": "## What it's made of\nThe plant never forms a head; its leaves grow open and outward. The leaf surface is finely crinkled, pale yellow-green at the heart and deep green on the outer leaves. The fiber is soft, and a brief simmer is enough to collapse it into sweetness; in a hot pot or zōni (New Year soup) it drinks in the broth and turns gentle. Chopped raw it has a light crunch and suits pickling. In appearance it is closer to Shantung cabbage than to the familiar firm-headed hakusai.\n## How it's made\nSeed is sown in autumn and the plants grow through the winter cold for harvest at year's end. Many growers in and around Nagasaki time the crop to the New Year. Because the tender leaves bruise easily, it was a vegetable sold locally rather than shipped far. For zōni, some households put a whole plant's leaves into the pot unchopped alongside the other ingredients, a custom tied to good fortune. On ordinary days it is simmered in broth or stir-fried.\n## Why it took this shape\nIn the Edo period Nagasaki was Japan's window on trade with China, and many Chinese residents lived in the Tōjin-yashiki quarter. A non-heading cabbage brought in by that route is said to have taken root in the town's fields and earned the name tōjinna. The heading hakusai spread across Japan only from the Meiji era onward, while Nagasaki had taken in Chinese leafy greens earlier and folded them into its New Year cooking. Mild winters suit leafy crops, and the demand of port-town households preparing for the New Year is what kept this green alive as a year-end crop.",
+      "sources": [
+        {
+          "title": "長崎市公式サイト",
+          "url": "https://www.city.nagasaki.lg.jp/",
+          "publisher": "長崎市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 長崎県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/nagasaki.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "nagasaki-hakusai",
+          "to_slug": "unzen-kobu-takana",
+          "relation_type": "対比",
+          "basis": "どちらも中国から長崎に伝わったとされる葉菜だが、港町の正月用に残った柔らかい白菜と、半島の火山土で漬物用に残った高菜という残り方が対照をなす"
+        }
+      ]
+    },
+    {
+      "slug": "nagasaki-jagaimo",
+      "body_ja": "## 何でできているか\n春に掘る新じゃがは皮が薄く、こすれば手でむけるほどで、肉はしっとりとして煮崩れしにくいという。秋作のものは少し締まり、冬に向けて貯蔵されるとされる。長崎で多く作られる品種は煮物向きの粘質のものが中心で、肉じゃがや煮っころがしに合うと説明されることが多い。斜面の畑は水はけがよく、芋の形が整いやすいとされ、皮の色が明るいのも土のせいだという。\n## どう作るのか\n春作は冬のうちに種芋を植え、5〜6月に掘るという。秋作は夏の終わりに植えて年末に収穫するとされ、同じ畑で年に二度じゃがいもを作る地域は全国でも限られると伝わる。島原半島の畑は雲仙岳の裾野の斜面にあり、石積みの段々畑に畝を立てて育てるという。収穫は手掘りや小型の機械で行われ、春の新じゃがは土を落として洗わずに出荷されることが多いとされる。\n## なぜこの形になったのか\nじゃがいもは17世紀はじめ、オランダ船がジャカルタから長崎に持ち込んだと伝わり、当時のジャカルタの呼び名「ジャガタラ」から「じゃがたらいも」と呼ばれたのが語源とされる。島原半島は火山の裾野で平地が少なく、米の代わりに畑作が暮らしを支えてきたという。冬に霜がおりにくい海沿いの斜面は、他の産地が休む時期にも芋を育てられ、春の早出しと秋の二期作という形が定着したとされる。大きな畑より段々畑の手仕事が続いていることも、この土地の形と結びついているという。",
+      "body_en": "## What it's made of\nThe new potatoes dug in spring have skins so thin they rub off by hand, and flesh that is moist yet holds its shape in the pot. The autumn crop is a little firmer and is stored toward winter. The varieties grown most in Nagasaki are waxy types suited to simmering, which is why they are often recommended for nikujaga (meat and potato stew) and for braised potatoes. The sloping fields drain well, so the tubers come out evenly shaped, and the bright skin color is credited to the soil.\n## How it's made\nFor the spring crop, seed potatoes go in during winter and are dug in May and June. The autumn crop is planted at the end of summer and lifted toward the year's end, and districts that raise two potato crops a year in the same field are said to be rare in Japan. The fields of the Shimabara Peninsula lie on the lower slopes of Mount Unzen, ridged into stone-walled terraces. Harvest is by hand or with small machines, and spring new potatoes are usually shipped with the soil brushed off rather than washed.\n## Why it took this shape\nThe potato is said to have reached Nagasaki early in the 17th century on Dutch ships from Jakarta, then called Jagatara, and the name jagatara-imo, later jagaimo, is traced to that. The Shimabara Peninsula is the skirt of a volcano with little flat land, and field crops rather than rice supported life there. Seaside slopes where frost rarely settles can grow potatoes while other regions rest, and this fixed the pattern of an early spring crop and a second autumn one. That terraced handwork persists rather than broad fields is itself bound up with the shape of the land.",
+      "sources": [
+        {
+          "title": "長崎県公式サイト",
+          "url": "https://www.pref.nagasaki.jp/",
+          "publisher": "長崎県",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 鯨じゃが（長崎県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/46_19_nagasaki.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kujira-jaga",
+          "to_slug": "nagasaki-jagaimo",
+          "relation_type": "使用食材",
+          "basis": "鯨じゃがは長崎の鯨肉とじゃがいもを甘辛く煮る郷土料理で、地元産のじゃがいもが使われるとされる"
+        }
+      ]
+    },
+    {
+      "slug": "aso-takana",
+      "body_ja": "## 何でできているか\n平地の高菜に比べて葉が小さく、茎が細くすらりと長いのが見た目の違いとされる。かじると鼻に抜ける辛味があり、繊維が締まっているため漬けても歯ごたえが残るという。塩と唐辛子で数日漬けた新漬けは青い香りと辛味が立ち、梅雨を越して乳酸発酵させた古漬けはべっこう色に変わり、酸味と旨みが深まるとされる。刻んで油で炒め、ご飯に混ぜる高菜めしは、この辛味があってこそ成り立つ味だという。\n## どう作るのか\n種は秋に播き、火山灰の畑で冬を越させるという。収穫は3月下旬から4月上旬の短い期間に集中し、鎌を使わず茎を一本ずつ手で折り取る「高菜折り」が今も続くとされる。折った高菜はその日のうちに塩と唐辛子をまぶして桶に漬け込むのがよいとされ、鮮度が味を決めるという。阿蘇の高菜は細いため、太い高菜のように葉を広げて漬けるのではなく束のまま漬けると伝わる。寒さに当たった後に伸びる茎が、最も柔らかく辛味も整うとされる。\n## なぜこの形になったのか\n阿蘇は外輪山に囲まれたカルデラの底と草原に集落が点在する土地で、標高が高く冬は冷え込むとされる。火山灰の土は軽く水はけがよい一方で養分が少なく、ここで育つ高菜は大きくならない代わりに味が締まると説明されることが多い。長い冬のあとに最初にとれる青物であり、夏の湿気の中でも保存できる漬物にする必要があったことが、辛味の強い系統と塩・唐辛子の漬け方を残したと伝わる。火山の麓で暮らす家々の春の仕事が、この高菜の姿を作ったという。",
+      "body_en": "## What it's made of\nSet beside lowland takana, the leaves are smaller and the stems thin, long and straight. A bite sends a peppery sharpness up the nose, and the tight fiber keeps its crunch even after pickling. Cured a few days in salt and chili, the fresh pickle is green-scented and hot; left through the rainy season to ferment with lactic acid, the old pickle turns amber and gains sourness and depth. Takana-meshi, the pickle chopped, fried in oil and folded into rice, is a dish said to work only because of that bite.\n## How it's made\nSeed is sown in autumn and the plants overwinter in the volcanic-ash fields. Harvest is crammed into a short window from late March to early April, and takana-ori, snapping each stem by hand rather than cutting with a sickle, is still practiced. The picked greens are best rubbed with salt and chili and packed into tubs the same day; freshness decides the flavor. Being thin, Aso takana is pickled in bundles rather than leaf by leaf as thicker strains are. The stems that shoot up after the cold are said to be the tenderest, with the bite at its best.\n## Why it took this shape\nAso is a caldera ringed by outer mountains, with villages scattered across its floor and grasslands, high enough that winters are cold. The volcanic ash is light and drains well but is poor in nutrients, and the usual explanation is that takana grown here stays small and gains flavor instead. It was the first green to come up after a long winter, and it had to be preserved so as to keep through the humid summer; that need is said to have kept the sharp strain and the salt-and-chili cure alive. The spring work of households at the foot of the volcano gave this green its shape.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 阿蘇高菜漬け（熊本県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/aso_takana_zuke_kumamoto.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "阿蘇市公式サイト",
+          "url": "https://www.city.aso.kumamoto.jp/",
+          "publisher": "阿蘇市",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "takana-zuke",
+          "to_slug": "aso-takana",
+          "relation_type": "使用食材",
+          "basis": "高菜漬けの本場の一つが阿蘇で、収穫したての阿蘇高菜を塩と唐辛子で漬けるとされる"
+        }
+      ]
+    },
+    {
+      "slug": "suizenji-seri",
+      "body_ja": "## 何でできているか\n茎が白く長く、根元まで柔らかいのが見た目の特徴とされる。山のせりのような強い香りや苦味は控えめで、噛むと水気が多く歯ざわりが軽いという。葉は小さく淡い緑で、湯にくぐらせると色が冴える。おひたしや和え物にすると香りがほのかに立ち、鍋や雑煮に入れると最後に加えて香りを残すのがよいとされる。根も捨てずに食べる人が多いと伝わる。\n## どう作るのか\n湧水を引いた浅い田に株を植え、流れる水の中で育てるという。水温が一年を通して大きく変わらない湧水のため、冬でも凍らず、茎は水に浸かった部分が日に当たらずに白く伸びるとされる。収穫は冬から早春にかけて、根ごと抜いて水で洗い、束にして出荷されると伝わる。江津湖周辺の限られた水田で、代々続く生産者が作っているという。食べる前には流水でよく洗い、さっと茹でて冷水にとると色と歯ざわりが保てるとされる。\n## なぜこの形になったのか\n熊本市は阿蘇の火山活動が作った地層に雨が染み込み、市街地の近くで湧き出す地下水の町として知られる。水前寺成趣園や江津湖はその湧水でできた池で、周辺は古くから水を使う作物が作られてきたという。せりは湿地の植物で、冷たく清い流れを好むため、この湧水地帯に根づいたとされる。熊本市ではこうした市域の伝統野菜を「ひご野菜」としてまとめて伝えており、水前寺せりもその一つに数えられるという。水の町の暮らしが、白く長いせりを育てたと言われる。",
+      "body_en": "## What it's made of\nThe stems are long and white and tender down to the base. The strong scent and bitterness of wild hillside seri are muted; the stalks are juicy and crunch lightly. The leaves are small and pale green, brightening when dipped in hot water. In ohitashi or dressed salads the fragrance rises softly, and in a hot pot or zōni it is best added last so that the aroma remains. Many people eat the roots as well.\n## How it's made\nPlants are set in shallow paddies fed by spring water and raised in the moving current. Because the springs hold a near-constant temperature through the year, the beds do not freeze in winter, and the submerged part of each stem, shaded from the sun, grows white. Harvest runs from winter into early spring; the plants are pulled up with their roots, rinsed and bundled. A handful of long-standing growers work the few water fields around Lake Ezu. Before eating, it is rinsed well in running water and blanched briefly, then cooled, to keep the color and crunch.\n## Why it took this shape\nRain soaking through the layers laid down by Aso's eruptions surfaces as groundwater near the center of Kumamoto, a city known for its springs. Suizenji Jōjuen garden and Lake Ezu are pools formed by that water, and crops that need water have long been grown around them. Seri is a wetland plant that favors cold, clean flow, which is why it settled in this district of springs. The city groups such local heirlooms under the name Higo yasai (Higo vegetables), and Suizenji seri is counted among them. Life in a city of water is said to have raised this long white parsley.",
+      "sources": [
+        {
+          "title": "熊本市公式サイト",
+          "url": "https://www.city.kumamoto.jp/",
+          "publisher": "熊本市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 熊本県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/kumamoto.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "suizenji-seri",
+          "to_slug": "aso-takana",
+          "relation_type": "対比",
+          "basis": "同じ阿蘇の火山がもたらした環境でも、カルデラの火山灰の畑で締まった辛味に育つ高菜と、麓の湧水の流れで白く柔らかく育つせりは対照をなす"
+        }
+      ]
+    },
+    {
+      "slug": "sorin-kabocha",
+      "body_ja": "## 何でできているか\n皮は黒に近い濃い緑で、縦に深い溝が走り、表面はごつごつとしているという。切ると肉は橙色で水分が多く、西洋かぼちゃのほくほくした粉質とは違い、ねっとりとした舌ざわりになるとされる。甘みは控えめで、だしや醤油を含ませる煮物にすると味が入りやすく、煮崩れしにくいという。皮が薄く柔らかいため皮ごと食べられ、炊き合わせや味噌汁、天ぷらにも向くと伝わる。\n## どう作るのか\n種は春に播き、つるを這わせて夏に収穫するという。日本かぼちゃは高温多湿に強いとされ、梅雨のある大分の夏でも育てやすいと伝わる。大分市内の限られた生産者が、自家採種で系統を保ちながら作っているとされる。収穫後は風通しのよい場所で少し置くと水分が落ち着き、味が乗るという。食べ方は、大きめに切って砂糖と醤油で煮含める煮物が基本とされ、だんご汁の具に入れる家もあると伝わる。\n## なぜこの形になったのか\n16世紀の大分（府内）は大友宗麟のもとで南蛮貿易の港として開かれ、ポルトガル人の宣教師や商人が出入りしたとされる。かぼちゃはこのころカンボジア経由で日本に伝わったという説があり、「かぼちゃ」の名もそこに由来すると伝わる。大分に残る日本かぼちゃの系統がこの時代の渡来に連なるかは裏付けが一様でないが、土地の人々は宗麟の名を冠して受け継いできたという。西洋かぼちゃが広まった後も、煮物向きの性質と由来の物語が、この在来種を大分市の畑に残したとされる。",
+      "body_en": "## What it's made of\nThe skin is a green so dark it reads as black, scored with deep vertical ribs and knobbly to the touch. Cut open, the flesh is orange and moist, and in the mouth it is sticky rather than the dry, floury texture of Western squash. Sweetness is restrained, so it takes up dashi and soy sauce readily in a simmer and holds its shape. The thin, soft skin is eaten along with the flesh, and it also suits braises with other vegetables, miso soup and tempura.\n## How it's made\nSeed is sown in spring, the vines are allowed to run, and the fruit is cut in summer. Japanese pumpkins are said to stand up well to heat and humidity, which makes them manageable through Ōita's rainy season. A small number of growers in the city keep the strain going by saving their own seed. After harvest the fruit is rested somewhere airy for a while, so that the moisture settles and the flavor rounds out. The basic dish is large chunks simmered with sugar and soy sauce, and some households add it to dango-jiru (a dumpling soup).\n## Why it took this shape\nIn the 16th century Ōita, then called Funai, opened as a port for trade with the Portuguese under Ōtomo Sōrin, and missionaries and merchants came and went. One account has the pumpkin reaching Japan around this time by way of Cambodia, and the word kabocha is traced to that name. Whether the Japanese-pumpkin strain surviving in Ōita descends directly from those arrivals is not firmly established, but local people have carried it on under Sōrin's name. Even after Western squash spread, its suitability for simmering and the story of its origin kept this heirloom in the fields of Ōita city.",
+      "sources": [
+        {
+          "title": "大分市公式サイト",
+          "url": "https://www.city.oita.oita.jp/",
+          "publisher": "大分市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 大分県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/oita.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "sorin-kabocha",
+          "to_slug": "hyuga-kabocha",
+          "relation_type": "兄弟",
+          "basis": "どちらも九州東岸に残る日本かぼちゃの在来系統で、黒緑の皮と深い溝、煮崩れしにくい肉質を共有する"
+        }
+      ]
+    },
+    {
+      "slug": "sadowara-nasu",
+      "body_ja": "## 何でできているか\n長さ20〜30センチほどに伸びる細長いなすで、皮は薄く、やや紫がかった色をしているという。果肉は柔らかく水分が多いため、焼くと皮がすっとむけ、中はとろりとして甘いとされる。アクが少なく、生で薄く切って塩でもむだけでも食べられると伝わる。油との相性もよく、炒め物や揚げびたしにすると果肉が煮汁を吸ってやわらかくなるという。焼きなすにして冷やし、しょうが醤油で食べるのが定番とされる。\n## どう作るのか\n春に苗を植え、夏から秋にかけて次々に実をつけるという。日当たりと水を好み、宮崎の長い日照と温暖な気候に合うとされる。皮が薄く傷がつきやすいため、収穫は実が若いうちに手で丁寧に行われ、遠くへ運ぶより地元で売られることが多いと伝わる。佐土原町の生産者が種を受け継ぎ、宮崎市内で栽培を続けているという。実を大きくしすぎると皮が硬くなるため、適期に取るのが味を保つこつとされる。\n## なぜこの形になったのか\n佐土原は島津家の分家が治めた城下町で、江戸期から周辺でなすが作られていたと伝わる。皮の薄い柔らかな長なすは地元で食べる分には申し分なかったが、流通が広域になるにつれ、傷みやすさから市場向きの品種に置き換わり、栽培はほぼ途絶えたとされる。その後、国の遺伝資源として保存されていた種子が見つかり、地元の生産者が育て直したことで再び畑に戻ったという。焼きなすという最も単純な食べ方で違いが分かることが、復活を後押ししたと言われる。",
+      "body_en": "## What it's made of\nA slender eggplant stretching 20 to 30 centimeters, with thin, slightly violet-tinged skin. The flesh is soft and full of water, so that after grilling the skin slips off and the inside is molten and sweet. It has little astringency and can be eaten raw, sliced thin and rubbed with salt. It takes to oil as well; stir-fried or fried and steeped in broth, the flesh drinks up the liquid and softens. The standard way is yaki-nasu, grilled whole, chilled and eaten with ginger and soy sauce.\n## How it's made\nSeedlings go in during spring and the plants bear fruit after fruit from summer into autumn. The variety likes sun and water, and suits Miyazaki's long sunshine and warm climate. Because the thin skin marks easily, the fruit is picked young and by hand, and it is more often sold locally than shipped far. Growers in Sadowara have kept the seed and continue to raise it within Miyazaki city. Let the fruit grow too large and the skin toughens, so picking at the right moment is the key to its flavor.\n## Why it took this shape\nSadowara was a castle town governed by a branch of the Shimazu family, and eggplants are said to have been grown around it since the Edo period. A thin-skinned, tender long eggplant was ideal for eating locally, but as distribution widened it was displaced by market varieties that bruised less, and cultivation all but ceased. Later, seed that had been preserved in the national genetic-resource collection was located, and local growers raised it again, returning it to the fields. That the difference shows in the simplest preparation, grilling, is said to have helped the revival.",
+      "sources": [
+        {
+          "title": "宮崎市公式サイト",
+          "url": "https://www.city.miyazaki.miyazaki.jp/",
+          "publisher": "宮崎市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 宮崎県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/miyazaki.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "sadowara-nasu",
+          "to_slug": "hyuga-kabocha",
+          "relation_type": "対比",
+          "basis": "同じ宮崎市の伝統野菜でも、皮が薄く輸送に向かず一度途絶えたなすと、煮崩れしにくく料理店向けに残り続けたかぼちゃは残り方が対照をなす"
+        }
+      ]
+    },
+    {
+      "slug": "hyuga-kabocha",
+      "body_ja": "## 何でできているか\n皮は黒に近い濃緑で、縦に深い溝が走り、表面はごつごつしているという。肉は橙色で水分が多く、西洋かぼちゃのような粉質の甘さではなく、だしや醤油を含ませてこそ味が立つとされる。火を通しても角が崩れにくく、切り口の形が器の中で保たれるため、料理店の煮物や炊き合わせに向くと説明されることが多い。皮まで柔らかく食べられ、皮の黒と肉の橙の対比が見た目の持ち味という。\n## どう作るのか\n温暖な宮崎では、秋に種を播いてハウスで育て、冬から春にかけて収穫する作型が主とされる。日本かぼちゃは実が蔓の先で地面につくと形や色が偏るため、実を吊るしたり向きを変えたりして育てると伝わる。収穫後は追熟させずに出荷され、煮物に使うときは大きめに切り、砂糖と薄口醤油でゆっくり煮含めるのが基本という。宮崎市周辺の生産者が種を受け継ぎ、数は多くないものの栽培が続いているとされる。\n## なぜこの形になったのか\n日本かぼちゃは江戸期までに各地に広まったとされ、宮崎でも在来のかぼちゃが作られていたと伝わる。明治以降に西洋かぼちゃが広まるなかで、宮崎では冬の温暖さを生かし、他の産地が休む冬から春にかぼちゃを出荷する形が育ったという。煮崩れしにくい肉質は、形を保つことを重んじる料理店の煮物に合い、産地が小さくても使い手がつき続けたとされる。日向かぼちゃの煮物は宮崎市の家庭にも伝わり、郷土料理として記録されているという。",
+      "body_en": "## What it's made of\nThe skin is so dark a green that it reads as black, scored with deep vertical ribs and rough to the touch. The orange flesh is moist; rather than the floury sweetness of Western squash, its flavor comes forward only once it has taken up dashi and soy sauce. The edges stay sharp through cooking and the cut shape holds in the bowl, which is why it is so often recommended for restaurant simmered dishes and braises. The skin softens enough to eat, and the contrast of black skin and orange flesh is part of its look.\n## How it's made\nIn warm Miyazaki the main cycle is to sow in autumn, raise the plants under cover and harvest from winter into spring. Because a Japanese pumpkin lying on the ground at the end of its vine colors and shapes unevenly, growers hang the fruit or turn it as it grows. It ships without a ripening rest, and for simmering it is cut large and cooked slowly with sugar and light soy sauce. Growers around Miyazaki city have kept the seed, and cultivation continues, though on a small scale.\n## Why it took this shape\nJapanese pumpkins are said to have spread across the country by the Edo period, and Miyazaki had its own local pumpkins. As Western squash took over from the Meiji era on, Miyazaki drew on its mild winters to ship pumpkins from winter to spring, when other regions were idle. Flesh that does not fall apart suited restaurant simmering, where keeping a clean shape matters, and so the variety held onto its users even as a small crop. The simmered dish hyūga kabocha no nimono is also passed down in Miyazaki households and is recorded as a local dish.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 日向黒皮かぼちゃの煮物（宮崎県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/hyuuga_kuro_kabocha_no_nimono_miyazaki.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "宮崎市公式サイト",
+          "url": "https://www.city.miyazaki.miyazaki.jp/",
+          "publisher": "宮崎市",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "hyuga-kabocha-nimono",
+          "to_slug": "hyuga-kabocha",
+          "relation_type": "使用食材",
+          "basis": "日向黒皮かぼちゃの煮物は、この日本かぼちゃを大きめに切って砂糖と薄口醤油で煮含める宮崎市の郷土料理とされる"
+        }
+      ]
+    },
+    {
+      "slug": "sakurajima-daikon",
+      "body_ja": "## 何でできているか\n細長い大根を見慣れた目には、形がまず違う。根は扁平な球形で、直径が40〜50センチ、重さは数キロから、大きなものでは10キロを超えると言われる。皮は白く、上部がわずかに緑を帯びる。肉質はきめが細かく締まっており、水分が多いのに繊維は少なく、生でかじると辛味よりも甘みが先に立つという。火を通しても崩れにくく、厚く切って煮ると味がゆっくり染み込むとされ、ぶり大根のような長く煮る料理に向くと説明されることが多い。千枚漬け風の漬物や切り干しにもされると伝わる。\n## どう作るのか\n種は8月の終わりから9月にかけて播くという。桜島の畑は火山灰と軽石が混じった「ボラ」と呼ばれる軽い土で、水はけがよく根が横へ広がりやすいとされる。株間を広く取り、冬に向かって太らせ、収穫は12月から2月にかけてと伝わる。噴火の火山灰が葉に積もるため、生産者は灰を払い落としながら育てるという。収穫した大根は葉を落とし、煮物や漬物のほか、厚い輪切りをそのまま煮含める家もあるとされる。鹿児島湾を挟んだ対岸でも作られるが、桜島の土で育てたものが本来の姿とされる。\n## なぜこの形になったのか\n桜島は今も噴火を続ける火山で、斜面の畑は火山灰と軽石の層でできているという。この土は軽く、根が抵抗なく広がれるため、大根が横へ太ったとする説明が一般的とされる。江戸期の薩摩の書物に桜島の大根が記されていると伝わり、藩の時代から島の作物として知られていたらしい。鹿児島の温暖な冬は畑で大きくなるまで置いておけることも、この大きさを支えたとされる。大正の大噴火で畑の多くが溶岩や灰に埋まり、栽培は一時減ったというが、島の生産者が種を守り、今は鹿児島の伝統野菜として受け継がれているという。",
+      "body_en": "## What it's made of\nTo eyes used to long, slender daikon, the first difference is the shape. The root is a flattened sphere, 40 to 50 centimeters across, weighing from a few kilograms up to more than ten in the largest. The skin is white, faintly greened at the shoulders. The flesh is fine-grained and firm, juicy yet with little fiber, and bitten raw it tastes sweet before it tastes sharp. It keeps its shape through long cooking, and thick slices take up flavor slowly, which is why it is so often recommended for slow simmers like buri-daikon. It also goes into thin-sliced pickles and is dried in strips.\n## How it's made\nSeed is sown from the end of August into September. The fields of Sakurajima are a light mix of ash and pumice called bora, which drains freely and lets the root spread sideways. Plants are spaced wide and allowed to swell toward winter, with harvest running from December to February. Because eruptions dust the leaves with ash, growers brush it off as the crop grows. The harvested roots are topped and go into simmered dishes and pickles; some households cook thick rounds whole until they are soaked through. The radish is also grown on the far shore of Kagoshima Bay, but the one raised in Sakurajima's own soil is taken as the true form.\n## Why it took this shape\nSakurajima is a volcano that still erupts, and the fields on its slopes are built of layers of ash and pumice. The usual explanation is that this loose ground offers the root no resistance, so the radish grows outward rather than down. Writings from Satsuma in the Edo period are said to mention the daikon of Sakurajima, so it seems to have been known as an island crop from the time of the domain. Kagoshima's mild winter, which lets the roots stay in the ground until they are huge, is also credited with the size. The great eruption of the Taishō era buried much of the farmland under lava and ash and cultivation is said to have shrunk for a time, but island growers kept the seed, and it is now passed on as a traditional vegetable of Kagoshima.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 ぶり大根（鹿児島県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/buridaikon_kagoshima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "鹿児島県公式サイト",
+          "url": "https://www.pref.kagoshima.jp/",
+          "publisher": "鹿児島県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "kagoshima-buridaikon",
+          "to_slug": "sakurajima-daikon",
+          "relation_type": "使用食材",
+          "basis": "鹿児島のぶり大根は、身が締まり煮崩れしにくい桜島大根を合わせると味が深まるとされる"
+        }
+      ]
+    },
+    {
+      "slug": "anno-imo",
+      "body_ja": "## 何でできているか\n皮は赤褐色で、切ると中は淡い橙色をしているという。生のうちは水分が多く締まりがないが、焼くと肉がとろけるように柔らかくなり、口に入れると蜜のような甘さが広がるとされる。ほくほくした粉質のさつまいもとは正反対の、ねっとりした舌ざわりが持ち味で、冷めても硬くならないという。焼き芋のほか、蒸してそのまま、あるいは裏ごしして菓子に使われると伝わる。皮が薄く、焼くと皮の内側に蜜がにじんで焦げるのが目印とされる。\n## どう作るのか\n苗は春から初夏に植え、秋に掘り上げるという。種子島の畑は火山の島ではなく、赤土や砂まじりの土で水はけがよいとされる。掘りたては甘みが薄く、収穫後に温度と湿度を保った場所で数週間から1〜2か月ほど置いて、でんぷんが糖に変わるのを待ってから出荷するのが基本と伝わる。焼くときは低めの温度で時間をかけるほど甘みが出るとされ、家庭ではオーブンや炭火でゆっくり火を通すという。島内では「安納紅」「安納こがね」などの系統が作られていると伝わる。\n## なぜこの形になったのか\nさつまいもは琉球から種子島へ伝わったとする話があり、島では古くから「からいも」として作られてきたという。安納芋そのものは、戦後に外地から持ち帰られた芋の種を安納地区の農家が育てたのが始まりと伝わるが、詳しい経路は一様ではない。台風の多い島で、地中に実るさつまいもは風に強い作物として暮らしを支えたとされる。水分の多い柔らかな芋は本土の粉質の芋と異なり、焼き芋にしたときの違いが分かりやすかったことから、島の名を冠した芋として受け継がれたという。",
+      "body_en": "## What it's made of\nThe skin is reddish brown and the flesh inside a pale orange. Raw, it is watery and loose, but baking turns the flesh meltingly soft, and a honey-like sweetness spreads in the mouth. Its sticky, moist texture is the opposite of a dry, floury sweet potato, and it does not harden as it cools. Besides being baked whole, it is steamed and eaten plain or sieved into sweets. The skin is thin, and syrup seeping out beneath it and caramelizing is taken as the sign that it is done.\n## How it's made\nSlips are planted from spring into early summer and the tubers dug in autumn. Tanegashima is not a volcanic island; its fields are red clay and sandy soil that drain well. Freshly dug, the tubers are only faintly sweet, so the rule is to hold them for several weeks to a month or two in a place with steady warmth and humidity, letting starch turn to sugar before shipping. The lower and slower the baking, the sweeter it becomes, and at home it is cooked gently in an oven or over charcoal. Strains called Annō-beni and Annō-kogane are grown on the island.\n## Why it took this shape\nOne account has the sweet potato reaching Tanegashima from the Ryukyu islands, and it has long been grown there as karaimo, 'the potato from overseas'. Annō-imo itself is said to have begun after the war, when seed potatoes brought back from abroad were raised by farmers in the Annō district, though the details of the route are not uniform. On an island beset by typhoons, a crop that forms underground was valued as one that could stand the wind. Because this moist, soft potato differs plainly from the floury types of the mainland once baked, it came to be passed on under the name of the district.",
+      "sources": [
+        {
+          "title": "西之表市公式サイト",
+          "url": "https://www.city.nishinoomote.lg.jp/",
+          "publisher": "西之表市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "鹿児島県公式サイト",
+          "url": "https://www.pref.kagoshima.jp/",
+          "publisher": "鹿児島県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "anno-imo",
+          "to_slug": "nagasaki-jagaimo",
+          "relation_type": "対比",
+          "basis": "どちらも九州の島・半島の斜面で育つ芋だが、長崎のじゃがいもが春秋の二期作で早出しするのに対し、安納芋は収穫後に貯蔵して甘みを引き出してから出す"
+        }
+      ]
+    },
+    {
+      "slug": "okinawa-gooyaa",
+      "body_ja": "## 何でできているか\n長さ20〜30センチほどの緑の果実で、表面は大小のこぶが連なり、手に取るとごつごつしているという。縦に割ると中は白い綿と種で、食べるのは果肉の部分とされる。味の芯は苦味で、薄く切って塩でもむと和らぐが、消えはしないという。歯ざわりはみずみずしく、油と合わせると苦味が丸くなり、豆腐や卵、豚肉の甘みと釣り合うと説明されることが多い。熟すと黄色くなり、種のまわりが赤く甘くなるが、食用には青いうちに収穫するとされる。\n## どう作るのか\n種は春に播き、つるを棚や網に這わせて育てるという。沖縄では5月ごろから夏いっぱいが露地の収穫期で、冬はハウスで作られるとされる。暑さに強く、夏の日差しの下でも実を付け続けるため、家の軒先に日よけを兼ねて植える家も多いと伝わる。収穫は果実が緑で締まっているうちに行い、置くと黄変して苦味が抜けていくという。下ごしらえは縦半分に切って種と綿をスプーンでかき出し、薄切りにする。チャンプルーのほか、佃煮や天ぷら、酢の物、ジュースにもされるとされる。\n## なぜこの形になったのか\nにがうりは熱帯アジア原産とされ、中国を経て琉球に伝わったという説が一般的とされる。本土にも「にがごり」などの名で入ったが、沖縄ほど日常に根づいた土地は少ないという。亜熱帯の夏に葉物が育ちにくい沖縄では、暑さに強く実を付け続けるゴーヤーが夏の青物の柱となり、苦味が食欲を保つ食べ物として受け止められてきたとされる。豆腐や豚肉を油で炒める琉球の料理の型と結びついたことで、ゴーヤーは島の夏の味の顔になったという。県は戦前から食べられてきた野菜を島野菜として挙げており、ゴーヤーもその一つとされる。",
+      "body_en": "## What it's made of\nA green fruit 20 to 30 centimeters long, its skin a run of larger and smaller bumps, rough in the hand. Split lengthwise it shows white pith and seeds; the flesh around them is what is eaten. Bitterness is the heart of its taste; slicing thin and rubbing with salt softens it but never removes it. The crunch is juicy, and with oil the bitterness rounds off, balancing the sweetness of tofu, egg and pork, which is the usual way it is explained. Left to ripen it turns yellow and the seed coats become red and sweet, but for eating it is picked green.\n## How it's made\nSeed is sown in spring and the vines are trained up trellises or netting. In Okinawa the open-field harvest runs from around May through the summer, with greenhouse crops in winter. It stands heat well and keeps setting fruit under the summer sun, so many households plant it along the eaves as a living sunshade. Fruit is picked while still green and firm; left longer it yellows and the bitterness fades. To prepare it, the gourd is halved lengthwise, the seeds and pith scraped out with a spoon, and the flesh sliced thin. Beyond chanpurū it is simmered into tsukudani, fried as tempura, dressed with vinegar and pressed into juice.\n## Why it took this shape\nBitter melon is thought to be native to tropical Asia and to have reached the Ryukyu islands by way of China. It entered the mainland too, under names like nigagori, but few places took it into daily cooking as Okinawa did. In a subtropical summer when leafy greens struggle, a vine that shrugs off heat and keeps fruiting became the mainstay of summer vegetables, and its bitterness was taken as something that keeps the appetite going. Joined to the Ryukyuan habit of stir-frying tofu and pork in oil, gōyā became the face of the island summer. The prefecture lists vegetables eaten since before the war as shima-yasai, island vegetables, and gōyā is counted among them.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 ゴーヤーチャンプルー（沖縄県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_11_okinawa.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "沖縄県公式サイト",
+          "url": "https://www.pref.okinawa.jp/",
+          "publisher": "沖縄県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "gooyaa-chanpuruu",
+          "to_slug": "okinawa-gooyaa",
+          "relation_type": "使用食材",
+          "basis": "ゴーヤーチャンプルーは薄切りのゴーヤーを沖縄豆腐や卵、豚肉と炒め合わせる料理で、ゴーヤーが主役の野菜とされる"
+        }
+      ]
+    },
+    {
+      "slug": "shima-rakkyo",
+      "body_ja": "## 何でできているか\n白い鱗茎は本土のらっきょうより細く、親指ほどの太さにも満たないという。緑の葉を付けたまま束で売られ、根元の白い部分と、柔らかい葉の下半分を食べるとされる。噛むと鼻に抜ける辛味と香りが強く、ねぎとにんにくの間のような風味と説明されることが多い。塩でもんで少し置くと辛味が落ち着き、歯ざわりはしゃきりと残るという。油で揚げると辛味が甘みに変わり、天ぷらやチャンプルーでは別の顔を見せるとされる。\n## どう作るのか\n種球は夏の終わりから秋に植え、冬を越して12月ごろから翌春にかけて掘り取るという。沖縄の冬は暖かく、本土で休眠する時期にも育ち続けるため、若い株を冬の野菜として出荷できるとされる。伊江島や宮古島、本島南部の砂まじりの畑で作られ、水はけのよい土が白く締まった鱗茎を育てると伝わる。食べる前に根と外皮を一本ずつ取り除く手間が要るとされる。塩もみして鰹節と醤油で食べる浅漬けが基本で、泡盛の肴として好まれるという。\n## なぜこの形になったのか\nらっきょうは中国から日本に伝わったとされ、沖縄にも早くから入っていたと伝わる。本土では鱗茎を太らせて甘酢に漬ける食べ方が広まったが、沖縄では若く細いうちに掘り、塩と鰹節で生に近い形で食べる習慣が残ったという。暖かい冬に掘れることが、この食べ方を支えたとされる。琉球の食卓では野菜を豚だしや鰹節と合わせる型が多く、島らっきょうもその中で塩漬けと天ぷらという姿を得たと説明される。県は戦前から食べられてきた野菜を島野菜として挙げており、島らっきょうもその一つに数えられるという。",
+      "body_en": "## What it's made of\nThe white bulbs are thinner than mainland rakkyō, slimmer than a thumb. They are sold in bundles with the green leaves on, and both the white base and the tender lower half of the leaves are eaten. Biting into one sends a sharp, fragrant heat up the nose, a flavor usually described as somewhere between scallion and garlic. Rubbed with salt and left a short while, the bite settles while the crunch stays crisp. Frying turns the heat to sweetness, and in tempura or a chanpurū it shows a different face.\n## How it's made\nSeed bulbs are planted from late summer into autumn, overwinter, and are dug from around December through the following spring. Okinawa's winters are warm enough that the plants keep growing while mainland rakkyō lies dormant, so the young plants can be shipped as a winter vegetable. They are raised in the sandy fields of Ie island, Miyako island and the south of the main island, where free-draining soil is said to produce firm white bulbs. Before eating, each stalk must be trimmed of roots and outer skin by hand. The basic dish is a quick salt cure eaten with bonito flakes and soy sauce, a favorite companion to awamori.\n## Why it took this shape\nRakkyō is said to have come to Japan from China and to have reached Okinawa early. On the mainland the custom became to fatten the bulbs and pickle them in sweet vinegar, while Okinawa kept the habit of digging them young and thin and eating them nearly raw with salt and bonito. Warm winters that allow digging in the cold months are credited with sustaining that way of eating. Ryukyuan cooking pairs vegetables with pork stock and bonito flakes, and within that pattern shima-rakkyō found its forms as a salted pickle and as tempura. The prefecture lists vegetables eaten since before the war as shima-yasai, island vegetables, and shima-rakkyō is counted among them.",
+      "sources": [
+        {
+          "title": "沖縄県公式サイト",
+          "url": "https://www.pref.okinawa.jp/",
+          "publisher": "沖縄県",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "JAおきなわ",
+          "url": "https://www.ja-okinawa.or.jp/",
+          "publisher": "沖縄県農業協同組合",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "shima-rakkyo",
+          "to_slug": "rakkyou-zuke",
+          "relation_type": "対比",
+          "basis": "本土のらっきょうを太らせて甘酢に漬けるらっきょう漬けに対し、島らっきょうは若く細いうちに掘って塩でもみ、鰹節と醤油で生に近い形で食べる"
+        },
+        {
+          "from_slug": "shima-rakkyo",
+          "to_slug": "okinawa-gooyaa",
+          "relation_type": "対比",
+          "basis": "同じ沖縄の島野菜でも、夏の棚で実るゴーヤーの苦味と、冬から春の砂地で掘る島らっきょうの辛味は季節と土が対照をなす"
+        }
+      ]
+    },
+    {
+      "slug": "okinawa-taimo",
+      "body_ja": "## 何でできているか\n泥の中から掘り上げた株は、拳より大きな親芋のまわりに子芋がいくつも付いているという。皮は茶色くざらつき、中は白から淡い紫がかった色で、火を通すと粘りが強く出るとされる。普通の里芋よりきめが詰まってねっとりとし、噛むと土の香りをまとった素朴な甘みがあるという。茎（ムジ）も食べられ、芋と一緒に豚だしで練り上げる料理に使われると伝わる。生のままでは傷みやすいため、産地で蒸してから売られるのが普通とされ、買ってすぐ食べられる形で店に並ぶという。\n## どう作るのか\n水を張った田に親芋から分けた子芋を植え付け、1年近く水の中で育てるという。水を絶やさず、泥の中で親芋を太らせながら周囲に子芋を付けさせるとされる。収穫は年間を通して行われるが、正月や盆の需要に合わせて増えると伝わる。掘り上げた芋は泥を落とし、大きな釜で蒸してから出荷するのが基本で、蒸すことで日持ちし、独特の粘りが落ち着くという。家庭では蒸した芋を砂糖で練るターンムディンガクや、茎と豚肉、椎茸を合わせて練るドゥルワカシー、素揚げなどにするとされる。\n## なぜこの形になったのか\n田芋は水田で育つ芋で、沖縄では湧き水が豊かな低地に根づいたと伝わる。金武町の田や宜野湾市大山の湿地は、石灰岩の台地から染み出す水が年中枯れない土地で、稲よりも田芋の畑として使われてきたという。台風の多い島で、水に浸かって育つ芋は風の害を受けにくく、保存のきく蒸し芋として扱えたことも土地に残った理由とされる。親芋から子芋が増える姿が子孫繁栄に重ねられ、琉球の祝いの膳に組み込まれたことで、田芋は日常の野菜というより行事の食材として受け継がれているという。",
+      "body_en": "## What it's made of\nA plant pulled from the mud shows a parent corm bigger than a fist with a cluster of smaller corms around it. The skin is brown and rough, the inside white to faintly purple, and cooking brings out a strong stickiness. It is denser and more glutinous than ordinary satoimo, with a plain sweetness that carries the scent of the earth. The stalks, called muji, are eaten too, worked together with the corms in pork stock. Because the raw corms spoil quickly, they are usually steamed at the growing site before sale and reach the shop ready to eat.\n## How it's made\nSmall corms split from a parent are planted in flooded paddies and raised in water for close to a year. The water is never allowed to run dry; the parent corm swells in the mud while the offsets form around it. Harvest goes on through the year but rises ahead of the New Year and Obon. Dug corms are rinsed of mud and steamed in large cauldrons before shipping, which makes them keep and settles their peculiar stickiness. At home the steamed corms are kneaded with sugar into tāmu dingaku, worked with the stalks, pork and shiitake into duruwakashī, or deep-fried plain.\n## Why it took this shape\nTaro of this kind grows in paddies, and in Okinawa it took root in lowlands rich in spring water. The fields of Kin and the wetlands of Ōyama in Ginowan are fed year-round by water seeping from the limestone plateau, and they have been used for tāmu rather than rice. On an island of typhoons, a corm that grows submerged suffers little from wind, and it could be handled as a steamed, storable food; both are given as reasons it stayed. The way offsets multiply around the parent was read as a sign of flourishing descendants, and once folded into Ryukyuan celebration meals, tāmu came down the generations less as an everyday vegetable than as a food of occasions.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 ターンムディンガク（沖縄県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_7_okinawa.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "金武町公式サイト",
+          "url": "https://www.town.kin.okinawa.jp/",
+          "publisher": "金武町",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "taanmu-dingaku",
+          "to_slug": "okinawa-taimo",
+          "relation_type": "使用食材",
+          "basis": "ターンムディンガクは蒸した田芋を砂糖で練り上げる沖縄の祝いの一品で、田芋が主材料とされる"
+        }
+      ]
+    }
+  ]
+}

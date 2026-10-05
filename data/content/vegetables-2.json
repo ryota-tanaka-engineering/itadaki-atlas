@@ -1,0 +1,541 @@
+{
+ "genres": [],
+ "items": [
+  {
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "primary_style": "",
+   "regions": [],
+   "tags": [],
+   "slug": "akutsu-magari-negi",
+   "name_ja": "阿久津曲がりねぎ",
+   "name_romaji": "Akutsu magari-negi",
+   "name_en": "Akutsu magari-negi — Koriyama's bent, replanted sweet leek",
+   "origin_pref": "福島県",
+   "origin_city": "郡山市",
+   "lat": 37.4004,
+   "lng": 140.3597,
+   "summary_ja": "郡山市阿久津地区で育てられる、根元から弓なりに曲がったねぎ。夏に一度掘り上げて斜めに植え直す「やとい」と呼ばれる手間をかけることで、白い部分が柔らかく甘くなるとされる。霜が降りてからの冬が旬という。",
+   "summary_en": "A leek from the Akutsu district of Koriyama whose white stem bows in a deep curve. Dug up in midsummer and replanted at a slant in a step called yatoi, it is said to grow a softer, sweeter white stem, with its season arriving once frost has settled.",
+   "body_ja": "## 何でできているか\n白い部分が根元から弓なりにたわみ、束ねると全体が同じ向きに反っているのが見た目の印。繊維が細かく、火を通すととろりと崩れ、強い甘みが口に残るとされる。生のまま刻むと辛みは穏やかで、ぬたや鍋、すき焼きのように加熱して甘さを引き出す料理で持ち味が出るという。茎は太く短めで、曲がった部分ほど柔らかいとされる。出回るのは霜が降りる晩秋から冬にかけてで、寒さに当たるほど甘みが乗るといわれる。\n## どう作るのか\n春に播いた苗を畑に植え、夏の盛りに一度掘り上げて、畝に斜めに寝かせて植え直す。この植え替えを「やとい」と呼び、寝かされたねぎは日光へ向かって起き上がろうとして根元が曲がるとされる。曲がる過程で繊維がほぐれ、植え替えの負荷が甘みを増すとも言われる。収穫は霜が降りてからの晩秋から冬で、二度植えるぶん手間がかかり、作り手は限られるという。種は地域の農家が受け継いできた在来のものとされる。\n## なぜこの形になったのか\n阿久津は阿武隈川沿いの低地で土が粘土質のため、深く土寄せして白根をまっすぐ伸ばす関東流の作り方が向かず、斜めに植え直して曲げることで柔らかい白い部分を確保したと伝わる。曲がりねぎの作り方は宮城の仙台曲がりねぎや栃木の新里ねぎなど東日本の川沿いの土地に点在し、同じ土との折り合いから生まれたとされる。作り手の減少で一時途絶えかけたものの、地元の保存会が種と技を引き継いでいるという。",
+   "body_en": "## What it's made of\nThe white stem bows from the base, and a bundle of them all curve the same way, which is how you spot it. The fibers are fine, and cooked it collapses into something soft, leaving a pronounced sweetness behind. Chopped raw, the bite is mild, but it is in dishes that coax out sweetness with heat, such as nuta (a vinegar-miso dressing), hot pots, and sukiyaki, that it shows best. The stem is thick and fairly short, and the curved section is said to be the tenderest part. It appears from late autumn into winter once frost has fallen, and the colder it gets, the sweeter it is said to become.\n## How it's made\nSeedlings sown in spring go into the field, and at the height of summer they are dug up and laid at a slant along a new ridge. This replanting is called yatoi: the leeks, lying on their side, try to right themselves toward the sun, and that effort bends the base. The bending is said to loosen the fibers, and the stress of being moved is thought to add sweetness. Harvest runs from late autumn into winter after the first frosts. Planting twice doubles the labor, so growers are few. The seed is a local strain passed down among farmers in the district.\n## Why it took this shape\nAkutsu sits on low ground along the Abukuma River where the soil is heavy clay, which is said to have made the Kanto-style method of deep hilling to grow a straight white stem impractical. Replanting at a slant and letting the leek bend was a way to get a soft white stem from the same ground. Bent leeks turn up in other river-plain settlements in eastern Japan, such as Sendai's magari-negi in Miyagi and Niisato negi in Tochigi, and are thought to have arisen from the same compromise with the soil. The variety came close to vanishing as growers aged, and a local preservation society is said to carry the seed and the technique today.",
+   "sources": [
+    {
+     "title": "郡山市（公式サイト）",
+     "url": "https://www.city.koriyama.lg.jp/",
+     "publisher": "郡山市",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 福島県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "niisato-negi",
+     "relation_type": "兄弟",
+     "basis": "どちらも夏に掘り上げて斜めに植え直す「やとい」で根元を曲げる曲がりねぎで、粘土質の土との折り合いから生まれたとされる"
+    }
+   ]
+  },
+  {
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "primary_style": "",
+   "regions": [],
+   "tags": [],
+   "slug": "aizu-kogiku-kabocha",
+   "name_ja": "会津小菊かぼちゃ",
+   "name_romaji": "Aizu kogiku kabocha",
+   "name_en": "Aizu kogiku kabocha — a small, deeply ribbed heirloom pumpkin from Aizu",
+   "origin_pref": "福島県",
+   "origin_city": "会津若松市",
+   "lat": 37.4949,
+   "lng": 139.9298,
+   "summary_ja": "会津地方で古くから自家採種で受け継がれてきた日本かぼちゃ。小菊の花のように深い縦溝が入った小ぶりの実で、ねっとりとした食感と控えめな甘みが煮物に向くとされる。会津伝統野菜のひとつに数えられる。",
+   "summary_en": "A Japanese-type pumpkin kept going in the Aizu region by farmers saving their own seed. The small fruit is scored with deep vertical grooves like the petals of a small chrysanthemum, and its moist, dense flesh and restrained sweetness are said to suit simmered dishes. It is counted among the Aizu heirloom vegetables.",
+   "body_ja": "## 何でできているか\n手のひらに乗るほどの小ぶりな実に、菊の花びらのような深い縦の溝が規則正しく入る。皮は濃い緑から熟すと橙がかった色に変わり、果肉は西洋かぼちゃのようなほくほく感ではなく、水分を含んでねっとりと歯に残る質感とされる。甘みは控えめで、だしや醤油の味を吸いやすいため、煮物にすると煮汁の味が芯まで入るという。ニホンカボチャと呼ばれる系統に属するとされ、戦後に広まった西洋かぼちゃとは別の仲間になる。\n## どう作るのか\n春に種を播き、苗を畑に出して蔓を這わせ、夏から初秋に実を収穫する。種は毎年、形のよい実から取り分けて翌年に播く自家採種で受け継がれてきたとされ、他の品種と交雑しないよう畑の距離を取るなどの気配りが要るという。収穫後はしばらく置いて追熟させると甘みと香りが落ち着くとされる。煮物のほか、薄く切って干しかぼちゃにし、冬の保存食にする家もあったと伝わる。\n## なぜこの形になったのか\n会津は盆地で冬が長く雪も深いため、夏に穫れて秋まで日持ちする野菜が暮らしを支えたと伝わる。ニホンカボチャは湿った夏に向くとされ、西洋かぼちゃが広まる前の日本各地で主流だったという。会津では甘くほくほくした西洋かぼちゃへ切り替わる中で、煮物に合う小菊かぼちゃを手放さなかった家があり、その種が会津伝統野菜として名を与えられ現在に残っているとされる。溝の深い形は切り分けやすく、煮物の一切れが形を保つ点でも理にかなうという。",
+   "body_en": "## What it's made of\nA fruit small enough to sit in the palm, scored evenly with deep vertical grooves like the petals of a chrysanthemum. The skin turns from dark green toward orange as it ripens, and the flesh is not the floury, dry kind found in Western-type pumpkins but moist and dense, clinging to the teeth. Sweetness is restrained, and because the flesh takes up dashi and soy sauce readily, a simmered piece is said to carry the broth's flavor right to its center. It belongs to the group known as Nihon kabocha (Japanese pumpkin, Cucurbita moschata), a different lineage from the Western-type pumpkins that spread after the war.\n## How it's made\nSeed is sown in spring, seedlings go out to the field to run their vines, and the fruit is picked from summer into early autumn. Seed has been saved each year from well-shaped fruit and sown the next season, and growers are said to keep distance from other varieties in the field so the strain does not cross. Letting the harvested fruit rest a while is said to settle its sweetness and aroma. Besides simmering, some households are said to have sliced it thin and dried it as a winter store.\n## Why it took this shape\nAizu is a basin with long winters and deep snow, and vegetables picked in summer that keep into autumn are said to have carried households through. Japanese-type pumpkins are thought to tolerate humid summers well and were the mainstream across Japan before Western types spread. As Aizu switched to sweeter, flourier Western pumpkins, a few households are said to have kept the kogiku for simmering, and that seed survives today under the name of an Aizu heirloom vegetable. The deep grooves also make the fruit easy to divide into pieces that hold their shape in the pot, which is thought to be part of why it stayed in use.",
+   "sources": [
+    {
+     "title": "会津若松市（公式サイト）",
+     "url": "https://www.city.aizuwakamatsu.fukushima.jp/",
+     "publisher": "会津若松市",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 福島県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/fukushima.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "edosaki-kabocha",
+     "relation_type": "対比",
+     "basis": "同じ関東・東北のかぼちゃでも、会津小菊は水分の多いニホンカボチャ系、江戸崎は粉質で甘い西洋かぼちゃ系と系統が異なる"
+    }
+   ]
+  },
+  {
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "primary_style": "",
+   "regions": [],
+   "tags": [],
+   "slug": "kasumigaura-renkon",
+   "name_ja": "霞ヶ浦のれんこん",
+   "name_romaji": "Kasumigaura no renkon",
+   "name_en": "Kasumigaura renkon — lotus root from the marshy shores of Lake Kasumigaura",
+   "origin_pref": "茨城県",
+   "origin_city": "土浦市",
+   "lat": 36.0786,
+   "lng": 140.2052,
+   "summary_ja": "霞ヶ浦の湖岸に広がる泥深い低地で育つれんこん。水を張った蓮田からポンプの水圧で泥を吹き飛ばして掘り上げる方法が広く行われ、白くて太い節とシャキシャキした歯ざわりが持ち味とされる。茨城県は国内のれんこん生産の大きな部分を占めるという。",
+   "summary_en": "Lotus root grown in the deep mud of the lowlands rimming Lake Kasumigaura. Growers commonly harvest by blasting the mud away with a water jet in the flooded field, and the root is prized for its white, plump segments and crisp bite. Ibaraki is said to account for a large share of Japan's renkon.",
+   "body_ja": "## 何でできているか\n蓮の地下茎で、節ごとに太った部分を食べる。霞ヶ浦のものは皮が白く、節が太くて丸みがあり、生に近い火の通し方では歯切れのよいシャキシャキ感、長く煮るとほくほくとした粉質に変わるとされる。穴が規則正しく並ぶ切り口は「見通しがきく」縁起物として正月料理にも使われてきたという。夏の終わりに穫れる新れんこんはみずみずしく、冬に向かうほどでんぷんが増して甘みが乗るとされる。\n## どう作るのか\n春に前年の種れんこんを泥に植え、夏に葉を茂らせたのち、初秋から翌春にかけて掘り上げる。蓮田は腰まで沈む泥田で、現在は水を張ったままポンプの水圧で泥を吹き飛ばし、浮き上がった地下茎を手で引き抜く掘り方が広く行われているという。傷をつけると変色しやすいため、掘り手が泥の中の位置を手探りで確かめながら作業するとされる。穫った後は泥を落とさず出荷すると日持ちするとも言われる。\n## なぜこの形になったのか\n霞ヶ浦の湖岸は水位の変動で水はけの悪い低湿地が広がり、米作りには向かない田が多かったと伝わる。戦後、こうした湿田を蓮田に転換する動きが広まり、湖の豊かな水と泥深い土がれんこんに合ったことで産地として育ったとされる。首都圏に近く、水の多い土地で冬も収穫できる作物として選ばれた側面もあるという。周辺の土浦やかすみがうらでは、わかさぎとれんこんの酢漬けのように湖の小魚と組み合わせた料理が家庭に残っている。",
+   "body_en": "## What it's made of\nThe underground stem of the lotus, eaten at the swollen segments between the nodes. The Kasumigaura root has pale skin and fat, rounded segments; cooked briefly it stays crisp and snaps cleanly, while long simmering turns it floury and soft. The cut face, with its ring of evenly spaced holes, has been served at New Year as a good-luck food that lets you 'see through' to the year ahead. New-season root dug in late summer is juicy, and as winter approaches the starch builds and the sweetness deepens.\n## How it's made\nSeed root saved from the previous year is pressed into the mud in spring, the leaves fill in over summer, and digging runs from early autumn through the following spring. The fields are mud deep enough to sink to the waist, and the common method today is to keep the field flooded, blast the mud away with a water pump, and pull the floating rhizomes out by hand. A scratch discolors the root quickly, so diggers are said to feel for its position in the mud before loosening it. Shipping it still coated in mud is said to keep it longer.\n## Why it took this shape\nThe shore of Lake Kasumigaura is low, poorly drained wetland shaped by the lake's shifting water level, and much of it was said to be poor rice ground. After the war, converting these wet paddies to lotus fields spread, and the lake's abundant water and deep mud suited the crop, which is how the area grew into a production center. Its closeness to the Tokyo region, and the fact that lotus root can be dug through winter in such wet land, are also thought to have favored it. Around Tsuchiura and Kasumigaura, home cooking still pairs the root with the lake's small fish, as in the vinegar-pickled wakasagi (pond smelt) and renkon.",
+   "sources": [
+    {
+     "title": "茨城県（公式サイト）",
+     "url": "https://www.pref.ibaraki.jp/",
+     "publisher": "茨城県",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 茨城県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/ibaraki.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "wakasagi-renkon-suzuke",
+     "to_slug": "kasumigaura-renkon",
+     "relation_type": "使用食材",
+     "basis": "霞ヶ浦のわかさぎと薄切りのれんこんを甘酢に漬ける料理で、湖畔のれんこんを使う（農林水産省うちの郷土料理・茨城県）"
+    },
+    {
+     "from_slug": "renkon-no-kinpira",
+     "to_slug": "kasumigaura-renkon",
+     "relation_type": "使用食材",
+     "basis": "霞ヶ浦周辺のれんこんを太めに切って炒めるきんぴらとして同資料に載る（農林水産省うちの郷土料理・茨城県）"
+    }
+   ]
+  },
+  {
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "primary_style": "",
+   "regions": [],
+   "tags": [],
+   "slug": "edosaki-kabocha",
+   "name_ja": "江戸崎かぼちゃ",
+   "name_romaji": "Edosaki kabocha",
+   "name_en": "Edosaki kabocha — vine-ripened, floury pumpkin from Inashiki",
+   "origin_pref": "茨城県",
+   "origin_city": "稲敷市",
+   "lat": 35.9566,
+   "lng": 140.3236,
+   "summary_ja": "稲敷市江戸崎周辺で育てられる西洋かぼちゃ。実が畑で完熟するまで待って収穫し、ほくほくとした粉質の果肉と強い甘みを引き出す作り方が特徴とされる。産地と作り方を結びつけて守る地理的表示（GI）に登録されている。",
+   "summary_en": "A Western-type pumpkin grown around Edosaki in Inashiki. Growers wait until the fruit has fully ripened on the vine before picking, a practice said to give it floury, dense flesh and pronounced sweetness. The name is registered as a geographical indication tying the product to its place and method.",
+   "body_ja": "## 何でできているか\n西洋かぼちゃの系統で、皮は濃い緑、果肉は鮮やかな橙色をしている。畑で完熟させるため糖度が上がり、蒸すとほろほろと崩れる粉質の食感と、栗を思わせる甘さが出るとされる。皮の近くまで果肉が締まり、煮物にしても煮崩れしにくいという。一つの株に実をつけすぎないよう整えることで、実ごとの大きさと味が揃うと伝わる。収穫期は初夏から夏で、他の産地より少し早く出回るという。\n## どう作るのか\n早春に苗を育て、春に畑へ植えて蔓を伸ばす。受粉後は一株に残す実の数を絞り、交配から50日ほど経って蔓の付け根が枯れ、皮が硬く締まるまで畑で待ってから収穫するとされる。穫った後も数日から数週間置いて追熟させ、でんぷんが糖に変わって甘みが乗った段階で出荷するという。収穫の見極めと追熟の管理が味を左右するため、産地では出荷の基準を揃えていると伝わる。\n## なぜこの形になったのか\n稲敷の江戸崎周辺は関東ローム層の火山灰土が広がる台地で、水はけがよく、かぼちゃの根が深く張りやすいとされる。霞ヶ浦の南に位置して春の気温が上がりやすく、早い時期から実を育てられたことが産地化を後押ししたという。一方で、早く穫って出荷量を増やすより、畑で完熟させてから出すという方針を産地で共有してきたことが、この名の味を支えていると伝わる。産地と作り方を結びつけて守る仕組みとして、地理的表示の登録が行われている。",
+   "body_en": "## What it's made of\nA Western-type pumpkin with dark green skin and bright orange flesh. Because it ripens fully in the field, the sugars climb, and steamed it crumbles into a floury texture with a sweetness that recalls chestnut. The flesh stays firm almost to the skin, so pieces hold together in a simmered dish. Limiting how many fruit each plant carries is said to keep size and flavor even from one pumpkin to the next. The season runs from early summer into summer, a little ahead of other growing areas.\n## How it's made\nSeedlings are raised in early spring and planted out as the weather warms, and the vines are left to run. After pollination the number of fruit per plant is thinned, and the fruit is left on the vine for around 50 days after setting, until the stem at the base withers and the skin hardens. Even after picking, the pumpkins rest for days to weeks so the starch converts to sugar before shipping. Since judging the moment of harvest and managing that rest decide the flavor, growers in the area are said to share a common shipping standard.\n## Why it took this shape\nThe land around Edosaki in Inashiki is a plateau of volcanic Kanto loam, well drained, where pumpkin roots run deep. Lying south of Lake Kasumigaura, it warms early in spring, which let growers bring fruit on ahead of other areas and is thought to have helped the district become a pumpkin center. At the same time, what sustains the name is said to be a shared choice to wait for full ripeness rather than pick early for volume. The geographical indication registration exists to keep the place and the method tied to the name.",
+   "sources": [
+    {
+     "title": "地理的表示（GI）登録産品一覧",
+     "url": "https://www.maff.go.jp/j/shokusan/gi_act/register/",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "稲敷市（公式サイト）",
+     "url": "https://www.city.inashiki.lg.jp/",
+     "publisher": "稲敷市",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kabocha-no-itokoni",
+     "to_slug": "edosaki-kabocha",
+     "relation_type": "使用食材",
+     "basis": "茨城県全域の冬至料理で県内のかぼちゃを小豆と煮るもので、江戸崎かぼちゃは県内の代表的な産地の品種（農林水産省うちの郷土料理・茨城県。資料に品種の指定はない）"
+    }
+   ]
+  },
+  {
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "primary_style": "",
+   "regions": [],
+   "tags": [],
+   "slug": "tochigi-kanpyo-yugao",
+   "name_ja": "栃木の夕顔（ふくべ）",
+   "name_romaji": "Tochigi no yugao (fukube)",
+   "name_en": "Tochigi yugao (fukube) — the bottle gourd peeled and sun-dried into kanpyo",
+   "origin_pref": "栃木県",
+   "origin_city": "下野市",
+   "lat": 36.388,
+   "lng": 139.8414,
+   "summary_ja": "栃木県南部の下野市や壬生町一帯で栽培される大型の瓜。「ふくべ」とも呼ばれ、夏に穫れた実を帯状に薄く剥いて天日で干すとかんぴょうになる。国内のかんぴょうの大部分がこの地域で作られているとされる。",
+   "summary_en": "A large gourd grown across Shimotsuke, Mibu, and the surrounding plain in southern Tochigi. Also called fukube, its summer fruit is peeled into long thin ribbons and sun-dried to become kanpyo (dried gourd strips). Most of the kanpyo made in Japan is said to come from this district.",
+   "body_ja": "## 何でできているか\n直径30センチ前後、重さ数キロにもなる丸い瓜で、ひょうたんと同じ仲間とされる。果肉は白く淡白で、生のままではほとんど味がなく、味噌汁や煮物にすると冬瓜に似たとろりとした口当たりになるという。この果肉を帯状に薄く剥いて干したものがかんぴょうで、戻すと歯ごたえが戻り、煮汁の甘辛さをよく含むとされる。乾いた皮は「ふくべ細工」として炭入れや面に加工されてきたと伝わる。\n## どう作るのか\n春に種を播いて苗を育て、畑に植えて蔓を這わせる。夏の朝に実を収穫し、芯を抜いて回転させながら刃を当て、幅3センチほどの長い帯に剥いていく。剥いた帯を竿に掛けて夏の強い日差しで干し、白く乾いたものを束ねて出荷するという。剥く作業は夜明け前から始まり、昼の湿気が上がる前に干し終える必要があるとされる。乾燥が仕上がりの色を決めるため、夏の晴天と風が頼りだと伝わる。\n## なぜこの形になったのか\n一説に、江戸中期の壬生の藩主が近江から種を取り寄せて栽培を広めたと伝わる。この一帯は関東ローム層の火山灰土で水はけがよく、夏に夕立が多くて昼は日照が強いという気候が、水分の多い瓜を育てて干すまでの流れに合ったとされる。生のままでは日持ちしない実を帯にして干すことで、江戸へ運べる保存食になり、のり巻きや稲荷ずしの定番の具として広まったという。かんぴょうは寿司のネタとして今も全国へ出ていき、産地では剥き残りや端を卵でとじる家庭料理が残っている。",
+   "body_en": "## What it's made of\nA round gourd some 30 centimeters across and several kilograms in weight, a relative of the bottle gourd. The flesh is white and bland, with almost no taste raw; in miso soup or a simmered dish it turns soft and slippery, much like winter melon. Peeled into thin ribbons and dried, that flesh becomes kanpyo, which regains its chew when soaked and soaks up a sweet-salty simmering liquid well. The dried shell is said to have been worked into charcoal containers and masks as fukube craft.\n## How it's made\nSeed is sown in spring, seedlings go into the field, and the vines run over summer. The fruit is picked on summer mornings, cored, and turned against a blade so the flesh comes off in a continuous ribbon about three centimeters wide. The ribbons are hung on poles in strong summer sun, and once dried white they are bundled for shipping. Peeling is said to start before dawn so the drying is done before the midday humidity rises. Because drying sets the final color, growers depend on clear summer weather and a steady wind.\n## Why it took this shape\nOne account holds that a mid-Edo lord of Mibu brought seed from Omi (present-day Shiga) and spread the crop. The district lies on well-drained volcanic Kanto loam, and summers with frequent afternoon thunderstorms and strong midday sun are thought to have suited both the growing of a water-heavy gourd and the drying that follows. Turning a fruit that would not keep fresh into dried ribbons made a store that could travel to Edo, and it became a standard filling for norimaki rolls and inari-zushi. Kanpyo still goes out across the country as a sushi topping, while in the growing area a home dish of leftover peelings and ends bound with egg remains.",
+   "sources": [
+    {
+     "title": "栃木県（公式サイト）",
+     "url": "https://www.pref.tochigi.lg.jp/",
+     "publisher": "栃木県",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 栃木県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/tochigi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kanpyo",
+     "to_slug": "tochigi-kanpyo-yugao",
+     "relation_type": "使用食材",
+     "basis": "寿司ネタのかんぴょうは夕顔の果肉を帯状に剥いて干したもので、栃木の夕顔がその主な原料とされる"
+    },
+    {
+     "from_slug": "kanpyo-no-tamago-toji",
+     "to_slug": "tochigi-kanpyo-yugao",
+     "relation_type": "使用食材",
+     "basis": "かんぴょう農家で剥き残りや端を卵でとじて食べる料理として同資料に載る（農林水産省うちの郷土料理・栃木県）"
+    },
+    {
+     "from_slug": "kanpyo-no-gomazu-ae",
+     "to_slug": "tochigi-kanpyo-yugao",
+     "relation_type": "使用食材",
+     "basis": "戻したかんぴょうをごま酢で和える県南の料理として同資料に載る（農林水産省うちの郷土料理・栃木県）"
+    }
+   ]
+  },
+  {
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "primary_style": "",
+   "regions": [],
+   "tags": [],
+   "slug": "niisato-negi",
+   "name_ja": "新里ねぎ",
+   "name_romaji": "Niisato negi",
+   "name_en": "Niisato negi — Utsunomiya's bent, replanted winter leek",
+   "origin_pref": "栃木県",
+   "origin_city": "宇都宮市",
+   "lat": 36.5551,
+   "lng": 139.8828,
+   "summary_ja": "宇都宮市北部の新里町で受け継がれてきた曲がりねぎ。夏の終わりに一度掘り上げて斜めに植え直し、起き上がろうとする力で根元を曲げることで、白い部分が柔らかく甘くなるとされる。霜に当たった冬のものが旬という。",
+   "summary_en": "A bent leek kept going in Niisato, in the hilly north of Utsunomiya. At the end of summer it is dug up and replanted at a slant, and the plant's effort to stand upright again bends the base, which is said to leave the white stem softer and sweeter. The season is winter, after frost.",
+   "body_ja": "## 何でできているか\n白い部分が根元で大きく弓なりに曲がり、まっすぐなねぎに比べて丈が短く太い。火を通すと繊維がほどけるようにとろけ、甘みが強く残るとされ、鍋や焼きねぎ、ぬたのように加熱して食べる料理で持ち味が出るという。生のまま刻むと辛みは穏やかで香りが立つとされる。出回るのは霜が降りる11月頃から冬にかけてで、寒さで葉の糖分が白根に移るほど甘くなるといわれる。曲がった内側の部分がとくに柔らかいとされ、束ねた姿そのものが土地の目印になっている。\n## どう作るのか\n春に種を播いて苗を育て、初夏に畑へ植えたのち、夏の終わりに一度掘り上げて畝に斜めに寝かせて植え直す。寝かされたねぎは日光へ向かって起き上がろうとし、その力で根元が曲がり、繊維がほぐれて柔らかくなるとされる。収穫は霜が降りた後の冬で、種は地域の農家が受け継いできたものと伝わる。二度植えるため手間がかかり、曲がりの形を揃えるには植え付けの角度と土寄せの加減に経験が要るという。出荷は年末の鍋の季節に向けて最も多くなるとされる。\n## なぜこの形になったのか\n新里は宇都宮の北にあたる丘陵の土地で、土が硬く締まりやすく、深く土寄せして白根をまっすぐ長く伸ばす作り方が難しかったと伝わる。そこで一度掘り上げて斜めに植え、起き上がる力で曲げることで、浅い土でも柔らかい白い部分を得たとされる。同じ曲がりねぎは郡山の阿久津や仙台にも点在し、土の条件に合わせた似た工夫から生まれたと考えられている。江戸時代から作られていたと伝わり、作り手は減ったものの、地元で新里ねぎの名を掲げて冬の味として守られているという。",
+   "body_en": "## What it's made of\nThe white stem bows sharply at the base, and the whole leek is shorter and thicker than a straight one. Cooked, the fibers loosen and it melts on the tongue with a sweetness that lingers, which is why it shows best in dishes that use heat, such as hot pots, grilled leek, and nuta (a vinegar-miso dressing). Chopped raw it is mild, with the aroma coming forward. It appears from around November, when the frosts begin, through winter, and the cold is said to push sugar from the leaves down into the white stem. The inside of the curve is said to be the tenderest part, and a bundle of bent stems is the district's calling card.\n## How it's made\nSeed is sown in spring, seedlings go into the field in early summer, and at the end of summer the plants are dug up and laid at a slant along a ridge. Lying on their side, they try to right themselves toward the sun, and that effort bends the base and loosens the fibers. Harvest comes in winter after frost. The seed is said to be a strain handed down among farmers in the district. Planting twice is laborious, and getting the curves to match takes experience with the angle of planting and the amount of soil drawn up. Shipments peak toward the year-end hot-pot season.\n## Why it took this shape\nNiisato lies on hilly ground north of central Utsunomiya where the soil packs hard, and the usual method of hilling deeply to grow a long, straight white stem is said to have been difficult there. Digging the leek up and replanting it at a slant, then letting it bend as it stood back up, gave a soft white stem even in shallow soil. Bent leeks turn up in Akutsu near Koriyama and in Sendai as well, and are thought to come from similar compromises with local soil. Cultivation is said to go back to the Edo period, and though growers are fewer now, the district keeps the name alive as a winter taste.",
+   "sources": [
+    {
+     "title": "宇都宮市（公式サイト）",
+     "url": "https://www.city.utsunomiya.lg.jp/",
+     "publisher": "宇都宮市",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 栃木県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/tochigi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "fukaya-negi",
+     "relation_type": "対比",
+     "basis": "同じ関東のねぎでも、新里は斜めに植え直して根元を曲げ、深谷は深い沖積土に土を寄せてまっすぐ長い白根を伸ばすと、土に合わせた作り方が分かれる"
+    }
+   ]
+  },
+  {
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "primary_style": "",
+   "regions": [],
+   "tags": [],
+   "slug": "shimonita-negi",
+   "name_ja": "下仁田ねぎ",
+   "name_romaji": "Shimonita negi",
+   "name_en": "Shimonita negi — thick, short winter leek that turns sweet in the pot, from Gunma",
+   "origin_pref": "群馬県",
+   "origin_city": "下仁田町",
+   "lat": 36.2126,
+   "lng": 138.7892,
+   "summary_ja": "群馬県下仁田町の限られた畑で育つ、太く短いねぎ。白い部分は直径が4〜5センチにもなり、生では辛みが強いが、火を通すととろりと崩れて強い甘みが出るとされる。霜に当たる晩秋から冬が旬で、すき焼きや鍋の具として知られる。",
+   "summary_en": "A thick, short leek grown in a limited set of fields in Shimonita, Gunma. The white stem can reach four to five centimeters across; raw it is sharply pungent, but cooked it collapses into something soft and strongly sweet. Its season runs from late autumn into winter after frost, and it is known as a sukiyaki and hot-pot vegetable.",
+   "body_ja": "## 何でできているか\n白い部分が短く太く、ずんぐりした姿で、葉は少なく先が広がる。生のまま刻むと辛みが強く、薬味には向かないとされるが、火を通すと繊維がほどけてとろりと崩れ、濃い甘みと独特の香りが出るという。鍋やすき焼きに入れると煮汁を含んで一段と甘くなるとされ、焼きねぎや天ぷらにも向くといわれる。出回るのは霜に当たった11月下旬から1月頃までで、寒さで糖分が増した冬の盛りが最もよいとされる。\n## どう作るのか\n秋に種を播いて苗を育て、翌春に一度植え替え、夏にもう一度掘り上げて植え直し、晩秋から冬に収穫する。種を播いてから穫るまでに15か月ほどかかるとされ、二度の植え替えで根が張り直され、太く締まった白根になるという。植え替えのたびに畑を替えて土を休ませ、水はけを保つことが大事とされる。収穫後は根と葉を整えて束ねて出荷し、霜に当てるほど甘みが増すため、寒さの中で穫る時期を見計らうと伝わる。\n## なぜこの形になったのか\n下仁田は鏑川沿いの山間の盆地で、川の堆積土と火山灰が混じる水はけのよい畑と、昼夜の寒暖差が大きい気候が、この太いねぎに合ったとされる。同じ種を他の土地に播いても同じ姿と味にならないと言われ、産地が町内の限られた地区にとどまる理由とされる。江戸時代には江戸の武家へ送られた記録があると伝わり、そこから「殿様ねぎ」の呼び名が生まれたという。ねぎを酢味噌で和えるぬたは群馬の祝いの席の料理で、冬のこのねぎが使われてきた。",
+   "body_en": "## What it's made of\nShort, thick, and stout, with few leaves that flare at the top. Chopped raw it is too pungent to use as a garnish, but once cooked the fibers loosen, it slumps into softness, and a deep sweetness and a particular aroma come forward. In a hot pot or sukiyaki it drinks up the broth and turns sweeter still, and it is said to suit grilling and tempura as well. It comes to market from late November, after frost, until around January, and the depth of winter, when the cold has built up its sugars, is said to be the best time.\n## How it's made\nSeed is sown in autumn and raised into seedlings, transplanted once the following spring, dug up and replanted again in summer, and harvested from late autumn into winter. Some 15 months pass from sowing to harvest. The two transplantings make the roots re-establish, which is said to give the thick, firm white stem. Growers move to a fresh field at each transplanting to rest the soil and keep the drainage good. After harvest the roots and leaves are trimmed and the leeks bundled, and since frost deepens the sweetness, the timing of the harvest is judged by the cold.\n## Why it took this shape\nShimonita sits in a mountain basin along the Kabura River, and the well-drained fields of river sediment mixed with volcanic ash, together with a wide swing between day and night temperatures, are said to suit this thick leek. The same seed sown elsewhere is said not to give the same shape or taste, which is why the growing area stays within a few districts of the town. Records are said to survive of the leek being sent to samurai households in Edo, and the nickname tonosama negi, the lord's leek, is said to come from that. Nuta, leek dressed in vinegar miso, is a dish for celebrations in Gunma, and this winter leek has long been used in it.",
+   "sources": [
+    {
+     "title": "下仁田町（公式サイト）",
+     "url": "https://www.town.shimonita.lg.jp/",
+     "publisher": "下仁田町",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 群馬県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/gunma.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gunma-neginuta",
+     "to_slug": "shimonita-negi",
+     "relation_type": "使用食材",
+     "basis": "蒸した下仁田ねぎなどをすりごま入りの酢味噌で和える群馬の祝いの料理として同資料に載る（農林水産省うちの郷土料理・群馬県）"
+    },
+    {
+     "to_slug": "fukaya-negi",
+     "relation_type": "対比",
+     "basis": "下仁田は太く短い白根を鍋で甘く食べるねぎ、深谷は長くまっすぐな白根を薬味から鍋まで使う根深ねぎと、同じ関東のねぎでも姿と使い方が分かれる"
+    }
+   ]
+  },
+  {
+   "type": "ingredient",
+   "shelf": "tubers",
+   "genre": null,
+   "primary_style": "",
+   "regions": [],
+   "tags": [],
+   "slug": "gunma-konnyaku-imo",
+   "name_ja": "群馬のこんにゃく芋",
+   "name_romaji": "Gunma no konnyaku-imo",
+   "name_en": "Gunma konnyaku-imo — the konjac corm behind most of Japan's konnyaku, grown on volcanic slopes",
+   "origin_pref": "群馬県",
+   "origin_city": "昭和村",
+   "lat": 36.6435,
+   "lng": 139.0702,
+   "summary_ja": "赤城山や榛名山の裾野の畑で育てられるこんにゃくの球茎。国内の生産量の大部分を群馬県が占めるとされ、生のままでは強いえぐみがあって食べられず、粉にして石灰で固めるとこんにゃくになる。収穫まで2〜3年かける手間のかかる作物という。",
+   "summary_en": "The corm of the konjac plant, grown in fields on the lower slopes of Mount Akagi and Mount Haruna. Gunma is said to produce most of Japan's crop. Inedible raw because of a harsh, stinging acridity, it is milled to flour and set with lime to become konnyaku. It takes two to three years of replanting to reach harvest size.",
+   "body_ja": "## 何でできているか\nサトイモの仲間の球茎で、表面は褐色、切ると白く粘り気があり、出荷時には直径20センチ前後になるという。生のままでは口の中が刺すように痛むえぐみがあって食べられず、すりおろすか粉にして水に溶き、石灰などのアルカリで固めるとこんにゃくになる。固めたものは弾力があって味がほとんど無く、だしや味噌だれを受け止める料理に使われる。芋を直接すりおろして作る生芋こんにゃくは、粉から作るものより香りと歯ごたえが強いとされる。\n## どう作るのか\n春に種芋を畑に植え、秋に掘り上げて冬の間は凍らないよう屋内で保管し、翌春にまた植える。これを2〜3年繰り返して球茎を太らせてから出荷するとされ、1年目の小さな芋は生子と呼ばれる。病気と強い日差し、風に弱いため、畑に敷きわらをし、山の斜面に段を作って水はけをよくするという。穫った芋は薄く切って乾かし、挽いて粉にする製粉を経て各地のこんにゃく屋へ渡る。精粉にすると軽く日持ちし、遠くまで運べるとされる。\n## なぜこの形になったのか\n赤城山や榛名山の裾野は火山灰の軽い土で水はけがよく、傾斜があって風を遮る林もあり、こんにゃく芋の畑に向いたとされる。米の穫れにくい山の畑で現金収入になる作物として広まったと伝わり、江戸時代に芋を乾かして粉にする方法が常陸で考案され、軽く運べる商品になったことが産地化を後押ししたという。下仁田の町は芋と粉の集散地として知られ、県内には味噌おでんや白和えなど、こんにゃくを主役にする家庭料理が残っている。",
+   "body_en": "## What it's made of\nA corm of a plant in the taro family, brown on the outside, white and sticky when cut, and around 20 centimeters across by the time it is shipped. Raw, it carries an acridity that stings the mouth and cannot be eaten; grated or milled, mixed with water, and set with an alkali such as lime, it becomes konnyaku, a springy, almost flavorless block that takes on dashi or a miso glaze in cooking. Nama-imo konnyaku, made by grating the fresh corm rather than using flour, is said to have a stronger aroma and bite.\n## How it's made\nSeed corms go into the field in spring, are dug up in autumn, kept indoors through winter so they do not freeze, and planted again the next spring. This is repeated for two or three years to fatten the corm before it is shipped; the small first-year corms are called kigo. The plant is vulnerable to disease, strong sun, and wind, so fields are mulched with straw and terraced on hillsides to keep drainage good. Harvested corms are sliced thin, dried, and milled into flour, which then goes to konnyaku makers across the country. As refined flour it is light, keeps well, and travels far.\n## Why it took this shape\nThe lower slopes of Akagi and Haruna have light volcanic-ash soil that drains well, with slopes and windbreak woods, and are said to have suited the crop. It is said to have spread as a cash crop on hill fields where rice did poorly, and the method of drying and milling the corm into flour, devised in Hitachi (present-day Ibaraki) in the Edo period, is thought to have pushed the area toward specialization by turning the corm into a light, portable commodity. The town of Shimonita is known as a trading center for corms and flour, and home dishes that put konnyaku at the center, such as miso oden and shira-ae, remain across the prefecture.",
+   "sources": [
+    {
+     "title": "群馬県（公式サイト）",
+     "url": "https://www.pref.gunma.jp/",
+     "publisher": "群馬県",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 群馬県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/gunma.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "gunma-konnyaku-miso-oden",
+     "to_slug": "gunma-konnyaku-imo",
+     "relation_type": "使用食材",
+     "basis": "群馬のこんにゃくを串に刺して煮、味噌だれを塗る冬の料理として同資料に載る（農林水産省うちの郷土料理・群馬県）"
+    },
+    {
+     "from_slug": "gunma-konnyaku-shiraae",
+     "to_slug": "gunma-konnyaku-imo",
+     "relation_type": "使用食材",
+     "basis": "群馬で作られるこんにゃくを豆腐の衣で和える精進料理として同資料に載る（農林水産省うちの郷土料理・群馬県）"
+    }
+   ]
+  },
+  {
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "primary_style": "",
+   "regions": [],
+   "tags": [],
+   "slug": "fukaya-negi",
+   "name_ja": "深谷ねぎ",
+   "name_romaji": "Fukaya negi",
+   "name_en": "Fukaya negi — long white leek from the deep river soil of Saitama, sweetest in winter",
+   "origin_pref": "埼玉県",
+   "origin_city": "深谷市",
+   "lat": 36.1954,
+   "lng": 139.2815,
+   "summary_ja": "埼玉県深谷市を中心に作られるねぎ。利根川沿いの砂混じりの深い土で白い部分が長くまっすぐ伸び、繊維が柔らかく、霜に当たる冬は甘みが際立つとされる。特定の品種名ではなく、深谷で育てられたねぎの呼び名という。",
+   "summary_en": "A leek grown around Fukaya in Saitama. In the deep, sandy soil along the Tone River the white stem grows long and straight, the fibers stay tender, and winter frost brings out a marked sweetness. The name is not a single variety but a term for leeks raised in the Fukaya district.",
+   "body_ja": "## 何でできているか\n白い部分が長くまっすぐで、皮は薄く繊維が細かいとされる。火を通すととろりと柔らかくなり、冬のものはとくに甘みが強いという。生で刻んでも辛みが穏やかで、薬味にも鍋の具にも向くといわれる。春・夏・秋冬と出荷の時期が分かれ、冬に穫れるものが本来の味とされる。深谷ねぎは一つの品種名ではなく、深谷一帯で育てられたねぎをまとめて呼ぶ名とされ、季節ごとに土地に合う品種を選んでいるという。\n## どう作るのか\n秋から春にかけて播いた種を苗に育て、畑に深い溝を切って植え、成長に合わせて何度も土を寄せる。土をかぶせられた部分が日に当たらずに白くなり、寄せるたびに白い部分が長く伸びるとされる。冬のねぎは霜に当てることで葉の糖分が白根に移り甘くなるといい、穫る時期を寒さで見計らうと伝わる。砂を含んだ深い土は土寄せがしやすく、根が張りやすいという。収穫後は泥を落として皮を一枚むき、長さを揃えて出荷する。\n## なぜこの形になったのか\n深谷は利根川と荒川に挟まれた平野で、川が運んだ砂混じりの深い沖積土が広がり、深く溝を切って土を寄せる根深ねぎの作り方に向いたとされる。江戸へ近く、冬に青物の少ない都市へ運ぶ作物としてねぎが選ばれたと伝わり、鉄道で東京へ送られるようになって産地として育ったという。蒸したねぎを酢味噌で和えるぬたは埼玉の祝いの席の料理とされ、宴の終わりの合図として出される風習が残っている。",
+   "body_en": "## What it's made of\nThe white stem is long and straight, with thin skin and fine fibers. Cooked it turns soft and yielding, and winter leeks are notably sweet. Chopped raw it is mild enough for a garnish, and it goes just as well into a hot pot. Shipments are divided into spring, summer, and autumn-winter crops, but the winter harvest is said to carry the true flavor. Fukaya negi is not one variety but a collective name for leeks raised in and around Fukaya, with growers choosing the variety that suits the land in each season.\n## How it's made\nSeed sown between autumn and spring is raised into seedlings, which are planted into deep trenches cut in the field. As the plants grow, soil is drawn up around them again and again; the buried part, kept from the light, turns white, and each hilling lengthens the white stem. Winter leeks are left to take frost, which is said to move sugar from the leaves into the stem, so the harvest is timed by the cold. The deep, sandy soil makes hilling easy and lets the roots spread. After harvest the leeks are cleaned of mud, one outer skin is peeled, and they are trimmed to length for shipping.\n## Why it took this shape\nFukaya lies on the plain between the Tone and Arakawa rivers, where deep alluvial soil mixed with river sand suits the nebuka method of cutting deep trenches and hilling up. Close to Edo, the district is said to have turned to leeks as a crop for a city short of greens in winter, and once the railway carried them to Tokyo the area grew into a leek center. Steamed leek dressed in vinegar miso, nuta, is a celebration dish in Saitama, and the custom of serving it as the signal that a banquet is drawing to a close survives.",
+   "sources": [
+    {
+     "title": "深谷市（公式サイト）",
+     "url": "https://www.city.fukaya.saitama.jp/",
+     "publisher": "深谷市",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 埼玉県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/saitama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "saitama-neginuta",
+     "to_slug": "fukaya-negi",
+     "relation_type": "使用食材",
+     "basis": "深谷ねぎを蒸してすりごま入りの酢味噌で和える埼玉の祝いの料理として同資料に載る（農林水産省うちの郷土料理・埼玉県）"
+    }
+   ]
+  },
+  {
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "primary_style": "",
+   "regions": [],
+   "tags": [],
+   "slug": "koshigaya-kuwai",
+   "name_ja": "越谷のくわい",
+   "name_romaji": "Koshigaya no kuwai",
+   "name_en": "Koshigaya kuwai — blue-skinned arrowhead corm from Saitama's wet lowlands, simmered for New Year",
+   "origin_pref": "埼玉県",
+   "origin_city": "越谷市",
+   "lat": 35.8911,
+   "lng": 139.7908,
+   "summary_ja": "埼玉県東部の越谷市周辺の水田で育てられる、オモダカ科の水生野菜。青みがかった皮の丸い球茎から太い芽が伸び、「芽が出る」縁起物として正月の煮物に使われる。ほろ苦さとほくほくした食感が持ち味とされる。",
+   "summary_en": "An aquatic vegetable of the arrowhead family, grown in flooded fields around Koshigaya in eastern Saitama. A thick shoot rises from the round, blue-tinged corm, and because 'the bud comes out' it is served at New Year as a good-luck food. A faint bitterness and a floury, chestnut-like texture are its hallmarks.",
+   "body_ja": "## 何でできているか\n直径3〜4センチの丸い球茎に、太い芽が一本突き出た姿をしている。皮は青みを帯びた藍色で、中は白く、煮るとくりやさといもに似たほくほくした食感と、かすかな苦みが出るとされる。生ではえぐみがあるため、ゆでこぼしてから煮含めるのが基本という。芽を残したまま皮をむき、くちなしで黄色く色づけて正月の煮物にするのが関東の定番とされ、ほろ苦さがおせちの甘い味の中で引き立つといわれる。\n## どう作るのか\n春に前年の球茎を苗にし、初夏に水を張った田へ植える。夏の間は水を切らさず、葉を茂らせたのち、霜が降りる11月から12月に水を落として泥の中の球茎を掘り上げる。球茎は地下茎の先に付くため、泥を崩しながら一つずつ拾うとされ、芽を折らないよう扱うという。皮の色をよく出すには深い泥と充分な水が要るとされ、収穫したものは泥付きのまま低温で置くと日持ちすると伝わる。出荷は正月向けに年末が中心になる。\n## なぜこの形になったのか\n越谷の周辺は綾瀬川や元荒川が流れる低湿地で、水はけが悪く、水を張ったままの田が広がっていたと伝わる。このような湿田は米には向かず、水を好むくわいの栽培に転用されたとされ、江戸に近く正月の需要があったことで産地として続いたという。「芽が出る」ことを立身出世になぞらえる縁起物の意味づけが正月料理に残り、埼玉の家庭では黄色く煮含めたくわいが今も正月の膳に載る。",
+   "body_en": "## What it's made of\nA round corm three to four centimeters across with a single thick shoot standing out of it. The skin is an indigo blue, the inside white, and simmered it takes on a floury texture like chestnut or taro with a faint bitterness. Raw it is acrid, so the rule is to parboil and discard the water before simmering it in seasoned broth. In the Kanto region the standard New Year preparation is to peel it with the shoot intact and simmer it with gardenia fruit to turn it yellow, and the slight bitterness is said to stand out among the sweet dishes of osechi.\n## How it's made\nCorms saved from the previous year are sprouted in spring and planted into flooded fields in early summer. The water is never allowed to run dry through summer; once the leaves have filled in, the field is drained between November and December, after frost, and the corms are dug out of the mud. Since each corm sits at the tip of a runner, they are gathered one by one as the mud is broken up, taking care not to snap the shoot. Deep mud and plenty of water are said to be needed for good skin color, and the harvest keeps best left muddy and cool. Shipments concentrate at year-end for the New Year table.\n## Why it took this shape\nThe country around Koshigaya is low wetland threaded by the Ayase and Moto-Arakawa rivers, poorly drained and once covered in fields that stayed flooded. Such wet paddies were poor for rice and are said to have been turned over to kuwai, which likes standing water, and the closeness of Edo with its New Year demand kept the area going as a growing district. The reading of the sprouting bud as a sign of rising in the world survives in the New Year dish, and in Saitama households the yellow-simmered kuwai still appears on the New Year table.",
+   "sources": [
+    {
+     "title": "越谷市（公式サイト）",
+     "url": "https://www.city.koshigaya.saitama.jp/",
+     "publisher": "越谷市",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 埼玉県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/saitama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "kuwai-no-fukumeni",
+     "to_slug": "koshigaya-kuwai",
+     "relation_type": "使用食材",
+     "basis": "綾瀬川流域の低湿地で育てた埼玉のくわいをくちなしで黄色く煮含める正月料理として同資料に載る（農林水産省うちの郷土料理・埼玉県）"
+    }
+   ]
+  },
+  {
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "primary_style": "",
+   "regions": [],
+   "tags": [],
+   "slug": "yagiri-negi",
+   "name_ja": "矢切ねぎ",
+   "name_romaji": "Yagiri negi",
+   "name_en": "Yagiri negi — long white leek from the Edogawa riverbank at Matsudo, Chiba",
+   "origin_pref": "千葉県",
+   "origin_city": "松戸市",
+   "lat": 35.7876,
+   "lng": 139.9031,
+   "summary_ja": "千葉県松戸市の江戸川沿い、矢切地区で育てられるねぎ。川が運んだ砂混じりの土で白い部分が長く伸び、繊維が柔らかく、霜に当たる冬は甘みが強いとされる。江戸へ野菜を運んだ近郊の畑の流れをくむという。",
+   "summary_en": "A leek grown in the Yagiri district of Matsudo, Chiba, on the bank of the Edogawa river. In the sandy soil the river laid down, the white stem grows long, the fibers stay tender, and winter frost brings out a strong sweetness. It carries on the tradition of the market-garden fields that once fed Edo.",
+   "body_ja": "## 何でできているか\n白い部分が長くまっすぐで、皮の下の肉が締まり、繊維が細かく柔らかいとされる。鍋に入れるととろけるように柔らかくなり、冬のものは甘みが際立つという。生で刻むと香りが立ち、辛みは穏やかとされ、薬味から鍋まで幅広く使われる。品種としては関東で主流の根深ねぎの系統とされ、土の深さで白根の長さが決まるという。出荷は霜の降りる晩秋から冬が中心で、年末に向けて最も多く出回ると伝わる。\n## どう作るのか\n春か秋に播いた種を苗に育て、畑に深い溝を切って植え、成長に合わせて何度も土を寄せて白い部分を伸ばす。江戸川沿いの砂を含む土は柔らかく、深く溝を切っても崩れにくいため土寄せの回数を重ねやすいという。冬に霜に当たるほど甘みが増すとされ、寒さの中で穫る時期を見計らうと伝わる。収穫後は泥を落とし、外側の皮を一枚むいて長さを揃え、束にして出荷する。地元の農家が品種と作り方を引き継いでいるとされる。\n## なぜこの形になったのか\n矢切は江戸川の東岸に広がる低地で、川の氾濫が運んだ砂混じりの深い土が、白根を長く伸ばす根深ねぎの栽培に向いたとされる。江戸の町へ川を渡って野菜を運べる位置にあり、近郊の畑として冬の青物を供給してきた流れの中でねぎが選ばれたと伝わる。江戸川に残る矢切の渡しは、対岸の柴又と結ぶ古い渡し船として知られ、畑の脇を流れる川そのものが産地の由来になっているという。",
+   "body_en": "## What it's made of\nThe white stem is long and straight, firm just under the skin, with fine, tender fibers. In a hot pot it softens almost to melting, and winter leeks are markedly sweet. Chopped raw the aroma comes forward and the bite is gentle, so it goes into everything from garnishes to stews. As a type it belongs to the nebuka, or deep-rooted, leeks that dominate the Kanto region, and the depth of the soil decides the length of the white stem. Shipments center on late autumn and winter after frost, peaking toward year-end.\n## How it's made\nSeed sown in spring or autumn is raised into seedlings, planted into deep trenches, and hilled up repeatedly as the plants grow to lengthen the white stem. The sandy soil along the Edogawa is soft yet holds a deep trench without collapsing, which makes it easy to hill up many times. The more frost the leek takes in winter, the sweeter it is said to become, and the harvest is timed by the cold. After harvest the leeks are cleaned of mud, one outer skin is peeled, and they are trimmed and bundled for shipping. Local farmers are said to carry on both the strain and the method.\n## Why it took this shape\nYagiri is low ground on the east bank of the Edogawa, and the deep, sandy soil left by the river's floods suits the nebuka method of growing a long white stem. Lying where vegetables could be carried across the river into Edo, the district supplied the city with winter greens as a market garden, and leeks are said to have been chosen within that tradition. The Yagiri ferry, which still crosses the Edogawa to Shibamata on the far bank, is known as one of the old river crossings, and the river running beside the fields is itself the reason the leek bears this name.",
+   "sources": [
+    {
+     "title": "松戸市（公式サイト）",
+     "url": "https://www.city.matsudo.chiba.jp/",
+     "publisher": "松戸市",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 千葉県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "fukaya-negi",
+     "relation_type": "兄弟",
+     "basis": "どちらも関東で主流の根深ねぎの系統で、利根川・江戸川が運んだ砂混じりの深い沖積土に土を寄せて長い白根を育て、江戸・東京へ冬の青物を送った近郊の産地として続く"
+    }
+   ]
+  },
+  {
+   "type": "ingredient",
+   "shelf": "tubers",
+   "genre": null,
+   "primary_style": "",
+   "regions": [],
+   "tags": [],
+   "slug": "chiba-rakkasei",
+   "name_ja": "千葉の落花生",
+   "name_romaji": "Chiba no rakkasei",
+   "name_en": "Chiba rakkasei — peanuts from the volcanic-soil fields of the Hokuso plateau",
+   "origin_pref": "千葉県",
+   "origin_city": "八街市",
+   "lat": 35.6659,
+   "lng": 140.3187,
+   "summary_ja": "千葉県北部の八街市を中心とした北総台地で育つ落花生。火山灰の軽い土が地中で実を太らせるのに合うとされ、国内の生産量の大部分を千葉が占めるという。収穫後に畑で株を積み上げて乾かす「ぼっち」の姿が秋の風景になっている。",
+   "summary_en": "Peanuts grown on the Hokuso plateau of northern Chiba, centered on Yachimata. The light volcanic soil is said to suit a plant that swells its pods underground, and Chiba accounts for most of Japan's crop. The stacks of harvested plants left to dry in the fields, called botchi, are part of the autumn landscape.",
+   "body_ja": "## 何でできているか\nマメ科の一年草で、花が咲いたあと子房の柄が地中に潜り、土の中でさやが育つ。千葉半立という在来の品種が長く作られ、粒はやや小ぶりで炒ると香ばしさと甘みが強いとされる。炒り落花生のほか、掘りたてを殻ごと塩ゆでにすると、ほくほくした豆の食感になるという。すりつぶして味噌と合わせたピーナッツ味噌は、家庭の常備菜として県内に広く残っている。渋皮ごと食べると香りが強く出るとされる。\n## どう作るのか\n5月に種を播き、夏に黄色い花が咲くと、受粉した花の柄が地面へ伸びて土に潜り、地中でさやを太らせる。土が柔らかいほど柄が潜りやすいため、火山灰の軽い土が向くとされる。9月から10月に株ごと掘り上げて畑で裏返して干し、さらに株を円筒形に積み上げて「ぼっち」と呼ぶ山にし、1か月ほど風と日に当てて乾かすという。乾いた実をさやから外し、選別して出荷する。ゆで落花生は掘りたての生の実を使い、時間が経つと硬くなるため産地ならではの食べ方とされる。\n## なぜこの形になったのか\n北総台地は関東ローム層の火山灰土が厚く、水はけがよくて軽いため、地中にさやを作る落花生に向いたとされる。明治以降、米の穫れにくい台地の畑で現金収入になる作物として広まったと伝わり、八街をはじめ周辺の町へ作付けが広がったという。殻のまま乾かして保存でき、炒れば菓子にも惣菜にもなる使い勝手が、産地としての定着を支えたとされる。畑に並ぶぼっちは収穫の季節の印として残り、生のまま塩ゆでにする食べ方は掘りたてが手に入る土地だからこそ生まれたという。",
+   "body_en": "## What it's made of\nAn annual legume whose flowers, once pollinated, send a stalk down into the ground, where the pod develops. Chiba Handachi, a long-established local variety, gives slightly small kernels that roast up fragrant and sweet. Besides roasting, peanuts dug the same day and boiled in the shell in salted water take on a soft, floury texture closer to a bean. Peanut miso, kernels ground and simmered with miso, remains a household staple across the prefecture. Eating the kernel with its red skin is said to bring out more of the aroma.\n## How it's made\nSeed is sown in May. When the yellow flowers open in summer, the pollinated flower stalk reaches down to the soil, pushes in, and swells its pod underground; the softer the soil, the more easily it enters, which is why light volcanic soil suits the crop. From September into October the plants are pulled up whole, turned over to dry in the field, then stacked into tall cylinders called botchi and left in sun and wind for about a month. The dried pods are stripped from the plants, sorted, and shipped. Boiled peanuts call for freshly dug raw kernels, which harden as they age, so that way of eating is tied to the growing district.\n## Why it took this shape\nThe Hokuso plateau carries a thick layer of volcanic Kanto loam, light and well drained, which suits a plant that forms its pods below ground. From the Meiji era on, peanuts are said to have spread as a cash crop on plateau fields where rice did poorly, with plantings reaching Yachimata and the surrounding towns. A crop that stores in the shell and turns into either a sweet or a side dish once roasted is thought to have helped the area settle into peanut farming. The botchi standing in the fields remain the sign of harvest season, and the habit of boiling the raw peanuts in salt is said to have arisen precisely because freshly dug nuts are at hand.",
+   "sources": [
+    {
+     "title": "千葉県（公式サイト）",
+     "url": "https://www.pref.chiba.lg.jp/",
+     "publisher": "千葉県",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 千葉県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/chiba.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "chiba-yude-rakkasei",
+     "to_slug": "chiba-rakkasei",
+     "relation_type": "使用食材",
+     "basis": "八街など産地で掘りたての生の落花生を殻ごと塩ゆでにする料理として同資料に載る（農林水産省うちの郷土料理・千葉県）"
+    },
+    {
+     "from_slug": "chiba-rakkasei-miso",
+     "to_slug": "chiba-rakkasei",
+     "relation_type": "使用食材",
+     "basis": "県内の落花生を味噌と砂糖で炒りつける常備菜として同資料に載る（農林水産省うちの郷土料理・千葉県）"
+    }
+   ]
+  }
+ ],
+ "notes": "【veg-2 再開分（2026-10-05）】既存5件（福島2・茨城2・栃木1）を保持し、栃木に新里ねぎ、群馬・埼玉・千葉を追記。既存の修正2点: (1) tochigi-yugao は既存ラーメン slug と衝突のため tochigi-kanpyo-yugao に改名（relations の参照も更新）。(2) edosaki-kabocha の関係0本 → kabocha-no-itokoni（茨城・冬至）からの使用食材を追加。aizu→edosaki の対比は既存のまま（同じ組を逆向きに重ねない）。\n【出典の確信度】全件が自治体公式サイトのトップ＋農林水産省うちの郷土料理の県一覧（深い階層は書いていない）。トップ階層なので実在は高い確信だが、要確認: 各 slug の出典は一覧ページ。八街市は出典に使わず千葉県トップにした（市サイトの URL 形式に自信がないため）。\n【要判断】gunma-konnyaku-imo の origin_city は現在の主産地として利根郡昭和村（赤城山麓）に置いた。歴史的な集散地は下仁田町・甘楽町で、下仁田に置き換える判断もある。lat/lng は役場の概略値（小数4桁だが Web 不可環境のため ±0.01 程度の誤差があり得る。新里ねぎは宇都宮市役所の座標。新里町は市北部で市役所から約10km 北）。\n【裏が取れず書かなかった内容】下仁田ねぎの糖度・深谷ねぎの糖度の数値、新里ねぎの地域団体商標の有無、下仁田ねぎの江戸への献上文書の年代、くわいの埼玉県の生産順位（既存の kuwai-no-fukumeni に「全国2位」とあるが野菜側では書いていない）、千葉の落花生の品種「Qなっつ」「ナカテユタカ」（県育成品種だが本文では在来の千葉半立のみ言及）。\n【対象外・候補】茨城: 干し芋（既存 hoshiimo が料理として存在するため tubers は作らず）・奥久慈の凍みこんにゃく（既存 shimikonnyaku）・岩間の栗（fruits）。栃木: 宮ねぎ、とちぎの苺（fruits）。群馬: 嬬恋高原キャベツ（銘柄野菜。candidates）、国分にんじん、高崎のうど（山菜扱いなら mushrooms）。埼玉: 狭山のさといも（tubers 候補）、草加のせんべい用米は対象外、加須のきゅうり。千葉: 房州のびわ（fruits）、大栄のさつまいも・ベニアズマ（tubers 候補）、銚子キャベツ、船橋にんじん（旧江戸東京野菜圏）。福島: 会津伝統野菜の余り（余蒔きゅうり・荒久田茎立・立川ごぼう）。\n【タグ】全件 []（くわい・ねぎぬたの ceremonial は料理側に付く性質と判断）。"
+}

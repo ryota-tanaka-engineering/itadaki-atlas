@@ -1,0 +1,340 @@
+{
+  "items": [
+    {
+      "slug": "otsuka-ninjin",
+      "body_ja": "## 何でできているか\n国分鮮紅大長人参の系統とされる長根のにんじんで、長さは60〜80センチ、長いものは1メートル近くに達するという。鮮やかな紅色の根は先まで太さが落ちにくく、肉質はやわらかで甘みと香りが強いとされる。煮込んでも崩れにくく、煮しめや筑前煮に入れると色も香りも際立つという。収穫は初霜の後で、寒さに当たるほど甘みが乗るとされる。\n## どう作るのか\n種をまくのは7月下旬から8月にかけてで、夏の暑さの中で芽を出させ、秋に根を伸ばして11月下旬から12月に掘り上げるという。根が深く伸びるため、収穫は機械に頼れず、根を折らないように一本ずつ掘り出すとされる。種は農家が自家採種で受け継いできたと伝わり、長さと色の揃ったものを選んで翌年に備えるという。土付きのまま保存し、正月まで持たせる家もあるとされる。\n## なぜこの形になったのか\n市川三郷町の大塚地区には、「のっぷい」と呼ばれる火山灰由来の深く柔らかな土が広く堆積しているとされる。石が少なく水はけと保水のつり合いが良いため、根がまっすぐ深く伸び、この長さが実現するという。周囲の硬い土地では同じ品種を育てても短く曲がりやすいと伝わり、品種と土が一対になって生まれた野菜とみられる。正月料理の彩りとして欠かせず、年の瀬に出回る季節の野菜として土地に根づいたとされる。",
+      "body_en": "## What it's made of\nA long-rooted carrot said to belong to the Kokubu senko onaga line, running 60 to 80 centimeters and, at its longest, close to a meter. The deep red root is said to keep its thickness nearly to the tip, with soft flesh that is markedly sweet and fragrant. It holds together through long simmering, and in nishime or chikuzen-ni (simmered root-vegetable dishes) both its color and aroma are said to stand out. Harvest comes after the first frost, and the cold is said to deepen the sweetness.\n## How it's made\nSeed goes in from late July into August, sprouting in the summer heat and sending its root down through autumn before being dug from late November into December. Because the root runs so deep, machines are said to be of little use; each one is dug out by hand so it doesn't snap. Growers are said to have saved their own seed for generations, choosing roots of even length and color for the following year. Some households keep them in soil to last until New Year.\n## Why it took this shape\nThe Otsuka district of Ichikawamisato sits on a wide bed of deep, soft, volcanic-ash soil known locally as noppui. With few stones and a balance of drainage and moisture, it lets the root drive straight down, which is said to be what makes this length possible. The same seed grown in the harder ground nearby is said to come up short and crooked, so the carrot can be seen as a pairing of one variety and one soil. It's an essential color in New Year cooking and has settled into the land as a vegetable of the year's end.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 山梨県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/yamanashi.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "市川三郷町",
+          "url": "https://www.town.ichikawamisato.yamanashi.jp/",
+          "publisher": "市川三郷町",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "otsuka-ninjin",
+          "to_slug": "moriguchi-daikon",
+          "relation_type": "対比",
+          "basis": "どちらも石の少ない深い土（大塚の火山灰土、岐阜・尾張の川沿いの砂質土）が根をまっすぐ長く伸ばした根菜で、土質が形を決めた例として対になる"
+        }
+      ]
+    },
+    {
+      "slug": "yahata-imo",
+      "body_ja": "## 何でできているか\nさといもの一種で、親芋のまわりにつく子芋・孫芋を食べる。肉質はきめが細かく、茹でると粘りとぬめりが強いのに口当たりはなめらかで、ほのかな甘みがあるとされる。皮が薄くむきやすいのも持ち味といい、煮っころがしや芋煮、味噌汁の実にすると汁をよく含むという。秋に掘りたてを蒸して塩で食べる素朴な食べ方も土地では好まれると伝わる。\n## どう作るのか\n春に種芋を植え、夏の間は土寄せを重ねて子芋を育て、9月から11月にかけて掘り上げるという。乾燥を嫌うため、暑い盛りには水をやりながら葉を保つとされる。釜無川沿いの畑は砂混じりで水はけが良く、芋が肥大しても泥がつきにくいという。収穫後は親芋から子芋を外し、泥を落として出荷するとされる。種芋は自家で選び抜いたものを翌春に使う家が多いと伝わる。\n## なぜこの形になったのか\n八幡地区は甲府盆地の西、釜無川の氾濫で運ばれた砂と細かな土が重なる場所にあるとされる。この土は水はけと通気が良く、さといもの根が深く張って肌のきれいな芋に育つという。江戸時代から栽培されていたと伝わり、川の氾濫に悩まされた土地の農家が、泥に強く保存のきく作物として芋を選んだとみられる。甲斐市の特産として、秋には芋掘りや直売で季節を告げる存在になっているとされる。",
+      "body_en": "## What it's made of\nA satoimo (taro) whose daughter and granddaughter corms, the small tubers that form around the mother, are the part eaten. The flesh is fine-grained, and once boiled it turns strongly sticky and slippery yet smooth in the mouth, with a faint sweetness. The thin skin is said to peel easily, and in nikkorogashi (taro simmered until glazed), imoni (taro stew) or miso soup it soaks up the broth well. Locals are also said to like it freshly dug in autumn, steamed and eaten with salt.\n## How it's made\nSeed corms are planted in spring, soil is hilled up around the plants through summer to grow the daughter corms, and the crop is dug from September to November. The plant dislikes drying out, so in the height of summer it's watered to keep the leaves going. The fields along the Kamanashi are sandy and drain well, so even as the corms swell, little mud clings to them. After harvest the daughters are broken from the mother, cleaned and shipped, and many families are said to keep their own selected seed corms for the next spring.\n## Why it took this shape\nThe Yahata district lies on the west side of the Kofu basin, where flooding of the Kamanashi River is said to have layered sand and fine silt. That soil drains and breathes well, letting the roots go deep and the corms come up with clean skins. Cultivation is said to go back to the Edo period, and farmers plagued by the river's floods appear to have chosen taro as a crop that tolerates mud and keeps well. As a specialty of Kai, it now marks the autumn season through digging events and farm stands.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 山梨県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/yamanashi.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "甲斐市",
+          "url": "https://www.city.kai.yamanashi.jp/",
+          "publisher": "甲斐市",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "yahata-imo",
+          "to_slug": "yanamaru-satoimo",
+          "relation_type": "兄弟",
+          "basis": "ともにさといもの産地銘柄で、川沿いの土に結びついた地方品種として並ぶ（釜無川沿いのやはたいも、豊川沿いの八名丸）"
+        }
+      ]
+    },
+    {
+      "slug": "nozawana",
+      "body_ja": "## 何でできているか\nアブラナ科のかぶの仲間だが、根はほとんど太らず、葉と茎を食べる菜として育つ。草丈は60〜90センチ、大きなものは1メートル近くに達するという。葉は幅広でやわらかく、茎は太くみずみずしい。生のままでは軽い辛みと青い香りがあり、霜に当たると甘みとぬめりが増して漬物向きになるとされる。おひたしや油炒めにも使われるが、村では塩で漬け込む野沢菜漬けが主な食べ方という。\n## どう作るのか\n9月初めに種をまき、2か月ほどで収穫期を迎えるとされる。霜が降りるのを待ってから刈り取り、11月下旬には村の温泉の湯で泥を洗い落とす「お菜洗い」の光景が見られるという。種は在来の系統を守るため自家採種が続けられてきたと伝わり、村外の畑では姿が変わりやすいともいわれる。収穫したものはすぐに桶に漬けるか、茹でて食べ、長く置かないのが基本とされる。\n## なぜこの形になったのか\n一説によると、宝暦年間に野沢温泉の寺の住職が京都から天王寺かぶの種を持ち帰ったのが始まりと伝わる。標高600メートル近い寒冷地では根が育たず、代わりに葉と茎が大きく伸びる形に変わったとされる。冬の間、畑から青物がとれない北信州では、晩秋に大量の菜を漬けて越冬する必要があり、葉を大きく育てる方向に選ばれていったとみられる。長野県の「信州の伝統野菜」の一つに数えられる。",
+      "body_en": "## What it's made of\nA member of the turnip family (kabu, in Japanese), but one whose root barely swells; it's grown for the leaf and stem. Plants stand 60 to 90 centimeters, with the largest close to a meter. The leaves are broad and tender, the stems thick and juicy. Raw, it carries a light bite and a green aroma; after frost the sweetness and a slight slipperiness increase, which is said to be what makes it suit pickling. It's also eaten blanched or stir-fried, but in the village the main use is nozawana-zuke, the salt pickle.\n## How it's made\nSeed is sown in early September and the crop is ready in about two months. Harvest waits for frost, and in late November the village is known for na-arai, washing the mud from the leaves in the hot-spring water. Growers are said to have saved their own seed to keep the local strain, and the plant is said to change its character when grown far from the village. Once cut it goes straight into the pickling tub or the pot; it isn't something to keep for long.\n## Why it took this shape\nOne account has a priest of a temple in Nozawa Onsen bringing seed of the Tennoji turnip back from Kyoto in the Horeki era of the mid-1700s. At nearly 600 meters of elevation the root is said to have failed to develop, and the plant shifted toward a large leaf and stem instead. In northern Nagano, where nothing green comes from the fields in winter, households had to pickle great quantities of greens in late autumn, and selection appears to have favored ever larger leaves. It's counted among Nagano's officially listed heirloom vegetables (Shinshu no dento yasai).",
+      "sources": [
+        {
+          "title": "うちの郷土料理 長野県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/nagano.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "長野県",
+          "url": "https://www.pref.nagano.lg.jp/",
+          "publisher": "長野県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "nozawana-zuke",
+          "to_slug": "nozawana",
+          "relation_type": "使用食材",
+          "basis": "野沢菜漬けは野沢菜を塩と焼酎で漬け込む（既存アイテム nozawana-zuke の本文）"
+        },
+        {
+          "from_slug": "nozawana",
+          "to_slug": "hida-beni-kabu",
+          "relation_type": "対比",
+          "basis": "ともにかぶ系の在来種だが、野沢菜は寒冷地で根が育たず葉を食べる菜に、飛騨紅かぶは根を食べる丸かぶに向かった"
+        }
+      ]
+    },
+    {
+      "slug": "botan-kosho",
+      "body_ja": "## 何でできているか\n見た目はピーマンに近い丸い形で、肩にしわが寄ってへこみ、牡丹の花びらのように見えることから名がついたと伝わる。果肉は厚くてみずみずしく、青いうちに収穫したものは爽やかな香りと歯ごたえを持つという。辛みは種と胎座に強く、果肉そのものにも穏やかな辛さがあるとされる。信州では唐辛子を「こしょう」と呼ぶ習わしがあり、この名もその一つという。\n## どう作るのか\n春に種をまいて苗を育て、初夏に畑へ植え、7月から9月にかけて青い実を摘み取るとされる。種は農家が自家採種で受け継いできたと伝わり、同じ畑でも年によって辛みに差が出るという。食べ方は種を取って刻み、味噌と炒める「こしょう味噌」や、夏野菜と刻んで混ぜる「やたら」、丸ごと焼いて味噌をつけるなど、味噌と組む料理が多いとされる。\n## なぜこの形になったのか\n中野市の旧豊田村一帯や信濃町、飯山市など、標高の高い北信の集落で育てられてきたとされる。昼夜の寒暖差が大きい高冷地では辛みが強く乗ると伝わり、平地で育てると辛みや形が変わりやすいという。冬が長く夏野菜の季節が短い土地で、辛みで食欲を呼び、味噌と合わせて保存もきく薬味として重宝されてきたとみられる。長野県の「信州の伝統野菜」の一つに数えられる。",
+      "body_en": "## What it's made of\nRounded like a bell pepper, with creased, dimpled shoulders that are said to resemble the petals of a botan (peony), which is how it got its name. The flesh is thick and juicy, and fruit picked green has a fresh aroma and a crisp bite. The heat sits mostly in the seeds and the placenta, with a gentler warmth in the flesh itself. In Nagano, chili peppers have long been called kosho, the word used elsewhere for black pepper, and this is one of those names.\n## How it's made\nSeed is started in spring, seedlings go into the field in early summer, and the green fruit is picked from July through September. Farmers are said to have saved their own seed for generations, and even in the same field the heat is said to vary from year to year. It's typically seeded and chopped, then cooked down with miso into kosho-miso, mixed with other chopped summer vegetables in the dish called yatara, or grilled whole and eaten with miso; pairing with miso runs through most of its uses.\n## Why it took this shape\nIt has been grown in the high villages of northern Nagano, around the former Toyoda village in Nakano, in Shinano town and in Iiyama. The wide swing between day and night temperatures in these uplands is said to build its heat, and plants grown on the plains are said to lose both the heat and the shape. In a region with long winters and a short summer-vegetable season, a pepper that sharpens the appetite and keeps well once cooked into miso appears to have earned its place. It's listed among Nagano's heirloom vegetables (Shinshu no dento yasai).",
+      "sources": [
+        {
+          "title": "うちの郷土料理 長野県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/nagano.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "長野県",
+          "url": "https://www.pref.nagano.lg.jp/",
+          "publisher": "長野県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "yatara",
+          "to_slug": "botan-kosho",
+          "relation_type": "使用食材",
+          "basis": "やたらは夏野菜とともにぼたんこしょうを刻んで混ぜ、その辛みが持ち味とされる（既存アイテム yatara の本文）"
+        }
+      ]
+    },
+    {
+      "slug": "hida-beni-kabu",
+      "body_ja": "## 何でできているか\n直径10センチほどの丸いかぶで、皮は深い紅色、切ると中は白く締まっているとされる。肉質は緻密でやわらかく、生ではほのかな辛みと甘み、漬けると皮の色素が身にしみて紅色に染まるという。葉もやわらかく、塩漬けや炒め煮に使われると伝わる。飛騨では赤かぶ漬けとして冬の食卓に並ぶのが基本で、切り漬けや甘酢漬けなど漬け方で味の幅が広がるとされる。\n## どう作るのか\n8月に種をまき、10月から11月の霜が降りる頃に収穫するという。高冷地の秋は昼夜の寒暖差が大きく、この差が皮の色と甘みを乗せるとされる。収穫後は葉を落として洗い、丸ごとか切って塩で漬け込み、冬の間じっくり乳酸発酵させるのが土地の習わしという。種は地域の農家が自家採種で守り、色の鮮やかな株を選んで受け継いできたと伝わる。\n## なぜこの形になったのか\n一説によると、明治のはじめ頃、丹生川村で栽培されていた八賀かぶの畑に紅色の変異が見つかり、それを選び続けて定着したのが始まりと伝わる。雪に閉ざされる飛騨では冬の野菜を漬物で蓄える必要があり、皮の色が身に移って華やかに仕上がるかぶが好まれたとみられる。岐阜県の「飛騨・美濃伝統野菜」に認証されており、高山市を中心に今も秋の畑を紅く彩るという。",
+      "body_en": "## What it's made of\nA round kabu (Japanese turnip) about 10 centimeters across, with deep crimson skin and firm white flesh inside. The flesh is dense yet tender, faintly peppery and sweet when raw, and once pickled the pigment from the skin is said to bleed in and tint the whole root red. The leaves are tender too and go into salt pickles and braises. In Hida it appears on the winter table above all as akakabu-zuke, the red-turnip pickle, with sliced pickles and sweet-vinegar versions widening the range.\n## How it's made\nSown in August and harvested from October into November, around the first frosts. Autumn in the highlands swings widely between day and night temperatures, and that swing is said to deepen both the skin color and the sweetness. After harvest the leaves are cut off, the roots washed and salted whole or sliced, and left to ferment slowly through the winter, as local custom has it. Farmers in the area are said to have kept their own seed, selecting the most vividly colored roots to carry forward.\n## Why it took this shape\nOne account holds that in the early Meiji years a crimson sport appeared in a field of Yaga turnips in Nyukawa village, and that it was selected year after year until it held true. In snowbound Hida, winter vegetables had to be stored as pickles, and a turnip whose skin color spread into the flesh and made the pickle look festive appears to have been favored. It's certified by Gifu Prefecture as a Hida-Mino heirloom vegetable, and still turns the autumn fields around Takayama red.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 岐阜県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/gifu.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "岐阜県",
+          "url": "https://www.pref.gifu.lg.jp/",
+          "publisher": "岐阜県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "hida-akakabu-zuke",
+          "to_slug": "hida-beni-kabu",
+          "relation_type": "使用食材",
+          "basis": "飛騨赤かぶ漬けは飛騨紅かぶを丸ごと塩漬けにする（既存アイテム hida-akakabu-zuke の本文）"
+        }
+      ]
+    },
+    {
+      "slug": "moriguchi-daikon",
+      "body_ja": "## 何でできているか\n長さは1メートル20センチ前後、太さは2〜3センチほどで、細く長い姿がまず目を引く。肉質は緻密で水分が少なく、生のままでは辛みがはっきりしているという。そのまま煮たり生で食べたりする機会は少なく、塩漬けのあと酒粕やみりん粕に長く漬け込む守口漬けの原料としてほぼ全量が使われるとされる。漬け上がりは飴色で歯ごたえが残り、粕の甘い香りの奥に大根の辛みがわずかに残るという。\n## どう作るのか\n種まきは8月下旬から9月上旬で、11月下旬から12月にかけて掘り上げるという。根が1メートル以上まっすぐ伸びるため、畑は石のない深い砂質の土が条件とされ、収穫は根を折らないよう周りを深く掘り、一本ずつ手で引き抜くと伝わる。掘り上げた大根は洗って数日干し、塩漬けにして漬物業者へ渡るのが主な流れという。種は産地の農家が自家採種で守り、長さと細さの揃った株を選んで受け継いできたとされる。\n## なぜこの形になったのか\n岐阜市の則武・鷺山地区は長良川、愛知県扶桑町は木曽川の氾濫原にあたり、砂が深く積もった土に石がほとんどないとされる。この土が根の伸びを妨げず、細長い品種の性質が最大限に現れたとみられる。名の由来は、一説によると河内の守口（現・大阪府守口市）で淀川沿いに作られていた細長い大根が尾張に伝わったためともいわれ、美濃では干して漬ける細い大根が江戸期から作られていたとも伝わる。岐阜県の「飛騨・美濃伝統野菜」と「あいちの伝統野菜」の双方に数えられる。",
+      "body_en": "## What it's made of\nAround 120 centimeters long and only 2 to 3 centimeters across; the sheer slenderness is the first thing you notice. The flesh is dense and low in moisture, and raw it carries a clear peppery bite. It's rarely simmered or eaten fresh; nearly the whole crop is salted and then steeped for months in sake kasu (the lees left from brewing) or mirin lees to become moriguchi-zuke. The finished pickle is amber, still crunchy, with a faint radish heat behind the sweet aroma of the lees.\n## How it's made\nSeed is sown from late August into early September and the roots are dug from late November into December. Because the root runs straight down for more than a meter, the field must be deep, stone-free sand, and harvest means digging well around each root and drawing it out by hand so it doesn't snap. The washed roots are dried for a few days, salted and passed on to pickle makers, which is the main route. Growers are said to save their own seed, selecting roots of even length and slimness.\n## Why it took this shape\nThe Noritake and Sagiyama districts of Gifu lie on the floodplain of the Nagara River, and Fuso in Aichi on that of the Kiso; both sit on deep deposits of sand with almost no stones. That soil never checks the root, so the variety's long, thin character is said to show fully. One account traces the name to a slender radish once grown along the Yodo River at Moriguchi, in what is now Osaka, that reached Owari; another has thin radishes grown for drying and pickling in Mino since the Edo period. It's counted among both Gifu's Hida-Mino heirloom vegetables and Aichi's heirloom vegetables.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 岐阜県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/gifu.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "岐阜県",
+          "url": "https://www.pref.gifu.lg.jp/",
+          "publisher": "岐阜県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "moriguchi-zuke",
+          "to_slug": "moriguchi-daikon",
+          "relation_type": "使用食材",
+          "basis": "守口漬けは1メートルを超える細長い守口大根を丸ごと塩漬けにしてから酒粕に漬け込む（既存アイテム moriguchi-zuke の本文）"
+        }
+      ]
+    },
+    {
+      "slug": "shizuoka-mizu-wasabi",
+      "body_ja": "## 何でできているか\n食べるのは地上近くに太る根茎で、長さ10〜15センチほど、おろすと淡い緑色のペーストになる。辛みは鼻に抜けてすぐ消え、あとに甘みがわずかに残るとされ、細かくおろすほど香りが立つという。葉や茎、春の花も食用で、刻んで塩でもみ、酒粕と合わせるわさび漬けや醤油漬けに使われる。水で育てたものは畑で育てる畑わさびより根茎が太く、きめが細かいとされる。\n## どう作るのか\n山の湧き水を引き、石を組んだ階段状のわさび田に浅く水を流し続けて育てる。水温は年間を通じて13度前後が良いとされ、夏に暖まらず冬に凍らない清水が条件という。肥料は使わず、流れる水に含まれる養分で育てるため、苗を植えてから収穫まで1年半から2年ほどかかるとされる。砂利を層にして水を均等に流す「畳石式」の田が中伊豆で考案され、今の主流になったと伝わる。\n## なぜこの形になったのか\n一説によると、慶長年間に静岡市有東木の村人が山に自生していたわさびを湧き水のそばに植えたのが栽培の始まりと伝わる。安倍川上流や天城山の一帯は雨が多く、火山性の地層を通った冷たい湧き水が一年中絶えないとされ、水で育つわさびにはこの土地の条件がそのまま合ったとみられる。駿府の徳川家康が珍重し、地区外への持ち出しを禁じたという伝承も残る。この階段状の田での栽培は「静岡水わさびの伝統栽培」として知られる。",
+      "body_en": "## What it's made of\nThe part eaten is the rhizome that thickens just above the roots, 10 to 15 centimeters long, which grates into a pale green paste. The heat rises through the nose and fades quickly, leaving a trace of sweetness, and the finer the grating the more the aroma is said to open. The leaves, stems and spring flowers are eaten too, chopped, rubbed with salt and worked into sake lees for wasabi-zuke, or steeped in soy sauce. Water-grown wasabi (mizu-wasabi) is said to form a thicker, finer-grained rhizome than wasabi raised in dry fields.\n## How it's made\nSpring water is led from the mountain into terraced beds built of stone, and kept running shallow over the plants. A water temperature of around 13 degrees Celsius year-round is considered ideal: water that never warms in summer or freezes in winter. No fertilizer is used; the plants live on what the flowing water carries, so a seedling takes a year and a half to two years to reach harvest. The tatami-ishi style, with layered gravel that spreads the flow evenly, is said to have been devised in central Izu and is now the norm.\n## Why it took this shape\nOne account has villagers at Utogi, in the mountains above Shizuoka, transplanting wild wasabi beside a spring in the Keicho era, around 1600. The upper Abe River and the Amagi range receive heavy rain, and cold water filtered through volcanic strata is said to flow all year, so the plant's need for running water matched the land as it stood. Tradition adds that Tokugawa Ieyasu, retired at Sunpu, prized it and forbade taking it out of the district. Growing it in these terraced beds is known today as the traditional cultivation of Shizuoka mizu-wasabi.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 静岡県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/shizuoka.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "静岡県",
+          "url": "https://www.pref.shizuoka.jp/",
+          "publisher": "静岡県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "wasabi-zuke",
+          "to_slug": "shizuoka-mizu-wasabi",
+          "relation_type": "使用食材",
+          "basis": "わさび漬けはわさびの茎や根を刻んで酒粕と練り合わせ、有東木の湧水のわさび田から広まったとされる（既存アイテム wasabi-zuke の本文）"
+        }
+      ]
+    },
+    {
+      "slug": "orido-nasu",
+      "body_ja": "## 何でできているか\n握りこぶしほどの丸い巾着型で、皮は黒みを帯びた濃い紫、へたには鋭いとげがあるとされる。肉質は緻密で水分が少なめのぶん、火を通すと甘みが濃く出て、味噌と合わせる田楽や煮物に向くという。皮はやや厚く、焼いても煮ても形が崩れにくいとされる。収穫は初夏から秋にかけてで、気候が温暖な三保では早い時期から出回ったと伝わる。\n## どう作るのか\n春に種をまいて苗を育て、初夏に畑へ移し、夏から秋にかけて実を摘むという。丸い実が重いため枝が折れないよう支柱で支え、とげで傷がつかないよう一つずつ収穫するとされる。種は地域の生産者が採り続け、JAや研究機関と協力して系統を守っていると伝わる。流通量は少なく、産地周辺の直売所や料理店で出会うのが主という。給食に出ることもあるとされる。\n## なぜこの形になったのか\n三保半島の折戸は日当たりがよく冬も温暖で、江戸時代には早出しのなすを駿府に届ける産地だったと伝わる。一説によると、徳川家康が珍重したなすがこれで、初夢の「一富士、二鷹、三茄子」の茄子はこの折戸なすを指すともいわれる。明治以降は栽培が途絶えたが、国の研究所に保存されていた種を譲り受け、平成の半ばに地元の生産者が復活させたとされる。",
+      "body_en": "## What it's made of\nAbout the size of a clenched fist, round and purse-shaped, with skin of a purple so deep it reads as black and sharp thorns on the calyx. The flesh is dense and relatively dry, so cooking draws out a concentrated sweetness, which is why it suits dengaku (grilled and glazed with miso) and simmered dishes. The skin is slightly thick, and the fruit holds its shape whether grilled or stewed. It's picked from early summer into autumn, and on the mild Miho peninsula is said to have come to market early in the season.\n## How it's made\nSeed is started in spring, seedlings go out in early summer, and the fruit is picked from summer through autumn. The round fruit is heavy, so plants are staked to keep branches from breaking, and each one is picked by hand so the thorns don't scar the skin. Local growers keep saving the seed and are said to maintain the line together with the agricultural cooperative and research institutes. Volumes are small, and it's mostly met at farm stands and restaurants near the source; it also turns up in school lunches.\n## Why it took this shape\nOrido, on the Miho peninsula, is sunny and mild in winter, and in the Edo period is said to have supplied early eggplants to Sunpu, the castle town of Shizuoka. One account holds that this was the eggplant Tokugawa Ieyasu prized, and that the nasu in the lucky first-dream saying ichi-Fuji, ni-taka, san-nasubi (first Fuji, second hawk, third eggplant) refers to it. Cultivation lapsed after the Meiji era, and growers are said to have revived it in the mid-2000s from seed held at a national research institute.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 静岡県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/shizuoka.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "静岡市",
+          "url": "https://www.city.shizuoka.lg.jp/",
+          "publisher": "静岡市",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "orido-nasu-dengaku",
+          "to_slug": "orido-nasu",
+          "relation_type": "使用食材",
+          "basis": "折戸なすの田楽は三保の在来種、折戸なすを両面焼いて赤みそのたれをのせる（既存アイテム orido-nasu-dengaku の本文）"
+        }
+      ]
+    },
+    {
+      "slug": "horyo-daikon",
+      "body_ja": "## 何でできているか\n長さ40〜50センチ、根元は太く、先が牛の角のようにゆるく曲がるのが見分けのしるしとされる。首まで白い白首大根で、肉質は緻密で水分が少なく、煮ても形が崩れにくいという。生では辛みがあるが、ふろふき大根やおでんのように時間をかけて煮ると甘みが前に出るとされる。葉もやわらかく、刻んで菜飯にする家があると伝わる。\n## どう作るのか\n種まきは9月上旬から中旬で、11月下旬から12月にかけて収穫するという。肉質が緻密なぶん生育はゆっくりで、根が曲がりながら伸びるため、掘るときは土を深く崩してから引き抜くとされる。種は産地の農家が自家採種で受け継いできたと伝わり、曲がりと太さの揃った株を翌年の種用に残すという。作付けは多くなく、産地周辺の直売や煮物・漬物の加工向けが主とされる。\n## なぜこの形になったのか\n甚目寺の方領地区は濃尾平野の低地にあり、木曽三川が運んだ沖積土の畑で江戸時代から大根が作られてきたと伝わる。一説によると、尾張藩の献上品として知られ、その種が江戸の練馬に渡って練馬大根の元になったともいわれる。煮崩れしにくい性質は、味噌や醤油で時間をかけて煮る尾張の食べ方に合ったとみられ、「あいちの伝統野菜」の一つに数えられる。",
+      "body_en": "## What it's made of\nForty to fifty centimeters long, thick at the shoulder, with a tip that bends gently like a cow's horn; that curve is the telltale sign. It's a white-necked daikon (the shoulder never turns green), with dense, relatively dry flesh that keeps its shape when simmered. Raw it has some bite, but cooked slowly, as in furofuki daikon or oden, the sweetness comes forward. The leaves are tender too, and some households chop them into rice for na-meshi.\n## How it's made\nSeed is sown in early to mid September and the roots are harvested from late November into December. The dense flesh means slow growth, and since the root bends as it lengthens, the soil is broken open deeply before the root is pulled. Growers are said to have saved their own seed, keeping roots with an even curve and thickness for the next year. Plantings are small, and most of the crop goes to farm stands near the source or to makers of simmered dishes and pickles.\n## Why it took this shape\nThe Horyo district of Jimokuji lies on the low Nobi plain, where daikon has been grown since the Edo period in alluvial soil laid down by the Kiso, Nagara and Ibi rivers. One account says it was known as a tribute vegetable of the Owari domain, and that its seed travelled to Nerima in Edo and became the parent of the Nerima daikon. A radish that doesn't fall apart suited the Owari habit of simmering vegetables slowly in miso or soy sauce, and it's counted among Aichi's officially listed heirloom vegetables.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 愛知県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/aichi.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "愛知県",
+          "url": "https://www.pref.aichi.jp/",
+          "publisher": "愛知県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "horyo-daikon",
+          "to_slug": "moriguchi-daikon",
+          "relation_type": "兄弟",
+          "basis": "ともに尾張・美濃の在来大根で、方領は煮物向きの短く曲がる型、守口は漬物向きの細長い型として並ぶ"
+        }
+      ]
+    },
+    {
+      "slug": "yanamaru-satoimo",
+      "body_ja": "## 何でできているか\n子芋が丸くそろい、皮は薄くてむきやすいとされる。ゆでると粘りが強く、口に入れるときめの細かいなめらかさがあり、煮物にしても形が崩れにくいという。えぐみが少なく、ほのかな甘みがあるとされ、煮っころがしや芋煮、味噌汁、田楽などに使われる。丸い形のまま串に刺して焼き、味噌をつける食べ方も土地に残ると伝わる。\n## どう作るのか\n春に種芋を植え、夏の間に土寄せを繰り返して子芋を育て、10月から12月にかけて掘り上げるという。さといもは乾燥に弱く、夏の水管理が出来を左右するとされる。豊川沿いの畑は水はけと保水のつり合いが良く、芋が肥大しやすいと伝わる。種芋は自家採種で守られ、丸く揃った子芋を翌年の種用に残す家が多いという。出荷は秋から冬で、泥つきのまま並ぶことが多いとされる。\n## なぜこの形になったのか\n旧八名郡（現・新城市）は豊川の中流域にあり、川が運んだ肥えた土と山からの水に恵まれた土地とされる。一説によると、この地の農家が丸く粘りの強い系統を選び続けるうちに揃った形が定まり、八名の名で呼ばれるようになったと伝わる。煮物に向く丸い子芋は秋から冬の家庭料理や行事の膳に欠かせず、「あいちの伝統野菜」の一つに数えられる。",
+      "body_en": "## What it's made of\nThe daughter corms are evenly round, with thin skins that peel easily. Boiled, it turns strongly sticky, with a fine-grained smoothness in the mouth, yet holds its shape when simmered. It has little of taro's throat-catching harshness and a faint sweetness, and goes into nikkorogashi (taro simmered until glazed), imoni (taro stew), miso soup and dengaku. Threading the whole round corms on skewers, grilling them and dabbing on miso is a way of eating it that survives locally.\n## How it's made\nSeed corms are planted in spring, soil is hilled up repeatedly through summer to raise the daughter corms, and the crop is dug from October to December. Taro dislikes drying out, and summer watering is said to decide the harvest. The fields along the Toyokawa balance drainage with moisture, which helps the corms swell. Seed is kept at home, with the roundest, most even corms set aside for the following year. It ships from autumn into winter, often still coated in soil.\n## Why it took this shape\nThe former Yana district, now part of Shinshiro, lies on the middle Toyokawa, with rich river-laid soil and water from the surrounding hills. One account has farmers here selecting a round, sticky strain year after year until its shape settled and the Yana name stuck. A round corm that stands up to simmering became a fixture of autumn and winter home cooking and festival tables, and it's listed among Aichi's heirloom vegetables.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 愛知県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/aichi.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "新城市",
+          "url": "https://www.city.shinshiro.lg.jp/",
+          "publisher": "新城市",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "yanamaru-satoimo",
+          "to_slug": "ise-imo",
+          "relation_type": "対比",
+          "basis": "ともに東海の芋の銘柄だが、八名丸はさといも（ゆでて粘りを出し子芋を煮る）、伊勢いもはやまのいも（生ですりおろして粘りを出す）で、種も粘りの出し方も異なる"
+        }
+      ]
+    },
+    {
+      "slug": "ise-imo",
+      "body_ja": "## 何でできているか\n手のひらに載るほどの丸く不ぞろいな塊で、皮は薄茶色、肉は白いとされる。やまのいもの中でも粘りが特に強く、すりおろすと箸で持ち上げられるほどで、生でもえぐみが少ないという。すりおろしても色が変わりにくく、とろろや山かけのほか、すりおろして練り込む薯蕷饅頭など伊勢の菓子の材料にも使われると伝わる。加熱するとふわりと軽くなるという。\n## どう作るのか\n4月から5月に種芋を植え、11月から12月にかけて掘り上げるという。塊が丸くまとまるため長いもに比べて浅い畑で作れるが、乾燥も水のたまりすぎも嫌うとされる。多気町丹生の一帯は水はけのよい砂質の土で、芋の肌がきれいに育つと伝わる。種芋は収穫した芋を切り分けて翌春に使い、産地では系統を守るため自家採種が続いているという。\n## なぜこの形になったのか\n多気町は伊勢平野の南、櫛田川沿いの丘陵地にあり、旧勢和村の丹生周辺で江戸時代から作られていたと伝わる。一説によると、伊勢参宮の街道筋に近く、参拝客向けの菓子や料理に強い粘りが使われたことが産地を支えたともいわれる。粘りの強い丸い芋は保存がきき、土地の砂質土と合わせて今の姿に落ち着いたとみられる。三重県の特産として知られ、多気町の直売所などに並ぶという。",
+      "body_en": "## What it's made of\nA round, irregular lump that fits in the palm, with thin tan skin and white flesh. Among mountain yams (yama-no-imo) its stickiness stands out: grated, it's said to be thick enough to lift with chopsticks, and even raw it has little harshness. The grated paste resists browning, and besides tororo and yamakake (grated yam over rice or raw fish) it's kneaded into joyo manju and other Ise confections. Heated, the paste is said to turn light and fluffy.\n## How it's made\nSeed tubers are planted in April and May and dug from November into December. Because the tuber forms a compact ball, it can be grown in shallower ground than long yams, but it dislikes both drought and waterlogging. The Nyu area of Taki has well-drained sandy soil, said to give the tubers clean skins. Seed is cut from the harvested tubers for the following spring, and growers keep saving their own to hold the line.\n## Why it took this shape\nTaki lies south of the Ise plain, in the hills along the Kushida River, and the yam is said to have been grown around Nyu in the former Seiwa village since the Edo period. One account suggests that proximity to the pilgrim roads to Ise, where confections and dishes for visitors called for a strong, thick paste, is what sustained the growing area. A compact, sticky yam keeps well, and together with the sandy soil this is thought to have fixed its present form. It's known as a Mie specialty and appears at farm stands in Taki.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 三重県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/mie.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "多気町",
+          "url": "https://www.town.taki.mie.jp/",
+          "publisher": "多気町",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tororo",
+          "to_slug": "ise-imo",
+          "relation_type": "使用食材",
+          "basis": "とろろは生のやまのいもをすりおろしたもので（既存アイテム tororo の本文）、伊勢いもは三重でとろろや山かけに使われる粘りの強いやまのいも"
+        }
+      ]
+    },
+    {
+      "slug": "misono-daikon",
+      "body_ja": "## 何でできているか\n長さ40センチ前後の白首大根で、首まで白く、肉質は締まって水分が少なめとされる。生では辛みがはっきりあるが、干すと甘みが乗り、漬けると歯切れのよい食感が残るという。伊勢たくあんの原料としてほぼ全量が漬物に回り、糠と塩のほか、家や店によっては柿の皮や唐辛子を加えて漬けると伝わる。漬け上がりは飴色で、噛むと音が立つとされる。\n## どう作るのか\n種まきは9月で、11月下旬から12月に収穫するという。抜いた大根は葉をつけたまま二本ずつ縛って竹の竿に掛け、冬の乾いた風に2週間ほどさらして水分を抜くとされる。しんなり曲がるまで干してから、糠と塩を交互に振って樽に漬け、重石をして数か月置くと伝わる。干し場は宮川沿いの畑に立ち並び、冬の風物とされる。種は産地の農家が自家採種で守ってきたという。\n## なぜこの形になったのか\n御薗は伊勢神宮の外宮に近い宮川の下流域にあり、川が運んだ砂質の土と冬に吹く乾いた風が、大根を育てて干す条件に合ったとみられる。一説によると、江戸時代に伊勢参りの客へ土産として売られたたくあんが広まりのきっかけと伝わる。水分の少ない白首の在来種が干物向きで、漬けてからも歯切れが残ることから、この大根が選ばれ続けたとされる。",
+      "body_en": "## What it's made of\nA white-necked daikon around 40 centimeters long, white to the shoulder, with firm, relatively dry flesh. Raw it has a definite bite, but drying brings up sweetness, and once pickled it keeps a crisp snap. Almost the whole crop goes into Ise takuan, pickled in rice bran and salt; some households and shops are said to add persimmon peel or chili to the tub. The finished pickle is amber and audibly crunchy.\n## How it's made\nSown in September and harvested from late November into December. The pulled radishes are tied in pairs by their leaves, hung on bamboo poles and left in the dry winter wind for about two weeks to lose moisture. Once limp enough to bend, they're layered in a barrel with alternating bran and salt, weighted and left for several months. The drying racks line the fields along the Miyagawa and are a winter sight. Growers are said to have saved their own seed.\n## Why it took this shape\nMisono sits on the lower Miyagawa, close to the Outer Shrine of Ise, where sandy river soil and a dry winter wind are thought to have suited both growing and drying radishes. One account has the pickle spreading in the Edo period as a souvenir sold to pilgrims bound for Ise. A low-moisture, white-necked heirloom radish dries well and keeps its crunch after pickling, which is said to be why this variety was kept in cultivation.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 三重県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/mie.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "伊勢市",
+          "url": "https://www.city.ise.mie.jp/",
+          "publisher": "伊勢市",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "takuan",
+          "to_slug": "misono-daikon",
+          "relation_type": "使用食材",
+          "basis": "たくあんは干した大根を米ぬかと塩で漬け込み、土地ごとの大根の性質に合わせた型がある（既存アイテム takuan の本文）。御薗大根は伊勢たくあんの原料とされる"
+        },
+        {
+          "from_slug": "misono-daikon",
+          "to_slug": "horyo-daikon",
+          "relation_type": "兄弟",
+          "basis": "ともに東海の白首の在来大根で、方領は煮物向き、御薗は干して漬ける用途に向かった地方品種として並ぶ"
+        }
+      ]
+    }
+  ]
+}

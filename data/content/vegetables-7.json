@@ -1,0 +1,419 @@
+{
+  "genres": [],
+  "items": [
+    {
+      "slug": "iwakuni-renkon",
+      "name_ja": "岩国れんこん",
+      "name_romaji": "Iwakuni renkon",
+      "name_en": "Iwakuni renkon — sticky, nine-holed lotus root from the Nishiki River delta",
+      "type": "ingredient",
+      "shelf": "vegetables",
+      "genre": "local-vegetables",
+      "origin_pref": "山口県",
+      "origin_city": "岩国市",
+      "lat": 34.1669,
+      "lng": 132.2197,
+      "primary_style": "",
+      "summary_ja": "錦川の河口に広がる岩国市の低地で育つれんこん。穴が一般的な8つではなく9つ開くものが多いとされ、藩主吉川家の九曜紋に重ねて縁起物として扱われてきたという。粘りの強いもっちりした食感が持ち味とされる。",
+      "summary_en": "Lotus root grown on the low delta where the Nishiki River meets the sea at Iwakuni. Many roots are said to show nine holes rather than the usual eight, a pattern long matched to the nine-star crest of the Kikkawa lords and treated as auspicious. Its signature is said to be a sticky, chewy bite.",
+      "body_ja": "## 何でできているか\n切り口を見ると、中心のまわりに穴が九つ並んでいることが多いとされ、一般のれんこんの八つより一つ多いと伝わる。肉質は白くきめが細かく、生のままかじるとシャキッと折れ、加熱すると糸を引くほど粘りが出て、もっちりとした歯ざわりに変わるという。えぐみが少なく、ほのかな甘みがあるとされ、酢に漬けて岩国寿司の層に入れたり、三杯酢で和えて箸休めにしたりと、祝いの膳に欠かせない具として使われてきたと伝わる。\n## どう作るのか\n岩国市尾津町を中心とする錦川河口の蓮田で育てられる。春に種れんこんを泥に伏せ、夏に大きな葉が水面を覆い、葉が枯れ始める晩夏から翌春にかけて掘り取るとされる。収穫は水を張った田に入り、ポンプの水圧で泥を吹き飛ばしながら、長く連なった節を折らないよう手探りで引き上げる作業と伝わる。下ごしらえでは皮を薄くむき、切ってすぐ酢水に浸けて色止めをし、煮物には厚め、酢の物には薄めに切り分けるのが一般的という。\n## なぜこの形になったのか\n江戸後期、岩国藩が領内の干拓地で新たな作物を探し、門前村の村本三五郎が備中（いまの岡山県）から種れんこんを持ち帰ったのが始まりと伝わる。錦川が運んだ砂まじりの沖積土と豊かな水が、泥の中で長く伸びる根に向いていたとされる。九つの穴が藩主吉川家の家紋「九曜紋」に通じることから縁起がよいとされ、正月や祭りの料理に重ねて使われるうちに、土地の名を冠した野菜として定着していったという。",
+      "body_en": "## What it's made of\nCut a root across and you will often find nine holes ringing the center, one more than the eight of an ordinary lotus root, or so it is said. The flesh is white and fine grained; raw, it snaps crisply, and once cooked it turns sticky enough to pull threads, settling into a chewy, mochi-like bite. With little harshness and a faint sweetness, it has long been pickled in vinegar for the layers of Iwakuni-zushi (the town's pressed sushi) or dressed in sanbaizu (a sweetened vinegar) as a palate cleanser on festive tables.\n## How it's made\nThe root is grown in flooded paddies on the Nishiki River delta, centered on the Ozu district of Iwakuni. Seed rhizomes are pressed into the mud in spring, broad leaves cover the water by summer, and digging runs from late summer, when the leaves begin to brown, through to the following spring. Harvesters wade into the flooded field and blast away the mud with a water pump, feeling for the long chain of segments and lifting it out without snapping it. In the kitchen the skin is peeled thinly and the cut pieces go straight into vinegared water to keep them pale, sliced thick for simmering and thin for vinegared dishes.\n## Why it took this shape\nThe story told locally is that in the late Edo period the Iwakuni domain was looking for a crop to suit its newly reclaimed land, and a farmer from Monzen village, Muramoto Sangoro, brought seed rhizomes back from Bitchu, in present-day Okayama. The sandy alluvial soil laid down by the Nishiki River, together with its abundant water, is said to have suited a root that stretches long through the mud. Because the nine holes echoed the nine-star kuyo crest of the ruling Kikkawa family, the root was read as a lucky sign, and its repeated place in New Year and festival cooking is said to be how it came to carry the town's name.",
+      "sources": [
+        {
+          "title": "岩国市公式ウェブサイト",
+          "url": "https://www.city.iwakuni.lg.jp/",
+          "publisher": "岩国市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 山口県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/yamaguchi.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "hasu-no-sanbai",
+          "to_slug": "iwakuni-renkon",
+          "relation_type": "使用食材",
+          "basis": "はすのさんばいは穴が9つの岩国れんこんを薄切りにして三杯酢で和える岩国の箸休めとされる"
+        },
+        {
+          "from_slug": "iwakuni-zushi",
+          "to_slug": "iwakuni-renkon",
+          "relation_type": "使用食材",
+          "basis": "岩国寿司の層には酢漬けにした岩国れんこんが入り、歯ざわりの要になっているとされる"
+        },
+        {
+          "from_slug": "yamaguchi-ohira",
+          "to_slug": "iwakuni-renkon",
+          "relation_type": "使用食材",
+          "basis": "岩国地域の祝い膳の煮物「大平」には里芋とともにれんこんが入るとされ、岩国寿司と並ぶ地元の具材とされる"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "slug": "hanakkori",
+      "name_ja": "はなっこりー",
+      "name_romaji": "Hanakkori",
+      "name_en": "Hanakkori — Yamaguchi's sweet-stemmed cross of broccoli and Chinese choy sum",
+      "type": "ingredient",
+      "shelf": "vegetables",
+      "genre": "local-vegetables",
+      "origin_pref": "山口県",
+      "origin_city": "山口市",
+      "lat": 34.1785,
+      "lng": 131.4737,
+      "primary_style": "",
+      "summary_ja": "山口県の農業試験場が中国野菜のサイシンとブロッコリーを掛け合わせて育てた県独自の野菜とされる。小さな花蕾のついた細い茎を葉ごと食べ、茎に甘みがあり、さっとゆでるだけでアスパラガスのような歯ざわりになるという。",
+      "summary_en": "A vegetable said to have been bred at Yamaguchi Prefecture's agricultural research station by crossing broccoli with saishin, a Chinese choy sum. The slender stems are eaten whole, leaves and tiny florets included; the stem is sweet, and a quick boil is said to give it a bite close to asparagus.",
+      "body_ja": "## 何でできているか\n細い茎の先に小さな花蕾がつき、葉も茎も丸ごと食べられる。見た目は茎ブロッコリーに近いが、茎を噛むとほのかな甘みがあり、筋っぽさが少なく、ゆでるとアスパラガスのような歯ざわりになるとされる。苦みやえぐみがほとんどないため、子どもでも食べやすいといわれる。名前は「花」と「ブロッコリー」を合わせたものと伝わり、山口県が商標として管理しているとされる。おひたしやごま和え、炒め物、天ぷらなど、青菜と同じ感覚で幅広く使われているという。\n## どう作るのか\n夏の終わりから秋に苗を植え、晩秋から翌春にかけて収穫するのが一般的とされる。主枝の花蕾を摘むと脇から次々と側枝が伸び、それを一本ずつ手で折り取っていくため、一株から長い期間にわたり収穫できるという。茎がやわらかいうちに、花蕾が開く前に摘むのが味の決め手とされる。下ごしらえは簡単で、根元のかたい部分を落とし、塩を入れた湯で1分ほどゆでれば緑が冴え、茎の甘みが引き立つという。\n## なぜこの形になったのか\n山口県は冬が比較的温暖で、秋から春にかけて葉物野菜を育てやすい土地とされる。県の農業試験場が、冬の畑を生かせる県独自の品目を求め、中国野菜のサイシンの茎のやわらかさと、ブロッコリーの花蕾の食べごたえを一つにする交配を重ねたと伝わる。1990年代末に品種として登録されたとされ、在来種ではなく、土地の気候と公的な育種から生まれた新しい銘柄野菜という位置づけになる。生産と出荷が県内に限られてきたことが、山口の野菜という印象を強めたとみられる。",
+      "body_en": "## What it's made of\nA thin stem topped with a small head of florets, eaten whole with its leaves. It looks like sprouting broccoli, but the stem carries a mild sweetness with little stringiness, and boiling is said to give it a bite close to asparagus. With almost no bitterness, it is often described as an easy green for children. The name is said to fuse hana (flower) with the last syllables of broccoli, and the prefecture itself is said to hold the trademark. It is used much like any leafy green, blanched and dressed, tossed with sesame, stir-fried or fried as tempura.\n## How it's made\nSeedlings are set out from late summer into autumn, and harvest runs from late autumn through the following spring. Once the main head is picked, side shoots keep pushing out from the leaf joints, each snapped off by hand, so a single plant is said to yield over a long season. The flavor depends on picking while the stem is still tender and before the florets open. Preparation is simple: trim the tough base and boil for about a minute in salted water, which is said to brighten the green and bring out the sweetness of the stem.\n## Why it took this shape\nWinters in Yamaguchi are relatively mild, making it a region where leafy vegetables can be grown from autumn to spring. The prefectural research station, looking for a crop of its own to fill those winter fields, is said to have crossed the tender stem of saishin with the substantial head of broccoli over successive generations. The variety is said to have been registered in the late 1990s; rather than an heirloom, it is a newer branded vegetable born of the local climate and public plant breeding. Production and shipping have stayed largely within the prefecture, which seems to have fixed its image as a Yamaguchi vegetable.",
+      "sources": [
+        {
+          "title": "山口県公式ウェブサイト",
+          "url": "https://www.pref.yamaguchi.lg.jp/",
+          "publisher": "山口県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "hanakkori",
+          "to_slug": "sanuki-no-mezame",
+          "relation_type": "対比",
+          "basis": "どちらも在来種ではなく県の農業試験場が育成した近年の県オリジナル品種とされ、伝統野菜と銘柄野菜の違いを見せる対になる"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "slug": "tokushima-renkon",
+      "name_ja": "徳島れんこん",
+      "name_romaji": "Tokushima renkon",
+      "name_en": "Tokushima renkon — white, tender lotus root from the Yoshino River lowlands",
+      "type": "ingredient",
+      "shelf": "vegetables",
+      "genre": "local-vegetables",
+      "origin_pref": "徳島県",
+      "origin_city": "鳴門市",
+      "lat": 34.1727,
+      "lng": 134.6092,
+      "primary_style": "",
+      "summary_ja": "吉野川下流の鳴門市や松茂町、徳島市川内町に広がる蓮田で育つれんこん。備中系の品種が中心とされ、白くきめ細かな肉質で、生に近い火入れではシャキシャキ、煮るとほくほくに変わるという。砂の多い低湿地が主産地になっている。",
+      "summary_en": "Lotus root grown in flooded fields across the lower Yoshino River plain, in Naruto, Matsushige and the Kawauchi district of Tokushima city. Mostly of the Bitchu type, it is said to be white and fine grained, crisp when lightly cooked and fluffy when simmered. Sandy, low-lying wetland is its home ground.",
+      "body_ja": "## 何でできているか\n皮をむくと白く、断面はきめが細かいとされる。節は太く丸みがあり、きんぴらやさっと炒めるとシャキシャキと音を立て、煮物にするとほくほくと崩れるような食感に変わるという。土地で多く作られるのは「備中」と呼ばれる系統とされ、粘りよりも歯切れのよさが持ち味といわれる。徳島では正月の煮しめや祝いのばら寿司に輪切りで入れ、穴の向こうが見通せる縁起物として扱われてきたと伝わる。\n## どう作るのか\n春に種れんこんを泥に植え、夏に葉が茂り、晩夏から冬にかけて掘り取る。掘り取りは水を張った田にポンプの水を当てて泥をほぐし、折れないよう節をたどって引き抜くやり方が主流とされる。冬の出荷が中心で、泥つきのまま冷暗所に置けば日持ちするという。下ごしらえでは酢水にさらして色止めし、煮物は乱切り、酢の物や寿司の具は薄い輪切りにするのが一般的とされる。\n## なぜこの形になったのか\n吉野川が河口近くに運んだ砂まじりの土と、たびたびの氾濫でできた低湿地は、稲よりも水を張ったまま育てる作物に向いていたとされる。排水のよい砂地はれんこんの肌を白く保ち、掘り取りもしやすいことから、鳴門から徳島市北部にかけての一帯で蓮田が広がったと伝わる。温暖な気候で生育が早く、関西の市場に近いことも産地として続いてきた理由とみられる。",
+      "body_en": "## What it's made of\nPeeled, the root is white, with a fine, even grain. The segments are thick and rounded; cut into kinpira (a quick soy-sweet stir-fry) they stay crunchy, while simmered pieces turn fluffy and almost crumbly. The type most grown here is said to be the Bitchu line, prized more for a clean snap than for stickiness. In Tokushima the root goes in rounds into New Year simmered dishes and festive scattered sushi, where its see-through holes have long been read as a sign of a clear view ahead.\n## How it's made\nSeed rhizomes are planted in the mud in spring, leaves fill the field by summer, and digging runs from late summer into winter. The usual method is to loosen the mud with a water pump in the flooded field and follow the chain of segments by hand so it comes out unbroken. Shipping peaks in winter, and the root keeps well if stored cool and still coated in mud. It is soaked in vinegared water to stay pale, then cut in chunks for simmering or thin rounds for vinegared dishes and sushi.\n## Why it took this shape\nThe sandy soil carried down by the Yoshino River near its mouth, and the low wetlands shaped by its frequent floods, are said to have suited a crop grown under standing water better than rice. Well-drained sand keeps the skin white and makes digging easier, and lotus fields are said to have spread across the stretch from Naruto to the northern edge of Tokushima city. A mild climate that speeds growth, and the short distance to the Kansai markets, are seen as reasons the area has endured as a producer.",
+      "sources": [
+        {
+          "title": "徳島県公式ウェブサイト",
+          "url": "https://www.pref.tokushima.lg.jp/",
+          "publisher": "徳島県",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 徳島県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/tokushima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "tokushima-renkon",
+          "to_slug": "iwakuni-renkon",
+          "relation_type": "対比",
+          "basis": "どちらも河口の砂質低地で育つ備中系統とされるが、岩国れんこんは穴が9つで粘りの強さ、徳島れんこんは歯切れのよさが持ち味とされる"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "slug": "naruto-kintoki",
+      "name_ja": "鳴門金時",
+      "name_romaji": "Naruto kintoki",
+      "name_en": "Naruto kintoki — red-skinned, fluffy sweet potato from Naruto's seaside sand",
+      "type": "ingredient",
+      "shelf": "tubers",
+      "genre": null,
+      "origin_pref": "徳島県",
+      "origin_city": "鳴門市",
+      "lat": 34.1727,
+      "lng": 134.6092,
+      "primary_style": "",
+      "summary_ja": "鳴門市を中心に、海に近い砂地の畑で育つさつまいも。高系14号から選ばれた系統とされ、鮮やかな紅色の皮と黄色い中身、ほくほくした粉質の食感が持ち味という。海砂を入れた水はけのよい畑が、色と甘みを決めると伝わる。",
+      "summary_en": "A sweet potato grown in sandy fields near the sea, centered on Naruto. Said to be a line selected from the Kokei No. 14 variety, it is known for bright red skin, yellow flesh and a dry, fluffy texture. Well-drained fields dressed with sea sand are said to shape both its color and sweetness.",
+      "body_ja": "## 何でできているか\n皮は紅色が鮮やかで、中は淡い黄色。焼くと甘い湯気が立ち、ほくほくと粉を吹くような食感になるとされる。ねっとり系の品種に比べて水分が少なく、口の中でほどける軽さがあり、蒸してつぶせばいももちや菓子の生地にも向くという。品種としては高系14号から選抜された系統と伝わり、鳴門市や徳島市、板野郡の砂地で育てたものが、産地の名で呼ばれているとされる。収穫後に貯蔵すると甘みが増すといわれる。\n## どう作るのか\n春に苗を砂地の畝に挿し、夏の日差しを浴びて、8月から11月にかけて掘り取るとされる。畑には海岸の砂を客土し、水はけをよくするのが土地のやり方と伝わる。収穫後はすぐに出荷せず、温度と湿度を保った貯蔵庫でしばらく寝かせ、でんぷんが糖に変わるのを待って出すという。家庭では皮ごとじっくり焼くか、蒸してから料理に使うのが一般的で、天ぷらや煮物、きんとんにもなるとされる。\n## なぜこの形になったのか\n鳴門から徳島市北部の海岸近くは、吉野川が運んだ砂と海からの砂で水はけがよく、稲作には向かない一方で、根を肥やす作物には向いていたとされる。砂地は水分が残りにくいため、いもの皮が傷つかず色が冴え、粉質で甘みの乗った仕上がりになるといわれる。海砂に含まれるミネラルが味を支えるという説も土地では語られる。温暖で日照の多い気候が生育を早め、関西の市場に近いことが産地として続いてきた背景とみられる。",
+      "body_en": "## What it's made of\nThe skin is a vivid red, the flesh a pale yellow. Baked, it releases sweet steam and breaks into a dry, floury crumb, with less moisture than the moist, syrupy types and a lightness that dissolves in the mouth; steamed and mashed, it works into imomochi (sweet potato cakes) and confectionery. The potato is said to be a line selected from Kokei No. 14, and it is tubers grown on the sands of Naruto, Tokushima city and Itano district that carry the regional name. Storage after harvest is said to deepen the sweetness.\n## How it's made\nSlips are planted on sandy ridges in spring, grow through the summer sun, and are dug from August to November. Local practice is to dress the fields with sand from the shore to keep drainage sharp. After harvest the tubers are not shipped at once but rested in storehouses with controlled temperature and humidity while starch turns to sugar. At home they are baked slowly in the skin or steamed before cooking, and also turn up in tempura, simmered dishes and kinton (sweet mashed potato).\n## Why it took this shape\nThe coastal strip from Naruto to the north of Tokushima city, built from Yoshino River silt and sea sand, drains too fast for rice but suits crops that fatten underground. Because sand holds little water, the skin stays unblemished and bright, and the flesh is said to come out dry and sweet. Locals also speak of minerals in the sea sand supporting the flavor, though this remains a popular explanation. A warm, sunny climate that speeds growth and the short haul to Kansai markets are seen as the background to the area's long run as a producer.",
+      "sources": [
+        {
+          "title": "徳島県公式ウェブサイト",
+          "url": "https://www.pref.tokushima.lg.jp/",
+          "publisher": "徳島県",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 徳島県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/tokushima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "tokushima-imomochi",
+          "to_slug": "naruto-kintoki",
+          "relation_type": "使用食材",
+          "basis": "いももちは鳴門市周辺で栽培の盛んなさつまいもを蒸してもち粉と練る徳島の餅菓子とされ、産地のさつまいもが鳴門金時にあたる"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "slug": "kagawa-hontaka",
+      "name_ja": "香川本鷹",
+      "name_romaji": "Kagawa hontaka",
+      "name_en": "Kagawa hontaka — the large, fiercely hot heirloom chili of the Shiwaku Islands",
+      "type": "ingredient",
+      "shelf": "vegetables",
+      "genre": "local-vegetables",
+      "origin_pref": "香川県",
+      "origin_city": "丸亀市",
+      "lat": 34.2897,
+      "lng": 133.7982,
+      "primary_style": "",
+      "summary_ja": "瀬戸内の塩飽諸島で古くから育てられてきたとされるとうがらし。一般の鷹の爪より実が大きく、辛みが強いわりに香りと甘みがあるという。豊臣秀吉の朝鮮出兵のころ、塩飽の船乗りが持ち帰ったという伝承が残る。",
+      "summary_en": "A chili pepper said to have been grown since early times on the Shiwaku Islands in the Seto Inland Sea. Its pods are larger than the common takanotsume type, and for all its heat it is said to carry aroma and a touch of sweetness. Local lore has Shiwaku sailors bringing it home around the time of Hideyoshi's Korean campaigns.",
+      "body_ja": "## 何でできているか\n実は長さ8センチ前後と大きく、先が細く尖り、夏は青く、秋に向けて鮮やかな赤に熟すとされる。かじると強い辛さが来るが、その奥にとうがらし特有の青い香りと、ほのかな甘みが残るといわれる。乾燥させて一味や七味にするほか、青いうちに刻んで醤油に漬けたり、油に香りを移したりして使われるという。塩飽諸島の本島や広島などで自家採種を続けてきた在来種とされ、県内の料理人や加工業者が香辛料として扱っているとされる。\n## どう作るのか\n春に種をまき、初夏に畑へ移し、夏から秋にかけて実を摘む。青い実は夏に、赤く熟した実は秋に収穫し、赤いものは枝ごと吊るして天日で乾かすのが昔からのやり方とされる。種を取る株は実の形と辛さを見て選び、翌年の種を家ごとに受け継いできたと伝わる。乾燥した実は種を抜いて粉に挽き、生の実はヘタを落として刻む。辛みが強いため、素手で扱うより手袋を使うよう勧められているという。\n## なぜこの形になったのか\n塩飽諸島は瀬戸内の海運の拠点として栄え、船乗りたちが各地から種や苗を持ち帰る土地だったとされる。とうがらしは文禄・慶長の役のころに水軍の船で渡来したという伝承があり、島の少ない耕地でも育ち、乾かせば長く持つ香辛料として重宝されたとみられる。瀬戸内の少ない雨と強い日差しが辛みを濃くしたという説もある。栽培が一時ほとんど途絶えた時期があったとされ、県が保存していた種をもとに島で作り続けられていると伝わる。",
+      "body_en": "## What it's made of\nThe pods run to about eight centimeters, tapering to a sharp point, green in summer and ripening to a bright red toward autumn. A bite brings strong heat first, but behind it is said to linger the green aroma typical of chili and a faint sweetness. Dried, it is ground into ichimi and shichimi (single and seven-spice chili powders); green, it is chopped into soy sauce or steeped in oil for its fragrance. It is treated as a landrace kept by seed saving on Honjima, Hiroshima and other Shiwaku Islands, and cooks and processors in the prefecture use it as their local spice.\n## How it's made\nSeed is sown in spring, seedlings go to the field in early summer, and picking runs from summer into autumn. Green pods are taken in summer and ripe red ones in autumn, and the old way is to hang red pods on the branch to dry in the sun. Plants for seed are chosen by pod shape and heat, and each household is said to have passed its seed down year to year. Dried pods are seeded and ground; fresh ones are topped and chopped. Because the heat is strong, gloves are recommended over bare hands.\n## Why it took this shape\nThe Shiwaku Islands flourished as a base of Inland Sea shipping, a place where sailors brought seeds and cuttings home from many ports. One tradition says the chili arrived on the ships of the Shiwaku navy around the time of the Bunroku and Keicho campaigns in Korea; it grew on the islands' scant farmland and, dried, kept for months, which seems to be why it was valued. Some also hold that the Inland Sea's low rainfall and strong sun concentrated its heat. Cultivation is said to have nearly died out at one point, and the islands are said to keep growing it today from seed the prefecture had preserved.",
+      "sources": [
+        {
+          "title": "香川県公式ウェブサイト",
+          "url": "https://www.pref.kagawa.lg.jp/",
+          "publisher": "香川県",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "丸亀市公式ウェブサイト",
+          "url": "https://www.city.marugame.lg.jp/",
+          "publisher": "丸亀市",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "kagawa-hontaka",
+          "to_slug": "sanuki-no-mezame",
+          "relation_type": "対比",
+          "basis": "同じ香川の野菜でも、香川本鷹は島で自家採種されてきた在来種、さぬきのめざめは県の試験場が育成した新しい銘柄品種とされる"
+        }
+      ],
+      "tags": [
+        "spicy"
+      ]
+    },
+    {
+      "slug": "sanuki-no-mezame",
+      "name_ja": "さぬきのめざめ",
+      "name_romaji": "Sanuki no mezame",
+      "name_en": "Sanuki no mezame — Kagawa's long-stemmed asparagus that wakes early in spring",
+      "type": "ingredient",
+      "shelf": "vegetables",
+      "genre": "local-vegetables",
+      "origin_pref": "香川県",
+      "origin_city": "観音寺市",
+      "lat": 34.1273,
+      "lng": 133.6614,
+      "primary_style": "",
+      "summary_ja": "香川県の農業試験場が育てたアスパラガスの品種とされる。穂先が締まったまま長く伸びるため、一般の倍近い長さで収穫できるといい、低温でも芽が出やすいことから早春に目覚めるという意味の名がついたと伝わる。西讃の観音寺や三豊が主産地という。",
+      "summary_en": "An asparagus variety said to have been bred at Kagawa Prefecture's agricultural research station. Because the tips stay tight as the spear lengthens, it can be cut at nearly twice the usual length, and its readiness to sprout in cool weather is said to be behind a name meaning 'Sanuki's awakening'. Kan-onji and Mitoyo in the west of the prefecture are its main growing areas.",
+      "body_ja": "## 何でできているか\n穂先が固く締まったまま茎が伸びる性質があり、一般のアスパラガスが25センチほどで切られるのに対し、40〜50センチまで伸ばして収穫する「ロングアスパラ」として出荷されることがあるとされる。春に出る芽は太く、根元までやわらかくて甘みが強いといわれ、皮をむかずに食べられるという。夏から秋の芽はやや細く、香りが立つとされる。切り口からみずみずしさが伝わる太い春芽を、さっとゆでるか焼いて塩だけで食べると持ち味が分かりやすいといわれる。\n## どう作るのか\n株を植えてから本格的な収穫までに数年かかる多年草で、同じ株から毎年芽を取るとされる。香川では早春の春芽と、親茎を立てたまま脇の芽を取る夏秋芽の二つの時期があり、ハウスを使って芽出しを早める農家が多いという。春芽は穂先が開く前に地際で切り、長さをそろえて束ねる。収穫後は鮮度が落ちやすいため、立てたまま冷やして出荷するのが基本とされる。家庭では根元のかたい部分だけを落とし、1〜2分ゆでるのが一般的という。\n## なぜこの形になったのか\n香川は雨が少なく日照が多い土地で、冬も比較的温暖とされる。この気候を生かし、ほかの産地より早く出せる品種を求めて県の農業試験場が育種を重ね、2000年代半ばに登録されたと伝わる。低い温度でも芽が動きやすく、穂先が開きにくい性質が、早春の出荷と長い茎の両方を可能にしたとされる。在来種ではなく、土地の気候と公的な育種から生まれた銘柄野菜という位置づけで、西讃の砂質の畑を中心に広がったという。",
+      "body_en": "## What it's made of\nThe spear keeps growing while the tip stays firmly closed, so where ordinary asparagus is cut at around 25 centimeters, this one is sometimes shipped as 'long asparagus' at 40 to 50. Spring spears are thick, tender right down to the base and markedly sweet, and are said to need no peeling; the summer and autumn spears are slimmer and more fragrant. A fat spring spear, juicy at the cut, blanched or grilled and eaten with salt alone, is said to be the clearest way to taste it.\n## How it's made\nAsparagus is a perennial that takes several years from planting to full harvest, and the same crowns are cut year after year. In Kagawa there are two seasons: spring spears in early spring, and summer-autumn spears taken from the sides while parent stems are left standing, with many growers using greenhouses to bring the first flush forward. Spring spears are cut at ground level before the tip opens, trimmed to length and bundled. Since freshness fades quickly after cutting, they are cooled standing upright before shipping. At home only the tough base is trimmed and the spears are boiled for a minute or two.\n## Why it took this shape\nKagawa is dry and sunny, with relatively mild winters. Hoping to use that climate to ship earlier than other regions, the prefectural research station is said to have bred the variety over years and registered it in the mid 2000s. Its readiness to sprout at low temperatures and its slow-opening tips are what allow both the early spring shipments and the long stems. Rather than an heirloom, it is a branded vegetable born of local climate and public breeding, and it is said to have spread mainly on the sandy fields of the western district of Sanuki.",
+      "sources": [
+        {
+          "title": "香川県公式ウェブサイト",
+          "url": "https://www.pref.kagawa.lg.jp/",
+          "publisher": "香川県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "regions": [],
+      "relations": [],
+      "tags": []
+    },
+    {
+      "slug": "kinukawa-nasu",
+      "name_ja": "絹かわなす",
+      "name_romaji": "Kinukawa nasu",
+      "name_en": "Kinukawa nasu — Saijo's huge, silk-skinned heirloom eggplant",
+      "type": "ingredient",
+      "shelf": "vegetables",
+      "genre": "local-vegetables",
+      "origin_pref": "愛媛県",
+      "origin_city": "西条市",
+      "lat": 33.9196,
+      "lng": 133.1812,
+      "primary_style": "",
+      "summary_ja": "愛媛県西条市の一部で自家採種により受け継がれてきたとされる大型のなす。一個が400〜500グラムを超えることもあるといい、名のとおり皮が薄くやわらかく、加熱すると果肉がとろけるように崩れるという。石鎚山系の湧き水「うちぬき」の土地で育つ。",
+      "summary_en": "A very large eggplant said to have been handed down by seed saving in parts of Saijo, Ehime. A single fruit can pass 400 to 500 grams, and as the name — 'silk skin' — suggests, the skin is thin and soft, with flesh that melts apart when cooked. It grows in the belt of artesian spring water known as uchinuki, fed by the Ishizuchi range.",
+      "body_ja": "## 何でできているか\n手のひらに余るほど大きく丸みのある実で、重さが400〜500グラムを超えることもあるとされる。皮は薄く、爪を立てるとすっと裂けるほどやわらかいといわれ、「絹かわ」の名はこの皮の質感から来ていると伝わる。果肉はきめが細かく水分が多く、焼いたり煮たりすると口の中でとろけるように崩れるという。えぐみが少ないため、煮浸しや田楽、焼きなすのように、なす自体の甘みを前に出す料理に向くとされる。種が少なく、切り口が変色しにくいともいわれる。\n## どう作るのか\n西条市の限られた農家が、よい実から種を取り、翌年の苗を自分で育てる自家採種で守ってきたとされる。春に苗を植え、初夏から秋にかけて収穫し、実が大きくなるぶん一株につける数を抑え、支柱でしっかり支えるという。皮が薄く傷つきやすいため、収穫や箱詰めは一つずつ手で扱い、産地から遠くへ運びにくい野菜とされる。調理では厚めに切って油で焼くか、だしで煮含めるのが一般的で、皮ごと使えるのが利点といわれる。\n## なぜこの形になったのか\n西条市の平野は、石鎚山系の伏流水が地表に湧き出す「うちぬき」と呼ばれる自噴井戸の土地で、夏も冷たく豊かな水に恵まれているとされる。水をたっぷり吸って育つなすにとってこの水が実を大きく、皮を薄く保つ条件になったとみられる。大玉のなすは日持ちせず市場向きではないため、大きな産地には広がらず、土地の家々で種を受け継ぐ形で残ったと伝わる。品種の由来には諸説があり、他所の大型品種が土地の水で変わったとする見方もある。",
+      "body_en": "## What it's made of\nA round fruit too big for one hand, sometimes weighing over 400 to 500 grams. The skin is thin and so soft that a fingernail splits it, and the name kinukawa, 'silk skin', is said to come from that feel. The flesh is fine and watery, falling apart on the tongue when grilled or simmered. With little harshness, it suits dishes that put the eggplant's own sweetness first: nibitashi (simmered in dashi and chilled), dengaku (grilled with miso) or plain grilled nasu. It is also said to have few seeds and to discolor slowly at the cut.\n## How it's made\nA small number of farms in Saijo are said to have kept it alive by seed saving, taking seed from good fruit and raising their own seedlings the next year. Plants go in during spring and bear from early summer to autumn; because each fruit grows so large, the number per plant is limited and the stems are firmly staked. The delicate skin bruises easily, so harvest and packing are done one fruit at a time, and it is considered a vegetable that travels poorly far from home. In the kitchen it is cut thick and pan-fried in oil, or simmered gently in dashi, and the skin can be eaten with it.\n## Why it took this shape\nThe Saijo plain sits on uchinuki, free-flowing artesian wells where water filtering down from the Ishizuchi range rises to the surface, cold and plentiful even in summer. For an eggplant, which drinks heavily as it grows, this water is thought to be what keeps the fruit large and the skin thin. A giant eggplant that keeps poorly was never a market crop, so it did not spread to large producing areas and survived instead in the seed stocks of local households. Its origin is debated; one view holds that a large variety from elsewhere changed under the local water.",
+      "sources": [
+        {
+          "title": "西条市公式ウェブサイト",
+          "url": "https://www.city.saijo.ehime.jp/",
+          "publisher": "西条市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "愛媛県公式ウェブサイト",
+          "url": "https://www.pref.ehime.jp/",
+          "publisher": "愛媛県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "kinukawa-nasu",
+          "to_slug": "kochi-nasu",
+          "relation_type": "対比",
+          "basis": "同じ四国のなすでも、絹かわなすは湧水の土地で自家採種されてきた大玉の在来種、高知なすは温暖な海岸部のハウスで周年近く出荷される銘柄なすとされる"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "slug": "kochi-nasu",
+      "name_ja": "高知なす",
+      "name_romaji": "Kochi nasu",
+      "name_en": "Kochi nasu — glossy, tender eggplant from Kochi's sun-drenched Pacific coast",
+      "type": "ingredient",
+      "shelf": "vegetables",
+      "genre": "local-vegetables",
+      "origin_pref": "高知県",
+      "origin_city": "安芸市",
+      "lat": 33.5026,
+      "lng": 133.907,
+      "primary_style": "",
+      "summary_ja": "黒潮に面した安芸市や芸西村、香南市などのハウスで、秋から初夏にかけて育てられるなす。皮がやわらかく紫黒色の艶があり、アクが少ないとされる。冬の日照が多い高知の海岸部で施設園芸が発達し、県内で育成された品種が使われるという。",
+      "summary_en": "Eggplant grown from autumn to early summer in greenhouses along the Kuroshio coast, in Aki, Geisei and Konan. It is known for a soft skin with a purple-black sheen and little harshness. Kochi's coastal belt, with its long winter sunshine, developed greenhouse farming early, and varieties bred within the prefecture are said to be used.",
+      "body_ja": "## 何でできているか\n長卵形で皮は紫黒色、光にかざすと艶やかに照り返す。皮がやわらかく、果肉はきめ細かくアクが少ないため、生に近い浅漬けでも、油を吸わせた炒め物や揚げ浸しでも扱いやすいとされる。高知では県内で育成された品種が主力とされ、形がそろい、冬でも実のつきがよいことが土地の栽培に合うといわれる。果肉がやわらかく煮えばなの甘みが出やすいことから、たたきの薬味と同じく、塩と酢を効かせた土佐の味つけによく合うとされる。\n## どう作るのか\n夏に苗を育てて秋にハウスへ定植し、冬を越して翌年の初夏まで、一株から長く収穫を続けるのが高知のやり方とされる。ハウスは暖房を使い、近年は天敵の虫を放して害虫を抑えたり、二酸化炭素を補ったりする栽培も広がっているという。実は毎日見回って手で切り取り、皮を傷つけないように箱に詰める。家庭では塩を振って水気を抜いてから焼いたり、油でさっと揚げてだしに浸したりする調理が一般的とされる。\n## なぜこの形になったのか\n高知の海岸部は黒潮に面して冬も暖かく、日照時間が長い土地とされる。この条件を生かし、昭和の中ごろからビニールハウスで冬に野菜を作る施設園芸が広がり、なすはその主力の一つになったと伝わる。なすはもともと夏の野菜だが、高知では冬から春に県外へ送る作物として育てられ、県の試験場が冬でも実のつきがよい品種を育成してきたとされる。土地の気候と技術が、季節を外して届く野菜という形を作ったとみられる。",
+      "body_en": "## What it's made of\nAn oval fruit with purple-black skin that gleams when turned to the light. The skin is soft and the flesh fine with little harshness, so it handles equally well as a light salt pickle, in an oil-rich stir-fry or fried and soaked in dashi. Varieties bred in the prefecture are said to dominate, chosen for even shape and good fruit set even in winter. Because the tender flesh releases its sweetness as soon as it is cooked, it is said to pair well with Tosa seasoning, sharp with salt and vinegar like the condiments served with katsuo tataki.\n## How it's made\nThe Kochi pattern is to raise seedlings in summer, plant them into greenhouses in autumn and keep harvesting from the same plants through winter until early summer. The houses are heated, and in recent years growers have widely adopted releasing beneficial insects to control pests and supplementing carbon dioxide. Fruit is checked daily and cut by hand, then packed so the skin is not scratched. At home it is usually salted to draw out moisture before grilling, or briefly fried in oil and steeped in dashi.\n## Why it took this shape\nKochi's coast faces the Kuroshio current, keeping winters warm, and it is said to enjoy long hours of sunshine. From around the mid Showa era, growers began using plastic greenhouses to raise vegetables through winter, and eggplant became one of the mainstays. A summer vegetable by nature, in Kochi it was grown as a crop to send outside the prefecture from winter to spring, and the prefectural research station is said to have bred varieties that set fruit well in the cold. Local climate and technique together shaped a vegetable that arrives out of season.",
+      "sources": [
+        {
+          "title": "高知県公式ウェブサイト",
+          "url": "https://www.pref.kochi.lg.jp/",
+          "publisher": "高知県",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "安芸市公式ウェブサイト",
+          "url": "https://www.city.aki.kochi.jp/",
+          "publisher": "安芸市",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "regions": [],
+      "relations": [],
+      "tags": []
+    },
+    {
+      "slug": "kochi-ha-ninniku",
+      "name_ja": "葉にんにく",
+      "name_romaji": "Ha-ninniku",
+      "name_en": "Ha-ninniku — young garlic greens eaten through the Kochi winter",
+      "type": "ingredient",
+      "shelf": "vegetables",
+      "genre": "local-vegetables",
+      "origin_pref": "高知県",
+      "origin_city": "高知市",
+      "lat": 33.5597,
+      "lng": 133.5311,
+      "primary_style": "",
+      "summary_ja": "にんにくの球が太る前に、若い葉と茎を青菜として収穫したもの。高知では冬の野菜として市場に並び、ニラより太く甘みがあり、香りはにんにくより穏やかとされる。すり潰して酢味噌にした「ぬた」やすき焼きに使われ、朝鮮から伝わったという伝承が残る。",
+      "summary_en": "Garlic harvested young, before the bulb swells, for its green leaves and stems. In Kochi it is a winter market staple, thicker and sweeter than garlic chives and milder in aroma than the bulb. It is ground into the vinegar-miso sauce called nuta and added to sukiyaki, and local lore traces it to Korea.",
+      "body_ja": "## 何でできているか\n見た目は葉の広いニラや若い長ねぎに近く、根元が白く葉先に向かって濃い緑になる。噛むとにんにくの香りが立つが、球に比べると穏やかで、甘みと青い香りが前に出るとされる。加熱すると葉がとろりとやわらかくなり、辛みは丸くなるという。高知ではすり潰して味噌と酢、砂糖を合わせた緑色の「ぬた」にし、ブリやカツオの刺身にかけるのが代表的な食べ方とされる。すき焼きや炒め物に入れるほか、鍋の青菜としても使われるという。\n## どう作るのか\n秋ににんにくの種球を植え、球が肥大する前の冬、11月から3月ごろに葉ごと引き抜いて収穫するとされる。球を太らせないので畑の回転が早く、株間を詰めて密に植えられるという。高知では葉にんにく向きの系統が選ばれ、ハウスや露地で冬のあいだ途切れず出荷されると伝わる。下ごしらえは根と外葉を落として洗うだけで、ぬたにする場合は生のまま刻んですり鉢で潰すか、さっとゆでてから練るとされる。\n## なぜこの形になったのか\nにんにくは球を食べるのが一般的だが、高知では冬の青菜の少ない時期に、球を待たずに葉を食べる習慣が根づいたとされる。16世紀末、長宗我部元親が朝鮮出兵から帰る際に持ち帰ったという伝承があり、黒潮沿いの温暖な冬が葉物の生育を支えたとみられる。カツオやブリをよく食べる土地で、魚の脂を切る薬味としてぬたに仕立てられ、刺身に醤油の代わりにかける食べ方が定着したと伝わる。葉を主役にする珍しい利用が、高知の野菜としての個性になっている。",
+      "body_en": "## What it's made of\nIt looks like a broad-leaved garlic chive or a young leek, white at the base and deepening to dark green at the tips. A bite releases the scent of garlic, but softer than the bulb, with sweetness and a green freshness in front. Cooked, the leaves turn silky and the pungency rounds off. The emblematic Kochi use is to grind it with miso, vinegar and sugar into a bright green nuta sauce spooned over sashimi of buri (yellowtail) or katsuo (bonito); it also goes into sukiyaki, stir-fries and hotpots as the winter green.\n## How it's made\nGarlic cloves are planted in autumn and the whole plant is pulled in winter, from around November to March, before the bulb swells. Since the bulb is never fattened, the field turns over quickly and plants can be set closely. Kochi growers are said to select strains suited to leaf production and to ship steadily through winter from greenhouses and open fields. Preparation is only trimming the roots and outer leaves and washing; for nuta the leaves are chopped and pounded raw in a mortar, or blanched briefly before being worked into the miso.\n## Why it took this shape\nGarlic is usually grown for its bulb, but in Kochi the habit took root of eating the leaves without waiting, in the lean winter months for greens. Lore has it that Chosokabe Motochika brought the plant home from the Korean campaigns at the end of the 16th century, and the mild winters along the Kuroshio are thought to have supported the leafy crop. In a land that eats a great deal of katsuo and buri, the leaves were made into a nuta that cuts the richness of fish, and spooning it over sashimi in place of soy sauce became custom. That unusual focus on the leaf is what makes it a Kochi vegetable.",
+      "sources": [
+        {
+          "title": "うちの郷土料理 高知県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/kochi.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "高知県公式ウェブサイト",
+          "url": "https://www.pref.kochi.lg.jp/",
+          "publisher": "高知県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "from_slug": "ha-ninniku-no-nuta",
+          "to_slug": "kochi-ha-ninniku",
+          "relation_type": "使用食材",
+          "basis": "葉にんにくのぬたは刻んですり潰した葉にんにくに味噌と酢を合わせる高知の調味料で、葉にんにくがその主材料とされる"
+        },
+        {
+          "from_slug": "kochi-ha-ninniku",
+          "to_slug": "hakata-bannou-negi",
+          "relation_type": "対比",
+          "basis": "どちらもネギ属の若い葉を青菜として食べるが、葉にんにくは冬に限った土地の食べ方、博多万能ねぎは周年出荷のために若どりする銘柄ねぎとされる"
+        }
+      ],
+      "tags": []
+    },
+    {
+      "slug": "hakata-bannou-negi",
+      "name_ja": "博多万能ねぎ",
+      "name_romaji": "Hakata bannō negi",
+      "name_en": "Hakata bannō negi — slender all-purpose green onion from the Chikugo plain",
+      "type": "ingredient",
+      "shelf": "vegetables",
+      "genre": "local-vegetables",
+      "origin_pref": "福岡県",
+      "origin_city": "朝倉市",
+      "lat": 33.4236,
+      "lng": 130.6656,
+      "primary_style": "",
+      "summary_ja": "朝倉市を中心とする筑後川流域で育てられる細い青ねぎ。葉ねぎを若いうちに刈り取り、根元から葉先まで薬味にも炒め物にも使えることから「万能」の名がついたとされる。産地のJAが銘柄として扱い、露地とハウスを組み合わせて一年中出荷しているという。",
+      "summary_en": "A slender green onion grown along the Chikugo River around Asakura. Cut young, it is usable from white base to green tip as a garnish or in cooking, hence the name banno, 'all-purpose'. The local agricultural cooperative manages it as a brand, and by combining open fields with greenhouses it is said to ship year round.",
+      "body_ja": "## 何でできているか\n太さは鉛筆より細く、長さは50〜60センチほどで、根元の白い部分が短く葉がほとんど緑のねぎとされる。小口に刻むと切り口から透明なぬめりがにじみ、これが甘みと香りのもとといわれる。辛みは穏やかで、生のまま薬味にすると香りが立ち、火を通すとすぐにしんなりして甘くなるという。博多のうどんやラーメン、水炊きの薬味として山盛りで出されることが多く、ぬたや卵焼き、炒め物にもそのまま使われるとされる。\n## どう作るのか\n種をまいてから2か月ほどの若いうちに、株ごと刈り取るとされる。太らせず葉のやわらかさを保つのが銘柄の決まりで、産地では露地とハウスを組み合わせ、季節ごとに播種をずらして一年を通して途切れずに出荷すると伝わる。収穫後は根を切りそろえ、葉を傷めないように束ねて箱詰めし、鮮度を保つため冷やして運ぶのが基本という。家庭では洗って小口切りにし、水にさらさず、刻んでから時間を置かずに使うと香りが残るとされる。\n## なぜこの形になったのか\n朝倉市一帯は筑後川が運んだ肥沃な土と豊かな水に恵まれ、古くから野菜の産地だったとされる。福岡では白い部分を食べる長ねぎより、葉を食べる青ねぎを好む食文化があり、うどんや鍋の薬味として細い青ねぎが日常に根づいていたとみられる。産地の農協が、若どりした葉ねぎを一つの銘柄にまとめ、鮮度を保ったまま遠くの市場へ届ける仕組みを整えたことで、土地の名を冠した野菜として知られるようになったと伝わる。",
+      "body_en": "## What it's made of\nThinner than a pencil and 50 to 60 centimeters long, with a short white base and leaves that are almost entirely green. Slice it finely and a clear, slippery sap beads at the cut, said to be the source of its sweetness and scent. The pungency is gentle: raw, it is fragrant as a garnish, and heated it wilts at once and turns sweet. In Hakata it is heaped over udon, ramen and mizutaki (chicken hotpot), and goes straight into nuta (vinegar-miso dressing), rolled omelets and stir-fries.\n## How it's made\nThe plants are cut whole while still young, about two months after sowing. Keeping them slim and the leaves tender is the rule of the brand, and growers combine open fields with greenhouses, staggering sowings by season so shipments never break through the year. After cutting, the roots are trimmed level, the onions bundled without crushing the leaves and packed, then chilled for transport. At home they are washed and sliced finely, not soaked in water, and used soon after cutting so the aroma holds.\n## Why it took this shape\nThe Asakura area, on the rich soil and ample water of the Chikugo River, has long been a vegetable-growing district. Fukuoka's cooking favors green onions eaten for the leaf over the white-stemmed naganegi, and a thin green onion was already part of daily life as the garnish on udon and hotpots. When the local cooperative gathered young-cut leaf onions under a single brand and built a system to carry them fresh to distant markets, the vegetable is said to have become known under the name of its home.",
+      "sources": [
+        {
+          "title": "福岡県公式ウェブサイト",
+          "url": "https://www.pref.fukuoka.lg.jp/",
+          "publisher": "福岡県",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "朝倉市公式ウェブサイト",
+          "url": "https://www.city.asakura.lg.jp/",
+          "publisher": "朝倉市",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "regions": [],
+      "relations": [
+        {
+          "to_slug": "kujo-negi",
+          "relation_type": "兄弟",
+          "basis": "同じ葉ねぎ（青ねぎ）の系統。京都の九条ねぎに対し、筑後川流域で若採りして薬味向きに仕立てた型（九条ねぎは vegetables-5 の束。投入は vegetables-5 → 7 の順）"
+        }
+      ],
+      "tags": []
+    }
+  ],
+  "notes": ""
+}

@@ -1,0 +1,301 @@
+{
+  "items": [
+    {
+      "slug": "sapporo-ki",
+      "body_ja": "## 何でできているか\n扁平で少し不揃いな球に、黄褐色の薄い皮。切ると一枚一枚の層が厚く、生ではしっかり辛みがあるが、火を通すととろけるようにやわらかくなり、甘みが前に出るとされる。糖度と水分の多さが持ち味とされる一方、同じ理由で貯蔵には向かず、秋に収穫したものは冬のうちに食べ切るのが本来の姿という。カレーやスープ、丸ごとの蒸し焼きのように、加熱して甘さを引き出す料理と相性がよいとされる。\n## どう作るのか\n春に苗を植え、札幌の短い夏の間に球を太らせて、8月末から9月に収穫するとされる。札幌市東区の丘珠や元町など、かつての札幌村一帯が主な産地という。固定種のため毎年よい球を選んで種を採り続ける必要があり、形や大きさが揃いにくく病気にも弱いことから、収量の安定した交配種へ置き換わっていったとされる。今は少数の農家が種を守り、収穫期だけ市内の直売所や料理店に並ぶという。\n## なぜこの形になったのか\n明治初期に札幌農学校で教えた米国人教師ブルックスが持ち込んだ品種を、札幌村の農家が土地に合わせて選び続けた結果生まれたと伝わる。札幌は日本のたまねぎ栽培が始まった土地の一つとされ、低地の土と冷涼な気候で育てやすかったことが、開拓期の換金作物として広がった理由とされる。畑がたまねぎで埋まった時代は過ぎたが、市の名を冠した一つの品種として、今も札幌の食卓に残っているという。",
+      "body_en": "## What it's made of\nA flattened, slightly irregular bulb in a thin yellow-brown skin. Cut it open and each layer is thick; raw, it has a proper bite of pungency, but once heated it's said to soften almost to melting and turn forward-sweet. That high sugar and water content is its charm, and also the reason it stores badly — an autumn harvest is meant to be eaten up over winter. It's said to suit dishes that coax out sweetness through heat: curry, soup, or a whole bulb steam-roasted.\n## How it's made\nSeedlings go in during spring, the bulbs fatten through Sapporo's short summer, and harvest runs from late August into September. The main growing area is said to be the old Sapporo village district, now Okadama and Motomachi in Higashi ward. As an open-pollinated landrace it needs its seed saved from the best bulbs each year, and because it grows uneven in size and shape and resists disease poorly, it was largely replaced by hybrids with steadier yields. A handful of farmers now keep the seed going, and the onion appears in city farm stands and restaurants only in season.\n## Why it took this shape\nIt is said to descend from a variety brought in the early Meiji era by William Brooks, an American teacher at Sapporo Agricultural College, and then selected year after year by Sapporo village farmers to fit the land. Sapporo is counted among the places where onion growing in Japan began, and the easy fit between the lowland soil, the cool climate and the crop is said to be why it spread as a cash crop in the pioneer years. The era when fields were solid with onions has passed, but a variety carrying the city's name is said to remain on Sapporo tables.",
+      "sources": [
+        {
+          "title": "札幌市公式ホームページ",
+          "url": "https://www.city.sapporo.jp/",
+          "publisher": "札幌市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 北海道",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/hokkaido.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "danshaku-imo",
+          "to_slug": "sapporo-ki",
+          "relation_type": "対比",
+          "basis": "どちらも明治期に米国から北海道へ入った作物とされるが、男爵いもは全国の定番品種になり、札幌黄は札幌の在来種として少量だけ残ったという対照"
+        }
+      ]
+    },
+    {
+      "slug": "danshaku-imo",
+      "body_ja": "## 何でできているか\n丸くごつごつした球に、深い芽のくぼみ。皮は淡い黄褐色で、中は白い。でんぷんが多く、ゆでると表面から粉を吹くように崩れ、口の中でほくほくとほどけるとされる。この崩れやすさが、つぶして使うコロッケやポテトサラダ、割ってバターをのせるじゃがバターに向くといわれる。煮崩れしやすいので、形を残したい煮物には別の品種が選ばれることも多いという。\n## どう作るのか\n春に種いもを植え、道南では夏の終わりから、道央や道東では秋にかけて掘り上げるとされる。北海道の広い畑では大型の機械で収穫し、冷涼な倉庫で貯蔵されるため、年を越しても出回るという。掘りたては水分が多く、しばらく置くとでんぷんが糖に変わって甘みが増すとされ、冬に食べる越冬いもを好む人もいるという。品種の性質は固定されており、全国の畑で同じ名で作られている。\n## なぜこの形になったのか\n明治の終わりごろ、函館ドックの経営に携わった川田龍吉男爵が、米国から「アイリッシュ・コブラー」という品種を取り寄せ、七飯村の農場で育てたのが始まりと伝わる。土地の人がその品種を男爵の名で呼び、のちに北海道の奨励品種として認められて広く作られるようになったとされる。冷涼で霜の遅い道南の気候と火山灰土が合い、開拓地の主食にも換金作物にもなったことが、全国へ広がる土台になったという。",
+      "body_en": "## What it's made of\nA round, knobbly tuber with deep-set eyes, pale tan skin and white flesh. It's rich in starch, so boiling makes the surface bloom and crumble, and it breaks apart dry and fluffy in the mouth. That tendency to fall apart is said to be exactly what suits it to mashed uses — korokke croquettes, potato salad, or a split spud with a knob of butter. Because it collapses in a simmer, other varieties are often chosen for stews where the pieces should hold.\n## How it's made\nSeed potatoes go in during spring; in southern Hokkaido the harvest begins at the end of summer, while in the center and east it runs into autumn. On Hokkaido's broad fields the crop is lifted by large machines and kept in cool storage, so it's on sale well past the new year. Freshly dug tubers are watery, and a spell in storage is said to convert starch to sugar and build sweetness, which is why some people prefer the overwintered potatoes eaten in the cold months. The variety is stable and is grown under the same name in fields across the country.\n## Why it took this shape\nAround the end of the Meiji era, Baron Ryokichi Kawada, who ran the Hakodate dockyard, is said to have ordered a variety called Irish Cobbler from the United States and grown it on his farm at Nanae village. Locals came to call it the baron's potato, and it was later taken up as a recommended variety for Hokkaido and planted widely. The cool, late-frost climate of the island's south and its volcanic-ash soil suited the crop, and its double role as a settler staple and a cash crop is said to be what carried it nationwide.",
+      "sources": [
+        {
+          "title": "七飯町公式ホームページ",
+          "url": "https://www.town.nanae.hokkaido.jp/",
+          "publisher": "七飯町",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 北海道",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/hokkaido.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "hokkaido-imomochi",
+          "to_slug": "danshaku-imo",
+          "relation_type": "使用食材",
+          "basis": "いももちは男爵いもで作られることが多いとされ、つぶしやすいほくほくの質が片栗粉と合わさる"
+        }
+      ]
+    },
+    {
+      "slug": "takko-ninniku",
+      "body_ja": "## 何でできているか\n皮は真っ白で、球をほどくとふっくらした六つの片が現れる。片は大きく締まっていて、刻むと香りは強いが辛みは穏やかとされ、火を通すとほくほくと甘くなるという。品種は青森県で選び出された「福地ホワイト六片」で、名の通り六片に分かれるのが基本という。田子町では収穫後の乾燥と貯蔵に手間をかけるため、皮の白さと身の締まりが保たれるとされる。\n## どう作るのか\n秋の9月から10月に片を一つずつ畑に植え、雪の下で冬を越させて、翌年6月下旬から7月に掘り上げるとされる。冬のあいだ低温にしっかり当たることで、春からの鱗片の肥大が進むと伝わる。掘った後は根と茎を落とし、乾燥させて貯蔵し、秋から冬にかけて出荷されるという。青森県は全国の生産の大半を占めるとされ、田子町はその中でも早くから栽培を町ぐるみで進めた産地という。\n## なぜこの形になったのか\n田子町は岩手との県境に近い山あいにあり、冬は雪が多く寒さが厳しい。にんにくは冷涼な気候で鱗片がよく太るとされ、稲作に向きにくい傾斜地の換金作物として戦後に導入が進んだと伝わる。昼夜の寒暖差が糖分をためるのに向くとされ、乾燥と貯蔵の技術が積み重なったことで、白く大粒で日持ちする今の姿になったという。にんにく味噌のような南部地方の味も、この産地の近さと結びついているとされる。",
+      "body_en": "## What it's made of\nThe skin is pure white, and the bulb breaks into six fat cloves. Each is large and firm; chopped, the aroma is strong but the bite is said to be gentle, and cooking turns it floury and sweet. The variety is Fukuchi White Rokupen, selected within Aomori prefecture, and as the name says, rokupen — six cloves — is the standard. In Takko, careful drying and storage after harvest are said to keep the skin white and the flesh tight.\n## How it's made\nSingle cloves are planted in September and October, overwinter beneath the snow, and are lifted the following year from late June into July. A long spell of cold through winter is said to drive the swelling of the cloves from spring onward. After lifting, roots and stems are trimmed, the bulbs are dried and stored, and shipping runs from autumn into winter. Aomori is said to account for the bulk of Japan's garlic, and Takko is one of the towns that took up the crop early as a community-wide effort.\n## Why it took this shape\nTakko sits in the hills near the Iwate border, with deep snow and hard cold in winter. Garlic is said to bulk up well in a cool climate, and the crop is said to have been introduced after the war as a cash crop for sloping land poorly suited to rice. The wide swing between day and night temperatures is said to favor sugar storage, and layers of drying and keeping technique produced today's white, large, long-keeping bulb. The garlic-miso flavors of the wider Nanbu region are said to be tied to the nearness of this producing area.",
+      "sources": [
+        {
+          "title": "田子町公式ホームページ",
+          "url": "https://www.town.takko.lg.jp/",
+          "publisher": "田子町",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 青森県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/aomori.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "aomori-kakke",
+          "to_slug": "takko-ninniku",
+          "relation_type": "使用食材",
+          "basis": "かっけに添えるにんにく味噌は、田子町などにんにくの産地に近いことから味の決め手になったとされる"
+        }
+      ]
+    },
+    {
+      "slug": "dake-kimi",
+      "body_ja": "## 何でできているか\n粒は淡い黄色でぎっしり並び、皮が薄く、かじるとはじけて甘い汁が出るとされる。ゆでても焼いても甘みが際立ち、収穫したその日なら生のままでも食べられるほどという。糖度が高い一方で、収穫から時間がたつと糖がでんぷんに変わって甘みが落ちやすいとされ、朝のうちに採ったものを当日に食べるのがよいと伝わる。粒の張りと水分の多さが、同じ品種を平地で育てたものとの違いとされる。\n## どう作るのか\n春に種をまき、7月から9月にかけて収穫するとされる。畑は岩木山の南西麓、標高400〜500メートルほどの嶽高原にあり、夏も朝晩は冷え込むという。収穫は糖が最も多い早朝に行い、その日のうちに直売所や市場へ出すとされる。地元の農協が嶽地区で採れたものに「嶽きみ」の名を使い、産地と時期を限って扱っているという。もぎたてを温泉街の店先でゆでたり焼いたりして売る光景が夏の名物とされる。\n## なぜこの形になったのか\n嶽は弘前の市街から岩木山へ登る道の途中にある温泉地で、冷涼な高原はもともと稲作に向かず、畑作に頼ってきたとされる。とうもろこしは昼に光合成でためた糖を夜の低温で消費せずに済むといわれ、寒暖差の大きいこの土地で甘さが際立ったと伝わる。岩木山を訪れる人の多い夏に収穫期が重なり、温泉と結びついた直売の形で名が広まったとされる。火山灰土の水はけのよさも、根の張りを助けているという。",
+      "body_en": "## What it's made of\nThe kernels are pale yellow, packed tight and thin-skinned, and are said to burst with sweet juice when bitten. Boiled or grilled the sweetness stands out, and on the day of picking it's said to be good raw. That high sugar is fragile, though: once harvested, the sugars begin converting to starch, so the ears are best eaten the same day they're picked in the morning. The firmness of the kernels and their juiciness are said to set it apart from the same variety grown on the plains.\n## How it's made\nSown in spring and harvested from July into September. The fields lie on the Dake plateau on the southwestern slope of Mount Iwaki, around 400 to 500 meters up, where even summer mornings and evenings are cold. Picking is done in the early hours when sugar is highest, and the ears go to stands and markets that same day. The local agricultural cooperative uses the Dake-kimi name only for corn grown in the Dake district, limiting both place and season. Ears boiled or grilled on the spot at shops along the hot-spring street are a fixture of summer here.\n## Why it took this shape\nDake is a hot-spring hamlet on the road climbing from Hirosaki toward Mount Iwaki, and its cool plateau was never good rice land, so people relied on field crops. Corn is said to hold onto the sugar it makes by day when nights are cold enough to slow its use, and in this place of wide temperature swings the sweetness is said to have stood out. The harvest coincides with the summer crowds heading up the mountain, and the name spread through the direct-sales stalls tied to the hot springs. The free-draining volcanic-ash soil is also said to help the roots.",
+      "sources": [
+        {
+          "title": "弘前市公式ホームページ",
+          "url": "https://www.city.hirosaki.aomori.jp/",
+          "publisher": "弘前市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "青森県庁ホームページ",
+          "url": "https://www.pref.aomori.lg.jp/",
+          "publisher": "青森県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "dake-kimi",
+          "to_slug": "dadacha-mame",
+          "relation_type": "対比",
+          "basis": "どちらも収穫後に甘みと香りが落ちやすく、朝採りをその日のうちにゆでて食べる夏の味とされる点で対になる"
+        }
+      ]
+    },
+    {
+      "slug": "akka-jidaikon",
+      "body_ja": "## 何でできているか\n太さは手首ほどで長さは30センチ前後、皮は赤紫に染まり、切ると中は白く締まっているとされる。水分が少なく肉質がかたいため、生でかじるとぽりぽりとした歯ごたえと、はっきりした辛みがあるという。おろすと淡い紅色になり、そばや冷たい麺の薬味として辛みが引き立つとされる。煮ても崩れにくく、干しても味が抜けにくいことが、この大根の持ち味とされる。\n## どう作るのか\n夏の終わりに種をまき、霜の降りる10月から11月に収穫するとされる。安家地区の農家が毎年よい株を残して種を採り、代々つないできた固定種という。収穫後はそのまま漬物にするほか、皮をむいて輪切りにし、寒風にさらして凍らせたり溶かしたりを繰り返す凍み大根に加工する習慣が伝わる。干した大根は春まで保存でき、煮物の具として使われるという。生産量はごく限られ、町内の直売所などで季節に見かける程度とされる。\n## なぜこの形になったのか\n安家は北上山地の奥、冷涼な高地で、冬は雪と寒さが厳しく畑の実りが乏しい土地とされる。保存食として干すには水分の少ないかたい大根のほうが向いており、辛みの強さも薬味として少量で足りる点で重宝されたと伝わる。山あいで外から種が入りにくかったことが、ほかの大根と交雑せずに在来の性質が残った理由とされる。暮らしの必要から守られてきた野菜が、近年は地域の伝統野菜として改めて見直されているという。",
+      "body_en": "## What it's made of\nAbout as thick as a wrist and some 30 centimeters long, with skin stained reddish-purple and firm white flesh inside. Holding little water and dense in texture, it's said to crunch when eaten raw and carry a clear peppery heat. Grated, it turns a pale pink and its bite is said to come through as a condiment for soba and other cold noodles. It keeps its shape in a simmer and holds its flavor when dried, which is counted as the radish's real strength.\n## How it's made\nSown at summer's end and harvested from October into November, once frost has fallen. Farmers in the Akka district have saved seed from the best plants each year, keeping it as an open-pollinated landrace through the generations. After harvest it goes into pickles, or is peeled, sliced into rounds and hung in the winter wind to freeze and thaw repeatedly into shimi-daikon, a freeze-dried radish that keeps until spring and goes into simmered dishes. Output is very small, and it mostly appears in season at farm stands within the town.\n## Why it took this shape\nAkka lies deep in the Kitakami highlands, a cool upland where winters are snowy and hard and fields yield little. A firm, low-moisture radish dries better as a preserved food, and its strong heat means a little goes a long way as a condiment — both reasons it's said to have been valued. Isolation in the mountains kept outside seed from arriving, which is said to be why the landrace never crossed with other radishes and kept its character. A vegetable kept alive by necessity is now being looked at again as a local heirloom.",
+      "sources": [
+        {
+          "title": "岩泉町公式ホームページ",
+          "url": "https://www.town.iwaizumi.lg.jp/",
+          "publisher": "岩泉町",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 岩手県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/iwate.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "akka-jidaikon",
+          "to_slug": "sannai-ninjin",
+          "relation_type": "対比",
+          "basis": "どちらも東北の雪深い山あいで自家採種されてきた根菜で、肉質のかたさや香りの強さが冬の保存と薬味の用途に結びついたとされる"
+        }
+      ]
+    },
+    {
+      "slug": "sendai-magari-negi",
+      "body_ja": "## 何でできているか\n白い部分が弓のように反り、ところどころ土をかぶったまま店に並ぶ。曲がった側の内側は繊維がやわらかく、刻むと粘りのある甘い汁がにじむとされる。生では辛みもあるが、鍋や焼き物にすると甘みがはっきり前に出て、とろけるような口当たりになるという。品種は仙台周辺で選び継がれてきた在来の系統とされ、まっすぐ伸びる一般のねぎに比べて白根は短めで太く、緑の葉もやわらかいと伝わる。\n## どう作るのか\n春に種をまいて苗を育て、夏に一度畑から掘り上げる。それを溝の斜面に寝かせるように植え直し、土をかぶせる。この作業を「やとい」と呼ぶという。倒されたねぎは光を求めて上へ伸び直そうとし、その過程で白い部分が弓なりに曲がるとされる。寝かせた状態で霜に当たるまで育て、11月から冬にかけて収穫するという。手作業の多い栽培のため生産量は限られ、仙台市が伝統野菜として一覧に載せているとされる。\n## なぜこの形になったのか\n岩切は七北田川に近い低地で地下水位が高く、ねぎの白い部分を伸ばすために深く溝を掘って土を寄せることが難しかったと伝わる。そこで苗を横に寝かせて土をかぶせ、光を遮りながら白根を伸ばす工夫が生まれたという。明治の頃から続く方法とされ、曲がりは見た目のためではなく、水に浸かりやすい土地で白いねぎを作るための形という。寝かされて起き上がる過程でねぎに負荷がかかり、甘みが増すと考えられている。",
+      "body_en": "## What it's made of\nThe white stem curves like a bow and often reaches the shop still dusted with soil. On the inner side of the bend the fibers are tender, and a cut releases a slightly sticky, sweet juice. Raw it still bites, but in a hot pot or on a grill the sweetness is said to come forward and the texture to go almost melting. The variety is a landrace selected around Sendai; compared with an ordinary straight leek, the white part is shorter and thicker and the green leaves softer.\n## How it's made\nSeed is sown in spring and the seedlings grow until summer, when they are dug up once. They are replanted lying against the slope of a trench and covered with soil — the step farmers call yatoi, roughly 'putting to bed'. The toppled leek strains back toward the light, and in that effort the white stem bends into a bow. It is grown lying down until frost arrives, with harvest from November into winter. The hand labor keeps output small, and Sendai city is said to list it among its traditional vegetables.\n## Why it took this shape\nIwakiri is low ground near the Nanakita river with a high water table, and farmers are said to have found it hard to dig the deep trenches and bank up soil that blanch a leek's white stem. Laying the plant on its side and covering it was the workaround: the stem lengthens in the dark without a deep ditch. The method is said to go back to the Meiji era, and the bend is a consequence, not a decoration — the shape of making a white leek on land that floods easily. The strain of righting itself is thought to be what deepens the sweetness.",
+      "sources": [
+        {
+          "title": "仙台市公式ホームページ",
+          "url": "https://www.city.sendai.jp/",
+          "publisher": "仙台市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 宮城県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/miyagi.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "sendai-magari-negi",
+          "to_slug": "sendai-seri",
+          "relation_type": "対比",
+          "basis": "どちらも仙台の冬の鍋を支える野菜とされるが、低地の畑で寝かせて育てるねぎと、水田の水の中で根ごと育てるせりという育て方の対照"
+        }
+      ]
+    },
+    {
+      "slug": "sendai-seri",
+      "body_ja": "## 何でできているか\n細い茎に小さな葉を茂らせ、噛むとすっとした香りが鼻へ抜けるとされる。茎はしゃきしゃきと歯切れがよく、根は白くひげ状で、土を落として火を通すと香りが最も濃いと伝わる。冬の霜に当たった株ほど茎が締まり、えぐみが少なく甘みを感じるという。春の七草のひとつと同じ植物で、野生のものより茎が長く太く育つのは、水田で手をかけて作られているためとされる。\n## どう作るのか\n前年の株から伸びた茎を親株として、夏に水を張った田に植え付けるという。きれいな水を浅く流し続けて育て、秋から春にかけて収穫するとされる。冬は冷たい水に入り、根ごと引き抜いて土を洗い落とすため、手仕事の負担が大きいと伝わる。収穫後は根を傷めないように束ね、根付きのまま出荷するのが仙台せりの特徴という。名取市の下余田地区などが中心で、産地名ではなく仙台の名で流通してきたとされる。\n## なぜこの形になったのか\n名取は名取川と阿武隈川にはさまれた低地で、湧き水と水田が広がり、せりに向く清水が得られたと伝わる。江戸時代から栽培が始まったとされ、冬に青い野菜が乏しい時期に、水の中で育つせりが貴重だったという。仙台の雑煮に入り、正月の彩りとして欠かせないものになったとされる。近年は鍋の具として根まで食べる食べ方が広まり、冬の仙台を訪れる人が目当てにする味になったという。",
+      "body_en": "## What it's made of\nThin stems carry small leaves, and a bite sends a clean, herbal scent up through the nose. The stems snap crisply; the roots are white and whiskery, and once the mud is washed off and they're cooked, that's where the fragrance is said to be strongest. Plants that have taken a winter frost have firmer stems, less harshness and a touch of sweetness. It's the same plant as one of the seven spring herbs, and the longer, thicker stems come from being raised with care in a paddy rather than gathered wild.\n## How it's made\nShoots from the previous year's plants serve as stock, and are set out in summer in a flooded field. Clean water is kept flowing shallowly over them, and harvest runs from autumn into spring. In winter that means wading into icy water to pull each plant up by the root and rinse off the soil, work that is said to be hard on the hands. The plants are bundled so the roots stay intact and shipped root-on — the signature of Sendai seri. The Shimo-Yoden district of Natori is the center, though the green has long traveled under Sendai's name rather than the town's.\n## Why it took this shape\nNatori is low ground between the Natori and Abukuma rivers, with spring water and paddies that are said to have given seri the clear water it needs. Cultivation is said to date from the Edo period, and in a season when green vegetables were scarce, a plant that grew in water through the winter was valued. It found its way into Sendai's New Year zoni soup as an essential touch of green. More recently the hot pot that eats it root and all has spread, and it has become a taste people seek out on a winter visit to Sendai.",
+      "sources": [
+        {
+          "title": "名取市公式ホームページ",
+          "url": "https://www.city.natori.miyagi.jp/",
+          "publisher": "名取市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 宮城県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/miyagi.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "sendai-zoni",
+          "to_slug": "sendai-seri",
+          "relation_type": "使用食材",
+          "basis": "仙台雑煮にははらことともに仙台せりが入り、正月の青みとして欠かせないとされる"
+        }
+      ]
+    },
+    {
+      "slug": "sannai-ninjin",
+      "body_ja": "## 何でできているか\n色は赤みの濃い橙色で、先細りの細長い形をし、長いものは40センチ近くになるとされる。切ると芯まで色が通り、にんじん特有の香りが店先でも分かるほど強いという。味は甘みがはっきりしていて、煮物に入れると汁にまで香りが移ると伝わる。肉質はやや硬めで、なますやきんぴらのように歯ごたえを残す料理にも向くとされる。香りの強さを好む人と苦手な人が分かれる、個性のはっきりした野菜という。\n## どう作るのか\n夏の7月ごろに種をまき、秋の終わり、雪が積もる前の11月に掘り上げるとされる。山内地区の農家が毎年良い株を残して翌年の種を採る固定種で、ほかのにんじんとの交雑を避けながら受け継がれてきたという。掘った後は土の中や雪の下に埋めて貯蔵し、冬のあいだ少しずつ取り出して使う習慣が伝わる。雪の中で糖分が増すとされる。作付けは限られた農家に残るのみで、秋田県の伝統野菜の一覧にも載るという。\n## なぜこの形になったのか\n横手市山内は奥羽山脈に近い豪雪地で、冬は畑が深い雪に閉ざされる。雪の前に収穫して雪室のように貯蔵できる根菜は、冬の野菜として欠かせなかったと伝わる。細長く硬い肉質は長期の貯蔵に耐え、強い香りは雪国の煮物や汁物に風味を添えるのに重宝されたという。山あいで種の行き来が少なかったことが、在来の性質を保った理由とされる。横手は納豆汁やいぶりがっこなど、冬の保存と結びついた食が多い土地でもある。",
+      "body_en": "## What it's made of\nA deep, reddish orange, long and tapering, with the biggest roots approaching 40 centimeters. The color runs right to the core, and the carrot scent is said to be strong enough to notice at the stall. The flavor is clearly sweet, and in a simmered dish the fragrance is said to pass into the broth. The flesh is on the firm side, so it also suits dishes that keep some crunch, like namasu vinegar salad or kinpira. People tend to either love or avoid that strength of aroma — it's a vegetable with a pronounced personality.\n## How it's made\nSeed goes in around July and the roots are dug in November, at the end of autumn before the snow settles. It's an open-pollinated landrace: Sannai farmers keep the best plants each year for next season's seed and guard against crossing with other carrots. After lifting, the roots are buried in soil or under snow and taken out a few at a time through the winter — a storage habit that is said to build sugar in the cold. Only a limited number of farms still grow it, and it appears on Akita prefecture's list of traditional vegetables.\n## Why it took this shape\nSannai, in Yokote, lies near the Ou mountains in heavy-snow country, and in winter the fields are sealed under deep snow. A root vegetable that could be lifted before the snow and kept as if in a snow cellar was essential winter food. The long, firm flesh stands up to months of storage, and the strong fragrance was prized for lending flavor to the simmered dishes and soups of a snowbound kitchen. Little seed moved in or out of the mountain valley, which is said to be why the landrace kept its character. Yokote is also home to natto soup and iburigakko — a place where winter preservation shaped what people eat.",
+      "sources": [
+        {
+          "title": "横手市公式ホームページ",
+          "url": "https://www.city.yokote.lg.jp/",
+          "publisher": "横手市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "秋田県公式ホームページ",
+          "url": "https://www.pref.akita.lg.jp/",
+          "publisher": "秋田県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "sannai-ninjin",
+          "to_slug": "odate-tonburi",
+          "relation_type": "対比",
+          "basis": "どちらも秋田の内陸で晩秋に収穫され、強い香りのにんじんと食感だけのとんぶりという、ひとつの個性で守られてきた畑の産物という対照"
+        }
+      ]
+    },
+    {
+      "slug": "odate-tonburi",
+      "body_ja": "## 何でできているか\n直径1〜2ミリほどの深い緑色の粒で、噛むとプチプチと皮が弾ける感触があるとされる。味そのものは淡く、青い香りがわずかにある程度で、醤油や長芋、納豆、大根おろしと合わせて食感を楽しむものという。原料はホウキギ、庭木としても知られるコキアの実で、秋に赤く色づく草の種子を食用に加工したものとされる。戻した状態で瓶詰や袋詰にして売られ、冷蔵で日持ちするという。\n## どう作るのか\n春に畑へ種をまき、秋に人の背丈ほどに育った株を刈り取るとされる。実を枝から落として乾燥させ、冬に大きな釜で煮たのち、水に浸けて手でもみ、薄い皮を取り除くという。皮を洗い流して残る緑の粒が製品になり、この工程に手間がかかるため作り手は多くないとされる。大館市の比内地区が主な産地で、「大館とんぶり」の名で農林水産省の地理的表示に登録されていると伝わる。\n## なぜこの形になったのか\nホウキギは枝を束ねて箒にする草として各地で育てられてきたが、その実を食べる習慣は大館周辺で続いてきたとされる。一説には江戸時代の飢饉の際に食用にしたのが始まりと伝わり、冬の長い土地で保存できる副菜として定着したという。名の由来は、ハタハタの卵「ぶりこ」に似ていて唐から伝わったとされたため「唐ぶりこ」と呼ばれ、それが縮まったという説が伝わる。乾燥と皮むきを冬の仕事として集落ぐるみで続けたことが、産地が一か所に絞られた理由とされる。",
+      "body_en": "## What it's made of\nDeep green grains a millimeter or two across, with a skin that pops between the teeth. The taste itself is faint — a whisper of green — and the point is the texture, so they're paired with soy sauce, grated nagaimo yam, natto or grated daikon. The source is kochia, the same bushy plant grown in gardens for its red autumn color; the seed of that plant is processed into food. Tonburi is sold rehydrated in jars or packs and keeps in the refrigerator.\n## How it's made\nSeed is sown in the fields in spring, and in autumn the plants, grown to about a person's height, are cut. The seed is threshed from the branches and dried, boiled in large cauldrons in winter, then soaked and rubbed by hand to loosen the thin husk. What's left after rinsing is the green grain. The work is laborious, and few households still do it. The Hinai district of Odate is the main producing area, and the product is registered under the name Odate tonburi in the agriculture ministry's geographical indication system.\n## Why it took this shape\nKochia was grown in many places for its branches, which are bundled into brooms, but the habit of eating its seed is said to have persisted around Odate. One account traces it to an Edo-period famine, after which it settled in as a side dish that keeps through a long winter. The name is explained by one story as a shortening of tō-buriko — 'buriko from China' — because the grains resemble buriko, the roe of the sandfish; the Chinese origin was assumed rather than known. Drying and husking became winter work done village-wide, which is said to be why production narrowed to a single district.",
+      "sources": [
+        {
+          "title": "農林水産省 地理的表示（GI）登録産品一覧",
+          "url": "https://www.maff.go.jp/j/shokusan/gi_act/register/",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "大館市公式ホームページ",
+          "url": "https://www.city.odate.lg.jp/",
+          "publisher": "大館市",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tonburi-nagaimo-ae",
+          "to_slug": "odate-tonburi",
+          "relation_type": "使用食材",
+          "basis": "とんぶりの長芋和えは大館のとんぶりを千切りの長芋と醤油で和えたもので、産地の定番の食べ方とされる"
+        }
+      ]
+    },
+    {
+      "slug": "dadacha-mame",
+      "body_ja": "## 何でできているか\nさやは茶色い毛に覆われてくびれが深く、中の豆は二粒入りが多いという。薄皮は茶色みを帯び、ゆでると湯に香りが広がり、噛むと甘みと独特のこくが続くとされる。見た目は不揃いで、豆の大きさを揃えた枝豆より地味に映るが、味と香りが選ばれてきた理由という。早生から晩生まで系統が分かれており、同じ名で呼ばれても8月上旬と9月上旬では風味が違うとされる。\n## どう作るのか\n春に種をまき、7月末から9月上旬にかけて収穫するとされる。早朝に株ごと引き抜き、さやをもいでその日のうちに出荷するという。収穫後は時間とともに香りと甘みが落ちやすいため、鶴岡では朝採りをすぐゆでる食べ方が根づいていると伝わる。種は農家が自家採種で受け継ぐ固定種で、鶴岡市内の特定の地区で作られたものだけがこの名で出荷されるよう生産者の組合が定めているとされる。\n## なぜこの形になったのか\n「だだちゃ」は庄内の言葉で父親を指すといい、一説には鶴岡の殿様が献上された枝豆の味に驚き「どこのだだちゃの豆か」と尋ねたことから名がついたと伝わる。発祥とされる白山地区は赤川が運んだ砂質の土で水はけがよく、豆の香りが強く出る土地と考えられている。日持ちせず形も不揃いなため広く流通しにくかったことが、産地が庄内に留まり、在来の性質が残った理由とされる。",
+      "body_en": "## What it's made of\nThe pods are covered in brown down and deeply waisted, and most hold two beans. The skins carry a brownish tint; boiling sends the aroma up with the steam, and each bite follows sweetness with a distinctive richness. The pods look uneven and plainer than edamame bred for uniform size, but flavor and scent are said to be why it was kept. There are early, mid and late strains, so a bag in early August and one in early September can taste noticeably different under the same name.\n## How it's made\nSown in spring and harvested from late July into early September. The plants are pulled whole in the early morning, the pods stripped and shipped that same day. Aroma and sweetness fade quickly after picking, which is why in Tsuruoka the custom is to boil the morning's beans at once. The seed is a landrace saved by the farmers themselves, and a growers' association is said to restrict the name to beans grown in specified districts of Tsuruoka.\n## Why it took this shape\nDadacha means 'father' in the Shonai dialect, and one story says a lord of Tsuruoka, struck by the taste of beans presented to him, asked whose dadacha had grown them. Shirayama, held to be the birthplace, sits on sandy, well-drained soil laid down by the Akagawa river, which is thought to bring out the bean's fragrance. Poor keeping and irregular pods made it hard to ship widely, and that is said to be why it stayed in Shonai and kept its heirloom character.",
+      "sources": [
+        {
+          "title": "鶴岡市公式ホームページ",
+          "url": "https://www.city.tsuruoka.lg.jp/",
+          "publisher": "鶴岡市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 山形県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/yamagata.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "dadacha-mame",
+          "to_slug": "akebono-daizu-edamame",
+          "relation_type": "対比",
+          "basis": "どちらも土地の在来大豆を枝豆で食べる味とされるが、庄内の砂地で夏の終わりに採る香りの豆と、山梨身延の秋の大粒の豆という対照"
+        }
+      ]
+    },
+    {
+      "slug": "yamagata-seisai",
+      "body_ja": "## 何でできているか\n丈は50センチを超え、幅の広い葉と、厚くて白っぽい葉柄が目立つとされる。生のまま噛むとからし菜に似た辛みと香りがあり、漬けると辛みが丸くなって、歯ごたえだけが残るという。株ごと塩で漬けた青菜漬はごはんに巻いて食べられ、細かく刻んで大根や人参と漬けるおみ漬は冬の常備菜と伝わる。品種は高菜の系統で、山形の寒さの中で葉肉が厚くなったとされる。\n## どう作るのか\n8月末から9月に種をまき、11月に収穫するとされる。寒さで葉が傷む前に、しかし霜には何度か当ててから抜くと、辛みと甘みの釣り合いがよいという。収穫した株は1〜2日干してしんなりさせ、塩で漬け込むと伝わる。山形市や天童市、東根市など村山地方の畑で広く作られ、11月の収穫期には漬物用に束で売られる光景が見られるという。\n## なぜこの形になったのか\n一説には明治の終わりごろ、奈良県から種を取り寄せて山形で育て始めたのが始まりと伝わる。内陸の盆地は夏が暑く冬は雪に閉ざされ、冬に青い野菜を食べるためには秋のうちに大量に漬けておく必要があったという。葉が大きく茎が厚い青菜は塩漬けにしても歯ごたえが残り、雪国の冬の漬物に向いていたとされる。「青菜」を「せいさい」と読むのも、この土地での呼び方として定着したものという。",
+      "body_en": "## What it's made of\nThe plant stands over half a meter, with broad leaves and thick, pale stalks that catch the eye. Raw, it has a mustard-like heat and scent; pickled, the heat mellows and what stays is the crunch. Salted whole as seisai-zuke it's eaten wrapped around rice, while omi-zuke — chopped fine and pickled with daikon and carrot — is a winter staple on Yamagata tables. It belongs to the takana group of mustard greens, and the thick leaf flesh is said to have developed in Yamagata's cold.\n## How it's made\nSeed goes in from late August into September and the crop is pulled in November. The timing matters: before cold damages the leaves, but only after several frosts, which is said to balance the heat against sweetness. The pulled plants are wilted for a day or two in the sun before salting. It's grown widely across the Murayama region — Yamagata city, Tendo, Higashine — and in the November harvest it's sold in bundles for home pickling.\n## Why it took this shape\nOne account says seed was brought from Nara around the end of the Meiji era and first raised in Yamagata. The inland basin has hot summers and snowbound winters, so eating greens in winter meant pickling in quantity during autumn. A green with large leaves and thick stalks keeps its crunch under salt, which is said to be why it suited a snow-country winter pickle. Even the reading of the name — seisai rather than the usual aona for the same characters — is a usage that took root in this place.",
+      "sources": [
+        {
+          "title": "山形県公式ホームページ",
+          "url": "https://www.pref.yamagata.jp/",
+          "publisher": "山形県",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "うちの郷土料理 山形県",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/yamagata.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "yamagata-seisai",
+          "to_slug": "sannai-ninjin",
+          "relation_type": "対比",
+          "basis": "どちらも東北内陸の雪国で冬を越すための野菜とされるが、塩に漬けて保つ青菜と、雪の下に埋めて保つにんじんという保存の仕方の対照"
+        }
+      ]
+    }
+  ]
+}

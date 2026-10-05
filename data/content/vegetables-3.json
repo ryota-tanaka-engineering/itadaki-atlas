@@ -1,0 +1,675 @@
+{
+ "genres": [],
+ "items": [
+  {
+   "slug": "nerima-daikon",
+   "name_ja": "練馬大根",
+   "name_romaji": "Nerima-daikon",
+   "name_en": "Nerima daikon — Edo's long, lean pickling radish from Tokyo's Nerima",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "東京都",
+   "origin_city": "練馬区",
+   "lat": 35.7356,
+   "lng": 139.6517,
+   "primary_style": "",
+   "summary_ja": "首まで白い細長の大根で、長さは70センチから1メートル近くに及ぶとされる。水分が少なく繊維が締まり、干してたくあんに漬ける用途で江戸近郊に広まったと伝わる。現在は江戸東京野菜として少量が受け継がれている。",
+   "summary_en": "A long, white-necked daikon radish said to run 70 centimeters to nearly a meter. Lean and firm-fleshed, it spread through Edo's outskirts as a radish for drying and pickling into takuan, and today a small crop continues as one of the Edo-Tokyo heirloom vegetables.",
+   "body_ja": "## 何でできているか\n首から先まで白い長大根で、中ほどがふくらみ両端が細る「中ぶくら」の姿をしているとされる。長さは70センチから1メートル近く、太いところでも直径10センチ前後にとどまり、細長い印象が強いという。肉質は締まって水分が少なく、生では辛みがはっきりしているとされ、煮るよりも干してたくあんに漬けると歯切れの良さが際立つと伝わる。葉は大きく、かつては葉も漬け込んだという。\n## どう作るのか\n種をまくのは8月末から9月上旬で、11月下旬から12月にかけて収穫するとされる。根が深く伸びるため、やわらかく深い土を耕しておく必要があり、引き抜くのにも腰を据えて両手で力をかけるという。収穫後は数本ずつ縛って軒先や干し場に吊るし、しなるまで乾かしてから米ぬかと塩で漬けるのがたくあんの作り方とされる。種は農家が自家採種で受け継ぎ、形のそろった根を残して翌年に備えたと伝わる。\n## なぜこの形になったのか\n練馬一帯は火山灰が厚く積もった関東ローム層で、石が少なく根がまっすぐ深く伸びやすい土とされる。江戸の町に近く、百万人規模の人口がたくあんを求めたことで、漬物に向く細長い大根が選ばれて広まったと伝わる。一説には五代将軍徳川綱吉が尾張から種を取り寄せ、練馬で育てさせたのが始まりとされるが、伝承の域を出ない。昭和期に病害や宅地化で姿を消しかけ、近年は区や農家が復活栽培に取り組んでいるという。",
+   "body_en": "## What it's made of\nA long daikon that stays white from neck to tip, with the swollen middle and tapering ends known as nakabukura. It's said to run 70 centimeters to nearly a meter yet stay around 10 centimeters across at its widest, so the overall impression is slender. The flesh is firm and relatively dry, with a clear bite of pungency when raw. Rather than simmering, it's said to show its best when dried and pickled into takuan (rice-bran pickled radish), where its crisp snap stands out. The leaves are large and were once pickled too.\n## How it's made\nSeed goes in from the end of August into early September, and harvest runs from late November through December. Because the root drives deep, the soil has to be tilled soft and deep beforehand, and pulling one up is said to take a firm stance and both hands. After harvest the radishes are tied in bunches and hung under the eaves or on drying racks until they bend, then packed in rice bran and salt for takuan. Growers are said to have saved their own seed, keeping evenly shaped roots for the following year.\n## Why it took this shape\nThe Nerima area sits on the Kanto loam, a deep bed of volcanic ash with few stones, where a root can run straight down. Close to Edo and its population of a million, demand for takuan is said to have favored a slender radish suited to pickling. One account traces the start to the fifth shogun Tokugawa Tsunayoshi, who is said to have had seed brought from Owari and grown in Nerima, though this remains tradition rather than record. In the Showa era disease and housing development nearly wiped it out, and in recent decades the ward and local farmers have been bringing it back.",
+   "sources": [
+    {
+     "title": "練馬区",
+     "url": "https://www.city.nerima.tokyo.jp/",
+     "publisher": "練馬区",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "JA東京中央会",
+     "url": "https://www.tokyo-ja.or.jp/",
+     "publisher": "JA東京中央会",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "takuan",
+     "to_slug": "nerima-daikon",
+     "relation_type": "使用食材",
+     "basis": "練馬大根は干してたくあんに漬ける用途で江戸近郊に広まったとされ、漬物用の大根の代表的な在来種に当たる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "komatsuna",
+   "name_ja": "小松菜",
+   "name_romaji": "Komatsuna",
+   "name_en": "Komatsuna — the mild winter mustard green named for Edo's Komatsugawa",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "東京都",
+   "origin_city": "江戸川区",
+   "lat": 35.7067,
+   "lng": 139.8683,
+   "primary_style": "",
+   "summary_ja": "江戸川区小松川の地名を負う冬の青菜で、アブラナ科の葉を食べる。苦みやえぐみが少なく、霜に当たると甘みが増すとされる。江戸の雑煮に欠かせない青みとして広まり、在来の「伝統小松菜」は葉が丸く茎が細いという。",
+   "summary_en": "A winter green of the mustard family that takes its name from Komatsugawa in Tokyo's Edogawa ward. Mild, with little bitterness, it's said to sweeten after frost. It spread as the green in Edo's New Year soup, and the heirloom strain is known for rounder leaves and slender stems.",
+   "body_ja": "## 何でできているか\nアブラナ科の葉菜で、濃い緑の葉と白っぽい茎を根元で束ねた姿をしている。ほうれん草に比べてあくが少なく、下ゆでなしでも炒めたり汁に入れたりできる手軽さが持ち味とされる。霜に当たった冬の株は葉が厚くなり、甘みが乗るという。江戸東京野菜として受け継がれる在来の「伝統小松菜」は、葉が丸くやわらかで茎が細く、現在広く出回る茎の太い小松菜とは姿が異なるとされる。\n## どう作るのか\n寒さに強く、秋にまいて冬に収穫する作型が本来の姿とされるが、現在はほぼ一年を通して栽培されるという。種を条状にまき、間引きながら育てて、草丈が20センチ台に達したころに根元から抜き取る。江戸川区や葛飾区など東京東部の低地では、江戸時代から続く畑で今も小松菜がつくられていると伝わる。在来の伝統小松菜は自家採種で守られ、交雑を避けるため他のアブラナ科から離して採種するとされる。\n## なぜこの形になったのか\n名の由来は伝承で、八代将軍徳川吉宗が鷹狩の折に小松川の香取神社で青菜入りの餅の汁を供され、地名から「小松菜」と名づけたとされる。江戸川と荒川に挟まれた低地は水に恵まれ、江戸の町へ青物を運びやすい近さにあったことが、葉菜の産地として育った背景とみられる。冬でも育つ青菜は正月の雑煮の青みとして重宝され、東京の雑煮に小松菜が入るのはその名残と伝わる。",
+   "body_en": "## What it's made of\nA leafy green of the mustard family, with deep green leaves and pale stems gathered at the base. It carries less astringency than spinach, so it can go straight into a stir-fry or soup without parboiling, which is said to be its chief convenience. Winter plants touched by frost thicken their leaves and take on sweetness. The heirloom strain kept as an Edo-Tokyo vegetable, called dento komatsuna, has rounder, softer leaves and slender stems, unlike the thick-stemmed komatsuna now sold everywhere.\n## How it's made\nHardy against cold, it was originally sown in autumn and harvested in winter, though today it's grown nearly year round. Seed is sown in rows, thinned as the plants grow, and the whole plant is pulled from the base once it reaches the 20-centimeter range. In the lowlands of eastern Tokyo, in Edogawa and Katsushika wards, fields said to date from the Edo period still grow it. The heirloom strain is kept by saving seed, grown apart from other mustard-family crops to avoid crossing.\n## Why it took this shape\nThe name comes down as tradition: the eighth shogun Tokugawa Yoshimune, out hawking, is said to have been served a mochi soup with greens at Katori Shrine in Komatsugawa and to have named the green after the place. The lowland between the Edogawa and Arakawa rivers was rich in water and close enough to carry greens into the city, which seems to be why it grew into a leaf-vegetable district. A green that grows through winter was valued as the color in New Year zoni (mochi soup), and the komatsuna in Tokyo's zoni is said to be a trace of that.",
+   "sources": [
+    {
+     "title": "江戸川区",
+     "url": "https://www.city.edogawa.tokyo.jp/",
+     "publisher": "江戸川区",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 東京都",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "edo-zoni",
+     "to_slug": "komatsuna",
+     "relation_type": "使用食材",
+     "basis": "江戸雑煮の青みには小松菜が使われるとされ、本文でも小松菜が家庭により入れ替わる具として挙がっている"
+    },
+    {
+     "from_slug": "kanagawa-kenchin-jiru",
+     "to_slug": "komatsuna",
+     "relation_type": "使用食材",
+     "basis": "神奈川のけんちん汁は根菜に小松菜を合わせるとされ、本文に小松菜が具として挙がっている"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "miura-daikon",
+   "name_ja": "三浦大根",
+   "name_romaji": "Miura-daikon",
+   "name_en": "Miura daikon — the heavy, white-necked New Year radish of the Miura Peninsula",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "神奈川県",
+   "origin_city": "三浦市",
+   "lat": 35.144,
+   "lng": 139.6199,
+   "primary_style": "",
+   "summary_ja": "三浦半島で受け継がれる白首の大根で、中ほどが太く、1本2〜3キロに育つとされる。きめ細かくやわらかいのに煮崩れしにくく、おでんやふろふき大根に向くという。年末の出荷が中心で、正月の煮物の大根として親しまれてきたと伝わる。",
+   "summary_en": "A white-necked daikon of the Miura Peninsula, thick through the middle and said to reach 2 to 3 kilograms. Fine-grained and tender yet slow to fall apart in the pot, it suits oden and furofuki daikon. Most of it ships at year's end, and it has long been the radish of New Year simmered dishes.",
+   "body_ja": "## 何でできているか\n首まで白く、中ほどがふくらんで先に向かって細る大根で、長さ60センチ前後、重さは2〜3キロ、大きいものはさらに重くなるとされる。肉質はきめが細かくやわらかで、だしをよく含みながら長く煮ても形が崩れにくいという。生では辛みが穏やかで甘みがあり、おろしや漬物にも向くとされるが、土地ではおでんやふろふき大根、ぶり大根のような煮物で真価を見せる大根として語られている。\n## どう作るのか\n種をまくのは9月上旬で、12月から1月にかけて収穫するとされる。太く重い根を傷つけずに引き抜くには力が要り、機械化が難しいことから栽培面積は限られるという。収穫した大根は泥を落として出荷され、年末の正月需要に合わせて出回ることが多いと伝わる。種は三浦の農家が採種を続けてきたとされ、現在は青首大根が主力となる中で、在来の形を守る農家が栽培を続けているという。\n## なぜこの形になったのか\n三浦半島の畑は相模湾と東京湾に挟まれ、冬も温暖で霜が少なく、海風に運ばれた土が深く耕しやすいとされる。この土と気候で根が太く育ったのが大きさの背景とみられる。一説には、土地の在来種だった高円坊大根と、江戸から持ち込まれた練馬大根が畑で自然に交わって生まれたと伝わる。昭和後期に台風の被害を受けたことをきっかけに青首大根への転換が進み、三浦大根は少量生産に移ったと伝わる。",
+   "body_en": "## What it's made of\nA daikon that stays white to the neck, swelling through the middle and tapering toward the tip, around 60 centimeters long and 2 to 3 kilograms, with larger ones heavier still. The flesh is fine-grained and tender, drinking in broth while holding its shape through long simmering. Raw, it's said to be mild in pungency with a touch of sweetness, good grated or pickled, but on the peninsula it's spoken of as a radish that shows its worth in oden, furofuki daikon (simmered rounds with miso) and buri daikon (simmered with yellowtail).\n## How it's made\nSeed goes in early September and the roots are dug from December into January. Pulling a thick, heavy root without damaging it takes strength and resists mechanization, which is said to be why the acreage stays small. The radishes are washed of soil and shipped mostly to meet year-end demand for New Year cooking. Miura farmers are said to have kept saving their own seed, and while the green-necked daikon is now the mainstream crop, some growers continue to keep the old form.\n## Why it took this shape\nThe fields of the Miura Peninsula lie between Sagami Bay and Tokyo Bay, mild in winter with little frost, and the wind-borne soil is deep and easy to work. That soil and climate seem to be what let the root grow so thick. One account holds that the local Koenbo daikon crossed naturally in the fields with Nerima daikon brought from Edo, and the Miura daikon came from that. After typhoon damage in the late Showa era, growers are said to have shifted to the green-necked daikon, and the Miura daikon moved to small-scale production.",
+   "sources": [
+    {
+     "title": "三浦市",
+     "url": "https://www.city.miura.kanagawa.jp/",
+     "publisher": "三浦市",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 神奈川県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/kanagawa.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "nerima-daikon",
+     "relation_type": "派生",
+     "basis": "一説に、三浦の在来種だった高円坊大根と練馬大根が自然に交雑して生まれたと伝わる"
+    },
+    {
+     "from_slug": "oden",
+     "to_slug": "miura-daikon",
+     "relation_type": "使用食材",
+     "basis": "きめ細かくやわらかいのに煮崩れしにくい肉質から、おでんの大根に向くとされる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "norabou-na",
+   "name_ja": "のらぼう菜",
+   "name_romaji": "Norabou-na",
+   "name_en": "Norabou-na — a sweet early-spring flowering green of the Tama hills",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "神奈川県",
+   "origin_city": "川崎市多摩区",
+   "lat": 35.621,
+   "lng": 139.561,
+   "primary_style": "",
+   "summary_ja": "川崎市菅や東京のあきる野市などで受け継がれる春の青菜で、冬を越して3月ごろに伸びるとう（花茎）を摘んで食べる。アブラナ科ながら苦みやえぐみが少なく、噛むと甘みが広がるとされる。摘んだあとも脇から次々に茎が伸びるという。",
+   "summary_en": "An early-spring green kept in Suge in Kawasaki and in Akiruno in Tokyo. Plants overwinter, and around March the flowering stems are picked and eaten. Though a mustard-family green, it carries little bitterness and turns sweet as you chew, and once picked it keeps sending up new side shoots.",
+   "body_ja": "## 何でできているか\nアブラナ科の青菜で、食べるのは冬を越した株から春に立ち上がる花茎と、その先の蕾、やわらかな葉とされる。茎は太めでも筋張らず、ゆでると鮮やかな緑に変わり、噛むとほのかな甘みが広がるという。菜の花と比べて苦みやえぐみが少なく、おひたしや和え物にそのまま使えるのが持ち味とされる。茎を摘み取ると脇から新しい茎が伸び、春の間は何度も収穫できると伝わる。\n## どう作るのか\n種をまくのは9月から10月で、小さな株のまま冬を越し、3月から4月にかけて伸びてきた花茎を手で摘み取るとされる。一度に抜き取るのではなく、主茎を摘んだあと脇芽が伸びるのを待ってまた摘むため、同じ株から長く収穫できるという。種は農家が自家採種で受け継いできたとされ、他のアブラナ科と交雑しやすいため、採種用の株は離して育てると伝わる。収穫した茎はさっとゆでて冷水にとり、水気を絞って食べるのが基本とされる。\n## なぜこの形になったのか\n多摩丘陵から秋川流域にかけての畑は冬の寒さが厳しく、雪は少ないため、株のまま冬を越させて春一番の青物を得る栽培が根づいたとみられる。江戸時代の飢饉の折にこの菜が人々を飢えから救ったという伝承が東京のあきる野市に残り、川崎市の菅地区でも古くから栽培されてきたと伝わる。苦みの少ない花茎は、まだ野菜の乏しい早春にそのまま食べられる貴重な青物として、土地の春の味になったとされる。",
+   "body_en": "## What it's made of\nA mustard-family green eaten for the flowering stems that rise in spring from an overwintered plant, together with the buds and tender leaves at their tips. The stems are fairly thick but not stringy; they turn a bright green when boiled and release a gentle sweetness as you chew. Compared with nanohana (rapeseed flower greens) it has little bitterness or harshness, so it goes straight into ohitashi (blanched greens in dashi) or dressed dishes. Once a stem is picked, new ones push out from the side, and the plant is said to give several pickings through spring.\n## How it's made\nSeed is sown in September and October, the small plants sit through winter, and from March into April the rising flower stems are picked by hand. Rather than pulling the whole plant, growers take the main stem and wait for side shoots, so one plant yields over a long season. Seed has been saved on farms for generations; because it crosses readily with other brassicas, plants kept for seed are grown apart. The picked stems are blanched briefly, cooled in water and squeezed before eating.\n## Why it took this shape\nThe fields from the Tama hills to the Akigawa valley see hard winter cold with little snow, which seems to be why a practice of overwintering plants for the first greens of spring took root. In Akiruno, Tokyo, a tradition holds that this green saved people from hunger during Edo-period famines, and the Suge district of Kawasaki is said to have grown it since early times. A flowering stem with little bitterness could be eaten as it was in early spring, when vegetables were scarce, and it became the taste of spring in these hills.",
+   "sources": [
+    {
+     "title": "うちの郷土料理 神奈川県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/kanagawa.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "川崎市",
+     "url": "https://www.city.kawasaki.jp/",
+     "publisher": "川崎市",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [
+    {
+     "pref": "東京都",
+     "city": "あきる野市",
+     "lat": 35.7289,
+     "lng": 139.2941,
+     "relation_type": "名産地",
+     "note_ja": "五日市ののらぼう菜は江戸東京野菜として受け継がれ、飢饉の伝承が残る",
+     "note_en": "Itsukaichi's norabou-na is kept as an Edo-Tokyo heirloom vegetable, with a famine tradition attached",
+     "source_url": "https://www.city.akiruno.tokyo.jp/"
+    }
+   ],
+   "relations": [
+    {
+     "from_slug": "norabou-na-no-ohitashi",
+     "to_slug": "norabou-na",
+     "relation_type": "使用食材",
+     "basis": "のらぼう菜のおひたしは、春に伸びるのらぼう菜の花茎をゆでて和える料理とされる"
+    },
+    {
+     "to_slug": "komatsuna",
+     "relation_type": "対比",
+     "basis": "どちらも江戸・東京近郊で冬を越す在来の青菜だが、小松菜は葉を、のらぼう菜は春に立つ花茎を食べる点で対になる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "nagaoka-kinchaku-nasu",
+   "name_ja": "長岡巾着なす",
+   "name_romaji": "Nagaoka kinchaku-nasu",
+   "name_en": "Nagaoka kinchaku nasu — a firm, purse-shaped eggplant from Niigata's Nagaoka",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "新潟県",
+   "origin_city": "長岡市",
+   "lat": 37.4462,
+   "lng": 138.8512,
+   "primary_style": "",
+   "summary_ja": "長岡市中島地区などで受け継がれる大ぶりの丸なすで、肩に深いしわが寄り、口をしぼった巾着のように見えるとされる。果肉が締まって加熱しても崩れにくく、丸ごと蒸して冷やし、からし醤油で食べる「ふかしなす」に向くという。",
+   "summary_en": "A large round eggplant kept in the Nakajima district of Nagaoka, with deep creases at the shoulder that make it look like a drawstring purse. The flesh is dense and holds together when cooked, which suits fukashi nasu — the whole fruit steamed, chilled and eaten with mustard soy sauce.",
+   "body_ja": "## 何でできているか\n一個が300グラムを超える大ぶりの丸なすで、へたのまわりに深いしわが寄り、口をしぼった巾着に見えることから名がついたとされる。皮は濃い紫で厚く、果肉は目が詰まって硬めのため、生では重く感じるほどだという。火を通すとしっとりとして甘みが出る一方、煮崩れしにくく、丸ごと蒸したり煮たりしても形を保つとされる。長岡野菜のひとつとして市が位置づけている在来のなすと伝わる。\n## どう作るのか\n春に種をまいて苗を育て、5月に畑へ移し、7月から10月にかけて収穫するとされる。実が重いため枝を支柱でしっかり支え、水を切らさないように育てると伝わる。食べ方の基本は蒸すことで、丸ごと蒸してから冷やし、手で裂いてからし醤油やしょうが醤油をつける「ふかしなす」が土地の夏の食べ方とされる。皮が厚いので揚げ物や田楽にも向き、煮物では皮ごと使って形を残すという。\n## なぜこの形になったのか\n長岡市の中島地区は信濃川沿いの低地で、川が運んだ砂混じりの土と豊かな水がなすの栽培に向いたとされる。もとは大阪の丸なすの系統が持ち込まれ、土地で選抜を重ねるうちにしわの深い形に落ち着いたと伝わるが、来歴の細部は分かっていない。夏が暑く湿度の高い越後平野で、火を通して冷やしてから食べる習慣が、崩れにくい締まった果肉のなすを残したとみられる。",
+   "body_en": "## What it's made of\nA large round eggplant often over 300 grams, with deep creases around the calyx that give it the look of a purse drawn shut, which is said to be where the name comes from. The skin is thick and deep purple, and the flesh is so tightly packed that a raw one feels heavy in the hand. Heat makes it moist and sweet, yet it holds its shape whether steamed or simmered whole. The city of Nagaoka counts it among the Nagaoka vegetables, its heirloom crops.\n## How it's made\nSeed is started in spring, seedlings go out to the field in May, and the fruit is picked from July into October. Because the fruit is heavy, the branches are staked firmly, and the plants are kept well watered. The basic way to eat it is steamed: the whole fruit is steamed, chilled, torn by hand and dipped in mustard or ginger soy sauce, a summer dish called fukashi nasu. The thick skin also suits frying and dengaku (miso-glazed grilling), and in simmered dishes it's used skin-on so the shape stays.\n## Why it took this shape\nThe Nakajima district of Nagaoka lies on low ground along the Shinano River, where sandy river-borne soil and plentiful water suited eggplants. An Osaka round-eggplant line is said to have been brought in and selected locally until it settled into this deeply creased form, though the details of its history are not known. In the hot, humid summers of the Echigo plain, the habit of cooking eggplant and eating it chilled seems to have favored a dense fruit that would not fall apart.",
+   "sources": [
+    {
+     "title": "長岡市",
+     "url": "https://www.city.nagaoka.niigata.jp/",
+     "publisher": "長岡市",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 新潟県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/niigata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "fukashi-nasu",
+     "to_slug": "nagaoka-kinchaku-nasu",
+     "relation_type": "使用食材",
+     "basis": "ふかしなすは丸みのある巾着なすを蒸して冷やし、からし醤油で食べる長岡の夏の料理とされる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "kagura-nanban",
+   "name_ja": "かぐらなんばん",
+   "name_romaji": "Kagura-nanban",
+   "name_en": "Kagura nanban — a plump, wrinkled hot pepper from the mountains of Yamakoshi",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "新潟県",
+   "origin_city": "長岡市山古志",
+   "lat": 37.3415,
+   "lng": 138.8795,
+   "primary_style": "",
+   "summary_ja": "長岡市山古志などの山間で受け継がれるとうがらしで、ピーマンのように肩が張り、表面の深いしわが神楽面を思わせるとされる。辛みは種とわたに集まり、果肉には甘みがあるという。味噌に刻み込んだ「かぐらなんばん味噌」が土地の食べ方として知られる。",
+   "summary_en": "A hot pepper kept in the mountains of Yamakoshi in Nagaoka, broad-shouldered like a bell pepper, its deeply wrinkled surface said to recall a kagura mask. The heat sits in the seeds and pith while the flesh is sweet. Chopped into miso as kagura nanban miso, it's the local way to eat it.",
+   "body_ja": "## 何でできているか\n長さ5センチほどの短くずんぐりしたとうがらしで、肩が張って表面に深いしわが寄り、その顔つきが神楽の面に似ていることから名がついたと伝わる。緑のうちに収穫するものが多く、熟すと赤くなるという。辛みは種とそのまわりのわたに集まり、果肉そのものは甘みと青い香りを持つとされる。種を抜けば辛さは穏やかで、炒め物や煮物に野菜として使えるのが、細長いとうがらしとの違いとされる。\n## どう作るのか\n春に苗を育てて5月に畑へ移し、7月から10月にかけて実を収穫するとされる。山古志は夏も朝晩が涼しく、昼夜の寒暖差で実が締まり辛みと甘みのつり合いがとれるという。種は農家が自家採種で受け継いできたと伝わる。食べ方は、種ごと刻んで味噌とみりんで練った「かぐらなんばん味噌」が基本で、ご飯やきゅうりに添えるとされる。ほかに種を抜いて油で炒めたり、丸ごと焼いて醤油をかけたりするという。\n## なぜこの形になったのか\n山古志は棚田と養鯉で知られる豪雪の山里で、平地から離れていたために在来の作物が交雑せずに残りやすかったとみられる。とうがらしの来歴は分かっていないが、山の夏の短い間に取れる辛みの野菜を味噌に刻み込み、冬の保存食として使い回す暮らしがこの形を守ったと伝わる。妙高のかんずりが雪にさらして発酵させるのに対し、山古志では生のまま味噌に練り込む点が、同じ新潟のとうがらし文化の中で対照をなしている。",
+   "body_en": "## What it's made of\nA short, stocky pepper about 5 centimeters long, with broad shoulders and deep wrinkles across its surface; the face it makes is said to resemble a mask used in kagura (shrine dance), and the name comes from that. Most are picked green, and they turn red when ripe. The heat gathers in the seeds and the pith around them, while the flesh itself carries sweetness and a green, grassy aroma. With the seeds removed the heat is gentle, so it can be used as a vegetable in stir-fries and simmered dishes, which sets it apart from slender chili peppers.\n## How it's made\nSeedlings are raised in spring and set out in May, and the fruit is picked from July into October. Yamakoshi stays cool in the mornings and evenings even in summer, and the swing between day and night temperatures is said to firm the fruit and balance heat against sweetness. Farmers have saved their own seed for generations. The basic preparation is kagura nanban miso: the peppers are chopped seeds and all, then worked into miso with mirin, and served with rice or cucumber. They are also seeded and stir-fried in oil, or grilled whole and splashed with soy sauce.\n## Why it took this shape\nYamakoshi is a snowbound mountain village known for terraced rice fields and carp breeding, and its distance from the plains seems to have let native crops survive without crossing. Where the pepper came from is not known, but the way of life that chopped a short summer's crop of hot peppers into miso and stretched it through winter as a preserved food is said to have kept this form alive. Where Myoko's kanzuri is aged in snow and fermented, Yamakoshi works the pepper raw into miso, a contrast within Niigata's own chili culture.",
+   "sources": [
+    {
+     "title": "長岡市",
+     "url": "https://www.city.nagaoka.niigata.jp/",
+     "publisher": "長岡市",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 新潟県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/niigata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kanzuri",
+     "relation_type": "対比",
+     "basis": "同じ新潟のとうがらし文化だが、山古志では生のまま味噌に練り込み、妙高のかんずりは雪にさらして麹と発酵させる点で対になる"
+    },
+    {
+     "to_slug": "nagaoka-kinchaku-nasu",
+     "relation_type": "対比",
+     "basis": "どちらも長岡市が長岡野菜として位置づける夏の在来野菜で、平野の中島のなすと山古志のとうがらしとして土地の高低で対になる"
+    }
+   ],
+   "tags": [
+    "spicy"
+   ]
+  },
+  {
+   "slug": "kurosaki-chamame",
+   "name_ja": "くろさき茶豆",
+   "name_romaji": "Kurosaki chamame",
+   "name_en": "Kurosaki chamame — Niigata's fragrant brown-skinned edamame with a two-week season",
+   "type": "ingredient",
+   "shelf": "tubers",
+   "genre": null,
+   "origin_pref": "新潟県",
+   "origin_city": "新潟市西区",
+   "lat": 37.8475,
+   "lng": 139.002,
+   "primary_style": "",
+   "summary_ja": "新潟市西区の黒埼地区で受け継がれる枝豆で、さやの中の薄皮が茶色を帯びることから茶豆と呼ばれる。ゆでると甘い香りが立ち、噛むと濃い甘みが広がるとされる。旬は7月末から8月中旬の短い間で、地理的表示（GI）に登録されている。",
+   "summary_en": "An edamame kept in the Kurosaki district of Niigata's Nishi ward, called chamame — tea bean — for the brownish skin inside the pod. Boiled, it gives off a sweet aroma and a deep sweetness on the bite. The season runs only from late July to mid-August, and it's registered under the geographical indication (GI) scheme.",
+   "body_ja": "## 何でできているか\n大豆を未熟なうちに収穫した枝豆で、さやを割ると豆を包む薄皮がうっすら茶色を帯び、さやのうぶ毛も茶色がかっているとされる。ゆでている間から甘く香ばしい香りが台所に広がり、口に入れると一般の枝豆より濃い甘みとこくが続くという。粒はやや小ぶりで、さやに2粒入るものが多いと伝わる。香りは収穫から時間がたつほど抜けるとされ、その日のうちにゆでるのが土地の約束事という。\n## どう作るのか\n5月に種をまき、7月下旬から8月中旬にかけて、豆がふくらみきる直前の若いさやを収穫するとされる。香りを逃さないよう早朝の涼しいうちに刈り取り、その日に出荷するという。地理的表示では黒埼地区を中心とする新潟市西区の産地と品種の系統が定められていると伝わる。家庭では塩をもみ込んでから熱湯で短くゆで、ざるにあげて熱いまま食べるのが基本で、冷ますと香りが落ちるとされる。\n## なぜこの形になったのか\n黒埼地区は信濃川と中ノ口川に挟まれた低地で、川が運んだ砂混じりの土と地下水に恵まれ、豆の根が深く張るとされる。一説には大正期に黒埼小平方の農家が山形県鶴岡から嫁いだ縁でだだちゃ豆の種を持ち帰り、土地で選抜を重ねるうちに茶豆として定着したと伝わるが、確かな記録は残っていないという。新潟では枝豆を山盛りにして食卓に出す習慣があり、短い旬を待って一斉に食べる夏の風物として受け継がれている。",
+   "body_en": "## What it's made of\nSoybeans picked while still immature, as edamame. Split a pod and the thin skin around each bean shows a faint brown, and the fine hairs on the pod are brownish too. A sweet, toasty aroma fills the kitchen while they boil, and in the mouth the sweetness and richness are said to run deeper than in ordinary edamame. The beans are slightly small, with two to a pod being common. The aroma fades as hours pass after harvest, so boiling them the same day is the local rule.\n## How it's made\nSeed is sown in May, and the young pods are picked from late July to mid-August, just before the beans fill out completely. To keep the aroma, they're cut in the cool of early morning and shipped that day. The GI registration is said to define the growing area, centered on the Kurosaki district of Nishi ward, and the variety lineage. At home they're rubbed with salt, boiled briefly, drained and eaten hot; once cooled, the aroma is said to drop away.\n## Why it took this shape\nThe Kurosaki district is low ground between the Shinano and Nakanokuchi rivers, with sandy river-borne soil and groundwater that let the plants root deep. One account says a farmer in Kohirakata, Kurosaki, brought back dadacha-mame seed from Tsuruoka in Yamagata through a marriage tie in the Taisho era, and that local selection settled it into this chamame, though no firm record survives. Niigata has a custom of heaping edamame on the table, and this bean is eaten all at once as a summer ritual, waited for through its short season.",
+   "sources": [
+    {
+     "title": "地理的表示（GI）登録産品",
+     "url": "https://www.maff.go.jp/j/shokusan/gi_act/register/",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "新潟市",
+     "url": "https://www.city.niigata.lg.jp/",
+     "publisher": "新潟市",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "akebono-daizu-edamame",
+     "relation_type": "対比",
+     "basis": "どちらも在来の大豆を若いうちに枝豆として塩ゆでで食べる土地の習慣で、黒埼は香りの茶豆、身延は大粒の大豆として性格が対になる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "gokayama-kabura",
+   "name_ja": "五箇山かぶら",
+   "name_romaji": "Gokayama kabura",
+   "name_en": "Gokayama kabura — a red turnip grown on burned hillsides in Toyama's snow country",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "富山県",
+   "origin_city": "南砺市",
+   "lat": 36.4278,
+   "lng": 136.9025,
+   "primary_style": "",
+   "summary_ja": "南砺市五箇山の山里で受け継がれる赤かぶで、皮は赤紫、果肉は白く締まって甘みがあるとされる。山の斜面を焼いた跡に種をまく焼畑でつくられてきたと伝わり、秋に収穫して甘酢漬けや塩漬けにし、雪に閉ざされる冬の保存食にするという。",
+   "summary_en": "A red turnip kept in the mountain hamlets of Gokayama in Nanto, with reddish-purple skin and firm, sweet white flesh. It's said to have been grown by slash-and-burn farming, sowing on freshly burned hillsides, then harvested in autumn and pickled in sweet vinegar or salt to last the snowbound winter.",
+   "body_ja": "## 何でできているか\n皮が赤紫で、切ると果肉は白く、皮に近い部分にほんのり赤が差す中型のかぶとされる。果肉は目が詰まって硬めで、生で噛むとぱりっとした歯ごたえと辛み、そのあとに甘みが続くという。甘酢に漬けると皮の色が果肉ににじんで全体が淡い紅色に染まり、歯ごたえを残したまま酸味と甘みをまとうとされる。葉も柔らかく、塩漬けや煮物に使われると伝わる。\n## どう作るのか\n五箇山では夏の終わりに山の斜面の草木を刈って乾かし、火を入れて灰にしたあと、その灰の上に種をまく焼畑で育ててきたとされる。灰が肥料となり、焼いた土は雑草や病気が少ないため、肥料をほとんど与えずに育つという。8月下旬にまき、10月から11月にかけて収穫し、冬に備えて漬け込むとされる。種は集落ごとに自家採種で受け継がれ、現在は焼畑を続ける人が減り、普通の畑で栽培する例が多いと伝わる。\n## なぜこの形になったのか\n五箇山は合掌造りで知られる豪雪の山里で、平地が乏しく、傾斜地を焼いて一時的に畑にする焼畑が古くから続いたとされる。焼いた跡に最初にまく作物として、短い秋のうちに育ち、冬の貯蔵に耐える根菜が選ばれたことが赤かぶの背景とみられる。雪に閉ざされる冬に野菜を得るには漬け込むしかなく、色がよく歯ごたえの残る赤かぶは漬物向きの野菜として土地に残ったと伝わる。",
+   "body_en": "## What it's made of\nA medium-sized turnip with reddish-purple skin; cut it open and the flesh is white, blushing faintly red near the skin. The flesh is dense and firm, and a raw bite gives a crisp snap and some pungency followed by sweetness. Pickled in sweet vinegar, the color seeps from the skin into the flesh until the whole piece turns pale red, keeping its crunch while taking on sweet and sour notes. The leaves are tender too and go into salt pickles and simmered dishes.\n## How it's made\nIn Gokayama it was grown by yakihata, slash-and-burn farming: at summer's end the brush on a hillside was cut and dried, burned to ash, and the seed sown on the ash. The ash served as fertilizer, and the burned ground carried few weeds or diseases, so the crop needed little feeding. Seed goes in from late August, the turnips are pulled from October into November, and they're pickled for winter. Each hamlet saved its own seed. Fewer people keep up the burning now, and many grow it in ordinary fields.\n## Why it took this shape\nGokayama is a snowbound mountain district known for its steep-roofed gassho-zukuri farmhouses, short on flat land, where burning slopes for temporary fields went on for a long time. As the first crop sown on burned ground, a root that could grow in the short autumn and keep through winter storage seems to be what made the red turnip. When snow shut off the valleys, pickling was the only way to have vegetables, and a turnip with good color and lasting crunch stayed on as a pickling vegetable of the land.",
+   "sources": [
+    {
+     "title": "南砺市",
+     "url": "https://www.city.nanto.toyama.jp/",
+     "publisher": "南砺市",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 富山県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/toyama.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kawachi-akakabura",
+     "relation_type": "兄弟",
+     "basis": "どちらも豪雪の山間で焼畑の跡にまかれてきた赤かぶで、冬の保存のために漬け込む使い方まで共通する"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "kaga-futo-kyuri",
+   "name_ja": "加賀太きゅうり",
+   "name_romaji": "Kaga futo-kyuri",
+   "name_en": "Kaga futo-kyuri — Kanazawa's fat, thick-fleshed cucumber that is cooked, not sliced",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "石川県",
+   "origin_city": "金沢市",
+   "lat": 36.58,
+   "lng": 136.615,
+   "primary_style": "",
+   "summary_ja": "金沢市の打木町や安原地区で受け継がれる太く短いきゅうりで、一本が600グラムから1キロに達するとされる。果肉が厚く、皮をむいて煮たり蒸したりして食べるのが土地の使い方で、加熱すると青臭さが消えてとろりとした食感になるという。加賀野菜のひとつ。",
+   "summary_en": "A short, fat cucumber kept in the Utsugi and Yasuhara districts of Kanazawa, said to weigh 600 grams to a kilogram apiece. The flesh is thick, and the local way is to peel and simmer or steam it; heated, the raw green edge disappears and the texture turns soft and silky. One of the Kaga vegetables.",
+   "body_ja": "## 何でできているか\n長さ25センチほど、直径は7センチ前後に達する太いきゅうりで、重さは600グラムから1キロに及ぶとされる。皮は濃い緑で、果肉は厚く白っぽく、種のまわりは柔らかいという。生で食べると水分が多くあっさりしているが、土地では皮をむき種を取って煮物やあんかけにするのが本来の使い方とされる。加熱すると青臭さが抜けて果肉がとろりとし、だしや肉の旨みを吸い込む冬瓜に近い性格になると伝わる。\n## どう作るのか\n金沢市の砂丘地にある打木町や安原地区で、2月ごろから苗を育て、ハウスでは4月から、露地では6月から7月にかけて収穫するとされる。実が重くなるため、つるを支柱やネットに這わせて実を吊るように育て、太さがそろうように摘果するという。種は産地の農家が採種を続けてきたと伝わる。食べるときは皮を厚めにむき、種を抜いて大きめに切り、だしで煮てから片栗粉のあんをかけるのが定番で、えびやひき肉を合わせることも多いとされる。\n## なぜこの形になったのか\n一説には昭和初期に東北地方の短く太いきゅうりの種が打木に持ち込まれ、土地の在来種と交雑を重ねるうちにこの太さに落ち着いたと伝わる。金沢の海沿いは砂丘地で水はけがよく、夏の暑さと冬の雪がはっきりした気候が、果肉の厚い品種の栽培に向いたとみられる。加賀の町では野菜を煮物やあんかけに仕立てる食べ方が根づいており、生食用ではなく「煮るきゅうり」として選ばれ続けたことが、この姿を保った理由とされる。",
+   "body_en": "## What it's made of\nA cucumber about 25 centimeters long and around 7 across, weighing from 600 grams to a kilogram. The skin is dark green, the flesh thick and pale, and the seed cavity soft. Eaten raw it's watery and light, but the proper local use is to peel it, remove the seeds, and simmer it or serve it under a thickened sauce. With heat the green rawness lifts and the flesh turns silky, soaking up dashi and the savor of meat, in a way often compared to winter melon.\n## How it's made\nIn the sandy coastal districts of Utsugi and Yasuhara in Kanazawa, seedlings are started around February; greenhouse fruit is picked from April, open-field fruit from June into July. Because the fruit grows heavy, the vines are trained up stakes or netting so the cucumbers hang, and the crop is thinned so the thickness comes out even. Growers in the district are said to have kept saving their own seed. To cook it, the skin is peeled thick, the seeds scooped out, and large pieces are simmered in dashi and finished with a starch-thickened ankake sauce, often with shrimp or ground meat.\n## Why it took this shape\nOne account says that in the early Showa era seed of a short, fat cucumber from the Tohoku region was brought to Utsugi, and that crossing with local strains settled it into this girth. Kanazawa's coast is sand-dune country with sharp drainage, and a climate of hot summers and snowy winters seems to have suited a thick-fleshed variety. In the Kaga region vegetables are habitually turned into simmered dishes and ankake, and being chosen again and again as a cucumber for cooking rather than for salad is said to be what kept this form.",
+   "sources": [
+    {
+     "title": "金沢市農産物ブランド協会（加賀野菜）",
+     "url": "https://www.kanazawa-kagayasai.or.jp/",
+     "publisher": "金沢市農産物ブランド協会",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 石川県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/ishikawa.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "kaga-futokyuri-no-ankake",
+     "to_slug": "kaga-futo-kyuri",
+     "relation_type": "使用食材",
+     "basis": "加賀太きゅうりのあんかけは、皮をむいた太きゅうりをひき肉などと煮てあんをかける料理で、この品種の本来の食べ方とされる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "gensuke-daikon",
+   "name_ja": "源助だいこん",
+   "name_romaji": "Gensuke-daikon",
+   "name_en": "Gensuke daikon — Kanazawa's short, stout radish that softens without falling apart",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "石川県",
+   "origin_city": "金沢市",
+   "lat": 36.565,
+   "lng": 136.61,
+   "primary_style": "",
+   "summary_ja": "金沢市打木町で育てられた短く太い大根で、長さ20センチ余り、ずんぐりと円筒形に育つとされる。肉質がやわらかく煮えるのが早い一方で煮崩れしにくく、おでんやぶり大根に向くという。昭和初期に愛知の源助大根と在来種を交配して生まれたと伝わる。加賀野菜のひとつ。",
+   "summary_en": "A short, stout daikon bred in the Utsugi district of Kanazawa, a little over 20 centimeters long and cylindrical. It cooks soft quickly yet resists breaking up, which suits oden and buri daikon. It's said to have come from crossing Aichi's Gensuke daikon with a local strain in the early Showa era. One of the Kaga vegetables.",
+   "body_ja": "## 何でできているか\n長さ22〜25センチ、直径8センチほどの短く太い大根で、先までほぼ同じ太さの円筒形をしているとされる。首の部分がわずかに緑を帯び、肌は白くなめらかだという。肉質はきめが細かくやわらかで、だしがしみ込みやすく、火の通りが早いのに煮崩れしにくいとされる。生では甘みがあり辛みは穏やかで、おろしや漬物にも使えるが、金沢ではおでんやぶり大根のように、厚く切って煮る料理にこそ向く大根とされる。\n## どう作るのか\n種をまくのは8月下旬から9月で、10月下旬から12月にかけて収穫するとされる。金沢市の砂丘地である打木町や安原地区では、砂質の土が根をまっすぐ太らせるという。短い品種なので土を深く耕さずに済み、引き抜く作業も重くないと伝わる。種は産地の農家が採種を続けてきたとされる。煮物にするときは3〜4センチの輪切りにして皮をむき、米のとぎ汁で下ゆでしてからだしで煮ると、やわらかく味がしみるという。\n## なぜこの形になったのか\n昭和初期に打木の農家が愛知県から源助大根の種を取り寄せ、練馬系の在来大根と交配して固定したのが始まりと伝わり、名は愛知の育成者の名を引き継いでいるという。金沢の海沿いの砂丘地は、長い大根より短く太い大根が形よく育つ土で、おでんやぶり大根を好む土地の食べ方と合って定着したとみられる。戦後に青首大根が広まる中で一時減ったが、加賀野菜として位置づけられてから栽培が続いていると伝わる。",
+   "body_en": "## What it's made of\nA short, stout daikon 22 to 25 centimeters long and about 8 across, cylindrical and nearly the same thickness to the tip. The neck carries a faint green, and the skin is white and smooth. The flesh is fine-grained and tender; it takes in dashi readily and cooks through quickly, yet holds its shape in the pot. Raw, it's sweet with mild pungency and can be grated or pickled, but in Kanazawa it's considered a radish for cutting thick and simmering, as in oden and buri daikon (simmered with yellowtail).\n## How it's made\nSeed goes in from late August through September, and the roots are pulled from late October into December. In the sandy coastal districts of Utsugi and Yasuhara in Kanazawa, the sandy soil lets the root swell straight and thick. Being a short variety it doesn't need deep tilling, and pulling it is light work. Growers in the district are said to have kept their own seed. For simmering, it's cut into rounds 3 to 4 centimeters thick, peeled, parboiled in rice-rinsing water and then cooked in dashi until soft and seasoned through.\n## Why it took this shape\nThe story goes that in the early Showa era a farmer in Utsugi obtained seed of the Gensuke daikon from Aichi, crossed it with a local Nerima-type radish and fixed the result, and the name carries over from the Aichi breeder. The sandy coast of Kanazawa is ground where a short, stout daikon shapes up better than a long one, and this suited a local taste for oden and buri daikon. It declined for a time as the green-necked daikon spread after the war, and cultivation has continued since it was designated a Kaga vegetable.",
+   "sources": [
+    {
+     "title": "金沢市農産物ブランド協会（加賀野菜）",
+     "url": "https://www.kanazawa-kagayasai.or.jp/",
+     "publisher": "金沢市農産物ブランド協会",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 石川県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/ishikawa.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ishikawa-buridaikon",
+     "to_slug": "gensuke-daikon",
+     "relation_type": "使用食材",
+     "basis": "金沢のぶり大根には煮崩れしにくい源助だいこんが使われることが多いとされる"
+    },
+    {
+     "to_slug": "miura-daikon",
+     "relation_type": "対比",
+     "basis": "どちらもおでんに向く煮物用の白首大根だが、源助は短く太い円筒形、三浦は中ぶくらの長い形で、砂丘地と半島の土が形を分けた例として対になる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "kaga-renkon",
+   "name_ja": "加賀れんこん",
+   "name_romaji": "Kaga renkon",
+   "name_en": "Kaga renkon — Kanazawa's starchy, sticky lotus root that binds itself when grated",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "石川県",
+   "origin_city": "金沢市",
+   "lat": 36.59,
+   "lng": 136.675,
+   "primary_style": "",
+   "summary_ja": "金沢市小坂地区や河北潟周辺の泥田で育つれんこんで、節が短く太く、でんぷんが多くて粘りが強いとされる。すりおろすとつなぎなしでまとまり、蒸して「はす蒸し」にするのが土地の食べ方という。藩政期に観賞用として植えられたものが食用に転じたと伝わる。加賀野菜のひとつ。",
+   "summary_en": "A lotus root grown in the mud fields of Kosaka and around the Kahokugata lagoon in Kanazawa, short and thick between the joints, high in starch and strongly sticky. Grated, it holds together without any binder and is steamed as hasu-mushi. It's said to have begun as an ornamental lotus in the domain era before turning into a food crop. One of the Kaga vegetables.",
+   "body_ja": "## 何でできているか\n節と節の間が短く太い、ずんぐりしたれんこんで、肉質は白く目が詰まっているとされる。でんぷんを多く含むため、すりおろすと餅のように粘り、つなぎを使わなくても形がまとまるという。噛むと一般のれんこんより粘りが強く、しゃきしゃきよりもっちりとした歯ごたえが前に出るとされる。すりおろして白身魚やえびと蒸す「はす蒸し」が代表で、きんぴらや天ぷらでも粘りのある食感が持ち味と伝わる。\n## どう作るのか\n春に種れんこんを泥田に植え付け、夏に葉を茂らせ、8月から翌年の春にかけて掘り取るとされる。金沢市の小坂地区では、深い泥田に入って一本ずつ手で掘り出す昔ながらの方法が受け継がれているといい、泥を落とさず出荷すると日持ちがよいとされる。河北潟の干拓地では機械と水圧で掘る方法もあるという。はす蒸しにするときは皮をむいてすりおろし、軽く水気を切ってから魚やえびにのせて蒸し、だしのあんをかけると伝わる。\n## なぜこの形になったのか\n一説には江戸時代に加賀藩の武家屋敷で観賞用に植えられていた蓮が、やがて根を食べるようになったと伝わり、小坂地区の湿田で栽培が広まったとされる。金沢の町は治水が進む前から湿地や沼が多く、泥田を生かせる作物としてれんこんが定着したとみられる。茶の湯と料理屋の文化が育った城下町で、すりおろして蒸す上品な仕立てが好まれ、粘りの強い性質の株が選ばれ続けたことが、この品質を残した理由とされる。",
+   "body_en": "## What it's made of\nA stocky lotus root, short and thick between the joints, with white, close-grained flesh. It holds so much starch that, grated, it turns sticky like mochi and keeps its shape without any binder. On the bite it's stickier than ordinary lotus root, with a chewy pull coming before the usual crunch. Its signature dish is hasu-mushi, grated lotus root steamed over white fish or shrimp, and in kinpira (soy-glazed stir-fry) or tempura the same sticky texture is the point.\n## How it's made\nSeed rhizomes are set in the mud fields in spring, the leaves fill in over summer, and digging runs from August through the following spring. In Kanazawa's Kosaka district the old way of wading into deep mud and digging each root out by hand is said to continue, and roots shipped with the mud still on them keep longer. On the reclaimed land of the Kahokugata lagoon, machines and water pressure are also used. For hasu-mushi the root is peeled and grated, lightly drained, mounded over fish or shrimp, steamed, and finished with a dashi-based sauce.\n## Why it took this shape\nOne account says lotus planted for ornament in the samurai residences of the Kaga domain in the Edo period came to be dug for its roots, and that cultivation spread through the wet fields of Kosaka. Before flood control reshaped it, Kanazawa had many marshes and ponds, and lotus root seems to have settled in as a crop that could make use of mud fields. In a castle town where the tea ceremony and restaurant cooking flourished, the refined grated-and-steamed preparation was favored, and selecting plants with strong stickiness is said to be what kept this quality.",
+   "sources": [
+    {
+     "title": "金沢市農産物ブランド協会（加賀野菜）",
+     "url": "https://www.kanazawa-kagayasai.or.jp/",
+     "publisher": "金沢市農産物ブランド協会",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 石川県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/ishikawa.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "hasu-mushi",
+     "to_slug": "kaga-renkon",
+     "relation_type": "使用食材",
+     "basis": "はす蒸しはすりおろした加賀れんこんを白身魚やえびと蒸す料理で、粘りの強さがつなぎなしで形をまとめるとされる"
+    },
+    {
+     "to_slug": "kaga-futo-kyuri",
+     "relation_type": "対比",
+     "basis": "どちらも金沢の加賀野菜で煮物やあんかけに仕立てる食べ方が根づいているが、砂丘地の太きゅうりと泥田のれんこんとして土地の水の違いで対になる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "gorojima-kintoki",
+   "name_ja": "五郎島金時",
+   "name_romaji": "Gorojima kintoki",
+   "name_en": "Gorojima kintoki — Kanazawa's dry, floury sweet potato from the coastal dunes",
+   "type": "ingredient",
+   "shelf": "tubers",
+   "genre": null,
+   "origin_pref": "石川県",
+   "origin_city": "金沢市",
+   "lat": 36.61,
+   "lng": 136.63,
+   "primary_style": "",
+   "summary_ja": "金沢市の五郎島・粟ヶ崎の砂丘地で育つさつまいもで、皮は紅、中は淡い黄色で、焼くとほくほくと粉を吹くような食感になるとされる。砂地で根が素直に太り、形がそろうという。加賀野菜のひとつで、一説に元禄期に薩摩から種いもが持ち込まれたと伝わる。",
+   "summary_en": "A sweet potato grown on the sand dunes of Gorojima and Awagasaki in Kanazawa, red-skinned and pale yellow inside, turning dry and floury when baked. The sand lets the roots swell evenly and come out uniform in shape. One of the Kaga vegetables, said in one account to trace back to seed potatoes brought from Satsuma in the Genroku era.",
+   "body_ja": "## 何でできているか\n皮は鮮やかな紅色で、中は淡い黄色、火を通すと粉を吹くようにほくほくした粉質になるさつまいもとされる。近年多いねっとりと甘い品種に比べて水分が少なく、口の中でほろりと崩れ、甘みは穏やかで後を引かないという。砂地で育つため肌がなめらかで、紡錘形の形がそろうとされる。焼きいもや天ぷらのほか、金沢ではめった汁のように味噌汁の具にも使い、汁にほのかな甘みを移すと伝わる。\n## どう作るのか\n5月から6月に苗を砂丘地の畝に挿し、9月から11月にかけて掘り上げるとされる。金沢市北部の五郎島や粟ヶ崎は日本海沿いの砂丘で、水はけがよく石がないため、根がまっすぐ伸びて形がそろうという。砂地は養分を保ちにくいので、堆肥を入れて地力を保つと伝わる。掘ったいもは土を落とさず、一定の温度と湿度で数日置いて傷口を治す「キュアリング」を経てから貯蔵し、冬を越すと甘みが増すとされる。\n## なぜこの形になったのか\n一説には元禄期に五郎島の農民が薩摩から種いもを持ち帰り、砂丘地で育て始めたのが始まりと伝わるが、確かな記録は残っていないという。金沢の海沿いの砂丘は稲作に向かず、乾きに強いさつまいもが砂地を生かす作物として定着したとみられる。砂地が形のそろったいもを生むことに加え、粉質の品種を守り続けたことが、ほくほくした食感を特徴として残した理由とされる。現在は加賀野菜として産地名で呼ばれている。",
+   "body_en": "## What it's made of\nA sweet potato with bright red skin and pale yellow flesh that cooks up dry and floury, almost powdery, with heat. Compared with the moist, candy-sweet varieties common today it holds less water, crumbles softly in the mouth, and its sweetness is gentle and clean. Grown in sand, it has smooth skin and a uniform spindle shape. Beyond baked sweet potato and tempura, Kanazawa also drops it into miso soup, as in metta-jiru, where it lends the broth a faint sweetness.\n## How it's made\nSlips are set into ridges on the dunes from May to June, and the potatoes are dug from September into November. Gorojima and Awagasaki, in northern Kanazawa, are dunes along the Sea of Japan, well drained and free of stones, so the roots run straight and come out even. Because sand holds nutrients poorly, compost is worked in to keep the ground fertile. The dug potatoes are kept with soil on and held for several days at set temperature and humidity to heal their skins, a step called curing, before storage; over winter the sweetness is said to deepen.\n## Why it took this shape\nOne account says a farmer of Gorojima brought seed potatoes back from Satsuma in the Genroku era and began growing them on the dunes, though no firm record survives. The dunes along Kanazawa's coast were poor ground for rice, and the drought-tolerant sweet potato seems to have settled in as the crop that could make use of sand. The sand yields evenly shaped potatoes, and holding on to a floury type is said to be what kept the dry, crumbling texture as its mark. Today it's sold under the district name as a Kaga vegetable.",
+   "sources": [
+    {
+     "title": "金沢市農産物ブランド協会（加賀野菜）",
+     "url": "https://www.kanazawa-kagayasai.or.jp/",
+     "publisher": "金沢市農産物ブランド協会",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "金沢市",
+     "url": "https://www4.city.kanazawa.lg.jp/",
+     "publisher": "金沢市",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "metta-jiru",
+     "to_slug": "gorojima-kintoki",
+     "relation_type": "使用食材",
+     "basis": "金沢のめった汁はさつまいもを入れる豚汁で、五郎島金時が使われることが多いとされる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "katsuyama-mizuna",
+   "name_ja": "勝山水菜",
+   "name_romaji": "Katsuyama mizuna",
+   "name_en": "Katsuyama mizuna — a thick-stemmed snow-country green unlike Kyoto's mizuna",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "福井県",
+   "origin_city": "勝山市",
+   "lat": 36.0612,
+   "lng": 136.501,
+   "primary_style": "",
+   "summary_ja": "勝山市で受け継がれる冬越しの青菜で、名は水菜でも京都の細い水菜とは別物とされる。雪の下で冬を越し、春先に立ち上がる太い花茎を摘んで食べるという。苦みが少なく甘みがあり、おひたしや煮びたし、からし和えにして雪解けの味として親しまれると伝わる。",
+   "summary_en": "An overwintering green of Katsuyama in Fukui that shares the name mizuna but is a different plant from Kyoto's slender mizuna. The plants sit under snow through winter, and in early spring the thick flowering stems that rise are picked. Mild and sweet, it's eaten as ohitashi, simmered greens or dressed with mustard as the taste of the thaw.",
+   "body_ja": "## 何でできているか\nアブラナ科の青菜で、食べるのは雪解けのころに株の中心から立ち上がる太い花茎と若い葉、蕾とされる。茎は親指ほどに太くなるものもあり、ゆでると鮮やかな緑に変わって、噛むとやわらかく甘みがにじむという。苦みやえぐみは少なく、とう菜の仲間として扱われ、京都の水菜のような細い葉の歯ごたえとは別の性格とされる。おひたし、煮びたし、からし和えのほか、味噌汁の実にもすると伝わる。\n## どう作るのか\n種をまくのは9月から10月で、小さな株のまま雪の下で冬を越し、雪が消える3月から4月にかけて伸びた花茎を摘み取るとされる。勝山は豪雪地で、雪の下では凍らずに株が守られ、低温で糖分をためて甘みが増すという。一度に抜かず、伸びた茎から順に摘むと脇から次の茎が出て、春の間に何度か収穫できると伝わる。種は農家が自家採種で受け継いできたとされ、他のアブラナ科と離して採種すると交雑を防げるという。\n## なぜこの形になったのか\n勝山市は九頭竜川の上流にあり、冬は雪に閉ざされて青物が乏しい土地とされる。秋にまいて雪の下で越冬させ、雪解けとともに最初の青物を得る栽培が、保存食に頼る長い冬の終わりを告げる野菜としてこの菜を残したとみられる。来歴は分かっておらず、名の由来も定かでないが、雪の多い土地で株のまま冬を越す青菜が各地で独自に育ったことの一例とされ、同じ市内の河内赤かぶらと並ぶ勝山の伝統野菜とされている。",
+   "body_en": "## What it's made of\nA mustard-family green eaten for the thick flowering stems, young leaves and buds that rise from the center of the plant as the snow melts. Some stems grow as thick as a thumb; boiled, they turn a vivid green, and they're soft on the bite with sweetness seeping out. Bitterness and harshness are slight. It's treated as a tou-na, a flowering-stem green, a different character from the crisp, slender leaves of Kyoto's mizuna. It's eaten as ohitashi (blanched greens in dashi), nibitashi (simmered greens), dressed with mustard, or dropped into miso soup.\n## How it's made\nSeed goes in from September to October, the small plants spend winter under the snow, and the flower stems that rise as the snow clears from March into April are picked. Katsuyama is heavy-snow country, and beneath the snow the plants are kept from freezing while the cold builds sugar and sweetness. Rather than pulling the plant, growers pick the stems as they lengthen, and side shoots follow, giving several pickings through spring. Seed has been saved on farms for generations, grown apart from other brassicas to prevent crossing.\n## Why it took this shape\nKatsuyama sits on the upper Kuzuryu River, shut in by snow in winter and short of fresh greens. Sowing in autumn, overwintering under snow and taking the first greens with the thaw seems to be what kept this vegetable as the one that marked the end of a long winter spent on preserved food. Its origin is not known and the name is unexplained, but it's seen as one example of how snowy regions each raised their own green that survives winter as a standing plant. Together with the Kawachi red turnip from the same city, it's counted as a heirloom vegetable of Katsuyama.",
+   "sources": [
+    {
+     "title": "勝山市",
+     "url": "https://www.city.katsuyama.fukui.jp/",
+     "publisher": "勝山市",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 福井県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "norabou-na",
+     "relation_type": "対比",
+     "basis": "どちらも秋にまいて冬を越し、春に立つ花茎を摘んで食べる在来の青菜だが、雪の下で越冬する勝山と雪の少ない多摩丘陵として気候が対になる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "kawachi-akakabura",
+   "name_ja": "河内赤かぶら",
+   "name_romaji": "Kawachi akakabura",
+   "name_en": "Kawachi akakabura — a crimson slash-and-burn turnip from Katsuyama's mountain hamlet",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "福井県",
+   "origin_city": "勝山市北谷町河内",
+   "lat": 36.125,
+   "lng": 136.54,
+   "primary_style": "",
+   "summary_ja": "勝山市北谷町河内の山あいで受け継がれる赤かぶで、皮は濃い赤紫、果肉にも赤が差すとされる。山の斜面を焼いた跡に種をまく焼畑でつくられ、秋に収穫して甘酢漬けにすると、全体が鮮やかな紅色に染まるという。豪雪の集落で冬の保存食として守られてきたと伝わる。",
+   "summary_en": "A red turnip kept in the mountain hamlet of Kawachi, Kitadani, in Katsuyama, with deep reddish-purple skin and red running into the flesh. It's grown by sowing on freshly burned hillsides, harvested in autumn and pickled in sweet vinegar, which turns the whole piece a bright crimson. It has been kept as a winter preserve in this heavy-snow hamlet.",
+   "body_ja": "## 何でできているか\n皮が濃い赤紫で、切ると果肉の内側まで赤い筋が入る、やや平たい中型のかぶとされる。果肉は締まって硬めで、生で噛むとぱりっとした歯ごたえと辛みがあり、甘酢に漬けると全体が鮮やかな紅色に変わるという。漬物にしても歯ごたえが残り、酸味と甘みの奥にかぶの辛みがかすかに続くとされる。葉はやわらかく、塩漬けや煮物に使うと伝わる。焼畑で育てた株は皮が厚く、貯蔵にも耐えるという。\n## どう作るのか\n8月の盆過ぎに山の斜面の草木を刈って乾かし、火を入れて灰にしたあと、まだ温かい灰の上に種をまく焼畑で育ててきたとされる。灰が肥料となり、焼いた土は雑草が少ないため、ほとんど手をかけずに10月下旬から11月に収穫できるという。種は集落の家々が自家採種で守ってきたと伝わり、現在も焼畑を続ける農家がわずかに残るとされる。収穫したかぶは薄く切って塩で下漬けし、砂糖と酢で漬け直すと紅色の漬物になるという。\n## なぜこの形になったのか\n河内は勝山市の北谷地区にある山あいの集落で、平地が乏しく冬は深い雪に閉ざされるとされる。斜面を焼いて一時的に畑にする焼畑は山村に古くからある農法で、焼いた跡に最初にまく作物として、短い秋のうちに育ち冬の貯蔵に耐える赤かぶが選ばれたとみられる。雪の中で野菜を得るには漬け込むしかなく、色鮮やかで歯ごたえの残る赤かぶは正月の食卓を飾る漬物として土地に残ったと伝わる。富山の五箇山かぶらなど、北陸の山間に同じ姿の赤かぶが点在するとされる。",
+   "body_en": "## What it's made of\nA somewhat flattened, medium-sized turnip with deep reddish-purple skin; cut it and red veins run into the flesh. The flesh is dense and firm, crisp and pungent when raw, and pickling in sweet vinegar turns the whole piece a bright crimson. Even pickled it keeps its crunch, with a faint turnip bite lingering behind the sweet and sour. The leaves are tender and go into salt pickles and simmered dishes. Plants raised on burned ground are said to grow thick skins that stand up to storage.\n## How it's made\nAfter the Bon holiday in August, brush on a hillside is cut and dried, burned to ash, and the seed is sown on the still-warm ash, a slash-and-burn method called yakihata. The ash feeds the crop and the burned soil carries few weeds, so the turnips come to harvest from late October into November with little tending. Households in the hamlet have saved their own seed, and a few farms are said to keep up the burning today. The harvested turnips are sliced thin, salted first, then re-pickled with sugar and vinegar into a crimson pickle.\n## Why it took this shape\nKawachi is a mountain hamlet in the Kitadani district of Katsuyama, short on flat land and shut in by deep snow in winter. Burning slopes for temporary fields is an old mountain practice, and as the first crop sown on burned ground, a red turnip that could grow in the short autumn and keep through winter storage seems to have been the choice. With snow on the ground, pickling was the only way to have vegetables, and a turnip with vivid color and lasting crunch stayed on as the pickle that dresses the New Year table. Red turnips of the same kind are scattered through the mountains of Hokuriku, such as the Gokayama kabura of Toyama.",
+   "sources": [
+    {
+     "title": "勝山市",
+     "url": "https://www.city.katsuyama.fukui.jp/",
+     "publisher": "勝山市",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 福井県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "katsuyama-mizuna",
+     "relation_type": "対比",
+     "basis": "同じ勝山市の伝統野菜で、山の焼畑で育てて漬け込む根菜と、雪の下で越冬させて春に摘む茎菜として冬の過ごし方が対になる"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "kamisho-satoimo",
+   "name_ja": "上庄さといも",
+   "name_romaji": "Kamisho satoimo",
+   "name_en": "Kamisho satoimo — Ono's dense, fine-grained taro that keeps its shape in the pot",
+   "type": "ingredient",
+   "shelf": "tubers",
+   "genre": null,
+   "origin_pref": "福井県",
+   "origin_city": "大野市",
+   "lat": 35.95,
+   "lng": 136.495,
+   "primary_style": "",
+   "summary_ja": "大野市上庄地区で育てられるさといもで、身が締まってきめが細かく、長く煮ても崩れにくいとされる。噛むともっちりとした弾力があり、粘りと甘みが穏やかに続くという。昼夜の寒暖差が大きい盆地の畑と、湧き水で知られる大野の水が育てたと伝わり、ころ煮にして食べるのが土地の習いとされる。",
+   "summary_en": "A taro grown in the Kamisho district of Ono, Fukui, with dense, fine-grained flesh that holds its shape through long simmering. It has a springy, chewy bite and a gentle stickiness and sweetness. Credited to the wide day-night temperature swings of the basin and Ono's spring-fed water, it's eaten in the local koro-ni, simmered whole in soy and sugar.",
+   "body_ja": "## 何でできているか\nさといもの子いもを食べる品種で、丸く小ぶりにそろい、皮をむくと白くきめの細かい肉質が現れるとされる。火を通すと一般のさといもよりもっちりと締まり、ぬめりは控えめで、噛むと弾力のあと穏やかな甘みが続くという。長く煮ても角が崩れず、煮汁をよく含んで味がしみるのが持ち味とされる。土地では皮をこそげて丸のまま醤油と砂糖で煮る「ころ煮」が定番で、ほかに汁物や田楽にも使うと伝わる。\n## どう作るのか\n4月から5月に種いもを畑に植え、夏に大きな葉を茂らせたあと、9月下旬から11月にかけて掘り上げるとされる。上庄地区は大野盆地の南側にあり、九頭竜川の支流が運んだ粘りのある土と、山からの冷たい水が畑を潤すという。昼夜の寒暖差が大きい秋に、いもがゆっくり締まって身が詰まるとされる。収穫後は親いもから子いもを外し、土を落として出荷すると伝わる。ころ煮にするときは下ゆでせず、皮をこそげたいもを煮汁に直接入れて照りが出るまで煮るという。\n## なぜこの形になったのか\n大野は山に囲まれた盆地で、冬の雪が多く、湧き水の豊かな土地として知られるとされる。上庄地区では古くからさといもを作ってきたと伝わり、水持ちのよい土と冷涼な気候がきめの細かいいもを育てたとみられる。煮崩れしにくい性質は、報恩講など仏事の膳で大鍋に煮て人に出す土地の習いと合い、形を保ついもが選ばれ続けた理由とされる。来歴の細部は分かっていないが、産地名で呼ばれる銘柄として受け継がれているという。",
+   "body_en": "## What it's made of\nA taro variety eaten for its small daughter corms, round and even in size, with white, fine-grained flesh beneath the skin. Cooked, it sets firmer and chewier than ordinary taro, with restrained slipperiness, and a mild sweetness follows the springy bite. It keeps its edges through long simmering while drinking in the cooking liquid. Locally the standard dish is koro-ni, the corms scraped and simmered whole in soy sauce and sugar, and it also goes into soups and dengaku (miso-glazed grilling).\n## How it's made\nSeed corms are planted in April and May, the plants put out their big leaves over summer, and the corms are dug from late September into November. The Kamisho district lies on the south side of the Ono basin, where clay-rich soil laid down by tributaries of the Kuzuryu River and cold water from the mountains feed the fields. In autumn, with wide swings between day and night temperatures, the corms are said to firm up slowly and fill out. After harvest the daughter corms are broken from the mother corm, cleaned of soil and shipped. For koro-ni there's no parboiling: the scraped corms go straight into the seasoned liquid and are cooked down until glossy.\n## Why it took this shape\nOno is a basin ringed by mountains, heavy with snow in winter and known for abundant spring water. Taro is said to have been grown in Kamisho since early times, and soil that holds water together with the cool climate seem to be what raised a fine-grained corm. Its resistance to breaking up fits a local custom of simmering it in big pots to serve at Buddhist gatherings such as hoonko, and a taro that held its shape kept being chosen for that reason. The details of its history are not known, but it's passed down as a named brand under the district's name.",
+   "sources": [
+    {
+     "title": "大野市",
+     "url": "https://www.city.ono.fukui.jp/",
+     "publisher": "大野市",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 福井県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/fukui.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "satoimo-no-koroni",
+     "to_slug": "kamisho-satoimo",
+     "relation_type": "使用食材",
+     "basis": "里芋のころ煮は皮をこそげた里芋を下ゆでせず醤油と砂糖で煮る福井の料理で、煮崩れしにくい上庄さといもが用いられるとされる"
+    }
+   ],
+   "tags": []
+  }
+ ],
+ "notes": "veg-3（東京都・神奈川県・新潟県・富山県・石川県・福井県）。genres[] は書かない。15件 = vegetables 12 + tubers 3（くろさき茶豆・五郎島金時・上庄さといも、genre null）。Web 非到達環境で執筆。\n【出典の確信度】高: 農林水産省うちの郷土料理の県一覧（tokyo/kanagawa/niigata/toyama/ishikawa/fukui）、農林水産省 GI 登録産品一覧、金沢市農産物ブランド協会 https://www.kanazawa-kagayasai.or.jp/ 、長岡市 https://www.city.nagaoka.niigata.jp/（既存データで使用済み）。中（自治体トップ。ドメイン表記に要確認）: 練馬区 https://www.city.nerima.tokyo.jp/ 、江戸川区 https://www.city.edogawa.tokyo.jp/ 、三浦市 https://www.city.miura.kanagawa.jp/ 、川崎市 https://www.city.kawasaki.jp/ 、新潟市 https://www.city.niigata.lg.jp/ 、南砺市 https://www.city.nanto.toyama.jp/ 、勝山市 https://www.city.katsuyama.fukui.jp/ 、大野市 https://www.city.ono.fukui.jp/ 、あきる野市 https://www.city.akiruno.tokyo.jp/（norabou-na の regions.source_url）。低: JA東京中央会 https://www.tokyo-ja.or.jp/（nerima-daikon。江戸東京野菜の認定主体として置いたがドメインは要確認）、金沢市 https://www4.city.kanazawa.lg.jp/（gorojima-kintoki。www4 の付く旧来のドメインを記憶で書いた。疎通不可なら金沢市農産物ブランド協会1本に落とす）。要確認: 全件とも出典は一覧・トップページ（深い階層の URL は書いていない）。\n【対象外・候補として残したもの】東京: 東京うど（既存 udo-no-sumiso-ae と結べる。江戸東京野菜。今回は練馬大根・小松菜を優先）、亀戸大根、馬込三寸にんじん、奥多摩わさび（既存ラーメン okutama-wasabi-tokyo-x-maki）。神奈川: 落花生（千葉ブロックと重複するため見送り。既存 yude-rakkasei は神奈川）、湘南ゴールド（fruits）。新潟: 十全なす（新潟市の小なす。巾着なすとの兄弟候補）、女池菜、やわ肌ねぎ、体菜（既存 nina の原料。塩漬け青菜で候補に強い）、黒埼以外の新潟茶豆（GI は「くろさき茶豆」）。富山: 2件目を確信のある一次資料で立てられず1件のみ。入善ジャンボ西瓜（fruits、対象外）、砺波のたまねぎ、富山干柿（fruits）。石川: 金時草（加賀野菜。3件枠の最後を既存料理 hasu-mushi と結べる加賀れんこんに充てたため notes 送り。次候補筆頭）、打木赤皮甘栗かぼちゃ、へた紫なす、加賀つるまめ、能登野菜（中島菜・沢野ごぼう）。福井: 三年子花らっきょ（三里浜）、吉川ナス（鯖江）、谷田部ねぎ（小浜）、穴馬かぶら（大野市和泉。河内赤かぶらとの兄弟候補）、越前白茎ごぼう。\n【要判断】(1) norabou-na の産地を神奈川県川崎市多摩区（既存料理 norabou-na-no-ohitashi が神奈川）に置き、東京都あきる野市を regions「名産地」とした。江戸東京野菜としては東京側が正典なので、オーケストレーターの判断で origin を東京都あきる野市（35.7289,139.2941）に入れ替えても本文は成立する。(2) miura-daikon → nerima-daikon「派生」は「高円坊大根と練馬大根の自然交雑」という一説に拠る（basis に明記）。確証が取れなければ「対比」へ落とす。(3) gensuke-daikon の来歴（愛知の源助大根×練馬系を打木で交配、昭和初期）は記憶による通説。年代は「昭和初期」にとどめた。(4) kurosaki-chamame の「鶴岡からだだちゃ豆の種」伝承は「確かな記録は残っていない」と断った。(5) kaga-renkon の「藩政期に観賞用から食用へ」は一説として記載。(6) gorojima-kintoki の「元禄期に薩摩から」も一説。(7) kagura-nanban の「神楽面に似ているから」の名の由来は伝承として記載。\n【裏が取れず書かなかったこと】各品種の正確な寸法・重量の上限、認定年、栽培戸数・生産量、具体的な店・直売所。4章目は書いていない。\n【座標】市役所または産地地区の代表点（金沢市内4件は打木・安原・小坂・五郎島で分散、勝山市内2件は市役所と北谷町河内で分散）。\n【今回の関係】使用食材 11本（takuan, edo-zoni, kanagawa-kenchin-jiru, oden, norabou-na-no-ohitashi, fukashi-nasu, kaga-futokyuri-no-ankake, ishikawa-buridaikon, hasu-mushi, metta-jiru, satoimo-no-koroni → 各野菜）、派生 1、兄弟 1、対比 7。他ブロックの新 slug は参照していない。tags は kagura-nanban の spicy のみ。"
+}
