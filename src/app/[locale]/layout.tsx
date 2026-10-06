@@ -6,7 +6,9 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { routing } from "@/i18n/routing";
 import { SITE_URL, localeAlternates } from "@/lib/seo";
+import { websiteJsonLd } from "@/lib/jsonld";
 import { Analytics } from "@/components/Analytics";
+import { JsonLd } from "@/components/JsonLd";
 import { SiteHeader } from "@/components/SiteHeader";
 
 import "../globals.css";
@@ -31,7 +33,7 @@ export async function generateMetadata({
     title: { default: `${t("title")} — ${t("tagline")}`, template: `%s | ${t("title")}` },
     description: t("description"),
     // hreflang で言語版を相互に紐付ける（Platform 10_growth_infra.md §3.2）
-    alternates: localeAlternates("/"),
+    alternates: localeAlternates("/", locale),
     openGraph: {
       type: "website",
       siteName: t("title"),
@@ -55,12 +57,17 @@ export default async function LocaleLayout({
   // 静的レンダリングを有効にする
   setRequestLocale(locale);
 
+  // JSON-LD（2026-10-06 SEO/AIO）: サイト全体の WebSite と発行者 Organization
+  const ts = await getTranslations({ locale, namespace: "site" });
+  const siteLd = websiteJsonLd({ siteUrl: SITE_URL, name: ts("title"), description: ts("description"), locale });
+
   return (
     <html
       lang={locale}
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
       <body className="flex min-h-full flex-col">
+        <JsonLd data={siteLd} />
         <NextIntlClientProvider>
           <SiteHeader locale={locale} />
           {children}

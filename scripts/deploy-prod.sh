@@ -28,6 +28,10 @@ NEXT_PUBLIC_SUPABASE_ANON_KEY="${PROD_SUPABASE_ANON_KEY:-}"
   | node -e "let s='';process.stdin.on('data',d=>s+=d).on('end',()=>{const j=JSON.parse(s.slice(s.indexOf('['))); console.log(j.find(x=>x.name==='anon').api_key);})")
 export NEXT_PUBLIC_SUPABASE_ANON_KEY
 export NEXT_PUBLIC_PMTILES_URL="${NEXT_PUBLIC_PMTILES_URL:-https://pub-2b8d1a5772e14d0a812b9b3555ac420a.r2.dev/japan.pmtiles}"
+# 公開URL（sitemap・OGP・canonical・JSON-LD・robots の絶対URL）。未設定だと localhost になり
+# 検索エンジンが sitemap を読めない（2026-10-06）。ドメイン取得後は .env.production.local で上書きする
+export NEXT_PUBLIC_SITE_URL="${NEXT_PUBLIC_SITE_URL:-https://itadaki-atlas.itadaki-atlas.workers.dev}"
+echo "SITE_URL: $NEXT_PUBLIC_SITE_URL"
 [ -n "$NEXT_PUBLIC_SUPABASE_ANON_KEY" ] || { echo "anon key empty"; exit 1; }
 echo "GA: ${NEXT_PUBLIC_GA_ID:+set}${NEXT_PUBLIC_GA_ID:-unset} / CF beacon: ${NEXT_PUBLIC_CF_BEACON_TOKEN:+set}${NEXT_PUBLIC_CF_BEACON_TOKEN:-unset}"
 

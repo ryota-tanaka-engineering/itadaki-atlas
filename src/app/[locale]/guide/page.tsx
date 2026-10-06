@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   return {
     title: t("title"),
     description: t("description"),
-    alternates: localeAlternates("/guide"),
+    alternates: localeAlternates("/guide", locale),
   };
 }
 

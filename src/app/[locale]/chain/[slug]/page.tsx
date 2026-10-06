@@ -9,7 +9,9 @@ import { CoverHeader } from "@/components/CoverHeader";
 import { fetchChainBySlug, fetchGenre, fetchOtherChainsInGenre } from "@/features/map/queries";
 import { ChainDetailBody } from "@/features/map/ChainDetailBody";
 import type { ConnectionCard } from "@/features/map/ItemConnections";
-import { localeAlternates } from "@/lib/seo";
+import { SITE_URL, absoluteUrl, localeAlternates } from "@/lib/seo";
+import { articleJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
+import { JsonLd } from "@/components/JsonLd";
 
 // ISR: cookie を読まない static クライアントで取得しているため 5 分キャッシュにできる
 // （2026-09-30 本番で Cloudflare 1102「Worker exceeded resource limits」を観測。都度描画の CPU を減らす）
@@ -38,7 +40,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   return {
     title,
     description,
-    alternates: localeAlternates(`/chain/${slug}`),
+    alternates: localeAlternates(`/chain/${slug}`, locale),
     openGraph: {
       type: "article",
       title,
@@ -82,8 +84,27 @@ export default async function ChainPage({ params }: { params: Promise<Params> })
     name: isJa ? c.nameJa : c.nameEn,
   }));
 
+  // JSON-LD（2026-10-06 SEO/AIO）: パンくず（トップ → ジャンル → チェーン）と Article（橋渡し文が description）
+  const pageUrl = absoluteUrl(locale, `/chain/${slug}`);
+  const jsonLd = [
+    breadcrumbJsonLd([
+      { name: "Itadaki Atlas", url: absoluteUrl(locale, "/") },
+      ...(genreName ? [{ name: genreName, url: absoluteUrl(locale, `/${chain.genreSlug}`) }] : []),
+      { name: displayName, url: pageUrl },
+    ]),
+    articleJsonLd({
+      url: pageUrl,
+      locale,
+      headline: displayName,
+      description: bridge,
+      section: t("label"),
+      site: { siteUrl: SITE_URL, name: "Itadaki Atlas" },
+    }),
+  ];
+
   return (
     <main className="mx-auto w-full max-w-2xl flex-1 py-8 md:max-w-3xl">
+      <JsonLd data={jsonLd} />
       <div className="px-4 md:px-0">
         <CoverHeader eyebrow={t("label")} title={displayName} />
       </div>

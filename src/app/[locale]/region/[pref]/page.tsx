@@ -7,7 +7,9 @@ import { CoverHeader } from "@/components/CoverHeader";
 import { fetchItemsByPref, fetchShelves, fetchPrefsWithItems, type Locale } from "@/features/map/queries";
 import { PIN_STROKE, groupColor, styleColor } from "@/features/map/styles";
 import { fetchGuidesForPref } from "@/features/guide/queries";
-import { localeAlternates } from "@/lib/seo";
+import { absoluteUrl, localeAlternates } from "@/lib/seo";
+import { breadcrumbJsonLd, itemListJsonLd } from "@/lib/jsonld";
+import { JsonLd } from "@/components/JsonLd";
 import { ADJACENT_PREFS, PREF_SLUGS, prefFromSlug } from "@/lib/prefectures";
 
 /**
@@ -40,7 +42,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
       locale === "ja"
         ? `${name}で生まれた食べもの${items.length}件。発祥地と系統で整理。`
         : `${items.length} foods that originated in ${name}, organized by origin and style.`,
-    alternates: localeAlternates(`/region/${prefSlug}`),
+    alternates: localeAlternates(`/region/${prefSlug}`, locale),
   };
 }
 
@@ -91,8 +93,23 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
   const withItems = new Set(prefsWithItems);
   const neighbors = (ADJACENT_PREFS[pref] ?? []).filter((p) => withItems.has(p));
 
+  // JSON-LD（2026-10-06 SEO/AIO）: パンくず（トップ → 県）と、この県の食の一覧
+  const pageUrl = absoluteUrl(locale, `/region/${prefSlug}`);
+  const jsonLd = [
+    breadcrumbJsonLd([
+      { name: "Itadaki Atlas", url: absoluteUrl(locale, "/") },
+      { name, url: pageUrl },
+    ]),
+    itemListJsonLd({
+      url: pageUrl,
+      name: isJa ? `${name}の食` : `What to eat in ${name}`,
+      items: items.map((i) => ({ name: isJa ? i.nameJa : i.nameRomaji, url: absoluteUrl(locale, `/${i.genreSlug ?? i.shelfSlug}/${i.slug}`) })),
+    }),
+  ];
+
   return (
     <main className="mx-auto w-full max-w-2xl flex-1 py-8 md:max-w-3xl">
+      <JsonLd data={jsonLd} />
       <div className="px-4 md:px-0">
         <CoverHeader title={name} meta={t("count", { count: items.length })} />
       </div>

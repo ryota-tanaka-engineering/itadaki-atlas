@@ -501,6 +501,65 @@ test.describe("F-05 言語切り替え / F-08 SEO", () => {
     expect(xml).toContain("/ja/ramen/hakata");
     expect(xml).toContain("/en/ramen/hakata");
   });
+
+  // 2026-10-06 SEO/AIO: robots・canonical・JSON-LD・llms.txt
+  test("robots.txt が sitemap を宣言し、AI クローラーを許可する", async ({ request }) => {
+    const res = await request.get("/robots.txt");
+    expect(res.status()).toBe(200);
+    const txt = await res.text();
+    expect(txt).toMatch(/Sitemap: .*\/sitemap\.xml/);
+    expect(txt).toContain("User-Agent: GPTBot");
+    expect(txt).not.toMatch(/Disallow: \/\s*$/m);
+  });
+
+  test("canonical が自ページのロケール付き URL を指す", async ({ page }) => {
+    await page.goto("/en/ramen/hakata");
+    const href = await page.locator('link[rel="canonical"]').getAttribute("href");
+    expect(href).toMatch(/\/en\/ramen\/hakata$/);
+  });
+
+  test("詳細・ジャンル・県・ガイドに JSON-LD が入る", async ({ page }) => {
+    const ldOf = async (path: string) => {
+      await page.goto(path);
+      const scripts = await page.locator('script[type="application/ld+json"]').allTextContents();
+      return scripts.map((s) => JSON.parse(s)).flat();
+    };
+    const detail = await ldOf("/ja/ramen/sapporo");
+    const article = detail.find((d) => d["@type"] === "Article");
+    expect(article).toBeTruthy();
+    expect(article.about.name).toBe("札幌ラーメン");
+    expect(article.contentLocation.address.addressRegion).toBe("北海道");
+    expect(detail.some((d) => d["@type"] === "BreadcrumbList")).toBe(true);
+    expect(detail.some((d) => d["@type"] === "WebSite")).toBe(true);
+
+    const genre = await ldOf("/en/ramen");
+    const list = genre.find((d) => d["@type"] === "ItemList");
+    expect(list.numberOfItems).toBeGreaterThan(20);
+
+    const region = await ldOf("/ja/region/hokkaido");
+    expect(region.some((d) => d["@type"] === "ItemList")).toBe(true);
+
+    const guide = await ldOf("/ja/guide/ticket-machine");
+    expect(guide.find((d) => d["@type"] === "Article").headline).toBe("券売機の読み方");
+  });
+
+  test("同名アイテムの title は県で区別される", async ({ page }) => {
+    // ぶり大根は石川・鹿児島など複数県にある（slugs-by-genre.txt）。title に県が入る
+    await page.goto("/ja/homestyle/ishikawa-buridaikon");
+    await expect(page).toHaveTitle(/ぶり大根（石川県）/);
+    // 一意な名前には県を添えない（回帰）
+    await page.goto("/ja/ramen/sapporo");
+    await expect(page).toHaveTitle(/^札幌ラーメン（Sapporo Ramen）/);
+  });
+
+  test("llms.txt がサイト案内とジャンル一覧を返す", async ({ request }) => {
+    const res = await request.get("/llms.txt");
+    expect(res.status()).toBe(200);
+    const txt = await res.text();
+    expect(txt).toContain("# Itadaki Atlas");
+    expect(txt).toContain("/en/ramen");
+    expect(txt).toContain("## Prefectures with entries");
+  });
 });
 
 test.describe("カバーの事実チップ（2026-09 本番体験レビュー「情報量が少ない」対応）", () => {

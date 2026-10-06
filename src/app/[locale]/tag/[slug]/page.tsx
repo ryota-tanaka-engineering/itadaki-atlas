@@ -29,7 +29,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   return {
     title: name,
     description: tag.definition,
-    alternates: localeAlternates(`/tag/${slug}`),
+    alternates: localeAlternates(`/tag/${slug}`, locale),
   };
 }
 

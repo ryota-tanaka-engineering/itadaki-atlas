@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
       locale === "ja"
         ? "Itadaki Atlas は、日本の食がどこで生まれ、なぜそこで生まれたのかを地図に記録する資料集です。編集方針と運営について。"
         : "Itadaki Atlas is a geographic reference of Japanese food — where each dish was born, and why there. Our editorial policy.",
-    alternates: localeAlternates("/about"),
+    alternates: localeAlternates("/about", locale),
   };
 }
 

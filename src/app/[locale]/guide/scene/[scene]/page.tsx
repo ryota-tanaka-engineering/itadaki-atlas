@@ -33,7 +33,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   return {
     title: t(`scene.${found.slug}`),
     description: t(`sceneIntro.${found.slug}`),
-    alternates: localeAlternates(`/guide/scene/${scene}`),
+    alternates: localeAlternates(`/guide/scene/${scene}`, locale),
   };
 }
 

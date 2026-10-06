@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
       locale === "ja"
         ? "Itadaki Atlas のプライバシーポリシーです。"
         : "The privacy policy for Itadaki Atlas.",
-    alternates: localeAlternates("/privacy"),
+    alternates: localeAlternates("/privacy", locale),
   };
 }
 

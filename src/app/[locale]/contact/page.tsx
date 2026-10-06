@@ -21,7 +21,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
       locale === "ja"
         ? "掲載・タイアップのご相談、内容の訂正のご指摘、その他のご連絡はこちらから。"
         : "Reach out about listings and partnerships, corrections, or anything else.",
-    alternates: localeAlternates("/contact"),
+    alternates: localeAlternates("/contact", locale),
   };
 }
 

@@ -119,6 +119,7 @@ Workers 固有ストレージ（KV / D1 / Durable Objects）は**使用しない
 
 ## 6. TODO
 
+- **公開URL（`NEXT_PUBLIC_SITE_URL`）**: 2026-10-06 から `scripts/deploy-prod.sh` が既定で workers.dev を注入する（それまでは未設定＝localhost で、本番の sitemap・OGP が壊れていた）。ドメイン `itadakiatlas.com` 取得後は `.env.production.local` に `NEXT_PUBLIC_SITE_URL=https://itadakiatlas.com` を置くだけでよい。sitemap・robots・canonical・JSON-LD・llms.txt は全てこの値から組み立てる（`src/lib/seo.ts`）
 - `TODO: [ドメイン itadakiatlas.com を Cloudflare Registrar で取得する。SNSハンドル（@itadakiatlas: X / Instagram / TikTok / YouTube）も同時期に確保する。実装着手前に実施]`
 - `TODO: [japan.pmtiles を生成し R2 へ配置する。生成手順とデータ更新頻度を確定して本ファイルに追記する。M2（地図表示）着手前]`
 - `TODO: [Supabase プロジェクトを作成し（東京 ap-northeast-1 / Free）、URL・anon key・service_role key を .env.local と .env.local.example に反映する]`

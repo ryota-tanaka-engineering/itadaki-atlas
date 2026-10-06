@@ -52,6 +52,7 @@
 | `/guide`・`/guide/[slug]`・`/guide/scene/[scene]`（食べに行く前に: 話題（kind）×場面（scene）の2軸。場面はコード定数 `features/guide/scenes.ts`＋辞書ラベル、紐づけは `guide_links` の `scene`。トップ4枚目カード・ジャンルページ・料理詳細・ガイド詳細から場面へ相互遷移） | ✅ |
 | About/利用規約/プライバシー/問い合わせ（Supabase保存）・共通ヘッダー（PC はナビ直置き、SP は三つ紋のメニューボタン `components/MobileNav.tsx`）/フッター | ✅ |
 | OGP共有カード・i18n（/ja /en・hreflang・sitemap） | ✅ |
+| SEO/AIO（2026-10-06）: canonical（`localeAlternates(path, locale)`）・`robots.txt`（AI クローラーは**許可**。方針変更は `src/app/robots.ts` の `AI_CRAWLERS` を disallow に）・JSON-LD（`src/lib/jsonld.ts`: WebSite+Organization／BreadcrumbList／詳細=Article+Thing+Place／一覧=ItemList／ガイド・チェーン=Article。純関数＋`components/JsonLd.tsx`）・`/llms.txt`（sitemap と同じクエリから自動生成）・同名アイテム（82組）の title を県で区別（`fetchSameNameCount`）。公開 URL は `scripts/deploy-prod.sh` が `NEXT_PUBLIC_SITE_URL` を注入（既定 workers.dev。未設定だと sitemap/OGP が localhost を指す） | ✅ |
 
 | 項目 | 状態 |
 | :--- | :--- |
@@ -64,7 +65,7 @@
 
 2026-10-05 ユーザー依頼「豆腐とかの大豆食品」「各都道府県で有名な野菜」: ジャンル2つを新設し束 JSON を `data/content/` に保全（**DB 投入はこれから**）。(1) `soy-foods` 大豆食品（ingredient／棚 processed）31件: 受け皿 豆腐・油揚げ・湯葉（本場2〜3箇所）＋五箇山堅豆腐・島豆腐・ゆし豆腐・祖谷の岩豆腐・つと豆腐・栃尾の油揚げ・南関あげ・高野豆腐・日光ゆば・京ゆば・水戸納豆・浜納豆・大徳寺納豆・豆腐よう・豆腐の味噌漬け・豆乳・おから・きな粉等（`soy-foods-1..3.json`）。(2) `local-vegetables` 伝統野菜・地域野菜（ingredient／棚 vegetables）82件＋いも・豆18件（棚 `tubers` のその他、genre null）= 100件、47都道府県すべてに1件以上（`vegetables-1..8.json`。京野菜・加賀野菜・なにわ伝統野菜・江戸東京野菜・大和野菜・ひご野菜・島野菜等）。投入は `npm run content:import -- --file data/content/<name>.json` を soy-foods-1→3、vegetables-1→8 の順に（vegetables-7 の博多万能ねぎ→九条ねぎは vegetables-5 に依存）。Web 非到達環境で執筆のため出典 URL は未確認: 投入前に `node scripts/check-source-urls.ts data/content/soy-foods-*.json data/content/vegetables-*.json` を手元で流し、200 以外を直す（部隊の指示書 `data/ledgers/SOY_BRIEF.md` / `VEGETABLES_BRIEF.md`。要判断・対象外候補は各束の `notes`）。
 
-次の作業候補: 大豆食品・野菜の投入と導線検品（ジャンルページ `/soy-foods` `/local-vegetables`・棚ページ `/tubers`・県ページの「育てる」群）、各束 notes の候補（金時草・東京うど・ひともじ・島にんじん・大豆の品種等）の追加、4章目の目視検品と他ジャンル（寿司・うどん・そば・焼き鳥）への展開、県ページの総論・読み物化（P2-3。体験原則2の県ページ側の未充足）、ジャンルページの系統ごとの一文解説、チェーン創業メモの英訳列、タグの総論、/security-review（本格公開前に必須）、独自ドメイン化一式（itadakiatlas.com 取得待ち）、計測IDの設定、`ia-atlas-deploy` Skill 作成、ラーメン協会一覧との差分109件（scratchpad/ramen-master）、とんかつ/天ぷら/焼肉の本場複数化、寿司ジャンルの系統（郷土/型/現代/ネタ）付与、鶏の部位図の線画改善。
+次の作業候補（2026-10-06 に優先順を固定。上から）: **0 今すぐ（手元）** 本番デプロイ（公開URL注入を含む）／溜まった投入（マイグレーション→howto 161→ガイド→大豆31→野菜100。`check-source-urls`→投入→`content:lint --strict`→`test:e2e`→UX検品→本番）／産地の英語表記53件を `place_names` に追加／投入後に `slugs-by-genre.txt` を作り直して本ファイルの件数を揃える。**1 公開前に必須** /security-review（2026-10-06 に1回実施。差分が増えたら再実施）／新規コンテンツの裏取り（各束 `notes` の要判断、4章目の薬味記述の採否、「濃さ」尺度に塩辛さを含めるか）。**2 集客の土台** 県ページの総論・読み物化（P2-3。体験原則2の県ページ側の未充足）／県・タグ・場面ページの OGP 画像／独自ドメイン一式と計測ID／イラストのスタイル確定（`.doc/40_operation/01_strategy.md` §2・ロードマップ §5。ストレステスト5〜10種、茶系スープの区別が合否ライン）。**3 コンテンツ拡張** 4章目を寿司・うどん・そば・焼き鳥へ／いも・豆を2件足して「いも・豆」ジャンルへ昇格／各束 notes の候補（金時草・東京うど・ひともじ・島にんじん・大豆の品種）／ジャンルページの系統解説・チェーン創業メモの英訳・タグの総論／ラーメン協会一覧との差分109件（scratchpad/ramen-master）・とんかつ/天ぷら/焼肉の本場複数化・寿司ジャンルの系統付与・鶏の部位図の線画改善。**4 後回し** `ia-atlas-deploy` Skill、出典の発行元名を脚注で出す折衷案。
 
 ## 意図的な制約（勝手に外さない）
 

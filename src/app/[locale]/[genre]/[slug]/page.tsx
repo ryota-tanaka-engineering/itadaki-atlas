@@ -10,10 +10,14 @@ import {
   fetchPlaceNames,
   fetchRelated,
   fetchSamePref,
+  fetchSameNameCount,
   fetchShelfSiblings,
   fetchStyleSiblings,
   type Locale,
 } from "@/features/map/queries";
+import { JsonLd } from "@/components/JsonLd";
+import { breadcrumbJsonLd, foodItemJsonLd } from "@/lib/jsonld";
+import { SITE_URL, absoluteUrl } from "@/lib/seo";
 import { ChainBridgeSection } from "@/features/map/ChainBridgeSection";
 import { translateCityName } from "@/features/map/placeNames";
 import { styleColor } from "@/features/map/styles";
@@ -45,16 +49,31 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   const item = await resolveItem(genre, slug, locale as Locale);
   if (!item) return {};
 
+  // 同名アイテム（雑煮・ぶり大根・馬刺し等、82組）は title が URL 違いで同一になり検索で共食いする
+  // （2026-10-06 SEO）。2件以上あるときだけ県（無ければジャンル／棚）を添えて区別する
+  const sameName = await fetchSameNameCount(item.nameJa);
+  let qualifier: string | null = null;
+  if (sameName > 1) {
+    if (item.originPref) {
+      const tp = await getTranslations({ locale, namespace: "prefecture" });
+      qualifier = tp(item.originPref);
+    } else {
+      qualifier = locale === "ja" ? (item.genreNameJa ?? item.shelfNameJa) : (item.genreNameEn ?? item.shelfNameEn);
+    }
+  }
+
   // 三点セットをタイトルにも出す（.doc/00_concept/05_brand.md §5）
   const title =
     locale === "ja"
-      ? `${item.nameJa}（${item.nameRomaji}）`
-      : `${item.nameRomaji}${item.nameEn ? ` — ${item.nameEn}` : ""}`;
+      ? qualifier
+        ? `${item.nameJa}（${qualifier}）— ${item.nameRomaji}`
+        : `${item.nameJa}（${item.nameRomaji}）`
+      : `${item.nameRomaji}${qualifier ? ` (${qualifier})` : ""}${item.nameEn ? ` — ${item.nameEn}` : ""}`;
 
   return {
     title,
     description: item.summary ?? undefined,
-    alternates: localeAlternates(`/${genre}/${slug}`),
+    alternates: localeAlternates(`/${genre}/${slug}`, locale),
     openGraph: {
       type: "article",
       title,
@@ -258,8 +277,42 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
   const regionPageHref = item.originPref ? `/region/${PREF_SLUGS[item.originPref as Prefecture]}` : null;
   const regionPageLabel = item.originPref ? t("regionPage", { pref: tp(item.originPref) }) : null;
 
+  // JSON-LD（2026-10-06 SEO/AIO）: パンくず（トップ → 棚 → ジャンル → 料理）と Article+Thing+Place
+  const pageUrl = absoluteUrl(locale, `/${genre}/${slug}`);
+  const siteName = "Itadaki Atlas";
+  const breadcrumbLd = breadcrumbJsonLd([
+    { name: siteName, url: absoluteUrl(locale, "/") },
+    { name: shelfName, url: absoluteUrl(locale, `/${item.shelfSlug}`) },
+    ...(item.genreSlug && genreName ? [{ name: genreName, url: absoluteUrl(locale, `/${item.genreSlug}`) }] : []),
+    { name: displayName, url: pageUrl },
+  ]);
+  const articleLd = foodItemJsonLd({
+    url: pageUrl,
+    locale,
+    headline: displayName,
+    nameJa: item.nameJa,
+    nameRomaji: item.nameRomaji,
+    nameEn: item.nameEn,
+    summary: item.summary,
+    origin: item.originPref
+      ? {
+          pref: tp(item.originPref),
+          city: item.originCity
+            ? isJa
+              ? item.originCity
+              : translateCityName(item.originPref, item.originCity, locale as Locale, placeNames)
+            : null,
+          lat: item.lat,
+          lng: item.lng,
+        }
+      : null,
+    sectionNames: [shelfName, genreName].filter((v): v is string => !!v),
+    site: { siteUrl: SITE_URL, name: siteName },
+  });
+
   return (
     <main className="mx-auto w-full max-w-2xl flex-1 py-8 md:max-w-5xl">
+      <JsonLd data={[breadcrumbLd, articleLd]} />
       <article>
         {/* 1〜2. カバー + 位置帯。PCではカバー左テキスト・右に位置帯パネル */}
         <div className="bg-primary md:grid md:grid-cols-[1fr_320px] md:items-stretch md:gap-8 md:rounded-2xl md:p-10">

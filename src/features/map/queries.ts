@@ -335,6 +335,21 @@ export async function fetchItemBySlug(
 }
 
 /**
+ * 同じ日本語名を持つ公開アイテムの件数（2026-10-06 SEO: 同名82組の title を県で区別するため）。
+ * 1件なら区別は要らない。RLS により published だけが数えられる。
+ */
+export async function fetchSameNameCount(nameJa: string): Promise<number> {
+  const db = await createClient();
+  const { count, error } = await db
+    .from("food_item_translations")
+    .select("food_item_id", { count: "exact", head: true })
+    .eq("locale", "ja")
+    .eq("name", nameJa);
+  if (error) throw new Error(`fetchSameNameCount failed: ${error.message}`);
+  return count ?? 0;
+}
+
+/**
  * 詳細ページ「棚slug+アイテム」経路（CLAUDE.md 参照。棚内「その他」= genre_id null の
  * アイテム専用）。genre_id が付いているアイテムは常に genres 経由の正規URLを持つため、
  * ここは genre_id is null に限定して二重の正規URLを作らない。

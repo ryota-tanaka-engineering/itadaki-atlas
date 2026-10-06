@@ -22,7 +22,9 @@ import { translateCityName } from "@/features/map/placeNames";
 import { ChainBridgeSection } from "@/features/map/ChainBridgeSection";
 import { PIN_STROKE, styleColor } from "@/features/map/styles";
 import { GUIDE_SCENES, fetchGuidesForItem } from "@/features/guide/queries";
-import { localeAlternates } from "@/lib/seo";
+import { absoluteUrl, localeAlternates } from "@/lib/seo";
+import { breadcrumbJsonLd, itemListJsonLd } from "@/lib/jsonld";
+import { JsonLd } from "@/components/JsonLd";
 import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
 /**
@@ -72,7 +74,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
             : ing
               ? `${name} brands and their source regions across Japan.`
               : `${items.length} kinds of ${name}, organized by where each was born and how it is made — from styles served nationwide to ones found only in one town.`,
-      alternates: localeAlternates(`/${genre}`),
+      alternates: localeAlternates(`/${genre}`, locale),
     };
   }
 
@@ -81,7 +83,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   const name = locale === "ja" ? shelf.nameJa : shelf.nameEn;
   return {
     title: locale === "ja" ? `${name}（棚）` : `${name}`,
-    alternates: localeAlternates(`/${genre}`),
+    alternates: localeAlternates(`/${genre}`, locale),
   };
 }
 
@@ -153,8 +155,26 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
   const nonGeoUnstyled = nonGeo.filter((i) => !i.primaryStyle);
   const groups = [...byStyle, ...(unstyled.length > 0 ? [{ style: null, items: unstyled }] : [])];
 
+  // JSON-LD（2026-10-06 SEO/AIO）: パンくず（トップ → 棚 → ジャンル）と一覧
+  const pageUrl = absoluteUrl(locale, `/${genreSlug}`);
+  const shelfRow = (await fetchShelves()).find((s) => s.slug === g.shelfSlug);
+  const jsonLd = [
+    breadcrumbJsonLd([
+      { name: "Itadaki Atlas", url: absoluteUrl(locale, "/") },
+      ...(shelfRow ? [{ name: isJa ? shelfRow.nameJa : shelfRow.nameEn, url: absoluteUrl(locale, `/${shelfRow.slug}`) }] : []),
+      { name, url: pageUrl },
+    ]),
+    itemListJsonLd({
+      url: pageUrl,
+      name,
+      description: intro,
+      items: items.map((i) => ({ name: isJa ? i.nameJa : i.nameRomaji, url: absoluteUrl(locale, `/${genreSlug}/${i.slug}`) })),
+    }),
+  ];
+
   return (
     <main className="mx-auto w-full max-w-2xl flex-1 py-8 md:max-w-3xl">
+      <JsonLd data={jsonLd} />
       <div className="px-4 md:px-0">
         <CoverHeader
           title={name}
@@ -402,8 +422,26 @@ async function ShelfView({ shelf, locale }: { shelf: Shelf; locale: string }) {
   const relatedShelves = allShelves.filter((s) => s.grp === shelf.grp && s.slug !== shelf.slug);
   const name = isJa ? shelf.nameJa : shelf.nameEn;
 
+  // JSON-LD（2026-10-06 SEO/AIO）: パンくず（トップ → 棚）と、主要ジャンル＋その他アイテムの一覧
+  const pageUrl = absoluteUrl(locale, `/${shelf.slug}`);
+  const jsonLd = [
+    breadcrumbJsonLd([
+      { name: "Itadaki Atlas", url: absoluteUrl(locale, "/") },
+      { name, url: pageUrl },
+    ]),
+    itemListJsonLd({
+      url: pageUrl,
+      name,
+      items: [
+        ...genres.map((gr) => ({ name: isJa ? gr.nameJa : gr.nameEn, url: absoluteUrl(locale, `/${gr.slug}`) })),
+        ...others.map((i) => ({ name: isJa ? i.nameJa : i.nameRomaji, url: absoluteUrl(locale, `/${shelf.slug}/${i.slug}`) })),
+      ],
+    }),
+  ];
+
   return (
     <main className="mx-auto w-full max-w-2xl flex-1 py-8 md:max-w-3xl">
+      <JsonLd data={jsonLd} />
       <div className="px-4 md:px-0">
         <CoverHeader
           title={name}

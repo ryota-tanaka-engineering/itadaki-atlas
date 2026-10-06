@@ -8,7 +8,9 @@ import { fetchGuideBySlug, fetchOtherGuides, fetchScenesForGuide } from "@/featu
 import { parseGuideMarkdown } from "@/features/guide/markdown";
 import { GuideBody } from "@/features/guide/GuideBody";
 import { PositionBand } from "@/features/map/PositionBand";
-import { localeAlternates } from "@/lib/seo";
+import { SITE_URL, absoluteUrl, localeAlternates } from "@/lib/seo";
+import { articleJsonLd, breadcrumbJsonLd } from "@/lib/jsonld";
+import { JsonLd } from "@/components/JsonLd";
 import type { Prefecture } from "@/lib/prefectures";
 
 // ISR: cookie を読まない static クライアントで取得しているため 5 分キャッシュにできる
@@ -35,7 +37,7 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   return {
     title: guide.title,
     description: guide.summary ?? undefined,
-    alternates: localeAlternates(`/guide/${slug}`),
+    alternates: localeAlternates(`/guide/${slug}`, locale),
     openGraph: {
       type: "article",
       title: guide.title,
@@ -69,8 +71,27 @@ export default async function GuideDetailPage({ params }: { params: Promise<Para
     ? `${tp(guide.pref as Prefecture)}${guide.city ? (locale === "ja" ? guide.city : ` ${guide.city}`) : ""}`
     : guide.title;
 
+  // JSON-LD（2026-10-06 SEO/AIO）: パンくず（トップ → 食べに行く前に → ガイド）と Article
+  const pageUrl = absoluteUrl(locale, `/guide/${slug}`);
+  const jsonLd = [
+    breadcrumbJsonLd([
+      { name: "Itadaki Atlas", url: absoluteUrl(locale, "/") },
+      { name: t("title"), url: absoluteUrl(locale, "/guide") },
+      { name: guide.title, url: pageUrl },
+    ]),
+    articleJsonLd({
+      url: pageUrl,
+      locale,
+      headline: guide.title,
+      description: guide.summary ?? null,
+      section: t(`kind.${guide.kind}`),
+      site: { siteUrl: SITE_URL, name: "Itadaki Atlas" },
+    }),
+  ];
+
   return (
     <main className="mx-auto w-full max-w-2xl flex-1 py-8 md:max-w-3xl">
+      <JsonLd data={jsonLd} />
       <div className="px-4 md:px-0">
         <CoverHeader eyebrow={t(`kind.${guide.kind}`)} title={guide.title} meta={guide.summary} />
       </div>
