@@ -60,10 +60,11 @@ export function MobileNav() {
         aria-expanded={open}
         aria-controls={panelId}
         onClick={() => setOpen((current) => !current)}
-        className="border-border bg-background hover:bg-muted/60 inline-flex items-center gap-1.5 rounded-full border px-2.5 py-1 text-xs whitespace-nowrap"
+        className="border-border bg-background hover:bg-muted/60 inline-flex items-center gap-1.5 rounded-full border px-2 py-1 text-xs md:px-2.5 whitespace-nowrap"
       >
         <MiniMonMark />
-        {open ? t("menuClose") : t("menuOpen")}
+        {/* 390px 以下では記号だけにしてヘッダー幅を確保する（文字は読み上げ用に残す） */}
+        <span className="sr-only min-[420px]:not-sr-only">{open ? t("menuClose") : t("menuOpen")}</span>
       </button>
 
       {open ? (

@@ -69,7 +69,7 @@ export default async function GuidePage({ params }: { params: Promise<Params> })
           </section>
         )}
 
-        <GuideKindSections guides={guides} />
+        <GuideKindSections guides={guides} locale={locale} />
 
         <p className="mb-stack">
           <ArrowLink href="/">{t("backToFood")}</ArrowLink>

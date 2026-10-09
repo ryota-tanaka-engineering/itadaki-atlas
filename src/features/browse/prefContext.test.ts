@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 
-import { countPrefContext } from "./prefContext";
+import { countPrefContext, formatPrefContextLine } from "./prefContext";
 
 const shelves = [
   { slug: "ramen", grp: "dish" as const },
@@ -78,5 +78,31 @@ describe("countPrefContext", () => {
     expect(result.ingredient.representatives).toEqual([
       { nameJa: "会津にしん", nameRomaji: "Aizu Nishin" },
     ]);
+  });
+});
+
+describe("formatPrefContextLine（県の一行文脈。トップの絞り込みと県ページで共有）", () => {
+  const t = (key: string, values?: Record<string, string | number>) =>
+    ({
+      prefContextDish: `●生まれた料理 ${values?.count}件`,
+      prefContextIngredient: `●育てる食材 ${values?.count}件`,
+      prefContextPrep: `●仕込む ${values?.count}件`,
+      prefContextHonba: `○本場 ${values?.count}件`,
+      prefContextExamples: `（${values?.names}）`,
+      prefContextMore: "ほか",
+    })[key] ?? key;
+
+  it("0件の群は出さず、代表の後ろに「ほか」を足し、本場を末尾に添える", () => {
+    const counts = countPrefContext(
+      [item("ramen", "A"), item("ramen", "B"), item("ramen", "C"), item("ramen", "D"), item("seafood", "E")],
+      shelves,
+    );
+    expect(formatPrefContextLine(counts, 3, "ja", t)).toBe(
+      "●生まれた料理 4件（A、B、C ほか）・●育てる食材 1件（E）・○本場 3件",
+    );
+  });
+
+  it("全部0件なら null", () => {
+    expect(formatPrefContextLine(countPrefContext([], shelves), 0, "ja", t)).toBeNull();
   });
 });

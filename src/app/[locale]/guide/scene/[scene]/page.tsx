@@ -70,7 +70,7 @@ export default async function GuideScenePage({ params }: { params: Promise<Param
       </div>
 
       <div className="px-4 pt-stack md:px-0">
-        <GuideKindSections guides={guides} />
+        <GuideKindSections guides={guides} locale={locale} />
 
         {/* この場面の食べもの（genresが空の場面は出さない） */}
         {sceneGenres.length > 0 && (

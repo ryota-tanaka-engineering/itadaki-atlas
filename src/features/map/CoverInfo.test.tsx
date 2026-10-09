@@ -1,5 +1,5 @@
-import { describe, expect, it, vi } from "vitest";
-import { render, screen } from "@testing-library/react";
+import { afterEach, describe, expect, it, vi } from "vitest";
+import { cleanup, render, screen } from "@testing-library/react";
 
 // next-intl の Link はロケール解決に Provider を要求するため、テストでは素の <a> に差し替える
 vi.mock("@/i18n/navigation", () => ({
@@ -11,6 +11,10 @@ vi.mock("@/i18n/navigation", () => ({
 }));
 
 import { CoverFactChips, CoverTagChips } from "./CoverInfo";
+
+afterEach(() => {
+  cleanup();
+});
 
 describe("CoverFactChips（詳細ページカバーの事実チップ）", () => {
   it("factsが空なら何も描画しない", () => {
@@ -46,5 +50,13 @@ describe("CoverTagChips（詳細ページカバーのタグチップ）", () => 
     );
     const link = screen.getByRole("link", { name: "中華由来" });
     expect(link).toHaveAttribute("href", "/tag/chinese_derived");
+  });
+});
+
+describe("CoverTagChips の見出し語", () => {
+  it("label を渡すと、下線リンクの前に「興味:」を出す（リンクの行き先が分かる）", () => {
+    render(<CoverTagChips tags={[{ slug: "chuka", label: "中華由来" }]} ariaLabel="タグ" label="興味:" />);
+    expect(screen.getByText("興味:")).toBeInTheDocument();
+    expect(screen.getByRole("link", { name: "中華由来" })).toHaveAttribute("href", "/tag/chuka");
   });
 });

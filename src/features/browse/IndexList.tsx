@@ -27,6 +27,11 @@ function groupLabel(
   label: ReturnType<typeof useMasterLabels>,
   t: ReturnType<typeof useTranslations>,
 ): string {
+  // 「その他」は群ごとに言い分ける（ラーメン以外が混ざる群は汎用の語。labels.ts 参照）
+  const otherGenre = group.items.every((i) => i.genreSlug === "ramen")
+    ? "ramen"
+    : (group.items.find((i) => i.genreSlug !== "ramen")?.genreSlug ?? null);
+  if (axis === "style" && group.key === "その他") return label.style(group.key, otherGenre) ?? group.key;
   if (locale === "ja") return group.label;
   if (axis === "kana") return kanaRomajiLabel(group.key) ?? t("kanaOther");
   if (axis === "region") {
@@ -117,7 +122,7 @@ export function IndexList({ items, axis, onAxisChange, selectedSlug, onSelect, l
                       {joinDistinct([
                         locale === "ja" ? item.nameRomaji : englishGloss(item.nameEn, item.nameRomaji),
                         item.originPref ? label.prefecture(item.originPref) : null,
-                        item.primaryStyle ? label.style(item.primaryStyle) : null,
+                        item.primaryStyle ? label.style(item.primaryStyle, item.genreSlug) : null,
                       ])}
                     </span>
                   </span>

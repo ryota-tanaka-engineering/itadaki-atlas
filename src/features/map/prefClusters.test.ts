@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { buildPrefClusters } from "./prefClusters";
+import { buildPrefClusters, relaxClusterPoints, stillOverlapping } from "./prefClusters";
 import type { MapPin } from "./queries";
 
 /** テスト用の最小 MapPin。指定しなかったフィールドはダミー値で埋める。 */
@@ -73,5 +73,39 @@ describe("buildPrefClusters（CLUSTER_COUNT_IMPL_BRIEF.md 設計1〜2）", () =>
     const byPref = new Map(clusters.map((c) => [c.pref, c]));
     expect(byPref.get("福島県")).toMatchObject({ count: 1, honbaCount: 0 });
     expect(byPref.get("石川県")).toMatchObject({ count: 0, honbaCount: 1 });
+  });
+});
+
+describe("relaxClusterPoints / stillOverlapping（重なり緩和）", () => {
+  const r = [11, 11, 11];
+
+  it("重なっている3点を、半径+隙間以上に押し分ける", () => {
+    const points = [
+      { x: 100, y: 100 },
+      { x: 104, y: 100 },
+      { x: 102, y: 106 },
+    ];
+    const out = relaxClusterPoints(points, r);
+    expect(stillOverlapping(out, r).size).toBe(0);
+  });
+
+  it("入力を書き換えない", () => {
+    const points = [
+      { x: 0, y: 0 },
+      { x: 1, y: 0 },
+    ];
+    relaxClusterPoints(points, [11, 11]);
+    expect(points[1]).toEqual({ x: 1, y: 0 });
+  });
+
+  it("小さい点（半径7）にすると、密集して丸のままでは解けない配置も収まる", () => {
+    // 6点を一辺16pxの狭い範囲に詰める（丸=半径11では解けない密度）
+    const points = Array.from({ length: 6 }, (_, i) => ({ x: 100 + (i % 3) * 8, y: 100 + Math.floor(i / 3) * 8 }));
+    const big = relaxClusterPoints(points, points.map(() => 11));
+    const dots = relaxClusterPoints(points, points.map(() => 7));
+    const bigOverlap = stillOverlapping(big, points.map(() => 11)).size;
+    const dotOverlap = stillOverlapping(dots, points.map(() => 7)).size;
+    expect(dotOverlap).toBeLessThanOrEqual(bigOverlap);
+    expect(dotOverlap).toBe(0);
   });
 });
