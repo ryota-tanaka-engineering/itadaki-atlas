@@ -26,7 +26,14 @@ export function translateCityName(
   placeNames: PlaceNameMap,
 ): string {
   if (locale === "ja") return city;
-  return placeNames[`${pref}::${city}`] ?? city;
+  const whole = placeNames[`${pref}::${city}`];
+  if (whole) return whole;
+  // 「神戸市・西宮市」のように複数の市を「・」で並べた値は、1つずつ引いて " / " でつなぐ
+  if (city.includes("・")) {
+    const parts = city.split("・").map((c) => placeNames[`${pref}::${c}`] ?? c);
+    return parts.join(" / ");
+  }
+  return city;
 }
 
 /**
