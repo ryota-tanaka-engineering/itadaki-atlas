@@ -8,13 +8,14 @@ export function GuideBody({ blocks }: { blocks: GuideBlock[] }) {
   if (blocks.length === 0) return null;
 
   return (
-    <div className="space-y-4">
+    <div className="type-body space-y-4">
       {blocks.map((block, i) => {
         if (block.kind === "heading") {
           const className =
             block.level === 2
-              ? "font-serif border-border mt-8 mb-3 border-b pb-2 text-lg first:mt-0"
-              : "mt-6 mb-2 text-base font-semibold";
+              ? // 本文の節見出しは左の橙の縦罫で締める（下罫の多用をやめる）
+                "type-title border-primary mt-10 mb-3 border-l-[3px] pl-3 first:mt-0"
+              : "type-heading mt-6 mb-2";
           return block.level === 2 ? (
             <h2 key={i} className={className}>
               {block.text}
@@ -27,7 +28,7 @@ export function GuideBody({ blocks }: { blocks: GuideBlock[] }) {
         }
         if (block.kind === "list") {
           return (
-            <ul key={i} className="list-disc space-y-1 pl-5 leading-relaxed">
+            <ul key={i} className="marker:text-primary list-disc space-y-1 pl-5">
               {block.items.map((tokens, j) => (
                 <li key={j}>{renderInline(tokens)}</li>
               ))}
@@ -35,7 +36,7 @@ export function GuideBody({ blocks }: { blocks: GuideBlock[] }) {
           );
         }
         return (
-          <p key={i} className="leading-relaxed">
+          <p key={i}>
             {renderInline(block.tokens)}
           </p>
         );
@@ -54,7 +55,7 @@ function renderInline(tokens: InlineToken[]) {
           href={token.href}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-brand-accent-dark underline"
+          className="text-brand-accent-dark link-underline"
         >
           {token.text}
         </a>

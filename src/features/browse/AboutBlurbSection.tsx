@@ -17,12 +17,12 @@ type Props = {
 
 export function AboutBlurbSection({ heading, body, linkLabel }: Props) {
   return (
-    <section aria-labelledby="about-blurb-heading" className="border-border mb-8 border-t pt-6">
-      <h2 id="about-blurb-heading" className="font-serif mb-2 text-lg">
+    <section aria-labelledby="about-blurb-heading" className="border-rule mb-stack border-t pt-stack">
+      <h2 id="about-blurb-heading" className="type-title mb-3">
         {heading}
       </h2>
-      <p className="text-muted-foreground text-sm leading-relaxed">{body}</p>
-      <Link href="/about" className="mt-2 inline-block text-sm underline">
+      <p className="type-small text-muted-foreground">{body}</p>
+      <Link href="/about" className="type-small link-underline mt-2 inline-block">
         {linkLabel}
       </Link>
     </section>

@@ -41,6 +41,7 @@
     "searchFilterClear": "「{query}」の検索を解除",
     "entryPlaceTitle": "土地からさがす",
     "entryPlaceHint": "地図をタップ、またはピンを選んで探せます",
+    "entryPlaceAll": "すべて",
     "entryTypeTitle": "種類からさがす",
     "typeGroupDish": "料理",
     "typeGroupIngredient": "食材（銘柄・品種・魚介）",

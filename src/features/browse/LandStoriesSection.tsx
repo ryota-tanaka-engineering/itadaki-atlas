@@ -22,20 +22,20 @@ export function LandStoriesSection({ heading, items, locale, detailLabel }: Prop
   if (items.length === 0) return null;
 
   return (
-    <section aria-labelledby="land-stories-heading" className="border-border mb-8 border-t pt-6">
-      <h2 id="land-stories-heading" className="font-serif mb-2 text-lg">
+    <section aria-labelledby="land-stories-heading" className="border-rule mb-stack border-t pt-stack">
+      <h2 id="land-stories-heading" className="type-title mb-3">
         {heading}
       </h2>
       <ul className="space-y-3">
         {items.map((item) => (
-          <li key={item.slug} className="border-border bg-background rounded-2xl border p-3">
-            <p className="font-medium">{locale === "ja" ? item.nameJa : item.nameRomaji}</p>
+          <li key={item.slug} className="border-rule border-l-[3px] pl-3">
+            <p className="type-heading">{locale === "ja" ? item.nameJa : item.nameRomaji}</p>
             {item.bodyExcerptCh3 && (
-              <p className="text-muted-foreground mt-1 text-sm leading-relaxed">{item.bodyExcerptCh3}</p>
+              <p className="type-small text-muted-foreground mt-1">{item.bodyExcerptCh3}</p>
             )}
             <Link
               href={`/${item.genreSlug ?? item.shelfSlug}/${item.slug}`}
-              className="mt-2 inline-block text-sm underline"
+              className="type-small link-underline mt-1.5 inline-block"
             >
               {detailLabel}
             </Link>

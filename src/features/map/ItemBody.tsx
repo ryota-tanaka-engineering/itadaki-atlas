@@ -22,13 +22,13 @@ export function TableOfContents({
   if (chapters.length === 0) return null;
   return (
     <nav aria-label={heading} className={className}>
-      <h2 className="text-foreground mb-2 text-sm font-semibold">{heading}</h2>
-      <ol className="space-y-1.5 text-sm">
+      <h2 className="type-label mb-2">{heading}</h2>
+      <ol className="type-small border-rule space-y-1.5 border-l pl-3">
         {chapters.map((ch, i) => (
           <li key={ch.id}>
-            <a href={`#${ch.id}`} className="text-brand-accent-dark hover:underline">
-              <span className="mr-1.5 tabular-nums">{String(i + 1).padStart(2, "0")}</span>
-              {ch.title}
+            <a href={`#${ch.id}`} className="group text-foreground hover:text-brand-accent-dark">
+              <span className="text-brand-accent-dark mr-2 tabular-nums">{String(i + 1).padStart(2, "0")}</span>
+              <span className="link-underline">{ch.title}</span>
             </a>
           </li>
         ))}
@@ -44,15 +44,15 @@ export function BodyChapters({ chapters }: { chapters: BodyChapter[] }) {
         <section
           key={ch.id}
           id={ch.id}
-          className="mb-8 scroll-mt-[calc(var(--header-height)+1rem)]"
+          className="mb-section scroll-mt-[calc(var(--header-height)+1rem)]"
         >
-          <h2 className="mb-3 flex items-baseline gap-2 text-lg font-semibold">
-            <span className="text-brand-accent-dark text-sm tabular-nums" aria-hidden>
+          <h2 className="type-title mb-3 flex items-baseline gap-3">
+            <span className="text-brand-accent-dark font-sans text-sm font-semibold tabular-nums" aria-hidden>
               {String(i + 1).padStart(2, "0")}
             </span>
             {ch.title}
           </h2>
-          <div className="space-y-3 leading-relaxed">
+          <div className="type-body space-y-4">
             {ch.paragraphs.map((paragraph, pi) => (
               <p key={pi}>
                 {paragraph.map((token, ti) =>

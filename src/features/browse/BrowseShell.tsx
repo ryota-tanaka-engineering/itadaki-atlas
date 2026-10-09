@@ -7,6 +7,7 @@ import { Search } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { Input } from "@/components/ui/input";
 import { buttonVariants } from "@/components/ui/button";
+import { filterChipClass } from "@/components/ui/chip";
 import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
 import { MapView } from "@/features/map/MapView";
@@ -43,15 +44,17 @@ import { matchesSearchQuery, normalizeSearchText } from "./search";
 const SEARCH_DEBOUNCE_MS = 200;
 
 /**
- * タグチップの標準寸法（本番レビュー「タグも小さくてみづらい」対応）。
- * ピン選択カードのタグ・「興味からさがす」カードのタグチップで共通利用する。
- * 文字はtext-sm以上・タップ標的は最低32px（min-h-8）・余白px-3 py-1.5。
- * 詳細ページ CoverTagChips（src/features/map/CoverInfo.tsx）も同じ寸法に揃えてある。
+ * タグチップ（本番レビュー「タグも小さくてみづらい」対応で text-sm・タップ標的32px）。
+ * 2026-09-30 デザイン刷新: チップ3種（src/components/ui/chip.tsx）の「絞り込みチップ」に統一
+ * （押すと地図が絞り込まれる＝橙の細罫、選択中は橙塗り白字）。
  */
-const TAG_CHIP_CLASS =
-  "border-border bg-background hover:bg-muted/60 inline-flex min-h-8 items-center rounded-full border px-3 py-1.5 text-sm transition-colors";
-const TAG_CHIP_ACTIVE_CLASS =
-  "bg-primary text-primary-foreground inline-flex min-h-8 items-center rounded-full px-3 py-1.5 text-sm transition-colors";
+const TAG_CHIP_CLASS = filterChipClass();
+const TAG_CHIP_ACTIVE_CLASS = filterChipClass({ active: true });
+/** 地図上の「絞り込み中」チップ（押すと解除）。選択状態なので橙塗り白字 */
+const ACTIVE_FILTER_PILL_CLASS =
+  "bg-primary text-primary-foreground pointer-events-auto flex items-center gap-2 rounded-full px-3 py-1.5 text-sm shadow-sm";
+/** 「土地からさがす」カードに並べる県の数（多い順） */
+const TOP_PREF_CHIPS = 8;
 
 /**
  * 発祥地の表示文字列（作業パッケージ「トップページ改善」A節）。
@@ -187,6 +190,8 @@ export function BrowseShell({
   // 戻すためのシグナル（MapView は flyToJapan を外部に公開していないため、数値を
   // 増やして伝える。同ファイル docコメント参照）。
   const [resetToJapanSignal, setResetToJapanSignal] = useState(0);
+  // 「土地からさがす」カードの県チップで、地図をその県へ寄せるためのシグナル
+  const [focusPrefSignal, setFocusPrefSignal] = useState<{ pref: string; seq: number } | null>(null);
 
   useEffect(() => {
     const update = () => {
@@ -416,6 +421,19 @@ export function BrowseShell({
   // 同じ情報なのか？部位は別じゃね」対応）。銘柄（dish/ingredient）と部位・ネタ（cut）は
   // 見た目の同型ジャンルでも土地に結びつくかどうかが違うため、層を分けて出す。
   // 層にジャンルが無ければ空配列になり、その層自体を出さない。
+  // 「土地からさがす」カードの県チップ: 生まれた件数の多い順に上位 TOP_PREF_CHIPS 県
+  // （クラスタの数字と同じ数え方。ランキング表現はしない＝順位・件数は出さない）。
+  const topPrefs = useMemo(() => {
+    const counts = new Map<string, number>();
+    for (const i of items) {
+      if (i.originPref) counts.set(i.originPref, (counts.get(i.originPref) ?? 0) + 1);
+    }
+    return [...counts.entries()]
+      .sort((x, y) => y[1] - x[1])
+      .slice(0, TOP_PREF_CHIPS)
+      .map(([pref]) => pref);
+  }, [items]);
+
   const genresByType = useMemo(
     () => ({
       dish: genres.filter((g) => g.type === "dish"),
@@ -435,11 +453,7 @@ export function BrowseShell({
               type="button"
               onClick={() => handleSelectGenre(g.slug)}
               aria-pressed={active}
-              className={`rounded-full px-2.5 py-1 text-xs transition-colors ${
-                active
-                  ? "bg-primary text-primary-foreground"
-                  : "border-border bg-background hover:bg-muted/60 border"
-              }`}
+              className={filterChipClass({ active, size: "sm" })}
             >
               {locale === "ja" ? g.nameJa : g.nameEn}
             </button>
@@ -668,6 +682,16 @@ export function BrowseShell({
     setSnap("peak");
   }, []);
 
+  // 「土地からさがす」カードの県チップ。クラスタのタップと同じ「県の絞り込み」にし、
+  // 地図もその県へ寄せる（2026-09-30 デザイン刷新: カードの空白を県チップで埋める）。
+  const handleSelectPrefChip = useCallback(
+    (pref: string) => {
+      handleSelectPref(pref);
+      setFocusPrefSignal((prev) => ({ pref, seq: (prev?.seq ?? 0) + 1 }));
+    },
+    [handleSelectPref],
+  );
+
   // 「県のみ」の解除（絞り込みチップの✕）。地図は全国表示へ戻す（設計5）。
   const handleClearPrefFilter = useCallback(() => {
     setPrefFilter(null);
@@ -733,6 +757,7 @@ export function BrowseShell({
           onPrefSelect={handleSelectPref}
           onPrefClear={handleMapPrefClear}
           resetToJapanSignal={resetToJapanSignal}
+          focusPrefSignal={focusPrefSignal}
         />
       </div>
 
@@ -747,15 +772,15 @@ export function BrowseShell({
               type="button"
               onClick={handleClearSearchFilter}
               aria-label={t("searchFilterClear", { query: searchDisplayQuery })}
-              className="border-border bg-background/95 text-foreground pointer-events-auto flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm shadow-sm backdrop-blur"
+              className={ACTIVE_FILTER_PILL_CLASS}
             >
               <span aria-hidden>
                 {searchDisplayQuery}
-                <span className="text-muted-foreground ml-1">
+                <span className="ml-1 opacity-80">
                   {t("count", { count: visibleItems.length })}
                 </span>
               </span>
-              <span aria-hidden className="text-muted-foreground">
+              <span aria-hidden className="opacity-80">
                 ✕
               </span>
             </button>
@@ -767,15 +792,15 @@ export function BrowseShell({
               aria-label={t("genreFilterClear", {
                 name: locale === "ja" ? filteredGenre.nameJa : filteredGenre.nameEn,
               })}
-              className="border-border bg-background/95 text-foreground pointer-events-auto flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm shadow-sm backdrop-blur"
+              className={ACTIVE_FILTER_PILL_CLASS}
             >
               <span aria-hidden>
                 {locale === "ja" ? filteredGenre.nameJa : filteredGenre.nameEn}
-                <span className="text-muted-foreground ml-1">
+                <span className="ml-1 opacity-80">
                   {t("count", { count: visibleItems.length })}
                 </span>
               </span>
-              <span aria-hidden className="text-muted-foreground">
+              <span aria-hidden className="opacity-80">
                 ✕
               </span>
             </button>
@@ -787,15 +812,15 @@ export function BrowseShell({
               aria-label={t("tagFilterClear", {
                 name: locale === "ja" ? filteredTag.nameJa : filteredTag.nameEn,
               })}
-              className="border-border bg-background/95 text-foreground pointer-events-auto flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm shadow-sm backdrop-blur"
+              className={ACTIVE_FILTER_PILL_CLASS}
             >
               <span aria-hidden>
                 {locale === "ja" ? filteredTag.nameJa : filteredTag.nameEn}
-                <span className="text-muted-foreground ml-1">
+                <span className="ml-1 opacity-80">
                   {t("count", { count: visibleItems.length })}
                 </span>
               </span>
-              <span aria-hidden className="text-muted-foreground">
+              <span aria-hidden className="opacity-80">
                 ✕
               </span>
             </button>
@@ -805,15 +830,15 @@ export function BrowseShell({
               type="button"
               onClick={handleClearPrefFilter}
               aria-label={t("prefFilterClear", { pref: filteredPrefLabel })}
-              className="border-border bg-background/95 text-foreground pointer-events-auto flex items-center gap-2 rounded-full border px-3 py-1.5 text-sm shadow-sm backdrop-blur"
+              className={ACTIVE_FILTER_PILL_CLASS}
             >
               <span aria-hidden>
                 {filteredPrefLabel}
-                <span className="text-muted-foreground ml-1">
+                <span className="ml-1 opacity-80">
                   {t("count", { count: visibleItems.length })}
                 </span>
               </span>
-              <span aria-hidden className="text-muted-foreground">
+              <span aria-hidden className="opacity-80">
                 ✕
               </span>
             </button>
@@ -1137,22 +1162,46 @@ export function BrowseShell({
             {/* 3軸索引の入口（土地・種類・興味）。共通ヘッダーの「土地」「種類」（#place/#type）
                 からのスクロール先として id を付与する（作業パッケージ「トップ導線修正」B節）。 */}
             <div className="grid grid-cols-2 gap-2">
-              <button
-                id="place"
-                type="button"
-                onClick={handleShowPlace}
-                className="border-border bg-background hover:bg-muted/60 flex flex-col items-start gap-1 rounded-2xl border p-2.5 text-left transition-colors"
-              >
-                <span
-                  aria-hidden
-                  className="text-primary-foreground flex size-5 items-center justify-center rounded-full text-[10px] leading-none"
-                  style={{ backgroundColor: GROUP_COLORS.dish }}
+              {/* 土地からさがす（2026-09-30 デザイン刷新: 説明文だけで空いていた面積を、
+                  収録の多い順の県チップ＋「すべて」で埋める）。見出しボタンと「すべて」は従来の
+                  カード全体の挙動（handleShowPlace＝地図の全国表示を見せる）、県チップはクラスタの
+                  タップと同じ県の絞り込み。ボタンの入れ子を避けるためカードは div にした */}
+              <div id="place" className="border-border bg-background self-start rounded-2xl border p-2.5">
+                <button
+                  type="button"
+                  onClick={handleShowPlace}
+                  className="mb-1.5 flex items-center gap-1.5 text-left"
                 >
-                  ●
-                </span>
-                <span className="text-sm font-semibold">{t("entryPlaceTitle")}</span>
-                <span className="text-muted-foreground text-xs">{t("entryPlaceHint")}</span>
-              </button>
+                  <span
+                    aria-hidden
+                    className="text-primary-foreground flex size-5 items-center justify-center rounded-full text-[10px] leading-none"
+                    style={{ backgroundColor: GROUP_COLORS.dish }}
+                  >
+                    ●
+                  </span>
+                  <span className="text-sm font-semibold">{t("entryPlaceTitle")}</span>
+                </button>
+                <p className="type-caption text-muted-foreground mb-2">{t("entryPlaceHint")}</p>
+                <ul className="flex flex-wrap gap-1">
+                  {topPrefs.map((pref) => (
+                    <li key={pref}>
+                      <button
+                        type="button"
+                        onClick={() => handleSelectPrefChip(pref)}
+                        aria-pressed={pref === prefFilter}
+                        className={filterChipClass({ active: pref === prefFilter, size: "sm" })}
+                      >
+                        {label.prefecture(pref) ?? pref}
+                      </button>
+                    </li>
+                  ))}
+                  <li>
+                    <button type="button" onClick={handleShowPlace} className={filterChipClass({ size: "sm" })}>
+                      {t("entryPlaceAll")}
+                    </button>
+                  </li>
+                </ul>
+              </div>
 
               <div id="type" className="border-border bg-background rounded-2xl border p-2.5">
                 <div className="mb-1.5 flex items-center gap-1.5">

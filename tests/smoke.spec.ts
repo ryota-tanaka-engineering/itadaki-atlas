@@ -1722,6 +1722,35 @@ test.describe("場面（2026-09-24）", () => {
   });
 });
 
+test.describe("土地からさがす: 県チップ（2026-09-30 デザイン刷新）", () => {
+  test("カードの県チップで、クラスタのタップと同じく県に絞り込まれ、地図がその県へ寄る", async ({ page }) => {
+    await page.goto("/ja");
+    const cluster = page.getByRole("button", { name: /件。選ぶとこの県に絞り込みます/ });
+    await expect(cluster.first()).toBeVisible({ timeout: 30_000 });
+
+    const toggle = page.getByRole("button", { name: /シートを次の段階へ/ });
+    await toggle.click(); // peak -> half
+    const sheet = page.getByRole("dialog");
+    const placeCard = sheet.locator("#place");
+    await expect(placeCard.getByText("土地からさがす")).toBeVisible();
+
+    // 収録の多い順に県チップが並び、末尾に「すべて」がある
+    await expect(placeCard.getByRole("button", { name: "すべて", exact: true })).toBeVisible();
+    const firstPref = placeCard.locator("button[aria-pressed]").first();
+    const prefName = (await firstPref.textContent())?.trim() ?? "";
+    expect(prefName).toMatch(/[都道府県]$/);
+    await firstPref.click();
+
+    // 絞り込み中チップが出て、地図は個別ピン表示（クラスタが消える）
+    await expect(page.getByRole("button", { name: `${prefName}の絞り込みを解除` })).toBeVisible();
+    await expect(cluster.first()).not.toBeVisible({ timeout: 10_000 });
+
+    // 解除で全国表示（クラスタ）に戻る
+    await page.getByRole("button", { name: `${prefName}の絞り込みを解除` }).click();
+    await expect(cluster.first()).toBeVisible({ timeout: 10_000 });
+  });
+});
+
 test.describe("手動ズーム（本番レビュー 2026-09-27「地図拡大するとピンの位置が元のまま」）", () => {
   test("PC 1440幅で、地図をホイールで拡大して個別ピンまで寄ったあと、全国表示に引き戻されない", async ({
     page,

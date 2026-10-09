@@ -52,15 +52,15 @@ export function NextEntriesSection({
   ];
 
   return (
-    <section aria-labelledby="next-entries-heading" className="border-border mb-8 border-t pt-6">
-      <h2 id="next-entries-heading" className="font-serif mb-2 text-lg">
+    <section aria-labelledby="next-entries-heading" className="border-rule mb-stack border-t pt-stack">
+      <h2 id="next-entries-heading" className="type-title mb-3">
         {heading}
       </h2>
       <ul className="flex flex-wrap gap-x-4 gap-y-2">
         {entries.map((entry) =>
           entry.kind === "link" ? (
             <li key={entry.href}>
-              <Link href={entry.href} className="text-muted-foreground text-sm underline">
+              <Link href={entry.href} className="type-small text-muted-foreground hover:text-foreground link-underline">
                 {entry.label}
               </Link>
             </li>
@@ -69,7 +69,7 @@ export function NextEntriesSection({
               <button
                 type="button"
                 onClick={entry.onClick}
-                className="text-muted-foreground text-sm underline"
+                className="type-small text-muted-foreground hover:text-foreground link-underline"
               >
                 {entry.label}
               </button>

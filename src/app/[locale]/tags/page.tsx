@@ -1,8 +1,9 @@
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
-import { Link } from "@/i18n/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CoverHeader } from "@/components/CoverHeader";
+import { SectionHeading } from "@/components/SectionHeading";
+import { LinkCloud } from "@/components/ui/text-link";
 import { fetchTagsWithCounts } from "@/features/map/queries";
 import { localeAlternates } from "@/lib/seo";
 
@@ -50,23 +51,18 @@ export default async function TagsPage({ params }: { params: Promise<Params> }) 
         <CoverHeader title={t("title")} meta={t("description")} />
       </div>
 
-      <div className="px-4 pt-8 md:px-0">
+      <div className="px-4 pt-stack md:px-0">
         {groups.map((group) => (
-          <section key={group.kind} className="mb-10">
-            <h2 className="font-serif border-border mb-3 border-b pb-2 text-lg">{t(`kind.${group.kind}`)}</h2>
-            <ul className="flex flex-wrap gap-2">
-              {group.tags.map((tag) => (
-                <li key={tag.slug}>
-                  <Link
-                    href={`/tag/${tag.slug}`}
-                    className="border-border hover:bg-muted/50 inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm"
-                  >
-                    {isJa ? tag.nameJa : tag.nameEn}
-                    <span className="text-muted-foreground text-xs">{tag.itemCount}</span>
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <section key={group.kind} className="mb-section">
+            <SectionHeading className="mb-3">{t(`kind.${group.kind}`)}</SectionHeading>
+            <LinkCloud
+              items={group.tags.map((tag) => ({
+                key: tag.slug,
+                href: `/tag/${tag.slug}`,
+                label: isJa ? tag.nameJa : tag.nameEn,
+                count: tag.itemCount,
+              }))}
+            />
           </section>
         ))}
       </div>

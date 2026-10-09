@@ -1,5 +1,6 @@
 import { Link } from "@/i18n/navigation";
-import { buttonVariants } from "@/components/ui/button";
+import { SectionHeading } from "@/components/SectionHeading";
+import { LabelChip } from "@/components/ui/chip";
 
 import type { Chain } from "./queries";
 
@@ -33,37 +34,37 @@ export function ChainBridgeSection({ heading, intro, chains, locale, prefLimited
   const isJa = locale === "ja";
 
   return (
-    <section aria-labelledby="chain-bridge-heading" className="border-border mb-10 border-t pt-6">
-      <h2 id="chain-bridge-heading" className="font-serif mb-2 text-lg">
-        {heading}
-      </h2>
-      <p className="text-muted-foreground mb-4 text-sm">{intro}</p>
+    <section aria-labelledby="chain-bridge-heading" className="mb-section">
+      <SectionHeading id="chain-bridge-heading">{heading}</SectionHeading>
+      <p className="type-small text-muted-foreground mt-3 mb-stack max-w-prose">{intro}</p>
 
-      <ul className="space-y-4">
+      {/* チェーンは独立ページへ進む入口なのでカード枠。PC は2列にして縦の単調さを切る */}
+      <ul className="grid gap-3 md:grid-cols-2">
         {chains.map((c) => (
-          <li key={c.slug} className="border-border rounded-lg border p-4">
-            <p className="font-medium">
-              <Link href={`/chain/${c.slug}`} className="hover:underline">
+          <li key={c.slug} className="border-rule flex flex-col rounded-xl border p-4">
+            <p className="flex flex-wrap items-center gap-2">
+              <Link
+                href={`/chain/${c.slug}`}
+                className="type-heading link-underline hover:text-brand-accent-dark"
+              >
                 {isJa ? c.nameJa : c.nameEn}
               </Link>
-              {c.prefLimited && prefLimitedLabel && (
-                <span className="border-border text-muted-foreground ml-2 inline-block rounded-full border px-2 py-0.5 align-middle text-xs font-normal">
-                  {prefLimitedLabel(c.prefLimited)}
-                </span>
-              )}
+              {c.prefLimited && prefLimitedLabel && <LabelChip>{prefLimitedLabel(c.prefLimited)}</LabelChip>}
             </p>
-            <p className="text-muted-foreground mt-1 text-sm leading-relaxed">
-              {isJa ? c.bridgeJa : c.bridgeEn}
-            </p>
+            <p className="type-note text-muted-foreground mt-1.5 mb-3">{isJa ? c.bridgeJa : c.bridgeEn}</p>
+            {/* 推薦先（ご当地の詳細ページ）へは矢印付きの遷移リンク */}
             {c.recommendations.length > 0 && (
-              <ul className="mt-3 flex flex-wrap gap-2">
+              <ul className="border-rule mt-auto flex flex-wrap gap-x-4 gap-y-1 border-t pt-2.5">
                 {c.recommendations.map((r) => (
                   <li key={r.key}>
                     <Link
                       href={`/${r.genreSlug ?? r.shelfSlug}/${r.slug}`}
-                      className={buttonVariants({ variant: "outline", size: "sm" })}
+                      className="group type-small inline-flex items-baseline gap-1 py-0.5"
                     >
-                      {isJa ? r.nameJa : (r.nameEn ?? r.nameRomaji)}
+                      <span aria-hidden className="text-primary">
+                        →
+                      </span>
+                      <span className="link-underline">{isJa ? r.nameJa : (r.nameEn ?? r.nameRomaji)}</span>
                     </Link>
                   </li>
                 ))}

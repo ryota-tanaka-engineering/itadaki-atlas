@@ -4,7 +4,12 @@ import { getMessages, getTranslations, setRequestLocale } from "next-intl/server
 import { Link } from "@/i18n/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CoverHeader } from "@/components/CoverHeader";
+import { IndexRow } from "@/components/IndexRow";
+import { RowList } from "@/components/RowList";
+import { SectionHeading } from "@/components/SectionHeading";
 import { buttonVariants } from "@/components/ui/button";
+import { filterChipClass } from "@/components/ui/chip";
+import { ArrowLink, LinkCloud } from "@/components/ui/text-link";
 import {
   fetchChainsForGenre,
   fetchGenre,
@@ -23,6 +28,7 @@ import { ChainBridgeSection } from "@/features/map/ChainBridgeSection";
 import { PIN_STROKE, styleColor } from "@/features/map/styles";
 import { GUIDE_SCENES, fetchGuidesForItem } from "@/features/guide/queries";
 import { localeAlternates } from "@/lib/seo";
+import { englishGloss } from "@/lib/names";
 import { PREF_SLUGS, type Prefecture } from "@/lib/prefectures";
 
 /**
@@ -107,7 +113,7 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
   const tc = await getTranslations("chain");
   const tp = await getTranslations("prefecture");
   const tg = await getTranslations("guide");
-  const [items, chains, placeNames, messages, beforeYouGoGuides] = await Promise.all([
+  const [items, chains, placeNames, messages, beforeYouGoGuides, shelf] = await Promise.all([
     fetchGenreItems(genreSlug, locale as Locale),
     fetchChainsForGenre(genreSlug),
     // 市区町村名の他言語表記（一覧行の発祥表記用。実装部隊の報告「/en の本場・産地
@@ -117,6 +123,8 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
     // 「食べに行く前に」（2026-09-24「場面」）。genre/shelfのいずれかにguide_linksで
     // 結ばれたガイドを逆引きする（詳細ページ [genre]/[slug]/page.tsx と同じ関数）
     fetchGuidesForItem({ genreSlug, shelfSlug: g.shelfSlug, tagSlugs: [] }, locale as "ja" | "en"),
+    // カバーの眉（棚名）用
+    fetchShelf(g.shelfSlug),
   ]);
   // この genre を含む場面（GUIDE_SCENES はコード定数なのでDB問い合わせ不要）
   const genreScenes = GUIDE_SCENES.filter((s) => (s.genres as readonly string[]).includes(genreSlug));
@@ -124,7 +132,17 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
   const nonGeo = items.filter((i) => i.lat === null);
   const isJa = locale === "ja";
   const name = isJa ? g.nameJa : g.nameEn;
+  const otherName = isJa ? g.nameEn : g.nameJa;
+  const shelfName = shelf ? (isJa ? shelf.nameJa : shelf.nameEn) : null;
   const intro = isJa ? g.introJa : g.introEn;
+  const originLabel = (item: (typeof items)[number]) =>
+    item.originPref
+      ? `${tp(item.originPref)}${
+          item.originCity
+            ? ` ${translateCityName(item.originPref, item.originCity, locale as Locale, placeNames)}`
+            : ""
+        }`
+      : null;
 
   // 系統名の表示ラベルを解決する（2026-09 系統の自由化: ジャンルごとに任意の値を
   // 持てるため、固定の翻訳キー一覧を前提にできない）。
@@ -157,87 +175,73 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
     <main className="mx-auto w-full max-w-2xl flex-1 py-8 md:max-w-3xl">
       <div className="px-4 md:px-0">
         <CoverHeader
+          eyebrow={shelfName}
           title={name}
+          subtitle={otherName !== name ? otherName : null}
           meta={t("count", { count: items.length })}
         />
       </div>
 
-      <div className="px-4 pt-8 md:px-0">
+      <div className="px-4 pt-stack md:px-0">
         {/* 国民食型ジャンルの総論（未投入なら null。データが入れば自動で現れる） */}
-        {intro && <p className="text-muted-foreground mb-8 leading-relaxed">{intro}</p>}
+        {intro && <p className="type-body text-foreground/90 mb-stack max-w-prose">{intro}</p>}
 
         {/* 系統チップ（ラーメンのみ・系統色。他ジャンルは系統を持たないため出ない） */}
         {byStyle.length > 0 && (
-          <nav aria-label={t("styleNavLabel")} className="mb-8 flex flex-wrap gap-2">
+          <nav aria-label={t("styleNavLabel")} className="mb-section flex flex-wrap gap-2">
             {byStyle.map((grp) => (
-              <a
-                key={grp.style}
-                href={`#style-${grp.style}`}
-                className="border-border inline-flex items-center gap-1.5 rounded-full border px-3 py-1 text-xs"
-              >
+              <a key={grp.style} href={`#style-${grp.style}`} className={filterChipClass({ size: "sm" })}>
                 <span
                   aria-hidden
                   className="inline-block size-2.5 rounded-full border"
                   style={{ backgroundColor: styleColor(grp.style), borderColor: PIN_STROKE }}
                 />
                 {translateStyle(grp.style)}
-                <span className="text-muted-foreground">{grp.items.length}</span>
+                <span className="text-muted-foreground tabular-nums">{grp.items.length}</span>
               </a>
             ))}
           </nav>
         )}
 
         {groups.map((grp) => (
-          <section key={grp.style ?? "-"} id={grp.style ? `style-${grp.style}` : undefined} className="mb-10">
-            <h2 className="font-serif border-border mb-3 flex items-center gap-2 border-b pb-2 text-lg">
-              {grp.style && (
-                <span
-                  aria-hidden
-                  className="inline-block size-3.5 rounded-full border"
-                  style={{ backgroundColor: styleColor(grp.style), borderColor: PIN_STROKE }}
-                />
-              )}
+          <section
+            key={grp.style ?? "-"}
+            id={grp.style ? `style-${grp.style}` : undefined}
+            className="mb-section scroll-mt-[calc(var(--header-height)+1rem)]"
+          >
+            <SectionHeading
+              count={grp.items.length}
+              mark={
+                grp.style ? (
+                  <span
+                    aria-hidden
+                    className="inline-block size-3 shrink-0 rounded-full border"
+                    style={{ backgroundColor: styleColor(grp.style), borderColor: PIN_STROKE }}
+                  />
+                ) : null
+              }
+            >
               {/* 系統を持つジャンルでは「その他」、持たないジャンルでは「ご当地」と読ませる */}
               {grp.style ? translateStyle(grp.style) : byStyle.length > 0 ? t("otherStyles") : t("regional")}
-              <span className="text-muted-foreground text-sm font-normal">{grp.items.length}</span>
-            </h2>
-            <ul className="divide-border divide-y">
+            </SectionHeading>
+            <ul className="divide-rule divide-y">
               {grp.items.map((item) => (
                 <li key={item.slug}>
-                  <Link
+                  {/* 三点セット（.doc/00_concept/05_brand.md §5）は /en で。/ja の一覧では
+                      英語の説明訳が主役になってしまうため、ローマ字+日本語の概要にする
+                      （本番レビュー「日本語ページに英語が大量」対応）。発祥は行末の小さな注 */}
+                  <IndexRow
                     href={`/${genreSlug}/${item.slug}`}
-                    className="hover:bg-muted/40 -mx-2 block rounded-md px-2 py-3 transition-colors"
-                  >
-                    <span className="block font-medium">
-                      {isJa ? item.nameJa : item.nameRomaji}
-                    </span>
-                    {/* 三点セット（.doc/00_concept/05_brand.md §5）は /en で。/ja の一覧では
-                        英語の説明訳が主役になってしまうため、ローマ字+日本語の概要1行にする
-                        （本番レビュー「日本語ページに英語が大量」対応） */}
-                    {isJa ? (
-                      <>
-                        <span className="text-muted-foreground block text-xs">{item.nameRomaji}</span>
-                        {item.summary && (
-                          <span className="text-muted-foreground mt-0.5 line-clamp-2 block text-sm">
-                            {item.summary}
-                          </span>
-                        )}
-                      </>
-                    ) : (
-                      <span className="text-muted-foreground block text-xs">
-                        {item.nameJa} — {item.nameRomaji}
-                        {item.nameEn ? ` — ${item.nameEn}` : ""}
-                      </span>
-                    )}
-                    {item.originPref && (
-                      <span className="text-muted-foreground mt-1 block text-xs">
-                        {tp(item.originPref)}
-                        {item.originCity
-                          ? ` / ${translateCityName(item.originPref, item.originCity, locale as Locale, placeNames)}`
-                          : ""}
-                      </span>
-                    )}
-                  </Link>
+                    name={isJa ? item.nameJa : item.nameRomaji}
+                    aside={isJa ? item.nameRomaji : item.nameJa}
+                    gloss={isJa ? null : englishGloss(item.nameEn, item.nameRomaji)}
+                    summary={isJa ? item.summary : null}
+                    labels={
+                      originLabel(item) ? (
+                        <span className="type-caption text-muted-foreground">{originLabel(item)}</span>
+                      ) : null
+                    }
+                  />
                 </li>
               ))}
             </ul>
@@ -246,34 +250,18 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
 
         {/* 図鑑: 発祥地の物語を持たないアイテム（部位・定番種）。データが入れば自動で現れる */}
         {nonGeoUnstyled.length > 0 && (
-          <section className="mb-10">
-            <h2 className="font-serif border-border mb-3 border-b pb-2 text-lg">{t("encyclopedia")}</h2>
-            <ul className="divide-border grid grid-cols-2 divide-y">
+          <section className="mb-section">
+            <SectionHeading count={nonGeoUnstyled.length}>{t("encyclopedia")}</SectionHeading>
+            <ul className="divide-rule grid grid-cols-1 divide-y md:grid-cols-2 md:gap-x-8">
               {nonGeoUnstyled.map((item) => (
-                <li key={item.slug} className="odd:pr-2">
-                  <Link
+                <li key={item.slug}>
+                  <IndexRow
                     href={`/${genreSlug}/${item.slug}`}
-                    className="hover:bg-muted/40 -mx-2 block rounded-md px-2 py-3 transition-colors"
-                  >
-                    <span className="block font-medium">
-                      {isJa ? item.nameJa : item.nameRomaji}
-                    </span>
-                    {isJa ? (
-                      <>
-                        <span className="text-muted-foreground block text-xs">{item.nameRomaji}</span>
-                        {item.summary && (
-                          <span className="text-muted-foreground mt-0.5 line-clamp-2 block text-sm">
-                            {item.summary}
-                          </span>
-                        )}
-                      </>
-                    ) : (
-                      <span className="text-muted-foreground block text-xs">
-                        {item.nameRomaji}
-                        {item.nameEn ? ` — ${item.nameEn}` : ""}
-                      </span>
-                    )}
-                  </Link>
+                    name={isJa ? item.nameJa : item.nameRomaji}
+                    aside={isJa ? item.nameRomaji : null}
+                    gloss={isJa ? null : englishGloss(item.nameEn, item.nameRomaji)}
+                    summary={isJa ? item.summary : null}
+                  />
                 </li>
               ))}
             </ul>
@@ -281,8 +269,8 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
         )}
 
         {/* CTA: この一覧を地図で見る */}
-        <p className="mb-10">
-          <Link href="/" className={buttonVariants()}>
+        <p className="mb-section">
+          <Link href="/" className={buttonVariants({ size: "lg", className: "px-4" })}>
             {t("mapCta", { name })}
           </Link>
         </p>
@@ -290,39 +278,27 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
         {/* 食べに行く前に（2026-09-24「場面」）。この genre を含む場面のチップ＋
             この genre に紐づくガイドの上位3件。どちらも0件なら節ごと出さない */}
         {(genreScenes.length > 0 || beforeYouGoGuides.length > 0) && (
-          <section className="border-border mb-10 border-t pt-6">
-            <h2 className="mb-3 text-sm font-semibold">{t("beforeYouGoHeading")}</h2>
+          // 「次に進む入口」（ガイドへ）はカード枠にまとめる。中身は罫線区切りの行
+          <section className="border-rule bg-background mb-section rounded-xl border px-4 pt-4 pb-2 md:px-5">
+            <SectionHeading variant="label">{t("beforeYouGoHeading")}</SectionHeading>
             {genreScenes.length > 0 && (
-              <ul className="mb-3 flex flex-wrap gap-2">
-                {genreScenes.map((s) => (
-                  <li key={s.slug}>
-                    <Link
-                      href={`/guide/scene/${s.slug}`}
-                      className="border-border hover:bg-muted/50 inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm"
-                    >
-                      {tg("sceneChip", { name: tg(`scene.${s.slug}`) })}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
+              <LinkCloud
+                className="mb-2"
+                items={genreScenes.map((s) => ({
+                  key: s.slug,
+                  href: `/guide/scene/${s.slug}`,
+                  label: tg("sceneChip", { name: tg(`scene.${s.slug}`) }),
+                }))}
+              />
             )}
-            {beforeYouGoGuides.length > 0 && (
-              <ul className="space-y-2">
-                {beforeYouGoGuides.map((guide) => (
-                  <li key={guide.slug}>
-                    <Link
-                      href={`/guide/${guide.slug}`}
-                      className="border-border hover:bg-muted/50 block rounded-lg border p-3"
-                    >
-                      <span className="block font-medium">{guide.title}</span>
-                      {guide.summary && (
-                        <span className="text-muted-foreground block text-xs">{guide.summary}</span>
-                      )}
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            )}
+            <RowList
+              rows={beforeYouGoGuides.map((guide) => ({
+                key: guide.slug,
+                href: `/guide/${guide.slug}`,
+                title: guide.title,
+                meta: guide.summary,
+              }))}
+            />
           </section>
         )}
 
@@ -337,33 +313,23 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
 
         {/* 地域から探す（この genre のデータがある県だけが自然に並ぶ） */}
         {geo.length > 0 && (
-          <section className="border-border mb-8 border-t pt-6">
-            <h2 className="mb-3 text-sm font-semibold">{t("byRegion")}</h2>
-            <ul className="flex flex-wrap gap-2">
-              {[...new Set(geo.map((i) => i.originPref).filter(Boolean))].map((pref) => (
-                <li key={pref}>
-                  <Link
-                    href={`/region/${PREF_SLUGS[pref as Prefecture]}`}
-                    className="bg-muted text-muted-foreground hover:bg-muted/70 inline-block rounded-full px-3 py-1 text-xs"
-                  >
-                    {tp(pref as string)}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <section className="border-rule mb-stack border-t pt-stack">
+            <SectionHeading variant="label">{t("byRegion")}</SectionHeading>
+            <LinkCloud
+              items={[...new Set(geo.map((i) => i.originPref).filter(Boolean))].map((pref) => ({
+                key: pref as string,
+                href: `/region/${PREF_SLUGS[pref as Prefecture]}`,
+                label: tp(pref as string),
+              }))}
+            />
           </section>
         )}
 
         {/* 末尾: 同じ棚の仲間（棚ページへ。行き止まり禁止） */}
-        <section className="border-border border-t pt-6">
+        <section className="border-rule border-t pt-stack">
           <ul className="flex flex-wrap gap-2">
             <li>
-              <Link
-                href={`/${g.shelfSlug}`}
-                className="bg-muted text-muted-foreground hover:bg-muted/70 inline-block rounded-full px-3 py-1 text-xs"
-              >
-                {t("shelfSiblingsTitle")}
-              </Link>
+              <ArrowLink href={`/${g.shelfSlug}`}>{t("shelfSiblingsTitle")}</ArrowLink>
             </li>
           </ul>
         </section>
@@ -406,34 +372,29 @@ async function ShelfView({ shelf, locale }: { shelf: Shelf; locale: string }) {
     <main className="mx-auto w-full max-w-2xl flex-1 py-8 md:max-w-3xl">
       <div className="px-4 md:px-0">
         <CoverHeader
+          eyebrow={t(`grpMeta.${shelf.grp}`)}
           title={name}
-          subtitle={t(`grpMeta.${shelf.grp}`)}
+          subtitle={isJa ? shelf.nameEn : shelf.nameJa}
           meta={t("count", { count: totalCount })}
         />
       </div>
 
-      <div className="px-4 pt-8 md:px-0">
+      <div className="px-4 pt-stack md:px-0">
         {/* 主要ジャンルのカード: この棚に属する genres */}
         {genres.length > 0 && (
-          <section className="mb-10">
-            <h2 className="font-serif border-border mb-3 border-b pb-2 text-lg">{t("genresTitle")}</h2>
-            <ul className="divide-border divide-y">
+          <section className="mb-section">
+            <SectionHeading>{t("genresTitle")}</SectionHeading>
+            <ul className="divide-rule divide-y">
               {genres.map((genreRow) => (
                 <li key={genreRow.slug}>
-                  <Link
+                  <IndexRow
                     href={`/${genreRow.slug}`}
-                    className="hover:bg-muted/40 -mx-2 flex items-center justify-between gap-3 rounded-md px-2 py-3 transition-colors"
-                  >
-                    <span>
-                      <span className="block font-medium">
-                        {isJa ? genreRow.nameJa : genreRow.nameEn}
-                      </span>
-                      <span className="text-muted-foreground block text-xs">
-                        {genreRow.nameJa} — {genreRow.nameEn}
-                      </span>
-                    </span>
-                    <span className="text-muted-foreground shrink-0 text-xs">{genreRow.itemCount}</span>
-                  </Link>
+                    name={isJa ? genreRow.nameJa : genreRow.nameEn}
+                    aside={isJa ? genreRow.nameEn : genreRow.nameJa}
+                    labels={
+                      <span className="type-caption text-muted-foreground tabular-nums">{genreRow.itemCount}</span>
+                    }
+                  />
                 </li>
               ))}
             </ul>
@@ -442,35 +403,19 @@ async function ShelfView({ shelf, locale }: { shelf: Shelf; locale: string }) {
 
         {/* まだ数の少ない仲間たち: genre_id が null のその他アイテム */}
         {others.length > 0 && (
-          <section className="mb-10">
-            <h2 className="font-serif border-border mb-1 border-b pb-2 text-lg">{t("othersTitle")}</h2>
-            <p className="text-muted-foreground mb-3 text-xs">{t("othersHint")}</p>
-            <ul className="divide-border divide-y">
+          <section className="mb-section">
+            <SectionHeading count={others.length}>{t("othersTitle")}</SectionHeading>
+            <p className="type-note text-muted-foreground mb-1">{t("othersHint")}</p>
+            <ul className="divide-rule divide-y">
               {others.map((item) => (
                 <li key={item.slug}>
-                  <Link
+                  <IndexRow
                     href={`/${shelf.slug}/${item.slug}`}
-                    className="hover:bg-muted/40 -mx-2 block rounded-md px-2 py-3 transition-colors"
-                  >
-                    <span className="block font-medium">
-                      {isJa ? item.nameJa : item.nameRomaji}
-                    </span>
-                    {isJa ? (
-                      <>
-                        <span className="text-muted-foreground block text-xs">{item.nameRomaji}</span>
-                        {item.summary && (
-                          <span className="text-muted-foreground mt-0.5 line-clamp-2 block text-sm">
-                            {item.summary}
-                          </span>
-                        )}
-                      </>
-                    ) : (
-                      <span className="text-muted-foreground block text-xs">
-                        {item.nameJa} — {item.nameRomaji}
-                        {item.nameEn ? ` — ${item.nameEn}` : ""}
-                      </span>
-                    )}
-                  </Link>
+                    name={isJa ? item.nameJa : item.nameRomaji}
+                    aside={isJa ? item.nameRomaji : item.nameJa}
+                    gloss={isJa ? null : englishGloss(item.nameEn, item.nameRomaji)}
+                    summary={isJa ? item.summary : null}
+                  />
                 </li>
               ))}
             </ul>
@@ -488,20 +433,15 @@ async function ShelfView({ shelf, locale }: { shelf: Shelf; locale: string }) {
 
         {/* 関連する他の棚（同じ grp）。行き止まり禁止 */}
         {relatedShelves.length > 0 && (
-          <section className="border-border border-t pt-6">
-            <h2 className="mb-3 text-sm font-semibold">{t("relatedShelvesTitle")}</h2>
-            <ul className="flex flex-wrap gap-2">
-              {relatedShelves.map((s) => (
-                <li key={s.slug}>
-                  <Link
-                    href={`/${s.slug}`}
-                    className="bg-muted text-muted-foreground hover:bg-muted/70 inline-block rounded-full px-3 py-1 text-xs"
-                  >
-                    {isJa ? s.nameJa : s.nameEn}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <section className="border-rule border-t pt-stack">
+            <SectionHeading variant="label">{t("relatedShelvesTitle")}</SectionHeading>
+            <LinkCloud
+              items={relatedShelves.map((s) => ({
+                key: s.slug,
+                href: `/${s.slug}`,
+                label: isJa ? s.nameJa : s.nameEn,
+              }))}
+            />
           </section>
         )}
       </div>

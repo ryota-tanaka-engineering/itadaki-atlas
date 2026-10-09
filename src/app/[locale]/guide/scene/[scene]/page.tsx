@@ -1,9 +1,10 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
-import { Link } from "@/i18n/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CoverHeader } from "@/components/CoverHeader";
+import { SectionHeading } from "@/components/SectionHeading";
+import { LinkCloud } from "@/components/ui/text-link";
 import { GuideKindSections } from "@/features/guide/GuideKindSections";
 import { findGuideScene, GUIDE_SCENES, fetchGuidesForScene } from "@/features/guide/queries";
 import { fetchGenres } from "@/features/map/queries";
@@ -45,6 +46,7 @@ export default async function GuideScenePage({ params }: { params: Promise<Param
   if (!found) notFound();
 
   const t = await getTranslations("guide");
+  const th = await getTranslations("header");
   const isJa = locale === "ja";
 
   const [guides, allGenres] = await Promise.all([
@@ -60,46 +62,36 @@ export default async function GuideScenePage({ params }: { params: Promise<Param
   return (
     <main className="mx-auto w-full max-w-2xl flex-1 py-8 md:max-w-3xl">
       <div className="px-4 md:px-0">
-        <CoverHeader title={t(`scene.${found.slug}`)} meta={t(`sceneIntro.${found.slug}`)} />
+        <CoverHeader
+          eyebrow={th("navGuide")}
+          title={t(`scene.${found.slug}`)}
+          meta={t(`sceneIntro.${found.slug}`)}
+        />
       </div>
 
-      <div className="px-4 pt-8 md:px-0">
+      <div className="px-4 pt-stack md:px-0">
         <GuideKindSections guides={guides} />
 
         {/* この場面の食べもの（genresが空の場面は出さない） */}
         {sceneGenres.length > 0 && (
-          <section className="border-border mb-10 border-t pt-6">
-            <h2 className="mb-3 text-sm font-semibold">{t("sceneFoodsHeading")}</h2>
-            <ul className="flex flex-wrap gap-2">
-              {sceneGenres.map((g) => (
-                <li key={g.slug}>
-                  <Link
-                    href={`/${g.slug}`}
-                    className="bg-muted text-muted-foreground hover:bg-muted/70 inline-block rounded-full px-3 py-1 text-xs"
-                  >
-                    {isJa ? g.nameJa : g.nameEn}
-                  </Link>
-                </li>
-              ))}
-            </ul>
+          <section className="border-rule mb-stack border-t pt-stack">
+            <SectionHeading variant="label">{t("sceneFoodsHeading")}</SectionHeading>
+            <LinkCloud
+              items={sceneGenres.map((g) => ({ key: g.slug, href: `/${g.slug}`, label: isJa ? g.nameJa : g.nameEn }))}
+            />
           </section>
         )}
 
         {/* 他の場面（行き止まり禁止） */}
-        <section className="border-border border-t pt-6">
-          <h2 className="mb-3 text-sm font-semibold">{t("otherScenesHeading")}</h2>
-          <ul className="flex flex-wrap gap-2">
-            {otherScenes.map((s) => (
-              <li key={s.slug}>
-                <Link
-                  href={`/guide/scene/${s.slug}`}
-                  className="bg-muted text-muted-foreground hover:bg-muted/70 inline-block rounded-full px-3 py-1 text-xs"
-                >
-                  {t(`scene.${s.slug}`)}
-                </Link>
-              </li>
-            ))}
-          </ul>
+        <section className="border-rule border-t pt-stack">
+          <SectionHeading variant="label">{t("otherScenesHeading")}</SectionHeading>
+          <LinkCloud
+            items={otherScenes.map((s) => ({
+              key: s.slug,
+              href: `/guide/scene/${s.slug}`,
+              label: t(`scene.${s.slug}`),
+            }))}
+          />
         </section>
       </div>
 

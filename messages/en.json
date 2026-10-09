@@ -41,6 +41,7 @@
     "searchFilterClear": "Clear the search for \"{query}\"",
     "entryPlaceTitle": "Browse by place",
     "entryPlaceHint": "Tap the map, or select a pin, to explore",
+    "entryPlaceAll": "All",
     "entryTypeTitle": "Browse by type",
     "typeGroupDish": "Dishes",
     "typeGroupIngredient": "Ingredients (brands, varieties, seafood)",

@@ -5,6 +5,9 @@ import { useTranslations } from "next-intl";
 import type { BrowseItem, Locale } from "@/features/map/queries";
 import { PIN_STROKE, styleColor } from "@/features/map/styles";
 import { useMasterLabels } from "@/features/map/labels";
+import { filterChipClass } from "@/components/ui/chip";
+
+import { englishGloss, joinDistinct } from "@/lib/names";
 
 import { AXES, groupBy, kanaRomajiLabel, NO_REGION_KEY, type Axis, type Group } from "./axes";
 
@@ -69,11 +72,7 @@ export function IndexList({ items, axis, onAxisChange, selectedSlug, onSelect, l
             type="button"
             aria-selected={a === axis}
             onClick={() => onAxisChange(a)}
-            className={`rounded-full px-3 py-1 text-sm transition-colors ${
-              a === axis
-                ? "bg-primary text-primary-foreground"
-                : "bg-muted text-muted-foreground hover:bg-muted/70"
-            }`}
+            className={filterChipClass({ active: a === axis, size: "sm" })}
           >
             {t(`axis.${a}`)}
           </button>
@@ -82,9 +81,9 @@ export function IndexList({ items, axis, onAxisChange, selectedSlug, onSelect, l
 
       {groups.map((group) => (
         <section key={group.key} className="mb-4">
-          <h3 className="text-muted-foreground bg-background sticky top-0 py-1 text-xs font-semibold">
+          <h3 className="type-label border-rule bg-background sticky top-0 border-b py-1.5">
             {groupLabel(group, axis, locale, label, t)}
-            <span className="ml-2 font-normal">{group.items.length}</span>
+            <span className="ml-2 font-normal tabular-nums">{group.items.length}</span>
           </h3>
           <ul>
             {group.items.map((item) => (
@@ -111,11 +110,15 @@ export function IndexList({ items, axis, onAxisChange, selectedSlug, onSelect, l
                     <span className="block truncate text-sm">
                       {locale === "ja" ? item.nameJa : item.nameRomaji}
                     </span>
-                    <span className="text-muted-foreground block truncate text-xs">
-                      {locale === "ja" ? item.nameRomaji : item.nameEn}
-                      {item.originPref ? ` ／ ${label.prefecture(item.originPref)}` : ""}
-                      {/* 色だけに依存させないため系統名をテキストでも出す */}
-                      {item.primaryStyle ? ` ／ ${label.style(item.primaryStyle)}` : ""}
+                    {/* 副行: 名前の別表記・県・系統を中黒でつなぎ、同じ名前の重複は消す
+                        （2026-09-30 デザイン刷新「索引行の三点セットが冗長」）。
+                        色だけに依存させないため系統名をテキストでも出す */}
+                    <span className="type-caption text-muted-foreground block truncate">
+                      {joinDistinct([
+                        locale === "ja" ? item.nameRomaji : englishGloss(item.nameEn, item.nameRomaji),
+                        item.originPref ? label.prefecture(item.originPref) : null,
+                        item.primaryStyle ? label.style(item.primaryStyle) : null,
+                      ])}
                     </span>
                   </span>
                 </button>

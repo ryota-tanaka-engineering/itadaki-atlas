@@ -3,9 +3,9 @@ import { notFound } from "next/navigation";
 import type { Prefecture } from "@/lib/prefectures";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
-import { Link } from "@/i18n/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CoverHeader } from "@/components/CoverHeader";
+import { CorrectionLink } from "@/components/CorrectionLink";
 import { fetchChainBySlug, fetchGenre, fetchOtherChainsInGenre } from "@/features/map/queries";
 import { ChainDetailBody } from "@/features/map/ChainDetailBody";
 import type { ConnectionCard } from "@/features/map/ItemConnections";
@@ -88,7 +88,7 @@ export default async function ChainPage({ params }: { params: Promise<Params> })
         <CoverHeader eyebrow={t("label")} title={displayName} />
       </div>
 
-      <div className="px-4 pt-8 md:px-0">
+      <div className="px-4 pt-stack md:px-0">
         <article>
           <ChainDetailBody
             bridge={bridge}
@@ -107,11 +107,7 @@ export default async function ChainPage({ params }: { params: Promise<Params> })
           />
 
           {/* 出典はDB内部の検証データ。UIには出さず、訂正導線だけを残す（詳細ページと同じ方針） */}
-          <p className="text-center">
-            <Link href="/contact" className="text-brand-accent-dark text-xs underline">
-              {t("correction")}
-            </Link>
-          </p>
+          <CorrectionLink label={t("correction")} className="mt-section" />
         </article>
       </div>
 

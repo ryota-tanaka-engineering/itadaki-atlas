@@ -49,7 +49,7 @@ export function LineageTree({ heading, selfName, parents, childItems, siblings, 
 
   return (
     <section aria-labelledby="lineage-heading" className={className}>
-      <h2 id="lineage-heading" className="mb-3 text-lg font-semibold">
+      <h2 id="lineage-heading" className="type-label mb-3">
         {heading}
       </h2>
 

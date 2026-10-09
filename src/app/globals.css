@@ -7,9 +7,19 @@
 @theme inline {
   --color-background: var(--background);
   --color-foreground: var(--foreground);
-  --font-sans: var(--font-sans);
+  /* ゴシックの本文。欧文は layout.tsx で読み込み済みの Geist、和文は OS のゴシック。
+     （以前は `var(--font-sans)` の自己参照で無効になり、ブラウザ既定の Times に落ちていた） */
+  --font-sans: var(--font-geist-sans), "Hiragino Sans", "Hiragino Kaku Gothic ProN", "Noto Sans JP", "Yu Gothic", YuGothic, Meiryo, system-ui, sans-serif;
   --font-mono: var(--font-geist-mono);
   --font-heading: var(--font-sans);
+  /* 明朝の見出し（CLAUDE.md「デザイン」節）。Web フォントは足さず OS の明朝に揃える */
+  --font-serif: "Hiragino Mincho ProN", "Hiragino Mincho Pro", "Yu Mincho", YuMincho, "Noto Serif JP", "Noto Serif CJK JP", ui-serif, Georgia, serif;
+  --color-rule: var(--rule);
+  --color-rule-strong: var(--rule-strong);
+  --color-cream: var(--cream);
+  /* 間隔トークン（mt-section / mb-stack 等で使う）。ページ内の節の間・節の中の塊の間 */
+  --spacing-section: var(--space-section);
+  --spacing-stack: var(--space-stack);
   --color-sidebar-ring: var(--sidebar-ring);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
@@ -94,6 +104,15 @@
   --brand-accent-light: #ffc985;
   --brand-accent-dark: #e56000;
 
+  /* 罫（細 #e3d9c8 〜 強 #6e5c47）と橙カバー上のクリーム文字 */
+  --rule: #e3d9c8;
+  --rule-strong: #6e5c47;
+  --cream: #ffe9cf;
+
+  /* 間隔（SP）。PC は下の @media で広げる */
+  --space-section: 2.5rem;
+  --space-stack: 1.25rem;
+
   /* 共通ヘッダーの高さ（SP 48px）。MapLibre 純正コントロールがヘッダーの下に来るよう offset にも使う */
   --header-height: 3rem;
 }
@@ -102,6 +121,95 @@
   :root {
     /* 共通ヘッダーの高さ（PC 62px） */
     --header-height: 3.875rem;
+    --space-section: 3.5rem;
+    --space-stack: 1.5rem;
+  }
+}
+
+/*
+ * タイプスケール（2026-09-30 デザイン刷新。CLAUDE.md「デザイン」節が正典）。
+ * 明朝=表示・見出し、ゴシック=本文・注。サイズは SP / PC(md+) の2段。
+ *
+ *   type-display  明朝 28 / 32  行間1.3  字間0.04em  … ページの題名（h1）
+ *   type-title    明朝 18 / 20  行間1.45 字間0.04em  … 節の見出し（h2）
+ *   type-heading  ゴシック 16 太 行間1.5            … 行・カードの名前
+ *   type-body     ゴシック 16    行間1.85            … 本文
+ *   type-small    ゴシック 14    行間1.7             … 一覧の要約・UI の文
+ *   type-note     ゴシック 13    行間1.65            … 補足・注
+ *   type-caption  ゴシック 12    行間1.5  字間0.02em … 県・件数などの添え書き
+ *   type-eyebrow  ゴシック 12 太 字間0.14em 濃橙      … 題名の上の小さな眉・関係ラベル
+ *   type-label    ゴシック 12 太 字間0.08em サブ文字   … 小さな節見出し（隣の土地へ 等）
+ */
+@utility type-display {
+  font-family: var(--font-serif);
+  font-size: 1.75rem;
+  line-height: 1.3;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  @media (width >= 48rem) {
+    font-size: 2rem;
+  }
+}
+@utility type-title {
+  font-family: var(--font-serif);
+  font-size: 1.125rem;
+  line-height: 1.45;
+  letter-spacing: 0.04em;
+  font-weight: 400;
+  @media (width >= 48rem) {
+    font-size: 1.25rem;
+  }
+}
+@utility type-heading {
+  font-size: 1rem;
+  line-height: 1.5;
+  font-weight: 600;
+  letter-spacing: 0.01em;
+}
+@utility type-body {
+  font-size: 1rem;
+  line-height: 1.85;
+}
+@utility type-small {
+  font-size: 0.875rem;
+  line-height: 1.7;
+}
+@utility type-note {
+  font-size: 0.8125rem;
+  line-height: 1.65;
+}
+@utility type-caption {
+  font-size: 0.75rem;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+@utility type-eyebrow {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  letter-spacing: 0.14em;
+  font-weight: 600;
+  color: var(--brand-accent-dark);
+}
+@utility type-label {
+  font-size: 0.75rem;
+  line-height: 1.4;
+  letter-spacing: 0.08em;
+  font-weight: 600;
+  color: var(--muted-foreground);
+}
+
+/*
+ * テキストリンク（遷移リンク）の下線。下線は淡 #ffc985、ホバーでブランド橙。
+ * 文字色は呼び出し側に任せる（本文中は濃 #e56000、一覧の末尾リンクは文字色）。
+ */
+@utility link-underline {
+  text-decoration-line: underline;
+  text-decoration-color: var(--brand-accent-light);
+  text-decoration-thickness: 1.5px;
+  text-underline-offset: 0.25em;
+  transition: text-decoration-color 150ms;
+  &:hover {
+    text-decoration-color: var(--primary);
   }
 }
 

@@ -1,8 +1,11 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
-import { Link } from "@/i18n/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
+import { CorrectionLink } from "@/components/CorrectionLink";
+import { RowList } from "@/components/RowList";
+import { SectionHeading } from "@/components/SectionHeading";
+import { LinkCloud } from "@/components/ui/text-link";
 import {
   fetchItemBySlug,
   fetchItemByShelfSlug,
@@ -237,26 +240,18 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
     <main className="mx-auto w-full max-w-2xl flex-1 py-8 md:max-w-5xl">
       <article>
         {/* 1〜2. カバー + 位置帯。PCではカバー左テキスト・右に位置帯パネル */}
-        <div className="bg-primary md:grid md:grid-cols-[1fr_320px] md:items-stretch md:gap-8 md:rounded-2xl md:p-10">
-          <header className="text-primary-foreground px-4 py-8 md:px-0 md:py-0">
+        <div className="bg-primary md:grid md:grid-cols-[1fr_320px] md:items-stretch md:gap-10 md:rounded-2xl md:p-10">
+          <header className="text-primary-foreground px-4 pt-8 pb-6 md:px-0 md:py-1">
             {/* クリーム系（CLAUDE.md「詳細ページの確定構造」1節。淡トークン#ffc985とは別の、
                 橙カバー上での可読性用の一色） */}
-            <p className="text-xs" style={{ color: "#ffe9cf" }}>
-              {breadcrumb}
-            </p>
+            <p className="type-caption text-cream tracking-[0.12em]">{breadcrumb}</p>
 
             {/* 三点セット: 日本語名を大きく（明朝・白） */}
-            <h1 className="font-serif mt-3 text-3xl md:text-4xl">{displayName}</h1>
-            {subtitle && (
-              <p className="mt-1 text-base" style={{ color: "#ffe9cf" }}>
-                {subtitle}
-              </p>
-            )}
+            <h1 className="type-display mt-2">{displayName}</h1>
+            {subtitle && <p className="type-small text-cream mt-1">{subtitle}</p>}
 
             {/* 概要文（カバーの空白を埋める第一候補。本文エリアからカバーへ移設） */}
-            {item.summary && (
-              <p className="mt-4 max-w-prose text-sm leading-relaxed md:text-base">{item.summary}</p>
-            )}
+            {item.summary && <p className="type-body mt-5 max-w-prose">{item.summary}</p>}
 
             {/* 事実の帯: 発祥・系統・東京からの距離 */}
             <CoverFactChips facts={coverFacts} />
@@ -273,7 +268,7 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
         </div>
 
         {/* 3. 本文（紙） */}
-        <div className="px-4 pt-8 md:grid md:grid-cols-[minmax(0,700px)_260px] md:items-start md:gap-10 md:px-0">
+        <div className="pt-section px-4 md:grid md:grid-cols-[minmax(0,700px)_260px] md:items-start md:gap-12 md:px-0">
           <div className="min-w-0">
             <TableOfContents chapters={chapters} heading={tocHeading} className="mb-8 md:hidden" />
 
@@ -303,40 +298,33 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
                 genre/shelf/tagsのいずれかにguide_linksで結ばれたガイドが無ければ節ごと出さない。
                 「つながり」の手前に置く（CLAUDE.md「ページ型」節） */}
             {beforeYouGoGuides.length > 0 && (
-              <section aria-labelledby="before-you-go-heading" className="mb-8">
-                <h2 id="before-you-go-heading" className="mb-3 text-sm font-semibold">
+              // 「次に進む入口」（ガイドへ）。カード枠は1つにまとめ、中は罫線区切りの行
+              <section
+                aria-labelledby="before-you-go-heading"
+                className="border-rule mb-section rounded-xl border px-4 pt-4 pb-3 md:px-5"
+              >
+                <SectionHeading id="before-you-go-heading" variant="label" className="mb-1">
                   {tg("title")}
-                </h2>
-                <ul className="space-y-2">
-                  {beforeYouGoGuides.map((g) => (
-                    <li key={g.slug}>
-                      <Link
-                        href={`/guide/${g.slug}`}
-                        className="border-border hover:bg-muted/50 block rounded-lg border p-3"
-                      >
-                        <span className="block font-medium">{g.title}</span>
-                        {g.summary && (
-                          <span className="text-muted-foreground block text-xs">{g.summary}</span>
-                        )}
-                      </Link>
-                    </li>
-                  ))}
-                </ul>
+                </SectionHeading>
+                <RowList
+                  rows={beforeYouGoGuides.map((g) => ({
+                    key: g.slug,
+                    href: `/guide/${g.slug}`,
+                    title: g.title,
+                    meta: g.summary,
+                  }))}
+                />
 
                 {/* この場面で（2026-09-24「場面」。場面が無ければ出さない） */}
                 {itemScenes.length > 0 && (
-                  <ul className="mt-3 flex flex-wrap gap-2">
-                    {itemScenes.map((s) => (
-                      <li key={s.slug}>
-                        <Link
-                          href={`/guide/scene/${s.slug}`}
-                          className="border-border hover:bg-muted/50 inline-flex items-center gap-1.5 rounded-full border px-3 py-1.5 text-sm"
-                        >
-                          {tg("sceneChip", { name: tg(`scene.${s.slug}`) })}
-                        </Link>
-                      </li>
-                    ))}
-                  </ul>
+                  <LinkCloud
+                    className="border-rule mt-1 border-t pt-2"
+                    items={itemScenes.map((s) => ({
+                      key: s.slug,
+                      href: `/guide/scene/${s.slug}`,
+                      label: tg("sceneChip", { name: tg(`scene.${s.slug}`) }),
+                    }))}
+                  />
                 )}
               </section>
             )}
@@ -358,7 +346,7 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
           </div>
 
           {/* PC: 右サイド sticky（目次+つながり） */}
-          <aside className="hidden md:sticky md:top-[calc(var(--header-height)+1.5rem)] md:block md:space-y-8">
+          <aside className="hidden md:sticky md:top-[calc(var(--header-height)+1.5rem)] md:block md:space-y-10">
             <TableOfContents chapters={chapters} heading={tocHeading} />
             <ItemConnections
               styleTitle={styleTitle}
@@ -376,11 +364,7 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
         </div>
 
         {/* 5. 出典はDB内部の検証データ。UIには出さず、訂正導線だけを残す */}
-        <p className="mt-10 px-4 text-center md:px-0">
-          <Link href="/contact" className="text-brand-accent-dark text-xs underline">
-            {t("correction")}
-          </Link>
-        </p>
+        <CorrectionLink label={t("correction")} className="mt-section px-4 md:px-0" />
       </article>
 
       <div className="px-4 md:px-0">
