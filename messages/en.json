@@ -100,6 +100,7 @@
     "origin": "Origin",
     "style": "Style",
     "tagsLabel": "Tags",
+    "tagsThemeLabel": "Theme:",
     "unknown": "—",
     "viewOnMap": "View on map",
     "connections": "Connections",
@@ -134,7 +135,9 @@
   "language": {
     "label": "Language",
     "ja": "日本語",
-    "en": "English"
+    "en": "English",
+    "jaShort": "日本語",
+    "enShort": "EN"
   },
   "prefecture": {
     "北海道": "Hokkaido",
@@ -190,19 +193,40 @@
     "味噌": "Miso",
     "塩": "Shio — salt",
     "豚骨": "Tonkotsu — pork bone",
-    "その他": "Other"
+    "その他": "Beyond the four styles"
+  },
+  "styleOther": {
+    "generic": "Other styles"
   },
   "styleNames": {
     "醤油": "Shoyu — soy sauce",
     "味噌": "Miso",
     "塩": "Shio — salt",
     "豚骨": "Tonkotsu — pork bone",
-    "その他": "Other",
     "ピザ": "Pizza",
     "パスタ": "Pasta",
     "ライス": "Rice dishes",
     "フライ": "Fried",
-    "肉": "Meat"
+    "肉": "Meat",
+    "赤身": "Red-fleshed fish",
+    "青魚": "Blue-backed fish",
+    "白身": "White fish",
+    "川魚": "Freshwater fish",
+    "エビ・カニ": "Shrimp and crab",
+    "貝": "Shellfish",
+    "イカ・タコ": "Squid and octopus",
+    "餅・団子": "Mochi and dango",
+    "饅頭・焼き菓子": "Steamed buns and baked sweets",
+    "羊羹・寒天": "Yokan and agar jellies",
+    "干菓子": "Dry confections",
+    "緑茶": "Green tea",
+    "抹茶・粉茶": "Matcha and powdered tea",
+    "発酵茶・番茶": "Fermented and bancha teas",
+    "産地": "By growing region",
+    "芋": "Sweet potato",
+    "麦": "Barley",
+    "米": "Rice",
+    "黒糖・泡盛": "Brown sugar and awamori"
   },
   "genre": {
     "title": "Kinds of {name}",

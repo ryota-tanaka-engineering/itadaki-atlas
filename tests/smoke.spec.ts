@@ -464,7 +464,8 @@ test.describe("F-05 言語切り替え / F-08 SEO", () => {
     // 下部の定義リスト(dl)は廃止し、カバー内の事実チップ列へ統合した。
     // 市区町村名も place_names（実装部隊の報告「/en の本場・産地チップに市区町村名が
     // 日本語のまま」対応）で英語表記になる。
-    await expect(page.getByText(/Origin: Fukuoka Fukuoka/)).toBeVisible();
+    // 県名と市名が同綴りのときは "Fukuoka City, Fukuoka"（"Fukuoka Fukuoka" と重ねない）
+    await expect(page.getByText(/Origin: Fukuoka City, Fukuoka/)).toBeVisible();
     await expect(page.getByText("Tonkotsu — pork bone")).toBeVisible();
     // 出典はDB内部の検証データでUIには出さない（2026-08 デザイン確定）。
     // 代わりに訂正導線だけが出る
@@ -712,7 +713,8 @@ test.describe("食材展開型（和牛・牡蠣）", () => {
     await page.goto("/ja/wagyu/kobe-beef");
     const conn = page.locator("section:visible", { hasText: "この土地と、この素材" });
     await expect(conn.getByText("源流", { exact: true })).toBeVisible();
-    await expect(conn.getByRole("link", { name: /但馬牛/ })).toBeVisible();
+    // 同じ県の項目にも要約が付くため、名前が先頭の行に絞る（他銘柄の要約に「但馬牛」が出る）
+    await expect(conn.getByRole("link", { name: /^但馬牛/ })).toBeVisible();
   });
 
   test("銘柄がデータ投入だけで空白県を埋める（滋賀=近江牛）", async ({ page }) => {

@@ -19,11 +19,18 @@ export function useMasterLabels() {
   const pref = useTranslations("prefecture");
   const style = useTranslations("style");
   const styleNames = useTranslations("styleNames");
+  const styleOther = useTranslations("styleOther");
 
   return {
     prefecture: (v: string | null | undefined) => (v ? pref(v) : null),
-    style: (v: string | null | undefined) => {
+    /**
+     * `genreSlug` は「その他」の言い分けに使う。「4系統の外」はラーメンの4系統が前提の語
+     * なので、ラーメン以外のジャンルの「その他」は汎用の語（styleOther.generic）にする。
+     * ジャンル不明（undefined/null）はラーメン扱い（従来の既定）。
+     */
+    style: (v: string | null | undefined, genreSlug?: string | null) => {
       if (!v) return null;
+      if (v === "その他" && genreSlug && genreSlug !== "ramen") return styleOther("generic");
       if (style.has(v)) return style(v);
       if (locale === "en" && styleNames.has(v)) return styleNames(v);
       return v;

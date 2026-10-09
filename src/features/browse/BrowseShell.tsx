@@ -14,7 +14,7 @@ import { MapView } from "@/features/map/MapView";
 import { mapPinKey } from "@/features/map/pinKey";
 import { useMasterLabels } from "@/features/map/labels";
 import { ChainBridgeSection } from "@/features/map/ChainBridgeSection";
-import { translateCityName, type PlaceNameMap } from "@/features/map/placeNames";
+import { disambiguateSameNameEn, translateCityName, type PlaceNameMap } from "@/features/map/placeNames";
 import { GROUP_COLORS, PIN_STROKE, type ShelfGrp } from "@/features/map/styles";
 import type {
   BrowseItem,
@@ -37,7 +37,7 @@ import { LandStoriesSection } from "./LandStoriesSection";
 import { AboutBlurbSection } from "./AboutBlurbSection";
 import { NextEntriesSection } from "./NextEntriesSection";
 import type { Axis } from "./axes";
-import { countPrefContext, type PrefContextGroup } from "./prefContext";
+import { countPrefContext, formatPrefContextLine } from "./prefContext";
 import { matchesSearchQuery, normalizeSearchText } from "./search";
 
 /** 検索入力の反映を遅らせる時間（作業パッケージ「トップ導線修正」A節）。 */
@@ -76,7 +76,8 @@ export function formatPrefCity(
   const name = prefLabel(pref) ?? pref;
   if (locale === "ja") return `${name}${city ?? ""}`;
   if (!city) return name;
-  return `${name} / ${translateCityName(pref, city, locale, placeNames)}`;
+  const cityName = translateCityName(pref, city, locale, placeNames);
+  return disambiguateSameNameEn(name, city, cityName) ?? `${name} / ${cityName}`;
 }
 
 /**
@@ -589,24 +590,6 @@ export function BrowseShell({
       })),
     }));
   }, [prefFilter, visiblePins, locale, label, ti, placeNames]);
-  // 1群分の文言を組み立てる（体験検品フォローアップ§3「件数の内訳だけでは
-  // 『これは何か』が伝わらない」対応）。代表（先頭最大3件。ランキングにしない）を
-  // 括弧で添える。件数が代表数を超える場合だけ「ほか」を足す。
-  const buildPrefContextLine = useCallback(
-    (
-      key: "prefContextDish" | "prefContextIngredient" | "prefContextPrep",
-      group: PrefContextGroup,
-    ): string | null => {
-      if (group.count === 0) return null;
-      const names = group.representatives.map((r) => (locale === "ja" ? r.nameJa : r.nameRomaji));
-      if (names.length === 0) return t(key, { count: group.count });
-      const hasMore = group.count > names.length;
-      const joined = names.join(locale === "ja" ? "、" : ", ");
-      const withMore = hasMore ? `${joined}${locale === "ja" ? " " : ", "}${t("prefContextMore")}` : joined;
-      return `${t(key, { count: group.count })}${t("prefContextExamples", { names: withMore })}`;
-    },
-    [locale, t],
-  );
   const filteredPrefLabel = useMemo(
     () => (prefFilter ? (label.prefecture(prefFilter) ?? prefFilter) : null),
     [prefFilter, label],
@@ -985,18 +968,9 @@ export function BrowseShell({
               {prefFilter && prefContextCounts && (
                 <div className="mt-1.5 space-y-1.5">
                   {(() => {
-                    const parts = [
-                      buildPrefContextLine("prefContextDish", prefContextCounts.dish),
-                      buildPrefContextLine("prefContextIngredient", prefContextCounts.ingredient),
-                      buildPrefContextLine("prefContextPrep", prefContextCounts.preparation),
-                      prefHonbaCount > 0 ? t("prefContextHonba", { count: prefHonbaCount }) : null,
-                    ].filter((s): s is string => s !== null);
-                    if (parts.length === 0) return null;
-                    return (
-                      <p className="text-sm leading-relaxed">
-                        {parts.join(locale === "ja" ? "・" : " / ")}
-                      </p>
-                    );
+                    const line = formatPrefContextLine(prefContextCounts, prefHonbaCount, locale, t);
+                    if (line === null) return null;
+                    return <p className="text-sm leading-relaxed">{line}</p>;
                   })()}
                   {/* 本場だけの県（発祥ピンが0件）は visibleItems が0件のまま行き止まりに
                       しない（体験原則6。CLUSTER_COUNT_IMPL_BRIEF.md 設計4）。既存の
@@ -1061,7 +1035,7 @@ export function BrowseShell({
                 </div>
                 <div className="flex gap-2">
                   <dt className="text-muted-foreground w-16 shrink-0">{ti("style")}</dt>
-                  <dd>{selected.primaryStyle ? label.style(selected.primaryStyle) : ti("unknown")}</dd>
+                  <dd>{selected.primaryStyle ? label.style(selected.primaryStyle, selected.genreSlug) : ti("unknown")}</dd>
                 </div>
               </dl>
             )}

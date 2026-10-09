@@ -18,10 +18,10 @@ export async function SiteHeader({ locale }: { locale: string }) {
 
   return (
     <header className="bg-background sticky top-0 z-40 h-12 border-b border-[#eee3d2] md:h-[3.875rem]">
-      <div className="mx-auto flex h-full max-w-6xl items-center justify-between gap-4 px-4">
+      <div className="mx-auto flex h-full max-w-6xl items-center justify-between gap-2 px-4 md:gap-4">
         <Link href="/" className="flex min-w-0 shrink-0 items-center gap-2">
           <MonMark />
-          <span className="text-primary truncate text-sm font-bold tracking-[0.08em] md:text-base">
+          <span className="text-primary truncate text-[13px] font-bold tracking-[0.06em] min-[420px]:text-sm min-[420px]:tracking-[0.08em] md:text-base">
             ITADAKI ATLAS
           </span>
         </Link>

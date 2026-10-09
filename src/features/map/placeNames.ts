@@ -28,3 +28,15 @@ export function translateCityName(
   if (locale === "ja") return city;
   return placeNames[`${pref}::${city}`] ?? city;
 }
+
+/**
+ * 英語の発祥地表記で、県名と市名が同じ綴りになる場合（福岡県福岡市＝Fukuoka / Fukuoka、
+ * 京都府京都市＝Kyoto / Kyoto）を区別する。同綴りのときだけ市の種別を付けて
+ * "Fukuoka City, Fukuoka" のようにする（市以外の同綴り、例: 区・町村は重複を1つにする）。
+ * 同綴りでなければ null を返し、呼び出し側が通常の連結表記を使う。ja では使わない。
+ */
+export function disambiguateSameNameEn(prefEn: string, cityJa: string, cityEn: string): string | null {
+  if (prefEn.trim().toLowerCase() !== cityEn.trim().toLowerCase()) return null;
+  if (cityJa.endsWith("市")) return `${cityEn} City, ${prefEn}`;
+  return prefEn;
+}

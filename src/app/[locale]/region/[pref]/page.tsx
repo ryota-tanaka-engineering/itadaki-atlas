@@ -1,12 +1,14 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
+import { getStyleLabeler } from "@/features/map/styleLabel";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CoverHeader } from "@/components/CoverHeader";
 import { IndexRow } from "@/components/IndexRow";
 import { SectionHeading } from "@/components/SectionHeading";
 import { LabelChip } from "@/components/ui/chip";
 import { ArrowLink, LinkCloud } from "@/components/ui/text-link";
+import { countPrefContext, formatPrefContextLine } from "@/features/browse/prefContext";
 import { fetchItemsByPref, fetchShelves, fetchPrefsWithItems, type Locale } from "@/features/map/queries";
 import { PIN_BASE, PIN_STROKE, groupColor, styleColor } from "@/features/map/styles";
 import { fetchGuidesForPref } from "@/features/guide/queries";
@@ -37,13 +39,15 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   if (items.length === 0) return {};
   const t = await getTranslations({ locale, namespace: "prefecture" });
   const name = t(pref);
+  // 件数は「その県で生まれた／育てる／仕込む」（発祥ベース）。本場・名産地は数に混ぜない
+  const originCount = items.filter((i) => i.regionRelation === null).length;
 
   return {
     title: locale === "ja" ? `${name}の食` : `What to eat in ${name}`,
     description:
       locale === "ja"
-        ? `${name}で生まれた食べもの${items.length}件。発祥地と系統で整理。`
-        : `${items.length} foods that originated in ${name}, organized by origin and style.`,
+        ? `${name}で生まれた食べもの${originCount}件。発祥地と系統で整理。`
+        : `${originCount} foods that originated in ${name}, organized by origin and style.`,
     alternates: localeAlternates(`/region/${prefSlug}`),
   };
 }
@@ -79,9 +83,10 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
   const t = await getTranslations("region");
   const tg = await getTranslations("guide");
   const tp = await getTranslations("prefecture");
-  const ts = await getTranslations("style");
+  const ts = await getStyleLabeler(locale);
   const trr = await getTranslations("regionRelation");
   const th = await getTranslations("header");
+  const tb = await getTranslations("browse");
   // カバーの副題: もう一方の言語の県名（ja ページなら "Fukushima"）
   const tpOther = await getTranslations({ locale: locale === "ja" ? "en" : "ja", namespace: "prefecture" });
   const name = tp(pref);
@@ -89,11 +94,20 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
 
   const grpOf = new Map(shelves.map((s) => [s.slug, s.grp]));
   const grpOfItem = (i: (typeof items)[number]) =>
-    i.regionRelation === "本場" ? "honba" : grpOf.get(i.shelfSlug);
+    i.regionRelation !== null ? "honba" : grpOf.get(i.shelfSlug);
   const groups = GRP_ORDER.map((grp) => ({
     grp,
     items: items.filter((i) => grpOfItem(i) === grp),
   })).filter((g) => g.items.length > 0);
+
+  // 見出しの件数は発祥ベース（トップの県絞り込みと同じ数え方）。本場・名産地は別群で数える
+  const originItems = items.filter((i) => i.regionRelation === null);
+  const prefContextLine = formatPrefContextLine(
+    countPrefContext(originItems, shelves),
+    new Set(items.filter((i) => i.regionRelation === "本場").map((i) => i.slug)).size,
+    locale,
+    tb,
+  );
 
   const withItems = new Set(prefsWithItems);
   const neighbors = (ADJACENT_PREFS[pref] ?? []).filter((p) => withItems.has(p));
@@ -105,11 +119,15 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
           eyebrow={th("navPlace")}
           title={name}
           subtitle={isJa ? null : tpOther(pref)}
-          meta={t("count", { count: items.length })}
+          meta={t("count", { count: originItems.length })}
         />
       </div>
 
       <div className="px-4 pt-stack md:px-0">
+        {/* 「これは何か」の一行（体験原則2。トップの県絞り込みと同じ文言・同じ組み立て） */}
+        {prefContextLine && (
+          <p className="type-small mb-stack leading-relaxed">{prefContextLine}</p>
+        )}
         {groups.map((group) => (
           <section key={group.grp} className="mb-section">
             <SectionHeading
@@ -150,7 +168,7 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
                       item.primaryStyle ||
                       (item.regionRelation && item.regionRelation !== "本場") ? (
                         <>
-                          {item.primaryStyle && <LabelChip>{ts(item.primaryStyle)}</LabelChip>}
+                          {item.primaryStyle && <LabelChip>{ts(item.primaryStyle, item.genreSlug)}</LabelChip>}
                           {/* 発祥ではなく名産地等で結びつくアイテムの区別（本場は群見出しで分かるので重ねない） */}
                           {item.regionRelation && item.regionRelation !== "本場" && (
                             <LabelChip>{trr(item.regionRelation)}</LabelChip>

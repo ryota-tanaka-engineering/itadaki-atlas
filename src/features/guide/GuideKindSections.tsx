@@ -2,6 +2,8 @@ import { getTranslations } from "next-intl/server";
 
 import { IndexRow } from "@/components/IndexRow";
 import { SectionHeading } from "@/components/SectionHeading";
+import { fetchPlaceNames } from "@/features/map/queries";
+import { disambiguateSameNameEn, translateCityName } from "@/features/map/placeNames";
 import type { Prefecture } from "@/lib/prefectures";
 
 import { GUIDE_KINDS, type GuideKind } from "./kinds";
@@ -12,11 +14,22 @@ import type { GuideSummary } from "./types";
  * 共有。見た目・並び順（kind → sort_order）を1箇所にまとめ、両ページでズレないようにする）。
  * 1件も無いkindの見出しは出さない（`/tags` と同じ方針）。
  */
-type Props = { guides: GuideSummary[] };
+type Props = { guides: GuideSummary[]; locale: string };
 
-export async function GuideKindSections({ guides }: Props) {
+export async function GuideKindSections({ guides, locale }: Props) {
   const t = await getTranslations("guide");
   const tp = await getTranslations("prefecture");
+  // en は市区町村名を place_names で英語表記にする（日本語のまま出さない）
+  const placeNames = locale === "en" ? await fetchPlaceNames("en") : {};
+
+  // 「県名 市名」。en は place_names で英語表記にし、県名と市名が同綴りなら区別する
+  const placeLabel = (pref: string, city: string | null): string => {
+    const prefName = tp(pref as Prefecture);
+    if (!city) return prefName;
+    if (locale !== "en") return `${prefName} ${city}`;
+    const cityName = translateCityName(pref, city, "en", placeNames);
+    return disambiguateSameNameEn(prefName, city, cityName) ?? `${prefName} ${cityName}`;
+  };
 
   const groups = GUIDE_KINDS.map((kind: GuideKind) => ({
     kind,
@@ -40,8 +53,7 @@ export async function GuideKindSections({ guides }: Props) {
                   labels={
                     g.pref ? (
                       <span className="type-caption text-muted-foreground">
-                        {tp(g.pref as Prefecture)}
-                        {g.city ? ` ${g.city}` : ""}
+                        {placeLabel(g.pref, g.city)}
                       </span>
                     ) : null
                   }

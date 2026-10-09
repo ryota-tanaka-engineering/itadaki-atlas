@@ -11,6 +11,8 @@ import { fetchGuideBySlug, fetchOtherGuides, fetchScenesForGuide } from "@/featu
 import { parseGuideMarkdown } from "@/features/guide/markdown";
 import { GuideBody } from "@/features/guide/GuideBody";
 import { PositionBand } from "@/features/map/PositionBand";
+import { disambiguateSameNameEn, translateCityName } from "@/features/map/placeNames";
+import { fetchPlaceNames } from "@/features/map/queries";
 import { localeAlternates } from "@/lib/seo";
 import type { Prefecture } from "@/lib/prefectures";
 
@@ -68,9 +70,15 @@ export default async function GuideDetailPage({ params }: { params: Promise<Para
 
   // 位置帯（場所を持つガイドのみ。2026-09-12「体験と場所」）。座標が両方揃っている時だけ出す
   const hasGeo = guide.lat !== null && guide.lng !== null;
-  const placeLabel = guide.pref
-    ? `${tp(guide.pref as Prefecture)}${guide.city ? (locale === "ja" ? guide.city : ` ${guide.city}`) : ""}`
-    : guide.title;
+  const placeNames = locale === "en" && guide.city ? await fetchPlaceNames("en") : {};
+  const placeLabel = (() => {
+    if (!guide.pref) return guide.title;
+    const prefName = tp(guide.pref as Prefecture);
+    if (!guide.city) return prefName;
+    if (locale === "ja") return `${prefName}${guide.city}`;
+    const cityName = translateCityName(guide.pref, guide.city, "en", placeNames);
+    return disambiguateSameNameEn(prefName, guide.city, cityName) ?? `${prefName} ${cityName}`;
+  })();
 
   return (
     <main className="mx-auto w-full max-w-2xl flex-1 py-8 md:max-w-3xl">

@@ -23,7 +23,7 @@ import {
   type Locale,
   type Shelf,
 } from "@/features/map/queries";
-import { translateCityName } from "@/features/map/placeNames";
+import { disambiguateSameNameEn, translateCityName } from "@/features/map/placeNames";
 import { ChainBridgeSection } from "@/features/map/ChainBridgeSection";
 import { PIN_STROKE, styleColor } from "@/features/map/styles";
 import { GUIDE_SCENES, fetchGuidesForItem } from "@/features/guide/queries";
@@ -135,14 +135,17 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
   const otherName = isJa ? g.nameEn : g.nameJa;
   const shelfName = shelf ? (isJa ? shelf.nameJa : shelf.nameEn) : null;
   const intro = isJa ? g.introJa : g.introEn;
-  const originLabel = (item: (typeof items)[number]) =>
-    item.originPref
-      ? `${tp(item.originPref)}${
-          item.originCity
-            ? ` ${translateCityName(item.originPref, item.originCity, locale as Locale, placeNames)}`
-            : ""
-        }`
-      : null;
+  const originLabel = (item: (typeof items)[number]) => {
+    if (!item.originPref) return null;
+    const prefName = tp(item.originPref);
+    if (!item.originCity) return prefName;
+    const cityName = translateCityName(item.originPref, item.originCity, locale as Locale, placeNames);
+    // 県名と市名が同綴りの英語表記は区別する（"Fukuoka City, Fukuoka"）。ja は従来どおり連結しない
+    return (
+      (locale === "en" ? disambiguateSameNameEn(prefName, item.originCity, cityName) : null) ??
+      `${prefName} ${cityName}`
+    );
+  };
 
   // 系統名の表示ラベルを解決する（2026-09 系統の自由化: ジャンルごとに任意の値を
   // 持てるため、固定の翻訳キー一覧を前提にできない）。
@@ -151,8 +154,12 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
   // 3. どちらにも無ければ入力値をそのまま表示する（ja はそもそも日本語なので実質これで足りる）
   const styleDict = (messages.style ?? {}) as Record<string, string>;
   const styleNamesDict = (messages.styleNames ?? {}) as Record<string, string>;
+  const styleOtherGeneric = ((messages.styleOther ?? {}) as Record<string, string>).generic;
   const translateStyle = (style: string): string =>
-    styleDict[style] ?? (locale === "en" ? styleNamesDict[style] : undefined) ?? style;
+    // 「4系統の外」はラーメンの4系統が前提の語。ラーメン以外の「その他」は汎用の語にする
+    style === "その他" && g.slug !== "ramen" && styleOtherGeneric
+      ? styleOtherGeneric
+      : (styleDict[style] ?? (locale === "en" ? styleNamesDict[style] : undefined) ?? style);
 
   // 系統ごとにグルーピング（データに実際に現れる系統だけが出る。出現順）。
   // 系統は発祥地の有無に関係なく付くので（洋食の「フライ」「肉」は全国区＝図鑑枠が多い）、

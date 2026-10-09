@@ -100,6 +100,7 @@
     "origin": "発祥",
     "style": "系統",
     "tagsLabel": "タグ",
+    "tagsThemeLabel": "興味:",
     "unknown": "—",
     "viewOnMap": "地図で見る",
     "connections": "つながり",
@@ -134,7 +135,9 @@
   "language": {
     "label": "言語",
     "ja": "日本語",
-    "en": "English"
+    "en": "English",
+    "jaShort": "日本語",
+    "enShort": "EN"
   },
   "prefecture": {
     "北海道": "北海道",
@@ -190,7 +193,10 @@
     "味噌": "味噌",
     "塩": "塩",
     "豚骨": "豚骨",
-    "その他": "その他"
+    "その他": "4系統の外"
+  },
+  "styleOther": {
+    "generic": "ほかの系統"
   },
   "genre": {
     "title": "{name}の種類",

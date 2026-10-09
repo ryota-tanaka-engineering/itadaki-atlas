@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import { getTranslations, setRequestLocale } from "next-intl/server";
 
+import { getStyleLabeler } from "@/features/map/styleLabel";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CorrectionLink } from "@/components/CorrectionLink";
 import { RowList } from "@/components/RowList";
@@ -16,7 +17,7 @@ import {
   fetchStyleSiblings,
   type Locale,
 } from "@/features/map/queries";
-import { translateCityName } from "@/features/map/placeNames";
+import { disambiguateSameNameEn, translateCityName } from "@/features/map/placeNames";
 import { styleColor } from "@/features/map/styles";
 import { parseBodyMarkdown } from "@/features/map/markdown";
 import { distanceFromTokyo } from "@/features/map/geo";
@@ -74,7 +75,7 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
 
   const t = await getTranslations("item");
   const tp = await getTranslations("prefecture");
-  const ts = await getTranslations("style");
+  const ts = await getStyleLabeler(locale);
   const tr = await getTranslations("relation");
   const trr = await getTranslations("regionRelation");
   const tg = await getTranslations("guide");
@@ -123,13 +124,16 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
   // 2. 位置帯: 発祥地名+座標。座標が無いアイテム（部位・定番種）は帯ごと出さない
   const hasGeo = item.lat !== null && item.lng !== null;
   const originLabel = item.originPref
-    ? `${tp(item.originPref)}${
-        item.originCity
-          ? isJa
-            ? item.originCity
-            : ` ${translateCityName(item.originPref, item.originCity, locale as Locale, placeNames)}`
-          : ""
-      }`
+    ? (() => {
+        const prefName = tp(item.originPref);
+        if (!item.originCity) return prefName;
+        if (isJa) return `${prefName}${item.originCity}`;
+        const cityName = translateCityName(item.originPref, item.originCity, locale as Locale, placeNames);
+        // 福岡県福岡市のように県名と市名が同綴りの英語表記は区別する（"Fukuoka City, Fukuoka"）
+        return (
+          disambiguateSameNameEn(prefName, item.originCity, cityName) ?? `${prefName} ${cityName}`
+        );
+      })()
     : null;
   const placeLabel = originLabel ?? item.nameRomaji;
   // 東京駅からの距離・方位（30km未満=都内相当は出さない）。2026-09 カバー情報密度
@@ -144,7 +148,7 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
   const coverFacts: CoverFact[] = [];
   if (originLabel) coverFacts.push({ key: "origin", label: `${t("origin")}: ${originLabel}` });
   if (item.primaryStyle) {
-    coverFacts.push({ key: "style", label: ts(item.primaryStyle), dotColor: styleColor(item.primaryStyle) });
+    coverFacts.push({ key: "style", label: ts(item.primaryStyle, item.genreSlug), dotColor: styleColor(item.primaryStyle) });
   }
   if (distanceLabel) coverFacts.push({ key: "distance", label: distanceLabel });
 
@@ -231,6 +235,8 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
     href: `/${r.genreSlug ?? r.shelfSlug}/${r.slug}`,
     name: isJa ? r.nameJa : r.nameRomaji,
     badge: item.originPref ? t("samePref", { pref: tp(item.originPref) }) : undefined,
+    // 他の群と同じく一行の要約を添える（行き止まり・見出しだけの行を作らない）
+    meta: r.summary ?? undefined,
   }));
   const landCards = [...relatedCards, ...samePrefCards];
   const regionPageHref = item.originPref ? `/region/${PREF_SLUGS[item.originPref as Prefecture]}` : null;
@@ -257,7 +263,7 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
             <CoverFactChips facts={coverFacts} />
 
             {/* タグ: タグページへのリンク */}
-            <CoverTagChips tags={coverTags} ariaLabel={t("tagsLabel")} />
+            <CoverTagChips tags={coverTags} ariaLabel={t("tagsLabel")} label={t("tagsThemeLabel")} />
           </header>
 
           {hasGeo && (

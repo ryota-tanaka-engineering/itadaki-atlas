@@ -21,7 +21,7 @@ import {
   type ShelfGrp,
 } from "./styles";
 import { useMasterLabels } from "./labels";
-import { buildPrefClusters, type PrefCluster } from "./prefClusters";
+import { buildPrefClusters, relaxClusterPoints, stillOverlapping, type PrefCluster } from "./prefClusters";
 
 /**
  * 地図トーン（CLAUDE.md「デザイン」節が正典。海 #efe8da・陸 #fffdf7・海岸線/境界 #c3b8a6）。
@@ -175,7 +175,9 @@ const CLUSTER_ZOOM_THRESHOLD = 5;
  */
 const CLUSTER_SIZE_PX = 22;
 const CLUSTER_SIZE_LARGE_PX = 26;
-const CLUSTER_MIN_DIST = 27;
+/** 重なりが解けない小さい県（件数1〜2）を数字なしの点にするときの直径と、その対象の最大件数。 */
+const CLUSTER_DOT_SIZE_PX = 14;
+const CLUSTER_DOT_MAX_COUNT = 2;
 /** 件数が中央値のこの倍率以上の県だけを大きい段にする（絞り込み中も相対で効く）。 */
 const CLUSTER_LARGE_RATIO = 1.25;
 /** クラスタの塗り（通常＝クリーム / 多い県＝淡）。ブランドの淡 #ffc985 とカバーのクリーム #ffe9cf */
@@ -622,31 +624,27 @@ export function MapView({
       // 位置の「真実」は重心のまま（flyToPrefecture は items を originPref で
       // 再フィルタするため、ここでずらした座標には依存しない）。
       // 正確な力学は不要なので、ペアごとの押し出しを数回反復するだけの簡易版にする。
-      const points = prefClusters.map((c) => {
+      const projected = prefClusters.map((c) => {
         const p = map.project([c.lng, c.lat]);
         return { x: p.x, y: p.y };
       });
-      for (let iter = 0; iter < 6; iter++) {
-        let moved = false;
-        for (let i = 0; i < points.length; i++) {
-          for (let j = i + 1; j < points.length; j++) {
-            const dx = points[j].x - points[i].x;
-            const dy = points[j].y - points[i].y;
-            const dist = Math.hypot(dx, dy) || 0.001;
-            if (dist < CLUSTER_MIN_DIST) {
-              moved = true;
-              const push = (CLUSTER_MIN_DIST - dist) / 2;
-              const ux = dx / dist;
-              const uy = dy / dist;
-              points[i].x -= ux * push;
-              points[i].y -= uy * push;
-              points[j].x += ux * push;
-              points[j].y += uy * push;
-            }
-          }
-        }
-        if (!moved) break;
-      }
+      const displayCountOf = (c: (typeof prefClusters)[number]) =>
+        c.count === 0 && c.honbaCount > 0 ? c.honbaCount : c.count;
+      const fullRadii = prefClusters.map(
+        (c) => (displayCountOf(c) >= largeAt ? CLUSTER_SIZE_LARGE_PX : CLUSTER_SIZE_PX) / 2,
+      );
+      // 1回目: 全部を数字つきの丸として緩和する。絞り込み中は地図が小さな帯（SP 38vh）に
+      // 縮み、小さい県同士が密集して緩和しきれない（体験検品 2026-10-09「ラーメン絞り込みで
+      // SP のクラスタの数字が重なる」）。
+      let points = relaxClusterPoints(projected, fullRadii);
+      // 2回目: それでも重なる県のうち件数1〜2のものは数字を出さない小さな点にして、押し分け直す
+      // （件数は aria-label に残る。選ぶとその県に絞り込まれ、件数は見出しで読める）。
+      const overlapped = stillOverlapping(points, fullRadii);
+      const dotIndexes = new Set(
+        [...overlapped].filter((i) => displayCountOf(prefClusters[i]) <= CLUSTER_DOT_MAX_COUNT),
+      );
+      const radii = fullRadii.map((r, i) => (dotIndexes.has(i) ? CLUSTER_DOT_SIZE_PX / 2 : r));
+      if (dotIndexes.size > 0) points = relaxClusterPoints(projected, radii);
 
       prefClusters.forEach((cluster, i) => {
         const el = document.createElement("button");
@@ -679,8 +677,9 @@ export function MapView({
         // 原点からの距離×10%だけ飛ぶ（本番レビュー「ホバー/フォーカスで別の位置に
         // 出現して押せない」の真因）。視覚は内側 span に持たせる。position は本場バッジ
         // （右上の中抜き丸）の絶対配置の基準にするため relative を付ける。
-        const large = cluster.count >= largeAt;
-        const sizePx = large ? CLUSTER_SIZE_LARGE_PX : CLUSTER_SIZE_PX;
+        const large = displayCountOf(cluster) >= largeAt;
+        const isDot = dotIndexes.has(i);
+        const sizePx = isDot ? CLUSTER_DOT_SIZE_PX : large ? CLUSTER_SIZE_LARGE_PX : CLUSTER_SIZE_PX;
         el.className =
           "group relative cursor-pointer rounded-full focus-visible:outline-2 focus-visible:outline-offset-2";
         el.style.width = `${sizePx}px`;
@@ -697,12 +696,12 @@ export function MapView({
           inner.style.backgroundColor = "#fffdf7";
           inner.style.border = `1.5px solid ${PIN_STROKE}`;
           inner.style.boxShadow = `inset 0 0 0 2.5px ${PIN_BASE}`;
-          inner.textContent = String(cluster.honbaCount);
+          inner.textContent = isDot ? "" : String(cluster.honbaCount);
         } else {
           // 淡いクリーム（多い県は淡 #ffc985）＋橙の縁
           inner.style.backgroundColor = large ? CLUSTER_FILL_LARGE : CLUSTER_FILL;
           inner.style.border = `1.5px solid ${PIN_BASE}`;
-          inner.textContent = String(cluster.count);
+          inner.textContent = isDot ? "" : String(cluster.count);
         }
         el.appendChild(inner);
 
@@ -754,7 +753,7 @@ export function MapView({
             : pinT("pinAriaLabel", {
                 name: pinName,
                 prefCity: pinPrefCity,
-                style: item.primaryStyle ? (pinLabel.style(item.primaryStyle) ?? item.primaryStyle) : pinT("styleUnknown"),
+                style: item.primaryStyle ? (pinLabel.style(item.primaryStyle, item.genreSlug) ?? item.primaryStyle) : pinT("styleUnknown"),
               }),
         );
 

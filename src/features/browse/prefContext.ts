@@ -54,3 +54,36 @@ export function countPrefContext(
 
   return groups;
 }
+
+type PrefContextKey = "prefContextDish" | "prefContextIngredient" | "prefContextPrep" | "prefContextHonba";
+
+/**
+ * 県の一行文脈の文字列を組み立てる（トップの県絞り込みと県ページで共有。
+ * 体験原則2「選択の直後に必ず文脈を出す」）。`t` は messages の `browse` 名前空間の翻訳関数。
+ * 0件の群は出さない。代表（先頭最大3件）を括弧で添え、件数が代表数を超えるときだけ「ほか」を足す。
+ * 全部0件なら null。
+ */
+export function formatPrefContextLine(
+  counts: PrefContextCounts,
+  honbaCount: number,
+  locale: string,
+  t: (key: PrefContextKey | "prefContextExamples" | "prefContextMore", values?: Record<string, string | number>) => string,
+): string | null {
+  const isJa = locale === "ja";
+  const groupLine = (key: PrefContextKey, group: PrefContextGroup): string | null => {
+    if (group.count === 0) return null;
+    const names = group.representatives.map((r) => (isJa ? r.nameJa : r.nameRomaji));
+    if (names.length === 0) return t(key, { count: group.count });
+    const joined = names.join(isJa ? "、" : ", ");
+    const withMore =
+      group.count > names.length ? `${joined}${isJa ? " " : ", "}${t("prefContextMore")}` : joined;
+    return `${t(key, { count: group.count })}${t("prefContextExamples", { names: withMore })}`;
+  };
+  const parts = [
+    groupLine("prefContextDish", counts.dish),
+    groupLine("prefContextIngredient", counts.ingredient),
+    groupLine("prefContextPrep", counts.preparation),
+    honbaCount > 0 ? t("prefContextHonba", { count: honbaCount }) : null,
+  ].filter((s): s is string => s !== null);
+  return parts.length === 0 ? null : parts.join(isJa ? "・" : " / ");
+}

@@ -39,10 +39,24 @@ export type CoverTag = {
 };
 
 /** タグ: そのアイテムのタグをカバー内に並べ、/tag/[slug] へリンクする。 */
-export function CoverTagChips({ tags, ariaLabel }: { tags: CoverTag[]; ariaLabel: string }) {
+export function CoverTagChips({
+  tags,
+  ariaLabel,
+  label,
+}: {
+  tags: CoverTag[];
+  ariaLabel: string;
+  /** 下線リンクの前に置く小さな見出し語（「興味:」）。下線リンクが何への遷移か分かるようにする。 */
+  label?: string;
+}) {
   if (tags.length === 0) return null;
   return (
-    <nav aria-label={ariaLabel} className="mt-3">
+    <nav aria-label={ariaLabel} className="mt-3 flex flex-wrap items-baseline gap-x-2">
+      {label && (
+        <span aria-hidden="true" className="type-caption text-cream">
+          {label}
+        </span>
+      )}
       <ul className="flex flex-wrap gap-x-4 gap-y-1">
         {tags.map((tag) => (
           <li key={tag.slug}>

@@ -16,19 +16,27 @@ export function LanguageSwitcher({ locale }: { locale: string }) {
   const pathname = usePathname();
 
   return (
-    <nav aria-label={t("label")} className="flex gap-1">
+    <nav aria-label={t("label")} className="flex gap-0.5 md:gap-1">
       {routing.locales.map((l) => (
         <Link
           key={l}
           href={pathname}
           locale={l}
           hrefLang={l}
+          aria-label={t(l)}
           aria-current={l === locale ? "true" : undefined}
-          className={`rounded px-2 py-1 text-xs ${
+          className={`rounded px-1.5 py-1 text-xs md:px-2 ${
             l === locale ? "bg-primary text-primary-foreground" : "bg-muted text-muted-foreground"
           }`}
         >
-          {t(l)}
+          {/* SP（390px以下）はヘッダーに収めるため短い表記（EN）にする。
+              アクセシブルネームは常にフル表記（aria-label）。 */}
+          <span aria-hidden="true" className="md:hidden">
+            {t(`${l}Short`)}
+          </span>
+          <span aria-hidden="true" className="hidden md:inline">
+            {t(l)}
+          </span>
         </Link>
       ))}
     </nav>
