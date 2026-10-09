@@ -104,7 +104,7 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
         <CoverHeader
           eyebrow={th("navPlace")}
           title={name}
-          subtitle={tpOther(pref)}
+          subtitle={isJa ? null : tpOther(pref)}
           meta={t("count", { count: items.length })}
         />
       </div>
@@ -139,7 +139,7 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
                     name={isJa ? item.nameJa : item.nameRomaji}
                     // 三点セット: 1行目に名前＋もう一方の表記、英訳は重複を消して2行目に
                     aside={isJa ? item.nameRomaji : item.nameJa}
-                    gloss={englishGloss(item.nameEn, item.nameRomaji)}
+                    gloss={isJa ? null : englishGloss(item.nameEn, item.nameRomaji)}
                     summary={item.summary}
                     dot={
                       item.primaryStyle

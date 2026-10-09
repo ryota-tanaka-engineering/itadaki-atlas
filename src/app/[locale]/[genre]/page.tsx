@@ -177,7 +177,7 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
         <CoverHeader
           eyebrow={shelfName}
           title={name}
-          subtitle={otherName !== name ? otherName : null}
+          subtitle={!isJa && otherName !== name ? otherName : null}
           meta={t("count", { count: items.length })}
         />
       </div>
@@ -374,7 +374,7 @@ async function ShelfView({ shelf, locale }: { shelf: Shelf; locale: string }) {
         <CoverHeader
           eyebrow={t(`grpMeta.${shelf.grp}`)}
           title={name}
-          subtitle={isJa ? shelf.nameEn : shelf.nameJa}
+          subtitle={isJa ? null : shelf.nameJa}
           meta={t("count", { count: totalCount })}
         />
       </div>

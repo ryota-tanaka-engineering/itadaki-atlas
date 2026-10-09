@@ -62,7 +62,7 @@ export default async function TagPage({ params }: { params: Promise<Params> }) {
         <CoverHeader
           eyebrow={th("navInterest")}
           title={isJa ? tag.nameJa : tag.nameEn}
-          subtitle={isJa ? tag.nameEn : tag.nameJa}
+          subtitle={isJa ? null : tag.nameJa}
           meta={`${tag.definition} ・ ${t("count", { count: items.length })}`}
         />
       </div>
@@ -80,7 +80,7 @@ export default async function TagPage({ params }: { params: Promise<Params> }) {
                     href={`/${item.genreSlug ?? item.shelfSlug}/${item.slug}`}
                     name={isJa ? item.nameJa : item.nameRomaji}
                     aside={isJa ? item.nameRomaji : item.nameJa}
-                    gloss={englishGloss(item.nameEn, item.nameRomaji)}
+                    gloss={isJa ? null : englishGloss(item.nameEn, item.nameRomaji)}
                     labels={<LabelChip>{breadcrumb}</LabelChip>}
                   />
                 </li>
