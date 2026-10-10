@@ -21,7 +21,7 @@ import {
 } from "@/features/map/queries";
 import { translateCityName } from "@/features/map/placeNames";
 import { ChainBridgeSection } from "@/features/map/ChainBridgeSection";
-import { PIN_STROKE, styleColor } from "@/features/map/styles";
+import { orderStyles, PIN_STROKE, styleColor } from "@/features/map/styles";
 import { GUIDE_SCENES, fetchGuidesForItem } from "@/features/guide/queries";
 import { absoluteUrl, localeAlternates } from "@/lib/seo";
 import { breadcrumbJsonLd, itemListJsonLd } from "@/lib/jsonld";
@@ -141,7 +141,8 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
   const translateStyle = (style: string): string =>
     styleDict[style] ?? (locale === "en" ? styleNamesDict[style] : undefined) ?? style;
 
-  // 系統ごとにグルーピング（データに実際に現れる系統だけが出る。出現順）。
+  // 系統ごとにグルーピング（データに実際に現れる系統だけが出る。genre_styles.sort_order
+  // があればその順、無い系統は出現順で後ろ）。
   // 系統は発祥地の有無に関係なく付くので（洋食の「フライ」「肉」は全国区＝図鑑枠が多い）、
   // 系統群は全アイテムから作り、図鑑には「系統も発祥地も持たない」ものだけを残す
   const styleOrder: string[] = [];
@@ -150,7 +151,7 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
       styleOrder.push(item.primaryStyle);
     }
   }
-  const byStyle = styleOrder.map((style) => ({
+  const byStyle = orderStyles(styleOrder, styleIntros.order).map((style) => ({
     style,
     items: items.filter((i) => i.primaryStyle === style),
   }));
@@ -225,9 +226,9 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
               <span className="text-muted-foreground text-sm font-normal">{grp.items.length}</span>
             </h2>
             {/* 系統の一文（体験原則2: 見出しの名前だけでは何の区分か伝わらない）。未投入なら出さない */}
-            {grp.style && styleIntros[grp.style] && (
+            {grp.style && styleIntros.intros[grp.style] && (
               <p className="text-muted-foreground mb-2 text-sm leading-relaxed" data-testid="style-intro">
-                {styleIntros[grp.style]}
+                {styleIntros.intros[grp.style]}
               </p>
             )}
             <ul className="divide-border divide-y">

@@ -14,6 +14,11 @@ describe("genreStyleFileSchema / toDbRows", () => {
     ]);
   });
 
+  it("sort_order があれば両ロケールの行に載る", () => {
+    const rows = genreStyleFileSchema.parse([{ ...r, sort_order: 2 }]);
+    expect(toDbRows(rows).map((x) => x.sort_order)).toEqual([2, 2]);
+  });
+
   it("同じジャンル×系統の重複は弾く", () => {
     expect(genreStyleFileSchema.safeParse([r, r]).success).toBe(false);
   });

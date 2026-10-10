@@ -96,3 +96,13 @@ export function localizedPlaceNameField(lang: string): ExpressionSpecification |
   if (lang !== "en") return null;
   return ["coalesce", ["get", "name:en"], ["get", "name:latin"], ["get", "pgf:name:en"], ["get", "name"]];
 }
+
+/**
+ * ジャンルページの系統見出しの並び（2026-10-10）。`order`（genre_styles.sort_order）を持つ系統を
+ * 小さい順に先に置き、持たない系統は一覧での出現順のまま後ろに続ける。
+ */
+export function orderStyles(appearance: readonly string[], order: Readonly<Record<string, number>>): string[] {
+  const ranked = appearance.filter((s) => s in order).sort((a, b) => order[a] - order[b]);
+  const rest = appearance.filter((s) => !(s in order));
+  return [...ranked, ...rest];
+}

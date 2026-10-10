@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { localizedPlaceNameField, styleColor, groupColor, GROUP_COLORS, PIN_BASE, RAMEN_STYLE_COLORS } from "./styles";
+import { localizedPlaceNameField, orderStyles, styleColor, groupColor, GROUP_COLORS, PIN_BASE, RAMEN_STYLE_COLORS } from "./styles";
 
 describe("localizedPlaceNameField", () => {
   it("ja では上書きしない（@protomaps/basemaps 既定の get_multiline_name を使う）", () => {
@@ -48,5 +48,15 @@ describe("groupColor（2026-09「丸だけで色分け」決定）", () => {
     expect(groupColor("honba")).toBe(PIN_BASE);
     expect(groupColor(null)).toBe(PIN_BASE);
     expect(groupColor(undefined)).toBe(PIN_BASE);
+  });
+});
+
+describe("orderStyles", () => {
+  it("sort_order のある系統を先に小さい順、無い系統は出現順で後ろ", () => {
+    expect(orderStyles(["巻き", "その他", "握り", "姿"], { 握り: 1, 巻き: 2, 姿: 4 })).toEqual(["握り", "巻き", "姿", "その他"]);
+  });
+
+  it("順序が無ければ出現順のまま", () => {
+    expect(orderStyles(["醤油", "味噌"], {})).toEqual(["醤油", "味噌"]);
   });
 });

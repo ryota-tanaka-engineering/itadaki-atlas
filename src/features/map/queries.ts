@@ -342,23 +342,35 @@ export async function fetchItemBySlug(
  * ジャンルの系統（日本語の値）→ 一文。ロケールの行が無ければ ja。
  * テーブル未作成・未投入なら空（系統見出しの下に何も出さないだけ）。
  */
-export async function fetchGenreStyleIntros(genreSlug: string, locale: Locale): Promise<Record<string, string>> {
+export type GenreStyleIntros = {
+  /** 系統 → 一文（ロケール、無ければ ja） */
+  intros: Record<string, string>;
+  /** 系統 → 並び順（genre_styles.sort_order。未設定の系統は載らない） */
+  order: Record<string, number>;
+};
+
+export async function fetchGenreStyleIntros(genreSlug: string, locale: Locale): Promise<GenreStyleIntros> {
   const db = await createClient();
-  const { data, error } = await db.from("genre_styles").select("style, locale, intro").eq("genre_slug", genreSlug);
+  // select("*"): sort_order 列（20261010200000）の適用前でも落とさない
+  const { data, error } = await db.from("genre_styles").select("*").eq("genre_slug", genreSlug);
   if (error) {
     console.warn(`fetchGenreStyleIntros skipped: ${error.message}`);
-    return {};
+    return { intros: {}, order: {} };
   }
-  const byStyle = new Map<string, { locale: string; intro: string }[]>();
-  for (const r of (data ?? []) as { style: string; locale: string; intro: string }[]) {
+  type Row = { style: string; locale: string; intro: string; sort_order?: number | null };
+  const byStyle = new Map<string, Row[]>();
+  for (const r of (data ?? []) as Row[]) {
     byStyle.set(r.style, [...(byStyle.get(r.style) ?? []), r]);
   }
-  const out: Record<string, string> = {};
+  const intros: Record<string, string> = {};
+  const order: Record<string, number> = {};
   for (const [style, rows] of byStyle) {
     const row = pickTranslation(rows, locale);
-    if (row) out[style] = row.intro;
+    if (row) intros[style] = row.intro;
+    const so = rows.find((x) => typeof x.sort_order === "number")?.sort_order;
+    if (typeof so === "number") order[style] = so;
   }
-  return out;
+  return { intros, order };
 }
 
 // -----------------------------------------------------------------------------

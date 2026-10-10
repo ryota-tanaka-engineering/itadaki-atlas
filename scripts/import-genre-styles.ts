@@ -1,8 +1,10 @@
 /**
  * ジャンルの系統ごとの一文（genre_styles）の JSON インポート（2026-10-10）。
  *
- * data/genre-styles.json: [{ "genre": "ramen", "style": "醤油", "intro_ja": "…", "intro_en": "…" }]
+ * data/genre-styles.json: [{ "genre": "ramen", "style": "醤油", "intro_ja": "…", "intro_en": "…", "sort_order"?: 1 }]
  * (genre_slug, style, locale) で upsert する。style は dish_details.primary_style の日本語の値そのもの。
+ * sort_order はジャンルページでの系統の並び順（任意。マイグレーション 20261010200000 の列。
+ * 無い行は列を送らないので、列の追加前でも sort_order の無いファイルは投入できる）。
  *
  * 使い方: node --env-file=.env.local scripts/import-genre-styles.ts --file data/genre-styles.json [--dry-run]
  *   本番: bash scripts/prod-env.sh node scripts/import-genre-styles.ts --file data/genre-styles.json
@@ -21,6 +23,7 @@ export const genreStyleSchema = z.object({
   style: z.string().trim().min(1).max(20),
   intro_ja: z.string().trim().min(1).max(400),
   intro_en: z.string().trim().min(1).max(400),
+  sort_order: z.number().int().min(0).max(999).optional(),
 });
 
 export const genreStyleFileSchema = z.array(genreStyleSchema).superRefine((rows, ctx) => {
@@ -36,10 +39,13 @@ export type GenreStyleRow = z.infer<typeof genreStyleSchema>;
 
 /** DB の行（ロケールごと）に展開する。 */
 export function toDbRows(rows: GenreStyleRow[]) {
-  return rows.flatMap((r) => [
-    { genre_slug: r.genre, style: r.style, locale: "ja", intro: r.intro_ja },
-    { genre_slug: r.genre, style: r.style, locale: "en", intro: r.intro_en },
-  ]);
+  return rows.flatMap((r) => {
+    const order = r.sort_order === undefined ? {} : { sort_order: r.sort_order };
+    return [
+      { genre_slug: r.genre, style: r.style, locale: "ja", intro: r.intro_ja, ...order },
+      { genre_slug: r.genre, style: r.style, locale: "en", intro: r.intro_en, ...order },
+    ];
+  });
 }
 
 async function main() {
