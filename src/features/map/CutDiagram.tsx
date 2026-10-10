@@ -29,7 +29,7 @@ type Shape =
 
 type Region = { id: string; shapes: Shape[] };
 
-function outlineShape(shape: Shape, key: string, fill: string, strokeWidth = 1.5) {
+function outlineShape(shape: Shape, key: string, fill: string, strokeWidth = 1.5, strokeOpacity = 1) {
   switch (shape.kind) {
     case "rect":
       return (
@@ -43,6 +43,7 @@ function outlineShape(shape: Shape, key: string, fill: string, strokeWidth = 1.5
           fill={fill}
           stroke={STROKE}
           strokeWidth={strokeWidth}
+          strokeOpacity={strokeOpacity}
           strokeLinejoin="round"
         />
       );
@@ -57,6 +58,7 @@ function outlineShape(shape: Shape, key: string, fill: string, strokeWidth = 1.5
           fill={fill}
           stroke={STROKE}
           strokeWidth={strokeWidth}
+          strokeOpacity={strokeOpacity}
         />
       );
     case "circle":
@@ -69,6 +71,7 @@ function outlineShape(shape: Shape, key: string, fill: string, strokeWidth = 1.5
           fill={fill}
           stroke={STROKE}
           strokeWidth={strokeWidth}
+          strokeOpacity={strokeOpacity}
         />
       );
     case "path":
@@ -79,6 +82,7 @@ function outlineShape(shape: Shape, key: string, fill: string, strokeWidth = 1.5
           fill={fill}
           stroke={STROKE}
           strokeWidth={strokeWidth}
+          strokeOpacity={strokeOpacity}
           strokeLinejoin="round"
         />
       );
@@ -101,18 +105,25 @@ function RegionsLayer({
   regions,
   intensityMap,
   clipId,
+  quiet = false,
 }: {
   regions: Region[];
   intensityMap: Map<string, "solid" | "light">;
   clipId: string;
+  /** 塗らない部位の境界線を淡くする（部位が重なり合う鶏で、塗った部位を目立たせる） */
+  quiet?: boolean;
 }) {
+  // 塗った部位を後に描き、淡い線の上に重ねる
+  const ordered = quiet
+    ? [...regions.filter((r) => !intensityMap.has(r.id)), ...regions.filter((r) => intensityMap.has(r.id))]
+    : regions;
   return (
     <g clipPath={`url(#${clipId})`}>
-      {regions.flatMap((region) =>
-        region.shapes.map((shape, i) =>
-          outlineShape(shape, `${region.id}-${i}`, colorFor(intensityMap, region.id)),
-        ),
-      )}
+      {ordered.flatMap((region) => {
+        const fill = colorFor(intensityMap, region.id);
+        const opacity = quiet && fill === NO_FILL ? 0.3 : 1;
+        return region.shapes.map((shape, i) => outlineShape(shape, `${region.id}-${i}`, fill, 1.5, opacity));
+      })}
     </g>
   );
 }
@@ -332,58 +343,100 @@ function PorkDiagram({ ariaLabel, intensityMap }: { ariaLabel: string; intensity
 // 鶏（chicken）
 // -----------------------------------------------------------------------------
 
-// 鶏は「首〜胸〜翼〜もも〜脚」をひとつながりの輪郭として描く（各部位を別々の輪郭で
-// 継ぎ足すと切れ目が目立つため。牛・豚と違い、翼ともも肉は胴から独立して垂れ下がらない）。
+// 鶏は横向き（頭が左）の一羽として描く（2026-10-10 描き直し）。旧図は部位の円を並べた塊で、
+// 翼が背中の縁に付き鳥に見えなかった。翼は胴の側面に3節（手羽元→手羽中→手羽先）で重ね、
+// むねは胴の前下、ももは後ろ下から脚へつなぐ。内臓は胴の中ほど（むねとももの間）に置く。
+// 部位が重なり合うため、塗らない部位の線は淡く描く（RegionsLayer の quiet）。
 const CHICKEN_BODY_D =
-  "M90,150 C90,120 115,100 155,95 C215,88 280,95 315,125 C338,145 348,175 344,205 " +
-  "C340,235 322,260 298,270 C305,290 302,312 288,332 C300,345 302,365 296,388 " +
-  "C290,408 275,418 255,418 L205,418 C188,418 178,405 180,388 C184,365 182,340 172,320 " +
-  "C150,325 128,312 116,290 C100,262 92,225 92,190 C92,175 88,162 90,150 Z";
+  "M150,150 C150,205 185,265 250,280 C300,292 350,282 380,252 C405,226 410,186 400,160 " +
+  "C392,140 370,128 340,124 C300,118 250,115 205,118 C178,120 152,128 150,150 Z";
 
-const CHICKEN_HEAD: Shape = { kind: "circle", cx: 72, cy: 118, r: 42 };
+const CHICKEN_NECK_D = "M92,92 C104,120 124,140 152,150 C160,135 180,122 205,118 C176,108 154,88 140,62 Z";
 
-const CHICKEN_OUTLINE_SHAPES: Shape[] = [{ kind: "path", d: CHICKEN_BODY_D }, CHICKEN_HEAD];
+const CHICKEN_TAIL_D =
+  "M392,150 C405,118 428,92 456,82 C452,108 444,134 424,156 C440,148 456,146 468,150 " +
+  "C456,172 432,186 404,186 Z";
+
+// もも下の脚（ドラムスティック）
+const CHICKEN_SHANK_D = "M300,266 C298,288 304,304 311,318 L329,318 C333,300 339,284 342,264 Z";
+
+const CHICKEN_HEAD: Shape = { kind: "circle", cx: 112, cy: 70, r: 30 };
+
+const CHICKEN_OUTLINE_SHAPES: Shape[] = [
+  { kind: "path", d: CHICKEN_BODY_D },
+  { kind: "path", d: CHICKEN_NECK_D },
+  { kind: "path", d: CHICKEN_TAIL_D },
+  { kind: "path", d: CHICKEN_SHANK_D },
+  CHICKEN_HEAD,
+];
+
+// 翼の外形（装飾。部位は3節に分けて塗る）
+const CHICKEN_WING_D =
+  "M208,158 C214,138 260,132 302,140 C342,147 370,158 382,172 C362,186 302,192 262,188 C232,185 206,178 208,158 Z";
 
 const CHICKEN_REGIONS: Region[] = [
-  { id: "seseri", shapes: [{ kind: "ellipse", cx: 125, cy: 135, rx: 38, ry: 42 }] },
-  { id: "kawa", shapes: [{ kind: "rect", x: 95, y: 115, w: 22, h: 65, rx: 10 }] },
-  { id: "tori-mune", shapes: [{ kind: "ellipse", cx: 175, cy: 230, rx: 58, ry: 58 }] },
-  { id: "sasami", shapes: [{ kind: "rect", x: 145, y: 275, w: 38, h: 48, rx: 10 }] },
-  { id: "yagen-nankotsu", shapes: [{ kind: "ellipse", cx: 160, cy: 330, rx: 20, ry: 15 }] },
+  // 首: せせり（首の肉）と皮（焼き鳥の「皮」は首皮が多い）
+  { id: "seseri", shapes: [{ kind: "ellipse", cx: 140, cy: 112, rx: 20, ry: 30 }] },
+  { id: "kawa", shapes: [{ kind: "path", d: "M140,62 C154,88 176,108 205,118 L198,130 C170,120 146,98 130,70 Z" }] },
+  // 胴の前下: むね・ささみ・やげん軟骨（胸骨の先）
+  { id: "tori-mune", shapes: [{ kind: "ellipse", cx: 198, cy: 224, rx: 46, ry: 44 }] },
+  { id: "sasami", shapes: [{ kind: "ellipse", cx: 210, cy: 244, rx: 24, ry: 10 }] },
+  { id: "yagen-nankotsu", shapes: [{ kind: "ellipse", cx: 204, cy: 253, rx: 13, ry: 8 }] },
+  // 翼: 付け根（ふりそで）→ 手羽元 → 手羽中 → 手羽先
+  { id: "furisode", shapes: [{ kind: "ellipse", cx: 204, cy: 162, rx: 16, ry: 14 }] },
+  { id: "tebamoto", shapes: [{ kind: "ellipse", cx: 244, cy: 162, rx: 26, ry: 22 }] },
+  { id: "tebanaka", shapes: [{ kind: "ellipse", cx: 292, cy: 166, rx: 26, ry: 21 }] },
+  { id: "tebasaki", shapes: [{ kind: "path", d: "M318,158 C342,150 368,158 382,172 C362,184 336,186 318,180 Z" }] },
+  // 胴の後ろ下: もも（脚の付け根から下）とひざ軟骨
   {
     id: "tori-momo",
     shapes: [
-      { kind: "ellipse", cx: 225, cy: 345, rx: 48, ry: 48 },
-      { kind: "rect", x: 200, y: 370, w: 55, h: 48, rx: 15 },
+      { kind: "ellipse", cx: 318, cy: 242, rx: 42, ry: 36 },
+      { kind: "path", d: CHICKEN_SHANK_D },
     ],
   },
-  { id: "hiza-nankotsu", shapes: [{ kind: "ellipse", cx: 222, cy: 385, rx: 15, ry: 11 }] },
-  { id: "bonjiri", shapes: [{ kind: "ellipse", cx: 295, cy: 290, rx: 20, ry: 16 }] },
-  { id: "furisode", shapes: [{ kind: "ellipse", cx: 300, cy: 155, rx: 24, ry: 22 }] },
-  { id: "tebamoto", shapes: [{ kind: "ellipse", cx: 325, cy: 185, rx: 20, ry: 18 }] },
-  { id: "tebanaka", shapes: [{ kind: "ellipse", cx: 333, cy: 218, rx: 18, ry: 18 }] },
-  { id: "tebasaki", shapes: [{ kind: "ellipse", cx: 325, cy: 248, rx: 18, ry: 20 }] },
-  { id: "reba", shapes: [{ kind: "ellipse", cx: 195, cy: 210, rx: 20, ry: 16 }] },
-  { id: "tori-hatsu", shapes: [{ kind: "circle", cx: 170, cy: 220, r: 11 }] },
-  { id: "hatsumoto", shapes: [{ kind: "ellipse", cx: 155, cy: 205, rx: 8, ry: 6 }] },
-  { id: "sunagimo", shapes: [{ kind: "ellipse", cx: 195, cy: 255, rx: 18, ry: 15 }] },
+  { id: "hiza-nankotsu", shapes: [{ kind: "ellipse", cx: 321, cy: 298, rx: 12, ry: 9 }] },
+  // 尾の付け根: ぼんじり
+  { id: "bonjiri", shapes: [{ kind: "ellipse", cx: 396, cy: 172, rx: 16, ry: 14 }] },
+  // 内臓（むねとももの間）
+  { id: "hatsumoto", shapes: [{ kind: "ellipse", cx: 244, cy: 202, rx: 7, ry: 5 }] },
+  { id: "tori-hatsu", shapes: [{ kind: "circle", cx: 252, cy: 216, r: 10 }] },
+  { id: "reba", shapes: [{ kind: "ellipse", cx: 274, cy: 226, rx: 17, ry: 11 }] },
+  { id: "sunagimo", shapes: [{ kind: "ellipse", cx: 268, cy: 252, rx: 15, ry: 11 }] },
 ];
 
 export const CHICKEN_REGION_IDS = CHICKEN_REGIONS.map((r) => r.id);
 
 function ChickenDiagram({ ariaLabel, intensityMap }: { ariaLabel: string; intensityMap: Map<string, "solid" | "light"> }) {
   return (
-    <svg viewBox="0 0 420 440" role="img" aria-label={ariaLabel} className="h-auto w-full">
+    <svg viewBox="0 0 480 350" role="img" aria-label={ariaLabel} className="h-auto w-full">
       <defs>
         <clipPath id="chicken-clip">{clipShapes(CHICKEN_OUTLINE_SHAPES)}</clipPath>
       </defs>
-      <rect x={0} y={0} width={420} height={440} fill={PAPER} />
+      <rect x={0} y={0} width={480} height={350} fill={PAPER} />
+      {/* とさか・肉垂れ・くちばし（装飾。部位なし）は頭の下に描いて輪郭を頭で閉じる */}
+      <path
+        d="M98,46 C96,32 108,28 112,40 C114,26 128,26 128,40 C134,30 146,36 138,48 Z"
+        fill={PAPER}
+        stroke={STROKE}
+        strokeWidth={1.5}
+        strokeLinejoin="round"
+      />
+      <path d="M96,92 C90,106 100,114 108,98 Z" fill={PAPER} stroke={STROKE} strokeWidth={1.5} strokeLinejoin="round" />
       {CHICKEN_OUTLINE_SHAPES.map((s, i) => outlineShape(s, `outline-${i}`, PAPER))}
-      {/* くちばし・脚（装飾） */}
-      <path d="M40,113 L15,118 L40,131 Z" fill={PAPER} stroke={STROKE} strokeWidth={1.5} strokeLinejoin="round" />
-      <path d="M212,418 L208,432 M255,418 L259,432" stroke={STROKE} strokeWidth={2} fill="none" strokeLinecap="round" />
-      <circle cx={100} cy={107} r={3.5} fill={STROKE} />
-      <RegionsLayer regions={CHICKEN_REGIONS} intensityMap={intensityMap} clipId="chicken-clip" />
+      <path d="M84,62 L60,71 L85,79 Z" fill={PAPER} stroke={STROKE} strokeWidth={1.5} strokeLinejoin="round" />
+      <circle cx={104} cy={64} r={3.5} fill={STROKE} />
+      {/* 足（装飾） */}
+      <path
+        d="M314,318 L304,340 M304,340 L292,342 M304,340 L310,344 M326,318 L336,340 M336,340 L348,342 M336,340 L330,344"
+        stroke={STROKE}
+        strokeWidth={2}
+        fill="none"
+        strokeLinecap="round"
+      />
+      <RegionsLayer regions={CHICKEN_REGIONS} intensityMap={intensityMap} clipId="chicken-clip" quiet />
+      {/* 翼の外形は部位の上に重ねて、どこが翼かを常に見せる */}
+      <path d={CHICKEN_WING_D} fill="none" stroke={STROKE} strokeWidth={1.5} strokeLinejoin="round" />
     </svg>
   );
 }
