@@ -818,7 +818,7 @@
    "name_en": "Nanatoko-zushi — a rice porridge of seven greens, gathered from seven neighboring homes",
    "type": "dish",
    "shelf": "rice",
-   "genre": "sushi",
+   "genre": null,
    "origin_pref": "宮崎県",
    "origin_city": "都城市",
    "lat": 31.7203,
