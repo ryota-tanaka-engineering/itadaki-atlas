@@ -1,0 +1,212 @@
+[
+  {
+    "genre": "nihoncha",
+    "style": "緑茶",
+    "intro_ja": "摘んだ葉を蒸すか釜で炒って発酵を止める茶で、覆いの有無や蒸し時間、焙じ方の違いにより、煎茶の渋み、玉露の旨み、ほうじ茶の香ばしさに分かれるとされる。",
+    "intro_en": "Green teas whose fresh leaves are steamed or pan-fired to stop oxidation; shading, steaming time and roasting are said to set them apart, from brisk sencha to savory, shade-grown gyokuro and toasty, roasted hojicha."
+  },
+  {
+    "genre": "nihoncha",
+    "style": "抹茶・粉茶",
+    "intro_ja": "粉にして、または細かな粉を集めて淹れる茶で、抹茶は覆いをかけて育てた碾茶を臼で挽いて茶葉ごと飲み、粉茶は湯にすぐ濃い味と香りが出るとされる。",
+    "intro_en": "Teas taken as powder or fine particles: matcha is tencha, shade-grown leaf dried without rolling, stone-ground and drunk whole, while konacha, the dust sifted out of sencha, is said to brew strong almost at once."
+  },
+  {
+    "genre": "nihoncha",
+    "style": "発酵茶・番茶",
+    "intro_ja": "遅い時期の大きく硬い葉で作る茶で、渋みの少ない日常の番茶や煙たい香りの京番茶、阿波晩茶・碁石茶のように微生物で発酵させる後発酵茶が入るとされる。",
+    "intro_en": "Teas made from later, larger and tougher leaves: everyday bancha with little bitterness, smoky Kyo-bancha from Kyoto, and post-fermented teas such as Awa-bancha and Goishi-cha, fermented with lactic bacteria or mold."
+  },
+  {
+    "genre": "nihoncha",
+    "style": "その他",
+    "intro_ja": "上の系統に収まらない型で、大麦を焙じて煮出す麦茶や昆布を湯で溶かす昆布茶のように、チャノキの葉を使わずに茶と呼ばれる飲み物が入る。",
+    "intro_en": "Drinks outside the groups above that are called tea without using the tea plant at all, such as mugicha, a roasted barley infusion, and kobucha, kelp dissolved in hot water."
+  },
+  {
+    "genre": "nihoncha",
+    "style": "産地",
+    "intro_ja": "製法ではなく産地の名で呼ばれる茶で、宇治茶や狭山茶のように、被覆栽培や独自の火入れといった土地ごとの技法と気候が味の違いを生むとされる。",
+    "intro_en": "Teas known by the name of the place they grow rather than by method; in districts such as Uji and Sayama, local techniques like shade-growing or a distinctive final firing, together with climate, are said to shape the taste."
+  },
+  {
+    "genre": "ramen",
+    "style": "豚骨",
+    "intro_ja": "豚の骨を長く炊いて白く濁らせたスープの系統で、長浜ラーメンのような濃厚な白濁から宮崎ラーメンのあっさりした一杯まで、炊き方で厚みが変わるとされる。",
+    "intro_en": "Ramen built on tonkotsu, pork bones simmered until the broth turns cloudy white; its body is said to vary with the boiling, from the rich Nagahama style of Fukuoka to the lighter bowls of Miyazaki."
+  },
+  {
+    "genre": "ramen",
+    "style": "塩",
+    "intro_ja": "塩だれで仕立てる系統で、多くは透き通ったスープに、利尻昆布や宍道湖のしじみ、干し貝柱など土地の海や湖のだしがそのまま前に出るとされる。",
+    "intro_en": "Ramen seasoned with salt rather than soy sauce or miso; the broth is usually clear, so local stocks such as Rishiri kelp, Lake Shinji clams or dried scallops are said to come straight through."
+  },
+  {
+    "genre": "ramen",
+    "style": "味噌",
+    "intro_ja": "味噌をたれの軸にする系統で、甘い加賀味噌や木桶で熟成させる信州味噌のように、土地で造られる味噌の違いがそのままスープの甘みや厚みに出るとされる。",
+    "intro_en": "Ramen whose seasoning base is miso, fermented soybean paste; the character of the local miso, such as sweet Kaga miso or barrel-aged Shinshu miso, is said to carry straight into the sweetness and body of the soup."
+  },
+  {
+    "genre": "ramen",
+    "style": "醤油",
+    "intro_ja": "醤油だれで味をつける系統で、煮干しや鰹節、鶏ガラなど合わせるだしの違いにより、釜石の琥珀色に澄んだ一杯から濃厚な津軽煮干しまで幅が出るとされる。",
+    "intro_en": "Ramen seasoned with a shoyu (soy sauce) tare, the concentrated seasoning in the bowl; depending on the stock beneath it, dried sardines, bonito or chicken bones, bowls are said to range from Kamaishi's clear amber soup to Tsugaru's dense niboshi broth."
+  },
+  {
+    "genre": "ramen",
+    "style": "その他",
+    "intro_ja": "上の系統に収まらない型で、雑穀や夕顔を練り込んだ麺、ソースやカレー、牛乳を使うスープ、牛骨だしのように、たれより麺や具、だしの素材で区別されるものが入る。",
+    "intro_en": "Types that fit none of the groups above, set apart by noodles, toppings or stock rather than tare: noodles kneaded with grains or gourd, soups built on Worcestershire sauce, curry or milk, and beef-bone broth."
+  },
+  {
+    "genre": "shochu",
+    "style": "芋",
+    "intro_ja": "さつまいもを主原料にする焼酎で、黄金千貫などの芋から、ふかし芋のような甘い香りと厚みのある甘みが出るとされる。",
+    "intro_en": "Shochu, a Japanese distilled spirit, made mainly from sweet potato; varieties such as Kogane Sengan are said to give a sweet aroma like steamed potato and a full, rounded sweetness."
+  },
+  {
+    "genre": "shochu",
+    "style": "麦",
+    "intro_ja": "大麦を主原料にする焼酎で、香ばしい穀物の香りとクセの少ない軽い口当たりを持つとされ、壱岐の麦と米麹の仕込みから大分の麦100%まで造り方が分かれる。",
+    "intro_en": "Shochu made mainly from barley, said to have a toasty grain aroma and a light, clean taste; methods range from Iki's barley with rice koji (malted rice) to Oita's all-barley style."
+  },
+  {
+    "genre": "shochu",
+    "style": "米",
+    "intro_ja": "米や酒粕を原料にする焼酎で、球磨焼酎のように米だけで仕込むとほのかな甘みを残した雑味の少ない酒に、酒粕を蒸留すると香ばしい香りになるとされる。",
+    "intro_en": "Shochu distilled from rice or from sake lees; rice-only spirits such as Kuma shochu are said to keep a faint sweetness with little harshness, while kasutori, made from the lees, has a toasty aroma."
+  },
+  {
+    "genre": "shochu",
+    "style": "黒糖・泡盛",
+    "intro_ja": "南の島々の蒸留酒で、奄美の黒糖焼酎は黒糖由来の甘い香りを持ち、沖縄の泡盛はタイ米をすべて黒麹にする全麹仕込みで造られ、寝かせた古酒は芳香が育つとされる。",
+    "intro_en": "Spirits of the southern islands: Amami's kokuto shochu carries the scent of brown sugar, while Okinawa's awamori turns all its Thai rice into black koji, a fermenting mold, and aged kusu is said to develop a vanilla-like fragrance."
+  },
+  {
+    "genre": "shochu",
+    "style": "その他",
+    "intro_ja": "上の系統に収まらない項目で、そば焼酎のような別の原料のほか、麹の種類、常圧と減圧の蒸留、甕仕込みや樽熟成、前割りなど味を分ける造りと飲み方の解説が入る。",
+    "intro_en": "Entries outside the groups above: other bases such as buckwheat, plus notes on what shapes the taste and how it is drunk, from koji types and distillation pressure to clay-pot brewing, oak casks and maewari pre-dilution."
+  },
+  {
+    "genre": "wagashi",
+    "style": "餅・団子",
+    "intro_ja": "もち米や米粉、わらび粉などを搗くか練って作る菓子で、大福やみたらし団子のように、もちもちとした生地に餡やたれ、きな粉を合わせて食べるとされる。",
+    "intro_en": "Sweets made by pounding or kneading glutinous rice, rice flour or bracken starch, such as daifuku (mochi filled with bean paste) and mitarashi dango (grilled dumplings in a sweet soy glaze), with a soft, springy chew."
+  },
+  {
+    "genre": "wagashi",
+    "style": "饅頭・焼き菓子",
+    "intro_ja": "小麦粉などの皮で餡を包むか挟み、蒸すか焼いて仕上げる菓子で、蒸し饅頭やどら焼き、鯛焼きのように、餡を何でどう包むかで型が分かれるとされる。",
+    "intro_en": "Sweets in which bean paste is wrapped in, or sandwiched between, a wheat-based skin and then steamed or baked; manju (filled buns), dorayaki and taiyaki are said to differ mainly in what holds the filling and how."
+  },
+  {
+    "genre": "wagashi",
+    "style": "羊羹・寒天",
+    "intro_ja": "寒天や葛で固めた菓子で、練り羊羹の詰まった密度、水羊羹のなめらかさ、葛餅の弾力のように、固める素材と水分の量で口当たりが変わるとされる。",
+    "intro_en": "Sweets set with kanten (agar) or kuzu (arrowroot starch); the setting agent and water content are said to shift the texture, from dense neri yokan bean jelly to smooth mizu yokan and springy kuzumochi."
+  },
+  {
+    "genre": "wagashi",
+    "style": "干菓子",
+    "intro_ja": "水分を少なく仕上げた日持ちのする菓子で、木型で押し固める落雁、薄く焼いた八ツ橋、米を焼くか揚げる煎餅やおかきのように、乾いた歯ざわりを持つとされる。",
+    "intro_en": "Dry sweets made with little moisture so they keep: rakugan pressed in wooden molds, thin baked yatsuhashi, and rice crackers such as senbei and okaki, said to share a crisp or crumbly bite."
+  },
+  {
+    "genre": "wagashi",
+    "style": "その他",
+    "intro_ja": "上の系統に収まらない型で、季節の形に仕立てる練り切りや最中、小豆の汁に餅を沈めるぜんざい・おしるこ、蒸したまま仕立てる生八ツ橋のような半生菓子が入る。",
+    "intro_en": "Types outside the groups above: nerikiri, bean paste shaped into seasonal forms, monaka wafers, zenzai and oshiruko (sweet red-bean soups with mochi), and half-moist, steamed nama yatsuhashi."
+  },
+  {
+    "genre": "yoshoku",
+    "style": "ライス",
+    "intro_ja": "ご飯を土台にした洋食で、オムライスやハヤシライス、カツカレーのように、ケチャップやデミグラス風ソース、カレーと米を一皿で合わせる形をとるとされる。",
+    "intro_en": "Yoshoku, Western-style dishes developed in Japan, built on rice: omurice, hayashi rice and katsu curry are said to pair rice with ketchup, a demi-glace-style sauce or curry on a single plate."
+  },
+  {
+    "genre": "yoshoku",
+    "style": "その他",
+    "intro_ja": "上の系統に収まらない型で、焼きそばを薄焼き卵で包むオムそばや、マカロニと鶏肉をホワイトソースで焼くグラタンのように、ほかの洋食から枝分かれした皿が入る。",
+    "intro_en": "Types outside the groups above, often offshoots of other dishes: omusoba, fried noodles wrapped in a thin omelet, and gratin, macaroni and chicken baked under white sauce and cheese."
+  },
+  {
+    "genre": "yoshoku",
+    "style": "フライ",
+    "intro_ja": "パン粉の衣をつけて揚げる洋食で、エビフライやカニクリームコロッケのように、カツレツやコロッケの揚げ方を別の具に移して枝分かれした型とされる。",
+    "intro_en": "Breaded, deep-fried yoshoku, said to have branched off by applying the cutlet and croquette technique to other fillings: ebi furai (fried prawns), crab cream croquettes and mille-feuille katsu of thinly layered pork."
+  },
+  {
+    "genre": "yoshoku",
+    "style": "肉",
+    "intro_ja": "挽き肉や牛・豚の肉を焼くか煮込む洋食で、ハンバーグやビーフシチュー、ポークチャップのように、日本の食卓に合わせて火の通し方やソースを変えてきた型とされる。",
+    "intro_en": "Yoshoku centered on meat, ground or sliced, grilled or stewed; hamburg steak, beef stew and pork chop are said to have adapted their cooking and sauces to the Japanese table."
+  },
+  {
+    "genre": "yoshoku",
+    "style": "ピザ",
+    "intro_ja": "生地やパンにソースとチーズをのせて焼く系統で、照り焼きチキンや明太マヨ、コーンマヨのように、甘辛い味やマヨネーズを使う日本独自のトッピングへ翻案されたとされる。",
+    "intro_en": "Pizza and pizza toast reshaped in Japan: the sauce-and-cheese base stays, while toppings such as teriyaki chicken, mentaiko (spicy cod roe) with mayonnaise, and corn mayo are said to be local adaptations."
+  },
+  {
+    "genre": "yoshoku",
+    "style": "パスタ",
+    "intro_ja": "たらこや明太子、きのこ、納豆を醤油やバターで和える和風スパゲッティの系統で、イタリア料理を日本の食材で作り替えた型とされる。",
+    "intro_en": "Wafu (Japanese-style) spaghetti, tossed with tarako (cod roe), mentaiko, mushrooms or natto using soy sauce and butter; it is said to remake an Italian dish with Japanese ingredients."
+  },
+  {
+    "genre": "fish",
+    "style": "赤身",
+    "intro_ja": "身に赤みのある回遊魚で、カツオやサケのように季節や育った海によって脂ののりが大きく変わり、たたきや塩鮭など時期に合わせた食べ方があるとされる。",
+    "intro_en": "Migratory fish with reddish flesh, such as katsuo (skipjack tuna) and salmon; their fat is said to change sharply with season and waters, which shapes how they are eaten, from seared tataki to salted fillets."
+  },
+  {
+    "genre": "fish",
+    "style": "青魚",
+    "intro_ja": "背の青い魚で、サバやアジ、イワシのように脂がのる一方で傷みやすく、しめさばや干物、乾物のように早く手を加える食べ方が港ごとに育ったとされる。",
+    "intro_en": "Blue-backed fish such as mackerel, horse mackerel and sardine; rich in fat but quick to spoil, they are said to have prompted fast handling at each port, from vinegar-cured mackerel to dried fish."
+  },
+  {
+    "genre": "fish",
+    "style": "白身",
+    "intro_ja": "淡白な白い身の魚で、マダイやヒラメ、タラのように潮の速さや海の冷たさで身の締まりと脂が変わり、刺身や昆布締め、煮付け、鍋と食べ方が幅広いとされる。",
+    "intro_en": "Fish with mild white flesh, such as sea bream, flounder and cod; currents and water temperature are said to change their firmness and fat, and they go into sashimi, kelp-cured slices, simmered dishes and hot pots."
+  },
+  {
+    "genre": "fish",
+    "style": "その他",
+    "intro_ja": "上の系統に収まらない型で、ハモやアンコウのように骨切りや吊るし切りの技を要する魚と、ムツゴロウやシシャモのように限られた海や干潟にだけいる魚が入る。",
+    "intro_en": "Fish outside the groups above: those needing special knife work, such as hamo (pike conger) and anglerfish, and those found only in narrow waters, such as shishamo smelt and the mudskippers of the Ariake tidal flats."
+  },
+  {
+    "genre": "fish",
+    "style": "川魚",
+    "intro_ja": "川や湖に棲む魚で、アユやイワナのように水の冷たさや澄み具合が香りと身に表れるとされ、鯉こくのコイや柳川鍋のドジョウのように内陸や水郷の食卓を支えた魚も入る。",
+    "intro_en": "Fish of rivers and lakes; in ayu (sweetfish) and iwana char, the cold and clarity of the water are said to show in aroma and flesh, and carp and loach long fed inland and waterside tables in simmered dishes."
+  },
+  {
+    "genre": "shellfish",
+    "style": "エビ・カニ",
+    "intro_ja": "硬い殻をまとう甲殻類で、ズワイガニや毛ガニの濃厚なミソ、甘海老やボタン海老の生の甘みのように、殻の中の身と内臓の味を楽しむとされる。",
+    "intro_en": "Crustaceans in hard shells, eaten for what lies inside: the rich innards, called kani-miso, of snow and hairy crabs, or the raw sweetness of amaebi and botan shrimp served as sashimi."
+  },
+  {
+    "genre": "shellfish",
+    "style": "貝",
+    "intro_ja": "二枚貝と巻貝の系統で、アサリやシジミは濃い出汁を、アワビやサザエはコリコリした歯ごたえを持つとされ、刺身から汁物まで貝ごとの性格で使い分けられる。",
+    "intro_en": "Bivalves and sea snails; clams such as asari and shijimi are said to give a deep broth, while abalone and turban shell offer a firm, crunchy bite, so each finds its use from sashimi to soup."
+  },
+  {
+    "genre": "shellfish",
+    "style": "イカ・タコ",
+    "intro_ja": "イカとタコの系統で、スルメイカの歯切れやアオリイカのねっとりした甘み、マダコの弾力のように、種類と育つ海で身の厚みや食感が違うとされる。",
+    "intro_en": "Squid and octopus; species and waters are said to set thickness and texture, from the crisp bite of surume squid and the dense sweetness of aori squid to the springy chew of madako octopus."
+  },
+  {
+    "genre": "shellfish",
+    "style": "その他",
+    "intro_ja": "上の系統に収まらない型で、濃い甘みのバフンウニやコリコリしたナマコ、磯とパイナップルを思わせる香りのホヤのように、ウニや海の珍味が入る。",
+    "intro_en": "Types outside the groups above: sea urchins such as the rich bafun uni, crunchy sea cucumber, and hoya (sea squirt), whose briny, pineapple-like aroma is said to divide opinion."
+  }
+]
