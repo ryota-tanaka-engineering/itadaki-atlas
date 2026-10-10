@@ -65,6 +65,8 @@
 
 2026-10-05 ユーザー依頼「豆腐とかの大豆食品」「各都道府県で有名な野菜」: ジャンル2つを新設し束 JSON を `data/content/` に保全（**DB 投入はこれから**）。(1) `soy-foods` 大豆食品（ingredient／棚 processed）31件: 受け皿 豆腐・油揚げ・湯葉（本場2〜3箇所）＋五箇山堅豆腐・島豆腐・ゆし豆腐・祖谷の岩豆腐・つと豆腐・栃尾の油揚げ・南関あげ・高野豆腐・日光ゆば・京ゆば・水戸納豆・浜納豆・大徳寺納豆・豆腐よう・豆腐の味噌漬け・豆乳・おから・きな粉等（`soy-foods-1..3.json`）。(2) `local-vegetables` 伝統野菜・地域野菜（ingredient／棚 vegetables）82件＋いも・豆18件（棚 `tubers` のその他、genre null）= 100件、47都道府県すべてに1件以上（`vegetables-1..8.json`。京野菜・加賀野菜・なにわ伝統野菜・江戸東京野菜・大和野菜・ひご野菜・島野菜等）。投入は `npm run content:import -- --file data/content/<name>.json` を soy-foods-1→3、vegetables-1→8 の順に（vegetables-7 の博多万能ねぎ→九条ねぎは vegetables-5 に依存）。Web 非到達環境で執筆のため出典 URL は未確認: 投入前に `node scripts/check-source-urls.ts data/content/soy-foods-*.json data/content/vegetables-*.json` を手元で流し、200 以外を直す（部隊の指示書 `data/ledgers/SOY_BRIEF.md` / `VEGETABLES_BRIEF.md`。要判断・対象外候補は各束の `notes`）。
 
+2026-10-10 文脈の文を足す（体験原則2）: 47都道府県の総論＋石川の読み物（`prefecture_intros`・`data/prefecture-intros.json`）、ジャンルの系統ごとの一文（`genre_styles`・`data/genre-styles.json`）、タグの総論と英語の定義（`tags.intro_*`/`definition_en`・`data/tags.json`）、チェーン創業メモの英訳（`chains.founded_note_en`）。クエリは列・テーブルが無くても空で返すので、デプロイとマイグレーションの順は問わない。**DB 投入はこれから**（手順はバックログ §0〜2）。`data/chains.json` の文字化け23件を校正済み（本番には化けたまま出ているので再投入が要る）。
+
 次の作業候補: **`.doc/99_management/02_backlog.md`**（優先順と担当の印つきのやることリスト。会話で出た要望もここに集める。CLAUDE.md には再掲しない）。
 
 ## 意図的な制約（勝手に外さない）
