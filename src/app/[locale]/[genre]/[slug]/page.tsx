@@ -325,8 +325,15 @@ export default async function ItemPage({ params }: { params: Promise<Params> }) 
 
             {/* 三点セット: 日本語名を大きく（明朝・白） */}
             <h1 className="font-serif mt-3 text-3xl md:text-4xl">{displayName}</h1>
-            {subtitle && (
+            {/* 英語では三点セットの日本語名をここで添える（店の品書きと照合でき、AI が対応を拾う） */}
+            {(subtitle || !isJa) && (
               <p className="mt-1 text-base" style={{ color: "#ffe9cf" }}>
+                {!isJa && (
+                  <span lang="ja" data-testid="name-ja">
+                    {item.nameJa}
+                  </span>
+                )}
+                {!isJa && subtitle && " · "}
                 {subtitle}
               </p>
             )}

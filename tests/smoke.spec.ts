@@ -460,6 +460,8 @@ test.describe("F-05 言語切り替え / F-08 SEO", () => {
     await page.goto("/en/ramen/hakata");
     // 英訳は説明訳なので、英語表示でも見出しはローマ字
     await expect(page.getByRole("heading", { name: "Hakata Ramen", level: 1 })).toBeVisible();
+    // 三点セットの日本語名も英語ページのカバーに出る（品書きと照合できるように。2026-10-10）
+    await expect(page.getByTestId("name-ja")).toHaveText("博多ラーメン");
     // マスタラベルは辞書で翻訳される（二層方式）。2026-09 カバー情報密度改善で
     // 下部の定義リスト(dl)は廃止し、カバー内の事実チップ列へ統合した。
     // 市区町村名も place_names（実装部隊の報告「/en の本場・産地チップに市区町村名が

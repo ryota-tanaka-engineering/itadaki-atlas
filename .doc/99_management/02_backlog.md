@@ -47,7 +47,8 @@ Itadaki Atlas のやることリスト（バックログ）。会話で出た要
 - [ ] 【手元】マイグレーション `20261010000000_prefecture_intros.sql` → `node --env-file=.env.local scripts/import-prefecture-intros.ts --file data/prefecture-intros.json`（ローカル・本番）。**大豆・野菜の投入のあとに**（総論が桜島大根・五箇山の堅豆腐・静岡の水わさび等、未投入の名前を挙げているため）
 - [ ] 【判断】県の総論の要判断（部隊の生出力は `data/ledgers/pref-intros/` の各県 `notes`）: 沖縄の「琉球王国」を使わない語「王国」に当たるとして「かつて琉球として」に言い換えた（英語は Ryukyu Kingdom）。「琉球王国」は固有名なので許可するか／栃木で「宇都宮は餃子の本場」と市名を出した（データは県単位）／石川の読み物は Markdown の生の字数で2,319字（画面上は1,790字）
 - [x] 【実装】県・タグ・場面ページの OGP 画像（2026-10-10。県は総論の冒頭を添える。辞書は `src/lib/ogLabels.ts`）
-- [ ] 【実装】英語ページの H1 直下に説明訳の一文を置く（AI が拾う定義文）。4章目・ガイドの見出しを質問文に寄せるかも検討
+- [x] 【実装】英語の詳細ページのカバーに日本語名を添える（2026-10-10。三点セット: H1 ローマ字・日本語名 · 説明訳・概要文。JSON-LD は alternateName 済み）
+- [ ] 【判断】4章目・ガイドの見出しを質問文に寄せるか（AI の回答に拾われやすい。今は「どう食べるのか」等の固定見出し）
 - [ ] 【手元】独自ドメイン `itadakiatlas.com` 一式。順番: (1) `.env.production.local` に `NEXT_PUBLIC_SITE_URL=https://itadakiatlas.com` を置いてデプロイ（workers.dev からの 301 は `src/lib/hostRedirect.ts` で自動的に効く。**workers.dev は無効化しない**）(2) R2 カスタムドメイン (3) Search Console にドメインプロパティ（DNS 確認）で登録し sitemap を送信 (4) workers.dev を登録していた場合は「アドレス変更」も
 - [ ] 【手元】計測ID（GA4・Cloudflare Web Analytics）の設定
 - [ ] 【判断】【実装】イラストのスタイル確定（`.doc/40_operation/01_strategy.md` §2・ロードマップ §5）。描き分けの難しい5〜10種でストレステスト、合否ラインは茶系スープの区別。合格したスタイルをプロンプトテンプレと参照画像として Skill 化してから量産。部位図の SVG 線画の延長から始められる
