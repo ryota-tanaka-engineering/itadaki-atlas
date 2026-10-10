@@ -203,7 +203,7 @@
    "shelf": "processed",
    "genre": "soy-foods",
    "origin_pref": "熊本県",
-   "origin_city": "玉名郡南関町",
+   "origin_city": "南関町",
    "lat": 33.0637,
    "lng": 130.5346,
    "primary_style": "",
@@ -275,7 +275,7 @@
    "regions": [
     {
      "pref": "和歌山県",
-     "city": "伊都郡高野町",
+     "city": "高野町",
      "lat": 34.213,
      "lng": 135.584,
      "relation_type": "本場",
@@ -386,7 +386,7 @@
     },
     {
      "pref": "山梨県",
-     "city": "南巨摩郡身延町",
+     "city": "身延町",
      "lat": 35.3887,
      "lng": 138.4249,
      "relation_type": "名産地",

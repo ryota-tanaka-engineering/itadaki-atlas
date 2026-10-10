@@ -21,7 +21,8 @@ Itadaki Atlas のやることリスト（バックログ）。会話で出た要
 - [ ] 【手元】マイグレーション `20261004000000_dish_details_noodle_vocab.sql` をローカルと本番に適用
 - [ ] 【手元】出典URLの疎通検査 `node scripts/check-source-urls.ts data/content/soy-foods-*.json data/content/vegetables-*.json`。200 以外を直す
 - [ ] 【手元】投入（この順）: ラーメン4章目161件（`bash data/ledgers/ingest-howto.sh`）→ ガイド（`scripts/import-guides.ts`）→ 大豆 `soy-foods-1→3` → 野菜 `vegetables-1→8`（7 は 5 に依存）。各段のあと `npm run content:lint -- --strict`
-- [ ] 【実装】産地の英語表記 53件を `data/place-names.json` に追加（郡名・「弘前市（嶽地区）」のような括弧つき地名の正規化を含む）→【手元】`scripts/import-place-names.ts` で投入。無いと /en で新規アイテムの産地が日本語のまま
+- [x] 【実装】産地の英語表記を `data/place-names.json` に49件追加（2026-10-10。束の郡名・括弧つき地名は既存の流儀に正規化）
+- [ ] 【手元】`node --env-file=.env.local scripts/import-place-names.ts --file data/place-names.json`（ローカル・本番）。大豆・野菜の投入と同じタイミングで
 - [ ] 【手元】`npm run test:e2e`（4章目・麺濃さの2本は howto 投入後に通る）
 - [ ] 【手元】`ia-atlas-ux-reviewer` で SP/PC の導線検品: 詳細ページの新しい節、`/soy-foods`・`/local-vegetables`・`/tubers`、県ページの「育てる」群、新ガイド
 - [ ] 【手元】投入後に `data/ledgers/slugs-by-genre.txt` を DB から作り直し、CLAUDE.md「現在の状態」の件数（ジャンル30・総件数・ガイド76）を揃える

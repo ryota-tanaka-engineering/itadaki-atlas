@@ -3238,5 +3238,250 @@
   "pref": "鹿児島県",
   "city": "西之表市ほか(種子島)",
   "en": "Nishinoomote (Tanegashima)"
+ },
+ {
+  "pref": "三重県",
+  "city": "多気町",
+  "en": "Taki"
+ },
+ {
+  "pref": "京都府",
+  "city": "京都市中京区",
+  "en": "Kyoto (Nakagyo Ward)"
+ },
+ {
+  "pref": "京都府",
+  "city": "京都市南区",
+  "en": "Kyoto (Minami Ward)"
+ },
+ {
+  "pref": "京都府",
+  "city": "舞鶴市",
+  "en": "Maizuru"
+ },
+ {
+  "pref": "佐賀県",
+  "city": "多久市",
+  "en": "Taku"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "南あわじ市",
+  "en": "Minamiawaji"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "朝来市",
+  "en": "Asago"
+ },
+ {
+  "pref": "北海道",
+  "city": "七飯町",
+  "en": "Nanae"
+ },
+ {
+  "pref": "北海道",
+  "city": "札幌市東区",
+  "en": "Sapporo (Higashi Ward)"
+ },
+ {
+  "pref": "千葉県",
+  "city": "松戸市",
+  "en": "Matsudo"
+ },
+ {
+  "pref": "和歌山県",
+  "city": "湯浅町",
+  "en": "Yuasa"
+ },
+ {
+  "pref": "和歌山県",
+  "city": "紀の川市",
+  "en": "Kinokawa"
+ },
+ {
+  "pref": "埼玉県",
+  "city": "越谷市",
+  "en": "Koshigaya"
+ },
+ {
+  "pref": "大阪府",
+  "city": "大阪市天王寺区",
+  "en": "Osaka (Tennoji Ward)"
+ },
+ {
+  "pref": "大阪府",
+  "city": "泉佐野市",
+  "en": "Izumisano"
+ },
+ {
+  "pref": "奈良県",
+  "city": "大和郡山市",
+  "en": "Yamatokoriyama"
+ },
+ {
+  "pref": "宮城県",
+  "city": "仙台市宮城野区",
+  "en": "Sendai (Miyagino Ward)"
+ },
+ {
+  "pref": "山梨県",
+  "city": "甲斐市",
+  "en": "Kai"
+ },
+ {
+  "pref": "岩手県",
+  "city": "岩泉町",
+  "en": "Iwaizumi"
+ },
+ {
+  "pref": "広島県",
+  "city": "広島市西区",
+  "en": "Hiroshima (Nishi Ward)"
+ },
+ {
+  "pref": "愛媛県",
+  "city": "西条市",
+  "en": "Saijo"
+ },
+ {
+  "pref": "愛知県",
+  "city": "あま市",
+  "en": "Ama"
+ },
+ {
+  "pref": "愛知県",
+  "city": "扶桑町",
+  "en": "Fuso"
+ },
+ {
+  "pref": "愛知県",
+  "city": "新城市",
+  "en": "Shinshiro"
+ },
+ {
+  "pref": "新潟県",
+  "city": "新潟市西区",
+  "en": "Niigata (Nishi Ward)"
+ },
+ {
+  "pref": "新潟県",
+  "city": "長岡市山古志",
+  "en": "Nagaoka (Yamakoshi)"
+ },
+ {
+  "pref": "新潟県",
+  "city": "長岡市栃尾",
+  "en": "Nagaoka (Tochio)"
+ },
+ {
+  "pref": "東京都",
+  "city": "あきる野市",
+  "en": "Akiruno"
+ },
+ {
+  "pref": "東京都",
+  "city": "江戸川区",
+  "en": "Edogawa"
+ },
+ {
+  "pref": "沖縄県",
+  "city": "伊江村",
+  "en": "Ie"
+ },
+ {
+  "pref": "沖縄県",
+  "city": "金武町",
+  "en": "Kin"
+ },
+ {
+  "pref": "滋賀県",
+  "city": "日野町",
+  "en": "Hino"
+ },
+ {
+  "pref": "滋賀県",
+  "city": "草津市",
+  "en": "Kusatsu"
+ },
+ {
+  "pref": "熊本県",
+  "city": "五木村",
+  "en": "Itsuki"
+ },
+ {
+  "pref": "石川県",
+  "city": "白山市",
+  "en": "Hakusan"
+ },
+ {
+  "pref": "神奈川県",
+  "city": "川崎市多摩区",
+  "en": "Kawasaki (Tama Ward)"
+ },
+ {
+  "pref": "福井県",
+  "city": "勝山市北谷町河内",
+  "en": "Katsuyama (Kitadani, Kawachi)"
+ },
+ {
+  "pref": "秋田県",
+  "city": "横手市山内",
+  "en": "Yokote (Sannai)"
+ },
+ {
+  "pref": "群馬県",
+  "city": "下仁田町",
+  "en": "Shimonita"
+ },
+ {
+  "pref": "群馬県",
+  "city": "昭和村",
+  "en": "Showa"
+ },
+ {
+  "pref": "茨城県",
+  "city": "稲敷市",
+  "en": "Inashiki"
+ },
+ {
+  "pref": "長崎県",
+  "city": "雲仙市",
+  "en": "Unzen"
+ },
+ {
+  "pref": "長野県",
+  "city": "中野市",
+  "en": "Nakano"
+ },
+ {
+  "pref": "長野県",
+  "city": "野沢温泉村",
+  "en": "Nozawaonsen"
+ },
+ {
+  "pref": "青森県",
+  "city": "田子町",
+  "en": "Takko"
+ },
+ {
+  "pref": "香川県",
+  "city": "丸亀市",
+  "en": "Marugame"
+ },
+ {
+  "pref": "香川県",
+  "city": "観音寺市",
+  "en": "Kanonji"
+ },
+ {
+  "pref": "鳥取県",
+  "city": "北栄町",
+  "en": "Hokuei"
+ },
+ {
+  "pref": "鹿児島県",
+  "city": "西之表市",
+  "en": "Nishinoomote"
  }
 ]

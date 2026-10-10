@@ -10,7 +10,7 @@
    "shelf": "vegetables",
    "genre": "local-vegetables",
    "origin_pref": "山梨県",
-   "origin_city": "西八代郡市川三郷町",
+   "origin_city": "市川三郷町",
    "lat": 35.5667,
    "lng": 138.4833,
    "primary_style": "",
@@ -92,7 +92,7 @@
    "shelf": "vegetables",
    "genre": "local-vegetables",
    "origin_pref": "長野県",
-   "origin_city": "下高井郡野沢温泉村",
+   "origin_city": "野沢温泉村",
    "lat": 36.9236,
    "lng": 138.4383,
    "primary_style": "",
@@ -250,7 +250,7 @@
    "regions": [
     {
      "pref": "愛知県",
-     "city": "丹羽郡扶桑町",
+     "city": "扶桑町",
      "lat": 35.3597,
      "lng": 136.9139,
      "relation_type": "名産地"
@@ -443,7 +443,7 @@
    "shelf": "tubers",
    "genre": null,
    "origin_pref": "三重県",
-   "origin_city": "多気郡多気町",
+   "origin_city": "多気町",
    "lat": 34.495,
    "lng": 136.5457,
    "primary_style": "",
