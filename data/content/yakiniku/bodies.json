@@ -1,0 +1,73 @@
+{
+  "items": [
+    {
+      "slug": "yakiniku",
+      "body_ja": "## 何でできているか\n主役は牛肉で、カルビ（ばら肉）・ロース・ハラミといった赤身寄りの部位と、タン、ミノ（第一胃）やシマチョウ（大腸）・マルチョウ（小腸）などの内臓肉、いわゆるホルモンに大きく分かれる。豚や鶏を出す店も多いとされる。味つけは二通りあり、醤油に砂糖・にんにく・ごま油・果物などを合わせたタレを前もって揉み込む「もみダレ」と、焼いた肉を小皿のタレにくぐらせる「つけダレ」がある。タンは塩とレモンで食べることが多いという。味の実体は、脂が炭や熱い網に落ちて立つ煙の香りと、タレの甘辛さ、部位ごとに違う歯ざわりの重なりとされる。\n## どう作るのか\n店の仕事は火に載せる前にあるとされる。部位ごとに筋を引いて切り分け、厚みをそろえ、内臓は塩や小麦粉でもみ洗いしてぬめりと臭みを落とす。そこへもみダレや塩で下味をつけて皿に盛り、焼くのは客自身になる。卓上には炭火の七輪、ガスの網、鉄板などが据えられ、薄切りのタンはさっと両面を、脂の多い腸は皮目からじっくりと、部位ごとに火の入れ方を変えるのが基本とされる。焼き上がりはつけダレにくぐらせ、白飯や葉野菜とともに食べることが多いという。\n## なぜこの形になったのか\n日本で牛肉を食べる習慣が広がったのは明治以降とされ、「焼肉」の起こりには諸説ある。戦前から朝鮮料理の店で肉を焼いて出していたとする見方がある一方、広がりの起点として語られることが多いのは戦後で、大阪や東京などで在日コリアン（朝鮮半島にルーツを持ち日本で暮らす人々）が営んだ店が、当時は食肉としてあまり流通していなかった内臓を焼いて出したことが始まりとされる。終戦後まもなく東京と大阪のそれぞれに焼肉店の始まりとされる店があり、どちらが先かは説が分かれるという。朝鮮半島のプルコギ（タレに漬けた肉の焼き物）やカルビ焼きを下敷きにしながら、日本では肉を一口大に切って客が自分で焼き、焼いた後でつけダレにくぐらせる食べ方が定着したとされる。「ホルモン」という呼び名にも、大阪の言葉で捨てるものを指す「放るもん」から来たとする説と、医学用語のホルモンから来たとする説が並び立っている。",
+      "body_en": "## What it's made of\nBeef takes center stage, split broadly into cuts close to lean meat, such as kalbi (short rib), rosu (loin) and harami (skirt), and the tongue and offal known together as horumon: mino (the first stomach), shimacho (large intestine), marucho (small intestine) and more. Many places serve pork and chicken as well. Seasoning comes two ways. Momi-dare is a marinade of soy sauce with sugar, garlic, sesame oil and often fruit, worked into the meat beforehand; tsuke-dare is a dipping sauce in a small dish for meat straight off the grill. Tongue usually gets just salt and a squeeze of lemon. What you taste is smoke from fat dripping onto charcoal or a hot grate, the sweet-salty sauce, and textures that change from one cut to the next.\n## How it's made\nThe restaurant's work is said to happen before anything meets the fire. Each cut is trimmed of sinew and sliced to an even thickness, and offal is scrubbed with salt or flour to lift away the slime and smell. The meat is seasoned with marinade or salt and brought to the table, where diners do the grilling themselves, over a charcoal shichirin brazier, a gas grate or an iron griddle. The basic rule is to match the heat to the cut: thin tongue gets a quick turn on each side, while fatty intestine starts skin-side down and cooks slowly. Grilled pieces go through the dipping sauce and are often eaten with white rice or wrapped in leafy greens.\n## Why it took this shape\nBeef eating spread in Japan from the Meiji era on, and the beginnings of yakiniku are told several ways. Some point to Korean restaurants grilling meat before the war, but the story most often told starts after it. In Osaka, Tokyo and elsewhere, restaurants run by Zainichi Koreans, people with roots on the Korean Peninsula living in Japan, are said to have grilled offal, which at the time had little place in the regular meat trade. Restaurants credited as the first yakiniku shops opened in both Tokyo and Osaka soon after the war, and which came first is still debated. Drawing on Korean dishes such as bulgogi (marinated grilled meat) and grilled galbi, the Japanese form settled on bite-size pieces cooked by the diner and dipped in sauce after grilling. Even the word horumon has two stories: one traces it to the Osaka-dialect hōrumon, \"things thrown out,\" the other to the medical term \"hormone.\"",
+      "sources": [
+        {
+          "title": "全国焼肉協会",
+          "url": "https://www.yakiniku.or.jp/",
+          "publisher": "一般社団法人全国焼肉協会",
+          "accessed_at": "2026-10-10"
+        },
+        {
+          "title": "日本食肉消費総合センター",
+          "url": "https://www.jmi.or.jp/",
+          "publisher": "公益財団法人日本食肉消費総合センター",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "yakiniku",
+          "to_slug": "beef-short-rib",
+          "relation_type": "使用食材",
+          "basis": "焼肉の「カルビ」は本来この牛のばら肉を指す語とされ、焼肉の中心にある部位"
+        },
+        {
+          "from_slug": "yakiniku",
+          "to_slug": "harami",
+          "relation_type": "使用食材",
+          "basis": "横隔膜の肉で、内臓に分類されながら赤身のように厚切りで焼かれる焼肉の定番部位"
+        },
+        {
+          "from_slug": "yakiniku",
+          "to_slug": "gyutan",
+          "relation_type": "使用食材",
+          "basis": "薄切りを塩とレモンで食べる「タン塩」として焼肉の品書きに並ぶ部位"
+        },
+        {
+          "from_slug": "yakiniku",
+          "to_slug": "mino",
+          "relation_type": "使用食材",
+          "basis": "牛の第一胃で、ホルモン焼きの定番として厚切りで焼かれる"
+        },
+        {
+          "from_slug": "yakiniku",
+          "to_slug": "marucho",
+          "relation_type": "使用食材",
+          "basis": "牛の小腸を裏返して焼く、腸系ホルモンの代表的な部位"
+        },
+        {
+          "from_slug": "yakiniku",
+          "to_slug": "hokkaido-jingisukan",
+          "relation_type": "対比",
+          "basis": "どちらも卓上で肉を焼いてタレで食べるが、ジンギスカンは羊肉を溝のある専用鍋で野菜と焼き、焼肉は牛の正肉と内臓を網や鉄板で一切れずつ焼く"
+        },
+        {
+          "from_slug": "yakiniku",
+          "to_slug": "morioka-reimen",
+          "relation_type": "兄弟",
+          "basis": "どちらも朝鮮半島の料理を下敷きに戦後の日本で形が整ったとされ、盛岡冷麺は朝鮮半島北部出身の店主が開いた焼肉と冷麺の店で生まれ、今も焼肉の店の品書きに並ぶことが多い"
+        },
+        {
+          "from_slug": "yakiniku",
+          "to_slug": "horusoba",
+          "relation_type": "源流",
+          "basis": "昭和30年代の鳥取市内の焼肉屋・ホルモン屋で、味噌だれで炒めたホルモンに中華そばを加えたのが始まりとする一説がある"
+        }
+      ]
+    }
+  ]
+}

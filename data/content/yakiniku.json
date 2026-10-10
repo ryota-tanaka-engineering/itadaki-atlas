@@ -1,0 +1,112 @@
+{
+ "genres": [],
+ "items": [
+  {
+   "type": "dish",
+   "shelf": "grilled",
+   "genre": null,
+   "origin_pref": "",
+   "origin_city": "",
+   "lat": "",
+   "lng": "",
+   "primary_style": "",
+   "regions": [
+    {
+     "pref": "大阪府",
+     "city": "大阪市",
+     "lat": 34.6656,
+     "lng": 135.5302,
+     "relation_type": "本場",
+     "note_ja": "戦後、鶴橋駅の周辺では闇市から続く市場と、朝鮮半島にルーツを持つ人々が多く暮らす地域が隣り合い、当時は食肉として流通しにくかった内臓肉を焼いて出す店が集まったとされる。今も駅前で焼肉の店と、精肉や韓国食材の店が軒を接しているという。",
+     "note_en": "After the war, a market that grew out of the black market sat beside a large community of people with roots on the Korean Peninsula around Tsuruhashi Station, and shops grilling offal, then hard to sell as meat, are said to have gathered here. Yakiniku restaurants still stand shoulder to shoulder with butchers and Korean grocers by the station.",
+     "source_url": "https://www.city.osaka.lg.jp/ikuno/",
+     "source_title": "生野区役所",
+     "source_publisher": "大阪市生野区役所",
+     "source_accessed_at": "2026-10-10"
+    },
+    {
+     "pref": "神奈川県",
+     "city": "川崎市",
+     "lat": 35.5195,
+     "lng": 139.7118,
+     "relation_type": "本場",
+     "note_ja": "臨海部の京浜工業地帯の工場で働いた朝鮮半島出身の人々とその家族が多く暮らした地域で、戦後、「セメント通り」と呼ばれる通り沿いに焼肉・ホルモンの店が集まったとされる。工場街の働き手の食として、内臓肉を焼く店が根づいたという。",
+     "note_en": "Many people from the Korean Peninsula and their families settled here while working in the factories of the Keihin industrial belt along the bay, and after the war yakiniku and horumon shops are said to have gathered along a road known as Cement-dori. Grilled offal took root as food for the factory district's workers.",
+     "source_url": "https://www.city.kawasaki.jp/",
+     "source_title": "川崎市ホームページ",
+     "source_publisher": "川崎市",
+     "source_accessed_at": "2026-10-10"
+    }
+   ],
+   "tags": [
+    "beef",
+    "offal"
+   ],
+   "slug": "yakiniku",
+   "name_ja": "焼肉",
+   "name_romaji": "Yakiniku",
+   "name_en": "Yakiniku — bite-size beef and offal grilled at the table and dipped in sauce",
+   "summary_ja": "牛の正肉や内臓を一口大に切り、卓上の網や鉄板で客が自ら焼いて、タレや塩で食べる料理。朝鮮半島の肉料理を下敷きに、戦後、在日コリアンの営む店が内臓肉を焼いて出したことから広がったとされ、焼いた後でつけダレにくぐらせる食べ方など、日本で形が整ったという。",
+   "summary_en": "Bite-size beef and offal that diners grill themselves over a tabletop grate or griddle, then dip in sauce or eat with salt. Rooted in Korean meat cookery, it is said to have spread after the war from restaurants run by Korean residents of Japan that grilled offal, and to have taken its Japanese shape, such as dipping the meat after grilling, along the way.",
+   "body_ja": "## 何でできているか\n主役は牛肉で、カルビ（ばら肉）・ロース・ハラミといった赤身寄りの部位と、タン、ミノ（第一胃）やシマチョウ（大腸）・マルチョウ（小腸）などの内臓肉、いわゆるホルモンに大きく分かれる。豚や鶏を出す店も多いとされる。味つけは二通りあり、醤油に砂糖・にんにく・ごま油・果物などを合わせたタレを前もって揉み込む「もみダレ」と、焼いた肉を小皿のタレにくぐらせる「つけダレ」がある。タンは塩とレモンで食べることが多いという。味の実体は、脂が炭や熱い網に落ちて立つ煙の香りと、タレの甘辛さ、部位ごとに違う歯ざわりの重なりとされる。\n## どう作るのか\n店の仕事は火に載せる前にあるとされる。部位ごとに筋を引いて切り分け、厚みをそろえ、内臓は塩や小麦粉でもみ洗いしてぬめりと臭みを落とす。そこへもみダレや塩で下味をつけて皿に盛り、焼くのは客自身になる。卓上には炭火の七輪、ガスの網、鉄板などが据えられ、薄切りのタンはさっと両面を、脂の多い腸は皮目からじっくりと、部位ごとに火の入れ方を変えるのが基本とされる。焼き上がりはつけダレにくぐらせ、白飯や葉野菜とともに食べることが多いという。\n## なぜこの形になったのか\n日本で牛肉を食べる習慣が広がったのは明治以降とされ、「焼肉」の起こりには諸説ある。戦前から朝鮮料理の店で肉を焼いて出していたとする見方がある一方、広がりの起点として語られることが多いのは戦後で、大阪や東京などで在日コリアン（朝鮮半島にルーツを持ち日本で暮らす人々）が営んだ店が、当時は食肉としてあまり流通していなかった内臓を焼いて出したことが始まりとされる。終戦後まもなく東京と大阪のそれぞれに焼肉店の始まりとされる店があり、どちらが先かは説が分かれるという。朝鮮半島のプルコギ（タレに漬けた肉の焼き物）やカルビ焼きを下敷きにしながら、日本では肉を一口大に切って客が自分で焼き、焼いた後でつけダレにくぐらせる食べ方が定着したとされる。「ホルモン」という呼び名にも、大阪の言葉で捨てるものを指す「放るもん」から来たとする説と、医学用語のホルモンから来たとする説が並び立っている。",
+   "body_en": "## What it's made of\nBeef takes center stage, split broadly into cuts close to lean meat, such as kalbi (short rib), rosu (loin) and harami (skirt), and the tongue and offal known together as horumon: mino (the first stomach), shimacho (large intestine), marucho (small intestine) and more. Many places serve pork and chicken as well. Seasoning comes two ways. Momi-dare is a marinade of soy sauce with sugar, garlic, sesame oil and often fruit, worked into the meat beforehand; tsuke-dare is a dipping sauce in a small dish for meat straight off the grill. Tongue usually gets just salt and a squeeze of lemon. What you taste is smoke from fat dripping onto charcoal or a hot grate, the sweet-salty sauce, and textures that change from one cut to the next.\n## How it's made\nThe restaurant's work is said to happen before anything meets the fire. Each cut is trimmed of sinew and sliced to an even thickness, and offal is scrubbed with salt or flour to lift away the slime and smell. The meat is seasoned with marinade or salt and brought to the table, where diners do the grilling themselves, over a charcoal shichirin brazier, a gas grate or an iron griddle. The basic rule is to match the heat to the cut: thin tongue gets a quick turn on each side, while fatty intestine starts skin-side down and cooks slowly. Grilled pieces go through the dipping sauce and are often eaten with white rice or wrapped in leafy greens.\n## Why it took this shape\nBeef eating spread in Japan from the Meiji era on, and the beginnings of yakiniku are told several ways. Some point to Korean restaurants grilling meat before the war, but the story most often told starts after it. In Osaka, Tokyo and elsewhere, restaurants run by Zainichi Koreans, people with roots on the Korean Peninsula living in Japan, are said to have grilled offal, which at the time had little place in the regular meat trade. Restaurants credited as the first yakiniku shops opened in both Tokyo and Osaka soon after the war, and which came first is still debated. Drawing on Korean dishes such as bulgogi (marinated grilled meat) and grilled galbi, the Japanese form settled on bite-size pieces cooked by the diner and dipped in sauce after grilling. Even the word horumon has two stories: one traces it to the Osaka-dialect hōrumon, \"things thrown out,\" the other to the medical term \"hormone.\"",
+   "sources": [
+    {
+     "title": "全国焼肉協会",
+     "url": "https://www.yakiniku.or.jp/",
+     "publisher": "一般社団法人全国焼肉協会",
+     "accessed_at": "2026-10-10"
+    },
+    {
+     "title": "日本食肉消費総合センター",
+     "url": "https://www.jmi.or.jp/",
+     "publisher": "公益財団法人日本食肉消費総合センター",
+     "accessed_at": "2026-10-10"
+    }
+   ],
+   "relations": [
+    {
+     "to_slug": "beef-short-rib",
+     "relation_type": "使用食材",
+     "basis": "焼肉の「カルビ」は本来この牛のばら肉を指す語とされ、焼肉の中心にある部位"
+    },
+    {
+     "to_slug": "harami",
+     "relation_type": "使用食材",
+     "basis": "横隔膜の肉で、内臓に分類されながら赤身のように厚切りで焼かれる焼肉の定番部位"
+    },
+    {
+     "to_slug": "gyutan",
+     "relation_type": "使用食材",
+     "basis": "薄切りを塩とレモンで食べる「タン塩」として焼肉の品書きに並ぶ部位"
+    },
+    {
+     "to_slug": "mino",
+     "relation_type": "使用食材",
+     "basis": "牛の第一胃で、ホルモン焼きの定番として厚切りで焼かれる"
+    },
+    {
+     "to_slug": "marucho",
+     "relation_type": "使用食材",
+     "basis": "牛の小腸を裏返して焼く、腸系ホルモンの代表的な部位"
+    },
+    {
+     "to_slug": "hokkaido-jingisukan",
+     "relation_type": "対比",
+     "basis": "どちらも卓上で肉を焼いてタレで食べるが、ジンギスカンは羊肉を溝のある専用鍋で野菜と焼き、焼肉は牛の正肉と内臓を網や鉄板で一切れずつ焼く"
+    },
+    {
+     "to_slug": "morioka-reimen",
+     "relation_type": "兄弟",
+     "basis": "どちらも朝鮮半島の料理を下敷きに戦後の日本で形が整ったとされ、盛岡冷麺は朝鮮半島北部出身の店主が開いた焼肉と冷麺の店で生まれ、今も焼肉の店の品書きに並ぶことが多い"
+    },
+    {
+     "to_slug": "horusoba",
+     "relation_type": "源流",
+     "basis": "昭和30年代の鳥取市内の焼肉屋・ホルモン屋で、味噌だれで炒めたホルモンに中華そばを加えたのが始まりとする一説がある"
+    }
+   ]
+  }
+ ],
+ "notes": "【本場】大阪市（鶴橋駅周辺）と川崎市（川崎区のセメント通り周辺）の2箇所。どちらも「戦後の朝鮮半島出身者の集住地で、流通しにくかった内臓肉を焼く店が集まった」という構造的理由で採った。【要確認】本場2行の出典はどちらもトップ級 URL（大阪市生野区役所・川崎市）で、ページ内容が理由文を直接支えるかは未確認。Web 非到達環境のため、投入前に check-source-urls で 200 を確認し、可能なら記述を直接支える下層ページ（区の紹介ページ・観光協会の記事）に差し替える。川崎の座標は川崎新町駅付近の概算（35.5195, 139.7118）で、駅の実座標と照合が要る。鶴橋駅の住所は天王寺区側にかかるため city は「大阪市」に留めた。item の出典も全国焼肉協会・日本食肉消費総合センターのトップ URL で、起源の諸説を直接支える下層ページは未確認。【見送った本場候補】東京（新宿・三河島など。始まりとされる店の所在は個店の話で、土地の構造的理由として言い切れない）。長野県飯田市（「焼肉のまち」を掲げるが、根拠が人口あたりの店の多さ＝ランキング寄りで、中馬の馬肉食文化との因果は確信がない）。神戸市長田区（同様の集住と内臓肉の歴史があるとされるが出典に確信がない）。仙台の牛たん焼きは焼き鳥の店から生まれたとされる別系統で、焼肉の本場ではなく、別アイテム「牛たん焼き」（仙台発祥）の新設候補。【relations】使用食材は beef-cuts からカルビ・ハラミ・タン・ミノ・マルチョウの5件。和牛は総称のアイテムが無く、特定銘柄（松阪牛など）に結ぶ根拠が無いため張っていない（和牛の総称アイテムができたら使用食材で結ぶ）。派生のホルモン系は horusoba を「焼肉 → ホルそば 源流」で結んだ（ホルそば本文の一説に基づく）。miso-yakisoba も本文に「焼肉店で味噌だれを麺に応用した」一説があるが、土地も店も特定しない書き方のため見送り（要判断）。tsuyama-horumon-udon は津山の牛馬市と食肉文化から生まれたとされ焼肉からの派生ではないので結んでいない。【tags】beef・offal。pork は主素材ではないので外した。朝鮮半島由来を示す系譜タグは語彙に無く、chinese_derived 等には当てはめていない（新設は要判断）。【chains】data/chains.json の焼肉チェーン（gyukaku・yakiniku-king・anrakutei。genre_slug=wagyu）は推薦先が部位だけなので、投入後に推薦先へ yakiniku を加えると受け皿へ橋渡しできる（要判断）。【本文】始まりとされる店の店名は書いていない。民族に関する価値判断はせず、在日コリアンの店から広がった経緯を「とされる」で記した。"
+}

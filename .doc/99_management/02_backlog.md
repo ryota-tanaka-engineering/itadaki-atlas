@@ -69,7 +69,10 @@ Itadaki Atlas のやることリスト（バックログ）。会話で出た要
 - [x] 【実装】寿司ジャンル110件の系統（2026-10-10。郷土かどうかではなく形で8系統: 握り14・巻き11・ちらし・ばら18・いなり・詰め6・押し・箱31・葉で包む9・姿7・なれずし・飯ずし14。`data/styles/sushi.json`、一文と並び順は `data/genre-styles.json`）。あわせて既存19系統（茶・焼酎・和菓子・魚・貝）の英語名が無く /en の見出しが日本語だったのを直した
 - [ ] 【手元】マイグレーション `20261010200000_genre_styles_sort_order.sql` → `import-genre-styles.ts --file data/genre-styles.json` → `node --env-file=.env.local scripts/import-primary-styles.ts --file data/styles/sushi.json`（ローカル・本番）
 - [ ] 【判断】寿司の系統の要判断（`data/styles/sushi.json` の `notes`）: 七とこずし（都城）は本文が雑炊で酢飯の寿司ではない。寿司ジャンルから外すか／田舎ずし（高知）は概要が「ちらし」、本文は一つずつ酢飯に載せる形で食い違う（概要の確認）／押し・箱が31件と多い。棒寿司を分けるか
-- [ ] 【実装】とんかつ・焼肉の本場の複数化（天ぷらは東京・長崎の2箇所あり）
+- [x] 【実装】とんかつ・焼肉の本場（2026-10-10。とんかつ: `data/tonkatsu-regions.csv` に上野・御徒町と鹿児島（黒豚）。焼肉: 受け皿アイテム `data/content/yakiniku.json`、本場は大阪・鶴橋と川崎・セメント通り。天ぷらは東京・長崎の2箇所が既にある）
+- [ ] 【手元】`node --env-file=.env.local scripts/import-regions.ts --file data/tonkatsu-regions.csv`・`npm run content:import -- --file data/content/yakiniku.json`。出典はトップ級 URL のみなので `check-source-urls` に含め、川崎の座標（川崎新町駅付近の概算）を確認
+- [ ] 【判断】焼肉・とんかつの要判断（`data/content/yakiniku.json` の `notes`）: 本場に東京・飯田・神戸長田を入れるか（見送り）／朝鮮半島由来の料理の系統タグを作るか／焼肉チェーン（牛角・焼肉きんぐ・安楽亭）の推薦先を部位から `yakiniku` に変えるか／上野は発祥ピン（銀座）と同じ東京都
+- [ ] 【実装】とんかつの関係を足す: 派生（カツカレー・会津/福井/群馬/駒ヶ根/山梨/タレ/デミのカツ丼・かつめし・スパカツ・トンカツラーメン等）、兄弟/対比（串カツ）、使用食材（ヒレ・かごしま黒豚）。新規候補: 味噌カツ（名古屋）、牛たん焼き（仙台）
 - [ ] 【実装】鶏の部位図の線画改善
 
 ## 4. 後回し
