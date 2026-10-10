@@ -27,3 +27,16 @@ describe("genreStyleFileSchema / toDbRows", () => {
     expect(genreStyleFileSchema.safeParse([{ ...r, genre: "Ramen" }]).success).toBe(false);
   });
 });
+
+describe("data/genre-styles.json", () => {
+  it("どの系統にも英語の系統名がある（無いと /en の見出しが日本語のまま出る）", async () => {
+    const { readFileSync } = await import("node:fs");
+    const rows = genreStyleFileSchema.parse(JSON.parse(readFileSync("data/genre-styles.json", "utf8")));
+    const en = JSON.parse(readFileSync("messages/en.json", "utf8")) as {
+      style?: Record<string, string>;
+      styleNames?: Record<string, string>;
+    };
+    const missing = rows.map((r) => r.style).filter((s) => !en.styleNames?.[s] && !en.style?.[s]);
+    expect(missing).toEqual([]);
+  });
+});

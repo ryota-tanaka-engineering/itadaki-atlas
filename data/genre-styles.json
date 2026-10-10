@@ -208,5 +208,61 @@
     "style": "その他",
     "intro_ja": "上の系統に収まらない型で、濃い甘みのバフンウニやコリコリしたナマコ、磯とパイナップルを思わせる香りのホヤのように、ウニや海の珍味が入る。",
     "intro_en": "Types outside the groups above: sea urchins such as the rich bafun uni, crunchy sea cucumber, and hoya (sea squirt), whose briny, pineapple-like aroma is said to divide opinion."
+  },
+  {
+    "genre": "sushi",
+    "style": "握り",
+    "intro_ja": "手で軽く握った酢飯にネタを一枚のせる形で、ひと口で飯とネタの釣り合いを味わうものとされ、江戸前寿司や軍艦巻き、炙りもこの形に入る。",
+    "intro_en": "A small mound of vinegared rice shaped by hand and topped with a single slice of fish or another topping. Each piece is eaten in one bite, so the balance of rice and topping is said to be the whole point.",
+    "sort_order": 1
+  },
+  {
+    "genre": "sushi",
+    "style": "巻き",
+    "intro_ja": "海苔や昆布、油揚げ、わかめなどで酢飯と具を巻く形で、切り口に具の模様が現れ、太巻きは一本を切り分けて大勢で分け合うものとされる。",
+    "intro_en": "Rice and fillings rolled up in nori, kelp, fried tofu skin or even wakame, then sliced. The cut face shows the pattern of the fillings; thick rolls are made to be shared, while hand rolls are wrapped at the table.",
+    "sort_order": 2
+  },
+  {
+    "genre": "sushi",
+    "style": "ちらし・ばら",
+    "intro_ja": "酢飯に煮た野菜や魚を混ぜ込む、または上に散らす形で、型も握りも要らず、大きな器から取り分けて祭りや祝いの席で大勢で食べるものとされる。",
+    "intro_en": "Sushi rice mixed with, or scattered with, simmered vegetables, fish and egg, served from a large tub or bowl. No shaping is needed, so it is said to have suited festivals and gatherings where many people eat together.",
+    "sort_order": 3
+  },
+  {
+    "genre": "sushi",
+    "style": "いなり・詰め",
+    "intro_ja": "甘辛く煮た油揚げの袋に酢飯を詰める形を中心に、野菜をくり抜いて飯を詰めるものも含み、手でつまんで食べる甘めの寿司とされる。",
+    "intro_en": "Pouches of simmered sweet-savory fried tofu stuffed with sushi rice, plus a few local takes that fill other hollow ingredients. Eaten by hand, they are said to taste milder and sweeter than sushi topped with raw fish.",
+    "sort_order": 4
+  },
+  {
+    "genre": "sushi",
+    "style": "押し・箱",
+    "intro_ja": "木枠や箱、巻きすで酢飯と具を押し固めて切り分ける形で、握りより古い系譜とされ、締めた魚や煮た具が飯になじんで日持ちのする味になる。",
+    "intro_en": "Rice and toppings packed into a wooden box or mold, or tightened into a log with a bamboo mat, then pressed and sliced. Said to predate nigiri, the pressing lets cured fish and rice settle together and keep for a day or more.",
+    "sort_order": 5
+  },
+  {
+    "genre": "sushi",
+    "style": "葉で包む",
+    "intro_ja": "柿や笹、朴、高菜などの葉で酢飯と具を包む、または葉に載せる形で、葉の香りが飯に移り、持ち運びや日持ちの助けにもなってきたとされる。",
+    "intro_en": "Sushi wrapped in, or set on, a leaf such as persimmon, bamboo grass, magnolia or pickled mustard greens. The leaf lends its aroma and is said to have helped the sushi travel and keep, for fieldwork, festivals and gifts.",
+    "sort_order": 6
+  },
+  {
+    "genre": "sushi",
+    "style": "姿",
+    "intro_ja": "サバやアジ、ボウゼなどの魚を一尾まるごと開いて酢飯を抱かせ、頭から尾まで魚の形を残す形で、祭りや祝いの皿に姿のまま盛るものとされる。",
+    "intro_en": "A whole fish such as mackerel, horse mackerel or butterfish, opened, cured in vinegar and filled with sushi rice so it keeps its shape from head to tail. It is said to be laid out whole on festival platters, then sliced.",
+    "sort_order": 7
+  },
+  {
+    "genre": "sushi",
+    "style": "なれずし・飯ずし",
+    "intro_ja": "魚や野菜を塩と飯や麹で漬け、数週間から数か月かけて乳酸発酵させる形で、すしの古い姿とされ、酸味と発酵の香りが酢飯の寿司とは大きく異なる。",
+    "intro_en": "Fish or vegetables salted and packed with rice or rice koji, then left to ferment for weeks or months. Considered the oldest form of sushi, it has a sourness and aroma quite unlike sushi made with vinegared rice.",
+    "sort_order": 8
   }
 ]

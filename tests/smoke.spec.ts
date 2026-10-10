@@ -655,6 +655,19 @@ test.describe("系統の一文・タグの総論・チェーン創業の英語�
     await page.goto("/ja/ramen");
     await expect(page.getByTestId("style-intro").first()).toBeVisible();
   });
+
+  test("/en の系統見出しは英語名で出る（日本茶の「緑茶」等）", async ({ page }) => {
+    await page.goto("/en/nihoncha");
+    await expect(page.getByRole("heading", { name: "Green tea" })).toBeVisible();
+    await expect(page.getByRole("heading", { name: "緑茶" })).toHaveCount(0);
+  });
+
+  test("寿司ページの系統が握り→巻き→… の順に並ぶ（styles/sushi.json と sort_order の投入後）", async ({ page }) => {
+    await page.goto("/ja/sushi");
+    const nav = page.getByRole("navigation", { name: /系統/ });
+    await expect(nav.getByRole("link").first()).toHaveText(/握り/);
+    await expect(nav.getByRole("link").nth(1)).toHaveText(/巻き/);
+  });
 });
 
 test.describe("データ駆動ページ（行を足すと増える機械）", () => {

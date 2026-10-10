@@ -66,7 +66,10 @@ Itadaki Atlas のやることリスト（バックログ）。会話で出た要
 - [x] 【実装】タグの総論と英語の定義（2026-10-10。`tags.definition_en/intro_ja/intro_en`、`data/tags.json` 26件。/en に日本語の定義が出ていたのも解消）
 - [ ] 【実装】麺・濃さのような構造化属性をラーメン以外へ（元祖店 `originator_shop` は表示方針が未決）
 - [ ] 【実装】ラーメン協会一覧との差分109件（台帳は手元の scratchpad/ramen-master）
-- [ ] 【実装】とんかつ・天ぷら・焼肉の本場の複数化、寿司ジャンルの系統（郷土/型/現代/ネタ）付与
+- [x] 【実装】寿司ジャンル110件の系統（2026-10-10。郷土かどうかではなく形で8系統: 握り14・巻き11・ちらし・ばら18・いなり・詰め6・押し・箱31・葉で包む9・姿7・なれずし・飯ずし14。`data/styles/sushi.json`、一文と並び順は `data/genre-styles.json`）。あわせて既存19系統（茶・焼酎・和菓子・魚・貝）の英語名が無く /en の見出しが日本語だったのを直した
+- [ ] 【手元】マイグレーション `20261010200000_genre_styles_sort_order.sql` → `import-genre-styles.ts --file data/genre-styles.json` → `node --env-file=.env.local scripts/import-primary-styles.ts --file data/styles/sushi.json`（ローカル・本番）
+- [ ] 【判断】寿司の系統の要判断（`data/styles/sushi.json` の `notes`）: 七とこずし（都城）は本文が雑炊で酢飯の寿司ではない。寿司ジャンルから外すか／田舎ずし（高知）は概要が「ちらし」、本文は一つずつ酢飯に載せる形で食い違う（概要の確認）／押し・箱が31件と多い。棒寿司を分けるか
+- [ ] 【実装】とんかつ・焼肉の本場の複数化（天ぷらは東京・長崎の2箇所あり）
 - [ ] 【実装】鶏の部位図の線画改善
 
 ## 4. 後回し
