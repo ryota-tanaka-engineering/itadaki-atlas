@@ -1,0 +1,537 @@
+{
+ "chains": [
+  {
+   "slug": "ichiran",
+   "founded_en": "Founded in 1960 in Fukuoka (said to have started as a street stall; in 1966 it moved to Ogori, Fukuoka Prefecture, and took the name \"Ichiran\", and from 1993 it began opening shops in earnest)."
+  },
+  {
+   "slug": "ippudo",
+   "founded_en": "Founded on October 16, 1985, in Daimyo, Chuo Ward, Fukuoka (founder: Shigemi Kawahara)."
+  },
+  {
+   "slug": "tenkaippin",
+   "founded_en": "Founded in 1971 in Kyoto (said to have started as a street stall near Ginkaku-ji temple; it opened a shop in 1975 and was incorporated in 1981. The current head office is in Otsu, Shiga Prefecture)."
+  },
+  {
+   "slug": "sugakiya",
+   "founded_en": "Founded in 1946 in Nagoya (started as a Japanese sweets shop, or amamidokoro; it is said to have begun serving ramen in 1948)."
+  },
+  {
+   "slug": "kourakuen",
+   "founded_en": "Founded on September 22, 1954, in Aizuwakamatsu, Fukushima Prefecture (started as \"Ajiyoshi Shokudo\" by founder Tsukasa Niida and renamed \"Kourakuen\" in 1967. The current head office is in Koriyama, in the same prefecture)."
+  },
+  {
+   "slug": "hidakaya",
+   "founded_en": "Founded in 1973 in Omiya, Saitama Prefecture (started as \"Rairaiken\"; the first Hidakaya Chinese diner opened in Urawa Tokiwa in October 1997)."
+  },
+  {
+   "slug": "yamaokaya",
+   "founded_en": "Founded in September 1988 in Ushiku, Ibaraki Prefecture (operated by Maruchiyo Yamaokaya; it expanded into Hokkaido in 1992, and the current head office is in Sapporo)."
+  },
+  {
+   "slug": "rairaitei",
+   "founded_en": "Founded in March 1997 in Yasu, Shiga Prefecture (founder: Toshinori Mameda, who is said to have trained at Daiichi Asahi, a long-established ramen shop in Kyoto)."
+  },
+  {
+   "slug": "kurumaya-ramen",
+   "founded_en": "Opened in 1970 in Adachi Ward, Tokyo (as a shop built from a converted tour bus along National Route 4; its predecessor, an udon and soba shop, opened in 1968)."
+  },
+  {
+   "slug": "gyoza-no-ohsho",
+   "founded_en": "Founded on December 24, 1967, at Shijo-Omiya, Nakagyo Ward, Kyoto (founder: Asao Kato)."
+  },
+  {
+   "slug": "ringer-hut",
+   "founded_en": "Founded in 1962 in Nagasaki (as the tonkatsu restaurant \"Hamakatsu\"). It opened \"Nagasaki Chanmen\" in Shuku-machi, Nagasaki, in 1974 and changed the name to \"Ringer Hut\" in 1977."
+  },
+  {
+   "slug": "torikizoku",
+   "founded_en": "Founded in 1985 in Higashiosaka, Osaka Prefecture (as \"Yakitoriya Torikizoku\"; the current operating company is Eternal Hospitality Japan Co., Ltd.)."
+  },
+  {
+   "slug": "daikichi",
+   "founded_en": "Founded on December 1, 1977, in Osaka (Daikichi System Co., Ltd.; known for franchising with shops set in residential neighborhoods)."
+  },
+  {
+   "slug": "akiyoshi",
+   "founded_en": "Founded in June 1959 (Showa 34) in Gofuku-machi (now Junka 2-chome), Fukui, Fukui Prefecture; the company, Akiyoshi Group Honbu Co., Ltd., was established on October 19, 1982 (Showa 57)."
+  },
+  {
+   "slug": "yamachan",
+   "founded_en": "Founded on June 14, 1981, in Shinsakae, Naka Ward, Nagoya, Aichi Prefecture (founder: Shigeo Yamamoto; operated by SY Food Co., Ltd.)."
+  },
+  {
+   "slug": "furaibo",
+   "founded_en": "Founded on November 1, 1963, in Hibino-cho, Atsuta Ward, Nagoya, Aichi Prefecture (founder: Kenko Otsubo)."
+  },
+  {
+   "slug": "tori-tetsu",
+   "founded_en": "Founded in June 2000 in Meguro Ward, Tokyo (Tasco System Co., Ltd. opened its first yakitori outlet, the Gakugei-Daigaku Ekimae branch; the chain is now run by Asrapport Co., Ltd.)."
+  },
+  {
+   "slug": "yakitori-center",
+   "founded_en": "Opened on June 18, 2012, in Kabukicho, Shinjuku Ward, Tokyo (the first shop, Shinjuku Higashiguchi, opened as a new format of the Colowide Group; operated by Colowide MD Co., Ltd.)."
+  },
+  {
+   "slug": "toriyoshi-shoten",
+   "founded_en": "Founded in 1984 in Kichijoji, Musashino, Tokyo (as \"Toriyoshi\", a shop specializing in fried chicken wings, tebasaki karaage; the operating company is now a member of the Create Restaurants Holdings group)."
+  },
+  {
+   "slug": "machida-shoten",
+   "founded_en": "Founded in January 2008 in Machida, Tokyo (started as a sole proprietorship by founder Sho Tagawa and incorporated as Machida Shoten Co., Ltd. in December 2009)."
+  },
+  {
+   "slug": "mokotanmen-nakamoto",
+   "founded_en": "Opened in September 1968 in Itabashi Ward, Tokyo (as \"Borscht no Mise Nakamoto\", a borscht restaurant; relaunched as \"Moko Tanmen Nakamoto\" in 2000; operated by Makoto Food Service Co., Ltd.)."
+  },
+  {
+   "slug": "kairikiya",
+   "founded_en": "Opened in June 2005 in Ichijoji, Sakyo Ward, Kyoto (as the Kitashirakawa branch)."
+  },
+  {
+   "slug": "kagetsu-arashi",
+   "founded_en": "June 8, 1994, Tokyo (the date the operating company, Globeat Japan Inc., was established; the opening date of the first shop in Koenji, Suginami Ward, differs between sources and is not stated on the official website)."
+  },
+  {
+   "slug": "hachiban-ramen",
+   "founded_en": "Founded on February 11, 1967, in Kaga, Ishikawa Prefecture (opened by founder Tetsuo Goto along National Route 8; operated by Hachiban Co., Ltd.)."
+  },
+  {
+   "slug": "ajisen-ramen",
+   "founded_en": "Founded in 1968 in Kumamoto (by Takaharu Shigemitsu; operated by Shigemitsu Sangyo Co., Ltd.)."
+  },
+  {
+   "slug": "rokurinsha",
+   "founded_en": "Opened on April 18, 2005, in Osaki, Shinagawa Ward, Tokyo (operated by Matsufuji Shokuhin Co., Ltd.)."
+  },
+  {
+   "slug": "marugen-ramen",
+   "founded_en": "Opened in June 2001 in Anjo, Aichi Prefecture (the first shop of a new format by Monogatari Corporation)."
+  },
+  {
+   "slug": "fuji-soba",
+   "founded_en": "Founded in 1972 in Tokyo (founder Michio Tan set up Daitan Food Co., Ltd. and began running standing-counter soba shops, tachigui soba, in Shibuya, Shinjuku and elsewhere)."
+  },
+  {
+   "slug": "yudetaro",
+   "founded_en": "Opened in October 1994 in Ota Ward, Tokyo (Shin'etsu Shokuhin Co., Ltd. opened the Minato branch; Yudetaro System Co., Ltd., established in 2004, handles the franchise expansion)."
+  },
+  {
+   "slug": "komoro-soba",
+   "founded_en": "Opened in 1974 in Kyobashi, Chuo Ward, Tokyo (the operating company, Mitsuwa, opened the first shop; Mitsuwa itself was founded in November 1953)."
+  },
+  {
+   "slug": "hakone-soba",
+   "founded_en": "Opened in August 1965 in Shinjuku Ward, Tokyo (opened by Odakyu Electric Railway on the first basement floor of Shinjuku Station; now operated by Odakyu Restaurant System)."
+  },
+  {
+   "slug": "irorian-kiraku",
+   "founded_en": "Opened in April 2008 in Ota Ward, Tokyo (the first shop, in Granduo Kamata; operated by JR East Cross Station Co., Ltd.)."
+  },
+  {
+   "slug": "sojibou",
+   "founded_en": "The operating company, Gourmet Kineya Co., Ltd., was established in March 1967 (the first Kineya udon shop opened in November 1971 in Nara). The founding year and place of the Sojibou brand itself are not stated on the official website."
+  },
+  {
+   "slug": "kazokutei",
+   "founded_en": "Founded on September 27, 1947, in Osaka Prefecture (as a soba restaurant; in October 1987 Konan Kogyo absorbed it in a merger and became the present Kazokutei Co., Ltd.)."
+  },
+  {
+   "slug": "yoshi-soba",
+   "founded_en": "The operating company, Noah Co., Ltd., was founded in October 1971 in Meguro Ward, Tokyo. The opening year of the first Yoshi Soba shop is not stated on the official website."
+  },
+  {
+   "slug": "marugame-seimen",
+   "founded_en": "Opened in November 2000 in Kakogawa, Hyogo Prefecture (the first shop, run by Toridoll)."
+  },
+  {
+   "slug": "hanamaru-udon",
+   "founded_en": "Opened in May 2000 in Takamatsu, Kagawa Prefecture (the Kita branch, opened by founder Hidehito Maeda)."
+  },
+  {
+   "slug": "maki-no-udon",
+   "founded_en": "Founded in 1973 in Itoshima, Fukuoka Prefecture (said to have grown out of a noodle-making business; the operating company, Kamaage Maki no Udon Co., Ltd., was established in 1976. The exact opening date of the first shop is not stated on the official website)."
+  },
+  {
+   "slug": "west-udon",
+   "founded_en": "Founded in 1966 in Fukuma, Munakata District, Fukuoka Prefecture (now Fukutsu). Operated by West Co., Ltd."
+  },
+  {
+   "slug": "sukesan-udon",
+   "founded_en": "Opened in January 1976 in Ichieda, Tobata Ward, Kitakyushu, Fukuoka Prefecture (by founder Shosuke Onishi)."
+  },
+  {
+   "slug": "kineya",
+   "founded_en": "Opened in November 1971 in Nara (the first Kineya, an udon shop making noodles by hand in view of customers, opened as the Nara Daiei branch; operated by Gourmet Kineya Co., Ltd.)."
+  },
+  {
+   "slug": "yamada-udon",
+   "founded_en": "Opened in 1964 in Saitama Prefecture (as an udon shop run directly by a noodle maker; the parent company, Yamada Seimen-ten Ltd., was established in September 1953)."
+  },
+  {
+   "slug": "iyo-seimen",
+   "founded_en": "The operating company, Iyo Seimen Co., Ltd., was established on April 1, 2015 (the founding place and details of the first shop are not stated on the official website)."
+  },
+  {
+   "slug": "tsurumaru-udon",
+   "founded_en": "Operated by Fujio Food System Co., Ltd. The founding year and first shop of the Tsurumaru Udon brand are not stated on the official website."
+  },
+  {
+   "slug": "aji-no-mingei",
+   "founded_en": "Opened in January 1976 in Okayama Prefecture (the first shop of a new format within the Myojo Foods group; part of Sagami Holdings since 2014)."
+  },
+  {
+   "slug": "sushiro",
+   "founded_en": "Opened in June 1984 in Toyonaka, Osaka Prefecture (the first shop, under the name \"Sushi Taro\"; the company was established in October of that year and renamed Akindo Sushiro Co., Ltd. in December 2000)."
+  },
+  {
+   "slug": "kura-sushi",
+   "founded_en": "Founded in May 1977 in Sakai, Osaka Prefecture (as a takeaway sushi shop; it switched to conveyor-belt sushi, kaiten-zushi, in 1984)."
+  },
+  {
+   "slug": "hama-sushi",
+   "founded_en": "In October 2002, Zensho (now Zensho Holdings) established Hama-Sushi Co., Ltd. to enter the conveyor-belt sushi business (the location of the first shop is not stated in the official company history)."
+  },
+  {
+   "slug": "kappa-sushi",
+   "founded_en": "Founded in August 1973 (Nagano, Nagano Prefecture) and incorporated on November 21, 1981 (according to the company profile on the official website of the operator, Kappa Create; the location of the first shop is not stated on that page)."
+  },
+  {
+   "slug": "uobei",
+   "founded_en": "Opened in September 2009 with UOBEI Kawagoe (Kawagoe, Saitama Prefecture) as the first shop (according to the company history on the official website of Genki Global Dining Concepts, the successor to the operator Genki Sushi)."
+  },
+  {
+   "slug": "genki-sushi",
+   "founded_en": "Opened in December 1968 in Utsunomiya, Tochigi Prefecture (the first shop, in front of Tobu Utsunomiya Station; the company name was changed to \"GENKI SUSHI\" in March 1990)."
+  },
+  {
+   "slug": "gatten-sushi",
+   "founded_en": "Opened in November 1987 in Yorii, Saitama Prefecture (as the first franchise shop of Genroku Sushi; it was renovated in 1995 and became independent as \"Gatten Sushi\")."
+  },
+  {
+   "slug": "nemuro-hanamaru",
+   "founded_en": "Opened on July 29, 1994, in Hanazono-cho, Nemuro, Hokkaido (as \"Kaiten Sushi Hanamaru Nemuro\")."
+  },
+  {
+   "slug": "kanazawa-maimon-sushi",
+   "founded_en": "Opened on April 8, 1999, in Yokaichi, Kanazawa, Ishikawa Prefecture (taking over a shop from the previous operating company; the Kanazawa Ekinishi main branch opened in April 2000)."
+  },
+  {
+   "slug": "sushi-zanmai",
+   "founded_en": "Kiyomura was founded in September 1985 in Tsukiji, Chuo Ward, Tokyo, and the Sushizanmai main branch opened in Tsukiji on April 18, 2001."
+  },
+  {
+   "slug": "yoshinoya",
+   "founded_en": "Founded in 1899 (Meiji 32) in Nihonbashi, Tokyo (as a gyumeshi, beef-on-rice, shop for people working at the fish market, uogashi)."
+  },
+  {
+   "slug": "matsuya",
+   "founded_en": "Opened on June 16, 1966, in Hazawa, Nerima Ward, Tokyo (as the Chinese restaurant \"Matsuya\"; in July 1968 the Ekoda branch of \"Matsuya\" opened as a gyumeshi and yakiniku set-meal shop)."
+  },
+  {
+   "slug": "sukiya",
+   "founded_en": "Zensho (now Zensho Holdings) was founded in June 1982 in Tsurumi Ward, Yokohama, Kanagawa Prefecture; in November of that year the first Sukiya (Namamugi Ekimae branch) opened in Tsurumi Ward, Yokohama."
+  },
+  {
+   "slug": "nakau",
+   "founded_en": "Opened in October 1969 in Ibaraki, Osaka Prefecture (the first shop, \"Nakau Ibaraki\", a handmade udon restaurant)."
+  },
+  {
+   "slug": "tenya",
+   "founded_en": "Opened in September 1989 in the Yaesu underground shopping mall at Tokyo Station (the first shop; operated by Ten Corporation, now Royal Food Service)."
+  },
+  {
+   "slug": "katsuya",
+   "founded_en": "Opened in August 1998 in Sagamihara, Kanagawa Prefecture (with Katsuya Sagami-Ono as the first shop; the operating company, Arcland Service, was founded in March 1993)."
+  },
+  {
+   "slug": "unatoto",
+   "founded_en": "The operating company, G-FACTORY Co., Ltd., was established on May 20, 2003 (according to its official website). The founding year and first-shop location of the Unatoto brand itself are not stated on that website."
+  },
+  {
+   "slug": "tokyo-chikara-meshi",
+   "founded_en": "Opened in 2011 in Ikebukuro, Toshima Ward, Tokyo (with the Ikebukuro Nishiguchi branch as the first shop; operated by Sanko Marketing Foods Co., Ltd.)."
+  },
+  {
+   "slug": "hakodate-kantaro",
+   "founded_en": "Founded in July 1982 in Hakodate, Hokkaido (as the bento shop \"Jinbei\"). In 1998 it opened \"Gourmet Kaitenzushi Kantaro Ugaura Main Branch\" in Hakodate."
+  },
+  {
+   "slug": "tsukiji-shokudo-genchan",
+   "founded_en": "Launched in 2006 as the main brand of Cypress Co., Ltd. (the company opened its first model izakaya in Motoasakusa, Taito Ward, Tokyo, in 1993 and was incorporated the following year, 1994)."
+  },
+  {
+   "slug": "tonkatsu-wako",
+   "founded_en": "Founded in 1958 (Showa 33) (according to the official website of the operator, Wako Shoji; the founding place is not stated on that page)."
+  },
+  {
+   "slug": "tonkatsu-saboten",
+   "founded_en": "Opened in December 1966 in Shinjuku Ward, Tokyo (with the tonkatsu restaurant \"Saboten\" Shinjuku as the first shop; the operator, Greenhouse, traces its start to an institutional catering business founded in 1947)."
+  },
+  {
+   "slug": "katsukura",
+   "founded_en": "Opened in April 1994 in Nakagyo Ward, Kyoto (with Katsukura Shijo as the first shop of a new format; the operator, Fukunaga, was founded in 1930)."
+  },
+  {
+   "slug": "matsunoya",
+   "founded_en": "The official company history of Matsuya Foods Holdings records that Matsunoya, as a tonkatsu specialty restaurant, reached 100 shops in October 2016 (the brand's founding year and first shop are not recorded on that page)."
+  },
+  {
+   "slug": "karayama",
+   "founded_en": "Opened on December 19, 2014, in Sagamihara, Kanagawa Prefecture (the first shop of the karaage fried-chicken specialty restaurant \"Karayama\"; operated under Arcland Service Holdings)."
+  },
+  {
+   "slug": "karayoshi",
+   "founded_en": "An official press release from Skylark Holdings states that Karayoshi karaage fried-chicken counters attached to Gusto restaurants passed 600 as of January 2021 (the brand's founding year and first shop are not stated in that release)."
+  },
+  {
+   "slug": "torisho",
+   "founded_en": "Based on the company profile on the official website of the operator, NIS Co., Ltd., which lists over about 120 shops nationwide (the founding year and first shop are not stated on that page; some information says the first shop opened in 2010 in Urawa, Saitama, but this is unconfirmed in the official company history)."
+  },
+  {
+   "slug": "souhonke-moriyama",
+   "founded_en": "Founded in July 1970 (Showa 45) in Nakatsu, Oita Prefecture (as \"Moriyama Karaage-ten\"; the current name is \"Sohonke Moriyama\")."
+  },
+  {
+   "slug": "tempura-makino",
+   "founded_en": "Opened in 2006 in Kako District, Hyogo Prefecture (with the Harima branch as the first shop; operated by Toridoll, the same company as Marugame Seimen)."
+  },
+  {
+   "slug": "kushikatsu-tanaka",
+   "founded_en": "Opened in December 2008 in Setagaya Ward, Tokyo (the first directly managed shop)."
+  },
+  {
+   "slug": "gyukaku",
+   "founded_en": "Opened in January 1996 in Sangenjaya, Setagaya Ward, Tokyo (the first shop; the operating company is now Reins International Inc.)."
+  },
+  {
+   "slug": "yakiniku-king",
+   "founded_en": "Opened in March 2007 in Nonoichi, Ishikawa Prefecture (the first shop; operated by Monogatari Corporation)."
+  },
+  {
+   "slug": "anrakutei",
+   "founded_en": "November 1978 (Showa 53), Kawaguchi, Saitama Prefecture (establishment of Anrakutei Co., Ltd.; the business is also said to have been started by an individual in 1963, but this is not stated on the official company history page)."
+  },
+  {
+   "slug": "amiyakitei",
+   "founded_en": "June 22, 1995, Kasugai, Aichi Prefecture (establishment of Amiyakitei Co., Ltd.; the first shop opened in Kasugai in July of the same year)."
+  },
+  {
+   "slug": "jojoen",
+   "founded_en": "Opened in April 1976 in Roppongi, Minato Ward, Tokyo (the first shop; the company was established in April 1984)."
+  },
+  {
+   "slug": "yakiniku-like",
+   "founded_en": "Opened in August 2018 in Shimbashi, Minato Ward, Tokyo (the first shop; a solo yakiniku format with a smokeless grill for each diner)."
+  },
+  {
+   "slug": "ikinari-steak",
+   "founded_en": "Opened in December 2013 in Ginza, Chuo Ward, Tokyo (the first shop; operated by Pepper Food Service Co., Ltd.)."
+  },
+  {
+   "slug": "bronco-billy",
+   "founded_en": "Founded in June 1978 in Kita Ward, Nagoya, Aichi Prefecture (as the steakhouse \"Bronco\"; reorganized as Bronco Co., Ltd. in December 1983)."
+  },
+  {
+   "slug": "shabuyo",
+   "founded_en": "Opened in May 2007 in Yokohama, Kanagawa Prefecture (with the Yokohama branch as the first shop; operated by the Skylark Group)."
+  },
+  {
+   "slug": "kisoji",
+   "founded_en": "Opened in September 1966 in Minami-Kawara-machi, Naka Ward, Nagoya, Aichi Prefecture (with the folk-craft-style shabu-shabu restaurant \"Kisoji\" Kawaramachi branch as the first shop; the operating company was established in September 1952)."
+  },
+  {
+   "slug": "onyasai",
+   "founded_en": "Opened in March 2000 in Kyodo, Setagaya Ward, Tokyo (the first shop; operated by Reins International Inc.)."
+  },
+  {
+   "slug": "tajimaya-shabu",
+   "founded_en": "Founded in April 1970 in Osaka (under the name \"Fujiya\"; it opened the charcoal-grill yakiniku restaurant \"Tajimaya\" in 1996 and was incorporated in 1998)."
+  },
+  {
+   "slug": "kanidoraku",
+   "founded_en": "Founded on February 11, 1960, in Tottori Prefecture (as \"Sengokubune\", a restaurant serving seafood of the San'in coast; the Kani Doraku Dotonbori main branch opened in Osaka on February 1, 1962)."
+  },
+  {
+   "slug": "yamaya-motsunabe",
+   "founded_en": "Opened in September 2006 in Toyo, Koto Ward, Tokyo (with the \"Hakata Motsunabe Yamaya\" Toyo branch as the first shop; operated by Yamaya Communications Co., Ltd.)."
+  },
+  {
+   "slug": "ootoya",
+   "founded_en": "Opened in January 1958 in Ikebukuro, Toshima Ward, Tokyo (the first \"Ootoya Shokudo\"; founder: Eiichi Mitsumori)."
+  },
+  {
+   "slug": "yayoiken",
+   "founded_en": "Opened in December 1989 in Hakata Ward, Fukuoka (the first shop of its predecessor, \"Meshiya Don\"; the name was changed to \"Yayoiken\" in July 2006)."
+  },
+  {
+   "slug": "maido-ookini-shokudo",
+   "founded_en": "Opened in July 1988 in Osaka (the first shop, \"Morimachi Shokudo\"; operated by Fujio Food System Co., Ltd.)."
+  },
+  {
+   "slug": "machikadoya",
+   "founded_en": "Opened in January 2005 in Kyoto (an existing \"The Meshiya 24\" Karasuma-Gojo branch was converted into the first Machikadoya; operated by Life Foods Co., Ltd.)."
+  },
+  {
+   "slug": "miyamoto-munashi",
+   "founded_en": "2003, Amagasaki, Hyogo Prefecture (said to be the first shop; after mergers the operating company is now M&S Food Service Co., Ltd. The official website does not give the exact opening date of the first shop)."
+  },
+  {
+   "slug": "unagi-no-naruse",
+   "founded_en": "Opened in September 2022 in Yokohama, Kanagawa Prefecture (the first shop; operated by Franchise Business Incubation Co., Ltd.)."
+  },
+  {
+   "slug": "omusubi-gonbei",
+   "founded_en": "Opened in December 1999 in Osaki, Shinagawa Ward, Tokyo (the first Omusubi Gonbei, at Osaki New City; operated by Iwai Co., Ltd.)."
+  },
+  {
+   "slug": "isomaru-suisan",
+   "founded_en": "Opened in 2009 in Kichijoji, Musashino, Tokyo (the first shop; originally operated by SFP Holdings, which was merged into its parent, Create Restaurants Holdings, in July 2026. The official company history page does not give the month and day of opening)."
+  },
+  {
+   "slug": "sakanaya-dojo",
+   "founded_en": "Opened in September 2006 in Ryogoku, Sumida Ward, Tokyo (the first shop; operated by Chimney Co., Ltd.)."
+  },
+  {
+   "slug": "uokin",
+   "founded_en": "Opened in April 1995 in Shimbashi, Minato Ward, Tokyo (the Uokin main branch; the company was established on June 10, 1994)."
+  },
+  {
+   "slug": "hananomai",
+   "founded_en": "Opened in January 1995 in Kyobashi, Chuo Ward, Tokyo (the first shop; operated by Chimney Co., Ltd.)."
+  },
+  {
+   "slug": "saryo-tsujiri",
+   "founded_en": "Opened in 1978 in Gion, Higashiyama Ward, Kyoto (as a sweets café, amamidokoro, run by Gion Tsujiri; Gion Tsujiri itself was founded in 1860 in Uji)."
+  },
+  {
+   "slug": "funabashiya",
+   "founded_en": "Founded in 1805 (Bunka 2) in Kameido, Koto Ward, Tokyo (near Kameido Tenjin Shrine)."
+  },
+  {
+   "slug": "nanas-green-tea",
+   "founded_en": "Opened in March 2001 in Jiyugaoka, Meguro Ward, Tokyo (as the first green tea café; renamed \"nana's green tea\" in June 2006)."
+  },
+  {
+   "slug": "toraya",
+   "founded_en": "Founded in the late Muromachi period in Kyoto (said to have served as a purveyor to the Imperial Palace since the reign of Emperor Go-Yozei, 1586–1611; with the move of the capital to Tokyo in 1869, it also opened in Tokyo)."
+  },
+  {
+   "slug": "osaka-ohsho",
+   "founded_en": "August 1977, Osaka (establishment of Osaka Ohsho Shokuhin Co., Ltd.; the official company history consulted does not give the opening year of the first shop)."
+  },
+  {
+   "slug": "bamiyan",
+   "founded_en": "Opened in April 1986 in Machida, Tokyo (the first Bamiyan, Tsurukawa branch; the operating company, Skylark, was established in 1962)."
+  },
+  {
+   "slug": "renge-shokudo-toshu",
+   "founded_en": "September 1966, Chitose-Funabashi, Setagaya Ward, Tokyo (Toshu Ltd. was established and opened the Chinese restaurant \"Toshu\" in October of that year; since 2017 shops have been renamed \"Renge Shokudo Toshu\" in stages)."
+  },
+  {
+   "slug": "gyoza-no-manshu",
+   "founded_en": "Founded in 1964 in Midori-cho, Tokorozawa, Saitama Prefecture (as \"Manshuri\"; renamed Gyoza no Manshu Co., Ltd. in 1977)."
+  },
+  {
+   "slug": "kotora-gyozabou",
+   "founded_en": "1996 (Kiwa Corporation was established in December 1990; the location of the first shop is not stated on the official website)."
+  },
+  {
+   "slug": "misen",
+   "founded_en": "(The founding year is not stated on any official page that could be checked. The chain traces back to Misen Imaike Honten in Imaike, Chikusa Ward, Nagoya.)"
+  },
+  {
+   "slug": "utsunomiya-minmin",
+   "founded_en": "Founded in 1958 in Miyajima-cho, Utsunomiya, Tochigi Prefecture."
+  },
+  {
+   "slug": "gomihattin",
+   "founded_en": "Opened in 1970 in Kamijima-cho, Hamamatsu, Shizuoka Prefecture (as a takeaway-only gyoza shop)."
+  },
+  {
+   "slug": "gindaco",
+   "founded_en": "(The opening year and location of the first Tsukiji Gindaco shop are not stated on any official page that could be checked. The operating company, Hotland Holdings, was established in June 1991 in Tokyo.)"
+  },
+  {
+   "slug": "dotonbori-kukuru",
+   "founded_en": "Opened in 1985 in Osaka (\"Takoyaki House KUKURU\" in Dotonbori; the operating company, Shirohato Shokuhin Kogyo, had been selling Akashi-yaki since 1973)."
+  },
+  {
+   "slug": "wanaka",
+   "founded_en": "Opened in 1986 in Sennichimae, Naniwa Ward, Osaka (the Wanaka Sennichimae main branch)."
+  },
+  {
+   "slug": "dohtonbori",
+   "founded_en": "April 16, 1990 (establishment of Dohtonbori Co., Ltd.; the location of the first shop is not stated on the official website)."
+  },
+  {
+   "slug": "chibo",
+   "founded_en": "Founded in 1973 in Sennichimae, Osaka."
+  },
+  {
+   "slug": "tsuruhashi-fugetsu",
+   "founded_en": "(Fugetsu was founded just after the Second World War in Tsuruhashi, Osaka; the official page gives no year. The current operating company, Idea, acquired management of the business in 1989.)"
+  },
+  {
+   "slug": "botejyu",
+   "founded_en": "Founded in 1946 in Tamade, Osaka."
+  },
+  {
+   "slug": "monja-moheji",
+   "founded_en": "July 2015, Tsukishima, Chuo Ward, Tokyo (establishment of the operating company, Kano Corporation, now KISSUI GROUP; the official website does not give the opening year of the Moheji Tsukishima main branch)."
+  },
+  {
+   "slug": "yakisoba-no-marusho",
+   "founded_en": "Opened on August 8, 2011, in Toyoshiki, Kashiwa, Chiba Prefecture (the Yakisoba no Marusho Toyoshiki main branch)."
+  },
+  {
+   "slug": "nagata-honjoken",
+   "founded_en": "Opened in 2006 in Kobe, Hyogo Prefecture (the Sannomiya Center Plaza branch; according to an official announcement by the operating company, Toridoll Holdings)."
+  },
+  {
+   "slug": "sofuren",
+   "founded_en": "Founded in 1957 (Showa 32) in Tanso-machi, Hita, Oita Prefecture (founder: Yasuchika Kado; it moved to Sanbonmatsu in 1963, which became the Sanbonmatsu main branch)."
+  },
+  {
+   "slug": "bikkuri-donkey",
+   "founded_en": "Founded on December 15, 1968, in Morioka, Iwate Prefecture (as \"Beru\", a hamburger and salad shop; the operating company was renamed Aleph in 1987)."
+  },
+  {
+   "slug": "sawayaka",
+   "founded_en": "Opened in July 1977 in Kikugawa, Shizuoka Prefecture (Coffee Shop Sawayaka Kikugawa main branch; the operating company, Green Kanko, was established in September 1976)."
+  },
+  {
+   "slug": "steak-miya",
+   "founded_en": "Founded on May 26, 1975, in Utsunomiya, Tochigi Prefecture."
+  },
+  {
+   "slug": "coco-ichibanya",
+   "founded_en": "Founded in January 1978 in Nishibiwajima-cho, Nishikasugai District, Aichi Prefecture (now Kiyosu, Aichi Prefecture)."
+  },
+  {
+   "slug": "gogo-curry",
+   "founded_en": "December 2003, Kanazawa, Ishikawa Prefecture (establishment of the operating company; the official pages consulted do not give the opening year or location of the first shop)."
+  },
+  {
+   "slug": "hinoya-curry",
+   "founded_en": "August 2004, Yushima, Bunkyo Ward, Tokyo (establishment of the operating company, Noaland Ltd.; the official pages consulted do not give the opening year of the first shop)."
+  },
+  {
+   "slug": "joto-curry",
+   "founded_en": "1983, Osaka (establishment of the operating company, Tokusei Co., Ltd.; the official website does not give the opening year of the Joto Curry Edobori branch)."
+  },
+  {
+   "slug": "pomu-no-ki",
+   "founded_en": "April 16, 1990 (establishment of Pomu Food Co., Ltd.; in October 1994 it began opening \"Pomu no Ki\", a chain of creative omurice restaurants)."
+  },
+  {
+   "slug": "kitchen-jiro",
+   "founded_en": "Founded in 1964 (the founding place is not stated on the official pages consulted)."
+  },
+  {
+   "slug": "tsubame-grill",
+   "founded_en": "Opened in October 1930 in Tokyo (near Shimbashi Station; named after the limited express train \"Tsubame\")."
+  }
+ ],
+ "notes": "133件すべて訳出。Web 非到達のため人名・社名のローマ字読みは未確認のものがある。\n【入力 founded の誤字（日本語列の修正を推奨。英訳は正しい名で訳した）】fuji-soba/machida-shoten/hanamaru-udon/sukesan-udon「创業」→創業（簡体字）。kagetsu-arashi「杜並区」→杉並区。hachiban-ramen「国邓8号線」→国道8号線。irorian-kiraku「蕃田」→蒲田。sojibou「そじ坤」→そじ坊、「グルメ杓屋」「杓屋」→杵屋（sojibou・kineya）。kazokutei「家族中」→家族亭（name_ja も）。marugame-seimen「丸亀製麦」→丸亀製麺（name_ja も）。maki-no-udon「牛のうどん」→牧のうどん（name_ja も）、「釜湯げ」→釜揚げ。iyo-seimen「伊予製麦」→伊予製麺（name_ja も）。aji-no-mingei「備下」→傘下。ajisen-ramen name_ja「味千拉麦」→味千拉麺。\n【読み未確認の人名】furaibo 大坪健庫=Kenko Otsubo、ajisen-ramen 重光孝治=Takaharu Shigemitsu、hanamaru-udon 前田英仁=Hidehito Maeda、sukesan-udon 大西章資=Shosuke Onishi（屋号「資さん」から推定）、sofuren 角安親=Yasuchika Kado、ootoya 三森栄一=Eiichi Mitsumori、rairaitei 豆田敏典=Toshinori Mameda、kourakuen 新井田司=Tsukasa Niida、gyoza-no-ohsho 加藤朝雄=Asao Kato。公式の英字表記があれば差し替え。\n【社名の英字】公式英字表記を確認できないものは素直なローマ字（Shigemitsu Sangyo, Matsufuji Shokuhin, Shirohato Shokuhin Kogyo, Mitsuwa, Gourmet Kineya, Konan Kogyo 等）。\n【創業メモ以外の記述が主のもの（訳はそのまま。日本語列の見直し候補）】matsunoya（100店舗達成の記載）・karayoshi（600店舗突破のプレスリリース）・torisho（約120店舗以上・未確認情報）は創業の事実でなく店舗数の記載が中心。daikichi「住宅街立地のフランチャイズ展開で知られる」は宣伝寄りの評価文だが事実記述として訳した（削るなら日英とも）。kotora-gyozabou・dohtonbori・pomu-no-ki は「年・（」で地名が空。\n【その他】isomaru-suisan の「2026年7月に吸収合併」は入力どおり訳した（日付の再確認を推奨）。kanazawa-maimon-sushi 八日市=Yokaichi、matsuya 羽沢=Hazawa、ringer-hut 宿町=Shuku-machi、yudetaro 湊店=Minato の読みは推定。"
+}

@@ -9,7 +9,10 @@
       "醸造",
       "なれずし系",
       "漬け込み発酵"
-    ]
+    ],
+    "definition_en": "Made through a microbial fermentation or brewing process, or owing its main flavor to fermentation.",
+    "intro_ja": "醤油・味噌・酢・みりんのように、微生物の仕事を経た調味料と料理を束ねるタグ。醤油は濃口・淡口・溜・白と分かれ、味噌も米・麦・豆という原料と、仙台・信州・八丁といった土地の名で呼び分けられる。原料と土地ごとに発酵の型が枝分かれしている様子が見えてくる。",
+    "intro_en": "This tag gathers seasonings and foods shaped by microbes: soy sauce (shōyu), miso, vinegar and mirin (a sweet rice seasoning). Soy sauce alone divides into dark, light, tamari and white styles, and miso is told apart both by its base—rice, barley or soybean—and by place names such as Sendai, Shinshū and Hatchō. Seen together, they show fermentation branching by ingredient and by region."
   },
   {
     "slug": "spicy",
@@ -20,7 +23,10 @@
     "synonyms": [
       "ピリ辛",
       "激辛"
-    ]
+    ],
+    "definition_en": "Has a distinct heat or pungency that comes from spices such as chili pepper or karashi (Japanese mustard).",
+    "intro_ja": "唐辛子と辛子、辛味の二つの出どころが見えるタグ。善光寺や浅草の七味、かんずりのような薬味、からし蓮根や辛子和えの辛子づかいに、麻婆豆腐・担々麺・台湾まぜそばといった町中華の系譜が並ぶ。在来の薬味と、中華から来た味の両方に行き着く。",
+    "intro_en": "Heat in Japanese food has two sources, and this tag shows both. One is chili and karashi (Japanese mustard) used as condiments: shichimi spice blends from Zenkōji and Asakusa, kanzuri chili paste, and karashi renkon, lotus root stuffed with mustard miso. The other is the Chinese-derived line of machi-chūka, Japan's neighborhood Chinese restaurants, with mapo tofu, tantanmen and Taiwan mazesoba."
   },
   {
     "slug": "miso",
@@ -28,7 +34,10 @@
     "name_ja": "味噌",
     "name_en": "Miso-based",
     "definition": "味噌を主要な味付け・素材として用いている（味噌そのものは調味料棚の別項目）",
-    "synonyms": []
+    "synonyms": [],
+    "definition_en": "Uses miso as a main seasoning or ingredient; miso itself is listed as a separate item on the seasonings shelf.",
+    "intro_ja": "味噌を味の芯にした料理を束ねると、焼く・和える・汁にするという使い道の広さが見える。五平餅や味噌田楽は焼いた味噌の香り、ふろふき大根やごま味噌和えは練った味噌、納豆汁・鱈汁は汁の味噌。おしぼりうどんや味噌焼きそばまで、土地の味噌が料理の形を決めているという。",
+    "intro_en": "Grouping dishes by miso shows how far one seasoning reaches. It is grilled, as on gohei-mochi (skewered rice cakes) and miso dengaku; blended into toppings and dressings, as with furofuki daikon (simmered radish); and used as the base of soups such as nattō-jiru and tara-jiru (cod soup). It reaches noodles too, from oshibori udon to miso yakisoba, and the local miso is said to shape each dish."
   },
   {
     "slug": "soy_sauce",
@@ -38,7 +47,10 @@
     "definition": "醤油（たまり醤油含む）が他の調味料と明確に対比される形で味の決め手になっている（例: 味噌ラーメンとの対比での醤油ラーメン）",
     "synonyms": [
       "たまり醤油仕立て"
-    ]
+    ],
+    "definition_en": "Soy sauce, including tamari, is the deciding flavor in clear contrast with other seasonings, as with shōyu ramen set against miso ramen.",
+    "intro_ja": "醤油を決め手にした料理を束ねると、甘辛く煮る・漬ける・たれで焼くという基本の仕事が見える。うなぎの蒲焼やいなり寿司、きつねうどん・ニシン蕎麦のつゆ、海苔や昆布の佃煮、いくら醤油漬けまで、素材を越えて同じ調味料が通っている。",
+    "intro_en": "Gathered under soy sauce (shōyu), dishes reveal a set of basic techniques: simmering sweet and savory, marinating, and grilling with a glaze. The line runs from unagi kabayaki (glazed eel) and inari-zushi to the broth of kitsune udon and herring soba, and on to tsukudani (soy-simmered preserves) of nori or kelp and ikura marinated in soy sauce."
   },
   {
     "slug": "pork",
@@ -46,7 +58,10 @@
     "name_ja": "豚肉",
     "name_en": "Pork",
     "definition": "豚肉を主要な具材・素材として用いる料理（食材棚の豚ブランド肉そのものは対象外）",
-    "synonyms": []
+    "synonyms": [],
+    "definition_en": "Dishes that use pork as a main ingredient or component; the branded pork items on the ingredient shelf are not themselves the subject of this tag.",
+    "intro_ja": "豚肉のタグをたどると、かごしま黒豚・あぐー・TOKYO Xのような銘柄豚と、ロース・ヒレといった部位が一本の線でつながる。どの土地で育った豚が、どの部位として切り分けられ、どんな料理になるのかを、産地・部位・料理の三つを横断して見られる。",
+    "intro_en": "Following the pork tag links branded pork such as Kagoshima kurobuta (black pork), Okinawa's Agu and Tokyo X with cuts like loin (rōsu) and tenderloin (hire), and from there with the dishes that use them. It lets a reader see, across place, cut and dish, where a pig was raised, which part it became, and what it was cooked into."
   },
   {
     "slug": "beef",
@@ -54,7 +69,10 @@
     "name_ja": "牛肉",
     "name_en": "Beef",
     "definition": "牛肉を主要な具材・素材として用いる料理（食材棚の牛ブランド肉そのものは対象外）",
-    "synonyms": []
+    "synonyms": [],
+    "definition_en": "Dishes that use beef as a main ingredient or component; the branded beef items on the ingredient shelf are not themselves the subject of this tag.",
+    "intro_ja": "牛肉のタグで束ねると、十勝和牛・白老牛から山形牛・常陸牛・淡路ビーフ、讃岐牛・土佐あかうしまで、北海道から四国の銘柄牛が県ごとに並ぶ様子が見える。牛を育てる土地の地図として読め、そこから部位と料理へたどれる。",
+    "intro_en": "Under the beef tag, branded wagyu (Japanese beef cattle) line up prefecture by prefecture: from Tokachi and Shiraoi in Hokkaido, through Yamagata, Hitachi and Awaji, to Sanuki and Tosa akaushi in Shikoku. Read together, they work as a map of the places that raise cattle, and lead on to the cuts and the dishes that use the meat."
   },
   {
     "slug": "chicken",
@@ -62,7 +80,10 @@
     "name_ja": "鶏肉",
     "name_en": "Chicken",
     "definition": "鶏肉を主要な具材・素材として用いる料理（食材棚の地鶏ブランドそのものは対象外）",
-    "synonyms": []
+    "synonyms": [],
+    "definition_en": "Dishes that use chicken as a main ingredient or component; the branded jidori chickens on the ingredient shelf are not themselves the subject of this tag.",
+    "intro_ja": "鶏肉のタグには、比内地鶏・名古屋コーチン・薩摩地鶏をはじめ、シャモ・コーチン・地どりと名乗る各地の鶏が並ぶ。北海地鶏から天草大王まで、呼び名を手がかりに鶏を育てる土地を北から南へたどれ、そこから鶏を使う料理へ進める。",
+    "intro_en": "The chicken tag brings together jidori, Japan's local chicken breeds: Hinai jidori, Nagoya Cochin, Satsuma jidori and many more. Names ending in shamo, kōchin or jidori recur from Hokkai jidori in the north to Amakusa Daiō in Kyushu, so the names themselves trace a map of where chickens are raised, leading on to the dishes that use them."
   },
   {
     "slug": "egg",
@@ -70,7 +91,10 @@
     "name_ja": "卵",
     "name_en": "Egg-based",
     "definition": "卵を主要な構成要素・素材として用いる（食材棚の卵ブランドそのものは対象外）",
-    "synonyms": []
+    "synonyms": [],
+    "definition_en": "Uses egg as a main component or ingredient; the branded eggs on the ingredient shelf are not themselves the subject of this tag.",
+    "intro_ja": "卵を軸に束ねると、だしで煮て閉じる、生のままご飯にかける、生地に混ぜて焼くという三つの使い方が見える。親子丼・他人丼・玉子丼の卵とじ、卵かけご飯、お好み焼き・たこ焼き・明石焼の生地。卵が丼物と粉ものの両方を支えている様子が分かる。",
+    "intro_en": "Grouped around egg, three uses stand out: simmered in broth and set over rice, as in oyakodon, tanindon and tamagodon; poured raw over rice, as in tamago kake gohan; and beaten into batter, as in okonomiyaki, takoyaki and Akashi-yaki. The egg turns out to hold together both donburi (rice bowls) and konamono (griddled flour dishes)."
   },
   {
     "slug": "kelp",
@@ -78,7 +102,10 @@
     "name_ja": "昆布",
     "name_en": "Kelp-based",
     "definition": "昆布を主原料・主要素材として用いる（海藻棚の昆布そのものは対象外。他の料理での使用を横断的に示す）",
-    "synonyms": []
+    "synonyms": [],
+    "definition_en": "Uses kelp (konbu) as a main ingredient or component; plain kelp on the seaweed shelf is excluded, since the tag shows its use across other dishes.",
+    "intro_ja": "昆布を出汁ではなく身として使う品を束ねると、巻く・煮る・漬けるという使い方が見える。にしんの昆布まきや昆布巻き、沖縄のクーブイリチー、酢飯を昆布で巻くこぶずし、松前漬け。稚内・利尻のラーメンから沖縄まで、昆布の通り道を追える。",
+    "intro_en": "Gathering dishes that use kelp (konbu) as something to eat, not only for stock, shows it rolled, simmered and pickled: herring wrapped in kelp and other kobumaki rolls, Okinawa's kūbu irichī, kobu-zushi with vinegared rice rolled in kelp, and Matsumae-zuke. The trail runs from the ramen of Wakkanai and Rishiri in Hokkaido all the way to Okinawa."
   },
   {
     "slug": "offal",
@@ -89,7 +116,10 @@
     "synonyms": [
       "もつ",
       "ホルモン"
-    ]
+    ],
+    "definition_en": "Uses the innards of livestock or seafood—motsu, horumon, feet and similar parts—as a main ingredient.",
+    "intro_ja": "内臓・ホルモンで束ねると、牛ではタン・ミノ・ハチノス・センマイ、豚ではカシラ・ガツ・豚足と、一頭の内側に名のついた部位がいくつもあることが分かる。タン・ハツ・レバー・マメ・コブクロのように牛と豚で同じ名の部位も多く、品書きを読む手がかりになる。",
+    "intro_en": "Viewed through offal, a single animal turns out to hold many named parts: on beef, tongue (tan) and the stomachs mino, hachinosu and senmai; on pork, kashira (head meat), gatsu (stomach) and tonsoku (trotters). Many names—tan, hatsu, rebā, mame, kobukuro—are shared between beef and pork, which helps when reading a menu."
   },
   {
     "slug": "insect",
@@ -97,7 +127,10 @@
     "name_ja": "昆虫食",
     "name_en": "Insect-based",
     "definition": "昆虫を食用の主素材として用いる",
-    "synonyms": []
+    "synonyms": [],
+    "definition_en": "Uses insects as the main food ingredient, with the insect itself being what is eaten in the dish.",
+    "intro_ja": "昆虫を食べる料理を束ねると、虫を日々の食卓の形に仕立てた料理が並ぶ。地蜂の幼虫へぼを甘辛く炒め煮してご飯に混ぜるへぼ飯、稲刈りの頃に田で捕まえたいなごの佃煮。山や田で採れるものを、貴重なたんぱく源として食べ継いできたと伝わる。",
+    "intro_en": "Insect dishes here take everyday forms: hebo-meshi, rice mixed with hebo (wasp larvae) simmered in soy sauce and sugar, and inago no tsukudani, grasshoppers caught in the rice fields at harvest time and cooked down sweet and savory. Both turn something gathered from hills and paddies into familiar rice and tsukudani, and are said to have been eaten for generations as a valued source of protein."
   },
   {
     "slug": "smoked",
@@ -107,7 +140,10 @@
     "definition": "燻煙による加工工程を経ている",
     "synonyms": [
       "くん製"
-    ]
+    ],
+    "definition_en": "Has gone through a processing step in which the food is exposed to smoke during its making.",
+    "intro_ja": "燻すという仕事で束ねると、離れた素材が並ぶ。鰹を煮て燻す鰹節・生節・なまり節、囲炉裏の煙で大根を燻してから漬けるいぶりがっこ、燻したドジョウを餡にするふすべ餅。魚・漬物・餅が、煙を当てる同じ工程でつながっていることが見える。",
+    "intro_en": "Grouped by smoking, distant foods line up together: katsuobushi and its softer relatives namaribushi and namabushi, all made by simmering and smoking skipjack; iburi-gakko, daikon radish smoked over a hearth before pickling; and fusube-mochi, rice cakes coated in a sauce of smoked loach. Fish, pickles and rice cakes turn out to be linked by the same step of exposing food to smoke."
   },
   {
     "slug": "kelp_cured",
@@ -115,7 +151,10 @@
     "name_ja": "昆布締め",
     "name_en": "Kelp-cured",
     "definition": "生の魚介を昆布で挟んで水分と旨味を移す北陸独自の熟成技法を用いる",
-    "synonyms": []
+    "synonyms": [],
+    "definition_en": "Uses a maturing technique particular to Hokuriku, in which raw seafood is pressed between sheets of kelp so that its moisture is drawn out and the kelp's savory flavor moves in.",
+    "intro_ja": "昆布締めで束ねると、刺身を昆布で挟んで寝かせる同じ仕事が、魚を替えて続いていることが分かる。石川でサワラと呼ぶカジキのさわらの昆布じめ、ヒラメの昆布締め。水分が昆布に移って身が締まり、旨味が入るとされ、北前船が運んだ昆布の使い道の一つと伝わる。",
+    "intro_en": "Under kobujime (kelp curing), one task repeats with different fish: sliced raw fish is laid between sheets of kelp and left to rest, as with Ishikawa's sawara (here meaning marlin) and with flounder (hirame). The kelp is said to draw out moisture, firm the flesh and pass on its savoriness, and the method is told as one use for kelp carried by the Kitamae trading ships."
   },
   {
     "slug": "freeze_dried",
@@ -126,7 +165,10 @@
     "synonyms": [
       "凍り豆腐",
       "高野豆腐製法"
-    ]
+    ],
+    "definition_en": "Uses a traditional freeze-drying technique in which food is left outdoors in deep winter to freeze and dry over and over, as with shimi-dōfu, shimi-mochi and shimi-daikon.",
+    "intro_ja": "「凍み」で束ねると、寒冷地で凍結と乾燥を繰り返す保存の仕事が、素材を越えて共通していることが見える。凍み豆腐・凍み大根・凍みこんにゃく・干し餅と、豆腐・野菜・こんにゃく・餅のどれにも同じ手が加わり、冬の寒さそのものを道具として使う技法とされる。",
+    "intro_en": "The shimi tag (freezing and drying in the open air) shows one preserving method shared across ingredients in cold regions: food is left outside in midwinter to freeze and dry, again and again. Tofu (shimi-dōfu), daikon, konnyaku and rice cakes (hoshi-mochi) all receive the same treatment, a technique said to use the winter cold itself as its tool."
   },
   {
     "slug": "no_broth",
@@ -136,7 +178,10 @@
     "definition": "麺料理でスープ・つゆを伴わず、タレやソースで和えて食べる",
     "synonyms": [
       "ぶっかけ系ではなく和え系"
-    ]
+    ],
+    "definition_en": "Noodle dishes eaten without soup or dipping broth, tossed instead in a tare (seasoning base) or a sauce.",
+    "intro_ja": "汁なしで束ねると、スープを張らない麺がラーメンの中で独立した型として育っていることが見える。油そば、汁無し担々麺、佐賀のマジェンバは、底のタレと麺をよく混ぜてから食べる。そば粉を熱湯で練るそばがきも、麺にする以前の汁を伴わない食べ方として並ぶ。",
+    "intro_en": "The no-broth tag shows noodles without soup growing into their own type within ramen. Abura soba, soupless tantanmen and Saga's majenba are all mixed thoroughly with the tare (seasoning base) at the bottom of the bowl before eating. Sobagaki, buckwheat flour kneaded with boiling water, also sits here as a broth-free way of eating soba that is said to predate soba noodles."
   },
   {
     "slug": "cold_served",
@@ -144,7 +189,10 @@
     "name_ja": "冷たい",
     "name_en": "Cold-served",
     "definition": "通常は温かい系統の料理が、冷やして提供される（麺類の冷麺・冷やし中華等の独立ジャンルは対象外。同系統の中で冷製が特徴的なもの）",
-    "synonyms": []
+    "synonyms": [],
+    "definition_en": "Dishes from a normally warm category that are served chilled; standalone genres such as reimen or hiyashi chūka are excluded, leaving items whose cold version stands out within its own category.",
+    "intro_ja": "冷たい料理で束ねると、作り置いて冷めた状態で食べる寿司が多いことが分かる。柿の葉寿司・さんまずし・大村寿司のような押し寿司や棒寿司、ふなずしのようななれずし。そこに盛岡・別府・呉の冷麺、いぎす豆腐やおきゅうとのような海藻を冷やし固めた品、鯉のあらいが並ぶ。",
+    "intro_en": "Gathering cold-served dishes reveals how many are sushi made ahead and eaten cool: pressed and stick sushi (oshi-zushi, bō-zushi) such as kakinoha-zushi, sanma-zushi and Ōmura-zushi, and narezushi (fermented sushi) such as funazushi. Alongside them sit the reimen (cold noodles) of Morioka, Beppu and Kure, seaweed set into chilled jellies such as igisu-dōfu and okyūto, and koi no arai (chilled raw carp)."
   },
   {
     "slug": "skewered",
@@ -152,7 +200,10 @@
     "name_ja": "串",
     "name_en": "Skewered",
     "definition": "串に刺した状態で提供・食べられる（焼きもの棚の焼き鳥等に加え、甘味棚・惣菜棚の串物も横断して示す）",
-    "synonyms": []
+    "synonyms": [],
+    "definition_en": "Served or eaten on a skewer; besides grilled items such as yakitori, the tag also gathers skewered foods from the sweets and side-dish shelves.",
+    "intro_ja": "串で束ねると、焼き鳥がまず部位の図鑑として見える。ねぎま・かわ・せせり・砂肝・ハツモト・ひざ軟骨と、一羽を細かく串に分ける仕事が並ぶ。そこに美唄・室蘭・東松山・久留米・今治の焼き鳥、五平餅や串あさりのような甘味・惣菜の串が加わる。",
+    "intro_en": "Through the skewer tag, yakitori first reads as a guide to parts: negima, kawa (skin), seseri (neck), sunagimo (gizzard), hatsumoto, hiza nankotsu (knee cartilage)—one bird divided finely onto sticks. Then come the town styles of Bibai, Muroran, Higashimatsuyama, Kurume and Imabari, and skewers beyond chicken, such as gohei-mochi (grilled rice cakes) and kushi-asari (skewered clams)."
   },
   {
     "slug": "handheld",
@@ -160,7 +211,10 @@
     "name_ja": "片手で食べる",
     "name_en": "Hand-held",
     "definition": "皿・箸を使わず片手で持って歩きながら食べられる形状",
-    "synonyms": []
+    "synonyms": [],
+    "definition_en": "Shaped so it can be held in one hand and eaten while walking, without needing a plate or chopsticks.",
+    "intro_ja": "片手で食べる形で束ねると、握り・巻き・いなりの寿司、たこ焼きやおやき、五平餅、葉で包む笹巻き・ほうばめし・葉ずし、各地の饅頭が並ぶ。米・粉・餡をひとつにまとめ、葉や海苔で包んで持ち運べるようにする工夫が、素材を越えて見える。",
+    "intro_en": "Food made to hold in one hand ranges widely: nigiri, rolled and inari sushi; takoyaki and oyaki (filled dumplings); gohei-mochi; rice wrapped in leaves, such as sasamaki, hōba-meshi and ha-zushi; and steamed buns (manjū) from many places. Across rice, flour and sweet bean paste, one idea recurs: shape it into a single piece and wrap it in leaves or nori so it can be carried."
   },
   {
     "slug": "street_food",
@@ -170,7 +224,10 @@
     "definition": "屋台・露店・食べ歩きが主要な提供形態として定着している",
     "synonyms": [
       "露店グルメ"
-    ]
+    ],
+    "definition_en": "Sold and eaten mainly at street stalls, open-air stands or while strolling, as an established way of serving it.",
+    "intro_ja": "屋台・食べ歩きで束ねると、焼く・揚げる・串に刺すという、その場で作って手渡せる料理が並ぶ。焼き鳥・串カツ・たこ焼き、五平餅や玉こんにゃく、鯛焼き・今川焼き・みたらし団子。前橋の焼きまんじゅうが花見や夏祭りの屋台に並ぶように、歩きながら食べる形に整えられた品が多いという。",
+    "intro_en": "Street food here is made on the spot and handed over: grilled, fried or skewered. Yakitori, kushikatsu (fried skewers) and takoyaki sit beside gohei-mochi, tama-konnyaku (konjac balls), taiyaki, imagawayaki and mitarashi dango. Many, like Maebashi's yaki-manjū (grilled miso-glazed buns) at cherry-blossom and summer-festival stalls, are said to have taken a shape meant for eating while walking."
   },
   {
     "slug": "ceremonial",
@@ -181,7 +238,10 @@
     "synonyms": [
       "祝い膳",
       "儀礼食"
-    ]
+    ],
+    "definition_en": "Eaten in connection with specific annual events or rites, such as the New Year, celebratory meals, weddings or festivals.",
+    "intro_ja": "行事食で束ねると、正月・盆・祭りの日に、形や名に願いを込めた料理が多いことが分かる。穴から先を見通すとされる正月のれんこんの煮物、盆の供えにする十六ささげのごま味噌和え、赤飯でくるむハレの日のいがまんじゅう。人が集まる日に切り分けるちらし寿司や押し寿司も並ぶ。",
+    "intro_en": "Ceremonial food shows how often a dish carries a wish in its shape or name. Simmered lotus root is eaten at New Year because its holes are said to let one see ahead; jūroku-sasage beans in sesame-miso go on the Obon altar; iga-manjū, a bun wrapped in red-bean rice, marks festive days. Chirashi and pressed sushi, cut and shared when people gather, appear throughout."
   },
   {
     "slug": "meal_ender",
@@ -191,7 +251,10 @@
     "definition": "鍋物・宴席の最後にスープや出汁を使って締めくくる一品として食べられる",
     "synonyms": [
       "締め"
-    ]
+    ],
+    "definition_en": "Eaten as the closing dish at the end of a hotpot or a banquet, using the remaining soup or broth to round off the meal.",
+    "intro_ja": "〆で束ねると、宴や飲んだあとに何を食べて区切りをつけるかの型が見える。飲んだあとの一杯とされる新潟あっさり醤油ラーメン、宴席でお開きの合図に出されることもあるねぎぬた、寿司のコースの最後に選ばれやすい玉子。ぜんざい・おしるこのような甘いもので締める形もある。",
+    "intro_en": "The shime (meal-ender) tag shows how a feast or a night of drinking is brought to a close. Niigata's light shōyu ramen is the bowl after drinks; negi-nuta, scallions in vinegared miso, is sometimes served as the signal that a banquet is ending; and tamago (rolled omelet) is often chosen as the last piece of a sushi course. Others close on something sweet, such as zenzai or oshiruko (sweet red-bean soups)."
   },
   {
     "slug": "souvenir_non_confection",
@@ -201,7 +264,10 @@
     "definition": "菓子ではないが、旅行土産・贈答品として定番的に流通する加工品・調理済み食品（土産菓子棚のアイテムとは別軸で、他棚に属する品目の土産性を示す）",
     "synonyms": [
       "贈答品"
-    ]
+    ],
+    "definition_en": "Not confectionery, but processed or ready-made foods regularly sold as travel souvenirs or gifts; separate from the souvenir-sweets shelf, it marks the gift role of items on other shelves.",
+    "intro_ja": "菓子以外の土産で束ねると、持ち帰りやすい加工品が旅の手土産を担っている様子が見える。明太子・たらこ・ちりめん山椒・味付け海苔のようなご飯のお供、ごりの佃煮やくぎ煮、細工かまぼこやあご野焼きの練り物、宇治・静岡・八女・鹿児島の茶。土地の名を冠して持ち帰れる品が並ぶ。",
+    "intro_en": "Souvenirs other than sweets turn out to be mostly foods that travel well: gohan no otomo (rice companions) such as mentaiko and tarako (pollock roe), chirimen sanshō (tiny fish with sanshō pepper) and seasoned nori; tsukudani such as Lake Biwa's gori; fish cakes such as saiku kamaboko and ago noyaki; and teas from Uji, Shizuoka, Yame and Kagoshima. Many carry a place name, so the gift brings the place home."
   },
   {
     "slug": "yoshoku",
@@ -211,7 +277,10 @@
     "definition": "明治以降に西洋料理を日本流に翻案して生まれた「洋食」の系譜に属する",
     "synonyms": [
       "洋食"
-    ]
+    ],
+    "definition_en": "Belongs to the lineage of yōshoku: Western cooking adapted into a Japanese style from the Meiji era (1868–1912) onward.",
+    "intro_ja": "洋食由来で束ねると、西洋の料理がご飯・麺・丼と組み合わさって形を変えていく道筋が見える。とんかつ・コロッケ・カキフライの揚げもの、カレーライスやハヤシライス、オムライス・ドリア。さらにソースカツ丼やカレーうどん、ナポリタン、トルコライスと、和の器に入り込んだ型が続く。",
+    "intro_en": "Following the yōshoku (Western-style) tag traces how Western dishes changed shape on meeting rice, noodles and bowls. It starts with fried dishes—tonkatsu, korokke (croquettes), kaki furai (fried oysters)—and with curry rice, hayashi rice, omurice and doria. It continues into sauce katsudon, curry udon, spaghetti Napolitan and Toruko rice, where the Western element has settled into Japanese forms."
   },
   {
     "slug": "chinese_derived",
@@ -221,7 +290,10 @@
     "definition": "中国料理・中華点心を起源とし、日本で独自にアレンジされて定着した",
     "synonyms": [
       "中華点心系"
-    ]
+    ],
+    "definition_en": "Originated in Chinese cuisine or Chinese dim sum, and took root in Japan after being adapted in its own way.",
+    "intro_ja": "中華由来で束ねると、中国から来た麺が日本各地で土地の名を持つラーメンに分かれていった様子が見える。旭川・函館・喜多方・博多・熊本・鹿児島と北から南まで並び、勝浦タンタンメンや別府・呉の冷麺のように、元の料理の名を残したまま土地に根づいた型もある。",
+    "intro_en": "Under the Chinese-derived tag, noodles that came from China appear split into ramen named for places all over Japan, from Asahikawa and Hakodate through Kitakata down to Hakata, Kumamoto and Kagoshima. Others kept a Chinese dish name while settling into a town, such as Katsuura tantanmen and the reimen (cold noodles) of Beppu and Kure."
   },
   {
     "slug": "postwar_us_military",
@@ -231,7 +303,10 @@
     "definition": "戦後の米軍基地・統治文化との接触を起源として生まれた食文化",
     "synonyms": [
       "進駐軍由来"
-    ]
+    ],
+    "definition_en": "A food culture that arose from contact with postwar US military bases and with the culture of the occupation and administration period.",
+    "intro_ja": "戦後・米軍由来で束ねると、基地のある町で米国の食と出会って生まれた料理が見える。佐世保のレモンステーキは、米軍基地でアメリカンステーキが流行した町で、1955年頃に洋食店の兄弟が薄切りの牛肉にレモン果汁入りの醤油ベースのソースを合わせ、和風に仕立てたのが始まりという。",
+    "intro_en": "This tag shows food born where a base town met American eating habits. Sasebo's lemon steak is said to have begun around 1955, when brothers running a Western-style restaurant, in a town where American steak had caught on through the US base, gave it a Japanese turn: thinly sliced beef seared on a hot plate with a soy-based sauce sharpened by lemon juice."
   },
   {
     "slug": "ryukyu",
@@ -241,6 +316,9 @@
     "definition": "琉球王朝・沖縄独自の食文化体系（本土の和食の系譜とは別）に属する。奄美群島の琉球文化圏の食も含む",
     "synonyms": [
       "琉球料理"
-    ]
+    ],
+    "definition_en": "Belongs to the food system of the Ryukyu Kingdom and Okinawa, distinct from the mainland washoku lineage, including the food of the Amami Islands within the Ryukyuan cultural sphere.",
+    "intro_ja": "琉球由来で束ねると、本土の和食とは別の体系として、豚とそのだしを軸にした料理群が見える。足ティビチ・ソーキ汁・中身汁・ミミガーと豚を余さず使うとされ、沖縄そば・宮古そば・八重山そばと島ごとのそばが並ぶ。食が薬になるというクスイムンの考えに立つチムシンジもある。",
+    "intro_en": "The Ryukyuan tag shows a food system separate from mainland cooking, built largely around pork and its broth. Ashitibichi (pig's trotters), sōki-jiru, nakami-jiru (innards soup) and mimigā (pig's ear) are said to use the pig from end to end, while Okinawa, Miyako and Yaeyama each have their own soba. Chimushinji follows kusuimun, the idea that food can serve as medicine."
   }
 ]
