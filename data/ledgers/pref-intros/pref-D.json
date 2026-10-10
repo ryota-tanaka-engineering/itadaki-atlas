@@ -1,0 +1,160 @@
+{
+  "intros": [
+    {
+      "pref": "香川県",
+      "intro_ja": "雨が少なく大きな川のない讃岐平野では、ため池の水で米と麦を育て、瀬戸内のいりこで出汁をとる暮らしが続いてきたとされる。この土地で生まれた讃岐うどんやしっぽくうどん、ため池のフナを白味噌の酢味噌で和えるてっぱい、小豆島が仕込む醤油が、その条件をよく映しているという。",
+      "intro_en": "With little rain and no large rivers, the Sanuki Plain grew its rice and wheat on water from irrigation ponds, and took its stock from Seto Inland Sea sardines (iriko). That pairing is said to sit behind Sanuki udon, firm wheat noodles in a clear iriko broth, and shippoku udon, a winter stew of vegetables poured over them. Teppai dresses crucian carp from the ponds in vinegared white miso, and Shodoshima island still brews its own soy sauce.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（香川県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/kagawa.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "愛媛県",
+      "intro_ja": "東西に長く、島々と速い潮に面した東予・中予と、リアス海岸が続く南予とで食の形が分かれるとされる。同じ鯛めしでも東予はタイを丸ごと米と炊き、南予は生の切り身を卵と醤油のたれでご飯にのせるという。小魚を骨ごと揚げる南予のじゃこ天、今治の骨付き唐揚げせんざんきも、この土地で生まれたとされる。",
+      "intro_en": "Ehime runs long from east to west, and its food is said to split along that line: the island-studded, fast-current coast of Toyo and Chuyo, and the ria coastline of Nanyo in the south. Even taimeshi, sea bream rice, differs. In the east a whole bream is cooked with the rice; in the south raw slices in an egg-and-soy sauce go over hot rice. Jakoten, a fried cake of small fish ground with their bones, and senzanki, Imabari's bone-in fried chicken, also come from here.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（愛媛県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/ehime.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "高知県",
+      "intro_ja": "黒潮が洗う土佐湾と、四国山地の深い山あい、四万十川などの清流が隣り合い、海の魚を大皿で囲む宴と、米の乏しい山の工夫が同居してきたとされる。藁であぶるかつおのたたき、宴席の皿鉢料理、大豊町の山あいが仕込む碁石茶、川のツガニを砕くつがに汁が、その両面を伝えているという。",
+      "intro_en": "Kochi faces the Kuroshio current across Tosa Bay, with the steep Shikoku mountains and clear rivers such as the Shimanto close behind. Generous seafood banquets and the thrift of rice-poor mountain villages are said to live side by side here. Katsuo no tataki is bonito seared over burning straw; sawachi ryori lays a feast out on great platters; goishicha is a twice-fermented tea from the hills of Otoyo; and tsugani-jiru is a soup of crushed river crab.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（高知県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/kochi.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "福岡県",
+      "intro_ja": "大陸と向き合う博多の港町、筑後川が流れる筑紫平野、有明海と豊前海という性格の違う海を抱え、北九州・筑豊・筑後・豊前で食の顔が分かれるとされる。港町で生まれた水炊きや博多ラーメン、筑後の久留米ラーメン、戦後の博多で広まった明太子、山あいの八女茶が、その幅を映しているという。",
+      "intro_en": "Fukuoka holds Hakata, a port that has long faced the Asian mainland, the Chikushi Plain along the Chikugo River, and two very different seas, the Ariake and the Buzen coast, and its food is said to differ between Kitakyushu, Chikuho, Chikugo and Buzen. Mizutaki, chicken simmered into a milky broth, and Hakata ramen grew up in the port city, Kurume ramen in Chikugo. Mentaiko, chili-marinated cod roe, spread from postwar Hakata, while the hills of Yame grow tea.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（福岡県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/fukuoka.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "佐賀県",
+      "intro_ja": "干満差の大きい有明海の干潟と、米の裏作に麦を育てる佐賀平野、玄界灘に面した唐津、焼き物の里の有田が並ぶ土地とされる。干潟にすむムツゴロウの蒲焼やワラスボの味噌汁、その幸を重ねる須古ずし、遠浅の海が育てるノリ、霧深い山あいの嬉野茶が、海と平野と山の分かれ方を伝えているという。",
+      "intro_en": "Saga spans the Ariake Sea, whose great tides bare wide mudflats, the Saga Plain where wheat follows the rice harvest, Karatsu on the Genkai Sea, and the pottery town of Arita. The mudflats give mutsugoro kabayaki, glazed grilled mudskipper, and miso soup of warasubo, an eel-like goby,, and suko-zushi layers that catch over pressed rice. The shallow, tidal sea is said to suit nori farming, and misty hills grow Ureshino tea.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（佐賀県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/saga.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "長崎県",
+      "intro_ja": "半島と離島が入り組み、江戸期に海外との窓口となった長崎港を抱える土地で、中国やポルトガルから入った味が魚と芋の暮らしに溶け込んだとされる。この土地で生まれた長崎ちゃんぽん、卓袱料理の一皿だったハトシ、南蛮菓子に始まるカステラ、離島の五島うどんやかんころ餅が、港と島の両面を伝えているという。",
+      "intro_en": "Nagasaki is a tangle of peninsulas and islands, and its harbor served as one of Japan's few windows abroad during the Edo period. Flavors from China and Portugal are said to have settled into a life of fish and sweet potatoes: Nagasaki champon, a noodle soup heaped with seafood and vegetables; hatoshi, shrimp paste fried between bread; castella sponge cake; and, from the outer islands, Goto udon and kankoro mochi, rice cake made with dried sweet potato.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（長崎県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/nagasaki.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "熊本県",
+      "intro_ja": "阿蘇の火山がつくったカルデラと湧き水、球磨川が流れる人吉盆地、有明海と八代海に挟まれた天草とで、食の性格が分かれるとされる。阿蘇の放牧地が育てるくまもとあか牛、城下町で生まれたからし蓮根、人吉球磨が米で仕込む球磨焼酎、天草の干しダコを炊き込むたこ飯が、その違いを伝えているという。",
+      "intro_en": "Kumamoto is said to divide into three: the volcanic caldera and spring water of Aso, the Hitoyoshi basin on the Kuma River, and the Amakusa islands between the Ariake and Yatsushiro seas. Aso's open pastures raise Kumamoto akaushi, a lean, red-coated wagyu; the castle town gave rise to karashi renkon, lotus root stuffed with mustard miso and fried; Hitoyoshi distills Kuma shochu from rice; and Amakusa cooks its rice with sun-dried octopus.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（熊本県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/kumamoto.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "大分県",
+      "intro_ja": "豊後水道の速い潮に面した佐伯や臼杵の浦と、くじゅうや由布の山々、日田の盆地を抱え、海辺と山あいで食の形が分かれるとされる。漁師のまかないから広まったりゅうきゅう、米づくりに向かない土地で小麦粉の麺を麦味噌で煮るだんご汁、日田が発祥地のひとつとされる柚子胡椒、潮にもまれて身が締まるサバとアジが、その海と山を伝えているという。",
+      "intro_en": "Oita faces the fast currents of the Bungo Channel at fishing towns such as Saiki and Usuki, and rises inland to the Kuju and Yufu mountains and the Hita basin; its food is said to split between shore and hills. Ryukyu, raw fish dressed in sesame and soy, spread from fishermen's meals. Dango-jiru, flat wheat noodles simmered in barley miso, reflects land poorly suited to rice. Hita is one claimed birthplace of yuzu kosho, a citrus-chili paste, and the channel's mackerel and horse mackerel are said to be firm from the tides.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（大分県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/oita.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "宮崎県",
+      "intro_ja": "日向灘に沿う暖かな平野と、九州山地の奥に入る高千穂や椎葉の山村とで、食の形が大きく分かれるとされる。沿岸では夏の農作業の合間に手早くとる冷や汁や、延岡で生まれたチキン南蛮、山あいでは季節の菜を混ぜて固める椎葉村の菜豆腐や、青竹で地鶏を蒸し焼く高千穂のかっぽ鶏が、その両面を伝えているという。",
+      "intro_en": "Miyazaki is said to divide between the warm plains along the Hyuga Sea and the remote mountain villages of Takachiho and Shiiba deep in the Kyushu Mountains. On the coast, hiyajiru, a chilled soup of grilled fish and miso, was a quick meal between summer field work, and Nobeoka gave rise to chicken nanban, fried chicken in sweet vinegar with tartar sauce. In the mountains, Shiiba makes nadofu, tofu set with seasonal greens, and Takachiho steams kappo-dori, chicken cooked inside green bamboo.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（宮崎県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/miyazaki.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "鹿児島県",
+      "intro_ja": "火山灰の台地が米より芋に向き、薩摩・大隅の両半島と、サトウキビを育てる奄美の島々とで食の顔が分かれるとされる。さつまいもで仕込む薩摩焼酎、芋を加えた飼料で仕上げるかごしま黒豚、桜島の火山灰の畑で育つ桜島大根、鶏ガラスープをご飯に注ぐ奄美の鶏飯が、その土と島の違いを伝えているという。",
+      "intro_en": "Kagoshima's volcanic ash uplands are said to have suited sweet potatoes better than rice, and its food differs between the Satsuma and Osumi peninsulas and the subtropical Amami islands, where sugarcane is grown. Satsuma shochu is distilled from local sweet potatoes; Kagoshima kurobuta, black Berkshire pork, is finished on feed with sweet potato; Sakurajima daikon, a giant radish, grows in the island volcano's ash; and Amami's keihan pours chicken broth over rice topped with shredded chicken and egg.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（鹿児島県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/kagoshima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": "代表の桜島大根（/local-vegetables/sakurajima-daikon）は伝統野菜ジャンルの未投入アイテム。名前だけ挙げている（総論にリンクは無い）。野菜の束を投入する前に県ページへ出す場合、一覧に桜島大根が無い状態になる。"
+    },
+    {
+      "pref": "沖縄県",
+      "intro_ja": "亜熱帯の島々で、かつて琉球として中国や東南アジアと交易してきた土地とされ、豚を余さず使う料理と、暑さの中で保存し発酵させる知恵が食の骨格になっているという。この土地で生まれたラフテーや中身汁、タイ米と黒麹で仕込む泡盛、本島と宮古・八重山で麺の形が分かれる沖縄そばが、その成り立ちを伝えている。",
+      "intro_en": "Okinawa's subtropical islands were once the Ryukyu Kingdom, trading with China and Southeast Asia, and its cooking is said to rest on using every part of the pig and on preserving and fermenting food against the heat. Rafute is pork belly braised soft with awamori; nakami-jiru is a clear soup of carefully cleaned pork innards; awamori itself is distilled from Thai rice with black koji; and Okinawa soba takes different noodle shapes on the main island, Miyako and Yaeyama.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（沖縄県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/okinawa.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "essays": [],
+  "notes": "全11県。代表名はすべて索引の born/raised/honba から選んだ（総論にはリンクを張っていない）。未投入アイテムを名前で挙げたのは鹿児島県の桜島大根のみ（各県の notes 参照）。日本語の「琉球王国」は禁止語「王国」に機械的に当たるため「かつて琉球として」と言い換えた（英語は Ryukyu Kingdom のまま）。出典は指示どおり農林水産省「うちの郷土料理」の県一覧ページで、Web 非到達のため URL は未確認（他ブロックと同じ規則で組み立て）。"
+}

@@ -1,0 +1,174 @@
+{
+  "intros": [
+    {
+      "pref": "滋賀県",
+      "intro_ja": "県の中央を琵琶湖が占め、湖の魚を塩と飯で長く漬け、あるいは甘辛く炊いて保存する仕事が食の骨格になったとされる。この土地で生まれたふなずしや、ビワマスを炊き込むあめのいおご飯、小あゆの山椒煮がその形を伝え、湖北には若狭から鯖街道で届いたサバを使う鯖そうめんも残るという。",
+      "intro_en": "Lake Biwa fills the middle of Shiga, and its freshwater fish shaped the table: packed in salt and rice for months, or simmered sweet and salty so they would keep. Born here are funazushi — crucian carp fermented in rice — amenoio gohan, rice cooked with a whole Biwa trout, and koayu no sansho-ni, tiny lake sweetfish simmered with sansho pepper. North of the lake, mackerel carried over the Saba Kaido road from the Wakasa coast became saba somen, thin noodles seasoned in the fish's simmering liquid.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（滋賀県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/shiga.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "京都府",
+      "intro_ja": "海から遠い盆地の都では、寺社の精進料理と、塩で締めた魚や乾物を運び込んで仕立てる仕事が育ったとされ、この土地で生まれた鯖寿司や京ゆば、上賀茂のすぐき漬けがその形を伝えるという。一方、北の丹後は日本海に面し、焼いてほぐしたサバを酢飯に散らす丹後ばらずしが祝いの席に残るという。",
+      "intro_en": "Kyoto city sits in an inland basin far from the sea, so its cooking grew from temple vegetarian traditions and from salted fish and dried goods carried in from the coast. Born here are saba-zushi — salt-cured mackerel pressed onto rice at the end of the old Mackerel Road — kyo-yuba, delicate sheets lifted from heated soy milk, and suguki-zuke, a turnip pickle fermented in the Kamigamo district. To the north, the Tango coast faces the Sea of Japan and keeps Tango barazushi, festive sushi scattered with flaked grilled mackerel.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（京都府）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/kyoto.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": "京都府は南北（盆地の京都市と日本海側の丹後）で分けて書いた。"
+    },
+    {
+      "pref": "大阪府",
+      "intro_ja": "諸国の米や海産物が集まる港町として商いの台所になったとされ、北前船で届いた昆布のだしが味の土台になったという。この土地で生まれた箱寿司やバッテラ、甘辛い油揚げをのせるきつねうどんにその流れがあり、小麦粉の生地を手早く焼くたこ焼きのような粉ものも町なかに根づいている。",
+      "intro_en": "As a port where rice and seafood from across Japan changed hands, Osaka became the merchants' kitchen, and kelp brought by Kitamaebune coastal ships is said to have set the base of its dashi. That stock runs through dishes born here: hako-zushi, sushi pressed in a wooden box; battera, pressed mackerel sushi topped with thin kelp; and kitsune udon, noodles crowned with sweet simmered fried tofu. Quick griddled wheat-batter snacks such as takoyaki — round dumplings with a piece of octopus inside — took root in the streets.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（大阪府）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/osaka.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": "「北前船で届いた昆布」は一般的な説明だが、収録アイテムの要約に直接の記述はないため「という」で留めた。"
+    },
+    {
+      "pref": "兵庫県",
+      "intro_ja": "瀬戸内海と日本海の両方に面し、間に丹波の山地を抱える県で、南北で食の性格が分かれるとされる。南では宮水と播磨の米で灘の酒が仕込まれ、春の瀬戸内ではイカナゴのくぎ煮が炊かれるという。北の但馬は谷ごとに血統を守る但馬牛を育て、丹波篠山では猪肉を味噌で煮るぼたん鍋が生まれたと伝わる。",
+      "intro_en": "Hyogo reaches from the Seto Inland Sea to the Sea of Japan with the Tanba uplands in between, and its food divides along those lines. In the south, Miyamizu well water and rice from the Harima plain go into Nada sake, and spring brings ikanago no kugini, young sand eels simmered with soy sauce and ginger. The northern Tajima region raises Tajima cattle, whose bloodlines were kept valley by valley, while Tanba-Sasayama gave rise to botan nabe, wild boar simmered in a miso broth.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（兵庫県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/hyogo.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "奈良県",
+      "intro_ja": "海のない奈良盆地では、寺院の多い古都の暮らしとともに、ほうじ茶で炊く茶粥や、しろうりを酒粕に漬け替える奈良漬けのような米と粕の食が育ったとされる。三輪山の麓では三輪素麺が生まれ、南の吉野の山あいでは、塩で締めたサバを柿の葉で包む柿の葉寿司が祭礼のもてなしに仕込まれてきたという。",
+      "intro_en": "With no coastline, the Nara basin built its food around rice, tea and sake lees, shaped by the old capital and its many temples. Born here are chagayu, rice gruel simmered in roasted green tea, and narazuke, white gourds and other vegetables pickled again and again in sake lees. Miwa somen, fine hand-stretched wheat noodles, comes from the foot of Mount Miwa, and in the Yoshino hills to the south, salt-cured mackerel is wrapped in persimmon leaves as kakinoha-zushi for festival guests.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（奈良県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/nara.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "和歌山県",
+      "intro_ja": "紀伊山地が海際まで迫り、黒潮の洗う長い海岸線と山の暮らしが隣り合う土地とされる。山仕事や漁の合間の携行食として、高菜の葉で大きなおにぎりを包むめはりずしが生まれ、高野山ではごま豆腐が精進の一品として伝わるという。やせ地に梅を育てた南部は、梅干しの本場でもあるとされる。",
+      "intro_en": "In Wakayama the Kii mountains run almost to the shore, so forest life and a long coast washed by the warm Kuroshio current sit side by side. Food carried into the woods or out on the boats became mehari-zushi — large rice balls wrapped in pickled mustard leaves — and the temple town on Mount Koya keeps goma-dofu, a silky sesame \"tofu\" from vegetarian temple cooking. The south, where plums were planted on thin soil, is a home ground of umeboshi, plums salted and then dried in the sun.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（和歌山県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/wakayama.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "鳥取県",
+      "intro_ja": "日本海に面した砂丘と、大山の裾野が隣り合う土地とされる。冬の港に揚がるズワイガニの本場で、雌の親ガニは大根と合わせたみそ汁にも仕立てられるという。水はけのよい砂地ではこの土地で生まれた鳥取砂丘らっきょうが育ち、大山の麓には山の幸と鶏肉をもち米に炊き込む大山おこわが伝わる。",
+      "intro_en": "Tottori sets coastal sand dunes on the Sea of Japan beside the foothills of Mount Daisen. Its winter ports land snow crab, making it a home ground of zuwaigani, and the smaller female crabs go into oyagani no misoshiru, a miso soup with daikon. The well-drained dune sand grows Tottori Sakyu rakkyo, a crisp white shallot usually pickled, and at the foot of Daisen people make Daisen okowa, sticky rice cooked with shiitake, burdock and chicken.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（鳥取県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/tottori.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "島根県",
+      "intro_ja": "汽水の宍道湖と日本海、隠岐の島々、出雲の平野が一県に並ぶ土地とされる。宍道湖のシジミのしじみ汁や、松江の城下に伝わるスズキの奉書焼きがこの土地で生まれ、出雲ではそばの実を殻ごと挽く出雲そばが、海辺ではトビウオのすり身を焼くあご野焼きが作られてきたという。",
+      "intro_en": "Shimane holds the brackish Lake Shinji, a long stretch of the Sea of Japan, the Oki Islands and the Izumo plain. From the lake's clams comes shijimi-jiru, a clam soup, and the castle town of Matsue keeps suzuki no hoshoyaki, sea bass steam-baked inside sheets of washi paper. Izumo makes Izumo soba, dark noodles milled from the whole buckwheat seed, husk and all, while coastal towns grind flying fish into ago noyaki, a long fish cake baked over the fire.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（島根県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/shimane.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "岡山県",
+      "intro_ja": "南の瀬戸内の穏やかな海と平野、北の中国山地で性格が分かれるとされる。南では小魚を甘酢に漬けるママカリの酢漬けや、サワラやレンコンを酢飯に混ぜる岡山ばらずしが生まれ、平野では光を遮って黄ニラを育てるという。北の新見の山あいでは、古い系統を受け継ぐ千屋牛が育てられてきた。",
+      "intro_en": "Okayama divides between the calm Seto Inland Sea and its plains in the south and the Chugoku mountains in the north. The south gave rise to mamakari no suzuke, small herring-like fish steeped in sweet vinegar, and Okayama barazushi, vinegared rice mixed with Spanish mackerel, lotus root and other local produce; the plains also grow kinira, yellow chives raised under covers that block the light. In the northern uplands around Niimi, farmers raise Chiya beef, from one of the oldest recorded cattle lines.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（岡山県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/okayama.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "広島県",
+      "intro_ja": "島の多い瀬戸内の湾と、内陸の盆地や中国山地を抱える県とされる。潮と川の栄養が交わる湾で牡蠣が育ち、かきの土手鍋が生まれ、西条の盆地では軟水を生かす醸造法で広島の酒が仕込まれてきたという。広島市では生地にキャベツやそばを重ねる広島お好み焼きが根づき、府中焼きや呉焼きへ枝分かれしている。",
+      "intro_en": "Hiroshima pairs the island-dotted bays of the Seto Inland Sea with inland basins and the Chugoku mountains. Where tides meet river water, the bays raise oysters, cooked in kaki no dotenabe, a hotpot with miso spread around the rim. In the Saijo basin, brewers learned to work with soft water to make Hiroshima sake. In Hiroshima city, layered Hiroshima okonomiyaki — a thin crepe stacked with cabbage, pork and noodles — took root and branched into local versions such as Fuchu-yaki and Kure-yaki.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（広島県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/hiroshima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "山口県",
+      "intro_ja": "三方を海に囲まれ、日本海と瀬戸内海の潮が関門海峡で出会う土地とされる。海峡の港下関はトラフグの本場で、透けるほど薄く引くふく刺しがこの土地で生まれたという。下関では熱した瓦で茶そばを焼く瓦そばが、城下町の岩国では木枠で何段にも押す岩国寿司が祝いの席に仕込まれてきた。",
+      "intro_en": "Yamaguchi is bounded by sea on three sides, and the tides of the Sea of Japan and the Seto Inland Sea meet in the Kanmon Strait. Shimonoseki, the port on the strait, is a home ground of torafugu, tiger pufferfish, served as fuku-sashi — sliced so thin the plate shows through. The city also gave rise to kawara soba, green-tea noodles seared on a hot roof tile, and the castle town of Iwakuni presses rice and toppings in several layers within a wooden frame to make Iwakuni-zushi for celebrations.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（山口県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/yamaguchi.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "pref": "徳島県",
+      "intro_ja": "吉野川の流域と潮の速い鳴門海峡、祖谷の深い山地が一県に並ぶとされる。鳴門の潮にもまれるワカメの本場で、海に近い砂地の畑では鳴門金時が育つという。米作りに向かない山あいの祖谷では、つなぎを使わない祖谷そばが主食として根づき、那賀町や上勝町では茶葉を乳酸発酵させる阿波晩茶が仕込まれてきた。",
+      "intro_en": "Tokushima holds the Yoshino River basin, the fast tidal currents of the Naruto Strait and the steep Iya mountains. The strait makes it a home ground of wakame seaweed, and sandy fields near the coast grow Naruto kintoki, a sweet potato. In the Iya valleys, too steep for rice, buckwheat became a staple, and Iya soba is still made without binding flour, while the hill towns of Naka and Kamikatsu make Awa bancha, a tea fermented with lactic acid bacteria.",
+      "sources": [
+        {
+          "title": "うちの郷土料理（徳島県）",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/tokushima.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-10"
+        }
+      ],
+      "notes": ""
+    }
+  ],
+  "essays": [],
+  "notes": "ブロックC（近畿・中国＋徳島）12県。出典は全件 農水省「うちの郷土料理」の県一覧ページ（Web 不可のため URL の到達は未確認。綴りは PREF_SLUGS に一致）。代表名はすべて索引の born/raised/honba から選び、リンクは張っていない。"
+}
