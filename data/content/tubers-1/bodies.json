@@ -1,0 +1,190 @@
+{
+  "items": [
+    {
+      "slug": "futago-satoimo",
+      "body_ja": "## 何でできているか\n北上川沿いの二子町周辺で栽培されてきた在来のさといもで、親芋のまわりにつく子芋や孫芋を食べる系統とされる。皮をこそげると白くきめの細かい身があらわれ、煮るととろけるようなねっとりした舌ざわりと強いぬめりが出るという。同じ北上川流域の芋でも、ほくほくした食感の「津志田芋」とは食べ口が違うと言われ、土地ごとに芋の個性を言い分けてきたことがうかがえる。汁にすると煮汁にほどよいとろみがつくとされる。\n## どう作るのか\n春に種芋を植え、夏のあいだ土寄せを重ねて子芋を太らせ、秋に掘り上げるとされる。さといもは寒さに弱いため、種芋は冬のあいだ土の中や室で凍らないように囲って越冬させ、翌春にまた植える形で代々受け継がれてきたという。台所では皮をこそぐように薄くむき、ぬめりを生かしたまま汁や煮物に入れる。二子地区では芋そのものの味を確かめるため、ほかの根菜を入れずに仕立てるいもの子汁も伝わるとされる。\n## なぜこの形になったのか\n北上川が運んだ砂や泥が積もった川沿いの土地は、水はけと水もちのつり合いがよく、さといもの栽培に向いていたと考えられている。さといもは米より古くから作られていたとも伝わり、稲刈りが済んで人が集まる時期に、川岸で芋の汁を囲む習いが秋の行事として残ったという。凍らせずに種芋を冬越しさせる手間を毎年重ねてきたことが、北の土地で一つの系統を守り続けた理由の一つと見られている。",
+      "body_en": "## What it's made of\nFutago satoimo is a local strain of satoimo — Japanese taro — grown along the Kitakami River around the Futago district. It is the kind eaten for its daughter and granddaughter corms, the smaller tubers clustered around the mother corm. Scrape off the skin and the flesh beneath is white and fine-grained; simmered, it turns meltingly soft, with a pronounced slippery stickiness. Locals distinguish it from Tsushida-imo, another taro of the same river basin that cooks up dry and floury — a sign of how closely each place's taro has been told apart. In a soup, it gives the broth a gentle body.\n## How it's made\nSeed corms go into the ground in spring, soil is heaped up around the plants through summer to fatten the daughter corms, and the crop is dug in autumn. Taro does not tolerate frost, so the seed corms are said to be kept through winter buried in the ground or in a storage cellar, protected from freezing, and replanted the following spring — the way the strain has been passed down. In the kitchen the skin is scraped off thinly and the corms go into soups and simmered dishes with their sliminess intact. In Futago, a version of imonoko-jiru made with no other root vegetables, so the taro itself can be tasted, is also handed down.\n## Why it took this shape\nThe riverside land, built up from sand and silt carried by the Kitakami, is thought to balance drainage and moisture in a way that suits taro. Taro is said to have been grown in Japan even before rice, and here the custom of gathering on the riverbank after the rice harvest to share a pot of taro soup has survived as an autumn event. Carrying the seed corms through each northern winter without letting them freeze — a chore repeated every year — is seen as one reason a distinct local strain has been kept going this far north.",
+      "sources": [
+        {
+          "title": "いもの子汁 岩手県 | うちの郷土料理",
+          "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/28_13_iwate.html",
+          "publisher": "農林水産省",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "北上市公式サイト",
+          "url": "https://www.city.kitakami.iwate.jp/",
+          "publisher": "岩手県北上市",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "imonoko-jiru",
+          "to_slug": "futago-satoimo",
+          "relation_type": "使用食材",
+          "basis": "北上市のいもの子汁はさといもが主材料で、既存本文に「二子さといも」のねっとりした舌ざわりが名指しされている（農林水産省うちの郷土料理）"
+        },
+        {
+          "from_slug": "futago-satoimo",
+          "to_slug": "kamisho-satoimo",
+          "relation_type": "兄弟",
+          "basis": "どちらも川沿いや盆地の土で子芋を育て、産地名で呼ばれるさといもの地方系統"
+        }
+      ]
+    },
+    {
+      "slug": "mikatahara-bareisho",
+      "body_ja": "## 何でできているか\n浜名湖の東に広がる三方原台地で作られるじゃがいもで、「三方原馬鈴薯」の名で出荷される。冬に植えて春から初夏に掘る作型のため、出回るのは掘りたての新じゃがが中心とされる。皮はむかずに食べられるほど薄く、身はきめが細かくしっとりとして、ほのかな甘みがあるという。水分を多く含む時期のいもなので、丸ごと煮ても粉をふきすぎず、なめらかな口当たりに仕上がりやすいと言われる。\n## どう作るのか\n冬のうちに種いもを植え、霜を避けながら育てて、5〜6月ごろに掘り上げるのが一般的とされる。台地の赤土は粘り気があり、乾くと固く締まるため、畑を深く耕して水はけを整えるのが要という。皮が薄く傷みやすいため、掘ったいもは日に当てすぎないようにして早めに出荷されるとされる。家庭では皮つきのまま小さないもを煮っころがしや素揚げにし、薄皮の香りと甘みを味わう食べ方が好まれるという。\n## なぜこの形になったのか\n三方原台地は、かつて天竜川が運んだ礫の層の上に赤土が乗った台地とされ、川から離れて水を得にくく、長いあいだ水田に向かない原野だったと考えられている。そのため水を多く要しない畑作が広がり、近代に入って開墾が進むなかで、じゃがいもが台地の作物として根づいたと伝わる。冬でも雪が少なく比較的温暖な遠州の気候が冬植えと早い収穫を可能にし、新じゃがの産地として名が知られるようになったとされる。",
+      "body_en": "## What it's made of\nThese are potatoes grown on the Mikatahara plateau, which spreads east of Lake Hamana, and shipped under the name Mikatahara bareisho (bareisho being the formal word for potato). Because they are planted in winter and dug from spring into early summer, most of what reaches market is freshly dug new potatoes. The skin is thin enough to eat, and the flesh is fine-grained, moist and faintly sweet. Harvested while still full of water, they are said to hold a smooth texture when simmered whole rather than turning dry and floury.\n## How it's made\nSeed potatoes typically go into the ground during winter, are grown on while being kept clear of frost, and are dug around May and June. The plateau's red earth is sticky when wet and sets hard when dry, so growers plough deep to keep the fields draining well. The thin skins bruise easily, so the dug potatoes are kept out of strong sun and sent to market quickly. At home, small ones are often cooked skin-on — glazed in a sweet-savory simmer (nikkorogashi) or simply deep-fried — so the aroma of the thin skin and the sweetness come through.\n## Why it took this shape\nThe Mikatahara plateau is described as a layer of red earth over gravel laid down long ago by the Tenryu River. Lying well above and away from the rivers, it had little water and is thought to have stayed as rough grassland unsuited to paddy rice for a long time. Dry-field crops that need little water spread there instead, and as the land was opened up for farming in the modern era, potatoes are said to have become one of the plateau's crops. The mild, nearly snowless winters of the Enshu region make winter planting and an early harvest possible, which is how the area came to be known for its new potatoes.",
+      "sources": [
+        {
+          "title": "浜松市公式サイト",
+          "url": "https://www.city.hamamatsu.shizuoka.jp/",
+          "publisher": "静岡県浜松市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "静岡県公式ホームページ",
+          "url": "https://www.pref.shizuoka.jp/",
+          "publisher": "静岡県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "mikatahara-bareisho",
+          "to_slug": "nagasaki-jagaimo",
+          "relation_type": "兄弟",
+          "basis": "どちらも冬の温暖さを生かして早く掘る、産地名で呼ばれる温暖な土地のじゃがいも"
+        }
+      ]
+    },
+    {
+      "slug": "tanba-yamanoimo",
+      "body_ja": "## 何でできているか\nヤマノイモの仲間のうち、塊が丸く握りこぶしのような形に育つ「つくね芋」系の芋とされる。皮は黒っぽく表面はでこぼこしているが、切ると身は真っ白できめが細かいという。すりおろすと粘りがきわめて強く、器を傾けても流れにくいほどと言われ、細長い長いものさらりとしたとろろとは別物の重さがある。火を通すと、もっちりとした弾力とほのかな甘みが出るとされる。\n## どう作るのか\n春に種芋を切り分けて植え、夏のあいだはつるを支柱やネットにはわせて葉を茂らせ、晩秋に掘り上げるのが一般的とされる。芋が丸く育つ系統なので長いものように深く掘る必要は少ないが、肥料を効かせ、夏の乾きで水を切らさないよう手をかけるという。台所では皮をむいて酢水にさらし、すり鉢でするのが伝統的な下ごしらえとされ、だしでのばしてとろろにしたり、砂糖と米の粉を合わせて饅頭の生地にしたりする。\n## なぜこの形になったのか\n篠山盆地は昼と夜の寒暖差が大きく、秋から冬に深い霧が立つ土地で、この気候が芋の身を締めて粘りを生むと考えられている。同じ盆地では丹波黒大豆や栗も育ち、城下町の篠山からは古くから山の産物が京や大坂へ送られてきたと伝わる。粘りの強い芋は菓子の生地をふっくらと持ち上げる材料として菓子屋に重んじられたとも言われ、その需要がこの系統を残してきた理由の一つと見られている。",
+      "body_en": "## What it's made of\nAmong the yams of the Dioscorea family, this belongs to the tsukune-imo type, which grows into a round lump about the size of a fist. The skin is dark and lumpy, but the flesh inside is pure white and fine-grained. Grated, it is extraordinarily sticky — said to stay put even when the bowl is tilted — with a weight quite unlike the thin, pourable tororo made from long nagaimo. Cooked, it turns chewy and springy with a faint sweetness.\n## How it's made\nSeed tubers are cut and planted in spring; through summer the vines are trained up poles or netting so the leaves can spread, and the yams are usually dug in late autumn. Because this type grows round, it doesn't need the deep digging long yams do, but growers feed the soil well and keep the plants watered through dry summer spells. The traditional preparation is to peel the yam, soak it briefly in vinegared water and grind it in a suribachi, a ridged mortar. It is then thinned with dashi for tororo, or worked together with sugar and rice flour into the dough for steamed buns.\n## Why it took this shape\nThe Sasayama basin has wide swings between day and night temperatures and thick fog from autumn into winter, conditions thought to firm up the flesh and build its stickiness. The same basin grows Tanba black soybeans and chestnuts, and the old castle town of Sasayama is said to have sent the produce of its hills to Kyoto and Osaka for centuries. Confectioners are said to have prized such a sticky yam for the way it lifts and puffs a bun's dough, and that demand is seen as one reason the strain has been kept alive.",
+      "sources": [
+        {
+          "title": "丹波篠山市公式サイト",
+          "url": "https://www.city.tambasasayama.lg.jp/",
+          "publisher": "兵庫県丹波篠山市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "兵庫県公式ホームページ",
+          "url": "https://web.pref.hyogo.lg.jp/",
+          "publisher": "兵庫県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "joyo-manju",
+          "to_slug": "tanba-yamanoimo",
+          "relation_type": "使用食材",
+          "basis": "薯蕷饅頭はすりおろした山芋を皮に練り込む菓子（既存本文）で、粘りの強いつくね芋系の山の芋がその生地に用いられる"
+        },
+        {
+          "from_slug": "tanba-yamanoimo",
+          "to_slug": "ise-imo",
+          "relation_type": "兄弟",
+          "basis": "どちらも丸く育つ粘りの強い山の芋で、産地名で呼ばれる地方系統"
+        }
+      ]
+    },
+    {
+      "slug": "okinawa-beni-imo",
+      "body_ja": "## 何でできているか\n沖縄で栽培されるさつまいものうち、身が赤紫から濃い紫色になるものを総じて「紅いも」と呼ぶとされる。色のもとはアントシアニンという色素で、蒸すと色がいっそう深くなるという。甘さや食感は品種によって幅があり、ほくほくしたものからねっとりしたものまであると言われる。色をそのまま生かせるため、餡やもち、焼き菓子、アイスなどの素材として使われることが多く、県内では蒸して塩をふるだけの食べ方も残るとされる。\n## どう作るのか\n冬でも霜が降りない沖縄では、植え付けと収穫の時期を一年のなかでずらしながら栽培できるとされる。つるを切った苗を畑に挿して根づかせ、数か月で掘り上げるのが基本という。一方、沖縄にはアリモドキゾウムシやイモゾウムシというさつまいもの害虫がいるため、植物防疫法により生のいもや茎葉を県外へ持ち出すことが規制されている。そのため多くは県内で蒸して裏ごしし、ペーストや粉末にしてから出荷されるという。\n## なぜこの形になったのか\nさつまいもは1605年ごろ、野國總管と呼ばれた人物が中国の福建から琉球の野国（現在の嘉手納町）へ持ち帰ったのが始まりと伝わる。その後、儀間真常が栽培を広めたとされ、台風や干ばつで稲や麦が傷んでも土の中で育つ芋は、島の暮らしを支える主食になったという。痩せた土地でも育つ作物として根づくなかで色の濃い系統も残り、近年は読谷村などでその色を生かす加工が地域の産業として育ってきたと考えられている。",
+      "body_en": "## What it's made of\nBeni-imo is the name given, broadly, to the sweet potatoes of Okinawa whose flesh runs from reddish purple to a deep violet. The color comes from anthocyanin pigments, and steaming is said to deepen it further. Sweetness and texture vary by variety, from dry and floury to dense and moist. Because the color survives cooking, beni-imo is widely used for sweet pastes, mochi, baked confections and ice cream, while in Okinawa the simple habit of steaming it and eating it with a sprinkle of salt also lives on.\n## How it's made\nWith no frost even in winter, Okinawa lets growers stagger planting and harvest across the year. Cut lengths of vine are pushed into the field to root, and the tubers are dug a few months later. The islands, however, are home to two sweet-potato pests — the sweet potato weevil and the West Indian sweet potato weevil — so under Japan's Plant Protection Act, taking fresh tubers or vines out of the prefecture is restricted. Most of the crop is therefore steamed and sieved in Okinawa and shipped as paste or powder.\n## Why it took this shape\nTradition holds that the sweet potato arrived around 1605, when an official known as Noguni Sokan brought it back from Fujian in China to Noguni in the Ryukyu kingdom — today's Kadena. Gima Shinjo is credited with spreading its cultivation, and a crop that kept growing underground when typhoons and droughts ruined rice and barley became a staple of island life. As it took root as a crop for poor soils, deeply colored strains were kept as well, and in recent decades places such as Yomitan are thought to have built a local industry around processing that color.",
+      "sources": [
+        {
+          "title": "読谷村公式サイト",
+          "url": "https://www.vill.yomitan.okinawa.jp/",
+          "publisher": "沖縄県読谷村",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "植物防疫所",
+          "url": "https://www.pps.go.jp/",
+          "publisher": "農林水産省植物防疫所",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "okinawa-beni-imo",
+          "to_slug": "anno-imo",
+          "relation_type": "兄弟",
+          "basis": "どちらも南の島で育ち、島の名や県名で呼ばれるさつまいもの地方系統"
+        },
+        {
+          "from_slug": "okinawa-beni-imo",
+          "to_slug": "okinawa-taimo",
+          "relation_type": "対比",
+          "basis": "同じ沖縄の芋だが、紅いもは畑で育つさつまいも、田芋は水田で育つさといもの仲間"
+        }
+      ]
+    },
+    {
+      "slug": "tanba-dainagon-azuki",
+      "body_ja": "## 何でできているか\n小豆のうち、粒が大きく、濃い赤褐色をした「大納言」と呼ばれる系統の一つとされる。丹波のものは粒がそろって光沢があり、煮ても皮が破れにくく、形を残したままふっくらと炊き上がるという。粒の芯まで火が通るとほっくりした食感になり、香りが高いとも言われる。そのため粒をつぶさずに見せる粒あんや甘納豆、餅のまわりに豆を並べる鹿の子などの材料として用いられることが多い。\n## どう作るのか\n夏に種をまき、秋に莢が褐色に色づいたものから順に収穫するとされる。一株のなかでも莢の熟す時期がそろわないため、丹波では一莢ずつ手で摘み取る作業がいまも残っているという。摘んだ莢は天日で乾かしてから豆を取り出し、粒の大きさや傷をより分けて出荷される。菓子屋や家庭では、煮立てて渋みを抜く渋切りをしてから砂糖を加え、粒をつぶさないよう弱火で時間をかけて炊くのが基本とされる。\n## なぜこの形になったのか\n「大納言」の名には、煮ても腹が割れないことを、殿中で刀を抜いても切腹を免れたという公家の位、大納言になぞらえたという説が伝わる。丹波地方は盆地特有の昼夜の寒暖差と秋の深い霧があり、実りの時期にゆっくりと豆が太ることで大粒になると考えられている。京都に近いこの土地の小豆は、茶の湯とともに洗練された京の菓子の需要を受け止め、粒の姿が見た目を左右する菓子の素材として選ばれてきたとされる。",
+      "body_en": "## What it's made of\nAmong azuki — small red beans — the large, deep reddish-brown types are called dainagon, and the Tanba beans are one line of them. They are even in size and glossy, and when simmered their skins tend not to burst, so they plump up while keeping their shape. Cooked through, they become soft and floury inside and are said to have a pronounced aroma. That is why they are so often used where the whole bean must stay visible: tsubu-an (chunky bean paste), amanatto (sugared beans) and kanoko, a confection with beans studded around a core of mochi or paste.\n## How it's made\nThe beans are sown in summer and harvested in autumn, picking the pods as they turn brown. Pods on the same plant ripen at different times, so in Tanba the practice of picking them by hand, one pod at a time, is said to continue. The pods are dried in the sun before the beans are shelled, then sorted by size and for blemishes before shipping. Confectioners and home cooks typically boil them first and discard the water to remove bitterness (shibukiri), then add sugar and cook them slowly over low heat so the beans don't break.\n## Why it took this shape\nOne explanation of the name dainagon links the bean's refusal to split its belly when boiled to the court rank of dainagon, whose holders were said to be spared ritual disembowelment even if they drew a sword inside the palace. The Tanba region's basins bring wide day-night temperature swings and heavy autumn fog, and the beans are thought to grow large by filling out slowly as they ripen. Lying close to Kyoto, the area's azuki are said to have been chosen to meet the needs of Kyoto confectionery, refined alongside the tea ceremony, where the look of each whole bean matters.",
+      "sources": [
+        {
+          "title": "丹波市公式サイト",
+          "url": "https://www.city.tamba.lg.jp/",
+          "publisher": "兵庫県丹波市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "京都府公式サイト",
+          "url": "https://www.pref.kyoto.jp/",
+          "publisher": "京都府",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "tanba-dainagon-azuki",
+          "to_slug": "tanba-kuro-daizu",
+          "relation_type": "対比",
+          "basis": "同じ丹波の盆地で育つ大粒の豆だが、大納言小豆は粒を見せる和菓子に、黒大豆は正月の黒豆煮に用いられる"
+        }
+      ]
+    },
+    {
+      "slug": "ibusuki-soramame",
+      "body_ja": "## 何でできているか\n莢が空に向かって伸びることから「空豆」と書くとも言われるマメ科の豆で、指宿では大粒の品種が中心とされる。綿のようにやわらかな莢の内側に守られた豆は、塩ゆでにすると鮮やかな緑色になり、ほっくりした食感と青い香り、ほのかな甘みがあるという。鮮度が落ちやすく、莢から出すと急に味が変わるとされるため、莢つきのまま流通することが多い。\n## どう作るのか\n秋に種をまき、冬のあいだに花を咲かせて、12月ごろから春にかけて収穫するのが指宿の作型とされる。強い寒さに当たると実がつきにくくなるため、ビニールのトンネルなどで保温しながら育てることも多いという。上を向いていた莢が重みで下を向き、背筋が黒っぽくなったころが収穫の目安と言われる。食べる直前に莢から出して塩を加えた湯で短くゆでるか、莢ごと焼いて中で蒸し焼きにするのがよいとされる。\n## なぜこの形になったのか\n薩摩半島の南端にある指宿は、黒潮の影響で冬も暖かく、霜がほとんど降りない土地とされる。この気候のおかげで、本来は春の豆であるそらまめを真冬に実らせることができ、本州の産地が収穫を迎える前に市場へ出せる早出しの産地として育ったと考えられている。火山の噴出物に由来する水はけのよい畑も、湿気を嫌う豆に向いているという。青果の少ない冬に都市へ送る作物として、温暖さそのものが値打ちになったとされる。",
+      "body_en": "## What it's made of\nSora-mame — the broad bean, or fava — is sometimes said to be written with the characters for \"sky bean\" because its pods grow pointing upward. In Ibusuki the large-seeded types predominate. Cradled in the soft, cottony lining of the pod, the beans turn bright green when boiled in salted water, with a floury bite, a fresh green aroma and a gentle sweetness. They lose freshness quickly, and their flavor is said to change fast once shelled, so they are usually sold still in the pod.\n## How it's made\nIbusuki's growing calendar has the beans sown in autumn, flowering through winter and harvested from around December into spring. Hard cold makes the plants set fewer pods, so they are often grown under plastic tunnels to hold in warmth. The usual sign of readiness is when the pods, which start out pointing up, droop under their own weight and the seam along the back darkens. The best way to eat them is said to be shelling them just before cooking and boiling them briefly in salted water, or roasting them whole so the beans steam inside the pod.\n## Why it took this shape\nIbusuki sits at the southern tip of the Satsuma Peninsula, where the Kuroshio current keeps winters warm and frost is rare. That climate lets a bean that is naturally a spring crop ripen in midwinter, and the area is thought to have grown into an early-season producer able to send beans to market before the Honshu harvest begins. Well-drained fields formed from volcanic deposits also suit a crop that dislikes damp. In winter, when fresh produce is scarce, the warmth itself is said to have become the selling point for beans shipped to the cities.",
+      "sources": [
+        {
+          "title": "指宿市公式サイト",
+          "url": "https://www.city.ibusuki.lg.jp/",
+          "publisher": "鹿児島県指宿市",
+          "accessed_at": "2026-10-04"
+        },
+        {
+          "title": "鹿児島県公式ホームページ",
+          "url": "https://www.pref.kagoshima.jp/",
+          "publisher": "鹿児島県",
+          "accessed_at": "2026-10-04"
+        }
+      ],
+      "relations": [
+        {
+          "from_slug": "ibusuki-soramame",
+          "to_slug": "kishu-usui",
+          "relation_type": "対比",
+          "basis": "どちらも莢から出して青いうちに食べる春の豆だが、紀州うすいはえんどう、指宿のそらまめはそら豆で、温暖な産地が早出しを担う点が共通する"
+        },
+        {
+          "from_slug": "ibusuki-soramame",
+          "to_slug": "soramame-no-kofuki",
+          "relation_type": "対比",
+          "basis": "同じそら豆でも、指宿は青いうちに食べる早出しの生豆、鳥取の粉吹きは完熟させて干した豆を戻して煮る保存の食べ方"
+        }
+      ]
+    }
+  ]
+}

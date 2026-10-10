@@ -1,0 +1,333 @@
+{
+ "items": [
+  {
+   "slug": "kinjiso",
+   "name_ja": "金時草",
+   "name_romaji": "Kinjisō",
+   "name_en": "Kinjisō — Kanazawa's summer leaf, green on top and purple beneath, eaten for its silky slip",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "石川県",
+   "origin_city": "金沢市",
+   "lat": 36.5613,
+   "lng": 136.6562,
+   "primary_style": "",
+   "summary_ja": "金沢市で夏から秋にかけて摘まれる葉物で、葉の表は緑、裏は鮮やかな赤紫をしている。茹でると独特のぬめりが出て、ゆで汁は紫に染まるという。おひたしや酢の物にして食べられ、金沢の加賀野菜の一つに数えられている。",
+   "summary_en": "A leafy green picked in Kanazawa from summer into autumn, green on the face of the leaf and a vivid red-purple underneath. Blanched, it turns slippery and tints its cooking water purple. It's eaten as ohitashi (blanched greens) or dressed in vinegar, and is counted among Kanazawa's Kaga vegetables.",
+   "body_ja": "## 何でできているか\n葉は手のひらにのるほどの楕円形で、表は濃い緑、裏は赤紫に染まり、裏返すと色の違いがはっきり見えるという。キク科の植物で、茎の先の柔らかい葉と若い茎を摘んで食べるとされる。茹でるとつるりとしたぬめりが出て、ほのかに土のような独特の香りがあると説明されることが多い。ゆで汁は赤紫に色づき、酢を加えると鮮やかな赤に変わると伝わる。歯ざわりは柔らかく、噛むほどにぬめりが舌に広がるという。\n## どう作るのか\n種ではなく、茎を切って土に挿す挿し木で株を増やすとされる。春に植えた株は夏から秋にかけて枝を伸ばし、先の葉を摘み取ると脇からまた新しい芽が出てくるため、同じ株から何度も収穫できるという。収穫は6月ごろから11月ごろまで続き、寒さに弱いため、冬は親株をハウスなどで守って翌春の挿し穂をとるとされる。下ごしらえは葉を茎から外してさっと茹で、水にとって絞る。おひたしや酢の物、天ぷら、味噌汁の具にされるという。\n## なぜこの形になったのか\n原産は東南アジアとされ、江戸時代に熊本を経て加賀に伝わったという説がある。熊本では水前寺菜、沖縄ではハンダマと呼ばれる同じ植物が、それぞれの土地で食べられてきたという。金時草の名は、葉裏の赤紫をさつまいもの金時の皮の色にたとえたものと伝わる。夏の暑さで柔らかい葉物が育ちにくい時期にも次々と葉を摘めることが、金沢の家庭で夏の青物として重宝された理由とされる。金沢市農産物ブランド協会が加賀野菜の一つに挙げている。",
+   "body_en": "## What it's made of\nAn oval leaf about the size of a palm, deep green on top and red-purple beneath, so the two colors show plainly when you flip it. The plant belongs to the daisy family, and what's eaten is the soft leaves and young stem tips. Blanched, the leaves turn slick and smooth, with a faintly earthy aroma that is often described as unlike any other green. The cooking water goes red-purple, and a splash of vinegar is said to turn it a bright red. The texture is tender, and the slipperiness spreads across the tongue as you chew.\n## How it's made\nIt isn't grown from seed but from cuttings: a length of stem is pushed into the soil and roots. Plants set out in spring branch through summer and autumn, and each time the tips are picked, new shoots come from the side, so one plant gives harvest after harvest. Picking runs from around June to November. Because the plant can't take cold, growers are said to keep mother plants under cover through winter to take the next spring's cuttings. To prepare it, strip the leaves from the stems, blanch briefly, cool in water and squeeze. It goes into ohitashi, vinegared dishes, tempura and miso soup.\n## Why it took this shape\nThe plant is thought to be native to Southeast Asia, and one account has it reaching Kaga — the old Kanazawa domain — by way of Kumamoto in the Edo period. The same species is eaten in Kumamoto as suizenji-na and in Okinawa as handama. The name kinjisō is said to compare the purple underside to the skin of kintoki, a red-skinned sweet potato. In midsummer, when tender leafy greens are hard to grow, a plant that keeps putting out leaves to pick made it a valued summer green in Kanazawa homes. Kanazawa's agricultural brand association lists it among the Kaga vegetables.",
+   "sources": [
+    {
+     "title": "金沢市農産物ブランド協会（加賀野菜）",
+     "url": "https://www.kanazawa-kagayasai.or.jp/",
+     "publisher": "金沢市農産物ブランド協会",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 石川県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/ishikawa.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kaga-futo-kyuri",
+     "relation_type": "対比",
+     "basis": "どちらも夏の加賀野菜とされるが、皮をむいて煮て食べる太い実と、摘んだ葉を茹でてぬめりを味わう葉物という、食べる部分と食べ方の対照"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "tokyo-udo",
+   "name_ja": "東京うど",
+   "name_romaji": "Tōkyō udo",
+   "name_en": "Tokyo udo — pale, tender udo stalks forced in dark underground pits, an Edo-Tokyo heirloom",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "東京都",
+   "origin_city": "立川市",
+   "lat": 35.714,
+   "lng": 139.4077,
+   "primary_style": "",
+   "summary_ja": "光を遮った地下の室で育てる白いうどで、江戸東京野菜の一つに数えられる。茎は白く柔らかく、すっとした香りとかすかなほろ苦さがあり、あくが少ないため生でも食べられるという。立川市など多摩地域が主な産地とされる。",
+   "summary_en": "Udo grown white in dark underground pits, counted among the Edo-Tokyo heirloom vegetables. The stalks are pale and tender, with a cool, clean aroma and a faint bitterness, and they're mild enough in harshness to eat raw. The Tama area, around Tachikawa, is the main growing district.",
+   "body_ja": "## 何でできているか\n茎は根元から先まで白く、先端の葉だけが淡い黄緑をしていて、長いものでは大人の腕ほどの長さに伸びるとされる。うどはウコギ科の植物で、日本の山野に自生する数少ない在来の野菜の一つという。光に当てずに育てるため繊維が柔らかく、あくも少ないので、皮をむいて薄く切れば生でしゃきしゃきと食べられる。香りは青く澄んでいて、噛むとかすかなほろ苦さが残るという。皮や穂先にも香りが強く、捨てずに使われるとされる。\n## どう作るのか\nまず畑で根株を育て、秋に掘り上げて地下の室に伏せ込むとされる。室は関東ローム層の地面に深さ数メートルの縦穴を掘り、底から横穴を広げたもので、暗く、温度と湿度が一年を通して安定しているという。根株からは光のない中で白い芽が伸び、ひと月ほどで収穫できる長さになると伝わる。時期をずらして順に伏せ込むことで、冬から春まで出荷が続くとされる。下ごしらえは皮を厚めにむき、切ったらすぐ酢水につけて色止めする。\n## なぜこの形になったのか\nうどの栽培は江戸時代に武蔵野の吉祥寺村あたりで始まったと伝わり、当初は畑で土やわらをかぶせて光を遮っていたとされる。地下に室を掘る方法が広まったのは昭和に入ってからといい、掘っても崩れにくい関東ローム層の土がそれを可能にしたとされる。江戸・東京という大きな町が近く、青物の少ない冬から春先に香りの良い白いうどが求められたことが、この育て方を続けさせた理由と考えられている。酢味噌和えはその香りを生かす代表的な食べ方という。",
+   "body_en": "## What it's made of\nThe stalks are white from base to tip, with only the leaves at the very top a pale yellow-green, and long ones are said to reach the length of an adult's arm. Udo is in the ginseng family and is one of the few vegetables native to Japan's own hills and fields. Grown without light, its fibers stay soft and its harshness low, so peeled and thinly sliced it can be eaten raw with a crisp snap. The aroma is green and clear, with a faint bitterness at the end. The peel and tips carry even more fragrance and are said to be used rather than thrown away.\n## How it's made\nRootstocks are first grown in the field, then dug up in autumn and laid into an underground muro, a growing pit. The pit is a shaft several meters deep cut into the Kantō loam, with side chambers opened out from the bottom, dark and steady in temperature and humidity all year. In the dark, white shoots rise from the roots and reach harvest length in about a month. Staggering when the roots go in keeps the harvest running from winter into spring. In the kitchen, peel it thickly and drop the cut pieces straight into vinegared water so they don't brown.\n## Why it took this shape\nUdo growing is said to have begun in the Edo period around Kichijōji village on the Musashino plain, at first by heaping soil and straw over the plants in the field to keep out the light. Digging pits underground reportedly spread only in the Shōwa era, made possible by Kantō loam, a volcanic-ash soil that holds its shape when dug. A great city close at hand, wanting something fragrant and pale in the green-poor months of winter and early spring, is thought to be why this way of growing lasted. Dressing it with vinegared miso is the classic way to show off that fragrance.",
+   "sources": [
+    {
+     "title": "うどの酢みそ和え 東京都｜うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/34_30_tokyo.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "立川市公式ホームページ",
+     "url": "https://www.city.tachikawa.lg.jp/",
+     "publisher": "立川市",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "udo-no-sumiso-ae",
+     "to_slug": "tokyo-udo",
+     "relation_type": "使用食材",
+     "basis": "うどの酢味噌和えは、地下の室で光を遮って育てた東京うどを短冊に切り、酢味噌で和える料理とされる"
+    },
+    {
+     "to_slug": "nerima-daikon",
+     "relation_type": "対比",
+     "basis": "どちらも関東ローム層が育てた江戸東京野菜とされるが、深くやわらかい土に根をまっすぐ伸ばす大根と、崩れにくい土に掘った室で光を断って育てるうどという、同じ土の生かし方の対照"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "kumamoto-hitomoji",
+   "name_ja": "ひともじ（一文字）",
+   "name_romaji": "Hitomoji",
+   "name_en": "Hitomoji — Kumamoto's bulb-grown scallion with a swollen white base, rolled up as guruguru",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "熊本県",
+   "origin_city": "熊本市",
+   "lat": 32.8031,
+   "lng": 130.7079,
+   "primary_style": "",
+   "summary_ja": "熊本で「ひともじ（一文字）」と呼ばれるわけぎの仲間。根元の白い部分がふっくらと膨らみ、葉は細く柔らかく、ねぎより辛みが穏やかで甘みがあるという。茹でて白根に葉を巻きつける「ぐるぐる」で知られ、熊本市のひご野菜の一つとされる。",
+   "summary_en": "A wakegi-type scallion that Kumamoto calls hitomoji, \"one character.\" The white base swells plump, the green leaves are slender and soft, and its bite is gentler and sweeter than a leek's. It's best known rolled into guruguru — the blanched leaves wound around the white base — and is one of Kumamoto city's higo vegetables.",
+   "body_ja": "## 何でできているか\n青い葉は細く柔らかく、根元の白い部分がふっくらと膨らむのが熊本のひともじの姿とされる。植物としてはわけぎの仲間で、ねぎとたまねぎの仲間が交わってできたものと説明されることが多い。生では香りがはっきりしているが、茹でると葉の内側からぬめりが出て、ねぎのような鋭い辛みは控えめになり、噛むと甘みと香りが残るという。膨らんだ白根の歯ごたえと青い葉の柔らかさの差が、巻いて食べる料理の軸になるとされる。\n## どう作るのか\n種がほとんど実らないため、夏に掘り上げて乾かしておいた小さな球根を、晩夏から秋に植え付けて増やすとされる。一つの球から株が次々に分かれて増え、秋から春にかけて順に収穫するという。旬は冬から春とされ、通年で出荷するための栽培の工夫も進められていると伝わる。下ごしらえは根を落として洗い、白根の方から湯に入れてさっと茹で、広げて冷ます。ぐるぐるにするほか、ぬたや汁物の薬味にも使われるという。\n## なぜこの形になったのか\n名は、宮中の女房言葉でねぎを「き」と一文字で呼んだことに由来するという説が伝わる。熊本では江戸時代から栽培が続くとされ、肥後藩が倹約を説いた時代に、安く手に入るひともじを巻いて酒の肴にしたのがぐるぐるの始まりと伝わる。分球して手軽に増やせ、冬の畑でも育つひともじは、城下の家々の身近な青物だったと考えられている。熊本市はこうした市域の伝統野菜を「ひご野菜」としてまとめており、ひともじもその一つに数えられているという。",
+   "body_en": "## What it's made of\nThe green leaves are slender and soft, and the white base swells out plump — that is the shape of Kumamoto's hitomoji. Botanically it belongs with wakegi, a scallion usually explained as a cross between the leek family and the onion family. Raw, the aroma is distinct; blanched, the inside of the leaves turns slippery, the sharp bite of a leek fades, and what lingers is sweetness and fragrance. The contrast between the firm, swollen base and the soft green leaves is what the rolled-up dishes are built on.\n## How it's made\nBecause it barely sets seed, it's grown from small bulbs dug up and dried in summer, then planted out from late summer into autumn. Each bulb splits into more and more shoots, and these are pulled in turn from autumn to spring. The season is winter into spring, though growers are said to be working on ways to ship it year-round. To prepare it, trim the roots, wash, lower it into boiling water white end first, blanch briefly and spread it out to cool. Besides guruguru, it goes into nuta (a vinegared-miso dressing) and tops soups.\n## Why it took this shape\nOne account traces the name to the language of court ladies, who called the leek ki — a word of a single character, hito-moji. In Kumamoto it's said to have been grown since the Edo period, and guruguru is said to have begun when the Higo domain was preaching thrift: rolling up cheap hitomoji made an inexpensive snack with sake. Easy to multiply by its bulbs and able to grow in winter fields, it is thought to have been an everyday green in the castle town's homes. Kumamoto city groups its heirloom vegetables as higo yasai, and hitomoji is counted among them.",
+   "sources": [
+    {
+     "title": "一文字のぐるぐる 熊本県｜うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/itimonji_no_guruguru_kumamoto.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "熊本市公式サイト",
+     "url": "https://www.city.kumamoto.jp/",
+     "publisher": "熊本市",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "itimonji-no-guruguru",
+     "to_slug": "kumamoto-hitomoji",
+     "relation_type": "使用食材",
+     "basis": "一文字のぐるぐるは、さっと茹でたひともじの白根を軸に青い葉を巻きつける料理で、白根の膨らみが熊本の一文字の特徴とされる"
+    },
+    {
+     "to_slug": "kujo-negi",
+     "relation_type": "対比",
+     "basis": "どちらも青い葉を食べるねぎの仲間とされるが、種から育てる葉ねぎの九条ねぎと、球根を植えて増やし白根が膨らむわけぎ系のひともじという、増やし方と形の対照"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "shima-ninjin",
+   "name_ja": "島にんじん（チデークニ）",
+   "name_romaji": "Shima ninjin (chidēkuni)",
+   "name_en": "Shima ninjin — Okinawa's slender yellow winter carrot, simmered into restorative soups",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "沖縄県",
+   "origin_city": "那覇市",
+   "lat": 26.2124,
+   "lng": 127.6809,
+   "primary_style": "",
+   "summary_ja": "沖縄で冬に出回る黄色く細長いにんじんで、方言ではチデークニと呼ばれる。ごぼうのような細長い姿で、柔らかく甘みと独特の香りがあるという。牛汁やチムシンジなど、体を養う汁物に欠かせない具とされ、沖縄県が島野菜の一つに挙げている。",
+   "summary_en": "A slender yellow carrot that comes to market in Okinawa in winter, called chidēkuni in the local language. Long and thin like burdock root, it is tender, sweet and distinctly fragrant. It's an essential ingredient in nourishing soups such as ushi-jiru (beef soup) and chimu-shinji (pork-liver broth), and Okinawa prefecture counts it among its island vegetables.",
+   "body_ja": "## 何でできているか\nごぼうのように細長く伸びる根で、長いものは30センチを超えるとされる。皮も中も淡い黄色をしていて、一般に出回る橙色のにんじんより芯まで柔らかく、煮ると甘みがはっきり出るという。香りは土の匂いを含んだ独特のもので、肉と煮込むと汁にその香りと甘みが移るとされる。細い根は斜めの薄切りにしても煮崩れにくく、形が残る。「チデークニ」は黄色い大根を意味する方言とされ、見た目がそのまま名になっているという。\n## どう作るのか\n夏の終わりから秋にかけて種をまき、11月ごろから翌春にかけて収穫するとされる。暑さの厳しい沖縄の夏には育てにくく、涼しくなってから育つ冬の野菜という。細長い根をまっすぐ伸ばすため、深く耕した柔らかい畑が向いているとされる。出回るのが冬に限られるため、牛汁などの汁物もこの時期に作られることが多いと伝わる。下ごしらえは皮をむいて斜め薄切りや乱切りにし、肉と一緒に炒めてから煮るのが汁物での使い方とされる。\n## なぜこの形になったのか\n黄色や紫の東洋系のにんじんはアジアを経て日本に伝わったとされ、本土ではほとんど作られなくなった黄色い系統が、沖縄では島の野菜として残ったという。琉球には食べ物で体を整える「クスイムン（薬になるもの）」という考え方があり、島にんじんは牛汁やチムシンジのように肉と煮込む滋養の汁物に使われてきた。冬にだけ出回る根菜が、寒い季節に体を温める料理と結びついたと考えられている。沖縄県は戦前から食べられてきた野菜を島野菜として挙げ、島にんじんもその一つとされる。",
+   "body_en": "## What it's made of\nA long, slim root like burdock, sometimes passing 30 centimeters. Skin and flesh are both a pale yellow, softer through the core than the orange carrot sold everywhere, and simmering brings out a clear sweetness. Its aroma has an earthy note all its own, and when it's stewed with meat that fragrance and sweetness pass into the broth. Even cut into thin diagonal slices, the slender root holds its shape in the pot. Chidēkuni is said to mean \"yellow daikon\" in the Okinawan language — the name simply describes what it looks like.\n## How it's made\nSeed goes in from late summer into autumn, and the roots are pulled from around November into the following spring. Okinawa's fierce summer is hard on it, so it's a winter vegetable that grows once the weather cools. To send its long root straight down, it wants soft, deeply worked soil. Because it's only on the market in winter, soups such as ushi-jiru tend to be made in this season too. In the kitchen it's peeled, cut into thin diagonal slices or chunks, and stir-fried with the meat before the liquid goes in.\n## Why it took this shape\nYellow and purple carrots of the Asian type are thought to have reached Japan by way of mainland Asia; on the main islands the yellow line all but disappeared, while Okinawa kept it as an island vegetable. Ryukyu holds to the idea of kusuimun — \"food that is medicine\" — and shima ninjin has gone into nourishing soups simmered with meat, like ushi-jiru and chimu-shinji. A root that appears only in winter is thought to have tied itself to dishes meant to warm the body in the cold months. Okinawa prefecture names the vegetables eaten since before the war as shima yasai, island vegetables, and shima ninjin is among them.",
+   "sources": [
+    {
+     "title": "牛汁 沖縄県｜うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_26_okinawa.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "チムシンジ 沖縄県｜うちの郷土料理",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/menu/47_17_okinawa.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "from_slug": "ushi-jiru",
+     "to_slug": "shima-ninjin",
+     "relation_type": "使用食材",
+     "basis": "牛汁は牛肉と冬に出回る島にんじん（チデークニ）を煮込む沖縄の汁物とされる"
+    },
+    {
+     "from_slug": "chimu-shinji",
+     "to_slug": "shima-ninjin",
+     "relation_type": "使用食材",
+     "basis": "チムシンジは豚レバーと豚肉、黄色い島にんじんのチデークニを煎じるように煮込む滋養食とされる"
+    },
+    {
+     "to_slug": "otsuka-ninjin",
+     "relation_type": "対比",
+     "basis": "どちらも細長く伸びる在来のにんじんとされるが、甲府盆地の深い火山灰土で1メートル近く伸びる大塚にんじんと、亜熱帯の冬に育つ黄色い島にんじんという、土地と色と季節の対照"
+    }
+   ],
+   "tags": [
+    "ryukyu"
+   ]
+  },
+  {
+   "slug": "sendai-yukina",
+   "name_ja": "仙台雪菜",
+   "name_romaji": "Sendai yukina",
+   "name_en": "Sendai yukina — a winter leafy green from Sendai that sweetens in the cold, eaten blanched or pickled",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "宮城県",
+   "origin_city": "仙台市",
+   "lat": 38.2682,
+   "lng": 140.8694,
+   "primary_style": "",
+   "summary_ja": "仙台で冬に収穫されるつけ菜の仲間で、寒さに当たるほど甘みが増すとされる。濃い緑の葉と柔らかな茎は、茹でるとほろ苦さと歯ごたえが残るという。おひたしやごま和え、漬物にして食べられ、仙台の伝統野菜の一つに数えられている。",
+   "summary_en": "A leafy green of the tsukena (pickling-green) family harvested in Sendai in winter, said to grow sweeter the more cold it takes. Blanched, its deep green leaves and tender stems keep a gentle bitterness and a bit of crunch. It's eaten as ohitashi, dressed with sesame, or pickled, and is counted among Sendai's heirloom vegetables.",
+   "body_ja": "## 何でできているか\n濃い緑の葉と、やや太く柔らかい茎をもつ青菜で、つけ菜と呼ばれるアブラナ科の葉物の仲間とされる。生ではかすかな辛みがあり、茹でると茎はしゃきっとした歯ごたえを保ち、ほろ苦さの奥に甘みが感じられるという。寒さに当たった株ほど甘みが増すと説明されることが多い。おひたしやごま和え、からし和え、漬物、汁の具など、冬の青物として幅広く使われるとされる。茹でると緑がいっそう冴え、冬の食卓の彩りになるという。\n## どう作るのか\n秋に種をまき、冬の寒さの中で育てて、12月ごろから春先にかけて収穫するとされる。寒さに当てることで葉や茎に甘みがのるため、急いで抜かず、冬を越させながら順に収穫するという。仙台市内や近郊の農家が少量ずつ作り、冬の直売所や市場に並ぶとされる。下ごしらえは根元を落として洗い、茎の方から湯に入れてさっと茹で、水にとって絞る。茹ですぎると歯ごたえが失われるため、短い時間で引き上げるのがよいとされる。\n## なぜこの形になったのか\n来歴ははっきりしておらず、仙台の周辺で古くから作られてきたつけ菜が土地に定着したものとする説があるという。冬の仙台は雪こそ多くないものの冷え込みが厳しく、青い野菜が乏しくなる時期に、寒さに耐えて育つ雪菜は貴重な青物だったと考えられている。仙台では曲がりねぎや仙台せりと並んで、地元で受け継がれてきた伝統野菜の一つに数えられているという。同じ「雪菜」の名をもつ山形県米沢の雪菜は、雪の下で芽を育てる別の在来野菜とされる。",
+   "body_en": "## What it's made of\nA green with deep-colored leaves and fairly thick, tender stems, counted among the tsukena — leafy greens of the mustard and turnip family. Raw it has a faint pepperiness; blanched, the stems stay crisp and there's a sweetness under the light bitterness. It's often said that the more cold a plant has weathered, the sweeter it gets. As a winter green it goes many ways: ohitashi, sesame or mustard dressings, pickles, the green in a soup. Blanching brightens its color, a welcome spot of green on the winter table.\n## How it's made\nSeed is sown in autumn, the plants grow on through the winter cold, and harvest runs from around December into early spring. Since the cold is what loads sweetness into the leaves and stems, growers don't rush; they let the plants winter in the field and pick them in turn. Farms in and around Sendai grow it in small amounts, and it shows up at farm stands and markets in winter. To prepare it, trim the base, wash, lower it stem-first into boiling water, blanch briefly, cool in water and squeeze. Overcooking loses the crunch, so it comes out quickly.\n## Why it took this shape\nIts history is unclear; one view holds that a pickling green long grown around Sendai simply settled into the local fields. Sendai winters bring little snow but sharp cold, and in the months when green vegetables ran short, a plant that could stand the cold is thought to have been a precious green. Sendai counts it among the heirloom vegetables passed down locally, alongside magari-negi, the bent leek, and Sendai seri. Yonezawa in Yamagata has a vegetable also called yukina, but it is a different heirloom, grown as shoots under the snow.",
+   "sources": [
+    {
+     "title": "仙台市公式ホームページ",
+     "url": "https://www.city.sendai.jp/",
+     "publisher": "仙台市",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 宮城県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/miyagi.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "sendai-seri",
+     "relation_type": "対比",
+     "basis": "どちらも仙台の冬の青物とされるが、湧き水を引いた田の流れで育つせりと、畑で寒さに当てて甘みをのせる雪菜という、育つ場所の対照"
+    },
+    {
+     "to_slug": "sendai-magari-negi",
+     "relation_type": "対比",
+     "basis": "どちらも仙台で受け継がれてきた冬の伝統野菜とされるが、植え直して白根を曲げるねぎと、寒さに当てて葉と茎を甘くする青菜という、冬の仕立て方の対照"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "minden-nasu",
+   "name_ja": "民田なす",
+   "name_romaji": "Minden-nasu",
+   "name_en": "Minden-nasu — Tsuruoka's tiny, firm eggplant picked young for overnight and mustard pickles",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "山形県",
+   "origin_city": "鶴岡市",
+   "lat": 38.741,
+   "lng": 139.79,
+   "primary_style": "",
+   "summary_ja": "鶴岡市の民田地区で受け継がれてきた小さな丸なすで、一個が卵よりずっと小さいほどとされる。皮がやや硬く、身が締まって漬けても形が崩れにくいため、一夜漬けやからし漬けにして食べるのが庄内の定番という。",
+   "summary_en": "A tiny round eggplant kept in the Minden district of Tsuruoka, each one far smaller than an egg. The skin is a little firm and the flesh dense, so it holds its shape when pickled, and in the Shōnai region it's eaten as overnight pickles or karashi-zuke, pickled in mustard.",
+   "body_ja": "## 何でできているか\n実は丸みのある卵形で、重さは一個10〜20グラムほどと小さく、皮は濃い紫でつやがあるとされる。皮はやや硬めで、身は詰まって種が少なく、噛むときゅっとした歯ごたえがあるという。煮たり焼いたりするよりも漬物に向くと言われ、塩で漬けると皮の紫が鮮やかに残り、からしで漬けると辛みが身にしみてぴりっとした味になるとされる。一口で食べられる大きさのため、丸ごと漬けて丸ごと食べるのが普通という。\n## どう作るのか\n春に苗を植え、夏から初秋にかけて、実が小さいうちに一つずつ摘み取るとされる。大きく育てる前に収穫するため、最盛期には毎日のように畑を回るという。種は産地の農家が自家採種で受け継いできたと伝わる。漬けるときはへたを残したまま塩などでもみ、一晩置く一夜漬けにするほか、からしと砂糖、塩を合わせた床に漬けるからし漬けにするのが、鶴岡の家庭で親しまれてきた食べ方とされる。\n## なぜこの形になったのか\n江戸時代の初めごろ、民田の八幡神社の造営に京都から来た宮大工が持ち込んだなすの種に始まると伝わる。庄内の家庭では夏の野菜を漬物にして食卓に並べる習慣が根づいており、漬けても形が崩れない小ぶりの実が選ばれ続けたと考えられている。松尾芭蕉が奥の細道の旅で鶴岡に立ち寄った際に詠んだ「めづらしや山をいで羽の初茄子」は、民田なすを詠んだものと伝わる。鶴岡市は在来作物の多い土地として知られ、民田なすもその一つに数えられているという。",
+   "body_en": "## What it's made of\nThe fruit is a rounded egg shape weighing only about 10 to 20 grams, with glossy, deep purple skin. The skin is on the firm side and the flesh dense with few seeds, giving a tight little snap when you bite. It's said to suit pickling far better than simmering or grilling: salted, the purple skin stays vivid; pickled in mustard, the heat soaks into the flesh for a sharp, tingling bite. Small enough to eat in one mouthful, it's normally pickled whole and eaten whole.\n## How it's made\nSeedlings are planted in spring, and from summer into early autumn the fruit is picked one by one while still small. Because it's harvested before it can grow large, at the peak growers walk the rows almost every day. Seed is said to have been saved by the growers themselves year after year. For pickling, the calyx is left on and the eggplants are rubbed with salt, then left overnight as ichiya-zuke, overnight pickles — or bedded in a mix of mustard, sugar and salt as karashi-zuke, the way Tsuruoka homes have long enjoyed them.\n## Why it took this shape\nThe tradition goes that in the early Edo period, temple carpenters who came from Kyoto to build Minden's Hachiman shrine brought eggplant seed with them. Shōnai households have a strong habit of pickling summer vegetables for the table, and small fruit that keeps its shape in the pickle crock is thought to be what growers kept choosing. When the poet Matsuo Bashō stopped in Tsuruoka on his Narrow Road to the Deep North journey, he wrote a haiku on \"the first eggplant of Dewa\" that is said to be about minden-nasu. Tsuruoka is known for its many heirloom crops, and this is one of them.",
+   "sources": [
+    {
+     "title": "鶴岡市公式ホームページ",
+     "url": "https://www.city.tsuruoka.lg.jp/",
+     "publisher": "鶴岡市",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "うちの郷土料理 山形県",
+     "url": "https://www.maff.go.jp/j/keikaku/syokubunka/k_ryouri/search_menu/area/yamagata.html",
+     "publisher": "農林水産省",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "kamo-nasu",
+     "relation_type": "対比",
+     "basis": "民田なすは京都から来た宮大工が種を持ち込んだと伝わるが、大きく育てて田楽や揚げ物にする賀茂なすと、小さいうちに摘んで丸ごと漬ける民田なすという、大きさと食べ方の対照"
+    },
+    {
+     "to_slug": "dadacha-mame",
+     "relation_type": "対比",
+     "basis": "どちらも鶴岡で農家の自家採種によって受け継がれてきた夏の在来作物とされるが、ゆでて香りを味わう枝豆と、漬けて歯ごたえを味わう小なすという食べ方の対照"
+    }
+   ],
+   "tags": []
+  },
+  {
+   "slug": "tanabe-daikon",
+   "name_ja": "田辺大根",
+   "name_romaji": "Tanabe-daikon",
+   "name_en": "Tanabe daikon — Osaka's short, blunt-tipped white radish, tender and sweet for simmering",
+   "type": "ingredient",
+   "shelf": "vegetables",
+   "genre": "local-vegetables",
+   "origin_pref": "大阪府",
+   "origin_city": "大阪市東住吉区",
+   "lat": 34.62,
+   "lng": 135.528,
+   "primary_style": "",
+   "summary_ja": "大阪市東住吉区の田辺で作られてきた白い大根で、根の先が細らずに丸く太る短めの姿をしている。肉質はきめ細かく柔らかで甘みがあるとされ、ふろふきや炊き合わせに向くという。なにわの伝統野菜の一つに位置づけられている。",
+   "summary_en": "A white daikon radish long grown in Tanabe, in Osaka's Higashi-Sumiyoshi ward — short, with a tip that rounds off thick instead of tapering. The flesh is fine-grained, tender and sweet, well suited to furofuki (simmered daikon with miso) and mixed simmered dishes. It is one of Osaka's certified Naniwa traditional vegetables.",
+   "body_ja": "## 何でできているか\n長さは20センチ前後、直径8〜9センチほどの円筒形で、根の先が細らずに丸く太る「尻づまり」の形をしているとされる。首まで白く、葉には切れ込みがほとんどなく、表面にとげのような毛がないのが特徴という。肉質はきめ細かく柔らかで、辛みが少なく甘みがあるとされ、炊くと早く火が通り、だしをよく含むと説明されることが多い。生でおろすと、辛みよりもみずみずしさが先に立つという。\n## どう作るのか\n8月末から9月に種をまき、11月から翌年1月ごろにかけて収穫するとされる。根が短く、地中深くまでは伸びないため、引き抜きやすいという。昭和の中ごろに病気や宅地化で一度ほとんど姿を消したが、残っていた種をもとに地元の人々や研究機関が栽培を復活させたと伝わる。現在は東住吉区内や府内の農家で作られているという。ふろふきや炊き合わせ、なますのほか、柔らかい葉も菜飯や炒め物に使われるとされる。\n## なぜこの形になったのか\n江戸時代から田辺のあたりで栽培されてきたと伝わる。田辺は上町台地の南の端にあたり、水はけのよい土が根菜づくりに向いていたとされる。大阪の町に近く、冬の煮物用の大根として市中へ運ばれたことが、干して漬けるための細長い大根ではなく、炊いて柔らかく甘い短い大根を選ばせたと考えられている。大阪府はこうした在来の野菜を「なにわの伝統野菜」として認証しており、田辺大根もその一つとされる。",
+   "body_en": "## What it's made of\nA cylinder about 20 centimeters long and 8 to 9 centimeters across, with a tip that doesn't taper but rounds off full — the shape growers call shirizumari, \"packed at the bottom.\" It is white right up to the neck, its leaves are barely notched, and they lack the prickly hairs of most daikon. The flesh is fine and tender, low in pungency and sweet; it's often said to cook through quickly and soak up broth well. Grated raw, it tastes juicy before it tastes hot.\n## How it's made\nSeed goes in from late August into September, and the roots are pulled from November to around January. The roots are short and don't plunge deep, so they come up easily. In the mid-Shōwa years disease and the spread of housing nearly wiped it out, but local people and researchers are said to have revived it from seed that had survived. Today farms in Higashi-Sumiyoshi and elsewhere in Osaka prefecture grow it. Besides furofuki and simmered dishes it goes into namasu (vinegared salads), and the soft leaves are used in greens rice and stir-fries.\n## Why it took this shape\nIt's said to have been grown around Tanabe since the Edo period. Tanabe sits at the southern end of the Uemachi upland, where well-drained soil is said to have suited root crops. Being close to the city of Osaka and sent into town as a winter radish for simmering is thought to be what favored a short, tender, sweet root over the long, lean kind grown for drying and pickling. Osaka prefecture certifies such heirloom crops as Naniwa traditional vegetables, and Tanabe daikon is among them.",
+   "sources": [
+    {
+     "title": "大阪府公式サイト",
+     "url": "https://www.pref.osaka.lg.jp/",
+     "publisher": "大阪府",
+     "accessed_at": "2026-10-04"
+    },
+    {
+     "title": "大阪市ホームページ",
+     "url": "https://www.city.osaka.lg.jp/",
+     "publisher": "大阪市",
+     "accessed_at": "2026-10-04"
+    }
+   ],
+   "regions": [],
+   "relations": [
+    {
+     "to_slug": "nerima-daikon",
+     "relation_type": "対比",
+     "basis": "どちらも大きな町の近郊で育った在来の大根とされるが、干してたくあんに漬ける細長い練馬大根と、炊いて食べる短く柔らかい田辺大根という、町の需要が分けた形の対照"
+    },
+    {
+     "to_slug": "tennoji-kabura",
+     "relation_type": "対比",
+     "basis": "どちらも大阪市内の上町台地周辺で守られてきたなにわの伝統野菜の白い根菜とされるが、肩を張って横に太るかぶと、先まで丸く太る短い大根という形の対照"
+    }
+   ],
+   "tags": []
+  }
+ ],
+ "notes": "【veg-9（前回の束の notes に残った追加候補）】genres[] は書かない。7件すべて type=ingredient / shelf=vegetables / genre=local-vegetables。県別: 石川1（金時草）・東京1（東京うど）・熊本1（ひともじ）・沖縄1（島にんじん）・宮城1（仙台雪菜）・山形1（民田なす）・大阪1（田辺大根）。Web 非到達環境で執筆。【出典の確信度】高: 農林水産省うちの郷土料理の献立ページ 34_30_tokyo（tokyo-udo）・itimonji_no_guruguru_kumamoto（kumamoto-hitomoji）・47_26_okinawa / 47_17_okinawa（shima-ninjin）は既存投入データ data/content/kyodo-*.json と同一 URL。農林水産省の県一覧 area/ishikawa・miyagi・yamagata、金沢市農産物ブランド協会 https://www.kanazawa-kagayasai.or.jp/（前回の束で使用済み）。中（自治体トップのみ・ドメインは記憶）: 立川市 https://www.city.tachikawa.lg.jp/ 、熊本市 https://www.city.kumamoto.jp/ 、仙台市 https://www.city.sendai.jp/ 、鶴岡市 https://www.city.tsuruoka.lg.jp/ 、大阪府 https://www.pref.osaka.lg.jp/ 、大阪市 https://www.city.osaka.lg.jp/ 。要確認: kinjiso / sendai-yukina / minden-nasu / tanabe-daikon の出典は一覧・トップページ（野菜個別ページの URL は作っていない）。Wikipedia は未使用。【座標】kinjiso=金沢市役所、tokyo-udo=立川市役所（主産地の代表点。既存料理 udo-no-sumiso-ae は武蔵野市）、kumamoto-hitomoji=熊本市役所（既存 suizenji-seri と同一点）、shima-ninjin=那覇市（県全域のため県庁所在地。既存 okinawa-gooyaa と同一点）、sendai-yukina=仙台市役所（産地地区を特定できず）、minden-nasu=鶴岡市民田地区の推定点（確信度中）、tanabe-daikon=東住吉区役所付近（東田辺）。同一点のピン重なりが気になる場合はオーケストレーターの判断で微調整を。【関係】使用食材4本（udo-no-sumiso-ae / itimonji-no-guruguru / ushi-jiru / chimu-shinji → 各野菜）、対比10本（kinjiso→kaga-futo-kyuri、tokyo-udo→nerima-daikon、kumamoto-hitomoji→kujo-negi、shima-ninjin→otsuka-ninjin、sendai-yukina→sendai-seri・sendai-magari-negi、minden-nasu→kamo-nasu・dadacha-mame、tanabe-daikon→nerima-daikon・tennoji-kabura）。民田なすと賀茂なすは「京都から種が来た」伝承があるが品種の系譜は確認できないため派生にせず対比。民田なすを使う既存の漬物アイテムは無かった（yamagata-dashi は一般のなすで、民田なす指定ではないため結んでいない）。既存 yonezawa-hiyajiru の「雪菜」は米沢の雪菜（別の在来野菜）で仙台雪菜ではないため結んでいない。既存 udo-shimidaikon-donkoroni（山形）のうどは東京うどではないため結んでいない。既存 ninjin-shirishirii は一般の人参の料理のため島にんじんとは結んでいない。金時草は熊本の水前寺菜・沖縄のハンダマと同じ植物（本文で言及）。既存 suizenji-seri（水前寺せり）は別植物なので結んでいない。tags は shima-ninjin の ryukyu のみ。【裏が取れず書けなかった内容・要判断】(1) tokyo-udo: 室の深さは「数メートル」、茎の長さは「大人の腕ほど」に留めた。栽培開始の地（吉祥寺村）・室栽培の普及時期（昭和）は伝承・通説として記載。主産地を立川市としたのは記憶による。(2) kinjiso: 「江戸時代に熊本を経て加賀へ」は一説として記載。名の由来（金時芋の色）は伝承として記載。冬の親株の保護はハウス等と一般化。(3) kumamoto-hitomoji: ひご野菜の一覧に「一文字」が含まれることは記憶による（要確認）。名の由来（女房言葉）は既存 itimonji-no-guruguru の本文と同じ説。name_ja は「ひともじ（一文字）」、slug は地名つきの kumamoto-hitomoji にした（料理側の slug 表記 itimonji とは揃えていない）。(4) shima-ninjin: 主産地（市町村）を特定できず那覇市。東洋系にんじんの伝来経路は一般説として記載。(5) sendai-yukina: 来歴・系統（品種の親）は確証が無く「はっきりしていない」と断った。収穫期（12月〜春先）と寒さで甘みが増す点は一般的な説明の範囲。仙台市の伝統野菜としての位置づけは「数えられているという」で留めた。確信度は7件中もっとも低いので、オーケストレーターの判断で投入を保留してもよい。(6) minden-nasu: 重さ10〜20グラム、民田八幡神社と京都の宮大工の伝承、芭蕉の句（めづらしや山をいで羽の初茄子）が民田なすを詠んだという説は伝承として記載。(7) tanabe-daikon: 寸法（長さ20cm前後・直径8〜9cm）、葉に毛がない特徴、昭和中期の衰退と復活は記憶による通説。なにわの伝統野菜の認証年は書いていない。【対象外・候補】残る候補（今回担当外）: 仙台長なす・仙台芭蕉菜（宮城）、温海かぶ（山形）、打木赤皮甘栗かぼちゃ・へた紫なす（石川）、亀戸大根・馬込三寸にんじん（東京）、熊本京菜・春日ぼうぶら・水前寺菜（熊本）、ナーベーラー・ハンダマ・島大根（沖縄）、毛馬胡瓜（大阪）。"
+}

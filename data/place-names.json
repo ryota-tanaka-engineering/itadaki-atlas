@@ -3483,5 +3483,30 @@
   "pref": "鹿児島県",
   "city": "西之表市",
   "en": "Nishinoomote"
+ },
+ {
+  "pref": "沖縄県",
+  "city": "読谷村",
+  "en": "Yomitan"
+ },
+ {
+  "pref": "兵庫県",
+  "city": "丹波市",
+  "en": "Tamba"
+ },
+ {
+  "pref": "京都府",
+  "city": "亀岡市",
+  "en": "Kameoka"
+ },
+ {
+  "pref": "東京都",
+  "city": "立川市",
+  "en": "Tachikawa"
+ },
+ {
+  "pref": "大阪府",
+  "city": "大阪市東住吉区",
+  "en": "Osaka (Higashisumiyoshi Ward)"
  }
 ]

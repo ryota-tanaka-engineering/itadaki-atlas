@@ -19,8 +19,8 @@ Itadaki Atlas のやることリスト（バックログ）。会話で出た要
 - [ ] 【手元】本番デプロイ（`bash scripts/deploy-prod.sh`）。公開URLの注入・robots・canonical・JSON-LD・llms.txt・詳細ページの麺/濃さチップ・チェーン逆引きが反映される
 - [ ] 【手元】デプロイ後、構造化データを Google「リッチリザルト テスト」と schema.org の検証ツールで確認（詳細・ジャンル・県・ガイドを1つずつ。Search Console のアカウントは要らない）。**Search Console と sitemap 送信は独自ドメイン移行後**（2026-10-10 決定。workers.dev に評価を貯めない）
 - [ ] 【手元】マイグレーション `20261004000000_dish_details_noodle_vocab.sql` をローカルと本番に適用
-- [ ] 【手元】出典URLの疎通検査 `node scripts/check-source-urls.ts data/content/soy-foods-*.json data/content/vegetables-*.json`。200 以外を直す
-- [ ] 【手元】投入（この順）: ラーメン4章目161件（`bash data/ledgers/ingest-howto.sh`）→ ガイド（`scripts/import-guides.ts`）→ 大豆 `soy-foods-1→3` → 野菜 `vegetables-1→8`（7 は 5 に依存）。各段のあと `npm run content:lint -- --strict`
+- [ ] 【手元】出典URLの疎通検査 `node scripts/check-source-urls.ts data/content/soy-foods-*.json data/content/vegetables-*.json data/content/tubers-1.json`。200 以外を直す
+- [ ] 【手元】投入（この順）: ラーメン4章目161件（`bash data/ledgers/ingest-howto.sh`）→ ガイド（`scripts/import-guides.ts`）→ 大豆 `soy-foods-1→3` → 野菜 `vegetables-1→9`（7 は 5 に、9 は 1〜8 に依存）→ いも・豆 `tubers-1`（新ジャンル `imo-mame` を作り、野菜の束にある棚 tubers の18件を `regenre` で付け替える。必ず野菜のあと）。各段のあと `npm run content:lint -- --strict`
 - [x] 【実装】産地の英語表記を `data/place-names.json` に49件追加（2026-10-10。束の郡名・括弧つき地名は既存の流儀に正規化）
 - [ ] 【手元】`node --env-file=.env.local scripts/import-place-names.ts --file data/place-names.json`（ローカル・本番）。大豆・野菜の投入と同じタイミングで
 - [ ] 【手元】`npm run test:e2e`（4章目・麺濃さの2本は howto 投入後に通る）
@@ -56,8 +56,11 @@ Itadaki Atlas のやることリスト（バックログ）。会話で出た要
 ## 3. コンテンツ拡張
 
 - [ ] 【実装】4章目「どう食べるのか」を寿司・うどん・そば・焼き鳥へ（`data/ledgers/HOWTO_BRIEF.md` を流用）
-- [ ] 【実装】いも・豆を2件以上足して「いも・豆」ジャンルへ昇格（今は棚 `tubers` のその他18件で、野菜ジャンルから安納芋等が見つからない）
-- [ ] 【実装】各束 `notes` の追加候補: 金時草・東京うど・ひともじ・島にんじん・仙台雪菜・民田なす・田辺大根・大豆の品種 ほか
+- [x] 【実装】「いも・豆」ジャンル `imo-mame` を新設（2026-10-10。`tubers-1`: 二子さといも・三方原馬鈴薯・丹波山の芋・丹波大納言小豆・沖縄の紅いも・指宿のそらまめ＋既存18件の付け替えで24件）
+- [x] 【実装】野菜の追加7件（2026-10-10。`vegetables-9`: 金時草・東京うど・ひともじ・島にんじん・仙台雪菜・民田なす・田辺大根）
+- [ ] 【判断】いも・豆と野菜9の要判断（各束 `notes`）: 仙台雪菜は由来・親品種が未確認で本文も「定かでない」としている。投入を見送るか／丹波大納言小豆の発祥地を丹波市（春日町の碑の記憶のみ）とするか丹波篠山市か、京都側の代表地点を亀岡市とするか／薯蕷饅頭→丹波山の芋の「使用食材」／民田なすの地点（推定）・芭蕉の句の記述／ひともじ と 水前寺菜、島にんじん と ゴーヤーの地点が重なる
+- [ ] 【手元】いも・豆と野菜9の出典も `check-source-urls` に含める（`data/content/tubers-1.json data/content/vegetables-9.json`。自治体トップ級が多く、`city.tamba.lg.jp`・`city.ibusuki.lg.jp`・`vill.yomitan.okinawa.jp` はホスト名から要確認）
+- [ ] 【実装】各束 `notes` の追加候補: 仙台長なす・温海かぶ・打木赤皮甘栗かぼちゃ・亀戸大根・熊本京菜・ナーベーラー・毛馬胡瓜・能登大納言・十勝小豆・秘伝豆・紫ずきん・川越いも・大豆の品種 ほか
 - [x] 【実装】ジャンルページの系統ごとの一文解説（2026-10-10。`genre_styles`・`data/genre-styles.json` 35系統）
 - [x] 【実装】チェーン創業メモの英訳列（2026-10-10。`chains.founded_note_en`、`data/chains.json` の `founded_en` 133件）
 - [x] 【実装】タグの総論と英語の定義（2026-10-10。`tags.definition_en/intro_ja/intro_en`、`data/tags.json` 26件。/en に日本語の定義が出ていたのも解消）
