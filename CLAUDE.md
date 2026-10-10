@@ -58,7 +58,7 @@
 | :--- | :--- |
 | デプロイ先 | **Cloudflare Workers 稼働中**（2026-09 初回デプロイ。https://itadaki-atlas.itadaki-atlas.workers.dev 。デプロイは `scripts/deploy-prod.sh`（タイル退避 + 本番環境変数注入 + `npm run deploy:cf`）。計測 ID は `.env.production.local` に置く。タイルは R2 `itadaki-atlas-tiles` の r2.dev 公開URL） |
 | Supabase 本番 | **稼働中**（ref: xzkvvdldovgbuutttmzj・東京・Free。ローカルと同一データを投入済み） |
-| ドメイン `itadakiatlas.com` / Sentry / GitHub自動デプロイ（CF_DEPLOY_ENABLED） | **未設定**（ドメイン取得後に SITE_URL 設定・R2カスタムドメイン化・workers.dev 無効化をまとめて行う） |
+| ドメイン `itadakiatlas.com` / Sentry / GitHub自動デプロイ（CF_DEPLOY_ENABLED） | **未設定**（ドメイン取得後に SITE_URL 設定・R2カスタムドメイン化をまとめて行う。**workers.dev は無効化せず残す**: SITE_URL を独自ドメインにした時点で `src/lib/hostRedirect.ts`（middleware）が workers.dev の全パスを 301 で転送する。Search Console と sitemap 送信は移行後に、ドメインプロパティで） |
 | マーク（ロゴ） | **未決**（暫定=三つ紋。ブランドページの3案から選定待ち） |
 
 2026-10-04 「詳細の方に情報を厚くすべき」（ユーザー決定）: 詳細ページに (1) 任意の4章目「どう食べるのか」（店での頼み方・薬味・食べる順・場面。`ia-atlas-content` §4.5）、(2) 麺の太さ・形・濃さの事実チップ（`dish_details`。語彙は CHECK 制約）、(3) チェーン逆引き節「全国で近い味に出会うなら」（`chain_recommendations` からデータ駆動）を追加。ラーメン全161件（`data/ledgers/slugs-by-genre.txt` 基準）の4章目と属性を `data/howto/ramen-*.json` に執筆済み（**DB 投入はこれから**: `bash data/ledgers/ingest-howto.sh`。本環境は DB 不可のため手元で投入→`npm run test:e2e`→本番）。Web 非到達環境で書いたため、4章目の固有の作法（卓上薬味等）は既存本文＋系統一般の範囲に留め「店による」で断っている。要判断は各束の `notes`。

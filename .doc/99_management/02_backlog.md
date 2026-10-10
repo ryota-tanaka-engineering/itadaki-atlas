@@ -17,7 +17,7 @@ Itadaki Atlas のやることリスト（バックログ）。会話で出た要
 ## 0. 今すぐ（溜まっているものを本番に出す）
 
 - [ ] 【手元】本番デプロイ（`bash scripts/deploy-prod.sh`）。公開URLの注入・robots・canonical・JSON-LD・llms.txt・詳細ページの麺/濃さチップ・チェーン逆引きが反映される
-- [ ] 【手元】デプロイ後、Search Console に `/sitemap.xml` を送信。robots.txt と JSON-LD をリッチリザルトテストで確認
+- [ ] 【手元】デプロイ後、構造化データを Google「リッチリザルト テスト」と schema.org の検証ツールで確認（詳細・ジャンル・県・ガイドを1つずつ。Search Console のアカウントは要らない）。**Search Console と sitemap 送信は独自ドメイン移行後**（2026-10-10 決定。workers.dev に評価を貯めない）
 - [ ] 【手元】マイグレーション `20261004000000_dish_details_noodle_vocab.sql` をローカルと本番に適用
 - [ ] 【手元】出典URLの疎通検査 `node scripts/check-source-urls.ts data/content/soy-foods-*.json data/content/vegetables-*.json`。200 以外を直す
 - [ ] 【手元】投入（この順）: ラーメン4章目161件（`bash data/ledgers/ingest-howto.sh`）→ ガイド（`scripts/import-guides.ts`）→ 大豆 `soy-foods-1→3` → 野菜 `vegetables-1→8`（7 は 5 に依存）。各段のあと `npm run content:lint -- --strict`
@@ -41,7 +41,7 @@ Itadaki Atlas のやることリスト（バックログ）。会話で出た要
 - [ ] 【実装】県ページの総論。47都道府県の一行文脈＋石川（金沢）の地の文（ユーザー選択 2026-10-04。体験原則2の県ページ側の未充足、ロードマップ P2-3）。テーブル追加→執筆→県ページとトップの県絞り込みに表示
 - [ ] 【実装】県・タグ・場面ページの OGP 画像（詳細・ジャンル・チェーン・ガイドにはある）
 - [ ] 【実装】英語ページの H1 直下に説明訳の一文を置く（AI が拾う定義文）。4章目・ガイドの見出しを質問文に寄せるかも検討
-- [ ] 【手元】独自ドメイン `itadakiatlas.com` 一式（`.env.production.local` に `NEXT_PUBLIC_SITE_URL`、R2 カスタムドメイン、workers.dev 無効化）
+- [ ] 【手元】独自ドメイン `itadakiatlas.com` 一式。順番: (1) `.env.production.local` に `NEXT_PUBLIC_SITE_URL=https://itadakiatlas.com` を置いてデプロイ（workers.dev からの 301 は `src/lib/hostRedirect.ts` で自動的に効く。**workers.dev は無効化しない**）(2) R2 カスタムドメイン (3) Search Console にドメインプロパティ（DNS 確認）で登録し sitemap を送信 (4) workers.dev を登録していた場合は「アドレス変更」も
 - [ ] 【手元】計測ID（GA4・Cloudflare Web Analytics）の設定
 - [ ] 【判断】【実装】イラストのスタイル確定（`.doc/40_operation/01_strategy.md` §2・ロードマップ §5）。描き分けの難しい5〜10種でストレステスト、合否ラインは茶系スープの区別。合格したスタイルをプロンプトテンプレと参照画像として Skill 化してから量産。部位図の SVG 線画の延長から始められる
 
@@ -61,6 +61,7 @@ Itadaki Atlas のやることリスト（バックログ）。会話で出た要
 ## 4. 後回し
 
 - [ ] `ia-atlas-deploy` Skill の作成
+- [ ] `src/middleware.ts` を Next 16 の `proxy.ts` に改名（middleware は非推奨。OpenNext Cloudflare での proxy の動作を確認してから）
 - [ ] 出典の発行元名だけを脚注で出す折衷案（今は出典を UI 非表示）
 - [ ] 実写への差し替え（収益化後。`.doc/40_operation/01_strategy.md` §2.3）
 
