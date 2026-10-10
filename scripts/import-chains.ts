@@ -38,6 +38,8 @@ const chainSchema = z.object({
   name_ja: z.string().trim().min(1, "必須"),
   name_en: z.string().trim().min(1, "必須"),
   founded: z.string().trim().min(1).optional(),
+  // 創業メモの英語（2026-10-10。founded の事実の翻訳）
+  founded_en: z.string().trim().min(1).optional(),
   style: z.string().trim().min(1).optional(),
   style_ja: z.string().trim().min(1).optional(),
   style_en: z.string().trim().min(1).optional(),
@@ -116,6 +118,7 @@ async function main() {
           style_ja: c.style_ja ?? c.style ?? null,
           style_en: c.style_en ?? null,
           founded_note: c.founded ?? null,
+          founded_note_en: c.founded_en ?? null,
           bridge_ja: c.bridge_ja,
           bridge_en: c.bridge_en,
           genre_slug: c.genre_slug ?? "ramen",

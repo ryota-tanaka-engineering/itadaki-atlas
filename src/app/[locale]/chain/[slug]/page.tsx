@@ -67,8 +67,8 @@ export default async function ChainPage({ params }: { params: Promise<Params> })
 
   const displayName = isJa ? chain.nameJa : chain.nameEn;
   const style = isJa ? chain.styleJa : chain.styleEn;
-  // founded_note は日本語のみのカラム（英訳列が無い）。英語ページで日英混在にしないため ja のみで出す。
-  const founded = isJa ? chain.foundedNote : null;
+  // 創業メモ: /en は founded_note_en（2026-10-10 追加）。未投入なら出さない（日英を混ぜない）
+  const founded = isJa ? chain.foundedNote : chain.foundedNoteEn;
   const tp = await getTranslations("prefecture");
   const prefLimited = chain.prefLimited ? t("prefLimited", { pref: tp(chain.prefLimited as Prefecture) }) : null;
   const bridge = isJa ? chain.bridgeJa : chain.bridgeEn;

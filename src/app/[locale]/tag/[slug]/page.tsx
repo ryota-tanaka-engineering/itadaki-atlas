@@ -26,9 +26,12 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   const tag = await fetchTag(slug);
   if (!tag) return {};
   const name = locale === "ja" ? tag.nameJa : tag.nameEn;
+  // /en は英語の定義・総論を使う（2026-10-10 まで日本語の定義が /en にも出ていた）
+  const description =
+    locale === "ja" ? (tag.introJa ?? tag.definition) : (tag.introEn ?? tag.definitionEn ?? undefined);
   return {
     title: name,
-    description: tag.definition,
+    description,
     alternates: localeAlternates(`/tag/${slug}`, locale),
   };
 }
@@ -57,11 +60,20 @@ export default async function TagPage({ params }: { params: Promise<Params> }) {
         <CoverHeader
           title={isJa ? tag.nameJa : tag.nameEn}
           subtitle={isJa ? tag.nameEn : tag.nameJa}
-          meta={`${tag.definition} ・ ${t("count", { count: items.length })}`}
+          meta={
+            // 定義はロケールの言語で。英語の定義が未投入なら /en では件数だけ（日本語を混ぜない）
+            (isJa ? tag.definition : tag.definitionEn)
+              ? `${isJa ? tag.definition : tag.definitionEn} ・ ${t("count", { count: items.length })}`
+              : t("count", { count: items.length })
+          }
         />
       </div>
 
       <div className="px-4 pt-8 md:px-0">
+        {/* 総論（2026-10-10。体験原則2: 一覧の前に「このタグで束ねると何が見えるか」）。未投入なら出さない */}
+        {(isJa ? tag.introJa : tag.introEn) && (
+          <p className="text-muted-foreground mb-8 leading-relaxed">{isJa ? tag.introJa : tag.introEn}</p>
+        )}
         <section className="mb-10">
           <ul className="divide-border divide-y">
             {items.map((item) => {

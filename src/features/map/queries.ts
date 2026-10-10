@@ -335,6 +335,33 @@ export async function fetchItemBySlug(
 }
 
 // -----------------------------------------------------------------------------
+// ジャンルの系統ごとの一文（genre_styles。2026-10-10）
+// -----------------------------------------------------------------------------
+
+/**
+ * ジャンルの系統（日本語の値）→ 一文。ロケールの行が無ければ ja。
+ * テーブル未作成・未投入なら空（系統見出しの下に何も出さないだけ）。
+ */
+export async function fetchGenreStyleIntros(genreSlug: string, locale: Locale): Promise<Record<string, string>> {
+  const db = await createClient();
+  const { data, error } = await db.from("genre_styles").select("style, locale, intro").eq("genre_slug", genreSlug);
+  if (error) {
+    console.warn(`fetchGenreStyleIntros skipped: ${error.message}`);
+    return {};
+  }
+  const byStyle = new Map<string, { locale: string; intro: string }[]>();
+  for (const r of (data ?? []) as { style: string; locale: string; intro: string }[]) {
+    byStyle.set(r.style, [...(byStyle.get(r.style) ?? []), r]);
+  }
+  const out: Record<string, string> = {};
+  for (const [style, rows] of byStyle) {
+    const row = pickTranslation(rows, locale);
+    if (row) out[style] = row.intro;
+  }
+  return out;
+}
+
+// -----------------------------------------------------------------------------
 // 都道府県の総論（一行）と読み物（地の文）。2026-10-10、体験原則2の県ページ側。
 // -----------------------------------------------------------------------------
 
@@ -1058,26 +1085,48 @@ export type Tag = {
   kind: string;
   nameJa: string;
   nameEn: string;
+  /** 定義（日本語）。 */
   definition: string;
+  /** 定義の英語（2026-10-10。未投入なら null → /en では定義を出さない）。 */
+  definitionEn: string | null;
+  /** 総論（2026-10-10。タグページの一覧の前）。未投入なら null。 */
+  introJa: string | null;
+  introEn: string | null;
 };
+
+type TagRowAny = {
+  slug: string;
+  kind: string;
+  name_ja: string;
+  name_en: string;
+  definition: string;
+  definition_en?: string | null;
+  intro_ja?: string | null;
+  intro_en?: string | null;
+};
+
+/**
+ * tags の行を Tag にする。新しい列（definition_en / intro_*）は `select("*")` で取り、
+ * マイグレーション前の DB（列が無い）でも undefined → null で動くようにする。
+ */
+function toTag(t: TagRowAny): Tag {
+  return {
+    slug: t.slug,
+    kind: t.kind,
+    nameJa: t.name_ja,
+    nameEn: t.name_en,
+    definition: t.definition,
+    definitionEn: t.definition_en ?? null,
+    introJa: t.intro_ja ?? null,
+    introEn: t.intro_en ?? null,
+  };
+}
 
 export async function fetchTag(tagSlug: string): Promise<Tag | null> {
   const db = await createClient();
-  const { data, error } = await db
-    .from("tags")
-    .select("slug, kind, name_ja, name_en, definition")
-    .eq("slug", tagSlug)
-    .maybeSingle();
+  const { data, error } = await db.from("tags").select("*").eq("slug", tagSlug).maybeSingle();
   if (error) throw new Error(`fetchTag failed: ${error.message}`);
-  return data
-    ? {
-        slug: data.slug,
-        kind: data.kind,
-        nameJa: data.name_ja,
-        nameEn: data.name_en,
-        definition: data.definition,
-      }
-    : null;
+  return data ? toTag(data as TagRowAny) : null;
 }
 
 export type TagWithCount = Tag & { itemCount: number };
@@ -1089,7 +1138,7 @@ export async function fetchTagsWithCounts(): Promise<TagWithCount[]> {
   // 既定上限1,000行を超えている。tags 側も収録増に備えてページングする。
   const [tags, links] = await Promise.all([
     fetchAllRows(
-      (from, to) => db.from("tags").select("slug, kind, name_ja, name_en, definition").range(from, to),
+      (from, to) => db.from("tags").select("*").range(from, to),
       "fetchTagsWithCounts",
     ),
     fetchAllRows((from, to) => db.from("food_item_tags").select("tag_slug").range(from, to), "fetchTagsWithCounts"),
@@ -1100,13 +1149,9 @@ export async function fetchTagsWithCounts(): Promise<TagWithCount[]> {
     counts.set(row.tag_slug, (counts.get(row.tag_slug) ?? 0) + 1);
   }
 
-  return tags
+  return (tags as TagRowAny[])
     .map((t) => ({
-      slug: t.slug,
-      kind: t.kind,
-      nameJa: t.name_ja,
-      nameEn: t.name_en,
-      definition: t.definition,
+      ...toTag(t),
       itemCount: counts.get(t.slug) ?? 0,
     }))
     .sort((a, b) => a.slug.localeCompare(b.slug));
@@ -1333,8 +1378,10 @@ export async function fetchChainsForItem(slug: string): Promise<Chain[]> {
 export type ChainDetail = Chain & {
   styleJa: string | null;
   styleEn: string | null;
-  /** 創業の事実（年・場所等）。日本語のみのカラム（英訳列なし）。 */
+  /** 創業の事実（年・場所等）。日本語。 */
   foundedNote: string | null;
+  /** 創業の事実の英語（2026-10-10 追加。未投入なら null → /en では出さない）。 */
+  foundedNoteEn: string | null;
   genreSlug: string;
 };
 
@@ -1347,10 +1394,8 @@ export async function fetchChainBySlug(slug: string): Promise<ChainDetail | null
   const db = await createClient();
   const { data, error } = await db
     .from("chains")
-    .select(
-      `slug, name_ja, name_en, style_ja, style_en, founded_note, bridge_ja, bridge_en, genre_slug, pref_limited,
-       chain_recommendations ( ${CHAIN_RECOMMENDATION_SELECT} )`,
-    )
+    // `*` で取る: founded_note_en（2026-10-10）がマイグレーション前の DB に無くても落とさない
+    .select(`*, chain_recommendations ( ${CHAIN_RECOMMENDATION_SELECT} )`)
     .eq("slug", slug)
     .maybeSingle();
   if (error) throw new Error(`fetchChainBySlug failed: ${error.message}`);
@@ -1363,6 +1408,7 @@ export async function fetchChainBySlug(slug: string): Promise<ChainDetail | null
     styleJa: data.style_ja,
     styleEn: data.style_en,
     foundedNote: data.founded_note,
+    foundedNoteEn: (data as { founded_note_en?: string | null }).founded_note_en ?? null,
     bridgeJa: data.bridge_ja,
     bridgeEn: data.bridge_en,
     genreSlug: data.genre_slug,

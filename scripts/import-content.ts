@@ -265,6 +265,8 @@ const chainSchema = z.object({
   name_ja: z.string().trim().min(1, "必須"),
   name_en: z.string().trim().min(1, "必須"),
   founded: optionalTrimmed(),
+  // 2026-10-10: 創業メモの英語。束経由のマージで落とさない
+  founded_en: optionalTrimmed(),
   style: optionalTrimmed(),
   style_ja: optionalTrimmed(),
   style_en: optionalTrimmed(),
@@ -274,6 +276,8 @@ const chainSchema = z.object({
   recommend: z.array(recommendSchema).default([]),
   source_url: optionalHttps(),
   source_note: optionalTrimmed(),
+  // 地域限定チェーン（import-chains.ts と同じ）。束経由のマージで落とさない
+  pref_limited: z.string().trim().min(1).nullable().optional(),
 });
 
 export const bundleSchema = z

@@ -640,6 +640,21 @@ test.describe("県の総論と読み物（2026-10-10。prefecture-intros 投入�
   });
 });
 
+test.describe("系統の一文・タグの総論・チェーン創業の英語（2026-10-10）", () => {
+  test("/en のタグページに日本語の定義が混ざらない", async ({ page }) => {
+    await page.goto("/en/tag/miso");
+    const header = page.locator("main").first();
+    // 定義（日本語のみの列）は /en に出さない。英語の定義が投入されていれば英語で出る
+    await expect(header.getByText(/味噌を主要な/)).toHaveCount(0);
+  });
+
+  // 以下は genre-styles / tags の投入後に通る
+  test("ラーメンページの系統見出しの直下に一文が出る（投入後）", async ({ page }) => {
+    await page.goto("/ja/ramen");
+    await expect(page.getByTestId("style-intro").first()).toBeVisible();
+  });
+});
+
 test.describe("データ駆動ページ（行を足すと増える機械）", () => {
   test("ジャンルページ: 系統別の一覧と三点セット", async ({ page }) => {
     await page.goto("/ja/ramen");

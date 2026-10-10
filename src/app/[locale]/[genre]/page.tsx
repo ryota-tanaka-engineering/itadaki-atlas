@@ -9,6 +9,7 @@ import {
   fetchChainsForGenre,
   fetchGenre,
   fetchGenreItems,
+  fetchGenreStyleIntros,
   fetchPlaceNames,
   fetchShelf,
   fetchShelfGenres,
@@ -109,7 +110,7 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
   const tc = await getTranslations("chain");
   const tp = await getTranslations("prefecture");
   const tg = await getTranslations("guide");
-  const [items, chains, placeNames, messages, beforeYouGoGuides] = await Promise.all([
+  const [items, chains, placeNames, messages, beforeYouGoGuides, styleIntros] = await Promise.all([
     fetchGenreItems(genreSlug, locale as Locale),
     fetchChainsForGenre(genreSlug),
     // 市区町村名の他言語表記（一覧行の発祥表記用。実装部隊の報告「/en の本場・産地
@@ -119,6 +120,8 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
     // 「食べに行く前に」（2026-09-24「場面」）。genre/shelfのいずれかにguide_linksで
     // 結ばれたガイドを逆引きする（詳細ページ [genre]/[slug]/page.tsx と同じ関数）
     fetchGuidesForItem({ genreSlug, shelfSlug: g.shelfSlug, tagSlugs: [] }, locale as "ja" | "en"),
+    // 系統ごとの一文（genre_styles。2026-10-10）。系統見出しの直下に出す。未投入なら空
+    fetchGenreStyleIntros(genreSlug, locale as Locale),
   ]);
   // この genre を含む場面（GUIDE_SCENES はコード定数なのでDB問い合わせ不要）
   const genreScenes = GUIDE_SCENES.filter((s) => (s.genres as readonly string[]).includes(genreSlug));
@@ -221,6 +224,12 @@ async function GenreView({ g, genreSlug, locale }: { g: Genre; genreSlug: string
               {grp.style ? translateStyle(grp.style) : byStyle.length > 0 ? t("otherStyles") : t("regional")}
               <span className="text-muted-foreground text-sm font-normal">{grp.items.length}</span>
             </h2>
+            {/* 系統の一文（体験原則2: 見出しの名前だけでは何の区分か伝わらない）。未投入なら出さない */}
+            {grp.style && styleIntros[grp.style] && (
+              <p className="text-muted-foreground mb-2 text-sm leading-relaxed" data-testid="style-intro">
+                {styleIntros[grp.style]}
+              </p>
+            )}
             <ul className="divide-border divide-y">
               {grp.items.map((item) => (
                 <li key={item.slug}>

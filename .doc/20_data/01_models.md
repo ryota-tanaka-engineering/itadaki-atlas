@@ -177,6 +177,7 @@ erDiagram
 | `bridge_ja` / `bridge_en` | text | 橋渡しの一文（事実ベース・断定しない・優劣なし） |
 | `genre_slug` | text | セクションを出すジャンル（データ駆動。ジャンル固有のハードコードをしない） |
 | `pref_limited` | text | **NULL可**。地域限定チェーン（静岡のさわやか等）の都道府県。該当地域ページにも出す（将来） |
+| `founded_note` / `founded_note_en` | text | 創業メモ（年・場所の事実）。`_en` は 2026-10-10 追加（それまで /en では出していなかった）。投入は `data/chains.json` の `founded` / `founded_en` |
 | `source_url` / `source_note` | text | 内部検証用。**UI非表示** |
 
 `chain_recommendations` は `chain_id` → `food_item_id` の推薦リンク（表示はアイテムリンクのみ。系統レベルの推薦は bridge 文が担う）。投入は `data/chains.json` → `scripts/import-chains.ts`。チェーンのロゴ・画像は使わない（商標。テキストのみ）。
@@ -214,6 +215,14 @@ erDiagram
 | `body_md` | text | **NULL可**。読み物（地の文、Markdown。見出し・段落・リスト・内部リンク）。旗艦の県だけ。県ページの一覧の後に「この土地の食の物語」として出す |
 
 `prefecture_intro_sources`（pref・title・url・publisher・accessed_at）は出典。**anon からは読めない**（UI 非表示の内部検証データ）。投入は `data/prefecture-intros.json` → `scripts/import-prefecture-intros.ts`（使わない語・読み物のリンク先が公開済みかを検査）。指示書は `data/ledgers/PREF_INTRO_BRIEF.md`。
+
+### 3.12 `genre_styles` と `tags` の文脈の列 — 系統の一文・タグの総論
+
+2026-10-10 追加（ユーザー選択「系統解説」「タグの総論」。体験原則2の延長）。
+
+- `genre_styles`（`genre_slug`・`style`・`locale`・`intro`。PK は3列）: ジャンルページの系統見出しの直下に出す一文。`style` は `dish_details.primary_style` の日本語の値そのもの。投入は `data/genre-styles.json` → `scripts/import-genre-styles.ts`
+- `tags.definition_en`（定義の英語。/en のタグページとトップのタグ絞り込み。2026-10-10 まで日本語の定義が /en に出ていた）、`tags.intro_ja` / `intro_en`（総論。タグページの一覧の前）。投入は `data/tags.json` → `scripts/import-tags.ts`
+- 取得側はどれもマイグレーション前の DB でも落ちない（`select("*")`、または失敗時は空）
 
 ## 4. 粒度の方針
 

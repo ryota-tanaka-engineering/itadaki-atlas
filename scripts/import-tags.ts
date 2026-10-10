@@ -19,6 +19,10 @@ const rowSchema = z.object({
   name_en: z.string().trim().min(1),
   definition: z.string().trim().min(1),
   synonyms: z.array(z.string()).default([]),
+  // 2026-10-10: 英語の定義と日英の総論（タグページの一覧の前）。未投入でも通す
+  definition_en: z.string().trim().min(1).optional(),
+  intro_ja: z.string().trim().min(1).optional(),
+  intro_en: z.string().trim().min(1).optional(),
 });
 
 async function main() {

@@ -1003,10 +1003,12 @@ export function BrowseShell({
               )}
               {/* タグ絞り込み中の定義（実装部隊の報告「タグ絞り込み中に文脈が無い」対応）。
                   ジャンル総論と同じ見た目だが line-clamp なしで1〜2行（tags.definition は短文）。
-                  definition は日本語のみのカラムのため /en では出さない（多言語正規化は後日対応。
+                  /en は definition_en（2026-10-10 追加）。未投入なら /en では出さない（日本語を混ぜない。
                   .doc/20_data/01_models.md §3 参照）。 */}
-              {filteredTag && locale === "ja" && (
-                <p className="mt-1.5 text-sm leading-relaxed">{filteredTag.definition}</p>
+              {filteredTag && (locale === "ja" ? filteredTag.definition : filteredTag.definitionEn) && (
+                <p className="mt-1.5 text-sm leading-relaxed">
+                  {locale === "ja" ? filteredTag.definition : filteredTag.definitionEn}
+                </p>
               )}
             </div>
           ) : (
