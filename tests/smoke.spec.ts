@@ -617,6 +617,29 @@ test.describe("詳細ページの情報を厚くする（2026-10。ユーザー�
   });
 });
 
+test.describe("県の総論と読み物（2026-10-10。prefecture-intros 投入後に通る）", () => {
+  test("県ページの一覧の前に総論が出て、石川は読み物へのリンクと本文がある", async ({ page }) => {
+    await page.goto("/ja/region/ishikawa");
+    const intro = page.locator("main p.leading-relaxed").first();
+    await expect(intro).toBeVisible();
+    // 総論は最初の群見出し（この土地で生まれた）より上にある
+    const introBox = await intro.boundingBox();
+    const groupBox = await page.getByRole("heading", { name: /この土地で生まれた/ }).boundingBox();
+    expect(introBox!.y).toBeLessThan(groupBox!.y);
+    await expect(page.getByRole("link", { name: "読み物を読む" })).toHaveAttribute("href", "#region-story");
+    await expect(page.getByRole("heading", { name: "この土地の食の物語" })).toBeVisible();
+
+    await page.goto("/en/region/ishikawa");
+    await expect(page.getByRole("heading", { name: "The story of food here" })).toBeVisible();
+  });
+
+  test("読み物の無い県は総論だけが出る", async ({ page }) => {
+    await page.goto("/ja/region/hokkaido");
+    await expect(page.getByRole("link", { name: "読み物を読む" })).toHaveCount(0);
+    await expect(page.getByRole("heading", { name: "この土地の食の物語" })).toHaveCount(0);
+  });
+});
+
 test.describe("データ駆動ページ（行を足すと増える機械）", () => {
   test("ジャンルページ: 系統別の一覧と三点セット", async ({ page }) => {
     await page.goto("/ja/ramen");

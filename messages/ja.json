@@ -230,7 +230,9 @@
       "honba": "この土地が本場"
     },
     "neighborsTitle": "隣の土地へ",
-    "experiencesTitle": "この土地の食体験"
+    "experiencesTitle": "この土地の食体験",
+    "storyTitle": "この土地の食の物語",
+    "storyLink": "読み物を読む"
   },
   "shelf": {
     "count": "{count}件",

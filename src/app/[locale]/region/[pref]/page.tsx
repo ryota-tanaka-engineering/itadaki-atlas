@@ -4,7 +4,9 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 import { Link } from "@/i18n/navigation";
 import { SiteFooter } from "@/components/SiteFooter";
 import { CoverHeader } from "@/components/CoverHeader";
-import { fetchItemsByPref, fetchShelves, fetchPrefsWithItems, type Locale } from "@/features/map/queries";
+import { fetchItemsByPref, fetchPrefIntro, fetchShelves, fetchPrefsWithItems, type Locale } from "@/features/map/queries";
+import { parseGuideMarkdown } from "@/features/guide/markdown";
+import { GuideBody } from "@/features/guide/GuideBody";
 import { PIN_STROKE, groupColor, styleColor } from "@/features/map/styles";
 import { fetchGuidesForPref } from "@/features/guide/queries";
 import { absoluteUrl, localeAlternates } from "@/lib/seo";
@@ -35,13 +37,16 @@ export async function generateMetadata({ params }: { params: Promise<Params> }) 
   if (items.length === 0) return {};
   const t = await getTranslations({ locale, namespace: "prefecture" });
   const name = t(pref);
+  // 総論（2026-10-10）があれば description に使う。検索結果と AI の要約に「これは何か」が出る
+  const intro = await fetchPrefIntro(pref, locale as Locale);
 
   return {
     title: locale === "ja" ? `${name}の食` : `What to eat in ${name}`,
     description:
-      locale === "ja"
+      intro?.intro ??
+      (locale === "ja"
         ? `${name}で生まれた食べもの${items.length}件。発祥地と系統で整理。`
-        : `${items.length} foods that originated in ${name}, organized by origin and style.`,
+        : `${items.length} foods that originated in ${name}, organized by origin and style.`),
     alternates: localeAlternates(`/region/${prefSlug}`, locale),
   };
 }
@@ -67,12 +72,15 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
   const items = await fetchItemsByPref(pref, locale as Locale);
   if (items.length === 0) notFound();
 
-  const [shelves, prefsWithItems, experiences] = await Promise.all([
+  const [shelves, prefsWithItems, experiences, prefIntro] = await Promise.all([
     fetchShelves(),
     fetchPrefsWithItems(),
     // この土地の食体験（食の街・市場・祭り・ビアガーデン・酒蔵/工場見学等。2026-09-12「体験と場所」）
     fetchGuidesForPref(pref, locale as Locale),
+    // 総論（一行）と読み物（地の文。旗艦の県のみ）。2026-10-10、体験原則2の県ページ側
+    fetchPrefIntro(pref, locale as Locale),
   ]);
+  const storyBlocks = prefIntro?.bodyMd ? parseGuideMarkdown(prefIntro.bodyMd) : [];
 
   const t = await getTranslations("region");
   const tg = await getTranslations("guide");
@@ -103,6 +111,7 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
     itemListJsonLd({
       url: pageUrl,
       name: isJa ? `${name}の食` : `What to eat in ${name}`,
+      description: prefIntro?.intro ?? null,
       items: items.map((i) => ({ name: isJa ? i.nameJa : i.nameRomaji, url: absoluteUrl(locale, `/${i.genreSlug ?? i.shelfSlug}/${i.slug}`) })),
     }),
   ];
@@ -115,6 +124,21 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
       </div>
 
       <div className="px-4 pt-8 md:px-0">
+        {/* 総論（体験原則2: 件数・一覧の前に「これは何か」）。ジャンルページの総論と同じ見た目。
+            読み物がある県は、一覧の下の読み物へのページ内リンクを添える */}
+        {prefIntro && (
+          <div className="mb-8">
+            <p className="text-muted-foreground leading-relaxed">{prefIntro.intro}</p>
+            {storyBlocks.length > 0 && (
+              <p className="mt-2">
+                <a href="#region-story" className="text-brand-accent-dark text-sm underline">
+                  {t("storyLink")}
+                </a>
+              </p>
+            )}
+          </div>
+        )}
+
         {groups.map((group) => (
           <section key={group.grp} className="mb-10">
             <h2 className="font-serif border-border mb-3 flex items-center gap-2 border-b pb-2 text-lg">
@@ -172,6 +196,16 @@ export default async function RegionPage({ params }: { params: Promise<Params> }
             </ul>
           </section>
         ))}
+
+        {/* この土地の食の物語（読み物・地の文。旗艦の県のみ。ロードマップ P2-3）。
+            一覧（索引）を先に、読み物をその後に置く。見出し・段落・リストとアイテムへの内部リンクは
+            ガイドと同じ最小 Markdown（React 要素として描画し HTML を流し込まない） */}
+        {storyBlocks.length > 0 && (
+          <section id="region-story" className="border-border mb-10 scroll-mt-[calc(var(--header-height)+1rem)] border-t pt-6">
+            <h2 className="font-serif mb-4 text-lg">{t("storyTitle")}</h2>
+            <GuideBody blocks={storyBlocks} />
+          </section>
+        )}
 
         {/* この土地の食体験（食の街・市場・祭り・ビアガーデン・酒蔵/工場見学等。0件なら節ごと出さない。
             CLAUDE.md体験原則3=分類名ではなく土地との関係で言う） */}

@@ -242,7 +242,9 @@
       "honba": "Renowned here"
     },
     "neighborsTitle": "Neighboring regions",
-    "experiencesTitle": "Food experiences here"
+    "experiencesTitle": "Food experiences here",
+    "storyTitle": "The story of food here",
+    "storyLink": "Read the story"
   },
   "shelf": {
     "count": "{count} items",

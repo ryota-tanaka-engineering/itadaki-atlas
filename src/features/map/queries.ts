@@ -334,6 +334,54 @@ export async function fetchItemBySlug(
   };
 }
 
+// -----------------------------------------------------------------------------
+// 都道府県の総論（一行）と読み物（地の文）。2026-10-10、体験原則2の県ページ側。
+// -----------------------------------------------------------------------------
+
+export type PrefIntro = { intro: string; bodyMd: string | null };
+
+type PrefIntroRow = { pref: string; locale: string; intro: string; body_md: string | null };
+
+/**
+ * 1県の総論と読み物。ロケールの行が無ければ ja にフォールバックする（pickTranslation と同じ）。
+ * テーブル未作成（マイグレーション前のデプロイ）や未投入でも県ページを落とさないよう、
+ * エラーは null で返す（総論は「あれば出す」装飾ではなく文脈だが、一覧を止めてまで出すものではない）。
+ */
+export async function fetchPrefIntro(pref: string, locale: Locale): Promise<PrefIntro | null> {
+  const db = await createClient();
+  const { data, error } = await db
+    .from("prefecture_intros")
+    .select("pref, locale, intro, body_md")
+    .eq("pref", pref);
+  if (error) {
+    console.warn(`fetchPrefIntro skipped: ${error.message}`);
+    return null;
+  }
+  const rows = (data ?? []) as PrefIntroRow[];
+  const row = pickTranslation(rows, locale);
+  return row ? { intro: row.intro, bodyMd: row.body_md } : null;
+}
+
+/** 全県の一行（トップの県絞り込み用）。県名 → intro。失敗時は空（fetchPrefIntro と同じ方針）。 */
+export async function fetchPrefIntros(locale: Locale): Promise<Record<string, string>> {
+  const db = await createClient();
+  const { data, error } = await db.from("prefecture_intros").select("pref, locale, intro, body_md");
+  if (error) {
+    console.warn(`fetchPrefIntros skipped: ${error.message}`);
+    return {};
+  }
+  const byPref = new Map<string, PrefIntroRow[]>();
+  for (const r of (data ?? []) as PrefIntroRow[]) {
+    byPref.set(r.pref, [...(byPref.get(r.pref) ?? []), r]);
+  }
+  const out: Record<string, string> = {};
+  for (const [pref, rows] of byPref) {
+    const row = pickTranslation(rows, locale);
+    if (row) out[pref] = row.intro;
+  }
+  return out;
+}
+
 /**
  * 同じ日本語名を持つ公開アイテムの件数（2026-10-06 SEO: 同名82組の title を県で区別するため）。
  * 1件なら区別は要らない。RLS により published だけが数えられる。

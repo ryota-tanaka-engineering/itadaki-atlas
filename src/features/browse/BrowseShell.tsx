@@ -102,6 +102,7 @@ export function BrowseShell({
   placeNames,
   guideScenes,
   shelves,
+  prefIntros,
 }: {
   items: BrowseItem[];
   /** 本場ピン（2026-09）。索引には出さず、地図でのみ items と合流する。 */
@@ -134,6 +135,8 @@ export function BrowseShell({
   guideScenes: string[];
   /** 県絞り込みの一行文脈（prefContext.ts）用。region ページと同じ棚grp（dish/ingredient/preparation）。 */
   shelves: Shelf[];
+  /** 県の総論（一行。prefecture_intros）。県名 → 文。未投入の県は無い（件数の一行だけが出る）。2026-10-10 */
+  prefIntros?: Record<string, string>;
 }) {
   const t = useTranslations("browse");
   const ti = useTranslations("item");
@@ -959,6 +962,12 @@ export function BrowseShell({
                   ジャンル絞り込みと同時のときもここに出す（上のジャンル総論の下に続く）。 */}
               {prefFilter && prefContextCounts && (
                 <div className="mt-1.5 space-y-1.5">
+                  {/* 県の総論（2026-10-10）。件数の前に「これは何か」（体験原則2）。未投入なら出さない */}
+                  {prefIntros?.[prefFilter] && (
+                    <p className="text-sm leading-relaxed" data-testid="pref-intro">
+                      {prefIntros[prefFilter]}
+                    </p>
+                  )}
                   {(() => {
                     const parts = [
                       buildPrefContextLine("prefContextDish", prefContextCounts.dish),

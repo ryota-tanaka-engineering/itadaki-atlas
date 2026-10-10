@@ -12,6 +12,7 @@ import {
   fetchPlaceNames,
   fetchPrefsWithItems,
   fetchShelves,
+  fetchPrefIntros,
   fetchTagsWithCounts,
   type Locale,
 } from "@/features/map/queries";
@@ -39,7 +40,7 @@ export default async function Home({
   setRequestLocale(locale);
 
   const t = await getTranslations("site");
-  const [items, genres, honbaPins, honbaGroupsAll, chains, prefs, tags, placeNames, sceneCounts, shelves] =
+  const [items, genres, honbaPins, honbaGroupsAll, chains, prefs, tags, placeNames, sceneCounts, shelves, prefIntros] =
     await Promise.all([
       fetchMapItems(locale as Locale),
       fetchGenres(),
@@ -65,6 +66,8 @@ export default async function Home({
       // 県絞り込みの一行文脈（prefContext.ts）用。region ページと同じ棚grp（dish/ingredient/preparation）。
       // 28件のみで1,000件上限に掛からないためページングは不要（fetchShelves 参照）。
       fetchShelves(),
+      // 県絞り込み直後の総論（一行）。2026-10-10、体験原則2。47県×短文なので全件渡してよい
+      fetchPrefIntros(locale as Locale),
     ]);
   // 件数>0の場面のみ（/guideの「場面からさがす」と同じ方針。行き止まり入口を作らない）
   const guideScenes = GUIDE_SCENES.filter((s) => (sceneCounts[s.slug] ?? 0) > 0).map((s) => s.slug);
@@ -112,6 +115,7 @@ export default async function Home({
         placeNames={placeNames}
         guideScenes={guideScenes}
         shelves={shelves}
+        prefIntros={prefIntros}
       />
     </main>
   );

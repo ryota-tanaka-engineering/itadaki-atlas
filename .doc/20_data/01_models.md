@@ -202,6 +202,19 @@ erDiagram
 
 投入は `data/guides.json` → `scripts/import-guides.ts`。
 
+### 3.11 `prefecture_intros` / `prefecture_intro_sources` — 都道府県の総論と読み物
+
+2026-10-10 追加（体験原則2の県ページ側。ユーザー選択「47県の一行＋石川の地の文」、ロードマップ P2-3）。`place_names` と同じ二層方式（県×言語の行）。
+
+| カラム（prefecture_intros） | 型 | 内容 |
+| :--- | :--- | :--- |
+| `pref` | text | 都道府県の正式名（`food_items.origin_pref` と同じ表記）。PK の一部 |
+| `locale` | text | `ja` \| `en`（将来 `zh-Hant` \| `ko`）。PK の一部 |
+| `intro` | text | 一行の総論（100〜180字）。県ページの一覧の前・トップで県を選んだ直後・メタ description・JSON-LD の description |
+| `body_md` | text | **NULL可**。読み物（地の文、Markdown。見出し・段落・リスト・内部リンク）。旗艦の県だけ。県ページの一覧の後に「この土地の食の物語」として出す |
+
+`prefecture_intro_sources`（pref・title・url・publisher・accessed_at）は出典。**anon からは読めない**（UI 非表示の内部検証データ）。投入は `data/prefecture-intros.json` → `scripts/import-prefecture-intros.ts`（使わない語・読み物のリンク先が公開済みかを検査）。指示書は `data/ledgers/PREF_INTRO_BRIEF.md`。
+
 ## 4. 粒度の方針
 
 データは最初から**市町村 + 座標**で保持する。表示は当面県単位とし、地図のズームでエリア表示に切り替える。座標は市町村役場等の代表点でよい。
